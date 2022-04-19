@@ -1,0 +1,156 @@
+[DATA]
+fromLanguageName=Good Morning
+icon=783305780a6dad8e0e4eb34109d948e6a5fc2c35
+set=1|1
+
+icon_Speaker97=https://stories-cdn.duolingo.com/image/f118359885a5dc9babe4808c746e1c15ea9cd6f4.svg
+speaker_Narrator=ja-JP-Wavenet-D
+speaker_Speaker97=ja-JP-KeitaNeural
+speaker_Speaker98=ja-jp-nanamineural
+
+[HEADER]
+> おはよう        
+~ good~morning
+$1017/speech_1017_0.mp3;4,0
+
+[LINE]
+> 茂さん|は|妻の桜さんと一緒に|家|に|います。                                           
+~ Shigeru-san  (indicates~the~topic)  with~his~wife~Sakura  home  at  is  
+$1017/speech_1017_1.mp3;3,0;2,272.26229508196724;10,136.1311475409836;2,680.6557377049181;2,136.13114754098342;5,136.13114754098365
+
+[LINE]
+SpeakerSpeaker97: おはよう|、桜             
+~                 good~morning    Sakura
+$1017/speech_1017_2.mp3;4,0;2,532.1739130434783;2,212.86956521739137
+
+[LINE]
+Speaker292: おはよう|、茂.              
+~           good~morning    Shigeru 
+$1017/speech_1017_3.mp3;4,0;2,229.7872340425532;2,91.91489361702125
+
+[MULTIPLE_CHOICE]
+> What does "おはよう" mean?
+- Hello.
+- Goodnight.
++ Good morning.
+
+[LINE]
+Speaker292: 私|の|英語|の|本|が|どこ|に|あるか|知ってる？                                                                                         
+~           me  (possessive~particle)  English  (possessive~particle)  book  (indicates~the~subject)  where  (particle)  is   do~you~know
+$1017/speech_1017_5.mp3;1,0;2,195.42857142857142;3,195.42857142857142;2,293.14285714285717;2,195.42857142857133;2,195.42857142857156;3,195.42857142857133;2,293.1428571428571;4,195.42857142857133;6,390.8571428571431
+
+[LINE]
+SpeakerSpeaker97: どうしたの？      
+~                 What's~wrong
+$1017/speech_1017_6.mp3;6,0
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker292: 大学|で|[英語の試験]|が|ある|の。                                             
+~           university  at   an~English~exam   (indicates~the~subject)  I~have ~  
+$1017/speech_1017_7.mp3;2,0;2,310.90909090909093;6,207.2727272727273;2,621.8181818181818;3,207.27272727272725;3,310.909090909091
+- 英語の作品
++ 英語の試験
+- 映画の試験
+
+[LINE]
+Speaker292: だから、|本|が|必要な|の。                                   
+~           so    (my)~book  (indicates~the~subject)  (I)~need ~  
+$1017/speech_1017_8.mp3;4,0;2,498;2,199.20000000000005;4,199.19999999999993;3,398.4
+
+[LINE]
+SpeakerSpeaker97: 君|の|本|ならテーブル|の上に|ある|よ。                                  
+~                 you  (possessive~particle)  book     table  on~(top~of)  is ~  
+$1017/speech_1017_9.mp3;1,0;2,157.26315789473682;2,157.26315789473682;3,157.26315789473688;5,235.8947368421052;4,393.1578947368422;3,314.52631578947353;3,235.89473684210566
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "sorry."
+Speaker292: (+ごめん|)、私|は(疲れてる)         のよ。                      
+~             sorry     I     (am)~tired    (providing~information)  
+$1017/speech_1017_10.mp3;3,0;2,386.74285714285713;2,193.37142857142862;2,193.3714285714285;5,193.3714285714285;2,483.42857142857144;2,193.37142857142862;2,193.3714285714284
+
+[LINE]
+SpeakerSpeaker97: コーヒー|は|どう？                            
+~                 coffee  (indicates~the~topic)  how~about
+$1017/speech_1017_11.mp3;4,0;2,367.20000000000005;4,146.88
+
+[LINE]
+Speaker292: ええ、|お願い   
+~           yes  please
+$1017/speech_1017_12.mp3;3,0;4,392.72727272727275
+
+[ARRANGE]
+> Tap what you hear
+SpeakerSpeaker97: [(ミルク)  ()]は?                    
+~                   milk   (indicates~the~topic)   
+$1017/speech_1017_13.mp3;3,0;2,301.7142857142857
+
+[LINE]
+Speaker292: ありがとう|いらないわ。       
+~           Thanks  I~don't~want
+$1017/speech_1017_14.mp3;5,0;7,504
+
+[LINE]
+SpeakerSpeaker97: どうぞ。       
+~                 here~you~go
+$1017/speech_1017_15.mp3;4,0
+
+[LINE]
+> 桜さん|はコーヒー|に|砂糖|を入れます。             
+~ Sakura-san    coffee  in  sugar    put  
+$1017/speech_1017_16.mp3;3,0;2,315.7894736842105;5,157.89473684210526;2,394.7368421052632;3,157.8947368421052;2,236.84210526315792;6,157.8947368421052
+
+[CONTINUATION]
+> What comes next?
+> 桜さん|は|[コーヒー]|を飲みます。                              
+~ Sakura-san  (indicates~the~topic)   coffee     drinks
+$1017/speech_1017_17.mp3;3,0;2,179.2941176470588;5,89.64705882352942;2,224.11764705882354;6,89.64705882352933
+- 牛乳
++ コーヒー
+- 本
+
+[LINE]
+Speaker292: おえっ！ 
+~           Oh~no
+$1017/speech_1017_18.mp3;4,0
+
+[LINE]
+SpeakerSpeaker97: どうしたの。         
+~                 what~(happened)
+$1017/speech_1017_19.mp3;6,0
+
+[LINE]
+Speaker292: なんて|ひどい|味！         
+~           What  terrible  taste
+$1017/speech_1017_20.mp3;3,0;4,334.08;3,334.08
+
+[LINE]
+Speaker292: 間違えて|塩|を入れちゃった。                     
+~           accidentaly  salt    put~(accidentaly)  
+$1017/speech_1017_21.mp3;4,0;2,478.125;2,191.25;7,191.25;2,669.375
+
+[LINE]
+SpeakerSpeaker97: ああ　大丈夫か？       
+~                 Oh Are~you~okay
+$1017/speech_1017_22.mp3;2,0;6,258.2608695652174
+
+[LINE]
+Speaker292: うーん.. 美味しい|コーヒー|を私に|ください。|塩じゃなくて|砂糖が入ったのが！                  
+~           Uh     delicious  coffe    to~me  please  not~with~salt  with~sugar
+$1017/speech_1017_23.mp3;3,0;8,986.6440677966102;5,704.7457627118645;2,704.7457627118645;3,281.8983050847455;6,422.84745762711873;7,845.6949152542375;10,986.6440677966102
+
+[MULTIPLE_CHOICE]
+> What happened to Sakura-san?
++ She put salt in her coffee.
+- She drank coffee with milk.
+- She spilled coffee on her book.
+
+[MATCH]
+> Tap the pairs
+- 塩 <> salt
+- 疲れてる <> tired
+- 砂糖 <> sugar
+- 本 <> book
+- コーヒー <> coffee
+- おはよう <> good morning
+
