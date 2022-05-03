@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=One Thing
+icon=717bd84875f83c678f64f124937a278061e0e778
+set_id=0
+set_index=2
+
+[HEADER]
+> Jedna rzecz (WIP) 
+~ one thing
+
+[LINE]
+> Lucy jest w domu, ze  swoją  wnuczką,         Lin.
+~ Lucy is   at home  with her granddaughter  Lin 
+
+[LINE]
+Speaker509: O nie! Nie mamy chleba.
+~            oh  no  no we~have bread   
+
+[LINE]
+Speaker508: Będziesz szła           do     sklepu?
+~            will~you~ be~going to supermarket  
+
+[LINE]
+Speaker509: Tak. Chcę zrobić kanapki z serem. 
+~           yes I~want to~make sandwhiches with cheese
+
+[MULTIPLE_CHOICE]
+> Lin and Lucy have a lot of bread.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker508: Ach, potrzebuję czegoś  ze      sklepu!
+~            oh  I~need   something from~the shop  
+
+[LINE]
+Speaker509: Czego potrzebujesz? 
+~            what you~need
+
+[LINE]
+Speaker508: Pomidora.
+~           tomato    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker508: Do [mojej~sałatki].
+~            for   my~salad     
+- mojej składki
++ mojej sałatki
+- mojej czekoladki
+
+[LINE]
+Speaker509: Dobrze.
+~           OK        
+
+[LINE]
+Speaker508: Dzięki!  
+~            thank~you 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "also."
+Speaker508: Ach! I (+też) (chcę) (trzy) (jabłka)…
+~            oh  and   also      I~want   three   apples    
+
+[LINE]
+Speaker509: Dobrze.
+~           OK        
+
+[LINE]
+Speaker508: … i   sok~pomarańczowy...
+~             and orange~juice    
+
+[LINE]
+Speaker509: Lin…
+~           Lin 
+
+[LINE]
+Speaker508: … i jeszcze   mleko, poproszę.
+~             and  hmmm milk   please    
+
+[LINE]
+Speaker509: Hmm… mam  pomysł.
+~           hmm  I~have idea 
+
+[ARRANGE]
+> Tap what you hear
+Speaker509: [(Dam) (Ci) (pieniądze), (Lin).]
+~             I~will~give   you     money     Lin   
+
+[LINE]
+Speaker508: Dlaczego? 
+~             why  
+
+[LINE]
+Speaker509: Ja tylko potrzebuję jednej rzeczy ze sklepu: chleba 
+~           I  only   I~need one thing from~the shop   bread 
+
+[MULTIPLE_CHOICE]
+> Why did Lucy give Lin money?
+- Lin is opening a sandwich shop.
++ She wants Lin to go to the supermarket.
+- Lin is going to a restaurant for lunch.
+
+[MATCH]
+> Tap the pairs
+- pomysł <> idea
+- jedna <> one
+- ja <> I
+- wnuczka <> granddaughter
+- poproszę <> please
+
