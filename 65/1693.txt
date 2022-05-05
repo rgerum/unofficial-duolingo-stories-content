@@ -1,22 +1,22 @@
 [DATA]
 fromLanguageName=Clothes for my Vacation
 icon=6fee4723d01611cffa9b4b76fd5be36697ef1e96
-set=4|3
+set=4|3learn
 
 [HEADER]
-> Ropa    para mis vacaciones
+> Ubrania na moje wakacje
 ~ clothes for  my  vacation  
 
 [LINE]
-> Lucy está en una tienda.
-~ Lucy is   at a   store  
+> Lucja jest w sklepie.
+~ Lucy is   at    store  
 
 [LINE]
-Speaker416: Hola,  ¿necesita ayuda?
-~           hello   you~need help  
+Speaker416: Dzień~dobry czy pani potrzebuję pomocy?
+~           good~morning do  you need help  
 
 [LINE]
-Speaker509: Sí,  necesito ropa    para mis vacaciones.
+Speaker509: Tak potrzebuję ubrania na wakacje.
 ~           yes  I~need   clothes for  my  vacation   
 
 [MULTIPLE_CHOICE]
@@ -25,15 +25,15 @@ Speaker509: Sí,  necesito ropa    para mis vacaciones.
 + Yes, that's right.
 
 [LINE]
-Speaker416: Está~bien.
+Speaker416: Jest~dobrze.
 ~           OK        
 
 [LINE]
-Speaker509: Necesito un vestido.
-~           I~need   a  dress   
+Speaker509: Potrzebuję sukienki.
+~           I~need    dress   
 
 [LINE]
-> Lily busca     un vestido~verde.
+> Lily szuka zielonej sukienki.
 ~ Lily looks~for a  green~dress   
 
 [MULTIPLE_CHOICE]
@@ -43,74 +43,74 @@ Speaker509: Necesito un vestido.
 - …green hat.
 
 [LINE]
-Speaker509: ¡No, yo quiero un vestido~rojo!
-~            no  I  want   a  red~dress    
+Speaker509: Nie, chcę czerwoną sukienkę!
+~            no  I~want    red dress    
 
 [LINE]
-> Lily busca     un vestido~rojo.
-~ Lily looks~for a  red~dress    
+> Lily szuka czerwonej sukienki.
+~ Lily looks~for   red dress    
 
 [LINE]
-Speaker509: Y   quiero una chaqueta.
-~           and I~want a   jacket   
+Speaker509: I   chcę kurtkę.
+~           and I~want a~jacket   
 
 [ARRANGE]
 > Tap what you hear
-> [(Lily) (busca)     (una) (chaqueta~roja).]
-~   Lily   looks~for   a     red~jacket      
+> [(Lily) (szuka)     (czerwonej) (kurtki).]
+~   Lily   looks~for   red     jacket      
 
 [LINE]
-Speaker509: ¡No, yo quiero una chaqueta~marrón!
-~            no  I  want   a   brown~jacket    
+Speaker509: Nie, ja chcę brązową~kurtkę!
+~            no  I  want   a~brown~jacket    
 
 [LINE]
-Speaker416: Está~bien…
+Speaker416: Jest~dobrze…
 ~           OK        
 
 [LINE]
-Speaker509: Un vestido~rojo, una chaqueta~marrón…
-~           a  red~dress     a   brown~jacket    
+Speaker509: czerwoną~sukienkę i brązową~kurtkę…
+~           a~red~dress   and  a~brown~jacket    
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker509: ¡[Y~un~sombrero]!
-~             and~a~hat      
-- Y un bombero
-- Y un obrero
-+ Y un sombrero
+Speaker509: [I kapelusz]!
+~             and a~hat      
+- Ty jesteś
+- I mi dajesz
++ I kapelusz
 
 [LINE]
-> Lily busca     un sombrero~azul.
-~ Lily looks~for a  blue~hat      
+> Lily szuka niebieskiego kapelusza.
+~ Lily looks~for blue hat      
 
 [LINE]
-Speaker509: ¡No, yo quiero un sombrero~gris!
-~            no  I  want   a  gray~hat      
+Speaker509: Nie, chcę szary kapelusz!
+~            no  I~want  gray hat      
 
 [LINE]
-> Lily busca     un sombrero~gris.
-~ Lily looks~for a  gray~hat      
+> Lily szuka szarego kapelusza.
+~ Lily looks~for  gray hat      
 
 [POINT_TO_PHRASE]
 > Choose the option meaning "ready."
-Speaker509: ¡(Gracias)!   ¡(Estoy) (+lista) (para) mis vacaciones!
-~             thank~you     I~am     ready   for   my  vacation   
+Speaker509: (Dziękuję)!     (Jestem) (teraz) (+gotowa) (na) moje wakacje!
+~             thank~you       I~am   now  ready   for   my  vacation   
 
 [LINE]
-Speaker416: Ahora yo necesito vacaciones.  
+Speaker416: Ja teraz potrzebuję wakacji.  
 ~           now   I  need     (a)~vacation 
 
 [MULTIPLE_CHOICE]
-> Poor Lily! Why does she need a vacation?
+> Why does Lily need a vacation?
 - She ate too much for lunch.
 + She's tired after helping Lucy find clothes.
-- She wants to buy new clothes to wear.
+- She wants to go to Poland.
 
 [MATCH]
 > Tap the pairs
 - Y <> and
-- chaqueta roja <> red jacket
-- sombrero gris <> gray hat
-- Gracias <> thank you
-- No <> no
+- czerwona kurtka <> red jacket
+- szary kapelusz <> gray hat
+- dziękuję <> thank you
+- wakacje <> vacation
 
