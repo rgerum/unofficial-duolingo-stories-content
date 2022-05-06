@@ -1,0 +1,153 @@
+[DATA]
+fromLanguageName=Surprise!
+icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
+set=1|4
+
+speaker_Speaker105=Maja
+speaker_Speaker104=Jacek
+speaker_Speaker106=Ewa
+
+[HEADER]
+> Niespodzianka!
+~ surprise      
+$942/speech_942_0.mp3;13,6
+
+[LINE]
+> Antoni jest w  restauracji ze   swoją mamą.  
+~ ~Antoni   is   in restaurant  with his   mother 
+$942/speech_942_1.mp3;6,6;5,424;2,312;12,77;3,671;6,102;5,435
+
+[LINE]
+Speaker559: Poproszę stolik dla trzech osób.  
+~           Please   table  for three  people 
+$942/speech_942_2.mp3;8,6;7,398;4,462;7,226;5,299
+
+[LINE]
+Speaker385: Trzech? Ty,  ja i...?   
+~           three   you  I  and…    
+$942/speech_942_3.mp3;6,6;4,784;4,398;2,316
+
+[MULTIPLE_CHOICE]
+> Why is Antoni confused?
++ His mom asked for a table for three instead of two.
+- His mom asked for three tables.
+- His mom didn't come to the restaurant.
+
+[LINE]
+Speaker559: Koleżanka.    
+~           female~friend 
+$942/speech_942_5.mp3;9,6
+
+[LINE]
+Speaker385: A...  mamo, muszę… 
+~           ah    mom   I~need…
+$942/speech_942_6.mp3;1,6;8,551;8,641
+
+[LINE]
+Speaker559: Mam    dla ciebie niespodziankę!
+~           I~have for you    surprise      
+$942/speech_942_7.mp3;3,6;4,231;7,186;14,292
+
+[LINE]
+Speaker385: Ja|...Ja też  mam    dla ciebie niespodziankę.
+~           I     I  also I~have for you    surprise      
+$942/speech_942_8.mp3;2,6;5,531;4,229;4,236;4,266;7,213;14,410
+
+[LINE]
+Speaker559: Moja koleżanka jest bardzo miłą studentką medycyny.   
+~           my   friend    is   very   nice student   of~medicine 
+$942/speech_942_9.mp3;4,6;10,261;5,637;7,323;5,376;10,313;9,775
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "nice."
+> Moja (koleżanka)  jest (bardzo)  (+miłą) studentką medycyny.
+$942/speech_942_10.mp3;4,6;10,255;6,653;7,354;6,406;10,324;9,688
+
+[LINE]
+Speaker559: Nazywa~się    Zofia.
+~           She~is~called ~     
+$942/speech_942_11.mp3;6,6;4,438;6,148
+
+[LINE]
+Speaker385: Mamo, muszę...  
+~           mom   I~need…   
+$942/speech_942_12.mp3;4,6;7,641
+
+[LINE]
+Speaker559: Oraz jest bardzo ładna!  Idealna dla mojego syna!
+~           and  is   very   pretty  perfect for my     son  
+$942/speech_942_13.mp3;4,6;5,266;7,310;6,403;9,1027;4,537;7,211;5,381
+
+[MULTIPLE_CHOICE]
+> Antoni's mom wants…
+- … to make a new friend.
++ … Antoni to go on a date with her friend, Zofia.
+- … Antoni to leave the restaurant.
+
+[LINE]
+> Kobieta wchodzi do restauracji.
+~ woman   enters  to restaurant  
+$942/speech_942_15.mp3;7,6;8,417;3,380;12,124
+
+[LINE]
+Speaker125: Witaj, kochanie.
+~           hello  my~love  
+$942/speech_942_16.mp3;5,6;10,721
+
+[LINE]
+Speaker559: Kochanie?
+~           my~love  
+$942/speech_942_17.mp3;8,6
+
+[MULTIPLE_CHOICE]
+> Antoni's mom knew that he was in a relationship.
+- Yes, that's true!
++ No, that's not right!
+
+[LINE]
+Speaker385: Cześć Karolino, mamo...
+~           hello ~         mom…   
+$942/speech_942_19.mp3;5,6;9,385;6,808
+
+[LINE]
+Speaker125: A   ty  jesteś  pewnie mamą Antoniego!
+~           and you you~are sure   mom  of~Antoni 
+$942/speech_942_20.mp3;1,6;3,78;7,112;7,381;5,364;10,350
+
+[LINE]
+Speaker559: Antoni!?
+$942/speech_942_21.mp3;6,6
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker125: [Miło~mi~cię~poznać],      nazywam~się Karolina, jestem żoną Antoniego.
+~            nice~to~meet~you          I~am~called ~         I~am   wife of~Antoni 
+$942/speech_942_22.mp3;4,6;3,325;4,201;7,229;14,888;4,476;9,162;8,923;5,381;10,360
+- Fajnie cię poznać
+- Dobrze cię poznać
++ Miło mi cię poznać
+
+[LINE]
+Speaker559: Żoną?!
+~           wife  
+$942/speech_942_23.mp3;4,6
+
+[LINE]
+Speaker385: Niespodzianka!
+~           surprise      
+$942/speech_942_24.mp3;13,6
+
+[MULTIPLE_CHOICE]
+> Why is Antonio's mom surprised?
++ She didn't know Antonio was married.
+- She is very happy to see Karolina.
+- The food they ordered arrived quickly.
+
+[MATCH]
+> Tap the pairs
+- jego mama <> his mother
+- miło mi cię poznać <> nice to meet you
+- syn <> son
+- żona <> wife
+- stolik <> table
+
