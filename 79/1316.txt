@@ -1,0 +1,155 @@
+[DATA]
+fromLanguageName=Happy Birthday!
+icon=af44dc77489e379a0652ce2e7b42bc96e3839833
+set=3|8
+
+speaker_Narrator=da-DK-Wavenet-A
+speaker_Speaker137=da-DK-Wavenet-A
+speaker_Speaker138=da-DK-Wavenet-C
+
+[HEADER]
+> Tillykke~med Fødselsdagen
+~ Happy        birthday    
+$1316/speech_1316_0.mp3;8,0;4,351;13,156
+
+[LINE]
+Speaker1186: Tillykke~med fødselsdagen, min skat!
+~            Happy        birthday      my  love 
+$1316/speech_1316_1.mp3;8,0;4,406.5882352941177;13,180.7058823529411;5,632.4705882352941;5,180.705882352941
+
+[LINE]
+Speaker300: Det er ikke min fødselsdag!
+~           It  is not  my  birthday   
+$1316/speech_1316_2.mp3;3,0;3,141.7142857142857;5,106.2857142857143;4,177.1428571428571;11,141.71428571428567
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1186: Jørn!   I~dag er  [din           fødselsdag]!
+~            ~       Today is   your~birthday ~           
+$1316/speech_1316_3.mp3;4,0;5,352;4,88;3,176;5,176;11,176
+- min fødselsspand
++ din fødselsdag
+- en fødselsdag
+
+[LINE]
+Speaker300: Hvis vi    ikke     fejrer      min fødselsdag…
+~           If   we    don't    celebrate   my  birthday…  
+$1316/speech_1316_4.mp3;4,0;3,107.44186046511628;8,128.93023255813955;10,171.90697674418604;6,193.39534883720938;12,85.95348837209292
+
+[LINE]
+Speaker300: …| Så   vil    jeg ikke blive tredive  år!   
+~           …  Then will   I   not  reach thirty   years 
+$1316/speech_1316_5.mp3;1,49.18518518518518;3,73.77777777777777;4,147.55555555555551;6,98.37037037037038;5,122.96296296296299;6,147.55555555555554;8,221.33333333333326
+
+[MULTIPLE_CHOICE]
+> What does Jørn mean?
+- He thinks his birthday is actually tomorrow.
++ If they don't celebrate his birthday, he won't turn 30.
+- If they don't celebrate his birthday, he'll be sad.
+
+[LINE]
+Speaker300: Det er videnskab!
+~           It  is science   
+$1316/speech_1316_7.mp3;3,0;3,138;10,103.5
+
+[LINE]
+Speaker1186: Det     er intet problem.
+~            That    is no    problem 
+$1316/speech_1316_8.mp3;3,0;6,211.07692307692307;6,90.46153846153842;8,180.92307692307696
+
+[LINE]
+Speaker1186: Hvis det ikke er  din   fødselsdag…
+~            If   it  not  is  your  birthday   
+$1316/speech_1316_9.mp3;4,0;4,115.32467532467531;5,92.25974025974027;3,115.32467532467535;5,92.25974025974023;13,115.32467532467535
+
+[CONTINUATION]
+> What comes next?
+Speaker1186: … er der    ingen fest,    ingen gave, ingen    kage……
+~              is there  no    party    no    gift  no        cake  
+$1316/speech_1316_10.mp3;1,50.46153846153846;3,75.69230769230768;4,126.15384615384615;7,151.3846153846154;5,201.84615384615387;9,151.38461538461547;5,151.38461538461536;7,227.07692307692287
++ kage
+~ cake
+- ost   
+~ cheese
+- sukker
+~ sugar 
+
+[LINE]
+Speaker300: Åhh…
+~           Ahh 
+$1316/speech_1316_11.mp3;4,0
+
+[LINE]
+Speaker1186: Åh, ja.    Og   nu     kan jeg bruge din  gave!
+~            Oh  yes    And  now    can I   use   your gift 
+$1316/speech_1316_12.mp3;2,0;4,160.55172413793105;6,240.82758620689657;4,160.551724137931;7,240.82758620689663;4,160.55172413793093;6,160.55172413793105;4,240.8275862068965;5,160.55172413793116
+
+[LINE]
+Speaker300: Åh...   hvilken gave?
+~           Ohh…    What    gift 
+$1316/speech_1316_13.mp3;2,0;11,144;5,192
+
+[ARRANGE]
+> Tap what you hear
+Speaker1186: [(En) (ny)  (computer)]!
+~              A    new   computer   
+$1316/speech_1316_14.mp3;2,0;3,129.6;9,129.6
+
+[LINE]
+Speaker1186: Men   nu    er det min nye computer.
+~            But   now   is it  my  new computer 
+$1316/speech_1316_15.mp3;3,0;5,241.92;5,201.6;4,120.96000000000004;4,161.27999999999997;4,161.27999999999997;9,161.27999999999997
+
+[LINE]
+Speaker1186: Fordi     det er ikke din  fødselsdag, vel?  
+~            Because   it  is not  your birthday    right 
+$1316/speech_1316_16.mp3;5,0;6,303.7090909090909;3,151.85454545454547;5,113.89090909090902;4,189.81818181818187;11,151.85454545454547;5,455.5636363636364
+
+[LINE]
+Speaker300: Åh…
+~           Ah…
+$1316/speech_1316_17.mp3;3,0
+
+[LINE]
+Speaker1186: Nu     vil~jeg~spise      hele den~her kage!
+~            Now    I'm~going~to~eat   all  this    cake 
+$1316/speech_1316_18.mp3;2,0;7,251.34545454545454;4,167.5636363636364;6,167.56363636363625;7,335.12727272727284;4,209.45454545454538;4,167.5636363636363;5,167.56363636363653
+
+[MULTIPLE_CHOICE]
+> She says she's going to eat all of Jørn's birthday cake.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker300: Sofie!
+$1316/speech_1316_20.mp3;5,0
+
+[LINE]
+Speaker1186: Ja? 
+~            Yes 
+$1316/speech_1316_21.mp3;2,0
+
+[LINE]
+Speaker300: Fint,      det ér min fødselsdag.
+~           Okay       it  is my  birthday   
+$1316/speech_1316_22.mp3;4,0;10,434.5;3,158;4,118.5;11,158
+
+[LINE]
+Speaker300: Men må~jeg~gerne~bede~om kun   at få  niogtyve       lys        på min kage!
+~           But can~I~please~request only  to get twenty~nine    candles    on my  cake 
+$1316/speech_1316_23.mp3;3,0;3,172.09756097560975;4,129.07317073170734;6,172.09756097560978;5,258.14634146341456;3,215.1219512195123;4,129.07317073170714;4,215.1219512195123;3,129.07317073170748;9,129.07317073170725;7,516.292682926829;6,301.1707317073174;4,129.07317073170725;5,172.09756097560967
+
+[MULTIPLE_CHOICE]
+> Jørn decided to…
++ … celebrate his 30th birthday, but he only wants 29 candles.
+- … cancel his birthday party and throw away his cake.
+- … buy Gloria a new computer for her birthday.
+
+[MATCH]
+> Tap the pairs
+- hele <> all
+- gave <> gift
+- problem <> problem
+- Hvis <> if
+- videnskab <> science
+
