@@ -1,0 +1,161 @@
+[DATA]
+fromLanguageName=New Friend
+icon=a32a3223372d29f372287688ec336de9494a603e
+set=9|8
+
+speaker_Speaker158=ru-RU-Wavenet-C
+speaker_Speaker157=ru-RU-Wavenet-B
+speaker_Speaker159=ru-RU-Wavenet-A
+
+[HEADER]
+> Новый друг  
+~ new   friend
+$1297/speech_1297_0.mp3;5,6;5,384
+
+[LINE]
+> Вероника и   Света разговаривают в~столовой.  
+~ ~        and ~     are~talking   in~a~canteen 
+$1297/speech_1297_1.mp3;8,6;2,553;6,46;14,430;2,755;9,50
+
+[SELECT_PHRASE]
+> Select the missing phrase
+> [Их    друг],   Пётр, заходит в~столовую.      
+~  their friend   ~     enters  (in)~the~canteen 
+$1297/speech_1297_2.mp3;2,6;5,182;6,568;9,690;2,576;9,69
+- Её друг
+- Их вдруг
++ Их друг
+
+[LINE]
+Speaker125: О! Привет, Петя!
+~           ~  hi      ~    
+$1297/speech_1297_3.mp3;1,0;8,171.8709677419355;6,458.32258064516134
+
+[LINE]
+Speaker856: Присаживайся.
+~           take~a~seat  
+$1297/speech_1297_4.mp3;12,0
+
+[LINE]
+Speaker385: Спасибо!   Продолжайте, не~обращайте на~меня внимания. 
+~           thank~you  go~on        don't~pay    to~me   attention 
+$1297/speech_1297_5.mp3;7,0;13,480.35820895522386;4,693.8507462686567;10,160.11940298507466;3,533.731343283582;5,160.11940298507466;9,266.86567164179087
+
+[MULTIPLE_CHOICE]
+> Petya means that Sveta and Veronika…
+- … should buy him lunch.
++ … shouldn't mind him and should continue talking.
+- … should pay attention to him immediately.
+
+[LINE]
+Speaker125: Вероника, я так        хочу, чтобы ты  с~ним    познакомилась! 
+~           ~         I (emphasis) want  that  you with~him get~acquainted 
+$1297/speech_1297_7.mp3;8,0;3,592.7272727272727;4,118.5454545454545;5,237.09090909090912;7,355.6363636363636;3,355.63636363636374;2,177.81818181818176;4,118.5454545454545;14,237.090909090909
+
+[LINE]
+Speaker856: Как~его~зовут?  
+~           what's~his~name 
+$1297/speech_1297_8.mp3;3,0;4,168.82758620689654;6,168.82758620689654
+
+[LINE]
+Speaker125: Макс.
+$1297/speech_1297_9.mp3;4,0
+
+[LINE]
+Speaker856: Хорошее  имя! 
+~           (a)~nice name 
+$1297/speech_1297_10.mp3;7,0;4,384
+
+[LINE]
+Speaker125: У~него очень~красивые глаза... и   он      такой верный...
+~           he~has very~beautiful eyes     and he~(is) so    loyal    
+$1297/speech_1297_11.mp3;1,0;5,57.049180327868854;6,142.62295081967216;9,171.14754098360652;6,256.72131147540983;5,256.72131147540983;3,57.04918032786895;6,85.5737704918032;7,171.14754098360663
+
+[LINE]
+Speaker856: Тебе~повезло!
+~           you're~lucky 
+$1297/speech_1297_12.mp3;4,0;8,222.2222222222222
+
+[LINE]
+Speaker385: Расскажи~мне немного  о~нем.    
+~           tell~me      a~little about~him 
+$1297/speech_1297_13.mp3;8,0;4,400.390243902439;8,177.95121951219517;2,355.9024390243902;4,88.9756097560977
+
+[LINE]
+Speaker125: Он всегда слушает меня. 
+~           he always listens to~me 
+$1297/speech_1297_14.mp3;2,0;7,128.8421052631579;8,300.63157894736844;5,343.578947368421
+
+[LINE]
+Speaker385: Классно.     
+~           it's~awesome 
+$1297/speech_1297_15.mp3;7,0
+
+[LINE]
+Speaker125: И   никогда не    жалуется. 
+~           and never   (not) complains 
+$1297/speech_1297_16.mp3;1,0;8,86.91891891891892;3,347.67567567567573;9,130.3783783783784
+
+[LINE]
+Speaker385: Это       хорошее  качество!
+~           that~(is) (a)~good quality  
+$1297/speech_1297_17.mp3;3,0;8,168;9,336
+
+[CONTINUATION]
+> What comes next?
+Speaker125: И   он    всегда рад  […|~меня         видеть].
+~           and he~is always glad  to~see~me ~     ~       
+$1297/speech_1297_18.mp3;1,0;3,56.400000000000006;7,84.6;4,197.39999999999998;2,169.20000000000005;5,140.9999999999999
+- …| уйти~от~меня
+~ …  to~leave~me 
++ …| меня      видеть
+~ …  to~see~me ~     
+- …| выпить  
+~ …  to~drink
+
+[LINE]
+Speaker125: Но,  кажется,  он      болен.
+~           but  it~seems  he~(is) sick  
+$1297/speech_1297_19.mp3;2,0;9,220.54054054054055;4,496.21621621621625;6,165.40540540540542
+
+[LINE]
+Speaker856: Как? Что~случилось?
+~           How  What~happened 
+$1297/speech_1297_20.mp3;3,0;5,261.1764705882353;10,208.94117647058823
+
+[LINE]
+Speaker125: Не~знаю...        Сегодня мы~идём      к~ветеринару.
+~           (I)~don't~know    today   we~are~going to~the~vet   
+$1297/speech_1297_21.mp3;2,0;5,109.3012048192771;11,291.4698795180723;3,291.4698795180723;5,109.30120481927713;2,182.16867469879514;11,72.86746987951813
+
+[LINE]
+Speaker385: Подожди...  Макс — ветеринар? 
+~           hold~on…    ~      is~(a)~vet 
+$1297/speech_1297_22.mp3;7,0;8,334.6478873239436;2,212.95774647887328
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "laugh."
+> (Вероника) (и)    (Света) (начинают) (+смеяться).
+~  ~          and    ~       start~to    laugh     
+$1297/speech_1297_23.mp3;8,6;2,553;7,46;9,394;9,524
+
+[LINE]
+Speaker125: Да~нет~же,  Петя! Макс — это     моя новая собака!
+~           not~at~all  ~     ~      that~is my  new   dog    
+$1297/speech_1297_24.mp3;2,0;4,205.20000000000002;3,273.6;6,273.59999999999997;6,410.4;2,478.8000000000002;4,273.5999999999999;4,273.60000000000014;6,410.39999999999964
+
+[MULTIPLE_CHOICE]
+> What did Petya find out?
++ Max is Veronika's new dog, not her new boyfriend.
+- Veronika has a new boyfriend named Max.
+- Sveta wants to break up with her boyfriend.
+
+[MATCH]
+> Tap the pairs
+- кажется <> it seems
+- смеяться <> to laugh
+- к ветеринару <> to the vet
+- рад (m) / рада (f) <> glad / happy
+- не обращай(те) внимания <> don't pay attention
+- расскажи мне <> tell me
+
