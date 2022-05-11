@@ -5,32 +5,41 @@ set=1|2
 
 [HEADER]
 > Randka
-~ a   date
+~ date
+$1690/340241c4.mp3;6,50
 
 [LINE]
 > Bea jest na randce w restauracji.
 ~ Bea is   on date in  restaurant  
+$1690/4c3acb80.mp3;5,50;5,350;3,225;7,125;2,437;12,75
 
 [LINE]
 Speaker507: Cześć!  Jak~się~masz? 
 ~            hello   how~are~you 
+$1690/3a054e90.mp3;5,50;4,1287;4,175;5,163
 
 [LINE]
 Speaker100: Dobrze!
 ~            fine 
+$1690/55fdfeda.mp3;6,0
 
 [LINE]
 Speaker100: Co chcesz jeść? 
 ~            what do~you~want to~eat 
+$1690/5926ddca.mp3;2,0;7,214;5,418
 
 [LINE]
 Speaker507: Sałatkę.
 ~            salad    
+$1690/5bc949e6.mp3;7,50
 
 [SELECT_PHRASE]
 > Select the missing phrase
 Speaker507: dziś mam  [ważny~mecz].
-~           today I~have  important~game      
+~           today I~have  important~game  
+
+$1690/6586102c.mp3;4,50;4,325;6,250;5,400
+
 + ważny mecz
 - co chesz
 - dobra rzecz
@@ -38,10 +47,12 @@ Speaker507: dziś mam  [ważny~mecz].
 [LINE]
 Speaker100: Ach, lubisz sport ?
 ~           oh   do~you~like sports 
+$1690/6aa40668.mp3;3,0;8,289;6,486
 
 [LINE]
 Speaker507: Tak,  gram w~piłkę~nożną.
 ~           yes  I~play     soccer 
+$1690/6d80c97a.mp3;3,50;5,375;2,362;6,75;6,338
 
 [MULTIPLE_CHOICE]
 > What is bea doing later today?
@@ -52,60 +63,74 @@ Speaker507: Tak,  gram w~piłkę~nożną.
 [LINE]
 Speaker100: Ja też!
 ~            me too     
+$1690/72f26292.mp3;2,0;4,270
 
 [LINE]
 Speaker507: Świetnie!
 ~            great 
+$1690/75686210.mp3;8,50
 
 [LINE]
 Speaker507: Skąd~jesteś?     
 ~            where~are~you~from 
+$1690/776d75c8.mp3;4,50;7,337
 
 [LINE]
 Speaker100: Jestem Rosjaninem.
 ~           I~am Russian  
+$1690/7a363178.mp3;6,0;11,469
 
 [ARRANGE]
 > Tap what you hear
-Speaker100: [(Mój tata)  (jest z moskwy)   (a)   (moja mama)  (jest z petersburga).]  
-~             my~father   is~from~Moscow   and   my~mother   is~from~St. Petersburg   
+Speaker100: [(Mój~tata)  (jest z moskwy)   (a)   (moja~mama)  (jest z petersburga).]  
+~             my~father   is from Moscow   and   my~mother   is from St.~Petersburg   
+$1690/9b55ecea.mp3;3,0;5,229;5,321;2,227;7,130;2,501;5,95;5,292;5,310;2,275;12,115
 
 [LINE]
 Speaker507: Kocham Moskwę!
 ~            I~love     Moscow 
+$1690/99bc4c12.mp3;6,50;7,312
 
 [LINE]
 Speaker100: Moskwa jest bardzo piękny.   
 ~           Moscow is very beautiful 
+$1690/c50021aa.mp3;6,0;5,504;7,251;7,370
 
 [LINE]
 Speaker507: Czy masz zwierzęta~domowe?
 ~            do you~have pets     
+$1690/c7892962.mp3;3,50;5,100;10,262;7,575
 
 [LINE]
 Speaker100: Mam dwa koty i jednego psa.
 ~           I~have two cats  and one dog   
+$1690/cb1ee382.mp3;3,0;4,305;5,209;2,371;8,195;4,498
 
 [POINT_TO_PHRASE]
 > Choose the option that means "also."
 Speaker507: Ja (+też) (mam) (psa), (Jacek).
 ~           I    also      have     dog      Jacek 
+$1690/ce5aaaae.mp3;2,50;4,150;4,237;4,225;6,475
 
 [LINE]
 Speaker100: Co? Mam~na~imię Daniel…
 ~            what  my~name~is  Daniel 
+$1690/d4cae44e.mp3;2,0;5,414;3,470;5,171;7,347
 
 [LINE]
 Speaker100: Ty~nie~jesteś julią?
 ~            aren't~you Julia 
+$1690/d7c6476a.mp3;2,0;4,135;7,140;6,473
 
 [LINE]
 Speaker507: Nie!
 ~            no 
+$1690/db653fb6.mp3;3,50
 
 [LINE]
 Speaker507: Mam~na~imię Bea!
 ~            my~name~is  Bea 
+$1690/f606272c.mp3;3,50;3,225;5,175;6,350
 
 [MULTIPLE_CHOICE]
 > Did you catch that? Bea and Daniel…
@@ -116,14 +141,17 @@ Speaker507: Mam~na~imię Bea!
 [LINE]
 > Kobieta podchodzi do Daniel.
 ~   woman walks  towards Daniel 
+$1690/ec2e14e4.mp3;7,50;10,475;3,462;7,113
 
 [LINE]
 Speaker101: Cześć!  Jesteś Daniel? ja jestem Julią.
 ~            hello   are~you Daniel  I~am Julia 
+$1690/005c857c.mp3;5,0;8,524;7,625;4,511;7,355;6,440
 
 [LINE]
-Speaker100: Nie, przepraszam ja jestem jacek.
+Speaker100: Nie, przepraszam. Ja jestem jacek.
 ~           no  I'm~sorry  I~am Jacek 
+$1690/0a42e2ac.mp3;3,0;13,250;4,862;7,400;6,443
 
 [MULTIPLE_CHOICE]
 > What just happened?
