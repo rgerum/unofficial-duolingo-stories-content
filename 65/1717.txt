@@ -4,16 +4,16 @@ icon=5afbf601db955e3db76a96aea1d4e0a535c16e7c
 set=3|2
 
 [HEADER]
-> El  nuevo estudiante
-~ the new   student   
+> Nowy Uczeń
+~ new   student   
 
 [LINE]
-> Zari y   Lily están en el  autobús.
-~ Zari and Lily are   on the bus     
+> Zari i Lily są na autobusie.
+~ Zari and Lily are   on bus     
 
 [LINE]
-Speaker418: ¡Lily, hay      un nuevo estudiante en nuestra clase!
-~            Lily  there~is a  new   student    in our     class 
+Speaker418: Lily, w naszym kasie jest nowy uczeń!
+~            Lily  in our class there~is new student 
 
 [MULTIPLE_CHOICE]
 > Zari tells Lily that there's a new teacher at their school.
@@ -21,39 +21,39 @@ Speaker418: ¡Lily, hay      un nuevo estudiante en nuestra clase!
 - Yes, that's right.
 
 [LINE]
-Speaker418: Su  nombre es Miguel.
-~           his name   is Miguel 
+Speaker418: Ma~na~imię michal.
+~           his~name~is Michael 
 
 [LINE]
-Speaker416: ¿Miguel?
-~            Miguel 
+Speaker416: Michal?
+~            Michael 
 
 [LINE]
-Speaker418: Sí,  es    de   México.
-~           yes  he~is from Mexico 
+Speaker418: Tak, on jest z Czech.
+~           yes  he~is from Czechia 
 
 [LINE]
-Speaker418: ¡Su  padre  escribe libros!
+Speaker418: Jego ojcec pisze książki!
 ~            his father writes  books  
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker416: [Muy~interesante]. 
+Speaker416: [Bardzo~ciekawie]. 
 ~            very~interesting  
 - Tu interesante
 - Su interés antes
-+ Muy interesante
++ Bardzo ciekawie
 
 [LINE]
-Speaker418: Habla     español, inglés  y   portugués. 
-~           he~speaks Spanish  English and Portuguese 
+Speaker418: Mówi po Polsku, po Angielsku i po Czesku. 
+~           he~speaks Polish  English and Russian 
 
 [LINE]
-Speaker416: Ah, es    inteligente.
+Speaker416: Ach, jest mądry.
 ~           oh  he~is intelligent 
 
 [LINE]
-Speaker418: Inteligente… y   alto. Y   tiene  muy  bonitos…
+Speaker418: Mądry… i wysoki. I ma bardzo ładne…
 ~           intelligent  and tall  and he~has very pretty  
 
 [MULTIPLE_CHOICE]
@@ -63,58 +63,58 @@ Speaker418: Inteligente… y   alto. Y   tiene  muy  bonitos…
 + He's intelligent and tall.
 
 [LINE]
-Speaker416: Ja, ja, ¿sí? 
+Speaker416: Ha ha, Tak? 
 ~           ha  ha   yes 
 
 [LINE]
-Speaker418: Mmm… Muy  bonitos zapatos.
+Speaker418: Mmm…  Bardzo ładne buty.
 ~           hmm  very pretty  shoes   
 
 [POINT_TO_PHRASE]
 > Choose the option that means "behind."
-Speaker416: (Zari), (Miguel) (está) (+detrás~de) ti. 
-~            Zari    Miguel   is      behind     you 
+Speaker416: (Zari), (Michal) (jest) (+za) tobą. 
+~            Zari    Michael   is      behind     you 
 
 [LINE]
-Speaker418: ¡¿Qué?! 
+Speaker418: Co?! 
 ~             what  
 
 [LINE]
-Speaker416: ¡Hola,  Miguel!
-~            hello  Miguel 
+Speaker416: Cześć, Michal!
+~            hello  Michael 
 
 [LINE]
-Speaker790: ¡Hola,  Lily! ¿Cómo~estás? 
+Speaker790: Cześc, Lily. Jak~się~masz? 
 ~            hello  Lily   how~are~you 
 
 [LINE]
-Speaker416: Bien, gracias.  
+Speaker416: Dobrze, dziękuję.  
 ~           fine  thank~you 
 
 [ARRANGE]
 > Tap what you hear
-Speaker416: [(Miguel), (esta) (es) (mi~amiga),  (Zari).]
+Speaker416: [(Michal), (to) (jest) (moja~przyjaciółka),  (Zari).]
 ~             Miguel    this   is   my~friend    Zari   
 
 [LINE]
-Speaker416: A~ella~le~gustan tus…  zapatos.
-~           she~likes        your  shoes   
+Speaker416: Ona lubi twoje…  buty.
+~           she likes   your  shoes   
 
 [LINE]
-Speaker418: Ah, mmm, hola…  Miguel.
+Speaker418: Ach, Mmm cześc, Michal.
 ~           oh  hmm  hello  Miguel 
 
 [MULTIPLE_CHOICE]
 > Zari didn't realize that…
-- …Miguel's shoes were so ugly.
-+ …Miguel was sitting behind her.
+- …Michael's shoes were so ugly.
++ …Michael was sitting behind her.
 - …her homework was due today.
 
 [MATCH]
 > Tap the pairs
-- Zari <> Zari
-- Sí <> yes
-- Bien <> fine
-- esta <> this
-- Qué <> what
+- po Polsku <> polish
+- tak <> yes
+- dobrze <> fine
+- to jest <> this is
+- co <> what
 
