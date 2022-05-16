@@ -1,0 +1,133 @@
+[DATA]
+fromLanguageName=The Passport
+icon=5dc22a453cc462fa2ac2412700a39a9e1b47d4e6
+set=2|7
+
+speaker_Speaker380=Giorgio
+speaker_Speaker379=Carla
+
+[HEADER]
+> Il   passaporto
+~ the  passport  
+$1027/speech_1027_0.mp3;2,6;12,147
+
+[LINE]
+> Sebastiano è  in      aeroporto.
+~ ~          is at~the  airport   
+$1027/speech_1027_1.mp3;10,6;2,833;3,86;11,171
+
+[LINE]
+Speaker3135: Dov'è    il~mio passaporto?
+~            where~is my     passport   
+$1027/speech_1027_2.mp3;5,6;3,292;4,92;11,195
+
+[LINE]
+Speaker3135: Non~è     qui! 
+~            it's~not  here 
+$1027/speech_1027_3.mp3;3,6;2,176;5,96
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker3135: Non~è     [nella mia borsa……
+~            it's~not   in    my  bag    
+$1027/speech_1027_4.mp3;3,6;2,178;7,78;4,189;7,126
++ nella mia borsa
+- è sua borsa
+- nella mia bocca
+
+[LINE]
+Speaker3135: E     non~è     nella mia giacca.
+~            and   it's~not  in    my  jacket 
+$1027/speech_1027_5.mp3;1,6;6,75;2,135;7,67;4,187;7,142
+
+[LINE]
+Speaker3135: È    nel    taxi!
+~            it's in~the ~    
+$1027/speech_1027_6.mp3;1,6;4,118;5,189
+
+[ARRANGE]
+> Tap what you hear
+> [(Sebastiano) (cerca)     (il~suo~taxi)].
+~   ~            looks~for   his~taxi      
+$1027/speech_1027_7.mp3;10,6;6,767;3,336;4,82;5,233
+
+[LINE]
+> Lui vede la~conducente~del~suo~taxi.
+~ he  sees his~taxi~driver            
+$1027/speech_1027_8.mp3;3,6;5,328;3,274;11,93;4,712;4,175;5,218
+
+[MULTIPLE_CHOICE]
+> Sebastiano…
+- … can't find the taxi driver who took him to the airport.
++ … sees the taxi driver who took him to the airport.
+- … drives away in a taxi.
+
+[LINE]
+Speaker3135: Hey!
+~            hey 
+$1027/speech_1027_10.mp3;3,6
+
+[LINE]
+Speaker338: Sì,   signore. Di~cosa~ha~bisogno?
+~           yes   sir      what~do~you~need   
+$1027/speech_1027_11.mp3;2,6;10,550;4,1044;5,164;3,318;8,51
+
+[MULTIPLE_CHOICE]
+> Why does the taxi driver call Sebastiano "signore"?
+- She is being rude.
++ She is being professional.
+- She thinks that's his name.
+
+[LINE]
+Speaker3135: Ho~bisogno~del mio passaporto!
+~            I~need         my  passport   
+$1027/speech_1027_13.mp3;2,6;8,146;4,397;4,140;11,175
+
+[LINE]
+Speaker3135: È    nel suo~taxi! 
+~            it's in  your~taxi 
+$1027/speech_1027_14.mp3;1,6;4,118;4,173;5,212
+
+[LINE]
+Speaker338: Mi~dispiace, il~suo~passaporto  non~è  nel mio taxi.
+~           I'm~sorry    your~passport      is~not in  my  ~    
+$1027/speech_1027_15.mp3;2,6;9,166;4,940;4,153;11,235;5,787;2,203;4,101;4,200;5,203
+
+[LINE]
+Speaker3135: Oh, no!
+$1027/speech_1027_16.mp3;2,6;4,492
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "hand."
+Speaker338: (Signore), (il)   passaporto (è)  nella sua    (+mano).
+~            sir        the   passport    is  in    your     hand  
+$1027/speech_1027_17.mp3;7,6;4,838;12,160;2,784;6,75;4,255;7,265
+
+[LINE]
+Speaker3135: Ah…
+$1027/speech_1027_18.mp3;3,6
+
+[LINE]
+Speaker3135: Grazie.   
+~            thank~you 
+$1027/speech_1027_19.mp3;6,6
+
+[LINE]
+Speaker338: Buone~vacanze! 
+~           happy~vacation 
+$1027/speech_1027_20.mp3;5,6;8,444
+
+[MULTIPLE_CHOICE]
+> Where was Sebastiano's passport?
+- At his house.
+- In the taxi.
++ In his hand.
+
+[MATCH]
+> Tap the pairs
+- aeroporto <> airport
+- mano <> hand
+- Grazie <> thank you
+- nella mia borsa <> in my bag
+- il suo passaporto <> your passport
+
