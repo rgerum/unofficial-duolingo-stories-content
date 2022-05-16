@@ -1,0 +1,145 @@
+[DATA]
+fromLanguageName=Who Is It?
+icon=f3d07f61cdd95c84cb15d7f9d0e4b0dc8173072b
+set=3|1
+
+speaker_Speaker124=Maxim
+speaker_Speaker123=Tatyana
+
+[HEADER]
+> Кто это?    
+~ who is~this 
+$902/speech_902_0.mp3;3,6;4,225
+
+[LINE]
+> Леони́д в~своём~кабине́те.
+~ ~       in~his~office     
+$902/speech_902_1.mp3;7,6;2,418;6,50;10,472
+
+[LINE]
+> Он разгова́ривает по~телефо́ну со~свои́м~дру́гом.
+~ he is~speaking    on~the~phone with~his~friend   
+$902/speech_902_2.mp3;2,6;15,238;3,721;10,128;3,599;7,138;8,399
+
+[LINE]
+Speaker385: В~эти~выходны́е…
+~           this~weekend…   
+$902/speech_902_3.mp3;1,6;4,170;11,204
+
+[LINE]
+Speaker385: Мы собира́емся с~друзья́ми… 
+~           we are~going   with~friends…
+$902/speech_902_4.mp3;2,6;12,168;2,759;11,89
+
+[LINE]
+Speaker385: Подожди́ мину́тку.        Мой~рабо́чий~телефо́н звони́т    и   звони́т.
+~           wait     a~little~minute  my~work~phone         is~ringing and ringing 
+$902/speech_902_5.mp3;8,6;9,435;5,1012;9,258;9,591;8,525;2,483;8,66
+
+[MULTIPLE_CHOICE]
+> While Luis is talking to his friend, his office phone rings.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker385: Алло́?
+~           hello 
+$902/speech_902_7.mp3;5,6
+
+[LINE]
+Speaker292: До́брый~день, Леони̜́д!
+~           good~day      ~        
+$902/speech_902_8.mp3;7,6;5,333;10,529
+
+[LINE]
+Speaker385: Кто~это?    
+~           who~is~this 
+$902/speech_902_9.mp3;3,6;4,225
+
+[LINE]
+Speaker292: Подру́га.    
+~           a~friend~(f) 
+$902/speech_902_10.mp3;8,6
+
+[LINE]
+Speaker292: Ты мне   помо́жешь?           Мне~нужна́ твоя́ по́мощь.
+~           ~  to~me (+ты)~will~you~help  I~need     your  help    
+$902/speech_902_11.mp3;2,6;4,86;10,171;5,970;7,272;6,368;8,323
+
+[LINE]
+Speaker385: Что  Вы  хоти́те? Я Вас не~знаю!   
+~           what you want     I you don't~know 
+$902/speech_902_12.mp3;3,6;3,291;8,139;3,998;4,203;3,265;5,135
+
+[MULTIPLE_CHOICE]
+> Leonid doesn't know the woman on the phone.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker292: А   я, я тебя́ зна́ю...      
+~           but I  ~ you   (+я)~I~know   
+$902/speech_902_14.mp3;1,6;2,100;3,569;6,174;6,275
+
+[LINE]
+Speaker292: Я зна́ю тебя́ о́чень хорошо́!
+~           I know  you   very   well    
+$902/speech_902_15.mp3;1,6;6,217;6,292;7,306;8,301
+
+[LINE]
+Speaker292: И   сейча́с я иду́     в  твой кабине́т!
+~           and now     I am~going to your office   
+$902/speech_902_16.mp3;1,6;8,62;2,505;5,223;2,165;5,68;9,222
+
+[LINE]
+Speaker385: О, нет! Я сейча́с вы́зову   поли́цию!  
+~           ~  no   I now     will~call the~police 
+$902/speech_902_17.mp3;1,6;5,493;3,798;8,289;8,609;9,426
+
+[MULTIPLE_CHOICE]
+> Leonid says he's going to…
+- … leave his office.
++ … call the police.
+- … hide from the police.
+
+[LINE]
+Speaker292: Леони́д, не~на́до   поли́ции.       Я    твоя́ нача́льница.
+~           ~        not~needed for~the~police  I~am your  boss~(f)    
+$902/speech_902_19.mp3;7,6;4,768;6,149;9,284;3,1071;6,182;12,340
+
+[MULTIPLE_CHOICE]
+> Who is the stranger?
+- Leonid's mother.
+- Leonid's friend from college.
++ Leonid's boss.
+
+[LINE]
+Speaker292: Ты  до́лжен рабо́тать!
+~           you have~to to~work   
+$902/speech_902_21.mp3;2,6;8,99;10,416
+
+[LINE]
+Speaker292: Хва́тит разгова́ривать с~друзья́ми  по~телефо́ну!
+~           enough  to~speak       with~friends on~the~phone 
+$902/speech_902_22.mp3;7,6;15,535;2,693;10,61;3,608;10,128
+
+[LINE]
+Speaker385: Ой! Прошу́~проще́ния…|                Возвраща́емся  к~рабо́те!
+~           ~   (I)~ask~for~forgiveness~[sorry]…  let's~get~back to~work   
+$902/speech_902_23.mp3;2,6;8,850;11,463;14,1241;2,1133;8,75
+
+[MULTIPLE_CHOICE]
+> Leonid's boss called to tell him...
+- … he's getting a promotion.
+- … he's fired for talking to his friends.
++ … he needs to work instead of talking to his friends.
+
+[MATCH]
+> Tap the pairs
+- поли́ция <> police
+- нача́льник (m) / нача́льница (f) <> boss
+- выходны́е (pl) <> weekend
+- кабине́т / офис <> office
+- я тебя́ не зна́ю <> I don't know you
+- по телефо́ну <> on the phone
+
