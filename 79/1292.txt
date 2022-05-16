@@ -1,0 +1,155 @@
+[DATA]
+fromLanguageName=The Stranger
+icon=f3d07f61cdd95c84cb15d7f9d0e4b0dc8173072b
+set=3|1
+
+speaker_Narrator=da-DK-Wavenet-C
+speaker_Speaker124=da-DK-Wavenet-C
+speaker_Speaker123=da-DK-ChristelNeural
+
+[HEADER]
+> Den fremmede
+~ The stranger
+$1292/speech_1292_0.mp3;3,0;9,138.66666666666666
+
+[LINE]
+> Karsten er    i  sit kontor og   taler            i  telefon     med   en ven.   
+~ ~       is    in his office and  is~talking       on the~phone   with  a  friend 
+$1292/speech_1292_1.mp3;7,0;3,348.8780487804878;5,261.65853658536594;4,87.21951219512187;7,174.43902439024384;3,305.2682926829269;7,174.43902439024396;8,523.3170731707316;8,87.21951219512198;6,436.09756097560967;4,218.04878048780483;4,130.82926829268308
+
+[LINE]
+Speaker385: Denne weekend…
+~           This  weekend…
+$1292/speech_1292_2.mp3;5,0;9,118.73684210526315
+
+[LINE]
+Speaker385: …| Nogle venner  fra  universitetet     og  jeg …
+~           …  Some  friends from the~university    and I…   
+$1292/speech_1292_3.mp3;1,42.15652173913043;6,126.4695652173913;7,147.54782608695652;4,84.31304347826085;14,358.3304347826088;6,63.23478260869558
+
+[LINE]
+Speaker385: Et  øjeblik. Telefonen i  mit kontor stopper ikke  med~at~ringe.
+~           One minute   The~phone of my  office doesn't stop  ringing      
+$1292/speech_1292_4.mp3;2,0;8,144.93506493506493;11,434.8051948051948;2,483.1168831168832;4,96.62337662337654;7,193.24675324675331;8,338.181818181818;5,386.4935064935064;5,289.87012987012986;3,193.24675324675354;6,144.93506493506493
+
+[MULTIPLE_CHOICE]
+> While Karsten is talking to his friend, his office phone rings.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker385: Hallo?
+~           Hello 
+$1292/speech_1292_6.mp3;5,0
+
+[LINE]
+Speaker292: Hej,   Karsten.
+~           Hello  ~       
+$1292/speech_1292_7.mp3;3,0;9,315
+
+[LINE]
+Speaker385: Hvem   taler?     
+~           Who    is~talking 
+$1292/speech_1292_8.mp3;4,0;8,228
+
+[LINE]
+Speaker292: En  veninde.
+~           A   friend  
+$1292/speech_1292_9.mp3;2,0;9,240
+
+[LINE]
+Speaker385: Nå?
+~           Ah 
+$1292/speech_1292_10.mp3;2,0
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker292: [Jeg~har~brug~for~en~tjeneste], Karsten.
+~            I~need~a~favor                 ~       
+$1292/speech_1292_11.mp3;3,0;4,203.77358490566036;5,203.77358490566036;4,254.7169811320755;3,203.7735849056604;9,152.83018867924534;9,509.43396226415075
+- Jeg har brug for en tvebakke
++ Jeg har brug for en tjeneste
+- Jeg har brug for en ske
+
+[LINE]
+Speaker292: Ville du  hjælpe   mig?
+~           Would you help     me  
+$1292/speech_1292_12.mp3;5,0;3,321.0810810810811;7,160.54054054054058;6,481.62162162162167
+
+[LINE]
+Speaker385: Hvad vil  du?    Jeg kender dig ikke! 
+~           What want you    I   know   you don't 
+$1292/speech_1292_13.mp3;4,0;4,160.8;3,128.64;7,192.95999999999998;7,128.64;4,225.12000000000012;5,128.63999999999987
+
+[LINE]
+Speaker292: Men jeg kender   dig.
+~           But I   do~know  you 
+$1292/speech_1292_14.mp3;3,0;4,209.82857142857142;7,209.82857142857142;5,419.65714285714284
+
+[LINE]
+Speaker292: Og  jeg  kommer til   dit   kontor   nu. 
+~           And I'm  going  to    your  office   now 
+$1292/speech_1292_15.mp3;2,0;4,140.60377358490567;8,234.3396226415094;4,328.07547169811323;6,281.2075471698114;8,234.33962264150932;5,421.8113207547169
+
+[LINE]
+Speaker385: Venligst, nej!   Jeg~ringer~til       politiet!  
+~           Please    no     I'm~going~to~call    the~police 
+$1292/speech_1292_16.mp3;8,0;5,410.8474576271186;7,287.5932203389831;7,164.33898305084745;4,287.593220338983;12,287.593220338983
+
+[MULTIPLE_CHOICE]
+> Karsten says he's going to…
+- … call his friend.
+- … leave his office.
++ … call the police.
+
+[LINE]
+Speaker292: Haha...    Karsten,  jeg    er din   chef!
+~           Haha       ~         I      am your  boss 
+$1292/speech_1292_18.mp3;4,0;14,364.0754716981132;6,455.0943396226415;6,318.566037735849;4,136.52830188679263;6,227.5471698113206
+
+[MULTIPLE_CHOICE]
+> Who is the stranger?
+- Karsten's friend from college.
+- Karsten's mother.
++ Karsten's boss.
+
+[LINE]
+Speaker292: Du   skal       arbejde på vores projekt!
+~           You  have~to    work    on our   project 
+$1292/speech_1292_20.mp3;2,0;6,207.6923076923077;11,415.38461538461536;3,415.3846153846155;6,155.76923076923072;8,311.53846153846143
+
+[LINE]
+Speaker292: Ikke tale i  telefonen med  dine venner! 
+~           Not  talk on the~phone with your friends 
+$1292/speech_1292_21.mp3;4,0;5,285.28301886792457;2,285.28301886792457;10,114.11320754716974;4,570.566037735849;5,228.2264150943397;7,285.2830188679245
+
+[ARRANGE]
+> Tap what you hear
+Speaker292: [(Hele) (kontoret)   (kan) (høre~dig)]!
+~             All    the~office   can   hear~you   
+$1292/speech_1292_22.mp3;4,0;9,287.1428571428571;4,516.8571428571429;5,229.71428571428555;4,287.14285714285734
+
+[LINE]
+Speaker385: Åh!
+~           Oh 
+$1292/speech_1292_23.mp3;2,0
+
+[LINE]
+Speaker385: Undskyld! Nu   vil   jeg arbejde!
+~           Sorry     Now  will  I   work    
+$1292/speech_1292_24.mp3;8,0;4,401.7391304347826;5,160.69565217391312;5,200.86956521739125;8,160.695652173913
+
+[MULTIPLE_CHOICE]
+> Karsten's boss called to tell him…
++ … he needs to work on his project instead of talking to his friends.
+- … he's getting a promotion.
+- … he's fired for talking to his friends.
+
+[MATCH]
+> Tap the pairs
+- projekt <> project
+- og <> and
+- arbejde <> work
+- Nej <> no
+- ringe <> call
+
