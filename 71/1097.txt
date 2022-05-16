@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=In the Museum
+icon=09fc3d3f2b5acf538364fe21f1b5ab3a457b1d7b
+set=1|5
+
+[HEADER]
+> В       музеї 
+~ in~(at) museum
+$1097/speech_1097_0.mp3;1,0;6,87.27272727272728
+
+[LINE]
+> Діана в       музеї  зі   своїм дідусем.    
+~ Diana in~(at) museum with her   grandfather 
+$1097/speech_1097_1.mp3;5,0;2,334.95652173913044;6,111.65217391304344;3,334.9565217391305;6,167.47826086956513;8,334.9565217391305
+
+[LINE]
+Speaker1320: Як  цікаво!     
+~            how interesting 
+$1097/speech_1097_2.mp3;2,0;7,123.83999999999999
+
+[LINE]
+Speaker1320: Тут  багато старих фотографій.
+~            here many   old    photos     
+$1097/speech_1097_3.mp3;3,0;7,194.1818181818182;7,339.8181818181818;11,339.81818181818187
+
+[MULTIPLE_CHOICE]
+> There are photos from the past in the museum.
+- No, that's not right!
++ Yes, that's true!
+
+[LINE]
+Speaker2474: На них  зображений Київ.
+~            on them depicted   Kyiv 
+$1097/speech_1097_5.mp3;2,0;4,136.42105263157893;11,181.8947368421053;5,500.2105263157894
+
+[LINE]
+Speaker1320: Немає      машин.
+~            don't~have cars  
+$1097/speech_1097_6.mp3;5,0;6,272
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1320: Поглянь! На [цій]  фотографії студенти.
+~            look     on  this  photo      students 
+$1097/speech_1097_7.mp3;7,0;4,474.3529411764706;4,158.11764705882354;11,210.82352941176464;9,579.7647058823529
++ цій
+- чим
+- так
+
+[LINE]
+Speaker2474: Так, вони - студенти Києво-Могилянської~академії.
+~            yes  they ~ students (of)~Kyiv-Mohyla~Academy    
+$1097/speech_1097_8.mp3;3,0;6,275.625;2,275.625;9,110.25;19,496.125;9,1047.375
+
+[LINE]
+Speaker1320: Майже  всі студенти - чоловіки...
+~            almost all student  ~ men         
+$1097/speech_1097_9.mp3;5,0;4,282;9,188;2,423;9,94
+
+[LINE]
+Speaker1320: На фотографії тільки одна жінка!
+~            on photo      only   one  woman 
+$1097/speech_1097_10.mp3;2,0;11,160.85106382978722;7,589.7872340425532;5,375.3191489361702;6,268.08510638297867
+
+[MULTIPLE_CHOICE]
+> Diana means…
+- … she only knows one woman.
+- … she sees five women in the old photo.
++ … she sees only one female student in the photo.
+
+[LINE]
+Speaker1320: Така розумна та  важлива.  
+~            so   smart   and important 
+$1097/speech_1097_12.mp3;4,0;8,218.46153846153845;3,349.53846153846155;8,131.0769230769231
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "looks at."
+> Дідусь~Діани         (+дивиться~на)      (фотографію)    (мовчки).  
+~ Diana's~grandfather    looks~at           photo           silently  
+$1097/speech_1097_13.mp3;6,0;6,325.97014925373134;10,325.97014925373134;3,419.1044776119403;16,372.53731343283584;10,651.940298507463
+
+[LINE]
+Speaker1320: Дідусю! 
+~            grandpa 
+$1097/speech_1097_14.mp3;6,0
+
+[LINE]
+Speaker2474: Вона дуже гарна... 
+~            she  very pretty    
+$1097/speech_1097_15.mp3;4,0;5,201.1764705882353;6,201.1764705882353
+
+[LINE]
+Speaker1320: Так, вона дуже гарна. 
+~            yes  she  very pretty 
+$1097/speech_1097_16.mp3;3,0;6,240;5,240;6,240
+
+[ARRANGE]
+> Tap what you hear
+Speaker2474: [(Це)   (моя) (бабус)]я.     
+~              this   my    grandmother   
+$1097/speech_1097_17.mp3;2,0;4,136.55172413793105;7,182.0689655172414
+
+[LINE]
+Speaker1320: Нічого~собі!
+~            wow         
+$1097/speech_1097_18.mp3;6,0;5,304.88888888888886
+
+[LINE]
+Speaker1320: У~мене дуже цікава      родина!
+~            I~have very interesting family 
+$1097/speech_1097_19.mp3;1,0;5,98.34146341463415;5,245.8536585365854;7,245.85365853658527;7,344.19512195121956
+
+[MULTIPLE_CHOICE]
+> What happened in the story?
++ Diana's grandfather saw a photo of his grandmother at the museum.
+- Diana didn't enjoy going to the museum.
+- Diana saw a photo of her grandfather at the museum.
+
+[MATCH]
+> Tap the pairs
+- так <> yes
+- це <> this
+- родина <> family
+- з дідусем <> with grandfather
+- фотографія <> photo
+
