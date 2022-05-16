@@ -1,0 +1,165 @@
+[DATA]
+fromLanguageName=Danger! (1/2)
+icon=7cd7723e6a361adbea522f2dc71b13755d4d578c
+set=6|10
+
+icon_Speaker281=https://stories-cdn.duolingo.com/image/45fb344d3e110138d63af01964398f91e5864e65.svg
+icon_Speaker265=https://stories-cdn.duolingo.com/image/f1502d569ff06ea5e381e406a69c399adafed5ae.svg
+speaker_Narrator=ru-RU-Standard-B
+speaker_Speaker266=ru-RU-Wavenet-D
+speaker_Speaker281=ru-RU-Standard-C
+speaker_Speaker265=ru-RU-Wavenet-C
+
+[HEADER]
+> Опасность!
+~ danger    
+$1239/speech_1239_0.mp3;9,0
+
+[LINE]
+> Георгий у~себя~дома.     
+~ ~       (is)~at~his~home 
+$1239/speech_1239_1.mp3;7,0;2,301.7142857142857;5,75.42857142857139;5,188.57142857142856
+
+[LINE]
+> Уже             поздно и   он слушает           радио.    
+~ (it~is)~already late   and he is~listening~(to) the~radio 
+$1239/speech_1239_2.mp3;3,0;7,185.6;2,324.79999999999995;3,92.79999999999995;8,139.20000000000005;6,371.19999999999993
+
+[LINE]
+SpeakerSpeaker281: Внимание!  Опасность! Не~выходите          из~дома!         
+~                  attention  danger     don't~leave~(go~out) (from)~the~house 
+$1239/speech_1239_3.mp3;8,0;11,531.4285714285714;4,584.5714285714286;9,159.42857142857133;3,478.28571428571445;5,159.42857142857156
+
+[MULTIPLE_CHOICE]
+> Georgiy hears on the radio that people shouldn't leave their homes.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker889: Что  это       значит?
+~           what (does)~it mean   
+$1239/speech_1239_5.mp3;3,0;4,169.6;7,169.6
+
+[LINE]
+> Георгий слышит какой-то шум   возле входной  двери.
+~ ~       hears  some     noise near  entrance door  
+$1239/speech_1239_6.mp3;7,0;7,387.04761904761904;9,338.66666666666663;4,435.42857142857144;6,193.5238095238094;8,290.28571428571445;6,387.04761904761904
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker889: [Кто    там?]  
+~            who~is there  
+$1239/speech_1239_7.mp3;3,0;4,146.08695652173913
+- Кто как?
+- Что там?
++ Кто там?
+
+[LINE]
+SpeakerSpeaker265: Пожалуйста, откройте! Мне~нужна помощь!
+~                  please      open      I~need    help   
+$1239/speech_1239_8.mp3;10,0;10,650.6666666666666;5,542.2222222222223;6,216.8888888888887;7,325.3333333333335
+
+[LINE]
+SpeakerSpeaker265: Позвольте мне войти!
+~                  let       me  enter 
+$1239/speech_1239_9.mp3;9,0;4,411.4285714285714;6,164.5714285714286
+
+[CONTINUATION]
+> What comes next?
+> Георгий обеспокоен. Он [медленно открывает дверь].   
+~ ~       is~worried  he  slowly   opens     the~door  
+$1239/speech_1239_10.mp3;7,0;11,208.1344537815126;4,312.201680672269;9,78.05042016806715;10,234.15126050420167;6,234.15126050420167
+- медленно поднимает~трубку     
+~ slowly   picks~up~the~receiver
+- медленно едет   на~машине
+~ slowly   drives the~car  
++ медленно открывает дверь   
+~ slowly   opens     the~door
+
+[LINE]
+SpeakerSpeaker265: Быстро!  Закройте дверь!   
+~                  quickly  close    the~door 
+$1239/speech_1239_11.mp3;6,0;10,389.05263157894734;6,437.6842105263158
+
+[LINE]
+Speaker889: Что  случилось? У~Вас         всё        в~порядке?         
+~           what happened   (do)~you~have everything in~order~(alright) 
+$1239/speech_1239_12.mp3;3,0;10,220.8;3,607.2;4,110.40000000000009;4,220.79999999999995;2,220.79999999999995;8,110.40000000000009
+
+[LINE]
+SpeakerSpeaker265: Воды,  пожалуйста...
+~                  water  please       
+$1239/speech_1239_13.mp3;4,0;12,151.7142857142857
+
+[ARRANGE]
+> Tap what you hear
+SpeakerSpeaker265: [(Мне) (надо) (что-нибудь) (выпит)]ь.  
+~                    I     need   something    to~drink   
+$1239/speech_1239_14.mp3;3,0;5,187.42857142857142;11,234.28571428571425;7,515.4285714285714
+
+[LINE]
+Speaker889: Вот.  Держите!  
+~           here  hold~(it) 
+$1239/speech_1239_15.mp3;3,0;9,278.57142857142856
+
+[LINE]
+SpeakerSpeaker265: Спасибо!  
+~                  thank~you 
+$1239/speech_1239_16.mp3;7,0
+
+[LINE]
+SpeakerSpeaker265: Я прошла      несколько~часов   пешком! 
+~                  I have~walked for~several~hours by~foot 
+$1239/speech_1239_17.mp3;1,0;7,103.14893617021276;10,361.02127659574467;6,515.7446808510638;7,309.44680851063833
+
+[MULTIPLE_CHOICE]
+> Why did she need water?
+- Because she wants to cook.
++ Because she's been walking for hours.
+- Because she needs a shower.
+
+[LINE]
+SpeakerSpeaker265: И   я      очень устала!
+~                  and I~(am) very  tired  
+$1239/speech_1239_19.mp3;1,0;2,85.5;6,85.5;7,256.5
+
+[LINE]
+Speaker889: Я не~понимаю.       В~чём~дело?       
+~           I don't~understand  what's~the~matter 
+$1239/speech_1239_20.mp3;1,0;3,102;8,153;3,459;4,102;5,204
+
+[LINE]
+SpeakerSpeaker265: Это     просто ужасно.  
+~                  it~(is) simply horrible 
+$1239/speech_1239_21.mp3;3,0;7,171.63636363636365;7,300.3636363636364
+
+[LINE]
+SpeakerSpeaker265: Я видела на~улице                кого-то... 
+~                  I saw    on~the~street~(outside) somebody   
+$1239/speech_1239_22.mp3;1,0;7,104.4;3,365.4;6,156.59999999999997;8,313.20000000000005
+
+[LINE]
+SpeakerSpeaker265: ... или что-то...   
+~                      or  something   
+$1239/speech_1239_23.mp3;0,0;7,153.6
+
+[LINE]
+SpeakerSpeaker265: Мне~страшно...
+~                  I~am~scared   
+$1239/speech_1239_24.mp3;3,0;8,162.46153846153848
+
+[MULTIPLE_CHOICE]
+> What is she telling Georgiy?
++ That there's someone or something horrible out there.
+- That she needs a ride home.
+- That she has been training for a marathon.
+
+[MATCH]
+> Tap the pairs
+- что-то <> something
+- (я) не понимаю <> (I) don't understand
+- Закройте, пожалуйста <> Close, please
+- кто-то <> somebody
+- Откройте, пожалуйста <> Open, please
+- В чём дело? <> What's the matter?
+
