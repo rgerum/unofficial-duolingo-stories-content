@@ -1,0 +1,161 @@
+[DATA]
+fromLanguageName=Friends
+icon=743f08a1a28a5e27e7e78ba3c46443b92365789b
+set=2|10
+
+[HEADER]
+> Mag-kaibigan
+~ friends     
+$1001/speech_1001_0.mp3;12,0
+
+[LINE]
+Speaker101: Kamusta, Sabrina!
+~           hello    ~       
+$1001/speech_1001_1.mp3;7,0;9,445.5
+
+[LINE]
+Speaker1320: Kamusta, Jenny.
+~            hello    ~     
+$1001/speech_1001_2.mp3;7,0;7,396
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker101: ¿[Mag-aaral             ba tayo]?
+~             are~we~going~to~study ~  ~     
+$1001/speech_1001_3.mp3;0,40.23529411764706;10,402.3529411764706;3,120.7058823529411
+- Magbabakal ba tayo
++ Mag-aaral ba tayo
+- Magtatagal ba tayo
+
+[LINE]
+Speaker1320: Sorry, busy ako  eh.
+~            sorry  ~    I~am ~  
+$1001/speech_1001_4.mp3;5,0;6,375.52941176470586;4,268.2352941176471;3,214.58823529411768
+
+[LINE]
+Speaker1320: Pupunta kasi    ako sa~mall.    
+~            will~go because I   to~the~mall 
+$1001/speech_1001_5.mp3;7,0;5,369.6;4,231;3,184.79999999999995;5,138.60000000000002
+
+[MULTIPLE_CHOICE]
+> Sabrina is busy because she's going to the mall.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker101: Pero ayaw~mo        sa~mga~mall     ah…
+~           but  you~don't~like being~in~malls… ~  
+$1001/speech_1001_7.mp3;4,0;5,226.04651162790697;3,226.04651162790697;3,135.62790697674416;4,135.62790697674427;5,180.8372093023255;4,226.0465116279072
+
+[LINE]
+Speaker101: …| kasi    maraming           tao.   
+~           …  because there~are~a~lot~of people 
+$1001/speech_1001_8.mp3;1,83.65714285714286;5,209.14285714285717;9,376.45714285714286
+
+[LINE]
+Speaker1320: Kaya~nga…
+~            yes…     
+$1001/speech_1001_9.mp3;4,0;5,180
+
+[LINE]
+Speaker101: At  ayaw~mo        rin  sa~mga~tao!
+~           and you~don't~like also people     
+$1001/speech_1001_10.mp3;2,0;5,149.2682926829268;3,248.78048780487808;4,149.26829268292687;3,199.02439024390242;4,149.2682926829268;4,199.02439024390253
+
+[MULTIPLE_CHOICE]
+> Why doesn't Sabrina like the mall?
++ Because there are too many people there.
+- Because it's always closed.
+- Because it's too far away.
+
+[LINE]
+Speaker1320: Oo~nga,  pero kailangan~ko bumili  ng…      
+~            yes      but  I~need       to~buy… something
+$1001/speech_1001_12.mp3;2,0;4,153.6923076923077;7,307.38461538461536;10,256.15384615384613;3,512.3076923076925;7,153.69230769230762;4,358.6153846153845
+
+[LINE]
+Speaker101: Sasamahan na lang kita! 
+~           will~join ~  ~    I…you 
+$1001/speech_1001_13.mp3;9,0;3,404.2105263157895;5,121.26315789473688;5,202.10526315789468
+
+[LINE]
+Speaker1320: Pero…
+~            but… 
+$1001/speech_1001_14.mp3;5,0
+
+[LINE]
+Speaker101: Sige~na!
+~           please  
+$1001/speech_1001_15.mp3;4,0;3,187.82608695652172
+
+[LINE]
+Speaker1320: Sige~na~nga.
+~            OK          
+$1001/speech_1001_16.mp3;4,0;3,177.77777777777777;4,106.66666666666669
+
+[LINE]
+> Pumunta sina~Sabrina~at~Jenny sa~mall.    
+~ went    Sabrina~and~Jenny     to~the~mall 
+$1001/speech_1001_17.mp3;7,0;5,398.49056603773585;8,249.05660377358487;3,398.4905660377359;6,149.43396226415098;3,298.8679245283017;5,149.43396226415098
+
+[LINE]
+Speaker1320: Hala! 
+~            oh~no 
+$1001/speech_1001_18.mp3;4,0
+
+[ARRANGE]
+> Tap what you hear
+Speaker1320: [(Kailangan~ko~pala) (bumili) (ng~regalo) (para~sa) ( kaarawan~mo…)… 
+~              I~need              to~buy   a~present   for        your~birthday  
+$1001/speech_1001_19.mp3;9,0;3,493.5211267605634;5,148.05633802816902;7,246.7605633802816;3,345.46478873239425;7,148.0563380281692;5,345.4647887323945;3,246.7605633802816;10,197.40845070422506;4,444.1690140845071
+
+[LINE]
+Speaker1320: …| kaso sarado    na      ang tindahan.
+~            …  but  is~closed already the store    
+$1001/speech_1001_20.mp3;1,96;5,240;7,336;3,144;4,192
+
+[LINE]
+Speaker1320: Masama akong kaibigan.
+~            bad    I~am  friend   
+$1001/speech_1001_21.mp3;6,0;6,322.3783783783784;9,276.3243243243243
+
+[MULTIPLE_CHOICE]
+> Sabrina thinks…
+- … the store is open.
+- … she's a good friend.
++ … she's a bad friend.
+
+[LINE]
+Speaker101: Sabrina, ayaw~mo        sa~mga~mall    'diba?
+~           ~        you~don't~like being~in~malls right 
+$1001/speech_1001_23.mp3;7,0;6,488.15999999999997;3,271.20000000000016;3,162.7199999999999;4,162.7199999999999;5,216.96000000000004;6,271.1999999999998
+
+[LINE]
+Speaker101: Pero …| nandito ka…    
+~           but  …  here    you~are
+$1001/speech_1001_24.mp3;4,0;2,315.6363636363636;8,360.72727272727275
+
+[LINE]
+Speaker101: …| para~bumili     ng~regalo para~sa kaarawan~ko!
+~           …  in~order~to~buy a~gift    for     my~birthday 
+$1001/speech_1001_25.mp3;1,96;5,240;7,336;3,144;7,336;5,240;3,144;9,432
+
+[LINE]
+Speaker101: Napakabait mong    kaibigan!
+~           very~kind  you~are friend   
+$1001/speech_1001_26.mp3;10,0;5,514.8000000000001;9,234
+
+[MULTIPLE_CHOICE]
+> Why does Tamara think Sabrina is a good friend?
++ Because Sabrina went to the mall to buy her a birthday present.
+- Because Sabrina doesn't like people.
+- Because Sabrina's cooking her dinner.
+
+[MATCH]
+> Tap the pairs
+- kaibigan <> friend
+- regalo <> gift
+- tindahan <> store
+- bumili <> to buy
+- mag-aaral tayo <> we're going to study
+
