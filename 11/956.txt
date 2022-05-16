@@ -1,0 +1,167 @@
+[DATA]
+fromLanguageName=The Tourist
+icon=c28cb69bf3836fd092352596d98fc29a300c70ce
+set=3|10
+
+speaker_Narrator=hi-IN-SwaraNeural
+speaker_Yasin=hi-IN-Wavenet-C
+speaker_Bharati=hi-IN-Wavenet-A
+
+[HEADER]
+> पर्यटक     
+~ the~tourist
+$956/speech_956_0.mp3;6,0
+
+[LINE]
+> यसिन दिल्ली का दौरा~कर~रहा~है।
+~ ~    ~      ~  is~visiting    
+$956/speech_956_1.mp3;4,0;7,292;3,408.79999999999995;5,175.20000000000005;3,292;4,175.19999999999982;4,233.60000000000014
+
+[LINE]
+> उसे एक पार्क खोजने   में मदद  चाहिए।
+~ he  a  park  to~find in  help needs 
+$956/speech_956_2.mp3;3,0;3,276;6,207.00000000000006;6,413.99999999999983;4,414.0000000000001;4,276;7,276
+
+[MULTIPLE_CHOICE]
+> Yasin is a tourist who needs help finding a park.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker2243: माफ़~किजिये, हिन्दुस्तानी~औरतें~का~पार्क कहाँ  है?
+~            excuse~me    the~Indian~Women~Park       where is 
+$956/speech_956_4.mp3;4,0;7,236.25;14,378;6,614.25;3,283.5;6,141.75;5,283.5;3,236.25
+
+[LINE]
+Speaker856: आपको मैटरो       लेना    चाहिए।
+~           You  (the)~metro to~take need  
+$956/speech_956_5.mp3;4,0;6,230.2702702702703;5,276.3243243243244;7,230.27027027027026
+
+[ARRANGE]
+> Tap what you hear
+Speaker856: [(यहाँ) (के~पास) (एक) (स्टेशन)  (है।)।     
+~             here   near     a    station   there~is  
+$956/speech_956_6.mp3;4,0;3,243;4,145.8;3,194.39999999999992;7,145.80000000000007;4,340.20000000000005
+
+[LINE]
+Speaker2243: बहुत~धन्यवाद!       
+~            thank~you~very~much 
+$956/speech_956_7.mp3;4,0;8,214.28571428571428
+
+[LINE]
+Speaker856: आपका~स्वागत~है।
+~           you're~welcome 
+$956/speech_956_8.mp3;4,0;7,216;4,302.4
+
+[LINE]
+Speaker856: आप  कहाँ  से   हैं?
+~           you where from are 
+$956/speech_956_9.mp3;2,0;5,115.2;3,192;4,115.19999999999999
+
+[LINE]
+Speaker2243: मैं पकिस्तान से   हूँ।
+~            I   ~        from am  
+$956/speech_956_10.mp3;3,0;9,164.57142857142856;3,370.28571428571433;5,123.42857142857133
+
+[LINE]
+Speaker856: आ, मैं पकिस्तान से प्यार~करता~हूँ!
+~           ~  I   ~        ~  love           
+$956/speech_956_11.mp3;1,0;5,145.46938775510205;9,193.95918367346934;3,436.4081632653061;6,145.46938775510205;5,290.9387755102041;4,242.44897959183686
+
+[MULTIPLE_CHOICE]
+> How does she feel about Pakistan?
++ She loves it.
+- She thinks it's very far away.
+- She wants to go there.
+
+[LINE]
+Speaker856: मैं सिन्धी पढ़ती~हूँ!
+~           I   Sindhi study     
+$956/speech_956_13.mp3;3,0;7,154.66666666666666;6,270.66666666666674;4,232
+
+[LINE]
+Speaker2243: क्या~संयोग~है!     
+~            what~a~coincidence 
+$956/speech_956_14.mp3;4,0;6,211.0344827586207;3,253.24137931034477
+
+[LINE]
+Speaker856: क्या~आप चुट्टी   पर हैं?
+~           are~you vacation on are 
+$956/speech_956_15.mp3;4,0;3,201.0810810810811;7,120.64864864864865;3,281.5135135135135;4,120.64864864864876
+
+[LINE]
+Speaker2243: नहीं, मैं यहाँ इतिहास~का~पढ़ना~के~लिए हूँ।
+~            no    I   here to~study~history       am  
+$956/speech_956_16.mp3;4,0;5,288;5,192;7,240;3,336;6,144;3,288;4,144;5,192
+
+[CONTINUATION]
+> What comes next?
+Speaker2243: और  मैं भी    [शहर      को      जन्ना    चाहता हूँ]!
+~            and I   also   the~city to~know (I)~want ~     ~    
+- सिन्धी~का पढ़ना    चहता~हूँ
+~ Sindhi    to~study (I)~want
+- आपसे मिलना   चहता~हूँ
+~ you  to~meet (I)~want
++ शहर~को~जन्ना~चाहता~हूँ
+~ the~city              
+
+[LINE]
+Speaker856: बहुत अच्छा!
+~           very good  
+$956/speech_956_18.mp3;4,0;6,198.46153846153848
+
+[LINE]
+Speaker856: मैं भरती हूँ। और  आप? 
+~           I   ~    am   and you 
+$956/speech_956_19.mp3;3,0;5,194.74285714285713;5,243.4285714285714;3,243.4285714285715;3,146.05714285714282
+
+[LINE]
+Speaker2243: मैं यसिन हूँ।
+~            I   ~    am  
+$956/speech_956_20.mp3;3,0;5,168;5,210
+
+[LINE]
+Speaker856: आपसे~मिलकर~अच्छा~लगा।
+~           nice~to~meet~you     
+$956/speech_956_21.mp3;4,0;6,223.33333333333334;6,268;5,267.9999999999999
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "I have to go."
+Speaker856: (मैं) (आपसे~और~बात~करना)    चहती~हूँ, (लेकिन) (+मुझे~जाना~है|)।    
+~            I     to~talk~more~to~you  want       but      I~have~to      to~go
+$956/speech_956_22.mp3;3,0;5,221.64705882352942;3,277.0588235294117;4,166.23529411764713;5,221.6470588235294;5,277.0588235294118;4,277.0588235294115;7,277.05882352941194;5,332.4705882352939;5,387.88235294117703;3,277.05882352941126
+
+[LINE]
+Speaker856: मेरे दोस्तों पार्क    में हैं।
+~           my   friends the~park in  are 
+$956/speech_956_23.mp3;4,0;8,208.57142857142856;6,333.7142857142858;4,250.28571428571422;5,166.857142857143
+
+[LINE]
+Speaker2243: आ... ठीक~है।
+~            ~    okay   
+$956/speech_956_24.mp3;1,0;7,217.77777777777777;4,174.22222222222223
+
+[LINE]
+Speaker856: म्म्म... क्या~आप आना~चहाते~हैं?
+~           ~…       do~you  want~to~come  
+$956/speech_956_25.mp3;5,0;8,389.7391304347826;3,216.52173913043475;4,129.91304347826087;6,173.21739130434776;4,259.826086956522
+
+[LINE]
+Speaker2243: हाँ! बेशक!     
+~            yes  of~course 
+$956/speech_956_26.mp3;3,0;6,220.8
+
+[MULTIPLE_CHOICE]
+> Yasin happily accepted…
+- … going to Bharati's school.
+- … a plane ticket to Pakistan.
++ … going to the park with Bharati.
+
+[MATCH]
+> Tap the pairs
+- पर्यटक <> tourist
+- आपसे और बात करना <> nice to meet you
+- आपका स्वागत है <> you're welcome
+- दोस्तों <> friends
+- संयोग <> coincidence
+
