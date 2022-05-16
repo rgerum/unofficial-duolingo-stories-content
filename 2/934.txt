@@ -1,0 +1,149 @@
+[DATA]
+fromLanguageName=Saturday night
+icon=09cbfe4b009b6617a05701652d4210d552d0f5a2
+set=1|10
+
+speaker_Charlotte=Lotte
+speaker_Brent=Ruben
+
+[HEADER]
+> Zaterdagavond
+$934/speech_934_0.mp3;13,6
+
+[LINE]
+> Charlotte praat op~het~werk met  haar vriend Brent.
+~ ~         talks at~work     with her  friend ~     
+$934/speech_934_1.mp3;9,6;6,398;3,294;4,132;5,127;4,243;5,146;7,125;6,276
+
+[LINE]
+Speaker336: Hoi Brent.
+~           Hi  ~     
+$934/speech_934_2.mp3;3,6;6,243
+
+[LINE]
+Speaker336: Wat  doe~je        dit  weekend?
+~           What are~you~doing this weekend 
+$934/speech_934_3.mp3;3,6;4,207;3,127;4,159;8,210
+
+[MULTIPLE_CHOICE]
+> Does Charlotte ask Brent what he's going to do next month?
+- Ja,  dat  klopt.     
+~ Yes  that is~correct 
++ Nee, dat  klopt~niet.    
+~ No   that is~not~correct 
+
+[LINE]
+Speaker2243: Ik ga naar een concert komende~zaterdag.
+~            I  go to   a   concert next~Saturday    
+$934/speech_934_5.mp3;2,6;3,130;5,173;4,162;8,79;8,422;9,395
+
+[LINE]
+Speaker2243: De  band heet      "De  Zusters".
+~            The band is~called  The Sisters  
+$934/speech_934_6.mp3;2,6;5,113;5,241;4,259;8,78
+
+[LINE]
+Speaker2243: Wil  je  met  me naar het concert gaan?
+~            Want you with me to   the concert go   
+$934/speech_934_7.mp3;3,6;3,205;4,120;3,148;5,103;4,120;8,96;5,382
+
+[SELECT_PHRASE]
+> What does Brent want to know? Choose the correct ending.
+> Brent wil weten [of  Charlotte met hem meegaat.] .
+~ if    ~   with   him joins     ~   ~   ~          
+$934/speech_934_8.mp3;5,6;4,235;6,170;3,379;10,136;4,409;4,189;8,125
+- of Charlotte ook naar het concert gaat.
+- of Charlotte ook losgaat op de muziek van "De Zusters".
++ of Charlotte met hem meegaat.
+
+[LINE]
+Speaker336: Ehm.
+~           Hum 
+$934/speech_934_9.mp3;3,6
+
+[LINE]
+Speaker2243: Wat  doe~jij       dit  weekend?
+~            What are~you~doing this weekend 
+$934/speech_934_10.mp3;3,6;4,192;4,68;4,180;8,158
+
+[LINE]
+Speaker336: Eeeuhh...
+~           Errr     
+$934/speech_934_11.mp3;6,6
+
+[LINE]
+Speaker336: Maar nee wacht, ik ga       een voetbalwedstrijd bijwonen. 
+~           But  no  wait   I  am~going a   football~match   to~attend 
+$934/speech_934_12.mp3;4,6;4,211;6,268;4,626;3,117;4,251;17,129;9,1013
+
+[MULTIPLE_CHOICE]
+> Where is Charlotte going?
+- To an American football game.
++ To a football game.
+- To a rugby game.
+
+[LINE]
+Speaker2243: Vet~cool! 
+~            Very~cool 
+$934/speech_934_14.mp3;3,6;5,281
+
+[LINE]
+> Die  zaterdagavond  is Brent op het concert.
+~ That Saturday~night is ~     at the concert 
+$934/speech_934_15.mp3;3,6;14,170;3,855;6,122;3,311;4,135;8,107
+
+[LINE]
+> Het concert staat~op~het~punt~om~te~beginnen.
+~ The concert is~about~to~start                
+$934/speech_934_16.mp3;3,6;8,164;6,420;3,265;4,100;5,99;3,272;3,117;9,83
+
+[LINE]
+Speaker2243: Dat  meisje met  die  gitaar...
+~            That girl   with that guitar   
+$934/speech_934_17.mp3;3,6;7,206;4,351;4,137;7,109
+
+[LINE]
+Speaker2243: Is dat  Charlotte?
+~            Is that ~         
+$934/speech_934_18.mp3;2,6;4,135;10,167
+
+[MULTIPLE_CHOICE]
+> Why is Brent confused?
+- Charlotte also came to attend the concert.
+- Charlotte bought a guitar.
++ Charlotte is the guitar player of the band.
+
+[LINE]
+> Na    het concert praat Brent met  Charlotte.
+~ After the concert talks ~     with ~         
+$934/speech_934_20.mp3;2,6;4,189;8,148;6,386;6,285;4,250;10,142
+
+[LINE]
+Speaker2243: Een voetbalwedstrijd he?
+~            A   football~match   eh 
+$934/speech_934_21.mp3;3,6;17,115;3,808
+
+[LINE]
+Speaker336: Verrassing!
+~           Surprise   
+$934/speech_934_22.mp3;10,6
+
+[LINE]
+Speaker2243: Je     bent      een           uitmuntende gitaarspeler!
+~            You're excellent guitar~player ~           ~            
+$934/speech_934_23.mp3;2,6;5,118;4,215;12,68;13,525
+
+[MULTIPLE_CHOICE]
+> What does Brent mean?
+- That he would also want to be in the band.
++ That Charlotte plays very well.
+- That Charlotte's guitar is perfect.
+
+[MATCH]
+> Tap the pairs:
+- uitmuntende gitaarspeler <> excellent guitar player
+- about to start <> op het punt staan om te beginnen
+- zaterdag <> Saturday
+- dat klopt <> that is correct
+- meegaan <> join
+
