@@ -1,0 +1,158 @@
+[DATA]
+fromLanguageName=I Want a dog
+icon=51e004f16574a25cf124ce8d3c718187674dfbdc
+set=4|3
+
+icon_Speaker370=https://stories-cdn.duolingo.com/image/5c0e3dc3bf6643fee057c963573678bf175a01b8.svg
+speaker_Speaker371=Tatyana
+speaker_Speaker370=ru-RU-Wavenet-B
+
+[HEADER]
+> Я хочу собаку.
+~ I want a~dog  
+$642/speech_642_0.mp3;1,6;5,219;7,416
+
+[LINE]
+SpeakerSpeaker370: Мама! Мама!
+~                  Mom   Mom  
+$642/speech_642_1.mp3;4,6;6,901
+
+[LINE]
+Speaker292: Да,  Саша? 
+~           yes  Sasha 
+$642/speech_642_2.mp3;2,6;6,515
+
+[SELECT_PHRASE]
+> Select the missing phrase
+SpeakerSpeaker370: [Я хочу собаку].
+~                   I want a~dog   
+$642/speech_642_3.mp3;1,6;5,219;7,416
+- Я продаю собаку
+- Я хочу торт
++ Я хочу собаку
+
+[LINE]
+Speaker292: Собаку? Это  много работы. 
+~           a~dog   it's a~lot of~work 
+$642/speech_642_4.mp3;6,6;5,1016;6,231;7,406
+
+[LINE]
+SpeakerSpeaker370: Мама, пожалуйста!
+~                  mom   please     
+$642/speech_642_5.mp3;4,6;12,655
+
+[LINE]
+Speaker292: Хорошо.
+~           Fine   
+$642/speech_642_6.mp3;6,6
+
+[LINE]
+SpeakerSpeaker370: Да! 
+~                  yes 
+$642/speech_642_7.mp3;2,6
+
+[LINE]
+Speaker292: Но  сначала, ты  должен  помыть машину   ...
+~           but first    you have~to wash   the~car     
+$642/speech_642_8.mp3;2,6;8,129;4,877;7,98;7,382;7,383
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "first."
+> (Но) (+сначала) (ты) (должен) (помыть) (машину)
+$642/speech_642_9.mp3;2,6;8,202;3,614;7,185;7,441;7,442
+
+[LINE]
+Speaker292: и   посуду…              
+~           and the~(kitchen)~dishes…
+$642/speech_642_10.mp3;1,6;8,90
+
+[LINE]
+SpeakerSpeaker370: Да… 
+~                  yes…
+$642/speech_642_11.mp3;3,6
+
+[LINE]
+Speaker292: и   также окна!       
+~           and also  the~windows 
+$642/speech_642_12.mp3;1,6;6,77;5,325
+
+[MULTIPLE_CHOICE]
+> Before getting a dog, Sasha has to…
+- … clean his room and the kitchen.
+- … water the plants and cook dinner.
++ … wash the car, the dishes and the windows.
+
+[LINE]
+> Саша  заканчивает всё~мыть.          
+~ Sasha finishes    washing~everything 
+$642/speech_642_14.mp3;4,6;12,449;4,889;5,305
+
+[LINE]
+SpeakerSpeaker370: Мама! Смотри!
+~                  Mom   look   
+$642/speech_642_15.mp3;4,6;8,901
+
+[LINE]
+Speaker292: Хорошая работа! Ты      очень ответственный.
+~           good    job     you~are very  responsible   
+$642/speech_642_16.mp3;7,6;7,572;4,946;6,202;14,448
+
+[SELECT_PHRASE]
+> What comes next?
+Speaker292: Теперь         мы можем купить  [тебе собаку].
+~           Now(presently) We can   buy      ~    ~       
+$642/speech_642_17.mp3;6,6;3,356;6,158;7,323;6,372;7,262
++ тебе собаку
+- тебе машину
+- тебе окно
+
+[LINE]
+SpeakerSpeaker370: Нет, спасибо!  
+~                  no   thank~you 
+$642/speech_642_18.mp3;3,6;9,662
+
+[LINE]
+SpeakerSpeaker370: Я не    хочу собаку.
+~                  I don't want a~dog  
+$642/speech_642_19.mp3;1,6;3,254;5,124;7,418
+
+[LINE]
+Speaker292: Но...   я не    понимаю.   
+~           but…    I don't understand 
+$642/speech_642_20.mp3;2,6;5,701;3,190;8,126
+
+[LINE]
+SpeakerSpeaker370: Я не    хочу быть  ответственным. Я   устал!
+~                  I don't want to~be responsible    I'm tired 
+$642/speech_642_21.mp3;1,6;3,254;5,124;5,420;14,237;3,1406;6,297
+
+[MULTIPLE_CHOICE]
+> Why doesn't Sasha want a dog?
++ He's tired and doesn't want more responsibility.
+- He already has four dogs.
+- He thinks having a dog will be too boring.
+
+[MATCH]
+> Tap the pairs
+- устал <> tired (m)
+- устала <> tired (f)
+- устали <> tired (p)
+- быть <> to be
+- всё <> everything
+- собака <> a/the dog
+- должен помыть <> have to wash (m)
+- мыть <> to wash(washing)
+- тебе <> for you (to you)
+
+[MATCH]
+> Tap the pairs
+- машина <> a/the car
+- окно <> a/the window
+- не хочу <> (I) don't want
+- также <> also
+- посуда <> the kitchen dishes
+- я не понимаю <> I don't understand
+- ответственный <> responsible
+- Смотри! <> Look!
+- купить <> to buy
+
