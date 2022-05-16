@@ -1,0 +1,148 @@
+[DATA]
+fromLanguageName=Friends
+icon=743f08a1a28a5e27e7e78ba3c46443b92365789b
+set=2|10
+
+[HEADER]
+> सच्चे~दोस्त 
+~ true~friends
+$904/speech_904_0.mp3;5,6;6,501
+
+[LINE]
+Speaker101: नमस्ते प्रिया!
+~           Hi     ~      
+$904/speech_904_1.mp3;6,6;7,516
+
+[LINE]
+Speaker1320: नमस्ते अदिति! तुम~कैसी~हो?
+~            Hi     ~      how~are~you 
+$904/speech_904_2.mp3;6,6;6,467;5,890;5,229;3,409
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker101: [मै~ठीक~हूँ...]
+~            i~am~good     
+$904/speech_904_3.mp3;2,6;4,251;4,358
+- मै ठीक नहीं हूँ...
++ मै ठीक हूँ...
+- नमस्ते प्रिय...
+
+[LINE]
+Speaker101: हम आज    साथ      पढ़ने वाले~थे~ना?    
+~           we today together study going~to~right 
+$904/speech_904_4.mp3;2,6;3,294;4,198;6,404;5,440;3,328;3,278
+
+[LINE]
+Speaker1320: मुझे~माफ~करना, मै   आज    थोड़ी   व्यस्त हूँ..
+~            I'm~sorry      I~am today little busy   ~    
+$904/speech_904_5.mp3;4,6;4,409;5,352;4,702;3,296;5,346;7,369;4,353
+
+[LINE]
+Speaker1320: मै  मॉल  जा~रही~हूँ
+~            I'm mall going(to) 
+$904/speech_904_6.mp3;2,6;4,232;3,258;4,246;4,328
+
+[MULTIPLE_CHOICE]
+> Priya is busy because she's going to the mall.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker101: मगर तुम्हें~तो मॉल  जाना  पसंद~नहीं...  
+~           but you        mall going don't~like…   
+$904/speech_904_8.mp3;3,6;8,364;3,366;4,145;5,320;5,368;5,466
+
+[LINE]
+Speaker101: क्योंकि वहा        बोहोत~सारे~लोग  होते है...
+~           because there(are) a~lot~of~people are  ~    
+$904/speech_904_9.mp3;7,6;4,391;6,371;5,506;4,387;5,317;3,370
+
+[LINE]
+Speaker1320: हाँ लेकिन...
+~            yes but     
+$904/speech_904_10.mp3;3,6;6,257
+
+[LINE]
+Speaker101: और  तुम्हें इतने~सारे~लोगों~से नफरत है
+~           and you     these~many~people  hate ~ 
+$904/speech_904_11.mp3;2,6;8,196;5,354;5,327;6,389;3,416;5,242;3,495
+
+[MULTIPLE_CHOICE]
+> Why doesn't Priya like the mall?
++ Because there are too many people there.
+- Because it's always closed.
+- Because it's too far away.
+
+[LINE]
+Speaker1320: हाँ... लेकिन मुझे   एक ज़रूरी     चीज़   लेना   है
+~            yes    but   I~have an important thing to~buy ~ 
+
+[LINE]
+Speaker101: क्या~मे तुम्हारे~साथ आ~सकती~हूँ
+~           can~i   with~you     come      
+
+[LINE]
+Speaker1320: हाँ लेकिन...
+~            yes but     
+
+[LINE]
+Speaker101: मेरी विनती है तुमसे प्रिय
+
+[LINE]
+Speaker1320: ठीक~है
+~            OK    
+
+[LINE]
+> प्रिय और  अदिति साथ~मे   मॉल~जाते~है   
+~ ~     and ~     together go~to~the~mall
+
+[LINE]
+Speaker1320: अरे नहीं!
+~            oh  no   
+
+[ARRANGE]
+> Tap what you hear
+Speaker1320: [(मुझे)      (तुम्हारे जन्मदिन~का) (तोहफा    लेना थ)]ा…
+~              i(wanted)   your     birthday     gift~buy …    ~    
+
+[LINE]
+Speaker1320: …| लेकिन सारी दुकाने तो~बंद~है... 
+~            …  but   all  stores are~closed   
+
+[LINE]
+Speaker1320: मै    एक बुरी दोस्त  हूँ
+~            I(am) a  bad  friend am 
+
+[MULTIPLE_CHOICE]
+> Priya thinks…
+- … the store is open.
+- … she's a good friend.
++ … she's a bad friend.
+
+[LINE]
+Speaker101: प्रिया तुम्हें मॉल~से    नफरत है...
+~           ~      you     (the)mall hate ~    
+
+[LINE]
+Speaker101: …| फिर~भी    तुम यहा  मेरे~लिए तोहफा लेने    आई!  
+~           …  but~still you here for~me   gift  (to)buy came 
+
+[LINE]
+Speaker101: तुम मेरी    सच्ची दोस्त  हो 
+~           you (are)my true  friend are
+
+[MULTIPLE_CHOICE]
+> Why does Aditi think Priya is a good friend?
++ Because Priya went to the mall to buy her a birthday present.
+- Because Priya doesn't like people.
+- Because Priya's cooking her dinner.
+
+[MATCH]
+> Tap the pairs
+- व्यस्त <> busy
+- लोग <> people
+- जन्मदिन <> birthday
+- मै ठीक हूँ... <> I am good
+- सच्ची <> true
+- तोहफा <> gift
+
