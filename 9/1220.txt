@@ -1,0 +1,183 @@
+[DATA]
+fromLanguageName=A Drawing in the Park
+icon=96fd9b652456a41bca2912838b14cb5bd9f7827a
+set=6|5
+
+speaker_Speaker247=ru-RU-Wavenet-B
+speaker_Speaker246=ru-RU-EkaterinaRUS
+
+[HEADER]
+> Рисунок   в  парке   
+~ A~drawing in the~park
+$1220/speech_1220_0.mp3;7,6;2,633;6,63
+
+[LINE]
+> Каждый день Тимофей гуляет         со   своей~собакой в  парке.   
+~ Every  day  ~       walks(strolls) with his~dog       in the~park 
+$1220/speech_1220_1.mp3;6,6;5,386;8,327;7,510;3,450;6,159;8,372;2,638;6,117
+
+[LINE]
+> И   каждый день Тимофей видит, что  А́нна сидит в  парке    и   рисует.
+~ and every  day  ~       sees   that ~     sits  in the~park and draws  
+$1220/speech_1220_2.mp3;1,6;7,137;5,482;8,251;6,580;5,742;6,273;6,269;2,372;6,52;2,459;7,28
+
+[MULTIPLE_CHOICE]
+> Timofey sees Anna...
+- ... walking with dogs.
++ ... drawing every day.
+- ... taking a train to work.
+
+[LINE]
+> В~один  прекрасный день он решает  с    ней поговорить.
+~ (in)one fine       day  he decides with her to~chat    
+$1220/speech_1220_4.mp3;1,6;5,191;11,328;5,770;3,296;7,174;2,492;4,110;11,188
+
+[LINE]
+Speaker385: Здрасте!
+~           hi      
+$1220/speech_1220_5.mp3;7,0
+
+[LINE]
+Speaker101: Здравствуйте
+~           Hello       
+$1220/speech_1220_6.mp3;12,0
+
+[LINE]
+Speaker385: Могу~ли я Вас~спросить кое-что?  
+~           May     I ask~you      something 
+$1220/speech_1220_7.mp3;4,0;3,229.56521739130434;2,137.7391304347826;4,91.82608695652175;9,183.65217391304355;8,413.21739130434776
+
+[MULTIPLE_CHOICE]
+> What does Timofey want to know?
++ If he can ask Anna something.
+- If Anna can talk to his dog.
+- If he can eat close to Anna.
+
+[LINE]
+Speaker101: Да? 
+~           yes 
+$1220/speech_1220_9.mp3;2,0
+
+[LINE]
+Speaker385: Я вижу, как Вы  рисуете каждый день.
+~           I see   how you draw    every  day  
+$1220/speech_1220_10.mp3;1,0;5,98.88;5,296.64;3,197.76;8,148.32000000000005;7,395.5200000000001;5,346.0799999999999
+
+[LINE]
+Speaker101: Да... 
+~           yes   
+$1220/speech_1220_11.mp3;2,0
+
+[LINE]
+Speaker385: Что  Вы      рисуете?
+~           what are~you drawing 
+$1220/speech_1220_12.mp3;3,0;3,163.2;8,122.40000000000003
+
+[LINE]
+Speaker101: Аам, я рисую...
+~           ~    I draw    
+$1220/speech_1220_13.mp3;3,0;3,420;6,168
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker101: ... [много вещей]  !
+~                many  things   
+$1220/speech_1220_14.mp3;0,0;9,423.69230769230774
+- много овощей
++ много вещей
+- разные овощи
+
+[LINE]
+Speaker101: Я рисую красивые  или интересные  вещи.  
+~           I draw  beautiful or  interesting things 
+$1220/speech_1220_15.mp3;1,0;6,130.15384615384616;9,390.46153846153845;4,585.6923076923077;11,260.3076923076924;5,715.8461538461538
+
+[LINE]
+Speaker385: Здорово!
+~           Great   
+$1220/speech_1220_16.mp3;7,0
+
+[LINE]
+Speaker385: И   теперь? А            что  Вы      рисуете там?  
+~           and now     [emphasizer] what are~you drawing there 
+$1220/speech_1220_17.mp3;1,0;7,101.21739130434783;3,404.8695652173913;4,101.21739130434787;3,202.43478260869563;8,151.82608695652175;4,404.86956521739137
+
+[LINE]
+Speaker101: Это  секрет...  
+~           it's a~secret   
+$1220/speech_1220_18.mp3;3,0;7,282.24
+
+[MULTIPLE_CHOICE]
+> What is Anna's secret?
+- Her dog.
++ Her drawing.
+- The park.
+
+[LINE]
+Speaker385: Почему?
+~           why    
+$1220/speech_1220_20.mp3;6,0
+
+[LINE]
+Speaker101: Аам... Вы  приходите сюда каждый день.
+~           ~…     you come      here every  day  
+$1220/speech_1220_21.mp3;3,0;6,327.6;10,196.55999999999995;5,655.1999999999999;7,327.60000000000014;5,458.6399999999999
+
+[CONTINUATION]
+> What comes next?
+Speaker385: Я знаю. Вы    [меня           рисуете]!
+~           I know  You    are~drawing~me ~        
+$1220/speech_1220_22.mp3;1,0;5,56.29090909090909;4,168.87272727272727;7,140.72727272727272;8,140.72727272727275
++ меня~рисуете  
+~ are~drawing~me
+- едите      апельсин 
+~ are~eating an~orange
+- ищете           парк  
+~ are~looking~for a~park
+
+[LINE]
+Speaker385: Ну...   я тоже считаю   что~Вы                 очень красивая. 
+~           Well    I also consider you~to~be(that~you're) very  beautiful 
+$1220/speech_1220_23.mp3;2,0;5,207.58441558441558;5,69.19480519480521;7,172.98701298701297;4,242.18181818181813;3,138.38961038961043;6,103.79220779220782;9,207.5844155844154
+
+[LINE]
+Speaker101: О  нет, нет! Простите.             
+~           Oh no   no   Forgive~me(I'm~sorry) 
+$1220/speech_1220_24.mp3;1,0;4,204;5,510;10,510
+
+[LINE]
+Speaker101: Я   не  Вас~рисую.  
+~           I'm not drawing~you 
+$1220/speech_1220_25.mp3;1,0;3,141.6;4,212.4;6,283.19999999999993
+
+[LINE]
+Speaker385: Ам...
+$1220/speech_1220_26.mp3;2,0
+
+[LINE]
+Speaker101: Я   рисую   Вашу собаку! Она́   очень красивая!  Посмотри́те!
+~           I'm drawing your dog     She~is very  beautiful  Look        
+$1220/speech_1220_27.mp3;1,0;6,129.6;5,388.79999999999995;7,324;6,518.4;6,324;9,388.79999999999995;13,648
+
+[MULTIPLE_CHOICE]
+> Timofey thought...
++ … Anna was drawing a picture of him.
+- … his dog ran away.
+- … it was Anna's first time visiting the park.
+
+[MATCH]
+> Tap the pairs
+- сюда <> here(to here)
+- Здравствуйте <> Hello(formal)
+- Здрасте <> hi
+- поговорить <> to chat
+- или  <> or
+
+[MATCH]
+> Tap the pairs
+- красивые <> beautiful(plural)
+- интересные <> interesting(plural)
+- вещи <> things
+- овощи <> vegetables
+- гуляют <> walk/stroll(they)
+
