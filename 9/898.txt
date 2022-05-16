@@ -1,0 +1,150 @@
+[DATA]
+fromLanguageName=Friends
+icon=743f08a1a28a5e27e7e78ba3c46443b92365789b
+set=2|10
+
+speaker_Speaker353=Tatyana
+speaker_Speaker354=Tatyana
+
+[HEADER]
+> Друзья 
+~ friends
+$898/speech_898_0.mp3;6,6
+
+[LINE]
+Speaker101: Привет, Маргарита!
+~           hi      ~         
+$898/speech_898_1.mp3;6,6;11,731
+
+[LINE]
+Speaker1320: Привет, Света.
+~            hi      ~     
+$898/speech_898_2.mp3;6,6;7,731
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker101: Ты~хочешь [пойти поесть] пиццу?  
+~           you~want   to~go to~eat  a~pizza 
+$898/speech_898_3.mp3;2,6;7,84;6,418;7,339;6,428
+- пойти поспать
+- полететь поесть
++ пойти поесть
+
+[LINE]
+Speaker1320: Нет, спасибо!  
+~            no   thank~you 
+$898/speech_898_4.mp3;3,6;9,626
+
+[LINE]
+Speaker1320: Я иду      в~торговый~центр.
+~            I am~going to~the~mall      
+$898/speech_898_5.mp3;1,6;4,219;2,165;9,64;6,474
+
+[LINE]
+Speaker101: Но  ты  же         ненавидишь торговые~центры.
+~           but you (emphasis) hate       malls           
+$898/speech_898_6.mp3;2,6;3,143;3,153;11,141;9,593;7,542
+
+[LINE]
+Speaker101: Там   слишком~много народа.   
+~           there too~many      of~people 
+$898/speech_898_7.mp3;3,6;8,197;6,442;7,344
+
+[MULTIPLE_CHOICE]
+> Why does Margaritta hate the mall?
+- Because it's always closed.
+- Because it's too far away.
++ Because there are too many people there.
+
+[LINE]
+Speaker1320: Да,  но  мне~надо купить...  кое-что.  
+~            yes  but I~need   to~buy…    something 
+$898/speech_898_9.mp3;2,6;4,555;4,146;5,144;7,265;11,933
+
+[MULTIPLE_CHOICE]
+> Margaritta hates the mall but…
+- … she works there.
+- … Sveta forced her to go there.
++ … she needs to buy something.
+
+[LINE]
+Speaker101: Давай сходим вместе!  
+~           let's go     together 
+$898/speech_898_11.mp3;5,6;7,346;7,465
+
+[LINE]
+Speaker1320: Но… 
+~            but…
+$898/speech_898_12.mp3;3,6
+
+[LINE]
+Speaker101: Пожалуйста!
+~           please     
+$898/speech_898_13.mp3;10,6
+
+[LINE]
+Speaker1320: Ладно.
+~            ok    
+$898/speech_898_14.mp3;5,6
+
+[LINE]
+> Виолета и   Света в~торговом~центре.
+~ ~       and ~     are~at~the~mall   
+$898/speech_898_15.mp3;7,6;2,660;6,43;2,486;9,74;7,562
+
+[LINE]
+Speaker1320: О, нет!
+~            ~  no  
+$898/speech_898_16.mp3;1,6;5,515
+
+[LINE]
+Speaker1320: Мне~надо купить подарок   на~твой  день~рождения…
+~            I~need   to~buy a~present for~your birthday…     
+$898/speech_898_17.mp3;3,6;5,203;7,280;8,341;3,532;5,112;5,215;10,248
+
+[LINE]
+Speaker1320: А         магазин   закрыт.   
+~            and~(but) the~store is~closed 
+$898/speech_898_18.mp3;1,6;8,83;7,462
+
+[MULTIPLE_CHOICE]
+> Margaritta needs to buy Sveta's birthday present…
+- … but she doesn't know what to get her.
+- … but she forgot her wallet.
++ … but the store is closed.
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "bad."
+Speaker1320: (Я)    (+плохая) (подруга).
+~             I~am    bad      friend   
+$898/speech_898_20.mp3;1,6;7,263;8,515
+
+[LINE]
+Speaker101: Маргарита, ты  ненавидишь торговые~центры.
+~           ~          you hate       malls           
+$898/speech_898_21.mp3;9,6;4,885;11,86;9,612;7,542
+
+[LINE]
+Speaker101: Но  ты      здесь…
+~           but you~are here… 
+$898/speech_898_22.mp3;2,6;3,194;7,159
+
+[LINE]
+Speaker101: Ты      здесь, чтобы    купить подарок   на~мой день~рождения!
+~           you~are here   in~order to~buy a~present for~my birthday      
+$898/speech_898_23.mp3;2,6;6,118;7,705;7,272;8,350;3,527;4,126;5,227;9,279
+
+[MULTIPLE_CHOICE]
+> Why does Sveta think Margaritta is a good friend?
+- Because she doesn't like people.
+- Because she's cooking her dinner.
++ Because she went to the mall to buy her a birthday present.
+
+[MATCH]
+> Tap the pairs
+- чтобы купи́ть <> in order to buy
+- подру́га (f) / друг (m) <> friend
+- мне на́до <> I need
+- магази́н <> store
+- пода́рок <> a present
+
