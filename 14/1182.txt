@@ -1,0 +1,144 @@
+[DATA]
+fromLanguageName=The Bus Ticket
+icon=1cad8a6eda3c353f9c7c98e338cb8fc3d211644d
+set=4|6
+
+[HEADER]
+> Ang Tiket  sa~Bus     
+~ the ticket for~the~bus
+
+[LINE]
+> Nasa  restaurant si Elsa.
+~ is~in ~          ~  ~    
+
+[LINE]
+> Kausap~niya    ang waiter, si Frank.
+~ she~spoke~with the ~       ~  ~     
+
+[LINE]
+Speaker1715: Sasakay   na  ko sa~bus. 
+~            will~ride now I  the~bus 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker526: [Saan  ka  po pupunta] ?
+~            where you ~  going     
++ Saan ka po pupunta
+- Nasaan ka na po
+- Saan bapor pupunta
+
+[LINE]
+Speaker1715: Papuntang Isabela.
+~            to        ~       
+
+[LINE]
+Speaker526: Taga-Isabela po ako  !
+~           from~Isabela ~  I~am  
+
+[LINE]
+Speaker1715: Ah, okay ?
+
+[LINE]
+Speaker526: Gusto~ko~sanang makita ang~pamilya~ko...
+~           I'd~like        to~see my~family        
+
+[LINE]
+Speaker526: …| pero ang~mahal    po kasi    ng~tiket.  
+~           …  but  is~expensive ~  because the~ticket 
+
+[MULTIPLE_CHOICE]
+> Frank would like to see his family...
+- … but he lost his tickets.
+- … but they don't want to see him.
++ … but the bus ticket is very expensive.
+
+[LINE]
+Speaker1715: Oo~nga.
+~            indeed 
+
+[LINE]
+Speaker526: Bakit~ka    po pupuntang Isabela ?
+~           why~are~you ~  going~to  ~        
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1715: [Para             sa interbyu].
+~             for~an~interview ~  ~         
+- Kara sa interbyu
++ Para sa interbyu
+- Para ng interbyu
+
+[LINE]
+Speaker1715: Pero ayoko       talaga magtrabaho sa Isabela !
+~            but  I~dont~want really to~work    in ~        
+
+[LINE]
+Speaker526: Bakit ?
+~           why    
+
+[LINE]
+Speaker1715: Gusto~ko na~lang dito,       kasama ang~pamilya~ko.
+~            I~want   just    to~be~here  with   my~family      
+
+[LINE]
+Speaker526: Ah, naiintindihan~ko naman.
+~           ~   I~understand     ~     
+
+[LINE]
+Speaker1715: Gusto…| gusto~mo~ba 'yung~tiket~ko ?
+~            want…   do~you~want my~ticket       
+
+[LINE]
+Speaker526: Ano  ?
+~           what  
+
+[CONTINUATION]
+> What comes next?
+Speaker1715: Puwede~mo nang makita [ang         pamilya mo].
+~            you~can   now  see     your~family ~       ~   
+- ang~tiket~ko
+~ my~ticket   
+- ang~bus~ko
+~ my~bus    
++ ang~pamilya~mo
+~ your~family   
+
+[LINE]
+Speaker526: Salamat!  
+~           thank~you 
+
+[LINE]
+Speaker1715: Pero paalis         na      ang bus.
+~            but  about~to~leave already the ~   
+
+[MULTIPLE_CHOICE]
+> The bus is about to leave.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker1715: At  nagtatrabaho~ka pa.   
+~            and you~work        still 
+
+[LINE]
+Speaker526: Ah, walang     problema !
+~           ~   there's~no problem   
+
+[LINE]
+Speaker526: Ayoko        rin  naman talaga magtrabaho rito eh !
+~           I~don't~want also ~     really to~work    here ~   
+
+[MULTIPLE_CHOICE]
+> What is Frank going to do?
+- Buy a train ticket to Paris.
++ Quit his job and use Elsa's ticket to go to Bordeaux.
+- Work at the restaurant with Elsa.
+
+[MATCH]
+> Tap the pairs
+- salamat <> thank you
+- makita <> see
+- pamilya <> family
+- paalis <> about to leave
+- sasakay <> will ride
+
