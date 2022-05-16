@@ -1,0 +1,138 @@
+[DATA]
+fromLanguageName=The Green Dress
+icon=5dd7c1c9e363ca081026fc76b834b84df03c1ce5
+set=2|1
+
+speaker_Speaker404=Tatyana
+speaker_Speaker405=Tatyana
+
+[HEADER]
+> Зелёное~платье 
+~ the~green~dress
+$598/speech_598_0.mp3;7,6;7,576
+
+[LINE]
+Speaker659: Лена? Ты  где?  
+~           ~     you where 
+$598/speech_598_1.mp3;4,6;4,702;4,156
+
+[LINE]
+Speaker175: Я в~ванной,        Ирина!
+~           I in~the~bathroom  ~     
+$598/speech_598_2.mp3;1,6;2,162;7,70;7,758
+
+[LINE]
+Speaker659: Где   моё~платье?
+~           where my~dress   
+$598/speech_598_3.mp3;3,6;4,206;7,305
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "dress."
+> (Где) (моё) (+платье)?
+
+[LINE]
+Speaker175: Твоё~красное~платье?
+~           your~red~dress      
+$598/speech_598_5.mp3;4,6;8,368;7,467
+
+[LINE]
+Speaker659: Нет, моё~зелёное~платье!
+~           no   my~green~dress     
+$598/speech_598_6.mp3;3,6;5,626;8,302;7,479
+
+[MULTIPLE_CHOICE]
+> Irinna is looking for...
+- … her long skirt.
++ … her green dress.
+- … her green shoes.
+
+[LINE]
+Speaker659: Я~иду      в~ресторан        с    Павлом.
+~           I~am~going to~the~restaurant with ~      
+$598/speech_598_8.mp3;1,6;4,219;2,166;9,43;2,522;7,99
+
+[LINE]
+Speaker175: Мне~нравится красное~платье.
+~           I~like       the~red~dress  
+$598/speech_598_9.mp3;3,6;9,203;8,472;7,491
+
+[LINE]
+Speaker659: Но  я~хочу надеть    зелёное~платье! 
+~           But I~want to~put~on the~green~dress 
+$598/speech_598_10.mp3;2,6;2,114;5,128;7,347;8,383;7,482
+
+[LINE]
+Speaker175: Хочешь   моё~белое~платье?
+~           you~want my~white~dress   
+$598/speech_598_11.mp3;6,6;4,539;6,326;7,375
+
+[LINE]
+Speaker659: Это   твоё~любимое~платье!
+~           it~is your~favorite~dress 
+$598/speech_598_12.mp3;3,6;5,214;8,351;7,512
+
+[LINE]
+Speaker175: И   ты      моя~любимая~сестра...
+~           and you~are my~favorite~sister   
+$598/speech_598_13.mp3;1,6;3,107;4,127;8,286;7,459
+
+[MULTIPLE_CHOICE]
+> Lena is offering her favorite dress...
+- … to her favorite daughter.
+- … to her favorite cousin.
++ … to her favorite sister.
+
+[LINE]
+Speaker659: Большое~спасибо!    
+~           thank~you~very~much 
+$598/speech_598_15.mp3;7,6;8,492
+
+[LINE]
+> Лена выходит   из~ванной~комнаты.
+~ ~    comes~out of~the~bathroom   
+$598/speech_598_16.mp3;4,6;8,335;3,526;7,163;8,370
+
+[MULTIPLE_CHOICE]
+> Lena came out of the bathroom.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker175: Замечательно!
+~           perfect      
+$598/speech_598_18.mp3;12,6
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker175: Белое~платье    для~тебя и   [зелёное~для~меня]       !
+~           the~white~dress for~you  and  the~green~(one)~for~me   
+$598/speech_598_19.mp3;5,6;7,403;4,382;5,174;2,395;8,32;4,502;5,186
++ зелёное для меня
+- зелёное для тебя
+- синее для меня
+
+[LINE]
+Speaker659: Лена! У~тебя   моё~зелёное~платье!
+~           ~     you~have my~green~dress     
+$598/speech_598_20.mp3;4,6;3,792;5,73;4,248;8,338;7,470
+
+[LINE]
+Speaker175: Да!  И   я    твоя~любимая~сестра! 
+~           yes  and I~am your~favorite~sister 
+$598/speech_598_21.mp3;2,6;3,679;2,87;5,175;8,339;7,445
+
+[MULTIPLE_CHOICE]
+> Why is Irina annoyed?
+- Lena won't leave the bathroom.
+- Lena is talking to her boyfriend.
++ Lena is wearing the dress that she wanted to wear.
+
+[MATCH]
+> Tap the pairs
+- я <> I
+- ты <> you
+- где <> where
+- с <> with
+- ванная комната <> bathroom
+- платье <> dress
+
