@@ -1,0 +1,156 @@
+[DATA]
+fromLanguageName=The Song
+icon=be8f47fb647fd1b6b62660bfeceaa284fb800d10
+set=7|6
+
+speaker_Narrator=ru-RU-Wavenet-A
+speaker_Speaker274=ru-RU-Wavenet-B
+speaker_Speaker273=ru-RU-Wavenet-D
+
+[HEADER]
+> Песня   
+~ The~song
+$1261/speech_1261_0.mp3;5,0
+
+[LINE]
+> Дмитрий и   Фёдор в        ресторане.   
+~ ~       and ~     (are)~in a~restaurant 
+$1261/speech_1261_1.mp3;7,0;2,397.39534883720927;6,99.34883720930236;2,298.0465116279069;10,99.34883720930247
+
+[LINE]
+> Они  слышат песню. 
+~ They hear   a~song 
+$1261/speech_1261_2.mp3;3,0;7,183;6,320.25
+
+[MULTIPLE_CHOICE]
+> Dmitriy and Fyodor are listening to the news.
+- Yes, that's true.
++ No, that's not right.
+
+[LINE]
+Speaker274: Я так     люблю эту  песню!
+~           I so~much love  this song  
+$1261/speech_1261_4.mp3;1,0;4,93.40540540540542;6,186.81081081081084;4,280.21621621621625;6,186.81081081081084
+
+[LINE]
+Speaker44: Эта  песня скучная.    
+~          This song  (is)~boring 
+$1261/speech_1261_5.mp3;3,0;6,180.36363636363637;8,270.54545454545456
+
+[LINE]
+Speaker274: Она          очень известная!
+~           It's~(she's) very  famous    
+$1261/speech_1261_6.mp3;3,0;6,159.0857142857143;10,238.62857142857138
+
+[LINE]
+Speaker44: Да,  но  она          старая!
+~          Yes  but it's~(she's) old    
+$1261/speech_1261_7.mp3;2,0;4,192;4,144;7,192
+
+[LINE]
+Speaker44: Мне~она~не~очень~нравится.
+~          I~don't~like~it~very~much 
+$1261/speech_1261_8.mp3;3,0;4,175.609756097561;3,175.609756097561;6,131.7073170731707;9,263.41463414634137
+
+[LINE]
+Speaker44: Гитару     почти       не~слышно.
+~          The~guitar (is)~almost inaudible 
+$1261/speech_1261_9.mp3;6,0;6,322.7368421052631;3,276.63157894736844;7,138.31578947368416
+
+[ARRANGE]
+> Tap what you hear
+([Speaker44:) И   (она)          (слишком) (грустна)]я.Speaker44: И она слишком грустная.[Speaker44: И   она          слишком грустная].Speaker44: И она слишком грустная.
+  ~          And   it's~(she's)   too       sad        ~                                  ~          And it's~(she's) too     sad       ~                                 
+$1261/speech_1261_10.mp3;1,0;4,88.42105263157895;8,176.84210526315786;9,353.6842105263158
+
+[LINE]
+Speaker274: Нет, она          замечательная.
+~           No   it's~(she's) wonderful     
+$1261/speech_1261_11.mp3;3,0;5,214.73684210526315;14,171.7894736842105
+
+[LINE]
+Speaker274: Послушай  слова~песни! Они  прекрасны!      
+~           Listen~to the~lyrics   They (are)~beautiful 
+$1261/speech_1261_12.mp3;8,0;6,465.8823529411765;6,310.5882352941176;5,362.3529411764707;10,207.05882352941148
+
+[LINE]
+Speaker274: Пианино!   Слушай!
+~           The~piano  Listen 
+$1261/speech_1261_13.mp3;7,0;8,452.90322580645164
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker274: Но  есть     кое-что   [более важное]...   
+~           But there~is something  more  important    
+$1261/speech_1261_14.mp3;2,0;5,82.70270270270271;8,137.83783783783784;6,220.54054054054055;7,165.40540540540547
+- бумажное
+- бельё влажное
++ более важное
+
+[LINE]
+Speaker44: Что? 
+~          What 
+$1261/speech_1261_15.mp3;3,0
+
+[LINE]
+Speaker274: Эта   песня звучала          по~радио       в~день     нашей  первой встречи.
+~           This  song  was~playing      on~the~radio   on~the~day of~our first  meeting 
+$1261/speech_1261_16.mp3;3,0;7,223.07692307692307;8,267.69230769230774;8,580;6,133.8461538461538;4,356.92307692307713;5,89.23076923076906;6,223.0769230769231;7,267.6923076923076;8,312.3076923076924
+
+[MULTIPLE_CHOICE]
+> On the first day they met, the song...
+- …was criticized by the media.
++ …was playing on the radio.
+- …was performed by a live band.
+
+[LINE]
+Speaker274: Тридцать лет   назад!
+~           Thirty   years ago   
+$1261/speech_1261_18.mp3;8,0;4,343.05882352941177;6,152.4705882352941
+
+[LINE]
+Speaker44: А!  Да... 
+~          Ah  Yes   
+$1261/speech_1261_19.mp3;1,0;4,67.76470588235294
+
+[LINE]
+Speaker44: Действительно хорошая причина любить  эту  песню.
+~          Indeed        good    reason  to~love this song  
+$1261/speech_1261_20.mp3;13,0;8,731.6129032258065;8,418.0645161290323;7,418.0645161290322;4,365.8064516129034;6,209.03225806451587
+
+[CONTINUATION]
+> What comes next?
+> Фёдор встаёт    и    [смотрит в    глаза    Дмитрию].   
+~ ~     stands~up and   looks   into the~eyes of~Dmitriy  
+$1261/speech_1261_21.mp3;5,0;7,210.33707865168537;2,245.39325842696633;9,105.16853932584263;2,280.44943820224717;6,70.1123595505619;8,210.33707865168526
++ смотрит в    глаза    Дмитрию   
+~ looks   into the~eyes of~Dmitriy
+- уходит домой
+~ goes   home 
+- проливает вино на стол     
+~ spills    wine on the~table
+
+[LINE]
+Speaker44: Ты       хочешь потанцевать со   мной?
+~          (Do)~you want   to~dance    with me   
+$1261/speech_1261_22.mp3;2,0;7,132.8;12,309.8666666666666;3,531.2;5,132.80000000000007
+
+[LINE]
+Speaker274: Да! 
+~           Yes 
+$1261/speech_1261_23.mp3;2,0
+
+[MULTIPLE_CHOICE]
+> Why is the song so important for Dmitriy and Fyodor?
+- Because they always sing it on karaoke night.
+- Because it's sung by their favorite singer.
++ Because it was playing the day they met.
+
+[MATCH]
+> Tap the pairs
+- boring <> скучный/скучная
+- (they) hear <> (они) слышат
+- stands up <> встаёт
+- listen (to) (imperative) <> слушай/послушай
+- almost <> почти
+
