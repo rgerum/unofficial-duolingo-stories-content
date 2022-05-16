@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=My Favorite Lunch
+icon=7118252e70f96bc0ffa531032ec8c2efaf043e7b
+set=4|5
+
+speaker_Narrator=hi-IN-SwaraNeural
+speaker_Sangeeta=hi-IN-Wavenet-A
+speaker_Suresh=hi-IN-Wavenet-C
+
+[HEADER]
+> मेरा पसंदीदा  दोपहर~का~भोजन
+~ my   favorite lunch        
+$1126/speech_1126_0.mp3;4,0;8,360;6,576;3,432;5,216
+
+[LINE]
+> सुरेश और  संगीता रेस्टरॉन्ट     में हैं।
+~ ~     and ~      (a)~restaurant in  are 
+$1126/speech_1126_1.mp3;5,0;3,371.52;7,185.76;11,433.44000000000005;4,681.1200000000001;5,247.67999999999984
+
+[LINE]
+Speaker338: मैं हमेशा  घर~पर   दोपहर~का~भोजन खाती~हूँ...
+~           I   always at~home lunch         (I)~eat    
+$1126/speech_1126_2.mp3;3,0;6,209.14285714285714;3,313.7142857142858;3,156.8571428571429;6,156.85714285714278;3,313.71428571428567;5,156.8571428571429;5,261.42857142857133;4,261.42857142857156
+
+[LINE]
+Speaker338: ...लेकिन मेन्यू     पर बहुत-सारी चीज़ें  हैं!      
+~              but   (the)~menu on lots~of   things there~are 
+
+[MULTIPLE_CHOICE]
+> Sangeeta usually eats her lunch at home.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker440: हाँ! मैं हमेशा  मेरा दोपहर~का~भोजन यहाँ खाता~हूँ!
+~           yes  I   always my   lunch         here (I)~eat  
+$1126/speech_1126_5.mp3;3,0;5,262.85714285714283;6,210.28571428571428;5,315.42857142857144;6,262.8571428571428;3,315.42857142857156;5,157.71428571428555;5,262.8571428571429;5,262.8571428571429;4,262.85714285714266
+
+[LINE]
+Speaker338: म्म्म... मुझे थुक्पा                          और  पकोड़े   चाहिए।
+~           ~        I    thukpa~(noodles~and~vegetables) and pakoras want  
+$1126/speech_1126_6.mp3;5,0;8,419.29411764705884;7,232.94117647058823;3,326.1176470588234;6,139.76470588235293;7,279.5294117647061
+
+[LINE]
+Speaker440: यहाँ~का~थुक्पा                             बहुत अच्छा है!
+~           (the)~thukpa~(noodles~and~vegetables)~here very good  is 
+
+[LINE]
+Speaker338: तुम क्या खाना   चहते~हो?   
+~           you what to~eat (you)~want 
+$1126/speech_1126_8.mp3;3,0;5,171.24324324324326;5,214.05405405405403;5,214.05405405405406;3,214.05405405405406
+
+[ARRANGE]
+> Tap what you hear
+Speaker440: [(मेरा) (पसंदीदा)  (दोपहर~का~भोजन]|)।
+~             my     favorite   lunch          ~  
+$1126/speech_1126_9.mp3;4,0;8,265.1162790697674;6,424.18604651162786;3,318.139534883721;5,159.06976744186056;2,265.1162790697674
+
+[CONTINUATION]
+> What comes next?
+Speaker338: और  तुमहारा [पसंदीदा  दोपहर का भोजन] क्या है?
+~           and your     favorite lunch ~  ~     what is 
++ पसंदीदा  दोपहर~का~भोजन
+~ favorite lunch        
+- नाम 
+~ name
+- मेरा घर  
+~ my   home
+
+[LINE]
+Speaker440: बिना~नूडल्स~के  थुक्पा...                         
+~           without~noodles thukpa~(noodles~and~vegetables)   
+$1126/speech_1126_11.mp3;4,0;7,187.69230769230768;3,262.76923076923083;7,112.61538461538458
+
+[LINE]
+Speaker338: म्म्म... सिर्फ़ चटनी? 
+~           ~        only  sauce 
+$1126/speech_1126_12.mp3;5,0;9,364.1142857142857;5,242.74285714285708
+
+[LINE]
+Speaker440: नहीं, मुझे चटनी  पसंद~नहीं~है!
+~           no    I    sauce don't~like   
+$1126/speech_1126_13.mp3;4,0;6,310.9090909090909;5,259.0909090909091;5,259.0909090909091;5,259.0909090909091;3,259.090909090909
+
+[ARRANGE]
+> Tap what you hear
+Speaker440: [(लेकिन) (मुझे) (सब्जियाँ)   (और  टमाटर)    (पसंद~ह)]ै!
+~             but     I      vegetables   and tomatoes   like      
+$1126/speech_1126_14.mp3;5,0;5,310.1538461538462;9,258.46153846153845;3,465.23076923076917;6,155.0769230769231;5,310.1538461538462;3,258.46153846153857
+
+[LINE]
+Speaker440: मेरा पसंदीदा  दोपहर~का~भोजन...
+~           my   favorite lunch           
+$1126/speech_1126_15.mp3;4,0;8,259.09090909090907;6,414.54545454545456;3,310.9090909090909;5,155.4545454545455
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker440: ...बिना~नूडल्स~के  थुक्पा                          और  बहुत     [सब्जियों                  और  टमाटर]    के~साथ है!
+~              without~noodles thukpa~(noodles~and~vegetables) and a~lot~of  vegetables~(oblique~case) and tomatoes  with   is 
+- सबसे पाँ और टमाटर
+- सब्जियों पौर कमाकर
++ सब्जियों और टमाटर
+
+[LINE]
+Speaker338: सुरेश...
+$1126/speech_1126_17.mp3;5,0
+
+[LINE]
+Speaker440: हाँ?
+~           yes 
+$1126/speech_1126_18.mp3;3,0
+
+[LINE]
+Speaker338: वह   सलद   है!
+~           that salad is 
+
+[MULTIPLE_CHOICE]
+> Sangeeta is amused because Suresh's favorite lunch…
++ …is basically a salad.
+- …isn't available
+- …is only bread.
+
+[MATCH]
+> Tap the pairs
+- चटनी <> sauce
+- सब्जियाँ <> vegetables
+- दोपहर का भोजन <> lunch
+- सिर्फ़ <> only
+- क्या <> what
+
