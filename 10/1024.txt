@@ -1,0 +1,156 @@
+[DATA]
+fromLanguageName=A Question
+icon=087b93170babff3e2d63cc840a339f221e6957b0
+set=2|8
+
+speaker_Speaker340=Carla
+speaker_Speaker339=Giorgio
+
+[HEADER]
+> Una domanda 
+~ a   question
+$1024/speech_1024_0.mp3;3,6;8,228
+
+[LINE]
+Speaker1847: Papà, ho      una domanda. 
+~            dad   I~have  a   question 
+$1024/speech_1024_1.mp3;4,6;4,612;5,121;8,209
+
+[LINE]
+Speaker100: Mi~dispiace, Lara, sono occupato.
+~           I'm~sorry    ~     I~am busy     
+$1024/speech_1024_2.mp3;2,6;9,113;6,784;6,487;9,273
+
+[LINE]
+Speaker100: C'è           una partita~di~calcio~importante in televisione.
+~           there~is      an  important~soccer~game        on TV          
+$1024/speech_1024_3.mp3;3,6;9,166;8,190;3,411;7,119;11,340;3,620;12,92
+
+[MULTIPLE_CHOICE]
+> Lara's dad is busy watching a soccer game on TV.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker100: Andiamo!     Andiamo!     Andiamo! 
+~           let's~go     let's~go     let's~go 
+$1024/speech_1024_5.mp3;7,6;12,958;12,957
+
+[MULTIPLE_CHOICE]
+> Why is he shouting this?
+- Because he is running away from a bad guy.
++ Because he is very interested in the game on TV.
+- Because he wants Lara to follow him.
+
+[LINE]
+Speaker1847: Però ho~bisogno~di soldi.
+~            but  I~need        money 
+$1024/speech_1024_7.mp3;4,6;3,480;8,113;3,531;6,93
+
+[LINE]
+Speaker100: Sì! 
+~           yes 
+$1024/speech_1024_8.mp3;2,6
+
+[LINE]
+Speaker1847: Davvero?
+~            really  
+$1024/speech_1024_9.mp3;7,6
+
+[MULTIPLE_CHOICE]
+> Why is Lara surprised?
+- Because she found money on the floor.
++ Because she thinks her dad agreed to give her money.
+- Because her favorite soccer team is losing.
+
+[LINE]
+Speaker1847: E     ho~bisogno~di vestiti~nuovi.
+~            and   I~need        new~clothes   
+$1024/speech_1024_11.mp3;1,6;5,155;8,109;3,535;8,125;6,590
+
+[LINE]
+Speaker100: Andiamo!     Andiamo!     Andiamo! 
+~           let's~go     let's~go     let's~go 
+$1024/speech_1024_12.mp3;7,6;12,958;12,957
+
+[LINE]
+Speaker1847: E     ho~bisogno~di un telefono~nuovo.
+~            and   I~need        a  new~phone      
+$1024/speech_1024_13.mp3;1,6;5,155;8,109;3,581;3,109;9,107;6,591
+
+[LINE]
+Speaker100: Sì! 
+~           yes 
+$1024/speech_1024_14.mp3;2,6
+
+[LINE]
+Speaker1847: E     domani     non~vado             a   scuola.
+~            and   tomorrow   I'm~not~going        to  school 
+$1024/speech_1024_15.mp3;1,6;9,99;6,495;5,198;9,338;8,41
+
+[MULTIPLE_CHOICE]
+> What does Lara mean?
+- She's going to school early tomorrow.
++ She's not going to school tomorrow.
+- She's excited to go to school tomorrow.
+
+[LINE]
+Speaker100: Sì!   Perfetto!
+~           yes   perfect  
+$1024/speech_1024_17.mp3;2,6;11,727
+
+[LINE]
+Speaker1847: Wow, come~è~facile!
+~            wow  how~easy      
+$1024/speech_1024_18.mp3;3,6;6,528;2,262;7,102
+
+[LINE]
+Speaker1847: Vado            al      negozio!
+~            I'm~going       to~the  store   
+$1024/speech_1024_19.mp3;4,6;9,328;9,106
+
+[LINE]
+Speaker100: Sì!   Sì!   Sì! 
+~           yes   yes   yes 
+$1024/speech_1024_20.mp3;2,6;5,727;5,726
+
+[LINE]
+Speaker1847: Arrivederci, papà!
+~            bye          dad  
+$1024/speech_1024_21.mp3;11,6;6,1053
+
+[LINE]
+Speaker100: Mi~dispiace, Lara.
+~           I'm~sorry    ~    
+$1024/speech_1024_22.mp3;2,6;9,113;6,778
+
+[ARRANGE]
+> Tap what you hear
+Speaker100: [(È)    (una) (partita~molto~bella)]!
+~             it's   a     very~good~game        
+$1024/speech_1024_23.mp3;1,6;4,116;8,181;6,449;6,332
+
+[LINE]
+Speaker100: Lara? Di~cosa~hai~bisogno?
+~           ~     what~do~you~need    
+$1024/speech_1024_24.mp3;4,6;4,786;5,136;4,380;8,83
+
+[LINE]
+Speaker100: Lara? Dove~sei?     
+~           ~     where~are~you 
+$1024/speech_1024_25.mp3;4,6;6,786;4,237
+
+[MULTIPLE_CHOICE]
+> Lara's dad…
++ … was so interested in the game that he didn't pay attention to her.
+- … took her to the mall to buy new clothes.
+- … never watches soccer.
+
+[MATCH]
+> Tap the pairs
+- Wow <> wow
+- non vado <> I'm not going
+- vestiti nuovi <> new clothes
+- Di cosa hai bisogno <> what do you need
+- partita molto bella <> very good game
+
