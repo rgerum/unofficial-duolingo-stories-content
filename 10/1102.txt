@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=My Favorite Game
+icon=30aefbeb8dcf34c7a93bff266a4252b79ec143e5
+set=5|3
+
+speaker_Speaker329=it-IT-Wavenet-C
+speaker_Speaker330=it-IT-Wavenet-D
+
+[HEADER]
+> Il~mio gioco~preferito
+~ my     favorite~game  
+$1102/speech_1102_0.mp3;2,6;4,160;6,180;10,369
+
+[LINE]
+> Samuele sta pulendo  la~sua camera.
+~ ~       is  cleaning his    room   
+$1102/speech_1102_1.mp3;7,6;4,703;8,268;3,478;4,87;7,222
+
+[MULTIPLE_CHOICE]
+> Samuele is cleaning the kitchen.
++ No, that's not right.
+- Yes, that's true.
+
+[LINE]
+Speaker790: Ciao, fratello!
+~           hi    brother  
+$1102/speech_1102_3.mp3;4,0;10,292.8
+
+[LINE]
+Speaker419: Ciao, Dario. Cosa vuoi?       
+~           hi    ~      what do~you~want 
+$1102/speech_1102_4.mp3;4,0;7,360;6,420;5,300
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker790: [Voglio                  giocare con te]!
+~            I~want~to~play~with~you ~       ~   ~   
+$1102/speech_1102_5.mp3;6,0;8,281.51351351351354;4,321.7297297297297;3,160.86486486486478
+- Voglio giocare con me
++ Voglio giocare con te
+- Voglio gioco con te
+
+[LINE]
+Speaker419: Dario, oggi  sono molto occupato!
+~           ~      today I~am very  busy     
+$1102/speech_1102_6.mp3;5,0;6,382.46808510638294;5,273.19148936170217;6,273.1914893617022;9,327.82978723404244
+
+[LINE]
+Speaker419: Devo   pulire   la~mia camera!
+~           I~need to~clean my     room   
+$1102/speech_1102_7.mp3;4,0;7,234.14634146341461;3,327.80487804878044;4,140.4878048780488;7,187.31707317073176
+
+[LINE]
+Speaker790: Sì,  la~tua camera è  molto sporca!
+~           yes  your   room   is very  dirty  
+$1102/speech_1102_8.mp3;2,0;4,216;4,162;7,216;2,378;6,108;7,324
+
+[LINE]
+Speaker419: Lo~so,  Dario!
+~           I~know  ~     
+$1102/speech_1102_9.mp3;2,0;3,144;7,192
+
+[ARRANGE]
+> Tap what you hear
+Speaker790: [(Ma)  (io) (voglio giocare)]!
+~             but   I    want   to~play   
+$1102/speech_1102_10.mp3;2,0;3,120;7,120;8,280
+
+[LINE]
+Speaker419: A~cosa vuoi        giocare, Dario?
+~           what   do~you~want to~play  ~     
+$1102/speech_1102_11.mp3;1,0;5,102.85714285714285;5,257.14285714285717;8,257.1428571428571;7,462.8571428571429
+
+[LINE]
+Speaker790: Non~lo~so!   
+~           I~don't~know 
+$1102/speech_1102_12.mp3;3,0;3,134.4;3,100.80000000000001
+
+[LINE]
+Speaker419: Va~bene. Conosco un gioco~molto~divertente!
+~           OK       I~know  a  very~fun~game          
+$1102/speech_1102_13.mp3;2,0;5,160.13793103448276;9,320.2758620689656;3,427.0344827586205;6,160.13793103448302;6,320.27586206896535;11,320.2758620689656
+
+[MULTIPLE_CHOICE]
+> Samuele knows a…
++ … fun game.
+- … someone famous.
+- … boring game.
+
+[LINE]
+Speaker790: Ah sì?!  Che  gioco?
+~           Ah yes   what game  
+$1102/speech_1102_15.mp3;2,0;3,141.8181818181818;6,236.36363636363637;6,189.09090909090907
+
+[LINE]
+Speaker419: È    il~mio gioco~preferito!
+~           it's my     favorite~game   
+$1102/speech_1102_16.mp3;1,0;3,90;4,135;6,180;10,270
+
+[LINE]
+Speaker790: Sì! 
+~           yes 
+$1102/speech_1102_17.mp3;2,0
+
+[LINE]
+Speaker419: Per questo gioco…
+~           for this   game… 
+$1102/speech_1102_18.mp3;3,0;7,153;7,267.75
+
+[LINE]
+Speaker419: …| devi     aiutarmi~a pulire la~mia camera!
+~           …  you~have to~help~me clean  my     room   
+$1102/speech_1102_19.mp3;1,102.22222222222221;5,255.55555555555554;9,459.99999999999994;2,102.22222222222229;7,357.7777777777778;3,153.33333333333326;4,204.44444444444434
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "actually."
+Speaker790: (+In~realtà) …| (devo~andare).  Oggi  (sono) molto  (occupato).
+~             actually   …   I~have~to~go   today  I~am  very    busy      
+$1102/speech_1102_20.mp3;2,0;7,164.72727272727272;2,494.18181818181813;5,274.5454545454545;7,439.27272727272737;6,274.5454545454545;5,274.5454545454545;6,384.36363636363626
+
+[LINE]
+Speaker419: Ma…|~ Dario! Dove  vai?!          
+~           but… ~       where are~you~going  
+$1102/speech_1102_21.mp3;3,0;6,242.66666666666666;6,424.66666666666674;4,303.33333333333326
+
+[MULTIPLE_CHOICE]
+> What was Samuele's "favorite game"?
++ Having his brother help him clean his room.
+- Hide-and-seek.
+- Playing outside with his brother.
+
+[MATCH]
+> Tap the pairs
+- sono <> I am
+- la tua camera <> your room
+- un <> a
+- occupato <> busy
+- pulendo <> cleaning
+
