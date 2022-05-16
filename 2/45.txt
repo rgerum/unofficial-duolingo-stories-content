@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=The forgotten Letter
+icon=1517cbcf4f4e76f1dc8b0687b90969af2c828c4f
+set=9|9
+
+speaker_Roniek=Lotte
+speaker_Nanke=Lotte
+
+[HEADER]
+> De  vergeten  brief 
+~ The forgotten letter
+$45/speech_45_0.mp3;2,6;9,104;6,476
+
+[LINE]
+> Roniek komt~langs een tuinverkoop en  besluit een boek te kopen.
+~ ~      comes~by   a   garden~sale and decides ~   book to buy   
+$45/speech_45_1.mp3;6,6;5,372;6,218;4,208;12,108;3,605;8,145;4,406;5,90;3,176;6,68
+
+[LINE]
+> De  mevrouw die het boek verkoopt zegt
+~ The woman   who the book sells    says
+$45/speech_45_2.mp3;2,6;8,129;4,410;4,82;5,92;9,169;5,390
+
+[LINE]
+Speaker341: Dit  was het lievelingsboek van mijn man     Reinoud.
+~           This was the favourite~book of  my   husband ~       
+$45/speech_45_3.mp3;3,6;4,199;4,225;15,185;4,813;5,234;4,226;8,301
+
+[SELECT_PHRASE]
+> Choose the best word:
+> Als  Roniek haar auto [instapt],   komt~er~een~brief~tevoorschijn uit    het boek.
+~ When ~      her  car   gets~into   a~letter~appears               out~of the book 
+$45/speech_45_4.mp3;3,6;7,165;5,320;5,155;8,302;6,660;3,191;4,107;6,74;13,255;4,521;4,140;5,118
+- inloopt
++ instapt
+- inrijdt
+
+[LINE]
+> Ze  opent de  brief  en  leest hem.
+~ She opens the letter and reads it  
+$45/speech_45_5.mp3;2,6;6,123;3,352;6,62;3,356;6,167;4,326
+
+[LINE]
+> Een man met  de  naam Reinoud schrijft een brief  aan zijn vriendin Nanke.
+~ A   man with the name ~       writes   a   letter to  his  friend   ~     
+$45/speech_45_6.mp3;3,6;4,169;4,233;3,111;5,68;8,231;9,509;4,368;6,78;4,270;5,138;9,167;6,423
+
+[LINE]
+> Hij vraagt met  wie  hij het~beste kan trouwen;     Jenneke of Jannetje.
+~ He  askes  with whom he  best      can get~married  ~       or ~        
+$45/speech_45_7.mp3;3,6;7,141;4,310;4,149;4,141;4,176;6,103;4,308;8,235;9,668;3,388;9,159
+
+[MULTIPLE_CHOICE]
+> Nankes friend seeks advice about whom to marry.
++ Dat  is waar.
+~ That is true 
+- Dat  is niet waar.
+~ That is not  true 
+
+[LINE]
+> Jenneke heeft verantwoordelijkheidsgevoel en  Jannetje is gezellig.
+~ ~       has   sense~of~responsibility     and ~        is sociable 
+$45/speech_45_9.mp3;7,4;6,373;28,166;3,1187;9,118;3,429;9,155
+
+[SELECT_PHRASE]
+> Click the missing words.
+> Hij vraagt Nanke om~hem~ [te~helpen kiezen.]
+~ He  asks   ~     to~      ~him      ~       
+$45/speech_45_10.mp3;3,6;7,141;6,302;3,331;4,159;4,126;7,81;7,396
+- kiezen te helpen.
+- helpen kiezen
++ te helpen kiezen.
+
+[LINE]
+> Roniek glimlacht. Die mevrouw moet Jenneke of Jannetje zijn.
+~ ~      smiles     The woman   must ~       or ~        be   
+$45/speech_45_11.mp3;6,6;10,372;5,1042;8,165;5,352;8,192;3,344;9,130;5,475
+
+[SELECT_PHRASE]
+> Complete the sentence
+> Ze  wil   weten   met  wie  de  man [is getrouwd.] .
+~ She wants to~know with whom the man  is married     
+$45/speech_45_12.mp3;2,6;4,157;6,173;4,354;4,140;3,139;4,104;3,228;9,129
++ is getrouwd.
+- brieven schrijft.
+- boeken verkoopt.
+
+[LINE]
+> Daarom    gaat Roniek terug naar de  tuinverkoop.
+~ Therefore goes ~      back  to   the garden~sale 
+$45/speech_45_13.mp3;6,6;5,456;7,209;6,300;5,260;3,156;12,77
+
+[LINE]
+> Ze  vindt de  mevrouw en  vraagt haar
+~ She finds the woman   and asks   her 
+$45/speech_45_14.mp3;2,6;6,131;3,232;8,96;3,451;7,87;5,318
+
+[LINE]
+Speaker125: Excuseert~u~me, kunt u   mij uw   naam vertellen?
+~           Excuse~me       can  you me  your name tell      
+$45/speech_45_15.mp3;9,6;2,677;3,127;6,432;2,201;4,112;3,258;5,166;10,285
+
+[LINE]
+> Roniek wacht        het antwoord met~spanning af.                
+~ ~      awaits~(+af) the answer   eagerly      (afwachten)~awaits 
+$45/speech_45_16.mp3;6,6;6,387;4,245;9,115;4,425;9,143;3,388
+
+[LINE]
+> De  mevrouw glimlacht en  zegt
+~ The woman   smiles    and says
+$45/speech_45_17.mp3;2,6;8,106;10,410;3,594;5,119
+
+[LINE]
+Speaker341: Ik~heet    Nanke.
+~           My~name~is ~     
+$45/speech_45_18.mp3;2,6;5,126;6,260
+
+[MULTIPLE_CHOICE]
+> With whom is the man married?
++ Met  zijn vriendin Nanke.
+~ With his  friend   ~     
+- Met  Jannetje.
+~ With ~        
+- Met  iemand~anders.
+~ With someone~else  
+
+[MATCH]
+> Tap the pairs
+- tuinverkoop <> garden sale
+- glimlacht <> smiles
+- trouwen <> get married
+- verantwoordelijkheidsgevoel <> sense of responsibility
+- besluit <> decides
+
