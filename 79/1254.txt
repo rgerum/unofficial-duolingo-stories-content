@@ -1,0 +1,150 @@
+[DATA]
+fromLanguageName=Surprise!
+icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
+set=1|4
+
+speaker_Narrator=da-DK-Wavenet-C
+speaker_Speaker105=da-DK-ChristelNeural
+speaker_Speaker104=da-DK-Wavenet-C
+speaker_Speaker106=da-DK-Wavenet-A
+
+[HEADER]
+> Overraskelse!
+~ Surprise     
+$1254/speech_1254_0.mp3;12,0
+
+[LINE]
+> Thomas er på en restaurant med   sin mor.   
+~ ~      is in a  restaurant with  his mother 
+$1254/speech_1254_1.mp3;6,0;3,287.1272727272727;3,123.05454545454546;3,123.05454545454546;11,123.0545454545454;4,451.20000000000005;5,205.090909090909;4,164.07272727272743
+
+[LINE]
+Speaker1186: Et  bord   til   tre    personer, tak.   
+~            A   table  for   three  people    please 
+$1254/speech_1254_2.mp3;2,0;6,165.12;5,247.68;6,247.68;10,206.39999999999998;5,412.80000000000007
+
+[LINE]
+Speaker385: Tre?     Dig, jeg, og…? 
+~           Three    You  I    and… 
+$1254/speech_1254_3.mp3;3,0;7,152.25;5,108.75;5,108.75
+
+[MULTIPLE_CHOICE]
+> Why is Thomas confused?
+- His mom didn't come to the restaurant.
++ His mom asked for a table for three instead of two.
+- His mom asked for three tables.
+
+[LINE]
+Speaker1186: En  veninde.
+~            A   friend  
+$1254/speech_1254_5.mp3;2,0;9,138.66666666666666
+
+[LINE]
+Speaker385: Ah…|  mor, jeg har~brug~for…
+~           Ah…   mom  I   need…        
+$1254/speech_1254_6.mp3;3,0;5,94.28571428571429;5,94.28571428571429;4,75.42857142857142;5,75.42857142857144;5,94.28571428571428
+
+[LINE]
+Speaker1186: Jeg har    en overraskelse!
+~            I   have   a  surprise     
+$1254/speech_1254_7.mp3;3,0;4,142.82926829268294;5,214.24390243902437;13,107.1219512195122
+
+[LINE]
+Speaker385: Jeg... jeg har~også  en overraskelse.
+~           I…     I   also~have a  surprise     
+$1254/speech_1254_8.mp3;3,0;7,189.26582278481013;4,108.1518987341772;5,108.15189873417728;3,135.18987341772146;13,81.11392405063293
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "nice."
+Speaker1186: Min (veninde)  er (en) lægestuderende,  (meget)  (+sød). 
+~            My   friend    is  a   medical~student   very      nice  
+$1254/speech_1254_9.mp3;3,0;8,177.8360655737705;4,400.13114754098353;3,133.37704918032796;15,133.37704918032784;7,711.3442622950819;5,311.21311475409834
+
+[LINE]
+Speaker1186: Hendes navn er Rikke.
+~            Her    name is ~     
+$1254/speech_1254_10.mp3;6,0;5,252;3,180;6,108
+
+[LINE]
+Speaker385: Mor, jeg har~brug~for…
+~           Mom  I   need…        
+$1254/speech_1254_11.mp3;3,0;5,103.38461538461539;4,82.70769230769233;5,82.7076923076923;5,103.38461538461542
+
+[LINE]
+Speaker1186: Og   hun  er meget smuk!    Perfekt  til min søn!
+~            And  she  is very  pretty   Perfect  for my  son 
+$1254/speech_1254_12.mp3;2,0;5,154.22950819672133;4,192.7868852459016;6,115.672131147541;5,231.34426229508193;10,269.9016393442623;5,347.01639344262287;4,154.22950819672155;4,154.2295081967211
+
+[MULTIPLE_CHOICE]
+> Thomas' mom wants…
+- … to make a new friend.
++ … Thomas to go on a date with her friend, Rikke.
+- … Thomas to leave the restaurant.
+
+[LINE]
+> En kvinde træder~ind~i restauranten.  
+~ A  woman  enters       the~restaurant 
+$1254/speech_1254_14.mp3;2,0;7,118.58823529411765;7,276.7058823529412;4,276.70588235294116;2,158.11764705882354;13,79.05882352941182
+
+[LINE]
+Speaker439: Hej,      min skat!
+~           Hello     my  love 
+$1254/speech_1254_15.mp3;3,0;8,450;5,225
+
+[LINE]
+Speaker1186: Min skat?
+~            My  love 
+$1254/speech_1254_16.mp3;3,0;5,132
+
+[MULTIPLE_CHOICE]
+> Thomas' mom knew that he was in a relationship.
+- Yes, that's true!
++ No, that's not right!
+
+[LINE]
+Speaker385: Hej,    Linda. Mor…
+~           Hello   ~      Mom…
+$1254/speech_1254_18.mp3;3,0;8,151.20000000000002;6,176.4
+
+[LINE]
+Speaker439: Og    du    er   Thomas'| mor!
+~           And   you   are  Thomas'  mom 
+$1254/speech_1254_19.mp3;2,0;5,259.0243902439024;5,259.0243902439024;9,207.2195121951221;4,414.43902439024384
+
+[LINE]
+Speaker1186: Thomas?
+$1254/speech_1254_20.mp3;6,0
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker439: [Dejligt at møde dig],                Jeg er Linda, Thomas'| kone.
+~            Nice    to meet you                  I   am ~      Thomas'  wife 
+$1254/speech_1254_21.mp3;7,0;3,347.07692307692304;5,130.1538461538462;4,216.92307692307685;20,867.692307692308;3,173.5384615384612;6,130.15384615384642;9,303.69230769230785;5,347.07692307692287
+- Farligt at møde dig
+- Dagligt at møde dig
++ Dejligt at møde dig
+
+[LINE]
+Speaker1186: Kone?!
+~            Wife  
+$1254/speech_1254_22.mp3;4,0
+
+[LINE]
+Speaker385: Overraskelse!
+~           Surprise     
+$1254/speech_1254_23.mp3;12,0
+
+[MULTIPLE_CHOICE]
+> Why is Thomas' mom surprised?
++ She didn't know Thomas was married.
+- She is very happy to see Linda.
+- The food they ordered arrived quickly.
+
+[MATCH]
+> Tap the pairs
+- sin mor <> his mother
+- Dejligt at møde dig <> nice to meet you
+- søn <> son
+- Kone <> wife
+- Hendes navn <> her name
+
