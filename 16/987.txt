@@ -1,0 +1,138 @@
+[DATA]
+fromLanguageName=Who are you?
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+speaker_Narrator=ml-IN-Standard-A
+speaker_Ramesh=ml-IN-Standard-B
+speaker_Rajani=ml-IN-Standard-A
+speaker_Saswati=ml-IN-Standard-A
+
+[HEADER]
+> നിങ്ങൾ~ആരാൺ?
+~ Who~are~you 
+$987/speech_987_0.mp3;6,0;5,217.77777777777777
+
+[LINE]
+> രജനി   ഒരു റെസ്റ്റോറന്റിലാണ്.     
+~ Rajani a   restaurant~(she)~is~at 
+$987/speech_987_1.mp3;4,0;4,182.85714285714283;18,146.28571428571428
+
+[LINE]
+Speaker100: നിങ്ങൾ എന്താണ് കഴിക്കാൻ ആഗ്രഹിക്കുന്ന്?
+~           You    what    to~eat   want           
+$987/speech_987_2.mp3;6,0;8,255.1111111111111;9,291.55555555555566;15,327.9999999999999
+
+[MULTIPLE_CHOICE]
+> Rajani's date is asking…
+- … how much the food costs.
++ … what Rajani wants to eat.
+- … where to find the restaurant.
+
+[LINE]
+Speaker336: ഒരു സാലഡ്.
+~           A   salad 
+$987/speech_987_4.mp3;3,0;6,126.72
+
+[LINE]
+Speaker336: ഞാൻ മാംസം കഴിക്കുന്നില്ല.
+~           I   meat  do~not~eat     
+$987/speech_987_5.mp3;3,0;6,144;15,216
+
+[LINE]
+Speaker100: നിങ്ങൾ സസ്യഭുക്കാണോ?        
+~           You    (are~you)~vegetarian 
+$987/speech_987_6.mp3;6,0;13,249.60000000000002
+
+[LINE]
+Speaker336: ആ്...  
+~           Yes…   
+$987/speech_987_7.mp3;2,0
+
+[LINE]
+Speaker100: ഞാനും! 
+~           Me~too 
+$987/speech_987_8.mp3;5,0
+
+[MULTIPLE_CHOICE]
+> Why did he say that?
++ He's also a vegetarian.
+- He hates salads.
+- He loves to eat meat.
+
+[LINE]
+Speaker336: നല്ലമാണ്!
+~           Great    
+$987/speech_987_10.mp3;8,0
+
+[ARRANGE]
+> Tap what you hear
+Speaker336: [(നിങ്ങൾ)             (എവിടെ) (നിന്ന്) (വരുന്ന)]ു?
+~             Where~are~you~from   ~       ~        ~         
+$987/speech_987_11.mp3;6,0;6,222.69767441860466;7,190.88372093023253;8,222.6976744186046
+
+[LINE]
+Speaker100: ഞാൻ ഭാരതീയനാണ്
+~           I   am~Indian 
+$987/speech_987_12.mp3;3,0;11,162.20689655172413
+
+[LINE]
+Speaker336: ഞാനും! 
+~           Me~too 
+$987/speech_987_13.mp3;5,0
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "any."
+Speaker100: (നിങ്ങള്ക്ക്) (വളര്ത്തു) (+മൃഗങ്ങളുണ്ടോ),       (സസ്വതീ)? 
+~            You           any         pets~(do~you~have)    Saswati  
+$987/speech_987_14.mp3;11,0;9,510.31578947368416;13,382.7368421052631;8,595.3684210526317
+
+[LINE]
+Speaker336: എനിക്ക്  ഒരു പൂച്ചയും ഒരു ...
+~           I~(have) a   cat~and  a      
+$987/speech_987_15.mp3;7,0;4,245.58139534883722;9,122.79069767441857;4,276.27906976744185
+
+[LINE]
+Speaker336: എന്താ? ഞാൻ രജനീ   ആണ്|!നിങ്ങൾ എന്താണ്      പറയുന്നത്,    വിഷ്ണു?
+~           What   I   Rajani am   You    what~(is~it) (are)~saying  Vishnu 
+$987/speech_987_16.mp3;5,0;5,345.88235294117646;5,197.6470588235294;4,247.05882352941182;7,197.6470588235294;8,345.88235294117635;10,395.2941176470588;8,543.5294117647061
+
+[LINE]
+Speaker100: വിഷ്ണു ആരാൺ?   ഞാൻ രമേഷ   ആണ്!
+~           Vishnu who~is  I   Ramesh am  
+$987/speech_987_17.mp3;6,0;5,340.0975609756098;5,291.5121951219512;5,194.34146341463406;4,242.92682926829286
+
+[MULTIPLE_CHOICE]
+> Rajani and Ramesh were supposed to meet different people.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+> ഒരു സ്ത്രീ അവരുടെ~അടുത്തേക്ക് നടക്കുന്നു.
+~ A   woman  near~them          walks~(to) 
+$987/speech_987_19.mp3;3,0;7,142.28571428571428;7,249;12,249.00000000000006;11,426.8571428571428
+
+[LINE]
+Speaker101: നസ്കാരം! നിങ്ങൾ രമേഷ   ആണോ?       
+~           Hello    You    Ramesh are~you~( )
+$987/speech_987_20.mp3;7,0;8,442.8;5,344.40000000000003;4,246
+
+[LINE]
+Speaker100: ഇല്ല, ക്ഷമിക്കണം, ഞാൻ, ഞാൻ വിഷ്ണു ആണ്!
+~           No    sorry       I    I   Vishnu am  
+$987/speech_987_21.mp3;4,0;12,282.5660377358491;5,565.132075471698;5,235.4716981132076;7,188.37735849056617;4,329.66037735849045
+
+[MULTIPLE_CHOICE]
+> At the end of the story, Ramesh…
+- … met someone named Vishnu.
+- … was tired of talking to Rajani.
++ … lied to his real date because he likes Rajani.
+
+[MATCH]
+> Tap the pairs
+- ക്ഷമിക്കണം <> (I am) sorry
+- സസ്യഭുക്കാണോ <> vegetarian
+- ഞാനും! <> And me!
+- വളര്ത്തു <> any
+- അവരുടെ അടുത്തേക്ക് <> near them
+
