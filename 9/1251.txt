@@ -1,0 +1,148 @@
+[DATA]
+fromLanguageName=A New Job
+icon=792e2286967c20465f3e45293ca8140533aa119e
+set=7|2
+
+speaker_Narrator=ru-RU-Wavenet-B
+speaker_Speaker311=ru-RU-Wavenet-C
+speaker_Speaker310=ru-RU-Wavenet-D
+
+[HEADER]
+> Новая   работа
+~ (A)~new job   
+$1251/speech_1251_0.mp3;5,0;7,245.33333333333331
+
+[LINE]
+> Кристина возвращается   домой после работы.
+~ ~        (is)~returning home  after work   
+$1251/speech_1251_1.mp3;8,0;13,443.5714285714286;6,640.7142857142856;6,295.7142857142858;7,295.71428571428555
+
+[LINE]
+> Она разговаривает со   своим мужем,   Сергеем.
+~ She (is)~speaking with her   husband  ~       
+$1251/speech_1251_2.mp3;3,0;14,198.73684210526315;3,695.578947368421;6,149.05263157894728;6,298.1052631578948;9,347.7894736842104
+
+[LINE]
+Speaker260: Я ненавижу свою работу!
+~           I hate     my   job    
+$1251/speech_1251_3.mp3;1,0;9,97.23076923076923;5,437.5384615384615;7,243.0769230769231
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker260: [Мне~нужна новая].      
+~            I~need    (a)~new~one  
+$1251/speech_1251_4.mp3;3,0;6,164.1290322580645;6,246.19354838709677
++ Мне нужна новая
+- Мне должна новая
+- Мне не нужна новая
+
+[LINE]
+Speaker15: Какая именно?  Чем  ты       хочешь заниматься?
+~          Which exactly  What (do)~you want   to~do      
+$1251/speech_1251_5.mp3;5,0;7,296;5,394.66666666666663;3,197.33333333333337;7,148;11,345.33333333333326
+
+[LINE]
+Speaker260: Я не~хочу    сложную       работу.
+~           I don't~want (a)~difficult job    
+$1251/speech_1251_6.mp3;1,0;3,105.60000000000001;5,158.39999999999998;8,264;7,422.4
+
+[CONTINUATION]
+> What comes next?
+Speaker260: И   я не~хочу    вставать   [рано  утром].         
+~           And I don't~want to~get~up   early in~the~morning  
+$1251/speech_1251_7.mp3;1,0;2,66.14634146341464;3,66.14634146341464;5,99.21951219512195;9,165.36585365853657;6,330.7317073170732;6,165.3658536585366
++ рано  утром         
+~ early in~the~morning
+- сложная       работа
+~ (a)~difficult job   
+- писать   отчёты 
+~ to~write reports
+
+[LINE]
+Speaker260: Я не~хочу    писать   отчёты. 
+~           I don't~want to~write reports 
+$1251/speech_1251_8.mp3;1,0;3,104.61538461538461;5,156.92307692307688;7,261.5384615384615;7,366.1538461538463
+
+[LINE]
+Speaker15: Ну,     это~то, что  ты  не~хочешь  делать…
+~          Well    that's  what you don't~want to~do… 
+$1251/speech_1251_9.mp3;2,0;7,186.66666666666666;3,124.44444444444443;5,124.44444444444446;3,124.44444444444446;3,93.33333333333326;7,93.33333333333337;8,217.77777777777771
+
+[ARRANGE]
+> Tap what you hear
+Speaker15: …[(А)   (что)  (же)         (ты)       (хочешь) (делат)]ь ?
+~              But   what   (emphasis)   (do)~you   want     to~do     
+$1251/speech_1251_10.mp3;1,59.33333333333333;2,59.33333333333333;4,118.66666666666666;3,89.00000000000006;3,88.99999999999994;7,207.66666666666669
+
+[LINE]
+Speaker260: Хмм…
+$1251/speech_1251_11.mp3;4,0
+
+[LINE]
+Speaker260: Я хочу уходить~с~работы     в~два~часа.    
+~           I want to~leave~(from)~work at~two~o'clock 
+$1251/speech_1251_12.mp3;1,0;5,105.60000000000001;8,264;2,422.4;7,105.60000000000002;2,369.6;4,105.59999999999991;5,211.20000000000005
+
+[LINE]
+Speaker260: Я хочу иметь   доброго  начальника.
+~           I want to~have (a)~kind boss       
+$1251/speech_1251_13.mp3;1,0;5,101.1063829787234;6,252.7659574468085;8,303.3191489361702;11,404.42553191489367
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "not at all".
+Speaker260: (Нет), (я) (+вообще~не)  (хочу) (иметь)     (начальника).
+~            No     I    not~at~all   want   to~have     (a)~boss    
+$1251/speech_1251_14.mp3;3,0;3,252.85714285714286;7,101.14285714285714;3,354;5,151.71428571428567;6,252.85714285714278;13,404.57142857142867
+
+[LINE]
+Speaker15: Кристина…
+$1251/speech_1251_15.mp3;9,0
+
+[LINE]
+Speaker15: Я знаю, какая работа идеальна     для тебя!
+~          I know  which job    (is)~perfect for you  
+$1251/speech_1251_16.mp3;1,0;5,108.44444444444444;7,325.3333333333333;7,325.3333333333333;9,379.55555555555566;4,488;5,216.8888888888889
+
+[MULTIPLE_CHOICE]
+> Sergey has just thought of the perfect job for Kristina.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker260: Какая?      
+~           Which~(one) 
+$1251/speech_1251_18.mp3;5,0
+
+[LINE]
+Speaker15: Идеальная     работа для тебя…
+~          (The)~perfect job    for you  …
+$1251/speech_1251_19.mp3;9,0;7,267.82608695652175;4,187.47826086956525;5,107.13043478260875
+
+[LINE]
+Speaker15: …не       работать!
+~            (is)~not to~work  
+$1251/speech_1251_20.mp3;1,43.78947368421052;3,65.6842105263158
+
+[LINE]
+Speaker260: Серёжа!
+$1251/speech_1251_21.mp3;6,0
+
+[LINE]
+Speaker260: Хотя…   Вообще-то,  мне~нравится эта  идея!
+~           Though   Actually    I~like       this idea 
+$1251/speech_1251_22.mp3;4,0;2,229.01204819277106;10,458.0240963855422;6,152.6746987951808;9,343.5180722891564;4,152.67469879518103
+
+[MULTIPLE_CHOICE]
+> What does Kristina mean?
++ She loves Sergey's idea.
+- She doesn't agree with Sergey.
+- She thinks that she should work in an office.
+
+[MATCH]
+> Tap the pairs
+- (I) don't want <> (я) не хочу
+- early <> рано
+- though <> хотя
+- actually <> вообще-то
+- not at all <> вообще не
+
