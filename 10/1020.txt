@@ -1,0 +1,187 @@
+[DATA]
+fromLanguageName=The Reservation
+icon=51d1c685bd34b719a260b60637e6774fce1d2cb8
+set=2|6
+
+speaker_Speaker383=Giorgio
+speaker_Speaker384=Carla
+speaker_Speaker385=Giorgio
+
+[HEADER]
+> La   prenotazione
+~ the  reservation 
+$1020/speech_1020_0.mp3;2,6;14,170
+
+[LINE]
+> Geremia e     Rosalinda vanno           in  un ristorante.
+~ ~       and   ~         are~going       to  a  restaurant 
+$1020/speech_1020_1.mp3;7,6;2,515;12,65;6,589;9,294;4,136;11,74
+
+[LINE]
+Speaker2243: Questo ristorante è  molto  bello! 
+~            this   restaurant is very   pretty 
+$1020/speech_1020_2.mp3;6,6;11,325;2,546;6,111;7,271
+
+[LINE]
+Speaker439: Felice anniversario, amore~mio!
+~           happy  anniversary   my~love   
+$1020/speech_1020_3.mp3;6,6;13,468;7,1152;4,346
+
+[MULTIPLE_CHOICE]
+> Rosalinda and Geremia went to a restaurant to celebrate their anniversary.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker385: Buon~giorno! 
+~           good~morning 
+$1020/speech_1020_5.mp3;4,6;7,236
+
+[LINE]
+Speaker439: Buon~giorno.   Ho      una prenotazione     per due persone.
+~           good~morning   I~have  a   reservation      for two people  
+$1020/speech_1020_6.mp3;4,6;7,318;5,875;5,122;13,190;8,842;4,180;8,211
+
+[LINE]
+Speaker385: Nome?
+~           name 
+$1020/speech_1020_7.mp3;4,6
+
+[LINE]
+Speaker439: Rosalinda Bianchi.
+$1020/speech_1020_8.mp3;9,6;8,644
+
+[LINE]
+Speaker385: Ah, sì. 
+~           ~   yes 
+$1020/speech_1020_9.mp3;2,6;4,450
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker385: [Ecco    il    suo  tavolo].
+~            here~is (the) your table   
+$1020/speech_1020_10.mp3;4,6;3,301;4,85;7,206
+- Lí è il suo cavallo
+- Qui è il tuo tavello
++ Ecco il suo tavolo
+
+[LINE]
+Speaker385: E     questo è  il   menù.
+~           and   this   is the  menu 
+$1020/speech_1020_11.mp3;1,6;9,97;2,379;3,60;6,116
+
+[LINE]
+Speaker439: Ah…
+$1020/speech_1020_12.mp3;3,6
+
+[LINE]
+Speaker2243: È       molto  caro,      Rosalinda.
+~            it's    very   expensive  ~         
+$1020/speech_1020_13.mp3;1,6;9,115;6,351;11,565
+
+[LINE]
+Speaker439: Sì… 
+~           yes…
+$1020/speech_1020_14.mp3;3,6
+
+[LINE]
+Speaker2243: Tu~cosa~vuoi?    
+~            what~do~you~want 
+$1020/speech_1020_15.mp3;2,6;5,117;5,317
+
+[MULTIPLE_CHOICE]
+> What is Geremia asking Rosalinda?
+- Where she likes to go.
++ What she wants to eat.
+- How old she is.
+
+[LINE]
+Speaker439: Mmm…| un'…| insalata?
+~           ~…    a…    salad    
+$1020/speech_1020_17.mp3;4,6;5,538;9,794
+
+[LINE]
+Speaker439: Cosa?!
+~           what  
+$1020/speech_1020_18.mp3;4,6
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "twenty-five."
+Speaker439: (+Venticinque) (dollari) (per) un'| (insalata)?!
+~             twenty-five   dollars   for  a     salad      
+$1020/speech_1020_19.mp3;11,6;8,801;4,446;4,164
+
+[LINE]
+Speaker439: Io voglio un delizioso…
+~           I  want   a  delicious…
+$1020/speech_1020_20.mp3;2,6;7,243;3,287;11,104
+
+[LINE]
+Speaker439: …| bicchiere  d'acqua. 
+~           …  glass      of~water 
+$1020/speech_1020_21.mp3;1,6;10,322;9,613
+
+[LINE]
+Speaker2243: Io voglio un'insalata!
+~            I  want   a~salad     
+$1020/speech_1020_22.mp3;2,6;7,167;12,280
+
+[LINE]
+Speaker2243: E     un hamburger~molto~grande!
+~            and   a  very~big~hamburger     
+$1020/speech_1020_23.mp3;1,6;5,105;10,103;6,437;7,337
+
+[LINE]
+Speaker2243: E     un succo~d'arancia!        
+~            and   a  (glass~of)~orange~juice 
+$1020/speech_1020_24.mp3;1,6;5,142;6,126;10,377
+
+[LINE]
+Speaker439: Ah…
+$1020/speech_1020_25.mp3;3,6
+
+[LINE]
+Speaker2243: In un ristorante~economico!
+~            in a  cheap~restaurant     
+$1020/speech_1020_26.mp3;2,6;3,151;11,117;10,556
+
+[LINE]
+Speaker439: Geremia, è      un giorno~importante…
+~           ~        it's   an important~day…    
+$1020/speech_1020_27.mp3;7,6;3,767;5,134;7,150;12,400
+
+[MULTIPLE_CHOICE]
+> Rosalinda is reminding Geremia that today…
+- … they have to pay rent.
++ … is an important day for them.
+- … is Geremia's birthday.
+
+[LINE]
+Speaker2243: Il   giorno è  importante.
+~            the  day    is important  
+$1020/speech_1020_29.mp3;2,6;8,175;2,351;11,145
+
+[LINE]
+Speaker2243: Il   ristorante, no.      
+~            the  restaurant  (is)~not 
+$1020/speech_1020_30.mp3;2,6;12,217;4,961
+
+[LINE]
+Speaker439: Perfetto perché…|   io ho~molta~fame! 
+~           perfect  because…   I  am~very~hungry 
+$1020/speech_1020_31.mp3;8,6;8,531;4,839;3,195;6,156;5,359
+
+[MULTIPLE_CHOICE]
+> What did Rosalinda and Geremia decide to do?
++ Celebrate their anniversary in a cheaper restaurant.
+- Break up.
+- Order the cheapest items on the menu.
+
+[MATCH]
+> Tap the pairs
+- prenotazione <> reservation
+- La <> the
+- perché <> because
+- dollari <> dollars
+- per <> for
+
