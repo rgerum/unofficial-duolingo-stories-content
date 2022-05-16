@@ -1,0 +1,119 @@
+[DATA]
+fromLanguageName=At The Farm
+icon=91023e19762be713ac3b9ec727924006b6ca8ce0
+set=4|8
+
+speaker_Speaker408=Tracy
+speaker_Speaker409=Zhiyu
+
+[HEADER]
+> 在农场里       
+~ At~the~farm
+$1050/speech_1050_0.mp3;4,6
+
+[LINE]
+> 梨花|去|农场|看|她的|姐姐|梦琪。                            
+~ Lihua  goes  farm  to~see  her  older~sister  Mengqi  
+$1050/speech_1050_1.mp3;2,6;2,479;3,196;2,555;3,270;3,190;3,122;2,426
+
+[MULTIPLE_CHOICE]
+> Lihua's visiting her uncle's farm.
++ No, that's not right.
+- Yes, that's true.
+
+[LINE]
+Speaker659: 梨花|，我|很|高兴|你|终于|来了。                  
+~           Lihua    I  very  happy  you  finally  came  
+$1050/speech_1050_3.mp3;2,6;2,390;2,233;2,251;3,452;2,145;3,423;3,220
+
+[SELECT_PHRASE]
+> Select the missing word
+Speaker658: 天哪|！梦琪|，你住的地方|离|城市|很|[远]                                         。
+~           Oh~my~God    Mengqi    the~place~where~you~live  from  city  very   far   
+$1050/speech_1050_4.mp3;2,6;2,392;3,237;2,211;6,173;2,176;3,133;2,408;2,172;2,449
++ 远
+- 长
+- 进
+
+[LINE]
+Speaker659: 因为|这个|地方|离|城市|很|远|，所以|我|喜欢|住|在|这里。                                       
+~           because  this  place  from  city  very  far    that's~why  I  like  to~live  in  here  
+$1050/speech_1050_5.mp3;2,6;3,410;3,308;2,405;3,171;2,459;2,201;2,465;3,347;2,161;3,457;2,175;2,169
+
+[LINE]
+Speaker658: 你看|那边|，是不是|有|一匹|马？                      
+~           look  there    isn't~it  have  a~(one)  horse  
+$1050/speech_1050_6.mp3;2,6;3,144;2,217;4,480;2,192;3,131;2,187;2,247
+
+[LINE]
+Speaker659: 是的|。在|农场|里|有|很多|动物。                             
+~           yes    at  farm  in~(inside)  have  very~many  animals  
+$1050/speech_1050_7.mp3;2,6;2,216;2,167;3,214;2,505;2,131;3,204;3,443
+
+[LINE]
+Speaker658: 这个|地方|跟|城市|不|一样。                  
+~           this  place  with  city  not  the~same  
+$1050/speech_1050_8.mp3;2,6;3,305;2,507;3,218;2,464;3,166
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "noise."
+Speaker659: (没错)    ， (城市)   太   (热闹)             。这里|没有|(+噪音)      。
+~            right     city  too  noisy~(lively)    here  no    noise   
+$1050/speech_1050_9.mp3;2,6;2,732;3,464;2,258;3,849;2,382;3,325
+
+[LINE]
+Speaker658: 刚刚|那个|声音|是|什么?              
+~           just~now  that  noise  is  what  
+$1050/speech_1050_10.mp3;2,6;3,446;3,293;2,461;3,203
+
+[LINE]
+Speaker659: 那是|我牛的|叫声。            
+~           that's  my~cows'  sound  
+$1050/speech_1050_11.mp3;2,6;4,212;3,171;2,202
+
+[LINE]
+Speaker658: 你的|牛|太恶心了|，闻起来很臭！                    
+~           your  cows  too~gross    smells~very~bad  
+$1050/speech_1050_12.mp3;2,6;2,158;5,121;2,230;6,276;2,430
+
+[MULTIPLE_CHOICE]
+> Lihua is saying that...
+- … she would like to eat a burger.
+- … Mengqi should buy more cows.
++ … Mengqi's cows smell bad.
+
+[ARRANGE]
+> Tap what you hear
+Speaker659: [(你)   (午饭)    (吃了)  ()]吗               ?
+~             you   lunch   ate   question~marker    
+$1050/speech_1050_14.mp3;1,6;3,164;3,515;2,190;2,125
+
+[LINE]
+Speaker659: 想|吃|炒饭|吗？                              
+~           want  to~eat  fried~rise  question~marker  
+$1050/speech_1050_15.mp3;1,6;2,304;3,246;2,455
+
+[LINE]
+Speaker658: 谢谢|，我|不|饿。              
+~           thank~you    I  not  hungry  
+$1050/speech_1050_16.mp3;2,6;2,486;2,201;2,279
+
+[LINE]
+Speaker658: 我|想|坐出租车|回|城市。                 
+~           I  want  take~a~taxi  return  city  
+$1050/speech_1050_17.mp3;1,6;2,147;5,317;2,202;3,687;2,256
+
+[MULTIPLE_CHOICE]
+> What does Lihua mean?
++ She wants to leave the farm and go back to the city.
+- She wants to move to the countryside with her sister.
+- She would like to eat some fried rise.
+
+[MATCH]
+> Tap the pairs
+- 出租车 <> taxi
+- 声音 <> noise
+- 我的牛 <> my cows
+- 恶心 <> gross
+- 闻起来 <> to smell
+
