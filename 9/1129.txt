@@ -1,0 +1,150 @@
+[DATA]
+fromLanguageName=Our First House
+icon=dc39b146e09be64389b169c261884a6c5ea6fcca
+set=5|1
+
+speaker_Narrator=ru-RU-Wavenet-B
+speaker_Speaker352=Tatyana
+speaker_Speaker351=Maxim
+
+[HEADER]
+> Наш первый дом  
+~ our first  house
+$1129/speech_1129_0.mp3;3,0;7,165.51724137931035;4,289.6551724137931
+
+[LINE]
+> Анастасия и   Роман хотят купить дом.    
+~ ~         and ~     want  to~buy a~house 
+$1129/speech_1129_1.mp3;9,0;2,518.4;6,103.67999999999995;6,311.0400000000001;7,311.03999999999985;4,362.8800000000001
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker336: Дома́      в~городе    [очень      дорогие]   .
+~           the~houses in~the~city  (are)~very expensive   
+$1129/speech_1129_2.mp3;5,6;2,335;7,58;6,407;8,366
++ очень дорогие
+- не очень дорогие
+- очень красивые
+
+[LINE]
+Speaker385: Я знаю.
+~           I know 
+$1129/speech_1129_3.mp3;1,6;5,213
+
+[LINE]
+Speaker385: Но  наша квартира  маленькая.
+~           but our  apartment is~small  
+$1129/speech_1129_4.mp3;2,6;5,302;9,380;10,497
+
+[LINE]
+Speaker385: И   я хочу собаку!
+~           and I want a~dog  
+$1129/speech_1129_5.mp3;1,6;2,165;5,145;7,426
+
+[LINE]
+Speaker336: Я знаю...
+~           I know   
+$1129/speech_1129_6.mp3;1,6;5,171
+
+[LINE]
+Speaker385: У~меня~есть идея!   
+~           I~have      an~idea 
+$1129/speech_1129_7.mp3;1,6;5,121;5,294;5,330
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "let's go".
+Speaker385: (+Пошли)    (со)   (мной) (на)   (вокзал)!     
+~             let's~go   with   me     to     the~station  
+$1129/speech_1129_8.mp3;5,6;3,440;5,166;3,275;9,110
+
+[LINE]
+Speaker336: Ладно.
+~           ok    
+$1129/speech_1129_9.mp3;5,6
+
+[LINE]
+> Анастасия и   Роман заходят в~дом.         
+~ ~         and ~     enter   (into)~a~house 
+$1129/speech_1129_10.mp3;9,0;2,510.63829787234044;6,102.127659574468;8,306.38297872340434;2,408.51063829787233;4,102.127659574468
+
+[LINE]
+Speaker385: Это     дом       моей  ба́бушки и   де́душки.
+~           this~is the~house of~my grandma  and grandpa  
+$1129/speech_1129_11.mp3;3,6;4,258;5,306;9,284;2,616;9,46
+
+[LINE]
+Speaker385: Но  они  уже~не    живут здесь.
+~           but they no~longer live  here  
+$1129/speech_1129_12.mp3;2,6;4,235;4,203;3,402;6,253;6,126
+
+[MULTIPLE_CHOICE]
+> The house belongs to Romain's grandparents…
++ … but they don't live there anymore.
+- … but they sold it to another couple.
+- … but it needs renovations.
+
+[LINE]
+Speaker385: Мы не        в~городе...   
+~           we (are)~not in~the~city   
+$1129/speech_1129_14.mp3;2,9;3,153;2,124;7,46
+
+[LINE]
+Speaker385: Но  от~вокзала       недалеко!       
+~           but from~the~station (it~is)~not~far 
+$1129/speech_1129_15.mp3;2,6;3,239;8,137;9,555
+
+[ARRANGE]
+> Tap what you hear
+Speaker385: [(В~доме)       (пять)             (комна)]т.
+~             in~the~house   (there~are)~five   rooms    
+$1129/speech_1129_16.mp3;1,6;5,121;5,353;7,339
+
+[LINE]
+Speaker385: И   есть       двор   для~собаки! 
+~           and (there)~is a~yard for~the~dog 
+$1129/speech_1129_17.mp3;1,6;5,150;5,290;4,290;7,212
+
+[LINE]
+> Анастасия смотрит~на Романа.
+~ ~         looks~at   ~      
+$1129/speech_1129_18.mp3;9,0;8,452.09302325581393;3,361.67441860465124;7,135.62790697674404
+
+[LINE]
+Speaker336: Роман...
+$1129/speech_1129_19.mp3;5,6
+
+[LINE]
+Speaker336: Дом       замечательный!
+~           the~house (is)~great    
+$1129/speech_1129_20.mp3;3,6;14,276
+
+[ARRANGE]
+> Tap what you hear
+Speaker336: [(Но)  (кое-чего)  (не)     (хватае)]т.            
+~             but   something   is~not   enough~(is~missing)   
+$1129/speech_1129_21.mp3;2,6;9,172;3,632;8,109
+
+[LINE]
+Speaker385: Правда? Чего?     
+~           really  (of)~what 
+$1129/speech_1129_22.mp3;6,6;6,888
+
+[LINE]
+Speaker336: Нам~нужна собака!
+~           we~need   a~dog  
+$1129/speech_1129_23.mp3;3,6;6,234;7,414
+
+[MULTIPLE_CHOICE]
+> What did Romain and Anastasiya decide to do?
++ Move to Romain's grandparents' house, outside of the city.
+- Move to an expensive new apartment in the city.
+- Stay in their small apartment and get a dog.
+
+[MATCH]
+> Tap the pairs
+- собака <> dog
+- дом <> house
+- город <> city
+- двор <> yard
+- комнаты <> rooms
+
