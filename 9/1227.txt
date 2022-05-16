@@ -1,0 +1,146 @@
+[DATA]
+fromLanguageName=Love Letters
+icon=5c8a64d8aec1682d26f003aafdd4f8fa0abfe4d7
+set=5|10
+
+speaker_Narrator=Tatyana
+speaker_Speaker364=ru-RU-Wavenet-D
+speaker_Speaker363=ru-RU-Wavenet-C
+
+[HEADER]
+> Любовные письма 
+~ Love     letters
+$1227/speech_1227_0.mp3;8,6;7,595
+
+[LINE]
+Speaker300: Привет, Катя.
+~           Hi      ~    
+$1227/speech_1227_1.mp3;6,0;6,315.4285714285714
+
+[LINE]
+Speaker1186: Привет, Дима.
+~            Hi      ~    
+$1227/speech_1227_2.mp3;6,0;6,336
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker300: [Что  ты~делаешь]?   
+~            What are~you~doing  
+$1227/speech_1227_3.mp3;3,0;3,163.2;8,122.40000000000003
+- Что ты делаю
+- Кто ты делаешь
++ Что ты делаешь
+
+[LINE]
+Speaker1186: Я читаю      старые письма. 
+~            I am~reading old    letters 
+$1227/speech_1227_4.mp3;1,0;6,97.2972972972973;7,291.89189189189193;7,340.5405405405406
+
+[LINE]
+Speaker1186: Они  принадлежат моей бабушке     и   дедушке.    
+~            They belong~to   my   grandmother and grandfather 
+$1227/speech_1227_5.mp3;3,0;12,218.66666666666666;5,656;8,273.33333333333337;2,437.3333333333335;8,109.33333333333326
+
+[MULTIPLE_CHOICE]
+> These old letters belong to Katya's…
+- …grandchildren.
++ …grandparents.
+- …parents.
+
+[LINE]
+Speaker300: Вау!
+~           Wow 
+$1227/speech_1227_7.mp3;3,0
+
+[LINE]
+Speaker1186: Смотри, это  письмо    моё любимое. 
+~            Look    this letter~is my  favorite 
+$1227/speech_1227_8.mp3;6,0;5,459.1304347826087;7,229.56521739130432;4,401.73913043478274;8,229.56521739130426
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "dear".
+Speaker300: «|(+Дорогая) (Маша), ты       (красивая),   (как)  цветок.  
+~           «    Dear      ~      you~are   beautiful     like  a~flower 
+$1227/speech_1227_9.mp3;1,0;8,101.89473684210526;5,407.57894736842104;4,305.6842105263158;10,203.78947368421052;6,560.4210526315791;7,203.7894736842104
+
+[LINE]
+Speaker300: Я смотрю~на небо    и   думаю~о  тебе|.»
+~           I look~at   the~sky and think~of you   »
+$1227/speech_1227_10.mp3;1,0;7,101;3,353.5;5,151.5;2,252.5;6,101;2,303;5,101;2,252.5
+
+[MULTIPLE_CHOICE]
+> Katya's grandpa used to think of his beloved…
++ …while looking at the sky.
+- …while fishing.
+- …while playing soccer.
+
+[LINE]
+Speaker1186: «Дорогой Саша, я люблю твою улыбку…
+~            «Dear    ~     I love  your smile… 
+$1227/speech_1227_12.mp3;8,0;5,361.0285714285714;3,240.68571428571425;6,80.22857142857151;5,240.6857142857142;8,200.57142857142867
+
+[LINE]
+Speaker1186: …и   твои зелёные глаза|.»
+~            …and your green   eyes   »
+$1227/speech_1227_13.mp3;2,28.137931034482758;5,56.27586206896551;8,140.68965517241378;6,225.10344827586206;2,168.82758620689657
+
+[CONTINUATION]
+> What comes next?
+Speaker300: Такие  [прекрасные письма]. 
+~           Such    lovely     letters  
+$1227/speech_1227_14.mp3;5,0;12,199.7837837837838;7,313.945945945946
+- ужасные письма 
+~ awful   letters
++ прекрасные письма 
+~ lovely     letters
+- скучные письма 
+~ boring  letters
+
+[LINE]
+Speaker1186: Да… 
+~            Yes…
+$1227/speech_1227_15.mp3;3,0
+
+[LINE]
+Speaker1186: Дима?
+$1227/speech_1227_16.mp3;4,0
+
+[LINE]
+Speaker300: Что,  Катя?
+~           What  ~    
+$1227/speech_1227_17.mp3;3,0;6,201.60000000000002
+
+[LINE]
+Speaker1186: Ты       любишь меня?
+~            (Do)~you love   me   
+$1227/speech_1227_18.mp3;2,0;7,112.80000000000001;5,263.2
+
+[LINE]
+Speaker300: Да,  я люблю тебя! Ты     моя жена!
+~           Yes  I love  you   You're my  wife 
+$1227/speech_1227_19.mp3;2,0;3,230.4;6,115.20000000000002;5,345.6;4,345.5999999999999;4,172.79999999999995;5,230.4000000000001
+
+[LINE]
+Speaker1186: Но  ты  никогда~не пишешь мне письма… 
+~            But you never      write  me  letters…
+$1227/speech_1227_20.mp3;2,0;3,103.88571428571429;8,103.88571428571429;3,277.02857142857147;7,103.8857142857143;4,242.39999999999998;8,138.51428571428573
+
+[LINE]
+Speaker300: Но  сейчас существует электронная~почта!
+~           But now    exists     email             
+$1227/speech_1227_21.mp3;2,0;7,157.33333333333331;11,367.11111111111114;12,576.8888888888888;6,629.3333333333335
+
+[MULTIPLE_CHOICE]
+> Dima never writes love letters to Katya…
++ …because he can send her emails instead.
+- …because he is too busy playing his guitar.
+- …because he doesn't love her.
+
+[MATCH]
+> Tap the pairs
+- belong to (someone) <> принадлежат (кому-то)
+- смотрю на <> look at
+- никогда (не) <> never
+- думаю о <> think of
+- пишешь мне <> write me
+
