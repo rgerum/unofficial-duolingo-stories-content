@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=The Green Dress
+icon=5dd7c1c9e363ca081026fc76b834b84df03c1ce5
+set=2|1
+
+speaker_Liuwei=cmn-CN-Wavenet-A
+speaker_Lina=cmn-CN-Standard-D
+
+[HEADER]
+> 绿色的裙子          
+~ The~Green~Dress
+$1307/speech_1307_0.mp3;5,6
+
+[LINE]
+Speaker659: 李娜？你|在哪？     
+~               you  where  
+$1307/speech_1307_1.mp3;3,0;2,257.28000000000003;3,128.63999999999993;2,192.96000000000004
+
+[LINE]
+Speaker175: 在洗手间里|，刘伟！          
+~           in~the~bathroom ~     
+$1307/speech_1307_2.mp3;5,0;2,487.3846153846154;4,162.4615384615385
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "dress."
+Speaker659: (我的) (+裙子)    (在哪)?   
+~            my    dress   where  
+$1307/speech_1307_3.mp3;2,0;3,192;3,192
+
+[LINE]
+Speaker175: 你的|红|裙子|吗？       
+~           your  red  dress ~    
+$1307/speech_1307_4.mp3;2,0;2,176;3,117.33333333333331;2,176;2,117.33333333333331
+
+[LINE]
+Speaker659: 不是|！是我的|绿|裙子！       
+~           no      my  green  dress   
+$1307/speech_1307_5.mp3;2,0;2,236.25;2,157.5;3,157.5;2,236.25;3,157.5;2,236.25
+
+[MULTIPLE_CHOICE]
+> Liuwei is looking for...
+- … her long skirt.
+- … her green shoes.
++ … her green dress.
+
+[LINE]
+Speaker659: 我|要跟|文昊去|餐厅。            
+~           I    with     go  restaurant  
+$1307/speech_1307_7.mp3;1,0;2,139.2;2,139.2;3,139.20000000000005;2,208.79999999999995;3,139.19999999999993;2,208.80000000000007
+
+[LINE]
+Speaker175: 我|爱|你的|红|裙子！          
+~           I  love  your  red  dress  
+$1307/speech_1307_8.mp3;1,0;2,128.57142857142856;3,128.57142857142856;2,192.8571428571429;3,128.57142857142867;2,192.85714285714266
+
+[LINE]
+Speaker659: 但是|我|想|穿|我的|绿|裙子。             
+~           but  I  want  wear  my  gress  dress
+$1307/speech_1307_9.mp3;2,0;2,225;2,150;2,150;3,150;2,225;4,150
+
+[LINE]
+Speaker175: 你|想|穿|我的|白|裙子|吗？               
+~           you  want  wear  my  white  dress ~  
+$1307/speech_1307_10.mp3;1,0;2,140.90322580645162;2,140.90322580645162;3,140.9032258064516;2,211.3548387096775;3,140.9032258064516;3,211.35483870967732
+
+[LINE]
+Speaker659: 但是|这是|你最喜欢的|裙子！                  
+~           but  this  is     your~favorite dress
+$1307/speech_1307_11.mp3;2,0;3,243.8709677419355;6,243.8709677419355;3,487.741935483871;2,243.8709677419356
+
+[LINE]
+Speaker175: 你|是|我最喜欢的|妹妹。。。                      
+~           you  are  my~favorite  younger~sister    
+$1307/speech_1307_12.mp3;1,0;2,136.25806451612902;6,136.25806451612902;3,408.7741935483871;4,204.38709677419365
+
+[MULTIPLE_CHOICE]
+> Lina is offering her favorite dress...
++ … to her favorite sister.
+- … to her favorite daughter.
+- … to her favorite cousin.
+
+[LINE]
+Speaker659: 谢谢！       
+~           thank~you  
+$1307/speech_1307_14.mp3;2,0;2,132.6315789473684
+
+[LINE]
+> 李娜从|洗手间|出来。               
+~    from  bathroom  comes~out  
+$1307/speech_1307_15.mp3;2,6;2,408;4,256;3,768
+
+[MULTIPLE_CHOICE]
+> Lina came out of the bathroom.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker175: 非常|好！     
+~           very  good  
+$1307/speech_1307_17.mp3;2,0;2,144;2,96
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker175: 白色|的裙子|给你，|~~绿色的裙子给我我]                                   !
+~           white    dress  for~you and~the~red~dress~for~me ~             
+$1307/speech_1307_18.mp3;2,0;2,258.46153846153845;3,172.30769230769226;3,258.46153846153845;2,258.46153846153857;10,344.61538461538464
++ 绿色的裙子给我
+- 红色的裙子给我
+- 绿色的衬衫给我
+
+[LINE]
+Speaker659: 李娜！你|拿了|我的|绿|裙子！           
+~               you  took  my  green  dress  
+$1307/speech_1307_19.mp3;3,0;2,314.1818181818182;3,157.09090909090912;3,235.63636363636357;2,235.63636363636374;3,157.09090909090912;2,235.6363636363635
+
+[LINE]
+Speaker175: 对|，而|我是|你最喜欢的|姐姐！                          
+~           right    and  I~am  your~favorite  older~sister  
+$1307/speech_1307_20.mp3;1,0;2,162.35294117647058;2,162.35294117647058;3,162.3529411764706;6,243.5294117647059;3,487.0588235294116;2,243.52941176470608
+
+[MULTIPLE_CHOICE]
+> Why is Liuwei annoyed?
++ Lina is wearing the dress that she wanted to wear.
+- Lina is talking to her boyfriend.
+- Lina won't leave the bathroom.
+
+[MATCH]
+> Tap the pairs
+- 我的 <> my
+- 在哪 <> where
+- 你的红裙子 <> your red dress
+- 想 <> want
+- 对 <> right
+
