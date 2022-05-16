@@ -1,0 +1,132 @@
+[DATA]
+fromLanguageName=Surprise!
+icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
+set=1|4
+
+[HEADER]
+> Surprise !
+~ surprise  
+
+[LINE]
+> আরিব ~তার ~মায়ের ~সাথে      ~রেস্তোরাঁয় ~আছে।
+~ ~    is   at~the  restaurant with         his  
+
+[LINE]
+Speaker559: Une table pour trois personnes, s'il~vous~plaît.
+~           a   table for  three people     please          
+
+[LINE]
+Speaker385: Trois ? Toi, moi et…  ?
+~           three   you  me  and…  
+
+[LINE]
+Speaker559: Une amie.  
+~           a   friend 
+
+[MULTIPLE_CHOICE]
+> Who else is coming for dinner?
+- Antoine's father.
+- Antoine's son.
++ A friend of Antoine's mom.
+
+[LINE]
+Speaker385: Maman, je...
+~           mom    I    
+
+[LINE]
+Speaker559: J'ai     une surprise pour toi !
+~           I~have   a   surprise for  you  
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "also."
+Speaker385: (J'ai)     (+aussi) (une) surprise (pour) toi !
+~            I~have      also    a    surprise  for   you  
+
+[LINE]
+Speaker559: Mon amie     est étudiante~en~médecine.
+~           my  friend   is  a~medical~student     
+
+[LINE]
+Speaker559: Elle est très intelligente.
+~           she  is  very intelligent  
+
+[LINE]
+Speaker559: Elle~s'appelle Sonia.
+~           her~name~is    ~     
+
+[LINE]
+Speaker385: Maman, je...
+~           mom    I    
+
+[LINE]
+Speaker559: Elle est parfaite pour toi !
+~           she  is  perfect  for  you  
+
+[MULTIPLE_CHOICE]
+> Antoine's mom thinks that...
++ … Sonia is the perfect woman for her son.
+- … she should study medicine.
+- … the food at that restaurant is great.
+
+[LINE]
+> Une femme arrive   au         restaurant.
+~ a   woman arrives  at~the     restaurant 
+
+[LINE]
+Speaker125: Salut mon chéri   !
+~           hi    my  darling  
+
+[LINE]
+Speaker559: Mon chéri   ?
+~           my  darling  
+
+[MULTIPLE_CHOICE]
+> Why is Antoine's mom surprised?
+- She is very happy to see the woman.
+- The food they ordered arrived quickly.
++ She didn't know Antoine was in a relationship.
+
+[LINE]
+Speaker385: Salut, Carla. Maman...
+~           hi     ~      mom     
+
+[LINE]
+Speaker125: Tu   es   la   mère     d'Antoine  ?
+~           you  are  the  mother   of~Antoine  
+
+[LINE]
+Speaker559: Antoine !
+
+[CONTINUATION]
+> What comes next?
+Speaker125: Je suis Carla. La   femme [d'Antoine]. 
+~           I  am   ~      the  wife   of~Antoine  
+- et   mon mari   
+~ and  my  husband
++ d'Antoine 
+~ of~Antoine
+- dans le   jardin
+~ in   the  garden
+
+[LINE]
+Speaker559: Sa   femme !?
+~           his  wife    
+
+[LINE]
+Speaker385: Surprise !
+~           surprise  
+
+[MULTIPLE_CHOICE]
+> What was Antoine's surprise?
++ He recently married Carla.
+- He never wants to get married.
+- He wants to marry his mom's friend.
+
+[MATCH]
+> Tap the pairs
+- est <> is
+- parfaite <> perfect
+- femme <> woman
+- Elle s'appelle <> her name is
+- Maman <> mom
+
