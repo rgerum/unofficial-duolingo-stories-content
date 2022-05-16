@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=The Green Dress
+icon=5dd7c1c9e363ca081026fc76b834b84df03c1ce5
+set=2|1
+
+[HEADER]
+> Ang Blusang Berde
+~ the blouse  green
+
+[LINE]
+Speaker659: Nena? Nasaan~ka?    
+~           ~     where~are~you 
+
+[LINE]
+Speaker175: Sa     banyo,    Isabela !
+~           in~the bathroom  ~        
+
+[LINE]
+Speaker659: Nasaan ang~blusa ko ?
+~           where  blouse    my  
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "blouse."
+> (Nasaan) (ang) (+blusa) (ko) ?
+
+[LINE]
+Speaker175: Yung~pula   ?
+~           the~red~one  
+
+[LINE]
+Speaker659: Hindi! Yung~berde!   
+~           no     the~green~one 
+
+[MULTIPLE_CHOICE]
+> Isabella is looking for...
+- … her long skirt.
++ … her green blouse.
+- … her green shoes.
+
+[LINE]
+Speaker659: Pupunta kasi ako  sa     restaurant kasama si~Paul.
+~           going   ~    I~am to~the ~          with   Paul    
+
+[LINE]
+Speaker175: Gusto~ko yung~blusang pula.
+~           I~like   blouse       red  
+
+[LINE]
+Speaker659: Gusto~ko rin yung~berde    !
+~           I~want   too the~green~one  
+
+[LINE]
+Speaker175: Gusto~mo~ba yung~blusa~kong puti  ?
+~           do~you~want my~dress        white  
+
+[LINE]
+Speaker659: Eh iyon  ang~paboritong~blusa mo,   ah !
+~           ~  it~is favorite~blouse      your  ~   
+
+[LINE]
+Speaker175: At  ikaw    ang~paboritong~ate ko...
+~           and you~are favorite~sister    my   
+
+[MULTIPLE_CHOICE]
+> Nena is offering her favorite dress...
+- … to her favorite daughter.
+- … to her favorite cousin.
++ … to her favorite sister.
+
+[LINE]
+Speaker659: Maraming~salamat    !
+~           thank~you~very~much  
+
+[LINE]
+> Lumabas  si~Nena sa~banyo.         
+~ came~out Nena    from~the~bathroom 
+
+[MULTIPLE_CHOICE]
+> Nena came out of the bathroom.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker175: Very good !
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker175: Ang blusang~puti para~sa iyo at  ang [berde     para~sa akin] !
+~           the white~dress  for     you and the  green~one for     me     
++ berde para sa akin
+- berde para sa amin
+- batian para sa atin
+
+[LINE]
+Speaker659: Nena! Nasa~iyo pala ang~blusa~kong berde!
+~           ~     you~have ~    my~blouse      green 
+
+[LINE]
+Speaker175: Kaya~nga! At  ako  ang~paboritong~ate mo   !
+~           I~know    and I~am favorite~sister    your  
+
+[MULTIPLE_CHOICE]
+> Why is Isabela annoyed?
+- Nena won't leave the bathroom.
+- Nena is talking to her boyfriend.
++ Nena is wearing the dress that she wanted to wear.
+
+[MATCH]
+> Tap the pairs.
+- blusa <> blouse
+- nasaan ka <> where are you
+- sa banyo <> in the bathroom
+- berde <> green
+- puti <> white
+
