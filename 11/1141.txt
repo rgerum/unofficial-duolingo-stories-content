@@ -1,0 +1,170 @@
+[DATA]
+fromLanguageName=The Train Ticket
+icon=1cad8a6eda3c353f9c7c98e338cb8fc3d211644d
+set=4|6
+
+speaker_Narrator=hi-IN-SwaraNeural
+speaker_Madhu=hi-IN-Wavenet-D
+speaker_Rishi=hi-IN-Wavenet-C
+
+[HEADER]
+> ट्रेन~का~टिकट     
+~ (The)~train~ticket
+$1141/speech_1141_0.mp3;5,0;3,285.4285714285714;5,142.71428571428578
+
+[LINE]
+> माधू  एक रेस्टराॅन्त में है.
+~ Madhu a  restaurant  in  is 
+$1141/speech_1141_1.mp3;4,0;3,282.85714285714283;12,169.71428571428572;4,678.8571428571428;3,226.28571428571422
+
+[LINE]
+> वह  वेटर   रिशी  को   कहती~है.
+~ She waiter Rishi (to) speaks  
+$1141/speech_1141_2.mp3;2,0;5,193.84615384615387;5,323.07692307692304;3,323.0769230769231;5,193.8461538461538;3,323.0769230769231
+
+[LINE]
+Speaker1715: ठीक~है, अब  मैं ट्रेन~स्टैशन           जा~रही~हूँ.
+~            Well    now I   (to~the)~train~station (am)~going 
+$1141/speech_1141_3.mp3;3,0;3,225.77777777777777;4,225.77777777777777;4,169.33333333333326;6,225.77777777777794;7,338.6666666666665;3,395.1111111111111;4,169.33333333333348;4,225.7777777777776
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker526: [कहाँ  को]?
+~            Where to  
+$1141/speech_1141_4.mp3;4,0;3,177.3913043478261
++ कहाँ को
+- तेरा नाम क्या है
+- तेज़ी जाओ
+
+[LINE]
+Speaker1715: नागपूर.   
+~            To~Nagpur 
+$1141/speech_1141_5.mp3;6,0
+
+[LINE]
+Speaker526: अरे वाह! मैं नागपूर से   हूँ!
+~           Oh  wow  I   Nagpur from am  
+$1141/speech_1141_6.mp3;3,0;4,196.57142857142856;5,245.71428571428572;7,196.5714285714286;3,343.9999999999999;4,147.42857142857167
+
+[LINE]
+Speaker1715: अच्छा...
+~            Okay    
+$1141/speech_1141_7.mp3;5,0
+
+[ARRANGE]
+> Tap what you hear
+Speaker526: [(मैं) (अपना~परिवार) (से~मिलना)       (चाहता~हूँ…)…
+~             I     my~family     to~meet~(them)   (I)~want    
+$1141/speech_1141_8.mp3;3,0;5,137.14285714285714;7,171.42857142857142;3,240;6,102.85714285714278;6,205.71428571428578;5,205.71428571428578
+
+[LINE]
+Speaker526: …| लेकिन टिकेटे        बहुत~ज़्यादा महँगे     हैं.
+~           …  but   (the)~tickets too          expensive are 
+$1141/speech_1141_9.mp3;1,67.72602739726027;6,203.1780821917808;7,237.04109589041093;5,169.3150684931507;8,270.9041095890411;6,203.17808219178085
+
+[LINE]
+Speaker1715: हाँ, वह~तो~सही~है...
+~            Yes  that's~true    
+$1141/speech_1141_10.mp3;3,0;4,176.72727272727272;3,106.03636363636363;4,106.03636363636366;3,141.38181818181812
+
+[MULTIPLE_CHOICE]
+> What does Madhu mean?
+- She thinks train tickets are cheap.
++ That it's true, train tickets are very expensive.
+- She doesn't think Rishi should visit his family.
+
+[LINE]
+Speaker526: आप  नागपूर    क्यों जा~रही~हैं?     
+~           You to~Nagpur why   (are~you)~going 
+$1141/speech_1141_12.mp3;2,0;7,142.28571428571428;6,332;3,284.5714285714285;4,142.28571428571433;4,189.71428571428578
+
+[LINE]
+Speaker1715: मेरे नए  काम  के~लिए.  
+~            My   new work for~(it) 
+$1141/speech_1141_13.mp3;4,0;3,261.1764705882353;4,156.70588235294116;3,208.9411764705883;4,156.7058823529411
+
+[MULTIPLE_CHOICE]
+> Madhu is going to Nagpur for…
+- … her wedding.
+- … her first day of college.
++ … her new job.
+
+[LINE]
+Speaker1715: लेकिन मैं नागपूर~में काम~करना नहीं~चाहती~हूँ....
+~            But   I   in~Nagpur  to~work  don't~want        
+$1141/speech_1141_15.mp3;5,0;4,234.2168674698795;7,156.14457831325302;4,273.2530120481927;4,156.14457831325296;5,156.1445783132532;5,195.18072289156623;6,195.18072289156635;4,234.2168674698794
+
+[LINE]
+Speaker526: ओह...
+~           Oh   
+$1141/speech_1141_16.mp3;2,0
+
+[LINE]
+Speaker1715: मैं यहाँ रहना    चाहती~हूँ, मेरे परिवार के~पास...        
+~            I   here to~live want       my   family near~(to~them)   
+$1141/speech_1141_17.mp3;3,0;5,168.29629629629628;5,210.37037037037035;6,210.37037037037032;4,252.44444444444446;6,210.37037037037032;7,210.37037037037044;3,294.5185185185185;4,126.22222222222217
+
+[LINE]
+Speaker526: हाँ...
+~           Yes   
+$1141/speech_1141_18.mp3;3,0
+
+[LINE]
+Speaker1715: क्या~आपको~चाहिए... मेरा टिकेट  नागपूर~को?
+~            Do~you~want        my   ticket to~Nagpur 
+$1141/speech_1141_19.mp3;4,0;5,190.4;6,190.4;8,342.7200000000001;6,190.39999999999998;7,228.48000000000002;3,266.55999999999995
+
+[LINE]
+Speaker526: क्या?!
+~           What  
+$1141/speech_1141_20.mp3;4,0
+
+[CONTINUATION]
+> What comes next?
+Speaker1715: अपने परिवार से~मिलनाा]?       
+~            Your family to~visit~(them)   
+$1141/speech_1141_21.mp3;4,0;7,258.59154929577466;3,362.02816901408454;6,155.1549295774647
+- पूछना
+- प्यार करना
++ मिलना
+
+[LINE]
+Speaker526: हाँ! बहुत,~बहुत~धन्यवाद!        
+~           Yes  Thank~you~so ~so~much      
+$1141/speech_1141_22.mp3;3,0;6,261.5384615384615;6,313.84615384615387;8,261.53846153846155
+
+[LINE]
+Speaker1715: लेकिन ट्रेन     एक~घंटे~में जायेगा!         
+~            But   the~train in~one~hour (it)~will~leave 
+$1141/speech_1141_23.mp3;5,0;6,309.9130434782609;3,309.9130434782609;5,154.95652173913038;4,258.2608695652174;7,206.608695652174
+
+[LINE]
+Speaker1715: और  आपको काम~करना~है! 
+~            And you  have~to~work 
+$1141/speech_1141_24.mp3;2,0;5,164.57142857142858;4,274.2857142857142;5,219.4285714285715;3,274.2857142857142
+
+[LINE]
+Speaker526: नहीं, वह~ठीक~है!  
+~           No    that's~fine 
+$1141/speech_1141_25.mp3;4,0;4,325.1612903225806;4,162.58064516129036;3,216.77419354838707
+
+[LINE]
+Speaker526: मैं यहाँ काम~करना नहीं~चाहता~हूँ!
+~           I   here to~work  don't~want     
+$1141/speech_1141_26.mp3;3,0;5,184;4,230;5,184;5,230;6,230;4,276
+
+[MULTIPLE_CHOICE]
+> What is Rishi going to do?
+- Work at the restaurant with Madhu.
++ Quit his job and use Madhu's ticket to go to Nagpur.
+- Buy a train ticket to Mumbai.
+
+[MATCH]
+> Tap the pairs
+- नागपूर से <> From Nagpur
+- जायेगा <> (it) will go
+- क्या आपको ... चाहिए? <> Do you want ... ?
+- अपने परिवार से मिलना <> To meet (one's own) family
+- टिकेट <> ticket
+- महँगा/महँगी/महँगे <> expensive (m, f, pl)
+
