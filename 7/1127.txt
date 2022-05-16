@@ -1,0 +1,146 @@
+[DATA]
+fromLanguageName=Good News
+icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
+set=1|4
+
+speaker_Mother=cmn-TW-Wavenet-A
+speaker_Desheng=cmn-TW-Wavenet-B
+speaker_Meiya=Zhiyu
+speaker_Waitress=Yaoyao
+
+[HEADER]
+> 好消息!      
+~ good~news 
+$1127/speech_1127_0.mp3;3,6;1,258
+
+[LINE]
+> 德生|和|他的妈妈|进了|一家|餐厅。                          
+~ Desheng  and  his~mother  entered  a   restaurant  
+$1127/speech_1127_1.mp3;2,6;2,491;5,194;3,190;3,108;3,427;2,209
+
+[LINE]
+Speaker336: 晚上好|！请问|你们几位？                                 
+~           good~evening    I'd~like~to~ask  how~many~of~you  
+$1127/speech_1127_2.mp3;3,0;2,348.8;3,174.40000000000003;5,261.5999999999999;2,436
+
+[LINE]
+Speaker559: 三位|，谢谢！              
+~           three~people    thanks  
+$1127/speech_1127_3.mp3;2,0;2,192;3,128;2,192
+
+[LINE]
+Speaker385: 三位|？还有谁？               
+~           three~people    who~else  
+$1127/speech_1127_4.mp3;2,0;2,216;4,144;2,288
+
+[MULTIPLE_CHOICE]
+> Why is Desheng confused?
+- His mom didn't come to the restaurant.
+- His mom asked for three tables.
++ His mom asked for a table for three instead of two.
+
+[LINE]
+Speaker559: 我的|朋友。    
+~           my  friend  
+$1127/speech_1127_6.mp3;2,0;3,147.27272727272725;2,147.27272727272725
+
+[LINE]
+Speaker385: 妈妈|，我想|告诉你。。。             
+~           mom    I~want  to~tell~you    
+$1127/speech_1127_7.mp3;2,0;2,187.20000000000002;3,124.79999999999998;4,187.2;4,249.60000000000008
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "smart"
+Speaker559: 我的 (朋友)      很    (+聪明)    。 (她是)     医学院的              (学生)      。
+~           my  friend   very   smart     she~is  of~medical~school  student   
+$1127/speech_1127_8.mp3;2,0;3,301.7142857142857;3,402.2857142857143;3,201.1428571428571;2,301.7142857142858;3,201.1428571428571;5,301.7142857142858;3,402.2857142857142;2,201.14285714285734
+
+[LINE]
+Speaker559: 她叫|婉紫。            
+~           her~name~is  Wanzi  
+$1127/speech_1127_9.mp3;2,0;3,176.72727272727272;2,176.72727272727272
+
+[LINE]
+Speaker385: 妈妈|，我想|告诉你。。。             
+~           mom    I~want  to~tell~you    
+$1127/speech_1127_10.mp3;2,0;2,187.20000000000002;3,124.79999999999998;4,187.2;4,249.60000000000008
+
+[LINE]
+Speaker559: 她|很|漂亮|！完全合适|我的|儿子！                              
+~           she  very  beautiful    (a)~perfect~fit~(for)  my  son  
+$1127/speech_1127_11.mp3;1,0;2,173.33333333333331;3,173.33333333333331;2,260;5,173.33333333333337;3,433.33333333333326;3,260;2,260.0000000000002
+
+[MULTIPLE_CHOICE]
+> Desheng's mom wants…
+- … to make a new friend.
++ … Desheng to go on a date with her friend, Wanzi.
+- … Desheng to leave the restaurant.
+
+[LINE]
+> 一位|姑娘|走进|餐厅|，对德生挥了挥手。                              
+~ a   girl  entered  (the)~restaurant    waved~at~Desheng  
+$1127/speech_1127_13.mp3;2,6;3,135;3,241;3,465;2,461;8,497;2,204
+
+[LINE]
+Speaker385: 宝贝|，你好！     
+~           baby    hello  
+$1127/speech_1127_14.mp3;2,0;2,165;3,110;2,165
+
+[LINE]
+Speaker559: 宝贝？  
+~           baby  
+$1127/speech_1127_15.mp3;2,0;2,132.6315789473684
+
+[MULTIPLE_CHOICE]
+> Desheng's mom knew that he was in a relationship.
+- Yes, that's true!
++ No, that's not right!
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker125: 您|是|德生的|妈妈|，是吗？                           [很高兴认识您]           。
+~           you~(polite)  are  Desheng’s  mother    right     nice~to~meet~you   
+$1127/speech_1127_17.mp3;1,6;2,233;4,280;3,479;2,110;3,544;2,190;8,259;2,229
+- 不认识您
+- 很高兴的人
++ 很高兴认识您
+
+[LINE]
+Speaker559: 德生|，她是谁？            
+~           Desheng    who~is~she  
+$1127/speech_1127_18.mp3;2,0;2,230.39999999999998;4,153.60000000000002;2,307.19999999999993
+
+[LINE]
+Speaker385: 妈妈|，这就是|我想和你说的事。                             
+~           mom    this~is  (the)~matter~I~want~to~tell~you  
+$1127/speech_1127_19.mp3;2,0;2,214.05405405405406;4,142.7027027027027;8,285.4054054054054;2,214.05405405405406
+
+[LINE]
+Speaker385: 这是|我女朋友|，她叫|美雅。                          
+~           this~is  my~girlfriend    her~name~is  Meiya  
+$1127/speech_1127_20.mp3;2,0;5,216;2,360;3,144;3,216;2,216
+
+[LINE]
+Speaker559: 女朋友？       
+~           girlfriend  
+$1127/speech_1127_21.mp3;3,0;2,216
+
+[LINE]
+Speaker385: 好消息！      
+~           good~news  
+$1127/speech_1127_22.mp3;3,0;2,220.8
+
+[MULTIPLE_CHOICE]
+> Why is Desheng's mom surprised?
++ She didn't know Desheng had a girlfriend.
+- She is very happy to see Meiya.
+- The food they ordered arrived quickly.
+
+[MATCH]
+> Tap the pairs
+- 他的妈妈 <> his mother
+- 很高兴认识您 <> nice to meet you
+- 儿子 <> son
+- 女朋友 <> girlfriend
+- 她叫 <> her name is
+
