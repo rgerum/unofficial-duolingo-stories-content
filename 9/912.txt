@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=At the farm
+icon=91023e19762be713ac3b9ec727924006b6ca8ce0
+set=4|8
+
+speaker_Speaker408=ru-RU-EkaterinaRUS
+speaker_Speaker409=Tatyana
+
+[HEADER]
+> На~ферме   
+~ At~the~farm
+$912/speech_912_0.mp3;2,6;6,187
+
+[LINE]
+> Наташа приезжает на~ферму    своей~сестры́~Да́ши...
+~ ~      arrives   at~the~farm of~her~sister~Dasha   
+$912/speech_912_1.mp3;6,6;10,611;3,629;6,129;6,458;8,373;6,432
+
+[MULTIPLE_CHOICE]
+> Nathalie's visiting her uncle's farm.
++ No, that's not right.
+- Yes, that's true.
+
+[LINE]
+Speaker659: Наташа, добро~пожаловать! Я   очень рада  тебя~видеть!
+~           ~       welcome           I'm very  happy to~see~you  
+$912/speech_912_3.mp3;6,0;7,667.6363636363636;11,500.72727272727286;3,1001.454545454545;6,166.90909090909145;5,500.7272727272725;5,417.2727272727275;7,417.272727272727
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker658: Да́ша, ты  живешь так далеко  [от~города].    
+~           ~      you live   so  far      from~the~city  
+$912/speech_912_4.mp3;5,6;4,722;7,101;4,440;7,193;4,469;7,147
+- в городе
+- от повора
++ от города
+
+[LINE]
+Speaker659: Да,  я знаю, но  я~люблю жить   здесь.
+~           yes  I know  but I~love  living here  
+$912/speech_912_5.mp3;2,0;3,293.87755102040813;5,146.9387755102041;4,440.81632653061223;2,220.40816326530614;6,146.9387755102041;5,440.8163265306123;6,367.3469387755099
+
+[LINE]
+Speaker658: Это...   это       лошадь! 
+~           This…    this~[is] a~horse 
+$912/speech_912_6.mp3;3,6;7,695;7,229
+
+[LINE]
+Speaker659: Да,  Наташа. Мы~находимся   сейчас на~ферме. 
+~           yes  ~       We~are~located now    on~a~farm 
+$912/speech_912_7.mp3;2,0;8,354.85714285714283;4,709.7142857142856;10,266.14285714285734;7,887.1428571428573;3,620.9999999999995;6,266.14285714285734
+
+[LINE]
+Speaker658: Всё это  очень       отличается от~города.    
+~           All this very~[much] differs    from~the~city 
+$912/speech_912_8.mp3;3,6;4,256;6,149;11,410;3,824;7,148
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "noisy."
+Speaker659: (Да)!  (Там)   (—|)     (очень) (+шумно) (в~городе)   
+~            Yes    There   it~is    very     noisy   in~the~city 
+$912/speech_912_9.mp3;2,6;5,794;2,525;6,334;6,383;2,60
+
+[LINE]
+Speaker658: Что  это       за           звук  там?!  
+~           What [is]~this (emphasizer) sound there  
+$912/speech_912_10.mp3;3,6;4,267;3,176;5,120;4,327
+
+[LINE]
+Speaker659: Tот  звук  —|   мои коровы.
+~           That sound are  my  cows   
+$912/speech_912_11.mp3;3,0;5,288;2,504;4,288
+
+[LINE]
+Speaker658: Фуу!  Гадость! Твои коровы воняют!
+~           yuck  gross    your cows   stink  
+$912/speech_912_12.mp3;3,6;9,268;6,1013;7,243;7,422
+
+[MULTIPLE_CHOICE]
+> Natasha is saying that...
+- … she would like to eat a burger.
+- … Dasha should buy more cows.
++ … Dasha's cows stink.
+
+[ARRANGE]
+> Tap what you hear
+Speaker659: [(Хочешь)   (что-нибудь) (поесть)]? ?
+~             You~want   something    to~eat     
+$912/speech_912_14.mp3;6,0;11,414;7,650.5714285714284
+
+[LINE]
+Speaker659: Я приготовила бутерброды.
+~           I prepared    sandwiches 
+$912/speech_912_15.mp3;1,0;12,127.80000000000001;11,766.8
+
+[LINE]
+Speaker658: Нет, спасибо.  
+~           No   thank~you 
+$912/speech_912_16.mp3;3,6;9,626
+
+[LINE]
+Speaker658: Я~хочу такси́, чтобы    вернуться в~город,     пожалуйста.
+~           I~want a~taxi  in~order to~return to~the~city  please     
+$912/speech_912_17.mp3;1,6;5,176;7,282;7,409;10,326;2,472;6,62;12,644
+
+[MULTIPLE_CHOICE]
+> What does Natasha mean?
++ She wants to leave the farm and go back to the city.
+- She wants to move to the countryside with her sister.
+- She would like to eat some sandwiches.
+
+[MATCH]
+> Tap the pairs
+- добро пожаловать <> welcome
+- рада <> happy(f)
+- рад <> happy (m)
+- лошадь <> a/the horse
+- такси́ <> a/the taxi
+- Фуу! <> Yuck!
+- гадость <> gross/grossness
+- коровы воняют <> the cows stink
+- коровы <> cows
+
+[MATCH]
+> Tap the pairs
+- звук <> sound
+- шумно <> noisy
+- я люблю <> I love/I like
+- Это <> This
+- там <> there
+- Tот <> That
+- Хочешь <> you want
+- что-нибудь <> something
+
