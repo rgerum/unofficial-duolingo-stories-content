@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=Night Music
+icon=205eb89c151a9cea69e598e00b5cbe534c23881a
+set=4|10
+
+speaker_Speaker410=Maxim
+speaker_Speaker411=Tatyana
+speaker_Narrator=ru-RU-DariyaNeural
+
+[HEADER]
+> Ночная     музыка
+~ night(adj) music 
+$951/speech_951_0.mp3;6,0;7,513
+
+[LINE]
+Speaker823: Послушай! Женя!
+~           listen    ~    
+$951/speech_951_1.mp3;8,6;6,1244
+
+[LINE]
+Speaker1087: Ива! Тебе~надо играть  на~гитаре      сейчас?
+~            ~    you~need  to~play (on)the~guitar now    
+$951/speech_951_2.mp3;3,6;6,733;5,233;7,278;3,345;7,125;7,464
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1087: [Мне      надо спать]!   
+~             I(to~me) need to~sleep  
+$951/speech_951_3.mp3;3,6;5,203;6,304
+- Мне надо мыть
++ Мне надо спать
+- Мне надо уйти
+
+[LINE]
+Speaker823: Я~хочу научиться играть  на~гитаре      очень хорошо.
+~           I~want to~learn  to~play (on)the~guitar very  well   
+$951/speech_951_4.mp3;1,6;5,207;10,364;7,646;3,299;7,112;6,547;7,354
+
+[LINE]
+Speaker823: Я~хочу найти   девушку...
+~           I~want to~find a~gal…    
+$951/speech_951_5.mp3;1,6;5,207;6,364;8,414
+
+[LINE]
+Speaker823: Женщины любят парней, которые играют на~гитаре!     
+~           Women   like  guys    who     play   (on)the~guitar 
+$951/speech_951_6.mp3;7,6;6,623;7,455;9,870;7,413;3,452;7,119
+
+[MULTIPLE_CHOICE]
+> Why does Iva want to learn how to play the guitar?
++ He thinks women like men who play the guitar.
+- He wants to play it for his friend.
+- He wants to play before he goes to sleep.
+
+[ARRANGE]
+> Tap what you hear
+Speaker1087: [(И)   (тебе~надо) (играть)  (ночью)]??!   
+~              And   you~need    to~play   at~night     
+$951/speech_951_8.mp3;1,6;5,67;5,298;7,278;6,345
+
+[LINE]
+Speaker1087: Я   очень     хочу спать!   
+~            I'm very~much want to~sleep 
+$951/speech_951_9.mp3;1,6;6,229;5,366;6,352
+
+[LINE]
+Speaker823: Хорошо. Я~не~буду больше  играть на~гитаре.     
+~           Fine    I~won't   anymore play   (on)the~guitar 
+$951/speech_951_10.mp3;6,6;3,1064;3,211;5,108;7,270;7,477;3,327;7,114
+
+[MULTIPLE_CHOICE]
+> Iva is saying that he's not going to play the guitar anymore.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker1087: Спасибо.   Спокойной~ночи.
+~            thank~you  Good~night     
+$951/speech_951_12.mp3;7,6;11,1072;5,627
+
+[LINE]
+Speaker823: Спокойной~ночи.
+~           Good~night     
+$951/speech_951_13.mp3;9,6;5,650
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "starts."
+> (Ива) (+начинает) (играть)  на   (пианино).  
+~  ~      starts     playing  (on)  the~piano  
+$951/speech_951_14.mp3;3,0;9,247.30434782608694;7,556.4347826086955;3,432.78260869565224;8,185.47826086956525
+
+[LINE]
+Speaker1087: Ива! что  ты        делаешь?!
+~            ~    what (are)~you doing    
+$951/speech_951_15.mp3;3,6;5,733;3,218;8,155
+
+[LINE]
+Speaker823: Что?  Я~не~могу играть на~гитаре...      
+~           What  I~can't   play   (on)the~guitar…   
+$951/speech_951_16.mp3;3,6;3,785;3,272;5,131;7,389;3,422;7,135
+
+[LINE]
+Speaker823: но  я~могу играть на~пианино,    нет?
+~           but I~can  play   (on)the~piano  no  
+$951/speech_951_17.mp3;2,6;2,179;5,164;7,352;3,452;8,123;5,935
+
+[LINE]
+Speaker823: Девушки любят парней, которые играют на~пианино!   
+~           Gals    love  guys    who     play   (on)the~piano 
+$951/speech_951_18.mp3;7,6;6,529;7,435;9,870;7,413;3,452;8,182
+
+[MULTIPLE_CHOICE]
+> Since Zhenya didn't want Iva to play the guitar…
+- Iva decided to go to bed.
++ Iva started playing the piano.
+- Iva left the house.
+
+[MATCH]
+> Tap the pairs
+- Послушай! <> Listen!
+- Тебе надо <> You need
+- Мне надо <> I need
+- мыть <> to wash
+- спать <> to sleep
+- уйти <> to leave
+- играть <> to play
+
+[MATCH]
+> Tap the pairs
+- женщины <> women
+- Девушки <> Gals/young ladies
+- Я не буду <> I won't
+- Я не могу <> I can't
+- Спокойной ночи <> Good night
+- что ты делаешь? <> What are you doing?
+- начинает <> starts/commences
+
