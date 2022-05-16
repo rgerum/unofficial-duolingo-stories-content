@@ -1,0 +1,159 @@
+[DATA]
+fromLanguageName=Can I help you?
+icon=ec74184ed69da39d62ba574fa9d615f7d0c53da1
+set=3|3
+
+speaker_Patrik=Ruben
+
+[HEADER]
+> Kan ik je  helpen?
+~ Can I  you help?
+$99/speech_99_0.mp3;3,6;3,137;3,102;7,106
+
+[LINE]
+> Zoë loopt over straat.    
+~ ~   walks on   the~streat 
+$99/speech_99_1.mp3;3,6;6,199;5,293;7,269
+
+[LINE]
+> Ze  ziet een man voor        haar auto staan.   
+~ She sees a   man in~front~of her  car  standing 
+$99/speech_99_2.mp3;2,6;5,132;4,199;4,88;5,205;5,160;5,127;6,306
+
+[LINE]
+> Hij is gestrest.
+~ He  is stressed 
+$99/speech_99_3.mp3;3,6;3,189;9,130
+
+[LINE]
+Speaker101: Hallo, kan ik je  helpen?
+~           Hello  can I  you help   
+$99/speech_99_4.mp3;5,6;5,607;3,155;3,174;7,122
+
+[LINE]
+Speaker127: Ik heb  een probleem met  mijn auto.
+~           I  have a   problem  with my   car  
+$99/speech_99_5.mp3;2,6;4,128;4,171;9,95;4,414;5,136;5,198
+
+[LINE]
+Speaker127: Mag ik je   telefoon eventjes     gebruiken alsjeblieft?
+~           May I  your phone    for~a~moment use       please      
+$99/speech_99_6.mp3;3,6;3,226;3,111;9,118;9,489;10,441;12,515
+
+[LINE]
+> Zoë geeft haar telefoon aan Patrik.
+~ ~   gives her  phone    to  ~      
+$99/speech_99_7.mp3;3,6;6,234;5,266;9,151;4,523;7,81
+
+[MULTIPLE_CHOICE]
+> Did Zöe give her phone to Patrik?
++ Yes, that's right.
+- No, that's not true.
+
+[LINE]
+> Patrik belt  een nummer.
+~ ~      calls a   number 
+$99/speech_99_9.mp3;6,6;5,323;4,296;7,81
+
+[LINE]
+Speaker101: Ja  maar ...
+~           yes but     
+$99/speech_99_10.mp3;2,6;5,244
+
+[LINE]
+Speaker127: Wacht even.        
+~           Wait  for~a~moment 
+$99/speech_99_11.mp3;5,6;5,281
+
+[LINE]
+Speaker127: Hallo, is dit  een garage?
+~           Hello  is this a   garage 
+$99/speech_99_12.mp3;5,6;4,672;4,154;4,180;7,88
+
+[MULTIPLE_CHOICE]
+> Patrik calls ...
+- Someone who knows everything about damage.
+- a taxi.
++ a car repair shop.
+
+[LINE]
+Speaker127: Ik heb  een probleem.
+~           I  have a   problem  
+$99/speech_99_14.mp3;2,6;4,127;4,152;9,95
+
+[LINE]
+> De  man aan de  telefoon stelt Patrik een vraag.   
+~ The man on  the phone    asks  Patrik a   question 
+$99/speech_99_15.mp3;2,6;4,119;4,235;3,122;9,64;6,540;7,305;4,372;6,92
+
+[LINE]
+Speaker127: Nee, ik weet niet waar  ik me~bevind. 
+~           No   I  know not  where I  am~located 
+$99/speech_99_16.mp3;3,6;4,598;5,126;5,195;5,181;3,158;3,88;7,102
+
+[MULTIPLE_CHOICE]
+> Wat vroeg de man aan de telefoon aan Patrik?
++ Heb  je  een idee waar  je  bent?
+~ Have you a   clue where you are  
+- Weet je  wat  er kapot  is?
+~ Know you what ~  broken is 
+- Weet je  waar  de  garage is?
+~ Know you where the garage is 
+
+[LINE]
+Speaker127: Euh, sorry..
+~           ~    sorry  
+$99/speech_99_18.mp3;3,6;7,354
+
+[LINE]
+Speaker101: Ja? 
+~           Yes 
+$99/speech_99_19.mp3;2,6
+
+[LINE]
+Speaker127: Weet je  waar  we zijn?
+~           Know you where we are  
+$99/speech_99_20.mp3;4,6;3,272;5,105;3,180;5,71
+
+[ARRANGE]
+> Put the words in the right order:
+Speaker101: [(We) (zijn) (niet ver) (van de) (garage)]
+$99/speech_99_21.mp3;2,6;5,123;5,330;4,226;4,267;3,192;7,77
+
+[LINE]
+Speaker127: Pardon?  
+~           Excuse me
+$99/speech_99_22.mp3;6,6
+
+[LINE]
+Speaker101: Ik werk bij de  garage!
+~           I  work at  the garage 
+$99/speech_99_23.mp3;2,6;5,152;4,293;3,170;7,89
+
+[LINE]
+Speaker101: Ik ben monteur! 
+~           I  am  mechanic 
+$99/speech_99_24.mp3;2,6;4,120;8,201
+
+[LINE]
+Speaker101: Dus, kan ik je  helpen?
+~           So   can I  you help   
+$99/speech_99_25.mp3;3,6;5,545;3,155;3,174;7,122
+
+[MULTIPLE_CHOICE]
+> Het blijkt dat...
+- Zoë de  baas is van  de  garage.
+~ ~   the boss is from the garage 
++ Zoë een functie     heeft bij de  garage.
+~ ~   a   jobposition has   at  the garage 
+- Zoë weet  welke garage Patrik belt. 
+~ ~   knows which garage ~      calls 
+
+[MATCH]
+> Combine the pairs.
+- Probleem <> Problem
+- Eventjes <> For a moment
+- Monteur <> Mechanic
+- Garage <> Garage
+- Telefoon <> Phone
+
