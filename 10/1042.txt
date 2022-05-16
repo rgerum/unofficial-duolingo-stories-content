@@ -1,0 +1,136 @@
+[DATA]
+fromLanguageName=I Can't Sleep
+icon=0641ff57af041e20c48758333ca7a5e76006d438
+set=4|1
+
+icon_Speaker361=https://stories-cdn.duolingo.com/image/8dedb551515218979bffa2ba590906d0ed1ee462.svg
+speaker_Speaker362=Carla
+speaker_Speaker361=Giorgio
+
+[HEADER]
+> Non~posso dormire
+~ I~can't   sleep  
+$1042/speech_1042_0.mp3;3,6;6,283;8,368
+
+[LINE]
+Speaker856: Alfredo? Stai    dormendo?
+~           ~        are~you sleeping 
+$1042/speech_1042_1.mp3;7,6;6,1026;9,383
+
+[LINE]
+SpeakerSpeaker361: Non~sto~più~dormendo…    
+~                  I'm~not~sleeping~anymore…
+$1042/speech_1042_2.mp3;3,6;4,177;4,221;10,169
+
+[MULTIPLE_CHOICE]
+> Alfredo is saying that he's not sleeping anymore.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker856: Non~posso dormire.
+~           I~can't   sleep   
+$1042/speech_1042_4.mp3;3,6;6,272;8,396
+
+[LINE]
+SpeakerSpeaker361: Vuoi        un bicchiere di latte?
+~                  do~you~want a  glass     of milk  
+$1042/speech_1042_5.mp3;4,6;3,238;10,116;3,374;6,117
+
+[LINE]
+Speaker856: Alfredo! Non~mi~piace il~latte.
+~           ~        I~don't~like milk     
+$1042/speech_1042_6.mp3;7,6;5,976;3,257;6,102;3,414;6,118
+
+[ARRANGE]
+> Tap what you hear
+SpeakerSpeaker361: [(Vuoi)        (ascoltare)    (un~po'~di) (musica)]?
+~                    do~you~want   to~listen~to   some        music    
+$1042/speech_1042_7.mp3;4,6;10,221;3,465;4,106;3,147;7,106
+
+[LINE]
+Speaker856: No, il  bambino sta dormendo.
+~           ~   the baby    is  sleeping 
+$1042/speech_1042_8.mp3;2,6;4,572;8,185;4,499;9,270
+
+[CONTINUATION]
+> What comes next?
+SpeakerSpeaker361: Bene, possiamo parlare del       colore [della        stanza]…
+~                  well  we~can   talk    about~the color   of~the~room… ~       
+$1042/speech_1042_9.mp3;4,6;10,578;8,405;4,389;7,143;6,323;8,194
++ della~stanza
+~ of          
+- della  musica
+~ of     the   
+- del latte
+~ of  the  
+
+[LINE]
+Speaker856: Va~bene.
+~           OK      
+$1042/speech_1042_10.mp3;2,6;5,175
+
+[LINE]
+SpeakerSpeaker361: Dobbiamo dipingere la  stanza.
+~                  we~need  to~paint  the room   
+$1042/speech_1042_11.mp3;8,6;10,391;3,511;7,119
+
+[SELECT_PHRASE]
+> Select the missing phrase
+SpeakerSpeaker361: A~me~piace [il   grigio]!
+~                  I~like      gray ~       
+$1042/speech_1042_12.mp3;1,6;3,143;6,145;3,376;7,100
+- il tris
+- il gas
++ il grigio
+
+[LINE]
+Speaker856: Sì…|   il~grigio…
+~           yes…   gray…     
+$1042/speech_1042_13.mp3;3,6;4,692;8,163
+
+[LINE]
+SpeakerSpeaker361: Anche il~blu è  carino.
+~                  also  blue   is pretty 
+$1042/speech_1042_14.mp3;5,6;3,268;4,105;2,250;7,93
+
+[LINE]
+SpeakerSpeaker361: Però non~mi~piacciono i~colori~scuri.
+~                  but  I~don't~like     dark~colors    
+$1042/speech_1042_15.mp3;4,6;4,179;3,200;10,119;2,509;7,60;6,367
+
+[MULTIPLE_CHOICE]
+> Alfredo doesn't like…
++ … dark colors.
+- … gray houses.
+- … any colors.
+
+[LINE]
+SpeakerSpeaker361: Quale colore ti~piace?   
+~                  what  color  do~you~like 
+$1042/speech_1042_17.mp3;5,6;7,223;3,332;6,110
+
+[LINE]
+SpeakerSpeaker361: Rita? Rita, stai    dormendo?
+~                  ~     ~     are~you sleeping 
+$1042/speech_1042_18.mp3;4,6;6,807;6,663;9,345
+
+[LINE]
+SpeakerSpeaker361: Oh no! Ora io non~posso dormire.
+~                  ~  ~   now I  can't     sleep   
+$1042/speech_1042_19.mp3;2,6;3,207;5,710;3,231;4,148;6,123;8,323
+
+[MULTIPLE_CHOICE]
+> What happened to Alfredo?
+- He woke up the baby, and Rita was angry.
++ He tried to help Rita fall asleep, and then he couldn't sleep.
+- He painted his bedroom walls blue and gray.
+
+[MATCH]
+> Tap the pairs
+- Non posso dormire <> I can't sleep
+- bicchiere <> glass
+- carino <> pretty
+- ti piace <> you like
+- sta dormendo <> is sleeping
+
