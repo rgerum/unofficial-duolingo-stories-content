@@ -1,0 +1,149 @@
+[DATA]
+fromLanguageName=Surprise!
+icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
+set=1|4
+
+[HEADER]
+> आश्चर्य! 
+~ surprise 
+$619/speech_619_0.mp3;7,6
+
+[LINE]
+> अरुन आपने माँ    के~साथ एक रेस्तरान   में है।
+~ ~    his  mother with   a  restaurant in  is 
+$619/speech_619_1.mp3;4,6;5,352;4,346;3,250;4,176;3,443;9,191;4,598;4,157
+
+[LINE]
+Speaker559: तीन~लोग~के~लिए~एक~मेज़,    कृप्या।
+~           a~table~for~three~people  please 
+$619/speech_619_2.mp3;3,6;4,259;3,278;4,163;3,368;4,233;9,720
+
+[LINE]
+Speaker385: तीन?   आप,  मैं, और...?  
+~           three  you  I    and…    
+$619/speech_619_3.mp3;3,6;4,815;5,632;4,576
+
+[MULTIPLE_CHOICE]
+> Why is Arun confused?
+- His mom left the restaurant.
++ His mom asked for a table for three instead of two.
+- He felt sick.
+
+[LINE]
+Speaker559: एक दोस्त।
+~           a  friend
+$619/speech_619_5.mp3;2,6;7,267
+
+[LINE]
+Speaker385: आह... माँ, मैं...
+~           ~     mom  I…    
+$619/speech_619_6.mp3;2,6;7,739;5,705
+
+[LINE]
+Speaker559: मेरे~पास एक आशचर्य!  
+~           I~have   a  surprise 
+$619/speech_619_7.mp3;4,6;4,352;3,412;7,200
+
+[LINE]
+Speaker385: मैं... मेरे~पास भी   एक आशचर्य। 
+~           I…     I~have   also a  surprise
+$619/speech_619_8.mp3;3,6;8,759;4,352;3,394;3,221;8,204
+
+[LINE]
+Speaker559: मेरी दोस्त  एक बहुत अनुकूल   चिकित्सा~छात्र  है।
+~           my   friend a  very friendly medical~student is 
+$619/speech_619_9.mp3;4,6;6,422;3,480;5,183;7,324;9,517;6,611;4,501
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "friend"
+> (मेरी) (+दोस्त) एक (बहुत) अनुकूल चिकित्सा (छात्र) है।
+$619/speech_619_10.mp3;4,6;6,422;3,480;5,183;7,324;9,517;6,611;4,501
+
+[LINE]
+Speaker559: उसका नाम  प्रेमा है।
+~           her  name ~      is 
+$619/speech_619_11.mp3;4,6;4,377;7,355;4,418
+
+[LINE]
+Speaker385: माँ, मैं...
+~           mom  I…    
+$619/speech_619_12.mp3;3,6;5,706
+
+[LINE]
+Speaker559: और  वह  बहुत सुंदर  है! मेरा बेटा के~लिए उत्तम!  
+~           and she very pretty is  my   son  for    perfect 
+$619/speech_619_13.mp3;2,6;3,239;5,235;6,374;3,440;6,738;5,376;3,396;4,176;6,237
+
+[MULTIPLE_CHOICE]
+> Arun's mom wants…
+- … to order a pizza.
++ … Arun to go on a date with her friend, Prema.
+- … to go home.
+
+[LINE]
+> एक औरत   रेस्तरान       में~प्रवश~करती~है।
+~ a  woman the~restaurant enters            
+$619/speech_619_15.mp3;2,6;4,289;9,334;4,589;6,153;5,470;4,401
+
+[LINE]
+Speaker125: नमस्ते, मेरा प्यार!
+~           hello   my   love  
+$619/speech_619_16.mp3;6,6;6,880;6,397
+
+[LINE]
+Speaker559: मेरा प्यार?
+~           my   love  
+$619/speech_619_17.mp3;4,6;6,342
+
+[MULTIPLE_CHOICE]
+> Arun's mom didn't know that he was in a relationship.
+- No, that's not right!
++ Yes, that's true!
+
+[LINE]
+> नमस्ते, हरीनी। माँ...
+~ hello   ~      mom   
+$619/speech_619_19.mp3;6,6;8,869;4,789
+
+[LINE]
+Speaker125: और  आप  अरून       की  माँ हैं!
+~           and you Arun's~mom are ~   ~   
+$619/speech_619_20.mp3;2,6;3,187;5,261;3,330;4,197;4,213
+
+[LINE]
+Speaker559: अरून!?
+$619/speech_619_21.mp3;4,6
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker125: [आपसे             मिलकर अच्छा लगा], मैं हरीनी हूँ, अरून~की~पत्नी।
+~            nice~to~meet~you ~     ~     ~     I   ~     am   Antonio's~wife
+$619/speech_619_22.mp3;4,6;6,266;6,509;4,528;5,390;6,213
+- आपसे लकर अ ला
+- आपसे मिलकर अचा लगा
++ आपसे मिलकर अच्छा लगा
+
+[LINE]
+Speaker559: पत्नी?!
+~           wife   
+$619/speech_619_23.mp3;5,6
+
+[LINE]
+Speaker385: आश्चर्य! 
+~           surprise 
+$619/speech_619_24.mp3;7,6
+
+[MULTIPLE_CHOICE]
+> Why is Arun's mom surprised?
++ She didn't know Arun was married.
+- she got a salad instead of a pizza.
+- Arun liked her friend, Prema.
+
+[MATCH]
+> Tap the pairs
+- आपसे मिलकर अच्छा लगा <> nice to meet you
+- आश्चर्य <> surprise
+- चिकित्सा छात्र <> medical student
+- अनुकूल <> friendly
+- मेरा प्यार <> my love
+
