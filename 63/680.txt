@@ -1,0 +1,166 @@
+[DATA]
+fromLanguageName=Um encontro
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+speaker_Daniel=Enrique
+speaker_Julia=Lucia
+
+[HEADER]
+> Una cita    
+~ um  encontro
+$680/speech_680_0.mp3;3,6;5,248
+
+[LINE]
+> Julia está en~una cita     en~un restaurante.
+~ ~     está em~um  encontro em~um restaurante 
+$680/speech_680_1.mp3;5,6;5,437;3,330;4,171;5,190;3,377;3,161;12,152
+
+[LINE]
+Speaker100: ¿Qué   quieres comer?
+~            o~que quer    comer 
+$680/speech_680_2.mp3;0,6;4,136;8,276
+
+[MULTIPLE_CHOICE]
+> O rapaz com quem Julia está falando quer saber...
+- … onde encontrar o restaurante.
++ … o que Julia quer comer.
+- … quanto custa a comida.
+
+[LINE]
+Speaker336: Una ensalada.
+~           uma salada   
+$680/speech_680_4.mp3;3,6;9,262
+
+[LINE]
+Speaker336: No  como carne.
+~           não como carne 
+$680/speech_680_5.mp3;2,6;5,183;6,244
+
+[LINE]
+Speaker100: ¿Eres   vegetariana?
+~            você~é vegetariana 
+$680/speech_680_6.mp3;0,6;5,230
+
+[LINE]
+Speaker336: Sí…
+~           sim
+$680/speech_680_7.mp3;3,6
+
+[LINE]
+Speaker100: ¡Yo también!
+~            eu também  
+$680/speech_680_8.mp3;0,6;3,181
+
+[MULTIPLE_CHOICE]
+> Por que ele disse isso?
++ Ele também é vegetariano.
+- Ele odeia saladas.
+- Ele ama comer carne.
+
+[LINE]
+Speaker336: ¡Perfecto!
+~            perfeito 
+$680/speech_680_10.mp3;0,6
+
+[ARRANGE]
+> Toque no que escutar
+Speaker336: ¿[(De) (dónde) (eres)]?  
+~              de   onde    você~é   
+$680/speech_680_11.mp3;0,6;3,222;6,318
+
+[LINE]
+Speaker100: Soy americano.
+~           sou americano 
+$680/speech_680_12.mp3;3,6;10,236
+
+[LINE]
+Speaker100: Mi    padre es de Cuba y mi      madre es de México.
+~           o~meu pai   é  de Cuba e a~minha mãe   é  do México 
+$680/speech_680_13.mp3;2,6;6,130;3,338;3,107;5,69;2,274;3,43;6,135;3,311;3,117;7,77
+
+[LINE]
+Speaker336: ¡Yo soy cubana!
+~            eu sou cubana 
+$680/speech_680_14.mp3;0,6;3,233;4,219
+
+[LINE]
+Speaker100: Cuba es muy   bonita!
+~           ~    é  muito bonita 
+$680/speech_680_15.mp3;4,6;3,287;4,109;7,131
+
+[POINT_TO_PHRASE]
+> Selecione o opção que significa "animais de estimação"
+> ¿(Tienes) (+mascotas)?            
+~   tens      animais~de~estimação  
+$680/speech_680_16.mp3;0,6;7,409
+
+[LINE]
+Speaker336: Tengo tres gatos y dos  perros.   
+~           tenho três gatos e dois cachorros 
+$680/speech_680_17.mp3;5,6;5,297;6,241;2,376;4,60;7,229
+
+[LINE]
+Speaker100: ¡Qué interesante! 
+~            que interessante 
+$680/speech_680_18.mp3;0,6;4,107
+
+[LINE]
+Speaker100: Yo tambien tengo dos  perros,    Gabriela.
+~           eu também  tenho dois cachorros  ~        
+$680/speech_680_19.mp3;2,6;8,146;6,377;4,250;7,217;10,779
+
+[LINE]
+Speaker336: ¿Eh? Soy Julia...
+~            é   sou ~       
+$680/speech_680_20.mp3;0,6;3,618;5,237
+
+[LINE]
+Speaker336: Tú   eres José, ¿verdad? 
+~           você é    ~      verdade 
+$680/speech_680_21.mp3;2,6;5,215;5,214;9,669
+
+[LINE]
+Speaker100: ¡Ay, no! 
+~            Oh  não 
+$680/speech_680_22.mp3;0,6;3,431
+
+[LINE]
+Speaker100: Mi    nombre es Daniel...
+~           o~meu nome   é  ~        
+$680/speech_680_23.mp3;2,6;7,105;3,279;7,94
+
+[MULTIPLE_CHOICE]
+> Julia e Daniel deveriam conhecer pessoas diferentes.
+- Não, isso não é correito.
++ Sim, isso é verdade.
+
+[LINE]
+> Una mujer  camina  hacia        Daniel.
+~ uma mulher caminha em~direção~à ~      
+$680/speech_680_25.mp3;3,6;6,245;7,387;6,482;7,320
+
+[LINE]
+Speaker101: ¡Hola! ¿Eres   Daniel? Soy Gabriela.
+~            Olá    Você~é ~       Sou ~        
+$680/speech_680_26.mp3;0,6;5,757;7,343;7,881;5,259
+
+[LINE]
+Speaker100: No,  lo~siento. Soy José.
+~           Não  desculpe   Sou ~    
+$680/speech_680_27.mp3;2,6;4,492;7,106;5,897;5,204
+
+[MULTIPLE_CHOICE]
+> Ao fim da história, Daniel…
+- …estava cansado de falar com Julia.
++ …mentiu para a sua verdadeira acompanhante, porque ele gostou de Julia.
+- …conheceu alguém que se chamava José.
+
+[MATCH]
+> Toque nos pares
+- nombre <> nome
+- perros <> cachorros
+- Yo también <> eu também
+- eres <> é
+- sí <> sim
+
