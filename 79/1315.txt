@@ -1,0 +1,154 @@
+[DATA]
+fromLanguageName=The New Mall
+icon=22d80e422eeb2f9e860d1f014edf989ff6257372
+set=3|7
+
+speaker_Narrator==da-DK-Wavenet-C
+speaker_Speaker136=da-DK-Wavenet-A
+speaker_Speaker135=da-DK-Wavenet-C
+
+[HEADER]
+> Det nye indkøbscenter
+~ the new mall         
+$1315/speech_1315_0.mp3;3,6;4,135;14,423
+
+[LINE]
+> Rebecca læser   avisen            i  toget.    
+~ ~       reads   the~newspaper     on the~train 
+$1315/speech_1315_1.mp3;7,6;6,434;9,423;6,505;6,68
+
+[LINE]
+Speaker1320: Wow!
+~            Wow 
+$1315/speech_1315_2.mp3;3,0
+
+[LINE]
+Speaker258: Hvad sker~der?    
+~           What is~happening 
+$1315/speech_1315_3.mp3;4,0;5,136.55172413793105;4,136.55172413793105
+
+[LINE]
+Speaker1320: Der     er et nyt indkøbscenter i   byen!    
+~            There   is a  new mall          in  the~city 
+$1315/speech_1315_4.mp3;3,0;5,236.37735849056605;3,118.18867924528297;4,118.18867924528308;14,157.58490566037733;2,551.5471698113207;6,118.18867924528308
+
+[MULTIPLE_CHOICE]
+> There is a new shopping mall in their city.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker258: Virkelig?
+~           Really   
+$1315/speech_1315_6.mp3;8,0
+
+[LINE]
+Speaker1320: Ja,  og        der    er en    3D-biograf!
+~            Yes  and       there  is a     3D~cinema  
+$1315/speech_1315_7.mp3;2,0;4,173.88679245283018;10,391.245283018868;4,217.35849056603763;3,130.41509433962278;14,260.8301886792451
+
+[LINE]
+Speaker1320: Og  den italienske restaurant, som  du  kan~lide, er der   også!
+~            And the Italian    restaurant  that you like      is there too  
+$1315/speech_1315_8.mp3;2,0;4,147.8918918918919;11,197.1891891891892;11,542.2702702702702;5,591.5675675675676;3,197.18918918918916;4,147.89189189189187;5,197.18918918918916;4,295.78378378378375;4,147.8918918918921;5,197.18918918918916
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker258: [Lad          os tage af sted nu]!
+~            Let's~go~now ~  ~    ~  ~    ~   
+$1315/speech_1315_9.mp3;3,0;3,144;5,108;3,180;5,108;3,180
++ Lad os tage af sted nu
+- Lad os tage af kat nu
+- Lad os tage af sted skur
+
+[LINE]
+Speaker258: Hvilken   del  af København    er det?
+~           What      part of Copenhagen   is it  
+$1315/speech_1315_10.mp3;7,0;6,357.6470588235294;3,143.05882352941182;10,107.29411764705878;5,429.17647058823536;4,107.29411764705878
+
+[LINE]
+Speaker1320: Hmm… På                       Amagerbrogade?
+~            ~    On~the~street            ~             
+$1315/speech_1315_11.mp3;4,0;3,120;25,336
+
+[LINE]
+Speaker258: Jeg ved    ikke  hvor      Amagerbrogade                        er.
+~           I   know   don't where     the~street~Amagerbrogade             is 
+$1315/speech_1315_12.mp3;3,0;4,111.52941176470588;7,167.2941176470588;5,139.41176470588238;18,250.9411764705883;15,724.9411764705883
+
+[ARRANGE]
+> Tap what you hear
+Speaker258: [(Kan) (jeg) (se)      (avisen)]?       
+~             Can   I     look~at   the~newspaper   
+$1315/speech_1315_13.mp3;3,0;4,136.72727272727272;3,136.72727272727272;7,102.54545454545456
+
+[LINE]
+Speaker1320: Her. 
+~            Here 
+$1315/speech_1315_14.mp3;3,0
+
+[LINE]
+Speaker258: Rebecca…
+$1315/speech_1315_15.mp3;8,0
+
+[LINE]
+Speaker258: Det nye indkøbscenter er ikke nyt.
+~           The new mall          is not  new 
+$1315/speech_1315_16.mp3;3,0;4,166.53061224489795;14,166.53061224489795;3,582.8571428571429;5,124.89795918367349;4,208.1632653061224
+
+[LINE]
+Speaker258: Det er det samme.
+~           It  is the same  
+$1315/speech_1315_17.mp3;3,0;3,117;4,87.75;6,117
+
+[MULTIPLE_CHOICE]
+> What does "samme" mean here?
+- Small
++ Same
+- Different
+
+[LINE]
+Speaker258: Men  navnet        er forskelligt!
+~           But  the~name      is different   
+$1315/speech_1315_19.mp3;3,0;8,155.74468085106383;8,373.78723404255317;12,93.44680851063833
+
+[MULTIPLE_CHOICE]
+> The mall…
+- … is closing down.
++ … is the same one they usually go to, but it has a new name.
+- … is new, but it's not in København.
+
+[LINE]
+Speaker1320: Ahh,  det~er derfor, jeg kan~lide det.
+~            ~     that's why     I   like     it  
+$1315/speech_1315_21.mp3;3,0;6,222.7924528301887;3,148.5283018867925;7,111.3962264150943;5,297.0566037735849;4,148.5283018867924;5,148.52830188679252;4,185.66037735849045
+
+[LINE]
+Speaker1320: Nuvel, skal   vi tage til det 'nye'| indkøbscenter?
+~            Well   shall  we go   to  the new    mall          
+$1315/speech_1315_22.mp3;5,0;6,312.375;4,267.75;5,133.875;4,223.125;4,178.5;6,178.5;14,267.75
+
+[LINE]
+Speaker1320: Vi kan tage i  biografen   og  spise italiensk mad. 
+~            We can go   to the~cinema  and eat   Italian   food 
+$1315/speech_1315_23.mp3;2,0;4,141.7142857142857;5,188.95238095238093;2,236.19047619047615;10,94.47619047619048;4,519.6190476190477;6,141.71428571428555;10,283.42857142857156;4,472.3809523809523
+
+[LINE]
+Speaker258: Ja! 
+~           Yes 
+$1315/speech_1315_24.mp3;2,0
+
+[MULTIPLE_CHOICE]
+> What are they going to do?
++ Go to the movies and eat Italian food at the mall.
+- Stay home and order Italian food.
+- Go to a new mall in an Italian city.
+
+[MATCH]
+> Tap the pairs
+- du kan lide <> you like
+- by <> city
+- tage <> go
+- lad os tage <> let's go
+- Ja <> yes
+
