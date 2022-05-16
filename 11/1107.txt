@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=I want a dog!
+icon=51e004f16574a25cf124ce8d3c718187674dfbdc
+set=4|3
+
+icon_prem=https://stories-cdn.duolingo.com/image/5c0e3dc3bf6643fee057c963573678bf175a01b8.svg
+speaker_Narrator=hi-IN-SwaraNeural
+speaker_prem=hi-IN-Wavenet-C
+speaker_mum=hi-IN-Wavenet-D
+
+[HEADER]
+> मुझे एक कुत्ता चाहिए!
+~ I    a  dog    want  
+$1107/speech_1107_0.mp3;4,0;3,285;7,171;6,399
+
+[LINE]
+Speakerprem: माँ! माँ!
+~            mom  mom 
+$1107/speech_1107_1.mp3;3,0;5,180
+
+[LINE]
+Speaker292: हाँ, प्रेम?
+~           yes  ~     
+$1107/speech_1107_2.mp3;3,0;7,203.0769230769231
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speakerprem: [मुझे कुत्ता चाहिए!]!    
+~             I    a      dog     want
+$1107/speech_1107_3.mp3;4,0;7,194.11764705882354;6,271.764705882353
+- मुझे एक कुत्ता के लिए!
+- मुझे कूना चाहते!
++ मुझे कुत्ता चाहिए!
+
+[LINE]
+Speaker292: कुत्ता~पालना   बहुत     काम  है।
+~           having~(a)~dog a~lot~of work is 
+
+[LINE]
+Speakerprem: माँ, कृप्या!
+~            mom  please 
+$1107/speech_1107_5.mp3;3,0;8,200
+
+[LINE]
+Speaker292: म्म्म... ठीक~है।
+~           ~        OK     
+$1107/speech_1107_6.mp3;5,0;7,369.2903225806452;4,164.12903225806457
+
+[LINE]
+Speakerprem: हाँ!
+~            yes 
+$1107/speech_1107_7.mp3;3,0
+
+[CONTINUATION]
+> What comes next?
+Speaker292: लेकिन पहले,  तुम्हें     [गाड़ी]      साफ़~करना~है...
+~           but   first  you~have~to  (the)~car  to~clean      
++ गाड़ी     
+~ (the)~car
+- एक पेड़ 
+~ a  tree
+- बहुत     काम 
+~ a~lot~of work
+
+[LINE]
+Speaker292: …शौचलया…        
+~           …(the)~bathroom…
+$1107/speech_1107_9.mp3;8,45.91304347826087
+
+[LINE]
+Speakerprem: ठीक है।
+~            OK  ~  
+$1107/speech_1107_10.mp3;3,0;4,165.8181818181818
+
+[LINE]
+Speaker292: …और  खिड़कियाँ!     
+~           …and (the)~windows 
+$1107/speech_1107_11.mp3;3,40.285714285714285;9,120.85714285714286
+
+[MULTIPLE_CHOICE]
+> Before getting a dog, Prem has to…
+- … plant a tree in the garden.
++ … clean the bathroom, windows and car.
+- … buy food at the shops.
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "finishes."
+> तीन   (घंटे)  (बाद),   प्रेम (सफ़ाई)     (+खत्म~करता~है|)।
+~ three  hours   later   ~      cleaning    finishes     ~  
+$1107/speech_1107_13.mp3;3,0;5,274.66666666666663;4,343.33333333333337;7,343.33333333333326;5,412;5,343.3333333333335;5,343.33333333333326;3,343.3333333333335;2,206
+
+[LINE]
+Speakerprem: माँ! देखो!    
+~            ~    mom  look
+$1107/speech_1107_14.mp3;3,0;6,206.4
+
+[LINE]
+Speaker292: बहुत अच्छा! तुम बहुत उत्तरदायी   हो! 
+~           very good   you very responsible are 
+
+[ARRANGE]
+> Tap what you hear
+Speaker292: [(अब)  (तुम) (कुत्ता)  (पाल)  (सकता~ह)]ै!
+~             now   you   (a)~dog   have   can       
+$1107/speech_1107_16.mp3;2,0;4,159.80487804878047;7,213.0731707317074;4,372.87804878048786;5,213.07317073170725;3,266.3414634146342
+
+[LINE]
+Speakerprem: नहीं, शुक्रिया! 
+~            no    thank~you 
+$1107/speech_1107_17.mp3;4,0;10,268.8
+
+[LINE]
+Speaker292: प्रेम, मैं नहीं~समझती~हूँ। 
+~           ~      I   don't~understand
+$1107/speech_1107_18.mp3;5,0;5,372.87804878048786;5,213.0731707317073;6,266.3414634146342;5,319.609756097561
+
+[LINE]
+Speakerprem: मैं उत्तरदायी   होना  नहीं~चहता~हूँ!
+~            I   responsible to~be don't~want    
+$1107/speech_1107_19.mp3;3,0;10,186;5,465;5,232.5;5,232.5;4,232.5
+
+[LINE]
+Speakerprem: मुझे एक कुत्ता नहीं~चाहिए... मैं बहुत थका   हूँ!
+~            I    a  dog    don't~want    I   very tired am  
+
+[MULTIPLE_CHOICE]
+> Why doesn't Prem want a dog?
+- He would prefer a cat.
++ He's tired and doesn't want more responsibility.
+- He doesn't want to spend his money on it.
+
+[MATCH]
+> Tap the pairs
+- खिड़कियाँ <> windows
+- सफ़ाई <> cleaning
+- उत्तरदायी <> responsible
+- समझता <> understand
+- खत्म करता है <> finishes
+
