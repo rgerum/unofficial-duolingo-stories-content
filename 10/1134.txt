@@ -1,0 +1,145 @@
+[DATA]
+fromLanguageName=The School Party
+icon=9ad6bc610313267c3fbb650a0d94480aa76c8a1c
+set=5|9
+
+speaker_Speaker372=Giorgio
+speaker_Speaker373=Carla
+
+[HEADER]
+> La   festa~a~scuola
+~ the  school~party  
+$1134/speech_1134_0.mp3;2,6;7,185;2,429;7,45
+
+[LINE]
+> La~mamma~di~Fabio va     nella  stanza~di~suo~figlio.
+~ Fabio's~mom       goes   to     her~son's~bedroom    
+$1134/speech_1134_1.mp3;2,6;6,182;3,322;6,109;3,417;8,154;8,236;3,472;4,98;7,158
+
+[LINE]
+Speaker1649: Ah…| ciao,   mamma.
+~            Ah…  hello   mom   
+$1134/speech_1134_2.mp3;3,6;5,631;8,681
+
+[LINE]
+Speaker292: Fabio, stai~bene? 
+~           ~      are~you~OK 
+$1134/speech_1134_3.mp3;5,6;6,734;5,268
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1649: [C'è      una festa]   a  scuola…| con   la~musica.
+~             there~is a   party    at school…  with  music     
+$1134/speech_1134_4.mp3;3,6;4,166;6,169;4,429;8,44;4,809;4,126;7,95
+- C'è una fetta
+- Cioè la festa
++ C'è una festa
+
+[LINE]
+Speaker292: Che~bello!        Sei       emozionato?
+~           that's~great      are~you   excited    
+$1134/speech_1134_5.mp3;3,6;6,127;9,884;13,245
+
+[LINE]
+Speaker1649: No, non~sono emozionato.
+~            No  I'm~not  excited    
+$1134/speech_1134_6.mp3;2,6;5,476;5,172;11,272
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "in front."
+Speaker1649: (Non~voglio)      (ballare)    (+di~fronte) agli (altri)! 
+~             I~don't~want      to~dance      in~front   of    others  
+$1134/speech_1134_7.mp3;3,6;7,144;11,275;5,420;7,115;5,305;6,176
+
+[LINE]
+Speaker292: Mmm…| Ho      un'idea.
+~           ~…    I~have  an~idea 
+$1134/speech_1134_8.mp3;4,6;3,538;9,111
+
+[LINE]
+Speaker1649: Che  idea?
+~            what idea 
+$1134/speech_1134_9.mp3;3,6;5,160
+
+[CONTINUATION]
+> What comes next?
+Speaker292: Ti~insegno~io  [a            ballare]!
+~           I'll~teach~you  how~to~dance ~        
+$1134/speech_1134_10.mp3;2,6;8,103;3,565;2,166;8,49
+- una festa
+~ a   party
+- le   persone
+~ the  people 
++ a~ballare   
+~ how~to~dance
+
+[LINE]
+Speaker1649: Ora?
+~            now 
+$1134/speech_1134_11.mp3;3,6
+
+[LINE]
+Speaker292: Sì!   Qui  a  casa!
+~           yes   here at home 
+$1134/speech_1134_12.mp3;2,6;6,692;2,192;5,70
+
+[LINE]
+Speaker1649: Va~bene.
+~            OK      
+$1134/speech_1134_13.mp3;2,6;5,169
+
+[ARRANGE]
+> Tap what you hear
+> [(Fabio) (balla)  (con)  (sua~mamma)].
+~   ~       dances   with   his~mom     
+$1134/speech_1134_14.mp3;5,6;6,355;4,303;4,182;6,200
+
+[LINE]
+Speaker1649: Mamma, devi~andare     alla    festa con  me!
+~            mom    you~have~to~go  to~the  party with me 
+$1134/speech_1134_15.mp3;5,6;6,638;7,326;6,376;7,208;4,362;3,154
+
+[LINE]
+Speaker1649: Al tuo  fianco…
+~            at your side…  
+$1134/speech_1134_16.mp3;2,6;4,134;8,177
+
+[LINE]
+Speaker1649: …| sembra     che   io balli molto bene!
+~            …  it~seems   that  I  dance very  well 
+$1134/speech_1134_17.mp3;1,6;7,263;6,335;4,144;6,197;6,332;5,329
+
+[MULTIPLE_CHOICE]
+> When dancing with his mother, Fabio…
++ … feels like he is a very good dancer.
+- … feels like he can't dance.
+- … thinks they can't dance together.
+
+[LINE]
+Speaker292: Oh, grazie!   
+~           Oh  thank~you 
+$1134/speech_1134_19.mp3;2,6;8,454
+
+[LINE]
+Speaker1649: Perché   tu   balli molto  male! 
+~            because  you  dance very   badly 
+$1134/speech_1134_20.mp3;6,6;4,234;7,166;6,335;6,332
+
+[LINE]
+Speaker292: Fabio!
+$1134/speech_1134_21.mp3;5,6
+
+[MULTIPLE_CHOICE]
+> Why does Fabio want his mom to come to the party?
+- He thinks she's a great dancer, and they will have a lot of fun.
++ He thinks she's a bad dancer, so he will look good next to her.
+- He is afraid to go by himself.
+
+[MATCH]
+> Tap the pairs
+- C'è una festa <> there is a party
+- Va bene <> OK
+- Qui <> here
+- balli <> dance
+- una <> an
+
