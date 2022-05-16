@@ -1,0 +1,138 @@
+[DATA]
+fromLanguageName=A Date
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+[HEADER]
+> Randevu
+~ А~date 
+
+[LINE]
+> Suzan restoranda.           Onun      bir~randevusu var.      
+~ ~     is~in~the~restaurant  She~(has) a~date        (she)~has 
+
+[LINE]
+Speaker100: Ne   istersin?     
+~           What (do)~you~want 
+
+[MULTIPLE_CHOICE]
+> Suzan's date is asking...
++ … what Suzan wants to eat.
+- … how much the food costs.
+- … where to find the restaurant.
+
+[LINE]
+Speaker336: Etsiz        bir salata.
+~           Without~meat a   salad  
+
+[LINE]
+Speaker336: Et   yemem.      
+~           Meat I~don't~eat 
+
+[LINE]
+Speaker100: Sen vejetaryen misin?                
+~           You vegetarian (question~word~[you]) 
+
+[LINE]
+Speaker336: Evet...
+~           Yes    
+
+[LINE]
+Speaker100: Ben~de! 
+~           So~am~I 
+
+[MULTIPLE_CHOICE]
+> Why did he say that?
++ He's also a vegetarian.
+- He hates salads.
+- He loves to eat meat.
+
+[LINE]
+Speaker336: Süper!
+~           Great 
+
+[LINE]
+Speaker100: Sen nerelisin?           
+~           You Where~are~(you)~from 
+
+[LINE]
+Speaker336: Ben    Hollandalıyım.      
+~           I~(am) am~from~Netherlands 
+
+[LINE]
+Speaker100: Türk             gibi Türkçe             konuşuyorsun!
+~           Turkish~[person] like Turkish~[language] (you)~speak  
+
+[LINE]
+Speaker336: Benim annem       Türk!         O        İzmirli.      
+~           My    (my)~mother (is)~Turkish  She~(is) is~from~İzmir 
+
+[POINT_TO_PHRASE]
+> Select the option meaning “mother”:
+> (Benim) (+annem) (Türk). (O) (İzmirli).
+
+[LINE]
+Speaker100: Ben de  İzmirliyim!     
+~           I   too (am)~from~İzmir 
+
+[LINE]
+Speaker336: İzmir'i çok       seviyorum!
+~           İzmir   very~much I~love    
+
+[SELECT_PHRASE]
+> Select the missing word
+Speaker100: Evcil [hayvanın]  var~mı,      Tuğçe?
+~           A~pet  undefined  do~you~have  ~     
+- hayvanlar
++ hayvanın
+- hayvanım
+
+[LINE]
+Speaker336: Evet, üç    kedim~var...  
+~           Yes   three I~have~cats   
+
+[LINE]
+Speaker336: Tuğçe?! Benim adım      Suzan!
+~           ~       My    (my)~name ~     
+
+[ARRANGE]
+> Put the words in the right order
+Speaker336: [(Senin) (adın)        (Murat) (m)]ı?                  
+~             Your    (your)~name   ~       (question~word~[it])   
+
+[LINE]
+Speaker100: Hayır! Benim adım      Bulut.
+~           No     My    (my)~name ~     
+
+[MULTIPLE_CHOICE]
+> Suzan and Bulut were supposed to meet different people.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+> Bir kadın onlara  geliyor.  
+~ A   woman to~them is~coming 
+
+[LINE]
+Speaker101: Selam! Sen Bulut musun?                 Ben    Tuğçe.
+~           Hi     You ~     (question~word~[you])  I~(am) ~     
+
+[LINE]
+Speaker100: Eh... Hayır... Ben    Murat!
+~           Uh    No       I~(am) ~     
+
+[MULTIPLE_CHOICE]
+> At the end of the story, Bulut…
++ … lied to his real date because he likes Suzan.
+- … was tired of talking to Suzan.
+- … met someone named Murat.
+
+[MATCH]
+> Tap the pairs
+- nerelisin <> where are you from
+- benim annem <> my mother
+- senin adın <> your name
+- üç <> three
+- etsiz <> without meat
+- seviyorum <> I love
+
