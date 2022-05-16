@@ -1,0 +1,169 @@
+[DATA]
+fromLanguageName=The Honeymoon
+icon=7e5d271488d31d6f1d0c503512e642ca7effe84f
+set=1|6
+
+speaker_Narrator=da-DK-Wavenet-A
+speaker_Speaker111=da-DK-Wavenet-A
+speaker_Speaker113=da-DK-Wavenet-C
+speaker_Speaker112=da-DK-ChristelNeural
+
+[HEADER]
+> Bryllupsrejsen
+~ The~Honeymoon 
+$1256/speech_1256_0.mp3;14,0
+
+[LINE]
+> Helena er i  en taxi.
+~ ~      is in a  taxi 
+$1256/speech_1256_1.mp3;6,0;3,331.20000000000005;2,141.94285714285706;3,94.62857142857149;5,141.94285714285706
+
+[LINE]
+Speaker113: Hej,    godmorgen.   
+~           Hello   good~morning 
+$1256/speech_1256_2.mp3;3,0;12,222.96774193548387
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker439: Hej,     jeg~har~brug~for [at~komme~til~lufthavnen], tak.   
+~           Hello    I~need            to~go~to~the~airport      please 
+$1256/speech_1256_3.mp3;3,0;7,323.6470588235294;4,184.9411764705883;5,184.94117647058818;4,231.17647058823536;3,184.9411764705883;6,138.705882352941;4,277.41176470588243;11,184.94117647058806;5,554.8235294117649
+- at købe til lufthavn
+- at spise i lufthavnen
++ at komme til lufthavnen
+
+[LINE]
+Speaker113: Okay.
+~           Okay 
+$1256/speech_1256_4.mp3;4,0
+
+[LINE]
+Speaker113: Ferie?   
+~           Vacation 
+$1256/speech_1256_5.mp3;5,0
+
+[LINE]
+Speaker439: Det~er  ikke   ferie    …
+~           It's    not    vacation …
+$1256/speech_1256_6.mp3;3,0;3,66.46153846153847;6,66.46153846153847;8,116.30769230769232
+
+[LINE]
+Speaker439: Jeg har  en billet til København. 
+~           I   have a  ticket to  Copenhagen 
+$1256/speech_1256_7.mp3;3,0;4,147.06382978723403;3,147.06382978723403;7,110.29787234042556;4,257.3617021276596;10,147.063829787234
+
+[MULTIPLE_CHOICE]
+> Helena has a plane ticket to København, but she's not on vacation.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker439: Altså…| to  billetter.
+~           Well…   two tickets   
+$1256/speech_1256_9.mp3;6,0;3,178.66666666666666;10,76.57142857142856
+
+[LINE]
+Speaker113: København   er min yndlingsby!      Den er meget smuk!  
+~           Copenhagen  is my  favorite~city    It  is very  pretty 
+$1256/speech_1256_10.mp3;9,0;4,475.20000000000005;4,129.60000000000002;11,172.79999999999995;7,604.8000000000001;3,172.79999999999995;6,129.5999999999999;5,259.20000000000005
+
+[LINE]
+Speaker439: Det er min bryllupsrejse…
+~           It  is my  honeymoon…    
+$1256/speech_1256_11.mp3;3,0;3,90.35294117647058;4,67.76470588235296;15,90.35294117647061
+
+[MULTIPLE_CHOICE]
+> Why is Helena going to København?
++ She's going on her honeymoon.
+- She is going to a funeral.
+- She is going to move there.
+
+[LINE]
+Speaker113: Åh. Hvor   er   din   mand?   
+~           Ah  Where  is   your  husband 
+$1256/speech_1256_13.mp3;2,0;6,139.20000000000002;4,208.79999999999998;6,174;6,174
+
+[LINE]
+Speaker439: Jeg har  ikke  en mand.     Jeg har  en meget besværlig kone!
+~           I   have don't a  husband   I   have a  very  difficult wife 
+$1256/speech_1256_14.mp3;3,0;4,181.0285714285714;5,181.0285714285714;3,226.28571428571433;5,135.7714285714285;6,316.79999999999995;4,181.0285714285717;3,181.02857142857124;6,135.7714285714285;10,271.5428571428572;5,452.5714285714289
+
+[LINE]
+Speaker439: Hun vil~ikke~tage            til København       med  mig.
+~           She doesn't~want~to~go       to  Copenhagen      with me  
+$1256/speech_1256_15.mp3;3,0;4,114.9090909090909;5,114.9090909090909;5,143.63636363636363;10,316.00000000000006;10,114.90909090909088;9,430.9090909090909;4,114.90909090909099
+
+[MULTIPLE_CHOICE]
+> Helena's wife…
++ … doesn't want to go to København with her.
+- … is in the taxi with her.
+- … is already in København.
+
+[LINE]
+Speaker439: Jeg er meget ked~af~det.
+~           I   am very  sad        
+$1256/speech_1256_17.mp3;3,0;3,142.76923076923077;6,107.07692307692307;4,214.15384615384616;3,142.76923076923083;4,107.07692307692298
+
+[LINE]
+Speaker113: Åh...  Det~er~jeg~ked~af~at~høre.
+~           Ah…    I'm~sorry                 
+$1256/speech_1256_18.mp3;2,0;7,155.52;3,103.67999999999998;4,77.76000000000005;4,103.67999999999995;3,103.68000000000006;3,77.75999999999999;5,77.75999999999988
+
+[LINE]
+Speaker113: Nå…|      vi  er   ved lufthavnen. 
+~           Well…     we  are  in  the~airport 
+$1256/speech_1256_19.mp3;3,0;6,188.71232876712327;4,107.83561643835617;5,107.83561643835617;11,107.83561643835617
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "runs."
+> En (kvinde) med   en   (kuffert)   (+løber) henimod      (taxien).
+~ A   woman   with  a     suitcase     runs   toward~the    taxi    
+$1256/speech_1256_20.mp3;2,0;7,130.02985074626864;4,303.4029850746268;4,216.71641791044777;10,216.71641791044772;7,390.08955223880605;8,260.0597014925372;9,433.43283582089566
+
+[LINE]
+Speaker439: Kris?
+$1256/speech_1256_21.mp3;4,0
+
+[LINE]
+Speaker1186: Helena!
+$1256/speech_1256_22.mp3;6,0
+
+[LINE]
+Speaker1186: Jeg~er så ked~af~det!
+~            I'm    so sorry      
+$1256/speech_1256_23.mp3;3,0;3,216;3,162;4,162;3,216;4,162
+
+[LINE]
+Speaker1186: Jeg elsker dig.
+~            I   love   you 
+$1256/speech_1256_24.mp3;3,0;7,240;4,420
+
+[LINE]
+Speaker439: Jeg elsker også dig.
+~           I   love   too  you 
+$1256/speech_1256_25.mp3;3,0;7,120.68571428571428;5,211.20000000000002;4,150.85714285714283
+
+[LINE]
+Speaker1186: Lad~os tage til København! 
+~            Let's  go   to  Copenhagen 
+$1256/speech_1256_26.mp3;3,0;3,228.2926829268293;5,171.21951219512198;4,285.36585365853654;10,228.29268292682934
+
+[LINE]
+Speaker113: Nyd      jeres bryllupsrejse!
+~           Enjoy    your  honeymoon     
+$1256/speech_1256_27.mp3;3,0;9,256;14,219.42857142857144
+
+[MULTIPLE_CHOICE]
+> What happened when Helena got to the airport?
++ Her wife, Kris, apologized and told her she loved her.
+- Her taxi driver agreed to go on vacation with her.
+- Her wife, Kris, called her on the phone.
+
+[MATCH]
+> Tap the pairs
+- Hun <> she
+- godmorgen <> good morning
+- din <> your
+- bryllupsrejse <> honeymoon
+- Det er ikke ferie <> it's not vacation
+
