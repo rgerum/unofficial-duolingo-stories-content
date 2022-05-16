@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=The Interview
+icon=e3c4951a636e72c3f82ef749d5fbf2e61d51628d
+set=2|4
+
+icon_Speaker392=https://stories-cdn.duolingo.com/image/3efc9f39ba59f0e08d66317272db579e976fc47f.svg
+icon_Speaker391=https://stories-cdn.duolingo.com/image/883741c5440a7570841a156052c1ba8af930ff28.svg
+speaker_Speaker392=Tatyana
+speaker_Speaker391=Maxim
+
+[HEADER]
+> Собеседование
+~ the~interview
+$646/speech_646_0.mp3;13,6
+
+[LINE]
+SpeakerSpeaker392: Добрый~день!
+~                  good~day    
+$646/speech_646_1.mp3;6,6;5,343
+
+[LINE]
+SpeakerSpeaker391: Здравствуйте! Мне~нужна одежда. 
+~                  hello         I~need    clothes 
+$646/speech_646_2.mp3;12,6;5,1382;6,366;7,411
+
+[MULTIPLE_CHOICE]
+> The man needs clothes.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+SpeakerSpeaker392: Хорошо, что  именно  Вам    надо?     
+~                  well    what exactly to~you is~needed 
+$646/speech_646_4.mp3;6,6;5,831;7,227;4,338;5,147
+
+[LINE]
+SpeakerSpeaker392: У~нас~есть туфли и   пиджаки.
+~                  we~have    shoes and jackets 
+$646/speech_646_5.mp3;1,6;4,69;5,262;6,218;2,399;8,41
+
+[MULTIPLE_CHOICE]
+> The clerk is saying they sell…
+- … bikes and skateboards.
++ … shoes and jackets.
+- … cups and glasses.
+
+[LINE]
+SpeakerSpeaker391: Мне~нужен пиджак.  
+~                  I~need    a~jacket 
+$646/speech_646_7.mp3;3,6;6,272;7,353
+
+[LINE]
+SpeakerSpeaker391: Мне~нравится этот~пиджак.
+~                  I~like       this~jacket 
+$646/speech_646_8.mp3;3,6;9,231;5,476;7,231
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "this."
+> (Мне) (нравится) (+этот) (пиджак).
+$646/speech_646_9.mp3;3,6;9,231;5,476;7,231
+
+[LINE]
+SpeakerSpeaker392: Он    очень хороший!
+~                  it~is very  good    
+$646/speech_646_10.mp3;2,6;6,222;8,344
+
+[ARRANGE]
+> Tap what you hear
+SpeakerSpeaker391: [(И) (мне) (нужны) (туфл)]и.
+~                    и   мне   нужны   туфли   
+$646/speech_646_11.mp3;1,6;4,144;6,262;6,423
+
+[LINE]
+SpeakerSpeaker392: Хорошо!    Для~какого~случая они~Вам~нужны? 
+~                  Very~well  For~what~occasion do~you~need~it 
+$646/speech_646_12.mp3;6,6;5,981;7,211;7,479;4,472;4,195;6,169
+
+[LINE]
+SpeakerSpeaker391: У~меня собеседование.
+~                  I~have an~interview  
+$646/speech_646_13.mp3;1,6;5,122;14,277
+
+[MULTIPLE_CHOICE]
+> Why does the man need new clothes?
+- He has a date.
+- He lost all of his old clothes.
++ He has a job interview.
+
+[LINE]
+SpeakerSpeaker392: Хорошо, а   где   у~Вас       собеседование?
+~                  well    and where do~you~have the~interview 
+$646/speech_646_15.mp3;6,6;3,833;4,51;2,249;4,76;14,203
+
+[LINE]
+SpeakerSpeaker391: В~моём~любимом~магазине.
+~                  in~my~favorite~store    
+$646/speech_646_16.mp3;1,6;5,97;8,342;9,606
+
+[LINE]
+SpeakerSpeaker392: В~Вашем~любимом~магазине?
+~                  in~your~favorite~store   
+$646/speech_646_17.mp3;1,6;6,67;8,354;9,498
+
+[LINE]
+SpeakerSpeaker391: Да,  в~этом~магазине!
+~                  yes  in~this~store   
+$646/speech_646_18.mp3;2,6;3,621;5,186;9,303
+
+[MULTIPLE_CHOICE]
+> Where is the man's job interview?
+- At an office nearby.
+- At a hospital.
++ At the store he was shopping in.
+
+[MATCH]
+> Tap the pairs
+- собеседование <> the interview
+- в <> in
+- одежда <> clothes
+- мой любимый магазин <> my favorite store
+- магазин <> store
+
