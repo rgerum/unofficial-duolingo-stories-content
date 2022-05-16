@@ -1,0 +1,161 @@
+[DATA]
+fromLanguageName=Surprise!
+icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
+set=1|4
+
+speaker_Narrator=Ewa
+speaker_Speaker105=Maja
+speaker_Speaker104=Jacek
+speaker_Speaker106=Ewa
+
+[HEADER]
+> Surprizo!
+~ surprise 
+$1157/speech_1157_0.mp3;8,6
+
+[LINE]
+> Jozefo estas en restoracio kun  sia patrino.
+~ ~      is    in restaurant with his mother  
+$1157/speech_1157_1.mp3;6,6;6,457;3,412;11,124;4,821;4,223;8,262
+
+[LINE]
+Speaker559: Tablo por tri,   bonvolu.
+~           table for three  please  
+$1157/speech_1157_2.mp3;5,6;4,369;4,242;9,557
+
+[LINE]
+Speaker385: Tri?   Vi,  mi, kaj?
+~           Three  You  I   and 
+$1157/speech_1157_3.mp3;3,6;4,713;4,612;5,631
+
+[LINE]
+Speaker559: Amiko. 
+~           friend 
+$1157/speech_1157_4.mp3;5,6
+
+[MULTIPLE_CHOICE]
+> Who else is coming to dinner?
+- Jozefo's brother.
++ A friend of Jozefo's mother.
+- Jozefo's father.
+
+[LINE]
+Speaker385: Mi bezonas …
+~           I  need     
+$1157/speech_1157_6.mp3;2,6;8,288
+
+[LINE]
+Speaker559: Mi havas surprizon!
+~           I  have  surprise  
+$1157/speech_1157_7.mp3;2,6;6,195;10,413
+
+[LINE]
+Speaker385: Ankaŭ mi havas surprizon.
+~           also  I  have  surprise  
+$1157/speech_1157_8.mp3;5,6;3,441;6,247;10,535
+
+[ARRANGE]
+> Tap what you hear
+Speaker559: [(Mia) (amiko)  (estas) (tre)  (agrabla)].
+~             My    friend   is      very   nice      
+$1157/speech_1157_9.mp3;3,6;6,282;6,499;4,411;8,192
+
+[LINE]
+Speaker559: Ŝi  estas komerca  studento.
+~           she is    business student  
+$1157/speech_1157_10.mp3;2,6;6,77;8,386;9,573
+
+[LINE]
+Speaker559: Ŝia nomo estas Aleksiso.
+~           her name is    ~        
+$1157/speech_1157_11.mp3;3,6;5,158;6,350;9,423
+
+[LINE]
+Speaker385: Panjo, mi bezonas …
+~           mom    I  need     
+$1157/speech_1157_12.mp3;5,6;4,580;8,286
+
+[LINE]
+Speaker559: Kaj ŝi  estas bela!      Perfekta por mia filo!
+~           and she is    beautiful  perfect  for my  son  
+$1157/speech_1157_13.mp3;3,6;3,169;6,275;5,371;10,858;4,473;4,188;5,300
+
+[MULTIPLE_CHOICE]
+> Jozefo's mother wants…
++ … Jozefo to go out with her friend, Aleksiso.
+- … Jozefo to leave the restaurant.
+- … to make a new friend.
+
+[LINE]
+> Virino eniras la  restoracion.
+~ woman  enters the restaurant  
+$1157/speech_1157_15.mp3;6,6;7,608;3,563;12,127
+
+[LINE]
+Speaker125: Saluton, karulo!
+~           hello    honey  
+$1157/speech_1157_16.mp3;7,6;8,1055
+
+[LINE]
+Speaker559: Karulo?
+~           honey  
+$1157/speech_1157_17.mp3;6,6
+
+[MULTIPLE_CHOICE]
+> Why is Jozefo's mother surprised?
+- The food they ordered arrived quickly.
++ She didn't know Jozefo was in a relationship.
+- Jozefo left the restaurant.
+
+[LINE]
+Speaker385: Saluton, Saro. Pajno …
+~           hello    ~     mom    
+$1157/speech_1157_19.mp3;7,6;6,845;7,848
+
+[LINE]
+Speaker125: Jozefo, ĉu ĉi~tiu estas via  patrino?
+~           ~       ~  this   is    your mother  
+$1157/speech_1157_20.mp3;6,6;4,882;3,126;4,248;6,375;4,380;8,213
+
+[LINE]
+Speaker559: Jozefo?!
+$1157/speech_1157_21.mp3;6,6
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker125: [Kiel vi  fartas]?
+~            how  you feel    
+$1157/speech_1157_22.mp3;4,6;3,202;7,398
+- Kiel vi estas
+- Kiu vi estas
++ Kiel vi fartas
+
+[LINE]
+Speaker125: Mi estas Saro! La  edzino de Jozefo.
+~           I  am    ~     the wife   of ~      
+$1157/speech_1157_23.mp3;2,6;6,232;5,364;4,885;7,120;3,271;7,115
+
+[LINE]
+Speaker559: Edzino?!
+~           wife    
+$1157/speech_1157_24.mp3;6,6
+
+[LINE]
+Speaker385: Surprizo!
+~           surprise 
+$1157/speech_1157_25.mp3;8,6
+
+[MULTIPLE_CHOICE]
+> What was Jozefo's surprise?
+- He wants to marry his mom's friend.
++ He is married to Saro.
+- He never wants to get married.
+
+[MATCH]
+> Selecciona los pares
+- nomo <> name
+- entiras la <> enters the
+- filo <> son
+- en <> in
+- via <> your
+
