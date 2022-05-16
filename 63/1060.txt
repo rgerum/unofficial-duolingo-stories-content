@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=No Museu
+icon=09fc3d3f2b5acf538364fe21f1b5ab3a457b1d7b
+set=1|5
+
+[HEADER]
+> En~el  museo
+~ no     museu
+$1060/speech_1060_0.mp3;2,6;3,186;7,132
+
+[LINE]
+> Carmen está en~un museo  con  su    abuelo.
+~ ~      ~    num   museu  com  o~seu avó    
+$1060/speech_1060_1.mp3;6,6;5,399;3,322;3,171;6,147;5,451;4,203;7,231
+
+[LINE]
+Speaker1320: ¡Qué interesante!
+$1060/speech_1060_2.mp3;0,6;4,193
+
+[LINE]
+Speaker1320: ¡Hay fotos del pasado! 
+~             há  ~     do  passado 
+$1060/speech_1060_3.mp3;0,6;4,202;6,443;4,147
+
+[MULTIPLE_CHOICE]
+> No museu, há fotos do passado.
+- Não, isso não é correito.
++ Sim, isso é verdade!
+
+[LINE]
+Speaker2474: Sí,   es Santiago de Chile.
+~            sim   é  ~        ~  ~     
+$1060/speech_1060_5.mp3;2,6;5,642;9,184;3,651;6,115
+
+[LINE]
+Speaker1320: ¡No  hay carros!
+~             não há  ~      
+$1060/speech_1060_6.mp3;0,6;3,276;4,154
+
+[SELECT_PHRASE]
+> Selecione a frase que falta
+Speaker1320: [Y aquí],   una foto    de estudiantes de medicina.
+~             e aqui     uma ~       ~  estudantes  ~  ~        
+$1060/speech_1060_7.mp3;1,6;5,188;7,577;5,280;6,337;12,150;3,739;9,102
++ Y aquí
+- Es así
+- Sí metí
+
+[LINE]
+Speaker2474: Sí,   es    la Universidad  de Chile.
+~            sim   é     a  universidade ~  ~     
+$1060/speech_1060_8.mp3;2,6;5,642;6,205;12,135;3,758;6,94
+
+[LINE]
+Speaker1320: ¡Hay una mujer  en~la  foto!
+~             há  uma mulher na     ~    
+$1060/speech_1060_9.mp3;0,6;4,263;4,163;6,374;3,115;3,138
+
+[LINE]
+Speaker1320: Solo una mujer… 
+~            só   uma mulher…
+$1060/speech_1060_10.mp3;4,6;4,376;7,258
+
+[MULTIPLE_CHOICE]
+> A Carmen disse que…
+- … ela só conhece uma mulher.
+- … ela vê cinco mulheres na foto velha
++ … ela só vê uma mulher na foto.
+
+[LINE]
+Speaker1320: ¡Qué inteligente! ¡Y   qué importante!
+~             ~   ~             e   ~   ~          
+$1060/speech_1060_12.mp3;0,6;4,193;12,1318;4,143;6,221
+
+[POINT_TO_PHRASE]
+> Selecione a opção que significa "olha para."
+> El (abuelo) de Carmen  (+mira)          (la)  (foto). No  habla.
+~ o   avó     ~  ~         olha~para       a     ~      não fala  
+$1060/speech_1060_13.mp3;2,10;7,113;3,469;7,109;6,413;7,313;6,125;4,514;6,587;1,255
+
+[LINE]
+Speaker1320: ¿Abuelo?
+~             avó    
+$1060/speech_1060_14.mp3;0,6
+
+[LINE]
+Speaker2474: Ella es muy    bonita…
+~            ela  é  muita  ~      
+$1060/speech_1060_15.mp3;4,6;3,307;4,211;9,216
+
+[LINE]
+Speaker1320: Sí,   es     muy    bonita.
+~            sim   é      muita  ~      
+$1060/speech_1060_16.mp3;2,6;5,642;8,218;8,216
+
+[ARRANGE]
+> Toque o que você ouve
+Speaker2474: [(Ella) (es) (mi)      (abuela)].
+~              ela    é    a~minha   avô      
+$1060/speech_1060_17.mp3;4,6;3,307;3,212;7,144
+
+[LINE]
+Speaker1320: ¡Guau!
+~             uau  
+$1060/speech_1060_18.mp3;0,6
+
+[LINE]
+Speaker1320: ¡Tengo  una familia muy    interesante!
+~             tenho  uma família muito  ~           
+$1060/speech_1060_19.mp3;0,6;6,306;5,228;8,521;4,209
+
+[MULTIPLE_CHOICE]
+> O que aconteceu na historia?
++ O avó da Carmen viu uma foto da sua avô.
+- A Carmen não gostou do visito ao museu.
+- A Carmen viu uma foto do seu avó no museu.
+
+[MATCH]
+> Toque os pares
+- Sí <> sim
+- muy <> muito
+- del <> do
+- abuelo <> avó
+- mujer <> mulher
+
