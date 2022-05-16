@@ -1,0 +1,141 @@
+[DATA]
+fromLanguageName=A Date
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+speaker_Filip=Filip
+speaker_Jovana=Jovana
+speaker_Ana=Ana
+
+[HEADER]
+> Sastanak
+~ A~date  
+
+[LINE]
+> Jovana je u  restoranu,    ima~sastanak.    
+~ ~      is in a~restaurant  (she)~has~a~date 
+
+[LINE]
+Speaker100: Šta  ćeš           jesti? 
+~           What do~(you)~will to~eat 
+
+[MULTIPLE_CHOICE]
+> Jovana's date is asking…
+- … where to find the restaurant.
+- … how much the food costs.
++ … what Jovana wants to eat.
+
+[LINE]
+Speaker336: Salatu. 
+~           A~salad 
+
+[LINE]
+Speaker336: Ja ne~jedem  meso.
+~           I  don't~eat meat 
+
+[LINE]
+Speaker100: Jesi~li   vegetarijanka? 
+~           Are~(you) vegetarian~(f) 
+
+[LINE]
+Speaker336: Jesam.
+~           Yes   
+
+[LINE]
+Speaker100: I~ja!  
+~           Me~too 
+
+[MULTIPLE_CHOICE]
+> Why did he say that?
+- He hates salads.
++ He is also a vegetarian.
+- He loves to eat meat.
+
+[LINE]
+Speaker336: O,  sjajno!
+~           Oh  great  
+
+[LINE]
+Speaker336: Jesi~li   Srbin?  
+~           Are~(you) Serbian 
+
+[ARRANGE]
+> Tap what you hear
+Speaker100: [(Nisam), (ja)  (sam) (Nemac)]. 
+~             No       (I)   am    German   
+
+[LINE]
+Speaker100: Moj otac   je Kanađanin, a         moja majka  je Špankinja.  
+~           My  father is Canadian   and~(but) my   mother is Spanish~(f) 
+
+[LINE]
+Speaker336: Ja sam Kanađanka!   
+~           I  am  Canadian~(f) 
+
+[LINE]
+Speaker100: Volim    Kanadu!
+~           (I)~love Canada 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker100: Da~li  imaš [kućnog ljubimca], Ana?
+~           Do~you have  a~pet  ~          ~   
+- kućni ljubimac
+- kućnim ljubimcem
++ kućnog ljubimca
+
+[LINE]
+Speaker336: Da,  imam     tri   mačke i…  
+~           Yes  (I)~have three cats  and…
+
+[LINE]
+> Jovana je iznenađena.   
+~ ~      is surprised~(f) 
+
+[LINE]
+Speaker336: Ana?! Ja~se~zovem Jovana.
+~           ~     My~name~is  ~      
+
+[LINE]
+Speaker336: A   da~li~se~ti~zoveš Filip?
+~           And is~your~name      ~     
+
+[LINE]
+Speaker100: Ne, ja sam Pavle!
+~           No  I  am  ~     
+
+[MULTIPLE_CHOICE]
+> Jovana and Pavle were supposed to meet different people.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+> Jedna žena  stiže   u      restoran.  
+~ A     woman arrives at~the restaurant 
+
+[LINE]
+Speaker101: Ćao! Jesi~li Pavle? Ja sam Ana.
+~           Hi   Are~you ~      I  am  ~   
+
+[LINE]
+Speaker100: Ne…| ja~se~zovem Filip.
+~           No…  my~name~is  ~     
+
+[MULTIPLE_CHOICE]
+> At the end of the story, Pavle…
+- … was tired of talking to Jovana.
++ … lied to his real date because he likes Jovana.
+- … met someone named Filip.
+
+[MATCH]
+> Tap the pairs
+- otac <> father
+- majka <> mother
+- mačke <> cats
+- da <> yes
+- ja <> I
+- Srbin <> Serbian
+- meso <> meat
+- ja se zovem <> my name is
+- Kanađanin/Kanađanka <> Canadian (m/f)
+
