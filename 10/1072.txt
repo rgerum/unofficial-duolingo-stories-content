@@ -1,0 +1,169 @@
+[DATA]
+fromLanguageName=The Train Ticket
+icon=1cad8a6eda3c353f9c7c98e338cb8fc3d211644d
+set=4|6
+
+speaker_Speaker400=Carla
+speaker_Speaker401=Giorgio
+
+[HEADER]
+> Il  biglietto~del~treno
+~ the train~ticket       
+$1072/speech_1072_0.mp3;2,6;10,147;4,477;6,200
+
+[LINE]
+> Camilla è  in un ristorante.
+~ ~       is in a  restaurant 
+$1072/speech_1072_1.mp3;7,6;2,395;3,98;3,155;11,92
+
+[LINE]
+> Lei parla~con il  cameriere, Matteo.
+~ she talks~to  the waiter     ~      
+$1072/speech_1072_2.mp3;3,6;6,368;4,412;3,178;10,141;8,867
+
+[LINE]
+Speaker1715: Bene, io~vado   alla   stazione~del~treno.
+~            well  I'm~going to~the train~station      
+$1072/speech_1072_3.mp3;4,6;4,649;5,204;5,269;9,144;4,680;6,173
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker526: [Dove  vai]?          
+~            Where are~you~going  
+$1072/speech_1072_4.mp3;4,6;4,315
++ Dove vai
+- Come stai
+- Cosa fai
+
+[LINE]
+Speaker1715: A  Torino.
+~            to ~      
+$1072/speech_1072_5.mp3;1,6;7,128
+
+[LINE]
+Speaker526: Wow! Io sono di   Torino!
+~           wow  I  am   from ~      
+$1072/speech_1072_6.mp3;3,6;4,796;5,171;3,276;7,114
+
+[LINE]
+Speaker1715: Ah, sì? 
+~            ~   yes 
+$1072/speech_1072_7.mp3;2,6;4,477
+
+[ARRANGE]
+> Tap what you hear
+Speaker526: [(Voglio) (visitare) (la~mia) (famiglia ……)…
+~             I~want   to~visit   my       family   …   
+$1072/speech_1072_8.mp3;6,6;9,281;3,495;4,106;9,160
+
+[LINE]
+Speaker526: …| però i   biglietti sono troppo cari.     
+~           …  but  the tickets   are  too    expensive 
+$1072/speech_1072_9.mp3;1,6;5,247;2,332;10,45;5,484;7,263;5,330
+
+[LINE]
+Speaker1715: Sì,  è~vero.     
+~            yes  that's~true 
+$1072/speech_1072_10.mp3;2,6;3,560;5,140
+
+[MULTIPLE_CHOICE]
+> What does Camilla mean?
+- She thinks train tickets are cheap.
++ That it's true, train tickets are very expensive.
+- She doesn't think Mateo should visit his family.
+
+[LINE]
+Speaker526: Perché vai           a  Torino?
+~           why    are~you~going to ~      
+$1072/speech_1072_12.mp3;6,6;4,252;2,269;7,77
+
+[LINE]
+Speaker1715: Per un colloquio~di~lavoro.
+~            for a  job~interview       
+$1072/speech_1072_13.mp3;3,6;3,158;10,109;3,554;7,102
+
+[MULTIPLE_CHOICE]
+> Camilla is going to Torino for…
+- … her wedding.
+- … her first day of college.
++ … a job interview.
+
+[LINE]
+Speaker1715: Però non~voglio   lavorare a  Torino.
+~            but  I~don't~want to~work  in ~      
+$1072/speech_1072_15.mp3;4,6;4,368;7,233;9,345;2,481;7,62
+
+[LINE]
+Speaker526: Ah?!
+$1072/speech_1072_16.mp3;2,6
+
+[LINE]
+Speaker1715: Voglio stare qui,  vicino~alla mia famiglia.
+~            I~want to~be here  near        my  family   
+$1072/speech_1072_17.mp3;6,6;6,325;4,403;8,504;5,482;4,139;9,237
+
+[LINE]
+Speaker526: Ah!
+$1072/speech_1072_18.mp3;2,6
+
+[LINE]
+Speaker1715: Vuoi…|        il mio    biglietto?
+~            do~you~want…  my ticket ~         
+$1072/speech_1072_19.mp3;5,6;3,828;4,145;10,179
+
+[LINE]
+Speaker526: Cosa?
+~           what 
+$1072/speech_1072_20.mp3;4,6
+
+[CONTINUATION]
+> What comes next?
+Speaker1715: Per~visitare [la          tua famiglia].
+~            to~visit      your~family ~   ~         
+$1072/speech_1072_21.mp3;3,6;9,191;3,590;4,138;9,201
+- un colloquio
+~ an interview
+- il mio    biglietto
+~ my ticket ~        
++ la~tua~famiglia
+~ your~family    
+
+[LINE]
+Speaker526: Sì!   Grazie!   
+~           yes   thank~you 
+$1072/speech_1072_22.mp3;2,6;9,727
+
+[LINE]
+Speaker1715: Ah, ma  il  treno parte  fra~un'ora. 
+~            ~   but the train leaves in~one~hour 
+$1072/speech_1072_23.mp3;2,6;4,490;3,193;6,82;6,457;4,425;7,252
+
+[LINE]
+Speaker1715: E   tu  devi~lavorare.
+~            and you have~to~work  
+$1072/speech_1072_24.mp3;1,6;3,84;5,221;9,319
+
+[LINE]
+Speaker526: No, va~bene!  
+~           ~   that's~OK 
+$1072/speech_1072_25.mp3;2,6;4,473;5,169
+
+[LINE]
+Speaker526: Io non~voglio lavorare qui! 
+~           I  don't~want to~work  here 
+$1072/speech_1072_26.mp3;2,6;4,152;7,161;9,306;4,406
+
+[MULTIPLE_CHOICE]
+> What is Matteo going to do?
+- Work at the restaurant with Camilla.
++ Quit his job and use Camilla's ticket to go to Torino.
+- Buy a train ticket to Rome.
+
+[MATCH]
+> Tap the pairs
+- Dove vai <> where are you going
+- Il <> the
+- qui <> here
+- Grazie <> thank you
+- visitare <> to visit
+
