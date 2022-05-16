@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=The Store
+icon=e3c4951a636e72c3f82ef749d5fbf2e61d51628d
+set=2|4
+
+icon_Radha=https://stories-cdn.duolingo.com/image/3efc9f39ba59f0e08d66317272db579e976fc47f.svg
+icon_Satish=https://stories-cdn.duolingo.com/image/883741c5440a7570841a156052c1ba8af930ff28.svg
+
+[HEADER]
+> ~दुकान~में~एक~काम!  
+~ ~A~job~in~the~store 
+$661/speech_661_0.mp3;0,6;6,475;4,246;3,257
+
+[LINE]
+SpeakerRadha: सुप्रभात!    
+~             Good~morning 
+$661/speech_661_1.mp3;8,6
+
+[LINE]
+SpeakerSatish: नमस्ते!
+~              Hello  
+$661/speech_661_2.mp3;6,6
+
+[LINE]
+SpeakerRadha: आपको     कोई मदद  चाहिए?
+~             (Do)~you any help need  
+$661/speech_661_3.mp3;4,6;4,450;4,279;6,353
+
+[MULTIPLE_CHOICE]
+> The store employee is asking the man if he needs help.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+SpeakerSatish: हाँ, कृप्या! मुझे नये कपड़े   चाहिए!
+~              Yes  please  I    new clothes need  
+$661/speech_661_5.mp3;3,6;8,699;6,983;4,414;6,252;6,421
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "please."
+> (हाँ), (+कृप्या)! (मुझे) (नये) (कपड़े) (चाहिए)!
+$661/speech_661_6.mp3;3,6;8,699;6,983;4,414;6,252;6,421
+
+[LINE]
+SpeakerRadha: आपको क्या चाहिए?
+~             You  what need  
+$661/speech_661_7.mp3;4,6;5,447;6,237
+
+[LINE]
+SpeakerRadha: हमारे~पास कुछ  जूते,  कुछ  कमीज़ें...
+~             We~have   some shoes  some shirts    
+$661/speech_661_8.mp3;5,6;4,519;4,397;5,250;5,780;8,255
+
+[ARRANGE]
+> Click the words in the correct order:
+SpeakerSatish: [(मुझे) (एक) (नई)      (कमीज़) (चाहिए)]..
+~                I      a    new~(f)   shirt   need     
+$661/speech_661_9.mp3;4,6;3,382;3,244;6,255;6,429
+
+[SELECT_PHRASE]
+> Click the correct word:
+SpeakerSatish: और  यह   बहुत   [सुंदर]     है!
+~              And this really  beautiful  is 
+$661/speech_661_10.mp3;2,6;3,160;5,252;6,374;3,440
++ सुंदर
+- जूते
+- महँगे
+
+[LINE]
+SpeakerSatish: और  मुझे नये जूते  भी   चाहिए!
+~              And I    new shoes also need  
+$661/speech_661_11.mp3;2,6;5,227;4,382;5,294;3,381;6,212
+
+[LINE]
+SpeakerRadha: ठीक~है! आपको ये    कपड़े   क्यों चाहिए?
+~             Okay    You  these clothes why   need  
+$661/speech_661_12.mp3;3,6;3,316;6,751;3,429;6,103;6,425;6,240
+
+[LINE]
+SpeakerSatish: मेरे नये काम के~लिए!
+~              My   new job for    
+$661/speech_661_13.mp3;4,6;4,350;4,272;3,351;4,158
+
+[MULTIPLE_CHOICE]
+> Why does the man need new clothes?
+- He lost his old clothes.
++ For his new job.
+- For his date.
+
+[LINE]
+SpeakerRadha: आपका नया काम कहाँ  है?     
+~             Your new job where is~(it) 
+$661/speech_661_15.mp3;4,6;4,419;4,308;5,359;3,333
+
+[LINE]
+SpeakerSatish: मेरे सबसे~पसंदीदा दुकान में!
+~              My   favourite    store in  
+$661/speech_661_16.mp3;4,6;5,375;8,482;6,747;4,478
+
+[LINE]
+SpeakerRadha: आपके सबसे~पसंदीदा दुकान में?
+~             Your favourite    store in  
+$661/speech_661_17.mp3;4,6;5,422;8,446;6,747;4,435
+
+[LINE]
+SpeakerSatish: हाँ, इस   दुकान में!
+~              Yes  this store in  
+$661/speech_661_18.mp3;3,6;4,678;6,198;4,472
+
+[MULTIPLE_CHOICE]
+> Where is the man's job interview?
++ At the store he was shopping in.
+- At an office nearby.
+- At a hospital.
+
+[MATCH]
+> Tap the pairs:
+- नया, नई,नये <> new (masc/ fem/ pl)
+- दुकान <> store/ shop
+- कृप्या <> please
+- काम <> work
+- सबसे पसंदीदा <> favourite
+
