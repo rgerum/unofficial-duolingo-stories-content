@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=A Big Family
+icon=9a2dcd1a9eaff04d1e9b4338e9afcead94c365bf
+set=2|3
+
+speaker_Moeder=Lotte
+speaker_Melissa=Lotte
+speaker_Olivia=Lotte
+
+[HEADER]
+> Een grote familie
+~ a   big   family 
+$924/speech_924_0.mp3;3,6;6,112;8,318
+
+[LINE]
+> Olivia ontmoet Melissa's familie.
+~ ~      meets   ~         family  
+$924/speech_924_1.mp3;6,6;8,577;10,313;8,548
+
+[MULTIPLE_CHOICE]
+> Olivia is meeting Melissa's family.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker341: Melissa! Mijn lievelingsdochter!
+~           ~        My   favorite~daughter 
+$924/speech_924_3.mp3;7,6;6,1049;18,241
+
+[LINE]
+Speaker125: Mama, je  hebt maar één dochter! 
+~           Mum   you have only one daughter 
+$924/speech_924_4.mp3;4,6;4,588;5,82;5,257;4,208;8,246
+
+[LINE]
+Speaker125: Dit  is mijn vriendin,   Olivia.
+~           This is my   girlfriend  Olivia 
+$924/speech_924_5.mp3;3,6;3,263;5,187;9,260;8,773
+
+[LINE]
+Speaker856: Hallo!
+~           Hello 
+$924/speech_924_6.mp3;5,5
+
+[LINE]
+Speaker125: Olivia, dit  is mijn broer,   Thomas.
+~           ~       this is my   brother  ~      
+$924/speech_924_7.mp3;6,6;5,915;3,194;5,188;6,229;8,623
+
+[LINE]
+Speaker856: Hoi!
+~           Hi  
+$924/speech_924_8.mp3;3,6
+
+[LINE]
+Speaker125: En  dit  is mijn oma.        
+~           And this is my   grandmother 
+$924/speech_924_9.mp3;2,6;4,132;3,213;5,160;4,234
+
+[LINE]
+Speaker856: Goedendag.
+~           Hello     
+$924/speech_924_10.mp3;9,6
+
+[LINE]
+Speaker125: Dit   zijn mijn vader  en  mijn broer,   David.
+~           These are  my   father and my   brother  ~     
+$924/speech_924_11.mp3;3,6;5,213;5,236;6,225;3,496;5,150;6,220;7,624
+
+[SELECT_PHRASE]
+> Finish the sentence.
+Speaker856: Hallo. Hoe [gaat het met jullie?]
+$924/speech_924_12.mp3;5,5;5,795;5,84;4,273;4,168;7,231
+- gaan met jullie?
++ gaat het met jullie?
+- ga jullie?
+
+[LINE]
+Speaker125: Mijn opa,         Dorian.
+~           My   grandfather  ~      
+$924/speech_924_13.mp3;4,6;4,274;8,610
+
+[LINE]
+Speaker856: Hallo!
+~           Hello 
+$924/speech_924_14.mp3;5,5
+
+[ARRANGE]
+> Put the words in the right order.
+Speaker856: [(Je) (hebt) (een) (grote) (familie)]
+$924/speech_924_15.mp3;2,6;5,107;4,287;6,138;8,454
+
+[LINE]
+Speaker341: Maar maar één dochter! 
+~           But  only one daughter 
+$924/speech_924_16.mp3;4,6;5,223;4,216;8,245
+
+[LINE]
+Speaker125: Mama!
+~           Mum  
+$924/speech_924_17.mp3;4,6
+
+[LINE]
+Speaker341: Ah, natuurlijk. Ik heb  nu  twee dochters! 
+~           Ah  of~course   I  have now two  daughters 
+$924/speech_924_18.mp3;2,6;12,427;4,1137;4,127;3,209;5,179;9,306
+
+[MULTIPLE_CHOICE]
+> What does Melissa's mother mean with 'ik heb nu twee dochters'?
+- She just gave birth to a second daughter.
++ She considers Olivia part of the family now.
+- She adopted a girl.
+
+[LINE]
+Speaker341: Welkom  in de  familie, Olivia!
+~           Welcome in the family   ~      
+$924/speech_924_20.mp3;6,6;3,489;3,161;8,72;8,712
+
+[LINE]
+Speaker856: Heel~erg~bedankt!   
+~           Thank~you~very~much 
+$924/speech_924_21.mp3;4,6;4,265;8,330
+
+[MULTIPLE_CHOICE]
+> After Odile was introduced to everyone...
+- ... Melissa's mother asked Olivia to leave.
++ ... Melissa's mother welcomed Olivia to her family.
+- ... she ran away quickly.
+
+[MATCH]
+> Tap the pairs.
+- oma <> grandmother
+- dochter <> daughter
+- opa <> grandfather
+- broer <> brother
+- vriendin <> (girl)friend
+
