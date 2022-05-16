@@ -1,0 +1,165 @@
+[DATA]
+fromLanguageName=Friends
+icon=743f08a1a28a5e27e7e78ba3c46443b92365789b
+set=2|10
+
+speaker_Narrator=da-DK-Wavenet-A
+speaker_Speaker353=da-DK-Wavenet-A
+speaker_Speaker354=da-DK-Wavenet-A
+
+[HEADER]
+> Veninder
+~ friends 
+$1288/speech_1288_0.mp3;8,0
+
+[LINE]
+Speaker101: Hej,   Trine!
+~           Hello  ~     
+$1288/speech_1288_1.mp3;3,0;7,212.30769230769232
+
+[LINE]
+Speaker1320: Hej,   Mille.
+~            Hello  ~     
+$1288/speech_1288_2.mp3;3,0;7,193.84615384615387
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker101: [Skal~vi~lave~lektier]? 
+~            Are~we~going~to~study  
+$1288/speech_1288_3.mp3;4,0;3,180;5,108;8,180
+- Skal vi spille leve
++ Skal vi lave lektier
+- Skal vi lave lækkert
+
+[LINE]
+Speaker1320: Jeg~er~ked~af~det, jeg har travlt.
+~            I'm~sorry          I   am  busy   
+$1288/speech_1288_4.mp3;3,0;3,154.77551020408163;4,116.0816326530612;3,154.77551020408168;4,116.08163265306115;5,193.46938775510205;4,154.77551020408168;7,154.77551020408146
+
+[LINE]
+Speaker1320: Jeg tager til storcenteret.
+~            I'm going to  the~mall     
+$1288/speech_1288_5.mp3;3,0;6,146.28571428571428;4,219.4285714285714;13,146.28571428571433
+
+[MULTIPLE_CHOICE]
+> Trine is busy because she's going to the mall.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker101: Men  du  kan~ikke~lide storcenteret…
+~           But  you don't~like    the~mall…    
+$1288/speech_1288_7.mp3;3,0;4,119.99999999999999;4,72.00000000000001;5,96;5,120;14,120
+
+[LINE]
+Speaker101: …| fordi     der      er   mange      mennesker.
+~           …  because   there    are  a~lot~of   people    
+$1288/speech_1288_8.mp3;1,49.75609756097561;6,199.02439024390245;6,174.1463414634146;6,99.51219512195132;7,199.0243902439023
+
+[LINE]
+Speaker1320: Ja… 
+~            Yes…
+$1288/speech_1288_9.mp3;3,0
+
+[LINE]
+Speaker101: Og   du  kan~ikke~lide   mennesker!
+~           And  you don't~like      people    
+$1288/speech_1288_10.mp3;2,0;4,134;4,100.50000000000003;5,133.99999999999997;5,167.5;12,234.5
+
+[MULTIPLE_CHOICE]
+> Why doesn't Trine like the mall?
++ Because there are too many people there.
+- Because it's always closed.
+- Because it's too far away.
+
+[LINE]
+Speaker1320: Ja,   men jeg har~brug~for at købe... noget.    
+~            Yes   but I   need         to buy…    something 
+$1288/speech_1288_12.mp3;2,0;6,140.93023255813952;4,112.74418604651166;4,112.74418604651157;5,112.74418604651163;4,140.93023255813955;3,112.74418604651157;5,84.55813953488382;9,225.48837209302326
+
+[LINE]
+Speaker101: Jeg vil~gerne tage    med  dig!
+~           I   want      to~go   with you 
+$1288/speech_1288_13.mp3;3,0;4,128.72727272727272;6,128.72727272727272;5,193.09090909090912;6,225.2727272727273;4,128.72727272727275
+
+[LINE]
+Speaker1320: Men…
+~            But…
+$1288/speech_1288_14.mp3;4,0
+
+[LINE]
+Speaker101: Vær~nu~sød!
+~           Please     
+$1288/speech_1288_15.mp3;3,0;3,155.0769230769231;4,116.30769230769226
+
+[LINE]
+Speaker1320: Okay.
+~            OK   
+$1288/speech_1288_16.mp3;4,0
+
+[LINE]
+> Mille  og   Trine tager til storcenteret.
+~ ~      and  ~     go    to  the~mall     
+$1288/speech_1288_17.mp3;5,0;4,293.2363636363636;7,167.56363636363642;6,251.34545454545452;4,251.34545454545446;13,167.56363636363642
+
+[LINE]
+Speaker1320: Åh, nej!
+~            Oh  no  
+$1288/speech_1288_18.mp3;2,0;5,141.91304347826087
+
+[ARRANGE]
+> Tap what you hear
+Speaker1320: [(Jeg~har~brug~for) (at~købe) (din)  (fødselsdagsgave)]  …
+~              I~need             to~buy    your   birthday~present   …
+$1288/speech_1288_19.mp3;3,0;4,112.17977528089887;5,112.17977528089887;4,140.22471910112358;3,112.17977528089892;5,84.13483146067409;4,140.2247191011237;16,112.17977528089887
+
+[LINE]
+Speaker1320: …| men  butikken    er lukket.
+~            …  but  the~store   is closed 
+$1288/speech_1288_20.mp3;1,48.67605633802817;4,121.69014084507043;10,267.71830985915494;5,73.01408450704224
+
+[LINE]
+Speaker1320: Jeg er en dårlig veninde.
+~            I   am a  bad    friend  
+$1288/speech_1288_21.mp3;3,0;3,153.60000000000002;3,115.19999999999993;7,115.20000000000005;8,268.79999999999995
+
+[MULTIPLE_CHOICE]
+> Trine thinks…
+- … the store is open.
+- … she's a good friend.
++ … she's a bad friend.
+
+[LINE]
+Speaker101: Trine,  du    kan~ikke~lide storcenteret.
+~           ~       you   don't~like    the~mall     
+$1288/speech_1288_23.mp3;5,0;5,335.1272727272727;6,209.4545454545455;5,167.5636363636363;5,209.4545454545455;13,209.45454545454538
+
+[LINE]
+Speaker101: Men ...du   er   her… 
+~           But    …you are  here…
+$1288/speech_1288_24.mp3;3,0;6,105.70786516853933;3,45.30337078651685;6,60.40449438202248
+
+[LINE]
+Speaker101: …| For~at            købe min fødselsdagsgave! 
+~           …  In~order~to       buy  my  birthday~present 
+$1288/speech_1288_25.mp3;1,56.674698795180724;4,113.34939759036143;3,255.03614457831324;11,141.68674698795184;4,113.34939759036138
+
+[LINE]
+Speaker101: Du   er   en  meget god  veninde!
+~           You  are  a   very  good friend  
+$1288/speech_1288_26.mp3;2,0;4,149.33333333333334;4,149.33333333333334;7,149.33333333333331;4,224;8,149.33333333333326
+
+[MULTIPLE_CHOICE]
+> Why does Mille think Trine is a good friend?
++ Because Trine went to the mall to buy her a birthday present.
+- Because Trine doesn't like people.
+- Because Trine's cooking her dinner.
+
+[MATCH]
+> Tap the pairs
+- veninde <> friend
+- Åh <> oh
+- noget <> something
+- du kan ikke lide <> you don't like
+- Ja <> yes
+
