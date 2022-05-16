@@ -1,0 +1,168 @@
+[DATA]
+fromLanguageName=The Tourist
+icon=c28cb69bf3836fd092352596d98fc29a300c70ce
+set=3|10
+
+speaker_Narrator=da-DK-Wavenet-A
+speaker_Speaker140=da-DK-Wavenet-A
+speaker_Speaker139=da-DK-Wavenet-C
+
+[HEADER]
+> Turisten   
+~ The~tourist
+$1318/speech_1318_0.mp3;8,0
+
+[LINE]
+> Aidan  besøger        København. 
+~ ~      is~visiting    Copenhagen 
+$1318/speech_1318_1.mp3;5,0;9,257.8604651162791;13,405.20930232558135
+
+[LINE]
+> Han har~brug~for hjælp til~at finde en park.
+~ He  needs        help  to     find  a  park 
+$1318/speech_1318_2.mp3;3,0;4,162.71186440677965;5,162.71186440677965;4,203.38983050847463;6,162.71186440677968;4,244.06779661016947;3,162.71186440677968;6,122.03389830508468;3,244.06779661016958;5,122.03389830508468
+
+[MULTIPLE_CHOICE]
+> Aidan is a tourist who needs help finding a park.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker2243: Undskyld, hvor  er    Kongens~Have?   
+~            Sorry     where is    The~King's~Park 
+$1318/speech_1318_4.mp3;8,0;6,401.6326530612245;3,200.81632653061223;11,240.97959183673458;5,321.30612244897975
+
+[LINE]
+Speaker856: Du   skal           tage  metroen.   
+~           You  need~to        take  the~subway 
+$1318/speech_1318_5.mp3;2,0;6,121.60000000000001;12,364.8;9,182.39999999999992
+
+[ARRANGE]
+> Tap what you hear
+Speaker856: [(Der)   (er~en) (station) (her)  (tæt~p)]å.
+~             There   is~a    station   here   nearby   
+$1318/speech_1318_6.mp3;3,0;3,178.9090909090909;3,134.18181818181816;8,134.1818181818182;4,357.81818181818187;4,178.90909090909088;3,178.909090909091
+
+[LINE]
+Speaker2243: Mange~tak!          
+~            Thank~you~very~much 
+$1318/speech_1318_7.mp3;5,0;4,213.12
+
+[LINE]
+Speaker856: Det~var~så~lidt.
+~           You're~welcome  
+$1318/speech_1318_8.mp3;3,0;4,117.6774193548387;3,117.6774193548387;5,88.25806451612905
+
+[LINE]
+Speaker856: Hvor  kommer du      fra? 
+~           Where are    you     from 
+$1318/speech_1318_9.mp3;4,0;7,164.21052631578945;3,229.8947368421053;8,229.89473684210526
+
+[LINE]
+Speaker2243: Jeg kommer fra   Dublin.
+~            I   am     from  Dublin 
+$1318/speech_1318_10.mp3;3,0;7,128.8421052631579;4,225.47368421052633;8,161.05263157894734
+
+[LINE]
+Speaker856: Åh, jeg elsker Dublin!
+~           Ah  I   love   Dublin 
+$1318/speech_1318_11.mp3;2,0;5,176.43243243243245;7,176.43243243243245;7,308.7567567567568
+
+[MULTIPLE_CHOICE]
+> How does she feel about Dublin?
++ She loves it.
+- She thinks it's a boring city.
+- She has never been there.
+
+[LINE]
+Speaker856: Jeg studerer irsk! 
+~           I   study    Irish 
+$1318/speech_1318_13.mp3;3,0;9,142.54545454545456;5,320.7272727272727
+
+[LINE]
+Speaker2243: Hvilket~sammentræf!
+~            What~a~coincidence 
+$1318/speech_1318_14.mp3;7,0;11,316.2352941176471
+
+[LINE]
+Speaker856: Er   du   på ferie?   
+~           Are  you  on vacation 
+$1318/speech_1318_15.mp3;2,0;4,132;4,132;6,99
+
+[LINE]
+Speaker2243: Nej, jeg er her        for~at~studere tysk.  
+~            No   I   am here       to~study       German 
+$1318/speech_1318_16.mp3;3,0;5,187.36842105263156;3,149.89473684210526;4,112.42105263157896;10,374.73684210526307;3,149.89473684210532;8,112.42105263157896;5,299.78947368421063
+
+[CONTINUATION]
+> What comes next?
+Speaker2243: Og  jeg~vil~også~gerne [kende byen]!    
+~            And I~also~want~to      know  the   city
+$1318/speech_1318_17.mp3;2,0;4,111.90361445783132;4,149.2048192771084;5,149.20481927710847;6,186.50602409638554;6,223.80722891566268;5,223.80722891566256
+- studere tysk  
+~ study   German
+- købe en ny  hat
+~ buy  a  new hat
++ kende byen    
+~ know  the~city
+
+[LINE]
+Speaker856: Godt!
+~           Good 
+$1318/speech_1318_18.mp3;4,0
+
+[LINE]
+Speaker856: Jeg~hedder  Andrea. Og    du? 
+~           My~name~is  ~       And   you 
+$1318/speech_1318_19.mp3;3,0;7,151.81395348837208;8,303.6279069767442;4,303.62790697674416;5,189.76744186046517
+
+[LINE]
+Speaker2243: Jeg~hedder Aidan.
+~            My~name~is ~     
+$1318/speech_1318_20.mp3;3,0;7,123;6,215.25
+
+[LINE]
+Speaker856: Dejligt at møde dig.
+~           Nice    to meet you 
+$1318/speech_1318_21.mp3;7,0;3,257.8285714285714;5,96.68571428571431;4,161.1428571428571
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "I would like."
+Speaker856: (+Jeg~ville~gerne)  (tale)     mere  (med~dig),   men (jeg~må)     af~sted.
+~             I~would~like       to~talk   more   with~you    but  I~have~to   go      
+$1318/speech_1318_22.mp3;3,0;6,168.64864864864865;6,252.97297297297303;6,295.1351351351351;6,252.9729729729729;5,252.97297297297303;4,168.64864864864853;6,252.9729729729729;4,168.64864864864876;3,168.64864864864853;4,168.64864864864853;5,126.48648648648668
+
+[LINE]
+Speaker856: Mine venner  er     i    parken.  
+~           My   friends are    in   the~park 
+$1318/speech_1318_23.mp3;4,0;7,182.72727272727272;3,255.81818181818178;5,219.27272727272737;9,146.18181818181813
+
+[LINE]
+Speaker2243: Åh...  Det~er~fint~nok.
+~            Ah…    That's~okay     
+$1318/speech_1318_24.mp3;2,0;7,161.72307692307695;3,107.8153846153846;5,80.86153846153849;4,134.76923076923077
+
+[LINE]
+Speaker856: Hmm.  Vil~du~gerne~med?   
+~           Hmm   Do~you~want~to~come 
+$1318/speech_1318_25.mp3;3,0;6,231.15789473684208;3,154.10526315789474;6,115.5789473684211;4,231.15789473684208
+
+[LINE]
+Speaker2243: Ja!  Selvfølgelig!
+~            Yes  Of~course    
+$1318/speech_1318_26.mp3;2,0;14,138
+
+[MULTIPLE_CHOICE]
+> Aidan happily accepted…
+- … going to Andrea's school.
+- … a plane ticket to Ireland.
++ … going to the park with Andrea.
+
+[MATCH]
+> Tap the pairs
+- Jeg <> I
+- til <> to
+- at tale <> to talk
+- min <> my
+- irsk <> Irish
+
