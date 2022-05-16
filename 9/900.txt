@@ -1,0 +1,171 @@
+[DATA]
+fromLanguageName=Every Day
+icon=7118252e70f96bc0ffa531032ec8c2efaf043e7b
+set=4|5
+
+speaker_Speaker349=Tatyana
+speaker_Speaker348=Maxim
+
+[HEADER]
+> Каждый день
+~ every  day 
+$900/speech_900_0.mp3;6,6;5,414
+
+[LINE]
+> Никита и   Лена в~ресторане.    
+~ ~      and ~    in~a~restaurant 
+$900/speech_900_1.mp3;6,6;2,523;5,57;2,280;10,74
+
+[LINE]
+Speaker338: Я обычно  ем  на~работе...
+~           I usually eat at~work…    
+$900/speech_900_2.mp3;1,6;7,190;3,391;3,218;7,122
+
+[LINE]
+Speaker338: но  эти   блюда  выглядят вкусно.   
+~           but these dishes look     delicious 
+$900/speech_900_3.mp3;2,6;4,190;6,193;9,342;7,465
+
+[MULTIPLE_CHOICE]
+> Lena thinks the dishes look delicious.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker440: Да  я очень     люблю этот ресторан!
+~           yes I very~much like  this restaurant  
+$900/speech_900_5.mp3;2,6;2,201;6,237;6,377;5,485;9,290
+
+[LINE]
+Speaker338: Я хочу пиццу   с~большим~количеством сыра.     
+~           I want a~pizza with~a~large~amount   of~cheese 
+$900/speech_900_6.mp3;1,6;5,162;6,345;2,310;8,75;12,454;5,630
+
+[LINE]
+Speaker440: Пицца     здесь вкусная.       
+~           the~Pizza here  (is)~delicious
+$900/speech_900_7.mp3;5,6;6,352;8,356
+
+[ARRANGE]
+> Tap what you hear
+Speaker338: [(Что)  (ты)  (будешь) (есть)]?
+~             What   you   will     eat     
+$900/speech_900_8.mp3;3,6;3,253;7,128;5,375
+
+[LINE]
+Speaker440: То   же           самое блюдо, которое я заказываю ежедневно.
+~           That (emphasizer) same  dish   which   I order     daily    
+$900/speech_900_9.mp3;2,6;3,127;6,166;6,518;9,748;2,454;10,162;10,638
+
+[LINE]
+Speaker338: И   какое блюдо ты~ешь       каждый день?
+~           And which dish  (do)~you~eat every  day  
+$900/speech_900_10.mp3;1,6;6,75;6,358;3,378;4,162;7,304;5,357
+
+[LINE]
+Speaker440: Бутерброд  без     мяса и   без     сыра.  
+~           a~sandwich without meat and without cheese 
+$900/speech_900_11.mp3;9,6;4,678;5,246;2,368;4,45;5,215
+
+[MULTIPLE_CHOICE]
+> How does Nikita normally have his sandwich?
+- With tuna and mayonnaise.
++ Without meat and without cheese.
+- With chicken and carrots.
+
+[LINE]
+Speaker338: Эээ... только хлеб?! 
+~           uh…    only   bread  
+$900/speech_900_13.mp3;3,6;10,958;5,307
+
+[MULTIPLE_CHOICE]
+> What is Lena asking?
++ If Nikita is basically only eating bread.
+- Which pizza Nikita recommends.
+- If he's allergic to cheese.
+
+[LINE]
+Speaker440: Нет, я не~люблю   хлеб. 
+~           no   I don't~like bread 
+$900/speech_900_15.mp3;3,6;3,664;3,252;6,116;5,391
+
+[CONTINUATION]
+> What comes next?
+Speaker440: Но,  я   обожаю      овощи      и   особенно   [помидоры]!
+~           But  I'm crazy~about vegetables and especially  tomatoes  
+$900/speech_900_16.mp3;2,6;3,556;7,245;6,588;2,391;9,25;9,429
+- хлеб 
+~ bread
+- мясо
+~ meat
++ помидоры
+~ tomatoes
+- сыр   
+~ cheese
+
+[LINE]
+Speaker440: Каждый день я ем  бутерброд  …
+~           every  day  I eat a~sandwich …
+$900/speech_900_17.mp3;6,6;5,386;2,332;3,150;10,242
+
+[LINE]
+Speaker440: без~мяса     и    без~хлеба…    
+~           without~meat and  without~bread…
+$900/speech_900_18.mp3;3,6;5,298;2,414;5,45;7,216
+
+[LINE]
+Speaker440: и   с~большим~количеством овощей        и   помидоров!    
+~           and with~lots             of~vegetables and (of)~tomatoes 
+$900/speech_900_19.mp3;1,6;2,86;8,106;12,524;7,798;2,572;10,42
+
+[LINE]
+Speaker338: Никита…
+$900/speech_900_20.mp3;7,6
+
+[LINE]
+Speaker440: Да?
+~           yes  
+$900/speech_900_21.mp3;2,6
+
+[LINE]
+Speaker338: Это    же           просто салат!
+~           That's (emphasizer) simply a~salad  
+$900/speech_900_22.mp3;3,6;3,194;7,121;6,368
+
+[MULTIPLE_CHOICE]
+> Lena is amused because Nikita's everyday dish…
+- … has too many calories.
++ … is basically just a salad.
+- … is not a vegetarian option.
+
+[MATCH]
+> Tap the pairs
+- Каждый <> every
+- день <> day
+- бутерброд <> a/the sandwich
+- я обожаю <> I'm crazy about
+- особенно <> especially
+- обычно <> usually
+- очень <> very/very much/really
+- этот ресторан <> this restaurant
+- на работе <> at work
+- сыр <> cheese
+- То <> That
+- блюдо <> dish
+- ежедневно <> daily
+
+[MATCH]
+> Tap the pairs
+- вкусная <> delicious (f)
+- вкусный <> delicious (m)
+- эти блюда выглядят вкусно <> these dishes look delicious
+- хлеб <> bread
+- мясо <> meat
+- помидоры <> tomatoes
+- овощи <> vegetables
+- просто <> simply/simple
+- без <> without
+- с <> with
+- с большим количеством <> with lots/with a large amount
+- я заказываю <> I order (I am ordering)
+
