@@ -1,0 +1,161 @@
+[DATA]
+fromLanguageName=Свидание
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+speaker_Speaker100=Mathieu
+speaker_Speaker101=Lea
+speaker_Speaker99=fr-FR-DeniseNeural
+speaker_Narrator=fr-FR-HortenseRUS
+
+[HEADER]
+> Un~rendez-vous
+~ Свидание      
+$966/speech_966_0.mp3;2,0;12,167.58620689655172
+
+[LINE]
+> Julie est         dans un~restaurant pour~un~rendez-vous.
+~ ~     (находится) в    ресторане     на~свидании         
+$966/speech_966_1.mp3;5,0;4,290.25;5,193.5;3,241.875;11,145.125;5,532.125;3,241.875;12,145.125
+
+[LINE]
+Speaker100: Qu'est-ce~que tu veux   commander?
+~           Что           ты хочешь заказать  
+$966/speech_966_2.mp3;9,6;4,234;3,113;5,170;10,167
+
+[MULTIPLE_CHOICE]
+> Поль спрашивает...
+- …где находится ресторан.
+- …сколько стоит еда.
++ …что Жюли хочет заказать.
+
+[LINE]
+Speaker336: Une~salade.
+~           Салат      
+$966/speech_966_4.mp3;3,0;7,265.84615384615387
+
+[LINE]
+Speaker336: Je ne~mange~pas de~viande.
+~           Я  не~ем        мясо      
+$966/speech_966_5.mp3;2,0;3,165.9512195121951;6,165.9512195121951;4,331.9024390243902;3,221.26829268292693;7,165.95121951219505
+
+[LINE]
+Speaker100: Tu  es      végétarienne?
+~           Ты  (есть)  вегетарианка 
+$966/speech_966_6.mp3;2,6;4,193;14,89
+
+[LINE]
+Speaker336: Oui...
+~           Да    
+$966/speech_966_7.mp3;3,0
+
+[LINE]
+Speaker100: Moi aussi!
+~           Я   тоже  
+$966/speech_966_8.mp3;3,6;6,245
+
+[MULTIPLE_CHOICE]
+> Что сказал Поль?
+- Он ненавидит салаты.
++ Он тоже вегетарианец.
+- Он любит мясо.
+
+[LINE]
+Speaker336: Vraiment? Super!  
+~           Правда    Отлично 
+$966/speech_966_10.mp3;8,0;7,952.258064516129
+
+[LINE]
+Speaker336: Tu  es      espagnol?
+~           Ты  (есть)  испанец  
+$966/speech_966_11.mp3;2,0;4,238.5;10,238.5
+
+[LINE]
+Speaker100: Non.
+~           Нет 
+$966/speech_966_12.mp3;3,6
+
+[LINE]
+Speaker100: Mon père est    français et ma  mère est    russe.  
+~           Мой отец (есть) француз  а  моя мать (есть) русская 
+$966/speech_966_13.mp3;3,6;5,185;4,249;9,66;3,444;3,78;5,148;4,269;6,64
+
+[LINE]
+Speaker336: Je suis   française!  
+~           Я  (есть) француженка 
+$966/speech_966_14.mp3;2,0;5,183.27272727272728;10,305.4545454545455
+
+[ARRANGE]
+> Выберите верный порядок слов
+Speaker100: [(J'|) (adore)  (la~France)].
+~             Я     обожаю   Францию     
+$966/speech_966_15.mp3;2,6;6,383;3,116
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker100: Tu~as       un~animal        l de compagnie], Marie?
+~           У~тебя~есть домашнее~животное  ~  ~           ~     
+$966/speech_966_16.mp3;2,6;3,135;3,57;7,132;3,502;10,105;7,787
+- aux animaux de compagnie
+- les animaux à la campagne
++ animal de compagnie
+
+[LINE]
+Speaker336: Oui, j'ai          trois chats et…
+~           Да   у~меня~(есть) три   кота  и… 
+$966/speech_966_17.mp3;3,0;6,328.5;6,328.5;6,394.20000000000005;4,394.20000000000005
+
+[LINE]
+Speaker336: Attends…
+~           Подожди…
+$966/speech_966_18.mp3;8,0
+
+[LINE]
+Speaker336: Marie?! Je~m'appelle Julie.
+~           ~       Меня~зовут   ~     
+$966/speech_966_19.mp3;5,0;5,617.1428571428571;10,231.42857142857156;6,771.4285714285713
+
+[LINE]
+Speaker336: Et tu es     Sébastien?
+~           А  ты (есть) ~         
+$966/speech_966_20.mp3;2,0;3,181.05882352941177;3,181.05882352941177;10,181.0588235294117
+
+[LINE]
+Speaker100: Non, je suis   Paul!
+~           Нет  Я  (есть) ~    
+$966/speech_966_21.mp3;3,6;4,537;5,157;5,221
+
+[MULTIPLE_CHOICE]
+> Жюли и Поль должны были встретиться с другими людьми.
++ Да.
+- Нет.
+
+[LINE]
+> En ce   moment, une~femme entre  dans le~restaurant.
+~ В  этот момент  женщина   входит в    ресторан      
+$966/speech_966_23.mp3;2,0;3,155.25;7,155.25;5,414;6,207;6,310.5;5,310.5;3,258.75;11,155.25
+
+[LINE]
+Speaker1848: Salut!  Tu  es      Paul? Je suis   Marie.
+~            Привет  Ты  (есть)  ~     Я  (есть) ~     
+$966/speech_966_24.mp3;5,6;4,945;4,187;6,84;4,757;5,194;6,255
+
+[LINE]
+Speaker100: Euh... Non... Je~m'appelle Sébastien.
+~           Эм     Нет    Меня~зовут   ~         
+$966/speech_966_25.mp3;3,6;7,578;6,655;10,135;10,351
+
+[MULTIPLE_CHOICE]
+> В конце истории, Поль…
+- …устал разговаривать с Жюли.
++ …соврал девушке, пришедшей на свидание, потому что ему понравилась Жюли.
+- …встретил человека по имени Себастьян.
+
+[MATCH]
+> Выберите пары
+- Père <> Отец
+- Adore <> Обожаю
+- Mère <> Мать
+- Je m'appelle <> Меня зовут
+- Aussi <> Тоже
+
