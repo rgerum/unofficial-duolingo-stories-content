@@ -1,0 +1,258 @@
+[DATA]
+fromLanguageName=Stranger
+icon=f3d07f61cdd95c84cb15d7f9d0e4b0dc8173072b
+set=3|1
+
+speaker_Stranger=Ruben
+speaker_Dennis=Ruben
+speaker_Moeder=Lotte
+
+[HEADER]
+> Vreemdeling
+~ Stranger   
+$66/speech_66_0.mp3;11,6
+
+[LINE]
+> Dennis verlaat een videospelwinkel als  hij hoort dat  iemand  hem roept.
+~ ~      exits   a   videogameshop   when he  hears that someone him calls 
+$66/speech_66_1.mp3;6,6;8,318;4,419;16,84;4,1069;4,190;6,129;4,175;7,134;4,301;6,135
+
+[LINE]
+Speaker113: Ah, hier ben je! 
+~           ~   here are you 
+$66/speech_66_2.mp3;2,6;6,468;4,160;3,173
+
+[SELECT_PHRASE]
+> Select the missing word.
+> Dennis kijkt naar de andere kant van de straat en ziet een man uit een rode auto [stappen].
+$66/speech_66_3.mp3;6,6;6,338;5,252;3,121;7,82;5,285;4,270;3,152;7,77;3,356;5,128;4,176;4,95;4,185;4,123;5,78;5,250;8,251
+- lopen
+- verlaten
++ stappen
+
+[LINE]
+> De  man zwaait naar hem, maar Dennis kent  hem niet.
+~ The man waves  at   him  but  ~      knows him not  
+$66/speech_66_4.mp3;2,6;4,106;7,220;5,359;4,127;6,514;7,192;5,325;4,237;5,149
+
+[LINE]
+> Denkend  dat  de  vreemdeling hem voor~iemand~anders~aan~ziet, loopt             Dennis door.             
+~ Thinking that the stranger    him confuses~with~someone~else   continues~his~way ~      continues~his~way 
+$66/speech_66_5.mp3;7,6;4,401;3,131;12,67;4,488;5,254;7,140;7,291;4,311;5,90;7,587;7,286;5,277
+
+[MULTIPLE_CHOICE]
+> Wat betekent de uitdrukking 'hem voor iemand anders aan zien' in dit geval?
++ Dat  de  vreemdeling denkt  dat  Dennis iemand  anders is.
+~ That the stranger    thinks that ~      someone else   is 
+- Dat  de  vreemdeling afstand  van  Dennis neemt.
+~ That the stranger    distance from ~      takes 
+- Dat  de  vreemdeling een videospel voor Dennis koopt.
+~ That the stranger    a   videogame for  ~      buys  
+
+[LINE]
+> Maar de  vreemdeling roept opnieuw en  rent naar~hem~toe.
+~ But  the stranger    calls again   and runs towards~him  
+$66/speech_66_7.mp3;4,6;3,205;12,87;6,494;8,216;3,348;5,235;5,211;4,125;4,150
+
+[LINE]
+> Dennis rent weg  van  hem.
+~ ~      runs away from him 
+$66/speech_66_8.mp3;6,6;5,299;4,246;4,215;4,156
+
+[LINE]
+Speaker1649: Waarom is die  man me aan~het~volgen?
+~            Why    is that man me following      
+$66/speech_66_9.mp3;6,6;3,402;4,129;4,140;3,196;4,97;4,171;7,107
+
+[LINE]
+> Een paar straten verderop belt  Dennis zijn moeder.
+~ A   few  blocks  away     calls ~      his  mother 
+$66/speech_66_10.mp3;3,6;5,139;8,195;9,411;5,387;7,315;5,316;7,176
+
+[LINE]
+Speaker292: Ik heb  je  al      drie  keer  geprobeerd te bellen Dennis.
+~           I  have you already three times tried      to call   ~      
+$66/speech_66_11.mp3;2,6;4,118;3,218;3,109;5,200;5,229;11,276;3,825;7,111;7,395
+
+[LINE]
+Speaker1649: Mama, ik ben echt   bang!  
+~            Mum   I  am  really scared 
+$66/speech_66_12.mp3;4,6;4,612;4,138;5,177;5,203
+
+[LINE]
+Speaker292: Waarom? Wat  is er~aan~de~hand?
+~           Why     What is going~on       
+$66/speech_66_13.mp3;6,6;5,866;3,203;3,204;4,118;3,220;5,92
+
+[MULTIPLE_CHOICE]
+> Wat betekent 'aan de hand'?
+- Heb je iets op je hand zitten?
+- Moet je naar de dokter?
++ Wat is er gebeurd?
+
+[LINE]
+Speaker1649: Er    was een man die naar mij riep  
+~            There was a   man who to   me  called
+$66/speech_66_15.mp3;2,6;4,118;4,199;4,73;4,213;5,101;4,123;5,158
+
+[SELECT_PHRASE]
+> Select the missing word
+Speaker1649: En  ik denk  dat  hij mij [volgt]
+~            And I  think that he  me   ~     
+$66/speech_66_16.mp3;2,6;3,105;5,101;4,226;4,177;4,120;6,137
+- volgd
++ volgt
+- Volgdt
+
+[LINE]
+Speaker292: Hoezo? Waar  ben je? 
+~           Why    Where are you 
+$66/speech_66_17.mp3;5,6;6,841;4,239;3,204
+
+[LINE]
+Speaker1649: Niet~boos~worden, maar ik~heb~gespijbeld vanochtend.  
+~            Don't~get~mad     but  I~skipped~class   this~morning 
+$66/speech_66_18.mp3;4,6;5,217;7,313;6,590;3,225;4,99;11,132;11,567
+
+[MULTIPLE_CHOICE]
+> Dennis ..
+- ... heeft les gegeven op school.
++ ... is niet naar de les gegaan.
+- ... was te laat voor de les.
+
+[LINE]
+Speaker1649: Ik ging te voet naar de  stad.
+~            I  went by foot to   the city 
+$66/speech_66_20.mp3;2,6;5,137;3,156;5,102;5,217;3,122;5,55
+
+[LINE]
+Speaker292: Echt?  
+~           Really 
+$66/speech_66_21.mp3;4,6
+
+[LINE]
+Speaker1649: Het~spijt~me! Ik had~zin~om een nieuw videospel te~kopen.
+~            I~am~sorry    I  felt~like  a   new   videogame buying   
+$66/speech_66_22.mp3;3,6;6,166;3,300;4,576;4,109;4,140;3,187;4,157;6,79;10,171;3,836;6,110
+
+[LINE]
+Speaker1649: Ik was~van~plan~om terug te gaan naar school nadat ik hem had gekocht, ik zweer het!
+~            I  was~planning~on back  to go   to   school after I  it  had bought   I  swear ~   
+$66/speech_66_23.mp3;2,6;4,124;4,188;5,151;3,238;6,131;3,224;5,91;5,228;7,118;6,285;3,326;4,103;4,148;8,154;4,727;6,140;4,233
+
+[ARRANGE]
+> Zet de woorden in de juiste volgorde:
+Speaker292: [(Hoe) (zag)      (die)  (man) (eruit)]?   
+~             How   did~look   that   man   did~look   
+$66/speech_66_24.mp3;3,6;4,124;4,277;4,175;6,270
+
+[LINE]
+Speaker1649: Ik~weet~het~niet. Hij was kaal en  lang en  hij stapte uit een rode auto.
+~            I~don't~know      He  was bald and tall and he  got    out a   red  car  
+$66/speech_66_25.mp3;2,6;5,125;4,198;5,127;5,685;4,157;5,193;3,364;5,111;3,227;4,156;7,145;4,458;4,158;5,84;5,250
+
+[LINE]
+Speaker1649: Kun je  me komen ophalen?
+~            Can you me come  pick~up 
+$66/speech_66_26.mp3;3,6;3,117;3,86;6,110;8,313
+
+[MULTIPLE_CHOICE]
+> Dennis wil dat zijn moeder ..
+- .. naar de stad gaat om hem te straffen.
+- .. het videospel voor hem komt ophalen.
++ .. naar de stad gaat om hem thuis te brengen.
+
+[LINE]
+Speaker292: Dennis, die  man is ..
+~           ~       that man is   
+$66/speech_66_28.mp3;6,6;5,692;4,142;3,279
+
+[LINE]
+Speaker1649: Ik ben echt   zo bang!  
+~            I  am  really so scared 
+$66/speech_66_29.mp3;2,6;4,100;5,139;3,223;5,141
+
+[ARRANGE]
+> Zet de woorden in de juiste volgorde:
+Speaker1649: [(Ik) (zal)  (nooit) (meer)  (spijbelen)]! 
+~              I    will   never   again   skip~class   
+$66/speech_66_30.mp3;2,6;4,92;6,164;5,217;10,126
+
+[LINE]
+Speaker292: Ik ben blij  dat  te horen.
+~           I  am  happy that to hear  
+$66/speech_66_31.mp3;2,6;4,134;5,207;4,289;3,203;6,104
+
+[LINE]
+Speaker292: Maar als je  mijn oproepen had opgenomen had je  geweten dat  die  man die  je  aan~het~volgen~was, Ludovic, eigenlijk mijn collega  is.
+~           But  if  you my   calls    had picked~up had you known   that that man that you was~following       ~        actually  my   collegue is 
+$66/speech_66_32.mp3;4,6;4,250;3,226;5,117;9,270;4,613;10,195;4,727;3,236;8,81;4,593;4,177;4,113;4,272;3,148;4,153;4,243;7,162;4,438;9,527;11,816;5,508;8,219;3,637
+
+[LINE]
+Speaker1649: Hoezo dat? 
+~            What  that 
+$66/speech_66_33.mp3;5,6;4,341
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker292: De  school belde  me vanochtend   om~te vertellen dat  [je er niet was]
+~           The school called me this~morning to    tell      that  ~  ~  ~    ~   
+$66/speech_66_34.mp3;2,6;7,138;6,304;3,349;11,137;3,651;3,202;10,90;4,669;3,237;3,147;5,151;4,240
++ je er niet was
+- je in de klas zat.
+- je je huiswerk niet hebt gemaakt.
+
+[LINE]
+Speaker292: Je  praat  al  weken over  dat  videospelletje, dus ik wist waar  je~heen~ging.             
+~           You talked for weeks about that videogame       so  I  knew where you          were~going~to
+$66/speech_66_35.mp3;2,6;6,92;3,367;6,173;5,437;4,363;15,189;5,1379;3,142;5,139;5,285;3,213;5,137;5,264
+
+[LINE]
+Speaker292: Ik kan het kantoor niet verlaten vanwege    een afspraak,    dus Ludovic bood~aan je~te~zoeken    en  terug naar school te brengen.
+~           I  can the office  not  leave    because~of an  appointment  so  ~       offered  to~look~for~you and back  to   school to bring   
+$66/speech_66_36.mp3;2,6;4,126;4,247;8,172;5,484;9,273;8,678;4,668;9,171;5,727;8,142;5,631;4,343;3,225;3,103;7,101;3,433;6,184;5,352;7,207;3,385;8,115
+
+[LINE]
+Speaker292: Ik probeerde je  te bellen om het je  te laten weten.
+~           I  tried     you to call   to it  you ~  let   know  
+$66/speech_66_37.mp3;2,6;10,133;3,560;3,170;7,127;3,377;4,251;3,179;3,108;6,101;6,422
+
+[LINE]
+Speaker1649: Aha..
+$66/speech_66_38.mp3;3,6
+
+[LINE]
+Speaker292: Lucovic is lang en  kaal en  heeft een rode auto.
+~           ~       is tall and bald and has   a   red  car  
+$66/speech_66_39.mp3;7,6;3,594;5,197;3,293;5,182;3,389;6,190;4,325;5,176;5,354
+
+[LINE]
+Speaker1649: Het~spijt~me mama...
+~            I~am~sorry   mom    
+$66/speech_66_40.mp3;3,6;6,166;3,300;5,98
+
+[ARRANGE]
+> Zet de woorden in de juiste volgorde:
+Speaker292: [(We) (praten) (er) (later) (over)]. 
+~             We   talk     it   later   about   
+$66/speech_66_41.mp3;2,6;7,129;3,581;6,150;5,419
+
+[LINE]
+Speaker1649: Ik zal  nooit meer  spijbelen! 
+~            I  will never again skip~class 
+$66/speech_66_42.mp3;2,6;4,92;6,164;5,217;10,126
+
+[MULTIPLE_CHOICE]
+> Wat is er gebeurd?
+- Dennis en de collega van zijn moeder hebben samen een videospel gespeeld.
+- Dennis' moeder dacht dat hij niet naar school was gegaan, maar had zich vergist.
++ Dennis was niet naar school gegaan en de collega van zijn moeder ging hem in de stad zoeken.
+
+[MATCH]
+> Selecteer de paren:
+- huiswerk <> homework
+- spijbelen <> skip class
+- vreemdeling <> stranger
+- te voet <> by foot
+- nooit meer <> never again
+
