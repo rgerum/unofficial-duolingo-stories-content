@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=Friends
+icon=743f08a1a28a5e27e7e78ba3c46443b92365789b
+set=2|10
+
+[HEADER]
+> Φίλες  
+~ Friends
+$64/speech_64_0.mp3;5,6
+
+[LINE]
+Speaker101: Γεια~σου Θάλεια!
+~           Hi       ~      
+$64/speech_64_1.mp3;4,4.999840484925826;4,391.6541713191897;7,237.4924230339767
+
+[LINE]
+Speaker1320: Γεια~σου Δέσποινα.
+~            Hi       ~        
+$64/speech_64_2.mp3;4,5.182134570765662;4,405.9338747099768;9,237.5145011600929
+
+[SELECT_PHRASE]
+> Choose the right phrase:
+Speaker101: [Θέλεις      να πάμε να~φάμε] πίτσα;
+~            Do~you~want to go   eat      pizza 
+$64/speech_64_3.mp3;6,6.244921874999999;3,503.75703125;5,173.81699218749998;3,271.65410156249993;5,164.44960937500014;6,310.1644531249999
++ Θέλεις να πάμε να φάμε
+- Θέλεις να πάμε φάμε
+- Θάλεις να πάμε να φάμε
+
+[LINE]
+Speaker1320: Εεε... όχι, ευχαριστώ. Θα~πάω    στο    εμπορικό κέντρο.
+~            Eh     no   thank~you  I'm~going to~the shopping centre 
+$64/speech_64_4.mp3;3,6.035466981928727;7,783.6047964870797;11,555.262962337443;4,1186.9751731126496;4,180.05809829420696;4,304.791082587401;9,348.04526262455647;7,477.8078027360243
+
+[LINE]
+Speaker101: Μισείς   το  εμπορικό κέντρο. Έχει~πολύ~κόσμο.                
+~           You~hate the shopping centre  There~are~too~many~people~there 
+$64/speech_64_5.mp3;6,5.61286737466041;3,602.4477648802173;9,169.32149913558908;7,504.2225858236601;6,964.4777105458136;5,151.54741911583096;6,307.77222771054585
+
+[MULTIPLE_CHOICE]
+> Why does Thaleia hate the shopping centre?
+- Because she has to walk a long way to get there.
++ Because there are too many people there.
+- Because she thinks the prices are too high.
+
+[LINE]
+Speaker1320: Ναι, αλλά πρέπει    να~αγοράσω... κάτι.     
+~            Yes  but  I~have~to buy           something 
+$64/speech_64_7.mp3;3,5.587960257159555;6,630.5081823495032;7,181.6087083576855;3,371.5993571011104;8,190.92197545295153;8,1045.8798947983635
+
+[MULTIPLE_CHOICE]
+> Although Thaleia hates the mall, ...
+- She works there.
+- She is going to walk there for exercise.
++ She needs to buy something.
+
+[LINE]
+Speaker101: Έρχομαι    μαζί σου!
+~           I'm~coming with you 
+$64/speech_64_9.mp3;7,5.462648193115268;5,426.99700042851015;4,322.29624339380086
+
+[LINE]
+Speaker1320: Μα... 
+~            But   
+$64/speech_64_10.mp3;2,6
+
+[LINE]
+Speaker101: Σε~παρακαλώ!
+~           Please      
+$64/speech_64_11.mp3;2,5.654334621755936;9,211.0951592122216
+
+[LINE]
+Speaker1320: Καλά.
+~            OK   
+$64/speech_64_12.mp3;4,5.636310904872389
+
+[LINE]
+> Η Δέσποινα και η Θάλεια είναι στο    εμπορικό κέντρο.
+~ ~ ~        and ~ ~      are   in~the shopping centre 
+$64/speech_64_13.mp3;1,4.600170140365802;9,75.90280731603573;4,449.28328370905996;2,281.3770735857082;7,36.80136112292644;6,251.4759676733304;4,218.50808166737556;9,289.8107188430456;7,443.14972352190534
+
+[LINE]
+Speaker1320: Ωχ όχι! Πρέπει    να~αγοράσω το~δώρο~γενεθλίων~σου...
+~            Oh no   I~have~to buy        your~birthday~gift      
+$64/speech_64_14.mp3;2,5.813469654639482;4,226.7253165309398;8,768.3469060215182;3,391.4402900790585;8,164.71497354811868;3,438.9169589252806;5,202.50252630327554;10,264.51286928609625;4,692.7718005112047
+
+[ARRANGE]
+> Put the sentence in the right order.
+Speaker1320: [(...) (όμως) (το) (μαγαζί) (είναι) (κλειστό) ()].
+$64/speech_64_15.mp3;0,4.956890812250332;8,276.7597370173103;3,286.6735186418109;7,114.83463715046605;6,415.5526797603195;8,396.55126498002664
+
+[LINE]
+Speaker1320: Είμαι κακή  φίλη.  
+~            I'm   a~bad friend 
+$64/speech_64_16.mp3;5,5.238980994743227;5,278.5391562205149;5,268.9343577301523
+
+[POINT_TO_PHRASE]
+> Click on the option meaning 'bad.'
+Speaker1320: (Είμαι) (+κακή) (φίλη).
+
+[LINE]
+Speaker101: Θάλεια, μισείς   το  εμπορικό κέντρο. Αλλά είσαι  εδώ...  για~να αγοράσεις το~δώρο~γενεθλίων~μου. Είσαι  καλή   φίλη!  
+~           ~       you~hate the shopping centre  But  you're here    to     buy       my~birthday~gift       You're a~good friend 
+$64/speech_64_18.mp3;6,5.285942724233174;8,578.8107283035325;3,542.6901196879392;9,158.5782817269951;7,474.8538547269468;6,909.182148568106;6,199.10384261278296;4,483.6637592673351;7,688.0535446043518;3,334.7763725347677;10,129.50559674371198;3,695.9824586907016;5,215.84266123952148;10,237.86742259049242;4,603.4784610166216;7,727.6981150360998;5,425.51838930076974;5,290.7268498328249
+
+[MULTIPLE_CHOICE]
+> Why does Despoina think Thaleia is a good friend?
+- She bought her a private island for her birthday.
++ She came to the shopping centre to buy her a gift even though she hates going there.
+- She agreed to go have a pizza with her.
+
+[MATCH]
+> Tap the pairs!
+- το εμπορικό κέντρο <> shopping centre
+- μισείς <> you hate
+- ο κόσμος <> people/world
+- το δώρο γενεθλίων <> birthday present
+- κλειστό <> closed
+- έχει <> there is/are
+- έρχομαι <> I'm coming
+
