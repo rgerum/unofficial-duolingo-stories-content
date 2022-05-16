@@ -1,0 +1,171 @@
+[DATA]
+fromLanguageName=Honeymoon
+icon=7e5d271488d31d6f1d0c503512e642ca7effe84f
+set=1|6
+
+[HEADER]
+> Медовий~місяць
+~ honeymoon     
+$1098/speech_1098_0.mp3;7,0;7,370.7586206896552
+
+[LINE]
+> Аліна сідає       в         таксі.
+~ Alina gets~(sits) into~(in) taxi  
+$1098/speech_1098_1.mp3;5,0;6,288;2,288;6,96
+
+[LINE]
+Speaker113: Доброго~ранку!
+~           good~morning  
+$1098/speech_1098_2.mp3;7,0;6,337.6551724137931
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker439: Доброго~ранку, мені~треба [в       аеропорт].
+~           good~morning   I~need      to~(in) airport   
+$1098/speech_1098_3.mp3;7,0;6,435.69230769230774;6,381.23076923076917;6,272.3076923076924;2,326.7692307692307;9,108.9230769230769
+- на аеропорт
+- в супермаркет
++ в аеропорт
+
+[LINE]
+Speaker113: Добре.
+~           ok    
+$1098/speech_1098_4.mp3;5,0
+
+[LINE]
+Speaker113: Відпустка?
+~           vacation  
+$1098/speech_1098_5.mp3;9,0
+
+[LINE]
+Speaker439: Ні, не  відпустка.
+~           no  not vacation  
+$1098/speech_1098_6.mp3;2,0;4,171;10,128.25
+
+[LINE]
+Speaker439: У~мене квиток до Одеси.
+~           I~have ticket to Odesa 
+$1098/speech_1098_7.mp3;1,0;5,106.10526315789473;7,265.2631578947368;3,371.36842105263156;6,159.1578947368422
+
+[MULTIPLE_CHOICE]
+> Alina has a plane ticket to Odesa, but she's not on vacation.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker439: Точніше  ... два квитки. 
+~           actually     two tickets 
+$1098/speech_1098_9.mp3;7,0;8,538.1052631578947;7,179.36842105263156
+
+[LINE]
+Speaker113: Одеса - моє улюблене місто!
+~           Odesa ~ my  favorite city  
+$1098/speech_1098_10.mp3;5,0;2,332.57142857142856;4,110.85714285714283;9,221.71428571428572;6,498.8571428571429
+
+[LINE]
+Speaker439: У~мене медовий~місяць.
+~           I~have honeymoon      
+$1098/speech_1098_11.mp3;1,0;5,90.81081081081082;8,227.02702702702703;7,363.2432432432433
+
+[MULTIPLE_CHOICE]
+> Why is Alina going to Odesa?
+- She is going there for business.
++ She has her honeymoon.
+- She is going to move there.
+
+[LINE]
+Speaker113: А   де    ж Ваш               чоловік?
+~           and where ~ your~(respectful) husband 
+$1098/speech_1098_13.mp3;1,0;3,98.82352941176471;2,148.23529411764707;4,98.8235294117647;8,197.6470588235294
+
+[LINE]
+Speaker439: Не  чоловік, а   дружина... Вона іноземка. 
+~           not husband  but wife       she  foreigner 
+$1098/speech_1098_14.mp3;2,0;8,79.13513513513514;3,237.40540540540542;8,52.756756756756715;8,290.1621621621622;9,131.89189189189187
+
+[LINE]
+Speaker439: Ми посварилися.
+~           we had~a~fight 
+$1098/speech_1098_15.mp3;2,0;12,129.6
+
+[LINE]
+Speaker439: І   вона не~хоче      летіти зі   мною.
+~           and she  doesn't~want to~fly with me   
+$1098/speech_1098_16.mp3;1,0;5,101.33333333333334;3,253.33333333333334;5,151.99999999999994;7,253.33333333333337;3,354.66666666666674;5,152
+
+[MULTIPLE_CHOICE]
+> Alina's wife…
+- … is in the taxi with her.
++ … doesn't want to go to Odesa with her.
+- … is already in Odesa.
+
+[LINE]
+Speaker439: Мені~дуже~сумно через~це.  
+~           I~am~very~sad   about~this 
+$1098/speech_1098_18.mp3;4,0;5,258;6,258;6,309.6;3,309.6
+
+[LINE]
+Speaker113: Мені~дуже~шкода.
+~           I'm~so~sorry    
+$1098/speech_1098_19.mp3;4,0;5,228.38709677419354;6,228.38709677419354
+
+[LINE]
+Speaker113: Все,       ми в       аеропорту.
+~           that’s~it  we in~(at) airport   
+$1098/speech_1098_20.mp3;3,0;4,260.57142857142856;2,156.34285714285716;10,104.2285714285714
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "runs."
+> (Якась) дівчина з    (сумкою)   (+біжить) до      (таксі).
+~  some   girl    with  bag         runs    towards  taxi   
+$1098/speech_1098_21.mp3;5,0;8,313.7142857142857;2,418.2857142857143;7,104.57142857142856;9,470.57142857142856;3,366;6,156.8571428571429
+
+[LINE]
+Speaker439: Яно! 
+~           Yana 
+$1098/speech_1098_22.mp3;3,0
+
+[LINE]
+Speaker1186: Аліно!
+~            Alina 
+$1098/speech_1098_23.mp3;5,0
+
+[LINE]
+Speaker1186: Вибач~мені!
+~            forgive~me 
+$1098/speech_1098_24.mp3;5,0;5,254.76923076923077
+
+[LINE]
+Speaker1186: Я~тебе~кохаю!
+~            I~love~you   
+$1098/speech_1098_25.mp3;1,0;5,99.42857142857142;6,248.57142857142858
+
+[LINE]
+Speaker439: Я~теж~тебе~кохаю!
+~           I~love~you~too   
+$1098/speech_1098_26.mp3;1,0;4,102;5,204;6,255
+
+[LINE]
+Speaker439: Летимо    до Одеси!
+~           let's~fly to Odesa 
+$1098/speech_1098_27.mp3;6,0;3,191.17241379310346;6,81.93103448275863
+
+[LINE]
+Speaker113: Гарного~медового~місяця!
+~           enjoy~(your)~honeymoon  
+$1098/speech_1098_28.mp3;7,0;9,393.8461538461538;7,443.0769230769231
+
+[MULTIPLE_CHOICE]
+> What happened when Alina got to the airport?
+- Her taxi driver agreed to go on vacation with her.
+- Her wife, Yana, called her on the phone.
++ Her wife, Yana, apologized and told her she loved her.
+
+[MATCH]
+> Tap the pairs
+- вона <> she
+- доброго ранку <> good morning
+- Ваша <> your (respectful)
+- медовий місяць <> honeymoon
+- відпустка <> vacation
+
