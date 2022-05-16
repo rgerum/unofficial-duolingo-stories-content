@@ -1,0 +1,156 @@
+[DATA]
+fromLanguageName=Surpresa!
+icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
+set=1|4
+
+[HEADER]
+> ¡Sorpresa!
+~  Surpresa 
+$957/speech_957_0.mp3;0,6
+
+[LINE]
+> Bruce está en un restaurante con su  madre.
+~ ~     está em um restaurante com sua mãe   
+$957/speech_957_1.mp3;5,6;5,321;3,306;3,171;12,162;4,755;3,226;6,171
+
+[LINE]
+Speaker559: Una mesa para tres, por~favor.
+~           Uma mesa para três  por~favor 
+$957/speech_957_2.mp3;3,6;5,263;5,334;5,286;5,663;6,150
+
+[LINE]
+Speaker385: Tres? Tú,   yo, y...?
+~           Três  Você  eu  e    
+$957/speech_957_3.mp3;4,6;4,896;4,470;3,590
+
+[LINE]
+Speaker559: Una amiga.
+~           Uma amiga 
+$957/speech_957_4.mp3;3,6;6,314
+
+[MULTIPLE_CHOICE]
+> Quem mais vai ao jantar?
+- O irmão de Bruce.
++ Uma amiga da mãe de Bruce.
+- O pai de Bruce.
+
+[LINE]
+Speaker385: Oh…| yo necesito…
+~           Oh   eu preciso… 
+$957/speech_957_6.mp3;3,6;3,320;10,248
+
+[LINE]
+Speaker559: Yo tengo una sorpresa!
+~           Eu tenho uma surpresa 
+$957/speech_957_7.mp3;2,6;6,248;4,341;9,247
+
+[LINE]
+Speaker385: Yo…|  Yo tengo una sorpresa también.
+~           Eu    Eu tenho uma surpresa também  
+$957/speech_957_8.mp3;3,6;4,504;6,248;4,341;9,236;8,572
+
+[ARRANGE]
+> Escute e selecione as palavras
+Speaker559: [(Mi) (amiga) (es) (mui) (bonita)].
+~             mi   amiga   es   muy   bonita   
+$957/speech_957_9.mp3;2,6;6,235;3,411;4,201;7,226
+
+[LINE]
+Speaker559: Ella es una estudiante~de~negocios.
+~           Ela  é  uma estudante~de~negócios  
+$957/speech_957_10.mp3;4,6;3,307;4,210;11,235;3,672;9,123
+
+[LINE]
+Speaker559: Su  nombre es Sonia.
+~           Seu nome   é  ~     
+$957/speech_957_11.mp3;2,6;7,208;3,363;6,195
+
+[LINE]
+Speaker385: Mamá,   yo  necesito…
+~           Mamãe   eu  preciso… 
+$957/speech_957_12.mp3;4,6;5,641;11,248
+
+[LINE]
+Speaker559: Y ella es hermosa! Perfecta para mi    hijo! 
+~           E ela  é  linda    Perfeita para o~meu filho 
+$957/speech_957_13.mp3;1,6;5,163;3,267;8,205;10,923;5,526;3,240;5,167
+
+[MULTIPLE_CHOICE]
+> A mãe de Bruce quer…
++ … que Bruce saia com sua amiga, Sonia.
+- … que Bruce saia do restaurante.
+- … ter uma nova amiga.
+
+[LINE]
+> Una mujer  entra al restaurante.
+~ Uma mulher entra no restaurante 
+$957/speech_957_15.mp3;3,6;6,246;6,423;3,308;12,133
+
+[LINE]
+Speaker125: ¡Hola, cariño! 
+~            Oi    querida 
+$957/speech_957_16.mp3;0,6;5,577
+
+[LINE]
+Speaker559: ¿Cariño? 
+~            Querida 
+$957/speech_957_17.mp3;0,6
+
+[MULTIPLE_CHOICE]
+> Por que a mãe de Bruce ficou surpresa?
+- A comida que pediram chegou rápido.
++ Ela não sabia que Bruce tinha uma namorada.
+- Bruce saiu do restaurante.
+
+[LINE]
+Speaker385: Hola,   Carla. Mamá… 
+~           Olá     ~      Mamãe…
+$957/speech_957_19.mp3;4,6;9,577;7,862
+
+[LINE]
+Speaker125: ¿Bruce, es esta   tu  madre?
+~            ~      é  essa~a sua mãe   
+$957/speech_957_20.mp3;0,6;6,695;4,217;5,323;3,132
+
+[LINE]
+Speaker559: Bruce?!
+$957/speech_957_21.mp3;5,6
+
+[SELECT_PHRASE]
+> Complete a frase
+Speaker125: [cómo       estás]?
+~            cómo~estás ~      
+$957/speech_957_22.mp3;4,6;6,286
+- como no estas
+- como se fue
++ cómo estás
+
+[LINE]
+Speaker125: Yo soy   Carla! La esposa de Bruce.
+~           Eu sou~a ~      A  esposa do Bruce 
+$957/speech_957_23.mp3;2,6;4,289;6,266;4,901;7,230;3,525;6,114
+
+[LINE]
+Speaker559: ¿Esposa?
+~            Esposa 
+$957/speech_957_24.mp3;0,6
+
+[LINE]
+Speaker385: ¡Sorpresa!
+~            Surpresa 
+$957/speech_957_25.mp3;0,6
+
+[MULTIPLE_CHOICE]
+> Qual foi a surpresa de Bruce
+- Ele queria se casar com a amiga de sua mãe.
++ Ele está casado com Carla.
+- Ele não quer se casar nunca.
+
+[MATCH]
+> Toque nos pares
+- nombre <> nome
+- entra al <> entra no
+- hijo <> filho
+- en el <> no
+- tu <> seu
+
