@@ -1,0 +1,164 @@
+[DATA]
+fromLanguageName=The Bag
+icon=966f6e25540bc4ba5347e59005bcc1e2827fdd66
+set=2|5
+
+speaker_Speaker338=Tatyana
+speaker_Speaker337=Maxim
+
+[HEADER]
+> Су́мка 
+~ the~bag
+$657/speech_657_0.mp3;6,6
+
+[LINE]
+> Ива́н в~магази́не.
+~ ~     in~a~store  
+$657/speech_657_1.mp3;5,6;2,354;10,65
+
+[LINE]
+> Де́вушка разгова́ривает с    Ива́ном.
+~ a~lady   speaks         with ~       
+$657/speech_657_2.mp3;8,6;15,496;2,772;8,113
+
+[LINE]
+Speaker1186: Здра́вствуйте!
+~            hello         
+$657/speech_657_3.mp3;13,6
+
+[LINE]
+Speaker113: До́брый~день.
+~           good~day     
+$657/speech_657_4.mp3;7,6;5,409
+
+[LINE]
+Speaker1186: Вы  здесь рабо́таете?
+~            you here  work       
+$657/speech_657_5.mp3;2,6;6,152;11,316
+
+[MULTIPLE_CHOICE]
+> A woman is asking Ivan if he works at the store.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker113: Я…
+~           I…
+$657/speech_657_7.mp3;2,6
+
+[LINE]
+Speaker1186: Хорошо́!   Вы~м́ожете мне   помо́чь?
+~            very~good  Can~you    to~me help    
+$657/speech_657_8.mp3;7,6;4,981;8,122;4,426;8,162
+
+[MULTIPLE_CHOICE]
+> What does the woman mean?
+- She wants Ivan's job.
+- She really likes Ivan.
++ She needs Ivan's help.
+
+[LINE]
+Speaker113: Эээ…
+~           ~…  
+$657/speech_657_10.mp3;4,6
+
+[LINE]
+Speaker1186: Мне~нужна́ су́мка.   
+~            I~need     a~handbag 
+$657/speech_657_11.mp3;3,6;7,272;7,344
+
+[LINE]
+Speaker1186: Вам    бо́льше нра́вится кра́сная~су́мка?
+~            to~you more    is~liked  the~red~handbag 
+$657/speech_657_12.mp3;3,6;8,211;10,313;9,451;7,498
+
+[MULTIPLE_CHOICE]
+> The woman is asking Ivan if…
++ … he prefers the red handbag.
+- … he likes working at the store.
+- … he wants a new job.
+
+[LINE]
+Speaker113: Я…
+~           I…
+$657/speech_657_14.mp3;2,6
+
+[LINE]
+Speaker1186: Или бе́лая?         
+~            or  the~white~(one) 
+$657/speech_657_15.mp3;3,6;7,222
+
+[LINE]
+Speaker113: Эээ…| Ла́дно.
+~           ~…    ok     
+$657/speech_657_16.mp3;4,6;7,707
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker113: [Кра́сная~больш́ая].
+~            the~red~is~big     
+$657/speech_657_17.mp3;8,6;9,579
++ Кра́сная больш́ая
+- Кра́ска больш́ая
+- Кра́сная б́елая
+
+[LINE]
+Speaker113: Бе́лая          крас́ивая…
+~           the~white~(one) beautiful…
+$657/speech_657_18.mp3;6,6;11,433
+
+[LINE]
+Speaker113: И   она́  недорога́я.   
+~           and it~is not~expensive 
+$657/speech_657_19.mp3;1,6;5,94;11,215
+
+[MULTIPLE_CHOICE]
+> Ivan thinks the white bag is...
+- … too expensive and old.
++ … pretty and not expensive.
+- … ugly and too big.
+
+[LINE]
+Speaker113: Она́  кла́ссная!
+~           it~is great     
+$657/speech_657_21.mp3;4,6;10,356
+
+[LINE]
+Speaker1186: Хорошо́!   Я беру́ бе́лую~су́мку.    
+~            very~good  I take  the~white~handbag 
+$657/speech_657_22.mp3;7,6;3,981;6,188;7,271;7,393
+
+[LINE]
+Speaker1186: Большо́е~спаси́бо.  
+~            thank~you~very~much 
+$657/speech_657_23.mp3;8,6;9,492
+
+[LINE]
+Speaker1186: Где   я могу́ заплати́ть?
+~            where I can   pay        
+$657/speech_657_24.mp3;3,6;2,218;6,122;11,294
+
+[LINE]
+Speaker113: Я~не~зна́ю.  
+~           I~don't~know 
+$657/speech_657_25.mp3;1,6;3,223;6,124
+
+[LINE]
+Speaker113: Я здесь не~рабо́таю.
+~           I here  don't~work  
+$657/speech_657_26.mp3;1,6;6,324;3,554;9,144
+
+[MULTIPLE_CHOICE]
+> Why doesn't Ivan know where the woman can pay?
++ Because he doesn't work at the store.
+- Because he forgot.
+- Because he's only in charge of the bags.
+
+[MATCH]
+> Tap the pairs
+- недорога́я <> not expensive
+- хорошо́ <> good
+- я рабо́таю <> I work
+- кра́сная с́умка <> red handbag
+- я не зна́ю <> I do not know
+
