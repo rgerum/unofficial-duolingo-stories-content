@@ -1,0 +1,162 @@
+[DATA]
+fromLanguageName=A Date
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+speaker_Wangwei=cmn-TW-Wavenet-B
+speaker_Yulan=Zhiyu
+speaker_Jialing=Yaoyao
+
+[HEADER]
+> 一次约会  
+~ a~date
+$1046/speech_1046_0.mp3;4,6
+
+[LINE]
+> 玉兰|在|餐厅|有|个|约会。                      
+~ Yulan  at  restaurant  has  a~(one)  date  
+$1046/speech_1046_1.mp3;2,6;2,355;3,187;2,486;2,171;3,103
+
+[LINE]
+Speaker100: 你|想|吃|什么？            
+~           you  want  to~eat  what  
+$1046/speech_1046_2.mp3;1,0;2,97.92;2,97.92;3,97.91999999999999;2,146.88
+
+[MULTIPLE_CHOICE]
+> Yulan's date is asking…
+- … how much the food costs.
+- … where to find the menu.
++ … what Yulan wants to eat.
+
+[LINE]
+Speaker336: 我|想|吃|沙拉。           
+~           I  want  to~eat  salad  
+$1046/speech_1046_4.mp3;1,6;2,135;2,249
+
+[LINE]
+Speaker336: 我|不吃|肉。          
+~           I  don't~eat  meat  
+$1046/speech_1046_5.mp3;1,6;3,141;2,205;2,264
+
+[LINE]
+Speaker100: 你|吃素|吗？                        
+~           you  vegetarian  question~marker  
+$1046/speech_1046_6.mp3;1,0;3,98.08695652173913;2,147.1304347826087;2,98.08695652173918
+
+[LINE]
+Speaker336: 是的。 
+~           yes  
+$1046/speech_1046_7.mp3;2,6;2,268
+
+[LINE]
+Speaker100: 我也是。   
+~           me~too  
+$1046/speech_1046_8.mp3;3,0;2,187.20000000000002
+
+[MULTIPLE_CHOICE]
+> Why did he say that?
++ He's also a vegetarian.
+- He hates salads.
+- He loves to eat meat.
+
+[LINE]
+Speaker336: 真好！         
+~           that’s~nice  
+$1046/speech_1046_10.mp3;2,6;2,176
+
+[ARRANGE]
+> Tap what you hear
+Speaker336: [(你)   (是)   (哪国)]人?             
+~             you   are   what~nationality   
+$1046/speech_1046_11.mp3;1,6;2,175;4,180;1,216
+
+[LINE]
+Speaker100: 我|是|澳大利亚人。      
+~           I  am  Australian  
+$1046/speech_1046_12.mp3;1,0;2,116.30769230769232;6,116.30769230769232;2,348.9230769230769
+
+[LINE]
+Speaker100: 我的|妈妈|是|上海人|。我的|爸爸|是|新加坡人。                          
+~           my  mother  is  Shanghainese    my  father  is  Singaporean  
+$1046/speech_1046_13.mp3;2,0;3,279.62790697674416;2,279.62790697674416;4,186.4186046511628;2,372.8372093023255;3,186.41860465116292;3,279.62790697674404;2,279.62790697674427;5,186.4186046511627;2,466.04651162790697
+
+[LINE]
+Speaker336: 我|也|是|新加坡人。           
+~           I  also  am  Singaporean  
+$1046/speech_1046_14.mp3;1,6;2,153;2,179;5,217;2,666
+
+[LINE]
+Speaker100: 新加坡|很|漂亮。                
+~           Singapore  very  beautiful  
+$1046/speech_1046_15.mp3;3,0;2,249.6;3,124.79999999999998;2,187.20000000000005
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "pets."
+Speaker100: (你有)         (+宠物)   (吗)?              
+~            you~have      pets   question~marker  
+$1046/speech_1046_16.mp3;2,0;5,240;2,144
+
+[LINE]
+Speaker336: 我|有|一只猫|和|两只狗。            
+~           I  have  a~cat  and  two~dogs  
+$1046/speech_1046_17.mp3;1,6;2,150;4,230;2,219;4,172;2,252
+
+[LINE]
+Speaker100: 真的吗？   
+~           really  
+$1046/speech_1046_18.mp3;3,0;2,216
+
+[LINE]
+Speaker100: 嘉玲|，我|也|有|两只狗！                
+~           Jialing    I  also  have  two~dogs  
+$1046/speech_1046_19.mp3;2,0;2,206.70967741935485;2,137.8064516129032;2,137.80645161290323;2,137.80645161290323;4,137.8064516129033;2,275.61290322580635
+
+[LINE]
+Speaker336: 嘉玲|？我|是|玉兰！         
+~           Jialing    I  am  Yulan  
+$1046/speech_1046_20.mp3;2,6;2,420;2,190;2,207
+
+[LINE]
+Speaker336: 你|是|铭琪|吗？                      
+~           you  are  Mingqi  question~marker  
+$1046/speech_1046_21.mp3;1,6;2,179;3,208;2,291;2,227
+
+[LINE]
+Speaker100: 不是|！我叫|王伟！             
+~           no    my~name~is  Wangwei  
+$1046/speech_1046_22.mp3;2,0;2,189.33333333333331;3,126.22222222222223;3,189.33333333333331;2,189.33333333333331
+
+[MULTIPLE_CHOICE]
+> Yulan and Wangwei were supposed to meet different people.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+> 一位|女士|走向|王伟。                   
+~ a   woman  walks~towards  Wangwei  
+$1046/speech_1046_24.mp3;2,6;3,141;3,207;3,478;2,505
+
+[LINE]
+Speaker101: 你好|！你|是|王伟|吗|？我|是|嘉玲。                                
+~           hello    you  are  Wangwei  question~marker    I  am  Jialing  
+$1046/speech_1046_25.mp3;2,6;2,163;2,240;2,174;3,177;2,431;2,185;2,203;2,183
+
+[LINE]
+Speaker100: 我|不是|王伟|，我|是|铭琪|。不好意思。               
+~           I  am~not  Wangwei    I  am  Mingqi    sorry  
+$1046/speech_1046_26.mp3;1,0;3,146.4;3,219.6;2,219.60000000000002;2,146.39999999999998;2,146.39999999999998;3,146.39999999999998;2,219.5999999999999;5,146.4000000000001;2,366
+
+[MULTIPLE_CHOICE]
+> At the end of the story, Wangwei
++ … lied to his real date because he liked Yulan
+- … met someone called Mingqi
+- … was tired of talking to Yulan
+
+[MATCH]
+> Tap the pairs
+- 约会 <> date
+- 宠物 <> pet
+- 走向 <> walk towards
+- 什么 <> what
+- 肉 <> meat
+
