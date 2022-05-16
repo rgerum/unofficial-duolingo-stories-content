@@ -1,0 +1,136 @@
+[DATA]
+fromLanguageName=The Passport
+icon=5dc22a453cc462fa2ac2412700a39a9e1b47d4e6
+set=2|7
+
+speaker_Narrator=da-DK-Wavenet-C
+speaker_Speaker380=da-DK-Wavenet-C
+speaker_Speaker379=da-DK-ChristelNeural
+
+[HEADER]
+> Passet      
+~ The~passport
+$1285/speech_1285_0.mp3;6,0
+
+[LINE]
+> Jonas     er   ved   lufthavnen. 
+~ ~         is   at    the~airport 
+$1285/speech_1285_1.mp3;5,0;7,331.9148936170213;6,165.95744680851067;13,199.14893617021272
+
+[LINE]
+Speaker3135: Hvor   er   mit pas?     
+~            Where  is   my  passport 
+$1285/speech_1285_2.mp3;4,0;4,194.82352941176472;6,162.35294117647058;4,129.88235294117646
+
+[LINE]
+Speaker3135: Det~er her  ikke!
+~            It's   here not  
+$1285/speech_1285_3.mp3;3,0;3,108.38709677419355;4,81.29032258064514;5,108.38709677419357
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker3135: Det~er ikke  [i~min~taske……
+~            It's   not    in~my~bag    
+$1285/speech_1285_4.mp3;3,0;3,79.05882352941177;5,59.29411764705881;3,118.58823529411765;4,39.529411764705856;7,79.05882352941182
++ i min taske
+- med min tante
+- i mit kamera
+
+[LINE]
+Speaker3135: og   det~er ikke i  min jakke. 
+~            and  it's   not  in my  jacket 
+$1285/speech_1285_5.mp3;2,0;5,129.48837209302326;3,129.48837209302326;5,97.11627906976747;2,161.86046511627904;4,64.74418604651169;6,129.48837209302326
+
+[LINE]
+Speaker3135: Det~er i  taxien!  
+~            It's   in the~taxi 
+$1285/speech_1285_6.mp3;3,0;3,151.74193548387098;2,113.80645161290323;7,75.87096774193549
+
+[ARRANGE]
+> Tap what you hear
+> [(Jonas) (leder     efter)    (sin taxi)].
+~   ~       looks~for his~taxi   ~   ~      
+$1285/speech_1285_7.mp3;5,0;6,291.4285714285714;6,291.4285714285714;4,291.42857142857144;5,194.28571428571445
+
+[LINE]
+> Han ser  sin taxichauffør.
+~ He  sees his taxi~driver  
+$1285/speech_1285_8.mp3;3,0;4,160.8;4,160.8;13,160.79999999999995
+
+[MULTIPLE_CHOICE]
+> Jonas…
+- … can't find the taxi driver who took him to the airport.
++ … sees the taxi driver who took him to the airport.
+- … drives away in a taxi.
+
+[LINE]
+Speaker3135: Hey!
+~            Hey 
+$1285/speech_1285_10.mp3;3,0
+
+[LINE]
+Speaker338: Ja,   hr.     Hvad har~du~brug~for?
+~           Yes   sir     What do~you~need     
+$1285/speech_1285_11.mp3;2,0;5,363.75;9,509.25;4,363.75;3,291;5,218.25;4,363.75
+
+[MULTIPLE_CHOICE]
+> Why does the taxi driver call Jonas "hr."?
+- She is being rude.
++ She is being professional.
+- She thinks that's his name.
+
+[LINE]
+Speaker3135: Jeg har~brug~for mit pas!     
+~            I   need         my  passport 
+$1285/speech_1285_13.mp3;3,0;4,158.4;5,158.4;4,198.00000000000006;4,158.39999999999986;4,158.4000000000001
+
+[LINE]
+Speaker3135: Det~er i  din  taxi!
+~            It's   in your taxi 
+$1285/speech_1285_14.mp3;3,0;3,160;2,120;4,80;5,160
+
+[LINE]
+Speaker338: Undskyld,            dit  pas           er ikke i  min taxi.
+~           I'm~sorry            your passport      is not  in my  taxi 
+$1285/speech_1285_15.mp3;8,0;15,891.9402985074626;4,178.3880597014927;8,401.3731343283582;5,133.7910447761194;2,222.98507462686553;4,89.19402985074635;5,178.3880597014927
+
+[LINE]
+Speaker3135: Åh, nej!
+~            Oh  no  
+$1285/speech_1285_16.mp3;2,0;5,141.91304347826087
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "hand."
+Speaker338: (Hr),     (passet)            (er)    i  din    (+hånd).
+~            Sir       the~passport        is     in your     hand  
+$1285/speech_1285_17.mp3;2,0;11,318.5660377358491;8,546.1132075471696;5,273.0566037735849;4,91.01886792452842;7,273.0566037735848
+
+[LINE]
+Speaker3135: Åh…
+~            Oh 
+$1285/speech_1285_18.mp3;3,0
+
+[LINE]
+Speaker3135: Mange~tak.          
+~            Thank~you~(so~much) 
+$1285/speech_1285_19.mp3;5,0;4,218.88
+
+[LINE]
+Speaker338: Hav~en~god~ferie!
+~           Happy~vacation   
+$1285/speech_1285_20.mp3;3,0;3,247.5;4,185.625;6,247.5
+
+[MULTIPLE_CHOICE]
+> Where was Jonas' passport?
+- At his house.
+- In the taxi.
++ In his hand.
+
+[MATCH]
+> Tap the pairs
+- ved <> at
+- hånd <> hand
+- Mange tak <> Thank you so much
+- i min taske <> in my bag
+- dit pas <> your passport
+
