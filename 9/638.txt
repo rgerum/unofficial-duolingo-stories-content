@@ -1,0 +1,186 @@
+[DATA]
+fromLanguageName=The Reservation
+icon=51d1c685bd34b719a260b60637e6774fce1d2cb8
+set=2|6
+
+speaker_Ivan=Maxim
+speaker_Marina=Tatyana
+speaker_Mark=Maxim
+
+[HEADER]
+> Бронирование   
+~ The~reservation
+$638/speech_638_0.mp3;12,6
+
+[LINE]
+> Иван и   Марина в~ресторане.    
+~ ~    and ~      in~a~restaurant 
+$638/speech_638_1.mp3;4,6;2,432;7,38;2,457;10,77
+
+[LINE]
+Speaker2243: Здесь так хорошо!
+~            Here  so  nice   
+$638/speech_638_2.mp3;5,6;4,396;7,285
+
+[LINE]
+Speaker439: С~днем~рождения, дорогой!
+~           Happy~birthday   darling 
+$638/speech_638_3.mp3;1,6;5,74;9,338;9,867
+
+[MULTIPLE_CHOICE]
+> Ivan and Marina went to a nice restaurant to celebrate Ivan's birthday.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker385: Добрый~вечер!
+~           Good~evening 
+$638/speech_638_5.mp3;6,6;6,537
+
+[LINE]
+Speaker439: Здравствуйте. У~нас   бронирование  на~двоих.
+~           Hello         We~have a~reservation for~two  
+$638/speech_638_6.mp3;12,6;3,1282;4,63;13,308;3,765;6,132
+
+[LINE]
+Speaker385: На какое имя? 
+~           On what  name 
+$638/speech_638_7.mp3;2,6;6,212;4,498
+
+[MULTIPLE_CHOICE]
+> The waiter wants to know…
++ … Marina's name.
+- … Marina's mother's name.
+- … Marina's favorite food.
+
+[LINE]
+Speaker439: Марина Захарова.
+$638/speech_638_9.mp3;6,6;9,368
+
+[LINE]
+Speaker385: Добро~пожаловать!
+~           Welcome          
+$638/speech_638_10.mp3;5,6;11,537
+
+[LINE]
+Speaker385: Вот     ваш  стол. 
+~           Here~is your table 
+$638/speech_638_11.mp3;3,6;4,299;5,280
+
+[LINE]
+Speaker439: Вот~это~да…
+~           Wow        
+$638/speech_638_12.mp3;3,6;4,285;4,279
+
+[LINE]
+Speaker2243: Здесь очень дорого,    Марина.
+~            Here  very  expensive  ~      
+$638/speech_638_13.mp3;5,6;6,354;7,336;8,727
+
+[MULTIPLE_CHOICE]
+> What does Ivan mean?
+- He will order a bottle of wine.
+- He wants three tables.
++ The restaurant is very expensive.
+
+[LINE]
+Speaker439: Ну   да…
+~           Well yes
+$638/speech_638_15.mp3;2,6;4,194
+
+[LINE]
+Speaker2243: Что  ты  закажешь?  
+~            What you will~order 
+$638/speech_638_16.mp3;3,6;3,270;9,177
+
+[LINE]
+Speaker439: Салат?  
+~           A~salad 
+$638/speech_638_17.mp3;5,6
+
+[LINE]
+Speaker439: Что?! 
+~           What  
+$638/speech_638_18.mp3;3,6
+
+[LINE]
+Speaker439: Салат   за  восемьсот     рублей?! 
+~           A~salad for eight~hundred roubles  
+$638/speech_638_19.mp3;5,6;3,435;10,113;7,607
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "eight hundred."
+> (Салат) за (+восемьсот) (рублей)?!
+$638/speech_638_20.mp3;5,6;3,531;10,125;7,636
+
+[LINE]
+Speaker439: Лучше  я возьму    хороший…
+~           Better I will~take a~good  
+$638/speech_638_21.mp3;5,6;2,359;7,93;9,360
+
+[LINE]
+Speaker439: стакан воды.    
+~           glass  of~water 
+$638/speech_638_22.mp3;6,6;5,601
+
+[LINE]
+Speaker2243: А   я хочу салат!  
+~            And I want a~salad 
+$638/speech_638_23.mp3;1,6;2,125;5,217;6,439
+
+[LINE]
+Speaker2243: И   пиццу!  
+~            And a~pizza 
+$638/speech_638_24.mp3;1,6;6,116
+
+[LINE]
+Speaker2243: И   пиво!  
+~            And a~beer 
+$638/speech_638_25.mp3;1,6;5,116
+
+[LINE]
+Speaker439: Но…
+~           But
+$638/speech_638_26.mp3;3,6
+
+[LINE]
+Speaker2243: Но  в  недорогом       ресторане! 
+~            But in a~not~expensive restaurant 
+$638/speech_638_27.mp3;2,6;2,197;10,66;10,605
+
+[LINE]
+Speaker439: Милый, но  для тебя это   важный       день.
+~           Honey  but for you  it~is an~important day  
+$638/speech_638_28.mp3;5,6;4,649;4,126;5,157;4,239;7,244;5,355
+
+[LINE]
+Speaker2243: Да,  но  ресторан       —|      не                         самое важное!
+~            Yes  but the~restaurant is~not  the~most~important~(thing) ~     ~      
+$638/speech_638_29.mp3;2,6;4,621;9,196;2,966;3,190;6,514
+
+[MULTIPLE_CHOICE]
+> Ivan knows that today is an important day…
+- …and Marina should pay for the whole meal.
++ …but tells Marina the restaurant isn't important.
+- …but he doesn't want to celebrate it at all.
+
+[LINE]
+Speaker439: Уф,   слава~богу! Я   голодная!
+~           Whew  thank~God   I'm hungry   
+$638/speech_638_31.mp3;2,6;7,517;5,362;3,865;9,195
+
+[MULTIPLE_CHOICE]
+> What did Marina and Ivan decide to do?
+- To go home and break up.
+- To order the cheapest items on the menu.
++ To celebrate Ivan's birthday in a cheaper restaurant.
+
+[MATCH]
+> Tap the pairs
+- Уф <> whew
+- Дорогой (to a person) <> darling
+- Дорогой (a place, a thing) <> expensive
+- Слава богу <> thank God
+- Пиво <> beer
+- На двоих <> for two
+
