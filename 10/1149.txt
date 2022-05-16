@@ -1,0 +1,202 @@
+[DATA]
+fromLanguageName=Stop Barking! (1/2)
+icon=a3f67b92b316b236b2ec283e9da9b93fadd09d13
+set=23|5
+
+speaker_Speaker5=it-IT-Wavenet-D
+speaker_Speaker6=it-IT-Wavenet-C
+
+[HEADER]
+> Smettila~di abbaiare!
+~ stop        barking  
+$1149/speech_1149_0.mp3;8,6;3,565;9,82
+
+[LINE]
+> È         mattina~presto  e   Roberto ha~appena telefonato~a Edoardo, il~suo  vicino.  
+~ it~is     early~morning   and ~       has~just  phoned       ~        his     neighbor 
+$1149/speech_1149_1.mp3;1,6;12,91;7,504;3,459;8,72;3,550;7,36;11,474;2,464;8,454;4,51;4,921;8,162;1,230
+
+[LINE]
+Speaker2573: Pronto?
+~            hello  
+$1149/speech_1149_2.mp3;6,0
+
+[LINE]
+Speaker6: Spero~di non~averti svegliato!  
+~         I~hope   I~didn't   wake~you~up 
+$1149/speech_1149_3.mp3;5,0;3,257.1428571428571;4,171.42857142857144;7,300
+
+[LINE]
+Speaker2573: Roberto?
+$1149/speech_1149_4.mp3;7,0
+
+[LINE]
+Speaker6: Sì,   sono~io!
+~         yes   it's~me 
+$1149/speech_1149_5.mp3;2,0;7,240;3,240
+
+[LINE]
+Speaker2573: Sono~le~quattro del~mattino!   
+~            it's~four       in~the~morning 
+$1149/speech_1149_6.mp3;4,0;3,231.62790697674419;8,138.9767441860465;4,370.6046511627907;8,185.3023255813954
+
+[LINE]
+Speaker6: Sì,   lo~so  già!         Sono sveglio dalle due!
+~         yes   I~know already      I~am awake   since two 
+$1149/speech_1149_7.mp3;2,0;5,248.27586206896552;3,148.9655172413793;4,148.96551724137925;10,446.896551724138;8,248.27586206896535;6,397.2413793103451;4,297.9310344827586
+
+[LINE]
+Speaker2573: Perché non              provi  a~prendere un~po'~di latte~caldo? A~me~aiuta~sempre  a   dormire.
+~            why    don't~you        try~to drink      some      warm~milk    It~always~helps~me to  sleep   
+$1149/speech_1149_8.mp3;6,0;4,328.0754716981132;13,515.5471698113208;2,281.2075471698114;9,93.73584905660368;3,421.8113207547169;4,140.60377358490564;3,187.47169811320782;6,140.6037735849054;6,281.2075471698113;3,328.07547169811323;3,93.73584905660391;6,140.6037735849054;7,140.60377358490587;2,328.07547169811323;9,328.0754716981137;1,140.6037735849054
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker6: Sono sveglio perché   la~tua   cagnolina                   non          [smette di abbaiare]!
+~         I~am awake   because  your     little~female~dog           doesn't       stop   to bark      
+$1149/speech_1149_9.mp3;4,0;8,193.5483870967742;7,309.67741935483866;4,309.6774193548387;4,116.12903225806451;12,232.25806451612902;14,774.1935483870966;12,348.3870967741939;3,270.9677419354839;9,116.1290322580644
+- mette di abbaiare
+- smette di sbagliare
++ smette di abbaiare
+
+[LINE]
+Speaker2573: Fifi? Però io non      la~sento!
+~            ~     but  I  don't    hear~her 
+$1149/speech_1149_10.mp3;4,0;6,332.8;3,277.3333333333333;4,166.39999999999998;6,388.26666666666665;6,166.4000000000001
+
+[LINE]
+Speaker6: Io~sono nella   casa   a~fianco  e     la~posso~sentire! È        impossibile  che   tu   non      la~senta!
+~         I~am    in~the  house  next~door and   I~can~hear~her    it~is    impossible   that  you  can't    hear~her 
+$1149/speech_1149_11.mp3;2,0;5,146.61818181818182;6,244.36363636363632;6,342.10909090909087;3,293.2363636363639;7,439.85454545454513;2,195.4909090909091;5,146.61818181818194;6,293.23636363636365;8,439.8545454545456;3,244.3636363636365;15,635.3454545454542;5,244.36363636363603;4,195.4909090909091;5,342.10909090909126;6,146.61818181818217
+
+[LINE]
+Speaker2573: Hai~ragione,    sì,  la~sento.   Lei sta       abbaiando tutta~la~notte.
+~            you~are~right   yes  I~hear~her  she has~been  barking   all~night~long 
+$1149/speech_1149_12.mp3;3,0;8,208.39024390243904;5,520.9756097560976;4,208.390243902439;6,156.29268292682923;5,364.68292682926835;4,208.39024390243912;11,260.4878048780488;6,625.1707317073167;3,156.29268292682946;6,312.58536585365846;1,156.29268292682946
+
+[LINE]
+Speaker6: Sì,   lo~so  già!    
+~         yes   I~know already 
+$1149/speech_1149_13.mp3;2,0;5,195.42857142857142;3,351.7714285714286;4,117.25714285714275
+
+[LINE]
+Speaker2573: Lei normalmente non          lo~fa.
+~            she usually     doesn't      do~it 
+$1149/speech_1149_14.mp3;3,0;12,156.52173913043478;4,469.5652173913044;8,352.17391304347825;3,117.39130434782612
+
+[MULTIPLE_CHOICE]
+> Che   vuole~dire Edoardo?
+~ what  means      ~       
+- Lui non         ha   più     una cagnolina.        
+~ he  doesn't     have anymore a   little~female~dog 
+- La~sua cagnolina                   abbaia molto tutte le   notti. 
+~ his    little~female~dog           barks  a~lot all   the  nights 
++ La~sua  cagnolina                   di~solito non          abbaia di~notte.
+~ his     little~female~dog           usually   doesn't      bark   at~night 
+
+[LINE]
+Speaker6: Hai           cercato di~fare qualcosa       per~farla~smettere di~abbaiare? 
+~         have~you      tried   to~do   something      to~stop~her        from~barking 
+$1149/speech_1149_16.mp3;3,0;13,366.69767441860466;3,325.953488372093;5,122.23255813953494;9,203.7209302325582;9,570.4186046511627;6,162.97674418604652;9,244.4651162790699;3,366.69767441860427;9,162.97674418604674
+
+[LINE]
+Speaker2573: Ho      già        provato di~tutto!  
+~            I~have  already    tried   everything 
+$1149/speech_1149_17.mp3;2,0;5,158.51162790697674;11,277.3953488372093;3,317.0232558139535;6,118.88372093023258
+
+[LINE]
+Speaker6: Anche darle               latte~caldo?
+~         also  to~give~her         warm~milk   
+$1149/speech_1149_18.mp3;5,0;6,212.8695652173913;14,461.2173913043478;6,212.86956521739125
+
+[LINE]
+Speaker2573: No, ancora~no.
+~            no  not~yet   
+$1149/speech_1149_19.mp3;2,0;8,175.44827586206895;3,307.0344827586207
+
+[LINE]
+Speaker6: Devi         fare qualcosa! 
+~         you~have~to  do   something 
+$1149/speech_1149_20.mp3;4,0;6,255.0857142857143;9,212.57142857142856
+
+[LINE]
+Speaker2573: Mi~dispiace, Roberto. Se avessi una museruola,  la~utilizzerei.
+~            I'm~sorry    ~        if I~had  a   muzzle      I~would~use~it 
+$1149/speech_1149_21.mp3;2,0;9,168.92307692307693;9,563.0769230769231;4,506.7692307692307;7,168.92307692307713;4,394.15384615384596;10,225.23076923076928;5,675.6923076923078;12,168.92307692307668
+
+[MULTIPLE_CHOICE]
+> Cos'è   una "museruola"?
+~ what~is a    muzzle     
+- Qualcosa       che    fa    abbaiare i   cani.
+~ something      that   makes bark     the dogs 
++ Qualcosa       che   copre   la   bocca  di un animale.
+~ something      that  covers  the  mouth  of an ~       
+- Una casetta     dove  vivono        i cani.
+~ a   small~house where the~dogs~live ~ ~    
+
+[ARRANGE]
+> Tap what you hear
+Speaker6: [(Dovresti~avere)  (un) (gatto), (come) (il~mio)].
+~           you~should~have   a    cat      like   mine     
+$1149/speech_1149_23.mp3;8,0;6,436.2352941176471;3,290.82352941176475;6,145.41176470588232;6,290.82352941176464;3,242.3529411764705;4,145.41176470588243
+
+[LINE]
+Speaker2573: Non~mi~piacciono i~gatti.
+~            I~don't~like     cats    
+$1149/speech_1149_24.mp3;3,0;3,340.8;10,113.59999999999997;2,378.66666666666663;6,75.73333333333335
+
+[LINE]
+Speaker6: I~gatti sono tranquilli; i~cani sono rumorosi.
+~         cats    are  quiet       dogs   are  noisy    
+$1149/speech_1149_25.mp3;1,0;6,106.22950819672131;5,318.6885245901639;11,265.57377049180326;3,637.3770491803278;5,106.22950819672133;5,265.5737704918033;9,265.5737704918033
+
+[LINE]
+Speaker2573: Beh,  sì,  Fifi è  rumorosa.
+~            well  yes  ~    is noisy    
+$1149/speech_1149_26.mp3;3,0;4,267;6,267;2,213.5999999999999;9,106.80000000000018
+
+[POINT_TO_PHRASE]
+> Clicca sulla   opzione che   significa "una persona che ruba     le~cose".   
+~ click  on~the  option  that  means      a   person  who steals   the~things  
+Speaker6: Tu          (credi)     che   lei (potrebbe) (stare) abbaiando a  un (+ladro)?
+~         Do~you       believe    that  she  might      be     barking   to a    thief  
+$1149/speech_1149_27.mp3;2,0;11,161.28;6,322.56000000000006;5,201.5999999999999;9,161.2800000000001;6,362.8800000000001;10,201.5999999999999;2,483.84000000000015;3,161.27999999999997;6,120.95999999999958
+
+[LINE]
+Speaker2573: È        probabile…| Ho~letto    sul     giornale  che   hanno~rubato    in una casa   a~pochi isolati da     qui. 
+~            it~is    possible…   I~read      on~the  newspaper that  they~stole      in a   house  a~few   blocks  from   here 
+$1149/speech_1149_28.mp3;1,0;14,230.6896551724138;3,507.51724137931024;6,138.41379310344826;7,415.2413793103449;10,230.68965517241395;4,415.24137931034466;7,230.6896551724135;7,276.8275862068972;6,461.37931034482745;4,138.41379310344837;5,184.5517241379307;3,276.8275862068963;6,92.27586206896603;8,276.8275862068963;3,369.1034482758623;6,230.68965517241304
+
+[LINE]
+Speaker6: Oh, no! Dovremmo  vedere se ci~sono         ladri   fuori.  
+~         Oh  no  we~should see    if there~are       thieves outside 
+$1149/speech_1149_29.mp3;2,0;4,196.29850746268656;10,196.29850746268656;7,392.5970149253731;3,343.5223880597015;3,147.22388059701507;5,147.22388059701484;12,539.8208955223879;6,294.4477611940299
+
+[LINE]
+Speaker2573: Vai~vicino  alla    finestra e     guarda se c'è           un furgoncino~bianco. Nei    film,   i~rapinatori hanno~sempre un furgoncino~bianco.
+~            get~close   to~the  window   and   look   if there~is      a  white~van          in~the movies  thieves      always~have  a  white~van         
+$1149/speech_1149_30.mp3;3,0;7,616;6,308;10,462;2,205.33333333333348;9,359.33333333333326;3,153.99999999999977;4,462;8,154.00000000000045;11,564.6666666666661;7,410.66666666666697;5,205.33333333333348;5,307.99999999999955;3,102.66666666666697;11,564.666666666667;6,307.9999999999991;7,359.33333333333394;3,154;11,564.666666666667
+
+[LINE]
+Speaker6: Vado              a~dare~un'occhiata dalla     finestra proprio~ora!
+~         I~will~go         to~take~a~look     from~the  window   right~now   
+$1149/speech_1149_31.mp3;4,0;10,536.64;5,82.56000000000006;12,206.39999999999998;6,495.36;10,288.96000000000004;8,371.52;4,330.24000000000024
+
+[MULTIPLE_CHOICE]
+> Nella   prima parte della   storia, Roberto ed  Edoardo…
+~ in~the  first part  of~the  story   ~       and ~…      
++ …| pensavano     che   ci~fosse      un ladro fuori    perché   la   cagnolina         di Eduardo stava abbaiando.
+~ …  thought       that  there~was     a  thief outside  because  the  little~female~dog of ~       was   barking   
+- …| continuavano     a~dormire mentre la   cagnolina                  di Edoardo continuava ad~abbaiare.
+~ …  kept             sleeping  while  the  little~female~dog          of ~       kept       barking     
+- …| hanno~guardato  un film~d'azione nel     giardino di Roberto.
+~ …  watched         an action~movie  in~the  garden   of ~       
+
+[MATCH]
+> Tap the pairs
+- gatto <> cat
+- Beh <> well
+- qualcosa <> something
+- Smetti <> stop
+- credi <> believe
+
