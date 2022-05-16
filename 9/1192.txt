@@ -1,0 +1,132 @@
+[DATA]
+fromLanguageName=A Beer, Please!
+icon=02ed13ae1aba57917368af1e2492564588e51b06
+set=5|6
+
+icon_Speaker335=https://stories-cdn.duolingo.com/image/f118359885a5dc9babe4808c746e1c15ea9cd6f4.svg
+speaker_Narrator=ru-RU-Wavenet-D
+speaker_Speaker335=Maxim
+speaker_Speaker336=ru-RU-Wavenet-C
+
+[HEADER]
+> Пиво,   пожалуйста!
+~ A~beer  please     
+$1192/speech_1192_0.mp3;4,0;12,247.5
+
+[LINE]
+> Полина в       ресторане.   
+~ ~      (is)~in a~restaurant 
+$1192/speech_1192_1.mp3;6,0;2,286.5882352941176;10,81.88235294117652
+
+[SELECT_PHRASE]
+> Select the missing phrase
+SpeakerSpeaker335: Здравствуйте. [Вы       хотите выпить]       чего-нибудь?
+~                  Hello          (Do)~you want   to~drink      something   
+$1192/speech_1192_2.mp3;12,6;4,1382;7,219;7,484;16,394
++ Вы хотите выпить
+- Выходите выпить
+- Уходите выпить
+
+[LINE]
+Speaker336: Здравствуйте. Да!  Кружку пива,    пожалуйста.
+~           Hello         Yes  A~mug  of~beer  please     
+$1192/speech_1192_3.mp3;12,0;4,854.7368421052631;8,244.21052631578937;5,427.3684210526317;12,366.3157894736844
+
+[LINE]
+SpeakerSpeaker335: Сколько~Вам~лет?
+~                  How~old~are~you 
+$1192/speech_1192_4.mp3;7,6;4,507;4,258
+
+[LINE]
+Speaker336: Мне тридцать~пять лет.      
+~           I'm thirty~five   years~old 
+$1192/speech_1192_5.mp3;3,0;9,173.83783783783784;5,391.1351351351352;4,217.2972972972973
+
+[MULTIPLE_CHOICE]
+> How old is Polina?
++ 35.
+- 26.
+- 18.
+
+[LINE]
+SpeakerSpeaker335: Покажите,  пожалуйста, Ваш  паспорт. 
+~                  Show~(me)  please      your passport 
+$1192/speech_1192_7.mp3;8,6;12,982;5,1057;8,384
+
+[MULTIPLE_CHOICE]
+> The server is asking Polina if he can see her passport.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker336: Хорошо, сейчас…
+~           Okay    now…   
+$1192/speech_1192_9.mp3;6,0;9,403.2
+
+[LINE]
+Speaker336: О,  нет! Я забыла мой паспорт  в  отеле!    
+~           Oh  no   I forgot my  passport in the~hotel 
+$1192/speech_1192_10.mp3;1,0;5,178.6153846153846;3,297.69230769230774;7,119.07692307692315;4,416.7692307692307;8,238.1538461538462;2,476.3076923076924;6,119.07692307692287
+
+[CONTINUATION]
+> What comes next?
+Speaker336: Но  меня~зовут Полина Смирнова и    мне тридцать~пять [лет]!       
+~           But my~name~is ~      ~        and  I'm thirty-five    years~old~  
+$1192/speech_1192_11.mp3;2,0;5,117;6,195;7,234;9,273;2,351;5,117;9,156;5,351;4,195
+- года     
+~ years~old
++ лет      
+~ years~old
+- возраст
+~ age    
+
+[LINE]
+SpeakerSpeaker335: Извините.  
+~                  I~am~sorry 
+$1192/speech_1192_12.mp3;8,6
+
+[LINE]
+Speaker336: Но  я   взрослая, с    работой и   двумя детьми!  
+~           But I'm an~adult  with a~job   and two   children 
+$1192/speech_1192_13.mp3;2,0;2,163.63636363636363;9,109.09090909090912;3,545.4545454545454;8,109.09090909090912;2,436.36363636363626;6,109.09090909090924;7,327.27272727272725
+
+[LINE]
+SpeakerSpeaker335: Извините,   но  Вы  должны  показать  свой паспорт. 
+~                  I~am~sorry  but you have~to show~(me) your passport 
+$1192/speech_1192_14.mp3;8,6;4,959;3,248;7,196;9,449;5,625;8,238
+
+[MULTIPLE_CHOICE]
+> Why is the server apologizing?
+- Because he stole Polina's passport.
+- Because they are closing now.
++ Because he can't give Polina a beer without seeing her passport.
+
+[LINE]
+Speaker336: Ладно! Что  я могу выпить?
+~           Okay   What I can  drink  
+$1192/speech_1192_16.mp3;5,0;5,382.2;2,218.40000000000003;5,109.20000000000005;7,273
+
+[LINE]
+SpeakerSpeaker335: Стакан...  молока! 
+~                  A~glass    of~milk 
+$1192/speech_1192_17.mp3;6,6;10,1126
+
+[LINE]
+Speaker336: Хорошо, спасибо!  
+~           Okay    thank~you 
+$1192/speech_1192_18.mp3;6,0;9,396.38709677419354
+
+[MULTIPLE_CHOICE]
+> The only drink Polina can have without her passport is…
+- …a beer.
++ …a glass of milk.
+- …a glass of wine.
+
+[MATCH]
+> Tap the pairs
+- how old are you? <> сколько Вам (тебе) лет?
+- beer <> пиво
+- milk <> молоко
+- to drink <> выпить
+- okay <> хорошо/ладно
+
