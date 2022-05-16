@@ -1,0 +1,156 @@
+[DATA]
+fromLanguageName=The New Shopping Mall
+icon=22d80e422eeb2f9e860d1f014edf989ff6257372
+set=3|7
+
+speaker_Speaker135=Maxim
+speaker_Speaker136=Tatyana
+speaker_Narrator=ru-RU-DariyaNeural
+
+[HEADER]
+> Новый   торговый~центр
+~ The~new shopping~mall 
+$939/speech_939_0.mp3;5,0;9,394.9714285714286;6,592.4571428571428
+
+[LINE]
+> Лиза читает     журнал       в~автобусе.
+~ ~    is~reading the~magazine on~the~bus 
+$939/speech_939_1.mp3;4,0;7,324;7,453.6;2,453.6;9,129.5999999999999
+
+[LINE]
+Speaker1320: Супер!
+~            Super 
+$939/speech_939_2.mp3;5,6
+
+[LINE]
+Speaker258: Что? 
+~           What 
+$939/speech_939_3.mp3;3,6
+
+[LINE]
+Speaker1320: В  городе открыли    новый   торговый~центр.
+~            In town   was~opened (a)~new shopping~mall  
+$939/speech_939_4.mp3;1,6;7,77;8,447;6,462;9,316;6,478
+
+[MULTIPLE_CHOICE]
+> There is a new swimming pool in their city.
+- Yes, that's true.
++ No, that's not right.
+
+[LINE]
+Speaker258: Да? 
+~           Yes 
+$939/speech_939_6.mp3;2,6
+
+[LINE]
+Speaker1320: Да,  и   там   есть кинотеатр!      
+~            Yes  and there is   a~movie~theater 
+$939/speech_939_7.mp3;2,6;3,555;4,89;5,191;10,296
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1320: И   Итальянский   ресторан,   [который тебе нравится]!
+~            And (the)~Italian restaurant   which   you  like      
+$939/speech_939_8.mp3;1,6;12,100;9,721;9,771;5,381;9,243
+- где ты спишь
+- в котором ты работаешь
++ который тебе нравится
+
+[LINE]
+Speaker258: Круто!
+~           Cool  
+$939/speech_939_9.mp3;5,6
+
+[LINE]
+Speaker258: Где   он~находится?
+~           Where is~it        
+$939/speech_939_10.mp3;3,6;3,387;10,209
+
+[LINE]
+Speaker1320: Хмм…| На улице~Маяковского. 
+~            Hmm   On Mayakovskiy~street 
+$939/speech_939_11.mp3;4,6;3,718;6,144;12,376
+
+[LINE]
+Speaker258: На улице~Маяковского? 
+~           On Mayakovskiy~street 
+$939/speech_939_12.mp3;2,6;6,199;12,481
+
+[ARRANGE]
+> Tap what you hear
+Speaker258: [(Дай)  (мне) (журна)]л.      
+~             Give   me    the~magazine   
+$939/speech_939_13.mp3;3,6;4,242;7,222
+
+[LINE]
+Speaker1320: Бери.
+~            Take 
+$939/speech_939_14.mp3;4,6
+
+[LINE]
+Speaker258: Лиза...
+$939/speech_939_15.mp3;4,6
+
+[LINE]
+Speaker258: Это  не    новый   торговый~центр.
+~           This isn't (a)~new shopping~mall  
+$939/speech_939_16.mp3;3,6;3,285;6,149;9,356;6,529
+
+[LINE]
+Speaker258: Это       тот  же         самый...
+~           This~(is) that (emphasis) same    
+$939/speech_939_17.mp3;3,6;4,317;3,279;6,167
+
+[MULTIPLE_CHOICE]
+> What does “тот же самый” mean?
+- this
++ that same/the same
+- another
+
+[LINE]
+Speaker258: Но  с    другим  названием!
+~           But with another name      
+$939/speech_939_19.mp3;2,6;2,227;7,84;10,467
+
+[MULTIPLE_CHOICE]
+> The mall…
++ … is the same one they usually go to, but it has a new name.
+- … is closing down.
+- … is new, but it's in another town.
+
+[LINE]
+Speaker1320: А,  я поняла.    
+~            Uh  I understand 
+$939/speech_939_21.mp3;1,6;3,481;7,156
+
+[LINE]
+Speaker1320: (Ты)~хочешь сходить в   «новый»     торговый~центр?
+~            (You)~want  to~go   to  (the)~«new» shopping~mall  
+$939/speech_939_22.mp3;4,6;7,360;8,443;2,59;9,279;9,486
+
+[LINE]
+Speaker1320: Посмотреть фильм   и   съесть вкусную   пиццу?
+~            To~watch   a~movie and to~eat (a)~tasty pizza 
+$939/speech_939_23.mp3;10,6;6,564;2,335;7,42;8,345;6,501
+
+[LINE]
+Speaker258: Да! 
+~           Yes 
+$939/speech_939_24.mp3;2,6
+
+[MULTIPLE_CHOICE]
+> What are they going to do?
+- Go to a new mall in an Italian city.
++ Go to the movies and eat Italian food at the mall.
+- Stay home and order Italian food.
+
+[MATCH]
+> Tap the pairs
+- журнал <> magazine
+- другой <> another
+- вкусную <> tasty
+- кинотеатр <> movie theater
+- город <> town
+- пицца <> pizza
+- улица <> street
+
