@@ -1,0 +1,161 @@
+[DATA]
+fromLanguageName=Surprise!
+icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
+set=1|4
+
+speaker_Moeder=Lotte
+speaker_Anton=Ruben
+speaker_Karla=Lotte
+
+[HEADER]
+> Verrassing!
+~ Surprise   
+$50/dbbc9b46.mp3;10,0
+
+[LINE]
+> Anton komt           samen    met  zijn moeder aan bij het restaurant.
+~ ~     (+aan)~arrives together with his  mother ~   at  the restaurant 
+$50/ddaa5bdc.mp3;5,0;5,230;6,576;4,346;5,192;7,192;4,268;4,154;4,154;11,153
+
+[LINE]
+Speaker559: Een tafel voor drie,  alstublieft.
+~           A   table for  three  please      
+$50/df83f544.mp3;3,0;6,195;5,294;5,245;12,343
+
+[LINE]
+Speaker385: Drie?  Jij, ik en  ...
+~           three  You  I  and    
+$50/e1323234.mp3;4,0;4,196;3,140;3,84
+
+[LINE]
+Speaker559: Een vriendin.
+~           A   friend   
+$50/e2eb06a0.mp3;3,0;9,133
+
+[MULTIPLE_CHOICE]
+> Who else is joining the dinner?
+- Anton's friend
++ A friend of Anton's mother
+- Anton's father
+
+[LINE]
+Speaker385: Mama, ik ...
+~           ~Mom  I     
+$50/e4a721f4.mp3;4,0;3,128
+
+[LINE]
+Speaker559: Ik heb  een verrassing voor je! 
+~           I  have a   surprise   for  you 
+$50/e68b734e.mp3;2,0;4,115;4,193;11,155;5,425;3,193
+
+[POINT_TO_PHRASE]
+> Select the word that means "also".
+Speaker385: Ik (heb) (+ook)  (een)  verrassing (voor)     jou!   
+~           ~   I      have   also  a           surprise  for you
+$50/e80f990c.mp3;2,0;4,106;4,143;4,177;11,178;5,392;4,320
+
+[LINE]
+Speaker559: Mijn vriendin studeert geneeskunde.
+~           My   friend   studies  medicine    
+$50/e9f94e84.mp3;4,0;9,228;9,410;12,410
+
+[LINE]
+Speaker559: Ze  is heel slim. 
+~           She is very smart 
+$50/ec597bfe.mp3;2,0;3,153;5,114;5,192
+
+[LINE]
+Speaker559: Ze  heet      Sonja.
+~           She is~called ~     
+$50/edf889f0.mp3;2,0;5,131;6,329
+
+[LINE]
+Speaker385: Mama, ik...
+~           Mom   I    
+$50/f15f0a60.mp3;4,0;3,130
+
+[LINE]
+Speaker559: Ze  is perfect voor je! 
+~           She is perfect for  you 
+$50/f35bf940.mp3;2,0;3,166;8,125;5,334;3,208
+
+[CONTINUATION]
+> Choose the correct sentence ending:
+> Anton's moeder denkt   dat   [Sonja de  perfecte vrouw is voor haar zoon].
+~ ~       mother thinks  that   Sonja the perfect  woman is for  her  son
+$50/2bf542a2.mp3;7,0;7,280;6,245;4,280;6,210;3,210;9,140;6,315;3,210;5,105;5,176;5,175
+- ze  geneeskunde moet~gaan studeren
+~ she medicine   should     study 
+- het eten in het restaurant perfect is
+~ the food in the restaurant perfect is
++ Sonja de  perfecte vrouw is voor haar zoon
+~ ~     the perfect  woman is for  her  son
+
+[LINE]
+> Een vrouw komt~aan bij     het restaurant.          
+~ ~   A     woman    arrives at  the        restaurant
+$50/3471eb24.mp3;3,0;6,163;5,245;4,204;4,164;4,326;11,164
+
+[LINE]
+Speaker125: Hoi schatje!
+~           Hi  darling 
+$50/364612d6.mp3;3,0;8,156
+
+[LINE]
+Speaker559: Schatje?
+~           darling 
+$50/3807826c.mp3;7,0
+
+[MULTIPLE_CHOICE]
+> Why is Anton's mother surprised?
+- She is happy to see Karla.
++ She didn't know Anton was in a relationship.
+- The food they ordered arrived quickly.
+
+[LINE]
+Speaker385: Hoi Karla. Mama...
+~           Hi  Karla  Mom    
+$50/39eab072.mp3;3,0;6,114;5,201
+
+[LINE]
+Speaker125: Ben jij de  moeder van Anton?
+~           Are you the mother of  ~     
+$50/3b93c062.mp3;3,0;4,172;3,172;7,173;4,301;6,173
+
+[LINE]
+Speaker559: Anton!
+$50/3fdbbdfa.mp3;5,0
+
+[SELECT_PHRASE]
+> Choose the best sentence ending:
+Speaker125: Ik ben Karla, de  vrouw [van Anton].
+~           I  am  ~      the wife   of  ~      
+$50/418e83bc.mp3;2,0;4,148;6,198;3,346;6,197;4,297;6,198
++ van Anton
+- op de maan
+- en haar man
+
+[LINE]
+Speaker559: Zijn vrouw!?
+~           His  wife   
+$50/494fc2aa.mp3;4,0;6,168
+
+[LINE]
+Speaker385: Verrassing!
+~           Surprise   
+$50/4b142cde.mp3;10,0
+
+[MULTIPLE_CHOICE]
+> What was Anton's surprise?
++ He recently married Karla
+- He never wants to get married
+- He wants to marry his mom's friend
+
+[MATCH]
+> Pair the words:
+- a <> een
+- husband <> man
+- maan <> moon
+- wife <> vrouw
+- darling <> schatje
+
