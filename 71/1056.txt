@@ -1,0 +1,146 @@
+[DATA]
+fromLanguageName=Surprise!
+icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
+set=1|4
+
+[HEADER]
+> Сюрприз! 
+~ surprise 
+$1056/speech_1056_0.mp3;7,0
+
+[LINE]
+> Андрій в       ресторані  зі   своєю мамою. 
+~ Andriy in~(at) restaurant with his   mother 
+$1056/speech_1056_1.mp3;6,0;2,366.85714285714283;10,104.81632653061229;3,524.0816326530612;6,157.22448979591843;6,314.44897959183663
+
+[LINE]
+Speaker559: Столик~на~трьох, будь~ласка.
+~           table~for~three  please     
+$1056/speech_1056_2.mp3;6,0;3,339.90697674418607;6,145.67441860465112;6,339.90697674418607;6,242.79069767441854
+
+[LINE]
+Speaker385: На~трьох?  Ти,  я і   хто ще?  
+~           for~three  you  I and who else 
+$1056/speech_1056_3.mp3;2,0;6,154.79999999999998;4,361.20000000000005;3,206.39999999999998;2,103.20000000000005;4,103.20000000000005;3,206.39999999999998
+
+[MULTIPLE_CHOICE]
+> Why is Andriy confused?
+- His mom didn't come to the restaurant.
+- His mom asked for three tables.
++ His mom asked for a table for three instead of two.
+
+[LINE]
+Speaker559: Подруга.
+~           friend  
+$1056/speech_1056_5.mp3;7,0
+
+[LINE]
+Speaker385: Мамо…
+~           mom  
+$1056/speech_1056_6.mp3;5,0
+
+[LINE]
+Speaker559: У~мене сюрприз  для тебе!
+~           I~have surprise for you  
+$1056/speech_1056_7.mp3;1,0;5,99.6923076923077;8,249.23076923076923;4,398.76923076923083;5,199.38461538461536
+
+[LINE]
+Speaker385: У~мене теж... 
+~           I~have also   
+$1056/speech_1056_8.mp3;1,0;5,77.14285714285714;4,192.85714285714286
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "wonderful."
+Speaker559: Вона (така)  (+чудова)     (дівчина)!
+~           she   such     wonderful    girl     
+$1056/speech_1056_9.mp3;4,0;5,225.7142857142857;8,270.8571428571429;9,361.14285714285705
+
+[LINE]
+Speaker559: Вона вивчає      медицину. Її~звати    Оля. 
+~           she  is~studying medicine  her~name~is Olya 
+$1056/speech_1056_10.mp3;4,0;7,288;9,403.19999999999993;4,576.0000000000001;6,172.79999999999995;4,345.5999999999999
+
+[LINE]
+Speaker385: Мамо...
+~           mom    
+$1056/speech_1056_11.mp3;4,0
+
+[LINE]
+Speaker559: Вона просто красуня   і   неодмінно тобі сподобається!
+~           she  simply beautiful and certainly you  will~like    
+$1056/speech_1056_12.mp3;4,0;7,184.89795918367346;8,258.8571428571429;2,295.83673469387753;10,73.9591836734694;5,369.79591836734687;13,184.8979591836735
+
+[MULTIPLE_CHOICE]
+> Andriy's mom wants…
+- … to make a new friend.
++ … Andriy to go on a date with her friend, Olya.
+- … Andriy to leave the restaurant.
+
+[LINE]
+> В       ресторан   заходить дівчина.
+~ At~(in) restaurant enters   girl    
+$1056/speech_1056_14.mp3;1,0;9,90.4186046511628;9,406.8837209302326;8,406.88372093023247
+
+[LINE]
+Speaker125: Привіт, коханий!
+~           hello   darling 
+$1056/speech_1056_15.mp3;6,0;9,334.4516129032258
+
+[LINE]
+Speaker559: Коханий!?
+~           darling  
+$1056/speech_1056_16.mp3;7,0
+
+[MULTIPLE_CHOICE]
+> Andriy's mom knew that he was in a relationship.
+- Yes, that's true!
++ No, that's not right!
+
+[LINE]
+Speaker385: Привіт, Любо!  Мамо...
+~           hello   Liuba  mom    
+$1056/speech_1056_18.mp3;6,0;6,239.21311475409837;6,179.40983606557378
+
+[LINE]
+Speaker125: Ви  мама   Андрія?  
+~           you mother Andriy’s 
+$1056/speech_1056_19.mp3;2,0;5,132;7,220
+
+[LINE]
+Speaker559: Андрію, що   відбувається?
+~           Andriy  what happening    
+$1056/speech_1056_20.mp3;6,0;4,388.9230769230769;13,145.8461538461538
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker125: Приємно~познайомитися, я – Люба,  [дружина] Андрія.  
+~           nice~to~meet~you       I ~ Liuba   wife     Andriy's 
+$1056/speech_1056_21.mp3;7,0;14,457.1428571428571;3,857.1428571428571;2,228.57142857142844;5,342.8571428571431;9,457.14285714285734
+- друзі
+- машина
++ дружина
+
+[LINE]
+Speaker559: Дружина?
+~           wife    
+$1056/speech_1056_22.mp3;7,0
+
+[LINE]
+Speaker385: Сюрприз! 
+~           surprise 
+$1056/speech_1056_23.mp3;7,0
+
+[MULTIPLE_CHOICE]
+> Why is Andriy's mom surprised?
+- She is very happy to see Liuba.
+- The food they ordered arrived quickly.
++ She didn't know Andriy was married.
+
+[MATCH]
+> Tap the pairs
+- для тебе <> for you
+- приємно познайомитися <> nice to meet you
+- син <> son
+- дружина <> wife
+- її звати <> her name is
+
