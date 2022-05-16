@@ -1,0 +1,159 @@
+[DATA]
+fromLanguageName=A date
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+speaker_Julie=Lotte
+speaker_Anne=Lotte
+speaker_Paul=Ruben
+
+[HEADER]
+> Een afspraakje
+~ A   date      
+$56/9f5ddcc2.mp3;3,0;11,158
+
+[LINE]
+> Julie zit  in een restaurant voor een afspraakje.
+~ ~     sits in a   restaurant for  a   date       
+$56/a11142d4.mp3;5,0;4,263;3,219;4,132;11,175;5,483;4,219;11,176
+
+[LINE]
+Speaker100: Wat  wil  je  eten?  
+~           What want you to~eat 
+$56/a45e5c42.mp3;3,0;4,165;3,166;5,133
+
+[MULTIPLE_CHOICE]
+> Paul wants to know ...
+- ... what the food is.
++ ... what Julie wants to eat.
+- ... how much the food costs
+
+[LINE]
+Speaker336: Een salade.
+~           A   salad  
+$56/a6349bda.mp3;3,0;7,155
+
+[LINE]
+Speaker336: Ik eet geen vlees.
+~           I  eat no   meat  
+$56/a7f83a94.mp3;2,0;4,126;5,169;6,211
+
+[LINE]
+Speaker100: Ben je  vegetariër?  
+~           Are you a~vegetarian 
+$56/a9909afe.mp3;3,0;3,163;11,164
+
+[LINE]
+Speaker336: Ja. 
+~           Yes 
+$56/ab0a1b4e.mp3;2,0
+
+[LINE]
+Speaker100: Ik ook!
+~           Me too 
+$56/ac634394.mp3;2,0;4,94
+
+[LINE]
+Speaker336: Oh, leuk.
+~           ~   nice 
+$56/ae60ba5a.mp3;2,0;5,192
+
+[LINE]
+Speaker336: Ben je  Nederlands?
+~           Are you Dutch      
+$56/afbc1c8c.mp3;3,0;3,160;11,161
+
+[ARRANGE]
+> Put the words in the right order:
+Speaker100: [(Nee), (ik) (ben) (Engels)] 
+~             No     I    am    English  
+$56/b14c5350.mp3;3,0;3,265;4,159;7,213
+
+[LINE]
+Speaker100: Mijn vader  is Canadees en  mijn moeder Spaans. 
+~           My   father is Canadian and my   mother Spanish 
+$56/b2ceba56.mp3;4,0;6,243;3,342;9,146;3,439;5,195;7,244;7,341
+
+[LINE]
+Speaker336: Ik ben Canadees!
+~           I  am  Canadian 
+$56/b455095c.mp3;2,0;4,125;9,167
+
+[LINE]
+Speaker100: Ik houd~van Canada!
+~           I  love     Canada 
+$56/b5e61400.mp3;2,0;5,122;4,205;7,164
+
+[SELECT_PHRASE]
+> Choose the best answer:
+Speaker100: Heb~je      een  [huisdier]?         
+~           Do~you~have a     pet
+$56/b7541e04.mp3;3,0;3,134;4,135;9,169
++ huisdier
+- huisdieren
+- thuisbeest
+
+[LINE]
+Speaker336: Ja,  ik heb  drie  katten en  een hond.
+~           Yes  I  have three cats   and a   dog  
+$56/d0db1f30.mp3;2,0;3,222;4,133;5,222;7,267;3,311;4,178;5,178
+
+[LINE]
+Speaker100: Ik heb  ook  katten en  een hond, Anne!
+~           I  have also cats   and a   dog   ~    
+$56/d4f98e80.mp3;2,0;4,126;4,211;7,211;3,296;4,169;5,169;5,253
+
+[LINE]
+> Julie kijkt verrast   naar Paul.
+~ ~     looks surprised to   ~    
+$56/d36dd440.mp3;5,0;6,254;8,254;5,424;5,212
+
+[LINE]
+Speaker336: Anne? Ik heet      Julie !
+~           ~     I  am~called ~      
+$56/d774904c.mp3;4,0;3,238;5,120;6,398
+
+[LINE]
+Speaker336: En  jij heet       Sebastiaan toch? 
+~           And you are~called ~          right 
+$56/d6b3ebc6.mp3;2,0;4,157;5,157;11,433;5,433
+
+[LINE]
+Speaker100: Wat? 
+~           What 
+$56/db21bc06.mp3;3,0
+
+[MULTIPLE_CHOICE]
+> Paul en Julie zitten allebei met de verkeerde persoon aan tafel.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+> Een vrouw komt~aan in het restaurant.
+~ A   woman arrives  at the restaurant 
+$56/da6e1020.mp3;3,0;6,179;5,268;4,224;3,179;4,134;11,180
+
+[LINE]
+Speaker101: Hoi! Ben jij Paul? Ik ben Anne.
+~           Hi   Are you ~     I  am  ~    
+$56/dd6e8412.mp3;3,0;4,281;4,226;5,225;3,338;4,169;5,226
+
+[LINE]
+Speaker100: Euh, nee. Ik ben Sebastiaan.
+~           ~    no   I  am  ~          
+$56/dcea70f0.mp3;3,0;4,329;3,329;4,198;11,263
+
+[MULTIPLE_CHOICE]
+> Paul...
+- ... is moe van het praten met Julie.
+- ... heet eigenlijk Sebastiaan.
++ ... liegt tegen Anne omdat hij Julie leuk vindt.
+
+[MATCH]
+> Tap the pairs
+- heten <> to be called
+- vegetariër <> vegetarian
+- vlees <> meat
+- huisdier <> pet
+- vrouw <> woman
+
