@@ -1,0 +1,161 @@
+[DATA]
+fromLanguageName=Need Help?
+icon=ec74184ed69da39d62ba574fa9d615f7d0c53da1
+set=3|3
+
+speaker_Speaker128=Carla
+speaker_Speaker127=Giorgio
+
+[HEADER]
+> Ha~bisogno~di aiuto?
+~ need          help  
+$1032/speech_1032_0.mp3;2,6;8,70;3,566;6,120
+
+[LINE]
+> Marcella è  sulla sua~bicicletta.
+~ ~        is on    her~bicycle    
+$1032/speech_1032_1.mp3;8,6;2,553;6,97;4,227;11,184
+
+[SELECT_PHRASE]
+> Select the missing phrase
+> Lei vede un uomo [vicino la    sua auto].
+~ she sees a  man   near   (the) his car   
+$1032/speech_1032_2.mp3;3,6;5,305;3,306;5,147;7,291;3,435;4,73;5,221
++ vicino la sua auto
+- vicino la tua auto
+- vino la tua auto
+
+[LINE]
+> Lui è  preoccupato.
+~ he  is worried     
+$1032/speech_1032_3.mp3;3,6;2,343;12,45
+
+[LINE]
+Speaker101: Ciao!   Ha~bisogno~di aiuto?
+~           hello   do~you~need   help  
+$1032/speech_1032_4.mp3;4,6;5,751;8,104;3,518;6,106
+
+[LINE]
+Speaker127: La~mia auto ha  un problema.
+~           my     car  has a  problem  
+$1032/speech_1032_5.mp3;2,6;4,117;5,305;3,310;3,35;9,146
+
+[LINE]
+Speaker127: Posso usare     il~suo   telefono, per~favore?
+~           can~I use       your     phone     please     
+$1032/speech_1032_6.mp3;5,6;6,263;7,329;4,99;11,196;5,785;7,119
+
+[LINE]
+> Marcella dà    il~suo~telefono a  Sebastiano.
+~ ~        gives her~phone       to ~          
+$1032/speech_1032_7.mp3;8,6;3,583;3,171;4,93;9,247;2,540;11,39
+
+[MULTIPLE_CHOICE]
+> Marcella won't give Sebastiano her phone.
+- Yes, that's true.
++ No, that's not right.
+
+[LINE]
+Speaker101: Sì,   però…
+~           yes   but… 
+$1032/speech_1032_9.mp3;2,6;8,560
+
+[LINE]
+Speaker127: Mi~scusi,  un   momento.
+~           I'm~sorry  one  moment  
+$1032/speech_1032_10.mp3;2,6;6,118;4,655;9,145
+
+[LINE]
+> Sebastiano chiama al~telefono. 
+~ ~          calls  on~the~phone 
+$1032/speech_1032_11.mp3;10,6;7,817;3,269;9,112
+
+[LINE]
+Speaker127: Sì,   è       l'autofficina?       
+~           yes   is~this the~auto~repair~shop 
+$1032/speech_1032_12.mp3;2,6;4,520;14,93
+
+[MULTIPLE_CHOICE]
+> What is Sebastiano doing?
+- Calling his friend because he needs a ride home.
+- Calling his wife because he is late for dinner.
++ Calling an auto repair shop because he has a car problem.
+
+[LINE]
+Speaker127: La~mia auto ha  un problema.
+~           my     car  has a  problem  
+$1032/speech_1032_14.mp3;2,6;4,117;5,305;3,310;3,35;9,146
+
+[LINE]
+Speaker127: Ahh…
+$1032/speech_1032_15.mp3;4,6
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker127: Non~lo~so           [dove       sono].
+~           I~don't~know         where~I~am ~     
+$1032/speech_1032_16.mp3;3,6;3,137;3,95;12,218;5,225
+- dove tonno
+- dove sonno
++ dove sono
+
+[LINE]
+Speaker127: Mmm…| Mi~scusi,   signorina?
+~           ~…    excuse~me   miss      
+$1032/speech_1032_17.mp3;4,6;3,611;6,118;12,638
+
+[LINE]
+Speaker101: Sì? 
+~           yes 
+$1032/speech_1032_18.mp3;2,6
+
+[LINE]
+Speaker127: Dove  siamo? 
+~           where are~we 
+$1032/speech_1032_19.mp3;4,6;6,237
+
+[MULTIPLE_CHOICE]
+> Why did Sebastiano ask Marcella that question?
++ He doesn't know where he is.
+- He doesn't know how to use her phone.
+- He doesn't know the number for the auto repair shop.
+
+[LINE]
+Speaker101: Molto  vicino all'autofficina!     
+~           very   near   the~auto~repair~shop 
+$1032/speech_1032_21.mp3;5,6;8,407;16,482;1,181
+
+[LINE]
+Speaker127: Cosa?
+~           what 
+$1032/speech_1032_22.mp3;4,6
+
+[LINE]
+Speaker101: Io lavoro nell'autofficina.  
+~           I  work   in~the~repair~shop 
+$1032/speech_1032_23.mp3;2,6;7,229;17,423
+
+[LINE]
+Speaker101: Sono una  meccanica.
+~           I~am a    mechanic  
+$1032/speech_1032_24.mp3;4,6;4,277;11,199
+
+[LINE]
+Speaker101: Quindi…| ha~bisogno~di aiuto?
+~           so…      do~you~need   help  
+$1032/speech_1032_25.mp3;7,6;3,898;8,103;3,518;6,106
+
+[MULTIPLE_CHOICE]
+> It turns out that Marcella…
+- … doesn't know where they are.
++ … works at the auto repair shop as a mechanic.
+- … needs help buying a new phone.
+
+[MATCH]
+> Tap the pairs
+- dove sono <> where I am
+- il <> the
+- però <> but
+- meccanica <> mechanic (f)
+- gli dà <> gives
+
