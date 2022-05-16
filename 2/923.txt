@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=My favorite pen
+icon=c705fb9dbd8dd847d687d6e63c7e6eeba2e4d60d
+set=2|2
+
+speaker_Koen=Ruben
+speaker_Sander=Ruben
+
+[HEADER]
+> Mijn favoriete pen
+$923/speech_923_0.mp3;4,6;10,221;4,554
+
+[LINE]
+> Sander en  Koen zijn op de  universiteit.       
+~ ~      and ~    are  at the university~building 
+$923/speech_923_1.mp3;6,6;3,341;5,108;5,219;3,237;3,118;13,84
+
+[LINE]
+Speaker438: Nee~hè!
+~           Oh~no  
+$923/speech_923_2.mp3;3,6;3,223
+
+[LINE]
+Speaker1087: Is alles      goed, Koen?
+~            Is everything okay  ~    
+$923/speech_923_3.mp3;2,6;6,162;5,301;6,585
+
+[SELECT_PHRASE]
+> What does Koen say?
+Speaker438: [Hij is weg]
+$923/speech_923_4.mp3;3,6;3,189;4,135
+- Hij is pech
+- Hij is waar
++ Hij is weg
+
+[LINE]
+Speaker438: Mijn pen is weg! 
+~           My   pen is gone 
+$923/speech_923_5.mp3;4,6;4,255;3,218;4,129
+
+[LINE]
+Speaker1087: Oh nee! Je   witte pen?
+~            Oh no   Your white pen 
+$923/speech_923_6.mp3;2,6;4,70;4,695;6,134;4,202
+
+[LINE]
+Speaker438: Ja!  Mijn favoriete pen!
+~           Yes  My   favorite  pen 
+$923/speech_923_7.mp3;2,6;6,723;10,221;4,554
+
+[MULTIPLE_CHOICE]
+> What happened with the white pen?
++ It disappeared
+- It snapped in half
+- It doesn't write anymore
+
+[LINE]
+Speaker1087: Heb  je  de  pen nodig voor het tentamen?
+~            Have you the pen need  for  the exam     
+$923/speech_923_9.mp3;3,6;3,184;3,105;4,102;6,242;5,294;4,125;9,112
+
+[MULTIPLE_CHOICE]
+> Sander is wondering if ..
+- .. Koen forgot to study.
+- .. Koen is going back home.
++ .. Koen needs his pen for the test.
+
+[LINE]
+Speaker438: Ja!  Dat  is heel belangrijk!
+~           Yes  That is very important  
+$923/speech_923_11.mp3;2,6;5,723;3,198;5,140;11,119
+
+[POINT_TO_PHRASE]
+> Select the word that means 'use':
+Speaker438: Ik (+gebruik) mijn (favoriete~pen) (voor) (alle) (tentamens)
+~           I    use      my    favourite       pen    for    all       
+$923/speech_923_12.mp3;2,6;8,137;5,385;10,168;4,550;5,240;5,151;10,172
+
+[LINE]
+Speaker1087: Dit  is grappig..
+~            This is funny    
+$923/speech_923_13.mp3;3,6;3,142;8,143
+
+[LINE]
+Speaker438: Grappig?!
+~           Funny    
+$923/speech_923_14.mp3;7,6
+
+[LINE]
+Speaker1087: Ja,  heel~erg! 
+~            Yes  very~much 
+$923/speech_923_15.mp3;2,6;6,590;4,273
+
+[LINE]
+Speaker438: Hoezo? 
+~           How~so 
+$923/speech_923_16.mp3;5,6
+
+[SELECT_PHRASE]
+> Finish the sentence.
+Speaker1087: Je hebt je pen ..
+$923/speech_923_17.mp3;2,6;5,98;3,183;4,112
++ niet nodig.
+- niet gebruiken.
+- het tentamen.
+
+[LINE]
+Speaker438: Waarom niet?
+~           Why    not  
+$923/speech_923_18.mp3;6,6;5,333
+
+[LINE]
+Speaker1087: Het tentamen is op de  computer!
+~            The exam     is on the computer 
+$923/speech_923_19.mp3;3,6;9,158;3,500;3,135;3,104;9,55
+
+[MULTIPLE_CHOICE]
+> What does Sander think is funny?
+- The exam is actually tomorrow.
++ The exam is on a computer, so Koen doesn't need a pen.
+- Koen's pen was in his hand the whole time.
+
+[MATCH]
+> Tap the pairs
+- tentamen <> exam
+- nodig hebben <> to need
+- hoezo <> how so
+- belangrijk <> important
+- witte pen <> white pen
+
