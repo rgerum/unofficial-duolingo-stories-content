@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=In the Museum
+icon=09fc3d3f2b5acf538364fe21f1b5ab3a457b1d7b
+set=1|5
+
+icon_Speaker448=https://stories-cdn.duolingo.com/image/ad3623a2d5ee767d1536ff972bfb9961b40df6ca.svg
+speaker_Narrator=ja-JP-Wavenet-C
+speaker_Speaker448=ja-JP-NanamiNeural
+speaker_Speaker107=ja-JP-KeitaNeural
+
+[HEADER]
+> 博物館|で    
+~ Museum  at
+$1328/speech_1328_0.mp3;3,0;2,259.2
+
+[LINE]
+> 千葉さん|は|おじいさん|と|一緒|に|博物館|にいます。               
+~ Chiba-san  is  at~the  museum  with  at  is  ~      
+$1328/speech_1328_1.mp3;4,0;2,565.3333333333333;6,226.13333333333344;2,678.3999999999999;3,226.13333333333344;2,339.20000000000005;4,226.13333333333298;2,452.2666666666669;5,226.1333333333332
+
+[LINE]
+SpeakerSpeaker448: なんて|面白い！       
+~                  How  interesting
+$1328/speech_1328_2.mp3;3,0;5,369.39130434782606
+
+[LINE]
+SpeakerSpeaker448: 昔|の写真|があります！        
+~                  old    photo(s)    exist
+$1328/speech_1328_3.mp3;1,0;2,181.24137931034483;3,181.24137931034483;2,271.8620689655173;6,181.24137931034477
+
+[MULTIPLE_CHOICE]
+> There are photos from the past in the museum.
+- No, that's wrong.
++ Yes, that's true.
+
+[LINE]
+Speaker2474: そうです。|チリ|のサンティアゴ|の写真|です|よ。                
+~            That~is~right  Chile    Santiago    photo  is ~  
+$1328/speech_1328_5.mp3;5,0;3,597.767441860465;2,298.8837209302327;7,199.2558139534883;2,697.3953488372094;3,199.2558139534881;3,298.88372093023236;3,298.8837209302328
+
+[LINE]
+SpeakerSpeaker448: 車|がありません|ね。      
+~                  Cars    don't  exist
+$1328/speech_1328_6.mp3;1,0;2,173.33333333333331;6,173.33333333333331;3,520
+
+[MULTIPLE_CHOICE]
+> What does Chiba-san notice about the picture?
+- The cars are all new.
++ There are no cars.
+- It is from last year.
+
+[SELECT_PHRASE]
+> Select the missing phrase
+SpeakerSpeaker448: …| [そして、これ、]|         医学生たちの|写真が|あります。       
+~                  …   medical~student         picture     is ~     
+- サンドイッチ、食べ、
+- そうだ、これ、
++ そして、これ、
+
+[LINE]
+Speaker2474: そうです。|それ|はチリ|大学|で|取られました。                    
+~            That~is~right  it    Chile  University  at  taken  
+$1328/speech_1328_9.mp3;5,0;3,626.9268292682926;2,313.4634146341464;3,208.9756097560977;3,313.4634146341464;2,313.46341463414615;8,208.9756097560978
+
+[LINE]
+SpeakerSpeaker448: 写真|の中に|女の人|が写っています|わよ。                                                       
+~                  Photo    in  woman    photographed  emphatic~sentence-ending~particle~(female~term)
+$1328/speech_1328_10.mp3;2,0;2,340.61538461538464;3,227.07692307692298;4,340.61538461538464;2,454.1538461538463;7,227.07692307692287;4,794.769230769231
+
+[ARRANGE]
+> Tap what you hear
+SpeakerSpeaker448: [(でも、|)  (一人)  (だけ)    (ですね..)].!
+~                    Just    one   woman   ~        
+
+[LINE]
+> 千葉さん|の|おじいさん|は|その|写真|を見て、何も言いません。                                 
+~ Chiba-san's~grandfather  looks  at~the  photo  in  silence ~               
+$1328/speech_1328_12.mp3;4,0;2,560;6,224.0000000000001;2,671.9999999999999;3,224;3,336.0000000000002;2,335.9999999999998;3,224;4,336;7,448
+
+[LINE]
+SpeakerSpeaker448: おじいさん？ 
+~                  Grandpa
+$1328/speech_1328_13.mp3;6,0
+
+[LINE]
+Speaker2474: 彼女|はとても|美しい|で...     
+~            She    very  pretty ~    
+
+[MULTIPLE_CHOICE]
+> Chiba-san's grandfather thinks…
+- … the woman lives in the museum.
+- … the woman has a car.
++ … the woman in the photo is very pretty.
+
+[LINE]
+SpeakerSpeaker448: そうです。|とても|美しい|です。            
+~                  That~is~right  very  pretty  is 
+$1328/speech_1328_16.mp3;5,0;4,722.25;4,481.5;4,481.5
+
+[LINE]
+Speaker2474: 私の|祖母|です。         
+~            My  grandmother  is 
+$1328/speech_1328_17.mp3;2,0;3,261;4,261
+
+[LINE]
+SpeakerSpeaker448: うわー！
+~                  Wow 
+$1328/speech_1328_18.mp3;4,0
+
+[LINE]
+Speaker2474: 私|にはとても|興味深い|家族|がいます|ね！                        
+~            I      very  very~interesting  family    I~have  right？
+$1328/speech_1328_19.mp3;1,0;2,175.609756097561;2,175.609756097561;4,175.60975609756088;5,351.219512195122;3,439.0243902439024;2,263.41463414634154;4,175.60975609756088;3,351.21951219512175
+
+[MULTIPLE_CHOICE]
+> What happened in the story?
+- Chiba-san saw a photo of her grandfather at the museum.
+- Chiba-san did not enjoy going to the museum.
++ Chiba-san's grandfather saw a photo of his grandmother at the museum.
+
+[MATCH]
+> Tap the pairs
+- 写真 <> photo
+- 大学 <> university
+- 美しい <> pretty (f)
+- 家族 <> family
+- おじいさん <> grandpa/grandfather
+- 祖母 <> grandma/grandmother
+- 彼女 <> woman
+
