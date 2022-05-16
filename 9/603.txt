@@ -1,0 +1,136 @@
+[DATA]
+fromLanguageName=A Big Family
+icon=9a2dcd1a9eaff04d1e9b4338e9afcead94c365bf
+set=2|3
+
+speaker_Speaker341=Tatyana
+speaker_Speaker342=Tatyana
+speaker_Speaker343=Tatyana
+
+[HEADER]
+> Большая~семья
+~ a~big~family 
+$603/speech_603_0.mp3;7,6;6,616
+
+[LINE]
+> Оля встречается с~семьёй        Светы.   
+~ ~   is~meeting  with~the~family of~Sveta 
+$603/speech_603_1.mp3;3,6;12,277;2,911;7,72;6,553
+
+[MULTIPLE_CHOICE]
+> Olya is meeting Sveta's family.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker341: Света! Моя~любимая~дочка!   
+~           ~      my~favorite~daughter 
+$603/speech_603_3.mp3;5,6;5,932;8,266;6,451
+
+[LINE]
+Speaker125: Мама, у~тебя   одна дочка!   
+~           mom   you~have one  daughter 
+$603/speech_603_4.mp3;4,6;3,591;5,82;5,266;6,261
+
+[LINE]
+Speaker125: Это   моя~девушка,   Оля.
+~           it~is my~girlfriend  ~   
+$603/speech_603_5.mp3;3,6;4,213;8,256;5,785
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "girlfriend."
+> Это (моя) (+девушка), (Оля).
+
+[LINE]
+Speaker856: Здравствуйте!
+~           hello        
+$603/speech_603_7.mp3;12,6
+
+[LINE]
+Speaker125: Оля, это   мой        брат, Тимофей.
+~           ~    it~is my~brother ~     ~       
+$603/speech_603_8.mp3;3,6;5,572;4,218;5,222;9,610
+
+[LINE]
+Speaker856: Привет!
+~           hi     
+$603/speech_603_9.mp3;6,6
+
+[LINE]
+Speaker125: И   моя~бабушка.   
+~           and my~grandmother 
+$603/speech_603_10.mp3;1,6;4,66;8,313
+
+[LINE]
+Speaker856: Добрый~день…
+~           good~day…   
+$603/speech_603_11.mp3;6,6;6,343
+
+[LINE]
+Speaker125: Вот     мой       папа. А     это        мой брат, Давид.
+~           this~is my~father and   it~is my~brother ~   ~     ~     
+$603/speech_603_12.mp3;3,6;4,229;5,190;3,794;4,116;4,217;5,222;7,615
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker856: Здравствуйте! [Рада             познакомиться] !
+~           hello          nice~to~meet~you ~               
+$603/speech_603_13.mp3;12,6;6,1282;14,321
+- Рада познакомить вас
++ Рада познакомиться
+- Как познакомиться
+
+[LINE]
+Speaker125: Вот     мой~дедушка,    Алексей.
+~           this~is my~grandfather  ~       
+$603/speech_603_14.mp3;3,6;4,394;8,188;9,792
+
+[LINE]
+Speaker856: Добрый~день!
+~           good~day    
+$603/speech_603_15.mp3;6,6;5,343
+
+[ARRANGE]
+> Put the words in the right order
+Speaker856: [(У) (вас) (большая) (семь)]я !
+$603/speech_603_16.mp3;1,6;4,86;8,199;6,442
+
+[LINE]
+Speaker341: Но  у~меня только одна дочка.   
+~           but I~have only   one  daughter 
+$603/speech_603_17.mp3;2,6;2,129;5,53;7,274;5,326;6,272
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "but."
+SpeakerMother: (+Но) у меня (только) (одна) (дочка).
+
+[LINE]
+Speaker125: Мама!
+~           Mum  
+$603/speech_603_19.mp3;4,6
+
+[LINE]
+Speaker341: Ах, да!  Теперь у~меня две дочки.     Добро~пожаловать в~семью,       Оля!
+~           oh  yes  now    I~have two daughters  Welcome          to~the~family  ~   
+$603/speech_603_20.mp3;2,6;4,582;8,676;2,271;5,52;4,280;6,241;7,963;11,338;2,591;6,83;5,701
+
+[LINE]
+Speaker856: Большое~спасибо!  
+~           Thank~you~so~much 
+$603/speech_603_21.mp3;7,6;8,492
+
+[MULTIPLE_CHOICE]
+> After Olya was introduced to everyone...
+- ... Sveta's mother told her to leave.
++ ... Sveta's mother welcomed her to the family.
+- … she ran away quickly.
+
+[MATCH]
+> Tap the pairs
+- Большое спасибо <> thank you so much
+- мой папа <> my father
+- у меня (есть) <> I have
+- дедушка <> grandfather
+- дочка <> daughter
+- дочки <> daughters
+
