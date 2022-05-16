@@ -1,0 +1,162 @@
+[DATA]
+fromLanguageName=Dinner for a birthday
+icon=0abdcc5823240ad538848a828283979a1c445fa9
+set=4|7
+
+speaker_Speaker345=Tatyana
+speaker_Speaker344=ru-RU-Pavel-Apollo
+
+[HEADER]
+> Ужин   на~день~рождения
+~ Dinner for~a~birthday  
+$907/speech_907_0.mp3;4,6;3,346;5,154;9,182
+
+[LINE]
+> Женя      в~супермаркете.    
+~ Zhenya~is at~the~supermarket 
+$907/speech_907_1.mp3;4,6;2,393;13,57
+
+[LINE]
+Speaker724: Извините? 
+~           excuse~me 
+$907/speech_907_2.mp3;8,6
+
+[LINE]
+Speaker127: Да? 
+~           yes 
+$907/speech_907_3.mp3;2,6
+
+[LINE]
+Speaker724: Мне~надо купить продукты  на  сегодняшний ужин.  
+~           I~need   to~buy groceries for today's     dinner 
+$907/speech_907_4.mp3;3,6;5,203;7,280;9,346;3,490;12,109;5,720
+
+[MULTIPLE_CHOICE]
+> Zhenya is buying groceries for tonight's dinner.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker127: Вот~здесь       много продуктов     для хорошего ужина.     
+~           Over~here~[are] many  (of)~products for [a]~good (a)~dinner 
+$907/speech_907_6.mp3;3,6;6,256;6,429;10,324;4,651;9,185;6,687
+
+[LINE]
+Speaker127: Что  Вы          хотите       приготовить?
+~           What you(formal) want(formal) to~prepare  
+$907/speech_907_7.mp3;3,6;3,291;7,139;12,491
+
+[LINE]
+Speaker724: Я хочу приготовить самый лучший ужин   на  день~рождения
+~           I want to~prepare  the   best   dinner for a~birth~day  
+$907/speech_907_8.mp3;1,6;5,176;12,270;6,586;7,403;5,375;3,339;5,120;9,210
+
+[MULTIPLE_CHOICE]
+> What does Zhenya want to prepare?
+- A simple vegetarian dish.
++ The best birthday dinner.
+- A complicated dessert.
+
+[LINE]
+Speaker127: Я так люблю дни~рождения!!
+~           I so  love  birthdays     
+$907/speech_907_10.mp3;1,6;4,239;6,251;4,502;9,193
+
+[LINE]
+Speaker724: Сегодня Серёжин    день~рождения.
+~           Today   Seryezha's birthday      
+$907/speech_907_11.mp3;7,6;8,485;5,587;9,253
+
+[LINE]
+Speaker127: Серёжа ест  мясо?
+~           ~      eats meat 
+$907/speech_907_12.mp3;6,6;4,580;5,405
+
+[MULTIPLE_CHOICE]
+> The clerk is wondering if Seryezha eats...
++ ... meat.
+- ... hamburgers.
+- ... pasta.
+
+[LINE]
+Speaker724: Иногда.    Не  часто.     
+~           Sometimes  Not frequently 
+$907/speech_907_14.mp3;6,6;4,897;6,139
+
+[LINE]
+Speaker127: Ладно. А   он ест  рыбу?
+~           Ok     But he eats fish 
+$907/speech_907_15.mp3;5,6;3,905;3,162;4,231;5,338
+
+[LINE]
+Speaker724: Да!  Он обожает          рыбу!
+~           Yes  He [is]~crazy~about fish 
+$907/speech_907_16.mp3;2,6;4,679;8,168;5,546
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "Crazy about"
+> (Да) (Он) (+обожает) (рыбу)
+$907/speech_907_17.mp3;2,6;3,174;8,160;5,635
+
+[LINE]
+Speaker724: Я хочу купить рыбу пожалуйста.
+~           I want to~buy fish please     
+$907/speech_907_18.mp3;1,6;5,129;7,480;5,430;11,292
+
+[LINE]
+Speaker127: Серёжа          везучий парень.
+~           Seryezha~[is~a] lucky   guy    
+$907/speech_907_19.mp3;6,6;8,582;7,654
+
+[MULTIPLE_CHOICE]
+> What does the clerk think?
+- Seryezha is at home.
+- Seryezha is a nice name.
++ Seryezha is a lucky guy.
+
+[LINE]
+Speaker724: Серёжа        не  парень.
+~           Seryezha~[is] not a~guy  
+$907/speech_907_21.mp3;6,6;3,515;7,133
+
+[LINE]
+Speaker127: Нет?!
+~           no   
+$907/speech_907_22.mp3;3,6
+
+[LINE]
+Speaker724: Нет! Серёжа        —|  мой кот!
+~           No   Seryezha~[is] my  cat ~   
+$907/speech_907_23.mp3;3,6;8,833;2,444;4,179
+
+[LINE]
+Speaker127: A!  Серёжа          очень везучий кот.
+~           Ah  Seryezha~[is~a] very  lucky   cat 
+$907/speech_907_24.mp3;1,6;8,667;6,566;8,361;4,593
+
+[MULTIPLE_CHOICE]
+> Zhenya revealed that Seryezha is…
+- … her husband.
++ … her cat.
+- … her brother.
+
+[MATCH]
+> Tap the pairs
+- кот <> cat(m)
+- везучий <> lucky(m)
+- парень <> guy
+- обожает <> crazy about (S/he)
+- Самый <> The(m)
+- лучший <> best(m)
+- ужин <> dinner
+
+[MATCH]
+> Tap the pairs
+- день рождения <> birthday
+- Извините <> Excuse me (formal&plural)
+- продукты <> groceries/products
+- Вот здесь <> Over here/In this place
+- Иногда <> Sometimes
+- Не часто <> Not frequently
+- сегодняшний <> today's
+
