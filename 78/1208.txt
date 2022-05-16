@@ -1,0 +1,161 @@
+[DATA]
+fromLanguageName=Sorpresa!
+icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
+set=1|4
+
+speaker_Narrator=en-US-Wavenet-B
+speaker_Speaker105=en-US-Wavenet-H
+speaker_Speaker104=en-US-Wavenet-J
+speaker_Speaker106=en-US-AriaNeural
+
+[HEADER]
+> Surprise!
+~ sorpresa 
+$1208/speech_1208_0.mp3;8,0
+
+[LINE]
+> Bruce is   in a   restaurant  with his mother.
+~ ~     è    in un  ristorante  con  sua madre  
+$1208/speech_1208_1.mp3;5,0;3,259.2;5,216;2,129.59999999999997;12,129.60000000000002;6,518.4;4,216;7,172.79999999999995
+
+[LINE]
+Speaker559: A     table  for  three, please.    
+~           una   tavola per  tre    per~favore 
+$1208/speech_1208_2.mp3;1,0;8,181.0909090909091;4,271.6363636363636;7,226.36363636363632;8,316.909090909091
+
+[LINE]
+Speaker385: Three? You, me, and…?
+~           tre    tu   io  e…   
+$1208/speech_1208_3.mp3;5,0;5,443.3333333333333;4,316.6666666666667;6,253.33333333333326
+
+[LINE]
+Speaker559: A     friend.
+~           una   amica  
+$1208/speech_1208_4.mp3;1,0;9,125.53846153846155
+
+[MULTIPLE_CHOICE]
+> Oltre a loro chi altro verrà a cenare?
+- Il fratello di Bruce.
++ Un'amica della mamma di Bruce.
+- Il papà di Bruce.
+
+[LINE]
+Speaker385: Oh…| I   need…     
+~           ~…   io  necessito…
+$1208/speech_1208_6.mp3;3,0;2,184.88888888888889;7,138.66666666666666
+
+[LINE]
+Speaker559: I   have  a     surprise!
+~           io  ho    una   sorpresa 
+$1208/speech_1208_7.mp3;1,0;6,110.91891891891892;3,221.83783783783787;11,147.89189189189193
+
+[LINE]
+Speaker385: I…|   I   have  a     surprise too.    
+~           io…   io  ho    una   sorpresa anch'io 
+$1208/speech_1208_8.mp3;2,0;3,202.66666666666669;6,152;3,303.99999999999994;11,202.66666666666663;4,456
+
+[ARRANGE]
+> Ascolta e seleziona le parole
+Speaker559: [(My)  (friend) (is) (very)  (nice)].  
+~             mia   amica    è    molto   carina   
+$1208/speech_1208_9.mp3;2,0;7,138.3157894736842;3,322.7368421052631;5,138.31578947368422;5,230.52631578947364
+
+[LINE]
+Speaker559: She's   a     business~student.    
+~           lei~è   una   studente~d'economia~ 
+$1208/speech_1208_10.mp3;5,0;4,257.45454545454544;11,128.7272727272727;8,289.63636363636374
+
+[LINE]
+Speaker559: Her name   is Sonia.
+~           suo nome   è  ~     
+$1208/speech_1208_11.mp3;3,0;5,139.88571428571427;5,244.79999999999998;6,104.91428571428577
+
+[LINE]
+Speaker385: Mom,    I   need…     
+~           mamma   io  necessito…
+$1208/speech_1208_12.mp3;3,0;4,268.13793103448273;7,134.0689655172414
+
+[LINE]
+Speaker559: And she's   beautiful! Perfect   for  my  son!   
+~           e   lei~è   carina     perfetta  per  mio figlio 
+$1208/speech_1208_13.mp3;3,0;6,172.47457627118644;12,344.94915254237293;9,474.30508474576266;5,388.06779661016947;4,215.59322033898297;4,129.35593220338978
+
+[MULTIPLE_CHOICE]
+> La mamma di Bruce vuole…
++ … che Bruce esca con la sua amica, Sonia.
+- … che Bruce se ne vada dal restorante.
+- … farsi una nuova amica.
+
+[LINE]
+> A     woman enters~the restaurant.
+~ una   donna entra~nel  ristorante 
+$1208/speech_1208_15.mp3;1,0;8,185.87234042553192;7,278.8085106382979;4,325.2765957446809;11,185.8723404255319
+
+[LINE]
+Speaker125: Hi,     honey! 
+~           ciao    tesoro 
+$1208/speech_1208_16.mp3;2,0;9,416
+
+[LINE]
+Speaker559: Honey? 
+~           tesoro 
+$1208/speech_1208_17.mp3;5,0
+
+[MULTIPLE_CHOICE]
+> Perché è sopresa la mamma di Bruce?
+- Quello che hanno ordinato è arrivato subito.
++ Non sapeva che Bruce fosse in una relazione.
+- Bruce se ne è andato dal ristorante
+
+[LINE]
+Speaker385: Hi,     Carla. Mom…  
+~           ciao    ~      mamma…
+$1208/speech_1208_19.mp3;2,0;9,346.5;6,404.25
+
+[LINE]
+Speaker125: Bruce, is this   your mother?
+~           ~      è  questa tua  madre  
+$1208/speech_1208_20.mp3;5,0;4,402;5,172.28571428571422;5,287.1428571428572;7,287.142857142857
+
+[LINE]
+Speaker559: Bruce?!
+$1208/speech_1208_21.mp3;5,0
+
+[SELECT_PHRASE]
+> Completa la frase
+Speaker125: [How  are  you]?
+~            come stai tu   
+$1208/speech_1208_22.mp3;3,0;4,256;4,256
+- How aren't you
+- How art your
++ How are you
+
+[LINE]
+Speaker125: I'm        Carla! Bruce's~wife.      
+~           io~sono    ~      la~moglie~di~Bruce 
+$1208/speech_1208_23.mp3;3,0;9,600;9,600;5,685.7142857142858
+
+[LINE]
+Speaker559: Wife?!  
+~           moglie  
+$1208/speech_1208_24.mp3;4,0
+
+[LINE]
+Speaker385: Surprise!
+~           sorpresa 
+$1208/speech_1208_25.mp3;8,0
+
+[MULTIPLE_CHOICE]
+> Qual è stata la sorpresa di Bruce?
+- Vuole sposarsi con l'amica di sua madre.
++ É sposato con Carla.
+- Non vuole sposarsi con nessuno.
+
+[MATCH]
+> Seleziona le coppie
+- name <> nome
+- enters the <> entra nel
+- son <> figlio
+- in <> in
+- your <> tua
+
