@@ -1,0 +1,153 @@
+[DATA]
+fromLanguageName=The New Mall
+icon=22d80e422eeb2f9e860d1f014edf989ff6257372
+set=3|7
+
+speaker_Speaker136=Carla
+speaker_Speaker135=Giorgio
+
+[HEADER]
+> Il   nuovo centro~commerciale
+~ the  new   mall              
+$1036/speech_1036_0.mp3;2,6;7,138;7,330;12,444
+
+[LINE]
+> Rebecca legge   il   giornale  sul     treno.
+~ ~       reads   the  newspaper on~the  train 
+$1036/speech_1036_1.mp3;7,6;6,528;5,373;10,67;4,511;7,241
+
+[LINE]
+Speaker1320: Wow!
+~            wow 
+$1036/speech_1036_2.mp3;3,6
+
+[LINE]
+Speaker258: Che   succede?     
+~           what  is~happening 
+$1036/speech_1036_3.mp3;3,6;9,125
+
+[LINE]
+Speaker1320: C'è           un nuovo centro~commerciale in      città!
+~            there~is      a  new   mall               in~the  city  
+$1036/speech_1036_4.mp3;3,6;8,220;6,198;7,314;12,422;3,807;7,101
+
+[MULTIPLE_CHOICE]
+> There is a new shopping mall in their city.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker258: Davvero?
+~           really  
+$1036/speech_1036_6.mp3;7,6
+
+[LINE]
+Speaker1320: Sì,   e     c'è           un cinema   3D!
+~            yes   and   there~is      a  cinema   3D 
+$1036/speech_1036_7.mp3;2,6;4,560;6,130;8,222;7,188;5,446
+
+[LINE]
+Speaker1320: E   c'è      anche  il   ristorante giapponese che   ti~piace!
+~            and there~is also   the  restaurant japanese   that  you~like 
+$1036/speech_1036_8.mp3;1,6;4,102;6,167;4,254;12,150;11,702;4,671;4,136;6,152
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker258: [Andiamo      ora]!
+~            let's~go~now ~    
+$1036/speech_1036_9.mp3;7,6;4,405
++ Andiamo ora
+- Ancora ora
+- Andiamo fuori
+
+[LINE]
+Speaker258: In che   parte di Napoli si~trova?
+~           in what  part  of ~      is~it    
+$1036/speech_1036_10.mp3;2,6;4,148;7,139;3,330;7,128;3,350;6,153
+
+[LINE]
+Speaker1320: Hmmm…| in     via    Canimorti?
+~            ~…     on~the street ~         
+$1036/speech_1036_11.mp3;5,6;3,538;4,161;10,248
+
+[LINE]
+Speaker258: Non~lo~so           dov'è    la   via    Canimorti.
+~           I~don't~know        where~is the  street ~         
+$1036/speech_1036_12.mp3;3,6;3,137;3,95;13,218;3,247;5,131;10,212
+
+[ARRANGE]
+> Tap what you hear
+Speaker258: [(Posso) (vedere)  (il)  (giornale)]? 
+~             can~I   look~at   the   newspaper   
+$1036/speech_1036_13.mp3;5,6;7,263;3,306;9,87
+
+[LINE]
+Speaker1320: Ecco qui.     
+~            here you~have 
+$1036/speech_1036_14.mp3;4,6;4,371
+
+[LINE]
+Speaker258: Rebecca…
+$1036/speech_1036_15.mp3;8,6
+
+[LINE]
+Speaker258: Il   nuovo centro~commerciale non~è   nuovo.
+~           the  new   mall               is~not  new   
+$1036/speech_1036_16.mp3;2,6;7,135;7,260;12,392;4,595;2,151;7,74
+
+[LINE]
+Speaker258: È        lo   stesso.
+~           it~is    the  same   
+$1036/speech_1036_17.mp3;1,6;6,96;8,121
+
+[MULTIPLE_CHOICE]
+> What does "stesso" mean here?
+- Small
++ Same
+- Different
+
+[LINE]
+Speaker258: Però il   nome è  diverso!  
+~           but  the  name is different 
+$1036/speech_1036_19.mp3;4,6;3,267;6,116;2,359;8,131
+
+[MULTIPLE_CHOICE]
+> The mall…
+- … is closing down.
++ … is the same one they usually go to, but it has a new name.
+- … is new, but it's not in Naples.
+
+[LINE]
+Speaker1320: Ahh, per~questo    mi~piace. 
+~            ~    that's~why    I~like~it 
+$1036/speech_1036_21.mp3;3,6;5,403;7,186;6,433;6,123
+
+[LINE]
+Speaker1320: Be'|,  andiamo     al         "nuovo" centro~commerciale?
+~            well   let's~go    to~the      new    mall               
+$1036/speech_1036_22.mp3;3,6;9,554;6,522;11,100;8,308;12,462
+
+[LINE]
+Speaker1320: Possiamo andare      al         cinema   e     mangiare   giapponese.     
+~            we~can   go          to~the     cinema   and   eat        japanese~(food) 
+$1036/speech_1036_23.mp3;8,6;7,458;8,327;11,179;4,533;11,121;13,549
+
+[LINE]
+Speaker258: Sì! 
+~           yes 
+$1036/speech_1036_24.mp3;2,6
+
+[MULTIPLE_CHOICE]
+> What are they going to do?
++ Go to the movies and eat japanese food at the mall.
+- Stay home and order japanese food.
+- Go to a new mall in an japanese city.
+
+[MATCH]
+> Tap the pairs
+- ti piace <> you like
+- città <> city
+- andare <> go
+- andiamo <> let's go
+- Sì <> yes
+
