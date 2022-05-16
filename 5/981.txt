@@ -1,0 +1,144 @@
+[DATA]
+fromLanguageName=Surprise!
+icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
+set=1|4
+
+[HEADER]
+> Overraskelse!
+$981/speech_981_0.mp3;12,6
+
+[LINE]
+> Håvard er  på en restaurant  med   sin mor.   
+~ ~      is  in a  restaurant  with  his mother 
+$981/speech_981_1.mp3;6,6;3,484;4,171;3,142;11,130;5,567;5,182;4,261
+
+[LINE]
+Speaker559: Et  bord   for  tre     personer,  takk.  
+~           A   table  for  three   people     please 
+$981/speech_981_2.mp3;2,6;6,160;5,366;5,162;11,359;7,907
+
+[LINE]
+Speaker385: Tre?     Du,   jeg, og...? 
+~           Three    You   I    and    
+$981/speech_981_3.mp3;3,6;6,756;6,573;4,505
+
+[MULTIPLE_CHOICE]
+> Why is Håvard confused?
+- His mom didn't come to the restaurant.
++ His mom asked for a table for three instead of two.
+- His mom asked for three tables.
+
+[LINE]
+Speaker559: En  venn.  
+~           A   friend 
+$981/speech_981_5.mp3;2,6;6,175
+
+[LINE]
+Speaker385: Mamma, jeg trenger...
+~           Mom    I   need      
+$981/speech_981_6.mp3;5,6;5,627;8,188
+
+[LINE]
+Speaker559: Jeg har   en  overraskelse!
+~           I   have  a   surprise     
+$981/speech_981_7.mp3;3,6;4,208;4,206;14,167
+
+[LINE]
+Speaker385: Jeg... Jeg har   også   en overraskelse.
+~           I      I   have  also   a  surprise     
+$981/speech_981_8.mp3;3,6;7,712;4,208;6,205;5,321;13,158
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "nice."
+Speaker559: Min (venn)    er (en)  (veldig)  (+hyggelig) medisinstudent. 
+~           My   friend   is  a     very       nice      medical~student 
+$981/speech_981_9.mp3;3,6;5,246;4,352;3,199;8,140;10,347;15,415
+
+[LINE]
+Speaker559: Hennes navn er Silje.
+~           Her    navn is ~     
+$981/speech_981_10.mp3;6,6;5,377;3,359;6,180
+
+[LINE]
+Speaker385: Mamma, jeg trenger...
+~           Mom    I   need      
+$981/speech_981_11.mp3;5,6;5,627;8,188
+
+[LINE]
+Speaker559: Og   hun  er veldig vakker! Perfekt  for  min sønn!
+~           And  she  is very   pretty  Perfect  for  my  son  
+$981/speech_981_12.mp3;2,6;5,63;4,173;7,125;7,373;9,886;5,558;5,212;5,206
+
+[MULTIPLE_CHOICE]
+> Håvard's mom wants...
+- … to make a new friend.
++ … Håvard to go on a date with her friend, Silje.
+- … Håvard to leave the restaurant.
+
+[LINE]
+> En  kvinne kommer~inn~i  restauranten.  
+~ A   woman  enters        the~restaurant 
+$981/speech_981_14.mp3;2,6;8,192;7,397;4,329;2,134;14,113
+
+[LINE]
+Speaker125: Hei,       min elskede!
+~           Hello      my  love    
+$981/speech_981_15.mp3;3,6;9,593;8,204
+
+[LINE]
+Speaker559: Min elskede?
+~           My  love    
+$981/speech_981_16.mp3;3,6;8,238
+
+[MULTIPLE_CHOICE]
+> Håvard's mom knew that he was in a relationship.
+- Yes, that's true!
++ No, that's not right!
+
+[LINE]
+Speaker385: Hei,    Kine. Mor...
+~           Hello   ~     Mom   
+$981/speech_981_18.mp3;3,6;7,593;5,833
+
+[LINE]
+Speaker125: Og   du   er    mammaen til Håvard!
+~           And  you  are   mom     of  ~      
+$981/speech_981_19.mp3;2,6;4,35;4,169;10,131;4,437;7,217
+
+[LINE]
+Speaker559: Håvard!?
+$981/speech_981_20.mp3;6,6
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker125: [Hyggelig]     å   møte deg.   Jeg er Kine,  Håvard~sin kone.
+~            ~             to  meet you    I   am ~      Håvard's   wife 
+$981/speech_981_21.mp3;8,6;6,466;6,67;4,326;7,682;3,219;5,138;9,691;4,418;5,283
+- Kjedelig
+- Trist
++ Hyggelig
+
+[LINE]
+Speaker559: Kone?!
+~           Wife  
+$981/speech_981_22.mp3;4,6
+
+[LINE]
+Speaker385: Overraskelse!
+~           Surprise     
+$981/speech_981_23.mp3;12,6
+
+[MULTIPLE_CHOICE]
+> Why is Håvard's mom surprised?
++ She didn't know Håvard was married.
+- She is very happy to see Kine.
+- The food they ordered arrived quickly.
+
+[MATCH]
+> Tap the pairs
+- hans mor <> his mother
+- hyggelig å møte deg <> nice to meet you
+- sønn <> son
+- kone <> wife
+- navnet hennes <> her name
+
