@@ -1,0 +1,160 @@
+[DATA]
+fromLanguageName=In Train
+icon=6d37fa1702d8cb50ebffb3f79fc7c5d020b5459c
+set=7|3
+
+speaker_Narrator=ru-RU-Standard-E
+speaker_Speaker285=ru-RU-Wavenet-B
+speaker_Speaker286=ru-RU-Wavenet-C
+
+[HEADER]
+> В  электричке    
+~ in electric~train
+$1284/speech_1284_0.mp3;1,0;11,78.22222222222221
+
+[LINE]
+> Вероника и   Николай каждый день возвращаются с    работы на одной    электричке.    
+~ ~        and ~       every  day  return       from work   by the~same electric~train 
+$1284/speech_1284_1.mp3;8,0;2,461.4545454545455;8,102.5454545454545;7,410.18181818181824;5,358.909090909091;13,256.36363636363626;2,666.5454545454545;7,102.5454545454545;3,358.909090909091;6,153.81818181818153;11,307.63636363636397
+
+[LINE]
+> И   каждый день они  разговаривают в~течение    пяти минут.  
+~ and every  day  they talk          during~(for) five minutes 
+$1284/speech_1284_2.mp3;1,0;7,100.23529411764706;5,350.8235294117647;4,250.58823529411762;14,200.47058823529414;2,701.6470588235294;8,100.23529411764707;5,400.9411764705883;6,250.58823529411757
+
+[LINE]
+Speaker3163: Николай!
+$1284/speech_1284_3.mp3;7,0
+
+[LINE]
+Speaker2705: Мне надо    поговорить с~тобой.
+~            I   have~to talk       to~you  
+$1284/speech_1284_4.mp3;3,0;5,165.2093023255814;11,206.51162790697674;2,454.3255813953488;6,82.60465116279079
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker3163: Давай!   Только быстро.  [Скоро       твоя остановка].
+~            come~on  just   quickly   (it's)~soon your stop       
+$1284/speech_1284_5.mp3;5,0;8,402.62068965517244;7,402.62068965517244;7,460.13793103448256;5,345.1034482758623;10,287.58620689655163
++ Скоро твоя остановка
+- Сколько твоя остановка
+- Скоро моя остановка
+
+[LINE]
+Speaker2705: Вчера     у~меня~было свидание с    одной девушкой.
+~            yesterday I~had       (a)~date with one   girl     
+$1284/speech_1284_6.mp3;5,0;2,295.3220338983051;5,98.44067796610165;5,246.1016949152542;9,246.10169491525437;2,442.98305084745766;6,98.4406779661017;9,295.3220338983049
+
+[LINE]
+Speaker3163: Супер!
+~            super 
+$1284/speech_1284_7.mp3;5,0
+
+[LINE]
+Speaker2705: Да         нет, не  супер!
+~            (emphasis) no   not super 
+$1284/speech_1284_8.mp3;2,0;4,135;4,225;6,135
+
+[ARRANGE]
+> Tap what you hear
+Speaker2705: [(С~ней)    (было)     (очень) (скучн)]о.
+~              with~her   (it)~was   very    boring   
+$1284/speech_1284_9.mp3;1,0;4,92.3076923076923;5,184.61538461538464;6,230.76923076923072;7,276.92307692307696
+
+[LINE]
+Speaker2705: Она говорит очень мало.  
+~            she talks   very  little 
+$1284/speech_1284_10.mp3;3,0;8,156.6315789473684;6,313.2631578947369;5,234.94736842105254
+
+[LINE]
+Speaker2705: У~нас                с    ней нет ничего  общего.   
+~            (+нет)~we~don't~have with her ~   nothing in~common 
+$1284/speech_1284_11.mp3;1,0;4,89.60000000000001;2,179.2;4,89.60000000000002;4,179.2;7,179.20000000000005;7,313.5999999999998
+
+[MULTIPLE_CHOICE]
+> Nikolay had many things in common with his date last night.
++ No, that's not right.
+- Yes, that's true.
+
+[LINE]
+Speaker3163: Я~тебя~хорошо~понимаю.     
+~            I~understand~you~very~well 
+$1284/speech_1284_13.mp3;1,0;5,94.70270270270271;7,236.75675675675677;8,331.4594594594595
+
+[LINE]
+Speaker3163: Я~бы~хотела  встретить кого-нибудь весёлого и   интересного.
+~            I~would~like to~meet   somebody    cheerful and interesting 
+$1284/speech_1284_14.mp3;1,0;3,104.66666666666666;7,157.00000000000003;10,366.3333333333333;12,523.3333333333335;9,627.9999999999998;2,471.0000000000002;12,104.66666666666652
+
+[LINE]
+Speaker3163: Кого-нибудь как… 
+~            somebody    like…
+$1284/speech_1284_15.mp3;11,0;5,268.47457627118644
+
+[LINE]
+Speaker2705: … ты. 
+~              you 
+$1284/speech_1284_16.mp3;1,34
+
+[CONTINUATION]
+> What comes next?
+Speaker2705: Мы видимся        каждый день, и   я   всегда рад   [пообщаться            с    тобой].
+~            we see~each~other every  day   and I'm always happy  to~chat~(communicate) with you    
+$1284/speech_1284_17.mp3;2,0;8,94.15384615384616;7,251.07692307692307;5,219.69230769230768;3,188.30769230769238;2,62.76923076923072;7,62.76923076923083;4,219.6923076923075;11,125.53846153846166;2,345.2307692307693;6,62.76923076923072
+- что  ты        очень скучная
+~ that you~(are) very  boring 
+- следующей остановке
+~ the~next  stop     
++ пообщаться            с    тобой
+~ to~chat~(communicate) with you  
+
+[LINE]
+Speaker3163: Я люблю общаться              с    тобой!
+~            I love  to~chat~(communicate) with you   
+$1284/speech_1284_18.mp3;1,0;6,97.2;9,291.6;2,437.3999999999999;6,97.20000000000005
+
+[LINE]
+Speaker2705: О, нет!
+~            ~  no  
+$1284/speech_1284_19.mp3;1,0;5,117.81818181818181
+
+[LINE]
+Speaker2705: Моя остановка!
+~            my  stop      
+$1284/speech_1284_20.mp3;3,0;10,165.51724137931035
+
+[MULTIPLE_CHOICE]
+> What has Nikolay just realized?
++ They went past his stop.
+- He's lost his train ticket.
+- He wants to call the girl he went out with.
+
+[LINE]
+Speaker3163: Не~переживай, следующая остановка моя.      
+~            don't~worry   the~next  stop      (is)~mine 
+$1284/speech_1284_22.mp3;2,0;10,163.0188679245283;11,597.7358490566038;10,543.3962264150944;4,543.3962264150941
+
+[LINE]
+Speaker3163: И   недалеко от~неё  есть     хороший  ресторанчик.        
+~            and not~far  from~it there~is (a)~good (little)~restaurant 
+$1284/speech_1284_23.mp3;1,0;9,101.79310344827586;3,458.06896551724134;4,152.68965517241384;5,203.58620689655174;8,254.48275862068976;12,407.17241379310326
+
+[LINE]
+Speaker2705: Здорово! Мы~сможем       пообщаться            подольше!
+~            awesome  we~will~be~able to~chat~(communicate) longer   
+$1284/speech_1284_24.mp3;7,0;4,448;7,149.33333333333326;11,348.44444444444457;9,547.5555555555557
+
+[MULTIPLE_CHOICE]
+> Why is Nikolay so happy?
+- Because he can't wait to go home.
+- Because he will finally quit his job.
++ Because he'll finally talk to Veronika for more than five minutes.
+
+[MATCH]
+> Tap the pairs
+- общаться <> to chat / to communicate
+- остановка <> stop
+- мы сможем <> we will be able
+- мне надо поговорить <> I have to talk
+- каждый день <> every day
+
