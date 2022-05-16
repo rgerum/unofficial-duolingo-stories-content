@@ -1,0 +1,119 @@
+[DATA]
+fromLanguageName=Собеседование
+icon=e3c4951a636e72c3f82ef749d5fbf2e61d51628d
+set=2|4
+
+icon_Speaker392=https://stories-cdn.duolingo.com/image/3efc9f39ba59f0e08d66317272db579e976fc47f.svg
+icon_Speaker391=https://stories-cdn.duolingo.com/image/883741c5440a7570841a156052c1ba8af930ff28.svg
+speaker_Speaker392=fr-FR-Wavenet-A
+speaker_Speaker391=fr-FR-Wavenet-D
+speaker_Narrator=Mathieu
+
+[HEADER]
+> L'entretien  
+~ Собеседование
+$1174/speech_1174_0.mp3;11,6
+
+[LINE]
+SpeakerSpeaker392: Bonjour     !
+~                  Добрый~день  
+$1174/speech_1174_1.mp3;7,0
+
+[LINE]
+SpeakerSpeaker391: Bonjour      ! J'ai~besoin~de vêtements.
+~                  Здравствуйте   Мне~нужна      одежда    
+$1174/speech_1174_2.mp3;7,0;7,436.8;7,218.39999999999992;3,305.7600000000001;10,131.03999999999996
+
+[MULTIPLE_CHOICE]
+> Мужчине нужны продукты.
+- Yes, that's true.
++ No, that's not right.
+
+[LINE]
+SpeakerSpeaker392: D'accord, vous avez~besoin~de quoi ?
+~                  Хорошо    Вам  нужно          что   
+$1174/speech_1174_4.mp3;8,0;6,428.2352941176471;5,214.11764705882354;7,214.11764705882354;3,299.7647058823529;5,128.47058823529414
+
+[LINE]
+SpeakerSpeaker392: Nous~avons des~chaussures et  des~chemises.
+~                  У~нас~есть обувь          и   рубашки      
+$1174/speech_1174_5.mp3;4,0;6,182.0689655172414;4,218.4827586206896;11,145.6551724137932;3,400.55172413793105;5,145.65517241379314;9,145.6551724137928
+
+[MULTIPLE_CHOICE]
+> В магазине продают…
++ … обувь и рубашки.
+- … кепки и очки.
+- … велосипеды и скейтборды.
+
+[LINE]
+SpeakerSpeaker391: J'ai~besoin~d'|une~chemise.
+~                  Мне~нужна       рубашка     
+$1174/speech_1174_7.mp3;4,0;7,184.390243902439;3,258.1463414634146;4,221.2682926829268
+
+[POINT_TO_PHRASE]
+> Выберите вариант, означающий "эта".
+SpeakerSpeaker391: (J'aime)       (+cette) (chemise).
+~                   Мне~нравится    эта     рубашка  
+$1174/speech_1174_8.mp3;6,0;6,233.33333333333334;8,199.99999999999997
+
+[LINE]
+SpeakerSpeaker392: Elle~est très  bien    !
+~                  Она      очень хорошая  
+$1174/speech_1174_9.mp3;4,0;4,137.14285714285714;5,109.7142857142857;5,137.14285714285717
+
+[ARRANGE]
+> Выберите верный порядок слов
+SpeakerSpeaker391: [(Et) (j'ai~besoin~de) (chaussures)].
+~                    И    мне~нужна        обувь        
+$1174/speech_1174_10.mp3;2,0;5,125.99999999999999;7,210;3,294;11,126
+
+[LINE]
+SpeakerSpeaker392: Très  bien   ! C'est pour~quelle~occasion ?
+~                  Очень хорошо   Это   по~какому~случаю      
+$1174/speech_1174_11.mp3;4,0;5,183.27272727272728;8,256.5818181818181;5,219.92727272727274;7,183.27272727272725;9,256.5818181818181
+
+[LINE]
+SpeakerSpeaker391: J'ai     un~entretien. 
+~                  У~меня   собеседование 
+$1174/speech_1174_12.mp3;4,0;5,240;10,102.85714285714283
+
+[MULTIPLE_CHOICE]
+> Зачем мужчине нужна новая одежда?
+- У него свидание.
+- Он потерял всю старую одежду.
++ У него собеседование.
+
+[LINE]
+SpeakerSpeaker392: Et où~est l'entretien   ?
+~                  А  где    собеседование  
+$1174/speech_1174_14.mp3;2,0;3,100.42105263157895;4,100.42105263157895;12,133.89473684210523
+
+[LINE]
+SpeakerSpeaker391: Dans mon  magasin  préféré.
+~                  В    моём магазине любимом 
+$1174/speech_1174_15.mp3;4,0;4,216;8,172.8;8,345.59999999999997
+
+[LINE]
+SpeakerSpeaker392: Votre magasin  préféré ?
+~                  Вашем магазине любимом  
+$1174/speech_1174_16.mp3;5,0;8,253.89473684210526;8,338.5263157894737
+
+[LINE]
+SpeakerSpeaker391: Oui ! Dans ce     magasin  !
+~                  Да    В    этом   магазине  
+$1174/speech_1174_17.mp3;3,0;7,234;3,195.00000000000006;10,194.99999999999994
+
+[MULTIPLE_CHOICE]
+> Где будет проходить собеседование?
+- В офисе через дорогу.
+- В больнице.
++ В магазине, в котором мужчина сейчас покупает одежду.
+
+[MATCH]
+> Выберите пары
+- j'aime <> мне нравится/я люблю
+- une chemise <> рубашка
+- bonjour <> добрый день/здравствуйте
+- quoi <> что
+- des chaussures <> обувь
+
