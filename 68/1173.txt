@@ -1,0 +1,136 @@
+[DATA]
+fromLanguageName=Большая семья
+icon=9a2dcd1a9eaff04d1e9b4338e9afcead94c365bf
+set=2|3
+
+speaker_Speaker341=Lea
+speaker_Speaker342=fr-FR-Wavenet-E
+speaker_Speaker343=fr-FR-Wavenet-A
+speaker_Narrator=fr-FR-Wavenet-D
+
+[HEADER]
+> Une~grande famille
+~ Большая    семья  
+$1173/speech_1173_0.mp3;3,0;7,145.45454545454547;8,254.54545454545453
+
+[LINE]
+> Odile rencontre     la~famille de Melissa.
+~ ~     знакомится~с  семьёй     ~  ~       
+$1173/speech_1173_1.mp3;5,0;10,282.66666666666663;4,518.2222222222223;8,141.33333333333326;3,376.8888888888889;8,141.33333333333326
+
+[MULTIPLE_CHOICE]
+> Одиль знакомится с семьёй Мелисы.
+- Нет.
++ Да.
+
+[LINE]
+Speaker341: Melissa ! Ma  fille préférée !
+~           ~         Моя дочка любимая   
+$1173/speech_1173_3.mp3;7,6;5,1038;6,184;9,204
+
+[LINE]
+Speaker125: Maman, tu~as    une  fille !
+~           Мама   у~тебя   одна дочка  
+$1173/speech_1173_4.mp3;5,0;4,286.82926829268297;3,122.92682926829264;6,204.8780487804878;6,163.90243902439033
+
+[POINT_TO_PHRASE]
+> Выберите вариант, означающий "девушка".
+Speaker125: (C'est)   (ma)  (+copine),  (Odile).
+~            Это       моя    девушка    ~      
+$1173/speech_1173_5.mp3;5,0;5,326.40000000000003;7,122.39999999999998;7,326.3999999999999
+
+[LINE]
+Speaker856: Bonjour      !
+~           Здравствуйте  
+$1173/speech_1173_6.mp3;7,0
+
+[LINE]
+Speaker125: Odile, c'est mon frère, Thomas.
+~           ~      это   мой брат   ~      
+$1173/speech_1173_7.mp3;5,0;7,299.47826086956525;4,256.695652173913;6,171.13043478260863;8,299.47826086956536
+
+[LINE]
+Speaker856: Salut  !
+~           Привет  
+$1173/speech_1173_8.mp3;5,0
+
+[LINE]
+Speaker125: Et  ma  grand-mère.
+~           И   моя бабушка    
+$1173/speech_1173_9.mp3;2,0;4,133.8181818181818;11,100.36363636363637
+
+[LINE]
+Speaker856: Bonjour…     
+~           Здравствуйте…
+$1173/speech_1173_10.mp3;8,0
+
+[LINE]
+Speaker125: Voici   mon père  et  mon frère, David.
+~           Вот     мой папа  и   мой брат   ~     
+$1173/speech_1173_11.mp3;5,0;6,337.77777777777777;5,168.88888888888886;4,253.33333333333337;5,168.8888888888888;6,168.88888888888903;7,295.55555555555566
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker856: Bonjour.      [Comment~allez-vous] ?
+~           Здравствуйте   Как~дела             
+$1173/speech_1173_12.mp3;7,0;9,402.54545454545456;11,357.8181818181818
+- Comment faites-vous
+- Commentez nous
++ Comment allez-vous
+
+[LINE]
+Speaker125: Mon grand-père, Dominique.
+~           Мой дедушка     ~         
+$1173/speech_1173_13.mp3;3,0;11,175.609756097561;11,526.829268292683
+
+[LINE]
+Speaker856: Bonjour      !
+~           Здравствуйте  
+$1173/speech_1173_14.mp3;7,0
+
+[ARRANGE]
+> Tap what you hear
+Speaker856: [(Tu)     (as) (une) (grande)  (famille)] !
+~             У~тебя   ~    ~     большая   семья      
+$1173/speech_1173_15.mp3;2,0;3,126.4390243902439;4,126.4390243902439;7,168.58536585365852;8,295.0243902439025
+
+[POINT_TO_PHRASE]
+> Выберите вариант, означающий "но".
+Speaker341: (+Mais) (j'ai)   (seulement)  (une)  (fille).
+~             Но     у~меня   только       одна   дочка  
+$1173/speech_1173_16.mp3;4,6;5,132;10,162;5,408;6,132
+
+[LINE]
+Speaker125: Maman !
+~           Мама   
+$1173/speech_1173_17.mp3;5,0
+
+[LINE]
+Speaker341: Ah, oui ! J'ai     deux filles    maintenant.
+~           ~   да    У~меня   две  дочки     теперь     
+$1173/speech_1173_18.mp3;2,6;5,477;7,644;7,180;7,179;14,323
+
+[LINE]
+Speaker341: Bienvenue        dans la~famille, Odile !
+~           Добро~пожаловать в    семью       ~      
+$1173/speech_1173_19.mp3;9,6;5,533;3,150;8,134;7,736
+
+[LINE]
+Speaker856: Merci   beaucoup !
+~           Спасибо большое   
+$1173/speech_1173_20.mp3;5,0;9,222.96774193548387
+
+[MULTIPLE_CHOICE]
+> После знакомства со всеми…
++ … мама Мелисы приняла Одиль в семью.
+- … Одиль быстро убежала.
+- … мама Мелиссы попросила Одиль уйти.
+
+[MATCH]
+> Выберите пары
+- voici <> вот
+- merci beaucoup <> спасибо большое
+- grande <> большая
+- la famille <> семья
+- bienvenue <> добро пожаловать
+
