@@ -1,0 +1,145 @@
+[DATA]
+fromLanguageName=Good Boy!
+icon=6830f32cae89c97b8418a589d0539c3d87bbff2b
+set=5|2
+
+speaker_Speaker357=Giorgio
+speaker_Speaker358=Carla
+
+[HEADER]
+> Il  buon cane
+~ the good dog 
+$1101/speech_1101_0.mp3;2,6;5,167;5,286
+
+[LINE]
+> Braulio è  in un parco con  Ada e   il  suo cane.
+~ ~       is in a  park  with ~   and her dog ~    
+$1101/speech_1101_1.mp3;7,6;2,551;3,80;3,90;6,121;4,383;4,186;2,257;3,59;4,94;5,213
+
+[LINE]
+Speaker57: Ada, mi~piace il~tuo cane!
+~          ~    I~love   your   dog  
+$1101/speech_1101_2.mp3;3,6;4,529;6,140;3,341;4,90;5,191
+
+[LINE]
+Speaker1848: Grazie!    Guarda!
+~            thank~you  look   
+$1101/speech_1101_3.mp3;6,6;8,954
+
+[LINE]
+Speaker1848: Max! Seduto!  
+~            ~    sit~down 
+$1101/speech_1101_4.mp3;3,6;8,986
+
+[MULTIPLE_CHOICE]
+> Ada is asking Braulio to look at…
+- … how clean her dog is.
+- … how kids are playing in the park.
++ … how her dog sits at her command.
+
+[LINE]
+Speaker57: Ah! Il~tuo~cane   ti~ascolta~sempre?   
+~          Ah  does~your~dog always~listen~to~you 
+$1101/speech_1101_6.mp3;2,6;4,631;4,165;5,149;3,264;8,118;7,411
+
+[CONTINUATION]
+> What comes next?
+Speaker1848: Normalmente mi~ascolta,             [però non sempre]!
+~            usually     he~listens~to~me         but  not always  
+$1101/speech_1101_7.mp3;11,6;3,807;8,104;12,817;4,367;7,192
+- un parco
+~ a  park 
+- mi~piace~il~tuo~cane
+~ I~love~your~dog     
++ però non sempre
+~ but  not always
+
+[LINE]
+Speaker1848: Insegnare qualcosa  a  un cane è  difficile.
+~            teaching  something to a  dog  is difficult 
+$1101/speech_1101_8.mp3;9,6;9,805;2,550;3,58;5,136;2,446;10,134
+
+[LINE]
+Speaker57: Come fai?         
+~          how  do~you~do~it 
+$1101/speech_1101_9.mp3;4,6;4,206
+
+[LINE]
+Speaker1848: Beh,  gli~insegno qualcosa~di nuovo…
+~            well  I~teach~it  something   new…  
+$1101/speech_1101_10.mp3;3,6;5,539;8,141;9,596;3,486;7,105
+
+[LINE]
+Speaker1848: …| e   dopo gli~do    qualcosa~da mangiare!
+~            …  and then I~give~it something   to~eat   
+$1101/speech_1101_11.mp3;1,6;2,305;5,50;4,333;3,155;9,181;3,537;9,127
+
+[MULTIPLE_CHOICE]
+> After teaching her dog something new…
++ … Ada gives it something to eat.
+- … Ada gives it a toy.
+- … Ada gives it some water.
+
+[LINE]
+Speaker57: Ora voglio qualcosa~da mangiare!
+~          now I~want something   to~eat   
+$1101/speech_1101_13.mp3;3,6;7,216;9,290;3,473;9,100
+
+[LINE]
+Speaker1848: Ah, vuoi        il~tuo panino?  
+~            Ah  do~you~want your   sandwich 
+$1101/speech_1101_14.mp3;2,6;6,477;3,366;4,69;7,169
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker57: [Sì,  per     favore]!
+~           yes  ~please ~       
+$1101/speech_1101_15.mp3;2,6;5,519;7,158
++ Sì, per favore
+- Sì, per amore
+- Sì, con favore
+
+[LINE]
+Speaker1848: Max! No!
+~            ~    No 
+$1101/speech_1101_16.mp3;3,6;4,986
+
+[LINE]
+Speaker57: Che  è~successo?
+~          what happened   
+$1101/speech_1101_17.mp3;3,6;2,157;9,56
+
+[MULTIPLE_CHOICE]
+> Braulio is asking Ada what happened.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker1848: Si~sta~mangiando il~tuo panino.  
+~            he~is~eating     your   sandwich 
+$1101/speech_1101_19.mp3;2,6;4,161;10,273;3,626;4,92;7,178
+
+[LINE]
+Speaker1848: Mi~dispiace~molto.
+~            I'm~so~sorry      
+$1101/speech_1101_20.mp3;2,6;9,143;6,603
+
+[LINE]
+Speaker57: Beh,  normalmente ti~ascolta…|        però non sempre!
+~          well  usually     he~listens~to~you…  but  not always 
+$1101/speech_1101_21.mp3;3,6;13,431;3,595;9,122;5,967;4,180;7,162
+
+[MULTIPLE_CHOICE]
+> What happened in the story?
+- Braulio bought a toy for Ada's dog.
++ Ada's dog ate Braulio's sandwich.
+- Braulio decided to buy a dog too.
+
+[MATCH]
+> Tap the pairs
+- Sì, per favore <> yes, please
+- gli do <> I give him
+- è <> is
+- cane <> dog
+- Guarda <> look
+
