@@ -1,0 +1,186 @@
+[DATA]
+fromLanguageName=Do I Know You?
+icon=f4b7a86b9ce48eb4c9b1538021a584b4449c98a0
+set=9|2
+
+icon_Lyena=https://stories-cdn.duolingo.com/image/eb73f392e9ee0cfa66f2f54132e4742caa9fce19.svg
+icon_Stepan=https://stories-cdn.duolingo.com/image/5c0e3dc3bf6643fee057c963573678bf175a01b8.svg
+speaker_Narrator=Tatyana
+speaker_Lyena=ru-RU-EkaterinaRUS
+speaker_Stepan=Maxim
+speaker_Mama=Tatyana
+
+[HEADER]
+> Мы     знакомы?   
+~ Are~we acquainted 
+$931/speech_931_0.mp3;2,6;8,146
+
+[LINE]
+> Степан возвращается из~школы    на~авто́бусе.
+~ ~      is~returning from~school by~bus       
+$931/speech_931_1.mp3;6,6;13,460;3,755;6,127;3,416;10,159
+
+[LINE]
+> Девочка, которую он не  знает, сади́тся рядом~с~ним.
+~ A~girl   whom    he not know   sits     next~to~him 
+$931/speech_931_2.mp3;7,6;9,801;3,445;3,207;6,137;10,721;6,535;2,269;4,149
+
+[LINE]
+SpeakerLyena: Привет, Степан!
+~             Hi      Stepan 
+$931/speech_931_3.mp3;6,0;8,633.6
+
+[SELECT_PHRASE]
+> Select the missing phrase
+SpeakerStepan: Откуда     [ты  знаешь] моё имя? 
+~              From~where  you know    my  name 
+$931/speech_931_4.mp3;6,6;3,451;7,174;4,499;4,309
+- ты слышала
+- ты говоришь
++ ты знаешь
+
+[LINE]
+SpeakerLyena: Меня~зовут     Лена.
+~             [they]~call~me ~    
+$931/speech_931_5.mp3;4,0;6,319.35483870967744;5,383.2258064516129
+
+[LINE]
+SpeakerLyena: И   я знаю много разных    вещей. 
+~             And I know many  different things 
+$931/speech_931_6.mp3;1,0;2,125.5813953488372;5,125.5813953488372;6,313.95348837209303;7,376.7441860465117;6,439.53488372093034
+
+[LINE]
+SpeakerLyena: Например,    я знаю, что  твой любимый  цвет  —|  синий.
+~             For~example  I know  that your favorite color is  blue  
+$931/speech_931_7.mp3;8,0;3,737.1428571428571;5,147.42857142857144;5,442.28571428571433;5,294.85714285714266;8,368.57142857142867;5,589.7142857142858;2,516
+
+[LINE]
+SpeakerStepan: Как ты  можешь знать это? 
+~              How you can    know  this 
+$931/speech_931_8.mp3;3,6;3,205;7,155;6,420;4,356
+
+[ARRANGE]
+> Tap what you hear
+SpeakerLyena: [(И)   (тебе) (нравятся) (приключенческие) (фильм)]ы?
+~               and   you    like       adventure         movies   
+$931/speech_931_9.mp3;1,0;5,120;9,300;16,540;7,960
+
+[LINE]
+SpeakerStepan: Да,  но…
+~              Yes  but
+$931/speech_931_10.mp3;2,6;5,625
+
+[LINE]
+SpeakerLyena: Как~дела~у          Шарика?
+~             How~are~things~with ~      
+$931/speech_931_11.mp3;3,0;5,266.1818181818182;2,332.7272727272727;7,133.09090909090912
+
+[LINE]
+SpeakerStepan: Кто сказал тебе, как зовут     мою собаку?
+~              Who told   you   how is~called my  dog    
+$931/speech_931_12.mp3;3,6;7,256;5,474;5,582;6,204;4,423;7,338
+
+[SELECT_PHRASE]
+> Choose the fitting word(s):
+SpeakerLyena: Твоё любимое  блюдо —|  [жареная картошка].
+~             Your favorite dish  is   fried   potatoes  
+$931/speech_931_13.mp3;4,0;8,349.81132075471703;6,559.6981132075472;2,559.6981132075473;8,559.6981132075468
+- зелёная картошка
+- жаренная коробка
++ жареная картошка
+
+[LINE]
+SpeakerStepan: Откуда     ты  знаешь всё это? 
+~              From~where you know   all this 
+$931/speech_931_14.mp3;6,6;3,451;7,174;4,633;4,227
+
+[LINE]
+SpeakerStepan: И   почему ты  не~отвечаешь      на~мои~вопросы? 
+~              And why    you are~not~answering to~my~questions 
+$931/speech_931_15.mp3;1,6;7,138;3,488;3,183;10,136;3,724;4,84;8,233
+
+[LINE]
+SpeakerLyena: Это     сложно    объяснить. 
+~             That~is difficult to~explain 
+$931/speech_931_16.mp3;3,0;7,260;10,455.0000000000001
+
+[LINE]
+SpeakerLyena: Смотри, здесь   твоя остановка.
+~             Look    here~is your bus~stop  
+$931/speech_931_17.mp3;6,0;7,582.5454545454546;5,436.90909090909076;10,364.0909090909091
+
+[MULTIPLE_CHOICE]
+> What is the meaning of “автобусная остановка”?
+- A place on the bus / Место в автобусе
+- A parking spot in the city / Место для парковки в городе
++ A place where you get off the bus / Место, где ты выходишь из автобуса
+
+[LINE]
+SpeakerLyena: Твоя мама   ждёт       тебя.   
+~             Your mother is~waiting for~you 
+$931/speech_931_19.mp3;4,0;5,324;5,324;5,324
+
+[LINE]
+SpeakerLyena: До~скорого!  
+~             See~you~soon 
+$931/speech_931_20.mp3;2,0;8,195.23076923076925
+
+[LINE]
+> Степан выходит из   автобуса и   говорит с    мамой      о~девочке.     
+~ ~      exits   from the~bus  and speaks  with his~mother about~the~girl 
+$931/speech_931_21.mp3;6,6;8,488;3,550;9,174;2,498;8,64;2,424;6,109;2,316;8,49
+
+[SELECT_PHRASE]
+> Which suits the gap best?
+Speaker439: Лена —~это   имя      твоей   вымышленной подруги    [которая у~тебя~была в  детстве].  
+~           ~    this~is the~name of~your imaginary   friend~(f)  whom    you~had     in childhood  
+$931/speech_931_22.mp3;4,6;2,619;4,218;4,181;6,459;12,600;8,490;8,481;2,53;5,290;5,270;2,63
+- которая у тебя была во взрослом возрасте
++ которая у тебя была в детстве
+- которая у тебя была в юности
+
+[LINE]
+Speaker439: Она никогда не  существовала…
+~           She never   not existed      
+$931/speech_931_23.mp3;3,6;8,206;3,456;14,110
+
+[LINE]
+SpeakerStepan: Не~может~быть!       Эта  девочка существует!
+~              That's~not~possible  This girl    exists     
+$931/speech_931_24.mp3;2,6;6,201;5,404;5,677;8,233;11,594
+
+[LINE]
+SpeakerStepan: Она сидела      рядом~со~мной!
+~              She was~sitting next~to~me    
+$931/speech_931_25.mp3;3,6;7,234;6,465;3,394;5,188
+
+[POINT_TO_PHRASE]
+> Select the option that means "next to":
+SpeakerStepan: (Она) (сидела) (+рядом) (со) (мной)!
+$931/speech_931_26.mp3;3,6;7,225;6,478;3,344;5,168
+
+[LINE]
+Speaker439: Я видела тебя в  автобусе.
+~           I saw    you  in the~bus  
+$931/speech_931_27.mp3;1,6;7,193;5,438;2,242;9,59
+
+[LINE]
+Speaker439: Никого не  было рядом~с тобой.
+~           Nobody not was  next~to you   
+$931/speech_931_28.mp3;6,6;3,419;5,163;6,277;2,353;6,77
+
+[MULTIPLE_CHOICE]
+> Why didn’t Stepan’s mother see Lyena?
++ Because Lyena isn’t a real person / Потому что Лена не является реальным человеком
+- Because she needs glasses / Потому что ей нужны очки
+- Because Lyena is famous / Потому что Лена известная
+
+[MATCH]
+> Put the right words together by connecting the right numbers:
+- city <> город
+- glasses <> очки
+- from <> из
+- nobody <> никого
+- much <> много
+- adult <> взрослый
+
