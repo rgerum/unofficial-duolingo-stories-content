@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=Love Letters
+icon=5c8a64d8aec1682d26f003aafdd4f8fa0abfe4d7
+set=5|10
+
+speaker_Speaker364=Giorgio
+speaker_Speaker363=Carla
+
+[HEADER]
+> Lettere~d'amore
+~ love~letters   
+$1133/speech_1133_0.mp3;7,6;8,470
+
+[LINE]
+Speaker300: Buon~giorno,  Rosanna.
+~           good~morning  ~       
+$1133/speech_1133_1.mp3;4,6;7,226;9,600
+
+[LINE]
+Speaker1186: Buon~giorno,  Armando.
+~            good~morning  ~       
+$1133/speech_1133_2.mp3;4,6;7,304;9,785
+
+[LINE]
+Speaker300: Che~fai?           
+~           what~are~you~doing 
+$1133/speech_1133_3.mp3;3,6;4,121
+
+[LINE]
+Speaker1186: Sto~leggendo queste vecchie lettere.
+~            I~am~reading these  old     letters 
+$1133/speech_1133_4.mp3;3,6;9,308;7,570;8,406;8,314
+
+[MULTIPLE_CHOICE]
+> Rosanna is reading the newspaper.
+- Yes, that's true.
++ No, that's not right.
+
+[LINE]
+Speaker1186: Sono          dei~miei~nonni.            
+~            they~are      my~grandparents'~(letters) 
+$1133/speech_1133_6.mp3;4,6;9,351;5,129;6,257
+
+[LINE]
+Speaker300: Wow!
+~           wow 
+$1133/speech_1133_7.mp3;3,6
+
+[LINE]
+Speaker1186: Devi~leggere      questa lettera,  è      la~mia preferita.
+~            you~have~to~read  this   letter    it's   my     favorite  
+$1133/speech_1133_8.mp3;4,6;8,275;8,469;8,400;4,770;5,76;4,100;10,169
+
+[LINE]
+Speaker300: "Cara Maria, sei        molto  bella".    
+~            dear ~      you~are    very   beautiful  
+$1133/speech_1133_9.mp3;0,6;5,288;6,628;5,260;9,274
+
+[LINE]
+Speaker300: "Suono    la   chitarra e     penso~a           te". 
+~            I~play   the  guitar   and   I~think~about     you  
+$1133/speech_1133_10.mp3;0,6;6,292;5,90;10,486;2,89;8,387;2,45
+
+[MULTIPLE_CHOICE]
+> In the letter, Rosanna's grandfather says…
++ … he is playing his guitar and thinking of Maria.
+- … he is buying flowers for Maria.
+- … he is cleaning his guitar and reading letters.
+
+[LINE]
+Speaker1186: "Caro Giulio, adoro  la~tua~musica…"
+~             dear ~       I~love your~music…    
+$1133/speech_1133_12.mp3;0,6;5,282;7,705;7,332;3,82;4,211
+
+[LINE]
+Speaker1186: "…| e     adoro  i~tuoi occhi~verdi".
+~             …  and   I~love your   green~eyes   
+$1133/speech_1133_13.mp3;0,6;2,312;2,28;8,310;2,57;5,239;6,360
+
+[MULTIPLE_CHOICE]
+> Rosanna's grandmother loved…
+- … Rosanna's grandfather's garden.
+- … Rosanna's green eyes.
++ … Rosanna's grandfather's music and green eyes.
+
+[ARRANGE]
+> Tap what you hear
+Speaker300: [(Queste) (lettere) (sono) (molto) (belle)].    
+~             these    letters   are    very    beautiful   
+$1133/speech_1133_15.mp3;6,6;8,311;5,350;6,216;6,294
+
+[LINE]
+Speaker1186: Sì… 
+~            yes…
+$1133/speech_1133_16.mp3;3,6
+
+[LINE]
+Speaker1186: Ahhh… Armando?
+$1133/speech_1133_17.mp3;5,6;8,889
+
+[LINE]
+Speaker300: Sì,  Rosanna?
+~           yes  ~       
+$1133/speech_1133_18.mp3;2,6;9,503
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1186: [Tu             mi ami]?
+~             do~you~love~me ~  ~    
+$1133/speech_1133_19.mp3;2,6;3,148;4,154
++ Tu mi ami
+- Tu gli ami
+- Tu mi agi
+
+[LINE]
+Speaker300: Certo~che ti~amo!      Sei        mia moglie!
+~           of~course I~love~you   you~are    my  wife   
+$1133/speech_1133_20.mp3;5,6;4,316;3,131;4,176;6,709;7,249;7,153
+
+[LINE]
+Speaker1186: Però tu  non~mi~scrivi  mai      lettere~d'amore…
+~            but  you never          write~me love~letters…   
+$1133/speech_1133_21.mp3;4,6;3,292;4,180;3,147;7,115;5,386;8,210;9,393
+
+[LINE]
+Speaker300: Perché  ora abbiamo la~posta~elettronica!
+~           because now we~have e-mails              
+$1133/speech_1133_22.mp3;6,6;4,231;8,233;3,327;6,103;12,372
+
+[MULTIPLE_CHOICE]
+> Why doesn't Armando write love letters to Rosanna?
+- Because he doesn't love her.
++ Because he can send her emails instead.
+- Because he is too busy playing his guitar.
+
+[MATCH]
+> Tap the pairs
+- vecchie lettere <> old letters
+- preferita <> favorite
+- Perché <> because
+- adoro <> I love
+- mai <> never
+
