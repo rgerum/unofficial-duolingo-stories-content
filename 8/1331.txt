@@ -1,0 +1,156 @@
+[DATA]
+fromLanguageName=The Honeymoon
+icon=7e5d271488d31d6f1d0c503512e642ca7effe84f
+set=1|6
+
+speaker_Narrator=ja-JP-Wavenet-C
+speaker_Speaker111=ja-JP-NanamiNeural
+speaker_Speaker113=ja-JP-KeitaNeural
+speaker_Speaker112=ja-JP-Standard-A
+
+[HEADER]
+> ハネムーン
+~ the  
+$1331/speech_1331_0.mp3;5,0
+
+[LINE]
+> 相葉さんはタクシーに乗っています。---------(Hints have not been reviewed)
+~ ~                                is   in  a    ~        
+$1331/speech_1331_1.mp3;32,0
+
+[LINE]
+Speaker113: おはようございます。  
+~           Good~morning
+$1331/speech_1331_2.mp3;10,0
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker439: こんにちは、| [チョキー、お金] お願いします。             
+~           hello    I~need   to~go~to~the~airport
+$1331/speech_1331_3.mp3;6,0;8,776.4324324324325;8,887.3513513513515
+- 空港まで
+- 空気なんで
++ チョキー、お金
+
+[LINE]
+Speaker113: そうです。
+~           okay 
+$1331/speech_1331_4.mp3;5,0
+
+[LINE]
+Speaker113: 休暇ですか？  
+~           vacation
+$1331/speech_1331_5.mp3;6,0
+
+[LINE]
+Speaker439: 違います。             
+~           it's~not~vacation…
+$1331/speech_1331_6.mp3;5,0
+
+[LINE]
+Speaker439: 沖縄のチケットがあります。
+~           I~have       
+$1331/speech_1331_7.mp3;13,0
+
+[MULTIPLE_CHOICE]
+> 相葉さん has a plane ticket to 沖縄, but she's not on vacation.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker439: 実は、二枚あります。
+~           well…     
+$1331/speech_1331_9.mp3;10,0
+
+[LINE]
+Speaker113: ああ、沖縄は大好きな所で、とてもきれいですね。
+$1331/speech_1331_10.mp3;23,0
+
+[LINE]
+Speaker439: 私のハネムーンのです。
+~           it~is      
+$1331/speech_1331_11.mp3;11,0
+
+[MULTIPLE_CHOICE]
+> Why is 相葉さん going to 沖縄?
++ She's going on her honeymoon.
+- She is going to a funeral.
+- She is going to move there.
+
+[LINE]
+Speaker113: なるほど。ご主人はどこでございますか？
+$1331/speech_1331_13.mp3;19,0
+
+[LINE]
+Speaker439: 夫はいないけど、頑固な妻はいますよ。
+~           I~don't~have      
+$1331/speech_1331_14.mp3;18,0
+
+[LINE]
+Speaker439: 妻は私と一緒に沖縄へ行きたがらないのです。
+~           she                  
+$1331/speech_1331_15.mp3;21,0
+
+[MULTIPLE_CHOICE]
+> 相葉さん's wife…
++ … doesn't want to go to 沖縄 with her.
+- … is in the taxi with her.
+- … is already in Okinawa.
+
+[LINE]
+Speaker439: とても悲しいです。
+~           I~am     
+$1331/speech_1331_17.mp3;9,0
+
+[LINE]
+Speaker113: なるほど。それはお気の毒です。
+~           ~…             
+$1331/speech_1331_18.mp3;15,0
+
+[LINE]
+Speaker113: さて、空港に着きました。
+~           well…       
+$1331/speech_1331_19.mp3;12,0
+
+[LINE]
+> スーツケースがある女の人がタクシーへ走ります。
+~ a                      
+$1331/speech_1331_20.mp3;23,0
+
+[LINE]
+Speaker439: まり子！
+$1331/speech_1331_21.mp3;4,0
+
+[LINE]
+Speaker1186: はつみ！
+$1331/speech_1331_22.mp3;4,0
+
+[LINE]
+Speaker1186: すみません。      
+~            I'm~so~sorry
+$1331/speech_1331_23.mp3;6,0
+
+[LINE]
+Speaker1186: じゃ、一緒に沖縄に行くわ！
+~            let's~go     
+$1331/speech_1331_24.mp3;13,0
+
+[LINE]
+Speaker113: ハネムーンをお楽しみください！
+~           enjoy          
+$1331/speech_1331_25.mp3;15,0
+
+[MULTIPLE_CHOICE]
+> What happened when 相葉さん got to the airport?
++ Her wife, まり子, apologized and told her she loved her.
+- Her taxi driver agreed to go on vacation with her.
+- Her wife, まり子, called her on the phone.
+
+[MATCH]
+> Tap the pairs
+- 休暇 <> vacation
+- おはようございます <> good morning
+- すみません <> I'm sorry
+- ハネムーン <> honeymoon
+- 違います <> it's not vacation
+
