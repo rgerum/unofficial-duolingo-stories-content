@@ -1,0 +1,128 @@
+[DATA]
+fromLanguageName=The bag
+icon=966f6e25540bc4ba5347e59005bcc1e2827fdd66
+set=2|5
+
+[HEADER]
+> Η   τσάντα
+~ The bag   
+$52/speech_52_0.mp3;1,5.044802087864289;7,84.92083514571553
+
+[LINE]
+> Ο Άγγελος είναι σε ένα μαγαζί. Μία γυναίκα μιλάει     μαζί του.
+~ ~ ~       is    in a   shop    A   woman   is~talking with him 
+$52/speech_52_1.mp3;1,5.412828344532683;8,68.56249236408064;6,364.46377519853394;3,246.28368967623703;4,157.87416004886995;7,182.23188759926677;5,987.8411728772148;8,202.9810629199751;7,546.6956627978011;5,440.2433720219915;4,315.7483200977399
+
+[LINE]
+Speaker1186: Γεια~σας!
+~            Hello    
+$52/speech_52_2.mp3;4,5.362248014660966;4,420.0427611484423
+
+[LINE]
+Speaker113: Γεια~σας.
+~           Hello    
+$52/speech_52_3.mp3;4,5.362248014660966;4,420.0427611484423
+
+[LINE]
+Speaker1186: Δουλεύετε   εδώ; 
+~            Do~you~work here 
+$52/speech_52_4.mp3;9,6.21432233806187;4,677.3611348487439
+
+[MULTIPLE_CHOICE]
+> The woman is asking Angelos what he wants to buy.
+- Yes, that's true.
++ No, that's false.
+
+[LINE]
+Speaker113: Εεμ...
+~           Um    
+$52/speech_52_6.mp3;3,6.5
+
+[LINE]
+Speaker1186: Πολύ~ωραία! Σας~χρειάζομαι.
+~            Good        I~need~you     
+$52/speech_52_7.mp3;4,5.628525451003642;6,237.33615651732026;5,866.7929194545609;11,363.0398915897347
+
+[MULTIPLE_CHOICE]
+> What does the woman mean?
+- She wants Angelos' job.
++ She needs Angelos' help.
+- She really likes Angelos.
+
+[LINE]
+Speaker113: Εεε...
+~           Er    
+$52/speech_52_9.mp3;3,6.721286370597244
+
+[LINE]
+Speaker1186: Χρειάζομαι μία τσάντα. Προτιμάτε     την κόκκινη;
+~            I~need     a   bag     Do~you~prefer the red~one 
+$52/speech_52_10.mp3;10,5.841044492331093;4,714.5544428951705;7,155.76118646216253;11,1069.8846495119783;4,536.4025858790721;8,274.5290911395614
+
+[MULTIPLE_CHOICE]
+> The woman is asking Angelos if…
+- He plans to leave his job soon.
+- He thinks the shop needs air conditioning.
++ He prefers the red bag.
+
+[LINE]
+Speaker113: Εεε...
+~           Er    
+$52/speech_52_12.mp3;3,6.721286370597244
+
+[LINE]
+Speaker1186: Ή  την άσπρη;    
+~            Or the white~one 
+$52/speech_52_13.mp3;1,6;4,197
+
+[SELECT_PHRASE]
+> Choose the right sentence.
+Speaker113: Εντάξει... [Η κόκκινη είναι μεγάλη.]
+~           OK          ~ ~       ~     ~       
+$52/speech_52_14.mp3;7,4.893504377927102;5,997.459309034141;8,66.06230910201589;6,372.72191678544755;7,358.8569877146542
++ Η κόκκινη είναι μεγάλη.
+- Η κώκκινη είναι μεγάλει.
+- Η κόκκινη είνε μεγάλη.
+
+[LINE]
+Speaker113: Η   άσπρη     είναι όμορφη...    και δεν~είναι ακριβή.   
+~           The white~one is    beautiful    and it's~not  expensive 
+$52/speech_52_15.mp3;1,4.5;6,93.74999999999999;6,325.49999999999994;7,300.74999999999994;7,754.4999999999999;4,199.5;6,165.74999999999977;7,300.00000000000045
+
+[MULTIPLE_CHOICE]
+> Angelos thinks...
+- ... the white bag is too white.
+- ... he would like the white bag for himself.
++ ... the white bag is beautiful and not expensive.
+
+[LINE]
+Speaker113: Είναι τέλεια!
+~           It's  great  
+$52/speech_52_17.mp3;5,4.645878357517752;7,361.60419882679844
+
+[LINE]
+Speaker1186: Πολύ ωραία! Θέλω   την άσπρη τσάντα. Σας~ευχαριστώ πολύ.      Πού   πληρώνω; 
+~            Very well   I~want the white bag     Thank~you     very~much  Where do~I~pay 
+$52/speech_52_18.mp3;4,5.974452554744525;6,251.9227493917275;6,920.0656934306569;4,237.98236009732364;6,227.02919708029185;7,453.0626520681262;5,1030.593065693431;10,375.3947688564476;5,692.0407542579078;5,865.2998783454987;8,222.05048661800447
+
+[LINE]
+Speaker113: Δεν~ξέρω.     Δε~δουλεύω   εδώ. 
+~           I~don't~know  I~don't~work here 
+$52/speech_52_19.mp3;3,6.235316194407957;5,385.5503846875587;4,1030.9056108087823;8,258.76562206793005;4,535.1979733533499
+
+[MULTIPLE_CHOICE]
+> Why doesn't Angelos know where the woman can pay?
+- Because he's only in charge of the bags.
++ Because he doesn't work at the shop.
+- Because it's only his first day in the job.
+
+[MATCH]
+> Tap the pairs!
+- μιλάει <> talks
+- δουλεύετε <> you work
+- προτιμάω <> I prefer
+- όμορφη <> beautiful
+- ένταξει <> OK
+- πληρώνω <> I pay
+- η κόκκινη <> the red one
+
