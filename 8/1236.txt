@@ -1,0 +1,152 @@
+[DATA]
+fromLanguageName=Surprise!
+icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
+set=1|4
+
+speaker_Narrator=ja-JP-Wavenet-C
+speaker_Speaker105=ja-JP-NanamiNeural
+speaker_Speaker104=ja-JP-KeitaNeural
+speaker_Speaker106=ja-JP-Wavenet-B
+
+[HEADER]
+> サプライズ   
+~ surprise
+$1236/speech_1236_0.mp3;5,0
+
+[LINE]
+> 阿部|健太|さんはお母さん|と|レストラン|にいます。              
+~ Abe  Kenta       mother  with  restaurant  is   
+$1236/speech_1236_1.mp3;2,0;3,227.45454545454544;3,227.45454545454544;2,227.4545454545455;5,151.63636363636363;2,379.09090909090924;6,151.6363636363635;6,454.90909090909076
+
+[LINE]
+Speaker559: 三|人|です。           
+~           three  people  it~is
+$1236/speech_1236_2.mp3;1,0;2,163.63636363636365;4,163.63636363636365
+
+[LINE]
+Speaker385: 三人|と言いましたか。|私|と|お母さん|と…          
+~           three    you~said  I  and  mother  and…
+$1236/speech_1236_3.mp3;2,0;2,341.05263157894734;8,227.36842105263162;2,909.4736842105262;2,227.36842105263167;5,227.36842105263145;3,568.4210526315792
+
+[MULTIPLE_CHOICE]
+> Why is Abe-san confused?
+- His mom didn't come to the restaurant.
++ His mom asked for a table for three instead of two.
+- His mom asked for three tables.
+
+[LINE]
+Speaker559: 私の|友達|です。    
+~           my  friend  is 
+$1236/speech_1236_5.mp3;2,0;3,292.5;4,292.5
+
+[LINE]
+Speaker385: ああ、|お母さん、|えーと...
+~           Ah   mom    hm…   
+$1236/speech_1236_6.mp3;3,0;6,447.4285714285714;4,671.1428571428573
+
+[LINE]
+Speaker559: サプライズ|があります。    
+~           surprise    I~have
+$1236/speech_1236_7.mp3;5,0;2,486;6,162
+
+[LINE]
+Speaker385: 私|も|サプライズ|があります。      
+~           I  also  surprise    have 
+$1236/speech_1236_8.mp3;1,0;2,168.75;6,168.75;2,506.25;6,168.75
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "nice."
+Speaker559: 私の|(友達|)はとても|(+素敵|)な(医学生|)だ|し、                                   
+~           my   friend     v  ery   n ice     medical~student  is  (listing~reasons)
+$1236/speech_1236_9.mp3;2,0;3,340.2;2,340.2;4,226.80000000000007;3,453.5999999999999;2,340.20000000000005;4,226.79999999999995;2,453.60000000000014;3,226.79999999999973
+
+[LINE]
+Speaker385: お母さん、|私|は..
+~           mom    I ~   
+$1236/speech_1236_10.mp3;5,0;2,689.5384615384615;2,229.84615384615392
+
+[LINE]
+Speaker559: 友達の|名前|は木村さん|です。|彼女|は健太|に|ぴったり|です。                  
+~           friend's  name    Kimura  is   she    Kenta  for  perfect  is 
+$1236/speech_1236_11.mp3;3,0;3,502.5882352941176;2,376.94117647058835;5,251.2941176470589;4,628.2352941176471;3,502.5882352941178;2,376.94117647058783;3,251.294117647059;2,376.94117647058783;5,251.29411764705947;4,628.2352941176473
+
+[MULTIPLE_CHOICE]
+> Abe-san's mom wants…
+- … to make a new friend.
++ … Abe-san to go on a date with her friend, Kimura.
+- … Abe-san to leave the restaurant.
+
+[LINE]
+> 女の人|がレストラン|に入ります。       
+~ woman    restaurant  enters
+$1236/speech_1236_13.mp3;3,0;2,305.45454545454544;6,152.72727272727275;7,458.1818181818182
+
+[LINE]
+Speaker125: こんにちは、|健太。  
+~           hello   Kenta
+$1236/speech_1236_14.mp3;6,0;4,483.84000000000003
+
+[LINE]
+Speaker559: えー？|健太|と言いましたか？     
+~           huh  Kenta    you~said  
+$1236/speech_1236_15.mp3;3,0;3,432;2,324;7,216;2,756
+
+[MULTIPLE_CHOICE]
+> Abe-san's mom knew that he was in a relationship.
+- Yes, that's true!
++ No, that's not right!
+
+[LINE]
+Speaker385: こんにちは、|ひろこ。|お母さん、|えー...  
+~           hello   Hiroko  mom    um   
+$1236/speech_1236_17.mp3;6,0;5,928.8000000000001;6,663.4285714285714;3,796.1142857142852
+
+[LINE]
+Speaker125: あなた|は健太の|お母さん|でしょう。      
+~           you    Kenta's  mom   must~be
+$1236/speech_1236_18.mp3;3,0;2,298.9714285714286;4,149.48571428571427;5,298.9714285714285;6,373.7142857142858
+
+[LINE]
+Speaker559: 健太？  
+~           Kenta
+$1236/speech_1236_19.mp3;3,0
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker125: [はじめまして],                。私|は健太の|妻|の|上田|ひろこ|です。                  
+~            nice~to~meet~you        I     Kenta's  wife  (named)  Ueda  Hiroko  am 
+$1236/speech_1236_20.mp3;6,0;9,1095.0588235294117;2,252.70588235294122;4,168.47058823529414;2,336.9411764705883;2,168.47058823529392;3,168.47058823529414;4,252.705882352941;4,336.94117647058874
+- はじまして
+- はながさる
++ はじめまして
+
+[MULTIPLE_CHOICE]
+> Select the missing phrase
+- はじまして
+- はながさる
++ はじめまして
+
+[LINE]
+Speaker559: そうなんです。   
+~           is~that~so
+$1236/speech_1236_22.mp3;7,0
+
+[LINE]
+Speaker385: サプライズです！
+~           surprise
+$1236/speech_1236_23.mp3;8,0
+
+[MULTIPLE_CHOICE]
+> Why is Abe-san's mom surprised?
++ She didn't know Abe-san was married.
+- She is very happy to see Ueda-san.
+- The food they ordered arrived quickly.
+
+[MATCH]
+> Tap the pairs
+- 医学生 <> medical student
+- はじめまして <> nice to meet you
+- 友達 <> friend
+- 妻 <> wife
+- 名前 <> name
+
