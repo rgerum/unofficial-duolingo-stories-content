@@ -1,0 +1,161 @@
+[DATA]
+fromLanguageName=The Garden
+icon=b4090fb3357cd46aa8eac9f22c4fbbe3265d273e
+set=3|4
+
+speaker_Grandma=Tatyana
+speaker_Stepan=Maxim
+
+[HEADER]
+> Сад       
+~ The~garden
+$916/speech_916_0.mp3;3,6
+
+[LINE]
+> Степан идёт     навестить свою ба́бушку    в~больнице.     
+~ ~      is~going to~visit  his  grandmother at~the~hospital 
+$916/speech_916_1.mp3;6,6;5,594;10,376;5,529;9,332;2,639;9,64
+
+[LINE]
+Speaker3135: Привет, ба́бушка!
+~            Hi      grandma  
+$916/speech_916_2.mp3;6,6;10,742
+
+[MULTIPLE_CHOICE]
+> What does “ба́бушка” mean?
++ grandma
+- mother
+- babysitter
+
+[LINE]
+Speaker3135: Как~дела?   
+~            How~are~you 
+$916/speech_916_4.mp3;3,6;5,236
+
+[LINE]
+Speaker3233: Я~в~порядке...
+~            I'm~okay      
+$916/speech_916_5.mp3;1,6;2,133;8,53
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker3135: Сегодня [прекрасный     день]!
+~            Today    is~a~beautiful day   
+$916/speech_916_6.mp3;7,6;11,598;5,727
+- ужасный день
++ прекрасный день
+- красный день
+
+[LINE]
+Speaker3233: Да... 
+~            Yes   
+$916/speech_916_7.mp3;2,6
+
+[LINE]
+Speaker3135: Ты~уверена,   что  ты~в~порядке?
+~            Are~you~sure  that you're~okay  
+$916/speech_916_8.mp3;2,6;8,231;5,920;3,256;2,158;8,64
+
+[MULTIPLE_CHOICE]
+> Stepan wants to be sure his grandma feels OK.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker3233: Нет, мне~не~нравится эта  комната.
+~            No   I~don't~like    this room    
+$916/speech_916_10.mp3;3,6;5,626;3,216;9,112;4,479;8,168
+
+[LINE]
+Speaker3233: Здесь   не~хватает красок. Она        серая...
+~            Here~is not~enough colors  (She)~It's gray    
+$916/speech_916_11.mp3;5,6;3,354;8,138;7,524;5,1054;6,225
+
+[LINE]
+Speaker3233: А   я ненавижу серый...
+~            And I hate     gray    
+$916/speech_916_12.mp3;1,6;2,81;9,142;6,500
+
+[LINE]
+Speaker3135: Это~не   очень хорошо.
+~            It~isn't very  good   
+$916/speech_916_13.mp3;3,6;3,293;6,140;7,409
+
+[MULTIPLE_CHOICE]
+> What does Stepan mean by that?
++ It's bad.
+- Let's go.
+- You're right.
+
+[LINE]
+Speaker3233: У~меня~дома мой сад    полный     красок.
+~            At~my~house my  garden is~full~of colors 
+$916/speech_916_15.mp3;1,6;5,65;5,256;4,647;4,173;7,241;7,342
+
+[LINE]
+Speaker3135: У~меня~есть идея!   
+~            I~have      an~idea 
+$916/speech_916_16.mp3;1,6;5,121;5,294;5,330
+
+[LINE]
+Speaker3135: Секунду!   
+~            One~second 
+$916/speech_916_17.mp3;7,13
+
+[LINE]
+> Пятнадцать минут   спустя...
+~ Fifteen    minutes later    
+$916/speech_916_18.mp3;10,6;6,704;7,361
+
+[LINE]
+> Степан входит в~комнату       с    двумя растениями.
+~ ~      enters (into)~the~room with two   plants     
+$916/speech_916_19.mp3;6,6;7,546;2,460;8,84;2,590;6,84;11,393
+
+[ARRANGE]
+> Tap what you hear
+Speaker3135: [(Это)       (твои) (растени)]я !
+~              these~are   your   plants      
+$916/speech_916_20.mp3;3,6;5,254;9,331
+
+[LINE]
+Speaker3135: И   ещё  у~меня~есть немного цветов. 
+~            And also I~have      some    flowers 
+$916/speech_916_21.mp3;1,6;4,157;2,364;5,113;5,294;8,341;7,436
+
+[LINE]
+Speaker3233: Мои растения и   мои цветы!  
+~            My  plants   and my  flowers 
+$916/speech_916_22.mp3;3,6;9,262;2,609;4,31;6,250
+
+[LINE]
+Speaker3135: Теперь твой сад    здесь.  
+~            Now    your garden is~here 
+$916/speech_916_23.mp3;6,6;5,396;4,285;6,305
+
+[LINE]
+Speaker3233: Это     замечательно, мой дорогой!
+~            This~is wonderful     my  darling 
+$916/speech_916_24.mp3;3,6;13,202;5,1044;8,241
+
+[LINE]
+Speaker3233: Большое~спасибо, Степан!
+~            Thanks~a~lot     ~      
+$916/speech_916_25.mp3;7,6;8,492;8,877
+
+[MULTIPLE_CHOICE]
+> What did Stepan do?
++ Brought plants and flowers from his grandmother's garden to the hospital.
+- Bought his grandmother new gardening tools.
+- Took his grandmother back to her house.
+
+[MATCH]
+> Tap the pairs
+- комната <> room
+- с <> with
+- ненавижу <> hate
+- я в порядке <> I'm okay
+- замечательно <> wonderful
+- ещё <> also
+- ба́бушка <> grandma
+
