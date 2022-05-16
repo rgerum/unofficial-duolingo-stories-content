@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=The Green Dress
+icon=5dd7c1c9e363ca081026fc76b834b84df03c1ce5
+set=2|1
+
+speaker_Narrator=da-DK-Wavenet-A
+speaker_Speake404=da-DK-ChristelNeural
+speaker_Speaker405=da-DK-Wavenet-A
+
+[HEADER]
+> Den Grønne Kjole
+~ The green  dress
+$1265/speech_1265_0.mp3;3,0;7,154.83870967741936;6,270.9677419354839
+
+[LINE]
+Speaker659: Eva?   Hvor    er  du? 
+~           ~      Where   are you 
+$1265/speech_1265_1.mp3;3,6;8,842;5,260;3,196
+
+[LINE]
+Speaker175: Jeg er på badeværelset, Helena!
+~           I   am in the~bathroom  ~      
+$1265/speech_1265_2.mp3;3,0;3,187.82608695652172;3,140.86956521739134;13,140.86956521739125;8,657.3913043478262
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker659: [Jeg             har brug for min kjole]!
+~            I~need~my~dress ~   ~    ~   ~   ~      
+$1265/speech_1265_3.mp3;3,6;4,144;5,128;4,299;4,139;6,169
++ Jeg har brug for min kjole
+- Jeg har brug for min kiosk
+- Jeg behøver min pizza
+
+[LINE]
+Speaker175: Din   røde kjole?
+~           Your  red  dress 
+$1265/speech_1265_4.mp3;3,0;6,193.54838709677418;6,193.54838709677418
+
+[LINE]
+Speaker659: Nej, min grønne kjole!
+~           No   my  green  dress 
+$1265/speech_1265_5.mp3;3,6;5,628;7,231;6,341
+
+[LINE]
+Speaker659: Jeg~skal~på~date med  Benjamin.
+~           I'm~going~out    with ~        
+$1265/speech_1265_6.mp3;3,6;5,136;3,195;5,118;4,374;9,141
+
+[MULTIPLE_CHOICE]
+> Helena is going out with Benjamin.
++ Yes, that's true.
+- No, that's not right.
+
+[ARRANGE]
+> Tap what you hear
+> [(Den) (røde) (kjole) (er) (smuk)]   ... 
+~   The   red    dress   is   pretty      …
+$1265/speech_1265_8.mp3;3,0;5,96;6,120;3,144;5,72
+
+[LINE]
+Speaker659: Jeg vil~gerne~have den grønne kjole!
+~           I   want           the green  dress 
+$1265/speech_1265_9.mp3;3,6;4,134;6,98;5,257;4,445;7,194;6,342
+
+[LINE]
+Speaker175: Vil du  have min blå  kjole?
+~           Do  you want my  blue dress 
+$1265/speech_1265_10.mp3;3,0;3,147.51219512195124;5,110.63414634146343;4,184.39024390243895;4,147.51219512195132;6,147.5121951219511
+
+[LINE]
+Speaker659: Men  det~er~din  yndlingskjole! 
+~           But  it's~your   favorite~dress 
+$1265/speech_1265_11.mp3;3,6;5,174;3,82;4,128;15,184
+
+[MULTIPLE_CHOICE]
+> Eva's favorite dress is the blue one, but…
+- … she's asking Helena to wash it.
+- … she lent it to her best friend.
++ … she's asking Helena if she wants to wear it.
+
+[LINE]
+Speaker175: Og   du   er    min yndlingssøster! 
+~           And  you  are   my  favorite~sister 
+$1265/speech_1265_13.mp3;2,0;4,140.93617021276594;4,140.93617021276594;6,176.1702127659575;15,140.93617021276594
+
+[LINE]
+Speaker659: Tak,       Eva!
+~           Thank~you  ~   
+$1265/speech_1265_14.mp3;3,6;5,569
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "comes out."
+> (Eva)   (+kommer~ud)    (ad)       (badeværelset).
+~  ~        comes~out      of~the     bathroom      
+$1265/speech_1265_15.mp3;3,0;9,238.15384615384616;3,277.8461538461538;6,238.15384615384608;15,198.46153846153857
+
+[LINE]
+Speaker175: Perfekt!  Den blå   kjole    til dig og  den~grønne            til mig!
+~           Perfect   The blue  dress    for you and the~green~(one)       for me  
+$1265/speech_1265_16.mp3;7,0;6,397.97468354430384;4,159.18987341772151;7,198.98734177215192;7,358.17721518987344;4,159.1898734177214;3,159.1898734177214;4,119.39240506329133;7,159.18987341772163;10,517.367088607595;4,159.18987341772163
+
+[LINE]
+Speaker659: Eva!   Du   har     min grønne kjole!
+~           ~      You  have    my  green  dress 
+$1265/speech_1265_17.mp3;3,6;6,731;5,149;7,158;7,191;6,342
+
+[LINE]
+Speaker175: Ja!   Og  jeg er  din    yndlingssøster! 
+~           Yes   And I   am  your   favorite~sister 
+$1265/speech_1265_18.mp3;2,0;5,189.23076923076925;4,113.53846153846152;3,151.38461538461542;5,151.38461538461536;17,227.0769230769231
+
+[MULTIPLE_CHOICE]
+> Why is Helena annoyed?
+- Eva won't leave the bathroom.
++ Eva is wearing the dress that Helena wanted to wear.
+- Eva is talking to her boyfriend.
+
+[MATCH]
+> Tap the pairs
+- den <> the
+- Perfekt <> perfect
+- din yndlingskjole <> your favorite dress
+- Ja <> yes
+- har <> have
+
