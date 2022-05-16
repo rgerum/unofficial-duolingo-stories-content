@@ -1,0 +1,153 @@
+[DATA]
+fromLanguageName=Happy Birthday!
+icon=af44dc77489e379a0652ce2e7b42bc96e3839833
+set=3|8
+
+speaker_Speaker138=Maxim
+speaker_Speaker137=Tatyana
+speaker_Narrator=ru-RU-DariyaNeural
+
+[HEADER]
+> С~днём~рождения!
+~ Happy~birthday  
+$962/speech_962_0.mp3;1,0;5,132.38709677419354;9,330.96774193548384
+
+[LINE]
+Speaker1186: С~днём~рождения, дорогой!
+~            Happy~birthday   dear    
+$962/speech_962_1.mp3;1,6;5,74;9,338;9,867
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker300: [Сегодня не    мой] день~рождения!
+~            Today   isn't my   birthday      
+$962/speech_962_2.mp3;7,6;3,634;4,132;5,250;9,298
+- Сегодня ничей
+- Сегодня не твой
++ Сегодня не мой
+
+[LINE]
+Speaker1186: Дима, сегодня    твой день~рождения!
+~            ~     today~(is) your birthday      
+$962/speech_962_3.mp3;4,6;9,639;5,512;5,226;9,248
+
+[LINE]
+Speaker300: Если я не    отпраздную свой день~рождения...
+~           If   I don't celebrate  my   birthday        
+$962/speech_962_4.mp3;4,6;2,492;3,203;11,122;5,763;5,293;9,294
+
+[LINE]
+Speaker300: …мне не    исполнится тридцать!
+~           …I   won't turn       thirty   
+$962/speech_962_5.mp3;4,6;3,241;11,163;9,766
+
+[MULTIPLE_CHOICE]
+> What does Dima mean?
+- If they don't celebrate his birthday, he'll be sad.
+- He thinks his birthday is actually tomorrow.
++ If they don't celebrate his birthday, he won't turn 30.
+
+[LINE]
+Speaker300: Всё~просто! 
+~           It's~simple 
+$962/speech_962_7.mp3;3,6;7,259
+
+[LINE]
+Speaker1186: Ладно.
+~            Okay  
+$962/speech_962_8.mp3;5,6
+
+[POINT_TO_PHRASE]
+> Click on the option meaning “today”.
+Speaker1186: (Если) (+сегодня) не    (твой) день~рождения...
+~             If      today    isn't  your  birthday        
+$962/speech_962_9.mp3;4,6;8,351;3,432;5,127;5,215;9,248
+
+[LINE]
+Speaker1186: …то   никаких подарков, никакой вечери́нки и   никакого то́рта.
+~            …then no      presents  no      party      and no       cake   
+$962/speech_962_10.mp3;3,6;8,89;9,461;9,931;11,459;2,747;9,154;7,509
+
+[LINE]
+Speaker300: Но... 
+~           But   
+$962/speech_962_11.mp3;2,6
+
+[LINE]
+Speaker1186: А   подарок     я оставлю~себе!     
+~            And the~present I keep~(for~myself) 
+$962/speech_962_12.mp3;1,6;8,76;2,495;8,256;5,428
+
+[LINE]
+Speaker300: Какой подарок?
+~           Which present 
+$962/speech_962_13.mp3;5,6;8,444
+
+[LINE]
+Speaker1186: Новый   компьютер!
+~            (A)~new computer  
+$962/speech_962_14.mp3;5,6;10,299
+
+[MULTIPLE_CHOICE]
+> She bought Dima a cell phone.
+- Yes, that's true.
++ No, that's not right.
+
+[LINE]
+Speaker1186: Но  теперь это  мой компьютер.
+~            But now    it's my  computer  
+$962/speech_962_16.mp3;2,6;7,157;4,361;4,170;10,168
+
+[LINE]
+Speaker1186: Потому~что сегодня не    твой день~рождения!
+~            Because    today   isn't your birthday      
+$962/speech_962_17.mp3;6,6;4,357;8,205;3,457;5,138;5,224;9,248
+
+[LINE]
+Speaker300: Но... 
+~           But   
+$962/speech_962_18.mp3;2,6
+
+[SELECT_PHRASE]
+> What comes next?
+Speaker1186: А   теперь я собираюсь съесть [весь этот торт]!
+~            And now    I am~going  to~eat  all  this cake  
+$962/speech_962_19.mp3;1,6;7,101;2,323;10,156;7,541;5,425;5,288;5,312
+- твой компьютер
+- вечери́нку
++ весь этот торт
+
+[LINE]
+Speaker300: Аня!
+$962/speech_962_20.mp3;3,6
+
+[LINE]
+Speaker1186: Что? 
+~            What 
+$962/speech_962_21.mp3;3,6
+
+[LINE]
+Speaker300: Ладно... Сегодня    мой день~рождения!
+~           Okay     Today~(is) my  birthday      
+$962/speech_962_22.mp3;5,6;11,905;4,536;5,264;9,298
+
+[LINE]
+Speaker300: Но  я хочу только двадцать девять свече́й на то́рте.  
+~           But I want only   twenty   nine   candles on the~cake 
+$962/speech_962_23.mp3;2,6;2,238;5,141;7,346;9,449;7,576;8,355;3,545;7,125
+
+[MULTIPLE_CHOICE]
+> Dima decided to...
++ … celebrate his 30th birthday, but he wants only 29 candles.
+- … buy his wife a new computer for her birthday.
+- … cancel his birthday party and throw away his cake.
+
+[MATCH]
+> Tap the pairs
+- cake <> торт
+- candles <> свечи
+- birthday <> день рождения
+- present <> подарок
+- party <> вечери́нка
+- very <> очень
+
