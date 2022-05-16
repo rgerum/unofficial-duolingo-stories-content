@@ -1,0 +1,129 @@
+[DATA]
+fromLanguageName=An Old Photo
+icon=09fc3d3f2b5acf538364fe21f1b5ab3a457b1d7b
+set=1|5
+
+speaker_Zhuli=cmn-CN-Wavenet-D
+speaker_Yeye=cmn-TW-Wavenet-B
+
+[HEADER]
+> 老照片           
+~ (an)~old~photo
+$1138/speech_1138_0.mp3;3,6
+
+[LINE]
+> 竹丽|和|她爷爷|在博物馆里|聊天。                             
+~ Zhuli  and  her~grandfather  at~(the)~museum  talk  
+$1138/speech_1138_1.mp3;2,6;2,218;4,198;6,199;3,236;2,447
+
+[LINE]
+Speaker1320: 很|有意思！           
+~            very  interesting  
+$1138/speech_1138_2.mp3;1,0;4,111.27272727272728;2,222.54545454545453
+
+[LINE]
+Speaker1320: 有|很多|老照片。            
+~            have  many  old~photos  
+$1138/speech_1138_3.mp3;1,0;3,138.24;4,207.36;2,276.4799999999999
+
+[MULTIPLE_CHOICE]
+> There are photos from the past in the museum.
+- No, that's not right!
++ Yes, that's true!
+
+[LINE]
+Speaker2474: 这是|杭州。           
+~            this~is  Hangzhou  
+$1138/speech_1138_5.mp3;2,0;3,153.8181818181818;2,153.8181818181818
+
+[LINE]
+Speaker1320: 马路上|没有|车。                 
+~            on~the~street  aren’t  cars  
+$1138/speech_1138_6.mp3;3,0;3,268.8;2,201.60000000000002;2,134.39999999999992
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1320: [这是]      一张|医学院学生的|照片。                   
+~             this~is  a~(one)  medical~student’s  photo  
+$1138/speech_1138_7.mp3;2,0;3,274.5;7,274.5;3,640.5;2,274.5
+- 这事
++ 这是
+- 注意
+
+[LINE]
+Speaker2474: 是的|，这是|浙江大学。                     
+~            yes    this~is  Zhejiang~University  
+$1138/speech_1138_8.mp3;2,0;2,213.51724137931035;3,142.34482758620692;5,213.5172413793103;2,355.8620689655173
+
+[LINE]
+Speaker1320: 这张|照片|里面|有|一个|女孩。                    
+~            this~(one)  photo  in  has  a~(one)  girl  
+$1138/speech_1138_9.mp3;2,0;3,250.9090909090909;3,250.9090909090909;2,250.90909090909082;3,167.27272727272737;3,250.909090909091;2,250.90909090909076
+
+[LINE]
+Speaker1320: 只|有|一个|女孩。        
+~            just  has  one  girl  
+$1138/speech_1138_10.mp3;1,0;2,129.23076923076923;3,129.23076923076923;3,193.8461538461538;2,193.84615384615392
+
+[MULTIPLE_CHOICE]
+> Zhuli means…
+- … she only knows one woman.
+- … she sees five women in the old photo.
++ … she sees only one female student in the photo.
+
+[LINE]
+Speaker1320: 她|应该|很|聪明|，很|重要。。。                       
+~            she  must~be  very  smart    very  important    
+$1138/speech_1138_12.mp3;1,0;3,149.4857142857143;2,224.22857142857137;3,149.48571428571438;2,224.22857142857129;2,149.48571428571438;3,149.48571428571438;4,224.22857142857129
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "is looking at."
+> 竹丽的|爷爷          (+看着)            (这张)         (照片)    ， (不说话)      。
+~ Zhuli’s  grandpa   is~looking~at   the~(this)   photo     silently   
+$1138/speech_1138_13.mp3;3,6;3,218;3,188;3,129;3,453;2,268;4,152;2,156
+
+[LINE]
+Speaker1320: 爷爷？     
+~            grandpa  
+$1138/speech_1138_14.mp3;2,0;2,128.8421052631579
+
+[LINE]
+Speaker2474: 她|很|漂亮。         
+~            she  very  pretty  
+$1138/speech_1138_15.mp3;1,0;2,98.08695652173913;3,98.08695652173913;2,147.13043478260875
+
+[LINE]
+Speaker1320: 对|，她|很|漂亮。           
+~            yes    she  very  pretty  
+$1138/speech_1138_16.mp3;1,0;2,131.55555555555554;2,131.55555555555554;2,131.55555555555554;3,131.55555555555554;2,197.33333333333337
+
+[ARRANGE]
+> Tap what you hear
+Speaker2474: [(她)   (是)  (我的) (奶)]奶          。
+~              she   is   my   grandmother    
+$1138/speech_1138_17.mp3;1,0;2,110.76923076923077;3,110.76923076923077;3,166.15384615384613;2,166.15384615384625
+
+[LINE]
+Speaker1320: 哇|！真的吗？     
+~            wow    really  
+$1138/speech_1138_18.mp3;1,0;2,108;4,108;2,216
+
+[LINE]
+Speaker1320: 我的|家族|历史|真|有意思！                      
+~            my  family  history  really  interesting  
+$1138/speech_1138_19.mp3;2,0;3,239.2258064516129;3,239.2258064516129;2,239.22580645161298;4,159.48387096774195;2,318.9677419354839
+
+[MULTIPLE_CHOICE]
+> What happened in the story?
+- Zhuli saw a photo of her grandfather at the museum.
++ Zhuli's grandfather saw a photo of his grandmother at the museum.
+- Zhuli didn't enjoy going to the museum.
+
+[MATCH]
+> Tap the pairs
+- 是的 <> yes
+- 这是 <> this is
+- 有意思 <> interesting
+- 她的爷爷 <> her grandfather
+- 照片 <> photo
+
