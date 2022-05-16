@@ -1,0 +1,187 @@
+[DATA]
+fromLanguageName=Is it you?
+icon=2ccb57023b0ccbeb4541a22890559fbe30b7acc2
+set=7|4
+
+speaker_Narrator=ru-RU-EkaterinaRUS
+speaker_Speaker269=ru-RU-Wavenet-C
+speaker_Speaker270=ru-RU-Wavenet-D
+
+[HEADER]
+> Это     ты?! 
+~ (is)~it you  
+$1257/speech_1257_0.mp3;3,0;3,244.17391304347825
+
+[LINE]
+Speaker113: Да́рия? Это   ты? 
+~           ~       Is~it you 
+$1257/speech_1257_1.mp3;6,0;5,358.4;3,179.20000000000005
+
+[LINE]
+Speaker341: Ива́н!
+~           Ivan  
+$1257/speech_1257_2.mp3;5,0
+
+[LINE]
+Speaker113: Сколько  же           лет   прошло!      Мы не  виделись             лет~двадцать!         
+~           How~many (emphasizer) years have~passed  We not have~seen~each~other (likely)~years~twenty 
+$1257/speech_1257_3.mp3;7,0;3,421.8181818181818;4,158.1818181818182;7,210.90909090909088;4,421.81818181818187;3,158.18181818181802;9,158.18181818181824;4,474.54545454545473;9,210.90909090909076
+
+[MULTIPLE_CHOICE]
+> Ivan and Dariya haven't seen each other for twenty years.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker113: Как~у~тебя~дела?        
+~           How~are~things~with~you 
+$1257/speech_1257_5.mp3;3,0;2,154.83870967741936;5,77.41935483870967;5,193.5483870967742
+
+[LINE]
+Speaker341: Всё             очень хорошо!
+~           Everything~(is) very  well   
+$1257/speech_1257_6.mp3;3,0;6,171;7,256.5
+
+[LINE]
+Speaker341: Нам~нужно выпить кофе     и   поболтать!
+~           We~must   drink  a~coffee and chitchat  
+$1257/speech_1257_7.mp3;3,0;6,203.7551020408163;7,305.6326530612246;5,356.57142857142856;2,254.69387755102048;10,101.87755102040796
+
+[LINE]
+Speaker341: Сможешь~ли~ты        в      эти  выходные?
+~           Would~you~be~able~to during this weekend  
+$1257/speech_1257_8.mp3;7,0;3,392.72727272727275;3,147.27272727272725;2,147.27272727272725;4,98.18181818181824;9,196.36363636363626
+
+[LINE]
+Speaker113: Ой, извини.   
+~           ~   I'm~sorry 
+$1257/speech_1257_9.mp3;2,0;8,158.76923076923077
+
+[POINT_TO_PHRASE]
+> Click on the option meaning “for the wedding.”
+Speaker113: Мне              (ещё)   (многое) (нужно)  (сделать) (для~подготовки)   (+к~свадьбе).      
+~           For~me(there~is)  still   a~lot    needed   to~do     for~preparation     for~the~wedding  
+$1257/speech_1257_10.mp3;3,0;4,200.22857142857143;7,200.22857142857143;6,350.3999999999999;8,300.34285714285727;4,400.4571428571428;11,200.2285714285715;3,600.6857142857145;8,100.11428571428542
+
+[LINE]
+Speaker341: К   твоей свадьбе?!
+~           For your  wedding  
+$1257/speech_1257_11.mp3;1,0;6,75;8,225
+
+[LINE]
+Speaker113: Нет, к~свадьбе       моей  дочери.  
+~           no   for~the~wedding of~my daughter 
+$1257/speech_1257_12.mp3;3,0;3,248.57142857142856;8,99.42857142857144;5,397.7142857142858;7,248.57142857142844
+
+[LINE]
+Speaker341: Поздравляю!!
+~           Congrats    
+$1257/speech_1257_13.mp3;10,0
+
+[LINE]
+Speaker113: Спасибо.  
+~           thank~you 
+$1257/speech_1257_14.mp3;7,0
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker341: [Ты        не  доволен] ? В    чём      же           проблема?   
+~            You~(are) not pleased    (In) what(is) (emphasizer) the~problem 
+$1257/speech_1257_15.mp3;2,0;3,141.0612244897959;8,141.0612244897959;4,470.204081632653;4,94.04081632653072;3,188.0816326530611;9,141.06122448979613
+- ты не давление
+- мы не довольны
++ Ты не доволен
+
+[LINE]
+Speaker113: Всё        произошло слишком быстро.
+~           Everything happened  too     fast   
+$1257/speech_1257_16.mp3;3,0;10,185.45454545454547;8,463.6363636363636;7,370.9090909090909
+
+[CONTINUATION]
+> What comes next?
+Speaker113: Она познакомилась~со~своим парнем      [всего лишь несколько месяцев назад]
+~           she met~her                boyfriend    just  only a~few     months  ago   
+$1257/speech_1257_17.mp3;3,0;14,159.2;3,557.2;6,119.39999999999998;7,238.80000000000018;8,358.1999999999998;5,238.79999999999995;10,199;8,398;6,318.4000000000001
+- несколько лет   назад
+~ a~few     years ago  
++ всего лишь несколько месяцев назад
+~ just  only a~few     months  ago  
+- на~следующей неделе
+~ next         week  
+
+[LINE]
+Speaker341: Но...   Он      хороший?
+~           but…    (Is)~he nice    
+$1257/speech_1257_18.mp3;2,0;6,158.4;8,79.19999999999999
+
+[LINE]
+Speaker113: Да.  Мне~нравится Валера...
+~           yes  I~like       ~        
+$1257/speech_1257_19.mp3;2,0;5,118.26086956521739;9,118.26086956521739;7,266.0869565217391
+
+[LINE]
+Speaker113: Но  я не       знаю его родителей!
+~           but I (do)~not know his parents   
+$1257/speech_1257_20.mp3;2,0;2,147.42857142857142;3,98.28571428571428;5,147.42857142857142;4,245.71428571428578;10,196.57142857142856
+
+[ARRANGE]
+> Tap what you hear
+Speaker113: [(Они)  ( не)    ( живут) ( здес)]ь.
+~             they    don't    live     here    
+$1257/speech_1257_21.mp3;3,0;4,188.10810810810813;7,150.4864864864865;7,263.3513513513513
+
+[LINE]
+Speaker341: Валерий Ивано́в?
+$1257/speech_1257_22.mp3;7,0;8,181.89473684210526
+
+[LINE]
+Speaker113: Да. 
+~           yes 
+$1257/speech_1257_23.mp3;2,0
+
+[LINE]
+Speaker113: А... Как… ?
+~           ~    how…  
+$1257/speech_1257_24.mp3;1,0;8,70.2439024390244
+
+[LINE]
+Speaker341: Ам... Ты  знаешь мать       Валеры!   
+~           ~     you know   the~mother of~Valera 
+$1257/speech_1257_25.mp3;2,0;6,186.59154929577466;7,93.2957746478873;5,217.69014084507046;7,155.49295774647885
+
+[LINE]
+Speaker113: Что?!  Это   ты?! 
+~           what   Is~it you  
+$1257/speech_1257_26.mp3;3,0;6,263.17241379310343;3,175.448275862069
+
+[LINE]
+Speaker341: Да,  я   его мать!  
+~           yes  I'm his mother 
+$1257/speech_1257_27.mp3;2,0;3,217.6;4,108.80000000000004;5,217.59999999999997
+
+[LINE]
+Speaker341: Я думаю, что  мы       всё-таки скоро попьем        кофе   вместе!  
+~           I think  that we('ll)  actually soon  (be)~drinking coffee together 
+$1257/speech_1257_28.mp3;1,0;6,109.0909090909091;5,381.81818181818176;3,218.18181818181813;10,218.18181818181824;6,490.90909090909076;7,327.2727272727275;5,381.818181818182;7,272.7272727272725
+
+[MULTIPLE_CHOICE]
+> Why is Ivan so surprised?
+- Because Dariya can make wedding cakes.
+- Because his daughter is not getting married anymore.
++ Because Dariya is Valeriy's mother.
+
+[MATCH]
+> Tap the pairs
+- поболтать <> chitchat
+- свадьба <> wedding
+- Поздравляю! <> Congrats!
+- Мне нравится <> I like
+- быстро <> fast
+
+[MATCH]
+> Tap the pairs.
+- скоро <> soon
+- мать <> mother
+- не доволен <> not pleased(sing. masc.)
+- Валера <> Valera(diminutive of Valeriy/Валерий)
+
