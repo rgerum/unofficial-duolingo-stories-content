@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=The Exam
+icon=cb76f485e6668f6f964fdf792d3f67ce5ae566b9
+set=1|8
+
+icon_Speaker116=https://stories-cdn.duolingo.com/image/3efc9f39ba59f0e08d66317272db579e976fc47f.svg
+speaker_Narrator=ko-KR-Wavenet-C
+speaker_Speaker116=ko-KR-SunHiNeural
+speaker_Speaker117=ko-KR-InJoonNeural
+speaker_Speaker118=ko-KR-Wavenet-D
+
+[HEADER]
+> 시험      
+~ the~exam
+$1243/speech_1243_0.mp3;2,0
+
+[LINE]
+> 유라와 상민이는 대학교에 있습니다.  
+~ ~   and  ~    are  at
+$1243/speech_1243_1.mp3;3,0;5,279.52941176470586;5,349.41176470588243;5,349.4117647058822
+
+[LINE]
+SpeakerSpeaker116: 상민아 안녕? 영어      시험   준비는   되었니?   
+~                  ~   hi  English exam ready become 
+$1243/speech_1243_2.mp3;3,0;3,498.1621621621622;4,498.1621621621622;3,373.62162162162167;4,373.62162162162167;4,498.1621621621623
+
+[MULTIPLE_CHOICE]
+> 유라 wants to know if 상민 is ready for his English exam.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker3135: 영어             시험?  
+~            ~English~      exam 
+$1243/speech_1243_4.mp3;2,0;8,620.3076923076924
+
+[LINE]
+Speaker3135: 오늘    시험   없는데?         
+~            today exam to~have~none 
+$1243/speech_1243_5.mp3;2,0;3,315.36;4,315.36
+
+[MULTIPLE_CHOICE]
+> Why is Alex confused?
+- He already took his exam today.
+- He doesn't take English classes.
++ He doesn't think he has an exam today.
+
+[LINE]
+SpeakerSpeaker116: 오늘    시험   있어!     
+~                  today exam to~have 
+$1243/speech_1243_7.mp3;2,0;3,261;3,261
+
+[ARRANGE]
+> Tap what you hear
+SpeakerSpeaker116: [(아주)   (어려운)  (시험이)]야!
+~                    very   hard   test   
+$1243/speech_1243_8.mp3;2,0;4,272;5,362.66666666666663
+
+[LINE]
+SpeakerSpeaker116: 너는  매번     시험   준비를   안하는구나. 
+~                  you always exam ready do~not 
+$1243/speech_1243_9.mp3;2,0;3,304.94117647058823;3,304.94117647058823;4,304.9411764705883;6,406.58823529411745
+
+[LINE]
+Speaker3135: 수업    시작|까지       두   시간    남았네!   
+~            class start  until two hours remain 
+$1243/speech_1243_10.mp3;2,0;3,327.2727272727273;3,327.2727272727273;2,327.27272727272714;3,218.18181818181824;4,327.27272727272725
+
+[LINE]
+Speaker3135: 공부|해야겠어!      
+~            study  have~to 
+$1243/speech_1243_11.mp3;2,0;5,338.0869565217391
+
+[MULTIPLE_CHOICE]
+> Alex needs to study now because...
+- … he doesn't have anything else to do.
++ ... his exam is in two hours.
+- … he wants to fail his exam.
+
+[LINE]
+> 두   시간    뒤,     상민이와   유라는 영어      강의실에      있습니다. 
+~ two hours later      and ~   English classroom exist 
+$1243/speech_1243_13.mp3;1,0;3,160.69565217391303;2,241.0434782608696;5,241.0434782608695;2,321.3913043478261;4,160.69565217391323;3,321.391304347826;5,241.04347826086928;5,401.73913043478274
+
+[LINE]
+Speaker127: 내일       볼          시험은  준비|되셨습니까?    
+~           tomorrow (will)take exam ready  become 
+$1243/speech_1243_14.mp3;2,0;2,229.0909090909091;4,152.72727272727272;3,305.45454545454544;6,229.09090909090912
+
+[MULTIPLE_CHOICE]
+> When is the exam?
+- Next week.
+- Next month.
++ Tomorrow.
+
+[LINE]
+Speaker3135: 이해가        안돼    
+~            understand cannot
+$1243/speech_1243_16.mp3;3,0;3,438.85714285714283
+
+[LINE]
+Speaker3135: 시험   날짜가  오늘이   아니네
+~            exam date today not
+$1243/speech_1243_17.mp3;2,0;4,346.3448275862069;4,461.7931034482759;4,461.7931034482758
+
+[LINE]
+SpeakerSpeaker116: 미안해!       
+~                  I~am~sorry 
+$1243/speech_1243_18.mp3;3,0
+
+[LINE]
+SpeakerSpeaker116: 그치만 네가  매번     시험   준비를   안|했잖아.  
+~                  but you always exam ready not  did 
+$1243/speech_1243_19.mp3;3,0;3,416.84210526315786;3,312.6315789473684;3,312.6315789473683;4,312.63157894736855;2,416.8421052631579;4,208.42105263157896
+
+[LINE]
+Speaker3135: 이제는, 준비됐어! 
+~            now  ready 
+$1243/speech_1243_20.mp3;3,0;6,576
+
+[MULTIPLE_CHOICE]
+> Why did Manon lie to Alex about the exam?
++ She wanted to help him get ready.
+- She wanted the professor to laugh at him.
+- She wanted him to fail the exam.
+
+[MATCH]
+> Tap the pairs
+- 공부 <> study
+- 영어 시험 <> English exam
+- 내일 <> tomorrow
+- 미안해 <> sorry
+- 네가 <> you
+
