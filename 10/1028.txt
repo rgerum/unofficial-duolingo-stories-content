@@ -1,0 +1,152 @@
+[DATA]
+fromLanguageName=The Stranger
+icon=f3d07f61cdd95c84cb15d7f9d0e4b0dc8173072b
+set=3|1
+
+speaker_Speaker124=Giorgio
+speaker_Speaker123=Carla
+
+[HEADER]
+> La  sconosciuta
+~ the stranger   
+$1028/speech_1028_0.mp3;2,6;12,181
+
+[LINE]
+> Luigi è  nel suo~ufficio e     parla           al~telefono  con   un amico. 
+~ ~     is in  his~office  and   is~talking      on~the~phone with  a  friend 
+$1028/speech_1028_1.mp3;5,6;2,596;4,103;4,182;8,225;2,510;8,41;8,401;9,121;4,535;4,196;6,130
+
+[LINE]
+Speaker385: Questo fine~settimana…
+~           this   weekend…       
+$1028/speech_1028_2.mp3;6,6;5,288;11,245
+
+[LINE]
+Speaker385: …| io e   alcuni amici    dell'università…    
+~           …  I  and some   friends  from~the~university…
+$1028/speech_1028_3.mp3;1,6;3,268;2,170;7,88;6,382;18,310
+
+[LINE]
+Speaker385: Un   minuto. Il   telefono del mio ufficio non~smette~di   squillare.
+~           one  minute  the  phone    of  my  office  doesn't~stop    ringing   
+$1028/speech_1028_4.mp3;2,6;8,138;4,955;10,140;4,479;4,121;8,210;4,397;7,147;3,296;12,92
+
+[MULTIPLE_CHOICE]
+> While Luigi is talking to his friend, his office phone rings.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker385: Pronto?
+~           hello  
+$1028/speech_1028_6.mp3;6,6
+
+[LINE]
+Speaker292: Ciao,  Luigi.
+~           hello  ~     
+$1028/speech_1028_7.mp3;4,6;7,539
+
+[LINE]
+Speaker385: Chi parla?     
+~           who is~talking 
+$1028/speech_1028_8.mp3;3,6;6,127
+
+[LINE]
+Speaker292: Un'amica.
+~           a~friend 
+$1028/speech_1028_9.mp3;8,6
+
+[LINE]
+Speaker385: Ah?
+$1028/speech_1028_10.mp3;2,6
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker292: [Ho bisogno di   un favore], Luigi.
+~            I  need    (of) a  favor    ~     
+$1028/speech_1028_11.mp3;2,6;8,120;3,447;3,96;7,107;7,788
+- Bisogno un favore
++ Ho bisogno di un favore
+- Ho bisogno di un pavore
+
+[LINE]
+Speaker292: Mi~aiuti?         
+~           would~you~help~me 
+$1028/speech_1028_12.mp3;2,6;6,194
+
+[LINE]
+Speaker385: Cosa  vuoi?         Non~ti~conosco!  
+~           what  do~you~want   I~don't~know~you 
+$1028/speech_1028_13.mp3;4,6;6,259;6,781;3,196;8,117
+
+[LINE]
+Speaker292: Però io~ti~conosco.
+~           but  I~do~know~you 
+$1028/speech_1028_14.mp3;4,6;3,331;3,165;8,179
+
+[LINE]
+Speaker292: E     vado~nel            tuo    ufficio ora.
+~           and   I'm~going~to        your   office  now 
+$1028/speech_1028_15.mp3;1,6;7,98;4,409;11,207;10,306;4,479
+
+[LINE]
+Speaker385: No, per~favore!         Chiamo             la   polizia!
+~           no  please              I'm~going~to~call  the  police  
+$1028/speech_1028_16.mp3;2,6;5,466;7,158;16,920;4,235;9,90
+
+[MULTIPLE_CHOICE]
+> Luigi says he's going to…
+- … call his friend.
+- … leave his office.
++ … call the police.
+
+[LINE]
+Speaker292: Haha…|~Luigi, sono  il~tuo   capo!
+~           haha… ~       I~am  your     boss 
+$1028/speech_1028_18.mp3;5,6;6,796;6,797;4,326;4,92;7,255
+
+[MULTIPLE_CHOICE]
+> Who is the stranger?
+- Luigi's friend from college.
+- Luigi's mother.
++ Luigi's boss.
+
+[LINE]
+Speaker292: Devi      lavorare  al nostro progetto!
+~           you~have  to~work   on our    project  
+$1028/speech_1028_20.mp3;4,6;10,326;4,481;7,134;9,395
+
+[LINE]
+Speaker292: Non    parlare  al~telefono  con   i~tuoi  amici!  
+~           don't  talk     on~the~phone with  your    friends 
+$1028/speech_1028_21.mp3;3,6;9,265;4,492;9,152;4,611;3,198;5,57;7,226
+
+[ARRANGE]
+> Tap what you hear
+Speaker292: [(Tutto) (l'|)  (ufficio) (può~sentirti)]!
+~             all     the    office    can~hear~you   
+$1028/speech_1028_22.mp3;5,6;3,342;8,569;4,183
+
+[LINE]
+Speaker385: Oh!
+$1028/speech_1028_23.mp3;2,6
+
+[LINE]
+Speaker385: Mi~scuso! Ora vado      a~lavorare!
+~           sorry     now I'm~going to~work    
+$1028/speech_1028_24.mp3;2,6;6,160;5,875;5,212;2,355;9,41
+
+[MULTIPLE_CHOICE]
+> Luigi's boss called to tell him…
++ … he needs to work on his project instead of talking to his friends.
+- … he's getting a promotion.
+- … he's fired for talking to his friends.
+
+[MATCH]
+> Tap the pairs
+- progetto <> project
+- e <> and
+- lavorare <> work
+- No <> no
+- chiamare <> call
+
