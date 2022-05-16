@@ -1,0 +1,154 @@
+[DATA]
+fromLanguageName=Saturday Evening
+icon=09cbfe4b009b6617a05701652d4210d552d0f5a2
+set=1|10
+
+speaker_Yide=cmn-TW-Wavenet-C
+speaker_Jiaxue=Zhiyu
+
+[HEADER]
+> 星期六|晚上          
+~ Saturday  evening 
+$1148/speech_1148_0.mp3;3,6;3,701
+
+[LINE]
+> 佳雪|在|办公室|里|跟|她的|朋友|义得|聊天。                             
+~ Jiaxue  in~(at)  office  in  with  her  friend  Yide  talking  
+$1148/speech_1148_1.mp3;2,6;2,444;4,203;2,520;2,172;3,204;3,165;3,131;3,487;2,163
+
+[LINE]
+Speaker336: 义得|，你好！     
+~           Yide    hello  
+$1148/speech_1148_2.mp3;2,6;2,143;3,107;2,218
+
+[LINE]
+Speaker336: 你|这|周末|有|安排|吗？                              
+~           you  this  weekend  have  plans  question~marker  
+$1148/speech_1148_3.mp3;1,6;2,137;3,180;2,411;3,254;2,352
+
+[MULTIPLE_CHOICE]
+> Jiaxue is asking Yide if he has plans for the holiday.
++ No, that's not right.
+- Yes, that's true.
+
+[LINE]
+Speaker2243: 星期六|晚上|我|要去|看|一场|演出。                                  
+~            Saturday  evening  I  will~go  to~see  a~(one)  performance  
+$1148/speech_1148_5.mp3;3,0;3,381.3333333333333;2,286.00000000000006;3,190.66666666666663;2,286;3,190.66666666666674;3,285.9999999999998;2,286.0000000000002
+
+[LINE]
+Speaker2243: 我|已经|买了|门票。             
+~            I  already  bought  ticket  
+$1148/speech_1148_6.mp3;1,0;3,133.33333333333331;3,200;3,199.99999999999994;2,200
+
+[LINE]
+Speaker2243: 是|一支|新|乐队|叫|“姐妹”。                      
+~            it’s  a~(one)  new  band  called  “Sisters”  
+$1148/speech_1148_7.mp3;1,0;3,148.36363636363637;2,222.54545454545456;3,148.36363636363632;2,222.54545454545462;5,222.5454545454545;2,296.72727272727263
+
+[LINE]
+Speaker2243: 你|想|跟|我|一起|去|吗？                              
+~            you  want  with  me  together  go  question~marker  
+$1148/speech_1148_8.mp3;1,0;2,134.70967741935485;2,134.70967741935485;2,134.70967741935482;3,134.70967741935488;2,202.0645161290323;2,134.70967741935476;2,134.70967741935488
+
+[MULTIPLE_CHOICE]
+> Yide wants to know…
+- … what kind of music Jiaxue likes.
++ … if Jiaxue wants to go to a performance on Saturday.
+- … if Jiaxue is working on Saturday.
+
+[LINE]
+Speaker336: 我。。。
+~           I    
+$1148/speech_1148_10.mp3;1,6
+
+[LINE]
+Speaker2243: 你|这|周六|有|什么|安排？                   
+~            you  this  Saturday  have  what  plans  
+$1148/speech_1148_11.mp3;1,0;2,148.64516129032256;3,148.64516129032256;2,222.9677419354839;3,148.64516129032268;3,222.9677419354838;2,222.967741935484
+
+[LINE]
+Speaker336: 我|呢，我|周六|晚上|去|看|足球|比赛。                        
+~           I      I  Saturday  evening  go  to~see  soccer  match  
+$1148/speech_1148_12.mp3;1,6;2,197;2,464;2,131;3,421;3,509;2,182;2,299;3,439
+
+[MULTIPLE_CHOICE]
+> Where is Jiaxue going on Saturday?
++ To a soccer game.
+- To a volleyball game.
+- To a tennis game.
+
+[LINE]
+Speaker2243: 足球|比赛|？应该|很|好玩！                  
+~            soccer  match    should~be  very  fun  
+$1148/speech_1148_14.mp3;2,0;3,245.25;2,245.25;3,163.5;2,245.25;3,163.5;2,245.25
+
+[LINE]
+Speaker2243: 玩得开心！    
+~            have~fun  
+$1148/speech_1148_15.mp3;4,0;2,285.7142857142857
+
+[SELECT_PHRASE]
+> Select the missing phrase
+> [星期六晚上]          义得|来|看|“姐妹”|乐队的|演出。                            
+~  Saturday~night  Yide  comes  to~see  “Sisters”  band's  performance  
+$1148/speech_1148_16.mp3;5,6;3,701;2,504;2,159;5,143;4,185;3,266;2,391
+- 星期天早上
+- 星期天晚上
++ 星期六晚上
+
+[LINE]
+> 演出|开始。             
+~ performance  starts  
+$1148/speech_1148_17.mp3;2,6;3,467
+
+[LINE]
+Speaker2243: 弹吉他的|姑娘。。。            
+~            playing~guitar  girl    
+$1148/speech_1148_18.mp3;4,0;3,313.84615384615387;4,188.30769230769232
+
+[LINE]
+Speaker2243: 她|很|像|佳雪！                  
+~            she  very  looks~like  Jiaxue  
+$1148/speech_1148_19.mp3;1,0;2,128.64000000000001;2,128.64000000000001;3,128.63999999999993;2,192.96000000000004
+
+[MULTIPLE_CHOICE]
+> Why is Yide confused?
+- The show hasn't started yet.
++ Jiaxue is the guitarist in the band.
+- Jiaxue is calling him.
+
+[LINE]
+> 演出|结束|以后|，义得|去|找|佳雪。                               
+~ performance  finish  after    Yide  goes  to~find  Jiaxue  
+$1148/speech_1148_21.mp3;2,6;3,437;3,456;2,409;3,168;2,119;2,231;3,232
+
+[LINE]
+Speaker2243: 足球|比赛|怎么样？       
+~            soccer  match  how  
+$1148/speech_1148_22.mp3;2,0;3,199.3846153846154;4,199.3846153846154;2,265.84615384615387
+
+[MULTIPLE_CHOICE]
+> Why is Yide asking this question?
++ He figured out that Jiaxue lied about going to a soccer game.
+- He wants to go to a soccer game with Jiaxue next weekend.
+- He heard that the local soccer team lost today.
+
+[LINE]
+Speaker336: 哈哈|，是不是|很|惊讶？                     
+~           haha    aren't~(you)  very  surprised  
+$1148/speech_1148_24.mp3;2,6;2,486;4,208;2,131;3,174;2,248
+
+[LINE]
+Speaker2243: 是的|。你|的吉他|弹得很好听。                
+~            yes    you    guitar  play~very~well  
+$1148/speech_1148_25.mp3;2,0;2,245.64705882352942;2,163.76470588235296;2,163.76470588235287;3,163.76470588235304;6,245.6470588235294;2,491.2941176470589
+
+[MATCH]
+> Tap the pairs
+- 演出 <> performance, to perform
+- 跟我 <> with me
+- 比赛 <> game, match
+- 好玩 <> fun
+- 乐队 <> band
+
