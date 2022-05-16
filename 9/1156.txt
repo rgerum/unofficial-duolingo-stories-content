@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=My Favorite Game
+icon=30aefbeb8dcf34c7a93bff266a4252b79ec143e5
+set=5|3
+
+speaker_Narrator=ru-RU-Wavenet-C
+speaker_Speaker329=ru-RU-Wavenet-D
+speaker_Speaker330=ru-RU-Wavenet-B
+
+[HEADER]
+> Моя любимая  игра
+~ My  favorite game
+$1156/speech_1156_0.mp3;3,0;8,182.70967741935485;5,365.41935483870964
+
+[LINE]
+> Стас убирает       свою комнату.
+~ ~    is~tidying~up his  room    
+$1156/speech_1156_1.mp3;4,0;8,251.7073170731707;5,402.73170731707324;8,251.70731707317066
+
+[MULTIPLE_CHOICE]
+> Stas is cleaning the kitchen.
+- Yes, that's true.
++ No, that's not right.
+
+[LINE]
+Speaker790: Привет, Стас!
+~           Hi      ~    
+$1156/speech_1156_3.mp3;6,0;6,363.4285714285714
+
+[LINE]
+Speaker419: Привет. Что  ты       хочешь?
+~           Hi      What (do)~you want   
+$1156/speech_1156_4.mp3;6,0;5,394.3783783783784;3,197.18918918918922;7,147.89189189189187
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker790: Я хочу [поиграть с    тобой].
+~           I want  to~play  with you    
+$1156/speech_1156_5.mp3;1,0;5,96;9,240;2,432;6,96
++ поиграть с тобой
+- пойти домой
+- поиграть с собой
+
+[LINE]
+Speaker419: Я не~могу поиграть сегодня.
+~           I can't   play     today   
+$1156/speech_1156_6.mp3;1,0;3,88;5,132;9,220;8,396
+
+[LINE]
+Speaker419: Я должен  убрать  свою комнату.
+~           I have~to tidy~up my   room    
+$1156/speech_1156_7.mp3;1,0;7,94.9090909090909;7,332.18181818181824;5,332.18181818181813;8,237.27272727272737
+
+[LINE]
+Speaker790: А,  да!  Твоя комната очень…    
+~           Ah  yes  Your room    (is)~very…
+$1156/speech_1156_8.mp3;1,0;4,161.5609756097561;6,215.41463414634148;8,269.2682926829268;7,430.82926829268285
+
+[LINE]
+Speaker419: Я знаю!
+~           I know 
+$1156/speech_1156_9.mp3;1,0;5,76.36363636363636
+
+[LINE]
+Speaker790: Но  я хочу поиграть!
+~           But I want to~play  
+$1156/speech_1156_10.mp3;2,0;2,131.29411764705884;5,87.52941176470588;9,218.82352941176472
+
+[LINE]
+Speaker419: Во~что ты       хочешь поиграть?
+~           What   (do)~you want   to~play  
+$1156/speech_1156_11.mp3;2,0;4,131.7073170731707;3,175.609756097561;7,131.7073170731707;9,307.31707317073165
+
+[LINE]
+Speaker790: Я не    знаю!
+~           I don't know 
+$1156/speech_1156_12.mp3;1,0;3,84.48;5,126.72000000000001
+
+[LINE]
+Speaker419: Ладно, я знаю  отличную игру!
+~           OK     I know  a~great  game 
+$1156/speech_1156_13.mp3;5,0;3,351.27272727272725;5,100.36363636363643;10,301.09090909090895;5,451.6363636363636
+
+[MULTIPLE_CHOICE]
+> Stas knows...
++ …a great game.
+- …someone famous.
+- …a boring game.
+
+[LINE]
+Speaker790: Какую игру?!
+~           Which game  
+$1156/speech_1156_15.mp3;5,0;5,224
+
+[ARRANGE]
+> Tap what you hear
+Speaker419: [(Мою) (любимую)  (игр)]у!
+~             My    favorite   game   
+$1156/speech_1156_16.mp3;3,0;8,165.33333333333331;5,165.33333333333331;1,330.66666666666663
+
+[LINE]
+Speaker790: Хорошо!   
+~           All~right 
+$1156/speech_1156_17.mp3;6,0
+
+[LINE]
+Speaker419: В  этой игре…
+~           In this game…
+$1156/speech_1156_18.mp3;1,0;5,65.77777777777777;6,164.44444444444443
+
+[SELECT_PHRASE]
+> What comes next?
+Speaker419: …ты   должен  убрать  комнату  [со   мной]!
+~           …you  have~to tidy~up the~room  with me    
+$1156/speech_1156_19.mp3;3,43.2;8,172.8;7,302.4;8,302.4;3,345.60000000000014;5,129.5999999999999
+- что это
++ со мной
+- любимая игра
+
+[LINE]
+Speaker790: Эээ…| Я не~могу. Мне надо    идти.
+~           Emm…  I can't    I   have~to go   
+$1156/speech_1156_20.mp3;4,0;2,123.73333333333333;3,185.59999999999997;5,123.73333333333335;5,185.59999999999997;5,371.20000000000005;5,123.73333333333346;1,433.0666666666666
+
+[LINE]
+Speaker419: Влад! Куда  ты        идёшь?
+~           ~     Where (are)~you going 
+$1156/speech_1156_21.mp3;4,0;6,304.45714285714286;3,253.71428571428572;6,152.2285714285715
+
+[MULTIPLE_CHOICE]
+> What was Stas's "favorite game"?
++ Having his brother help him clean his room.
+- Playing outside with his brother.
+- Hide-and-seek.
+
+[MATCH]
+> Tap the pairs
+- знаю <> know
+- не могу <> can't
+- со мной <> with me
+- комната <> room
+- игра <> game
+
