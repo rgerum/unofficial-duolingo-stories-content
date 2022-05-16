@@ -1,0 +1,195 @@
+[DATA]
+fromLanguageName=# The tourist
+icon=c28cb69bf3836fd092352596d98fc29a300c70ce
+set=3|10
+
+speaker_Keet=nl-NL-Wavenet-E
+speaker_Damian=nl-NL-Standard-B
+
+[HEADER]
+> De toerist
+$1249/speech_1249_0.mp3;2,6;8,91
+
+[LINE]
+> De  toerist
+~ The tourist
+$1249/speech_1249_1.mp3;2,6;8,91
+
+[LINE]
+> Damian is in Amsterdam.
+~ ~      is in ~         
+$1249/speech_1249_2.mp3;6,6;3,393;3,140;10,99
+
+[LINE]
+> Hij zoekt          een park.
+~ He  is~looking~for a   park 
+$1249/speech_1249_3.mp3;3,6;6,171;4,281;5,107
+
+[MULTIPLE_CHOICE]
+> Damian is * .
+- walking at a park
++ searching for a park
+- leaving a park
+
+[LINE]
+Speaker2243: Excuseert~u~me, waar  is het Vondelpark?
+~            Excuse~me       where is the ~          
+$1249/speech_1249_5.mp3;9,6;2,527;3,77;6,402;3,223;4,135;11,141
+
+[LINE]
+Speaker856: Oh, dat  is ver weg. 
+~           Oh  that is far away 
+$1249/speech_1249_6.mp3;2,6;5,434;3,193;4,198;4,255
+
+[LINE]
+Speaker856: Maar u   kunt de  bus nemen naar het Vondelpark.
+~           But  you can  the bus take  to   the ~          
+$1249/speech_1249_7.mp3;4,6;2,259;5,86;3,321;4,122;6,272;5,413;4,213;11,172
+
+[MULTIPLE_CHOICE]
+> Keet suggest that Damian takes the bus to the Vondelpark.
+- That's not true.
++ That's true.
+
+[LINE]
+Speaker856: De  bushalte is in de  buurt.        
+~           The bus~stop is in the neighbourhood 
+$1249/speech_1249_9.mp3;2,6;9,130;3,696;3,191;3,171;6,87
+
+[MULTIPLE_CHOICE]
+> What does Keet mean?
+- The bus stop is far away.
+- The bus doesn't stop nearby.
++ The bus stop is not far.
+
+[LINE]
+Speaker2243: Dank~u~wel!
+~            Thank~you  
+$1249/speech_1249_11.mp3;4,6;2,259;4,98
+
+[LINE]
+Speaker856: Graag~gedaan.  
+~           You're~welcome 
+$1249/speech_1249_12.mp3;5,6;7,363
+
+[SELECT_PHRASE]
+> Select the right word
+> Speaker856: Komt u    uit  [Engeland]?
+~              Come you  from  England   
+$1249/7845e254.mp3;4,0;2,181;4,182;9,181
++ Engeland
+- Engelland
+- England?
+
+[LINE]
+Speaker2243: Ja,  ik kom  uit  Oxford.
+~            Yes  I  come from ~      
+$1249/speech_1249_14.mp3;2,6;4,546;4,116;4,204;7,241
+
+[LINE]
+Speaker856: Oxford is mooi!     
+~           ~      is beautiful 
+$1249/speech_1249_15.mp3;6,6;3,562;5,177
+
+[LINE]
+Speaker856: En  ik leer  Engels! 
+~           And I  learn English 
+$1249/speech_1249_16.mp3;2,6;3,122;5,146;7,280
+
+[LINE]
+Speaker2243: Echt   waar? Wat~leuk!
+~            Really true  How~nice 
+$1249/speech_1249_17.mp3;4,6;5,187;5,724;5,217
+
+[CONTINUATION]
+> Select the right word.
+Speaker856: Bent u    hier    [met] vakantie?
+~           Are  you  here     for holiday
+$1249/2ebf5ec6.mp3;4,0;2,109;5,110;4,175;9,88
+- onder
+~ under
++ met       
+~ with~(for)
+- tussen 
+~ between
+
+[LINE]
+Speaker2243: Ja,  maar ik leer  ook  Nederlands.
+~            Yes  but  I  learn also Dutch      
+$1249/speech_1249_19.mp3;2,6;6,543;3,150;5,121;4,207;11,183
+
+[LINE]
+Speaker2243: En  ik vind Amsterdam een mooie     stad.
+~            And I  find ~         a   beautiful city 
+$1249/speech_1249_20.mp3;2,6;3,101;5,104;10,201;4,507;6,76;5,302
+
+[LINE]
+Speaker856: Leuk~zeg!   
+~           That's~nice 
+$1249/speech_1249_21.mp3;4,6;4,354
+
+[LINE]
+Speaker856: Ik heet      Keet.
+~           I  am~called ~    
+$1249/speech_1249_22.mp3;2,6;5,126;5,270
+
+[LINE]
+Speaker2243: Ik ben Damian.
+~            I  am  ~      
+$1249/speech_1249_23.mp3;2,6;4,87;7,191
+
+[LINE]
+Speaker856: Hallo Damian.
+~           Hi    ~      
+$1249/speech_1249_24.mp3;5,6;7,258
+
+[LINE]
+Speaker856: Ik heb  nu  niet veel tijd. Ik moet helaas        gaan.
+~           I  have now not  much time  I  must unfortunately go   
+$1249/speech_1249_25.mp3;2,6;4,127;3,194;5,188;5,221;5,265;4,793;5,162;7,207;5,428
+
+[MULTIPLE_CHOICE]
+> Why can't Keet continue to talk with Damian?
+- His Dutch is not good enough.
++ She has to go somewhere else.
+- She thinks he's boring.
+
+[LINE]
+Speaker856: Mijn vriendinnen      en  ik gaan naar het Rembrandtpark.
+~           My   (female)~friends and I  go   to   the ~             
+$1249/speech_1249_27.mp3;4,6;12,226;3,643;3,154;5,201;5,283;4,242;14,193
+
+[LINE]
+Speaker2243: Oh, ik begrijp~het.    
+~            Oh  I  understand~(it) 
+$1249/speech_1249_28.mp3;2,6;4,467;8,98;4,383
+
+[LINE]
+Speaker856: Zou~je~met~ons~mee~willen?
+~           Would~you~like~to~join~us 
+$1249/speech_1249_29.mp3;3,6;3,216;4,118;4,196;4,225;7,240
+
+[LINE]
+Speaker856: Het is weliswaar  niet het Vondelpark, maar...
+~           It  is admittedly not  the ~           but    
+$1249/speech_1249_30.mp3;3,6;3,154;10,194;5,514;4,215;11,165;6,1056
+
+[LINE]
+Speaker2243: Ja,  heel~graag!  
+~            Yes  I'd~love~to~ 
+$1249/speech_1249_31.mp3;2,6;6,590;6,186
+
+[MULTIPLE_CHOICE]
+> Damian happily accepted...
+- ... Keet's idea to get on the bus.
++ ...Keet's invitation to go to a different park.
+- ...Keet's invitation to go to the Vondelpark together.
+
+[MATCH]
+> Select the pairs
+- Dutch <> Nederlands
+- unfortunately <> helaas
+- holiday <> vakantie
+- although <> weliswaar
+- time <> tijd
+
