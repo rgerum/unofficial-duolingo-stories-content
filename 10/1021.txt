@@ -1,0 +1,129 @@
+[DATA]
+fromLanguageName=The Store
+icon=e3c4951a636e72c3f82ef749d5fbf2e61d51628d
+set=2|4
+
+icon_Speaker392=https://stories-cdn.duolingo.com/image/3efc9f39ba59f0e08d66317272db579e976fc47f.svg
+icon_Speaker391=https://stories-cdn.duolingo.com/image/883741c5440a7570841a156052c1ba8af930ff28.svg
+speaker_Speaker392=Carla
+speaker_Speaker391=Giorgio
+
+[HEADER]
+> Il   negozio
+~ the  store  
+$1021/speech_1021_0.mp3;2,6;9,222
+
+[LINE]
+SpeakerSpeaker392: Buon~giorno! 
+~                  good~morning 
+$1021/speech_1021_1.mp3;4,6;7,318
+
+[LINE]
+SpeakerSpeaker391: Ciao! 
+~                  hello 
+$1021/speech_1021_2.mp3;4,6
+
+[LINE]
+SpeakerSpeaker392: Hai~bisogno di~aiuto?
+~                  do~you~need help     
+$1021/speech_1021_3.mp3;3,6;8,172;3,456;6,93
+
+[MULTIPLE_CHOICE]
+> The store employee is asking the man if he needs help.
+- No, that's not right.
++ Yes, that's true.
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "new clothes."
+SpeakerSpeaker391: (Sì),   (per~favore)! (Ho~bisogno) di (+vestiti~nuovi).
+~                   yes     please        I~need      of   new~clothes    
+$1021/speech_1021_5.mp3;2,6;6,519;7,158;4,920;8,146;3,396;8,129;6,418
+
+[LINE]
+SpeakerSpeaker392: Di~cosa~hai~bisogno?
+~                  what~do~you~need    
+$1021/speech_1021_6.mp3;2,6;5,139;4,402;8,81
+
+[LINE]
+SpeakerSpeaker392: Abbiamo maglie, giacche…
+~                  we~have shirts  jackets…
+$1021/speech_1021_7.mp3;7,6;7,509;10,720
+
+[ARRANGE]
+> Tap what you hear
+SpeakerSpeaker391: [(Ho~bisogno) (di) (una) (giacca     nuova)].
+~                    I~need       of   a     new~jacket ~       
+$1021/speech_1021_8.mp3;2,6;8,146;3,398;4,98;7,150;6,321
+
+[LINE]
+SpeakerSpeaker391: Mi~piace questa giacca!
+~                  I~like   this   jacket 
+$1021/speech_1021_9.mp3;2,6;6,171;7,327;7,308
+
+[CONTINUATION]
+> What comes next?
+SpeakerSpeaker392: Sì,   è      molto  [bella]. 
+~                  yes   it's   very    pretty  
+$1021/speech_1021_10.mp3;2,6;4,560;8,134;7,441
+- giacca
+~ jacket
+- maglie
+~ shirts
++ bella 
+~ pretty
+
+[LINE]
+SpeakerSpeaker391: E     ho~bisogno di una maglia~nuova.
+~                  and   I~need     of a   new~shirt    
+$1021/speech_1021_11.mp3;1,6;5,104;8,119;3,406;4,114;7,142;6,324
+
+[LINE]
+SpeakerSpeaker392: Perfetto! Perché                     hai~bisogno di vestiti~nuovi?
+~                  perfect   for~what~(reason)          you~need    of new~clothes   
+$1021/speech_1021_12.mp3;8,6;8,1060;13,320;8,155;3,461;8,92;6,545
+
+[LINE]
+SpeakerSpeaker391: Per un colloquio.
+~                  for an interview 
+$1021/speech_1021_13.mp3;3,6;3,108;10,103
+
+[MULTIPLE_CHOICE]
+> Why does the man need new clothes?
+- He lost all of his old clothes.
+- He has a date.
++ He has a job interview.
+
+[LINE]
+SpeakerSpeaker392: Dov'è    il   colloquio?
+~                  where~is the  interview 
+$1021/speech_1021_15.mp3;5,6;3,359;11,98
+
+[LINE]
+SpeakerSpeaker391: Nel mio negozio~preferito!
+~                  in  my  favorite~store    
+$1021/speech_1021_16.mp3;3,6;4,192;8,153;10,455
+
+[LINE]
+SpeakerSpeaker392: Il~tuo~negozio~preferito?
+~                  your~favorite~store      
+$1021/speech_1021_17.mp3;2,6;4,167;8,236;10,518
+
+[LINE]
+SpeakerSpeaker391: Sì,   questo negozio!
+~                  yes   this   store   
+$1021/speech_1021_18.mp3;2,6;9,520;8,327
+
+[MULTIPLE_CHOICE]
+> Where is the man's job interview?
+- At a hospital.
+- At an office nearby.
++ At the store he was shopping in.
+
+[MATCH]
+> Tap the pairs
+- una <> a
+- aiuto <> help
+- Dove <> where
+- Nel <> in
+- negozio <> store
+
