@@ -1,0 +1,177 @@
+[DATA]
+fromLanguageName=The message
+icon=9b2262390489b3f5a045dc77896f56f3c20e50f0
+set=10|3
+
+speaker_Henk=Ruben
+speaker_Neeltje=Lotte
+
+[HEADER]
+> Het bericht
+~ The message
+$57/speech_57_0.mp3;3,6;8,154
+
+[LINE]
+> Henk belt  zijn werkgever, Neeltje, op.
+~ ~    calls his  employer   ~        ~  
+$57/speech_57_1.mp3;4,6;5,204;5,268;10,162;9,1002;4,781
+
+[LINE]
+Speaker2540: Hallo?
+~            Hello 
+$57/speech_57_2.mp3;5,6
+
+[SELECT_PHRASE]
+> Click the missing phrase.
+Speaker113: Goedemorgen Neeltje, ik kan vandaag [niet      komen werken].
+~           Goodmorning ~        I  can today    undefined ~     ~       
+$57/speech_57_3.mp3;11,6;8,643;4,670;4,107;8,200;5,378;6,157;7,437
+- komen niet werken
+- niet kom werken
++ niet komen werken
+
+[LINE]
+Speaker2540: Is alles      in~orde?
+~            Is everything alright 
+$57/speech_57_4.mp3;2,6;6,157;3,341;5,169
+
+[LINE]
+Speaker113: Nee.
+~           No  
+$57/speech_57_5.mp3;3,6
+
+[LINE]
+Speaker113: Ik sta   buiten  het kantoorgebouw.
+~           I  stand outside the office        
+$57/speech_57_6.mp3;2,6;4,127;7,245;4,342;14,119
+
+[LINE]
+Speaker113: Maar ik kan niet naar~binnen.
+~           But  I  can not  enter       
+$57/speech_57_7.mp3;4,6;3,277;4,110;5,178;5,152;7,85
+
+[LINE]
+Speaker113: De  ingang   wordt      door een bord geblokkeerd.
+~           The entrance is~blocked by   a   sign blocked     
+$57/speech_57_8.mp3;2,6;7,176;6,498;5,143;4,152;5,70;12,181
+
+[MULTIPLE_CHOICE]
+> Waarom kan Henk niet naar binnen gaan?
++ Een bord blokkeert de ingang.
+- Een ingang blokkeert het bord.
+- Hij staat voor het verkeerde kantoorgebouw.
+
+[LINE]
+Speaker2540: Een bord? Wat  voor    bord?
+~            A   sign  What kind~of sign 
+$57/speech_57_10.mp3;3,6;5,174;5,767;5,196;5,212
+
+[SELECT_PHRASE]
+> Click the missing word.
+> Een groot en  [kleurrijk] bord.
+~ a   big   and  undefined  sign 
+$57/speech_57_11.mp3;3,6;6,131;3,324;10,160;5,436
+- vindingrijk
+- melkrijk
++ kleurrijk
+
+[LINE]
+Speaker2540: Wat  staat~erop?      
+~            What is~written~on~it 
+$57/speech_57_12.mp3;3,6;6,206;5,348
+
+[LINE]
+Speaker113: Ik denk  dat  je  dat zelf moet   zien.
+~           I  think that you it  self should see  
+$57/speech_57_13.mp3;2,6;5,141;4,273;3,153;4,91;5,131;5,251;5,181
+
+[LINE]
+Speaker2540: Ik zal  uit het raam   kijken.
+~            I  will out the window look   
+$57/speech_57_14.mp3;2,6;4,130;4,270;4,234;5,157;7,323
+
+[LINE]
+Speaker2540: Ik zie het bord maar ik kan niet lezen wat  erop  staat~geschreven.
+~            I  see the sign but  I  can not  read  what on~it is~written       
+$57/speech_57_15.mp3;2,6;4,120;4,202;5,194;5,283;3,235;4,181;5,216;6,222;4,405;5,215;6,306;11,331
+
+[LINE]
+Speaker113: Kijk goed.
+~           Look well 
+$57/speech_57_16.mp3;4,6;5,206
+
+[LINE]
+Speaker2540: Er~staat;         ik neem ontslag.
+~            There~is~written  I  ~    ~       
+$57/speech_57_17.mp3;2,6;6,98;4,614;5,98;8,311
+
+[MULTIPLE_CHOICE]
+> Wat betekent 'ontslag nemen'?
+- Let me in
++ I resign
+- I take a day off
+
+[LINE]
+Speaker2540: De  ingang   is niet geblokkeerd.
+~            The entrance is not  blocked     
+$57/speech_57_19.mp3;2,6;7,138;3,480;5,156;12,241
+
+[LINE]
+Speaker2540: Jij staat met  het bord in je   handen!
+~            you stand with the sign in your hands  
+$57/speech_57_20.mp3;3,6;6,190;4,383;4,193;5,168;3,273;3,157;7,122
+
+[LINE]
+Speaker2540: Wat is er aan de hand?
+$57/speech_57_21.mp3;3,6;3,203;3,204;4,118;3,220;5,92
+
+[MULTIPLE_CHOICE]
+> Wat vraagt Neeltje?
+- Where is your hand?
++ What is going on?
+- What does the sign mean?
+
+[LINE]
+Speaker113: Dit  is mijn manier om~te zeggen ...
+~           This is my   way    to    say       
+$57/speech_57_23.mp3;3,6;3,144;5,114;7,157;3,288;3,145;7,93
+
+[LINE]
+Speaker113: IK NEEM~ONTSLAG
+~           I  QUIT        
+$57/speech_57_24.mp3;2,6;5,146;8,217
+
+[LINE]
+Speaker2540: Maar...
+~            But    
+$57/speech_57_25.mp3;4,6
+
+[ARRANGE]
+> Put the words in the right order:
+Speaker113: [(Ik) (moet) (naar) (het) (vliegveld)].
+$57/speech_57_26.mp3;2,6;5,129;5,161;4,122;10,99
+
+[LINE]
+Speaker113: Mijn vlucht naar Aruba vertrekt over een uur. 
+~           My   flight to   ~     leaves   in   an  hour 
+$57/speech_57_27.mp3;4,6;7,257;5,268;6,135;9,397;5,403;4,282;4,85
+
+[MULTIPLE_CHOICE]
+> Wat gaat Henk doen?
+- Hij neemt een nieuwe baan.
++ Hij gaat op vakantie.
+- Hij heeft een vliegtuig gekocht.
+
+[LINE]
+Speaker113: Nog~een~fijne~dag~gewenst.
+~           Have~a~nice~day           
+$57/speech_57_29.mp3;3,6;4,187;6,86;4,322;8,221
+
+[MATCH]
+> Tap the pairs:
+- bord <> sign
+- werkgever <> employer
+- ingang <> entrance
+- vandaag <> today
+- geblokkeerd <> blocked
+
