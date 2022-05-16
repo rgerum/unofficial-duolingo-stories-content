@@ -1,0 +1,155 @@
+[DATA]
+fromLanguageName=Good Morning
+icon=783305780a6dad8e0e4eb34109d948e6a5fc2c35
+set=1|1
+
+icon_Andriy=https://stories-cdn.duolingo.com/image/f118359885a5dc9babe4808c746e1c15ea9cd6f4.svg
+
+[HEADER]
+> Доброго~ранку!
+~ good~morning  
+$985/speech_985_0.mp3;7,0;6,337.6551724137931
+
+[LINE]
+> Андрій вдома   зі   своєю дружиною Софією.
+~ Andriy at~home with his   wife     Sophia 
+$985/speech_985_1.mp3;6,0;6,408.90566037735846;3,350.4905660377359;6,175.2452830188679;9,350.490566037736;7,525.7358490566035
+
+[LINE]
+SpeakerAndriy: Доброго~ранку, Софіє!
+~              good~morning   Sofia 
+$985/speech_985_2.mp3;7,0;6,410.66666666666663;7,359.33333333333337
+
+[LINE]
+Speaker292: Доброго~ранку, коханий.
+~           good~morning   darling 
+$985/speech_985_3.mp3;7,0;6,373.89473684210526;9,327.15789473684214
+
+[MULTIPLE_CHOICE]
+> What does "коханий" mean?
+- husband
++ darling
+- colleague
+
+[LINE]
+Speaker292: Де    мій підручник~з~англійської~мови?
+~           where my  English~language~textbook    
+$985/speech_985_5.mp3;2,0;4,145.41176470588235;10,193.8823529411765;2,484.70588235294116;12,96.94117647058829;5,581.6470588235293
+
+[LINE]
+SpeakerAndriy: Тобто?           
+~              what~do~you~mean 
+$985/speech_985_6.mp3;5,0
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker292: У~мене [іспит] в       університеті.
+~           I~have  exam   at~(in) university   
+$985/speech_985_7.mp3;1,0;5,101.5813953488372;6,253.9534883720931;2,304.7441860465115;13,101.5813953488373
+- спати
++ іспит
+- запитання
+
+[LINE]
+Speaker292: Мені~потрібен цей  підручник.
+~           I~need        this textbook  
+$985/speech_985_8.mp3;4,0;9,240;4,432;10,192
+
+[LINE]
+SpeakerAndriy: Софіє! Твій підручник тут,  на столі!
+~              Sofia  your textbook  here  on table 
+$985/speech_985_9.mp3;5,0;6,362.3529411764706;10,258.82352941176464;4,517.6470588235296;4,258.82352941176464;6,155.29411764705878
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "tired."
+Speaker292: (Вибач), (коханий). (Я) (+втомлена).
+~            sorry    darling    I    tired     
+$985/speech_985_10.mp3;5,0;9,368;3,473.1428571428571;9,105.14285714285711
+
+[LINE]
+SpeakerAndriy: Хочеш       кави?  
+~              do~you~want coffee 
+$985/speech_985_11.mp3;5,0;5,265.84615384615387
+
+[LINE]
+Speaker292: Так, будь~ласка.
+~           yes  please     
+$985/speech_985_12.mp3;3,0;6,205.16129032258064;6,205.16129032258064
+
+[ARRANGE]
+> Tap what you hear
+SpeakerAndriy: [(З)    (молоком) (чи) (бе)]з?    
+~                with   milk      or   without   
+$985/speech_985_13.mp3;1,0;8,87;3,348;4,130.5
+
+[LINE]
+Speaker292: Без     молока.
+~           without milk   
+$985/speech_985_14.mp3;3,0;7,162.46153846153848
+
+[LINE]
+SpeakerAndriy: Ось  твоя кава.  
+~              here your coffee 
+$985/speech_985_15.mp3;3,0;5,168.82758620689654;5,211.03448275862073
+
+[LINE]
+> Софія кладе цукор у  каву.  
+~ Sofia puts  sugar in coffee 
+$985/speech_985_16.mp3;5,0;6,331.2;6,331.2;2,331.20000000000005;5,110.39999999999998
+
+[CONTINUATION]
+> What comes next?
+> Вона п'є     [каву]  
+~ she  drinks   coffee 
+$985/speech_985_17.mp3;4,0;4,123.75;6,123.75
+- молоко
+~ milk  
++ каву  
+~ coffee
+- підручник
+~ textbook 
+
+[LINE]
+Speaker292: Тьфу!
+~           Ugh  
+$985/speech_985_18.mp3;4,0
+
+[LINE]
+SpeakerAndriy: Що   трапилося?
+~              what happened  
+$985/speech_985_19.mp3;2,0;10,136.28571428571428
+
+[LINE]
+Speaker292: Це   була сіль!
+~           that was  salt 
+$985/speech_985_20.mp3;2,0;5,115.71428571428571;5,192.85714285714283
+
+[LINE]
+Speaker292: Не  цукор!
+~           not sugar 
+$985/speech_985_21.mp3;2,0;6,114
+
+[LINE]
+SpeakerAndriy: Ти  дійсно втомилася...
+~              you really tired       
+$985/speech_985_22.mp3;2,0;7,128.43243243243245;10,299.6756756756757
+
+[LINE]
+Speaker292: Так! І   мені~потрібно більше кави.   З    цукром, а         не  з    сіллю!
+~           yes  and I~need        more   coffee  with sugar   but~(and) not with salt  
+$985/speech_985_23.mp3;3,0;3,280;5,112;9,280;7,504;5,392;3,336;7,112;3,448;3,112;2,168;6,112
+
+[MULTIPLE_CHOICE]
+> What happened to Sophia?
++ She put salt in her coffee.
+- She drank coffee with milk.
+- She spilled coffee on her textbook.
+
+[MATCH]
+> Tap the pairs
+- сіль <> salt
+- мені потрібно <> I need
+- цукор <> sugar
+- ти <> you
+- більше <> more
+
