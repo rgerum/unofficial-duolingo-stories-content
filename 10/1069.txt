@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=My Favorite Lunch
+icon=7118252e70f96bc0ffa531032ec8c2efaf043e7b
+set=4|5
+
+speaker_Speaker349=Carla
+speaker_Speaker348=Giorgio
+
+[HEADER]
+> Il~mio pranzo~preferito
+~ my     favorite~lunch  
+$1069/speech_1069_0.mp3;2,6;4,135;7,167;10,511
+
+[LINE]
+> Adriano e     Renata sono in un ristorante.
+~ ~       and   ~      are  in a  restaurant 
+$1069/speech_1069_1.mp3;7,6;2,599;9,78;5,450;3,286;3,136;11,74
+
+[LINE]
+Speaker338: Io pranzo~sempre    davanti~alla~scrivania…
+~           I  always~eat~lunch at~my~desk…            
+$1069/speech_1069_2.mp3;2,6;7,228;7,564;8,496;5,451;11,169
+
+[LINE]
+Speaker338: …| ma  ci~sono   tante cose~buone  in questo menù!
+~           …  but there~are many  good~things in this   menu 
+$1069/speech_1069_3.mp3;1,6;3,317;3,181;5,152;6,299;5,396;6,310;3,322;7,97;5,358
+
+[MULTIPLE_CHOICE]
+> Renata usually eats her lunch at home.
+- Yes, that's true.
++ No, that's not right.
+
+[LINE]
+Speaker440: Sì!  Io pranzo~sempre    qui! 
+~           yes  I  always~eat~lunch here 
+$1069/speech_1069_5.mp3;2,6;4,727;7,183;7,389;4,322
+
+[LINE]
+Speaker338: Mmm…| Io voglio un hamburger con  patatine~fritte.
+~           Mmm…  I  want   a  hamburger with fries           
+$1069/speech_1069_6.mp3;4,6;3,538;7,243;3,287;10,94;4,640;9,186;7,603
+
+[LINE]
+Speaker440: Gli hamburger  qui  sono molto buoni!
+~           the hamburgers here are  very  good  
+$1069/speech_1069_7.mp3;3,6;10,139;4,474;5,180;6,255;6,335
+
+[LINE]
+Speaker338: Tu~cosa~vuoi     mangiare?
+~           what~do~you~want to~eat   
+$1069/speech_1069_8.mp3;2,6;5,134;5,354;9,207
+
+[ARRANGE]
+> Tap what you hear
+Speaker440: [(Il~mio) (pranzo) (di) (tutti~i~giorni)].
+~             my       lunch    of   every~day        
+$1069/speech_1069_9.mp3;2,6;4,127;7,210;3,352;6,115;2,266;7,82
+
+[CONTINUATION]
+> What comes next?
+Speaker338: E   cosa mangi        [tutti     i giorni]?
+~           and what do~you~eat    every~day ~ ~       
+$1069/speech_1069_10.mp3;1,6;5,76;6,412;8,412;2,344;7,55
+- il mio   pranzo
+~ my lunch ~     
+- alla scrivania
+~ at   my       
++ tutti~i~giorni
+~ every~day     
+
+[LINE]
+Speaker440: Un hamburger senza   carne e   senza   patatine~fritte…
+~           a  hamburger without meat  and without fries…          
+$1069/speech_1069_11.mp3;2,6;10,160;6,520;6,322;2,377;6,56;9,369;8,487
+
+[LINE]
+Speaker338: Mmm…| solo pane? 
+~           Mmm…  only bread 
+$1069/speech_1069_12.mp3;4,6;5,538;5,338
+
+[LINE]
+Speaker440: No, non~mi~piace il~pane!
+~           ~   I~don't~like bread   
+$1069/speech_1069_13.mp3;2,6;5,476;3,155;6,109;3,363;5,76
+
+[ARRANGE]
+> Tap what you hear
+Speaker440: [(Però) (mi~piacciono) (i~pomodori) (e)   (le~verdure)].
+~             but    I~like         tomatoes     and   vegetables   
+$1069/speech_1069_14.mp3;4,6;3,175;10,124;2,500;9,91;2,535;3,43;8,97
+
+[LINE]
+Speaker440: Il~mio pranzo~preferito è  un hamburger…
+~           my     favorite~lunch   is a  hamburger…
+$1069/speech_1069_15.mp3;2,6;4,135;7,194;10,410;2,599;3,99;11,135
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker440: …| senza   carne, [senza   pane]  e   con  molte    verdure    e   pomodori!
+~           …  without meat    without bread  and with a~lot~of vegetables and tomatoes 
+$1069/speech_1069_16.mp3;1,6;6,252;6,321;7,668;5,321;2,316;4,54;6,168;8,299;2,396;9,55
+- senza sale
+- è pane
++ senza pane
+
+[LINE]
+Speaker338: Adriano…
+$1069/speech_1069_17.mp3;8,6
+
+[LINE]
+Speaker440: Sì? 
+~           yes 
+$1069/speech_1069_18.mp3;2,6
+
+[LINE]
+Speaker338: Quella è  un'insalata!
+~           that   is a~salad     
+$1069/speech_1069_19.mp3;6,6;2,333;12,88
+
+[MULTIPLE_CHOICE]
+> Renata is amused because Adriano's favorite lunch…
++ … is basically a salad.
+- … has too many calories.
+- … is not a vegetarian option.
+
+[MATCH]
+> Tap the pairs
+- scrivania <> desk
+- tutti i giorni <> every day
+- molte <> a lot of
+- mangi <> you eat
+- è <> is
+
