@@ -1,0 +1,159 @@
+[DATA]
+fromLanguageName=Surprise!
+icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
+set=1|4
+
+speaker_Speaker105=Carla
+speaker_Speaker104=Giorgio
+speaker_Speaker106=Bianca
+
+[HEADER]
+> Sorpresa!
+~ Surprise 
+$978/speech_978_0.mp3;8,6
+
+[LINE]
+> Antonio è  al     ristorante con  sua madre. 
+~ ~       is at~the restaurant with his mother 
+$978/speech_978_1.mp3;7,6;2,569;3,44;11,118;4,645;4,165;6,191
+
+[LINE]
+Speaker559: Un tavolo per tre   persone, per~favore.
+~           A  table  for three people   please     
+$978/speech_978_2.mp3;2,6;7,229;4,436;4,164;8,198;5,943;7,159
+
+[LINE]
+Speaker385: Tre?   Tu,  io e…?  
+~           Three  You  me and… 
+$978/speech_978_3.mp3;3,6;4,739;4,459;3,250
+
+[LINE]
+Speaker559: Un'amica.         
+~           A~(female)~friend 
+$978/speech_978_4.mp3;8,6
+
+[MULTIPLE_CHOICE]
+> Who else is coming for dinner?
+- Antonio's father.
+- Antonio's son.
++ A friend of Antonio's mom.
+
+[LINE]
+Speaker385: Mamma, io…
+~           Mom    I… 
+$978/speech_978_6.mp3;5,6;5,642
+
+[LINE]
+Speaker559: Ho       una sorpresa per te! 
+~           (I)~have a   surprise for you 
+$978/speech_978_7.mp3;2,6;4,122;9,190;4,626;3,202
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "also."
+Speaker385: (+Anche) (io) ho   (una) (sorpresa) (per) te! 
+~             Also    I   have  a     surprise   for  you 
+$978/speech_978_8.mp3;5,6;3,247;3,131;4,182;9,302;4,520;3,167
+
+[LINE]
+Speaker559: La~mia amica  è  una studentessa~di~medicina.
+~           My     friend is a   medical~student         
+$978/speech_978_9.mp3;2,6;4,159;6,166;2,298;4,54;12,204;3,814;9,120
+
+[LINE]
+Speaker559: Lei è  molto intelligente.
+~           She is very  intelligent  
+$978/speech_978_10.mp3;3,6;2,312;6,97;13,346
+
+[LINE]
+Speaker559: Lei~si~chiama Sonia.
+~           Her~name~is   ~     
+$978/speech_978_11.mp3;3,6;3,304;7,168;6,418
+
+[LINE]
+Speaker385: Mamma, io…
+~           Mom    I… 
+$978/speech_978_12.mp3;5,6;5,642
+
+[LINE]
+Speaker559: Lei è  perfetta per te! 
+~           She is perfect  for you 
+$978/speech_978_13.mp3;3,6;2,320;9,50;4,652;3,179
+
+[MULTIPLE_CHOICE]
+> Antonio's mom thinks that…
++ … Sonia is the perfect woman for her son.
+- … he should study medicine.
+- … the food at that restaurant is great.
+
+[LINE]
+> Una donna arriva  al     ristorante.
+~ A   woman arrives at~the restaurant 
+$978/speech_978_15.mp3;3,6;6,200;7,332;3,474;11,132
+
+[LINE]
+Speaker125: Ciao, tesoro!    
+~           Hi    my~darling 
+$978/speech_978_16.mp3;4,6;8,636
+
+[LINE]
+Speaker559: Tesoro?    
+~           My~darling 
+$978/speech_978_17.mp3;6,6
+
+[MULTIPLE_CHOICE]
+> Why is Antonio's mom surprised?
+- She is very happy to see the woman.
+- The food they ordered arrived quickly.
++ She did not know Antonio was in a relationship.
+
+[LINE]
+Speaker385: Ciao, Carla. Mamma…
+~           Hi    ~      Mom…  
+$978/speech_978_19.mp3;4,6;7,684;8,856
+
+[LINE]
+Speaker125: Lei~è   la~madre~di~Antonio?
+~           Are~you Antonio's~mother    
+$978/speech_978_20.mp3;3,6;2,418;3,67;6,146;3,397;8,123
+
+[LINE]
+Speaker559: Antonio!
+$978/speech_978_21.mp3;7,6
+
+[CONTINUATION]
+> What comes next?
+Speaker125: Io sono Carla. La~moglie~di  i Antonio].
+~           I  am   ~      Antonio's~wife  ~        
+$978/speech_978_22.mp3;2,6;5,192;6,310;4,971;7,182;3,322;8,131
+- e   mio marito 
+~ and my  husband
++ di~Antonio
+~ di~Antonio
+- nel giardino
+~ in  the     
+
+[LINE]
+Speaker559: Sua moglie!?
+~           His wife    
+$978/speech_978_23.mp3;3,6;7,220
+
+[LINE]
+Speaker385: Sorpresa!
+~           Surprise 
+$978/speech_978_24.mp3;8,6
+
+[MULTIPLE_CHOICE]
+> What was Antonio's surprise?
++ He recently married Carla.
+- He never wants to get married.
+- He wants to marry his mom's friend.
+
+[MATCH]
+> Tap the pairs
+- amica <> friend (f)
+- perfetta <> perfect (f)
+- moglie <> wife
+- lei si chiama <> her name is
+- mamma <> mom
+- studentessa di medicina <> medical student (f)
+
