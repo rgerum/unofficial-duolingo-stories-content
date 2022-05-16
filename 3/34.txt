@@ -1,0 +1,145 @@
+[DATA]
+fromLanguageName=Surprise!
+icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
+set=1|4
+
+[HEADER]
+> Έκπληξη! 
+~ Surprise 
+$34/speech_34_0.mp3;7,6
+
+[LINE]
+> Ο Αντώνης είναι στο    εστιατόριο με   τη~μητέρα~του.
+~ ~ ~       is    at~the restaurant with his~mother    
+$34/speech_34_1.mp3;1,5.312039012496189;8,133.68631514782075;6,518.8091435537945;4,241.69777506857668;11,268.2579701310576;3,764.9336177994514;3,162.01718988113362;7,141.65437366656533;4,363.8746723559889
+
+[LINE]
+Speaker559: Ένα τραπέζι για τρεις, σας~παρακαλώ.
+~           A   table   for three  please       
+$34/speech_34_2.mp3;3,5.4674693216022225;8,192.27267114301154;4,493.8947287180673;6,184.9827120475419;5,790.0493169715211;9,311.64575133132666
+
+[LINE]
+Speaker385: Τρεις; Εσύ, εγώ και... ;
+~           Three  You  me  and     
+$34/speech_34_3.mp3;5,5.094257854821235;5,725.0827013362224;5,537.4442036836404;4,292.0707836764175
+
+[LINE]
+Speaker559: Μια φίλη.  
+~           A   friend 
+$34/speech_34_4.mp3;3,5.755078125;5,175.52988281249998
+
+[MULTIPLE_CHOICE]
+> Who else is coming for dinner?
+- Antonis' son.
+- Antonis' father.
++ A friend of Antonis' mum.
+
+[LINE]
+Speaker385: Μαμά...
+~           Mum    
+$34/speech_34_6.mp3;4,5.625
+
+[LINE]
+Speaker559: Έχω    μια έκπληξη  για σένα!
+~           I~have a   surprise for you  
+$34/speech_34_7.mp3;3,5.703212356675827;4,193.9092201269781;8,151.1351274519094;4,595.9856912726239;5,245.2381313370605
+
+[LINE]
+Speaker385: Κι  εγώ έχω  μια έκπληξη  για σένα!
+~           And I   have a   surprise for you  
+$34/speech_34_8.mp3;2,5.798294997587261;4,176.84799742641147;4,316.00707736850575;4,202.94032491555413;8,217.43606240952215;4,610.7537397458583;5,249.32668489625235
+
+[POINT_TO_PHRASE]
+> Click on the option meaning 'also / and I'.
+Speaker385: (+Κι εγώ) (έχω)   (μια)  έκπληξη (για)      σένα!   
+~             ~  ~     And~I   have  a        surprise  for  you
+
+[LINE]
+Speaker559: Η~φίλη~μου είναι φοιτήτρια~ιατρικής. Είναι πολύ έξυπνη. Τη~λένε     Σόνια.
+~           My~friend  is    a~medicine~student  She's very smart   Her~name~is ~     
+$34/speech_34_10.mp3;1,5.161321304839983;5,81.72092065996638;4,287.31355263609237;6,216.77549480327917;10,356.9913902514321;9,638.2834013652113;7,1179.361918155936;5,418.9272459095114;7,330.3245635097596;4,932.4787157410892;5,92.04356326964717;6,247.74342263231938
+
+[LINE]
+Speaker385: Μαμά...
+~           Mum    
+$34/speech_34_11.mp3;4,5.625
+
+[LINE]
+Speaker559: Είναι ιδανική για σένα!
+~           She's perfect for you  
+$34/speech_34_12.mp3;5,5.258064516129032;8,432.0376344086021;4,434.66666666666674;5,248.00537634408602
+
+[MULTIPLE_CHOICE]
+> Antonis' mum thinks that...
++ … Sonia is the perfect woman for her son.
+- … she should study medicine.
+- … the food at that restaurant is great.
+
+[LINE]
+> Μια γυναίκα μπαίνει~στο    εστιατόριο.
+~ A   woman   comes~into~the restaurant 
+$34/speech_34_14.mp3;3,5.568180078095092;8,208.806752928566;8,544.7536176403032;4,401.83699563586254;11,296.9696041650716
+
+[LINE]
+Speaker125: Γεια~σου αγάπη~μου!
+~           Hello    darling   
+$34/speech_34_15.mp3;4,4.864718054837041;4,381.06958096223485;6,239.18197102948784;4,291.88308329022243
+
+[LINE]
+Speaker559: «Αγάπη~μου»;
+~           'Darling'   
+$34/speech_34_16.mp3;6,5.281010719754977;5,356.4682235834609
+
+[MULTIPLE_CHOICE]
+> Why is Antonis' mum surprised?
++ She didn't know Antonis was in a relationship.
+- The food they ordered arrived quickly.
+- She is very happy to see the woman.
+
+[LINE]
+Speaker385: Γεια~σου, Χριστίνα. Μαμά...
+~           Hello     ~         Mum    
+$34/speech_34_18.mp3;4,5.52525348242206;4,432.81152278972803;10,571.8637354306832;6,1037.8267791149435
+
+[LINE]
+Speaker125: Εσύ~είσαι η~μητέρα~του~Αντώνη;
+~           Are~you   Antonis'~mother     
+$34/speech_34_19.mp3;3,5.206517440480899;6,199.58316855176776;2,458.17353476231904;7,47.72640987107491;4,360.1174562999288;7,258.59036621055134
+
+[LINE]
+Speaker559: Αντώνη;
+$34/speech_34_20.mp3;6,6.685808039376538
+
+[SELECT_PHRASE]
+> Select the right answer.
+Speaker125: Είμαι η Χριστίνα, [η~γυναίκα~του~Αντώνη.].
+~           I'm   ~ ~          Antonis'~wife          
+$34/speech_34_21.mp3;5,4.8533983541603165;2,323.55989027735444;9,30.738189576348645;3,738.5254495580616;8,95.45016763181934;4,499.9000304785127;7,237.81651935385548
+- η γυναίκα Αντώνίου.
++ η γυναίκα του Αντώνη.
+- η γυναίκα από τον Αντώνη.
+
+[LINE]
+Speaker559: H~γυναίκα~του;
+~           His~wife      
+$34/speech_34_22.mp3;1,5.51651744365545;8,304.3278789749923;4,573.7178141401668
+
+[LINE]
+Speaker385: Έκπληξη! 
+~           Surprise 
+$34/speech_34_23.mp3;7,6
+
+[MULTIPLE_CHOICE]
+> What was Antonis' surprise?
+- He wants to marry his mom's friend.
++ He recently married Christina.
+- He never wants to get married.
+
+[MATCH]
+> Tap the pairs!
+- η έκπληξη <> surpise
+- η φοιτήτρια ιατρικής <> medicine student
+- έξυπνη <> smart
+- ιδανική <> perfect
+- το τραπέζι <> table
+
