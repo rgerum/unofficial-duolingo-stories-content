@@ -1,0 +1,124 @@
+[DATA]
+fromLanguageName=The Green Dress
+icon=5dd7c1c9e363ca081026fc76b834b84df03c1ce5
+set=2|1
+
+speaker_Speaker404=Carla
+speaker_Speaker405=Bianca
+
+[HEADER]
+> Il   vestito~verde
+~ the  green~dress  
+$1013/speech_1013_0.mp3;2,6;9,134;6,524
+
+[LINE]
+Speaker659: Maria? Dove~sei?     
+~           ~      where~are~you 
+$1013/speech_1013_1.mp3;5,6;6,1015;4,361
+
+[LINE]
+Speaker175: Sono in     bagno,    Anna!
+~           I~am in~the bathroom  ~    
+$1013/speech_1013_2.mp3;4,6;3,338;6,104;6,724
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker659: [Mi serve il    mio vestito]!
+~            I  need  (the) my  dress    
+$1013/speech_1013_3.mp3;2,6;6,162;3,391;4,72;8,168
++ Mi serve il mio vestito
+- Mi verde nel vestito
+- Mi serve il mio vertice
+
+[LINE]
+Speaker175: Il~tuo~vestito~rosso?
+~           your~red~dress       
+$1013/speech_1013_4.mp3;2,6;4,149;8,182;6,476
+
+[LINE]
+Speaker659: No, il~mio vestito~verde!
+~           ~   my     green~dress   
+$1013/speech_1013_5.mp3;2,6;4,601;4,171;8,183;6,553
+
+[LINE]
+Speaker659: Esco            con  Giovanni.
+~           I'm~going~out   with ~        
+$1013/speech_1013_6.mp3;4,6;6,371;9,224
+
+[MULTIPLE_CHOICE]
+> Anna is going out with Giovanni.
++ Yes, that's true.
+- No, that's not right.
+
+[ARRANGE]
+> Tap what you hear
+Speaker175: [(Il)  (vestito~rosso) (è)  (bello)].  
+~             the   red~dress       is   pretty   …
+$1013/speech_1013_8.mp3;2,6;8,137;6,491;2,413;6,111
+
+[LINE]
+Speaker659: Voglio il   vestito~verde!
+~           I~want the  green~dress   
+$1013/speech_1013_9.mp3;6,6;3,384;9,135;6,509
+
+[LINE]
+Speaker175: Vuoi      il~mio vestito~blu?
+~           you~want  my     blue~dress  
+$1013/speech_1013_10.mp3;4,6;4,347;4,111;8,171;4,497
+
+[LINE]
+Speaker659: Ma  è      il~tuo~vestito~preferito!
+~           but it's   your~favorite~dress      
+$1013/speech_1013_11.mp3;2,6;2,146;5,115;4,134;8,187;10,489
+
+[MULTIPLE_CHOICE]
+> Maria's favorite dress is the blue one, but…
+- … she's asking Anna to wash it.
+- … she lent it to her best friend.
++ … she's asking Anna if she wants to wear it.
+
+[LINE]
+Speaker175: E     tu   sei la~mia sorella~preferita!
+~           and   you  are my     favorite~sister   
+$1013/speech_1013_13.mp3;1,6;5,84;5,166;3,279;4,122;8,205;10,474
+
+[LINE]
+Speaker659: Grazie,    Maria!
+~           thank~you  ~     
+$1013/speech_1013_14.mp3;6,6;7,877
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "comes out."
+> (Maria) (+esce)           (dal)       (bagno).   
+~  ~        comes~out        of~the      bathroom  
+$1013/speech_1013_15.mp3;5,6;5,294;9,321;9,176
+
+[LINE]
+Speaker175: Perfetto! Il   vestito~blu per te   e     il~verde               per me!
+~           perfect   the  blue~dress  for you  and   the~green~(one)        for me 
+$1013/speech_1013_16.mp3;8,6;4,1188;9,134;4,501;4,257;3,217;3,139;5,113;6,107;11,353;3,185
+
+[LINE]
+Speaker659: Maria! Tu   hai  il~mio vestito~verde!
+~           ~      you  have my     green~dress   
+$1013/speech_1013_17.mp3;5,6;4,967;5,198;3,150;4,105;8,209;6,486
+
+[LINE]
+Speaker175: Sì!   E     io sono la~tua   sorella~preferita!
+~           yes   And   I  am   your     favorite~sister   
+$1013/speech_1013_18.mp3;2,6;4,783;5,122;5,191;3,336;4,101;10,149;10,488
+
+[MULTIPLE_CHOICE]
+> Why is Anna annoyed?
+- Maria won't leave the bathroom.
++ Maria is wearing the dress that Anna wanted to wear.
+- Maria is talking to her boyfriend.
+
+[MATCH]
+> Tap the pairs
+- Il <> the
+- Perfetto <> perfect
+- il tuo vestito preferito <> your favorite dress
+- Sì <> yes
+- hai <> have
+
