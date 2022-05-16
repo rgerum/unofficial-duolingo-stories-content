@@ -1,0 +1,161 @@
+[DATA]
+fromLanguageName=A Date
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+speaker_Speaker100=Maxim
+speaker_Speaker99=Tatyana
+speaker_Speaker101=Tatyana
+
+[HEADER]
+> Свида́ние
+~ a~date   
+$109/speech_109_0.mp3;9,6
+
+[LINE]
+> ́Юля в~рестора́не.    У~неё   свида́ние.
+~ ~   in~a~restaurant She~has a~date    
+$109/speech_109_1.mp3;4,6;2,514;11,77;3,1154;4,103;10,253
+
+[LINE]
+Speaker100: Что  ты  хо́чешь заказа́ть?
+~           what you want   to~order  
+$109/speech_109_2.mp3;3,6;3,303;8,122;10,458
+
+[MULTIPLE_CHOICE]
+> Yulya's date is asking...
++ … what Yulya wants to order.
+- … where to find the restaurant.
+- … how much the food costs.
+
+[LINE]
+Speaker336: Сала́т. 
+~           a~salad 
+$109/speech_109_4.mp3;6,6
+
+[LINE]
+Speaker336: Я не~ем     мя́со.
+~           I don't~eat meat  
+$109/speech_109_5.mp3;1,6;3,223;3,103;6,248
+
+[LINE]
+Speaker100: Ты  вегетариа́нка?
+~           you vegetarian    
+$109/speech_109_6.mp3;2,6;14,142
+
+[LINE]
+Speaker336: Да... 
+~           yes   
+$109/speech_109_7.mp3;2,6
+
+[LINE]
+Speaker100: Я  то́же!
+~           me too   
+$109/speech_109_8.mp3;1,6;6,264
+
+[MULTIPLE_CHOICE]
+> Why did he say that?
+- He hates salads.
+- He loves to eat meat.
++ He's also a vegetarian.
+
+[LINE]
+Speaker336: Пра́вда? Су́пер!
+~           really   great  
+$109/speech_109_10.mp3;7,6;8,858
+
+[LINE]
+Speaker336: Ты  ру́сский?
+~           you Russian  
+$109/speech_109_11.mp3;2,6;9,117
+
+[ARRANGE]
+> Put the words in the right order:
+Speaker100: [(Нет), (я) (америка́нец)]
+~             No     I   American     
+$109/speech_109_12.mp3;3,6;3,664;12,287
+
+[LINE]
+Speaker100: Мой па́па   украи́нец, а         моя ма́ма   францу́женка.
+~           My  father Ukranian  and~(but) my  mother French       
+$109/speech_109_13.mp3;3,6;6,246;10,360;3,1139;4,100;6,348;13,381
+
+[LINE]
+Speaker336: Я украи́нка!
+~           I Ukranian  
+$109/speech_109_14.mp3;1,6;10,185
+
+[LINE]
+Speaker100: Я люблю́ Украи́ну!
+~           I love  Ukraine  
+$109/speech_109_15.mp3;1,6;7,287;9,315
+
+[SELECT_PHRASE]
+> Choose the best answer:
+Speaker100: У~тебя́~есть [дома́шние~живо́тные], ́Аня?
+~           Do~you~have   pets                  ~    
+$109/speech_109_16.mp3;1,6;6,106;5,258;10,314;10,590;6,943
+- дома́шнего жив́отного
++ дома́шние живо́тные
+- дома́шними живо́тными
+
+[LINE]
+Speaker336: Да,  у~меня́ три   ко́шки и…  
+~           yes  I~have  three cats   and…
+$109/speech_109_17.mp3;2,6;3,555;6,65;4,258;7,261;3,442
+
+[LINE]
+> Юля удивлена́.   
+~ ~   is~surprised 
+$109/speech_109_18.mp3;3,6;10,486
+
+[LINE]
+Speaker336: Почему́ ́Аня?! Меня́~зову́т ́Юля.
+~           Why    ~     my~name~is   ~    
+$109/speech_109_19.mp3;7,6;5,506;8,705;7,261;5,331
+
+[LINE]
+Speaker336: А   ты  Серге́й?
+~           and you ~       
+$109/speech_109_20.mp3;1,6;3,64;8,151
+
+[LINE]
+Speaker100: Нет, я    Па́вел!
+~           no   I~am ~      
+$109/speech_109_21.mp3;3,6;3,658;7,263
+
+[MULTIPLE_CHOICE]
+> Julie and Paul were supposed to meet different people.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+> Де́вушка захо́дит в  рестора́н. 
+~ girl     enters   in restaurant 
+$109/speech_109_23.mp3;8,6;9,528;2,602;10,60
+
+[LINE]
+Speaker101: До́брый~день!   Ты  Па́вел? Я ́Аня.
+~           Good~afternoon  you ~       I ~    
+$109/speech_109_24.mp3;7,6;5,343;4,711;7,82;3,821;5,216
+
+[LINE]
+Speaker100: Эээ... нет... Меня́~зову́т   Серге́й.
+~           uh     no     [they]~call~me ~       
+$109/speech_109_25.mp3;3,6;7,915;9,798;7,417;8,408
+
+[MULTIPLE_CHOICE]
+> At the end of the story, Pavel…
+- … was tired of talking to Yulie.
++ … lied to his real date because he likes Yulya.
+- … met someone named Sergey.
+
+[MATCH]
+> Tap the pairs
+- вегетариа́нец/вегетариа́нка <> vegetarian
+- дома́шнее живо́тное <> pet
+- меня́ зову́т <> my name is
+- удивлён/удивлена́ <> surprised
+- я люблю́ <> I love
+- и <> and
+
