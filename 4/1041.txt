@@ -1,0 +1,156 @@
+[DATA]
+fromLanguageName=A Date
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+[HEADER]
+> En date
+~ a  date
+$1041/speech_1041_0.mp3;2,6;5,195
+
+[LINE]
+> Julie är på en date på en restaurang .
+~ ~     is on a  date in a  restaurant  
+$1041/speech_1041_1.mp3;5,6;3,431;3,218;3,100;5,341;3,156;3,143
+
+[LINE]
+Speaker100: Vad    vill~du~ha   att äta ?
+~           what   do~you~want  to  eat  
+$1041/speech_1041_2.mp3;3,6;7,171;3,181;3,89;5,232;4,127
+
+[MULTIPLE_CHOICE]
+> Julie's date is asking...
+- … where to find the restaurant.
+- … how much the food costs.
++ … what Julie wants to eat.
+
+[LINE]
+Speaker336: En  sallad.
+~           a   salad  
+$1041/speech_1041_4.mp3;2,6;8,169
+
+[LINE]
+Speaker336: Jag äter      inte kött.
+~           I   don't~eat meat ~    
+$1041/speech_1041_5.mp3;3,6;5,102;5,277;5,249
+
+[LINE]
+Speaker100: Är      du           vegetarian ?
+~           you~are vegetarian   ~           
+$1041/speech_1041_6.mp3;2,6;3,108;13,149
+
+[LINE]
+Speaker336: Ja... 
+~           yes   
+$1041/speech_1041_7.mp3;2,6
+
+[LINE]
+Speaker100: Jag också!
+~           me  too   
+$1041/speech_1041_8.mp3;3,6;6,192
+
+[MULTIPLE_CHOICE]
+> Why did he say that?
+- He hates salads.
++ He's also a vegetarian.
+- He loves to eat meat.
+
+[LINE]
+Speaker336: Åh, toppen!
+~           oh  great  
+$1041/speech_1041_10.mp3;2,6;8,532
+
+[LINE]
+Speaker336: Kommer  du   från   Sverige ?
+~           Are~you from Sweden ~        
+$1041/speech_1041_11.mp3;6,6;3,316;5,150;8,212
+
+[ARRANGE]
+> Tap what you hear
+Speaker100: [(Nej) (jag) (kommer) (från) (England)].
+~             Nej   jag   kommer   från   England   
+$1041/speech_1041_12.mp3;3,6;4,225;7,170;5,329;8,223
+
+[LINE]
+Speaker100: Min pappa   är från Kanada och min mamma   är Spanjorska.
+~           my  father  is from Canada and my  mother  is Spanish    
+$1041/speech_1041_13.mp3;3,6;6,253;4,319;5,92;7,201;4,493;4,120;6,177;4,310;11,170
+
+[LINE]
+Speaker336: Jag kommer från Kanada !
+~           I   am     from Canada  
+$1041/speech_1041_14.mp3;3,6;7,139;5,366;7,204
+
+[LINE]
+Speaker100: Jag älskar Kanada !
+~           I   love   Canada  
+$1041/speech_1041_15.mp3;3,6;7,137;7,457
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker100: Har         du      något [husdjur] ,   Anne ?
+~           do~you~have a       pet    ~            ~     
+$1041/speech_1041_16.mp3;3,6;3,86;11,158;8,369;9,930
+- hemmadjur
+- kramdjur
++ husdjur
+
+[LINE]
+Speaker336: Ja,   jag har   tre     katter och…
+~           yes   I   have  three   cats   and…
+$1041/speech_1041_17.mp3;2,6;6,650;4,171;5,112;9,343;5,421
+
+[LINE]
+> Julie är förvänad 
+~ ~     is surprised
+$1041/speech_1041_18.mp3;5,6;3,502;9,102
+
+[LINE]
+Speaker336: Anne ?! Jag        heter  Julie.
+~           ~       my~name~is ~      ~     
+$1041/speech_1041_19.mp3;4,6;7,786;6,153;7,345
+
+[LINE]
+Speaker336: Och du   heter                   Sébastien ?
+~           and you  you~are~called          ~          
+$1041/speech_1041_20.mp3;3,6;3,106;7,155;19,303
+
+[LINE]
+Speaker100: Nej, jag  heter Paul !
+~           no   I~am ~     ~     
+$1041/speech_1041_21.mp3;3,6;5,803;6,153;5,339
+
+[MULTIPLE_CHOICE]
+> Julie and Paul were supposed to meet different people.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+> En kvinna kommer   in på             restaurangen.
+~ a  woman  arrives  at the~restaurant ~            
+$1041/speech_1041_23.mp3;2,6;7,213;7,424;4,349;3,178;13,119
+
+[LINE]
+Speaker101: Hej ! Är      du   Paul ? Je är Anne.
+~           hi    you~are ~    I      am ~  ~    
+$1041/speech_1041_24.mp3;3,6;5,944;3,90;7,147;5,921;3,218;5,168
+
+[LINE]
+Speaker100: Eh... nej... jag        heter  Sébastien.
+~           uh    no     my~name~is ~      ~         
+$1041/speech_1041_25.mp3;2,6;7,495;7,922;6,153;11,303
+
+[MULTIPLE_CHOICE]
+> At the end of the story, Paul…
+- … was tired of talking to Julie.
++ … lied to his real date because he likes Julie.
+- … met someone named Sébastien.
+
+[MATCH]
+> Tap the pairs
+- pappa <> father
+- katter <> cats
+- nej <> no
+- jag <> I
+- svensk <> Swedish
+
