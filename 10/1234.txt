@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=Too Dangerous
+icon=d0d5327cf96850b66bb9db4aa71b64a0050a53b3
+set=6|8
+
+speaker_Narrator=it-IT-Wavenet-C
+speaker_Speaker299=it-IT-ElsaNeural
+speaker_Speaker298=it-IT-Wavenet-C
+speaker_Speaker300=it-IT-Wavenet-D
+
+[HEADER]
+> Troppo pericoloso
+~ too    dangerous 
+$1234/speech_1234_0.mp3;6,0;11,309.75
+
+[LINE]
+Speaker3160: Non~ce~la~faccio, Lisa.
+~            I~can't           ~    
+$1234/speech_1234_1.mp3;3,0;3,194.52631578947367;3,145.89473684210523;7,145.89473684210526;6,389.0526315789474
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "dangerous."
+Speaker3160: (Ho~paura)!   (E'|)     (troppo) (+pericoloso)!
+~             I'm~afraid    it's      too       dangerous   
+$1234/speech_1234_2.mp3;2,0;6,147.06382978723403;4,343.1489361702128;9,196.08510638297872;11,343.14893617021266
+
+[LINE]
+Speaker3160: Non~ci~voglio    andare!
+~            I~don't~want     to~go  
+$1234/speech_1234_3.mp3;3,0;3,140.3076923076923;7,105.23076923076925;10,350.7692307692307
+
+[LINE]
+Speaker1320: Emilio tranquillo,  andrà       tutto      bene.
+~            ~      don't~worry  will~be     everything fine 
+$1234/speech_1234_4.mp3;6,0;11,343.6363636363636;7,589.0909090909091;10,490.90909090909076;5,294.54545454545473
+
+[ARRANGE]
+> Tap what you hear
+Speaker3160: [(E)   (come) (fai)    (a)  (saperlo)]?  
+~              and   how    do~you   to   know~that   
+$1234/speech_1234_5.mp3;1,0;5,94.66666666666666;4,236.66666666666666;2,189.33333333333343;8,94.66666666666663
+
+[LINE]
+Speaker1320: Beh,  molte       persone~ci~vanno. 
+~            well  a~lot~of    people~goes~there 
+$1234/speech_1234_6.mp3;3,0;7,254.3478260869565;11,457.82608695652175;3,406.9565217391305;6,152.60869565217376
+
+[LINE]
+Speaker1320: Dai    Emilio, andrà      tutto      bene, non~devi~preoccuparti.  
+~            com'on ~       it~will~be everything fine  you~don't~have~to~worry 
+$1234/speech_1234_7.mp3;3,0;7,225.67164179104478;7,451.3432835820895;6,338.50746268656724;5,338.507462686567;5,338.50746268656735;5,225.67164179104475;13,282.08955223880616
+
+[LINE]
+Speaker1320: Ci~sono~io~qui con~te   e   andremo           insieme. 
+~            I~am~here      with~you and we're~going~to~go together 
+$1234/speech_1234_8.mp3;2,0;5,159.05454545454543;3,265.0909090909091;4,159.05454545454552;4,212.0727272727272;3,212.07272727272732;2,159.05454545454552;8,106.03636363636338;8,424.14545454545464
+
+[CONTINUATION]
+> What comes next?
+Speaker3160: Grazie,      Lisa. Sei        una [amica  eccezionale].
+~            thank~you    ~     you~are    a    friend exceptional  
+$1234/speech_1234_9.mp3;6,0;8,467.5;5,280.5;7,327.25;6,187;12,280.5
++ amica eccezionale
+~ good  friend     
+- molte       persone
+~ a~lot~of    people 
+- molto  preoccupato
+~ very   worried    
+
+[LINE]
+Speaker3160: D'accordo.
+~            Agreed    
+$1234/speech_1234_10.mp3;9,0
+
+[LINE]
+Speaker3160: Credo~di essere pronto ora!
+~            I~think  I~am   ready  now 
+$1234/speech_1234_11.mp3;5,0;3,277.7142857142857;7,138.85714285714283;7,324;4,324.0000000000001
+
+[LINE]
+Speaker300: Vuoi~andare             sulle  montagne~russe  oppure  no? 
+~           you're~going~to~ride    the    rollercoaster   or      not 
+$1234/speech_1234_12.mp3;4,0;7,215.625;9,431.25;10,301.875;6,388.125;8,301.875;4,345
+
+[MULTIPLE_CHOICE]
+> The man is asking Emilio if he wants to ride the rollercoaster.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker300: Ci~sono       tante~altre    persone  che  stanno~aspettando!
+~           there~is      many~others    people   that are~waiting       
+$1234/speech_1234_14.mp3;2,0;5,125.51351351351352;11,418.37837837837833;6,251.02702702702697;11,376.54054054054075;5,376.5405405405404;7,167.35135135135147;11,292.8648648648648
+
+[LINE]
+Speaker3160: Sì,   vado!     
+~            yes   I'm~going 
+$1234/speech_1234_15.mp3;2,0;7,216
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker3160: E     la~mia amica,   Lisa, [verrà]     con~me! 
+~            and   my     friend   ~      is~coming  with~me 
+$1234/speech_1234_16.mp3;1,0;5,197.43396226415095;4,148.0754716981132;6,197.43396226415092;7,394.86792452830184;7,296.15094339622647;4,296.15094339622647;3,197.43396226415075
+- vera
++ verrà
+- vene
+
+[LINE]
+Speaker3160: Aspetta…|~Lisa? Perché~stai~correndo?      Dove~stai~andando?  
+~            wait…    ~      why~are~you~running        where~are~you~going 
+$1234/speech_1234_17.mp3;8,0;5,356.9684210526316;8,237.97894736842102;5,277.6421052631579;9,198.31578947368428;11,594.9473684210525;5,198.3157894736844;8,198.3157894736844
+
+[LINE]
+Speaker1320: Mi~dispiace, Emilio! Ho~troppa~paura~di~andare sulle montagne~russe!
+~            I'm~sorry    ~       I'm~too~afraid~of~riding  the   rollercoasters 
+$1234/speech_1234_18.mp3;2,0;9,174.36144578313252;8,581.2048192771085;4,464.96385542168673;7,174.36144578313247;6,406.84337349397583;3,348.72289156626493;7,174.3614457831327;6,406.8433734939763;9,348.7228915662645;6,523.0843373493976
+
+[LINE]
+Speaker1320: E'|     troppo pericoloso!
+~            it's    too    dangerous  
+$1234/speech_1234_19.mp3;2,0;9,232.1052631578947;11,324.9473684210526
+
+[MULTIPLE_CHOICE]
+> Why did Lisa run away?
++ She was afraid to ride the rollercoaster.
+- The rollercoaster was closed.
+- She hates standing in lines.
+
+[MATCH]
+> Tap the pairs
+- andremo <> we're going to go
+- una <> a
+- sei <> you are
+- come <> how
+- andrà <> we're going to be
+
