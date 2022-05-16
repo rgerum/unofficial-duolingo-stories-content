@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=My Favorite Pen
+icon=c705fb9dbd8dd847d687d6e63c7e6eeba2e4d60d
+set=2|2
+
+speaker_Speaker402=Giorgio
+speaker_Speaker403=Giorgio
+
+[HEADER]
+> La~mia penna~preferita
+~ My     favorite~pen   
+$1018/speech_1018_0.mp3;2,6;4,178;6,169;10,353
+
+[LINE]
+> Marco e   Lorenzo sono in classe.
+~ ~     and ~       are  in class  
+$1018/speech_1018_1.mp3;5,6;2,494;8,30;5,492;3,252;7,161
+
+[LINE]
+Speaker438: No!
+$1018/speech_1018_2.mp3;2,6
+
+[LINE]
+Speaker1087: Tutto~bene, Lorenzo?
+~            Are~you~OK  ~       
+$1018/speech_1018_3.mp3;5,6;5,257;9,565
+
+[MULTIPLE_CHOICE]
+> Marco is asking Lorenzo if he is OK.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker438: Dov'è?!      
+~           Where~is~it  
+$1018/speech_1018_5.mp3;5,6
+
+[LINE]
+Speaker438: Mi~serve la~mia penna!
+~           I~need   my     pen   
+$1018/speech_1018_6.mp3;2,6;6,139;3,330;4,100;6,165
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1087: Oh, no! La  [penna blu]? 
+~            oh  ~   the  pen   blue  
+$1018/speech_1018_7.mp3;2,6;4,492;4,667;6,180;4,283
++ penna blu
+- penna comune
+- foto blu
+
+[LINE]
+Speaker438: Sì!   La~mia penna~preferita!
+~           yes   my     favorite~pen    
+$1018/speech_1018_8.mp3;2,6;5,727;4,148;6,166;10,277
+
+[CONTINUATION]
+> What comes next?
+Speaker1087: E   ti~serve [una penna]?
+~            and you~need  a   pen    
+$1018/speech_1018_9.mp3;1,6;3,74;6,118;4,417;6,166
+- preferito
+~ favorite 
++ una penna
+~ a   pen  
+- in classe
+~ in class 
+
+[LINE]
+Speaker438: Sì!   Ho     un esame~importante!
+~           yes   I~have an important~exam   
+$1018/speech_1018_10.mp3;2,6;5,727;3,84;6,129;11,353
+
+[LINE]
+Speaker438: E   io uso la~mia penna~preferita per tutti gli esami.
+~           and I  use my     favorite~pen    for all   the exams 
+$1018/speech_1018_11.mp3;1,6;3,92;4,164;3,329;4,114;6,120;10,310;4,515;6,172;4,261;6,112
+
+[MULTIPLE_CHOICE]
+> When does Lorenzo use his favorite pen?
++ During all exams.
+- Never.
+- During two exams.
+
+[LINE]
+Speaker1087: Haha…| buffo…
+~            haha…  funny…
+$1018/speech_1018_13.mp3;5,6;7,865
+
+[MULTIPLE_CHOICE]
+> Why does he say that?
++ Because he thinks the situation is funny.
+- Because blue pens are fun.
+- Because exams are fun.
+
+[LINE]
+Speaker438: Buffo?
+~           funny 
+$1018/speech_1018_15.mp3;5,6
+
+[LINE]
+Speaker1087: Tu  sei buffo, Lorenzo!
+~            you are funny  ~       
+$1018/speech_1018_16.mp3;2,6;4,85;6,269;9,645
+
+[LINE]
+Speaker438: Perché?
+~           why    
+$1018/speech_1018_17.mp3;6,6
+
+[LINE]
+Speaker1087: Non~ti~serve    una penna per l'esame! 
+~            you~don't~need  a   pen   for the~exam 
+$1018/speech_1018_18.mp3;3,6;3,196;6,114;5,321;6,176;4,300;8,201
+
+[LINE]
+Speaker438: Perché?
+~           why    
+$1018/speech_1018_19.mp3;6,6
+
+[LINE]
+Speaker1087: Perché  l'esame  è  al     computer!
+~            because the~exam is on~the computer 
+$1018/speech_1018_20.mp3;6,6;8,298;2,404;3,100;9,115
+
+[MULTIPLE_CHOICE]
+> Why is Marco amused?
++ The exam is on a computer, and Lorenzo doesn't need a pen.
+- Lorenzo is a comedian.
+- He found Lorenzo's pen.
+
+[MATCH]
+> Tap the pairs
+- è <> is
+- Tu <> you
+- Ho <> I have
+- e <> and
+- sono <> are
+
