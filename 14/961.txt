@@ -1,0 +1,113 @@
+[DATA]
+fromLanguageName=The Passport
+icon=5dc22a453cc462fa2ac2412700a39a9e1b47d4e6
+set=2|7
+
+[HEADER]
+> Ang Pasaporte
+~ the passport 
+
+[LINE]
+> Nasa~airport   si~Sebastian.
+~ in~the~airport Sebastian    
+
+[LINE]
+Speaker3135: Nasaan na  kaya     ang~pasaporte ko?
+~            where  now I~wonder passport      my 
+
+[LINE]
+Speaker3135: Wala     dito!
+~            it~isn't here 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker3135: Wala     rin  dito  [sa~bag~ko……
+~            it's~not also here   in~my~bag  
++ sa bag ko
+- sa bulsa ko
+- sa bibig ko
+
+[LINE]
+Speaker3135: At  wala     rin  pati sa~dyaket ko.
+~            and it's~not also even in~jacket my 
+
+[LINE]
+Speaker3135: Nasa~taxi        siguro! 
+~            it's~in~the~taxi perhaps 
+
+[ARRANGE]
+> Tap what you hear
+> [(Hinanap) (ni~Sebastian) (ang~taxi)  (n'ya)].   
+~   ~         looks~for      Sebastian   taxi   his
+
+[LINE]
+> Nakita n'ya ang~driver~ng~taxi n'ya.
+~ sees   he   taxi~driver        his  
+
+[MULTIPLE_CHOICE]
+> Sebastian…
+- … can't find the taxi driver who took him to the airport.
++ … sees the taxi driver who took him to the airport.
+- … drives away in a taxi.
+
+[LINE]
+Speaker3135: 'Oy!
+~            hey 
+
+[LINE]
+Speaker338: Ano     po 'yon, ser?
+~           what~is ~  it    sir 
+
+[MULTIPLE_CHOICE]
+> Why does the taxi driver call Sebastian "ser"?
+- She is being rude.
++ She is being professional.
+- She thinks that's his name.
+
+[LINE]
+Speaker3135: Kailangan~ko ang~pasaporte ko.
+~            I~need       passport      my 
+
+[LINE]
+Speaker3135: Baka  kasi    nasa~taxi    mo   eh...
+~            maybe because it's~in~taxi your ~    
+
+[LINE]
+Speaker338: Sorry ser, wala         pong pasaporte  sa~taxi  ko.
+~           ~     sir  there~is~not ~    a~passport in~~taxi my 
+
+[LINE]
+Speaker3135: Hala! 
+~            oh~no 
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "hand."
+Speaker338: (Ser), (nasa)  (+kamay) 'nyo lang po ang (pasaporte)
+~            sir    is~in    hand   your just ~  the  passport  
+
+[LINE]
+Speaker3135: Ay! Oo~nga~'no...
+~            oh  silly~me     
+
+[LINE]
+Speaker3135: Salamat.  
+~            thank~you 
+
+[LINE]
+Speaker338: Ingat~po~kayo!
+~           take~care     
+
+[MULTIPLE_CHOICE]
+> Where was Sebastian's passport?
+- At his house.
+- In the taxi.
++ In his hand.
+
+[MATCH]
+> Tap the pairs
+- pasaporte <> passport
+- kamay <> hand
+- hinanap nya <> he looked for
+- wala dito <> it's not in here
+- sa bag ko <> in my bag
+
