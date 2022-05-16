@@ -1,0 +1,159 @@
+[DATA]
+fromLanguageName=Сюрприз!
+icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
+set=1|4
+
+speaker_Speaker104=Mathieu
+speaker_Speaker105=Lea
+speaker_Speaker106=fr-FR-DeniseNeural
+speaker_Narrator=fr-FR-HortenseRUS
+
+[HEADER]
+> Surprise !
+~ Сюрприз   
+$992/speech_992_0.mp3;8,0
+
+[LINE]
+> Antoine est         au~restaurant avec sa     mère. 
+~ ~       (находится) в~ресторане   со   своей  мамой 
+$992/speech_992_1.mp3;7,0;4,434.6181818181818;3,217.30909090909086;11,162.9818181818182;5,597.6;3,271.6363636363635;6,217.30909090909108
+
+[LINE]
+Speaker559: Une~table pour trois, s'il~vous~plaît.
+~           Стол      на   троих  пожалуйста      
+$992/speech_992_2.mp3;3,6;6,157;5,326;6,242;6,588;5,275;6,165
+
+[LINE]
+Speaker385: Trois ? Toi, moi et… ?
+~           Троих   Ты   я   и…   
+$992/speech_992_3.mp3;5,6;6,696;5,573;4,291
+
+[LINE]
+Speaker559: Une~amie.
+~           Подруга  
+$992/speech_992_4.mp3;3,6;5,163
+
+[MULTIPLE_CHOICE]
+> Кто ещё придёт на ужин?
+- Отец Антуана.
+- Сын Антуана.
++ Подруга мамы Антуана.
+
+[LINE]
+Speaker385: Maman, je...
+~           Мама   я    
+$992/speech_992_6.mp3;5,6;4,621
+
+[LINE]
+Speaker559: J'ai            une~surprise pour toi  !
+~           У~меня~(есть)   сюрприз      для  тебя  
+$992/speech_992_7.mp3;4,6;6,180;9,176;5,564;4,204
+
+[POINT_TO_PHRASE]
+> Выберите вариант, означающий "тоже"
+Speaker385: (J'ai)            (+aussi) une~surprise (pour) (toi)  !
+~            У~меня~(есть)      тоже   сюрприз       для    тебя   
+$992/speech_992_8.mp3;4,6;8,132;4,336;9,263;5,550;4,203
+
+[LINE]
+Speaker559: Mon amie    est    médecin.
+~           Моя подруга (есть) врач    
+$992/speech_992_9.mp3;3,6;5,166;4,323;8,49
+
+[LINE]
+Speaker559: Elle est    très  intelligente.
+~           Она  (есть) очень умная        
+$992/speech_992_10.mp3;4,6;4,147;5,70;13,267
+
+[LINE]
+Speaker559: Elle~s'appelle Sonia.
+~           Её~зовут       ~     
+$992/speech_992_11.mp3;4,6;10,182;6,441
+
+[LINE]
+Speaker385: Maman, je...
+~           Мама   я    
+$992/speech_992_12.mp3;5,6;4,621
+
+[LINE]
+Speaker559: Elle est    très  belle.    Elle est    parfaite pour toi  !
+~           Она  (есть) очень красивая  Она  (есть) идеальна для  тебя  
+$992/speech_992_13.mp3;4,6;4,155;5,83;6,202;6,813;4,147;9,70;5,528;4,217
+
+[MULTIPLE_CHOICE]
+> Мать Антуана думает, что...
++ …Соня — идеальная женщина для её сына.
+- …он должен стать врачом.
+- …еда в ресторане очень вкусная.
+
+[LINE]
+> Une~femme entre   dans le~restaurant.
+~ Женщина   заходит в    ресторан      
+$992/speech_992_15.mp3;3,0;6,195.84;6,293.76;5,293.76;3,244.79999999999984;11,146.8800000000001
+
+[LINE]
+Speaker125: Salut  mon chéri   !
+~           Привет мой дорогой  
+$992/speech_992_16.mp3;5,0;4,371.25;6,247.5
+
+[LINE]
+Speaker559: Mon chéri   ?
+~           Мой дорогой  
+$992/speech_992_17.mp3;3,6;6,174
+
+[MULTIPLE_CHOICE]
+> Почему мать Антуана удивлена?
+- Она очень рада встретить женщину.
+- Еда, которую они заказали, оказалась невкусной.
++ Она не знала, что Антуан в отношениях.
+
+[LINE]
+Speaker385: Salut,  Carla. Maman...
+~           Привет  ~      Мама    
+$992/speech_992_19.mp3;5,6;7,748;7,759
+
+[LINE]
+Speaker125: Vous  êtes    la~mère   d'Antoine ?
+~           Вы    (есть)  мама      Антуана    
+$992/speech_992_20.mp3;4,0;6,292.5;4,292.5;5,146.25;12,341.25
+
+[LINE]
+Speaker559: Antoine !
+$992/speech_992_21.mp3;7,6
+
+[CONTINUATION]
+> Что дальше?
+Speaker125: Je suis   Carla. La~femme [d'Antoine].
+~           Я  (есть) ~      Жена      Антуана    
+$992/speech_992_22.mp3;2,0;5,132.42857142857142;6,220.7142857142857;4,309;6,132.42857142857144;10,264.8571428571428
+- et  mon mari
+~ и   мой муж 
++ d'Antoine
+~ Антуана  
+- dans le~jardin
+~ в    саду     
+
+[LINE]
+Speaker559: Sa   femme !?
+~           Его  жена    
+$992/speech_992_23.mp3;2,6;7,211
+
+[LINE]
+Speaker385: Surprise !
+~           Сюрприз   
+$992/speech_992_24.mp3;8,6
+
+[MULTIPLE_CHOICE]
+> Какой сюрприз был у Антуана?
++ Он недавно женился на Карле.
+- Он не хочет жениться.
+- Он хочет жениться на маминой подруге.
+
+[MATCH]
+> Выберите пары
+- très <> очень
+- parfaite <> идеальная
+- femme <> женщина
+- elle s'appelle <> её зовут
+- s'il vous plaît <> пожалуйста
+
