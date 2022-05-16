@@ -1,0 +1,131 @@
+[DATA]
+fromLanguageName=A Beer, Please!
+icon=02ed13ae1aba57917368af1e2492564588e51b06
+set=5|6
+
+icon_Speaker335=https://stories-cdn.duolingo.com/image/f118359885a5dc9babe4808c746e1c15ea9cd6f4.svg
+speaker_Speaker335=Giorgio
+speaker_Speaker336=Carla
+
+[HEADER]
+> Una birra, per~favore!
+~ a   beer   please     
+$1114/speech_1114_0.mp3;3,6;6,226;5,689;7,148
+
+[LINE]
+> Emilia è  in un ristorante.
+~ ~      is at a  restaurant 
+$1114/speech_1114_1.mp3;6,6;2,400;3,33;3,150;11,74
+
+[LINE]
+SpeakerSpeaker335: Salve,  serve       aiuto?
+~                  hello   do~you~need help  
+$1114/speech_1114_2.mp3;5,6;8,707;6,362
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker336: Buonasera.    [Vorrei       una birra], per~favore.
+~           good~evening   I~would~like a   beer    please     
+$1114/speech_1114_3.mp3;9,6;8,1105;4,368;6,190;5,620;7,159
+- Una pera butirra
+- Berrei una mirra
++ Vorrei una birra
+
+[LINE]
+SpeakerSpeaker335: Quanti~anni~ha? 
+~                  how~old~are~you 
+$1114/speech_1114_4.mp3;6,6;5,290;3,192
+
+[LINE]
+Speaker336: Ho~trentacinque~anni.
+~           I~am~thirty-five     
+$1114/speech_1114_5.mp3;2,6;13,106;5,829
+
+[MULTIPLE_CHOICE]
+> How old is Emilia?
+- Twenty-five
++ Thirty-five
+- Eighteen
+
+[LINE]
+SpeakerSpeaker335: Mmm. Posso vedere un~suo documento?      Ha          il~suo passaporto?
+~                  Mmm  can~I see    your   identification  do~you~have your   passport   
+$1114/speech_1114_7.mp3;3,6;7,611;7,263;3,311;4,125;10,208;4,1080;3,159;4,131;11,233
+
+[MULTIPLE_CHOICE]
+> The server is asking Emilia if he can see her identification.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker336: Sì. 
+~           yes 
+$1114/speech_1114_9.mp3;2,6
+
+[LINE]
+Speaker336: Oh, no! Il~mio passaporto è  in     albergo.
+~           Oh  no  my     passport   is at~the hotel   
+$1114/speech_1114_10.mp3;2,6;4,447;4,682;4,148;11,171;2,808;3,91;8,115
+
+[LINE]
+Speaker336: Ma  mi~chiamo  Emilia Rossi e   ho~trentacinque~anni!      
+~           but my~name~is ~      ~     and I~am~thirty-five~years~old 
+$1114/speech_1114_11.mp3;2,6;3,189;7,122;7,369;6,401;2,389;3,100;13,123;5,845
+
+[LINE]
+Speaker336: Ho     la~mia carta~di~credito e   il~mio telefono.
+~           I~have my     credit~card      and my     phone    
+$1114/speech_1114_12.mp3;2,6;3,111;4,137;6,205;3,438;8,115;2,484;3,29;4,86;9,230
+
+[LINE]
+SpeakerSpeaker335: Mi~dispiace.
+~                  I'm~sorry   
+$1114/speech_1114_13.mp3;2,6;9,105
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "of legal age."
+Speaker336: Ma  sono (+maggiorenne)!  (Ho)     un (lavoro) e   due (figli)!   
+~           but I~am   of~legal~age    I~have  a   job     and two  children  
+$1114/speech_1114_14.mp3;2,6;5,173;12,287;4,1166;3,121;7,137;2,400;4,38;6,152
+
+[LINE]
+SpeakerSpeaker335: Mi~dispiace, mi~serve un~suo~documento.   
+~                  I'm~sorry    I~need   your~identification 
+$1114/speech_1114_15.mp3;2,6;9,113;4,781;6,102;3,318;4,127;10,183
+
+[CONTINUATION]
+> What comes next?
+Speaker336: Che  bevanda può     portarmi senza   [documento]?     
+~           what drink   can~you bring~me without  identification  
+$1114/speech_1114_16.mp3;3,6;8,132;4,549;9,195;6,620;10,444
+- anni 
+~ years
+- figli   
+~ children
++ documento     
+~ identification
+
+[LINE]
+SpeakerSpeaker335: Un bicchiere di…| latte!
+~                  a  glass     of…  milk  
+$1114/speech_1114_17.mp3;2,6;10,164;4,385;6,619
+
+[LINE]
+Speaker336: Va~bene, grazie.   
+~           OK       thank~you 
+$1114/speech_1114_18.mp3;2,6;5,166;8,604
+
+[MULTIPLE_CHOICE]
+> The only drink Emilia can have without her identification is…
+- … a beer.
++ … a glass of milk.
+- … a glass of wine.
+
+[MATCH]
+> Tap the pairs
+- Che <> what
+- figli <> children
+- carta di credito <> credit card
+- birra <> beer
+- Ma <> but
+
