@@ -1,0 +1,141 @@
+[DATA]
+fromLanguageName=My Favorite Pen
+icon=c705fb9dbd8dd847d687d6e63c7e6eeba2e4d60d
+set=2|2
+
+speaker_Narrator=da-DK-Wavenet-C
+speaker_Speaker402=da-DK-Wavenet-C
+speaker_Speaker403=da-DK-Wavenet-C
+
+[HEADER]
+> Min yndlingspen 
+~ My  favorite~pen
+$1266/speech_1266_0.mp3;3,0;12,137.6
+
+[LINE]
+> Kim    og    Samuel er  til time  .
+~ ~      and   ~      are in  class  
+$1266/speech_1266_1.mp3;3,0;6,307.40425531914894;9,219.5744680851064;3,307.4042553191489;4,131.7446808510639;5,175.65957446808522
+
+[LINE]
+Speaker438: Nej!
+~           No  
+$1266/speech_1266_2.mp3;3,0
+
+[LINE]
+Speaker1087: Er   du   okay, Samuel?
+~            Are  you  OK    ~      
+$1266/speech_1266_3.mp3;2,0;4,186.66666666666666;6,186.66666666666666;8,280.00000000000006
+
+[MULTIPLE_CHOICE]
+> Kim is asking Samuel if he is OK.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker438: Hvor   er  den?!
+~           Where  is  it   
+$1266/speech_1266_5.mp3;4,0;4,148.8;5,99.19999999999999
+
+[LINE]
+Speaker438: Jeg har~brug~for min kuglepen!
+~           I   need         my  pen      
+$1266/speech_1266_6.mp3;3,0;4,147.20000000000002;5,147.20000000000002;4,183.99999999999994;4,147.20000000000005;9,147.20000000000005
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1087: Åh, nej!  Den  [blå~kuglepen]?
+~            Oh  no    The   blue~pen      
+$1266/speech_1266_7.mp3;2,0;5,183.06976744186045;6,274.60465116279073;5,228.83720930232556;9,183.06976744186045
++ blå kuglepen
+- røde kuglepen
+- billede kuglepen
+
+[LINE]
+Speaker438: Ja!   Min yndlingspen! 
+~           Yes   My  favorite~pen 
+$1266/speech_1266_8.mp3;2,0;6,176.66666666666669;12,141.33333333333331
+
+[CONTINUATION]
+> What comes next?
+Speaker1087: Og   du   har~brug~for  [en kuglepen]?
+~            And  you  need           a  pen       
+$1266/speech_1266_9.mp3;2,0;4,152;5,152;5,152;4,190;4,190;9,114
+- yndlinds
+~ favorite
++ en~kuglepen
+~ a~pen      
+- i   timen
+~ in  class
+
+[LINE]
+Speaker438: Ja!   Jeg har  en vigtig       eksamen!
+~           Yes   I   have an important    exam    
+$1266/speech_1266_10.mp3;2,0;6,195.9183673469388;4,156.73469387755102;3,156.73469387755102;7,117.55102040816314;11,391.8367346938777
+
+[LINE]
+Speaker438: Og   jeg bruger min yndlingspen    til alle eksamenerne.
+~           And  I   use    my  favorite~pen   for all  the~exams   
+$1266/speech_1266_11.mp3;2,0;5,154.43478260869566;7,154.43478260869566;4,270.2608695652173;12,154.43478260869574;6,540.5217391304349;5,154.43478260869574;12,193.0434782608695
+
+[MULTIPLE_CHOICE]
+> When does Samuel use his favorite pen?
++ During all exams.
+- Never.
+- During two exams.
+
+[LINE]
+Speaker1087: Haha...  sjovt…
+~            Haha…    funny…
+$1266/speech_1266_13.mp3;4,0;10,124.23529411764706
+
+[MULTIPLE_CHOICE]
+> Why does he say that?
++ Because he thinks the situation is funny.
+- Because blue pens are fun.
+- Because exams are fun.
+
+[LINE]
+Speaker438: Sjovt?
+~           Funny 
+$1266/speech_1266_15.mp3;5,0
+
+[LINE]
+Speaker1087: Du   er    sjov,  Samuel!
+~            You  are   funny  ~      
+$1266/speech_1266_16.mp3;2,0;4,173.83783783783784;7,217.29729729729732;8,260.7567567567567
+
+[LINE]
+Speaker438: Hvorfor?
+~           Why     
+$1266/speech_1266_17.mp3;7,0
+
+[LINE]
+Speaker1087: Du  har~ikke~brug~for en kuglepen til eksamenen!
+~            You don't~need        a  pen      for the~exam  
+$1266/speech_1266_18.mp3;2,0;4,124.25806451612902;5,165.67741935483872;5,207.09677419354836;4,207.0967741935484;3,165.67741935483866;9,124.25806451612902;4,372.7741935483871;10,165.67741935483878
+
+[LINE]
+Speaker438: Hvorfor?
+~           Why     
+$1266/speech_1266_19.mp3;7,0
+
+[LINE]
+Speaker1087: Fordi     eksamenen  er på  computeren!  
+~            Because   the~exam   is on  the~computer 
+$1266/speech_1266_20.mp3;5,0;12,354.46153846153845;4,487.38461538461536;3,132.9230769230769;12,177.23076923076928
+
+[MULTIPLE_CHOICE]
+> Why is Kim amused?
++ The exam is on a computer, and Samuel doesn't need a pen.
+- Samuel is a comedian.
+- He found Samuel's pen.
+
+[MATCH]
+> Tap the pairs
+- er <> is
+- Du <> you
+- Jeg har <> I have
+- og <> and
+- er <> are
+
