@@ -1,0 +1,153 @@
+[DATA]
+fromLanguageName=Happy Birthday!
+icon=af44dc77489e379a0652ce2e7b42bc96e3839833
+set=3|8
+
+speaker_Speaker137=Carla
+speaker_Speaker138=Giorgio
+
+[HEADER]
+> Buon  compleanno!
+~ happy birthday   
+$1037/speech_1037_0.mp3;4,6;11,309
+
+[LINE]
+Speaker1186: Buon  compleanno, amore~mio!
+~            happy birthday    my~love   
+$1037/speech_1037_1.mp3;4,6;11,286;7,914;4,346
+
+[LINE]
+Speaker300: Non~è         il~mio compleanno!
+~           it~is~not     my     birthday   
+$1037/speech_1037_2.mp3;3,6;2,177;7,85;4,89;11,157
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1186: Matteo! Oggi    è  [il    tuo  compleanno]!
+~            ~       today   is  (the) your birthday    
+$1037/speech_1037_3.mp3;6,6;6,1035;4,451;3,90;4,85;11,261
+- io compio anni
++ il tuo compleanno
+- il tuo compi anni
+
+[LINE]
+Speaker300: Se non~celebriamo          il~mio compleanno…
+~           if we~don't~celebrate      my     birthday…  
+$1037/speech_1037_4.mp3;2,6;4,153;11,149;8,535;4,97;12,171
+
+[LINE]
+Speaker300: …| non~arrivo~a  trenta anni! 
+~           …  I~won't~reach thirty years 
+$1037/speech_1037_5.mp3;1,6;4,251;7,177;2,368;7,50;5,386
+
+[MULTIPLE_CHOICE]
+> What does Matteo mean?
+- He thinks his birthday is actually tomorrow.
++ If they don't celebrate his birthday, he won't turn 30.
+- If they don't celebrate his birthday, he'll be sad.
+
+[LINE]
+Speaker300: È        scienza!
+~           it~is    science 
+$1037/speech_1037_7.mp3;1,6;11,107
+
+[LINE]
+Speaker1186: Non~ci~sono      problemi.
+~            there~is~no      problem  
+$1037/speech_1037_8.mp3;3,6;3,208;5,135;14,322
+
+[LINE]
+Speaker1186: Se non~è         il~tuo   compleanno…
+~            if it~is~not     your     birthday…  
+$1037/speech_1037_9.mp3;2,6;4,182;2,161;7,82;4,89;14,238
+
+[CONTINUATION]
+> What comes next?
+Speaker1186: …| non~ci~sarà   alcuna festa, non~ci~sarà   alcun regalo, non~ci~sarà   alcuna      [torta……
+~            …  there~will~be no     party  there~will~be no    gift    there~will~be no           cake   
+$1037/speech_1037_10.mp3;1,6;4,338;3,176;5,124;7,276;6,367;5,736;3,204;5,115;6,284;7,392;5,722;3,203;5,116;7,283;12,372
++ torta
+~ cake 
+- formaggio
+~ cheese   
+- zucchero
+~ sugar   
+
+[LINE]
+Speaker300: Ahh…
+$1037/speech_1037_11.mp3;4,6
+
+[LINE]
+Speaker1186: Ahh, sì.   E     ora io posso usare     il~tuo   regalo!
+~            ohh  yes   and   now I  can   use       your     gift   
+$1037/speech_1037_12.mp3;3,6;4,402;4,739;6,157;3,224;6,202;6,365;7,351;4,109;9,189
+
+[LINE]
+Speaker300: Ahh…| Che   regalo?
+~           ohh…  what  gift   
+$1037/speech_1037_13.mp3;4,6;4,681;8,101
+
+[ARRANGE]
+> Tap what you hear
+Speaker1186: [(Un) (computer) (nuovo)]!
+~              a    computer   new     
+$1037/speech_1037_14.mp3;2,6;9,207;6,684
+
+[LINE]
+Speaker1186: Però ora è        il~mio computer nuovo.
+~            but  now it~is    my     computer new   
+$1037/speech_1037_15.mp3;4,6;4,405;2,430;6,135;4,97;9,223;6,674
+
+[LINE]
+Speaker1186: Perché   non~è         il~tuo   compleanno, giusto?
+~            because  it~is~not     your     birthday    right  
+$1037/speech_1037_16.mp3;6,6;5,293;2,223;7,100;4,111;13,173;8,1125
+
+[LINE]
+Speaker300: Ahh…
+~           ohh…
+$1037/speech_1037_17.mp3;4,6
+
+[LINE]
+Speaker1186: Ora mi~mangio         tutta la  torta!
+~            now I'm~going~to~eat  all   the cake  
+$1037/speech_1037_18.mp3;3,6;3,264;7,96;7,366;3,387;6,131
+
+[MULTIPLE_CHOICE]
+> She says she's going to eat all of Matteo's birthday cake.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker300: Gloria!
+$1037/speech_1037_20.mp3;6,6
+
+[LINE]
+Speaker1186: Sì? 
+~            yes 
+$1037/speech_1037_21.mp3;2,6
+
+[LINE]
+Speaker300: Va~bene, è        il~mio compleanno.
+~           okay     it~is    my     birthday   
+$1037/speech_1037_22.mp3;2,6;5,146;3,521;6,142;4,113;11,157
+
+[LINE]
+Speaker300: Però solo ventinove   candeline sulla mia torta, per~favore!
+~           but  only twenty-nine candles   on    my  cake   please     
+$1037/speech_1037_23.mp3;4,6;5,182;10,289;10,578;6,494;4,329;6,150;5,685;7,158
+
+[MULTIPLE_CHOICE]
+> Matteo decided to…
++ … celebrate his 30th birthday, but he only wants 29 candles.
+- … cancel his birthday party and throw away his cake.
+- … buy Gloria a new computer for her birthday.
+
+[MATCH]
+> Tap the pairs
+- tutti <> all
+- regalo <> gift
+- problema <> problem
+- Se <> if
+- scienza <> science
+
