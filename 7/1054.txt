@@ -1,0 +1,127 @@
+[DATA]
+fromLanguageName=I Can't Sleep
+icon=0641ff57af041e20c48758333ca7a5e76006d438
+set=4|1
+
+icon_Chenghan=https://stories-cdn.duolingo.com/image/8dedb551515218979bffa2ba590906d0ed1ee462.svg
+speaker_Chenghan=cmn-TW-Wavenet-B
+speaker_Yinuo=cmn-CN-Wavenet-A
+
+[HEADER]
+> 我|睡不着        
+~ I  can't~sleep
+$1054/speech_1054_0.mp3;1,6;4,158
+
+[LINE]
+Speaker856: 承翰|，你|在睡觉|吗?                               
+~           Chenghan    you  are~sleeping  question~marker  
+$1054/speech_1054_1.mp3;2,0;2,208.55172413793102;2,139.03448275862073;4,139.0344827586207;2,278.0689655172413
+
+[LINE]
+SpeakerChenghan: 我|醒了。     
+~                I  woke~up  
+$1054/speech_1054_2.mp3;1,0;3,91.42857142857142;2,137.14285714285714
+
+[LINE]
+Speaker856: 承翰|，我|睡不着。              
+~           Chenghan    I  can't~sleep  
+$1054/speech_1054_3.mp3;2,0;2,202.66666666666666;2,135.11111111111111;4,135.1111111111111;2,270.22222222222223
+
+[MULTIPLE_CHOICE]
+> She is saying that she can't fall asleep.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+SpeakerChenghan: 你|想|喝|一杯|牛奶|吗?                                 
+~                you  want  to~drink  a~glass  milk  question~marker  
+$1054/speech_1054_5.mp3;1,0;2,129.6;2,129.6;3,129.60000000000002;3,194.39999999999992;2,194.4000000000001
+
+[LINE]
+Speaker856: 你|知道|我|不|喜欢|牛奶!            
+~           you  know  I  don't  like  milk  
+$1054/speech_1054_6.mp3;1,0;3,144;2,216;2,144;3,144;3,216
+
+[ARRANGE]
+> Tap what you hear
+SpeakerChenghan: [(你)   (想)    (听)              (音乐)    ()]吗               ?
+~                  you   want   to~listen~(to)   music   question~marker    
+$1054/speech_1054_7.mp3;1,0;2,122.66666666666666;2,122.66666666666666;3,122.66666666666669;2,184
+
+[LINE]
+Speaker856: 宝贝|正在|睡觉|，不能|听|音乐。                                  
+~           baby  right~now  is~sleeping    can't  listen~(to)  music  
+$1054/speech_1054_8.mp3;2,0;3,232.45714285714286;3,232.45714285714286;2,232.4571428571428;3,154.97142857142865;2,232.4571428571428;3,154.97142857142853;2,232.4571428571428
+
+[MULTIPLE_CHOICE]
+> They can't listen to music…
+- … because they only listen to music with their baby.
++ … because their baby is sleeping.
+- … because they don't like the same music.
+
+[LINE]
+SpeakerChenghan: 那|我们|讨论|卧室|颜色的|问题|，好不好？                       
+~                then  we  discuss  bedroom  color's  question    ok   
+$1054/speech_1054_10.mp3;1,0;3,158.4;3,237.6;3,237.60000000000002;4,237.60000000000002;3,316.79999999999995;2,237.60000000000014;4,158.39999999999986;2,316.79999999999995
+
+[LINE]
+Speaker856: 好啊！
+~           ok  
+$1054/speech_1054_11.mp3;2,0;2,125.05263157894736
+
+[LINE]
+SpeakerChenghan: 灰色的|墙面|，你觉得怎么样？               
+~                gray  walls    what~do~you~think  
+$1054/speech_1054_12.mp3;3,0;3,300;2,225;7,150;2,525
+
+[MULTIPLE_CHOICE]
+> Why are they talking about colors?
++ Because they need to paint their room.
+- Because it's their favorite topic.
+- Because they need to paint their car.
+
+[LINE]
+Speaker856: 灰色。。。  
+~           gray    
+$1054/speech_1054_14.mp3;2,0;4,123.42857142857142
+
+[LINE]
+Speaker856: 好的。。。
+~           ok    
+$1054/speech_1054_15.mp3;2,0;4,106.28571428571428
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "also".
+SpeakerChenghan: 我 (+也)    (喜欢)   (蓝色)   。
+~                I   also   like   blue   
+$1054/speech_1054_16.mp3;1,0;2,103.38461538461539;3,103.38461538461539;3,155.07692307692304;2,155.0769230769231
+
+[LINE]
+SpeakerChenghan: 你|喜欢|什么|颜色?         
+~                you  like  what  color  
+$1054/speech_1054_17.mp3;1,0;3,113.77777777777777;3,170.66666666666669;3,170.66666666666663
+
+[LINE]
+SpeakerChenghan: 一诺|，你|睡着了|吗？                           
+~                Yinuo    you  fell~asleep  question~marker  
+$1054/speech_1054_18.mp3;2,0;2,183.72413793103448;2,122.48275862068971;4,122.48275862068965;2,244.9655172413792;2,122.48275862068976
+
+[LINE]
+SpeakerChenghan: 哎呀|，现在|我|感觉|我|也|睡不着。                 
+~                oh~no    now  I  fell  I  also  can't~sleep  
+$1054/speech_1054_19.mp3;2,0;2,216;3,144;2,216;3,144;2,216;2,144;4,144;2,288
+
+[MULTIPLE_CHOICE]
+> What happened to Chenghan?
+- He woke up the baby, and Yinuo was angry.
+- He painted his bedroom walls blue and gray.
++ He tried to help Yinuo fall asleep, and then he couldn't sleep.
+
+[MATCH]
+> Tap the pairs
+- 讨论 <> discuss
+- 喜欢 <> like
+- 音乐 <> music
+- 睡觉 <> to sleep
+- 宝贝 <> baby
+
