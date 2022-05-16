@@ -1,0 +1,142 @@
+[DATA]
+fromLanguageName=I Want a Dog!
+icon=51e004f16574a25cf124ce8d3c718187674dfbdc
+set=4|3
+
+icon_Speaker370=https://stories-cdn.duolingo.com/image/5c0e3dc3bf6643fee057c963573678bf175a01b8.svg
+speaker_Speaker370=Giorgio
+speaker_Speaker371=Carla
+
+[HEADER]
+> Voglio un cane!
+~ I~want a  dog  
+$1045/speech_1045_0.mp3;6,6;3,384;5,103
+
+[LINE]
+SpeakerSpeaker370: Mamma! Mamma!
+~                  mom    mom   
+$1045/speech_1045_1.mp3;5,6;7,841
+
+[LINE]
+Speaker292: Sì,  Ronaldo?
+~           yes  ~       
+$1045/speech_1045_2.mp3;2,6;9,560
+
+[SELECT_PHRASE]
+> Select the missing phrase
+SpeakerSpeaker370: [Voglio un cane]!
+~                   I~want a  dog   
+$1045/speech_1045_3.mp3;6,6;3,248;5,132
+- Vuoi un pane
+- Voglio il rame
++ Voglio un cane
+
+[LINE]
+Speaker292: Avere  un cane richiede~molto~lavoro.
+~           having a  dog  is~a~lot~of~work      
+$1045/speech_1045_4.mp3;5,6;3,328;5,135;9,359;6,532;7,379
+
+[LINE]
+SpeakerSpeaker370: Mamma, per~favore!
+~                  mom    please     
+$1045/speech_1045_5.mp3;5,6;5,632;7,157
+
+[LINE]
+Speaker292: Mmm…| va~bene.
+~           Mmm…  OK      
+$1045/speech_1045_6.mp3;4,6;3,538;5,175
+
+[LINE]
+SpeakerSpeaker370: Sì! 
+~                  yes 
+$1045/speech_1045_7.mp3;2,6
+
+[CONTINUATION]
+> What comes next?
+Speaker292: Però prima,  devi     pulire   [l'auto…… 
+~           but  before  you~have to~clean  the~car… 
+$1045/speech_1045_8.mp3;4,6;6,331;6,596;7,369;8,428
++ l'auto 
+~ the~car
+- cane
+~ dog 
+- molto    lavoro
+~ a~lot~of work  
+
+[LINE]
+Speaker292: …| il  bagno…   
+~           …  the bathroom…
+$1045/speech_1045_9.mp3;1,6;3,302;7,91
+
+[LINE]
+SpeakerSpeaker370: Va~bene.
+~                  OK      
+$1045/speech_1045_10.mp3;2,6;5,169
+
+[LINE]
+Speaker292: …| e   le  finestre!
+~           …  and the windows  
+$1045/speech_1045_11.mp3;1,6;2,329;3,30;9,103
+
+[MULTIPLE_CHOICE]
+> Before getting a dog, Ronaldo has to…
+- … water the plants and cook dinner.
++ … clean the bathroom and the windows.
+- … clean his room and the kitchen.
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "finishes."
+> Tre    (ore)   (dopo),  (Ronaldo) (+termina)   di~pulire.
+~ three   hours   later    ~          finishes   cleaning  
+$1045/speech_1045_13.mp3;3,6;5,242;5,185;9,624;8,516;4,476;7,103
+
+[LINE]
+SpeakerSpeaker370: Mamma! Guarda!
+~                  mom    look   
+$1045/speech_1045_14.mp3;5,6;8,841
+
+[LINE]
+Speaker292: Ottimo!           Sei     molto responsabile.
+~           that's~great      you~are very  responsible  
+$1045/speech_1045_15.mp3;6,6;9,994;6,319;13,364
+
+[ARRANGE]
+> Tap what you hear
+Speaker292: [(Ora) (puoi~avere)   (un) (cane)]!
+~             now   you~can~have   a    dog    
+$1045/speech_1045_16.mp3;3,6;5,253;6,245;3,275;5,131
+
+[LINE]
+SpeakerSpeaker370: No, grazie!   
+~                  ~   thank~you 
+$1045/speech_1045_17.mp3;2,6;8,476
+
+[LINE]
+Speaker292: Ronaldo, non~capisco.       
+~           ~        I~don't~understand 
+$1045/speech_1045_18.mp3;7,6;5,857;8,266
+
+[LINE]
+SpeakerSpeaker370: Non     voglio essere responsabile!
+~                  I~don't want   to~be  responsible  
+$1045/speech_1045_19.mp3;3,6;7,144;7,319;13,331
+
+[LINE]
+SpeakerSpeaker370: Non     voglio un cane…| sono molto stanco!
+~                  I~don't want   a  dog…   I~am very  tired  
+$1045/speech_1045_20.mp3;3,6;7,152;3,286;6,149;5,788;6,278;7,258
+
+[MULTIPLE_CHOICE]
+> Why doesn't Ronaldo want a dog?
+- He thinks having a dog will be too boring.
++ He's tired and doesn't want more responsibility.
+- He already has four dogs.
+
+[MATCH]
+> Tap the pairs
+- Sono <> I am
+- grazie <> thank you
+- Mamma <> mom
+- Voglio un cane <> I want a dog
+- Guarda <> look
+
