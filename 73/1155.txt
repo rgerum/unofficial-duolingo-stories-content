@@ -1,0 +1,138 @@
+[DATA]
+fromLanguageName=Surprise!
+icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
+set=1|4
+
+speaker_Speaker105=Katarina
+speaker_Speaker104=Aleksa
+speaker_Speaker106=Milana
+
+[HEADER]
+> Iznenađenje!
+~ Surprise    
+
+[LINE]
+> Aleksa je u       restoranu      sa   svojom majkom.
+~ ~      is at~(in) the~restaurant with his    mother 
+
+[LINE]
+Speaker559: Sto     za  tri   osobe,  molim~te.
+~           A~table for three people  please   
+
+[LINE]
+Speaker385: Tri?   Ti,  ja i…?  
+~           Three  You  me and… 
+
+[LINE]
+Speaker559: Jedna prijateljica.   
+~           A     (female)~friend 
+
+[MULTIPLE_CHOICE]
+> Who else is coming for dinner?
+- Aleksa's father.
+- Aleksa's son.
++ A friend of Aleksa's mom.
+
+[LINE]
+Speaker385: Mama, ja…
+~           Mom   I… 
+
+[LINE]
+Speaker559: Imam     iznenađenje za  tebe!
+~           (I)~have a~surprise  for you  
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "also."
+Speaker385: (Ja) (+takođe) (imam) (iznenađenje) (za)  (tebe)!
+~            I     also     have   a~surprise    for   you   
+
+[LINE]
+Speaker559: Moja prijateljica je studentkinja~medicine.
+~           My   friend       is a~medical~student     
+
+[LINE]
+Speaker559: Ona je vrlo inteligentna.
+~           She is very intelligent  
+
+[LINE]
+Speaker559: Ona~se~zove Sanja.
+~           Her~name~is ~     
+
+[LINE]
+Speaker385: Mama, ja…
+~           Mom   I… 
+
+[LINE]
+Speaker559: Ona je savršena za  mog sina!
+~           She is perfect  for my  son  
+
+[MULTIPLE_CHOICE]
+> Aleksa's mom thinks that…
++ … Sanja is the perfect woman for her son.
+- … he should study medicine.
+- … the food at that restaurant is great.
+
+[LINE]
+> Jedna žena  ulazi  u    restoran.      
+~ A     woman enters (in) the~restaurant 
+
+[LINE]
+Speaker125: Ćao, dragi!     
+~           Hi   my~darling 
+
+[LINE]
+Speaker559: Dragi?     
+~           My~darling 
+
+[MULTIPLE_CHOICE]
+> Why is Aleksa's mom surprised?
+- She is very happy to see the woman.
+- The food they ordered arrived quickly.
++ She did not know Aleksa was in a relationship.
+
+[LINE]
+Speaker385: Ćao, Milana. Mama…
+~           Hi   ~       Mom… 
+
+[LINE]
+Speaker125: Jeste~li~Vi      majka~od~Alekse?
+~           Are~you~(formal) Aleksa's~mother 
+
+[LINE]
+Speaker559: Aleksa, šta~se~dešava?    
+~           ~       what~is~happening 
+
+[CONTINUATION]
+> What comes next?
+Speaker125: Ja sam žena~od      d Alekse].
+~           I  am  Aleksa's~wife  ~       
+- i   moj muž    
+~ and my  husband
++ od Alekse
+~ of Aleksa
+- u  bašti     
+~ in the~garden
+
+[LINE]
+Speaker559: Njegova žena!?
+~           His     wife  
+
+[LINE]
+Speaker385: Iznenađenje!
+~           Surprise    
+
+[MULTIPLE_CHOICE]
+> What was Aleksa's surprise?
++ He recently married Milana.
+- He never wants to get married.
+- He wants to marry his mom's friend.
+
+[MATCH]
+> Tap the pairs
+- prijateljica <> friend (f)
+- savršena <> perfect (f)
+- žena <> wife
+- ona se zove <> her name is
+- mama <> mom
+- studentkinja medicine <> medical student (f)
+
