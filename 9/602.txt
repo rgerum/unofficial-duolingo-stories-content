@@ -1,0 +1,133 @@
+[DATA]
+fromLanguageName=My favorite pen
+icon=c705fb9dbd8dd847d687d6e63c7e6eeba2e4d60d
+set=2|2
+
+[HEADER]
+> Моя~любимая~ручка
+~ my~favorite~pen  
+$602/speech_602_0.mp3;3,6;8,450;6,546
+
+[LINE]
+> Денис и   Виктор в                 университете.
+~ ~     and ~      at~the~university ~            
+$602/speech_602_1.mp3;5,6;2,549;7,42;2,421;13,86
+
+[LINE]
+Speaker438: Нет!
+~           no  
+$602/speech_602_2.mp3;3,6
+
+[LINE]
+Speaker1087: Всё~в~порядке,      Денис?
+~            is~everything~fine  ~     
+$602/speech_602_3.mp3;3,6;2,228;8,35;7,788
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker438: [Где         она] ?
+~            where~is~it ~     
+$602/speech_602_4.mp3;3,6;4,272
+- Где они
++ Где она
+- Кто она
+
+[LINE]
+Speaker438: Где      моя~ручка?
+~           where~is my~pen    
+$602/speech_602_5.mp3;3,6;4,252;6,321
+
+[LINE]
+Speaker1087: О, нет! Твоя~белая~ручка?
+~            ~  no   your~white~pen   
+$602/speech_602_6.mp3;1,6;5,493;6,798;6,387;6,392
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "pen."
+> О, (нет) ! (Твоя) (белая) (+ручка)?
+
+[LINE]
+Speaker438: Да!  Моя~любимая~ручка.
+~           yes  my~favorite~pen   
+$602/speech_602_8.mp3;2,6;5,794;8,450;6,546
+
+[LINE]
+Speaker1087: Тебе~нужна ручка   для~экзамена?
+~            you~need   the~pen for~the~exam 
+$602/speech_602_9.mp3;4,6;6,310;6,463;4,417;9,198
+
+[MULTIPLE_CHOICE]
+> Viktor is wondering if…
+- … Denis is going back home.
+- … Denis forgot to study.
++ … Denis needs his pen for the test.
+
+[LINE]
+Speaker438: Да!  Это   очень важно!    
+~           yes  it~is very  important 
+$602/speech_602_11.mp3;2,6;5,794;6,289;6,431
+
+[LINE]
+Speaker438: Я~пишу  моей~любимой~ручкой  на~всех~экзаменах!
+~           I~write with~my~favorite~pen at~all~the~exams  
+$602/speech_602_12.mp3;1,6;5,289;5,496;8,328;7,461;3,460;5,126;10,390
+
+[MULTIPLE_CHOICE]
+> When does Denis use his favorite pen?
+- Never.
++ During all exams.
+- During two exams.
+
+[LINE]
+Speaker1087: Забавно…    
+~            it~is~funny…
+$602/speech_602_14.mp3;8,6
+
+[LINE]
+Speaker438: Забавно?
+~           funny   
+$602/speech_602_15.mp3;7,6
+
+[LINE]
+Speaker1087: Да,  очень!
+~            yes  very  
+$602/speech_602_16.mp3;2,6;7,621
+
+[LINE]
+Speaker438: Почему?
+~           why    
+$602/speech_602_17.mp3;6,6
+
+[SELECT_PHRASE]
+> What comes next?
+Speaker1087: Тебе~не~нужна  [твоя     ручка].
+~            you~don't~need  your~pen ~      
+$602/speech_602_18.mp3;4,6;3,283;6,136;5,401;6,419
+- экзамены
+- университет
++ твоя ручка
+
+[LINE]
+Speaker438: Почему?
+~           why    
+$602/speech_602_19.mp3;6,6
+
+[LINE]
+Speaker1087: Экзамен  будет   на~компьютере!  
+~            the~exam will~be on~the~computer 
+$602/speech_602_20.mp3;7,6;6,647;3,333;11,100
+
+[MULTIPLE_CHOICE]
+> What does Viktor think is funny?
+- Denis's pen was in his hand the whole time.
++ The exam is on a computer, so Denis doesn't need a pen.
+- The exam is actually tomorrow.
+
+[MATCH]
+> Tap the pairs
+- для <> for
+- твоя ручка <> your pen
+- компьютер <> the computer
+- моя любимая ручка <> my favorite pen
+- тебе нужна <> you need
+
