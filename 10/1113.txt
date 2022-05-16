@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=A Bad Day
+icon=d177f65e767d30af6fc75f7d0fc2c886ce601bea
+set=5|7
+
+speaker_Speaker375=it-IT-Wavenet-A
+speaker_Speaker374=it-IT-Wavenet-B
+
+[HEADER]
+> Una brutta giornata
+~ a   bad    day     
+$1113/speech_1113_0.mp3;3,6;7,201;9,356
+
+[LINE]
+Speaker2540: Ciao,  Rebecca!
+~            hello  ~       
+$1113/speech_1113_1.mp3;4,0;9,317.7931034482759
+
+[LINE]
+Speaker1616: Ciao,  Eva!
+~            hello  ~   
+$1113/speech_1113_2.mp3;4,0;5,311.03999999999996
+
+[LINE]
+Speaker2540: Come~stai?  
+~            how~are~you 
+$1113/speech_1113_3.mp3;4,0;5,201.60000000000002
+
+[LINE]
+Speaker1616: Oggi  è  una brutta giornata.
+~            today is a   bad    day      
+$1113/speech_1113_4.mp3;4,0;2,257.1428571428571;4,102.85714285714289;7,205.71428571428578;9,359.9999999999999
+
+[MULTIPLE_CHOICE]
+> Rebecca is having a bad day.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker2540: Perché?
+~            why    
+$1113/speech_1113_6.mp3;6,0
+
+[LINE]
+Speaker1616: Sono stanca.
+~            I~am tired  
+$1113/speech_1113_7.mp3;4,0;7,235.55555555555554
+
+[LINE]
+Speaker2540: Ah, mi~dispiace, Rebecca.
+~            Ah  I'm~sorry    ~       
+$1113/speech_1113_8.mp3;2,0;4,244.8;9,183.59999999999997;9,611.9999999999999
+
+[LINE]
+Speaker1616: Non~trovo    il~mio libro~preferito.
+~            I~can't~find my     favorite~book   
+$1113/speech_1113_9.mp3;3,0;6,198;3,297;4,148.5;6,198;10,297
+
+[MULTIPLE_CHOICE]
+> Rebecca can't find…
++ … her favorite book.
+- … her best friend.
+- … a bad day.
+
+[LINE]
+Speaker1616: Voglio un panino…  
+~            I~want a  sandwich…
+$1113/speech_1113_11.mp3;6,0;3,304.5;8,130.5
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1616: …| però [non                ho soldi]!
+~            …  but   I~don't~have~money ~  ~      
+$1113/speech_1113_12.mp3;1,93.25714285714285;5,233.14285714285717;4,186.51428571428568;3,139.88571428571436
+- ho dei soldi
+- non ho molti
++ non ho soldi
+
+[LINE]
+Speaker1616: E…|   oh no! È    tardi! Devo~andare  a  lezione!
+~            and…  oh no  it's late   I~have~to~go to class   
+$1113/speech_1113_13.mp3;2,0;3,195.42857142857142;3,195.42857142857142;3,260.5714285714286;6,130.28571428571422;6,456.0000000000001;7,325.71428571428555;2,456.0000000000002;8,130.28571428571422
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "hug."
+Speaker2540: (Mi~dispiace), (Rebecca). (Vuoi)         un (+abbraccio)?
+~             I'm~sorry      ~          do~you~want   a    hug        
+$1113/speech_1113_14.mp3;2,0;9,181.28571428571428;9,604.2857142857142;6,543.8571428571428;4,362.57142857142867;10,181.28571428571445
+
+[LINE]
+Speaker1616: Sì,   per~favore.
+~            yes   please     
+$1113/speech_1113_15.mp3;2,0;6,232.25806451612902;7,185.8064516129033
+
+[LINE]
+Speaker1616: Ora sono felice!
+~            now I~am happy  
+$1113/speech_1113_16.mp3;3,0;5,188.90322580645162;7,236.12903225806454
+
+[LINE]
+Speaker2540: Oggi  è  una brutta giornata…
+~            today is a   bad    day…     
+$1113/speech_1113_17.mp3;4,0;2,271.4285714285714;4,108.57142857142861;7,217.14285714285722;10,379.9999999999999
+
+[CONTINUATION]
+> What comes next?
+Speaker2540: …| perché sei     [felice]?
+~            …  why    are~you  happy   
+$1113/speech_1113_18.mp3;1,6;7,316;4,334;7,255
+- abbraccio
+~ hug      
++ felice
+~ happy 
+- ora
+~ now
+
+[LINE]
+Speaker1616: Mmm…
+$1113/speech_1113_19.mp3;4,0
+
+[LINE]
+Speaker1616: …| Perché  ora siamo  insieme! 
+~            …  because now we~are together 
+$1113/speech_1113_20.mp3;1,101.71428571428571;7,355.99999999999994;4,203.42857142857144;6,305.1428571428572
+
+[MULTIPLE_CHOICE]
+> Why is Rebecca happy now?
+- Because she found her book.
+- Because Eva bought her a sandwich.
++ Because she is with her best friend now.
+
+[MATCH]
+> Tap the pairs
+- felice <> happy
+- Un <> a
+- brutta <> bad
+- Ciao <> hello
+- Sono <> I am
+
