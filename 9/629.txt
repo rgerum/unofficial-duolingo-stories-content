@@ -1,0 +1,140 @@
+[DATA]
+fromLanguageName=The Passport
+icon=5dc22a453cc462fa2ac2412700a39a9e1b47d4e6
+set=2|7
+
+speaker_Vladimir=Maxim
+speaker_Anna=Tatyana
+
+[HEADER]
+> Паспорт     
+~ The~passport
+$629/speech_629_0.mp3;7,6
+
+[LINE]
+> Владимир в~аэропорту.      
+~ ~        is~at~the~airport 
+$629/speech_629_1.mp3;8,6;2,548;10,79
+
+[LINE]
+Speaker3135: Где   мой паспорт? 
+~            Where my  passport 
+$629/speech_629_2.mp3;3,6;4,253;8,180
+
+[LINE]
+Speaker3135: Его~нигде~нет!            
+~            It~is~nowhere~to~be~found 
+$629/speech_629_3.mp3;3,6;6,344;4,379
+
+[MULTIPLE_CHOICE]
+> Vladimir can't find his passport.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker3135: Его~нет   у~меня~в~сумке.
+~            It~is~not in~my~bag      
+$629/speech_629_5.mp3;3,6;4,345;2,284;5,52;2,282;6,46
+
+[LINE]
+Speaker3135: И~в~куртке~его~тоже~нет.  
+~            And~not~in~the~jacket~too 
+$629/speech_629_6.mp3;1,6;2,150;7,63;4,481;5,229;4,329
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "jacket."
+> И в (+куртке) (его) (тоже) (нет).
+$629/speech_629_7.mp3;1,6;2,150;7,63;4,481;5,229;4,329
+
+[LINE]
+Speaker3135: А! Он в  такси!   
+~            ~  It in the~taxi 
+$629/speech_629_8.mp3;1,6;4,667;2,197;6,67
+
+[LINE]
+> Владимир ищет      такси.   
+~ ~        looks~for the~taxi 
+$629/speech_629_9.mp3;8,6;5,566;6,391
+
+[LINE]
+> Он видит водителя   своего такси.
+~ He sees  the~driver of~his taxi  
+$629/speech_629_10.mp3;2,6;6,241;9,308;7,499;6,424
+
+[MULTIPLE_CHOICE]
+> Vladimir looks for his taxi and...
+- ... can't find the taxi driver who took him to the airport.
++ ... sees the taxi driver who took him to the airport.
+- ... drives away in a taxi.
+
+[LINE]
+Speaker3135: Подождите! Не~уезжайте!     
+~            Wait       Don't~drive~away 
+$629/speech_629_12.mp3;9,6;4,1164;9,171
+
+[LINE]
+Speaker338: Что  случилось? У~Вас~всё~хорошо?
+~           What happened   Are~you~OK       
+$629/speech_629_13.mp3;3,6;10,226;3,1167;4,86;4,212;7,249
+
+[LINE]
+Speaker3135: Мой паспорт! 
+~            My  passport 
+$629/speech_629_14.mp3;3,6;8,249
+
+[ARRANGE]
+> Tap what you hear
+Speaker3135: [(Он)    (у       вас) (в машин)]е!
+~              It~is   in~your car   ~ ~        
+$629/speech_629_15.mp3;2,6;2,205;4,96;2,267;7,75
+
+[LINE]
+Speaker338: У~меня~в~машине нет         Вашего~паспорта.
+~           In~my~car       there~is~no your~passport   
+$629/speech_629_16.mp3;1,6;5,67;2,287;7,72;4,466;7,280;9,389
+
+[LINE]
+Speaker3135: Нет!   Не~может~быть!  
+~            Oh~no  It~can't~happen 
+$629/speech_629_17.mp3;3,6;4,798;6,201;5,403
+
+[LINE]
+Speaker338: Смотрите, паспорт      у~Вас~в~руке!     
+~           Look      the~passport (is)~in~your~hand 
+$629/speech_629_18.mp3;8,6;9,897;2,475;4,66;2,280;5,76
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "hand."
+> (Паспорт) (у Вас) в (+руке)!
+$629/speech_629_19.mp3;7,6;2,520;4,40;2,247;5,60
+
+[LINE]
+Speaker3135: Точно!  
+~            Exactly 
+$629/speech_629_20.mp3;5,6
+
+[LINE]
+Speaker3135: Спасибо Вам большое!  
+~            Thank   you very~much 
+$629/speech_629_21.mp3;7,6;4,622;8,215
+
+[LINE]
+Speaker338: Счастливого~пути!
+~           Have~a~nice~trip 
+$629/speech_629_22.mp3;11,6;5,543
+
+[MULTIPLE_CHOICE]
+> Where was Vladimir's passport?
++ In his hand.
+- At his house.
+- In the taxi.
+
+[MATCH]
+> Tap the pairs
+- мой паспорт <> my passport
+- у Вас в руке <> in your hand
+- у меня в машине <> in my car
+- подождите <> wait
+- точно <> exactly
+- нигде <> nowhere
+
