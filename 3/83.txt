@@ -1,0 +1,154 @@
+[DATA]
+fromLanguageName=The tourist
+icon=c28cb69bf3836fd092352596d98fc29a300c70ce
+set=3|10
+
+icon_Paris=https://stories-cdn.duolingo.com/image/883741c5440a7570841a156052c1ba8af930ff28.svg
+
+[HEADER]
+> Ο   τουρίστας
+~ The tourist  
+$83/speech_83_0.mp3;1,4.761355005316725;10,55.549141728695126
+
+[LINE]
+> Ο Πάρης επισκέπτεται το~Παρίσι.
+~ ~ ~     is~visiting  Paris     
+$83/speech_83_1.mp3;1,5.637653658939031;6,81.74597805461595;13,481.0797788961307;3,821.2182163187855;7,186.9821796881447
+
+[LINE]
+SpeakerParis: (στα γαλλικά) Με~συγχωρείτε! Πού   είναι το  πάρκο;
+~             (in  French)  Excuse~me      Where is    the park  
+$83/speech_83_2.mp3;4,5.503322157878696;9,294.4277354465102;3,787.8922889362999;11,185.27851264858282;5,1325.383419689119;6,293.51051508686396;3,330.19932947272173;6,144.9208168241389
+
+[LINE]
+Speaker856: Πρέπει~να   πάρεις το  λεωφορείο. Η   στάση    είναι κοντά. 
+~           You~have~to take   the bus        The bus~stop is    nearby 
+$83/speech_83_3.mp3;6,4.983369940382805;3,335.5469093191088;7,171.0957012864763;3,401.9918418575464;10,148.67053655475365;3,1031.557577659241;6,73.08942579228096;6,338.8691559460308;6,398.66959523062405
+
+[MULTIPLE_CHOICE]
+> Is the bus stop nearby?
++ Yes, it is.
+- No, it isn't.
+
+[LINE]
+SpeakerParis: Ευχαριστώ!
+~             Thank~you 
+$83/speech_83_5.mp3;9,5.51015625
+
+[LINE]
+Speaker856: Παρακαλώ.      
+~           You're~welcome 
+$83/speech_83_6.mp3;8,5.720899176496772
+
+[ARRANGE]
+> Make the sentence.
+Speaker856: [(από) (πού) (είσαι) ()];
+$83/speech_83_7.mp3;3,5.06930693069307;4,231.49834983498351;6,283.036303630363
+
+[LINE]
+SpeakerParis: Από  τη Θεσσαλονίκη!
+~             From ~  ~           
+$83/speech_83_8.mp3;3,5.9126213592233015;3,288.7330097087379;12,106.42718446601947
+
+[LINE]
+Speaker856: Α,  είναι~πολύ~ωραία~η~Ελλάδα!
+~           Oh  Greece~is~very~nice       
+$83/speech_83_9.mp3;1,5.5199448740525225;7,550.1545057805681;5,448.03552561059644;6,281.5171885766787;2,324.7567567567569;7,81.87918229844558
+
+[MULTIPLE_CHOICE]
+> How does the woman feel about Greece?
+- She would like to go there.
++ She likes it.
+- She's never heard of that place.
+
+[LINE]
+Speaker856: Και μαθαίνω      ελληνικά!
+~           And I'm~learning Greek    
+$83/speech_83_11.mp3;3,4.814155352770977;8,224.66058312931227;9,406.79612730914744
+
+[LINE]
+SpeakerParis: Τέλεια!
+~             Great  
+$83/speech_83_12.mp3;6,5.539141104294479
+
+[LINE]
+Speaker856: Είσαι   σε διακοπές;
+~           Are~you on holiday  
+$83/speech_83_13.mp3;5,5.661949049737162;3,433.13910230489284;9,153.81628251785952
+
+[SELECT_PHRASE]
+> Choose the right option.
+SpeakerParis: Όχι, ήρθα   εδώ  [για~να μάθω]  γαλλικά...
+~             No   I~came here  to     learn  French    
+$83/speech_83_14.mp3;3,5.852212111703797;6,474.0291810480075;4,365.76325698148725;4,221.4086915594603;3,341.37903984938816;5,149.2314088484468;8,297.4874490116099
+- να μάθω
+- για μάθω
++ για να μάθω
+
+[LINE]
+SpeakerParis: ... και για~να δω  την πόλη!
+~                 and to     see the city 
+$83/speech_83_15.mp3;0,5.638187478381183;7,301.64303009339335;4,273.45209270148746;3,280.02997809293197;3,166.32653061224494;4,194.51746800415071;5,279.0902801798686
+
+[LINE]
+Speaker856: Εμένα~με~λένε Ελίζ.  Κι  εσένα;                  
+~           My~name~is    Élise  And yours~(literally~'you') 
+$83/speech_83_16.mp3;5,6.416184971098266;3,398.87283236994216;5,191.41618497109823;5,335.7803468208093;4,897.1965317919072;6,240.6069364161849
+
+[LINE]
+SpeakerParis: Με~λένε    Πάρη.
+~             My~name~is ~    
+$83/speech_83_17.mp3;2,6.720137825421133;5,202.7241577335375;5,324.8066615620214
+
+[MULTIPLE_CHOICE]
+> Why did Paris say 'Πάρη' and not 'Πάρης'?
++ Because the construction 'Με λένε' literally means 'They call me' so he cannot use the nominative.
+- Because he made a mistake.
+- Because it's the same thing.
+
+[LINE]
+Speaker856: Χάρηκα~για~τη~γνωριμία. Θα~ήθελα να μιλήσουμε κι~άλλο, αλλά πρέπει~να φύγω.
+~           Pleased~to~meet~you     I'd~like to talk      more     but  I~have~to go   
+$83/speech_83_19.mp3;6,5.674604941019363;4,478.5583500259663;3,200.5027079160174;9,156.05163587803258;4,1002.5135395800875;6,184.42466058312948;3,317.77787669708437;10,157.943170858372;3,625.1523110022999;5,208.06884783737678;6,624.2065435121303;7,229.8215001112835;3,411.40885822390464;5,191.0450330143185
+
+[POINT_TO_PHRASE]
+> Click on the option meaning 'leave' or 'go'.
+Speaker856: (Θα) (ήθελα) (να) (μιλήσουμε) (κι) (άλλο), (αλλά) (πρέπει) (να) (+φύγω).
+
+[LINE]
+Speaker856: Θα~πάω    να δω  κάποιους φίλους. 
+~           I'm~going to see some     friends 
+$83/speech_83_21.mp3;2,6.179730117714614;4,242.03942961048907;3,320.3160111015408;3,193.63154368839116;9,212.17073404153507;7,717.8786486745144
+
+[LINE]
+SpeakerParis: Καλά.   
+~             Alright 
+$83/speech_83_22.mp3;4,5.636310904872389
+
+[LINE]
+Speaker856: Χμμ.. Θέλεις      να έρθεις; Δεν~είναι στο    πάρκο, αλλά...
+~           Hmm   Do~you~want to come    It's~not  in~the park   but    
+$83/speech_83_23.mp3;3,5.599957464908549;9,1585.7212888132708;3,447.06327094853236;7,174.53200765631686;5,942.6595065929387;6,236.1315397703106;4,340.66407911526994;6,293.99776690769886;6,701.8613356018714
+
+[LINE]
+SpeakerParis: Εντάξει!
+~             OK      
+$83/speech_83_24.mp3;7,5.720899176496772
+
+[MULTIPLE_CHOICE]
+> Paris happily accepted...
+- ... Élise's directions to go to the park.
++ … Élise's invitation to meet her friends with her.
+- … an invitation to go to Élise's French class.
+
+[MATCH]
+> Tap the pairs!
+- επισκέπτεται <> visits
+- γαλλικά <> French (language)
+- η Ελλάδα <> Greece
+- η στάση <> (bus) stop
+- μαθαίνω <> I'm learning
+- για να δω <> in order to see
+- φεύγω <> I leave
+- κι άλλο <> more
+
