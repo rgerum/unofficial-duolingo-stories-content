@@ -1,0 +1,154 @@
+[DATA]
+fromLanguageName=Our First House
+icon=dc39b146e09be64389b169c261884a6c5ea6fcca
+set=5|1
+
+speaker_Speaker352=Carla
+speaker_Speaker351=Giorgio
+
+[HEADER]
+> La~nostra prima casa 
+~ our       first house
+$1077/speech_1077_0.mp3;2,6;7,164;6,438;5,343
+
+[LINE]
+> Alba e     Giorgio vogliono comprare una casa. 
+~ ~    and   ~       want     to~buy   a   house 
+$1077/speech_1077_1.mp3;4,6;2,301;10,70;9,420;9,447;4,517;5,160
+
+[LINE]
+Speaker336: Le  case    in      città sono troppo care.     
+~           the houses  in~the  city  are  too    expensive 
+$1077/speech_1077_2.mp3;2,6;5,192;4,370;7,121;5,439;7,299;5,451
+
+[LINE]
+Speaker385: Lo~so. 
+~           I~know 
+$1077/speech_1077_3.mp3;2,6;3,125
+
+[MULTIPLE_CHOICE]
+> Giorgio knows well that houses in the city are too expensive.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker385: Però il~nostro appartamento è  molto  piccolo.
+~           but  our       apartment    is very   small   
+$1077/speech_1077_5.mp3;4,6;3,267;7,99;13,338;2,651;6,63;9,331
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker385: E     io [voglio     un cane]!
+~           and   I   want~a~dog ~  ~     
+$1077/speech_1077_6.mp3;1,6;5,87;7,185;3,335;5,128
++ voglio un cane
+- vuoi un cane
+- voglio una canna
+
+[LINE]
+Speaker336: Lo~so. 
+~           I~know 
+$1077/speech_1077_7.mp3;2,6;3,175
+
+[LINE]
+Speaker385: Ho      un'idea.
+~           I~have  an~idea 
+$1077/speech_1077_8.mp3;2,6;9,98
+
+[ARRANGE]
+> Tap what you hear
+Speaker385: [(Vuoi)        (prendere) (il)  (treno) (con~me)]? 
+~             do~you~want   to~take    the   train   with~me   
+$1077/speech_1077_9.mp3;4,6;9,302;3,514;6,96;4,340;3,157
+
+[LINE]
+Speaker336: Va~bene.
+~           OK      
+$1077/speech_1077_10.mp3;2,6;5,175
+
+[CONTINUATION]
+> What comes next?
+> Alba e     Giorgio vanno~a~vedere          [una casa]. 
+~ ~    and   ~       are~going~to~see         a   house  
+$1077/speech_1077_11.mp3;4,6;2,301;10,70;6,405;2,311;7,45;11,357;5,223
+- molto  piccolo
+~ very   small  
++ una casa 
+~ a   house
+- una idea
+~ an  ~   
+
+[LINE]
+Speaker385: Questa è  la   casa   dei miei nonni.       
+~           this   is the  house  of  my   grandparents 
+$1077/speech_1077_12.mp3;6,6;2,419;3,76;6,111;5,273;5,176;6,206
+
+[LINE]
+Speaker385: Però loro non~vivono   qui. 
+~           but  they don't~live   here 
+$1077/speech_1077_13.mp3;4,6;5,186;4,286;7,197;6,344
+
+[LINE]
+Speaker385: Non~è     in      città…
+~           it's~not  in~the  city… 
+$1077/speech_1077_14.mp3;3,6;2,163;4,132;8,140
+
+[LINE]
+Speaker385: …| però è    vicino alla  stazione~dei~treni!
+~           …  but  it's near   the   train~station      
+$1077/speech_1077_15.mp3;1,6;5,243;2,329;7,105;5,425;10,161;4,493;6,196
+
+[ARRANGE]
+> Tap what you hear
+Speaker385: [(Ci~sono)   (quattro) (stanze~grandi)].
+~             there~are   four      big~rooms       
+$1077/speech_1077_16.mp3;2,6;5,128;8,244;7,437;7,402
+
+[LINE]
+Speaker385: E     c'è           un giardino per un cane!
+~           and   there~is      a  garden   for a  dog  
+$1077/speech_1077_17.mp3;1,6;6,94;8,188;9,120;4,391;3,153;5,90
+
+[LINE]
+> Alba guarda   Giorgio.
+~ ~    looks~at ~       
+$1077/speech_1077_18.mp3;4,6;7,315;8,440
+
+[LINE]
+Speaker336: Giorgio…
+$1077/speech_1077_19.mp3;8,6
+
+[LINE]
+Speaker336: È       perfetta!
+~           it's    perfect  
+$1077/speech_1077_20.mp3;1,6;12,113
+
+[LINE]
+Speaker336: Però abbiamo~bisogno~di qualcosa. 
+~           but  we~need            something 
+$1077/speech_1077_21.mp3;4,6;8,350;8,421;3,490;9,102
+
+[LINE]
+Speaker385: Cosa?
+~           what 
+$1077/speech_1077_22.mp3;4,6
+
+[LINE]
+Speaker336: Un cane!
+~           a  dog  
+$1077/speech_1077_23.mp3;2,6;5,154
+
+[MULTIPLE_CHOICE]
+> What have Giorgio and Alba decided to do?
+- They'll adopt a dog and stay in their tiny apartment.
+- They will buy a new house and a cat.
++ They'll move to the new house and get a dog.
+
+[MATCH]
+> Tap the pairs
+- sono <> are
+- vanno a vedere <> are going to see
+- molto <> very
+- è <> it's
+- Questa <> this
+
