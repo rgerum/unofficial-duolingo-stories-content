@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=In the Museum
+icon=09fc3d3f2b5acf538364fe21f1b5ab3a457b1d7b
+set=1|5
+
+[HEADER]
+> संग्रहालय  में
+~ the~museum in 
+$621/speech_621_0.mp3;9,6;4,808
+
+[LINE]
+> लक्ष्मी अपने दादा        के~साथ संग्रहालय  में है।
+~ Lakshmi her  grandfather with   the~museum in  is 
+$621/speech_621_1.mp3;7,6;5,530;5,286;3,407;4,170;10,345;4,740;4,177
+
+[LINE]
+Speaker1320: चित्तरंजक। 
+~            Interesting
+$621/speech_621_2.mp3;10,6
+
+[LINE]
+Speaker1320: ये    चित्रों  अतीत     से   हैं।
+~            These pictures the~past from are 
+$621/speech_621_3.mp3;2,6;8,259;5,578;3,386;5,226
+
+[MULTIPLE_CHOICE]
+> There are photos from the past in the museum.
+- No, that's not right!
++ Yes, that's true!
+
+[LINE]
+Speaker2474: हाँ, वह भारत  में ताज     महल   है।
+~            Yes  it India in  the~Taj Mahal is 
+$621/speech_621_5.mp3;3,6;4,675;5,266;4,517;4,152;4,357;4,356
+
+[LINE]
+Speaker1320: गाड़ियाँ कहाँ  हैं?
+~            The~cars where are 
+$621/speech_621_6.mp3;8,6;5,510;4,317
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1320: [यहाँ]          एक चित्र   की भेषजीय  छात्रों  है.
+~             undefinedHere  a  picture of medical students is 
+$621/speech_621_7.mp3;4,6;3,364;6,226;3,363;7,226;8,615;3,565
+- या वहाँ
++ यहाँ
+- कहाँ
+
+[LINE]
+Speaker2474: हाँ, यह   दिल्ली विश्वविद्यालय है।
+~            Yes  this Delhi  University    is 
+$621/speech_621_8.mp3;3,6;4,630;7,258;14,386;4,949
+
+[LINE]
+Speaker1320: चित्र   में एक औरत   है।     
+~            Picture in  a  woman there~is
+$621/speech_621_9.mp3;5,6;4,360;3,259;4,283;4,336
+
+[LINE]
+Speaker1320: केवल एक  औरत…  
+~            Only one woman…
+$621/speech_621_10.mp3;4,6;3,391;5,238
+
+[MULTIPLE_CHOICE]
+> Lakshmi means…
+- … she only knows one woman.
+- … she sees five women in the old photo.
++ … she sees only one female student in the photo.
+
+[LINE]
+Speaker1320: वाह, मेधावी!      और  बहुत जरूरी!    
+~            Wow  intelligent  And very important 
+$621/speech_621_12.mp3;3,6;8,678;4,1193;5,239;6,322
+
+[LINE]
+> लक्ष्मी~के दादा        चित्र     पर देख~रहे हैं।  वह नहीं     बोलता हैं।
+~ Lakshmi's  grandfather the~photo at looking is    He does~not speak ~   
+$621/speech_621_13.mp3;7,6;3,527;5,190;6,368;3,359;4,202;4,334;5,281;4,450;5,264;6,347;5,442
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "looking."
+> लक्ष्मी के दादा चित्र पर     हैं।  [+देख रहे] (+पर) (दादा) (नहीं).
+$621/speech_621_14.mp3;7,6;3,533;5,190;6,389;3,327;9,248;7,593;5,542;3,335;5,263;5,248;1,376
+
+[LINE]
+Speaker1320: दादा?       
+~            Grandfather 
+$621/speech_621_15.mp3;4,6
+
+[LINE]
+Speaker2474: वह  बहुत सुंदर  है…
+~            She very pretty is…
+$621/speech_621_16.mp3;2,6;5,271;6,392;4,440
+
+[LINE]
+Speaker1320: हाँ, वह  बहुत सुंदर  है।
+~            Yes  she very pretty is 
+$621/speech_621_17.mp3;3,6;4,673;5,302;6,379;4,440
+
+[ARRANGE]
+> Tap what you hear
+Speaker2474: [(वह)  (है) (मेरी) (नान)]ी.       
+~              she   is   my     grandmother   
+$621/speech_621_18.mp3;2,6;3,270;5,256;5,403
+
+[SELECT_PHRASE]
+> Tap what you hear
+Speaker2474: [Lakshmi's grandfather saw a           photo of his grandmother at the museum.].
+~             she       is          my  grandmother ~     ~  ~   ~           ~  ~   ~        
+$621/speech_621_19.mp3;9,6;12,793;4,751;2,345;6,89;3,463;4,156;12,192;3,661;4,148;7,85
+- Lakshmi didn't enjoy going to the museum.
+- Lakshmi saw a photo of her grandfather at the museum.
++ Lakshmi's grandfather saw a photo of his grandmother at the museum.
+
+[MATCH]
+> Tap the pairs
+- बहुत <> very
+- संग्रहालय  <> museum
+- चित्रों  <> picture
+- अतीत   <> past
+- हाँ  <> yes
+
