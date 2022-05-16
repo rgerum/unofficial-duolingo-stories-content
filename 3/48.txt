@@ -1,0 +1,128 @@
+[DATA]
+fromLanguageName=My favourite pen
+icon=c705fb9dbd8dd847d687d6e63c7e6eeba2e4d60d
+set=2|2
+
+[HEADER]
+> Το~αγαπημένο~μου στιλό
+~ My~favourite     pen  
+$48/speech_48_0.mp3;2,5.223147939653232;10,154.0828642197703;4,484.8822337311417;6,257.6752983562261
+
+[LINE]
+> Ο Γιώργος και ο Κώστας είναι στο    πανεπιστήμιο.
+~ ~ ~       and ~ ~      are   at~the university   
+$48/speech_48_1.mp3;1,4.865896358543418;8,77.04335901027078;4,471.18096405228766;2,225.45319794584486;7,94.88497899159665;6,423.3329831932773;4,221.39828431372575;13,227.07516339869267
+
+[LINE]
+Speaker438: Οχι!
+~           No  
+$48/speech_48_2.mp3;3,6
+
+[LINE]
+Speaker1087: Όλα~καλά        Γιώργο;
+~            Are~you~alright ~      
+$48/speech_48_3.mp3;3,5.812471960520412;5,185.99910273665319;7,242.18633168835052
+
+[SELECT_PHRASE]
+> Giorgos is saying 'Where is it?'. How does he say that in Greek?
+Speaker438: [Πού είναι;]
+$48/speech_48_4.mp3;3,4.5;6,248.25000000000003
+- Είναι πού;
++ Πού είναι;
+- Πως είναι;
+
+[LINE]
+Speaker438: Πού   είναι το~στιλό~μου;
+~           Where is    my~pen       
+$48/speech_48_5.mp3;3,4.666524883028499;6,248.88132709485328;3,279.99149298170994;6,144.6622713738833;4,300.2131008081667
+
+[LINE]
+Speaker1087: Ωχ όχι! Το~άσπρο~σου στιλό;
+~            Oh no   Your~white   pen   
+$48/speech_48_6.mp3;2,5.81278038081946;4,226.69843485195892;4,768.2558069983052;6,190.85295583690572;4,433.05213837104975;6,251.88714983550994
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "pen."
+Speaker1087: (Ωχ) (όχι) ! (Το) (άσπρο) (σου) (+στιλό) ;
+
+[LINE]
+Speaker438: Ναι! Το~αγαπημένο~μου στιλό.
+~           Yes  My~favourite     pen   
+$48/speech_48_8.mp3;3,5.127196798329563;4,757.1160605533322;10,150.3977727510004;4,475.9747694449279;6,252.94170871759184
+
+[LINE]
+Speaker1087: Το~χρειάζεσαι  για το  διαγώνισμα;
+~            Do~you~need~it for the test       
+$48/speech_48_9.mp3;2,5.669681271402231;11,126.62288172798316;4,736.113618403723;3,286.3189042058127;11,173.87022565633515
+
+[MULTIPLE_CHOICE]
+> Kostas is wondering if...
++ Giorgos needs his pen for the test.
+- Giorgos' pen has run out of ink.
+- Giorgos has hidden notes inside the pen to cheat in the test.
+
+[LINE]
+Speaker438: Ναι! Είναι πολύ σημαντικό! Χρησιμοποιώ το~αγαπημένο~μου στιλό για όλα τα  διαγωνίσματα!
+~           Yes  It's  very important  I~use       my~favourite     pen   for all the tests        
+$48/speech_48_11.mp3;3,5.347857100398264;7,789.7002318254771;5,361.87166379361565;10,284.32773583784115;13,1113.2455863995722;3,678.2865422338464;10,171.13142721274426;4,505.37249598763583;6,262.04499791951594;4,384.1544017119413;4,265.61023598644715;3,262.0449979195155;13,159.54440349521428
+
+[MULTIPLE_CHOICE]
+> When does Giorgos use his favourite pen?
+- When he is feeling sad.
+- Once every eleven tests.
++ During all tests.
+
+[LINE]
+Speaker1087: Είναι αστείο...
+~            It's  funny    
+$48/speech_48_13.mp3;5,4.500672947510094;7,351.0524899057873
+
+[LINE]
+Speaker438: Αστείο;
+~           Funny  
+$48/speech_48_14.mp3;6,5.838592860838076
+
+[LINE]
+Speaker1087: Ναι, πολύ!
+~            Yes  very 
+$48/speech_48_15.mp3;3,4.8234190279602185;6,542.6346406455245
+
+[LINE]
+Speaker438: Γιατί;
+~           Why   
+$48/speech_48_16.mp3;5,5.294117647058823
+
+[SELECT_PHRASE]
+> What comes next?
+Speaker1087: Δε~χρειάζεσαι  [το στιλό σου.]
+~            You~don't~need  ~  ~     ~    
+$48/speech_48_17.mp3;2,5.5716796875000005;11,187.57988281250002;3,729.8900390624999;6,169.93623046875007;4,447.59160156250005
+- το στειλό σου.
++ το στιλό σου.
+- τον στιλό σου.
+
+[LINE]
+Speaker438: Γιατί;
+~           Why   
+$48/speech_48_18.mp3;5,5.294117647058823
+
+[LINE]
+Speaker1087: Το  διαγώνισμα είναι στον   υπολογιστή!
+~            The test       is    on~the computer   
+$48/speech_48_19.mp3;2,5.399734982332156;11,138.59319787985865;6,557.9726148409895;5,315.88449646643096;11,326.68396643109554
+
+[MULTIPLE_CHOICE]
+> What does Kostas think is funny?
+- Giorgos' superstition.
++ The test is on a computer, so Giorgos doesn't need a pen.
+- Giorgos' pen was in his hand the whole time.
+
+[MATCH]
+> Tap the pairs!
+- τo πανεπιστήμιο <> university
+- το στιλό <> pen
+- χρειάζεσαι <> you need
+- χρησιμοποιώ <> I use
+- σημαντικό <> important
+- αστείο <> funny
+
