@@ -1,0 +1,113 @@
+[DATA]
+fromLanguageName=The Restaurant
+icon=d009bf5a911fc69baee4534e0bcc9e5478a9b633
+set=4|2
+
+icon_Speaker387=https://stories-cdn.duolingo.com/image/3efc9f39ba59f0e08d66317272db579e976fc47f.svg
+speaker_Speaker386=Tatyana
+speaker_Speaker387=Tatyana
+
+[HEADER]
+> Ресторан      
+~ the~restaurant
+$639/speech_639_0.mp3;8,6
+
+[LINE]
+> Алина    в  новом ресторане. 
+~ Alina~is in a~new restaurant 
+$639/speech_639_1.mp3;5,6;2,378;6,122;10,467
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker386: Здравствуйте! [Что  Вы     хотите заказать?]
+~           hello          what do~you want   to~order  
+$639/speech_639_2.mp3;12,6;5,1282;3,245;7,84;9,471
+- Что Вы хотите петь?
+- Где Вы сядете?
++ Что Вы хотите заказать?
+
+[LINE]
+SpeakerSpeaker387: Я хотела~бы  стакан  воды     и   салат,   пожалуйста.
+~                  I would~like a~glass of~water and a~salad  please     
+$639/speech_639_3.mp3;1,6;7,150;3,403;7,98;5,504;2,352;6,97;12,739
+
+[LINE]
+Speaker386: Хорошо! Стакан  воды     и   картофельный~салат.
+~           OK      a~glass of~water and a~potato~salad     
+$639/speech_639_4.mp3;6,6;8,981;5,529;2,281;13,49;6,655
+
+[SELECT_PHRASE]
+> What comes next?
+SpeakerSpeaker387: Нет, я не    хочу [картофельный~салат].     
+~                  No   I don't want  potato              salad
+$639/speech_639_5.mp3;3,6;3,626;3,224;5,117;13,364;6,722
+- бутерброд
+- стакан воды
++ картофельный салат
+
+[ARRANGE]
+> Tap what you hear
+Speaker386: [(А...)  (Ладно...) (Вам) (нравятся) (супы)  ()]?
+~             Ah      Well       you   like       soups      
+$639/speech_639_6.mp3;1,6;9,645;7,818;9,202;5,475
+
+[LINE]
+SpeakerSpeaker387: Да!  Я люблю супы!  У~вас~есть  томатный суп? 
+~                  yes  I love  soups  do~you~have tomato   soup 
+$639/speech_639_7.mp3;2,6;3,679;6,183;5,396;3,849;4,96;5,248;9,243;4,492
+
+[MULTIPLE_CHOICE]
+> How does Alina feel about soup?
+- She never eats it.
++ She likes it.
+- She hates it.
+
+[LINE]
+Speaker386: Нет, но  у~нас~есть картофельный суп. 
+~           No   but we~have    potato       soup 
+$639/speech_639_9.mp3;3,6;4,626;2,189;4,60;5,254;13,311;4,731
+
+[LINE]
+SpeakerSpeaker387: У~вас~есть  бутерброды?
+~                  Do~you~have sandwiches 
+$639/speech_639_10.mp3;1,6;4,88;5,263;11,285
+
+[LINE]
+Speaker386: У~нас~есть картофельные бутерброды!
+~           we~have    potato       sandwiches 
+$639/speech_639_11.mp3;1,6;4,78;5,273;13,311;11,783
+
+[ARRANGE]
+> Tap what you hear
+SpeakerSpeaker387: [(Есть        ли        у       вас)      (что-нибудь) (без) (картофел)]я?
+~                    do~you~have something without potatoes   ~            ~     ~           
+$639/speech_639_12.mp3;4,6;3,285;2,92;4,66;11,244;4,572;10,177
+
+[LINE]
+Speaker386: Нет!
+~           No  
+$639/speech_639_13.mp3;3,6
+
+[LINE]
+SpeakerSpeaker387: Что~это~за~ресторан~такой?!
+~                  What~is~this~restaurant    
+$639/speech_639_14.mp3;3,6;4,271;3,232;9,148;6,536
+
+[LINE]
+Speaker386: Ресторан       называется "Картофель".   
+~           the~restaurant is~called   'The~Potato'  
+$639/speech_639_15.mp3;8,6;11,518;11,616
+
+[MULTIPLE_CHOICE]
+> What happened in the story?
+- Alina ate all the potato dishes.
++ Alina went to a restaurant that only served potato dishes.
+- The waitress kicked Alina out of the restaurant.
+
+[MATCH]
+> Tap the pairs
+- картофельный салат <> potato salad
+- пожалуйста <> please
+- у вас есть <> do you have
+- но <> but
+
