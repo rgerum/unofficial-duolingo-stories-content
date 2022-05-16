@@ -1,0 +1,176 @@
+[DATA]
+fromLanguageName=Let's Go to the Beach!
+icon=7adc3c6ae983a10e3b79bd0efb8bfbb5ed3725c2
+set=6|1
+
+speaker_Speaker248=Tatyana
+speaker_Speaker249=ru-RU-Wavenet-B
+
+[HEADER]
+> Пойдем   на~пляж!     
+~ let's~go to~the~beach 
+$1223/speech_1223_0.mp3;6,6;3,475;5,111
+
+[LINE]
+Speaker1616: Павел, хочешь пойти со   мной на пляж?     
+~            ~      want   to~go with me   to the~beach 
+$1223/speech_1223_1.mp3;5,6;8,632;6,433;3,371;5,146;3,252;5,120
+
+[LINE]
+Speaker1321: Нет, не  сегодня.
+~            no   not today   
+$1223/speech_1223_2.mp3;3,0;4,197.41935483870967;8,118.45161290322582
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1616: Но  сегодня   [прекрасный день] ,чтобы    пойти на пляж!     
+~            but today~is   a~splendid day    in~order to~go to the~beach 
+$1223/speech_1223_3.mp3;2,6;8,137;12,447;5,616;7,542;6,302;3,368;5,119
+- красный день
+- прекрасный дом
++ прекрасный день
+
+[LINE]
+Speaker1321: Мне нужно   делать домашнее~задание, Лариса..
+~            I   have~to do     homework          ~       
+$1223/speech_1223_4.mp3;3,0;6,198.6206896551724;7,297.9310344827586;9,347.58620689655163;8,446.896551724138;8,446.8965517241379
+
+[LINE]
+Speaker1616: Павел, мы     в~отпуске!  
+~            ~      we~are on~vacation 
+$1223/speech_1223_5.mp3;5,6;4,625;2,161;8,67
+
+[LINE]
+Speaker1616: Ты  учишься слишком~много!
+~            you study   too~much      
+$1223/speech_1223_6.mp3;2,6;8,106;8,441;6,446
+
+[CONTINUATION]
+> What comes next?
+Speaker1616: Ты      лучший   ученик  в  [твоем классе!]!
+~            you~are the~best student in  your  class    
+$1223/speech_1223_7.mp3;2,6;7,115;7,377;2,467;6,39;7,413
+- твоей спальне
+~ your  bedroom
+- твоем городе
+~ your  city  
++ твоем классе!
+~ your  class  
+
+[LINE]
+Speaker1616: Неужели           ты  не~можешь не  делать домашнее~задание сегодня?
+~            Is~it~really~that you cannot    not do     homework         today   
+$1223/speech_1223_8.mp3;7,6;3,513;3,123;7,112;3,417;7,129;9,338;8,621;8,499
+
+[LINE]
+Speaker1616: Паша, будь немножко храбрее! Развлекись немного! 
+~            ~     be   a~bit    braver   Have~fun   a~little 
+$1223/speech_1223_9.mp3;4,6;6,651;9,262;8,492;12,972;8,609
+
+[LINE]
+Speaker1616: Не    будь таким занудным!
+~            Don't be   so    boring   
+$1223/speech_1223_10.mp3;2,6;5,126;6,177;9,346
+
+[MULTIPLE_CHOICE]
+> Larisa is asking Pavel to stop studying have some fun.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker1321: Я не    знаю…
+~            I don't know…
+$1223/speech_1223_12.mp3;1,0;3,41.6;6,62.4
+
+[LINE]
+Speaker1616: Пожалуйста, Пашенька!
+~            please      ~        
+$1223/speech_1223_13.mp3;10,6;10,876
+
+[LINE]
+Speaker1616: Будет       так весело!
+~            (it)will~be so  fun    
+$1223/speech_1223_14.mp3;5,6;4,395;7,206
+
+[LINE]
+Speaker1321: Ладно.
+~            Fine  
+$1223/speech_1223_15.mp3;5,0
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1321: [Пойдем   на~пляж]      !
+~             let's~go to~the~beach   
+$1223/speech_1223_16.mp3;6,0;3,265.5483870967742;5,113.80645161290317
+- Пойдем в пляж
++ Пойдем на пляж
+- Помоем пляж
+
+[LINE]
+Speaker1616: Хорошо!   
+~            all~right 
+$1223/speech_1223_17.mp3;6,6
+
+[LINE]
+> Позже на~пляже...    
+~ later at~the~beach   
+$1223/speech_1223_18.mp3;5,6;3,396;6,118
+
+[LINE]
+Speaker1321: Хорошая идея, Лариса!
+~            good    idea  ~      
+$1223/speech_1223_19.mp3;7,0;5,405.3333333333333;8,304.00000000000006
+
+[LINE]
+Speaker1321: Большое~спасибо.      Здесь   так весело!
+~            thank~you~very~much   Here~is so  fun    
+$1223/speech_1223_20.mp3;7,0;8,414.72;8,518.4;4,311.03999999999985;7,207.36000000000035
+
+[ARRANGE]
+> Tap what you hear
+Speaker1616: [(Но)  (что)  (ты)      (делаеш)]ь ?
+~              But   what   are~you   doing      
+$1223/speech_1223_21.mp3;2,6;4,122;3,224;8,153
+
+[LINE]
+Speaker1616: Павел, ты  принёс  четыре книги...
+~            ~      you brought four   books   
+$1223/speech_1223_22.mp3;5,6;4,632;7,88;7,378;6,346
+
+[LINE]
+Speaker1321: Да,  но  мы     же           на~пляже.    
+~            yes  but we~are (emphasizer) at~the~beach 
+$1223/speech_1223_23.mp3;2,0;4,184.21621621621622;3,138.16216216216216;3,138.1621621621622;3,138.16216216216213;6,138.1621621621622
+
+[LINE]
+Speaker1321: Я   храбрый!
+~            I'm brave   
+$1223/speech_1223_24.mp3;1,0;8,74.88
+
+[LINE]
+Speaker1321: И   весёлый!
+~            And fun     
+$1223/speech_1223_25.mp3;1,0;8,74.88
+
+[MULTIPLE_CHOICE]
+> Why is Larisa annoyed?
+- Because her car broke down on the way to the beach.
+- Because Pavel didn't go with her to the beach.
++ Because Pavel is studying at the beach.
+
+[MATCH]
+> Tap the pairs
+- делать домашнее задание <> to do homework
+- Паша/Пашенька <> Pasha/Pashenka(diminutives of Pavel)
+- храбрый <> brave(m)
+- храбрее <> braver
+- Развлекись <> have fun
+
+[MATCH]
+> Tap the pairs
+- Я не знаю <> I don't know
+- Позже <> Later
+- Неужели <> Is it really
+- занудный <> boring(m)
+- весёлый <> fun(m)
+
