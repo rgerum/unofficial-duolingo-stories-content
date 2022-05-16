@@ -1,0 +1,175 @@
+[DATA]
+fromLanguageName=The Birthday Present
+icon=710f3a5ac270376f08d81bf3208c800c55c9405a
+set=8|2
+
+speaker_Speaker317=it-IT-Wavenet-C
+speaker_Speaker318=it-IT-Wavenet-D
+speaker_Speaker319=it-IT-Wavenet-A
+
+[HEADER]
+> Il  regalo~di~compleanno
+~ the birthday~present    
+$1084/speech_1084_0.mp3;2,6;7,131;3,473;11,96
+
+[LINE]
+> Mario e     Arturo sono in     cucina. 
+~ ~     and   ~      are  in~the kitchen 
+$1084/speech_1084_1.mp3;5,6;2,465;9,40;5,403;3,299;7,141
+
+[LINE]
+Speaker2144: Che  stai~facendo? 
+~            what are~you~doing 
+$1084/speech_1084_2.mp3;3,6;5,109;8,268
+
+[LINE]
+Speaker127: Sto~chiamando nostra~figlia…| un'altra~volta.
+~           I~am~calling  our~daughter…   again          
+$1084/speech_1084_3.mp3;3,6;10,279;7,483;8,443;9,980;6,552
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker127: [Non risponde    mai]!  
+~            not she~answers never  
+$1084/speech_1084_4.mp3;3,6;9,239;4,599
+- Non sposa mai
++ Non risponde mai
+- Non si ponte
+
+[LINE]
+Speaker2144: Erica vive   in Australia…
+~            ~     lives  in ~…        
+$1084/speech_1084_5.mp3;5,6;5,434;4,320;11,133
+
+[LINE]
+Speaker2144: Sono~le~undici~di~sera lì.    È      tardi!
+~            it's~eleven~pm         there  it's   late  
+$1084/speech_1084_6.mp3;4,6;3,81;7,309;3,102;5,370;3,638;3,56
+
+[ARRANGE]
+> Tap what you hear
+Speaker127: [(Però) (è)    (il~mio) (compleanno ……)…
+~             but    it's   my       birthday   …   
+$1084/speech_1084_7.mp3;4,6;2,422;3,127;4,83;11,200
+
+[LINE]
+Speaker127: Voglio parlare~con lei.
+~           I~want to~talk~to  her 
+$1084/speech_1084_8.mp3;6,6;8,412;4,528;4,186
+
+[LINE]
+Speaker2144: Non~ti~preoccupare. La~vedrai                               presto.
+~            don't~worry         you~are~going~to~see~her                soon   
+$1084/speech_1084_9.mp3;3,6;3,315;12,107;4,1251;7,177;22,448
+
+[MULTIPLE_CHOICE]
+> What does Mario mean?
+- He's worried about his daughter.
++ He's telling Arturo not to worry.
+- He's asking Mario to move to Australia soon.
+
+[LINE]
+Speaker127: Presto? Lei rimarrà              in Australia ancora per sei~mesi.  
+~           soon    she is~going~to~stay     in ~         still  for six~months 
+$1084/speech_1084_11.mp3;6,6;5,948;8,233;7,289;10,549;7,203;4,649;4,370;5,164;1,267
+
+[LINE]
+Speaker127: La~chiamo        un'altra~volta.
+~           I~will~call~her  again          
+$1084/speech_1084_12.mp3;2,6;7,172;10,292;6,458
+
+[LINE]
+> Arturo chiama Erica.
+~ ~      calls  ~     
+$1084/speech_1084_13.mp3;6,6;7,519;6,334
+
+[LINE]
+Speaker1186: Sì? 
+~            yes 
+$1084/speech_1084_14.mp3;2,6
+
+[LINE]
+Speaker127: Erica!
+$1084/speech_1084_15.mp3;5,6
+
+[LINE]
+Speaker1186: Ciao,   papà.
+~            hello   dad  
+$1084/speech_1084_16.mp3;4,6;7,636
+
+[LINE]
+> Arturo sente qualcuno dietro la   porta.
+~ ~      hears someone  behind the  door  
+$1084/speech_1084_17.mp3;6,6;6,444;9,413;7,532;3,421;7,99
+
+[MULTIPLE_CHOICE]
+> Arturo hears someone at the door.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker127: Aspetta un minuto. Credo    che   ci~sia     qualcuno alla    porta.
+~           wait    a  minute  I~think  that  there~is   someone  at~the  door  
+$1084/speech_1084_19.mp3;7,6;3,506;7,141;7,944;5,352;4,130;4,235;11,539;5,131
+
+[LINE]
+Speaker1186: Devo~andare,  papà.
+~            I~have~to~go  dad  
+
+[LINE]
+Speaker127: Però…
+~           but… 
+
+[LINE]
+Speaker1186: Ci~vediamo presto!
+~            see~you    soon   
+
+[CONTINUATION]
+> What comes next?
+> Molto  triste, Arturo [apre   la   porta……
+~ very   sad     ~       opens  the  door   
+- è    il~mio compleano
+~ it's my     birthday 
+- vive   in Australia
+~ lives  in ~        
++ apre   la   porta
+~ opens  the  door 
+
+[LINE]
+> …| e     vede Erica con   una valigia. 
+~ …  and   sees ~     with  a   suitcase 
+
+[LINE]
+Speaker1186: Molto presto!
+~            very  soon   
+
+[LINE]
+Speaker127: Erica!
+
+[LINE]
+Speaker127: Tu       l'hai~aiutata con~tutto~questo, Mario?
+~           did~you  help~her      with~all~this     ~     
+
+[LINE]
+Speaker2144: Certo!     Buon  compleanno!
+~            of~course  happy birthday   
+$1084/speech_1084_28.mp3;5,6;6,963;11,308
+
+[LINE]
+Speaker127: Questo è  il~migliore regalo   del    mondo!
+~           this   is the~best    present  in~the world 
+
+[MULTIPLE_CHOICE]
+> What was Arturo's birthday surprise?
++ His daughter visited him from Australia.
+- His daughter told him she was getting married.
+- His daughter wrote him a letter.
+
+[MATCH]
+> Tap the pairs
+- l'hai aiutata <> you helped her
+- Non risponde mai <> she never answers
+- il migliore <> the best
+- il mio <> my
+- tardi <> late
+
