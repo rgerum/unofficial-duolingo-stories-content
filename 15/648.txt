@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Honeymoon
+icon=7e5d271488d31d6f1d0c503512e642ca7effe84f
+set=1|6
+
+[HEADER]
+> Balay?       
+~ the~honeymoon
+$648/speech_648_0.mp3;6,6
+
+[LINE]
+> Sophie bir taksinin içindedir.
+~ ~      a   taxi     inside~of 
+$648/speech_648_1.mp3;6,6;4,528;9,215;10,660
+
+[LINE]
+Speaker113: Merhaba !
+~           hello    
+$648/speech_648_2.mp3;7,6
+
+[SELECT_PHRASE]
+> Eksik ifadeyi seçin
+Speaker439: Merhaba. [havaliman?na],   lütfen.
+~           hello     to~the~airport   please 
+- limana gitmek
+- ve havalimanlar?
++ havaliman?na
+
+[LINE]
+Speaker113: Tabii     ki.
+~           of~course ~  
+
+[LINE]
+Speaker113: ??|   için mi gidiyorsunuz  ?
+~           work  for  ~  you~are~going  
+
+[LINE]
+Speaker439: Hay?r.
+~           no    
+
+[LINE]
+Speaker439: Toulouse için bir biletim var.
+~           Toulouse for  a   ticket  ~   
+
+[LINE]
+Speaker439: Toulouse için... 2   biletim var. 
+~           Toulouse for     two tickets have 
+
+[LINE]
+Speaker113: Toulouse'a bay?l?r?m !
+~           Toulouse   I~love     
+
+[LINE]
+Speaker439: O    benim balay?|    için.
+~           it's my    honeymoon  for  
+
+[MULTIPLE_CHOICE]
+> Sophie neden Toulouse'a gider?
+- Oraya çal??maya gider.
++ O balay?na gider.
+- Oraya ta??nmaya gider.
+
+[LINE]
+Speaker113: E?iniz       nerededir ?
+~           your~husband where~is   
+
+[LINE]
+Speaker439: Benim kar?m.
+~           my    wife  
+
+[LINE]
+Speaker439: O   benimle gelmek  istemiyor.   
+~           she with~me to~come doesn't~want 
+
+[MULTIPLE_CHOICE]
+> Sophie'nin kar?s?…
++ … onunla Toulouse'a gitmek istemez.
+- … taksinin içinde onunlad?r.
+- … zaten Toulouse'da.
+
+[LINE]
+Speaker439: Bu   güzel bir gün de?il.
+~           this good  a   day not   
+
+[ARRANGE]
+> Duydu?unuzu i?aretleyin
+Speaker113: [(dilerim) (Özür)].       
+~             ~…        Özür   dilerim
+
+[SELECT_PHRASE]
+> Duydu?unuzu i?aretleyin
+Speaker113: [Seni seviyorum!].  
+~            ~…   I           am
++ Seni seviyorum!
+- Geç kald?m!
+- Senden nefret ediyorum!
+
+[LINE]
+Speaker439: Bende      seni seviyorum !
+~           I~love~you too  ~          
+
+[LINE]
+Speaker1186: Toulouse'a    gidiyoruz      !
+~            (to)~Toulouse (we)~are~going  
+
+[LINE]
+Speaker113: ?yi  yolculuklar !
+~           Good trip         
+
+[MULTIPLE_CHOICE]
+> Sophie havaliman?na gidince ne oldu?
+- Kar?s? Marie, onu telefonla arad?.
+- Onun taksi ?öförü onunla tatile gitmeyi kabul etti.
++ Onun kar?s? Marie, Toulouse'a gitmek için zaten oradayd?.
+
+[MATCH]
+> E?le?tirin
+- geliyor <> arrives
+- çok <> very
+- iki <> two
+- bir <> the
+- için <> for
+
