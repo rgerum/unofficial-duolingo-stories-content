@@ -1,0 +1,142 @@
+[DATA]
+fromLanguageName=It's Too Dangerous
+icon=d0d5327cf96850b66bb9db4aa71b64a0050a53b3
+set=6|8
+
+speaker_Speaker298=ru-RU-Wavenet-D
+speaker_Speaker299=ru-RU-Wavenet-E
+speaker_Speaker300=ru-RU-Standard-D
+
+[HEADER]
+> Это  слишком опасно!   
+~ it's too     dangerous 
+$1228/speech_1228_0.mp3;3,6;8,219;7,572
+
+[LINE]
+Speaker3160: Лиза, я не~могу сделать это. 
+~            ~     I can't   do      this 
+$1228/speech_1228_1.mp3;4,0;3,311.4418604651163;3,103.81395348837208;5,155.72093023255815;8,259.5348837209302;4,415.2558139534884
+
+[LINE]
+Speaker1320: Лёша, не    бойся!    
+~            ~     don't be~afraid 
+$1228/speech_1228_2.mp3;4,0;4,307.20000000000005;6,153.5999999999999
+
+[LINE]
+Speaker3160: Нет! Мне~страшно! Это  слишком опасно!   
+~            No   I'm~scared   it's too     dangerous 
+$1228/speech_1228_3.mp3;3,0;5,297.69230769230774;8,238.15384615384608;5,535.8461538461538;8,238.1538461538462;7,476.30769230769215
+
+[MULTIPLE_CHOICE]
+> Lyosha is scared because he thinks the situation is too dangerous.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker3160: Это  плохая  идея.
+~            it's (a)~bad idea 
+$1228/speech_1228_5.mp3;3,0;7,185.80645161290323;5,325.16129032258067
+
+[LINE]
+Speaker3160: Почему ты  не~боишься?   
+~            why    you aren't~afraid 
+$1228/speech_1228_6.mp3;6,0;3,284.6666666666667;3,122;8,121.99999999999994
+
+[ARRANGE]
+> Tap what you hear
+Speaker1320: [(Чего) (бояться?)         (Ведь)      (все)      (делают)     (эт)]о.
+~              what   to~be~afraid~of    after~all   everyone   (is)~doing   it    
+$1228/speech_1228_7.mp3;4,0;8,271.83673469387753;6,489.3061224489796;4,271.8367346938776;7,217.46938775510216;4,380.57142857142844
+
+[LINE]
+Speaker1320: Всё        будет   хорошо.
+~            everything will~be fine   
+$1228/speech_1228_8.mp3;3,0;6,180;7,270
+
+[LINE]
+Speaker1320: Я      здесь. И   я буду    с    тобой.
+~            I~(am) here   and I will~be with you   
+$1228/speech_1228_9.mp3;1,0;6,114.73170731707317;3,401.56097560975604;2,114.7317073170733;5,114.73170731707307;2,286.82926829268285;6,114.73170731707319
+
+[CONTINUATION]
+> What comes next?
+Speaker3160: Спасибо~тебе, Лиза. Ты        [хорошая  подруга].
+~            thank~you     ~     you~(are)  (a)~good friend   
+$1228/speech_1228_10.mp3;7,0;5,264.64864864864865;6,198.48648648648646;4,198.48648648648646;8,99.24324324324323;8,264.64864864864876
+- все     
+~ everyone
+- плохая идея
+~ a      bad 
++ хорошая подруга
+~ a       good   
+
+[LINE]
+Speaker3160: Ладно...
+~            ok      
+$1228/speech_1228_11.mp3;5,0
+
+[LINE]
+Speaker3160: Я      готов!
+~            I~(am) ready 
+$1228/speech_1228_12.mp3;1,0;6,85.56521739130434
+
+[LINE]
+Speaker300: Вы  идёте     на американские~горки или нет?
+~           you are~going on the~roller~coaster or  not 
+$1228/speech_1228_13.mp3;2,0;6,149.33333333333331;3,298.6666666666667;13,149.33333333333326;6,647.1111111111111;4,298.66666666666674;4,199.1111111111111
+
+[LINE]
+Speaker300: Смотрите, сколько  людей  ждут        в~очереди за     вами!
+~           look      how~many people are~waiting in~line   behind you  
+$1228/speech_1228_14.mp3;8,0;9,345.49450549450546;6,276.39560439560444;5,207.2967032967033;2,172.74725274725267;8,69.09890109890114;3,276.3956043956043;5,103.64835164835176
+
+[MULTIPLE_CHOICE]
+> Why is the man asking Lyosha if he's getting on the roller coaster?
+- Because the park will close soon.
+- Because he feels alone and wants some company.
++ Because there are a lot of people waiting behind them.
+
+[LINE]
+Speaker3160: Да,  я    готов!
+~            yes  I~am ready 
+$1228/speech_1228_16.mp3;2,0;3,195.55555555555554;6,97.77777777777777
+
+[LINE]
+Speaker3160: И   моя подруга Лиза идёт              со   мной!
+~            and my  friend  ~    is~going~(coming) with me   
+$1228/speech_1228_17.mp3;1,0;4,104.17021276595744;8,208.3404255319149;5,416.6808510638298;5,260.42553191489355;3,260.42553191489367;5,156.25531914893622
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker3160: Эй, Лиза?! [Почему ты        уходишь]! Что  происходит?  
+~            ~   ~       Why    (are)~you leaving   What is~happening 
+$1228/speech_1228_18.mp3;2,0;6,233.6;9,408.79999999999995;3,408.80000000000007;8,175.19999999999982;5,525.6000000000001;11,233.5999999999999
++ Почему ты уходишь
+- Почему ты приходишь
+- Зачем ты уходишь
+
+[LINE]
+Speaker1320: Извини,            Лёша, но  я боюсь     кататься  на   американских~горках!
+~            excuse~me~(sorry)  ~     but I am~afraid of~riding (on) roller~coasters     
+$1228/speech_1228_19.mp3;6,0;6,450.66666666666663;4,338;2,169;6,112.66666666666663;9,338;3,507;13,168.99999999999977;7,732.3333333333335
+
+[LINE]
+Speaker1320: Это  слишком опасно!   
+~            it's too     dangerous 
+$1228/speech_1228_20.mp3;3,0;8,186.35294117647058;7,372.7058823529412
+
+[MULTIPLE_CHOICE]
+> Why did Lisa run away?
+- Because the roller coaster was closed.
++ Because she was too scared to ride the roller coaster.
+- Because she was going to miss her train.
+
+[MATCH]
+> Tap the pairs
+- Что происходит? <> What is happening? / What is going on?
+- ждут <> (they) are waiting
+- в очереди <> in line
+- Не бойся! <> Don't be afraid!
+- Смотрите! <> Look!
+- опасно <> dangerous
+
