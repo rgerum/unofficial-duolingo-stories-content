@@ -1,0 +1,178 @@
+[DATA]
+fromLanguageName=Ready!
+icon=8bc8ee88f110f544dee2d14bdd67af1e645989a9
+set=6|3
+
+speaker_Speaker251=Giorgio
+speaker_Speaker250=Carla
+
+[HEADER]
+> Pronti!
+~ ready  
+$1150/speech_1150_0.mp3;6,6
+
+[LINE]
+Speaker6: Sei     pronta per la~nostra vacanza? 
+~         are~you ready  for our       vacation 
+$1150/speech_1150_1.mp3;3,6;7,292;4,377;3,196;7,103;8,312
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker856: [Non     lo   so],          credo di sì.
+~            I~don't know I~think       so    ~  ~  
+$1150/speech_1150_2.mp3;3,6;3,232;3,118;11,466;3,332;3,114
+- No o sì
++ Non lo so
+- Non ce l'ho
+
+[LINE]
+Speaker856: Ma  sono molto nervosa.
+~           but I~am very  nervous 
+$1150/speech_1150_3.mp3;2,6;5,168;6,319;8,399
+
+[LINE]
+Speaker856: Dobbiamo   essere all'aeroporto  fra due ore!  
+~           we~have~to be     at~the~airport in  two hours 
+$1150/speech_1150_4.mp3;8,6;7,488;14,341;4,183;4,714;4,165;1,311
+
+[LINE]
+Speaker856: Non     voglio dimenticare niente.  
+~           I~don't want   to~forget   anything 
+$1150/speech_1150_5.mp3;3,6;7,216;12,324;7,778
+
+[MULTIPLE_CHOICE]
+> What is she nervous about?
+- Spending too much money.
++ Forgetting something for their vacation.
+- Getting on a plane.
+
+[LINE]
+Speaker6: Andrà~tutto~bene.            
+~         everything~is~going~to~be~OK 
+$1150/speech_1150_7.mp3;5,6;6,305;5,295
+
+[LINE]
+Speaker856: Molto bene.
+~           very  good 
+$1150/speech_1150_8.mp3;5,6;5,448
+
+[LINE]
+Speaker856: Abbiamo i~nostri vestiti…
+~           we~have our      clothes…
+$1150/speech_1150_9.mp3;7,6;2,451;7,50;9,426
+
+[LINE]
+Speaker856: …| i~nostri spazzolini~da~denti…
+~           …  our      toothbrushes…       
+$1150/speech_1150_10.mp3;1,6;2,303;7,59;11,406;3,790;7,117
+
+[LINE]
+Speaker856: …| e   i~nostri libri.
+~           …  and our      books 
+$1150/speech_1150_11.mp3;1,6;2,300;2,40;7,52;6,451
+
+[LINE]
+Speaker6: E   il~tuo portafoglio?
+~         and your   wallet      
+$1150/speech_1150_12.mp3;1,6;3,108;4,114;12,166
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker6: [Le        tue chiavi]?
+~          your~keys ~   ~       
+$1150/speech_1150_13.mp3;2,6;4,141;7,221
+- Le curavi
++ Le tue chiavi
+- Le tue navi
+
+[LINE]
+Speaker6: Il~tuo telefono?
+~         your   phone    
+$1150/speech_1150_14.mp3;2,6;4,131;9,185
+
+[LINE]
+Speaker856: Sì,   sì   e     sì. 
+~           yes   yes  and   yes 
+$1150/speech_1150_15.mp3;2,6;5,550;3,332;5,55
+
+[LINE]
+Speaker6: Molto bene, ora abbiamo tutto!     
+~         very  good  now we~have everything 
+$1150/speech_1150_16.mp3;5,6;5,323;5,575;8,300;6,313
+
+[ARRANGE]
+> Tap what you hear
+Speaker6: [(Ora) (possiamo) (goderci) (la~nostra) (vacanza)].. 
+~           now   we~can     enjoy     our         vacation    
+$1150/speech_1150_17.mp3;3,6;9,195;8,428;3,470;7,85;8,319
+
+[LINE]
+Speaker856: Va~bene. Saliamo~in~macchina.
+~           OK       let's~go~to~the~car 
+$1150/speech_1150_18.mp3;2,6;5,175;9,789;3,599;9,185
+
+[LINE]
+Speaker856: Sono pronta!
+~           I~am ready  
+$1150/speech_1150_19.mp3;4,6;7,281
+
+[CONTINUATION]
+> What comes next?
+> Marianna sta guidando la  [macchina].
+~ ~        is  driving  the  car       
+$1150/speech_1150_20.mp3;8,6;4,678;9,288;3,538;9,87
++ macchina
+~ car     
+- telefono
+~ phone   
+- libro
+~ book 
+
+[LINE]
+Speaker856: Ora mi~sento meglio, Giuliano.
+~           now I~feel   better  ~        
+$1150/speech_1150_21.mp3;3,6;3,264;6,116;7,440;10,688
+
+[LINE]
+Speaker856: Abbiamo tutto~ciò  che  ci~serve per la~nostra vacanza. 
+~           we~have everything that we~need  for our       vacation 
+$1150/speech_1150_22.mp3;7,6;6,422;4,376;4,196;3,161;6,160;4,455;3,186;7,116;8,387
+
+[LINE]
+Speaker856: E   tu,  Giuliano, sei pronto?
+~           and you  ~         are ready  
+$1150/speech_1150_23.mp3;1,6;3,95;10,605;5,833;7,369
+
+[LINE]
+Speaker856: Giuliano?
+$1150/speech_1150_24.mp3;8,6
+
+[LINE]
+> Marianna guarda e   Giuliano non    è  nella macchina.
+~ ~        looks  and ~        is~not in the   car      
+$1150/speech_1150_25.mp3;8,6;7,671;2,412;9,70;4,605;2,175;6,99;9,252
+
+[LINE]
+Speaker856: Credo   di~stare~dimenticando qualcosa… 
+~           I~think I~am~forgetting       something…
+$1150/speech_1150_26.mp3;5,6;3,328;6,90;13,389;10,807
+
+[LINE]
+Speaker856: …| mio marito! 
+~           …  my  husband 
+$1150/speech_1150_27.mp3;1,6;4,329;7,199
+
+[MULTIPLE_CHOICE]
+> What did Marianna just realize?
+- She never had a husband!
+- She forgot her toothbrush at home!
++ Her husband never got in the car with her!
+
+[MATCH]
+> Tap the pairs
+- mi sento meglio <> I feel better
+- macchina <> car
+- Le tue chiavi <> your keys
+- alla <> to the
+- pronti <> we're ready
+
