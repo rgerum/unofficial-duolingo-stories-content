@@ -1,0 +1,151 @@
+[DATA]
+fromLanguageName=Thanks, Mom
+icon=bf40ef982a083d2f6c8dbc8896888db65d7f1488
+set=9|2
+
+speaker_Speaker418=it-IT-Wavenet-A
+speaker_Speaker511=it-IT-Wavenet-B
+
+[HEADER]
+> Grazie,    mamma!
+~ thank~you  mom   
+$1088/speech_1088_0.mp3;6,6;7,875
+
+[LINE]
+> Zari sta~aprendo un regalo   che   le~ha~dato~sua~mamma.
+~ ~    is~opening  a  present  that  her~mom~gave~her     
+$1088/speech_1088_1.mp3;4,6;4,304;8,250;3,531;7,80;5,469;4,164;3,197;5,113;4,213;6,209
+
+[LINE]
+Speaker418: Cos'è?     
+~           what~is~it 
+$1088/speech_1088_2.mp3;5,6
+
+[LINE]
+Speaker511: È      una sorpresa! Aprilo. 
+~           it's   a   surprise  open~it 
+$1088/speech_1088_3.mp3;1,6;6,101;9,220;8,1209
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker418: È      il   maglione  che   abbiamo~visto  ieri           [al     negozio]! Grazie,      mamma!
+~           it's   the  sweater   that  we~saw         yesterday       at~the store     thank~you    mom   
+$1088/speech_1088_4.mp3;1,6;5,123;10,90;5,447;9,123;6,400;6,354;8,425;8,101;8,1150;9,874
+- in questo stormo
+- è la tenda
++ al negozio
+
+[LINE]
+Speaker511: So         che   ti~piaceva       molto.
+~           I~know     that  you~liked~it     a~lot 
+$1088/speech_1088_5.mp3;2,6;8,273;4,136;8,134;10,477
+
+[LINE]
+Speaker418: È      molto  bello!  L'adoro!  
+~           it's   very   pretty  I~love~it 
+$1088/speech_1088_6.mp3;1,6;8,86;7,423;9,900
+
+[ARRANGE]
+> Tap what you hear
+Speaker511: [(Voglio solo) (il  meglio) (per) (mia) (figlia)]!  
+~             I~want just   the best     for   my    daughter   
+$1088/speech_1088_7.mp3;6,6;5,391;3,376;7,92;4,369;4,199;7,185
+
+[LINE]
+Speaker511: E     il~blu ti~sta~molto~bene.  
+~           and   blue   suits~you~very~well 
+$1088/speech_1088_8.mp3;1,6;5,98;4,167;3,219;4,142;6,215;5,315
+
+[MULTIPLE_CHOICE]
+> What does Zari's mom mean?
++ Blue suits Zari.
+- She hates blue clothes.
+- She wants to paint her room blue.
+
+[LINE]
+Speaker418: È      incredibile! Me~lo~metterò           tutti~i~giorni. Però…
+~           it's   amazing      I'm~going~to~wear~it    every~day       but… 
+$1088/speech_1088_10.mp3;1,6;14,149;4,1205;3,201;8,113;9,429;2,363;7,39;7,1020
+
+[LINE]
+Speaker511: Che~c'è?        
+~           what's~going~on 
+$1088/speech_1088_11.mp3;3,6;4,111
+
+[LINE]
+Speaker418: Sei       sicura? Ricordo      che   era       molto  caro.     
+~           are~you   sure    I~remember   that  it~was    very   expensive 
+$1088/speech_1088_12.mp3;3,6;9,308;9,1009;6,635;5,147;9,206;6,365
+
+[LINE]
+Speaker511: Non~devi~preoccuparti.   Era    in~offerta.
+~           you~don't~have~to~worry  it~was on~sale    
+$1088/speech_1088_13.mp3;3,6;5,293;13,231;5,1393;3,249;8,133
+
+[LINE]
+Speaker418: Ah, grandioso!
+~           Ah  great     
+$1088/speech_1088_14.mp3;2,6;11,472
+
+[LINE]
+Speaker511: Era    molto  economico, così ne~ho~comprati   quattro!
+~           it~was very   cheap      so   I~bought         four    
+$1088/speech_1088_15.mp3;3,6;6,194;11,310;6,978;3,282;3,147;9,125;10,633
+
+[CONTINUATION]
+> What comes next?
+Speaker418: Quattro [maglioni]?
+~           four     sweaters  
+$1088/speech_1088_16.mp3;7,6;9,446
+- sorpresa
+~ surprise
++ maglioni
+~ sweaters
+- molto  caro     
+~ very   expensive
+
+[LINE]
+> La~mamma~di~Zari mette altri~tre  maglioni~blu  sul     tavolo.
+~ Zari's~mom       puts  three~more blue~sweaters on~the  table  
+$1088/speech_1088_17.mp3;2,6;6,171;3,388;5,123;6,386;6,335;4,420;9,220;4,464;4,272;8,231
+
+[LINE]
+Speaker511: Guarda! Questo è  mio,   questo è  per tuo~fratello,   e     questo è  per tuo~padre!  
+~           look    this   is mine   this   is for your~brother    and   this   is for your~father 
+
+[LINE]
+Speaker511: Non~ti~sembra~grandioso?
+~           isn't~it~great          
+
+[LINE]
+Speaker418: Ah…
+
+[LINE]
+Speaker511: Domani     possiamo~metterci~tutti i~nostri maglioni~nuovi! Sono così emozionata!
+~           tomorrow   we~can~all~wear         our      new~sweaters    I~am so   excited    
+
+[LINE]
+Speaker418: Ah…
+
+[LINE]
+Speaker511: Che~c'è?        
+~           what's~going~on 
+
+[LINE]
+Speaker418: Credo      che   questo~maglione~già~non~mi~piaccia~più.
+~           I~think    that  I~don't~like~this~sweater~anymore      
+
+[MULTIPLE_CHOICE]
+> Zari's mom bought the same sweater for every family member and now…
+- … Zari wants to buy a gift for her mom.
+- … Zari wants to take a family picture.
++ … Zari doesn't like that sweater anymore.
+
+[MATCH]
+> Tap the pairs
+- era <> it was
+- al negozio <> at the store
+- nostro <> our
+- Ricordo <> I remember
+- Voglio solo <> I just want
+
