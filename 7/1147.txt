@@ -1,0 +1,144 @@
+[DATA]
+fromLanguageName=I Need Some Money!
+icon=d52beeb7535f755c3ac9c0475dfc3c87a8f1fa07
+set=1|9
+
+icon_Chengxi=https://stories-cdn.duolingo.com/image/8dedb551515218979bffa2ba590906d0ed1ee462.svg
+speaker_Chengxi=cmn-TW-Wavenet-C
+speaker_Mom=cmn-TW-Wavenet-A
+
+[HEADER]
+> 我|需要|一些|钱。        
+~ I  need  some  money  
+$1147/speech_1147_0.mp3;1,6;3,150;3,354;2,389
+
+[LINE]
+SpeakerChengxi: 妈妈|，我|需要|一些|钱。         
+~               mom    I  need  some  money  
+$1147/speech_1147_1.mp3;2,0;2,209.03225806451613;2,139.3548387096774;3,139.35483870967744;3,209.0322580645161;2,209.0322580645162;2,139.35483870967744
+
+[LINE]
+Speaker988: 怎么了？              
+~           what's~the~matter  
+$1147/speech_1147_2.mp3;3,0;2,201.60000000000002
+
+[LINE]
+SpeakerChengxi: 我|想|去|看|电影。            
+~               I  want  to~go  see  movie  
+$1147/speech_1147_3.mp3;1,0;2,133.33333333333331;2,133.33333333333331;2,133.33333333333337;3,133.33333333333326;2,200
+
+[MULTIPLE_CHOICE]
+> Chengxi wants to watch a movie.
+- No, that’s not true.
++ Yes, that’s true.
+
+[LINE]
+Speaker988: 你的|考试|准备好了|吗？                      
+~           your  exam  prepared  question~marker  
+$1147/speech_1147_5.mp3;2,0;3,245.79310344827587;5,245.79310344827587;2,409.655172413793;2,163.86206896551732
+
+[LINE]
+SpeakerChengxi: 还|没有。     
+~               still  not  
+$1147/speech_1147_6.mp3;1,0;3,107.42857142857142;2,161.14285714285714
+
+[SELECT_PHRASE]
+> Choose the best answer:
+Speaker988: 你|给     [小狗]  买|食物|了吗？                  
+~           you  for   dog   buy  food    question~marker  
+$1147/speech_1147_7.mp3;1,0;2,136.94117647058823;4,205.41176470588238;3,273.88235294117646;3,136.9411764705883;2,205.4117647058822;2,136.9411764705883;2,136.9411764705883
+- 小朋友
++ 小狗
+- 小猫
+
+[LINE]
+SpeakerChengxi: 没有。
+~               no  
+$1147/speech_1147_8.mp3;2,0;2,151.57894736842104
+
+[LINE]
+SpeakerChengxi: 妈妈|，请|让|我|去|看|电影。                  
+~               mom    please  let  me  go  to~see  movie  
+$1147/speech_1147_9.mp3;2,0;2,216;2,144;2,144;2,144;2,144;2,143.9999999999999;3,144.0000000000001;2,216
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "purse":
+> 成希的|妈妈|(从|)(+钱包|)里|(拿出|)一些|(钱)。                              
+~ Chengxi's   mo  ther     from   pu rse   in  takes~out  some  money  
+$1147/speech_1147_10.mp3;3,6;3,276;2,205;3,117;2,492;3,282;3,481;2,161;2,366
+
+[LINE]
+Speaker988: 拿去|吧！       
+~           take~(it) ~  
+$1147/speech_1147_11.mp3;2,0;3,158.4
+
+[LINE]
+SpeakerChengxi: 妈妈|，我|需要|更多|钱。。。         
+~               mom    I  need  more  money    
+$1147/speech_1147_12.mp3;2,0;2,205.0909090909091;2,136.72727272727272;3,136.72727272727275;3,205.09090909090907;2,205.090909090909;4,136.72727272727286
+
+[LINE]
+Speaker988: 这些|钱|足够|坐地铁|去|图书馆。                            
+~           this  money  enough  to~take~metro  to~go  library  
+$1147/speech_1147_13.mp3;2,0;2,290.11764705882354;3,193.41176470588238;4,290.1176470588235;2,386.82352941176475;4,193.4117647058822;2,386.82352941176487
+
+[MULTIPLE_CHOICE]
+> What does Chengxi's mother mean?
+- She wants to go to the library.
++ This money is enough for a metro ticket to the library.
+- This money is enough to go to the cinema.
+
+[LINE]
+SpeakerChengxi: 妈妈|，但是|这部|电影|很|重要。                 
+~               mom    but  this  movie  very  important  
+$1147/speech_1147_15.mp3;2,0;2,238.62857142857143;3,159.08571428571423;3,238.6285714285715;3,238.62857142857138;2,238.6285714285716;3,159.08571428571418;2,238.62857142857138
+
+[LINE]
+Speaker988: 噢|，好吧！ 
+~           oh    ok  
+$1147/speech_1147_16.mp3;1,0;2,125.21739130434783;3,125.21739130434783;2,187.82608695652178
+
+[LINE]
+Speaker988: 这些|钱|足够|给|小狗|买|食物。                 
+~           this  money  enough  for  dog  buy  food  
+$1147/speech_1147_17.mp3;2,0;2,252.00000000000003;3,167.99999999999997;2,252;3,168;2,252;3,168;2,252
+
+[LINE]
+SpeakerChengxi: 谢谢！       
+~               thank~you  
+$1147/speech_1147_18.mp3;2,0;2,170.52631578947367
+
+[LINE]
+SpeakerChengxi: 嗯|，妈妈|我|可以|借用|你的|车|吗？                         
+~               Um    mom  I  can  borrow  your  car  question~marker  
+$1147/speech_1147_19.mp3;1,0;2,159.1578947368421;3,159.1578947368421;2,238.73684210526307;3,159.1578947368422;3,238.73684210526312;3,238.73684210526324;2,238.73684210526312;2,159.15789473684208;2,159.15789473684208
+
+[LINE]
+Speaker988: 不可以|，我|要|用|车。              
+~           can~not    I  need  to~use  car  
+$1147/speech_1147_20.mp3;3,0;2,252.79999999999998;2,126.40000000000006;2,126.39999999999992;2,126.40000000000003;2,126.40000000000009;2,126.39999999999998
+
+[LINE]
+SpeakerChengxi: 你|要|去|哪里？            
+~               you  need  to~go  where  
+$1147/speech_1147_21.mp3;1,0;2,105.60000000000001;2,105.60000000000001;3,105.6;2,158.39999999999998
+
+[LINE]
+Speaker988: 我|要去|电影院！              
+~           I  am~going~(to)  cinema  
+$1147/speech_1147_22.mp3;1,0;3,122.88;4,184.32000000000005;2,245.76
+
+[MULTIPLE_CHOICE]
+> Why can't Chengxi use his mom's car?
+- It's being repaired right now.
+- She's using it to go to the library.
++ She's using it to go to the cinema.
+
+[MATCH]
+> Tap the pairs!
+- 拿出 <> take out
+- 钱包 <> purse
+- 从 <> from
+- 可以 <> can
+- 电影院 <> cinema
+
