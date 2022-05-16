@@ -1,0 +1,135 @@
+[DATA]
+fromLanguageName=Uma coisa
+icon=717bd84875f83c678f64f124937a278061e0e778
+set=1|3
+
+icon_Rafael=https://stories-cdn.duolingo.com/image/8dedb551515218979bffa2ba590906d0ed1ee462.svg
+speaker_Bianca=Lucia
+speaker_Rafael=Enrique
+
+[HEADER]
+> Una cosa 
+~ uma coisa
+$946/speech_946_0.mp3;3,6;5,276
+
+[LINE]
+> Bianca está en casa, con  su    hermano, Rafael.
+~ ~      ~    em ~     com  o~seu irmão    ~      
+$946/speech_946_1.mp3;6,6;5,551;3,326;5,158;5,662;4,222;8,154;8,693
+
+[LINE]
+Speaker856: ¡Ay, no!  Necesito pan    para mi    sándwich. 
+~            Oh  não  Preciso  de~pão para o~meu sanduíche 
+$946/speech_946_2.mp3;0,6;3,590;4,670;10,593;4,219;5,213;3,122
+
+[SELECT_PHRASE]
+> Selecione a palavra que falta
+SpeakerRafael: ¿Vas      al [supermercado]?
+~               Você~vai ao  ~             
+$946/speech_946_3.mp3;0,6;4,241;3,83
+- superado
++ supermercado
+- super marcado
+
+[LINE]
+Speaker856: Sí.   Quiero comer  un sándwich  de queso. 
+~           Sim   Quero  comer  um sanduíche de queijo 
+$946/speech_946_4.mp3;2,6;9,775;6,223;4,292;9,135;3,521;6,120
+
+[LINE]
+SpeakerRafael: ¡Ah, también necesito una    cosa   del supermercado!
+~               Ah  também  preciso  de~uma coisa  do  supermercado 
+$946/speech_946_5.mp3;0,6;3,585;9,302;9,500;4,196;5,295;5,136
+
+[MULTIPLE_CHOICE]
+> Rafael...
+- ... quer ir ao supermercado com Bianca.
++ ... também precisa de uma coisa do supermercado.
+- ... está fazendo um sanduíche de queijo também
+
+[LINE]
+Speaker856: ¿Qué?
+~            Quê 
+$946/speech_946_7.mp3;0,6
+
+[LINE]
+SpeakerRafael: Un  tomate, por~favor.
+~              Um  tomate  por~favor 
+$946/speech_946_8.mp3;2,6;8,139;5,706;6,127
+
+[ARRANGE]
+> Toque no que escutar
+SpeakerRafael: [(Es) (para) (mi)      (ensalada)].
+~                é    para   a~minha   salada     
+$946/speech_946_9.mp3;2,6;5,129;3,206;9,162
+
+[LINE]
+Speaker856: Está bien.
+~           está bem  
+$946/speech_946_10.mp3;4,6;5,296
+
+[LINE]
+SpeakerRafael: ¡Gracias! 
+~               Obrigado 
+$946/speech_946_11.mp3;0,6
+
+[LINE]
+SpeakerRafael: ¡Ah! Y también quiero tres  manzanas...
+~               Ah  E também  quero  três  maçãs      
+$946/speech_946_12.mp3;0,6;3,599;3,60;8,326;7,241;5,247
+
+[LINE]
+Speaker856: Está~bien.
+~           está~bem  
+$946/speech_946_13.mp3;4,6;5,296
+
+[LINE]
+SpeakerRafael: ...y jugo de naranja.
+~                 e suco de laranja 
+$946/speech_946_14.mp3;0,6;4,62;5,296;3,112
+
+[LINE]
+Speaker856: Qué...
+~           quê   
+$946/speech_946_15.mp3;3,6
+
+[LINE]
+SpeakerRafael: ...y leche, por~favor.
+~                 e leite  por~favor 
+$946/speech_946_16.mp3;0,6;4,78;6,612;5,126
+
+[POINT_TO_PHRASE]
+> Toque na opção que significa "irmãozinho."
+Speaker856: (Mmm)...  (tengo)  una (idea),  (+hermanito). 
+~            ~          tenho   uma  ideia     irmãozinho  
+$946/speech_946_17.mp3;3,6;11,1248;5,271;5,296;11,650
+
+[LINE]
+Speaker856: Aquí está el  dinero.  
+~           Aqui está o   dinheiro 
+$946/speech_946_18.mp3;4,6;5,353;3,328;8,124
+
+[LINE]
+SpeakerRafael: |¿ Qué?  
+~               O O~quê 
+$946/speech_946_19.mp3;0,6
+
+[LINE]
+Speaker856: Quiero   una cosa   del supermercado: pan.
+~           Eu~quero uma coisa  do  supermercado  pão 
+$946/speech_946_20.mp3;6,6;4,244;5,289;5,300;13,171;5,1112
+
+[MULTIPLE_CHOICE]
+> Bianca decidiu...
++ ... dar dinheiro ao Rafael para comprar a única coisa que ela queria: pão.
+- ... comprar três maçãs do supermercado.
+- ... fazer um sanduíche de queijo para o Rafael.
+
+[MATCH]
+> Toque nos pares
+- Es <> é
+- Sí <> sim
+- manzanas <> maçãs
+- pan <> pão
+- Quiero <> quero
+
