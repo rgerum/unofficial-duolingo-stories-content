@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=Happy Birthday
+icon=af44dc77489e379a0652ce2e7b42bc96e3839833
+set=3|8
+
+speaker_Merel=Lotte
+speaker_Thijn=Ruben
+
+[HEADER]
+> Fijne verjaardag
+$1242/speech_1242_0.mp3;5,6;11,331
+
+[LINE]
+> Fijne verjaardag
+~ Happy birthday  
+$1242/speech_1242_1.mp3;5,6;11,331
+
+[LINE]
+SpeakerMerel: Gefeliciteerd!  
+~             Congratulations 
+$1242/speech_1242_2.mp3;13,6
+
+[SELECT_PHRASE]
+> Select the missing phrase
+SpeakerThijn: Ik [ben niet] jarig.          
+~             I   am  not   birthday-having 
+$1242/speech_1242_3.mp3;2,6;4,93;5,185;6,163
+- ben geen
++ ben niet
+
+[LINE]
+SpeakerMerel: Thijn, vandaag ben je  wel    jarig.          
+~             ~      today   are you indeed birthday~having 
+$1242/speech_1242_4.mp3;5,13;9,514;4,508;3,211;4,117;6,197
+
+[LINE]
+SpeakerThijn: Als ik niet jarig           ben...
+~             If  I  not  birthday~having am    
+$1242/speech_1242_5.mp3;3,6;3,155;5,100;6,139;4,311
+
+[LINE]
+SpeakerThijn: ...word   ik geen dertig jaar.       
+~                become I  no   thirty years~(old) 
+$1242/speech_1242_6.mp3;0,6;7,211;3,100;5,229;7,296
+
+[MULTIPLE_CHOICE]
+> What does Thijn mean?
++ If he doesn’t celebrate his birthday, he won’t turn 30.
+- If he celebrated for 30 years, he’ll get cake.
+- If he waits 30 days, he’ll have his birthday.
+
+[LINE]
+SpeakerThijn: Simpel.
+~             Easy   
+$1242/speech_1242_8.mp3;6,6
+
+[LINE]
+SpeakerMerel: Ik~snap~het. Als je  niet jarig           bent...
+~             I~get~it     If  you not  birthday~having are    
+$1242/speech_1242_9.mp3;2,6;5,134;4,294;5,692;3,191;5,103;6,195;5,428
+
+[POINT_TO_PHRASE]
+> Click the word that means 'present'.
+SpeakerMerel: ... (krijg) je  geen (+cadeau)  en  geen (chocoladetaart).
+~                  get    you no     present  and no    birthday~cake   
+$1242/speech_1242_10.mp3;0,6;9,242;3,104;5,292;7,425;3,188;5,288
+
+[LINE]
+SpeakerThijn: Wat~voor cadeau? 
+~             What     present 
+$1242/speech_1242_11.mp3;3,6;5,192;7,132
+
+[LINE]
+SpeakerMerel: Een nieuwe computer.
+~             A   new    computer 
+$1242/speech_1242_12.mp3;3,6;7,152;9,292
+
+[LINE]
+SpeakerMerel: Prima, vanaf~nu    is het mijn nieuwe computer.
+~             Great  from~now~on is it  my   new    computer 
+$1242/speech_1242_13.mp3;5,6;7,681;3,421;3,207;4,235;5,162;7,224;9,305
+
+[LINE]
+SpeakerMerel: Want    jij bent niet jarig,           of wel?    
+~             Because you are  not  birthday~having  or are~you 
+$1242/speech_1242_14.mp3;4,6;4,234;5,258;5,287;6,225;4,693;4,148
+
+[SELECT_PHRASE]
+> Select the missing phrase.
+SpeakerMerel: En  de  [chocoladetaart] is ook  voor mij.
+~             And the  chocolate~cake  is also for  me  
+$1242/speech_1242_15.mp3;2,6;3,153;15,78;3,1061;4,190;5,262;4,220
+- cadeau
+- dertig jaar
++ chocoladetaart
+
+[LINE]
+SpeakerMerel: Jij houdt~niet~van chocolade, hè? 
+~             You don't~like     chocolate  huh 
+$1242/speech_1242_16.mp3;3,6;6,219;5,315;4,211;10,213;4,984
+
+[LINE]
+SpeakerThijn: Merel!
+$1242/speech_1242_17.mp3;5,6
+
+[LINE]
+SpeakerMerel: Ja? 
+~             Yes 
+$1242/speech_1242_18.mp3;2,6
+
+[LINE]
+SpeakerThijn: Ik ben inderdaad vandaag jarig.          
+~             I  am  indeed    today   birthday~having 
+$1242/speech_1242_19.mp3;2,6;4,100;10,175;8,399;6,377
+
+[LINE]
+SpeakerThijn: Maar ik wil  graag  negenentwintig kaarsen op de  taart!
+~             But  I  want please twentynine     candles on the cake  
+$1242/speech_1242_20.mp3;4,6;3,277;4,115;6,173;15,307;8,759;3,445;3,111;6,80
+
+[MULTIPLE_CHOICE]
+> Thijn decides to * .
++ celebrate his birthday, but to only have 29 candles on the cake
+- buy a chocolate cake for Merel because he doesn’t like it
+- play with his new computer and eat chocolate cake
+
+[MATCH]
+> Tap the pairs.
+- candles <> kaarsen
+- don't like <> houdt niet van
+- no (+ noun) <> geen
+- new <> nieuwe
+- thirty <> dertig
+
