@@ -1,0 +1,153 @@
+[DATA]
+fromLanguageName=May I Help You?
+icon=ec74184ed69da39d62ba574fa9d615f7d0c53da1
+set=3|3
+
+speaker_Lena=Tatyana
+speaker_Maxim=Maxim
+
+[HEADER]
+> Я~могу Вам~помочь?
+~ May~I  help~you   
+$909/speech_909_0.mp3;1,6;5,228;4,347;7,221
+
+[LINE]
+> Лена на~улице.        
+~ ~    is~in~the~street 
+$909/speech_909_1.mp3;4,6;3,333;6,101
+
+[POINT_TO_PHRASE]
+> Click on the option meaning “sees.”
+> (Она) (+видит) (мужчину) перед       машиной.
+~  She    sees    a~man    in~front~of a~car   
+$909/speech_909_2.mp3;3,6;6,270;8,409;6,560;8,266
+
+[LINE]
+> Он взволнован. 
+~ He is~stressed 
+$909/speech_909_3.mp3;2,6;11,227
+
+[LINE]
+Speaker101: Здравствуйте! Я~могу Вам~помочь?
+~           Hello         May~I  help~you   
+$909/speech_909_4.mp3;12,6;3,1282;5,169;4,338;7,180
+
+[LINE]
+Speaker127: У меня проблема  с    машиной.
+~           I have a~problem with the~car 
+$909/speech_909_5.mp3;1,6;5,86;9,298;2,534;8,140
+
+[LINE]
+Speaker127: Могу~я~воспользоваться~Вашим~телефоном, пожалуйста?
+~           May~I~use~your~phone                    please     
+$909/speech_909_6.mp3;4,6;2,397;16,177;6,890;10,399;12,974
+
+[LINE]
+> Лена даёт  свой телефон  Максиму.
+~ ~    gives her  phone~to ~       
+$909/speech_909_7.mp3;4,6;5,309;5,417;8,342;8,617
+
+[MULTIPLE_CHOICE]
+> Lena won't give Maxim her phone.
+- Yes, that's true.
++ No, that's not right.
+
+[LINE]
+Speaker101: Да,  но... 
+~           Yes  but   
+$909/speech_909_9.mp3;2,6;4,555
+
+[LINE]
+Speaker127: Извините. 
+~           Excuse~me 
+$909/speech_909_10.mp3;8,6
+
+[LINE]
+Speaker127: Здравствуйте! Это     автосервис?          
+~           Hello         Is~this the~auto~repair~shop 
+$909/speech_909_11.mp3;12,6;5,1382;11,234
+
+[MULTIPLE_CHOICE]
+> Maxim is calling...
+- … his wife because he is late for dinner.
+- … his friend because he needs a ride home.
++ … an auto repair shop because he has a car problem.
+
+[LINE]
+Speaker127: У~меня проблема. 
+~           I~have a~problem 
+$909/speech_909_13.mp3;1,9;5,67;9,262
+
+[LINE]
+Speaker127: Хмм...
+$909/speech_909_14.mp3;3,6
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker127: Нет, я не    знаю [где   я].   
+~           No   I don't know  where I~am  
+$909/speech_909_15.mp3;3,6;3,658;3,239;5,129;4,431;2,233
+- где ваш
+- где твой
++ где я
+
+[LINE]
+Speaker127: Ээ…| Извините. 
+~           ~…   Excuse~me 
+$909/speech_909_16.mp3;3,6;9,707
+
+[LINE]
+Speaker101: Да? 
+~           Yes 
+$909/speech_909_17.mp3;2,6
+
+[LINE]
+Speaker127: Где   мы?    
+~           Where are~we 
+$909/speech_909_18.mp3;3,6;3,287
+
+[MULTIPLE_CHOICE]
+> Why did Maxim ask Lena that question?
+- He doesn't know how to use her phone.
+- He doesn't know the number for the auto repair shop.
++ He doesn't know where he is.
+
+[LINE]
+Speaker101: Недалеко от~автосервиса.           
+~           Not~far  from~the~auto~repair~shop 
+$909/speech_909_20.mp3;8,6;3,593;12,125
+
+[LINE]
+Speaker127: Что? 
+~           What 
+$909/speech_909_21.mp3;3,6
+
+[LINE]
+Speaker101: Я работаю в~автомастерской.       
+~           I work    at~the~auto~repair~shop 
+$909/speech_909_22.mp3;1,6;8,146;2,474;15,54
+
+[LINE]
+Speaker101: Я    автомеханик!
+~           I~am a~mechanic  
+$909/speech_909_23.mp3;1,6;12,173
+
+[LINE]
+Speaker101: Так, я~могу Вам~помочь?
+~           So   May~I  help~you   
+$909/speech_909_24.mp3;3,6;3,536;5,168;4,339;7,180
+
+[MULTIPLE_CHOICE]
+> It turns out that Lena...
++ ... works at the auto repair shop as a mechanic.
+- ... doesn't know where they are.
+- ... needs help to buy a new phone.
+
+[MATCH]
+> Tap the pairs
+- Вашим <> your
+- улица <> street
+- на <> at the
+- работаю <> work
+- у меня (есть) <> I have
+
