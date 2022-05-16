@@ -1,0 +1,148 @@
+[DATA]
+fromLanguageName=Grandma's New Cellphone
+icon=b719cbfd3a627fae092fae93dbf83c8c3cb7fd18
+set=5|5
+
+speaker_Narrator=ru-RU-Wavenet-A
+speaker_Speaker360=Tatyana
+speaker_Speaker359=ru-RU-Wavenet-B
+
+[HEADER]
+> Новый мобильный~телефон для~бабушки
+~ new   mobile~phone      for~grandma
+$1178/speech_1178_0.mp3;5,0;10,316.8;8,528;4,422.4;8,211.20000000000005
+
+[LINE]
+Speaker3160: Добрый~день, бабушка! У~меня~есть кое-что   для тебя!
+~            good~day     grandma  I~have      something for you  
+$1178/speech_1178_1.mp3;6,0;5,371.6363636363636;9,318.5454545454545;3,477.81818181818187;5,106.18181818181824;5,265.4545454545455;8,265.45454545454527;4,424.727272727273;5,212.3636363636365
+
+[LINE]
+Speaker3233: Для меня?
+~            for me   
+$1178/speech_1178_2.mp3;3,6;5,223
+
+[LINE]
+Speaker3160: Да!  Новый мобильник!             
+~            yes  a~new cellphone~(slang~word) 
+$1178/speech_1178_3.mp3;2,0;7,194.74285714285713;10,292.1142857142857
+
+[MULTIPLE_CHOICE]
+> The man bought a new cell phone for his grandma.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker3233: Но  у~меня         уже     есть мобильный~телефон.
+~            but (+есть)~I~have already ~    a~mobile~phone    
+$1178/speech_1178_5.mp3;2,6;2,179;5,63;4,276;5,225;10,396;8,438
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "better."
+Speaker3160: (Этот) (телефон) (+лучше)       (твоего).      
+~             this   phone      (is)~better   (than)~yours  
+$1178/speech_1178_6.mp3;4,0;8,210.73170731707316;6,337.17073170731703;7,252.87804878048792
+
+[LINE]
+Speaker3160: В~нем есть     фотоаппарат.
+~            in~it there~is a~camera    
+$1178/speech_1178_7.mp3;1,0;4,79.57894736842105;5,159.15789473684208;12,198.94736842105263
+
+[LINE]
+Speaker3233: Фотоаппарат в~телефоне?
+~            a~camera    in~a~phone 
+$1178/speech_1178_8.mp3;11,6;2,662;9,53
+
+[MULTIPLE_CHOICE]
+> What feature does her new phone have?
++ A camera.
+- A compass.
+
+[LINE]
+Speaker3160: Да!  И   ты  можешь слушать на~нём музыку   и   читать книги!
+~            yes  and you can    listen  on~it  to~music and read   books 
+$1178/speech_1178_10.mp3;2,0;3,204.70588235294116;3,102.35294117647061;7,153.5294117647059;8,358.23529411764696;3,409.41176470588243;4,153.52941176470586;7,204.70588235294122;2,358.2352941176471;7,102.35294117647072;6,358.2352941176466
+
+[LINE]
+Speaker3233: На телефоне?
+~            on a~phone  
+$1178/speech_1178_11.mp3;2,6;9,116
+
+[LINE]
+Speaker3160: Это   не  простой  телефон. Это   смартфон!    
+~            it~is not a~simple phone    It~is a~smartphone 
+$1178/speech_1178_12.mp3;3,0;3,197.53846153846155;8,148.15384615384613;8,395.07692307692304;5,444.46153846153857;9,197.53846153846143
+
+[LINE]
+Speaker3233: Он     дорогой?       
+~            it(he) (is)~expensive 
+$1178/speech_1178_13.mp3;2,6;8,144
+
+[ARRANGE]
+> Tap what you hear
+Speaker3160: [(Да),  (но)  (на этом) (телефон)]е…
+~              yes    but   on this   phone       
+$1178/speech_1178_14.mp3;2,0;4,194.4;3,145.79999999999998;5,145.8;9,243
+
+[CONTINUATION]
+> What comes next?
+Speaker3160: …ты  можешь смотреть [телевизор]!
+~            …you can    watch     TV          
+$1178/speech_1178_15.mp3;3,21.90291262135922;7,65.70873786407766;9,153.32038834951456;10,197.12621359223303
++ телевизор
+~ TV       
+- этот мобильный~телефон
+~ this mobile           
+- смартфон    
+~ a~smartphone
+
+[LINE]
+Speaker3233: Это       всё интересно,   но… 
+~            this~(is) all interesting  but…
+$1178/speech_1178_16.mp3;3,6;4,229;10,276;5,915
+
+[LINE]
+Speaker3160: Ты  можешь покупать одежду  и   обувь!
+~            you can    buy      clothes and shoes 
+$1178/speech_1178_17.mp3;2,0;7,141.0612244897959;9,329.14285714285717;7,423.18367346938766;2,329.14285714285734;6,94.04081632653038
+
+[LINE]
+Speaker3233: Но,  Кирилл…
+~            but  ~      
+$1178/speech_1178_18.mp3;2,6;9,573
+
+[LINE]
+Speaker3160: Ты  можешь делать много разных    вещей! 
+~            you can    do     many  different things 
+$1178/speech_1178_19.mp3;2,0;7,136.94117647058823;7,319.52941176470586;6,319.5294117647059;7,273.8823529411766;6,319.52941176470586
+
+[LINE]
+Speaker3233: А   могу~ли~я    по~нему        звонить тебе?    
+~            and am~I~be~able by~means~of~it to~call (to)~you 
+$1178/speech_1178_20.mp3;1,6;5,57;3,321;2,89;3,100;5,131;8,274;5,415
+
+[LINE]
+Speaker3160: Да!  Конечно!  
+~            yes  of~course 
+$1178/speech_1178_21.mp3;2,0;9,202.66666666666666
+
+[LINE]
+Speaker3233: Ох, замечательно! Большое~тебе~спасибо, Кирилл!
+~            ~   wonderful     thank~you~very~much   ~      
+$1178/speech_1178_22.mp3;2,6;14,586;9,1295;5,497;8,250;8,864
+
+[MULTIPLE_CHOICE]
+> Kirill's grandma is glad that her new phone can also...
++ … allow her to call her grandson.
+- … prepare coffee for her.
+- … be used as an alarm clock.
+
+[MATCH]
+> Tap the pairs
+- новый <> new
+- фотоаппарат <> camera
+- мобильный телефон / мобильник <> cellphone
+- очень <> very
+- слушать музыку <> to listen to music
+- читать книги <> to read books
+
