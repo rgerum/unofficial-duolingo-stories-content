@@ -1,0 +1,131 @@
+[DATA]
+fromLanguageName=Can I help you?
+icon=ec74184ed69da39d62ba574fa9d615f7d0c53da1
+set=3|3
+
+[HEADER]
+> Μπορώ~να σας~βοηθήσω;
+~ Can~I    help~you    
+$68/speech_68_0.mp3;5,6.081479565442318;3,352.72581479565446;4,168.25426797723742;8,390.2282721158821
+
+[LINE]
+> Η Στέλλα είναι στον   δρόμο.  Βλέπει   έναν άνδρα μπροστά  από το~αυτοκίνητό~του.
+~ ~ ~      is    in~the street  She~sees a    man   in~front of  his~car           
+$68/speech_68_1.mp3;1,5.488537725350546;7,72.26574671711552;6,440.91253060316046;5,321.99421322056526;6,345.77787669708437;8,834.2577342532829;5,453.7191186289788;6,261.6202982417094;8,276.2563988426441;4,450.97484976630267;3,215.8824838637879;11,175.63320721121772;4,591.847318050301
+
+[POINT_TO_PHRASE]
+> Click on the word meaning 'sees'.
+> (+Βλέπει) (έναν) (άνδρα) (μπροστά) (από) (το) (αυτοκίνητό) (του).
+
+[LINE]
+> Είναι αγχωμένος.
+~ He~is stressed  
+$68/speech_68_3.mp3;5,5.342422653382275;10,388.21604614577865
+
+[LINE]
+Speaker101: Καλημέρα!     Μπορώ~να σας~βοηθήσω;
+~           Good~morning  Can~I    help~you    
+$68/speech_68_4.mp3;8,6.151520025735886;7,1041.65739102461;3,355.76290815505854;4,170.19205404535955;8,394.72253498471923
+
+[LINE]
+Speaker127: Έχω    ένα πρόβλημα με   το~αυτοκίνητό~μου. Μπορώ~να χρησιμοποιήσω το~κινητό~σας, παρακαλώ;
+~           I~have a   problem  with my~car             Can~I    use           your~phone     please   
+$68/speech_68_5.mp3;3,5.609648979056733;4,215.03654419717478;9,184.18347481236276;3,614.2565632067124;3,125.28216053226708;11,174.83405984726824;4,714.2953033332242;7,841.44734685851;3,324.4246992887811;14,137.43639998688968;3,789.0906230539808;7,152.39546393104138;4,395.48025302350015;10,782.5460325784134
+
+[LINE]
+> Η Στέλλα δίνει το~κινητό~της στον   άνδρα.
+~ ~ ~      gives her~phone     to~the man   
+$68/speech_68_6.mp3;1,5.6610326464459355;7,83.0284788145404;6,363.24959481361424;3,337.77494790460753;7,139.6388052789997;4,418.91641583699925;5,266.0685343829591;6,387.7807362815465
+
+[MULTIPLE_CHOICE]
+> Stella won't give the man her phone.
+- Yes, that's true.
++ No, that's false.
+
+[LINE]
+Speaker101: Ναι, αλλά...
+~           Yes  but    
+$68/speech_68_8.mp3;3,4.961899503036997;6,565.6565433462176
+
+[LINE]
+Speaker127: Με     συγχωρείτε.
+~           Excuse me         
+$68/speech_68_9.mp3;2,6.230811706239647;11,233.65543898398678
+
+[LINE]
+Speaker127: Γεια  σας! Είναι το  γκαράζ;
+~           Hello Is   that  the garage 
+$68/speech_68_10.mp3;4,4.991055456171735;4,390.9660107334526;7,865.1162790697676;3,388.47048300536653;7,165.5366726296959
+
+[MULTIPLE_CHOICE]
+> The man is calling...
+- ... his grandmother to wish her a happy birthday.
++ ... the garage to fix his car
+- ... his friend to ask if he can pick him up.
+
+[LINE]
+Speaker127: Έχω    ένα πρόβλημα.  
+~           I~have a   problem  Hm
+$68/speech_68_12.mp3;3,6;4,230.00000000000003;9,196.99999999999997
+
+[SELECT_PHRASE]
+> Select the right answer.
+Speaker127: Χμμ... Όχι, δεν     ξέρω [που είμαι].
+~           Hmm    No   I~don't know  ~   ~      
+$68/speech_68_13.mp3;3,5.624711612407076;7,1592.7308382466035;5,454.6641886695718;5,349.6695719046397;4,389.9800051268908;6,354.356831581646
+- που ήμαι
++ που είμαι
+- που εγώ είμαι
+
+[LINE]
+Speaker127: Εε... με     συγχωρείτε.
+~           Uh    excuse me         
+$68/speech_68_14.mp3;2,6.285280267355309;6,816.0388880449643;11,234.65046331459826
+
+[LINE]
+Speaker101: Ναι;
+~           Yes 
+$68/speech_68_15.mp3;3,4.311602870813397
+
+[LINE]
+Speaker127: Που   είμαστε;
+~           Where are~we  
+$68/speech_68_16.mp3;3,6;8,320
+
+[MULTIPLE_CHOICE]
+> Why did the man ask Stella that question?
++ He doesn't know his location.
+- He doesn't know how to use her phone.
+- He was asking if she could lend him some money to fix the car.
+
+[LINE]
+Speaker101: Όχι μακριά από  το  γκαράζ.
+~           Not far    from the garage 
+$68/speech_68_18.mp3;3,5.6368909512761025;7,143.7407192575406;4,467.86194895591655;3,250.8416473317866;7,124.01160092807413
+
+[LINE]
+Speaker127: Συγγνώμη;
+~           Sorry    
+$68/speech_68_19.mp3;8,6
+
+[LINE]
+Speaker101: Δουλεύω στο    γκαράζ. Είμαι μηχανικός.  Τελικά, μπορώ να~σας~βοηθήσω;
+~           I~work  at~the garage  I'm   a~mechanic  So      can~I help~you       
+$68/speech_68_20.mp3;7,5.699976074647101;4,512.9978467182392;7,278.3488316452666;7,1182.7450354892735;10,330.598612329532;8,1359.444293803334;7,700.1470611691516;3,331.5486083419737;4,157.6993380652366;8,365.74846478985546
+
+[MULTIPLE_CHOICE]
+> It turns out that Stella...
+- ... needs her phone back because she needs to go.
+- ... knows that there is a car mechanic strike today.
++ ... works at the garage as a mechanic.
+
+[MATCH]
+> Tap the pairs!
+- ο δρόμος <> street
+- μπροστά από <> in front of
+- μπορώ να σας βοηθήσω; <> Can I help you?
+- δίνει <> gives
+- μακριά <> far
+- ο/η μηχανικός <> engineer/mechanic
+- αγχωμένος <> stressed/anxious
+
