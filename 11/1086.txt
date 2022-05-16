@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=Meat or vegetables?
+icon=d009bf5a911fc69baee4534e0bcc9e5478a9b633
+set=4|2
+
+icon_Shreeya=https://stories-cdn.duolingo.com/image/3efc9f39ba59f0e08d66317272db579e976fc47f.svg
+speaker_Narrator=hi-IN-SwaraNeural
+speaker_Aamir=hi-IN-Wavenet-C
+speaker_Shreeya=hi-IN-Wavenet-A
+
+[HEADER]
+> माँस~या~सब्ज़ीयाँ? 
+~ Meat~or~vegetables 
+$1086/speech_1086_0.mp3;4,0;3,250.9090909090909;10,150.54545454545453
+
+[LINE]
+> श्रिया  एक नया रेस्टरान्त में है.
+~ Shreeya a  new restaurant in  is 
+$1086/speech_1086_1.mp3;6,0;3,418.2127659574468;4,179.23404255319156;11,238.97872340425522;4,657.1914893617022;3,238.97872340425533
+
+[CONTINUATION]
+> What comes next?
+Speaker386: नमस्ते!   [आप  खाना   क्या चाहती         हैं?]?
+~           Hello      You to~eat what (do~you)~want ~     
++ आप खाना क्या चाहती हैं?
+- क्या आप मुझसे प्यार करती हैं?
+- यहाँ मत आओ!
+
+[LINE]
+SpeakerShreeya: मुझे एक गिलास~पानी       और  एक सलाद  चाहिए.
+~               I    a  glass~(of)~water and a  salad want  
+$1086/speech_1086_3.mp3;4,0;3,258.8235294117647;6,155.29411764705884;5,310.5882352941177;3,258.82352941176464;3,155.294117647059;5,155.29411764705856;6,258.82352941176487
+
+[LINE]
+Speaker386: जी                       हाँ! एक गिलास~पानी       और  एक चिकन                               सलाद. 
+~           Yes~(ma'am)~(very~polite )    A  glass~(of)~water and a  chicken~(in~terms~of~foreign~food) salad 
+$1086/speech_1086_4.mp3;2,0;4,169.81132075471697;4,283.0188679245283;6,169.81132075471697;5,339.62264150943395;3,283.0188679245283;3,169.81132075471692;5,169.81132075471714;5,283.0188679245282
+
+[CONTINUATION]
+> What comes next?
+SpeakerShreeya: नहीं, मुझे एक [चिकन          सलाद] नहीं  चाहिए!
+~               No    I    a   chicken~salad ~     don't want  
++ चिकन सलाद
+- गिलास पानी
+- बोतल दूध
+
+[LINE]
+Speaker386: अच्छा मा'म,  क्या आपको सूप  पसंद~है?
+~           Okay  ma'am  do   you  soup like    
+$1086/speech_1086_6.mp3;5,0;5,332.0816326530612;6,332.0816326530612;5,276.7346938775511;4,276.7346938775511;5,221.38775510204073;3,276.7346938775511
+
+[LINE]
+SpeakerShreeya: हाँ! मुझे सूप  पसंद~है! क्या आपके~पास टमाटर  सूप  है?           
+~               Yes  I    soup like     Do   you~have tomato soup (is~it~there) 
+$1086/speech_1086_7.mp3;3,0;6,297.2307692307692;4,297.2307692307692;5,237.78461538461545;3,297.2307692307693;6,237.78461538461534;5,297.2307692307693;4,297.23076923076906;6,237.78461538461534;4,356.67692307692323;3,237.78461538461534
+
+[MULTIPLE_CHOICE]
+> How does Shreeya feel about soup?
++ She loves it.
+- She hates it.
+- She never eats it.
+
+[LINE]
+Speaker386: नहीं, लेकिन हमारे~पास मछली सूप  है.        
+~           No    but   we~have   fish soup (there~is) 
+$1086/speech_1086_9.mp3;4,0;7,326.2040816326531;6,326.2040816326531;4,326.20408163265313;5,217.46938775510193;4,271.83673469387736;3,217.4693877551024
+
+[LINE]
+SpeakerShreeya: अरे,          तो   क्या आपके~पास कोई रोटी  हैं?          
+~               Oh~(come~on)  then do   you~have any bread (is~it~there) 
+$1086/speech_1086_10.mp3;3,0;4,237.60000000000002;5,142.56;5,237.59999999999997;4,237.60000000000002;4,190.08000000000004;5,190.07999999999993;4,237.5999999999999
+
+[LINE]
+Speaker386: हमारे~पास कुछ  मेमने~की~रोटियाँ हैं!       
+~           We~have   some lamb~bread       (there~is) 
+$1086/speech_1086_11.mp3;5,0;4,285.12;4,190.08000000000004;6,190.08000000000004;3,285.12;8,142.55999999999995;4,380.15999999999985
+
+[ARRANGE]
+> Tap what you hear
+SpeakerShreeya: [(क्या) (आपके~पास) (कोई) (शाकाहारी)   (खाना) (ह)]ै?           
+~                 Do     you~have   any   vegetarian   food   (is~it~there)   
+$1086/speech_1086_12.mp3;4,0;5,252;4,252;4,201.60000000000002;9,201.5999999999999;5,453.60000000000025;3,251.99999999999977
+
+[LINE]
+Speaker386: नहीं!
+~           No   
+$1086/speech_1086_13.mp3;4,0
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "what."
+SpeakerShreeya: (यह)   (+क्या) (रेस्टरान्त) (है)?!
+~                This    what   restaurant   is   
+$1086/speech_1086_14.mp3;2,0;5,111.78947368421052;11,186.31578947368422;3,409.89473684210526
+
+[LINE]
+Speaker386: इस   रेस्टरान्त~का नाम  'बहुत     माँस'| है!
+~           This restaurant's  name 'a~lot~of meat'  is 
+$1086/speech_1086_15.mp3;2,0;11,142.58823529411765;3,522.8235294117648;4,142.58823529411757;6,190.11764705882354;6,285.17647058823525;3,285.17647058823536
+
+[MULTIPLE_CHOICE]
+> What happened in the story?
+- Shreeya ate all the potato dishes.
+- The waiter kicked Shreeya out of the restaurant.
++ Shreeya went to a restaurant that only served non-vegetarian dishes.
+
+[MATCH]
+> Tap the pairs:
+- माँस(ाहारी) <> meat (eater)
+- शाकाहारी <> vegetarian
+- एक चिकन सलाद <> a chicken salad
+- मेमने की रोटी <> lamb bread
+- सब्ज़ीयाँ <> vegetables
+- क्या किसके पास? <> Does anyone have?
+- किसको चाहिए? <> Who wants?
+
