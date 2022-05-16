@@ -1,0 +1,128 @@
+[DATA]
+fromLanguageName=At The Restaurant
+icon=d009bf5a911fc69baee4534e0bcc9e5478a9b633
+set=4|2
+
+icon_Speaker387=https://stories-cdn.duolingo.com/image/3efc9f39ba59f0e08d66317272db579e976fc47f.svg
+speaker_Speaker387=cmn-CN-Wavenet-D
+speaker_Speaker386=Zhiyu
+
+[HEADER]
+> 在餐厅              
+~ at~the~restaurant
+$1067/speech_1067_0.mp3;3,6
+
+[LINE]
+> 梦洁|在|一家|餐厅|吃饭。                           
+~ Mengjie  at  a~(one)  restaurant  has~a~meal  
+$1067/speech_1067_1.mp3;2,6;2,433;3,199;3,161;3,255;2,485
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker386: 您好|！请问，           [您要点什么]                        ?
+~           hello    excuse~me     what~would~you~like~to~order    
+$1067/speech_1067_2.mp3;2,6;2,195;3,208;2,473;7,189;3,387
+- 您要喝水吗
++ 您要点什么
+- 你吃什么
+
+[LINE]
+SpeakerSpeaker387: 一份|沙拉|和|一杯|水|，谢谢。                          
+~                  a~(one)  salad  and  a~glass  water    thank~you  
+$1067/speech_1067_3.mp3;2,0;3,264.7058823529412;2,264.7058823529412;3,176.47058823529403;2,264.7058823529412;2,176.47058823529403;3,176.47058823529414;2,264.7058823529412
+
+[LINE]
+Speaker386: 好的|！一杯|水|和|一份|海鲜|沙拉|，对吗？                             
+~           ok    a~glass  water  and  a~(one)  seafood  salad    correct  
+$1067/speech_1067_4.mp3;2,6;2,208;3,99;2,223;2,229;3,307;3,247;3,150;2,212;3,491;2,420
+
+[MULTIPLE_CHOICE]
+> The waitress offers to bring Mengjie a glass of water and a seafood salad.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+SpeakerSpeaker387: 不对|，我|不想|吃|海鲜|沙拉。                     
+~                  no    I  don't~want  to~eat  seafood  salad  
+$1067/speech_1067_6.mp3;2,0;2,247.76470588235296;2,165.17647058823528;3,165.1764705882353;2,247.76470588235293;3,165.17647058823536;3,247.7647058823528;2,247.76470588235293
+
+[LINE]
+Speaker386: 知道了。   
+~           got~it  
+$1067/speech_1067_7.mp3;3,6;2,387
+
+[ARRANGE]
+> Tap what you hear
+Speaker386: [(您)   (想)    (吃)      (面)       ()]吗               ？
+~             you   want   to~eat   noodles   question~marker    
+$1067/speech_1067_8.mp3;1,6;2,195;2,270;2,207;2,232
+
+[LINE]
+SpeakerSpeaker387: 啊|，好的。 
+~                  ah    ok  
+$1067/speech_1067_9.mp3;1,0;2,104.34782608695652;3,104.34782608695652;2,156.52173913043484
+
+[LINE]
+SpeakerSpeaker387: 你们|有|番茄鸡蛋面|吗？                                   
+~                  you  have  tomato~and~egg~noodles  question~marker  
+$1067/speech_1067_10.mp3;2,0;2,235.86206896551724;6,157.24137931034485;2,471.7241379310344;2,157.24137931034488
+
+[SELECT_PHRASE]
+> Select the missing words
+Speaker386: 番茄鸡蛋面|没有|，我们|有                             [海鲜面]             。
+~           tomato~and~egg~noodles  don't~have    we  have   seafood~noodles    
+$1067/speech_1067_11.mp3;5,6;3,573;2,369;3,249;2,288;5,345;3,158
+- 蔬菜面
++ 海鲜面
+- 意大利面
+
+[LINE]
+SpeakerSpeaker387: 三明治|有|吗?                        
+~                  sandwiches  have  question~marker  
+$1067/speech_1067_12.mp3;3,0;2,244;2,122
+
+[LINE]
+Speaker386: 有|海鲜|三明治。               
+~           have  seafood  sandwiches  
+$1067/speech_1067_13.mp3;1,6;3,205;4,500
+
+[LINE]
+SpeakerSpeaker387: 又是|海鲜！            
+~                  not~again  seafood  
+$1067/speech_1067_14.mp3;2,0;3,180;2,180
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "dishes"
+SpeakerSpeaker387: (除了)         (海鲜)      你们  (还有)        什么   (+菜)      ？
+~                   apart~from   seafood  you  also~have  what   dishes   
+$1067/speech_1067_15.mp3;2,0;3,235.63636363636365;3,235.63636363636365;3,235.63636363636357;3,235.63636363636374;2,235.63636363636363;2,157.090909090909
+
+[LINE]
+Speaker386: 女士|，我们|只|有|海鲜。。。              
+~           madam    we  only  have  seafood    
+$1067/speech_1067_16.mp3;2,6;2,374;3,366;2,184;2,167
+
+[LINE]
+SpeakerSpeaker387: 嗯|，这是|什么|餐厅？                     
+~                  um    this~is  what~kind  restaurant  
+$1067/speech_1067_17.mp3;1,0;2,140.68965517241378;3,140.68965517241378;3,211.03448275862075;3,211.03448275862075;2,211.03448275862058
+
+[LINE]
+Speaker386: 我们|这里|是|海鲜|餐厅。                
+~           we  here  is  seafood  restaurant  
+$1067/speech_1067_18.mp3;2,6;3,269;2,376;3,227;3,461
+
+[MULTIPLE_CHOICE]
+> What happened in the story?
+- Mengjie got a job at the restaurant.
+- Mengjie ate all the seafood dishes.
++ Mengjie went to a seafood restaurant.
+
+[MATCH]
+> Tap the pairs
+- 请问 <> excuse me
+- 不想吃 <> don't want to eat
+- 沙拉 <> salad
+- 菜 <> dish
+- 面 <> noodles
+
