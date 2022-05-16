@@ -1,0 +1,129 @@
+[DATA]
+fromLanguageName=Andreas the doctor
+icon=7bd5855801870a11d6feeb20fa6db059c5c2c6e3
+set=9|7
+
+[HEADER]
+> Ο Ανδρέας ο   γιατρός
+~ ~ ~       the doctor 
+$1339/speech_1339_0.mp3;1,0;8,154.58823529411765;2,618.3529411764706;8,154.58823529411768
+
+[LINE]
+> Ο Ανδρέας είναι στο    σουπερμάρκετ. Μια γυναίκα του~μιλάει.  
+~ ~ ~       is    at~the supermarket   A   woman   talks~to~him 
+$1339/speech_1339_1.mp3;1,0;8,142;6,568;4,426;13,284;5,994;8,284;4,567.9999999999995;7,284.00000000000045
+
+[MULTIPLE_CHOICE]
+> Κάποιος πλησιάζει  τον Ανδρέα και του~λέει       κάτι.      Σωστό ή  λάθος;
+~ Someone approaches ~   ~      and is~telling~him something  True  or false 
++ Σωστό.
+~ True  
+- Λάθος.
+~ False 
+
+[LINE]
+Speaker724: Γεια~σας!
+~           Hello    
+$1339/speech_1339_3.mp3;4,0;4,420
+
+[LINE]
+Speaker414: Καλημέρα~σας.
+~           Good~moring  
+$1339/speech_1339_4.mp3;8,0;4,740.5714285714287
+
+[LINE]
+Speaker724: Είστε   γιατρός; 
+~           Are~you a~doctor 
+$1339/speech_1339_5.mp3;5,0;8,461.7931034482759
+
+[MULTIPLE_CHOICE]
+> Η   γυναίκα ρωτάει...   
+~ The woman   is~asking   
++ για   τη~δουλειά~του~Ανδρέα
+~ about Andreas'~job         
+- για   τα~ψώνια~του
+~ about his~shopping
+- γιατί της~πήρε~την~σοκολάτα~από~το~καρότσι  
+~ why   he~took~the~chocolate~from~her~trolley
+
+[LINE]
+Speaker414: Εγώ; Γιατρός;  Ναι, ναι. Γιατρός~είμαι!
+~           Me   A~doctor  Yes  yes  I~am~a~doctor 
+$1339/speech_1339_7.mp3;3,0;9,567.1698113207548;5,1020.9056603773585;5,567.1698113207544;9,567.1698113207549;6,907.4716981132074
+
+[LINE]
+Speaker724: Ωραία!
+~           Great 
+$1339/speech_1339_8.mp3;5,0
+
+[LINE]
+> Ο~Ανδρέας δεν~είναι γιατρός. 
+~ Andreas   is~not    a~doctor 
+$1339/speech_1339_9.mp3;1,0;8,133.95348837209303;4,535.813953488372;6,267.9069767441862;8,401.8604651162789
+
+[LINE]
+Speaker414: Έχω    τρία  αυτοκίνητα, ζω     σε μεγάλο σπίτι και το~παντελόνι~μου... είναι πανάκριβο!   
+~           I~have three cars        I~live in a~big  house and my~trousers         are   so~expensive 
+
+[MULTIPLE_CHOICE]
+> Ο Ανδρέας καυχιέται   για...  
+~ ~ ~       is~bragging about   
+- την~ομορφιά~του
+~ his~beauty     
+- τα~παιδιά~του
+~ his~children 
++ τον~πλούτο~του
+~ his~wealth    
+
+[LINE]
+Speaker724: Εντάξει, αλλά ένας κύριος χρειάζεται βοήθεια. Είναι πολύ   άρρωστος!
+~           Ok       but  a    man    needs      help     He's  really sick     
+$1339/speech_1339_12.mp3;7,0;6,716;5,397.7777777777778;7,397.7777777777776;11,556.8888888888889;8,875.1111111111109;7,716;5,477.3333333333335;9,397.7777777777783
+
+[MULTIPLE_CHOICE]
+> Η   γυναίκα λέει  στον Ανδρέα πως... 
+~ The woman   tells ~    ~      that   
+- θέλει     να του~κάνει~συνέντευξη.
+~ she~wants to interview~him        
++ ψάχνει            γιατρό   για κάποιον που δεν~είναι~καλά.
+~ she's~looking~for a~doctor for someone who is~unwell      
+- κι~αυτή~είναι~γιατρός.
+~ she's~a~doctor~too    
+
+[LINE]
+Speaker414: Εε, ένα λεπτό!
+$1339/speech_1339_14.mp3;2,0;5,114;6,114
+
+[POINT_TO_PHRASE]
+> Ποια  από τις λέξεις σημαίνει «διαφορετική»;
+~ Which of  the words  mean     'different'   
+> (Ο~Ανδρέας) (γυρνάει) (προς) (+μια~άλλη) (κυρία).
+~  Andreas     turns     to      another    woman  
+$1339/speech_1339_15.mp3;1,0;8,127.69811320754717;8,510.7924528301887;5,510.7924528301886;4,319.2452830188679;5,255.39622641509436;6,319.2452830188679
+
+[LINE]
+Speaker414: Γεια~σας! Μήπως         είστε   γιατρός; 
+~           Hello     By~any~chance are~you a~doctor 
+$1339/speech_1339_16.mp3;4,0;4,480;7,480;6,576;8,576
+
+[MULTIPLE_CHOICE]
+> Τι   έγινε    στην   ιστορία; Ο Ανδρέας...
+~ What happened in~the story    ~ ~         
+- έσωσε έναν άντρα
+~ saved a    man  
+- γνώρισε μια γιατρό
+~ met     a   doctor
++ έκανε~τον         γιατρό για~να εντυπωσιάσει μια γυναίκα
+~ pretended~to~be~a doctor to     impress      a   woman  
+
+[MATCH]
+> Πατήστε τα ζευγάρια! – Tap the pairs!
+- o/η γιατρός <> doctor
+- πλησιάζω <> I approach
+- τα ψώνια <> shopping
+- το καρότσι <> cart, trolley, pram
+- καυχιέμαι <> I brag
+- ο πλούτος <> wealth
+- κάνω τον/την/το <> I pretend to be
+- εντυπωσιάζω <> impress
+
