@@ -1,0 +1,150 @@
+[DATA]
+fromLanguageName=School Disco Party
+icon=9ad6bc610313267c3fbb650a0d94480aa76c8a1c
+set=5|9
+
+speaker_Speaker372=ru-RU-Wavenet-B
+speaker_Speaker373=Tatyana
+
+[HEADER]
+> Школьная~дискотека
+~ school~disco~party
+$1218/speech_1218_0.mp3;8,6;10,549
+
+[LINE]
+> Мама    Дениса   заходит к~нему в~комнату.     
+~ the~mom of~Denis enters  to~him in~the~bedroom 
+$1218/speech_1218_1.mp3;4,6;7,359;8,420;2,582;5,77;2,277;8,58
+
+[LINE]
+Speaker1649: Привет, мама.
+~            ~hi     mom  
+$1218/speech_1218_2.mp3;6,0;6,315.4285714285714
+
+[LINE]
+Speaker292: Что~такое, Денис? Всё~в~порядке?        
+~           what's~up  ~      is~everything~alright 
+$1218/speech_1218_3.mp3;3,6;6,218;7,797;5,843;2,232;8,60
+
+[LINE]
+Speaker1649: У~нас                 в~школе   будет дискотека...      
+~            (+будет)~we~will~have at~school ~     a~disco     dances
+$1218/speech_1218_4.mp3;1,0;4,63.04477611940298;2,126.08955223880595;6,63.044776119403;6,189.13432835820896;10,189.1343283582089
+
+[MULTIPLE_CHOICE]
+> Denis says there is going to be a party at his house.
++ No, that's not right.
+- Yes, that's true.
+
+[LINE]
+Speaker292: Классно! Разве~ты~не~рад?
+~           cool     aren't~you~glad 
+$1218/speech_1218_6.mp3;7,6;7,968;3,323;3,121;4,117
+
+[LINE]
+Speaker1649: Нет, я не    люблю дискотеки.
+~            no   I don't like  discos    
+$1218/speech_1218_7.mp3;3,0;3,242.92682926829266;3,97.17073170731712;6,145.75609756097555;10,291.51219512195127
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1649: [Я~не~хочу]    танцевать перед       моими друзьями.
+~             I~don't~want  to~dance  in~front~of my    friends  
+$1218/speech_1218_8.mp3;1,0;3,95.14285714285714;5,142.71428571428572;10,237.85714285714286;6,475.7142857142857;6,285.42857142857144;9,285.42857142857133
+- Теперь не хочу
+- Я не могу
++ Я не хочу
+
+[LINE]
+Speaker292: Давай   я~тебе~помогу?!
+~           Let('s) me~help~you    
+$1218/speech_1218_9.mp3;5,6;2,264;5,117;7,257
+
+[LINE]
+Speaker1649: Правда? Как?
+~            really  how 
+$1218/speech_1218_10.mp3;6,0;5,362.66666666666663
+
+[LINE]
+Speaker292: Мы можем потанцевать сейчас дома.   
+~           we can   dance       now    at~home 
+$1218/speech_1218_11.mp3;2,6;6,112;12,303;7,619;5,432
+
+[MULTIPLE_CHOICE]
+> Denis's mom is telling him…
+- … they can prepare dinner together.
+- … they can clean the whole house.
++ … they can dance at home.
+
+[LINE]
+Speaker1649: Сейчас?
+~            now    
+$1218/speech_1218_13.mp3;6,0
+
+[LINE]
+Speaker292: Да,  прямо сейчас!
+~           yes  right now    
+$1218/speech_1218_14.mp3;2,6;7,542;7,410
+
+[LINE]
+Speaker1649: Ладно.
+~            ok    
+$1218/speech_1218_15.mp3;5,0
+
+[ARRANGE]
+> Tap what you hear
+> [(Денис) (танцует)    (с    мамо)]й.       
+~   ~       is~dancing   with (his)~mother   
+$1218/speech_1218_16.mp3;5,6;8,534;2,588;6,92
+
+[LINE]
+Speaker1649: Мама, ты  должна пойти со~мной на~дискотеку!
+~            mom   you must   go    with~me to~the~disco 
+$1218/speech_1218_17.mp3;4,0;4,292.9655172413793;7,146.48275862068965;6,341.7931034482758;3,292.9655172413794;5,146.48275862068954;3,244.13793103448302;10,146.48275862068954
+
+[LINE]
+Speaker1649: С~тобой… 
+~            with~you…
+$1218/speech_1218_18.mp3;1,0;7,36.83720930232558
+
+[CONTINUATION]
+> What comes next?
+Speaker1649: …| я танцую очень [хорошо]!
+~            …  I dance  very   well    
+$1218/speech_1218_19.mp3;1,39.724137931034484;2,39.724137931034484;7,139.0344827586207;6,119.17241379310343
+- сейчас
+~ now   
+- праздник
+~ party   
++ хорошо
+~ well  
+
+[LINE]
+Speaker292: Я~рада,   Денис!
+~           I'm~glad  ~     
+$1218/speech_1218_20.mp3;1,6;5,218;7,557
+
+[LINE]
+Speaker1649: Да,  я танцую хорошо, потому~что ты  танцуешь очень плохо!
+~            yes  I dance  well    because    you dance    very  badly 
+$1218/speech_1218_21.mp3;2,0;3,235.26760563380282;7,117.63380281690138;7,411.718309859155;8,470.53521126760563;4,411.7183098591547;3,235.267605633803;9,176.45070422535218;6,529.3521126760561;6,352.90140845070437
+
+[LINE]
+Speaker292: Денис! Как ты~можешь так~говорить!
+~           ~      how can~you   say~that(so) 
+$1218/speech_1218_22.mp3;5,6;5,925;3,198;7,150;4,348;9,212
+
+[MULTIPLE_CHOICE]
+> People may think Denis dances very well…
+- ... because he's very confident.
++ ... but just because his mother dances very badly.
+- ... because he's been practicing a lot.
+
+[MATCH]
+> Tap the pairs
+- в школе <> at school
+- я не люблю <> I don't like / I don't love
+- я танцую <> I dance
+- ты танцуешь <> you dance
+- с мамой <> with (his) mom
+
