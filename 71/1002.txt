@@ -1,0 +1,158 @@
+[DATA]
+fromLanguageName=A Date
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+[HEADER]
+> Побачення
+~ a~date   
+$1002/speech_1002_0.mp3;9,0
+
+[LINE]
+> Мар’яна в       ресторані,  у~неї   побачення.
+~ Maryana at~(in) restaurant  she~has (a)~date  
+$1002/speech_1002_1.mp3;7,0;2,210.46153846153848;10,210.46153846153848;3,105.23076923076923;4,578.7692307692307;10,105.23076923076928;1,210.46153846153857
+
+[LINE]
+Speaker100: Що   замовлятимеш?    
+~           what will~(you)~order 
+$1002/speech_1002_2.mp3;2,0;13,146.32258064516128
+
+[MULTIPLE_CHOICE]
+> Maryana's date is asking
+- … how much the food costs.
++ … what Maryana is going to order.
+- … where to find the restaurant.
+
+[LINE]
+Speaker336: Салат.
+~           salad 
+$1002/speech_1002_4.mp3;5,0
+
+[LINE]
+Speaker336: Я не~їм     м’ясо.
+~           I don't~eat meat  
+$1002/speech_1002_5.mp3;1,0;3,99.3103448275862;3,148.9655172413793;6,148.9655172413793;1,99.31034482758622
+
+[LINE]
+Speaker100: Ти  вегетаріанка?
+~           you vegetarian   
+$1002/speech_1002_6.mp3;2,0;13,125.41935483870968
+
+[LINE]
+Speaker336: Так!
+~           yes 
+$1002/speech_1002_7.mp3;3,0
+
+[LINE]
+Speaker100: Я~теж! 
+~           me~too 
+$1002/speech_1002_8.mp3;1,0;4,100.57142857142857
+
+[MULTIPLE_CHOICE]
+> Why did he say that?
++ He's also a vegetarian.
+- He hates salads.
+- He loves to eat meat.
+
+[LINE]
+Speaker336: Чудово!
+~           great  
+$1002/speech_1002_10.mp3;6,0
+
+[LINE]
+Speaker336: Ти  українець?
+~           you Ukrainian 
+$1002/speech_1002_11.mp3;2,0;10,133.7142857142857
+
+[LINE]
+Speaker100: Ні, я канадієць.
+~           no  I Canadian  
+$1002/speech_1002_12.mp3;2,0;3,108.59016393442623;10,54.29508196721311
+
+[LINE]
+Speaker100: Мій батько з    Торонто, а   моя мати   зі   Львова.
+~           my  father from Toronto  and my  mother from Lviv   
+$1002/speech_1002_13.mp3;3,0;7,198.6206896551724;2,347.58620689655163;8,99.31034482758628;3,446.8965517241378;4,99.31034482758628;5,198.62068965517255;3,248.27586206896558;7,148.9655172413793
+
+[ARRANGE]
+> Tap what you hear
+Speaker336: [(І)   (я) (зі)   (Львов)]а!
+~             and   I   from   Lviv     
+$1002/speech_1002_14.mp3;1,0;2,91.03448275862068;3,91.03448275862068;7,136.55172413793107
+
+[LINE]
+Speaker100: Львів дуже гарний.   
+~           Lviv  very beautiful 
+$1002/speech_1002_15.mp3;5,0;5,288;7,240
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "pets"
+Speaker100: (Ти)  (маєш) (+домашніх~тварин)?
+~            you   have    pets             
+$1002/speech_1002_16.mp3;2,0;5,138.46153846153848;9,230.76923076923075;7,415.3846153846154
+
+[LINE]
+Speaker336: У~мене~є три   коти та  два собаки.
+~           I~have   three cats and two dogs   
+$1002/speech_1002_17.mp3;1,0;5,107.23404255319149;2,268.0851063829787;4,107.2340425531915;5,214.46808510638294;3,268.0851063829788;4,160.85106382978722;7,214.4680851063829
+
+[LINE]
+Speaker100: Цікаво!     
+~           interesting 
+$1002/speech_1002_18.mp3;6,0
+
+[LINE]
+Speaker100: У~мене також дві собаки, Христино! 
+~           I~have also  two dogs    Khrystyna 
+$1002/speech_1002_19.mp3;1,0;5,108.73469387755101;6,271.83673469387753;4,326.20408163265313;7,217.46938775510193;10,434.9387755102041
+
+[LINE]
+Speaker336: Христина?  Мене~звати Мар’яна!
+~           Khrystyna  My~name~is Maryana 
+$1002/speech_1002_20.mp3;8,0;6,529.0909090909091;6,264.5454545454545;8,317.4545454545456;1,211.6363636363635
+
+[LINE]
+Speaker336: Ти  ж Максим?
+~           you ~ Maxim  
+$1002/speech_1002_21.mp3;2,0;2,114.66666666666666;7,76.44444444444446
+
+[LINE]
+Speaker100: Ні! Мене~звати Іван.
+~           no  my~name~is Ivan 
+$1002/speech_1002_22.mp3;2,0;6,202.97142857142856;6,253.7142857142857;5,304.45714285714286
+
+[MULTIPLE_CHOICE]
+> Ivan and Maryana were supposed to meet different people.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+> До Івана підходить дівчина.
+~ to Ivan  comes     girl    
+$1002/speech_1002_24.mp3;2,0;6,138.85714285714286;10,277.71428571428567;8,462.8571428571429
+
+[LINE]
+Speaker101: Привіт! Іван? Я Христина. 
+~           hello   Ivan  I Khrystyna 
+$1002/speech_1002_25.mp3;6,0;6,408;3,306;9,102
+
+[LINE]
+Speaker100: Ні, Ви           помилилися. Мене~звати Максим.
+~           no  you~(polite) were~wrong  My~name~is Maxim  
+$1002/speech_1002_26.mp3;2,0;4,217.84615384615387;11,163.38461538461536;6,653.5384615384614;6,272.3076923076924;7,326.7692307692307
+
+[MULTIPLE_CHOICE]
+> At the end of the story, Ivan
+- … met someone named Maxim
+- … was tired of talking to Maryana
++ … lied to his real date because he liked Maryana
+
+[MATCH]
+> Tap the pairs
+- побачення <> date
+- теж <> too
+- мене звати <> my name is
+- з <> from
+- м'ясо <> meat
+
