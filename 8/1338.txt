@@ -1,0 +1,156 @@
+[DATA]
+fromLanguageName=Saturday Night
+icon=09cbfe4b009b6617a05701652d4210d552d0f5a2
+set=1|10
+
+speaker_Narrator=ja-JP-Wavenet-C
+speaker_Speaker121=ja-JP-NanamiNeural
+speaker_Speaker122=ja-JP-KeitaNeural
+
+[HEADER]
+> 土曜日の夜         
+~ Saturday~night
+$1338/speech_1338_0.mp3;5,0
+
+[LINE]
+> Hints have not been reviewed
+$1338/speech_1338_1.mp3;5,0;5,348.27906976744185;4,290.2325581395349;5,232.18604651162798;9,290.23255813953483
+
+[LINE]
+> オフィスで鈴木さんは友達の渡辺さんと話しています。
+$1338/speech_1338_2.mp3;25,0
+
+[LINE]
+Speaker336: 今日は、渡辺さん。
+~           hello    
+$1338/speech_1338_3.mp3;9,0
+
+[LINE]
+Speaker336: 週末には予定がありますか？
+~           you~have     
+$1338/speech_1338_4.mp3;13,0
+
+[MULTIPLE_CHOICE]
+> Suzuki-san is asking Watanabe-san if he has plans for the weekend.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker2243: 土曜日のコンサートのチケットがあります。
+~            I~have              
+$1338/speech_1338_6.mp3;20,0
+
+[LINE]
+Speaker2243: 姉妹という新しいバンドです。
+~            it~is         
+$1338/speech_1338_7.mp3;14,0
+
+[LINE]
+Speaker2243: 一緒に来ませんか？
+~            you~want 
+$1338/speech_1338_8.mp3;9,0
+
+[MULTIPLE_CHOICE]
+> Suzuki-san wants to know…
+- … what kind of music Watanabe-san likes.
++ … if Watanabe-san wants to go to a concert on Saturday.
+- … if Watanabe-san is working on Saturday.
+
+[LINE]
+Speaker336: えー、あの、
+$1338/speech_1338_10.mp3;6,0
+
+[LINE]
+Speaker2243: 鈴木さんは週末の予定がありますか？
+~            you~have         
+$1338/speech_1338_11.mp3;17,0
+
+[LINE]
+Speaker336: えーと、
+$1338/speech_1338_12.mp3;4,0
+
+[LINE]
+Speaker336: はい、土曜日にはサッカーの試合があります。
+~           yes                  
+$1338/speech_1338_13.mp3;21,0
+
+[MULTIPLE_CHOICE]
+> Where is Suzuki-san going on Saturday?
++ To a soccer game.
+- To an American football game.
+- To a rugby game.
+
+[LINE]
+Speaker2243: わー、いいですね。
+~            how~fun  
+$1338/speech_1338_15.mp3;9,0
+
+[LINE]
+Speaker2243: 試合を楽しんでください！
+~            enjoy       
+$1338/speech_1338_16.mp3;12,0
+
+[SELECT_PHRASE]
+> Select the missing phrase
+> [土曜日の夜],             、渡辺さんはコンサートにいます。
+~  on~Saturday~night    ~              
+$1338/speech_1338_17.mp3;5,0;18,716.2105263157895
+- 火曜日の多分
+- 何曜日映画館
++ 土曜日の夜
+
+[LINE]
+> コンサートが始まります。
+~ the         
+$1338/speech_1338_18.mp3;12,0
+
+[LINE]
+Speaker2243: ギターを弾く女性は、
+~            the       
+$1338/speech_1338_19.mp3;10,0
+
+[LINE]
+Speaker2243: 鈴木さんですか？
+~            she~is… 
+$1338/speech_1338_20.mp3;8,0
+
+[MULTIPLE_CHOICE]
+> Why is Watanabe-san confused?
+- Watanabe-san is calling him.
+- The show hasn't started yet.
++ Watanabe-san is the guitarist for the band.
+
+[LINE]
+> コンサートが終わってから、渡辺さんは鈴木さんと話しています。
+~ at~the~end                    
+$1338/speech_1338_22.mp3;30,0
+
+[LINE]
+Speaker2243: 「サッカーの試合」と言いましたね。
+~            a                
+$1338/speech_1338_23.mp3;17,0
+
+[LINE]
+Speaker336: サプライズでした。
+~           surprise 
+$1338/speech_1338_24.mp3;9,0
+
+[LINE]
+Speaker2243: 鈴木さんはギターを弾くのがとても上手です。
+~            you~are              
+$1338/speech_1338_25.mp3;21,0
+
+[MULTIPLE_CHOICE]
+> What does Watanabe-san  mean?
++ He thinks Watanabe-san is a great guitarist.
+- He wants to be in Watanabe-san's band.
+- He thinks Watanabe-san is a terrible guitarist.
+
+[MATCH]
+> Tap the pairs
+- コンサートが終わってから <> at the concert
+- 一緒 <> with
+- サッカーの試合 <> soccer game
+- サプライズ <> surprise
+- 予定 <> plans
+
