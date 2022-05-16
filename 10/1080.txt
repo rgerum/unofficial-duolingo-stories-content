@@ -1,0 +1,145 @@
+[DATA]
+fromLanguageName=Birthday Fish
+icon=0abdcc5823240ad538848a828283979a1c445fa9
+set=4|7
+
+speaker_Speaker345=Carla
+speaker_Speaker344=Giorgio
+
+[HEADER]
+> La  cena~di~compleanno
+~ the birthday~dinner   
+$1080/speech_1080_0.mp3;2,6;5,245;3,359;11,131
+
+[LINE]
+> Michela è  al      supermercato.
+~ ~       is in~the  supermarket  
+$1080/speech_1080_1.mp3;7,6;2,541;3,91;14,127
+
+[LINE]
+Speaker724: Mi~scusi,  signore.
+~           excuse~me  sir     
+$1080/speech_1080_2.mp3;2,6;6,145;9,768
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker127: [Le     serve aiuto], signorina?
+~            do~you need  help    miss      
+$1080/speech_1080_3.mp3;2,6;6,182;6,336;11,681
+- Le perde aiuto
++ Le serve aiuto
+- Le serve imbuto
+
+[LINE]
+Speaker724: Sì,  per~favore! Devo   comprare qualcosa  per cena.  
+~           yes  please      I~need to~buy   something for dinner 
+$1080/speech_1080_4.mp3;2,6;5,560;7,159;6,908;9,266;9,539;4,483;5,188
+
+[LINE]
+Speaker127: Hehehe! Bene, qui  c'è      un~sacco~di cibo.
+~           Hehehe  well  here there~is a~lot~of    food 
+$1080/speech_1080_5.mp3;6,6;6,849;5,578;4,137;3,219;6,104;3,305;5,101
+
+[LINE]
+Speaker127: Cosa vuole       cucinare?
+~           what do~you~want to~cook  
+$1080/speech_1080_6.mp3;4,6;6,272;9,250
+
+[MULTIPLE_CHOICE]
+> The clerk is asking Michela what she wants to cook.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker724: Devo   preparare  la   cena~perfetta   per un compleanno!
+~           I~need to~prepare the  perfect~dinner  for a  birthday   
+$1080/speech_1080_8.mp3;4,6;10,278;3,654;6,150;9,346;5,627;3,160;11,119
+
+[CONTINUATION]
+> What comes next?
+Speaker127: Mi~piacciono [i         compleanni].
+~           I~love        birthdays ~           
+$1080/speech_1080_9.mp3;2,6;10,171;2,502;11,66
+- cucinare
+~ to~cook 
++ i~compleanni
+~ birthdays   
+- la~cena
+~ dinner 
+
+[LINE]
+Speaker724: Oggi  è  il~compleanno~di~Francesco!
+~           today is Francesco's~birthday       
+$1080/speech_1080_10.mp3;4,6;2,451;3,90;11,101;3,714;10,101
+
+[LINE]
+Speaker127: Mmm…| Francesco      mangia carne?
+~           Mmm…  does~Francesco eat    meat  
+$1080/speech_1080_11.mp3;4,6;10,611;7,571;6,296
+
+[LINE]
+Speaker724: A~volte.  
+~           sometimes 
+$1080/speech_1080_12.mp3;1,6;6,136
+
+[LINE]
+Speaker127: Mmm…| gli~piace    il~pesce?
+~           Mmm…  does~he~like fish     
+$1080/speech_1080_13.mp3;4,6;4,611;6,137;3,396;6,76
+
+[LINE]
+Speaker724: Sì!   Francesco adora il~pesce!
+~           yes   Francesco loves fish     
+$1080/speech_1080_14.mp3;2,6;12,692;6,667;3,305;6,73
+
+[LINE]
+Speaker724: Bene, un~po'~di salmone, per~favore.
+~           well  some      salmon   please     
+$1080/speech_1080_15.mp3;4,6;4,649;4,198;3,198;8,110;5,864;7,159
+
+[MULTIPLE_CHOICE]
+> Why is Michela buying salmon?
+- Because it's on sale.
+- Because Francesco never eats meat.
++ Because Francesco loves fish.
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "lucky."
+Speaker127: (Francesco) è  un (uomo) (molto)  (+fortunato)!
+~            ~          is a   man    very      lucky      
+$1080/speech_1080_17.mp3;9,6;2,622;3,52;5,138;6,231;11,299
+
+[LINE]
+Speaker724: Francesco non~è   un uomo.
+~           ~         is~not  a  man  
+$1080/speech_1080_18.mp3;9,6;4,749;2,200;4,130;5,165
+
+[LINE]
+Speaker127: Ah! Mi~scusi. 
+~           ~   I'm~sorry 
+$1080/speech_1080_19.mp3;2,6;4,631;6,159
+
+[LINE]
+Speaker724: Francesco è  il~mio gatto!
+~           ~         is my     cat   
+$1080/speech_1080_20.mp3;9,6;2,790;3,41;4,69;6,195
+
+[LINE]
+Speaker127: Hahahaha! Ah! Francesco è  un gatto~molto~fortunato!
+~           hahahaha  Ah  ~         is a  very~lucky~cat        
+$1080/speech_1080_21.mp3;8,6;4,1157;11,631;2,622;3,52;6,138;6,296;10,334
+
+[MULTIPLE_CHOICE]
+> Michela revealed that Francesco is…
+- … her husband.
++ … her cat.
+- … her brother.
+
+[MATCH]
+> Tap the pairs
+- Le serve aiuto <> do you need help
+- la <> the
+- fortunato <> lucky
+- Sì <> yes
+- salmone <> salmon
+
