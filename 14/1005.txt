@@ -1,0 +1,132 @@
+[DATA]
+fromLanguageName=Who Is It?
+icon=f3d07f61cdd95c84cb15d7f9d0e4b0dc8173072b
+set=3|1
+
+[HEADER]
+> Sino   ito ?
+~ who~is it   
+
+[LINE]
+> Nasa  opisina~n'ya si Luis.
+~ is~in his~office   ~  ~    
+
+[LINE]
+> Kausap~n'ya sa~telepono  ang~kanyang~kaibigan.
+~ he~talks    on~the~phone to~his~friend        
+
+[LINE]
+Speaker385: Ngayong~weekend...
+~           this~weekend      
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker385: …| [kasama~ang~mga~kaibigan]...
+~           …   with~friends               
+- kasama ang mga kasintahan
+- karma ang mga kaibigan
++ kasama ang mga kaibigan
+
+[LINE]
+Speaker385: Sandali~lang.    
+~           wait~for~a~while 
+
+[LINE]
+Speaker385: Telepono ito   sa~trabaho.
+~           phone    it~is for~work   
+
+[ARRANGE]
+> Tap what you hear
+> [(Nagpalit) (ng~linya) (si Luis)].
+~   changed    line       ~  ~      
+
+[LINE]
+Speaker385: Hello ?
+
+[LINE]
+Speaker292: Kamusta, Luis.
+~           hello    ~    
+
+[LINE]
+Speaker385: Sino      ito ?
+~           who~is~it ~    
+
+[LINE]
+Speaker292: Kaibigan.
+~           a~friend 
+
+[LINE]
+Speaker385: Ha       ?
+~           what(fg)  
+
+[LINE]
+Speaker292: Kailangan~kita.
+~           I~need~you     
+
+[LINE]
+Speaker385: Ni~hindi~nga kita~kilala !
+~           dont~even    I~know~you   
+
+[MULTIPLE_CHOICE]
+> Louis doesn't know the woman on the phone.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker292: Pero ako, kilala~kita...
+~           but  me   I~know~you    
+
+[LINE]
+Speaker292: …| sige !
+~           …  okay  
+
+[LINE]
+Speaker292: Pupunta~na~ako sa~opisina~mo  ah !
+~           I'll~go~now    to~your~office ~   
+
+[LINE]
+Speaker385: Wag         ! Tatawag   ako ng~pulis   !
+~           don't~do~it   will~call I   the~police  
+
+[MULTIPLE_CHOICE]
+> Luis says he's going to…
+- … leave his office.
++ … call the police.
+- … hide from the police.
+
+[LINE]
+Speaker292: Luis, boss~mo   ito.  
+~           ~     your~boss it~is 
+
+[MULTIPLE_CHOICE]
+> Who is Luis talking to?
+- Luis's mother.
+- Luis's friend from college.
++ Luis's boss.
+
+[LINE]
+Speaker292: Magtrabaho~ka~na !
+~           work~now~already  
+
+[LINE]
+Speaker292: At  huwag~kang makipag-usap sa~mga~kaibigan~mo sa~telepono  !
+~           and don't~you  talk         to~your~friends    on~the~phone  
+
+[LINE]
+Speaker385: Oops ! Sorry…| Magtatrabaho~na~po !
+~           ~      sorry…  I'll~work~now       
+
+[MULTIPLE_CHOICE]
+> Luis's boss called to tell him...
+- … he's getting a promotion.
+- … he's fired for talking to his friends.
++ … he needs to work instead of talking to his friends.
+
+[MATCH]
+> Tap the pairs
+- pulis <> police
+- telepono <> telephone
+- sino <> who
+- opisina <> office
+- sandali lang <> wait for a while
+
