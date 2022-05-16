@@ -1,0 +1,133 @@
+[DATA]
+fromLanguageName=Surprise!
+icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
+set=1|4
+
+speaker_Narrator=ml-IN-Standard-A
+speaker_Arun=ml-IN-Standard-B
+speaker_Rena=ml-IN-Standard-A
+speaker_Mom=ml-IN-Standard-A
+
+[HEADER]
+> ആശ്ചര്യം!
+~ Surprise 
+
+[LINE]
+> അരുന അവൻ്റെ അമ്മടെക്കൊപ്പമാണ്.        
+~ Arun his    with~(his)~mother~(he~is) 
+
+[LINE]
+Speaker559: ഒരു മേശ   മൂന്ന് ആളുകൾക്ക്         
+~           A   table three  for~(three)~people
+
+[LINE]
+Speaker385: മൂന്ന്? ഞാനും, അമ്മ,               ...?
+~           Three   Me     you~(mother)~(and)      
+
+[MULTIPLE_CHOICE]
+> Why is Arun confused?
+- His mom left the restaurant.
++ His mom asked for a table for three instead of two.
+- He felt sick.
+
+[LINE]
+Speaker559: ഒരു സുഹൃത്ത്...
+~           A   friend     
+
+[LINE]
+Speaker385: അമ്മ, എനിക്ക് ...
+~           Mom   I…         
+
+[LINE]
+Speaker559: എനിക്കൊരു ആശ്ചര്യമുണ്ട്!
+~           I~a       surprise~have 
+
+[LINE]
+Speaker385: എനിക്ക്, ... എനിക്കുമൊരു ആശ്ചര്യമുണ്ട്...
+~           I            I~also~a    surprise~have   
+
+[LINE]
+Speaker559: എൻ്റെ സുഹൃത്ത് ഒരു ഡോക്ടറാണ്.
+~           My    friend   a   doctor~is 
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "friend"
+> എൻ്റെ (+സുഹൃത്ത്) ഒരു (ഡോക്ടറാണ്).
+
+[LINE]
+Speaker559: അവളുടെ പേര് സള്ളീയാണ്...
+~           Her    name is~Sally    
+
+[LINE]
+Speaker385: അമ്മ, എനിക്ക്...
+~           Mom   I…        
+
+[LINE]
+Speaker559: അവൾ       എൻ്റെ മകന്          തികഞ്ഞവളാണ്!
+~           (and)~She my    son~(for~him) perfect~is  
+
+[MULTIPLE_CHOICE]
+> Arun's mom wants…
+- … to order a pizza.
++ … Arun to go on a date with her friend, Sally.
+- … to go home.
+
+[LINE]
+> ഒരു സ്ത്രീ റെസ്റ്റോറന്റിലേക്ക്   പ്രവേശിക്കുന്നു.
+~ A   woman  the~restaurant~(into) apears          
+
+[LINE]
+Speaker125: നമസ്കാരം, അരുൻ!
+~           Hello     Arun 
+
+[LINE]
+Speaker559: ഇത്ആ~രാണ്?  
+~           Who~is~this 
+
+[MULTIPLE_CHOICE]
+> Arun's mom doesn't know who the girl is.
+- No, that's not right!
++ Yes, that's true!
+
+[LINE]
+Speaker385: നമസ്കാരം രേനാ! അമ്മ...
+~           Hello    Rena  Mom    
+
+[LINE]
+Speaker125: ആൻ്റീയും        അരുൻ്റെ അമ്മ   ആണ്!
+~           And~you~(aunty) Arun's  mother are 
+
+[LINE]
+Speaker559: അരുന!?
+~           Arun  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker125: [നിങ്ങളെ~കണ്ടതിൽ~സന്തോഷം], ഞാൻ അരുണിന്റെ ഭാര്യയാണ്।
+~            Nice~to~meet~you          I   Arun's    wife~am   
+- നീ കണ്ടതിൽ സന്തോഷം
+- നിങ്ങളെ കണ്ടതിൽ സന്തോഷമില്ശ
++ നിങ്ങളെ കണ്ടതിൽ സന്തോഷം
+
+[LINE]
+Speaker559: അവന്റെ ഭാര്യ?!
+~           His    wife   
+
+[LINE]
+Speaker385: ആശ്ചര്യം!
+~           Surprise 
+
+[MULTIPLE_CHOICE]
+> Why is Arun's mom surprised?
++ She didn't know Arun was married.
+- She got a salad instead of a pizza.
+- Arun liked her friend, Sally.
+
+[MATCH]
+> Tap the pairs
+- ആശ്ചര്യം <> surprise
+- ഭാര്യ <> wife
+- നിങ്ങളെ കണ്ടതിൽ സന്തോഷം! <> Nice to meet you!
+- അമ്മ <> mother
+- സുഹൃത്ത് <> friend
+
