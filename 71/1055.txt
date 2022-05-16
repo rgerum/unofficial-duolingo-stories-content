@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=One Thing
+icon=717bd84875f83c678f64f124937a278061e0e778
+set=1|3
+
+[HEADER]
+> Мені~дещо~треба 
+~ I~need~something
+$1055/speech_1055_0.mp3;4,0;5,240;6,240
+
+[LINE]
+> Злата вдома   зі   своїм братом  Артуром.
+~ Zlata at~home with her   brother Artur   
+$1055/speech_1055_1.mp3;5,0;6,319.05882352941177;3,319.05882352941177;6,159.52941176470586;7,319.0588235294118;8,372.2352941176471
+
+[LINE]
+Speaker856: Ой, у~нас закінчився хліб. 
+~           Oh  we're out~of     bread 
+$1055/speech_1055_2.mp3;2,0;3,213.07317073170734;4,106.5365853658536;11,213.0731707317073;5,585.9512195121953
+
+[SELECT_PHRASE]
+> Select the missing word or phrase
+SpeakerАртур: Підеш       в      [супермаркет]?
+~             will~you~go to      supermarket  
+$1055/speech_1055_3.mp3;5,0;2,232.61538461538464;16,232.61538461538464
+- парк
++ супермаркет
+- університет
+
+[LINE]
+Speaker856: Так! Я~хочу зробити бутерброди з    сиром. 
+~           yes  I~want to~make sandwiches with cheese 
+$1055/speech_1055_4.mp3;3,0;3,262.22222222222223;5,104.88888888888886;8,262.2222222222222;11,419.55555555555566;2,576.8888888888889;6,104.88888888888891
+
+[LINE]
+SpeakerАртур: Ой, мені теж  дещо      треба в       супермаркеті.
+~             oh  me   also something need  at~(in) supermarket  
+$1055/speech_1055_5.mp3;2,0;6,215.1111111111111;4,268.8888888888889;5,215.1111111111111;6,268.8888888888889;2,322.6666666666665;13,107.55555555555566
+
+[MULTIPLE_CHOICE]
+> Artur…
++ … also needs something from the supermarket.
+- … wants to go to the supermarket with Zlata.
+- … is making a cheese sandwich too.
+
+[LINE]
+Speaker856: Що   тобі треба?
+~           what you  need  
+$1055/speech_1055_7.mp3;2,0;5,131.58620689655172;6,219.3103448275862
+
+[LINE]
+SpeakerАртур: Помідор, будь~ласка.
+~             tomato   please     
+$1055/speech_1055_8.mp3;7,0;6,394.97142857142853;6,219.42857142857156
+
+[ARRANGE]
+> Tap what you hear
+SpeakerАртур: [(Це)    (для) (мого) (салат)]у.
+~               it~is   for   my     salad    
+$1055/speech_1055_9.mp3;2,0;4,131.29411764705884;5,175.0588235294117;7,218.8235294117648
+
+[LINE]
+Speaker856: Добре!
+~           ok    
+$1055/speech_1055_10.mp3;5,0
+
+[LINE]
+SpeakerАртур: Дякую!    
+~             thank~you 
+$1055/speech_1055_11.mp3;5,0
+
+[LINE]
+SpeakerАртур: І   ще   мені~треба три   яблука...
+~             and also I~need     three apples   
+$1055/speech_1055_12.mp3;1,0;3,99.27272727272728;5,148.9090909090909;6,248.1818181818182;4,297.81818181818187;7,198.5454545454545
+
+[LINE]
+Speaker856: Гаразд.
+~           fine   
+$1055/speech_1055_13.mp3;6,0
+
+[LINE]
+SpeakerАртур: … і   ще   апельсиновий~сік.
+~               and also orange~juice     
+$1055/speech_1055_14.mp3;1,93.53846153846153;2,93.53846153846153;3,140.3076923076923;13,607.9999999999999
+
+[LINE]
+SpeakerАртур: … і   молоко, будь~ласка.
+~               and milk    please     
+$1055/speech_1055_15.mp3;1,93.47368421052632;2,93.47368421052632;7,373.8947368421053;6,233.68421052631572
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "little brother."
+Speaker856: (У~мене~є) (ідея), (+братику).       
+~            I~have     idea     little~brother  
+$1055/speech_1055_16.mp3;1,0;5,109.89473684210526;2,274.7368421052631;5,109.89473684210526;9,329.68421052631584
+
+[LINE]
+Speaker856: Ось  гроші.
+~           here money 
+$1055/speech_1055_17.mp3;3,0;6,172.8
+
+[LINE]
+SpeakerАртур: Навіщо?
+~             why    
+$1055/speech_1055_18.mp3;6,0
+
+[LINE]
+Speaker856: Купи все,        що          тобі треба, і   мені   купи хліба.
+~           buy  everything  that~(what) you  need   and for~me buy  bread 
+$1055/speech_1055_19.mp3;4,0;4,264.82758620689657;4,264.82758620689657;5,158.8965517241379;6,264.8275862068966;3,370.7586206896551;5,105.9310344827586;5,264.8275862068965;6,264.82758620689674
+
+[MULTIPLE_CHOICE]
+> Zlata decided...
+- … to buy three apples at the supermarket.
+- … to make a cheese sandwich for Artur.
++ … to give Artur money to buy bread for her.
+
+[MATCH]
+> Tap the pairs
+- гроші <> money
+- так <> yes
+- треба <> need
+- що <> what
+- я хочу <> I want
+
