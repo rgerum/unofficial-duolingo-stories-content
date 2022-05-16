@@ -1,0 +1,163 @@
+[DATA]
+fromLanguageName=Friends
+icon=743f08a1a28a5e27e7e78ba3c46443b92365789b
+set=2|10
+
+speaker_Speaker353=Carla
+speaker_Speaker354=Bianca
+
+[HEADER]
+> Amiche 
+~ friends
+$1026/speech_1026_0.mp3;6,6
+
+[LINE]
+Speaker101: Ciao,  Sabrina!
+~           hello  ~       
+$1026/speech_1026_1.mp3;4,6;9,667
+
+[LINE]
+Speaker1320: Ciao,  Tamara.
+~            hello  ~      
+$1026/speech_1026_2.mp3;4,6;8,636
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker101: [Studiamo]?             
+~            are~we~going~to~study  
+$1026/speech_1026_3.mp3;8,6
+- Stufiamo
++ Studiamo
+- Stordiamo
+
+[LINE]
+Speaker1320: Mi~dispiace, sono occupata.
+~            I'm~sorry    I~am busy     
+$1026/speech_1026_4.mp3;2,6;9,195;6,949;9,332
+
+[LINE]
+Speaker1320: Vado            al         centro~commerciale.
+~            I'm~going       to~the     mall               
+$1026/speech_1026_5.mp3;4,6;9,333;11,128;12,467
+
+[MULTIPLE_CHOICE]
+> Sabrina is busy because she's going to the mall.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker101: Però a~te~non~piace il   centro~commerciale…
+~           but  you~don't~like the  mall…              
+$1026/speech_1026_7.mp3;4,6;2,335;3,100;4,119;6,161;3,373;8,91;13,436
+
+[LINE]
+Speaker101: …| perché   ci~sono         molte      persone.
+~           …  because  there~are       a~lot~of   people  
+$1026/speech_1026_8.mp3;1,6;7,329;4,332;5,140;12,275;10,331
+
+[LINE]
+Speaker1320: Sì… 
+~            yes…
+$1026/speech_1026_9.mp3;3,6
+
+[LINE]
+Speaker101: E     a~te~non~piacciono le~persone!  
+~           and   you~don't~like     (the)~people 
+$1026/speech_1026_10.mp3;1,6;4,103;3,40;4,135;10,161;3,550;8,99
+
+[MULTIPLE_CHOICE]
+> Why doesn't Sabrina like the mall?
++ Because there are too many people there.
+- Because it's always closed.
+- Because it's too far away.
+
+[LINE]
+Speaker1320: Sì,   però ho~bisogno~di comprare…| qualcosa. 
+~            yes   but  I~need        to~buy…    something 
+$1026/speech_1026_12.mp3;2,6;7,591;3,279;8,144;3,570;10,121;9,1104
+
+[LINE]
+Speaker101: Voglio andare    con~te!  
+~           I~want to~go     with~you 
+$1026/speech_1026_13.mp3;6,6;7,400;7,417;3,251
+
+[LINE]
+Speaker1320: Ma… 
+~            but…
+$1026/speech_1026_14.mp3;3,6
+
+[LINE]
+Speaker101: Per~favore!
+~           please     
+$1026/speech_1026_15.mp3;3,6;7,163
+
+[LINE]
+Speaker1320: Va~bene.
+~            OK      
+$1026/speech_1026_16.mp3;2,6;5,170
+
+[LINE]
+> Tamara e     Sabrina vanno al         centro~commerciale.
+~ ~      and   ~       go    to~the     mall               
+$1026/speech_1026_17.mp3;6,6;2,433;10,26;6,572;3,193;11,113;12,467
+
+[LINE]
+Speaker1320: Oh, no!
+$1026/speech_1026_18.mp3;2,6;4,481
+
+[ARRANGE]
+> Tap what you hear
+Speaker1320: [(Ho~bisogno~di) (comprare) (il~tuo) (regalo~di~compleanno)] …
+~              I~need          to~buy     your     birthday~present        
+$1026/speech_1026_19.mp3;2,6;8,107;3,571;9,120;3,593;4,107;7,156;3,391;11,121
+
+[LINE]
+Speaker1320: …| però il   negozio è  chiuso.
+~            …  but  the  store   is closed 
+$1026/speech_1026_20.mp3;1,6;5,319;3,293;9,123;2,557;7,51
+
+[LINE]
+Speaker1320: Sono  una pessima amica. 
+~            I~am  a   bad     friend 
+$1026/speech_1026_21.mp3;4,6;5,321;8,161;6,464
+
+[MULTIPLE_CHOICE]
+> Sabrina thinks…
+- … the store is open.
+- … she's a good friend.
++ … she's a bad friend.
+
+[LINE]
+Speaker101: Sabrina, a~te~non~piace il   centro~commerciale.
+~           ~        you~don't~like the  mall               
+$1026/speech_1026_23.mp3;7,6;3,891;3,80;4,128;6,161;3,373;8,91;12,457
+
+[LINE]
+Speaker101: Però…| sei       qui… 
+~           but…   you~are   here…
+$1026/speech_1026_24.mp3;5,6;4,726;7,322
+
+[LINE]
+Speaker101: … per~comprare       il~mio regalo~di~compleanno!
+~             in~order~to~buy    my     birthday~present     
+$1026/speech_1026_25.mp3;1,6;4,326;9,195;6,589;4,79;7,158;3,468;11,96
+
+[LINE]
+Speaker101: Sei        un'ottima~amica!   
+~           you~are    a~very~good~friend 
+$1026/speech_1026_26.mp3;3,6;13,301;6,175;1,376
+
+[MULTIPLE_CHOICE]
+> Why does Tamara think Sabrina is a good friend?
++ Because Sabrina went to the mall to buy her a birthday present.
+- Because Sabrina doesn't like people.
+- Because Sabrina's cooking her dinner.
+
+[MATCH]
+> Tap the pairs
+- amica <> friend (f)
+- Oh <> oh
+- qualcosa <> something
+- a te non piace <> you don't like
+- Sì <> yes
+
