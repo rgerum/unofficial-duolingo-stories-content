@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=New Sneakers
+icon=c7b3eabc1e12d46fdff41335bca8b3daa589f0cf
+set=5|8
+
+speaker_Narrator=ru-RU-Wavenet-A
+speaker_Speaker356=ru-RU-Wavenet-B
+speaker_Speaker355=ru-RU-Wavenet-C
+
+[HEADER]
+> Новые кроссовки
+~ New   Sneakers 
+$1221/speech_1221_0.mp3;5,0;10,288
+
+[LINE]
+> Женя и   Даша играют      в~футбол.   
+~ ~    and ~    are~playing (in)~soccer 
+$1221/speech_1221_1.mp3;4,0;2,267.90697674418607;5,107.16279069767444;7,267.906976744186;2,375.06976744186045;7,107.16279069767438
+
+[MULTIPLE_CHOICE]
+> Jenya and Dasha are playing tennis.
++ No, that's not right.
+- Yes, that's true.
+
+[LINE]
+Speaker1649: Даша! Мы играем каждый день.
+~            ~     We play   every  day  
+$1221/speech_1221_3.mp3;4,0;4,304.74418604651163;7,152.37209302325584;7,355.53488372093017;5,355.5348837209302
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "win."
+Speaker2540: (Да).  (И)    (я) (+выигрываю) (каждый) (день).
+~             Yes    And    I    win         every    day   
+$1221/speech_1221_4.mp3;2,0;3,225.3913043478261;3,169.0434782608696;10,112.69565217391306;7,563.4782608695652;5,394.4347826086955
+
+[LINE]
+Speaker1649: Но  не  сегодня...
+~            But not today     
+$1221/speech_1221_5.mp3;2,0;3,62.11764705882353;8,62.11764705882353
+
+[LINE]
+Speaker1649: …потому~что у~меня новые кроссовки!
+~            …because    I~have new   Sneakers  
+$1221/speech_1221_6.mp3;7,32.22857142857143;4,225.6;2,128.9142857142857;5,64.45714285714291;6,161.142857142857;10,193.37142857142874
+
+[MULTIPLE_CHOICE]
+> Jenya thinks that he will win today...
+- …because he spent all night training.
+- …because Dasha has new shoes.
++ …because he has new Sneakers.
+
+[LINE]
+Speaker2540: Они      дорогие?  
+~            Are~they expensive 
+$1221/speech_1221_8.mp3;3,0;8,167.11111111111111
+
+[ARRANGE]
+> Tap what you hear
+Speaker1649: [(Да!)  (Они)      (очень) (дороги)]е!  
+~              Yes    They~are   very    expensive   
+$1221/speech_1221_9.mp3;2,0;5,199.7837837837838;6,199.7837837837838;8,299.6756756756756
+
+[LINE]
+Speaker2540: Значит теперь ты~будешь отлично~играть?
+~            So     now    you~will  play~perfectly 
+$1221/speech_1221_10.mp3;6,0;7,345.3333333333333;3,345.3333333333333;7,148.0000000000001;8,345.33333333333326;7,394.6666666666665
+
+[LINE]
+Speaker1649: Да!  С    этими кроссовками я буду выигрывать в    любой игре!
+~            Yes  With these Sneakers    I will win        (in) any   game 
+$1221/speech_1221_11.mp3;2,0;3,150.17821782178217;6,75.0891089108911;12,225.26732673267327;2,450.53465346534654;5,75.08910891089113;11,187.7227722772277;2,412.99009900990086;6,75.08910891089113;5,225.26732673267338
+
+[LINE]
+> Даша берёт мяч      и   забивает гол.   
+~ ~    takes the~ball and scores   a~goal 
+$1221/speech_1221_12.mp3;4,0;6,286.3636363636364;4,343.6363636363636;2,229.090909090909;9,114.54545454545462;4,515.4545454545456
+
+[MULTIPLE_CHOICE]
+> What has just happened?
+- Jenya took off his shoes.
+- Dasha decided to let Jenya win.
++ Dasha has scored a goal.
+
+[LINE]
+Speaker2540: Ура!    Гол! 
+~            Hooray  Goal 
+$1221/speech_1221_14.mp3;3,0;5,260
+
+[LINE]
+Speaker1649: Как~же~так…|  у~меня же         новые кроссовки!
+~            How~is~that…  I~have (emphasis) new   Sneakers  
+$1221/speech_1221_15.mp3;3,0;3,206.49056603773585;5,154.8679245283019;2,258.11320754716985;5,103.2452830188679;3,258.11320754716974;6,154.86792452830207;10,309.7358490566037
+
+[LINE]
+Speaker2540: Мне не~нужны   дорогие   кроссовки, чтобы         выигрывать!
+~            I   don't~need expensive Sneakers   (in~order)~to win        
+$1221/speech_1221_16.mp3;3,0;3,211.5;6,158.625;8,317.25;10,423;7,581.625;11,317.25
+
+[LINE]
+Speaker1649: Мне~не~нравятся мои новые кроссовки.
+~            I~don't~like    my  new   Sneakers  
+$1221/speech_1221_17.mp3;3,0;3,186.35294117647058;9,139.76470588235296;4,419.2941176470588;6,186.3529411764706;10,279.52941176470586
+
+[LINE]
+Speaker2540: А   мне нравятся!    Я хочу такие~же!       
+~            But I   like~(them)  I want the~same~(ones) 
+$1221/speech_1221_18.mp3;1,0;4,111.31914893617021;9,222.6382978723404;3,556.5957446808511;5,111.31914893617022;6,278.29787234042544;3,333.95744680851067
+
+[MULTIPLE_CHOICE]
+> What does Dasha mean?
++ She likes Jenya's Sneakers and wants the same pair.
+- She wants to sell Jenya's Sneakers.
+- Jenya will become a professional soccer player.
+
+[MATCH]
+> Tap the pairs
+- every <> каждый
+- I want <> я хочу
+- I don't need <> мне не нужны
+- I have <> у меня (есть)
+- expensive <> дорогие
+
