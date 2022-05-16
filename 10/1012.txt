@@ -1,0 +1,152 @@
+[DATA]
+fromLanguageName=Saturday Night
+icon=09cbfe4b009b6617a05701652d4210d552d0f5a2
+set=1|10
+
+speaker_Speaker121=Carla
+speaker_Speaker122=Giorgio
+
+[HEADER]
+> Sabato~sera   
+~ Saturday~night
+$1012/speech_1012_0.mp3;6,6;5,507
+
+[LINE]
+> Vittoria parla con   il~suo~amico,   Paolo, al~lavoro.
+~ ~        talks with  her~friend      ~      at~work   
+$1012/speech_1012_1.mp3;8,6;6,543;4,414;4,181;4,113;6,227;9,707;4,731;7,117
+
+[LINE]
+Speaker336: Ciao  Paolo!
+~           hello ~     
+$1012/speech_1012_2.mp3;4,6;6,289
+
+[LINE]
+Speaker336: Hai               impegni per il   fine~settimana?
+~           Do~you~have       plans   for the  weekend        
+$1012/speech_1012_3.mp3;3,6;14,139;4,407;3,164;6,116;10,327
+
+[MULTIPLE_CHOICE]
+> Vittoria is asking Paolo if he has plans for the weekend.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker2243: Ho      un biglietto per un concerto per~sabato. 
+~            I~have  a  ticket    for a  concert  on~Saturday 
+$1012/speech_1012_5.mp3;2,6;4,85;10,129;4,377;3,154;9,96;4,499;7,154
+
+[LINE]
+Speaker2243: È         un nuovo gruppo~musicale, "Le  sorelle".
+~            it~is     a  new   band              the sisters  
+$1012/speech_1012_6.mp3;1,6;7,90;6,117;7,268;9,293;5,839;8,127
+
+[LINE]
+Speaker2243: Vuoi         andare    con~me? 
+~            Do~you~want  to~go     with~me 
+$1012/speech_1012_7.mp3;4,6;8,307;7,387;3,147
+
+[MULTIPLE_CHOICE]
+> Paolo wants to know…
+- … what kind of music Vittoria likes.
++ … if Vittoria wants to go to a concert on Saturday.
+- … if Vittoria is working on Saturday.
+
+[LINE]
+Speaker336: Ahh…
+$1012/speech_1012_9.mp3;4,6
+
+[LINE]
+Speaker2243: Hai           impegni per il   fine~settimana?
+~            Do~you~have   plans   for the  weekend        
+$1012/speech_1012_10.mp3;3,6;10,166;4,310;3,170;6,95;10,257
+
+[LINE]
+Speaker336: Ahh…
+$1012/speech_1012_11.mp3;4,6
+
+[LINE]
+Speaker336: Sì!   Una partita~di~calcio sabato.     
+~           yes   a   soccer~game       on~Saturday 
+$1012/speech_1012_12.mp3;2,6;6,692;8,215;3,491;7,105;7,465
+
+[MULTIPLE_CHOICE]
+> Where is Vittoria going on Saturday?
++ To a soccer game.
+- To an American football game.
+- To a rugby game.
+
+[LINE]
+Speaker2243: Che~bello!
+~            how~fun   
+$1012/speech_1012_14.mp3;3,6;6,102
+
+[LINE]
+Speaker2243: Goditi la   partita!
+~            enjoy  the  game    
+$1012/speech_1012_15.mp3;6,6;3,421;9,109
+
+[SELECT_PHRASE]
+> Select the missing phrase
+> [Sabato            sera], Paolo è              al concerto.
+~  on~Saturday~night ~      is    at~the~concert ~  ~        
+$1012/speech_1012_16.mp3;6,6;5,507;7,717;2,404;3,62;9,139
+- E sabato al corteo
+- Sabato nella notte
++ Sabato sera
+
+[LINE]
+> Il   concerto comincia.
+~ the  concert  starts   
+$1012/speech_1012_17.mp3;2,6;10,160;9,633
+
+[LINE]
+Speaker2243: La   ragazza con   la   chitarra…
+~            the  girl    with  the  guitar…  
+$1012/speech_1012_18.mp3;2,6;9,147;4,407;4,183;11,95
+
+[LINE]
+Speaker2243: È…|~     Vittoria?
+~            she~is… ~         
+$1012/speech_1012_19.mp3;2,6;9,735
+
+[MULTIPLE_CHOICE]
+> Why is Paolo confused?
+- Vittoria is calling him.
+- The show hasn't started yet.
++ Vittoria is the guitarist for the band.
+
+[LINE]
+> Alla~fine    del       concerto, Paolo parla con  Vittoria.
+~ at~the~end   of~the    concert   ~     talks with ~        
+$1012/speech_1012_21.mp3;4,6;5,232;6,309;12,184;7,979;6,379;4,396;9,231
+
+[LINE]
+Speaker2243: Una partita~di~calcio, eh?
+~            a   soccer~game        ~  
+$1012/speech_1012_22.mp3;3,6;8,189;3,396;7,99;4,708
+
+[LINE]
+Speaker336: Sorpresa!
+~           surprise 
+$1012/speech_1012_23.mp3;8,6
+
+[LINE]
+Speaker2243: Sei        molto  brava con   la   chitarra!
+~            you~are    very   good  with  the  guitar   
+$1012/speech_1012_24.mp3;3,6;9,299;7,283;4,280;4,184;10,94
+
+[MULTIPLE_CHOICE]
+> What does Paolo mean?
++ He thinks Vittoria is a great guitarist.
+- He wants to be in Vittoria's band.
+- He thinks Vittoria is a terrible guitarist.
+
+[MATCH]
+> Tap the pairs
+- al concerto <> at the concert
+- con <> with
+- partita <> game
+- Che bello <> how fun
+- impegni <> plans
+
