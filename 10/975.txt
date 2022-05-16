@@ -1,0 +1,164 @@
+[DATA]
+fromLanguageName=A Date
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+speaker_Speaker100=Giorgio
+speaker_Speaker99=Carla
+speaker_Speaker101=Bianca
+
+[HEADER]
+> L'appuntamento
+~ A~date        
+$975/speech_975_0.mp3;14,6
+
+[LINE]
+> Giulia è  in un ristorante per un appuntamento.
+~ ~      is in a  restaurant for a  date         
+$975/speech_975_1.mp3;6,6;2,419;3,76;3,144;11,110;4,692;3,171;13,135
+
+[LINE]
+Speaker100: Cosa vuoi          mangiare?
+~           What do~(you)~want to~eat   
+$975/speech_975_2.mp3;4,6;5,283;9,214
+
+[MULTIPLE_CHOICE]
+> Giulia's date is asking…
+- … where to find the restaurant.
+- … how much the food costs.
++ … what Giulia wants to eat.
+
+[LINE]
+Speaker336: Un'insalata.
+~           A~salad     
+$975/speech_975_4.mp3;11,6
+
+[LINE]
+Speaker336: Io non   mangio carne.
+~           I  don't eat    meat  
+$975/speech_975_5.mp3;2,6;4,222;7,192;6,453
+
+[LINE]
+Speaker100: Sei       vegetariana?
+~           Are~(you) vegetarian  
+$975/speech_975_6.mp3;3,6;12,297
+
+[LINE]
+Speaker336: Sì… 
+~           Yes…
+$975/speech_975_7.mp3;3,6
+
+[LINE]
+Speaker100: Anche~io!
+~           Me~too   
+$975/speech_975_8.mp3;5,6;3,278
+
+[MULTIPLE_CHOICE]
+> Why did he say that?
+- He hates salads.
++ He is also a vegetarian.
+- He loves to eat meat.
+
+[LINE]
+Speaker336: Ah, ottimo!
+~           Oh  great  
+$975/speech_975_10.mp3;2,6;8,470
+
+[LINE]
+Speaker336: Sei       francese?
+~           Are~(you) French   
+$975/speech_975_11.mp3;3,6;9,338
+
+[ARRANGE]
+> Tap what you hear
+Speaker100: [(No), (sono)   (inglese)].
+~             No    (I)~am   English   
+$975/speech_975_12.mp3;2,6;6,466;8,283
+
+[LINE]
+Speaker100: Mio padre  è  canadese e   mia madre  è  spagnola.
+~           My  father is Canadian and my  mother is Spanish  
+$975/speech_975_13.mp3;3,6;6,174;2,324;9,89;2,557;4,38;6,168;2,316;9,51
+
+[LINE]
+Speaker336: Io sono canadese!
+~           I  am   Canadian 
+$975/speech_975_14.mp3;2,6;5,197;9,292
+
+[LINE]
+Speaker100: Adoro    il~Canada!
+~           (I)~love Canada    
+$975/speech_975_15.mp3;5,6;3,393;7,96
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker100: Tu     hai  un [animale domestico], Anna?
+~           Do~you have a   pet     ~           ~    
+$975/speech_975_16.mp3;2,6;4,143;3,156;8,143;10,398;6,886
+- agli animali domestici
+- gli animali di campagna
++ animale domestico
+
+[LINE]
+Speaker336: Sì,  ho       tre   gatti e…  
+~           Yes  (I)~have three cats  and…
+$975/speech_975_17.mp3;2,6;4,560;4,106;6,294;3,607
+
+[LINE]
+> Giulia è  sorpresa. 
+~ ~      is surprised 
+$975/speech_975_18.mp3;6,6;2,409;9,25
+
+[LINE]
+Speaker336: Anna?! Io~mi~chiamo Giulia.
+~           ~      My~name~is   ~      
+$975/speech_975_19.mp3;4,6;5,793;3,197;7,108;7,373
+
+[LINE]
+Speaker336: E   tu~ti~chiami Sebastiano?
+~           And is~your~name ~          
+$975/speech_975_20.mp3;1,6;3,105;3,225;7,152;11,345
+
+[LINE]
+Speaker100: No, io sono Paolo!
+~           No  I  am   ~     
+$975/speech_975_21.mp3;2,6;4,479;5,123;6,245
+
+[MULTIPLE_CHOICE]
+> Giulia and Paolo were supposed to meet different people.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+> Una donna arriva  al     ristorante.
+~ A   woman arrives at~the restaurant 
+$975/speech_975_23.mp3;3,6;6,200;7,332;3,474;11,132
+
+[LINE]
+Speaker101: Ciao! Tu  sei Paolo? Io sono Anna.
+~           Hi    Are you ~      I  am   ~    
+$975/speech_975_24.mp3;4,6;4,919;4,159;6,285;4,952;5,190;5,370
+
+[LINE]
+Speaker100: Ehm…| no…| io~mi~chiamo Sebastiano.
+~           Uh…   no…  my~name~is   ~          
+$975/speech_975_25.mp3;4,6;4,747;3,690;3,183;7,106;11,308
+
+[MULTIPLE_CHOICE]
+> At the end of the story, Paolo…
+- … was tired of talking to Giulia.
++ … lied to his real date because he likes Giulia.
+- … met someone named Sebastiano.
+
+[MATCH]
+> Tap the pairs
+- padre <> father
+- madre <> mother
+- gatti <> cats
+- sì <> yes
+- io <> I
+- francese <> French
+- inglese <> English
+- canadese <> Canadian
+- spagnolo/spagnola <> Spanish (m/f)
+
