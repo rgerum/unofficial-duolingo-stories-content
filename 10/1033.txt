@@ -1,0 +1,158 @@
+[DATA]
+fromLanguageName=The Garden
+icon=b4090fb3357cd46aa8eac9f22c4fbbe3265d273e
+set=3|4
+
+speaker_Speaker130=Giorgio
+speaker_Speaker129=Carla
+
+[HEADER]
+> Il   giardino
+~ the  garden  
+$1033/speech_1033_0.mp3;2,6;10,133
+
+[LINE]
+> Stefano visita sua~nonna             malata all'ospedale.   
+~ ~       visits his~grandmother       sick   at~the~hospital 
+$1033/speech_1033_1.mp3;7,6;7,561;4,468;6,200;13,354;13,447;1,100
+
+[LINE]
+Speaker3135: Ciao,   nonna!      
+~            hello   grandmother 
+$1033/speech_1033_2.mp3;4,6;8,634
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker3135: Come [ti     senti      oggi]?
+~            how   do~you feel~today ~     
+$1033/speech_1033_3.mp3;4,6;3,253;6,114;5,458
+- mi sente oggi
+- si sentono oggi
++ ti senti oggi
+
+[LINE]
+Speaker3233: Sto  bene…
+~            I~am fine…
+$1033/speech_1033_4.mp3;3,6;6,315
+
+[LINE]
+Speaker3135: Oggi    è  un bel    giorno.
+~            today   is a  pretty day    
+$1033/speech_1033_5.mp3;4,6;4,325;3,114;4,105;7,182
+
+[LINE]
+Speaker3233: Sì. 
+~            yes 
+$1033/speech_1033_6.mp3;2,6
+
+[LINE]
+Speaker3135: Stai      bene?
+~            are~you   fine 
+$1033/speech_1033_7.mp3;4,6;7,291
+
+[LINE]
+Speaker3233: Questa stanza è  molto  triste, non~ha          colore.
+~            this   room   is very   sad     it~doesn't~have color  
+$1033/speech_1033_8.mp3;6,6;7,360;2,506;6,93;8,440;5,744;3,236;7,106
+
+[LINE]
+Speaker3233: Voglio godermi  il   sole.
+~            I~want to~enjoy the  sun  
+$1033/speech_1033_9.mp3;6,6;8,375;3,549;6,98
+
+[LINE]
+Speaker3233: Però non~mi~sento molto  bene ora.
+~            but  I~don't~feel very   good now 
+$1033/speech_1033_10.mp3;4,6;4,368;3,194;6,130;6,444;6,382;4,327
+
+[MULTIPLE_CHOICE]
+> Stefano's grandmother doesn't feel well enough to enjoy the sun outside.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker3135: Mi~dispiace, nonna.      
+~            I'm~sorry    grandmother 
+$1033/speech_1033_12.mp3;2,6;9,113;7,771
+
+[LINE]
+Speaker3233: Adoro  lavorare nel     giardino di casa~mia…
+~            I~love to~work  in~the  garden   of my~house…
+$1033/speech_1033_13.mp3;5,6;9,406;4,488;10,173;3,439;5,119;5,412
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker3135: Ah! [Ho             un'idea].
+~            ~    I~have~an~idea ~        
+$1033/speech_1033_14.mp3;2,6;4,631;8,97
+- Ho un ideale
++ Ho un'idea
+- Hai un'idea
+
+[LINE]
+Speaker3135: Un   momento!
+~            one  moment  
+$1033/speech_1033_15.mp3;2,6;9,149
+
+[CONTINUATION]
+> What comes next?
+> Venti  minuti  [dopo……
+~ twenty minutes  later 
+$1033/speech_1033_16.mp3;5,6;7,387;6,386
+- ora
+~ now
++ dopo 
+~ later
+- domani  
+~ tomorrow
+
+[LINE]
+> Stefano entra   nella   stanza con   due grandi piante.
+~ ~       enters  in~the  room   with  two big    plants 
+$1033/speech_1033_17.mp3;7,6;6,633;7,476;8,224;4,507;5,262;7,210;7,395
+
+[LINE]
+Speaker3135: Queste sono di     casa~tua.  
+~            these  are  from   your~house 
+$1033/speech_1033_18.mp3;6,6;5,314;3,275;7,129;4,311
+
+[LINE]
+Speaker3135: E     ho~anche    dei  fiori    del    tuo    giardino.
+~            and   also~I~have some flowers  from   your   garden   
+$1033/speech_1033_19.mp3;1,6;5,93;6,128;4,217;6,211;5,264;6,164;11,167
+
+[LINE]
+Speaker3233: Le~mie piante e     i~miei fiori!  
+~            my     plants and   my     flowers 
+$1033/speech_1033_20.mp3;2,6;4,164;7,178;2,441;4,74;5,92;6,280
+
+[ARRANGE]
+> Tap what you hear
+Speaker3135: [(Ora) (hai)      (il~tuo) (giardino) (qui)]! 
+~              now   you~have   your     garden     here   
+$1033/speech_1033_21.mp3;3,6;4,227;3,96;4,78;9,170;4,460
+
+[LINE]
+Speaker3233: Che~bello,  amore~mio.
+~            how~pretty  my~love   
+$1033/speech_1033_22.mp3;3,6;6,127;7,685;4,346
+
+[LINE]
+Speaker3233: Grazie~mille,        Stefano!
+~            thank~you~very~much  ~       
+$1033/speech_1033_23.mp3;6,6;6,484;9,640
+
+[MULTIPLE_CHOICE]
+> What did Stefano do?
+- Took his grandmother back to her house.
+- Bought his grandmother a new pair of sunglasses.
++ Brought plants and flowers from his grandmother's garden to the hospital.
+
+[MATCH]
+> Tap the pairs
+- Venti <> twenty
+- un <> a
+- sua nonna <> his grandmother
+- di <> of
+- amore <> love
+
