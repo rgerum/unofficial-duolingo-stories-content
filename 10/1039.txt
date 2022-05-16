@@ -1,0 +1,167 @@
+[DATA]
+fromLanguageName=The Tourist
+icon=c28cb69bf3836fd092352596d98fc29a300c70ce
+set=3|10
+
+speaker_Speaker139=Giorgio
+speaker_Speaker140=Carla
+
+[HEADER]
+> Il   turista
+~ the  tourist
+$1039/speech_1039_0.mp3;2,6;9,172
+
+[LINE]
+> Hans è  in~visita~a Napoli.
+~ ~    is visiting    Naples 
+$1039/speech_1039_1.mp3;4,6;2,358;3,83;7,116;2,462;7,61
+
+[LINE]
+> Lui ha~bisogno~di una~mano per trovare un parco.
+~ he  needs         help     to  find    a  park  
+$1039/speech_1039_2.mp3;3,6;3,399;8,68;3,443;4,104;5,155;4,300;8,192;3,417;6,96
+
+[MULTIPLE_CHOICE]
+> Hans is a tourist who needs help finding a park.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker2243: Scusa, sai         dov'è    il   Parco~delle~Rimembranze?
+~            sorry  do~you~know where~is the  Remembrance's~Park      
+$1039/speech_1039_4.mp3;5,6;5,678;6,236;3,260;7,80;6,315;12,202
+
+[LINE]
+Speaker856: Devi     prendere   la   metro. 
+~           you~need to~take    the  subway 
+$1039/speech_1039_5.mp3;4,6;9,369;5,511;7,123
+
+[ARRANGE]
+> Tap what you hear
+Speaker856: [(C'è)      (una) (stazione) (qui~vicino)].
+~             there~is   a     station    near~here    
+$1039/speech_1039_6.mp3;3,6;4,177;9,206;4,646;7,263
+
+[LINE]
+Speaker2243: Grazie~mille!       
+~            thank~you~very~much 
+$1039/speech_1039_7.mp3;6,6;6,426
+
+[LINE]
+Speaker856: Prego.         
+~           you're~welcome 
+$1039/speech_1039_8.mp3;5,6
+
+[LINE]
+Speaker856: Di~dove~sei?       
+~           where~are~you~from 
+$1039/speech_1039_9.mp3;2,6;5,178;4,274
+
+[LINE]
+Speaker2243: Sono  di     Berlino.
+~            I~am  from   Berlin  
+$1039/speech_1039_10.mp3;4,6;4,280;10,101
+
+[LINE]
+Speaker856: Ah, adoro  Berlino!
+~           Ah  I~love Berlin  
+$1039/speech_1039_11.mp3;2,6;7,476;8,427
+
+[MULTIPLE_CHOICE]
+> How does she feel about Berlin?
++ She loves it.
+- She thinks it's a boring city.
+- She has never been there.
+
+[LINE]
+Speaker856: Io studio tedesco!
+~           I  study  German  
+$1039/speech_1039_13.mp3;2,6;7,197;8,374
+
+[LINE]
+Speaker2243: Che~coincidenza!   
+~            what~a~coincidence 
+$1039/speech_1039_14.mp3;3,6;12,143
+
+[LINE]
+Speaker856: Sei       in~vacanza? 
+~           are~you   on~vacation 
+$1039/speech_1039_15.mp3;3,6;5,240;8,108
+
+[LINE]
+Speaker2243: No, sono qui  per studiare   l'italiano.
+~            No  I~am here to  study      Italian    
+$1039/speech_1039_16.mp3;2,6;6,473;4,328;4,155;9,199;13,431
+
+[CONTINUATION]
+> What comes next?
+Speaker2243: E     anche~perché voglio [conoscere la   città]!
+~            and   also~because I~want  to~know   the  city   
+$1039/speech_1039_17.mp3;1,6;8,101;7,255;7,286;10,302;3,471;7,106
+- studiare il     tedesco
+~ to~study German ~      
+- comprare un nuovo cappello
+~ to~buy   a  new   hat     
++ conoscere la   città
+~ to~know   the  city 
+
+[LINE]
+Speaker856: Bene!
+~           good 
+$1039/speech_1039_18.mp3;4,6
+
+[LINE]
+Speaker856: Sono Andrea. E     tu? 
+~           I~am ~       and   you 
+$1039/speech_1039_19.mp3;4,6;7,215;3,843;5,100
+
+[LINE]
+Speaker2243: Sono Hans.
+~            I~am ~    
+$1039/speech_1039_20.mp3;4,6;5,309
+
+[LINE]
+Speaker856: Piacere~di~conoscerti.
+~           nice~to~meet~you      
+$1039/speech_1039_21.mp3;7,6;3,455;11,107
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "I would like."
+Speaker856: (+Mi~piacerebbe)  (parlare)  di~più  (con~te),    però (me~ne~devo) andare.
+~             I~would~like     to~talk   more     with~you    but   I~have~to   go     
+$1039/speech_1039_22.mp3;2,6;11,177;9,566;4,523;4,93;5,238;3,289;7,517;3,345;3,161;5,116;7,217
+
+[LINE]
+Speaker856: I~miei amici    sono al      parco.
+~           my     friends  are  in~the  park  
+$1039/speech_1039_23.mp3;1,6;5,341;6,394;6,288;3,64
+
+[LINE]
+Speaker2243: Ah…| Va~bene.    
+~            Ah…  that's~okay 
+$1039/speech_1039_24.mp3;3,6;3,631;5,169
+
+[LINE]
+Speaker856: Mmm…| Vuoi         venire? 
+~           Mmm…  do~you~want  to~come 
+$1039/speech_1039_25.mp3;4,6;5,538;8,249
+
+[LINE]
+Speaker2243: Sì!   Certo!    
+~            yes   of~course 
+$1039/speech_1039_26.mp3;2,6;8,727
+
+[MULTIPLE_CHOICE]
+> Hans happily accepted…
+- … going to Andrea's school.
+- … a plane ticket to Germany.
++ … going to the park with Andrea.
+
+[MATCH]
+> Tap the pairs
+- Io <> I
+- per <> to
+- parlare <> to talk
+- I miei <> my
+- italiano <> Italian
+
