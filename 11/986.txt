@@ -1,0 +1,154 @@
+[DATA]
+fromLanguageName=The New Mall
+icon=22d80e422eeb2f9e860d1f014edf989ff6257372
+set=3|7
+
+speaker_Narrator=hi-IN-SwaraNeural
+speaker_Rohit=hi-IN-Wavenet-C
+speaker_Sheela=hi-IN-Wavenet-A
+
+[HEADER]
+> नया~शॉपिंग~माॅल!
+~ The~new~mall    
+$986/speech_986_0.mp3;3,0;7,213.6774193548387;5,373.9354838709678
+
+[LINE]
+> शीला   ट्रेन       पर एक अख़बार    पढ़~रही~है.      
+~ Sheela (the)~train on a  newspaper (she)~is~reading 
+$986/speech_986_1.mp3;4,0;6,345.6;3,414.72;3,207.36;7,207.36000000000013;4,483.8399999999997;4,276.48000000000025;3,276.48
+
+[LINE]
+Speaker1320: अरे!
+~            Wow 
+$986/speech_986_2.mp3;3,6
+
+[LINE]
+Speaker258: क्या हुआ?!     
+~           What happened  
+$986/speech_986_3.mp3;4,0;4,177.60000000000002
+
+[LINE]
+Speaker1320: शहर      में एक नया माॅल है!      
+~            The~city in  a  new mall there~is 
+$986/speech_986_4.mp3;3,6;4,454;3,278;4,226;5,302;3,330
+
+[MULTIPLE_CHOICE]
+> There is a new shopping mall in their city.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker258: सच~में?
+~           Really 
+$986/speech_986_6.mp3;2,0;4,117.81818181818181
+
+[LINE]
+Speaker1320: हाँ, और  उसके~अंदर   एक 3D सिनेमा है!      
+~            Yes  and inside~(it) a  ~  cinema there~is 
+$986/speech_986_7.mp3;3,6;4,676;5,115;5,340;3,319;3,196;7,413;3,506
+
+[LINE]
+Speaker1320: और  वह   चीनी    रेस्तरॉन्त कि   तुम्हें पसंद~है वहाँ  भी   है!   
+~            And that Chinese restaurant that you     like    there also it~is 
+$986/speech_986_8.mp3;2,6;3,194;5,301;11,425;3,765;8,188;5,341;3,454;5,196;3,315;3,216
+
+[CONTINUATION]
+> Select the missing phrase
+Speaker258: [क्या अब हमें वहाँ जाना चाहिए?!]!
++ क्या~अब~हमें~वहाँ~जाना~चाहिए?!
+~ Should~we~go~there~now        
+- मुझे~वह~रेस्तरॉन्त~बहुत~पसंद~है!
+~ I~like~that~restaurant~a~lot    
+- मुझे~वह~रेस्तरॉन्त~नहीं~पसंद~है!
+~ I~don't~like~that~restaurant    
+
+[LINE]
+Speaker258: दिल्ली~में कहाँ  है?   
+~           In~Delhi   where is~it 
+$986/speech_986_10.mp3;6,0;4,266.8235294117647;5,152.47058823529414;3,190.58823529411762
+
+[LINE]
+Speaker1320: ओह, ... वह पी.~एल~पंत~सड़क                  पर है?     
+~            Oh      it P~(letter) ~L~(letter)~Pant~road on (it)~is 
+$986/speech_986_11.mp3;2,6;8,506;3,303;4,761;4,149;5,307;3,377;3,176
+
+[LINE]
+Speaker258: पी.~एल~पंत~सड़क                  कहाँ  है    मैं~नहीं~जानता~हूँ...
+~           P~(letter) ~L~(letter)~Pant~road where it~is I~do~not~know        
+$986/speech_986_12.mp3;2,0;4,193.6;4,145.20000000000002;5,193.59999999999997;5,242;3,242;4,145.20000000000016;5,193.5999999999999;6,242;4,290.4000000000001
+
+[ARRANGE]
+> Select the words in the correct order:
+Speaker258: [(क्या) (मैं) (वह) (अख़बार) (देख सकता हू)]ँ?
+$986/speech_986_13.mp3;4,0;4,229.7872340425532;3,183.82978723404253;7,137.87234042553195;4,321.70212765957444;5,183.82978723404256;4,229.7872340425531
+
+[LINE]
+Speaker1320: यहाँ है.   
+~            Here it~is 
+$986/speech_986_14.mp3;4,6;3,432
+
+[LINE]
+Speaker258: शीला…
+$986/speech_986_15.mp3;5,0
+
+[LINE]
+Speaker258: यह   नया शॉपिंग~माॅल   नया नहीं~है...    
+~           This new shopping~mall new (it)~is~not   
+$986/speech_986_16.mp3;2,0;4,145.5;7,194;5,339.5;4,242.5;5,194;3,242.5
+
+[LINE]
+Speaker258: हम यह   माॅल जानते~हैं!
+~           We this mall know      
+$986/speech_986_17.mp3;2,0;3,144;5,144;6,240;4,288
+
+[MULTIPLE_CHOICE]
+> What does " हम जानते हैं!" mean here?
+- What is it!
++ We know (it)!
+- It's not real!
+
+[LINE]
+Speaker258: केवल उसका नाम  नया है!
+~           Only it's name new is 
+$986/speech_986_19.mp3;4,0;5,250;4,250;4,200;3,200
+
+[MULTIPLE_CHOICE]
+> The mall…
+- … is closing down.
++ … is the same one they usually go to, but it has a new name.
+- … is new, but it's not in Delhi.
+
+[LINE]
+Speaker1320: ओह, वह~क्योंकि मुझे पसंद~है!
+~            Oh  that's~why I    like~it 
+$986/speech_986_21.mp3;2,0;4,196.46511627906978;8,147.34883720930236;5,392.93023255813955;5,245.5813953488372;3,245.5813953488372
+
+[LINE]
+Speaker1320: अच्छा, तो   क्या                हमें यह   'नया'| शॉपिंग~माॅल   जाना    चाहिए? 
+~            Okay   then (should~(question)) we   this 'new'  shopping~mall go~(to) should 
+$986/speech_986_22.mp3;5,0;4,408.7164179104478;5,175.16417910447757;5,291.9402985074628;3,291.94029850746256;6,175.16417910447763;7,350.32835820895525;5,408.71641791044794;5,291.94029850746256;6,291.94029850746256
+
+[LINE]
+Speaker1320: हम सिनेमा जा सकते~हैं और  चीनी    खाना खा  सकते~हैं...!
+~            We cinema go can      and Chinese food eat can         
+$986/speech_986_23.mp3;2,0;7,147.32307692307694;3,343.75384615384615;5,147.323076923077;4,245.53846153846155;3,196.43076923076922;5,147.323076923077;5,245.53846153846143;3,245.53846153846143;5,147.323076923077;4,245.53846153846143
+
+[LINE]
+Speaker258: ... तो,...   अच्छा!  
+~               then     alright 
+$986/speech_986_24.mp3;0,126;6,220.5
+
+[MULTIPLE_CHOICE]
+> What are they going to do?
++ Go to the movies and eat Chinese food at the mall.
+- Stay home and order Chinese food.
+- Go to a new mall in China.
+
+[MATCH]
+> Tap the pairs
+- चीनी <> Chinese
+- (शॉपिंग) माॅल <> (shopping) mall
+- क्या ... को ... चाहिए? <> Should (someone)?
+- हम जानते हैं <> We know
+- सिनेमा <> cinema
+
