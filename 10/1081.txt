@@ -1,0 +1,124 @@
+[DATA]
+fromLanguageName=The Farm
+icon=91023e19762be713ac3b9ec727924006b6ca8ce0
+set=4|8
+
+speaker_Speaker408=Carla
+speaker_Speaker409=it-IT-Wavenet-A
+
+[HEADER]
+> La  fattoria
+~ the farm    
+$1081/speech_1081_0.mp3;2,6;9,183
+
+[LINE]
+> Linda visita la   fattoria di sua sorella, Teresa.
+~ ~     visits the  farm     of her sister   ~      
+$1081/speech_1081_1.mp3;5,6;7,452;3,466;10,105;3,503;4,120;8,239;8,812
+
+[MULTIPLE_CHOICE]
+> Linda's visiting her uncle's farm.
++ No, that's not right.
+- Yes, that's true.
+
+[LINE]
+Speaker659: Ciao,   Linda! Sono molto felice di vederti!
+~           hello   ~      I~am very  happy  to see~you 
+$1081/speech_1081_3.mp3;4,6;8,532;6,835;6,296;7,369;3,449;8,123
+
+[LINE]
+Speaker658: Teresa! Tu  vivi molto lontano  dalla    città.
+~           ~       you live very  far~away from~the city  
+$1081/speech_1081_4.mp3;6,0;4,451.36842105263156;5,169.26315789473688;6,282.1052631578947;8,338.52631578947376;6,451.36842105263145;6,338.52631578947376
+
+[LINE]
+Speaker659: Per~questo mi~piace vivere  qui! 
+~           that's~why I~like   to~live here 
+$1081/speech_1081_5.mp3;3,6;7,182;3,436;6,121;7,434;4,367
+
+[MULTIPLE_CHOICE]
+> The farm is very far from the city, that's why…
+- … Teresa is moving to the city center.
++ … Teresa likes to live there.
+- … Teresa hates to live there.
+
+[LINE]
+Speaker658: Quello~è un…| cavallo?
+~           is~that  a…   horse   
+$1081/speech_1081_7.mp3;6,0;2,364;4,104;8,208
+
+[LINE]
+Speaker659: Sì!   Questa è  una fattoria!
+~           yes   this   is a   farm     
+$1081/speech_1081_8.mp3;2,6;9,692;2,445;4,131;9,204
+
+[LINE]
+Speaker658: Questo posto è  molto diverso   dalla    città.
+~           this   place is very  different from~the city  
+$1081/speech_1081_9.mp3;6,0;6,378;2,324;6,108;8,324;6,432.0000000000002;6,323.9999999999998
+
+[LINE]
+Speaker659: Eh, sì!  In     città c'è      molto    rumore.
+~           Eh  yes  in~the city  there~is a~lot~of noise  
+$1081/speech_1081_10.mp3;2,6;4,485;4,738;6,175;4,434;6,186;7,350
+
+[MULTIPLE_CHOICE]
+> There's a lot of noise…
+- … on the farm.
+- … inside Teresa's head.
++ … in the city.
+
+[LINE]
+Speaker658: Cos'è   quel rumore?
+~           what~is that noise  
+$1081/speech_1081_12.mp3;5,0;5,279.27272727272725;7,232.72727272727275
+
+[LINE]
+Speaker659: I~miei animali! Ho~anche    tre   cani e   cinque polli.   
+~           my     animals  I~also~have three dogs and five   chickens 
+$1081/speech_1081_13.mp3;1,6;5,337;8,913;4,101;6,308;4,211;5,506;2,137;7,394
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "the smell."
+Speaker658: (Non~mi~piace)  (+l'odore)    (dei) tuoi animali!
+~            I~don't~like     the~smell    of   your animals 
+$1081/speech_1081_14.mp3;3,0;3,197.23636363636362;6,147.9272727272727;9,345.16363636363633;5,443.78181818181815;5,197.23636363636365;8,246.5454545454545
+
+[LINE]
+Speaker659: Vuoi        mangiare qualcosa? 
+~           do~you~want to~eat   something 
+$1081/speech_1081_15.mp3;4,6;9,263;9,492
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker659: Ho     dei  panini     [in             cucina].
+~           I~have some sandwiches  in~the~kitchen ~       
+$1081/speech_1081_16.mp3;2,6;4,140;7,173;3,421;7,108
+- in cantina
++ in cucina
+- con la vicina
+
+[LINE]
+Speaker658: No, grazie.   
+~           No  thank~you 
+$1081/speech_1081_17.mp3;2,0;8,188.30769230769232
+
+[LINE]
+Speaker658: Voglio un taxi per~tornare         in     città, per~favore!
+~           I~want a  taxi in~order~to~go~back to~the city   please     
+$1081/speech_1081_18.mp3;6,0;3,394.66666666666663;5,169.1428571428571;4,281.9047619047619;8,225.52380952380952;3,451.04761904761904;6,169.1428571428571;5,394.66666666666674;7,225.52380952380963
+
+[MULTIPLE_CHOICE]
+> What does Linda mean?
++ She wants to leave the farm and go back to the city.
+- She wants to move to the countryside with her sister.
+- She would like to eat some sandwiches.
+
+[MATCH]
+> Tap the pairs
+- per andare <> in order to go
+- vivi <> live
+- fattoria <> farm
+- di <> of
+- i tuoi animali <> your animals
+
