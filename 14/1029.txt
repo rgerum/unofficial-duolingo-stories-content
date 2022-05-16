@@ -1,0 +1,129 @@
+[DATA]
+fromLanguageName=Can I Help You?
+icon=ec74184ed69da39d62ba574fa9d615f7d0c53da1
+set=3|3
+
+[HEADER]
+> Kailangan~n'yo~ba ng~tulong ?
+~ do~you~need       help       
+
+[LINE]
+> Nasa  kalye      si Chloe.
+~ is~in the~street ~  ~     
+
+[POINT_TO_PHRASE]
+> Click on the option meaning “saw.”
+> May      (lalaki) (syang) (+nakita) sa~harap ng (sasakyan~nya).
+~ there~is  a~man    she      saw     in~front of  her~car       
+
+[LINE]
+> Mukhang nag-aalala ang~lalaki.
+~ seems   worried    the~man    
+
+[LINE]
+Speaker101: Kamusta! Kailangan~n'yo~ba ng~tulong ?
+~           hello    do~you~need       help       
+
+[LINE]
+Speaker127: Mayroon~kasi~akong problema  sa~kotse~ko.
+~           Because~I~have     a~problem with~my~car 
+
+[LINE]
+Speaker127: Puwede~ba akong makigamit ng~cellphone~n'yo ?
+~           can       I     use       your~phone         
+
+[LINE]
+> Binigay ni Chloe ang cellphone kay Patrick.
+~ gave    ~  ~     ~   ~         to  ~       
+
+[MULTIPLE_CHOICE]
+> Chloe didn't give Patrick her phone.
+- Yes, that's true.
++ No, that's not right.
+
+[LINE]
+Speaker101: Sige, pero...
+~           yes   but    
+
+[LINE]
+Speaker127: Sandali~lang.
+~           wait         
+
+[LINE]
+Speaker127: Hello ! Eto~ho~ba ang~talyer?          
+~           ~       is~it     the~auto~repair~shop 
+
+[MULTIPLE_CHOICE]
+> Patrick is calling...
+- … his wife because he is late for dinner.
+- … his friend because he needs a ride home.
++ … an auto repair shop because he has a car problem.
+
+[LINE]
+Speaker127: May~problema   kasi    ako.
+~           have~a~problem because I   
+
+[LINE]
+Speaker127: Hmm...
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker127: Hindi, 'di~ko~alam   [kung~nasaan ako]. 
+~           no     I~don't~know   where       I~am  
+- kung batalan ako
+- kung nasaan buko
++ kung nasaan ako
+
+[LINE]
+Speaker127: Ah…|~Excuse me.
+~           ~…  ~       ~  
+
+[LINE]
+Speaker101: Bakit ?
+~           why    
+
+[LINE]
+Speaker127: Nasaan~ba tayo?
+~           where~are we   
+
+[MULTIPLE_CHOICE]
+> Why did Patrick ask Chloe that question?
+- He doesn't know how to use her phone.
+- He doesn't know the number for the auto repair shop.
++ He doesn't know where he is.
+
+[LINE]
+Speaker101: 'Di malayo sa~talyer.                
+~           not far    from~the~auto~repair~shop 
+
+[LINE]
+Speaker127: Ha       ?
+~           what(fg)  
+
+[LINE]
+Speaker101: Sa~talyer ako  nagtatrabaho.      
+~           I         work at~the       garage
+
+[LINE]
+Speaker101: Mekanika   kasi    ako  !
+~           a~mechanic because I~am  
+
+[LINE]
+Speaker101: Kaya, kailangan~n'yo~pa~ba ng~tulong ?
+~           so    do~you~still~need    help       
+
+[MULTIPLE_CHOICE]
+> It turns out that Chloe...
++ ... works at the auto repair shop as a mechanic.
+- ... doesn't know where they are.
+- ... needs help to buy a new phone.
+
+[MATCH]
+> Tap the pairs
+- malayo <> far
+- mekanika/o <> mechanic
+- nasaan <> where
+- nagtatrabaho <> works
+- talyer <> auto repair shop
+- kalye <> street
+
