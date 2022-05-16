@@ -1,0 +1,172 @@
+[DATA]
+fromLanguageName=Un appuntamento
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+speaker_Narrator=en-US-Wavenet-B
+speaker_Speaker99=en-US-Wavenet-H
+speaker_Speaker100=en-US-Wavenet-J
+speaker_Speaker101=en-US-Wavenet-F
+
+[HEADER]
+> A    Date        
+~ un   appuntamento
+$1205/speech_1205_0.mp3;1,0;7,146.08695652173913
+
+[LINE]
+> Julia has   a   date         at a   restaurant.
+~ ~     ha    un  appuntamento a  un  ristorante 
+$1205/speech_1205_1.mp3;5,0;4,282.46153846153845;4,282.46153846153845;6,141.23076923076917;3,235.38461538461547;2,141.23076923076917;12,141.23076923076928
+
+[LINE]
+Speaker336: Hi!     How   are    you?
+~           Ciao    come  stai   tu  
+$1205/speech_1205_2.mp3;2,0;7,240;5,200.00000000000006;6,239.99999999999994
+
+[LINE]
+Speaker100: Good, thanks!
+~           bene  grazie 
+$1205/speech_1205_3.mp3;4,0;8,282.85714285714283
+
+[LINE]
+Speaker100: What do~you want    to~eat?  
+~           che  tu     vuoi    mangiare 
+$1205/speech_1205_4.mp3;4,0;3,162.85714285714286;4,97.7142857142857;5,130.28571428571428;6,260.5714285714286;4,97.71428571428578
+
+[MULTIPLE_CHOICE]
+> Il ragazzo con cui Julia sta parlando vuole sapere…
++ … che cosa vuole mangiare Julia.
+- … di cosa vuole parlare Julia.
+- … se Julia vuole pagare il conto.
+
+[LINE]
+Speaker336: A     salad.   
+~           una   insalata 
+$1205/speech_1205_6.mp3;1,0;8,138.24
+
+[LINE]
+Speaker336: I   don't~eat  meat. 
+~           io  non~mangio carne 
+$1205/speech_1205_7.mp3;1,0;7,96;4,192;5,128
+
+[LINE]
+Speaker100: Are  you a~vegetarian?     
+~           sei  tu  (una)~vegetariana 
+$1205/speech_1205_8.mp3;3,0;5,184.86486486486487;2,147.8918918918919;11,73.94594594594594
+
+[LINE]
+Speaker336: Yes…
+~           sì… 
+$1205/speech_1205_9.mp3;4,0
+
+[LINE]
+Speaker100: Me too!  
+~           io anche 
+$1205/speech_1205_10.mp3;2,0;4,111.27272727272727
+
+[MULTIPLE_CHOICE]
+> Perché lui ha detto questo?
+- Lui adora mangiare la carne.
++ Anche lui è vegetariano.
+- Lui detesta le insalate.
+
+[LINE]
+Speaker336: Perfect! 
+~           perfetto 
+$1205/speech_1205_12.mp3;7,0
+
+[ARRANGE]
+> Ascolta e seleziona le parole
+Speaker336: [(Where) (are) (you) (from)]?
+~             dove    sei   tu    di     
+$1205/speech_1205_13.mp3;5,0;4,182.11764705882354;4,121.41176470588238;5,121.41176470588232
+
+[LINE]
+Speaker100: I'm        from Canada.
+~           io~sono    del  Canada 
+$1205/speech_1205_14.mp3;3,0;8,232.23529411764704;7,165.8823529411765
+
+[LINE]
+Speaker100: But   my    parents  are  from  Italy. 
+~           però  miei  genitori sono dell' italia 
+$1205/speech_1205_15.mp3;3,0;4,199.14893617021278;9,159.31914893617022;4,318.63829787234044;5,159.3191489361701;6,199.1489361702129
+
+[LINE]
+Speaker336: I'm        Italian! 
+~           io~sono    italiana 
+$1205/speech_1205_16.mp3;3,0;11,257.6
+
+[LINE]
+Speaker100: Italy   is nice! 
+~           Italia  è  bella 
+$1205/speech_1205_17.mp3;5,0;4,308;5,132
+
+[POINT_TO_PHRASE]
+> Clicca sulla opzione che significa "animali domestici".
+Speaker100: (Do~you) (have)   (+pets)?            
+~            tu       hai       animali  domestici
+$1205/speech_1205_18.mp3;2,0;4,101.64705882352942;5,135.52941176470586;7,237.17647058823528
+
+[LINE]
+Speaker336: I   have  three cats   and two dogs.
+~           io  ho    tre   gatti  e   due cani 
+$1205/speech_1205_19.mp3;1,0;6,132.24489795918367;7,264.48979591836735;5,264.4897959183674;5,264.48979591836724;4,176.32653061224494;5,176.32653061224482
+
+[LINE]
+Speaker100: Wow!
+$1205/speech_1205_20.mp3;3,0
+
+[LINE]
+Speaker100: I   have  two dogs   too,   Sarah!
+~           io  ho    due cani   anche  ~     
+$1205/speech_1205_21.mp3;1,0;6,148.69565217391303;5,297.3913043478261;5,198.26086956521738;6,346.9565217391304;7,247.82608695652164
+
+[LINE]
+Speaker336: What? My  name   is Julia…
+~           che   mio nome   è  ~…    
+$1205/speech_1205_22.mp3;4,0;4,273.59999999999997;5,136.80000000000007;5,319.2;7,136.79999999999995
+
+[LINE]
+Speaker336: What's  your name?   Are  you Conor?
+~           qual~è  tuo  nome    sei  tu  ~     
+$1205/speech_1205_23.mp3;6,0;6,289.88235294117646;5,181.17647058823525;7,289.88235294117646;5,181.17647058823525;6,144.9411764705883
+
+[LINE]
+Speaker100: No, my  name   is Daniel…
+~           no  mio nome   è  ~…     
+$1205/speech_1205_24.mp3;2,0;4,199.3846153846154;5,149.53846153846152;5,348.9230769230769;8,149.53846153846155
+
+[MULTIPLE_CHOICE]
+> Julia e Daniel avrebbero dovuto incontrare altre persone.
+- No, non è corretto.
++ Sì, è così.
+
+[LINE]
+> A     woman enters the restaurant  and speaks to Daniel.
+~ una   donna entra  nel ristorante  e   parla  a  ~      
+$1205/speech_1205_26.mp3;1,0;8,190.6086956521739;7,285.9130434782609;4,333.5652173913043;11,190.608695652174;5,571.8260869565216;7,190.60869565217422;3,333.56521739130403;7,142.9565217391305
+
+[LINE]
+Speaker101: Hi!     Are  you Daniel? I'm     Sarah.
+~           Ciao    sei  tu  ~       io~sono ~     
+$1205/speech_1205_27.mp3;2,0;7,348;5,290;7,232;5,464;6,232
+
+[LINE]
+Speaker100: No, sorry.          I'm     Conor.
+~           ~   mi~dispace      io~sono ~     
+$1205/speech_1205_28.mp3;2,0;7,211.20000000000002;9,580.8;6,211.19999999999993
+
+[MULTIPLE_CHOICE]
+> Alla fine della storia, Daniel…
++ … ha mentito riguardo al suo nome perché gli piaceva Julia.
+- … non voleva parlare più con Julia.
+- … ha conosciuto qualcuno chiamato Conor.
+
+[MATCH]
+> Seleziona le coppie
+- What's <> qual è
+- How <> come
+- enters <> entra
+- want <> vuoi
+- and <> e
+
