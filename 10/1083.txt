@@ -1,0 +1,129 @@
+[DATA]
+fromLanguageName=Night Music
+icon=205eb89c151a9cea69e598e00b5cbe534c23881a
+set=4|10
+
+speaker_Speaker410=it-IT-Wavenet-C
+speaker_Speaker411=it-IT-Wavenet-D
+
+[HEADER]
+> Musica~di~notte
+~ night~music    
+$1083/speech_1083_0.mp3;6,6;3,490;6,98
+
+[LINE]
+Speaker823: Ascolta, Tommaso!
+~           listen   ~       
+$1083/speech_1083_1.mp3;7,0;9,418.5
+
+[LINE]
+Speaker1087: Gioele! Devi~suonare        la  chitarra ora?
+~            ~       do~you~have~to~play the guitar   now 
+$1083/speech_1083_2.mp3;6,0;6,402.4615384615385;8,251.5384615384615;3,402.46153846153857;9,150.9230769230769;4,452.7692307692305
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1087: [Devo            dormire]!
+~             I~need~to~sleep ~        
+$1083/speech_1083_3.mp3;4,0;8,188.57142857142858
++ Devo dormire
+- Devo abortire
+- Devo duemila
+
+[LINE]
+Speaker823: Voglio imparare a~suonare~bene~la~chitarra.
+~           I~want to~learn to~play~the~guitar~well    
+$1083/speech_1083_4.mp3;6,0;9,309.93103448275866;2,398.4827586206896;8,88.55172413793105;5,354.2068965517242;3,221.37931034482745;9,132.8275862068965
+
+[LINE]
+Speaker823: Voglio una fidanzata… 
+~           I~want a   girlfriend…
+$1083/speech_1083_5.mp3;6,0;4,275.3333333333333;11,157.33333333333337
+
+[LINE]
+Speaker823: …| e   le~donne~adorano…
+~           …  and women~love…      
+$1083/speech_1083_6.mp3;1,68;2,68;3,102;6,204
+
+[LINE]
+Speaker823: …| i~ragazzi che~suonano la  chitarra!
+~           …  guys      who~play    the guitar   
+$1083/speech_1083_7.mp3;1,85.6470588235294;2,85.6470588235294;8,342.5882352941177;4,171.29411764705878;8,342.5882352941177;3,128.47058823529414
+
+[MULTIPLE_CHOICE]
+> Why does Gioele want to learn how to play the guitar?
++ He thinks women like men who play the guitar.
+- He wants to play it for his friend.
+- He wants to play before he goes to sleep.
+
+[ARRANGE]
+> Tap what you hear
+Speaker1087: [(E)   (devi)        (suonare) (di~notte)]?!
+~              and   do~you~need   to~play   at~night    
+$1083/speech_1083_9.mp3;1,0;5,82.80000000000001;8,206.99999999999994;3,331.20000000000005;6,124.20000000000005
+
+[LINE]
+Speaker1087: Sono molto stanco!
+~            I~am very  tired  
+$1083/speech_1083_10.mp3;4,0;6,203.63636363636365;7,244.36363636363635
+
+[LINE]
+Speaker823: Va~bene. Smetto~di~suonare   la   chitarra.
+~           OK       I~will~stop~playing the  guitar   
+$1083/speech_1083_11.mp3;2,0;5,140.07272727272726;8,280.1454545454545;3,326.8363636363636;8,140.07272727272732;3,373.5272727272728;10,186.76363636363612
+
+[MULTIPLE_CHOICE]
+> Gioele is saying that he's not going to play the guitar anymore.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker1087: Grazie.       Buona~notte.
+~            thank~you     good~night  
+$1083/speech_1083_13.mp3;6,0;10,597.4736842105264;6,325.8947368421052
+
+[LINE]
+Speaker823: Buona~notte.
+~           good~night  
+$1083/speech_1083_14.mp3;5,0;6,224
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "starts."
+> (Gioele) (+comincia~a) (suonare)   il  (pianoforte).
+~  ~         starts       playing    the  piano       
+$1083/speech_1083_15.mp3;6,6;9,555;2,445;8,37;5,477;11,88
+
+[LINE]
+Speaker1087: Gioele! Che~fai?!           
+~            ~       what~are~you~doing  
+$1083/speech_1083_16.mp3;6,0;5,318;4,159
+
+[LINE]
+Speaker823: Che?   Non~posso suonare la  chitarra…
+~           what   I~can't   play    the guitar…  
+$1083/speech_1083_17.mp3;3,0;6,268.2352941176471;6,178.8235294117647;8,268.235294117647;3,357.6470588235295;10,134.11764705882342
+
+[LINE]
+Speaker823: …| però posso suonare il  pianoforte, no?
+~           …  but  I~can play    the piano       no 
+$1083/speech_1083_18.mp3;1,91.55555555555556;5,228.88888888888886;6,274.6666666666667;8,366.2222222222223;3,137.33333333333314;11,549.3333333333335
+
+[LINE]
+Speaker823: Le~donne adorano i~ragazzi che suonano il  pianoforte!
+~           women    love    guys      who play    the piano      
+$1083/speech_1083_19.mp3;2,0;6,144;8,288;2,384;8,96;4,384;8,192;3,383.9999999999998;11,144.00000000000023
+
+[MULTIPLE_CHOICE]
+> Since Tommaso didn't want Gioele to play the guitar…
+- … Gioele decided to go to bed.
++ … Gioele started playing the piano.
+- … Gioele left the house.
+
+[MATCH]
+> Tap the pairs
+- Che <> what
+- Ascolta <> listen
+- Buona notte <> good night
+- Che fai <> what are you doing
+- stanco <> tired
+
