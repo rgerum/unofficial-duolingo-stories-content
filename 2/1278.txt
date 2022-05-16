@@ -1,0 +1,157 @@
+[DATA]
+fromLanguageName=# The garden
+icon=b4090fb3357cd46aa8eac9f22c4fbbe3265d273e
+set=3|4
+
+speaker_Oma=nl-NL-Wavenet-E
+speaker_Jochem=nl-NL-Standard-B
+
+[HEADER]
+> De tuin
+$1278/speech_1278_0.mp3;2,6;5,119
+
+[LINE]
+> De  tuin  
+~ The garden
+$1278/speech_1278_1.mp3;2,6;5,119
+
+[LINE]
+> Jochem is bij zijn oma     op bezoek.
+~ ~      is at  his  grandma on visit  
+$1278/speech_1278_2.mp3;6,6;3,366;4,134;5,193;4,233;3,392;7,134
+
+[LINE]
+Speaker3135: Hoi oma.    
+~            Hi  grandma 
+$1278/speech_1278_3.mp3;3,0;4,158.6086956521739
+
+[LINE]
+Speaker3135: Hoe~is~het~met~je?
+~            How~is~it~going   
+$1278/speech_1278_4.mp3;3,0;3,130.9090909090909;4,98.18181818181819;4,130.9090909090909;3,130.90909090909088
+
+[LINE]
+Speaker3233: Het gaat     best.
+~            It  is~going well 
+$1278/speech_1278_5.mp3;3,0;5,148.9655172413793;5,186.20689655172413
+
+[SELECT_PHRASE]
+> Select the missing word
+Speaker3135: Het is mooi      [weer]    vandaag!
+~            It  is beautiful  weather  today   
+$1278/speech_1278_6.mp3;3,0;3,153.60000000000002;5,115.19999999999993;5,192;8,192
+- sfeer
+- keer
++ weer
+
+[LINE]
+Speaker3233: Ja... 
+~            Yes   
+$1278/speech_1278_7.mp3;2,0
+
+[LINE]
+Speaker3135: Gaat~het    echt   wel~goed met  je? 
+~            Is~it~going really good     with you 
+$1278/speech_1278_8.mp3;4,0;4,176;5,140.8;4,176;5,140.8;4,175.9999999999999;3,140.80000000000007
+
+[MULTIPLE_CHOICE]
+> Jochem wants to know if his grandma is alright.
+- That’s not true.
++ That’s true.
+
+[LINE]
+Speaker3233: Nee, ik vind  deze kamer niet     fijn.
+~            No   I  think this room  (is)~not nice 
+$1278/speech_1278_10.mp3;3,0;4,242.44897959183675;5,145.469387755102;5,242.4489795918368;6,242.44897959183675;5,290.9387755102041;5,242.44897959183663
+
+[LINE]
+Speaker3233: Er    zijn geen kleuren, alles     is grijs.
+~            There are  no   colours  everyting is grey  
+$1278/speech_1278_11.mp3;2,0;5,145.3846153846154;5,242.30769230769235;8,242.30769230769226;7,436.1538461538462;3,290.7692307692307;6,145.38461538461547
+
+[LINE]
+Speaker3233: En  ik heb~een~hekel~aan grijs.
+~            And I  hate              grey  
+$1278/speech_1278_12.mp3;2,0;3,132.8;4,132.8;4,177.0666666666666;6,177.06666666666672;4,265.5999999999999;6,177.06666666666683
+
+[LINE]
+Speaker3135: Het~spijt~me.
+~            I'm~sorry    
+$1278/speech_1278_13.mp3;3,0;6,109.71428571428571;3,164.57142857142856
+
+[MULTIPLE_CHOICE]
+> What does Jochem mean?
+- He doesn’t like gray as well.
++ He’s sorry about the room.
+- He has to leave to get gray paint.
+
+[LINE]
+Speaker3233: Mijn tuin   heeft veel mooie     kleuren.
+~            My   garden has   many beautiful colours 
+$1278/speech_1278_15.mp3;4,0;5,232.8;6,232.8;5,279.36;6,232.79999999999995;8,279.3600000000001
+
+[LINE]
+Speaker3135: Ik heb  een idee!
+~            I  have an  idea 
+$1278/speech_1278_16.mp3;2,0;4,90.58064516129032;4,120.77419354838709;5,120.7741935483871
+
+[LINE]
+Speaker3135: Momentje!     
+~            Wait~a~moment 
+$1278/speech_1278_17.mp3;8,0
+
+[LINE]
+> Vijftien minuten later...
+~ 15       minutes later   
+$1278/speech_1278_18.mp3;8,6;8,489;6,319
+
+[LINE]
+> ...komt  Jochem de~kamer~weer~binnen met  twee planten.
+~    comes ~      back~into~the~room   with 2    plants  
+$1278/speech_1278_19.mp3;0,6;7,178;7,361;3,57;6,414;5,154;7,259;4,134;5,227
+
+[LINE]
+Speaker3135: Dit   zijn jouw planten.
+~            These are  your plants  
+$1278/speech_1278_20.mp3;3,0;5,129.72972972972974;5,162.1621621621622;8,162.16216216216213
+
+[LINE]
+Speaker3135: En  ik heb  ook  bloemen meegebracht.
+~            And I  have also flowers brought     
+$1278/speech_1278_21.mp3;2,0;3,116.08163265306122;4,116.08163265306122;4,154.77551020408166;8,154.77551020408157;12,309.55102040816337
+
+[LINE]
+Speaker3233: Mijn planten en  mijn bloemen!
+~            My   plants  and my   flowers 
+$1278/speech_1278_22.mp3;4,0;8,199.0909090909091;3,318.5454545454545;5,119.4545454545455;8,199.09090909090912
+
+[LINE]
+Speaker3135: Nu  is jouw tuin   ook  een beetje hier.
+~            Now is your garden also a   bit    here 
+$1278/speech_1278_23.mp3;2,0;3,121.41176470588235;5,121.41176470588235;5,202.3529411764706;4,202.35294117647055;4,161.88235294117646;7,161.88235294117646;5,283.2941176470588
+
+[LINE]
+Speaker3233: Wat lief  van  je. 
+~            How sweet from you 
+$1278/speech_1278_24.mp3;3,0;5,142.4516129032258;4,178.0645161290323;3,142.4516129032258
+
+[LINE]
+Speaker3233: Heel~erg~bedankt,  Jochem.
+~            Thank~you~so~much  ~      
+$1278/speech_1278_25.mp3;4,0;4,234;8,187.2;8,421.2
+
+[MULTIPLE_CHOICE]
+> What did Jochem do?
++ He brought plants and flowers from his grandmother’s garden.
+- He went to buy colourful paint to paint the room his grandmother was in.
+- He took pictures of his grandma’s garden and showed them to her
+
+[MATCH]
+> Select the right pairs
+- gray <> grijs
+- room <> kamer
+- colours <> kleuren
+- garden <> tuin
+- plants <> planten
+- flowers <> bloemen
+
