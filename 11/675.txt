@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=The Passport
+icon=5dc22a453cc462fa2ac2412700a39a9e1b47d4e6
+set=2|7
+
+[HEADER]
+> पासपोर्ट    
+~ the~passport
+
+[LINE]
+> प्राणेश हवाई~अड्डा  में है।
+~ Pranesh the~airport in  is 
+
+[LINE]
+Speaker3135: मेरा पासपोर्ट कहाँ  है?
+~            My   passport where is 
+
+[LINE]
+Speaker3135: वह यहाँ नहीं है।
+~            It here not  is।
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker3135: वह [मेरे      थैले में] नहीं है
+~            it  undefined not  is   ~    ~ 
+- चीथी में
++ मेरे थैले में
+- मेरे घर में
+
+[LINE]
+Speaker3135: और  वह मेरे जैकेट  में नहीं है।
+~            And it my   jacket in  not  is 
+
+[LINE]
+Speaker3135: वह टैक्सी   में है!
+~            It the~taxi in  is 
+
+[ARRANGE]
+> Tap what you hear
+> [(प्राणेश) (अपनी) (टैक्सी) (देखता) (ह)]ै.
+~   Pranesh   sees   his      taxi    ~    
+
+[MULTIPLE_CHOICE]
+> Pranesh...
+- … can't find the taxi driver who took him to the airport.
+- … drives away in a taxi.
++ … sees the taxi driver who took him to the airport.
+
+[LINE]
+Speaker3135: नमस्ते!
+~            Hey    
+
+[LINE]
+Speaker338: हाँ, महाशय. आपको क्या    चाहिए?
+~           Yes  sir    You  what~do need  
+
+[MULTIPLE_CHOICE]
+> Why does the taxi driver call Pranesh "महाशय"?
+- She is being rude.
++ She is being professional.
+- She thinks that's his name.
+
+[LINE]
+Speaker3135: मुझे अपना पासपोर्ट चाहिए!
+~            I    my   passport need  
+
+[LINE]
+Speaker3135: वह आपकी टैक्सी में है!
+~            It your taxi   in  is 
+
+[LINE]
+Speaker338: मैं माफ़~करना हूँ। आपका पासपोर्ट मेरी टैक्सी में नहीं है।
+~           I   sorry     am   your passport my   taxi   in  not  is 
+
+[LINE]
+Speaker3135: नहीं!
+~            No   
+
+[LINE]
+Speaker338: महाशय|,अपना पासपोर्ट अपने हाथों में है।
+~           Sir    your passport your hand  in  is 
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "hand."
+> (महाशय), (पस्सपोर्ट) (+हाथ) (अपने).
+
+[LINE]
+Speaker3135: ओह…
+~            Oh…
+
+[LINE]
+Speaker3135: धन्यवाद.  
+~            Thank~you 
+
+[LINE]
+Speaker338: आपका स्वागत  है! 
+~           You  welcome are 
+
+[MULTIPLE_CHOICE]
+> Where was Pranesh 's passport?
+- At his house.
++ In his hand.
+- In the taxi.
+
+[MATCH]
+> Tap the pairs
+- यहाँ <> here
+- हाँ <> yes
+- में <> at
+- देखता <> sees
+- आपका <> your
+
