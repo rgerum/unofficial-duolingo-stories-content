@@ -1,0 +1,132 @@
+[DATA]
+fromLanguageName=The Exam
+icon=cb76f485e6668f6f964fdf792d3f67ce5ae566b9
+set=1|8
+
+icon_Speaker116=https://stories-cdn.duolingo.com/image/3efc9f39ba59f0e08d66317272db579e976fc47f.svg
+speaker_Narrator=ja-JP-Wavenet-C
+speaker_Speaker116=ja-JP-NanamiNeural
+speaker_Speaker117=ja-JP-KeitaNeural
+speaker_Speaker118=ja-JP-Wavenet-C
+
+[HEADER]
+> 試験  
+~ exam
+$1336/speech_1336_0.mp3;2,0
+
+[LINE]
+> 青山さんと平手さんは大学にいます。-----(Hints have not been reviewed)
+~ ~                            and  ~   are  at       
+$1336/speech_1336_1.mp3;28,0
+
+[LINE]
+SpeakerSpeaker116: 今日は、青山さん。英語の試験の準備ができていますか？
+~                  hello                     
+$1336/speech_1336_2.mp3;26,0
+
+[MULTIPLE_CHOICE]
+> Hirate-san wants to know if Aoyama-san is ready for his English exam.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker3135: え、今日、試験がありませんね。
+~            we~don't~have  
+$1336/speech_1336_4.mp3;15,0
+
+[MULTIPLE_CHOICE]
+> Why is Aoyama-san confused?
+- He already took his exam today.
++ He doesn't think he has an exam today.
+- He doesn't take English classes.
+
+[LINE]
+SpeakerSpeaker116: 違います。今日は試験がありますよ。
+~                  yes              
+$1336/speech_1336_6.mp3;17,0
+
+[ARRANGE]
+> Tap what you hear
+SpeakerSpeaker116: [(とても) (難しい)  (試験)   (が)         (ありま)]す.
+~                    an    exam   very   difficult   ~      
+$1336/speech_1336_7.mp3;3,0;4,379.6363636363636;3,379.6363636363636;2,284.72727272727275;5,189.81818181818176
+
+[LINE]
+SpeakerSpeaker116: 青山さんはいつも全然試験の準備ができていません。
+~                  you~are~never           
+$1336/speech_1336_8.mp3;24,0
+
+[LINE]
+Speaker3135: 困っていますよね。それから、二時間後に授業もあります。
+$1336/speech_1336_9.mp3;27,0
+
+[LINE]
+Speaker3135: 今、勉強が必要ですね。
+~            I~need     
+$1336/speech_1336_10.mp3;11,0
+
+[MULTIPLE_CHOICE]
+> Aoyama-san needs to study now because…
++ … his exam is in two hours.
+- … he doesn't have anything else to do.
+- … he wants to fail his exam.
+
+[LINE]
+> 二時間後、青山さんと平手さんは英語の授業を受けています。
+~ two                         
+$1336/speech_1336_12.mp3;28,0
+
+[LINE]
+Speaker127: 皆さんは試験の準備ができていますか？
+~           you~are           
+$1336/speech_1336_13.mp3;18,0
+
+[LINE]
+Speaker127: 来週のです。
+~           it~is 
+$1336/speech_1336_14.mp3;6,0
+
+[MULTIPLE_CHOICE]
+> When is the exam?
++ Next week.
+- Tomorrow.
+- Next month.
+
+[LINE]
+Speaker3135: わかりません。           
+~            I~don't~understand
+$1336/speech_1336_16.mp3;7,0
+
+[LINE]
+Speaker3135: 平手さん、試験は今日ではありません。
+$1336/speech_1336_17.mp3;18,0
+
+[LINE]
+SpeakerSpeaker116: すみません、青山さん、けれども、
+~                  I'm~sorry       
+$1336/speech_1336_18.mp3;16,0
+
+[LINE]
+SpeakerSpeaker116: いつも全然試験の準備ができていません！
+~                  but                
+$1336/speech_1336_19.mp3;19,0
+
+[LINE]
+Speaker3135: 気にしなくていいですよ。ちゃんとできています！
+~            it's~OK                
+$1336/speech_1336_20.mp3;23,0
+
+[MULTIPLE_CHOICE]
+> Why did Hirate-san lie to Aoyama-san about the exam?
+- She wanted him to fail the exam.
+- She wanted the professor to laugh at him.
++ She wanted to help him get ready.
+
+[MATCH]
+> Tap the pairs
+- 皆さん <> all
+- 時間 <> hours
+- 来週 <> next week
+- すみません <> I'm sorry
+- 英語の授業 <> English class
+
