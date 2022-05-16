@@ -1,0 +1,189 @@
+[DATA]
+fromLanguageName=I'm Ready!
+icon=8bc8ee88f110f544dee2d14bdd67af1e645989a9
+set=6|3
+
+speaker_Narrator=ru-RU-EkaterinaRUS
+speaker_Speaker250=Tatyana
+speaker_Speaker251=ru-RU-Wavenet-B
+
+[HEADER]
+> Я   готова!  
+~ I'm Ready(f) 
+$1225/speech_1225_0.mp3;1,0;7,141
+
+[LINE]
+Speaker6: Света, Ты  готова     к   нашему отпуску? 
+~         ~      you are~ready  for our    vacation 
+$1225/speech_1225_1.mp3;5,0;4,349.44000000000005;7,149.76;3,399.3599999999999;7,99.84000000000015;8,349.44000000000005
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker856: [Я не    знаю.] Но  думаю,   да.       
+~            I don't know   But I~think  yes(I~am) 
+$1225/speech_1225_2.mp3;1,6;3,198;5,141;4,859;6,179;4,698
+- Я знаю.
++ Я не знаю.
+- Я не думаю.
+
+[LINE]
+Speaker856: Но  я   нервничаю так      сейчас;
+~           but I'm stressing so(much) now    
+$1225/speech_1225_3.mp3;2,6;2,146;10,168;4,673;7,260
+
+[LINE]
+Speaker856: Самолет   улетает   через два часа! 
+~           the~plane flies~out in    two hours 
+$1225/speech_1225_4.mp3;7,6;8,542;6,445;4,309;5,222
+
+[LINE]
+Speaker856: Я   волнуюсь, что  я забуду      что-то.   
+~           I'm worried   that I will~forget something 
+$1225/speech_1225_5.mp3;1,6;9,184;5,892;2,220;7,141;7,484
+
+[MULTIPLE_CHOICE]
+> What is Svetlana nervous about?
+- Getting on a plane.
+- Spending too much money.
++ Forgetting something for their vacation.
+
+[LINE]
+Speaker6: Не    волнуйся, Светочка. Ничего  ты  не~забудешь.    
+~         Don't worry     ~         Nothing you will~not~forget 
+$1225/speech_1225_7.mp3;2,0;9,106.78651685393258;10,355.9550561797753;8,355.95505617977534;3,249.16853932584263;3,106.78651685393265;9,106.78651685393243
+
+[LINE]
+Speaker856: Ладно.
+~           okay  
+$1225/speech_1225_8.mp3;5,6
+
+[LINE]
+Speaker856: Мы уже     упаковали   одежду... 
+~           we already have~packed clothes   
+$1225/speech_1225_9.mp3;2,6;4,117;10,230;7,615
+
+[LINE]
+Speaker856: …зубные~щётки...
+~           …toothbrushes   
+$1225/speech_1225_10.mp3;7,6;6,402
+
+[LINE]
+Speaker856: …и   наши книги.
+~           …and our  books 
+$1225/speech_1225_11.mp3;2,6;5,60;6,290
+
+[MULTIPLE_CHOICE]
+> Svetlana says they've packed their clothes, toothbrushes and cell phones.
+- Yes, that's true.
++ No, that's not right.
+
+[LINE]
+Speaker6: И   твою сумку?
+~         and your purse 
+$1225/speech_1225_13.mp3;1,0;5,85.33333333333333;6,213.33333333333331
+
+[LINE]
+Speaker6: Твои ключи?
+~         your keys  
+$1225/speech_1225_14.mp3;4,0;6,189.23076923076925
+
+[LINE]
+Speaker6: Твой мобильный телефон?
+~         your mobile    phone   
+$1225/speech_1225_15.mp3;4,0;10,195.78947368421052;8,391.57894736842104
+
+[LINE]
+Speaker856: Да,  да.  И   да. 
+~           yes  yes  and yes 
+$1225/speech_1225_16.mp3;2,6;4,537;3,676;3,65
+
+[LINE]
+Speaker6: Ну   прекрасно! У~нас есть всё!       
+~         Well splendid   We    have everything 
+$1225/speech_1225_17.mp3;2,0;10,147.27272727272725;3,540;4,98.18181818181824;5,196.36363636363626;4,245.45454545454572
+
+[CONTINUATION]
+> What comes next?
+Speaker6: Теперь мы можем [поехать    в  отпуск!]  
+~         now    we can    go(travel) on vacation  
+$1225/speech_1225_18.mp3;6,0;3,198.36144578313252;6,85.01204819277109;8,170.02409638554218;2,226.6987951807228;7,56.6746987951808
+- забыть о     самолете! 
+~ forget about the~plane 
+- остаться дома!   
+~ stay     at~home 
++ поехать    в  отпуск!  
+~ go(travel) on vacation 
+
+[LINE]
+Speaker856: Хорошо. Я   иду   к~машине.  
+~           okay    I'm going to~the~car 
+$1225/speech_1225_19.mp3;6,6;3,981;4,219;2,189;7,84
+
+[LINE]
+Speaker856: Я   готова!
+~           I'm ready  
+$1225/speech_1225_20.mp3;1,6;7,212
+
+[LINE]
+> Светлана уезжает в~аэропорт.     
+~ ~        departs for~the~airport 
+$1225/speech_1225_21.mp3;8,6;8,667;2,684;9,98
+
+[ARRANGE]
+> Tap what you hear
+Speaker856: [(Мне)    (уже)          (лучше),  (Михаил)]..
+~             For~me   it's~already   better    ~         
+$1225/speech_1225_22.mp3;3,6;4,216;6,212;8,724
+
+[LINE]
+Speaker856: У~нас будет                        отличный     отпуск!  
+~           we    will~have(are~going~to~have) an~excellent vacation 
+$1225/speech_1225_23.mp3;1,6;4,87;6,237;9,342;7,519
+
+[LINE]
+Speaker856: Ты  готов?
+~           you ready 
+$1225/speech_1225_24.mp3;2,6;6,87
+
+[LINE]
+Speaker856: Миша? Мишенька?!!
+$1225/speech_1225_25.mp3;4,6;10,780
+
+[LINE]
+> Светлана замечает, что  Михаила нет   в  машине. 
+~ ~        notices   that ~       isn't in the~car 
+$1225/speech_1225_26.mp3;8,6;9,636;5,1016;8,244;4,589;2,279;7,83
+
+[LINE]
+Speaker856: Кажется,       я забыла что-то...   
+~           It~seems~that  I forgot something   
+$1225/speech_1225_27.mp3;7,6;3,793;7,171;7,388
+
+[LINE]
+Speaker856: …моего мужа!   
+~           …my    husband 
+$1225/speech_1225_28.mp3;6,6;5,380
+
+[MULTIPLE_CHOICE]
+> What did Svetlana just realize?
+- She forgot her toothbrush at home!
+- She never had a husband!
++ Her husband never got in the car with her!
+
+[MATCH]
+> Tap the pairs
+- Миша/Мишенька <> Misha/Mishenka(diminutives for Mihail)
+- готова <> ready(f)
+- готов <> ready(m)
+- муж <> husband
+- думаю <> I think
+
+[MATCH]
+> Tap the pairs
+- Кажется <> It seems
+- Мне уже лучше <> I feel better now
+- Не волнуйся <> Don't worry
+- Света/Светочка <> Sveta/Svetochka(diminutives for Svetlana)
+- что-то <> something
+- Ничего <> nothing
+
