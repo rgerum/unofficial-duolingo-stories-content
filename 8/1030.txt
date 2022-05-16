@@ -1,0 +1,163 @@
+[DATA]
+fromLanguageName=A Date
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+speaker_Narrator=ja-JP-Wavenet-C
+speaker_Speaker101=ja-JP-Wavenet-B
+speaker_Speaker100=ja-JP-KeitaNeural
+speaker_Speaker99=ja-JP-NanamiNeural
+
+[HEADER]
+> デート   
+~ a~date
+$1030/speech_1030_0.mp3;3,0
+
+[LINE]
+> 松田さん|は|レストラン|で|デートしています。                                    
+~ Matsuda-san  (indicates~the~topic)  restaurant  in  is~on~a~date
+$1030/speech_1030_1.mp3;4,0;2,366.15384615384613;6,146.4615384615385;2,439.38461538461536;10,146.46153846153857
+
+[LINE]
+Speaker100: 何|が食べ|たいんですか?           
+~           what    to~eat  (you)~want 
+$1030/speech_1030_2.mp3;1,0;2,156.41379310344828;3,156.41379310344828;7,234.62068965517238
+
+[MULTIPLE_CHOICE]
+> Matsuda's date is asking…
+- … how much the food costs.
++ … what Matsuda wants to eat.
+- … where to find the restaurant.
+
+[LINE]
+Speaker336: サラダ|がほしい|です.       
+~           salad    (I)~want ~   
+$1030/speech_1030_4.mp3;3,0;2,339.4285714285714;4,169.71428571428572;3,339.42857142857144
+
+[LINE]
+Speaker336: 肉|は食べません。          
+~           meat    (I)~don't~eat
+$1030/speech_1030_5.mp3;1,0;2,169.92000000000002;7,169.92000000000002
+
+[LINE]
+Speaker100: そうですか。|ベジタリアンですか。          
+~           I~see   Are~(you)~vegetarian
+$1030/speech_1030_6.mp3;6,0;11,779.625
+
+[LINE]
+Speaker336: そうです。       
+~           That's~right
+$1030/speech_1030_7.mp3;5,0
+
+[LINE]
+Speaker100: 私も。   
+~           Me~too
+$1030/speech_1030_8.mp3;3,0
+
+[MULTIPLE_CHOICE]
+> Why did he say that?
++ He's also a vegetarian.
+- He hates salads.
+- He loves to eat meat.
+
+[LINE]
+Speaker336: 素晴らしいです。
+~           Great   
+$1030/speech_1030_10.mp3;8,0
+
+[ARRANGE]
+> Tap what you hear
+Speaker336: [(どこ) (の) (出身)    (です)]か?          
+~             a    ~   where   from   (you)~are
+$1030/speech_1030_11.mp3;2,0;2,260;3,173.33333333333331;4,259.99999999999994
+
+[LINE]
+Speaker100: アメリカ|出身|です。        
+~           America  from  (I)~am
+$1030/speech_1030_12.mp3;4,0;3,436.1538461538462;4,261.69230769230774
+
+[LINE]
+Speaker100: 父|は名古屋|出身|で、|母|は沖縄|出身|です。                                
+~           (my)~father    Nagoya  from  is  (my)~mother    Okinawa  from  is 
+$1030/speech_1030_13.mp3;1,0;2,209.14285714285714;4,209.14285714285714;3,418.2857142857143;3,313.7142857142859;2,313.71428571428555;2,209.1428571428571;3,209.1428571428571;3,313.7142857142858;4,313.7142857142858
+
+[LINE]
+Speaker336: 私|も|名古屋|出身です！        
+~           I  also  Nagoya  am~from
+$1030/speech_1030_14.mp3;1,0;2,213.42857142857142;4,213.42857142857142;6,426.85714285714283
+
+[LINE]
+Speaker100: 名古屋|はとても|きれい|です。          
+~           Nagoya    very  beautiful  is 
+$1030/speech_1030_15.mp3;3,0;2,310.5;4,155.25;4,310.5;4,310.5
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "pets."
+Speaker100: (+ペット)  は (いますか)     。
+~             pets  ~  you~have   
+$1030/speech_1030_16.mp3;3,0;2,288;5,144;2,360
+
+[LINE]
+Speaker336: 三匹の猫|と|二匹の犬|がいます。              
+~           three~cats  and  two~dogs    I~have
+$1030/speech_1030_17.mp3;4,0;2,545.4545454545455;5,218.18181818181813;2,545.4545454545456;5,218.18181818181802
+
+[LINE]
+Speaker100: 面白いね。          
+~           how~interesting
+$1030/speech_1030_18.mp3;5,0
+
+[LINE]
+Speaker100: 私|も|山口さん|と同じ|で犬|が二|匹|いる|んです                                             
+~           I  also  Yamaguchi-san  same~as    dog(s)    two  (counter~for~animals)  have ~   
+$1030/speech_1030_19.mp3;1,0;2,176.72727272727272;5,176.72727272727272;4,441.8181818181819;2,353.4545454545454;2,176.72727272727252;2,176.72727272727298;2,176.72727272727275;2,176.72727272727275;3,176.72727272727252;4,265.09090909090924
+
+[LINE]
+Speaker336: えっ？|松田|です。        
+~           Huh  Matsuda  (I)~am
+$1030/speech_1030_20.mp3;3,0;3,460.8;4,345.6000000000001
+
+[LINE]
+Speaker336: あなた|は伊藤さん|です|よね。      
+~           you    Ito-san  are  right
+$1030/speech_1030_21.mp3;3,0;2,382.5;5,191.25;3,478.125;4,286.875
+
+[LINE]
+Speaker100: いいえ|、違います。|私|は田中|です。              
+~           No   that's~not~right  I    Tanaka  am 
+$1030/speech_1030_22.mp3;3,0;7,512;2,896;2,256;3,256;4,384
+
+[MULTIPLE_CHOICE]
+> Matsuda and Tanaka were supposed to meet different people.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+> 女の人|が田中さん|のほうへ|歩いて|きます。              
+~ Woman    Tanaka-san  towards  walks  comes
+$1030/speech_1030_24.mp3;3,0;2,364.3076923076923;5,182.15384615384613;5,455.38461538461536;4,455.3846153846155;5,364.30769230769215
+
+[LINE]
+Speaker101: こんにちは。|田中さん|ですか。|私|は山口|です。                  
+~           Hello   Tanaka-san  (you)~are  I    Yamaguchi  am 
+$1030/speech_1030_25.mp3;6,0;5,684;5,488.57142857142844;2,488.57142857142867;2,195.42857142857156;3,195.42857142857133;4,293.1428571428569
+
+[LINE]
+Speaker100: いいえ、|すみません。|私|は伊藤|です。    
+~           No    I'm~sorry  I    Ito  am 
+$1030/speech_1030_26.mp3;4,0;7,612.972972972973;2,858.1621621621622;2,245.18918918918916;3,245.18918918918916;4,367.7837837837835
+
+[MULTIPLE_CHOICE]
+> At the end of the story, Tanaka…
+- … met someone named Ito.
+- … was tired of talking to Matsuda.
++ … lied to his real date because he likes Matsuda.
+
+[MATCH]
+> Tap the pairs
+- デート <> date
+- えっ <> huh
+- こんにちは <> hello
+- 素晴らしい <> perfect
+- 肉 <> meat
+
