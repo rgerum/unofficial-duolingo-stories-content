@@ -1,0 +1,149 @@
+[DATA]
+fromLanguageName=The New Mall
+icon=22d80e422eeb2f9e860d1f014edf989ff6257372
+set=3|7
+
+speaker_Lien=Lotte
+speaker_Jan=Ruben
+
+[HEADER]
+> Het nieuwe winkelcentrum
+~ The new    mall         
+$46/speech_46_0.mp3;3,6;7,171;14,206
+
+[LINE]
+> Lien leest de  krant     in de  trein.
+~ ~    reads the newspaper in the train 
+$46/speech_46_1.mp3;4,6;6,292;3,290;6,69;3,271;3,91;6,84
+
+[LINE]
+Speaker1320: Geweldig!
+~            Great    
+$46/speech_46_2.mp3;8,6
+
+[LINE]
+Speaker258: Wat? 
+~           What 
+$46/speech_46_3.mp3;3,6
+
+[LINE]
+Speaker1320: Er    is een nieuw winkelcentrum in de  stad.
+~            There is a   new   shopping~mall in the city 
+$46/speech_46_4.mp3;2,6;3,131;4,235;6,187;14,408;3,905;3,159;5,84
+
+[MULTIPLE_CHOICE]
+> Is there a new shopping mall in Jan and Lien's city?
++ Ja,  dat  klopt   
+~ Yes  that is~right
+- Nee, dat  klopt~niet
+~ No   that is        
+
+[LINE]
+Speaker258: Eeehm ja?
+$46/speech_46_6.mp3;5,6;3,262
+
+[LINE]
+Speaker1320: Ja,  en  er    is een 3D~bioscoop!
+~            Yes  and there is a   3D~cinema   
+$46/speech_46_7.mp3;2,6;4,515;3,144;3,161;4,198;3,143;9,431
+
+[ARRANGE]
+> Put the words in the right order:
+Speaker1320: [(En) ( dat) ( Italiaanse) ( restaurant) ( dat)        ( je)   ( zo)  ( leuk) ( vindt)].
+~              ~     And    that          Italian       restaurant    that    you    so      like    
+$46/speech_46_8.mp3;2,6;5,145;12,217;12,749;5,704;4,245;4,109;6,224;7,280
+
+[LINE]
+Speaker258: Wow!
+$46/speech_46_9.mp3;3,6
+
+[LINE]
+Speaker258: Waar  is het in Amsterdam?
+~           Where is it  in ~         
+$46/speech_46_10.mp3;4,6;3,223;4,140;3,101;10,100
+
+[LINE]
+Speaker1320: Hmmm het~Damrak?                          
+~            ~    (avenue~in~city~center~of~Amsterdam) 
+$46/speech_46_11.mp3;4,5;4,678;7,148
+
+[LINE]
+Speaker258: Hmmm ... Het Damrak ...
+$46/speech_46_12.mp3;4,6;8,1120;7,199
+
+[ARRANGE]
+> Put the words in the right order:
+Speaker258: [(Mag) ( ik)                    ( die) ( krant) ( eens)] ?
+~             ~      give~me~the~newspaper    ~      ~        ~       
+$46/speech_46_13.mp3;3,6;4,226;5,121;7,115;6,332
+
+[LINE]
+Speaker1320: Ja.
+$46/speech_46_14.mp3;2,6
+
+[LINE]
+Speaker258: Lien...
+$46/speech_46_15.mp3;4,6
+
+[LINE]
+Speaker258: Dat  is geen  nieuw winkelcentrum.
+~           That is not~a new   shopping~mall 
+$46/speech_46_16.mp3;3,6;3,198;5,130;6,224;14,177
+
+[LINE]
+Speaker258: Dat  is hetzelfde winkelcentrum.
+~           That is the~same  shopping~mall 
+$46/speech_46_17.mp3;3,6;3,186;10,128;14,468
+
+[MULTIPLE_CHOICE]
+> What does "hetzelfde" mean?
+- the
+- the old
++ the same
+
+[LINE]
+Speaker258: Maar~dan met  een andere    naam!
+~           Only     with a   different name 
+$46/speech_46_19.mp3;4,6;4,192;4,176;4,154;7,96;5,305
+
+[SELECT_PHRASE]
+> Complete the sentence
+> Het winkelcentrum [is hetzelfde, maar heeft een nieuwe naam.] .
+$46/speech_46_20.mp3;3,6;14,166;3,811;10,125;6,132;6,305;4,503;7,183;5,234;3,144
+- gaat sluiten.
+- is nieuw, maar niet in Amsterdam.
++ is hetzelfde, maar heeft een nieuwe naam.
+
+[LINE]
+Speaker1320: Ah, ik~snap~het~al.
+~            ~   I~get~it       
+$46/speech_46_21.mp3;2,6;4,426;5,109;4,293;3,181
+
+[LINE]
+Speaker1320: Wil~je      naar het "nieuwe" winkelcentrum gaan?
+~            Do~you~want to   the  new     shopping~mall go   
+$46/speech_46_22.mp3;3,6;3,195;5,139;4,222;8,167;15,294;5,921
+
+[LINE]
+Speaker1320: Om  een film  te~kijken en  een lekkere   pizza te~eten?
+~            For a   movie to~watch  and a   delicious pizza to~eat  
+$46/speech_46_23.mp3;2,6;4,259;5,163;3,374;7,124;3,546;4,207;8,151;6,336;3,478;5,189
+
+[LINE]
+Speaker258: Ja!
+$46/speech_46_24.mp3;2,6
+
+[MULTIPLE_CHOICE]
+> What are Lien and Jan going to do?
++ Go to the movies and eat Italian food in the mall.
+- Go to a new mall in an Italian city.
+- Stay home and order Italian food.
+
+[MATCH]
+> Tap the pairs
+- de <> the
+- straat <> street
+- in <> in
+- het is <> it's
+- ja <> yes
+
