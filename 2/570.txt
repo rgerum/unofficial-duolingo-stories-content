@@ -1,0 +1,167 @@
+[DATA]
+fromLanguageName=Honeymoon
+icon=7e5d271488d31d6f1d0c503512e642ca7effe84f
+set=1|6
+
+speaker_Sophie=Lotte
+speaker_Marie=Lotte
+speaker_Taxichauffeur=Ruben
+
+[HEADER]
+> Huwelijksreis
+$570/speech_570_0.mp3;13,6
+
+[LINE]
+> Sophie zit  in een taxi.
+~ ~      sits in a   taxi 
+$570/speech_570_1.mp3;6,6;4,380;3,240;4,123;5,111
+
+[LINE]
+Speaker113: Goedemorgen. 
+~           Good~morning 
+$570/speech_570_2.mp3;11,6
+
+[SELECT_PHRASE]
+> Fill in the missing words.
+Speaker439: Goedemorgen,  naar [het       vliegveld] alstublieft.
+~           Good~morning  to    undefined please     ~           
+$570/speech_570_3.mp3;11,6;6,1002;4,247;10,178;12,670
+- de vliegtuigen
++ het vliegveld
+- de vliegen
+
+[LINE]
+Speaker113: Is~goed.
+~           Alright 
+$570/speech_570_4.mp3;2,6;5,149
+
+[LINE]
+Speaker113: Reist  u   voor uw   werk?
+~           Travel you for  your work 
+$570/speech_570_5.mp3;5,6;2,375;5,71;3,199;5,114
+
+[LINE]
+Speaker439: Nee.
+~           No  
+$570/speech_570_6.mp3;3,8
+
+[LINE]
+Speaker439: Ik heb  een vliegticket voor Toulouse.
+~           I  have a   ticket      for  ~        
+$570/speech_570_7.mp3;2,6;4,127;4,204;12,152;5,710;9,181
+
+[LINE]
+Speaker439: Ik heb  zelfs twee vliegtickets voor Toulouse.
+~           I  have even  two  tickets      for  ~        
+$570/speech_570_8.mp3;2,6;4,130;6,220;5,375;13,276;5,723;9,220
+
+[LINE]
+Speaker113: Toulouse is een mooie     stad!
+~           ~        is a   beautiful city 
+$570/speech_570_9.mp3;8,6;3,383;4,145;6,92;5,290
+
+[LINE]
+Speaker439: Het is voor mijn huwelijksreis.
+~           It  is for  my   honeymoon     
+$570/speech_570_10.mp3;3,6;3,151;5,178;5,197;14,243
+
+[MULTIPLE_CHOICE]
+> Why is Sophie going to Toulouse?
+- She is going to work there.
++ She is going on her honeymoon.
+- She's moving there.
+
+[LINE]
+Speaker113: Waar  is uw   man?    
+~           Where is your husband 
+$570/speech_570_12.mp3;4,6;3,223;3,135;4,105
+
+[LINE]
+Speaker439: Mijn vrouw.
+~           My   wife  
+$570/speech_570_13.mp3;4,6;6,248
+
+[LINE]
+Speaker439: Zij wil   niet naar Toulouse met  mij.
+~           She wants not  to   ~        with me  
+$570/speech_570_14.mp3;3,6;4,201;5,229;5,257;9,237;4,467;4,194
+
+[MULTIPLE_CHOICE]
+> Sophie's wife ...
+- ... is already in Toulouse.
+- ... is in the taxi with her.
++ ... doesn't want to go to Toulouse with her.
+
+[LINE]
+Speaker439: Het is een zwarte dag voor mij.
+~           It  is a   dark   day for  me  
+$570/speech_570_16.mp3;3,6;3,151;4,213;7,164;4,410;5,275;4,188
+
+[ARRANGE]
+> Zet de woorden in de juiste volgorde:
+Speaker113: [(Oh) (dat) (spijt) (me) (verschrikkelijk)].
+$570/speech_570_17.mp3;2,6;4,179;6,161;3,270;16,75
+
+[LINE]
+Speaker113: We zijn bij het vliegveld aangekomen.
+~           We have at  the airport   arrived    
+$570/speech_570_18.mp3;2,6;5,129;4,228;4,140;10,109;11,507
+
+[LINE]
+> Een vrouw komt~aan met  haar reiskoffer.
+~ A   woman arrives  with her  suitcase   
+$570/speech_570_19.mp3;3,6;6,102;5,278;4,223;4,210;5,124;11,163
+
+[LINE]
+Speaker439: Marie?
+$570/speech_570_20.mp3;5,6
+
+[LINE]
+Speaker1186: Sophie!
+$570/speech_570_21.mp3;6,6
+
+[LINE]
+Speaker1186: Het~spijt~me!
+~            I~am~sorry   
+$570/speech_570_22.mp3;3,6;6,139;3,432
+
+[LINE]
+Speaker1186: Ik houd~van je! 
+~            I  love     you 
+$570/speech_570_23.mp3;2,6;5,136;4,315;3,182
+
+[MULTIPLE_CHOICE]
+> What does Marie mean?
+- I am late!
+- I hate you!
++ I love you!
+
+[LINE]
+Speaker439: Ik houd        ook van jou!
+~           I  love~(+van) too ~   you 
+$570/speech_570_25.mp3;2,6;5,136;4,315;4,265;4,216
+
+[LINE]
+Speaker1186: Op       naar Toulouse 
+~            Let's~go to   ~        
+$570/speech_570_26.mp3;2,6;5,148;9,232
+
+[LINE]
+Speaker113: Goede~reis!      
+~           Have~a~nice~trip 
+$570/speech_570_27.mp3;5,6;5,267
+
+[MULTIPLE_CHOICE]
+> What happened when Sophie got to the airport?
+- Her taxidriver agreed to go on vacation with her.
++ Her wife, Marie, was already there and ready to go to Toulouse.
+- Her wife, Marie, called her on the phone.
+
+[MATCH]
+> Tap the pairs.
+- Goede reis <> Have a nice trip
+- reizen <> to travel
+- vliegveld <> airport
+- een zwarte dag <> a dark day
+- huwelijksreis <> honeymoon
+
