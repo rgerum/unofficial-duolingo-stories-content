@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=The New Mall
+icon=22d80e422eeb2f9e860d1f014edf989ff6257372
+set=3|7
+
+[HEADER]
+> Ang Bagong Mall
+~ the new    ~   
+
+[LINE]
+> Nagbabasa ng~diyaryo  si Lucy sa~tren.     
+~ reads     a~newspaper ~  ~    in~the~train 
+
+[LINE]
+Speaker1320: Wow !
+
+[LINE]
+Speaker258: Bakit ?
+~           why    
+
+[LINE]
+Speaker1320: May        bago na palang mall sa syudad~natin.
+~            there~is~a new  ~  ~      ~    in our~city     
+
+[MULTIPLE_CHOICE]
+> There is a new shopping mall in their city.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker258: Ah, kaya~nga ?
+~           ~   I~know    
+
+[LINE]
+Speaker1320: Oo~nga, at  may        3D pang sinehan       !
+~            yes     and there~is~a ~  too  movie~theater  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1320: At  ang Italian restaurant [na            gusto mo] !
+~            and the ~       ~           that~you~love ~     ~    
+- na bugso mo
+- na husto mo
++ na gusto mo
+
+[LINE]
+Speaker258: Wow !
+
+[LINE]
+Speaker258: Saan~iyon   sa Maynila ?
+~           where~is~it in Manila   
+
+[LINE]
+Speaker1320: Hmm…| Yung    nasa~may Intramuros ?
+~            ~…    the~one by       ~           
+
+[LINE]
+Speaker258: Hmmm... sa~may Intramuros...
+~           ~       by     ~            
+
+[ARRANGE]
+> Tap what you hear
+Speaker258: [(Pahiram~nga)  (ng~diyaryo) (mo)]   .
+~             can~I~borrow   newspaper    your    
+
+[LINE]
+Speaker1320: Heto.
+~            here 
+
+[LINE]
+Speaker258: Lucy...
+
+[LINE]
+Speaker258: Hindi~bago ang~mall~na~ito.
+~           isn't~new  this~mall       
+
+[LINE]
+Speaker258: Parehas lang ito...    
+~           same    just this~is   
+
+[MULTIPLE_CHOICE]
+> What does “parehas” mean in this context?
+- both
++ same
+- couple
+
+[LINE]
+Speaker258: …| pero binago      lang ang~pangalan !
+~           …  but  was~changed just the~name      
+
+[MULTIPLE_CHOICE]
+> The mall…
++ … is the same one they usually go to, but it has a new name.
+- … is closing down.
+- … is new, but it's not in Paris.
+
+[LINE]
+Speaker1320: Ah, oo~nga'no.    
+~            ~   I~realize(fg) 
+
+[LINE]
+Speaker1320: Gusto~mo~bang pumunta sa     "bagong" mall? ?
+~            do~you~want   to~go   to~the  new     ~      
+
+[LINE]
+Speaker1320: Para        mag-sine     at  kumain ?
+~            in~order~to watch~a~film and eat     
+
+[LINE]
+Speaker258: Tara     !
+~           let's~go  
+
+[MULTIPLE_CHOICE]
+> What are they going to do?
+- Go to a new mall in an Italian city.
++ Go to the movies and eat Italian food at the mall.
+- Stay home and order Italian food.
+
+[MATCH]
+> Tap the pairs
+- bago <> new
+- parehas <> same
+- diyaryo <> newspaper
+- binago lang <> it was just changed
+- mag-sine <> to watch a film
+
