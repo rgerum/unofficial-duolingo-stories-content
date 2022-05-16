@@ -1,0 +1,185 @@
+[DATA]
+fromLanguageName=The New Place
+icon=78280e171c39627186afb39898b33c5d1af1e43d
+set=6|7
+
+speaker_Speaker296=ru-RU-Wavenet-B
+speaker_Speaker297=ru-RU-EkaterinaRUS
+
+[HEADER]
+> Новое     место
+~ (The)~New Place
+$1229/speech_1229_0.mp3;5,6;6,455
+
+[LINE]
+> Олег идёт в~гости                     к  своей подруге Юле.               
+~ ~    goes as~a~guest(to~the~house~of) to his   friend  dative~case~of~Юля 
+$1229/speech_1229_1.mp3;4,6;5,405;2,315;6,87;2,417;6,76;8,339;4,844
+
+[LINE]
+Speaker125: Привет, Олег !
+~           hi      ~     
+$1229/speech_1229_2.mp3;6,0;6,615.7241379310344
+
+[LINE]
+Speaker113: Привет, Юля. Я   очень рад   тебя~видеть!
+~           hi      ~    I'm very  happy to~see~you  
+$1229/speech_1229_3.mp3;6,0;5,439.3846153846154;3,274.6153846153846;6,109.84615384615381;4,329.53846153846166;5,219.69230769230762;7,274.6153846153845
+
+[LINE]
+Speaker125: Да,  давно    мы не  виделись!            
+~           Yes  long~ago we not have~seen~each~other 
+$1229/speech_1229_4.mp3;2,0;7,270;3,405;3,202.5;9,202.5
+
+[MULTIPLE_CHOICE]
+> Yulya and Oleg haven't seen each other in a long time.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker113: Да.  Извини. Я работаю очень~много.
+~           yes  Sorry   I work    a~whole~lot 
+$1229/speech_1229_6.mp3;2,0;8,227.72093023255815;3,455.44186046511624;8,113.86046511627922;6,455.4418604651163
+
+[LINE]
+Speaker125: Ты  много работаешь?
+~           You a~lot work      
+$1229/speech_1229_7.mp3;2,0;6,196.94117647058826;10,393.88235294117646
+
+[LINE]
+Speaker113: Нам~нужно поговорить.
+~           We~need   to~talk    
+$1229/speech_1229_8.mp3;3,0;6,152;11,228
+
+[ARRANGE]
+> Tap what you hear
+Speaker113: [(Не)  (хочешь) (пойти) (перекусить)     (что-нибуд)]ь?    
+~             Not   want     to~go   to~grab~a~bite   (of)~something   
+$1229/speech_1229_9.mp3;2,0;7,134.49056603773585;6,313.81132075471703;11,268.98113207547163;11,493.13207547169804
+
+[LINE]
+Speaker125: Да!  Я   очень голодная!
+~           yes  I'm very  hungry   
+$1229/speech_1229_10.mp3;2,0;3,364;6,182;9,546
+
+[LINE]
+Speaker125: Где   ты  хочешь  поесть?
+~           where you want    to~eat 
+$1229/speech_1229_11.mp3;3,0;3,252.972972972973;7,189.7297297297297;8,505.94594594594594
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "place."
+Speaker113: Я (знаю) (новое) (+место). (Оно) классное!
+~           I  know   a~new    place    It   (is)cool 
+$1229/speech_1229_12.mp3;1,0;5,107;6,267.5;6,321;5,374.5;9,214
+
+[LINE]
+Speaker125: Прекрасно!
+~           Wonderful 
+$1229/speech_1229_13.mp3;9,0
+
+[LINE]
+> Юля и   Олег идут пешком. 
+~ ~   and ~    go   by~foot 
+$1229/speech_1229_14.mp3;3,6;2,773;5,502;5,405;7,259
+
+[LINE]
+Speaker113: Вот  и            пришли!              
+~           Here [emphasizer] arrived(Here~we~are) 
+$1229/speech_1229_15.mp3;3,0;2,144;7,72
+
+[LINE]
+Speaker125: Амм...здесь                 нет    ресторана. 
+~                 …(In~this~place)~here (is)no restaurant 
+$1229/speech_1229_16.mp3;3,0;8,276.9230769230769;4,415.38461538461536;10,276.923076923077
+
+[LINE]
+Speaker113: Пока~нет.
+~           not~yet  
+$1229/speech_1229_17.mp3;4,0;4,175
+
+[CONTINUATION]
+> What comes next?
+Speaker113: Но  через полгода     здесь будет        [новый ресторан!]  
+~           but in    half~a~year here  will~be       a~new restaurant  
+$1229/speech_1229_18.mp3;2,0;6,92.36363636363636;8,184.72727272727275;6,246.30303030303025;6,184.72727272727275;11,338.66666666666663;9,184.72727272727275
+- очень голодный
+~ very  hungry  
++ новый ресторан!  
+~ a~new restaurant 
+- старое  место
+~ (an)old place
+
+[LINE]
+Speaker113: Мой ресторан!  
+~           my  restaurant 
+$1229/speech_1229_19.mp3;3,0;9,140.57142857142856
+
+[LINE]
+Speaker125: О, да.  Ты  действительно много работаешь!
+~           ~  yes  You indeed        a~lot work      
+$1229/speech_1229_20.mp3;1,0;4,326.57142857142856;4,326.57142857142856;14,244.92857142857144;6,1143;10,489.8571428571429
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker125: Я   [рада  за  тебя!]
+~           I'm  happy for you   
+$1229/speech_1229_21.mp3;1,0;5,134.4;3,336;5,201.59999999999997
+- готова!
+- рада за себя!
++ рада за тебя!
+
+[LINE]
+Speaker113: Спасибо.   Я   тоже очень рад!  
+~           thank~you  I'm also very  happy 
+$1229/speech_1229_22.mp3;7,0;3,479.4146341463415;5,106.53658536585368;6,266.3414634146342;4,319.609756097561
+
+[LINE]
+Speaker125: У~меня~есть вопрос.    
+~           I~have      a~question 
+$1229/speech_1229_23.mp3;1,0;5,124.94117647058823;5,312.35294117647055;7,312.3529411764707
+
+[LINE]
+Speaker113: Да? 
+~           yes 
+$1229/speech_1229_24.mp3;2,0
+
+[LINE]
+Speaker125: А   теперь|...можем мы пойти поесть?
+~           And now       can   we go    to~eat 
+$1229/speech_1229_25.mp3;1,0;7,130.2127659574468;8,520.8510638297872;3,390.63829787234044;6,195.31914893617022;7,390.63829787234044
+
+[LINE]
+Speaker125: Я   очень рада  за  твой новый ресторан...  
+~           I'm very  happy for your new   restaurant   
+$1229/speech_1229_26.mp3;1,0;6,119.52;5,358.56;3,298.8;5,179.27999999999997;6,298.80000000000007;9,358.5600000000002
+
+[LINE]
+Speaker125: ...но  я не~могу ждать полгода,     чтобы    поесть!
+~              but I can't   wait  half~a~year  in~order to~eat 
+$1229/speech_1229_27.mp3;0,0;5,196.7142857142857;2,131.1428571428572;3,196.71428571428567;5,327.8571428571429;6,393.42857142857144;8,590.1428571428571;7,393.4285714285711
+
+[MULTIPLE_CHOICE]
+> What was Oleg's big news?
+- He is selling his house.
+- He's not hungry right now.
++ He is opening a new restaurant.
+
+[MATCH]
+> Tap the pairs
+- гость <> guest
+- Онa/Он идёт в гости <> S/he goes as guest(to someone's house to visit)
+- давно мы не виделись! <> It's been a long time/Long time no see!
+- Пока нет <> not yet
+- идут пешком <> (They) go by foot
+- перекусить <> to grab a bite
+
+[MATCH]
+> Tap the pairs
+- полгода <> half a year
+- Я рада за тебя <> I'm happy for you(female speaker)
+- ждать <> to wait
+- вопрос <> a question
+- голодная <> hungry(f)
+- голодный <> hungry(m)
+
