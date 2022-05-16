@@ -1,0 +1,108 @@
+[DATA]
+fromLanguageName=The interview
+icon=e3c4951a636e72c3f82ef749d5fbf2e61d51628d
+set=2|4
+
+icon_Customer=https://stories-cdn.duolingo.com/image/883741c5440a7570841a156052c1ba8af930ff28.svg
+
+[HEADER]
+> Η   συνέντευξη
+~ The interview 
+$51/speech_51_0.mp3;1,6;11,76
+
+[LINE]
+> Sales        Assistant: Καλημέρα!
+~ Good~morning ~          ~        
+$51/speech_51_1.mp3;5,6
+
+[LINE]
+SpeakerCustomer: Καλημέρα!     Χρειάζομαι κάποια ρούχα.  
+~                Good~morning  I~need     some   clothes 
+$51/speech_51_2.mp3;8,5.218930256948086;12,883.7388568432093;7,720.2123754588357;6,422.7333508127949
+
+[MULTIPLE_CHOICE]
+> The man came to shop for clothes.
++ Yes, that's true.
+- No, that's false.
+
+[LINE]
+> Sales Assistant:   Τι      χρειάζεστε; Έχουμε παπούτσια      και σακάκια.
+~ What  do~you~need  We~have shoes       and    (suit)~jackets ~   ~       
+$51/speech_51_4.mp3;5,5.917802831672785;10,139.06836654431044;4,1094.793523859465;11,446.7941137912951;8,662.7939171473517;10,251.50662034609377
+
+[MULTIPLE_CHOICE]
+> The sales assistant is saying they sell...
+- toasters
+- nail clippers
++ shoes and jackets
+
+[LINE]
+SpeakerCustomer: Χρειάζομαι ένα σακάκι. Μου~αρέσει αυτό     εδώ. 
+~                I~need     a   jacket  I~like     this~one here 
+$51/speech_51_6.mp3;10,5.218868565603941;4,661.9264964040999;7,163.52454838892356;5,916.7812446910923;7,330.52834248824956;5,412.2906166827115;4,327.0490967778469
+
+[POINT_TO_PHRASE]
+> Click on the word meaning this.
+SpeakerCustomer: (Χρειάζομαι) (ένα) (σακάκι). (Μου) (αρέσει) (+αυτό) (εδώ).
+
+[LINE]
+> Sales Assistant: Είναι πολύ ωραίο!
+~ It's  very       nice  ~    ~     
+$51/speech_51_8.mp3;5,5.026901189860321;10,408.85463010863936;7,264.7501293326436
+
+[ARRANGE]
+> Put the words in the right order:
+SpeakerCustomer: [(και) (χρειάζομαι) (παπούτσια) ()].
+$51/speech_51_9.mp3;3,4.937693151231184;11,187.63233974678496;10,609.8051041770511
+
+[LINE]
+> Sales Assistant: Πολύ                    καλά! Για ποια περίσταση είναι;
+~ Very  well       What~occasion~is~it~for ~     ~   ~    ~         ~     
+$51/speech_51_10.mp3;5,5.185453551165494;10,223.83874495864382;6,655.0956319639074;5,286.92842983115736;5,298.16357919201573;5,518.5453551165494
+
+[LINE]
+SpeakerCustomer: Έχω    μία συνέντευξη .
+~                I~have an  interview   
+$51/speech_51_11.mp3;3,6.4105925537493444;4,217.9601468274777;11,205.13896171997908
+
+[MULTIPLE_CHOICE]
+> Why does the man need new clothes?
+- He accidentally threw all his old ones away.
++ He has an interview.
+- He grew too big for his old ones.
+
+[LINE]
+> Sales Assistant: Α,  πού είναι     η συνέντευξη;
+~ Oh    where      is  the interview ~ ~          
+$51/speech_51_13.mp3;5,5.264355362946912;10,561.5312387143372;3,280.7656193571686;5,344.81527627302273;6,34.21830985915517
+
+[LINE]
+SpeakerCustomer: Στο αγαπημένο~μου μαγαζί.
+~                In  my~favourite  shop   
+$51/speech_51_14.mp3;3,5.178603807796918;10,293.4542157751587;4,447.94922937443346;7,251.1622846781504
+
+[LINE]
+> Sales          Assistant: Το αγαπημένο σας μαγαζί;
+~ Your~favourite shop       ~  ~         ~   ~      
+$51/speech_51_15.mp3;5,5.595483870967742;10,165.06677419354838;4,528.7732258064516;10,341.3245161290323
+
+[LINE]
+SpeakerCustomer: Ναι, αυτό~το μαγαζί!
+~                Yes  this    shop   
+$51/speech_51_16.mp3;3,5.795758564437194;6,660.7164763458401;3,397.9754214246874;7,188.36215334420876
+
+[MULTIPLE_CHOICE]
+> Where is the man's job interview?
+- In a shoe and jacket factory.
+- At a water sports centre.
++ In this shop.
+
+[MATCH]
+> Tap the pairs!
+- το ρούχο <> piece of clothing
+- το παπούτσι <> shoe
+- το σακάκι <> suit jacket
+- η συνέντευξη <> interview
+- η περίσταση <> occasion
+- το αγαπημένο σας <> your favourite
+
