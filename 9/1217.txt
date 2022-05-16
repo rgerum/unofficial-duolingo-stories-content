@@ -1,0 +1,127 @@
+[DATA]
+fromLanguageName=A Bad Day
+icon=d177f65e767d30af6fc75f7d0fc2c886ce601bea
+set=5|7
+
+speaker_Speaker375=ru-RU-Wavenet-E
+speaker_Speaker374=ru-RU-Wavenet-C
+
+[HEADER]
+> Плохой день
+~ a~bad  day 
+$1217/speech_1217_0.mp3;6,6;5,475
+
+[LINE]
+Speaker2540: Привет, Ирина!
+~            hi      ~     
+$1217/speech_1217_1.mp3;6,0;7,324.41379310344826
+
+[LINE]
+Speaker1616: Привет, Ангелина!
+~            hi      ~        
+$1217/speech_1217_2.mp3;6,0;10,342
+
+[LINE]
+Speaker2540: Как~твои~дела?    
+~            how~are~you~doing 
+$1217/speech_1217_3.mp3;3,0;5,152.27586206896552;5,190.34482758620692
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "bad."
+Speaker1616: (Не~очень).      (Сегодня)    (такой) (+плохой) (день).
+~             not~very~well    today~(is)   such     a~bad    day   
+$1217/speech_1217_4.mp3;2,0;6,159.52941176470588;9,372.2352941176471;6,425.41176470588243;7,319.0588235294117;5,372.23529411764684
+
+[LINE]
+Speaker2540: Почему?
+~            why    
+$1217/speech_1217_5.mp3;6,0
+
+[LINE]
+Speaker1616: Всё        идёт     не~так.           Я      устала...
+~            Everything is~going not~well(not~so)  I~(am) tired    
+$1217/speech_1217_6.mp3;3,0;5,146.28571428571428;3,182.85714285714283;4,109.71428571428572;3,182.85714285714283;7,73.14285714285711
+
+[LINE]
+Speaker2540: Сочувствую...             
+~            I~sympathize(I'm~sorry)   
+$1217/speech_1217_7.mp3;10,0
+
+[LINE]
+Speaker1616: Я не~могу найти мою книгу.
+~            I cannot  find  my  book  
+$1217/speech_1217_8.mp3;1,0;3,105.3658536585366;5,158.0487804878049;6,263.4146341463415;4,316.0975609756098;6,210.7317073170732
+
+[LINE]
+Speaker1616: Я хочу купить что-нибудь перекусить... 
+~            I want to~buy something  to~snack~on   
+$1217/speech_1217_9.mp3;1,0;5,71.67123287671232;7,179.1780821917808;11,250.84931506849313;11,394.19178082191786
+
+[LINE]
+Speaker1616: …| но  у~меня~нет   денег!
+~            …  but I~don't~have money 
+$1217/speech_1217_10.mp3;1,60.63157894736842;3,90.94736842105263;2,60.63157894736841;5,151.57894736842107;4,121.26315789473682
+
+[MULTIPLE_CHOICE]
+> Irina can't find...
++ … her book and doesn't have enough money to buy something to eat.
+- … Angelina and wants to buy her a sandwich.
+- … her book and doesn't have money to buy a new one.
+
+[LINE]
+Speaker1616: И   я опаздываю на  мой урок~английского~языка!
+~            and I am~late   for my  English~class          
+$1217/speech_1217_12.mp3;1,0;2,101.69491525423729;10,101.69491525423729;3,508.4745762711865;4,152.54237288135596;5,203.38983050847446;12,254.2372881355932;6,610.1694915254236
+
+[LINE]
+Speaker2540: Всё        будет   хорошо, Ирина!
+~            Everything will~be fine    ~     
+$1217/speech_1217_13.mp3;3,0;6,211.69230769230768;7,317.5384615384615;7,423.3846153846155
+
+[LINE]
+> Ангелина обнимает Ирину.
+~ ~        hugs     ~     
+$1217/speech_1217_14.mp3;8,6;9,641;6,636
+
+[MULTIPLE_CHOICE]
+> What did Angelina do?
+- She waved at Irina.
+- She kissed Irina.
++ She embraced Irina.
+
+[LINE]
+Speaker1616: Знаешь,   я чувствую~себя значительно         лучше! 
+~            you~know  I feel          significantly(much) better 
+$1217/speech_1217_16.mp3;6,0;3,431.1578947368421;9,107.78947368421052;5,485.0526315789474;12,269.47368421052624;6,646.7368421052631
+
+[LINE]
+Speaker2540: Правда? Почему?
+~            really  why    
+$1217/speech_1217_17.mp3;6,0;8,364.8
+
+[ARRANGE]
+> Tap what you hear
+Speaker2540: [(Сегодня) (ведь)      (такой)     (плохой) (ден)]ь.
+~              today     after~all   (is)~such   a~bad    day    
+$1217/speech_1217_18.mp3;7,0;5,388.17391304347825;6,242.60869565217388;7,291.13043478260875;5,339.6521739130434
+
+[LINE]
+Speaker1616: Потому~что сейчас я    с~тобой,  моей лучшей подругой!
+~            because    now    I~am with~you  my   best   friend   
+$1217/speech_1217_19.mp3;6,0;4,361.84615384615387;7,206.76923076923077;2,361.8461538461539;2,103.38461538461524;6,103.38461538461547;6,361.8461538461538;7,258.46153846153857;9,361.8461538461536
+
+[MULTIPLE_CHOICE]
+> Why is Irina feeling better?
+- Because she found her book.
++ Because she is with her friend now.
+- Because Angelina bought her a sandwich.
+
+[MATCH]
+> Tap the pairs
+- (я) опаздываю <> (I) am late
+- (она) обнимает <> (he/she) embraces
+- (ты) знаешь <> (you) know
+- день <> day
+- потому что <> because
+- подруга <> friend (f)
+
