@@ -4,16 +4,16 @@ icon=5afbf601db955e3db76a96aea1d4e0a535c16e7c
 set=3|2
 
 [HEADER]
-> El  nuevo estudiante
-~ the new   student   
+> Nový student
+~ (the)~new   student   
 
 [LINE]
-> Zari y   Lily están en el  autobús.
-~ Zari and Lily are   on the bus     
+> Zari a   Lily jsou v autobusu.
+~ Zari and Lily are   on the~bus     
 
 [LINE]
-Speaker418: ¡Lily, hay      un nuevo estudiante en nuestra clase!
-~            Lily  there~is a  new   student    in our     class 
+Speaker418: Lily, v naší třídě je nový student!
+~            Lily  in our class is (a)~new student
 
 [MULTIPLE_CHOICE]
 > Zari tells Lily that there's a new teacher at their school.
@@ -21,100 +21,100 @@ Speaker418: ¡Lily, hay      un nuevo estudiante en nuestra clase!
 - Yes, that's right.
 
 [LINE]
-Speaker418: Su  nombre es Miguel.
-~           his name   is Miguel 
+Speaker418: Jmenuje se Michael.
+~           his~name~is Michael 
 
 [LINE]
-Speaker416: ¿Miguel?
-~            Miguel 
+Speaker416: Michael?
+~            Michael
 
 [LINE]
-Speaker418: Sí,  es    de   México.
+Speaker418: Ano,  je    z   Mexika.
 ~           yes  he~is from Mexico 
 
 [LINE]
-Speaker418: ¡Su  padre  escribe libros!
+Speaker418: Jeho  otec  píše knihy!
 ~            his father writes  books  
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker416: [Muy~interesante]. 
+Speaker416: [Moc~zajímavé]. 
 ~            very~interesting  
-- Tu interesante
-- Su interés antes
-+ Muy interesante
+- Noc je zajímavá
+- My se zajímáme
++ Moc zajímavé
 
 [LINE]
-Speaker418: Habla     español, inglés  y   portugués. 
+Speaker418: Mluví     španělsky, anglicky  a   portugalsky. 
 ~           he~speaks Spanish  English and Portuguese 
 
 [LINE]
-Speaker416: Ah, es    inteligente.
-~           oh  he~is intelligent 
+Speaker416: Jé, on je    inteligentní.
+~           oh  he is intelligent 
 
 [LINE]
-Speaker418: Inteligente… y   alto. Y   tiene  muy  bonitos…
+Speaker418: Inteligentní… a   vysoký. A má  moc  hezké…
 ~           intelligent  and tall  and he~has very pretty  
 
 [MULTIPLE_CHOICE]
-> How does Zari describe Miguel?
+> How does Zari describe Michael?
 - He's short and blond.
 - He's handsome and loud.
 + He's intelligent and tall.
 
 [LINE]
-Speaker416: Ja, ja, ¿sí? 
+Speaker416: Ha ha, ano? 
 ~           ha  ha   yes 
 
 [LINE]
-Speaker418: Mmm… Muy  bonitos zapatos.
+Speaker418: No…   moc hezké boty.
 ~           hmm  very pretty  shoes   
 
 [POINT_TO_PHRASE]
 > Choose the option that means "behind."
-Speaker416: (Zari), (Miguel) (está) (+detrás~de) ti. 
-~            Zari    Miguel   is      behind     you 
+Speaker416: (Zari), (Michael) (je) (+za) tebou. 
+~            Zari    Michael   is      behind     you 
 
 [LINE]
-Speaker418: ¡¿Qué?! 
+Speaker418: Co?! 
 ~             what  
 
 [LINE]
-Speaker416: ¡Hola,  Miguel!
-~            hello  Miguel 
+Speaker416: Ahoj,  Michaeli!
+~            hello  Michael 
 
 [LINE]
-Speaker790: ¡Hola,  Lily! ¿Cómo~estás? 
+Speaker790: Ahoj,  Lily! Jak~se~máš? 
 ~            hello  Lily   how~are~you 
 
 [LINE]
-Speaker416: Bien, gracias.  
+Speaker416: Dobře, díky.  
 ~           fine  thank~you 
 
 [ARRANGE]
 > Tap what you hear
-Speaker416: [(Miguel), (esta) (es) (mi~amiga),  (Zari).]
-~             Miguel    this   is   my~friend    Zari   
+Speaker416: [(Michaeli), (tohle) (je) (moje~kamarádka),  (Zari).]
+~             Michael    this   is   my~friend    Zari   
 
 [LINE]
-Speaker416: A~ella~le~gustan tus…  zapatos.
+Speaker416: Líbí~se~jí tvoje…  boty.
 ~           she~likes        your  shoes   
 
 [LINE]
-Speaker418: Ah, mmm, hola…  Miguel.
-~           oh  hmm  hello  Miguel 
+Speaker418: Ah, no, ahoj…  Michaeli.
+~           oh  hmm  hello  Michael 
 
 [MULTIPLE_CHOICE]
 > Zari didn't realize that…
-- …Miguel's shoes were so ugly.
-+ …Miguel was sitting behind her.
+- …Michael's shoes were so ugly.
++ …Michael was sitting behind her.
 - …her homework was due today.
 
 [MATCH]
 > Tap the pairs
-- Zari <> Zari
-- Sí <> yes
-- Bien <> fine
-- esta <> this
-- Qué <> what
+- boty <> shoes
+- ano <> yes
+- dobře <> fine
+- toto <> this
+- co <> what
 
