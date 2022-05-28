@@ -1,120 +1,130 @@
 [DATA]
-fromLanguageName=The New Student
-icon=5afbf601db955e3db76a96aea1d4e0a535c16e7c
-set=3|2
+fromLanguageName=A Question
+icon=d845f544be0f67c8960124f8ef46185826f40763
+set=3|3
 
 [HEADER]
-> El  nuevo estudiante
-~ the new   student   
+> Una pregunta
+~ a   question
 
 [LINE]
-> Zari y   Lily están en el  autobús.
-~ Zari and Lily are   on the bus     
+Speaker415: Papá, tengo  una pregunta.
+~           dad   I~have a   question 
 
 [LINE]
-Speaker418: ¡Lily, hay      un nuevo estudiante en nuestra clase!
-~            Lily  there~is a  new   student    in our     class 
+Speaker414: Lo~siento, Junior, estoy ocupado.
+~           I'm~sorry  Junior  I~am  busy    
+
+[LINE]
+Speaker414: Hay      un partido~de~fútbol~importante en la~televisión.
+~           there~is an important~soccer~game        on TV            
+
+[LINE]
+Speaker414: ¡Vamos!    ¡Vamos!    ¡Vamos!   
+~            let's~go   let's~go   let's~go 
 
 [MULTIPLE_CHOICE]
-> Zari tells Lily that there's a new teacher at their school.
-+ No, that's wrong.
-- Yes, that's right.
+> Junior's dad is cheering for the soccer team on TV.
++ Yes, that's right.
+- No, that's wrong.
 
 [LINE]
-Speaker418: Su  nombre es Miguel.
-~           his name   is Miguel 
+Speaker415: Pero necesito dinero.
+~           but  I~need   money  
 
 [LINE]
-Speaker416: ¿Miguel?
-~            Miguel 
+Speaker414: ¡Sí! 
+~            yes 
 
 [LINE]
-Speaker418: Sí,  es    de   México.
-~           yes  he~is from Mexico 
-
-[LINE]
-Speaker418: ¡Su  padre  escribe libros!
-~            his father writes  books  
-
-[SELECT_PHRASE]
-> Select the missing phrase
-Speaker416: [Muy~interesante]. 
-~            very~interesting  
-- Tu interesante
-- Su interés antes
-+ Muy interesante
-
-[LINE]
-Speaker418: Habla     español, inglés  y   portugués. 
-~           he~speaks Spanish  English and Portuguese 
-
-[LINE]
-Speaker416: Ah, es    inteligente.
-~           oh  he~is intelligent 
-
-[LINE]
-Speaker418: Inteligente… y   alto. Y   tiene  muy  bonitos…
-~           intelligent  and tall  and he~has very pretty  
+Speaker415: ¿De~verdad?
+~            really    
 
 [MULTIPLE_CHOICE]
-> How does Zari describe Miguel?
-- He's short and blond.
-- He's handsome and loud.
-+ He's intelligent and tall.
+> Why is Junior surprised?
++ He thinks his dad agreed to give him money.
+- His favorite soccer team is losing.
+- He found money on the floor.
 
 [LINE]
-Speaker416: Ja, ja, ¿sí? 
-~           ha  ha   yes 
+Speaker415: Necesito dinero para una pizza.
+~           I~need   money  for  a   pizza 
 
 [LINE]
-Speaker418: Mmm… Muy  bonitos zapatos.
-~           hmm  very pretty  shoes   
-
-[POINT_TO_PHRASE]
-> Choose the option that means "behind."
-Speaker416: (Zari), (Miguel) (está) (+detrás~de) ti. 
-~            Zari    Miguel   is      behind     you 
+Speaker414: ¡Vamos!    ¡Vamos!    ¡Vamos!   
+~            let's~go   let's~go   let's~go 
 
 [LINE]
-Speaker418: ¡¿Qué?! 
-~             what  
-
-[LINE]
-Speaker416: ¡Hola,  Miguel!
-~            hello  Miguel 
-
-[LINE]
-Speaker790: ¡Hola,  Lily! ¿Cómo~estás? 
-~            hello  Lily   how~are~you 
-
-[LINE]
-Speaker416: Bien, gracias.  
-~           fine  thank~you 
-
-[ARRANGE]
-> Tap what you hear
-Speaker416: [(Miguel), (esta) (es) (mi~amiga),  (Zari).]
-~             Miguel    this   is   my~friend    Zari   
-
-[LINE]
-Speaker416: A~ella~le~gustan tus…  zapatos.
-~           she~likes        your  shoes   
-
-[LINE]
-Speaker418: Ah, mmm, hola…  Miguel.
-~           oh  hmm  hello  Miguel 
+Speaker415: Y   quiero un videojuego~nuevo.
+~           and I~want a  new~video~game   
 
 [MULTIPLE_CHOICE]
-> Zari didn't realize that…
-- …Miguel's shoes were so ugly.
-+ …Miguel was sitting behind her.
-- …her homework was due today.
+> Junior wants a new…
++ …video game.
+- …dad.
+- …dog.
+
+[LINE]
+Speaker414: ¡Sí! 
+~            yes 
+
+[LINE]
+Speaker415: Y   mañana   no~voy        a  la~escuela.
+~           and tomorrow I'm~not~going to school     
+
+[MULTIPLE_CHOICE]
+> Junior doesn't want to…
+- …go to school today.
++ …go to school tomorrow.
+- …go to work tomorrow.
+
+[LINE]
+Speaker414: ¡Sí!  ¡Perfecto!
+~            yes   perfect  
+
+[LINE]
+Speaker415: ¡Guau, qué~fácil!
+~            wow   how~easy  
+
+[LINE]
+Speaker415: ¡Voy       a  la  tienda!
+~            I'm~going to the store  
+
+[LINE]
+Speaker414: ¡Sí!  ¡Sí!  ¡Sí! 
+~            yes   yes   yes 
+
+[LINE]
+Speaker415: ¡Adiós, papá!
+~            bye    dad  
+
+[LINE]
+Speaker414: Lo~siento, Junior.
+~           I'm~sorry  Junior 
+
+[LINE]
+Speaker414: ¡Es   un partido~muy~bueno!
+~            it's a  very~good~game    
+
+[LINE]
+Speaker414: ¿Junior? ¿Qué~necesitas?   
+~            Junior   what~do~you~need 
+
+[LINE]
+Speaker414: ¿Junior? ¿Dónde~estás?  
+~            Junior   where~are~you 
+
+[MULTIPLE_CHOICE]
+> Junior's dad…
+- …took Junior to the mall to buy a new video game.
+- …never watches sports on TV.
++ …was so interested in the game that he didn't pay attention to Junior.
 
 [MATCH]
 > Tap the pairs
-- Zari <> Zari
-- Sí <> yes
-- Bien <> fine
-- esta <> this
-- Qué <> what
+- Lo siento <> I'm sorry
+- qué fácil <> how easy
+- la televisión <> TV
+- la <> the
+- no voy <> I'm not going
 
