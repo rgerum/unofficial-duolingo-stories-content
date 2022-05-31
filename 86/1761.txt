@@ -1,141 +1,166 @@
 [DATA]
-fromLanguageName=A Date
+fromLanguageName=Побачення
 icon=df24f7756b139f6eda927eb776621b9febe1a3f1
 set=1|2
 
 [HEADER]
-> Una cita
-~ a   date
+> Schůzka
+~ побачення
+$1659/52db2e7a.mp3;7,50
 
 [LINE]
-> Bea está en una cita en un restaurante.
-~ Bea is   on a   date in a  restaurant  
+> Beáta je na schůzce v restauraci.
+~ Беата є на побаченні  в ресторані  
+$1659/5e3ff494.mp3;5,50;3,475;3,100;8,100;2,387;11,50
 
 [LINE]
-Speaker507: ¡Hola!  ¿Cómo~estás? 
-~            hello   how~are~you 
+Speaker507: Ahoj!  Jak~se~máš? 
+~           привіт  як~справи 
+$1659/604bec16.mp3;4,0;5,373;3,415;4,134
 
 [LINE]
-Speaker100: ¡Bien!
-~            fine 
+Speaker100: Dobře.
+~           добре 
+$1659/621644e2.mp3;5,50
 
 [LINE]
-Speaker100: ¿Qué  quieres     comer? 
-~            what do~you~want to~eat 
+Speaker100: Co   chceš        jíst? 
+~           що хочеш їсти 
+$1659/8e863672.mp3;2,50;6,150;5,250
 
 [LINE]
-Speaker507: Una ensalada.
-~           a   salad    
+Speaker507: Salát.
+~           салат    
+$1659/908fc96a.mp3;5,0
 
 [SELECT_PHRASE]
-> Select the missing phrase
-Speaker507: Hoy   tengo  [un~partido~importante].
-~           today I~have  an~important~game      
-+ un partido importante
-- un batido importante
-- una parte imponente
+> Вибери пропущену фразу
+Speaker507: Dnes   mám    [důležitý~zápas].
+~           сьогодні  маю важливий~матч
+$1659/a9929a6e.mp3;4,0;4,330;9,265;6,559
++ důležitý zápas
+- důležitý závěr
+- důkladný zápis
 
 [LINE]
-Speaker100: Ah, ¿te~gustan   los~deportes?
-~           oh   do~you~like (the)~sports 
+Speaker100: Jé, máš~ráda    sporty?
+~           о  тобі~подобається спорт 
+$1659/b4bfc51a.mp3;2,50;4,287;5,288;7,275
 
 [LINE]
-Speaker507: Sí,  yo juego~al fútbol.
-~           yes  I  play     soccer 
+Speaker507: Ano, hraju  fotbal.
+~           так  граю у~футбол 
+$1659/bb9be706.mp3;3,0;7,239;7,369
 
 [MULTIPLE_CHOICE]
-> Bea is ordering a salad because…
-+ …she is playing soccer today.
-- …her date said the salad is delicious.
-- …she just ate a whole pizza.
+> Беата замовила салат, тому що…
++ …вона сьогодні грає у футбол.
+- …її співрозмовник сказав, що салат дуже смачний.
+- …вона щойно з'їла цілу піццу.
 
 [LINE]
-Speaker100: ¡Yo~también!
-~            me~too     
+Speaker100: Já~taky!
+~           я~теж     
+$1659/c1a03bfc.mp3;2,50;5,337
 
 [LINE]
-Speaker507: ¡Súper!
-~            great 
+Speaker507: Super!
+~           супер 
+$1659/c58f523e.mp3;5,0
 
 [LINE]
-Speaker507: ¿De~dónde~eres?     
-~            where~are~you~from 
+Speaker507: Odkud~jsi?     
+~           звідки~ти 
+$1659/caf823d6.mp3;5,0;4,336
 
 [LINE]
-Speaker100: Soy  americano.
-~           I~am American  
+Speaker100: Jsem Američan.
+~           я американець  
+$1659/cf7387a2.mp3;4,50;9,412
 
 [ARRANGE]
-> Tap what you hear
-Speaker100: [(Mi~padre)  (es~de~Cuba)   (y)   (mi~madre)  (es~de~México).]  
-~             my~father   is~from~Cuba   and   my~mother   is~from~Mexico   
+> Торкнися того, що чуєш
+Speaker100: [(Můj~otec)  (je~z~Bostonu)   (a)   (moje~matka)  (je~z~Prahy).]  
+~             мій~отець   є~з~Бостону  а    моя~мама    є~з~Праги   
+$1659/d72512a4.mp3;3,50;5,375;3,300;2,75;8,75;2,387;5,125;6,225;3,313;2,87;6,88
 
 [LINE]
-Speaker507: ¡Me~encanta Cuba!
-~            I~love     Cuba 
+Speaker507: Já~miluju Prahu!
+~           я~люблю   Прагу 
+$1659/dfc9267a.mp3;2,0;7,111;6,421
 
 [LINE]
-Speaker100: Cuba es muy  bonita.   
-~           Cuba is very beautiful 
+Speaker100: Praha  je moc  krásná.   
+~           Прага є дуже красива 
+$1659/e7a3d444.mp3;5,50;3,337;4,75;7,188
 
 [LINE]
-Speaker507: ¿Tienes      mascotas?
-~            do~you~have pets     
+Speaker507: Máš         domácí~mazlíčky?
+~           маєш домашніх~тварин     
+$1659/45bf24aa.mp3;3,0;7,244;9,580
 
 [LINE]
-Speaker100: Tengo  dos gatos y   un perro.
-~           I~have two cats  and a  dog   
+Speaker100: Mám    dvě kočky a   psa.
+~           маю дві кішки та собаку   
+$1659/f99b7a8a.mp3;3,50;4,412;6,150;2,350;4,113
 
 [POINT_TO_PHRASE]
-> Choose the option that means "also."
-Speaker507: Yo (+también) (tengo) un (perro), (José).
-~           I    also      have   a   dog      José  
+> Вибери слово, яке означає "також."
+Speaker507: Já (mám) (+také) (psa), (Honzo).
+~           я   маю також собаку Гонза
+$1659/00d36614.mp3;2,0;4,174;5,228;4,289;7,301
 
 [LINE]
-Speaker100: ¿Eh? Yo~me~llamo Daniel…
-~            eh  my~name~is  Daniel 
+Speaker100: Co? Já~se~jmenuju Daniel.
+~           що  мене~звати    Даніель 
+$1659/43d62410.mp3;2,50;3,1237;3,325;8,138;7,325
 
 [LINE]
-Speaker100: ¿Tú~no~eres Gabriela?
-~            aren't~you Gabriela 
+Speaker100: Ty~nejsi   Gabriela?
+~           ти~не Габріела 
+$1659/4fe34e54.mp3;2,50;6,162;9,300
 
 [LINE]
-Speaker507: ¡No!
-~            no 
+Speaker507: Ne!
+~           ні 
+$1659/5594f2d0.mp3;2,0
 
 [LINE]
-Speaker507: ¡Yo~me~llamo Bea!
-~            my~name~is  Bea 
+Speaker507: Já~se~jmenuju Beáta!
+~           мене~звати    Беата 
+$1659/574dfa2c.mp3;2,0;3,148;8,182;6,419
 
 [MULTIPLE_CHOICE]
-> Did you catch that? Bea and Daniel…
-- …bought tickets to Cuba.
-+ …were supposed to meet different people.
-- …are walking their dogs.
+> Ясно, в чому річ? Беата та Даніель…
+- …купили квитки до Бостона.
++ …мали зустрітися з іншими людьми.
+- …гуляють з собаками.
 
 [LINE]
-> Una mujer camina hacia   Daniel.
-~ a   woman walks  towards Daniel 
+> K Danielovi jde nějaká   žena.
+~ К Даніелю йде якась жінка 
 
 [LINE]
-Speaker101: ¡Hola!  ¿Eres    Daniel? Soy  Gabriela.
-~            hello   are~you Daniel  I~am Gabriela 
+Speaker101: Ahoj!  Ty~jsi  Daniel? Já~jsem  Gabriela.
+~           привіт  ти Даніель  я     Габріела 
+$1659/85a30714.mp3;4,0;4,372;4,327;7,134;4,454;5,371;9,223
 
 [LINE]
-Speaker100: No, lo~siento. Soy  José.
-~           no  I'm~sorry  I~am José 
+Speaker100: Ne, pardon.    Já~jsem  Honza.
+~           ні  вибачте  я     Гонза 
+$1659/8ed5ed10.mp3;2,50;7,225;3,1462;5,313;6,225
 
 [MULTIPLE_CHOICE]
-> Whoa! What just happened?
-- Bea changed her name to Gabriela.
-+ Daniel lied to his real date because he likes Bea.
-- Bea and Daniel's dogs played soccer.
+> Вау! Що щойно сталося?
+- Беата змінила своє ім'я на Габріела.
++ Даніель збрехав своїй справжній компаньйонці, тому що йому сподобалася Беата.
+- Беата та собаки Даніеля грали у футбол.
 
 [MATCH]
-> Tap the pairs
-- y <> and
-- Soy <> I am
-- ensalada <> salad
-- Me encanta <> I love
-- Eh <> eh
+> Торкнися пар
+- a <> та
+- máš <> маєш
+- salát <> салат
+- miluju <> люблю
+- také <> також
 
