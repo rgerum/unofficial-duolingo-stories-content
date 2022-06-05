@@ -1,0 +1,172 @@
+[DATA]
+fromLanguageName=What Are You Wearing?
+icon=44c400dd03eab1e496c94fe99f72b94b77a460dc
+set=68|1
+
+[HEADER]
+> ¿Qué~llevas~puesto?   
+~  what~are~you~wearing 
+
+[LINE]
+> Bea llega   a  un desfile~de~moda vestida~con ropa~de~diseñador.
+~ Bea arrives at a  fashion~show    wearing     designer~clothes  
+
+[LINE]
+> Su~invitada, Lin, llega   con  unos jeans~rotos y   un suéter~viejo.
+~ her~guest    Lin  arrives with some torn~jeans  and an old~sweater  
+
+[LINE]
+Speaker507: ¡Lin! ¿Qué~llevas~puesto?   
+~            Lin   what~are~you~wearing 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker508: ¿Qué~llevas~puesto~tú? Es   [el~sombrero~más~pequeño] que  he~visto  en mi vida.
+~            what~are~you~wearing  it's  the~smallest~hat         that I've~seen in my life 
++ el sombrero más pequeño
+- el sombrero madrileño
+- el obrero más pequeño
+
+[LINE]
+Speaker507: Esta es la~tendencia. ¡Te~pedí~que~te~pusieras ropa~a~la~moda!     
+~           this is the~trend      I~asked~you~to~wear     fashionable~clothes 
+
+[ARRANGE]
+> Tap what you hear
+Speaker508: [(Mi) (ropa)    (está) (a~la~moda).]  
+~             my   clothes   are    fashionable   
+
+[LINE]
+Speaker507: Pero tus  jeans están rotos y   llevas~puesto  un~suéter que  yo tiré  a  la~basura.
+~           but  your jeans are   torn  and you're~wearing a~sweater that I  threw to the~trash 
+
+[CONTINUATION]
+> ¿Qué~sigue?      
+~  what~comes~next 
+Speaker508: Sí,  es   cómodo.      ¿Por~qué te~importa tanto         [lo~que llevo~puesto]?
+~           yes  it's comfortable   why     you~care   so~much~about  what   I'm~wearing   
+- la~ropa~de~mi~abuela
+~ my~grandma's~clothes
++ lo~que llevo~puesto
+~ what   I'm~wearing 
+- lo~que lavé     ayer     
+~ what   I~washed yesterday
+
+[LINE]
+Speaker507: Importa    porque  eres    mi invitada ¡y   yo vine para        impresionar~a la~diseñadora Mimi~Ma!
+~           it~matters because you~are my guest     and I  came in~order~to (to)~impress  the~designer  Mimi~Ma 
+
+[POINT_TO_PHRASE]
+> Selecciona la~opción  que  significa "muy  pequeño".
+~ choose     the~option that means      very small    
+Speaker508: Ah, (ahora) (entiendo)     tu   (sombrero) (+diminuto).
+~           oh   now     I~understand  your  hat         tiny      
+
+[LINE]
+Speaker507: Si logro    entrevistar~a  Mimi~Ma, eso  podría ayudar    mucho~a~mi~carrera.
+~           if I~get~to (to)~interview Mimi~Ma  that might  (to)~help my~career~a~lot    
+
+[MULTIPLE_CHOICE]
+> ¿Por~qué Bea lleva~puesto un sombrero~muy~pequeño?
+~  why     Bea is~wearing   a  very~small~hat       
+- Ella quiere entrevistar~a otras personas con  sombreros~pequeños.
+~ she  wants  to~interview  other people   with small~hats         
+- Su~cabeza es demasiado pequeña para los~sombreros~normales.
+~ her~head  is too       small   for  normal~hats            
++ Ella quiere entrevistar~a una diseñadora~famosa.
+~ she  wants  to~interview  a   famous~designer   
+
+[LINE]
+> Un~fotógrafo   se~acerca~a Bea y   a~Lin.
+~ a~photographer approaches  Bea and Lin   
+
+[LINE]
+Speaker57: Hola,  ¿una~foto?
+~          hello   a~photo  
+
+[LINE]
+Speaker507: Eh… ¿me~puede~tomar~la~foto       sola?     
+~           eh   can~you~take~the~photo~of~me by~myself 
+
+[LINE]
+> El~fotógrafo     toma  una~foto de Bea… sin     Lin.
+~ the~photographer takes a~photo  of Bea  without Lin 
+
+[CONTINUATION]
+> ¿Qué~sigue?      
+~  what~comes~next 
+Speaker508: Entiendo,     Bea. Crees     que  te~ves   mejor  que  yo y   no~merezco      [una~foto contigo]. 
+~           I~understand  Bea  you~think that you~look better than me and I~don't~deserve  a~photo  with~you  
++ una~foto contigo 
+~ a~photo  with~you
+- ir    al     concierto
+~ to~go to~the concert  
+- manejar  una~motocicleta
+~ to~drive a~motorcycle   
+
+[LINE]
+Speaker507: No~es    eso,  Lin, pero tú  no~entiendes     el~mundo  de la~moda como yo.
+~           it's~not that  Lin  but  you don't~understand the~world of fashion like me 
+
+[LINE]
+> De~repente, la~diseñadora Mimi~Ma se~acerca  emocionada a~Bea y   a~Lin.
+~ suddenly    the~designer  Mimi~Ma approaches excitedly  Bea   and Lin   
+
+[LINE]
+Speaker561: No~quiero    interrumpir,  pero ¿puedo decir    algo?      ¡Me~encanta tu   look!
+~           I~don't~want to~interrupt  but   I~can (to)~say something   I~love     your look 
+
+[LINE]
+Speaker507: Muchas~gracias,    yo…
+~           thank~you~so~much  I  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker561: En~realidad, estaba~hablando~con tu   amiga.  ¿Dónde compraste  [esas~sandalias]?
+~           actually     I~was~talking~to    your friend   where you~bought  those~sandals   
++ esas sandalias
+- fresas y sandalias
+- esas sandías
+
+[LINE]
+Speaker508: Las~encontré en la~calle,   fuera~de mi edificio.
+~           I~found~them in the~street  outside  my building 
+
+[LINE]
+Speaker508: Estaban   al~lado~de un~pedazo de papel que  decía "sandalias~gratis".
+~           they~were next~to    a~piece   of paper that said   free~sandals      
+
+[LINE]
+Speaker561: ¡Qué~graciosa~eres! Necesito una~foto contigo,  ¿qué  dices?  
+~            you're~so~funny    I~need   a~photo  with~you   what you~say 
+
+[LINE]
+Speaker508: Por~supuesto, pero ¿mi amiga  también~puede~salir en la~foto?   Es    mi estilista.
+~           of~course     but   my friend can~also~be         in the~photo  she's my stylist   
+
+[LINE]
+Speaker507: ¿Ah, sí? 
+~            oh  yes 
+
+[LINE]
+Speaker508: Sí,  tú  me~diste este~suéter. 
+~           yes  you gave~me  this~sweater 
+
+[MULTIPLE_CHOICE]
+> Bea llevaba~puesta ropa~de~diseñador para        impresionar~a Mimi~Ma, pero…
+~ Bea was~wearing    designer~clothes  in~order~to (to)~impress  Mimi~Ma  but  
++ …a~Mimi~Ma~le~gustó más  el~look~de~Lin.
+~  Mimi~Ma~liked      more Lin's~look     
+- …el~viento hizo~volar~su~sombrero.
+~  the~wind  blew~her~hat~away      
+- …Lin llevaba~puesta la  misma ropa    que Bea.
+~  Lin was~wearing    the same  clothes as  Bea 
+
+[MATCH]
+> Tap the pairs
+- tiré <> threw
+- lo que <> what
+- sandalias gratis <> free sandals
+- al lado de <> next to
+- diminuto <> tiny
+
