@@ -4,107 +4,107 @@ icon=df24f7756b139f6eda927eb776621b9febe1a3f1
 set=1|2
 
 [HEADER]
-> Una cita
-~ a   date
+> Pasimatymas
+~ a~date
 
 [LINE]
-> Bea está en una cita en un restaurante.
-~ Bea is   on a   date in a  restaurant  
+> Bea yra pasimatyme restorane.
+~ Bea is   on~a~date in~a~restaurant  
 
 [LINE]
-Speaker507: ¡Hola!  ¿Cómo~estás? 
+Speaker507: Labas!  Kaip~tau~sekasi? 
 ~            hello   how~are~you 
 
 [LINE]
-Speaker100: ¡Bien!
+Speaker100: Gerai!
 ~            fine 
 
 [LINE]
-Speaker100: ¿Qué  quieres     comer? 
+Speaker100: Ką nori valgyti? 
 ~            what do~you~want to~eat 
 
 [LINE]
-Speaker507: Una ensalada.
-~           a   salad    
+Speaker507: Salotas.
+~           a~salad    
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker507: Hoy   tengo  [un~partido~importante].
+Speaker507: Šiandien  turiu [įdomias~rungtynes].
 ~           today I~have  an~important~game      
-+ un partido importante
-- un batido importante
-- una parte imponente
++ įdomias rungtynes
+- įspūdingas rungtynes
+- įtakingas rungtynes
 
 [LINE]
-Speaker100: Ah, ¿te~gustan   los~deportes?
+Speaker100: O, Ar~tau~patinka  sportai?
 ~           oh   do~you~like (the)~sports 
 
 [LINE]
-Speaker507: Sí,  yo juego~al fútbol.
-~           yes  I  play     soccer 
+Speaker507: Taip,  aš žaidžiu krepšinį.
+~           yes  I  play     basketball
 
 [MULTIPLE_CHOICE]
 > Bea is ordering a salad because…
-+ …she is playing soccer today.
++ …she is playing basketball today.
 - …her date said the salad is delicious.
 - …she just ate a whole pizza.
 
 [LINE]
-Speaker100: ¡Yo~también!
+Speaker100: Aš~irgi!
 ~            me~too     
 
 [LINE]
-Speaker507: ¡Súper!
+Speaker507: Puiku!
 ~            great 
 
 [LINE]
-Speaker507: ¿De~dónde~eres?     
+Speaker507: Iš~kur~esi?     
 ~            where~are~you~from 
 
 [LINE]
-Speaker100: Soy  americano.
-~           I~am American  
+Speaker100: Aš esu lietuvis.
+~           I am Lithuanian
 
 [ARRANGE]
 > Tap what you hear
-Speaker100: [(Mi~padre)  (es~de~Cuba)   (y)   (mi~madre)  (es~de~México).]  
-~             my~father   is~from~Cuba   and   my~mother   is~from~Mexico   
+Speaker100: [(Mano~tėvas)  (yra~iš~Kauno)   (ir)   (mano~motina)  (yra~iš~Vilniaus).]  
+~             my~father   is~from~Kaunas   and   my~mother   is~from~Vilnius  
 
 [LINE]
-Speaker507: ¡Me~encanta Cuba!
-~            I~love     Cuba 
+Speaker507: Man~patinka Kaunas!
+~            I~love     Kaunas
 
 [LINE]
-Speaker100: Cuba es muy  bonita.   
-~           Cuba is very beautiful 
+Speaker100: Kaunas yra labai gražus.   
+~           Kaunas is very beautiful 
 
 [LINE]
-Speaker507: ¿Tienes      mascotas?
+Speaker507: Ar~turi augintinių?
 ~            do~you~have pets     
 
 [LINE]
-Speaker100: Tengo  dos gatos y   un perro.
+Speaker100: Aš~turiu dvi kates ir šunį.
 ~           I~have two cats  and a  dog   
 
 [POINT_TO_PHRASE]
 > Choose the option that means "also."
-Speaker507: Yo (+también) (tengo) un (perro), (José).
-~           I    also      have   a   dog      José  
+Speaker507: Aš (+taip pat) (turiu)  (šunį), (Juozai).
+~           I    also      have   a~dog      Juozas
 
 [LINE]
-Speaker100: ¿Eh? Yo~me~llamo Daniel…
+Speaker100: Ė? Mano~vardas~yra Danielius…
 ~            eh  my~name~is  Daniel 
 
 [LINE]
-Speaker100: ¿Tú~no~eres Gabriela?
-~            aren't~you Gabriela 
+Speaker100: Ar~tu~ne Gabrielė?
+~            aren't~you Gabrielė
 
 [LINE]
-Speaker507: ¡No!
+Speaker507: Ne!
 ~            no 
 
 [LINE]
-Speaker507: ¡Yo~me~llamo Bea!
+Speaker507: Mano~vardas~yra Bea!
 ~            my~name~is  Bea 
 
 [MULTIPLE_CHOICE]
@@ -114,15 +114,15 @@ Speaker507: ¡Yo~me~llamo Bea!
 - …are walking their dogs.
 
 [LINE]
-> Una mujer camina hacia   Daniel.
-~ a   woman walks  towards Daniel 
+> Moteris prieina prie Danieliaus.
+~ a~woman walks  towards Daniel 
 
 [LINE]
-Speaker101: ¡Hola!  ¿Eres    Daniel? Soy  Gabriela.
-~            hello   are~you Daniel  I~am Gabriela 
+Speaker101: Labas!  Ar~tu~esi   Danielius? Aš~esu  Gabrielė.
+~            hello   are~you Daniel  I~am Gabrielė
 
 [LINE]
-Speaker100: No, lo~siento. Soy  José.
+Speaker100: Ne, atsiprašau. Esu  Juozas.
 ~           no  I'm~sorry  I~am José 
 
 [MULTIPLE_CHOICE]
@@ -133,9 +133,9 @@ Speaker100: No, lo~siento. Soy  José.
 
 [MATCH]
 > Tap the pairs
-- y <> and
-- Soy <> I am
-- ensalada <> salad
-- Me encanta <> I love
-- Eh <> eh
+- ir <> and
+- esu <> I am
+- salotos <> salad
+- man patinka <> I love
+- labas <> hello
 
