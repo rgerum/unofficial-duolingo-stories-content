@@ -4,16 +4,16 @@ icon=5afbf601db955e3db76a96aea1d4e0a535c16e7c
 set=3|2
 
 [HEADER]
-> Den nye elev
-~ the new   student   
+> Den~nye~elev
+~ The~new~student   
 
 [LINE]
-> Zari og Lily er i bussen.
-~ Zari and Lily are   on the bus     
+> Zari og Lily er      i~bussen.
+~ Zari and Lily are   on~the~bus     
 
 [LINE]
-Speaker418: Lily, der er en ny elev i vores klasse!
-~            Lily  there~is a  new   student    in our     class 
+Speaker418: Lily,   der~er  en~ny~elev     i vores klasse!
+~            Lily  there~is a~new~student  in our   class 
 
 [MULTIPLE_CHOICE]
 > Zari tells Lily that there's a new teacher at their school.
@@ -21,93 +21,92 @@ Speaker418: Lily, der er en ny elev i vores klasse!
 - Yes, that's right.
 
 [LINE]
-Speaker418: Hans navn er Miguel.
-~           his name   is Miguel 
+Speaker418: Han~hedder Mikkel.
+~           His~name~is Mikkel 
 
 [LINE]
-Speaker416: Miguel?
+Speaker416:  Mikkel?
 ~            Miguel 
 
 [LINE]
-Speaker418: Ja, han er fra   Mexico.
-~           yes  he~is from Mexico 
-
+Speaker418: Ja, han er fra Norge.
+~           Yes, he is from Norway
 [LINE]
 Speaker418: Hans far skriver bøger!
-~            his father writes  books  
+~           His father writes  books  
 
 [SELECT_PHRASE]
 > Select the missing phrase
 Speaker416: [Meget interessant]. 
-~            very~interesting  
-- Tu interesante
-- Su interés antes
-+ Muy interesante
+~            Very~interesting  
+- Meget sivertvand
+- Meget internetand
++ Meget interessant
 
 [LINE]
-Speaker418: Han taler spansk, engelsk og portugisisk. 
-~           he~speaks Spanish  English and Portuguese 
+Speaker418: Han~taler dansk,  engelsk og norsk. 
+~           He~speaks Danish  English and Norwegian 
 
 [LINE]
-Speaker416: Åh, han er intelligent.
-~           oh  he~is intelligent 
+Speaker416: Åh, han~er intelligent.
+~           Oh  he~is intelligent 
 
 [LINE]
-Speaker418: Intelligent og høj og han er meget smuk…
-~           intelligent  and tall  and he~has very pretty  
+Speaker418: Intelligent og høj,    og han er meget smuk…
+~           Intelligent and tall  and he is very pretty  
 
 [MULTIPLE_CHOICE]
-> How does Zari describe Miguel?
+> How does Zari describe Mikkel?
 - He's short and blond.
 - He's handsome and loud.
 + He's intelligent and tall.
 
 [LINE]
 Speaker416: Haha, ja? 
-~           ha  ha   yes 
+~           Haha  yes 
 
 [LINE]
 Speaker418: Hmm… Meget smukke sko.
-~           hmm  very pretty  shoes   
+~           Hmm  Very pretty  shoes   
 
 [POINT_TO_PHRASE]
 > Choose the option that means "behind."
-Speaker416: (Zari), (Miguel) (er) (+bag  ved) dig. 
-~            Zari    Miguel   is      behind     you 
+Speaker416: (Zari), (Mikkel) (er) (+bag~ved)  dig. 
+~            Zari    Mikkel   is      behind   you 
 
 [LINE]
 Speaker418: Hvad?! 
-~             what  
+~            What  
 
 [LINE]
-Speaker416: Hej,  Miguel!
-~            hello  Miguel 
+Speaker416: Hej,  Mikkel!
+~           Hello  Mikkel 
 
 [LINE]
-Speaker790: Hej Lily! Hvordan har du det? 
-~            hello  Lily   how~are~you 
+Speaker790: Hej   Lily! Hvordan~går~det? 
+~           Hello  Lily  How~are~you 
 
 [LINE]
 Speaker416: Fint, tak.  
-~           fine  thank~you 
+~           Fine  thank~you 
 
 [ARRANGE]
 > Tap what you hear
-Speaker416: [(Miguel), (dette) (er) (min veninde),  (Zari).]
-~             Miguel    this   is   my~friend       Zari   
+Speaker416: [(Mikkel), (dette) (er) (min~veninde),  (Zari).]
+~             Mikkel     this   is   my~friend       Zari   
 
 [LINE]
-Speaker416: Hun kan lide dine sko.
-~           she~likes        your  shoes   
+Speaker416: Hun~kan~lide dine sko.
+~           She~likes    your  shoes   
 
 [LINE]
-Speaker418: Åh, hmm, hej Miguel.
-~           oh  hmm  hello  Miguel 
+Speaker418: Åh, hmm, hej,   Mikkel.
+~           Oh  hmm  hello  Mikkel 
 
 [MULTIPLE_CHOICE]
 > Zari didn't realize that…
-- …Miguel's shoes were so ugly.
-+ …Miguel was sitting behind her.
+- …Mikkel's shoes were so ugly.
++ …Mikkel was sitting behind her.
 - …her homework was due today.
 
 [MATCH]
