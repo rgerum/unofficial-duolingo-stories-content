@@ -12,32 +12,32 @@ set=8|2
 ~ Eddy enters  Eliana's~dance~class        
 
 [LINE]
-Speaker125: ¡Hola,  chicos!
+Speaker125: Cześć,  chicos!
 ~            hello  guys   
 
 [LINE]
-Speaker125: ¿Quién tiene~ganas~de bailar? 
+Speaker125: Kto tiene~ganas~de bailar? 
 ~            who   feels~like     dancing 
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker125: Hoy   vamos~a~aprender     [cosas~nuevas].
+Speaker125: Hoy   vamos~a~aprender     [nowe~rzeczy].
 ~           today we're~going~to~learn  new~things    
-- rosas nuevas
-+ cosas nuevas
-- con tus viejas
+- coś jeszcze
++ nowe rzecze
+- stare rzeczy
 
 [LINE]
 > Eddy se~levanta y   camina en~dirección~a la~puerta.
 ~ Eddy stands~up  and walks  towards        the~door  
 
 [LINE]
-Speaker125: ¡Ey! 
+Speaker125: Hej! 
 ~            hey 
 
 [LINE]
-Speaker125: ¿A~dónde~vas?        
-~            where~are~you~going 
+Speaker125: Dokąd~idzie~pan?        
+~            (to)~where~are~you~going 
 
 [LINE]
 Speaker125: Bailar  da~un~poco~de~miedo…
@@ -48,16 +48,16 @@ Speaker125: … ¡pero es~  muy~divertido!
 ~              but  it's a~lot~of~fun  
 
 [POINT_TO_PHRASE]
-> Choose the option that means "this."
-Speaker504: Sí,  (pero) (creo)    (que)  (+esto) es un error.  
-~           yes   but    I~think   that    this  is a  mistake 
+> Choose the option that means "this is."
+Speaker504: Tak,  (ale) (myślę),    (że)  (+to~jest) błąd.  
+~           yes   but    I~think   that    this~is   mistake 
 
 [LINE]
-Speaker125: Sin~miedo.       Es   fácil. ¡Mira!
+Speaker125: Sin~miedo.       Jest łatwe. ¡Mira!
 ~           don't~be~scared  it's easy    look 
 
 [LINE]
-Speaker504: Pero…
+Speaker504: Ale…
 ~           but  
 
 [ARRANGE]
@@ -66,33 +66,33 @@ Speaker504: Pero…
 ~   Eddy   watches   Eliana   dancing   
 
 [LINE]
-Speaker125: ¡Ahora baila conmigo!
-~            now   dance with~me 
+Speaker125: Teraz tańczyć ze mną!
+~            now   dance with me 
 
 [LINE]
-Speaker504: ¡Esto es muy~divertido!
+Speaker504: To jest bardzo divertido!
 ~            this is a~lot~of~fun  
 
 [LINE]
-Speaker125: ¿Qué~piensas       ahora? ¿Esta~clase es un~error? 
-~            what~do~you~think now     this~class is a~mistake 
+Speaker125: Co myśli~pan teraz? Czy jest jeszce błąd? 
+~            what do~you~think now  (question~marker) is still mistake
 
 [MULTIPLE_CHOICE]
 > Eliana wants to know…
 - …why Eddy is such a terrible dancer.
 + …if Eddy still thinks going to her class was a mistake.
-- …if Eddy is a dance teacher.
+- …if Eddy wants to be a dance teacher.
 
 [LINE]
-Speaker504: Sí. 
+Speaker504: Tak. 
 ~           yes 
 
 [LINE]
-Speaker125: ¿De~verdad?
+Speaker125: Naprawdę?
 ~            really    
 
 [LINE]
-Speaker504: Esta no~es  mi clase.
+Speaker504: to nie jest  mi clase.
 ~           this is~not my class 
 
 [LINE]
@@ -100,16 +100,16 @@ Speaker504: ¡Pero es   más  divertida que  una clase~de~cocina!
 ~            but  it's more fun       than a   cooking~class   
 
 [MULTIPLE_CHOICE]
-> Oops! What was Eddy's mistake?
+> What was Eddy's mistake?
 - He used to date Eliana.
 - He forgot to wear his dancing shoes.
 + He was supposed to go to a cooking class.
 
 [MATCH]
 > Tap the pairs
-- Hola <> hello
-- esto <> this
-- mira a <> watches
-- que <> that
-- muy divertido <> a lot of fun
+- cześć <> hello
+- to jest <> this is
+- błąd <> mistake
+- niż <> than
+- pan <> you
 
