@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=I Am Sick
+icon=68ffeb0d8b8a73e7de5cd3b964b34d0e08761977
+set=13|1
+
+[HEADER]
+> Estoy enfermo
+~ I~am  sick   
+
+[LINE]
+Speaker415: ¡Papá, estoy enfermo!
+~            dad   I~am  sick    
+
+[LINE]
+Speaker414: ¡Ay, no!
+~            oh  no 
+
+[LINE]
+> Eddy toca    la~cabeza~de~Junior.
+~ Eddy touches Junior's~head       
+
+[LINE]
+Speaker414: No~tienes      fiebre.   
+~           you~don't~have (a)~fever 
+
+[MULTIPLE_CHOICE]
+> Junior has a fever.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker415: ¡Pero me~duele~el~ojo! ¡Quiero ir    a  la~oficina~de~la~doctora!
+~            but  my~eye~hurts      I~want to~go to the~doctor's~office      
+
+[LINE]
+Speaker414: Está~bien.
+~           OK        
+
+[LINE]
+> Ellos van a  la~oficina~de~la~doctora.
+~ they  go  to the~doctor's~office      
+
+[MULTIPLE_CHOICE]
+> Wait… why do Junior and Eddy go to the doctor's office?
+- Junior ate too much ice cream.
+- Eddy fell down the stairs.
++ Junior says his eye hurts.
+
+[LINE]
+Speaker341: Hola,  Junior. ¿Cómo~estás? 
+~           hello  Junior   how~are~you 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: ¡[Estoy~enfermo]! ¡Me~duele~el~ojo!
+~             I'm~sick         my~eye~hurts    
+- Esto es infierno
++ Estoy enfermo
+- Este invierno
+
+[LINE]
+Speaker341: ¡Ay, no! Yo te~puedo~ayudar.
+~            oh  no  I  can~help~you    
+
+[LINE]
+> La  doctora mira     el~ojo~de~Junior.
+~ the doctor  looks~at Junior's~eye     
+
+[LINE]
+Speaker341: Mmm… tu~ojo   está bien.
+~           hmm  your~eye is   fine 
+
+[LINE]
+Speaker415: ¿Ah, sí?  Eh… ¡me~duele~la~mano!
+~            oh  yes  eh   my~hand~hurts    
+
+[LINE]
+> La  doctora mira     la~mano~de~Junior.
+~ the doctor  looks~at Junior's~hand     
+
+[LINE]
+Speaker341: Tu~mano   también~está~bien.
+~           your~hand is~fine~too       
+
+[MULTIPLE_CHOICE]
+> What's wrong with Junior?
+- His eye hurts.
++ There's nothing wrong.
+- His hand hurts.
+
+[LINE]
+Speaker414: Doctora, ¿mi hijo está bien?
+~           doctor    my son  is   OK   
+
+[LINE]
+Speaker341: Sí. 
+~           yes 
+
+[LINE]
+Speaker341: Tú  no~estás enfermo, Junior.
+~           you are~not  sick     Junior 
+
+[LINE]
+Speaker415: ¡Sí,  estoy muy  enfermo!
+~            yes  I~am  very sick    
+
+[POINT_TO_PHRASE]
+> Choose the option that means "give you."
+Speaker341: (Junior)… ¿(estás)   aquí (porque)  siempre    (+te~doy)   chocolate?
+~            Junior     you~are  here  because  (I)~always   give~you  chocolate 
+
+[LINE]
+Speaker415: Mmm… sí. 
+~           hmm  yes 
+
+[LINE]
+Speaker414: ¡Junior!
+~            Junior 
+
+[LINE]
+Speaker415: Eh… ¿puedo~tener mi chocolate ahora?
+~           eh   I~can~have  my chocolate now   
+
+[MULTIPLE_CHOICE]
+> Oh Junior! Why did he want to see the doctor?
+- He had a gift for her.
+- He was very sick.
++ She always gives him candy.
+
+[MATCH]
+> Tap the pairs
+- Mmm <> hmm
+- Papá <> dad
+- no <> no
+- la cabeza de Junior <> Junior's head
+- bien <> fine
+
