@@ -1,0 +1,128 @@
+[DATA]
+fromLanguageName=The Art Homework
+icon=81f7ed2bd4ece4842874e1ea985c979bd6457de6
+set=16|1
+
+[HEADER]
+> La  tarea~de~arte
+~ the art~homework 
+
+[LINE]
+> Lily y   Zari están en la~clase~de~arte~de~Óscar.
+~ Lily and Zari are   in Óscar's~art~class         
+
+[LINE]
+Speaker592: Lily, ¿puedo~ver tu~tarea?     
+~           Lily   I~can~see your~homework 
+
+[LINE]
+Speaker416: Eh… No.
+~           eh  no 
+
+[LINE]
+Speaker592: ¿Perdón?   
+~            excuse~me 
+
+[LINE]
+Speaker416: Me~da~mucha~vergüenza.
+~           I'm~too~embarrassed   
+
+[MULTIPLE_CHOICE]
+> Lily is too embarrassed to show her homework.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker592: ¿Qué?  ¿Por~qué?
+~            what   why     
+
+[LINE]
+Speaker416: Yo… creo  que  mi pintura  no~es muy  buena.
+~           I   think that my painting isn't very good  
+
+[LINE]
+Speaker418: ¡Lily, eres    la  mejor de la  clase!
+~            Lily  you~are the best  of the class 
+
+[LINE]
+Speaker416: ¡Ay, Zari, por~favor!
+~            oh  Zari  please    
+
+[CONTINUATION]
+> What comes next?
+Speaker592: Lily… sí,  eres    la  mejor [de la  clase].
+~           Lily  yes  you~are the best   of the class  
++ de la  clase
+~ of the class
+- tarea   
+~ homework
+- pintura 
+~ painting
+
+[LINE]
+Speaker416: Por~favor, no…
+~           please     no 
+
+[ARRANGE]
+> Tap what you hear
+> [(Óscar) (toma)  (la~pintura~de~Lily).]
+~   Óscar   takes   Lily's~painting      
+
+[LINE]
+Speaker592: Es…   es…   muy  bonita.   
+~           it's  it's  very beautiful 
+
+[LINE]
+Speaker416: ¿Le~gusta?   
+~            you~like~it 
+
+[LINE]
+Speaker592: ¡Me~encanta! El  blanco sobre blanco sobre blanco…
+~            I~love~it   the white  over  white  over  white  
+
+[LINE]
+Speaker592: Cuando veo   esta pintura… 
+~           when   I~see this painting 
+
+[LINE]
+Speaker592: … me~siento triste y   feliz al~mismo~tiempo. 
+~             I~feel    sad    and happy at~the~same~time 
+
+[LINE]
+Speaker592: Muy  bien, Lily.
+~           very good  Lily 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+> Óscar se~va.  Zari mira     [la~pintura~de~Lily].
+~ Óscar leaves  Zari looks~at  Lily's~painting     
+- la pintora es Lily
+- la cintura de Lily
++ la pintura de Lily
+
+[LINE]
+Speaker418: Tu~pintura    está en~blanco, Lily.
+~           your~painting is   blank      Lily 
+
+[LINE]
+Speaker416: Yo sé.  
+~           I  know 
+
+[LINE]
+Speaker418: Nunca     haces tus~tareas.   
+~           you~never do    your~homework 
+
+[MULTIPLE_CHOICE]
+> Why is Lily's painting all white?
+- White is her favorite color.
+- She is making an artistic statement.
++ She forgot to do her art homework.
+
+[MATCH]
+> Tap the pairs
+- feliz <> happy
+- pintura <> painting
+- Me encanta <> I love it
+- eres <> you are
+- están <> are
+
