@@ -5,11 +5,11 @@ set=1|2
 
 [HEADER]
 > مَوِعد
-~ a   date
+~ a~date
 
 [LINE]
 >  بِي فِي مَوْعِد فِي مَطْعَم
-~ Bea is a~date in a~restaurant  
+~ Bea is date in a~restaurant  
 
 [LINE]
 Speaker507: أَهلاً كَيف حَالُك
@@ -25,15 +25,15 @@ Speaker100: مَاذَا تُرِيدِي أَنْ تَأكُلِي
 
 [LINE]
 Speaker507: سَلَطَة
-~           a   salad    
+~           a~salad    
 
 [SELECT_PHRASE]
 > Select the missing phrase
 Speaker507: عِنْدِي [لُعْبَة مُهِمَة] الْيَوْم 
-~           today I~have  an~important~game      
-+ لَعِبْ مُهِم
-- لَعِبْ مَشْهُورَة
-- لَعِبْ مُمْتِعْ
+~           today I~have  game important      
++ لُعْبَة مُهِم
+- لُعْبَة مَشْهُورَة
+- لُعْبَة مُمْتِعْ
 
 [LINE]
 Speaker100:  آه هَلْ تُحِب رِيَاضِيي
@@ -41,7 +41,7 @@ Speaker100:  آه هَلْ تُحِب رِيَاضِيي
 
 [LINE]
 Speaker507: نَعَم ألْعَب كُرَة الْقَدَم
-~           yes  I  play     soccer 
+~           yes  I~play     soccer 
 
 [MULTIPLE_CHOICE]
 > Bea is ordering a salad because…
@@ -59,7 +59,7 @@ Speaker507: رَائع
 
 [LINE]
 Speaker507: مِن أَيْن أَنْت      
-~            where from you
+~            from where you
 
 [LINE]
 Speaker100:  أنَا‫أَمْريكيّ
