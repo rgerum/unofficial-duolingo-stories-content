@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=The Promotion
+icon=86aeb2f8135a55e49ebe8c6da5e13efdcde38d01
+set=18|3
+
+[HEADER]
+> La  promoción
+~ the promotion
+
+[LINE]
+> El~jefe~de~Bea va~a~hablar~con ella.
+~ Bea's~boss     goes~to~talk~to her  
+
+[LINE]
+Speaker2144: Hola,  Bea. ¿Tienes   un minuto para~hablar      de    Carlos?
+~            hello  Bea   you~have a  minute in~order~to~talk about Carlos 
+
+[LINE]
+Speaker507: Eh… sí,  por~supuesto.
+~           eh  yes  of~course    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker2144: ¿[Te~gusta~trabajar] con  él? 
+~              you~like~working   with him 
++ Te gusta trabajar
+- Te gustará bajar
+- Te gusta dibujar
+
+[LINE]
+Speaker507: ¿Con  Carlos? Eh…
+~            with Carlos  eh 
+
+[LINE]
+Speaker507: Él es… simpático.
+~           he is  nice      
+
+[LINE]
+Speaker507: Pero él… eh…
+~           but  he  ~  
+
+[CONTINUATION]
+> What comes next?
+Speaker507: ¡Carlos siempre llega   tarde y   yo tengo~que~hacer [su~trabajo]!
+~            Carlos always  arrives late  and I  have~to~do       his~work    
++ su~trabajo
+~ his~work  
+- su~cama
+~ his~bed
+- su~almuerzo
+~ his~lunch  
+
+[LINE]
+Speaker507: Él me~dice  cómo tengo~que~hacer las~cosas.
+~           he tells~me how  I~have~to~do    things    
+
+[LINE]
+Speaker507: Y,   la~semana~pasada, ¡se~comió mi almuerzo!
+~           and  last~week          he~ate   my lunch    
+
+[ARRANGE]
+> Tap what you hear
+Speaker507: [(Carlos) (es) (el)  (peor).] 
+~             Carlos   is   the   worst   
+
+[LINE]
+Speaker2144: ¿Ah, sí?  Y   yo pensé~en~darle           una promoción.
+~             oh  yes  and I  thought~about~giving~him a   promotion 
+
+[MULTIPLE_CHOICE]
+> Bea's boss was thinking about giving Carlos a promotion.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker2144: El  trabajo es en otra    oficina y   tenemos~que~encontrar~a la  persona~correcta.
+~            the job     is in another office  and we~have~to~find         the right~person     
+
+[LINE]
+Speaker507: Un  momento… ¿El  trabajo es en otra    oficina?
+~           one moment    the job     is in another office  
+
+[LINE]
+Speaker507: ¡Carlos es perfecto!
+~            Carlos is perfect  
+
+[POINT_TO_PHRASE]
+> Choose the option that means "you said."
+Speaker2144: (Pero) (+dijiste)  (que)  era    el  (peor). 
+~             but     you~said   that  he~was the  worst  
+
+[LINE]
+Speaker507: ¿Qué?  ¡Por~supuesto~que~no!
+~            what   of~course~not       
+
+[LINE]
+Speaker2144: Tú  dijiste que  él siempre llega   tarde.
+~            you said    that he always  arrives late  
+
+[LINE]
+Speaker507: Eh… ¡no! Yo dije que  él nunca llega   tarde.
+~           eh   no  I  said that he never arrives late  
+
+[LINE]
+Speaker507: ¡Carlos es la  persona~perfecta para este trabajo en la  otra  oficina!
+~            Carlos is the perfect~person   for  this job     in the other office  
+
+[MULTIPLE_CHOICE]
+> Why does Bea want Carlos to get a promotion?
+- She thinks he's an excellent employee.
++ She wants him to work in another office.
+- They are best friends.
+
+[MATCH]
+> Tap the pairs
+- Por supuesto que no <> of course not
+- ella <> her
+- va a hablar con <> goes to talk to
+- Ah <> oh
+- trabajo <> job
+
