@@ -1,138 +1,166 @@
 [DATA]
-fromLanguageName=A Date
+fromLanguageName=Randevu
 icon=df24f7756b139f6eda927eb776621b9febe1a3f1
 set=1|2
 
 [HEADER]
 > Randevu
-~ А~date 
+~ a~date
+$2048/19a04206.mp3;7,0
 
 [LINE]
-> Suzan restoranda.           Onun      bir~randevusu var.      
-~ ~     is~in~the~restaurant  She~(has) a~date        (she)~has 
+> Bea bir~restoranda. Onun bir~randevusu~var.
+~ Bea (is)~in~a~restaurant she~(has) she~has~a~date 
+$2048/1e9f6778.mp3;4,0;4,250;11,144;6,646;4,495;10,105;4,610
 
 [LINE]
-Speaker100: Ne   istersin?     
-~           What (do)~you~want 
-
-[MULTIPLE_CHOICE]
-> Suzan's date is asking...
-+ … what Suzan wants to eat.
-- … how much the food costs.
-- … where to find the restaurant.
+Speaker507:  Merhaba! Nasılsın? 
+~            hello   how~are~you 
+$2048/835a248c.mp3;7,0;10,571
 
 [LINE]
-Speaker336: Etsiz        bir salata.
-~           Without~meat a   salad  
+Speaker100:  İyiyim.
+~            fine 
+$2048/23f712ac.mp3;6,0
 
 [LINE]
-Speaker336: Et   yemem.      
-~           Meat I~don't~eat 
+Speaker100:  Ne~yemek~istersin? 
+~            what~would~you~like~to~eat
+$2048/25f85a2a.mp3;2,0;6,150;9,330
 
 [LINE]
-Speaker100: Sen vejetaryen misin?                
-~           You vegetarian (question~word~[you]) 
-
-[LINE]
-Speaker336: Evet...
-~           Yes    
-
-[LINE]
-Speaker100: Ben~de! 
-~           So~am~I 
-
-[MULTIPLE_CHOICE]
-> Why did he say that?
-+ He's also a vegetarian.
-- He hates salads.
-- He loves to eat meat.
-
-[LINE]
-Speaker336: Süper!
-~           Great 
-
-[LINE]
-Speaker100: Sen nerelisin?           
-~           You Where~are~(you)~from 
-
-[LINE]
-Speaker336: Ben    Hollandalıyım.      
-~           I~(am) am~from~Netherlands 
-
-[LINE]
-Speaker100: Türk             gibi Türkçe             konuşuyorsun!
-~           Turkish~[person] like Turkish~[language] (you)~speak  
-
-[LINE]
-Speaker336: Benim annem       Türk!         O        İzmirli.      
-~           My    (my)~mother (is)~Turkish  She~(is) is~from~İzmir 
-
-[POINT_TO_PHRASE]
-> Select the option meaning “mother”:
-> (Benim) (+annem) (Türk). (O) (İzmirli).
-
-[LINE]
-Speaker100: Ben de  İzmirliyim!     
-~           I   too (am)~from~İzmir 
-
-[LINE]
-Speaker336: İzmir'i çok       seviyorum!
-~           İzmir   very~much I~love    
+Speaker507: Salata.
+~           (a)~salad    
+$2048/864c4b8e.mp3;6,0
 
 [SELECT_PHRASE]
-> Select the missing word
-Speaker100: Evcil [hayvanın]  var~mı,      Tuğçe?
-~           A~pet  undefined  do~you~have  ~     
-- hayvanlar
-+ hayvanın
-- hayvanım
+> Select the missing phrase
+Speaker507: Bugün [önemli~bir~maçım] var.
+~           today an~important~game I~have     
+$2048/889145de.mp3;5,0;7,342;4,427;6,110;4,404
++ önemli bir maçım
+- önemli bir maçımız
+- önemsiz bir maçım
 
 [LINE]
-Speaker336: Evet, üç    kedim~var...  
-~           Yes   three I~have~cats   
+Speaker100: Ah, spor~yapmayı sever misin?
+~           oh   (to~do)~sports you~like do~you 
+$2048/8c4545f4.mp3;2,0;6,194;8,545;6,400;6,385
 
 [LINE]
-Speaker336: Tuğçe?! Benim adım      Suzan!
-~           ~       My    (my)~name ~     
+Speaker507: Evet, futbol oynuyorum.
+~           yes  soccer I~play
+$2048/903e6618.mp3;4,0;8,386;10,516
+
+[MULTIPLE_CHOICE]
+> Bea is ordering a salad because…
++ …she is playing soccer today.
+- …her date said the salad is delicious.
+- …she just ate a whole pizza.
+
+[LINE]
+Speaker100:  Ben de!
+~            me~ too     
+$2048/5156689c.mp3;3,0;3,310
+
+[LINE]
+Speaker507:  Harika!
+~            great 
+$2048/93197dbe.mp3;6,0
+
+[LINE]
+Speaker507:  Nerelisin?     
+~            where~are~you~from 
+$2048/95d93684.mp3;9,0
+
+[LINE]
+Speaker100: Ben Kanadalıyım.
+~           I~am Canadian  
+$2048/97d30686.mp3;3,0;12,249
 
 [ARRANGE]
-> Put the words in the right order
-Speaker336: [(Senin) (adın)        (Murat) (m)]ı?                  
-~             Your    (your)~name   ~       (question~word~[it])   
+> Tap what you hear
+Speaker100: [(Babam)  (Kanadalı)   (ve)   (annem)  (Türkiyeli).]  
+~             my~father   (is)~from~Canada   and   my~mother   (is)~from~Turkey   
+$2048/9abe2286.mp3;5,0;9,340;3,525;6,164;10,345
 
 [LINE]
-Speaker100: Hayır! Benim adım      Bulut.
-~           No     My    (my)~name ~     
+Speaker507:  Kanada'ya~bayılırım!
+~            I~love~Canada 
+$2048/a17dbe42.mp3;8,0;10,501
+
+[LINE]
+Speaker100: Kanada çok~güzeldir.   
+~           Canada is~very~beautiful
+$2048/a511fc26.mp3;6,0;4,405;9,330
+
+[LINE]
+Speaker507:  Evcil~hayvanın var mı?
+~            pets have do~you    
+$2048/a711d0b4.mp3;5,0;9,368;4,559;3,231
+
+[LINE]
+Speaker100: İki kedim ve bir köpeğim var.
+~           two cats and a dog I~have  
+$2048/a987a09e.mp3;3,0;6,219;3,365;4,140;8,140;4,471
+
+[POINT_TO_PHRASE]
+> Choose the option that means "also."
+Speaker507: Benim (+de) (bir) köpeğim (var) (Deniz).
+~           I    also   a dog I~have      Deniz  
+$2048/b26a6034.mp3;5,0;3,342;4,114;8,125;4,481;6,212
+
+[LINE]
+Speaker100:  Ne? Benim~adım Bulut!
+~           what my~name~is bulut
+$2048/b525aee6.mp3;2,0;7,254;5,505;6,300
+
+[LINE]
+Speaker100:  Sen Tuğçe değil~misin?
+~            you Tuğçe aren't~you 
+$2048/b8a747b4.mp3;3,0;6,294;6,335;6,255
+
+[LINE]
+Speaker507:  Hayır!
+~            no 
+$2048/baca6d28.mp3;5,0
+
+[LINE]
+Speaker507:  Benim adım Bea!
+~            my~name~is  Bea 
+$2048/c3832252.mp3;5,0;5,329;5,310
 
 [MULTIPLE_CHOICE]
-> Suzan and Bulut were supposed to meet different people.
-+ Yes, that's true.
-- No, that's not right.
+> Did you catch that? Bea and Daniel…
+- …bought tickets to Canada.
++ …were supposed to meet different people.
+- …are walking their dogs.
 
 [LINE]
-> Bir kadın onlara  geliyor.  
-~ A   woman to~them is~coming 
+> Bir kadın Bulut'a~doğru yürür.
+~ a   woman towards~Bulut walks 
+$2048/cdd6ca74.mp3;3,0;6,140;7,350;6,365;6,309
 
 [LINE]
-Speaker101: Selam! Sen Bulut musun?                 Ben    Tuğçe.
-~           Hi     You ~     (question~word~[you])  I~(am) ~     
+Speaker101:  Merhaba, sen Bulut musun? Ben Tuğçe.
+~            hello   you Bulut are~you I~am Tuğçe
+$2048/b966a6d4.mp3;7,0;5,654;6,610;6,365;5,466;6,639
 
 [LINE]
-Speaker100: Eh... Hayır... Ben    Murat!
-~           Uh    No       I~(am) ~     
+Speaker100: Hayır, üzgünüm. Ben Deniz.
+~           no  I'm~sorry  I~am Deniz 
+$2048/d40f6bc6.mp3;5,0;9,379;5,661;6,485
 
 [MULTIPLE_CHOICE]
-> At the end of the story, Bulut…
-+ … lied to his real date because he likes Suzan.
-- … was tired of talking to Suzan.
-- … met someone named Murat.
+> Whoa! What just happened?
+- Bea changed her name to Tuğçe.
++ Bulut lied to his real date because he likes Bea.
+- Bea and Bulut's dogs played soccer.
 
 [MATCH]
 > Tap the pairs
-- nerelisin <> where are you from
-- benim annem <> my mother
-- senin adın <> your name
-- üç <> three
-- etsiz <> without meat
-- seviyorum <> I love
-
+- ve <> and
+- ben <> I am
+- salata <> salad
+- bayılırım <> I love
+- evcil hayvan <> pet
