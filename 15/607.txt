@@ -1,144 +1,126 @@
 [DATA]
-fromLanguageName=Good Morning!
+fromLanguageName=Günaydın
 icon=783305780a6dad8e0e4eb34109d948e6a5fc2c35
 set=1|1
 
-icon_Speaker97=https://stories-cdn.duolingo.com/image/f118359885a5dc9babe4808c746e1c15ea9cd6f4.svg
-
 [HEADER]
-> Günaydın    
+> Günaydın 
 ~ good~morning
-$607/speech_607_0.mp3;8,6
+$2044/fe235a1c.mp3;8,0
 
 [LINE]
-> Ömer, karısı   Gülşen ile  evde.   
-~ ~     his~wife ~      with at~home 
-$607/speech_607_1.mp3;4,6;8,739;7,378;4,489;5,203
+Speaker593:  Günaydın Priti!
+~            good~morning  Priti 
+$2044/00935630.mp3;8,0;6,501
 
 [LINE]
-SpeakerSpeaker97: Günaydın,     Gülşen!
-~                 Good~morning  ~      
-$607/speech_607_2.mp3;8,6;8,777
+Speaker560: Günaydın aşkım.
+~           good~morning  my~love 
+$2044/0316abc8.mp3;8,0;6,545
 
 [LINE]
-Speaker292: Günaydın     aşkım.  
-~           Good~morning my~love 
-$607/speech_607_3.mp3;8,6;6,518
+Speaker560:  Anahtarım nerede?
+~            my~key where~(at)  
+$2044/65b5890c.mp3;9,0;7,604
+
+[LINE]
+Speaker593:  Anahtarın mı?
+~            your~key [question~word]   
+$2044/5ff87ede.mp3;9,0;3,557
 
 [MULTIPLE_CHOICE]
-> What does "aşkım" mean?
-- My dear.
-+ My love.
-- My colleague.
+> Priti can't find her key.
++ Yes, that's right.
+- No, that's wrong.
 
 [LINE]
-Speaker292: İngilizce kitabım nerede?  
-~           English   my~book where~is 
-$607/speech_607_5.mp3;9,6;8,513;7,470
+Speaker560: Evet, işe gitmem~lazım.
+~           yes  to~work I~need~to~go   
+$2044/3f4df786.mp3;4,0;5,414;7,465;6,461
+
+[ARRANGE]
+> Tap what you hear
+Speaker560:  [(Arabamın)~(anahtarına) (ihtiyacım)~(var).]
+~              the~key~of~my~car     I~need     
+$2044/422ad9ce.mp3;8,0;11,465;10,669;4,780
 
 [LINE]
-SpeakerSpeaker97: Pardon?
-~                 Sorry  
-$607/speech_607_6.mp3;6,6
-
-[SELECT_PHRASE]
-> Choose the missing part:
-Speaker292: Bugün üniversitede       [İngilizce~dersim~var.].    
-~           Today in~the~university   I~have~an~English~lesson   
-$607/speech_607_7.mp3;5,6;13,305;11,715;7,592;4,493
-- İlginç bir dostum var.
-+ İngilizce dersim var.
-- İlk derslerim var.
-
-[LINE]
-Speaker292: Kitabım nerede?  
-~           My~book where~is 
-$607/speech_607_8.mp3;7,6;7,464
-
-[LINE]
-SpeakerSpeaker97: Burada masanın~üstünde, Gülşen.
-~                 Here   on~the~table     ~      
-$607/speech_607_9.mp3;6,6;8,345;8,475;8,835
-
-[LINE]
-Speaker292: Üzgünüm aşkım,   yorgunum.   Çok   çalışıyorum.
-~           Sorry   my~love  I~am~tired  A~lot I~work      
-$607/speech_607_10.mp3;7,6;6,574;10,720;5,1004;12,214
+Speaker593:  Haha, Priti, anahtarın masanın~üstünde.
+~            haha   Priti  your~key (is)~on~the~table
+$2044/70dcf040.mp3;4,0;7,325;11,481;8,596;8,410
 
 [POINT_TO_PHRASE]
-> Click on the option meaning "tired".
-> (Üzgünüm) Ömer, (+yorgunum). (Çok) (çalışıyorum).
-$607/speech_607_11.mp3;7,6;5,504;10,729;5,1004;12,214
+> Choose the option that means "I~am~tired."
+Speaker560: (Üzgünüm) (aşkım), (+yorgunum). (Çok) (çalışıyorum).
+~            sorry    my~love   I~am~tired a~lot I~work 
+$2044/73182622.mp3;7,0;6,504;10,486;5,714;12,435
 
 [LINE]
-SpeakerSpeaker97: Bir fincan kahve  istiyor~musun?
-~                 A   cup    coffee do~you~want   
-$607/speech_607_12.mp3;3,6;7,162;6,432;8,380;6,416
+Speaker593:  Kahve ister misin?  
+~            coffee want do~you 
+$2044/77766b70.mp3;5,0;6,364;6,373
 
 [LINE]
-Speaker292: Evet, lütfen.
-~           Yes   please 
-$607/speech_607_13.mp3;4,6;8,599
+Speaker560:  Evet, lütfen!
+~            yes  please    
+$2044/7a08bd98.mp3;4,0;8,424
 
 [LINE]
-SpeakerSpeaker97: İşte!      
-~                 Here~it~is 
-$607/speech_607_14.mp3;4,6
+Speaker593: İşte~burada, aşkım.
+~           here~it~is  my~love 
+$2044/80574f20.mp3;4,0;7,335;7,436
 
 [LINE]
-> Gülşen, fincanının içine şeker koyuyor.   
-~ ~       her~cup    in    sugar is~putting 
-$607/speech_607_15.mp3;6,6;12,752;6,704;6,379;8,427
+Speaker560:  Şeker nerede? Ah, işte~burada. 
+~            (the)~sugar where~(at) oh here~it~is 
+$2044/82e1d68e.mp3;5,0;7,450;4,464;6,401;7,540
 
 [MULTIPLE_CHOICE]
-> What is Gülşen doing?
-- She is spilling coffee on her book.
-- She is drinking coffee with milk.
-+ She is putting sugar in her cup of coffee.
+> Hmm… what is Priti doing?
+- pouring her coffee on the table
+- putting sugar on her keys
++ looking for some sugar for her coffee
 
 [LINE]
-> O,   kahveyi    içiyor.     
-~ She  the~coffee is~drinking 
-$607/speech_607_17.mp3;1,6;9,505;7,450
+> Priti kahvesini içer 
+~ Priti  her~coffee she~drinks 
 
 [LINE]
-Speaker292: Iıyyyyy!
-~           Yuck    
-$607/speech_607_18.mp3;7,6;1,147
+Speaker560:  İğrenç!
+~            disgusting 
+$2044/9c1361c2.mp3;6,0
 
 [LINE]
-SpeakerSpeaker97: Ne   oldu?    
-~                 What happened 
-$607/speech_607_19.mp3;2,6;5,153
+Speaker593:  Ne~oldu?
+~            what~happened 
+$2044/a2f932b4.mp3;2,0;5,146
+
+[LINE]
+Speaker560:  Bu tuz! 
+~            this (is)~salt 
+$2044/a5b23d8e.mp3;2,0;4,144
+
+[LINE]
+Speaker593:  Priti, sen çok yorgunsun!
+~            Priti  you very you~are~tired   
+$2044/a798672c.mp3;5,0;5,449;4,336;10,252
+
+[LINE]
+Speaker560: Evet, yeni bir fincan kahveye ihtiyacım~var. Şekerli, tuzlu değil!
+~           yes new a cup coffee I~need with~sugar with~salt not 
+$2044/c5952bf2.mp3;4,0;6,404;4,496;7,115;8,455;10,465;4,720;9,230;7,815;6,475
 
 [MULTIPLE_CHOICE]
-> What does "Ne" mean?
-- Where?
-- Why?
-+ What?
-
-[LINE]
-Speaker292: Bu   kahve  tuzlu!   
-~           This coffee is~salty 
-$607/speech_607_21.mp3;2,6;6,92;6,418
-
-[LINE]
-SpeakerSpeaker97: Gülşen, sen çok  yorgunsun!
-~                 ~       you very are~tired 
-$607/speech_607_22.mp3;6,6;5,746;4,278;10,250
-
-[MULTIPLE_CHOICE]
-> Gülşen was so tired that she...
-+ … put salt in her coffee instead of sugar.
-- … dropped her cup while drinking coffee.
-- … fell asleep while talking to Ömer.
+> Priti was so tired that…
+- …she fell asleep in the kitchen.
++ …she put salt in her coffee.
+- …she put her keys in her coffee.
 
 [MATCH]
 > Tap the pairs
-- günaydın <> good morning
-- lütfen <> please
-- iyyy <> yuck
-- aşkım <> my love
-- yorgunsun <> you are tired
-- bir fincan kahve <> a cup of coffee
+- şeker <> sugar
+- çok <> a lot
+- kahve <> coffee
+- fincan <> cup
+- Günaydın <> good morning
 
