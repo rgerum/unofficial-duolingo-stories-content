@@ -1,141 +1,169 @@
 [DATA]
-fromLanguageName=A Date
+fromLanguageName=Una cita
 icon=df24f7756b139f6eda927eb776621b9febe1a3f1
 set=1|2
 
 [HEADER]
-> Una cita
-~ a   date
+> Randka
+~ Cita
+$1690/340241c4.mp3;6,50
 
 [LINE]
-> Bea está en una cita en un restaurante.
-~ Bea is   on a   date in a  restaurant  
+> Bea jest na randce w restauracji.
+~ Bea está en cita en restaurante  
+$1690/4c3acb80.mp3;5,50;5,350;3,225;7,125;2,437;12,75
 
 [LINE]
-Speaker507: ¡Hola!  ¿Cómo~estás? 
-~            hello   how~are~you 
+Speaker507: Cześć!  Jak~się~masz? 
+~           hola  cómo~estás
+$1690/3a054e90.mp3;5,50;4,1287;4,175;5,163
 
 [LINE]
-Speaker100: ¡Bien!
-~            fine 
+Speaker100: Dobrze!
+~            bien
+$1690/bfefedb0.mp3;6,0
 
 [LINE]
-Speaker100: ¿Qué  quieres     comer? 
-~            what do~you~want to~eat 
+Speaker100: Co chcesz zjeść? 
+~            qué quieres comer 
+$1690/55d6ddf6.mp3;2,0;7,194;6,295
 
 [LINE]
-Speaker507: Una ensalada.
-~           a   salad    
+Speaker507: Sałatkę.
+~           ensalada    
+$1690/5bc949e6.mp3;7,50
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker507: Hoy   tengo  [un~partido~importante].
-~           today I~have  an~important~game      
-+ un partido importante
-- un batido importante
-- una parte imponente
+Speaker507: Dziś mam  [ważny~mecz].
+~           today I~have  important~game  
+
+$1690/6586102c.mp3;4,50;4,325;6,250;5,400
+
++ ważny mecz
+- co chesz
+- dobra rzecz
 
 [LINE]
-Speaker100: Ah, ¿te~gustan   los~deportes?
-~           oh   do~you~like (the)~sports 
+Speaker100: Ah, lubisz sport ?
+~           oh   do~you~like sports 
+$1690/c4fbc64e.mp3;2,0;8,259;6,410
 
 [LINE]
-Speaker507: Sí,  yo juego~al fútbol.
-~           yes  I  play     soccer 
+Speaker507: Tak,  gram w~piłkę~nożną.
+~           yes  I~play     soccer 
+$1690/6d80c97a.mp3;3,50;5,375;2,362;6,75;6,338
 
 [MULTIPLE_CHOICE]
-> Bea is ordering a salad because…
-+ …she is playing soccer today.
-- …her date said the salad is delicious.
-- …she just ate a whole pizza.
+> What is bea doing later today?
++ playing soccer.
+- going on vacation.
+- eating a whole pizza.
 
 [LINE]
-Speaker100: ¡Yo~también!
-~            me~too     
+Speaker100: Ja też!
+~            me too     
+$1690/72f26292.mp3;2,0;4,270
 
 [LINE]
-Speaker507: ¡Súper!
+Speaker507: Świetnie!
 ~            great 
+$1690/75686210.mp3;8,50
 
 [LINE]
-Speaker507: ¿De~dónde~eres?     
+Speaker507: Skąd~jesteś?     
 ~            where~are~you~from 
+$1690/776d75c8.mp3;4,50;7,337
 
 [LINE]
-Speaker100: Soy  americano.
-~           I~am American  
+Speaker100: Jestem Rosjaninem.
+~           I~am Russian  
+$1690/ca398a56.mp3;6,0;11,419
 
 [ARRANGE]
 > Tap what you hear
-Speaker100: [(Mi~padre)  (es~de~Cuba)   (y)   (mi~madre)  (es~de~México).]  
-~             my~father   is~from~Cuba   and   my~mother   is~from~Mexico   
+Speaker100: [(Mój)  (tata~jest) (z~Moskwy)   (a)   (moja) (mama)  (jest) (z) (Petersburga).]  
+~             my  father~is    from~Moscow      and   my      mother   is from St.~Petersburg   
+$1690/cc53df6c.mp3;3,0;5,189;5,330;2,247;7,140;2,451;5,120;5,280;5,290;2,230;12,111
 
 [LINE]
-Speaker507: ¡Me~encanta Cuba!
-~            I~love     Cuba 
+Speaker507: Kocham Moskwę!
+~            I~love     Moscow 
+$1690/99bc4c12.mp3;6,50;7,312
 
 [LINE]
-Speaker100: Cuba es muy  bonita.   
-~           Cuba is very beautiful 
+Speaker100: Moskwa jest bardzo piękna.   
+~           Moscow is very beautiful 
+$1690/d0dda036.mp3;6,0;5,469;7,255;7,360
 
 [LINE]
-Speaker507: ¿Tienes      mascotas?
-~            do~you~have pets     
+Speaker507: Czy masz zwierzęta~domowe?
+~            do you~have pets     
+$1690/c7892962.mp3;3,50;5,100;10,262;7,575
 
 [LINE]
-Speaker100: Tengo  dos gatos y   un perro.
-~           I~have two cats  and a  dog   
+Speaker100: Mam dwa koty i jednego psa.
+~           I~have two cats  and one dog   
+$1690/d52c3f6c.mp3;3,0;4,280;5,224;2,356;8,200;4,416
 
 [POINT_TO_PHRASE]
 > Choose the option that means "also."
-Speaker507: Yo (+también) (tengo) un (perro), (José).
-~           I    also      have   a   dog      José  
+Speaker507: Ja (+też) (mam) (psa), (Jacek).
+~           I    also      have     dog      Jacek 
+$1690/ce5aaaae.mp3;2,50;4,150;4,237;4,225;6,475
 
 [LINE]
-Speaker100: ¿Eh? Yo~me~llamo Daniel…
-~            eh  my~name~is  Daniel 
+Speaker100: Co? Mam~na~imię Daniel…
+~            what  my~name~is  Daniel 
+$1690/d7d249e6.mp3;2,0;5,324;3,440;5,180;7,318
 
 [LINE]
-Speaker100: ¿Tú~no~eres Gabriela?
-~            aren't~you Gabriela 
+Speaker100: Ty~nie~jesteś julia?
+~            aren't~you Julia 
+$1690/a8018e7a.mp3;2,0;4,140;7,119;6,405
 
 [LINE]
-Speaker507: ¡No!
+Speaker507: Nie!
 ~            no 
+$1690/db653fb6.mp3;3,50
 
 [LINE]
-Speaker507: ¡Yo~me~llamo Bea!
+Speaker507: Mam~na~imię Bea!
 ~            my~name~is  Bea 
+$1690/f606272c.mp3;3,50;3,225;5,175;6,350
 
 [MULTIPLE_CHOICE]
-> Did you catch that? Bea and Daniel…
-- …bought tickets to Cuba.
+> Did you catch that? Bea and Daniela…
+- …bought tickets to Moscow.
 + …were supposed to meet different people.
 - …are walking their dogs.
 
 [LINE]
-> Una mujer camina hacia   Daniel.
-~ a   woman walks  towards Daniel 
+> Kobieta podchodzi do Daniela.
+~   woman walks  towards Daniel 
+$1690/f4f6e0c4.mp3;7,50;10,462;3,463;8,112
 
 [LINE]
-Speaker101: ¡Hola!  ¿Eres    Daniel? Soy  Gabriela.
-~            hello   are~you Daniel  I~am Gabriela 
+Speaker101: Cześć!  Jesteś Daniel? Ja jestem Julia.
+~            hello   are~you Daniel  I am Julia 
+$1690/ff841f52.mp3;5,0;8,524;7,625;4,511;7,355;6,436
 
 [LINE]
-Speaker100: No, lo~siento. Soy  José.
-~           no  I'm~sorry  I~am José 
+Speaker100: Nie, przepraszam. Ja jestem jacek.
+~           no  I'm~sorry      I am Jacek 
+$1690/dbfd029a.mp3;3,0;13,174;4,697;7,385;6,422
 
 [MULTIPLE_CHOICE]
-> Whoa! What just happened?
-- Bea changed her name to Gabriela.
+> What just happened?
+- Bea changed her name to Julia.
 + Daniel lied to his real date because he likes Bea.
 - Bea and Daniel's dogs played soccer.
 
 [MATCH]
 > Tap the pairs
-- y <> and
-- Soy <> I am
-- ensalada <> salad
-- Me encanta <> I love
-- Eh <> eh
+- a <> and
+- jestem <> I am
+- sałatka <> salad
+- kocham <> I love
+- Moskwa <> Moskow
 
