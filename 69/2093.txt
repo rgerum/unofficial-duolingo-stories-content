@@ -4,20 +4,24 @@ icon=6fee4723d01611cffa9b4b76fd5be36697ef1e96
 set=4|3
 
 [HEADER]
-> Ropa    para mis vacaciones
-~ clothes for  my  vacation  
+> Oblečení na dovolenou
+~ clothes for  my~vacation  
+$2093/4566aea4.mp3;8,50;3,687;10,113
 
 [LINE]
-> Lucy está en una tienda.
-~ Lucy is   at a   store  
+> Lucie je v obchodě.
+~ Lucy is   at a~store  
+$2093/5e350de0.mp3;5,50;3,462;2,75;8,88
 
 [LINE]
-Speaker416: Hola,  ¿necesita ayuda?
-~           hello   you~need help  
+Speaker416: Ahoj, potřebuješ pomoct?
+~           hello   do~you~need help  
+$2093/6fa5b070.mp3;4,50;11,512;7,650
 
 [LINE]
-Speaker509: Sí,  necesito ropa    para mis vacaciones.
-~           yes  I~need   clothes for  my  vacation   
+Speaker509: Ano, potřebuji oblečení na dovolenou.
+~           yes  I~need   clothes for  my~vacation   
+$2093/85bd1d9e.mp3;3,70;10,970;9,951;3,1047;10,214
 
 [MULTIPLE_CHOICE]
 > Lucy is shopping for clothes for a vacation.
@@ -25,16 +29,19 @@ Speaker509: Sí,  necesito ropa    para mis vacaciones.
 + Yes, that's right.
 
 [LINE]
-Speaker416: Está~bien.
+Speaker416: Dobře.
 ~           OK        
+$2093/921cbd60.mp3;5,50
 
 [LINE]
-Speaker509: Necesito un vestido.
-~           I~need   a  dress   
+Speaker509: Potřebuju šaty.
+~           I~need   a~dress   
+$2093/9e191a46.mp3;9,77;5,931
 
 [LINE]
-> Lily busca     un vestido~verde.
-~ Lily looks~for a  green~dress   
+> Lily hledá zelené~šaty.
+~ Lily looks~for a~green~dress   
+$2093/b2df2344.mp3;4,50;6,375;7,287;5,338
 
 [MULTIPLE_CHOICE]
 > Lily is getting a…
@@ -43,49 +50,59 @@ Speaker509: Necesito un vestido.
 - …green hat.
 
 [LINE]
-Speaker509: ¡No, yo quiero un vestido~rojo!
-~            no  I  want   a  red~dress    
+Speaker509: Ne, chci červené~šaty!
+~            no  I~want   a~red~dress    
+$2093/c9810aa4.mp3;2,77;5,582;8,427;5,815
 
 [LINE]
-> Lily busca     un vestido~rojo.
-~ Lily looks~for a  red~dress    
+> Lily hledá červené~šaty.
+~ Lily looks~for a~red~dress    
+$2093/d90323e0.mp3;4,50;6,362;8,300;5,400
 
 [LINE]
-Speaker509: Y   quiero una chaqueta.
-~           and I~want a   jacket   
+Speaker509: A chci bundu.
+~           and I~want a~jacket   
+$2093/e3acf80c.mp3;1,70;5,78;6,427
 
 [ARRANGE]
 > Tap what you hear
-> [(Lily) (busca)     (una) (chaqueta~roja).]
-~   Lily   looks~for   a     red~jacket      
+> [(Lily) (hledá) (červenou) (bundu).]
+~   Lily   looks~for   (a)~red jacket      
+$2093/00108f9a.mp3;4,50;6,387;9,300;6,450
 
 [LINE]
-Speaker509: ¡No, yo quiero una chaqueta~marrón!
-~            no  I  want   a   brown~jacket    
+Speaker509: Ne, chci hnědou~bundu!
+~            no  I~want   a~brown~jacket    
+$2093/19a142ec.mp3;2,77;5,582;7,446;6,602
 
 [LINE]
-Speaker416: Está~bien…
+Speaker416: Dobře…
 ~           OK        
+$2093/2974c856.mp3;5,50
 
 [LINE]
-Speaker509: Un vestido~rojo, una chaqueta~marrón…
-~           a  red~dress     a   brown~jacket    
+Speaker509: Červené~šaty, hnědou~bundu...
+~           a~red~dress     a~brown~jacket    
+$2093/440b1562.mp3;7,77;5,815;7,912;6,717
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker509: ¡[Y~un~sombrero]!
+Speaker509: [A klobouk]!
 ~             and~a~hat      
-- Y un bombero
-- Y un obrero
-+ Y un sombrero
+$2093/528c23ba.mp3;1,70;8,97
+- A tloukl
+- A brouk
++ A klobouk
 
 [LINE]
-> Lily busca     un sombrero~azul.
-~ Lily looks~for a  blue~hat      
+> Lily hledá modrý~klobouk.
+~ Lily looks~for a~blue~hat      
+$2093/85dcd84a.mp3;4,50;6,350;6,287;8,275
 
 [LINE]
-Speaker509: ¡No, yo quiero un sombrero~gris!
-~            no  I  want   a  gray~hat      
+Speaker509: Ne, chci šedý~klobouk!
+~            no  I~want   a~gray~hat      
+$2093/98b9bd02.mp3;2,77;5,601;5,408;8,524
 
 [LINE]
 > Lily busca     un sombrero~gris.
