@@ -1,27 +1,34 @@
 [DATA]
-fromLanguageName=One Thing
+fromLanguageName=Una Cosa
 icon=717bd84875f83c678f64f124937a278061e0e778
-set=1|3
+set_id=1
+set_index=3
 
 [HEADER]
-> Una cosa 
-~ one thing
+> Jedna Rzecz 
+~ una cosa
+$1655/acc24710.mp3;5,50;6,337
 
 [LINE]
-> Lucy está en casa, con  su  nieta,         Lin.
-~ Lucy is   at home  with her granddaughter  Lin 
+> Lucy jest w domu ze  swoją  wnuczką, Lin.
+~ Lucy está en casa con su nieta      Lin
+$1655/8528e128.mp3;4,50;5,362;2,213;5,75;3,300;6,100;8,350;4,637
 
 [LINE]
-Speaker509: ¡Ay, no! Necesito pan   para mi sándwich.
-~            oh  no  I~need   bread for  my sandwich 
+Speaker509: O nie! Nie mamy chleba.
+~           ay no  no tenemos pan
+
+$1655/b70c5aee.mp3;1,6;4,84;4,705;5,144;7,255
 
 [LINE]
-Speaker508: ¿Vas           al     supermercado?
-~            are~you~going to~the supermarket  
+Speaker508: Będziesz szła           do     sklepu?
+~            will~you~ be~going to supermarket  
+$1655/b8bea04a.mp3;8,6;5,480;3,295;7,119
 
 [LINE]
-Speaker509: Sí. 
-~           yes 
+Speaker509: Tak. Chcę zrobić kanapki z serem. 
+~           yes I~want to~make sandwhiches with cheese
+$1655/c76c211c.mp3;3,6;5,859;7,245;8,442;2,502;6,133
 
 [MULTIPLE_CHOICE]
 > Lin and Lucy have a lot of bread.
@@ -29,70 +36,86 @@ Speaker509: Sí.
 + No, that's wrong.
 
 [LINE]
-Speaker508: ¡Ah, necesito una cosa  del      supermercado!
-~            oh  I~need   one thing from~the supermarket  
+Speaker508: Ach, potrzebuję czegoś  ze      sklepu!
+~            oh  I~need   something from~the shop  
+$1655/cc1595c2.mp3;3,6;11,585;7,561;3,305;7,138
 
 [LINE]
-Speaker509: ¿Qué? 
-~            what 
+Speaker509: Czego potrzebujesz? 
+~            what you~need
+$1655/cf03f08a.mp3;5,6;13,284
 
 [LINE]
-Speaker508: Un  tomate, por~favor.
-~           one tomato  please    
+Speaker508: Pomidora.
+~           tomato    
+$1655/d1cb0a6a.mp3;8,6
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker508: Es   para [mi~ensalada].
-~           it's for   my~salad     
-- linda y salada
-+ mi ensalada
-- la mía es salada
+Speaker508: Do [mojej~sałatki].
+~            for   my~salad     
+$1655/dbd9cb86.mp3;2,6;6,159;8,360
+
+- mojej składki
++ mojej sałatki
+- mojej czekoladki
 
 [LINE]
-Speaker509: Está~bien.
+Speaker509: Dobrze.
 ~           OK        
+$1655/e117f316.mp3;6,6
 
 [LINE]
-Speaker508: ¡Gracias!  
+Speaker508: Dzięki!  
 ~            thank~you 
+$1655/e2d41a68.mp3;6,6
 
 [POINT_TO_PHRASE]
 > Choose the option that means "also."
-Speaker508: ¡Ah! Y   (+también) (quiero) (tres)  (manzanas)…
+Speaker508: Ach! I (+też) (chcę) (trzy) (jabłka)…
 ~            oh  and   also      I~want   three   apples    
+$1655/e4daf980.mp3;3,6;2,835;4,50;5,229;5,271;7,255
 
 [LINE]
-Speaker509: Está~bien.
+Speaker509: Dobrze.
 ~           OK        
+$1655/ef8ce5e6.mp3;6,6
 
 [LINE]
-Speaker508: … y   jugo~de~naranja…
+Speaker508: … i   sok~pomarańczowy...
 ~             and orange~juice    
+$1655/f16ffc0e.mp3;8,0;2,206;4,70;13,268
 
 [LINE]
 Speaker509: Lin…
 ~           Lin 
+$1655/f676c232.mp3;3,6
 
 [LINE]
-Speaker508: … y   leche, por~favor.
-~             and milk   please    
+Speaker508: … i jeszcze,   mleko, poproszę.
+~             and  hmmm milk   please    
+$1655/0176081e.mp3;8,0;2,206;8,104;6,823;9,772
 
 [LINE]
-Speaker509: Mmm… tengo  una idea.
-~           hmm  I~have an  idea 
+Speaker509: Hmm… mam  pomysł.
+~           hmm  I~have idea 
+$1655/69c7e276.mp3;3,6;4,626;7,235
 
 [ARRANGE]
 > Tap what you hear
-Speaker509: [(Aquí) (está) (el)  (dinero), (Lin).]
-~             here   is     the   money     Lin   
+Speaker509: [(Dam) (Ci) (pieniądze), (Lin).]
+~             I~will~give   you     money     Lin   
+$1655/08ee308a.mp3;3,6;3,239;10,161;4,917
 
 [LINE]
-Speaker508: ¡¿Qué?! 
-~             what  
+Speaker508: Dlaczego? 
+~             why  
+$1655/0d952102.mp3;8,6
 
 [LINE]
-Speaker509: Yo quiero una cosa  del      supermercado: pan.  
-~           I  want   one thing from~the supermarket   bread 
+Speaker509: Ja tylko potrzebuję jednej rzeczy ze sklepu: chleba 
+~           I  only   I~need one thing from~the shop   bread 
+$1655/106cd99c.mp3;2,6;6,165;11,315;7,616;7,416;3,353;7,161;7,861
 
 [MULTIPLE_CHOICE]
 > Why did Lucy give Lin money?
@@ -102,9 +125,9 @@ Speaker509: Yo quiero una cosa  del      supermercado: pan.
 
 [MATCH]
 > Tap the pairs
-- idea <> idea
-- una <> one
-- Yo <> I
-- nieta <> granddaughter
-- por favor <> please
+- pomysł <> idea
+- jedna <> one
+- ja <> I
+- wnuczka <> granddaughter
+- poproszę <> please
 
