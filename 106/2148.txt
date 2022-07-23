@@ -1,47 +1,59 @@
 [DATA]
-fromLanguageName=The Passport
+fromLanguageName=El Pasaporte
 icon=643347b755001a918130ddf5f6d3e914e63a00ce
 set=2|2
 
 [HEADER]
-> El  pasaporte
-~ the passport 
+> Paszport
+~ el~pasaporte
+$1683/4b15dcd8.mp3;8,50
 
 [LINE]
-> Vikram y   su  esposa, Priti, están en el  aeropuerto.
-~ Vikram and his wife    Priti  are   at the airport    
+> Wikram i jego żona, Priti, są na lotnisku.
+~ Vikram y su esposa apriti están en aeropuerto    
+$1683/f30d8f52.mp3;6,50;2,487;5,113;5,212;6,525;3,588;3,237;9,88
 
 [LINE]
-Speaker593: ¡Ay, no! ¿Dónde está mi pasaporte?
-~            oh  no   where is   my passport  
+Speaker593: Oh, nie! Gdzie jest mój paszport?
+~            ay  no   dónde está mi pasaporte  
+$1683/00fe0f04.mp3;3,0;5,319;7,461;5,545;4,300;9,170
 
 [LINE]
-Speaker593: ¡No~está  aquí!
-~            it's~not here 
+Speaker593: Nie~ma~go tutaj!
+~           no~está  aquí 
+$1683/908e449e.mp3;3,0;3,224;3,151;6,129
 
 [LINE]
-Speaker560: Vikram…
+Speaker560: Wikram..
 ~           Vikram 
 
+$1683/af52a7e4.mp3;6,50
+
 [SELECT_PHRASE]
-> Select the missing phrase
-Speaker593: No~está  [en~mi~cartera]…
-~           it's~not  in~my~bag      
-+ en mi cartera
-- es mi cantera
-- en mi campera
+> Selecciona la frase que falta
+Speaker593: Nie~ma~go  [w~moim~portfelu]…
+~           no~está   en~mi~billetera 
+$1683/611ea05a.mp3;3,0;3,230;3,140;2,120;5,89;9,325
+
++ w moim portfelu
+- w twoim biurku
+- na Ukrainie
 
 [LINE]
-Speaker593: Y   no~está  en mi chaqueta.
-~           and it's~not in my jacket   
+Speaker593: I nie~ma~go w mojej kurtce.
+~           y no~está en mi c   
+$1683/7b12871a.mp3;1,0;4,99;3,175;3,150;2,125;6,85;7,325
 
 [LINE]
-Speaker560: Vik…
+Speaker560: Wik..
 ~           Vik 
 
+$1683/bd9fafa4.mp3;3,50
+
 [LINE]
-Speaker593: ¡Está en el  taxi!
-~            it's in the taxi 
+Speaker593: Jest w taksówce!
+~            it's in taxi 
+$1683/891f76e2.mp3;4,0;2,319;9,105
 
 [MULTIPLE_CHOICE]
 > Vikram thinks his passport is in the taxi.
@@ -49,46 +61,56 @@ Speaker593: ¡Está en el  taxi!
 - No, that's wrong.
 
 [LINE]
-> Vikram corre~a buscar        su  taxi.
-~ Vikram runs~to (to)~look~for his taxi 
+> Vikram biegnie do swojej taksówki.
+~ Vikram runs to his taxi 
+$1683/c52c2be6.mp3;6,50;8,437;3,388;7,112;9,325
 
 [LINE]
-Speaker560: ¡Vik, no!
+Speaker560: Wik, nie!
 ~            Vik  no 
+$1683/03c00172.mp3;3,50;4,437
 
 [ARRANGE]
 > Tap what you hear
-> [(Priti) (corre~detrás~de) (Vikram).]
-~   Priti   runs~after        Vikram   
+> [(Priti) (biegnie za) (Wikramem).]
+~   Priti   runs after        Vikram   
+$1683/c0982c36.mp3;5,50;8,275;3,400;9,137
 
 [LINE]
-Speaker593: ¡Ay, no! ¡El  taxi no~está aquí!
-~            oh  no   the taxi is~not  here 
+Speaker593: Oh, nie! Nie~ma~tu taksówki!
+~            oh  no   is~not~here taxi
+$1683/0c2bfaee.mp3;3,0;5,319;5,461;3,425;3,135;9,145
 
 [LINE]
-Speaker593: ¡No~es    posible! 
-~            it's~not possible 
+Speaker593: Nie~może być! 
+~            it~can't be
+$1683/cf63696a.mp3;4,0;5,209;4,330
 
 [LINE]
-Speaker560: ¡Vikram!
+Speaker560: Wikram!
 ~            Vikram 
+$1683/d0bb7640.mp3;6,50
 
 [LINE]
-Speaker560: Tu   pasaporte no~está en el  taxi.
-~           your passport  is~not  in the taxi 
+Speaker560: Twojego paszportu nie~ma w taksówce.
+~           your passport  is~not  in taxi 
+$1683/2b817aa6.mp3;7,50;10,337;4,588;3,162;2,138;9,62
 
 [POINT_TO_PHRASE]
 > Choose the option that means "hand."
-Speaker560: (El)  pasaporte (está) (en) tu   (+mano).
-~            the  passport   is     in  your   hand  
+Speaker560: Paszport (jest) (w)   twojej (+dłoni).
+~            (your)~passport   is     in  your hand
+$1683/ea5516a4.mp3;8,50;5,450;2,275;7,62;6,338
 
 [LINE]
-Speaker593: Ah…
+Speaker593: Oh…
 ~           oh 
+$1683/1480e7cc.mp3;3,0
 
 [LINE]
-Speaker593: Gracias,   mi amor.
-~           thank~you  my love 
+Speaker593: Dziękuję,   kochanie.
+~           thank~you  my~love 
+$1683/f9797a14.mp3;7,0;10,654
 
 [MULTIPLE_CHOICE]
 > Where was Vikram's passport?
@@ -98,9 +120,9 @@ Speaker593: Gracias,   mi amor.
 
 [MATCH]
 > Tap the pairs
-- aeropuerto <> airport
-- Priti <> Priti
-- corre detrás de <> runs after
-- chaqueta <> jacket
-- aquí <> here
+- lotnisko <> airport
+- paszport <> passport
+- twój <> your
+- taksówka <> taxi
+- tu <> here
 
