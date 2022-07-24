@@ -8,16 +8,16 @@ set=10|3
 ~ model 
 
 [LINE]
-> Eddy chodzi do klasy~Oskara.
-~ Eddy goes to Óscar's~class     
+> Eddy idzie do klasy~Oskara.
+~ Eddy goes to Oscar's~class     
 
 [LINE]
-Speaker414: Cześć,  ¿puedo entrar? 
-~           hello   I~can come~in 
+Speaker414: Cześć.  Czy mogę wejść? 
+~           hello  (question~marker) I~can come~in 
 
 [LINE]
-Speaker592: Tengo~que~dar   mi clase~de~arte en cinco minutos.
-~           I~have~to~teach my art~class     in five  minutes 
+Speaker592: Muszę nauczyć moją klasę~sztuki za pięć minut..
+~           I~have~to (to)~teach my art~class  in five  minutes 
 
 [MULTIPLE_CHOICE]
 > Oscar has to teach an art class in two hours.
@@ -25,19 +25,19 @@ Speaker592: Tengo~que~dar   mi clase~de~arte en cinco minutos.
 - Yes, that's right.
 
 [LINE]
-Speaker414: Pero estoy aburrido.
+Speaker414: Ale jestem znudzony.
 ~           but  I~am  bored    
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker592: ¿Y   tú  [no~tienes~clase]?   
+Speaker592: A.. ty  [nie~masz~klasy]?   
 ~            and you  don't~have~a~class  
-- no vienes a clase
-+ no tienes clase
-- no tienes pase
+- nie masz mapy
++ nie masz klasy
+- nie masz talerzy
 
 [LINE]
-Speaker414: No, ¿te~puedo~ayudar~en  algo?     
+Speaker414: Nie, ¿te~puedo~ayudar~en  algo?     
 ~           no   I~can~help~you~with something 
 
 [LINE]
@@ -71,8 +71,8 @@ Speaker414: ¡Sí!
 
 [POINT_TO_PHRASE]
 > Choose the option that means "sits down."
-> (Eddy) (+se~sienta) y   (mira~a)   (Óscar).
-~  Eddy    sits~down  and  looks~at   Óscar  
+> (Eddy) (+se~sienta) y   (mira~a)   (Oscar).
+~  Eddy    sits~down  and  looks~at   Oscar  
 
 [LINE]
 Speaker592: ¿Y   puedes~hacer~silencio?
@@ -100,15 +100,15 @@ Speaker592: Shh…
 
 [MULTIPLE_CHOICE]
 > Why is Eddy still bored?
-- Óscar won't stop talking about work.
+- Oscar won't stop talking about work.
 - He doesn't like to read about art.
-+ Óscar wants him to sit in a chair and be quiet.
++ Oscar wants him to sit in a chair and be quiet.
 
 [MATCH]
 > Tap the pairs
 - Y <> and
 - Puedes sentarte <> you can sit down
 - Muy <> very
-- Óscar <> Óscar
+- Oscar <> Oscar
 - bien <> well
 
