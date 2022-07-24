@@ -6,18 +6,22 @@ set=10|3
 [HEADER]
 > Model
 ~ model 
+$2145/4ec0f6f6.mp3;5,50
 
 [LINE]
 > Eddy idzie do klasy~Oskara.
 ~ Eddy goes to Oscar's~class     
+$2145/513b1f92.mp3;4,50;6,287;3,250;6,125;7,375
 
 [LINE]
 Speaker414: Cześć.  Czy mogę wejść? 
 ~           hello  (question~marker) I~can come~in 
+$2145/55775918.mp3;5,0;5,664;5,335;6,340
 
 [LINE]
 Speaker592: Muszę nauczyć moją klasę~sztuki za pięć minut..
 ~           I~have~to (to)~teach my art~class  in five  minutes 
+$2145/575e91ba.mp3;5,6;8,315;5,539;6,350;7,412;3,380;5,212;6,415
 
 [MULTIPLE_CHOICE]
 > Oscar has to teach an art class in two hours.
@@ -27,76 +31,94 @@ Speaker592: Muszę nauczyć moją klasę~sztuki za pięć minut..
 [LINE]
 Speaker414: Ale jestem znudzony.
 ~           but  I~am  bored    
+$2145/5c1d90a2.mp3;3,0;7,204;9,416
 
 [SELECT_PHRASE]
 > Select the missing phrase
 Speaker592: A.. ty  [nie~masz~klasy]?   
 ~            and you  don't~have~a~class  
+$2145/5e505da0.mp3;1,6;3,721;4,139;5,172;6,259
+
 - nie masz mapy
 + nie masz klasy
 - nie masz talerzy
 
 [LINE]
-Speaker414: Nie, Czy mogę ci w czymś pomóc?     
+Speaker414: Nie. Czy mogę ci w czymś pomóc?     
 ~           no  (question~marker) I~can you with something (to)~help
+$2145/686cc68e.mp3;3,0;5,449;5,330;3,320;2,171;6,55;6,315
 
 [LINE]
 Speaker592: Czemu?
 ~            why     
+$2145/6aa3ec52.mp3;5,6
 
 [ARRANGE]
 > Tap what you hear
 Speaker414: [(Dlatego, że)  (jesteś)    (moim) (najlepszym) (przyjacielem).] 
 ~             because     you~are           my         best    friend   
+$2145/6dae2002.mp3;7,0;4,601;7,185;5,470;11,315;13,613
 
 [LINE]
 Speaker592: O, tak? 
 ~            oh  yes 
+$2145/70433258.mp3;1,6;4,576
 
 [LINE]
-Speaker592: Hmm… Myślę, że możesz mi pomóc.
+Speaker592: hmm… Myślę, że możesz mi pomóc.
 ~           hmm  I~think that you~can me (to)~help   
+$2145/860f3140.mp3;3,6;6,541;3,697;7,185;3,428;6,285
 
 [LINE]
 Speaker414: Dobrze, przyjacielu! 
 ~            OK  friend 
+$2145/8cafaaf2.mp3;6,0;13,509
 
 [LINE]
 Speaker592: Możesz usiąść na tym krześle?
 ~           you~can (to)~sit on this chair
+$2145/8e978dbc.mp3;6,6;7,441;3,553;4,200;8,172
 
 [LINE]
 Speaker414: Tak! 
 ~            yes 
+$2145/91bdafc6.mp3;3,0
 
 [POINT_TO_PHRASE]
 > Choose the option that means "sits down."
-> (Eddy) (+se~sienta) y   (mira~a)   (Oscar).
-~  Eddy    sits~down  and  looks~at   Oscar  
+> (Eddy) (+siędzi) i   (patrzy)  (na) (Oskara).
+~  Eddy    sits~down  and  looks at   Oscar  
+$2145/93ca7646.mp3;4,50;7,212;2,475;7,88;3,387;7,113
 
 [LINE]
-Speaker592: ¿Y   puedes~hacer~silencio?
-~            and you~can~be~quiet      
+Speaker592: I możesz być spokojny?
+~            and you~can (to)~be quiet      
+$2145/99f93c64.mp3;1,6;7,158;4,431;9,278
 
 [LINE]
-Speaker414: ¿Por~qué?
+Speaker414: Dlaczego?
 ~            why     
+$2145/9e1031b8.mp3;8,0
 
 [LINE]
-Speaker592: Mi clase es en un minuto y   necesito un modelo.
-~           my class is in a  minute and I~need   a  model  
+Speaker592: Moja klasa jest za minutę i potrzebuję modela.
+~           my class    is in  minute and I~need   model  
+$2145/9f47fea8.mp3;4,6;6,312;5,414;3,318;7,256;2,493;11,162;7,638
 
 [LINE]
-Speaker592: Los~modelos no~hablan. 
-~           models      don't~talk 
+Speaker592: Modele nie mówią. 
+~           models don't talk 
+$2145/a131f7e6.mp3;6,6;4,476;6,163
 
 [LINE]
-Speaker414: Pero esto es aburrido.
+Speaker414: Ale to jest nudne.
 ~           but  this is boring   
+$2145/a387fedc.mp3;3,0;3,215;5,169;6,327
 
 [LINE]
-Speaker592: Shh…
+Speaker592: Sza…
 ~           shh 
+$2145/aa318e6a.mp3;3,6
 
 [MULTIPLE_CHOICE]
 > Why is Eddy still bored?
@@ -106,9 +128,9 @@ Speaker592: Shh…
 
 [MATCH]
 > Tap the pairs
-- Y <> and
-- Puedes sentarte <> you can sit down
-- Muy <> very
-- Oscar <> Oscar
-- bien <> well
+- modele <> models
+- siędzi <> sits
+- za minutę <> in a minute
+- klasa <> class
+- to jest nudne <> this is boring
 
