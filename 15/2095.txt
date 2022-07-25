@@ -6,14 +6,17 @@ set=6|1
 [HEADER]
 > Süpermarkette
 ~ at~the~supermarket 
+$2095/5f0fd8aa.mp3;13,0
 
 [LINE]
 > Lin, Bea'yla süpermarkette.
 ~ Lin with~Bea (is)~at~the~supermarket
+$2095/643d2562.mp3;3,0;9,289;14,606
 
 [LINE]
 Speaker508: Yemek~yapmak istemiyorum.
 ~          to~cook I~don't~want 
+$2095/68c305a2.mp3;5,0;7,450;12,462
 
 [MULTIPLE_CHOICE]
 > Lin can't wait to cook dinner.
@@ -23,14 +26,17 @@ Speaker508: Yemek~yapmak istemiyorum.
 [LINE]
 Speaker507:  Yemek~yapmak çok~eğlencelidir, Lin!
 ~            cooking  is~very~fun        Lin 
+$2095/6bd2857e.mp3;5,0;7,386;4,375;13,258;5,806
 
 [LINE]
 Speaker508: Çok yorgunum.
 ~           very I~am~tired  
+$2095/6ee4a832.mp3;3,0;9,332
 
 [LINE]
 Speaker508:  Bir~restoranda yemek ister~misin?
 ~            at~a~restaurant to~eat would~you~like
+$2095/7126deee.mp3;3,0;11,170;6,731;6,439;6,404
 
 [MULTIPLE_CHOICE]
 > Lin is tired, so she…
@@ -41,68 +47,82 @@ Speaker508:  Bir~restoranda yemek ister~misin?
 [LINE]
 Speaker507:  Hayır, yemek~yapmak istiyorum!
 ~            no to~cook I~want
+$2095/74631f78.mp3;5,0;7,446;7,438;10,379
 
 [POINT_TO_PHRASE]
 > Choose the option that means "is needed."
 Speaker508: (Tamam)… (Yemek~yapmak) için (bize) ne (lazım)?    
 ~            ~      to~cook in~order~to to~us what is~needed
+$2095/7818e882.mp3;5,0;7,441;7,733;5,456;5,344;3,301;6,168
 
 [LINE]
 Speaker507:  Bize makarna lazım!
 ~            to~us pasta is~needed     
+$2095/7bc97762.mp3;4,0;8,288;6,528
 
 [LINE]
 > Makarnayı ararlar.
 ~   the~pasta they~look~for   
+$2095/837b247e.mp3;9,0;8,519
 
 [SELECT_PHRASE]
 > Select the missing phrase
 Speaker508: Ah… [Makarna burada].
 ~           oh   (the)~pasta (is)~here   
-- La casta está allí
-- La pasta de ají
-+ La pasta está aquí
+$2095/869bd176.mp3;2,0;9,232;7,857
+- Makarna orada
+- Biber burada
++ Makarna burada
 
 [LINE]
-Speaker507: Y   también~necesitamos un tomate.
-~           and we~also~need        a  tomato 
+Speaker507: Bize domates de lazım.
+~           to~us tomato too is~needed
+$2095/8fa805f0.mp3;4,0;8,291;3,562;6,122
 
 [ARRANGE]
 > Tap what you hear
-> [(Ellas) (buscan)   (el)  (tomate).]
-~   they    look~for   the   tomato   
+> [(Domatesi) (ararlar).]
+~  the~tomato they~look~for
 
 [LINE]
-Speaker507: ¡Ah! ¡El  tomate está aquí!
-~            oh   the tomato is   here 
+Speaker507:  Ah, domates burada.
+~            oh   (the)~tomato (is)~here 
+$2095/924834ba.mp3;2,0;9,183;7,620
 
 [LINE]
-Speaker507: Y   también~necesitamos vegetales. 
-~           and we~also~need        vegetables 
+Speaker507: Bize sebze de lazım. 
+~           to~us vegetable too is~needed
+$2095/94b71c7a.mp3;4,0;6,292;3,434;6,130
 
 [LINE]
-Speaker508: Ahh… Y   leche...
-~           ohh  and milk    
+Speaker508: Ah… Ve süt...
+~           oh  and milk    
+$2095/97a53d4a.mp3;2,0;4,232;4,444
 
 [LINE]
-Speaker507: Y   pan...  
+Speaker507: Ve ekmek...  
 ~           and bread   
+$2095/9b098e1e.mp3;2,0;6,147
 
 [LINE]
-Speaker508: Necesitamos muchas cosas,  Bea.
-~           we~need     many   things  Bea 
+Speaker508: Bize çok~fazla şey lazım, Bea.
+~           to~us too~many thing (is)~needed Bea
+$2095/a28c8eca.mp3;4,0;4,320;6,288;4,435;6,314;6,525
 
 [LINE]
-Speaker507: Sí,  y   yo estoy muy  cansada.
-~           yes  and I  am    very tired   
+Speaker507: Evet, ve ben çok~yoruldum.
+~           yes  and I  I~am~very~tired   
+$2095/a58abc6e.mp3;4,0;4,382;4,198;4,260;9,281
 
 [LINE]
-Speaker508: ¿Quieres  comer  en un restaurante?
-~            you~want to~eat at a  restaurant  
+Speaker508:  Bir~restoranda yemek ister~misin?
+~            at~a~restaurant to~eat would~you~like  
+$2095/a8c6bcd4.mp3;3,0;11,170;6,731;6,439;6,404
 
 [LINE]
-Speaker507: ¡Sí,  por~favor!
+Speaker507:  Evet, lütfen!
 ~            yes  please    
+$2095/ab6371e4.mp3;4,0;8,370
 
 [MULTIPLE_CHOICE]
 > Why did Bea agree to eat at a restaurant?
@@ -112,9 +132,9 @@ Speaker507: ¡Sí,  por~favor!
 
 [MATCH]
 > Tap the pairs
-- muchas <> many
-- aquí <> here
-- Estoy <> I am
-- también necesitamos <> we also need
-- por favor <> please
+- çok fazla <> too many
+- burada <> here
+- Ben <> I
+- lazım <> is needed
+- lütfen <> please
 
