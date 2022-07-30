@@ -28,8 +28,8 @@ $2196/02841f4c.mp3;10,0;8,620;4,445;5,145;6,345
 $2196/1da4f6a2.mp3;4,0;12,299
 
 [LINE]
-Speaker508:  Merhaba, yardım lazım mı?
-~            hello   help is~need [question~word] 
+Speaker508:  Merhaba, yardım lazım~mı?
+~            hello   help is~(it)~needed
 $2196/241e498e.mp3;7,0;8,607;6,572;3,495
 
 [CONTINUATION]
@@ -67,10 +67,12 @@ $2196/5540e908.mp3;7,0;5,620;7,225
 [LINE]
 > Adam telefonda arama~yapar.
 ~ (the)~man on~(the)~phone (he)~makes~a~call
+$2196/893a8ad8.mp3;4,0;10,295;6,555;6,335
 
 [LINE]
-Speaker127: Buenos~días,  ¿ese~es  el  taller~de~reparación~de~carros?
-~           good~morning   is~that the auto~repair~shop               
+Speaker127: Günaydın, araç tamir dükkanı mı?
+~           good~morning   vehicle repair shop [question~word]            
+$2196/8ca0dd76.mp3;8,0;6,629;6,400;8,421;3,440
 
 [MULTIPLE_CHOICE]
 > The man borrowed Lin's phone so he could…
@@ -79,61 +81,74 @@ Speaker127: Buenos~días,  ¿ese~es  el  taller~de~reparación~de~carros?
 - …look through her pictures.
 
 [LINE]
-Speaker127: Mi carro tiene un~problema.
-~           my car   has   a~problem   
+Speaker127: Arabamın bir sorunu var.
+~           my~car's a its~problem it~has  
+$2196/9746cd30.mp3;8,0;4,534;7,95;4,471
 
 [LINE]
-Speaker508: Ah… ¿señor?
+Speaker508: Ah… Beyefendi?
 ~           oh   sir   
+$2196/997b1ee4.mp3;2,0;11,233
 
 [LINE]
-> El  hombre ignora~a Lin.
-~ the man    ignores  Lin 
+> Adam Lin'i görmezden~gelir.
+~ (the)~man Lin ignores
+$2196/a2265eaa.mp3;4,0;5,305;10,250;6,655
 
 [LINE]
 Speaker127: Ahh…
 ~           ohh 
+$2196/a4f4c892.mp3;3,0
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker127: No~sé        [dónde~estoy].
-~           I~don't~know  where~I~am   
-- adonde esto
-+ dónde estoy
-- come esto hoy
+Speaker127:       [Neredeyim] bilmiyorum.
+~           where~am~I I~don't~know       
+$2196/a763c10a.mp3;9,0;11,594
+- Neredeler
++ Neredeyim
+- Buradayım
 
 [LINE]
-Speaker127: Mmm… Disculpe,  ¿señorita?
-~           hmm  excuse~me   miss     
+Speaker127: Hımm… Pardon,  hanımefendi?
+~           hmm  pardon   miss     
+$2196/b2013af2.mp3;3,0;8,299;13,845
 
 [LINE]
-Speaker508: ¿Sí? 
+Speaker508:  Evet? 
 ~            yes 
+$2196/b5013284.mp3;4,0
 
 [LINE]
-Speaker127: ¿Dónde estamos?
-~            where are~we  
+Speaker127:  Neredeyiz?
+~            where~are~we  
+$2196/b7118628.mp3;9,0
 
 [LINE]
-Speaker508: ¡Muy  cerca~del    taller~de~reparación~de~carros!
-~            very close~to~the auto~repair~shop               
+Speaker508:  Araç tamir dükkanına çok yakınız!
+~            vehicle repair to~the~shop very we~are~close               
+$2196/b8df78a2.mp3;4,0;6,411;10,491;4,642;8,332
 
 [LINE]
-Speaker127: ¿Qué? 
+Speaker127:  Ne? 
 ~            what 
+$2196/bc7c19a2.mp3;2,0
 
 [ARRANGE]
 > Tap what you hear
-Speaker508: ¡[(Yo) (trabajo) (en) (el~taller)       (los~fines~de~semana)!]
-~              I    work      at   the~repair~shop   on~weekends           
+Speaker508:   [(Ben) (hafta sonlarında) (araç) (tamir) (dükkanında)   (çalışıyorum)!]
+~              I    at~the~weekends vehicle repair at~the~shop I~am~working      
+$2196/bec01218.mp3;3,0;6,222;11,371;5,767;6,332;11,459;12,643
 
 [LINE]
-Speaker508: Soy  mecánica.  
-~           I~am a~mechanic 
+Speaker508: Tamirciyim ben.  
+~           I~am~a~mechanic I~am
+$2196/c230427e.mp3;10,0;4,910
 
 [LINE]
-Speaker508: Entonces… ¿necesita    ayuda?
-~           so         do~you~need help  
+Speaker508: Yani... yardım lazım~mı?
+~           so      help is~(it)~needed
+$2196/c4b726a2.mp3;4,0;10,470;6,815;3,507
 
 [MULTIPLE_CHOICE]
 > It turns out that Lin…
@@ -143,9 +158,9 @@ Speaker508: Entonces… ¿necesita    ayuda?
 
 [MATCH]
 > Tap the pairs
-- tiene <> has
-- los fines de semana <> on weekends
-- Ella <> she
-- un hombre <> a man
-- señorita <> miss
+- var <> has
+- hafta sonlarında <> on weekends
+- O <> she
+- bir adam <> a man
+- hanımefendi  <> miss
 
