@@ -4,76 +4,76 @@ icon=4779d731014382d1398621baf6c630efe3e344c0
 set=11|2
 
 [HEADER]
-> Un nuevo deporte
-~ a  new   sport  
+> Yeni Bir Spor
+~ new a sport  
 
 [LINE]
-> Eddy y   Junior están en una tienda.
-~ Eddy and Junior are   in a   store  
+> Eddy ve Junior bir mağazada.
+~ Eddy and Junior a in~(a)~store 
 
 [LINE]
-Speaker414: ¿Quieres  practicar un nuevo deporte? ¡Qué~bueno!
-~            you~want to~play   a  new   sport     great     
+Speaker414:  Yeni bir spor mu yapmak istiyorsun? Harika!
+~           new a sport [question~word] to~do you~want~to great   
 
 [LINE]
-Speaker414: ¿Quieres  jugar~al baloncesto?
-~            you~want to~play  basketball 
+Speaker414:  Basketbol mu oynamak istiyorsun?
+~            basketball [question~word] to~play you~want~to
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker415: No~me~gustan [los~deportes~con~pelotas].
-~           I~don't~like  sports~with~balls         
-+ los deportes con pelotas
-- los reportes con pelotas
-- los deportes con bellotas
+Speaker415: [Toplu sporları] sevmem.
+~           with~ball the~sports I~don't~like        
++ Toplu sporları
+- Toplu raporları
+- Sporlu raporları
 
 [LINE]
-Speaker414: ¡Esta raqueta~de~tenis es muy  bonita!
-~            this tennis~racket    is very pretty 
+Speaker414:  Bu tenis raketi çok güzel!
+~            this tennis racket very is~pretty 
 
 [CONTINUATION]
 > What comes next?
-Speaker415: Necesitas una pelota para     [jugar~al tenis]. 
-~           you~need  a   ball   in~order  to~play  tennis  
-- al~baloncesto
+Speaker415: [Tenis oynamak için] bir top lazım. 
+~           tennis to~play in~order~to a ball is~needed  
+- Basketbol
 ~ basketball   
-+ jugar~al tenis 
-~ to~play  tennis
-- una tienda 
++ Tenis oynamak için 
+~ tennis to~play in~order~to
+- bir mağaza 
 ~ a   store  
 
 [LINE]
-Speaker414: Ah, sí.  Mmm... ¿Qué  puedes~practicar?
+Speaker414: Ah, evet.  Hım... Ne oynayabilirsin?
 ~           oh  yes  hmm     what you~can~play     
 
 [LINE]
-Speaker415: Yo quiero...
-~           I  want     
+Speaker415: Ben...
+~           I  
 
 [LINE]
-Speaker414: ¡Nadar!   ¡¿Quieres  nadar?!  
-~            to~swim    you~want to~swim  
+Speaker414:  Yüzmek! Yüzmek mi istiyorsun? 
+~            to~swim  to~swim [question~word] you~want
 
 [LINE]
-Speaker415: No...
+Speaker415: Hayır...
 ~           no   
 
 [ARRANGE]
 > Tap what you hear
-Speaker414: [(Pero) (es)   (un) (deporte) (sin~pelotas).]  
-~             but    it's   a    sport     without~balls   
+Speaker414: [(Ama) (topsuz)   (bir) (spor).]  
+~             but   without~balls a sport
 
 [LINE]
-Speaker415: ¡Papá, no!
+Speaker415:  Baba, hayır!
 ~            dad   no 
 
 [LINE]
-Speaker414: Bueno, ¿qué  quieres  hacer?
-~           well    what you~want to~do 
+Speaker414: Peki, ne yapmak istiyorsun?
+~           well    what to~do you~want
 
 [LINE]
-> Junior mira     unas zapatillas~de~ballet.
-~ Junior looks~at some ballet~shoes         
+> Junior bale ayakkabılarına bakar.
+~ Junior ballet to~the~shoes he~looks~at     
 
 [MULTIPLE_CHOICE]
 > Oh! It seems like Junior wants to…
@@ -82,28 +82,28 @@ Speaker414: Bueno, ¿qué  quieres  hacer?
 - …go for a swim.
 
 [LINE]
-Speaker415: Yo quiero… bailar.  
-~           I  want    to~dance 
+Speaker415: Dans~etmek istiyorum.  
+~           to~dance I~want
 
 [LINE]
-Speaker414: ¡¿Quieres  bailar?!  
-~             you~want to~dance  
+Speaker414:   Dans~etmek mi istiyorsun?!  
+~             to~dance [question~word] you~want
 
 [LINE]
-Speaker415: Sí…  ¿Es   un problema?
-~           yes   it's a  problem  
+Speaker415: Evet... Bu bir sorun~mu?
+~           yes     this a is~this~a~problem
 
 [LINE]
-Speaker414: ¡No! ¡Bailar  también~es un deporte!
-~            no   dancing is~also    a  sport   
+Speaker414:  Hayır! Dans~etmek de bir spordur!
+~            no   dancing also a is~(a)~sport   
 
 [LINE]
-> Eddy empieza~a bailar   en la  tienda.
-~ Eddy starts    to~dance in the store  
+> Eddy mağazada dans~etmeye başlar.
+~ Eddy in~the~store to~dance he~starts
 
 [LINE]
-Speaker415: Papá, para~de~bailar por~favor.
-~           dad   stop~dancing   please    
+Speaker415: Baba, lütfen mağazada dans~etmeyi bırak.
+~           dad  please in~the~store dancing stop
 
 [MULTIPLE_CHOICE]
 > Junior wants his dad to stop...
@@ -113,9 +113,9 @@ Speaker415: Papá, para~de~bailar por~favor.
 
 [MATCH]
 > Tap the pairs
-- problema <> problem
+- sorun <> problem
 - Ah <> oh
-- empieza a <> starts
-- sin pelotas <> without balls
-- No <> no
+- başlar <> starts
+- topsuz <> without balls
+- Hayır <> no
 
