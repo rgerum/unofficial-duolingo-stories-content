@@ -4,16 +4,16 @@ icon=5afbf601db955e3db76a96aea1d4e0a535c16e7c
 set=3|2
 
 [HEADER]
-> El  nuevo estudiante
-~ the new   student   
+> الطالب الجديد
+~ student new  
 
 [LINE]
-> Zari y   Lily están en el  autobús.
-~ Zari and Lily are   on the bus     
+> زاري وليلي في الحافلة
+~ Zari and-Lily in the-bus 
 
 [LINE]
-Speaker418: ¡Lily, hay      un nuevo estudiante en nuestra clase!
-~            Lily  there~is a  new   student    in our     class 
+Speaker418: !ليلي ، هناك طالبة جديدة في صفنا
+~            Lily , there-is student new in our-class
 
 [MULTIPLE_CHOICE]
 > Zari tells Lily that there's a new teacher at their school.
@@ -21,40 +21,40 @@ Speaker418: ¡Lily, hay      un nuevo estudiante en nuestra clase!
 - Yes, that's right.
 
 [LINE]
-Speaker418: Su  nombre es Miguel.
-~           his name   is Miguel 
+Speaker418: .اسمه مكرم
+~           his-name Mokrom 
 
 [LINE]
-Speaker416: ¿Miguel?
-~            Miguel 
+Speaker416: مكرم؟
+~            Mokrom? 
 
 [LINE]
-Speaker418: Sí,  es    de   México.
-~           yes  he~is from Mexico 
+Speaker418: .نعم، هو من الاردن
+~           Yes, he from Jordan.  
 
 [LINE]
-Speaker418: ¡Su  padre  escribe libros!
-~            his father writes  books  
+Speaker418: !والده مترجم
+~            his~father translator!  
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker416: [Muy~interesante]. 
-~            very~interesting  
-- Tu interesante
-- Su interés antes
-+ Muy interesante
+Speaker416: .[مثير جدا] 
+~            interesting very  
+- لا ممتازة 
+- غازين
++ مثير جذا
 
 [LINE]
-Speaker418: Habla     español, inglés  y   portugués. 
-~           he~speaks Spanish  English and Portuguese 
+Speaker418: .يتحدث العربية والعبرية والإنجليزية
+~           he~speaks Arabic  and~Hebrew and~English.
 
 [LINE]
-Speaker416: Ah, es    inteligente.
-~           oh  he~is intelligent 
+Speaker416: .أوه ، إنه ذكي
+~           oh , he~is intelligent 
 
 [LINE]
-Speaker418: Inteligente… y   alto. Y   tiene  muy  bonitos…
-~           intelligent  and tall  and he~has very pretty  
+Speaker418: ...ذكي وطويل ولديه
+~           intelligent  and~tall  and~he~has   
 
 [MULTIPLE_CHOICE]
 > How does Zari describe Miguel?
@@ -63,46 +63,46 @@ Speaker418: Inteligente… y   alto. Y   tiene  muy  bonitos…
 + He's intelligent and tall.
 
 [LINE]
-Speaker416: Ja, ja, ¿sí? 
-~           ha  ha   yes 
+Speaker416: هاها حقا؟ 
+~           haha   really? 
 
 [LINE]
-Speaker418: Mmm… Muy  bonitos zapatos.
-~           hmm  very pretty  shoes   
+Speaker418: .لديه ساعة مذهلة
+~           he~has watch amazing.   
 
 [POINT_TO_PHRASE]
 > Choose the option that means "behind."
-Speaker416: (Zari), (Miguel) (está) (+detrás~de) ti. 
-~            Zari    Miguel   is      behind     you 
+Speaker416: (زاري، ) (مكرم ) (هو) (+خلفك)
+~            Zari, is Mokrom 
 
 [LINE]
-Speaker418: ¡¿Qué?! 
-~             what  
+Speaker418: !ماذا؟
+~             What?!  
 
 [LINE]
-Speaker416: ¡Hola,  Miguel!
-~            hello  Miguel 
+Speaker416: !مرحبا مكرم
+~            Hello Mokrom! 
 
 [LINE]
-Speaker790: ¡Hola,  Lily! ¿Cómo~estás? 
-~            hello  Lily   how~are~you 
+Speaker790: مرحبا يا ليلى!  كيف حالك؟ 
+~            hello oh Lily! How are~you?
 
 [LINE]
-Speaker416: Bien, gracias.  
-~           fine  thank~you 
+Speaker416: .بخير، شكرا لك
+~           fine, thank you
 
 [ARRANGE]
 > Tap what you hear
-Speaker416: [(Miguel), (esta) (es) (mi~amiga),  (Zari).]
-~             Miguel    this   is   my~friend    Zari   
+Speaker416: [(مكرم)   (هاي) (صديقتي) (زاري)]
+~             Mokrom, this my~friend Zari   
 
 [LINE]
-Speaker416: A~ella~le~gustan tus…  zapatos.
-~           she~likes        your  shoes   
+Speaker416: .إنها تحب ساعتك
+~           she likes your~watch   
 
 [LINE]
-Speaker418: Ah, mmm, hola…  Miguel.
-~           oh  hmm  hello  Miguel 
+Speaker418: .هممم، مرحبا مكرم
+~          hmmm, hello Mokrom. 
 
 [MULTIPLE_CHOICE]
 > Zari didn't realize that…
@@ -112,9 +112,9 @@ Speaker418: Ah, mmm, hola…  Miguel.
 
 [MATCH]
 > Tap the pairs
-- Zari <> Zari
-- Sí <> yes
-- Bien <> fine
-- esta <> this
-- Qué <> what
+- زاري <> Zari
+- نعم <> yes
+- بخير <> fine
+- الساعة <> the watch
+- ماذا <> what
 
