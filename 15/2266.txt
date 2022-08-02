@@ -1,0 +1,104 @@
+[DATA]
+fromLanguageName=A Very Dirty Apartment
+icon=0e6ab8c3a4e3224cb700e8daeac0038f7f0e929e
+set=12|1
+
+[HEADER]
+> Un apartamento~muy~sucio
+~ a  very~dirty~apartment 
+
+[LINE]
+> Bea está en el  apartamento de su~amiga   Marina.
+~ Bea is   in the apartment   of her~friend Marina 
+
+[LINE]
+Speaker507: Hola,  Marina. ¿Cómo~estás? 
+~           hello  Marina   how~are~you 
+
+[LINE]
+Speaker175: ¡Terrible!
+
+[CONTINUATION]
+> What comes   next?
+~ que  you~eat Next 
+Speaker507: Ay, no… Pero ¿[por~qué]?
+~           oh  no  but    why      
+- es su                     amiga 
+~ is his~/~her~/~its~/their friend
+- mi apartamento
+~ my apartment  
++ por      qué 
+~ by~/~for what
+
+[LINE]
+Speaker175: Mi nueva compañera~de~cuarto y   yo siempre discutimos.
+~           my new   roommate            and I  always  argue      
+
+[MULTIPLE_CHOICE]
+> Marina and her roommate argue all the time.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker507: No~estoy sorprendida, la  cocina  está muy  sucia.
+~           I~am~not surprised    the kitchen is   very dirty 
+
+[LINE]
+Speaker175: Sí,  lo~sé. 
+~           yes  I~know 
+
+[LINE]
+Speaker507: Y…   ¿qué  es eso  sobre la  mesa?  ¿Queso~viejo?
+~           and   what is that on    the table   old~cheese  
+
+[LINE]
+Speaker175: Sí,  ¡puaj!
+~           yes   yuck 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: ¡También~hay    ropa~sucia    [sobre~esta~silla]!
+~            there~are~also dirty~clothes  on~this~chair     
++ sobre esta silla
+- sobre esta cita
+- cubre esta silla
+
+[LINE]
+Speaker507: Marina, pero… esta es tu~camisa. 
+~           Marina  but   this is your~shirt 
+
+[LINE]
+Speaker175: Sí. 
+~           yes 
+
+[LINE]
+Speaker507: ¡Esta~es   tu   ropa!   
+~            these~are your clothes 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "yours."
+Speaker507: ¿(Y)   (el)  queso~viejo? ¿(También~es) (+tuyo)? 
+~             and   the  old~cheese     it~is~also    yours  
+
+[LINE]
+Speaker175: Sí,  yo nunca limpio y   mi compañera~de~cuarto siempre~está enojada.
+~           yes  I  never clean  and my roommate            is~always    angry   
+
+[LINE]
+Speaker175: ¡Es    terrible!
+~            it~is terrible 
+
+[MULTIPLE_CHOICE]
+> Ah ha! What do Marina and her roommate argue about?
++ Marina makes a mess and never cleans.
+- Bea likes to eat old cheese.
+- Marina wears all her roommate's clothes.
+
+[MATCH]
+> Tap the pairs
+- lo sé <> I know
+- Sí <> yes
+- Marina <> Marina
+- Esta es <> these are
+- tu <> your
+
