@@ -6,23 +6,28 @@ set=17|4
 [HEADER]
 > Bir Aşk Mektubu
 ~ a   love letter  
+$2382/0d99339a.mp3;3,0;4,144;8,280
 
 [LINE]
 > Zari, kütüphanede Junior'la.
 ~ Zari at~the~library she~is~with~Junior
+$2382/146a335e.mp3;4,0;13,374;9,880
 
 [LINE]
 Speaker418:  Ne yapıyorsun, Junior?
 ~            what you~are~doing   Junior 
+$2382/126fcd66.mp3;2,0;11,162;8,775
 
 [LINE]
 Speaker415: Şey… bir mektup yazıyorum. 
 ~           (umm) a letter I'm~writing
+$2382/18377640.mp3;3,0;5,309;7,343;10,384
 
 [SELECT_PHRASE]
 > Select the missing phrase
 Speaker418: Peki… [Bu mektup kimin için]?
 ~           then  this letter whom for
+$2382/19e90d28.mp3;4,0;4,391;7,466;6,458;5,320
 - Şu mektup senin için
 + Bu mektup kimin için
 - O mektup bizim için
@@ -30,14 +35,17 @@ Speaker418: Peki… [Bu mektup kimin için]?
 [LINE]
 Speaker415: Bir kız için, çok havalı bir kız.
 ~           a girl it's~for very cool a gir
+$2382/1fdd3f2e.mp3;3,0;4,131;5,233;5,256;7,258;4,253;4,94
 
 [LINE]
 Speaker418:  Ah! Bu bir~aşk~mektubu mu? Sınıfından bir~kız mı?  
 ~            oh  this is~a~love~letter [question~word] from~your~class it's~a~girl [question~word]
+$2382/22975308.mp3;2,0;4,195;4,218;4,119;8,343;3,434;12,189;4,1143;4,115;3,282
 
 [LINE]
 Speaker415: Hayır… Şey… O bir~genç.
 ~           no  (umm) she is~a~teenager
+$2382/24e79adc.mp3;5,0;5,376;3,522;4,347;5,133
 
 [MULTIPLE_CHOICE]
 > Junior is writing a love letter for a cool teenage girl.
@@ -47,46 +55,55 @@ Speaker415: Hayır… Şey… O bir~genç.
 [LINE]
 Speaker418:  Bir genç mi? Benim~gibi mi?
 ~            a   teenager [question~word] like~me [question~word]
+$2382/273d2572.mp3;3,0;5,155;3,396;7,171;5,567;3,249
 
 [LINE]
 Speaker415: Evet, ve o benim komşum.  
-~           yes  and she is~my~neighbor 
+~           yes  and she my is~my~neighbor 
+$2382/298a7d98.mp3;4,0;4,326;2,141;6,150;7,232
 
 [POINT_TO_PHRASE]
-> Choose the option that means "neighbor."
+> Choose the option that means "your~neighbor."
 Speaker418: Bir~dakika… (Bu) (kız) bir (genç) ve senin (+komşun) mu?  
 ~           one~minute  this   girl a teenager and your she~is~your~your~neighbor [question~word]
+$2382/35023b84.mp3;3,0;7,142;4,634;4,475;4,274;5,152;3,385;6,108;7,395;3,524
 
 [LINE]
 Speaker415: Şey… evet. 
 ~           (umm)  yes 
+$2382/3bf96976.mp3;3,0;6,298
 
 [LINE]
 Speaker418:  Peki o çok zeki mi?
 ~            then she very is~intelligent [question~word]
+$2382/3e34069c.mp3;4,0;2,304;4,169;5,288;3,384
 
 [LINE]
 Speaker415:  Evet! 
 ~            yes 
+$2382/40709fce.mp3;4,0
 
 [CONTINUATION]
 > What comes next?
 Speaker418: Junior… Bu mektup benim~için mi? Üzgünüm, ama sen   [çok küçüksün].
 ~           Junior  this letter it's~for~me [question~word] I'm~sorry but you very you~are~small~(age)
-+ çok küçük
-~ very small~(age)
-- tu   vecina  
-~ your neighbor
-- una~adolescente
-~ a~teenager     
+$2382/42b7e544.mp3;6,0;4,523;7,466;6,490;5,295;3,318;9,168;5,895;4,281;4,305;9,244
++ çok küçüksün
+~ very you~are~small~(age)
+- çok büyüksün
+~ very you~are~old~(age)
+- çok fazlasın
+~ very you~are~too~much    
 
 [LINE]
-Speaker415: No, no~es    para ti.  ¡Es   para tu~mejor~amiga,   Lily!
-~           no  it's~not for  you   it's for  your~best~friend  Lily 
+Speaker415: Hayır, senin için değil. En~iyi~arkadaşın Lily için!
+~           no  you for it's~not your~best~friend Lily it's~for
+$2382/50acfef0.mp3;5,0;7,338;5,361;6,262;4,264;4,439;10,134;5,563;5,169
 
 [LINE]
-Speaker415: ¿Le~puedes~dar la  carta  a  Lily, por~favor?
-~            you~can~give  the letter to Lily  please    
+Speaker415:  Mektubu Lily'e verir~misin, lütfen?
+~            the~letter to~lily can~you~give please
+$2382/57bbc474.mp3;7,0;6,421;6,276;6,228;8,349
 
 [MULTIPLE_CHOICE]
 > Who was Junior's love letter for?
@@ -96,9 +113,9 @@ Speaker415: ¿Le~puedes~dar la  carta  a  Lily, por~favor?
 
 [MATCH]
 > Tap the pairs
-- eres <> you are
-- tu <> your
-- Qué <> what
-- una <> a
-- Un momento <> one moment
+- sen <> you
+- senin <> your
+- Ne <> what
+- bir <> a
+- Bir dakika <> one minute
 
