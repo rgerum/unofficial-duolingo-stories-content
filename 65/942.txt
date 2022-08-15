@@ -1,7 +1,7 @@
 [DATA]
 fromLanguageName=Surprise!
 icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
-set=&|1
+set=0.5|1
 
 speaker_Speaker414=Maja
 speaker_Speaker414=Jacek
@@ -14,7 +14,7 @@ $942/speech_942_0.mp3;13,6
 
 [LINE]
 > Antoni jest w  restauracji ze   swoją mamą.  
-~ ~   is   in restaurant  with his   mother 
+~ Antoni   is   in restaurant  with his   mother 
 $942/speech_942_1.mp3;6,6;5,424;2,312;12,77;3,671;6,102;5,435
 
 [LINE]
@@ -65,12 +65,12 @@ $942/speech_942_10.mp3;4,6;10,255;6,653;7,354;6,406;10,324;9,688
 
 [LINE]
 Speaker559: Nazywa~się    Zofia.
-~           She~is~called ~     
+~           She~is~called Zofia   
 $942/speech_942_11.mp3;6,6;4,438;6,148
 
 [LINE]
 Speaker385: Mamo, muszę...  
-~           mom   I~need…   
+~           mom   I~need~to…   
 $942/speech_942_12.mp3;4,6;7,641
 
 [LINE]
@@ -106,22 +106,23 @@ $942/speech_942_17.mp3;8,6
 
 [LINE]
 Speaker385: Cześć Karolino, mamo...
-~           hello ~         mom…   
+~           hello Karolina        mom…   
 $942/speech_942_19.mp3;5,6;9,385;6,808
 
 [LINE]
 Speaker125: A   ty  jesteś  pewnie mamą Antoniego!
-~           and you you~are sure   mom  of~Antoni 
+~           and you are    sure   mom  of~Antoni 
 $942/speech_942_20.mp3;1,6;3,78;7,112;7,381;5,364;10,350
 
 [LINE]
 Speaker559: Antoni!?
+~     Antoni
 $942/speech_942_21.mp3;6,6
 
 [SELECT_PHRASE]
 > Select the missing phrase
 Speaker125: [Miło~mi~cię~poznać],      nazywam~się Karolina, jestem żoną Antoniego.
-~            nice~to~meet~you          I~am~called ~         I~am   wife of~Antoni 
+~            nice~to~meet~you          I~am~called Karolina        I~am   wife of~Antoni 
 $942/speech_942_22.mp3;4,6;3,325;4,201;7,229;14,888;4,476;9,162;8,923;5,381;10,360
 - Fajnie cię poznać
 - Dobrze cię poznać
