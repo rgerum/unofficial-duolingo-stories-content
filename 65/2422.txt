@@ -9,7 +9,7 @@ set=11|3
 
 [LINE]
 > Łucja otwiera drzwi swojego mieszkania.
-~ Lucy opens her~apartment's~door        
+~ Lucy opens door of~her apartment      
 
 [LINE]
 Speaker509: Cześć,  Junior!
@@ -17,68 +17,68 @@ Speaker509: Cześć,  Junior!
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker415: Dzień~dobry!  Czy może mi pani pomóc [w~odrabianiu~lekcji?]?    
-~            good~morning you~can~help~me  with~my~homework  
-+ w odrabianiu lekcji
-- jeść coś lekki
-- w mojego domu
+Speaker415: Dzień~dobry!  Czy może mi pani pomóc [w~mojej~pracy~domowej]?    
+~            good~morning (question~marker) cam me you (to)~help with~my~homework  
++ w mojej pracy domowej
+- w mojej ulubionej szkole
+- w moim starym miescie
 
 [LINE]
 Speaker415: Muszę coś napisać.     
-~           I~have~to something (to)~write~(perfective)
+~           I~have~to something (to)~write
 
 [LINE]
 Speaker509: O, tak! 
 ~            oh  yes 
 
 [LINE]
-Speaker509: Bardzo dobrze piszę. Tengo  un blog~muy~popular. 
-~           I  write   very well  I~have a  very~popular~blog 
+Speaker509: Bardzo dobrze piszę. Mam bardzo popularny blog. 
+~           very well I~write   I~have very popular blog 
 
 [ARRANGE]
 > Tap what you hear
 Speaker509: [(Czy)  (czytasz) (mój) (blog)?]
-~              you   read   my   blog   
+~             do you~read   my   blog   
 
 [LINE]
-Speaker415: No.
+Speaker415: Nie.
 ~           no 
 
 [LINE]
-Speaker509: Tengo  muchos libros.
+Speaker509: Mam wiele książek.
 ~           I~have many   books  
 
 [LINE]
-Speaker509: ¿Necesitas mis libros para tu~tarea?     
-~            you~need  my  books  for  your~homework 
+Speaker509: Potrzebujesz moich książek dla pracy~domowej?     
+~            you~need  my  books       for  homework
 
 [CONTINUATION]
 > What's next?
-Speaker415: No, no~necesito  [tus~libros].
+Speaker415: Nie, nie~potrzebuję  [pani~książek].
 ~           no  I~don't~need  your~books  
-- muy  popular
-~ very ~      
-+ tus~libros
-~ your~books
-- su~apartamento
-~ her~apartment 
+- bardzo popularny
+~ very popular     
++ pani książek
+~ your books
+- swojego mieszkania
+~ her apartment 
 
 [LINE]
-Speaker509: ¿Y   sobre~qué~es~tu~tarea?      
-~            and what~is~your~homework~about 
+Speaker509: I o czym jest twoja praca~domowa?      
+~        and about what is your homework 
 
 [LINE]
-Speaker415: Sobre los~dinosaurios.
+Speaker415: O dinozaurach.
 ~           about dinosaurs       
 
 [MULTIPLE_CHOICE]
 > What is Junior's homework about?
 + dinosaurs
-- social media
-- Spanish literature
+- blogs
+- Polish history
 
 [LINE]
-Speaker509: ¿Y   por~qué quieres  mi ayuda?
+Speaker509: Oraz dlaczego chcesz moją pomocę?
 ~            and why     you~want my help  
 
 [LINE]
@@ -86,24 +86,23 @@ Speaker415: Bo pani jest bardzo stara.
 ~           because you are very old   
 
 [LINE]
-Speaker415: Conoces~a muchos dinosaurios, ¿no?   
-~           you~know  many   dinosaurs     right 
+Speaker415: Pani na~pewno zna wiele dinozaurów, tak?   
+~           you surely know  many   dinosaurs   right 
 
 [LINE]
-Speaker509: Adiós, Junior.
+Speaker509: Pa, Junior.
 ~           bye    Junior 
 
 [MULTIPLE_CHOICE]
 > Why did Junior think Lucy knew about dinosaurs?
-+ She is older than him.
-- She used to have a dinosaur as a pet.
++ She is older than he is.
+- She has a lot of books about dinosaurs.
 - She writes a blog about dinosaurs.
 
 [MATCH]
 > Tap the pairs
 - muy <> very
-- Adiós <> bye
-- Lucy <> Lucy
-- muchos <> many
-- Sobre <> about
-
+- pa <> bye
+- dinozaury <> dinosaurs
+- wiele <> many
+- o <> about
