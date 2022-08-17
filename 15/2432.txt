@@ -1,27 +1,27 @@
 [DATA]
-fromLanguageName=Hercules's Funeral
+fromLanguageName=Herkül's Funeral
 icon=d269170970dbcc5a5f80f6ea1ffed7394ae2b584
 set=20|2
 
 [HEADER]
 > Herkül'ün cenazesi
-~ Hércules's funeral    
+~ Herkül's funeral    
 
 [LINE]
-> Lily ve~a Junior. Él está~llorando.
-~ Lily sees Junior  he is~crying     
+> Lily, Junior'ı görür. O ağlıyordur.
+~ Lily Junior sees  he is~crying     
 
 [LINE]
-Speaker416: ¿Junior? ¿Estás~bien?
+Speaker416:  Junior? İyi~misin?
 ~            Junior   you~are~OK 
 
 [LINE]
-Speaker415: ¡No, Hércules murió!
-~            no  Hércules died  
+Speaker415:  Hayır, Herkül öldü!
+~            no  Herkül died  
 
 [LINE]
-Speaker416: ¿Tu~pez~mascota?
-~            your~pet~fish  
+Speaker416:  Evcil~balığın mı?
+~            your~pet~fish [question~word] 
 
 [MULTIPLE_CHOICE]
 > Junior is crying because his dog died.
@@ -29,38 +29,39 @@ Speaker416: ¿Tu~pez~mascota?
 - Yes, that's right.
 
 [LINE]
-Speaker415: ¡Sí,  y   era    tan joven!
-~            yes  and he~was so  young 
+Speaker415:  Evet, o çok gençti!
+~            yes  he very was~young
 
 [LINE]
-Speaker416: Yo te~puedo~ayudar porque  sé     mucho de    funerales.
-~           I  can~help~you    because I~know a~lot about funerals  
+Speaker416: Sana yardım~edebilirim çünkü cenazeler hakkında çok şey biliyorum.
+~           to~you  I~can~help because funerals about a~lot thing I~know
 
 [SELECT_PHRASE]
 > Select the missing phrase
-> Lily y   Junior llevan [al~pez~al~baño].          
-~ Lily and Junior take    the~fish~to~the~bathroom  
-+ al pez al baño
-- al pez al banco
-- tal vez al baño
+> Lily ve Junior [balığı banyoya götürür].          
+~ Lily and Junior the~fish to~the~bathroom they~take 
+$2432/ac69bd08.mp3;4,0;3,254;7,155;7,341;8,329;8,455
++ balığı banyoya götürür
+- balığı salona götürür
+- balığı mutfağa götürür
 
 [LINE]
-Speaker416: Hércules puede~tener un entierro en el  mar.
-~           Hércules can~have    a  burial   at the sea 
+Speaker416: Herkül'ü denize gömebiliriz.
+~           Herkül to~the~sea we~can~bury
 
 [MULTIPLE_CHOICE]
-> Where do Lily and Junior want to give Hércules a burial at sea?
+> Where do Lily and Junior want to give Herkül a burial at sea?
 - in a pool
 - in a pressure cooker
 + in the bathroom
 
 [LINE]
-Speaker416: ¿Quieres  recordar    algunos momentos~felices con  Hércules?
-~            you~want to~remember some    happy~moments    with Hércules 
+Speaker416:  Herkül'le geçirdiğin~zamanı anmak ister~misin?
+~            with~Herkül the~time~you~spent to~remember would~you~like~to
 
 [LINE]
-Speaker415: Mmm… Me~gustaba ver~a~Hércules~nadar.  
-~           hmm  I~liked    to~watch~Hércules~swim 
+Speaker415: Hım… Herkül'ün yüzmesini izlemeyi severdim.  
+~           hmm  Herkül's swimming to~watch I~liked
 
 [MULTIPLE_CHOICE]
 > Did you catch that? Junior liked…
@@ -69,33 +70,33 @@ Speaker415: Mmm… Me~gustaba ver~a~Hércules~nadar.
 - …to play soccer with his fish.
 
 [LINE]
-Speaker415: Y   a~él~le~gustaba~mirar televisión conmigo.
-~           and he~liked~watching     TV         with~me 
+Speaker415: O~da benimle televizyon~izlemeyi severdi.
+~           and~he with~me to~watch~television he~liked
 
 [LINE]
-Speaker415: ¡Y   también~le~gustaban mucho mis canciones!
-~            and he~also~liked       a~lot my  songs     
+Speaker415:  Birçok~şarkımı da severdi!
+~            a~lot~of~my~songs too he~liked  
 
 [LINE]
-Speaker416: Muy  bien, Junior.
-~           very good  Junior 
+Speaker416: Başın~sağ~olsun, Junior.
+~           my~condolences  Junior 
 
 [POINT_TO_PHRASE]
-> Choose the option that means "toilet."
-> Lily (pone~a) (Hércules) (en~el)    (+inodoro).
-~ Lily  puts     Hércules   into~the    toilet   
+> Choose the option that means "to~the~toilet."
+> Lily (Herkül'ü) (+tuvalete) (koyar).
+~ Lily  Herkül to~the~toilet puts 
 
 [LINE]
-Speaker416: ¿Estás   listo para~decir      adiós?  
-~            you~are ready in~order~to~say goodbye 
+Speaker416:  Veda~etmeye hazır~mısın?  
+~            to~say~goodbye are~you~ready
 
 [LINE]
-> Hércules comienza~a~nadar.
-~ Hércules starts~swimming  
+> Herkül yüzmeye başlar.
+~ Herkül to~swim starts
 
 [LINE]
-Speaker415: ¡Hércules!
-~            Hércules 
+Speaker415:  Herkül!
+~            Herkül
 
 [LINE]
 Speaker416: Eh… el  pez  está vivo. 
