@@ -13,11 +13,11 @@ set=4|3
 
 [LINE]
 Speaker416: مرحبا هل تريد مساعدة؟
-~           hello   you~need help  
+~           hello do you~need help 
 
 [LINE]
-Speaker509: Sí,  necesito ropa    para mis vacaciones.
-~           yes  I~need   clothes for  my  vacation   
+Speaker509: نعم أحتاج~إلى ملابس لعطلتي
+~           yes  I~need  clothes for~my~vacation  
 
 [MULTIPLE_CHOICE]
 > Lucy is shopping for clothes for a vacation.
@@ -25,15 +25,15 @@ Speaker509: Sí,  necesito ropa    para mis vacaciones.
 + Yes, that's right.
 
 [LINE]
-Speaker416: Está~bien.
+Speaker416: حسناً
 ~           OK        
 
 [LINE]
-Speaker509: Necesito un vestido.
-~           I~need   a  dress   
+Speaker509: أريد ملابس
+~           I~need dress
 
 [LINE]
-> Lily busca     un vestido~verde.
+> ليلي تبحث عن فستان أخضر
 ~ Lily looks~for a  green~dress   
 
 [MULTIPLE_CHOICE]
@@ -43,20 +43,20 @@ Speaker509: Necesito un vestido.
 - …green hat.
 
 [LINE]
-Speaker509: ¡No, yo quiero un vestido~rojo!
-~            no  I  want   a  red~dress    
+Speaker509: لا أريد فستان عن أحمر
+~            no i want dress red   
 
 [LINE]
-> Lily busca     un vestido~rojo.
+> ليلي تبحث عن فستان أحمر
 ~ Lily looks~for a  red~dress    
 
 [LINE]
-Speaker509: Y   quiero una chaqueta.
+Speaker509: و أنيد سترة
 ~           and I~want a   jacket   
 
 [ARRANGE]
 > Tap what you hear
-> [(Lily) (busca)     (una) (chaqueta~roja).]
+> [(ليلي) (تبحث) (عن) (سترة) (أحمر)]
 ~   Lily   looks~for   a     red~jacket      
 
 [LINE]
