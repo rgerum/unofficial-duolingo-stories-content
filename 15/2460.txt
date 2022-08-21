@@ -1,0 +1,104 @@
+[DATA]
+fromLanguageName=The Seat Is Yours!
+icon=cd2e97ba5e87d05c1e69dd805c067ece32ea89d5
+set=21|2
+
+[HEADER]
+> ¡El  asiento es tuyo! 
+~  the seat    is yours 
+
+[LINE]
+> Óscar y   Eddy están en el  autobús.
+~ Óscar and Eddy are   on the bus     
+
+[LINE]
+Speaker414: Estoy muy  cansado.
+~           I~am  very tired   
+
+[LINE]
+Speaker592: Sí,  yo~también.
+~           yes  me~too     
+
+[LINE]
+Speaker592: Ah… solo~hay      un  asiento.
+~           oh  there~is~just one seat    
+
+[LINE]
+Speaker414: Es   tuyo,  tú  eres más~viejo.
+~           it's yours  you are  older     
+
+[MULTIPLE_CHOICE]
+> Eddy tells Óscar to take the last bus seat.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker592: ¿Perdón?    Yo~solo~tengo tres~años~más~    que  tú. 
+~            excuse~me  I~am~just     three~years~older than you 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "gray hair."
+Speaker414: (Sí),  (pero) tú  (tienes) (+canas).    
+~            yes    but   you  have      gray~hair  
+
+[LINE]
+Speaker592: ¡Tú  también tienes canas,     Eddy!
+~            you also    have   gray~hair  Eddy 
+
+[LINE]
+Speaker414: ¡¿Qué?!  ¿Dónde?
+~             what    where 
+
+[CONTINUATION]
+> What comes next?
+Speaker592: El  asiento es tuyo,  Eddy. Tú  estás [muy  cansado].
+~           the seat    is yours  Eddy  you are    very tired    
++ muy  cansado
+~ very tired  
+- en mi~asiento
+~ in mi~seat   
+- con  muchas   canas    
+~ with a~lot~of gray~hair
+
+[LINE]
+Speaker414: ¡No, yo tengo mucha    energía!
+~            no  I  have  a~lot~of energy  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: [Voy~a~correr] todos~los~días.
+~            I~go~running  every~day      
+- Doy de comer
++ Voy a correr
+- Voy a cocer
+
+[LINE]
+Speaker592: ¿Ves? Estás   cansado porque  vas~a~correr   todos~los~días. El  asiento es tuyo. 
+~            see  you~are tired   because you~go~running every~day       the seat    is yours 
+
+[LINE]
+Speaker414: ¡No, Óscar! ¡Es   tuyo! 
+~            no  Óscar   it's yours 
+
+[LINE]
+> Un chico se~sube~al  autobús.
+~ a  boy   gets~on~the bus     
+
+[LINE]
+Speaker1649: ¡Excelente, un asiento para mí!
+~             excellent  a  seat    for  me 
+
+[MULTIPLE_CHOICE]
+> Why didn't Eddy or Óscar take the seat? 
+- They wanted the boy to have it.
++ They were both too stubborn to sit down.
+- It was too dirty.
+
+[MATCH]
+> Tap the pairs
+- tuyo <> yours
+- vas a correr <> you go running
+- autobús <> bus
+- asiento <> seat
+- Dónde <> where
+
