@@ -1,0 +1,149 @@
+[DATA]
+fromLanguageName=This Tastes Strange
+icon=2af10d537225ca8ebd8d85b0d77cdc2dc60ebb71
+set=27|4
+
+[HEADER]
+> Esto sabe   raro   
+~ this tastes strange
+
+[LINE]
+> Eddy se~está~comiendo algo      que  encontró en el  refrigerador.
+~ Eddy is~eating        something that he~found in the fridge       
+
+[LINE]
+Speaker414: ¿Junior? Este postre  sabe   raro.   
+~            Junior  this dessert tastes strange 
+
+[LINE]
+Speaker415: ¿Qué  postre? 
+~            what dessert 
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(El)  (postre)  (que)  (estaba) (en~el~refrigerador).]
+~             the   dessert   that   was      in~the~fridge        
+
+[LINE]
+Speaker415: No~es       un postre,  es   mi experimento para la~clase~de~ciencias.
+~           that~is~not a  dessert  it's my experiment  for  science~class        
+
+[LINE]
+Speaker414: Ah, ya~entiendo      por~qué era    tan verde.
+~           oh  now~I~understand why     it~was so  green 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: ¿[Cuándo~lo~pusiste]   en el  refrigerador?
+~             when~did~you~put~it  in the fridge       
+- Cuánto le pusiste
++ Cuándo lo pusiste
+- Cuando no pudiste
+
+[LINE]
+Speaker415: En noviembre.
+~           in November  
+
+[LINE]
+Speaker414: Estamos en marzo.
+~           we~are  in March 
+
+[LINE]
+Speaker414: No~me~siento bien.
+~           I~don't~feel well 
+
+[MULTIPLE_CHOICE]
+> Eddy feels great.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker415: ¿Qué~pasa?       
+~            what's~going~on 
+
+[LINE]
+Speaker414: Me~duele~el~estómago…
+~           my~stomach~hurts     
+
+[CONTINUATION]
+> What comes next?
+Speaker415: Mmm. ¿Te~duele si te~toco [el~estómago  aquí]?
+~           hmm   it~hurts if I~touch  your~stomach here  
+- el  refrigerador
+~ the fridge      
+- en marzo
+~ in March
++ el~estómago  aquí
+~ your~stomach here
+
+[LINE]
+Speaker414: No.
+~           no 
+
+[LINE]
+Speaker415: ¿Y   si te~toco     aquí?
+~            and if I~touch~you here 
+
+[LINE]
+Speaker414: ¡Ay!  
+~            ouch 
+
+[LINE]
+Speaker415: Interesante…
+~           interesting 
+
+[LINE]
+Speaker415: ¿Qué  más  sientes? 
+~            what else you~feel 
+
+[LINE]
+Speaker414: Siento~mucho~frío. ¿Crees     que  debería~ir  al     hospital?
+~           I~am~very~cold      you~think that I~should~go to~the hospital 
+
+[LINE]
+Speaker415: A~lo~mejor. ¿Sientes  algo      más? 
+~           maybe        you~feel something else 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "wet."
+Speaker414: Tengo~la~boca~seca. (Ahora) (la~tengo) (+húmeda). ¡Y   (ahora) seca otra~vez!
+~           my~mouth~is~dry      now     it~is       wet       and  now    dry  again    
+
+[LINE]
+Speaker414: ¿Tengo~la~cara~azul?
+~            my~face~is~blue    
+
+[LINE]
+Speaker415: ¡Sí!  ¡Genial!
+~            yes   great  
+
+[LINE]
+Speaker414: Creo    que  me~estoy~muriendo. Voy~a~acostarme.      
+~           I~think that I~am~dying         I'm~going~to~lie~down 
+
+[LINE]
+Speaker415: ¡Espera! ¡Tengo~que~escribir todo       en mi cuaderno!
+~            wait     I~have~to~write    everything in my notebook 
+
+[LINE]
+Speaker414: ¿Para decírselo al     médico?
+~            to   tell~it   to~the doctor 
+
+[LINE]
+Speaker415: No, ¡para decírselo a  mi maestra! ¡Eres    mi nuevo experimento~de~ciencias!
+~           no   to   tell~it   to my teacher   you~are my new   science~experiment      
+
+[MULTIPLE_CHOICE]
+> How did Eddy become Junior's new science project?
+- His skin turned blue in the shower.
++ He got sick after eating Junior's old science project.
+- He sat in the fridge for several months.
+
+[MATCH]
+> Tap the pairs
+- Este <> this
+- sabe <> tastes
+- sientes <> you feel
+- verde <> green
+- algo <> something
+
