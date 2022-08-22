@@ -4,61 +4,62 @@ icon=cd2e97ba5e87d05c1e69dd805c067ece32ea89d5
 set=21|2
 
 [HEADER]
-> ¡El  asiento es tuyo! 
-~  the seat    is yours 
+> Koltuk Seninki! 
+~  the~seat   (is)~yours 
 
 [LINE]
-> Óscar y   Eddy están en el  autobús.
-~ Óscar and Eddy are   on the bus     
+> Oscar ve  Eddy otobüstelerdir.
+~ Oscar and Eddy are~on~the~bus     
 
 [LINE]
-Speaker414: Estoy muy  cansado.
-~           I~am  very tired   
+Speaker414: Çok yorgunum.
+~           very I~am~tired 
 
 [LINE]
-Speaker592: Sí,  yo~también.
+Speaker592: Evet, ben~de.
 ~           yes  me~too     
 
 [LINE]
-Speaker592: Ah… solo~hay      un  asiento.
-~           oh  there~is~just one seat    
+Speaker592: Ah… sadece bir koltuk var.
+~           oh  only one seat there~is
 
 [LINE]
-Speaker414: Es   tuyo,  tú  eres más~viejo.
-~           it's yours  you are  older     
+Speaker414: Bu, seninki çünkü yaş~büyüksün.
+~         this (is)~yours because you~are~older    
 
 [MULTIPLE_CHOICE]
-> Eddy tells Óscar to take the last bus seat.
+> Eddy tells Oscar to take the last bus seat.
 - No, that's wrong.
 + Yes, that's right.
 
 [LINE]
-Speaker592: ¿Perdón?    Yo~solo~tengo tres~años~más~    que  tú. 
-~            excuse~me  I~am~just     three~years~older than you 
+Speaker592: Pardon? Senden sadece üç~yaş~büyüğüm. 
+~         excuse~me than~you just I~am~three~years~older
 
 [POINT_TO_PHRASE]
-> Choose the option that means "gray hair."
-Speaker414: (Sí),  (pero) tú  (tienes) (+canas).    
-~            yes    but   you  have      gray~hair  
+> Choose the option that means *************"gray hair."
+Speaker414: (Evet),  (ama)  (saçların) (+beyazlamış).    
+~            yes    but   your~hair   went~white  
 
 [LINE]
-Speaker592: ¡Tú  también tienes canas,     Eddy!
-~            you also    have   gray~hair  Eddy 
+Speaker592: Senin saçların de beyazlamış, Eddy!
+~            your~hair also  went~white  Eddy 
 
 [LINE]
-Speaker414: ¡¿Qué?!  ¿Dónde?
-~             what    where 
+Speaker414: Ne?!  Nerede?
+~           what    where 
 
 [CONTINUATION]
 > What comes next?
-Speaker592: El  asiento es tuyo,  Eddy. Tú  estás [muy  cansado].
-~           the seat    is yours  Eddy  you are    very tired    
-+ muy  cansado
-~ very tired  
-- en mi~asiento
-~ in mi~seat   
-- con  muchas   canas    
-~ with a~lot~of gray~hair
+Speaker592: Koltuk seninki,  Eddy. Sen [çok yorgunsun].
+~          the~seat (is)~yours Eddy you very you~are~tired   
+
++ çok yorgunsun
+~ very you~are~tired  
+- çok you~are~mutlusun
+~ very happy
+- çok beyazlamışsın    
+~ very you~went~white
 
 [LINE]
 Speaker414: ¡No, yo tengo mucha    energía!
