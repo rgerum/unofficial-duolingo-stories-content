@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=Me duele la pierna
+icon=e03c9c686e0856f66bc51a3f912c8be470a7f18b
+set=31|1
+
+[HEADER]
+> My~Leg~Hurts      
+~ me~duele~la~pierna
+
+[LINE]
+> Bea opens her~front~door.       She  sees Eddy standing on    one leg.   
+~ Bea abre  la~puerta~de~su~casa  ella ve~a Eddy de~pie   sobre una pierna 
+
+[LINE]
+Speaker414: My~leg~hurts.       Can~you~drive~me to the doctor's~office?   
+~           me~duele~la~pierna  me~puedes~llevar a  la  clínica~del~doctor 
+
+[LINE]
+Speaker507: Sure!        
+~           por~supuesto 
+
+[SELECT_PHRASE]
+> Completa la oración
+> Bea and Eddy [get~in~Bea's~car].        
+~ Bea y   Eddy  se~suben~al~carro~de~Bea  
+- get on Bea's bar
++ get in Bea's car
+- quit in Bea's car
+
+[LINE]
+Speaker414: Wait!   I~forgot to~pick~up~Junior~from school.     Can~we~go  there?
+~           espera  olvidé   recoger~a~Junior~en    la~escuela  podemos~ir ahí   
+
+[LINE]
+Speaker507: Of~course.   
+~           por~supuesto 
+
+[MULTIPLE_CHOICE]
+> ¿Adónde necesitan ir primero Bea y Eddy?
+- a la panadería
++ a la escuela de Junior
+- a la tienda de piernas
+
+[LINE]
+> Bea and Eddy pick~up~Junior~from school.    
+~ Bea y   Eddy recogen~a~Junior~en la~escuela 
+
+[LINE]
+Speaker414: Can~we~also~go     to the post~office?       
+~           también~podemos~ir a  la  oficina~de~correos 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker507: But  [you~hurt~your~leg],       remember? 
+~           pero  te~lastimaste~la~pierna   recuerdas 
+- you heard a wreck
++ you hurt your leg
+- who hurt her leg
+
+[LINE]
+Speaker414: I  need     your help  to~pick~up   a  large~package. 
+~           yo necesito tu   ayuda para~recoger un paquete~grande 
+
+[LINE]
+Speaker507: Ugh, fine.     
+~           ah   está~bien 
+
+[LINE]
+Speaker415: Look!  There's~no line at Benny's~Burgers!
+~           miren  no~hay     cola en Benny's~Burgers 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+> [(Junior) (points~at) (a)  (restaurant).] 
+~   Junior   señala      un   restaurante   
+
+[LINE]
+Speaker414: Their burgers      are amazing,    but  the line is~always  so  long!  Let's~go!
+~           sus   hamburguesas son increíbles  pero la  cola siempre~es tan larga  vamos    
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker507: But  you need      to~see [a    doctor]!
+~           pero tú  necesitas ver     a~un doctor  
+- this movie   
+~ esta película
++ a    doctor
+~ a~un doctor
+- your date
+~ a~tu cita
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "milagro".
+Speaker415: But  (there's~no) (line)! (It's) a  (+miracle)!
+~           pero  no~hay       cola    es    un   milagro  
+
+[LINE]
+> Later,     Eddy, Junior, and Bea are   in the restaurant. 
+~ más~tarde  Eddy  Junior  y   Bea están en el  restaurante 
+
+[LINE]
+Speaker507: Wow,  that burger      was    amazing.  
+~           guau  esa  hamburguesa estaba increíble 
+
+[LINE]
+Speaker414: Yeah, but  we       should~go     to the doctor's~office    now.  
+~           sí    pero nosotros deberíamos~ir a  la  clínica~del~doctor ahora 
+
+[LINE]
+Speaker507: Does~your~leg~still~hurt?  
+~           todavía~te~duele~la~pierna 
+
+[LINE]
+Speaker414: No, my~stomach~hurts~now.       I  think    I~ate too~many   burgers.     
+~           no  ahora~me~duele~el~estómago  yo creo~que comí  demasiadas hamburguesas 
+
+[MULTIPLE_CHOICE]
+> A Eddy ya no le duele la pierna, pero ahora…
++ … le duele el estómago.
+- … él necesita una ducha.
+- … Bea se lastimó la pierna.
+
+[MATCH]
+> Selecciona los pares
+- remember <> recuerdas
+- help <> ayuda
+- Eddy <> Eddy
+- amazing <> increíbles
+- Junior <> Junior
+
