@@ -1,0 +1,104 @@
+[DATA]
+fromLanguageName=Un apartamento sucio
+icon=0e6ab8c3a4e3224cb700e8daeac0038f7f0e929e
+set=12|1
+
+[HEADER]
+> Dirty~Apartment     
+~ un~apartamento~sucio
+
+[LINE]
+> Bea goes to~her~friend~Sarah's~apartment. 
+~ Bea va   al~apartamento~de~su~amiga~Sarah 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker507: Hi,   Sarah, [how~are~you]?
+~           hola  Sarah   cómo~estás   
++ how are you
+- how were two
+- now are you
+
+[LINE]
+Speaker175: I'm   terrible!
+~           estoy terrible 
+
+[LINE]
+Speaker507: Oh, no. Why?    
+~           ah  no  por~qué 
+
+[LINE]
+Speaker175: My new   roommate                and I  always  argue      a~lot.
+~           mi nueva compañera~de~habitación y   yo siempre discutimos mucho 
+
+[MULTIPLE_CHOICE]
+> Sarah se siente muy mal porque…
++  … ella discute mucho con su compañera de cuarto.
+- … ella llegó muy tarde la noche anterior.
+- … ella es alérgica al gato de su compañera de cuarto.
+
+[LINE]
+Speaker507: I'm~not  surprised!   This kitchen is   very dirty.
+~           no~estoy sorprendida  esta cocina  está muy  sucia 
+
+[LINE]
+Speaker175: Ugh, I~know.
+~           agh  lo~sé  
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker507: And there's old~cheese     [on that table].
+~           y   hay     un~queso~viejo  en esa  mesa   
+- at the supermarket 
+~ en el  supermercado
++ on that table
+~ en esa  mesa 
+- on your head  
+~ en tu   cabeza
+
+[LINE]
+Speaker175: Yes. Yuck!   
+~           sí   guácala 
+
+[LINE]
+Speaker507: And there~are dirty~clothes on this chair!
+~           y   hay       ropa~sucia    en esta silla 
+
+[LINE]
+Speaker507: Wait…   this is your shirt. 
+~           espera  esta es tu   camisa 
+
+[LINE]
+Speaker175: Yes.
+~           sí  
+
+[LINE]
+Speaker507: These~are~all~your~clothes!
+~           toda~esta~ropa~es~tuya     
+
+[LINE]
+Speaker507: Is~that your old~cheese,  too?!    
+~           ese~es  tu   queso~viejo  también  
+
+[LINE]
+Speaker175: Yes! I  never clean,  and my roommate                always  complains!
+~           sí   yo nunca limpio  y   mi compañera~de~habitación siempre se~queja  
+
+[LINE]
+Speaker175: She's   terrible!
+~           ella~es terrible 
+
+[MULTIPLE_CHOICE]
+> ¡Ajá! ¿Por qué Sarah y su compañera de cuarto discuten?
++ Sarah ensucia y nunca limpia.
+- A Bea le gusta comer queso viejo.
+- Sarah usa toda la ropa de su compañera de cuarto.
+
+[MATCH]
+> Selecciona los pares
+- is <> está
+- I know <> lo sé
+- My <> mi
+- Bea <> Bea
+- how are you <> cómo estás
+
