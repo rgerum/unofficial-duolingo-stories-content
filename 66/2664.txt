@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=¿Quién viene a cenar?
+icon=dc357430b977e970c350bd02c026ab07731f28f3
+set=32|3
+
+[HEADER]
+> Who's~Coming to~Dinner?
+~ quién~viene  a~cenar   
+
+[LINE]
+> Lucy is~making     soup. Lin comes~into the kitchen.
+~ Lucy está~haciendo sopa  Lin entra~a    la  cocina  
+
+[LINE]
+Speaker509: Guess   who's~coming to~dinner tonight?   
+~           adivina quién~viene  a~cenar   esta~noche 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker508: Well,  you're~making  your [famous~fish~soup],       so      it's~probably    someone special. 
+~           bueno  estás~haciendo tu    famosa~sopa~de~pescado   así~que probablemente~es alguien especial 
++ famous fish soup
+- favorite fish suit
+- famous wish soup
+
+[LINE]
+Speaker509: Yes! It's someone very special. 
+~           sí   es   alguien muy  especial 
+
+[LINE]
+Speaker508: Is your friend, the famous~actress, coming       to~dinner?
+~           es tu   amiga   la  actriz~famosa   la~que~viene a~cenar   
+
+[LINE]
+Speaker509: No, she's~working        on a   film     right~now.  
+~           no  ella~está~trabajando en una película ahora~mismo 
+
+[MULTIPLE_CHOICE]
+> La actriz famosa vendrá a cenar.
+- Sí, así es.
++ No, no es así.
+
+[LINE]
+Speaker509: It's someone more important.  You can't~wear     pajamas!
+~           es   alguien más  importante  tú  no~puedes~usar pijama  
+
+[LINE]
+Speaker508: Oh, really?    Alright,  I'll~wear something~else!  
+~           ah  de~verdad  muy~bien  usaré     alguna~otra~cosa 
+
+[MULTIPLE_CHOICE]
+> Mmm… parece que ahora Lin está usando…
+- … un vestido precioso.
+- … un traje de baño.
++ … su pijama.
+
+[LINE]
+> Lin goes to her room       and puts~on a   shirt  and jeans.
+~ Lin va   a  su  habitación y   se~pone una camisa y   jeans 
+
+[LINE]
+Speaker508: So,       is~it your friend, Victor?! Is~he~back from taking photos of wild~horses           in Argentina?
+~           entonces  es    tu   amigo   Victor   ya~regresó de   tomar  fotos  de los~caballos~salvajes en Argentina 
+
+[LINE]
+Speaker509: No, he's~photographing    lions  in India now.  
+~           no  el~está~fotografiando leones en India ahora 
+
+[LINE]
+Speaker508: Is~it the astronaut  you~worked~with?         
+~           es    el  astronauta con~el~que~tú~trabajaste 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker509: No, [he's~getting~ready]    to~go   to Mars. 
+~           no   él~se~está~preparando  para~ir a  Marte 
+- his bed is ready
++ he's getting ready
+- he's getting lettuce
+
+[LINE]
+Speaker508: Wait…   Is this a   date for  me, Grandma?
+~           espera  es esta una cita para mí  abuela  
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker508: [(I)  (don't~need)  (help)  (with) (dating).]
+~             yo   no~necesito   ayuda   con    citas    
+
+[LINE]
+Speaker509: Of~course        not!
+~           por~supuesto~que no  
+
+[LINE]
+> Someone knocks~on the door.   It's Lucy's~friend,    Frank.
+~ alguien toca~a    la  puerta  es   el~amigo~de~Lucy  Frank 
+
+[LINE]
+Speaker509: Lin, this is Frank. He helps   people   with their resumes.    
+~           Lin  este es Frank  él ayuda~a la~gente con  sus   currículums 
+
+[LINE]
+Speaker113: Hi,   Lin! Your grandma really    wanted~us~to~meet.          
+~           hola  Lin  tu   abuela  de~verdad quería~que~nos~conociéramos 
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker113: She  said that [you need      to~find   a  job].    
+~           ella dijo que   tú  necesitas encontrar un trabajo  
+- you live  on Mars 
+~ tú  vives en Marte
++ you need      to~find   a  job    
+~ tú  necesitas encontrar un trabajo
+- you have   a  pet~fish   
+~ tú  tienes un pez~mascota
+
+[LINE]
+Speaker508: Ugh, I'm~going~to~put    my pajamas back~on.   
+~           ah   me~voy~a~ir~a~poner mi pijama  de~regreso 
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Lin se va a poner otra vez su pijama?
+- Su pijama la hace parecer un astronauta.
+- Ella quiere verse bonita para su cita.
++ El invitado solo vino a ayudarla a encontrar un trabajo.
+
+[MATCH]
+> Selecciona los pares
+- It's <> es
+- You <> tú
+- and <> y
+- knocks on <> toca a
+- Argentina <> Argentina
+
