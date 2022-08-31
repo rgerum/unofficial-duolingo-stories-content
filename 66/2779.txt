@@ -1,0 +1,190 @@
+[DATA]
+fromLanguageName=¡Llamen a un doctor!
+icon=c92c412287a69a673eeae5639f07af4c004bb634
+set=61|2
+
+[HEADER]
+> Call     a  Doctor!
+~ llamen~a un doctor 
+
+[LINE]
+> Eddy is~jogging    in the neighborhood. Suddenly,   he falls  and hurts~his~ankle.      
+~ Eddy está~trotando en el  barrio        de~repente  él se~cae y   se~lastima~el~tobillo 
+
+[LINE]
+Speaker414: Ow!
+~           ay 
+
+[POINT_TO_PHRASE]
+> Choose     the option that means     "bata de laboratorio blanca."
+~ selecciona la  opción que  significa  ~    ~  ~           ~       
+> (A)  (man~in~a)                   (+white~lab~coat)             (walks~quickly~past~him).    
+~  un   hombre~que~está~usando~una    bata~de~laboratorio~blanca   pasa~caminando~rápidamente  
+
+[LINE]
+Speaker414: Hey! Doctor! Doctor!
+~           ey   doctor  doctor 
+
+[LINE]
+Speaker385: Who,   me?
+~           quién  yo 
+
+[LINE]
+Speaker414: Yes, can~you~help~me?
+~           sí   puede~ayudarme  
+
+[LINE]
+Speaker385: I'm~actually~late,         I  need     to~go to~work.   
+~           en~realidad~voy~retrasado  yo necesito ir    al~trabajo 
+
+[CONTINUATION]
+> What comes~next?
+~ qué  sigue      
+Speaker414: But  my~ankle~hurts~a~lot.      Please    [help~me]!
+~           pero me~duele~mucho~el~tobillo  por~favor  ayúdeme  
+- go   to~work   
+~ vaya al~trabajo
++ help~me
+~ ayúdeme
+- dance with~me
+~ baile conmigo
+
+[LINE]
+Speaker385: Well…  OK.       
+~           bueno  está~bien 
+
+[LINE]
+Speaker385: I'll~just~take~off your shoe…  
+~           solo~quitaré       su   zapato 
+
+[LINE]
+Speaker385: Wow!  This looks bad!
+~           guau  esto se~ve mal 
+
+[LINE]
+Speaker414: Oh, no. What's~wrong?       
+~           ay  no  cuál~es~el~problema 
+
+[POINT_TO_PHRASE]
+> Choose     the option that means     "uñas de los pies."
+~ selecciona la  opción que  significa  ~    ~  ~   ~     
+Speaker385: You   (really)    (need)     (to~cut~your) (+toenails)!            
+~           usted  de~verdad   necesita   cortarse       las~uñas~de~los~pies  
+
+[LINE]
+Speaker385: But  let~me~look~at your ankle.   Hm.  I'm~going~to~try to~move~it.
+~           pero déjeme~ver     su   tobillo  mmm  voy~a~intentar   moverlo    
+
+[LINE]
+Speaker414: What? No|—Ow!
+~           qué   no  ay 
+
+[LINE]
+Speaker385: OK,        that was a   bad  idea. Did~it~hurt?
+~           está~bien  esa  fue una mala idea  le~dolió    
+
+[LINE]
+Speaker414: Yes!
+~           sí  
+
+[MULTIPLE_CHOICE]
+> Hmm… what did~the~man~do that hurt      Eddy?
+~ mmm  qué  hizo~el~hombre que  lastimó~a Eddy 
+- He cut      his~toenails.        
+~ él le~cortó las~uñas~de~los~pies 
+- He stepped~on Eddy's~foot.   
+~ él pisó       el~pie~de~Eddy 
++ He moved Eddy's~ankle.      
+~ él movió el~tobillo~de~Eddy 
+
+[LINE]
+Speaker385: Oops. Hmm. Maybe      I  can~make    a   bandage.
+~           ups   mmm  a~lo~mejor yo puedo~hacer una venda   
+
+[LINE]
+> He tears   a  piece  of Eddy's~shirt.     
+~ él arranca un pedazo de la~camisa~de~Eddy 
+
+[LINE]
+Speaker414: Hey! My shirt! 
+~           ey   mi camisa 
+
+[LINE]
+Speaker385: I  need~it     to~make    a   bandage. I'm~going~to~put~it around       your ankle.  
+~           yo la~necesito para~hacer una venda    voy~a~ponerla       alrededor~de su   tobillo 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker414: Ow! [That's~too~tight]!           
+~           ay   eso~está~demasiado~apretado  
+- Hats too light
++ That's too tight
+- That's a light
+
+[LINE]
+Speaker385: If you're~going~to~complain about     everything, I'm~not~going~to~help~you.
+~           si va~a~quejarse            acerca~de todo        no~voy~a~ayudarlo         
+
+[LINE]
+Speaker414: What? Don't~doctors~have~to~help          people       when   they're hurt?   
+~           qué   los~doctores~no~tienen~que~ayudar~a las~personas cuando están   heridas 
+
+[LINE]
+Speaker385: I  don't~know, I'm~not~a doctor.
+~           yo no~sé       no~soy    doctor 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker414: [(You)   (said)     (you~were~a) (doctor).]
+~             usted   dijo~que   era          doctor   
+
+[LINE]
+Speaker385: No, I~didn't.       I'm~an actor.
+~           no  yo~no~dije~eso  soy    actor 
+
+[LINE]
+Speaker414: Why     are~you~wearing a   lab~coat?           
+~           por~qué lleva~puesta    una bata~de~laboratorio 
+
+[LINE]
+Speaker385: I'm a  doctor on a  TV~show,                and I'm~wearing  my costume.
+~           soy un doctor en un programa~de~televisión  y   llevo~puesto mi disfraz 
+
+[LINE]
+Speaker414: Wait,   I've~seen~you  on the TV~show                you're~on!            My son  and I  watch~it!  
+~           espere  yo~lo~he~visto en el  programa~de~televisión en~el~que~usted~sale  mi hijo y   yo lo~miramos 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker414: I  know how  you   can~help~me       [feel~better]…   
+~           yo sé   cómo usted me~puede~ayudar~a  sentirme~mejor  
++ feel better
+- fill it better
+- feel wetter
+
+[LINE]
+Speaker385: How? 
+~           cómo 
+
+[LINE]
+Speaker414: You   can~take      a   picture with~me for  my son! 
+~           usted puede~tomarse una foto    conmigo para mi hijo 
+
+[MULTIPLE_CHOICE]
+> Why     wasn't~the~man~able to~help    Eddy's~ankle?      
+~ por~qué el~hombre~no~pudo   ayudar~con el~tobillo~de~Eddy 
++ He was~actually    an actor, not a  doctor.
+~ él en~realidad~era un actor  no  un doctor 
+- Eddy decided     he didn't~want help. 
+~ Eddy decidió~que él no~quería   ayuda 
+- Eddy's~ankle       was    hurt~too~badly.
+~ el~tobillo~de~Eddy estaba muy~lastimado  
+
+[MATCH]
+> Selecciona los pares
+- I didn't <> yo no dije eso
+- I've seen you <> yo lo he visto
+- Did it hurt <> le dolió
+- neighborhood <> barrio
+- Please <> por favor
+
