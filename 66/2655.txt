@@ -1,0 +1,159 @@
+[DATA]
+fromLanguageName=Pidiendo direcciones
+icon=0699ccdd9abbb4922a33be28cf6143a530843cc1
+set=30|2
+
+[HEADER]
+> Asking~for Directions 
+~ pidiendo   direcciones
+
+[LINE]
+> Lin and Bea are~looking~for a  restaurant  in a  small~town.
+~ Lin y   Bea están~buscando  un restaurante en un pueblito   
+
+[LINE]
+Speaker507: I'm   tired   of walking, and I'm   really hungry!    
+~           estoy cansada de caminar  y   estoy muy    hambrienta 
+
+[LINE]
+Speaker508: I  think    it's somewhere      in this area.
+~           yo creo~que está en~algún~lugar en esta zona 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker508: Everyone      says     [their~food~is~amazing]. 
+~           todo~el~mundo dice~que  su~comida~es~increíble  
+- your mood is amazing
++ their food is amazing
+- their food is so lazy
+
+[LINE]
+Speaker507: We       need        to~ask~for directions. 
+~           nosotras necesitamos pedir      direcciones 
+
+[LINE]
+> They  stop    a   woman on the street.
+~ ellas paran~a una mujer en la  calle  
+
+[LINE]
+Speaker507: Can~you~please~give~us  directions  to~Cecil's~Restaurant?           
+~           podría~por~favor~darnos direcciones para~llegar~al~Restaurante~Cecil 
+
+[LINE]
+Speaker1187: Sure!         Turn      left      at~the end   of this street.
+~            por~supuesto  gire~a~la izquierda al     final de esta calle  
+
+[LINE]
+Speaker1187: Then,     you   will~see a  very~attractive~man  sitting in~front of a   red~house. Turn      right     there.
+~            entonces  usted verá~a   un hombre~muy~atractivo sentado enfrente de una casa~roja  gire~a~la izquierda ahí   
+
+[MULTIPLE_CHOICE]
+> ¿Dónde tienen que girar a la derecha Lin y Bea?
+- donde está el hombre espantoso frente a la casa azul
+- donde está el restaurante al final de la calle
++ donde está el hombre guapísimo frente a la casa roja
+
+[LINE]
+Speaker508: Thanks. 
+~           gracias 
+
+[LINE]
+> They  turn       left.     
+~ ellas giran~a~la izquierda 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+> [(They)  (walk~down)   (the~street) (for) (fifteen~minutes).]
+~   ellas   caminan~por   la~calle     por   quince~minutos    
+
+[LINE]
+> Finally,    they  see   a  man    sitting outside of a   red~house.
+~ finalmente  ellas ven~a un hombre sentado afuera  de una casa~roja 
+
+[LINE]
+Speaker508: Is~that the man?   
+~           ese~es  el  hombre 
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker507: No, she  said     he was [very attractive].
+~           no  ella dijo~que él era  muy  atractivo   
+- really hungry    
+~ muy    hambriento
++ very attracive
+~ muy  atractivo
+- very red 
+~ muy  rojo
+
+[LINE]
+Speaker508: He is attractive!
+~           él es atractivo  
+
+[LINE]
+Speaker507: But  he's~not very attractive…
+~           pero él~no~es muy  atractivo  
+
+[LINE]
+Speaker508: Oh. Maybe   you're~right.   
+~           ah  tal~vez tú~tienes~razón 
+
+[LINE]
+Speaker3135: Excuse~me, I  can~hear~you.     
+~            disculpen  yo puedo~escucharlas 
+
+[LINE]
+Speaker507: Oops, sorry.    
+~           ups   lo~siento 
+
+[MULTIPLE_CHOICE]
+> Espera… ¿Por qué Bea se acaba de disculpar?
+- A ella se le olvidó a dónde iba.
++ El hombre la escuchó decir que él no era muy atractivo.
+- Ella pisó el pie de Lin accidentalmente.
+
+[LINE]
+Speaker508: Are~we  close~to  Cecil's~Restaurant?
+~           estamos cerca~del Restaurante~Cecil  
+
+[LINE]
+Speaker3135: No, it's   three miles  from here.
+~            no  está~a tres  millas de   aquí 
+
+[LINE]
+Speaker508: Are~you~sure?
+~           estás~seguro 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker3135: Yes. I'm    [a~cook~there]. 
+~            sí   yo~soy  cocinero~allí  
++ a cook there
+- to look there
+- the book there
+
+[LINE]
+Speaker507: Great!  Can~you~make~me a  sandwich? I'm   so  hungry!    
+~           genial  me~puedes~hacer un sándwich  estoy tan hambrienta 
+
+[LINE]
+Speaker3135: No, you said        I  wasn't attractive.
+~            no  tú  dijiste~que yo no~era atractivo  
+
+[LINE]
+Speaker507: Well,  that was before~I~found~out       you can~cook.     
+~           bueno  eso  fue antes~de~que~supiera~que tú  sabes~cocinar 
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Bea le pidió al hombre que le hiciera un sándwich?
++ Él es el cocinero en el Restaurante Cecil.
+- Bea le hizo un sándwich a él primero.
+- Él tiene mucho pan y queso en las manos.
+
+[MATCH]
+> Selecciona los pares
+- They <> ellas
+- a <> un
+- small town <> pueblito
+- Are you sure <> estás seguro
+- see <> ven a
+
