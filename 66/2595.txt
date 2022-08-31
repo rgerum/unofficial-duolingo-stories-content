@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=No es para niños
+icon=92f8e9fbcb106a065c67e2efcbb467a67077da4b
+set=15|2
+
+[HEADER]
+> Not   For  Kids 
+~ no~es para niños
+
+[LINE]
+> Zari is~watching     Junior because Eddy is   at work.      
+~ Zari está~cuidando~a Junior porque  Eddy está en el~trabajo 
+
+[LINE]
+Speaker415: Zari! Can~we~play   your~video~game!?
+~           Zari  podemos~jugar tu~videojuego    
+
+[LINE]
+Speaker418: I  have~to~finish~cleaning       before~your~dad~comes         home.
+~           yo tengo~que~terminar~de~limpiar antes~de~que~tu~papá~llegue~a casa 
+
+[MULTIPLE_CHOICE]
+> Zari no puede jugar videojuegos en este momento.
+- No, no es así.
++ Sí, así es.
+
+[LINE]
+Speaker415: Well…  can~I~play  the~video~game?
+~           bueno  puedo~jugar el~videojuego  
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "niños".
+Speaker418: (Sorry),     (my) video~game is~not (for)  (+kids). 
+~            lo~siento    mi  videojuego no~es   para    niños  
+
+[LINE]
+Speaker415: I  am~not a  kid! 
+~           yo no~soy un niño 
+
+[LINE]
+Speaker418: Hmm… well,  adults        wash  dishes.    
+~           mmm  bueno  (los)~adultos lavan los~platos 
+
+[LINE]
+Speaker415: I  can~wash    dishes!    
+~           yo puedo~lavar los~platos 
+
+[CONTINUATION]
+> ¿Qué sigue?
+> Junior starts~to [wash  the~dishes].
+~ Junior empieza~a  lavar los~platos  
+- eat~dinner
+~ cenar     
+- clean   the~video~game
+~ limpiar el~videojuego 
++ wash  the~dishes
+~ lavar los~platos
+
+[LINE]
+Speaker415: See?
+~           ves 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker418: [(Adults)      (also)    (clean)   (the~table).]
+~             los~adultos   también   limpian   la~mesa     
+
+[LINE]
+Speaker415: I  can~clean     the~table!
+~           yo puedo~limpiar la~mesa   
+
+[LINE]
+> Junior cleans the~table.
+~ Junior limpia la~mesa   
+
+[LINE]
+Speaker418: Wow,  good job!     You are  an~adult. 
+~           guau  buen trabajo  tú  eres un~adulto 
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Zari le dice a Junior que él es un adulto?
+- Ella ya no quiere cuidarlo.
+- Él ha crecido mucho.
++ Él limpió la casa como un adulto lo hace.
+
+[LINE]
+Speaker415: Now   can~we~play   your~video~game!?
+~           ahora podemos~jugar tu~videojuego    
+
+[LINE]
+Speaker418: Oh no! It's~nine~o'clock. You need      to~go~to~bed!
+~           ah no  son~las~nueve      tú  necesitas ir~a~dormir  
+
+[LINE]
+Speaker415: But  I'm    an~adult!  Adults      go~to~bed       late. 
+~           pero yo~soy un~adulto  los~adultos se~van~a~dormir tarde 
+
+[MULTIPLE_CHOICE]
+> Junior dice que ahora él es un adulto, así que…
+- … él necesita buscar un trabajo.
++ … él puede irse a dormir tarde.
+- … él se puede casar con Zari.
+
+[MATCH]
+> Selecciona los pares
+- the table <> la mesa
+- work <> el trabajo
+- is watching <> está cuidando a
+- is not <> no es
+- good <> buen
+
