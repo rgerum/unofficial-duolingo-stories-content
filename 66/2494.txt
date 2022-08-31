@@ -1,0 +1,187 @@
+[DATA]
+fromLanguageName=El reembolso
+icon=8d2cee2e2c88355a3e6a2d98c1b6723c455c41b5
+set=62|1
+
+[HEADER]
+> The Refund   
+~ el  reembolso
+
+[LINE]
+> Lily is~working      at the clothing~store.
+~ Lily está~trabajando en la  tienda~de~ropa 
+
+[LINE]
+Speaker1551: Excuse~me, how~much~is   this suit? 
+~            disculpa   cuánto~cuesta este traje 
+
+[LINE]
+Speaker416: Two~hundred dollars. Do~you~want to~try~the~suit~on?
+~           doscientos  dólares  quiere      probarse~el~traje  
+
+[MULTIPLE_CHOICE]
+> Lily is~asking        if the man    wants~to…
+~ Lily está~preguntando si el  hombre quiere   
+- …put   the suit  on a  shelf.  
+~  poner el  traje en un estante 
+- …see a   picture of someone wearing~the~suit.   
+~  ver una foto    de alguien con~el~traje~puesto 
++ …make~sure~the~suit~fits                  before~he~buys~it. 
+~  asegurarse~de~que~el~traje~le~quede~bien antes~de~comprarlo 
+
+[LINE]
+Speaker1551: No, I  don't~have time.   Just take my money! 
+~            no  yo no~tengo   tiempo  solo toma mi dinero 
+
+[LINE]
+> The man    buys   the suit.  The next~day,      he returns to the store. 
+~ el  hombre compra el  traje  el  día~siguiente  él regresa a  la  tienda 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker1551: Excuse~me! I  want   a  refund    [for~this~suit]. 
+~            disculpa   yo quiero un reembolso  por~este~traje  
++ for this suit
+- or it's cute
+- for this soup
+
+[LINE]
+Speaker416: Why?     Is~there~a~problem?
+~           por~qué  hay~algún~problema 
+
+[LINE]
+Speaker1551: This is~not a  black~suit! 
+~            este no~es  un traje~negro 
+
+[LINE]
+Speaker416: You're~right. That's a  blue~suit. 
+~           tiene~razón   ese~es un traje~azul 
+
+[LINE]
+Speaker1551: I  came here to~buy       a  black~suit. 
+~            yo vine aquí para~comprar un traje~negro 
+
+[CONTINUATION]
+> What comes~next?
+~ qué  sigue      
+Speaker416: OK,        so       why     did~you~buy [a  blue~suit]? 
+~           está~bien  entonces por~qué compró       un traje~azul  
+- a  pair of shoes  
+~ un par  de zapatos
++ a  blue~suit 
+~ un traje~azul
+- a  black~suit 
+~ un traje~negro
+
+[LINE]
+Speaker1551: Look~at my~family~photo!      
+~            mira    la~foto~de~mi~familia 
+
+[LINE]
+> The man    shows        Lily his~family~photo.     
+~ el  hombre le~muestra~a Lily la~foto~de~su~familia 
+
+[LINE]
+Speaker1551: My wife   is~wearing   a  black~dress   in this photo. She  told~me~to~wear   a  black~suit  to~match          her dress!  
+~            mi esposa lleva~puesto un vestido~negro en esta foto   ella me~dijo~que~usara un traje~negro para~combinar~con su  vestido 
+
+[LINE]
+Speaker416: I'm~sorry, dude. You   can't~return      the suit  if you~wore~it.
+~           lo~siento  tío   usted no~puede~devolver el  traje si lo~usó      
+
+[LINE]
+Speaker1551: I  only      wore the suit  for an  hour!
+~            yo solamente usé  el  traje por una hora 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker416: [(Read) (the) (bottom)         (of~the) (receipt).]
+~             lea    la    parte~de~abajo   del      recibo    
+
+[LINE]
+> He reads the receipt.
+~ él lee   el  recibo  
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker1551: "No~refunds             if you   [wear~the~clothing]."
+~             no~se~hacen~reembolsos si usted  usa~la~ropa         
+- we're closing
++ wear the clothing
+- wears their clothing
+
+[LINE]
+Speaker1551: But  the suit  didn't~even~fit~me!          It~was so  uncomfortable!
+~            pero el  traje ni~siquiera~me~quedaba~bien  era    tan incómodo      
+
+[LINE]
+Speaker416: Listen,  I'm~sorry. I  can't~give~you a  refund    unless~there~was     a  problem.  Like, if~the~suit~was       damaged—
+~           escuche  lo~siento  yo no~puedo~darle un reembolso a~no~ser~que~hubiera un problema  como  si~el~traje~estuviera dañado  
+
+[LINE]
+Speaker1551: I  can~get       a  refund    if the suit  is   damaged? Well,  fine!      Look!
+~            yo puedo~obtener un reembolso si el  traje está dañado   bueno  está~bien  mira 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+> [(He) (tears~the~sleeve~off) (of~the) (suit).] 
+~   él   arranca~la~manga       del      traje   
+
+[LINE]
+Speaker416: Dude! That's~not~cool. 
+~           tío   eso~no~está~bien 
+
+[LINE]
+Speaker1551: I  want   my  two~hundred dollars back!     
+~            yo quiero mis doscientos  dólares de~vuelta 
+
+[LINE]
+> The store~manager        runs~over~to the cash~register.
+~ la  gerente~de~la~tienda corre~hacia  la  caja          
+
+[LINE]
+Speaker1186: What is the problem? 
+~            cuál es el  problema 
+
+[CONTINUATION]
+> What comes~next?
+~ qué  sigue      
+Speaker1186: Oh! Sir,   your suit  looks damaged. Would~you~like [a  refund]?   
+~            ah  señor  su   traje se~ve dañado   quisiera        un reembolso  
++ a  refund   
+~ un reembolso
+- a   new~lamp     
+~ una lámpara~nueva
+- a  sandwich
+~ un sándwich
+
+[LINE]
+Speaker1551: Yes, please!    Thank~you~so~much, ma'am. 
+~            sí   por~favor  muchas~gracias     señora 
+
+[LINE]
+Speaker1186: Lily, we       will~talk  about     this later.  
+~            Lily  nosotras hablaremos acerca~de esto después 
+
+[LINE]
+Speaker416: I  hate this job.    
+~           yo odio este trabajo 
+
+[MULTIPLE_CHOICE]
+> The man    tore~the~sleeve~off~the suit… 
+~ el  hombre le~arrancó~la~manga~al  traje 
++ …so~he~could~get          a  refund.   
+~  para~que~pudiera~obtener un reembolso 
+- …because he~liked~the~suit~better without sleeves.
+~  porque  el~traje~le~gustaba~más  sin     mangas  
+- …because the sleeve was too       long. 
+~  porque  la  manga  era demasiado larga 
+
+[MATCH]
+> Selecciona los pares
+- wife <> esposa
+- uncomfortable <> incómodo
+- Two hundred <> doscientos
+- buys <> compra
+- can't give you <> no puedo darle
+
