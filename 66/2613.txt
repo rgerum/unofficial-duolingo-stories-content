@@ -1,0 +1,107 @@
+[DATA]
+fromLanguageName=Un problema con el carro
+icon=e161ff53b5f470063ac66df2698eddb71232c290
+set=19|4
+
+[HEADER]
+> Car~Problem             
+~ un~problema~con~el~carro
+
+[LINE]
+> Eddy is~standing on~the~street.
+~ Eddy está~de~pie en~la~calle   
+
+[LINE]
+> He closes the trunk of a  car.  
+~ él cierra el  baúl  de un carro 
+
+[LINE]
+> Vikram walks~past   Eddy.
+~ Vikram pasa~junto~a Eddy 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker593: Are~you~OK, Eddy? [You~look~worried]. 
+~           estás~bien  Eddy   te~ves~preocupado  
+- Who cooked curry
++ You look worried
+- You look for it
+
+[LINE]
+Speaker414: Well,  I  borrowed      this car   and it~won't~start.
+~           bueno  yo pedí~prestado este carro y   no~enciende    
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Eddy está preocupado?
++ Él no puede encender el carro que pidió prestado.
+- Él no sabe dónde está.
+- Él está en el baúl de un carro.
+
+[LINE]
+Speaker593: Hmm. Can~I~help~you?
+~           mmm  puedo~ayudarte 
+
+[LINE]
+Speaker414: No. It's~OK,        Vikram.
+~           no  todo~está~bien  Vikram 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker593: But  I  know [what's~wrong] with the car.  
+~           pero yo sé    lo~que~pasa   con  el  carro 
++ what's wrong
+- that's wrong
+- what's along
+
+[LINE]
+Speaker414: Vikram, I  know a~lot about     cars.  
+~           Vikram  yo sé   mucho acerca~de carros 
+
+[LINE]
+Speaker593: OK,        well,  you already started    the car…  
+~           está~bien  bueno  tú  ya      encendiste el  carro 
+
+[LINE]
+Speaker414: No, I  didn't.     I  can't~hear   the engine.
+~           no  yo no~lo~hice  yo no~puedo~oír el  motor  
+
+[LINE]
+Speaker593: Eddy, this is an electric~car.    It's quiet,      and it~doesn't~use gas.     
+~           Eddy  este es un carro~eléctrico  es   silencioso  y   no~usa         gasolina 
+
+[MULTIPLE_CHOICE]
+> El carro es eléctrico, así que…
++ … es silencioso y no usa gasolina.
+- … usa mucha gasolina.
+- … es feo.
+
+[LINE]
+Speaker414: But  I  put  gas      in the car   ten~minutes~ago.  
+~           pero yo puse gasolina en el  carro hace~diez~minutos 
+
+[LINE]
+Speaker593: What?! Where?
+~           qué    dónde 
+
+[LINE]
+Speaker414: Right here.
+~           justo aquí 
+
+[LINE]
+Speaker593: Oh no, Eddy... That's the trunk!
+~           ay no  Eddy    ese~es el  baúl  
+
+[MULTIPLE_CHOICE]
+> ¿En dónde puso Eddy la gasolina?
+- en el carro de Vikram
+- en su motocicleta
++ en el baúl del carro
+
+[MATCH]
+> Selecciona los pares
+- Eddy <> Eddy
+- it doesn't use <> no usa
+- engine <> motor
+- it won't start <> no enciende
+- ten minutes ago <> hace diez minutos
+
