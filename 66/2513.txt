@@ -1,0 +1,162 @@
+[DATA]
+fromLanguageName=¡Rescatemos a los animales!
+icon=86974eb007f7d6fb261dd0147af9bb60d65929f8
+set=66|4
+
+[HEADER]
+> Save         the Animals! 
+~ rescatemos~a los animales 
+
+[LINE]
+> Oscar is~walking~into the school  where he works.   He's~wearing   a  long~fur~coat.        Another teacher stops~him. 
+~ Oscar va~entrando~a   la  escuela donde él trabaja  él~está~usando un abrigo~de~piel~largo  otro    maestro lo~detiene 
+
+[POINT_TO_PHRASE]
+> Choose     the option that means     "abrigo de piel."
+~ selecciona la  opción que  significa  ~      ~  ~     
+Speaker100: (Oscar), (wait)!   (Are~you~wearing) a  (+fur~coat)?      
+~            Oscar    espera    estás~usando     un   abrigo~de~piel  
+
+[LINE]
+Speaker592: Yes, isn't~it gorgeous?   It~belonged~to my uncle. Fur~coats           were    very fashionable when   he was young.
+~           sí   no~es    espléndido  era~de         mi tío    los~abrigos~de~piel estaban muy  de~moda     cuando él era joven 
+
+[LINE]
+Speaker100: Uh… yes, but  I  don't~know if it's~still~OK     to~wear a  fur~coat.       Especially~not today, because—
+~           eh  sí   pero yo no~sé      si todavía~está~bien usar    un abrigo~de~piel  menos~aún      hoy    porque  
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker592: Oh, Paul! You don't~know anything [about~fashion].
+~           ah  Paul  tú  no~sabes   nada      de~moda        
++ about fashion
+- without fashion
+- about fishing
+
+[LINE]
+> Oscar and Paul get    to the school~building and see   kids       in front  of a  sign   that says: "Save         the animals!" 
+~ Oscar y   Paul llegan a  la  escuela         y   ven~a unos~niños en frente de un cartel que  dice   rescatemos~a los animales  
+
+[LINE]
+Speaker592: What's this?
+~           qué~es esto 
+
+[LINE]
+Speaker100: This is what   I  was~trying         to~tell~you… The kids  are~protesting    to~save         the animals  from the fur~industry.
+~           esto es lo~que yo estaba~tratando~de decirte      los niños están~protestando para~rescatar~a los animales de   la  peletería    
+
+[LINE]
+> Lily walks~over holding     a  bucket of red~paint.   
+~ Lily se~acerca  sosteniendo un balde  de pintura~roja 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker416: The fur~industry is cruel! Take~off that coat,   or I'm~going~to [throw~this~paint]     on~you.        
+~           la  peletería    es cruel  quítese  ese  abrigo  o  voy~a         tirarle~esta~pintura  encima~a~usted 
++ throw this paint
+- know this pain
+- grow this plant
+
+[LINE]
+Speaker592: This coat   is vintage! It~was my~uncle's! I  didn't~hurt  any~animals!  
+~           este abrigo es clásico  era    de~mi~tío   yo no~lastimé~a ningún~animal 
+
+[MULTIPLE_CHOICE]
+> Why     does~Oscar~say he didn't~hurt  any~animals?  
+~ por~qué Oscar~dice~que él no~lastimó~a ningún~animal 
+- He only      wears fur~pajamas.    
+~ él solamente usa   pijamas~de~piel 
+- The coat   is brand~new.
+~ el  abrigo es nuevo     
++ He~didn't~buy~the~coat~himself.  
+~ él~no~fue~quien~compró~el~abrigo 
+
+[LINE]
+Speaker416: Yes, but  your uncle did.        Take~it~off.
+~           sí   pero su   tío   sí~lo~hizo  quíteselo   
+
+[CONTINUATION]
+> What comes~next?
+~ qué  sigue      
+Speaker592: It's~cold right~now!   And this is [the warmest~coat            I  have]! 
+~           hace~frío ahora~mismo  y   este es  el  abrigo~más~caliente~que yo tengo  
+- my favorite~swimsuit     
+~ mi traje~de~baño~favorito
+- my uncle
+~ mi tío  
++ the warmest~coat            I  have 
+~ el  abrigo~más~caliente~que yo tengo
+
+[LINE]
+Speaker416: You   want   to~hurt    animals      so~you~can~be    warm     and stylish? 
+~           usted quiere lastimar~a los~animales para~poder~estar caliente y   elegante 
+
+[LINE]
+> Oscar turns     to    Paul.
+~ Oscar se~voltea hacia Paul 
+
+[LINE]
+Speaker592: See, Paul? I  told~you    this coat   was stylish. 
+~           ves  Paul  yo te~dije~que este abrigo era elegante 
+
+[LINE]
+Speaker416: I  know   you're   my art~teacher,     but  I  have~to~do      this.
+~           yo sé~que usted~es mi maestro~de~arte  pero yo tengo~que~hacer esto 
+
+[LINE]
+> Lily holds~up the bucket of paint.  
+~ Lily sostiene el  balde  de pintura 
+
+[MULTIPLE_CHOICE]
+> Wait…   what is~Lily~about~to~do?       
+~ espera  qué  está~a~punto~de~hacer~Lily 
+- paint  a  new   sign   on the wall 
+~ pintar un nuevo cartel en la  pared
++ throw the paint   on         Oscar's~fur~coat       
+~ tirar la  pintura encima~del abrigo~de~piel~de~Oscar
+- paint  Oscar's~car      
+~ pintar el~carro~de~Oscar
+
+[LINE]
+Speaker592: Wait!  
+~           espera 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker592: [(My) (coat)   (isn't) (real~fur).]         
+~             mi   abrigo   no~es   de~piel~de~verdad   
+
+[LINE]
+Speaker416: It~isn't?
+~           no~lo~es 
+
+[LINE]
+Speaker100: Why     didn't~you~just~say~that?
+~           por~qué no~dijiste~eso           
+
+[LINE]
+Speaker592: I  wanted~everyone~to~think      I  was~wearing   an expensive~fur~coat. 
+~           yo quería~que~todos~pensaran~que yo estaba~usando un abrigo~de~piel~caro 
+
+[LINE]
+Speaker416: Oh. In that case, you   can~have~this~paint~back.        I  stole~it   from your classroom.      
+~           ah  en ese  caso  usted puede~quedarse~con~esta~pintura  yo me~la~robé de   su   salón~de~clases 
+
+[MULTIPLE_CHOICE]
+> Why     didn't~Lily~throw the paint   on       Oscar?
+~ por~qué Lily~no~le~tiró   la  pintura encima~a Oscar 
+- She  wants  to~use the paint   for  class.   
+~ ella quiere usar   la  pintura para su~clase 
+- He gave~her      the fur~coat.      
+~ él le~dio~a~ella el  abrigo~de~piel 
++ He said     his coat   isn't real~fur.         
+~ él dijo~que su  abrigo no~es de~piel~de~verdad 
+
+[MATCH]
+> Selecciona los pares
+- bucket <> balde
+- I <> yo
+- if <> si
+- did <> sí lo hizo
+- front <> frente
+
