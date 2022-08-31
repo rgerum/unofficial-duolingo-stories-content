@@ -1,0 +1,155 @@
+[DATA]
+fromLanguageName=Mueve la cama
+icon=0f7ed20f8dd9abe2d26821e7d69caa9a9d28f194
+set=52|2
+
+[HEADER]
+> Move  the Bed 
+~ mueve la  cama
+
+[LINE]
+> Zari is~lying      on Lily's~bed.      She's~looking     up           at~the ceiling.
+~ Zari está~acostada en la~cama~de~Lily  ella~está~mirando hacia~arriba al     techo   
+
+[LINE]
+Speaker418: Lily, your room       is boring.   You should~move    your furniture.
+~           Lily  tu   habitación es aburrida  tú  deberías~mover tus  muebles   
+
+[LINE]
+Speaker416: No. The room       looks good now.  
+~           no  la  habitación se~ve bien ahora 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker418: I  think    your bed  would~look great  [in~that~corner].
+~           yo creo~que tu   cama se~vería   genial  en~ese~rincón   
+- in that corn
+- is that warmer
++ in that corner
+
+[LINE]
+Speaker416: I  do~not.    
+~           yo no~lo~creo 
+
+[LINE]
+Speaker418: You know,  it's really dangerous to~have your bed  next~to    the window. 
+~           tú  sabes  es   muy    peligroso tener   tu   cama al~lado~de la  ventana 
+
+[LINE]
+Speaker416: Dangerous?
+~           peligroso 
+
+[LINE]
+Speaker418: Lightning could~hit      that tree  outside, and it~could~fall  through     your window. 
+~           un~rayo   podría~golpear ese  árbol afuera   y   se~podría~caer a~través~de tu   ventana 
+
+[POINT_TO_PHRASE]
+> Choose     the option that means     "asesino."
+~ selecciona la  opción que  significa  ~        
+Speaker418: (Or) a  (+murderer) could~climb~into         (your) (room)!      
+~            o   un   asesino   podría~trepar~y~entrar~a  tu     habitación  
+
+[LINE]
+Speaker416: Wow,  Zari. You've~thought a~lot about     this.
+~           guau  Zari  tú~has~pensado mucho acerca~de esto 
+
+[MULTIPLE_CHOICE]
+> Lily thinks   Zari has~thought a~lot about…    
+~ Lily cree~que Zari ha~pensado  mucho acerca~de 
+- …climbing~into     Lily's~room.          
+~  trepar~y~entrar~a la~habitación~de~Lily 
+- …falling~out of Lily's~window.     
+~  caerse      de la~ventana~de~Lily 
++ …where Lily's~bed~should~be.         
+~  dónde debería~estar~la~cama~de~Lily 
+
+[LINE]
+Speaker418: I'm~trying        to~be a   good  friend, Lily. I  want~you~to~be      safe.  
+~           estoy~tratando~de ser   una buena amiga   Lily  yo quiero~que~tú~estés segura 
+
+[LINE]
+Speaker416: I'm   fine. My bed  has~always~been   next~to  the window. 
+~           estoy bien  mi cama siempre~ha~estado cerca~de la  ventana 
+
+[LINE]
+Speaker418: Always?  Then     don't~you~want to~try something new?  
+~           siempre  entonces tú~no~quieres  probar algo      nuevo 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker416: [(You) (know)      (I)  (hate) (new~things).]      
+~             tú    sabes~que   yo   odio   las~cosas~nuevas   
+
+[LINE]
+Speaker418: Well…  I  read a  book  once    that said      it's good  to~sleep with your head   on the north~side of your room.      
+~           bueno  yo leí  un libro una~vez que  decía~que es   bueno dormir   con  tu   cabeza en el  lado~norte de tu   habitación 
+
+[LINE]
+Speaker416: This is the north~side of my room.      
+~           este es el  lado~norte de mi habitación 
+
+[LINE]
+Speaker418: Oh, did~I~say north~side?    I  mean         south~side. 
+~           ah  yo~dije   el~lado~norte  yo quiero~decir el~lado~sur 
+
+[MULTIPLE_CHOICE]
+> Now   Zari says     Lily should~sleep   with her~head… 
+~ ahora Zari dice~que Lily debería~dormir con  la~cabeza 
+- …out   of the window. 
+~  fuera de la  ventana 
+- …under     a~lot~of blankets.
+~  debajo~de muchas   mantas   
++ …on the south~side of the room.      
+~  en el  lado~sur   de la  habitación 
+
+[LINE]
+Speaker416: Ugh, Zari! Why     do~you~want~me~to~move my bed? 
+~           ah   Zari  por~qué quieres~que~yo~mueva   mi cama 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker418: [(I)  (think)    (it~will~look) (so)  (nice)!]  
+~             yo   creo~que   se~verá        tan   bonita   
+
+[LINE]
+Speaker416: Fine. Help~me~move~it.  
+~           bien  ayúdame~a~moverla 
+
+[LINE]
+> They  start    to~move Lily's~bed,      but  Lily sees something on the carpet…  
+~ ellas empiezan a~mover la~cama~de~Lily  pero Lily ve   algo      en la  alfombra 
+
+[CONTINUATION]
+> What~comes~next?
+~ qué~sigue       
+Speaker416: Zari, did~you~spill coffee on my [carpet]?  
+~           Zari  tú~derramaste café   en mi  alfombra  
+- window 
+~ ventana
++ carpet  
+~ alfombra
+- tree 
+~ árbol
+
+[LINE]
+Speaker418: Yes. But  don't~worry.     You won't~see~it after~we~move          your bed. 
+~           sí   pero no~te~preocupes  tú  no~lo~verás  después~de~que~movamos tu   cama 
+
+[MULTIPLE_CHOICE]
+> Zari wants~Lily~to~move    her bed… 
+~ Zari quiere~que~Lily~mueva su  cama 
+- …into      a  very~dangerous~place.
+~  dentro~de un lugar~muy~peligroso  
+- …so~that~Lily~can~look     out       the window  at~night.    
+~  para~que~Lily~pueda~mirar afuera~de la  ventana por~la~noche 
++ …to~hide       the coffee   she  spilled on the carpet.  
+~  para~esconder el  café~que ella derramó en la  alfombra 
+
+[MATCH]
+> Selecciona los pares
+- Lightning <> un rayo
+- of <> de
+- head <> cabeza
+- Wow <> guau
+- great <> genial
+
