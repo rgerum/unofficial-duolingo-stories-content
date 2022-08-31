@@ -1,0 +1,102 @@
+[DATA]
+fromLanguageName=Lucy y los dinosaurios
+icon=f6ce899637bb8181ee5e78382fdf71a0f01e4f95
+set=11|3
+
+[HEADER]
+> Lucy and the Dinosaurs  
+~ Lucy y   los dinosaurios
+
+[LINE]
+> Lucy opens her~apartment~door.         
+~ Lucy abre  la~puerta~de~su~apartamento 
+
+[LINE]
+Speaker509: Hello, Junior!
+~           hola   Junior 
+
+[LINE]
+Speaker415: Hello! Can~you~help~me~write      a  report  for  school?    
+~           hola   puedes~ayudarme~a~escribir un informe para la~escuela 
+
+[LINE]
+Speaker509: Oh, yes!
+~           ah  sí  
+
+[LINE]
+Speaker509: I'm a   great~writer.     I  have  a  very~popular~blog.
+~           soy una escritora~genial  yo tengo un blog~muy~popular  
+
+[MULTIPLE_CHOICE]
+> Lucy dice que ella es una buena escritora porque…
+- … ella siempre obtuvo buenas calificaciones en la escuela.
+- … ella escribe cartas de amor todos los días.
++ … ella tiene un blog muy popular.
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker509: [(Do~you) (read) (my) (blog)?]
+~             tú       lees   mi   blog   
+
+[LINE]
+Speaker415: No.
+~           no 
+
+[LINE]
+Speaker509: I  have  a~lot~of books. 
+~           yo tengo muchos   libros 
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "investigación".
+Speaker509: (Do~you~need) my  (books)  (for)  (+research)?        
+~            necesitas    mis  libros   para    tu~investigación  
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker415: I  don't~need  your [books]. 
+~           yo no~necesito tus   libros  
++ books 
+~ libros
+- report 
+~ informe
+- apartment  
+~ apartamento
+
+[LINE]
+Speaker509: What~is~your~report~about? 
+~           de~qué~se~trata~tu~informe 
+
+[LINE]
+Speaker415: Dinosaurs.  
+~           dinosaurios 
+
+[LINE]
+Speaker509: Why     do~you~want to~talk~to~me?
+~           por~qué quieres     hablarme      
+
+[LINE]
+Speaker415: Because you are  very old.  
+~           porque  tú  eres muy  vieja 
+
+[LINE]
+Speaker415: You know      a~lot~of dinosaurs,   right? 
+~           tú  conoces~a muchos   dinosaurios  cierto 
+
+[LINE]
+Speaker509: Goodbye, Junior.
+~           adiós    Junior 
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Junior creía que Lucy sabía sobre dinosaurios?
+- Ella solía tener un dinosaurio como mascota.
++ Ella es mayor que él.
+- Ella escribe un blog sobre dinosaurios.
+
+[MATCH]
+> Selecciona los pares
+- research <> tu investigación
+- do you want <> quieres
+- Junior <> Junior
+- Do you <> tú
+- for <> para
+
