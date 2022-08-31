@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=Un problema con la pasta
+icon=9a8e4c90ef30a62e59cf23d4265247e2655c4cec
+set=27|3
+
+[HEADER]
+> Pasta~Problem           
+~ un~problema~con~la~pasta
+
+[LINE]
+> Bea is~eating     pasta at a  restaurant  in Rome. A  waiter walks~past         her table.
+~ Bea está~comiendo pasta en un restaurante en Roma  un mesero pasa~caminando~por su  mesa  
+
+[LINE]
+Speaker507: Excuse~me! There's a  problem  with my pasta.
+~           perdone    hay     un problema con  mi pasta 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker385: That's~not possible. That's [our~most~popular~dish]!    
+~           eso~no~es  posible   ese~es  nuestro~plato~más~popular  
++ our most popular dish
+- your most popular fish
+- our most popular wish
+
+[LINE]
+Speaker507: Did~the~recipe~change?
+~           la~receta~cambió      
+
+[LINE]
+Speaker385: No! Our     recipe hasn't~changed in fifty     years!
+~           no  nuestra receta no~ha~cambiado en cincuenta años  
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker507: Well,  I  ate  this pasta here seven~years~ago, and now   [it~tastes different].
+~           bueno  yo comí esta pasta aquí hace~siete~años  y   ahora  sabe      diferente  
+- I  work    here
+~ yo trabajo aquí
+- I  need     glasses
+~ yo necesito lentes 
++ it~tastes different
+~ sabe      diferente
+
+[LINE]
+Speaker385: Seven years is a~long~time.  Maybe      you're   different.
+~           siete años  es mucho~tiempo  a~lo~mejor usted~es diferente 
+
+[LINE]
+Speaker507: Hmm… I  was younger   then.     Everything was new   and exciting.   
+~           mmm  yo era más~joven entonces  todo       era nuevo y   emocionante 
+
+[LINE]
+Speaker385: OK…       
+~           está~bien 
+
+[LINE]
+Speaker507: I'm    a~lot more serious now.  
+~           yo~soy mucho más  seria   ahora 
+
+[LINE]
+Speaker507: But  I'm~also       more responsible and intelligent.
+~           pero yo~también~soy más  responsable e   inteligente 
+
+[LINE]
+Speaker507: You're~right. I've~changed   a~lot! Thanks! 
+~           tiene~razón   yo~he~cambiado mucho  gracias 
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Bea le dio las gracias al mesero?
++ Él la ayudó a darse cuenta de cuánto ha cambiado.
+- El mesero le dijo que ella es responsable e inteligente.
+- Él le dio la receta de la pasta.
+
+[LINE]
+Speaker385: You're~welcome.
+~           de~nada        
+
+[LINE]
+Speaker507: What happened~to the waiter who worked    here seven~years~ago?
+~           qué  pasó~con    el  mesero que trabajaba aquí hace~siete~años 
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "gafas de sol".
+Speaker507: He (had)   (+sunglasses)   (and) (a~mustache).
+~           él  tenía    gafas~de~sol   y     bigote      
+
+[LINE]
+Speaker385: That's Antonio.
+~           ese~es Antonio 
+
+[LINE]
+Speaker507: Does~he~still~work here?
+~           él~todavía~trabaja aquí 
+
+[LINE]
+Speaker385: No, he never worked  here.
+~           no  él nunca trabajó aquí 
+
+[LINE]
+Speaker385: He works   at the restaurant  across           the street.
+~           él trabaja en el  restaurante del~otro~lado~de la  calle  
+
+[LINE]
+Speaker507: Oh…
+~           ah 
+
+[MULTIPLE_CHOICE]
+> Parece que…
+- … Bea tiene el mismo mesero que hace siete años.
++ … Bea está en el restaurante equivocado.
+- … Bea lleva puestas unas gafas de sol y un bigote.
+
+[LINE]
+> Later,     Bea is~eating     the same  pasta~dish     in the restaurant  across          the street.
+~ más~tarde  Bea está~comiendo el  mismo plato~de~pasta en el  restaurante al~otro~lado~de la  calle  
+
+[LINE]
+Speaker507: Yeah, this tastes exactly     the~same.
+~           sí    esto sabe   exactamente igual    
+
+[LINE]
+Speaker507: That's sad.    Maybe      I  haven't~changed.
+~           eso~es triste  a~lo~mejor yo no~he~cambiado  
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Bea piensa que no ha cambiado?
++ Después de todo, la pasta en este restaurante tiene el mismo sabor.
+- Ella olvidó el sabor que tenía la pasta.
+- El mesero se quitó las gafas de sol.
+
+[MATCH]
+> Selecciona los pares
+- more <> más
+- Yeah <> sí
+- then <> entonces
+- years <> años
+- a mustache <> bigote
+
