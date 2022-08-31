@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=La receta de la abuela
+icon=f846bda2ef7cfcb2a7b491fdab26521cbd7b480d
+set=26|2
+
+[HEADER]
+> Grandmother's~Recipe  
+~ la~receta~de~la~abuela
+
+[LINE]
+> Vikram walks~into Eddy's~apartment.   
+~ Vikram entra~al   apartamento~de~Eddy 
+
+[LINE]
+Speaker414: Hi   Vikram, where's    Priti?
+~           hola Vikram  donde~está Priti 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker593: She's     at work,       but  [she'll~be~here~soon].
+~           ella~está en el~trabajo  pero  ella~vendrá~pronto   
+- we'll be weird soon
+- she'll be near the moon
++ she'll be here soon
+
+[LINE]
+Speaker593: Thank~you for inviting~us to~dinner.
+~           gracias   por invitarnos  a~cenar   
+
+[LINE]
+Speaker414: You're~welcome! You and Priti cook    dinner  for  me often.   
+~           de~nada         tú  y   Priti cocinan la~cena para mí a~menudo 
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker414: So      now   [I'm~going~to~cook for  you]!    
+~           así~que ahora  yo~voy~a~cocinar  para ustedes  
+- I'm~going~to~the park  
+~ yo~voy~al        parque
+- we're~going~to~take    a   nap   
+~ nosotros~vamos~a~tomar una siesta
++ I'm~going~to~cook for  you    
+~ yo~voy~a~cocinar  para ustedes
+
+[LINE]
+Speaker593: You're~cooking?!     Uh… it~smells… interesting.
+~           tú~estás~cocinando   eh  huele      interesante 
+
+[LINE]
+Speaker414: Thanks!  I'm~making        Priti's~favorite~meal.      
+~           gracias  yo~estoy~haciendo la~comida~favorita~de~Priti 
+
+[LINE]
+Speaker593: Really?    It's very difficult to~make… 
+~           de~verdad  es   muy  difícil   de~hacer 
+
+[MULTIPLE_CHOICE]
+> Vikram parece preocupado. ¿Por qué?
+- El platillo favorito de Priti es muy fácil de hacer.
++ Él no está seguro de que Eddy pueda preparar el platillo correctamente.
+- Él se dio cuenta de que hay un incendio en la cocina de Eddy.
+
+[LINE]
+> Vikram looks~at the food   on the stove. 
+~ Vikram mira     la  comida en la  estufa 
+
+[LINE]
+Speaker593: Which kind of rice  did~you~use?
+~           qué   tipo de arroz usaste      
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker414: [(There~are) (different)  (kinds) (of) (rice)?] 
+~             hay         diferentes   tipos   de   arroz   
+
+[LINE]
+> Vikram tastes the food.  
+~ Vikram prueba la  comida 
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "extraño".
+Speaker593: Oh no. (This) (tastes)… a  (little) (+strange).
+~           ay no   esto   sabe     un  poco      extraño  
+
+[LINE]
+Speaker414: Can~you~help~me? 
+~           me~puedes~ayudar 
+
+[LINE]
+Speaker593: Maybe…   I  need     four   tomatoes, some    onions,   and a~lot~of garlic.
+~           tal~vez  yo necesito cuatro tomates   algunas cebollas  y   mucho    ajo    
+
+[LINE]
+Speaker414: I  don't~have those things.
+~           yo no~tengo   esas  cosas  
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker593: OK.        Then     [we~need~your~phone].     
+~           está~bien  entonces  necesitamos~tu~teléfono  
+- we'll read your phone
++ we need your phone
+- we meet your own
+
+[LINE]
+> Later,     Eddy, Vikram, and Priti are~eating~dinner.
+~ más~tarde  Eddy  Vikram  y   Priti están~cenando     
+
+[LINE]
+Speaker560: Wow,  Eddy, this is   so  good!  It~tastes just  like my~grandmother's~recipe!
+~           guau  Eddy  esto está muy bueno  sabe      justo como la~receta~de~mi~abuela  
+
+[LINE]
+Speaker414: Thanks!  I  ordered~it~from~the~restaurant~myself!
+~           gracias  yo mismo~lo~pedí~del~restaurante         
+
+[MULTIPLE_CHOICE]
+> ¿Por qué la cena estuvo tan deliciosa?
+- Eddy es muy buen cocinero
++ Eddy pidió comida a domicilio.
+- Vikram le puso mucho ajo.
+
+[MATCH]
+> Selecciona los pares
+- it smells <> huele
+- strange <> extraño
+- Vikram <> Vikram
+- work <> el trabajo
+- It's <> es
+
