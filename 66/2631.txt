@@ -1,0 +1,152 @@
+[DATA]
+fromLanguageName=¿Puedo tomarte una foto?
+icon=d6cfdc678db3116881efba02e683423389b53370
+set=24|2
+
+[HEADER]
+> Can~I~take     a   Picture?
+~ te~puedo~tomar una foto    
+
+[LINE]
+> Lucy is~walking~down    the street.
+~ Lucy está~caminando~por la  calle  
+
+[LINE]
+> She  sees   an~attractive~young~man.    
+~ ella ve~(a) un~hombre~joven~y~atractivo 
+
+[LINE]
+Speaker509: Wow!  Are~you that famous~actor?
+~           guau  tú~eres ese  actor~famoso 
+
+[LINE]
+Speaker385: Shh! No…
+~           shh  no 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker509: [(I)  (just~watched) (your) (movie)!]   
+~             yo   acabo~de~ver   tu     película   
+
+[LINE]
+Speaker385: I'm~not   an actor.
+~           yo~no~soy un actor 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker509: Yes, you are!  Can~I [take~a~picture~of~you]?
+~           sí   tú  eres  puedo  tomarte~una~foto       
+- bake a picture or two
++ take a picture of you
+- take a picture with who
+
+[LINE]
+Speaker385: OK…        quickly!
+~           está~bien  rápido  
+
+[LINE]
+Speaker509: So      you are  that famous~actor?
+~           así~que tú  eres ese  actor~famoso 
+
+[LINE]
+Speaker385: Yes.
+~           sí  
+
+[LINE]
+Speaker509: I~knew~it!
+~           lo~sabía  
+
+[LINE]
+> Lucy takes~a~picture~of~him with her~phone.  
+~ Lucy le~toma~una~foto~a~él  con  su~teléfono 
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Lucy le tomó una foto al hombre?
++ Él es un actor famoso.
+- Él es su novio.
+- Ella es una fotógrafa profesional.
+
+[LINE]
+Speaker509: You were      great  in the movie    "Sad~Cats            Can't~Dance."     
+~           tú  estuviste genial en la  película  (los)~gatos~tristes no~pueden~bailar  
+
+[LINE]
+Speaker385: I  wasn't    in that movie.   
+~           yo no~estuve en esa  película 
+
+[LINE]
+Speaker509: You weren't?     
+~           tú  no~estuviste 
+
+[LINE]
+Speaker385: I  was    in "Grandpa's~New~Hair."        
+~           yo estuve en  (el)~nuevo~pelo~del~abuelo  
+
+[LINE]
+Speaker509: I've~never~seen~it.  
+~           yo~nunca~la~he~visto 
+
+[LINE]
+Speaker385: Did~you~see "What's  in My Mouth?" I  was    amazing   in that movie!   
+~           viste        qué~hay en mi boca    yo estuve increíble en esa  película 
+
+[LINE]
+Speaker509: No.
+~           no 
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "sangre".
+Speaker385: (Maybe)   you saw   "(Bacon),  Eggs,   (Toast),   and (+Blood)"? 
+~            tal~vez  tú  viste   tocino   huevos   tostada   y     sangre   
+
+[LINE]
+Speaker509: No, I've~never~seen~it.
+~           no  nunca~la~he~visto  
+
+[LINE]
+Speaker385: It's famous! Wait,   are~you~deleting  my picture?
+~           es   famosa  espera  tú~estás~borrando mi foto    
+
+[MULTIPLE_CHOICE]
+> El hombre quiere saber si…
++ … Lucy está borrando su foto.
+- … Lucy está enamorada de él.
+- … a Lucy le gusta su cabello.
+
+[LINE]
+Speaker509: Maybe.   Were~you     in anything~else?            
+~           tal~vez  tú~estuviste en cualquier~otra~(película) 
+
+[LINE]
+Speaker385: I've~been    in fifty     movies!   
+~           yo~he~estado en cincuenta películas 
+
+[CONTINUATION]
+> ¿Qué sigue?
+> Lucy deletes [the picture].
+~ Lucy borra    la  foto     
+- the movie   
+~ la  película
++ the picture
+~ la  foto   
+- the cats 
+~ los gatos
+
+[LINE]
+Speaker509: If you see     that actor from "Sad~Cats            Can't~Dance",      can~you~take~a~picture    for  me?
+~           si tú  ves~(a) ese  actor de    (los)~gatos~tristes no~pueden~bailar   puedes~tomar(le)~una~foto para mí 
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Lucy borró la foto?
++ El hombre no actuó en "Sad Cats Can't Dance".
+- Ella quería tomar una foto del cabello nuevo de su abuelo.
+- Después de todo, el hombre no era un actor.
+
+[MATCH]
+> Selecciona los pares
+- great <> genial
+- fifty <> cincuenta
+- movie <> película
+- So <> así que
+- Lucy <> Lucy
+
