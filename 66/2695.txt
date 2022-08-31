@@ -1,0 +1,206 @@
+[DATA]
+fromLanguageName=El juego de té
+icon=364bddf1e2cbd39437d61f97a9961df4badf4af8
+set=40|2
+
+[HEADER]
+> The Tea~Set    
+~ el  juego~de~té
+
+[LINE]
+> Lucy gives   her granddaughter Lin a  gift.  
+~ Lucy le~da~a su  nieta         Lin un regalo 
+
+[LINE]
+Speaker508: Wow,  what's this? Did~you~get~me the jacket       I  wanted?!
+~           guau  qué~es esto  me~compraste   la  chaqueta~que yo quería  
+
+[LINE]
+Speaker509: Just open the gift.  
+~           solo abre el  regalo 
+
+[LINE]
+> Lin opens~it.
+~ Lin lo~abre  
+
+[LINE]
+Speaker508: Oh… it's… an old,~dusty~tea~set.             
+~           ah  es    un juego~de~té~viejo~y~polvoriento 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker509: This tea~set     belonged   to my grandmother. [I~want~you~to~have~it].  
+~           este juego~de~té perteneció a  mi abuela        yo~quiero~que~lo~tengas  
+- I want you to hate it
++ I want you to have it
+- Why won't you hug it
+
+[LINE]
+Speaker508: But  she  gave~it   to you. You should~keep~it.     
+~           pero ella te~lo~dio a  ti   tú  deberías~quedártelo 
+
+[LINE]
+Speaker509: It~belongs   to you now.  
+~           te~pertenece a  ti  ahora 
+
+[LINE]
+Speaker508: But  I  might~break~it. 
+~           pero yo podría~romperlo 
+
+[LINE]
+Speaker509: No, you~won't.   I  trust     you.
+~           no  no~lo~harás  yo confío~en ti  
+
+[LINE]
+Speaker508: But…  it's so  ugly!
+~           pero  es   tan feo  
+
+[LINE]
+Speaker509: I~know, but  my grandmother gave~it   to my mother on~her~wedding~day.
+~           lo~sé   pero mi abuela      se~lo~dio a  mi madre  el~día~de~su~boda  
+
+[CONTINUATION]
+> What comes~next?
+~ qué  sigue      
+Speaker509: Then,  my mother gave~it~to~me  [on~my~wedding~day].
+~           luego  mi madre  me~lo~dio~a~mi  el~día~de~mi~boda  
+- on~my~dog's~birthday     
+~ el~cumpleaños~de~mi~perro
+- on~my~lunch~break          
+~ en~el~tiempo~de~mi~almuerzo
++ on~my~wedding~day
+~ el~día~de~mi~boda
+
+[LINE]
+Speaker508: Uh… But  it's~not my~wedding~day.   
+~           eh  pero no~es    el~día~de~mi~boda 
+
+[LINE]
+Speaker509: I~know. But  you'll~probably~never~get~married! You're too       indecisive.
+~           lo~sé   pero tú~probablemente~nunca~te~casarás  eres   demasiado indecisa   
+
+[MULTIPLE_CHOICE]
+> Why     does~Lucy~think Lin won't~get~married?
+~ por~qué Lucy~cree~que   Lin no~se~casará      
+- She  spends too~much  time   on her phone.   
+~ ella gasta  demasiado tiempo en su  teléfono 
++ It's~hard~for~her    to~make~decisions.
+~ para~ella~es~difícil tomar~decisiones  
+- She  works   all  the time.  
+~ ella trabaja todo el  tiempo 
+
+[LINE]
+Speaker508: What?
+~           qué  
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker509: [(Do~you~want) (the) (tea~set)     (or) (not)?]
+~             quieres       el    juego~de~té   o    no    
+
+[LINE]
+Speaker508: Now   I  really    don't~want~it.
+~           ahora yo de~verdad no~lo~quiero  
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker508: Just give~it to Oscar. He drinks tea and [he~likes~old~things]!            
+~           solo dáselo  a  Oscar  él bebe   té  y    a~él~le~gustan~las~cosas~viejas  
+- he likes gold wings
+- we like sold things
++ he likes old things
+
+[LINE]
+Speaker509: Oh, good  idea!
+~           ah  buena idea 
+
+[LINE]
+> Later,     Lucy gives   Oscar the tea~set.    
+~ más~tarde  Lucy le~da~a Oscar el  juego~de~té 
+
+[LINE]
+Speaker592: Wow,  thanks!  It's so  beautiful!
+~           guau  gracias  es   tan hermoso   
+
+[LINE]
+> Suddenly,   Lin runs~in.        
+~ de~repente  Lin entra~corriendo 
+
+[CONTINUATION]
+> What comes~next?
+~ qué  sigue      
+Speaker508: Grandma, I  changed~my~mind!   I  want   [the tea~set]!    
+~           abuela   yo cambié~de~opinión  yo quiero  el  juego~de~té  
+- an  ugly~jacket 
+~ una chaqueta~fea
++ the tea~set    
+~ el  juego~de~té
+- a  new~pig    
+~ un cerdo~nuevo
+
+[LINE]
+Speaker509: Sorry,     I  just~gave~it       to Oscar.
+~           lo~siento  yo se~lo~acabo~de~dar a  Oscar 
+
+[LINE]
+Speaker509: See, I  told~you,   you're  too       indecisive.
+~           ves  yo te~lo~dije  tú~eres demasiado indecisa   
+
+[LINE]
+Speaker508: But  I  just~researched~it    online,   Grandma. It's~worth a~lot~of money! 
+~           pero yo acabo~de~investigarlo en~línea  abuela   vale       mucho    dinero 
+
+[MULTIPLE_CHOICE]
+> Why     did~Lin~decide~she~wants    the tea~set?    
+~ por~qué Lin~decidió~que~ella~quería el  juego~de~té 
+- She  collects   tea~sets.    
+~ ella colecciona juegos~de~té 
++ It's very expensive.
+~ es   muy  caro      
+- She  thinks   it's beautiful.
+~ ella cree~que es   hermoso   
+
+[LINE]
+Speaker509: It~is? 
+~           ah,~sí 
+
+[LINE]
+Speaker592: Too       late!  Lucy gave~it   to me.
+~           demasiado tarde  Lucy me~lo~dio a  mí 
+
+[POINT_TO_PHRASE]
+> Choose     the option that means     "injusto."
+~ selecciona la  opción que  significa  ~        
+Speaker508: (This) is so  (+unfair).  (That) (was) my wedding~gift!   
+~            esto  es tan   injusto    ese    era  mi regalo~de~bodas 
+
+[LINE]
+Speaker592: Lin, if you ever       get~married, I'll~give~it to you.
+~           Lin  si tú  alguna~vez te~casas     te~lo~daré   a  ti  
+
+[LINE]
+Speaker509: Don't~worry,     that will~never~happen.
+~           no~te~preocupes  eso  nunca~ocurrirá    
+
+[LINE]
+Speaker592: I~know. Does~anyone~want tea?
+~           lo~sé   alguien~quiere   té  
+
+[MULTIPLE_CHOICE]
+> Lin can~have    the tea~set…    
+~ Lin puede~tener el  juego~de~té 
+- …on her next    birthday.  
+~  en su  próximo cumpleaños 
++ …if she  gets~married one~day.  
+~  si ella se~casa      algún~día 
+- …if she  makes   better tea than Oscar.
+~  si ella prepara mejor  té  que  Oscar 
+
+[MATCH]
+> Selecciona los pares
+- Sorry <> lo siento
+- Oh <> ah
+- I know <> lo sé
+- See <> ves
+- Later <> más tarde
+
