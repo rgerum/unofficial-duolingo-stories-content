@@ -1,0 +1,193 @@
+[DATA]
+fromLanguageName=La cita de Bea
+icon=cab4be49323f5dd876f6351e2fb939b328536fa9
+set=53|3
+
+[HEADER]
+> Bea's~Date    
+~ la~cita~de~Bea
+
+[LINE]
+> Bea walks~into a  restaurant.  She's~meeting     someone for  a   first   date.
+~ Bea entra~a    un restaurante  ella~va~conocer~a alguien para una primera cita 
+
+[LINE]
+Speaker507: Hi!   Are~you Nadia?
+~           hola  tú~eres Nadia 
+
+[LINE]
+Speaker659: Oh. Yes. You must~be   Bea.
+~           ah  sí   tú  debes~ser Bea 
+
+[LINE]
+Speaker507: Yes! Nice~to~meet~you! Have~you~been~to this restaurant  before?
+~           sí   mucho~gusto       has~estado~en    este restaurante antes  
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker659: I  used  to~eat here often.    I  stopped~coming after          I~saw a  man    [die~here].  
+~           yo solía comer  aquí a~menudo  yo dejé~de~venir  después~de~que vi~a  un hombre  morir~aquí  
+- lie here
+- cry here
++ die here
+
+[LINE]
+Speaker507: Um, oh.
+~           um  ah 
+
+[LINE]
+Speaker659: But  their tacos are alright.        
+~           pero sus   tacos son bastente~buenos 
+
+[LINE]
+Speaker507: Wow,  OK.       
+~           guau  está~bien 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker507: [(Have~you~seen) (any)    (good)  (movies)   (lately)?]     
+~             has~visto       alguna   buena   película   últimamente   
+
+[LINE]
+Speaker659: I  don't~watch movies.    They're boring.   
+~           yo no~miro     películas  son     aburridas 
+
+[LINE]
+Speaker507: Oh… then     you~probably~like           to~read.
+~           ah  entonces a~ti~probablemente~te~gusta leer    
+
+[LINE]
+Speaker659: Books?  Ew.      No. They're like movies    that I~have~to~carry. 
+~           libros  guácala  no  son     como películas que  tengo~que~llevar 
+
+[LINE]
+Speaker507: Uh… do~you~like to~cook?
+~           eh  te~gusta    cocinar 
+
+[LINE]
+Speaker659: No, I~like        when   people       cook    for  me.
+~           no  a~mí~me~gusta cuando las~personas cocinan para mí 
+
+[MULTIPLE_CHOICE]
+> It  sounds like…    
+~ eso suena  como~que 
+- …Nadia wants  to~cook something for  Bea.
+~  Nadia quiere cocinar algo      para Bea 
+- …Nadia is   very interested in books  and movies.   
+~  Nadia está muy  interesada en libros y   películas 
++ …there~are a~lot~of things    Nadia   doesn't~like to~do.
+~  hay       muchas   cosas~que a~Nadia no~le~gusta  hacer 
+
+[LINE]
+Speaker507: OK…        So…       tell~me  about     yourself.
+~           está~bien  entonces  cuéntame acerca~de ti       
+
+[LINE]
+Speaker659: No, not on a   first   date. I~like        to~wait until~we~know~each~other better.
+~           no  no  en una primera cita  a~mí~me~gusta esperar hasta~que~nos~conozcamos mejor  
+
+[CONTINUATION]
+> What comes~next?
+~ qué  sigue      
+Speaker507: Oh… do~you~go~on a~lot~of [dates]?
+~           ah  tú~tienes    muchas    citas  
+- restaurants 
+~ restaurantes
++ dates
+~ citas
+- movies   
+~ películas
+
+[LINE]
+Speaker659: I  go~on a~lot~of first    dates… but  not many   second   dates. I  don't~know why.    
+~           yo tengo muchas   primeras citas  pero no  muchas segundas citas  yo no~sé      por~qué 
+
+[LINE]
+Speaker507: I  might~know  why.    
+~           yo creo~que~sé por~qué 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker507: [(I)  (think)    (I'm~going~to~go).]
+~             yo   creo~que   me~voy~a~ir       
+
+[LINE]
+> Bea stands~up  to~leave,  but  then     she  sees a   woman.
+~ Bea se~levanta para~irse  pero entonces ella ve~a una mujer 
+
+[LINE]
+Speaker507: Oh, no! It's my ex-girlfriend!
+~           ay  no  es   mi exnovia       
+
+[LINE]
+> Nadia looks~at the woman.
+~ Nadia mira~a   la  mujer 
+
+[LINE]
+Speaker659: Oh,~no! It's my ex-girlfriend!
+~           ay~no   es   mi exnovia       
+
+[LINE]
+Speaker507: You dated       Melissa?
+~           tú  saliste~con Melissa 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker659: Yes! She's   terrible! [She~sneezes]    so  loudly!      
+~           sí   ella~es terrible   ella~estornuda  tan ruidosamente 
+- These cheeses
+- She sees us
++ She sneezes
+
+[LINE]
+Speaker507: I  know!
+~           yo sé   
+
+[LINE]
+Speaker659: And if you don't~laugh~at her jokes,   she  says~them  again,    but  louder.    
+~           y   si tú  no~te~ríes~de  sus chistes  ella los~cuenta de~nuevo  pero más~fuerte 
+
+[LINE]
+Speaker507: That's very true!  
+~           eso~es muy  cierto 
+
+[LINE]
+Speaker507: Maybe   we       do~have    some    things in common. Do~you~want to~order dinner? 
+~           tal~vez nosotras sí~tenemos algunas cosas  en común   quieres     pedir    la~cena 
+
+[MULTIPLE_CHOICE]
+> Why     does~Bea~want to~stay  at the restaurant? 
+~ por~qué Bea~quiere    quedarse en el  restaurante 
+- She  is~afraid~that~her~ex-girlfriend~will~see~her.
+~ ella tiene~miedo~de~que~su~exnovia~la~vea          
+- She  wants  to~talk~to her ex-girlfriend.
+~ ella quiere hablar~con su  exnovia       
++ She  might~have   some    things to~talk~about        with Nadia.
+~ ella podría~tener algunas cosas  de~las~cuales~hablar con  Nadia 
+
+[LINE]
+Speaker659: No. You seem    a  little negative.
+~           no  tú  pareces un poco   negativa 
+
+[LINE]
+Speaker659: I  don't~date   negative~people.   
+~           yo no~salgo~con personas~negativas 
+
+[MULTIPLE_CHOICE]
+> Why     does~Nadia~go~on~a~lot~of~first~dates, but  not many   second   dates?
+~ por~qué Nadia~tiene~muchas~primeras~citas      pero no  muchas segundas citas 
+- She  is too       nice.     
+~ ella es demasiado agradable 
+- She  sneezes   very loudly.      
+~ ella estornuda muy  ruidosamente 
++ She  is~not a   nice~person.      
+~ ella no~es  una persona~agradable 
+
+[MATCH]
+> Selecciona los pares
+- little <> poco
+- Are you <> tú eres
+- Have you seen <> has visto
+- looks at <> mira a
+- cook <> cocinan
+
