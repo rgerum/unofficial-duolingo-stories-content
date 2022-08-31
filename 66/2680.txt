@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=Lily ayuda con la basura
+icon=093ca1e21f226b69b5c86085e1710ffbca164b46
+set=36|3
+
+[HEADER]
+> Lily Helps with the Trash 
+~ Lily ayuda con  la  basura
+
+[LINE]
+> Lucy is   outside of her~apartment~building.     
+~ Lucy está afuera  de su~edificio~de~apartamentos 
+
+[LINE]
+> She  notices      that     Lily is~moving    a   carpet,   a   lamp,    and a  big,~expensive~TV       outside.
+~ ella se~da~cuenta (de)~que Lily está~sacando una alfombra  una lámpara  y   un televisor~grande~y~caro afuera  
+
+[LINE]
+Speaker509: Are~you~moving?  
+~           te~estás~mudando 
+
+[LINE]
+Speaker416: No.
+~           no 
+
+[MULTIPLE_CHOICE]
+> Lily se está mudando a un apartamento nuevo.
++ No, no es así.
+- Sí, así es.
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker509: [(Are~you~selling) (these) (things)?]
+~             estás~vendiendo   estas   cosas    
+
+[LINE]
+Speaker416: No.
+~           no 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker509: Then     why     are~you~putting [all~of~these~things] here?
+~           entonces por~qué estás~poniendo   todas~estas~cosas    aquí 
+- a wall of his things
++ all of these things
+- all of these rings
+
+[LINE]
+Speaker416: Because my mom  asked~me~to~take~the~trash~outside.
+~           porque  mi mamá me~pidió~que~sacara~la~basura      
+
+[LINE]
+Speaker509: I  don't~think~this~is  what   she  means.       
+~           yo no~creo~que~esto~sea lo~que ella quiere~decir 
+
+[LINE]
+Speaker509: That carpet   is   new.  
+~           esa  alfombra está nueva 
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Lucy no cree que la alfombra sea basura?
+- Está afuera.
++ Está nueva.
+- Es preciosa.
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "huele".
+Speaker416: (That) (carpet)   (+smells) (like) a  dog.   And we       don't~have a  dog.  
+~            esa    alfombra    huele    como  un perro  y   nosotros no~tenemos un perro 
+
+[LINE]
+Speaker509: Well,  yes, it~does~smell awful.    And that lamp?   
+~           bueno  sí   sí~huele      horrible  y   esa  lámpara 
+
+[LINE]
+Speaker416: I'd~prefer    to~sit   in the dark.     
+~           yo~preferiría sentarme en la  oscuridad 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker509: But  that TV         is~definitely~not     trash.  It  [looks~expensive].
+~           pero esa  televisión definitivamente~no~es basura  esa  se~ve~cara       
+- looks at pencils
++ looks expensive
+- took the offensive
+
+[LINE]
+Speaker416: Do~you watch TV?         Every~show~is           about     money,  murder,    or dessert.
+~           tú     miras televisión  todos~los~programas~son acerca~de dinero  asesinato  o  postre  
+
+[LINE]
+Speaker509: Hmm. I~agree,          but  your~mom is~going~to~be mad     when~she~sees   this.
+~           mmm  estoy~de~acuerdo  pero tu~mamá  va~a~estar     enojada cuando~ella~vea esto 
+
+[LINE]
+Speaker416: Yes, but  she  will~never~ask~me~to~help with the trash  again.   
+~           sí   pero ella nunca~me~pedirá~que~ayude con  la  basura de~nuevo 
+
+[MULTIPLE_CHOICE]
+> ¿Por qué la madre de Lily nunca más le pedirá ayuda con la basura?
+- Lucy se roba la basura de todos.
++ Lily está sacando cosas que no son basura.
+- La familia de Lily no tiene basura.
+
+[MATCH]
+> Selecciona los pares
+- why <> por qué
+- about <> acerca de
+- all of these things <> todas estas cosas
+- don't think this is <> no creo que esto sea
+- outside <> afuera
+
