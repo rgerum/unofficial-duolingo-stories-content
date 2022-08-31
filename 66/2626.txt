@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=La película de terror
+icon=1038afc2cf4744d25820807d461131e153f7ddcf
+set=23|1
+
+[HEADER]
+> The Horror~Movie      
+~ la  película~de~terror
+
+[LINE]
+> Lily and Zari arrive at~the movie~theater.
+~ Lily y   Zari llegan al     cine          
+
+[LINE]
+> A  boy   from their school  is~working      there.
+~ un chico de   su    escuela está~trabajando ahí   
+
+[LINE]
+Speaker418: Hi,   Billy! Two tickets  for  "Blood~Lake",        please!   
+~           hola  Billy  dos entradas para  el~lago~de~sangre   por~favor 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker1649: No, [you're~too~young]              to~see   that movie.   
+~            no   ustedes~son~demasiado~jóvenes  para~ver esa  película 
++ you're too young
+- you aren't young
+- you're too fun
+
+[LINE]
+Speaker416: But  you always  sell~us    tickets  for  horror~movies!          
+~           pero tú  siempre nos~vendes entradas para las~películas~de~terror 
+
+[LINE]
+Speaker1649: You     also    have   coffees from~the cafe across           the street.
+~            ustedes también tienen cafés   del      café del~otro~lado~de la  calle  
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker1649: [(You)     (can't~bring~those)   (into~the) (theater).]
+~              ustedes   no~pueden~llevarlos   al         cine      
+
+[LINE]
+> Lily takes both  coffees and throws~them in the trash. 
+~ Lily toma  ambos cafés   y   los~tira    en la  basura 
+
+[LINE]
+Speaker418: Aw, my coffee! With extra~chocolate~and~cream!
+~           ay  mi café    con  chocolate~y~crema~extra   
+
+[LINE]
+Speaker416: Sorry.    
+~           lo~siento 
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker1649: Well,  you     still   can't~have        [a   ticket]. 
+~            bueno  ustedes todavía no~pueden~comprar  una entrada  
+- more chocolate
+~ más  chocolate
+- this trash 
+~ esta basura
++ a   ticket 
+~ una entrada
+
+[LINE]
+Speaker416: Why?    
+~           por~qué 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker1649: [(You)     (always)  (talk)   (during)  (movies).]       
+~              ustedes   siempre   hablan   durante   las~películas   
+
+[LINE]
+Speaker418: Why     are~you~doing  this, Billy? We're          friends!
+~           por~qué estás~haciendo esto  Billy  nosotros~somos amigos  
+
+[LINE]
+Speaker1649: If we're friends, then     why     can't~I~be     in your band? 
+~            si somos amigos   entonces por~qué no~puedo~estar en su   banda 
+
+[MULTIPLE_CHOICE]
+> ¡Ajá! Billy no les vende entradas porque…
+- … el cine ya está lleno.
+- … ellas tiraron el café de Billy a la basura.
++ … él quiere estar en su banda.
+
+[LINE]
+Speaker418: Uh… what band? 
+~           eh  qué  banda 
+
+[LINE]
+Speaker1649: I  heard~you   talking about     starting a   band  in class.
+~            yo las~escuché hablar  acerca~de empezar  una banda en clase 
+
+[LINE]
+Speaker416: OK,        fine.       We       need        a  guitar~player.
+~           está~bien  de~acuerdo  nosotras necesitamos un guitarrista   
+
+[LINE]
+Speaker1649: Great!  When   is the next    band~practice?      
+~            genial  cuando es el  próximo ensayo~con~la~banda 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker416: Tomorrow, [after~school].         
+~           mañana     después~de~la~escuela  
+- at this cool
++ after school
+- have to scroll
+
+[LINE]
+Speaker418: Now   can~we~please~have        two tickets  to~see   "Blood~Lake"?       
+~           ahora podemos~por~favor~comprar dos entradas para~ver  el~lago~de~sangre  
+
+[LINE]
+Speaker1649: Sure,         but  not~until~tomorrow|—after      our     first  band~practice.      
+~            por~supuesto  pero será~hasta~mañana   después~de nuestro primer ensayo~con~la~banda 
+
+[MULTIPLE_CHOICE]
+> ¿Cuándo podrán Zari y Lily ver "El lago de sangre"?
+- cuando ellas quieran
++ después de practicar con su banda junto con Billy
+- después de ir por otro café
+
+[MATCH]
+> Selecciona los pares
+- talking <> hablar
+- movie theater <> cine
+- We're <> nosotros somos
+- ticket <> entrada
+- Great <> genial
+
