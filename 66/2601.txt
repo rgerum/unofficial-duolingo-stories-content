@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=Haciendo el desayuno
+icon=6d79d91b8caad82e9f6ce44a1b458f12ac6a7a9f
+set=16|4
+
+[HEADER]
+> Making   Breakfast  
+~ haciendo el~desayuno
+
+[LINE]
+> Eddy is~making     breakfast     for  Junior.
+~ Eddy está~haciendo (el)~desayuno para Junior 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker415: Hey, Dad!  [What~are~you~doing]?
+~           ey   papá   qué~estás~haciendo  
+- What's your dog
++ What are you doing
+- When are you doing
+
+[LINE]
+Speaker414: Good~morning, Junior! I'm~making     a  big  breakfast for  you!
+~           buenos~días   Junior  estoy~haciendo un gran desayuno  para ti  
+
+[LINE]
+Speaker415: Breakfast?
+~           desayuno  
+
+[LINE]
+Speaker414: Yes. I  never have  time   to~make      breakfast     for  you.
+~           sí   yo nunca tengo tiempo (para)~hacer (el)~desayuno para ti  
+
+[LINE]
+Speaker414: But  today is different!
+~           pero hoy   es diferente 
+
+[MULTIPLE_CHOICE]
+> Espera… ¿Qué quiere decir Eddy?
+- Él le hace el desayuno a Junior todas las mañanas.
++ Hoy él tiene tiempo para hacer el desayuno.
+- Él no tiene tiempo para hacer el desayuno hoy.
+
+[LINE]
+Speaker415: Dad,  I  don't~want breakfast.
+~           papá  yo no~quiero  desayuno  
+
+[LINE]
+Speaker414: What?! But  I'm~making     eggs…  
+~           qué    pero estoy~haciendo huevos 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker415: [(I)  (don't~want) (eggs).]  
+~             yo   no~quiero    huevos   
+
+[LINE]
+Speaker414: You~love         eggs.        
+~           a~ti~te~encantan (los)~huevos 
+
+[LINE]
+Speaker415: Yes, but— 
+~           sí   pero 
+
+[LINE]
+Speaker414: And there's sausage   too!    
+~           y   hay     salchicha también 
+
+[LINE]
+Speaker414: You~love~eating       sausage   for  breakfast!    
+~           a~ti~te~encanta~comer salchicha para (el)~desayuno 
+
+[LINE]
+Speaker415: That's~right, but— 
+~           es~cierto     pero 
+
+[LINE]
+Speaker414: So      what's~wrong, Junior?
+~           así~que qué~pasa      Junior 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker415: Dad…  it's [one~o'clock]!
+~           papá  es    la~una       
+- on the clothes
+- one on clock
++ one o'clock
+
+[LINE]
+> Eddy looks~at his~watch.
+~ Eddy mira     su~reloj  
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "mucho tiempo".
+Speaker414: (Oh) no… (making~breakfast)  (takes) (+a~long~time). 
+~            ah  no   hacer~el~desayuno   toma     mucho~tiempo  
+
+[LINE]
+Speaker415: But  now   we       can~make      lunch!        
+~           pero ahora nosotros podemos~hacer (el)~almuerzo 
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Junior dice que ellos deberían hacer el almuerzo?
++ Eddy se demoró mucho haciendo el desayuno.
+- Eddy se comió todo el desayuno de Junior.
+- Él le hizo el desayuno a Eddy.
+
+[MATCH]
+> Selecciona los pares
+- don't want <> no quiero
+- a long time <> mucho tiempo
+- we <> nosotros
+- So <> así que
+- I'm making <> estoy haciendo
+
