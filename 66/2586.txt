@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=Me siento enfermo
+icon=68ffeb0d8b8a73e7de5cd3b964b34d0e08761977
+set=13|1
+
+[HEADER]
+> I~Feel~Sick      
+~ me~siento~enfermo
+
+[LINE]
+Speaker415: Dad!  I  feel      sick!   
+~           papá  yo me~siento enfermo 
+
+[LINE]
+Speaker414: Oh, no!
+~           ah  no 
+
+[LINE]
+> Eddy touches Junior's~head.      
+~ Eddy toca    la~cabeza~de~Junior 
+
+[LINE]
+Speaker414: You don't~have a~fever.
+~           tú  no~tienes  fiebre  
+
+[MULTIPLE_CHOICE]
+> Junior tiene fiebre.
++ No, no es así.
+- Sí, así es.
+
+[LINE]
+Speaker415: But  my~ear~hurts!     I  want   to~go to the~doctor's~office!     
+~           pero me~duele~el~oído  yo quiero ir    a  la~clínica~de~la~doctora 
+
+[LINE]
+Speaker414: OK...       
+~           está~bien   
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+> [(They)  (go)  (to) (the~doctor's~office).]     
+~   ellos   van   a    la~clínica~de~la~doctora   
+
+[LINE]
+Speaker341: It's nice  to~see~you again,    Junior.
+~           es   bueno verte      otra~vez  Junior 
+
+[LINE]
+Speaker341: What's~wrong?
+~           qué~te~pasa  
+
+[LINE]
+Speaker414: His~ear~hurts.   
+~           le~duele~el~oído 
+
+[LINE]
+Speaker341: Oh, no! I  can~help.    
+~           ah  no  yo puedo~ayudar 
+
+[CONTINUATION]
+> ¿Qué sigue?
+> The doctor  looks~at [Junior's~ear].     
+~ la  doctora mira      el~oído~de~Junior  
++ Junior's~ear     
+~ el~oído~de~Junior
+- the clock
+~ el  reloj
+- Eddy's~shoes       
+~ los~zapatos~de~Eddy
+
+[LINE]
+Speaker341: Hmmm… Your ear  is   fine.
+~           mmm   tu   oído está bien 
+
+[LINE]
+Speaker415: Oh! Well…  My~foot~hurts.  
+~           ah  bueno  me~duele~el~pie 
+
+[LINE]
+> The doctor  looks~at Junior's~foot.   
+~ la  doctora mira     el~pie~de~Junior 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker341: Your foot [is~also~fine].     
+~           tu   pie   también~está~bien  
++ is also fine
+- it's all the wine
+- is also mine
+
+[LINE]
+Speaker414: Is~he~OK,     Doctor? 
+~           él~está~bien  doctora 
+
+[LINE]
+Speaker341: Yes.
+~           sí  
+
+[LINE]
+Speaker341: You're~not  sick,    Junior.
+~           tú~no~estás enfermo  Junior 
+
+[LINE]
+Speaker415: I  am    sick!   
+~           yo estoy enfermo 
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "dulces".
+Speaker341: (Junior)... are~you (here) because I  (always)  give~you (+candy)? 
+~            Junior     estás    aquí  porque  yo  siempre  te~doy     dulces  
+
+[LINE]
+Speaker415: Umm… Yes.
+~           mmm  sí  
+
+[LINE]
+Speaker414: Junior!
+~           Junior 
+
+[LINE]
+Speaker415: So...      Can~I~have  my  candy  now?  
+~           así~que    puedo~tener mis dulces ahora 
+
+[MULTIPLE_CHOICE]
+> ¡Ay, Junior! ¿Por qué quería ver a la doctora?
+- Él tenía un regalo para ella.
++ Ella siempre le da dulces.
+- Él estaba muy enfermo.
+
+[MATCH]
+> Selecciona los pares
+- Junior's head <> la cabeza de Junior
+- Dad <> papá
+- now <> ahora
+- foot <> pie
+- nice <> bueno
+
