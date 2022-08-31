@@ -1,0 +1,152 @@
+[DATA]
+fromLanguageName=Esto sabe raro
+icon=2af10d537225ca8ebd8d85b0d77cdc2dc60ebb71
+set=27|4
+
+[HEADER]
+> This Tastes Strange
+~ esto sabe   raro   
+
+[LINE]
+> Eddy is~eating     something  he~found in the fridge.      
+~ Eddy está~comiendo algo~(que) encontró en el  refrigerador 
+
+[LINE]
+Speaker414: Junior? This dessert tastes strange.
+~           Junior  este postre  sabe   raro    
+
+[LINE]
+Speaker415: What dessert?
+~           qué  postre  
+
+[LINE]
+Speaker414: The dessert that was    in the fridge.      
+~           el  postre  que  estaba en el  refrigerador 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker415: [That~wasn't~a~dessert]. That was my science~project.     
+~            eso~no~era~un~postre    ese  era mi proyecto~de~ciencias 
+- That's what I deserve
++ That wasn't a dessert
+- That was in the desert
+
+[LINE]
+Speaker414: I  thought     it~looked a  little green…
+~           yo pensé~(que) se~veía   un poco   verde 
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker414: How~long      was~it [in the fridge]?      
+~           cuánto~tiempo estuvo  en el  refrigerador  
+- under       the bed 
+~ debajo~(de) la  cama
+- on my head  
+~ en mi cabeza
++ in the fridge      
+~ en el  refrigerador
+
+[LINE]
+Speaker415: Since November. 
+~           desde noviembre 
+
+[LINE]
+Speaker414: It's~March~now.
+~           ahora~es~marzo 
+
+[LINE]
+Speaker414: I  feel        sick.   
+~           yo (me)~siento enfermo 
+
+[LINE]
+Speaker415: What's~wrong?       
+~           cuál~es~el~problema 
+
+[LINE]
+Speaker414: I  have  a~stomachache…    
+~           yo tengo dolor~de~estómago 
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "toco".
+Speaker415: (Hmm). Does~it~hurt (when)   I  (+poke) your~stomach (here)?
+~            mmm   (te)~duele    cuando  yo   toco  tu~estómago   aquí  
+
+[LINE]
+Speaker414: No.
+~           no 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker415: [(What)       (if) (I)  (poke~you) (here)?]
+~             qué~(pasa)   si   yo   te~toco    aquí   
+
+[LINE]
+Speaker414: Ouch!
+~           ay   
+
+[LINE]
+Speaker415: Interesting…
+~           interesante 
+
+[LINE]
+Speaker415: How  does~your~body~feel?
+~           cómo sientes~el~cuerpo   
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker414: My body   feels       cold… should~I~go [to~the hospital]?
+~           mi cuerpo (se)~siente frío  debería~ir   al     hospital  
+- for~a~run
+~ a~correr 
++ to~the hospital
+~ al     hospital
+- to school    
+~ a  la~escuela
+
+[LINE]
+Speaker415: Maybe.      What~else~is~wrong?
+~           a~lo~mejor  qué~más~está~mal   
+
+[LINE]
+Speaker414: My mouth is   dry.  Now   my mouth is   wet.    Now   it's dry  again!   
+~           mi boca  está seca  ahora mi boca  está húmeda  ahora está seca otra~vez 
+
+[LINE]
+Speaker414: Is~my~face   blue?
+~           mi~cara~está azul 
+
+[LINE]
+Speaker415: It~is!            Cool!  
+~           (sí)~está~(azul)  genial 
+
+[LINE]
+Speaker414: I  think      I'm~dying.            I'm~going~to~lie~down.   
+~           yo creo~(que) yo~me~estoy~muriendo  voy~a~ir~(a)~acostar(me) 
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "cuaderno".
+Speaker415: (Wait)!   I  (need)     (to~write) this in my (+notebook)!
+~            espera   yo  necesito   escribir  esto en mi   cuaderno  
+
+[LINE]
+Speaker414: Because you want    to~tell~the  doctor?
+~           porque  tú  quieres decírselo~al doctor 
+
+[LINE]
+Speaker415: No. Because I  want   to~tell       my teacher! You're  my new   science~project!     
+~           no  porque  yo quiero decir(le)~(a) mi maestro  tú~eres mi nuevo proyecto~de~ciencias 
+
+[MULTIPLE_CHOICE]
+> ¿Cómo se convirtió Eddy en el nuevo experimento de ciencias de Junior?
++ Él se enfermó después de comerse el antiguo experimento de ciencias de Junior.
+- Él estuvo dentro del refrigerador durante varios meses.
+- Su piel se puso azul en la ducha.
+
+[MATCH]
+> Selecciona los pares
+- It's March now <> ahora es marzo
+- body <> cuerpo
+- This <> este
+- blue <> azul
+- You're <> tú eres
+
