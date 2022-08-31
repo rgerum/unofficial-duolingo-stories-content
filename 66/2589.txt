@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Las flores de Oscar
+icon=3bc2c3a627aad5f5aef4f68ae652c16713f9048f
+set=13|4
+
+[HEADER]
+> Oscar's~Flowers    
+~ las~flores~de~Oscar
+
+[LINE]
+> Oscar is   in his garden. He sees his co-worker,            Eddy.
+~ Oscar está en su  jardín  él ve~a su  compañero~de~trabajo  Eddy 
+
+[LINE]
+Speaker592: Eddy! Why     are~you~wearing a   nice~shirt    today? You never wear nice~shirts.    
+~           Eddy  por~qué estás~usando    una camisa~bonita hoy    tú  nunca usas camisas~bonitas 
+
+[LINE]
+Speaker414: I'm~meeting        my date now!  
+~           voy~a~reunirme~con mi cita ahora 
+
+[LINE]
+Speaker592: Hmm. Do~you~have any     flowers for  your date? Or chocolates?
+~           mmm  tienes      algunas flores  para tu   cita  o  chocolates 
+
+[LINE]
+Speaker414: I  can't~buy~her      anything now…   I'm~late! 
+~           yo no~puedo~comprarle nada     ahora  voy~tarde 
+
+[MULTIPLE_CHOICE]
+> Eddy compró chocolates y   flores para su cita.
+~ Eddy compró chocolates and flores ~    Su cita 
++ No, no es así.
+~ no  no es asi 
+- Sí, así es.
+~ Si  asi es 
+
+[LINE]
+Speaker592: You can~give~her some    of my  flowers.
+~           tú  puedes~darle algunas de mis flores  
+
+[LINE]
+> Oscar gives   Eddy flowers from his garden.
+~ Oscar le~da~a Eddy flores  de   su  jardín 
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Oscar le dio flores a Eddy?
+- Él está enamorado de la cita de Eddy.
+- Él va a tener una cita con Eddy.
++ Él quiere que Eddy se las dé a su cita.
+
+[LINE]
+Speaker414: I  can't~take     those flowers.
+~           yo no~puedo~tomar esas  flores  
+
+[LINE]
+Speaker592: Do~you~like this person? 
+~           te~gusta    esta persona 
+
+[LINE]
+Speaker414: Yes! She's   really    funny.   
+~           sí   ella~es realmente graciosa 
+
+[LINE]
+Speaker592: Then     give~her these flowers.
+~           entonces dale     estas flores  
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker414: Oscar, I  don't~want [the flowers]!
+~           Oscar  yo no~quiero   las flores   
++ the flowers
+~ las flores 
+- a   nice   shirt 
+~ una bonita camisa
+- to~go~to work   
+~ ir~al    trabajo
+
+[LINE]
+Speaker592: Why?    
+~           por~qué 
+
+[LINE]
+> Eddy starts~sneezing.     
+~ Eddy empieza~a~estornudar 
+
+[MULTIPLE_CHOICE]
+> ¿Qué está haciendo Eddy?
+- llorando
++ estornudando
+- gritando
+
+[LINE]
+Speaker592: Eddy? Are~you OK?  
+~           Eddy  estás   bien 
+
+[LINE]
+Speaker414: No! I'm    allergic to flowers!   
+~           no  yo~soy alérgico a  las~flores 
+
+[LINE]
+Speaker592: Oh no. Your face is   very red. 
+~           ah no  tu   cara está muy  roja 
+
+[LINE]
+Speaker414: Ugh. I  feel      terrible…
+~           agh  yo me~siento terrible 
+
+[LINE]
+Speaker592: Well,  have~fun   on your date!
+~           bueno  diviértete en tu   cita 
+
+[MULTIPLE_CHOICE]
+> ¡Pobre Eddy! ¿Por qué se siente tan mal?
+- Él se dio cuenta de que su cita es mañana.
++ Él es alérgico a las flores.
+- Él no tiene un regalo para Oscar.
+
+[MATCH]
+> Selecciona los pares
+- can't buy her <> no puedo comprarle
+- in <> en
+- Eddy <> Eddy
+- Then <> entonces
+- allergic <> alérgico
+
