@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Ăn tối cùng CEO
+icon=48ff56bf472c683d952ff24420066dbef5e7ac9f
+set=28|1
+
+[HEADER]
+> Dinner  with     the~CEO      
+~ bữa~tối cùng~với tổng~giám~đốc
+
+[LINE]
+> Bea is~using  the~photocopier at~work.   Her~boss,  Craig, comes to~talk~to     her.  
+~ Bea đang~dùng máy~photocopy   ở~chỗ~làm  sếp~cô~ấy  Craig  đến   nói~chuyện~với cô~ấy 
+
+[LINE]
+Speaker100: Bea, I'm~meeting our~company's~CEO              for~dinner tonight.
+~           Bea  tôi~sẽ~gặp  tổng~giám~đốc~công~ty~chúng~ta để~ăn~tối  tối~nay 
+
+[LINE]
+Speaker100: Can~you~come?             You couldn't~come    last~time.
+~           cô~có~thể~đến~được~không  cô  đã~không~thể~đến lần~trước 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker507: I  [really~want~to~come],  but   I  can't.    
+~           em  thật~sự~rất~muốn~đến   nhưng em không~thể 
++ really want to come
+- really want to run
+- will be wanting some
+
+[LINE]
+Speaker100: OK,       but   she   really      wants to~meet you…
+~           đành~vậy  nhưng bà~ấy thật~sự~rất muốn  gặp     cô  
+
+[LINE]
+Speaker507: I  know. I'm~sorry.  
+~           em biết  em~rất~tiếc 
+
+[LINE]
+> Later,   Craig is~eating~dinner with     the~CEO,       Paula.
+~ lúc~sau  Craig đang~ăn~tối      cùng~với tổng~giám~đốc  Paula 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+> [(Bea) (walks) (past)      (their)   (table).]
+~   Bea   đi      ngang~qua   …của~họ   bàn     
+
+[LINE]
+Speaker100: Bea, you're~here! 
+~           Bea  cô~đến~đấy~à 
+
+[LINE]
+Speaker507: Oh… hi,       Craig! You chose…   this~restaurant?
+~           ơ   chào~sếp  Craig  sếp đã~chọn  nhà~hàng~này    
+
+[LINE]
+Speaker100: I'm~so~happy~that you came~to the~meeting.  This is Paula, our~CEO!                   
+~           tôi~rất~vui~vì    cô  đã~đến  cuộc~gặp~này  đây  là Paula  tổng~giám~đốc~của~chúng~ta 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker507: Um… Actually, I'm~not~here     [to~meet~with you].    
+~           ừm  thật~ra   em~không~đến~đây  để~gặp       các~sếp  
+- until   tomorrow
+~ cho~đến ngày~mai
++ to~meet~with you    
+~ để~gặp       các~sếp
+- as~a~musician           
+~ để~(làm~người)~chơi~nhạc
+
+[LINE]
+Speaker100: What?! 
+~           gì~cơ  
+
+[LINE]
+Speaker507: I~work here  every~night… as~a~waitress.       
+~           em~làm ở~đây mỗi~tối      (em~làm)~phục~vụ~bàn 
+
+[MULTIPLE_CHOICE]
+> Vì sao Bea lại ở nhà hàng này?
+- Cô ấy có một cuộc hẹn ở đây.
++ Cô ấy làm phục vụ bàn ở đây.
+- Cô ấy muốn gặp bà CEO.
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “thực tập sinh”.
+Speaker988: (This) is the (+intern)        you (wanted) me  (to~meet)?
+~            đây   là cô    thực~tập~sinh  anh  muốn    tôi  gặp      
+
+[LINE]
+Speaker100: Yes,  but   I   didn't~know…     
+~           phải  nhưng tôi đã~không~biết~là 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker988: I   also had      two jobs      [when~I~was~younger]!   
+~           tôi cũng từng~làm hai công~việc  hồi~tôi~còn~trẻ~(hơn)  
++ when I was younger
+- then I was a young girl
+- when I was under
+
+[LINE]
+Speaker988: Bea, I   can~see   that you're a   hard~worker.        I   want to~hear all    your~ideas         for our~company!     
+~           Bea  tôi nhận~thấy rằng cô~là  một nhân~viên~chăm~chỉ  tôi muốn nghe    tất~cả các~ý~tưởng~của~cô cho công~ty~chúng~ta 
+
+[LINE]
+Speaker507: Wow, thanks!    
+~           ồ    cảm~ơn~sếp 
+
+[LINE]
+Speaker507: But   first,      I  should~give  you     some   bread,   or        my~other~boss  will~be~angry.
+~           nhưng trước~tiên  em nên~mang~cho các~sếp một~ít bánh~mì  không~thì sếp~kia~của~em sẽ~nổi~giận   
+
+[MULTIPLE_CHOICE]
+> Vì sao CEO lại có ấn tượng tốt với việc Bea đi làm thêm?
+- Bà ấy muốn nhanh chóng sa thải Bea.
+- Bà ấy nghĩ mình có thể lấy thêm bánh mì.
++ Bà ấy nghĩ Bea là một người chăm chỉ.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- I work <> em làm
+- you're <> cô là
+- I'm sorry <> em rất tiếc
+- Um <> ừm
+- walks <> đi
+
