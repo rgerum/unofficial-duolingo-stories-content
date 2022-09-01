@@ -1,0 +1,133 @@
+[DATA]
+fromLanguageName=Eine großartige Lehrerin
+icon=a9681a315953f6989db38214607b7c092b4b06df
+set=16|1
+
+[HEADER]
+> A    Great      Teacher 
+~ eine großartige Lehrerin
+
+[LINE]
+> Jennifer is~outside~of~the school~principal's~office.
+~ Jennifer steht~vor~dem     Büro~der~Schuldirektorin  
+
+[LINE]
+Speaker856: OK, I'm~going to~tell~the~principal     that I   want~to~leave~this~job.  
+~           OK  ich~werde der~Schuldirektorin~sagen dass ich diesen~Job~kündigen~will 
+
+[MULTIPLE_CHOICE]
+> Jennifer wird ihrem Chef sagen, dass sie ihren Job kündigen möchte.
+- Nein, das ist falsch.
++ Ja, das ist richtig.
+
+[LINE]
+Speaker856: I'm     a    bad       teacher. 
+~           ich~bin eine schlechte Lehrerin 
+
+[LINE]
+Speaker856: My    students hate   me!  
+~           meine Schüler  hassen mich 
+
+[LINE]
+Speaker856: Teaching     is  too hard.  
+~           Unterrichten ist zu  schwer 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+> She knocks on [the door].
+~ sie klopft an  die Tür   
++ the door
+~ die Tür 
+- the bus
+~ den Bus
+- the letter
+~ den Brief 
+
+[LINE]
+> No~one  answers.  
+~ niemand antwortet 
+
+[ARRANGE]
+> Was hörst du?
+> [(Oscar) (comes) (out) (of~his) (classroom).]    
+~   Oscar   kommt   aus   seinem   Klassenzimmer   
+
+[LINE]
+Speaker592: Hello, Jennifer. Principal       Stewart isn't     in her   office.
+~           hallo  Jennifer  Schuldirektorin Stewart ist~nicht in ihrem Büro   
+
+[LINE]
+Speaker592: Can  I   help~you?  
+~           kann ich dir~helfen 
+
+[LINE]
+Speaker856: Maybe…      Can  I   talk~to~you?  
+~           vielleicht  kann ich mit~dir~reden 
+
+[LINE]
+Speaker592: Sure. But,  first,  I~think   you're  a    great      teacher! 
+~           klar  aber  zuerst  ich~finde du~bist eine großartige Lehrerin 
+
+[LINE]
+Speaker856: Really?  
+~           wirklich 
+
+[LINE]
+Speaker592: Yes! Your  students love   you! 
+~           ja   deine Schüler  lieben dich 
+
+[LINE]
+Speaker592: Some   teachers leave     school       early.
+~           einige Lehrer   verlassen (die)~Schule früh  
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker592: But  you always~stay   [to~help~your~students].       
+~           aber du  bleibst~immer  um~deinen~Schülern~zu~helfen  
+- to hope your student
+- to have your studies
++ to help your students
+
+[LINE]
+Speaker592: I   know teaching     isn't     easy.    But  your  students need     you! 
+~           ich weiß Unterrichten ist~nicht einfach  aber deine Schüler  brauchen dich 
+
+[LINE]
+Speaker856: You're  right…
+~           du~hast recht 
+
+[ARRANGE]
+> Was hörst du?
+Speaker856: [(I)   (need) (to~remember~that).]
+~             ich   muss   mir~das~merken     
+
+[LINE]
+Speaker856: Sometimes I~worry              that I'm~a~bad~teacher.              
+~           manchmal  mache~ich~mir~Sorgen dass ich~eine~schlechte~Lehrerin~bin 
+
+[LINE]
+Speaker592: Yes, I   know, Jennifer.
+~           ja   ich weiß  Jennifer 
+
+[LINE]
+Speaker856: How   do~you~know? 
+~           woher weißt~du~das 
+
+[LINE]
+Speaker592: Well,  you were~talking~very~loudly   outside~of my     classroom.    
+~           na~ja  du  hast~ziemlich~laut~geredet vor        meinem Klassenzimmer 
+
+[MULTIPLE_CHOICE]
+> Woher wusste Oscar von Jennifers Problem?
+- Einer ihrer Schüler hat es ihm verraten.
+- Er hat ihre privaten E-Mails gelesen.
++ Sie hat ziemlich laut vor seinem Klassenzimmer darüber geredet.
+
+[MATCH]
+> Wähle die Paare
+- talk to you <> mit dir reden
+- Can <> kann
+- I <> ich
+- too <> zu
+- office <> Büro
+
