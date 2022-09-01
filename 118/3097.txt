@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=A New Sport
+icon=ffc3b50b92f23fc916451e34174edcdcea58d258
+set=7|4
+
+[HEADER]
+> Um esporte~novo
+~ a  new~sport   
+
+[LINE]
+> Eddy e   Júnior estão em uma loja. 
+~ Eddy and Júnior are   at a   store 
+
+[LINE]
+Speaker414: Você~quer   praticar    um esporte~novo? Excelente!
+~           do~you~want to~practice a  new~sport     excellent 
+
+[LINE]
+Speaker414: Você~quer   praticar    basquete?  
+~           do~you~want to~practice basketball 
+
+[LINE]
+Speaker415: Eu não~gosto~de esportes~de~equipe.
+~           I  don't~like   team~sports        
+
+[MULTIPLE_CHOICE]
+> Júnior loves team sports.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker414: Essa bola~de~futebol é  bonita!
+~           this soccer~ball     is pretty 
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(Futebol) (é)  (um) (esporte~de~equipe).]
+~             soccer    is   a    team~sport          
+
+[LINE]
+Speaker414: Humm… Você~quer…  
+~           hmm   do~you~want 
+
+[LINE]
+Speaker415: Eu quero?
+~           I  want  
+
+[SELECT_PHRASE]
+> Select the missing word or phrase
+Speaker414: Nadar!   Você~quer   [nadar]?!  
+~           to~swim  do~you~want  to~swim   
++ nadar
+- no ar
+- falar
+
+[LINE]
+Speaker415: Não…
+~           no  
+
+[CONTINUATION]
+> What comes next?
+Speaker414: Mas nadar    é  um esporte [sem     equipe]!
+~           but swimming is a  sport    without a~team  
+- no     carro
+~ in~the car  
+- com  raquete 
+~ with a~racket
++ sem     equipe
+~ without a~team
+
+[LINE]
+Speaker415: Não, papai!
+~           no   Dad   
+
+[LINE]
+Speaker414: O~que~você~quer  praticar?   
+~           what~do~you~want to~practice 
+
+[LINE]
+> Júnior olha~para sapatilhas~de~balé.
+~ Júnior looks~at  ballet~shoes       
+
+[LINE]
+Speaker415: Eu quero… dançar.  
+~           I  want   to~dance 
+
+[MULTIPLE_CHOICE]
+> Did you catch that? Júnior wants to…
++ …dance.
+- …go for a swim.
+- …play football.
+
+[LINE]
+Speaker414: Você~quer   dançar?  
+~           do~you~want to~dance 
+
+[LINE]
+Speaker415: Sim… Qual é  o   problema?
+~           yes  what is the problem  
+
+[LINE]
+Speaker414: Não~tem     problema! Dançar  também~é um esporte!
+~           there~is~no problem   dancing is~also  a  sport   
+
+[LINE]
+> Eddy começa~a  dançar     na     loja. 
+~ Eddy starts~to (to)~dance in~the store 
+
+[LINE]
+Speaker415: Papai! Por~favor, para~de dançar! 
+~           Dad    please     stop    dancing 
+
+[MULTIPLE_CHOICE]
+> Why is Eddy dancing?
++ He's excited that Junior wants to dance.
+- He's trying on a pair of ballet shoes.
+- He wants to show Junior that dancing is hard.
+
+[MATCH]
+> Tap the pairs
+- sapatilhas de balé <> ballet shoes
+- equipe <> a team
+- Mas <> but
+- Por favor <> please
+- é <> is
+
