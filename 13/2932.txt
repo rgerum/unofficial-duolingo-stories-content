@@ -1,0 +1,173 @@
+[DATA]
+fromLanguageName=Space Turtles
+icon=89dc756e22a9bd57006c36b336ceff4217620c05
+set=38|3
+
+[HEADER]
+> Les~tortues~de~l'espace
+~ space~turtles          
+
+[LINE]
+> Eddy est en~train~de~regarder les dernières transactions de sa  carte~bancaire. Il en~voit une qu'il   ne~reconnaît~pas. 
+~ Eddy is  looking~at           the latest    transactions on his debit~card      he sees    one that~he doesn't~recognize 
+
+[LINE]
+Speaker414: Junior ? Tu~joues~à  un jeu  qui~s'appelle « Les~tortues~de~l'espace » ?
+~           Junior   do~you~play a  game that's~called ~ space~turtles           ~  
+
+[LINE]
+Speaker415: Oui, c'est des~tortues qui se~battent contre  des~robots... dans l'espace !
+~           yes  it's  turtles     who fight      against robots        in   space     
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: Tu  l'as~téléchargé [sur~mon~téléphone], tu~te~souviens  ?
+~           you downloaded~it    on~my~phone         do~you~remember  
+- sur mon saxophone
+- sous ton téléphone
++ sur mon téléphone
+
+[LINE]
+Speaker414: Oh, oui. Je m'en~souviens maintenant.
+~           oh  yes  I  remember      now        
+
+[LINE]
+Speaker415: C'est un super jeu  ! 
+~           it's  a  great game   
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(Regarde) (toutes~les) (tortues) (que)  (j'ai~téléchargées) ]!
+~             look~at   all~the      turtles   that   I~downloaded         
+
+[LINE]
+Speaker414: Junior, je paye    chaque tortue que  tu  télécharges. Tu  as~dépensé cent-cinquante    euros !
+~           Junior  I  pay~for every  turtle that you download     you spent      one~hundred~fifty euros  
+
+[LINE]
+Speaker415: Oh, désolé. Je ne~savais~pas. Je ne~suis~qu'un enfant !
+~           oh  sorry   I  didn't~know    I  am~just~a     kid     
+
+[LINE]
+Speaker414: Je vais     appeler leur  service~client.   Peut-être~qu'ils me~rembourseront.
+~           I  am~going to~call their customer~service  maybe~they       will~refund~me   
+
+[MULTIPLE_CHOICE]
+> Eddy va…      
+~ Eddy is~going 
++ … demander qu'on~restitue      son argent.
+~   to~ask   that~they~give~back his money  
+- … faire~sonner le~téléphone~de~Junior.
+~   to~make~ring Junior's~phone         
+- … se~battre contre  des~tortues~de~l'espace.
+~   to~fight  against space~turtles           
+
+[LINE]
+> Eddy appelle le~service~client. Une femme qui~s'appelle Paméla répond. 
+~ Eddy calls   customer~service   a   woman whose~name~is Paméla answers 
+
+[LINE]
+Speaker1186: Que  puis-je faire   pour vous ?
+~            what can~I   (to)~do for  you   
+
+[LINE]
+Speaker414: Bonjour ! Mon fils a~dépensé cent-cinquante    euros sur votre jeu.  Serait-il   possible~de me~rembourser ?
+~           hello     my  son  spent     one~hundred~fifty euros on  your  game  would~it~be possible    to~refund~me   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1186: Désolée, mais nous [ne~remboursons~personne].
+~            sorry    but  we    don't~refund~anyone      
++ ne remboursons personne
+- ne retournons personne
+- ne remplaçons personne
+
+[LINE]
+Speaker414: Ce n'est~qu'un enfant ! Il ne~savait~pas qu'il~fallait    payer    pour télécharger   les tortues...
+~           he is~just~a   kid      he didn't~know   that~you~have~to (to)~pay to   (to)~download the turtles   
+
+[LINE]
+Speaker1186: Bon,  d'accord. Je vais     demander~à mon chef. Je vous~rappelle.     
+~            well  OK        I  am~going to~ask     my  boss  I  will~call~you~back 
+
+[LINE]
+> Paméla raccroche.
+~ Paméla hangs~up  
+
+[ARRANGE]
+> Tap what you hear
+> [(Eddy) (prend) (le)  (téléphone) (de~Junior).]
+~   Eddy   takes   the   phone       of~Junior   
+
+[LINE]
+Speaker414: Allez,   Junior. Ils  ne~vont~probablement~pas me~rembourser, alors tu  peux au~moins me~montrer   le  jeu. 
+~           come~on  Junior  they probably~aren't~going    to~refund~me   so    you can  at~least (to)~show~me the game 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Eddy~veut-il   jouer~au    jeu  ?
+~ why      does~Eddy~want to~play~the game  
+- Il peut gagner    de~l'argent quand les tortues se~battent.
+~ he can  (to)~make money       when  the turtles fight      
++ Il pense  qu'il   ne~sera~jamais remboursé.
+~ he thinks that~he will~never~be  refunded  
+- Il peut apprendre  de~nouvelles langues   avec les tortues.
+~ he can  (to)~learn new          languages with the turtles 
+
+[LINE]
+> Ils  jouent~au jeu  pendant une heure.
+~ they play~the  game for     an  hour  
+
+[LINE]
+> Paméla rappelle~enfin.    
+~ Paméla finally~calls~back 
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker1186: Bonne~nouvelle, nous allons    [vous~rembourser].
+~            good~news       we   are~going  to~refund~you    
++ vous~rembourser
+~ to~refund~you  
+- tout~télécharger      
+~ to~download~everything
+- vous~défier      en~duel  
+~ to~challenge~you to~a~duel
+
+[LINE]
+Speaker414: Super !
+~           great  
+
+[LINE]
+Speaker1186: Nous allons    donc      supprimer toutes les tortues~téléchargées.
+~            we   are~going therefore to~delete all    the downloaded~turtles   
+
+[LINE]
+Speaker414: Quoi ? Non !
+~           what   no   
+
+[LINE]
+Speaker414: J'aime toutes nos tortues !
+~           I~love all    our turtles  
+
+[LINE]
+Speaker414: En~fait,  vous~pourriez    m'aider      ? Je dois    télécharger   dix nouvelles tortues, mais ça dit  que  mon compte  est bloqué...
+~           actually  could~you~please (to)~help~me   I  have~to (to)~download ten new       turtles  but  it says that my  account is  locked   
+
+[MULTIPLE_CHOICE]
+> Pourquoi Eddy~ne~veut~plus        être  remboursé ?
+~ why      does~Eddy~no~longer~want to~be refunded   
++ Il veut  garder  toutes les tortues~de~l'espace.
+~ he wants to~keep all    the space~turtles       
+- Il s'est~rappelé que  Junior était riche.
+~ he remembered    that Junior was   rich  
+- Il a~appris que  Paméla était une tortue~de~l'espace.
+~ he learned  that Paméla was   a   space~turtle       
+
+[MATCH]
+> Tap the pairs
+- toutes <> all
+- qui <> who
+- au moins <> at least
+- que <> that
+- Peut-être qu'ils <> maybe they
+
