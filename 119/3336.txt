@@ -1,0 +1,198 @@
+[DATA]
+fromLanguageName=No Dinner
+icon=2e489bd6080f3a020d405a6384ecd62a55ff9258
+set=42|3
+
+[HEADER]
+> Kein Abendessen
+~ no   dinner    
+
+[LINE]
+> Vikram läuft      zu seinem Nachbarn Eddy in   die Wohnung.  
+~ Vikram is~running to his    neighbor Eddy into the apartment 
+
+[LINE]
+Speaker593: Eddy, hier bin~ich! Was  ist dein Notfall?!  
+~           Eddy  here I~am     what is  your emergency  
+
+[LINE]
+Speaker414: Ich habe gleich  ein Date, aber ich habe~vergessen, dass sie Vegetarierin~ist  … wie  du! 
+~           I   have shortly a   date  but  I   forgot          that she is~(a)~vegetarian   like you 
+
+[MULTIPLE_CHOICE]
+> Was  ist Eddys  Notfall?  
+~ what is  Eddy's emergency 
+- Er will  sich~mit~Vikram~verabreden.
+~ he wants to~meet~Vikram             
+- Er hat~vergessen, wo    Vikram wohnt.
+~ he forgot         where Vikram lives 
++ Er hat~vergessen, dass sein Date kein~Fleisch~isst.
+~ he forgot         that his  date doesn't~eat~meat  
+
+[LINE]
+Speaker593: Das  ist kein Notfall,   Eddy.
+~           that is  no   emergency  Eddy 
+
+[LINE]
+Speaker414: Aber ich mag  sie total~gern!
+~           but  I   like her a~lot      
+
+[LINE]
+Speaker593: OK. Ich helfe     dir.
+~           OK  I   will~help you 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker593: Es ist gar~nicht~schwer,     [vegetarisch~zu~kochen]!    
+~           it is  not~difficult~at~all   to~cook~vegetarian~(food)  
+- fantastisch zu kochen
+- vegetarisch zu shoppen
++ vegetarisch zu kochen
+
+[LINE]
+> Vikram öffnet den Kühlschrank.
+~ Vikram opens  the fridge      
+
+[LINE]
+Speaker593: Hmm … OK, das  ist ziemlich viel     Fleisch.
+~           hmm   OK  that is  quite    a~lot~of meat    
+
+[CONTINUATION]
+> Was  kommt als~Nächstes?
+~ what comes next         
+Speaker593: Hähnchen, Rindfleisch, Schweinefleisch … Warum hast~du     so viel [Fleisch, Eddy?]!
+~           chicken   beef         pork              why   do~you~have so much  meat     Eddy   
+- Milch, Eddy
+~ milk   Eddy
++ Fleisch, Eddy
+~ meat     Eddy
+- Obst,  Eddy
+~ fruit  Eddy
+
+[POINT_TO_PHRASE]
+> Wähle  die Option mit~der~Bedeutung „grow|“.
+~ choose the option that~means         grow ~ 
+Speaker414: Ich (mache) (sehr~viel) Sport!  Ich muss    viel~Fleisch~essen, damit   meine (Muskeln) (+wachsen)!
+~           I    do      lots~of    sports  I   have~to eat~lots~of~meat    so~that my     muscles    grow     
+
+[LINE]
+Speaker593: Hast~du     noch~andere~Lebensmittel?
+~           do~you~have any~other~food           
+
+[LINE]
+Speaker414: Joghurt!
+~           yogurt  
+
+[LINE]
+Speaker593: Eddy, du  kannst deinem Date keinen Joghurt zum~Abendessen geben.
+~           Eddy  you can    your   date no     yogurt  for~dinner     give  
+
+[LINE]
+Speaker414: Ich habe auch~noch … Frühstücksflocken?
+~           I   have also        cereal            
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker593: Eddy, Frühstücksflocken sind [kein~Abendessen]! Wo    ist das Gemüse?    
+~           Eddy  cereal            is    not~dinner        where are the vegetables 
+- dein Mittagessen
+- nicht angemessen
++ kein Abendessen
+
+[LINE]
+Speaker414: Hast du  hinten      im~Kühlschrank nachgesehen?
+~           have you at~the~back of~the~fridge  looked      
+
+[LINE]
+Speaker593: Ah, ich sehe etwas     Grünes!
+~           ah  I   see  something green  
+
+[LINE]
+Speaker414: Oh, ich glaube, das  ist Juniors  Biologie-Experiment.
+~           oh  I   think   that is  Junior's biology~experiment  
+
+[MULTIPLE_CHOICE]
+> Was  ist das Grüne         in Eddys  Kühlschrank?
+~ what is  the green~(stuff) in Eddy's fridge      
++ etwas     für Juniors  Biologieunterricht
+~ something for Junior's biology~class     
+- ein schreckliches grünes Monster
+~ a   terrible      green  monster
+- eine alte Tüte mit  Salat
+~ an   old  bag  with salad
+
+[LINE]
+Speaker593: Eddy, du  solltest in den Supermarkt  gehen.
+~           Eddy  you should   to the supermarket go    
+
+[LINE]
+Speaker414: Aber sie kommt     schon   in einer~halben~Stunde!
+~           but  she is~coming already in half~an~hour        
+
+[CONTINUATION]
+> Was  kommt als Nächstes?
+~ what comes as  next     
+Speaker414: Ich habe keine Zeit [einzukaufen]!   
+~           I   have no    time  to~go~shopping  
+- zu~joggen
+~ to~jog   
+- einen~Tee~zu~trinken
+~ to~drink~a~tea      
++ einzukaufen   
+~ to~go~shopping
+
+[LINE]
+> Junior kommt in   die Küche.  
+~ Junior comes into the kitchen 
+
+[LINE]
+Speaker415: Hi, Vikram. Hi, Papa.
+~           hi  Vikram  hi  dad  
+
+[LINE]
+Speaker415: Ist alles      in~Ordnung?
+~           is  everything OK         
+
+[LINE]
+Speaker593: Nein. Sein Date ist Vegetarierin   und kommt     gleich  zum~Abendessen.
+~           no    his  date is  (a)~vegetarian and is~coming shortly for~dinner     
+
+[LINE]
+Speaker415: Ja,  und?
+~           yes  so  
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Wir) (haben) (nichts)  (Vegetarisches) (im~Haus)!]     
+~             we    have    nothing   vegetarian      in~the~house   
+
+[LINE]
+Speaker415: Das  stimmt~doch~gar~nicht. Wir haben Eis.      
+~           that isn't~true~at~all      we  have  ice~cream 
+
+[LINE]
+Speaker593: Eis       ist kein Abendessen, Junior.
+~           ice~cream is  not  dinner      Junior 
+
+[LINE]
+Speaker415: Natürlich ist~Eis      Abendessen! Wir essen ganz  oft   Eis       zum~Abendessen, nicht~wahr, Papa?
+~           of~course ice~cream~is dinner      we  eat   quite often ice~cream for~dinner      don't~we    dad  
+
+[MULTIPLE_CHOICE]
+> Warum soll   sich~Eddy~keine~Sorgen~machen?
+~ why   should Eddy~not~be~worried           
+- Eddys  Date isst~sehr~gerne     Fleisch.
+~ Eddy's date really~likes~to~eat meat    
+- Junior hat Pizza~bestellt.
+~ Junior has ordered~pizza  
++ Junior findet, dass Eis       ein~gutes~Abendessen~ist.
+~ Junior thinks  that ice~cream makes~a~good~dinner      
+
+[MATCH]
+> Tap the pairs
+- Oh <> oh
+- Küche <> kitchen
+- Biologie-Experiment <> biology experiment
+- im Haus <> in the house
+- seinem <> his
+
