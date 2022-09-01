@@ -1,0 +1,157 @@
+[DATA]
+fromLanguageName=Bird Sitting
+icon=bec6ac06369ced77777ad5151e3a385213c413b8
+set=32|4
+
+[HEADER]
+> Vogelsitting
+~ bird~sitting
+
+[LINE]
+> Lin telefoniert             mit  ihrem Freund Gerrit.
+~ Lin is~talking~on~the~phone with her   friend Gerrit 
+
+[LINE]
+Speaker508: Hallo, Gerrit!
+~           hello  Gerrit 
+
+[LINE]
+Speaker508: Kommst~du      morgen~nach~Hause oder am~Dienstag?
+~           are~you~coming home~tomorrow     or   on~Tuesday  
+
+[LINE]
+Speaker7: Morgen.  
+~         tomorrow 
+
+[LINE]
+Speaker7: Danke,     dass du  auf   mein Haus  und meinen Vogel aufgepasst~hast.
+~         thank~you  that you after my   house and my     bird  looked          
+
+[MULTIPLE_CHOICE]
+> Lin took care of her friend's bird while he was away.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker508: Gern~geschehen.
+~           you're~welcome 
+
+[LINE]
+Speaker7: Ist zu~Hause alles      OK?
+~         is  at~home  everything OK 
+
+[LINE]
+Speaker508: Also, ich habe schlechte Nachrichten.
+~           so    I   have bad       news        
+
+[LINE]
+Speaker508: Dein Vogel ist aus    dem Fenster geflogen.
+~           your bird  has out~of the window  flown    
+
+[LINE]
+Speaker7: Was?! 
+~         what  
+
+[LINE]
+Speaker508: Die Käfigtür  war offen.
+~           the cage~door was open  
+
+[MULTIPLE_CHOICE]
+> What was open?
++ the cage
+- the fridge
+- the shower
+
+[LINE]
+Speaker7: Warum das? 
+~         why   that 
+
+[ARRANGE]
+> Tap what you hear
+Speaker508: [(Sie) (hat~sich~geöffnet), (als)  (der~Käfig) (runtergefallen~ist).]
+~             it    opened               when   the~cage    fell~over            
+
+[LINE]
+Speaker7: Warum ist der Käfig runtergefallen?
+~         why   did the cage  fall~over      
+
+[LINE]
+Speaker508: Tja,  dein Bett ist zuerst durch   die Decke   gefallen und dann auf den Käfig.
+~           well  your bed  has first  through the ceiling fallen   and then on  the cage  
+
+[LINE]
+Speaker7: Mein Bett ist durch   die Decke   gefallen?
+~         my   bed  has through the ceiling fallen   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker7: [Wie~ist~das~passiert]?
+~          how~did~that~happen   
++ Wie ist das passiert
+- Wo ist er spaziert
+- Wer hat sich rasiert
+
+[LINE]
+Speaker508: Der Boden war überschwemmt.
+~           the floor was flooded      
+
+[LINE]
+Speaker7: Was?  Warum war mein Boden überschwemmt?
+~         what  why   was my   floor flooded      
+
+[LINE]
+Speaker508: Ich musste das~Feuer~löschen.
+~           I   had~to put~out~the~fire  
+
+[LINE]
+Speaker7: Es~gab    ein Feuer in meinem Haus?! 
+~         there~was a   fire  in my     house  
+
+[LINE]
+Speaker508: Nur  oben     im     Schlafzimmer!
+~           only upstairs in~the bedroom      
+
+[LINE]
+Speaker7: Was  hast du  gemacht?!
+~         what did  you do       
+
+[LINE]
+Speaker508: Ich glaube,  es war wegen      der Meditationskerzen. 
+~           I   believe  it was because~of the meditation~candles 
+
+[MULTIPLE_CHOICE]
+> Yikes! What caused the fire?
+- the candles on Lin's birthday cake
++ Lin's meditation candles
+- a lot of birds
+
+[LINE]
+Speaker7: Meditationskerzen?! 
+~         meditation~candles  
+
+[LINE]
+Speaker508: Oh ja,  ich mache    einen Meditationskurs.   Ich bin schon   viel  entspannter. 
+~           oh yes  I   am~doing a     meditation~course  I   am  already a~lot more~relaxed 
+
+[LINE]
+Speaker508: Aber egal,      ich kann nächsten Monat wieder auf~dein~Haus~aufpassen.
+~           but  nevermind  I   can  next     month again  look~after~your~house   
+
+[LINE]
+Speaker508: Gerrit? Hallo? Bist du  noch  dran? 
+~           Gerrit  hello  are  you still there 
+
+[MULTIPLE_CHOICE]
+> Why did Gerrit hang up?
+- He's angry because Lin stole his bird.
++ He's angry because Lin destroyed his house.
+- He's going to go to Lin's meditation class.
+
+[MATCH]
+> Tap the pairs
+- Schlafzimmer <> bedroom
+- schon <> already
+- OK <> OK
+- aus <> out of
+- Kommst du <> are you coming
+
