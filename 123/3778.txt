@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=El cumpleaños de Junior
+icon=9ac312d372abe49d99606848f5a7a8414143346d
+set=11|1
+
+[HEADER]
+> L'anniversaire de Junior
+~ el~cumpleaños  de Junior
+
+[LINE]
+> Eddy dort           et Junior arrive dans sa chambre.   
+~ Eddy está~durmiendo y  Junior entra  en   su habitación 
+
+[LINE]
+Speaker415: Papa ! Papa !
+~           papá   papá  
+
+[LINE]
+Speaker414: Quoi ? Ah, bonjour,     Junior.
+~           qué    ah  buenos~días  Junior 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker415: Papa, ma fête   d'anniversaire [va~être~super]   !
+~           papá  mi fiesta de~cumpleaños   va~a~ser~genial   
+- veut être dernière
+- vient d'être ouvert
++ va être super
+
+[LINE]
+Speaker414: Ah, oui. Euh… Bon~anniversaire ?
+~           ah  sí   eh   feliz~cumpleaños  
+
+[LINE]
+Speaker414: Et qu'est-ce~que~tu~veux faire pour ta fête   ?
+~           y  qué~quieres           hacer para tu fiesta  
+
+[LINE]
+Speaker415: Je~ne~sais~pas !
+~           no~sé           
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker415: [(Mais) (je~veux) (du~chocolat) ]!
+~             pero   quiero    chocolate      
+
+[LINE]
+Speaker415: Beaucoup~de chocolat  !
+~           mucho       chocolate  
+
+[LINE]
+Speaker414: D'accord,  Junior. C'est ton anniversaire.
+~           está~bien  Junior  es    tu  cumpleaños   
+
+[LINE]
+Speaker415: Et on~peut préparer un gros~gâteau,   Papa ?
+~           y  podemos preparar un pastel~grande  papá  
+
+[LINE]
+Speaker414: Bien~sûr, Junior !
+~           claro     Junior  
+
+[LINE]
+Speaker415: Super  ! Et j'aimerais  inviter   tous  mes copains !
+~           genial   y  me~gustaría invitar~a todos mis amigos   
+
+[MULTIPLE_CHOICE]
+> ¿A quién quiere invitar Junior para su cumpleaños?
++ a todos sus amigos
+- a todos en el vecindario
+- a nadie
+
+[LINE]
+Speaker414: Ah, oui. Il~faut inviter   tous  tes copains.
+~           ah  sí   hay~que invitar~a todos tus amigos  
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker414: On~invite   tes copains pour [quelle heure ]?
+~           invitamos~a tus amigos  para  qué    hora    
+- Noël   
+~ Navidad
+- un~cours  de maths      
+~ una~clase de matemáticas
++ quelle heure
+~ qué    hora 
+
+[LINE]
+> Eddy regarde son portable.
+~ Eddy mira    su  teléfono 
+
+[LINE]
+Speaker414: Mais Junior… nous~sommes en janvier !
+~           pero Junior  estamos     en enero    
+
+[LINE]
+Speaker414: Ton anniversaire est en avril !
+~           tu  cumpleaños   es  en abril  
+
+[LINE]
+Speaker415: Oui, je~sais ! Ça  va   être super  !
+~           sí   lo~sé     eso va~a ser  genial  
+
+[LINE]
+Speaker415: Mais je~peux~avoir un peu  de chocolat  quand~même      ?
+~           pero puedo~comer   un poco de chocolate de~todas~formas  
+
+[LINE]
+Speaker414: Oui, d'accord. 
+~           sí   está~bien 
+
+[MULTIPLE_CHOICE]
+> No es el cumpleaños de Junior, pero él quiere…
++ … comer chocolate de todas formas.
+- … irse de viaje con su papá.
+- … tener una fiesta con sus amigos esta noche.
+
+[MATCH]
+> Selecciona los pares
+- nous sommes <> estamos
+- Ah <> ah
+- Papa <> papá
+- portable <> teléfono
+- anniversaire <> cumpleaños
+
