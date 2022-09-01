@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=Precisa de ajuda?
+icon=ec74184ed69da39d62ba574fa9d615f7d0c53da1
+set=9|4
+
+[HEADER]
+> Need~Help?       
+~ precisa~de~ajuda 
+
+[LINE]
+> Lin is~walking      on a   road.   
+~ Lin está~caminhando em uma estrada 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+> She sees a  man   [near~his~car].       
+~ ela vê   um homem  perto~do~carro~dele  
+- near this bar
+- hear his car
++ near his car
+
+[LINE]
+> He  looks  unhappy.
+~ ele parece infeliz 
+
+[LINE]
+Speaker508: Hi! Do~you~need     help? 
+~           oi  você~precisa~de ajuda 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker127: There~is a  problem  with [my  car].  
+~           há       um problema com   meu carro  
++ my  car  
+~ meu carro
+- the weather
+~ o   clima  
+- my  coffee
+~ meu café  
+
+[LINE]
+Speaker127: Can~I~use     your phone,    please?   
+~           eu~posso~usar seu  telefone  por~favor 
+
+[LINE]
+> Lin gives her~phone       to   the man.  
+~ Lin dá    o~telefone~dela para o   homem 
+
+[LINE]
+Speaker508: Sure,  but…
+~           claro  mas 
+
+[LINE]
+Speaker127: Sorry,    one minute.
+~           desculpe  um  minuto 
+
+[LINE]
+> The man   uses Lin's~phone.      
+~ o   homem usa  o~telefone~de~Lin 
+
+[LINE]
+Speaker127: Yes, is~this the auto~repair~shop?
+~           sim  esta~é  a   oficina~mecânica 
+
+[MULTIPLE_CHOICE]
+> O homem pegou o telefone da Lin emprestado para…
+- …ver as fotos dela.
++ …ligar para uma oficina mecânica.
+- …ver que horas são.
+
+[LINE]
+Speaker127: I  have  a  car~problem.      
+~           eu tenho um problema~no~carro 
+
+[LINE]
+Speaker508: Uh… Sir?   
+~           hã  senhor 
+
+[LINE]
+> The man   continues talking on~the phone.   
+~ o   homem continua  falando ao     telefone 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker127: No,  I  don't~know [where~I~am].   
+~           não  eu não~sei     onde~eu~estou  
+- where I ran
+- here I am
++ where I am
+
+[LINE]
+Speaker127: Excuse~me,   miss…     
+~           com~licença  senhorita 
+
+[LINE]
+Speaker508: Yes?
+~           sim 
+
+[LINE]
+Speaker127: Where~are~we?    
+~           onde~nós~estamos 
+
+[LINE]
+Speaker508: Near~the auto~repair~shop!
+~           perto~da oficina~mecânica 
+
+[LINE]
+Speaker127: What? 
+~           o~quê 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker508: [(I)  (work)     (there) (on~weekends).]       
+~             eu   trabalho   lá      nos~fins~de~semana   
+
+[LINE]
+Speaker508: I'm    a~mechanic!    
+~           eu~sou (uma)~mecânica 
+
+[LINE]
+Speaker508: So…    do~you~need     help? 
+~           então  você~precisa~de ajuda 
+
+[MULTIPLE_CHOICE]
+> Na verdade, a Lin…
+- …não sabe onde ela está.
+- …precisa de ajuda para comprar um telefone novo.
++ …trabalha na oficina.
+
+[MATCH]
+> Toque nos pares
+- a mechanic <> mecânica
+- gives <> dá
+- looks <> parece
+- Sorry <> desculpe
+- phone <> telefone
+
