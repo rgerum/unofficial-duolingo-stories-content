@@ -1,0 +1,92 @@
+[DATA]
+fromLanguageName=My Favorite Band
+icon=8809c44c2194d282a6e1573d25dcac12b6132022
+set=17|3
+
+[HEADER]
+> A~minha  banda~favorita
+~ (the)~my favorite~band 
+
+[LINE]
+> Lili e   Zari estão na classe.
+~ Lili and Zari are   in class  
+
+[LINE]
+Speaker418: Ei,  Lili! Você~pode me~ajudar?   
+~           hey  Lili  can~you   (to)~help~me 
+
+[LINE]
+Speaker416: Eu não~sei.    O~que você~quer?  
+~           I  don't~know  what  do~you~want 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker418: Eu não~posso ir      nadar    hoje.  Você~fala~para    o   professor que  [estou~doente]?
+~           I  can't     (to)~go swimming today  can~you~tell~(to) the teacher   that  I'm~sick      
++ estou doente
+- estou quente
+- está o dente
+
+[LINE]
+Speaker416: Você não~está doente, Zari.
+~           you  are~not  sick    Zari 
+
+[LINE]
+Speaker418: Cof,   cof,   cof…   Eu tenho uma carta  da   doutora Raquel. Olha!
+~           cough  cough  cough  I  have  a   letter from doctor  Raquel  look 
+
+[ARRANGE]
+> Tap what you hear
+> [(Zari) (mostra) (a)   (carta).] 
+~   Zari   shows    the   letter   
+
+[CONTINUATION]
+> What comes next?
+Speaker416: Zari, foi    você que escreveu [essa carta]. 
+~           Zari  it~was you  who wrote     this letter  
++ essa carta 
+~ this letter
+- essa classe
+~ this class 
+- aquele e-mail
+~ that   e-mail
+
+[LINE]
+Speaker418: Eu? Não!
+~           me  no  
+
+[POINT_TO_PHRASE]
+> Choose the option that means "lie."
+Speaker416: (Zari), (eu~sei)     (quando) você (+mente).
+~            Zari    I~can~tell   when    you    lie    
+
+[LINE]
+Speaker418: Está~bem!  Eu vou      ver    a~minha~banda~favorita, Os~City~Boys. 
+~           all~right  I  am~going to~see (the)~my~favorite~band  The~City~Boys 
+
+[LINE]
+Speaker416: Bem,  então, eu não~vou      te~ajudar.  
+~           well  then   I  am~not~going to~help~you 
+
+[LINE]
+Speaker418: Você está certa. Eu menti para você.
+~           you  are  right  I  lied  to   you  
+
+[LINE]
+Speaker416: Zari, eu não~vou      te~ajudar   porque  Os~City~Boys  cantam muito mal.  
+~           Zari  I  am~not~going to~help~you because The~City~Boys sing   very  badly 
+
+[MULTIPLE_CHOICE]
+> Lili thinks The City Boys are a terrible band, so…
++ …she won't tell the instructor that Zari is sick.
+- …she wants to start a band with Zari.
+- …she is writing a letter to complain.
+
+[MATCH]
+> Tap the pairs
+- não sei <> don't know
+- estão <> are
+- na <> in
+- Zari <> Zari
+- Você <> you
+
