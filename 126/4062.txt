@@ -1,0 +1,196 @@
+[DATA]
+fromLanguageName=Um monstro embaixo da cama
+icon=2ae39ad74abbad9f61bed45e4ff88fbafc38f692
+set=64|3
+
+[HEADER]
+> Monster      Under   the  Bed 
+~ (um)~monstro embaixo (d)a cama
+
+[LINE]
+> It's late~at~night.  Junior is   in~his~bed,   but he  can't~sleep.        
+~ é    tarde~da~noite  Junior está na~cama~dele  mas ele não~consegue~dormir 
+
+[LINE]
+Speaker415: Dad!   There's a  monster under   my~bed!          I  need         you! 
+~           papai  tem     um monstro embaixo (da)~minha~cama  eu preciso~(de) você 
+
+[LINE]
+> Eddy runs  to   Junior's~bedroom.  
+~ Eddy corre para o~quarto~de~Junior 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker414: It's~OK,  Junior. Let~me~look.    If~I~see  a  monster, then  [I'll~make~him~leave].
+~           está~bem  Junior  deixa~eu~olhar  se~eu~vir um monstro  então  eu~farei~ele~sair    
+- I'll make him need
+- all wake him please
++ I'll make him leave
+
+[LINE]
+Speaker415: Thanks,   Dad.  
+~           obrigado  papai 
+
+[LINE]
+> Eddy looks under   the  bed. 
+~ Eddy olha  embaixo (d)a cama 
+
+[LINE]
+Speaker414: I  don't~see any~monsters,   so    it's safe               to~go to~sleep.
+~           eu não~vejo  nenhum~monstro  então está seguro~(para~você) ir    dormir   
+
+[LINE]
+Speaker415: I  can't~sleep! Maybe~the~monster~is~hiding!          
+~           eu não~consigo  talvez~o~monstro~esteja~se~escondendo 
+
+[POINT_TO_PHRASE]
+> Choose  the option that means     "rastejar."
+~ escolha a   opção  que  significa  ~         
+> (Eddy) (starts)     (+to~crawl) (under)   the  bed. 
+~  Eddy   começa~(a)    rastejar   embaixo  (d)a cama 
+
+[LINE]
+Speaker414: There~isn't a~lot~of space  down~here.     I  don't~know if I'll~fit,   Junior.
+~           não~tem     muito    espaço aqui~em~baixo  eu não~sei    se eu~caberei  Junior 
+
+[LINE]
+Speaker415: Please!    I'm      scared!   
+~           por~favor  eu~estou assustado 
+
+[ARRANGE]
+> Toque no que escutar
+> [(Eddy) (crawls)  (further~under)   (the)  (bed).] 
+~   Eddy   rasteja   mais~para~baixo   (d)a   cama   
+
+[LINE]
+Speaker414: Hello? Monster? Are~you~hiding?         
+~           olá    monstro  você~está~se~escondendo 
+
+[LINE]
+Speaker414: No,  Junior, the monster is~gone!   
+~           não  Junior  o   monstro foi~embora 
+
+[LINE]
+Speaker415: Thanks,   Dad.  
+~           obrigado  papai 
+
+[LINE]
+> Eddy tries to~crawl~out       from under the  bed. 
+~ Eddy tenta rastejar~para~sair de   baixo (d)a cama 
+
+[LINE]
+Speaker414: Um…  Junior? I  think      I'm      stuck.
+~           hum  Junior  eu acho~(que) eu~estou preso 
+
+[MULTIPLE_CHOICE]
+> When   Eddy says      he  is   "stuck," he  means…           
+~ quando Eddy diz~(que) ele está  preso   ele quer~dizer~(que) 
++ …he  can't~move.           
+~  ele não~consegue~se~mover 
+- …he  is~hiding          from Junior.
+~  ele está~se~escondendo de   Junior 
+- …he  found     the monster.
+~  ele encontrou o   monstro 
+
+[LINE]
+Speaker415: Uh-oh. Let~me~help     you! 
+~           Uh-oh  me~deixa~ajudar você 
+
+[LINE]
+> Junior tries to~lift  the bed. 
+~ Junior tenta levantar a   cama 
+
+[LINE]
+Speaker415: Ugh… the bed  is too~heavy!     Let~me~try      to~pull you  out.        
+~           ~    a   cama é  pesada~demais  me~deixa~tentar puxar   você (para)~fora 
+
+[LINE]
+> Junior pulls Eddy's~legs.      
+~ Junior puxa  as~pernas~de~Eddy 
+
+[LINE]
+Speaker415: Oh no,  Dad…   you're    really    stuck!
+~           ah não  papai  você~está realmente preso 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker414: [Can~you~pull~harder]?           
+~            você~consegue~puxar~mais~forte  
+- Cars you pull harder
+- Can't you pull him over
++ Can you pull harder
+
+[LINE]
+Speaker415: This is hard~work.             I'm      tired.  
+~           isto é  (um)~trabalho~difícil  eu~estou cansado 
+
+[LINE]
+Speaker415: I'm~going~to~lie~down, OK?   
+~           eu~vou~me~deitar       certo 
+
+[LINE]
+Speaker414: Maybe  if I  move  my        head,   then  I  can~get~out… 
+~           talvez se eu mover (a)~minha cabeça  então eu consigo~sair 
+
+[LINE]
+Speaker414: Or maybe  if I  turn  my        shoulders…
+~           ou talvez se eu virar (os)~meus ombros    
+
+[MULTIPLE_CHOICE]
+> Eddy is~trying~to… 
+~ Eddy está~tentando 
++ …get~out from~under Junior's~bed.  
+~  sair    debaixo~da cama~de~Junior 
+- …catch the monster with his~legs.      
+~  pegar o   monstro com  as~pernas~dele 
+- …move  Junior's~bed     to   a  safe~place.  
+~  mover a~cama~de~Junior para um lugar~seguro 
+
+[LINE]
+Speaker414: I  think      it's~working!     Junior, can~you~reach~my~legs~and~pull?                   
+~           eu acho~(que) está~funcionando  Junior  você~consegue~alcançar~(as)~minhas~pernas~e~puxar 
+
+[LINE]
+Speaker414: Junior? Junior?
+~           Junior  Junior 
+
+[POINT_TO_PHRASE]
+> Choose  the option that means     "roncar."
+~ escolha a   opção  que  significa  ~       
+> (Junior) has~fallen~asleep. (He)  (begins)     (+to~snore).
+~  Junior  pegou~no~sono       ele   começa~(a)    roncar    
+
+[LINE]
+Speaker414: Ah. OK.   
+~           ~   certo 
+
+[LINE]
+Speaker414: I'll~just~sleep  here…
+~           eu~só~vou~dormir aqui 
+
+[LINE]
+> Eddy closes his~eyes.     
+~ Eddy fecha  os~olhos~dele 
+
+[LINE]
+Speaker414: Goodnight, Junior.
+~           boa~noite  Junior 
+
+[MULTIPLE_CHOICE]
+> Why     is~Eddy~sleeping under   Junior's~bed?       
+~ por~que Eddy~vai~dormir  embaixo (d)a~cama~de~Junior 
++ He  got~stuck   under   the  bed. 
+~ ele ficou~preso embaixo (d)a cama 
+- He  wants to~keep~looking~for  the monster.
+~ ele quer  continuar~procurando o   monstro 
+- Junior asked        him to~sleep under   the  bed. 
+~ Junior pediu~(para) ele dormir   embaixo (d)a cama 
+
+[MATCH]
+> Toque nos pares
+- you <> você
+- I'm <> eu estou
+- the <> o
+- can't sleep <> não consegue dormir
+- my <> minha
+
