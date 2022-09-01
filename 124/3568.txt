@@ -1,0 +1,106 @@
+[DATA]
+fromLanguageName=Le passeport
+icon=643347b755001a918130ddf5f6d3e914e63a00ce
+set=1|1
+
+[HEADER]
+> The Passport 
+~ le  passeport
+
+[LINE]
+> Vikram and his wife,  Priti, are  at the~airport.
+~ Vikram et  sa  femme  Priti  sont à  l'aéroport  
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker593: Oh no.  [Where~is~my~passport]?
+~           oh non   où~est~mon~passeport  
+- Here is my passport
++ Where is my passport
+- What is my passport
+
+[LINE]
+Speaker593: It is~not    here!
+~           il n'est~pas ici  
+
+[LINE]
+Speaker560: Vikram…
+~           Vikram 
+
+[LINE]
+Speaker593: It is~not    in   my  bag…
+~           il n'est~pas dans mon sac 
+
+[LINE]
+Speaker593: And it is~not    in   my jacket…
+~           et  il n'est~pas dans ma veste  
+
+[MULTIPLE_CHOICE]
+> Vikram ne trouve pas son passeport.
++ Oui, c'est vrai.
+- Non, c'est faux.
+
+[LINE]
+Speaker560: But  Vik…
+~           mais Vik 
+
+[LINE]
+Speaker593: Oh! My  passport  is  in   the taxi!
+~           oh  mon passeport est dans le  taxi 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « court ».
+> (Vikram) (+runs)  to   (the) (taxi).
+~  Vikram    court  vers  le    taxi  
+
+[LINE]
+Speaker560: Vik, no! 
+~           Vik  non 
+
+[LINE]
+> Priti runs  to   Vikram.
+~ Priti court vers Vikram 
+
+[LINE]
+Speaker593: Oh no,  the taxi is~not    here now!       
+~           oh non  le  taxi n'est~pas là   maintenant 
+
+[LINE]
+Speaker593: This~is a  big  problem… 
+~           c'est   un gros problème 
+
+[LINE]
+Speaker560: Vikram!
+~           Vikram 
+
+[LINE]
+Speaker560: Your passport  is~not    in   the taxi.
+~           ton  passeport n'est~pas dans le  taxi 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « main ».
+Speaker560: (Your) passport  (is)  in   (your) (+hand).
+~            ton   passeport  est  dans  ta      main  
+
+[LINE]
+Speaker593: Oh…
+~           oh 
+
+[LINE]
+Speaker593: Thank~you, my  love. 
+~           merci      mon amour 
+
+[MULTIPLE_CHOICE]
+> Où était le passeport de Vikram ?
+- chez lui
++ dans sa main
+- dans le taxi
+
+[MATCH]
+> Choisis les paires
+- Priti <> Priti
+- Oh <> oh
+- Vikram <> Vikram
+- Vik <> Vik
+- jacket <> veste
+
