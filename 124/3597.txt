@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=Où sont mes clés ?
+icon=3f21c887f044dc2ac0d1f0d0ea74e1200b587ac2
+set=8|2
+
+[HEADER]
+> Where Are  My  Keys?
+~ où    sont mes clés 
+
+[LINE]
+> Lin is  with her grandmother, Lucy.
+~ Lin est avec sa  grand-mère   Lucy 
+
+[LINE]
+Speaker509: We   have  a   reservation at   a  nice restaurant tonight!
+~           nous avons une réservation dans un bon  restaurant ce~soir 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker509: But  we   need   [to~leave~now]!     
+~           mais nous devons  partir~maintenant  
+- to read now
+- to leave out
++ to leave now
+
+[LINE]
+Speaker508: OK!      
+~           d'accord 
+
+[LINE]
+Speaker508: Uh-oh… I  can't~find    the keys~to my car.    
+~           oh~oh  je ne~trouve~pas les clés~de ma voiture 
+
+[LINE]
+Speaker509: You always~put    your keys in   strange~places.       
+~           tu  mets~toujours tes  clés dans des~endroits~bizarres 
+
+[MULTIPLE_CHOICE]
+> Que va-t-il sûrement se passer ?
++ Lin va chercher ses clés dans des endroits bizarres.
+- Lin et Lucy vont aller au restaurant à cheval.
+- Lucy va aller au restaurant sans Lin.
+
+[LINE]
+Speaker509: Are  they  in   your jacket?
+~           sont elles dans ta   veste  
+
+[LINE]
+> Lin looks   in   her jacket.
+~ Lin regarde dans sa  veste  
+
+[LINE]
+Speaker508: No,  they're~not       in   my jacket.
+~           non  elles~ne~sont~pas dans ma veste  
+
+[LINE]
+Speaker509: Are~the~keys        under the bed?
+~           les~clés~sont-elles sous  le  lit 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker508: [(No),  (the) (keys) (aren't)      (there)!]
+~             non    les   clés   ne~sont~pas   là      
+
+[LINE]
+Speaker509: Are  they  in   the shower?
+~           sont elles dans la  douche 
+
+[LINE]
+Speaker508: No,  that's too  strange.
+~           non  c'est  trop bizarre 
+
+[LINE]
+Speaker508: I  don't~know  where the keys are.  Can~we~call     a  taxi?
+~           je ne~sais~pas où    les clés sont  peut-on~appeler un taxi 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker509: No,  we're       late      now.        We   can't~go             [to~the restaurant].
+~           non  nous~sommes en~retard maintenant  nous ne~pouvons~pas~aller  au     restaurant  
++ to~the restaurant
+~ au     restaurant
+- to the beach
+~ à  la  plage
+- to~the movie~theater
+~ au     cinéma       
+
+[LINE]
+Speaker508: I'm     sorry.  
+~           je~suis désolée 
+
+[LINE]
+Speaker509: That's~OK.          I  can~cook      dinner.  
+~           ce~n'est~pas~grave  je peux~cuisiner le~dîner 
+
+[LINE]
+> Lucy opens the refrigerator  and looks   inside.       
+~ Lucy ouvre le  réfrigérateur et  regarde à~l'intérieur 
+
+[LINE]
+Speaker509: Oh! Here~are your keys!
+~           oh  voilà    tes  clés 
+
+[MULTIPLE_CHOICE]
+> Eh ben ! Les clefs de Lucy étaient…
++ ... dans le frigo.
+- ... dans ses chaussures.
+- ... dans sa voiture.
+
+[MATCH]
+> Choisis les paires
+- But <> mais
+- refrigerator <> réfrigérateur
+- taxi <> taxi
+- car <> voiture
+- and <> et
+
