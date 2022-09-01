@@ -1,0 +1,110 @@
+[DATA]
+fromLanguageName=El pasaporte
+icon=643347b755001a918130ddf5f6d3e914e63a00ce
+set=1|1
+
+[HEADER]
+> Le passeport
+~ el pasaporte
+
+[LINE]
+> Vikram et sa femme,  Priti, sont  à  l'aéroport.   
+~ Vikram y  su esposa  Priti  están en el~aeropuerto 
+
+[LINE]
+Speaker593: Où    est  mon passeport ?
+~           dónde está mi  pasaporte  
+
+[LINE]
+Speaker593: Je ne~trouve~pas mon passeport !
+~           yo no~encuentro  mi  pasaporte  
+
+[MULTIPLE_CHOICE]
+> Vikram no encuentra su pasaporte.
++ Sí, así es.
+- No, no es así.
+
+[LINE]
+Speaker560: Vikram…
+~           Vikram 
+
+[LINE]
+Speaker593: Il~n'est~pas dans mon sac.  
+~           no~está      en   mi  bolso 
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "chaqueta".
+Speaker593: (Il~n'est~pas) (dans) (ma) (+veste).   
+~            no~está        en     mi    chaqueta  
+
+[LINE]
+Speaker560: Euh… Vik ?
+~           eh   Vik  
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker593: Ah ! Il~est dans [le taxi ]!
+~           ay   está   en    el taxi   
+- la salade  
+~ la ensalada
+- le zoo      
+~ el zoológico
++ le taxi
+~ el taxi
+
+[LINE]
+> Vikram cherche le taxi.
+~ Vikram busca   el taxi 
+
+[LINE]
+Speaker560: Vik, non !
+~           Vik  no   
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+> [(Priti) (marche) (derrière)  (Vikram).] 
+~   Priti   camina   detrás~de   Vikram    
+
+[LINE]
+Speaker593: Oh, non ! Le taxi n'est~pas ici  !
+~           ay  no    el taxi no~está   aquí  
+
+[LINE]
+Speaker593: Ce~n'est~pas possible !
+~           (esto)~no~es posible   
+
+[LINE]
+Speaker560: Vikram !
+~           Vikram  
+
+[LINE]
+Speaker560: Ton passeport n'est~pas dans le taxi.
+~           tu  pasaporte no~está   en   el taxi 
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "mano".
+Speaker560: (Il~est) (dans) (ta) (+main).
+~            está     en     tu    mano  
+
+[LINE]
+Speaker593: Ah...
+~           ah   
+
+[LINE]
+Speaker593: Merci~beaucoup.
+~           muchas~gracias 
+
+[MULTIPLE_CHOICE]
+> ¿Dónde estaba el pasaporte de Vikram ?
++ en su mano
+- en el taxi
+- en su casa
+
+[MATCH]
+> Selecciona los pares
+- passeport <> pasaporte
+- Ton <> tu
+- main <> mano
+- sont <> están
+- sac <> bolso
+
