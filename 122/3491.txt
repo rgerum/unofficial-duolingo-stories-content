@@ -1,0 +1,103 @@
+[DATA]
+fromLanguageName=Liebesbrief
+icon=4ba2733ddb8bdc3f0924c6463da01f5d1eccaf40
+set=14|2
+
+[HEADER]
+> Love~Letter
+~ Liebesbrief
+
+[LINE]
+> Zari is~babysitting~her~neighbor,~Junior. They are  at the library.   
+~ Zari passt~auf~ihren~Nachbarn~Junior~auf  sie  sind in der Bibliothek 
+
+[LINE]
+Speaker418: What are~you~doing, Junior?
+~           was  machst~du      Junior 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker415: Um…  [I'm~writing~a~letter].    
+~           ähm   ich~schreibe~einen~Brief  
+- I'm writing to let her
++ I'm writing a letter
+- I'm riding it better
+
+[LINE]
+Speaker418: Who are~you~writing~to?
+~           wem schreibst~du       
+
+[LINE]
+Speaker415: Well, it's   for a   girl…    I   like her a~lot.
+~           also  er~ist für ein Mädchen  ich mag  sie sehr  
+
+[LINE]
+Speaker418: Ooh! Is  it a   love~letter? Is  it for a   girl    in your   class? 
+~           ooh  ist es ein Liebesbrief  ist er für ein Mädchen in deiner Klasse 
+
+[LINE]
+Speaker415: No…   She's   a   teenager.
+~           nein  sie~ist ein Teenager 
+
+[LINE]
+Speaker418: A   teenager? Like me? 
+~           ein Teenager  wie  ich 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „Nachbarin“.
+Speaker415: (Yes). (She's)   (my)…    (+neighbor). 
+~            ja     sie~ist   meine     Nachbarin  
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker418: [Wait~a~minute]. She's   a   teenager and she's   your  neighbor? 
+~            Moment~mal      sie~ist ein Teenager und sie~ist deine Nachbarin 
+- Late a minute
+- Way to win it
++ Wait a minute
+
+[LINE]
+Speaker415: Um…  yes.
+~           ähm  ja  
+
+[LINE]
+Speaker418: Hmm… And is  she very smart?
+~           hmm  und ist sie sehr klug  
+
+[LINE]
+Speaker415: Yes!
+~           ja  
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker418: Aw Junior! You love   me?   Sorry,           but  you're  [too young for me].  
+~           oh Junior  du  liebst mich  es~tut~mir~leid  aber du~bist  zu  jung  für mich  
++ too young for me  
+~ zu  jung  für mich
+- a   love~letter
+~ ein Liebesbrief
+- a   teenager
+~ ein Teenager
+
+[LINE]
+Speaker415: No!   I   don't~love  you…  I   love  your  best  friend,   Lily!
+~           nein  ich liebe~nicht dich  ich liebe deine beste Freundin  Lily 
+
+[LINE]
+Speaker415: Can    you give~her~my~letter?    
+~           kannst du  ihr~meinen~Brief~geben 
+
+[MULTIPLE_CHOICE]
+> Zari dachte, Junior würde ihr einen Liebesbrief schreiben, aber in Wirklichkeit …
+- … machte er seine Hausaufgaben.
++ … war der Brief für Lily.
+- … schrieb er ein Buch über Liebe.
+
+[MATCH]
+> Wähle die Paare
+- Well <> also
+- smart <> klug
+- Zari <> Zari
+- me <> mich
+- Ooh <> ooh
+
