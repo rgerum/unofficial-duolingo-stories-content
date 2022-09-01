@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=La recette de grand-mère
+icon=f846bda2ef7cfcb2a7b491fdab26521cbd7b480d
+set=22|4
+
+[HEADER]
+> Grandmother's~Recipe    
+~ la~recette~de~grand-mère
+
+[LINE]
+> Vikram walks~into Eddy's~apartment.    
+~ Vikram entre~dans l'appartement~d'Eddy 
+
+[LINE]
+Speaker414: Hi    Vikram, where's Priti?
+~           salut Vikram  où~est  Priti 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker593: She's    at work,    but  [she'll~be~here~soon]. 
+~           elle~est au travail  mais  elle~sera~bientôt~là  
++ she'll be here soon
+- we'll be weird soon
+- she'll be near the moon
+
+[LINE]
+Speaker593: Thank~you~for inviting~us  to~dinner.
+~           merci~de      nous~inviter à~dîner   
+
+[LINE]
+Speaker414: You're~welcome! You and Priti cook~dinner~for~me~often.          
+~           de~rien         toi et  Priti préparez~souvent~le~dîner~pour~moi 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker414: So    now        [I'm~going~to~cook for  you]! 
+~           alors maintenant  je~vais~cuisiner  pour vous  
+- we're~going~to~take~a~nap
+~ on~va~faire~une~sieste   
+- I'm~going to~the park
+~ je~vais   au     parc
++ I'm~going~to~cook for  you 
+~ je~vais~cuisiner  pour vous
+
+[LINE]
+Speaker593: You're~cooking?!         Uh…  it~smells…      interesting. 
+~           c'est~toi~qui~cuisines   euh  ça~a~une~odeur  intéressante 
+
+[LINE]
+Speaker414: Thanks! I'm~making Priti's~favorite~meal.   
+~           merci   je~fais    le~plat~préféré~de~Priti 
+
+[LINE]
+Speaker593: Really?   It's  very difficult   to~make…
+~           vraiment  c'est très difficile~à faire   
+
+[MULTIPLE_CHOICE]
+> Vikram a l'air inquiet. Pourquoi ?
++ Il a peur qu'Eddy ne prépare pas le repas correctement.
+- Il s'est rendu compte que la cuisine d'Eddy était en feu.
+- Le plat préféré de Priti est très facile à faire.
+
+[LINE]
+> Vikram looks~at the food       on  the stove.     
+~ Vikram regarde  la  nourriture sur la  cuisinière 
+
+[LINE]
+Speaker593: Which kind of rice did~you~use?  
+~           quel  type de riz  tu~as~utilisé 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker414: [(There~are) (different)  (kinds) (of) (rice)?]
+~             il~y~a      différents   types   de   riz    
+
+[LINE]
+> Vikram tastes the food.      
+~ Vikram goûte  la  nourriture 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « bizarre ».
+Speaker593: Oh no.  (This) (tastes)…    a  (little) (+strange).
+~           oh non   ça     a~un~goût   un  peu       bizarre  
+
+[LINE]
+Speaker414: Can~you~help~me?
+~           tu~peux~m'aider 
+
+[LINE]
+Speaker593: Maybe…     I~need     four   tomatoes, some     onions,  and a~lot    of~garlic.
+~           peut-être  il~me~faut quatre tomates   quelques oignons  et  beaucoup d'ail     
+
+[LINE]
+Speaker414: I  don't~have those things.
+~           je n'ai~pas   ces   choses 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker593: OK.       Then  [we~need~your~phone].        
+~           d'accord  alors  il~nous~faut~ton~téléphone  
+- we meet your own
+- we'll read your phone
++ we need your phone
+
+[LINE]
+> Later,     Eddy, Vikram, and Priti are~eating~dinner.     
+~ plus~tard  Eddy  Vikram  et  Priti sont~en~train~de~dîner 
+
+[LINE]
+Speaker560: Wow,   Eddy, this~is so        good! It tastes~just~like   my~grandmother's~recipe!    
+~           waouh  Eddy  c'est   tellement bon   ça a~le~même~goût~que la~recette~de~ma~grand-mère 
+
+[LINE]
+Speaker414: Thanks! I~ordered~it     from~the restaurant myself!  
+~           merci   je~l'ai~commandé au       restaurant moi-même 
+
+[MULTIPLE_CHOICE]
+> Pourquoi le dîner était-il délicieux ?
+- Eddy cuisine vraiment très bien.
+- Vikram y a ajouté beaucoup d'ail.
++ Eddy l'a commandé au restaurant.
+
+[MATCH]
+> Choisis les paires
+- onions <> oignons
+- Really <> vraiment
+- Thanks <> merci
+- to dinner <> à dîner
+- Which <> quel
+
