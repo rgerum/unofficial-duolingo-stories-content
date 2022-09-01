@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=Obrigada?
+icon=0e35077f2bf31284d5967e7096a66da10d0a9bdf
+set=4|3
+
+[HEADER]
+> ¿Gracias? 
+~  obrigada 
+
+[LINE]
+> Zari le~da un regalo   a    Lily.
+~ Zari dá    um presente para Lily 
+
+[LINE]
+Speaker416: ¿Qué   es?
+~            o~que é  
+
+[LINE]
+Speaker418: ¡Ábrelo!  
+~            abre~ele 
+
+[ARRANGE]
+> Toque no que escutar
+> [(Lily) (abre) (el) (regalo).]  
+~   Lily   abre   o    presente   
+
+[LINE]
+Speaker416: Es una camisa.
+~           é  uma camisa 
+
+[LINE]
+Speaker418: ¡Qué bonita!
+~            que bonita 
+
+[LINE]
+Speaker416: Es roja.    
+~           é  vermelha 
+
+[LINE]
+Speaker418: Sí,  es mi      color~favorito.
+~           sim  é  a~minha cor~favorita   
+
+[LINE]
+Speaker416: Y tiene   un gato.
+~           e ela~tem um gato 
+
+[LINE]
+Speaker418: ¡Me~encantan los~gatos!
+~            eu~adoro    gatos     
+
+[LINE]
+Speaker416: Y el gato está en un carro…
+~           e o  gato está em um carro 
+
+[LINE]
+Speaker418: ¡Sí,  es muy   gracioso! 
+~            sim  é  muito engraçado 
+
+[MULTIPLE_CHOICE]
+> O que é tão engraçado?
++ Tem uma imagem de um gato dentro de um carro na camisa.
+- Um gato vermelho está usando a camisa da Zari.
+- Zari acabou de ver um cachorro fofo dentro de um carro.
+
+[LINE]
+Speaker418: Es el regalo   de cumpleaños  perfecto.
+~           é  o  presente de aniversário perfeito 
+
+[LINE]
+Speaker416: Zari, no  es mi  cumpleaños. 
+~           Zari  não é  meu aniversário 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "sei".
+Speaker418: (Yo) (+sé)…  Hoy  (es) (mi)  cumpleaños. 
+~            eu    sei   hoje  é    meu  aniversário 
+
+[LINE]
+Speaker416: Ah…
+~           ah 
+
+[LINE]
+Speaker418: Siempre   olvidas     mi  cumpleaños. 
+~           tu~sempre esqueces~do meu aniversário 
+
+[MULTIPLE_CHOICE]
+> Lily sempre esquece...
++ …o aniversário da Zari.
+- …a carteira dela em casa.
+- ...de escovar os dentes.
+
+[LINE]
+Speaker418: ¡Ahora puedes darme  esta camisa!
+~            agora podes  me~dar esta camisa 
+
+[LINE]
+Speaker416: Está bien… ¿Gracias? 
+~           está bem    obrigada 
+
+[LINE]
+Speaker418: No,  no,  gracias  a ti.
+~           não  não  obrigada a ti 
+
+[MULTIPLE_CHOICE]
+> Por que a Zari deu a camisa para a Lily?
++ Ela queria que a Lily a desse de volta para ela.
+- A Lily tem um gato que anda de motocicleta.
+- Hoje é aniversário da Lily.
+
+[MATCH]
+> Toque nos pares
+- Hoy <> hoje
+- una <> uma
+- Siempre <> tu sempre
+- roja <> vermelha
+- Lily <> Lily
+
