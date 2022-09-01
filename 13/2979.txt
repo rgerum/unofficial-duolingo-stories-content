@@ -1,0 +1,195 @@
+[DATA]
+fromLanguageName=You Lost
+icon=3f0d0ac0ce9f8f8e457bcac6adbeba768ca03fbd
+set=50|2
+
+[HEADER]
+> Tu  as~perdu
+~ you lost    
+
+[LINE]
+> Béa est en vacances. Lin s'occupe       de son appartement.
+~ Béa is  on vacation  Lin is~taking~care of her apartment   
+
+[LINE]
+> Lin sort      son téléphone.
+~ Lin takes~out her phone     
+
+[LINE]
+Speaker508: Béa ? Ça~va       ? Comment se~passent~tes~vacances ?
+~           Béa   how~are~you   how     is~your~vacation~going   
+
+[LINE]
+Speaker507: Super ! Je me~suis~levée à  cinq~heures  du     matin,   j'ai~nagé dans un lac~glacé   et  je vais     faire    une randonnée de dix kilomètres !
+~           great   I  got~up        at five~o'clock in~the morning  I~swam    in   a  frozen~lake and I  am~going to~go~on a   hike      of ten kilometers  
+
+[LINE]
+Speaker508: C'est  complètement différent de   mes vacances.
+~           that's completely   different from my  vacation 
+
+[MULTIPLE_CHOICE]
+> Que  veut~dire~Lin ?
+~ what does~Lin~mean  
+- Elle veut  faire les mêmes choses en vacances.
+~ she  wants to~do the same  things on vacation 
+- Béa a~décidé~de ne~pas~aller en vacances.
+~ Béa decided     not~to~go    on vacation 
++ Les~vacances~de~Béa~sont trop fatigantes.
+~ Béa's~vacation~is        too  tiring     
+
+[LINE]
+Speaker507: Comment ça~se~passe à  l'appartement ?
+~           how     are~things  at the~apartment  
+
+[LINE]
+Speaker508: Tu  as   du~courrier…
+~           you have mail        
+
+[LINE]
+Speaker507: Quelque~chose d'important ?
+~           something     important    
+
+[ARRANGE]
+> Tap what you hear
+Speaker508: [(Il~y~a)   (une) (lettre) (du)       (musée).] 
+~             there~is   a     letter   from~the   museum   
+
+[LINE]
+Speaker508: Ça a~l'air important.
+~           it looks   important 
+
+[LINE]
+Speaker507: Oh, non ! J'attends             cette lettre depuis longtemps.   C'est pour  un prix… 
+~           oh  no    I've~been~waiting~for that  letter for    a~long~time  it's  about an award 
+
+[LINE]
+Speaker508: Je~l'ouvre       ?
+~           should~I~open~it  
+
+[LINE]
+Speaker507: Non.
+~           no  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker508: Mais c'est [une~grande~enveloppe]. Peut-être~que tu  as~gagné !
+~           but  it's   a~big~envelope         maybe         you won       
+- une tendre antilope
++ une grande enveloppe
+- une grande antilope
+
+[LINE]
+Speaker507: Je ne~sais~pas…
+~           I  don't~know  
+
+[LINE]
+> Lin ouvre la  lettre.
+~ Lin opens the letter 
+
+[LINE]
+Speaker508: Je suis désolée. Tu  as~perdu.
+~           I  am   sorry    you lost     
+
+[LINE]
+Speaker507: Lin ! Pourquoi tu~l'as~ouverte ?! Maintenant je ne~vais~plus~passer~de bonnes~vacances !
+~           Lin   why      did~you~open~it    now        I  will~no~longer~have    a~good~vacation  
+
+[MULTIPLE_CHOICE]
+> Pourquoi Béa~n'est-elle~pas contente ?
+~ why      isn't~Béa          happy     
+- Son musée~préféré   est fermé. 
+~ her favorite~museum is  closed 
++ Elle n'a~pas~gagné un prix~important. 
+~ she  didn't~win    an important~award 
+- Lin a~jeté tout son courrier à  la  poubelle. 
+~ Lin threw  all  her mail     in the trash~can 
+
+[LINE]
+Speaker508: Je voulais~juste t'aider…    
+~           I  just~wanted   to~help~you 
+
+[POINT_TO_PHRASE]
+> Choisis l'option   qui  veut~dire « le jour suivant ».
+~ choose  the~option that means     ~ ~  ~    ~       ~ 
+> Le  (+lendemain), Lin (regarde)     (la~télé) sur le~canapé~de~Béa. Béa (arrive).  
+~ the   next~day    Lin  is~watching   TV       on  Béa's~couch       Béa  comes~in  
+
+[LINE]
+Speaker508: Tu  rentres  tôt   !
+~           you are~home early  
+
+[LINE]
+Speaker507: Je ne~pouvais~plus m'amuser      après ton  appel.
+~           I  could~no~longer (to)~have~fun after your call  
+
+[LINE]
+Speaker508: Désolée d'avoir~ouvert la  lettre.
+~           sorry   for~opening    the letter 
+
+[LINE]
+Speaker507: Ce~n'est~pas~grave.
+~           it's~OK            
+
+[ARRANGE]
+> Tap what you hear
+> [(Béa~regarde)  (le~reste) (du~courrier) (sur~la) (table~de~la~cuisine).]
+~   Béa~looks~at   the~rest   of~the~mail   on~the   kitchen~table         
+
+[LINE]
+Speaker507: Il~y~a    d'autres lettres ? Pourquoi tu  ne~me~l'as~pas~dit ?!
+~           there~are other    letters   why      you didn't~tell~me       
+
+[LINE]
+Speaker508: J'ai~appris ma leçon.  Je ne~voulais~pas t'annoncer  d'autres mauvaises nouvelles.
+~           I~learned   my lesson  I  didn't~want    to~give~you other    bad       news      
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+> Béa ouvre [une enveloppe].
+~ Béa opens  an  envelope   
++ une enveloppe 
+~ an  envelope  
+- le  frigo 
+~ the fridge
+- la  fenêtre de sa  chambre
+~ the window  in her bedroom
+
+[LINE]
+Speaker507: Lin ! J'ai~gagné !
+~           Lin   I~won       
+
+[LINE]
+Speaker508: Non, j'ai~lu la  lettre trois fois. 
+~           no   I~read  the letter three times 
+
+[LINE]
+Speaker507: C'est   un~autre prix,  pour l'un~de mes films~courts. J'ai~gagné !
+~           this~is another  award  for  one~of  my  short~films   I~won       
+
+[LINE]
+Speaker507: Pourquoi tu  n'as~pas~ouvert cette lettre ?
+~           why      you didn't~open     this  letter  
+
+[LINE]
+Speaker508: Oh~là~là, je ne~m'occuperai  plus~jamais de ton  appartement.
+~           oh~dear   I  won't~take~care ever~again  of your apartment   
+
+[MULTIPLE_CHOICE]
+> Béa n'a~pas~gagné un prix,  mais…
+~ Béa didn't~win    an award  but  
+- … Lin a~gagné trois prix   pour s'occuper   de maisons.
+~   Lin won     three awards for  taking~care of houses  
++ … elle en~a~gagné un~autre    pour un film.
+~   she  won        another~one for  a  film 
+- … elle a~fini ses vacances comme   elle le~voulait.
+~   she  ended  her vacation the~way she  wanted~to  
+
+[MATCH]
+> Tap the pairs
+- Pourquoi <> why
+- Ça <> it
+- tu l'as ouverte <> did you open it
+- musée <> museum
+- suis <> am
+
