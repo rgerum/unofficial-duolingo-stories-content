@@ -1,0 +1,128 @@
+[DATA]
+fromLanguageName=Neues Jahr, neue Bea
+icon=8771524805b100d0e185a914607b8c5d904534bc
+set=20|1
+
+[HEADER]
+> New   Year, New  Bea
+~ neues Jahr  neue Bea
+
+[LINE]
+> Bea and Lin are  at  a~New~Year's~Eve~party.
+~ Bea und Lin sind auf einer~Silvesterparty   
+
+[LINE]
+Speaker508: Would~you~like   more wine?
+~           möchtest~du~gern mehr Wein 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker507: OK, but  I'm~going to~stop  [drinking~wine]   this~year.  
+~           OK  aber ich~werde aufhören  Wein~zu~trinken  dieses~Jahr 
+- thinking fine
++ drinking wine
+- drinking lime
+
+[LINE]
+Speaker508: You~are?     
+~           das~wirst~du 
+
+[LINE]
+Speaker507: I'm~also~going to~stop  watching~TV.
+~           ich~werde~auch aufhören fernzusehen 
+
+[LINE]
+Speaker507: And I'm~going to~do~yoga  every day and date~more~people!          
+~           und ich~werde Yoga~machen jeden Tag und mit~mehr~Menschen~ausgehen 
+
+[LINE]
+Speaker507: New   year, new  Bea!
+~           neues Jahr  neue Bea 
+
+[MULTIPLE_CHOICE]
+> Hmm … Warum hat Bea das gerade gesagt?
+- Sie hat jemanden kennengelernt, die auch Bea heißt.
+- Lin soll denken, dass sie noch sehr jung ist.
++ Sie will viele Dinge in ihrem Leben ändern.
+
+[LINE]
+Speaker508: So   we're~going to~spend~less~time~together         now?  
+~           also werden~wir  weniger~Zeit~miteinander~verbringen jetzt 
+
+[LINE]
+Speaker507: What~do~you~mean?
+~           was~meinst~du    
+
+[LINE]
+Speaker508: I   love~watching~TV…     And I   hate  yoga.
+~           ich liebe~es~fernzusehen  und ich hasse Yoga 
+
+[LINE]
+Speaker508: I   don't~understand why   things~have~to~change.   
+~           ich verstehe~nicht   warum sich~Dinge~ändern~müssen 
+
+[LINE]
+Speaker507: Lin, I   didn't~mean…       
+~           Lin  ich habe~nicht~gemeint 
+
+[ARRANGE]
+> Was hörst du?
+> [(An)  (attractive)  (guy) (walks) (past~them).]      
+~   ein   attraktiver   Typ   geht    an~ihnen~vorbei   
+
+[LINE]
+Speaker508: You should   talk~to~him.   You want   to~date~more~people,        right?
+~           du  solltest mit~ihm~reden  du  willst mit~mehr~Menschen~ausgehen  oder  
+
+[LINE]
+> Lin walks away.
+~ Lin geht  weg  
+
+[MULTIPLE_CHOICE]
+> Lin ist weggegangen, weil …
+- … sie einen Teller Käse essen möchte.
++ … sie denkt, dass Bea mit dem attraktiven Mann sprechen sollte.
+- … sie an einem Yogakurs teilnehmen möchte.
+
+[LINE]
+Speaker1088: Hi. Can  I   get~you~a~drink?         
+~            hi  kann ich dir~einen~Drink~ausgeben 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker507: Actually…   I~want   [to~spend~more~time]   with my~friend,       Lin.
+~           eigentlich  will~ich  mehr~Zeit~verbringen  mit  meiner~Freundin  Lin 
+- to send your time
++ to spend more time
+- to spend more dimes
+
+[LINE]
+> Bea runs  to Lin.
+~ Bea rennt zu Lin 
+
+[LINE]
+Speaker507: Lin! I   don't~want~to~be~a~different~person this~year.  
+~           Lin  ich will~kein~anderer~Mensch~werden     dieses~Jahr 
+
+[LINE]
+Speaker507: Last~year    was great.     We  had    a~lot~of   fun! 
+~           letztes~Jahr war großartig  wir hatten eine~Menge Spaß 
+
+[LINE]
+Speaker508: That's  good because I   can't~be~friends~with~someone           who doesn't~watch~TV.
+~           das~ist gut  denn    ich kann~nicht~mit~jemandem~befreundet~sein die nicht~fernsieht  
+
+[MULTIPLE_CHOICE]
+> Bea dachte, sie wolle Veränderungen, aber …
++ … ihr ist klar geworden, dass letztes Jahr eigentlich super war.
+- … sie hat bemerkt, dass Lin total langweilig ist.
+- … sie war zu schüchtern, um mit dem attraktiven Mann zu sprechen.
+
+[MATCH]
+> Wähle die Paare
+- What do you mean <> was meinst du
+- drinking wine <> Wein zu trinken
+- didn't mean <> habe nicht gemeint
+- good <> gut
+- Can <> kann
+
