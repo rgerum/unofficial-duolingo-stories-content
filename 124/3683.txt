@@ -1,0 +1,140 @@
+[DATA]
+fromLanguageName=Un rencard horrible
+icon=a0fcf3ace5fe44c02a92d0f17972a2115b744eb8
+set=29|4
+
+[HEADER]
+> Terrible~Date      
+~ un~rencard~horrible
+
+[LINE]
+> Lin arrives at~her~friend~Bea's~house.
+~ Lin arrive  chez~son~amie~Bea         
+
+[LINE]
+Speaker508: Hi,    Bea! Are~you ready to~go?   
+~           salut  Bea  tu~es   prête à~partir 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker507: No!  [I~can't~find~my~phone]!         
+~           non   je~ne~trouve~pas~mon~téléphone  
+- We can't find my home
++ I can't find my phone
+- I can't rhyme on my own
+
+[LINE]
+Speaker508: Where was   the last    place      you used~it?     
+~           où    était le  dernier endroit~où tu  l'as~utilisé 
+
+[LINE]
+Speaker507: During  my  date    last~night… Uh~oh. 
+~           pendant mon rencard hier~soir   oh~non 
+
+[MULTIPLE_CHOICE]
+> Il semblerait que le téléphone de Bea soit...
+- … sur le toit de son appartement.
++ … là où elle a eu un rencard.
+- … sur son bureau au travail.
+
+[LINE]
+Speaker508: What?
+~           quoi 
+
+[LINE]
+Speaker507: It~was  a  terrible~date.    I~really~liked          the guy, but  I~broke    his favorite~lamp! 
+~           c'était un horrible~rencard  j'ai~vraiment~bien~aimé le  mec  mais j'ai~cassé sa  lampe~préférée 
+
+[LINE]
+Speaker508: Oh, no! 
+~           oh  non 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « j'ai renversé ».
+Speaker507: And (then)    (+I~spilled)     (red~wine)     on  his new     (white~couch)! 
+~           et   ensuite    j'ai~renversé   du~vin~rouge  sur son nouveau  canapé~blanc  
+
+[LINE]
+Speaker507: I~felt            so bad! I  told~him   that I~was~going to~the bathroom,  but  I~climbed   out~the~window instead.   
+~           je~me~suis~sentie si mal  je lui~ai~dit que  j'allais    aux    toilettes  mais j'ai~grimpé par~la~fenêtre à~la~place 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker507: [(I)  (think~I~left)          (my~phone)      (at~his) (apartment).]  
+~             je   pense~que~j'ai~laissé   mon~téléphone   à~son    appartement   
+
+[LINE]
+Speaker508: You didn't~even~say   goodbye?  
+~           tu  n'as~même~pas~dit au~revoir 
+
+[LINE]
+Speaker507: No… 
+~           non 
+
+[LINE]
+Speaker508: So,    where does~he~live?
+~           alors  où    vit-il       
+
+[LINE]
+Speaker507: On~the~east~side of town,     next   to the old     bank.  
+~           à~l'est          de la~ville  à~côté de la  vieille banque 
+
+[LINE]
+Speaker508: Let's~go!
+~           allons-y 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Lin et Bea vont-elles chez le garçon ?
+- Lin veut sortir avec lui.
+- Bea lui a acheté un nouveau canapé.
++ Elles doivent récupérer le téléphone de Bea.
+
+[LINE]
+> Bea goes to an apartment   and knocks~on the door.  A  man   answers.
+~ Bea va   à  un appartement et  frappe~à  la  porte  un homme répond  
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker438: You're~back!   I~thought      you didn't~like~me  when  you [climbed   out~the~window].
+~           tu~es~revenue  j'ai~pensé~que tu  ne~m'aimais~pas quand tu   as~grimpé par~la~fenêtre  
++ climbed   out~the~window
+~ as~grimpé par~la~fenêtre
+- climbed   a   mountain
+~ as~grimpé une montagne
+- took~my~picture   
+~ m'as~pris~en~photo
+
+[LINE]
+Speaker507: Uh…  I~do,               but…  Do~you~have my  phone?    
+~           euh  si,~je~t'aime~bien  mais  tu~as       mon téléphone 
+
+[LINE]
+Speaker438: Yes, here!
+~           oui  ici  
+
+[LINE]
+> He gives~Bea~her~phone.     
+~ il rend~son~téléphone~à~Bea 
+
+[LINE]
+Speaker507: So,    can~we~have~dinner     again     sometime?
+~           alors  on~peut~dîner~ensemble à~nouveau un~jour  
+
+[LINE]
+Speaker438: Yes… But  not at my  apartment.  
+~           oui  mais pas à  mon appartement 
+
+[MULTIPLE_CHOICE]
+> Pourquoi le garçon ne veut-il pas dîner chez lui ?
+- Il ne veut pas que Bea sache où il habite.
+- Son colocataire est horrible.
++ Bea a mis le bazar chez lui hier soir.
+
+[MATCH]
+> Choisis les paires
+- old <> vieille
+- Are you <> tu es
+- I broke <> j'ai cassé
+- didn't like me <> ne m'aimais pas
+- place <> endroit où
+
