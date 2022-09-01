@@ -1,0 +1,102 @@
+[DATA]
+fromLanguageName=Lucy and the Dinosaurs
+icon=6499d843b007ecd758a693f0a40981ca9b65c3eb
+set=8|1
+
+[HEADER]
+> Lucy e   os  dinossauros
+~ Lucy and the dinosaurs  
+
+[LINE]
+> Lucy abre  a   porta do~apartamento~dela.
+~ Lucy opens the door  of~her~apartment    
+
+[LINE]
+Speaker509: Oi, Júnior!
+~           hi  Júnior 
+
+[LINE]
+Speaker415: Oi! Você~pode me~ajudar com  o~meu    dever~de~casa?
+~           hi  can~you   help~me   with (the)~my homework      
+
+[MULTIPLE_CHOICE]
+> Júnior wants Lucy's help with his homework.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker509: Ah, sim!
+~           oh  yes 
+
+[LINE]
+Speaker509: Eu escrevo muito bem.  Eu tenho um blog~muito~famoso.
+~           I  write   very  well  I  have  a  very~famous~blog  
+
+[ARRANGE]
+> Tap what you hear
+Speaker509: [(Você~lê)     (o~meu)    (blog)?]
+~             do~you~read   (the)~my   blog   
+
+[LINE]
+Speaker415: Não.
+~           no  
+
+[LINE]
+Speaker509: Eu tenho muitos livros.
+~           I  have  many   books  
+
+[LINE]
+Speaker509: Você~quer   os~meus livros para~fazer     o~seu dever~de~casa?
+~           do~you~want my      books  in~order~to~do your  homework      
+
+[CONTINUATION]
+> What comes next?
+Speaker415: Não, eu não~quero  [os~seus livros].
+~           no   I  don't~want  your    books   
+- seu  apartamento
+~ your apartment  
++ os~seus livros
+~ your    books 
+- muito famoso
+~ very  famous
+
+[ARRANGE]
+> Tap what you hear
+Speaker509: [(O~seu) (dever~de~casa) (é)  (sobre) (o~quê)?]
+~             your    homework        is   about   what    
+
+[LINE]
+Speaker415: Dinossauros.
+~           dinosaurs   
+
+[LINE]
+Speaker509: E   como~eu~posso ajudar?   
+~           and how~can~I     (to)~help 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "old."
+Speaker415: (Você) (é)   (muito) (+velha).
+~            you    are   very     old    
+
+[LINE]
+Speaker415: Você conhece muitos dinossauros, não~conhece?
+~           you  know    many   dinosaurs    don't~you   
+
+[LINE]
+Speaker509: Tchau, Júnior!
+~           bye    Júnior 
+
+[MULTIPLE_CHOICE]
+> Why did Júnior think Lucy knew about dinosaurs?
++ She is older than him.
+- She writes a blog about dinosaurs.
+- She used to have a dinosaur as a pet.
+
+[MATCH]
+> Tap the pairs
+- abre <> opens
+- Você quer <> do you want
+- Oi <> hi
+- Tchau <> bye
+- a <> the
+
