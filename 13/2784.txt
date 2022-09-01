@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=One Thing
+icon=1ea4e0c01e9dbb817001b9bb23e6ae1e7d50542e
+set=1|3
+
+[HEADER]
+> Une~chose
+~ one~thing
+
+[LINE]
+> Lucie est à~la~maison avec sa~petite-fille,   Lin.
+~ Lucie is  at~home     with her~granddaughter  Lin 
+
+[LINE]
+Speaker509: Oh, non ! Nous n'avons~pas de~pain   !
+~           oh  no    we   don't~have  any~bread  
+
+[LINE]
+Speaker508: Ah ! Tu  vas       au     supermarché ?
+~           ah   you are~going to~the supermarket  
+
+[LINE]
+Speaker509: Oui, je veux une baguette pour mon~sandwich.
+~           yes  I  want a   baguette for  my~sandwich  
+
+[MULTIPLE_CHOICE]
+> Lin and Lucie have a lot of bread.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker508: Tu  peux acheter  une~chose pour moi ?
+~           you can  (to)~buy one~thing for  me   
+
+[LINE]
+Speaker509: Une~chose ?
+~           one~thing  
+
+[LINE]
+Speaker508: Oui, une tomate, s'il~te~plaît.
+~           yes  a   tomato  please        
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker508: C'est pour [ma~salade].
+~           it's  for   my~salad   
++ ma salade
+- mon salut
+- la limonade
+
+[LINE]
+Speaker509: D'accord.
+~           OK       
+
+[LINE]
+Speaker508: Merci     !
+~           thank~you  
+
+[LINE]
+Speaker508: Ah ! Et...  trois croissants.
+~           ah   and    three croissants 
+
+[LINE]
+Speaker509: D'accord...
+~           OK         
+
+[LINE]
+Speaker508: Et  une~bouteille d'eau...   
+~           and a~bottle      of~water   
+
+[LINE]
+Speaker509: Lin...
+~           Lin   
+
+[ARRANGE]
+> Tap what you hear
+Speaker508: [(Et~deux) (oranges), (s'il~te~plaît).]
+~             and~two   oranges    please          
+
+[LINE]
+Speaker509: Hmm... J'ai   une~idée.
+~           hmm    I~have an~idea  
+
+[CONTINUATION]
+> What comes next?
+Speaker509: Lin, tu  vas       [au     supermarché ]!
+~           Lin  you are~going  to~the supermarket   
+- dans le  métro
+~ in   the metro
++ au     supermarché
+~ to~the supermarket
+- en~Europe
+~ to~Europe
+
+[LINE]
+Speaker508: Euh… moi ?
+~           uh   me   
+
+[LINE]
+Speaker509: Oui ! Moi, je veux~juste une~chose : une baguette !
+~           yes   me   I  just~want  one~thing   a   baguette  
+
+[MULTIPLE_CHOICE]
+> Why does Lucie tell Lin to go to the supermarket?
++ Lin wants her to buy a lot of stuff.
+- Lin needs supplies for her sandwich shop.
+- She doesn't need bread anymore.
+
+[MATCH]
+> Tap the pairs
+- Ah <> ah
+- Oui <> yes
+- de pain <> any bread
+- peux <> can
+- Et deux <> and two
+
