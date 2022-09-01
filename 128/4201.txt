@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Tôi muốn ăn pizza
+icon=3eebaf390a99fcebfaf064cfa42f14c071b5b97f
+set=9|4
+
+[HEADER]
+> I   Want a       Pizza
+~ tôi muốn 1~chiếc pizza
+
+[LINE]
+> Lin is~walking~home.  
+~ Lin đang~đi~bộ~về~nhà 
+
+[LINE]
+> She   is~carrying two     pizzas.
+~ cô~ấy đang~xách   2~chiếc pizza  
+
+[MULTIPLE_CHOICE]
+> Lin có bảy chiếc pizza.
++ Không đúng.
+- Đúng vậy.
+
+[LINE]
+> She   sees Oscar on   the~street.
+~ cô~ấy gặp  Oscar trên đường~phố  
+
+[LINE]
+Speaker592: Hi,   Lin. That~pizza smells~great!         
+~           chào  Lin  pizza~đấy  (có~mùi)~thơm~quá~nhỉ 
+
+[LINE]
+Speaker508: Yes,  it's  from~Emilio's~Restaurant.
+~           vâng  nó~là của~Nhà~hàng~Emilio's    
+
+[LINE]
+Speaker592: Oh, I   love      that~restaurant.
+~           ồ   chú rất~thích nhà~hàng~đó     
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker592: Now     I   want [a       pizza]!
+~           giờ~thì chú muốn  1~chiếc pizza  
++ a       pizza
+~ 1~chiếc pizza
+- some new~clothes
+~ vài  bộ~đồ~mới  
+- to~clean my~apartment  
+~ dọn~dẹp  căn~hộ~của~chú
+
+[LINE]
+Speaker508: Oh, the~restaurant is~closed~now. 
+~           à   nhà~hàng       đóng~cửa~rồi~ạ 
+
+[LINE]
+Speaker592: Oh~no...   
+~           chán~thế   
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker592: [(Well), (you)  (have) (two)     (pizzas).]
+~             à~mà    cháu   có     2~chiếc   pizza    
+
+[LINE]
+Speaker592: Can~I~buy~one?                 
+~           cho~chú~mua~một~cái~được~không 
+
+[LINE]
+Speaker508: No,~sorry.           These   are for my~grandma~Lucy  and me.  
+~           rất~tiếc~là~không~ạ  chỗ~này là  cho bà~Lucy~của~cháu và  cháu 
+
+[LINE]
+Speaker592: Well,    can~I~have         a   piece~of your~pizza?    
+~           vậy~thì  cho~chú…được~không một miếng    pizza~của~cháu 
+
+[LINE]
+Speaker508: Uh, no,    Oscar.     That's…~strange.
+~           ờm  không  chú~Oscar  như~thế…~kỳ~lắm 
+
+[MULTIPLE_CHOICE]
+> Lin nghĩ rằng…
+- …Oscar đang ăn mặc rất kỳ cục.
+- …Oscar ghét ăn pizza.
++ …thật kỳ cục nếu phải chia pizza cho Oscar.
+
+[LINE]
+> Lin leaves.
+~ Lin đi~về  
+
+[LINE]
+Speaker592: Now     I    really      want~pizza         from~that~restaurant…
+~           giờ~thì mình thật~sự~rất muốn~được~ăn~pizza của~nhà~hàng~đó      
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+> Oscar [makes~a~call]     on   his~phone.            
+~ Oscar  bấm~máy~gọi~điện  trên điện~thoại~của~anh~ấy 
+- takes it all
+- makes a ball
++ makes a call
+
+[LINE]
+Speaker592: Hi   Lucy,     it's~Oscar.   Do~you~have  plans         for dinner? 
+~           chào chị~Lucy  là~Oscar~đây  chị~có…không kế~hoạch~(gì) cho bữa~tối 
+
+[LINE]
+Speaker509: I'm~having~pizza with Lin! Do~you~want       to~eat with us?       
+~           tôi~sẽ~ăn~pizza  cùng Lin  anh~có~muốn…không ăn     cùng chúng~tôi 
+
+[LINE]
+Speaker592: Thanks!     That's~a~great~idea!
+~           cảm~ơn~chị  ý~hay~đấy           
+
+[MULTIPLE_CHOICE]
+> Đúng là mưu mẹo! Oscar gọi điện cho Lucy vì…
+- …anh ấy muốn tiết lộ cho Lucy một bí mật.
+- …Lucy không trả lời tin nhắn của anh ấy.
++ …anh ấy muốn được mời tới ăn tối.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- from that restaurant <> của nhà hàng đó
+- Yes <> vâng
+- want pizza <> muốn được ăn pizza
+- sees <> gặp
+- really <> thật sự rất
+
