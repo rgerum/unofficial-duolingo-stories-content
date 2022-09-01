@@ -1,0 +1,159 @@
+[DATA]
+fromLanguageName=Let's Ask for Directions
+icon=0699ccdd9abbb4922a33be28cf6143a530843cc1
+set=30|2
+
+[HEADER]
+> Demandons     notre~chemin
+~ let's~ask~for directions  
+
+[LINE]
+> Lin et  Béa cherchent       un restaurant dans une petite ville.
+~ Lin and Béa are~looking~for a  restaurant in   a   small  town  
+
+[LINE]
+Speaker507: Je suis fatiguée de marcher, et  j'ai~vraiment~faim !
+~           I  am   tired    of walking  and I'm~really~hungry   
+
+[LINE]
+Speaker508: Je suis sûre qu'on~n'est~pas loin.    
+~           I  am   sure that~we~are~not far~away 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker508: Tout~le~monde dit  que  leur  [chef~est~incroyable].
+~           everyone      says that their  chef~is~incredible   
++ chef est incroyable
+- greffe est incroyable
+- chef est incoiffable
+
+[LINE]
+> Elles voient une femme dans~la~rue.  
+~ they  see    a   woman on~the~street 
+
+[LINE]
+Speaker507: Demandons     notre~chemin à  cette femme.
+~           let's~ask~for directions   to this  woman 
+
+[LINE]
+Speaker507: Excusez-moi, savez-vous  comment aller au     restaurant Chez~Cécile   ?
+~           excuse~me    do~you~know how     to~go to~the restaurant (at)~Cécile's  
+
+[LINE]
+Speaker1187: Bien~sûr  ! Tournez à~gauche au     bout de cette rue.   
+~            of~course   turn    left     at~the end  of this  street 
+
+[LINE]
+Speaker1187: Ensuite, vous allez     voir   un très bel        homme assis   devant      une maison~rouge.
+~            then     you  are~going to~see a  very attractive man   sitting in~front~of a   red~house    
+
+[LINE]
+Speaker1187: Tournez à~droite après cette maison.
+~            turn    right    after that  house  
+
+[MULTIPLE_CHOICE]
+> Where do Lin and Béa need to turn right?
+- by the very ugly man at the blue house
+- by the restaurant at the end of the street
++ by the very attractive man at the red house
+
+[LINE]
+Speaker508: Merci.    
+~           thank~you 
+
+[LINE]
+> Lin et  Béa tournent à~gauche.
+~ Lin and Béa turn     left     
+
+[SELECT_PHRASE]
+> Select the missing phrase
+> Enfin,   après quinze  minutes de marche,  elles voient un homme assis   devant      une [maison~rouge].
+~ finally  after fifteen minutes of walking  they  see    a  man   sitting in~front~of a    red~house     
+- raison louche
+- maison louche
++ maison rouge
+
+[LINE]
+Speaker508: C'est   lui ?
+~           is~that him  
+
+[ARRANGE]
+> Tap what you hear
+Speaker507: [(Non), (elle~a~dit) (qu'il)   (était) (beau).]      
+~             no     she~said     that~he   was     attractive   
+
+[LINE]
+Speaker508: Il est beau       !
+~           he is  attractive  
+
+[LINE]
+Speaker507: Mais il n'est~pas très beau...      
+~           but  he is~not    very attractive   
+
+[LINE]
+Speaker508: Si tu  le~dis...
+~           if you say~so   
+
+[LINE]
+Speaker3135: Pardon    ? Je suis là,   vous savez ?
+~            excuse~me   I  am   here  you  know   
+
+[LINE]
+Speaker507: Oh, euh, désolée.
+~           oh  uh   sorry   
+
+[MULTIPLE_CHOICE]
+> Wait… why did Béa just apologize?
+- She accidentally stepped on Lin's foot.
+- She forgot where she was going.
++ The man heard her say he wasn't very attractive.
+
+[LINE]
+Speaker508: Savez-vous  si nous sommes près  de Chez~Cécile   ?
+~           do~you~know if we   are    close to (at)~Cécile's  
+
+[LINE]
+Speaker3135: Non, c'est à~cinq~kilomètres    d'ici.    
+~            no   it's  five~kilometers~away from~here 
+
+[LINE]
+Speaker508: Vous~êtes sûr  ?
+~           are~you   sure  
+
+[CONTINUATION]
+> What comes next?
+Speaker3135: Oui. J'y~travaille. Je suis [leur  chef].
+~            yes  I~work~there   I  am    their chef  
+- un client  
+~ a  customer
++ leur  chef
+~ their chef
+- ton  père  
+~ your father
+
+[LINE]
+Speaker507: Super ! Vous~pouvez me~faire     un sandwich ? J'ai~tellement~faim !
+~           great   can~you     (to)~make~me a  sandwich   I'm~so~hungry        
+
+[LINE]
+Speaker3135: Non, vous avez~dit que  je n'étais~pas beau.      
+~            no   you  said     that I  wasn't      attractive 
+
+[LINE]
+Speaker507: Oui, mais ça~c'était avant~de~savoir que  vous étiez chef.  
+~           yes  but  that~was   before~I~knew   that you  were  a~chef 
+
+[MULTIPLE_CHOICE]
+> Why did Béa ask the man to make her a sandwich?
+- He is holding a lot of bread and cheese.
+- Béa made him a sandwich first.
++ He is the chef at "Chez Cécile."
+
+[MATCH]
+> Tap the pairs
+- Lin <> Lin
+- leur <> their
+- Ensuite <> then
+- un <> a
+- lui <> him
+
