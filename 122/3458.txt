@@ -1,0 +1,147 @@
+[DATA]
+fromLanguageName=Die perfekte Person
+icon=9a22c5f11ddc4785a81d887f35d522f3317e2f4c
+set=6|1
+
+[HEADER]
+> The Perfect  Person
+~ die perfekte Person
+
+[LINE]
+> Bea meets  her   friend, Eddy, for coffee.
+~ Bea trifft ihren Freund  Eddy  zum Kaffee 
+
+[LINE]
+Speaker414: Good  morning, Bea!
+~           guten Morgen   Bea 
+
+[LINE]
+Speaker507: How are~you,    Eddy?
+~           wie geht's~dir  Eddy 
+
+[LINE]
+Speaker414: Well,  I   have a   date tonight.    
+~           na~ja  ich habe ein Date heute~Abend 
+
+[LINE]
+Speaker507: That's  great.
+~           das~ist toll  
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker414: Yes, but  I   feel       [a~little~sick].     
+~           ja   aber ich fühle~mich  ein~bisschen~krank  
++ a little sick
+- it'll sit
+- a little quick
+
+[LINE]
+Speaker507: Oh, I'm~sorry.       
+~           oh  das~tut~mir~leid 
+
+[LINE]
+Speaker414: I'm     really   tired.
+~           ich~bin wirklich müde  
+
+[LINE]
+Speaker414: And I~also~feel  cold.
+~           und mir~ist~auch kalt 
+
+[MULTIPLE_CHOICE]
+> Eddy geht es großartig.
++ Nein, das ist falsch.
+- Ja, das ist richtig. 
+
+[LINE]
+Speaker507: Hmm.
+~           hmm 
+
+[LINE]
+Speaker507: That's  not   good.
+~           das~ist nicht gut  
+
+[ARRANGE]
+> Was hörst du?
+Speaker507: [(You) (need)  (to~visit)  (a)     (doctor).]
+~             du    musst   aufsuchen   einen   Arzt     
+
+[LINE]
+Speaker414: No,   I   can't      be~sick!   
+~           nein  ich kann~nicht krank~sein 
+
+[LINE]
+Speaker414: I   have a   date tonight!    
+~           ich habe ein Date heute~Abend 
+
+[LINE]
+Speaker507: Forget  your date!
+~           vergiss dein Date 
+
+[LINE]
+Speaker507: I   know  the perfect  person for you. 
+~           ich kenne die perfekte Person für dich 
+
+[MULTIPLE_CHOICE]
+> Hast du das gehört? Bea denkt, dass Eddy …
++ … eine andere Person als sein Date treffen sollte.
+- … vergessen sollte, welcher Tag heute ist.
+- … pünktlich zu seinem Date kommen sollte.
+
+[LINE]
+Speaker414: Really?  
+~           wirklich 
+
+[LINE]
+Speaker507: Yes. She's   tall…
+~           ja   sie~ist groß 
+
+[LINE]
+Speaker507: And intelligent…
+~           und intelligent 
+
+[LINE]
+Speaker414: Is  she funny? 
+~           ist sie witzig 
+
+[LINE]
+Speaker507: Yes, she's   very funny. 
+~           ja   sie~ist sehr witzig 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker414: [She~is~perfect]! 
+~            sie~ist~perfekt  
+- Cheese is perfect
++ She is perfect
+- He is a person
+
+[LINE]
+Speaker414: What's  her name?
+~           wie~ist ihr Name 
+
+[LINE]
+Speaker507: Doctor Santos.
+~           Doktor Santos 
+
+[LINE]
+Speaker507: You need  to~go~to~her~office~now…   
+~           du  musst jetzt~in~ihre~Praxis~gehen 
+
+[LINE]
+Speaker507: …because you're~sick!  
+~            weil    du~krank~bist 
+
+[MULTIPLE_CHOICE]
+> Bea denkt, dass die perfekte Person für Eddy …
+- … ein Typ ist, den sie online kennengelernt hat.
++ … eine Ärztin ist, die ihm helfen kann, gesund zu werden.
+- … eine Frau ist, die er aus dem Fernsehen kennt.
+
+[MATCH]
+> Wähle die Paare
+- Oh <> oh
+- I'm sorry <> das tut mir leid
+- friend <> Freund
+- can't <> kann nicht
+- Eddy <> Eddy
+
