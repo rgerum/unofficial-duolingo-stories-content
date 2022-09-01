@@ -1,0 +1,110 @@
+[DATA]
+fromLanguageName=Ich will unbedingt einen Hund
+icon=f0d8a8f3340da1d468766192cafa7ac1ee986355
+set=6|4
+
+[HEADER]
+> I   Really~Want    a     Dog 
+~ ich will~unbedingt einen Hund
+
+[LINE]
+Speaker415: Dad,  we  need   to~talk. I   really~want    a     dog. 
+~           Papa  wir müssen reden    ich will~unbedingt einen Hund 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker414: Junior, a   dog  [is~a~lot~of~work]…       
+~           Junior  ein Hund  macht~eine~Menge~Arbeit  
+- if a love for work
++ is a lot of work
+- in a lot of weeks
+
+[LINE]
+Speaker415: I   can  work!     I'm     very responsible.       
+~           ich kann arbeiten  ich~bin sehr verantwortungsvoll 
+
+[LINE]
+Speaker414: Really?  
+~           wirklich 
+
+[LINE]
+Speaker414: Then first,  you~need to~wash~the~car… 
+~           dann zuerst  musst~du das~Auto~waschen 
+
+[MULTIPLE_CHOICE]
+> Warum möchte Eddy, dass Junior das Auto wäscht?
++ Er will prüfen, ob Junior Verantwortung übernehmen kann.
+- Junior muss zu seiner neuen Arbeit fahren.
+- Juniors Hund hat das Auto schmutzig gemacht.
+
+[LINE]
+Speaker415: Sure!
+~           klar 
+
+[LINE]
+Speaker414: …clean~the~bathroom…   
+~            das~Badezimmer~putzen 
+
+[LINE]
+Speaker415: OK!
+~           OK 
+
+[ARRANGE]
+> Was hörst du?
+Speaker414: …[(and) (clean)  (the) (windows)!]
+~              und   putzen   die   Fenster   
+
+[LINE]
+Speaker415: Oh no…  
+~           oh nein 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „später“.
+> (Three) (hours)   (+later),  (Junior) finishes           cleaning~their~apartment.
+~  drei    Stunden    später    Junior  ist~(damit)~fertig ihre~Wohnung~zu~putzen   
+
+[LINE]
+Speaker415: Dad!  Look~at~my~work!          
+~           Papa  schau~dir~meine~Arbeit~an 
+
+[LINE]
+Speaker414: Wow! This looks~great!    You are  very responsible.       
+~           wow  das  sieht~toll~aus  du  bist sehr verantwortungsvoll 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker414: You can    have~a~dog      g]!
+~           du  kannst einen~Hund~haben   
++ a     dog 
+~ einen Hund
+- a    toilet  
+~ eine Toilette
+- a   window 
+~ ein Fenster
+
+[LINE]
+Speaker415: No,   thank~you! I   don't~want~a dog  now. 
+~           nein  danke      ich will~keinen  Hund mehr 
+
+[LINE]
+Speaker414: But  Junior, I   don't~understand…
+~           aber Junior  ich verstehe~nicht   
+
+[LINE]
+Speaker415: I'm     tired! I   don't~want to~be~responsible!      
+~           ich~bin müde   ich will~nicht verantwortungsvoll~sein 
+
+[MULTIPLE_CHOICE]
+> Junior ist klar geworden, dass …
+- … er lieber eine Kuh haben möchte.
+- … er vier Hunde adoptieren will.
++ … ein Hund zu viel Arbeit macht.
+
+[MATCH]
+> Wähle die Paare
+- now <> mehr
+- Really <> wirklich
+- I'm <> ich bin
+- Then <> dann
+- have a dog <> einen Hund haben
+
