@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Kế hoạch ngày sinh nhật
+icon=9ac312d372abe49d99606848f5a7a8414143346d
+set=11|1
+
+[HEADER]
+> Birthday~Plan          
+~ kế~hoạch~ngày~sinh~nhật
+
+[LINE]
+> Eddy is~sleeping. Junior runs into his~room.    
+~ Eddy đang~ngủ     Junior chạy vào  phòng~anh~ấy 
+
+[LINE]
+Speaker415: Dad!   Dad!
+~           bố~ơi  bố  
+
+[LINE]
+Speaker414: What? Huh? Oh, good~morning,   Junior.
+~           gì    hả   ồ   chào~buổi~sáng  Junior 
+
+[LINE]
+Speaker415: Dad,   I   can't~wait~for        my~birthday~party!         
+~           bố~ơi  con nóng~lòng~chờ…lắm~rồi bữa~tiệc~sinh~nhật~của~con 
+
+[MULTIPLE_CHOICE]
+> Junior không muốn tổ chức tiệc sinh nhật.
++ Không đúng.
+- Đúng vậy.
+
+[LINE]
+Speaker414: Oh!    Yes…      Happy~birthday…?     
+~           ừ~nhỉ  phải~rồi  chúc~mừng~sinh~nhật  
+
+[LINE]
+Speaker414: What~kind~of~party~do~you~want, Junior?
+~           con~muốn~tiệc~kiểu~gì           Junior 
+
+[LINE]
+Speaker415: I   don't~know!
+~           con không~biết 
+
+[LINE]
+Speaker415: But   I   want ice~cream! A~lot~of~ice~cream!
+~           nhưng con muốn kem        thật~nhiều~kem~vào 
+
+[LINE]
+Speaker414: OK,        Junior! It's       your~birthday!   
+~           được~thôi  Junior  hôm~nay~là sinh~nhật~con~mà 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker415: [(Can~we~also)                    (have) (a)       (big~cake)?]
+~             chúng~ta~có~thể…nữa~được~không   gọi    1~chiếc   bánh~to    
+
+[LINE]
+Speaker414: Of~course,     Junior!
+~           tất~nhiên~rồi  Junior 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker415: Great!     And     I   want [all~my~friends]         to~come!
+~           tuyệt~vời  với~lại con muốn  tất~cả~các~bạn~con~đều  tới     
+- all of my fish
++ all my friends
+- a lot of fries
+
+[LINE]
+Speaker414: Oh!    We       need     to~invite them~all           now!         
+~           ừ~nhỉ  chúng~ta cần~phải mời       tất~cả~các~bạn~con ngay~bây~giờ 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker414: What~time~do~you~want to~have [your~party]?        
+~           con~muốn~mấy~giờ      tổ~chức  bữa~tiệc~(của~con)  
+- my~birthday     
+~ sinh~nhật~của~bố
++ your~party      
+~ bữa~tiệc~của~con
+- breakfast
+~ bữa~sáng 
+
+[LINE]
+> Eddy looks~at his~phone.            
+~ Eddy nhìn     điện~thoại~của~anh~ấy 
+
+[LINE]
+Speaker414: Wait…   it's~only      January. Your~birthday is in~May,            Junior!
+~           đợi~đã  bây~giờ~mới~là tháng~1  sinh~nhật~con là vào~tháng~5~cơ~mà  Junior 
+
+[LINE]
+Speaker415: Yes,  I   know. I   can't~wait!               
+~           vâng  con biết  con không~đợi~được~đến~lúc~đó 
+
+[LINE]
+Speaker415: But   can~we~still~have          ice~cream today,   Dad?  
+~           nhưng chúng~ta~vẫn~ăn…được~không kem       hôm~nay  hả~bố 
+
+[LINE]
+Speaker414: Aaah… Yes,       Junior.
+~           oài   thôi~được  Junior 
+
+[MULTIPLE_CHOICE]
+> Eddy nhận ra rằng…
++ …vài tháng nữa mới đến sinh nhật Junior.
+- …Junior thật ra không thích ăn kem.
+- …hôm nay là sinh nhật Junior.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- runs <> chạy
+- What <> gì
+- Junior <> Junior
+- now <> ngay bây giờ
+- to have <> tổ chức
+
