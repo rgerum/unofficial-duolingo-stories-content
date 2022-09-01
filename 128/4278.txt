@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=Ai đến ăn tối thế?
+icon=dc357430b977e970c350bd02c026ab07731f28f3
+set=29|1
+
+[HEADER]
+> Who's~Coming~to~Dinner?
+~ ai~sẽ~đến~ăn~tối       
+
+[LINE]
+> Lucy is~making soup. Lin comes~into the~kitchen.
+~ Lucy đang~nấu  súp   Lin vào~trong  phòng~bếp   
+
+[LINE]
+Speaker509: Guess         who's~coming~to~dinner tonight?
+~           cháu~đoán~xem ai~sẽ~đến~ăn~tối       tối~nay 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker508: Well,  you're~making your    [famous~fish~soup],     so  it's~probably  someone   special. 
+~           à~thì  bà~đang~nấu   …của~bà  món~súp~cá~nổi~tiếng   nên đó~hẳn~phải~là một~người đặc~biệt 
++ famous fish soup
+- famous wish soup
+- favorite fish suit
+
+[LINE]
+Speaker509: Yes!      It's  someone   very special. 
+~           đúng~thế  đó~là một~người rất  đặc~biệt 
+
+[LINE]
+Speaker508: Is~your~friend,    the~famous~actress,            coming~to~dinner?
+~           có~phải~là~bạn~bà  cái~cô~diễn~viên~nổi~tiếng~đó  sẽ~đến~ăn~tối    
+
+[LINE]
+Speaker509: No,    she's~working~on~a~film right~now.
+~           không  cô~ấy~đang~đi~quay~phim lúc~này   
+
+[MULTIPLE_CHOICE]
+> Một nữ diễn viên nổi tiếng sẽ đến ăn tối.
+- Đúng vậy.
++ Không đúng.
+
+[LINE]
+Speaker509: It's  someone   more~important. You  can't~wear         pajamas!
+~           đó~là một~người quan~trọng~hơn  cháu không~mặc…được~đâu đồ~ngủ  
+
+[LINE]
+Speaker508: Oh, really? Alright,   I'll~wear   something~else!
+~           ồ   thế~ạ   thôi~được  cháu~sẽ~mặc cái~gì~đó~khác 
+
+[MULTIPLE_CHOICE]
+> Hình như là Lin đang mặc…
++ …đồ ngủ.
+- …đồ bơi.
+- …một bộ váy đẹp.
+
+[LINE]
+> Lin goes~to her~room    and puts~on a~shirt  and jeans.  
+~ Lin đi~vào  phòng~cô~ấy và  mặc~vào áo~sơ~mi với quần~bò 
+
+[LINE]
+Speaker508: So,  is~it         your~friend, Victor?! Is~he~back~from    taking~photos~of wild~horses in Argentina?
+~           thế  đó~có~phải~là bạn~bà       Victor   ông~ấy~đi…về~rồi~à chụp~ảnh         ngựa~hoang  ở  Argentina 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker509: [(No),    (he's~photographing)      (lions) (in~India) (now).]    
+~             không    ông~ấy~đang~đi~chụp~ảnh   sư~tử   ở~Ấn~Độ    bây~giờ   
+
+[LINE]
+Speaker508: Is~it         the~astronaut    you worked~with?  
+~           đó~có~phải~là ông~phi~hành~gia bà  từng~làm~cùng 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker509: No,    [he's~getting~ready]   to~go~to  Mars.   
+~           không   ông~ấy~đang~chuẩn~bị  để~đi~lên Sao~Hoả 
+- his bed is ready
+- he's getting lettuce
++ he's getting ready
+
+[LINE]
+Speaker508: Wait…     Is~this              a   date        for      me,   Grandma?
+~           khoan~đã  đây~có~phải~là…không một buổi~hẹn~hò dành~cho cháu  hả~bà   
+
+[LINE]
+Speaker508: I    don't~need~help~with~dating.
+~           cháu không~cần~bà~giúp~mai~mối   
+
+[LINE]
+Speaker509: Of~course~not!         
+~           tất~nhiên~là~không~rồi 
+
+[LINE]
+> Someone  knocks~on~the~door. It's  Lucy's~friend, Frank.
+~ có~người gõ~cửa              đó~là bạn~của~Lucy   Frank 
+
+[LINE]
+Speaker509: Lin, this is Frank. He     helps~people~with~their~resumes.  
+~           Lin  đây  là Frank  cậu~ấy giúp~mọi~người~làm~hồ~sơ~xin~việc 
+
+[LINE]
+Speaker113: Hi,   Lin! Your~grandma really~wanted   us       to~meet. 
+~           chào  Lin  bà~của~em    đã~muốn…lắm~đấy chúng~ta gặp~nhau 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker113: She   said that [you need     to~find a~job].   
+~           bà~ấy nói  rằng  em  đang~cần tìm     việc~làm  
+- you live on   Mars   
+~ em  sống trên Sao~Hỏa
++ you need     to~find a~job   
+~ em  đang~cần tìm     việc~làm
+- you have~a~pet~fish          
+~ em  nuôi~một~con~cá~trong~nhà
+
+[LINE]
+Speaker508: Ugh,  I'm~going~to put~my~pajamas~back~on.   
+~           trời  cháu~đi…đây  mặc~lại~đồ~ngủ~(của~cháu) 
+
+[MULTIPLE_CHOICE]
+> Vì sao Lin muốn mặc lại bộ đồ ngủ?
+- Cô ấy muốn ăn mặc đẹp để đi hẹn hò.
++ Vị khách tới ăn tối hóa ra là để giúp cô ấy tìm việc.
+- Cô ấy nhìn giống phi hành gia khi mặc đồ ngủ.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- No <> không
+- is <> là
+- really wanted <> đã muốn…lắm đấy
+- for <> dành cho
+- that <> rằng
+
