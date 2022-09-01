@@ -1,0 +1,133 @@
+[DATA]
+fromLanguageName=Minha primeira pintura
+icon=b4a0fb96a3bb2af295051d49d3c112c4c91779e6
+set=13|3
+
+[HEADER]
+> Mi    primera  pintura
+~ minha primeira pintura
+
+[LINE]
+> Eddy va  al apartamento de Óscar.
+~ Eddy vai ao apartamento de Óscar 
+
+[LINE]
+> Eddy tiene una pintura en~las manos.
+~ Eddy tem   uma pintura nas    mãos  
+
+[LINE]
+Speaker592: ¿Qué   es eso,  Eddy?
+~            o~que é  isso  Eddy 
+
+[LINE]
+Speaker414: ¡Es mi    primera  pintura!
+~            é  minha primeira pintura 
+
+[LINE]
+Speaker414: ¿Puedes mirarla?
+~            podes  olhá-la 
+
+[MULTIPLE_CHOICE]
+> O Eddy quer fazer uma pintura do Óscar.
++ Não, não é isso.
+- Sim, isso mesmo.
+
+[LINE]
+Speaker592: No. 
+~           não 
+
+[LINE]
+Speaker414: Pero eres profesor  de arte.
+~           mas  és   professor de arte 
+
+[LINE]
+Speaker592: Sí,  y soy muy   honesto.
+~           sim  e sou muito sincero 
+
+[LINE]
+Speaker414: Eso~me~gusta.  
+~           eu~gosto~disso 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "chorar".
+Speaker592: (Y) (tú) (vas~a) (+llorar).
+~            e   tu   vais     chorar  
+
+[LINE]
+Speaker414: Pero yo quiero tener tu    opinión sobre mi      pintura.
+~           mas  eu quero  ter   a~tua opinião sobre a~minha pintura 
+
+[LINE]
+Speaker592: No  es buena.
+~           não é  boa   
+
+[LINE]
+Speaker414: ¿Cómo lo~sabes?   
+~            como sabes~disso 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker592: No  eres artista, y es [tu  primera  pintura].
+~           não és   artista  e é   tua primeira pintura  
+- sobre mi    pintura
+~ sobre minha pintura
+- en~las manos
+~ nas    mãos 
++ tu  primera  pintura
+~ tua primeira pintura
+
+[LINE]
+Speaker592: Las primeras  pinturas nunca son buenas.
+~           as  primeiras pinturas nunca são boas   
+
+[LINE]
+Speaker414: Mírala,        por favor.
+~           olha~para~ela  por favor 
+
+[LINE]
+Speaker414: Por favor, Óscar.
+~           por favor  Óscar 
+
+[LINE]
+Speaker592: Está bien.
+~           está bem  
+
+[ARRANGE]
+> Toque no que escutar
+> [(Óscar) (mira) (la) (pintura).]
+~   Óscar   olha   a    pintura   
+
+[LINE]
+Speaker592: Eddy, esta pintura es…
+~           Eddy  esta pintura é  
+
+[LINE]
+Speaker414: ¡¿Sí?! 
+~             sim  
+
+[LINE]
+Speaker592: Muy   buena.
+~           muito boa   
+
+[LINE]
+Speaker414: ¡Sí!  ¡Qué bueno! ¡Soy un buen artista!
+~            sim   que bom     sou um bom  artista 
+
+[LINE]
+Speaker592: Ahora vete,      por favor.
+~           agora vá~embora  por favor 
+
+[MULTIPLE_CHOICE]
+> Por que o Óscar ficou tão surpreso?
++ Ele achava que primeiras pinturas nunca eram boas.
+- O Eddy sempre foi um mau pintor.
+- O Eddy pinta somente com os pés.
+
+[MATCH]
+> Toque nos pares
+- esta <> esta
+- bueno <> bom
+- favor <> favor
+- pinturas <> pinturas
+- mirarla <> olhá-la
+
