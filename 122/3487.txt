@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Frühstück machen
+icon=6d79d91b8caad82e9f6ce44a1b458f12ac6a7a9f
+set=13|2
+
+[HEADER]
+> Making~Breakfast
+~ Frühstück~machen
+
+[LINE]
+> Eddy is~making breakfast for Junior.
+~ Eddy macht     Frühstück für Junior 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker415: Hey, Dad!  [What~are~you~doing]?
+~           hey  Papa   was~machst~du       
+- What's your dog
+- When are you doing
++ What are you doing
+
+[LINE]
+Speaker414: Good  morning, Junior! I'm~making a   big    breakfast for you! 
+~           guten Morgen   Junior  ich~mache  ein großes Frühstück für dich 
+
+[LINE]
+Speaker415: Breakfast?
+~           Frühstück 
+
+[LINE]
+Speaker414: Yes. I   never~have time to~make~breakfast~for~you.
+~           ja   ich habe~nie   Zeit dir~Frühstück~zu~machen   
+
+[LINE]
+Speaker414: But  today is  different!
+~           aber heute ist anders    
+
+[MULTIPLE_CHOICE]
+> Moment! Was meint Eddy damit?
+- Er hat heute keine Zeit, das Frühstück für Junior zu machen.
+- Er macht jeden Tag das Frühstück für Junior.
++ Heute hat er Zeit, das Frühstück zu machen.
+
+[LINE]
+Speaker415: Dad,  I   don't~want breakfast.
+~           Papa  ich will~kein  Frühstück 
+
+[LINE]
+Speaker414: What?! But  I'm~making eggs…
+~           was    aber ich~mache  Eier 
+
+[ARRANGE]
+> Was hörst du?
+Speaker415: [(I)   (don't~want) (eggs).]
+~             ich   will~keine   Eier   
+
+[LINE]
+Speaker414: You love   eggs.
+~           du  liebst Eier 
+
+[LINE]
+Speaker415: Yes, but— 
+~           ja   aber 
+
+[LINE]
+Speaker414: And there's sausage~too!
+~           und es~gibt auch~Wurst  
+
+[LINE]
+Speaker414: You love        eating~sausage for breakfast!
+~           du  liebst~(es) Wurst~zu~essen zum Frühstück 
+
+[LINE]
+Speaker415: That's~right, but— 
+~           das~stimmt    aber 
+
+[LINE]
+Speaker414: So   what's~wrong,        Junior?
+~           also was~ist~das~Problem  Junior 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker415: Dad…  it's   [one~o'clock]!
+~           Papa  es~ist  ein~Uhr      
+- on the clothes
++ one o'clock
+- one on clock
+
+[LINE]
+> Eddy looks  at  his   watch.     
+~ Eddy schaut auf seine Armbanduhr 
+
+[POINT_TO_PHRASE]
+> Wähle die     Option      mit der Bedeutung „lange Zeit|“.
+~ Wähle sterben Möglichkeit mit der Bedeutung  lange Zeit ~ 
+Speaker414: (Oh) (no)…   making~breakfast (takes)  a    (+long~time). 
+~            oh   nein   Frühstück~machen  dauert  eine   lange~Zeit  
+
+[LINE]
+Speaker415: But  now   we~can     make~lunch!        
+~           aber jetzt können~wir Mittagessen~machen 
+
+[MULTIPLE_CHOICE]
+> Warum bereitet Eddy das Mittagessen zu?
++ Er hat zu lange fürs Frühstückmachen gebraucht.
+- Er hat Juniors Frühstück aufgegessen.
+- Junior hat ihm Frühstück gemacht.
+
+[MATCH]
+> Wähle die Paare
+- watch <> Armbanduhr
+- you <> dich
+- And <> und
+- Dad <> Papa
+- time <> Zeit
+
