@@ -1,0 +1,150 @@
+[DATA]
+fromLanguageName=Au camping !
+icon=6a073f6357dc14ea58e162202f936682895b11ec
+set=19|1
+
+[HEADER]
+> Camping!
+~ camping 
+
+[LINE]
+> Vikram and his wife,  Priti, are~camping.     They're~sitting in   their tent. 
+~ Vikram et  sa  femme  Priti  font~du~camping  ils~sont~assis  dans leur  tente 
+
+[LINE]
+Speaker560: I  want to~check my~email… 
+~           je veux vérifier mes~mails 
+
+[LINE]
+Speaker593: We~agreed              not~to~use      our phones     during  this trip,   remember?      
+~           on~était~d'accord~pour ne~pas~utiliser nos téléphones pendant ce   voyage  tu~te~souviens 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker560: You're~right. [We~should~enjoy~nature].        
+~           tu~as~raison   on~devrait~apprécier~la~nature  
+- We should enjoy neither
++ We should enjoy nature
+- We sold the nature
+
+[LINE]
+Speaker593: Let's~make dinner   now.        I'm~hungry!
+~           préparons  le~dîner maintenant  j'ai~faim  
+
+[LINE]
+Speaker560: Uh…  we~only~have   two  apples. We~ate~too~much at lunch.   
+~           euh  on~a~seulement deux pommes  on~a~trop~mangé au déjeuner 
+
+[LINE]
+Speaker593: Oh no.  And all  the stores   are  closed.
+~           oh non  et  tous les magasins sont fermés 
+
+[LINE]
+Speaker593: Maybe         camping          was   a   bad      idea…
+~           peut-être~que faire~du~camping était une mauvaise idée 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Vikram dit-il ça ?
++ Ils n'ont rien à manger pour le dîner.
+- Ils ont oublié d'apporter leur tente.
+- Ils n'aiment pas passer du temps ensemble.
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+> [(Suddenly),    (Vikram) (hears)  (a~noise)  (outside).]
+~   tout~à~coup    Vikram   entend   un~bruit   dehors    
+
+[LINE]
+Speaker593: Wait…    did~you~hear  that?
+~           attends  tu~as~entendu ça   
+
+[LINE]
+Speaker560: No… 
+~           non 
+
+[LINE]
+Speaker593: Maybe         it's  a  bear…
+~           peut-être~que c'est un ours 
+
+[LINE]
+Speaker593: Do~bears~like              apples?!    
+~           est-ce~que~les~ours~aiment les~pommes  
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker560: I'll~look        [outside          the tent]. 
+~           je~vais~regarder  à~l'extérieur~de la  tente  
++ outside          the tent 
+~ à~l'extérieur~de la  tente
+- in   the store  
+~ dans le  magasin
+- at~our~house
+~ à~la~maison 
+
+[LINE]
+Speaker593: Be~careful!    
+~           fais~attention 
+
+[LINE]
+Speaker593: What          do~you~see?
+~           qu'est-ce~que tu~vois    
+
+[LINE]
+Speaker560: It's~so~dark.      I  don't~see~anything.
+~           il~fait~si~sombre  je ne~vois~rien       
+
+[LINE]
+Speaker560: Wait!    I  see  something     near    that~other tent! 
+~           attends  je vois quelque~chose près~de l'autre    tente 
+
+[LINE]
+Speaker593: What~is~it?
+~           c'est~quoi 
+
+[LINE]
+Speaker560: It's…  a  guy delivering a   pizza?
+~           c'est  un mec qui~livre  une pizza 
+
+[LINE]
+Speaker593: Really?  
+~           vraiment 
+
+[LINE]
+Speaker560: Yeah,  those other  campers  ordered      a   pizza!
+~           ouais  ces   autres campeurs ont~commandé une pizza 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+> [(Priti) (takes~out) (her) (phone).]    
+~   Priti   sort        son   téléphone   
+
+[LINE]
+Speaker593: What~are~you~doing?    We~agreed              not~to~use      our phones.    
+~           qu'est-ce~que~tu~fais  on~était~d'accord~pour ne~pas~utiliser nos téléphones 
+
+[LINE]
+> Priti makes~a~call.        
+~ Priti passe~un~coup~de~fil 
+
+[LINE]
+Speaker560: Hi,      I'd~like    to~order  one pizza!
+~           bonjour  je~voudrais commander une pizza 
+
+[LINE]
+Speaker593: Actually… order~two!         
+~           en~fait   commandes-en~deux  
+
+[MULTIPLE_CHOICE]
+> Priti et Vikram ont décidé...
++ … de commander deux pizzas.
+- … de se battre avec un ours pour de la nourriture.
+- … d'appeler les autres campeurs.
+
+[MATCH]
+> Choisis les paires
+- the <> les
+- Wait <> attends
+- dinner <> le dîner
+- pizza <> pizza
+- want <> veux
+
