@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Find My Girlfriend
+icon=0d18f0403cfa415591d7ef50a9e9c01f1094936e
+set=3|4
+
+[HEADER]
+> かのじょ                     を~さがしてくれませんか                             
+~ (my)~girlfriend~[kanojo] could~you~find~[o~sagashite~kuremasen~ka]
+
+[LINE]
+> ビーは          くうこう                   に~います。           
+~ Bea~[bii~wa] (the)~airport~[kuukou] is~at~[ni~imasu] 
+
+[LINE]
+> かのじょは           カウンターの                        おとこの~ひと                 に~はなしかけます。                    
+~ she~[kanojo~wa] (at)~the~counter~[kauntaa~no] (a)~man~[otoko~no~hito] talks~to~[ni~hanashikakemasu] 
+
+[LINE]
+Speaker823: こんにちは|。いかがなさいましたか？                                         
+~           hello~[konnichiwa]  can~I~help~you~[ikaga~nasaimashita~ka] 
+
+[LINE]
+Speaker507: バルセロナいきの                         びん                 に~のるんですが…                             
+~           to~Barcelona~[baruserona~iki~no] (the)~flight~[bin] I'm~going~to~take~[ni~noru~n~desu~ga] 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "next to."
+Speaker507: (ひこうき)                     (の~なかで)           (かのじょ)                     (+の~となりに)                 すわりたいんです。                          
+~            (the)~airplane~[hikouki]   in~[no~naka~de]   (my)~girlfriend~[kanojo]    next~to~[no~tonari~ni]  (I)~want~to~sit~[suwaritai~n~desu] 
+
+[LINE]
+Speaker823: かしこまりました|。となりあった~ふたせき                                              が~ございます。                 
+~           OK~[kashikomarimashita]  two~seats~together~[tonariatta~futa-seki] (we)~have~[ga~gozaimasu] 
+
+[MULTIPLE_CHOICE]
+> The attendant tells Bea that there are...
++ …two seats together on the plane.
+- …only two seats on the plane.
+- …no seats left on the plane.
+
+[LINE]
+Speaker507: よかった！           
+~           great~[yokatta] 
+
+[LINE]
+Speaker823: あの|、おつれさまは                                  どちらに~いらっしゃいますか？                       
+~           um~[ano]  (your)~companion~[otsure-sama~wa] where~is~[dochira~ni~irasshaimasu~ka] 
+
+[LINE]
+Speaker507: わからないんです|。かのじょ                                を~さがしてくれませんか？                             
+~           I~don't~know~[wakaranai~n~desu]  her~[kanojo] could~you~find~[o~sagashite~kuremasen~ka] 
+
+[MULTIPLE_CHOICE]
+> Bea asked the attendant…
+- …to find her mother.
++ …to find her girlfriend.
+- …to find her cat.
+
+[LINE]
+Speaker823: おつれさまは                            どのような~がいけんですか？                                    
+~           (your)~companion~[otsure-sama~wa] what~does~~~look~like~[dono~youna~gaiken~desu~ka] 
+
+[SELECT_PHRASE]
+> Select the missing word
+Speaker507: えっと|、わたしの                    かのじょは                  せが~たかいです|。そして|、かみが                                              [くろいです]。                
+~           well~[etto]  my~[watashi~no] girlfriend~[kanojo~wa] is~tall~[se~ga~takai~desu]  and~[soshite]  (her)~hair~[kami~ga]  is~black~[kuroi~desu]  
++ くろいです
+- ふるいです
+- ひろいです
+
+[LINE]
+Speaker823: かしこまりました。               
+~           OK~[kashikomarimashita] 
+
+[LINE]
+Speaker507: それに           スポーツ              が~だいすきです。                     
+~           also~[soreni] sports~[supootsu] (she)~loves~[ga~daisuki~desu] 
+
+[LINE]
+Speaker823: あの…      
+~           um~[ano] 
+
+[LINE]
+Speaker507: どうぶつ               も        だいすきです|。でも|、うんてんちゅうに                                                  スピードを~だしすぎます。                                  
+~           animals~[doubutsu] too~[mo] (she)~loves~[daisuki~desu]  but~[demo]  while~driving~[unten-chuu~ni] (she)~goes~too~fast~[supiido~o~dashi-sugimasu] 
+
+[LINE]
+Speaker823: そうですか|。おつれさまの                                            おなまえは            なんですか？                
+~           I~see~[sou~desu~ka]  (your)~companion's~[otsure-sama~no] name~[onamae~wa] what~is~[nan~desu~ka] 
+
+[MULTIPLE_CHOICE]
+> Why does the attendant want to know about Bea's girlfriend?
++ He is trying to help Bea find her.
+- He and Bea are very good friends.
+- He wants to play sports with her.
+
+[LINE]
+Speaker507: あっ|、しりません。                           
+~           oh~[a']  (I)~don't~know~[shirimasen] 
+
+[LINE]
+Speaker823: えっ|？！かのじょの                                  なまえ          を~ごぞんじないんですか？                             
+~           what~[e']   (your)~girlfriend's~[kanojo~no] name~[namae] (you)~don't~know~[o~gozonjinai~n~desu~ka] 
+
+[LINE]
+Speaker507: わたしには             まだ         かのじょ                    が~いないんです。                        
+~           I~[watashi~ni~wa] yet~[mada] (a)~girlfriend~[kanojo] (I)~don't~have~[ga~inai~n~desu]  
+
+[LINE]
+Speaker507: わたしに                かのじょ                    を~さがしてくれませんか？                             
+~           for~me~[watashi~ni] (a)~girlfriend~[kanojo] could~you~find~[o~sagashite~kuremasen~ka] 
+
+[MULTIPLE_CHOICE]
+> Bea wants to sit next to someone who...
+- …works at the airport.
++ ...can be her new girlfriend.
+- …snores loudly.
+
+[MATCH]
+> Tap the pairs
+- も <> too [mo]
+- びん <> flight [bin]
+- かのじょは <> she [kanojo wa]
+- かみが <> hair [kami ga]
+- おなまえは <> name [onamae wa]
+
