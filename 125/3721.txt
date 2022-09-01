@@ -1,0 +1,110 @@
+[DATA]
+fromLanguageName=Voglio davvero un cane
+icon=f0d8a8f3340da1d468766192cafa7ac1ee986355
+set=6|4
+
+[HEADER]
+> I~Really~Want       a  Dog 
+~ (io)~voglio~davvero un cane
+
+[LINE]
+Speaker415: Dad,  we~need        to~talk. I~really~want       a  dog. 
+~           papà  (noi)~dobbiamo parlare  (io)~voglio~davvero un cane 
+
+[SELECT_PHRASE]
+> Seleziona la frase mancante
+Speaker414: Junior, a  dog  [is~a~lot~of~work]…     
+~           Junior  un cane  comporta~molto~lavoro  
+- if a love for work
++ is a lot of work
+- in a lot of weeks
+
+[LINE]
+Speaker415: I~can~work!          I'm  very  responsible. 
+~           (io)~posso~lavorare  sono molto responsabile 
+
+[LINE]
+Speaker414: Really? 
+~           davvero 
+
+[LINE]
+Speaker414: Then   first,          you~need  to~wash the car…     
+~           allora prima~di~tutto  (tu)~devi lavare  la  macchina 
+
+[MULTIPLE_CHOICE]
+> Perché Eddy dice a Junior di lavare la macchina?
+- Junior deve andare al lavoro in macchina.
++ Vuole che Junior dimostri di essere responsabile.
+- Il cane di Junior ha sporcato la macchina.
+
+[LINE]
+Speaker415: Sure! 
+~           certo 
+
+[LINE]
+Speaker414: …clean  the bathroom…
+~            pulire il  bagno    
+
+[LINE]
+Speaker415: OK!
+~           OK 
+
+[ARRANGE]
+> Seleziona ciò che senti
+Speaker414: …[(and) (clean)  (the) (windows)!] 
+~              e     pulire   le    finestre   
+
+[LINE]
+Speaker415: Oh no…
+~           oh no 
+
+[POINT_TO_PHRASE]
+> Seleziona l'opzione che significa "dopo".
+> (Three) (hours) (+later), Junior finishes~cleaning (their)   apartment.   
+~  tre     ore      dopo    Junior finisce~di~pulire  il~loro  appartamento 
+
+[LINE]
+Speaker415: Dad!  Look~at my     work!  
+~           papà  guarda  il~mio lavoro 
+
+[LINE]
+Speaker414: Wow! This~looks great!      You~are  very  responsible. 
+~           wow  (questo)~è fantastico  (tu)~sei molto responsabile 
+
+[CONTINUATION]
+> Come continua la frase?
+Speaker414: You~can~have    [a  dog]! 
+~           (tu)~puoi~avere  un cane  
+- a  toilet
+~ un bagno 
++ a  dog 
+~ un cane
+- a   window  
+~ una finestra
+
+[LINE]
+Speaker415: No, thank~you! I~don't~want    a  dog  now.   
+~           no  grazie     (io)~non~voglio un cane adesso 
+
+[LINE]
+Speaker414: But Junior, I~don't~understand…
+~           ma  Junior  (io)~non~capisco   
+
+[LINE]
+Speaker415: I'm  tired!  I~don't~want    to~be  responsible! 
+~           sono stanco  (io)~non~voglio essere responsabile 
+
+[MULTIPLE_CHOICE]
+> Junior ha deciso che…
++ … è troppo stanco per prendersi cura di un cane.
+- … preferisce una mucca.
+- … dovrebbe adottare quattro cani.
+
+[MATCH]
+> Tocca le coppie
+- thank you <> grazie
+- first <> prima di tutto
+- hours <> ore
+- work <> lavoro
+- But <> ma
+
