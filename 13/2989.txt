@@ -1,0 +1,198 @@
+[DATA]
+fromLanguageName=Eddy's Emergency
+icon=e0718b43f841b45b2c93f3500731f0a130105110
+set=52|4
+
+[HEADER]
+> L'urgence~d'Eddy
+~ Eddy's~emergency
+
+[LINE]
+> Vikram entre~en~courant~dans l'appartement de son voisin.  
+~ Vikram runs~into             the~apartment of his neighbor 
+
+[LINE]
+Speaker593: Eddy, je suis là   ! Quelle est l'urgence     ?!
+~           Eddy  I  am   here   what   is  the~emergency   
+
+[LINE]
+Speaker414: J'ai   un rencard, mais j'ai~oublié qu'elle  était végétarienne…   comme toi !
+~           I~have a  date     but  I~forgot    that~she was   (a)~vegetarian  like  you  
+
+[MULTIPLE_CHOICE]
+> Quelle est l'urgence~d'Eddy ?
+~ what   is  Eddy's~emergency  
++ Il a~oublié que  son rencard ne~mange~pas de~viande.
+~ he forgot   that his date    doesn't~eat  meat      
+- Il a~oublié où    Vikram habite.
+~ he forgot   where Vikram lives  
+- Il veut  avoir   un rencard avec Vikram.
+~ he wants to~have a  date    with Vikram 
+
+[LINE]
+Speaker593: Ce   n'est~pas une urgence.  
+~           that isn't     an  emergency 
+
+[LINE]
+Speaker414: Mais j'aime~vraiment cette femme !
+~           but  I~really~like   this  woman  
+
+[LINE]
+Speaker593: OK, je~vais~t'aider.      
+~           OK  I'm~going~to~help~you 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker593: Un repas~végétarien, c'est   [facile~à~faire] !
+~           a  vegetarian~meal   (it)~is  easy~to~make     
+- fragile à faire
++ facile à faire
+- facile à perdre
+
+[LINE]
+> Vikram ouvre le  frigo. 
+~ Vikram opens the fridge 
+
+[LINE]
+Speaker593: Hmm… Ton  frigo  est rempli~de   viande.
+~           hmm  your fridge is  filled~with meat   
+
+[LINE]
+Speaker593: Poulet,  bœuf, porc… Mais, pourquoi~tu~as  autant~de viande ?!
+~           chicken  beef  pork  but   why~do~you~have so~much   meat     
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker414: Parce~que je fais~beaucoup~d'exercice ! J'ai~besoin~de viande [pour mes muscles].
+~           because   I  exercise~a~lot             I~need         meat    for  my  muscles  
++ pour mes muscles
+~ for  my  muscles
+- une urgence  
+~ an  emergency
+- de son voisin  
+~ of his neighbor
+
+[LINE]
+Speaker593: Tu  n'as~pas   autre~chose   ?
+~           you don't~have anything~else  
+
+[LINE]
+Speaker414: Des~yaourts   ?
+~           (some)~yogurt  
+
+[LINE]
+Speaker593: Tu~es   sérieux ?
+~           are~you serious  
+
+[LINE]
+Speaker414: J'ai~aussi  des~céréales. 
+~           I~also~have (some)~cereal 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker593: Tu  ne~peux~pas [lui~donner~des~céréales] ! Où    sont les légumes    ?
+~           you can't        (to)~give~her~cereals      where are  the vegetables  
+- lui coller des céréales
++ lui donner des céréales
+- lui donner des cathédrales
+
+[POINT_TO_PHRASE]
+> Choisis l'option   qui  veut~dire « in the back ».
+~ choose  the~option that means     ~ ~  ~   ~    ~ 
+Speaker414: (Tu~as~regardé) (+au~fond)     (du)     (frigo)  ?
+~            did~you~look     in~the~back   of~the   fridge   
+
+[LINE]
+Speaker593: Oh ! Je vois du   vert  !
+~           oh   I  see  some green  
+
+[LINE]
+Speaker414: Ah, ça…   Je crois que  c'est   le~projet~de~sciences~de~Junior.
+~           ah  that  I  think that (it)~is Junior's~science~project        
+
+[MULTIPLE_CHOICE]
+> Qu'est-ce~que le  truc~vert   dans le~frigo~d'Eddy ?
+~ what~is       the green~thing in   Eddy's~fridge    
+- un monstre~vert  qui  fait~très~peur
+~ a  green~monster that is~very~scary 
+- un très vieux paquet  de salades
+~ a  very old   package of salads 
++ un truc  pour le  cours~de~science de Junior
+~ a  thing for  the science~class    of Junior
+
+[LINE]
+Speaker593: Tu  devrais~aller au     supermarché.
+~           you should~go     to~the supermarket 
+
+[LINE]
+Speaker414: Elle arrive      dans trente minutes !
+~           she  is~arriving in   thirty minutes  
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Je) (n'ai~pas)   (le~temps~d'aller) (au)     (supermarché).]
+~             I    don't~have   time~to~go         to~the   supermarket   
+
+[LINE]
+> Junior entre~dans la  cuisine.
+~ Junior comes~in   the kitchen 
+
+[LINE]
+Speaker415: Salut Vikram. Salut Papa.
+~           hi    Vikram  hi    Dad  
+
+[LINE]
+Speaker415: Qu'est-ce~qui~ne~va~pas ?
+~           what's~wrong             
+
+[LINE]
+Speaker593: Il est inquiet parce~que la  femme qu'il   a~invité~à~dîner       est végétarienne.  
+~           he is  worried because   the woman that~he invited~to~have~dinner is  (a)~vegetarian 
+
+[LINE]
+Speaker415: Et~alors ?
+~           so~what   
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker414: Nous n'avons~rien        pour faire     [un repas~végétarien ]!
+~           we   don't~have~anything to   (to)~make  a  vegetarian~meal    
++ un repas~végétarien
+~ a  vegetarian~meal 
+- du~sport
+~ sports  
+- de~la~viande
+~ meat        
+
+[LINE]
+Speaker415: Ce   n'est~pas vrai. On a    de~la~glace.     
+~           that isn't     true  we have (some)~ice~cream 
+
+[LINE]
+Speaker593: Junior, ce   n'est~pas un repas.
+~           Junior  that isn't     a  meal  
+
+[LINE]
+Speaker415: Alors pourquoi~Papa~et~moi on~mange~tout~le~temps de~la~glace      pour le~dîner ?
+~           so    why~do~Dad~and~I     we~always~eat          (some)~ice~cream for  dinner    
+
+[MULTIPLE_CHOICE]
+> Pourquoi Junior~ne~comprend~pas    l'urgence~d'Eddy ?
+~ why      doesn't~Junior~understand Eddy's~emergency  
+- Il a~commandé une pizza.
+~ he ordered    a   pizza 
++ Il pense  que  la~glace  est un bon  dîner~végétarien. 
+~ he thinks that ice-cream is  a  good vegetarian~dinner 
+- Le~rencard~d'Eddy mange beaucoup de viande.
+~ Eddy's~date       eats  a~lot    of meat   
+
+[MATCH]
+> Tap the pairs
+- du <> of the
+- femme <> woman
+- repas <> meal
+- comme <> like
+- voisin <> neighbor
+
