@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=A aula de dança
+icon=9a1213d7cb11cc1ab115544c9557336da748fca6
+set=8|2
+
+[HEADER]
+> The Dance~Class  
+~ a   aula~de~dança
+
+[LINE]
+> Eddy walks~into Elizabeth's~class.
+~ Eddy entra~na   aula~de~Elizabeth 
+
+[LINE]
+Speaker125: Hi!
+~           oi 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker125: Today we're       [learning~to~dance]!  
+~           hoje  nós~estamos  aprendendo~a~dançar  
++ learning to dance
+- earning two dances
+- leaning to dance
+
+[LINE]
+> Eddy quickly     walks to  the door. 
+~ Eddy rapidamente anda  até a   porta 
+
+[LINE]
+Speaker125: Wait!  
+~           espere 
+
+[LINE]
+Speaker125: Don't~leave!
+~           não~saia    
+
+[LINE]
+Speaker125: I  know    dancing is difficult sometimes…
+~           eu sei~que dançar  é  difícil   às~vezes  
+
+[LINE]
+Speaker125: …but it's really~fun      too!   
+~            mas é    muito~divertido também 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "erro".
+Speaker414: (OK),    (but) (this) is a  (+mistake).
+~            certo    mas   isto  é  um   erro     
+
+[LINE]
+Speaker125: It's OK!       It's easy.  Watch~me!  
+~           está tudo~bem  é    fácil  me~observe 
+
+[LINE]
+Speaker414: But…
+~           mas 
+
+[ARRANGE]
+> Toque no que escutar
+> [(Eddy) (watches) (Elizabeth) (dance).] 
+~   Eddy   observa   Elizabeth   dançar   
+
+[LINE]
+Speaker125: Now   dance with~me!
+~           agora dance comigo  
+
+[LINE]
+Speaker414: This is really    fun!      
+~           isto é  realmente divertido 
+
+[LINE]
+Speaker125: So…    is~this~class~still a  mistake?
+~           então  esta~aula~ainda~é   um erro    
+
+[MULTIPLE_CHOICE]
+> A Elizabeth quer saber…
+- …se o Eddy é professor de dança.
++ …se o Eddy ainda acha que ir à aula dela foi um erro.
+- …por que o Eddy é um dançarino tão ruim.
+
+[LINE]
+Speaker414: Yes.
+~           sim 
+
+[LINE]
+Speaker125: Really?
+~           mesmo  
+
+[LINE]
+Speaker414: Yes, I'm      in~the wrong~room. 
+~           sim  eu~estou na     sala~errada 
+
+[LINE]
+Speaker414: But this is more fun       than   a   cooking~class!    
+~           mas isto é  mais divertido do~que uma aula~de~culinária 
+
+[MULTIPLE_CHOICE]
+> Opa! Qual foi o erro do Eddy?
+- Ele costumava sair com a Elizabeth.
++ Ele deveria ter ido a uma aula de culinária.
+- Ele esqueceu de calçar as sapatilhas de dança.
+
+[MATCH]
+> Toque nos pares
+- is this class still <> esta aula ainda é
+- Today <> hoje
+- dance <> dance
+- Wait <> espere
+- watches <> observa
+
