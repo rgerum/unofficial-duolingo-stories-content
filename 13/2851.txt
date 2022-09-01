@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=The Cake
+icon=4a31a2e8269bfd907d862c44a3b320899c169419
+set=18|2
+
+[HEADER]
+> Le  gâteau
+~ the cake  
+
+[LINE]
+> Lin est dans la  cuisine. Elle ne~trouve~pas son~gâteau.
+~ Lin is  in   the kitchen  she  can't~find    her~cake   
+
+[LINE]
+Speaker508: Où~est~mon~gâteau ?
+~           where~is~my~cake   
+
+[LINE]
+> Lin regarde  Lucie.
+~ Lin looks~at Lucie 
+
+[LINE]
+Speaker508: Lucie ? Tu  manges     quoi ?
+~           Lucie   you are~eating what  
+
+[LINE]
+> Lucie cache son~assiette.
+~ Lucie hides her~plate    
+
+[MULTIPLE_CHOICE]
+> Lucie is hiding her plate.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker509: Euh… rien    !
+~           uh   nothing  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker508: Je ne~trouve~pas [mon~gâteau].
+~           I  can't~find     my~cake     
+- mon tableau
++ mon gâteau
+- mon chapeau
+
+[LINE]
+Speaker509: C'est  bizarre. C'est un petit gâteau ?
+~           that's weird    is~it a  small cake    
+
+[LINE]
+Speaker508: Oui !
+~           yes  
+
+[ARRANGE]
+> Tap what you hear
+Speaker509: [(Il~y~a)    (des~oranges) (sur) (le)  (gâteau) ]?
+~             there~are   oranges       on    the   cake      
+
+[LINE]
+Speaker508: Oui ! Il~y~a    beaucoup~d'oranges.
+~           yes   there~are a~lot~of~oranges   
+
+[LINE]
+Speaker509: Il~est blanc ?
+~           is~it  white  
+
+[LINE]
+Speaker508: Oui ! Il~est blanc !
+~           yes   it~is  white  
+
+[LINE]
+Speaker509: Ton  gâteau est bon  ? Très bon  ?
+~           your cake   is  good   very good  
+
+[CONTINUATION]
+> What comes next?
+Speaker508: Lucie ! Tu  manges     [mon gâteau ?]!
+~           Lucie   you are~eating  my  cake      
++ mon gâteau
+~ my  cake  
+- la  cuisine
+~ the kitchen
+- ma carotte
+~ my carrot 
+
+[LINE]
+Speaker509: Non !
+~           no   
+
+[POINT_TO_PHRASE]
+> Choose the option that means "I'm very hungry."
+Speaker508: OK. (Désolée). (+J'ai~très~faim),  et  je veux (manger) mon (gâteau~au~chocolat).
+~           OK   sorry       I'm~very~hungry   and I  want  to~eat  my   chocolate~cake      
+
+[LINE]
+Speaker509: Chocolat  ? Ton  gâteau est à~la~vanille !
+~           chocolate   your cake   is  vanilla       
+
+[LINE]
+Speaker508: Aha,   je le~savais ! Tu  as   mon gâteau !
+~           ah-ha  I  knew~it     you have my  cake    
+
+[MULTIPLE_CHOICE]
+> How does Lin know that Lucie has her cake?
++ Lucie knows what flavor the cake is.
+- Lucie has cake on her face.
+- Lin can see Lucie's plate.
+
+[MATCH]
+> Tap the pairs
+- cuisine <> kitchen
+- rien <> nothing
+- Oui <> yes
+- à la vanille <> vanilla
+- un <> a
+
