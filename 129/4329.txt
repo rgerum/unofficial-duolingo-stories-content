@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Yabancı
+icon=f3d07f61cdd95c84cb15d7f9d0e4b0dc8173072b
+set=9|2
+
+[HEADER]
+> The Stranger
+~ ~   Yabancı 
+
+[LINE]
+> Harry is   at  work.
+~ ~     -dir -te iş   
+
+[LINE]
+> He's~talking to~his~friend on  the phone.  
+~ konuşuyor    arkadaşıyla   -da ~   telefon 
+
+[LINE]
+Speaker385: This weekend…   
+~           Bu   hafta~sonu 
+
+[LINE]
+Speaker385: … my    university friends      and I…  
+~             benim Üniversite arkadaşlarım ve  ben 
+
+[LINE]
+Speaker385: Wait  a   minute. My    office phone     is~ringing.
+~           Bekle bir dakika  Benim ofis   telefonum çalıyor    
+
+[MULTIPLE_CHOICE]
+>  Harry'nin ofis telefonu çalmaya başlar.
++ Evet, bu doğru.
+- Hayır, bu yanlış.
+
+[LINE]
+Speaker385: Hello?
+~           Selam 
+
+[LINE]
+Speaker292: Hello, Harry.
+~           Selam  ~     
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker385: [Who~is~this]?
+~            bu~kim       
+- Who's the
++ Who is this
+- Oh these
+
+[LINE]
+Speaker292: A   friend. 
+~           Bir arkadaş 
+
+[LINE]
+Speaker385: Who?
+~           kim 
+
+[LINE]
+Speaker292: I     need          you~to~help~me , Harry.
+~           benim ihtiyacım~var yardımına        ~     
+
+[LINE]
+Speaker385: What do~you~want? I~don't~know you! 
+~           Ne   istiyorsun   tanımıyorum  seni 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker292: But [I~know~you].        
+~           ama  ben~seni~tanıyorum  
++ I know you
+- I now
+- wow you
+
+[LINE]
+Speaker292: And I'm~coming to your~office  right~now!  
+~           Ve  geliyorum  -e senin~ofisin hemen~şimdi 
+
+[LINE]
+Speaker385: No,    please! I'm~calling the police!
+~           Hayır  Lütfen  arayacağım  ~   polisi 
+
+[LINE]
+Speaker292: Harry, it's your  boss!    
+~           ~      bu   senin patronun 
+
+[MULTIPLE_CHOICE]
+> Telefondaki kişi kim?
++ Harry'nin patronu.
+- Harry'nin annesi.
+- Harry'nin üniversiteden arkadaşı.
+
+[LINE]
+Speaker292: You   need  to~finish your~work!
+~           senin lazım bitirmen  işini     
+
+[LINE]
+Speaker292: Don't~talk to  your~friends on  the phone   at  work.
+~           konuşma    -la arkadaşların -da ~   telefon -te iş   
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker292: [(All~of~the~office) (can~hear)    (you)!] 
+~             tüm~ofis            duyabiliyor   seni   
+
+[LINE]
+Speaker385: Oh no…
+
+[LINE]
+Speaker385: Sorry,   I'll~start   working   now!  
+~           Üzgünüm  başlayacağım çalışmaya şimdi 
+
+[MULTIPLE_CHOICE]
+> Harry'nin patronu  ...
+- … Arkadaşlarını aradığı için Harry'e kovulduğunu söyledi.
+- … Terfi aldığını söylemek için aradı.
++ … Arkadaşlarıyla konuşmak yerine çalışması gerektiği için Harry'i aradı.
+
+[MATCH]
+> Çiftlere dokun
+- and <> ve
+- But <> ama
+- Sorry <> Üzgünüm
+- He's talking <> konuşuyor
+- to his friend <> arkadaşıyla
+
