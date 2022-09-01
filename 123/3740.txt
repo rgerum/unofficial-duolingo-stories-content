@@ -1,0 +1,138 @@
+[DATA]
+fromLanguageName=El bolso
+icon=966f6e25540bc4ba5347e59005bcc1e2827fdd66
+set=1|3
+
+[HEADER]
+> Le sac  
+~ el bolso
+
+[LINE]
+> Vikram est  dans un  magasin.
+~ Vikram está en   una tienda  
+
+[LINE]
+> Une femme parle avec Vikram.
+~ una mujer habla con  Vikram 
+
+[LINE]
+Speaker338: Bonjour     !
+~           buenos~días  
+
+[LINE]
+Speaker593: Bonjour.    
+~           buenos~días 
+
+[LINE]
+Speaker338: Vous  travaillez ici  ?
+~           usted trabaja    aquí  
+
+[MULTIPLE_CHOICE]
+> La mujer le pregunta a Vikram si él trabaja en la tienda.
+- No, no es así.
++ Sí, así es.
+
+[LINE]
+Speaker593: Je…
+~           yo 
+
+[LINE]
+Speaker338: Très bien ! J'ai~besoin~de~vous. 
+~           muy  bien   yo~necesito~su~ayuda 
+
+[MULTIPLE_CHOICE]
+> ¿Qué quiere decir la mujer?
++ Ella necesita la ayuda de Vikram.
+- Vikram le cae muy bien.
+- Ella quiere el trabajo de Vikram.
+
+[LINE]
+Speaker593: Euh…
+~           eh  
+
+[LINE]
+Speaker338: J'ai~besoin~d'un sac.  
+~           yo~necesito~un   bolso 
+
+[LINE]
+Speaker338: Vous  préférez le sac   rouge ?
+~           usted prefiere el bolso rojo   
+
+[MULTIPLE_CHOICE]
+> La mujer le pregunta a Vikram si…
+- …él quiere un nuevo trabajo.
+- …a él le gusta trabajar en la tienda.
++ …él prefiere el bolso rojo.
+
+[LINE]
+Speaker593: Je…
+~           yo 
+
+[LINE]
+Speaker338: Ou le blanc  ?
+~           o  el blanco  
+
+[LINE]
+Speaker593: OK…    Très bien.
+~           bueno  muy  bien 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker593: [Le~rouge~est~grand].
+~            el~rojo~es~grande   
+- La route est grande
++ Le rouge est grand
+- Le rouge est blanc
+
+[LINE]
+Speaker593: Le blanc  est beau…  
+~           el blanco es  bonito 
+
+[LINE]
+Speaker593: … et il~n'est~pas cher.
+~             y  no~es        caro 
+
+[MULTIPLE_CHOICE]
+> Vikram cree que el bolso blanco es…
+- …feo y demasiado grande.
++ …bonito y no muy caro.
+- …muy caro y viejo.
+
+[LINE]
+Speaker593: Il~est super     !
+~           es     estupendo  
+
+[LINE]
+Speaker338: Très bien ! Je veux   le sac   blanc. 
+~           muy  bien   yo quiero el bolso blanco 
+
+[LINE]
+Speaker338: Merci~beaucoup.
+~           muchas~gracias 
+
+[LINE]
+Speaker338: Je~paye~où ?
+~           dónde~pago  
+
+[LINE]
+Speaker593: Je ne~sais~pas.
+~           yo no~sé       
+
+[LINE]
+Speaker593: Je ne~travaille~pas ici. 
+~           yo no~trabajo       aquí 
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Vikram no sabe dónde puede pagar la mujer?
+- Él odia comprar bolsos.
+- Él se le olvidó.
++ Él no trabaja en la tienda.
+
+[MATCH]
+> Selecciona los pares
+- Euh <> eh
+- avec <> con
+- Très <> muy
+- dans <> en
+- ne sais pas <> no sé
+
