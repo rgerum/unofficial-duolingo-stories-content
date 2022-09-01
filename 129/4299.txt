@@ -1,0 +1,133 @@
+[DATA]
+fromLanguageName=Sürpriz!
+icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
+set=1|4
+
+[HEADER]
+> Surprise!
+~ Sürpriz  
+
+[LINE]
+> Bruce is   in  a   restaurant with his~mother.
+~ ~     -dır -da bir restoran   ile  annesi     
+
+[LINE]
+Speaker2276: A   table for~three,  please.
+~            Bir masa  üç~kişilik  Lütfen 
+
+[LINE]
+Speaker385: Three? You, me,  and…?
+~           üç~mü  Sen  ben  ve   
+
+[LINE]
+Speaker2276: A   friend. 
+~            Bir arkadaş 
+
+[MULTIPLE_CHOICE]
+> Onlarla kim gelip yemek yiyecek?
++ Bruce'un annesinin bir arkadaşı.
+- Bruce'un kardeşi.
+- Bruce'un babası.
+
+[LINE]
+Speaker385: Oh… I     need…         
+~           ~   benim ihtiyacım~var 
+
+[LINE]
+Speaker2276: I     have a   surprise! 
+~            benim var  bir sürprizim 
+
+[LINE]
+Speaker385: I…     I     have a   surprise  too.
+~           benim  benim var  bir sürprizim de  
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker2276: [(My~friend)       (is) (very) (nice).] 
+~              benim~arkadaşım   ~    çok    güzel   
+
+[LINE]
+Speaker2276: She's a   business student.  
+~            O     bir işletme  öğrencisi 
+
+[LINE]
+Speaker2276: Her~name is Sonia.
+~            onun~adı ~  ~     
+
+[LINE]
+Speaker385: Mom,  I     need…         
+~           Anne  benim ihtiyacım~var 
+
+[LINE]
+Speaker2276: And she's beautiful! Perfect  for  my~son!
+~            Ve  o     güzel      Mükemmel için oğlum  
+
+[MULTIPLE_CHOICE]
+> Bruce'un annesi ...
+- … Yeni bir arkadaş edinmesini istiyor.
+- … Bruce'u bırakmasını istiyor.
++ … Bruce'un annesinin arkadaşı Sonia ile çıkmasını istiyor.
+
+[LINE]
+> A   woman enters the~restaurant.
+~ Bir Kadın girer  restorana      
+
+[LINE]
+Speaker125: Hi,    honey!
+~           Selam  balım 
+
+[LINE]
+Speaker2276: Honey?   
+~            balım~mı 
+
+[MULTIPLE_CHOICE]
+> Bruce'un annesi neden şaşırdı?
+- Siparişleri çok çabuk geldi.
+- Bruce restoranı terk etti.
++ Bruce'un bir ilişkisi olduğunu bilmiyordu.
+
+[LINE]
+Speaker385: Hi,    Carla. Mom… 
+~           Selam  ~      Anne 
+
+[LINE]
+Speaker125: Bruce, is this your~mother?
+~           ~      mi o    senin~annen 
+
+[LINE]
+Speaker2276: Bruce?!
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker125: [How~are~you]?
+~            nasılsın     
+- How aren't you
++ How are you
+- How art your
+
+[LINE]
+Speaker125: I'm Carla! Bruce's  wife.
+~           Ben ~      Bruce'un eşi  
+
+[LINE]
+Speaker2276: Wife?!  
+~            eşi~mi  
+
+[LINE]
+Speaker385: Surprise!
+~           Sürpriz  
+
+[MULTIPLE_CHOICE]
+> Bruce'un sürprizi nedir?
+- Annesinin arkadaşıyla evlenmek istemesi.
++ Carla ile evli olması.
+- Asla evlenmemeye karar vermesi.
+
+[MATCH]
+> Çiftlere dokun
+- Bruce's <> Bruce'un
+- friend <> arkadaş
+- very <> çok
+- surprise <> sürprizim
+- the restaurant <> restorana
+
