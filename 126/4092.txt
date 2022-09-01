@@ -1,0 +1,170 @@
+[DATA]
+fromLanguageName=Multas por atraso
+icon=98e27b1d8de5bdaae888da3a56cc672f414fdf27
+set=72|1
+
+[HEADER]
+> Late~Fees        
+~ multas~por~atraso
+
+[LINE]
+> Lily is~standing~at~the      librarian's~desk      in~the library.    She's~trying      to~check~out     a  book. 
+~ Lily está~de~pé~na~frente~da mesa~da~bibliotecária na     biblioteca  ela~está~tentando pegar~emprestado um livro 
+
+[LINE]
+Speaker292: I'm~sorry,   I  can't~let~you~check~out                this book.  Your library~card              has~been suspended.
+~           sinto~muito  eu não~posso~deixar~você~pegar~emprestado este livro  sua  carteirinha~da~biblioteca foi      suspensa  
+
+[LINE]
+Speaker416: What?!  My    library~card              can't~be     suspended!
+~           o~quê   minha carteirinha~da~biblioteca não~pode~ser suspensa  
+
+[MULTIPLE_CHOICE]
+> Did~you~catch~that? Why     is~Lily     upset?   
+~ você~pegou~essa     por~que a~Lily~está chateada 
+- The librarian     threw a  book  at~her.
+~ a   bibliotecária jogou um livro nela   
+- She's    in trouble for~stealing a  book. 
+~ ela~está em apuros  por~roubar   um livro 
++ She can't~use     her~library~card.                
+~ ela não~pode~usar a~carteirinha~dela~da~biblioteca 
+
+[LINE]
+> The librarian     points to   a  sign  that says, "Quiet,    please!"   
+~ a   bibliotecária aponta para um aviso que  diz    silêncio  por~favor  
+
+[LINE]
+Speaker416: But I  need~this     book  for  a   school~assignment.
+~           mas eu preciso~deste livro para uma tarefa~da~escola  
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker292: I'm~sorry.   [You've~checked~out]     several books  and you  haven't~returned them.
+~           sinto~muito   você~pegou~emprestados  vários  livros e   você não~devolveu     eles 
+- Who's checked out
+- You should doubt
++ You've checked out
+
+[LINE]
+Speaker416: What?!  That's~not possible.
+~           o~quê   isso~não~é possível 
+
+[LINE]
+Speaker292: Shhh!
+~           chiu 
+
+[LINE]
+> The librarian     points to   the "Quiet,~please!"~sign          again.    
+~ a   bibliotecária aponta para o   aviso~de~"silêncio,~por~favor" novamente 
+
+[LINE]
+Speaker292: It's   a   rule  that I  take very  seriously.
+~           essa~é uma regra que  eu levo muito a~sério   
+
+[MULTIPLE_CHOICE]
+> The librarian     thinks that…
+~ a   bibliotecária acha   que  
++ …Lily   should~talk   quietly.     
+~  a~Lily deveria~falar em~voz~baixa 
+- …the library    is   too~quiet.    
+~  a   biblioteca está quieta~demais 
+- …Lily   never checks~out      any~books.   
+~  a~Lily nunca pega~emprestado nenhum~livro 
+
+[LINE]
+Speaker292: According~to  our    records,   you  haven't~returned "The~History~of~Unicorns,"   "Teenage~Vampires~In~Love,          Volume One," and "Teenage~Vampires~In~Love,          Volume Two." 
+~           de~acordo~com nossos registros  você não~devolveu      A~História~dos~Unicórnios    Vampiros~Adolescentes~Apaixonados  volume um    e    Vampiros~Adolescentes~Apaixonados  volume dois  
+
+[LINE]
+Speaker416: I  would~never~read any    of~those books.  There~must~be something    wrong  with your computer.  
+~           eu nunca~leria      nenhum desses   livros  deve~ter      alguma~coisa errada com  seu  computador 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker292: I'm~sorry,   but I  can't~let~you~check~out                another book  until~you~return     those books  and then   [pay~the~late~fees].          
+~           sinto~muito  mas eu não~posso~deixar~você~pegar~emprestado outro   livro até~que~você~devolva esses livros e   depois  pague~as~multas~pelo~atraso  
++ pay the late fees
+- pay the lake geese
+- stay here late please
+
+[LINE]
+Speaker416: Fine!     I'll~do      my    research on~the Internet!
+~           está~bem  eu~vou~fazer minha pesquisa na     internet 
+
+[LINE]
+> Lily angrily~walks~away.    Just~then,     she notices Zari in~the library.    She's~reading  volume   two  of "Teenage~Vampires~In~Love."         
+~ Lily sai~andando~com~raiva  nesse~momento  ela nota    Zari na     biblioteca  ela~está~lendo o~volume dois de  Vampiros~Adolescentes~Apaixonados  
+
+[MULTIPLE_CHOICE]
+> Ah~ha! Who  checked~out       the books  and didn't~return~them?
+~ arrá   quem pegou~emprestados os  livros e   não~os~devolveu    
+- a  unicorn  
+~ um unicórnio
++ Zari  
+~ a~Zari
+- Lily  
+~ a~Lily
+
+[LINE]
+> Lily grabs the book  from Zari.
+~ Lily pega  o   livro de   Zari 
+
+[CONTINUATION]
+> What~comes~next? 
+~ o~que~vem~depois 
+Speaker416: Zari! Have~you~been~checking~out     books  [with my      library~card?]!             
+~           Zari  você~andou~pegando~emprestados livros  com  a~minha carteirinha~da~biblioteca   
+- and throwing~them~away
+~ e   jogando~eles~fora 
++ with my      library~card             
+~ com  a~minha carteirinha~da~biblioteca
+- and drawing    unicorns   on~them
+~ e   desenhando unicórnios neles  
+
+[LINE]
+Speaker418: I'm~sorry!   But you  know how~much I  love~reading!
+~           me~desculpa  mas você sabe quanto   eu amo~ler      
+
+[ARRANGE]
+> Toque no que escutar
+Speaker416: [(Why)     (didn't~you~use) (your)  (library~card)!]?             
+~             por~que   você~não~usou    a~sua   carteirinha~da~biblioteca    
+
+[LINE]
+Speaker418: Because… they took~it~away.       I  always returned my   books  late,       so    I  had   a~lot~of late~fees.        
+~           porque   eles tiraram~ela~de~mim  eu sempre devolvia meus livros com~atraso  então eu tinha muitas   multas~por~atraso 
+
+[LINE]
+Speaker416: Argh!
+~           argh 
+
+[LINE]
+Speaker418: Can~you~ever~forgive~me?       
+~           você~pode~me~perdoar~algum~dia 
+
+[LINE]
+Speaker416: Ahhh. I  guess~so.       
+~           ahhh  eu suponho~que~sim 
+
+[LINE]
+Speaker418: Great. Because I  need~you~to~check~out             "Teenage~Vampires~In~Love,          Volume Three"!
+~           ótimo  porque  eu preciso~que~você~pegue~emprestado  Vampiros~Adolescentes~Apaixonados  volume três   
+
+[MULTIPLE_CHOICE]
+> Why     couldn't~Lily~check~out          a  book? 
+~ por~que a~Lily~não~pôde~pegar~emprestado um livro 
+- The library    was    full  of vampires.
+~ a   biblioteca estava cheia de vampiros 
++ Zari   used  her~library~card                 and didn't~return the books. 
+~ a~Zari usava a~carteirinha~dela~da~biblioteca e   não~devolvia  os  livros 
+- Zari   already checked~out      the book  she     wanted.
+~ a~Zari já      pegou~emprestado o   livro que~ela queria 
+
+[MATCH]
+> Toque nos pares
+- According to <> de acordo com
+- rule <> regra
+- That's not <> isso não é
+- guess so <> suponho que sim
+- Your <> sua
+
