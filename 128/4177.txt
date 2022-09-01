@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=Tìm bạn gái
+icon=0d18f0403cfa415591d7ef50a9e9c01f1094936e
+set=3|4
+
+[HEADER]
+> Find My~Girlfriend  
+~ tìm  bạn~gái~của~tôi
+
+[LINE]
+> Bea is~at  the~airport.
+~ Bea đang~ở sân~bay     
+
+[LINE]
+> She   talks~to       the~man       at the~desk.     
+~ cô~ấy nói~chuyện~với người~đàn~ông ở  quầy~tiếp~đón 
+
+[LINE]
+Speaker823: Hello!    Can~I~help~you?                  
+~           xin~chào  tôi~có~thể~giúp~gì~cho~bạn~không 
+
+[LINE]
+Speaker507: Yes! I'm~going~to Barcelona…
+~           có   tôi~đi       Barcelona 
+
+[LINE]
+Speaker507: I   want to~sit next~to  my~girlfriend on   the~plane.
+~           tôi muốn ngồi   bên~cạnh bạn~gái~tôi   trên máy~bay   
+
+[MULTIPLE_CHOICE]
+> Bea muốn ngồi cạnh mẹ của cô ấy trên máy bay.
+- Đúng vậy.
++ Không đúng.
+
+[LINE]
+Speaker823: OK,   we        have two seats    together. 
+~           vâng  chúng~tôi có   hai ghế~ngồi cùng~nhau 
+
+[MULTIPLE_CHOICE]
+> Nhân viên quầy vé nói với Bea rằng trên máy bay...
+- …không còn ghế trống.
+- …chỉ còn hai ghế duy nhất.
++ …có hai ghế trống cạnh nhau.
+
+[LINE]
+Speaker507: Great!    
+~           tuyệt~vời 
+
+[LINE]
+Speaker823: Um… where~is~your~girlfriend?
+~           ừm  bạn~gái~của~bạn~đâu      
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “tìm”.
+Speaker507: (I)   (don't~know). Can~you~help~me         (+find) (her)?  
+~            tôi   không~biết   bạn~giúp~tôi…được~không   tìm    cô~ấy  
+
+[LINE]
+Speaker823: What~does~she~look~like?
+~           cô~ấy~trông~thế~nào     
+
+[LINE]
+Speaker507: Hmm.     She~is tall. She   has dark~hair…      
+~           xem~nào  cô~ấy  cao   cô~ấy có  mái~tóc~tối~màu 
+
+[LINE]
+Speaker823: OK.      
+~           được~rồi 
+
+[LINE]
+Speaker507: She   loves sports   and cooking…
+~           cô~ấy mê    thể~thao và  nấu~ăn  
+
+[LINE]
+Speaker823: Uh…
+~           ờm 
+
+[LINE]
+Speaker507: She   loves animals…  but   she   drives too fast. 
+~           cô~ấy yêu   động~vật  nhưng cô~ấy lái~xe quá nhanh 
+
+[LINE]
+Speaker823: OK…       What~is~her~name?
+~           được~rồi  cô~ấy~tên~gì     
+
+[MULTIPLE_CHOICE]
+> Vì sao anh nhân viên lại hỏi về bạn gái của Bea?
++ Anh ấy muốn giúp Bea tìm cô ấy.
+- Anh ấy muốn chơi thể thao với bạn gái của Bea.
+- Anh ấy và Bea chơi rất thân với nhau.
+
+[LINE]
+Speaker507: Oh. I   don't~know.
+~           à   tôi không~biết 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker823: You don't~know [your~girlfriend's~name]?
+~           bạn không~biết  tên~bạn~gái~của~bạn     
+- your girlfriend's game
++ your girlfriend's name
+- your good friends' names
+
+[LINE]
+Speaker507: I   don't~have~a~girlfriend~yet.
+~           tôi vẫn~chưa~có~bạn~gái         
+
+[LINE]
+Speaker507: Can~you~help~me         find~one?       
+~           bạn~giúp~tôi…được~không tìm~(một~người) 
+
+[MULTIPLE_CHOICE]
+> Bea muốn ngồi cạnh một người mà…
+- …làm ở sân bay.
+- …ngáy to.
++ …có thể trở thành bạn gái cô ấy.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- Bea <> Bea
+- cooking <> nấu ăn
+- I <> tôi
+- fast <> nhanh
+- but <> nhưng
+
