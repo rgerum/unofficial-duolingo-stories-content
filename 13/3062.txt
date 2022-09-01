@@ -1,0 +1,216 @@
+[DATA]
+fromLanguageName=Pirate Park
+icon=53d72ecfdee186c3bd939f46d9fee32303def285
+set=71|1
+
+[HEADER]
+> Parc~aux~Pirates
+~ Pirate~Park     
+
+[LINE]
+> Zari et  Lily sont dans un parc~d'attractions.
+~ Zari and Lily are  in   an amusement~park     
+
+[LINE]
+Speaker418: Parc~aux~Pirates est vraiment trop~génial !
+~           Pirate~Park      is  really   too~awesome  
+
+[LINE]
+Speaker416: Non.
+~           no  
+
+[LINE]
+Speaker418: Tu  veux faire quoi maintenant ? Le  bateau~pirate ? Aller   à  la  boutique~de~souvenirs ?
+~           you want to~do what now          the pirate~ship     (to)~go to the gift~shop              
+
+[ARRANGE]
+> Tap what you hear
+Speaker416: [(Je) (veux) (rentrer)    (et)  (dormir).]    
+~             I    want   to~go~home   and   (to)~sleep   
+
+[LINE]
+Speaker418: On~ne~peut~pas partir     avant~d'avoir~vu   Paul. Il travaille ici.  C'est~lui qui nous~a~donné les entrées !
+~           we~can't       (to)~leave before~having~seen Paul  he works     here  it's~him  who gave~us      the tickets  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker416: Alors trouvons-le    vite.    Ce   parc est nul.  Les~vrais pirates [n'ont~jamais~dansé] et  chanté comme ça.   
+~           so    let's~find~him quickly  this park is  lame  real      pirates  never~danced        and sang   like  that  
++ n'ont jamais dansé
+- ne vont jamais danser
+- n'ont jamais mangé
+
+[LINE]
+Speaker418: Les~vrais pirates n'ont~jamais~mangé de~nachos,  mais tu  ne~t'es~pas~plainte quand je t'en~ai~acheté. 
+~           real      pirates never~ate          any~nachos  but  you didn't~complain     when  I  bought~you~some 
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker416: Oui, mais ils  sont délicieux. Tu  [en~veux   ]?
+~           yes  but  they are  delicious  you  want~some   
+- as   un stylo
+~ have a  pen  
+- habites ici 
+~ live    here
++ en~veux  
+~ want~some
+
+[LINE]
+> À~ce~moment-là, Zari voit Paul.
+~ at~that~moment  Zari sees Paul 
+
+[LINE]
+Speaker418: Il est là    ! Il est trop~mignon dans son~costume~de~pirate !
+~           he is  there   he is  so~cute     in   his~pirate~costume     
+
+[LINE]
+Speaker416: Il a~l'air ridicule.   Il a~même   un perroquet sur l'épaule.    
+~           he looks   ridiculous  he even~has a  parrot    on  his~shoulder 
+
+[LINE]
+Speaker418: Oh, non. J'ai~peur~des perroquets !
+~           oh  no   I'm~afraid~of parrots     
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker416: Tu  voulais rester  pour~parler     à  Paul, alors [va~lui~parler]. 
+~           you wanted  to~stay in~oder~to~talk to Paul  so     go~talk~to~him  
+- va le garder
++ va lui parler
+- pas lui parler
+
+[LINE]
+> Zari et  Lily vont voir     Paul.
+~ Zari and Lily go   (to)~see Paul 
+
+[LINE]
+Speaker418: Salut, Paul !
+~           hi     Paul  
+
+[LINE]
+Speaker1321: Salut, Zari ! Waouh, euh... c'est sympa~de~te~voir !
+~            hi     Zari   wow    uh     it's  nice~to~see~you   
+
+[LINE]
+Speaker625: Croa   ! Va-t-en !
+~           squawk   go~away  
+
+[LINE]
+> Zari recule     en~criant.
+~ Zari steps~back screaming 
+
+[LINE]
+Speaker418: Ahhh !
+~           ahhh  
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker1321: Je suis vraiment désolé ! Les~perroquets ne~savent~pas [ce~qu'ils~disent].
+~            I  am   really   sorry    parrots        don't~know     what~they~say     
+- les~maths
+~ math     
++ ce~qu'ils~disent
+~ what~they~say   
+- acheter      des~entrées
+~ (how)~to~buy tickets    
+
+[LINE]
+Speaker418: Oh… D'accord.
+~           oh  OK       
+
+[LINE]
+Speaker1321: Je voulais te~dire     quelque~chose, Zari.
+~            I  wanted  to~tell~you something      Zari 
+
+[LINE]
+Speaker625: Croa   ! Tu  es  moche !
+~           squawk   you are ugly   
+
+[LINE]
+Speaker418: Je suis moche ?!
+~           I  am   ugly    
+
+[LINE]
+Speaker1321: Non ! Il dit        n'importe~quoi ! Je pense que  tu  es  très jolie  !
+~            no    it is~talking nonsense         I  think that you are very pretty  
+
+[LINE]
+Speaker1321: Zari, je voulais te~demander...
+~            Zari  I  wanted  to~ask~you    
+
+[LINE]
+Speaker418: Oui ?
+~           yes  
+
+[MULTIPLE_CHOICE]
+> Zari espère que… 
+~ Zari hopes  that 
++ … Paul va~lui~demander~de     sortir      avec lui.
+~   Paul is~going~to~ask~her~to (to)~go~out with him 
+- … le  perroquet restera   avec elle.
+~   the parrot    will~stay with her  
+- … la~pluie va~tomber.       
+~   rain     is~going~to~fall 
+
+[POINT_TO_PHRASE]
+> Choisis l'option   qui  veut~dire « flies off ».
+~ choose  the~option that means     ~ ~     ~   ~ 
+> (Tout~à~coup), (le)  (perroquet) (+s'envole). 
+~  suddenly       the   parrot       flies~off  
+
+[LINE]
+> Il se~pose sur les~nachos~de~Lily.
+~ it lands   on  Lily's~nachos      
+
+[LINE]
+Speaker416: Mes nachos !
+~           my  nachos  
+
+[LINE]
+Speaker418: Oh, non ! Il nous~attaque    !
+~           oh  no    it is~attacking~us  
+
+[LINE]
+> Zari part~en~courant.
+~ Zari runs~away       
+
+[LINE]
+Speaker1321: Zari, attend !
+~            Zari  wait    
+
+[LINE]
+> Quelques minutes plus~tard, Lily trouve Zari à~côté~du   bateau~pirate.
+~ a~few    minutes later      Lily finds  Zari next~to~the pirate~ship   
+
+[LINE]
+Speaker416: C'était super  drôle.
+~           it~was  really funny 
+
+[LINE]
+Speaker418: Je suis tellement gênée.       Partons.    
+~           I  am   so        embarrassed  let's~leave 
+
+[LINE]
+Speaker416: Certainement pas, Parc~aux~Pirates est génial. Et  il~me~faut~d'autres nachos.
+~           certainly    not  Pirate~Park      is  great   and I~need~more         nachos 
+
+[MULTIPLE_CHOICE]
+> Pauvre Zari ! Pourquoi veut-elle     partir   ?
+~ poor   Zari   why      does~she~want to~leave  
+- Elle a~réalisé qu'elle  ne~pouvait~pas être    pirate.  
+~ she  realized  that~she couldn't       (to)~be a~pirate 
+- Elle est malade parce~qu'elle a~mangé trop~de  nachos.
+~ she  is  sick   because~she   ate     too~many nachos 
++ Elle est gênée       parce~qu'elle a~eu~peur  du     perroquet.
+~ she  is  embarrassed because~she   was~scared of~the parrot    
+
+[MATCH]
+> Tap the pairs
+- À ce moment-là <> at that moment
+- quand <> when
+- pirates <> pirates
+- gênée <> embarrassed
+- vite <> quickly
+
