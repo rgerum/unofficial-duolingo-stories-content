@@ -1,0 +1,102 @@
+[DATA]
+fromLanguageName=O que você quer?
+icon=8c5ae7b18c5ff0f37394646c91bd6a579213dcbc
+set=5|2
+
+[HEADER]
+> What  Do~You~Want?
+~ o~que você~quer   
+
+[LINE]
+> Oscar walks~into a   clothes~store. 
+~ Oscar entra~em   uma loja~de~roupas 
+
+[LINE]
+> He  sees his~student,  Zari. She works    in~the store.
+~ ele vê   a~aluna~dele  Zari  ela trabalha na     loja  
+
+[MULTIPLE_CHOICE]
+> Oscar vê Zari trabalhando em uma loja.
++ Sim, isso mesmo.
+- Não, não é isso.
+
+[LINE]
+Speaker592: Zari! Oh, good! I  am    happy to~see  you. 
+~           Zari  ah  bom   eu estou feliz por~ver você 
+
+[LINE]
+Speaker418: Hello! Welcome!  
+~           olá    bem-vindo 
+
+[LINE]
+Speaker418: Do~you~need     help? 
+~           você~precisa~de ajuda 
+
+[LINE]
+Speaker592: Yes, thank~you! I  need…   
+~           sim  obrigado   eu preciso 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "sei".
+Speaker418: (Oh), I  (+know)! (You)  (need)       a   new~jacket!  
+~            ah   eu   sei     você   precisa~de  uma jaqueta~nova 
+
+[LINE]
+> Zari shows       Oscar a   jacket. 
+~ Zari mostra~para Oscar uma jaqueta 
+
+[LINE]
+Speaker592: A   new~jacket?   No.  Zari, I… 
+~           uma jaqueta~nova  não  Zari  eu 
+
+[LINE]
+Speaker418: Oh! You  need       a   new~shirt!  
+~           ah  você precisa~de uma camisa~nova 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker418: [(The) (green~shirt)  (is) (perfect)!] 
+~             a     camisa~verde   é    perfeita   
+
+[LINE]
+Speaker592: No.  Zari, please…   
+~           não  Zari  por~favor 
+
+[LINE]
+Speaker592: I  do~not~need    a   shirt.  I  do~not~need    a   jacket.  I  need…   
+~           eu não~preciso~de uma camisa  eu não~preciso~de uma jaqueta  eu preciso 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker418: Pants!  [You~need~pants]!        
+~           calças   você~precisa~de~calças  
+- You need parents
+- Your new pants
++ You need pants
+
+[LINE]
+Speaker592: No!  I  do~not~need    clothes!
+~           não  eu não~preciso~de roupas  
+
+[LINE]
+Speaker592: I  need    to~know…
+~           eu preciso saber   
+
+[LINE]
+Speaker592: Where is the restroom?
+~           onde  é  o   banheiro 
+
+[MULTIPLE_CHOICE]
+> Por que Oscar entrou na loja de roupas?
+- Ele queria comprar uma jaqueta para Zari.
+- Ele queria comprar calças, uma camisa e uma jaqueta.
++ Ele precisava achar um banheiro.
+
+[MATCH]
+> Toque nos pares
+- new jacket <> jaqueta nova
+- help <> ajuda
+- works <> trabalha
+- to see <> por ver
+- need <> preciso
+
