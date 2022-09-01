@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=A namorada perfeita
+icon=802c81c8811f5ca43acd16ce2f8d32b18f15352f
+set=6|2
+
+[HEADER]
+> The Perfect~Girlfriend
+~ a   namorada~perfeita 
+
+[LINE]
+> Lin is   at a   train~station.  
+~ Lin está em uma estação~de~trem 
+
+[LINE]
+> She sees her~friend   Martin.
+~ ela vê   o~amigo~dela Martin 
+
+[LINE]
+> He  is   with a   woman. 
+~ ele está com  uma mulher 
+
+[MULTIPLE_CHOICE]
+> A Lin viu o amigo dela e uma mulher em um banco.
+- Sim, isso mesmo.
++ Não, não é isso.
+
+[LINE]
+Speaker508: Hi, Martin!
+~           oi  Martin 
+
+[LINE]
+Speaker1087: Hello, Lin!
+~            olá    Lin 
+
+[LINE]
+Speaker1187: Hello! I  am  Susan.  
+~            olá    eu sou a~Susan 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker508: Nice  [to~meet~you].   I  am  Lin.  
+~           legal  conhecer~você   eu sou a~Lin 
++ to meet you
+- to meet two
+- to eat you
+
+[LINE]
+Speaker1187: Oh, I  need    to~buy  our    train~tickets,     Martin!
+~            ah  eu preciso comprar nossas passagens~de~trem  Martin 
+
+[LINE]
+Speaker1187: Nice  to~meet  you,  Lin!
+~            legal conhecer você  Lin 
+
+[CONTINUATION]
+> O que vem depois?
+> Susan leaves to~buy       [the tickets].  
+~ Susan sai    para~comprar  as  passagens  
++ the tickets  
+~ as  passagens
+- a   friend
+~ uma amiga 
+- the train
+~ o   trem 
+
+[LINE]
+Speaker508: Susan is nice! 
+~           Susan é  legal 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker1087: [(Yes), (she) (is) (very)  (nice).] 
+~              sim    ela   é    muito   legal   
+
+[LINE]
+Speaker508: And she is beautiful.
+~           e   ela é  linda     
+
+[LINE]
+Speaker1087: Uh… yes.
+~            hã  sim 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "namorada".
+Speaker508: (She) is (the) (perfect)  (+girlfriend)!
+~            ela  é   a     perfeita    namorada    
+
+[LINE]
+Speaker1087: Girlfriend?! No,  Susan is my    mother!
+~            namorada     não  Susan é  minha mãe    
+
+[LINE]
+Speaker508: Whoops…
+~           opa    
+
+[LINE]
+Speaker1087: Haha, it~is OK.   
+~            haha  está  certo 
+
+[LINE]
+Speaker508: Uh… My  train is   here now!   Bye!  
+~           hã  meu trem  está aqui agora  tchau 
+
+[MULTIPLE_CHOICE]
+> Ops! Qual foi o erro da Lin?
+- Ela não conseguiu lembrar o nome do Martin.
++ Ela pensou que a mãe de Martin era a namorada dele.
+- Ela pegou o trem errado.
+
+[MATCH]
+> Toque nos pares
+- leaves <> sai
+- I <> eu
+- train <> trem
+- Lin <> Lin
+- you <> você
+
