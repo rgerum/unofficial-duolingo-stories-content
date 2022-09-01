@@ -1,0 +1,98 @@
+[DATA]
+fromLanguageName=Cái kết bất ngờ
+icon=136e95ddf7eef68f8c312f81c3b03bf4100a14e7
+set=17|2
+
+[HEADER]
+> Surprise~Ending
+~ cái~kết~bất~ngờ
+
+[LINE]
+> Vikram is~reading      in~bed.      His~wife,  Priti, is~next~to    him.   
+~ Vikram đang~đọc~truyện trên~giường  vợ~anh~ấy  Priti  đang~nằm~cạnh anh~ấy 
+
+[LINE]
+Speaker560: Vikram, I'm~tired.  Can~you~turn~off          the~light?
+~           Vikram  em~mệt~rồi  anh~tắt…cho~em~được~không đèn       
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker593: I   can't~sleep!   I   need     to~finish [this~book]!     
+~           anh chưa~ngủ~được  anh cần~phải đọc~xong   quyển~sách~này  
++ this book
+- his book
+- this look
+
+[LINE]
+Speaker593: A       man     is~on~an~airplane!        He's~traveling             to~see his~wife,  but   the~plane        is~going~to~crash!
+~           1~người đàn~ông đang~trên~một~chuyến~bay  anh~ấy~đang~trên~đường~tới gặp    vợ~anh~ấy  nhưng chiếc~máy~bay~ấy chuẩn~bị~rơi      
+
+[LINE]
+Speaker560: I'll~tell    you the~ending, but   then   you have~to turn~off the~light.
+~           em~sẽ~kể~cho anh cái~kết     nhưng sau~đó anh phải    tắt      đèn       
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker593: [(You) (read)      (this) (book)?]      
+~             em    đọc…rồi~à   …này   quyển~sách   
+
+[LINE]
+Speaker593: Please, tell       me  the~ending!
+~           làm~ơn  hãy~kể~cho anh cái~kết    
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “hồn ma”.
+Speaker560: The~man's~wife          is~really  a   (+ghost).  He     (dies|)—(and) now (they) can~be~together.  
+~           vợ~của~người~đàn~ông~ấy thật~ra~là một   hồn~ma   anh~ấy  chết    và   giờ  họ    có~thể~ở~bên~nhau 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker593: That's~strange. But   now     I   can             [turn~off the~light].
+~           kỳ~lạ~thế       nhưng giờ~thì anh có~thể…được~rồi  tắt      đèn        
+- watch TV  
+~ xem   tivi
+- get~on an~airplane
+~ lên    máy~bay    
++ turn~off the~light
+~ tắt      đèn      
+
+[LINE]
+> The~next~morning, Vikram talks~to       Priti about the~book   again.      
+~ sáng~hôm~sau      Vikram nói~chuyện~với Priti về    quyển~sách một~lần~nữa 
+
+[LINE]
+Speaker593: That~ending was     surprising!       
+~           cái~kết~đó  đúng~là không~thể~ngờ~tới 
+
+[MULTIPLE_CHOICE]
+> Ý Vikram là cái kết của quyển truyện…
+- …làm anh ấy buồn ngủ.
+- …thật khủng khiếp.
++ …khác xa với dự đoán của anh ấy.
+
+[LINE]
+Speaker560: Vikram… I  lied~about the~ending.
+~           Vikram  em đã~bịa~ra  cái~kết    
+
+[LINE]
+Speaker593: What?!
+~           hả    
+
+[LINE]
+Speaker560: I  never        read that~book.     I  just     wanted you to~turn~off the~light.
+~           em chưa~bao~giờ đọc  quyển~sách~đó  em chỉ…thôi muốn   anh tắt         đèn       
+
+[MULTIPLE_CHOICE]
+> Vì sao Priti lại lừa Vikram?
+- Cô ấy muốn chọc cười Vikram.
+- Cô ấy có một bí mật lớn.
++ Cô ấy muốn được đi ngủ.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- can <> có thể…được rồi
+- ghost <> hồn ma
+- never <> chưa bao giờ
+- talks to <> nói chuyện với
+- man <> đàn ông
+
