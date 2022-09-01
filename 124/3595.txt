@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Un nouveau sport
+icon=4779d731014382d1398621baf6c630efe3e344c0
+set=7|4
+
+[HEADER]
+> A  New     Sport
+~ un nouveau sport
+
+[LINE]
+> Eddy and Junior are  at a  store.  
+~ Eddy et  Junior sont à  un magasin 
+
+[LINE]
+Speaker414: You want to~play   a  new     sport! That's exciting!
+~           tu  veux pratiquer un nouveau sport  c'est  super    
+
+[LINE]
+Speaker414: Do~you~want to~play basketball?
+~           tu~veux     jouer   au~basket  
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « des ballons ».
+Speaker415: (I)  don't~like (sports)     (with) (+balls).      
+~            je  n'aime~pas  les~sports   avec    des~ballons  
+
+[LINE]
+Speaker414: This  tennis~racket      is  nice! 
+~           cette raquette~de~tennis est sympa 
+
+[LINE]
+Speaker415: Tennis    is  a  sport with balls.     
+~           le~tennis est un sport avec des~balles 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Junior ne veut-il pas faire de basket ou de tennis ?
+- Il est trop fatigué.
+- Il pense qu'il est trop jeune.
++ Il n'aime pas jouer avec des balles.
+
+[LINE]
+Speaker414: OK,       what~about…     
+~           d'accord  ça~te~dirait~de 
+
+[LINE]
+Speaker415: I  want~to—
+~           je veux    
+
+[LINE]
+Speaker414: Swim!  Do~you~want to~swim?!
+~           nager  tu~veux     nager    
+
+[LINE]
+Speaker415: No— 
+~           non 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker414: But  swimming    is  a  sport with~no [balls]. 
+~           mais la~natation est un sport sans     balles  
++ balls 
+~ balles
+- tennis
+~ tennis
+- store  
+~ magasin
+
+[LINE]
+Speaker415: Dad,  no! 
+~           Papa  non 
+
+[LINE]
+Speaker414: Well,    what do~you~want to~do?
+~           eh~bien  que  veux-tu     faire 
+
+[LINE]
+> Junior looks~at a   pair  of ballet~shoes.       
+~ Junior regarde  une paire de chaussons~de~ballet 
+
+[MULTIPLE_CHOICE]
+> On dirait que Junior veut...
+- … jouer au foot.
+- … aller nager.
++ … faire de la danse.
+
+[LINE]
+Speaker415: I  really~want~to... dance. 
+~           je veux~vraiment     danser 
+
+[LINE]
+Speaker414: You want to~dance?!
+~           tu  veux danser    
+
+[LINE]
+Speaker415: Yes… Is~it a  problem? 
+~           oui  c'est un problème 
+
+[LINE]
+Speaker414: No!  Dancing is  a  sport too!  
+~           non  danser  est un sport aussi 
+
+[LINE]
+> Eddy starts     to~dance in   the store.  
+~ Eddy commence~à danser   dans le  magasin 
+
+[LINE]
+Speaker415: Dad,  please        stop~dancing.    
+~           Papa  s'il~te~plaît arrête~de~danser 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Eddy est-il en train de danser ?
+- Il essaye des chaussons de danse.
+- Il veut montrer à Junior que la danse c'est difficile.
++ Il est content que Junior ait choisi de faire de la danse.
+
+[MATCH]
+> Choisis les paires
+- Tennis <> le tennis
+- to do <> faire
+- But <> mais
+- tennis racket <> raquette de tennis
+- I <> je
+
