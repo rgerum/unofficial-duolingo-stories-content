@@ -1,0 +1,154 @@
+[DATA]
+fromLanguageName=Cắm trại nào!
+icon=6a073f6357dc14ea58e162202f936682895b11ec
+set=19|1
+
+[HEADER]
+> Camping!    
+~ đi~cắm~trại 
+
+[LINE]
+> Vikram and his~wife,  Priti, are~camping.      They're~sitting in    their~tent.  
+~ Vikram và  vợ~anh~ấy  Priti  đang~đi~cắm~trại  họ~đang~ngồi    trong lều~(của~họ) 
+
+[LINE]
+Speaker560: I  want to~check my~email…      
+~           em muốn kiểm~tra email~(của~em) 
+
+[LINE]
+Speaker593: We       agreed           not~to~use our~phones                during     this~trip,     remember?  
+~           chúng~ta đã~thống~nhất~là không~dùng điện~thoại~(của~chúng~ta) trong~suốt chuyến~đi~này  em~nhớ~chứ 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker560: You're~right. [We~should~enjoy~nature].            
+~           anh~nói~đúng   chúng~ta~nên~tận~hưởng~thiên~nhiên  
++ We should enjoy nature
+- We sold the nature
+- We should enjoy neither
+
+[LINE]
+Speaker593: Let's   make dinner  now.     I'm~hungry! 
+~           mình…đi làm  bữa~tối bây~giờ  anh~đói~quá 
+
+[LINE]
+Speaker560: Uh… we       only have two   apples. We       ate   too much  at~lunch.    
+~           ờm  chúng~ta chỉ~ còn  2~quả táo     chúng~ta đã~ăn quá nhiều vào~bữa~trưa 
+
+[LINE]
+Speaker593: Oh~no.     And all~the~stores          are~closed.  
+~           chết~thật  mà  tất~cả~các~cửa~hàng~đều đóng~cửa~rồi 
+
+[LINE]
+Speaker593: Maybe camping     was~a~bad~idea…         
+~           có~lẽ đi~cắm~trại không~phải~là~một~ý~hay 
+
+[MULTIPLE_CHOICE]
+> Vì sao Vikram lại nói thế?
+- Họ không thích ở cùng nhau.
+- Họ quên mang lều cắm trại.
++ Họ không còn đồ ăn tối.
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+> [(Suddenly),  (Vikram) (hears)     (a~noise)        (outside).]    
+~   đột~nhiên    Vikram   nghe~thấy   một~tiếng~động   ở~bên~ngoài   
+
+[LINE]
+Speaker593: Wait…   did~you~hear          that?    
+~           đợi~đã  em~có~nghe~thấy…không tiếng~đó 
+
+[LINE]
+Speaker560: No…   
+~           không 
+
+[LINE]
+Speaker593: Maybe  it's  a     bear…
+~           có~thể đó~là 1~con gấu  
+
+[LINE]
+Speaker593: Do~bears~like      apples?!
+~           gấu~có~thích…không táo     
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker560: I'll~look    [outside~the~tent].   
+~           để~em~đi~ngó  bên~ngoài~(cái)~lều  
+- in    the~store
+~ trong cửa~hàng 
++ outside~the~tent
+~ bên~ngoài~lều   
+- behind   our~house   
+~ phía~sau nhà~chúng~ta
+
+[LINE]
+Speaker593: Be~careful!  
+~           cẩn~thận~đấy 
+
+[LINE]
+Speaker593: What~do~you~see?      
+~           em~nhìn~thấy~gì~không 
+
+[LINE]
+Speaker560: It's so~dark. I  don't~see~anything.   
+~           trời tối~quá  em chẳng~nhìn~thấy~gì~cả 
+
+[LINE]
+Speaker560: Wait!       I  see          something     near  that~other~tent! 
+~           à~mà~khoan  em có~nhìn~thấy một~cái~gì~đó ở~gần một~cái~lều~khác 
+
+[LINE]
+Speaker593: What~is~it?
+~           cái~gì~thế 
+
+[LINE]
+Speaker560: It's… a   guy~delivering~a~pizza?
+~           là    một cậu~giao~bánh~pizza    
+
+[LINE]
+Speaker593: Really?
+~           thế~á  
+
+[LINE]
+Speaker560: Yeah, those~other~campers          ordered a~pizza!   
+~           vâng  những~người~đi~cắm~trại~khác đã~đặt  bánh~pizza 
+
+[LINE]
+> Priti takes~out~her~phone.          
+~ Priti lấy~điện~thoại~(của~cô~ấy)~ra 
+
+[LINE]
+Speaker593: What~are~you~doing?   
+~           em~đang~làm~gì~thế~hả 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker593: [(We)       (agreed)                  (not~to~use) (our~phones).]               
+~             chúng~ta   đã~thống~nhất~là…rồi~mà   không~dùng   điện~thoại~(của~chúng~ta)   
+
+[LINE]
+> Priti makes~a~call.    
+~ Priti bấm~máy~gọi~điện 
+
+[LINE]
+Speaker560: Hi,       I'd~like to~order one     pizza!
+~           chào~bạn  cho~tôi  đặt      1~chiếc pizza 
+
+[LINE]
+Speaker593: Actually…  order~two!      
+~           có~khi~là  đặt~2~chiếc~đi  
+
+[MULTIPLE_CHOICE]
+> Priti và Vikram đã quyết định…
+- …vật nhau với gấu để giành đồ ăn.
+- …gọi điện cho những người khác ở khu cắm trại.
++ …đặt hai chiếc pizza.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- see <> có nhìn thấy
+- Do bears like <> gấu có thích…không
+- No <> không
+- a pizza <> bánh pizza
+- order two <> đặt 2 chiếc đi
+
