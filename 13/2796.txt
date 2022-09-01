@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=Clothes for My Vacation
+icon=eda1b8214a6937df66a552eb581f2353da4d0352
+set=4|3
+
+[HEADER]
+> Des~vêtements pour mes vacances
+~ clothes       for  my  vacation
+
+[LINE]
+> Lucie est dans un magasin.
+~ Lucie is  in   a  store   
+
+[LINE]
+Speaker509: Bonjour !
+~           hello    
+
+[LINE]
+Speaker509: Je voudrais   des~vêtements  pour mes vacances.
+~           I  would~like (some)~clothes for  my  vacation 
+
+[MULTIPLE_CHOICE]
+> Lucie is shopping for clothes for a vacation.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker416: OK.
+~           OK 
+
+[LINE]
+Speaker509: Je voudrais…   un~short.        
+~           I  would~like  a~pair~of~shorts 
+
+[LINE]
+> Lily prend un~short~rouge.      
+~ Lily gets  a~pair~of~red~shorts 
+
+[LINE]
+Speaker509: Non ! Je voudrais   un~short~vert          !
+~           no    I  would~like a~pair~of~green~shorts  
+
+[MULTIPLE_CHOICE]
+> What does Lucie want now?
+- a new, brown car
++ green shorts
+- yellow shorts
+
+[ARRANGE]
+> Tap what you hear
+> [(Lily) (prend) (un~short~vert).]         
+~   Lily   gets    a~pair~of~green~shorts   
+
+[LINE]
+Speaker509: Et  je voudrais   des  bottes.
+~           and I  would~like some boots  
+
+[LINE]
+> Lily prend des  bottes~vertes.
+~ Lily gets  some green~boots   
+
+[LINE]
+Speaker509: Non. Des~bottes~blanches !
+~           no   (some)~white~boots   
+
+[MULTIPLE_CHOICE]
+> Lucie wants white…
+- …cars.
++ …boots.
+- …T-shirts.
+
+[LINE]
+Speaker416: OK…
+~           OK 
+
+[LINE]
+Speaker509: Un~short~vert,          des~bottes~blanches...
+~           a~pair~of~green~shorts  (some)~white~boots    
+
+[LINE]
+Speaker509: ... et  une veste  !
+~               and a   jacket  
+
+[LINE]
+> Lily prend une veste. 
+~ Lily gets  a   jacket 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: Non ! Une [veste~orange]  !
+~           no    an   orange~jacket   
+- zeste d'orange
+- reste on mange
++ veste orange
+
+[LINE]
+> Lily prend une veste~orange. 
+~ Lily gets  an  orange~jacket 
+
+[LINE]
+Speaker509: Parfait ! Je peux~aller en~vacances.
+~           perfect   I  can~go     on~vacation 
+
+[LINE]
+Speaker416: Et  moi, je veux des~vacances…
+~           and me   I  want a~vacation   
+
+[MULTIPLE_CHOICE]
+> Poor Lily! Why does she want a vacation?
++ She's tired after helping Lucie find clothes.
+- She ate too much for lunch.
+- She has a lot of new clothes to wear.
+
+[MATCH]
+> Tap the pairs
+- un <> a
+- des vacances <> a vacation
+- bottes <> boots
+- Lucie <> Lucie
+- en vacances <> on vacation
+
