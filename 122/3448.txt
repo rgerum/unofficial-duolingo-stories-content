@@ -1,0 +1,92 @@
+[DATA]
+fromLanguageName=Darf ich das haben?
+icon=ce0ae956035c1bac6b9c64737466d59c5d027e97
+set=3|3
+
+[HEADER]
+> Can~I~Have~It?     
+~ darf~ich~das~haben 
+
+[LINE]
+> Junior and Eddy are  at~the mall.           
+~ Junior und Eddy sind im     Einkaufszentrum 
+
+[LINE]
+Speaker415: Dad!  I   need    a   new   video~game!
+~           Papa  ich brauche ein neues Videospiel 
+
+[LINE]
+Speaker414: You don't~need~a  new   video~game.
+~           du  brauchst~kein neues Videospiel 
+
+[MULTIPLE_CHOICE]
+> Juniors Vater möchte ein neues Videospiel kaufen.
+- Ja, das ist richtig.
++ Nein, das ist falsch.
+
+[LINE]
+Speaker415: Please? There's a     flying     robot   in this   game! 
+~           bitte   es~gibt einen fliegenden Roboter in diesem Spiel 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker414: Junior. You want   this   game,  but  [you~don't~need~it].   
+~           Junior  du  willst dieses Spiel  aber  du~brauchst~es~nicht  
++ you don't need it
+- we don't eat it
+- you won't read it
+
+[LINE]
+Speaker415: OK! I   want this   game.  Now~can~I~have~it?      
+~           OK  ich will dieses Spiel  darf~ich~es~jetzt~haben 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker414: No,   you have video~games [at~home]! 
+~           nein  du  hast Videospiele  zu~Hause  
+- in the shower
+~ in der Dusche
++ at~home 
+~ zu~Hause
+- in the refrigerator
+~ in dem Kühlschrank 
+
+[LINE]
+Speaker415: You're~right. 
+~           du~hast~recht 
+
+[ARRANGE]
+> Was hörst du?
+Speaker415: [(So)   (can)    (we)  (go~home)?]         
+~             also   können   wir   nach~Hause~gehen   
+
+[LINE]
+Speaker414: No,   we  are~going to Vikram's house.
+~           nein  wir gehen     zu Vikrams  Haus  
+
+[LINE]
+Speaker415: Ugh! His  house is  boring!    
+~           bäh  sein Haus  ist langweilig 
+
+[LINE]
+Speaker414: But  his  TV        is  big,  and I   need~to watch~the~football~game.
+~           aber sein Fernseher ist groß  und ich muss    das~Footballspiel~sehen 
+
+[LINE]
+Speaker415: You don't~need~to watch~the~game,  Dad.  You want~to watch~it.
+~           du  musst~nicht   das~Spiel~sehen  Papa  du  willst  es~sehen 
+
+[MULTIPLE_CHOICE]
+> Wie witzig! Eddy und Junior …
+- … fliegen beide in Robotern herum.
+- … spielen beide Videospiele mit Vikram.
++ … sagen beide, sie müssen etwas tun oder haben, obwohl sie es nur wollen.
+
+[MATCH]
+> Wähle die Paare
+- is <> ist
+- new <> neues
+- boring <> langweilig
+- So <> also
+- at the <> im
+
