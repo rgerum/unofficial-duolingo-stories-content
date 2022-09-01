@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=Mein Bein tut weh
+icon=e03c9c686e0856f66bc51a3f912c8be470a7f18b
+set=27|3
+
+[HEADER]
+> My   Leg  Hurts  
+~ mein Bein tut~weh
+
+[LINE]
+> Bea opens  her  front~door. She sees  Eddy standing~on~one~leg.  
+~ Bea öffnet ihre Vordertür   sie sieht Eddy auf~einem~Bein~stehen 
+
+[LINE]
+Speaker414: My   leg  hurts.   Can    you drive~me~to~the~doctor's~office?
+~           mein Bein tut~weh  kannst du  mich~zur~Arztpraxis~fahren      
+
+[LINE]
+Speaker507: Sure!
+~           klar 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+> Bea and Eddy [get~in~Bea's~car].    
+~ Bea und Eddy  steigen~in~Beas~Auto  
++ get in Bea's car
+- quit in Bea's car
+- get on Bea's bar
+
+[LINE]
+Speaker414: Wait!  I   forgot         to~pick~up~Junior from    school. Can    we  go~there?      
+~           warte  ich habe~vergessen Junior~abzuholen  aus~der Schule  können wir dorthin~fahren 
+
+[LINE]
+Speaker507: Of~course.
+~           natürlich 
+
+[MULTIPLE_CHOICE]
+> Wohin müssen Bea und Eddy zuerst gehen?
+- ins Beingeschäft
++ zu Juniors Schule
+- in die Bäckerei
+
+[LINE]
+> Bea and Eddy pick~up~Junior  from    school.
+~ Bea und Eddy holen~Junior~ab aus~der Schule 
+
+[LINE]
+Speaker414: Can    we  also go~to~the~post~office?
+~           können wir auch zur~Post~fahren       
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker507: But  [you~hurt~your~leg],              remember?         
+~           aber  du~hast~dir~dein~Bein~verletzt   erinnerst~du~dich 
++ you hurt your leg
+- who hurt her leg
+- you heard a wreck
+
+[LINE]
+Speaker414: I   need    your  help  to~pick~up~a~large~package.
+~           ich brauche deine Hilfe ein~großes~Paket~abzuholen 
+
+[LINE]
+Speaker507: Ugh, fine.  
+~           ach  na~gut 
+
+[LINE]
+Speaker415: Look!  There's no    line     at  Benny's~Burgers!
+~           schau  da~ist  keine Schlange bei Bennys~Burger   
+
+[ARRANGE]
+> Was hörst du?
+> [(Junior) (points) (at)  (a)   (restaurant).]
+~   Junior   zeigt    auf   ein   Restaurant   
+
+[LINE]
+Speaker414: Their burgers are  amazing,   but  the line     is  always so long! Let's~go! 
+~           ihre  Burger  sind großartig  aber die Schlange ist immer  so lang  gehen~wir 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker507: But  you need  to~see~a~doctorr]!
+~           aber du  musst zum~Arzt~gehen    
++ a     doctor
+~ einem Arzt  
+- your date
+~ dein Date
+- this   movie
+~ diesen Film 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „Wunder“.
+Speaker415: But  (there's) no    (line)!     (It's)   a   (+miracle)!
+~           aber  da~ist   keine  Schlange    es~ist  ein   Wunder   
+
+[LINE]
+> Later,  Eddy, Junior, and Bea are  in the restaurant.
+~ später  Eddy  Junior  und Bea sind in dem Restaurant 
+
+[LINE]
+Speaker507: Wow, that   burger was amazing.  
+~           wow  dieser Burger war großartig 
+
+[LINE]
+Speaker414: Yeah, but  we  should  go~to~the~doctor's~office now.  
+~           ja    aber wir sollten zur~Arztpraxis~fahren     jetzt 
+
+[LINE]
+Speaker507: Does~your~leg~still~hurt?
+~           tut~dein~Bein~noch~weh   
+
+[LINE]
+Speaker414: No,   my   stomach hurts   now.   I   think  I   ate~too~many~burgers.         
+~           nein  mein Bauch   tut~weh jetzt  ich glaube ich habe~zu~viele~Burger~gegessen 
+
+[MULTIPLE_CHOICE]
+> Eddys Bein tut nicht mehr weh, aber jetzt …
+- … hat sich Bea ihr Bein verletzt.
+- … braucht er eine Dusche.
++ … tut sein Bauch weh.
+
+[MATCH]
+> Wähle die Paare
+- Benny's Burgers <> Bennys Burger
+- are <> sind
+- Let's go <> gehen wir
+- to pick up Junior <> Junior abzuholen
+- get in Bea's car <> steigen in Beas Auto
+
