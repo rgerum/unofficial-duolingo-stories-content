@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=Junior hace ejercicio
+icon=9f2d4bdaca5fe3e93b4a97529d903567ee23fd4e
+set=5|3
+
+[HEADER]
+> Junior fait du~sport 
+~ Junior hace ejercicio
+
+[LINE]
+> Junior joue  aux~jeux~vidéo.
+~ Junior juega videojuegos    
+
+[LINE]
+Speaker414: Tu veux    faire du~sport,  Junior ?
+~           tú quieres hacer ejercicio  Junior  
+
+[LINE]
+Speaker415: Non. Je veux   jouer aux~jeux~vidéo.
+~           no   yo quiero jugar videojuegos    
+
+[MULTIPLE_CHOICE]
+> Junior quiere hacer ejercicio.
+- Sí, así es.
++ No, no es así.
+
+[LINE]
+> Eddy a     une idée.
+~ Eddy tiene una idea 
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "comprar".
+Speaker414: Tu (veux)    (aller) (+acheter) des  (jeux~vidéo)  ?
+~           tú  quieres   ir~a     comprar  unos  videojuegos   
+
+[LINE]
+Speaker415: Oui !
+~           sí   
+
+[LINE]
+Speaker414: OK        ! Tu peux   aller chercher les clés   dans la chambre    ?
+~           está~bien   tú puedes ir~a  buscar   las llaves a    la habitación  
+
+[LINE]
+> Junior court dans la chambre    et prend les clés.  
+~ Junior corre a    la habitación y  toma  las llaves 
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Junior corrió a la habitación de su padre?
+- para escapar de un incendio
++ para buscar sus llaves
+- para esconderse de una rata
+
+[LINE]
+Speaker415: Voilà,      Papa !
+~           aquí~están  papá  
+
+[LINE]
+Speaker414: Et tu peux   aller chercher mes chaussures dans la cuisine ?
+~           y  tú puedes ir~a  buscar   mis zapatos    a    la cocina   
+
+[LINE]
+> Junior court dans la cuisine et prend les chaussures.
+~ Junior corre a    la cocina  y  toma  los zapatos    
+
+[LINE]
+Speaker415: Et voilà…     
+~           y  aquí~están 
+
+[LINE]
+Speaker414: J'ai~besoin~de ma veste.   
+~           necesito       mi chaqueta 
+
+[LINE]
+Speaker414: Elle~est chez       Vikram.
+~           está     en~casa~de Vikram 
+
+[LINE]
+Speaker415: Mais il habite au    quatrième étage...
+~           pero él vive   en~el cuarto    piso    
+
+[MULTIPLE_CHOICE]
+> Espera… ¿en qué piso vive Vikram?
+- el segundo piso
+- el octavo piso
++ el cuarto piso
+
+[LINE]
+Speaker414: S'il~te~plaît…
+~           por~favor     
+
+[LINE]
+> Junior court chez      Vikram et rentre avec la veste    d'Eddy. 
+~ Junior corre a~casa~de Vikram y  vuelve con  la chaqueta de~Eddy 
+
+[LINE]
+Speaker414: Super     ! Je suis  prêt. 
+~           estupendo   yo estoy listo 
+
+[LINE]
+Speaker415: Je suis  fatigué.
+~           yo estoy cansado 
+
+[LINE]
+Speaker414: Pourquoi ? Trop~de   sport     ?
+~           por~qué    demasiado ejercicio  
+
+[MULTIPLE_CHOICE]
+> ¡Uf! ¿Por qué Junior está tan cansado?
+- Su videojuego es muy difícil.
+- Fue de compras todo el día con Vikram.
++ Eddy lo engañó para que hiciera ejercicio.
+
+[MATCH]
+> Selecciona los pares
+- clés <> llaves
+- quatrième <> cuarto
+- mes <> mis
+- des <> unos
+- Voilà <> aquí están
+
