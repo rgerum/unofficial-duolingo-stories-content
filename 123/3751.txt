@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Un boleto para Nueva York
+icon=b8d10ee56171817ff548af825d5065b5561d1482
+set=4|2
+
+[HEADER]
+> Un billet pour New~York  
+~ un boleto para Nueva~York
+
+[LINE]
+> Junior est  à  l'aéroport.   
+~ Junior está en el~aeropuerto 
+
+[LINE]
+> Il parle avec une femme qui travaille à  l'aéroport.   
+~ él habla con  una mujer que trabaja   en el~aeropuerto 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker659: [Tu~as~besoin~de] quelque~chose ?
+~            necesitas        algo           
+- Tu es bien loin de
+- Dans le besoin de
++ Tu as besoin de
+
+[LINE]
+Speaker415: Je voudrais un billet pour New~York.  
+~           yo quisiera un boleto para Nueva~York 
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker659: Où    sont  [tes parents ]?
+~           dónde están  tus padres    
+- tes fenêtres
+~ tus ventanas
++ tes parents
+~ tus padres 
+- tes e-mails             
+~ tus correos~electrónicos
+
+[LINE]
+Speaker415: Pardon ? Je n'ai~pas sept  ans. 
+~           perdón   yo no~tengo siete años 
+
+[LINE]
+Speaker659: Quel~âge~as-tu      ?
+~           cuántos~años~tienes  
+
+[LINE]
+Speaker415: J'ai     huit ans. 
+~           yo~tengo ocho años 
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "cuatrocientos”.
+Speaker659: Un (billet) pour (New~York)   (coûte)  (+quatre~cents)  euros.
+~           un  boleto  para  Nueva~York   cuesta    cuatrocientos  euros 
+
+[LINE]
+Speaker415: Hmm. Je~peux~aller~où avec treize euros ?
+~           mmm  adónde~puedo~ir  con  trece  euros  
+
+[LINE]
+> Eddy, le père  de Junior, arrive.
+~ Eddy  el padre de Junior  llega  
+
+[LINE]
+Speaker414: Junior ! Qu'est-ce~que tu~fais ici  ?
+~           Junior   qué           haces   aquí  
+
+[MULTIPLE_CHOICE]
+> ¿Qué quiere saber Eddy?
+- qué hora es
+- cuál es el nombre de la mujer
++ qué hace Junior en el aeropuerto
+
+[LINE]
+Speaker415: J'ai     un examen de maths       aujourd'hui. Je dois      partir loin. 
+~           yo~tengo un examen de matemáticas hoy          yo tengo~que irme   lejos 
+
+[MULTIPLE_CHOICE]
+> Espera… ¿por qué Junior quiere irse lejos?
+- Extraña a sus amigos.
+- Quiere ver el mundo.
++ Tiene un examen de matemáticas hoy.
+
+[LINE]
+Speaker414: Hmm. Combien coûte  un billet ?
+~           mmm  cuánto  cuesta un boleto  
+
+[LINE]
+Speaker415: Quatre~cents  euros.
+~           cuatrocientos euros 
+
+[LINE]
+Speaker414: Et deux billets ?
+~           y  dos  boletos  
+
+[LINE]
+Speaker415: Huit~cents  euros.
+~           ochocientos euros 
+
+[LINE]
+Speaker414: Ah, tu es   très bon   en maths       !
+~           ah  tú eres muy  bueno en matemáticas  
+
+[LINE]
+Speaker414: Tu es    prêt  pour ton examen.
+~           tú estás listo para tu  examen 
+
+[MULTIPLE_CHOICE]
+> Eddy le jugó una broma a Junior para mostrarle que…
+- … deben viajar más.
+- … los boletos son muy baratos.
++ … está listo para su examen de matemáticas.
+
+[MATCH]
+> Selecciona los pares
+- partir <> irme
+- Il <> él
+- loin <> lejos
+- qui <> que
+- voudrais <> quisiera
+
