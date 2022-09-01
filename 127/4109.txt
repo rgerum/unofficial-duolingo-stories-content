@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=Uma passagem para Barcelona
+icon=b8d10ee56171817ff548af825d5065b5561d1482
+set=4|2
+
+[HEADER]
+> Un~boleto    para Barcelona
+~ uma~passagem para Barcelona
+
+[LINE]
+> Junior está en~el aeropuerto.
+~ Junior está no    aeroporto  
+
+[LINE]
+> Él  habla con la mujer  del mostrador.
+~ ele fala  com a  mulher do  balcão    
+
+[LINE]
+Speaker659: ¿Te~puedo~ayudar en algo?
+~            posso~te~ajudar em algo 
+
+[LINE]
+Speaker415: Quiero un~boleto    para Barcelona.
+~           quero  uma~passagem para Barcelona 
+
+[MULTIPLE_CHOICE]
+> O Junior quer viajar para Madri.
+- Sim, isso mesmo.
++ Não, não é isso.
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker659: ¿Dónde [están~tus~padres]?  
+~            onde   estão~os~teus~pais  
+- trabajan tus padres
+- están sus madres
++ están tus padres
+
+[LINE]
+Speaker415: ¿Perdón? Yo no  tengo siete años.
+~            como~é  eu não tenho sete  anos 
+
+[LINE]
+Speaker659: ¿Y cuántos~años tienes? 
+~            e quantos~anos tu~tens 
+
+[LINE]
+Speaker415: Tengo ocho años.
+~           tenho oito anos 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "quatrocentos".
+Speaker659: (Un~boleto)    para (Barcelona) cuesta (+cuatrocientos) (dólares).
+~            uma~passagem  para  Barcelona  custa    quatrocentos    dólares  
+
+[LINE]
+Speaker415: Está bien. ¿A    dónde puedo ir con trece dólares?
+~           está bem    para onde  posso ir com treze dólares 
+
+[LINE]
+> Eddy, el papá de Junior, corre al    mostrador.
+~ Eddy  o  pai  de Junior  corre até~o balcão    
+
+[LINE]
+Speaker414: ¡Junior! ¡ Aquí~estás! ¿Qué   haces en~el aeropuerto?
+~            Junior    estás~aqui   o~que fazes no    aeroporto  
+
+[LINE]
+Speaker415: Hoy  tengo un~examen de matemáticas. Necesito salir del país.
+~           hoje tenho uma~prova de matemática   preciso  sair  do  país 
+
+[MULTIPLE_CHOICE]
+> Ahá! Por que o Junior quer sair do país?
+- Ele sente falta dos amigos dele.
++ Ele tem uma prova de matemática hoje.
+- Ele quer ver o mundo.
+
+[LINE]
+Speaker414: Está bien… ¿Cuánto cuesta el~boleto? 
+~           está bem    quanto custa  a~passagem 
+
+[LINE]
+Speaker415: Cuatrocientos dólares.
+~           quatrocentos  dólares 
+
+[LINE]
+Speaker414: ¿Y cuánto cuestan dos  boletos?  
+~            e quanto custam  duas passagens 
+
+[LINE]
+Speaker415: Ochocientos dólares.
+~           oitocentos  dólares 
+
+[LINE]
+Speaker414: ¡Muy   bien! ¡Eres  muy   bueno en matemáticas!
+~            muito bem    tu~és muito bom   em matemática  
+
+[LINE]
+Speaker414: Estás listo  para tu    examen.
+~           estás pronto para a~tua prova  
+
+[MULTIPLE_CHOICE]
+> O Eddy conseguiu mostrar para o Junior que…
+- … eles deveriam viajar mais.
+- …as passagens são muito baratas.
++ …ele está pronto para a prova de matemática dele.
+
+[MATCH]
+> Toque nos pares
+- ocho <> oito
+- haces <> fazes
+- Perdón <> como é
+- en <> em
+- corre <> corre
+
