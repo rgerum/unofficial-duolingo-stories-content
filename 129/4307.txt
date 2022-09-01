@@ -1,0 +1,103 @@
+[DATA]
+fromLanguageName=Pasaport
+icon=643347b755001a918130ddf5f6d3e914e63a00ce
+set=3|4
+
+[HEADER]
+> The Passport
+~ ~   Pasaport
+
+[LINE]
+> Vikram and his~wife, Priti, are  at  the airport.   
+~ ~      ve  onun~eşi  ~      -dır -da ~   havalimanı 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker593: Oh~no.  [Where~is~my~passport]?   
+~           olamaz   benim~pasaportum~nerede  
+- Here is my passport
+- What is my passport
++ Where is my passport
+
+[LINE]
+Speaker593: It is not   here!  
+~           ~  ~  değil burada 
+
+[LINE]
+Speaker560: Vikram…
+
+[LINE]
+Speaker593: It is not   in  my~bag…
+~           ~  ~  değil -da çantam 
+
+[LINE]
+Speaker593: And it is not   in  my~jacket…
+~           Ve  ~  ~  değil -de ceketim   
+
+[MULTIPLE_CHOICE]
+> Vikram'ın pasaportu ne çantasında ne de ceketinde.
+- Hayır, bu doğru değil.
++ Evet, bu doğru.
+
+[LINE]
+Speaker560: But Vik…
+~           ama ~   
+
+[LINE]
+Speaker593: Oh! My~passport      is in  the taxi! 
+~           ~   benim~pasaportum ~  -de ~   taksi 
+
+[POINT_TO_PHRASE]
+> "Koşar" anlamına gelen seçeneğe tıklayın.
+> (Vikram) (+runs)  to (the) (taxi). 
+~  ~         koşar  -e  ~     taksi  
+
+[LINE]
+Speaker560: Vik, no!   
+~           ~    Hayır 
+
+[LINE]
+> Priti runs  to Vikram.
+~ ~     koşar -a ~      
+
+[LINE]
+Speaker593: Oh no, the taxi  is not   here   now!  
+~           ~  ~   ~   taksi ~  değil burada artık 
+
+[LINE]
+Speaker593: This~is a   big   problem…
+~           bu      bir büyük sorun   
+
+[LINE]
+Speaker560: Vikram!
+
+[LINE]
+Speaker560: Your  passport   is not   in  the taxi. 
+~           senin pasaportun ~  değil -de ~   taksi 
+
+[POINT_TO_PHRASE]
+> "Senin elin" anlamına gelen seçeneği tıklayın.
+Speaker560: (Your~passport)    (is) (in)  (+your~hand). 
+~            senin~pasaportun   ~    -de    senin~elin  
+
+[LINE]
+Speaker593: Oh…
+
+[LINE]
+Speaker593: Thank~you,       my~love.
+~           teşekkür~ederim  aşkım   
+
+[MULTIPLE_CHOICE]
+> Vikram'ın pasaportu neredeydi?
++ Elinde.
+- Vikram'ın evinde.
+- Takside.
+
+[MATCH]
+> Çiftlere dokun
+- airport <> havalimanı
+- your hand <> senin elin
+- his wife <> onun eşi
+- Your <> senin
+- in <> -de
+
