@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=O aniversário de Junior
+icon=9ac312d372abe49d99606848f5a7a8414143346d
+set=11|1
+
+[HEADER]
+> El cumpleaños  de Junior
+~ o  aniversário de Junior
+
+[LINE]
+> Eddy está durmiendo y Junior llega corriendo a  su~cuarto.  
+~ Eddy está dormindo  e Junior chega correndo  no quarto~dele 
+
+[LINE]
+Speaker415: ¡Papá!  ¡Papá! 
+~            papai   papai 
+
+[LINE]
+Speaker414: ¿Qué?   ¿Ah? Ah, buenos~días, Junior.
+~            o~quê   ah  ah  bom~dia      Junior 
+
+[LINE]
+Speaker415: ¡Estoy muy   emocionado por  mi    fiesta de cumpleaños! 
+~            estou muito ansioso    pela minha festa  de aniversário 
+
+[LINE]
+Speaker414: ¡Ah! Sí…  ¿Feliz cumpleaños…? 
+~            ah  sim   feliz aniversário  
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker414: ¿[Qué~tipo~de~fiesta] quieres, Junior?
+~             que~tipo~de~festa   queres   Junior 
+- El tipo de la fiesta
++ Qué tipo de fiesta
+- Qué tipo de siesta
+
+[LINE]
+Speaker415: ¡No  sé! 
+~            não sei 
+
+[LINE]
+Speaker415: ¡Pero quiero chocolate! ¡Mucho chocolate!
+~            mas  quero  chocolate   muito chocolate 
+
+[LINE]
+Speaker414: ¡Está bien, Junior! ¡Es tu    cumpleaños! 
+~            está bem   Junior   é  o~teu aniversário 
+
+[LINE]
+Speaker415: ¿Y podemos hacer un pastel muy   grande, papá? 
+~            e podemos fazer um bolo   muito grande  papai 
+
+[MULTIPLE_CHOICE]
+> O que o Junior quer fazer para o aniversário dele?
+- muito macarrão
+- muffins variados
++ um bolo muito grande
+
+[LINE]
+Speaker414: Por~supuesto, Junior.
+~           claro         Junior 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker415: ¡Perfecto! ¡Y quiero una fiesta con [todos mis     amigos]!
+~            perfeito   e quero  uma festa  com  todos os~meus amigos  
+- todos mis     cumpleaños  
+~ todos os~meus aniversários
+- un pastel pequeño
+~ um bolo   pequeno
++ todos mis     amigos
+~ todos os~meus amigos
+
+[LINE]
+Speaker414: ¡Ah! ¡Sí,  tenemos que invitarlos a todos!
+~            ah   sim  temos   que convidar   a todos 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker414: ¿[(A~qué~hora) (quieres) (hacer) (la) (fiesta)?]
+~              que~horas    queres    fazer   a    festa    
+
+[LINE]
+> Eddy mira su~teléfono.    
+~ Eddy olha o~telefone~dele 
+
+[LINE]
+Speaker414: Espera… estamos en enero.   ¡Tu    cumpleaños  es en mayo!
+~           espera  estamos em janeiro   o~teu aniversário é  em maio 
+
+[MULTIPLE_CHOICE]
+> Como o Eddy percebeu que ainda não é aniversário do Junior?
++ Ele olhou no telefone.
+- Ele conferiu na certidão de nascimento do Junior.
+- Ele perguntou à avó do Junior.
+
+[LINE]
+Speaker415: Ah, yo sé,  pero…
+~           ah  eu sei  mas  
+
+[LINE]
+Speaker415: … ¿podemos comer chocolate hoy  de~todas~formas,   papá? 
+~              podemos comer chocolate hoje de~qualquer~forma  papai 
+
+[LINE]
+Speaker414: Sí,  Junior.
+~           sim  Junior 
+
+[MULTIPLE_CHOICE]
+> Não é aniversário do Junior, mas ele quer…
++ …comer chocolate mesmo assim.
+- …dar uma festa com os amigos hoje à noite.
+- …viajar com o pai dele.
+
+[MATCH]
+> Toque nos pares
+- buenos días <> bom dia
+- pastel <> bolo
+- a <> no
+- sé <> sei
+- Sí <> sim
+
