@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=French Fries or Salad, Junior?
+icon=53bded8a873131832543feb9e1a3f4c7ffeb74e0
+set=6|3
+
+[HEADER]
+> Pommes       oder Salat, Junior?
+~ french~fries or   salad  Junior 
+
+[LINE]
+> Junior ist in~der~Schule. Es ist Zeit~für~das~Mittagessen.
+~ Junior is  at~school      it is  time~for~lunch           
+
+[LINE]
+Speaker415: Hallo, Frau~Lange! Ich bin sehr hungrig!
+~           hello  Ms.~Lange   I   am  very hungry  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1187: Hallo, Junior. [Es~gibt~heute~Fisch].
+~            hello  Junior   there~is~fish~today  
++ Es gibt heute Fisch
+- Er sieht einen Fisch
+- Er deckt euren Tisch
+
+[LINE]
+Speaker1187: Möchtest~du mit  dem Fisch Salat oder Pommes?      
+~            do~you~want with the fish  salad or   french~fries 
+
+[LINE]
+Speaker415: Ich liebe Pommes       und Salat!
+~           I   love  french~fries and salad 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "only."
+Speaker1187: (Du)  kannst (+nur)  (eins) (haben), Junior.
+~             you  can      only   one    have    Junior 
+
+[LINE]
+Speaker415: OK, Pommes       sind sehr lecker    …
+~           OK  french~fries are  very delicious  
+
+[MULTIPLE_CHOICE]
+> Junior thinks fries are…
+- …not great with fish.
++ …very delicious.
+- …disgusting.
+
+[LINE]
+Speaker415: Und mein Tag ist sehr stressig  …
+~           and my   day is  very stressful  
+
+[CONTINUATION]
+> What comes next?
+Speaker415: Aber Salat ist wirklich [gesund  ]…
+~           but  salad is  really    healthy   
+- heiß
+~ hot 
++ gesund 
+~ healthy
+- nervös 
+~ nervous
+
+[LINE]
+Speaker1187: Junior …
+~            Junior  
+
+[LINE]
+Speaker415: Aber ich kann nur  eins~haben …
+~           but  I   can  only have~one    
+
+[LINE]
+Speaker415: Ich will den Salat! Nein! Die Pommes!       Warten~Sie …
+~           I   want the salad  no    the french~fries  wait        
+
+[LINE]
+Speaker415: Ich weiß~es~nicht!
+~           I   don't~know    
+
+[MULTIPLE_CHOICE]
+> Poor Junior! What problem does he have?
+- He wants ice cream in his salad.
+- He ate too many fries.
++ He can't choose between a salad and fries.
+
+[LINE]
+Speaker1187: Junior!
+~            Junior 
+
+[LINE]
+Speaker415: Oh! Ja,  Frau~Lange?
+~           oh  yes  Ms.~Lange  
+
+[LINE]
+Speaker1187: Hier! Dein Mittagessen! Fisch mit  Pommes       und Salat.
+~            here  your lunch        fish  with french~fries and salad 
+
+[MULTIPLE_CHOICE]
+> Ms. Lange told Junior that he could...
+- ...go somewhere else to eat.
+- ...imagine that fries are salad.
++ ...take the fries and the salad.
+
+[MATCH]
+> Tap the pairs
+- Ja <> yes
+- wirklich <> really
+- liebe <> love
+- sehr <> very
+- Junior <> Junior
+
