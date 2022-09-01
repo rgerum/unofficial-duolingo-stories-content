@@ -1,0 +1,177 @@
+[DATA]
+fromLanguageName=A escola de magia
+icon=8161f0f8e3c323619ee3e6d4c192be801cf2c33d
+set=42|1
+
+[HEADER]
+> The Magic~School   
+~ a   escola~de~magia
+
+[LINE]
+> Eddy is   in~the kitchen reading his~son~Junior's~book.      
+~ Eddy está na     cozinha lendo   o~livro~de~seu~filho~Junior 
+
+[LINE]
+Speaker415: Is~that my    book  about the boy    who goes to   the magic~school?   
+~           esse~é  o~meu livro sobre o   menino que vai  para a   escola~de~magia 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker414: Yes! This book  is so  good! I  can't~wait        to~see   [how~it~ends].     
+~           sim  este livro é  tão bom   eu mal~posso~esperar para~ver  como~ele~termina  
+- now it ends
+- how it sent
++ how it ends
+
+[LINE]
+Speaker415: Well, Peter fights   the evil    snake~king…
+~           bem   Peter luta~com o   maligno rei~cobra  
+
+[LINE]
+Speaker414: Stop! Don't~tell~me!
+~           para  não~me~conta  
+
+[MULTIPLE_CHOICE]
+> What  does~Eddy~want~Junior~to~stop doing?
+~ o~que Eddy~quer~que~Junior~pare~de  fazer 
++ telling  him what  happens  in~the book 
+~ contar~a ele o~que acontece no     livro
+- fighting     evil     snake~kings
+~ lutar~com~os malignos reis~cobra 
+- reading books  in~the kitchen
+~ ler     livros na     cozinha
+
+[LINE]
+Speaker415: Hmmm…
+~           hmmm 
+
+[ARRANGE]
+> Toque no que escutar
+> [(Junior) (opens) (the) (freezer).]   
+~   Junior   abre    o     congelador   
+
+[LINE]
+Speaker415: If~I~can~have     ice~cream before   dinner, then  I  won't~tell     you  how  the book  ends.   
+~           se~eu~puder~tomar sorvete   antes~do jantar  então eu não~contarei~a você como o   livro termina 
+
+[LINE]
+Speaker414: What?  No! 
+~           o~quê  não 
+
+[LINE]
+Speaker415: OK.    Then  the book  ends    when   Peter runs  into~the       dark~forest…    
+~           certo  então o   livro termina quando Peter corre para~dentro~da floresta~escura 
+
+[LINE]
+Speaker414: Wait!   You  can~have   ice~cream before   dinner. But only   tonight!     
+~           espera  você pode~tomar sorvete   antes~do jantar  mas apenas hoje~à~noite 
+
+[MULTIPLE_CHOICE]
+> Why     is~Eddy~letting    Junior eat   ice~cream before   dinner?
+~ por~que Eddy~está~deixando Junior comer sorvete   antes~do jantar 
++ He  doesn't~want~Junior~to~tell him how  the book  ends.   
+~ ele não~quer~que~Junior~conte~a ele como o   livro termina 
+- The boy    in~the book  eats ice~cream before   dinner.
+~ o   menino no     livro come sorvete   antes~do jantar 
+- He  forgot      to~make dinner   because he's~reading.  
+~ ele esqueceu~de fazer   o~jantar porque  ele~está~lendo 
+
+[LINE]
+Speaker415: Yay! I'm~going~to~eat~it while    I  watch   that   new  movie, 101~Murders.     
+~           eba  eu~vou~comer        enquanto eu assisto aquele novo filme  101~Assassinatos 
+
+[LINE]
+Speaker414: No,  that movie is too~scary         for  you! 
+~           não  esse filme é  assustador~demais para você 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker415: [If~you~don't~let~me~watch~it],         then  I'll~tell     you  how  the book  ends…   
+~            se~você~não~me~deixar~assistir~a~ele   então eu~contarei~a você como o   livro termina 
+- It won't let me watch it
+- If you don't get me a watch
++ If you don't let me watch it
+
+[LINE]
+Speaker414: Junior…
+~           Junior 
+
+[LINE]
+Speaker415: …so    Peter and his~friends    find      the snake~king's~palace… 
+~            então Peter e   os~amigos~dele encontram o   palácio~do~rei~cobra 
+
+[LINE]
+Speaker414: OK!    You  can~watch     the movie.
+~           certo  você pode~assistir o   filme 
+
+[CONTINUATION]
+> What  comes next?  
+~ o~que vem   depois 
+Speaker414: Just   don't~tell~me [the ending of~this book]. 
+~           apenas não~me~conte   o   final  deste   livro  
+- the name of your new  fish 
+~ o   nome de seu  novo peixe
+- anything~else about frogs
+~ mais~nada     sobre rãs  
++ the ending of~this book 
+~ o   final  deste   livro
+
+[LINE]
+> Later      that~week,      Eddy is   in~the kitchen making  dinner.  
+~ mais~tarde naquela~semana  Eddy está na     cozinha fazendo o~jantar 
+
+[LINE]
+> Junior goes to   the freezer    to~get     some        ice~cream.
+~ Junior vai  para o   congelador para~pegar um~pouco~de sorvete   
+
+[LINE]
+Speaker414: Sorry,    Junior.
+~           desculpa  Junior 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker414: [(You)  (can't~have)     (ice~cream) (tonight).]     
+~             você   não~pode~tomar   sorvete     hoje~à~noite   
+
+[LINE]
+Speaker415: OK…    So~then    I  have~to~tell~you    how  the book  ends…   
+~           certo  nesse~caso eu tenho~que~te~contar como o   livro termina 
+
+[LINE]
+Speaker414: You're~too~late! I  already finished the book,  so    I  know what  happens! 
+~           tarde~demais     eu já      acabei   o   livro  então eu sei  o~que acontece 
+
+[LINE]
+Speaker415: Oh, no. 
+~           ah  não 
+
+[LINE]
+Speaker414: And I  read the rest  of~the books  in~the series!
+~           e   eu li   o   resto dos    livros na     série  
+
+[LINE]
+Speaker415: What?! 
+~           o~quê  
+
+[LINE]
+Speaker414: Now   you  have~to~clean  your room,   or I'll~tell     you  what  happens  in~the next     three books! 
+~           agora você tem~que~limpar seu  quarto  ou eu~contarei~a você o~que acontece nos    próximos três  livros 
+
+[MULTIPLE_CHOICE]
+> Junior can't~have     ice~cream tonight      because…
+~ Junior não~pode~tomar sorvete   hoje~à~noite porque  
++ …Eddy already knows how  all   the books  end.     
+~  Eddy já      sabe  como todos os  livros terminam 
+- …the evil    snake~king ate~it all. 
+~  o   maligno rei~cobra  comeu  tudo 
+- …he  needs   to~do his~homework         from magic~school.   
+~  ele precisa fazer o~dever~de~casa~dele da   escola~de~magia 
+
+[MATCH]
+> Toque nos pares
+- movie <> filme
+- in the <> na
+- I <> eu
+- while <> enquanto
+- read <> li
+
