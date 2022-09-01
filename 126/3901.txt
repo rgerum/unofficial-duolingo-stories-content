@@ -1,0 +1,152 @@
+[DATA]
+fromLanguageName=Eu posso tirar uma foto?
+icon=d6cfdc678db3116881efba02e683423389b53370
+set=24|2
+
+[HEADER]
+> Can~I~take     a   Picture?
+~ eu~posso~tirar uma foto    
+
+[LINE]
+> Lucy is~walking      down~the~street.
+~ Lucy está~caminhando pela~rua        
+
+[LINE]
+> She sees an~attractive~young~man.
+~ ela vê   um~jovem~homem~atraente 
+
+[LINE]
+Speaker509: Wow! Are~you that   famous~actor?
+~           uau  você~é  aquele ator~famoso  
+
+[LINE]
+Speaker385: Shh! No… 
+~           ~    não 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker509: [(I)  (just~watched)           (your~movie)!]   
+~             eu   acabei~de~assistir~(a)   (o)~seu~filme   
+
+[LINE]
+Speaker385: I'm~not    an~actor.
+~           eu~não~sou ator     
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker509: Yes, you~are! Can~I    [take~a~picture~of~you]?
+~           sim  você~é   eu~posso  tirar~uma~foto~sua     
++ take a picture of you
+- bake a picture or two
+- take a picture with who
+
+[LINE]
+Speaker385: OK…    quickly!
+~           certo  rápido  
+
+[LINE]
+Speaker509: So    you~are        that   famous~actor?
+~           então você~é~(mesmo) aquele ator~famoso  
+
+[LINE]
+Speaker385: Yes.
+~           sim 
+
+[LINE]
+Speaker509: I  knew~it!    
+~           eu sabia~disso 
+
+[LINE]
+> Lucy takes a   picture of~him with her~phone.        
+~ Lucy tira  uma foto    dele   com  (o)~telefone~dela 
+
+[MULTIPLE_CHOICE]
+> Por que a Lucy tirou uma foto do homem?
+- Ela é uma fotógrafa profissional.
++ Ele é um ator famoso.
+- Ele é o namorado dela.
+
+[LINE]
+Speaker509: You  were   great in~the movie "Sad~Cats      Can't~Dance."     
+~           você estava ótimo no     filme  gatos~tristes não~podem~dançar  
+
+[LINE]
+Speaker385: I  wasn't     in~that movie.
+~           eu não~estava nesse   filme 
+
+[LINE]
+Speaker509: You  weren't?   
+~           você não~estava 
+
+[LINE]
+Speaker385: I  was    in "Grandpa's~New~Hair."     
+~           eu estava em  (o)~novo~cabelo~do~vovô  
+
+[LINE]
+Speaker509: I've~never~seen~it.      
+~           eu~nunca~vi~(esse~filme) 
+
+[LINE]
+Speaker385: Did~you~see "What's     in~My~Mouth?"   I  was    amazing     in~that movie!
+~           você~viu     o~que~está na~minha~boca   eu estava maravilhoso nesse   filme 
+
+[LINE]
+Speaker509: No. 
+~           não 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "sangue".
+Speaker385: Maybe~you~saw           "(Bacon), (Eggs), (Toast),   and (+Blood)"? 
+~           talvez~você~tenha~visto   ~        ovos    torrada   e     sangue   
+
+[LINE]
+Speaker509: No,  I've~never~seen~it.      
+~           não  eu~nunca~vi~(esse~filme) 
+
+[LINE]
+Speaker385: It's  famous! Wait,   are~you~deleting   my        picture?
+~           ele~é famoso  espera  você~está~apagando (a)~minha foto    
+
+[MULTIPLE_CHOICE]
+> O homem quer saber se…
+- …a Lucy está apaixonada por ele.
+- …a Lucy gosta do cabelo dele.
++ …a Lucy está apagando a foto dele.
+
+[LINE]
+Speaker509: Maybe.  Were~you    in anything~else?       
+~           talvez  você~esteve em qualquer~outra~coisa 
+
+[LINE]
+Speaker385: I've~been in fifty     movies!
+~           eu~estive em cinquenta filmes 
+
+[CONTINUATION]
+> O que vem depois?
+> Lucy deletes [the picture].
+~ Lucy apaga    a   foto     
+- the cats 
+~ os  gatos
+- the movie
+~ o   filme
++ the picture
+~ a   foto   
+
+[LINE]
+Speaker509: If~you~see  that   actor from "Sad~Cats      Can't~Dance",      can~you~take    a   picture for  me? 
+~           se~você~vir aquele ator  de    gatos~tristes não~podem~dançar   você~pode~tirar uma foto    para mim 
+
+[MULTIPLE_CHOICE]
+> Por que a Lucy apagou a foto?
+- O homem não era um ator afinal de contas.
++ O homem não atuou em "Sad Cats Can't Dance".
+- Ela queria tirar uma foto do cabelo novo do avô dela.
+
+[MATCH]
+> Toque nos pares
+- It's <> ele é
+- knew it <> sabia disso
+- deletes <> apaga
+- in My Mouth <> na minha boca
+- anything else <> qualquer outra coisa
+
