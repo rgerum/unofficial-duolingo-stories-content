@@ -1,0 +1,166 @@
+[DATA]
+fromLanguageName=Removam esta estátua
+icon=823749dd6444125abd71a484d75f11fce2ad483b
+set=70|1
+
+[HEADER]
+> Remove  This Statue 
+~ removam esta estátua
+
+[LINE]
+> Zari finds    Lily standing outside         of~the school~building.  Lily is~holding     a   sign. 
+~ Zari encontra Lily de~pé    do~lado~de~fora do     prédio~da~escola  Lily está~segurando uma placa 
+
+[LINE]
+Speaker418: What  are~you~doing?    
+~           o~que você~está~fazendo 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker416: [Read~my~sign].      
+~            leia~a~minha~placa  
+- Eat my sign
+- Ready my line
++ Read my sign
+
+[LINE]
+Speaker418: It  says, "Remove  this statue."  What statue? 
+~           ela diz    removam esta estátua   que  estátua 
+
+[LINE]
+> Lily points to   the statue  of a  man   in~front  of~the school.
+~ Lily aponta para a   estátua de um homem na~frente da     escola 
+
+[LINE]
+Speaker418: The man   our~school~is~named~after? 
+~           o   homem que~dá~nome~à~nossa~escola 
+
+[MULTIPLE_CHOICE]
+> Zari~and~Lily's~school…    
+~ a~escola~da~Zari~e~da~Lily 
+- …has a  famous~new~student.
+~  tem um aluno~novo~famoso  
+- …only has one teacher.  
+~  só   tem um  professor 
++ …has the same~name~as   the man   in~the~statue.
+~  tem o   mesmo~nome~que o   homem da~estátua    
+
+[LINE]
+Speaker416: Yes. He  stole  this land  from~the people  who lived   here first.   
+~           sim  ele roubou esta terra das      pessoas que moravam aqui primeiro 
+
+[LINE]
+Speaker418: Really?
+~           sério  
+
+[LINE]
+Speaker416: And then  he  made them all   leave       their~homes.   
+~           e   então ele fez  elas todas abandonarem as~casas~delas 
+
+[LINE]
+Speaker418: That's terrible! I'm~protesting   with you! 
+~           isso~é terrível  eu~vou~protestar com  você 
+
+[MULTIPLE_CHOICE]
+> Why     do~Lily~and~Zari~want~the~school~to~remove the statue? 
+~ por~que a~Lily~e~a~Zari~querem~que~a~escola~remova a   estátua 
+- Lily   wants to~put  the statue  in~her~bedroom.
+~ a~Lily quer  colocar a   estátua no~quarto~dela 
+- They think     the statue  is ugly.
+~ elas acham~que a   estátua é  feia 
++ The statue  is of a  man   who did bad~things.  
+~ a   estátua é  de um homem que fez coisas~ruins 
+
+[LINE]
+Speaker418: Remove  this statue! 
+~           removam esta estátua 
+
+[LINE]
+> The principal walks~up~to Zari and Lily.
+~ o   diretor   anda~até    Zari e   Lily 
+
+[LINE]
+Speaker2210: Girls,   please    go  to   class. 
+~            meninas  por~favor vão para a~aula 
+
+[CONTINUATION]
+> What  comes next?  
+~ o~que vem   depois 
+Speaker416: Not until~you    [remove this statue]. 
+~           não até~que~você  remova esta estátua  
+- give~us your shoes  
+~ nos~dê  seus sapatos
++ remove this statue 
+~ remova esta estátua
+- show~us    a   dance
+~ nos~mostre uma dança
+
+[POINT_TO_PHRASE]
+> Choose  the option that means     "algemas."
+~ escolha a   opção  que  significa  ~        
+> Lily (takes~out) a  pair of (+handcuffs) and locks~herself (to~the) (statue). 
+~ Lily  saca       um par  de   algemas    e   se~prende      à        estátua  
+
+[LINE]
+Speaker418: Whoa.
+~           uau  
+
+[LINE]
+Speaker416: Zari and I  will~stay here all~day    if~we~have~to.                 
+~           Zari e   eu ficaremos aqui o~dia~todo se~nós~tivermos~que~fazer~isso 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker418: But Lily? I  have~to   [leave~at~noon].    I  have  a   math~test           today!
+~           mas Lily  eu tenho~que  sair~ao~meio-dia   eu tenho uma prova~de~matemática hoje  
+- live in the moon
++ leave at noon
+- read it soon
+
+[LINE]
+Speaker416: What's  more important,  Zari? Grades? Or justice?
+~           o~que~é mais importante  Zari  notas   ou justiça 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker2210: [(It's) (great) (that~you~care)          (about) (justice)…]
+~              é      ótimo   que~vocês~se~preocupem   sobre   justiça   
+
+[LINE]
+Speaker2210: But I'm~going~to~have~to~call your parents if~you~don't~go    to   class. 
+~            mas eu~vou~ter~que~ligar~para seus pais    se~vocês~não~forem para a~aula 
+
+[LINE]
+Speaker418: Lily's    right! We're~staying   here until~you~remove    this statue! 
+~           Lily~está certa  nós~vamos~ficar aqui até~que~você~remova esta estátua 
+
+[LINE]
+> Zari grabs the key~to~Lily's~handcuffs   and throws~it into~the street. It  falls into a  drain.
+~ Zari pega  a   chave~das~algemas~de~Lily e   a~joga    na       rua     ela cai   em   um ralo  
+
+[LINE]
+Speaker416: Zari! I  only had   that~one     key!   And we  have  tickets   to   a  concert tonight!     
+~           Zari  eu só   tinha aquela~única chave  e   nós temos ingressos para um show    hoje~à~noite 
+
+[LINE]
+Speaker418: What's  more important:  a  concert or justice?
+~           o~que~é mais importante  um show    ou justiça 
+
+[MULTIPLE_CHOICE]
+> Why     does~Lily~need~the key?  
+~ por~que a~Lily~precisa~da  chave 
+- It  opens a   magic~box.   
+~ ela abre  uma caixa~mágica 
+- She needs   to~take a  math~test.          
+~ ela precisa fazer   um teste~de~matemática 
++ She wants to~go to   the concert later.     
+~ ela quer  ir    para o   show    mais~tarde 
+
+[MATCH]
+> Toque nos pares
+- finds <> encontra
+- here <> aqui
+- What's <> o que é
+- school <> escola
+- land <> terra
+
