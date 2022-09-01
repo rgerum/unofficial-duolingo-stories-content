@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=El jardín
+icon=353ec768516986a1fc3f8a061638a3646f1de26b
+set=5|4
+
+[HEADER]
+> Le jardin
+~ el jardín
+
+[LINE]
+> Vikram va   voir  sa grand-mère à  l'hôpital.  
+~ Vikram va~a ver~a su abuela     en el~hospital 
+
+[LINE]
+Speaker593: Bonjour,     mamie    !
+~           buenos~días  abuelita  
+
+[LINE]
+Speaker593: Comment~vas-tu, aujourd'hui ?
+~           cómo~estás      hoy          
+
+[LINE]
+Speaker129: Ça~ne~va~pas trop bien...
+~           no~estoy     muy  bien   
+
+[MULTIPLE_CHOICE]
+> La abuela de Vikram se siente feliz.
++ No, no es así.
+- Sí, así es.
+
+[LINE]
+Speaker129: Je~n'aime~pas cette chambre.   
+~           no~me~gusta   esta  habitación 
+
+[LINE]
+Speaker129: Il~n'y~a~pas de~couleurs. C'est gris...
+~           no~hay       colores      es    gris   
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker129: Il~fait chaud et il~fait~beau.    Je veux   [aller~dehors].
+~           hace    calor y  hay~buen~tiempo  yo quiero  salir         
+- aller au port
+- gagner dehors
++ aller dehors
+
+[LINE]
+Speaker593: Oh. Je~suis~désolé.
+~           ay  lo~siento      
+
+[LINE]
+Speaker129: Quand  il~fait~beau,    j'aime   travailler dans mon jardin.
+~           cuando hay~buen~tiempo  me~gusta trabajar   en   mi  jardín 
+
+[LINE]
+Speaker593: Hmm… j'ai       une idée !
+~           mmm  (yo)~tengo una idea  
+
+[LINE]
+Speaker593: Une~seconde !
+~           un~segundo   
+
+[MULTIPLE_CHOICE]
+> Parece que Vikram...
++ …tiene una idea para hacer sentir mejor a su abuela.
+- …se dio cuenta de que necesita ducharse.
+- …decidió ir a una fiesta.
+
+[LINE]
+> Quinze minutes plus tard... 
+~ quince minutos más  tarde   
+
+[LINE]
+> Vikram rentre dans la chambre    avec deux plantes.
+~ Vikram entra  a    la habitación con  dos  plantas 
+
+[LINE]
+Speaker593: Ce~sont   tes plantes !
+~           estas~son tus plantas  
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "también".
+Speaker593: Et (j'ai)  (des)  (fleurs) (+aussi).  
+~           y   tengo   unas   flores    también  
+
+[LINE]
+Speaker129: Mes plantes et mes fleurs !
+~           mis plantas y  mis flores  
+
+[LINE]
+Speaker593: Maintenant, ton jardin est  ici. 
+~           ahora       tu  jardín está aquí 
+
+[LINE]
+Speaker129: C'est    très joli,  mon~chéri !
+~           (eso)~es muy  lindo  cariño     
+
+[LINE]
+Speaker129: Merci~beaucoup, Vikram !
+~           muchas~gracias  Vikram  
+
+[MULTIPLE_CHOICE]
+> ¡Qué lindo! Vikram…
+- …llevó a su abuela a su casa.
+- …compró un collar de flores para su abuela.
++ …le trajo a su abuela plantas y flores de su jardín.
+
+[MATCH]
+> Selecciona los pares
+- aller dehors <> salir
+- mamie <> abuelita
+- Ça ne va pas <> no estoy
+- joli <> lindo
+- Quinze <> quince
+
