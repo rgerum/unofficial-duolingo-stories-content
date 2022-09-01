@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Ein Schrei im Nachtzug
+icon=6a2cfe9a3b62354a66111cce8d24f451aa087ef0
+set=32|1
+
+[HEADER]
+> A   Scream on~the Night~Train
+~ ein Schrei im     Nachtzug   
+
+[LINE]
+> Lucy and Lin are  on a     train at     night. They're~getting~ready  to~go~to~sleep    in their room.  
+~ Lucy und Lin sind in einem Zug   in~der Nacht  sie~machen~sich~bereit schlafen~zu~gehen in ihrer Kabine 
+
+[LINE]
+> Suddenly,  they~hear a     scream.
+~ plötzlich  hören~sie einen Schrei 
+
+[LINE]
+Speaker509: Did~you hear~that? 
+~           hast~du das~gehört 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker508: Yeah. Maybe      someone [is~in~danger]. 
+~           ja    vielleicht jemand   ist~in~Gefahr  
++ is in danger
+- has strange hair
+- is a ranger
+
+[LINE]
+> Lucy listens at the door.
+~ Lucy lauscht an der Tür  
+
+[LINE]
+Speaker509: Let  me   see   if everything is~OK. 
+~           lass mich sehen ob alles      OK~ist 
+
+[LINE]
+Speaker508: No!   Maybe      a~murderer~is  outside       our     room!  
+~           nein  vielleicht ist~ein~Mörder draußen~(vor) unserer Kabine 
+
+[MULTIPLE_CHOICE]
+> Warum will Lin die Kabine nicht verlassen?
++ Sie hat Angst davor, dass sich ein Mörder im Zug aufhält.
+- Sie hat niemanden schreien gehört.
+- Sie ist zu müde, um sich darum zu kümmern, was passiert ist.
+
+[LINE]
+Speaker509: You watch~too~much~TV.  
+~           du  siehst~zu~viel~fern 
+
+[ARRANGE]
+> Was hörst du?
+Speaker508: [(I)   (don't~want) (someone)       (to~kill) (me)!]  
+~             ich   will~nicht   (dass)~jemand   tötet     mich   
+
+[LINE]
+Speaker509: I'll      feel~better        if   I   see  what's~happening.
+~           ich~werde mich~besser~fühlen wenn ich sehe was~passiert     
+
+[LINE]
+Speaker508: And I'll      feel~better        if   you lock~the~door      and go~to~sleep.   
+~           und ich~werde mich~besser~fühlen wenn du  die~Tür~abschließt und schlafen~gehst 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker509: Fine.   I'll      [stay~here].   
+~           na~gut  ich~werde  hier~bleiben  
+- drink~some~coffee   
+~ etwas~Kaffee~trinken
++ stay~here   
+~ hier~bleiben
+- scream  
+~ schreien
+
+[LINE]
+> Later,  in~the~middle of~the~night, Lin~wakes~up.  She sees  that Lucy is~not~in~her~bed.      
+~ später  mitten        in~der~Nacht  wacht~Lin~auf  sie sieht dass Lucy nicht~in~ihrem~Bett~ist 
+
+[LINE]
+Speaker508: Oh, no!   Where's Grandma?
+~           oh  nein  wo~ist  Oma     
+
+[LINE]
+> Lin walks into the hallway. Suddenly,  she~hears Lucy scream   in the next~room.  
+~ Lin geht  in   den Gang     plötzlich  hört~sie  Lucy schreien in der Nebenkabine 
+
+[ARRANGE]
+> Was hörst du?
+> [(She~runs)  (to~the~door) (and) (opens)  (it).] 
+~   sie~rennt   zur~Tür       und   öffnet   sie   
+
+[LINE]
+> Inside~the room,   Lucy~is~playing cards  with a     group  of  women. 
+~ in~der     Kabine  spielt~Lucy     Karten mit  einer Gruppe von Frauen 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker508: Grandma? [Why~did~you~scream]?!     
+~           Oma       warum~hast~du~geschrien   
+- Where's the ice cream
+- Why did you dream
++ Why did you scream
+
+[LINE]
+Speaker509: Lin! Meet~my~new~friend,          Jane! She's   not~a murderer.
+~           Lin  das~ist~meine~neue~Freundin  Jane  sie~ist keine Mörderin 
+
+[LINE]
+Speaker509: But  she did just~take~$100~from~me      in our     card~game.  
+~           aber sie hat mir~gerade~100~$~abgenommen in unserem Kartenspiel 
+
+[MULTIPLE_CHOICE]
+> Aha! Warum haben die Leute im Zug geschrien?
+- Der Zugfahrplan wurde geändert.
+- Lucys neue Freundin Jane ist eine Mörderin.
++ Sie haben Geld bei einem Kartenspiel verloren.
+
+[MATCH]
+> Wähle die Paare
+- not a <> keine
+- is OK <> OK ist
+- hallway <> Gang
+- Jane <> Jane
+- Did you <> hast du
+
