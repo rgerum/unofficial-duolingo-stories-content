@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=Il est temps de changer
+icon=a2ac5b4bdad2cf4c70c2d3a4f3ff8e0ade6aba2d
+set=26|1
+
+[HEADER]
+> Time~for~a~Change      
+~ il~est~temps~de~changer
+
+[LINE]
+> Lin brings  a  big  blue~chair    into Lucy's~apartment.     
+~ Lin apporte un gros fauteuil~bleu dans l'appartement~de~Lucy 
+
+[LINE]
+Speaker508: Look~at the new     chair    I~found         for  the living~room!
+~           regarde le  nouveau fauteuil que~j'ai~trouvé pour le  salon       
+
+[LINE]
+Speaker509: I  can't~believe             you actually~paid~money for  that!
+~           je n'arrive~pas~à~croire~que tu  aies~vraiment~payé  pour ça   
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker509: [How~much~did~it~cost]?
+~            combien~il~a~coûté    
+- Have such a cost
+- How much he lost
++ How much did it cost
+
+[LINE]
+Speaker508: It was   free!    I  found~it    outside,       in~front~of the blue~house.  
+~           il était gratuit  je l'ai~trouvé à~l'extérieur  devant      la  maison~bleue 
+
+[LINE]
+Speaker508: I  think that the woman who lived    there died…      but  it's  a  free~chair!      
+~           je pense que  la  femme qui habitait là    est~morte  mais c'est un fauteuil~gratuit 
+
+[LINE]
+Speaker509: You aren't~going~to~keep~it in   our   living~room, are~you?     
+~           tu  ne~vas~pas~le~garder    dans notre salon        n'est-ce~pas 
+
+[MULTIPLE_CHOICE]
+> On dirait que Lucy…
+- … déménage dans un nouvel appartement.
+- … aime beaucoup le fauteuil.
++ … n'aime pas le fauteuil.
+
+[LINE]
+Speaker508: I  knew       you were~going~to~hate~it.
+~           je savais~que tu  allais~détester       
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker509: [(It) (won't~look~nice) (with) (our) (curtains)…]
+~             il   n'ira~pas         avec   nos   rideaux    
+
+[LINE]
+Speaker509: But  I  suppose     we   can~buy         new         curtains.
+~           mais je suppose~que nous pouvons~acheter de~nouveaux rideaux  
+
+[LINE]
+Speaker508: Hey! I~like      our curtains…
+~           hé   j'aime~bien nos rideaux  
+
+[LINE]
+Speaker509: But  if we buy    new         curtains, then  we'll~need to~buy  new         pillows  too…  
+~           mais si on achète de~nouveaux rideaux   alors on~devra   acheter de~nouveaux coussins aussi 
+
+[LINE]
+Speaker508: I~like      the pillows  we~have    now…       
+~           j'aime~bien les coussins que~l'on~a maintenant 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker509: Ooh! Now        I'm~going~to [buy~new~lamps]               too!  
+~           oh   maintenant je~vais       acheter~de~nouvelles~lampes  aussi 
++ buy new lamps
+- buy new legs
+- but now lamps
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker509: [(This)  (room)  (is~going~to~be) (beautiful)!]
+~             cette   pièce   va~être          belle       
+
+[LINE]
+Speaker508: I~like      how    the room  looks     now.       
+~           j'aime~bien à~quoi la  pièce ressemble maintenant 
+
+[LINE]
+Speaker509: Too~bad!  I'm~going~to~change the room  now!        I'm~excited!
+~           tant~pis  je~vais~changer     la  pièce maintenant  j'ai~hâte   
+
+[LINE]
+Speaker508: We're~going~to~have~to~buy all   new          things…
+~           on~va~devoir~acheter       plein de~nouvelles choses 
+
+[LINE]
+Speaker509: That's OK,  the chair    was   free…    remember?    
+~           c'est  bon  le  fauteuil était gratuit  rappelle-toi 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Lucy veut-elle acheter de nouveaux meubles ?
+- Les vieux meubles sentent très mauvais.
+- Son appartement n'est pas encore meublé.
++ Ses vieux meubles ne vont pas avec le nouveau fauteuil.
+
+[MATCH]
+> Choisis les paires
+- our <> notre
+- that <> ça
+- actually paid money <> aies vraiment payé
+- free chair <> fauteuil gratuit
+- beautiful <> belle
+
