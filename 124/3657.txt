@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=Les horoscopes ne sont pas vrais
+icon=10523c977de263efd9025298f59cc9e2f702d3f1
+set=23|2
+
+[HEADER]
+> Horoscopes     Aren't      Real 
+~ les~horoscopes ne~sont~pas vrais
+
+[LINE]
+> Eddy and Bea are  in   a  coffee~shop. Bea is~reading the newspaper.
+~ Eddy et  Bea sont dans un café         Bea lit        le  journal   
+
+[LINE]
+Speaker507: Hmm, this~is interesting…
+~           hmm  c'est   intéressant 
+
+[LINE]
+Speaker414: What?
+~           quoi 
+
+[LINE]
+Speaker507: I'm~reading my  horoscope. It says    I'll~help     someone   today.      
+~           je~lis      mon horoscope  il dit~que je~vais~aider quelqu'un aujourd'hui 
+
+[LINE]
+Speaker414: Horoscopes     aren't      real.  A  newspaper can't~tell~you~about   your future.
+~           les~horoscopes ne~sont~pas vrais  un journal   ne~peut~pas~te~révéler ton  futur  
+
+[MULTIPLE_CHOICE]
+> Eddy pense que les horoscopes peuvent prédire l'avenir.
++ Non, c'est faux.
+- Oui, c'est vrai.
+
+[LINE]
+Speaker507: Well,    I  read my  horoscope every~day,      and it's  usually    right.  
+~           eh~bien  je lis  mon horoscope tous~les~jours  et  c'est en~général correct 
+
+[LINE]
+Speaker414: OK…       Can~I~read   my  horoscope?
+~           d'accord  je~peux~lire mon horoscope 
+
+[LINE]
+Speaker507: Sure.    
+~           bien~sûr 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « renverse ».
+> Bea (gives) the newspaper to (Eddy) and (+spills)   his (coffee).
+~ Bea  donne  le  journal   à   Eddy  et    renverse  son  café    
+
+[LINE]
+Speaker507: Oh, no! 
+~           oh  non 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker507: [(Now)        (there's) (coffee)  (on)  (your~shirt)!]
+~             maintenant   il~y~a    du~café   sur   ta~chemise   
+
+[LINE]
+Speaker414: And I~have an  important~meeting  in   ten minutes!
+~           et  j'ai   une réunion~importante dans dix minutes 
+
+[LINE]
+Speaker507: Don't~worry!      I~have an extra~sweater    in   my  bag.
+~           ne~t'en~fais~pas  j'ai   un pull~de~rechange dans mon sac 
+
+[LINE]
+> Bea gives   Eddy her sweater.
+~ Bea donne~à Eddy son pull    
+
+[MULTIPLE_CHOICE]
+> Pourquoi Bea donne son pull à Eddy ?
+- Eddy a très froid aujourd'hui.
++ Elle a renversé du café sur sa chemise.
+- La couleur du pull va avec les yeux d'Eddy.
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker414: I  can't~wear         this! It's  your [favorite~sweater]!
+~           je ne~peux~pas~porter ça    c'est ton   pull~préféré      
+- newspaper
+~ journal  
+- coffee~shop
+~ café       
++ favorite~sweater
+~ pull~préféré    
+
+[LINE]
+Speaker507: Hmm… When  were~you~born?
+~           hmm  quand es-tu~né      
+
+[LINE]
+Speaker414: October~fourth.   
+~           le~quatre~octobre 
+
+[LINE]
+Speaker507: Oh, that means         you're a~Libra.
+~           oh  cela veut~dire~que tu~es  balance 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker414: That [doesn't~mean~anything].
+~           ça    ne~veut~rien~dire      
+- doesn't need many things
++ doesn't mean anything
+- doesn't name anything
+
+[LINE]
+Speaker507: Oh yeah?  Then  listen~to this.
+~           ah ouais  alors écoute    ça   
+
+[LINE]
+Speaker507: Your horoscope says:
+~           ton  horoscope dit  
+
+[LINE]
+Speaker507: "You  will~have    a   very good  day     today       if you  let     a  friend help~you."  
+~            vous allez~passer une très bonne journée aujourd'hui si vous laissez un ami    vous~aider  
+
+[LINE]
+Speaker414: OK,       Bea. I'll~wear   your sweater.
+~           d'accord  Bea  je~porterai ton  pull    
+
+[MULTIPLE_CHOICE]
+> Bea pense que l'horoscope d'Eddy veut dire qu'il…
++ … devrait porter son pull de rechange.
+- … va passer une mauvaise journée.
+- … devrait arrêter de boire du café.
+
+[MATCH]
+> Choisis les paires
+- minutes <> minutes
+- every day <> tous les jours
+- if <> si
+- Can I read <> je peux lire
+- Eddy <> Eddy
+
