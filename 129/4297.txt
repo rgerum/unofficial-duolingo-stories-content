@@ -1,0 +1,141 @@
+[DATA]
+fromLanguageName=Randevu
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+[HEADER]
+> A   Date   
+~ Bir randevu
+
+[LINE]
+> Julia     has a~date        at  a   restaurant.
+~ Julia'nın var bir~randevusu -da bir restoran   
+
+[LINE]
+Speaker336: Hi!    How~are~you?
+~           Selam  nasılsın    
+
+[LINE]
+Speaker100: Good,   thanks!     
+~           iyiyim  Teşekkürler 
+
+[LINE]
+Speaker100: What do~you~want to~eat?
+~           Ne   istersin    yemek  
+
+[MULTIPLE_CHOICE]
+> Julia ile konuşan adamın bilmek istediği şey ...
+- … Yemeğin fiyatının ne kadar olduğu.
++ … Ne yemek istediği.
+- … İyi bir restoranın nerede bulunduğu.
+
+[LINE]
+Speaker336: A   salad. 
+~           Bir salata 
+
+[LINE]
+Speaker336: I   don't~eat meat.
+~           ben yemem     et   
+
+[LINE]
+Speaker100: Are   you a~vegetarian?
+~           misin sen vejetaryen   
+
+[LINE]
+Speaker336: Yes… 
+~           Evet 
+
+[LINE]
+Speaker100: Me  too!
+~           ben de  
+
+[MULTIPLE_CHOICE]
+> Adam bunu neden söyledi?
+- Adam et yemeyi sever.
+- Adam salatalardan nefret eder.
++ Adam da aynı zamanda vejetaryendir.
+
+[LINE]
+Speaker336: Perfect! 
+~           Mükemmel 
+
+[LINE]
+Speaker336: Where~are~you~from?
+~           sen~nerelisin      
+
+[LINE]
+Speaker100: I'm from~Canada.
+~           Ben Kanadalıyım 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker100: [(But) (my~parents)  (are) (from) (Turkey).] 
+~             ama   benim~ailem   ~     -den   Türkiye   
+
+[LINE]
+Speaker336: I'm~Turkish!
+~           ben~Türk'üm 
+
+[LINE]
+Speaker100: Turkey  is~nice! 
+~           Türkiye güzeldir 
+
+[POINT_TO_PHRASE]
+> "evcil hayvan" anlamına gelen seçeneği seçin.
+Speaker100: (Do) (you~have) (+pets)?          
+~            mı   var         evcil~hayvanın  
+
+[LINE]
+Speaker336: I     have three~cats and two~dogs.   
+~           benim var  üç~kedim   ve  iki~köpeğim 
+
+[LINE]
+Speaker100: Wow!
+
+[LINE]
+Speaker100: I     have two~dogs    too, Sarah!
+~           benim var  iki~köpeğim de   ~     
+
+[LINE]
+Speaker336: What? My    name~is Julia…
+~           Ne    Benim adım    ~     
+
+[LINE]
+Speaker336: What's your~name?  Are   you Conor?
+~           Ne     senin~adın  musun sen ~     
+
+[LINE]
+Speaker100: No,    my~name~is Daniel…
+~           Hayır  benim~adım ~      
+
+[MULTIPLE_CHOICE]
+> Bu diyalogdan Julia ve Daniel'in başka insanlarla randevuları olduğu ortaya çıkıyor.
+- Hayır, yanlış.
++ Evet, doğru.
+
+[LINE]
+> A   woman enters the~restaurant and speaks  to~Daniel.
+~ Bir Kadın girer  restorana      ve  konuşur Daniel'le 
+
+[LINE]
+Speaker101: Hi!    Are   you Daniel? I'm Sarah.
+~           Selam  misin sen ~       Ben ~     
+
+[LINE]
+Speaker100: No,    sorry.        I'm Conor.
+~           Hayır  kusura~bakma  Ben ~     
+
+[MULTIPLE_CHOICE]
+> Hikayenin sonunda, Daniel ...
++ … Julia ile kalmak istediği için sahte bir isim verdi.
+- … Conor adında biriyle tanıştı.
+- … Julia ile konuşmaktan bıktı.
+
+[MATCH]
+> Çiftlere dokun
+- Do <> mı
+- How are you <> nasılsın
+- a vegetarian <> vejetaryen
+- two dogs <> iki köpeğim
+- What <> Ne
+
