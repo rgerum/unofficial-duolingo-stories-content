@@ -1,0 +1,136 @@
+[DATA]
+fromLanguageName=Mira mi pintura
+icon=b4a0fb96a3bb2af295051d49d3c112c4c91779e6
+set=13|3
+
+[HEADER]
+> Regarde mon tableau
+~ mira    mi  pintura
+
+[LINE]
+> Eddy arrive~dans~l'appartement d'Oscar. 
+~ Eddy llega~al~apartamento      de~Oscar 
+
+[LINE]
+> Eddy a     un~tableau  dans la main.
+~ Eddy tiene una~pintura en   la mano 
+
+[LINE]
+Speaker592: C'est~quoi ça,  Eddy ?
+~           qué~es     eso  Eddy  
+
+[LINE]
+Speaker414: C'est   mon premier~tableau !
+~           esta~es mi  primera~pintura  
+
+[LINE]
+Speaker414: Tu~peux le~regarder ?
+~           puedes  mirarla      
+
+[MULTIPLE_CHOICE]
+> Eddy quiere que Oscar mire su primera pintura.
+- No, no es así.
++ Sí, así es.
+
+[LINE]
+Speaker592: Non.
+~           no  
+
+[LINE]
+Speaker414: Mais tu es   professeur d'art.  
+~           pero tú eres profesor   de~arte 
+
+[LINE]
+Speaker592: Oui, et je~suis très honnête.
+~           sí   y  soy     muy  honesto 
+
+[LINE]
+Speaker414: J'aime    les personnes honnêtes !
+~           me~gustan las personas  honestas  
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker592: [(Tu) (ne~vas~pas) (être)  (content).] 
+~             tú   no~vas~a     estar   contento   
+
+[LINE]
+Speaker414: Mais je veux   ton opinion sur   mon tableau.
+~           pero yo quiero tu  opinión sobre mi  pintura 
+
+[LINE]
+Speaker592: Il~n'est~pas~bon.
+~           no~es~buena      
+
+[LINE]
+Speaker414: Comment tu~le~sais ?
+~           cómo    lo~sabes    
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker592: Tu n'es~pas un artiste et c'est   [ton premier~tableau].
+~           tú no~eres  un artista y  esta~es  tu  primera~pintura  
+- trop~délicieux
+~ tan~deliciosa 
+- un professeur d'art  
+~ un profesor   de~arte
++ ton premier~tableau
+~ tu  primera~pintura
+
+[LINE]
+Speaker592: Les premiers~tableaux ne~sont~jamais bons.  
+~           las primeras~pinturas nunca~son      buenas 
+
+[LINE]
+Speaker414: Regarde mon tableau, s'il~te~plaît.
+~           mira    mi  pintura  por~favor     
+
+[LINE]
+Speaker414: S'il~te~plaît, Oscar.
+~           por~favor      Oscar 
+
+[LINE]
+Speaker592: D'accord. 
+~           está~bien 
+
+[SELECT_PHRASE]
+> Completa la oración
+> Oscar [regarde~le~tableau].
+~ Oscar  mira~la~pintura     
+- regarde le bateau
+- réserve le château
++ regarde le tableau
+
+[LINE]
+Speaker592: Eddy ce~tableau   est…
+~           Eddy esta~pintura es  
+
+[LINE]
+Speaker414: Oui ?!
+~           sí    
+
+[LINE]
+Speaker592: Vraiment  bon.  
+~           realmente buena 
+
+[LINE]
+Speaker414: Oui ! Super  ! Je~suis un artiste !
+~           sí    genial   soy     un artista  
+
+[LINE]
+Speaker592: Et maintenant, sors de chez~moi, s'il~te~plaît.
+~           y  ahora       sal  de mi~casa   por~favor     
+
+[MULTIPLE_CHOICE]
+> ¿Por qué a Oscar le sorprendió que la pintura de Eddy fuera buena?
+- Eddy siempre ha sido un mal pintor.
+- Eddy la pintó cuando era un niño.
++ Él pensaba que las primeras pinturas nunca eran buenas.
+
+[MATCH]
+> Selecciona los pares
+- honnêtes <> honestas
+- sur <> sobre
+- opinion <> opinión
+- C'est quoi <> qué es
+- s'il te plaît <> por favor
+
