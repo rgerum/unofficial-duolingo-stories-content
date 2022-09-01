@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Las flores de Oscar
+icon=3bc2c3a627aad5f5aef4f68ae652c16713f9048f
+set=10|2
+
+[HEADER]
+> Les fleurs d'Oscar 
+~ las flores de~Oscar
+
+[LINE]
+> Oscar est  dans son jardin. Il voit Eddy, son collègue.            
+~ Oscar está en   su  jardín  él ve~a Eddy  su  compañero~de~trabajo 
+
+[LINE]
+Speaker592: Eddy ! Pourquoi tu~portes    une chemise aujourd'hui ?
+~           Eddy   por~qué  estás~usando una camisa  hoy          
+
+[LINE]
+Speaker414: J'ai     un~rencard, et je suis~en~retard !
+~           yo~tengo una~cita    y  yo voy~tarde       
+
+[MULTIPLE_CHOICE]
+> Eddy está usando una camiseta para su cita.
++ No, no es así.
+- Sí, así es.
+
+[LINE]
+Speaker592: Hmm. Tu~as  des  fleurs ou du~chocolat pour ton rencard ?
+~           mmm  tienes unas flores o  chocolate   para tu  cita     
+
+[LINE]
+Speaker414: Non, et je suis~en~retard !
+~           no   y  yo voy~tarde       
+
+[LINE]
+Speaker592: Tu~peux prendre des  fleurs de mon jardin !
+~           puedes  tomar   unas flores de mi  jardín  
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+> [(Oscar) (prend) (des)  (fleurs) (pour~Eddy).]
+~   Oscar   toma    unas   flores   para~Eddy   
+
+[LINE]
+Speaker414: Je ne~peux~pas prendre ces   fleurs.
+~           yo no~puedo    tomar   estas flores 
+
+[LINE]
+Speaker592: Tu~aimes cette personne ?
+~           te~gusta esta  persona   
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker414: Oui ! Elle est très [amusante]. 
+~           sí    ella es  muy   divertida  
+- fleurie
+~ florida
+- courante 
+~ corriente
++ amusante 
+~ divertida
+
+[LINE]
+Speaker592: Alors    prends ces   fleurs !
+~           entonces toma   estas flores  
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker414: Oscar, [je~ne~veux~pas] ces   fleurs !
+~           Oscar   no~quiero       estas flores  
+- je ne dors pas
+- tu ne peux pas
++ je ne veux pas
+
+[LINE]
+Speaker592: Pourquoi ?
+~           por~qué   
+
+[LINE]
+> Eddy éternue.  
+~ Eddy estornuda 
+
+[MULTIPLE_CHOICE]
+> ¿Qué acaba de hacer Eddy?
++ estornudar
+- gritar
+- llorar
+
+[LINE]
+Speaker592: Eddy ? Tu vas~bien   ?
+~           Eddy   tú estás~bien  
+
+[LINE]
+Speaker414: Non ! Je suis allergique aux   fleurs !
+~           no    yo soy  alérgico   a~las flores  
+
+[LINE]
+Speaker592: Oh, non. Tu as     les yeux et le~nez   rouges.
+~           ay  no   tú tienes los ojos y  la~nariz rojos  
+
+[LINE]
+Speaker414: Je ne~vais~pas~bien...
+~           yo no~estoy~bien      
+
+[LINE]
+Speaker592: Bon~après-midi, Eddy !
+~           buenas~tardes   Eddy  
+
+[MULTIPLE_CHOICE]
+> ¡Pobre Eddy! ¿Por qué se siente tan mal?
++ Es alérgico a las flores.
+- Se dio cuenta de que su cita es mañana.
+- Oscar no quiere salir con él.
+
+[MATCH]
+> Selecciona los pares
+- pour Eddy <> para Eddy
+- rencard <> cita
+- Hmm <> mmm
+- Pourquoi <> por qué
+- voit <> ve a
+
