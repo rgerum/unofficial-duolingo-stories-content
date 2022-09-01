@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=Le cours de danse
+icon=9a1213d7cb11cc1ab115544c9557336da748fca6
+set=4|4
+
+[HEADER]
+> The Dance~Class   
+~ le  cours~de~danse
+
+[LINE]
+> Eddy walks~into Elizabeth's~class.   
+~ Eddy entre~dans le~cours~d'Elizabeth 
+
+[LINE]
+Speaker125: Hi!   
+~           salut 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker125: Today       [we're~learning~to~dance]!
+~           aujourd'hui  nous~apprenons~à~danser  
++ we're learning to dance
+- we're earning two dances
+- we're leaning to dances
+
+[LINE]
+> Eddy quickly~walks     to   the door. 
+~ Eddy marche~rapidement vers la  porte 
+
+[LINE]
+Speaker125: Wait!    
+~           attendez 
+
+[LINE]
+Speaker125: Don't~leave!  
+~           ne~partez~pas 
+
+[LINE]
+Speaker125: I  know     dancing is  difficult sometimes…  
+~           je sais~que danser  est difficile quelquefois 
+
+[LINE]
+Speaker125: …but  it's  really   fun     too!  
+~            mais c'est vraiment amusant aussi 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « erreur ».
+Speaker414: (OK),       (but)  (this~is) a   (+mistake).
+~            d'accord    mais   c'est    une   erreur   
+
+[LINE]
+Speaker125: It's  OK!  It's  easy.   Watch~me!    
+~           c'est bon  c'est facile  regardez-moi 
+
+[LINE]
+Speaker414: But… 
+~           mais 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+> [(Eddy) (watches) (Elizabeth) (dance).] 
+~   Eddy   regarde   Elizabeth   danser   
+
+[LINE]
+Speaker125: Now        dance  with me! 
+~           maintenant dansez avec moi 
+
+[LINE]
+Speaker414: This~is really   fun!    
+~           c'est   vraiment amusant 
+
+[LINE]
+Speaker125: So…    is~this~class   still    a   mistake?
+~           alors  ce~cours~est-il toujours une erreur  
+
+[MULTIPLE_CHOICE]
+> Elizabeth veut savoir si Eddy...
++ … pense toujours que venir à son cours est une erreur.
+- … est professeur de danse.
+- … est vraiment un si mauvais danseur.
+
+[LINE]
+Speaker414: Yes.
+~           oui 
+
+[LINE]
+Speaker125: Really?  
+~           vraiment 
+
+[LINE]
+Speaker414: Yes, I'm     in   the wrong    room. 
+~           oui  je~suis dans la  mauvaise salle 
+
+[LINE]
+Speaker414: But  this~is more fun     than~a cooking~class!   
+~           mais c'est   plus amusant qu'un  cours~de~cuisine 
+
+[MULTIPLE_CHOICE]
+> Oups ! Quelle était l'erreur d'Eddy ?
++ Il devait aller à un cours de cuisine.
+- Il a été en couple avec Elizabeth.
+- Il a oublié ses chaussons de danse.
+
+[MATCH]
+> Choisis les paires
+- Hi <> salut
+- mistake <> erreur
+- it's <> c'est
+- dance <> dansez
+- Eddy <> Eddy
+
