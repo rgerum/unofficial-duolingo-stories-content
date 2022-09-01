@@ -1,0 +1,158 @@
+[DATA]
+fromLanguageName=Die Bäckerei
+icon=dac984797ecc974f28ee915b961f8f66455fe4b6
+set=31|2
+
+[HEADER]
+> The Bakery  
+~ die Bäckerei
+
+[LINE]
+> Josh and Jane are~giving Vikram a    tour of~their bakery.  
+~ Josh und Jane geben      Vikram eine Tour ihrer    Bäckerei 
+
+[LINE]
+Speaker295: A~lot~of people   are  interested   in our     bakery.   We're~selling it  at a     great       price…
+~           viele    Menschen sind interessiert an unserer Bäckerei  wir~verkaufen sie zu einem großartigen Preis 
+
+[LINE]
+Speaker1187: Yes… because we're~getting~a~divorce.
+~            ja   weil    wir~uns~scheiden~lassen 
+
+[LINE]
+Speaker593: Oh, no…   I'm~sorry.       
+~           oh  nein  das~tut~mir~leid 
+
+[MULTIPLE_CHOICE]
+> Hmm … Warum sagt Vikram, dass es ihm leid tut?
+- Niemand will die Bäckerei kaufen.
++ Josh und Jane lassen sich scheiden.
+- Vikram will sich scheiden lassen.
+
+[LINE]
+Speaker295: Jane! Don't~tell~everyone~that.
+~           Jane  erzähl~das~nicht~jedem   
+
+[LINE]
+Speaker1187: Well, Josh, it's   true.
+~            nun   Josh  es~ist wahr 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker593: Uh... well, I'm     [the~best~person]  to~buy~your~bakery.              I'll      take~great~care~of~it.  
+~           äh    nun   ich~bin  die~beste~Person  (die)~eure~Bäckerei~kaufen~kann  ich~werde mich~gut~um~sie~kümmern 
+- the best purse
++ the best person
+- the past person
+
+[LINE]
+Speaker593: Wow, this is  an  amazing oven!
+~           wow  das  ist ein toller  Ofen 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker295: Yes, we  baked          a~lot~of great cookies in [that   oven].
+~           ja   wir haben~gebacken viele    tolle Kekse   in  diesem Ofen  
+- the bathtub  
+~ der Badewanne
++ that   oven
+~ diesem Ofen
+- your   closet 
+~ deinem Schrank
+
+[LINE]
+Speaker593: I've~had your cookies.          They're  fantastic!  
+~           ich~habe eure Kekse~(gegessen)  sie~sind fantastisch 
+
+[LINE]
+Speaker593: Did  you use~this~mixer           to make~them?    
+~           habt ihr dieses~Rührgerät~benutzt um sie~zu~machen 
+
+[LINE]
+Speaker295: Yes. I   also~used~it         to make~Jane's~favorite~pie.       
+~           ja   ich habe~es~auch~benutzt um Janes~Lieblingskuchen~zu~machen 
+
+[LINE]
+Speaker1187: It was my~grandmother's~recipe…     
+~            es war das~Rezept~meiner~Großmutter 
+
+[MULTIPLE_CHOICE]
+> Das Rezept für Janes Lieblingskuchen kommt von …
+- … Joshs Mutter.
++ … Janes Großmutter.
+- … Vikram.
+
+[ARRANGE]
+> Was hörst du?
+Speaker593: [(You~two)  (really~were)   (a)   (great)       (team).]
+~             ihr~zwei   wart~wirklich   ein   großartiges   Team   
+
+[LINE]
+Speaker295: Yeah, we~were.  
+~           ja    waren~wir 
+
+[LINE]
+Speaker1187: I~think~so~too…    
+~            das~finde~ich~auch 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker295: Jane… [Can~I~talk~to~you]         alone? 
+~           Jane   kann~ich~mit~dir~sprechen  allein 
++ Can I talk to you
+- Can I take you
+- When I talk to you
+
+[LINE]
+> Jane and Josh leave.     A~few    minutes later,  they~come  back.  
+~ Jane und Josh gehen~weg  ein~paar Minuten später  kommen~sie zurück 
+
+[LINE]
+Speaker1187: Vikram, Josh and I   have  made~a~decision…            
+~            Vikram  Josh und ich haben eine~Entscheidung~getroffen 
+
+[LINE]
+Speaker593: You're~not~getting~divorced?  
+~           ihr~lasst~euch~nicht~scheiden 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker1187: Oh, we're~still~getting~divorced      d].
+~            oh  wir~lassen~uns~immer~noch~scheiden   
+- buying furniture
+~ kaufen Möbel    
+- eating~lunch   
+~ essen~zu~Mittag
++ getting~divorced   
+~ lassen~uns~scheiden
+
+[LINE]
+Speaker295: We  had    a    terrible   marriage.
+~           wir hatten eine furchtbare Ehe      
+
+[LINE]
+Speaker1187: But  we  have  a    great      bakery!  
+~            aber wir haben eine großartige Bäckerei 
+
+[LINE]
+Speaker593: So   you're~not~selling~it~anymore?
+~           also verkauft~ihr~sie~nicht~mehr   
+
+[LINE]
+Speaker1187: No.   But  you can    always come~back    for some     cookies!
+~            nein  aber du  kannst immer  zurückkommen für ein~paar Kekse   
+
+[MULTIPLE_CHOICE]
+> Warum haben Josh und Jane sich dazu entschlossen, die Bäckerei nicht zu verkaufen?
++ Ihnen ist klar geworden, dass ihre Bäckerei großartig ist.
+- Sie denken, dass Vikram kein guter Bäcker ist.
+- Sie wollen sich nun doch nicht scheiden lassen.
+
+[MATCH]
+> Wähle die Paare
+- for <> für
+- bakery <> Bäckerei
+- Jane <> Jane
+- you <> ihr
+- I'll <> ich werde
+
