@@ -1,0 +1,88 @@
+[DATA]
+fromLanguageName=I Need a Game
+icon=a43844440848298947d074c3ba21224c4b7265c3
+set=3|3
+
+[HEADER]
+> Preciso~de um jogo
+~ I~need     a  game
+
+[LINE]
+> Júnior e   Eddy estão em uma loja. 
+~ Júnior and Eddy are   in a   store 
+
+[LINE]
+Speaker415: Papai! Eu preciso~de um jogo~de~videogame~novo!
+~           dad    I  need       a  new~video~game         
+
+[LINE]
+Speaker414: Júnior, você não~precisa~de um jogo~de~videogame~novo.
+~           Júnior  you  don't~need     a  new~video~game         
+
+[MULTIPLE_CHOICE]
+> Júnior's dad wants to buy a new video game.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker415: Por~favor, papai! Esse jogo~de~robôs é  muito legal!
+~           please     dad    that robot~game    is very  cool  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Júnior, você quer o   jogo, mas você [não~precisa~dele].
+~           Júnior  you  want the game  but you   don't~need~it     
++ não precisa dele
+- na precisão deles
+- não preciso de
+
+[LINE]
+Speaker415: Tudo~bem!  Eu quero o   jogo. Você~pode~comprar, por~favor?
+~           all~right  I  want  the game  can~you~buy~it     please    
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "home."
+Speaker414: (Não), Júnior. (Você) (tem)  muitos jogos em (+casa)!
+~            no    Júnior   you    have  many   games at   home  
+
+[LINE]
+Speaker415: Você~está~certo. Vamos~pra~casa.
+~           you're~right     let's~go~home  
+
+[LINE]
+Speaker414: Não, agora vamos        para a~casa~do~Vikram.
+~           no   now   we~are~going to   Vikram's~house   
+
+[CONTINUATION]
+> What comes next?
+Speaker415: Não! Eu não~gosto~da [casa~dele]!
+~           no   I  don't~like    his~house  
+- jogo~de~videogame
+~ video~game       
+- maçã~verde 
+~ green~apple
++ casa~dele
+~ his~house
+
+[LINE]
+Speaker414: Mas a~televisão~dele é  grande, e   eu preciso ver    o   jogo~de~futebol.
+~           but his~television   is big     and I  need    to~see the soccer~game     
+
+[LINE]
+Speaker415: Papai, você não~precisa ver    o   jogo. Você quer ver    o   jogo.
+~           dad    you  don't~need  to~see the game  you  want to~see the game 
+
+[MULTIPLE_CHOICE]
+> How funny! Both Eddy and Júnior…
+- …play video games with Vikram.
++ …say they need something when they only want it.
+- …fly around on robots.
+
+[MATCH]
+> Tap the pairs
+- não precisa dele <> don't need it
+- a casa do Vikram <> Vikram's house
+- loja <> store
+- estão <> are
+- não precisa de <> don't need
+
