@@ -1,0 +1,106 @@
+[DATA]
+fromLanguageName=Sari's Favorite Band
+icon=8809c44c2194d282a6e1573d25dcac12b6132022
+set=17|3
+
+[HEADER]
+> Saris  Lieblingsband
+~ Sari's favorite~band
+
+[LINE]
+> Lilli und Sari sind in~der~Schule.
+~ Lilli and Sari are  at~school     
+
+[LINE]
+Speaker418: Du,  Lilli? Kannst du  mir~helfen?
+~           you  Lilli  can    you help~me    
+
+[LINE]
+Speaker416: Vielleicht.
+~           maybe      
+
+[LINE]
+Speaker418: Ich kann heute nicht zum~Schwimmen~kommen.
+~           I   can  today not   come~to~swimming     
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker418: Ich bin total   krank. Kannst du  das  [dem~Lehrer~sagen]?
+~           I   am  totally sick   can    you that  tell~the~teacher  
+- den Lehrer fragen
+- schwer ertragen
++ dem Lehrer sagen
+
+[ARRANGE]
+> Tap what you hear
+Speaker416: [(Du)  (siehst) (nicht) (krank) (aus).]
+~             you   look     not     sick    ~     
+
+[LINE]
+Speaker418: Aber ich habe ein Attest    von  meinem Arzt.   Hier.
+~           but  I   have a   sick~note from my     doctor  here 
+
+[LINE]
+> Sari zeigt Lilli das Attest.   
+~ Sari shows Lilli the sick~note 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "handwriting."
+Speaker416: (Das)  ist (deine) (+Handschrift), (Sari).
+~            that  is   your     handwriting    Sari  
+
+[LINE]
+Speaker418: Was?  Nein!
+~           what  no   
+
+[LINE]
+Speaker416: Sari, ich kenne dich. Du  kannst~nicht lügen.
+~           Sari  I   know  you   you cannot       lie   
+
+[LINE]
+Speaker416: Also, warum die Ausrede?
+~           so    why   the excuse  
+
+[LINE]
+Speaker418: OK, OK! Heute spielt~meine~Lieblingsband  im~Einkaufszentrum. Die City~Boys!
+~           OK  OK  today my~favorite~band~is~playing at~the~mall         the City~Boys 
+
+[MULTIPLE_CHOICE]
+>  Sari wants to tell the teacher that she is sick, but really…
+- …she is going shopping for a new dress.
+- …she just wants to sleep.
++ …she is going to see a band play at the mall.
+
+[CONTINUATION]
+> What comes next?
+Speaker416: Sorry, ich kann~dir~nicht~helfenn].
+~           sorry  I   can't~help~you          
+- keine~Turnschuhe~kochen
+~ cook~no~sneakers       
+- Elefanten~putzen
+~ clean~elephants 
++ nicht helfen
+~ not   help  
+
+[LINE]
+Speaker418: Es~tut~mir~leid, dass ich gelogen~habe.
+~           I'm~sorry        that I   have~lied    
+
+[LINE]
+Speaker416: Das~ist~mir~egal. Ich kann~dir~nicht~helfen, weil    die City~Boys furchtbar~sind!
+~           I~don't~care      I   can't~help~you         because the City~Boys are~terrible   
+
+[MULTIPLE_CHOICE]
+> Lilli thinks the City Boys are a terrible band, so…
+- …she is writing a letter to complain.
+- …she wants to start a band with Sari.
++ …she won't tell the teacher that Sari is sick.
+
+[MATCH]
+> Tap the pairs
+- dem Lehrer sagen <> tell the teacher
+- zum Schwimmen kommen <> come to swimming
+- lügen <> lie
+- sind <> are
+- und <> and
+
