@@ -1,0 +1,92 @@
+[DATA]
+fromLanguageName=Posso averlo?
+icon=ce0ae956035c1bac6b9c64737466d59c5d027e97
+set=3|3
+
+[HEADER]
+> Can~I~Have~It?    
+~ (io)~posso~averlo 
+
+[LINE]
+> Junior and Eddy are  at~the mall.              
+~ Junior e   Eddy sono al     centro~commerciale 
+
+[LINE]
+Speaker415: Dad!  I~need             a  new   video~game!
+~           papà  (io)~ho~bisogno~di un nuovo videogioco 
+
+[LINE]
+Speaker414: You~don't~need          a  new   video~game.
+~           (tu)~non~hai~bisogno~di un nuovo videogioco 
+
+[MULTIPLE_CHOICE]
+> Il papà di Junior vuole comprare un nuovo videogioco.
++ No, è sbagliato.
+- Sì, è giusto.
+
+[LINE]
+Speaker415: Please?     There's a  flying~robot  in this   game! 
+~           per~favore  c'è     un robot~volante in questo gioco 
+
+[SELECT_PHRASE]
+> Seleziona la frase mancante
+Speaker414: Junior. You~want  this   game,  but [you~don't~need~it].      
+~           Junior  (tu)~vuoi questo gioco  ma   (tu)~non~ne~hai~bisogno  
+- you won't read it
++ you don't need it
+- we don't eat it
+
+[LINE]
+Speaker415: OK! I  want   this   game.  Now    can~I~have~it?    
+~           OK  io voglio questo gioco  adesso (io)~posso~averlo 
+
+[CONTINUATION]
+> Come continua la frase?
+Speaker414: No, you~have video~games     [at home]!
+~           no  (tu)~hai dei~videogiochi  a  casa  
+- in~the refrigerator
+~ nel    frigorifero 
++ at home
+~ a  casa
+- in~the shower
+~ nella  doccia
+
+[LINE]
+Speaker415: You're~right.
+~           hai~ragione  
+
+[ARRANGE]
+> Seleziona ciò che senti
+Speaker415: [(So)     (can~we)         (go~home)?]      
+~             allora   (noi)~possiamo   andare~a~casa   
+
+[LINE]
+Speaker414: No, we~are~going         to Vikram's~house.
+~           no  (noi)~stiamo~andando a  casa~di~Vikram 
+
+[LINE]
+Speaker415: Ugh!  His~house is boring!
+~           uffa  casa~sua  è  noiosa 
+
+[LINE]
+Speaker414: But his    TV is big,    and I  need          to~watch the football~game.      
+~           ma  la~sua TV è  grande  e   io ho~bisogno~di guardare la  partita~di~football 
+
+[LINE]
+Speaker415: You~don't~need          to~watch the game,    Dad.  You want to~watch~it.
+~           (tu)~non~hai~bisogno~di guardare la  partita  papà  tu  vuoi guardarla   
+
+[MULTIPLE_CHOICE]
+> Che ridere! Sia Eddy che Junior...
+- … volano su dei robot.
+- … giocano ai videogiochi con Vikram.
++ ... dicono che hanno bisogno di qualcosa, ma la vogliono soltanto.
+
+[MATCH]
+> Tocca le coppie
+- new <> nuovo
+- video games <> dei videogiochi
+- mall <> centro commerciale
+- a <> un
+- video game <> videogioco
+
