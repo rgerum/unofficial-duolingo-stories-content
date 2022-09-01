@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=Trovi la mia ragazza
+icon=0d18f0403cfa415591d7ef50a9e9c01f1094936e
+set=3|4
+
+[HEADER]
+> Find  My     Girlfriend
+~ trovi la~mia ragazza   
+
+[LINE]
+> Bea is at~the~airport.
+~ Bea è  all'aeroporto  
+
+[LINE]
+> She~talks~to    the~man at~the desk.              
+~ (lei)~parla~con l'uomo  al     banco~del~check-in 
+
+[LINE]
+Speaker823: Hello! Can~I~help~you?     
+~           salve  (io)~posso~aiutarla 
+
+[LINE]
+Speaker507: Yes! I'm~going        to Barcelona… 
+~           sì   (io)~sto~andando a  Barcellona 
+
+[LINE]
+Speaker507: I~want      to~sit  next~to~my       girlfriend on~the~plane.
+~           (io)~voglio sedermi accanto~alla~mia ragazza    sull'aereo   
+
+[MULTIPLE_CHOICE]
+> Bea vuole sedersi accanto a sua madre sull'aereo.
++ No, è sbagliato.
+- Sì, è giusto. 
+
+[LINE]
+Speaker823: OK, we~have       two seats~together.
+~           OK  (noi)~abbiamo due posti~vicini   
+
+[MULTIPLE_CHOICE]
+> L'addetto al check-in dice a Bea che…
++ ... ci sono due posti vicini sull'aereo.
+- … non ci sono posti liberi sull'aereo.
+- … ci sono solo due posti sull'aereo.
+
+[LINE]
+Speaker507: Great! 
+~           ottimo 
+
+[LINE]
+Speaker823: Um…  where~is your   girlfriend?
+~           uhm  dov'è    la~sua ragazza    
+
+[POINT_TO_PHRASE]
+> Seleziona l'opzione che significa "trovarla".
+Speaker507: (I~don't~know).   (Can~you~help~me)      (+find~her)?
+~            (io)~non~lo~so    (lei)~può~aiutarmi~a    trovarla  
+
+[LINE]
+Speaker823: What~does~she~look~like?
+~           che~aspetto~ha~(lei)    
+
+[LINE]
+Speaker507: Hmm. She~is  tall. She~has  dark~hair…      
+~           uhm  (lei)~è alta  (lei)~ha i~capelli~scuri 
+
+[LINE]
+Speaker823: OK.
+~           OK 
+
+[LINE]
+Speaker507: She~loves sports    and cooking… 
+~           (lei)~ama gli~sport e   cucinare 
+
+[LINE]
+Speaker823: Uh… 
+~           ehm 
+
+[LINE]
+Speaker507: She~loves animals…     but she~drives  too    fast.  
+~           (lei)~ama gli~animali  ma  (lei)~guida troppo veloce 
+
+[LINE]
+Speaker823: OK… What~is~her~name?
+~           OK  come~si~chiama   
+
+[MULTIPLE_CHOICE]
+> Perché l'addetto al check-in fa domande sulla ragazza di Bea?
++ Sta cercando di aiutare Bea a trovarla.
+- Vuole allenarsi con lei.
+- Lui e Bea sono ottimi amici.
+
+[LINE]
+Speaker507: Oh. I~don't~know.  
+~           oh  (io)~non~lo~so 
+
+[SELECT_PHRASE]
+> Seleziona la frase mancante
+Speaker823: You~don't~know [your~girlfriend's~name]?   
+~           (lei)~non~sa    il~nome~della~sua~ragazza  
+- your good friends' names
++ your girlfriend's name
+- your girlfriend's game
+
+[LINE]
+Speaker507: I~don't~have a   girlfriend yet.   
+~           (io)~non~ho  una ragazza    ancora 
+
+[LINE]
+Speaker507: Can~you~help~me    find~one?      
+~           (lei)~può~aiutarmi a~trovarne~una 
+
+[MULTIPLE_CHOICE]
+> Bea vuole sedersi accanto a qualcuno che...
++ … possa diventare la sua ragazza.
+- … lavora all'aeroporto.
+- … russa molto forte.
+
+[MATCH]
+> Tocca le coppie
+- at the airport <> all'aeroporto
+- She loves <> ama
+- next to my <> accanto alla mia
+- animals <> gli animali
+- too <> troppo
+
