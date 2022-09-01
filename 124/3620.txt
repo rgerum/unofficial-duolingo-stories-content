@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=Une urgence
+icon=7e5d8724d525fd56e3abc838f2849ae269ebefd5
+set=14|1
+
+[HEADER]
+> An  Emergency
+~ une urgence  
+
+[LINE]
+> Junior is  at~a pool    with his father, Eddy.
+~ Junior est à~la piscine avec son père    Eddy 
+
+[LINE]
+> He runs  to   the lifeguard.     
+~ il court vers la  maître-nageuse 
+
+[LINE]
+Speaker415: Help!     Lifeguard!     
+~           à~l'aide  maître-nageuse 
+
+[LINE]
+Speaker415: My  father needs~help!     
+~           mon père   a~besoin~d'aide 
+
+[LINE]
+Speaker856: Is~he~drowning?             
+~           il~est~en~train~de~se~noyer 
+
+[MULTIPLE_CHOICE]
+> Pourquoi la maître-nageuse est-elle inquiète ?
++ Elle pense qu'Eddy est en train de se noyer.
+- Elle a peur des enfants.
+- Junior est en train de se noyer.
+
+[LINE]
+Speaker415: No,  it's  my~father's~swimsuit.          
+~           non  c'est le~maillot~de~bain~de~mon~père 
+
+[LINE]
+Speaker856: I  don't~understand…
+~           je ne~comprends~pas 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « maillot de bain ».
+Speaker415: (His) (new)     (+swimsuit)        is  too  (small).
+~            son   nouveau    maillot~de~bain  est trop  petit  
+
+[LINE]
+Speaker415: It looks   really   bad,      but  he won't~listen~to~me! 
+~           ça a~l'air vraiment horrible  mais il refuse~de~m'écouter 
+
+[LINE]
+Speaker856: Sorry,   but  lifeguards          help   with emergencies. 
+~           désolée  mais les~maîtres-nageurs aident avec les~urgences 
+
+[MULTIPLE_CHOICE]
+> La maître-nageuse dit qu'elle ne peut aider qu'avec...
++ … les urgences.
+- … les pères.
+- … les maillots de bain.
+
+[LINE]
+Speaker415: This~is an  emergency! Look!    
+~           c'est   une urgence    regardez 
+
+[LINE]
+> The lifeguard      looks~at Eddy.
+~ la  maître-nageuse regarde  Eddy 
+
+[LINE]
+Speaker856: No! 
+~           non 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker856: You're~right. That swimsuit        is  [too~small]! 
+~           tu~as~raison  ce   maillot~de~bain est  trop~petit  
+- to the mall
+- do it all
++ too small
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « crie ».
+> (The) (lifeguard)      (+shouts) at (Eddy).
+~  la    maître-nageuse    crie    à   Eddy  
+
+[LINE]
+Speaker856: Excuse~me,   sir!      I'm~coming to~help~you!
+~           excusez-moi  monsieur  je~viens   vous~aider  
+
+[LINE]
+> The lifeguard      runs  to   Eddy with a   big,    red~towel.      
+~ la  maître-nageuse court vers Eddy avec une grande  serviette~rouge 
+
+[LINE]
+Speaker414: What~is~it?!         
+~           qu'est-ce~qu'il~y~a  
+
+[LINE]
+Speaker856: Sir,      please          wear   this  towel.     It's  an  emergency.
+~           monsieur  s'il~vous~plaît portez cette serviette  c'est une urgence   
+
+[MULTIPLE_CHOICE]
+> Quelle est l'urgence ?
+- Eddy ne sait pas nager.
++ Le maillot de bain d'Eddy est trop petit.
+- Junior a oublié sa serviette.
+
+[MATCH]
+> Choisis les paires
+- needs help <> a besoin d'aide
+- small <> petit
+- it's <> c'est
+- bad <> horrible
+- new <> nouveau
+
