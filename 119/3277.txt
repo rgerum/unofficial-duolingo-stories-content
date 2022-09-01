@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=A Nice Old Lady
+icon=a3a88fe54b5876a11f13ae4aff6eb110b6a55347
+set=27|4
+
+[HEADER]
+> Eine nette alte Dame
+~ a    nice  old  lady
+
+[LINE]
+> Lilli arbeitet im~Kaufhaus.            
+~ Lilli works    at~the~department~store 
+
+[LINE]
+> Sie folgt        einer eleganten alten Dame, die gerade~den~Laden~verlässt.
+~ she is~following an    elegant   old   lady  who is~just~leaving~the~store 
+
+[LINE]
+Speaker416: Entschuldigung, haben Sie gerade eine Bluse  in Ihre Handtasche gesteckt?
+~           excuse~me       have  you just   a    blouse in your purse      put      
+
+[LINE]
+Speaker528: In meine Handtasche? Nein.
+~           in my    purse       no   
+
+[LINE]
+Speaker416: Doch.          Ich habe Sie~gesehen.
+~           yes,~you~have  I   have seen~you    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker528: Oh, [diese~Bluse]?
+~           oh   this~blouse  
+- diese Blumen
+- Lisas Bluse
++ diese Bluse
+
+[LINE]
+Speaker528: Ich habe vergessen, zur~Kasse~zu~gehen.         Ich bin nicht mehr~die~Jüngste,     wissen~Sie?
+~           I   have forgotten  to~go~to~the~cash~register  I   am  not   the~youngest~anymore  you~know   
+
+[MULTIPLE_CHOICE]
+> Why does the woman say she didn't pay for the blouse?
++ She is old and has a bad memory.
+- She doesn't want the blouse.
+- The blouse is the wrong size.
+
+[LINE]
+Speaker416: Ist das  ein Schal in Ihrer Handtasche?
+~           is  that a   scarf in your  purse      
+
+[LINE]
+Speaker528: Ups! 
+~           oops 
+
+[LINE]
+Speaker416: Können Sie bitte  Ihre~Tasche~ausleeren?
+~           can    you please empty~your~bag        
+
+[LINE]
+> Die Frau  holt  einen Schal, einen Gürtel und ein Armband  aus    der Tasche.
+~ the woman takes a     scarf  a     belt   and a   bracelet out~of the bag    
+
+[LINE]
+Speaker416: Wollten~Sie       das~alles~stehlen?
+~           Were~you~going~to steal~all~of~this 
+
+[LINE]
+Speaker528: Ja!  Ich liebe~es zu~stehlen! Es ist so aufregend!
+~           yes  I   love     stealing    it is  so exciting  
+
+[POINT_TO_PHRASE]
+> Choose the option that means "bored."
+Speaker528: Ich lebe (allein)    und (mir~ist) oft   (+langweilig). Eines Tages (werden~Sie) mich~verstehen ...
+~           I   live  on~my~own  and  I~am     often   bored        one   day    you~will    understand~me     
+
+[LINE]
+Speaker528: Darf ich jetzt~gehen? Ich bin so   eine nette alte Dame.
+~           can  I   go~now       I   am  such a    nice  old  lady 
+
+[LINE]
+Speaker416: Sind~Sie~das?
+~           are~you      
+
+[LINE]
+Speaker528: Nicht wirklich. Aber Sie können mich~gehen~lassen, weil    Sie eine~nette~junge~Dame~sind.
+~           not   really    but  you can    let~me~go          because you are~a~nice~young~lady      
+
+[MULTIPLE_CHOICE]
+> Why does the lady tell Lilli she is nice?
++ She wants Lilli to let her leave.
+- She wants Lilli to go shopping with her.
+- She thinks Lilli is her granddaughter.
+
+[LINE]
+Speaker416: Gut,  gehen~Sie. Aber erzählen~Sie~niemandem, dass ich nett~bin.
+~           fine  go         but  don't~tell~anyone       that I   am~nice  
+
+[LINE]
+Speaker528: OK! Danke!     Tschüss!
+~           OK  thank~you  bye     
+
+[LINE]
+> Die Dame nimmt ihre Handtasche und verlässt den Laden.
+~ the lady takes her  purse      and leaves   the store 
+
+[LINE]
+> Plötzlich läuft Lillis  Chef zu ihr.
+~ suddenly  runs  Lilli's boss to her 
+
+[CONTINUATION]
+> What comes next?
+Speaker113: Haben Sie die Dame [gehen~lassen]?
+~           have  you the lady  let~go        
++ gehen~lassen
+~ let~go      
+- gebaut
+~ built 
+- zum~Hotel~gebracht  
+~ brought~to~the~hotel
+
+[LINE]
+Speaker416: Natürlich. Warum nicht?
+~           of~course  why   not   
+
+[LINE]
+Speaker113: Sie hat gerade eine Handtasche für fünfhundert  Euro  gestohlen!
+~           she has just   a    purse      for five~hundred euros stolen    
+
+[MULTIPLE_CHOICE]
+> Uh oh! Why is Lilli's boss so angry?
+- Lilli told the lady to steal things.
+- Lilli stole an expensive purse.
++ The lady stole an expensive purse.
+
+[MATCH]
+> Tap the pairs
+- Tasche <> bag
+- das alles stehlen <> steal all of this
+- Ups <> oops
+- vergessen <> forgotten
+- fünfhundert <> five hundred
+
