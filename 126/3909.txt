@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=A receita da avó
+icon=f846bda2ef7cfcb2a7b491fdab26521cbd7b480d
+set=26|2
+
+[HEADER]
+> Grandmother's~Recipe
+~ a~receita~da~avó    
+
+[LINE]
+> Vikram walks~into~Eddy's~apartment. 
+~ Vikram entra~no~apartamento~de~Eddy 
+
+[LINE]
+Speaker414: Hi Vikram, where's~Priti?    
+~           oi Vikram  onde~está~a~Priti 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker593: She's    at work,     but [she'll~be~here~soon].     
+~           ela~está no trabalho  mas  ela~estará~aqui~em~breve  
+- she'll be near the moon
+- we'll be weird soon
++ she'll be here soon
+
+[LINE]
+Speaker593: Thank~you for inviting~us  to   dinner.  
+~           obrigado  por nos~convidar para o~jantar 
+
+[LINE]
+Speaker414: You're~welcome! You  and Priti cook     dinner   for  me  often.         
+~           de~nada         você e   Priti cozinham o~jantar para mim frequentemente 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker414: So    now   [I'm~going~to~cook for  you]!  
+~           então agora  eu~vou~cozinhar   para vocês  
+- we're~going to~take~a~nap   
+~ nós~vamos   tirar~uma~soneca
++ I'm~going~to~cook for  you 
+~ eu~vou~cozinhar   para você
+- I'm~going to the park  
+~ eu~vou    ~  o   parque
+
+[LINE]
+Speaker593: You're~cooking?!       Uh… it~smells…       interesting. 
+~           você~está~cozinhando   hã  está~com~cheiro  interessante 
+
+[LINE]
+Speaker414: Thanks!   I'm~making       Priti's~favorite~meal.       
+~           obrigado  eu~estou~fazendo a~refeição~favorita~da~Priti 
+
+[LINE]
+Speaker593: Really? It's  very  difficult  to~make…
+~           sério   ela~é muito difícil~de fazer   
+
+[MULTIPLE_CHOICE]
+> O Vikram parece preocupado. Por quê?
+- Ele percebeu que a cozinha do Eddy está pegando fogo.
+- O prato favorito da Priti é muito fácil de fazer.
++ Ele não sabe se o Eddy consegue fazer o prato corretamente.
+
+[LINE]
+> Vikram looks~at  the food   on~the stove.
+~ Vikram olha~para a   comida no     fogão 
+
+[LINE]
+Speaker593: Which kind of rice  did~you~use?
+~           qual  tipo de arroz você~usou   
+
+[ARRANGE]
+> Toque no que escutar
+Speaker414: [(There~are) (different)  (kinds) (of) (rice)?] 
+~             há          diferentes   tipos   de   arroz   
+
+[LINE]
+> Vikram tastes the food.  
+~ Vikram prova  a   comida 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "estranho".
+Speaker593: Oh no.  (This) (tastes)…         a  (little) (+strange). 
+~           ah não   isto   está~com~gosto   um  pouco     estranho  
+
+[LINE]
+Speaker414: Can~you~help~me?    
+~           você~pode~me~ajudar 
+
+[LINE]
+Speaker593: Maybe…  I  need       four   tomatoes, some    onions,  and a~lot~of garlic.
+~           talvez  eu preciso~de quatro tomates   algumas cebolas  e   muito    alho   
+
+[LINE]
+Speaker414: I  don't~have those things.
+~           eu não~tenho  essas coisas 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker593: OK.    Then  [we~need~your~phone].            
+~           certo  então  nós~precisamos~do~seu~telefone  
+- we meet your own
+- we'll read your phone
++ we need your phone
+
+[LINE]
+> Later,      Eddy, Vikram, and Priti are~eating~dinner.
+~ mais~tarde  Eddy  Vikram  e   Priti estão~jantando    
+
+[LINE]
+Speaker560: Wow, Eddy, this is   so  good! It~tastes      just~like    my~grandmother's~recipe!
+~           uau  Eddy  isto está tão bom   está~com~gosto igualzinho~à receita~da~minha~avó    
+
+[LINE]
+Speaker414: Thanks!   I  ordered~it from~the restaurant  myself!  
+~           obrigado  eu pedi~ela   do       restaurante eu~mesmo 
+
+[MULTIPLE_CHOICE]
+> Por que o jantar ficou tão delicioso?
+- O Vikram adicionou bastante alho.
+- O Eddy é um ótimo cozinheiro.
++ O Eddy pediu a comida.
+
+[MATCH]
+> Toque nos pares
+- some <> algumas
+- for <> por
+- things <> coisas
+- need <> preciso de
+- There are <> há
+
