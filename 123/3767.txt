@@ -1,0 +1,119 @@
+[DATA]
+fromLanguageName=¿Dónde están mis llaves?
+icon=3f21c887f044dc2ac0d1f0d0ea74e1200b587ac2
+set=8|2
+
+[HEADER]
+> Où    sont  mes clés   ?
+~ dónde están mis llaves  
+
+[LINE]
+> Lin est  avec sa grand-mère, Lucie.
+~ Lin está con  su abuela      Lucie 
+
+[LINE]
+Speaker509: Nous     avons   une réservation dans un restaurant  chic     ce~soir    !
+~           nosotras tenemos una reserva     en   un restaurante elegante esta~noche  
+
+[LINE]
+Speaker509: Mais nous~devons partir maintenant !
+~           pero tenemos~que irnos  ahora       
+
+[MULTIPLE_CHOICE]
+> Lin y Lucie tienen mucho tiempo para llegar al restaurante.
++ No, no es así.
+- Sí, así es.
+
+[LINE]
+Speaker508: OK        !
+~           está~bien  
+
+[LINE]
+Speaker508: Oh, non ! Où    sont  les clés   de ma moto        ?
+~           ay  no    dónde están las llaves de mi motocicleta  
+
+[LINE]
+Speaker509: Tu ne~sais~jamais où    sont  tes clés.  
+~           tú nunca~sabes    dónde están tus llaves 
+
+[MULTIPLE_CHOICE]
+> Lin nunca…
+- … sabe qué ponerse para salir a cenar.
++ … encuentra sus llaves.
+- … ha intentado conducir una motocicleta.
+
+[LINE]
+Speaker509: Dans ta veste    ?
+~           en   tu chaqueta  
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "mira".
+> (Lin) (+regarde) (dans) sa (veste).   
+~  Lin    mira      en    su  chaqueta  
+
+[LINE]
+Speaker508: Non, elles~ne~sont~pas dans ma veste.   
+~           no   no~están          en   mi chaqueta 
+
+[LINE]
+Speaker509: Sur la porte  ?
+~           en  la puerta  
+
+[LINE]
+Speaker508: Non, elles~ne~sont~pas sur la porte  !
+~           no   no~están          en  la puerta  
+
+[LINE]
+Speaker509: Dans la douche ?
+~           en   la ducha   
+
+[LINE]
+Speaker508: Non, c'est trop      bizarre.
+~           no   es    demasiado extraño 
+
+[LINE]
+Speaker508: Je ne~sais~pas où    sont  mes clés.   Nous     pouvons prendre un taxi ?
+~           yo no~sé       dónde están mis llaves  nosotras podemos tomar   un taxi  
+
+[CONTINUATION]
+> ¿Qué sigue？
+Speaker509: Non, maintenant il~est trop      tard  [pour aller au restaurant]. 
+~           no   ahora      es     demasiado tarde  para ir    al restaurante  
++ pour aller au restaurant 
+~ para ir    al restaurante
+- pour trouver ta veste   
+~ para buscar  tu chaqueta
+- pour prendre une douche
+~ para tomar   una ducha 
+
+[LINE]
+Speaker508: Je~suis~désolée.
+~           lo~siento       
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker509: [(Je) (peux)  (préparer) (le~dîner) ]!
+~             yo   puedo   preparar   la~cena     
+
+[LINE]
+> Lucie ouvre le~frigo. 
+~ Lucie abre  la~nevera 
+
+[LINE]
+Speaker509: Oh ! Tes clés   !
+~           ay   tus llaves  
+
+[MULTIPLE_CHOICE]
+> ¡Por fin! Las llaves de Lin estaban en…
++ … la nevera.
+- … sus zapatos.
+- … su motocicleta.
+
+[MATCH]
+> Selecciona los pares
+- bizarre <> extraño
+- Lin <> Lin
+- pour <> para
+- un <> un
+- Nous <> nosotras
+
