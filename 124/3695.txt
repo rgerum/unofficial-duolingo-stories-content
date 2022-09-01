@@ -1,0 +1,157 @@
+[DATA]
+fromLanguageName=Garde d'oiseau
+icon=bec6ac06369ced77777ad5151e3a385213c413b8
+set=32|4
+
+[HEADER]
+> Bird~Sitting  
+~ garde~d'oiseau
+
+[LINE]
+> Lin is  on~the phone     with her friend, Garrett.
+~ Lin est au     téléphone avec son ami     Garrett 
+
+[LINE]
+Speaker508: Hi,    Garrett!
+~           salut  Garrett 
+
+[LINE]
+Speaker508: Are~you~coming~home tomorrow or on~Tuesday?
+~           tu~rentres          demain   ou mardi      
+
+[LINE]
+Speaker7: Tomorrow.
+~         demain   
+
+[LINE]
+Speaker7: Thank~you~for taking~care~of my house  and my     bird!  
+~         merci~de      t'occuper~de   ma maison et  de~mon oiseau 
+
+[MULTIPLE_CHOICE]
+> Lin s'occupe de l'oiseau de son ami en son absence.
+- Non, c'est faux.
++ Oui, c'est vrai.
+
+[LINE]
+Speaker508: You're~welcome.
+~           de~rien        
+
+[LINE]
+Speaker7: Is~everything~OK at the house? 
+~         tout~va~bien     à  la  maison 
+
+[LINE]
+Speaker508: Well,    I~have bad~news.             
+~           eh~bien  j'ai   une~mauvaise~nouvelle 
+
+[LINE]
+Speaker508: Your bird   flew~out~of      the window. 
+~           ton  oiseau s'est~envolé~par la  fenêtre 
+
+[LINE]
+Speaker7: What?!
+~         quoi  
+
+[LINE]
+Speaker508: The cage~door        was   open.   
+~           la  porte~de~la~cage était ouverte 
+
+[MULTIPLE_CHOICE]
+> Qu'est-ce qui était ouvert ?
++ la cage
+- la douche
+- le frigo
+
+[LINE]
+Speaker7: How     did~that~happen?
+~         comment c'est~arrivé    
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker508: [(It~opened)          (when)  (the~cage) (fell).]      
+~             elle~s'est~ouverte   quand   la~cage    est~tombée   
+
+[LINE]
+Speaker7: What?! Why      did~it~fall?    
+~         quoi   pourquoi elle~est~tombée 
+
+[LINE]
+Speaker508: Well,    your bed fell~through the floor    and hit      the cage.
+~           eh~bien  ton  lit a~traversé   le  plancher et  a~heurté la  cage 
+
+[LINE]
+Speaker7: My  bed fell~through the floor?!   
+~         mon lit a~traversé   le  plancher  
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker7: [How~did~that~happen]? 
+~          comment~c'est~arrivé  
+- Who do they have then
+- How did that open
++ How did that happen
+
+[LINE]
+Speaker508: Well,    there~was  a~lot    of~water on~the~floor.
+~           eh~bien  il~y~avait beaucoup d'eau    par~terre    
+
+[LINE]
+Speaker7: Water?    Why      was~there  so~much   water?
+~         de~l'eau  pourquoi il~y~avait tellement d'eau 
+
+[LINE]
+Speaker508: Well,    I~used       water    to~stop      the~fire.  
+~           eh~bien  j'ai~utilisé de~l'eau pour~arrêter l'incendie 
+
+[LINE]
+Speaker7: You started     a  fire?!    
+~         tu  as~provoqué un incendie  
+
+[LINE]
+Speaker508: But  only      on~the second~floor.  
+~           mais seulement au     deuxième~étage 
+
+[LINE]
+Speaker7: What          did~you~do?!
+~         qu'est-ce~que tu~as~fait  
+
+[LINE]
+Speaker508: I  think     it~was  because~of~the meditation~candles.   
+~           je pense~que c'était à~cause~des    bougies~de~méditation 
+
+[MULTIPLE_CHOICE]
+> Quelle était la cause de l'incendie ?
+- une nuée d'oiseaux
++ des bougies de méditation
+- les bougies d'anniversaire de Lin
+
+[LINE]
+Speaker7: Meditation~candles?       
+~         des~bougies~de~méditation 
+
+[LINE]
+Speaker508: Oh~yeah, I~started       taking  meditation~classes!     
+~           ah~oui   j'ai~commencé~à prendre des~cours~de~méditation 
+
+[LINE]
+Speaker508: Anyway,       I  can~take~care  of your house  next~month       too...  
+~           (enfin)~bref  je peux~m'occuper de ta   maison le~mois~prochain aussi   
+
+[LINE]
+Speaker508: Hello? Garrett, are~you still  there?
+~           allô   Garrett  tu~es   encore là    
+
+[MULTIPLE_CHOICE]
+> Pourquoi Garrett a-t-il raccroché ?
++ Il est énervé parce que Lin a détruit sa maison.
+- Il doit aller au cours de méditation de Lin.
+- Il n'est pas content parce que Lin a volé son oiseau.
+
+[MATCH]
+> Choisis les paires
+- fire <> incendie
+- think <> pense que
+- second floor <> deuxième étage
+- cage <> cage
+- Hello <> allô
+
