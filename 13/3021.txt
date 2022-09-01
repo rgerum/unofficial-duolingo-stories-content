@@ -1,0 +1,210 @@
+[DATA]
+fromLanguageName=Is Your Wifi Working?
+icon=074a5ab61a047d40fdd7079e2fa37bf394a2fbbf
+set=60|4
+
+[HEADER]
+> Ton  wi-fi fonctionne ?
+~ your wifi  is~working  
+
+[LINE]
+> Il~est~tard. La~voisine~d'Eddy, Béa, frappe~à  la  porte.
+~ it's~late    Eddy's~neighbor    Béa  knocks~on the door  
+
+[LINE]
+Speaker414: Oh, salut, Béa ! Qu'est-ce~que~tu~fais ici  ? Il~est~tard.
+~           ~   hi     Béa   what~are~you~doing    here   it's~late   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: Salut, Eddy. [Je~me~demandais]… est-ce~que~ton~wi-fi~fonctionne ?
+~           hi     Eddy   I~was~wondering   is~your~wifi~working             
++ Je me demandais
+- Je lui ai demandé
+- Je me défendais
+
+[LINE]
+Speaker414: Non ! Comment as-tu~deviné  ?
+~           no    how     did~you~guess  
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker507: Le~mien ne~fonctionne~plus    non~plus. Je voulais~juste~vérifier que  [tout       allait~bien].
+~           mine    isn't~working~anymore either    I  just~wanted~to~check   that  everything was~alright  
+- la  porte s'ouvre
+~ the door  opens  
++ tout       allait~bien
+~ everything was~alright
+- tu  étais en~retard
+~ you were  late     
+
+[LINE]
+Speaker414: Oh, c'est vraiment gentil.
+~           oh  it's  really   nice   
+
+[LINE]
+Speaker507: Je peux entrer       et  essayer~de~réparer ça   ?
+~           I  can  (to)~come~in and try~to~fix         that  
+
+[LINE]
+Speaker414: Maintenant ? Euh, OK.
+~           now          uh   OK 
+
+[LINE]
+> Béa regarde~dans l'appartement~d'Eddy.
+~ Béa looks~around Eddy's~apartment     
+
+[MULTIPLE_CHOICE]
+> Béa est chez~Eddy parce~qu'elle...
+~ Béa is  at~Eddy's because~she     
+- … a~apporté de~la pizza.
+~   brought   some  pizza 
+- … rachète        son canapé.
+~   is~buying~back his couch  
++ … veut  réparer   son wi-fi.
+~   wants to~repair his wifi  
+
+[LINE]
+Speaker507: OK, tu  as~essayé~de~l'éteindre et~de    le~rallumer        ?
+~           OK  you tried~to~turn~it~off    and~(to) to~turn~it~back~on  
+
+[LINE]
+Speaker414: Éteindre    et  rallumer        quoi ?
+~           to~turn~off and to~turn~back~on what  
+
+[LINE]
+Speaker507: Ton  routeur.
+~           your router  
+
+[LINE]
+Speaker414: Mon quoi ?
+~           my  what  
+
+[LINE]
+Speaker507: Laisse~tomber.
+~           forget~it     
+
+[MULTIPLE_CHOICE]
+> Pauvre Eddy, il…
+~ poor   Eddy  he 
+- … a~oublié d'allumer  les lumières.
+~   forgot   to~turn~on the lights   
+- … a~oublié d'acheter un routeur.
+~   forgot   to~buy    a  router  
++ … ne~connait~rien       à     l'informatique.
+~   doesn't~know~anything about IT             
+
+[LINE]
+> Béa regarde  le~routeur~d'Eddy.
+~ Béa looks~at Eddy's~router     
+
+[LINE]
+Speaker414: Tu  sais, les~murs  sont très épais ici.  C'est~peut-être~ça le  problème !
+~           you know  the~walls are  very thick here  that~might~be      the problem   
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker507: Non, ce~n'est~pas~ça~le~problème. D'habitude, il~n'y~a    aucun problème avec ton  wi-fi [dans mon appartement].
+~           no   the~problem~is~not~that      usually     there~isn't any   problem  with your wifi   in   my  apartment    
++ dans mon appartement
+~ in   my  apartment  
+- sur Asgard
+~ on  Asgard
+- supersonique
+~ supersonic  
+
+[LINE]
+Speaker414: Vraiment ?
+~           really    
+
+[LINE]
+Speaker507: Oui, enfin,  je crois.
+~           yes  I~mean  I  think 
+
+[LINE]
+Speaker414: Attends~un~peu. Rappelle-moi pourquoi tu  es  ici  ?
+~           wait~a~minute   remind~me    why      you are here  
+
+[ARRANGE]
+> Tap what you hear
+Speaker507: [(Parce~que) (ton)  (wi-fi) (ne~fonctionne~pas).]
+~             because     your   wifi    isn't~working       
+
+[LINE]
+Speaker507: Et…  mon wi-fi ne~fonctionne~plus    parce~que ton  wi-fi ne~fonctionne~plus.   
+~           and  my  wifi  isn't~working~anymore because   your wifi  isn't~working~anymore 
+
+[LINE]
+Speaker414: Hmm, c'est bizarre.
+~           hmm  it's  weird   
+
+[LINE]
+Speaker507: Eddy, j'utilise ton  wi-fi.
+~           Eddy  I~use     your wifi  
+
+[LINE]
+Speaker414: Quoi ?
+~           what  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: Et  j'étais~en~train~de~regarder un super film,  et  le  wi-fi s'est~arrêté      cinq minutes [avant~la~fin]   !
+~           and I~was~watching               a  great movie  and the wifi  stopped~(working) five minutes  before~the~end   
+- un grand lapin
+- devant la fin
++ avant la fin
+
+[LINE]
+Speaker414: Tu  utilises mon wi-fi ?
+~           you use      my  wifi   
+
+[LINE]
+Speaker507: Oui. Bon,  je peux~m'occuper de ton  wi-fi et  finir~de~regarder mon film  ?
+~           yes  well  I  can~take~care  of your wifi  and finish~watching   my  movie  
+
+[MULTIPLE_CHOICE]
+> Ha ! ha ! En fait, Béa veut  réparer   le~wi-fi~d'Eddy...
+~ ha   ha   in fact  Béa wants to~repair Eddy's~wifi       
+- … parce~qu'Eddy travaille sur Internet.    
+~   because~Eddy  works     on  the~Internet 
+- … pour montrer   des~vidéos à  Eddy.
+~   to   (to)~show videos     to Eddy 
++ … pour~pouvoir    regarder   des~films.
+~   so~that~she~can (to)~watch movies    
+
+[LINE]
+Speaker414: Oui, oui. OK.
+~           yes  yes  OK 
+
+[LINE]
+> Quelqu'un~d'autre frappe~à  la  porte. Eddy va~voir     qui c'est. Lin est devant      la  porte.
+~ someone~else      knocks~on the door   Eddy goes~to~see who it~is  Lin is  in~front~of the door  
+
+[LINE]
+Speaker414: Oh, salut, Lin ! Tu  n'es~pas couchée ? Il~est~tard !
+~           ~   hi     Lin   you are~not  in~bed    it's~late    
+
+[LINE]
+Speaker508: Salut, Eddy. Euh… Je voulais~te~demander… est-ce~que~ton~wi-fi~fonctionne ?
+~           hi     Eddy  uh   I  wanted~to~ask~you    is~your~wifi~working             
+
+[MULTIPLE_CHOICE]
+> On~dirait que  Lin…
+~ it~seems  that Lin 
+- … ne~trouve~pas Béa.
+~   can't~find    Béa 
+- … ne~connait~pas Eddy.
+~   doesn't~know   Eddy 
++ … utilise~aussi le~wi-fi~d'Eddy.
+~   also~uses     Eddy's~wifi     
+
+[MATCH]
+> Tap the pairs
+- j'utilise <> I use
+- qui <> who
+- est <> is
+- s'est arrêté <> stopped
+- salut <> hi
+
