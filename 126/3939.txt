@@ -1,0 +1,161 @@
+[DATA]
+fromLanguageName=A pergunta de segurança
+icon=9558b378d2ca0a3f0626205e03866b3e91153f01
+set=33|4
+
+[HEADER]
+> The Security~Question    
+~ a   pergunta~de~segurança
+
+[LINE]
+> Priti and Vikram are~walking   quickly     down~the~street.
+~ Priti e   Vikram estão~andando rapidamente rua~abaixo      
+
+[LINE]
+Speaker560: I~can't~wait         to~see   this play!
+~           eu~mal~posso~esperar para~ver esta peça 
+
+[LINE]
+Speaker593: Do~you~have   the tickets?  
+~           você~está~com os  ingressos 
+
+[LINE]
+Speaker560: Oh no. 
+~           ah não 
+
+[LINE]
+> Priti stops and looks in~her~purse. 
+~ Priti para  e   olha  na~bolsa~dela 
+
+[LINE]
+Speaker560: I  forgot  them at~home.
+~           eu esqueci eles em~casa 
+
+[MULTIPLE_CHOICE]
+> Eita! Qual é o problema?
+- A Priti não quer ver a peça.
+- Alguém roubou a bolsa da Priti.
++ A Priti esqueceu os ingressos da peça.
+
+[LINE]
+Speaker593: Oh no!  We  don't~have time  to~go   home      and get   them.
+~           ah não  nós não~temos  tempo para~ir para~casa e   pegar eles 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker560: I  was    so  excited to~see   the play. [I've~waited~for~months]!
+~           eu estava tão animada para~ver a   peça   eu~espero~há~meses      
+- I've played here four months
++ I've waited for months
+- Why wait here for months
+
+[LINE]
+Speaker593: Wait…   I  have  the tickets   on my  phone!   
+~           espera  eu tenho os  ingressos no meu telefone 
+
+[LINE]
+Speaker593: Hmm… I  have~to~log~into    my    account, but I  forgot  my    password.
+~           hmm  eu tenho~que~entrar~na minha conta    mas eu esqueci minha senha    
+
+[POINT_TO_PHRASE]
+> Selecione a opção que significa "pergunta de segurança".
+Speaker593: I  (can~answer)      a   (+security~question)     (to~log~in),   (but)…
+~           eu  posso~responder  uma   pergunta~de~segurança   para~entrar    mas  
+
+[LINE]
+Speaker560: What? 
+~           o~quê 
+
+[LINE]
+Speaker593: The question is, "What's your~brother's~birthday"?          
+~           a   pergunta é    qual~é o~dia~do~aniversário~do~seu~irmão  
+
+[LINE]
+Speaker560: So?   
+~           então 
+
+[LINE]
+Speaker593: I~forgot~it.
+~           eu~esqueci  
+
+[CONTINUATION]
+> O que vem depois?
+Speaker560: You  forgot      [your~brother's~birthday?]! 
+~           você esqueceu~do  aniversário~do~seu~irmão   
++ your~brother's~birthday 
+~ aniversário~do~seu~irmão
+- my    purse
+~ minha bolsa
+- your birthday   
+~ seu  aniversário
+
+[LINE]
+Speaker593: I  never remember  dates.
+~           eu nunca lembro~de datas 
+
+[LINE]
+Speaker560: Let's~call       your  brother.
+~           vamos~ligar~para o~seu irmão   
+
+[ARRANGE]
+> Toque no que escutar
+Speaker593: [(Then)  (he'll~know) (that) (I~forgot)   (his~birthday)!]      
+~             então   ele~saberá   que    eu~esqueci   o~aniversário~dele   
+
+[LINE]
+Speaker560: Did~you~forget how~expensive these tickets   were? 
+~           você~esqueceu  quão~caros    estes ingressos foram 
+
+[LINE]
+Speaker593: OK,    OK,    I'll~call~him.      
+~           certo  certo  eu~ligarei~para~ele 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+> Vikram [calls~his~brother]      and asks     about his~birthday.      
+~ Vikram  liga~para~o~irmão~dele  e   pergunta sobre o~aniversário~dele 
+- kills another
+- calls this mother
++ calls his brother
+
+[LINE]
+Speaker593: Priti, it~worked! I  got    the tickets!  
+~           Priti  funcionou  eu peguei os  ingressos 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker560: Wonderful!   We're~finally~going~to~see [this play]!
+~           maravilhoso  nós~finalmente~vamos~ver    esta peça  
+- your brother
+~ seu  irmão  
++ this play
+~ esta peça
+- a   birthday~party      
+~ uma festa~de~aniversário
+
+[LINE]
+Speaker593: Wait…   One problem.  The tickets   were for  last~night.   
+~           espera  um  problema  os  ingressos eram para ontem~à~noite 
+
+[LINE]
+Speaker560: What?! 
+~           o~quê  
+
+[LINE]
+Speaker593: I  told       you  that I  never remember  dates.
+~           eu disse~para você que  eu nunca lembro~de datas 
+
+[MULTIPLE_CHOICE]
+> O Vikram e a Priti têm ingressos, mas…
+- …agora o irmão do Vikram virá também.
+- …a Priti está irritada demais para assistir à peça.
++ …eles eram para a noite anterior.
+
+[MATCH]
+> Toque nos pares
+- Priti <> Priti
+- time <> tempo
+- my <> meu
+- I'll call him <> eu ligarei para ele
+- last night <> ontem à noite
+
