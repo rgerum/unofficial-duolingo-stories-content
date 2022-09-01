@@ -1,0 +1,129 @@
+[DATA]
+fromLanguageName=Alert!
+icon=7cd7723e6a361adbea522f2dc71b13755d4d578c
+set=8|2
+
+[HEADER]
+> Allarme!
+~ alert   
+
+[LINE]
+> Alberto è  nella~sua fattoria.
+~ ~       is on~his    farm     
+
+[LINE]
+> È    sera~tardi,          e   sta~ascoltando       la  radio.
+~ it's late~in~the~evening  and (he)~is~listening~to the ~     
+
+[LINE]
+Speaker281: Allarme! Questa non~è  un'|esercitazione! Si~prega~di non uscire    di casa!          
+~           alert    this   is~not a   drill          we~ask~you  not to~go~out of (your)~home(s) 
+
+[MULTIPLE_CHOICE]
+> Alberto hears on the radio that it is dangerous to leave his house.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker889: Perché?
+~           why    
+
+[LINE]
+> Alberto sente un rumore alla   porta.
+~ ~       hears a  noise  at~the door  
+
+[LINE]
+Speaker889: Chi va   là?   
+~           who goes there 
+
+[LINE]
+Speaker265: Per~favore, ho~bisogno~di aiuto!
+~           please      I~need        help  
+
+[CONTINUATION]
+> What comes next?
+Speaker265: Apra [la  porta]!
+~           open  the door   
+- sera~tardi         
+~ late~in~the~evening
+- la  radio
+~ the ~    
++ la  porta
+~ the door 
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "slowly."
+> Preoccupato, (Alberto) (apre)  (+piano)  la  (porta).
+~ worried       ~         opens    slowly  the  door   
+
+[LINE]
+Speaker265: Mi~faccia~entrare!
+~           let~me~in         
+
+[LINE]
+> Graziella entra~in casa.       
+~ ~         enters   (the)~house 
+
+[LINE]
+Speaker265: Chiuda la  porta, presto! 
+~           close  the door   quickly 
+
+[LINE]
+Speaker889: Sta~bene?  
+~           you~are~OK 
+
+[LINE]
+Speaker265: Acqua...
+~           water   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker265: [Ho~bisogno~di] bere.    
+~            I~need         to~drink 
+- Fabbisogno di
+- Un bisogno di
++ Ho bisogno di
+
+[LINE]
+Speaker889: Ecco~qui.   
+~           here~you~go 
+
+[LINE]
+Speaker265: Grazie...   
+~           thank~you   
+
+[ARRANGE]
+> Tap what you hear
+Speaker265: [(Ho~corso) (per) (tanto~tempo)!]
+~             I~ran      for   a~long~time   
+
+[LINE]
+Speaker265: Sono stanchissima!
+~           I~am very~tired   
+
+[LINE]
+Speaker889: Non~capisco.        Qual è  il  problema?
+~           I~don't~understand  what is the problem  
+
+[LINE]
+Speaker265: È~stato terribile.
+~           it~was  terrible  
+
+[LINE]
+Speaker265: C'è      qualcosa~di orrendo  là~fuori. 
+~           there~is something   horrible out~there 
+
+[MULTIPLE_CHOICE]
+> What is Graziella saying to Alberto?
+- That she has been training for a race.
++ That there is something horrible outside his home.
+- That she needs to be taken home.
+
+[MATCH]
+> Tap the pairs
+- fattoria <> farm
+- Grazie <> thank you
+- un' <> a
+- esercitazione <> drill
+- Ho corso <> I ran
+
