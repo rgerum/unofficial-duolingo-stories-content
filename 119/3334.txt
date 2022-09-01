@@ -1,0 +1,155 @@
+[DATA]
+fromLanguageName=Move Your Bed
+icon=74cfc368f6077481ec9536d8615b6d21fbd26d78
+set=42|1
+
+[HEADER]
+> Stell~dein~Bett~um
+~ rearrange~your~bed
+
+[LINE]
+> Sari liegt    auf Lillis  Bett. Sie sieht      an die Decke.  
+~ Sari is~lying on  Lilli's bed   she is~looking at the ceiling 
+
+[LINE]
+Speaker418: Lilli, dein Zimmer ist langweilig. Du  solltest deine Möbel     umstellen.
+~           Lilli  your room   is  boring      you should   your  furniture rearrange 
+
+[LINE]
+Speaker416: Auf~keinen~Fall. Mein Zimmer sieht~gut~aus.
+~           definitely~not   my   room   looks~good    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker418: Ich glaube, dein Bett würde [in~der~Ecke]   da    toll~aussehen.
+~           I   think   your bed  would  in~the~corner  there look~great    
+- in der Hecke
++ in der Ecke
+- an der Decke
+
+[LINE]
+Speaker416: Ich glaube~nicht.  
+~           I   don't~think~so 
+
+[LINE]
+Speaker418: Aber es kann gefährlich~sein, das Bett direkt   ans~Fenster   zu stellen.
+~           but  it can  be~dangerous     the bed  directly at~the~window to put     
+
+[LINE]
+Speaker416: Warum gefährlich?
+~           why   dangerous  
+
+[LINE]
+Speaker418: Der Baum da    draußen könnte vom~Blitz    getroffen~werden und durch   dein Fenster fallen!
+~           the tree there outside could  by~lightning be~struck        and through your window  fall   
+
+[POINT_TO_PHRASE]
+> Wähle  die Option mit~der~Bedeutung „burglar|”.
+~ choose the option meaning            burglar ~ 
+Speaker418: Oder ein (+Einbrecher) (könnte) in   dein (Zimmer) (klettern)!
+~           or   a     burglar      could   into your  room     climb     
+
+[LINE]
+Speaker416: Wow, Sari. Warum machst~du~dir~so~große~Sorgen um    mich?
+~           wow  Sari  why   are~you~so~worried            about me   
+
+[LINE]
+Speaker418: Ich bin deine beste Freundin, Lilli. Du  bist mir~wichtig.    
+~           I   am  your  best  friend    Lilli  you are  important~to~me 
+
+[MULTIPLE_CHOICE]
+> Sari hat viel~darüber~nachgedacht, …
+~ Sari has thought~a~lot~about        
+- … wie man in~Lillis~Zimmer~klettern~könnte.
+~   how you can~climb~into~Lilli's~room      
++ … wo    Lillis  Bett stehen~sollte.
+~   where Lilli's bed  should~stand  
+- … wie man aus~dem~Fenster~fallen~kann.
+~   how you can~fall~out~of~the~window  
+
+[LINE]
+Speaker416: Keine~Angst, mein Bett stand~immer              neben   dem Fenster und ich lebe~noch.     
+~           don't~worry  my   bed  has~always~been~standing next~to the window  and I   am~still~alive 
+
+[LINE]
+Speaker418: Immer?  Ist es dann nicht Zeit, etwas~Neues~zu~probieren?
+~           always  is  it then not   time  to~try~something~new     
+
+[LINE]
+Speaker416: Als meine beste Freundin solltest~du wissen, dass ich Veränderungen~hasse.
+~           as  my    best  friend   you~should  know    that I   hate~changes        
+
+[LINE]
+Speaker418: Ich habe in einem Buch gelesen, dass man mit  dem Kopf in~Richtung Norden schlafen~sollte.
+~           I   have in a     book read     that you with the head towards     north  should~sleep    
+
+[ARRANGE]
+> Tap what you hear
+Speaker416: [(Das)  (mache~ich).         (Hier)        (ist) (Norden).]
+~             that   is~what~I'm~doing    (this)~here   is    north    
+
+[LINE]
+Speaker418: Oh, habe ich Norden gesagt? Ich meinte natürlich Süden!
+~           oh  have I   north  said    I   meant  of~course south 
+
+[MULTIPLE_CHOICE]
+> Jetzt sagt      Sari, dass Lilli mit  dem Kopf …
+~ now   is~saying Sari  that Lilli with the head  
+- … aus dem    Fenster schlafen~sollte.
+~   out of~the window  should~sleep    
+- … unter ganz~vielen Bettdecken schlafen~sollte.
+~   under lots~of     duvets     should~sleep    
++ … in~Richtung Süden schlafen~sollte.
+~   towards     south should~sleep    
+
+[LINE]
+Speaker416: Sari! Warum willst~du~wirklich, dass ich mein~Bett~umstelle?
+~           Sari  why   do~you~really~want  that I   rearrange~my~bed   
+
+[ARRANGE]
+> Tap what you hear
+Speaker418: [(Es) (würde) (so) (nett) (aussehen)!]
+~             it   would   so   nice   look       
+
+[LINE]
+Speaker416: OK. Dann hilf mir.
+~           OK  then help me  
+
+[LINE]
+> Sie  tragen~gerade     Lillis  Bett durch  das Zimmer, als  Lilli etwas     auf dem Teppich sieht.  
+~ they are~just~carrying Lilli's bed  across the room    when Lilli something on  the carpet  notices 
+
+[CONTINUATION]
+> Was  kommt als~Nächstes?
+~ what comes next         
+Speaker416: Sari, hast du  Kaffee auf meinem [Teppich verschüttet]?
+~           Sari  have you coffee on  my      carpet  spilled      
+- Schrank verschüttet
+~ closet  spilled    
++ Teppich verschüttet
+~ carpet  spilled    
+- Baum verschüttet
+~ tree spilled    
+
+[LINE]
+Speaker418: Ja,  aber du  wirst den Fleck nicht~mehr sehen, nachdem wir dein~Bett~umgestellt~haben!
+~           yes  but  you will  the spot  no~longer  see    after   we  have~rearranged~your~bed   
+
+[MULTIPLE_CHOICE]
+> Sari will,  dass Lilli ihr Bett an einen …
+~ Sari wants  that Lilli her bed  to a      
+- … anderen   Ort  stellt, damit   sie nachts   aus~dem~Fenster~gucken~kann.    
+~   different spot moves   so~that she at~night she~can~look~out~of~the~window  
+- … sehr gefährlichen Ort  stellt.
+~   very dangerous    spot moves  
++ … anderen   Ort  stellt, um~den~Kaffeefleck~zu~verstecken.
+~   different spot moves   to~hide~the~coffee~stain         
+
+[MATCH]
+> Tap the pairs
+- Warum <> why
+- mir wichtig <> important to me
+- Baum <> tree
+- nicht mehr <> no longer
+- direkt <> directly
+
