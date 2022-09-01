@@ -1,0 +1,135 @@
+[DATA]
+fromLanguageName=I Don't Believe in Horoscopes
+icon=10523c977de263efd9025298f59cc9e2f702d3f1
+set=26|4
+
+[HEADER]
+> Je ne~crois~pas~aux horoscopes
+~ I  don't~believe~in horoscopes
+
+[LINE]
+> Eddy et  Béa sont dans un~café. Béa lit        un~journal. 
+~ Eddy and Béa are  in   a~café   Béa is~reading a~newspaper 
+
+[LINE]
+Speaker507: Hmm, c'est  intéressant...
+~           hmm  that's interesting   
+
+[LINE]
+Speaker414: Quoi ?
+~           what  
+
+[LINE]
+Speaker507: Je lis        mon~horoscope. Ça dit  que  je vais     aider   quelqu'un aujourd'hui.
+~           I  am~reading my~horoscope   it says that I  am~going to~help someone   today       
+
+[LINE]
+Speaker414: Je ne~crois~pas~aux   horoscopes. Un~journal  ne~peut~pas te~dire       ton~avenir. 
+~           I  I~don't~believe~in horoscopes  a~newspaper can't       (to)~tell~you your~future 
+
+[MULTIPLE_CHOICE]
+> Eddy thinks horoscopes can tell you the future.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker507: Tu  sais, je lis  mon~horoscope tous~les~jours, et  c'est souvent correct.
+~           you know  I  read my~horoscope  every~day       and it's  often   correct 
+
+[LINE]
+Speaker414: D'accord… Est-ce~que~je~peux lire      mon~horoscope ?
+~           OK        can~I              (to)~read my~horoscope   
+
+[LINE]
+Speaker507: Oui, bien~sûr  !
+~           yes  of~course  
+
+[POINT_TO_PHRASE]
+> Choose the option that means "spills."
+> Béa (donne) (le~journal)    à  Eddy et  (+renverse) (sa~tasse) de café.  
+~ Béa  gives   the~newspaper  to Eddy and   spills     his~cup   of coffee 
+
+[LINE]
+Speaker507: Eddy ! Ta~chemise !
+~           Eddy   your~shirt  
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Oh~non,~j'ai) (une) (réunion~importante) (dans) (dix~minutes) ]!
+~             oh~no~I~have   an    important~meeting    in     ten~minutes    
+
+[LINE]
+Speaker507: Ce   n'est~pas un~problème ! J'ai   un~autre pull    dans mon~sac.
+~           that is~not    a~problem     I~have another  sweater in   my~bag  
+
+[LINE]
+> Béa donne son~pull    à  Eddy.
+~ Béa gives her~sweater to Eddy 
+
+[MULTIPLE_CHOICE]
+> Wait… why does Béa give Eddy her sweater?
++ She spilled coffee on his shirt.
+- Eddy feels really cold today.
+- The color matches Eddy's eyes.
+
+[CONTINUATION]
+> What comes next?
+Speaker414: Je ne~peux~pas porter    ça   ! C'est ton  [pull~préféré     ]!
+~           I  can't       (to)~wear this   it's  your  favorite~sweater   
+- filtre~à~café
+~ coffee~filter
+- journal  
+~ newspaper
++ pull~préféré    
+~ favorite~sweater
+
+[LINE]
+Speaker507: Hmm… C'est~quand ton~anniversaire ?
+~           hmm  when~is     your~birthday     
+
+[LINE]
+Speaker414: Le~quatre~octobre.
+~           October~4th       
+
+[LINE]
+Speaker507: Alors tu  es  balance.
+~           so    you are a~Libra 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Ça   [ne~veut~rien~dire].    
+~           that  doesn't~mean~anything  
++ ne veut rien dire
+- ne peut rien lire
+- ne veut rien lire
+
+[LINE]
+Speaker507: Oh, vraiment ? Écoute    ça.  
+~           oh  really     listen~to this 
+
+[LINE]
+Speaker507: Ton~horoscope  dit  :
+~           your~horoscope says  
+
+[LINE]
+Speaker507: « Un~ami   va       vous~aider~à~passer une bonne journée. »
+~           ~ a~friend is~going to~help~you~have    a   good  day      ~
+
+[LINE]
+Speaker414: Bon,  d'accord. Je vais     porter  ton~pull.    
+~           well  OK        I  am~going to~wear your~sweater 
+
+[MULTIPLE_CHOICE]
+> Béa thinks that Eddy's horoscope means…
++ …he should wear her sweater.
+- …he's going to have a terrible day.
+- …he should stop drinking coffee.
+
+[MATCH]
+> Tap the pairs
+- ton avenir <> your future
+- bien sûr <> of course
+- de <> of
+- Bon <> well
+- vraiment <> really
+
