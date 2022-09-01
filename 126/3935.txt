@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=Perfeito para o trabalho
+icon=5899822ff564221d831e0f0f0a91755383fd85a6
+set=32|4
+
+[HEADER]
+> Perfect  for  the Job     
+~ perfeito para o   trabalho
+
+[LINE]
+> Junior enters   an  ice~cream~store. He  speaks~to Jerry, the manager.
+~ Junior entra~em uma sorveteria       ele fala~com  Jerry  o   gerente 
+
+[LINE]
+Speaker415: Can~I~have       a  chocolate~ice~cream  and a   job~application? 
+~           você~pode~me~dar um sorvete~de~chocolate e   uma ficha~de~emprego 
+
+[LINE]
+Speaker2243: Umm. How~old~are~you?      
+~            hmm  quantos~anos~você~tem 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker415: I'm    old   enough       to~know    that your chocolate~ice~cream  [needs~more~sugar].       Are~you the manager?
+~           eu~sou velho o~suficiente para~saber que  seu  sorvete~de~chocolate  precisa~de~mais~açúcar   você~é  o   gerente 
++ needs more sugar
+- is more sure
+- eats more sugar
+
+[LINE]
+Speaker2243: Yes, I  am. 
+~            sim  eu sou 
+
+[LINE]
+Speaker415: I'm    Junior. Listen, if~you~give~me a  job,      I~can~help      you  make~a~lot~of~money.    
+~           eu~sou Junior  ouça    se~você~me~der um trabalho  eu~posso~ajudar você a~ganhar~muito~dinheiro 
+
+[MULTIPLE_CHOICE]
+> Espera… O Junior vai ajudar o gerente a fazer o quê?
++ ganhar muito dinheiro
+- doar muito dinheiro
+- gastar muito dinheiro
+
+[LINE]
+Speaker2243: But you're just a   kid.    
+~            mas você~é só   uma criança 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker415: [(That's~why)     (I'm)    (perfect)  (for~the) (job).]     
+~             é~por~isso~que   eu~sou   perfeito   para~o    trabalho   
+
+[LINE]
+Speaker2243: No  thanks,   Junior.
+~            não obrigado  Junior 
+
+[LINE]
+> Later,      Junior is~eating    his~ice~cream  in~front~of~the store.
+~ mais~tarde  Junior está~tomando o~sorvete~dele na~frente~da    loja  
+
+[LINE]
+> A   family  walks~past~the~store and sees Junior.
+~ uma família passa~pela~loja      e   vê   Junior 
+
+[LINE]
+Speaker415: This is the best   ice~cream I've~ever~had!  
+~           este é  o   melhor sorvete   que~eu~já~tomei 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker2540: Dad,   can~we~get          that   [ice~cream]?
+~            papai  nós~podemos~comprar aquele  sorvete    
+- money   
+~ dinheiro
+- family 
+~ família
++ ice~cream
+~ sorvete  
+
+[LINE]
+> They walk~into     the store.
+~ eles caminham~para a   loja  
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker3145: That~kid's~chocolate~ice~cream         looks  amazing!  We  want     [four~of~the~same~thing].
+~            o~sorvete~de~chocolate~daquela~criança parece incrível  nós queremos  quatro~iguais~àquele    
++ four of the same thing
+- more of the something
+- four of this main ring
+
+[LINE]
+Speaker2243: Great!
+~            ótimo 
+
+[LINE]
+> The family  looks  very  happy as       they leave~the store.
+~ a   família parece muito feliz enquanto eles saem~da   loja  
+
+[LINE]
+Speaker2243: Junior, you're a  genius.
+~            Junior  você~é um gênio  
+
+[MULTIPLE_CHOICE]
+> O gerente acha que o Junior é muito esperto.
++ Sim, isso mesmo.
+- Não, não é isso.
+
+[LINE]
+Speaker2243: But I  still can't~give~you   a  job…      Because you're a   child.  
+~            mas eu ainda não~posso~te~dar um trabalho  porque  você~é uma criança 
+
+[LINE]
+Speaker415: That's~OK, you  can~pay~me    in ice~cream!
+~           tudo~bem   você pode~me~pagar em sorvete   
+
+[MULTIPLE_CHOICE]
+> Como o Junior ajudou o gerente a vender sorvete?
+- Ele vendeu o sorvete na traseira de um caminhão.
++ Ele falou sobre como o sorvete era delicioso.
+- Ele postou sobre o sorvete nas mídias sociais.
+
+[MATCH]
+> Toque nos pares
+- They <> eles
+- if you give me <> se você me der
+- He <> ele
+- that <> que
+- manager <> gerente
+
