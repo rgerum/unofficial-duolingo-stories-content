@@ -1,0 +1,108 @@
+[DATA]
+fromLanguageName=Two Tickets Please!
+icon=fdd190024d4b41276099de974623f2e88e98a45a
+set=4|2
+
+[HEADER]
+> Zwei Flugtickets,   bitte! 
+~ two  plane~tickets  please 
+
+[LINE]
+> Junior ist im~Flughafen.  
+~ Junior is  at~the~airport 
+
+[LINE]
+> Er spricht    mit der Frau  am~Schalter.   
+~ he is~talking to  the woman at~the~counter 
+
+[LINE]
+Speaker659: Kann ich helfen, junger Mann?
+~           can  I   help    young  man  
+
+[POINT_TO_PHRASE]
+> Choose the option that means "plane ticket."
+Speaker415: Ein (+Flugticket)   (nach) (Barcelona), (bitte). 
+~           a     plane~ticket   to     Barcelona    please  
+
+[LINE]
+Speaker659: Wo    sind deine Eltern? 
+~           where are  your  parents 
+
+[LINE]
+Speaker415: Entschuldigung, ich bin nicht sieben Jahre alt!
+~           excuse~me       I   am  not   seven  years old 
+
+[ARRANGE]
+> Tap what you hear
+Speaker659: [(Wie) (alt) (bist) (du)?] 
+~             how   old   are    you   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: Ich bin [acht~Jahre]  alt!
+~           I   am   eight~years  old 
++ acht Jahre
+- Nacht Jahre
+- acht Haare
+
+[LINE]
+Speaker659: Ein Flugticket   nach Barcelona kostet zweihundert Euro. 
+~           a   plane~ticket to   Barcelona costs  two~hundred euros 
+
+[LINE]
+Speaker415: OK … Wohin kann ich für dreizehn Euro  reisen?
+~           OK   where can  I   for thirteen euros travel 
+
+[MULTIPLE_CHOICE]
+> Uh oh! Why can't Junior go to Barcelona?
++ He only has thirteen euros.
+- He is afraid of flying.
+- The flight is already full.
+
+[LINE]
+> Eddy, Juniors  Vater,  kommt zum~Schalter.  
+~ Eddy  Junior's father  comes to~the~counter 
+
+[LINE]
+Speaker414: Junior! Hier bist~du! Was  machst~du     im~Flughafen?  
+~           Junior  here you~are  what are~you~doing at~the~airport 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "today."
+Speaker415: Ich (habe) (einen) Mathetest (+heute). Ich (muss)    weit~weg~reisen.
+~           I    have   a      math~test   today   I    have~to  travel~far~away 
+
+[LINE]
+Speaker414: OK. Wie~viel kostet ein Flugticket?   
+~           OK  how~much costs  one flight~ticket 
+
+[LINE]
+Speaker415: Zweihundert Euro! 
+~           two~hundred euros 
+
+[LINE]
+Speaker414: Wie~viel kosten~zwei~Flugtickets?  
+~           how~much do~two~plane~tickets~cost 
+
+[LINE]
+Speaker415: Vierhundert  Euro! 
+~           four~hundred euros 
+
+[LINE]
+Speaker414: Richtig! Du  bist perfekt in~Mathe! Und jetzt geh in~die~Schule.
+~           correct  you are  perfect at~math   and now   go  to~school     
+
+[MULTIPLE_CHOICE]
+> Why did Junior want to buy a ticket to Barcelona?
+- He wanted to see the architecture.
+- He wanted to surprise his dad with a vacation.
++ He didn't want to take his math test.
+
+[MATCH]
+> Tap the pairs
+- du <> you
+- Kann <> can
+- für <> for
+- Juniors <> Junior's
+- alt <> old
+
