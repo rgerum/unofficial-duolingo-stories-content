@@ -1,0 +1,138 @@
+[DATA]
+fromLanguageName=Une histoire de mariage
+icon=1af589ac8182b2da5175dd9c2dc973d1089ef4f2
+set=22|2
+
+[HEADER]
+> A   Wedding~Story      
+~ une histoire~de~mariage
+
+[LINE]
+> Lucy and Lin are  at~a family~wedding.                   
+~ Lucy et  Lin sont au   mariage~d'un~membre~de~la~famille 
+
+[LINE]
+Speaker509: This~is a  beautiful wedding!
+~           c'est   un beau      mariage 
+
+[LINE]
+Speaker508: I  know! This hotel is  amazing!  
+~           je sais  cet  hôtel est splendide 
+
+[MULTIPLE_CHOICE]
+> Lin et Lucy sont impressionnées par la réception.
++ Oui, c'est vrai.
+- Non, c'est faux.
+
+[LINE]
+Speaker509: And the food       is  delicious! 
+~           et  la  nourriture est délicieuse 
+
+[LINE]
+Speaker508: Are~these gold~forks?           
+~           ce~sont   des~fourchettes~en~or 
+
+[LINE]
+Speaker509: Yes!
+~           oui 
+
+[LINE]
+Speaker508: This wedding was   probably     very expensive.
+~           ce   mariage était probablement très coûteux   
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker509: How~much do~you~think [it~cost]       ?
+~           combien  tu~penses     qu'il~a~coûté   
++ it cost
+- it calls
+- it caught
+
+[LINE]
+Speaker508: A~lot.   
+~           beaucoup 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker509: Your cousin, Paul, hates   spending [money]!      
+~           ton  cousin  Paul  déteste dépenser  de~l'argent  
+- time    
+~ du~temps
+- forks          
+~ des~fourchettes
++ money      
+~ de~l'argent
+
+[LINE]
+Speaker509: I'm     surprised that~the~wedding~is so nice.
+~           je~suis surprise  que~le~mariage~soit si beau 
+
+[LINE]
+Speaker508: I'm     surprised that~the~bride~is  so beautiful.
+~           je~suis surprise  que~la~mariée~soit si belle     
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker508: I  just~talked     to the bride.  Did~you~know [she's~a~doctor]?       
+~           je viens~de~parler à  la  mariée  tu~savais     qu'elle~était~docteur  
+- he's a dog too
+- she said talk to her
++ she's a doctor
+
+[LINE]
+Speaker509: How     did~Paul~meet         such~an~amazing~woman?  
+~           comment Paul~a-t-il~rencontré une~femme~si~incroyable 
+
+[LINE]
+Speaker508: I  don't~know!  He isn't     good~enough for  her. 
+~           je ne~sais~pas  il n'est~pas assez~bien  pour elle 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker509: [(He) (looks~like)  (a)   (potato).]        
+~             il   ressemble~à   une   pomme~de~terre   
+
+[LINE]
+Speaker508: And he's   lazy.    
+~           et  il~est fainéant 
+
+[LINE]
+Speaker509: But  it's  nice   that~he~invited~us!     
+~           mais c'est gentil qu'il~nous~ait~invitées 
+
+[LINE]
+Speaker508: Be~quiet! He's~coming here.
+~           tais-toi  il~vient    ici  
+
+[MULTIPLE_CHOICE]
+> Lin veut que Lucy…
++ ... se taise.
+- … mange des pommes de terre.
+- … aille chez le docteur.
+
+[LINE]
+Speaker509: Wait.    That's~not   Paul.
+~           attends  ce~n'est~pas Paul 
+
+[LINE]
+Speaker508: You're~right! I  think     we're       at~the wrong   hotel! Let's~go.
+~           tu~as~raison  je pense~que nous~sommes au     mauvais hôtel  partons  
+
+[LINE]
+Speaker509: No,  let's~stay here. It's  time~for   dessert!
+~           non  restons    ici   c'est l'heure~du dessert 
+
+[MULTIPLE_CHOICE]
+> Oups ! Lin et Lucy...
+- ... se sont endormies à la table des desserts.
++ ... sont au mauvais mariage.
+- … ont mangé trop de pommes de terre.
+
+[MATCH]
+> Choisis les paires
+- looks like <> ressemble à
+- so <> si
+- How <> comment
+- time for <> l'heure du
+- delicious <> délicieuse
+
