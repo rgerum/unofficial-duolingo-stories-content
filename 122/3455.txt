@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Familienessen
+icon=076bc5bf725308c211b9c04f07d3622683e84d78
+set=5|2
+
+[HEADER]
+> Family~Dinner
+~ Familienessen
+
+[LINE]
+> Lin walks into Bea's kitchen.
+~ Lin geht  in   Beas  Küche   
+
+[LINE]
+> She sees  food  and bottles~of~wine on  the table.
+~ sie sieht Essen und Weinflaschen    auf dem Tisch 
+
+[MULTIPLE_CHOICE]
+> Bea hat Milchflaschen auf ihrem Küchentisch.
++ Nein, das ist falsch.
+- Ja, das ist richtig.
+
+[LINE]
+Speaker508: Wow, you have a~lot~of food. 
+~           wow  du  hast viel     Essen 
+
+[LINE]
+Speaker507: Yeah. My    family  is~coming for dinner.    
+~           ja    meine Familie kommt     zum Abendessen 
+
+[LINE]
+Speaker508: Ooh, can  I   have~some~cake?    
+~           ooh  kann ich etwas~Kuchen~haben 
+
+[LINE]
+Speaker507: No.  
+~           nein 
+
+[LINE]
+Speaker508: But  you have three cakes. 
+~           aber du  hast drei  Kuchen 
+
+[ARRANGE]
+> Was hörst du?
+Speaker507: [(I)   (need)    (three) (cakes).] 
+~             ich   brauche   drei    Kuchen   
+
+[LINE]
+Speaker508: Well, can  I   have~a~glass~of~wine?
+~           gut   kann ich ein~Glas~Wein~haben  
+
+[LINE]
+Speaker507: No.  
+~           nein 
+
+[LINE]
+Speaker508: You have four bottles~of~wine.
+~           du  hast vier Flaschen~Wein   
+
+[LINE]
+Speaker507: I   need    all~of~the wine.
+~           ich brauche den~ganzen Wein 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „Stück“.
+Speaker508: (Can)  I   (have)  a   (+slice) of (pizza)?
+~            kann  ich  haben  ein   Stück  ~   Pizza  
+
+[LINE]
+Speaker507: No,   Lin.
+~           nein  Lin 
+
+[LINE]
+Speaker508: Fine. So,   what~time         is  dinner           with your   family  tonight?    
+~           gut   also  um~welche~Uhrzeit ist (das)~Abendessen mit  deiner Familie heute~Abend 
+
+[LINE]
+Speaker507: Oh, my    family  is~visiting    next    week. 
+~           oh  meine Familie besucht~(mich) nächste Woche 
+
+[MULTIPLE_CHOICE]
+> Moment! Wann kommt Beas Familie zum Abendessen?
+- heute Abend
++ nächste Woche
+- nächstes Jahr
+
+[LINE]
+Speaker507: This is  all   for me.  
+~           das  ist alles für mich 
+
+[LINE]
+Speaker508: What?!
+~           was   
+
+[LINE]
+Speaker507: I   have a    very difficult  family!  I'm     stressed! 
+~           ich habe eine sehr schwierige Familie  ich~bin gestresst 
+
+[LINE]
+Speaker507: I   need    all~of~this food  and wine              now.  
+~           ich brauche das~ganze   Essen und (den~ganzen)~Wein jetzt 
+
+[MULTIPLE_CHOICE]
+> Warum braucht Bea so viel Essen und Wein?
+- Sie will alles Lin geben.
+- Ihre Mutter hat großen Hunger.
++ Sie ist gestresst, weil ihre Familie zu Besuch kommt.
+
+[MATCH]
+> Wähle die Paare
+- all of the <> den ganzen
+- three <> drei
+- bottles of wine <> Weinflaschen
+- slice <> Stück
+- difficult <> schwierige
+
