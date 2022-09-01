@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Kleiderkauf
+icon=ffba9eba0bc98eb1b87842bfd234eb4274095663
+set=21|4
+
+[HEADER]
+> Dress~Shopping
+~ Kleiderkauf   
+
+[LINE]
+> Lily is~shopping~for~a~pink~dress    with her~mom.     
+~ Lily geht~ein~pinkes~Kleid~einkaufen mit  ihrer~Mutter 
+
+[LINE]
+Speaker416: Do~we~really~have   to~go to Aunt~Betty's~wedding? 
+~           müssen~wir~wirklich gehen zu Tante~Bettys~Hochzeit 
+
+[LINE]
+Speaker559: Yes! She's~finally~getting~married!
+~           ja   sie~heiratet~endlich          
+
+[LINE]
+Speaker416: But  I   hate  the~color pink… and wearing~dresses!        
+~           aber ich hasse die~Farbe Pink  und das~Tragen~von~Kleidern 
+
+[LINE]
+Speaker559: I   know, but  everyone in~the~wedding   is~wearing a     black     suit  or   a   pink   dress.
+~           ich weiß  aber jeder    auf~der~Hochzeit trägt      einen schwarzen Anzug oder ein pinkes Kleid 
+
+[MULTIPLE_CHOICE]
+> Warum wollen Lily und ihre Mutter ein pinkes Kleid kaufen?
++ Lily braucht ein Kleid für eine Hochzeit.
+- Sie brauchen ein Geschenk für Tante Bettys Katze.
+- Lily trägt ausschließlich pinke Kleider.
+
+[LINE]
+> Lily's mom    shows her a   short  pink   dress.
+~ Lilys  Mutter zeigt ihr ein kurzes pinkes Kleid 
+
+[LINE]
+Speaker559: How~about       this~one?
+~           wie~wäre~es~mit diesem   
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker416: It's   [too~short]!
+~           es~ist  zu~kurz    
+- two shirts
++ too short
+- two shots
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker559: OK, what~about      this~one? It's   longer than [the other  dress].
+~           OK  wie~wäre~es~mit diesem    es~ist länger als   das andere Kleid  
+- the~winter
+~ der~Winter
+- your~hair  
+~ deine~Haare
++ the other  dress
+~ das andere Kleid
+
+[LINE]
+Speaker416: It has feathers! I   don't~want to~look~like~a~bird.   
+~           es hat Federn    ich will~nicht wie~ein~Vogel~aussehen 
+
+[MULTIPLE_CHOICE]
+> Lily denkt, dass sie in dem Kleid wie ein Vogel aussieht, weil …
+- … es sehr bunt ist.
+- … ihr Arme echte Flügel sind.
++ … es Federn hat.
+
+[LINE]
+Speaker416: This is  stupid! I'm~only~going~to wear   this~dress   once.  
+~           das  ist blöd    Ich~werde~nur     tragen dieses~Kleid einmal 
+
+[LINE]
+Speaker559: But  this is  really   important to  Aunt  Betty.
+~           aber das  ist wirklich wichtig   für Tante Betty 
+
+[ARRANGE]
+> Was hörst du?
+Speaker416: [(You) (just) (want~me~to)       (look~pretty).]   
+~             du    nur    willst,~dass~ich   hübsch~aussehe   
+
+[LINE]
+Speaker559: No,   I   want~you~to   be~comfortable.  Let's~go  to another     store!   
+~           nein  ich will,~dass~du dich~wohlfühlst  gehen~wir in ein~anderes Geschäft 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker416: Mom,  wait!  You said        [everyone~is~wearing] a     black     suit  or   a   pink   dress, right?  
+~           Mama  warte  du  hast~gesagt  jeder~trägt          einen schwarzen Anzug oder ein pinkes Kleid  richtig 
++ everyone is wearing
+- everyone is staring
+- everybody's caring
+
+[LINE]
+> Lily shows her   mom    a     small   black     suit. 
+~ Lily zeigt ihrer Mutter einen kleinen schwarzen Anzug 
+
+[LINE]
+Speaker416: You~hate~it,  right?
+~           du~hasst~ihn  oder  
+
+[LINE]
+Speaker559: Actually,   I   think  it~will~look~great~on~you!   
+~           eigentlich  ich glaube er~wird~toll~an~dir~aussehen 
+
+[MULTIPLE_CHOICE]
+> Was wird Lily zur Hochzeit tragen?
+- ein pinkes Kleid
+- eine Jogginghose
++ einen schwarzen Anzug
+
+[MATCH]
+> Wähle die Paare
+- suit <> Anzug
+- in the wedding <> auf der Hochzeit
+- think <> glaube
+- really <> wirklich
+- know <> weiß
+
