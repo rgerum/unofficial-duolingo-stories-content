@@ -1,0 +1,106 @@
+[DATA]
+fromLanguageName=Uyuyamıyorum!
+icon=0641ff57af041e20c48758333ca7a5e76006d438
+set=6|1
+
+[HEADER]
+> I~Can't~Sleep
+~ uyuyamıyorum 
+
+[LINE]
+Speaker856: Robert? Are   you sleeping?
+~           ~       musun sen uyuyor   
+
+[LINE]
+Speaker361: I'm~not~sleeping now...  
+~           uyumuyorum       şimdi   
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker856: I   [can't~sleep]. 
+~           ben  uyuyamıyorum  
+- could see
+- can't step
++ can't sleep
+
+[LINE]
+Speaker361: Would~you~like a~glass~of warm  milk?
+~           ister~misin    bir~bardak sıcak Süt  
+
+[LINE]
+Speaker856: Robert! You know       I   don't~like milk.
+~           ~       Sen biliyorsun ben sevmiyorum Süt  
+
+[CONTINUATION]
+> Sıradaki ne olabilir?
+Speaker361: Would~you~like to~listen to~musicc]?
+~           ister~misin    dinlemek  müzik      
++ music
+- sleep
+- milk
+
+[LINE]
+Speaker856: We~can't~listen to~music. The baby  is~sleeping.
+~           dinleyemeyiz    müzik     ~   bebek uyuyor      
+
+[MULTIPLE_CHOICE]
+> Robert ve Rita neden müzik dinleyemiyor?
+- İkisi de müzikten nefret ediyor.
+- Bebekleri ağlıyor.
++ Bebekleri uyuyor.
+
+[LINE]
+Speaker361: Well, we~can~talk   about    the new  paint…
+~           peki  konuşabiliriz hakkında ~   yeni boya  
+
+[LINE]
+Speaker856: OK…   
+~           tamam 
+
+[LINE]
+Speaker361: We    need            a   new  color for  the~bedroom~walls.       
+~           bizim ihtiyacımız~var bir yeni renge için yatak~odasının~duvarları 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker361: [I~like~gray]!      
+~            ben~griyi~severim  
+- I live gray
+- I like day
++ I like gray
+
+[LINE]
+Speaker856: Yes…  gray…
+~           Evet  gri  
+
+[LINE]
+Speaker361: Blue is   nice  too. I~like  light colors.  
+~           Mavi -dir Güzel de   severim açık  renkleri 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker361: [(Which) (color) (do~you~like)?] 
+~             Hangi   rengi   sen~seversin   
+
+[LINE]
+Speaker361: Rita? Rita, are   you sleeping?
+~           ~     ~     musun sen uyuyor   
+
+[LINE]
+Speaker361: Oh no, now   I   can't~sleep. 
+~           ~  ~   şimdi ben uyuyamıyorum 
+
+[MULTIPLE_CHOICE]
+> Robert'a ne oldu?
+- Yatak odasının duvarlarını mavi ve griye boyadı.
+- Bebeği uyandırdı ve Rita'yı sinirlendirdi.
++ Rita'nın uyumasına yardım etti ama sonrasında kendisi uyuyamadı.
+
+[MATCH]
+> Çiftlere dokun
+- to music <> müzik
+- color <> renge
+- is <> -dir
+- warm <> sıcak
+- gray <> gri
+
