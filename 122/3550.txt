@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=Wer kommt zum Abendessen?
+icon=dc357430b977e970c350bd02c026ab07731f28f3
+set=29|1
+
+[HEADER]
+> Who's~Coming to  Dinner?    
+~ wer~kommt    zum Abendessen 
+
+[LINE]
+> Lucy is~making~soup. Lin comes into the kitchen.
+~ Lucy kocht~Suppe     Lin kommt in   die Küche   
+
+[LINE]
+Speaker509: Guess who's~coming~to~dinner   tonight?    
+~           rate  wer~zum~Abendessen~kommt heute~Abend 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker508: Well, you're~making your  [famous~fish~soup],    so   it's   probably       someone special.   
+~           nun   du~kochst     deine  berühmte~Fischsuppe   also ist~es wahrscheinlich jemand  Besonderes 
+- famous wish soup
++ famous fish soup
+- favorite fish suit
+
+[LINE]
+Speaker509: Yes! It's   someone very special.   
+~           ja   es~ist jemand  sehr Besonderes 
+
+[LINE]
+Speaker508: Is       your  friend,   the famous   actress,        coming~to~dinner?          
+~           ist~(es) deine Freundin  die berühmte Schauspielerin  (die)~zum~Abendessen~kommt 
+
+[LINE]
+Speaker509: No,   she's~working on a     film right~now.
+~           nein  sie~arbeitet  an einem Film zur~Zeit  
+
+[MULTIPLE_CHOICE]
+> Die berühmte Schauspielerin kommt zum Abendessen.
+- Ja, das ist richtig.
++ Nein, das ist falsch.
+
+[LINE]
+Speaker509: It's   someone more~important. You can't~wear~pajamas!         
+~           es~ist jemand  Wichtigeres     du  kannst~keinen~Pyjama~tragen 
+
+[LINE]
+Speaker508: Oh, really?   Alright,    I'll      wear~something~else! 
+~           oh  wirklich  in~Ordnung  ich~werde etwas~anderes~tragen 
+
+[MULTIPLE_CHOICE]
+> Hmm … Es klingt so, als würde Lin gerade …
++ … einen Pyjama tragen.
+- … ein schönes Kleid tragen.
+- … einen Badeanzug tragen.
+
+[LINE]
+> Lin goes to her room   and puts~on~a~shirt~and~jeans.  
+~ Lin geht in ihr Zimmer und zieht~ein~Hemd~und~Jeans~an 
+
+[LINE]
+Speaker508: So,   is~it  your friend, Victor?! Is  he back   from taking~photos of  wild   horses  in Argentina?  
+~           also  ist~es dein Freund  Victor   ist er zurück vom  Fotografieren von wilden Pferden in Argentinien 
+
+[LINE]
+Speaker509: No,   he's~photographing lions in India  now.  
+~           nein  er~fotografiert    Löwen in Indien jetzt 
+
+[LINE]
+Speaker508: Is  it the astronaut you~worked~with?           
+~           ist es der Astronaut mit~dem~du~gearbeitet~hast 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker509: No,   [he's~getting~ready]   to~go~to~Mars.      
+~           nein   er~macht~sich~bereit  zum~Mars~zu~fliegen 
+- his bed is ready
++ he's getting ready
+- he's getting lettuce
+
+[LINE]
+Speaker508: Wait…   Is  this a   date for me,   Grandma?
+~           Moment  ist das  ein Date für mich  Oma     
+
+[ARRANGE]
+> Was hörst du?
+Speaker508: [(I)   (don't~need)    (help)  (with) (dating).]     
+~             ich   brauche~keine   Hilfe   mit    (dem)~Daten   
+
+[LINE]
+Speaker509: Of~course not!  
+~           natürlich nicht 
+
+[LINE]
+> Someone knocks on the door. It's   Lucy's friend, Frank.
+~ jemand  klopft an die Tür   es~ist Lucys  Freund  Frank 
+
+[LINE]
+Speaker509: Lin, this is  Frank. He helps people   with their resumes.     
+~           Lin  das  ist Frank  er hilft Menschen mit  ihren Lebensläufen 
+
+[LINE]
+Speaker113: Hi, Lin! Your  grandma really~wanted    us~to~meet.            
+~           hi  Lin  deine Oma     wollte~unbedingt (dass)~wir~uns~treffen 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker113: She said       that [you need~to~find~a~job].    
+~           sie hat~gesagt dass  du  einen~Job~finden~musst  
++ you need~to~find~a~job    
+~ du  einen~Job~finden~musst
+- you live~on~Mars      
+~ du  auf~dem~Mars~lebst
+- you have~a~pet~fish              
+~ du  einen~Fisch~als~Haustier~hast
+
+[LINE]
+Speaker508: Ugh, I'm~going to~put~my~pajamas~back~on.    
+~           ach  ich~werde meinen~Pyjama~wieder~anziehen 
+
+[MULTIPLE_CHOICE]
+> Warum zieht Lin ihren Pyjama wieder an?
+- Sie sieht wie ein Astronaut in ihrem Pyjama aus.
+- Sie will für ihr Date gut aussehen.
++ Der Gast will ihr nur dabei helfen, einen Job zu finden.
+
+[MATCH]
+> Wähle die Paare
+- You <> du
+- resumes <> Lebensläufen
+- taking photos <> Fotografieren
+- friend <> Freundin
+- very <> sehr
+
