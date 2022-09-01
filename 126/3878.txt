@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=A promoção
+icon=86aeb2f8135a55e49ebe8c6da5e13efdcde38d01
+set=18|3
+
+[HEADER]
+> The Promotion
+~ a   promoção 
+
+[LINE]
+> Bea's~boss     walks~past Bea's~desk. 
+~ o~chefe~de~Bea passa~pela mesa~de~Bea 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker2144: Hi, Bea. [Can~we~talk]       about     Carl?
+~            oi  Bea   nós~podemos~falar  sobre~(o) ~    
+- Can we walk
+- When we talk
++ Can we talk
+
+[LINE]
+Speaker507: OK…   
+~           certo 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker2144: [(Do~you) (like~working)       (with) (him)?]
+~              você     gosta~de~trabalhar   com    ele   
+
+[LINE]
+Speaker507: Carl, uh…
+
+[LINE]
+Speaker507: He's…  nice. 
+~           ele~é  legal 
+
+[LINE]
+Speaker507: But, well…
+~           mas  bem  
+
+[LINE]
+Speaker507: Carl is   always late,     and I  have        to~do his~work.       
+~           ~    está sempre atrasado  e   eu tenho~(que) fazer o~trabalho~dele 
+
+[LINE]
+Speaker507: He  tells~me how  to~do my      job.     
+~           ele me~diz   como fazer (o)~meu trabalho 
+
+[LINE]
+Speaker507: And last~week,           he  ate   my      lunch. 
+~           e   (na)~semana~passada  ele comeu (o)~meu almoço 
+
+[MULTIPLE_CHOICE]
+> A Bea gosta muito do Carl.
+- Sim, isso mesmo.
++ Não, não é isso.
+
+[LINE]
+Speaker507: Carl is terrible.
+~           ~    é  terrível 
+
+[LINE]
+Speaker2144: I'm~sorry            to~hear that. I  wanted to~promote him.
+~            eu~sinto~muito~(por) ouvir   isso  eu queria promover   ele 
+
+[MULTIPLE_CHOICE]
+> Hmm… O que significa "I'm sorry to hear that"?
+- Isso é engraçado.
+- Adorei isso.
++ Eu sinto muito por isso.
+
+[LINE]
+Speaker2144: The job      is in a  new  office.     We  need       to~find   the right~person.
+~            o   trabalho é  em um novo escritório  nós precisamos encontrar a   pessoa~certa 
+
+[LINE]
+Speaker507: Wait,   the job      is in a  different~office?    
+~           espera  o   trabalho é  em um escritório~diferente 
+
+[LINE]
+Speaker507: Carl is perfect  for  the job!     
+~           ~    é  perfeito para o   trabalho 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker2144: But you  said        [he's  terrible]!
+~            mas você disse~(que)  ele~é terrível  
+- you  want the job     
+~ você quer o   trabalho
++ he's  terrible
+~ ele~é terrível
+- he's  your~best      friend
+~ ele~é (o)~seu~melhor amigo 
+
+[LINE]
+Speaker507: What?  No!  He's  great!
+~           o~quê  não  ele~é ótimo 
+
+[LINE]
+Speaker2144: You  said        he  is   always late.    
+~            você disse~(que) ele está sempre atrasado 
+
+[LINE]
+Speaker507: Um…  it~was a   joke! 
+~           hum  foi    uma piada 
+
+[LINE]
+Speaker507: Please    promote him and send  him to   a  different~office!    
+~           por~favor promova ele e   mande ele para um escritório~diferente 
+
+[MULTIPLE_CHOICE]
+> Por que de repente a Bea disse que o Carl é ótimo?
+- Ela achou que o chefe dela estava falando de outra pessoa.
++ Ela quer que o Carl vá para outro escritório.
+- Ela só estava brincando antes disso.
+
+[MATCH]
+> Toque nos pares
+- about <> sobre
+- last week <> semana passada
+- to do <> fazer
+- like working <> gosta de trabalhar
+- have <> tenho
+
