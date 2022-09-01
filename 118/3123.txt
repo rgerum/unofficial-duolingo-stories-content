@@ -1,0 +1,101 @@
+[DATA]
+fromLanguageName=Love Letter
+icon=b9bc32f746bc3ed443e3241150d651567295af79
+set=14|2
+
+[HEADER]
+> Uma carta~de~amor
+~ a   love~letter  
+
+[LINE]
+> Zari está com  seu vizinho,  Júnior, na     biblioteca.
+~ Zari is~  with her neighbor  Júnior  in~the library    
+
+[LINE]
+Speaker418: O~que você~está~fazendo, Júnior?
+~           what  are~you~doing      Júnior 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: Humm… [Estou~escrevendo] uma carta. 
+~           hmm    I~am~writing      a   letter 
++ Estou escrevendo
+- Este escreve e vende
+- Está escrevendo
+
+[LINE]
+Speaker418: É~para~quem?  
+~           who~is~it~for 
+
+[LINE]
+Speaker415: É     para uma menina… Eu gosto~muito~dela.
+~           it~is for  a   girl    I  really~like~her  
+
+[LINE]
+Speaker418: Ah! É    uma carta~de~amor! É    para uma menina da~sua~classe?
+~           oh  it's a   love~letter    it's for  a   girl   in~your~class 
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(Não)… (Ela) (é)  (uma) (adolescente).]
+~             no     she   is   a     teenager      
+
+[LINE]
+Speaker418: Adolescente? Como~eu?
+~           teenager     like~me 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "neighbor."
+~ Choose the Option That Means  ~         
+Speaker415: (Sim)… (Ela) é  (minha)… (+vizinha). 
+~            yes    she  is  my        neighbor  
+
+[LINE]
+Speaker418: Um~minuto!     Ela é  uma adolescente e   é      sua  vizinha? 
+~           wait~a~minute  she is a   teenager    and she~is your neighbor 
+
+[LINE]
+Speaker415: Humm… Sim.
+~           hmm   yes 
+
+[LINE]
+Speaker418: Humm… E   ela~é  muito inteligente?
+~           hmm   and is~she very  intelligent 
+
+[LINE]
+Speaker415: Sim!
+~           yes 
+
+[CONTINUATION]
+> What comes next?
+Speaker418: Ai, Júnior! Essa~carta~é   para mim? Desculpe, mas você é   [muito novo]. 
+~           oh  Júnior  is~this~letter for  me   sorry     but you  are  very  young  
+- mais~velho
+~ older     
++ muito novo 
+~ very  young
+- sua  vizinha 
+~ your neighbor
+
+[LINE]
+Speaker415: Não! A   carta  não~é  para você… É     para a~sua      melhor~amiga, Lili!
+~           no   the letter is~not for  you   it~is for  (the)~your best~friend   Lili 
+
+[LINE]
+Speaker415: Humm… Você~entrega   a   carta  para ela, por~favor?
+~           hmm   would~you~hand the letter to   her  please    
+
+[MULTIPLE_CHOICE]
+> Zari thought Júnior was writing a love letter to her, but…
+-  …he was writing a book about love.
+- …he was doing homework.
++ …the letter was for Lili.
+
+[MATCH]
+> Tap the pairs
+- Lili <> Lili
+- O que <> what
+- não é <> is not
+- por favor <> please
+- Um minuto <> wait a minute
+
