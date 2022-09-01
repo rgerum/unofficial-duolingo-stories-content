@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Il vegetariano
+icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
+set=2|3
+
+[HEADER]
+> The Vegetarian 
+~ il  vegetariano
+
+[LINE]
+> Vikram is~reading   a  menu in a  nice restaurant.
+~ Vikram sta~leggendo un menù in un bel  ristorante 
+
+[LINE]
+Speaker385: Welcome!  
+~           benvenuto 
+
+[SELECT_PHRASE]
+> Seleziona la frase mancante
+Speaker593: Hello. I~have  a   question about    [the~menu].
+~           salve  (io)~ho una domanda  riguardo  al~menù   
++ the menu
+- the men
+- the man to
+
+[LINE]
+Speaker593: I~am      a~vegetarian.
+~           (io)~sono vegetariano  
+
+[LINE]
+Speaker593: Is~there vegetarian~food?     
+~           c'è      del~cibo~vegetariano 
+
+[MULTIPLE_CHOICE]
+> A Vikram piace mangiare la carne.
+- Sì, è giusto.
++ No, è sbagliato.
+
+[POINT_TO_PHRASE]
+> Seleziona l'opzione che significa "bistecche".
+Speaker385: (Yes), (we~have)       (very~good)    (+steaks).   
+~            sì     (noi)~abbiamo   delle~ottime    bistecche  
+
+[LINE]
+Speaker593: Steaks       are  meat.  I  do~not~eat meat. 
+~           le~bistecche sono carne  io non~mangio carne 
+
+[LINE]
+Speaker385: Oh, yes. I~am~sorry.
+~           oh  sì   mi~scusi   
+
+[LINE]
+Speaker385: The chicken is delicious.
+~           il  pollo   è  delizioso 
+
+[MULTIPLE_CHOICE]
+> Oh, no! Il cameriere pensa che Vikram...
+- ... odi il pollo.
++ … dovrebbe ordinare del pollo.
+- … non abbia fame.
+
+[LINE]
+Speaker593: Chicken  is meat. 
+~           il~pollo è  carne 
+
+[LINE]
+Speaker593: I~do~not~want   meat!    
+~           (io)~non~voglio la~carne 
+
+[LINE]
+Speaker385: We~have       salad…        
+~           (noi)~abbiamo dell'insalata 
+
+[LINE]
+Speaker593: Oh, I~like   salad!      What is  in~the~salad? 
+~           oh  mi~piace l'insalata  cosa c'è nell'insalata 
+
+[LINE]
+Speaker385: There~is tomato,       lettuce,       fish…     
+~           c'è      del~pomodoro  della~lattuga  del~pesce 
+
+[CONTINUATION]
+> Come continua la frase?
+Speaker593: I~do~not~eat    fish!     I~am      [a~vegetarian]!
+~           (io)~non~mangio il~pesce  (io)~sono  vegetariano   
+- a~salad    
+~ un'insalata
+- a  restaurant
+~ un ristorante
++ a~vegetarian
+~ vegetariano 
+
+[LINE]
+Speaker385: We~have       fries…             
+~           (noi)~abbiamo le~patatine~fritte 
+
+[LINE]
+Speaker593: OK. Fries              are~fine.  
+~           OK  le~patatine~fritte vanno~bene 
+
+[LINE]
+Speaker385: Fries,           perfect.  And… a  burger?   
+~           patatine~fritte  perfetto  e    un hamburger 
+
+[LINE]
+Speaker593: No     meat,  please!    
+~           niente carne  per~favore 
+
+[MULTIPLE_CHOICE]
+> Perché Vikram si è arrabbiato con il cameriere?
+- Il cibo del ristorante era pessimo.
+- Non ricordava il suo nome.
++ Continuava a dimenticare che fosse vegetariano.
+
+[MATCH]
+> Tocca le coppie
+- What <> cosa
+- Welcome <> benvenuto
+- is <> è
+- about <> riguardo
+- meat <> carne
+
