@@ -1,0 +1,110 @@
+[DATA]
+fromLanguageName=Junior's Choice
+icon=e0600de22649754eb7336b587834d36407767819
+set=10|1
+
+[HEADER]
+> Le~choix~de~Junior
+~ Junior's~choice   
+
+[LINE]
+> Junior est à~l'école et  c'est l'heure~du~déjeuner.
+~ Junior is  at~school and it's  lunchtime           
+
+[LINE]
+Speaker415: Bonjour, Claudette. Je suis prêt  pour le~déjeuner !
+~           hello    Claudette  I  am   ready for  lunch        
+
+[LINE]
+Speaker395: Bonjour, Junior. Aujourd'hui, nous avons du~poisson. 
+~           hello    Junior  today        we   have  (some)~fish 
+
+[MULTIPLE_CHOICE]
+> Claudette's saying that they have fish for lunch.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker395: Avec le  poisson, tu  peux~avoir une salade…
+~           with the fish     you can~have   a   salad  
+
+[LINE]
+Speaker395: … ou des~pommes~de~terre.
+~             or (some)~potatoes     
+
+[POINT_TO_PHRASE]
+> Choose the option that means "potatoes."
+Speaker415: (J'adore) (les~salades) (et)  (+les~pommes~de~terre) !
+~            I~love    salads        and    potatoes              
+
+[LINE]
+Speaker395: Tu  dois~choisir   un  des    deux, Junior.
+~           you have~to~choose one of~the two   Junior 
+
+[LINE]
+Speaker415: J'adore les~pommes~de~terre…
+~           I~love  potatoes            
+
+[LINE]
+Speaker415: … mais la~salade, c'est bon~pour~la~santé.   
+~             but  salad      it's  good~for~your~health 
+
+[MULTIPLE_CHOICE]
+> Hmm... what does Junior mean?
+- Salad gives you a stomachache.
++ Salad is good for your health.
+- He wants to be a potato.
+
+[LINE]
+Speaker395: Junior ?
+~           Junior  
+
+[CONTINUATION]
+> What comes next?
+Speaker415: Oui, je dois~choisir   un  des    [deux].
+~           yes  I  have~to~choose one of~the  two   
+- enfants
+~ kids   
++ deux
+~ two 
+- jeux 
+~ games
+
+[LINE]
+Speaker415: Je veux les pommes~de~terre. Non ! La  salade. Non !
+~           I  want the potatoes         no    the salad   no   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: [Je~ne~sais~pas] !
+~            I~don't~know     
+- Tu ne sais pas
++ Je ne sais pas
+- Je ne suis pas
+
+[LINE]
+Speaker395: Junior !
+~           Junior  
+
+[LINE]
+Speaker415: Oui, Claudette ?
+~           yes  Claudette  
+
+[LINE]
+Speaker395: Tu  peux~avoir les pommes~de~terre et  la  salade.
+~           you can~have   the potatoes        and the salad  
+
+[MULTIPLE_CHOICE]
+> What did Claudette tell Junior to do?
+- Imagine that potatoes are salad.
+- Go somewhere else to eat.
++ Take both the potatoes and the salad.
+
+[MATCH]
+> Tap the pairs
+- tu <> you
+- dois choisir <> have to choose
+- mais <> but
+- prêt <> ready
+- le <> the
+
