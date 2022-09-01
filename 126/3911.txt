@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=Horóscopos não são de verdade
+icon=10523c977de263efd9025298f59cc9e2f702d3f1
+set=26|4
+
+[HEADER]
+> Horoscopes Aren't  Real      
+~ horóscopos não~são de~verdade
+
+[LINE]
+> Eddy and Bea are   in a   coffee~shop. Bea is~reading the newspaper.
+~ Eddy e   Bea estão em uma cafeteria    Bea está~lendo o   jornal    
+
+[LINE]
+Speaker507: Hmm, this is interesting… 
+~           hmm  isto é  interessante 
+
+[LINE]
+Speaker414: What? 
+~           o~quê 
+
+[LINE]
+Speaker507: I'm~reading    my  horoscope. It  says    I'll~help   someone today.
+~           eu~estou~lendo meu horóscopo  ele diz~que eu~ajudarei alguém  hoje  
+
+[LINE]
+Speaker414: Horoscopes aren't  real.       A  newspaper can't~tell       you  about your future.
+~           horóscopos não~são de~verdade  um jornal    não~pode~dizer~a você sobre seu  futuro 
+
+[MULTIPLE_CHOICE]
+> O Eddy acha que os horóscopos podem prever o futuro.
+- Sim, isso mesmo.
++ Não, não é isso.
+
+[LINE]
+Speaker507: Well, I  read my  horoscope every day, and it's     usually     right.
+~           bem   eu leio meu horóscopo todo  dia  e   ele~está normalmente certo 
+
+[LINE]
+Speaker414: OK…    Can~I~read   my  horoscope?
+~           certo  eu~posso~ler meu horóscopo 
+
+[LINE]
+Speaker507: Sure. 
+~           claro 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "derrama".
+> (Bea) (gives) the newspaper to   (Eddy) and (+spills)  his~coffee. 
+~  Bea   dá     o   jornal    para  Eddy  e     derrama  o~café~dele 
+
+[LINE]
+Speaker507: Oh, no! 
+~           ah  não 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker507: [(Now)   (there's) (coffee) (on~your) (shirt)!] 
+~             agora   há        café     na~sua    camisa   
+
+[LINE]
+Speaker414: And I  have  an  important~meeting  in ten minutes!
+~           e   eu tenho uma reunião~importante em dez minutos 
+
+[LINE]
+Speaker507: Don't~worry!    I  have  an extra~sweater in my    bag.  
+~           não~se~precupe  eu tenho um suéter~extra  na minha bolsa 
+
+[LINE]
+> Bea gives     Eddy her~sweater.  
+~ Bea dá~para~o Eddy o~suéter~dela 
+
+[MULTIPLE_CHOICE]
+> Espera… Por que a Bea deu o suéter dela para o Eddy?
++ Ela derramou café na camisa dele.
+- O Eddy está com muito frio hoje.
+- A cor combina com os olhos do Eddy.
+
+[CONTINUATION]
+> O que vem depois?
+Speaker414: I  can't~wear     this! It's your [favorite~sweater]!
+~           eu não~posso~usar isto  é    seu   suéter~favorito   
++ favorite~sweater
+~ suéter~favorito 
+- newspaper
+~ jornal   
+- coffee~shop
+~ cafeteria  
+
+[LINE]
+Speaker507: Hmm… When~were~you~born?
+~           hmm  quando~você~nasceu 
+
+[LINE]
+Speaker414: October~fourth.
+~           4~de~outubro   
+
+[LINE]
+Speaker507: Oh, that means         you're a~Libra. 
+~           ah  isso significa~que você~é de~libra 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker414: That [doesn't~mean~anything].
+~           isso  não~significa~nada     
+- doesn't name anything
+- doesn't need many things
++ doesn't mean anything
+
+[LINE]
+Speaker507: Oh,~yeah? Then  listen~to this.
+~           ah,~é     então escuta    essa 
+
+[LINE]
+Speaker507: Your horoscope says:
+~           seu  horóscopo diz  
+
+[LINE]
+Speaker507: "You  will~have a  very~good~day today if you  let    a  friend help   you." 
+~            você terá      um dia~muito~bom hoje  se você deixar um amigo  ajudar você  
+
+[LINE]
+Speaker414: OK,    Bea. I'll~wear your sweater.
+~           certo  Bea  eu~usarei seu  suéter  
+
+[MULTIPLE_CHOICE]
+> A Bea acha que o horóscopo do Eddy está dizendo que…
+- …ele deveria deixar de beber café.
+- …ele vai ter um dia terrível.
++ …ele deveria usar o suéter dela.
+
+[MATCH]
+> Toque nos pares
+- help <> ajudar
+- have <> tenho
+- important meeting <> reunião importante
+- Horoscopes <> horóscopos
+- you <> você
+
