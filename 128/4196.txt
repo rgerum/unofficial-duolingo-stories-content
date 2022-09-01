@@ -1,0 +1,109 @@
+[DATA]
+fromLanguageName=Nhà bẩn
+icon=0e6ab8c3a4e3224cb700e8daeac0038f7f0e929e
+set=8|3
+
+[HEADER]
+> Dirty~Apartment
+~ nhà~bẩn        
+
+[LINE]
+> Bea goes~to her~friend~Sarah's~apartment.
+~ Bea tới     căn~hộ~của~cô~bạn~Sarah      
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker507: Hi,   Sarah, [how~are~you]?   
+~           chào  Sarah   cậu~khỏe~không  
++ how are you
+- how were two
+- now are you
+
+[LINE]
+Speaker175: I'm~terrible!           
+~           tớ~cảm~thấy~thật~tồi~tệ 
+
+[LINE]
+Speaker507: Oh,~no.  Why?    
+~           ôi~trời  sao~thế 
+
+[LINE]
+Speaker175: My~new~roommate           and I  always       argue     a~lot.    
+~           bạn~cùng~phòng~mới~của~tớ và  tớ lúc~nào~cũng tranh~cãi rất~nhiều 
+
+[MULTIPLE_CHOICE]
+> Sarah cảm thấy tồi tệ vì…
++ …cô ấy suốt ngày gây lộn với bạn cùng phòng.
+- …cô ấy bị dị ứng với con mèo của bạn cùng phòng.
+- …tối qua cô ấy thức quá khuya.
+
+[LINE]
+Speaker507: I'm~not  surprised! This~kitchen~is very dirty.
+~           tớ~không bất~ngờ    phòng~bếp~này   rất  bẩn   
+
+[LINE]
+Speaker175: Ugh, I  know.
+~           ừa   tớ biết 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker507: And    there's old~cheese          [on   that~table].
+~           và~còn có      phô~mai~để~lâu~ngày  trên cái~bàn~đó  
+- at the~supermarket
+~ ở  siêu~thị       
++ on   that~table
+~ trên cái~bàn~đó
+- on   your~head
+~ trên đầu~cậu  
+
+[LINE]
+Speaker175: Yes.   Yuck! 
+~           ừ~nhỉ  eo~ôi 
+
+[LINE]
+Speaker507: And    there~are dirty~clothes on   this~chair!   
+~           và~còn có        quần~áo~bẩn   trên chiếc~ghế~này 
+
+[LINE]
+Speaker507: Wait…   this is your~shirt.
+~           đợi~đã  đây  là áo~của~cậu 
+
+[LINE]
+Speaker175: Yes.
+~           ừ   
+
+[LINE]
+Speaker507: These~are~all     your~clothes!   
+~           tất~cả~chỗ~này~là quần~áo~của~cậu 
+
+[MULTIPLE_CHOICE]
+> Tất cả quần áo bẩn trên ghế là của Sarah.
++ Đúng vậy.
+- Không đúng.
+
+[LINE]
+Speaker507: Is~that  your~old~cheese,             too?! 
+~           kia~là…à phô~mai~để~lâu~ngày~của~cậu  cũng  
+
+[LINE]
+Speaker175: Yes!      I  never         clean,   and my~roommate           always       complains!
+~           đúng~thế  tớ không~bao~giờ dọn~dẹp  còn bạn~cùng~phòng~của~tớ lúc~nào~cũng kêu~ca    
+
+[LINE]
+Speaker175: She's~terrible!      
+~           cậu~ấy~thật~quá~đáng 
+
+[MULTIPLE_CHOICE]
+> Ra là Sarah và bạn cùng phòng cãi nhau vì…
++ …Sarah sống bừa bộn và không bao giờ dọn dẹp.
+- …Sarah toàn mặc đồ của bạn cùng phòng.
+- …Bea rất thích ăn phô mai để lâu ngày.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- never <> không bao giờ
+- this <> đây
+- Hi <> chào
+- I <> tớ
+- surprised <> bất ngờ
+
