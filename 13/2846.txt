@@ -1,0 +1,136 @@
+[DATA]
+fromLanguageName=Look at My Painting
+icon=b4a0fb96a3bb2af295051d49d3c112c4c91779e6
+set=17|1
+
+[HEADER]
+> Regarde mon tableau 
+~ look~at my  painting
+
+[LINE]
+> Eddy arrive  dans l'appartement~d'Oscar.
+~ Eddy arrives in   Oscar's~apartment     
+
+[LINE]
+> Eddy a   un tableau  dans la  main.
+~ Eddy has a  painting in   the hand 
+
+[LINE]
+Speaker592: C'est~quoi~ça, Eddy ?
+~           what's~that    Eddy  
+
+[LINE]
+Speaker414: C'est mon premier tableau  !
+~           it's  my  first   painting  
+
+[LINE]
+Speaker414: Tu~peux~le~regarder ?
+~           can~you~look~at~it   
+
+[MULTIPLE_CHOICE]
+> Eddy wants Oscar to look at his first painting.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker592: Non.
+~           no  
+
+[LINE]
+Speaker414: Mais tu  es  professeur~d'art.
+~           but  you are (an)~art~teacher 
+
+[LINE]
+Speaker592: Oui, et  je suis très honnête.
+~           yes  and I  am   very honest  
+
+[LINE]
+Speaker414: J'aime les~personnes~honnêtes !
+~           I~love honest~people           
+
+[ARRANGE]
+> Tap what you hear
+Speaker592: [(Tu)  (ne~vas~pas~être)     (content).]
+~             you   are~not~going~to~be   happy     
+
+[LINE]
+Speaker414: Mais je veux ton  opinion sur mon tableau. 
+~           but  I  want your opinion on  my  painting 
+
+[LINE]
+Speaker592: Il~n'est~pas bon. 
+~           it~isn't     good 
+
+[LINE]
+Speaker414: Comment~tu~le~sais ?
+~           how~do~you~know     
+
+[CONTINUATION]
+> What comes next?
+Speaker592: Tu  n'es~pas un artiste et  c'est [ton  premier~tableau].
+~           you are~not  an artist  and it's   your first~painting   
+- trop délicieux
+~ very delicious
++ ton  premier~tableau
+~ your first~painting 
+- un professeur~d'art
+~ an art~teacher     
+
+[LINE]
+Speaker592: Les~premiers tableaux  ne~sont~jamais bons.
+~           first        paintings are~never      good 
+
+[LINE]
+Speaker414: Regarde mon tableau,  s'il~te~plaît.
+~           look~at my  painting  please        
+
+[LINE]
+Speaker414: S'il~te~plaît, Oscar.
+~           please         Oscar 
+
+[LINE]
+Speaker592: D'accord.
+~           OK       
+
+[SELECT_PHRASE]
+> Select the missing phrase
+> Oscar [regarde~le~tableau].   
+~ Oscar  looks~at~the~painting  
+- regarde le bateau
++ regarde le tableau
+- réserve le château
+
+[LINE]
+Speaker592: Eddy ce   tableau  est…
+~           Eddy this painting is  
+
+[LINE]
+Speaker414: Oui ?!
+~           yes   
+
+[LINE]
+Speaker592: Vraiment bon. 
+~           really   good 
+
+[LINE]
+Speaker414: Oui ! Super   ! Je suis un artiste !
+~           yes   awesome   I  am   an artist   
+
+[LINE]
+Speaker592: Et  maintenant, sors    de chez~moi, s'il~te~plaît.
+~           and now         get~out of my~house  please        
+
+[MULTIPLE_CHOICE]
+> Why was Oscar surprised that Eddy's painting was good?
++ He thought first paintings were never good.
+- Eddy painted it when he was a child.
+- Eddy has always been a bad painter.
+
+[MATCH]
+> Tap the pairs
+- ton <> your
+- n'es pas <> are not
+- chez moi <> my house
+- sur <> on
+- Il n'est pas <> it isn't
+
