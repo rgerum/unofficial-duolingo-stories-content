@@ -1,0 +1,107 @@
+[DATA]
+fromLanguageName=Vikram's Plants
+icon=c3349839a5c44c2f209b5fc0993e4567e294246a
+set=18|1
+
+[HEADER]
+> Les~plantes~de~Vikram
+~ Vikram's~plants      
+
+[LINE]
+> Eddy va   chercher   son~voisin   Vikram à  l'aéroport. 
+~ Eddy goes to~pick~up his~neighbor Vikram at the~airport 
+
+[LINE]
+Speaker593: Salut, Eddy ! Merci     de~me~conduire chez~moi.   
+~           hi     Eddy   thank~you for~driving~me to~my~place 
+
+[LINE]
+Speaker414: C'est~normal ! Mais j'ai   quelque~chose à~te~dire.  
+~           no~big~deal    but  I~have something     to~tell~you 
+
+[LINE]
+Speaker593: Ah oui ?
+~           ah yes  
+
+[LINE]
+Speaker414: J'ai~arrosé tes  plantes.
+~           I~watered   your plants  
+
+[MULTIPLE_CHOICE]
+> What did Eddy do while Vikram was gone?
+- He slept at the airport.
+- He bought plants for Vikram's house.
++ He watered Vikram's plants.
+
+[LINE]
+Speaker593: Merci     !
+~           thank~you  
+
+[POINT_TO_PHRASE]
+> Choose the option that means "dead."
+Speaker414: (Mais) (toutes) tes  (plantes) sont (+mortes).
+~            but    all     your  plants   are    dead    
+
+[LINE]
+Speaker593: Quoi !? J'étais en~voyage seulement une   semaine !
+~           what    I~was   on~a~trip only      for~a week     
+
+[ARRANGE]
+> Tap what you hear
+> [(Ils~arrivent) (chez~Vikram)       (et)  (regardent)   (les~plantes).]
+~   they~arrive    at~Vikram's~place   and   and~look~at   the~plants    
+
+[LINE]
+Speaker414: Cette plante était verte. Maintenant, elle est marron.
+~           this  plant  was   green  now         it   is  brown  
+
+[LINE]
+Speaker593: Oui, cette plante est morte.
+~           yes  this  plant  is  dead  
+
+[LINE]
+Speaker414: Et  cette plante était rouge, et  maintenant, elle~est marron aussi.
+~           and this  plant  was   red    and now         it~is    brown  too   
+
+[LINE]
+Speaker593: Eddy, comment mes~plantes~sont-elles~mortes ?!
+~           Eddy  how     did~my~plants~die               
+
+[LINE]
+Speaker414: Je ne~sais~pas. J'ai~arrosé tes  plantes trois~fois~par~jour !
+~           I  don't~know   I~watered   your plants  three~times~a~day    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker593: [Trois~fois~par~jour] ?! Mais j'ai~dit trois~fois~par~semaine !
+~            three~times~a~day       but  I~said   three~times~a~week      
+- Trois fois au four
++ Trois fois par jour
+- Treize fois par jour
+
+[LINE]
+Speaker414: Oh. Désolé.
+~           oh  sorry  
+
+[LINE]
+Speaker414: Mais regarde ! Cette plante n'est~pas marron, elle est verte !
+~           but  look      this  plant  isn't     brown   it   is  green  
+
+[LINE]
+Speaker593: Eddy, c'est une plante~en~plastique.
+~           Eddy  it's  a   plastic~plant       
+
+[MULTIPLE_CHOICE]
+> Uh oh! What did Eddy do wrong?
+- He forgot to take care of Vikram's plants.
++ He gave the plants too much water.
+- He didn't give the plants enough water.
+
+[MATCH]
+> Tap the pairs
+- comment <> how
+- j'ai <> I have
+- c'est <> it's
+- Je <> I
+- chez Vikram <> at Vikram's place
+
