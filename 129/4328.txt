@@ -1,0 +1,127 @@
+[DATA]
+fromLanguageName=İlk Ev
+icon=dc39b146e09be64389b169c261884a6c5ea6fcca
+set=9|1
+
+[HEADER]
+> First House
+~ İlk   ev   
+
+[LINE]
+> Gina and Ryan want     to~buy      a   house.
+~ ~    ve  ~    isterler satın~almak bir ev    
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker336: [Houses~in~the~city] are  too expensive.
+~            şehirdeki~evler     -dır çok pahalı    
++ Houses in the city
+- South end of the city
+- Houses in the sitting
+
+[LINE]
+Speaker385: I~know.   
+~           biliyorum 
+
+[LINE]
+Speaker385: But our~apartment      is so  small.
+~           ama bizim~apartmanımız ~  çok küçük 
+
+[LINE]
+Speaker385: And I   really    want      a   dog!  
+~           Ve  ben gerçekten istiyorum bir köpek 
+
+[LINE]
+Speaker336: I~know.   
+~           biliyorum 
+
+[LINE]
+Speaker385: I     have an  idea.  
+~           benim var  bir fikrim 
+
+[LINE]
+Speaker385: Do    you want  to~take~a~train~ride? 
+~           misin sen ister tren~yolculuğu~yapmak 
+
+[MULTIPLE_CHOICE]
+> Ryan ne istiyor?
+- Gina'nın trende yaşamak isteyip istemediğini.
++ Gina'nın trende bir yere gitmek isteyip istemediğini.
+- Gina'nın trenin kaçta geldiğini bilip bilmediğini.
+
+[LINE]
+Speaker336: OK…  
+~           peki 
+
+[LINE]
+> Gina and Ryan go       to~see  a   house.
+~ ~    ve  ~    giderler bakmaya bir ev    
+
+[LINE]
+Speaker385: This~is my~grandparents'|          house.
+~           burası  büyükanne~ve~büyükbabamın  evi   
+
+[LINE]
+Speaker385: But   they  don't~live   here   now.  
+~           Fakat onlar yaşamıyorlar burada şimdi 
+
+[MULTIPLE_CHOICE]
+> Ev, Ryan'ın büyükbabasına ait ama artık orada yaşamıyorlar.
++ Evet, bu doğru.
+- Hayır, bu doğru değil.
+
+[LINE]
+Speaker385: It's not   in  the city… 
+~           ~    değil -de ~   şehir 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker385: … [(but) (it's) (near)  (the~train~station)!]
+~               ama   ~      yakın   tren~istasyonuna    
+
+[LINE]
+Speaker385: There~are four big   rooms.
+~           var       dört büyük odası 
+
+[LINE]
+Speaker385: And there's grass for  a   dog!  
+~           Ve  var     çimen için bir köpek 
+
+[POINT_TO_PHRASE]
+> "Düşünür" anlamına gelen kelimeye tıklayın.
+> (Gina) (+thinks)  (for~a~minute).    
+~  ~       düşünür   bir~dakikalığına  
+
+[LINE]
+Speaker336: Ryan…
+
+[LINE]
+Speaker336: It's perfect! 
+~           bu   mükemmel 
+
+[LINE]
+Speaker336: But we    need            one thing.
+~           ama bizim ihtiyacımız~var bir şeye  
+
+[LINE]
+Speaker385: What?
+~           neye 
+
+[LINE]
+Speaker336: A   dog!   
+~           Bir köpeğe 
+
+[MULTIPLE_CHOICE]
+> Ryan ve Gina ne karar verdi?
+- Şehirde pahalı yeni bir daireye taşınmaya.
+- Küçük dairelerinde kalıp, bir köpek almaya.
++ Ryan'ın büyükbabasının şehir dışındaki evine taşınmaya.
+
+[MATCH]
+> Çiftlere dokun
+- a <> bir
+- near <> yakın
+- dog <> köpek
+- OK <> peki
+- here <> burada
+
