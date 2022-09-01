@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=Where Is Marie?
+icon=7a321a8d84d41c79b4d3c85aced0cbcdd13756b6
+set=8|3
+
+[HEADER]
+> Où    est Marie ?
+~ where is  Marie  
+
+[LINE]
+> Junior rentre          de~l'école. 
+~ Junior comes~back~home from~school 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+> Il~y~a   une femme [dans~le~salon].     
+~ there~is a   woman  in~the~living~room  
+- sort du salon
+- dans le wagon
++ dans le salon
+
+[LINE]
+Speaker415: Bonjour… Qui êtes-vous ?
+~           hello    who are~you    
+
+[LINE]
+Speaker658: Je suis Agathe.
+~           I  am   Agathe 
+
+[LINE]
+Speaker658: J'attends         ton~papa. Il est aux~toilettes.  
+~           I'm~waiting~(for) your~dad  he is  in~the~bathroom 
+
+[LINE]
+Speaker415: Moi,~c'est~Junior ! Où    est Marie ?
+~           I'm~Junior          where is  Marie  
+
+[LINE]
+Speaker658: Enchantée,        Junior.
+~           nice~to~meet~you  Junior 
+
+[LINE]
+Speaker658: Je ne~sais~pas où    est Marie. Elle est souvent ici  ?
+~           I  don't~know  where is  Marie  she  is  often   here  
+
+[LINE]
+Speaker415: Oui ! Tous~les~jours.
+~           yes   every~day      
+
+[LINE]
+Speaker658: Tous~les~jours !?
+~           every~day        
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(Papa) (et~Marie)  (parlent) (tous~les~matins).]
+~             Dad    and~Marie   talk      every~morning     
+
+[LINE]
+Speaker658: Quoi !?
+~           what   
+
+[LINE]
+Speaker658: Et…  tu  aimes~bien Marie ?
+~           and  you like       Marie  
+
+[LINE]
+Speaker415: Oui, j'aime~bien Marie, mais…
+~           yes  I~like      Marie  but  
+
+[LINE]
+Speaker415: … elle parle beaucoup ! Mais mon père   adore Marie !
+~             she  talks a~lot      but  my  father loves Marie  
+
+[MULTIPLE_CHOICE]
+> Junior likes Marie…
+- …but she's a terrible cook.
++ …but she talks too much.
+- …but she doesn't like him.
+
+[LINE]
+Speaker658: Il adore Marie ?!
+~           he loves Marie   
+
+[CONTINUATION]
+> What comes next?
+Speaker658: Ton~père    ne~peut~pas~être [avec deux femmes ]!
+~           your~father can't~be          with two  women    
+- ma mère  
+~ my mother
+- souvent ici 
+~ often   here
++ avec deux femmes
+~ with two  women 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "leaves."
+> (Agathe) (+part).   (Eddy) (sort~des~toilettes).       
+~  Agathe    leaves    Eddy   comes~out~of~the~bathroom  
+
+[LINE]
+Speaker414: Où    est Agathe ?
+~           where is  Agathe  
+
+[LINE]
+Speaker415: Elle n'aime~pas   Marie.
+~           she  doesn't~like Marie 
+
+[LINE]
+Speaker414: Oh, non !
+~           oh  no   
+
+[LINE]
+Speaker414: Agathe ! Marie est notre~perroquet !
+~           Agathe   Marie is  our~parrot       
+
+[LINE]
+Speaker625: Croa   ! Au~revoir, Agathe !
+~           squawk   goodbye    Agathe  
+
+[MULTIPLE_CHOICE]
+> Oops! Why did Agathe leave?
++ She didn't know that Marie is a bird.
+- Eddy wouldn't come out of the bathroom.
+- She saw another woman in the living room.
+
+[MATCH]
+> Tap the pairs
+- femme <> woman
+- Il <> he
+- femmes <> women
+- Au revoir <> goodbye
+- tu <> you
+
