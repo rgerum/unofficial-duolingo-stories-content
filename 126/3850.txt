@@ -1,0 +1,102 @@
+[DATA]
+fromLanguageName=Lucy e os dinossauros
+icon=f6ce899637bb8181ee5e78382fdf71a0f01e4f95
+set=11|3
+
+[HEADER]
+> Lucy and the Dinosaurs  
+~ Lucy e   os  dinossauros
+
+[LINE]
+> Lucy opens her~apartment~door.           
+~ Lucy abre  (a)~porta~do~apartamento~dela 
+
+[LINE]
+Speaker509: Hello, Junior!
+~           olá    Junior 
+
+[LINE]
+Speaker415: Hello! Can~you~help~me~write          a   report  for  school?    
+~           olá    você~pode~me~ajudar~a~escrever uma redação para (a)~escola 
+
+[LINE]
+Speaker509: Oh, yes!
+~           ah  sim 
+
+[LINE]
+Speaker509: I'm    a   great writer.    I  have  a  very~popular~blog. 
+~           eu~sou uma ótima escritora  eu tenho um blog~muito~popular 
+
+[MULTIPLE_CHOICE]
+> A Lucy diz que ela é uma boa escritora porque…
+- …ela sempre tirou notas boas na escola.
+- …ela escreve cartas de amor todos os dias.
++ …ela tem um blog muito popular.
+
+[ARRANGE]
+> Toque no que escutar
+Speaker509: [(Do~you~read) (my)      (blog)?]
+~             você~lê       (o)~meu   ~      
+
+[LINE]
+Speaker415: No. 
+~           não 
+
+[LINE]
+Speaker509: I  have  a~lot~of books. 
+~           eu tenho muitos   livros 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "pesquisa".
+Speaker509: (Do~you~need)        my   (books)  (for)  (+research)?    
+~            você~precisa~(dos)  meus  livros   para    (a)~pesquisa  
+
+[CONTINUATION]
+> O que vem depois?
+Speaker415: I  don't~need        your~books s].
+~           eu não~preciso~(dos) seus~livros   
+- report 
+~ redação
+- apartment  
+~ apartamento
++ books 
+~ livros
+
+[LINE]
+Speaker509: What~is~your~report~about?  
+~           sobre~o~que~é~a~sua~redação 
+
+[LINE]
+Speaker415: Dinosaurs.  
+~           dinossauros 
+
+[LINE]
+Speaker509: Why     do~you~want to~talk~to~me?
+~           por~que você~quer   falar~comigo  
+
+[LINE]
+Speaker415: Because you  are very  old.  
+~           porque  você é   muito velha 
+
+[LINE]
+Speaker415: You  know    a~lot~of dinosaurs,   right?
+~           você conhece muitos   dinossauros  né?   
+
+[LINE]
+Speaker509: Goodbye, Junior.
+~           adeus    Junior 
+
+[MULTIPLE_CHOICE]
+> Por que o Junior achava que a Lucy sabia sobre dinossauros?
+- Ela escreve um blog sobre dinossauros.
+- Ela costumava ter um dinossauro como animal de estimação.
++ Ela é mais velha que ele.
+
+[MATCH]
+> Toque nos pares
+- your books <> seus livros
+- are <> é
+- my <> meu
+- I <> eu
+- Junior <> Junior
+
