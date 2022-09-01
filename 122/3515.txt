@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=Nach Rom gehen
+icon=7a9d96c0ef5e239395ce01891267355130ad35aa
+set=20|2
+
+[HEADER]
+> Going~to~Rome 
+~ nach~Rom~gehen
+
+[LINE]
+> Zari runs  to Lily in~the~hall at~school.    
+~ Zari rennt zu Lily im~Flur     in~der~Schule 
+
+[LINE]
+Speaker418: Lily, I   have a~problem.  
+~           Lily  ich habe ein~Problem 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker416: Zari, for~the last    time, it's   OK if   you don't~get      [a~perfect~grade]!   
+~           Zari  zum     letzten Mal   es~ist OK wenn du  nicht~bekommst  eine~perfekte~Note  
++ a perfect grade
+- a perfect read
+- a person's grade
+
+[LINE]
+Speaker418: No,   I   think  Enzo is  in~love~with~me. 
+~           nein  ich glaube Enzo ist in~mich~verliebt 
+
+[LINE]
+Speaker416: Enzo? The~student visiting~from~Italy?  
+~           Enzo  der~Schüler zu~Besuch~aus~Italien 
+
+[LINE]
+Speaker418: Yes, I   think  he's~going to~ask~me   to~visit~him~in~Rome.     
+~           ja   ich glaube er~wird    mich~fragen ob~ich~ihn~in~Rom~besuche 
+
+[MULTIPLE_CHOICE]
+> Was ist Zaris Problem?
++ Sie glaubt, dass Enzo sie mit nach Rom nehmen will.
+- Sie fällt in ihrem Italienischkurs durch.
+- Ihre Familie zieht nach Rom.
+
+[LINE]
+Speaker416: Really?  
+~           wirklich 
+
+[LINE]
+Speaker418: Then we'll      get~married!
+~           dann werden~wir heiraten    
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker418: We'll      have~an~apartment  with [a~great~view]       of~the~Colosseum. 
+~           wir~werden eine~Wohnung~haben mit   einer~tollen~Sicht  auf~das~Kolosseum 
+- a great new
+- a gray view
++ a great view
+
+[LINE]
+Speaker418: And we'll      have~a~scooter     and a~cat      named  Fellini!
+~           und wir~werden einen~Roller~haben und eine~Katze namens Fellini 
+
+[LINE]
+Speaker416: Wow, that's  a…   detailed      plan.
+~           wow  das~ist ein  ausführlicher Plan 
+
+[MULTIPLE_CHOICE]
+> Hmm … Lily ist überrascht darüber, was Zari sagt. Warum?
+- Sie glaubt, dass Zari ihre Katze Lily nennen will.
+- Sie glaubt nicht, dass Enzo eine echte Person ist.
++ Sie findet, dass Zari zu weit vorausplant.
+
+[LINE]
+Speaker418: But  now   I~need   to~tell~my~parents…         
+~           aber jetzt muss~ich (es)~meinen~Eltern~erzählen 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker416: Zari… why   do~you~think that [he wants you~to~go~to~Rome]?     
+~           Zari  warum glaubst~du   dass  er will  dass~du~nach~Rom~gehst  
+- you're~going~to~the~gym        
+~ dass~du~ins~Fitnessstudio~gehst
++ he wants you~to~go~to~Rome     
+~ er will  dass~du~nach~Rom~gehst
+- he's~sleeping~in~the~library     
+~ dass~er~in~der~Bibliothek~schläft
+
+[LINE]
+Speaker418: He said~very~romantic~things         to me. 
+~           er hat~sehr~romantische~Dinge~gesagt zu mir 
+
+[LINE]
+Speaker416: Really?  
+~           wirklich 
+
+[LINE]
+Speaker418: Yes, he asked~me         if I   like~Rome.
+~           ja   er hat~mich~gefragt ob ich Rom~mag   
+
+[LINE]
+Speaker418: He also~asked       if I   like~cats. 
+~           er hat~auch~gefragt ob ich Katzen~mag 
+
+[ARRANGE]
+> Was hörst du?
+Speaker418: [(He) (even~asked)        (about) (my~family)!]     
+~             er   hat~sogar~gefragt   nach    meiner~Familie   
+
+[LINE]
+Speaker416: Zari… I   think  he's~asking~those~questions to~everyone in our~class.     
+~           Zari  ich glaube er~stellt~diese~Fragen      jedem       in unserer~Klasse 
+
+[LINE]
+Speaker418: What?!
+~           was   
+
+[LINE]
+Speaker416: Those questions are  from his~textbook.   
+~           diese Fragen    sind aus  seinem~Textbuch 
+
+[LINE]
+Speaker416: He's~just~practicing his~English.  
+~           er~übt~nur           sein~Englisch 
+
+[MULTIPLE_CHOICE]
+> Zari dachte, dass Enzo in sie verliebt ist, aber …
+- … er ist eigentlich in Lily verliebt.
+- … er will nur einen Motorroller und eine Katze namens Fellini.
++ … er hat ihr nur Fragen aus seinem Textbuch gestellt.
+
+[MATCH]
+> Wähle die Paare
+- wants <> will
+- last <> letzten
+- I need <> muss ich
+- Zari <> Zari
+- his English <> sein Englisch
+
