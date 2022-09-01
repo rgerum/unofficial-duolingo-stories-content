@@ -1,0 +1,101 @@
+[DATA]
+fromLanguageName=Restoran
+icon=d009bf5a911fc69baee4534e0bcc9e5478a9b633
+set=6|2
+
+[HEADER]
+> The Restaurant
+~ ~   Restoran  
+
+[LINE]
+> Ana is at  a   new  restaurant in  her~city.  
+~ ~   ~  -da bir yeni restoran   -de onun~şehri 
+
+[LINE]
+Speaker386: Hello! What would~you~like to~eat?
+~           Selam  Ne   istersiniz     yemek  
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker387: I~would~like  [a~glass~of~water] and a   salad,  please.
+~           rica~ediyorum  bir~bardak~su     ve  bir salata  Lütfen 
+- a girl of water
+- a glass of weather
++ a glass of water
+
+[LINE]
+Speaker386: OK!       One~glass~of water and one potato  salad—   
+~           tamamdır  bir~bardak   Su    ve  bir Patates salatası 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker387: [(No),    (I~don't~want) (a)   (potato~salad).]    
+~             Hayır    istemiyorum    bir   patates~salatası   
+
+[LINE]
+Speaker386: Oh. Well… do~you~like   soup? 
+~           ~   peki  sever~misiniz çorba 
+
+[CONTINUATION]
+> Sıradaki ne olabilir?
+Speaker387: Yes!  I~like  soup!  Do~you~have [tomato  soup]?    
+~           Evet  severim çorba  var~mı       domates çorbanız  
++ tomato soup   
+~ ~      çorbası
+- a   new restaurant
+~ bir ~   ~         
+- potato salad   
+~ ~      salatası
+
+[LINE]
+Speaker386: No,    but   we    have potato  soup—    
+~           Hayır  fakat bizim var  Patates çorbamız 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker387: [(Can~I~have)     (a)   (sandwich)?]
+~             alabilir~miyim   bir   sandviç    
+
+[LINE]
+Speaker386: We    have potato  sandwiches!    
+~           bizim var  Patates sandviçlerimiz 
+
+[POINT_TO_PHRASE]
+> "-siz/-sız" anlamına gelen seçeneği tıklayın.
+Speaker387: (Do~you~have) any (food)      (+without) (potatoes)?
+~            var~mı       hiç  yemeğiniz    -siz      patates   
+
+[LINE]
+Speaker386: No,    we~don't!
+~           Hayır  yok      
+
+[LINE]
+Speaker387: What kind of restaurant   is this?!
+~           Ne   tür  ~  bir~restoran ~  bu    
+
+[LINE]
+Speaker386: It's a   potato  restaurant!
+~           bu   bir Patates restoranı  
+
+[LINE]
+Speaker387: Oh… a   potato  restaurant…
+~           ~   bir Patates restoranı  
+
+[LINE]
+Speaker387: Wait,       what?!
+~           bir~dakika  ne    
+
+[MULTIPLE_CHOICE]
+> Restoranın…
+- … Hiçbir bir yemeği yok.
+- … Sadece suyu var.
++ … Sadece patatesli yemekleri var.
+
+[MATCH]
+> Çiftlere dokun
+- tomato <> domates
+- What <> Ne
+- in <> -de
+- Well <> peki
+- potato <> Patates
+
