@@ -1,0 +1,159 @@
+[DATA]
+fromLanguageName=Fallender Fahrstuhl
+icon=f5dc8cdee1c001f2b1b6c4c56613c01a458a17c3
+set=22|1
+
+[HEADER]
+> Falling   Elevator 
+~ fallender Fahrstuhl
+
+[LINE]
+> Lin and Bea are  in an~elevator.    
+~ Lin und Bea sind in einem~Fahrstuhl 
+
+[LINE]
+> Suddenly,  the~elevator~makes  a   strange      sound.   
+~ plötzlich  macht~der~Fahrstuhl ein eigenartiges Geräusch 
+
+[LINE]
+Speaker507: Did  you hear~that? 
+~           hast du  das~gehört 
+
+[LINE]
+Speaker508: That didn't    sound~good.   
+~           das  hat~nicht gut~geklungen 
+
+[MULTIPLE_CHOICE]
+> Was meint Lin damit?
+- Sie mag Beas Stimme nicht.
++ Das Geräusch, das der Fahrstuhl macht, klingt nicht gut.
+- Sie mag die Musik im Fahrstuhl.
+
+[LINE]
+Speaker507: That didn't         feel~good!    
+~           das  hat~sich~nicht gut~angefühlt 
+
+[LINE]
+Speaker508: Oh no!   The~elevator  is~falling!
+~           oh nein  der~Fahrstuhl fällt      
+
+[LINE]
+Speaker507: Oh, good. It stopped!       
+~           oh  gut   er hat~angehalten 
+
+[ARRANGE]
+> Was hörst du?
+Speaker508: [(I)   (don't~want) (to~die)…] 
+~             ich   will~nicht   sterben   
+
+[LINE]
+Speaker507: AHH! The~elevator  is~falling again! 
+~           aah  der~Fahrstuhl fällt      wieder 
+
+[LINE]
+Speaker508: I'm     too young to die!    
+~           ich~bin zu  jung  zu sterben 
+
+[LINE]
+> The~elevator  stops~again.   
+~ der~Fahrstuhl hält~wieder~an 
+
+[LINE]
+Speaker507: There~are still so many  things I         want~to~do  in my~life!     
+~           es~gibt   noch  so viele Dinge  (die)~ich machen~will in meinem~Leben 
+
+[MULTIPLE_CHOICE]
+> Bea ist aufgebracht, weil …
+- … sie Zahnschmerzen hat.
+- … sie zu spät zur Arbeit kommt.
++ … sie noch so viele Dinge in ihrem Leben machen will.
+
+[LINE]
+Speaker508: I   want to~climb~Mount~Everest!       
+~           ich will (den)~Mount~Everest~besteigen 
+
+[LINE]
+Speaker507: I   want to~win~the~New~York~Marathon!  
+~           ich will den~New~York~Marathon~gewinnen 
+
+[LINE]
+Speaker508: I   want to~learn how to~fly~a~plane!         
+~           ich will lernen   wie man~ein~Flugzeug~fliegt 
+
+[LINE]
+Speaker507: I   want to~teach~my~cat~to~drive!          
+~           ich will meiner~Katze~das~Fahren~beibringen 
+
+[LINE]
+Speaker508: Wait,   what did  you just   say?   
+~           Moment  was  hast du  gerade gesagt 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker507: Oh no!   We're~falling [again]! 
+~           oh nein  wir~fallen     wieder  
+- next        
+~ als~Nächstes
++ again 
+~ wieder
+- first 
+~ zuerst
+
+[LINE]
+> There's     a   very loud   sound.    The~elevator  stops.  
+~ es~erklingt ein sehr lautes Geräusch  der~Fahrstuhl hält~an 
+
+[LINE]
+Speaker508: Wait! 
+~           warte 
+
+[LINE]
+Speaker507: The~doors are~opening!
+~           die~Türen öffnen~sich 
+
+[LINE]
+Speaker507: We're    OK!
+~           wir~sind OK 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker508: [That~was~exciting].
+~            das~war~aufregend  
+- That ex again
+- That was expensive
++ That was exciting
+
+[LINE]
+> Lin and Bea leave     the~elevator.  Everyone is   safe.  
+~ Lin und Bea verlassen den~Fahrstuhl  alle     sind sicher 
+
+[LINE]
+Speaker507: So   what are~you~going to~do  today?
+~           also was  wirst~du      machen heute 
+
+[LINE]
+Speaker508: Nothing. I'll      probably       watch~TV.  What about~you?  
+~           nichts   ich~werde wahrscheinlich fernsehen  was  ist~mit~dir 
+
+[LINE]
+Speaker507: Me  too.  Bye.    
+~           ich auch  tschüss 
+
+[LINE]
+Speaker508: See~you~later.
+~           bis~später    
+
+[MULTIPLE_CHOICE]
+> Nachdem Lin und Bea den fallenden Fahrstuhl überlebt hatten, …
++ … haben sie beschlossen, nach Hause zu gehen und nichts Besonderes zu machen.
+- … hat Beas Katze sie nach Hause gefahren.
+- … haben sie beschlossen, viele aufregende Dinge zu machen.
+
+[MATCH]
+> Wähle die Paare
+- The doors <> die Türen
+- in <> in
+- the elevator makes <> macht der Fahrstuhl
+- loud <> lautes
+- watch TV <> fernsehen
+
