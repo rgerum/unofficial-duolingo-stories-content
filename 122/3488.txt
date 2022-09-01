@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=Schau dir mein Gemälde an
+icon=b4a0fb96a3bb2af295051d49d3c112c4c91779e6
+set=13|3
+
+[HEADER]
+> Look~at~My~Painting      
+~ schau~dir~mein~Gemälde~an
+
+[LINE]
+> Eddy walks into Oscar's apartment.
+~ Eddy geht  in   Oscars  Wohnung   
+
+[LINE]
+> Eddy is~carrying a   painting.
+~ Eddy trägt       ein Gemälde  
+
+[LINE]
+Speaker592: What is  that, Eddy?
+~           was  ist das   Eddy 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker414: It's   [my~first~painting]!  
+~           es~ist  mein~erstes~Gemälde  
+- my fast painting
++ my first painting
+- my first printing
+
+[LINE]
+Speaker414: Can    you look~at~it?    
+~           kannst du  es~dir~ansehen 
+
+[LINE]
+Speaker592: No.  
+~           nein 
+
+[LINE]
+Speaker414: But  you're  an  art~teacher.
+~           aber du~bist ein Kunstlehrer 
+
+[MULTIPLE_CHOICE]
+> Eddy möchte …
++ …, dass sich Oscar sein Gemälde ansieht
+- …, dass Oscar ihm etwas malt.
+- … Oscar etwas über Kunst beibringen.
+
+[LINE]
+Speaker592: Yes, and I   am  very honest. 
+~           ja   und ich bin sehr ehrlich 
+
+[LINE]
+Speaker414: Good.
+~           gut  
+
+[LINE]
+Speaker592: And you will  cry.   
+~           und du  wirst weinen 
+
+[MULTIPLE_CHOICE]
+> Moment! Warum sagt Oscar, dass Eddy weinen wird?
+- Er will eine traurige Geschichte erzählen.
+- Seine Gemälde sind so schön.
++ Er wird sehr ehrlich sein, wenn er das Gemälde nicht mag.
+
+[LINE]
+Speaker414: But  I   want to~know if the painting is~good.
+~           aber ich will wissen  ob das Gemälde  gut~ist 
+
+[LINE]
+Speaker592: It's   not   good.
+~           es~ist nicht gut  
+
+[LINE]
+Speaker414: How   do~you~know? 
+~           woher weißt~du~das 
+
+[LINE]
+Speaker592: You are  not~an artist.   And it's   your first  painting.
+~           du  bist kein   Künstler  und es~ist dein erstes Gemälde  
+
+[ARRANGE]
+> Was hörst du?
+Speaker592: [(First) (paintings) (are)  (never) (good).]
+~             erste   Gemälde     sind   nie     gut    
+
+[LINE]
+Speaker414: Please, look~at~it.    
+~           bitte   sieh~es~dir~an 
+
+[LINE]
+Speaker414: Please, Oscar.
+~           bitte   Oscar 
+
+[LINE]
+Speaker592: Fine.   I'll      look~at~it.    
+~           na~gut  ich~werde es~mir~ansehen 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+> Oscar looks~at~the~painting    g].
+~ Oscar sieht~sich~das~Gemälde~an   
+- the apartment
+~ die Wohnung  
++ the painting
+~ das Gemälde 
+- Eddy crying
+~ Eddy weinen
+
+[LINE]
+Speaker592: Eddy, this   painting is… 
+~           Eddy  dieses Gemälde  ist 
+
+[LINE]
+Speaker414: Yes?!
+~           ja   
+
+[LINE]
+Speaker592: Really   good.
+~           wirklich gut  
+
+[LINE]
+Speaker414: Yes! Cool! I'm     a   good  artist!  
+~           ja   cool  ich~bin ein guter Künstler 
+
+[LINE]
+Speaker592: Now   please~leave. 
+~           jetzt geh~bitte~weg 
+
+[MULTIPLE_CHOICE]
+> Warum war Oscar überrascht, dass Eddys Gemälde so gut war?
+- Eddy war schon immer ein schlechter Künstler.
+- Eddy hat es gemalt, als er ein Kind war.
++ Er dachte, dass erste Gemälde nie gut seien.
+
+[MATCH]
+> Wähle die Paare
+- Really <> wirklich
+- your <> dein
+- Eddy <> Eddy
+- Now <> jetzt
+- Fine <> na gut
+
