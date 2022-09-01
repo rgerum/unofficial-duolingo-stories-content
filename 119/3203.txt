@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=The Waiter Is Right
+icon=c8d008581b5b813d1b4afcedbe914f70003145c6
+set=9|2
+
+[HEADER]
+> Der Kellner hat~recht
+~ the waiter  is~right 
+
+[LINE]
+> Bea und ihr Freund Tim sind im~Restaurant.    
+~ Bea and her friend Tim are  in~the~restaurant 
+
+[LINE]
+Speaker507: Ich bin hungrig.
+~           I   am  hungry  
+
+[LINE]
+Speaker440: Es~gibt  hier sehr leckeren  Fisch!
+~           there~is here very delicious fish  
+
+[MULTIPLE_CHOICE]
+> Tim thinks that the fish will taste bad.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+> Der Kellner kommt zu ihnen.
+~ the waiter  comes to them  
+
+[LINE]
+Speaker526: Guten Abend!   Was  möchten~Sie    essen? 
+~           good  evening  what would~you~like to~eat 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: Ich nehme       [den~Fisch,~bitte]!
+~           I   (will)~take  the~fish,~please  
++ den Fisch, bitte
+- den Wisch in der Mitte
+- die Tischfritte
+
+[LINE]
+Speaker440: Ich~auch, bitte! 
+~           me~too    please 
+
+[LINE]
+Speaker526: Gern!   Was  möchten~Sie    trinken? 
+~           gladly  what would~you~like to~drink 
+
+[LINE]
+Speaker526: Wir haben einen wunderbaren Biowein.     
+~           we  have  a     wonderful   organic~wine 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "not cheap."
+Speaker526: Er ist (+nicht~billig), aber er (schmeckt) (fantastisch) mit  dem (Fisch)!
+~           it is    not~cheap      but  it  tastes     fantastic    with the  fish   
+
+[LINE]
+Speaker440: Wir nehmen      den Wein, bitte! 
+~           we  (will)~take the wine  please 
+
+[LINE]
+Speaker526: Gern!  
+~           gladly 
+
+[CONTINUATION]
+> What comes next?
+> Der Kellner bringt den Fisch und [zwei~Gläser~Wein].   
+~ the waiter  brings the fish  and  two~glasses~of~wine  
+- zehn Flaschen~Bier  
+~ ten  bottles~of~beer
++ zwei Gläser~Wein    
+~ two  glasses~of~wine
+- ein Glas~Wasser  
+~ one glas~of~water
+
+[LINE]
+Speaker507: Der Fisch sieht~lecker~aus!
+~           the fish  looks~delicious  
+
+[LINE]
+Speaker440: Der Wein sieht~auch~gut~aus! Prost,  Bea!
+~           the wine also~looks~good     cheers  Bea 
+
+[LINE]
+> Aber Tims  Glas  fällt aus~seiner~Hand.
+~ but  Tim's glass falls out~of~his~hand 
+
+[LINE]
+> Und Beas  Fisch schwimmt~jetzt  in Weißwein.  
+~ and Bea's fish  is~now~swimming in white~wine 
+
+[MULTIPLE_CHOICE]
+> Oops! Tim accidentally spilled...
++ …wine on Bea's dinner.
+- …wine on the waiter.
+- …water on the fish.
+
+[LINE]
+Speaker440: Dein Fisch!
+~           your fish  
+
+[LINE]
+Speaker507: Dein Wein!
+~           your wine 
+
+[LINE]
+> Bea isst ihren Fisch.
+~ Bea eats her   fish  
+
+[LINE]
+Speaker507: Der Kellner hat~recht!
+~           the waiter  is~right  
+
+[LINE]
+Speaker507: Der Wein schmeckt fantastisch zusammen mit  dem Fisch!
+~           the wine tastes   fantastic   together with the fish  
+
+[MULTIPLE_CHOICE]
+> Why was the waiter right?
+- The fish was too expensive.
+- Tim was a boring date.
++ Bea thought the wine was delicious with her fish.
+
+[MATCH]
+> Tap the pairs
+- Kellner <> waiter
+- trinken <> to drink
+- Ich <> I
+- fantastisch <> fantastic
+- Ich auch <> me too
+
