@@ -1,0 +1,133 @@
+[DATA]
+fromLanguageName=¿Puedo ayudarle?
+icon=3353b2d2d326875fc3ab76228fda57149bcd012a
+set=6|2
+
+[HEADER]
+> Je~peux vous~aider ?
+~ puedo   ayudarle    
+
+[LINE]
+> Lin est  dans la rue.  
+~ Lin está en   la calle 
+
+[SELECT_PHRASE]
+> Completa la oración
+> Elle [voit~un~homme]  devant     sa voiture.
+~ ella  ve~a~un~hombre  delante~de su carro   
++ voit un homme
+- voit une pomme
+- noie un homme
+
+[LINE]
+> Il est  stressé.  
+~ él está estresado 
+
+[LINE]
+Speaker508: Bonjour     ! Je~peux vous~aider ?
+~           buenos~días   puedo   ayudarle    
+
+[LINE]
+Speaker127: J'ai       un problème avec ma voiture.
+~           (yo)~tengo un problema con  mi carro   
+
+[LINE]
+Speaker127: Je~peux utiliser votre portable, s'il~vous~plaît ?
+~           puedo   usar     su    teléfono  por~favor        
+
+[LINE]
+> Lin donne son portable à~l'homme.
+~ Lin le~da su  teléfono al~hombre 
+
+[LINE]
+Speaker508: Oui, mais...
+~           sí   pero   
+
+[LINE]
+Speaker127: Excusez-moi.
+~           disculpe    
+
+[LINE]
+> L'homme   utilise le téléphone de Lin.
+~ el~hombre usa     el teléfono  de Lin 
+
+[LINE]
+Speaker127: Bonjour     ! C'est  le garage          ?
+~           buenos~días   ese~es el taller~mecánico  
+
+[MULTIPLE_CHOICE]
+> El hombre le pidió prestado el teléfono a Lin para…
+- …mirar sus fotos.
+- …ver la hora.
++ …llamar a un taller mecánico.
+
+[LINE]
+Speaker127: J'ai       un problème.
+~           (yo)~tengo un problema 
+
+[LINE]
+Speaker508: Euh… Monsieur ?
+~           eh   señor     
+
+[LINE]
+> L'homme   ignore   Lin.
+~ el~hombre ignora~a Lin 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker127: [(Non), (je) (ne~sais~pas) (où)    (je~suis).]
+~             no     yo   no~sé         dónde   estoy     
+
+[LINE]
+Speaker127: Excusez-moi ?
+~           disculpe     
+
+[LINE]
+Speaker508: Oui ?
+~           sí   
+
+[LINE]
+Speaker127: Nous~sommes~où ?
+~           dónde~estamos   
+
+[LINE]
+Speaker508: Pas~loin     du  garage.         
+~           no~muy~lejos del taller~mecánico 
+
+[LINE]
+Speaker127: Pardon ?
+~           perdón  
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker508: Je travaille au    garage          [le~week-end].        
+~           yo trabajo   en~el taller~mecánico  los~fines~de~semana  
++ le~week-end        
+~ los~fines~de~semana
+- s'il~vous~plaît
+~ por~favor      
+- une~minute
+~ un~minuto 
+
+[LINE]
+Speaker508: Je suis mécanicienne !
+~           yo soy  mecánica      
+
+[LINE]
+Speaker508: Alors,    je~peux vous~aider ?
+~           entonces  puedo   ayudarle    
+
+[MULTIPLE_CHOICE]
+> Resulta que Lin…
+- …no sabe dónde está.
+- …necesita un teléfono nuevo.
++ …trabaja en el taller mecánico.
+
+[MATCH]
+> Selecciona los pares
+- avec <> con
+- Alors <> entonces
+- ne sais pas <> no sé
+- suis <> soy
+- Non <> no
+
