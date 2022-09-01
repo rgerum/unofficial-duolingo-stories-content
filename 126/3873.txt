@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=A corrida de táxi
+icon=44410efbb175e599d5fbe5b4d86050262f324ca0
+set=17|2
+
+[HEADER]
+> Taxi~Ride          
+~ (a)~corrida~de~táxi
+
+[LINE]
+> Bea is   in a  taxi. She is~looking~at     the map  on~her~phone.    
+~ Bea está em um táxi  ela está~olhando~para o   mapa no~telefone~dela 
+
+[LINE]
+Speaker507: Turn~left       at~the end of~the street, please.   
+~           vire~à~esquerda no     fim da     rua     por~favor 
+
+[LINE]
+Speaker889: I  don't~need  to~turn         for three~more~miles.
+~           eu não~preciso fazer~uma~curva por mais~três~milhas 
+
+[MULTIPLE_CHOICE]
+> Espera… O que o motorista acabou de dizer?
+- Ele está dirigindo a três milhas por hora.
++ Ele não precisa fazer uma curva por mais três milhas.
+- Ele quer correr por três milhas.
+
+[LINE]
+Speaker507: The directions on~my  phone    say         that road    is faster…     
+~           as  indicações no~meu telefone dizem~(que) esse caminho é  mais~rápido 
+
+[LINE]
+Speaker889: Excuse~me,      I  know    all   the roads    in~this city.  
+~           desculpe~(mas)  eu conheço todos os  caminhos nesta   cidade 
+
+[LINE]
+Speaker507: This phone    knows   all   the roads    in every~city.      
+~           este telefone conhece todos os  caminhos em todas~as~cidades 
+
+[LINE]
+Speaker889: Ha, well, the phone    isn't~driving      the car.   I'm    the driver.   
+~           ~   bem   o   telefone não~está~dirigindo o   carro  eu~sou o   motorista 
+
+[LINE]
+Speaker507: But I'm~paying       for~the ride,    right?
+~           mas eu~estou~pagando pela    corrida  certo 
+
+[MULTIPLE_CHOICE]
+> Por que a Bea acabou de dizer isso?
++ Ela quer que o motorista siga as instruções dela.
+- Ela dirige um táxi nas horas vagas.
+- Ela precisa que o motorista dê dinheiro a ela.
+
+[LINE]
+Speaker889: OK,    OK!   
+~           certo  certo 
+
+[LINE]
+> The driver    turns    left     and stops the car.  
+~ o   motorista vira~(à) esquerda e   para  o   carro 
+
+[LINE]
+Speaker889: We're~here. Are~you~going~swimming?
+~           chegamos    você~vai~nadar         
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker507: No,  [I'm~going~shopping].   Why?    
+~           não   eu~vou~fazer~compras   por~quê 
+- I'm good at stopping
+- I'm good at shopping
++ I'm going shopping
+
+[LINE]
+Speaker889: Because the road    stops here. At~the river.
+~           porque  o   caminho para  aqui  no     rio   
+
+[LINE]
+Speaker507: Oops…
+~           opa  
+
+[ARRANGE]
+> Toque no que escutar
+Speaker507:  [(I~think)     (my)     (directions) (are)   (wrong).]  
+~              eu~acho~que   minhas   indicações   estão   erradas   
+
+[LINE]
+Speaker507: I'm~so~sorry.        
+~           eu~sinto~muito~mesmo 
+
+[LINE]
+Speaker889: Do~you~want to~use my          directions?
+~           você~quer   usar   (as)~minhas indicações 
+
+[LINE]
+Speaker507: Yes, please…   
+~           sim  por~favor 
+
+[MULTIPLE_CHOICE]
+> Opa! A Bea acabou de perceber que…
+- …ela é uma ótima taxista.
+- …o telefone dela tem todas as respostas.
++ …as indicações que ela deu estavam erradas.
+
+[MATCH]
+> Toque nos pares
+- Why <> por quê
+- at the <> no
+- left <> esquerda
+- She <> ela
+- I'm going shopping <> eu vou fazer compras
+
