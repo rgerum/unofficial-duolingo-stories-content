@@ -1,0 +1,104 @@
+[DATA]
+fromLanguageName=Car Problems
+icon=e161ff53b5f470063ac66df2698eddb71232c290
+set=19|4
+
+[HEADER]
+> Problèmes~de~voiture
+~ car~problems        
+
+[LINE]
+> Eddy est dans la~rue.    
+~ Eddy is  on   the~street 
+
+[LINE]
+> Il sort     d'une voiture.
+~ he gets~out of~a  car     
+
+[LINE]
+> Vikram marche     dans la~rue     et  voit Eddy.
+~ Vikram is~walking on   the~street and sees Eddy 
+
+[LINE]
+Speaker593: Tout~va~bien,          Eddy ? Tu  as~l'air inquiet.
+~           is~everything~alright  Eddy   you look     worried 
+
+[LINE]
+Speaker414: J'ai~emprunté cette voiture à    un~ami,   mais elle~ne~démarre~pas.
+~           I~borrowed    this  car     from a~friend  but  it~won't~start      
+
+[MULTIPLE_CHOICE]
+> Why is Eddy worried?
+- He doesn't know where he is.
+- He is in the trunk of a car.
++ He can't start the car he borrowed.
+
+[LINE]
+Speaker593: Hmm. Je peux t'aider       !
+~           hmm  I  can  (to)~help~you  
+
+[LINE]
+Speaker414: Non. Ça~va   ! Merci,     Vikram.
+~           no   it's~OK   thank~you  Vikram 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker593: Mais je sais [quel~est~le~problème].
+~           but  I  know  what~the~problem~is   
+- quel est le deuxième
+- qui est le même
++ quel est le problème
+
+[LINE]
+Speaker414: Vikram, je connais~bien~les~voitures.
+~           Vikram  I  know~cars~well            
+
+[ARRANGE]
+> Tap what you hear
+Speaker593: [(OK), (tu)  (as~démarré) (la~voiture).]
+~             OK    you   started      the~car      
+
+[LINE]
+Speaker414: Non. Je n'entends~pas le~bruit~du~moteur.
+~           no   I  don't~hear    the~engine~noise   
+
+[LINE]
+Speaker593: Eddy, c'est une voiture~électrique. Ça ne~fait~pas  de~bruit,  et  ça n'a~pas~besoin~d'essence.
+~           Eddy  it's  an  electric~car        it doesn't~make any~noise  and it doesn't~need~gas         
+
+[MULTIPLE_CHOICE]
+> The car is electric, so…
+- ...it's extremely ugly.
+- ...it uses a lot of gas.
++ ...it doesn't make noise or need gas.
+
+[LINE]
+Speaker414: Mais... j'ai~mis de~l'essence dans la~voiture.
+~           but     I~put    some~gas     in   the~car    
+
+[LINE]
+Speaker593: Quoi ?! Où~ça ?
+~           what    where  
+
+[LINE]
+Speaker414: Là.   
+~           there 
+
+[LINE]
+Speaker593: Oh, non… Eddy, c'est  le~coffre !
+~           oh  no   Eddy  that's the~trunk  
+
+[MULTIPLE_CHOICE]
+> Where did Eddy put the gas?
++ in the trunk of the car
+- in his motorcycle
+- in Vikram's car
+
+[MATCH]
+> Tap the pairs
+- elle ne démarre pas <> it won't start
+- OK <> OK
+- n'entends pas <> don't hear
+- Tu <> you
+- Ça va <> it's OK
+
