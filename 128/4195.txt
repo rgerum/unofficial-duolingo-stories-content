@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=Chìa khóa của cháu đâu?
+icon=3f21c887f044dc2ac0d1f0d0ea74e1200b587ac2
+set=8|2
+
+[HEADER]
+> Where~Are~My~Keys?     
+~ chìa~khóa~của~cháu~đâu 
+
+[LINE]
+> Lin is~with     her~grandmother, Lucy.
+~ Lin đang~ở~cùng bà~của~cô~ấy     Lucy 
+
+[LINE]
+Speaker509: We       have~a~reservation at  a   nice~restaurant     tonight!
+~           chúng~ta có~đặt~một~bàn     tại một nhà~hàng~sang~trọng tối~nay 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker509: But   we       need     [to~leave~now]!   
+~           nhưng chúng~ta cần~phải  đi~ngay~bây~giờ  
++ to leave now
+- to leave out
+- to read now
+
+[LINE]
+Speaker508: OK!  
+~           vâng 
+
+[LINE]
+Speaker508: Uh-oh…   I    can't~find     the~keys~to~my~motorcycle.  
+~           ôi~thôi  cháu không~tìm~thấy chìa~khóa~xe~máy~(của~cháu) 
+
+[LINE]
+Speaker509: You  always put your~keys            in~strange~places. 
+~           cháu toàn   để  chìa~khóa~(của~cháu) ở~những~chỗ~lạ~đời 
+
+[MULTIPLE_CHOICE]
+> Chuyện gì sẽ có nhiều khả năng xảy ra nhất?
++ Lin sẽ đi tìm chìa khóa ở những chỗ kỳ lạ.
+- Lin và Lucy sẽ cưỡi ngựa tới nhà hàng.
+- Lucy sẽ đi ăn một mình. 
+
+[LINE]
+Speaker509: Are~they~in            your~jacket?      
+~           chúng~có~ở~trong…không áo~khoác~của~cháu 
+
+[LINE]
+> Lin looks in    her~jacket.        
+~ Lin tìm   trong áo~khoác~của~cô~ấy 
+
+[LINE]
+Speaker508: No,    they're~not~in      my~jacket.        
+~           không  chúng~không~ở~trong áo~khoác~của~cháu 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker509: [(Are~the~keys)       (under)  (the~bed)?]
+~             chìa~khóa~có…không   ở~dưới   giường    
+
+[LINE]
+Speaker508: No,    the~keys  aren't~there! 
+~           không  chìa~khóa không~có~ở~đó 
+
+[LINE]
+Speaker509: Are~they~in~the~shower?        
+~           chúng~có~trong~phòng~tắm~không 
+
+[LINE]
+Speaker508: No,       that's~too~strange.
+~           không~có  sao~lạ~thế~nhỉ     
+
+[LINE]
+Speaker508: I    don't~know where~the~keys~are. Can~we~call             a~taxi?
+~           cháu không~biết chìa~khóa~ở~đâu     chúng~ta~gọi…được~không taxi   
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker509: No,   we're~late~now.                We       can't~go     to  [the~restaurant].
+~           thôi  giờ~thì~chúng~ta~muộn~mất~rồi  chúng~ta không~thể~đi tới  nhà~hàng        
+- the~beach
+~ bãi~biển 
+- the~movie~theater
+~ rạp~phim         
++ the~restaurant
+~ nhà~hàng      
+
+[LINE]
+Speaker508: I'm~sorry.   
+~           cháu~xin~lỗi 
+
+[LINE]
+Speaker509: That's~OK. I  can~cook   dinner. 
+~           không~sao  bà có~thể~nấu bữa~tối 
+
+[LINE]
+> Lucy opens the~refrigerator and looks inside.       
+~ Lucy mở    tủ~lạnh          và  ngó   vào~bên~trong 
+
+[LINE]
+Speaker509: Oh! Here~are~your~keys!        
+~           ồ   chìa~khóa~của~cháu~đây~này 
+
+[MULTIPLE_CHOICE]
+> Ôi trời! Thì ra chìa khóa của Lin ở trong…
+- …giày của cô ấy.
++ …tủ lạnh.
+- …xe của cô ấy.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- OK <> vâng
+- But <> nhưng
+- put <> để
+- your jacket <> áo khoác của cháu
+- your keys <> chìa khóa
+
