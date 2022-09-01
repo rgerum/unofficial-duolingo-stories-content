@@ -1,0 +1,151 @@
+[DATA]
+fromLanguageName=The Sandwich Thief
+icon=71bc9bc5c6a5619a4f4ee9651bbb246b449bf495
+set=27|1
+
+[HEADER]
+> Le  voleur~de~sandwich
+~ the sandwich~thief    
+
+[LINE]
+> Eddy est dans la~cuisine  du     bureau où    il travaille.
+~ Eddy is  in   the~kitchen of~the office where he works     
+
+[LINE]
+> Il parle      à  sa  nouvelle collègue,  Hélène.
+~ he is~talking to his new      colleague  Hélène 
+
+[LINE]
+Speaker414: Oh, non, pas encore !
+~           oh  no   not again   
+
+[LINE]
+Speaker125: Quoi ?
+~           what  
+
+[LINE]
+Speaker414: Quelqu'un a~volé mon~déjeuner !
+~           someone   stole  my~lunch      
+
+[MULTIPLE_CHOICE]
+> Someone keeps stealing Eddy's lunch.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker414: On~me~l'a~volé                tous~les~jours cette semaine !
+~           someone~has~stolen~it~from~me every~day      this  week     
+
+[LINE]
+Speaker125: Vraiment ? C'est  bizarre.
+~           really     that's strange 
+
+[LINE]
+Speaker414: Je pense que  c'est Philippe.
+~           I  think that it's  Philippe 
+
+[LINE]
+Speaker125: Il a~toujours~faim. 
+~           he is~always~hungry 
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Il) (a~volé) (mon) (sandwich~au~jambon~hier) ]!
+~             he   stole    my    ham~sandwich~yesterday     
+
+[LINE]
+Speaker125: Tu  veux~dire, au~poulet.
+~           you mean       chicken   
+
+[LINE]
+Speaker125: Le  sandwich~au~jambon, c'était  mardi.     
+~           the ham~sandwich        that~was on~Tuesday 
+
+[LINE]
+Speaker414: Quoi ? Comment tu~sais     ça   ?
+~           what   how     do~you~know that  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker125: Euh... tu  me~l'as~déjà~dit,     [tu~ne~t'en~souviens~pas] ?
+~           uh     you already~told~me~that   don't~you~remember~(it)   
+- il devient papa
++ tu ne t'en souviens pas
+- il ne vient pas
+
+[LINE]
+Speaker414: Non... Mais j'ai   une~solution !
+~           no     but  I~have a~solution    
+
+[LINE]
+Speaker414: J'ai   une~surprise pour Philippe demain   !
+~           I~have a~surprise   for  Philippe tomorrow  
+
+[LINE]
+Speaker414: Je vais     faire   un sandwich~au~poisson~et~à~la~banane !
+~           I  am~going to~make a  fish~and~banana~sandwich            
+
+[MULTIPLE_CHOICE]
+> Eddy wants to do that because...
+- ...Philippe loves fish and banana sandwiches.
+- ...he doesn't have any ham or chicken left.
++ ...that sounds like a disgusting sandwich.
+
+[LINE]
+Speaker125: Bonne idée.
+~           good  idea 
+
+[LINE]
+> Le  jour~suivant, Eddy voit Hélène.
+~ the next~day      Eddy sees Hélène 
+
+[CONTINUATION]
+> What comes next?
+Speaker414: Personne~n'a~volé [mon~déjeuner aujourd'hui].
+~           no~one~stole       my~lunch     today        
++ mon~déjeuner aujourd'hui
+~ my~lunch     today      
+- le~bureau  où    je travaille
+~ the~office where I  work     
+- ma nouvelle collègue 
+~ my new      colleague
+
+[LINE]
+Speaker125: Mais c'est  une bonne chose, non ?
+~           but  that's a   good  thing  no   
+
+[LINE]
+Speaker414: Non, j'ai~fait ce   sandwich~au~poisson~et~à~la~banane… et  maintenant je dois    le~manger.  
+~           no   I~made    this fish~and~banana~sandwich            and now        I  have~to (to)~eat~it 
+
+[LINE]
+Speaker125: Moi, j'ai   un délicieux sandwich~au~poulet aujourd'hui.
+~           me   I~have a  delicious chicken~sandwich   today       
+
+[POINT_TO_PHRASE]
+> Choose the option that means “don't bring.”
+Speaker414: (Vraiment) ? Tu  (+n'apportes~pas) (ton~déjeuner) (d'habitude).
+~            really      you   don't~bring      your~lunch     usually     
+
+[LINE]
+Speaker125: Oui, mais je suis allergique aux bananes.
+~           yes  but  I  am   allergic   to  bananas 
+
+[LINE]
+Speaker414: Quoi ?! C'était toi ?!
+~           what    it~was  you   
+
+[MULTIPLE_CHOICE]
+> Who has been stealing Eddy's lunch?
+- Philippe
+- a chicken
++ Hélène
+
+[MATCH]
+> Tap the pairs
+- collègue <> colleague
+- il <> he
+- sandwich au jambon <> ham sandwich
+- le manger <> eat it
+- Bonne <> good
+
