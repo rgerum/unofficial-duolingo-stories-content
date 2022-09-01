@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=Cháu nhìn thấy rồi đấy
+icon=5efd5d3e85a10ad5c37e72a842288f5c3d967300
+set=27|4
+
+[HEADER]
+> I~Saw~You                  
+~ cháu~nhìn~thấy~(bà)~rồi~đấy
+
+[LINE]
+> Lily is~working    in    a   clothes~store.   
+~ Lily đang~làm~việc trong một cửa~hàng~quần~áo 
+
+[LINE]
+> She   stops    a   well-dressed~woman   leaving       the~store.
+~ cô~ấy chặn~lại một phụ~nữ~ăn~mặc~đẹp~đẽ đang~rời~khỏi cửa~hàng  
+
+[LINE]
+Speaker416: Ma'am,   did~you~just~put            that~sweater    in        your~purse?     
+~           thưa~bà  có~phải~bà~vừa~mới~bỏ…không chiếc~áo~len~đó vào~trong túi~xách~của~bà 
+
+[LINE]
+Speaker528: My~purse?           No.   
+~           túi~xách~của~tôi~á  không 
+
+[LINE]
+Speaker416: Yes,~you~did. I~saw~you.              
+~           đúng~thế~đấy  cháu~nhìn~thấy~(bà)~rồi 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker528: Oh, [this~sweater]?      
+~           à    chiếc~áo~len~này~á  
+- it's better
+- this weather
++ this sweater
+
+[LINE]
+Speaker528: I  was~going~to pay      for it, but   I  forgot.   I'm~old.    My~memory~is   bad.
+~           bà đã~định      trả~tiền cho nó  nhưng bà quên~mất  bà~già~rồi  trí~nhớ~của~bà kém 
+
+[MULTIPLE_CHOICE]
+> Vì sao người phụ nữ lại không trả tiền mua áo?
++ Bà ấy có trí nhớ rất kém.
+- Bà ấy không muốn mua chiếc áo.
+- Bà ấy không mặc vừa chiếc áo.
+
+[LINE]
+Speaker416: Wait,     is~that             a       scarf         in~your~purse~too?              
+~           khoan~đã  đó~có~phải~là…không 1~chiếc khăn~quàng~cổ cũng~đang~trong~túi~xách~của~bà 
+
+[LINE]
+Speaker528: Oops!
+~           ối   
+
+[LINE]
+Speaker416: Can~you~please~take        everything     out~of  your~purse?     
+~           bà~làm~ơn~có~thể~lấy…không tất~cả~các~thứ ra~khỏi túi~xách~của~bà 
+
+[LINE]
+> The~woman    takes a       scarf,         a       belt,      and a       watch           out~of  the~purse.     
+~ người~phụ~nữ lấy   1~chiếc khăn~quàng~cổ  1~chiếc thắt~lưng  và  1~chiếc đồng~hồ~đeo~tay ra~khỏi chiếc~túi~xách 
+
+[LINE]
+Speaker416: Were~you~trying  to~steal all~of these~things?! 
+~           có~phải~bà~đã~cố lấy~trộm tất~cả những~thứ~này  
+
+[LINE]
+Speaker528: Yes,~I~was! I  love      stealing! It's       exciting!
+~           ừ~phải~đấy  bà rất~thích trộm~đồ   nó~thật~là thú~vị   
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “thấy buồn chán”.
+Speaker528: I  (live) (alone).    I  (+get~bored).      (One~day),      you'll~understand.
+~           bà  sống   một~mình   bà   thấy~buồn~chán    rồi~một~ngày   cháu~sẽ~hiểu      
+
+[LINE]
+Speaker528: I  can~leave,   right?      I'm   a   nice~old~woman.  
+~           bà đi~được~rồi  phải~không  bà~là một bà~lão~hiền~lành 
+
+[LINE]
+Speaker416: Are~you~nice?  
+~           bà~hiền~lành~á 
+
+[LINE]
+Speaker528: Not~really.     But   you  could~let  me leave because you're  a   nice~young~woman.   
+~           cũng~không~hẳn  nhưng cháu có~thể~thả bà đi    bởi~vì  cháu~là một cô~gái~trẻ~tốt~bụng 
+
+[MULTIPLE_CHOICE]
+> Vì sao người phụ nữ lại nói Lily là người tốt?
+- Bà ấy nghĩ Lily là cháu gái mình.
+- Bà ấy muốn cùng Lily đi mua sắm.
++ Bà ấy muốn được Lily thả cho đi.
+
+[LINE]
+Speaker416: OK.       You can    leave. But   don't~tell~anyone    that      I'm  nice.    
+~           được~rồi  bà  có~thể đi     nhưng đừng~nói~cho~ai~biết (rằng)~là cháu tốt~bụng 
+
+[LINE]
+Speaker528: OK!       Thanks! Goodbye! 
+~           được~rồi  cảm~ơn  tạm~biệt 
+
+[LINE]
+> The~old~woman         takes   her~purse            and leaves.           
+~ người~phụ~nữ~lớn~tuổi cầm~lấy túi~xách~(của~bà~ấy) rồi rời~khỏi~cửa~hàng 
+
+[LINE]
+> Lily's~boss  runs into      the~store.
+~ sếp~của~Lily chạy vào~trong cửa~hàng  
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker113: Did~you~let            that~woman      [leave]?
+~           có~phải~cô~đã~để…không người~phụ~nữ~đó  đi     
++ leave
+~ đi   
+- in        your~purse     
+~ vào~trong túi~xách~của~cô
+- live alone   
+~ sống một~mình
+
+[LINE]
+Speaker416: Of~course~I~did. Why~not?      
+~           tất~nhiên~rồi~ạ  tại~sao~không 
+
+[LINE]
+Speaker113: She   just    stole    a       $300~purse!        
+~           bà~ta vừa~mới lấy~trộm 1~chiếc túi~xách~300~đô-la 
+
+[MULTIPLE_CHOICE]
+> Thôi xong! Vì sao sếp của Lily lại nổi giận?
+- Lily đã lấy trộm một chiếc túi xách đắt tiền.
+- Lily đã xúi người phụ nữ lấy trộm đồ.
++ Người phụ nữ đã lấy trộm một chiếc túi xách đắt tiền.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- takes <> lấy
+- get bored <> thấy buồn chán
+- Goodbye <> tạm biệt
+- nice old woman <> bà lão hiền lành
+- it <> nó
+
