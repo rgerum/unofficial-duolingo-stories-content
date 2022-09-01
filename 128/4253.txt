@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=Món bà nấu
+icon=f846bda2ef7cfcb2a7b491fdab26521cbd7b480d
+set=22|4
+
+[HEADER]
+> Grandmother's~Recipe
+~ công~thức~món~của~bà
+
+[LINE]
+> Vikram walks~into Eddy's~apartment.
+~ Vikram bước~vào   căn~hộ~của~Eddy  
+
+[LINE]
+Speaker414: Hi       Vikram, where's~Priti?
+~           chào~anh Vikram  Priti~đâu     
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker593: She's~at~work,        but   [she'll~be~here~soon].      
+~           cô~ấy~đang~ở~chỗ~làm  nhưng  cô~ấy~sắp~đến~bây~giờ~đấy  
++ she'll be here soon
+- we'll be weird soon
+- she'll be near the moon
+
+[LINE]
+Speaker593: Thank~you  for~inviting us        to~dinner. 
+~           cảm~ơn~anh vì~đã~mời    chúng~tôi đến~ăn~tối 
+
+[LINE]
+Speaker414: You're~welcome!     You and Priti cook~dinner for me  often.       
+~           anh~đừng~khách~sáo  anh và  Priti nấu~ăn~tối  cho tôi thường~xuyên 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker414: So     now     [I'm~going~to~cook for you]!      
+~           nên~là bây~giờ  tôi~sẽ~nấu~ăn     cho hai~người  
++ I'm~going~to cook for you    
+~ tôi~sẽ       nấu  cho các~bạn
+- I'm~going~to~the~park
+~ tôi~sẽ~đi~công~viên  
+- we're~going~to take~a~nap      
+~ chúng~ta~sẽ    chợp~mắt~một~lúc
+
+[LINE]
+Speaker593: You're~cooking?!     Uh… it~smells…~interesting. 
+~           anh~đang~nấu~ấy~hả   ờm  mùi~có~vẻ…~đặc~biệt~đấy 
+
+[LINE]
+Speaker414: Thanks! I'm~making   Priti's~favorite~meal.  
+~           cảm~ơn  tôi~đang~nấu món~yêu~thích~của~Priti 
+
+[LINE]
+Speaker593: Really?   It's very difficult to~make…
+~           thật~sao  nó   rất  khó       làm     
+
+[MULTIPLE_CHOICE]
+> Vikram có vẻ lo lắng. Vì sao vậy nhỉ?
+- Món ăn yêu thích của Priti rất dễ nấu.
++ Anh ấy sợ Eddy có thể đang không nấu đúng cách.
+- Anh ấy phát hiện ra bếp của Eddy đang bốc cháy.
+
+[LINE]
+> Vikram looks~at the~food on   the~stove.
+~ Vikram xem      đồ~ăn    trên bếp       
+
+[LINE]
+Speaker593: Which~kind~of~rice~did~you~use?
+~           anh~đã~dùng~loại~gạo~nào       
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker414: [(There~are) (different)  (kinds~of) (rice)?]
+~             có          …khác~nhau   các~loại   gạo    
+
+[LINE]
+> Vikram tastes the~food.
+~ Vikram nếm    đồ~ăn    
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “lạ”.
+Speaker593: (Oh~no).        This    (tastes)… (a~little) (+strange).
+~            không~ổn~rồi   cái~này  có~vị     hơi         lạ       
+
+[LINE]
+Speaker414: Can~you~help~me?        
+~           anh~giúp~tôi~được~không 
+
+[LINE]
+Speaker593: Maybe…    I   need four  tomatoes, some   onions, and a~lot~of   garlic.
+~           có~lẽ~là  tôi cần  4~quả cà~chua   vài~củ hành    và  thật~nhiều tỏi    
+
+[LINE]
+Speaker414: I   don't~have those~things.
+~           tôi không~có   mấy~thứ~đó   
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker593: OK.       Then    [we~need~your~phone].             
+~           được~rồi  vậy~thì  chúng~ta~cần~điện~thoại~của~anh  
+- we meet your own
+- we'll read your phone
++ we need your phone
+
+[LINE]
+> Later,   Eddy, Vikram, and Priti are~eating~dinner.
+~ lát~sau  Eddy  Vikram  và  Priti đang~ăn~tối       
+
+[LINE]
+Speaker560: Wow, Eddy, this~is so~good!  It tastes just~like my~grandmother's~recipe!
+~           ồ    Eddy  món~này ngon~quá  nó có~vị  y~như     món~bà~tôi~nấu          
+
+[LINE]
+Speaker414: Thanks!     I   ordered~it~from~the~restaurant~myself!
+~           cảm~ơn~nhé  tôi đã~tự~tay~đặt~món~ở~nhà~hàng~về~đấy   
+
+[MULTIPLE_CHOICE]
+> Bữa tối ngon xuất sắc. Vì sao?
+- Eddy nấu ăn rất khéo.
+- Vikram đã thêm rất nhiều tỏi.
++ Eddy đã đặt mua đồ ăn ở ngoài.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- where's Priti <> Priti đâu
+- to dinner <> đến ăn tối
+- a lot of <> thật nhiều
+- This <> cái này
+- Hi <> chào anh
+
