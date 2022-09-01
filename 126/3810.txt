@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Uma coisa
+icon=717bd84875f83c678f64f124937a278061e0e778
+set=1|3
+
+[HEADER]
+> One Thing
+~ uma coisa
+
+[LINE]
+> Lucy is   with her~granddaughter, Lin.
+~ Lucy está com  a~neta~dela        Lin 
+
+[LINE]
+Speaker509: Oh no!  I  need       bread for  my  sandwich. 
+~           ah não  eu preciso~de pão   para meu sanduíche 
+
+[LINE]
+Speaker508: Do~you~need  to~go to   the supermarket? 
+~           você~precisa ir    para o   supermercado 
+
+[LINE]
+Speaker509: Yes.
+~           sim 
+
+[MULTIPLE_CHOICE]
+> A Lin e a Lucy têm muito pão.
++ Não, não é isso.
+- Sim, isso mesmo.
+
+[LINE]
+Speaker508: Oh, I  want  one thing from~the supermarket! 
+~           ah  eu quero uma coisa do       supermercado 
+
+[LINE]
+Speaker509: What~do~you~need?   
+~           do~que~você~precisa 
+
+[LINE]
+Speaker508: One tomato, please.   
+~           um  tomate  por~favor 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker508: For  [my~salad]!    
+~           para  minha~salada  
+- my solid
++ my salad
+- why salad
+
+[LINE]
+Speaker509: OK.   
+~           certo 
+
+[LINE]
+Speaker508: Thank~you!
+~           obrigada  
+
+[LINE]
+Speaker508: And I  want  some        coffee…
+~           e   eu quero um~pouco~de café   
+
+[LINE]
+Speaker509: OK.   
+~           certo 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker508: …and I  want  some        sugar  [for  my  coffee].
+~            e   eu quero um~pouco~de açúcar  para meu café    
++ for  my  coffee
+~ para meu café  
+- for  my  fish 
+~ para meu peixe
+- for  my    fries       
+~ para minha batata~frita
+
+[LINE]
+Speaker509: Lin—
+~           Lin 
+
+[LINE]
+Speaker508: And some        milk! 
+~           e   um~pouco~de leite 
+
+[LINE]
+Speaker509: Hmm… I  have  an  idea. 
+~           hmm  eu tenho uma ideia 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker509: [(Here) (is)   (some)        (money),    (Lin).]
+~             aqui   está   um~pouco~de   dinheiro    Lin   
+
+[LINE]
+Speaker508: What?! 
+~           o~quê  
+
+[LINE]
+Speaker509: I  want  one thing from~the supermarket:  bread.
+~           eu quero uma coisa do       supermercado  pão   
+
+[MULTIPLE_CHOICE]
+> Por que a Lucy deu dinheiro à Lin?
+- A Lin vai abrir uma sanduicheria.
++ Ela quer que a Lin vá ao supermercado.
+- A Lin vai almoçar em um restaurante.
+
+[MATCH]
+> Toque nos pares
+- Hmm <> hmm
+- sandwich <> sanduíche
+- want <> quero
+- some <> um pouco de
+- milk <> leite
+
