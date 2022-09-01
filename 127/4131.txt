@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=Eu quero uma pizza
+icon=3eebaf390a99fcebfaf064cfa42f14c071b5b97f
+set=9|4
+
+[HEADER]
+> Yo quiero una pizza
+~ eu quero  uma pizza
+
+[LINE]
+> Lin camina  a    su~casa.    
+~ Lin caminha para a~casa~dela 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+> [Ella~tiene~dos~pizzas].   
+~  ela~está~com~duas~pizzas  
+- Él la quiere con pizzas
++ Ella tiene dos pizzas
+- Ella tiene las pintas
+
+[LINE]
+> Ella ve~a Óscar en~la calle.
+~ ela  vê   Óscar na    rua   
+
+[LINE]
+Speaker592: ¡Hola, Lin! ¿Y esas  pizzas?
+~            olá   Lin   e essas pizzas 
+
+[LINE]
+Speaker508: Son del restaurante de Emilio.
+~           são do  restaurante do Emilio 
+
+[LINE]
+Speaker592: ¡Me~encanta ese  restaurante!
+~            eu~adoro   esse restaurante 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker592: ¡Yo también quiero [pizza]!
+~            eu também  quero   pizza  
++ pizza
+~ pizza
+- calle
+~ rua  
+- restaurante
+~ restaurante
+
+[LINE]
+Speaker508: Ah, pero el restaurante está cerrado.
+~           ah  mas  o  restaurante está fechado 
+
+[LINE]
+Speaker592: Ay,~no… 
+~           ah,~não 
+
+[LINE]
+Speaker592: Tú tienes    dos  pizzas. ¿Puedo comprar una de tus  pizzas?
+~           tu estás~com duas pizzas   posso comprar uma de tuas pizzas 
+
+[LINE]
+Speaker508: No,  lo~siento. Una es para mi    abuela Lucy y la otra  es para mí. 
+~           não  desculpa   uma é  para minha avó    Lucy e a  outra é  para mim 
+
+[LINE]
+Speaker592: Mmm… ¿puedo comer un poco  de tu  pizza?
+~           hum   posso comer um pouco da tua pizza 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "estranho".
+Speaker508: (Eh)… No,  (Óscar), (eso)  es (+extraño). 
+~            eh   não   Óscar    isso  é    estranho  
+
+[LINE]
+> Lin se~va.     
+~ Lin vai~embora 
+
+[LINE]
+Speaker592: ¡Ahora de~verdad~quiero   una pizza de~ese restaurante!
+~            agora eu~realmente~quero uma pizza desse  restaurante 
+
+[ARRANGE]
+> Toque no que escutar
+> [(Óscar) (llama) (a)    (alguien) (por~teléfono).]
+~   Óscar   liga    para   alguém    por~telefone   
+
+[LINE]
+Speaker592: Hola, Lucy. Soy~Óscar. ¿Tienes planes para la~cena? 
+~           olá   Lucy  é~o~Óscar   tens   planos para o~jantar 
+
+[LINE]
+Speaker509: Sí,  pizza con Lin.   ¿Quieres comer con~nosotras?
+~           sim  pizza com a~Lin   queres  comer com~a~gente  
+
+[LINE]
+Speaker592: Sí,  está bien. ¡Muchas~gracias!
+~           sim  está bem    muito~obrigado 
+
+[MULTIPLE_CHOICE]
+> Que espertinho! O Óscar ligou para a Lucy porque…
+- …ela não respondia as mensagens dele.
++ …ele queria que ela o convidasse para jantar.
+- …ele queria desejar feliz aniversário.
+
+[MATCH]
+> Toque nos pares
+- Ella <> ela
+- camina <> caminha
+- a <> para
+- cerrado <> fechado
+- pizza <> pizza
+
