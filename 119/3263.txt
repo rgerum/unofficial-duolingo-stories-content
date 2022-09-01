@@ -1,0 +1,152 @@
+[DATA]
+fromLanguageName=The Pudding Tastes Strange
+icon=0d966d1c1fc9e1a264ed728fa96b2ddeda797038
+set=24|2
+
+[HEADER]
+> Der Pudding schmeckt komisch
+~ the pudding tastes   strange
+
+[LINE]
+> Eddy isst etwas,     das  er~im~Kühlschrank~gefunden~hat.
+~ Eddy eats something  that he~found~in~the~fridge         
+
+[LINE]
+Speaker414: Junior? Dieser Pudding hier schmeckt ziemlich komisch.
+~           Junior  this   pudding here tastes   fairly   strange 
+
+[LINE]
+Speaker415: Pudding? Welcher Pudding?
+~           pudding  what    pudding 
+
+[LINE]
+Speaker414: Der Pudding aus  unserem Kühlschrank.
+~           the pudding from our     fridge      
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: [Das~war~kein~Pudding],  das  war mein Biologie-Experiment.
+~            that~wasn't~a~pudding   that was my   ~                   
+- Da war mein Pudel
+- Das war kein Pullover
++ Das war kein Pudding
+
+[LINE]
+Speaker414: Es hatte ein~grünes~Fell ...
+~           it had   green~fur          
+
+[CONTINUATION]
+> What comes next?
+Speaker414: Wie lange stand~es            [im~Kühlschrank]?
+~           how long  has~it~been~sitting  in~the~fridge   
++ im     Kühlschrank
+~ in~the fridge     
+- auf meinem Kopf
+~ on  my     head
+- unter dem Bett
+~ under the bed 
+
+[LINE]
+Speaker415: Seit  November.
+~           since November 
+
+[LINE]
+Speaker414: Wir~haben März. 
+~           it's      March 
+
+[LINE]
+Speaker414: Ich glaube, ich werde      krank.
+~           I   think   I   am~getting sick  
+
+[LINE]
+Speaker415: Wie fühlst~du~dich? 
+~           how are~you~feeling 
+
+[LINE]
+Speaker414: Ich~habe~Bauchschmerzen ...
+~           my~stomach~hurts           
+
+[POINT_TO_PHRASE]
+> Choose the option that means "press."
+Speaker415: Hm. Tut~es~weh,   (wenn) (ich) dir (hier) auf~den~Bauch (+drücke)?
+~           hm  does~it~hurt   when   I    you  here  on~the~belly    press   
+
+[LINE]
+Speaker414: Nein.
+~           no   
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(Und) (wenn) (ich) (hier~drücke)?]
+~             and   when   I     press~here    
+
+[LINE]
+Speaker414: Aua! 
+~           ouch 
+
+[LINE]
+Speaker415: Interessant ...
+~           interesting    
+
+[LINE]
+Speaker415: Was~ist~mit deinem Kopf?
+~           how~about   your   head 
+
+[CONTINUATION]
+> What comes next?
+Speaker414: Mir~ist schwindelig … Muss~ich          [ins~Krankenhaus]?
+~           I~am    dizzy         do~I~have~to~(go)  to~hospital      
+- Süßigkeiten~essen
+~ eat~candy        
++ ins    Krankenhaus
+~ to~the hospital   
+- in   die Badewanne
+~ into the bathtub  
+
+[LINE]
+Speaker415: Vielleicht. Und wie fühlst~du~dich  sonst?    
+~           maybe       and how are~you~feeling otherwise 
+
+[LINE]
+Speaker414: Mein Mund  ist trocken. Jetzt ist~er feucht. Jetzt ist~er wieder~trocken!
+~           my   mouth is  dry      now   it~is  wet     now   it~is  dry~again      
+
+[LINE]
+Speaker414: Sehe~ich~blau~aus?
+~           do~I~look~blue    
+
+[LINE]
+Speaker415: Ja!  Cool!
+~           yes  ~    
+
+[LINE]
+Speaker414: Ich glaube, ich~sterbe. Ich~gehe  ins~Bett.
+~           I   think   I'm~dying   I'm~going to~bed   
+
+[POINT_TO_PHRASE]
+> Choose the option that means "notebook."
+Speaker415: (Warte)! Ich (muss)    alles      in (mein) (+Heft)     schreiben! 
+~            wait    I    have~to  everything in  my      notebook  write~down 
+
+[LINE]
+Speaker414: Für den Arzt?  
+~           for the doctor 
+
+[LINE]
+Speaker415: Nein. Für meinen Lehrer.  Du  bist mein neues Biologie-Experiment!
+~           no    for my     teacher  you are  my   new   ~                   
+
+[MULTIPLE_CHOICE]
+> How did Eddy become Junior's new biology experiment?
++ He got sick after eating Junior's old biology experiment.
+- His skin turned blue in the shower.
+- He sat in the fridge for several months.
+
+[MATCH]
+> Tap the pairs
+- ins Krankenhaus <> to hospital
+- Ja <> yes
+- ich sterbe <> I'm dying
+- in <> in
+- Für <> for
+
