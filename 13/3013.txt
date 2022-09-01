@@ -1,0 +1,189 @@
+[DATA]
+fromLanguageName=The Film Is Starting
+icon=3bd2f67694dc090bb3ad482fb4fddb7effb3e8a6
+set=58|4
+
+[HEADER]
+> Le  film  commence   
+~ the movie is~starting
+
+[LINE]
+> Lucie achète    du   popcorn au     cinéma.        Elle voit un homme et  une femme qu'elle  connaît.
+~ Lucie is~buying some popcorn at~the movie~theater  she  sees a  man   and a   woman that~she knows   
+
+[LINE]
+Speaker509: Oh ! Salut, Jean ! Jean ?!
+~           oh   hi     Jean   Jean   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+> L'homme prend la  femme par la  main et  [essaie~de~s'en~aller].
+~ the~man takes the woman by  the hand and  tries~to~go~away      
+- le laissait s'en aller
++ essaie de s'en aller
+- essaie de l'envoyer
+
+[LINE]
+Speaker509: Jean ! Attends ! C'est moi, Lucie !
+~           Jean   hold~on   it's  me   Lucie  
+
+[LINE]
+> Lucie court~vers~eux.   
+~ Lucie runs~towards~them 
+
+[LINE]
+Speaker889: Oh, salut, Lucie… C'est sympa~de~te~voir, mais nous devons~aller~nous~asseoir, désolé.
+~           oh  hi     Lucie  it's  nice~to~see~you   but  we   have~to~go~sit~down        sorry  
+
+[LINE]
+Speaker509: Les films  ne~commencent~jamais à~l'heure. 
+~           the movies never~start          on~time    
+
+[ARRANGE]
+> Tap what you hear
+Speaker509: [(Nous) (avons) (le~temps~de) (discuter)  (un~peu) ]!
+~             we     have    time~to       (to)~talk   a~bit     
+
+[LINE]
+Speaker175: Bien~sûr  !
+~           of~course  
+
+[LINE]
+Speaker889: Euh… OK.
+~           uh   OK 
+
+[LINE]
+Speaker509: Ça~fait~longtemps ! Comment~tu~vas    ?
+~           it's~been~a~while   how~you~are~doing  
+
+[LINE]
+Speaker889: Euh… ça~va      bien, merci.    
+~           uh   it's~going well  thank~you 
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker509: Moi, ça~va      très bien ! Je viens~de~commencer la~boxe, [et  j'adore ça   ]!
+~           me   it's~going very well   I  just~started       boxing    and I~love  that   
+- et  tu  n'es~jamais à~l'heure
+~ and you are~never   on~time  
++ et  j'adore ça   
+~ and I~love  that 
+- et  je vais     m'asseoir
+~ and I  am~going to~sit   
+
+[LINE]
+> Lucie se~tourne~vers la  femme, et~sourit. 
+~ Lucie turns~to       the woman  and~smiles 
+
+[LINE]
+Speaker509: Tu  as~l'air en~forme ! Tu  as~changé~de couleur~de~cheveux ? Tu  es  jolie  en~blonde   !
+~           you look     great      you changed      (your)~hair~color    you are pretty as~a~blonde  
+
+[LINE]
+Speaker175: Non, ça   a~toujours~été  ma couleur…
+~           no   this has~always~been my color   
+
+[MULTIPLE_CHOICE]
+> La  femme dit  que  ses cheveux…
+~ the woman says that her hair    
++ … ont~toujours~été blonds.
+~   has~always~been  blond  
+- … ont~été  de plusieurs couleurs.
+~   has~been of several   colors   
+- … sont plus beaux     en rose.
+~   is   more beautiful in pink 
+
+[LINE]
+Speaker509: Vraiment ? Et  tu  ne~portes~plus de~lunettes ? Tu  as~l'air plus~jeune comme ça.  
+~           really     and you no~longer~wear glasses       you look     younger    like  this 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker175: Je [n'ai~jamais~porté] de~lunettes…
+~           I   have~never~worn    glasses     
+- n'est jamais allé
+- n'ai jamais mangé
++ n'ai jamais porté
+
+[LINE]
+Speaker889: On~devrait vraiment aller   s'asseoir…    
+~           we~should  really   (to)~go (to)~sit~down 
+
+[LINE]
+Speaker509: En~fait, tu  as~l'air~vraiment plus~jeune. C'est~quoi~ton~secret ?
+~           in~fact  you really~look       younger     what~is~your~secret    
+
+[LINE]
+Speaker175: Je suis désolée, mais c'est la  première fois que  je vous~vois.
+~           I  am   sorry    but  it's  the first    time that I  see~you   
+
+[LINE]
+Speaker509: Quoi ? Mais~non,      j'étais à  votre mariage.
+~           what   of~course~not  I~was   at your  wedding 
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker175: Quel mariage ? Jean et  moi [ne~sommes~pas mariés]. 
+~           what wedding   Jean and I    aren't        married  
+- sommes tes  meilleurs amis   
+~ are    your best      friends
+- avons des  lunettes
+~ have  some glasses 
++ ne~sommes~pas mariés 
+~ aren't        married
+
+[LINE]
+Speaker509: Tu  es  toujours~aussi~drôle,     Sandra.
+~           you are still~as~funny~(as~ever)  Sandra 
+
+[LINE]
+Speaker175: Je~m'appelle Charlène ! Qui est Sandra ?!
+~           my~name~is   Charlène   who is  Sandra   
+
+[MULTIPLE_CHOICE]
+> Pourquoi Charlène~n'est-elle~pas contente ?
+~ why      isn't~Charlène          happy     
++ Lucie pense  qu'elle  est Sandra, une autre femme.
+~ Lucie thinks that~she is  Sandra  an  other woman 
+- Lucie n'a~pas~voulu l'inviter     à  son mariage.
+~ Lucie didn't~want   to~invite~her to her wedding 
+- Elle ne~sait~pas  à  quelle heure le  film  commence.
+~ she  doesn't~know at what   time  the movie starts   
+
+[LINE]
+Speaker889: Oh, hé  ! Le  film  commence    ! Allons-y !
+~           oh  hey   the movie is~starting   let's~go  
+
+[LINE]
+Speaker175: Jean ? Qui est Sandra ?!
+~           Jean   who is  Sandra   
+
+[ARRANGE]
+> Tap what you hear
+> [(Lucie) (commence~à~manger) (son) (popcorn).]
+~   Lucie   starts~to~eat       her   popcorn   
+
+[LINE]
+Speaker509: Oh, mon cher Jean, je pense que  tu  ne~vas~pas   voir   ce   film. 
+~           oh  my  dear Jean  I  think that you aren't~going to~see this movie 
+
+[MULTIPLE_CHOICE]
+> Lucie pense  que  Jean ne~va~pas   voir   le  film  parce~qu'il...
+~ Lucie thinks that Jean isn't~going to~see the movie because~he    
+- … veut  manger du~popcorn avant.     
+~   wants to~eat popcorn    beforehand 
+- … n'a~pu   acheter  de~tickets à~temps.
+~   couldn't (to)~buy tickets    on~time 
++ … a   des  explications à  donner    à  Charlène.
+~   has some explications to (to)~give to Charlène 
+
+[MATCH]
+> Tap the pairs
+- cher <> dear
+- as changé de <> changed
+- Tu <> you
+- pense <> think
+- un peu <> a bit
+
