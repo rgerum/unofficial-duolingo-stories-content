@@ -1,0 +1,145 @@
+[DATA]
+fromLanguageName=To the Station!
+icon=5bee618bd907474764094eddf36ddcbc46523c98
+set=2|2
+
+[HEADER]
+> えき                  まで！       
+~ (the)~station~[eki] to~[made] 
+
+[LINE]
+> オスカーは             タクシー                に~のります。               
+~ Oscar~[osukaa~wa] (a)~taxi~[takushii] gets~in~[ni~norimasu] 
+
+[LINE]
+> ともだちの                       リンが          タクシーのうんてんしゅ                            です。       
+~ (his)~friend~[tomodachi~no] Lin~[rin~ga] (a)~taxi~driver~[takushii~no~untenshu] is~[desu] 
+
+[MULTIPLE_CHOICE]
+> Lin is a taxi driver and Oscar just got into the taxi.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker592: リン|！タクシーのうんてんしゅ                                   に~なったの？                      
+~           Lin~[rin]  (a)~taxi~driver~[takushii~no~untenshu] did~you~become~[ni~natta~no] 
+
+[LINE]
+Speaker508: うん|！あたらしい                 しごと                だよ！             
+~           yes~[un]  new~[atarashii] (my)~job~[shigoto] (it)~is~[da~yo] 
+
+[LINE]
+Speaker508: どこに             いきたい？                        
+~           where~[doko~ni] (do~you)~want~to~go~[ikitai] 
+
+[LINE]
+Speaker592: えき                  まで        おねがい！           
+~           (the)~station~[eki] to~[made] please~[onegai] 
+
+[LINE]
+Speaker508: えきは                    どこに~あるの？                 
+~           (the)~station~[eki~wa] where~is~[dokoni~aru~no] 
+
+[LINE]
+Speaker592: しらないよ。                       
+~           (I)~don't~know~[shiranai~yo] 
+
+[MULTIPLE_CHOICE]
+> Oscar doesn't know…
+- …where he wants to go.
++ …where the station is.
+- …who Lin is.
+
+[LINE]
+Speaker508: わかった…        
+~           OK~[wakatta] 
+
+[LINE]
+> リンは          タクシー                  を~うんてんします。               
+~ Lin~[rin~wa] (the)~taxi~[takushii] drives~[o~unten-shimasu] 
+
+[LINE]
+Speaker508: ついたよ！                   
+~           we~are~here~[tsuita~yo] 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "university."
+Speaker592: リン|…(ここは)                           えき                  (じゃないよ|)。(ここは)                                 (+だいがく)                       だよ。        
+~           Lin~ [rin]  this~(place)~[koko~wa]  (the)~station~[eki]  is~not~[ ja~nai~yo]   this~(place)~[koko~wa]    (the)~university~[daigaku]  is~[da~yo] 
+
+[LINE]
+Speaker508: そっか…       
+~           Oh~[sokka] 
+
+[LINE]
+> リンは          タクシー                  を~うんてんします。               
+~ Lin~[rin~wa] (the)~taxi~[takushii] drives~[o~unten-shimasu] 
+
+[LINE]
+Speaker508: ついたよ！                   
+~           we~are~here~[tsuita~yo] 
+
+[LINE]
+Speaker592: リン…       
+~           Lin~[rin] 
+
+[LINE]
+Speaker508: なに？         
+~           what~[nani] 
+
+[LINE]
+Speaker592: ここは                    びょういん                   だよ。        
+~           this~(place)~[koko~wa] (the)~hospital~[byouin] is~[da~yo] 
+
+[LINE]
+Speaker508: そっか…       
+~           Oh~[sokka] 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "again."
+> (リンは|)…(+また)                    (タクシー)                  (を~うんてんします)。               
+~  Lin~[r  in~wa]   again~[mata]   (the)~taxi~[takushii]   drives~[o~unten-shimasu]  
+
+[LINE]
+Speaker508: よし|、ついたよ！                           
+~           OK~[yoshi]  we~are~here~[tsuita~yo] 
+
+[ARRANGE]
+> Tap what you hear
+Speaker592: [(リン|)、(ここは)                           (えき)                  (じゃないよ)…]             
+~             Lin~[ rin]   this~(place)~[koko~wa]   (the)~station~[eki]   is~not~[ja~nai~yo]   
+
+[LINE]
+Speaker508: しってるよ|。ここは                                     わたしの            アパート               だ       から。            
+~           (I)~know~[shitteru~yo]  this~(place)~[koko~wa] my~[watashi~no] apartment~[apaato] is~[da] because~[kara] 
+
+[LINE]
+Speaker508: もう|、タクシーは                               うんてんしたくないんだ。                                    
+~           anymore~[mou]  (the)~taxi~[takushii~wa] (I)~don't~want~to~drive~[unten-shitakunai~n~da] 
+
+[LINE]
+Speaker508: むずかしい                  しごと               だ            から。            
+~           difficult~[muzukashii] (a)~job~[shigoto] (it)~is~[da] because~[kara] 
+
+[LINE]
+> リンは          タクシー                  から~おります。                   
+~ Lin~[rin~wa] (the)~taxi~[takushii] gets~out~of~[kara~orimasu] 
+
+[LINE]
+Speaker508: おやすみ|、オスカー！                          
+~           good~night~[oyasumi]  Oscar~[osukaa] 
+
+[MULTIPLE_CHOICE]
+> Oh no! Why did Lin decide to go home?
++ She thinks driving a taxi is too difficult.
+- She forgot to bring her lunch.
+- She needed to pick up another passenger.
+
+[MATCH]
+> Tap the pairs
+- わかった <> OK [wakatta]
+- タクシー <> taxi [takushii]
+- よし <> OK [yoshi]
+- なに <> what [nani]
+- いきたい <> want to go [ikitai]
+
