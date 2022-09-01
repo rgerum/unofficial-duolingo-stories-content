@@ -1,0 +1,110 @@
+[DATA]
+fromLanguageName=O jardim
+icon=b4090fb3357cd46aa8eac9f22c4fbbe3265d273e
+set=5|4
+
+[HEADER]
+> El jardín
+~ o  jardim
+
+[LINE]
+> Vikram visita~a su~abuela~enferma en~el hospital.
+~ Vikram visita   a~avó~doente~dele no    hospital 
+
+[LINE]
+Speaker593: ¡Hola, abuela!
+~            olá   vovó   
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker593: ¿Cómo [te~sientes~hoy]?   
+~            como  tu~te~sentes~hoje  
++ te sientes hoy
+- se siente voy
+- te sientan hoy
+
+[LINE]
+Speaker129: Esta~habitación es muy   triste, no  tiene color.
+~           este~quarto     é  muito triste  não tem   cor   
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "aproveitar".
+Speaker129: Hoy  es   un (bonito) día. (Quiero) (salir) y (+disfrutar)  el sol.
+~           hoje está um  belo    dia   quero    sair   e   aproveitar  o  sol 
+
+[LINE]
+Speaker129: Pero no  me siento muy   bien ahora.
+~           mas  não me sinto  muito bem  agora 
+
+[LINE]
+Speaker593: Lo~siento,   abuela.
+~           sinto~muito  vovó   
+
+[LINE]
+Speaker129: Me~encanta trabajar  en~el jardín de mi    casa…
+~           eu~adoro   trabalhar no    jardim da minha casa 
+
+[LINE]
+Speaker593: ¡Ah! Tengo una idea. 
+~            ah  tenho uma ideia 
+
+[LINE]
+Speaker593: ¡Un momento!
+~            um momento 
+
+[MULTIPLE_CHOICE]
+> Parece que o Vikram…
+- …decidiu ir a uma festa.
+- …percebeu que ele precisa tomar um banho.
++ …tem uma ideia para a avó dele se sentir melhor.
+
+[LINE]
+> Veinte minutos después…
+~ vinte  minutos depois  
+
+[LINE]
+> Vikram entra en~la~habitación con dos  grandes~plantas.
+~ Vikram entra no~quarto        com duas plantas~grandes 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker593: Estas son [de~tu~casa]. 
+~           estas são  da~tua~casa  
+- deja tu casa
++ de tu casa
+- de tus cajas
+
+[LINE]
+Speaker593: Y también tengo unas    flores de tu  jardín.
+~           e também  tenho algumas flores do teu jardim 
+
+[LINE]
+Speaker129: ¡Mis    plantas y mis    flores!
+~            minhas plantas e minhas flores 
+
+[LINE]
+Speaker593: ¡Ahora tienes tu    jardín aquí!
+~            agora tens   o~teu jardim aqui 
+
+[LINE]
+Speaker129: Qué bonito, mi  amor.
+~           que bonito  meu amor 
+
+[LINE]
+Speaker129: ¡Muchas~gracias, Vikram!
+~            muito~obrigada  Vikram 
+
+[MULTIPLE_CHOICE]
+> Que fofo! O Vikram…
+- …levou a avó dele de volta para a casa dela.
+- …comprou um colar de flores para a avó dele.
++ …trouxe plantas e flores do jardim da avó dele.
+
+[MATCH]
+> Toque nos pares
+- Vikram <> Vikram
+- abuela <> vovó
+- Pero <> mas
+- visita a <> visita
+- bonito <> belo
+
