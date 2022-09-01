@@ -1,0 +1,128 @@
+[DATA]
+fromLanguageName=Where Is Your Girlfriend?
+icon=0d18f0403cfa415591d7ef50a9e9c01f1094936e
+set=7|2
+
+[HEADER]
+> Où    est votre~copine    ?
+~ where is  your~girlfriend  
+
+[LINE]
+> Béa va~prendre       l'avion.  
+~ Béa is~going~to~take the~plane 
+
+[LINE]
+> Elle parle       avec un homme qui travaille à  l'| aéroport.
+~ she  is~speaking with a  man   who works     at the airport  
+
+[LINE]
+Speaker823: Bonjour ! Je peux vous~aider ?
+~           hello     I  can  help~you    
+
+[MULTIPLE_CHOICE]
+> The man at the airport wants to help Béa.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker507: Oui, je vais     à  Bordeaux…
+~           yes  I  am~going to Bordeaux 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "next to."
+Speaker507: … et  je (voudrais)   être  (+à~côté~de) ma (copine)     (dans~l'avion).
+~             and I   would~like  to~be   next~to    my  girlfriend   on~the~plane  
+
+[LINE]
+Speaker823: OK… J'ai   deux places ensemble.
+~           OK  I~have two  seats  together 
+
+[LINE]
+Speaker507: Très bien !
+~           very well  
+
+[MULTIPLE_CHOICE]
+> Why is Béa happy?
++ There are two available seats together.
+- The man is from Bordeaux.
+- She's getting a discount on her ticket.
+
+[LINE]
+Speaker823: Hmm… où    est votre copine     ?
+~           hmm  where is  your  girlfriend  
+
+[LINE]
+Speaker507: Je ne~sais~pas. Vous pouvez~m'aider à~la~trouver ?
+~           I  don't~know   you  can~help~me    find~her      
+
+[MULTIPLE_CHOICE]
+> Béa wants help finding...
+- …her plane ticket.
+- …her shoes.
++ …her girlfriend.
+
+[LINE]
+Speaker823: Elle~est~comment ?
+~           what~is~she~like  
+
+[LINE]
+Speaker507: Elle est grande. Elle est blonde…
+~           she  is  tall    she  is  blonde 
+
+[LINE]
+Speaker823: OK.
+~           OK 
+
+[LINE]
+Speaker507: Elle aime~faire~du~sport  et  danser…    
+~           she  likes~to~play~sports and (to)~dance 
+
+[LINE]
+Speaker823: Euh…
+~           uh  
+
+[CONTINUATION]
+> What comes next?
+Speaker507: Elle adore les~animaux, mais elle n'aime~pas   [cuisiner].
+~           she  loves animals      but  she  doesn't~like  to~cook   
+- danser  
+~ to~dance
++ cuisiner
+~ to~cook 
+- le~sport
+~ sports  
+
+[LINE]
+Speaker823: OK… Comment~elle~s'appelle ?
+~           OK  what's~her~name         
+
+[LINE]
+Speaker507: Ah, ça…   je ne~sais~pas.
+~           ah  that  I  don't~know  
+
+[LINE]
+Speaker823: Pardon    ?
+~           excuse~me  
+
+[LINE]
+Speaker507: Je n'ai~pas   de~copine.     
+~           I  don't~have (a)~girlfriend 
+
+[LINE]
+Speaker507: Vous pouvez~m'aider~à~trouver une copine     ?
+~           you  can~help~me~find         a   girlfriend  
+
+[MULTIPLE_CHOICE]
+> Did you get that? Béa...
+- …lost her girlfriend at the airport.
++ …doesn't have a girlfriend yet.
+- …left her girlfriend at home.
+
+[MATCH]
+> Tap the pairs
+- deux <> two
+- dans l'avion <> on the plane
+- OK <> OK
+- être <> to be
+- Ah <> ah
+
