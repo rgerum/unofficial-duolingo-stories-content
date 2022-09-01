@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Chiếc bánh kem
+icon=4a31a2e8269bfd907d862c44a3b320899c169419
+set=14|4
+
+[HEADER]
+> The~Cake  
+~ chiếc~bánh
+
+[LINE]
+> Lin goes~to her~kitchen.           She   looks in        the~fridge.
+~ Lin đi~vào  phòng~bếp~(nhà~cô~ấy)  cô~ấy ngó   vào~trong tủ~lạnh    
+
+[LINE]
+Speaker508: Where~is~my~cake?     
+~           bánh~của~mình~đâu~rồi 
+
+[LINE]
+> Lin sees      her~grandmother, Lucy, at the~table.  
+~ Lin nhìn~thấy bà~của~cô~ấy     Lucy  ở  chỗ~cái~bàn 
+
+[LINE]
+Speaker508: Grandma, what~did~you~just~eat?
+~           bà       bà~vừa~ăn~gì~đấy      
+
+[LINE]
+> Lucy hides her~plate.            
+~ Lucy giấu  chiếc~đĩa~(của~bà~ấy) 
+
+[MULTIPLE_CHOICE]
+> Lucy đang cố giấu Lin chiếc đĩa.
+- Không đúng.
++ Đúng vậy.
+
+[LINE]
+Speaker509: Uhh… a       sandwich!     
+~           ờm   1~chiếc bánh~sandwich 
+
+[LINE]
+Speaker508: I    can't~find     my~cake.      
+~           cháu không~tìm~thấy bánh~của~cháu 
+
+[LINE]
+Speaker509: That's~strange. What~does~it~look~like?
+~           lạ~thế~nhỉ      nó~trông~thế~nào       
+
+[LINE]
+Speaker508: It's  a       very~small~cake.
+~           nó~là 1~chiếc bánh~rất~nhỏ    
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker509: [(Are~there)           (oranges) (on)     (the~cake)?]  
+~             có~phải~là~có…không   cam       ở~trên   chiếc~bánh   
+
+[LINE]
+Speaker508: Yes!    There~are a~lot~of  oranges on     the~cake.  
+~           phải~ạ  có        rất~nhiều cam     ở~trên chiếc~bánh 
+
+[LINE]
+Speaker509: Is~your~cake                   yellow?     
+~           bánh~của~cháu~có~phải~là…không có~màu~vàng 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker508: Yes!     My~cake       [is~yellow]!  
+~           dạ~phải  bánh~của~cháu  có~màu~vàng  
+- is~red   
+~ có~màu~đỏ
+- is~very large
+~ rất~là  lớn  
++ is~yellow  
+~ có~màu~vàng
+
+[LINE]
+Speaker509: Is~your~cake                   very, very delicious?
+~           bánh~của~cháu~có~phải~là…không rất   rất  ngon      
+
+[LINE]
+Speaker508: Grandma! Did~you~eat         my~cake?!      
+~           bà       bà~đã~ăn…phải~không bánh~của~cháu  
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker509: No!    I  [didn't~eat~it]!        
+~           không  bà  không~ăn~(nó)~đâu~nhé  
+- didn't read it
+- did need it
++ didn't eat it
+
+[LINE]
+Speaker508: OK.    Sorry.        I'll~make   another…~chocolate~cake.     
+~           thế~ạ  cháu~xin~lỗi  cháu~sẽ~làm một~chiếc~bánh~sô-cô-la~khác 
+
+[LINE]
+Speaker509: Chocolate?  But   your~cake     was~vanilla!  
+~           sô-cô-la~á  nhưng bánh~của~cháu có~vị~vani~mà 
+
+[LINE]
+Speaker508: Ha!  Yes,  it was     vanilla!    You did~eat       my~cake!      
+~           á~à  vâng  nó đúng~là có~vị~vani  bà  đúng~là~đã~ăn bánh~của~cháu 
+
+[MULTIPLE_CHOICE]
+> Nhờ đâu mà Lin phát hiện ra Lucy là thủ phạm ăn bánh?
++ Lucy biết chiếc bánh có vị gì.
+- Lin đã tìm thấy đĩa của Lucy.
+- Lucy có vụn bánh dính trên mép.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- hides <> giấu
+- Are there <> có phải là có…không
+- No <> không
+- I'll make <> cháu sẽ làm
+- Grandma <> bà
+
