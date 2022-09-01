@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=Trouvez ma petite amie
+icon=0d18f0403cfa415591d7ef50a9e9c01f1094936e
+set=3|4
+
+[HEADER]
+> Find    My Girlfriend 
+~ trouvez ma petite~amie
+
+[LINE]
+> Bea is  at the~airport.
+~ Bea est à  l'aéroport  
+
+[LINE]
+> She  talks to the~man at~the desk.   
+~ elle parle à  l'homme au     guichet 
+
+[LINE]
+Speaker823: Hello!   Can~I~help~you?    
+~           bonjour  puis-je~vous~aider 
+
+[LINE]
+Speaker507: Yes! I'm~going to Barcelona…
+~           oui  je~vais   à  Barcelone 
+
+[LINE]
+Speaker507: I  want to~sit    next~to   my girlfriend  on~the~plane.
+~           je veux m'asseoir à~côté~de ma petite~amie dans~l'avion 
+
+[MULTIPLE_CHOICE]
+> Bea veut s'asseoir à côté de sa petite amie dans l'avion.
+- Non, c'est faux.
++ Oui, c'est vrai.
+
+[LINE]
+Speaker823: OK,       we   have  two  seats  together.
+~           d'accord  nous avons deux sièges ensemble 
+
+[MULTIPLE_CHOICE]
+> Le steward dit à Bea que...
+- … l'avion n'a que deux sièges.
+- … tous les sièges sont pris.
++ … deux sièges l'un à côté de l'autre sont disponibles.
+
+[LINE]
+Speaker507: Great! 
+~           génial 
+
+[LINE]
+Speaker823: Um…  where is  your  girlfriend? 
+~           hmm  où    est votre petite~amie 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « la trouver ».
+Speaker507: (I)  (don't~know).  (Can~you~help~me)       (+find~her)?  
+~            je   ne~sais~pas    pouvez-vous~m'aider~à    la~trouver  
+
+[LINE]
+Speaker823: What~does~she~look~like?
+~           à~quoi~elle~ressemble   
+
+[LINE]
+Speaker507: Hmm. She  is  tall.   She  has dark~hair…         
+~           hmm  elle est grande  elle a   les~cheveux~foncés 
+
+[LINE]
+Speaker823: OK.      
+~           d'accord 
+
+[LINE]
+Speaker507: She  loves sports   and cooking… 
+~           elle aime  le~sport et  cuisiner 
+
+[LINE]
+Speaker823: Uh… 
+~           euh 
+
+[LINE]
+Speaker507: She  loves animals…     but  she  drives  too  fast.
+~           elle aime  les~animaux  mais elle conduit trop vite 
+
+[LINE]
+Speaker823: OK…       What is  her name?
+~           d'accord  quel est son nom  
+
+[MULTIPLE_CHOICE]
+> Pourquoi le steward pose-t-il des questions sur la petite amie de Bea ?
+- Il veut faire du sport avec elle.
+- Bea et lui sont de très bons amis.
++ Il veut aider Bea à la retrouver.
+
+[LINE]
+Speaker507: Oh. I  don't~know. 
+~           oh  je ne~sais~pas 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker823: You  don't~know        [your~girlfriend's~name]?     
+~           vous ne~connaissez~pas  le~nom~de~votre~petite~amie  
+- your girlfriend's game
+- your good friends' names
++ your girlfriend's name
+
+[LINE]
+Speaker507: I  don't~have~a~girlfriend~yet.   
+~           je n'ai~pas~encore~de~petite~amie 
+
+[LINE]
+Speaker507: Can~you~help~me       find~one?      
+~           pouvez-vous~m'aider~à en~trouver~une 
+
+[MULTIPLE_CHOICE]
+> Bea veut que le steward l'assoie à côté de quelqu'un qui...
++ … puisse devenir sa nouvelle petite amie.
+- … travaille à l'aéroport.
+- … ronfle très fort.
+
+[MATCH]
+> Choisis les paires
+- desk <> guichet
+- your <> votre
+- drives <> conduit
+- is <> est
+- find one <> en trouver une
+
