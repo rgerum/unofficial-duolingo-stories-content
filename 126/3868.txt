@@ -1,0 +1,124 @@
+[DATA]
+fromLanguageName=A tarefa de artes
+icon=81f7ed2bd4ece4842874e1ea985c979bd6457de6
+set=16|1
+
+[HEADER]
+> The Art~Homework   
+~ a   tarefa~de~artes
+
+[LINE]
+> Lily and Zari are   in~Oscar's~art~class.    
+~ Lily e   Zari estão na~aula~de~arte~de~Oscar 
+
+[LINE]
+Speaker592: Lily, can~I~see    your~homework? 
+~           Lily  eu~posso~ver (a)~sua~tarefa 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker416: I…  don't~want [to~show~it~to~you].    
+~           eu  não~quero   mostrar~ele~para~você  
++ to show it to you
+- who showed it to you
+- to show what to do
+
+[LINE]
+Speaker592: Excuse~me?
+~           perdão    
+
+[LINE]
+Speaker416: I'm      too~embarrassed.    
+~           eu~estou envergonhada~demais 
+
+[LINE]
+Speaker592: What?  Why?    
+~           o~quê  por~quê 
+
+[LINE]
+Speaker416: I…  don't~think    my        painting is very  good.
+~           eu  não~acho~(que) (a)~minha pintura  é  muito boa  
+
+[MULTIPLE_CHOICE]
+> A Lily está envergonhada demais para…
++ …mostrar a pintura dela para o Oscar.
+- …ir à escola.
+- …ligar para a mãe dela.
+
+[LINE]
+Speaker418: Lily, you're the best   artist  in~this class! 
+~           Lily  você~é a   melhor artista nesta   classe 
+
+[LINE]
+Speaker416: Zari, stop!
+~           Zari  pare 
+
+[LINE]
+Speaker592: Lily, you're the best   artist  in~this class. 
+~           Lily  você~é a   melhor artista nesta   classe 
+
+[LINE]
+Speaker416: Please,    no— 
+~           por~favor  não 
+
+[LINE]
+> Oscar takes Lily's~painting.    
+~ Oscar pega  (a)~pintura~de~Lily 
+
+[LINE]
+Speaker592: It's…    it's…    beautiful.
+~           (ela)~é  (ela)~é  linda     
+
+[LINE]
+Speaker416: Do~you~like~it? 
+~           você~gosta~dela 
+
+[LINE]
+Speaker592: I  love it!   The white  on    white  on    white… 
+~           eu amo  isto  o   branco sobre branco sobre branco 
+
+[MULTIPLE_CHOICE]
+> Você pegou essa? A pintura da Lily…
+- …é muito colorida.
+- …tem muito preto.
++ …tem muito branco.
+
+[LINE]
+Speaker592: When   I  look~at   this painting, I  feel       sad…    and I  feel       happy?
+~           quando eu olho~para esta pintura   eu (me)~sinto triste  e   eu (me)~sinto feliz 
+
+[LINE]
+Speaker592: Wow. Great work,     Lily.
+~           uau  ótimo trabalho  Lily 
+
+[LINE]
+> Oscar leaves. Zari sees Lily's~painting.    
+~ Oscar sai     Zari vê   (a)~pintura~de~Lily 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "em branco".
+Speaker418: (Your~painting)   (is)   (+blank),     (Lily).
+~            (a)~sua~pintura   está    em~branco    Lily  
+
+[LINE]
+Speaker416: I  know.
+~           eu sei  
+
+[LINE]
+Speaker418: You  always forget            to~do your~homework. 
+~           você sempre (se)~esquece~(de) fazer (a)~sua~tarefa 
+
+[MULTIPLE_CHOICE]
+> Por que a pintura da Lily estava toda branca?
++ Ela esqueceu de fazer o dever de casa.
+- A cor preferida dela é branco.
+- Ela está fazendo uma declaração de artista.
+
+[MATCH]
+> Toque nos pares
+- on <> sobre
+- no <> não
+- very <> muito
+- it <> isto
+- beautiful <> linda
+
