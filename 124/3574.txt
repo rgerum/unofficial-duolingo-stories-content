@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Le végétarien
+icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
+set=2|3
+
+[HEADER]
+> The Vegetarian
+~ le  végétarien
+
+[LINE]
+> Vikram is~reading           a  menu in   a  nice restaurant.
+~ Vikram est~en~train~de~lire un menu dans un bon  restaurant 
+
+[LINE]
+Speaker385: Welcome!  
+~           bienvenue 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker593: Hello.   I~have a   question about [the~menu].
+~           bonjour  j'ai   une question sur    le~menu   
++ the menu
+- the man to
+- the men
+
+[LINE]
+Speaker593: I  am   a~vegetarian.
+~           je suis végétarien   
+
+[LINE]
+Speaker593: Is~there vegetarian~food?      
+~           y~a-t-il des~plats~végétariens 
+
+[MULTIPLE_CHOICE]
+> Vikram aime manger de la viande.
+- Oui, c'est vrai.
++ Non, c'est faux.
+
+[LINE]
+Speaker385: Yes, we   have  very    good steaks.
+~           oui  nous avons de~très bons steaks 
+
+[LINE]
+Speaker593: Steaks     are  meat.         I  do~not~eat      meat.  
+~           les~steaks sont de~la~viande  je ne~mange~pas~de viande 
+
+[LINE]
+Speaker385: Oh, yes. I  am   sorry. 
+~           oh  oui  je suis désolé 
+
+[LINE]
+Speaker385: The chicken is  delicious.
+~           le  poulet  est délicieux 
+
+[MULTIPLE_CHOICE]
+> Le serveur pense que Vikram...
++ … devrait commander du poulet.
+- … n'a pas faim.
+- ... déteste le poulet.
+
+[LINE]
+Speaker593: Chicken   is  meat.        
+~           le~poulet est de~la~viande 
+
+[LINE]
+Speaker593: I  do~not~want    meat!  
+~           je ne~veux~pas~de viande 
+
+[LINE]
+Speaker385: We   have  salad…       
+~           nous avons de~la~salade 
+
+[LINE]
+Speaker593: Oh, I~like salad!     What~is             in   the salad? 
+~           oh  j'aime la~salade  qu'est-ce~qu'il~y~a dans la  salade 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « du poisson ».
+Speaker385: (There~is) (tomato),       (lettuce),      (+fish)…      
+~            il~y~a     de~la~tomate    de~la~laitue     du~poisson  
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker593: I  do~not~eat      fish!    I  am   [a~vegetarian]!
+~           je ne~mange~pas~de poisson  je suis  végétarien    
+- a  restaurant
+~ un restaurant
+- a   salad 
+~ une salade
++ a~vegetarian
+~ végétarien  
+
+[LINE]
+Speaker385: We   have  fries…     
+~           nous avons des~frites 
+
+[LINE]
+Speaker593: OK.       Fries~are~fine.        
+~           d'accord  c'est~bien,~les~frites 
+
+[LINE]
+Speaker385: Fries,      perfect. And… a  burger?   
+~           des~frites  parfait  et   un hamburger 
+
+[LINE]
+Speaker593: No~meat,       please!         
+~           pas~de~viande  s'il~vous~plaît 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Vikram est-il contrarié par le serveur ?
++ Le serveur n'arrête pas d'oublier qu'il est végétarien.
+- Le serveur ne se souvient pas de son nom.
+- La nourriture du restaurant est mauvaise.
+
+[MATCH]
+> Choisis les paires
+- restaurant <> restaurant
+- fries <> des frites
+- OK <> d'accord
+- menu <> menu
+- lettuce <> de la laitue
+
