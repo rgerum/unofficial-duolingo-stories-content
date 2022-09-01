@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=The Fish Burial
+icon=d269170970dbcc5a5f80f6ea1ffed7394ae2b584
+set=16|4
+
+[HEADER]
+> Die Fischbestattung
+~ the fish~burial    
+
+[LINE]
+> Lilli sieht Junior, den Nachbarsjungen.     Er weint.    
+~ Lilli sees  Junior  the boy~from~next~door  he is~crying 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker416: Junior? [Ist~alles~in~Ordnung]?
+~           Junior   is~everything~OK      
+- Ist alles getrocknet
+- Was hast du geordnet
++ Ist alles in Ordnung
+
+[LINE]
+Speaker415: Nein! Flosse            ist tot! 
+~           no    fin~(fish's~name) is  dead 
+
+[LINE]
+Speaker416: Dein Fisch?
+~           your fish  
+
+[LINE]
+Speaker415: Ja.  Er war noch~so~jung!  
+~           yes  he was still~so~young 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "funerals."
+Speaker416: Ich (kann) (dir~helfen). Ich lese (sehr~viel)   über  (+Bestattungen).
+~           I    can    help~you     I   read  quite~a~lot  about   burials       
+
+[LINE]
+> Lilli und Junior bringen Flosse in   Juniors  Badezimmer.
+~ Lilli and Junior bring   Flosse into Junior's bathroom   
+
+[LINE]
+Speaker416: Ein Fisch braucht auf~jeden~Fall eine Meerbestattung.
+~           a   fish  needs   definitely     a    burial~at~sea  
+
+[MULTIPLE_CHOICE]
+> Wait… What does Lilli mean by a “burial at sea”?
++ They are going to flush him down the toilet.
+- Flosse always wanted to be a sailor.
+- Junior is the captain of a ship.
+
+[LINE]
+Speaker416: Du  musst   jetzt etwas~über~Flosse~erzählen.
+~           you have~to now   say~something~about~Flosse 
+
+[LINE]
+Speaker415: Also … Flosse war ein fantastischer Schwimmer.
+~           well   Flosse was a   fantastic     swimmer   
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(Und) (wir) (haben) (immer)  (zusammen~ferngesehen).]
+~             and   we    have    always   watched~TV~together    
+
+[LINE]
+Speaker415: Und er hat meine~Witze~echt~geliebt!
+~           and he has really~loved~my~jokes    
+
+[LINE]
+Speaker415: Er war mein Freund.
+~           he was my   friend 
+
+[LINE]
+Speaker416: OK, das  ist genug. 
+~           OK  that is  enough 
+
+[LINE]
+> Lilli wirft  den Fisch in die Toilette.
+~ Lilli throws the fish  in the toilet   
+
+[LINE]
+Speaker416: Und tschüss.
+~           and bye     
+
+[LINE]
+> Plötzlich fängt~Flosse~an zu~schwimmen.
+~ suddenly  Flosse~starts   swimming     
+
+[LINE]
+Speaker415: Flosse! Du~lebst!    
+~           Flosse  you're~alive 
+
+[CONTINUATION]
+> What comes next?
+Speaker416: Ups.  Der      [lebt~noch].     
+~           oops  that~one  is~still~alive  
+- braucht einen Badeanzug
+~ needs   a     swimsuit 
+- ist eine Schildkröte
+~ is  a    tortoise   
++ lebt~noch     
+~ is~still~alive
+
+[LINE]
+Speaker415: Aber wie holen~wir      ihn aus    der Toilette?
+~           but  how are~we~getting him out~of the toilet   
+
+[LINE]
+Speaker416: Wir? Flosse ist dein Freund.
+~           we   Flosse is  your friend 
+
+[MULTIPLE_CHOICE]
+> How did Lilli and Junior learn that Flosse is alive?
++ He started swimming in the toilet.
+- Junior remembered that it was Flosse's nap time.
+- Junior told him a funny joke.
+
+[MATCH]
+> Tap the pairs
+- sehr viel <> quite a lot
+- mein <> my
+- sieht <> sees
+- Plötzlich <> suddenly
+- Nachbarsjungen <> boy from next door
+
