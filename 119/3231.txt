@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=The Car Is Broken Down
+icon=e161ff53b5f470063ac66df2698eddb71232c290
+set=16|2
+
+[HEADER]
+> Das Auto ist kaputt     
+~ the car  is  broken~down
+
+[LINE]
+> Eddy steht       neben   einem Auto.
+~ Eddy is~standing next~to a     car  
+
+[LINE]
+> Er schließt den Kofferraum.
+~ he closes   the trunk      
+
+[LINE]
+> Vikram sieht ihn.
+~ Vikram sees  him 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker593: Ist alles      in~Ordnung, Eddy? [Du~siehst~gestresst~aus]! 
+~           is  everything all~right   Eddy   you~are~looking~stressed  
+- Du siehst verletzt aus
++ Du siehst gestresst aus
+- Du niest und stresst auch
+
+[LINE]
+Speaker414: Ich habe heute diesen~Wagen~gemietet.
+~           I   have today rented~this~car       
+
+[LINE]
+Speaker414: Aber er ist kaputt!     
+~           but  it is  broken~down 
+
+[MULTIPLE_CHOICE]
+> Why is Eddy worried?
+- He doesn't know where he is.
++ The car that he borrowed isn't working.
+- He is in the trunk of a car.
+
+[LINE]
+Speaker593: Hm … Vielleicht kann~ich helfen?
+~           hm   maybe      I~can    help   
+
+[LINE]
+Speaker414: Ich denke~nicht,    Vikram.
+~           I   don't~think~so  Vikram 
+
+[LINE]
+Speaker593: Ich glaube, ich verstehe   das Problem!
+~           I   think   I   understand the problem 
+
+[LINE]
+Speaker414: Vikram, ich weiß ziemlich viel  über  Autos.
+~           Vikram  I   know quite    a~lot about cars  
+
+[LINE]
+Speaker593: Also, du  hast den Motor  schon   gestartet.
+~           so    you have the engine already started   
+
+[CONTINUATION]
+> What comes next?
+Speaker414: Das  kann~nicht sein, ich höre [den Motor  nicht].
+~           That can't      be    I   hear  the engine not    
+- klassische Musik
+~ classical  music
++ den Motor  nicht
+~ the engine not  
+- keine Vögel singen
+~ no    birds sing  
+
+[LINE]
+Speaker593: Eddy, dein Mietwagen  ist ein Elektroauto.  Die   sind leise.
+~           Eddy  your rental~car is  an  electric~car  these are  quiet 
+
+[MULTIPLE_CHOICE]
+> The car is electric, so…
+- …it uses a lot of gas.
+- …it's ugly.
++ …it's quiet and doesn't use gas.
+
+[LINE]
+Speaker414: Was? 
+~           what 
+
+[LINE]
+Speaker593: Der Motor  läuft      schon.   Fahr~einfach.
+~           the engine is~running already  just~drive   
+
+[LINE]
+> Eddy fährt            langsam los.
+~ Eddy (starts)~driving slowly  ~   
+
+[LINE]
+Speaker593: Siehst~du, Eddy? Es ist nicht kaputt,      nur  elektrisch. Ohne    Benzin.
+~           you~see    Eddy  it is  not   broken~down  just electric    without gas    
+
+[LINE]
+Speaker414: Nein, ich habe vor~10~Minuten Benzin~in~das~Auto~gefüllt!
+~           no    I   have 10~minutes~ago put~gas~in~the~car         
+
+[LINE]
+Speaker593: Was?  Wo    in das Auto?
+~           what  where in the car  
+
+[LINE]
+Speaker414: Hier natürlich!
+~           here of~course 
+
+[LINE]
+Speaker593: Oh nein Eddy, das~ist der Kofferraum!
+~           oh no   Eddy  that's  the trunk      
+
+[MULTIPLE_CHOICE]
+> Where did Eddy put the gas?
+- in his motorcycle
++ in the trunk of the car
+- in Vikram's car
+
+[MATCH]
+> Tap the pairs
+- Ist <> is
+- elektrisch <> electric
+- Motor <> engine
+- Aber <> but
+- habe <> have
+
