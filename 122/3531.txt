@@ -1,0 +1,152 @@
+[DATA]
+fromLanguageName=Das schmeckt komisch
+icon=2af10d537225ca8ebd8d85b0d77cdc2dc60ebb71
+set=24|2
+
+[HEADER]
+> This Tastes   Strange
+~ das  schmeckt komisch
+
+[LINE]
+> Eddy is~eating something he       found~in~the~fridge.        
+~ Eddy isst      etwas     (das)~er im~Kühlschrank~gefunden~hat 
+
+[LINE]
+Speaker414: Junior? This~dessert   tastes   strange.
+~           Junior  dieses~Dessert schmeckt komisch 
+
+[LINE]
+Speaker415: What    dessert?
+~           welches Dessert 
+
+[LINE]
+Speaker414: The~dessert that was~in~the~fridge. 
+~           das~Dessert das  im~Kühlschrank~war 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker415: [That~wasn't~a~dessert]. That was my~science~project.       
+~            das~war~kein~Dessert    das  war mein~Wissenschaftsprojekt 
++ That wasn't a dessert
+- That was in the desert
+- That's what I deserve
+
+[LINE]
+Speaker414: I   thought it looked~a~little~green…    
+~           ich dachte  es sah~ein~bisschen~grün~aus 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker414: How long  was it [in~the~fridge]? 
+~           wie lange war es  im~Kühlschrank  
++ in~the~fridge 
+~ im~Kühlschrank
+- on  my~head    
+~ auf meinem~Kopf
+- under the~bed 
+~ unter dem~Bett
+
+[LINE]
+Speaker415: Since November.
+~           seit  November 
+
+[LINE]
+Speaker414: It's   March now.  
+~           es~ist März  jetzt 
+
+[LINE]
+Speaker414: I~feel~sick.     
+~           mir~ist~schlecht 
+
+[LINE]
+Speaker415: What's~wrong?
+~           was~ist~los  
+
+[LINE]
+Speaker414: I   have a~stomachache… 
+~           ich habe Bauchschmerzen 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „drücke“.
+Speaker415: (Hmm). Does~it~hurt (when) I   (+poke)   your~stomach (here)?
+~            hmm   tut~es~weh    wenn  ich   drücke  deinen~Bauch  hier  
+
+[LINE]
+Speaker414: No.  
+~           nein 
+
+[ARRANGE]
+> Was hörst du?
+Speaker415: [(What) (if)   (I)   (poke~you~here)?]
+~             was    wenn   ich   hier~drücke     
+
+[LINE]
+Speaker414: Ouch!  
+~           autsch 
+
+[LINE]
+Speaker415: Interesting…
+~           interessant 
+
+[LINE]
+Speaker415: How does~your~body~feel?      
+~           wie fühlt~sich~dein~Körper~an 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker414: My~body     feels~cold…         should I   go~to~the~hospital   l]?
+~           mein~Körper fühlt~sich~kalt~an  sollte ich ins~Krankenhaus~gehen   
+- for~a~run
+~ joggen   
+- to~school 
+~ zur~Schule
++ to~the~hospital
+~ ins~Krankenhaus
+
+[LINE]
+Speaker415: Maybe.      What else~is~wrong?            
+~           vielleicht  was  für~Probleme~hast~du~noch 
+
+[LINE]
+Speaker414: My~mouth  is  dry.     Now   my~mouth~is~wet.      Now   it's~dry~again!       
+~           mein~Mund ist trocken  jetzt ist~mein~Mund~feucht  jetzt ist~er~wieder~trocken 
+
+[LINE]
+Speaker414: Is  my~face      blue?
+~           ist mein~Gesicht blau 
+
+[LINE]
+Speaker415: It~is!      Cool!
+~           das~ist~es  cool 
+
+[LINE]
+Speaker414: I   think  I'm~dying.  I'm~going to~lie~down.  
+~           ich glaube ich~sterbe  ich~werde mich~hinlegen 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „Notizbuch“.
+Speaker415: (Wait)!  I   (need) (to~write)  this in my   (+notebook)! 
+~            warte   ich  muss   schreiben  das  in mein   Notizbuch  
+
+[LINE]
+Speaker414: Because you want~to~tell~the~doctor? 
+~           weil    du  es~dem~Arzt~sagen~willst 
+
+[LINE]
+Speaker415: No.   Because I   want~to~tell~my~teacher!     You're  my   new   science~project!     
+~           nein  weil    ich es~meinem~Lehrer~sagen~will  du~bist mein neues Wissenschaftsprojekt 
+
+[MULTIPLE_CHOICE]
+> Wie ist Eddy Juniors neues Wissenschaftsprojekt geworden?
++ Er ist krank geworden, nachdem er Juniors altes Wissenschaftsprojekt gegessen hatte.
+- Er hat mehrere Monate lang im Kühlschrank gesessen.
+- Seine Haut hat sich unter der Dusche blau gefärbt.
+
+[MATCH]
+> Wähle die Paare
+- poke you here <> hier drücke
+- something <> etwas
+- It is <> das ist es
+- No <> nein
+- March <> März
+
