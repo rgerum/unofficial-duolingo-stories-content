@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=The Waiter Is Right
+icon=c8d008581b5b813d1b4afcedbe914f70003145c6
+set=12|4
+
+[HEADER]
+> Le  serveur a~raison
+~ the waiter  is~right
+
+[LINE]
+> Béa et  son~ami,    Ted, sont au     restaurant.
+~ Béa and her~friend  Ted  are  at~the restaurant 
+
+[LINE]
+Speaker507: J'ai~très~faim    !
+~           I'm~really~hungry  
+
+[LINE]
+Speaker440: Le  plat~du~jour  est toujours délicieux ici  !
+~           the daily~special is  always   delicious here  
+
+[MULTIPLE_CHOICE]
+> Hmm.. what do you think Béa and Ted will order?
++ the dish of the day
+- dessert
+- a small salad
+
+[LINE]
+> Un serveur vient à  leur  table.
+~ a  waiter  comes to their table 
+
+[LINE]
+Speaker526: Bonsoir      ! Que  voulez-vous~manger ?
+~           good~evening   what do~you~want~to~eat  
+
+[LINE]
+Speaker507: Deux plats~du~jour  !
+~           two  daily~specials  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker526: Très bien. [Vous~voulez~boire] quelque~chose ?
+~           very well   you~want~to~drink  something      
++ Vous voulez boire
+- Vous venez en noir
+- Vous voulez la poire
+
+[LINE]
+Speaker526: Nous avons un vin~très~spécial  cette semaine.
+~           we   have  a  very~special~wine this  week    
+
+[ARRANGE]
+> Tap what you hear
+Speaker526: [(Il~est) (délicieux) (avec) (le)  (plat~du~jour)  ]!
+~             it~is    delicious   with   the   daily~special    
+
+[LINE]
+Speaker526: Mais il~est cher.     
+~           but  it~is  expensive 
+
+[LINE]
+Speaker440: Ce   n'est~pas un problème ! Deux verres,  s'il~vous~plaît.
+~           that is~not    a  problem    two  glasses  please          
+
+[LINE]
+Speaker526: Très bien.
+~           very well 
+
+[LINE]
+> Le  serveur arrive  avec les plats  et  deux verres  de vin. 
+~ the waiter  arrives with the dishes and two  glasses of wine 
+
+[LINE]
+Speaker507: Hmm, ça   sent   bon  !
+~           hmm  that smells good  
+
+[MULTIPLE_CHOICE]
+> Béa thinks her food smells…
+- …terrible.
+- …rotten.
++ …good.
+
+[LINE]
+Speaker440: Et  ce   vin... 
+~           and this wine   
+
+[POINT_TO_PHRASE]
+> Choose the option that means "spills."
+> (Ted) (+renverse) (son~verre) (dans~le~plat~de~Béa).
+~  Ted    spills     his~glass   onto~Béa's~dish      
+
+[LINE]
+Speaker440: Ton  plat !
+~           your dish  
+
+[LINE]
+Speaker507: Ton  vin  !
+~           your wine  
+
+[LINE]
+> Béa mange.
+~ Béa eats  
+
+[LINE]
+Speaker507: Le  serveur a~raison !
+~           the waiter  is~right  
+
+[LINE]
+Speaker507: Ce   vin  est délicieux avec le  plat~du~jour  !
+~           this wine is  delicious with the daily~special  
+
+[MULTIPLE_CHOICE]
+> Why was the waiter right?
+- Ted is a boring date.
++ The wine is delicious with the dish of the day.
+- The wine is nothing special.
+
+[MATCH]
+> Tap the pairs
+- vient <> comes
+- Bonsoir <> good evening
+- voulez-vous manger <> do you want to eat
+- Nous <> we
+- Un <> a
+
