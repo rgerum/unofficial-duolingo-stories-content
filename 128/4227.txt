@@ -1,0 +1,107 @@
+[DATA]
+fromLanguageName=Lỗi tại xe
+icon=e161ff53b5f470063ac66df2698eddb71232c290
+set=16|2
+
+[HEADER]
+> Car~Problem     
+~ lỗi~hỏng~xe~ô~tô
+
+[LINE]
+> Eddy is~standing on   the~street.
+~ Eddy đang~đứng   trên đường~phố  
+
+[LINE]
+> He     closes the~trunk~of~a~car.
+~ anh~ấy đóng   cốp~xe~ô~tô        
+
+[LINE]
+> Vikram walks past      Eddy.
+~ Vikram đi~bộ ngang~qua Eddy 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker593: Are~you~OK, Eddy? [You~look~worried].       
+~           anh~ổn~chứ  Eddy   trông~anh~có~vẻ~lo~lắng  
++ You look worried
+- Who cooked curry
+- You look for it
+
+[LINE]
+Speaker414: Well,     I   borrowed this~car       and it won't~start.         
+~           chẳng~là  tôi đã~mượn  chiếc~ô~tô~này mà  nó không~chịu~khởi~động 
+
+[MULTIPLE_CHOICE]
+> Vì sao Eddy lại lo lắng?
++ Chiếc xe mà anh ấy mượn không khởi động được.
+- Anh ấy đang nằm trong cốp xe.
+- Anh ấy không biết mình đang ở đâu.
+
+[LINE]
+Speaker593: Hmm.        Can~I~help~you?                
+~           để~xem~nào  tôi~giúp~gì~được~cho~anh~không 
+
+[LINE]
+Speaker414: No.    It's~OK,         Vikram.
+~           không  không~có~gì~đâu  Vikram 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker593: But   I   know [what's~wrong] with the~car.   
+~           nhưng tôi biết  có~vấn~đề~gì  với  chiếc~ô~tô 
++ what's wrong
+- that's wrong
+- what's along
+
+[LINE]
+Speaker414: Vikram, I   know~a~lot  about cars.   
+~           Vikram  tôi rất~am~hiểu về    xe~ô~tô 
+
+[LINE]
+Speaker593: OK,       well,  you already    started   the~car… 
+~           được~rồi  cơ~mà  anh đã…rồi~đấy khởi~động chiếc~xe 
+
+[LINE]
+Speaker414: No,    I~didn't.   I   can't~hear            the~engine.
+~           không  tôi~đâu~có  tôi không~nghe~thấy~tiếng động~cơ    
+
+[LINE]
+Speaker593: Eddy, this is an~electric~car. It's quiet, and it doesn't~use gas. 
+~           Eddy  đây  là xe~ô~tô~điện     nó   êm     và  nó không~dùng  xăng 
+
+[MULTIPLE_CHOICE]
+> Vì đây là xe điện cho nên…
+- …nó rất tốn xăng.
+- …trông nó không bắt mắt.
++ …nó rất êm và không dùng xăng.
+
+[LINE]
+Speaker414: But   I   put~gas~in     the~car    ten~minutes~ago.
+~           nhưng tôi đã~đổ~xăng~vào chiếc~ô~tô 10~phút~trước   
+
+[LINE]
+Speaker593: What?!   Where?     
+~           cái~gì   vào~đâu~cơ 
+
+[LINE]
+Speaker414: Right~here.      
+~           vào~ngay~đây~này 
+
+[LINE]
+Speaker593: Oh~no,   Eddy… That's the~trunk! 
+~           trời~ơi  Eddy  đấy~là cái~cốp~xe 
+
+[MULTIPLE_CHOICE]
+> Eddy đã đổ xăng vào đâu?
+- vào xe của Vikram
++ vào cốp xe ô tô
+- vào xe máy của anh ấy
+
+[MATCH]
+> Nhấn vào các cặp từ
+- already <> đã…rồi đấy
+- borrowed <> đã mượn
+- about <> về
+- this <> đây
+- an electric car <> xe ô tô điện
+
