@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=The Vegetarian
+icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
+set=2|3
+
+[HEADER]
+> ベジタリアン                       
+~ (the)~vegetarian~[bejitarian]
+
+[LINE]
+> ヴィクラムは               すてきな            レストラン                      に~います。           
+~ Vikram~[vikuramu~wa] nice~[sutekina] (a)~restaurant~[resutoran] is~at~[ni~imasu] 
+
+[LINE]
+Speaker385: いらっしゃいませ！              
+~           welcome~[irasshaimase] 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker593: あの|、すみません|。メニュー                                      に~ついて             しつもん                     [が~あります]。               
+~           um~[ano]  excuse~me~[sumimasen]  (the)~menu~[menyuu] about~[ni~tsuite] (a)~question~[shitsumon]  (I)~have~[ga~arimasu]  
+- が わかります
+- を たべます 
++ が あります
+
+[LINE]
+Speaker593: ぼくは         ベジタリアン                      です。       
+~           I~[boku~wa] (a)~vegetarian~[bejitarian] am~[desu] 
+
+[LINE]
+Speaker593: ベジタリアン                   むけの           りょうりは              ありますか？                 
+~           vegitarians~[bejitarian] for~[muke~no] dishes~[ryouri~wa] are~there~[arimasu~ka] 
+
+[MULTIPLE_CHOICE]
+> Vikram likes to eat meat.
++ No, that's wrong.
+- Yes, that's right.
+
+[POINT_TO_PHRASE]
+> Choose the option that means "steak."
+Speaker385: (はい|)、(とても)                  (いい)        (+ステーキ)            が~ございます。               
+~            yes~[ hai]   very~[totemo]   good~[ii]    steak~[suteeki]  we~have~[ga~gozaimasu] 
+
+[LINE]
+Speaker593: ステーキは               にく          ですよ|。ぼくは                   にく          を~たべません。                 
+~           steaks~[suteeki~wa] meat~[niku] are~[desu~yo]  I~[boku~wa] meat~[niku] do~not~eat~[o~tabemasen] 
+
+[LINE]
+Speaker385: あっ|、そうですね|。もうしわけございません。                                                
+~           ah~[a']  that's~right~[sou~desu~ne]  I'm~sorry~[moushiwake~gozaimasen] 
+
+[LINE]
+Speaker385: こちらの              チキンは                おいしいですよ。                      
+~           this~[kochira~no] chicken~[chikin~wa] is~delicious~[oishii~desu~yo] 
+
+[MULTIPLE_CHOICE]
+> Wait… what? The waiter thinks Vikram…
++ …should order chicken.
+- …is not hungry.
+- …hates chicken.
+
+[LINE]
+Speaker593: チキン              も        にく          ですよ。         
+~           chicken~[chikin] too~[mo] meat~[niku] is~[desu~yo] 
+
+[LINE]
+Speaker593: ぼくは         にく          を~たべません。                 
+~           I~[boku~wa] meat~[niku] do~not~eat~[o~tabemasen] 
+
+[LINE]
+Speaker385: サラダ            も        ございます…              
+~           salad~[sarada] too~[mo] we~have~[gozaimasu] 
+
+[LINE]
+Speaker593: あっ|、サラダは                   すきです|！サラダには                                         なにが~はいっていますか？                          
+~           ah~[a']  salad~[sarada~wa] (I)~like~[suki~desu]  in~(the)~salad~[sarada~ni~wa] what~is~(in)~[nani~ga~haitte~imasu~ka] 
+
+[LINE]
+Speaker385: トマト               と        レタス              と        さかな           と…       
+~           tomatoes~[tomato] and~[to] lettuce~[retasu] and~[to] fish~[sakana] and~[to] 
+
+[LINE]
+Speaker593: ぼくは         さかな           を~たべません！~ベジタリアン                                      です            から！            
+~           I~[boku~wa] fish~[sakana] do~not~eat~[o~tabemasen] (a)~vegetarian~[bejitarian] (I)~am~[desu] because~[kara] 
+
+[LINE]
+Speaker385: フライドポテト                も        ございます…              
+~           fries~[furaido-poteto] too~[mo] we~have~[gozaimasu] 
+
+[CONTINUATION]
+> What comes next?
+Speaker593: そうですか|。フライドポテトは                                [だいじょうぶです]。                
+~           I~see~[sou~desu~ka]  fries~[furaido-poteto~wa]  are~fine~[daijoubu~desu]  
++ だいじょうぶです                
+~ are~fine~[daijoubu~desu]
+- いそがしいです                  
+~ are~busy~[isogashii~desu]
+- おとなです                      
+~ are~(an)~adult~[otona~desu]
+
+[LINE]
+Speaker385: フライドポテト                ですね|？かしこまりました|。いっしょに                                                      ハンバーガー                    も        いかがですか？                        
+~           fries~[furaido-poteto] correct~[desu~ne]  certainly~[kashikomarimashita]  with~(that)~[issho~ni] (a)~hamburger~[hanbaagaa] too~[mo] would~you~like~[ikaga~desu~ka] 
+
+[LINE]
+Speaker593: にくは            なしで           おねがいします！                
+~           meat~[niku~wa] no~[nashi~de] please~[onegai-shimasu] 
+
+[MULTIPLE_CHOICE]
+> Why is Vikram upset with the waiter?
++ He keeps forgetting that Vikram is a vegetarian.
+- The food at the restaurant is bad.
+- He doesn't remember Vikram's name.
+
+[MATCH]
+> Tap the pairs
+- すきです <> like [suki desu]
+- そうですか <> I see [sou desu ka]
+- ステーキは <> steaks [suteeki wa]
+- すてきな <> nice [sutekina]
+- サラダ <> salad [sarada]
+
