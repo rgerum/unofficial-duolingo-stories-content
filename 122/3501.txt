@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Fischbestattung
+icon=d269170970dbcc5a5f80f6ea1ffed7394ae2b584
+set=16|4
+
+[HEADER]
+> Fish~Funeral   
+~ Fischbestattung
+
+[LINE]
+> Lily sees  her   neighbor, Junior. He's~crying.
+~ Lily sieht ihren Nachbarn  Junior  er~weint    
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker416: Junior? [What's~wrong]?
+~           Junior   was~ist~los   
++ What's wrong
+- What's on
+- What's long
+
+[LINE]
+Speaker415: Bubbles died!         
+~           Bubbles ist~gestorben 
+
+[LINE]
+Speaker416: Your fish? 
+~           dein Fisch 
+
+[LINE]
+Speaker415: Yes. He was so young!
+~           ja   er war so jung  
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „Bestattungen“.
+Speaker416: I   can  (help).   I   know (a~lot) (about) (+funerals).    
+~           ich kann  helfen   ich weiß  viel    über     Bestattungen  
+
+[LINE]
+> Lily and Junior take    the fish  into Junior's bathroom.  
+~ Lily und Junior bringen den Fisch in   Juniors  Badezimmer 
+
+[LINE]
+Speaker416: We  can    give~your~fish~a~burial~at~sea.       
+~           wir können deinem~Fisch~eine~Seebestattung~geben 
+
+[MULTIPLE_CHOICE]
+> Moment! Was meint Lily mit „a burial at sea“?
+- Junior ist der Kapitän eines Schiffes.
+- Bubbles wollte schon immer ein Seemann werden.
++ Sie werden ihn die Toilette herunterspülen
+
+[LINE]
+Speaker416: Do~you~want to~talk about some     nice   memories     of  Bubbles?
+~           willst~du   reden   über  ein~paar schöne Erinnerungen von Bubbles 
+
+[LINE]
+Speaker415: Hmmm… Well,  I   liked~watching~Bubbles~swim.                
+~           hmmm  na~ja  ich habe~Bubbles~gerne~beim~Schwimmen~zugesehen 
+
+[ARRANGE]
+> Was hörst du?
+Speaker415: [(And) (he) (liked)       (watching~me) (eat).]       
+~             und   er   mochte~gern   mir~zusehen   beim~Essen   
+
+[LINE]
+Speaker415: And he really~loved~my~jokes!           
+~           und er hat~meine~Witze~wirklich~geliebt 
+
+[LINE]
+Speaker416: OK, Junior. That's  good.
+~           OK  Junior  das~ist gut  
+
+[LINE]
+> Lily puts the fish  into the toilet.  
+~ Lily legt den Fisch in   die Toilette 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker416: Are  you ready  [to~say~goodbye]?   
+~           bist du  bereit  Lebewohl~zu~sagen  
+- to~buy~some~socks        
+~ ein~paar~Socken~zu~kaufen
+- to take~a~shower
+~ zu duschen      
++ to~say~goodbye   
+~ Lebewohl~zu~sagen
+
+[LINE]
+> Suddenly,  Bubbles~starts~swimming.     
+~ plötzlich  beginnt~Bubbles~zu~schwimmen 
+
+[LINE]
+Speaker415: Bubbles!
+~           Bubbles 
+
+[LINE]
+Speaker416: Whoa. That fish  is  alive.   
+~           oha   der  Fisch ist am~Leben 
+
+[LINE]
+Speaker415: But  how do~we~get    him out of~the toilet?  
+~           aber wie bekommen~wir ihn aus der    Toilette 
+
+[LINE]
+Speaker416: I   can't~help~you~with~that.   
+~           ich kann~dir~damit~nicht~helfen 
+
+[MULTIPLE_CHOICE]
+> Woher wussten Lily und Junior, dass Bubbles noch lebt?
+- Er hat über Juniors Witz gelacht.
+- Junior ist eingefallen, dass es Zeit für Bubbles' Mittagsschlaf ist.
++ Er hat angefangen, in der Toilette zu schwimmen.
+
+[MATCH]
+> Wähle die Paare
+- out <> aus
+- fish <> Fisch
+- nice <> schöne
+- Junior <> Junior
+- him <> ihn
+
