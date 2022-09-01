@@ -1,0 +1,147 @@
+[DATA]
+fromLanguageName=Le bureau du manager
+icon=5e30e8550b553e3eab1690b49a538c688e556e50
+set=22|3
+
+[HEADER]
+> The Manager's~Office 
+~ le  bureau~du~manager
+
+[LINE]
+> Bea~was~asked      to~go   to   the manager's~office. 
+~ on~a~demandé~à~Bea d'aller dans le  bureau~du~manager 
+
+[LINE]
+Speaker2144: Sit~down.     I'd~like   to~talk~to~you about something.    
+~            asseyez-vous  j'aimerais vous~parler    de    quelque~chose 
+
+[LINE]
+Speaker507: Did~you~get  that report  I~put        on  your  desk?  
+~           avez-vous~eu ce   rapport que~j'ai~mis sur votre bureau 
+
+[LINE]
+Speaker2144: Yes. I~got   all~three reports.  There~were a~lot    of details.
+~            oui  j'ai~eu les~trois rapports  il~y~avait beaucoup de détails 
+
+[MULTIPLE_CHOICE]
+> Bea a donné au manager...
++ … trois rapports très détaillés.
+- … un nouveau bureau.
+- … trois nouvelles chaises pour son bureau.
+
+[LINE]
+Speaker507: And did~you~like   my presentation at the meeting today?      
+~           et  avez-vous~aimé ma présentation à  la  réunion aujourd'hui 
+
+[LINE]
+Speaker2144: It~was  very interesting.
+~            c'était très intéressant 
+
+[LINE]
+Speaker507: Did~you~try     the cake   I~brought        for  Brenda's~birthday?       
+~           avez-vous~goûté le  gâteau que~j'ai~apporté pour l'anniversaire~de~Brenda 
+
+[LINE]
+Speaker2144: Yes! It was   delicious.
+~            oui  il était délicieux 
+
+[MULTIPLE_CHOICE]
+> Le chef de Bea a aimé le gâteau qu'elle a apporté.
++ Oui, c'est vrai.
+- Non, c'est faux.
+
+[LINE]
+Speaker507: Also,  I'm     sorry   I~was~late            yesterday.
+~           aussi  je~suis désolée d'avoir~été~en~retard hier      
+
+[LINE]
+Speaker2144: You  were  late?      
+~            vous étiez ~en~retard 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker507: I  will~never~be~late~again!       I'll~be  here early          [every~morning]!  
+~           je ne~serai~jamais~plus~en~retard  je~serai ici  de~bonne~heure  tous~les~matins  
++ every~morning  
+~ tous~les~matins
+- at~night
+~ le~soir 
+- never 
+~ jamais
+
+[LINE]
+Speaker2144: Please          don't~do      that.
+~            s'il~vous~plaît ne~faites~pas ça   
+
+[LINE]
+Speaker507: I'll~also~stay    at work    late. Every~day!     
+~           je~resterai~aussi au travail tard  tous~les~jours 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker2144: Again,           please          [don't~do~that].   
+~            encore~une~fois  s'il~vous~plaît  ne~faites~pas~ça  
++ don't do that
+- don't you bat
+- won't do that
+
+[LINE]
+Speaker507: Why?     
+~           pourquoi 
+
+[LINE]
+Speaker2144: Because   you  don't~work        here.
+~            parce~que vous ne~travaillez~pas ici  
+
+[MULTIPLE_CHOICE]
+> Qu'est-ce qu'on vient d'apprendre ?
+- Le manager n'a pas aimé le gâteau de Bea.
++ Bea ne travaille pas dans l'entreprise.
+- Bea est la nouvelle manager.
+
+[LINE]
+Speaker507: Oh… is~that a  problem? 
+~           oh  est-ce  un problème 
+
+[LINE]
+Speaker2144: Yes. Who are~you?  
+~            oui  qui êtes-vous 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker507: I'm     Bea, and I'm     [a~very~hard~worker].
+~           je~suis Bea  et  je~suis  très~travailleuse   
+- a dairy farm worker
+- a very hard walker
++ a very hard worker
+
+[LINE]
+Speaker2144: Nice~to~meet~you, Bea.
+~            enchanté          Bea 
+
+[LINE]
+Speaker507: Can~I~give~you      my  resume?
+~           puis-je~vous~donner mon CV     
+
+[LINE]
+Speaker2144: If I  look~at your  resume, will~you~leave?
+~            si je regarde votre CV      vous~partirez  
+
+[LINE]
+Speaker507: OK!      
+~           d'accord 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Bea veut-elle donner son CV au manager ?
+- Elle veut une promotion.
++ Elle veut travailler pour lui.
+- Elle veut partir du travail plus tôt.
+
+[MATCH]
+> Choisis les paires
+- cake <> gâteau
+- to talk to you <> vous parler
+- Every day <> tous les jours
+- report <> rapport
+- There were <> il y avait
+
