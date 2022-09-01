@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=Where Is Bea's Girlfriend?
+icon=0d18f0403cfa415591d7ef50a9e9c01f1094936e
+set=3|4
+
+[HEADER]
+> Wo    ist Beas  Freundin?  
+~ where is  Bea's girlfriend 
+
+[LINE]
+> Bea ist im~Flughafen.  
+~ Bea is  at~the~airport 
+
+[LINE]
+> Sie spricht    mit dem Mann am~Schalter.   
+~ she is~talking to  the man  at~the~counter 
+
+[LINE]
+Speaker823: Guten~Tag!      Kann ich Ihnen~helfen?
+~           good~afternoon  can  I   help~you     
+
+[LINE]
+Speaker507: Ja!  Ich reise        nach Paris ...
+~           yes  I   am~traveling to   Paris    
+
+[LINE]
+Speaker507: Ich möchte     mit~meiner~Freundin zusammen im~Flugzeug~sitzen.
+~           I   would~like with~my~girlfriend  together sit~on~the~plane   
+
+[MULTIPLE_CHOICE]
+> Bea wants to sit beside her mother on the plane.
+- Yes, that's right.
++ No, that's wrong.
+
+[POINT_TO_PHRASE]
+> Choose the option that means "seats."
+Speaker823: Natürlich, wir (haben) (noch)  (zwei) (+Sitze) nebeneinander.     
+~           of~course  we   have    still   two     seats  next~to~each~other 
+
+[LINE]
+Speaker507: Toll! 
+~           great 
+
+[LINE]
+Speaker823: Wo    ist Ihre Freundin?  
+~           where is  your girlfriend 
+
+[LINE]
+Speaker507: Ich~weiß~nicht. Vielleicht können~wir zusammen~suchen?
+~           I~don't~know    maybe      we~can     search~together 
+
+[LINE]
+Speaker823: Wie~sieht~sie~aus?      
+~           what~does~she~look~like 
+
+[MULTIPLE_CHOICE]
+> The man at the counter is asking…
+- …if they are going to visit the Eiffel Tower.
++ …what Bea's girlfriend looks like.
+- …where Bea has last seen her girlfriend.
+
+[LINE]
+Speaker507: Hmm … Sie ist groß. Sie hat dunkle Haare …
+~           hmm   she is  tall  she has dark   hair   
+
+[LINE]
+Speaker823: OK.
+~           OK 
+
+[LINE]
+Speaker507: Sie liebt Sport  und spielt Gitarre      …
+~           she loves sports and plays  (the)~guitar  
+
+[LINE]
+Speaker823: Äh ...
+~           uh    
+
+[LINE]
+Speaker507: Sie hat ein Motorrad   … aber sie fährt  immer  zu~schnell.
+~           she has a   motorcycle   but  she drives always too~fast   
+
+[LINE]
+Speaker823: OK … Wie~heißt~sie?  
+~           OK   what's~her~name 
+
+[MULTIPLE_CHOICE]
+> Why is the attendant asking questions about Bea's girlfriend?
++ He is trying to help Bea find her.
+- He wants to borrow her motorcycle.
+- He and Bea's girlfriend are very good friends.
+
+[LINE]
+Speaker507: Ich weiß nicht.
+~           I   know not   
+
+[LINE]
+Speaker823: Was?  Sie kennen ihren~Namen nicht?
+~           what  you know   her~name    not   
+
+[LINE]
+Speaker507: Ich habe keine Freundin.  
+~           I   have no    girlfriend 
+
+[LINE]
+Speaker507: Aber ich möchte     eine~Freundin~finden. Können Sie mir~helfen?
+~           but  I   would~like to~find~a~girlfriend  can    you help~me    
+
+[MULTIPLE_CHOICE]
+> Bea wanted the attendant to help her sit next to…
+- …the emergency exit.
++ …someone who can be her new girlfriend.
+- …someone who knows Paris well.
+
+[MATCH]
+> Tap the pairs
+- Bea <> Bea
+- am Schalter <> at the counter
+- zusammen <> together
+- Wie heißt sie <> what's her name
+- Ihre <> your
+
