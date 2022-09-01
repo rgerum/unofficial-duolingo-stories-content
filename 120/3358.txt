@@ -1,0 +1,142 @@
+[DATA]
+fromLanguageName=A Date
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+[HEADER]
+> Un appuntamento
+~ a  date        
+
+[LINE]
+> Giulia ha  un appuntamento al     ristorante.
+~ ~      has a  date         at~the restaurant 
+
+[LINE]
+Speaker336: Ciao!  Come~stai?  
+~           hello  how~are~you 
+
+[LINE]
+Speaker100: Bene, grazie!   
+~           fine  thank~you 
+
+[LINE]
+Speaker100: Cosa vuoi     mangiare?
+~           what you~want to~eat   
+
+[MULTIPLE_CHOICE]
+> The boy Giulia is talking to wants to know...
+- ... where Giulia wants to eat.
+- ... what Giulia wants to talk about.
++ … what Giulia wants to eat.
+
+[LINE]
+Speaker336: Un'|insalata.
+~           a   salad    
+
+[LINE]
+Speaker336: Non~mangio   la~carne.
+~           I~do~not~eat meat     
+
+[LINE]
+Speaker100: Sei     vegetariana?   
+~           you~are (a)~vegetarian 
+
+[LINE]
+Speaker336: Sì... 
+~           yes   
+
+[LINE]
+Speaker100: Anch'io!
+~           me~too  
+
+[MULTIPLE_CHOICE]
+> What does he mean?
+- He hates salads.
++ He is also a vegetarian.
+- He loves to eat meat.
+
+[LINE]
+Speaker336: Perfetto!
+~           perfect  
+
+[LINE]
+Speaker336: Di~dove~sei?       
+~           where~are~you~from 
+
+[ARRANGE]
+> Tap what you hear
+Speaker100: [(Sono)   (di)   (Milano).]
+~             (I)~am   from   Milan    
+
+[LINE]
+Speaker100: Ma  i~miei genitori sono di   Roma.
+~           but my     parents  are  from Rome 
+
+[LINE]
+Speaker336: Io sono romana!
+~           I  am   Roman  
+
+[LINE]
+Speaker100: Roma è  meravigliosa!
+~           Rome is wonderful    
+
+[POINT_TO_PHRASE]
+> Click the option that means "pets."
+Speaker100: (Hai)      (degli) (+animali)?
+~            you~have   any      pets     
+
+[LINE]
+Speaker336: Ho     tre   gatti e   due cani.
+~           I~have three cats  and two dogs 
+
+[LINE]
+Speaker100: Caspita!
+~           wow     
+
+[LINE]
+Speaker100: Anch'io ho   due cani, Gabriella!
+~           I~also  have two dogs  ~         
+
+[LINE]
+Speaker336: Cosa? Io~mi~chiamo Giulia...
+~           what  my~name~is   ~        
+
+[LINE]
+Speaker336: Tu~come~ti~chiami? Sei     Stefano?
+~           what's~your~name   you~are ~       
+
+[LINE]
+Speaker100: No, mi~chiamo  Daniele...
+~           ~   my~name~is ~         
+
+[MULTIPLE_CHOICE]
+> Giulia and Daniele should have met other people.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+> Una donna entra~nel  ristorante e   si~rivolge a  Daniele.
+~ A   woman enters~the restaurant and talks      to ~       
+
+[LINE]
+Speaker101: Ciao!  Sei     Daniele? Io sono Gabriella.
+~           hello  you~are ~        I  am   ~         
+
+[LINE]
+Speaker100: No, mi~dispiace, mi~chiamo  Stefano.
+~           ~   I'm~sorry    my~name~is ~       
+
+[MULTIPLE_CHOICE]
+> At the end of the story, Daniele ...
+- … no longer wanted to talk to Giulia.
++ ... lied about his name because he liked Giulia.
+- ... met someone named Stefano.
+
+[MATCH]
+> Tap the pairs
+- Milano <> Milan
+- due <> two
+- degli <> any
+- Tu come ti chiami <> what's your name
+- tre <> three
+
