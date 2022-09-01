@@ -1,0 +1,114 @@
+[DATA]
+fromLanguageName=What Do You Want?
+icon=aa84a24e80b83bc37162a04593f1f72dcceec2e4
+set=3|2
+
+[HEADER]
+> Do~que~você~precisa?
+~ what~do~you~need    
+
+[LINE]
+> Óscar entra~em uma loja~de~roupas.
+~ Óscar enters   a   clothing~store 
+
+[LINE]
+> Uma~aluna~dele,      Zari, trabalha na     loja. 
+~ one~of~his~students  Zari  works    at~the store 
+
+[MULTIPLE_CHOICE]
+> Oscar is at the store where Zari works.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker592: Zari! Você~trabalha~aqui? Excelente!
+~           Zari  do~you~work~here    excellent 
+
+[LINE]
+Speaker418: Bom~dia!     
+~           good~morning 
+
+[CONTINUATION]
+> What comes next?
+Speaker418: Você~precisa~de [ajuda]?
+~           do~you~need      help   
++ ajuda
+~ help 
+- gato 
+~ a~cat
+- salada 
+~ a~salad
+
+[LINE]
+Speaker592: Sim, obrigado!  Eu preciso~de…
+~           yes  thank~you  I  need       
+
+[LINE]
+Speaker418: Ah! Você precisa~de uma jaqueta~nova!
+~           oh  you  need       a   new~jacket   
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "shows."
+> (Zari) (+mostra) (uma) (jaqueta).
+~  Zari    shows    a     jacket   
+
+[LINE]
+Speaker592: Uma jaqueta~nova? Não! Zari, eu…
+~           a   new~jacket    no   Zari  I  
+
+[LINE]
+Speaker418: Ah, já~sei! Você precisa~de uma camisa~nova!
+~           oh  I~know  you  need       a   new~shirt   
+
+[LINE]
+Speaker418: A   camisa~verde é  linda!    
+~           the green~shirt  is beautiful 
+
+[MULTIPLE_CHOICE]
+> Zari thinks the green shirt is…
+- …too small for Oscar.
++ …beautiful.
+- …ugly.
+
+[LINE]
+Speaker592: Não. Zari, por~favor…
+~           no   Zari  please    
+
+[LINE]
+Speaker592: Eu não~preciso de~uma~camisa ou de~uma~jaqueta. Eu preciso~de…
+~           I  don't~need  (of)~a~shirt  or (of)~a~jacket   I  need       
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker418: Calças! Você [precisa~de~calças]!
+~           pants   you   need~pants         
++ precisa de calças
+- preciosas calças
+- precisam de alças
+
+[LINE]
+Speaker592: Não! Eu não~preciso~de roupas! 
+~           no   I  don't~need     clothes 
+
+[LINE]
+Speaker592: Eu preciso…
+~           I  need    
+
+[LINE]
+Speaker592: …de~um~banheiro! 
+~            (of)~a~bathroom 
+
+[MULTIPLE_CHOICE]
+> Wow! Why did Oscar go into the clothing store?
+- He wanted to buy pants and a shirt.
++ He needed to find a restroom.
+- He wanted to buy a new jacket for Zari.
+
+[MATCH]
+> Tap the pairs
+- loja de roupas <> clothing store
+- loja <> store
+- de um banheiro <> a bathroom
+- Excelente <> excellent
+- não preciso <> don't need
+
