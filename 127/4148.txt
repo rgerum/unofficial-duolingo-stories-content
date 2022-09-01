@@ -1,0 +1,120 @@
+[DATA]
+fromLanguageName=Uma emergência
+icon=7e5d8724d525fd56e3abc838f2849ae269ebefd5
+set=14|1
+
+[HEADER]
+> Una emergencia
+~ uma emergência
+
+[LINE]
+> Junior está en una piscina con Eddy, su~padre.  
+~ Junior está em uma piscina com Eddy  o~pai~dele 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "falar".
+> (Él)  (corre) a    (+hablar) (con) la salvavidas. 
+~  ele   corre  para   falar    com  a  salva-vidas 
+
+[LINE]
+Speaker415: ¡Ayuda! ¡Salvavidas! 
+~            ajuda   salva-vidas 
+
+[LINE]
+Speaker415: ¡Mi  papá necesita   ayuda!
+~            meu pai  precisa~de ajuda 
+
+[LINE]
+Speaker856: ¿Se~está~ahogando?
+~            está~se~afogando 
+
+[LINE]
+Speaker415: No,  el problema es su~traje~de~baño.     
+~           não  o  problema é  o~traje~de~banho~dele 
+
+[MULTIPLE_CHOICE]
+> Você pegou essa? O problema é…
+- …que o Eddy não sabe nadar.
+- …que a salva-vidas está se afogando.
++ …o traje de banho do Eddy.
+
+[LINE]
+Speaker856: No  entiendo…
+~           não entendo  
+
+[LINE]
+Speaker415: Su~nuevo~traje~de~baño     es demasiado~pequeño.
+~           o~novo~traje~de~banho~dele é  demasiado~pequeno 
+
+[LINE]
+Speaker415: ¡Es horrible, pero no~quiere    escucharme!
+~            é  horrível  mas  ele~não~quer me~escutar 
+
+[LINE]
+Speaker856: Lo~siento,   pero los salvavidas  solo ayudamos con las emergencias.
+~           sinto~muito  mas  os  salva-vidas só   ajudamos com as  emergências 
+
+[LINE]
+Speaker415: ¡Esta es una emergencia! ¡Mire!
+~            esta é  uma emergência   olhe 
+
+[ARRANGE]
+> Toque no que escutar
+> [(La) (salvavidas)  (mira) (a)    (Eddy).]
+~   a    salva-vidas   olha   para   Eddy   
+
+[LINE]
+Speaker856: ¡Ay,~no! 
+~            ah,~não 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker856: ¡Ese  traje~de~baño  es demasiado [pequeño]!
+~            esse traje~de~banho é  demasiado  pequeno  
+- interesante 
+~ interessante
++ pequeño
+~ pequeno
+- caro
+~ caro
+
+[LINE]
+> La salvavidas  llama~a Eddy.
+~ a  salva-vidas chama   Eddy 
+
+[LINE]
+Speaker856: ¡Señor!  ¡Ya voy!
+~            senhor   já vou 
+
+[LINE]
+> La salvavidas  corre hacia        Eddy con una toalla roja.    
+~ a  salva-vidas corre em~direção~a Eddy com uma toalha vermelha 
+
+[MULTIPLE_CHOICE]
+> A salva-vidas corre até o Eddy com…
++ …uma toalha vermelha.
+- …o sorvete do Junior.
+- …um frasco de protetor solar.
+
+[LINE]
+Speaker414: ¡¿Cuál es el problema?!
+~             qual é  o  problema  
+
+[LINE]
+Speaker856: Señor,  usted tiene que ponerse esta toalla. Es una emergencia.
+~           senhor  você  tem   que colocar esta toalha  é  uma emergência 
+
+[MULTIPLE_CHOICE]
+> Ufa! Qual é a emergência?
+- O Eddy não sabe nadar.
+- O Junior esqueceu de levar uma toalha.
++ O traje de banho do Eddy é muito pequeno.
+
+[MATCH]
+> Toque nos pares
+- Cuál <> qual
+- traje de baño <> traje de banho
+- usted <> você
+- Ayuda <> ajuda
+- no quiere <> ele não quer
+
