@@ -1,0 +1,113 @@
+[DATA]
+fromLanguageName=El jugador de baloncesto
+icon=93b7dddcb57fc76fde878bfb42e8c4f35d68fb5d
+set=4|1
+
+[HEADER]
+> Le joueur  de basket    
+~ el jugador de baloncesto
+
+[LINE]
+> Vikram et Priti sont  au    supermarché. 
+~ Vikram y  Priti están en~el supermercado 
+
+[LINE]
+Speaker560: Qu'est-ce~que nous~devons acheter ?
+~           qué           debemos     comprar  
+
+[LINE]
+Speaker593: Du~lait, des~fruits, du~café...
+~           leche    frutas      café      
+
+[LINE]
+Speaker560: Vikram, regarde ! C'est lui !
+~           Vikram  mira      es    él   
+
+[LINE]
+Speaker593: Où    ? Lui ? Qui   ?
+~           dónde   él    quién  
+
+[LINE]
+Speaker560: Ton joueur  de basket     préféré  !
+~           tu  jugador de baloncesto favorito  
+
+[MULTIPLE_CHOICE]
+> ¿A quién ve Priti?
+- A su jugador de baloncesto favorito.
++ Al jugador de baloncesto favorito de Vikram.
+- A algunas personas jugando baloncesto.
+
+[LINE]
+Speaker593: Tu~es sûre~que      c'est lui ?
+~           estás segura~de~que es    él   
+
+[LINE]
+Speaker560: Oui ! Tu dois  parler avec lui.
+~           sí    tú debes hablar con  él  
+
+[LINE]
+Speaker593: Non, non. Je ne~veux~pas.
+~           no   no   yo no~quiero   
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "mismos".
+Speaker560: (Regarde) ! (Vous)    (avez)   les (+mêmes)  chaussures !
+~            mira        ustedes   tienen  los   mismos  zapatos     
+
+[LINE]
+> Le joueur  de basket     regarde Vikram et Priti.
+~ el jugador de baloncesto mira~a  Vikram y  Priti 
+
+[LINE]
+Speaker593: Nous     avons...   les mêmes  chaussures ?
+~           nosotros tenemos    los mismos zapatos     
+
+[LINE]
+Speaker560: Oui ! Il vient ici      !
+~           sí    él viene para~acá  
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Priti está tan emocionada?
++ El jugador de baloncesto camina hacia ellos.
+- El jugador de baloncesto no puede caminar.
+- El jugador de baloncesto sale de la tienda.
+
+[LINE]
+Speaker593: Je ne~sais~pas quoi faire.
+~           yo no~sé       qué  hacer 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker560: [(Tu) (dois)  (parler) (avec) (lui).]
+~             tú   debes   hablar   con    él    
+
+[LINE]
+Speaker593: Non !
+~           no   
+
+[LINE]
+Speaker113: Bonjour     !
+~           buenos~días  
+
+[LINE]
+Speaker593: Oui ?
+~           sí   
+
+[LINE]
+Speaker113: J'adore     vos chaussures.
+~           me~encantan sus zapatos    
+
+[MULTIPLE_CHOICE]
+> ¿Por qué el jugador de baloncesto quería hablar con Vikram?
+- Él quiere que Vikram le traiga un café.
+- Él quiere que Vikram entre en su equipo.
++ Él y Vikram tienen los mismos zapatos.
+
+[MATCH]
+> Selecciona los pares
+- Qui <> quién
+- ici <> para acá
+- regarde <> mira
+- des fruits <> frutas
+- nous devons <> debemos
+
