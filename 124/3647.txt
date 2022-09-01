@@ -1,0 +1,152 @@
+[DATA]
+fromLanguageName=Je peux prendre une photo ?
+icon=d6cfdc678db3116881efba02e683423389b53370
+set=20|4
+
+[HEADER]
+> Can~I~Take      a   Picture?
+~ je~peux~prendre une photo   
+
+[LINE]
+> Lucy is~walking~down the street.
+~ Lucy marche~dans     la  rue    
+
+[LINE]
+> She  sees an attractive~young~man. 
+~ elle voit un jeune~homme~séduisant 
+
+[LINE]
+Speaker509: Wow!   Are~you   that famous~actor?  
+~           waouh  êtes-vous cet  acteur~célèbre 
+
+[LINE]
+Speaker385: Shh!  No… 
+~           chut  non 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker509: [(I)  (just~watched)  (your)  (movie)!]
+~             je   viens~de~voir   votre   film    
+
+[LINE]
+Speaker385: I'm~not        an~actor.
+~           je~ne~suis~pas acteur   
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker509: Yes, you  are!    Can~I~take      [a~picture~of~you]? 
+~           si   vous l'êtes  je~peux~prendre  une~photo~de~vous  
++ a picture of you
+- a picture with who
+- a picture or two
+
+[LINE]
+Speaker385: OK…       quickly!   
+~           d'accord  rapidement 
+
+[LINE]
+Speaker509: So    you  are       that famous~actor?  
+~           alors vous êtes~bien cet  acteur~célèbre 
+
+[LINE]
+Speaker385: Yes.
+~           oui 
+
+[LINE]
+Speaker509: I  knew~it!  
+~           je le~savais 
+
+[LINE]
+> Lucy takes a   picture of him with her phone.    
+~ Lucy prend une photo   de lui avec son téléphone 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Lucy a-t-elle pris l'homme en photo ?
+- Elle est photographe professionnelle.
+- C'est son petit ami.
++ C'est un acteur célèbre.
+
+[LINE]
+Speaker509: You  were  great  in   the movie "Sad~Cats          Can't~Dance."         
+~           vous étiez génial dans le  film   les~chats~tristes ne~savent~pas~danser  
+
+[LINE]
+Speaker385: I  wasn't      in   that movie.
+~           je n'étais~pas dans ce   film  
+
+[LINE]
+Speaker509: You  weren't?      
+~           vous n'y~étiez~pas 
+
+[LINE]
+Speaker385: I~was   in   "Grandpa's~New~Hair."       
+~           j'étais dans  la~nouvelle~coupe~de~Papi  
+
+[LINE]
+Speaker509: I've~never~seen~it.  
+~           je~ne~l'ai~jamais~vu 
+
+[LINE]
+Speaker385: Did~you~see  "What's      in   My Mouth?"  I~was   amazing    in   that movie!
+~           avez-vous~vu  qu'y~a-t-il dans ma bouche   j'étais incroyable dans ce   film  
+
+[LINE]
+Speaker509: No. 
+~           non 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « sang ».
+Speaker385: (Maybe)         you  saw     "(Bacon),   Eggs,     (Toast),          and (+Blood)"?  
+~            peut-être~que  vous avez~vu   du~lard   des~œufs   du~pain~grillé   et    du~sang   
+
+[LINE]
+Speaker509: No,  I've~never~seen~it.  
+~           non  je~ne~l'ai~jamais~vu 
+
+[LINE]
+Speaker385: It's  famous!  Wait,     are~you~deleting my picture?
+~           c'est célèbre  attendez  vous~supprimez   ma photo   
+
+[MULTIPLE_CHOICE]
+> L'homme veut savoir si...
+- … Lucy aime ses cheveux.
++ … Lucy a supprimé sa photo.
+- … Lucy est amoureuse de lui.
+
+[LINE]
+Speaker509: Maybe.     Were~you   in   anything~else?
+~           peut-être  étiez-vous dans autre~chose   
+
+[LINE]
+Speaker385: I've~been in   fifty     movies!
+~           j'ai~été  dans cinquante films  
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+> Lucy deletes  [the picture].
+~ Lucy supprime  la  photo    
+- the movie
+~ le  film 
+- the cats 
+~ les chats
++ the picture
+~ la  photo  
+
+[LINE]
+Speaker509: If you  see   that actor  from "Sad~Cats          Can't~Dance",          can~you~take        a   picture for  me? 
+~           si vous voyez cet  acteur de    les~chats~tristes ne~savent~pas~danser   pouvez-vous~prendre une photo   pour moi 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Lucy a-t-elle supprimé la photo ?
++ L'homme n'a pas joué dans « Sad Cats Can't Dance ».
+- L'homme n'était pas acteur.
+- Elle voulait prendre la nouvelle coupe de son grand-père en photo.
+
+[MATCH]
+> Choisis les paires
+- So <> alors
+- him <> lui
+- fifty <> cinquante
+- Lucy <> Lucy
+- Can't Dance <> ne savent pas danser
+
