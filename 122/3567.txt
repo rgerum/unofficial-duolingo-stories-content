@@ -1,0 +1,145 @@
+[DATA]
+fromLanguageName=Der Hacker
+icon=d5d838c3ef0c7ca57b1c21aa81867b8fd732920d
+set=32|6
+
+[HEADER]
+> The Hacker
+~ der Hacker
+
+[LINE]
+> Bea walks into Eddy's apartment.
+~ Bea geht  in   Eddys  Wohnung   
+
+[LINE]
+Speaker414: Thanks for  coming!
+~           danke  fürs Kommen 
+
+[LINE]
+Speaker507: Sure! You said        there~was a   problem with your   computer, right?  
+~           klar  du  hast~gesagt es~gibt   ein Problem mit  deinem Computer  richtig 
+
+[MULTIPLE_CHOICE]
+> Bea hilft Eddy, seine Toilette zu reparieren.
++ Nein, das ist falsch.
+- Ja, das ist richtig.
+
+[LINE]
+Speaker414: Yes!
+~           ja  
+
+[LINE]
+Speaker507: What happened?    
+~           was  ist~passiert 
+
+[LINE]
+Speaker414: Well… have you ever   heard~of~a~"hacker"?      
+~           nun   hast du  jemals von~einem~„Hacker“~gehört 
+
+[LINE]
+Speaker414: That's  a    person who changes~things~on~computers.
+~           das~ist eine Person die Dinge~auf~Computern~ändert  
+
+[LINE]
+Speaker507: Yes, Eddy, I   know what a   hacker is.  So,   what's  the problem?
+~           ja   Eddy  ich weiß was  ein Hacker ist  also  was~ist das Problem 
+
+[POINT_TO_PHRASE]
+> Klicke auf die Option mit der Bedeutung „Lebenslauf“.
+Speaker414: I   (tried)         to (print)   my     (+resume),     but  it (didn't)    work!        
+~           ich  habe~versucht  zu  drucken  meinen   Lebenslauf   aber es  hat~nicht  funktioniert 
+
+[LINE]
+Speaker414: And now   I~can't~find          my     resume     on  my     computer. I   think  the hacker deleted~it.      
+~           und jetzt kann~ich~nicht~finden meinen Lebenslauf auf meinem Computer  ich glaube der Hacker hat~ihn~gelöscht 
+
+[MULTIPLE_CHOICE]
+> Eddy glaubt, dass …
++ … ein Hacker seinen Lebenslauf gelöscht hat.
+- … Bea sein Frühstück gegessen hat.
+- … jemand seinen Computer gestohlen hat.
+
+[LINE]
+Speaker507: Can  I   look~at~it?     
+~           kann ich ihn~mir~ansehen 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+> Bea starts  working~on~the~computerr].
+~ Bea beginnt am~Computer~zu~arbeiten   
+- at a     restaurant
+~ in einem Restaurant
++ on~the computer
+~ am     Computer
+- on her   car 
+~ an ihrem Auto
+
+[LINE]
+Speaker507: OK, I   found~a~file             called "my~resume."      
+~           OK  ich habe~eine~Datei~gefunden namens  mein~Lebenslauf  
+
+[LINE]
+> Bea opens  the file.  Eddy sees  it  on  the computer.
+~ Bea öffnet die Datei  Eddy sieht sie auf dem Computer 
+
+[LINE]
+Speaker414: It  does~look~like my   resume.    
+~           das sieht~aus~wie  mein Lebenslauf 
+
+[LINE]
+Speaker507: Also,     I   know why   your printer wasn't~working.        
+~           außerdem  ich weiß warum dein Drucker nicht~funktioniert~hat 
+
+[LINE]
+> Bea connects  the printer to  the computer.
+~ Bea verbindet den Drucker mit dem Computer 
+
+[LINE]
+Speaker507: It wasn't    connected!
+~           er war~nicht verbunden 
+
+[MULTIPLE_CHOICE]
+> Warum hat Eddys Drucker nicht funktioniert?
++ Er war nicht mit dem Computer verbunden.
+- Der Hacker hat ihn beschädigt.
+- Er hat keinen Drucker.
+
+[LINE]
+Speaker414: Hmm. Junior probably~did~that.           
+~           hmm  Junior hat~das~wahrscheinlich~getan 
+
+[LINE]
+> The resume     prints,        and Bea looks~at~it.      
+~ der Lebenslauf wird~gedruckt  und Bea sieht~ihn~sich~an 
+
+[LINE]
+Speaker507: Eddy, there are  mistakes all~over    your   resume.    
+~           Eddy  dort  sind Fehler   überall~auf deinem Lebenslauf 
+
+[ARRANGE]
+> Was hörst du?
+Speaker414: [(The) (hacker) (probably)       (changed)      (it)!] 
+~             der   Hacker   wahrscheinlich   hat~geändert   ihn   
+
+[LINE]
+Speaker507: Hmm. Do~you~know that your resume     says you're   good with computers?
+~           hmm  weißt~du    dass dein Lebenslauf sagt du~seist gut  mit  Computern 
+
+[LINE]
+Speaker414: Yeah, the hacker definitely~changed~that.   
+~           ja    der Hacker hat~ihn~definitiv~geändert 
+
+[MULTIPLE_CHOICE]
+> Eddy dachte, dass sein Computer gehackt wurde, …
+- … also rief er die Polizei.
+- … und er verlor all seine Daten.
++ … konnte jedoch einfach nicht gut mit Computern umgehen.
+
+[MATCH]
+> Wähle die Paare
+- computer <> Computer
+- connected <> verbunden
+- walks <> geht
+- for <> fürs
+- Thanks <> danke
+
