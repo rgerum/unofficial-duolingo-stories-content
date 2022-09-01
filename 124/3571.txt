@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=Le nouvel élève
+icon=5afbf601db955e3db76a96aea1d4e0a535c16e7c
+set=1|4
+
+[HEADER]
+> The New    Student
+~ le  nouvel élève  
+
+[LINE]
+> Zari and Lily are~sitting  together on~the~school~bus.   
+~ Zari et  Lily sont~assises ensemble dans~le~bus~scolaire 
+
+[LINE]
+Speaker418: Lily, there~is a  new    student in   our   class! 
+~           Lily  il~y~a   un nouvel élève   dans notre classe 
+
+[LINE]
+Speaker418: His name is  Miguel.
+~           son nom  est Miguel 
+
+[MULTIPLE_CHOICE]
+> Zari est contente car...
+- ... elle a changé de nom et s'appelle Miguel.
++ … il y a un nouvel élève qui s'appelle Miguel.
+- … le frère de Zari s'appelle Miguel.
+
+[LINE]
+Speaker416: Miguel, huh? 
+~           Miguel  hein 
+
+[LINE]
+Speaker418: He is  from Mexico. 
+~           il est du   Mexique 
+
+[LINE]
+Speaker418: His father writes books!     
+~           son père   écrit  des~livres 
+
+[LINE]
+Speaker416: Very interesting.
+~           très intéressant 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker418: He speaks three [languages].
+~           il parle  trois  langues    
++ languages
+~ langues  
+- fathers
+~ pères  
+- books 
+~ livres
+
+[LINE]
+Speaker416: Oh, he is  intelligent.
+~           oh  il est intelligent 
+
+[LINE]
+Speaker418: Intelligent… and tall.  And he has beautiful…
+~           intelligent  et  grand  et  il a   de~belles 
+
+[LINE]
+Speaker416: Haha, yes?
+~           haha  oui 
+
+[LINE]
+Speaker418: Um.  Beautiful shoes.     
+~           hmm  de~belles chaussures 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « derrière ».
+Speaker416: (Zari), (Miguel) is~sitting (+behind)   (you).
+~            Zari    Miguel  est~assis    derrière   toi  
+
+[LINE]
+Speaker418: What?!
+~           quoi  
+
+[LINE]
+Speaker416: Hi,    Miguel!
+~           salut  Miguel 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker790: Hi,    Lily! [How~are~you]?  
+~           salut  Lily   comment~ça~va  
+- Here are two
++ How are you
+- How I do
+
+[LINE]
+Speaker416: I  am~good,   thanks.
+~           je vais~bien  merci  
+
+[LINE]
+Speaker416: Miguel, this~is my  friend, Zari.
+~           Miguel  c'est   mon amie    Zari 
+
+[LINE]
+Speaker416: She  likes your… shoes.     
+~           elle aime  tes   chaussures 
+
+[LINE]
+Speaker418: Oh, um,  hi,    Miguel.
+~           oh  euh  salut  Miguel 
+
+[MULTIPLE_CHOICE]
+> Zari ne s'était pas rendu compte que...
+- ... les chaussures de Miguel étaient très moches.
+- … elle avait un devoir à rendre le jour même.
++ … Miguel était assis derrière elle.
+
+[MATCH]
+> Choisis les paires
+- you <> toi
+- is sitting <> est assis
+- Um <> hmm
+- your <> tes
+- shoes <> chaussures
+
