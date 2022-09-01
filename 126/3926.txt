@@ -1,0 +1,171 @@
+[DATA]
+fromLanguageName=Suéter de verão
+icon=a6221e8716923ce3381efbbfc20a0913ce314fdb
+set=30|3
+
+[HEADER]
+> Summer~Sweater 
+~ suéter~de~verão
+
+[LINE]
+> Eddy and Junior are   at~the mall.    
+~ Eddy e   Junior estão no     shopping 
+
+[LINE]
+Speaker415: Dad,   why     are~we      here? You  hate  this~store.
+~           papai  por~que nós~estamos aqui  você odeia esta~loja  
+
+[LINE]
+Speaker414: I  need         a  sweater.
+~           eu preciso~(de) um suéter  
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker415: [But~it's~summer].
+~            mas~é~verão      
+- Buy this summer
+- But it's somewhere
++ But it's summer
+
+[LINE]
+> A   salesperson walks~up~to~them. 
+~ uma vendedora   se~aproxima~deles 
+
+[LINE]
+Speaker561: Hi again,   Eddy!
+~           oi de~novo  Eddy 
+
+[LINE]
+Speaker414: Yes, my      name is Eddy. I  mean…        hello!
+~           sim  (o)~meu nome é  Eddy  eu quero~dizer  olá   
+
+[LINE]
+Speaker415: Oh. I  know why     we're       here…
+~           ah  eu sei  por~que nós~estamos aqui 
+
+[LINE]
+Speaker561: Can~I~help~you~find              something?   
+~           eu~posso~ajudar~você~a~encontrar alguma~coisa 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker414: Yes! I'm~looking         for [a  sweater].
+~           sim  eu~estou~procurando por  um suéter   
+- Junior
+~ Junior
+- my  pet~fish          
+~ meu peixe~de~estimação
++ a  sweater
+~ um suéter 
+
+[LINE]
+Speaker561: You  should~try~on        this green~sweater. It's~going~to look~good on you. 
+~           você deveria~experimentar este suéter~verde   ele~vai       ficar~bem em você 
+
+[LINE]
+Speaker414: Cool,  thanks!  
+~           legal  obrigado 
+
+[LINE]
+Speaker415: You  don't~like     green.
+~           você não~gosta~(de) verde 
+
+[LINE]
+Speaker414: Shh. No.  I  love green!
+~           ~    não  eu amo  verde 
+
+[ARRANGE]
+> Toque no que escutar
+> [(Eddy) (puts~on) (the) (sweater).]
+~   Eddy   veste     o     suéter    
+
+[LINE]
+Speaker561: You  look~amazing!   
+~           você parece~incrível 
+
+[LINE]
+Speaker415: It  looks~too~small,       Dad.  
+~           ele parece~pequeno~demais  papai 
+
+[LINE]
+Speaker414: What?  No. 
+~           o~quê  não 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker561: And it's     [on~sale].    
+~           e   ele~está  em~promoção  
++ on sale
+- one shell
+- on scale
+
+[LINE]
+Speaker414: I'll~take~it!
+~           eu~vou~levar 
+
+[LINE]
+Speaker414: And… I'm~going to~wear it  home.                
+~           e    eu~vou    usar    ele (até~chegar~em)~casa 
+
+[LINE]
+Speaker561: Great! Have  a  nice~day! I  hope~I~see         you  again   soon!!    
+~           ótimo  tenha um bom~dia   eu espero~que~eu~veja você de~novo em~breve  
+
+[LINE]
+Speaker414: Really?
+~           sério  
+
+[MULTIPLE_CHOICE]
+> O Eddy parece esperançoso. Por quê?
+- Ele e o Junior estão indo comer pizza agora.
+- O Junior está comprando um suéter combinando.
++ A vendedora disse que espera ver ele de novo em breve.
+
+[LINE]
+Speaker415: Let's~go, Dad.  
+~           vamos     papai 
+
+[LINE]
+> Eddy and Junior leave~the store.
+~ Eddy e   Junior saem~da   loja  
+
+[LINE]
+Speaker415: Dad,   are~you~sure              you're~OK?     Your~face     is   blue.
+~           papai  você~tem~certeza~(de~que) você~está~bem  (o)~seu~rosto está azul 
+
+[MULTIPLE_CHOICE]
+> Por que o rosto do Eddy está azul?
+- Ele está usando maquiagem azul.
++ O suéter está apertado demais.
+- Ele comeu muitas uvas.
+
+[LINE]
+Speaker414: I'm      fine!
+~           eu~estou bem  
+
+[LINE]
+Speaker415: You  can't~take~the~sweater~off,  can~you? 
+~           você não~consegue~tirar~o~suéter  consegue 
+
+[LINE]
+Speaker414: No. 
+~           não 
+
+[LINE]
+Speaker415: Let's~go~buy  some~scissors.
+~           vamos~comprar uma~tesoura   
+
+[MULTIPLE_CHOICE]
+> Por que o Eddy colocou um suéter que era pequeno demais?
++ Porque ele estava tentando paquerar a vendedora.
+- Porque ele estava com frio.
+- Porque o Junior disse para ele fazer isso.
+
+[MATCH]
+> Toque nos pares
+- I <> eu
+- Hi <> oi
+- the <> o
+- home <> casa
+- blue <> azul
+
