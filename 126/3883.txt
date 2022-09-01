@@ -1,0 +1,107 @@
+[DATA]
+fromLanguageName=Problema com o carro
+icon=e161ff53b5f470063ac66df2698eddb71232c290
+set=19|4
+
+[HEADER]
+> Car~Problem         
+~ problema~com~o~carro
+
+[LINE]
+> Eddy is~standing on~the~street.
+~ Eddy está~em~pé  na~rua        
+
+[LINE]
+> He  closes the trunk       of a  car.  
+~ ele fecha  o   porta-malas de um carro 
+
+[LINE]
+> Vikram walks~past Eddy.
+~ Vikram passa~por  Eddy 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker593: Are~you~OK,    Eddy? [You~look~worried].      
+~           você~está~bem  Eddy   você~parece~preocupado  
++ You look worried
+- Who cooked curry
+- You look for it
+
+[LINE]
+Speaker414: Well, I  borrowed          this car   and it  won't~start.     
+~           bem   eu peguei~emprestado este carro e   ele não~dá~a~partida 
+
+[MULTIPLE_CHOICE]
+> Por que o Eddy está preocupado?
+- Ele não sabe onde ele está.
++ Ele não consegue dar a partida no carro que ele pegou emprestado.
+- Ele está no porta-malas de um carro.
+
+[LINE]
+Speaker593: Hmm. Can~I~help~you?    
+~           hmm  eu~posso~te~ajudar 
+
+[LINE]
+Speaker414: No.  It's~OK,       Vikram.
+~           não  está~tudo~bem  Vikram 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker593: But I  know [what's~wrong]       with the car.  
+~           mas eu sei   o~que~há~de~errado  com  o   carro 
+- what's along
++ what's wrong
+- that's wrong
+
+[LINE]
+Speaker414: Vikram, I  know a~lot about cars.  
+~           Vikram  eu sei  muito sobre carros 
+
+[LINE]
+Speaker593: OK,    well, you  already started~the      car…  
+~           certo  bem   você já      deu~a~partida~no carro 
+
+[LINE]
+Speaker414: No,  I~didn't.       I  can't~hear        the engine.
+~           não  não~fiz~(isso)  eu não~consigo~ouvir o   motor  
+
+[LINE]
+Speaker593: Eddy, this is an electric~car.   It's  quiet,      and it  doesn't~use gas.     
+~           Eddy  este é  um carro~elétrico  ele~é silencioso  e   ele não~usa     gasolina 
+
+[MULTIPLE_CHOICE]
+> O carro é elétrico, então…
++ …ele é silencioso e não usa gasolina.
+- …ele usa muita gasolina.
+- …ele é feio.
+
+[LINE]
+Speaker414: But I  put      gas      in~the car   ten minutes ago.   
+~           mas eu coloquei gasolina no     carro dez minutos atrás  
+
+[LINE]
+Speaker593: What?!  Where?
+~           o~quê   onde  
+
+[LINE]
+Speaker414: Right~here.
+~           bem~aqui   
+
+[LINE]
+Speaker593: Oh no,  Eddy… That's the trunk!      
+~           ah não  Eddy  esse~é o   porta-malas 
+
+[MULTIPLE_CHOICE]
+> Onde o Eddy colocou a gasolina?
+- no carro do Vikram
+- na motocicleta dele
++ no porta-malas do carro
+
+[MATCH]
+> Toque nos pares
+- It's OK <> está tudo bem
+- car <> carro
+- That's <> esse é
+- cars <> carros
+- about <> sobre
+
