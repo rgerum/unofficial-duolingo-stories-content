@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=A Boat Ride
+icon=bbbf59720476669932c111e1a738c86b6d678fbe
+set=55|1
+
+[HEADER]
+> Une promenade~en~bateau
+~ a   boat~ride          
+
+[LINE]
+> Lucie et  Lin passent      la  journée au     lac. 
+~ Lucie and Lin are~spending the day     at~the lake 
+
+[LINE]
+> Elles décident~de~louer un bateau.
+~ they  decide~to~rent    a  boat   
+
+[LINE]
+Speaker508: C'est   super !
+~           this~is great  
+
+[LINE]
+Speaker509: Hmm… oui, peut-être.
+~           hmm  yes  maybe     
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker508: Tu  n'es~pas contente~de faire [une~promenade~en~bateau] ?
+~           you are~not  happy       to~do  a~boat~ride               
+- une promenade en gâteau
+- une limonade en bateau
++ une promenade en bateau
+
+[LINE]
+Speaker509: Non. Je voulais aller~nager.   
+~           no   I  wanted  to~go~swimming 
+
+[LINE]
+Speaker508: Ça~ne~te~plaît~vraiment~pas ? 
+~           you~really~don't~like~it      
+
+[ARRANGE]
+> Tap what you hear
+Speaker508: [(C'est) (une) (belle)     (journée) (pourtant).]
+~             it's    a     beautiful   day       however    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: [Tu~as~raison], c'est une belle     journée.
+~            you're~right   it's  a   beautiful day     
++ Tu as raison
+- Tu as les sons
+- Vous avez bon
+
+[LINE]
+Speaker508: Et  maintenant, nous avons tout~ce~qu'il~faut pour un après-midi~parfait : une vue~et~un~temps~magnifiques, du   vin,  du   fromage…
+~           and now         we   have  everything~we~need for  a  perfect~afternoon    a   beautiful~view~and~weather   some wine  some cheese  
+
+[POINT_TO_PHRASE]
+> Choisis l'option   qui  veut~dire « paddles ».
+~ choose  the~option that means     ~ ~       ~ 
+Speaker508: (Mais), où    (sont) (les) (+pagaies) ?!
+~            but    where  are    the    paddles    
+
+[LINE]
+Speaker509: Oups, je crois qu'elles  sont~tombées dans l'eau.    
+~           oops  I  think that~they fell         in   the~water 
+
+[LINE]
+Speaker508: Est-ce~que~c'est~toi qui les~a~fait~tomber ? Sans    pagaies, comment on~va~rentrer           ?!
+~           are~you~the~one      who made~them~fall      without paddles  how     we~are~going~to~go~back   
+
+[MULTIPLE_CHOICE]
+> Lin demande   si…
+~ Lin is~asking if 
++ … Lucie a~fait~tomber les pagaies dans le  lac. 
+~   Lucie dropped       the paddles in   the lake 
+- … Lucie a~peint les pagaies.
+~   Lucie painted the paddles 
+- … Lucie a~fait~tomber les pagaies sur un poisson.
+~   Lucie dropped       the paddles on  a  fish    
+
+[LINE]
+Speaker509: Aucun problème.
+~           no    problem  
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+> Lucie sort      deux maillots~de~bain de   [son~sac].
+~ Lucie takes~out two  swimsuits        from  her~bag  
+- dans l'eau    
+~ in   the~water
++ son~sac
+~ her~bag
+- son vin 
+~ her wine
+
+[LINE]
+Speaker509: Parce~que nous avons ça   !
+~           because   we   have  this  
+
+[LINE]
+Speaker508: Tu  as~pris nos maillots~de~bain avec toi ?! Tu  avais tout       prévu   !
+~           you took    our swimsuits        with you    you had   everything planned  
+
+[ARRANGE]
+> Tap what you hear
+Speaker509: [(Je~t'ai~dit) (que)  (je) (voulais) (aller~nager).]   
+~             I~told~you    that   I    wanted    to~go~swimming   
+
+[LINE]
+Speaker509: Nous avons~fait une promenade~en~bateau, comme tu  le~voulais.
+~           we   did        a   boat~ride            as    you wanted     
+
+[LINE]
+Speaker509: Et  maintenant, nous allons~nager,       comme je le~voulais !
+~           and now         we   are~going~swimming  as    I  wanted      
+
+[MULTIPLE_CHOICE]
+> Pourquoi Lucie~a~fait~tomber les pagaies dans le  lac  ?
+~ why      did~Lucie~drop      the paddles in   the lake  
++ Elle voulait~vraiment nager   dans le  lac. 
+~ she  really~wanted    to~swim in   the lake 
+- Elle a~eu~peur  d'un gros  poisson dans l'eau.    
+~ she  was~afraid of~a large fish    in   the~water 
+- Elle regardait      un homme sur un~autre bateau.
+~ she  was~looking~at a  man   on  another  boat   
+
+[MATCH]
+> Tap the pairs
+- comme <> as
+- les a fait tomber <> made them fall
+- Lin <> Lin
+- comment <> how
+- Tu as raison <> you're right
+
