@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=The Model
+icon=bf0f585cb9c595dad852ba30870242b639057e4f
+set=10|3
+
+[HEADER]
+> Le  modèle
+~ the model 
+
+[LINE]
+> Eddy arrive  dans la~salle~de~classe~d'Oscar.
+~ Eddy arrives in   Oscar's~classroom          
+
+[LINE]
+Speaker414: Salut, je peux~entrer ?
+~           hi     I  can~come~in  
+
+[LINE]
+Speaker592: Mon cours~d'art est dans cinq minutes.
+~           my  art~class   is  in   five minutes 
+
+[LINE]
+Speaker414: Mais je m'ennuie…
+~           but  I  am~bored 
+
+[MULTIPLE_CHOICE]
+> Eddy is bored.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker592: Tu  n'as~pas   de~cours      maintenant ?
+~           you don't~have (any)~classes now         
+
+[LINE]
+Speaker414: Non. Je peux~t'aider~à~faire quelque~chose ?
+~           no   I  can~help~you~do      something      
+
+[LINE]
+Speaker592: Tu  veux m'aider,    toi ?!
+~           you want to~help~me  you   
+
+[LINE]
+Speaker592: Je ne~sais~pas…
+~           I  don't~know  
+
+[LINE]
+Speaker592: Ah, oui, je sais !
+~           ah  yes  I  know  
+
+[LINE]
+Speaker414: Génial !
+~           great   
+
+[LINE]
+Speaker592: Tu  peux~mettre ce   chapeau ?
+~           you can~put~on  this hat      
+
+[MULTIPLE_CHOICE]
+> What did Oscar ask Eddy to put on?
+- a wig
+- a T-shirt
++ a hat
+
+[LINE]
+Speaker414: Oui !
+~           yes  
+
+[LINE]
+> Eddy met     le~chapeau et  regarde  Oscar.
+~ Eddy puts~on the~hat    and looks~at Oscar 
+
+[LINE]
+Speaker592: Très bien. Maintenant, silence !
+~           very good  now         silence  
+
+[LINE]
+Speaker414: Pourquoi ?
+~           why       
+
+[ARRANGE]
+> Tap what you hear
+Speaker592: [(Mon) (cours~d'art) (est) (dans) (une) (minute).]
+~             my    art~class     is    in     one   minute   
+
+[LINE]
+Speaker592: J'ai~besoin~d'|un modèle.
+~           I~need         a  model  
+
+[CONTINUATION]
+> What comes next?
+Speaker592: Les~modèles [ne~parlent~pas].
+~           models       don't~talk      
+- sont des~fruits     
+~ are  pieces~of~fruit
++ ne~parlent~pas
+~ don't~talk    
+- n'existent~pas
+~ don't~exist   
+
+[LINE]
+Speaker414: Mais je m'ennuie !
+~           but  I  am~bored  
+
+[LINE]
+Speaker592: Chut !
+~           shhh  
+
+[MULTIPLE_CHOICE]
+> Uh oh! Why is Eddy still bored?
+- He doesn't like art class.
+- He wants to start a modeling agency.
++ Oscar wants him to put on a hat and be quiet.
+
+[MATCH]
+> Tap the pairs
+- minutes <> minutes
+- et <> and
+- Non <> no
+- chapeau <> hat
+- veux <> want
+
