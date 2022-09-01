@@ -1,0 +1,161 @@
+[DATA]
+fromLanguageName=La question secrète
+icon=9558b378d2ca0a3f0626205e03866b3e91153f01
+set=30|2
+
+[HEADER]
+> The Security~Question
+~ la  question~secrète 
+
+[LINE]
+> Priti and Vikram are~walking quickly    down~the~street.
+~ Priti et  Vikram marchent    rapidement dans~la~rue     
+
+[LINE]
+Speaker560: I~can't~wait to~see  this  play! 
+~           j'ai~hâte    de~voir cette pièce 
+
+[LINE]
+Speaker593: Do~you~have the tickets?
+~           tu~as       les billets 
+
+[LINE]
+Speaker560: Oh no. 
+~           oh non 
+
+[LINE]
+> Priti stops    and looks   in   her purse.     
+~ Priti s'arrête et  regarde dans son sac~à~main 
+
+[LINE]
+Speaker560: I  forgot~them    at~home.    
+~           je les~ai~oubliés à~la~maison 
+
+[MULTIPLE_CHOICE]
+> Oups ! Quel est le problème ?
+- Priti ne veut pas voir la pièce de théâtre.
+- Priti s'est fait voler son sac à main.
++ Priti a oublié les billets de théâtre.
+
+[LINE]
+Speaker593: Oh no!  We   don't~have  time     to~go~home and get~them.        
+~           oh non  nous n'avons~pas le~temps de~rentrer et  de~les~récupérer 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker560: I~was   so        excited      to~see  the play.  [I've~waited~for~months]!        
+~           j'étais tellement enthousiaste de~voir la  pièce   ça~fait~des~mois~que~j'attends  
+- Why wait here for months
+- I've played here four months
++ I've waited for months
+
+[LINE]
+Speaker593: Wait…    I~have the tickets on  my  phone!    
+~           attends  j'ai   les billets sur mon téléphone 
+
+[LINE]
+Speaker593: Hmm… I  have~to~log~into    my  account, but  I~forgot    my  password.    
+~           hmm  je dois~me~connecter~à mon compte   mais j'ai~oublié mon mot~de~passe 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « pour me connecter ».
+Speaker593: (I)  (can~answer)      a   security~question (+to~log~in),         (but)… 
+~            je   peux~répondre~à  une question~secrète    pour~me~connecter    mais  
+
+[LINE]
+Speaker560: What?
+~           quoi 
+
+[LINE]
+Speaker593: The question is,  "What's     your~brother's~birthday?"              
+~           la  question est   quelle~est la~date~d'anniversaire~de~votre~frère  
+
+[LINE]
+Speaker560: So?
+~           et 
+
+[LINE]
+Speaker593: I~forgot~it.
+~           j'ai~oublié 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker560: You forgot    [your~brother's~birthday?]!    
+~           tu  as~oublié  l'anniversaire~de~ton~frère   
+- my  purse     
+~ mon sac~à~main
++ your~brother's~birthday    
+~ l'anniversaire~de~ton~frère
+- your birthday    
+~ ton  anniversaire
+
+[LINE]
+Speaker593: I  never~remember        dates.    
+~           je ne~me~souviens~jamais des~dates 
+
+[LINE]
+Speaker560: Let's~call your brother.
+~           appelons   ton  frère   
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker593: [(Then)  (he'll~know) (that) (I~forgot)    (his~birthday)!]    
+~             alors   il~saura     que    j'ai~oublié   son~anniversaire   
+
+[LINE]
+Speaker560: Did~you~forget how     expensive~these~tickets~were?
+~           as-tu~oublié   combien ces~billets~étaient~chers    
+
+[LINE]
+Speaker593: OK,       OK,       I'll~call~him.    
+~           d'accord  d'accord  je~vais~l'appeler 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+> Vikram [calls~his~brother] and asks~about his birthday.           
+~ Vikram  appelle~son~frère  et  demande    sa  date~d'anniversaire 
++ calls his brother
+- calls this mother
+- kills another
+
+[LINE]
+Speaker593: Priti, it worked!   I~got the tickets!
+~           Priti  ça a~marché  j'ai  les billets 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker560: Wonderful!   We're~finally~going~to~see [this  play]! 
+~           merveilleux  on~va~enfin~voir            cette pièce  
+- a   birthday~party     
+~ une fête~d'anniversaire
+- your brother
+~ ton  frère  
++ this  play 
+~ cette pièce
+
+[LINE]
+Speaker593: Wait…    One problem.  The tickets were    for  last~night.
+~           attends  un  problème  les billets étaient pour hier~soir  
+
+[LINE]
+Speaker560: What?!
+~           quoi  
+
+[LINE]
+Speaker593: I  told~you that I  never~remember         dates.    
+~           je t'ai~dit que  je ne~me~souvenais~jamais des~dates 
+
+[MULTIPLE_CHOICE]
+> Vikram et Priti ont leurs billets mais...
+- … Priti est trop fâchée pour voir la pièce.
+- … maintenant le frère de Vikram vient aussi.
++ … ils étaient pour la représentation de la veille.
+
+[MATCH]
+> Choisis les paires
+- the <> les
+- I <> je
+- his <> sa
+- I was <> j'étais
+- One <> un
+
