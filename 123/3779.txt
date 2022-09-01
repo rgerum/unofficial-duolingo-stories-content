@@ -1,0 +1,166 @@
+[DATA]
+fromLanguageName=¿Cómo te llamas?
+icon=689567546d7675ad256e56c304d89b12a7c38c8a
+set=11|2
+
+[HEADER]
+> Comment~tu~t'appelles ?
+~ cómo~te~llamas         
+
+[LINE]
+> Lily et Zari sont  à  une fête.  
+~ Lily y  Zari están en una fiesta 
+
+[LINE]
+Speaker418: C'est   une fête   géniale ! Je~veux danser !
+~           esta~es una fiesta genial    quiero  bailar  
+
+[LINE]
+Speaker416: Je~n'aime~pas danser.
+~           no~me~gusta   bailar 
+
+[LINE]
+Speaker418: Hé  ! C'est~qui, lui ? Il~est mignon !
+~           oye   quién~es   él    es     guapo   
+
+[MULTIPLE_CHOICE]
+> Zari vio a un chico y le parece que es guapo.
++ Sí, así es.
+- No, no es así.
+
+[LINE]
+Speaker416: Il est  dans ma classe. C'est   sa fête.  
+~           él está en   mi clase   esta~es su fiesta 
+
+[LINE]
+Speaker418: Comment~il~s'appelle ?
+~           cómo~se~llama         
+
+[LINE]
+Speaker416: Jean ? Louis ? Je~ne~sais~pas.
+~           Jean   Louis   no~sé          
+
+[LINE]
+Speaker418: Hé  ! Salut ! Oui ! Toi !
+~           oye   hola    sí    tú   
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker416: Zari ! Mais~qu'est-ce~que [tu~fais        ]?
+~           Zari   (pero)~qué          estás~haciendo   
+- tu~conduis     
+~ estás~manejando
+- tu~étudies      
+~ estás~estudiando
++ tu~fais       
+~ estás~haciendo
+
+[LINE]
+Speaker416: Maintenant, il va   venir   parler avec nous     !
+~           ahora       él va~a venir~a hablar con  nosotras  
+
+[LINE]
+Speaker418: Super  !
+~           genial  
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker416: [(Non), (ce~n'est~pas) (super~du~tout) ]!
+~             no     eso~no~es      nada~genial      
+
+[LINE]
+Speaker416: Je~ne~me~souviens~pas~de son prénom.
+~           no~recuerdo              su  nombre 
+
+[MULTIPLE_CHOICE]
+> ¡Ay, no! Lily no recuerda…
++ … el nombre del chico.
+- … dónde conoció al chico.
+- … la dirección del chico.
+
+[LINE]
+Speaker418: Il~s'appelle… Antoine ?
+~           se~llama      Antoine  
+
+[LINE]
+Speaker416: Non…
+~           no  
+
+[LINE]
+Speaker418: Thomas ?
+~           Thomas  
+
+[LINE]
+Speaker416: Non…
+~           no  
+
+[LINE]
+Speaker418: Jules ?
+~           Jules  
+
+[LINE]
+Speaker416: Zari ! Je~ne~me~souviens~pas !
+~           Zari   no~recuerdo            
+
+[LINE]
+Speaker418: Regarde ! Il~arrive      !
+~           mira      viene~para~acá  
+
+[LINE]
+Speaker416: Oh, non.
+~           ay  no  
+
+[LINE]
+Speaker419: Salut Lily !
+~           hola  Lily  
+
+[LINE]
+Speaker416: Salut...
+~           hola    
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker419: Tu~es prête pour [l'examen~de~demain]  ?
+~           estás lista para  el~examen~de~mañana   
+- l'examen de Romain
++ l'examen de demain
+- l'exercice du lapin
+
+[LINE]
+Speaker416: Bien~sûr...
+~           claro      
+
+[LINE]
+> Il regarde Zari. Zari regarde Lily. Lily ne~dit  rien.
+~ él mira~a  Zari  Zari mira~a  Lily  Lily no~dice nada 
+
+[LINE]
+Speaker418: Salut. Je~m'appelle Zari !
+~           hola   me~llamo     Zari  
+
+[LINE]
+Speaker419: Enchanté,  Zari.
+~           encantado  Zari 
+
+[LINE]
+Speaker418: Comment~tu~t'appelles ? Lily ne~se~souvient~pas.
+~           cómo~te~llamas          Lily no~recuerda        
+
+[LINE]
+Speaker416: Zari !
+~           Zari  
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Lily se enojó con Zari?
+- El chico les pidió que se fueran de la fiesta.
+- Lily estaba celosa de Zari.
++ Zari le dijo al chico que Lily no recordaba su nombre.
+
+[MATCH]
+> Selecciona los pares
+- Toi <> tú
+- pour <> para
+- Je veux <> quiero
+- Antoine <> Antoine
+- sa <> su
+
