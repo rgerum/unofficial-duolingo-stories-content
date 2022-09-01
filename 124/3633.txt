@@ -1,0 +1,98 @@
+[DATA]
+fromLanguageName=Fin surprise
+icon=136e95ddf7eef68f8c312f81c3b03bf4100a14e7
+set=17|2
+
+[HEADER]
+> Surprise~Ending
+~ fin~surprise   
+
+[LINE]
+> Vikram is~reading           in~bed. His wife,  Priti, is  next~to   him.
+~ Vikram est~en~train~de~lire au~lit  sa  femme  Priti  est à~côté~de lui 
+
+[LINE]
+Speaker560: Vikram, I'm     tired.    Can~you~turn~off the light?  
+~           Vikram  je~suis fatiguée  tu~peux~éteindre la  lumière 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker593: I  can't~sleep!        I  need to~finish [this~book]!
+~           je ne~peux~pas~dormir  je dois finir      ce~livre   
++ this book
+- his book
+- this look
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « va s'écraser ».
+Speaker593: A  man   is  (on~an~airplane)! (He's~traveling) to~see    his wife,  but  (the~plane) (+is~going~to~crash)!
+~           un homme est  dans~un~avion     il~voyage       pour~voir sa  femme  mais  l'avion      va~s'écraser       
+
+[LINE]
+Speaker560: I'll~tell~you   the ending, but  then  you have~to~turn~off the light.  
+~           je~vais~te~dire la  fin     mais après tu  dois~éteindre    la  lumière 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker593: [(You) (read)  (this) (book)?] 
+~             tu    as~lu   ce     livre   
+
+[LINE]
+Speaker593: Please,        tell~me the ending!
+~           s'il~te~plaît  dis-moi la  fin    
+
+[LINE]
+Speaker560: The man's~wife       is  really     a  ghost.   He dies|— and now        they can~be       together.
+~           la  femme~de~l'homme est en~réalité un fantôme  il meurt  et  maintenant ils  peuvent~être ensemble 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker593: That's strange. But  now        I  can  [turn~off the light].  
+~           c'est  étrange  mais maintenant je peux  éteindre la  lumière  
+- watch    TV     
+~ regarder la~télé
+- get~on      an airplane
+~ monter~dans un avion   
++ turn~off the light  
+~ éteindre la  lumière
+
+[LINE]
+> The next~morning,    Vikram talks~to~Priti~about~the~book~again.
+~ le  lendemain~matin  Vikram reparle~du~livre~à~Priti            
+
+[LINE]
+Speaker593: That  ending was   surprising! 
+~           cette fin    était surprenante 
+
+[MULTIPLE_CHOICE]
+> Vikram veut dire que la fin du livre…
++ … n'était pas ce à quoi il s'attendait.
+- … était mauvaise.
+- … l'a endormi.
+
+[LINE]
+Speaker560: Vikram… I~lied     about       the ending.
+~           Vikram  j'ai~menti à~propos~de la  fin    
+
+[LINE]
+Speaker593: What?!
+~           quoi  
+
+[LINE]
+Speaker560: I  never~read     that book.  I  just~wanted~you~to~turn~off       the light.  
+~           je n'ai~jamais~lu ce   livre  je voulais~seulement~que~tu~éteignes la  lumière 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Priti a-t-elle menti à Vikram ?
+- Elle avait un grand secret.
+- Elle voulait faire rire Vikram.
++ Elle voulait dormir.
+
+[MATCH]
+> Choisis les paires
+- He's traveling <> il voyage
+- ghost <> fantôme
+- His <> sa
+- tired <> fatiguée
+- I'll tell you <> je vais te dire
+
