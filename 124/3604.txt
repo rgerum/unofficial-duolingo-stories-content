@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Le journal intime
+icon=11054d83adbe171cda3e5669c57e1e26d6cbd8db
+set=10|1
+
+[HEADER]
+> The Diary         
+~ le  journal~intime
+
+[LINE]
+> Zari and Lily are  at school. 
+~ Zari et  Lily sont à  l'école 
+
+[LINE]
+Speaker418: Lily, I'm~so~scared!       I  can't~find      my  diary!         
+~           Lily  j'ai~tellement~peur  je ne~retrouve~pas mon journal~intime 
+
+[LINE]
+Speaker416: OK?      
+~           d'accord 
+
+[LINE]
+Speaker418: I~write about       Miguel in   my  diary!         
+~           j'écris à~propos~de Miguel dans mon journal~intime 
+
+[LINE]
+Speaker416: Miguel? The boy    in   our   class? 
+~           Miguel  le  garçon dans notre classe 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker418: Yes! [We~need~to~find~it]!  
+~           oui   on~doit~le~retrouver  
+- We need a fine hat
+- He needs to find it
++ We need to find it
+
+[LINE]
+Speaker416: Fine.
+~           bien 
+
+[LINE]
+> They  look~for  the diary          in   the hall.   
+~ elles cherchent le  journal~intime dans le  couloir 
+
+[LINE]
+Speaker416: Sorry,   it isn't     here.
+~           désolée  il n'est~pas ici  
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker418: [(This~is) (a)   (bad)      (day)!]    
+~             c'est     une   mauvaise   journée   
+
+[LINE]
+> They  see    Miguel. He has a  pink~diary.         
+~ elles voient Miguel  il a   un journal~intime~rose 
+
+[LINE]
+Speaker418: Oh no!  It's  Miguel! This~is a   very bad      day.    
+~           oh non  c'est Miguel  c'est   une très mauvaise journée 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Zari dit-elle que c'est une très mauvaise journée ?
+- Miguel va changer d'école.
+- Lily a commencé à sortir avec Miguel.
++ Elle pense que Miguel a lu son journal.
+
+[LINE]
+Speaker790: Hi    Zari. Is~this your diary?         
+~           salut Zari  c'est   ton  journal~intime 
+
+[LINE]
+Speaker418: Uh…  No! 
+~           euh  non 
+
+[LINE]
+Speaker416: But  your name is  on~it. 
+~           mais ton  nom  est dessus 
+
+[LINE]
+Speaker418: OK.       That~is my  diary.          But… 
+~           d'accord  c'est   mon journal~intime  mais 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « écriture ».
+Speaker790: (Don't~worry)…       I  (can't~read)       (your) (+handwriting).
+~            ne~t'inquiète~pas   je  ne~peux~pas~lire   ton     écriture     
+
+[LINE]
+Speaker418: Oh… good.
+~           oh  bien 
+
+[LINE]
+Speaker790: So,    do~you~want to~see a  movie with me  on~Friday?
+~           alors  tu~veux     voir   un film  avec moi vendredi  
+
+[LINE]
+Speaker418: Wow,   yes!
+~           waouh  oui 
+
+[LINE]
+> Miguel smiles at Zari. He leaves.
+~ Miguel sourit à  Zari  il part   
+
+[LINE]
+Speaker418: Lily, this~is a   great day!    
+~           Lily  c'est   une super journée 
+
+[MULTIPLE_CHOICE]
+> Pourquoi est-ce finalement une bonne journée pour Zari ?
+- Miguel a lu tout ce qu'elle avait écrit dans son journal.
+- Elle a eu une bonne note à son devoir.
++ Miguel l'a invitée au cinéma.
+
+[MATCH]
+> Choisis les paires
+- This is <> c'est
+- on Friday <> vendredi
+- We need to find it <> on doit le retrouver
+- I <> je
+- it <> il
+
