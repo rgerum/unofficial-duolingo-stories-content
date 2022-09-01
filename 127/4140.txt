@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=Perigoso demais
+icon=1702eab67b54c34d15254bb3fb5daefb13f3a2ac
+set=12|1
+
+[HEADER]
+> Demasiado~peligroso
+~ perigoso~demais    
+
+[LINE]
+Speaker418: No  puedo, Lily.
+~           não posso  Lily 
+
+[LINE]
+Speaker416: Sí~puedes, no  te preocupes.
+~           podes~sim  não te preocupes 
+
+[LINE]
+Speaker418: ¡Tengo     miedo! ¡Es demasiado~peligroso!
+~            estou~com medo    é  perigoso~demais     
+
+[MULTIPLE_CHOICE]
+> A Zari não tem medo de nada.
++ Não, não é isso.
+- Sim, isso mesmo.
+
+[LINE]
+Speaker418: ¡No  quiero ir!
+~            não quero  ir 
+
+[LINE]
+Speaker416: Zari… vamos~a estar~bien.
+~           Zari  vamos   ficar~bem  
+
+[ARRANGE]
+> Toque no que escutar
+Speaker418: ¿[(Y) (cómo) (sabes) (eso)?]  
+~              e   como   sabes   disso   
+
+[LINE]
+Speaker416: Bueno, mucha gente lo~hace. 
+~           bom    muita gente faz~isso 
+
+[LINE]
+Speaker416: Zari… todo va~a estar~bien.
+~           Zari  tudo vai  ficar~bem  
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker416: [Yo~estoy~aquí~contigo] y vamos~a~ir juntas.
+~            eu~estou~aqui~contigo  e vamos      juntas 
+- No estoy ahí contigo
+- Yo esto lo consigo
++ Yo estoy aquí contigo
+
+[LINE]
+Speaker418: Gracias,  Lily. Eres una buena amiga.
+~           obrigada  Lily  és   uma boa   amiga 
+
+[LINE]
+Speaker418: Está bien.
+~           está bem  
+
+[LINE]
+Speaker418: ¡Creo que estoy lista! 
+~            acho que estou pronta 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "subir".
+Speaker300: ¿(Vas~a)   (+montarte) (en~la) (montaña)  rusa  o  no? 
+~             tu~vais    subir      na      montanha  russa ou não 
+
+[LINE]
+Speaker300: ¡Hay mucha gente esperando!
+~            tem muita gente esperando 
+
+[LINE]
+Speaker300: Esta es la montaña  rusa  más  alta y más  vieja  del país.
+~           esta é  a  montanha russa mais alta e mais antiga do  país 
+
+[LINE]
+Speaker416: Espera… ¿La más  alta? ¡¿Y la más  vieja?! 
+~           espera   a  mais alta    e a  mais antiga  
+
+[LINE]
+Speaker418: ¡Está bien, lo~voy~a~hacer!   
+~            está bem   eu~vou~fazer~isso 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker418: ¡Y mi    amiga, Lily, [va~a venir conmigo]!
+~            e minha amiga  Lily   vai  vir   comigo   
+- va~a~ir a    su  casa
+~ vai     para sua casa
++ va~a venir conmigo
+~ vai  vir   comigo 
+- es muy   peligrosa
+~ é  muito perigosa 
+
+[LINE]
+Speaker418: Espera… ¿Lily? ¿Por qué corres? ¿Adónde vas? 
+~           espera   Lily   por que corres   aonde  vais 
+
+[LINE]
+Speaker416: ¡Lo~siento, Zari! ¡No  quiero montarme en~esa montaña  rusa! 
+~            desculpa   Zari   não quero  subir    nessa  montanha russa 
+
+[LINE]
+Speaker416: ¡Es demasiado~peligroso!
+~            é  perigoso~demais     
+
+[MULTIPLE_CHOICE]
+> A Zari decidiu andar na montanha russa, mas…
+- …ela parou de funcionar.
++ …a Lily ficou muito assustada.
+- …a fila estava muito longa.
+
+[MATCH]
+> Toque nos pares
+- lo hace <> faz isso
+- Zari <> Zari
+- o <> ou
+- conmigo <> comigo
+- eso <> disso
+
