@@ -1,0 +1,114 @@
+[DATA]
+fromLanguageName=Quero um cachorro!
+icon=f0d8a8f3340da1d468766192cafa7ac1ee986355
+set=6|4
+
+[HEADER]
+> ¡Quiero un perro!   
+~  quero  um cachorro 
+
+[LINE]
+Speaker415: Papá,  tenemos que hablar.   
+~           papai  temos   que conversar 
+
+[LINE]
+Speaker415: ¡Quiero un perro!   
+~            quero  um cachorro 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker414: Junior, [tener~un~perro]  es mucho trabajo. 
+~           Junior   ter~um~cachorro  é  muito trabalho 
++ tener un perro
+- tener un carro
+- tener un cerro
+
+[LINE]
+Speaker415: ¡Papá,  por favor! Soy muy   responsable.
+~            papai  por favor  sou muito responsável 
+
+[LINE]
+Speaker414: ¿Ah, sí? 
+~            ah  sim 
+
+[LINE]
+Speaker414: Entonces, tienes  que limpiar el carro…
+~           então     tu~tens que limpar  o  carro 
+
+[MULTIPLE_CHOICE]
+> Por que o Eddy está dizendo para o Junior limpar o carro?
++ Ele quer que Junior prove que é responsável.
+- O cachorro do Junior deixou o carro muito sujo.
+- O Junior precisa dirigir até o emprego novo dele.
+
+[LINE]
+Speaker415: ¡Está bien!
+~            está bem  
+
+[LINE]
+Speaker414: … lavar el baño…    
+~             lavar o  banheiro 
+
+[LINE]
+Speaker415: Sí… 
+~           sim 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker414: … ¡[(y) (lavar) (las) (ventanas)!]
+~                e   lavar   as    janelas    
+
+[LINE]
+Speaker415: Ay,~no… 
+~           ah,~não 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "depois".
+> Tres horas (+después), (Junior) (termina) de (limpiar).
+~ três horas   depois     Junior   termina  de  limpar   
+
+[LINE]
+Speaker415: ¡Papá!  ¡Mira!
+~            papai   olha 
+
+[LINE]
+Speaker414: ¡Qué~bien! Tú eres muy   responsable.
+~            que~bom   tu és   muito responsável 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker414: ¡Ahora puedes   tener [un perro]!   
+~            agora tu~podes ter    um cachorro  
+- uma ventana
+~ uma janela 
+- un baño    
+~ um banheiro
++ un perro   
+~ um cachorro
+
+[LINE]
+Speaker415: ¡No,  gracias!  No  quiero un perro…   
+~            não  obrigado  não quero  um cachorro 
+
+[LINE]
+Speaker414: ¿Por qué no? 
+~            por que não 
+
+[LINE]
+Speaker415: ¡Estoy muy   cansado! ¡No  quiero ser responsable!
+~            estou muito cansado   não quero  ser responsável 
+
+[MULTIPLE_CHOICE]
+> O Junior decidiu que…
++ …está cansado demais para cuidar de um cachorro.
+- …ele deveria adotar quatro cachorros.
+- …agora ele quer uma vaca.
+
+[MATCH]
+> Toque nos pares
+- ser <> ser
+- termina <> termina
+- lavar <> lavar
+- Junior <> Junior
+- es <> é
+
