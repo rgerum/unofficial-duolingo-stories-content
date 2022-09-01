@@ -1,0 +1,172 @@
+[DATA]
+fromLanguageName=Bad Reception
+icon=d72ea91e3c190e09f1659bad7070c54d56364893
+set=54|4
+
+[HEADER]
+> Mauvaise réception
+~ bad      reception
+
+[LINE]
+> Eddy est chez~Oscar.       Ils  regardent    un match~de~foot à~la~télévision.
+~ Eddy is  at~Oscar's~place  they are~watching a  soccer~game   on~television   
+
+[LINE]
+Speaker414: Wouah ! Incroyable   !
+~           wow     unbelievable  
+
+[POINT_TO_PHRASE]
+> Choisis l'option   qui~veut~dire « goal ».
+~ choose  the~option that~means    ~ ~    ~ 
+Speaker414: (Tu)  (as~vu) (ce)   (+but)  ?
+~            you   saw     this    goal   
+
+[LINE]
+Speaker592: Non. Eddy, tu  as~demandé~à~entrer chez~moi deux minutes pour~vérifier     le  score. Mais ça~fait~une~heure~que~tu~es~là.
+~           no   Eddy  you asked~to~come~into  my~place two  minutes in~order~to~check the score  but  you~have~been~here~for~an~hour 
+
+[LINE]
+Speaker414: Oui, je sais. C'est génial,  non ? On~peut~regarder le  match ensemble !
+~           yes  I  know  it's  awesome  no    we~can~watch     the match together  
+
+[LINE]
+Speaker592: Eddy, je suis très fatigué.
+~           Eddy  I  am   very tired   
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Une) (bonne) (pizza) (va)       (te~réveiller).]  
+~             a     good    pizza   is~going   to~wake~you~up   
+
+[LINE]
+Speaker592: Tu  as~vu l'heure  ? Il~est trop tard pour une pizza.
+~           you saw   the~time   it's   too  late for  a   pizza 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Ne~t'inquiète~pas, je connais une super pizzeria [qui~ferme~tard].  
+~           don't~worry        I  know    a   great pizzeria  that~closes~late  
+- qui germe tard
+- qui ferme et part
++ qui ferme tard
+
+[LINE]
+> Eddy sort      son~téléphone.
+~ Eddy takes~out his~phone     
+
+[LINE]
+Speaker414: Hmm… J'ai   une mauvaise réception, et  toi ?
+~           hmm  I~have a   bad      reception  and you  
+
+[MULTIPLE_CHOICE]
+> Si un portable  a   une mauvaise réception…
+~ if a  cellphone has a   bad      reception 
+- … on peut appeler   tous les gens   qu'on~veut.  
+~   we can  (to)~call all  the people that~we~want 
++ … on~ne~peut~pas appeler   ou envoyer   de~messages.
+~   one~can't      (to)~call or (to)~send messages    
+- … le  son   des    appels est vraiment très bon. 
+~   the sound of~the calls  is  really   very good 
+
+[LINE]
+> Oscar regarde  son~téléphone. Il n'a~aucun        problème~de~réception.
+~ Oscar looks~at his~phone      he doesn't~have~any reception~problem     
+
+[LINE]
+Speaker592: Non, désolé.
+~           no   sorry  
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker592: Essaie vers    [la  porte~d'entrée ]?
+~           try    towards  the front~door       
++ la  porte~d'entrée 
+~ the front~door     
+- le  match~de~foot
+~ the soccer~game  
+- la  pizza
+~ the pizza
+
+[LINE]
+> Eddy va   vers    la  porte.
+~ Eddy goes towards the door  
+
+[LINE]
+Speaker414: Non, toujours~pas.
+~           no   not~yet      
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker592: Et  si tu  vas [un~peu~plus~loin]   ?
+~           and if you go   a~bit~further~away   
++ un peu plus loin
+- on veut plus loin
+- un peu du tien
+
+[LINE]
+Speaker414: Tu  crois que  dans le  couloir ça   ira~mieux      ?
+~           you think that in   the hallway that will~be~better  
+
+[LINE]
+Speaker592: Oui, tu  vas~voir         !
+~           yes  you are~going~to~see  
+
+[LINE]
+> Eddy ouvre la  porte et  sort     de l'appartement.
+~ Eddy opens the door  and goes~out of the~apartment 
+
+[LINE]
+Speaker414: Ah super, la  réception est bonne ici  !
+~           ah great  the reception is  good  here  
+
+[LINE]
+> Oscar court vers    l'entrée     et  ferme~la~porte~à~clé.
+~ Oscar runs  towards the~entrance and locks~the~door       
+
+[LINE]
+Speaker592: Enfin   parti !
+~           finally gone   
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+> Le~téléphone~d'Oscar [sonne].
+~ Oscar's~phone         rings  
+- danse 
+~ dances
++ sonne
+~ rings
+- part  
+~ leaves
+
+[LINE]
+> Oscar répond.  C'est Eddy, toujours dans~le~couloir.
+~ Oscar answers  it's  Eddy  still    in~the~hallway  
+
+[LINE]
+Speaker414: Oscar ? Je n'arrive~pas~à~ouvrir la  porte. Tu  peux~venir ?
+~           Oscar   I  can't~open            the door   you can~come    
+
+[LINE]
+Speaker592: Désolé, Eddy, mais je ne~t'entends~pas~bien. La  réception n'est~pas bonne ici. 
+~           sorry   Eddy  but  I  don't~hear~you~well    the reception isn't     good  here 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Oscar a-t-il~fermé~la~porte~à~clef ?
+~ why      Oscar locked~the~door               
+- Il veut  manger toute la  pizza tout~seul. 
+~ he wants to~eat all   the pizza by~himself 
+- Son équipe~de~foot~préférée a~perdu.
+~ his favorite~soccer~team    lost    
++ Il veut  rester  tout~seul  chez~lui.
+~ he wants to~stay by~himself at~home  
+
+[MATCH]
+> Tap the pairs
+- l'heure <> the time
+- que <> that
+- crois <> think
+- toujours pas <> not yet
+- Enfin <> finally
+
