@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Urlaubskleidung
+icon=eda1b8214a6937df66a552eb581f2353da4d0352
+set=2|4
+
+[HEADER]
+> Vacation~Clothes
+~ Urlaubskleidung 
+
+[LINE]
+> Lucy is  in a     store.   
+~ Lucy ist in einem Geschäft 
+
+[LINE]
+Speaker509: Hi, can    you help~me?   
+~           hi  können Sie mir~helfen 
+
+[LINE]
+Speaker509: I   need    new  clothes  for my     vacation!
+~           ich brauche neue Kleidung für meinen Urlaub   
+
+[MULTIPLE_CHOICE]
+> Lucy will Kleidung für den Urlaub einkaufen.
++ Ja, das ist richtig.
+- Nein, das ist falsch.
+
+[LINE]
+Speaker416: OK.
+~           OK 
+
+[ARRANGE]
+> Was hörst du?
+Speaker509: [(I)   (need)    (a)   (dress).]
+~             ich   brauche   ein   Kleid   
+
+[LINE]
+> Lily gives Lucy a   green  dress.
+~ Lily gibt  Lucy ein grünes Kleid 
+
+[LINE]
+Speaker509: No!   I   need    a   short,  red   dress.
+~           nein  ich brauche ein kurzes  rotes Kleid 
+
+[MULTIPLE_CHOICE]
+> Was braucht Lucy?
+- einen langen grünen Rock
++ ein kurzes rotes Kleid
+- ein neues braunes Auto
+
+[LINE]
+> Lily gives her a   short,  red   dress.
+~ Lily gibt  ihr ein kurzes  rotes Kleid 
+
+[LINE]
+Speaker509: And I   need    boots.  
+~           und ich brauche Stiefel 
+
+[LINE]
+> Lily gives Lucy red  boots.  
+~ Lily gibt  Lucy rote Stiefel 
+
+[LINE]
+Speaker509: No,   big,   black    boots!  
+~           nein  große  schwarze Stiefel 
+
+[LINE]
+Speaker416: Ugh…
+~           uff 
+
+[LINE]
+Speaker509: OK, a   short,  red   dress and big,   black    boots…  
+~           OK  ein kurzes  rotes Kleid und große  schwarze Stiefel 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker509: [And~a~hat]!    
+~            und~einen~Hut  
+- And a cat
+- In the hat
++ And a hat
+
+[LINE]
+> Lily gives Lucy a     hat.
+~ Lily gibt  Lucy einen Hut 
+
+[LINE]
+Speaker509: No!   A     yellow hat!
+~           nein  einen gelben Hut 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+> Lily gives Lucy [a     yellow hat].
+~ Lily gibt  Lucy  einen gelben Hut  
+- a   yellow dress
+~ ein gelbes Kleid
+- a     red   hat
+~ einen roten Hut
++ a     yellow hat
+~ einen gelben Hut
+
+[LINE]
+Speaker509: Perfect! Now   I'm     ready  for my     vacation!
+~           perfekt  jetzt bin~ich bereit für meinen Urlaub   
+
+[LINE]
+Speaker416: Now   I~need      a     vacation.
+~           jetzt brauche~ich einen Urlaub   
+
+[MULTIPLE_CHOICE]
+> Arme Lily! Warum braucht sie Urlaub?
++ Sie ist erschöpft, nachdem sie Lucy geholfen hat, Kleidung zu finden.
+- Sie hat viel neue Kleidung, die sie tragen kann.
+- Sie hat zu viel zum Mittagessen gegessen.
+
+[MATCH]
+> Wähle die Paare
+- help me <> mir helfen
+- Ugh <> uff
+- yellow <> gelben
+- for <> für
+- dress <> Kleid
+
