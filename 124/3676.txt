@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Dîner avec la PDG
+icon=48ff56bf472c683d952ff24420066dbef5e7ac9f
+set=28|1
+
+[HEADER]
+> Dinner with the CEO
+~ dîner  avec la  PDG
+
+[LINE]
+> Bea is~using the photocopier   at work.    Her boss, Craig, comes to~talk~to~her.
+~ Bea utilise  la  photocopieuse au travail  son chef  Craig  vient lui~parler     
+
+[LINE]
+Speaker100: Bea, I'm~meeting           our~company's~CEO          for  dinner   tonight.
+~           Bea  j'ai~rendez-vous~avec la~PDG~de~notre~entreprise pour le~dîner ce~soir 
+
+[LINE]
+Speaker100: Can~you~come?      You  couldn't~come        last        time.
+~           pouvez-vous~venir  vous ne~pouviez~pas~venir la~dernière fois 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker507: I  [really~want~to~come], but  I  can't       .
+~           je  veux~vraiment~venir   mais je ne~peux~pas  
+- will be wanting some
+- really want to run
++ really want to come
+
+[LINE]
+Speaker100: OK,       but  she  really~wants  to~meet~you…    
+~           d'accord  mais elle veut~vraiment vous~rencontrer 
+
+[LINE]
+Speaker507: I  know. I'm     sorry.  
+~           je sais  je~suis désolée 
+
+[LINE]
+> Later,     Craig is~eating~dinner with the CEO, Paula.
+~ plus~tard  Craig dîne             avec la  PDG  Paula 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+> [(Bea) (walks~past)   (their) (table).]
+~   Bea   passe~devant   leur    table   
+
+[LINE]
+Speaker100: Bea, you're    here!
+~           Bea  vous~êtes là   
+
+[LINE]
+Speaker507: Oh… hi,    Craig! You  chose…       this restaurant?
+~           oh  salut  Craig  vous avez~choisi  ce   restaurant 
+
+[LINE]
+Speaker100: I'm     so        happy   that~you~came        to~the meeting.     This~is Paula, our   CEO!
+~           je~suis tellement content que~vous~soyez~venue au     rendez-vous  voici   Paula  notre PDG 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker507: Um…  Actually, I'm~not        here [to~meet~with~you].    
+~           hum  en~fait   je~ne~suis~pas là    pour~vous~rencontrer  
++ to~meet~with~you    
+~ pour~vous~rencontrer
+- as~a        musician  
+~ en~tant~que musicienne
+- until tomorrow
+~ avant demain  
+
+[LINE]
+Speaker100: What?!
+~           quoi  
+
+[LINE]
+Speaker507: I  work      here every~night…    as~a        waitress.
+~           je travaille ici  tous~les~soirs  en~tant~que serveuse 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Bea est-elle au restaurant ?
+- Elle a un rencard dans ce restaurant.
+- Elle voulait rencontrer la PDG.
++ Elle est serveuse dans ce restaurant.
+
+[POINT_TO_PHRASE]
+>  Choisis l'option qui veut dire « stagiaire ».
+Speaker988: (This~is)    (the) (+intern)    (you)      wanted~me~to~meet?       
+~            c'est~elle   la     stagiaire   que~vous  vouliez~que~je~rencontre 
+
+[LINE]
+Speaker100: Yes, but  I  didn't~know…  
+~           oui  mais je ne~savais~pas 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker988: I~also~had    two  jobs    [when~I~was~younger]!      
+~           j'avais~aussi deux emplois  quand~j'étais~plus~jeune  
++ when I was younger
+- when I was under
+- then I was a young girl
+
+[LINE]
+Speaker988: Bea, I  can~see   that you're    a~hard~worker. I  want to~hear  all    your ideas for  our   company!   
+~           Bea  je peux~voir que  vous~êtes travailleuse   je veux entendre toutes vos  idées pour notre entreprise 
+
+[LINE]
+Speaker507: Wow,   thanks!
+~           waouh  merci  
+
+[LINE]
+Speaker507: But  first,   I  should~give~you     some bread, or my  other boss will~be angry.    
+~           mais d'abord  je devrais~vous~donner du   pain   ou mon autre chef sera    en~colère 
+
+[MULTIPLE_CHOICE]
+> Pourquoi la PDG est-elle impressionnée que Bea ait un second travail ?
++ Elle pense que ça montre que Bea travaille dur.
+- Elle a l'intention de licencier Bea.
+- Elle pense qu'elle peut avoir du pain en plus.
+
+[MATCH]
+> Choisis les paires
+- really want to come <> veux vraiment venir
+- is using <> utilise
+- CEO <> PDG
+- your <> vos
+- this <> ce
+
