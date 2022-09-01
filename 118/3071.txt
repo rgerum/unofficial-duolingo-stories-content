@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=Doctor Eddy
+icon=29c5abbf74b46e43a4de510ac83e302c0722a100
+set=1|2
+
+[HEADER]
+> Doutor Eddy
+~ doctor Eddy
+
+[LINE]
+> Eddy está no     supermercado.
+~ Eddy is~  at~the supermarket  
+
+[LINE]
+> Uma mulher~elegante fala~com ele.
+~ an  elegant~woman   talks~to him 
+
+[LINE]
+Speaker988: Oi!
+~           hi 
+
+[LINE]
+Speaker414: Ah, oi!
+~           oh  hi 
+
+[MULTIPLE_CHOICE]
+> A woman talks to Eddy at the supermarket.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker988: Com~licença, você~é~médico?   
+~           excuse~me    are~you~a~doctor 
+
+[MULTIPLE_CHOICE]
+> The woman wants to know if…
++ …Eddy is a doctor.
+- …Eddy is a teacher.
+- …Eddy has a pizza.
+
+[LINE]
+Speaker414: Eu? Médico?   Hã… 
+~           me  a~doctor  huh 
+
+[LINE]
+Speaker414: Sim, eu… Eu sou médico.  
+~           yes  I   I  am  a~doctor 
+
+[LINE]
+Speaker988: Que~bom!     
+~           that's~great 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+> Eddy [não~é~médico].   
+~ Eddy  is~not~a~doctor  
+- no remédio
++ não é médico
+- mão e médico
+
+[LINE]
+Speaker414: Eu tenho três  carros.
+~           I  have  three cars   
+
+[LINE]
+Speaker414: Eu tenho uma casa~grande.
+~           I  have  a   big~house   
+
+[POINT_TO_PHRASE]
+> Choose the option meaning "expensive."
+Speaker414: (Minhas) (calças) (são)… (+caras).    
+~            my       pants    are     expensive  
+
+[LINE]
+Speaker988: Tudo~bem,  mas…
+~           all~right  but 
+
+[LINE]
+Speaker988: Um homem precisa~de um médico.
+~           a  man   needs      a  doctor 
+
+[LINE]
+Speaker988: Ajuda ele, por~favor! Ele não~está bem. 
+~           help  him  please     he  is~not   well 
+
+[MULTIPLE_CHOICE]
+> The woman wants Eddy to…
++ …help a man who isn't feeling well.
+- …give her one of his three cars.
+- …let her jump the line.
+
+[LINE]
+Speaker414: Ah,~não!
+~           oh~no   
+
+[LINE]
+> Eddy vê   uma mulher. Ele fala~com~ela.
+~ Eddy sees a   woman   he  talks~to~her 
+
+[LINE]
+Speaker414: Oi, você~é~médica?    Um homem precisa~de ajuda!
+~           hi  are~you~a~doctor  a  man   needs      help  
+
+[MULTIPLE_CHOICE]
+> What is Eddy doing?
+- He's driving a sick man to the hospital.
+- He's crying because he wants expensive pants.
++ He's trying to find a real doctor to help the man.
+
+[MATCH]
+> Tap the pairs
+- Eu <> me
+- tenho <> have
+- não é médico <> is not a doctor
+- por favor <> please
+- Médico <> a doctor
+
