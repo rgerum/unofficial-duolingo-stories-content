@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Roupas para as minhas férias
+icon=eda1b8214a6937df66a552eb581f2353da4d0352
+set=2|4
+
+[HEADER]
+> Ropa   para mis       vacaciones
+~ roupas para as~minhas férias    
+
+[LINE]
+> Lucy está en una tienda.
+~ Lucy está em uma loja   
+
+[LINE]
+Speaker416: Hola, ¿necesita   ayuda?
+~           olá    precisa~de ajuda 
+
+[LINE]
+Speaker509: Sí,  necesito   ropa   para mis       vacaciones.
+~           sim  preciso~de roupas para as~minhas férias     
+
+[MULTIPLE_CHOICE]
+> A Lucy está comprando roupas para as férias.
++ Sim, isso mesmo.
+- Não, não é isso.
+
+[LINE]
+Speaker416: Está bien.
+~           está bem  
+
+[LINE]
+Speaker509: Necesito   un vestido.
+~           preciso~de um vestido 
+
+[LINE]
+> Lily busca un vestido verde.
+~ Lily pega  um vestido verde 
+
+[MULTIPLE_CHOICE]
+> A Lily foi buscar um…
+- …vestido vermelho.
+- …chapéu verde.
++ …vestido verde.
+
+[LINE]
+Speaker509: ¡No,  yo quiero un vestido rojo!    
+~            não  eu quero  um vestido vermelho 
+
+[LINE]
+> Lily busca un vestido rojo.    
+~ Lily pega  um vestido vermelho 
+
+[LINE]
+Speaker509: Y quiero una chaqueta.
+~           e quero  uma jaqueta  
+
+[ARRANGE]
+> Toque no que escutar
+> [(Lily) (busca) (una) (chaqueta) (roja).]    
+~   Lily   pega    uma   jaqueta    vermelha   
+
+[LINE]
+Speaker509: ¡No,  yo quiero una chaqueta marrón!
+~            não  eu quero  uma jaqueta  marrom 
+
+[LINE]
+Speaker416: Está bien…
+~           está bem  
+
+[LINE]
+Speaker509: Un vestido rojo,     una chaqueta marrón…
+~           um vestido vermelho  uma jaqueta  marrom 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker509: ¡[Y~un~sombrero]!
+~             e~um~chapéu    
+- Y un obrero
++ Y un sombrero
+- Y un bombero
+
+[LINE]
+> Lily busca un sombrero azul.
+~ Lily pega  um chapéu   azul 
+
+[LINE]
+Speaker509: ¡No,  yo quiero un sombrero gris! 
+~            não  eu quero  um chapéu   cinza 
+
+[LINE]
+> Lily busca un sombrero gris. 
+~ Lily pega  um chapéu   cinza 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "pronta".
+Speaker509: ¡(Gracias)!  ¡(Estoy) (+lista)  (para) mis       vacaciones!
+~             obrigada     estou    pronta   para  as~minhas férias     
+
+[LINE]
+Speaker416: Ahora yo necesito   vacaciones.
+~           agora eu preciso~de férias     
+
+[MULTIPLE_CHOICE]
+> Pobre Lily! Por que ela precisa de férias?
+- Ela comeu demais no almoço.
+- Ela quer comprar roupas novas para vestir.
++ Ela está cansada depois de ajudar a Lucy a encontrar roupas.
+
+[MATCH]
+> Toque nos pares
+- vacaciones <> férias
+- No <> não
+- Sí <> sim
+- necesita <> precisa de
+- mis <> as minhas
+
