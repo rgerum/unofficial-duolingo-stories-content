@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=The Dance Class
+icon=9a6beecaaea348fb3939a0bda8c064c9d9c79dc5
+set=4|4
+
+[HEADER]
+> Der Tanzkurs   
+~ the dance~class
+
+[LINE]
+> Eddy ist in Lisas  Kurs. 
+~ Eddy is  in Lisa's class 
+
+[LINE]
+Speaker125: Guten Abend   und willkommen!
+~           good  evening and welcome    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker125: Heute [tanzen~wir]!
+~           today  we~dance    
+- tanzt Bier
++ tanzen wir
+- tanzen vier
+
+[LINE]
+> Eddy geht schnell zur~Tür.    
+~ Eddy goes quickly to~the~door 
+
+[LINE]
+Speaker125: Moment!
+~           wait   
+
+[LINE]
+Speaker125: Geh~nicht~weg!
+~           don't~leave   
+
+[POINT_TO_PHRASE]
+> Choose the option that means the opposite of “difficult.”
+Speaker125: (Tanzen)  (ist) (nicht) (+einfach) ...
+~            dancing   is    not      easy        
+
+[LINE]
+Speaker125: … aber es macht~wirklich~Spaß!
+~             but  it is~really~fun       
+
+[LINE]
+Speaker414: OK, aber ich habe ein Problem.
+~           OK  but  I   have a   problem 
+
+[LINE]
+Speaker125: Hab~keine~Angst! Ich zeige       es dir!   
+~           don't~be~scared  I   (will)~show it to~you 
+
+[LINE]
+Speaker414: Aber ...
+~           but     
+
+[LINE]
+> Lisa tanzt. 
+~ Lisa dances 
+
+[ARRANGE]
+> Tap what you hear
+Speaker125: [(Und) (jetzt) (tanzt~du)  (mit)  (mir)!]
+~             and   now     you~dance   with   me    
+
+[LINE]
+Speaker414: Oh, Tanzen  macht~wirklich~Spaß!
+~           oh  dancing is~really~fun       
+
+[CONTINUATION]
+> What comes next?
+Speaker125: Super! Und hast~du     immer~noch [ein Problem]?
+~           great  and do~you~have still       a   problem  
+- Zahnschmerzen
+~ a~toothache  
++ ein Problem
+~ a   problem
+- keinen Hunger
+~ no     hunger
+
+[LINE]
+Speaker414: Ja. 
+~           yes 
+
+[LINE]
+Speaker125: Aber warum?
+~           but  why   
+
+[LINE]
+Speaker414: Ich muss         eigentlich zum~Englischkurs.
+~           I   have~to~(go) actually   to~English~class 
+
+[LINE]
+Speaker414: Aber ich mag  den Tanzkurs    lieber!
+~           but  I   like the dance~class better 
+
+[MULTIPLE_CHOICE]
+> What was Eddy's mistake?
++ He was supposed to go to an English class.
+- He forgot to wear his dancing shoes.
+- He used to date Lisa.
+
+[MATCH]
+> Tap the pairs
+- tanzen wir <> we dance
+- dir <> to you
+- Heute <> today
+- Tanzkurs <> dance class
+- OK <> OK
+
