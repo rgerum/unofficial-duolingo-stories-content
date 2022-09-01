@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=¡No es para niños!
+icon=92f8e9fbcb106a065c67e2efcbb467a67077da4b
+set=11|4
+
+[HEADER]
+> Ce~n'est~pas pour les~enfants !
+~ no~es        para (los)~niños  
+
+[LINE]
+> Zari est  avec Junior parce~qu'Eddy travaille.      
+~ Zari está con  Junior porque~Eddy   está~trabajando 
+
+[LINE]
+Speaker415: Zari ! On~peut jouer~à ton jeu~vidéo  ?
+~           Zari   podemos jugar   tu  videojuego  
+
+[LINE]
+Speaker418: Je~dois finir    de nettoyer la cuisine…
+~           debo    terminar de limpiar  la cocina  
+
+[LINE]
+Speaker418: … parce~que ton père  va   arriver dans quelques minutes.
+~             porque    tu  padre va~a llegar  en   unos     minutos 
+
+[MULTIPLE_CHOICE]
+> Junior quiere jugar videojuegos, pero Zari necesita limpiar la cocina.
+- No, no es así.
++ Sí, así es.
+
+[LINE]
+Speaker415: Hmm… Est-ce~que~je~peux jouer~à ton jeu~vidéo  ?!
+~           mmm  yo~puedo           jugar   tu  videojuego   
+
+[LINE]
+Speaker418: Désolée,   mon jeu~vidéo  n'est~pas pour les~enfants.
+~           lo~siento  mi  videojuego no~es     para (los)~niños 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker415: [(Mais) (je) (ne~suis~pas) (un) (enfant) ]!
+~             pero   yo   no~soy        un   niño      
+
+[LINE]
+Speaker418: D'accord…  Les adultes font~la~vaisselle.
+~           está~bien  los adultos lavan~los~platos  
+
+[MULTIPLE_CHOICE]
+> Zari dice que los adultos...
+- … juegan videojuegos.
+- … toman vino.
++ … lavan los platos.
+
+[LINE]
+Speaker415: Je sais faire~la~vaisselle !
+~           yo sé   lavar~los~platos    
+
+[LINE]
+> Junior commence à faire~la~vaisselle.
+~ Junior empieza  a lavar~los~platos   
+
+[LINE]
+Speaker415: Tu~vois ?
+~           ves      
+
+[LINE]
+Speaker418: Les adultes nettoient la table.
+~           los adultos limpian   la mesa  
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker415: Je~peux~nettoyerr la table ]!
+~           yo~puedo~limpiar  la mesa    
++ nettoyer la table
+~ limpiar  la mesa 
+- casser la table
+~ romper la mesa 
+- aller au~lit   
+~ ir    a~la~cama
+
+[LINE]
+> Junior nettoie la table.
+~ Junior limpia  la mesa  
+
+[LINE]
+Speaker418: Très bien ! Tu~es vraiment  un adulte.
+~           muy  bien   eres  realmente un adulto 
+
+[LINE]
+Speaker415: Et maintenant, on~peut jouer~à ton jeu~vidéo  ?!
+~           y  ahora       podemos jugar   tu  videojuego   
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker418: Ah, non, regarde ! [Il~est~neuf~heures].
+~           ah  no   mira       son~las~nueve       
+- Il est nerveux
++ Il est neuf heures
+- Et les valeurs
+
+[LINE]
+Speaker418: Il~faut aller au~lit    !
+~           hay~que ir    a~la~cama  
+
+[LINE]
+Speaker415: Mais je suis un adulte… et les adultes se~couchent très tard  !
+~           pero yo soy  un adulto  y  los adultos se~acuestan muy  tarde  
+
+[MULTIPLE_CHOICE]
+> Junior cree que ahora es un adulto, así que...
+- … necesita encontrar un trabajo.
++ … puede acostarse tarde.
+- … puede casarse con Zari.
+
+[MATCH]
+> Selecciona los pares
+- jeu vidéo <> videojuego
+- parce que <> porque
+- minutes <> minutos
+- n'est pas <> no es
+- table <> mesa
+
