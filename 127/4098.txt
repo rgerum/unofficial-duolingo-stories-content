@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=Um casaco novo
+icon=966f6e25540bc4ba5347e59005bcc1e2827fdd66
+set=1|3
+
+[HEADER]
+> Un abrigo nuevo
+~ um casaco novo 
+
+[LINE]
+> Vikram está en una tienda.
+~ Vikram está em uma loja   
+
+[LINE]
+> Una mujer  habla con él. 
+~ uma mulher fala  com ele 
+
+[LINE]
+Speaker338: ¡Buenos~días!
+~            bom~dia     
+
+[LINE]
+Speaker593: Buenos~días.
+~           bom~dia     
+
+[LINE]
+Speaker338: ¿Usted    trabaja  aquí?
+~            o~senhor trabalha aqui 
+
+[MULTIPLE_CHOICE]
+> A mulher pergunta se o Vikram trabalha na loja.
+- Não, não é isso.
++ Sim, isso mesmo.
+
+[LINE]
+Speaker593: Yo…
+~           eu 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "ajuda".
+Speaker338: ¡(Perfecto)! (Necesito)   (+ayuda).
+~             perfeito    preciso~de    ajuda  
+
+[LINE]
+Speaker593: Pero…
+~           mas  
+
+[LINE]
+Speaker338: Necesito   un abrigo nuevo.
+~           preciso~de um casaco novo  
+
+[LINE]
+Speaker338: ¿Le~gusta       el rojo?    
+~            o~senhor~gosta do vermelho 
+
+[MULTIPLE_CHOICE]
+> A mulher pergunta ao Vikram se…
+- …ele gosta da loja.
++ ...ele gosta do casaco vermelho.
+- ...ele quer um casaco novo.
+
+[LINE]
+Speaker593: Usted…    
+~           a~senhora 
+
+[LINE]
+Speaker338: ¿O  le~gusta       más  el marrón?
+~            ou o~senhor~gosta mais do marrom 
+
+[LINE]
+Speaker593: Mmm…
+~           hum 
+
+[LINE]
+Speaker593: El abrigo marrón es cómodo      y barato.
+~           o  casaco marrom é  confortável e barato 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker593: [(Pero) (el) (rojo)     (es) (muy~bonito).]  
+~             mas    o    vermelho   é    muito~bonito   
+
+[LINE]
+Speaker593: ¡Y es elegante!
+~            e é  elegante 
+
+[LINE]
+Speaker593: ¡Es perfecto para usted!    
+~            é  perfeito para a~senhora 
+
+[LINE]
+Speaker338: Está bien. ¡Quiero el abrigo rojo!    
+~           está bem    quero  o  casaco vermelho 
+
+[LINE]
+Speaker338: ¡Gracias!  ¡Usted    es muy   bueno en su  trabajo! 
+~            obrigada   o~senhor é  muito bom   no seu trabalho 
+
+[MULTIPLE_CHOICE]
+> A mulher acha que…
+- …o casaco vermelho é feio.
++ …o Vikram é bom no trabalho dele.
+- …o Vikram deveria conseguir um emprego novo.
+
+[LINE]
+Speaker338: ¿Y para pagar?
+~            e para pagar 
+
+[LINE]
+Speaker593: Yo no  sé. 
+~           eu não sei 
+
+[LINE]
+Speaker593: Yo no  trabajo  aquí.
+~           eu não trabalho aqui 
+
+[MULTIPLE_CHOICE]
+> O que aconteceu na história?
+- A mulher deu ao Vikram um emprego na loja.
+- A mulher ajudou o Vikram a comprar um chapéu novo.
++ A mulher achou, por engano, que o Vikram trabalhava na loja.
+
+[MATCH]
+> Toque nos pares
+- trabaja <> trabalha
+- con <> com
+- Buenos días <> bom dia
+- nuevo <> novo
+- para <> para
+
