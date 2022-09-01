@@ -1,0 +1,185 @@
+[DATA]
+fromLanguageName=O truque de mágica
+icon=d6181c60c7a77aaca9c6ac396dc139ac4aa848ad
+set=45|4
+
+[HEADER]
+> The Magic~Trick     
+~ o   truque~de~mágica
+
+[LINE]
+> Oscar is~reading a  book  at a   coffee~shop. Eddy runs~in.       
+~ Oscar está~lendo um livro em uma cafeteria    Eddy entra~correndo 
+
+[LINE]
+Speaker414: Oscar, I  need    to~show   you  my  new  magic~trick!     
+~           Oscar  eu preciso mostrar~a você meu novo truque~de~mágica 
+
+[LINE]
+Speaker592: Not~again…   You  know     I  hate  magic. 
+~           de~novo~não  você sabe~que eu odeio mágica 
+
+[LINE]
+Speaker414: Please?    I'm~trying        to~become a  magician.
+~           por~favor  eu~estou~tentando me~tornar um mágico   
+
+[MULTIPLE_CHOICE]
+> Eddy wants to~be a   person who…
+~ Eddy quer  ser   uma pessoa que 
+- …works    in a  bank. 
+~  trabalha em um banco 
++ …does magic~tricks.     
+~  faz  truques~de~mágica 
+- …makes music. 
+~  faz   música 
+
+[LINE]
+> Oscar takes a   card  from Eddy.
+~ Oscar pega  uma carta de   Eddy 
+
+[LINE]
+Speaker414: Now   put~it    back     in~the deck~of~cards.
+~           agora a~coloque de~volta no     baralho       
+
+[LINE]
+> Oscar puts   the card  back.    
+~ Oscar coloca a   carta de~volta 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker414: [Is~this~your~card]? 
+~            esta~é~a~sua~carta  
+- Was this your car
++ Is this your card
+- Is this a guard
+
+[LINE]
+> Eddy takes~a~card~out of~the deck.   
+~ Eddy tira~uma~carta   do     baralho 
+
+[LINE]
+Speaker592: Yes. But you  were~hiding       the card  in your pocket.
+~           sim  mas você estava~escondendo a   carta no seu  bolso  
+
+[LINE]
+Speaker414: Oh, um…  let~me   try    another trick. 
+~           ah  hum  deixe-me tentar outro   truque 
+
+[ARRANGE]
+> Toque no que escutar
+> [(He)  (pulls~a~coin~out) (of) (Oscar's~ear).]    
+~   ele   tira~uma~moeda     da   orelha~de~Oscar   
+
+[LINE]
+Speaker592: You  had   that coin  in~the sleeve of your shirt. 
+~           você tinha essa moeda na     manga  da sua  camisa 
+
+[LINE]
+Speaker414: Um…  yeah.
+~           hum  sim  
+
+[LINE]
+Speaker414: Wait,   let~me   show      you  one~more trick!  Give~me a   twenty~dollar~bill.   
+~           espere  deixe-me mostrar~a você mais~um  truque  me~dê   uma nota~de~vinte~dólares 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker592: If I  give  you  twenty dollars, [will~you~stop~doing~magic~tricks]?       
+~           se eu der~a você vinte  dólares   você~deixará~de~fazer~truques~de~mágica  
+- will he stop throwing magic bricks
+- can I start doing magic kicks
++ will you stop doing magic tricks
+
+[LINE]
+Speaker414: Yes.
+~           sim 
+
+[LINE]
+> Oscar gives Eddy a   twenty~dollar~bill.    Eddy burns~it.
+~ Oscar dá~a  Eddy uma nota~de~vinte~dólares  Eddy a~queima 
+
+[CONTINUATION]
+> What  comes next?  
+~ o~que vem   depois 
+Speaker592: Hey! That's    my   [twenty dollars]!
+~           ei   esses~são meus  vinte  dólares  
+- grandma's~cat
+~ gato~da~vovó 
++ twenty dollars
+~ vinte  dólares
+- coffee~cup    
+~ xícara~de~café
+
+[LINE]
+Speaker414: But now   look!
+~           mas agora olhe 
+
+[LINE]
+> Eddy takes~a~bill~out of Oscar's~mustache.
+~ Eddy tira~uma~nota    do bigode~de~Oscar  
+
+[LINE]
+Speaker414: Ta-da!  
+~           tcharam 
+
+[LINE]
+Speaker592: Wow! That's cool! 
+~           uau  isso~é legal 
+
+[MULTIPLE_CHOICE]
+> Nice!  Why     is~Oscar   excited?
+~ legal  por~que Oscar~está animado 
+- He  can~hide          money    in  his~ears.    
+~ ele consegue~esconder dinheiro nas orelhas~dele 
+- Eddy grew        a  mustache just~like his. 
+~ Eddy fez~crescer um bigode   igual~ao  dele 
++ Eddy did a  trick  that he  doesn't~understand.
+~ Eddy fez um truque que  ele não~entende        
+
+[LINE]
+Speaker592: Wait…   this is a   ten~dollar~bill.    
+~           espere  esta é  uma nota~de~dez~dólares 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker592: [(Where's) (my)   (twenty) (dollars), (Eddy)?]
+~             cadê      meus   vinte    dólares    Eddy   
+
+[LINE]
+Speaker414: OK,    wait   one minute!
+~           certo  espere um  minuto 
+
+[LINE]
+> Eddy burns  the ten~dollar~bill     and takes~another~bill~out of Oscar's~pocket.
+~ Eddy queima a   nota~de~dez~dólares e   tira~outra~nota        do bolso~de~Oscar 
+
+[LINE]
+Speaker414: Here it~is!
+~           aqui está  
+
+[LINE]
+Speaker592: Now   this is a   one~dollar~bill!  What  did~you~do with my   twenty dollars?!
+~           agora esta é  uma nota~de~um~dólar  o~que você~fez   com  meus vinte  dólares  
+
+[LINE]
+Speaker414: Sorry,    Oscar. A  magician never tells his~secrets.     
+~           desculpe  Oscar  um mágico   nunca conta os~segredos~dele 
+
+[MULTIPLE_CHOICE]
+> Yikes!   Why     is~Oscar   angry?    
+~ caramba  por~que Oscar~está com~raiva 
++ Eddy turned      his~twenty~dollar~bill       into one dollar.
+~ Eddy transformou a~nota~de~vinte~dólares~dele em   um  dólar  
+- Eddy found     all   the coins  he      was~keeping      in his~car.   
+~ Eddy encontrou todas as  moedas que~ele estava~guardando no carro~dele 
+- Eddy burned~off his~magic~mustache.  
+~ Eddy incinerou  o~bigode~mágico~dele 
+
+[MATCH]
+> Toque nos pares
+- twenty <> vinte
+- pulls a coin out <> tira uma moeda
+- cool <> legal
+- Is this your card <> esta é a sua carta
+- But <> mas
+
