@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=Onde estão as minhas chaves?
+icon=3f21c887f044dc2ac0d1f0d0ea74e1200b587ac2
+set=11|4
+
+[HEADER]
+> Where Are   My          Keys?  
+~ onde  estão (as)~minhas chaves 
+
+[LINE]
+> Lin is   with her~grandmother, Lucy.
+~ Lin está com  a~avó~dela       Lucy 
+
+[LINE]
+Speaker509: We  have  a   reservation at a  nice~restaurant   tonight!     
+~           nós temos uma reserva     em um restaurante~legal hoje~à~noite 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker509: But we  need       [to~leave~now]!
+~           mas nós precisamos  sair~agora    
+- to leave out
++ to leave now
+- to read now
+
+[LINE]
+Speaker508: OK!   
+~           certo 
+
+[LINE]
+Speaker508: Uh-oh… I  can't~find            the keys~to~my    car.  
+~           Uh-oh  eu não~consigo~encontrar as  chaves~do~meu carro 
+
+[LINE]
+Speaker509: You  always put    your~keys        in strange~places.   
+~           você sempre coloca (as)~suas~chaves em lugares~estranhos 
+
+[MULTIPLE_CHOICE]
+> O que provavelmente vai acontecer agora?
+- A Lucy vai embora sem a Lin.
++ A Lin vai procurar as chaves dela em lugares estranhos.
+- A Lin e a Lucy vão para o restaurante a cavalo.
+
+[LINE]
+Speaker509: Are~they   in~your~jacket?
+~           elas~estão na~sua~jaqueta 
+
+[LINE]
+> Lin looks in~her~jacket.  
+~ Lin olha  na~jaqueta~dela 
+
+[LINE]
+Speaker508: No,  they're~not    in~my    jacket. 
+~           não  elas~não~estão na~minha jaqueta 
+
+[LINE]
+Speaker509: Are~the~keys    under~the  bed? 
+~           as~chaves~estão embaixo~da cama 
+
+[LINE]
+Speaker508: No,  the keys   aren't    there!
+~           não  as  chaves não~estão lá    
+
+[ARRANGE]
+> Toque no que escutar
+Speaker509: [(Are~they)   (in~the) (shower)?]  
+~             elas~estão   no       chuveiro   
+
+[LINE]
+Speaker508: No,  that's too~strange.    
+~           não  isso~é estranho~demais 
+
+[LINE]
+Speaker508: I  don't~know where the keys   are.   Can~we~call        a  taxi?
+~           eu não~sei    onde  as  chaves estão  nós~podemos~chamar um táxi 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker509: No,  we're       late      now.   We  can't~go       to   [the restaurant]. 
+~           não  nós~estamos atrasadas agora  nós não~podemos~ir para  o   restaurante  
+- the beach
+~ a   praia
++ the restaurant 
+~ o   restaurante
+- the movie~theater
+~ o   cinema       
+
+[LINE]
+Speaker508: I'm~sorry.
+~           desculpa  
+
+[LINE]
+Speaker509: That's~OK.     I  can~cook       dinner.    
+~           está~tudo~bem  eu posso~cozinhar (o)~jantar 
+
+[LINE]
+> Lucy opens the refrigerator and looks inside.     
+~ Lucy abre  a   geladeira    e   olha  (lá)~dentro 
+
+[LINE]
+Speaker509: Oh! Here are   your~keys!       
+~           ah  aqui estão (as)~suas~chaves 
+
+[MULTIPLE_CHOICE]
+> Até que enfim! As chaves da Lin estavam…
++ …na geladeira.
+- …no carro dela.
+- …no sapato dela.
+
+[MATCH]
+> Toque nos pares
+- dinner <> jantar
+- we're <> nós estamos
+- looks <> olha
+- in my <> na minha
+- taxi <> táxi
+
