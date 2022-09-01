@@ -1,0 +1,157 @@
+[DATA]
+fromLanguageName=Qual é o seu nome?
+icon=689567546d7675ad256e56c304d89b12a7c38c8a
+set=14|4
+
+[HEADER]
+> What's Your~Name?   
+~ qual~é (o)~seu~nome 
+
+[LINE]
+> Lily and Zari are   at a   party.
+~ Lily e   Zari estão em uma festa 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker418: I'm      so  happy we're                here! [I~want~to~dance]!
+~           eu~estou tão feliz (porque)~nós~estamos aqui   eu~quero~dançar  
++ I want to dance
+- I want two days
+- I went to France
+
+[LINE]
+Speaker416: I  do~not~dance.
+~           eu não~danço    
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "fofo".
+Speaker418: (Ooh), who's  (that)?   (He's)  (+cute)!
+~            uh    quem~é  aquele    ele~é    fofo  
+
+[LINE]
+Speaker416: He's     in my    science~class.    This is his~party.     
+~           ele~está em minha aula~de~ciências  esta é  (a)~festa~dele 
+
+[LINE]
+Speaker418: What's his~name?     
+~           qual~é (o)~nome~dele 
+
+[LINE]
+Speaker416: John? Steve? I  don't~know.
+~           John  Steve  eu não~sei    
+
+[LINE]
+Speaker418: Hello! Can~we~talk~to    you? 
+~           olá    podemos~falar~com você 
+
+[LINE]
+Speaker416: Zari! What  are~you~doing?    
+~           Zari  o~que você~está~fazendo 
+
+[LINE]
+Speaker416: Now   he's~going~to~talk~to us.     
+~           agora ele~vai~falar~com     a~gente 
+
+[MULTIPLE_CHOICE]
+> Hmm… Parece que a Lily…
+- …vai reprovar na aula de ciências.
+- …é a melhor amiga do rapaz.
++ …não quer falar com o rapaz.
+
+[LINE]
+Speaker418: Great!
+~           ótimo 
+
+[LINE]
+Speaker416: No!  I  don't~remember his~name!      
+~           não  eu não~me~lembro  (do)~nome~dele 
+
+[LINE]
+Speaker418: Is~his~name…     Anthony?
+~           (o)~nome~dele~é  ~       
+
+[LINE]
+Speaker416: No|⁠— 
+~           não ~ 
+
+[LINE]
+Speaker418: Thomas?
+~           Thomas 
+
+[LINE]
+Speaker416: No|⁠— 
+~           não ~ 
+
+[LINE]
+Speaker418: Is~it|⁠—  
+~           (ele)~é ~ 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker416: Zari! I  don't~know his            [name]!
+~           Zari  eu não~sei    (qual~é~o)~seu  nome  
+- face 
+~ rosto
++ name
+~ nome
+- dog     
+~ cachorro
+
+[LINE]
+Speaker418: Look! He's~coming    here now!  
+~           olha  ele~está~vindo aqui agora 
+
+[LINE]
+Speaker416: Oh no… 
+~           ah não 
+
+[LINE]
+Speaker419: Hello, Lily!
+~           olá    Lily 
+
+[LINE]
+Speaker416: Hey…
+~           ei  
+
+[LINE]
+Speaker419: Are~you~excited   for  our       science~exam?     
+~           você~está~animada para (a)~nossa prova~de~ciências 
+
+[LINE]
+Speaker416: Yeah. I'm      so  excited.
+~           sim   eu~estou tão animada 
+
+[LINE]
+> He  looks~at  Zari. Zari looks~at  Lily. Lily doesn't~say anything.
+~ ele olha~para Zari  Zari olha~para Lily  Lily não~diz     nada     
+
+[LINE]
+Speaker418: Hi! I'm        Zari!
+~           oi  eu~sou~(a) Zari 
+
+[LINE]
+Speaker419: Nice~to~meet       you,  Zari.
+~           prazer~em~conhecer você  Zari 
+
+[LINE]
+Speaker418: What's your~name?    Lily doesn't~remember~it!
+~           qual~é (o)~seu~nome  Lily não~se~lembra~dele  
+
+[LINE]
+Speaker416: Zari?!
+~           Zari  
+
+[MULTIPLE_CHOICE]
+> Ah, não! Por que a Lily está chateada?
+- O rapaz chamou a Lily para dançar.
+- A Zari não conseguia lembrar o nome da Lily.
++ A Zari contou ao rapaz que a Lily não lembrava o nome dele.
+
+[MATCH]
+> Toque nos pares
+- and <> e
+- He's coming <> ele está vindo
+- looks at <> olha para
+- I want to dance <> eu quero dançar
+- your name <> seu nome
+
