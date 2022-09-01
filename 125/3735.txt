@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=I fiori di Oscar
+icon=3bc2c3a627aad5f5aef4f68ae652c16713f9048f
+set=10|2
+
+[HEADER]
+> Oscar's~Flowers 
+~ i~fiori~di~Oscar
+
+[LINE]
+> Oscar is in~his  garden.   He~sees    his    co-worker, Eddy.
+~ Oscar è  nel~suo giardino  (lui)~vede il~suo collega    Eddy 
+
+[LINE]
+Speaker592: Eddy! Why    are~you~wearing      a   nice  shirt   today? You never~wear      nice        shirts. 
+~           Eddy  perché (tu)~stai~indossando una bella camicia oggi   tu  non~indossi~mai delle~belle camicie 
+
+[LINE]
+Speaker414: I'm~meeting~my~date         now!   
+~           (io)~vado~a~un~appuntamento adesso 
+
+[LINE]
+Speaker592: Hmm. Do~you~have any~flowers for your   date?         Or chocolates?      
+~           uhm  (tu)~hai    dei~fiori   per il~tuo appuntamento  o  dei~cioccolatini 
+
+[LINE]
+Speaker414: I~can't~buy~her          anything now…    I'm~late!            
+~           (io)~non~posso~comprarle niente   adesso  (io)~sono~in~ritardo 
+
+[MULTIPLE_CHOICE]
+> Eddy ha comprato cioccolatini e fiori per il suo appuntamento.
++ No, è sbagliato.
+- Sì, è giusto.
+
+[LINE]
+Speaker592: You~can~give~her some   of~my    flowers.
+~           (tu)~puoi~darle  alcuni dei~miei fiori   
+
+[LINE]
+> Oscar gives Eddy flowers   from his garden.  
+~ Oscar dà~a  Eddy dei~fiori del  suo giardino 
+
+[MULTIPLE_CHOICE]
+> Perché Oscar ha dato i fiori a Eddy?
+- È innamorato della ragazza con cui Eddy uscirà.
++ Vuole che Eddy li dia alla ragazza dell'appuntamento.
+- Lui uscirà con Eddy.
+
+[LINE]
+Speaker414: I~can't~take            those flowers.
+~           (io)~non~posso~prendere quei  fiori   
+
+[LINE]
+Speaker592: Do~you~like this   person? 
+~           ti~piace    questa persona 
+
+[LINE]
+Speaker414: Yes! She's   really  funny.     
+~           sì   (lei)~è davvero divertente 
+
+[LINE]
+Speaker592: Then   give~her these  flowers.
+~           allora dalle    questi fiori   
+
+[CONTINUATION]
+> Come continua la frase?
+Speaker414: Oscar, I~don't~want    [the flowers]!
+~           Oscar  (io)~non~voglio  i   fiori    
++ the flowers
+~ i   fiori  
+- to~go  to work  
+~ andare al lavoro
+- a   nice  shirt  
+~ una bella camicia
+
+[LINE]
+Speaker592: Why?   
+~           perché 
+
+[LINE]
+> Eddy starts   sneezing.  
+~ Eddy inizia~a starnutire 
+
+[MULTIPLE_CHOICE]
+> Cosa sta facendo Eddy?
++ starnutendo
+- piangendo
+- gridando
+
+[LINE]
+Speaker592: Eddy? Are~you~OK?    
+~           Eddy  (tu)~stai~bene 
+
+[LINE]
+Speaker414: No! I'm~allergic        to flowers!
+~           no  (io)~sono~allergico ai fiori   
+
+[LINE]
+Speaker592: Oh no. Your   face   is very  red.  
+~           oh no  la~tua faccia è  molto rossa 
+
+[LINE]
+Speaker414: Ugh.  I~feel        terrible… 
+~           uffa  (io)~mi~sento malissimo 
+
+[LINE]
+Speaker592: Well, have~fun  on~your date!        
+~           beh   divertiti al~tuo  appuntamento 
+
+[MULTIPLE_CHOICE]
+> Povero Eddy! Perché si sente così male?
+- Non ha un regalo per Oscar.
++ È allergico ai fiori.
+- Si è reso conto che l'appuntamento è domani.
+
+[MATCH]
+> Tocca le coppie
+- never wear <> non indossi mai
+- You <> tu
+- date <> appuntamento
+- some <> alcuni
+- are you wearing <> stai indossando
+
