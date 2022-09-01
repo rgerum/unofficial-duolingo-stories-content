@@ -1,0 +1,141 @@
+[DATA]
+fromLanguageName=Balayı
+icon=7e5d271488d31d6f1d0c503512e642ca7effe84f
+set=2|2
+
+[HEADER]
+> Honeymoon
+~ Balayı   
+
+[LINE]
+> Beth is   in  a   taxi. 
+~ ~    -dir -de bir taksi 
+
+[LINE]
+Speaker113: Good~morning.
+~           günaydın     
+
+[LINE]
+Speaker439: Hello, I     need  to~go  to the airport,    please.
+~           Selam  benim lazım gitmem -a ~   havalimanı  Lütfen 
+
+[MULTIPLE_CHOICE]
+> Beth bir takside ve havaalanına gitmek istiyor.
++ Evet, doğru.
+- Hayır, yanlış.
+
+[LINE]
+Speaker113: OK.  
+~           peki 
+
+[LINE]
+Speaker113: Vacation? 
+~           tatile~mi 
+
+[MULTIPLE_CHOICE]
+> Şoförün bilmek istediği şey...
++  … Beth'in tatile çıkıp çıkmayacağı.
+- … Beth'in eve gidip gitmeyeceği.
+-  … Beth'in ne kadar para ödeyeceği.
+
+[LINE]
+Speaker439: No…   
+~           Hayır 
+
+[LINE]
+Speaker439: I     have a   ticket to California. 
+~           benim var  bir bilet  -a Kaliforniya 
+
+[LINE]
+Speaker439: Well… two~tickets.
+~           şey   iki~bilet   
+
+[LINE]
+Speaker113: California  is   very nice! 
+~           Kaliforniya -dir çok  Güzel 
+
+[LINE]
+Speaker439: It's my~honeymoon… 
+~           bu   benim~balayım 
+
+[MULTIPLE_CHOICE]
+> Beth neden Kaliforniya'ya gidiyor?
++ Onun balayı.
+- Orada evlenecek.
+- Bir cenazeye gidiyor.
+
+[LINE]
+Speaker113: Where  is your~husband? 
+~           Nerede ~  sizin~kocanız 
+
+[LINE]
+Speaker439: I     don't~have a   husband. I     have a   very difficult wife!        
+~           benim yok        bir kocam    benim var  bir çok  zor       eşim~(kadın) 
+
+[LINE]
+Speaker439: She does~not~want to~go  to California  with~me.
+~           O   istemiyor     gitmek -a Kaliforniya benimle 
+
+[MULTIPLE_CHOICE]
+> Beth'in eşi ...
+- … Zaten Kaliforniya'da.
++ … Onunla Kaliforniya'ya gitmek istemiyor.
+- … Onunla takside.
+
+[LINE]
+Speaker439: I|'  m~very~sad.
+~           ben çok~üzgünüm 
+
+[LINE]
+Speaker113: I'm~sorry.      
+~           kusura~bakmayın 
+
+[LINE]
+Speaker113: Ahem! OK…    we  are~at~the~airport.
+~           ~     tamam  Biz havaalanındayız    
+
+[POINT_TO_PHRASE]
+> "Koşar" anlamına gelen seçeneği seçin.
+> A   (woman) (+runs)  to (the) (taxi). 
+~ Bir  Kadın    koşar  -e  ~     taksi  
+
+[LINE]
+Speaker439: Amanda?
+
+[LINE]
+Speaker1186: Beth!
+
+[LINE]
+Speaker1186: I|'  m~very~sorry!   
+~            ben çok~özür~dilerim 
+
+[LINE]
+Speaker1186: I   love      you. 
+~            ben seviyorum seni 
+
+[LINE]
+Speaker439: I   love      you  too.
+~           ben seviyorum seni de  
+
+[LINE]
+Speaker1186: I   want      to~go  to California  with~you!
+~            ben istiyorum gitmek -a Kaliforniya seninle  
+
+[LINE]
+Speaker113: Have~a~nice~honeymoon! 
+~           iyi~bir~balayı~dilerim 
+
+[MULTIPLE_CHOICE]
+> Beth havaalanına geldiğinde ne oldu?
+- Eşi Amanda onu telefonla aradı.
++ Eşi Amanda özür diledi ve onu sevdiğini söyledi.
+- Taksi şoförü onunla gitmeyi kabul etti.
+
+[MATCH]
+> Çiftlere dokun
+- taxi <> taksi
+- you <> seni
+- She <> O
+- California <> Kaliforniya
+- No <> Hayır
+
