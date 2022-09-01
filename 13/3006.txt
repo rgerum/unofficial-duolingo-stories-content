@@ -1,0 +1,147 @@
+[DATA]
+fromLanguageName=Aunt Élisabeth
+icon=6b43af575436274a77c4a1096dde31088be555b2
+set=57|1
+
+[HEADER]
+> Tante Élisabeth
+~ aunt~ ~        
+
+[LINE]
+> Eddy frappe~à  la  porte~de~la~salle~de~bain.
+~ Eddy knocks~on the bathroom~door             
+
+[LINE]
+Speaker414: Junior, sors     maintenant. Nous allons    chez~tante~Élisabeth      ce~soir.
+~           Junior  come~out now         we   are~going to~aunt~Élisabeth's~house tonight 
+
+[LINE]
+Speaker415: Je~ne~peux~pas. Je suis malade.
+~           I~can't         I  am   sick   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: [Tu~n'es~pas~malade]. C'est juste que  tu  n'aimes~pas tante Élisabeth.
+~            you~are~not~sick     it's  just  that you don't~like  aunt  ~         
+- Tu n'aimes pas les bananes
+- Tu n'es pas en balade
++ Tu n'es pas malade
+
+[LINE]
+Speaker415: Tu  as~raison, je ne~l'aime~pas.  Elle est méchante et  elle n'a~jamais de~bonbons. 
+~           you are~right  I  don't~like~her  she  is  mean     and she  never~has  any~candies 
+
+[LINE]
+Speaker415: Mais je suis vraiment malade.
+~           but  I  am   really   sick   
+
+[LINE]
+Speaker414: Je ne~te~crois~pas.  
+~           I  don't~believe~you 
+
+[MULTIPLE_CHOICE]
+> Eddy pense  que... 
+~ Eddy thinks that   
+- ... Junior est vraiment très malade.
+~     Junior is  really   very sick   
+- ... Junior a~mangé des  vieux bonbons.
+~     Junior ate     some old   candy   
++ ... Junior ne~veut~pas  aller voir     sa  tante.
+~     Junior doesn't~want to~go (to)~see her aunt  
+
+[LINE]
+Speaker415: Mais si  ! J'ai~mal~au~ventre. J'ai~mal~au~visage. J'ai~mal partout    !
+~           but  yes   my~belly~hurts      my~face~hurts       it~hurts everywhere  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: Je pense que  [je~vais~mourir].  
+~           I  think that  I'm~going~to~die  
+- je veux mourir
++ je vais mourir
+- je vais dormir
+
+[LINE]
+Speaker414: Tante Élisabeth va~être        triste si tu  ne~viens~pas avec moi.
+~           aunt  ~         is~going~to~be sad    if you don't~come   with me  
+
+[LINE]
+Speaker415: Je sais, mais elle sera    encore~plus~triste si je meurs.
+~           I  know  but  she  will~be even~sadder        if I  die   
+
+[LINE]
+Speaker414: Junior…
+~           Junior 
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(Tu)  (peux) (partir)     (sans)    (moi).] 
+~             you   can    (to)~leave   without   me     
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker415: Je vais~rester      ici  et  regarder~la~télé jusqu'à~ce~que je [me~sente mieux]. 
+~           I  am~going~to~stay here and watch~TV         until          I   feel     better  
+- ne~sois plus~triste
+~ am~not  sad~anymore
++ me~sente mieux 
+~ feel     better
+- vois un fantôme
+~ see  a  ghost  
+
+[LINE]
+Speaker414: Si tu  veux, on ira~manger  de~la glace     après.
+~           if you want  we will~go~eat some  ice~cream after 
+
+[LINE]
+Speaker415: De~la~glace    ?
+~           some~ice~cream  
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Je) (t'achèterai)  (la~plus~grosse) (glace)     (possible) ]!
+~             I    will~buy~you   the~biggest      ice~cream   possible    
+
+[LINE]
+Speaker415: Bon,  d'accord.
+~           well  OK       
+
+[LINE]
+> Junior ouvre la  porte… et  il a~vraiment~l'air malade.
+~ Junior opens the door   and he really~looks     sick   
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker414: Waouh, Junior ! Tu~as~le~visage~tout~rouge ! Je vais~t'emmener       à  [l'hôpital…    tout~de~suite].
+~           wow    Junior   your~face~is~all~red         I  am~going~to~take~you to  the~hospital  right~away     
++ l'hôpital    tout~de~suite
+~ the~hospital right~away   
+- la  boutique~de~glaces
+~ the ice~cream~shop    
+- Parc~aux~Pirates
+~ Pirate~Land     
+
+[LINE]
+Speaker415: À  l'hôpital    ?! Mais tu  as~dit qu'on   allait~manger     une glace     !
+~           to the~hospital    but  you said   that~we were~going~to~eat an  ice~cream  
+
+[MULTIPLE_CHOICE]
+> Pourquoi Junior~a~décidé~d'aller voir     sa  tante ?
+~ why      did~Junior~decide~to~go (to)~see her aunt   
+- Il a~appris que  tante Elizabeth était à~l'hôpital.    
+~ he learned  that aunt  Elizabeth was   at~the~hospital 
++ Eddy a~dit qu'il~allait       lui~acheter une grosse glace.    
+~ Eddy said  that~she~was~going to~buy~him  a   big    ice~cream 
+- Il pense  que  tante Elizabeth est très gentille.
+~ he thinks that aunt  Elizabeth is  very nice     
+
+[MATCH]
+> Tap the pairs
+- mieux <> better
+- ce soir <> tonight
+- malade <> sick
+- est <> is
+- partout <> everywhere
+
