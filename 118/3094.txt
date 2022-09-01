@@ -1,0 +1,119 @@
+[DATA]
+fromLanguageName=The Model
+icon=1b17cc70a9048b61e244789fd087d20e3654c162
+set=7|1
+
+[HEADER]
+> O   modelo
+~ the model 
+
+[LINE]
+> Eddy chega   na aula~de~arte~de~Óscar.
+~ Eddy arrives at Óscar's~art~class     
+
+[LINE]
+Speaker414: Oi, eu~posso entrar?      
+~           hi  can~I    (to)~come~in 
+
+[LINE]
+Speaker592: Minha aula~de~arte começa em cinco minutos.
+~           my    art~class    starts in five  minutes 
+
+[LINE]
+Speaker414: Eu estou entediado.
+~           I  am    bored     
+
+[MULTIPLE_CHOICE]
+> Why did Eddy enter Óscar's classroom?
++ He's bored.
+- He's teaching Óscar's class today.
+- He has a secret to tell Óscar.
+
+[LINE]
+Speaker592: Você~não~tem   uma aula  agora?
+~           don't~you~have a   class now   
+
+[LINE]
+Speaker414: Não. Eu~posso ajudar    você?
+~           no   can~I    (to)~help you  
+
+[CONTINUATION]
+> What comes next?
+Speaker592: Você~quer   [me~ajudar]? 
+~           do~you~want  to~help~me  
+- arte
+~ art 
++ me~ajudar 
+~ to~help~me
+- dois copos
+~ two  cups 
+
+[LINE]
+Speaker592: Já~sei!
+~           I~know 
+
+[LINE]
+Speaker592: Senta na     cadeira e   coloca o~seu chapéu!
+~           sit   on~the chair   and put~on your  hat    
+
+[MULTIPLE_CHOICE]
+> What did Óscar ask Eddy to put on?
++ a hat
+- a T-shirt
+- a wig
+
+[LINE]
+Speaker414: Está~bem. 
+~           all~right 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+> Eddy senta na     cadeira e   coloca  [o~chapéu~dele].
+~ Eddy sits  on~the chair   and puts~on  his~hat        
+- o chá nele
+- o céu dele
++ o chapéu dele
+
+[LINE]
+Speaker592: Agora, silêncio!
+~           now    silence  
+
+[LINE]
+Speaker414: Por~quê?
+~           why     
+
+[POINT_TO_PHRASE]
+> Choose the option that means "starts."
+Speaker592: (Minha) aula~de~arte (+começa) (em) um  (minuto).
+~            my     art~class      starts   in  one  minute  
+
+[LINE]
+Speaker592: Eu preciso~de um modelo...
+~           I  need       a  model    
+
+[LINE]
+Speaker592: …e   os~modelos   não~falam.  
+~            and (the)~models don't~speak 
+
+[LINE]
+Speaker414: Agora eu estou entediado.
+~           now   I  am    bored     
+
+[LINE]
+Speaker592: Silêncio!
+~           silence  
+
+[MULTIPLE_CHOICE]
+> Poor Eddy! Why is he still bored?
+- Óscar won't stop talking about work.
++ Óscar wants him to sit in a chair and be quiet.
+- He doesn't like to read about art.
+
+[MATCH]
+> Tap the pairs
+- você <> you
+- entediado <> bored
+- em <> in
+- agora <> now
+- e <> and
+
