@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=The Promotion
+icon=86aeb2f8135a55e49ebe8c6da5e13efdcde38d01
+set=18|3
+
+[HEADER]
+> La~promotion 
+~ the~promotion
+
+[LINE]
+> Le~chef~de~Béa vient la~voir    à  son~bureau.
+~ Béa's~boss     comes to~see~her at her~desk   
+
+[LINE]
+Speaker2144: Bonjour, Béa. Pouvons-nous~parler de    Charles ?
+~            hello    Béa  can~we~talk         about Charles  
+
+[LINE]
+Speaker507: OK...
+~           OK   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker2144: [Vous~aimez~travailler] avec lui ?
+~             do~you~like~working    with him  
+- Vous aimez le ciné
++ Vous aimez travailler
+- Vous aimez le collier
+
+[LINE]
+Speaker507: Avec Charles ?
+~           with Charles  
+
+[LINE]
+Speaker507: Il est gentil...
+~           he is  nice     
+
+[LINE]
+Speaker507: Mais, euh...
+~           but   uh    
+
+[CONTINUATION]
+> What comes next?
+Speaker507: Il est toujours en~retard, et  je dois~faire tout [son~travail].
+~           he is  always   late       and I  have~to~do all   his~work     
++ son~travail
+~ his~work   
+- mon~journal
+~ my~diary   
+- son~bureau
+~ her~desk  
+
+[LINE]
+Speaker507: Et  il me~dit   comment faire mon~travail.
+~           and he tells~me how     to~do my~job      
+
+[LINE]
+Speaker507: Et  la~semaine~dernière, il a~mangé mon~déjeuner.
+~           and last~week            he ate     my~lunch     
+
+[LINE]
+Speaker507: Charles est horrible.
+~           Charles is  horrible 
+
+[LINE]
+Speaker2144: Ah oui ? Je suis désolé~d'entendre ça.   Je pensais~lui~donner            une~promotion.
+~            ah yes   I  am   sorry~to~hear     that  I  was~thinking~about~giving~him a~promotion   
+
+[MULTIPLE_CHOICE]
+> Béa's boss was thinking about giving Charles a promotion.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker2144: C'est pour travailler dans un nouveau bureau.
+~            it's  to   (to)~work  in   a  new     office 
+
+[LINE]
+Speaker2144: Nous devons  trouver   la  bonne personne.
+~            we   have~to (to)~find the right person   
+
+[LINE]
+Speaker507: Attendez, il va~travailler    dans un~autre bureau ?
+~           wait      he is~going~to~work in   another  office  
+
+[LINE]
+Speaker507: Charles est votre~homme !
+~           Charles is  your~man     
+
+[MULTIPLE_CHOICE]
+> Béa first said that Charles is horrible, but now...
++ …she says that he's the right person for the job.
+- …she thinks he should do her work.
+- …she realized he didn't eat her lunch.
+
+[LINE]
+Speaker2144: Mais, vous venez~de~dire qu'il   est horrible !
+~            but   you  just~said     that~he is  horrible  
+
+[LINE]
+Speaker507: Quoi ?! Non, il est génial !
+~           what    no   he is  great   
+
+[LINE]
+Speaker2144: Et  il est toujours en~retard.
+~            and he is  always   late      
+
+[POINT_TO_PHRASE]
+> Choose the option that means "joke."
+Speaker507: (Euh), (non), (c'était) une (+blague) !
+~            uh     no     it~was   a     joke     
+
+[LINE]
+Speaker507: C'est l'homme~parfait pour cette~promotion. Et  pour travailler dans un~autre bureau !
+~           he~is the~perfect~man for  this~promotion   and to   (to)~work  in   another  office  
+
+[MULTIPLE_CHOICE]
+> Why does Béa want Charles to get a promotion?
+- She thought her boss was talking about someone else.
+- She thinks he's an excellent employee.
++ She wants him to move to a different office.
+
+[MATCH]
+> Tap the pairs
+- Le chef de Béa <> Béa's boss
+- travailler <> work
+- suis <> am
+- faire <> to do
+- va travailler <> is going to work
+
