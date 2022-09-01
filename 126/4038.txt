@@ -1,0 +1,160 @@
+[DATA]
+fromLanguageName=O acidente
+icon=c6d90731fde97538d6f34f72c53719c8043ae7f5
+set=58|3
+
+[HEADER]
+> The Accident
+~ o   acidente
+
+[LINE]
+> Junior sees Lucy in~their~neighborhood.
+~ Junior vê   Lucy no~bairro~deles       
+
+[LINE]
+Speaker415: Hi Lucy!
+~           oi Lucy 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+> Lucy waves~at   Junior. She has a  [bandage~on~her~foot].
+~ Lucy acena~para Junior  ela tem um  curativo~no~pé~dela  
+- band that's on her foot
++ bandage on her foot
+- bandage and the fit
+
+[LINE]
+Speaker415: Why     do~you~have a  bandage  on~your~foot?
+~           por~que você~tem    um curativo no~seu~pé    
+
+[ARRANGE]
+> Toque no que escutar
+Speaker509: [(I)  (had)  (an) (accident) (yesterday).]
+~             eu   tive   um   acidente   ontem       
+
+[LINE]
+Speaker415: An accident? What  happened? 
+~           um acidente  o~que aconteceu 
+
+[LINE]
+Speaker509: Well, I  woke~up in~the~morning and made tea.
+~           bem   eu acordei de~manhã       e   fiz  chá 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker509: And I  dropped  [the~pot~of~hot~water].   
+~           e   eu derrubei  a~panela~de~água~quente  
+- the not hot water
++ the pot of hot water
+- then got hot water
+
+[LINE]
+Speaker415: Did~you~burn your~foot? 
+~           você~queimou (o)~seu~pé 
+
+[LINE]
+Speaker509: No,  but the water spilled  on~the floor and the pot    broke.  
+~           não  mas a   água  derramou no     chão  e   a   panela quebrou 
+
+[MULTIPLE_CHOICE]
+> Lucy…
+~ Lucy 
++ …broke   a   pot    of hot~water.  
+~  quebrou uma panela de água~quente 
+- …made     Junior a   pot    of tea.
+~  fez~para Junior uma panela de chá 
+- …woke~up late~at~night. 
+~  acordou tarde~da~noite 
+
+[LINE]
+Speaker415: Oh.
+~           ah 
+
+[LINE]
+Speaker509: After~that,   I  had        to~buy  a   new~pot,     so    I  got~on my         motorcycle.  While    I  was~riding,       a   cow  walked~into~the road!   
+~           depois~disso  eu tive~(que) comprar uma panela~nova  então eu subi   (na)~minha motocicleta  enquanto eu estava~pilotando  uma vaca entrou~na       estrada 
+
+[CONTINUATION]
+> What  comes next?  
+~ o~que vem   depois 
+Speaker415: Oh no!  Did~you~hit the  cow?  Is~that~how you  [hurt     your~foot]? 
+~           ah não  você~bateu  (n)a vaca  é~assim~que você  machucou (o)~seu~pé  
+- made your~tea   
+~ fez  (o)~seu~chá
++ hurt     your~foot 
+~ machucou (o)~seu~pé
+- got       a  job    
+~ conseguiu um emprego
+
+[LINE]
+Speaker509: No,  but I  had        to~stop very  quickly.     I  fell~off my    motorcycle! 
+~           não  mas eu tive~(que) parar   muito rapidamente  eu caí~(da) minha motocicleta 
+
+[LINE]
+Speaker415: Oh, so    that's~how  you  hurt     your~foot! 
+~           ah  então é~assim~que você machucou (o)~seu~pé 
+
+[LINE]
+Speaker509: No.  After        I  fell, my        motorcycle  wasn't~working,         so    I  walked to~find          help. 
+~           não  depois~(que) eu caí   (a)~minha motocicleta não~estava~funcionando  então eu andei  (para)~encontrar ajuda 
+
+[LINE]
+Speaker509: And then  a  huge~dog        started~running  towards~me.      
+~           e   então um cachorro~enorme começou~a~correr na~minha~direção 
+
+[LINE]
+Speaker415: Did~the~dog~bite  you? 
+~           o~cachorro~mordeu você 
+
+[MULTIPLE_CHOICE]
+> Wait…   why~did~Junior~ask~that~question?
+~ espera  por~que~Junior~perguntou~isso    
+- Lucy has teeth  and hair   like    a  dog.     
+~ Lucy tem dentes e   cabelo como~de um cachorro 
++ He  wants to~know if that's~how  Lucy hurt     her~foot. 
+~ ele quer  saber   se é~assim~que Lucy machucou o~pé~dela 
+- He  is~afraid~of     Lucy's~huge~dog.        
+~ ele está~com~medo~do enorme~cachorro~da~Lucy 
+
+[LINE]
+Speaker509: No,  he  was very  friendly!
+~           não  ele era muito amigável 
+
+[LINE]
+Speaker415: OK…   
+~           certo 
+
+[LINE]
+Speaker509: Then  a  nice~man     saw~me on~the road    and stopped to~help~me.      
+~           então um homem~gentil me~viu na     estrada e   parou   (para)~me~ajudar 
+
+[LINE]
+Speaker509: He~was~very~handsome, so    I  asked~him~to~go~out  with~me.
+~           ele~era~muito~bonito  então eu chamei~ele~para~sair comigo  
+
+[LINE]
+Speaker415: But how  did~you~hurt  your~foot?! 
+~           mas como você~machucou (o)~seu~pé  
+
+[LINE]
+Speaker509: He  stepped on~it!        I'll~never~go~dancing       with him again.  
+~           ele pisou   em~cima~dele  eu~nunca~sairei~para~dançar com  ele de~novo 
+
+[MULTIPLE_CHOICE]
+> How  did~Lucy~hurt her~foot? 
+~ como Lucy~machucou o~pé~dela 
+- A  cow  stepped on~it.       
+~ um vaca pisou   em~cima~dele 
++ A  man   stepped on~it        while    she danced  with him.
+~ um homem pisou   em~cima~dele enquanto ela dançava com  ele 
+- She fell~off of~her~motorcycle.  
+~ ela caiu     da~motocicleta~dela 
+
+[MATCH]
+> Toque nos pares
+- stopped <> parou
+- Hi <> oi
+- stepped <> pisou
+- you <> você
+- to buy <> comprar
+
