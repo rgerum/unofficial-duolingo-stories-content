@@ -1,0 +1,92 @@
+[DATA]
+fromLanguageName=Os macacos
+icon=c29e4533eca0186f83adafac9383fef2ed3aee56
+set=8|4
+
+[HEADER]
+> Los monos  
+~ os  macacos
+
+[LINE]
+> Eddy y Junior están en~el zoológico.
+~ Eddy e Junior estão no    zoológico 
+
+[LINE]
+> Ellos están cerca de~los elefantes.
+~ eles  estão perto dos    elefantes 
+
+[LINE]
+Speaker415: Papá,  ¿podemos ir~a ver~a los monos   ahora?
+~           papai   podemos ir   ver   os  macacos agora 
+
+[MULTIPLE_CHOICE]
+> O Junior quer ver os macacos.
+- Não, não é isso.
++ Sim, isso mesmo.
+
+[LINE]
+Speaker414: ¿Por qué? Tú nunca quieres ver~a los monos.  
+~            por quê  tu nunca queres  ver   os  macacos 
+
+[LINE]
+Speaker415: Sí,  pero ahora me~gustan.      ¿Podemos ir?
+~           sim  mas  agora eu~gosto~deles   podemos ir 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker414: Junior, [los~monos~están]  lejos de~aquí.
+~           Junior   os~macacos~estão  longe daqui   
+- lo menos está
+- los mocos estarán
++ los monos están
+
+[LINE]
+Speaker415: ¡Podemos correr! ¡A~ti~te~encanta correr!
+~            podemos correr   tu~adoras       correr 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker414: Mmm… está bien. Sí,  [me~encanta correr].
+~           hum  está bem   sim   eu~adoro   correr  
+- quiero un mono  
+~ quero  um macaco
++ me~encanta correr
+~ eu~adoro   correr
+- me~gustan   los~elefantes
+~ eu~gosto~de elefantes    
+
+[LINE]
+> Junior y Eddy corren.
+~ Junior e Eddy correm 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "mais".
+Speaker415: ¿(Puedes) (correr) (+más)  rápido, (papá)? 
+~             podes    correr    mais  rápido   papai  
+
+[LINE]
+Speaker414: Junior, tú odias  correr.
+~           Junior  tu odeias correr 
+
+[LINE]
+Speaker415: Sí,  yo odio  correr, ¡pero me~encanta el~helado!
+~           sim  eu odeio correr   mas  eu~adoro   sorvete   
+
+[LINE]
+Speaker415: Y hay una tienda de helados  al lado de~los monos.  
+~           e tem uma loja   de sorvetes ao lado dos    macacos 
+
+[MULTIPLE_CHOICE]
+> Por que o Junior quer ir ver os macacos?
+- Macacos são os animais favoritos dele.
+- Ele quer correr com os macacos.
++ Ele quer comprar sorvete.
+
+[MATCH]
+> Toque nos pares
+- rápido <> rápido
+- Papá <> papai
+- Eddy <> Eddy
+- Sí <> sim
+- está <> está
+
