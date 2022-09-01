@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Doutor Eddy
+icon=29c5abbf74b46e43a4de510ac83e302c0722a100
+set=2|4
+
+[HEADER]
+> Doctor Eddy
+~ doutor Eddy
+
+[LINE]
+> Eddy is   at~the supermarket. 
+~ Eddy está no     supermercado 
+
+[LINE]
+> An  elegant~woman   starts   talking~to Eddy.
+~ uma mulher~elegante começa~a falar~com  Eddy 
+
+[MULTIPLE_CHOICE]
+> Uma mulher começou a falar com Eddy no supermercado.
++ Sim, isso mesmo.
+- Não, não é isso.
+
+[LINE]
+Speaker724: Hello!
+~           olá   
+
+[LINE]
+Speaker414: Oh, hello!
+~           ah  olá   
+
+[LINE]
+Speaker724: Are~you a~doctor?
+~           você~é  médico   
+
+[LINE]
+Speaker414: What?  Me? Uh…
+~           o~quê  eu  hã 
+
+[LINE]
+Speaker414: Yes. I…  am  a~doctor.
+~           sim  eu  sou médico   
+
+[LINE]
+Speaker724: Good!
+~           bom  
+
+[ARRANGE]
+> Toque no que escutar
+> [(Eddy) (is~not) (a~doctor).]
+~   Eddy   não~é    médico     
+
+[LINE]
+Speaker414: I  have  a~lot~of money.   
+~           eu tenho muito    dinheiro 
+
+[LINE]
+Speaker414: I  live in a   big~house.  
+~           eu vivo em uma casa~grande 
+
+[LINE]
+Speaker414: I  have  expensive…| uh... pants. 
+~           eu tenho caras       ah    calças 
+
+[LINE]
+Speaker724: OK,    but…
+~           certo  mas 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "agora".
+Speaker724: (A)  (man)   (needs)      a  doctor (+now)!  
+~            um   homem   precisa~de  um médico   agora  
+
+[LINE]
+Speaker414: What?!  Where is   the man?  
+~           o~quê   onde  está o   homem 
+
+[LINE]
+Speaker724: He  is   near~the milk! 
+~           ele está perto~do leite 
+
+[MULTIPLE_CHOICE]
+> O homem está…
++ …perto da seção do leite no supermercado.
+- …no hospital.
+- …no carrinho de compras de Eddy.
+
+[LINE]
+Speaker724: Please    help  the man!   He  is   very  sick!  
+~           por~favor ajude o   homem  ele está muito doente 
+
+[MULTIPLE_CHOICE]
+> A mulher quer que Eddy…
++ …ajude um homem que está doente.
+- …vá a um consultório médico.
+- …compre um pouco de leite.
+
+[LINE]
+Speaker414: Uh-oh!  
+~           ah,~não 
+
+[LINE]
+> Eddy sees a   woman.  He  runs  and talks~to her.
+~ Eddy vê   uma mulher  ele corre e   fala~com ela 
+
+[LINE]
+Speaker414: Hello, are~you a~doctor? I  need       help! 
+~           olá    você~é  médica    eu preciso~de ajuda 
+
+[MULTIPLE_CHOICE]
+> O que Eddy está fazendo?
+- Chorando porque derramou leite.
++ Tentando achar um médico de verdade para ajudar o homem.
+- Levando um homem doente até o hospital.
+
+[MATCH]
+> Toque nos pares
+- Good <> bom
+- man <> homem
+- a lot of <> muito
+- starts <> começa a
+- in <> em
+
