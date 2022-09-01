@@ -1,0 +1,140 @@
+[DATA]
+fromLanguageName=Novo hobby
+icon=62007089a594753623424845fe8d5efd80654385
+set=35|1
+
+[HEADER]
+> New  Hobby
+~ novo ~    
+
+[LINE]
+> Lily's~mother   enters     Lily's~bedroom.
+~ (a)~mãe~de~Lily entra~(no) quarto~de~Lily 
+
+[LINE]
+Speaker559: Lily? You  should~get~up.      
+~           Lily  você deveria~se~levantar 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker416: [(You)  (should~leave)      (my)  (room).]  
+~             você   deveria~sair~(do)   meu   quarto   
+
+[LINE]
+Speaker559: You've~been in bed  all~day.    It's summer!
+~           você~esteve na cama o~dia~todo  é    verão  
+
+[LINE]
+Speaker416: I  want  to~stay~in~bed~and~think about darkness.      The world is terrible.
+~           eu quero ficar~na~cama~e~pensar   sobre (a)~escuridão  o   mundo é  terrível 
+
+[MULTIPLE_CHOICE]
+> Por que a Lily não quer sair da cama?
++ Ela quer pensar sobre coisas tristes e terríveis.
+- Ela está com muita febre.
+- Ela não conseguiu dormir na noite anterior.
+
+[LINE]
+Speaker559: Teenagers         are so  dramatic!  
+~           (os)~adolescentes são tão dramáticos 
+
+[LINE]
+Speaker559: When   I  was your~age,       I  went~out with my        friends, swam   every day, and learned  new   languages!
+~           quando eu era (da)~sua~idade  eu saía     com  (os)~meus amigos   nadava todo  dia  e   aprendia novos idiomas   
+
+[LINE]
+Speaker416: Learning~new   languages? That sounds very  boring.    
+~           aprender~novos idiomas    isso soa    muito entediante 
+
+[LINE]
+Speaker559: You  should~get       a  hobby. Hobbies are fun!       
+~           você deveria~arranjar um ~      ~       são divertidos 
+
+[LINE]
+Speaker416: Lying~in~bed          is my      hobby.
+~           ficar~deitada~na~cama é  (o)~meu ~     
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker559: You  could~join            a  [book~club].       
+~           você poderia~se~juntar~(a) um  clube~de~leitura  
+- book bag
++ book club
+- big club
+
+[LINE]
+Speaker416: I  read alone.   Like a   normal~person.
+~           eu leio sozinha  como uma pessoa~normal 
+
+[LINE]
+Speaker559: Photography?
+~           fotografia  
+
+[LINE]
+Speaker416: Ugh. No  thanks.  
+~           ~    não obrigada 
+
+[LINE]
+Speaker559: Oh! You  like       music,  don't~you?
+~           ah  você gosta~(de) música  né?       
+
+[LINE]
+Speaker416: Yeah…
+~           sim  
+
+[LINE]
+Speaker559: You  could~play    an instrument. 
+~           você poderia~tocar um instrumento 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker559:  [(Your) (dad) (has) (some~old~drums).]   
+~              seu    pai   tem   uma~bateria~velha   
+
+[LINE]
+Speaker416: Hmm. Drums~are cool… 
+~           hmm  bateria~é legal 
+
+[MULTIPLE_CHOICE]
+> A Lily está pensando em tocar bateria como hobby.
+- Não, não é isso.
++ Sim, isso mesmo.
+
+[LINE]
+> Four   hours later,  Lily is~playing   the drums.   It's loud.
+~ quatro horas depois  Lily está~tocando a   bateria  está alto 
+
+[LINE]
+> Very  loud.
+~ muito alto 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker559: Lily, can~you~stop~playing     [the~drums~now]?  
+~           Lily  você~pode~parar~de~tocar  a~bateria~agora  
+- the drums out
+- the rooms now
++ the drums now
+
+[LINE]
+Speaker416: But it's my      new  hobby. And I  need    to~practice at~least   three hours a~day.  
+~           mas é    (o)~meu novo ~      e   eu preciso praticar    pelo~menos três  horas por~dia 
+
+[LINE]
+Speaker559: Your~new~hobby     is~giving~me  a   headache.      Now   I  need    to~lie~down.
+~           (o)~seu~novo~hobby está~me~dando uma dor~de~cabeça  agora eu preciso (me)~deitar 
+
+[MULTIPLE_CHOICE]
+> A Lily encontrou um hobby novo e…
+- …entrou para um clube de leitura.
++ …deu uma terrível dor de cabeça à mãe dela.
+- …a mãe dela está muito feliz com isso.
+
+[MATCH]
+> Toque nos pares
+- Yeah <> sim
+- music <> música
+- your age <> sua idade
+- bed <> cama
+- Lily's bedroom <> quarto de Lily
+
