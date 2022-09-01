@@ -1,0 +1,159 @@
+[DATA]
+fromLanguageName=Chute d'ascenseur
+icon=f5dc8cdee1c001f2b1b6c4c56613c01a458a17c3
+set=22|1
+
+[HEADER]
+> Falling~Elevator 
+~ chute~d'ascenseur
+
+[LINE]
+> Lin and Bea are  in   an elevator. 
+~ Lin et  Bea sont dans un ascenseur 
+
+[LINE]
+> Suddenly,    the~elevator makes a  strange~sound.
+~ tout~à~coup  l'ascenseur  fait  un bruit~étrange 
+
+[LINE]
+Speaker507: Did~you~hear  that?
+~           tu~as~entendu ça   
+
+[LINE]
+Speaker508: That~didn't~sound~good.        
+~           ce~bruit~n'était~pas~rassurant 
+
+[MULTIPLE_CHOICE]
+> Que veut dire Lin ?
+- Elle n'aime pas la voix de Bea.
++ Le bruit de l'ascenseur n'est pas bon signe.
+- Elle aime la musique d'ascenseur.
+
+[LINE]
+Speaker507: That didn't~feel~good!    
+~           ça   n'était~pas~agréable 
+
+[LINE]
+Speaker508: Oh no!  The~elevator is~falling!
+~           oh non  l'ascenseur  tombe      
+
+[LINE]
+Speaker507: Oh, good.      It stopped!     
+~           oh  c'est~bon  il s'est~arrêté 
+
+[LINE]
+Speaker508: I  don't~want  to~die…
+~           je ne~veux~pas mourir 
+
+[LINE]
+Speaker507: Ahh! The~elevator is~falling again!    
+~           ahh  l'ascenseur  tombe      à~nouveau 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker508: [(I'm)     (too)  (young) (to~die)!]     
+~             je~suis   trop   jeune   pour~mourir   
+
+[LINE]
+> The~elevator stops    again.    
+~ l'ascenseur  s'arrête à~nouveau 
+
+[LINE]
+Speaker507: There~are still  so~many      things I      want to~do in   my life!
+~           il~y~a    encore tellement~de choses que~je veux faire dans ma vie  
+
+[MULTIPLE_CHOICE]
+> Bea est paniquée parce qu'elle...
+- … va être en retard au travail.
++ … veut faire encore plein de choses dans sa vie.
+- ... a très mal aux dents.
+
+[LINE]
+Speaker508: I  want to~climb Mount   Everest!
+~           je veux gravir   le~mont Everest 
+
+[LINE]
+Speaker507: I  want to~win the New~York~Marathon!   
+~           je veux gagner le  marathon~de~New-York 
+
+[LINE]
+Speaker508: I  want to~learn  how     to~fly  a  plane!
+~           je veux apprendre comment piloter un avion 
+
+[LINE]
+Speaker507: I  want to~teach~my~cat~to~drive!       
+~           je veux apprendre~à~conduire~à~mon~chat 
+
+[LINE]
+Speaker508: Wait,    what          did~you~just~say?
+~           attends  qu'est-ce~que tu~viens~de~dire 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker507: Oh no!  We're~falling [again]!    
+~           oh non  on~tombe       à~nouveau  
++ again    
+~ à~nouveau
+- first  
+~ d'abord
+- next   
+~ ensuite
+
+[LINE]
+> There's a  very loud~sound.  The~elevator stops.   
+~ il~y~a  un très grand~bruit  l'ascenseur  s'arrête 
+
+[LINE]
+Speaker508: Wait!   
+~           attends 
+
+[LINE]
+Speaker507: The doors  are~opening!
+~           les portes s'ouvrent   
+
+[LINE]
+Speaker507: We're~OK!  
+~           on~va~bien 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker508: [That~was~exciting].
+~            c'était~palpitant  
++ That was exciting
+- That was expensive
+- That ex again
+
+[LINE]
+> Lin and Bea leave    the~elevator. Everyone      is  safe.       
+~ Lin et  Bea quittent l'ascenseur   tout~le~monde est en~sécurité 
+
+[LINE]
+Speaker507: So    what          are~you~going~to~do today?      
+~           alors qu'est-ce~que tu~vas~faire        aujourd'hui 
+
+[LINE]
+Speaker508: Nothing. I'll~probably~watch           TV.      What~about~you?
+~           rien     je~vais~probablement~regarder la~télé  et~toi         
+
+[LINE]
+Speaker507: Me  too.   Bye.  
+~           moi aussi  salut 
+
+[LINE]
+Speaker508: See~you~later.
+~           à~plus~tard   
+
+[MULTIPLE_CHOICE]
+> Après avoir survécu à la chute d'ascenseur, Lin et Bea...
++ … ont décidé de rentrer et de ne rien faire de spécial.
+- … ont été reconduites chez elles par le chat de Bea.
+- … ont décidé de faire plein de choses palpitantes.
+
+[MATCH]
+> Choisis les paires
+- to die <> mourir
+- are <> sont
+- Bye <> salut
+- doors <> portes
+- is falling <> tombe
+
