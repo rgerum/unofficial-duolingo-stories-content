@@ -1,0 +1,105 @@
+[DATA]
+fromLanguageName=O apartamento sujo
+icon=0e6ab8c3a4e3224cb700e8daeac0038f7f0e929e
+set=12|1
+
+[HEADER]
+> Dirty~Apartment     
+~ (o)~apartamento~sujo
+
+[LINE]
+> Bea goes to   her~friend~Sarah's~apartment.      
+~ Bea vai  para o~apartamento~da~amiga~dela,~Sarah 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker507: Hi, Sarah, [how~are~you]?   
+~           oi  Sarah   como~você~está  
++ how are you
+- how were two
+- now are you
+
+[LINE]
+Speaker175: I'm      terrible!
+~           eu~estou terrível 
+
+[LINE]
+Speaker507: Oh, no.  Why?    
+~           ah  não  por~quê 
+
+[LINE]
+Speaker175: My        new  roommate         and I  always argue      a~lot.
+~           (a)~minha nova colega~de~quarto e   eu sempre discutimos muito 
+
+[MULTIPLE_CHOICE]
+> A Sarah está se sentindo péssima porque…
+- …ela é alérgica ao gato da colega de quarto dela.
++ …ela discute muito com a colega de quarto dela.
+- …ela chegou tarde demais ontem à noite.
+
+[LINE]
+Speaker507: I'm~not      surprised! This kitchen is   very  dirty.
+~           eu~não~estou surpresa   esta cozinha está muito suja  
+
+[LINE]
+Speaker175: Ugh, I  know.
+~           ~    eu sei  
+
+[CONTINUATION]
+> O que vem depois?
+Speaker507: And there's old~cheese   [on~that table].
+~           e   há      queijo~velho  naquela mesa   
+- on~your~head 
+~ na~sua~cabeça
++ on~that table
+~ naquela mesa 
+- at~the supermarket 
+~ no     supermercado
+
+[LINE]
+Speaker175: Yes. Yuck!
+~           sim  eca  
+
+[LINE]
+Speaker507: And there~are dirty~clothes on~this chair!  
+~           e   há        roupas~sujas  nesta   cadeira 
+
+[LINE]
+Speaker507: Wait…   this is your~shirt.    
+~           espera  esta é  (a)~sua~camisa 
+
+[LINE]
+Speaker175: Yes.
+~           sim 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker507: [(These) (are) (all)   (your~clothes)!]
+~             estas   são   todas   roupas~suas    
+
+[LINE]
+Speaker507: Is~that  your~old~cheese,      too?!   
+~           aquele~é (o)~seu~queijo~velho  também  
+
+[LINE]
+Speaker175: Yes! I  never clean, and my        roommate         always complains!
+~           sim  eu nunca limpo  e   (a)~minha colega~de~quarto sempre reclama   
+
+[LINE]
+Speaker175: She's terrible!
+~           ela~é terrível 
+
+[MULTIPLE_CHOICE]
+> Ahá! A Sarah e a colega de quarto dela discutem sobre o quê?
+- A Sarah usa todas as roupas da colega de quarto.
+- A Bea gosta de comer queijo velho.
++ A Sarah faz bagunça, mas nunca limpa.
+
+[MATCH]
+> Toque nos pares
+- Wait <> espera
+- how are you <> como você está
+- on that <> naquela
+- there's <> há
+- your old cheese <> seu queijo velho
+
