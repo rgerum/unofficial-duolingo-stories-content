@@ -1,0 +1,140 @@
+[DATA]
+fromLanguageName=Nouveau passe-temps
+icon=62007089a594753623424845fe8d5efd80654385
+set=31|3
+
+[HEADER]
+> New     Hobby      
+~ nouveau passe-temps
+
+[LINE]
+> Lily's~mother   enters     Lily's~bedroom.    
+~ la~mère~de~Lily entre~dans la~chambre~de~Lily 
+
+[LINE]
+Speaker559: Lily? You should~get~up.   
+~           Lily  tu  devrais~te~lever 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker416: [(You) (should~leave)      (my) (room).]   
+~             tu    devrais~sortir~de   ma   chambre   
+
+[LINE]
+Speaker559: You've~been  in~bed all~day.          It's  summer!
+~           tu~es~restée au~lit toute~la~journée  c'est l'été  
+
+[LINE]
+Speaker416: I  want to~stay in~bed and think  about darkness. The world is  terrible.
+~           je veux rester  au~lit et  penser aux   ténèbres  le  monde est horrible 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Lily ne veut-elle pas sortir de son lit ?
+- Elle n'a pas réussi à dormir hier soir.
++ Elle veut penser à des choses sombres et terribles.
+- Elle s'est réveillée avec une forte fièvre.
+
+[LINE]
+Speaker559: Teenagers       are  so        dramatic!   
+~           les~adolescents sont tellement dramatiques 
+
+[LINE]
+Speaker559: When  I~was~your~age,  I  went~out with my  friends, swam    every~day,      and learned   new          languages!
+~           quand j'avais~ton~âge  je sortais  avec mes copains  nageais tous~les~jours  et  apprenais de~nouvelles langues   
+
+[LINE]
+Speaker416: Learning  new          languages? That sounds very boring.  
+~           apprendre de~nouvelles langues    ça   semble très ennuyeux 
+
+[LINE]
+Speaker559: You should~get    a  hobby.       Hobbies         are  fun!     
+~           tu  devrais~avoir un passe-temps  les~passe-temps sont amusants 
+
+[LINE]
+Speaker416: Lying         in~bed is    my  hobby.      
+~           être~allongée au~lit c'est mon passe-temps 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker559: You could~join            a  [book~club].      
+~           tu  pourrais~t'inscrire~à un  club~de~lecture  
++ book club
+- big club
+- book bag
+
+[LINE]
+Speaker416: I  read alone. Like  a   normal~person.   
+~           je lis  seule  comme une personne~normale 
+
+[LINE]
+Speaker559: Photography?    
+~           la~photographie 
+
+[LINE]
+Speaker416: Ugh.   No  thanks.
+~           beurk  non merci  
+
+[LINE]
+Speaker559: Oh! You like  music,      don't~you?   
+~           oh  tu  aimes la~musique  n'est-ce~pas 
+
+[LINE]
+Speaker416: Yeah… 
+~           ouais 
+
+[LINE]
+Speaker559: You could~play~an       instrument. 
+~           tu  pourrais~jouer~d'un instrument  
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker559: [(Your~dad) (has) (some) (old)     (drums).]   
+~             ton~papa   a     une    vieille   batterie   
+
+[LINE]
+Speaker416: Hmm. Drums~are         cool…
+~           hmm  la~batterie~c'est cool 
+
+[MULTIPLE_CHOICE]
+> Lily songe à jouer de la batterie.
++ Oui, c'est vrai.
+- Non, c'est faux.
+
+[LINE]
+> Four   hours  later,     Lily is~playing the drums.    It's  loud.   
+~ quatre heures plus~tard  Lily joue~de    la  batterie  c'est bruyant 
+
+[LINE]
+> Very loud.   
+~ très bruyant 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker559: Lily, can~you~stop~playing        [the~drums~now]?         
+~           Lily  peux-tu~arrêter~de~jouer~de  la~batterie~maintenant  
++ the drums now
+- the rooms now
+- the drums out
+
+[LINE]
+Speaker416: But  it's  my  new     hobby.       And I  need to~practice at~least three hours  a~day.   
+~           mais c'est mon nouveau passe-temps  et  je dois répéter     au~moins trois heures par~jour 
+
+[LINE]
+Speaker559: Your new     hobby       is~giving~me a~headache.    Now        I  need to~lie~down.
+~           ton  nouveau passe-temps me~donne     mal~à~la~tête  maintenant je dois m'allonger  
+
+[MULTIPLE_CHOICE]
+> Lily a trouvé un nouveau passe-temps et...
+- … s'est inscrite à un club de lecture.
+- ... sa mère en est très satisfaite.
++ … maintenant sa mère a mal à la tête.
+
+[MATCH]
+> Choisis les paires
+- went out <> sortais
+- I was your age <> j'avais ton âge
+- thanks <> merci
+- so <> tellement
+- alone <> seule
+
