@@ -1,0 +1,118 @@
+[DATA]
+fromLanguageName=Tu peux parler ?
+icon=a13fae69b40921c2d4f62a0295a19ff0c25d26eb
+set=18|4
+
+[HEADER]
+> You Can~Talk?   
+~ tu  peux~parler 
+
+[LINE]
+> Lily just~got~home    from her job     at~the clothing~store.      
+~ Lily vient~de~rentrer de   son travail au     magasin~de~vêtements 
+
+[LINE]
+Speaker416: I'm     so tired    of  customers complaining      all~day.         
+~           je~suis si fatiguée des clients   qui~se~plaignent toute~la~journée 
+
+[MULTIPLE_CHOICE]
+> Lily pense que son travail est parfait.
+- Oui, c'est vrai.
++ Non, c'est faux.
+
+[LINE]
+> She  sits~down. Her dog   jumps~up on  the sofa.  
+~ elle s'assied   son chien saute    sur le  canapé 
+
+[LINE]
+Speaker58: Lily, we   need   to~talk.
+~          Lily  nous devons parler  
+
+[LINE]
+Speaker416: What?!
+~           quoi  
+
+[LINE]
+Speaker58: It's~time~for~some~changes.          
+~          il~est~temps~que~les~choses~changent 
+
+[MULTIPLE_CHOICE]
+> Hmm… Qu'est-ce que le chien veut dire ?
+- Il a besoin de faire une promenade.
++ Il veut que les choses changent.
+- Il a acheté une nouvelle montre de luxe.
+
+[LINE]
+Speaker416: You can~talk?!   
+~           tu  peux~parler  
+
+[LINE]
+Speaker58: I  don't~want~dog~food~anymore.           
+~          je ne~veux~plus~de~nourriture~pour~chiens 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker58: [(I)  (want) (to~eat) (steak)    (every~day).]     
+~            je   veux   manger   du~steak   tous~les~jours   
+
+[LINE]
+Speaker416: What~is~happening?       
+~           qu'est-ce~qu'il~se~passe 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker58: And I  want to~sleep [in   your bed].
+~          et  je veux dormir    dans ton  lit  
+- on  the moon
+~ sur la  lune
++ in   your bed
+~ dans ton  lit
+- at work   
+~ au travail
+
+[LINE]
+Speaker58: You can~sleep   on  my  pillow. 
+~          tu  peux~dormir sur mon coussin 
+
+[LINE]
+Speaker416: What? No! 
+~           quoi  non 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker58: Do~you~want [to~sleep~outside] instead?
+~          tu~veux      dormir~dehors     plutôt  
++ to sleep outside
+- to keep outside
+- two sleep inside
+
+[LINE]
+Speaker416: You don't~even~sleep outside!
+~           tu  ne~dors~même~pas dehors  
+
+[LINE]
+> Suddenly,    Lily wakes~up.   
+~ tout~à~coup  Lily se~réveille 
+
+[LINE]
+> She  looks~at her dog   sleeping           on~the~floor and laughs.
+~ elle regarde  son chien en~train~de~dormir par~terre    et  rit    
+
+[LINE]
+Speaker416: I  think     my  job     is~giving~me bad        dreams!
+~           je pense~que mon travail me~donne     de~mauvais rêves  
+
+[MULTIPLE_CHOICE]
+> Lily a cru que son chien pouvait parler mais en fait...
+- … il était en train de l'embrasser.
+- … il voulait que ça reste un secret.
++ … ce n'était qu'un rêve.
+
+[MATCH]
+> Choisis les paires
+- No <> non
+- dreams <> rêves
+- Lily <> Lily
+- on <> sur
+- sleeping <> en train de dormir
+
