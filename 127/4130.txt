@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=Estou doente
+icon=68ffeb0d8b8a73e7de5cd3b964b34d0e08761977
+set=9|3
+
+[HEADER]
+> Estoy enfermo
+~ estou doente 
+
+[LINE]
+Speaker415: ¡Papá,  estoy enfermo!
+~            papai  estou doente  
+
+[LINE]
+Speaker414: ¡Ay,~no! 
+~            ah,~não 
+
+[LINE]
+> Eddy toca la cabeza de Junior.
+~ Eddy toca a  cabeça de Junior 
+
+[LINE]
+Speaker414: No  tienes fiebre.
+~           não tens   febre  
+
+[MULTIPLE_CHOICE]
+> O Júnior está com febre.
+- Sim, isso mesmo.
++ Não, não é isso.
+
+[LINE]
+Speaker415: ¡Pero me~duele~el~ojo!      ¡Quiero ir a    la~oficina    de~la doctora!
+~            mas  meu~olho~está~doendo   quero  ir para o~consultório da    médica  
+
+[LINE]
+Speaker414: Está bien.
+~           está bem  
+
+[LINE]
+> Ellos van a    la~oficina    de~la doctora.
+~ eles  vão para o~consultório da    médica  
+
+[MULTIPLE_CHOICE]
+> Espera… Por que o Junior e o Eddy vão à médica?
+- O Eddy caiu da escada.
+- O Junior comeu sorvete demais.
++ O Junior disse que o olho dele está doendo.
+
+[LINE]
+Speaker341: Hola, Junior. ¿Cómo~estás?
+~           olá   Junior   como~vai   
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker415: ¡[Estoy~enfermo]! ¡Me~duele~el~ojo!     
+~             estou~doente     meu~olho~está~doendo 
+- Este invierno
+- Esto es infierno
++ Estoy enfermo
+
+[LINE]
+Speaker341: ¡Ay,~no!  Yo te~puedo~ayudar.
+~            ah,~não  eu posso~te~ajudar 
+
+[LINE]
+> La doctora mira el ojo  de Junior.
+~ a  médica  olha o  olho de Junior 
+
+[LINE]
+Speaker341: Mmm… tu  ojo  está bien.
+~           hum  teu olho está bem  
+
+[LINE]
+Speaker415: ¿Ah, sí?  Eh… ¡me~duele~la~mano!     
+~            ah  sim  eh   minha~mão~está~doendo 
+
+[LINE]
+> La doctora mira la mano de Junior.
+~ a  médica  olha a  mão  de Junior 
+
+[LINE]
+Speaker341: Tu  mano también está bien.
+~           tua mão  também  está bem  
+
+[MULTIPLE_CHOICE]
+> O que a médica acha que o Junior tem?
++ Não tem nada de errado.
+- O olho dele está doendo.
+- A mão dele está doendo.
+
+[LINE]
+Speaker414: Doctora, ¿mi    hijo  está bien?
+~           doutora   o~meu filho está bem  
+
+[LINE]
+Speaker341: Sí. 
+~           sim 
+
+[LINE]
+Speaker341: Tú no  estás enfermo, Junior.
+~           tu não estás doente   Junior 
+
+[LINE]
+Speaker415: ¡Sí,  estoy muy   enfermo!
+~            sim  estou muito doente  
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "dou".
+Speaker341: Junior… ¿(estás) (aquí) porque siempre (te) (+doy) chocolate?
+~           Junior    estás   aqui  porque sempre   te    dou  chocolate 
+
+[LINE]
+Speaker415: Mmm… sí. 
+~           hum  sim 
+
+[LINE]
+Speaker414: ¡Junior!
+~            Junior 
+
+[LINE]
+Speaker415: Eh… ¿puedo~tener mi  chocolate ahora?
+~           eh   posso~pegar meu chocolate agora 
+
+[MULTIPLE_CHOICE]
+> Ah, Junior! Por que ele queria visitar a médica?
++ Ela sempre dá chocolate a ele.
+- Ele estava muito doente.
+- Ele tinha um presente para ela.
+
+[MATCH]
+> Toque nos pares
+- mano <> mão
+- el <> o
+- Estoy enfermo <> estou doente
+- Mmm <> hum
+- bien <> bem
+
