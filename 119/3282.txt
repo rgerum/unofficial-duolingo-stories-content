@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=Who's Coming to Dinner?
+icon=dc357430b977e970c350bd02c026ab07731f28f3
+set=29|1
+
+[HEADER]
+> Wer kommt     zum~Abendessen?
+~ who is~coming to~dinner      
+
+[LINE]
+> Lucy kocht      Suppe. Lin kommt in   die Küche.  
+~ Lucy is~cooking soup   Lin comes into the kitchen 
+
+[LINE]
+Speaker509: Du  errätst~nie,      wer heute zum~Abendessen kommt!    
+~           you will~never~guess  who today to~eat         is~coming 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker508: Du  kochst      [deine~berühmte~Fischsuppe]. Also ist es wahrscheinlich jemand  Wichtiges.
+~           you are~cooking  your~famous~fish~soup       so   is  it probably       someone important 
+- deinem berühmten Fisch Suppe
+- deine rührende Tischsuppe
++ deine berühmte Fischsuppe
+
+[LINE]
+Speaker509: Oh ja,  jemand  sehr Wichtiges sogar!
+~           oh yes  someone very important even  
+
+[LINE]
+Speaker508: Kommt~deine~Freundin,  die berühmte Schauspielerin, zum~Essen?
+~           is~your~friend~coming  the famous   actress         to~dinner 
+
+[LINE]
+Speaker509: Nein, sie arbeitet   gerade    an~ihrem~neuen~Film.
+~           no    she is~working right~now on~her~new~movie    
+
+[MULTIPLE_CHOICE]
+> The famous actress is coming to dinner.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker509: Es ist jemand  Wichtigeres.    Du  solltest vielleicht keinen~Schlafanzug~tragen!
+~           it is  someone more~important  you should   maybe      not~wear~pajamas          
+
+[LINE]
+Speaker508: Klar, ich ziehe    etwas     anderes an.
+~           sure  I   will~put something else    on 
+
+[MULTIPLE_CHOICE]
+> Hmm… it sounds like Lin is currently wearing…
+- …a swimsuit.
+- …a beautiful dress.
++ …pajamas.
+
+[LINE]
+> Lin geht in   ihr Zimmer und zieht ein T-Shirt und Jeans an.
+~ Lin goes into her room   and puts  a   T-shirt and jeans on 
+
+[LINE]
+Speaker508: Ist es dein Freund Victor, der in Südafrika    Löwen~fotografiert?
+~           is  it your friend Victor  who in South~Africa photographs~lions  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: Nein, er fotografiert          gerade        [Elefanten~in~Indien].
+~           no    he is~taking~photos~(of) at~the~moment  elephants~in~India   
+- meine Tanten aus Indien
+- Elefanten in den Ferien
++ Elefanten in Indien
+
+[LINE]
+Speaker508: Ist es der Astronaut, mit  dem  du  gearbeitet~hast?
+~           is  it the astronaut  with whom you worked          
+
+[LINE]
+Speaker509: Nein, er bereitet     sich    gerade        auf seine Reise   zum~Mars vor.
+~           no    he is~preparing himself at~the~moment for his   journey to~Mars  ~   
+
+[LINE]
+Speaker508: Moment … aber es ist kein Date für mich, oder? 
+~           wait     but  it is  no   date for me    is~it 
+
+[ARRANGE]
+> Tap what you hear
+Speaker508: [(Ich) (brauche) (keine) (Hilfe) (beim~Verlieben).] 
+~             I     need      no      help    falling~in~love   
+
+[LINE]
+Speaker509: Natürlich ist~es kein Date!
+~           of~course it~is  no   date 
+
+[LINE]
+> Es~klingelt~an~der~Tür. Es ist Lucys  Freund Frank.
+~ the~doorbell~rings      it is  Lucy's friend Frank 
+
+[LINE]
+Speaker509: Lin, das  ist Frank. Er hilft Leuten mit  ihren Bewerbungen. 
+~           Lin  this is  Frank  he helps people with their applications 
+
+[LINE]
+Speaker113: Hallo, Lin! Deine Großmutter  wollte~unbedingt, dass~wir~uns treffen.
+~           hello  Lin  your  grandmother really~wanted     us~to        meet    
+
+[CONTINUATION]
+> What comes next?
+Speaker113: Sie hat~gesagt, dass du  [einen~Job~finden~solltest].
+~           she said        that you  should~find~a~job          
+- ein Date auf dem Mars hast
+~ a   date on  the Mars have
+- eine berühmte Schauspielerin bist~
+~ a    famous   actress        are  
++ einen Job finden solltest
+~ a     job find   should  
+
+[LINE]
+Speaker508: Nein danke,     ich ziehe    wieder~meinen~Schlafanzug an.
+~           no   thank~you  I   will~put my~pajamas~back           on 
+
+[MULTIPLE_CHOICE]
+> Why is Lin putting her pajamas back on?
++ The dinner guest is just someone to help her find a job.
+- Her pajamas make her look like an astronaut.
+- She wants to look nice for her date.
+
+[MATCH]
+> Tap the pairs
+- zieht <> puts
+- vielleicht <> maybe
+- Klar <> sure
+- Wichtigeres <> more important
+- ein <> a
+
