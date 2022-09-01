@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=Family Dinner
+icon=8a8875810a4da32fd00d493513efd3adcb2a7c2a
+set=5|2
+
+[HEADER]
+> Jantar~de~família
+~ family~dinner    
+
+[LINE]
+> Lin entra~na cozinha~de~Bia.
+~ Lin gets~in  Bia's~kitchen  
+
+[LINE]
+> Ela vê   comida e   garrafas de vinho na     mesa. 
+~ she sees food   and bottles  of wine  on~the table 
+
+[MULTIPLE_CHOICE]
+> Bia has bottles of milk on her kitchen table.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker508: Nossa! Você tem  muita    comida.
+~           wow    you  have a~lot~of food   
+
+[POINT_TO_PHRASE]
+> Choose the option that means "dinner."
+Speaker507: Sim, (minha) (família) vem       (para) (+o~jantar)…    
+~           yes   my      family   is~coming  for     (the)~dinner  
+
+[LINE]
+Speaker508: Ah! Posso~comer um pedaço de bolo?
+~           oh  can~I~eat   a  piece  of cake 
+
+[LINE]
+Speaker507: Não.
+~           no  
+
+[ARRANGE]
+> Tap what you hear
+Speaker508: [(Mas) (você) (tem)  (três)  (bolos).]
+~             but   you    have   three   cakes   
+
+[LINE]
+Speaker507: Eu preciso~dos três. 
+~           I  need~the    three 
+
+[LINE]
+Speaker508: Posso~beber um pouco de vinho?
+~           can~I~drink a  bit   of wine  
+
+[LINE]
+Speaker507: Não.
+~           no  
+
+[CONTINUATION]
+> What's next?
+Speaker508: Mas você tem  quatro [garrafas]!
+~           but you  have four    bottles   
++ garrafas
+~ bottles 
+- bolos
+~ cakes
+- mesa 
+~ table
+
+[LINE]
+Speaker507: Eu preciso~das quatro.
+~           I  need~the    four   
+
+[LINE]
+Speaker508: Posso~comer um pedaço de pizza?
+~           can~I~eat   a  slice  of pizza 
+
+[LINE]
+Speaker507: Não, Lin!
+~           no   Lin 
+
+[LINE]
+Speaker508: Tudo~bem.  Que~horas~eles~chegam    para o~jantar     hoje? 
+~           all~right  what~time~do~they~arrive for  (the)~dinner today 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: Minha família chega~na [próxima~semana].
+~           my    family  arrives   next~week       
++ próxima semana
+- por uma semana
+- aproxima a mana
+
+[LINE]
+Speaker507: O   vinho e   a   comida são para mim.
+~           the wine  and the food   are for  me  
+
+[LINE]
+Speaker508: O~quê?!
+~           what   
+
+[LINE]
+Speaker507: Eu tenho uma família~muito~difícil. Estou nervosa.
+~           I  have  a   very~difficult~family  I~am  nervous 
+
+[LINE]
+Speaker507: Preciso comer  e   beber    muito hoje! 
+~           I~need  to~eat and to~drink a~lot today 
+
+[MULTIPLE_CHOICE]
+> Why does Bia need so much food and wine?
+- She's going to give it all to Lin.
++ Her family makes her stressed.
+- Her mother is really hungry.
+
+[MATCH]
+> Tap the pairs
+- bolos <> cakes
+- Mas <> but
+- na <> on the
+- bolo <> cake
+- e <> and
+
