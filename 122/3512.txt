@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=Der Horrorfilm
+icon=1038afc2cf4744d25820807d461131e153f7ddcf
+set=19|3
+
+[HEADER]
+> The~Horror~Movie
+~ der~Horrorfilm  
+
+[LINE]
+> Lily and Zari arrive~at~the~movie~theater.
+~ Lily und Zari kommen~im~Kino~an           
+
+[LINE]
+> A~boy     from their~school is~working there.
+~ ein~Junge aus  ihrer~Schule arbeitet   dort  
+
+[LINE]
+Speaker418: Hi, Billy! Two  tickets         for "Blood~Lake", please!
+~           hi  Billy  zwei Eintrittskarten für  Blutsee      bitte  
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker1649: No,   [you're~too~young] to see~that~movie.      
+~            nein   ihr~seid~zu~jung  um diesen~Film~zu~sehen 
++ you're too young
+- you aren't young
+- you're too fun
+
+[LINE]
+Speaker416: But  you always~sell~us      tickets         for horror~movies!
+~           aber du  verkaufst~uns~immer Eintrittskarten für Horrorfilme   
+
+[LINE]
+Speaker1649: You also~have     coffees from the~cafe across~the~street.           
+~            ihr habt~außerdem Kaffees aus  dem~Café auf~der~anderen~Straßenseite 
+
+[ARRANGE]
+> Was hörst du?
+Speaker1649: [(You) (can't)       (bring~those)   (into~the) (theater).]
+~              ihr   könnt~nicht   diese~bringen   ins        Kino      
+
+[LINE]
+> Lily takes both  coffees and throws them in the~trash.
+~ Lily nimmt beide Kaffees und wirft  sie  in den~Müll  
+
+[LINE]
+Speaker418: Aw, my~coffee!   With extra chocolate  and cream!
+~           oh  mein~Kaffee  mit  extra Schokolade und Sahne 
+
+[LINE]
+Speaker416: Sorry.          
+~           es~tut~mir~leid 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker1649: Well, you still      can't~have~a~ticket             t].
+~            nun   ihr immer~noch könnt~keine~Eintrittskarte~haben   
++ a~ticket           
+~ eine~Eintrittskarte
+- more chocolate 
+~ mehr Schokolade
+- this~trash 
+~ diesen~Müll
+
+[LINE]
+Speaker416: Why?  
+~           warum 
+
+[ARRANGE]
+> Was hörst du?
+Speaker1649: [(You) (always~talk) (during)  (movies).]   
+~              ihr   redet~immer   während   der~Filme   
+
+[LINE]
+Speaker418: Why   are~you~doing this, Billy? We're    friends!
+~           warum machst~du     das   Billy  wir~sind Freunde 
+
+[LINE]
+Speaker1649: If   we're~friends,    then~why~can't~I          be~in~your~band?      
+~            wenn wir~Freunde~sind  warum~darf~ich~dann~nicht in~eurer~Band~spielen 
+
+[MULTIPLE_CHOICE]
+> Aha! Billy will ihnen keine Eintrittskarten verkaufen, weil …
+- … sie seinen Kaffee in den Müll geschüttet haben.
+- … das Kino bereits ausverkauft ist.
++ … er in ihrer Band spielen will.
+
+[LINE]
+Speaker418: Uh… what   band?
+~           äh  welche Band 
+
+[LINE]
+Speaker1649: I   heard       you       talking~about~starting~a~band             in class.     
+~            ich habe~gehört (wie)~ihr über~die~Gründung~einer~Band~geredet~habt im Unterricht 
+
+[LINE]
+Speaker416: OK, fine. We  need     a~guitar~player.      
+~           OK  gut   wir brauchen einen~Gitarrenspieler 
+
+[LINE]
+Speaker1649: Great! When is  the next    band~practice?
+~            toll   wann ist die nächste Bandprobe     
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker416: Tomorrow, [after~school].   
+~           morgen     nach~der~Schule  
++ after school
+- at this cool
+- have to scroll
+
+[LINE]
+Speaker418: Now~can~we       please have~two~tickets              to see~"Blood~Lake"?
+~           können~wir~jetzt bitte  zwei~Eintrittskarten~bekommen um Blutsee~zu~sehen 
+
+[LINE]
+Speaker1649: Sure, but  not   until tomorrow|—after our     first  band~practice.
+~            klar  aber nicht bis   morgen    nach  unserer ersten Bandprobe     
+
+[MULTIPLE_CHOICE]
+> Wann können sich Zari und Lily „Blutsee“ ansehen?
+- nachdem sie sich mehr Kaffee gekauft haben
++ nach der Bandprobe mit Billy
+- wann immer sie möchten
+
+[MATCH]
+> Wähle die Paare
+- But <> aber
+- Blood Lake <> Blutsee
+- band <> Band
+- next <> nächste
+- and <> und
+
