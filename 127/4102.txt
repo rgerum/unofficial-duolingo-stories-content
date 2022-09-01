@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=O vegetariano
+icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
+set=2|3
+
+[HEADER]
+> El vegetariano
+~ o  vegetariano
+
+[LINE]
+> Vikram lee el menú     en un restaurante muy   bonito.
+~ Vikram lê  o  cardápio em um restaurante muito bonito 
+
+[LINE]
+Speaker385: ¡Buenos~días!
+~            bom~dia     
+
+[LINE]
+Speaker593: Tengo una pregunta.
+~           tenho uma pergunta 
+
+[LINE]
+Speaker593: Soy vegetariano.
+~           sou vegetariano 
+
+[LINE]
+Speaker593: ¿Tienen    comida vegetariana?
+~            vocês~têm comida vegetariana 
+
+[MULTIPLE_CHOICE]
+> O Vikram quer saber se eles servem comida vegetariana.
+- Não, não é isso.
++ Sim, isso mesmo.
+
+[LINE]
+Speaker385: Sí,  tenemos unos sándwiches de carne muy   buenos.
+~           sim  temos   uns  sanduíches de carne muito bons   
+
+[LINE]
+Speaker593: ¿Sándwiches de carne? Soy    vegetariano.
+~            sanduíches de carne  eu~sou vegetariano 
+
+[LINE]
+Speaker385: Ah, sí…  lo~siento.
+~           ah  sim  desculpa  
+
+[LINE]
+Speaker385: Tenemos un pollo  delicioso.
+~           temos   um frango delicioso 
+
+[MULTIPLE_CHOICE]
+> De acordo com o garçom, o frango deles…
+- …não é muito saboroso.
++ …é delicioso.
+- …é sem glúten.
+
+[LINE]
+Speaker593: El~pollo es carne.
+~           frango   é  carne 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker593: ¡[(Y) (yo) (no)  (como) (carne)!]
+~              e   eu   não   como   carne   
+
+[LINE]
+Speaker385: Tenemos ensaladas…
+~           temos   saladas   
+
+[LINE]
+Speaker593: ¡Ah, me~gustan   las~ensaladas!
+~            ah  eu~gosto~de saladas       
+
+[MULTIPLE_CHOICE]
+> O Vikram gosta…
+- …do garçom.
+- …de muita carne.
++ …de saladas.
+
+[LINE]
+Speaker385: Hay una ensalada de tomate, queso,  salmón…
+~           tem uma salada   de tomate  queijo  salmão 
+
+[LINE]
+Speaker593: ¡Yo no  como salmón! ¡Soy vegetariano!
+~            eu não como salmão   sou vegetariano 
+
+[LINE]
+Speaker385: Tenemos patatas fritas…
+~           temos   batatas fritas 
+
+[LINE]
+Speaker593: Está bien, patatas fritas.
+~           está bem   batatas fritas 
+
+[MULTIPLE_CHOICE]
+> Que comida o Vikram pediu afinal?
+- salmão
++ batatas fritas
+- frango
+
+[LINE]
+Speaker385: Patatas fritas… perfecto. Y… ¿una~hamburguesa?
+~           batatas fritas  perfeito  e   um~hambúrguer   
+
+[LINE]
+Speaker593: ¡No  como carne!
+~            não como carne 
+
+[MULTIPLE_CHOICE]
+> Por que o Vikram está tão chateado?
++ O garçom continuou oferecendo carne a ele.
+- Ele está cansado de ser vegetariano.
+- O garçom derramou café nele.
+
+[MATCH]
+> Toque nos pares
+- una hamburguesa <> um hambúrguer
+- tenemos <> temos
+- bien <> bem
+- sándwiches <> sanduíches
+- yo <> eu
+
