@@ -1,0 +1,105 @@
+[DATA]
+fromLanguageName=A escolha de Junior
+icon=e0600de22649754eb7336b587834d36407767819
+set=10|1
+
+[HEADER]
+> Junior's~Choice      
+~ (a)~escolha~de~Junior
+
+[LINE]
+> Junior is~getting     his~lunch       at~school.
+~ Junior está~recebendo (o)~almoço~dele na~escola 
+
+[LINE]
+Speaker415: Hello, Ms.|~ Linda! I'm      ready         to~eat~lunch!
+~           olá    Sra. ~       eu~estou pronto~(para) almoçar      
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker395: Hello, Junior. [We~have~fish]    for  lunch      today.
+~           olá    Junior   nós~temos~peixe  para (o)~almoço hoje  
+- We have five
+- We love dish
++ We have fish
+
+[LINE]
+Speaker395: And with the fish,  you  can~have a   salad  or fries.         
+~           e   com  o   peixe  você pode~ter uma salada ou batatas~fritas 
+
+[LINE]
+Speaker415: I  love fries          and salads! 
+~           eu amo  batatas~fritas e   saladas 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "somente".
+Speaker395: (You)  (can)  (+only)    (have) one,           Junior.
+~            você   pode    somente   ter   um~(dos~dois)  Junior 
+
+[LINE]
+Speaker415: Well, fries          are the delicious~option…
+~           bem   batatas~fritas são a   opção~deliciosa  
+
+[LINE]
+Speaker415: And I  am~having   a  difficult~day…
+~           e   eu estou~tendo um dia~difícil   
+
+[LINE]
+Speaker415: But salad  is healthy… 
+~           mas salada é  saudável 
+
+[MULTIPLE_CHOICE]
+> O Junior acredita que saladas são…
+- …baratas.
+- …muito grandes.
++ …saudáveis.
+
+[LINE]
+Speaker395: Junior…
+~           Junior 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker415: [(But) (I)  (can~only~have)     (one)…]
+~             mas   eu   posso~ter~somente   um    
+
+[LINE]
+Speaker415: I  want  the salad…  No!  The fries!          Wait…  
+~           eu quero a   salada  não  as  batatas~fritas  espere 
+
+[LINE]
+Speaker415: I  don't~know!
+~           eu não~sei    
+
+[MULTIPLE_CHOICE]
+> Pobrezinho do Junior! Qual é o problema dele?
+- Ele comeu batatas fritas demais.
+- Ele quer sorvete na salada dele.
++ Ele não consegue escolher entre uma salada e batatas fritas.
+
+[LINE]
+Speaker395: Junior!
+~           Junior 
+
+[LINE]
+Speaker415: Oh! Yes, Ms.|~ Linda?
+~           ah  sim  Sra. ~      
+
+[LINE]
+Speaker395: Here! Take the fries          and the salad. 
+~           aqui  leve as  batatas~fritas e   a   salada 
+
+[MULTIPLE_CHOICE]
+> A Linda disse para o Junior que ele podia…
+- …imaginar que as batatas fritas são salada.
+- …ir comer em outro lugar.
++ …pegar as batatas fritas e a salada.
+
+[MATCH]
+> Toque nos pares
+- can have <> pode ter
+- We have fish <> nós temos peixe
+- you <> você
+- Here <> aqui
+- only <> somente
+
