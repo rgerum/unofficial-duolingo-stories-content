@@ -1,0 +1,102 @@
+[DATA]
+fromLanguageName=Lucy và những chú khủng long 
+icon=f6ce899637bb8181ee5e78382fdf71a0f01e4f95
+set=8|1
+
+[HEADER]
+> Lucy and the~Dinosaurs       
+~ Lucy và  những~chú~khủng~long
+
+[LINE]
+> Lucy opens her~apartment~door.  
+~ Lucy mở    cửa~căn~hộ~của~bà~ấy 
+
+[LINE]
+Speaker509: Hello,    Junior!
+~           xin~chào  Junior 
+
+[LINE]
+Speaker415: Hello!    Can~you~help~me         write a   report~for~school?          
+~           xin~chào  bà~giúp~cháu…được~không viết  một bài~báo~cáo~để~nộp~ở~trường 
+
+[LINE]
+Speaker509: Oh, yes!     
+~           ồ   được~chứ 
+
+[LINE]
+Speaker509: I'm~a~great~writer.  I  have a   very~popular~blog.       
+~           bà~viết~hay~lắm~đấy  bà có   một trang~blog~rất~nổi~tiếng 
+
+[MULTIPLE_CHOICE]
+> Lucy tự nhận mình viết tốt vì bà ấy…
+- …ngày nào cũng viết thư tình.
++ …có một trang blog rất nổi tiếng.
+- …từng học rất giỏi.
+
+[LINE]
+Speaker509: Do~you~read       my~blog?    
+~           cháu~có~đọc…không blog~của~bà 
+
+[LINE]
+Speaker415: No.     
+~           không~ạ 
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “rất nhiều”.
+Speaker509: (I)  (have) (+a~lot~of)  (books).
+~            bà   có      rất~nhiều   sách   
+
+[LINE]
+Speaker509: Do~you~need       my~books    for~research? 
+~           cháu~có~cần…không sách~của~bà để~nghiên~cứu 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker415: I    don't~need your    [books].
+~           cháu không~cần  …của~bà  sách   
+- report     
+~ bài~báo~cáo
+- apartment
+~ căn~hộ   
++ books
+~ sách 
+
+[LINE]
+Speaker509: What~is~your~report~about?        
+~           bài~báo~cáo~của~cháu~là~về~cái~gì 
+
+[LINE]
+Speaker415: Dinosaurs.   
+~           khủng~long~ạ 
+
+[LINE]
+Speaker509: Why~do~you~want       to~talk~to        me?
+~           tại~sao~cháu~lại~muốn nói~chuyện~đó~với bà 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker415: [(Because) (you~are) (very) (old).]       
+~             bởi~vì    bà        rất    nhiều~tuổi   
+
+[LINE]
+Speaker415: You know a~lot~of dinosaurs,  right?       
+~           bà  biết nhiều    khủng~long  đúng~không~ạ 
+
+[LINE]
+Speaker509: Goodbye,  Junior.
+~           tạm~biệt  Junior 
+
+[MULTIPLE_CHOICE]
+> Vì sao Junior lại nghĩ rằng Lucy biết về loài khủng long?
++ Bà ấy lớn tuổi hơn cậu ấy.
+- Bà ấy từng nuôi khủng long trong nhà.
+- Bà ấy viết blog về khủng long.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- a lot of <> rất nhiều
+- very <> rất
+- Hello <> xin chào
+- Lucy <> Lucy
+- my books <> sách của bà
+
