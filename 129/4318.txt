@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=İki Bilet Lütfen!
+icon=fd5ae5efca52f7edd767e216d1ea329adf2403a5
+set=6|3
+
+[HEADER]
+> Two Tickets Please!
+~ İki bilet   Lütfen 
+
+[LINE]
+> Junior is   at  the airport.   
+~ ~      -dır -da ~   havalimanı 
+
+[LINE]
+> He talks   to~the~woman at~the~desk.
+~ O  konuşur kadınla      masadaki    
+
+[LINE]
+Speaker659: Can~I          help   you? 
+~           edebilir~miyim Yardım size 
+
+[LINE]
+Speaker415: I~want    to~buy      a   ticket to Barcelona.
+~           istiyorum satın~almak bir bilet  -a Barselona 
+
+[LINE]
+Speaker659: Where  are your  parents?
+~           Nerede ~   sizin aileniz 
+
+[MULTIPLE_CHOICE]
+> Junior bir yetişkin.
++ Hayır, bu doğru değil.
+- Evet, bu doğru.
+
+[LINE]
+Speaker415: Excuse~me. I'm~not seven years~old.
+~           pardon     değilim Yedi  yaşında   
+
+[LINE]
+Speaker659: How old~are~you? 
+~           kaç yaşındasınız 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker415: I'm eight [years~old]. 
+~           Ben sekiz  yaşındayım  
++ years old
+- you're old
+- you sold
+
+[LINE]
+Speaker659: A   ticket to Barcelona is four hundred dollars.
+~           Bir bilet  -a Barselona ~  dört yüz     dolar   
+
+[LINE]
+Speaker415: OK…    Where  can~I~go    for~thirteen~dollars?
+~           tamam  nereye gidebilirim on~üç~dolara         
+
+[MULTIPLE_CHOICE]
+> Junior neden Barselona'ya gidemiyor?
+- Uçak zaten dolu.
++ Sadece on üç doları var.
+- Uçakla gitmekten korkuyor.
+
+[LINE]
+> Junior's  dad,    Eddy, runs  to the desk.
+~ Junior'un babası  ~     koşar -a ~   masa 
+
+[LINE]
+Speaker414: Junior! There~you~are!  What are~you~doing at  the airport?   
+~           ~       işte~buradasın  Ne   yapıyorsun    -da ~   havalimanı 
+
+[POINT_TO_PHRASE]
+> "Matematik testi" anlamına gelen seçeneği tıklayın.
+Speaker415: I     have a   (+math~test)       (today). I     need  (to~leave) (the~country).
+~           benim var  bir   matematik~testi   bugün   benim lazım  ayrılmam   ülkeden      
+
+[LINE]
+Speaker414: OK.   How~much~is the ticket?
+~           peki  ne~kadar    ~   bilet  
+
+[LINE]
+Speaker415: Four hundred dollars.
+~           Dört yüz     dolar   
+
+[CONTINUATION]
+> Sıradaki ne olabilir?
+Speaker414: How~much~are [two tickets]?
+~           ne~kadar      iki bilet    
+- math tests
+- eight years old
++ two tickets
+
+[LINE]
+Speaker415: Eight hundred dollars.
+~           Sekiz yüz     dolar   
+
+[LINE]
+Speaker414: Right!   You're~great at  math!      Now   go  to school.
+~           tabi~ya  harikasın    -te matematik  Şimdi Git -a okul   
+
+[MULTIPLE_CHOICE]
+> Junior neden Barselona'ya bir bilet almak istiyor?
+- Babasına tatil için sürpriz yapmak istedi.
++ Matematik sınavına girmek istemediği için.
+- Barselona'nın mimarisini görmek istediği için.
+
+[MATCH]
+> Çiftlere dokun
+- you <> size
+- hundred <> yüz
+- desk <> masa
+- airport <> havalimanı
+- ticket <> bilet
+
