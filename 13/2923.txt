@@ -1,0 +1,157 @@
+[DATA]
+fromLanguageName=Bird Sitting
+icon=bec6ac06369ced77777ad5151e3a385213c413b8
+set=36|2
+
+[HEADER]
+> Garde~d'oiseau
+~ bird~sitting  
+
+[LINE]
+> Lin est au     téléphone avec son ami,    Gaëtan.
+~ Lin is  on~the phone     with her friend  Gaëtan 
+
+[LINE]
+Speaker508: Salut, Gaëtan !
+~           hi     Gaëtan  
+
+[LINE]
+Speaker508: Tu~rentres          demain   ou mardi      ?
+~           are~you~coming~home tomorrow or on~Tuesday  
+
+[LINE]
+Speaker7: Demain.  
+~         tomorrow 
+
+[LINE]
+Speaker7: Merci~de      t'occuper   de mon oiseau chez~moi    !
+~         thank~you~for taking~care of my  bird   at~my~place  
+
+[MULTIPLE_CHOICE]
+> Lin is taking care of her friend's bird while he is away.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker508: Mais~de~rien.  
+~           you're~welcome 
+
+[LINE]
+Speaker7: Tout~va~bien     à  la  maison ?
+~         is~everything~OK at the house   
+
+[LINE]
+Speaker508: Oui, mais j'ai   quelque~chose à  te~dire.      
+~           yes  but  I~have something     to (to)~tell~you 
+
+[LINE]
+Speaker508: Ton  oiseau a~volé par la  fenêtre.
+~           your bird   flew   out the window  
+
+[LINE]
+Speaker7: Quoi ?!
+~         what   
+
+[LINE]
+Speaker508: La  cage s'est~ouverte.
+~           the cage opened        
+
+[MULTIPLE_CHOICE]
+> What opened?
++ the cage
+- the shower
+- the fridge
+
+[LINE]
+Speaker7: Et  pourquoi elle~s'est~ouverte ?
+~         and why      did~it~open         
+
+[LINE]
+Speaker508: Parce~qu'elle est~tombée par~terre.   
+~           because~it    fell       on~the~floor 
+
+[LINE]
+Speaker7: Quoi ?! Pourquoi elle~est~tombée par~terre    ?
+~         what    why      did~it~fall     on~the~floor  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker508: Ton  lit [est~tombé~dessus].
+~           your bed  fell~on~it        
+- est monté en-dessous
+- est monté dessus
++ est tombé dessus
+
+[LINE]
+Speaker7: Mon lit est~tombé du       premier~étage ?!
+~         my  bed fell      from~the first~floor     
+
+[LINE]
+Speaker7: Mais comment ?!
+~         but  how       
+
+[LINE]
+Speaker508: Il~y~avait beaucoup d'eau    dans ta   chambre.
+~           there~was  a~lot    of~water in   your bedroom 
+
+[LINE]
+Speaker7: De~l'eau ? Pourquoi il~y~avait de~l'eau dans ma chambre ?
+~         water      why      was~there  water    in   my bedroom  
+
+[LINE]
+Speaker508: Parce~que j'ai~dû  éteindre     le  feu. 
+~           because   I~had~to (to)~put~out the fire 
+
+[LINE]
+Speaker7: Il~y~avait le~feu ?!
+~         there~was  a~fire   
+
+[ARRANGE]
+> Tap what you hear
+Speaker508: [(Oui), (mais) (seulement) (au)     (premier~étage).]
+~             yes    but    only        on~the   first~floor     
+
+[LINE]
+Speaker7: Mais qu'est-ce~que tu~as~fait ?!
+~         but  what          did~you~do   
+
+[LINE]
+Speaker508: Je pense que  c'est à~cause~de mes bougies~de~méditation.
+~           I  think that it's  because~of my  meditation~candles    
+
+[MULTIPLE_CHOICE]
+> Yikes! What caused the fire?
+- a lot of birds
+- the candles on Lin's birthday cake
++ Lin's meditation candles
+
+[LINE]
+Speaker7: Bougies~de~méditation ?
+~         meditation~candles     
+
+[LINE]
+Speaker508: Oui ! J'ai~commencé la~méditation !
+~           yes   I~started     meditation     
+
+[LINE]
+Speaker508: Tu  sais, je peux m'occuper      de ta   maison le~mois~prochain si tu  veux.
+~           you know  I  can  (to)~take~care of your house  next~month       if you want 
+
+[LINE]
+Speaker508: Allô  ? Gaëtan ?
+~           hello   Gaëtan  
+
+[MULTIPLE_CHOICE]
+> Why did Gaëtan hang up?
++ He's angry because Lin destroyed his house.
+- He's angry because Lin stole his bird.
+- He's going to go to Lin's meditation class.
+
+[MATCH]
+> Tap the pairs
+- fenêtre <> window
+- sais <> know
+- mon <> my
+- le mois prochain <> next month
+- ou <> or
+
