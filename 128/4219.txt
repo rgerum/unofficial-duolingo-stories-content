@@ -1,0 +1,107 @@
+[DATA]
+fromLanguageName=Thư tình
+icon=4ba2733ddb8bdc3f0924c6463da01f5d1eccaf40
+set=14|2
+
+[HEADER]
+> Love~Letter
+~ thư~tình   
+
+[LINE]
+> Zari is~babysitting   her~neighbor,       Junior. They are~at the~library.
+~ Zari đang~trông~(trẻ) hàng~xóm~của~cô~ấy  Junior  họ   đang~ở thư~viện    
+
+[LINE]
+Speaker418: What~are~you~doing, Junior?
+~           em~đang~làm~gì~đấy  Junior 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker415: Um… [I'm~writing~a~letter].
+~           ừm   em~đang~viết~thư      
++ I'm writing a letter
+- I'm writing to let her
+- I'm riding it better
+
+[LINE]
+Speaker418: Who~are~you~writing~to?   
+~           em~(đang)~viết~cho~ai~thế 
+
+[LINE]
+Speaker415: Well, it's~for a   girl…   I  like  her   a~lot.    
+~           à     là~cho   một cô~gái  em thích cô~ấy rất~nhiều 
+
+[LINE]
+Speaker418: Ooh!    Is~it~a~love~letter? Is~it~for      a   girl   in    your~class?
+~           ái~chà  là~thư~tình~sao      có~phải~là~cho một bạn~nữ trong lớp~em     
+
+[LINE]
+Speaker415: No…      She's~a~teenager.
+~           không~ạ  cô~ấy~tuổi~teen  
+
+[MULTIPLE_CHOICE]
+> Junior đang thích một chị gái.
+- Không đúng.
++ Đúng vậy.
+
+[LINE]
+Speaker418: A~teenager? Like~me?  
+~           tuổi~teen   như~chị~á 
+
+[LINE]
+Speaker415: Yes.  She's    my…~neighbor.   
+~           vâng  cô~ấy~là hàng~xóm~của~em 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker418: [Wait~a~minute]. She's~a~teenager and she's    your~neighbor?  
+~            đợi~chút~đã     cô~ấy~tuổi~teen  và  cô~ấy~là hàng~xóm~của~em 
+- Way to win it
+- Late a minute
++ Wait a minute
+
+[LINE]
+Speaker415: Um… yes.   
+~           ừm  vâng~ạ 
+
+[LINE]
+Speaker418: Hmm…     And     is~she        very smart?     
+~           xem~nào  với~lại có~phải~cô~ấy rất  thông~minh 
+
+[LINE]
+Speaker415: Yes!       
+~           đúng~rồi~ạ 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker418: Aw Junior! You~love~me?    Sorry,   but   you're [too~young~for~me].    
+~           ôi Junior  em~thích~chị~ư  xin~lỗi  nhưng em~là   quá~nhỏ~tuổi~với~chị  
++ too~young~for~me    
+~ quá~nhỏ~tuổi~với~chị
+- a~teenager      
+~ thanh~thiếu~niên
+- a~love~letter
+~ thư~tình     
+
+[LINE]
+Speaker415: No!    I  don't~love  you… I  love  your~best~friend,            Lily!
+~           không  em không~thích chị  em thích người~bạn~thân~nhất~của~chị  Lily 
+
+[LINE]
+Speaker415: Can~you~give~her              my~letter?     
+~           chị~đưa~cho~chị~ấy…được~không bức~thư~của~em 
+
+[MULTIPLE_CHOICE]
+> Zari tưởng Junior viết thư tình cho cô ấy nhưng thật ra…
++ …bức thư đó là dành cho Lily.
+- …cậu ấy đang viết sách về tình yêu.
+- …cậu ấy đang làm bài về nhà.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- She's <> cô ấy là
+- my… neighbor <> hàng xóm của em
+- Um <> ừm
+- I <> em
+- Junior <> Junior
+
