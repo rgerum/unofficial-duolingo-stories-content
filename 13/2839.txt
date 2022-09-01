@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=That's Not for Kids!
+icon=92f8e9fbcb106a065c67e2efcbb467a67077da4b
+set=15|2
+
+[HEADER]
+> Ce   n'est~pas pour les~enfants !
+~ this is~not    for  children     
+
+[LINE]
+> Zari est avec Junior parce~qu'|Eddy travaille. 
+~ Zari is  with Junior because   Eddy is~working 
+
+[LINE]
+Speaker415: Zari ! On~peut~jouer~à ton~jeu~vidéo   ?
+~           Zari   can~we~play     your~video~game  
+
+[LINE]
+Speaker418: Je dois~finir~de~nettoyer la  cuisine…
+~           I  must~finish~cleaning   the kitchen 
+
+[LINE]
+Speaker418: … parce~que ton  père   va~arriver         dans quelques minutes.
+~             because   your father is~going~to~arrive in   a~few    minutes 
+
+[MULTIPLE_CHOICE]
+> Junior wants to play video games, but Zari needs to clean the kitchen.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker415: Hmm… Est-ce~que~je~peux~jouer~à ton~jeu~vidéo   ?!
+~           hmm  can~I~play                 your~video~game   
+
+[LINE]
+Speaker418: Désolée, mon~jeu~vidéo n'est~pas pour les~enfants.
+~           sorry    my~video~game is~not    for  children    
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(Mais) (je) (ne~suis~pas) (un) (enfant) ]!
+~             but    I    am~not        a    child     
+
+[LINE]
+Speaker418: D'accord… Les~adultes font la  vaisselle.
+~           OK        adults      do   the dishes    
+
+[MULTIPLE_CHOICE]
+> Zari says that adults…
+- …play video games.
++ …do the dishes.
+- …drink wine.
+
+[LINE]
+Speaker415: Je sais       faire la  vaisselle !
+~           I  know~(how) to~do the dishes     
+
+[LINE]
+> Junior commence~à~faire la  vaisselle.
+~ Junior starts~doing     the dishes    
+
+[LINE]
+Speaker415: Tu  vois ?
+~           you see   
+
+[LINE]
+Speaker418: Les~adultes nettoient la  table.
+~           adults      clean     the table 
+
+[CONTINUATION]
+> What comes next?
+Speaker415: Je peux [nettoyer   la  table ]!
+~           I  can   (to)~clean the table   
++ nettoyer   la  table
+~ (to)~clean the table
+- casser     la  table
+~ (to)~break the table
+- aller~au~lit  
+~ (to)~go~to~bed
+
+[LINE]
+> Junior nettoie la  table.
+~ Junior cleans  the table 
+
+[LINE]
+Speaker418: Très bien ! Tu  es~vraiment un adulte.
+~           very good   you really~are  an adult  
+
+[LINE]
+Speaker415: Et  maintenant, on~peut~jouer~à ton~jeu~vidéo   ?!
+~           and now         can~we~play     your~video~game   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker418: Ah, non, regarde ! [Il~est~neuf~heures].
+~           ah  no   look       it~is~nine~o'clock  
++ Il est neuf heures
+- Il est nerveux
+- Et les valeurs
+
+[LINE]
+Speaker418: Il~faut~aller au~lit !
+~           you~must~go   to~bed  
+
+[LINE]
+Speaker415: Mais je suis un adulte… et  les~adultes se~couchent très tard !
+~           but  I  am   an adult   and adults      go~to~bed   very late  
+
+[MULTIPLE_CHOICE]
+> Junior thinks he is an adult now, so…
++ …he can go to bed late.
+- …he needs to find a job.
+- …he can marry Zari.
+
+[MATCH]
+> Tap the pairs
+- faire <> to do
+- tard <> late
+- nettoie <> cleans
+- travaille <> is working
+- Les adultes <> adults
+
