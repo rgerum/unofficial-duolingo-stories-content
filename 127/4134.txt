@@ -1,0 +1,96 @@
+[DATA]
+fromLanguageName=Sempre chego tarde
+icon=a62bcc657853c02d336da2c3899591f7a148634c
+set=10|3
+
+[HEADER]
+> Siempre llego tarde
+~ sempre  chego tarde
+
+[LINE]
+> Lin y Lucy ven  la~tele.  
+~ Lin e Lucy veem televisão 
+
+[LINE]
+Speaker509: ¡Son las~seis~y~media!
+~            são seis~e~meia      
+
+[LINE]
+Speaker508: ¡Ay,~no!  ¡La fiesta de Bea es en media hora!
+~            ah,~não   a  festa  da Bea é  em meia  hora 
+
+[MULTIPLE_CHOICE]
+> A festa da Bea vai começar logo.
++ Sim, isso mesmo.
+- Não, não é isso.
+
+[LINE]
+Speaker508: ¡No  puedo llegar tarde!
+~            não posso chegar tarde 
+
+[CONTINUATION]
+> O que vem depois?
+> Lin corre a    la~parada~del~autobús, pero es [demasiado~tarde].
+~ Lin corre para o~ponto~de~ônibus      mas  é   tarde~demais     
+- en un programa
+~ em um programa
++ demasiado~tarde
+~ tarde~demais   
+- una fiesta
+~ uma festa 
+
+[LINE]
+Speaker508: ¡No!  ¡Mi  autobús!
+~            não   meu ônibus  
+
+[ARRANGE]
+> Toque no que escutar
+Speaker508: [(Ahora) (tengo~que) (llamar~a) (un~taxi).]
+~             agora   tenho~que   chamar     um~táxi   
+
+[LINE]
+> El teléfono de Lin no  funciona.
+~ o  telefone de Lin não funciona 
+
+[LINE]
+Speaker508: ¡Ay,~no!  ¡La batería!
+~            ah,~não   a  bateria 
+
+[LINE]
+> Lin corre al     restaurante. Ella ve~a Bea.
+~ Lin corre para~o restaurante  ela  vê   Bea 
+
+[LINE]
+Speaker508: ¡Bea! ¡Aquí estoy!
+~            Bea   aqui estou 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker508: Un momento, ¿dónde están todos tus     amigos? ¡[Son~las~siete]! 
+~           um momento   onde  estão todos os~teus amigos    são~sete~horas  
+- Con unas siete
+- Son las sierras
++ Son las siete
+
+[LINE]
+Speaker507: ¡Ja,~ja! Tu    invitación dice que la fiesta es a~las siete porque siempre llegas tarde.
+~            ha,~ha  o~teu convite    diz  que a  festa  é  às    sete  porque sempre  chegas tarde 
+
+[LINE]
+Speaker507: Pero mi      fiesta es a~las ocho.
+~           mas  a~minha festa  é  às    oito 
+
+[MULTIPLE_CHOICE]
+> A Lin correu para chegar na hora na festa da Bea, mas…
+- …a festa foi cancelada.
+- …ela ainda chegou uma hora atrasada.
++ …na verdade, ela chegou uma hora adiantada.
+
+[MATCH]
+> Toque nos pares
+- un taxi <> um táxi
+- que <> que
+- Bea <> Bea
+- fiesta <> festa
+- llegas <> chegas
+
