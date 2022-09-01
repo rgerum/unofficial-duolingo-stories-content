@@ -1,0 +1,131 @@
+[DATA]
+fromLanguageName=Die Filmpremiere
+icon=3bcede6752ca2da06f769fd523244f5c763cebc6
+set=25|4
+
+[HEADER]
+> The~Movie~Premiere
+~ die~Filmpremiere  
+
+[LINE]
+> Oscar is~visiting his~cousin    Orson, an~actor,           in Hollywood.
+~ Oscar besucht     seinen~Cousin Orson  einen~Schauspieler  in Hollywood 
+
+[LINE]
+Speaker592: I'm~excited           to~go~to~your~movie~premiere!    Look~at     my     new   suit! 
+~           ich~freue~mich~darauf zu~deiner~Filmpremiere~zu~gehen  sieh~dir~an meinen neuen Anzug 
+
+[ARRANGE]
+> Was hörst du?
+Speaker3107: [(We)  (don't~have)   (to~wear) (suits).] 
+~              wir   müssen~keine   tragen    Anzüge   
+
+[LINE]
+Speaker3107: No~one  will look~at~us.  I'm     only~in~the~movie for a~few    minutes.
+~            niemand wird uns~ansehen  ich~bin in~dem~Film~nur   für ein~paar Minuten 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker592: No!   You should   wear   your  [best~clothes].  
+~           nein  du  solltest tragen deine  beste~Kleidung  
+- past clothes
++ best clothes
+- bets closed
+
+[LINE]
+Speaker592: Then we'll~look~like   movie~stars when the~photographers take~our~photo!   
+~           dann sehen~wir~aus~wie Filmstars   wenn die~Fotografen    uns~fotografieren 
+
+[LINE]
+Speaker592: Also,     I~rented~a~limo~for~us!                  
+~           außerdem  habe~ich~eine~Limousine~für~uns~gemietet 
+
+[LINE]
+Speaker3107: Oscar, no!  
+~            Oscar  nein 
+
+[MULTIPLE_CHOICE]
+> Orson will mit einer Limousine zur Premiere fahren.
++ Nein, das ist falsch.
+- Ja, das ist richtig.
+
+[LINE]
+> Oscar and Orson get     in the~limo.      A~mile     from~the~theater,    the~limo~stops.      
+~ Oscar und Orson steigen in die~Limousine  eine~Meile vom~Kino~(entfernt)  stoppt~die~Limousine 
+
+[LINE]
+Speaker889: Sorry,           the~traffic~is~really~bad.       
+~           es~tut~mir~leid  der~Verkehr~ist~wirklich~schlimm 
+
+[LINE]
+Speaker3107: But  the~premiere starts  in twenty  minutes!
+~            aber die~Premiere beginnt in zwanzig Minuten 
+
+[LINE]
+Speaker592: Let's~run! 
+~           rennen~wir 
+
+[MULTIPLE_CHOICE]
+> Moment! Warum müssen Oscar und Orson rennen?
+- Orson spielt in einem Film über einen Sprinter mit.
++ Der Verkehr ist zu schlimm, um es rechtzeitig mit dem Auto zur Premiere zu schaffen.
+- Sie wollen so durchtrainiert wie Filmstars aussehen.
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „Schlamm“.
+> They (get)     (out) of~the~limo   (and) step   in (+mud).    
+~ sie   steigen   aus  der~Limousine  und  treten in   Schlamm  
+
+[LINE]
+Speaker592: My~shoes!    
+~           meine~Schuhe 
+
+[LINE]
+> It starts   raining.  
+~ es fängt~an zu~regnen 
+
+[LINE]
+Speaker592: My~suit!   
+~           mein~Anzug 
+
+[LINE]
+> Oscar and Orson run    to~the~theater.
+~ Oscar und Orson rennen zum~Kino       
+
+[LINE]
+> When they arrive,   they're  wet  and covered~in~mud.     
+~ als  sie  ankommen  sind~sie nass und mit~Schlamm~bedeckt 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+> A~photographer [takes~their~photo].
+~ ein~Fotograf    fotografiert~sie   
+- jumps   on  the limo     
+~ springt auf die Limousine
+- drinks a   glass~of~milk
+~ trinkt ein Glas~Milch   
++ takes~their~photo
+~ fotografiert~sie 
+
+[LINE]
+Speaker658: Wow, you look~like     you~were~in~a~war!                Just~like characters in the~movie!
+~           wow  Sie sehen~aus~als wären~Sie~in~einem~Krieg~gewesen  genau~wie Charaktere in dem~Film  
+
+[LINE]
+Speaker3107: Well, Oscar, you wanted   us~to~look~like~movie~stars!      
+~            nun   Oscar  du  wolltest (dass)~wir~wie~Filmstars~aussehen 
+
+[MULTIPLE_CHOICE]
+> Oscar und Orson sehen wie Filmcharaktere aus, weil …
+- … sie Kostüme aus dem Film tragen.
+- … sie in einer schicken Limousine erschienen sind.
++ … sie so dreckig sind, als wären in einem Krieg gewesen.
+
+[MATCH]
+> Wähle die Paare
+- My shoes <> meine Schuhe
+- get <> steigen
+- an actor <> einen Schauspieler
+- No one <> niemand
+- look at us <> uns ansehen
+
