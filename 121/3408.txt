@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=The Passport
+icon=643347b755001a918130ddf5f6d3e914e63a00ce
+set=1|1
+
+[HEADER]
+> パスポート                     
+~ (the)~passport~[pasupooto]
+
+[LINE]
+> ヴィクラム             と        つま~の                  プリティは             くうこう                   に~います。            
+~ Vikram~[vikuramu] and~[to] (his)~wife~[tsuma~no] Priti~[puriti~wa] (the)~airport~[kuukou] are~at~[ni~imasu] 
+
+[SELECT_PHRASE]
+> Select the missing word
+Speaker593: どうしよう|。ぼくの                                  パスポートは                  [どこ]？               
+~           what~should~I~do~[dou~shiyou]  my~[boku~no] passport~[pasupooto~wa]  where~(is)~[doko]  
+- ねこ
++ どこ
+- ここ
+
+[LINE]
+Speaker593: ここに            ないんだ！                 
+~           here~[koko~ni] (it)~isn't~[nai~n~da] 
+
+[LINE]
+Speaker560: ヴィクラム…            
+~           Vikram~[vikuramu] 
+
+[LINE]
+Speaker593: かばん               の~なかに                  も        ない…              
+~           (the)~bag~[kaban] inside~of~[no~naka~ni] too~[mo] (it)~isn't~[nai] 
+
+[LINE]
+Speaker593: そして|、ジャケット                            に       も        ない…              
+~           and~[soshite]  (the)~jacket~[jaketto] in~[ni] too~[mo] (it)~isn't~[nai] 
+
+[MULTIPLE_CHOICE]
+> Vikram can't find his passport.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker560: でも|、ヴィク…               
+~           but~[demo]  Vik~[viku] 
+
+[LINE]
+Speaker593: そうだ|！パスポートは                                タクシー                の~なか                だ！      
+~           oh~[sou~da]  (the)~passport~[pasupooto~wa] the~taxi~[takushii] inside~of~[no~naka] is~[da] 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "runs."
+> (ヴィクラムは)               (タクシー)              (に~むかって)               (+はしります)。             
+~  Vikram~[vikuramu~wa]   a~taxi~[takushii]   towards~[ni~mukatte]    runs~[hashirimasu]  
+
+[LINE]
+Speaker560: ヴィクラム|、ちがう！                    
+~           Vikram~[vikuramu]  no~[chigau] 
+
+[LINE]
+> プリティは             ヴィクラム             に~むかって               はしります。             
+~ Priti~[puriti~wa] Vikram~[vikuramu] towards~[ni~mukatte] runs~[hashirimasu] 
+
+[LINE]
+Speaker593: どうしよう|、タクシーは                                            もう            ここに            いない！         
+~           what~should~I~do~[dou~shiyou]  (the)~taxi~[takushii~wa] anymore~[mou] here~[koko~ni] isn't~[inai] 
+
+[MULTIPLE_CHOICE]
+> The taxi was still parked in the same place.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker593: これは            たいへんだ…                   
+~           this~[kore~wa] is~a~problem~[taihen~da] 
+
+[LINE]
+Speaker560: ヴィクラム！            
+~           Vikram~[vikuramu] 
+
+[LINE]
+Speaker560: パスポートは                        タクシー                  の~なかには                    ないよ。                   
+~           (the)~passport~[pasupooto~wa] (the)~taxi~[takushii] inside~of~[no~naka~ni~wa] isn't~(there)~[nai~yo] 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "hand."
+Speaker560: (あなたの)            (ひだり)           (+て)         (を~みて)。            
+~            your~[anata~no]   left~[hidari]    hand~[te]   look~at~[o~mite]  
+
+[LINE]
+Speaker593: あっ|、あった…                    
+~           ah~[a']  there~it~is~[atta] 
+
+[LINE]
+Speaker593: ありがとう|、プリティ。                         
+~           thank~you~[arigatou]  Priti~[puriti] 
+
+[MULTIPLE_CHOICE]
+> Where was Vikram's passport?
+- at his house
+- in the taxi
++ in his hand
+
+[MATCH]
+> Tap the pairs
+- プリティは <> Priti [puriti wa]
+- はしります <> runs [hashirimasu]
+- ヴィクラム <> Vikram [vikuramu]
+- の なか <> inside of [no naka]
+- タクシー <> the taxi [takushii]
+
