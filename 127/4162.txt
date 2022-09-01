@@ -1,0 +1,99 @@
+[DATA]
+fromLanguageName=Minha banda favorita
+icon=8809c44c2194d282a6e1573d25dcac12b6132022
+set=17|3
+
+[HEADER]
+> Mi~grupo~favorito   
+~ minha~banda~favorita
+
+[LINE]
+> Lily y Zari están en clase.
+~ Lily e Zari estão em aula  
+
+[LINE]
+Speaker418: Eh… ¿Lily? ¿Me~puedes~ayudar?
+~           eh   Lily   podes~me~ajudar  
+
+[LINE]
+Speaker416: No  sé.  ¿Qué~necesitas?  
+~           não sei   do~que~precisas 
+
+[LINE]
+Speaker418: No  puedo ir a~la clase de baloncesto hoy. 
+~           não posso ir à    aula  de basquete   hoje 
+
+[LINE]
+Speaker418: ¿Le~puedes~decir al entrenador que estoy enferma?
+~            podes~dizer     ao treinador  que estou doente  
+
+[MULTIPLE_CHOICE]
+> A Zari quer que a Lily diga ao treinador de basquete que ela está doente.
+- Não, não é isso.
++ Sim, isso mesmo.
+
+[LINE]
+Speaker416: Tú no  estás enferma, Zari.
+~           tu não estás doente   Zari 
+
+[LINE]
+Speaker418: ¡Cof, cof, cof! Pero tengo una~nota   de mi  médico. Mira…
+~            cof  cof  cof  mas  tenho um~bilhete do meu médico  olha 
+
+[LINE]
+> Zari le~da la~nota   a Lily.
+~ Zari dá    o~bilhete a Lily 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker416: Zari, tú [escribiste~esta~nota].   
+~           Zari  tu  escreveste~este~bilhete  
+- escribiste en esta bota
+- estuviste en la boda
++ escribiste esta nota
+
+[LINE]
+Speaker418: ¡Por~supuesto que no! 
+~            claro        que não 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "mentes".
+Speaker416: (Zari), (yo) sé  (cuando) (+mientes).
+~            Zari    eu  sei  quando    mentes   
+
+[LINE]
+Speaker418: ¡Está bien! Voy al centro~comercial a    ver~a mi~grupo~favorito,    los City~Boys.
+~            está bem   vou ao shopping         para ver   minha~banda~favorita  os  City~Boys 
+
+[MULTIPLE_CHOICE]
+> A banda favorita da Zari vai se apresentar…
+- …em um parque.
++ …no shopping.
+- …em um estádio.
+
+[LINE]
+Speaker416: Eh… no.  No  te~puedo~ayudar.
+~           eh  não  não posso~te~ajudar 
+
+[LINE]
+Speaker418: Sí,  yo sé.  No  puedo mentir, eso  está~mal.
+~           sim  eu sei  não posso mentir  isso é~ruim   
+
+[LINE]
+Speaker416: No,  no  te~puedo~ayudar porque los City Boys son muy   malos.
+~           não  não posso~te~ajudar porque os  City Boys são muito ruins 
+
+[MULTIPLE_CHOICE]
+> Por que a Lily não vai ajudar a Zari?
+- Ela não quer ficar doente.
+- Ela não quer que a Zari vá ao treino de basquete.
++ Ela acha que os City Boys são muito ruins.
+
+[MATCH]
+> Toque nos pares
+- Boys <> Boys
+- Le puedes decir <> podes dizer
+- Qué necesitas <> do que precisas
+- le da <> dá
+- mientes <> mentes
+
