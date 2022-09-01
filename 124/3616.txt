@@ -1,0 +1,151 @@
+[DATA]
+fromLanguageName=Le grand match
+icon=170e9caad206d87350e17e32c18226edefea8131
+set=13|1
+
+[HEADER]
+> The Big   Game 
+~ le  grand match
+
+[LINE]
+> Bea arrives at~her~friend~Justin's~house.
+~ Bea arrive  chez~son~ami~Justin          
+
+[LINE]
+Speaker507: Are~you ready?
+~           tu~es   prêt  
+
+[LINE]
+Speaker507: This~is the~most~exciting~soccer~game        of the~year!
+~           c'est   le~match~de~foot~le~plus~passionnant de l'année  
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker507: And [we~have~tickets]!       
+~           et   nous~avons~des~billets  
++ we have tickets
+- even tickets
+- we have taken
+
+[LINE]
+Speaker295: Bea…
+~           Bea 
+
+[LINE]
+Speaker295: I  can't~go          to~the game. 
+~           je ne~peux~pas~aller au     match 
+
+[LINE]
+Speaker507: What?
+~           quoi 
+
+[LINE]
+Speaker295: I  need to~study.
+~           je dois étudier  
+
+[LINE]
+Speaker295: I~have a  really~important~exam     tomorrow.
+~           j'ai   un examen~vraiment~important demain   
+
+[LINE]
+Speaker295: I  need to~pass the~exam to~go~to~medical~school.
+~           je dois réussir l'examen pour~entrer~en~médecine 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Justin ne peut-il pas aller au match ?
++ Il doit réviser pour un examen important.
+- Il a perdu son T-shirt porte-bonheur. 
+- Il doit aller chez le docteur.
+
+[LINE]
+Speaker295: I'm     sorry… 
+~           je~suis désolé 
+
+[LINE]
+> Bea takes~off her coat.   
+~ Bea enlève    son manteau 
+
+[MULTIPLE_CHOICE]
+> En d'autres termes, Bea…
+- … vole le manteau de Justin.
+- … met son manteau.
++ … retire son manteau.
+
+[LINE]
+Speaker507: OK,       do~you~have      any~coffee?
+~           d'accord  est-ce~que~tu~as du~café    
+
+[LINE]
+Speaker295: Why?     
+~           pourquoi 
+
+[LINE]
+Speaker507: Well,    I  don't~want  to~be tired.   
+~           eh~bien  je ne~veux~pas être  fatiguée 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker507: We're~going~to~study [all~night].    
+~           nous~allons~étudier   toute~la~nuit  
+- the tickets.
+~ les billets 
++ all~night.    
+~ toute~la~nuit 
+- a  soccer~ball   
+~ un ballon~de~foot
+
+[LINE]
+Speaker295: But… 
+~           mais 
+
+[LINE]
+Speaker507: You help~me often.  
+~           tu  m'aides souvent 
+
+[LINE]
+Speaker507: Of~course    I'm~going~to~help~you now.       
+~           bien~sûr~que je~vais~t'aider       maintenant 
+
+[LINE]
+Speaker295: But  it's  the~most~exciting~game       of the~year…
+~           mais c'est le~match~le~plus~passionnant de l'année  
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker507: [(You're) (more) (important) (than~a) (game).] 
+~             tu~es    plus   important   qu'un    match   
+
+[LINE]
+Speaker507: And you will~pass   this exam!  
+~           et  tu  vas~réussir cet  examen 
+
+[LINE]
+Speaker507: And when~you're    a~doctor…
+~           et  quand~tu~seras médecin  
+
+[LINE]
+Speaker507: … you're~going~to~buy the soccer~tickets,      right?       
+~             tu~achèteras        les billets~de~football  n'est-ce~pas 
+
+[LINE]
+Speaker295: Of~course, Bea.
+~           bien~sûr   Bea 
+
+[LINE]
+Speaker507: Now        where's the coffee?
+~           maintenant où~est  le  café   
+
+[MULTIPLE_CHOICE]
+> Bea a décidé…
+- … d'inviter quelqu'un d'autre au match.
++ … de ne pas aller au match et d'aider Justin à étudier.
+- … de faire des études de médecine.
+
+[MATCH]
+> Choisis les paires
+- exam <> examen
+- a <> un
+- need <> dois
+- tired <> fatiguée
+- I <> je
+
