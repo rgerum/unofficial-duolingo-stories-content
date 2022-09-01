@@ -1,0 +1,155 @@
+[DATA]
+fromLanguageName=El gran partido
+icon=5a2a2673d889c9c1c2cd45e4163e5439d144d438
+set=13|1
+
+[HEADER]
+> Le grand match  
+~ el gran  partido
+
+[LINE]
+> Béa arrive chez         Simon.
+~ Béa llega  a~la~casa~de Simon 
+
+[LINE]
+Speaker507: Tu~es prêt  ?
+~           estás listo  
+
+[LINE]
+Speaker507: C'est   le match   le~plus~important de~l'année !
+~           este~es el partido más~importante    del~año     
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker507: Et [nous~avons~des~billets] !
+~           y   tenemos~entradas         
+- nous passons les billets
+- nous avons un musée
++ nous avons des billets
+
+[LINE]
+Speaker295: Béa...
+~           Béa   
+
+[LINE]
+Speaker295: Je~ne~peux~pas aller au match.  
+~           no~puedo       ir    al partido 
+
+[LINE]
+Speaker507: Pourquoi ?
+~           por~qué   
+
+[LINE]
+Speaker295: Je~dois   étudier. 
+~           tengo~que estudiar 
+
+[LINE]
+Speaker295: J'ai  un examen très important  demain.
+~           tengo un examen muy  importante mañana 
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Simon no puede ir al partido?
+- Perdió su camiseta de la suerte.
++ Necesita estudiar esta noche.
+- Necesita ir al médico.
+
+[LINE]
+Speaker295: J'ai~besoin~d'avoir une bonne note…
+~           necesito~sacar      una buena nota 
+
+[LINE]
+Speaker295: ... pour entrer en~médecine.              
+~               para entrar a~la~facultad~de~medicina 
+
+[LINE]
+Speaker295: Je~suis~désolé…
+~           lo~siento      
+
+[LINE]
+> Béa met  son manteau sur   la table.
+~ Béa pone su  abrigo  sobre la mesa  
+
+[MULTIPLE_CHOICE]
+> Béa se quitó el abrigo y…
+- … se lo arrojó a Simon.
++ … lo puso sobre la mesa.
+- … lo usó como una manta.
+
+[LINE]
+Speaker507: D'accord,  Simon. Tu~as  du~café ?
+~           está~bien  Simon  tienes café     
+
+[LINE]
+Speaker295: Euh... Oui. Pourquoi ?
+~           eh     sí   por~qué   
+
+[LINE]
+Speaker507: Je~ne~veux~pas être  fatiguée.
+~           no~quiero      estar cansada  
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker507: On~va   étudier  [toute la nuit]. 
+~           vamos~a estudiar  toda  la noche  
+- un ballon de foot  
+~ un balón  de fútbol
++ toute la nuit 
+~ toda  la noche
+- les billets 
+~ las entradas
+
+[LINE]
+Speaker295: Mais…
+~           pero 
+
+[LINE]
+Speaker507: Tu es~toujours   là  pour moi.
+~           tú siempre~estás ahí para mí  
+
+[LINE]
+Speaker507: Et, aujourd'hui, je veux   être  là  pour toi.
+~           y   hoy          yo quiero estar ahí para ti  
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker295: [(Mais) (c'est) (le~match)   (le~plus~important) (de~l'année).]..
+~             pero   es      el~partido   más~importante      del~año        
+
+[LINE]
+Speaker507: Tu es   plus important  qu'un  match.  
+~           tú eres más  importante que~un partido 
+
+[LINE]
+Speaker507: Tu~vas~avoir une bonne note !
+~           vas~a~sacar  una buena nota  
+
+[LINE]
+Speaker507: Et dans le futur,  quand~tu~seras médecin...
+~           y  en   el futuro  cuando~seas    médico    
+
+[LINE]
+Speaker507: ... tu achèteras des  billets  pour un grand match   de foot,   OK        ?
+~               tú comprarás unas entradas para un gran  partido de fútbol  está~bien  
+
+[LINE]
+Speaker295: Bien~sûr, Béa.
+~           claro     Béa 
+
+[LINE]
+Speaker507: Bon,   où    est  mon café ?
+~           bueno  dónde está mi  café  
+
+[MULTIPLE_CHOICE]
+> Béa decidió…
+- … invitar a otro amigo al partido.
++ … no ir al partido y ayudar a Simon a estudiar.
+- … inscribirse en la facultad de medicina.
+
+[MATCH]
+> Selecciona los pares
+- un <> un
+- Tu es <> estás
+- au <> al
+- la <> la
+- très <> muy
+
