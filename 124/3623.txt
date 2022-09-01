@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Le gâteau
+icon=4a31a2e8269bfd907d862c44a3b320899c169419
+set=14|4
+
+[HEADER]
+> The Cake  
+~ le  gâteau
+
+[LINE]
+> Lin goes to   her kitchen. She  looks   in   the fridge.
+~ Lin va   dans sa  cuisine  elle regarde dans le  frigo  
+
+[LINE]
+Speaker508: Where is  my  cake?  
+~           où    est mon gâteau 
+
+[LINE]
+> Lin sees her grandmother, Lucy, at the~table. 
+~ Lin voit sa  grand-mère   Lucy  à  (la)~table 
+
+[LINE]
+Speaker508: Grandma, what~did~you~just~eat?  
+~           mamie    tu~viens~de~manger~quoi 
+
+[LINE]
+> Lucy hides her plate.   
+~ Lucy cache son assiette 
+
+[MULTIPLE_CHOICE]
+> Lucy tente de cacher son assiette à Lin.
++ Oui, c'est vrai.
+- Non, c'est faux.
+
+[LINE]
+Speaker509: Uhh… a  sandwich!
+~           euh  un sandwich 
+
+[LINE]
+Speaker508: I  can't~find    my  cake.  
+~           je ne~trouve~pas mon gâteau 
+
+[LINE]
+Speaker509: That's strange. What~does~it~look~like?
+~           c'est  étrange  il~ressemble~à~quoi    
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker508: [(It's)  (a)  (very) (small) (cake).]  
+~             c'est   un   très   petit   gâteau   
+
+[LINE]
+Speaker509: Are~there oranges     on  the cake?  
+~           y~a-t-il  des~oranges sur le  gâteau 
+
+[LINE]
+Speaker508: Yes! There~are a~lot    of~oranges on  the cake.  
+~           oui  il~y~a    beaucoup d'oranges  sur le  gâteau 
+
+[LINE]
+Speaker509: Is~your~cake              yellow?
+~           est-ce~que~ton~gâteau~est jaune  
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker508: Yes! My  cake   [is  yellow]!
+~           oui  mon gâteau  est jaune   
++ is  yellow
+~ est jaune 
+- is  very large
+~ est très gros 
+- is  red  
+~ est rouge
+
+[LINE]
+Speaker509: Is~your~cake              very, very delicious?
+~           est-ce~que~ton~gâteau~est très  très délicieux 
+
+[LINE]
+Speaker508: Grandma! Did~you~eat            my  cake?!  
+~           mamie    est-ce~que~tu~as~mangé mon gâteau  
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker509: No!  I  [didn't~eat~it]!    
+~           non  je  ne~l'ai~pas~mangé  
+- didn't read it
+- did need it
++ didn't eat it
+
+[LINE]
+Speaker508: OK.       Sorry.   I'll~make     another…  chocolate~cake.    
+~           d'accord  désolée  je~vais~faire un~autre  gâteau~au~chocolat 
+
+[LINE]
+Speaker509: Chocolate?   But  your cake   was   vanilla!     
+~           au~chocolat  mais ton  gâteau était à~la~vanille 
+
+[LINE]
+Speaker508: Ha! Yes, it was   vanilla!      You did~eat       my  cake!  
+~           ha  oui  il était à~la~vanille  tu  as~bien~mangé mon gâteau 
+
+[MULTIPLE_CHOICE]
+> Comment Lin a-t-elle découvert que Lucy avait bien mangé son gâteau ?
+- Lucy avait du gâteau autour de la bouche.
+- Elle a trouvé l'assiette de Lucy.
++ Lucy connaissait le parfum du gâteau.
+
+[MATCH]
+> Choisis les paires
+- to <> dans
+- kitchen <> cuisine
+- That's <> c'est
+- looks <> regarde
+- But <> mais
+
