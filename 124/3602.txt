@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=Je me sens mal
+icon=68ffeb0d8b8a73e7de5cd3b964b34d0e08761977
+set=9|3
+
+[HEADER]
+> I  Feel~Sick  
+~ je me~sens~mal
+
+[LINE]
+Speaker415: Dad!  I  feel~sick!  
+~           Papa  je me~sens~mal 
+
+[LINE]
+Speaker414: Oh, no! 
+~           oh  non 
+
+[LINE]
+> Eddy touches Junior's~head.    
+~ Eddy touche  la~tête~de~Junior 
+
+[LINE]
+Speaker414: You don't~have a~fever.  
+~           tu  n'as~pas   de~fièvre 
+
+[MULTIPLE_CHOICE]
+> Junior a de la fièvre.
++ Non, c'est faux.
+- Oui, c'est vrai.
+
+[LINE]
+Speaker415: But  my  ear     hurts!       I  want to~go to~the~doctor's~office!
+~           mais mon oreille me~fait~mal  je veux aller chez~le~médecin        
+
+[LINE]
+Speaker414: OK...      
+~           d'accord   
+
+[LINE]
+> They go   to~the~doctor's~office.
+~ ils  vont chez~le~médecin        
+
+[LINE]
+Speaker341: It's~nice        to~see~you~again, Junior.
+~           c'est~un~plaisir de~te~revoir      Junior 
+
+[LINE]
+Speaker341: What's~wrong?           
+~           qu'est~ce~qui~ne~va~pas 
+
+[LINE]
+Speaker414: His ear     hurts.       
+~           son oreille lui~fait~mal 
+
+[LINE]
+Speaker341: Oh, no!  I  can~help.  
+~           oh  non  je peux~aider 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+> The doctor  looks~at [Junior's~ear].       
+~ la  médecin regarde   l'oreille~de~Junior  
+- Eddy's~shoes         
+~ les~chaussures~d'Eddy
+- the~clock
+~ l'horloge
++ Junior's~ear       
+~ l'oreille~de~Junior
+
+[LINE]
+Speaker341: Hmm… Your ear     is~fine.
+~           hmm  ton  oreille va~bien 
+
+[LINE]
+Speaker415: Oh! Well…    My  foot hurts.      
+~           oh  et~bien  mon pied me~fait~mal 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+> [(The) (doctor)  (looks~at) (Junior's~foot).]    
+~   la    médecin   regarde    le~pied~de~Junior   
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker341: Your foot [is~also~fine]. 
+~           ton  pied  va~bien~aussi  
++ is also fine
+- is also mine
+- it's all the wine
+
+[LINE]
+Speaker414: Is~he~OK,   Doctor? 
+~           il~va~bien  docteur 
+
+[LINE]
+Speaker341: Yes.
+~           oui 
+
+[LINE]
+Speaker341: You're~not  sick,   Junior.
+~           tu~n'es~pas malade  Junior 
+
+[LINE]
+Speaker415: I  am   sick!  
+~           je suis malade 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « des bonbons ».
+Speaker341: (Junior)... (are) you (here) because   I  always~give~you   (+candy)?      
+~            Junior      es   tu   ici   parce~que je te~donne~toujours   des~bonbons  
+
+[LINE]
+Speaker415: Umm… Yes.
+~           hmm  oui 
+
+[LINE]
+Speaker414: Junior!
+~           Junior 
+
+[LINE]
+Speaker415: So...    Can~I~have    my  candy   now?       
+~           alors    je~peux~avoir mes bonbons maintenant 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Junior voulait-il aller chez la docteur ?
++ Elle lui donne toujours des bonbons.
+- Il avait un cadeau pour elle.
+- Il était très malade.
+
+[MATCH]
+> Choisis les paires
+- Dad <> Papa
+- Your <> ton
+- Junior's head <> la tête de Junior
+- go <> vont
+- candy <> des bonbons
+
