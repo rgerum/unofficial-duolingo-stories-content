@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Projets d'anniversaire
+icon=9ac312d372abe49d99606848f5a7a8414143346d
+set=11|1
+
+[HEADER]
+> Birthday~Plan         
+~ projets~d'anniversaire
+
+[LINE]
+> Eddy is~sleeping. Junior runs  into his room.   
+~ Eddy dort         Junior court dans sa  chambre 
+
+[LINE]
+Speaker415: Dad!  Dad! 
+~           Papa  Papa 
+
+[LINE]
+Speaker414: What? Huh? Oh, good~morning, Junior.
+~           quoi  heu  oh  bonjour       Junior 
+
+[LINE]
+Speaker415: Dad,  I  can't~wait~for            my birthday~party!     
+~           Papa  je n'en~peux~plus~d'attendre ma fête~d'anniversaire 
+
+[MULTIPLE_CHOICE]
+> Junior ne veut pas de fête d'anniversaire.
++ Non, c'est faux.
+- Oui, c'est vrai.
+
+[LINE]
+Speaker414: Oh! Yes… Happy  birthday…?    
+~           oh  oui  joyeux anniversaire  
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker414: [(What) (kind~of) (party) (do~you~want), (Junior)?]
+~             quel   type~de   fête    tu~veux        Junior   
+
+[LINE]
+Speaker415: I  don't~know! 
+~           je ne~sais~pas 
+
+[LINE]
+Speaker415: But  I  want ice~cream!   A~lot    of ice~cream!
+~           mais je veux de~la~glace  beaucoup de glace     
+
+[LINE]
+Speaker414: OK,       Junior! It's  your birthday!    
+~           d'accord  Junior  c'est ton  anniversaire 
+
+[LINE]
+Speaker415: Can~we~also~have    a  big  cake?  
+~           peut-on~aussi~avoir un gros gâteau 
+
+[LINE]
+Speaker414: Of~course, Junior!
+~           bien~sûr   Junior 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker415: Great!  And I  [want~all~my~friends~to] come!    
+~           génial  et  je  veux~que~tous~mes~amis  viennent 
+- want all of my fish to
+- want a lot of fries to
++ want all my friends to
+
+[LINE]
+Speaker414: Oh! We   need   to~invite~them~all now!       
+~           oh  nous devons tous~les~inviter   maintenant 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker414: What~time      do~you~want to~have [your party]?
+~           à~quelle~heure tu~veux     avoir    ta   fête   
++ your party
+~ ta   fête 
+- my  birthday    
+~ mon anniversaire
+- the morning
+~ le  matin  
+
+[LINE]
+> Eddy looks~at his phone.    
+~ Eddy regarde  son téléphone 
+
+[LINE]
+Speaker414: Wait…    it's  only      January. Your birthday     is  in May, Junior!
+~           attends  c'est seulement janvier  ton  anniversaire est en mai  Junior 
+
+[LINE]
+Speaker415: Yes, I  know. I~can't~wait!  
+~           oui  je sais  j'ai~trop~hâte 
+
+[LINE]
+Speaker415: But  can~we~still~have        ice~cream   today,       Dad? 
+~           mais on~peut~quand~même~avoir de~la~glace aujourd'hui  Papa 
+
+[LINE]
+Speaker414: Aaah… Yes, Junior.
+~           aaah  oui  Junior 
+
+[MULTIPLE_CHOICE]
+> De quoi Eddy s'est-il rendu compte ?
++ L'anniversaire de Junior est dans quelques mois.
+- Junior n'aime pas la glace.
+- Il a oublié que l'anniversaire de Junior était aujourd'hui.
+
+[MATCH]
+> Choisis les paires
+- Oh <> oh
+- We <> nous
+- runs <> court
+- to invite them all <> tous les inviter
+- Can we also have <> peut-on aussi avoir
+
