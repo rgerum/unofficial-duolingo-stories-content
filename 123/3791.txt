@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=Una carta de amor
+icon=4ba2733ddb8bdc3f0924c6463da01f5d1eccaf40
+set=14|2
+
+[HEADER]
+> Lettre    d'amour
+~ una~carta de~amor
+
+[LINE]
+> Zari est  avec son voisin, Junior. Ils   sont  à  la bibliothèque.
+~ Zari está con  su  vecino  Junior  ellos están en la biblioteca   
+
+[LINE]
+Speaker418: Junior, tu~fais~quoi       ?
+~           Junior  qué~estás~haciendo  
+
+[LINE]
+Speaker415: Hmm… J'écris           une lettre.
+~           mmm  estoy~escribiendo una carta  
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker418: [Tu~écris~une~lettre]         pour qui   ?
+~            estás~escribiendo~una~carta  para quién  
+- Elle écrit à la fenêtre
++ Tu écris une lettre
+- Tu lis mes lettres
+
+[LINE]
+Speaker415: C'est pour une fille. Je~l'aime~beaucoup.  
+~           es    para una chica  ella~me~cae~muy~bien 
+
+[LINE]
+Speaker418: Oh ! C'est une lettre d'amour ? Elle est  dans ta classe ?
+~           ah   es    una carta  de~amor   ella está en   tu clase   
+
+[LINE]
+Speaker415: Non... Elle est plus~vieille que moi.
+~           no     ella es  mayor        que yo  
+
+[MULTIPLE_CHOICE]
+> Junior está escribiendo una carta de amor para una chica mayor.
+- No, no es así.
++ Sí, así es.
+
+[LINE]
+Speaker418: Plus~vieille ? Elle a     mon âge  ?
+~           mayor          ella tiene mi  edad  
+
+[LINE]
+Speaker415: Oui, c'est   ma... voisine.
+~           sí   ella~es mi    vecina  
+
+[LINE]
+Speaker418: Attends~un~peu...   
+~           espera~un~momento   
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker418: [(Elle~a)     (mon~âge) (et) (c'est)   (ta~voisine) ]?
+~             ella~tiene   mi~edad   y    ella~es   tu~vecina     
+
+[LINE]
+Speaker415: Euh… Oui.
+~           eh   sí  
+
+[LINE]
+Speaker418: Hmm… Elle est intelligente ?
+~           mmm  ella es  inteligente   
+
+[LINE]
+Speaker415: Oui !
+~           sí   
+
+[LINE]
+Speaker418: Oh, Junior !
+~           ah  Junior  
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker418: C'est pour moi ? Désolée,   mais tu es   [trop      jeune].
+~           es    para mí    lo~siento  pero tú eres  demasiado joven  
++ trop      jeune
+~ demasiado joven
+- ma voisine
+~ mi vecina 
+- trop      vieille
+~ demasiado vieja  
+
+[LINE]
+Speaker415: Non ! Ce   n'est~pas pour toi, c'est pour ta meilleure amie  !
+~           no    esta no~es     para ti   es    para tu mejor     amiga  
+
+[LINE]
+Speaker415: Tu~peux   donner ma lettre à Lily ?
+~           le~puedes dar    mi carta  a Lily  
+
+[MULTIPLE_CHOICE]
+> ¿Para quién es la carta de amor de Junior?
+- Zari
+- la hermana de Zari
++ Lily, la mejor amiga de Zari
+
+[MATCH]
+> Selecciona los pares
+- Zari <> Zari
+- est <> está
+- a <> tiene
+- amie <> amiga
+- donner <> dar
+
