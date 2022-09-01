@@ -1,0 +1,188 @@
+[DATA]
+fromLanguageName=The New Roommate
+icon=d946aa1aadbdd681c7112885dc7a89e1ba1683cf
+set=37|3
+
+[HEADER]
+> La  nouvelle colocataire
+~ the new      roommate   
+
+[LINE]
+> Lin boit        du~vin avec son amie   Diane dans un restaurant.
+~ Lin is~drinking wine   with her friend Diane in   a  restaurant 
+
+[LINE]
+Speaker508: Je ne~veux~pas que~tu~déménages !
+~           I  don't~want  you~to~move       
+
+[LINE]
+Speaker1187: Je sais, mais cette ville est trop chère.     
+~            I  know  but  this  city  is  too  expensive  
+
+[LINE]
+Speaker1187: Mon appartement coûte trop~cher !
+~            my  apartment   costs too~much   
+
+[LINE]
+Speaker508: J'ai   une idée ! Et~si   tu  venais habiter avec ma grand-mère  et  moi ? Tu  pourras dormir     sur le  canapé !
+~           I~have an  idea   what~if you came   to~live with my grandmother and me    you can     (to)~sleep on  the couch   
+
+[MULTIPLE_CHOICE]
+> Lin ne~veut~pas  que~Diane~déménage, alors elle...
+~ Lin doesn't~want Diane~to~move       so    she    
+- ... lui~dit~de   vendre    son canapé.
+~     tells~her~to (to)~sell her couch  
++ ... l'invite        à  venir     habiter   chez~elle.   
+~     is~inviting~her to (to)~come (to)~live at~her~house 
+- ... va       manger dans un restaurant~moins~cher.    
+~     is~going to~eat in   a  less~expensive~restaurant 
+
+[LINE]
+Speaker1187: Waouh, vraiment ? Tu  es  sûre ?
+~            wow    really     you are sure  
+
+[LINE]
+Speaker508: Mais tu  dois    d'abord rencontrer ma grand-mère.  C'est son appartement.
+~           but  you have~to first   (to)~meet  my grandmother  it's  her apartment   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1187: Et~si   [on~ne~s'entend~pas~bien] ?
+~            what~if  we~don't~get~along~well   
+- on n'entend pas le chien
++ on ne s'entend pas bien
+- on ne s'attend pas loin
+
+[LINE]
+Speaker508: Je suis sûre qu'elle  t'aimera      ! Enfin, presque sûre...
+~           I  am   sure that~she will~like~you   well   almost  sure   
+
+[LINE]
+> Plus~tard dans la  semaine, Diane rencontre Lucie à  son appartement.
+~ later     in   the week     Diane meets     Lucie at her apartment   
+
+[LINE]
+Speaker509: Lin dit  que  vous avez~besoin~d'un endroit~où~habiter.
+~           Lin says that you  need~a           place~to~live      
+
+[LINE]
+Speaker509: Vous avez~l'air sympa, mais je voudrais   être  sûre que  vous serez   une bonne colocataire.
+~           you  look       nice   but  I  would~like to~be sure that you  will~be a   good  roommate    
+
+[LINE]
+Speaker1187: C'est  normal, je comprends. 
+~            that's normal  I  understand 
+
+[MULTIPLE_CHOICE]
+> Lucie veut~dire qu'elle  doit...  
+~ Lucie means     that~she has~to   
++ ... être    sûre qu'elle  peut vivre     avec Diane.
+~     (to)~be sure that~she can  (to)~live with Diane 
+- ... aider~Diane~à   payer        son loyer.
+~     (to)~help~Diane (to)~pay~for her rent  
+- ... offrir     un nouveau job à  Diane.
+~     (to)~offer a  new     job to Diane 
+
+[LINE]
+Speaker509: Vous~vous~couchez tard d'habitude ?
+~           do~you~go~to~bed  late usually     
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker1187: Avant  oui, mais maintenant je~me~couche [tôt].  
+~            before yes  but  now        I~go~to~bed   early  
++ tôt  
+~ early
+- en~colère
+~ angry    
+- tard
+~ late
+
+[LINE]
+Speaker509: Vous~avez   un travail ?
+~           do~you~have a  job      
+
+[LINE]
+Speaker1187: Je travaille dans un restaurant pour~l'instant, mais j'étudie     pour devenir     avocate.   
+~            I  work      in   a  restaurant for~the~moment  but  I'm~studying to   (to)~become (a)~lawyer 
+
+[LINE]
+Speaker509: Vous~préférez boire    du~café ou du~thé ?
+~           do~you~prefer drinking coffee  or tea     
+
+[LINE]
+Speaker1187: Je déteste le~café !
+~            I  hate    coffee   
+
+[ARRANGE]
+> Tap what you hear
+Speaker1187: [(Mais) (je) (bois)  (du~thé) (tous~les~jours) ]! 
+~              but    I    drink   tea      every~day          
+
+[LINE]
+Speaker1187: Je peux vous~en~faire      si vous voulez.
+~            I  can  (to)~make~you~some if you  want   
+
+[LINE]
+Speaker509: Hmm, je vous~aime~bien~vous !
+~           hmm  I  like~you             
+
+[LINE]
+> Plus~tard, Lin rentre     chez~elle. Elle voit Lucie en~train~de~boire du~thé dans la  cuisine.
+~ later      Lin comes~back home       she  sees Lucie drinking          tea    in   the kitchen 
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker508: Alors, mamie   ? Diane peut [habiter   avec nous ]?
+~           so     grandma   Diane can   (to)~live with us     
+- détester  notre canapé
+~ (to)~hate our   couch 
++ habiter   avec nous
+~ (to)~live with us  
+- boire      du~café
+~ (to)~drink coffee 
+
+[LINE]
+Speaker509: Oui !
+~           yes  
+
+[LINE]
+Speaker508: Merci     !
+~           thank~you  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: Et  elle a~proposé~de [payer~un~loyer], alors je lui~ai~donné ta   chambre.
+~           and she  offered~to    (to)~pay~rent    so    I  gave~her     your bedroom 
+- plier un loyer
+- payer un cahier
++ payer un loyer
+
+[LINE]
+Speaker508: Quoi ?!
+~           what   
+
+[LINE]
+Speaker509: Toi, tu  vis  ici  gratuitement, donc tu  peux dormir     sur le  canapé.
+~           you  you live here for~free      so   you can  (to)~sleep on  the couch  
+
+[MULTIPLE_CHOICE]
+> Ha ! Lin pensait que  Diane pouvait dormir     sur le  canapé, mais…
+~ ha   Lin thought that Diane could   (to)~sleep on  the couch   but  
++ ... Diane va       prendre sa  chambre.
+~     Diane is~going to~take her bedroom 
+- ... Lucie n'aime~vraiment~pas Diane.
+~     Lucie doesn't~really~like Diane 
+- ... Diane n'avait~pas assez~d'argent.
+~     Diane didn't~have enough~money   
+
+[MATCH]
+> Tap the pairs
+- Quoi <> what
+- canapé <> couch
+- Elle <> she
+- sais <> know
+- un <> a
+
