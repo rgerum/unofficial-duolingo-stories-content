@@ -1,0 +1,147 @@
+[DATA]
+fromLanguageName=Kẻ trộm bánh sandwich
+icon=71bc9bc5c6a5619a4f4ee9651bbb246b449bf495
+set=23|3
+
+[HEADER]
+> The~Sandwich~Thief   
+~ kẻ~trộm~bánh~sandwich
+
+[LINE]
+> Eddy is~in        the~kitchen at  the~office where    he     works.   
+~ Eddy đang~ở~trong phòng~bếp   tại văn~phòng  nơi~(mà) anh~ấy làm~việc 
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “đồng nghiệp”.
+> He     (is~talking~to)       (his)        new (+colleague),   (Elena).
+~ anh~ấy  đang~nói~chuyện~với   của~anh~ấy  mới   đồng~nghiệp    Elena  
+
+[LINE]
+Speaker414: Ugh!      It~happened~again!
+~           bực~thật  lại~nữa~rồi       
+
+[LINE]
+Speaker125: What?  
+~           gì~thế 
+
+[LINE]
+Speaker414: Someone  stole       my~lunch!        
+~           có~người đã~lấy~trộm bữa~trưa~của~tôi 
+
+[MULTIPLE_CHOICE]
+> Có người cứ lấy trộm đồ ăn trưa của Eddy.
+- Không đúng.
++ Đúng vậy.
+
+[LINE]
+Speaker414: This     has~happened every~day for~the~past~week!   
+~           việc~này đã~xảy~ra    hằng~ngày suốt~cả~tuần~vừa~rồi 
+
+[LINE]
+Speaker125: Really? That's~strange.
+~           thật~á  lạ~thế~nhỉ     
+
+[LINE]
+Speaker414: I   think Phil has~been~stealing my~food.      
+~           tôi nghĩ  Phil đã~lấy~trộm       đồ~ăn~của~tôi 
+
+[LINE]
+Speaker125: Yeah,     Phil always       looks~hungry.         
+~           phải~đấy  Phil lúc~nào~cũng trông~như~đang~đói~ăn 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker414: [(He)     (stole)       (my)      (ham~sandwich)       (yesterday)!]
+~             anh~ta   đã~lấy~trộm   của~tôi   sandwich~giăm~bông   hôm~qua     
+
+[LINE]
+Speaker125: Do~you~mean      your~chicken~sandwich?     
+~           có~phải~ý~anh~là sandwich~thịt~gà~(của~anh) 
+
+[LINE]
+Speaker125: You brought a~ham~sandwich     on~Tuesday.
+~           anh đã~mang sandwich~giăm~bông vào~thứ~Ba 
+
+[LINE]
+Speaker414: What?   How~do~you~know that?     
+~           cái~gì  sao~cô~biết     chuyện~đó 
+
+[LINE]
+Speaker125: Uh… I'm~good~at~guessing!
+~           ờm  tôi~đoán~giỏi~thôi   
+
+[MULTIPLE_CHOICE]
+> Khoan đã! Ý Elena là gì?
++ Cô ấy có thể đoán được Eddy đã mang gì đi ăn trưa.
+- Cô ấy có thể đoán trước tương lai.
+- Cô ấy làm sandwich giăm bông rất ngon.
+
+[LINE]
+Speaker414: Well,     I   have a   surprise for      Phil tomorrow.
+~           được~rồi  tôi có   một bất~ngờ  dành~cho Phil ngày~mai 
+
+[LINE]
+Speaker414: I'm~going~to bring a       disgusting~fish~and~banana~sandwich!
+~           tôi~sẽ       mang  1~chiếc sandwich~cá~và~chuối~kinh~dị        
+
+[LINE]
+Speaker125: Good~plan. 
+~           kế~hay~đấy 
+
+[LINE]
+> The~next~day, Eddy sees~Elena~again.
+~ ngày~hôm~sau  Eddy gặp~lại~Elena    
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker414: No~one         stole    [my~lunch         today]!  
+~           không~có~ai…cả lấy~trộm  bữa~trưa~của~tôi hôm~nay  
+- my~fancy~watch                 
+~ chiếc~đồng~hồ~sành~điệu~của~tôi
+- your~gym~shoes         
+~ đôi~giày~tập~gym~của~cô
++ my~lunch         today  
+~ bữa~trưa~của~tôi hôm~nay
+
+[LINE]
+Speaker125: But   that's~a~good~thing, right?     
+~           nhưng thế~là~tốt~mà        phải~không 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker414: No,    I   only~brought that~fish~and~banana~sandwich… so      now     [I~have~to~eat~it].  
+~           không  tôi chỉ~mang~mỗi chiếc~sandwich~cá~và~chuối~đó  cho~nên bây~giờ  tôi~lại~phải~ăn~nó  
+- why have you eaten it
++ I have to eat it
+- I have to read it
+
+[LINE]
+Speaker125: Well, I   have a       delicious~turkey~sandwich     today.  
+~           à     tôi mang 1~chiếc sandwich~thịt~gà~tây~rất~ngon hôm~nay 
+
+[LINE]
+Speaker414: Really? You don't~usually~bring     your~lunch.       
+~           thế~á   cô  mọi~khi~đâu~có~hay~mang bữa~trưa~(của~cô) 
+
+[LINE]
+Speaker125: Well,  I'm    allergic~to bananas.
+~           à~thì  tôi~bị dị~ứng~với  chuối   
+
+[LINE]
+Speaker414: Wait…   It~was~you!
+~           đợi~đã  ra~là~cô~à 
+
+[MULTIPLE_CHOICE]
+> Ai đã lấy trộm đồ ăn trưa của Eddy?
++ Elena
+- con gà tây
+- Phil
+
+[MATCH]
+> Nhấn vào các cặp từ
+- a <> một
+- my <> của tôi
+- for the past week <> suốt cả tuần vừa rồi
+- only brought <> chỉ mang mỗi
+- But <> nhưng
+
