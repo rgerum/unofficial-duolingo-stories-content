@@ -1,0 +1,146 @@
+[DATA]
+fromLanguageName=Who's Coming to Dinner?
+icon=dc357430b977e970c350bd02c026ab07731f28f3
+set=32|3
+
+[HEADER]
+> Qui vient     dîner     ?
+~ who is~coming to~dinner  
+
+[LINE]
+> Lucie prépare   de~la~soupe. Lin entre~dans la  cuisine.
+~ Lucie is~making soup         Lin walks~in   the kitchen 
+
+[LINE]
+Speaker509: Tu  sais qui vient     dîner     ce~soir ?
+~           you know who is~coming to~dinner tonight  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker508: Eh~bien, tu  prépares   ta   célèbre [soupe~de~poisson], alors ça doit   être    quelqu'un de~spécial.
+~           well     you are~making your famous   fish~soup          so    it has~to (to)~be someone   special    
+- coupe de poison
+- soupe de boisson
++ soupe de poisson
+
+[LINE]
+Speaker509: Oui ! C'est quelqu'un de~très~spécial.
+~           yes   it's  someone   very~special    
+
+[LINE]
+Speaker508: Ton  amie,   l'actrice~italienne ?
+~           your friend  the~Italian~actress  
+
+[LINE]
+Speaker509: Non, elle travaille  sur un film. 
+~           no   she  is~working on  a  movie 
+
+[MULTIPLE_CHOICE]
+> The famous actress is coming to dinner.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker509: C'est quelqu'un de~plus~important. Tu  ne~peux~pas rester    en pyjama  !
+~           it's  someone   more~important     you can't       (to)~stay in pajamas  
+
+[LINE]
+Speaker508: Oh, vraiment ? Bon,  je vais     mettre    autre~chose.   
+~           oh  really     well  I  am~going to~put~on something~else 
+
+[MULTIPLE_CHOICE]
+> Hmm… it sounds like Lin is currently wearing…
+- ...a beautiful dress.
+- ...a swimsuit.
++ ...pajamas.
+
+[LINE]
+> Lin va   dans sa  chambre. Elle met     une chemise et  un~jean.
+~ Lin goes to   her bedroom  she  puts~on a   shirt   and jeans   
+
+[LINE]
+Speaker508: C'est... ton  ami    Hector ?
+~           is~it    your friend Hector  
+
+[LINE]
+Speaker508: Il était en Argentine pour prendre   des~chevaux~sauvages~en~photo, non ? Il~est~rentré ?
+~           he was   in Argentina to   (to)~take photos~of~wild~horses          no    is~he~back     
+
+[LINE]
+Speaker509: Non, il prend     des~lions~en~photo maintenant. En Inde. 
+~           no   he is~taking photos~of~lions    now         in India 
+
+[LINE]
+Speaker508: C'est l'astronaute  avec qui  tu  as~travaillé ?
+~           is~it the~astronaut with whom you worked        
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: Non, il se~prépare       à  [aller~sur~Mars]. 
+~           no   he is~getting~ready to  (to)~go~to~Mars  
+- saler son Mars
+- aller sur Nassya
++ aller sur Mars
+
+[LINE]
+Speaker508: Attends~un~peu... C'est   un rencard ? Pour moi ?
+~           wait~a~minute     is~this a  date      for  me   
+
+[CONTINUATION]
+> What comes next?
+Speaker508: Je n'ai~pas~besoin~d'aide pour [rencontrer des~gens].
+~           I  don't~need~help        to    (to)~meet  people    
++ rencontrer des~gens
+~ (to)~meet  people  
+- mettre      mon~pyjama
+~ (to)~put~on my~pajamas
+- acheter  des~Mars
+~ (to)~buy Mars    
+
+[LINE]
+Speaker509: Bien~sûr~que~non !
+~           of~course~not     
+
+[LINE]
+> Quelqu'un frappe~à  la  porte. C'est l'ami~de~Lucie, Franck.
+~ someone   knocks~on the door   it's  Lucie's~friend  Franck 
+
+[LINE]
+Speaker509: Lin, voici   Franck.
+~           Lin  this~is Franck 
+
+[LINE]
+Speaker113: Salut, Lin ! Ta   grand-mère  voulait~vraiment qu'on~se~rencontre.
+~           hi     Lin   your grandmother really~wanted    us~to~meet         
+
+[LINE]
+Speaker508: Mamie   !
+~           Grandma  
+
+[ARRANGE]
+> Tap what you hear
+Speaker509: [(Franck) (aide)  (les~gens) (à~préparer)   (leurs~CV).]    
+~             Franck   helps   people     (to)~prepare   their~résumé   
+
+[LINE]
+Speaker113: Ta   grand-mère  m'a~dit que  tu  avais~besoin~d'aide pour trouver   un travail ?
+~           your grandmother told~me that you needed~help         to   (to)~find a  job      
+
+[LINE]
+Speaker508: Oh… Je vais     remettre       mon~pyjama.
+~           oh  I  am~going to~put~back~on my~pajamas 
+
+[MULTIPLE_CHOICE]
+> Why is Lin putting her pajamas back on?
+- She wants to look nice for her date.
++ The dinner guest is just someone to help her find a job.
+- Her pajamas make her look like an astronaut.
+
+[MATCH]
+> Tap the pairs
+- Eh bien <> well
+- Attends un peu <> wait a minute
+- C'est <> it's
+- sur <> on
+- Non <> no
+
