@@ -1,0 +1,114 @@
+[DATA]
+fromLanguageName=Trổ tài nấu bữa sáng
+icon=6d79d91b8caad82e9f6ce44a1b458f12ac6a7a9f
+set=13|2
+
+[HEADER]
+> Making Breakfast
+~ làm    bữa~sáng 
+
+[LINE]
+> Eddy is~making breakfast for Junior.
+~ Eddy đang~làm  bữa~sáng  cho Junior 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker415: Hey,  Dad! [What~are~you~doing]?
+~           chào  bố    bố~đang~làm~gì~đấy  
+- When are you doing
+- What's your dog
++ What are you doing
+
+[LINE]
+Speaker414: Good~morning,     Junior! I'm~making  a   big~breakfast       for you!
+~           chào~(buổi~sáng)  Junior  bố~đang~làm một bữa~sáng~thịnh~soạn cho con 
+
+[LINE]
+Speaker415: Breakfast? 
+~           bữa~sáng~ư 
+
+[LINE]
+Speaker414: Yes. I  never            have time      to~make breakfast for you.
+~           ừ    bố chẳng~bao~giờ…cả có   thời~gian để~làm  bữa~sáng  cho con 
+
+[LINE]
+Speaker414: But   today   is  different!
+~           nhưng hôm~nay thì khác      
+
+[MULTIPLE_CHOICE]
+> Ý Eddy là gì?
+- Hôm nay anh ấy không có thời gian nấu ăn sáng.
+- Sáng nào anh ấy cũng nấu cho Junior ăn.
++ Hôm nay anh ấy có thời gian nấu ăn sáng.
+
+[LINE]
+Speaker415: Dad, I   don't~want breakfast.
+~           bố   con không~muốn bữa~sáng  
+
+[LINE]
+Speaker414: What?!      But   I'm~making  eggs… 
+~           cái~gì~cơ   nhưng bố~đang~làm trứng 
+
+[LINE]
+Speaker415: I   don't~want~eggs.    
+~           con không~muốn~ăn~trứng 
+
+[LINE]
+Speaker414: You love         eggs. 
+~           con thích…lắm~mà trứng 
+
+[LINE]
+Speaker415: Yes,  but—  
+~           vâng  nhưng 
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là "xúc xích".
+Speaker414: (And)    (there's) (+sausage)  (too)!
+~            và~còn   có         xúc~xích   nữa  
+
+[LINE]
+Speaker414: You love         eating sausage  for~breakfast!
+~           con thích…lắm~mà ăn     xúc~xích vào~bữa~sáng  
+
+[LINE]
+Speaker415: That's~right, but—  
+~           đúng~vậy      nhưng 
+
+[LINE]
+Speaker414: So  what's~wrong,    Junior?
+~           thế có~chuyện~gì~hả  Junior 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker415: Dad… it's       [one~o'clock]!
+~           bố   bây~giờ~là  một~giờ~rồi  
+- on the clothes
+- one on clock
++ one o'clock
+
+[LINE]
+> Eddy looks~at his~watch.                   
+~ Eddy nhìn     đồng~hồ~đeo~tay~(của~anh~ấy) 
+
+[LINE]
+Speaker414: Oh~no…     making breakfast takes a~long~time.        
+~           chết~thật  làm    bữa~sáng  tốn   nhiều~thời~gian~quá 
+
+[LINE]
+Speaker415: But   now we       can~make   lunch!   
+~           nhưng giờ chúng~ta có~thể~làm bữa~trưa 
+
+[MULTIPLE_CHOICE]
+> Vì sao Junior nói rằng họ nên nấu bữa trưa?
+- Cậu ấy đã chuẩn bị bữa sáng cho Eddy.
++ Eddy chuẩn bị bữa sáng quá lâu.
+- Eddy đã ăn hết đồ ăn sáng.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- lunch <> bữa trưa
+- his watch <> đồng hồ đeo tay
+- a <> một
+- for <> cho
+- to make <> để làm
+
