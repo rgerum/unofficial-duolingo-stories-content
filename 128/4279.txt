@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=Ứng viên sáng giá
+icon=5899822ff564221d831e0f0f0a91755383fd85a6
+set=29|2
+
+[HEADER]
+> Perfect~for             the~Job  
+~ (ứng~viên)~lý~tưởng~cho công~việc
+
+[LINE]
+> Junior enters an  ice~cream~store. He     speaks~to      Jerry, the~manager.    
+~ Junior vào    một cửa~hàng~kem     cậu~ấy nói~chuyện~với Jerry  cửa~hàng~trưởng 
+
+[LINE]
+Speaker415: Can~I~have              a       chocolate~ice~cream and a   job~application?
+~           chú~cho~cháu…được~không 1~chiếc kem~sô-cô-la        và  một đơn~xin~việc    
+
+[LINE]
+Speaker2243: Umm. How~old~are~you?  
+~            ờm   cháu~mấy~tuổi~rồi 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker415: I'm  old~enough to~know that your~chocolate~ice~cream [needs~more~sugar].   Are~you  the~manager?    
+~           cháu đủ~tuổi    để~biết rằng kem~sô-cô-la~của~chú      cần~cho~thêm~đường   chú~là…à cửa~hàng~trưởng 
+- is more sure
+- eats more sugar
++ needs more sugar
+
+[LINE]
+Speaker2243: Yes,~I~am.
+~            ừ~phải    
+
+[LINE]
+Speaker415: I'm     Junior. Listen,         if  you give~me~a~job,    I    can~help    you make      a~lot~of  money.
+~           cháu~là Junior  thế~này~đi~chú  nếu chú cho~cháu~vào~làm  cháu có~thể~giúp chú kiếm~được rất~nhiều tiền  
+
+[MULTIPLE_CHOICE]
+> Hả?! Junior sẽ giúp cửa hàng trưởng làm gì cơ?
++ kiếm rất nhiều tiền
+- tiêu thật nhiều tiền
+- đem tiền đi làm từ thiện
+
+[LINE]
+Speaker2243: But   you're~just a   kid.        
+~            nhưng cháu~chỉ~là một đứa~trẻ~con 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker415: [(That's)      (why)           (I'm)     (perfect~for)             (the~job).]      
+~             đó~chính~là   lý~do~tại~sao   cháu~là   (ứng~viên)~lý~tưởng~cho   công~việc~này   
+
+[LINE]
+Speaker2243: No~thanks,~Junior.                
+~            cảm~ơn~Junior~nhưng~chú~không~cần 
+
+[LINE]
+> Later,   Junior is~eating his~ice~cream    in~front~of the~store.
+~ lát~sau  Junior đang~ăn   kem~(của~cậu~ấy) ở~trước     cửa~hàng  
+
+[LINE]
+> A   family   walks~past   the~store and sees      Junior.
+~ một gia~đình đi~ngang~qua cửa~hàng  và  nhìn~thấy Junior 
+
+[LINE]
+Speaker415: This is the~best~ice~cream  I've~ever~had!         
+~           đây  là chiếc~kem~ngon~nhất trước~giờ~mình~từng~ăn 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker2540: Dad, can~we~get              that [ice~cream]?
+~            bố   chúng~ta~mua…được~không …đó   kem        
+- family  
+~ gia~đình
+- money
+~ tiền 
++ ice~cream
+~ kem      
+
+[LINE]
+> They walk~into the~store.
+~ họ   bước~vào  cửa~hàng  
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker3145: That~kid's~chocolate~ice~cream   looks amazing!  We        want [four~of~the~same~thing]. 
+~            chiếc~kem~sô-cô-la~của~đứa~bé~đó trông ngon~quá  chúng~tôi muốn  bốn~chiếc~giống~như~thế  
+- more of the something
+- four of this main ring
++ four of the same thing
+
+[LINE]
+Speaker2243: Great! 
+~            được~ạ 
+
+[LINE]
+> The~family  looks       very happy    as  they leave    the~store.
+~ gia~đình~đó trông~có~vẻ rất  hài~lòng khi họ   rời~khỏi cửa~hàng  
+
+[LINE]
+Speaker2243: Junior, you're~a~genius.  
+~            Junior  cháu~tài~thật~đấy 
+
+[MULTIPLE_CHOICE]
+> Cửa hàng trưởng nghĩ rằng Junior rất thông minh.
+- Không đúng.
++ Đúng vậy.
+
+[LINE]
+Speaker2243: But   I   still can't~give~you~a~job…            Because you're  a~child.
+~            nhưng chú vẫn   không~thể~cho~cháu~vào~làm~được  bởi~vì  cháu~là trẻ~em  
+
+[LINE]
+Speaker415: That's~OK,       you can~pay~me               in~ice~cream!
+~           không~sao~chú~ạ  chú có~thể~trả~công~cho~cháu bằng~kem     
+
+[MULTIPLE_CHOICE]
+> Junior đã làm gì để giúp cửa hàng trưởng bán kem?
++ Cậu ấy tấm tắc khen kem ngon.
+- Cậu ấy dùng xe bán kem dạo.
+- Cậu ấy đăng lên mạng xã hội.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- How old are you <> cháu mấy tuổi rồi
+- sees <> nhìn thấy
+- The family <> gia đình đó
+- Because <> bởi vì
+- He <> cậu ấy
+
