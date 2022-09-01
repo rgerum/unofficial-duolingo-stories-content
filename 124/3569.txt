@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Docteur Eddy
+icon=29c5abbf74b46e43a4de510ac83e302c0722a100
+set=1|2
+
+[HEADER]
+> Doctor  Eddy
+~ docteur Eddy
+
+[LINE]
+> Eddy is  at~the supermarket.
+~ Eddy est au     supermarché 
+
+[LINE]
+> An  elegant  woman starts~talking    to Eddy.
+~ une élégante femme commence~à~parler à  Eddy 
+
+[MULTIPLE_CHOICE]
+> Une femme parle à Eddy au supermarché.
+- Non, c'est faux.
++ Oui, c'est vrai.
+
+[LINE]
+Speaker724: Hello!  
+~           bonjour 
+
+[LINE]
+Speaker414: Oh, hello!  
+~           oh  bonjour 
+
+[LINE]
+Speaker724: Are~you   a~doctor?
+~           vous~êtes docteur  
+
+[LINE]
+Speaker414: What? Me?  Uh… 
+~           quoi  moi  euh 
+
+[LINE]
+Speaker414: Yes. I…  am   a~doctor.
+~           oui  je  suis docteur  
+
+[LINE]
+Speaker724: Good!
+~           bien 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+> [(Eddy) (is~not)    (a~doctor).]
+~   Eddy   n'est~pas   docteur    
+
+[LINE]
+Speaker414: I~have a~lot    of~money. 
+~           j'ai   beaucoup ~d'argent 
+
+[LINE]
+Speaker414: I  live in   a   big    house. 
+~           je vis  dans une grande maison 
+
+[LINE]
+Speaker414: I~have expensive…~uh...~pants.       
+~           j'ai   des~pantalons...~euh...~chers 
+
+[LINE]
+Speaker724: OK,       but… 
+~           d'accord  mais 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « tout de suite ».
+Speaker724: (A)  (man)   needs~a       (doctor)  (+now)!          
+~            un   homme  a~besoin~d'un  docteur    tout~de~suite  
+
+[LINE]
+Speaker414: What?! Where is  the~man?
+~           quoi   où    est l'homme 
+
+[LINE]
+Speaker724: He is  near~the milk!
+~           il est près~du  lait 
+
+[MULTIPLE_CHOICE]
+> L'homme est…
+- … à l'hôpital.
++ … près du rayon lait.
+- … dans le caddie d'Eddy.
+
+[LINE]
+Speaker724: Please          help  the~man! He is  very sick!  
+~           s'il~vous~plaît aidez l'homme  il est très malade 
+
+[MULTIPLE_CHOICE]
+> La femme veut que Eddy...
++ … aide un homme qui se sent mal.
+- … achète du lait.
+- … aille chez le docteur.
+
+[LINE]
+Speaker414: Uh~-~oh!
+~           oh,~oh  
+
+[LINE]
+> Eddy sees a   woman. He runs  and talks~to~her.
+~ Eddy voit une femme  il court et  lui~parle    
+
+[LINE]
+Speaker414: Hello,   are~you   a~doctor? I~need~help!       
+~           bonjour  vous~êtes docteur   j'ai~besoin~d'aide 
+
+[MULTIPLE_CHOICE]
+> Que fait Eddy ?
++ Il essaie de trouver un vrai docteur pour aider l'homme.
+- Il pleure parce qu'il a renversé du lait.
+- Il conduit l'homme malade à l'hôpital.
+
+[MATCH]
+> Choisis les paires
+- near the <> près du
+- I have <> j'ai
+- starts talking <> commence à parler
+- Hello <> bonjour
+- A <> un
+
