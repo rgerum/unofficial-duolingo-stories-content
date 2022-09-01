@@ -1,0 +1,151 @@
+[DATA]
+fromLanguageName=A ex-namorada
+icon=29463cb983d5da30288b0758a5f9ec7313b76094
+set=15|2
+
+[HEADER]
+> La exnovia    
+~ a  ex-namorada
+
+[LINE]
+> Lin está en~el supermercado con su~amiga,     Bea.
+~ Lin está no    supermercado com a~amiga~dela  Bea 
+
+[LINE]
+Speaker508: ¡Ay, mira! ¡Es Gabriela!  
+~            ah  olha   é  a~Gabriela 
+
+[LINE]
+Speaker507: ¿Quién es Gabriela?
+~            quem  é  Gabriela 
+
+[LINE]
+Speaker508: Mi    exnovia.    
+~           minha ex-namorada 
+
+[MULTIPLE_CHOICE]
+> A Lin costumava namorar a Gabriela.
+- Não, não é isso.
++ Sim, isso mesmo.
+
+[LINE]
+Speaker507: ¿La de~la camisa roja?    
+~            a  da    camisa vermelha 
+
+[LINE]
+Speaker508: Sí. 
+~           sim 
+
+[LINE]
+Speaker507: ¡Es    muy   alta!
+~            ela~é muito alta 
+
+[LINE]
+Speaker508: Se~fue~a estudiar a  otra  ciudad.
+~           ela~foi  estudar  em outra cidade 
+
+[LINE]
+Speaker508: La última vez que hablamos…   
+~           a  última vez que conversamos 
+
+[LINE]
+Speaker508: …fue hace cinco años.
+~            foi há   cinco anos 
+
+[LINE]
+Speaker507: ¿Quieres ir~a hablar con ella?
+~            queres  ir   falar  com ela  
+
+[LINE]
+Speaker508: No  sé… 
+~           não sei 
+
+[LINE]
+Speaker508: Creo que no      se acuerda de mí. 
+~           acho que ela~não se lembra  de mim 
+
+[MULTIPLE_CHOICE]
+> A Lin acha que a Gabriela não lembrará seu nome porque…
+- …a Lin usou um nome falso quando elas namoravam.
+- …a Gabriela tem uma memória muito ruim.
++ …elas não se falam há anos.
+
+[LINE]
+Speaker507: Yo sé  que quieres hablar con ella. ¡Vamos!
+~           eu sei que queres  falar  com ela    vamos 
+
+[LINE]
+Speaker507: ¡Qué emocionante!
+~            que emocionante 
+
+[LINE]
+Speaker508: Mmm… Está bien. La~voy~a~saludar.   
+~           hum  está bem   vou~acenar~para~ela 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "acena".
+> (Lin) (+saluda) a    la (mujer)  con la (mano).
+~  Lin    acena   para a   mulher  com a   mão   
+
+[LINE]
+Speaker507: ¡Te     vio!
+~            ela~te viu 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker507: ¡[(Y) (viene)          (para) (acá)!]
+~              e   ela~está~vindo   para   cá    
+
+[LINE]
+Speaker508: Ay,~no. 
+~           ah,~não 
+
+[LINE]
+Speaker508: Esa  no  es Gabriela.  
+~           essa não é  a~Gabriela 
+
+[LINE]
+Speaker507: ¿Estás~segura?
+~            tens~certeza 
+
+[LINE]
+Speaker508: ¡Sí,  estoy~segura!  ¡No  es ella!
+~            sim  tenho~certeza   não é  ela  
+
+[CONTINUATION]
+> O que vem depois?
+Speaker125: Eh, hola. Vi que [me saludaste].
+~           eh  olá   vi que  me acenaste   
++ me saludaste
+~ me acenaste 
+- fuiste de~compras conmigo
+~ foste  às~compras comigo 
+- estudiaste conmigo
+~ estudaste  comigo 
+
+[LINE]
+Speaker125: ¿Nos conocemos? 
+~            nos conhecemos 
+
+[LINE]
+Speaker507: No,  pero ¿sabes dónde podemos comprar unos lentes?
+~           não  mas   sabes onde  podemos comprar uns  óculos 
+
+[LINE]
+Speaker507: ¡Mi    amiga no  ve muy   bien!
+~            minha amiga não vê muito bem  
+
+[MULTIPLE_CHOICE]
+> Por que a Bea diz que a Lin precisa de óculos?
++ A Lin achou que uma estranha era a ex-namorada dela.
+- Os óculos da Lin são muito feios.
+- A mulher pisou nos óculos da Lin.
+
+[MATCH]
+> Toque nos pares
+- saluda <> acena
+- acuerda <> lembra
+- viene <> ela está vindo
+- Es <> é
+- saludaste <> acenaste
+
