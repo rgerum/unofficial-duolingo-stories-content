@@ -1,0 +1,119 @@
+[DATA]
+fromLanguageName=A jaqueta vermelha
+icon=f2020f08dc6ab976902d63ac29d5779e5959d06a
+set=2|1
+
+[HEADER]
+> The Red~Jacket      
+~ a   jaqueta~vermelha
+
+[LINE]
+> Lily is   in a   store with her~friend,   Zari.
+~ Lily está em uma loja  com  a~amiga~dela  Zari 
+
+[LINE]
+Speaker416: This store is expensive.
+~           esta loja  é  cara      
+
+[LINE]
+Speaker418: Yes…
+~           sim 
+
+[LINE]
+Speaker418: Wow!
+~           uau 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker418: This [red~jacket]       is perfect! 
+~           esta  jaqueta~vermelha  é  perfeita 
+- recheck it
+- wet jacket
++ red jacket
+
+[LINE]
+Speaker416: Umm, Zari…
+~           hmm  Zari 
+
+[LINE]
+Speaker418: I  like~this~color~a~lot!
+~           eu gosto~muito~desta~cor 
+
+[LINE]
+Speaker416: Zari?
+~           Zari 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "comprar".
+Speaker418: I  (want)  (+to~buy)  (this) (jacket)! 
+~           eu  quero    comprar   esta   jaqueta  
+
+[LINE]
+Speaker416: Zari!
+~           Zari 
+
+[LINE]
+Speaker418: What? 
+~           o~quê 
+
+[LINE]
+Speaker416: This jacket  is one~hundred dollars.
+~           a    jaqueta é  cem         dólares 
+
+[MULTIPLE_CHOICE]
+> Quanto custa a jaqueta?
++ cem dólares
+- cinco dólares
+- um milhão de dólares
+
+[LINE]
+Speaker416: It  is very  expensive.
+~           ela é  muito cara      
+
+[LINE]
+Speaker418: What?! 
+~           o~quê  
+
+[LINE]
+Speaker416: Zari, you  do~not~need    a   new~jacket.  
+~           Zari  você não~precisa~de uma jaqueta~nova 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "aniversário".
+Speaker418: (But), (Lily), (today) is my  (+birthday)…   
+~            mas    Lily    hoje   é  meu   aniversário  
+
+[LINE]
+Speaker416: Yes, it~is…
+~           sim  é     
+
+[LINE]
+Speaker418: And you  are my    best   friend!
+~           e   você é   minha melhor amiga  
+
+[LINE]
+Speaker416: Yes, I  am… 
+~           sim  eu sou 
+
+[LINE]
+Speaker418: And you  can~buy—     
+~           e   você pode~comprar 
+
+[LINE]
+Speaker416: A   cheap~jacket   for  you! 
+~           uma jaqueta~barata para você 
+
+[MULTIPLE_CHOICE]
+> O presente de aniversário da Lily para a Zari será…
++ …uma jaqueta barata.
+- …um montão de dinheiro.
+- …uma jaqueta vermelha cara.
+
+[MATCH]
+> Toque nos pares
+- And <> e
+- dollars <> dólares
+- my <> meu
+- new jacket <> jaqueta nova
+- a <> uma
+
