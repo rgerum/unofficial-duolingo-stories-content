@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=The Promotion
+icon=86aeb2f8135a55e49ebe8c6da5e13efdcde38d01
+set=15|1
+
+[HEADER]
+> A   promoção 
+~ the promotion
+
+[LINE]
+> O~chefe~de~Bia vai~falar com  ela.
+~ Bia's~boss     speaks    with her 
+
+[LINE]
+Speaker2144: Oi, Bia! Eu quero conversar sobre~o Carlos.      
+~            hi  Bia  I  want  to~talk   about   (the)~Carlos 
+
+[LINE]
+Speaker507: Sim?
+~           yes 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker2144: [Você~gosta~de~trabalhar] com  ele?
+~             do~you~like~working      with him 
++ Você gosta de trabalhar
+- Vocês gostam de trabalho
+- Você aposta em trabalhar
+
+[LINE]
+Speaker507: Com  o~Carlos?     Humm…
+~           with (the)~Carlos  hmm  
+
+[LINE]
+Speaker507: Bom,  ele é  popular.
+~           well  he  is popular 
+
+[LINE]
+Speaker507: Mas…
+~           but 
+
+[CONTINUATION]
+> What comes next?
+Speaker507: Ele chega   tarde, e   eu tenho~que fazer [o~trabalho~dele].
+~           he  arrives late   and I  have~to   do     his~job          
+- o~chefe~dele
+~ his~boss    
+- uma cópia dele  
+~ a   copy  of~him
++ o~trabalho~dele
+~ his~job        
+
+[LINE]
+Speaker507: E…   ele nunca gosta~do meu trabalho!
+~           and  he  never likes    my  work     
+
+[LINE]
+Speaker507: Na~semana~passada, ele comeu o~meu almoço!
+~           last~week          he  ate   my    lunch  
+
+[LINE]
+Speaker507: O~Carlos     é  muito difícil.  
+~           (the)~Carlos is very  difficult 
+
+[LINE]
+Speaker2144: É~mesmo?    Eu ia~dar            uma promoção  pra ele.
+~            is~that~so  I  was~going~to~give a   promotion to  him 
+
+[MULTIPLE_CHOICE]
+> Bia's boss doesn't want to promote Carlos.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker2144: Tem      um trabalho no     nosso~escritório~novo. Tenho~que encontrar a~pessoa~certa.  
+~            there~is a  job      at~the our~new~office         I~have    to~find   the~right~person 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "job."
+Speaker507: (Espere)! (Esse) (+emprego) é  (no)     escritório~novo?
+~            wait      that    job      is  at~the  new~office      
+
+[LINE]
+Speaker507: O~Carlos     é  a   pessoa~certa pra esse emprego!
+~           (the)~Carlos is the right~person for that job     
+
+[LINE]
+Speaker2144: Mas você falou que  ele é  muito difícil.  
+~            but you  said  that he  is very  difficult 
+
+[LINE]
+Speaker507: Quem? Eu? Não! Ele é  excelente!
+~           who   me  no   he  is excellent 
+
+[ARRANGE]
+> Tap what you hear
+Speaker2144: [(Você) (falou~que) (ele) (chega)   (tarde).]
+~              you    said~that   he    arrives   late    
+
+[LINE]
+Speaker507: Ah, não! Isso só   aconteceu duas~vezes!
+~           oh  no   that only happened  twice      
+
+[LINE]
+Speaker507: Por~favor, dá       a   promoção  e   leva ele pro    novo escritório!
+~           please     give~him the promotion and take him to~the new  office     
+
+[MULTIPLE_CHOICE]
+> Why does Bia suddenly say Carlos is great?
+- She thinks he's an excellent employee.
++ She wants him to move to a different office.
+- She thought her boss was talking about someone else.
+
+[MATCH]
+> Tap the pairs
+- pessoa certa <> right person
+- a pessoa certa <> the right person
+- Eu <> I
+- ela <> her
+- comeu <> ate
+
