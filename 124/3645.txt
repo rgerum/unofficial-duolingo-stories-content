@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=Aller à Rome
+icon=7a9d96c0ef5e239395ce01891267355130ad35aa
+set=20|2
+
+[HEADER]
+> Going to Rome
+~ aller à  Rome
+
+[LINE]
+> Zari runs  to   Lily in   the hall    at school. 
+~ Zari court vers Lily dans le  couloir à  l'école 
+
+[LINE]
+Speaker418: Lily, I~have a  problem. 
+~           Lily  j'ai   un problème 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker416: Zari, for  the last     time, it's~OK            if you don't~get     [a~perfect~grade]!  
+~           Zari  pour la  dernière fois  ce~n'est~pas~grave si tu  n'obtiens~pas  une~note~parfaite  
+- a person's grade
+- a perfect read
++ a perfect grade
+
+[LINE]
+Speaker418: No,  I  think Enzo    is  in~love~with me. 
+~           non  je pense qu'Enzo est amoureux~de  moi 
+
+[LINE]
+Speaker416: Enzo? The~student visiting  from~Italy?
+~           Enzo  l'élève     qui~vient d'Italie   
+
+[LINE]
+Speaker418: Yes, I  think he's~going~to~ask~me to~visit~him         in Rome.
+~           oui  je pense qu'il~va~me~demander de~lui~rendre~visite à  Rome 
+
+[MULTIPLE_CHOICE]
+> Quel est le problème de Zari ?
+- Elle a de mauvaises notes en italien.
++ Elle pense qu'Enzo veut l'inviter à Rome.
+- Sa famille déménage à Rome.
+
+[LINE]
+Speaker416: Really?  
+~           vraiment 
+
+[LINE]
+Speaker418: Then    we'll~get~married!
+~           ensuite on~se~mariera     
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker418: We'll~have an apartment   with [a~great~view]    of~the Colosseum.
+~           on~aura    un appartement avec  une~superbe~vue  du     Colisée   
+- a gray view
+- a great new
++ a great view
+
+[LINE]
+Speaker418: And we'll~have a  scooter and a  cat  named         Fellini!
+~           et  on~aura    un scooter et  un chat qui~s'appelle Fellini 
+
+[LINE]
+Speaker416: Wow,   that's a…  detailed~plan.  
+~           waouh  c'est  un  projet~détaillé 
+
+[MULTIPLE_CHOICE]
+> Lily n'est pas sûre de comprendre Zari. Pourquoi ?
++ Elle pense que Zari planifie trop en avance.
+- Elle ne pense pas qu'Enzo existe vraiment.
+- Elle pense que Zari va appeler son chat Lily.
+
+[LINE]
+Speaker418: But  now        I~need         to~tell   my  parents…
+~           mais maintenant j'ai~besoin~de le~dire~à mes parents 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker416: Zari… why      do~you~think that~he [wants~you~to~go    to Rome]?
+~           Zari  pourquoi tu~penses    qu'il    veut~que~tu~ailles à  Rome  
+- is~sleeping            in   the library     
+~ est~en~train~de~dormir dans la  bibliothèque
++ wants~you~to~go    to Rome
+~ veut~que~tu~ailles à  Rome
+- is~going to the gym           
+~ va       à  la  salle~de~sport
+
+[LINE]
+Speaker418: He said~very~romantic~things~to~me.    
+~           il m'a~dit~des~choses~très~romantiques 
+
+[LINE]
+Speaker416: Really?  
+~           vraiment 
+
+[LINE]
+Speaker418: Yes, he asked~me    if~I~like   Rome.
+~           oui  il m'a~demandé si~j'aimais Rome 
+
+[LINE]
+Speaker418: He also~asked      if~I~like   cats.     
+~           il a~aussi~demandé si~j'aimais les~chats 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker418: [(He) (even~asked)                (about) (my) (family)!] 
+~             il   a~même~posé~des~questions   sur     ma   famille   
+
+[LINE]
+Speaker416: Zari… I  think he's~asking~those~questions to everyone      in   our   class. 
+~           Zari  je pense qu'il~pose~ces~questions    à  tout~le~monde dans notre classe 
+
+[LINE]
+Speaker418: What?!
+~           quoi  
+
+[LINE]
+Speaker416: Those questions are~from    his textbook.
+~           ces   questions viennent~de son manuel   
+
+[LINE]
+Speaker416: He's~just~practicing his English.
+~           il~pratique~juste    son anglais 
+
+[MULTIPLE_CHOICE]
+> Zari pensait qu'Enzo était amoureux d'elle, mais en fait...
+- … il veut juste un scooter et un chat nommé Fellini.
+- … il est amoureux de Lily.
++ … il lui posait des questions de son manuel scolaire.
+
+[MATCH]
+> Choisis les paires
+- at <> à
+- a <> un
+- to <> vers
+- Fellini <> Fellini
+- No <> non
+
