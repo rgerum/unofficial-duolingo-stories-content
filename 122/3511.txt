@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Wochenendbesuch
+icon=e9870ece5e694f8efd3df5550e7bb5d130fadecf
+set=19|2
+
+[HEADER]
+> Weekend~Visit  
+~ Wochenendbesuch
+
+[LINE]
+> Bea's boyfriend, Sean, is~visiting   for~the~weekend.    
+~ Beas  Freund     Sean  ist~zu~Besuch über~das~Wochenende 
+
+[LINE]
+Speaker438: This is  the first time I'm~staying           at your   apartment! It's   so exciting! 
+~           dies ist das erste Mal  (dass)~ich~übernachte in deiner Wohnung    es~ist so aufregend 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker507: Yeah, [it'll~be~a~fun~weekend].       
+~           ja     es~wird~ein~tolles~Wochenende  
+- I'll be the weekend
+- it'll be a fun weather
++ it'll be a fun weekend
+
+[LINE]
+Speaker438: It's   like~we're~living~together!    We'll      learn~so~much    about~each~other.
+~           es~ist als~würden~wir~zusammenwohnen  wir~werden so~viel~erfahren voneinander      
+
+[LINE]
+Speaker507: What?! No,   I'm     not   ready  to~live~together!
+~           was    nein  ich~bin nicht bereit zusammenzuwohnen 
+
+[MULTIPLE_CHOICE]
+> Oh nein! Warum ist Bea so nervös?
+- Sie hat vergessen, ihre Wohnung aufzuräumen.
++ Sie will noch nicht mit ihrem Freund zusammenwohnen.
+- Ihr Freund will sich von ihr trennen.
+
+[LINE]
+Speaker438: Bea, it's   OK. I   was~joking.             
+~           Bea  es~ist OK  ich habe~einen~Witz~gemacht 
+
+[LINE]
+Speaker438: Hey, can  I   sleep    on  the left   side  of~the bed?   
+~           hey  kann ich schlafen auf der linken Seite des    Bettes 
+
+[LINE]
+Speaker507: I   usually~sleep         on  the left   side  of~the bed,    but  OK…
+~           ich schlafe~normalerweise auf der linken Seite des    Bettes  aber OK 
+
+[ARRANGE]
+> Was hörst du?
+Speaker438: [(Could)  (I)   (close)     (the) (curtains)?]
+~             könnte   ich   schließen   die   Vorhänge   
+
+[LINE]
+Speaker438: I   don't~want the        sun   to~wake~me~up.
+~           ich will~nicht (dass)~die Sonne mich~aufweckt 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „Sonnenaufgang“.
+Speaker507: OK, but  I   (wake~up)   at  (+sunrise)       (every) (morning)…
+~           OK  aber ich  wache~auf  zum   Sonnenaufgang   jeden   Morgen   
+
+[LINE]
+Speaker438: And do~you~mind            if   I   take~that~painting off~the wall?
+~           und macht~es~dir~etwas~aus wenn ich das~Gemälde~nehme  von~der Wand 
+
+[LINE]
+Speaker507: Why?   I   love  it. My   cousin painted~it.   
+~           warum  ich liebe es  mein Cousin hat~es~gemalt 
+
+[LINE]
+Speaker438: It's   a   little   scary…      I   won't       be~able~to~sleep.
+~           es~ist ein bisschen unheimlich  ich werde~nicht schlafen~können  
+
+[LINE]
+Speaker507: Ugh, OK.
+~           ach  OK 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+> Bea takes the painting [off~the~wall].
+~ Bea nimmt das Gemälde   von~der~Wand  
+- off~the~floor   
+~ von~dem~Fußboden
++ off~the~wall
+~ von~der~Wand
+- off~the~sofa
+~ von~dem~Sofa
+
+[LINE]
+Speaker438: Oh! I   forgot~my~toothbrush.            Can  I   use~yours?     
+~           oh  ich habe~meine~Zahnbürste~vergessen  kann ich deine~benutzen 
+
+[LINE]
+Speaker507: My    toothbrush?! No,   definitely not.  
+~           meine Zahnbürste   nein  definitiv  nicht 
+
+[LINE]
+Speaker438: Haha, we're~learning so much about~each~other!
+~           haha  wir~erfahren   so viel voneinander      
+
+[LINE]
+Speaker507: Yeah, and I   think you should   stay~at~a~hotel.           
+~           ja    und ich denke du  solltest in~einem~Hotel~übernachten 
+
+[MULTIPLE_CHOICE]
+> Was ist Bea klar geworden, als ihr Freund in ihrer Wohnung war?
+- Er sollte bei ihr einziehen.
+- Er liebt gruselige Gemälde.
++ Er sollte nicht in ihrer Wohnung bleiben.
+
+[MATCH]
+> Wähle die Paare
+- takes <> nimmt
+- about each other <> voneinander
+- wall <> Wand
+- won't <> werde nicht
+- painting <> Gemälde
+
