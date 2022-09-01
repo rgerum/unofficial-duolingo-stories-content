@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=Ein Notfall
+icon=7e5d8724d525fd56e3abc838f2849ae269ebefd5
+set=14|1
+
+[HEADER]
+> An  Emergency
+~ ein Notfall  
+
+[LINE]
+> Junior is  at a     pool       with his    father, Eddy.
+~ Junior ist in einem Schwimmbad mit  seinem Vater   Eddy 
+
+[LINE]
+> He runs  to the lifeguard.    
+~ er rennt zu der Bademeisterin 
+
+[LINE]
+Speaker415: Help!  Lifeguard!    
+~           Hilfe  Bademeisterin 
+
+[LINE]
+Speaker415: My   father needs   help! 
+~           mein Vater  braucht Hilfe 
+
+[LINE]
+Speaker856: Is~he~drowning?
+~           ertrinkt~er    
+
+[MULTIPLE_CHOICE]
+> Warum macht sich die Bademeisterin Sorgen?
+- Junior ertrinkt.
++ Sie denkt, dass Eddy ertrinkt.
+- Sie hat Angst vor Kindern.
+
+[LINE]
+Speaker415: No,   it's   my~father's~swimsuit.      
+~           nein  es~ist die~Badehose~meines~Vaters 
+
+[LINE]
+Speaker856: I   don't~understand…
+~           ich verstehe~nicht   
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „Badehose“.
+Speaker415: (His)   (new)  (+swimsuit) is  too (small).
+~            seine   neue    Badehose  ist zu   klein  
+
+[LINE]
+Speaker415: It looks~really~bad,           but  he won't~listen to  me!  
+~           es sieht~wirklich~schlimm~aus  aber er hört~nicht   auf mich 
+
+[LINE]
+Speaker856: Sorry,           but  lifeguards  help   with emergencies.
+~           es~tut~mir~leid  aber Bademeister helfen bei  Notfällen   
+
+[MULTIPLE_CHOICE]
+> Die Bademeisterin kann nur …
++ … bei Notfällen helfen.
+- … mit Badehosen helfen.
+- … Vätern helfen.
+
+[LINE]
+Speaker415: This is  an  emergency! Look!       
+~           das  ist ein Notfall    schauen~Sie 
+
+[LINE]
+> The lifeguard     looks  at Eddy.
+~ die Bademeisterin schaut zu Eddy 
+
+[LINE]
+Speaker856: No!  
+~           nein 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker856: You're~right.  That swimsuit is  [too~small]!
+~           du~hast~recht  die  Badehose ist  zu~klein   
++ too small
+- do it all
+- to the mall
+
+[LINE]
+> The lifeguard     shouts at Eddy.
+~ die Bademeisterin ruft   zu Eddy 
+
+[LINE]
+Speaker856: Excuse~me,         sir!       I'm~coming to~help~you!       
+~           entschuldigen~Sie  mein~Herr  ich~komme  um~Ihnen~zu~helfen 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „Handtuch“.
+> The lifeguard     (runs)  to (Eddy) (with) a     big,    red   (+towel).   
+~ die Bademeisterin  rennt  zu  Eddy   mit   einem großen  roten   Handtuch  
+
+[LINE]
+Speaker414: What~is~it?! 
+~           was~ist~los  
+
+[LINE]
+Speaker856: Sir,       please wear       this   towel.    It's   an  emergency.
+~           mein~Herr  bitte  tragen~Sie dieses Handtuch  es~ist ein Notfall   
+
+[MULTIPLE_CHOICE]
+> Was ist der Notfall?
++ Eddys Badehose ist zu klein.
+- Junior hat sein Handtuch vergessen.
+- Eddy kann nicht schwimmen.
+
+[MATCH]
+> Wähle die Paare
+- That <> die
+- pool <> Schwimmbad
+- Look <> schauen Sie
+- Help <> Hilfe
+- What is it <> was ist los
+
