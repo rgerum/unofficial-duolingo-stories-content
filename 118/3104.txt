@@ -1,0 +1,138 @@
+[DATA]
+fromLanguageName=I Am Sick
+icon=225fc0a03308a53efe40d29f9477d7e52398c1da
+set=9|3
+
+[HEADER]
+> Eu estou doente
+~ I  am    sick  
+
+[LINE]
+Speaker415: Papai! Eu estou doente!
+~           Dad    I  am    sick   
+
+[LINE]
+Speaker414: Ah, não!
+~           oh  no  
+
+[LINE]
+> Eddy coloca a~mão    na cabeça~de~Júnior.
+~ Eddy puts   his~hand on Júnior's~head    
+
+[LINE]
+Speaker414: Você não~está quente.
+~           you  are~not  hot    
+
+[MULTIPLE_CHOICE]
+> Eddy checked if Júnior has a fever.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker415: Estou~com dor~de~ouvido! Preciso ver    a~minha  médica!
+~           I~have    an~earache     I~need  to~see (the)~my doctor 
+
+[LINE]
+Speaker414: Vou        pegar  as  chaves~do~carro.
+~           I~am~going to~get the car~keys        
+
+[LINE]
+> Eddy e   Júnior estão com  a   médica.
+~ Eddy and Júnior are   with the doctor 
+
+[MULTIPLE_CHOICE]
+> Wait… why are Júnior and Eddy at the doctor's?
+- Eddy fell down the stairs.
++ Júnior says he has an earache.
+- Júnior ate too much ice cream.
+
+[LINE]
+Speaker341: Oi, Júnior! Você de~novo?
+~           hi  Júnior  you  again   
+
+[LINE]
+Speaker341: Qual~é  o   problema?
+~           what~is the problem  
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Ele) (está~com) (dor~de~ouvido).]
+~             he    has        an~earache      
+
+[LINE]
+> A   médica olha     o~ouvido~de~Júnior.
+~ the doctor looks~at (the)~Júnior's~ear 
+
+[LINE]
+Speaker341: Humm… Seu  ouvido está bom. 
+~           hmm   your ear    is~  fine 
+
+[CONTINUATION]
+> What comes next?
+Speaker415: Eu estou~com uma [dor~no~pé]!
+~           I  have      a    sore~foot  
+- o   problema
+~ the problem 
++ dor~no~pé
+~ sore~foot
+- seu  ouvido
+~ your ear   
+
+[LINE]
+> A   médica olha     o~pé~de~Júnior.     
+~ the doctor looks~at (the)~Júnior's~foot 
+
+[LINE]
+Speaker341: Seu  pé   está bom. 
+~           your foot is~  fine 
+
+[LINE]
+Speaker414: Meu~filho~está bem, doutora?
+~           is~my~son      OK   doctor  
+
+[LINE]
+Speaker341: Sim.
+~           yes 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker341: Você [não~está~doente], Júnior.
+~           you   are~not~sick      Júnior 
++ não está doente
+- não está gente
+- não tem dente
+
+[LINE]
+Speaker415: Eu estou doente!
+~           I  am    sick   
+
+[LINE]
+Speaker341: Júnior… Você~está aqui porque  eu sempre dou  chocolate para você?
+~           Júnior  are~you   here because I  always give chocolate to   you  
+
+[LINE]
+Speaker415: Hmm… Sim.
+~           hmm  yes 
+
+[LINE]
+Speaker414: Júnior!
+~           Júnior 
+
+[LINE]
+Speaker415: Doutora, você~me~dá       um chocolate agora?
+~           doctor   will~you~give~me a  chocolate now   
+
+[MULTIPLE_CHOICE]
+> Oh Júnior! Why did he want to see the doctor?
+- He was very sick.
++ She always gives him chocolate.
+- He had a gift for her.
+
+[MATCH]
+> Tap the pairs
+- Humm <> hmm
+- a minha <> my
+- para <> to
+- Oi <> hi
+- com <> with
+
