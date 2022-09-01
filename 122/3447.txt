@@ -1,0 +1,102 @@
+[DATA]
+fromLanguageName=Was wollen Sie?
+icon=8c5ae7b18c5ff0f37394646c91bd6a579213dcbc
+set=3|2
+
+[HEADER]
+> What Do~You~Want?
+~ was  wollen~Sie  
+
+[LINE]
+> Oscar walks into a   clothes~store.      
+~ Oscar geht  in   ein Bekleidungsgeschäft 
+
+[LINE]
+> He sees  his   student, Zari. She works    in the store.   
+~ er sieht seine Student  Zari  sie arbeitet in dem Geschäft 
+
+[MULTIPLE_CHOICE]
+> Oscar sieht Zari in einem Geschäft arbeiten.
++ Ja, das ist richtig.
+- Nein, das ist falsch.
+
+[LINE]
+Speaker592: Zari! Oh, good! I   am~happy   to~see~you.   
+~           Zari  oh  gut   ich freue~mich dich~zu~sehen 
+
+[LINE]
+Speaker418: Hello! Welcome!            
+~           hallo  herzlich~willkommen 
+
+[LINE]
+Speaker418: Do~you~need  help? 
+~           brauchen~Sie Hilfe 
+
+[LINE]
+Speaker592: Yes, thank~you! I   need…   
+~           ja   danke      ich brauche 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „weiß“.
+Speaker418: Oh, I   (+know)! (You) (need)     a    (new)  jacket!
+~           oh  ich   weiß    Sie   brauchen  eine  neue  Jacke  
+
+[LINE]
+> Zari shows Oscar a    jacket.
+~ Zari zeigt Oscar eine Jacke  
+
+[LINE]
+Speaker592: A    new  jacket? No.   Zari, I…  
+~           eine neue Jacke   nein  Zari  ich 
+
+[LINE]
+Speaker418: Oh! You need     a   new   shirt!
+~           oh  Sie brauchen ein neues Hemd  
+
+[ARRANGE]
+> Was hörst du?
+Speaker418: [(The) (green) (shirt) (is)  (perfect)!]
+~             das   grüne   Hemd    ist   perfekt   
+
+[LINE]
+Speaker592: No.   Zari, please…
+~           nein  Zari  bitte  
+
+[LINE]
+Speaker592: I   do~not~need~a shirt. I   do~not~need~a jacket. I   need…   
+~           ich brauche~kein  Hemd   ich brauche~keine Jacke   ich brauche 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker418: Pants! [You~need~pants]!        
+~           Hose    Sie~brauchen~eine~Hose  
++ You need pants
+- You need parents
+- Your new pants
+
+[LINE]
+Speaker592: No!   I   do~not~need   clothes! 
+~           nein  ich brauche~keine Kleidung 
+
+[LINE]
+Speaker592: I   need~to~know…
+~           ich will~wissen  
+
+[LINE]
+Speaker592: Where is  the restroom?
+~           wo    ist die Toilette 
+
+[MULTIPLE_CHOICE]
+> Warum ist Oscar in das Bekleidungsgeschäft gegangen?
+- Er wollte eine neue Jacke für Zari kaufen.
++ Er hat eine Toilette gesucht.
+- Er wollte eine Hose, ein Hemd und eine Jacke kaufen.
+
+[MATCH]
+> Wähle die Paare
+- a <> ein
+- restroom <> Toilette
+- Oscar <> Oscar
+- good <> gut
+- student <> Student
+
