@@ -1,0 +1,131 @@
+[DATA]
+fromLanguageName=Vacation Clothes
+icon=eda1b8214a6937df66a552eb581f2353da4d0352
+set=2|4
+
+[HEADER]
+> Urlaubskleidung 
+~ vacation~clothes
+
+[LINE]
+> Lucy ist im~Kaufhaus.             Sie sieht Lilli.
+~ Lucy is  in~the~department~store  she sees  Lilli 
+
+[LINE]
+Speaker509: Hallo, Entschuldigung?
+~           hello  excuse~me      
+
+[LINE]
+Speaker509: Ich brauche neue Kleidung!
+~           I   need    new  clothes  
+
+[MULTIPLE_CHOICE]
+> Lucy is shopping for clothes at the department store.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker509: Für meinen Urlaub   in Frankreich!
+~           for my     vacation in France     
+
+[LINE]
+Speaker416: Urlaub.   Cool.
+~           vacation  cool 
+
+[LINE]
+Speaker509: Ich brauche ein Kleid …
+~           I   need    a   dress  
+
+[LINE]
+Speaker416: Hier. Ein Kleid.
+~           here  a   dress 
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "black."
+Speaker509: (Kein)  (+schwarzes) (Kleid)! (Frankreich) ist heiß!
+~            not~a    black       dress    France      is  hot  
+
+[LINE]
+Speaker509: Ich brauche ein weißes Kleid!
+~           I   need    a   white  dress 
+
+[LINE]
+Speaker416: Hier, ein weißes Kleid.
+~           here  a   white  dress 
+
+[ARRANGE]
+> Tap what you hear
+Speaker509: [(Und) (ich) (brauche) (Schuhe).]
+~             and   I     need      shoes    
+
+[LINE]
+Speaker416: Hier. Schuhe.
+~           here  shoes  
+
+[LINE]
+Speaker509: Keine Flip-Flops! Elegante schwarze Schuhe!
+~           not   Flip~Flops  elegant  black    shoes  
+
+[LINE]
+Speaker416: Natürlich. Elegante schwarze Schuhe.
+~           of~course  elegant  black    shoes  
+
+[MULTIPLE_CHOICE]
+> What does Lucy need?
+- yellow flip flops
+- purple high heels
++ elegant black shoes
+
+[LINE]
+Speaker509: OK, ein Kleid, Schuhe …
+~           OK  a   dress  shoes   
+
+[LINE]
+Speaker509: Ein Hut! Ich brauche natürlich einen Hut!
+~           a   hat  I   need    of~course a     hat 
+
+[LINE]
+Speaker416: Hier. Ein Hut.
+~           here  a   hat 
+
+[CONTINUATION]
+> What comes next?
+Speaker509: Nein, der Hut ist zu  klein! Ich brauche einen [großen Hut]!
+~           no    the hat is  too small  I   need    a      big    hat  
+- neuen Hund
+~ new   dog 
+- guten Mann
+~ good  man 
++ großen Hut
+~ big    hat
+
+[LINE]
+Speaker416: Hier. Ein großer Hut.
+~           here  a   big    hat 
+
+[LINE]
+Speaker509: Das  ist perfekt! Danke!    
+~           this is  perfect  thank~you 
+
+[LINE]
+Speaker509: Frankreich, ich~komme! 
+~           France      I'm~coming 
+
+[LINE]
+Speaker416: Und ich brauche jetzt auch Urlaub       …
+~           and I   need    now   also (a)~vacation  
+
+[MULTIPLE_CHOICE]
+> Why does Lilli also need a vacation now?
+- She loves sunshine and beaches.
+- She wants to practice her French.
++ She is tired from helping Lucy find clothes.
+
+[MATCH]
+> Tap the pairs
+- auch <> also
+- Urlaub <> vacation
+- brauche <> need
+- Kleid <> dress
+- Flip-Flops <> Flip Flops
+
