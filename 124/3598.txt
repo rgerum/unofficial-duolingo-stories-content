@@ -1,0 +1,105 @@
+[DATA]
+fromLanguageName=Un appartement sale
+icon=0e6ab8c3a4e3224cb700e8daeac0038f7f0e929e
+set=8|3
+
+[HEADER]
+> Dirty~Apartment    
+~ un~appartement~sale
+
+[LINE]
+> Bea goes to her~friend~Sarah's~apartment.   
+~ Bea va   à  l'appartement~de~son~amie~Sarah 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker507: Hi,    Sarah, [how~are~you]?  
+~           salut  Sarah   comment~ça~va  
+- how were two
++ how are you
+- now are you
+
+[LINE]
+Speaker175: I'm~terrible!    
+~           je~vais~très~mal 
+
+[LINE]
+Speaker507: Oh, no.  Why?     
+~           oh  non  pourquoi 
+
+[LINE]
+Speaker175: My new      roommate    and I   always~argue                 a~lot.   
+~           ma nouvelle colocataire et  moi nous~disputons~tout~le~temps beaucoup 
+
+[MULTIPLE_CHOICE]
+> Sarah se sent mal car...
+- ... elle est rentrée très tard la nuit dernière.
++ ... elle se dispute beaucoup avec sa colocataire.
+- ... elle est allergique au chat de sa colocataire.
+
+[LINE]
+Speaker507: I'm~not        surprised! This  kitchen is  very dirty.
+~           je~ne~suis~pas surprise   cette cuisine est très sale  
+
+[LINE]
+Speaker175: Ugh,   I  know.
+~           pouah  je sais 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker507: And there's old      cheese  [on  that  table].
+~           et  il~y~a  du~vieux fromage  sur cette table  
+- on  your head
+~ sur ta   tête
++ on  that  table
+~ sur cette table
+- at~the supermarket
+~ au     supermarché
+
+[LINE]
+Speaker175: Yes. Yuck! 
+~           oui  beurk 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker507: [(And) (there~are) (dirty~clothes)       (on~this)   (chair)!] 
+~             et    il~y~a      des~vêtements~sales   sur~cette   chaise   
+
+[LINE]
+Speaker507: Wait…    this~is your shirt.  
+~           attends  c'est   ta   chemise 
+
+[LINE]
+Speaker175: Yes.
+~           oui 
+
+[LINE]
+Speaker507: These are  all  your clothes!  
+~           ce    sont tous tes  vêtements 
+
+[LINE]
+Speaker507: Is~that your old   cheese,  too?!  
+~           c'est   ton  vieux fromage  aussi  
+
+[LINE]
+Speaker175: Yes! I  never~clean,       and my roommate    always~complains!       
+~           oui  je ne~nettoie~jamais  et  ma colocataire se~plaint~tout~le~temps 
+
+[LINE]
+Speaker175: She's    terrible!
+~           elle~est horrible 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Sarah et sa colocataire se disputent-elles ?
++ Sarah est désordonnée et ne range jamais.
+- Bea aime bien manger du vieux fromage.
+- Sarah porte les vêtements de sa colocataire.
+
+[MATCH]
+> Choisis les paires
+- how are you <> comment ça va
+- I <> moi
+- is <> est
+- too <> aussi
+- kitchen <> cuisine
+
