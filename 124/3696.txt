@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=Lily sort les poubelles
+icon=093ca1e21f226b69b5c86085e1710ffbca164b46
+set=32|5
+
+[HEADER]
+> Lily Helps~with~the Trash    
+~ Lily s'occupe~des   poubelles
+
+[LINE]
+> Lucy is  outside       of her apartment~building.
+~ Lucy est à~l'extérieur de son immeuble           
+
+[LINE]
+> She  notices  that Lily is~moving a  carpet, a   lamp,  and a   big,    expensive~TV outside.
+~ elle remarque que  Lily déplace   un tapis   une lampe  et  une grosse  télé~chère   dehors  
+
+[LINE]
+Speaker509: Are~you~moving?
+~           tu~déménages   
+
+[LINE]
+Speaker416: No. 
+~           non 
+
+[MULTIPLE_CHOICE]
+> Lily est en train de déménager.
++ Non, c'est faux.
+- Oui, c'est vrai.
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker509: [(Are~you~selling) (these) (things)?]
+~             tu~vends          ces     choses   
+
+[LINE]
+Speaker416: No. 
+~           non 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker509: Then  why      are~you~putting [all~of~these~things] here?
+~           alors pourquoi tu~mets          toutes~ces~choses    ici  
+- all of these rings
++ all of these things
+- a wall of his things
+
+[LINE]
+Speaker416: Because   my mom  asked~me    to~take~the~trash~outside.
+~           parce~que ma mère m'a~demandé de~sortir~les~poubelles   
+
+[LINE]
+Speaker509: I  don't~think      this~is what~she   means.    
+~           je ne~pense~pas~que c'est   ce~qu'elle veut~dire 
+
+[LINE]
+Speaker509: That carpet is  new. 
+~           ce   tapis  est neuf 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Lucy pense-t-elle que le tapis ne va pas à la poubelle ?
+- Il est dehors.
+- Il est beau.
++ Il est neuf.
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « sent ».
+Speaker416: That (carpet) (+smells~like) (a~dog).    And we   (don't~have~a)   dog.  
+~           ce    tapis     sent          le~chien   et  nous  n'avons~pas~de  chien 
+
+[LINE]
+Speaker509: Well,    yes, it does~smell    awful.   And that  lamp? 
+~           eh~bien  oui  il sent~vraiment mauvais  et  cette lampe 
+
+[LINE]
+Speaker416: I'd~prefer     to~sit      in   the dark.
+~           je~préfèrerais être~assise dans le  noir 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker509: But  that  TV   is~definitely~not    trash.   It   [looks~expensive].
+~           mais cette télé n'est~absolument~pas à~jeter  elle  a~l'air~chère    
+- took the offensive
+- looks at pencils
++ looks expensive
+
+[LINE]
+Speaker416: Do~you~watch TV?      Every  show     is  about money,    murder,       or dessert.     
+~           tu~regardes  la~télé  chaque émission est sur   l'argent  les~meurtres  ou les~desserts 
+
+[LINE]
+Speaker509: Hmm. I  agree,         but  your mom   is~going~to~be mad       when~she~sees      this.
+~           hmm  je suis~d'accord  mais ta   maman va~être        en~colère quand~elle~va~voir ça   
+
+[LINE]
+Speaker416: Yes, but  she  will~never~ask~me      to~help~with~the trash     again.    
+~           oui  mais elle ne~me~demandera~jamais de~m'occuper~des poubelles à~nouveau 
+
+[MULTIPLE_CHOICE]
+> Pourquoi la mère de Lily ne lui demandera plus de sortir les poubelles ?
+- La famille de Lily n'a plus d'autres déchets.
++ Lily se débarrasse de choses qui ne sont pas à jeter.
+- Lucy a volé les poubelles de tous les voisins.
+
+[MATCH]
+> Choisis les paires
+- Hmm <> hmm
+- awful <> mauvais
+- Then <> alors
+- smells like <> sent
+- her <> son
+
