@@ -1,0 +1,109 @@
+[DATA]
+fromLanguageName=En el taxi
+icon=44410efbb175e599d5fbe5b4d86050262f324ca0
+set=13|4
+
+[HEADER]
+> Dans le taxi
+~ en   el taxi
+
+[LINE]
+> Béa est  dans un taxi. Elle regarde      l'itinéraire sur son portable.
+~ Béa está en   un taxi  ella está~mirando el~mapa      en  su  teléfono 
+
+[LINE]
+Speaker507: La prochaine à~gauche,       s'il~vous~plaît.
+~           la próxima   a~la~izquierda  por~favor       
+
+[LINE]
+Speaker889: Non, il~faut tourner à~gauche       dans deux kilomètres.
+~           no   hay~que girar   a~la~izquierda en   dos  kilómetros 
+
+[LINE]
+Speaker507: Mon portable dit  que cette route est plus rapide.
+~           mi  teléfono dice que esta  ruta  es  más  rápida 
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker889: Pardon    mais je connais très bien les rues   [de cette ville  ]!
+~           lo~siento pero yo conozco muy  bien las calles  de esta  ciudad   
+- de votre tableau
+~ de su    pintura
++ de cette ville 
+~ de esta  ciudad
+- de ce~film      
+~ de esta~película
+
+[LINE]
+Speaker507: Mon portable connaît toutes les rues   de toutes les villes   du  monde.
+~           mi  teléfono conoce  todas  las calles de todas  las ciudades del mundo 
+
+[LINE]
+Speaker889: C'est~moi qui   conduis la~voiture, pas le portable.
+~           soy~yo    quien maneja  el~carro    no  el teléfono 
+
+[LINE]
+Speaker507: Oui, mais c'est~moi qui   paye !
+~           sí   pero soy~yo    quien paga  
+
+[MULTIPLE_CHOICE]
+> El hombre es quien maneja, pero…
+- … se olvidó de su licencia de conducir.
+- … Béa quiere aprender a manejar.
++ … Béa es quien paga.
+
+[LINE]
+Speaker889: D'accord  !
+~           está~bien  
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+> [(Le~chauffeur) (tourne) (à~gauche)       (et) (s'arrête).]
+~   el~taxista     gira     a~la~izquierda   y    para       
+
+[LINE]
+Speaker889: Et voilà.        Vous  allez nager ?
+~           y  aquí~estamos  usted va~a  nadar  
+
+[LINE]
+Speaker507: Non, je~vais acheter des~vêtements. Pourquoi ?
+~           no   voy~a   comprar ropa           por~qué   
+
+[LINE]
+Speaker889: Parce~que la route s'arrête là.   Il~y~a une~rivière.
+~           porque    la ruta  acaba    allí  hay    un~río      
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker507: Oups… Haha…  [Je~pense~que] mon portable ne~connaît~pas toutes les rues.  
+~           ups   ja~ja   creo~que      mi  teléfono no~conoce      todas  las calles 
+- Je prends des
+- Je vends des
++ Je pense que
+
+[LINE]
+Speaker507: Je~suis~vraiment~désolée.
+~           lo~siento~mucho          
+
+[LINE]
+Speaker889: Mais moi, je les connais. Je~peux choisir la route maintenant ?
+~           pero yo   yo las conozco  puedo   elegir  la ruta  ahora       
+
+[LINE]
+Speaker507: Oui, s'il~vous~plaît…
+~           sí   por~favor       
+
+[MULTIPLE_CHOICE]
+> ¡Ups! Béa se dió cuenta de que…
++ … sus indicaciones eran incorrectas.
+- … ella es una taxista genial.
+- … su teléfono tiene todas las respuestas.
+
+[MATCH]
+> Selecciona los pares
+- monde <> mundo
+- voilà <> aquí estamos
+- la voiture <> el carro
+- D'accord <> está bien
+- dit <> dice
+
