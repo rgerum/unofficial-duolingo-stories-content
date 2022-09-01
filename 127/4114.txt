@@ -1,0 +1,132 @@
+[DATA]
+fromLanguageName=Junior faz exercício
+icon=9f2d4bdaca5fe3e93b4a97529d903567ee23fd4e
+set=5|3
+
+[HEADER]
+> Junior hace ejercicio
+~ Junior faz  exercício
+
+[LINE]
+> Junior está jugando videojuegos.       
+~ Junior está jogando jogos~de~videogame 
+
+[LINE]
+Speaker414: ¿Quieres hacer un poco  de ejercicio, Junior?
+~            queres  fazer um pouco de exercício  Junior 
+
+[LINE]
+Speaker415: No,  quiero jugar~videojuegos.
+~           não  quero  jogar~videogame   
+
+[MULTIPLE_CHOICE]
+> O Junior quer se exercitar.
+- Sim, isso mesmo.
++ Não, não é isso.
+
+[LINE]
+> Eddy tiene una idea. 
+~ Eddy tem   uma ideia 
+
+[LINE]
+Speaker414: ¿Quieres ir a    la tienda de videojuegos?       
+~            queres  ir para a  loja   de jogos~de~videogame 
+
+[LINE]
+Speaker415: ¡Sí! 
+~            sim 
+
+[LINE]
+Speaker414: ¡Está bien!
+~            está bem  
+
+[LINE]
+Speaker414: ¿Puedes ir~a buscar mi      cartera?  Está en mi  habitación.
+~            podes  ir   buscar a~minha carteira  está no meu quarto     
+
+[CONTINUATION]
+> O que vem depois?
+> Junior corre a    buscar [la cartera]. 
+~ Junior corre para buscar  a  carteira  
+- la tienda de videojuegos       
+~ a  loja   de jogos~de~videogame
+- una idea 
+~ uma ideia
++ la cartera 
+~ a  carteira
+
+[LINE]
+Speaker415: ¡Aquí está, papá! 
+~            aqui está  papai 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "chaves".
+Speaker414: ¿Y (puedes) ir a   la (cocina)  y (buscar) mis       (+llaves)?
+~            e  podes   ir até a   cozinha  e  buscar  as~minhas   chaves  
+
+[LINE]
+> Junior corre a    buscar las llaves.
+~ Junior corre para buscar as  chaves 
+
+[LINE]
+Speaker415: ¿Vamos?
+~            vamos 
+
+[LINE]
+Speaker414: Necesito   mi    chaqueta.
+~           preciso~da minha jaqueta  
+
+[LINE]
+Speaker414: Está en~el apartamento de Vikram.
+~           está no    apartamento do Vikram 
+
+[LINE]
+Speaker415: Pero Vikram   vive en~el último piso… 
+~           mas  o~Vikram mora no    último andar 
+
+[MULTIPLE_CHOICE]
+> Espera… quem mora no último andar?
+- O Junior
++ O Vikram
+- O Eddy
+
+[LINE]
+Speaker414: Por favor, Junior…
+~           por favor  Junior 
+
+[LINE]
+> Junior se~va      y vuelve con la chaqueta de Eddy.
+~ Junior vai~embora e volta  com a  jaqueta  de Eddy 
+
+[MULTIPLE_CHOICE]
+> O Junior vai embora e depois ele volta com…
+- …a cadeira do Eddy.
+- …um sapo.
++ …a jaqueta do Eddy.
+
+[LINE]
+Speaker414: ¡Perfecto, nos~podemos~ir!
+~            perfeito  podemos~ir     
+
+[LINE]
+Speaker415: Pero ahora estoy muy   cansado.
+~           mas  agora estou muito cansado 
+
+[LINE]
+Speaker414: ¿Por qué? ¿Demasiado ejercicio?
+~            por quê   muito     exercício 
+
+[MULTIPLE_CHOICE]
+> O Eddy…
+- …deu ao Vikram a jaqueta dele.
++ …pregou uma peça no Junior para ele fazer exercício.
+- …jogou videogame com o Junior.
+
+[MATCH]
+> Toque nos pares
+- No <> não
+- hacer <> fazer
+- jugando <> jogando
+- chaqueta <> jaqueta
+- muy <> muito
+
