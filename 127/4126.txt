@@ -1,0 +1,104 @@
+[DATA]
+fromLanguageName=Um apartamento muito sujo
+icon=0e6ab8c3a4e3224cb700e8daeac0038f7f0e929e
+set=8|3
+
+[HEADER]
+> Un apartamento muy   sucio
+~ um apartamento muito sujo 
+
+[LINE]
+> Bea está en~el apartamento de su  amiga Marina.
+~ Bea está no    apartamento de sua amiga Marina 
+
+[LINE]
+Speaker507: Hola, Marina. ¿Cómo~estás?
+~           olá   Marina   como~vai   
+
+[LINE]
+Speaker175: ¡Terrible!
+~            terrível 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker507: Ay,~no…  Pero ¿[por qué]?
+~           ah,~não  mas    por quê  
++ por qué
+~ por quê
+- mi  apartamento
+~ meu apartamento
+- es su  amiga
+~ é  sua amiga
+
+[LINE]
+Speaker175: Mi    nueva compañera~de~cuarto y yo siempre discutimos.
+~           minha nova  colega~de~quarto    e eu sempre  discutimos 
+
+[MULTIPLE_CHOICE]
+> A Marina e a colega de quarto dela nunca brigam.
++ Não, não é isso. 
+- Sim, isso mesmo.
+
+[LINE]
+Speaker507: No  estoy sorprendida, la cocina  está muy   sucia.
+~           não estou surpresa     a  cozinha está muito suja  
+
+[LINE]
+Speaker175: Sí,  lo~sé.       
+~           sim  eu~sei~disso 
+
+[LINE]
+Speaker507: Y… ¿qué   es eso  sobre la mesa? ¿Queso  viejo?
+~           e   o~que é  isso sobre a  mesa   queijo velho 
+
+[LINE]
+Speaker175: Sí,  ¡puaj!
+~           sim   eca  
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker507: ¡También hay ropa  sucia [sobre~esta~silla]!  
+~            também  tem roupa suja   sobre~esta~cadeira  
+- cubre esta silla
++ sobre esta silla
+- sobre esta cita
+
+[LINE]
+Speaker507: Marina, pero… esta es tu    camisa.
+~           Marina  mas   esta é  a~tua camisa 
+
+[LINE]
+Speaker175: Sí. 
+~           sim 
+
+[LINE]
+Speaker507: ¡Esta es tu    ropa! 
+~            esta é  a~tua roupa 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "teu".
+Speaker507: ¿Y (el) (queso)  (viejo)? ¿También es (+tuyo)?
+~            e  o    queijo   velho    também  é    teu   
+
+[LINE]
+Speaker175: Sí,  yo nunca limpio y mi    compañera~de~cuarto siempre está enojada. 
+~           sim  eu nunca limpo  e minha colega~de~quarto    sempre  está irritada 
+
+[LINE]
+Speaker175: ¡Es terrible!
+~            é  terrível 
+
+[MULTIPLE_CHOICE]
+> Ahá! Por que a Marina e a colega de quarto dela brigam?
+- A Marina usa as roupas da colega de quarto dela.
+- A Bea gosta de comer queijo velho.
++ A Marina faz bagunça e nunca limpa.
+
+[MATCH]
+> Toque nos pares
+- Hola <> olá
+- sobre <> sobre
+- yo <> eu
+- qué <> quê
+- Queso <> queijo
+
