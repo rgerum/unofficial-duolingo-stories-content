@@ -1,0 +1,108 @@
+[DATA]
+fromLanguageName=Bom dia
+icon=783305780a6dad8e0e4eb34109d948e6a5fc2c35
+set=1|1
+
+[HEADER]
+> Good~Morning!
+~ bom~dia      
+
+[LINE]
+Speaker593: Good~morning, Priti!
+~           bom~dia       Priti 
+
+[LINE]
+Speaker560: Good~morning, honey!  
+~           bom~dia       querido 
+
+[LINE]
+Speaker560: Where are   my     keys?  
+~           onde  estão minhas chaves 
+
+[LINE]
+Speaker593: Your keys?  
+~           suas chaves 
+
+[MULTIPLE_CHOICE]
+> A Priti não consegue encontrar as chaves dela.
++ Sim, isso mesmo.
+- Não, não é isso.
+
+[LINE]
+Speaker560: Yes, I  need    to~go to     work.    
+~           sim  eu preciso ir    para~o trabalho 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker560: [(I)  (need~the)    (keys)   (to~my~car)!]   
+~             eu   preciso~das   chaves   do~meu~carro   
+
+[LINE]
+Speaker593: Priti, your keys   are   here, on~the table!
+~           Priti  suas chaves estão aqui  na     mesa  
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "cansada".
+Speaker560: (Sorry),    (honey).   I'm      (+tired).   I  work     (a~lot)!
+~            desculpe    querido   eu~estou   cansada   eu trabalho  muito  
+
+[LINE]
+Speaker593: Do~you~want some        coffee?
+~           você~quer   um~pouco~de café   
+
+[LINE]
+Speaker560: Yes, please.   
+~           sim  por~favor 
+
+[LINE]
+Speaker593: OK.    Here, my  love.
+~           certo  aqui  meu amor 
+
+[LINE]
+Speaker560: Where is   the sugar?  Oh, here it~is.
+~           onde  está o   açúcar  ah  aqui está  
+
+[MULTIPLE_CHOICE]
+> Hmm… O que a Priti está fazendo?
+- Colocando açúcar nas chaves dela.
++ Procurando um pouco de açúcar para o café dela.
+- Derramando o café dela na mesa.
+
+[LINE]
+> Priti drinks her~coffee. 
+~ Priti bebe   o~café~dela 
+
+[LINE]
+Speaker560: Yuck!
+~           eca  
+
+[LINE]
+Speaker593: What? 
+~           o~quê 
+
+[LINE]
+Speaker560: This is salt!
+~           isto é  sal  
+
+[LINE]
+Speaker593: Priti, you  are  very  tired!  
+~           Priti  você está muito cansada 
+
+[LINE]
+Speaker560: Yes, I  need       a   new  cup    of coffee… with sugar,  not salt!
+~           sim  eu preciso~de uma nova xícara de café    com  açúcar  não sal  
+
+[MULTIPLE_CHOICE]
+> A Priti estava tão cansada que…
++ …ela colocou sal no café dela.
+- …ela dormiu na cozinha.
+- …ela colocou as chaves no café dela.
+
+[MATCH]
+> Toque nos pares
+- This <> isto
+- salt <> sal
+- keys <> chaves
+- Yes <> sim
+- table <> mesa
+
