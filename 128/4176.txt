@@ -1,0 +1,92 @@
+[DATA]
+fromLanguageName=Mua cho con được không?
+icon=ce0ae956035c1bac6b9c64737466d59c5d027e97
+set=3|3
+
+[HEADER]
+> Can~I~Have~It?            
+~ mua~nó~cho~con~được~không 
+
+[LINE]
+> Junior and Eddy are~at the~mall.         
+~ Junior và  Eddy đang~ở trung~tâm~mua~sắm 
+
+[LINE]
+Speaker415: Dad!   I   need a   new~video~game!      
+~           bố~ơi  con cần  một trò~chơi~điện~tử~mới 
+
+[LINE]
+Speaker414: You don't~need a~new~video~game.    
+~           con không~cần  trò~chơi~điện~tử~mới 
+
+[MULTIPLE_CHOICE]
+> Bố của Junior muốn mua trò chơi điện tử mới.
+- Đúng vậy.
++ Không đúng.
+
+[LINE]
+Speaker415: Please?   There's a   flying~robot   in    this~game!   
+~           đi~mà~bố  có      một con~rô~bốt~bay trong trò~chơi~này 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker414: Junior. You want this~game,    but   [you~don't~need~it].
+~           Junior  con muốn trò~chơi~này  nhưng  con~không~cần~nó   
+- you won't read it
+- we don't eat it
++ you don't need it
+
+[LINE]
+Speaker415: OK!        I   want this~game.    Now     can~I~have~it?            
+~           thôi~được  con muốn trò~chơi~này  giờ~thì mua~nó~cho~con~được~không 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker414: No,    you have      video~games      [at~home]!
+~           không  con có…rồi~mà trò~chơi~điện~tử  ở~nhà    
++ at~home
+~ ở~nhà  
+- in~the~shower  
+~ trong~phòng~tắm
+- in~the~refrigerator
+~ trong~tủ~lạnh      
+
+[LINE]
+Speaker415: You're~right.
+~           bố~nói~đúng  
+
+[LINE]
+Speaker415: So~can~we~go~home?            
+~           vậy~chúng~ta~về~nhà~được~chưa 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker414: [(No),    (we)       (are~going~to) (Vikram's~house).]    
+~             không    chúng~ta   sẽ~tới         nhà~của~chú~Vikram   
+
+[LINE]
+Speaker415: Ugh! His~house~is boring! 
+~           oài  nhà~chú~ấy   chán~òm 
+
+[LINE]
+Speaker414: But   his~TV~is       big, and    I  need     to~watch the~football~game.
+~           nhưng tivi~nhà~chú~ấy to   mà…thì bố cần~phải xem      trận~đấu~bóng~đá  
+
+[LINE]
+Speaker415: You don't~need to~watch the~game, Dad.  You want to~watch it.
+~           bố  không~cần  xem      trận~đấu  bố~ạ  bố  muốn xem      nó 
+
+[MULTIPLE_CHOICE]
+> Buồn cười thật! Cả Eddy và Junior đều…
++ …nói rằng họ cần những thứ mà họ chỉ muốn thôi.
+- …chơi điện tử với Vikram.
+- …cưỡi con rô bốt bay.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- we <> chúng ta
+- His house is <> nhà chú ấy
+- Now <> giờ thì
+- You're right <> bố nói đúng
+- new video game <> trò chơi điện tử mới
+
