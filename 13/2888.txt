@@ -1,0 +1,144 @@
+[DATA]
+fromLanguageName=Did the Recipe Change?
+icon=9a8e4c90ef30a62e59cf23d4265247e2655c4cec
+set=27|3
+
+[HEADER]
+> La~recette~a~changé   ?
+~ did~the~recipe~change  
+
+[LINE]
+> Béa mange     dans un~restaurant, à  Rome.
+~ Béa is~eating in   a~restaurant   in Rome 
+
+[LINE]
+> Un~serveur passe~à~côté~d'elle.
+~ a~waiter   passes~by~her       
+
+[LINE]
+Speaker507: Excusez-moi ! Il~y~a   un~problème avec mes pâtes.
+~           excuse~me     there~is a~problem   with my  pasta 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker385: Impossible ! C'est [notre~plat~le~plus~populaire] !
+~           impossible   it's   our~most~popular~dish          
++ notre plat le plus populaire
+- votre plante d'anniversaire
+- notre chat le plus populaire
+
+[LINE]
+Speaker507: Est-ce~que~la~recette~a~changé ?
+~           did~the~recipe~change           
+
+[LINE]
+Speaker385: Non ! C'est~la~même~depuis   cinquante ans   !
+~           no    it's~been~the~same~for fifty     years  
+
+[CONTINUATION]
+> What comes next?
+Speaker507: J'ai~mangé ce   plat il~y~a~sept~ans, et  elles [n'avaient~pas le  même goût]. 
+~           I~ate      this dish seven~years~ago  and they   didn't~have   the same taste  
++ n'avaient~pas le  même goût 
+~ didn't~have   the same taste
+- ont~travaillé ici 
+~ worked        here
+- avaient      mal~au~ventre
+~ used~to~have a~stomachache
+
+[LINE]
+Speaker385: Sept  ans,   c'est  long.        Vous êtes différente maintenant, vos  goûts  ont~peut-être~changé.
+~           seven years  that's a~long~time  you  are  different  now         your tastes may~have~changed     
+
+[LINE]
+Speaker507: J'étais plus~jeune. Tout       était nouveau et  intéressant...
+~           I~was   younger     everything was   new     and interesting   
+
+[LINE]
+Speaker385: OK.
+~           OK 
+
+[ARRANGE]
+> Tap what you hear
+Speaker507: [(Je) (suis) (plus) (intelligente~maintenant).]
+~             I    am     more   intelligent~now           
+
+[LINE]
+Speaker507: Je suis aussi plus responsable, plus sérieuse.
+~           I  am   also  more responsible  more serious  
+
+[LINE]
+Speaker507: Vous avez~raison. Je suis différente ! Merci  !
+~           you  are~right    I  am   different    thanks  
+
+[MULTIPLE_CHOICE]
+> Why did Béa just thank the waiter?
+- He told her the pasta recipe.
+- He told her she's responsible and intelligent.
++ She realized how much she's changed.
+
+[LINE]
+Speaker385: De~rien.       
+~           you're~welcome 
+
+[LINE]
+Speaker507: Où    est le~serveur qui travaillait  ici  il~y~a~sept~ans ?
+~           where is  the~waiter who used~to~work here seven~years~ago  
+
+[POINT_TO_PHRASE]
+> Choose the option that means “sunglasses.”
+Speaker507: Il (portait) des    (+lunettes~de~soleil), et  il (avait) (une~moustache).
+~           he  wore     (some)   sunglasses           and he  had     a~mustache     
+
+[LINE]
+Speaker385: C'est  Antonio.
+~           that's Antonio 
+
+[LINE]
+Speaker507: Il~travaille~encore ici  ?
+~           does~he~still~work  here  
+
+[LINE]
+Speaker385: Non, il n'a~jamais~travaillé ici. 
+~           no   he never~worked         here 
+
+[LINE]
+Speaker385: Il travaille dans le~restaurant  d'en~face.        
+~           he works     in   the~restaurant across~the~street 
+
+[LINE]
+Speaker507: Oh…
+~           oh 
+
+[MULTIPLE_CHOICE]
+> It seems like…
++ ...Béa is in the wrong restaurant.
+- ...Béa is wearing sunglasses and a mustache.
+- ...Béa has the same waiter as seven years ago.
+
+[LINE]
+> Plus~tard, Béa mange     le  même plat dans le~restaurant  d'en~face.        
+~ later      Béa is~eating the same dish at   the~restaurant across~the~street 
+
+[LINE]
+Speaker507: Ça a~vraiment le  même goût. 
+~           it really~has the same taste 
+
+[LINE]
+Speaker507: C'est  triste... Peut-être~que~je ne~suis~pas différente.
+~           that's sad       maybe~I          am~not      different  
+
+[MULTIPLE_CHOICE]
+> Why does Béa think she hasn't changed after all?
+- The waiter took off his sunglasses.
++ The pasta in the second restaurant tastes the same.
+- She forgot what the pasta tasted like.
+
+[MATCH]
+> Tap the pairs
+- même <> same
+- Oh <> oh
+- J'ai mangé <> I ate
+- De rien <> you're welcome
+- ans <> years
+
