@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Clothes for My Vacation
+icon=eda1b8214a6937df66a552eb581f2353da4d0352
+set=2|4
+
+[HEADER]
+> Roupas  para as~minhas férias  
+~ clothes for  my        vacation
+
+[LINE]
+> Lucy está em uma loja. 
+~ Lucy is~  in a   store 
+
+[LINE]
+Speaker509: Bom~dia!     
+~           good~morning 
+
+[LINE]
+Speaker509: Eu preciso~de roupas  para as~minhas férias!  
+~           I  need       clothes for  my        vacation 
+
+[MULTIPLE_CHOICE]
+> Lucy is shopping for clothes for her vacation.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker416: Tudo~bem. 
+~           all~right 
+
+[LINE]
+Speaker509: Eu preciso~de um vestido.
+~           I  need       a  dress   
+
+[LINE]
+> Lili pega  um vestido~amarelo.
+~ Lili grabs a  yellow~dress    
+
+[LINE]
+Speaker509: Não! Eu quero um vestido~verde.
+~           no   I  want  a  green~dress   
+
+[MULTIPLE_CHOICE]
+> What does Lucy want?
+- a red skirt
++ a green dress
+- a brown hat
+
+[LINE]
+> Lili pega  um vestido~verde.
+~ Lili grabs a  green~dress   
+
+[LINE]
+Speaker509: E   preciso~de botas.
+~           and I~need     boots 
+
+[LINE]
+> Lili pega  botas~verdes.
+~ Lili grabs green~boots  
+
+[ARRANGE]
+> Tap what you hear
+Speaker509: [(Não), (eu) (quero) (botas~brancas)!]
+~             no     I    want    white~boots     
+
+[LINE]
+Speaker416: Tudo~bem. 
+~           all~right 
+
+[LINE]
+Speaker509: Um vestido~verde, botas~brancas…
+~           a  green~dress    white~boots   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: [E~um~chapéu]!
+~            and~a~hat    
+- E um chalé
+- É uma chapa
++ E um chapéu
+
+[LINE]
+> Lili pega  um chapéu~branco.
+~ Lili grabs a  white~hat     
+
+[LINE]
+Speaker509: Não! Eu quero um chapéu~colorido!
+~           no   I  want  a  colorful~hat    
+
+[CONTINUATION]
+> What comes next?
+> Lili pega  um [chapéu~colorido].
+~ Lili grabs a   colorful~hat     
++ chapéu~colorido
+~ colorful~hat   
+- copo~colorido
+~ colorful~cup 
+- carro~branco
+~ white~car   
+
+[LINE]
+Speaker509: Obrigada!  Agora eu estou preparada para as~minhas férias!  
+~           thank~you  now   I  am    prepared  for  my        vacation 
+
+[LINE]
+Speaker416: Agora eu preciso~de férias.    
+~           now   I  need       a~vacation 
+
+[MULTIPLE_CHOICE]
+> Poor Lili! Why does she need a vacation?
+- She ate too much for lunch.
++ She is tired after helping Lucy find clothes.
+- She has a lot of new clothes to wear.
+
+[MATCH]
+> Tap the pairs
+- as minhas <> my
+- para <> for
+- botas brancas <> white boots
+- estou <> am
+- roupas <> clothes
+
