@@ -1,0 +1,119 @@
+[DATA]
+fromLanguageName=Cumartesi Gecesi
+icon=09cbfe4b009b6617a05701652d4210d552d0f5a2
+set=3|2
+
+[HEADER]
+> Saturday  Night 
+~ Cumartesi gecesi
+
+[LINE]
+> Victoria talks   to her~friend.
+~ ~        konuşur -a arkadaşı   
+
+[LINE]
+Speaker336: Hello Pete!
+~           Selam ~    
+
+[LINE]
+Speaker336: Do~you~have plans  for  the weekend?   
+~           var~mı      planın için ~   hafta~sonu 
+
+[MULTIPLE_CHOICE]
+> Victoria, Pete'e bu hafta sonu için bir planı olup olmadığını sorar.
++ Evet, doğru.
+- Hayır, yanlış.
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker2243: I     have a~ticket to a   concert [on~Saturday~night] !
+~            benim var  biletim  -e bir konser   cumartesi~gecesi    
++ on Saturday night
+- a Saturday light
+- on subway night
+
+[LINE]
+Speaker2243: It's a   new  band: The Sisters.      
+~            bu   bir yeni grup  ~   Kız~kardeşler 
+
+[CONTINUATION]
+> Sorunun sonu nedir?
+Speaker2243: Do~you~want to~go  [with~me]?
+~            ister~misin gitmek  benimle  
+- ... work     together?
+~     çalışmak ~        
+- ... with my~phone? 
+~     ~    telefonum 
++ ... with me?   
+~     ~    benim 
+
+[LINE]
+Speaker336: Uh…
+
+[LINE]
+Speaker2243: Do~you~have plans  for  the weekend?   
+~            var~mı      planın için ~   hafta~sonu 
+
+[LINE]
+Speaker336: Uh…
+
+[LINE]
+Speaker336: Yes!  I     need  to~study      for  an  exam. 
+~           Evet  benim lazım ders~çalışmam için bir sınav 
+
+[LINE]
+Speaker2243: Oh…
+
+[LINE]
+Speaker2243: OK…   
+~            tamam 
+
+[ARRANGE]
+> İşittiğine dokun
+> [(On~Saturday~night), (Pete) (goes)  (to) (the~concert).]
+~   Cumartesi~gecesi     ~      gider   -e   konser        
+
+[LINE]
+Speaker2243: The guitarist…
+~            ~   gitarist  
+
+[LINE]
+Speaker2243: … is…   Victoria!
+~              -dır  ~        
+
+[MULTIPLE_CHOICE]
+> Pete neden şaşırdı?
+- Konser iptal edilir.
+- Victoria onu telefonla arar.
++ Victoria, grubun gitaristi çıkar.
+
+[LINE]
+> At~the~end~of~the~concert, Pete talks   to~Victoria. 
+~ konserin~sonunda           ~    konuşur Viktoria~ile 
+
+[LINE]
+Speaker2243: You   need  to~study      for  an  exam,  huh?  
+~            senin lazım ders~çalışman için bir sınav  di~mi 
+
+[LINE]
+Speaker336: Surprise!
+~           Sürpriz  
+
+[LINE]
+Speaker2243: You are a   very good guitarist!  
+~            Sen ~   bir çok  iyi  gitaristsin 
+
+[MULTIPLE_CHOICE]
+> Pete  ...
++ … Victoria'nın mükemmel bir gitarist olduğunu düşünüyor.
+- … Victoria'nın grubunda çalmak istediğini düşünüyor.
+- … Victoria'nın kötü bir gitarist olduğunu düşünüyor.
+
+[MATCH]
+> Çiftlere dokun
+- a ticket <> biletim
+- exam <> sınav
+- You <> senin
+- Do you want <> ister misin
+- talks <> konuşur
+
