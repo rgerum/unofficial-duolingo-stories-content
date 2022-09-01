@@ -1,0 +1,133 @@
+[DATA]
+fromLanguageName=My First Painting
+icon=0ff1f7bddc154ec14a020cfe4c1cd539bbc6bc13
+set=13|3
+
+[HEADER]
+> A~minha primeira pintura 
+~ my      first    painting
+
+[LINE]
+> Eddy entra~no    apartamento~de~Óscar.
+~ Eddy enters~(in) Óscar's~apartment    
+
+[LINE]
+> Ele está~com uma pintura  nas    mãos. 
+~ he  has      a   painting in~his hands 
+
+[LINE]
+Speaker592: O~que é  isso, Eddy?
+~           what  is that  Eddy 
+
+[LINE]
+Speaker414: É    a~minha primeira pintura! 
+~           it's my      first    painting 
+
+[LINE]
+Speaker414: Você~pode ver      e   dizer    o~que acha?     
+~           can~you   (to)~see and (to)~say what  you~think 
+
+[MULTIPLE_CHOICE]
+> Eddy wants to paint a picture of Óscar.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker592: Não~vai~dar.     
+~           not~gonna~happen 
+
+[LINE]
+Speaker414: Mas você é   professor~de~arte!
+~           but you  are an~art~teacher    
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "harsh."
+Speaker592: (Sim), e   eu (sou) (muito) (+duro). 
+~            yes   and I   am    very     harsh  
+
+[LINE]
+Speaker414: Tudo~bem. 
+~           all~right 
+
+[LINE]
+Speaker592: Você não~vai       gostar!    
+~           you  are~not~going to~like~it 
+
+[LINE]
+Speaker414: Mas eu quero saber   o~que você acha. 
+~           but I  want  to~know what  you  think 
+
+[LINE]
+Speaker592: Não~é    boa. 
+~           it's~not good 
+
+[LINE]
+Speaker414: Como você~sabe?  
+~           how  do~you~know 
+
+[CONTINUATION]
+> What comes next?
+Speaker592: Você não~é   artista.   E   essa é  [sua  primeira pintura]. 
+~           you  are~not an~artist  and that is  your first    painting  
++ sua  primeira pintura 
+~ your first    painting
+- muito boa 
+~ very  good
+- uma professora~de~arte
+~ an  art~teacher       
+
+[LINE]
+Speaker592: As~primeiras pinturas  nunca~são boas.
+~           (the)~first  paintings are~never good 
+
+[LINE]
+Speaker414: Por~favor, olhe    a~minha pintura! 
+~           please     look~at my      painting 
+
+[LINE]
+Speaker414: Por~favor, Óscar!
+~           please     Óscar 
+
+[LINE]
+Speaker592: Está~bem. Eu vou      ver.      
+~           okay      I  am~going to~see~it 
+
+[ARRANGE]
+> Tap what you hear
+> [(Óscar) (olha)     (a)   (pintura).] 
+~   Óscar   looks~at   the   painting   
+
+[LINE]
+Speaker592: Eddy, essa pintura  é… 
+~           Eddy  that painting is 
+
+[LINE]
+Speaker414: Sim?!
+~           yes  
+
+[LINE]
+Speaker592: Muito boa! 
+~           very  good 
+
+[LINE]
+Speaker414: Que~legal! Eu sou um bom  artista!
+~           how~cool   I  am  a  good artist  
+
+[LINE]
+Speaker592: Agora… Vai~embora, por~favor.
+~           now    go~away     please    
+
+[MULTIPLE_CHOICE]
+> Why was Óscar so surprised?
+- Eddy only paints with his feet.
++ He thought first paintings were never good.
+- Eddy has always been a bad painter.
+
+[MATCH]
+> Tap the pairs
+- Agora <> now
+- Que legal <> how cool
+- ver <> see
+- apartamento de Óscar <> Óscar's apartment
+- olhe <> look at
+
