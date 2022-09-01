@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Il diario
+icon=11054d83adbe171cda3e5669c57e1e26d6cbd8db
+set=10|1
+
+[HEADER]
+> The Diary 
+~ il  diario
+
+[LINE]
+> Zari and Lily are  at school.
+~ Zari e   Lily sono a  scuola 
+
+[LINE]
+Speaker418: Lily, I'm       so   scared!     I~can't~find              my     diary! 
+~           Lily  (io)~sono così spaventata  (io)~non~riesco~a~trovare il~mio diario 
+
+[LINE]
+Speaker416: OK?
+~           OK 
+
+[LINE]
+Speaker418: I~write     about Miguel in~my   diary! 
+~           (io)~scrivo di    Miguel nel~mio diario 
+
+[LINE]
+Speaker416: Miguel? The boy     in    our    class? 
+~           Miguel  il  ragazzo nella nostra classe 
+
+[SELECT_PHRASE]
+> Seleziona la frase mancante
+Speaker418: Yes! [We~need~to~find~it]!     
+~           sì    (noi)~dobbiamo~trovarlo  
+- He needs to find it
++ We need to find it
+- We need a fine hat
+
+[LINE]
+Speaker416: Fine.
+~           bene 
+
+[LINE]
+> They~look~for  the diary  in~the hall.     
+~ (loro)~cercano il  diario nel    corridoio 
+
+[LINE]
+Speaker416: Sorry,       it~isn't here.
+~           mi~dispiace  non~è    qui  
+
+[ARRANGE]
+> Seleziona ciò che senti
+Speaker418: [(This)   (is) (a)   (bad)    (day)!]     
+~             questa   è    una   brutta   giornata   
+
+[LINE]
+> They~see      Miguel. He~has   a  pink~diary. 
+~ (loro)~vedono Miguel  (lui)~ha un diario~rosa 
+
+[LINE]
+Speaker418: Oh no! It's Miguel! This   is a   very~bad~day.         
+~           oh no  è    Miguel  questa è  una giornata~molto~brutta 
+
+[MULTIPLE_CHOICE]
+> Perché Zari dice che è una giornata molto brutta?
++ Pensa che Miguel abbia letto il suo diario.
+- Lily ha iniziato a uscire con Miguel.
+- Miguel si trasferisce in una nuova scuola.
+
+[LINE]
+Speaker790: Hi   Zari. Is~this  your   diary? 
+~           ciao Zari  questo~è il~tuo diario 
+
+[LINE]
+Speaker418: Uh…  No!
+~           ehm  no 
+
+[LINE]
+Speaker416: But your~name~is~on~it.   
+~           ma  c'è~il~tuo~nome~sopra 
+
+[LINE]
+Speaker418: OK. That   is my     diary.  But…
+~           OK  quello è  il~mio diario  ma  
+
+[POINT_TO_PHRASE]
+> Seleziona l'opzione che significa "scrittura".
+Speaker790: (Don't~worry)…      (I~can't~read)              (your)   (+handwriting).
+~            non~preoccuparti    (io)~non~riesco~a~leggere   la~tua    scrittura    
+
+[LINE]
+Speaker418: Oh… good.
+~           oh  bene 
+
+[LINE]
+Speaker790: So,     do~you~want to~see a  movie with me on~Friday?
+~           allora  (tu)~vuoi   vedere un film  con  me venerdì   
+
+[LINE]
+Speaker418: Wow, yes!
+~           wow  sì  
+
+[LINE]
+> Miguel smiles  at Zari. He~leaves.     
+~ Miguel sorride a  Zari  (lui)~se~ne~va 
+
+[LINE]
+Speaker418: Lily, this   is a   great      day!     
+~           Lily  questa è  una bellissima giornata 
+
+[MULTIPLE_CHOICE]
+> Wow! Perché ora Zari dice che è una bellissima giornata?
++ Miguel l'ha invitata ad andare al cinema con lui.
+- Miguel ha letto tutto ciò che lei aveva scritto nel diario.
+- Ha preso un bel voto nei compiti.
+
+[MATCH]
+> Tocca le coppie
+- no <> no
+- He leaves <> se ne va
+- Zari <> Zari
+- The <> il
+- in the <> nel
+
