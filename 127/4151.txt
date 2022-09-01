@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=O bolo
+icon=4a31a2e8269bfd907d862c44a3b320899c169419
+set=14|4
+
+[HEADER]
+> El pastel
+~ o  bolo  
+
+[LINE]
+> Lin busca        su~pastel en~la cocina. 
+~ Lin procura~pelo bolo~dela na    cozinha 
+
+[LINE]
+Speaker508: ¿Dónde está mi    pastel?
+~            onde  está o~meu bolo   
+
+[LINE]
+> Lin ve~a Lucy en~la mesa.
+~ Lin vê   Lucy na    mesa 
+
+[LINE]
+Speaker508: Lucy, ¿qué   comes?        
+~           Lucy   o~que estás~comendo 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "prato".
+> (Lucy) (esconde) (su)  (+plato).
+~  Lucy   esconde   seu    prato  
+
+[LINE]
+Speaker509: Ehh… ¡nada!
+~           eh    nada 
+
+[LINE]
+Speaker508: No  encuentro mi  pastel.
+~           não encontro  meu bolo   
+
+[CONTINUATION]
+> O que vem depois?
+Speaker509: Mmm… ¿qué tipo [de pastel es]?
+~           hum   que tipo  de bolo   é   
+- de cocina  te~gusta 
+~ de cozinha tu~gostas
++ de pastel es
+~ de bolo   é 
+- de pizza es
+~ de pizza é 
+
+[LINE]
+Speaker508: Es muy   pequeño.
+~           é  muito pequeno 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker509: ¿[(Hay) (manzanas) (en~el) (pastel)?]
+~              tem   maçãs      no      bolo     
+
+[LINE]
+Speaker508: Sí,  hay muchas manzanas en mi  pastel.
+~           sim  tem muitas maçãs    no meu bolo   
+
+[LINE]
+Speaker509: ¿Tu  pastel es amarillo?
+~            teu bolo   é  amarelo  
+
+[LINE]
+Speaker508: ¡Sí,  es amarillo!
+~            sim  é  amarelo  
+
+[LINE]
+Speaker509: ¿Tu  pastel es delicioso?
+~            teu bolo   é  delicioso 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker508: ¡Lucy! ¿Tú [tienes~mi~pastel]?    
+~            Lucy   tu  estás~com~o~meu~bolo  
+- tienes mi pastor
+- quieres mi pasta
++ tienes mi pastel
+
+[LINE]
+Speaker509: ¡No,  yo no  lo~tengo!     
+~            não  eu não estou~com~ele 
+
+[LINE]
+Speaker508: Está bien, lo~siento.
+~           está bem   desculpa  
+
+[LINE]
+Speaker508: Tengo     mucha hambre y quiero mi  pastel de chocolate.
+~           estou~com muita fome   e quero  meu bolo   de chocolate 
+
+[LINE]
+Speaker509: ¿De chocolate? Pero tu    pastel es de vainilla.
+~            de chocolate  mas  o~teu bolo   é  de baunilha 
+
+[LINE]
+Speaker508: ¡Aja! ¡Sí,  mi  pastel es de vainilla y ahora sé  que tú lo~tienes!    
+~            ahá   sim  meu bolo   é  de baunilha e agora sei que tu estás~com~ele 
+
+[MULTIPLE_CHOICE]
+> Como a Lin sabe que a Lucy está com o bolo?
+- A Lucy estava com bolo no rosto dela.
++ A Lucy sabia o sabor do bolo da Lin.
+- A Lin viu a Lucy comendo o bolo dela.
+
+[MATCH]
+> Toque nos pares
+- muy <> muito
+- vainilla <> baunilha
+- Ehh <> eh
+- ve a <> vê
+- que <> que
+
