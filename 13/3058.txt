@@ -1,0 +1,166 @@
+[DATA]
+fromLanguageName=Remove This Statue
+icon=823749dd6444125abd71a484d75f11fce2ad483b
+set=70|1
+
+[HEADER]
+> Enlevez cette statue !
+~ remove  this  statue  
+
+[LINE]
+> Zari voit Lily devant      leur  école.  Lily tient      un poster.
+~ Zari sees Lily in~front~of their school  Lily is~holding a  poster 
+
+[LINE]
+Speaker418: Qu'est-ce~que~tu~fais ?
+~           what~are~you~doing     
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker416: [Lis~mon~poster].
+~            read~my~poster  
+- Lis mon moteur
++ Lis mon poster
+- Salis mon poster
+
+[LINE]
+Speaker418: « Enlevez cette statue ». Quelle statue ?
+~           ~ remove  this  statue ~  which  statue  
+
+[LINE]
+> Lily montre    la  statue d'un homme devant      l'école.   
+~ Lily points~at the statue of~a man   in~front~of the~school 
+
+[LINE]
+Speaker418: L'homme qui a~donné son~nom  à  notre école  ?
+~           the~man who gave    his~name to our   school  
+
+[MULTIPLE_CHOICE]
+> L'école~de~Zari~et~Lily…
+~ Zari~and~Lily's~school  
+- … a~seulement un  prof.   
+~   only~has    one teacher 
+- … a   un nouvel étudiant~célèbre.
+~   has a  new    famous~student   
++ … porte le  même~nom~que l'homme de~la~statue. 
+~   has   the same~name~as the~man in~the~statue 
+
+[LINE]
+Speaker416: Oui. Il a~volé cette terre aux      premiers habitants.  
+~           yes  he stole  this  land  from~the first    inhabitants 
+
+[LINE]
+Speaker418: Vraiment ?
+~           really    
+
+[LINE]
+Speaker416: Et  il les~a~tous~fait~quitter leurs maisons.
+~           and he made~them~leave         their homes   
+
+[LINE]
+Speaker418: C'est horrible ! Je vais     manifester avec toi !
+~           it's  horrible   I  am~going to~protest with you  
+
+[MULTIPLE_CHOICE]
+> Pourquoi Zari~et~Lily~veulent-elles que  l'école    enlève la  statue ?
+~ why      do~Zari~and~Lily~want      that the~school remove the statue  
+- Elles pensent que  la  statue est moche.
+~ they  think   that the statue is  ugly  
++ La  statue est celle~d'un homme qui a~fait des  choses~horribles.
+~ the statue is  of~a       man   who did    some horrible~things  
+- Lily veut  mettre la  statue dans sa~chambre. 
+~ Lily wants to~put the statue in   her~bedroom 
+
+[LINE]
+Speaker418: Enlevez cette statue !
+~           remove  this  statue  
+
+[LINE]
+> Le  directeur arrive. 
+~ the principal arrives 
+
+[LINE]
+Speaker2210: Les~filles, allez en~cours, s'il~vous~plaît.
+~            girls       go    to~class  please          
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker416: Pas~avant~que~vous [n'enleviez cette statue].
+~           not~before~you      remove     this  statue  
+- ne~nous~donniez vos  chaussures
+~ give~us         your shoes     
++ n'enleviez cette statue
+~ remove     this  statue
+- ne~dansiez pour nous
+~ dance      for  us  
+
+[POINT_TO_PHRASE]
+> Choisis l'option   qui  veut~dire « handcuffs ».
+~ choose  the~option that means     ~ ~         ~ 
+> Lily sort      des  (+menottes)  de   (sa~poche)   et  (s'attache)     à  la  (statue).
+~ Lily takes~out some   handcuffs  from  her~pocket  and  locks~herself  to the  statue  
+
+[LINE]
+Speaker418: Waouh.
+~           wow   
+
+[LINE]
+Speaker416: Zari et  moi resterons ici  toute~la~journée si nécessaire.
+~           Zari and I   will~stay here all~day~long     if necessary  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker418: Mais Lily, je [dois~partir~à~midi], j'ai   un examen~de~maths cet  après-midi !
+~           but  Lily  I   must~leave~at~noon   I~have a  math~exam       this afternoon   
++ dois partir à midi
+- devenir une hippie
+- le lire en Haïti
+
+[LINE]
+Speaker416: C'est~quoi~le~plus important, Zari ? Les~notes ? Ou la~justice ?
+~           what's~the~most    important  Zari   grades      or justice     
+
+[ARRANGE]
+> Tap what you hear
+Speaker2210: [(C'est~bien) (que)  (vous) (vous~inquiétiez~de) (la~justice).]..
+~              it's~good    that   you    worry~about          justice        
+
+[LINE]
+Speaker2210: Mais je vais     devoir     appeler   vos  parents si vous n'allez~pas en~cours !
+~            but  I  am~going to~have~to (to)~call your parents if you  don't~go    to~class  
+
+[LINE]
+Speaker418: Lily a~raison ! On~va        rester  jusqu'à~ce~que cette statue soit~enlevée !
+~           Lily is~right   we~are~going to~stay until          this  statue is~removed    
+
+[LINE]
+> Zari prend la  clé~des~menottes     et  la~jette  dans la  rue.    La  clé tombe dans les égouts.
+~ Zari takes the key~to~the~handcuffs and throws~it in   the street  the key falls in   the sewers 
+
+[LINE]
+Speaker416: Zari ! C'était la  seule clé ! Et  on~a    des~billets pour un concert ce~soir !
+~           Zari   it~was  the only  key   and we~have tickets     for  a  concert tonight  
+
+[LINE]
+Speaker418: C'est~quoi~le~plus important, Lily ? Le  concert ? Ou la~justice ?
+~           what's~the~most    important  Lily   the concert   or justice     
+
+[MULTIPLE_CHOICE]
+> Pourquoi Lily~a-t-elle~besoin~de la  clé ?
+~ pourquoi does~Lily~need          the key  
+- Elle en~a~besoin pour l'examen~de~math.
+~ she  needs~it    for  the~math~exam    
+- Elle doit   ouvrir    une boîte~magique.
+~ she  has~to (to)~open a   magic~box     
++ Elle veut  aller à  un concert plus~tard.
+~ she  wants to~go to a  concert later     
+
+[MATCH]
+> Tap the pairs
+- a donné <> gave
+- prend <> takes
+- la justice <> justice
+- sort <> takes out
+- s'attache <> locks herself
+
