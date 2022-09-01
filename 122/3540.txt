@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=Die falsche Ente
+icon=6ae21d07992767f2eef541bbcfde5913af8fc7a1
+set=26|3
+
+[HEADER]
+> The Wrong   Duck
+~ die falsche Ente
+
+[LINE]
+> Eddy is~talking to  a     waitress  at a     restaurant.
+~ Eddy spricht    mit einer Kellnerin in einem Restaurant 
+
+[LINE]
+Speaker414: Is  the food  here good? It all~looks…~really~expensive.   
+~           ist das Essen hier gut   es sieht~alles~wirklich~teuer~aus 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker386: Yes, it's   not   cheap,  but  we're    [one~of~the~best]  restaurants in~town.       
+~           ja   es~ist nicht billig  aber wir~sind  eines~der~besten  Restaurants in~(der)~Stadt 
+- onto the rest
+- one of the guests
++ one of the best
+
+[LINE]
+Speaker414: OK. I   really~want   my          date to~like~me.
+~           OK  ich will~wirklich (dass)~mein Date mich~mag   
+
+[LINE]
+Speaker386: Are  you sure   she's~coming?     You've~been~waiting for  an    hour.  
+~           sind Sie sicher (dass)~sie~kommt  Sie~warten          seit einer Stunde 
+
+[LINE]
+Speaker414: She said  to~meet~her           at the Blue~Duck   at 7~p.m.
+~           sie sagte ich~solle~sie~treffen in der Blauen~Ente um 19~Uhr
+
+[LINE]
+Speaker386: Oh. This is  the Black~Duck.   
+~           oh  dies ist die Schwarze~Ente 
+
+[MULTIPLE_CHOICE]
+> Oh-oh! Eddy …
+- … mag sein Date nicht.
++ … ist im falschen Restaurant.
+- … hat Ente zum Abendessen bestellt.
+
+[LINE]
+Speaker414: What? This isn't     the Blue~Duck?! 
+~           was   dies ist~nicht die Blaue~Ente  
+
+[LINE]
+Speaker386: No,   but  the Blue~Duck  isn't     far  from here.
+~           nein  aber die Blaue~Ente ist~nicht weit von  hier 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker414: Maybe      [she's~still~there]!
+~           vielleicht  ist~sie~noch~dort  
++ she's still there
+- she's still fair
+- she steals hair
+
+[LINE]
+> Eddy runs  to the Blue~Duck.   He sees  a     waiter. 
+~ Eddy rennt zu der Blauen~Ente  er sieht einen Kellner 
+
+[LINE]
+Speaker414: Excuse~me.         Did   you see~a~tall~woman        with dark    hair   waiting~here?     
+~           entschuldigen~Sie  haben Sie eine~große~Frau~gesehen mit  dunklen Haaren (die)~hier~wartet 
+
+[ARRANGE]
+> Was hörst du?
+Speaker526: [(Yes)… (but)  (her) (date) (never~arrived).]     
+~             ja     aber   ihr   Date   ist~nie~erschienen   
+
+[LINE]
+Speaker526: I   told~her        to~go~to~the~Black~Duck.     I   think  her date is  there.
+~           ich habe~ihr~gesagt zur~Schwarzen~Ente~zu~gehen  ich glaube ihr Date ist dort  
+
+[LINE]
+Speaker414: Oh, no!  
+~           oh  nein 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+> Eddy runs  back   to [the Black~Duck].    
+~ Eddy rennt zurück zu  der Schwarzen~Ente  
+- the office
+~ dem Büro  
++ the Black~Duck
+~ der Black~Duck
+- a     blue   duck
+~ einer blauen Ente
+
+[LINE]
+> His  date is  outside       the restaurant.
+~ sein Date ist draußen~(vor) dem Restaurant 
+
+[LINE]
+Speaker414: Georgia! I'm     glad that I   found~you!          Let's~go  eat.  
+~           Georgia  ich~bin froh dass ich dich~gefunden~habe  gehen~wir essen 
+
+[LINE]
+Speaker1715: The restaurant just~closed.           
+~            das Restaurant hat~gerade~geschlossen 
+
+[LINE]
+Speaker414: I'm~so~sorry…      
+~           es~tut~mir~so~leid 
+
+[MULTIPLE_CHOICE]
+> Eddy tut es leid, weil …
+-  … er zu viel Ente gegessen hat und ihm schlecht ist.
++ … es zu spät ist, um im Restaurant zu essen.
+- … er aus Versehen sein Date angerempelt hat.
+
+[LINE]
+Speaker1715: It's   OK. Let's~have burgers across~the~street.           
+~            es~ist OK  essen~wir  Burger  auf~der~anderen~Straßenseite 
+
+[LINE]
+Speaker1715: This   place is  too~expensive~anyway!
+~            dieser Ort   ist ohnehin~zu~teuer     
+
+[LINE]
+Speaker414: I   think  I'm     in~love. 
+~           ich glaube ich~bin verliebt 
+
+[MULTIPLE_CHOICE]
+> Warum denkt Eddy, dass er verliebt ist?
+- Sein Date hat für ein sehr teures Abendessen bezahlt.
+- Das Essen in der Black Duck war sehr lecker.
++ Sein Date will irgendwo essen, wo es günstiger ist.
+
+[MATCH]
+> Wähle die Paare
+- cheap <> billig
+- No <> nein
+- What <> was
+- OK <> OK
+- there <> dort
+
