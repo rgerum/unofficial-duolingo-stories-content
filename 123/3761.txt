@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=Quiero un perro
+icon=f0d8a8f3340da1d468766192cafa7ac1ee986355
+set=6|4
+
+[HEADER]
+> Je veux   un chien
+~ yo quiero un perro
+
+[LINE]
+Speaker415: Papa ! Papa !
+~           papá   papá  
+
+[LINE]
+Speaker414: Oui, Junior ?
+~           sí   Junior  
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker415: [Je~veux~un~chien]   !
+~            yo~quiero~un~perro   
++ Je veux un chien
+- Je vends un chien
+- Je veux le tien
+
+[LINE]
+Speaker414: Un chien ? C'est  beaucoup~de travail.
+~           un perro   eso~es mucho       trabajo 
+
+[LINE]
+Speaker415: Papa, s'il~te~plaît !
+~           papá  por~favor      
+
+[LINE]
+Speaker414: Très bien.
+~           muy  bien 
+
+[LINE]
+Speaker415: Oui !
+~           sí   
+
+[LINE]
+Speaker414: Mais d'abord, tu dois  laver la~voiture…
+~           pero primero  tú debes lavar el~carro   
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Eddy le dice a Junior que lave el carro?
++ Quiere que Junior pruebe que es responsable.
+- Junior necesita manejar para ir a su nuevo trabajo.
+- El perro de Junior ensució mucho el carro.
+
+[LINE]
+Speaker414: … tes~vêtements…
+~             tu~ropa       
+
+[LINE]
+Speaker415: Oui…
+~           sí  
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker414: … [(et) (aussi)   (les) (fenêtres) ]!
+~               y    también   las   ventanas    
+
+[LINE]
+> Junior finit   de tout~laver.
+~ Junior termina de lavar~todo 
+
+[LINE]
+Speaker415: Papa ! Regarde !
+~           papá   mira     
+
+[LINE]
+Speaker414: Bon  travail ! Tu es   très responsable.
+~           buen trabajo   tú eres muy  responsable 
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker414: Tu peux   avoir [un chien].
+~           tú puedes tener  un perro  
++ un chien
+~ un perro
+- du~travail
+~ trabajo   
+- une fenêtre
+~ una ventana
+
+[LINE]
+Speaker415: Non, merci   !
+~           no   gracias  
+
+[LINE]
+Speaker415: Je ne~veux~pas de~chien.
+~           yo no~quiero   un~perro 
+
+[LINE]
+Speaker414: Mais… je ne~comprends~pas.
+~           pero  yo no~entiendo      
+
+[LINE]
+Speaker415: Je suis  fatigué ! Je ne~veux~pas être responsable.
+~           yo estoy cansado   yo no~quiero   ser  responsable 
+
+[MULTIPLE_CHOICE]
+> Junior decidió que…
+- …debería adoptar cuatro perros.
+- …él prefiere tener una vaca.
++ …está demasiado cansado para cuidar un perro.
+
+[MATCH]
+> Selecciona los pares
+- es <> eres
+- Papa <> papá
+- Bon <> buen
+- C'est <> eso es
+- et <> y
+
