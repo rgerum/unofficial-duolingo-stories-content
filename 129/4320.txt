@@ -1,0 +1,124 @@
+[DATA]
+fromLanguageName=Kız Arkadaşımı Bul
+icon=0d18f0403cfa415591d7ef50a9e9c01f1094936e
+set=7|1
+
+[HEADER]
+> Find My    Girlfriend    
+~ Bul  Benim kız~arkadaşımı
+
+[LINE]
+> Bea is   at  the airport.   
+~ ~   -dır -da ~   havalimanı 
+
+[LINE]
+> She talks   to the man  at  the desk.
+~ O   konuşur -a ~   adam -da ~   masa 
+
+[LINE]
+Speaker823: Hello! Can~I          help   you? 
+~           Selam  edebilir~miyim Yardım size 
+
+[LINE]
+Speaker507: Yes!  I'm going     to Barcelona…
+~           Evet  Ben gidiyorum -a Barselona 
+
+[LINE]
+Speaker507: I~want    to~sit  next~to my    girlfriend      on  the plane.
+~           istiyorum oturmak yanına  benim kız~arkadaşımın -ta ~   uçak  
+
+[MULTIPLE_CHOICE]
+> Bea, uçakta kız arkadaşının yanına oturmak istiyor.
+- Hayır, bu doğru değil.
++ Evet, bu doğru.
+
+[LINE]
+Speaker823: OK,   we    have two seats      together.
+~           peki  bizim var  iki koltuğumuz yan~yana 
+
+[MULTIPLE_CHOICE]
+> Sekreter Bea'ya...
+- … Uçakta sadece iki koltuk olduğunu söyler.
+- … Uçakta boş koltuğun olmadığını söyler.
++ … Uçakta yan yana iki koltuk olduğunu söyler.
+
+[LINE]
+Speaker507: Great! 
+~           Harika 
+
+[LINE]
+Speaker823: Um… where  is your  girlfriend?     
+~           ~   nerede ~  sizin kız~arkadaşınız 
+
+[POINT_TO_PHRASE]
+> "Bilmiyorum" anlamına gelen seçeneği tıklayın.
+Speaker507: (+I~don't~know). (Can~you)          (help)   (me~find) her?
+~             bilmiyorum      edebilir~misiniz   Yardım   bulmama  onu 
+
+[LINE]
+Speaker823: What does she look~like?
+~           neye ~    o   benziyor  
+
+[LINE]
+Speaker507: Hmm. She is~tall.    She  has dark hair…
+~           ~    O   uzun~boylu  onun var koyu saçı 
+
+[LINE]
+Speaker823: OK.  
+~           peki 
+
+[LINE]
+Speaker507: She loves sports and cooking…        
+~           O   sever sporu  ve  yemek~pişirmeyi 
+
+[LINE]
+Speaker823: Uh…
+
+[LINE]
+Speaker507: She loves animals…    but she drives     too fast. 
+~           O   sever hayvanları  ama o   kullanıyor çok hızlı 
+
+[LINE]
+Speaker823: OK…   What is her  name?
+~           peki  Ne   ~  onun adı  
+
+[MULTIPLE_CHOICE]
+> Sekreter neden Bea'nın kız arkadaşı hakkında sorular soruyor?
+- Bea'nın kız arkadaşıyla spor yapmak istiyor.
+- Bea ve arkadaşının çok iyi arkadaş olduğu için.
++ Bea'nın onu bulmasına yardım etmeye çalışıyor.
+
+[LINE]
+Speaker507: Oh. I~don't~know.
+~           ~   bilmiyorum   
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker823: You~don't~know   [your~girlfriend's~name]? 
+~           bilmiyor~musunuz  kız~arkadaşınızın~adını  
+- your good friends' names
++ your girlfriend's name
+- your girlfriend's game
+
+[LINE]
+Speaker507: I     don't~have a   girlfriend    yet.  
+~           benim yok        bir kız~arkadaşım henüz 
+
+[LINE]
+Speaker507: Can~you          help   me~find one?   
+~           edebilir~misiniz Yardım bulmama birini 
+
+[MULTIPLE_CHOICE]
+> Bea, memurdan…
++ … Yeni kız arkadaşının yanına oturması için yardım istiyor.
+- … Babasının yanına oturması için yardım istiyor.
+- … Pencere kenarına oturması için yardım istiyor.
+
+[MATCH]
+> Çiftlere dokun
+- her <> onu
+- I don't know <> bilmiyorum
+- plane <> uçak
+- Can I <> edebilir miyim
+- Barcelona <> Barselona
+
