@@ -1,0 +1,145 @@
+[DATA]
+fromLanguageName=Tin tặc
+icon=d5d838c3ef0c7ca57b1c21aa81867b8fd732920d
+set=32|6
+
+[HEADER]
+> The~Hacker
+~ tên~hacker
+
+[LINE]
+> Bea walks~into Eddy's~apartment.
+~ Bea bước~vào   căn~hộ~của~Eddy  
+
+[LINE]
+Speaker414: Thanks    for~coming!
+~           cảm~ơn~em vì~đã~đến  
+
+[LINE]
+Speaker507: Sure!      You said   there~was~a~problem~with~your~computer, right?     
+~           có~gì~đâu  anh bảo~là máy~tính~của~anh~có~vấn~đề              phải~không 
+
+[MULTIPLE_CHOICE]
+> Bea đang giúp Eddy sửa bồn cầu.
++ Không đúng.
+- Đúng vậy.
+
+[LINE]
+Speaker414: Yes!
+~           ừ   
+
+[LINE]
+Speaker507: What~happened?      
+~           đã~có~chuyện~gì~vậy 
+
+[LINE]
+Speaker414: Well…      have~you~ever~heard~of          a~"hacker"?
+~           chuyện~là  em~đã~bao~giờ~nghe~nói~đến…chưa hacker     
+
+[LINE]
+Speaker414: That's a   person who        changes      things  on   computers.
+~           đó~là  một người  (người)~mà làm~thay~đổi các~thứ trên máy~tính  
+
+[LINE]
+Speaker507: Yes,  Eddy, I  know what~a~hacker~is. So,  what's~the~problem?    
+~           vâng  Eddy  em biết hacker~là~gì      thế  anh~đang~gặp~vấn~đề~gì 
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “sơ yếu lý lịch”.
+Speaker414: I   (tried)       (to~print) my       (+resume),         (but)   it~didn't~work!
+~           anh  đã~tìm~cách   để~in     …của~anh   sơ~yếu~lý~lịch    nhưng  không~in~được  
+
+[LINE]
+Speaker414: And now     I   can't~find     my~resume              on   my~computer.        I   think the~hacker deleted~it.   
+~           và  giờ~thì anh không~tìm~thấy sơ~yếu~lý~lịch~của~anh trên máy~tính~(của~anh)  anh nghĩ  tên~hacker xóa~nó~đi~rồi 
+
+[MULTIPLE_CHOICE]
+> Eddy nghĩ rằng…
+- …có người đã lấy trộm máy tính của anh ấy.
++ …tin tặc đã xóa sơ yếu lý lịch của anh ấy.
+- …Bea đã ăn bữa sáng của anh ấy.
+
+[LINE]
+Speaker507: Can~I~look~at~it?     
+~           cho~em~xem~được~không 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+> Bea starts  working  [on   the~computer].  
+~ Bea bắt~đầu thao~tác  trên chiếc~máy~tính  
+- on   her~car          
+~ trên xe~ô~tô~của~cô~ấy
++ on   the~computer  
+~ trên chiếc~máy~tính
+- at a   restaurant
+~ ở  một nhà~hàng  
+
+[LINE]
+Speaker507: OK,       I  found       a   file    called "my~resume."             
+~           được~rồi  em đã~tìm~thấy một tập~tin đề~là   sơ~yếu~lý~lịch~của~tôi  
+
+[LINE]
+> Bea opens the~file. Eddy sees it on   the~computer.  
+~ Bea mở    tập~tin   Eddy xem  nó trên chiếc~máy~tính 
+
+[LINE]
+Speaker414: It does~look~like    my~resume.             
+~           nó có~vẻ~như~đúng~là sơ~yếu~lý~lịch~của~anh 
+
+[LINE]
+Speaker507: Also,   I  know why     your~printer   wasn't~working.             
+~           với~cả  em biết tại~sao máy~in~của~anh lúc~nãy~lại~không~hoạt~động 
+
+[LINE]
+> Bea connects~the~printer~to  the~computer.  
+~ Bea kết~nối~chiếc~máy~in~với chiếc~máy~tính 
+
+[LINE]
+Speaker507: It wasn't~connected! 
+~           nó chưa~được~kết~nối 
+
+[MULTIPLE_CHOICE]
+> Vì sao máy in của Eddy lại không hoạt động?
+- Tin tặc đã làm hỏng máy in.
+- Eddy không có máy in.
++ Nó chưa được kết nối với máy tính.
+
+[LINE]
+Speaker414: Hmm.     Junior probably did    that.     
+~           xem~nào  Junior chắc~là  đã~làm chuyện~đó 
+
+[LINE]
+> The~resume         prints,     and Bea looks~at it.
+~ bản~sơ~yếu~lý~lịch được~in~ra  rồi Bea xem      nó 
+
+[LINE]
+Speaker507: Eddy, there~are~mistakes all~over      your~resume.           
+~           Eddy  có~lỗi~sai         chi~chít~khắp sơ~yếu~lý~lịch~của~anh 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker414: [(The~hacker) (probably) (changed) (it)!]
+~             tên~hacker   chắc~là    đã~sửa    nó   
+
+[LINE]
+Speaker507: Hmm.   Do~you~know       that      your~resume            says   you're~good~with computers?
+~           vậy~à  anh~có~biết…không (rằng)~là sơ~yếu~lý~lịch~của~anh ghi~là anh~thành~thạo   máy~tính  
+
+[LINE]
+Speaker414: Yeah, the~hacker definitely   changed that.  
+~           ừ     tên~hacker chắc~chắn~là đã~sửa  cái~đó 
+
+[MULTIPLE_CHOICE]
+> Eddy nghĩ rằng máy tính của mình bị tấn công...  
++ …nhưng thực ra là tại anh ấy không rành công nghệ.
+- …nên anh ấy đã bị mất hết dữ liệu.
+- …nên anh ấy đã gọi điện báo cảnh sát.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- my <> …của anh
+- why <> tại sao
+- Yes <> ừ
+- it didn't work <> không in được
+- I <> em
+
