@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=Regarde mon tableau
+icon=b4a0fb96a3bb2af295051d49d3c112c4c91779e6
+set=13|3
+
+[HEADER]
+> Look~at My  Painting
+~ regarde mon tableau 
+
+[LINE]
+> Eddy walks~into Oscar's~apartment.    
+~ Eddy entre~dans l'appartement~d'Oscar 
+
+[LINE]
+> Eddy is~carrying a  painting.
+~ Eddy porte       un tableau  
+
+[LINE]
+Speaker592: What~is~that,        Eddy?
+~           qu'est-ce~que~c'est  Eddy 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker414: It's  [my~first~painting]!  
+~           c'est  mon~premier~tableau  
+- my first printing
++ my first painting
+- my fast painting
+
+[LINE]
+Speaker414: Can~you~look~at~it? 
+~           tu~peux~le~regarder 
+
+[LINE]
+Speaker592: No. 
+~           non 
+
+[LINE]
+Speaker414: But  you're an   art~teacher.     
+~           mais tu~es  (un) professeur~d'art 
+
+[MULTIPLE_CHOICE]
+> Eddy veut...
+- ... qu'Oscar lui fasse un tableau.
++ ... qu'Oscar regarde son tableau.
+- ... donner des cours d'art à Oscar.
+
+[LINE]
+Speaker592: Yes, and I  am   very honest. 
+~           oui  et  je suis très honnête 
+
+[LINE]
+Speaker414: Good.
+~           bien 
+
+[LINE]
+Speaker592: And you will~cry.   
+~           et  tu  vas~pleurer 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Oscar dit-il à Eddy qu'il va le faire pleurer ?
++ Il va être honnête s'il n'aime pas le tableau.
+- Il a une histoire très triste à lui raconter.
+- Les tableaux d'Oscar sont magnifiques.
+
+[LINE]
+Speaker414: But  I  want to~know if the painting is  good.
+~           mais je veux savoir  si le  tableau  est bon  
+
+[LINE]
+Speaker592: It's~not     good.
+~           il~n'est~pas bon  
+
+[LINE]
+Speaker414: How     do~you~know?
+~           comment tu~sais     
+
+[LINE]
+Speaker592: You are~not  an artist.  And it's  your first   painting.
+~           tu  n'es~pas un artiste  et  c'est ton  premier tableau  
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker592: [(First)        (paintings) (are)     (never)  (good).]
+~             les~premiers   tableaux    ne~sont   jamais   bons   
+
+[LINE]
+Speaker414: Please,        look~at~it.
+~           s'il~te~plaît  regarde-le 
+
+[LINE]
+Speaker414: Please,        Oscar.
+~           s'il~te~plaît  Oscar 
+
+[LINE]
+Speaker592: Fine. I'll~look~at~it.    
+~           bien  je~vais~le~regarder 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+> Oscar looks~at [the painting].
+~ Oscar regarde   le  tableau   
+- the~apartment
+~ l'appartement
++ the painting
+~ le  tableau 
+- Eddy~crying    
+~ Eddy~qui~pleure
+
+[LINE]
+Speaker592: Eddy, this painting is… 
+~           Eddy  ce   tableau  est 
+
+[LINE]
+Speaker414: Yes?!
+~           oui  
+
+[LINE]
+Speaker592: Really   good.
+~           vraiment bon  
+
+[LINE]
+Speaker414: Yes! Cool!   I'm     a  good artist! 
+~           oui  génial  je~suis un bon  artiste 
+
+[LINE]
+Speaker592: Now        please        leave.
+~           maintenant s'il~te~plaît pars  
+
+[MULTIPLE_CHOICE]
+> Pourquoi Oscar est-il surpris que le tableau d'Eddy soit réussi ?
++ Il pense que les premiers tableaux ne sont jamais réussis.
+- Eddy a peint ce tableau quand il était enfant.
+- Il pense qu'Eddy est un trop mauvais peintre.
+
+[MATCH]
+> Choisis les paires
+- How <> comment
+- walks into <> entre dans
+- I'll look at it <> je vais le regarder
+- I'm <> je suis
+- What is that <> qu'est-ce que c'est
+
