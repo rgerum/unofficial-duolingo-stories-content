@@ -1,0 +1,147 @@
+[DATA]
+fromLanguageName=Who Stole My Lunch?
+icon=71bc9bc5c6a5619a4f4ee9651bbb246b449bf495
+set=23|3
+
+[HEADER]
+> Wer hat mein~Mittagessen~gestohlen?
+~ who has stolen~my~lunch            
+
+[LINE]
+> Eddy ist in der Küche   in dem Büro,   in dem   er arbeitet.
+~ Eddy is  in the kitchen in the office  in which he works    
+
+[LINE]
+> Er spricht     mit  seiner neuen Kollegin  Eva.
+~ he is~speaking with his    new   colleague Eva 
+
+[LINE]
+Speaker414: Oh nein, nicht schon~wieder!
+~           oh no    not   again        
+
+[LINE]
+Speaker125: Was  ist~passiert?
+~           what happened     
+
+[LINE]
+Speaker414: Jemand  hat mein~Mittagessen~gestohlen!
+~           someone has stolen~my~lunch            
+
+[MULTIPLE_CHOICE]
+> Someone keeps stealing Eddy's lunch.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker414: Das  passiert           seit~einer~Woche~täglich!
+~           this has~been~happening daily~for~a~week         
+
+[LINE]
+Speaker125: Echt?   Wer macht so~etwas?           
+~           really  who does  something~like~that 
+
+[LINE]
+Speaker414: Ich glaube,  es war Markus.
+~           I   believe  it was Markus 
+
+[LINE]
+Speaker125: Bestimmt.   Markus sieht~immer~hungrig~aus.
+~           definitely  Markus always~looks~hungry     
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Gestern)   (hat~er) (mein) (Schinkenbrot) (gegessen)!]
+~             yesterday   he~has   my     ham~sandwich   eaten      
+
+[LINE]
+Speaker125: Du  meinst, dein Käsebrot.       
+~           you mean    your cheese~sandwich 
+
+[POINT_TO_PHRASE]
+> Choose the option that means “the day before yesterday.”
+Speaker125: (Schinken) (hattest~du) (+vorgestern).              
+~            ham        you~had       the~day~before~yesterday  
+
+[LINE]
+Speaker414: Woher weißt~du    das? 
+~           how   do~you~know that 
+
+[LINE]
+Speaker125: Äh … Ich bin gut  im~Raten.   
+~           uh   I   am  good at~guessing 
+
+[MULTIPLE_CHOICE]
+> Wait, what does Eva mean?
+- She makes really good cheese sandwiches.
+- She can predict the future.
++ She can guess what Eddy brought for lunch.
+
+[LINE]
+Speaker414: Ich bringe     Markus morgen   eine Überraschung mit   ...
+~           I   will~bring Markus tomorrow a    surprise     along    
+
+[LINE]
+Speaker414: Ich mache     ein ganz besonderes Brot     für ihn ... mit  Fisch und Banane!
+~           I   will~make a   very special    sandwich for him     with fish  and banana 
+
+[LINE]
+Speaker125: Super Idee!
+~           great idea 
+
+[LINE]
+> Am~nächsten~Tag trifft~Eddy Eva.
+~ the~next~day    Eddy~meets  Eva 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Komisch. Heute hat~niemand [mein~Essen~gestohlen].
+~           strange  today nobody~has   stolen~my~food        
++ mein Essen gestohlen
+- eine Adresse in Polen
+- mir Essen geholt
+
+[LINE]
+Speaker125: Ist~das~nicht gut? 
+~           isn't~that    good 
+
+[CONTINUATION]
+> What comes next?
+Speaker414: Nein. Jetzt muss~ich  das ekelhafte  [Brot  essen].
+~           no    now   I~have~to the disgusting  bread eat    
+- Nebenfach studieren
+~ minor     to~study 
++ Brot  essen
+~ bread eat  
+- Spülbecken austrinken
+~ sink       drink     
+
+[LINE]
+Speaker125: Ich habe heute ein leckeres  Brot~mit~Hähnchen!
+~           I   have today a   delicious chicken~sandwich  
+
+[LINE]
+Speaker414: Wirklich? Du  bringst~normalerweise~nie Mittagessen mit!  
+~           really    you usually~never~bring       lunch       along 
+
+[LINE]
+Speaker125: Ich habe eine Fischallergie und ich hasse Bananen.
+~           I   have a    fish~allergy  and I   hate  bananas 
+
+[LINE]
+Speaker414: Moment! Du  hast immer  mein~Brot~gestohlen!
+~           wait    you have always stolen~my~sandwich  
+
+[MULTIPLE_CHOICE]
+> Who has been stealing Eddy's lunch?
+- Markus
++ Eva
+- a fish
+
+[MATCH]
+> Tap the pairs
+- passiert <> has been happening
+- so etwas <> something like that
+- eine <> a
+- Jemand <> someone
+- Küche <> kitchen
+
