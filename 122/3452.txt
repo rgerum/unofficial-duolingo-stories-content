@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Danke?
+icon=0e35077f2bf31284d5967e7096a66da10d0a9bdf
+set=4|3
+
+[HEADER]
+> Thanks?
+~ danke  
+
+[LINE]
+> Zari gives Lily a    box.      
+~ Zari gibt  Lily eine Schachtel 
+
+[LINE]
+Speaker416: What's  this?
+~           was~ist das  
+
+[LINE]
+Speaker418: Open  the box!      
+~           öffne die Schachtel 
+
+[LINE]
+> Lily opens  the box.      
+~ Lily öffnet die Schachtel 
+
+[LINE]
+Speaker416: It's   a   shirt.
+~           es~ist ein Hemd  
+
+[LINE]
+Speaker418: It's   so cute!    
+~           es~ist so niedlich 
+
+[MULTIPLE_CHOICE]
+> Zari hasst das Hemd.
+- Ja, das ist richtig.
++ Nein, das ist falsch.
+
+[LINE]
+Speaker416: It's   pink.
+~           es~ist pink 
+
+[LINE]
+Speaker418: Yeah, my    favorite~color.
+~           ja    meine Lieblingsfarbe 
+
+[LINE]
+Speaker416: And it~has a    cat   on~it. 
+~           und es~ist eine Katze darauf 
+
+[LINE]
+Speaker418: I   love  cats!  
+~           ich liebe Katzen 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „Motorrad“.
+Speaker416: (And) (the) (cat)   is  on  a     (+motorcycle).
+~            und   die   Katze  ist auf einem   Motorrad    
+
+[LINE]
+Speaker418: It's   so funny! 
+~           es~ist so witzig 
+
+[LINE]
+Speaker418: It's   a   perfect   birthday~present.   
+~           es~ist ein perfektes Geburtstagsgeschenk 
+
+[MULTIPLE_CHOICE]
+> Zari denkt, dass das Hemd …
++ … ein perfektes Geburtstagsgeschenk ist.
+- … eine hässliche Farbe hat.
+- … für ihre Katze ist.
+
+[LINE]
+Speaker416: Zari, it's   not   my   birthday.  
+~           Zari  es~ist nicht mein Geburtstag 
+
+[LINE]
+Speaker418: I   know. Today is  my   birthday.  
+~           ich weiß  heute ist mein Geburtstag 
+
+[LINE]
+Speaker416: Oh, right.  
+~           oh  richtig 
+
+[ARRANGE]
+> Was hörst du?
+Speaker418: [(You) (always~forget)  (my)     (birthday).]  
+~             du    vergisst~immer   meinen   Geburtstag   
+
+[LINE]
+Speaker418: Now   you~can   give~me~this~shirt!   
+~           jetzt kannst~du mir~dieses~Hemd~geben 
+
+[LINE]
+Speaker416: Wow, thank~you.
+~           wow  danke     
+
+[LINE]
+Speaker418: No,   no.   Thank~you.
+~           nein  nein  danke~dir 
+
+[MULTIPLE_CHOICE]
+> Warum hat Zari Lily das Hemd gegeben?
+- Lily hat eine Katze, die Motorrad fährt.
+- Heute ist Lilys Geburtstag.
++  Sie wollte, dass Lily ihr es zurückschenkt.
+
+[MATCH]
+> Wähle die Paare
+- favorite color <> Lieblingsfarbe
+- No <> nein
+- cat <> Katze
+- funny <> witzig
+- What's <> was ist
+
