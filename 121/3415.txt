@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Vacation Clothes
+icon=eda1b8214a6937df66a552eb581f2353da4d0352
+set=2|4
+
+[HEADER]
+> バケーションの                     ふく            
+~ for~vacation~[bakeeshon~no] clothes~[fuku]
+
+[LINE]
+> ルーシーは             ふくや                        に~います。           
+~ Lucy~[ruushii~wa] (a)~clothes~store~[fukuya] is~in~[ni~imasu] 
+
+[LINE]
+Speaker509: あの|、すみません|。てつだってくれませんか？                                                      
+~           um~[ano]  excuse~me~[sumimasen]  can~you~help~(me)~[tetsudatte~kuremasen~ka] 
+
+[LINE]
+Speaker509: バケーション                   に~いく                  から|、あたらしい                       ふく             が~ほしいんです。                   
+~           (a)~vacation~[bakeeshon] (I'll)~go~on~[ni~iku] because~[kara]  new~[atarashii] clothes~[fuku] (I)~want~[ga~hoshii~n~desu] 
+
+[MULTIPLE_CHOICE]
+> Lucy is shopping for clothes for a vacation.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker416: かしこまりました。                      
+~           certainly~[kashikomarimashita] 
+
+[LINE]
+Speaker509: ワンピース                を~みせてください。                          
+~           (a)~dress~[wanpiisu] please~show~(me)~[o~misete~kudasai] 
+
+[ARRANGE]
+> Tap what you hear
+> [(リリーは)            (ルーシーに)                (みどりの)              (ワンピース)                (を~みせます)。]            
+~   Lily~[ririi~wa]   to~Lucy~[ruushii~ni]   green~[midori~no]   (a)~dress~[wanpiisu]   shows~[o~misemasu]   
+
+[LINE]
+Speaker509: これは~だめです|！あかいのは                                              ありますか？                   
+~           not~this~(one)~[kore~wa~dame~desu]  (a)~red~one~[akai~no~wa] do~you~have~[arimasu~ka] 
+
+[MULTIPLE_CHOICE]
+> What does Lucy want to get?
+- a green skirt
++ a red dress
+- a brown car
+
+[LINE]
+> リリーは            ルーシーに                あかい        ワンピース                を~みせます。            
+~ Lily~[ririi~wa] to~Lucy~[ruushii~ni] red~[akai] (a)~dress~[wanpiisu] shows~[o~misemasu] 
+
+[LINE]
+Speaker509: それ        に~します|。ブーツ                               も        ありますか？                   
+~           it~[sore] (I'll)~take~[ni~shimasu]  boots~[buutsu] too~[mo] do~you~have~[arimasu~ka] 
+
+[LINE]
+> リリーは            ルーシーに                あかい        ブーツ            を~みせます。            
+~ Lily~[ririi~wa] to~Lucy~[ruushii~ni] red~[akai] boots~[buutsu] shows~[o~misemasu] 
+
+[LINE]
+Speaker509: だめです|！くろいのは                              ありますか？                   
+~           no~[dame~desu]  black~ones~[kuroi~no~wa] do~you~have~[arimasu~ka] 
+
+[LINE]
+Speaker416: かしこまりました…                      
+~           certainly~[kashikomarimashita] 
+
+[LINE]
+Speaker509: よし|、あかい                ワンピース                と        くろい           ブーツ...           
+~           OK~[yoshi]  red~[akai] (a)~dress~[wanpiisu] and~[to] black~[kuroi] boots~[buutsu]   
+
+[CONTINUATION]
+> What comes next?
+Speaker509: それに          ぼうし              も        [ほしいです]！                 
+~           and~[soreni] (a)~hat~[boushi] too~[mo]  (I)~want~[hoshii~desu]  
++ ほしいです                 
+~ (I)~want~[hoshii~desu]
+- いいです             
+~ is~good~[ii~desu]
+- たかいです                    
+~ is~expensive~[takai~desu]
+
+[LINE]
+> リリーは            ルーシーに                あおい        ぼうし              を~みせます。            
+~ Lily~[ririi~wa] to~Lucy~[ruushii~ni] blue~[aoi] (a)~hat~[boushi] shows~[o~misemasu] 
+
+[LINE]
+Speaker509: だめです|！きいろいのは                                  ありますか？                   
+~           no~[dame~desu]  (a)~yellow~one~[kiiroi~no~wa] do~you~have~[arimasu~ka] 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+> リリーは            ルーシーに                きいろい            [ぼうしを~みせます]。                        
+~ Lily~[ririi~wa] to~Lucy~[ruushii~ni] yellow~[kiiroi]  shows~(a)~hat~[boushi~o~misemasu]  
++ ぼうしを みせます
+- ほしを みせます 
+- すしを みせます
+
+[LINE]
+Speaker509: かんぺきです|！これで                                  バケーションの                          じゅんび                      が~できました。                 
+~           (it)~is~perfect~[kanpeki~desu]  now~[korede] for~(my)~vacation~[bakeeshon~no] (the)~preparation~[junbi] is~done~[ga~dekimashita] 
+
+[LINE]
+Speaker416: わたしこそ                             バケーション                   に~いきたいよ。                      
+~           I~am~the~one~(who)~[watashi~koso] (a)~vacation~[bakeeshon] wants~to~go~on~[ni~ikitai~yo] 
+
+[MULTIPLE_CHOICE]
+> Poor Lily! Why does she want to go on a vacation?
+- She has a lot of new clothes to wear.
++ She's tired after helping Lucy find clothes.
+- She ate too much for lunch.
+
+[MATCH]
+> Tap the pairs
+- あかいのは <> red one [akai no wa]
+- ぼうし <> hat [boushi]
+- も <> too [mo]
+- それ <> it [sore]
+- から <> because [kara]
+
