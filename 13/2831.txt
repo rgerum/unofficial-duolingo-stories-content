@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=I Want a Pizza
+icon=3eebaf390a99fcebfaf064cfa42f14c071b5b97f
+set=13|2
+
+[HEADER]
+> Je veux une pizza
+~ I  want a   pizza
+
+[LINE]
+> Lin marche     dans la  rue.   
+~ Lin is~walking in   the street 
+
+[LINE]
+> Elle a   deux pizzas.
+~ she  has two  pizzas 
+
+[LINE]
+> Elle voit Oscar.
+~ she  sees Oscar 
+
+[LINE]
+Speaker592: Salut, Lin. Ça   sent   bon  !
+~           hi     Lin  that smells good  
+
+[MULTIPLE_CHOICE]
+> Oscar thinks Lin's pizzas smell bad.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker508: Oui, ce~sont   des  pizzas de~chez~Emilio.
+~           yes  these~are some pizzas from~Emilio's  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker592: Oh, [j'adore~ce~restaurant]. 
+~           oh   I~love~that~restaurant  
+- j'adore ce croissant
++ j'adore ce restaurant
+- encore au restaurant
+
+[LINE]
+Speaker592: Je veux une pizza maintenant !
+~           I  want a   pizza now         
+
+[LINE]
+Speaker508: Oh, mais le  restaurant est fermé. 
+~           oh  but  the restaurant is  closed 
+
+[LINE]
+Speaker592: Oh, non...
+~           oh  no    
+
+[POINT_TO_PHRASE]
+> Choose the option that means "buy."
+Speaker592: Ah ! Tu  as   deux (pizzas). (Je~peux) (+acheter)  une de tes  (pizzas) ?
+~           ah   you have two   pizzas    can~I      (to)~buy  one of your  pizzas   
+
+[LINE]
+Speaker508: Non, désolée. Il~y~a   une pizza pour ma grand-mère,  Lucie, et  une pizza pour moi.
+~           no   sorry    there~is one pizza for  my grandmother  Lucie  and one pizza for  me  
+
+[LINE]
+Speaker592: Je~peux~avoir un~peu de ta   pizza ?
+~           can~I~have    some   of your pizza  
+
+[MULTIPLE_CHOICE]
+> Oscar wants to have…
+- …a coupon for the restaurant.
++ …some of Lin's pizza.
+- …a date with Lin's grandmother.
+
+[LINE]
+Speaker508: Non, Oscar.
+~           no   Oscar 
+
+[LINE]
+> Lin rentre~chez~elle.      
+~ Lin goes~back~to~her~place 
+
+[CONTINUATION]
+> What comes next?
+Speaker592: Je veux manger une pizza de~chez~Emilio [maintenant].
+~           I  want to~eat a   pizza from~Emilio's   now         
++ maintenant
+~ now       
+- dans dix ans  
+~ in   ten years
+- à  la  piscine      
+~ at the swimming~pool
+
+[LINE]
+> Oscar prend son~téléphone.
+~ Oscar gets  his~phone     
+
+[LINE]
+Speaker592: Salut, Lucie, c'est Oscar. Tu~fais       quelque~chose pour le~dîner ?
+~           hi     Lucie  it's  Oscar  are~you~doing something     for  dinner    
+
+[LINE]
+Speaker509: Je mange     une pizza avec Lin ! Tu  veux manger avec nous ?
+~           I  am~eating a   pizza with Lin   you want to~eat with us    
+
+[LINE]
+Speaker592: Bonne idée, merci     !
+~           good  idea  thank~you  
+
+[MULTIPLE_CHOICE]
+> How sneaky! Oscar called Lucie because...
++ ...he wanted her to invite him for dinner.
+- ...she wouldn't answer his texts.
+- ...he wanted to wish her happy birthday.
+
+[MATCH]
+> Tap the pairs
+- moi <> me
+- la <> the
+- Lin <> Lin
+- idée <> idea
+- pizzas <> pizzas
+
