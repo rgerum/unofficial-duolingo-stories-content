@@ -1,0 +1,196 @@
+[DATA]
+fromLanguageName=An Old Friend
+icon=9a24d590833b6d4c1753efa2e1d6cd5b1c0b9f9a
+set=37|4
+
+[HEADER]
+> Ein alter Freund
+~ an  old   friend
+
+[LINE]
+> Eddy holt  Junior von~der~Schule~ab.
+~ Eddy picks Junior up~from~school    
+
+[LINE]
+Speaker415: Papa! Können wir heute in~den~Park~gehen? Ich möchte     mit~Max~spielen! 
+~           dad   can    we  today go~to~the~park     I   would~like to~play~with~Max 
+
+[LINE]
+Speaker414: Natürlich! Ich mag  Max!
+~           of~course  I   like Max 
+
+[LINE]
+Speaker414: Er erinnert mich an meinen besten Freund, als  ich in~deinem~Alter~war.
+~           he reminds  me   of my     best   friend  when I   was~your~age        
+
+[MULTIPLE_CHOICE]
+> Moment! Was  hat~Eddy gerade~gesagt?
+~ wait    what did~Eddy just~say      
+- Max weiß  alles      über  Eddys  Leben.
+~ Max knows everything about Eddy's life  
+- Eddy hat~all~seine~Freunde~vergessen.
+~ Eddy forgot~all~his~friends          
++ Max ist wie  ein alter Freund von~Eddy. 
+~ Max is  like an  old   friend of~Eddy's 
+
+[LINE]
+Speaker414: Er~hieß      Jochen.
+~           his~name~was Jochen 
+
+[LINE]
+Speaker414: Wir haben~Steine~in~den~See~geworfen, sind~durch~die~Gegend~gerannt und auf~Bäume~geklettert.
+~           we  threw~rocks~into~the~lake         ran~around~the~area           and climbed~up~trees     
+
+[LINE]
+Speaker415: Das  klingt super!
+~           that sounds great 
+
+[LINE]
+Speaker414: Aber ich habe ihn seit~der~Grundschule nicht gesehen.
+~           but  I   have him since~primary~school not   seen    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Ich bin froh, dass ich so   [einen~tollen~Freund] hatte.
+~           I   am  glad  that I   such  a~great~friend       had   
+- eine tolle Neun
+- einen vollen Feind
++ einen tollen Freund
+
+[LINE]
+> Später geht~Eddy mit  Junior in den Park, um          Max~und~seinen~Vater~zu~treffen.
+~ later  Eddy~goes with Junior to the park  in~order~to meet~Max~and~his~father         
+
+[LINE]
+Speaker113: Hallo, ich bin Max'|  Vater!  Moment! Bist~du~das, Eddy?!
+~           hello  I   am  Max's  father  wait    is~that~you  Eddy  
+
+[LINE]
+Speaker414: Jochen?! Wir haben gerade über~dich~gesprochen!
+~           Jochen   we  have  just   spoken~about~you     
+
+[LINE]
+Speaker113: Du~bist~es~wirklich!
+~           it's~really~you     
+
+[ARRANGE]
+> Tap what you hear
+> [(Eddy) (und) (Jochen) (umarmen) (einander).]  
+~   Eddy   and   Jochen   hug       each~other   
+
+[CONTINUATION]
+> Was  kommt als~Nächstes?
+~ what comes next         
+Speaker414: Wir hatten so viel Spaß [als Kinder]!  
+~           we  had    so much fun   as  children  
+- in deinem Büro  
+~ in your   office
+- in der Küche  
+~ in the kitchen
++ als Kinder  
+~ as  children
+
+[LINE]
+Speaker113: Weißt~du~noch,   wie wir Steine in   den See  geworfen~haben, um          die~Enten~zu~ärgern?
+~           do~you~remember  how we  rocks  into the lake threw           in~order~to annoy~the~ducks     
+
+[LINE]
+Speaker414: Äh, was? 
+~           uh  what 
+
+[LINE]
+Speaker113: Ja!  Die blöden Enten!
+~           yes  the stupid ducks 
+
+[LINE]
+Speaker113: Und weißt~du~noch,   wie wir das~Fenster~von~deinem~Nachbarn kaputtgemacht~haben und vor  seinem Hund weglaufen~mussten?
+~           and do~you~remember  how we  your~neighbor's~window          broke               and from his    dog  had~to~run~away   
+
+[LINE]
+Speaker414: Oh, richtig ...
+~           oh  right      
+
+[LINE]
+Speaker113: Und weißt~du~noch,   wie wir auf~den~Baum~geklettert~sind? Ich habe~dich~geschubst und du  bist~runtergefallen!
+~           and do~you~remember  how we  climbed~up~the~tree           I   pushed~you          and you fell~down           
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Ja,  ich [habe~mir~das~Bein~gebrochen]!
+~           yes  I    broke~my~leg                 
+- habe mir das Schwein zerbrochen
++ habe mir das Bein gebrochen
+- habe dir das Heim versprochen
+
+[LINE]
+Speaker113: Und dann konntest du  bei dem wichtigen Fußballspiel nicht mitspielen! Hahaha!
+~           and then could    you in  the important soccer~game  not   play        hahaha 
+
+[LINE]
+Speaker414: Das~hatte~ich~vergessen.
+~           I~forgot~about~that     
+
+[LINE]
+Speaker113: Komisch, danach     wollten~deine~Eltern~nicht~mehr, dass wir zusammen~spielen.
+~           strange  after~that your~parents~no~longer~wanted    that we  play~together    
+
+[MULTIPLE_CHOICE]
+> Eddy hat~wahrscheinlich~vergessen, …
+~ Eddy probably~forgot                
++ … dass er mit  Jochen schlimme~Sachen~gemacht~hat.
+~   that he with Jochen did~bad~things              
+- … dass sein Nachbar  viele~Hunde~hatte.
+~   that his  neighbor had~many~dogs     
+- … dass Junior morgen~ein~Fußballspiel~hat.
+~   that Junior has~a~soccer~game~tomorrow  
+
+[LINE]
+> Eddy ruft  Junior.
+~ Eddy calls Junior 
+
+[LINE]
+Speaker414: Junior! Komm, wir~gehen   nach~Hause.
+~           Junior  come  we're~going home       
+
+[LINE]
+> Eddy nimmt Juniors  Hand und sie  verlassen den Park.
+~ Eddy takes Junior's hand and they leave     the park 
+
+[CONTINUATION]
+> Was  kommt als~Nächstes?
+~ what comes next         
+Speaker415: Papa, was~ist~los?  Warum [gehen~wir      schon]?  
+~           dad   what's~wrong  why    are~we~leaving already  
++ gehen~wir      schon  
+~ are~we~leaving already
+- bin ich so müde 
+~ am  I   so tired
+- stinkst~du~so      
+~ do~you~smell~so~bad
+
+[LINE]
+Speaker414: Ich möchte~nicht~mehr, dass du  mit~Max~spielst.
+~           I   no~longer~want     that you play~with~Max   
+
+[LINE]
+Speaker414: Er erinnert mich zu  sehr an seinen Vater. 
+~           he reminds  me   too much of his    father 
+
+[MULTIPLE_CHOICE]
+> Warum will~Eddy~nicht~mehr,     dass Junior und Max Freunde~sind?
+~ why   does~Eddy~no~longer~want  that Junior and Max are~friends  
++ Er hat~Angst, dass Max so~gemein~ist~wie~sein~Vater.
+~ he is~scared  that Max is~as~mean~as~his~father     
+- Max hat~Steine~auf~Junior~geworfen.
+~ Max threw~rocks~at~Junior          
+- Er hat~sich~erinnert, dass Max Fußball~hasst.
+~ he remembered         that Max hates~soccer  
+
+[MATCH]
+> Tap the pairs
+- konntest <> could
+- Fußballspiel <> soccer game
+- meinen <> my
+- gehen wir <> are we leaving
+- Hand <> hand
+
