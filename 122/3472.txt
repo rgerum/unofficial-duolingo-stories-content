@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=Ich fühle mich krank
+icon=68ffeb0d8b8a73e7de5cd3b964b34d0e08761977
+set=9|3
+
+[HEADER]
+> I   Feel       Sick 
+~ ich fühle~mich krank
+
+[LINE]
+Speaker415: Dad!  I   feel       sick! 
+~           Papa  ich fühle~mich krank 
+
+[LINE]
+Speaker414: Oh, no!  
+~           oh  nein 
+
+[LINE]
+> Eddy touches Junior's head.
+~ Eddy berührt Juniors  Kopf 
+
+[LINE]
+Speaker414: You don't~have~a fever. 
+~           du  hast~kein    Fieber 
+
+[MULTIPLE_CHOICE]
+> Junior hat Fieber.
+- Ja, das ist richtig.
++ Nein, das ist falsch.
+
+[LINE]
+Speaker415: But  my   ear hurts!   I   want to~go~to~the~doctor's~office!
+~           aber mein Ohr tut~weh  ich will zur~Arztpraxis~gehen         
+
+[LINE]
+Speaker414: OK...
+~           OK   
+
+[ARRANGE]
+> Was hörst du?
+> [(They) (go)    (to~the) (doctor's~office).]
+~   sie    gehen   zur      Arztpraxis        
+
+[LINE]
+Speaker341: It's   nice  to~see~you~again,   Junior.
+~           es~ist schön dich~wiederzusehen  Junior 
+
+[LINE]
+Speaker341: What's~wrong?
+~           was~ist~los  
+
+[LINE]
+Speaker414: His  ear hurts.  
+~           sein Ohr tut~weh 
+
+[LINE]
+Speaker341: Oh, no!   I   can  help.  
+~           oh  nein  ich kann helfen 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+> The doctor looks~at   [Junior's ear].
+~ die Ärztin untersucht  Juniors  Ohr  
+- the clock
+~ die Uhr  
+- Eddy's shoes 
+~ Eddys  Schuhe
++ Junior's ear
+~ Juniors  Ohr
+
+[LINE]
+Speaker341: Hmmm… Your ear is  fine.      
+~           hmmm  dein Ohr ist in~Ordnung 
+
+[LINE]
+Speaker415: Oh! Well… My   foot hurts.  
+~           oh  gut   mein Fuß  tut~weh 
+
+[LINE]
+> The doctor looks~at   Junior's foot.
+~ die Ärztin untersucht Juniors  Fuß  
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker341: Your foot [is~also~fine].       
+~           dein Fuß   ist~auch~in~Ordnung  
++ is also fine
+- is also mine
+- it's all the wine
+
+[LINE]
+Speaker414: Is  he OK, Doctor?     
+~           ist er OK  Frau~Doktor 
+
+[LINE]
+Speaker341: Yes.
+~           ja  
+
+[LINE]
+Speaker341: You're  not   sick,  Junior.
+~           du~bist nicht krank  Junior 
+
+[LINE]
+Speaker415: I   am  sick! 
+~           ich bin krank 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „Süßigkeiten“.
+Speaker341: (Junior)... (are)  you (here) because I   always~give~you (+candy)?      
+~            Junior      bist  du   hier  weil    ich dir~immer~gebe    Süßigkeiten  
+
+[LINE]
+Speaker415: Umm… Yes.
+~           ähm  ja  
+
+[LINE]
+Speaker414: Junior!
+~           Junior 
+
+[LINE]
+Speaker415: So...   Can  I   have~my~candy           now?  
+~           also    kann ich meine~Süßigkeiten~haben jetzt 
+
+[MULTIPLE_CHOICE]
+> Oh Junior! Warum wollte er zur Ärztin gehen?
+- Er war sehr krank.
+- Sie hatte ein Geschenk für ihn.
++ Sie gibt ihm immer Süßigkeiten.
+
+[MATCH]
+> Wähle die Paare
+- is <> ist
+- to see you again <> dich wiederzusehen
+- no <> nein
+- The <> die
+- always give you <> dir immer gebe
+
