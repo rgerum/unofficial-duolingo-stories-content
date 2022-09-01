@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=Junior's Exercise
+icon=9f2d4bdaca5fe3e93b4a97529d903567ee23fd4e
+set=5|3
+
+[HEADER]
+> Junior macht~Sport
+~ Junior exercises  
+
+[LINE]
+> Junior spielt     Videospiele.
+~ Junior is~playing video~games 
+
+[LINE]
+Speaker414: Junior, wollen~wir~Sport~machen?
+~           Junior  do~we~want~to~exercise  
+
+[LINE]
+Speaker415: Nein. Ich will Videospiele~spielen.
+~           no    I   want to~play~video~games 
+
+[MULTIPLE_CHOICE]
+> Eddy wants Junior to exercise.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+> Eddy hat eine Idee.
+~ Eddy has an   idea 
+
+[LINE]
+Speaker414: Möchtest~du in~den~Laden~mit~den~Videospielen~gehen?
+~           do~you~want to~go~to~the~video~game~store           
+
+[LINE]
+Speaker415: Oh ja! 
+~           oh yes 
+
+[LINE]
+Speaker414: Kannst du  mein~Geld~holen? Es ist im~Schlafzimmer.
+~           can    you get~my~money     it is  in~the~bedroom  
+
+[MULTIPLE_CHOICE]
+> Eddy wants Junior to get his money for him. Where is it?
+- at the gym
++ in the bedroom
+- in the video game store
+
+[LINE]
+> Junior läuft und holt das Geld. 
+~ Junior runs  and gets the money 
+
+[LINE]
+Speaker415: Hier, Papa!
+~           here  dad  
+
+[LINE]
+Speaker414: Und kannst du  meinen~Schlüssel~holen? Er ist in~der~Küche.  
+~           and can    you get~my~key              it is  in~the~kitchen 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+> Junior läuft und [holt~den~Schlüssel].
+~ Junior runs  and  gets~the~key        
+- holt die Schüssel
++ holt den Schlüssel
+- hat in Brüssel
+
+[LINE]
+Speaker415: Können wir jetzt~gehen?
+~           can    we  go~now      
+
+[LINE]
+Speaker414: Ich brauche meine Jacke. 
+~           I   need    my    jacket 
+
+[LINE]
+Speaker414: Sie ist in~Vikrams~Wohnung.   
+~           it  is  in~Vikram's~apartment 
+
+[LINE]
+Speaker415: Aber Vikram wohnt im~vierten~Stock    …
+~           but  Vikram lives on~the~fourth~floor  
+
+[MULTIPLE_CHOICE]
+> Wait... which floor does Vikram live on?
++ the fourth floor
+- the second floor
+- the eighth floor
+
+[LINE]
+Speaker414: Du~kannst~das!
+~           you~can~do~it 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "leaves."
+> (Junior) (+verlässt) (die) (Wohnung)   und kommt~mit~Eddys~Jacke~wieder. 
+~  Junior    leaves     the   apartment  and comes~back~with~Eddy's~jacket 
+
+[LINE]
+Speaker414: Super, jetzt können~wir~gehen!
+~           great  now   we~can~go        
+
+[LINE]
+Speaker415: Ich bin müde. 
+~           I   am  tired 
+
+[LINE]
+Speaker414: Warum? Zu  viel Sport?   
+~           why    too much exercise 
+
+[MULTIPLE_CHOICE]
+> Eddy…
+- …bought Junior a new video game.
++ …tricked Junior into doing some exercise.
+- …gave Vikram his jacket.
+
+[MATCH]
+> Tap the pairs
+- hat <> has
+- Idee <> idea
+- ja <> yes
+- Wohnung <> apartment
+- Hier <> here
+
