@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=Je vous ai vue
+icon=5efd5d3e85a10ad5c37e72a842288f5c3d967300
+set=27|4
+
+[HEADER]
+> I  Saw~You    
+~ je vous~ai~vue
+
+[LINE]
+> Lily is~working in   a  clothes~store.       
+~ Lily travaille  dans un magasin~de~vêtements 
+
+[LINE]
+> She  stops  a   well-dressed~woman  leaving  the store.  
+~ elle arrête une femme~bien~habillée qui~sort du  magasin 
+
+[LINE]
+Speaker416: Ma'am,  did~you~just~put     that sweater   in   your  purse?     
+~           Madame  venez-vous~de~mettre ce   pull-over dans votre sac~à~main 
+
+[LINE]
+Speaker528: My  purse?      No. 
+~           mon sac~à~main  non 
+
+[LINE]
+Speaker416: Yes, you  did.         I  saw~you.    
+~           si   vous l'avez~fait  je vous~ai~vue 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker528: Oh, [this~sweater]?
+~           oh   ce~pull-over  
+- it's better
+- this weather
++ this sweater
+
+[LINE]
+Speaker528: I~was~going~to~pay~for~it, but  I~forgot.    I'm     old.     My memory  is  bad.     
+~           j'allais~le~payer          mais j'ai~oublié  je~suis vieille  ma mémoire est mauvaise 
+
+[MULTIPLE_CHOICE]
+> Pourquoi la femme n'a-t-elle pas payé pour le pull ?
+- Le pull n'est pas à sa taille.
+- Elle ne veut pas du pull.
++ Elle a une mauvaise mémoire.
+
+[LINE]
+Speaker416: Wait,     is~that a   scarf   in   your  purse      too?  
+~           attendez  c'est   une écharpe dans votre sac~à~main aussi 
+
+[LINE]
+Speaker528: Oops!
+~           oups 
+
+[LINE]
+Speaker416: Can~you~please~take~everything~out      of your  purse?     
+~           pouvez-vous~s'il~vous~plaît~tout~sortir de votre sac~à~main 
+
+[LINE]
+> The woman takes a   scarf,   a   belt,     and a   watch  out~of~the purse.     
+~ la  femme sort  une écharpe  une ceinture  et  une montre du         sac~à~main 
+
+[LINE]
+Speaker416: Were~you~trying to~steal all~of these things?!
+~           essayiez-vous   de~voler toutes ces   choses  
+
+[LINE]
+Speaker528: Yes, I~was!      I~love~stealing! It's  exciting! 
+~           oui  j'essayais  j'adore~voler    c'est palpitant 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « m'ennuie ».
+Speaker528: I  (live) (alone). I  (+get~bored). (One) day,  you'll~understand.
+~           je  vis    seule   je   m'ennuie     un   jour  vous~comprendrez  
+
+[LINE]
+Speaker528: I  can~leave,   right?        I'm     a   nice     old~woman.   
+~           je peux~partir  n'est-ce~pas  je~suis une gentille vieille~dame 
+
+[LINE]
+Speaker416: Are~you   nice?    
+~           êtes-vous gentille 
+
+[LINE]
+Speaker528: Not really.   But  you  could~let~me~leave         because   you're    a   nice     young woman.
+~           pas vraiment  mais vous pourriez~me~laisser~partir parce~que vous~êtes une gentille jeune femme 
+
+[MULTIPLE_CHOICE]
+> Pourquoi la dame dit à Lily qu'elle est gentille ?
+- Elle veut que Lily fasse les magasins avec elle.
+- Elle pense que Lily est sa petite-fille.
++ Elle veut que Lily la laisse partir.
+
+[LINE]
+Speaker416: OK.       You  can~leave.     But  don't~tell~anyone       that I'm     nice.    
+~           d'accord  vous pouvez~partir  mais ne~dites~pas~à~personne que  je~suis gentille 
+
+[LINE]
+Speaker528: OK!       Thanks! Goodbye!  
+~           d'accord  merci   au~revoir 
+
+[LINE]
+> The old~woman    takes her purse      and leaves.
+~ la  vieille~dame prend son sac~à~main et  part   
+
+[LINE]
+> Lily's~boss     runs~into             the store.  
+~ le~chef~de~Lily entre~en~courant~dans le  magasin 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker113: Did~you~let  that  woman [leave]? 
+~           tu~as~laissé cette femme  partir  
+- in   your purse     
+~ dans ton  sac~à~main
++ leave 
+~ partir
+- live  alone
+~ vivre seule
+
+[LINE]
+Speaker416: Of~course~I~did.  Why      not?
+~           bien~sûr~que~oui  pourquoi pas 
+
+[LINE]
+Speaker113: She  just~stole     a  $300~purse!       
+~           elle vient~de~voler un sac~à~main~à~300$ 
+
+[MULTIPLE_CHOICE]
+> Pourquoi le chef de Lily est-il en colère ?
+- Lily a dit à la femme de voler des articles.
++ La femme a volé un sac à main cher.
+- Lily a volé un sac à main cher.
+
+[MATCH]
+> Choisis les paires
+- day <> jour
+- well-dressed woman <> femme bien habillée
+- your <> votre
+- live <> vis
+- get bored <> m'ennuie
+
