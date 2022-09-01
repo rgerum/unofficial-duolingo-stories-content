@@ -1,0 +1,118 @@
+[DATA]
+fromLanguageName=Un nouveau manteau
+icon=966f6e25540bc4ba5347e59005bcc1e2827fdd66
+set=1|3
+
+[HEADER]
+> A  New     Coat   
+~ un nouveau manteau
+
+[LINE]
+> A   woman talks to Vikram in   a  store.  
+~ une femme parle à  Vikram dans un magasin 
+
+[LINE]
+Speaker338: Hello!  
+~           bonjour 
+
+[LINE]
+Speaker593: Hi.   
+~           salut 
+
+[MULTIPLE_CHOICE]
+> Une femme dans un magasin dit au revoir à Vikram.
+- Oui, c'est vrai.
++ Non, c'est faux.
+
+[LINE]
+Speaker338: Do~you~work     here?
+~           travaillez-vous ici  
+
+[LINE]
+Speaker593: I,  uhh...
+~           je  euh   
+
+[LINE]
+Speaker338: Good! I~need~help.       
+~           bien  j'ai~besoin~d'aide 
+
+[LINE]
+Speaker338: I~need~a         new     coat.   
+~           j'ai~besoin~d'un nouveau manteau 
+
+[POINT_TO_PHRASE]
+> Choisis l'option  qui veut dire     « manteau rouge ».
+~ Choisis L’adresse qui veut terrible ~ manteau rouge ~ 
+Speaker338: (Do~you~like) (the) (+red~coat)?     
+~            aimez-vous    le     manteau~rouge  
+
+[LINE]
+Speaker338: Or do~you~like the brown~coat?    
+~           ou aimez-vous  le  manteau~marron 
+
+[LINE]
+Speaker593: Hmm, OK… 
+~           hmm  bon 
+
+[LINE]
+Speaker593: The brown~coat     is  nice     and cheap.   
+~           le  manteau~marron est agréable et  pas~cher 
+
+[LINE]
+Speaker593: But  the red~coat      is  very beautiful.
+~           mais le  manteau~rouge est très beau      
+
+[MULTIPLE_CHOICE]
+> Vikram pense que le manteau rouge est…
++ ... beau.
+- … moche.
+- … bizarre.
+
+[LINE]
+Speaker593: And it is  warm. 
+~           et  il est chaud 
+
+[LINE]
+Speaker593: It is  perfect for  you! 
+~           il est parfait pour vous 
+
+[LINE]
+Speaker338: OK,       I  want the red~coat!     
+~           d'accord  je veux le  manteau~rouge 
+
+[LINE]
+Speaker338: Thank~you! You  are  good at   your  job!    
+~           merci      vous êtes bon  dans votre travail 
+
+[MULTIPLE_CHOICE]
+> La femme pense que...
+- ... le manteau rouge est moche.
++ ... Vikram fait du bon travail.
+- ... Vikram devrait trouver un autre travail.
+
+[LINE]
+Speaker338: Where do~I~pay      for  the coat?   
+~           où    dois-je~payer pour le  manteau 
+
+[LINE]
+Speaker593: I  do~not~know.
+~           je ne~sais~pas 
+
+[LINE]
+Speaker593: I  do~not~work      here.
+~           je ne~travaille~pas ici  
+
+[MULTIPLE_CHOICE]
+> Que s'est-il passé dans l'histoire ?
+- Une femme a aidé Vikram à acheter un nouveau bonnet.
++ Une femme a cru que Vikram travaillait dans le magasin.
+- Une femme a offert un travail à Vikram dans le magasin.
+
+[MATCH]
+> Choisis les paires
+- But <> mais
+- nice <> agréable
+- here <> ici
+- your <> votre
+- Good <> bien
+
