@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Thanks?
+icon=0e35077f2bf31284d5967e7096a66da10d0a9bdf
+set=8|1
+
+[HEADER]
+> Merci     ?
+~ thank~you  
+
+[LINE]
+> Zari donne un cadeau à  Lily.
+~ Zari gives a  gift   to Lily 
+
+[LINE]
+Speaker416: C'est~quoi~ça ?
+~           what's~that    
+
+[LINE]
+Speaker418: Ouvre     !
+~           open~(it)  
+
+[LINE]
+> Lily ouvre le  cadeau.
+~ Lily opens the gift   
+
+[LINE]
+Speaker416: C'est une chemise.
+~           it's  a   shirt   
+
+[LINE]
+Speaker418: Elle est trop~belle       !
+~           it   is  really~beautiful  
+
+[LINE]
+Speaker416: Elle est rose.
+~           it   is  pink 
+
+[MULTIPLE_CHOICE]
+> Wait... what did Zari give Lily?
+- a new bike
+- a pair of blue shoes
++ a pink shirt
+
+[LINE]
+Speaker418: Oui, c'est ma couleur~préférée.
+~           yes  it's  my favorite~color   
+
+[LINE]
+Speaker416: Et  il~y~a   un chat sur la  chemise.
+~           and there~is a  cat  on  the shirt   
+
+[LINE]
+Speaker418: J'adore les~chats !
+~           I~love  cats       
+
+[LINE]
+Speaker416: Et  le  chat est dans~un~avion…
+~           and the cat  is  on~a~plane    
+
+[POINT_TO_PHRASE]
+> Choose the option that means "funny."
+Speaker418: (Oui), (c'est) (très) (+drôle) !
+~            yes    it's    very    funny   
+
+[LINE]
+Speaker418: C'est le  cadeau~d'anniversaire~parfait.
+~           it's  the perfect~birthday~gift         
+
+[MULTIPLE_CHOICE]
+> Zari thinks the shirt is…
++ …the perfect birthday present.
+- …really expensive.
+- …too ugly to wear.
+
+[LINE]
+Speaker416: Zari, ce~n'est~pas mon anniversaire.
+~           Zari  it~isn't     my  birthday     
+
+[LINE]
+Speaker418: Je sais. Mais aujourd'hui, c'est mon anniversaire.
+~           I  know  but  today        it's  my  birthday     
+
+[LINE]
+Speaker416: Ah, oui…
+~           ah  yes 
+
+[CONTINUATION]
+> What comes next?
+Speaker418: Tu  oublies~toujours [mon anniversaire].
+~           you always~forget     my  birthday      
+- ta   voiture
+~ your car    
+- les chats
+~ the cats 
++ mon anniversaire
+~ my  birthday    
+
+[LINE]
+Speaker418: Mais maintenant, tu  peux~me~donner cette chemise !
+~           but  now         you can~give~me    this  shirt    
+
+[LINE]
+Speaker416: Euh… Merci     ?
+~           uh   thank~you  
+
+[LINE]
+Speaker418: Non, merci~à~toi !
+~           no   thank~you    
+
+[MULTIPLE_CHOICE]
+> Why did Zari give Lily the shirt?
+- Lily has a cat that rides a motorcycle.
++ She wanted Lily to give it back to her.
+- Today is Lily's birthday.
+
+[MATCH]
+> Tap the pairs
+- ma <> my
+- sur <> on
+- anniversaire <> birthday
+- peux me donner <> can give me
+- Mais <> but
+
