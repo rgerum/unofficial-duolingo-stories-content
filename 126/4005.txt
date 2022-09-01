@@ -1,0 +1,191 @@
+[DATA]
+fromLanguageName=A carta de recusa
+icon=3f0d0ac0ce9f8f8e457bcac6adbeba768ca03fbd
+set=50|2
+
+[HEADER]
+> The Rejection~Letter
+~ a   carta~de~recusa 
+
+[LINE]
+> Lin is~house-sitting      at her~friend~Bea's~apartment    while    Bea is   on~vacation.
+~ Lin está~cuidando~da~casa no apartamento~da~amiga~dela~Bea enquanto Bea está de~férias   
+
+[LINE]
+> She calls     Bea on~the phone.   
+~ ela liga~para Bea pelo   telefone 
+
+[LINE]
+Speaker508: Hey, Bea! How's~your~vacation~going?
+~           ei   Bea  como~vão~suas~férias      
+
+[LINE]
+Speaker507: Good! I  got~up   at 5 in~the morning and swam  across              an icy~lake,    and now   I'm~going~on a   10-mile~hike!          
+~           boas  eu levantei às 5 da     manhã   e   nadei até~o~outro~lado~de um lago~gelado  e   agora eu~vou~fazer uma caminhada~de~10~milhas 
+
+[LINE]
+Speaker508: That sounds… like the opposite of a~vacation to   me. 
+~           isso parece  como o   oposto   de férias     para mim 
+
+[MULTIPLE_CHOICE]
+> Wait…   what  does~Lin~mean? 
+~ espere  o~que Lin~quer~dizer 
++ Bea's~vacation   doesn't~sound very  relaxing.  
+~ as~férias~de~Bea não~parecem   muito relaxantes 
+- Bea decided not to~go on~her~vacation.
+~ Bea decidiu não ir    nas~férias~dela 
+- She wants to~have a~vacation just~like~Bea's. 
+~ ela quer  ter     férias     iguais~às~de~Bea 
+
+[LINE]
+Speaker507: How's     everything at my  apartment?  
+~           como~está tudo       no meu apartamento 
+
+[LINE]
+Speaker508: Well, you  got     some   mail…           
+~           bem   você recebeu alguma correspondência 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker507: [(Did~I~get) (any)    (important~letters)?]
+~             eu~recebi   alguma   carta~importante    
+
+[LINE]
+Speaker508: There's one from a  museum. It~looks important. 
+~           há      uma de   um museu   parece   importante 
+
+[POINT_TO_PHRASE]
+> Choose  the option that means     "prêmio."
+~ escolha a   opção  que  significa  ~       
+Speaker507: Oh, no!  I  was~waiting      for  (that) (letter). It's (about) an (+award)… 
+~           ah  não  eu estava~esperando para  essa   carta    é     sobre  um   prêmio  
+
+[LINE]
+Speaker508: Should~I~open~it?
+~           eu~devo~abri-la  
+
+[LINE]
+Speaker507: Definitely      not.
+~           definitivamente não 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker508: But it's [a~big~envelope].     Maybe~you~won             the award! 
+~           mas é     um~envelope~grande   talvez~você~tenha~ganhado o   prêmio 
++ a big envelope
+- a big velvet rope
+- a big cantaloupe
+
+[LINE]
+Speaker507: I  don't~know…
+~           eu não~sei    
+
+[LINE]
+> Lin opens the letter.
+~ Lin abre  a   carta  
+
+[LINE]
+Speaker508: I'm~sorry.      You  lost.   It's a   rejection~letter.
+~           eu~sinto~muito  você perdeu  é    uma carta~de~recusa  
+
+[LINE]
+Speaker507: Lin! Why     did~you~open~it?! Now   I  won't~enjoy    the rest  of  my~vacation!  
+~           Lin  por~que você~a~abriu      agora eu não~vou~curtir o   resto das minhas~férias 
+
+[MULTIPLE_CHOICE]
+> Why     is~Bea~so~upset?      
+~ por~que Bea~está~tão~chateada 
+- Lin threw all~of her~mail               away.
+~ Lin jogou toda   a~correspondência~dela fora 
++ She didn't~win an important~award.  
+~ ela não~ganhou um prêmio~importante 
+- Her~favorite~museum   is   closed. 
+~ o~museu~favorito~dela está fechado 
+
+[LINE]
+Speaker508: I  was~just~trying    to~help…
+~           eu só~estava~tentando ajudar  
+
+[LINE]
+> The~next~day,    Lin is~watching     TV on Bea's~couch. Bea walks~in.
+~ no~dia~seguinte  Lin está~assistindo TV no sofá~de~Bea  Bea entra    
+
+[LINE]
+Speaker508: You're    home    early!
+~           você~está em~casa cedo  
+
+[LINE]
+Speaker507: I  couldn't~enjoy      my~vacation   after~the bad~news.  
+~           eu não~consegui~curtir minhas~férias depois~da má~notícia 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker508: [(I'm~sorry)          (I)  (opened) (the) (letter).]
+~             eu~sinto~muito~que   eu   abri     a     carta    
+
+[LINE]
+Speaker507: It's OK.      
+~           está tudo~bem 
+
+[LINE]
+> Bea looks~at  the rest  of~her~mail             on~the kitchen~table.  
+~ Bea olha~para o   resto da~correspondência~dela na     mesa~da~cozinha 
+
+[LINE]
+Speaker507: I  got    more mail?            Why     didn't~you~tell~me?!
+~           eu recebi mais correspondência  por~que você~não~me~falou   
+
+[LINE]
+Speaker508: I  learned my    lesson. I  didn't~want to~give~you more bad news.    
+~           eu aprendi minha lição   eu não~queria  te~dar      mais más notícias 
+
+[CONTINUATION]
+> What  comes next?  
+~ o~que vem   depois 
+> Bea opens [an envelope].
+~ Bea abre   um envelope  
+- her~bedroom~window     
+~ a~janela~do~quarto~dela
++ an envelope
+~ um envelope
+- the refrigerator
+~ a   geladeira   
+
+[LINE]
+Speaker507: Lin! I  won!   
+~           Lin  eu ganhei 
+
+[LINE]
+Speaker508: No,  I  read that letter three times. You  lost!  
+~           não  eu li   essa carta  três  vezes  você perdeu 
+
+[LINE]
+Speaker507: No,  this is a  different~award,  for  one of  my   short~films.      And I  won!   
+~           não  este é  um prêmio~diferente  para um  dos meus curtas-metragens  e   eu ganhei 
+
+[LINE]
+Speaker507: Why     didn't~you~open this letter, Lin?
+~           por~que você~não~abriu  esta carta   Lin 
+
+[LINE]
+Speaker508: Ugh,  I'll~never~house-sit     for  you  again.  
+~           afff  nunca~vou~cuidar~da~casa para você de~novo 
+
+[MULTIPLE_CHOICE]
+> Although~Bea~lost        one award… 
+~ embora~Bea~tenha~perdido um  prêmio 
+- …Lin won    three awards  for house-sitting.  
+~  Lin ganhou três  prêmios por cuidar~de~casas 
+- …she enjoyed her~whole~vacation.     
+~  ela curtiu  as~férias~dela~inteiras 
++ …she won    a  different~award  for  her~film.    
+~  ela ganhou um prêmio~diferente para o~filme~dela 
+
+[MATCH]
+> Toque nos pares
+- rest <> resto
+- on vacation <> de férias
+- on the <> pelo
+- in the <> da
+- letter <> carta
+
