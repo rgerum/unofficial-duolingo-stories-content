@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Visita de fim de semana
+icon=e9870ece5e694f8efd3df5550e7bb5d130fadecf
+set=22|4
+
+[HEADER]
+> Weekend~Visit          
+~ visita~de~fim~de~semana
+
+[LINE]
+> Bea's~boyfriend,   Sean, is~visiting    for~the weekend.      
+~ o~namorado~de~Bea  Sean  está~visitando no      fim~de~semana 
+
+[LINE]
+Speaker438: This is the first~time       I'm~staying      at your apartment!   It's so  exciting!   
+~           esta é  a   primeira~vez~que eu~estou~ficando no seu  apartamento  é    tão emocionante 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker507: Yeah, [it'll~be~a~fun~weekend].           
+~           sim    será~um~final~de~semana~divertido  
+- it'll be fun weather
+- I'll be the weekend
++ it'll be a fun weekend
+
+[LINE]
+Speaker438: It's~like~we're~living         together! We'll~learn        so~much about~each~other.
+~           é~como~se~estivéssemos~morando juntos    nós~vamos~aprender tanto   um~sobre~o~outro 
+
+[LINE]
+Speaker507: What?!  No,  I'm~not~ready       to~live    together!
+~           o~quê   não  eu~não~estou~pronta para~morar junto    
+
+[MULTIPLE_CHOICE]
+> Ah, não! Por que a Bea está nervosa?
++ Ela não quer morar com o namorado dela ainda.
+- Ela esqueceu de limpar o apartamento dela.
+- O namorado dela quer terminar com ela.
+
+[LINE]
+Speaker438: Bea, it's~OK.  I  was~joking.      
+~           Bea  tudo~bem  eu estava~brincando 
+
+[LINE]
+Speaker438: Hey, can~I~sleep     on~the left~side     of~the bed? 
+~           ei   eu~posso~dormir no     lado~esquerdo da     cama 
+
+[LINE]
+Speaker507: I  usually     sleep on~the left~side     of~the bed,  but OK…      
+~           eu normalmente durmo no     lado~esquerdo da     cama  mas tudo~bem 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker438: [(Could~I~close)     (the) (curtains)?]
+~             eu~poderia~fechar   as    cortinas   
+
+[LINE]
+Speaker438: I  don't~want~the~sun~to~wake~me~up.
+~           eu não~quero~que~o~sol~me~acorde    
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "nascer do sol".
+Speaker507: OK,    but I  (wake~up) at (+sunrise)       (every) (morning)…
+~           certo  mas eu  acordo   ao   nascer~do~sol   toda    manhã    
+
+[LINE]
+Speaker438: And do~you~mind      if~I~take   that   painting off~the~wall?
+~           e   você~se~incomoda se~eu~tirar aquela pintura  da~parede    
+
+[LINE]
+Speaker507: Why?     I  love it.  My  cousin painted~it.
+~           por~quê  eu amo  ela  meu primo  a~pintou   
+
+[LINE]
+Speaker438: It's a~little scary…       I~won't~be~able       to~sleep.
+~           é    um~pouco assustadora  eu~não~serei~capaz~de dormir   
+
+[LINE]
+Speaker507: Ugh,  OK.   
+~           afff  certo 
+
+[CONTINUATION]
+> O que vem depois?
+> Bea takes the painting [off~the~wall].
+~ Bea tira  a   pintura   da~parede     
+- off~the~floor
+~ do~chão      
++ off~the~wall
+~ da~parede   
+- off~the~sofa
+~ do~sofá     
+
+[LINE]
+Speaker438: Oh! I  forgot  my    toothbrush.      Can~I~use     yours?
+~           ah  eu esqueci minha escova~de~dente  eu~posso~usar a~sua 
+
+[LINE]
+Speaker507: My    toothbrush?!      No,  definitely      not.
+~           minha escova~de~dente   não  definitivamente não 
+
+[LINE]
+Speaker438: Haha, we're~learning         so~much about~each~other!
+~           haha  nós~estamos~aprendendo tanto   um~do~outro      
+
+[LINE]
+Speaker507: Yeah, and I  think    you  should~stay   at a  hotel.
+~           sim   e   eu acho~que você deveria~ficar em um hotel 
+
+[MULTIPLE_CHOICE]
+> O que a Bea descobriu sobre o namorado dela?
+- Ela quer morar com ele.
++ Ela não quer que ele fique no apartamento dela.
+- Ele adora pinturas assustadoras.
+
+[MATCH]
+> Toque nos pares
+- takes <> tira
+- Could I close <> eu poderia fechar
+- so <> tão
+- curtains <> cortinas
+- I'm not ready <> eu não estou pronta
+
