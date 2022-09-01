@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=Der Tanzkurs
+icon=9a1213d7cb11cc1ab115544c9557336da748fca6
+set=4|4
+
+[HEADER]
+> The Dance~Class
+~ der Tanzkurs   
+
+[LINE]
+> Eddy walks into Elizabeth's class.
+~ Eddy geht  in   Elizabeths  Kurs  
+
+[LINE]
+Speaker125: Hi!
+~           hi 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker125: Today we're      [learning~to~dance]!
+~           heute werden~wir  tanzen~lernen      
++ learning to dance
+- earning two dances
+- leaning to dance
+
+[LINE]
+> Eddy quickly~walks to~the door.
+~ Eddy geht~schnell  zur    Tür  
+
+[LINE]
+Speaker125: Wait!      
+~           warten~Sie 
+
+[LINE]
+Speaker125: Don't~leave!        
+~           gehen~Sie~nicht~weg 
+
+[LINE]
+Speaker125: I   know dancing is  difficult sometimes…
+~           ich weiß Tanzen  ist schwierig manchmal  
+
+[LINE]
+Speaker125: …but  it's~really~fun~too!        
+~            aber es~macht~auch~wirklich~Spaß 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „Fehler“.
+Speaker414: (OK), (but)  (this) is  a   (+mistake).
+~            OK    aber   das   ist ein   Fehler   
+
+[LINE]
+Speaker125: It's   OK! It's   easy.    Watch~me!          
+~           es~ist OK  es~ist einfach  schauen~Sie~mir~zu 
+
+[LINE]
+Speaker414: But… 
+~           aber 
+
+[ARRANGE]
+> Was hörst du?
+> [(Eddy) (watches)        (Elizabeth) (dance).]
+~   Eddy   schaut~zu,~wie   Elisabeth   tanzt   
+
+[LINE]
+Speaker125: Now   dance      with me! 
+~           jetzt tanzen~Sie mit  mir 
+
+[LINE]
+Speaker414: This is~really~fun!      
+~           das  macht~wirklich~Spaß 
+
+[LINE]
+Speaker125: So…   is  this   class still      a   mistake?
+~           also  ist dieser Kurs  immer~noch ein Fehler  
+
+[MULTIPLE_CHOICE]
+> Elizabeth möchte wissen, …
++ … ob Eddy noch immer denkt, dass es ein Fehler war, in ihren Kurs zu kommen.
+- … ob Eddy Tanzlehrer ist.
+- … warum Eddy so ein furchtbarer Tänzer ist.
+
+[LINE]
+Speaker414: Yes.
+~           ja  
+
+[LINE]
+Speaker125: Really?  
+~           wirklich 
+
+[LINE]
+Speaker414: Yes, I'm     in~the wrong    room.
+~           ja   ich~bin im     falschen Raum 
+
+[LINE]
+Speaker414: But  this is~more~fun     than a   cooking~class!
+~           aber das  macht~mehr~Spaß als  ein Kochkurs      
+
+[MULTIPLE_CHOICE]
+> Ups! Welchen Fehler hat Eddy gemacht?
+- Er war früher mit Elizabeth zusammen.
++ Er wollte eigentlich einen Kochkurs besuchen.
+- Er hat vergessen, Tanzschuhe zu tragen.
+
+[MATCH]
+> Wähle die Paare
+- door <> Tür
+- me <> mir
+- learning to dance <> tanzen lernen
+- cooking class <> Kochkurs
+- a <> ein
+
