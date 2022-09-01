@@ -1,0 +1,150 @@
+[DATA]
+fromLanguageName=Camping!
+icon=6a073f6357dc14ea58e162202f936682895b11ec
+set=19|1
+
+[HEADER]
+> Camping!
+~ Camping 
+
+[LINE]
+> Vikram and his~wife,      Priti, are~camping. They're~sitting in their~tent.
+~ Vikram und seine~Ehefrau  Priti  campen       sie~sitzen      in ihrem~Zelt 
+
+[LINE]
+Speaker560: I   want to~check~my~email…    
+~           ich will meine~E-Mails~checken 
+
+[LINE]
+Speaker593: We  agreed           not~to~use~our~phones           during  this~trip,       remember?         
+~           wir haben~vereinbart unsere~Handys~nicht~zu~benutzen während dieses~Ausflugs  erinnerst~du~dich 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker560: You're~right.  [We~should~enjoy~nature].        
+~           du~hast~recht   wir~sollten~die~Natur~genießen  
++ We should enjoy nature
+- We should enjoy neither
+- We sold the nature
+
+[LINE]
+Speaker593: Let's~make dinner           now.   I'm~hungry!     
+~           machen~wir (das)~Abendessen jetzt  ich~habe~Hunger 
+
+[LINE]
+Speaker560: Uh… we  only~have two  apples. We  ate~too~much~at~lunch.           
+~           äh  wir haben~nur zwei Äpfel   wir haben~zu~viel~zu~Mittag~gegessen 
+
+[LINE]
+Speaker593: Oh no.   And all~the stores    are~closed.       
+~           oh nein  und alle    Geschäfte haben~geschlossen 
+
+[LINE]
+Speaker593: Maybe      camping~was a    bad       idea…
+~           vielleicht war~Camping eine schlechte Idee 
+
+[MULTIPLE_CHOICE]
+> Warum hat Vikram das gerade gesagt?
+- Sie haben ihr Zelt vergessen.
+- Sie verbringen nicht gern Zeit zusammen.
++ Sie haben nichts für das Abendessen.
+
+[ARRANGE]
+> Was hörst du?
+> [(Suddenly),  (Vikram~hears) (a~noise)      (outside).]
+~   plötzlich    hört~Vikram    ein~Geräusch   draußen   
+
+[LINE]
+Speaker593: Wait…   did  you hear~that? 
+~           Moment  hast du  das~gehört 
+
+[LINE]
+Speaker560: No…  
+~           nein 
+
+[LINE]
+Speaker593: Maybe      it's   a~bear… 
+~           vielleicht ist~es ein~Bär 
+
+[LINE]
+Speaker593: Do~bears~like apples?!
+~           mögen~Bären   Äpfel   
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker560: I'll      look~outside~the~tentt].
+~           ich~werde aus~dem~Zelt~schauen    
++ outside the~tent
+~ aus     dem~Zelt
+- at  our~house   
+~ bei unserem~Haus
+- in the~store   
+~ in das~Geschäft
+
+[LINE]
+Speaker593: Be  careful!   
+~           sei vorsichtig 
+
+[LINE]
+Speaker593: What do~you~see?
+~           was  siehst~du  
+
+[LINE]
+Speaker560: It's   so dark.   I   don't~see~anything.
+~           es~ist so dunkel  ich sehe~nichts        
+
+[LINE]
+Speaker560: Wait!   I   see  something near~that       other   tent! 
+~           Moment  ich sehe etwas     in~der~Nähe~des anderen Zelts 
+
+[LINE]
+Speaker593: What is  it?
+~           was  ist es 
+
+[LINE]
+Speaker560: It's…   a~guy   delivering~a~pizza?    
+~           es~ist  ein~Typ der~eine~Pizza~liefert 
+
+[LINE]
+Speaker593: Really?  
+~           wirklich 
+
+[LINE]
+Speaker560: Yeah, those other   campers ordered~a~pizza!          
+~           ja    diese anderen Camper  haben~eine~Pizza~bestellt 
+
+[ARRANGE]
+> Was hörst du?
+> [(Priti) (takes~out)   (her) (phone).]
+~   Priti   holt~heraus   ihr   Handy   
+
+[LINE]
+Speaker593: What~are~you~doing? We  agreed           not~to~use~our~phones.          
+~           was~machst~du       wir haben~vereinbart unsere~Handys~nicht~zu~benutzen 
+
+[LINE]
+> Priti makes  a~call.     
+~ Priti tätigt einen~Anruf 
+
+[LINE]
+Speaker560: Hi, I'd~like       to~order~one~pizza!  
+~           hi  ich~würde~gern eine~Pizza~bestellen 
+
+[LINE]
+Speaker593: Actually…~order~two!
+~           bestell~gleich~zwei 
+
+[MULTIPLE_CHOICE]
+> Am Ende wollen Priti und Vikram …
++ … zwei Pizzas bestellen.
+- … die anderen Camper anrufen.
+- … mit einem Bär um Essen kämpfen.
+
+[MATCH]
+> Wähle die Paare
+- Wait <> Moment
+- Vikram <> Vikram
+- I'm hungry <> ich habe Hunger
+- I <> ich
+- those <> diese
+
