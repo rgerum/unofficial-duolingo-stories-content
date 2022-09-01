@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=The Painting
+icon=6e58023d6e546df6a6d5029673117051a0bd9d46
+set=7|2
+
+[HEADER]
+> A   pintura 
+~ the painting
+
+[LINE]
+> Óscar e   a~amiga~dele, Lucy, estão em um parque.
+~ Óscar and his~friend    Lucy  are   at a  park   
+
+[LINE]
+> Óscar faz   uma pintura  de Lucy.
+~ Óscar makes a   painting of Lucy 
+
+[LINE]
+Speaker592: Você pode ver      a   pintura  agora! Você~gosta~dela?
+~           you  can  (to)~see the painting now    do~you~like~it  
+
+[LINE]
+> Lucy vê   a   pintura. 
+~ Lucy sees the painting 
+
+[MULTIPLE_CHOICE]
+> Óscar shows Lucy a picture of a fish.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker509: Por~que~a~minha~boca~está azul?
+~           why~is~my~mouth           blue 
+
+[LINE]
+Speaker592: Eu gosto~muito~de azul.
+~           I  really~like    blue 
+
+[MULTIPLE_CHOICE]
+> Wait… why is Lucy's mouth blue in the portrait?
++ Óscar really likes this color.
+- Lucy is wearing blue lipstick today.
+- Óscar ran out of other colors.
+
+[LINE]
+Speaker509: E   por~que~a~minha~cabeça~está tão grande?
+~           and why~is~my~head              so  big    
+
+[LINE]
+Speaker592: Eu não~sei.    Pergunta~para os~seus pais.   
+~           I  don't~know  ask           your    parents 
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "nose."
+Speaker509: (O~meu) (+nariz) (não~é)  (assim).    
+~            my       nose    is~not   like~this  
+
+[LINE]
+Speaker592: Ele é,  sim! O~seu nariz é  bonito!
+~           it  is  yes  your  nose  is pretty 
+
+[LINE]
+Speaker509: Sim, o~meu nariz é  bonito.
+~           yes  my    nose  is pretty 
+
+[LINE]
+Speaker509: Mas ele não~está bonito na     pintura. 
+~           but it  is~not   pretty in~the painting 
+
+[ARRANGE]
+> Tap what you hear
+Speaker592: [(Você~quer)   (a)   (pintura)  (ou) (não)?]
+~             do~you~want   the   painting   or   not   
+
+[LINE]
+Speaker509: Desculpa, mas não! Eu não~quero  a   pintura. 
+~           sorry     but no   I  don't~want the painting 
+
+[CONTINUATION]
+> What's next?
+> Um homem para  e   olha     [a   pintura]. 
+~ a  man   stops and looks~at  the painting  
+- meu nariz
+~ my  nose 
+- os~pais~dele
+~ his~parents 
++ a   pintura 
+~ the painting
+
+[LINE]
+Speaker438: Eu gosto~muito~dessa pintura!  Quanto~custa?   Cinquenta reais?
+~           I  really~like~this  painting  how~much~is~it  fifty     reais 
+
+[LINE]
+> Lucy pega  a   pintura. 
+~ Lucy grabs the painting 
+
+[LINE]
+Speaker509: A   pintura  é  minha e   custa    cem         reais!
+~           the painting is mine  and it~costs one~hundred reais 
+
+[MULTIPLE_CHOICE]
+> Lucy decided to…
+- …buy the painting for a hundred reais.
+- …give the painting away for free.
++ …sell the painting for money.
+
+[MATCH]
+> Tap the pairs
+- azul <> blue
+- homem <> man
+- um <> a
+- nariz <> nose
+- a amiga dele <> his friend
+
