@@ -1,0 +1,147 @@
+[DATA]
+fromLanguageName=La personne parfaite
+icon=9a22c5f11ddc4785a81d887f35d522f3317e2f4c
+set=6|1
+
+[HEADER]
+> The Perfect~Person   
+~ la  personne~parfaite
+
+[LINE]
+> Bea meets     her friend, Eddy, for  coffee. 
+~ Bea rencontre son ami     Eddy  pour un~café 
+
+[LINE]
+Speaker414: Good~morning, Bea!
+~           bonjour       Bea 
+
+[LINE]
+Speaker507: How~are~you,   Eddy?
+~           comment~ça~va  Eddy 
+
+[LINE]
+Speaker414: Well,    I~have a  date    tonight.
+~           eh~bien  j'ai   un rencard ce~soir 
+
+[LINE]
+Speaker507: That's great. 
+~           c'est  génial 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker414: Yes, but  I~feel     [a~little~sick].
+~           oui  mais je~me~sens  un~peu~malade  
++ a little sick
+- it'll sit
+- a little quick
+
+[LINE]
+Speaker507: Oh, I'm     sorry.  
+~           oh  je~suis désolée 
+
+[LINE]
+Speaker414: I'm     really   tired.  
+~           je~suis vraiment fatigué 
+
+[LINE]
+Speaker414: And I~also~feel~cold.
+~           et  j'ai~froid~aussi 
+
+[MULTIPLE_CHOICE]
+> Eddy se sent très bien.
+- Oui, c'est vrai. 
++ Non, c'est faux.
+
+[LINE]
+Speaker507: Hmm.
+~           hmm 
+
+[LINE]
+Speaker507: That's~not   good.
+~           ce~n'est~pas bon  
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker507: [(You) (need) (to~visit) (a)  (doctor).] 
+~             tu    dois   voir       un   docteur   
+
+[LINE]
+Speaker414: No,  I  can't~be         sick!  
+~           non  je ne~peux~pas~être malade 
+
+[LINE]
+Speaker414: I~have a  date    tonight!
+~           j'ai   un rencard ce~soir 
+
+[LINE]
+Speaker507: Forget your date!   
+~           oublie ton  rencard 
+
+[LINE]
+Speaker507: I  know    the perfect~person    for  you.
+~           je connais la  personne~parfaite pour toi 
+
+[MULTIPLE_CHOICE]
+> Bea pense qu'Eddy devrait...
+- … arriver à l'heure à son rendez-vous.
+- … oublier le nom de la personne avec qui il a rendez-vous.
++ … rencontrer quelqu'un d'autre à la place de son rencard.
+
+[LINE]
+Speaker414: Really?  
+~           vraiment 
+
+[LINE]
+Speaker507: Yes. She's    tall...  
+~           oui  elle~est grande   
+
+[LINE]
+Speaker507: And intelligent... 
+~           et  intelligente   
+
+[LINE]
+Speaker414: Is~she   funny?
+~           est-elle drôle 
+
+[LINE]
+Speaker507: Yes, she's    very funny.
+~           oui  elle~est très drôle 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker414: [She~is~perfect]!   
+~            elle~est~parfaite  
+- Cheese is perfect
++ She is perfect
+- He is a person
+
+[LINE]
+Speaker414: What's~her~name?       
+~           elle~s'appelle~comment 
+
+[LINE]
+Speaker507: Doctor  Santos.
+~           docteur Santos 
+
+[LINE]
+Speaker507: You need to~go to her office  now…       
+~           tu  dois aller à  son cabinet maintenant 
+
+[LINE]
+Speaker507: …because   you're sick!  
+~            parce~que tu~es  malade 
+
+[MULTIPLE_CHOICE]
+> Bea pense que la personne parfaite pour Eddy est…
+- … une femme à la télé qu'Eddy aime bien.
+- … un homme qu'elle a rencontré sur internet.
++ … un docteur pour le soigner.
+
+[MATCH]
+> Choisis les paires
+- And <> et
+- can't be <> ne peux pas être
+- need <> dois
+- to visit <> voir
+- Forget <> oublie
+
