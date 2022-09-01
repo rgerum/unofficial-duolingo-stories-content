@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Cuộc trò chuyện thú vị
+icon=6711cee61441da3d7aa6099466d6fff137239c3a
+set=11|3
+
+[HEADER]
+> An~Interesting~Conversation
+~ cuộc~trò~chuyện~thú~vị     
+
+[LINE]
+> Bea is~sitting on   a~bench  in    the~park. 
+~ Bea đang~ngồi  trên ghế~băng trong công~viên 
+
+[LINE]
+Speaker258: Excuse~me, can~I~sit               here? 
+~           bạn~gì~ơi  cho~tôi~ngồi…được~không ở~đây 
+
+[LINE]
+Speaker507: Yes.     
+~           được~chứ 
+
+[LINE]
+Speaker507: But   I'm~waiting~for my~friend.
+~           nhưng tôi~đang~đợi    bạn~tôi   
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “bạn trai”.
+Speaker507: (She's~coming~here) (with) (her)        (+boyfriend).
+~            cô~ấy~sắp~tới~đây   cùng   …của~cô~ấy    bạn~trai   
+
+[LINE]
+Speaker258: Oh,~really?
+~           ô~thế~à    
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker507: I'm really excited [to~meet~him].    
+~           tôi rất    háo~hức  được~gặp~anh~ấy  
+- to make him
+- to eat meat
++ to meet him
+
+[LINE]
+Speaker258: Why?    
+~           tại~sao 
+
+[LINE]
+Speaker507: She   likes him    a~lot.    
+~           cô~ấy thích anh~ấy rất~nhiều 
+
+[LINE]
+Speaker258: Interesting…   
+~           thú~vị~đấy~nhỉ 
+
+[LINE]
+Speaker507: She   is~going~to ask~him~to~marry~her…
+~           cô~ấy định        cầu~hôn~anh~ấy       
+
+[LINE]
+Speaker507: …this~weekend!     
+~            vào~cuối~tuần~này 
+
+[MULTIPLE_CHOICE]
+> Bạn của Bea định…
+- …đi mua nhà với bạn trai vào tháng sau.
+- …đi nghỉ mát với Bea vào cuối tuần này.
++ …cầu hôn bạn trai vào cuối tuần này.
+
+[LINE]
+Speaker258: This~weekend?   
+~           cuối~tuần~này~à 
+
+[LINE]
+Speaker507: Yes.  It's~so~exciting!   
+~           vâng  thật~háo~hức~quá~đi 
+
+[LINE]
+Speaker507: Oh! My~friend is~here!
+~           a   bạn~tôi   đây~rồi 
+
+[LINE]
+Speaker507: Hey,~Emily.
+~           Emily~ơi   
+
+[LINE]
+Speaker260: Hey,~Bea! 
+~           Bea~đấy~à 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker260: Oh, [you're~talking~to]       Leo! That's~great!
+~           ơ    cậu~đang~nói~chuyện~với  Leo  vậy~tốt~quá  
+- you take the
++ you're talking to
+- you talk to
+
+[LINE]
+Speaker507: Huh? Who~is~Leo?
+~           hả   Leo~là~ai  
+
+[LINE]
+Speaker260: My~boyfriend,   Leo.   He     is~sitting next~to  you!
+~           là~bạn~trai~tớ  Leo~ý  anh~ấy đang~ngồi  bên~cạnh cậu 
+
+[LINE]
+Speaker507: Oh~no!            
+~           thôi~xong~tôi~rồi 
+
+[LINE]
+Speaker258: Nice~to~meet~you,     Bea.
+~           rất~vui~được~gặp~bạn  Bea 
+
+[MULTIPLE_CHOICE]
+> Thôi xong! Bea đã buột miệng nói với Leo rằng...
++ ...bạn gái Leo sẽ cầu hôn anh ấy.
+- ...bạn gái Leo đang có ý định chia tay anh ấy.
+- ...mình đang hẹn hò với bạn gái Leo.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- Hey, Emily <> Emily ơi
+- Oh, really <> ô thế à
+- excited <> háo hức
+- is going to <> định
+- is sitting <> đang ngồi
+
