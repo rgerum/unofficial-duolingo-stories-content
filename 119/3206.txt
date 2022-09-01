@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=The Diary
+icon=6c9b2fe44cedb9713da8baee55838cc42dd972b5
+set=10|1
+
+[HEADER]
+> Das Tagebuch
+~ the diary   
+
+[LINE]
+> Sari und Lilli sind in~der~Schule.
+~ Sari and Lilli are  at~school     
+
+[LINE]
+Speaker418: Hilfe, Lilli! Ich kann~mein~Tagebuch~nicht~finden.
+~           help   Lilli  I   can't~find~my~diary             
+
+[LINE]
+Speaker416: Und?
+~           and 
+
+[LINE]
+Speaker418: Ich schreibe in meinem Tagebuch über  Marcel!
+~           I   write    in my     diary    about Marcel 
+
+[LINE]
+Speaker416: Den Jungen in unserer Klasse?
+~           the boy    in our     class  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker418: Ja!  [Wir~müssen~es~finden]!
+~           yes   we~have~to~find~it    
+- Wir müssen was trinken
++ Wir müssen es finden
+- Sie müssen mich finden
+
+[LINE]
+> Sie  suchen überall    in der Schule.
+~ they search everywhere in the school 
+
+[LINE]
+Speaker416: Es~tut~mir~leid, Sari. Hier ist es nicht.
+~           I'm~sorry        Sari  here is  it not   
+
+[CONTINUATION]
+> What comes next?
+Speaker418: Heute ist kein [guter Tag]!
+~           today is  no    good  day  
+- Oktoberfest
+~ Oktoberfest
++ guter Tag
+~ good  day
+- Fußballspiel
+~ soccer~game 
+
+[LINE]
+> Marcel kommt mit  einem rosafarbenen Tagebuch.
+~ Marcel comes with a     pink         diary    
+
+[LINE]
+Speaker418: Nein, da    ist Marcel! Heute ist wirklich kein guter Tag!
+~           no    there is  Marcel  today is  really   no   good  day 
+
+[MULTIPLE_CHOICE]
+> Why does Sari say it's really not a good day?
++ She thinks Marcel read her diary.
+- Marcel is moving to a new school.
+- Lilli started dating Marcel.
+
+[LINE]
+Speaker790: Hallo Sari, ist das~hier  dein Tagebuch?
+~           hello Sari  is  this~here your diary    
+
+[LINE]
+Speaker418: Nein. Warum?
+~           no    why   
+
+[LINE]
+Speaker416: Aber da    ist dein Name.
+~           but  there is  your name 
+
+[LINE]
+Speaker418: Oh, das Tagebuch … ist meins, ja. 
+~           oh  the diary      is  mine   yes 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "handwriting."
+Speaker790: (Keine~Angst)! Ich kann (deine) (+Handschrift) (nicht) lesen.
+~            don't~worry   I   can   your     handwriting   not    read  
+
+[LINE]
+Speaker418: Oh … Gut. 
+~           oh   good 
+
+[LINE]
+Speaker790: Wollen~wir am~Freitag ins~Kino~gehen?  
+~           shall~we   on~Friday  go~to~the~movies 
+
+[LINE]
+Speaker418: Ja,  gern!  
+~           yes  gladly 
+
+[LINE]
+Speaker790: Super! Bis~Freitag!      
+~           great  see~you~on~Friday 
+
+[LINE]
+Speaker418: Lilli, heute ist ein wunderbarer Tag!
+~           Lilli  today is  a   wonderful   day 
+
+[MULTIPLE_CHOICE]
+> Whoa! Why does Sari now say it's a great day?
+- She got a good grade on her homework.
+- Marcel read everything she wrote in her diary.
++ Marcel asked her to go to the movies with him.
+
+[MATCH]
+> Tap the pairs
+- Wir müssen es finden <> we have to find it
+- Heute <> today
+- Wollen wir <> shall we
+- schreibe <> write
+- mit <> with
+
