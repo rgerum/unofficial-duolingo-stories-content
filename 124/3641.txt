@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Visite du week-end
+icon=e9870ece5e694f8efd3df5550e7bb5d130fadecf
+set=19|2
+
+[HEADER]
+> Weekend~Visit     
+~ visite~du~week-end
+
+[LINE]
+> Bea's~boyfriend,     Sean, is~visiting  for~the weekend. 
+~ le~petit~ami~de~Bea  Sean  vient~passer le      week-end 
+
+[LINE]
+Speaker438: This~is the first    time I'm~staying at~your~apartment! It's  so        exciting!
+~           c'est   la  première fois que~je~dors chez~toi           c'est tellement génial   
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker507: Yeah,  [it'll~be~a~fun~weekend].      
+~           ouais   ça~va~être~un~week-end~sympa  
+- I'll be the weekend
+- it'll be a fun weather
++ it'll be a fun weekend
+
+[LINE]
+Speaker438: It's  like~we're~living  together! We'll~learn     so~much   about~each~other.
+~           c'est comme~si~on~vivait ensemble  on~va~apprendre tellement l'un~sur~l'autre 
+
+[LINE]
+Speaker507: What?! No,  I'm~not        ready to~live together!
+~           quoi   non  je~ne~suis~pas prête à~vivre ensemble 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Bea est-elle nerveuse ?
+- Son copain veut rompre avec elle.
+- Elle a oublié de nettoyer son appartement.
++ Elle n'a pas envie de vivre avec son copain.
+
+[LINE]
+Speaker438: Bea, it's~OK. I  was~joking.
+~           Bea  ça~va    je rigolais   
+
+[LINE]
+Speaker438: Hey, can~I~sleep    on~the~left~side of~the bed?
+~           hé   je~peux~dormir du~côté~gauche   du     lit 
+
+[LINE]
+Speaker507: I~usually     sleep on~the~left~side of~the bed, but  OK…      
+~           d'habitude~je dors  du~côté~gauche   du     lit  mais d'accord 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker438: [(Could~I~close)      (the) (curtains)?]
+~             je~pourrais~fermer   les   rideaux    
+
+[LINE]
+Speaker438: I  don't~want  the~sun~to~wake~me~up.    
+~           je ne~veux~pas que~le~soleil~me~réveille 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « lever du jour ».
+Speaker507: (OK),       (but)  I  (wake~up)     at (+sunrise)       every~morning…  
+~            d'accord    mais  je  me~réveille  au   lever~du~jour  tous~les~matins 
+
+[LINE]
+Speaker438: And do~you~mind   if I~take   that painting off~the wall?
+~           et  ça~te~dérange si j'enlève ce   tableau  du      mur  
+
+[LINE]
+Speaker507: Why?      I  love~it. My  cousin painted~it.
+~           pourquoi  je l'adore  mon cousin l'a~peint  
+
+[LINE]
+Speaker438: It's  a  little scary…     I  won't~be~able  to~sleep.
+~           c'est un peu    effrayant  je ne~pourrai~pas dormir   
+
+[LINE]
+Speaker507: Ugh,  OK.      
+~           argh  d'accord 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+> Bea takes  the painting [off~the wall].
+~ Bea enlève le  tableau   du      mur   
+- off~the sofa  
+~ du      canapé
++ off~the wall
+~ du      mur 
+- off~the floor
+~ du      sol  
+
+[LINE]
+Speaker438: Oh! I~forgot    my toothbrush.     Can~I~use        yours?    
+~           oh  j'ai~oublié ma brosse~à~dents  je~peux~utiliser la~tienne 
+
+[LINE]
+Speaker507: My toothbrush?!     No,  definitely   not.
+~           ma brosse~à~dents   non  certainement pas 
+
+[LINE]
+Speaker438: Haha, we're~learning so~much   about~each~other!
+~           haha  on~apprend     tellement l'un~sur~l'autre 
+
+[LINE]
+Speaker507: Yeah,  and I  think     you should~stay    at~a~hotel.
+~           ouais  et  je pense~que tu  devrais~rester à~l'hôtel  
+
+[MULTIPLE_CHOICE]
+> Qu'a appris Bea en passant le week-end avec son copain ?
+- Il devrait habiter avec elle.
+- Il adore les tableaux effrayants.
++ Elle ne veut pas qu'il dorme chez elle.
+
+[MATCH]
+> Choisis les paires
+- curtains <> rideaux
+- painted it <> l'a peint
+- Could I close <> je pourrais fermer
+- not <> pas
+- little <> peu
+
