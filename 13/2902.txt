@@ -1,0 +1,138 @@
+[DATA]
+fromLanguageName=My Leg Hurts
+icon=e03c9c686e0856f66bc51a3f912c8be470a7f18b
+set=31|1
+
+[HEADER]
+> J'ai~mal~à~la~jambe
+~ my~leg~hurts       
+
+[LINE]
+> Béa ouvre la~porte~de~son~appartement.
+~ Béa opens her~apartment~door          
+
+[LINE]
+> Elle voit Eddy dans le  couloir. Il n'a~pas~l'air~d'aller~bien.
+~ she  sees Eddy in   the hallway  he doesn't~look~well          
+
+[LINE]
+Speaker504: Béa, j'ai~mal~à~la~jambe. Tu~peux me~conduire   chez~le~médecin ?
+~           Béa  my~leg~hurts         can~you (to)~drive~me to~the~doctor's  
+
+[LINE]
+Speaker507: Bien~sûr  !
+~           of~course  
+
+[CONTINUATION]
+> What comes next?
+> Béa et  Eddy montent~dans [la~voiture~de~Béa].
+~ Béa and Eddy get~in        Béa's~car          
+- le  couloir~de~l'immeuble
+~ the building's~hallway   
+- l'arbre~de~Béa
+~ Béa's~tree    
++ la~voiture~de~Béa
+~ Béa's~car        
+
+[LINE]
+Speaker504: Ah ! Il~faut    aller~chercher      Junior à  l'école. On~peut y~aller       ?
+~           ah   we~have~to (to)~go~and~pick~up Junior at school   can~we  (to)~go~there  
+
+[MULTIPLE_CHOICE]
+> Where do Béa and Eddy need to go first?
+- the bakery
+- the leg store
++ Junior's school
+
+[LINE]
+Speaker507: Oui, bien~sûr. 
+~           yes  of~course 
+
+[LINE]
+> Béa et  Eddy vont~chercher  Junior.
+~ Béa and Eddy go~and~pick~up Junior 
+
+[LINE]
+Speaker504: On~peut aller   à  la  Poste       aussi ?
+~           can~we  (to)~go to the post~office too    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: Mais [tu~as~mal~à~la~jambe], non ?
+~           but   your~leg~hurts         no   
++ tu as mal à la jambe
+- tu as la légende
+- tu as un poil sur la jambe
+
+[LINE]
+Speaker504: J'ai~besoin~d'aide pour aller~chercher      un colis.  
+~           I~need~help        to   (to)~go~and~pick~up a  package 
+
+[LINE]
+Speaker507: D'accord...
+~           OK         
+
+[LINE]
+Speaker415: Regardez ! Il~n'y~a~personne aux Burgers~du~Chef ! 
+~           look       there's~no~one    at  Chef's~Burgers    
+
+[POINT_TO_PHRASE]
+> Choose the option that means "points at." 
+~ Choose tea option That means  points Has  
+> (Junior) (+montre)    (un) restaurant (du~doigt).       
+~  Junior    points~at   a   restaurant  with~his~finger  
+
+[LINE]
+Speaker504: Leurs hamburgers sont super bons, mais il~y~a    toujours trop~de  monde  ! Allons-y       !
+~           their burgers    are  super good  but  there~are always   too~many people   let's~go~there  
+
+[CONTINUATION]
+> What comes next?
+Speaker507: On~doit    aller   [chez~le~médecin ]!
+~           we~have~to (to)~go  to~the~doctor's   
++ chez~le~médecin
+~ to~the~doctor's
+- voir     un film 
+~ (to)~see a  movie
+- à  l'école
+~ to school 
+
+[LINE]
+Speaker415: Mais il~n'y~a~personne ! C'est un miracle !
+~           but  there's~no~one      it's  a  miracle  
+
+[LINE]
+> Plus~tard, Béa, Eddy et  Junior sont au     restaurant.
+~ later      Béa  Eddy and Junior are  at~the restaurant 
+
+[ARRANGE]
+> Tap what you hear
+Speaker507: [(Pfiou), (cet)  (hamburger) (était) (incroyable).]
+~             phew     this   burger      was     incredible   
+
+[LINE]
+Speaker504: Oui, mais on~devrait~vraiment aller   chez~le~médecin.
+~           yes  but  we~really~should    (to)~go to~the~doctor's 
+
+[LINE]
+Speaker507: Tu~as~encore~mal~à~la~jambe ?
+~           does~your~leg~still~hurt     
+
+[LINE]
+Speaker504: Non, mais j'ai~mal~au~ventre maintenant... J'ai~mangé trop~de  hamburgers...
+~           no   but  my~stomach~hurts   now           I~ate      too~many burgers      
+
+[MULTIPLE_CHOICE]
+> Eddy's leg doesn't hurt anymore, but now…
++ ...his stomach hurts.
+- ...Béa hurt her leg.
+- ...he needs a shower.
+
+[MATCH]
+> Tap the pairs
+- me conduire <> drive me
+- ouvre <> opens
+- Allons-y <> let's go there
+- Il <> he
+- Junior <> Junior
+
