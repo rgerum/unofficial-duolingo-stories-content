@@ -1,0 +1,136 @@
+[DATA]
+fromLanguageName=A Date
+icon=b8fb879208594263eebf2bcdf422b2352af44096
+set=1|2
+
+[HEADER]
+> Un~rendez-vous
+~ a~date        
+
+[LINE]
+> Béa est au     restaurant pour un~rendez-vous.
+~ Béa is  at~the restaurant for  a~date         
+
+[LINE]
+Speaker507: Salut ! Ça~va       ?
+~           hi      how~are~you  
+
+[LINE]
+Speaker100: Ça~va,    merci.    
+~           I'm~good  thank~you 
+
+[LINE]
+Speaker100: Tu  veux une~pizza ?
+~           you want a~pizza    
+
+[LINE]
+Speaker507: Non, une~salade.
+~           no   a~salad    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: J'ai   un [match~de~football] aujourd'hui.
+~           I~have a   soccer~game        today       
+- masque de football
++ match de football
+- max d'espagnol
+
+[LINE]
+Speaker100: Tu  joues~au~football ?
+~           you play~soccer        
+
+[LINE]
+Speaker507: Oui.
+~           yes 
+
+[MULTIPLE_CHOICE]
+> Béa is ordering a salad because…
+- ...the man said the salad is delicious.
++ ...she is playing soccer today.
+- ...she just ate a whole pizza.
+
+[LINE]
+Speaker100: Moi aussi !
+~           me  too    
+
+[LINE]
+Speaker507: Ah, super !
+~           ah  great  
+
+[SELECT_PHRASE]
+> Select the missing word
+Speaker507: Tu  es  [français] ?
+~           you are  French     
+- coincé
++ français
+- anglaise
+
+[LINE]
+Speaker100: Non, je suis canadien.
+~           no   I  am   Canadian 
+
+[LINE]
+Speaker100: Et  mes~parents sont espagnols.
+~           and my~parents  are  Spanish   
+
+[LINE]
+Speaker507: J'aime beaucoup~l'Espagne !
+~           I~like Spain~a~lot         
+
+[LINE]
+Speaker507: Tu  as   un~animal~de~compagnie ?
+~           you have a~pet                   
+
+[ARRANGE]
+> Tap what you hear
+Speaker100: [(Oui), (j'ai)   (deux~chats) (et~un~chien).]
+~             yes    I~have   two~cats     and~a~dog     
+
+[LINE]
+Speaker507: Oh, super, Sébastien ! J'ai~aussi  un~chien !
+~           oh  great  Sébastien   I~also~have a~dog     
+
+[LINE]
+Speaker100: Pardon ? Je~m'appelle Paul...
+~           sorry    my~name~is   Paul   
+
+[LINE]
+Speaker100: Et  tu~t'appelles Anne ?
+~           and your~name~is  Anne  
+
+[LINE]
+Speaker507: Anne ?! Je~m'appelle Béa.
+~           Anne    my~name~is   Béa 
+
+[MULTIPLE_CHOICE]
+> Did you catch that? Béa and Paul…
++ ...were supposed to meet different people.
+- ...are walking their dogs.
+- ...bought tickets to Spain.
+
+[LINE]
+> Une~femme arrive  au     restaurant.
+~ a~woman   arrives at~the restaurant 
+
+[LINE]
+Speaker101: Salut ! Tu  es  Paul ? Je suis Anne.
+~           hi      you are Paul   I  am   Anne 
+
+[LINE]
+Speaker100: Euh... non... Je~m'appelle Sébastien.
+~           uh     no     my~name~is   Sébastien 
+
+[MULTIPLE_CHOICE]
+> Whoa! What just happened?
+- Béa changed her name to Anne.
+- Béa and Paul's dogs played soccer.
++ Paul lied to his real date because he likes Béa.
+
+[MATCH]
+> Tap the pairs
+- Et <> and
+- as <> have
+- une pizza <> a pizza
+- beaucoup l'Espagne <> Spain a lot
+- restaurant <> restaurant
+
