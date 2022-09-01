@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=Pasta-Problem
+icon=9a8e4c90ef30a62e59cf23d4265247e2655c4cec
+set=24|1
+
+[HEADER]
+> Pasta~Problem
+~ Pasta-Problem
+
+[LINE]
+> Bea is~eating pasta at a~restaurant     in Rome. A~waiter    walks past~her~table.       
+~ Bea isst      Pasta in einem~Restaurant in Rom   ein~Kellner geht  an~ihrem~Tisch~vorbei 
+
+[LINE]
+Speaker507: Excuse~me!         There's a~problem   with my~pasta.    
+~           entschuldigen~Sie  es~gibt ein~Problem mit  meiner~Pasta 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker385: That's  not   possible. That's  [our~most~popular~dish]!     
+~           das~ist nicht möglich   das~ist  unser~beliebtestes~Gericht  
++ our most popular dish
+- your most popular fish
+- our most popular wish
+
+[LINE]
+Speaker507: Did      the~recipe change?   
+~           hat~sich das~Rezept verändert 
+
+[LINE]
+Speaker385: No!   Our~recipe   hasn't         changed   in~fifty~years!     
+~           nein  unser~Rezept hat~sich~nicht verändert seit~fünfzig~Jahren 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker507: Well, I   ate~this~pasta~here            seven~years~ago,   and now   [it~tastes    different].
+~           nun   ich habe~diese~Pasta~hier~gegessen vor~sieben~Jahren  und jetzt  schmeckt~sie anders     
+- I~need      glasses    
+~ brauche~ich eine~Brille
++ it~tastes    different
+~ schmeckt~sie anders   
+- I~work      here
+~ arbeite~ich hier
+
+[LINE]
+Speaker385: Seven  years is  a    long  time. Maybe      you're   different.
+~           sieben Jahre ist eine lange Zeit  vielleicht sind~Sie anders    
+
+[LINE]
+Speaker507: Hmm… I   was younger then.   Everything was new and exciting. 
+~           hmm  ich war jünger  damals  alles      war neu und aufregend 
+
+[LINE]
+Speaker385: OK…
+~           OK 
+
+[LINE]
+Speaker507: I'm     a~lot more~serious now.  
+~           ich~bin viel  ernster      jetzt 
+
+[LINE]
+Speaker507: But  I'm     also more~responsible~and~intelligent.  
+~           aber ich~bin auch verantwortlicher~und~intelligenter 
+
+[LINE]
+Speaker507: You're~right.    I've~changed~a~lot!           Thanks!
+~           Sie~haben~recht  ich~habe~mich~sehr~verändert  danke  
+
+[MULTIPLE_CHOICE]
+> Warum hat sich Bea bei dem Kellner bedankt?
++ Durch ihn ist ihr klar geworden, wie sehr sie sich verändert hat.
+- Er hat ihr gesagt, dass sie verantwortungsvoll und intelligent ist.
+- Er hat ihr das Pasta-Rezept gegeben.
+
+[LINE]
+Speaker385: You're~welcome.
+~           gern~geschehen 
+
+[LINE]
+Speaker507: What happened~to~the~waiter       who worked~here         seven~years~ago?  
+~           was  ist~mit~dem~Kellner~passiert der hier~gearbeitet~hat vor~sieben~Jahren 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „eine Sonnenbrille“.
+Speaker507: He (had)   (+sunglasses)        (and) (a~mustache).       
+~           er  hatte    eine~Sonnenbrille   und   einen~Schnurrbart  
+
+[LINE]
+Speaker385: That's  Antonio.
+~           das~ist Antonio 
+
+[LINE]
+Speaker507: Does~he~still~work     here?
+~           arbeitet~er~immer~noch hier 
+
+[LINE]
+Speaker385: No,   he never~worked~here.      
+~           nein  er hat~nie~hier~gearbeitet 
+
+[LINE]
+Speaker385: He works    at~the~restaurant across~the~street.           
+~           er arbeitet im~Restaurant     auf~der~anderen~Straßenseite 
+
+[LINE]
+Speaker507: Oh…
+~           oh 
+
+[MULTIPLE_CHOICE]
+> Bea …
+- … trägt eine Sonnenbrille und einen Schnurrbart.
++ … ist anscheinend im falschen Restaurant.
+- … wird von demselben Kellner wie vor sieben Jahren bedient.
+
+[LINE]
+> Later,  Bea~is~eating the same    pasta~dish   in the~restaurant across~the~street.           
+~ später  isst~Bea      das gleiche Pastagericht in dem~Restaurant auf~der~anderen~Straßenseite 
+
+[LINE]
+Speaker507: Yeah, this tastes   exactly~the~same.
+~           ja    das  schmeckt genau~gleich     
+
+[LINE]
+Speaker507: That's  sad.     Maybe      I~haven't           changed.  
+~           das~ist traurig  vielleicht habe~ich~mich~nicht verändert 
+
+[MULTIPLE_CHOICE]
+> Warum glaubt Bea, dass sie sich nicht verändert hat?
+- Sie weiß nicht mehr, wie die Pasta geschmeckt hat.
++ Die Pasta in dem Restaurant schmeckt doch wie früher.
+- Der Kellner hat seine Sonnenbrille abgenommen.
+
+[MATCH]
+> Wähle die Paare
+- now <> jetzt
+- That's <> das ist
+- who <> der
+- Oh <> oh
+- No <> nein
+
