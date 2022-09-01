@@ -1,0 +1,181 @@
+[DATA]
+fromLanguageName=Eddy's Haircut
+icon=7f5eed8e21ecae2b3a840ece026a544e67778e1b
+set=53|1
+
+[HEADER]
+> La~coupe~de~cheveux~d'Eddy
+~ Eddy's~haircut            
+
+[LINE]
+> Lucie aperçoit Eddy devant      leur  immeuble.          
+~ Lucie notices  Eddy in~front~of their apartment~building 
+
+[LINE]
+Speaker509: Eddy ?! Tes  cheveux ! Il~s'est~passé~quoi ?!
+~           Eddy    Your hair      what~happened         
+
+[LINE]
+Speaker414: Oh, j'ai~changé de~coupe     !
+~           oh  I~changed   (my)~haircut  
+
+[LINE]
+Speaker509: Ça   ne~va~pas         du~tout, il~faut~faire quelque~chose.
+~           that does~not~suit~you at~all   we~must~do    something     
+
+[LINE]
+Speaker509: Tu~peux~aller chez~le~coiffeur   ?
+~           can~you~go    to~the~hairdresser  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Non, [j'ai~un~rencard] dans vingt  minutes...
+~           no    I~have~a~date    in   twenty ~         
++ j'ai un rencard
+- j'ai un langage
+- jette un rencard
+
+[LINE]
+Speaker414: Oh, non ! C'est vraiment horrible ?
+~           oh  no    is~it really   ~         
+
+[LINE]
+Speaker509: Laisse-moi~voir.
+~           let~me~see      
+
+[LINE]
+Speaker509: Tourne~la~tête vers    la  droite ?
+~           turn~your~head towards the right   
+
+[LINE]
+> Eddy tourne~la~tête. Lucie regarde avec~attention.
+~ Eddy turns~his~head  Lucie looks   carefully      
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker509: Non. Tourne [vers    la  gauche ]?
+~           no   turn    towards the left     
+- la~langue  
+~ your~tongue
++ vers    la  gauche
+~ towards the left  
+- dans vingt  minutes
+~ in   twenty minutes
+
+[LINE]
+> Eddy tourne~la~tête vers    la  gauche.
+~ Eddy turns~his~head towards the left   
+
+[LINE]
+Speaker509: Non, désolée. C'est vraiment mal   fait.
+~           no   sorry    it's  really   badly done 
+
+[LINE]
+Speaker509: J'espère que  tu  pourras      te~faire~rembourser.
+~           I~hope   that you will~be~able to~get~refunded     
+
+[MULTIPLE_CHOICE]
+> Lucie pense  que  la~coupe~d'Eddy est tellement moche…
+~ Lucie thinks that Eddy's~haircut  is  so        ugly  
++ ... qu'il   devrait récupérer     son argent.
+~     that~he should  (to)~get~back his money  
+- ... qu'elle  veut  aller   chez le  même coiffeur.   
+~     that~she wants (to)~go to   the same hairdresser 
+- ... que  son coiffeur    devrait recevoir     un prix. 
+~     that his hairdresser should  (to)~receive an award 
+
+[LINE]
+Speaker414: C'était gratuit.
+~           it~was  free    
+
+[LINE]
+Speaker509: Quelqu'un devrait~dire~à ce   coiffeur    de~changer de~métier.       
+~           somebody  should~tell    that hairdresser to~change  their~occupation 
+
+[MULTIPLE_CHOICE]
+> Que  veut~dire~Lucie ?
+~ what does~Lucie~mean  
++ Le~coiffeur~d'Eddy est très mauvais.
+~ Eddy's~hairstylist is  very bad     
+- Elle veut  devenir     coiffeuse     aussi.
+~ she  wants (to)~become a~hairdresser too   
+- Eddy cherche~à       changer~de~métier.  
+~ Eddy is~looking~(to) (to)~change~his~job 
+
+[LINE]
+Speaker414: Tu  viens~de~le~faire.
+~           you just~did          
+
+[LINE]
+Speaker509: Pardon ?
+~           sorry   
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Je) (me~suis~coupé~les~cheveux) (tout~seul).]
+~             I    cut~my~hair                 by~myself   
+
+[LINE]
+Speaker414: J'ai~regardé une vidéo sur~Internet.
+~           I~watched    a   ~     online       
+
+[LINE]
+Speaker414: Ça avait~l'air facile.
+~           it looked      easy   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: Eddy, tu  dois [annuler~ton~rencard].  
+~           Eddy  you must  (to)~cancel~your~date  
++ annuler ton rencard
+- accuser ton rencard
+- annuler ta fanfare
+
+[LINE]
+Speaker414: Ça ira.        J'ai~pris mon~chapeau~préféré !
+~           it will~be~OK  I~took    my~favorite~hat      
+
+[LINE]
+> Eddy met     son chapeau. Lucie a~l'air inquiète.
+~ Eddy puts~on his hat      Lucie looks   worried  
+
+[LINE]
+Speaker414: Quoi ? Qu'est-ce~qu'il~y~a ?
+~           what   what's~wrong         
+
+[LINE]
+Speaker509: Eh~bien...
+~           well      
+
+[ARRANGE]
+> Tap what you hear
+Speaker509: [(Tu~es~sûr~de)       (ce)   (chapeau) ]?
+~             are~you~sure~about   this   hat        
+
+[LINE]
+Speaker414: Pourquoi ?
+~           why       
+
+[LINE]
+Speaker509: Ce   chapeau est pire~que   la  coupe~de~cheveux.
+~           this hat     is  worse~than the haircut          
+
+[MULTIPLE_CHOICE]
+> Pourquoi Eddy~a~besoin~de Lucie ?
+~ why      does~Eddy~need   Lucie  
+- Il ne~sait~pas  comment regarder une vidéo sur Internet.    
+~ he doesn't~know how     to~watch a   video on  the~Internet 
+- Il ne~sait~pas  quoi faire~à~manger  pour son rencard.
+~ he doesn't~know what food~to~prepare for  his date    
++ Il ne~sait~pas  combien  sa  coupe   et  son chapeau sont moches.
+~ he doesn't~know how~much his haircut and his hat     are  ugly   
+
+[MATCH]
+> Tap the pairs
+- C'était <> it was
+- tu <> you
+- mal <> badly
+- devant <> in front of
+- droite <> right
+
