@@ -1,0 +1,131 @@
+[DATA]
+fromLanguageName=L'avant-première
+icon=3bcede6752ca2da06f769fd523244f5c763cebc6
+set=25|4
+
+[HEADER]
+> The~Movie~Premiere
+~ l'avant-première  
+
+[LINE]
+> Oscar is~visiting   his cousin Orson, an actor,  in Hollywood.
+~ Oscar rend~visite~à son cousin Orson  un acteur  à  Hollywood 
+
+[LINE]
+Speaker592: I'm~excited~to~go to your movie~premiere! Look~at my  new     suit!   
+~           j'ai~hâte~d'aller à  ton  avant-première  regarde mon nouveau costume 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker3107: [(We~don't~have) (to~wear)  (suits).]       
+~              on~n'a~pas      à~porter   des~costumes   
+
+[LINE]
+Speaker3107: No~one      will~look~at~us. I'm     only~in~the~movie      for~a~few          minutes.
+~            personne~ne nous~regardera   je~suis dans~le~film~seulement (pendant)~quelques minutes 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker592: No!  You should~wear    your [best~clothes].        
+~           non  tu  devrais~porter tes   plus~beaux~vêtements  
++ best clothes
+- bets closed
+- past clothes
+
+[LINE]
+Speaker592: Then  we'll~look~like  movie~stars         when  the photographers take~our~photo!         
+~           alors on~ressemblera~à des~stars~de~cinéma quand les photographes  nous~prendront~en~photo 
+
+[LINE]
+Speaker592: Also,  I~rented  a   limo      for  us!  
+~           aussi  j'ai~loué une limousine pour nous 
+
+[LINE]
+Speaker3107: Oscar, no! 
+~            Oscar  non 
+
+[MULTIPLE_CHOICE]
+> Orson veut aller à l'avant-première en limousine.
+- Oui, c'est vrai.
++ Non, c'est faux.
+
+[LINE]
+> Oscar and Orson get~in       the limo.      A~mile    from~the theater, the limo      stops.   
+~ Oscar et  Orson montent~dans la  limousine  à~un~mile du       cinéma   la  limousine s'arrête 
+
+[LINE]
+Speaker889: Sorry,  the traffic     is  really   bad.     
+~           désolé  la  circulation est vraiment mauvaise 
+
+[LINE]
+Speaker3107: But  the~premiere     starts   in   twenty minutes!
+~            mais l'avant-première commence dans vingt  minutes 
+
+[LINE]
+Speaker592: Let's~run!
+~           courons   
+
+[MULTIPLE_CHOICE]
+> Pourquoi Oscar et Orson doivent-ils courir ?
+- Ils essayent de se maintenir en forme comme des stars de cinéma.
++ Il y a trop de circulation pour arriver à l'avant-première à l'heure.
+- Orson joue dans un film sur un coureur.
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « boue ».
+> (They) get~out of (the) limo      (and) step     in   (+mud).    
+~  ils   sortent de  la   limousine  et   marchent dans   la~boue  
+
+[LINE]
+Speaker592: My  shoes!     
+~           mes chaussures 
+
+[LINE]
+> It starts~raining.     
+~ il commence~à~pleuvoir 
+
+[LINE]
+Speaker3107: My  suit!   
+~            mon costume 
+
+[LINE]
+> Oscar and Orson run     to~the   theater.
+~ Oscar et  Orson courent jusqu'au cinéma  
+
+[LINE]
+> When  they arrive,   they're  wet      and covered~in  mud. 
+~ quand ils  arrivent  ils~sont mouillés et  couverts~de boue 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+> A   photographer [takes~their~photo]. 
+~ une photographe   les~prend~en~photo  
++ takes~their~photo 
+~ les~prend~en~photo
+- drinks a  glass of milk
+~ boit   un verre de lait
+- jumps on  the limo     
+~ saute sur la  limousine
+
+[LINE]
+Speaker658: Wow,   you  look~like~you~were     in   a   war!    Just~like  characters      in   the movie!
+~           waouh  vous avez~l'air~d'avoir~été dans une guerre  tout~comme les~personnages dans le  film  
+
+[LINE]
+Speaker3107: Well,    Oscar, you wanted~us~to~look~like    movie~stars!        
+~            eh~bien  Oscar  tu  voulais~qu'on~ressemble~à des~stars~de~cinéma 
+
+[MULTIPLE_CHOICE]
+> Oscar et Orson ressemblent à des personnages de films parce qu'ils...
++ ... sont couverts de boue comme s'ils étaient à la guerre.
+- ... sont arrivés à l'avant-première en limousine.
+- ... portent des costumes des soldats du film.
+
+[MATCH]
+> Choisis les paires
+- stops <> s'arrête
+- get out <> sortent
+- get in <> montent dans
+- Also <> aussi
+- I rented <> j'ai loué
+
