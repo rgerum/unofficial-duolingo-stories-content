@@ -1,0 +1,131 @@
+[DATA]
+fromLanguageName=Vieillir
+icon=4b810ac5ac1d241fb2380e6785db12c40b5c0508
+set=19|4
+
+[HEADER]
+> Getting~Older
+~ vieillir     
+
+[LINE]
+> Bea is  at the gym            with her friend, Eddy.
+~ Bea est à  la  salle~de~sport avec son ami     Eddy 
+
+[LINE]
+> When  she  starts~exercising,              her knee  makes a  noise.
+~ quand elle commence~à~faire~de~l'exercice  son genou fait  un bruit 
+
+[LINE]
+Speaker507: What~was~that?!
+~           c'était~quoi   
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker414: [What's~wrong]?           
+~            qu'est-ce~qui~ne~va~pas  
++ What's wrong
+- What's long
+- That song
+
+[LINE]
+Speaker507: My  knee  just~made      a  weird~noise!  
+~           mon genou vient~de~faire un bruit~bizarre 
+
+[LINE]
+Speaker414: That's because   you're~getting~older.
+~           c'est  parce~que tu~vieillis          
+
+[LINE]
+Speaker507: Eddy, I'm~not~even~thirty!        
+~           Eddy  je~n'ai~même~pas~trente~ans 
+
+[MULTIPLE_CHOICE]
+> Bea pense qu'elle est...
++ … trop jeune pour avoir des problèmes de genoux.
+- … trop vieille pour faire du sport.
+- … trop forte pour faire du sport avec Eddy.
+
+[LINE]
+Speaker414: Don't~worry!      I  can~show~you    some exercises to~make     your knees  stronger.  
+~           ne~t'en~fais~pas  je peux~te~montrer des  exercices pour~rendre tes  genoux plus~forts 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+> [(Eddy) (shows)  (Bea)   (a)  (leg~exercise).]            
+~   Eddy   montre   à~Bea   un   exercice~pour~les~jambes   
+
+[LINE]
+Speaker507: Great!  But  now        my~back~hurts…  
+~           génial  mais maintenant j'ai~mal~au~dos 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker414: That's also  because   [you're~getting~older].
+~           c'est  aussi parce~que  tu~vieillis           
++ you're~getting~older
+~ tu~vieillis         
+- this  ice~cream is  delicious 
+~ cette glace     est délicieuse
+- it's  a   beautiful day    
+~ c'est une belle     journée
+
+[LINE]
+Speaker507: Ugh!  Really?  
+~           hein  vraiment 
+
+[LINE]
+Speaker414: Don't~worry!      I  can~show~you    an exercise to~make     your back stronger,  too.  
+~           ne~t'en~fais~pas  je peux~te~montrer un exercice pour~rendre ton  dos  plus~fort  aussi 
+
+[LINE]
+> Eddy shows  Bea   another  exercise for  her back.
+~ Eddy montre à~Bea un~autre exercice pour son dos  
+
+[LINE]
+Speaker507: Thanks, Eddy!
+~           merci   Eddy 
+
+[MULTIPLE_CHOICE]
+> Bea remercie Eddy car…
+- … il fait des bruits bizarres.
++ … il lui montre des exercices pour se muscler.
+- … il lui donne un médicament pour son dos.
+
+[LINE]
+Speaker414: No~problem!     
+~           pas~de~problème 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker507: Can~you~show~me    [that~leg~exercise]            again?    
+~           tu~peux~me~montrer  cet~exercice~pour~les~jambes  à~nouveau 
+- that egg that you fried
++ that leg exercise
+- that leg is her size
+
+[LINE]
+Speaker414: You don't~remember?      I  just~showed~it~to~you. 
+~           tu  ne~te~rappelles~pas  je viens~de~te~le~montrer 
+
+[LINE]
+Speaker507: I~forgot…    Is~that because   I'm~getting~older too?  
+~           j'ai~oublié  c'est   parce~que je~vieillis       aussi 
+
+[LINE]
+Speaker414: Maybe,     but  I  don't~know~any~exercises  for  your brain.  
+~           peut-être  mais je ne~connais~aucun~exercice pour ton  cerveau 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Eddy pense-t-il que Bea doit faire travailler son cerveau ?
+- Elle entend des bruits bizarres.
+- Eddy va ouvrir une salle de sport pour le cerveau.
++ Elle a déjà oublié ce qu'il vient de lui montrer.
+
+[MATCH]
+> Choisis les paires
+- What was that <> c'était quoi
+- But <> mais
+- noise <> bruit
+- Ugh <> hein
+- she <> elle
+
