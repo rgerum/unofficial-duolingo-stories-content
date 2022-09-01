@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=Cena con la familia
+icon=076bc5bf725308c211b9c04f07d3622683e84d78
+set=5|2
+
+[HEADER]
+> Un~dîner de~famille    
+~ una~cena con~la~familia
+
+[LINE]
+> Lin est  chez       Béa, dans la cuisine.
+~ Lin está en~casa~de Béa  en   la cocina  
+
+[LINE]
+> Il~y~a beaucoup de~nourriture et de~bouteilles   de vin  sur       la table.
+~ hay    mucha    comida        y  muchas~botellas de vino encima~de la mesa  
+
+[LINE]
+Speaker508: Il~y~a beaucoup de~nourriture ici. 
+~           hay    mucha    comida        aquí 
+
+[LINE]
+Speaker507: Oui. Ma famille vient   dîner ici. 
+~           sí   mi familia viene~a cenar aquí 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker508: Ah ! Je~peux~avoir  [un~peu~de~gâteau]  ?
+~           ah   me~puedo~comer  un~poco~de~pastel   
+- les deux gâteaux
++ un peu de gâteau
+- un beau château
+
+[LINE]
+Speaker507: Non.
+~           no  
+
+[LINE]
+Speaker508: Mais il~y~a trois gâteaux  !
+~           pero hay    tres  pasteles  
+
+[LINE]
+Speaker507: J'ai~besoin~de trois gâteaux. 
+~           (yo)~necesito  tres  pasteles 
+
+[LINE]
+Speaker508: Je~peux~avoir  un verre de vin  ?
+~           me~puedo~beber un vaso  de vino  
+
+[LINE]
+Speaker507: Non.
+~           no  
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker508: Il~y~a quatre bouteilles [de vin]. 
+~           hay    cuatro botellas    de vino  
++ de vin 
+~ de vino
+- de gâteau
+~ de pastel
+- sur       la table
+~ encima~de la mesa 
+
+[LINE]
+Speaker507: J'ai~besoin~de toutes les bouteilles.
+~           (yo)~necesito  todas  las botellas   
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker508: [(Je~peux~avoir)  (un) (peu~de)  (pizza) ]?
+~             me~puedo~comer   un   poco~de   pizza    
+
+[LINE]
+Speaker507: Non, Lin.
+~           no   Lin 
+
+[LINE]
+Speaker508: OK.        Le dîner est à quelle heure ce   soir  ?
+~           está~bien  la cena  es  a qué    hora  esta noche  
+
+[LINE]
+Speaker507: Ma famille vient la semaine~prochaine. Tout ça,   c'est pour moi.
+~           mi familia viene la próxima~semana     todo esto  es    para mí  
+
+[MULTIPLE_CHOICE]
+> ¿Lo entendiste? Béa dice que…
+- …ya se comió la mayor parte de la comida.
+- …está guardando todo para su familia.
++ …todo lo que hay en la mesa es para ella.
+
+[LINE]
+Speaker508: Quoi ?
+~           qué   
+
+[LINE]
+Speaker507: J'ai  une famille très difficile. Je~suis stressée  !
+~           tengo una familia muy  difícil    estoy   estresada  
+
+[LINE]
+Speaker507: J'ai~besoin~de toute cette nourriture et de~tout ce   vin  maintenant !
+~           necesito       toda  esta  comida     y  todo    este vino ahora       
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Béa necesita tanta comida y tanto vino?
++ Su familia la deja muy estresada.
+- Ella y Lin tienen una fiesta.
+- Su madre tiene mucha hambre.
+
+[MATCH]
+> Selecciona los pares
+- Oui <> sí
+- de <> de
+- J'ai besoin de <> necesito
+- Lin <> Lin
+- une <> una
+
