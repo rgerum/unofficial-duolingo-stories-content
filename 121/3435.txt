@@ -1,0 +1,135 @@
+[DATA]
+fromLanguageName=A New Sport
+icon=ffc3b50b92f23fc916451e34174edcdcea58d258
+set=7|4
+
+[HEADER]
+> あたらしい           スポーツ               
+~ new~[atarashii] (a)~sport~[spootsu]
+
+[LINE]
+> エディ        と        ジュニアは             おみせ               に~います。            
+~ Eddy~[edi] and~[to] Junior~[junia~wa] (a)~store~[omise] are~in~[ni~imasu] 
+
+[LINE]
+Speaker504: あたらしい           スポーツ                 が~したいの|？いいね！                                            
+~           new~[atarashii] (a)~sport~[supootsu] you~want~to~play~[ga~shitai~no]  ~(sounds)~good~[ii~ne] 
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(ジュニアは)             (どの)           (スポーツ)             (が~いい)？]                   
+~             Junior~[junia~wa]   which~[dono]   sport~[supootsu]   (do~you)~prefer~[ga~ii]   
+
+[LINE]
+Speaker414: あ|、バスケットボールは                             どう？             
+~           oh~[a']  basketball~[basuketto-booru~wa] how~about~[dou] 
+
+[LINE]
+Speaker415: バスケットボールは                       ボール           を~つかう           から|、いやだよ。                                         
+~           basketball~[basuketto-booru~wa] balls~[booru] uses~[o~tsukau] since~[kara]  I~don't~want~(to~do~it)~[iya~da~yo] 
+
+[LINE]
+Speaker415: ぼく|、ボール                 が~きらいなんだ。                   
+~           I~[boku]  balls~[booru] (I)~hate~[ga~kirai~na~n~da] 
+
+[CONTINUATION]
+> What comes next?
+Speaker504: この          テニスラケット|、[かっこいいよ]。                                       
+~           this~[kono] tennis~racket~[tenisu-raketto]   (is)~cool~[kakkoii~yo]  
++ かっこいいよ                
+~ (is)~cool~[kakkoii~yo]
+- にほんご                               だよ        
+~ (in)~Japanese~(language)~[nihongo] is~[da~yo]
+- おいしいよ                     
+~ (is)~delicious~[oishii~yo]
+
+[LINE]
+Speaker415: テニス             も         ボール           を~つかうよ。            
+~           tennis~[tenisu] also~[mo] balls~[booru] uses~[o~tsukau~yo] 
+
+[MULTIPLE_CHOICE]
+> Why doesn't Junior want to play basketball or tennis?
+- He thinks he is too young.
+- He's too tired.
++ He doesn't like sports with balls.
+
+[LINE]
+Speaker504: あ|、そっか|。じゃあ...                       
+~           oh~[a']  right~[sokka]  then~[jaa]   
+
+[LINE]
+Speaker415: ぼく...      
+~           I~[boku]   
+
+[LINE]
+Speaker504: そうだ|、すいえい|！すいえいは                                            どう？             
+~           I've~got~it~[sou~da]  swimming~[suiei]  swimming~[suiei~wa] how~about~[dou] 
+
+[LINE]
+Speaker415: すいえい             も           いやだよ！                            
+~           swimming~[suiei] either~[mo] I~don't~want~to~(do)~[iya~da~yo] 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker504: でも|、すいえいは                       [ボールを~つかわないよ]。                              
+~           but~[demo]  swimming~[suiei~wa]  doesn't~use~balls~[booru~o~tsukawanai~yo]  
++ ボールを つかわないよ
+- ボールを つかうよ
+- ボールを つかっているよ
+
+[LINE]
+Speaker415: パパ|、ちがうよ！                  
+~           Dad~[papa]  no~[chigau~yo] 
+
+[LINE]
+Speaker504: じゃあ|、どの                  スポーツ             が~いいの？                     
+~           then~[jaa]  which~[dono] sport~[supootsu] (do~you)~prefer~[ga~ii~no] 
+
+[LINE]
+> ジュニアは             いっそくの                 バレエシューズ                     を~みつめます。                   
+~ Junior~[junia~wa] a~pair~of~[issoku~no] ballet~shoes~[baree-shuuzu] stares~at~[o~mitsumemasu]  
+
+[MULTIPLE_CHOICE]
+> Oh! It seems like Junior wants to…
+- ...play football.
++ ...try dancing.
+- ...go for a swim.
+
+[LINE]
+Speaker415: ぼく|、ダンスが~したいんだ。                                
+~           I~[boku]  want~to~dance~[dansu~ga~shitai~n~da] 
+
+[LINE]
+Speaker504: ダンス           を~ならいたいの？！                                
+~           dance~[dansu] (you)~want~to~learn~(to)~[o~naraitai~no]  
+
+[LINE]
+Speaker415: うん|。へんかな？                              
+~           yes~[un]  (is~that)~strange~[hen~kana] 
+
+[LINE]
+Speaker504: そんなこと~ないよ|！ダンス                                も        すばらしい                スポーツ                 だよ！        
+~           not~at~all~[sonna~koto~nai~yo]  dance~[dansu] too~[mo] awesome~[subarashii] (a)~sport~[supootsu] is~[da~yo] 
+
+[LINE]
+> エディは          おみせ                 の~なかで           おどりはじめます。                         
+~ Eddy~[edi~wa] (the)~store~[omise] in~[no~naka~de] starts~dancing~[odori-hajimemasu] 
+
+[LINE]
+Speaker415: パパ|、おねがいだから|、やめて。                                           
+~           Dad~[papa]  please~[onegai~da~kara]  (please)~stop~[yamete] 
+
+[MULTIPLE_CHOICE]
+> Why is Eddy dancing?
++ He's excited that Junior wants to dance.
+- He's trying on a pair of ballet shoes.
+- He wants to show Junior that dancing is hard.
+
+[MATCH]
+> Tap the pairs
+- じゃあ <> then [jaa]
+- スポーツ <> sport [supootsu]
+- に います <> are in [ni imasu]
+- パパ <> Dad [papa]
+- だよ <> is [da yo]
+
