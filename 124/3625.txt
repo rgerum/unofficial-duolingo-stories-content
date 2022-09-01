@@ -1,0 +1,154 @@
+[DATA]
+fromLanguageName=L'ex-copine
+icon=29463cb983d5da30288b0758a5f9ec7313b76094
+set=15|2
+
+[HEADER]
+> The~Ex-Girlfriend
+~ l'ex-copine      
+
+[LINE]
+> Lin is~shopping      with her friend, Bea.
+~ Lin fait~du~shopping avec son amie    Bea 
+
+[LINE]
+Speaker508: Oh, wow,  that's Jamie!
+~           oh  ouah  c'est  Jamie 
+
+[LINE]
+Speaker507: Who is  Jamie?
+~           qui est Jamie 
+
+[LINE]
+Speaker508: My  ex-girlfriend!
+~           mon ex-copine     
+
+[MULTIPLE_CHOICE]
+> Lin a été en couple avec Jamie.
++ Oui, c'est vrai.
+- Non, c'est faux.
+
+[LINE]
+Speaker507: The woman in~the~red~shirt?     
+~           la  femme avec~la~chemise~rouge 
+
+[LINE]
+Speaker508: Yes.
+~           oui 
+
+[LINE]
+Speaker507: She  looks   nice. 
+~           elle a~l'air sympa 
+
+[LINE]
+Speaker508: She  moved      to   a   different~city, and we   stopped~talking.            
+~           elle a~emménagé dans une autre~ville     et  nous avons~arrêté~de~nous~parler 
+
+[LINE]
+Speaker508: I  haven't~talked~to~her~in   five years.
+~           je ne~lui~ai~pas~parlé~depuis cinq ans   
+
+[LINE]
+Speaker507: Are~you~going~to~talk~to~her now?       
+~           tu~vas~lui~parler            maintenant 
+
+[LINE]
+Speaker508: I  don't~know… 
+~           je ne~sais~pas 
+
+[LINE]
+Speaker508: She  probably~doesn't~remember          me. 
+~           elle ne~se~souvient~probablement~pas~de moi 
+
+[MULTIPLE_CHOICE]
+> Lin pense que Jamie ne se souviendra pas d'elle car...
+- … Lin utilisait un faux nom pendant leur relation.
++ … elles ne se sont pas parlé depuis des années.
+- … Jamie a une très mauvaise mémoire.
+
+[LINE]
+Speaker507: Talk~to~her!
+~           parle-lui   
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker507: Ooh, [this~is~exciting]! 
+~           ooh   c'est~passionnant  
++ this is exciting
+- it is inviting
+- he’s exercising
+
+[LINE]
+Speaker508: Hmm.
+~           hmm 
+
+[LINE]
+Speaker508: OK.       I'm~going~to~wave~at~her.
+~           d'accord  je~vais~lui~faire~signe  
+
+[LINE]
+> Lin waves      at the woman.
+~ Lin fait~signe à  la  femme 
+
+[LINE]
+Speaker507: She  saw~you!
+~           elle t'a~vue 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker507: [(She's~coming) (here) (now)!]       
+~             elle~vient     ici    maintenant   
+
+[LINE]
+Speaker508: Oh no. 
+~           oh non 
+
+[LINE]
+Speaker508: That's~not   Jamie.
+~           ce~n'est~pas Jamie 
+
+[LINE]
+Speaker507: Are~you~sure?
+~           tu~es~sûre   
+
+[LINE]
+Speaker508: Yes! That's~not   her! 
+~           oui  ce~n'est~pas elle 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker125: Uh,  hello.   I  saw~you     [waving~at~me].  
+~           euh  bonjour  je vous~ai~vue  me~faire~signe  
++ waving~at~me  
+~ me~faire~signe
+- shopping          with me 
+~ faire~du~shopping avec moi
+- studying with me 
+~ étudier  avec moi
+
+[LINE]
+Speaker125: Do~I~know~you?  
+~           je~vous~connais 
+
+[LINE]
+Speaker507: No,  but  do~you~know where to~buy  glasses?     
+~           non  mais savez-vous  où    acheter des~lunettes 
+
+[LINE]
+Speaker507: My  friend needs~a        pair! 
+~           mon amie   a~besoin~d'une paire 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Lin aurait-elle besoin de lunettes ?
++ Lin a pris une inconnue pour son ex-copine.
+- La femme a marché sur ses lunettes.
+- Les lunettes de Lin sont très moches.
+
+[MATCH]
+> Choisis les paires
+- looks <> a l'air
+- waving at me <> me faire signe
+- Are you sure <> tu es sûre
+- hello <> bonjour
+- is shopping <> fait du shopping
+
