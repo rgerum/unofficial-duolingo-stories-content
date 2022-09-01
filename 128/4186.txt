@@ -1,0 +1,147 @@
+[DATA]
+fromLanguageName=Người phù hợp nhất
+icon=9a22c5f11ddc4785a81d887f35d522f3317e2f4c
+set=6|1
+
+[HEADER]
+> The~Perfect~Person
+~ người~phù~hợp~nhất
+
+[LINE]
+> Bea meets her~friend, Eddy, for~coffee.    
+~ Bea gặp   bạn~cô~ấy   Eddy  để~uống~cà~phê 
+
+[LINE]
+Speaker414: Good~morning,   Bea!
+~           chào~buổi~sáng  Bea 
+
+[LINE]
+Speaker507: How~are~you,  Eddy?
+~           anh~khỏe~chứ  Eddy 
+
+[LINE]
+Speaker414: Well,         I   have a   date     tonight.
+~           tình~hình~là  anh có   một cuộc~hẹn tối~nay 
+
+[LINE]
+Speaker507: That's~great.
+~           thích~thế    
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker414: Yes, but   I   feel     [a~little~sick].
+~           ừ    nhưng anh cảm~thấy  hơi~ốm         
+- a little quick
++ a little sick
+- it'll sit
+
+[LINE]
+Speaker507: Oh,    I'm~sorry.    
+~           thế~à  chia~buồn~nhé 
+
+[LINE]
+Speaker414: I'm      really      tired.
+~           anh~đang thật~sự~rất mệt   
+
+[LINE]
+Speaker414: And     I   also feel     cold.   
+~           với~lại anh cũng cảm~thấy ớn~lạnh 
+
+[MULTIPLE_CHOICE]
+> Eddy cảm thấy rất khỏe khoắn.
++ Không đúng.
+- Đúng vậy. 
+
+[LINE]
+Speaker507: Hmm.       
+~           để~xem~nào 
+
+[LINE]
+Speaker507: That's  not~good.    
+~           thế~thì không~ổn~đâu 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker507: [(You) (need)     (to~visit~a~doctor).]
+~             anh   cần~phải   đi~khám~bác~sĩ      
+
+[LINE]
+Speaker414: No,    I   can't~be~sick!     
+~           không  anh không~được~phép~ốm 
+
+[LINE]
+Speaker414: I   have a   date     tonight!
+~           anh có   một cuộc~hẹn tối~nay 
+
+[LINE]
+Speaker507: Forget      your~date!       
+~           hãy~quên…đi cuộc~hẹn~của~anh 
+
+[LINE]
+Speaker507: I  know the~perfect~person~for you.
+~           em biết một~người~rất~hợp~với  anh 
+
+[MULTIPLE_CHOICE]
+> Bea nghĩ Eddy nên…
+- …đến đúng giờ hẹn.
++ …gặp gỡ một người khác.
+- …quên cô gái đó đi.
+
+[LINE]
+Speaker414: Really?    
+~           thật~không 
+
+[LINE]
+Speaker507: Yes.  She's tall...
+~           thật  cô~ấy cao    
+
+[LINE]
+Speaker507: And intelligent...
+~           và  thông~minh    
+
+[LINE]
+Speaker414: Is~she~funny?           
+~           cô~ấy~có~vui~tính~không 
+
+[LINE]
+Speaker507: Yes, she's very funny.   
+~           có   cô~ấy rất  vui~tính 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker414: [She~is~perfect]!               
+~            cô~ấy~đúng~là~hợp~với~anh~đấy  
++ She is perfect
+- He is a person
+- Cheese is perfect
+
+[LINE]
+Speaker414: What's~her~name?
+~           tên~cô~ấy~là~gì 
+
+[LINE]
+Speaker507: Doctor Santos.
+~           bác~sĩ Santos 
+
+[LINE]
+Speaker507: You need     to~go to  her~office           now…         
+~           anh cần~phải đi    tới phòng~khám~của~cô~ấy ngay~bây~giờ 
+
+[LINE]
+Speaker507: …because you're   sick!
+~            bởi~vì  anh~đang ốm   
+
+[MULTIPLE_CHOICE]
+> Bea nghĩ rằng người phù hợp với Eddy là…
++ …một bác sĩ có thể giúp anh ấy khỏi ốm.
+- …cô nàng Eddy thích trên tivi.
+- …một anh chàng Bea quen qua mạng.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- to <> tới
+- I <> anh
+- because <> bởi vì
+- Well <> tình hình là
+- sick <> ốm
+
