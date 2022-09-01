@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=I vestiti delle vacanze
+icon=eda1b8214a6937df66a552eb581f2353da4d0352
+set=2|4
+
+[HEADER]
+> Vacation~Clothes       
+~ i~vestiti~delle~vacanze
+
+[LINE]
+> Lucy is in a  store.  
+~ Lucy è  in un negozio 
+
+[LINE]
+Speaker509: Hi,   can~you~help~me?       
+~           ciao  (tu)~potresti~aiutarmi 
+
+[LINE]
+Speaker509: I~need             new   clothes for my     vacation!
+~           (io)~ho~bisogno~di nuovi vestiti per la~mia vacanza  
+
+[MULTIPLE_CHOICE]
+> Lucy sta comprando dei vestiti per la sua vacanza.
++ Sì, è giusto.
+- No, è sbagliato.
+
+[LINE]
+Speaker416: OK.
+~           OK 
+
+[ARRANGE]
+> Seleziona ciò che senti
+Speaker509: [(I~need)             (a)  (dress).]
+~             (io)~ho~bisogno~di   un   abito   
+
+[LINE]
+> Lily gives Lucy a  green~dress.
+~ Lily dà~a  Lucy un abito~verde 
+
+[LINE]
+Speaker509: No! I~need             a  short,~red~dress.   
+~           no  (io)~ho~bisogno~di un abito~corto~e~rosso 
+
+[MULTIPLE_CHOICE]
+> Di cosa ha bisogno Lucy?
+- un'auto nuova e marrone
+- una gonna lunga e verde
++ un abito corto e rosso
+
+[LINE]
+> Lily gives~her a  short,~red~dress...   
+~ Lily le~dà     un abito~corto~e~rosso   
+
+[LINE]
+Speaker509: And I~need             boots.  
+~           e   (io)~ho~bisogno~di stivali 
+
+[LINE]
+> Lily gives Lucy red~boots.          
+~ Lily dà~a  Lucy degli~stivali~rossi 
+
+[LINE]
+Speaker509: No, big,    black~boots! 
+~           no  grossi  stivali~neri 
+
+[LINE]
+Speaker416: Ugh… 
+~           uffa 
+
+[LINE]
+Speaker509: OK, a  short,~red~dress    and big,        black~boots… 
+~           OK  un abito~corto~e~rosso e   dei~grossi  stivali~neri 
+
+[SELECT_PHRASE]
+> Seleziona la frase mancante
+Speaker509: [And~a~hat]!    
+~            e~un~cappello  
++ And a hat
+- In the hat
+- And a cat
+
+[LINE]
+> Lily gives Lucy a  hat.     
+~ Lily dà~a  Lucy un cappello 
+
+[LINE]
+Speaker509: No! A  yellow~hat!     
+~           no  un cappello~giallo 
+
+[CONTINUATION]
+> Come continua la frase?
+> Lily gives Lucy [a  yellow~hat].     
+~ Lily dà~a  Lucy  un cappello~giallo  
++ a  yellow~hat     
+~ un cappello~giallo
+- a  yellow~dress
+~ un abito~giallo
+- a  red~hat       
+~ un cappello~rosso
+
+[LINE]
+Speaker509: Perfect!  Now    I'm  ready  for my     vacation!
+~           perfetto  adesso sono pronta per la~mia vacanza  
+
+[LINE]
+Speaker416: Now    I~need             a   vacation.
+~           adesso (io)~ho~bisogno~di una vacanza  
+
+[MULTIPLE_CHOICE]
+> Povera Lily! Perché ha bisogno di una vacanza?
++ Si è stancata aiutando Lucy a trovare dei vestiti.
+- Ha tanti vestiti nuovi da indossare.
+- Ha mangiato troppo a pranzo.
+
+[MATCH]
+> Tocca le coppie
+- black boots <> stivali neri
+- for <> per
+- vacation <> vacanza
+- is <> è
+- clothes <> vestiti
+
