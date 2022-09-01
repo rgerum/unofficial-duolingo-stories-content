@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Đi mua váy
+icon=ffba9eba0bc98eb1b87842bfd234eb4274095663
+set=21|4
+
+[HEADER]
+> Dress~Shopping
+~ đi~mua~váy    
+
+[LINE]
+> Lily is~shopping~for a       pink~dress with     her~mom. 
+~ Lily đang~đi~mua     1~chiếc váy~hồng   cùng~với mẹ~cô~ấy 
+
+[LINE]
+Speaker416: Do~we~really~have~to                go~to Aunt~Betty's~wedding?
+~           chúng~ta~có~nhất~thiết~phải…không~ạ đi    đám~cưới~dì~Betty    
+
+[LINE]
+Speaker559: Yes!    She's~finally~getting~married!
+~           có~chứ  dì~ấy~cuối~cùng~cũng~kết~hôn  
+
+[LINE]
+Speaker416: But   I   hate the~color~pink… and        wearing dresses!
+~           nhưng con ghét màu~hồng        và~ghét~cả mặc     váy     
+
+[LINE]
+Speaker559: I  know, but   everyone         in    the~wedding is~wearing a~black~suit or   a~pink~dress.
+~           mẹ biết  nhưng tất~cả~mọi~người trong đám~cưới    sẽ~mặc     vest~đen     hoặc váy~hồng     
+
+[MULTIPLE_CHOICE]
+> Vì sao Lily và mẹ lại muốn mua váy hồng?
+- Họ muốn tặng quà cho con mèo của dì Betty.
+- Lily chỉ thích mặc váy hồng.
++ Lily cần một bộ đồ để mặc đi dự tiệc cưới.
+
+[LINE]
+> Lily's~mom  shows~her         a       short~pink~dress. 
+~ mẹ~của~Lily lấy~cho~cô~ấy~xem 1~chiếc váy~ngắn~màu~hồng 
+
+[LINE]
+Speaker559: How~about~this~one?    
+~           cái~này~được~không~con 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker416: It's [too~short]!
+~           nó    quá~ngắn   
++ too short
+- two shots
+- two shirts
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker559: OK,       what~about      this~one? It's longer~than [the~other~dress].
+~           được~rồi  thế~còn…thì~sao cái~này   nó   dài~hơn      chiếc~váy~kia    
+- your~hair  
+~ tóc~của~con
+- the~winter
+~ mùa~đông  
++ the~other~dress
+~ chiếc~váy~kia  
+
+[LINE]
+Speaker416: It has feathers!  I   don't~want     to~look like a~bird.  
+~           nó có  lông~chim  con không~muốn…đâu trông   như  con~chim 
+
+[MULTIPLE_CHOICE]
+> Bộ váy làm cho Lily cảm thấy mình giống một con chim vì…
+- …nó có màu sắc sặc sỡ.
+- …cánh tay của cô ấy thật ra là cánh chim.
++ …nó được gắn lông chim.
+
+[LINE]
+Speaker416: This     is      stupid!   I'm~only~going~to wear this~dress    once.   
+~           việc~này thật~là ngớ~ngẩn  con~sẽ~chỉ        mặc  chiếc~váy~này một~lần 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker559: [(But)   (this~is)  (really) (important~to)   (Aunt~Betty).]
+~             nhưng   việc~này   rất      quan~trọng~với   dì~Betty     
+
+[LINE]
+Speaker416: You just~want~me~to~look~pretty.     
+~           mẹ  chỉ~muốn~con~mặc~đẹp~thôi~chứ~gì 
+
+[LINE]
+Speaker559: No,    I  want you to~be~comfortable. Let's           go to  another~store!
+~           không  mẹ muốn con được~thoải~mái     chúng~ta~hãy…đi đi tới cửa~hàng~khác 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker416: Mom, wait!     You said   [everyone~is~wearing] a~black~suit or      a~pink~dress, right?     
+~           mẹ   khoan~đã  mẹ  đã~nói  ai~cũng~sẽ~mặc       vest~đen     hoặc~là váy~hồng      phải~không 
++ everyone is wearing
+- everybody's caring
+- everyone is staring
+
+[LINE]
+> Lily shows~her~mom        a   small~black~suit.   
+~ Lily lấy~cho~mẹ~cô~ấy~xem một bộ~vest~nhỏ~màu~đen 
+
+[LINE]
+Speaker416: You hate it, right?     
+~           mẹ  ghét nó  phải~không 
+
+[LINE]
+Speaker559: Actually, I  think it~will~look~great~on~you!
+~           thật~ra   mẹ nghĩ  con~mặc~nó~lên~sẽ~rất~đẹp 
+
+[MULTIPLE_CHOICE]
+> Lily sẽ mặc gì đi dự tiệc cưới?
+- một bộ váy màu hồng
++ một bộ vest màu đen
+- quần ngủ
+
+[MATCH]
+> Nhấn vào các cặp từ
+- shows her mom <> lấy cho mẹ cô ấy xem
+- what about <> thế còn…thì sao
+- this dress <> chiếc váy này
+- Actually <> thật ra
+- the color pink <> màu hồng
+
