@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=Doktor Eddy
+icon=29c5abbf74b46e43a4de510ac83e302c0722a100
+set=4|3
+
+[HEADER]
+> Doctor Eddy
+~ Doktor ~   
+
+[LINE]
+> Eddy is   at  the supermarket.
+~ ~    -dir -te ~   süpermarket 
+
+[LINE]
+> An  elegant woman starts talking   to~Eddy. 
+~ Bir zarif   Kadın başlar konuşmaya Eddy~ile 
+
+[MULTIPLE_CHOICE]
+> Bir kadın markette Eddy ile konuşmaya başladı.
+- Hayır, bu doğru değil.
++ Evet, bu doğru.
+
+[LINE]
+Speaker724: Hello!
+~           Selam 
+
+[LINE]
+Speaker414: Oh, hello!  
+~           ~   Merhaba 
+
+[LINE]
+Speaker724: Are     you a   doctor?
+~           musunuz siz bir doktor 
+
+[LINE]
+Speaker414: What? Me?     Uh…
+~           Ne    Ben~mi  ~  
+
+[LINE]
+Speaker414: Yes.  I…   am~a~doctor. 
+~           Evet  ben  bir~doktorum 
+
+[LINE]
+Speaker724: Good!
+~           İyi  
+
+[ARRANGE]
+> İşittiğine dokun
+> [(Eddy) (is)   (not)   (a)   (doctor).]
+~   ~      -dir   değil   bir   doktor   
+
+[LINE]
+Speaker414: I     have a~lot~of money.
+~           benim var  çok      param 
+
+[LINE]
+Speaker414: I~live    in  a   big   house.
+~           yaşıyorum -de bir büyük ev    
+
+[LINE]
+Speaker414: I     have expensive… uh... pants.        
+~           benim var  pahalı     ah    pantolonlarım 
+
+[LINE]
+Speaker724: OK,    but…
+~           tamam  ama 
+
+[POINT_TO_PHRASE]
+> "Şimdi" anlamına gelen seçeneği tıklayın.
+Speaker724: (A)   (man)    (needs)        a   doctor  (+now)!  
+~            Bir   adamın   ihtiyacı~var  bir doktora   şimdi  
+
+[LINE]
+Speaker414: What?! Where  is the~man?
+~           Ne     nerede ~  adam    
+
+[LINE]
+Speaker724: He is near  the milk!      
+~           O  ~  yakın ~   süt~reyonu 
+
+[MULTIPLE_CHOICE]
+> O adam…
++ … süpermarkette süt reyonunun yanında.
+- … hastanede.
+- … Eddy'nin alışveriş sepetinde.
+
+[LINE]
+Speaker724: Please help      the~man! He is very sick! 
+~           Lütfen yardım~et adama    O  ~  çok  hasta 
+
+[MULTIPLE_CHOICE]
+> Kadın Eddy'nin ...
+- … Biraz süt almasını istiyor.
++ … Çok hasta bir adama yardım etmesini istiyor.
+- … Bir doktora gitmesini istiyor.
+
+[LINE]
+Speaker414: Uh-oh!
+
+[LINE]
+> Eddy sees  a   woman. He runs  and talks   to~her. 
+~ ~    görür bir Kadın  O  koşar ve  konuşur kadınla 
+
+[LINE]
+Speaker414: Hello, are     you a   doctor? I   need    help!  
+~           Selam  musunuz siz bir doktor  ben ihtiyaç Yardım 
+
+[MULTIPLE_CHOICE]
+> Eddy ne yaptı?
+- Ağlamaya başladı ve süpermarketten kaçtı.
++ Yalan söyledikten sonra, adama yardım edecek gerçek bir doktor bulmaya çalıştı.
+- Hasta adamı hastaneye götürdü.
+
+[MATCH]
+> Çiftlere dokun
+- elegant <> zarif
+- Please <> Lütfen
+- am a doctor <> bir doktorum
+- Are <> musunuz
+- and <> ve
+
