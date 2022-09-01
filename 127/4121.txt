@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=O retrato
+icon=12547a4c20bef9c66913ef1a725b6fd4f0c544ea
+set=7|2
+
+[HEADER]
+> El retrato
+~ o  retrato
+
+[LINE]
+> Óscar y su~amiga,     Lucy, están en un parque.
+~ Óscar e a~amiga~dele  Lucy  estão em um parque 
+
+[LINE]
+> Óscar pinta un retrato de Lucy.
+~ Óscar pinta um retrato de Lucy 
+
+[LINE]
+Speaker592: Está bien, ¡ahora puedes mirar el retrato! ¿Te~gusta?
+~           está bem    agora podes  olhar o  retrato   gostas   
+
+[LINE]
+> Lucy mira el retrato.
+~ Lucy olha o  retrato 
+
+[MULTIPLE_CHOICE]
+> O Óscar mostra à Lucy o retrato de um peixe.
+- Sim, isso mesmo.
++ Não, não é isso.
+
+[LINE]
+Speaker509: ¿Por qué tengo     el cabello azul?
+~            por que estou~com o  cabelo  azul 
+
+[LINE]
+Speaker592: Me~gusta~mucho    el~azul.
+~           eu~gosto~muito~de azul    
+
+[MULTIPLE_CHOICE]
+> Espera… Por que o cabelo da Lucy está azul no retrato?
+- A Lucy pintou o cabelo de azul ontem.
+- O Óscar não tinha mais outras cores.
++ O Óscar gosta muito de azul.
+
+[LINE]
+Speaker509: ¿Y por qué mi      cabeza es tan grande?
+~            e por que a~minha cabeça é  tão grande 
+
+[LINE]
+Speaker592: No  sé…  Es tu    cabeza.
+~           não sei  é  a~tua cabeça 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "tão".
+Speaker509: (Mi)    nariz (no)  (es) (+tan) grande.
+~            o~meu  nariz  não   é     tão  grande 
+
+[LINE]
+Speaker592: ¡Tienes una~nariz~muy~bonita! 
+~            tens   um~nariz~muito~bonito 
+
+[LINE]
+Speaker509: Sí,  me~gusta    mi  nariz, pero no  es como la~del retrato.
+~           sim  eu~gosto~do meu nariz  mas  não é  como o~do   retrato 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker592: ¿[(Quieres) (el) (retrato) (o)  (no)?] 
+~              queres    o    retrato   ou   não   
+
+[LINE]
+Speaker509: Lo~siento,   pero no,  no  lo~quiero.
+~           sinto~muito  mas  não  não quero~ele 
+
+[CONTINUATION]
+> O que vem depois?
+> Un hombre pasa  y mira [el retrato].
+~ um homem  passa e olha  o  retrato  
+- mi  nariz
+~ meu nariz
++ el retrato
+~ o  retrato
+- los dólares
+~ os  dólares
+
+[LINE]
+Speaker438: ¡Me~gusta  mucho! Te doy cien dólares por~el retrato.
+~            eu~gostei muito  te dou cem  dólares pelo   retrato 
+
+[LINE]
+> Lucy toma el retrato.
+~ Lucy pega o  retrato 
+
+[LINE]
+Speaker509: Es mi  retrato y cuesta doscientos dólares.
+~           é  meu retrato e custa  duzentos   dólares 
+
+[MULTIPLE_CHOICE]
+> A Lucy decidiu…
+- …dar a pintura de graça.
++ …vender a pintura.
+- …comprar a pintura por 200 dólares.
+
+[MATCH]
+> Toque nos pares
+- Óscar <> Óscar
+- como <> como
+- mucho <> muito
+- Sí <> sim
+- Lucy <> Lucy
+
