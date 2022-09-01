@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=Taxifahrt
+icon=44410efbb175e599d5fbe5b4d86050262f324ca0
+set=13|4
+
+[HEADER]
+> Taxi~Ride
+~ Taxifahrt
+
+[LINE]
+> Bea is  in a     taxi. She is~looking at  the map   on  her   phone.
+~ Bea ist in einem Taxi  sie schaut     auf die Karte auf ihrem Handy 
+
+[LINE]
+Speaker507: Turn~left           at~the end  of~the street, please.
+~           biegen~Sie~links~ab am     Ende der    Straße  bitte  
+
+[LINE]
+Speaker889: I   don't~need to~turn  for three more    miles. 
+~           ich muss~nicht abbiegen für drei  weitere Meilen 
+
+[MULTIPLE_CHOICE]
+> Moment! Was hat der Fahrer gerade gesagt?
+- Er fährt drei Meilen pro Stunde.
+- Er will drei Meilen rennen.
++ Er muss erst nach drei Meilen abbiegen.
+
+[LINE]
+Speaker507: The directions       on  my     phone say   that  road   is  faster…   
+~           die Richtungsangaben auf meinem Handy sagen diese Straße ist schneller 
+
+[LINE]
+Speaker889: Excuse~me,         I   know  all~the roads   in this   city. 
+~           entschuldigen~Sie  ich kenne alle    Straßen in dieser Stadt 
+
+[LINE]
+Speaker507: This   phone knows all~the roads   in every city. 
+~           dieses Handy kennt alle    Straßen in jeder Stadt 
+
+[LINE]
+Speaker889: Ha, well, the phone isn't~driving the car.  I'm     the driver.
+~           ha  nun   das Handy fährt~nicht   das Auto  ich~bin der Fahrer 
+
+[LINE]
+Speaker507: But  I'm~paying  for the ride,  right?  
+~           aber ich~bezahle für die Fahrt  richtig 
+
+[MULTIPLE_CHOICE]
+> Warum hat Bea das gerade gesagt?
+- Sie fährt Taxi in ihrer Freizeit.
++ Sie will, dass der Fahrer ihren Anweisungen folgt.
+- Sie will, dass der Fahrer ihr Geld gibt.
+
+[LINE]
+Speaker889: OK, OK!
+~           OK  OK 
+
+[LINE]
+> The driver turns~left     and stops  the car. 
+~ der Fahrer biegt~links~ab und stoppt das Auto 
+
+[LINE]
+Speaker889: We're~here.  Are~you~going swimming? 
+~           wir~sind~da  gehen~Sie     schwimmen 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker507: No,   [I'm~going~shopping]. Why?  
+~           nein   ich~gehe~einkaufen   warum 
+- I'm good at stopping
++ I'm going shopping
+- I'm good at shopping
+
+[LINE]
+Speaker889: Because the road   stops~here. At~the river.
+~           weil    die Straße hier~endet  am     Fluss 
+
+[LINE]
+Speaker507: Oops…
+~           ups  
+
+[ARRANGE]
+> Was hörst du?
+Speaker507: [(I~think)    (my)    (directions)       (are)  (wrong).] 
+~             ich~glaube   meine   Richtungsangaben   sind   falsch   
+
+[LINE]
+Speaker507: I'm~so~sorry.      
+~           es~tut~mir~so~leid 
+
+[LINE]
+Speaker889: Do~you~want to~use~my~directions?           
+~           wollen~Sie  meine~Richtungsangaben~benutzen 
+
+[LINE]
+Speaker507: Yes, please…
+~           ja   bitte  
+
+[MULTIPLE_CHOICE]
+> Ups! Bea ist klar geworden, …
+- … dass sie eine großartige Taxifahrerin ist.
++ … dass ihre Richtungsangaben falsch waren.
+- … dass ihr Handy alle Antworten hat.
+
+[MATCH]
+> Wähle die Paare
+- at the <> am
+- wrong <> falsch
+- in <> in
+- say <> sagen
+- We're here <> wir sind da
+
