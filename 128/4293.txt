@@ -1,0 +1,157 @@
+[DATA]
+fromLanguageName=Trông chim
+icon=bec6ac06369ced77777ad5151e3a385213c413b8
+set=32|4
+
+[HEADER]
+> Bird~Sitting
+~ trông~chim  
+
+[LINE]
+> Lin is~on~the~phone            with her~friend, Garrett.
+~ Lin đang~nói~chuyện~điện~thoại với  bạn~cô~ấy   Garrett 
+
+[LINE]
+Speaker508: Hi,   Garrett!      
+~           a~lô  anh~Garrett~à 
+
+[LINE]
+Speaker508: Are~you~coming~home tomorrow     or     on~Tuesday?
+~           anh~sẽ~về~nhà       vào~ngày~mai hay~là vào~thứ~Ba 
+
+[LINE]
+Speaker7: Tomorrow.       
+~         ngày~mai~anh~về 
+
+[LINE]
+Speaker7: Thank~you for~taking~care~of my~house        and my~bird!         
+~         cảm~ơn~em vì~đã~trông~nom    căn~nhà~của~anh và  con~chim~của~anh 
+
+[MULTIPLE_CHOICE]
+> Lin đã trông nhà và chăm sóc chim hộ một người bạn.
++ Đúng vậy.
+- Không đúng.
+
+[LINE]
+Speaker508: You're~welcome.
+~           có~gì~đâu~ạ    
+
+[LINE]
+Speaker7: Is~everything~OK      at the~house?
+~         mọi~chuyện…vẫn~ổn~chứ ở  nhà       
+
+[LINE]
+Speaker508: Well, I~have~bad~news.            
+~           à     em~báo~cho~anh~một~tin~buồn 
+
+[LINE]
+Speaker508: Your~bird        flew   out~of   the~window.
+~           con~chim~của~anh đã~bay ra~ngoài cửa~sổ     
+
+[LINE]
+Speaker7: What?!  
+~         cái~gì  
+
+[LINE]
+Speaker508: The~cage~door was~open.
+~           cửa~lồng      đã~mở    
+
+[MULTIPLE_CHOICE]
+> Con chim bị nhốt ở đâu trước khi biến mất?
+- trong phòng tắm
++ trong một cái lồng
+- trong tủ lạnh
+
+[LINE]
+Speaker7: How~did~that~happen?
+~         sao~lại~thế~được    
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker508: [(It) (opened)     (when) (the~cage) (fell).]
+~             nó   đã~bung~ra   khi    cái~lồng   rơi    
+
+[LINE]
+Speaker7: What?!   Why     did~it~fall?
+~         sao~cơ   tại~sao nó~lại~rơi  
+
+[LINE]
+Speaker508: Well, your~bed           fell         through   the~floor and hit       the~cage.
+~           thì   cái~giường~của~anh đã~sập~xuống xuyên~qua sàn~nhà   và  đã~va~vào cái~lồng 
+
+[LINE]
+Speaker7: My~bed         fell   through   the~floor?!
+~         giường~của~anh đã~sập xuyên~qua sàn~nhà    
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker7: [How~did~that~happen]?
+~          sao~lại~thế~được     
++ How did that happen
+- Who do they have then
+- How did that open
+
+[LINE]
+Speaker508: Well, there~was a~lot~of  water on   the~floor.
+~           thì   đã~có     rất~nhiều nước  trên sàn~nhà   
+
+[LINE]
+Speaker7: Water? Why     was~there~so~much~water?
+~         nước   tại~sao lại~có~nhiều~nước~ở~đó  
+
+[LINE]
+Speaker508: Well, I  used    water to~stop~the~fire.
+~           thì   em đã~dùng nước  để~dập~lửa       
+
+[LINE]
+Speaker7: You started~a~fire?!   
+~         em  đã~gây~cháy~nhà~ư  
+
+[LINE]
+Speaker508: But   only on   the~second~floor.
+~           nhưng chỉ~ trên tầng~hai         
+
+[LINE]
+Speaker7: What~did~you~do?!
+~         em~đã~làm~gì~hả  
+
+[LINE]
+Speaker508: I  think it~was~because~of the~meditation~candles.
+~           em nghĩ  là~tại            nến~thiền              
+
+[MULTIPLE_CHOICE]
+> Úi! Cái gì đã gây ra đám cháy?
+- nến sinh nhật của Lin
++ nến thiền của Lin
+- một đàn chim
+
+[LINE]
+Speaker7: Meditation~candles?
+~         nến~thiền~á        
+
+[LINE]
+Speaker508: Oh~yeah, I  started~taking~meditation~classes!
+~           à~vâng   em mới~đi~học~lớp~thiền              
+
+[LINE]
+Speaker508: Anyway,             I  can~take~care~of~your~house next~month~too…  
+~           nhưng~nói~chung~là  em có~thể~trông~nhà~cho~anh    cả~tháng~sau~nữa 
+
+[LINE]
+Speaker508: Hello? Garrett,     are~you~still~there?
+~           a~lô   anh~Garrett  anh~còn~ở~đấy~không 
+
+[MULTIPLE_CHOICE]
+> Vì sao Garrett lại gác máy?
+- Anh ấy giận Lin đã lấy trộm con chim của mình.
+- Anh ấy chuẩn bị đến lớp học thiền của Lin.
++ Anh ấy giận Lin đã phá hỏng ngôi nhà của mình.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- there was <> đã có
+- started a fire <> đã gây cháy nhà ư
+- the cage <> cái lồng
+- your bed <> cái giường của anh
+- How did that happen <> sao lại thế được
+
