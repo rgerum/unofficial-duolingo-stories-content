@@ -1,0 +1,128 @@
+[DATA]
+fromLanguageName=Paris'e Ziyaret
+icon=82f278cdb107bead5682d9161323e0ba329af607
+set=7|3
+
+[HEADER]
+> Visiting Paris  
+~ Ziyaret  Paris'e
+
+[LINE]
+> Carl and Christina are     on  vacation in  Paris.
+~ ~    ve  ~         -dirler -de tatil    -te Paris 
+
+[LINE]
+Speaker2705: I~don't~want to~go  home.
+~            istemiyorum  gitmek eve  
+
+[LINE]
+Speaker439: I~know.   
+~           biliyorum 
+
+[LINE]
+Speaker439: I~don't~want to~leave.
+~           istemiyorum  ayrılmak 
+
+[MULTIPLE_CHOICE]
+> Carl ve Christina evlerine dönmekten mutlular.
+- Evet, bu doğru.
++ Hayır, bu doğru değil.
+
+[LINE]
+Speaker2705: I~love    Paris!  
+~            seviyorum Paris'i 
+
+[LINE]
+Speaker2705: There's a~lot   to~do   here.  
+~            Var     çok~şey yapacak burada 
+
+[LINE]
+Speaker439: Yes. 
+~           Evet 
+
+[LINE]
+Speaker439: I~love    the cafés.   
+~           seviyorum ~   kafeleri 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker2705: [(And) (I~love)    (the) (parks)!]   
+~              Ve    seviyorum   ~     parkları   
+
+[LINE]
+Speaker439: I~want    to~eat French~bread     every day!
+~           istiyorum yemek  Fransız~ekmeğini her   gün 
+
+[LINE]
+Speaker2705: We    need  to~go    to the airport    now…  
+~            bizim lazım gitmemiz -a ~   havalimanı şimdi 
+
+[LINE]
+Speaker2705: Christina, I     have an  idea…  
+~            ~          benim var  bir fikrim 
+
+[LINE]
+Speaker2705: Do~you~want to~live in~Paris?
+~            ister~misin yaşamak Paris'te 
+
+[LINE]
+Speaker439: But   we    have a   house  and jobs…  
+~           Fakat bizim var  bir evimiz ve  işimiz 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker2705: [We~can~live]   and work        here!  
+~             yaşayabiliriz  ve  çalışabilir burada 
++ We can live
+- We can leave
+- They can be
+
+[LINE]
+Speaker439: Really?      
+~           Gerçekten~mi 
+
+[LINE]
+Speaker2705: My~friend   has a   restaurant in~Paris…
+~            arkadaşımın var bir restoranı  Paris'te 
+
+[POINT_TO_PHRASE]
+> "Garsonlar" anlamına gelen seçeneği seçin.
+Speaker2705: (And) (she)  (needs)        (+waiters)!   
+~             Ve    onun   ihtiyacı~var    garsonlara  
+
+[LINE]
+Speaker439: Are~you~sure?
+~           emin~misin   
+
+[MULTIPLE_CHOICE]
+> Christina ne diyor?
++ Emin misin ?
+- Evde misin ?
+- Mutlu musun ?
+
+[LINE]
+Speaker2705: Yes! 
+~            Evet 
+
+[LINE]
+Speaker439: We|' re~going~to~live in~Paris!
+~           Biz yaşayacağız       Paris'te 
+
+[LINE]
+Speaker439: I'm so  happy!   
+~           Ben çok mutluyum 
+
+[MULTIPLE_CHOICE]
+> Christina ve Carl ...
+- … Bir restoran satın almaya karar verdiler.
+- … Her hafta sonu Paris'e gitmeye karar verdiler.
++ … Paris'te yaşamaya karar verdiler.
+
+[MATCH]
+> Çiftlere dokun
+- Really <> Gerçekten mi
+- she <> onun
+- I know <> biliyorum
+- happy <> mutluyum
+- airport <> havalimanı
+
