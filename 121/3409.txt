@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Doctor Eddy
+icon=29c5abbf74b46e43a4de510ac83e302c0722a100
+set=1|2
+
+[HEADER]
+> エディ        せんせい           
+~ Eddy~[edi] Doctor~[sensei]
+
+[LINE]
+> エディは          スーパー                       に~います。           
+~ Eddy~[edi~wa] (the)~supermarket~[suupaa] is~at~[ni~imasu] 
+
+[LINE]
+> ひとりの                     おんなの~ひとが                エディ        に~はなしかけます。                    
+~ one~(person)~[hitori~no] woman~[onna~no~hito~ga] Eddy~[edi] talks~to~[ni~hanashikakemasu] 
+
+[MULTIPLE_CHOICE]
+> A woman talks to Eddy at the supermarket.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker724: すみません。                
+~           excuse~me~[sumimasen] 
+
+[LINE]
+Speaker414: はい？       
+~           yes~[hai] 
+
+[LINE]
+Speaker724: あの|、おいしゃさん                      ですか？                
+~           um~[ano]  (a)~doctor~[oishasan] are~(you)~[desu~ka] 
+
+[LINE]
+Speaker414: えっ|？ぼくですか|？えーっと…                         
+~           what~[e']  me~[boku~desu~ka]  um~[eetto] 
+
+[LINE]
+Speaker414: はい|、…そうです。                          
+~           yes~[hai]   that's~right~[sou~desu] 
+
+[LINE]
+Speaker724: よかった！          
+~           good~[yokatta] 
+
+[ARRANGE]
+> Tap what you hear
+> [(エディは)          (おいしゃさん)                (では~ありません)。]             
+~   Eddy~[edi~wa]   (a)~doctor~[oishasan]   isn't~[dewa~arimasen]   
+
+[LINE]
+Speaker414: ぼくは         たくさん                 おかね           を~もっています。            
+~           I~[boku~wa] a~lot~(of)~[takusan] money~[okane] have~[o~motte~imasu] 
+
+[LINE]
+Speaker414: それに|、ぼくの                    うちは             おおきいです。             
+~           also~[soreni]  my~[boku~no] house~[uchi~wa] is~big~[ookii~desu] 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "expensive."
+Speaker414: (+たかい)               (ズボン)                      (も)        (もっています)。                
+~             expensive~[takai]   (pairs~of)~pants~[zubon]   too~[mo]   (I)~have~[motte~imasu]  
+
+[LINE]
+Speaker724: へえ|、でも…              
+~           OK~[hee]  but~[demo] 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker724: むこうに                  びょうきの            ひと                [が~います]。              
+~           over~there~[mukou~ni] sick~[byouki~no] (a)~person~[hito]  there~is~[ga~imasu]  
+- が きます
+- が ねます 
++ が います
+
+[LINE]
+Speaker724: ぎゅうにゅう          うりば                   の~ちかく             です！            
+~           milk~[gyuunyuu] (the)~section~[uriba] near~[no~chikaku] (it)~is~[desu] 
+
+[LINE]
+Speaker724: その          ひと            を~たすけてください|！とても                                 ぐあいが~わるそうです。                           
+~           that~[sono] person~[hito] please~help~[o~tasukete~kudasai]  very~[totemo] (he)~looks~sick~[guai~ga~warusou~desu] 
+
+[MULTIPLE_CHOICE]
+> The woman wants Eddy to...
+- …go to a doctor's office.
+- …buy some milk.
++ …help a sick person.
+
+[LINE]
+Speaker414: たいへんだ！            
+~           oh~no~[taihen~da] 
+
+[LINE]
+> エディは          べつの                  おんなのひと                   を~みかけます|。そして|、その                                ひと            に~はなしかけます。                         
+~ Eddy~[edi~wa] different~[betsu~no] (a)~woman~[onna~no~hito] sees~[o~mikakemasu]  and~[soshite]  that~[sono] person~[hito] (he)~talks~to~[ni~hanashikakemasu] 
+
+[LINE]
+Speaker414: すみません|、おいしゃさん                                ですか|？たすけてください！                                      
+~           excuse~me~[sumimasen]  (a)~doctor~[oishasan] are~(you)~[desu~ka]  please~help~[tasukete~kudasai] 
+
+[MULTIPLE_CHOICE]
+> What is Eddy doing?
+- He's driving a sick man to the hospital.
++ After he lied, he's trying to find a real doctor to help the man.
+- He is crying because he spilled milk.
+
+[MATCH]
+> Tap the pairs
+- です <> is [desu]
+- ですか <> are [desu ka]
+- ぼくの <> my [boku no]
+- の ちかく <> near [no chikaku]
+- ひと <> person [hito]
+
