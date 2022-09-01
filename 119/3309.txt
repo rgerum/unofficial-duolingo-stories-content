@@ -1,0 +1,188 @@
+[DATA]
+fromLanguageName=Mayor Eddy
+icon=05e13f3549c52c61ea9727badeb376fee1a4d7c4
+set=35|4
+
+[HEADER]
+> Bürgermeister Eddy
+~ mayor         Eddy
+
+[LINE]
+> Eddy ist vor         seinem Haus  und malt        ein großes Schild. Lucy kommt vorbei.
+~ Eddy is  in~front~of his    house and is~painting a   big    sign    Lucy comes over   
+
+[LINE]
+Speaker414: Hallo, Lucy! Kannst du  mir~helfen, mein Schild hier an die Mauer zu hängen?
+~           hello  Lucy  can    you help~me     my   sign   here on the wall  to hang   
+
+[LINE]
+Speaker509: Natürlich, Eddy!
+~           of~course  Eddy 
+
+[LINE]
+> Lucy liest das Schild.
+~ Lucy reads the sign   
+
+[LINE]
+Speaker509: „Bürgermeister~Eddy — wählt~mich|!”? 
+~            Mayor~Eddy           vote~for~me ~  
+
+[MULTIPLE_CHOICE]
+> Moment! Wofür~ist              das Schild?
+~ wait    what~is~the~purpose~of the sign   
++ Eddy will  Bürgermeister~werden.
+~ Eddy wants to~become~the~mayor  
+- Eddy verkauft         Kekse   und Milch.
+~ Eddy is~going~to~sell cookies and milk  
+- Eddy malt        ein Bild    von Lucy.
+~ Eddy is~painting a   picture of  Lucy 
+
+[LINE]
+Speaker414: Richtig!
+~           correct 
+
+[LINE]
+Speaker509: Warum willst~du   Bürgermeister~werden?
+~           why   do~you~want to~become~the~mayor  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Weil    ich glaube,  dass die Politiker   [uns~normalen~Leuten] nicht zuhören!
+~           because I   believe  that the politicians  to~us~normal~people  not   listen  
+- uns dualen Meuten
+- uns brutalen Häuten
++ uns normalen Leuten
+
+[LINE]
+Speaker509: Aber du  interessierst~dich~nicht für Politik. 
+~           but  you aren't~interested        in  politics 
+
+[LINE]
+Speaker414: Nein, aber ich interessiere~mich für Menschen!
+~           no    but  I   am~interested     in  people   
+
+[CONTINUATION]
+> Was  kommt als~Nächstes?
+~ what comes next         
+Speaker414: Und ein guter Bürgermeister sollte sich      für die Menschen in [seiner Stadt interessieren]!
+~           and a   good  mayor         should (himself) in  the people   in  his    city  be~interested  
+- deiner Jacke  duschen      
+~ your   jacket have~a~shower
+- meiner Wohnung   rasieren
+~ of~my  apartment shave   
++ seiner Stadt interessieren
+~ his    city  interest     
+
+[LINE]
+Speaker509: Aber ein Bürgermeister muss   auch wissen, wie die Regierung  funktioniert und welche Gesetze es~gibt.  
+~           but  a   mayor         has~to also know    how the government works        and what   laws    there~are 
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Junior) (hat)   (Politik)  (in~der) (Schule).]
+~             Junior   takes   politics   in       school   
+
+[LINE]
+Speaker414: Er hat~mir~erzählt, dass die~meisten Politiker   die~Gesetze~nicht~kennen.
+~           he told~me          that most        politicians don't~know~the~laws      
+
+[LINE]
+Speaker509: Ich glaube,  es ist trotzdem keine gute Idee, dass du  Bürgermeister~werden~willst.
+~           I   believe  it is  still    not~a good idea  that you want~to~become~the~mayor    
+
+[LINE]
+Speaker414: Aber warum?
+~           but  why   
+
+[LINE]
+Speaker509: Eddy, ich gehe zu jeder Sitzung im~Rathaus       und habe dich~dort~noch~nie~gesehen! 
+~           Eddy  I   go   to every meeting at~the~city~hall and have never~seen~you~there~before 
+
+[LINE]
+Speaker414: Ich finde politische Sitzungen langweilig!
+~           I   find  political  meetings  boring     
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: Glaub   mir Eddy, Bürgermeister ist [kein~einfacher~Job].
+~           believe me  Eddy  mayor         is   not~an~easy~job     
+- sein dreifacher Stopp
+- ein zweifacher Job
++ kein einfacher Job
+
+[LINE]
+Speaker509: Du  musst   zu~vielen~Sitzungen~gehen und die ganze Zeit mit~Politikern~sprechen.
+~           you have~to go~to~many~meetings       and the whole time talk~to~politicians     
+
+[LINE]
+Speaker414: Ich mag~keine  Politiker.   Ich glaube,  ich brauche jemanden, der mir~hilft.
+~           I   don't~like politicians  I   believe  I   need    someone   who helps~me  
+
+[LINE]
+Speaker414: Hey, du  solltest meine~Wahlkampfberaterin~werden!
+~           hey  you should   become~my~campaign~advisor      
+
+[MULTIPLE_CHOICE]
+> Eddy möchte,     dass Lucy …
+~ Eddy would~like  that Lucy  
+- … ihm~Geld~für~mehr~Schilder~gibt.
+~   gives~him~money~for~more~signs  
++ … ihm~hilft, Bürgermeister~zu~werden.
+~   helps~him  become~the~mayor        
+- … ein~Restaurant~eröffnet.
+~   opens~a~restaurant      
+
+[LINE]
+Speaker509: Ich?
+~           me  
+
+[LINE]
+Speaker414: Ja!  Du  kennst alle,     interessierst~dich  für unsere Stadt und hast immer  tolle Ideen!
+~           yes  you know   everyone  (you're)~interested in  our    city  and have always great ideas 
+
+[LINE]
+Speaker509: Hmm … Du  hast~recht!
+~           hmm   you are~right  
+
+[CONTINUATION]
+> Was  kommt als~Nächstes?
+~ what comes next         
+Speaker414: Also hast~du~Lust,   [meine~Wahlkampfberaterin~zu~werden]?
+~           so   would~you~like   to~become~my~campaign~advisor       
+- meine~Köchin~zu~werden
+~ to~become~my~cook     
+- meine~beste~Freundin~zu~werden
+~ to~become~my~best~friend      
++ meine~Wahlkampfberaterin~zu~werden
+~ to~become~my~campaign~advisor     
+
+[LINE]
+Speaker509: Oh nein, ganz~bestimmt   nicht!
+~           oh no    most~definitely not   
+
+[LINE]
+Speaker414: Warum nicht?
+~           why   not   
+
+[LINE]
+Speaker509: Weil    ich jetzt Bürgermeisterin~werden~will.
+~           because I   now   want~to~become~the~mayor    
+
+[MULTIPLE_CHOICE]
+> Warum will~Lucy~nicht   Eddys~Wahlkampfberaterin~werden?  
+~ why   doesn't~Lucy~want to~become~Eddy's~campaign~advisor 
+- Sie spricht~nicht~gern   mit Politikern. 
+~ she doesn't~like~to~talk to  politicians 
++ Sie will~lieber  selbst~Bürgermeisterin~werden.
+~ she would~rather become~the~mayor~herself      
+- Sie hat keine Zeit für Sitzungen.
+~ she has no    time for meetings  
+
+[MATCH]
+> Tap the pairs
+- uns normalen Leuten <> to us normal people
+- wie <> how
+- jemanden <> someone
+- Junior <> Junior
+- Politiker <> politicians
+
