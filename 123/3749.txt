@@ -1,0 +1,128 @@
+[DATA]
+fromLanguageName=¿Dónde está su novia?
+icon=0d18f0403cfa415591d7ef50a9e9c01f1094936e
+set=3|4
+
+[HEADER]
+> Où    est  votre copine ?
+~ dónde está su    novia   
+
+[LINE]
+> Béa va   prendre l'avion. 
+~ Béa va~a tomar   el~avión 
+
+[LINE]
+> Elle parle avec un homme  qui travaille à  l'aéroport.   
+~ ella habla con  un hombre que trabaja   en el~aeropuerto 
+
+[LINE]
+Speaker823: Bonjour     ! Je~peux vous~aider ?
+~           buenos~días   puedo   ayudarle    
+
+[MULTIPLE_CHOICE]
+> El hombre en el aeropuerto quiere ayudar a Béa.
+- No, no es así.
++ Sí, así es.
+
+[LINE]
+Speaker507: Oui, je~vais à Bordeaux…
+~           sí   voy     a Burdeos  
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "al lado de".
+Speaker507: … et je (voudrais) être  (+à~côté~de)  ma (copine) dans (l'avion). 
+~             y  yo  quisiera  estar   al~lado~de  mi  novia   en    el~avión  
+
+[LINE]
+Speaker823: OK…    J'ai  deux places   ensemble.
+~           bueno  tengo dos  asientos juntos   
+
+[LINE]
+Speaker507: Très bien !
+~           muy  bien  
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Béa está feliz?
+- Ella va a obtener un descuento en su boleto.
+- El hombre es de Burdeos.
++ Hay dos asientos disponibles juntos.
+
+[LINE]
+Speaker823: Hmm… où    est  votre copine ?
+~           mmm  dónde está su    novia   
+
+[LINE]
+Speaker507: Je ne~sais~pas. Vous  pouvez m'aider  à la~trouver  ?
+~           yo no~sé        usted puede  ayudarme a encontrarla  
+
+[MULTIPLE_CHOICE]
+> Béa quiere ayuda para encontrar...
+- … su boleto de avión.
+- … sus zapatos.
++ … a su novia.
+
+[LINE]
+Speaker823: Elle~est~comment ?
+~           cómo~es~ella      
+
+[LINE]
+Speaker507: Elle~est grande. Elle~est blonde…
+~           es       alta    es       rubia  
+
+[LINE]
+Speaker823: OK.   
+~           bueno 
+
+[LINE]
+Speaker507: Elle~aime       faire du~sport et danser…
+~           a~ella~le~gusta hacer deportes y  bailar 
+
+[LINE]
+Speaker823: Euh…
+~           eh  
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker507: Elle~adore         les animaux,  mais elle~n'aime~pas [cuisiner].
+~           a~ella~le~encantan los animales  pero no~le~gusta      cocinar   
+- danser
+~ bailar
+- le~sport    
+~ los~deportes
++ cuisiner
+~ cocinar 
+
+[LINE]
+Speaker823: OK…    Comment elle~s'appelle ?
+~           bueno  cómo    se~llama~ella   
+
+[LINE]
+Speaker507: Ah, ça…  je~ne~sais~pas.
+~           ah  eso  no~sé          
+
+[LINE]
+Speaker823: Pardon ?
+~           perdón  
+
+[LINE]
+Speaker507: Je n'ai~pas de~copine.
+~           yo no~tengo novia     
+
+[LINE]
+Speaker507: Vous  pouvez m'aider  à trouver   une copine ?
+~           usted puede  ayudarme a encontrar una novia   
+
+[MULTIPLE_CHOICE]
+> ¿Lo entendiste? Béa...
++ … no tiene novia todavía.
+- … perdió a su novia en el aeropuerto.
+- … dejó a su novia en casa.
+
+[MATCH]
+> Selecciona los pares
+- vous aider <> ayudarle
+- la trouver <> encontrarla
+- Comment <> cómo
+- blonde <> rubia
+- Elle aime <> a ella le gusta
+
