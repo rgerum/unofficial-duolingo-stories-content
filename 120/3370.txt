@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=The Garden
+icon=2048b2aca1b5e4e869402fc61c30ffa6617ba5b8
+set=4|2
+
+[HEADER]
+> Il  giardino
+~ the garden  
+
+[LINE]
+> Tommaso visita la~nonna~malata  in ospedale.      
+~ ~       visits his~sick~grandma ~  (the)~hospital 
+
+[LINE]
+Speaker3135: Ciao, nonna!  
+~            hi    grandma 
+
+[MULTIPLE_CHOICE]
+> What does "nonna" mean?
+- mom
+- doctor
++ grandma
+
+[LINE]
+Speaker3135: Come ti~senti       oggi? 
+~            how  you're~feeling today 
+
+[LINE]
+Speaker129: Sto~bene...
+~           I'm~fine   
+
+[ARRANGE]
+> Tap what you hear
+Speaker3135: [(È)    (una) (splendida) (giornata).]
+~              it's   a     beautiful   day        
+
+[LINE]
+Speaker129: È    vero.
+~           it's true 
+
+[LINE]
+Speaker3135: Tutto      bene?
+~            everything OK   
+
+[LINE]
+Speaker129: Questa stanza è  deprimente... è~senza   colore.
+~           this   room   is depressing    it~has~no color  
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "outside."
+Speaker129: (Fa~caldo) e   c'è~il~sole, (voglio) (andare) (+fuori).  
+~            it's~hot  and it's~sunny    I~want   to~go     outside  
+
+[LINE]
+Speaker3135: Mi~dispiace, nonna.  
+~            I'm~sorry    grandma 
+
+[LINE]
+Speaker129: Quando c'è~il~sole, mi~piace prendermi~cura~del giardino...
+~           when   it's~sunny   I~like   to~look~after~the  garden     
+
+[LINE]
+Speaker3135: Oh... Ho     un'|idea!
+~            ~     I~have an  ~    
+
+[LINE]
+Speaker3135: Torno~subito!     
+~            I'll~be~back~soon 
+
+[MULTIPLE_CHOICE]
+> What does he mean?
+- He needs to turn right.
+- He's going to the airport.
++ He'll be back soon.
+
+[LINE]
+> Venti  minuti  dopo... 
+~ twenty minutes later   
+
+[LINE]
+> Tommaso entra~nella stanza con  due grosse piante.
+~ ~       enters~the  room   with two big    plants 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker3135: Queste~le~ho~prese [da~casa~tua].    
+~            I~took~these        from~your~house  
+- la casa sua
+- la cassa tua
++ da casa tua
+
+[LINE]
+Speaker3135: E   i   fiori   dal  tuo  giardino!
+~            and the flowers from your garden   
+
+[LINE]
+Speaker129: Le~mie piante e   i~miei fiori!  
+~           my     plants and my     flowers 
+
+[LINE]
+Speaker3135: Ora il~tuo giardino è  qui! 
+~            now your   garden   is here 
+
+[LINE]
+Speaker129: Grazie~mille,      Tommaso!
+~           thank~you~so~much  ~       
+
+[MULTIPLE_CHOICE]
+> What did Tommaso do?
++ He brought plants and flowers from his grandma's garden to the hospital.
+- He bought his grandma new gardening tools.
+- He took his grandma back to her house.
+
+[MATCH]
+> Tap the pairs
+- splendida <> beautiful
+- dopo <> later
+- deprimente <> depressing
+- piante <> plants
+- entra nella <> enters the
+
