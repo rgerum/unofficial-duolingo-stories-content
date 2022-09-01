@@ -1,0 +1,138 @@
+[DATA]
+fromLanguageName=Uma história de casamento
+icon=1af589ac8182b2da5175dd9c2dc973d1089ef4f2
+set=25|4
+
+[HEADER]
+> A   Wedding~Story        
+~ uma história~de~casamento
+
+[LINE]
+> Lucy and Lin are   at~a~family~wedding.       
+~ Lucy e   Lin estão no~casamento~de~um~parente 
+
+[LINE]
+Speaker509: This is a  beautiful wedding!  
+~           este é  um lindo     casamento 
+
+[LINE]
+Speaker508: I  know! This~hotel~is~amazing!   
+~           eu sei   este~hotel~é~maravilhoso 
+
+[MULTIPLE_CHOICE]
+> Lin e Lucy estão impressionadas com o casamento. 
++ Sim, isso mesmo.
+- Não, não é isso.
+
+[LINE]
+Speaker509: And the food   is delicious!
+~           e   a   comida é  deliciosa 
+
+[LINE]
+Speaker508: Are~these gold~forks?    
+~           estes~são garfos~de~ouro 
+
+[LINE]
+Speaker509: Yes!
+~           sim 
+
+[LINE]
+Speaker508: This wedding   was probably      very  expensive.
+~           este casamento foi provavelmente muito caro      
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker509: How~much do~you~think  [it~cost]?   
+~           quanto   você~acha~que  ele~custou  
++ it cost
+- it caught
+- it calls
+
+[LINE]
+Speaker508: A~lot.
+~           muito 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker509: Your~cousin, Paul, hates~spending [money]!   
+~           o~seu~primo  Paul  odeia~gastar    dinheiro  
+- time 
+~ tempo
+- forks 
+~ garfos
++ money   
+~ dinheiro
+
+[LINE]
+Speaker509: I'm      surprised that the wedding   is so  nice. 
+~           eu~estou surpresa  que  o   casamento é  tão legal 
+
+[LINE]
+Speaker508: I'm      surprised that the bride is so  beautiful.
+~           eu~estou surpresa  que  a   noiva é  tão linda     
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker508: I  just~talked~to      the bride. Did~you~know   [she's~a~doctor]?
+~           eu acabei~de~falar~com a   noiva  você~sabia~que  ela~é~médica    
+- he's a dog too
++ she's a doctor
+- she said talk to her
+
+[LINE]
+Speaker509: How  did~Paul~meet such~an~amazing~woman?     
+~           como Paul~conheceu uma~mulher~tão~maravilhosa 
+
+[LINE]
+Speaker508: I  don't~know! He  isn't good enough       for  her.
+~           eu não~sei     ele não~é bom  o~suficiente para ela 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker509: [(He)  (looks~like)    (a)   (potato).]
+~             ele   se~parece~com   uma   batata   
+
+[LINE]
+Speaker508: And he's  lazy.      
+~           e   ele~é preguiçoso 
+
+[LINE]
+Speaker509: But it's nice  that he  invited~us!      
+~           mas é    legal que  ele convidou~a~gente 
+
+[LINE]
+Speaker508: Be~quiet!     He's~coming    here.
+~           fique~quieta  ele~está~vindo aqui 
+
+[MULTIPLE_CHOICE]
+> A Lin quer que a Lucy…
+- …vá a um médico.
+- …coma algumas batatas.
++ …fique quieta.
+
+[LINE]
+Speaker509: Wait.   That's~not Paul.  
+~           espere  esse~não~é o~Paul 
+
+[LINE]
+Speaker508: You're~right!   I  think    we're       at~the wrong~hotel!  Let's~go.    
+~           você~tem~razão  eu acho~que nós~estamos no     hotel~errado  vamos~embora 
+
+[LINE]
+Speaker509: No,  let's~stay  here. It's~time~for   dessert!  
+~           não  vamos~ficar aqui  está~na~hora~da sobremesa 
+
+[MULTIPLE_CHOICE]
+> Opa! A Lin e a Lucy…
+- …comeram batatas demais.
+- …caíram no sono na mesa de sobremesas.
++ …estão no casamento errado.
+
+[MATCH]
+> Toque nos pares
+- lazy <> preguiçoso
+- How much <> quanto
+- Are these <> estes são
+- beautiful <> lindo
+- I'm <> eu estou
+
