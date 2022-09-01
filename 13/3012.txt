@@ -1,0 +1,164 @@
+[DATA]
+fromLanguageName=The Accident
+icon=c6d90731fde97538d6f34f72c53719c8043ae7f5
+set=58|3
+
+[HEADER]
+> L'accident  
+~ the~accident
+
+[LINE]
+> Junior se~promène dans~le~quartier,    et  voit Lucie.
+~ Junior is~walking in~the~neighborhood  and sees Lucie 
+
+[LINE]
+Speaker415: Salut, Lucie !
+~           hi     Lucie  
+
+[LINE]
+> Lucie sourit à  Junior. Elle a   un bandage au~pied.    
+~ Lucie smiles at Junior  she  has a  bandage on~her~foot 
+
+[LINE]
+Speaker415: Pourquoi tu  as   un bandage ?
+~           why      you have a  bandage  
+
+[ARRANGE]
+> Tap what you hear
+Speaker509: [(J'ai~eu) (un) (accident) (hier).]     
+~             I~had     an   accident   yesterday   
+
+[LINE]
+Speaker415: Un accident ? Qu'est-ce~qu'il~s'est~passé ?
+~           an accident   what~happened                
+
+[LINE]
+Speaker509: Eh~bien, je me~suis~levée à  sept~heures.   Puis, j'ai~fait~chauffer de~l'eau   pour mon thé et… 
+~           well     I  got~up        at seven~o'clock  then  I~heated           some~water for  my  tea and 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: ... [j'ai~fait~tomber] la~tasse~préférée~de~Lin.
+~                I~dropped         Lin's~favorite~cup       
+- me fait tomber
++ j'ai fait tomber
+- j'ai fait monter
+
+[LINE]
+Speaker415: Tu  t'es~brûlé~le~pied ?
+~           you burned~your~foot    
+
+[LINE]
+Speaker509: Non, mais j'ai~renversé de~l'eau partout,    et  j'ai~cassé la  tasse.
+~           no   but  I~spilled     water    everywhere  and I~broke    the cup   
+
+[MULTIPLE_CHOICE]
+> Lucie…
+~ Lucie 
+- … a~préparé un thé pour Junior.
+~   prepared  a  tea for  Junior 
+- … s'est~levée très tard.
+~   got~up      very late 
++ … a~cassé la~tasse~préférée~de~Lin.
+~   broke   Lin's~favorite~cup       
+
+[LINE]
+Speaker415: Oh.
+
+[LINE]
+Speaker509: Je devais vite    trouver   la  même       pour~la~remplacer.      
+~           I  had~to quickly (to)~find the same~(one) in~order~to~replace~it  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: Alors j'ai~pris ma moto,      et  sur le  chemin, une vache a~traversé la  route [juste~devant~moi]     !
+~           so    I~took    my motorbike  and on  the way     a   cow   crossed    the road   right~in~front~of~me   
+- juge devant moi
+- juste avant toi
++ juste devant moi
+
+[LINE]
+Speaker415: Oh, non ! Tu  n'as~pas~pu~t'arrêter à~temps ? C'est~comme~ça~que tu  t'es~fait~mal au~pied   ?
+~           oh  no    you couldn't~stop         on~time   that's~how         you hurt          your~foot  
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker509: Non, j'ai~pu~arrêter   la  moto      au     dernier moment. Mais [je suis~tombée].
+~           no   I~managed~to~stop the motorbike at~the last    moment  but   I  fell         
++ je suis~tombée
+~ I  fell       
+- je suis une vache
+~ I  am   a   cow  
+- juste devant      moi
+~ just  in~front~of me 
+
+[LINE]
+Speaker415: Oh, alors c'est~comme~ça~que tu  t'es~fait~mal.
+~           oh  so    that's~how         you hurt~yourself 
+
+[LINE]
+Speaker509: Non. Mais ma moto      est~tombée~en~panne, alors j'ai~dû~marcher.
+~           no   but  my motorbike broke~down           so    I~had~to~walk   
+
+[LINE]
+Speaker509: Et  un énorme chien a~commencé~à~courir vers    moi.
+~           and a  huge   dog   started~to~run      towards me  
+
+[LINE]
+Speaker415: Le  chien t'a~mordue ?
+~           the dog   bit~you     
+
+[MULTIPLE_CHOICE]
+> Pourquoi Junior~demande-t-il ça   ?
+~ why      did~Junior~ask      that  
+- Il a~peur~du    gros~chien~de~Lucie.
+~ he is~afraid~of Lucie's~big~dog     
+- Lucie a   des~dents et  des~poils comme un chien.
+~ Lucie has teeth     and hair      like  a  dog   
++ Il veut  savoir    comment Lucie s'est~fait~mal.
+~ he wants (to)~know how     Lucie hurt~herself   
+
+[LINE]
+Speaker509: Non, il était très gentil !
+~           no   it was   very nice    
+
+[LINE]
+Speaker415: OK…
+~           OK 
+
+[LINE]
+Speaker509: Puis un homme~très~sympa  m'a~vue sur la  route et  est~venu m'aider.   
+~           then a  very~friendly~man saw~me  on  the road  and came     to~help~me 
+
+[LINE]
+Speaker509: Il était très beau,     donc je l'ai~invité~à sortir    avec moi.
+~           he was   very handsome  so   I  invited~him   to~go~out with me  
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(Mais) (comment) (tu~t'es~fait~mal) (au~pied)   ]?
+~             but    how       did~you~hurt       your~foot    
+
+[LINE]
+Speaker509: Il a~marché dessus  pendant~qu'on dansait      ! Je n'irai~plus~jamais~danser   avec lui.
+~           he stepped  on~(it) while~we      were~dancing   I  will~never~go~dancing~again with him 
+
+[MULTIPLE_CHOICE]
+> Comment Lucie s'est~fait-elle~mal au~pied  ?
+~ how     Lucie hurt                her~foot  
+- Elle est~tombée de   sa  moto.     
+~ she  fell       from her motorbike 
+- Une vache lui~a~marché~dessus.
+~ a   cow   stepped~on~her      
++ Un homme lui~a~marché~dessus en~dansant.   
+~ a  man   stepped~on~her      while~dancing 
+
+[MATCH]
+> Tap the pairs
+- hier <> yesterday
+- Salut <> hi
+- tasse <> cup
+- Eh bien <> well
+- au <> at the
+
