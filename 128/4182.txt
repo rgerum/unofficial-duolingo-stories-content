@@ -1,0 +1,119 @@
+[DATA]
+fromLanguageName=Cô không phải là Mary
+icon=7a321a8d84d41c79b4d3c85aced0cbcdd13756b6
+set=5|1
+
+[HEADER]
+> You're~Not       Mary
+~ cô~không~phải~là Mary
+
+[LINE]
+> Junior comes~home~from~school.
+~ Junior vừa~đi~học~về          
+
+[LINE]
+> There~is a       woman  in    the~living~room.
+~ có       1~người phụ~nữ trong phòng~khách     
+
+[LINE]
+Speaker415: Oh! You're~not       Mary!
+~           ơ   cô~không~phải~là Mary 
+
+[LINE]
+Speaker658: No…    I'm   Penelope. I'm~your~dad's~date…       
+~           không  cô~là Penelope  cô~đang~hẹn~hò~với~bố~cháu 
+
+[MULTIPLE_CHOICE]
+> Ái chà, bạn có nghe thấy chứ? Penelope…
++ …đang hẹn hò với bố của Junior.
+- …là chị gái của Junior.
+- …là bà của Junior.
+
+[LINE]
+Speaker415: I'm     Junior!
+~           cháu~là Junior 
+
+[LINE]
+Speaker658: Hi,   Junior… your~dad is~in        the~bathroom.
+~           chào  Junior  bố~cháu  đang~ở~trong phòng~tắm    
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker658: So…  Is~Mary       [here~often]?        
+~           thế  Mary~có…không  thường~hay~tới~đây  
+- her or them
+- hear of them
++ here often
+
+[LINE]
+Speaker415: Yes!  Every~day.       
+~           có~ạ  hằng~ngày~luôn~ạ 
+
+[LINE]
+Speaker658: Every~day!?     
+~           hằng~ngày~cơ~á  
+
+[LINE]
+Speaker415: Dad and Mary always       talk       in~the~morning.
+~           bố  và  Mary lúc~nào~cũng nói~chuyện vào~buổi~sáng  
+
+[LINE]
+Speaker658: I  want to~know more about Mary…
+~           cô muốn biết    thêm về    Mary 
+
+[LINE]
+Speaker415: Well,  I    like  Mary but…  
+~           à~thì  cháu thích Mary nhưng 
+
+[LINE]
+Speaker415: She   talks too much.  My~dad  loves her!  
+~           cô~ấy nói   quá nhiều  bố~cháu mê    cô~ấy 
+
+[LINE]
+Speaker658: He~loves~her?!      
+~           anh~ấy~yêu~cô~ta~á  
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “bạn gái”.
+Speaker658: (Your~dad) (can't~have)   two (+girlfriends)! (That's~not~OK)!    
+~            bố~cháu    không~thể~có  hai   bạn~gái        thế~là~không~được  
+
+[LINE]
+> Penelope leaves. Eddy comes~out~of the~bathroom.
+~ Penelope bỏ~đi   Eddy ra~khỏi      phòng~tắm    
+
+[LINE]
+Speaker414: Where~is~Penelope?
+~           Penelope~đâu      
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker415: [(She's~not)   (happy)    (about) (Mary).]
+~             cô~ấy~không   hài~lòng   về      Mary   
+
+[LINE]
+Speaker414: Oh~no!     
+~           ui~trời~ơi 
+
+[LINE]
+Speaker414: Wait!   Penelope! Mary is our~bird!            
+~           đợi~đã  Penelope  Mary là con~chim~của~bọn~anh 
+
+[LINE]
+Speaker625: Squawk!    Goodbye,  Penelope!
+~           quác~quác  tạm~biệt  Penelope 
+
+[MULTIPLE_CHOICE]
+> Thôi xong! Vì sao Penelope lại bỏ đi?
+- Cô ấy nhìn thấy một phụ nữ khác ở trong phòng khách.
+- Eddy không chịu ra khỏi phòng tắm.
++ Cô ấy không biết Mary là một con chim.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- girlfriends <> bạn gái
+- woman <> phụ nữ
+- our bird <> con chim của bọn anh
+- Every day <> hằng ngày luôn ạ
+- talk <> nói chuyện
+
