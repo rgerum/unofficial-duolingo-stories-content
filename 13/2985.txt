@@ -1,0 +1,169 @@
+[DATA]
+fromLanguageName=I'm the One Driving
+icon=cc2a52bc6b367269cf450bdc0cc6a70a19a199d2
+set=51|4
+
+[HEADER]
+> C'est~moi~qui~conduis
+~ I'm~the~one~driving  
+
+[LINE]
+> Béa attend           Lin devant      leur  immeuble.          
+~ Béa is~waiting~(for) Lin in~front~of their apartment~building 
+
+[LINE]
+> Lin arrive  à~moto.         
+~ Lin arrives on~a~motorcycle 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker508: Prête~pour~aller [à~la~plage]   ?
+~           ready~to~go       to~the~beach   
+- à la nage
+- et la plage
++ à la plage
+
+[LINE]
+Speaker507: C'est~quoi~ça ?
+~           what~is~that   
+
+[LINE]
+Speaker508: Ma moto       !
+~           my motorcycle  
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker507: Je croyais que  tu  allais~louer       [une voiture ]?
+~           I  thought that you were~going~to~rent  a   car       
+- leur  immeuble           
+~ their apartment~building 
++ une voiture
+~ a   car    
+- la  plage
+~ the beach
+
+[LINE]
+Speaker508: Louer~une~voiture, ça   coûte~cher.   Conduire~ma~moto,      c'est  gratuit.
+~           renting~a~car      that is~expensive  driving~my~motorcycle  that's free    
+
+[LINE]
+Speaker508: Allez,   monte  !
+~           come~on  get~on  
+
+[LINE]
+Speaker507: Tu  veux~que~je~monte… derrière     ?
+~           you want~me~to~get~on  behind~(you)  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker508: Oui, pourquoi ? [Tu~as~peur]     ?
+~           yes  why         you~are~afraid   
++ Tu as peur
+- T'as une fleur
+- Tant de peur
+
+[LINE]
+Speaker507: Moi ? Je n'ai~peur~de~rien.        
+~           me    I  am~not~afraid~of~anything 
+
+[LINE]
+Speaker507: Sauf         des~chats sans    poils. Brr !
+~           except~(for) cats      without hair   Brr  
+
+[MULTIPLE_CHOICE]
+> Béa a~peur    d'une~seule chose. Laquelle  ?
+~ Béa is~afraid of~only~one thing  which~one  
+- les~gens à~moto        
+~ people   on~a~motorbike
++ les~chats qui  n'ont~pas  de~poils
+~ cats      that don't~have any~hair
+- les~chiens avec beaucoup de poils
+~ dogs       with a~lot    of hairs
+
+[LINE]
+Speaker508: Si tu  n'as~pas~peur,  monte  !
+~           if you are~not~afraid  get~on  
+
+[LINE]
+Speaker507: OK, mais c'est~moi~qui~conduis.
+~           OK  but  I'm~the~one~driving   
+
+[ARRANGE]
+> Tap what you hear
+Speaker508: [(Tu)  (veux) (conduire) (ma) (moto)       ]?
+~             you   want   to~drive   my   motorcycle    
+
+[LINE]
+Speaker507: Oui.
+~           yes 
+
+[LINE]
+Speaker508: Béa ! Pourquoi tu     dois~toujours  tout~contrôler          ?
+~           Béa   why      do~you always~have~to (to)~control~everything  
+
+[LINE]
+Speaker508: Tu~ne~peux~pas te~détendre un peu    ?
+~           can't~you      (to)~relax  a  little  
+
+[MULTIPLE_CHOICE]
+> Lin n'a~pas~l'air contente parce~que Béa...
+~ Lin doesn't~look  happy    because   Béa   
+- ... est plus~cool qu'elle. 
+~     is  cooler    than~her 
+- ... a~peur    des~chats~sans~poils.
+~     is~scared of~hairless~cats     
++ ... veut  conduire sa  moto.
+~     wants to~drive her bike 
+
+[LINE]
+Speaker507: Je vais~me~détendre…  quand tu  me~laisseras~conduire.
+~           I  am~going~to~relax  when  you let~me~drive          
+
+[LINE]
+Speaker507: Lin, tu  veux aller à  la  plage ou pas ?
+~           Lin  you want to~go to the beach or not  
+
+[LINE]
+Speaker508: Oui, oui, je veux y~aller.    
+~           yes  yes  I  want to~go~there 
+
+[LINE]
+> Plus~tard, Béa est~en~train~de~conduire la  moto.       
+~ later      Béa is~driving               the motorcycle  
+
+[ARRANGE]
+> Tap what you hear
+> [(Lin) (est~assise) (derrière) (elle).]
+~   Lin   is~sitting   behind     her    
+
+[LINE]
+> Lin n'a~pas~l'air contente.
+~ Lin doesn't~look  happy    
+
+[LINE]
+Speaker507: Tu  avais~raison. Conduire~ta~moto,        c'est mieux~que   louer~une~voiture !
+~           you were~right    driving~your~motorcycle  it's  better~than renting~a~car      
+
+[LINE]
+Speaker508: Toi~aussi, tu  avais~raison. Être~assise~derrière, c'est~nul.
+~           you~too    you were~right    sitting~at~the~back   it~sucks  
+
+[MULTIPLE_CHOICE]
+> Pauvre Lin ! Pourquoi n'est-elle~pas contente ?
+~ poor   Lin   why      isn't~she      happy     
++ Elle n'aime~pas~être~assise derrière    sur sa~moto.       
+~ she  doesn't~like~to~sit    at~the~back on  her~motorcycle 
+- Béa a~loué~| une voiture~très~moche.
+~ Béa rented   a   very~ugly~car      
+- Béa lui~a~donné un beau      chat~sans~poils.
+~ Béa gave~her    a  beautiful hairless~cat    
+
+[MATCH]
+> Tap the pairs
+- Tu ne peux pas <> can't you
+- tout contrôler <> control everything
+- C'est quoi ça <> what is that
+- Ma <> my
+- Allez <> come on
+
