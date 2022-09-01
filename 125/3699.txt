@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Il dottor Eddy
+icon=29c5abbf74b46e43a4de510ac83e302c0722a100
+set=1|2
+
+[HEADER]
+> Doctor    Eddy
+~ il~dottor Eddy
+
+[LINE]
+> Eddy is at~the supermarket. 
+~ Eddy è  al     supermercato 
+
+[LINE]
+> An  elegant~woman  starts   talking~to  Eddy.
+~ una donna~elegante inizia~a parlare~con Eddy 
+
+[MULTIPLE_CHOICE]
+> Una donna si è appena rivolta a Eddy al supermercato.
+- No, è sbagliato.
++ Sì, è giusto.
+
+[LINE]
+Speaker724: Hello!
+~           salve 
+
+[LINE]
+Speaker414: Oh, hello!
+~           oh  salve 
+
+[LINE]
+Speaker724: Are~you a  doctor? 
+~           lei~è   un dottore 
+
+[LINE]
+Speaker414: What? Me? Uh… 
+~           come  io  ehm 
+
+[LINE]
+Speaker414: Yes. I…  am   a  doctor. 
+~           sì   io  sono un dottore 
+
+[LINE]
+Speaker724: Good!
+~           bene 
+
+[ARRANGE]
+> Seleziona ciò che senti
+> [(Eddy) (is~not) (a)  (doctor).] 
+~   Eddy   non~è    un   dottore   
+
+[LINE]
+Speaker414: I~have  a~lot~of money.
+~           (io)~ho tanti    soldi 
+
+[LINE]
+Speaker414: I~live    in a   big    house.
+~           (io)~vivo in una grande casa  
+
+[LINE]
+Speaker414: I~have  expensive…   uh...  pants.    
+~           (io)~ho dei~costosi  ehm    pantaloni 
+
+[LINE]
+Speaker724: OK, but…
+~           OK  ma  
+
+[POINT_TO_PHRASE]
+> Seleziona l'opzione che significa "adesso".
+Speaker724: (A)      (man)  (needs)             a  doctor  (+now)!   
+~            c'è~un   uomo   che~ha~bisogno~di  un dottore   adesso  
+
+[LINE]
+Speaker414: What?! Where~is the~man?
+~           cosa   dov'è    l'uomo  
+
+[LINE]
+Speaker724: He~is   near~the  milk! 
+~           (lui)~è vicino~al latte 
+
+[MULTIPLE_CHOICE]
+> L'uomo è…
++ … vicino al latte al supermercato.
+- … all'ospedale.
+- ... nel carrello della spesa di Eddy.
+
+[LINE]
+Speaker724: Please     help  the~man!    He~is~very~sick!     
+~           per~favore aiuti quell'uomo  (lui)~sta~molto~male 
+
+[MULTIPLE_CHOICE]
+> La donna vuole che Eddy...
+- ... vada dal medico.
+- ... compri del latte.
++ ... aiuti un uomo che sta molto male.
+
+[LINE]
+Speaker414: Uh-oh!
+~           oh-oh 
+
+[LINE]
+> Eddy sees a   woman. He~runs~and~talks~to~her.
+~ Eddy vede una donna  (lui)~corre~a~parlarle   
+
+[LINE]
+Speaker414: Hello, are~you a   doctor?     I~need          help!    
+~           salve  lei~è   una dottoressa  (io)~ho~bisogno di~aiuto 
+
+[MULTIPLE_CHOICE]
+> Cosa sta facendo Eddy?
+- Sta piangendo perché ha versato del latte.
++ Sta cercando di trovare un vero medico per aiutare l'uomo.
+- Sta portando un uomo malato all'ospedale.
+
+[MATCH]
+> Tocca le coppie
+- An <> una
+- Are you <> lei è
+- help <> aiuti
+- I need <> ho bisogno
+- milk <> latte
+
