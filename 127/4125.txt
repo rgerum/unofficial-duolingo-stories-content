@@ -1,0 +1,118 @@
+[DATA]
+fromLanguageName=Onde estão as minhas chaves?
+icon=3f21c887f044dc2ac0d1f0d0ea74e1200b587ac2
+set=8|2
+
+[HEADER]
+> ¿Dónde están mis       llaves?
+~  onde  estão as~minhas chaves 
+
+[LINE]
+> Lin está con su~abuela,  Lucy.
+~ Lin está com a~avó~dela  Lucy 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker509: [Tenemos~una~reserva] en un restaurante muy   elegante esta noche.
+~            temos~uma~reserva    em um restaurante muito elegante esta noite 
+- Debemos una reserva
++ Tenemos una reserva
+- Tenemos una conserva
+
+[LINE]
+Speaker509: ¿Vamos? No  quiero llegar tarde.
+~            vamos  não quero  chegar tarde 
+
+[LINE]
+Speaker508: ¡Está bien!
+~            está bem  
+
+[LINE]
+Speaker508: No…  ¿dónde están las llaves de mi    motocicleta?
+~           não   onde  estão as  chaves da minha motocicleta 
+
+[LINE]
+Speaker509: Tú nunca sabes dónde están tus     llaves.
+~           tu nunca sabes onde  estão as~tuas chaves 
+
+[MULTIPLE_CHOICE]
+> A Lucy diz que a Lin nunca sabe onde…
++ …as chaves dela estão.
+- …colocar as roupas dela.
+- …o cachorro delas está.
+
+[LINE]
+Speaker509: ¿Están en tu  abrigo?
+~            estão no teu casaco 
+
+[ARRANGE]
+> Toque no que escutar
+> [(Lin) (busca)   (en) (su)  (abrigo).]
+~   Lin   procura   em   seu   casaco   
+
+[LINE]
+Speaker508: No,  no  están aquí.
+~           não  não estão aqui 
+
+[LINE]
+Speaker509: ¿Están debajo  de tu  cama?
+~            estão debaixo da tua cama 
+
+[LINE]
+Speaker508: No,  ¡no  están debajo  de~la cama!
+~           não   não estão debaixo da    cama 
+
+[LINE]
+Speaker509: ¿Están en tu  zapato?
+~            estão no teu sapato 
+
+[LINE]
+Speaker508: No,  eso  es extraño. 
+~           não  isso é  estranho 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker508: No  sé  dónde están mis       llaves. ¿Vamos [al restaurante en~taxi]?
+~           não sei onde  estão as~minhas chaves   vamos  ao restaurante de~táxi  
+- al cine   en~carro
+~ ao cinema de~carro
++ al restaurante en~taxi
+~ ao restaurante de~táxi
+- a    la playa en~taxi
+~ para a  praia de~táxi
+
+[LINE]
+Speaker509: No,  es demasiado~tarde.
+~           não  é  tarde~demais    
+
+[LINE]
+Speaker508: Lo~siento.  
+~           sinto~muito 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "cozinhar".
+Speaker509: (Está) bien, yo (puedo) (+cocinar)  algo para (la~cena). 
+~            está  bem   eu  posso    cozinhar  algo para  o~jantar  
+
+[LINE]
+> Lucy abre la puerta de~la nevera.   
+~ Lucy abre a  porta  da    geladeira 
+
+[LINE]
+Speaker509: ¡Lin, aquí están tus     llaves!
+~            Lin  aqui estão as~tuas chaves 
+
+[MULTIPLE_CHOICE]
+> Finalmente! As chaves da Lin estavam…
+- …na motocicleta dela.
++ …na geladeira.
+- …nos sapatos dela.
+
+[MATCH]
+> Toque nos pares
+- debajo <> debaixo
+- muy <> muito
+- tus <> as tuas
+- puedo <> posso
+- extraño <> estranho
+
