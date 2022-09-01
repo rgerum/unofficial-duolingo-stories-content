@@ -1,0 +1,114 @@
+[DATA]
+fromLanguageName=A Coffee, Please
+icon=221d57fa97fa27260e9dd5ad3457870d033f291a
+set=5|3
+
+[HEADER]
+> Un café,   s'il~te~plaît
+~ a  coffee  please       
+
+[LINE]
+> Eddy est au     restaurant avec son~fils, Junior.
+~ Eddy is  at~the restaurant with his~son   Junior 
+
+[LINE]
+Speaker386: Salut, Eddy ! Tu  veux un thé ?
+~           hi     Eddy   you want a  tea  
+
+[LINE]
+Speaker414: Non, je voudrais   un café,   s'il~te~plaît.
+~           no   I  would~like a  coffee  please        
+
+[MULTIPLE_CHOICE]
+> Eddy ordered a tea.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker386: Avec du~lait ?
+~           with milk     
+
+[LINE]
+Speaker414: Oui, s'il~te~plaît.
+~           yes  please        
+
+[LINE]
+Speaker386: Et  avec du~sucre     ?
+~           and with (some)~sugar  
+
+[LINE]
+Speaker414: Oui, merci     !
+~           yes  thank~you  
+
+[MULTIPLE_CHOICE]
+> Eddy wants his coffee with sugar and…
++ …milk.
+- …more coffee.
+- …juice.
+
+[LINE]
+Speaker415: Ah oui ! Un café   pour moi aussi !
+~           ah yes   a  coffee for  me  too    
+
+[MULTIPLE_CHOICE]
+> Junior says that he...
+- …needs to go to the bathroom.
++ …wants coffee too.
+- …wants to go home.
+
+[LINE]
+Speaker414: Pardon ? Un café   ?
+~           sorry    a  coffee  
+
+[LINE]
+Speaker415: Oui ! Je veux une tasse avec du~lait...    
+~           yes   I  want a   cup   with (some)~milk   
+
+[LINE]
+Speaker415: … du~sucre…    
+~             (some)~sugar 
+
+[LINE]
+Speaker415: … et  de~la glace     !
+~             and some  ice~cream  
+
+[POINT_TO_PHRASE]
+> Choose the option that means "ice cream."
+Speaker414: Un (café)   avec… (de~la)  (+glace),     du     lait et  du     (sucre) ?!
+~           a   coffee  with   (some)    ice~cream   (some) milk and (some)  sugar    
+
+[LINE]
+Speaker415: Non, pas le  café   !
+~           no   not the coffee  
+
+[ARRANGE]
+> Tap what you hear
+Speaker386: [(Ah)… (tu)  (veux) (un) (milk-shake) ]!
+~             ah    you   want   a    milkshake     
+
+[LINE]
+Speaker415: Oui !
+~           yes  
+
+[LINE]
+Speaker414: Oh, je veux un milk-shake aussi.
+~           oh  I  want a  milkshake  too   
+
+[LINE]
+Speaker414: Deux milk-shakes, s'il~te~plaît !
+~           two  milkshakes   please         
+
+[MULTIPLE_CHOICE]
+> Oh, Junior! He ordered coffee...
+- ...but Eddy drank it all.
++ ...but he really wanted a milkshake.
+- ...because he wanted to have more energy.
+
+[MATCH]
+> Tap the pairs
+- merci <> thank you
+- restaurant <> restaurant
+- tasse <> cup
+- Deux <> two
+- Pardon <> sorry
+
