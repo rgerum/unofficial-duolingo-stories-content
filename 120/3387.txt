@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Alert!
+icon=7cd7723e6a361adbea522f2dc71b13755d4d578c
+set=8|3
+
+[HEADER]
+> Allarme!
+~ alert   
+
+[LINE]
+> Nella  parte~precedente... Graziella è~entrata~in casa~di~Alberto. Dice         che  c'è      qualcosa~di orrendo fuori.  
+~ in~the previous~part       ~         entered      Alberto's~house  she's~saying that there~is something   hideous outside 
+
+[LINE]
+Speaker889: Mi~dica di~più.
+~           tell~me more   
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "I heard."
+Speaker265: (Sono~uscita) dal  (lavoro)... e   (+ho~sentito) (qualcosa~di) strano. 
+~            I~got~out    from  work       and   I~heard      something    strange 
+
+[LINE]
+Speaker889: Che~cos'|era?     
+~           what     was~(it) 
+
+[LINE]
+Speaker265: C'era     tanta    gente  che  gridava.      
+~           there~was a~lot~of people that was~screaming 
+
+[MULTIPLE_CHOICE]
+> Graziella heard people...
++ … screaming.
+- ... murmuring.
+- … talking.
+
+[LINE]
+Speaker265: Una persona ha~cominciato~a correre dietro~di me.
+~           a   person  started         to~run  behind    ~  
+
+[LINE]
+Speaker889: Oh...
+
+[LINE]
+Speaker265: Un uomo... credo...  
+~           a  man     I~think   
+
+[LINE]
+Speaker265: ... che  indossava   una strana  tuta~bianca.
+~               that was~wearing a   strange white~suit  
+
+[LINE]
+Speaker889: Oh, no!
+
+[LINE]
+Speaker265: Così sono~scappata~via.
+~           So   I~ran~away        
+
+[LINE]
+Speaker265: Non~sono~riuscita~a vedere la  faccia dell'| uomo.
+~           I~wasn't~able       to~see the face   of~the man  
+
+[LINE]
+Speaker265: Ha~detto qualcosa,  ma  non~ho~capito       le  parole.
+~           he~said  something  but I~didn't~understand the words  
+
+[ARRANGE]
+> Tap what you hear
+Speaker265: [(Sembrava)  (una) (lingua~strana).]   
+~             it~seemed   a     strange~language   
+
+[LINE]
+Speaker265: Ho~capito    solo una cosa  di quello~che ha~detto.
+~           I~understood only one thing of what       he~said  
+
+[MULTIPLE_CHOICE]
+> Graziella understood everything the strange man said.
++ No, that's not right.
+- Yes, that's true.
+
+[LINE]
+Speaker889: Che~cosa?
+~           what     
+
+[LINE]
+Speaker265: "Vengo  dal      pianeta Terra".
+~            I~come from~the planet  Earth  
+
+[MULTIPLE_CHOICE]
+> The strange man said that...
+- ... he is from Jupiter.
++ ... he is from planet Earth.
+- … he loves to run.
+
+[LINE]
+Speaker889: Uhm...
+
+[LINE]
+Speaker265: Cos'|è  il  "pianeta Terra"?
+~           what is the  planet  Earth  
+
+[LINE]
+Speaker265: E   perché queste strane  persone sono su Zorflarg?
+~           and why    these  strange people  are  on ~        
+
+[LINE]
+Speaker889: Non~lo~so,    ma  lo~trovo  molto preoccupante.
+~           I~don't~know  but I~find~it very  worrying     
+
+[MULTIPLE_CHOICE]
+> Why are Graziella and Alberto concerned?
++ There are some strange people from Earth on their planet, Zorflarg.
+- There are aliens from Zorflarg running around.
+- They think their planet, Zorflarg, is too big.
+
+[MATCH]
+> Tap the pairs
+- è entrata in <> entered
+- Terra <> Earth
+- dietro di <> behind
+- Sono uscita <> I got out
+- qualcosa di <> something
+
