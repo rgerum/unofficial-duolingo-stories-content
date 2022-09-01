@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Cena di famiglia
+icon=076bc5bf725308c211b9c04f07d3622683e84d78
+set=5|2
+
+[HEADER]
+> Family~Dinner   
+~ cena~di~famiglia
+
+[LINE]
+> Lin walks into  Bea's~kitchen.
+~ Lin entra nella cucina~di~Bea 
+
+[LINE]
+> She~sees   food     and bottles         of wine on~the table. 
+~ (lei)~vede del~cibo e   delle~bottiglie di vino sul    tavolo 
+
+[MULTIPLE_CHOICE]
+> Ci sono delle bottiglie di latte sul tavolo della cucina di Bea.
++ No, è sbagliato.
+- Sì, è giusto.
+
+[LINE]
+Speaker508: Wow, you~have a~lot~of    food.
+~           wow  (tu)~hai un~sacco~di cibo 
+
+[LINE]
+Speaker507: Yeah. My     family   is~coming for dinner.
+~           sì    la~mia famiglia verrà     per cena   
+
+[LINE]
+Speaker508: Ooh, can~I~have       some      cake? 
+~           oh   (io)~posso~avere un~po'~di torta 
+
+[LINE]
+Speaker507: No.
+~           no 
+
+[LINE]
+Speaker508: But you~have three cakes.
+~           ma  (tu)~hai tre   torte 
+
+[ARRANGE]
+> Seleziona ciò che senti
+Speaker507: [(I~need)     (three) (cakes).]
+~             mi~servono   tre     torte   
+
+[LINE]
+Speaker508: Well, can~I~have       a  glass     of wine?
+~           beh   (io)~posso~avere un bicchiere di vino 
+
+[LINE]
+Speaker507: No.
+~           no 
+
+[LINE]
+Speaker508: You~have four    bottles   of wine.
+~           (tu)~hai quattro bottiglie di vino 
+
+[LINE]
+Speaker507: I~need   all~of the~wine.
+~           mi~serve tutto  il~vino  
+
+[POINT_TO_PHRASE]
+> Seleziona l'opzione che significa "fetta".
+Speaker508: Can~I~have       (a)   (+slice) (of) (pizza)?
+~           (io)~posso~avere  una    fetta   di   pizza  
+
+[LINE]
+Speaker507: No, Lin.
+~           no  Lin 
+
+[LINE]
+Speaker508: Fine.    So,     what~time~is dinner  with your   family   tonight?
+~           va~bene  allora  a~che~ora~è  la~cena con  la~tua famiglia stasera 
+
+[LINE]
+Speaker507: Oh, my~family       is~visiting next~week.            
+~           oh  la~mia~famiglia verrà       la~prossima~settimana 
+
+[MULTIPLE_CHOICE]
+> Aspetta… quando viene a cena la famiglia di Bea?
+- l'anno prossimo
++ la prossima settimana
+- stasera
+
+[LINE]
+Speaker507: This   is all   for me.
+~           questo è  tutto per me 
+
+[LINE]
+Speaker508: What?!
+~           cosa  
+
+[LINE]
+Speaker507: I~have  a   very~difficult~family!    I'm       stressed! 
+~           (io)~ho una famiglia~molto~difficile  (io)~sono stressata 
+
+[LINE]
+Speaker507: I~need   all~of this   food and wine now.   
+~           mi~serve tutto  questo cibo e   vino adesso 
+
+[MULTIPLE_CHOICE]
+> Perché Bea ha bisogno di così tanto cibo e vino?
+- Sua madre ha molta fame.
++ La sua famiglia la stressa.
+- Lo darà tutto a Lin.
+
+[MATCH]
+> Tocca le coppie
+- four <> quattro
+- pizza <> pizza
+- Fine <> va bene
+- into <> nella
+- No <> no
+
