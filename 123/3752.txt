@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=¿Gracias?
+icon=0e35077f2bf31284d5967e7096a66da10d0a9bdf
+set=4|3
+
+[HEADER]
+> Merci   ?
+~ gracias  
+
+[LINE]
+> Zari donne un cadeau à Lily.
+~ Zari le~da un regalo a Lily 
+
+[LINE]
+Speaker416: C'est~quoi ça   ?
+~           qué~es     esto  
+
+[LINE]
+Speaker418: Ouvre  !
+~           ábrelo  
+
+[LINE]
+> Lily ouvre le cadeau.
+~ Lily abre  el regalo 
+
+[LINE]
+Speaker416: C'est une chemise.
+~           es    una camisa  
+
+[LINE]
+Speaker418: Elle~est trop belle !
+~           es       tan  linda  
+
+[LINE]
+Speaker416: Elle~est rose.  
+~           es       rosada 
+
+[MULTIPLE_CHOICE]
+> Espera… ¿qué le dio Zari a Lily?
+- un par de zapatos azules
++ una camisa rosada
+- una bicicleta nueva
+
+[LINE]
+Speaker418: Oui, c'est ma couleur préférée.
+~           sí   es    mi color   favorito 
+
+[LINE]
+Speaker416: Et il~y~a un chat sur la chemise.
+~           y  hay    un gato en  la camisa  
+
+[LINE]
+Speaker418: J'adore     les chats !
+~           me~encantan los gatos  
+
+[LINE]
+Speaker416: Et le chat est  dans un avion…
+~           y  el gato está en   un avión 
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "gracioso".
+Speaker418: (Oui), (c'est) (très) (+drôle)    !
+~            sí     es      muy     gracioso   
+
+[LINE]
+Speaker418: C'est le cadeau d'anniversaire parfait. 
+~           es    el regalo de~cumpleaños  perfecto 
+
+[MULTIPLE_CHOICE]
+> Zari cree que la camisa es...
++ … el regalo de cumpleaños perfecto.
+- … demasiado fea para usarla.
+- … muy cara.
+
+[LINE]
+Speaker416: Zari, ce~n'est~pas mon anniversaire.
+~           Zari  no~es        mi  cumpleaños   
+
+[LINE]
+Speaker418: Je sais. Mais aujourd'hui, c'est mon anniversaire.
+~           yo sé    pero hoy          es    mi  cumpleaños   
+
+[LINE]
+Speaker416: Ah, oui…
+~           ah  sí  
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker418: Tu oublies~toujours [mon anniversaire].
+~           tú siempre~olvidas   mi  cumpleaños    
+- les chats
+~ los gatos
+- ta~voiture 
+~ tu~carro   
++ mon anniversaire
+~ mi  cumpleaños  
+
+[LINE]
+Speaker418: Mais maintenant, tu~peux me~donner cette chemise !
+~           pero ahora       puedes  darme     esta  camisa   
+
+[LINE]
+Speaker416: Euh… Merci   ?
+~           eh   gracias  
+
+[LINE]
+Speaker418: Non, merci   à toi !
+~           no   gracias a ti   
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Zari le dio la camisa a Lily?
++ Quería que Lily se la devolviera.
+- Hoy es el cumpleaños de Lily.
+- Lily tiene un gato que va en avión.
+
+[MATCH]
+> Selecciona los pares
+- oublies toujours <> siempre olvidas
+- une <> una
+- d'anniversaire <> de cumpleaños
+- Ouvre <> ábrelo
+- est <> está
+
