@@ -1,0 +1,161 @@
+[DATA]
+fromLanguageName=The Security Question
+icon=2a528e425da3567e3871137db71a04b56999887f
+set=33|4
+
+[HEADER]
+> La  question~secrète 
+~ the security~question
+
+[LINE]
+> Priti et  Vikram sont dans~la~rue.   Ils  marchent    vite.
+~ Priti and Vikram are  on~the~street  they are~walking fast 
+
+[LINE]
+Speaker560: Je suis tellement contente d'aller~voir cette pièce !
+~           I  am   so        happy    to~go~see    this  play   
+
+[LINE]
+Speaker593: Tu~as       les billets ?
+~           do~you~have the tickets  
+
+[LINE]
+Speaker560: Oh, non.
+~           oh  no  
+
+[LINE]
+> Priti s'arrête et  regarde dans son sac.
+~ Priti stops    and looks   in   her bag 
+
+[LINE]
+Speaker560: Je les~ai~oubliés à~la~maison.
+~           I  forgot~them    at~home     
+
+[MULTIPLE_CHOICE]
+> Uh oh! What's the problem?
+- Someone stole Priti's purse.
+- Priti doesn't want to see the play.
++ Priti forgot the tickets for the play.
+
+[LINE]
+Speaker593: Non ! Nous n'avons~plus~le~temps    d'aller les~chercher  !
+~           no    we   don't~have~any~more~time to~go   (to)~get~them  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker560: J'étais tellement heureuse... J'attendais     ça   [depuis~des~mois] !
+~           I~was   so        happy       I've~waited~for this  for~months        
+- depuis les lois
+- puis donne-les moi
++ depuis des mois
+
+[LINE]
+Speaker593: Attends ! J'ai   les billets sur mon téléphone !
+~           wait      I~have the tickets on  my  phone      
+
+[POINT_TO_PHRASE]
+> Choose the option that means “to log in.”
+Speaker593: Hmm… je (dois)    (+me~connecter), mais (j'ai~oublié) mon (mot~de~passe).
+~           hmm  I   have~to    (to)~log~in    but   I~forgot     my   password      
+
+[LINE]
+Speaker593: Je peux répondre~à  une question~secrète,  mais... 
+~           I  can  (to)~answer a   security~question  but     
+
+[LINE]
+Speaker560: Quoi ?
+~           what  
+
+[LINE]
+Speaker593: La  question est : « Quelle est la  date de naissance de votre frère   ? ».
+~           the question is    ~ what   is  the date of birth     of your  brother   ~ 
+
+[LINE]
+Speaker560: Et  ?
+~           and  
+
+[LINE]
+Speaker593: J'ai~oublié.
+~           I~forgot    
+
+[CONTINUATION]
+> What comes next?
+Speaker560: Tu  as~oublié la  date de naissance de [ton  frère   ?]!
+~           you forgot    the date of birth     of  your brother    
+- la  pièce
+~ the play 
+- mon sac
+~ my  bag
++ ton  frère  
+~ your brother
+
+[LINE]
+Speaker593: Je suis nul avec les~dates.
+~           I  am   bad with dates     
+
+[LINE]
+Speaker560: Appelle ton  frère   !
+~           call    your brother  
+
+[ARRANGE]
+> Tap what you hear
+Speaker593: [(Mais) (il~saura~que)      (j'ai~oublié) (sa)  (date~de~naissance) ]! 
+~             but    he~will~know~that   I~forgot      his   date~of~birth         
+
+[LINE]
+Speaker560: Tu~as~aussi~oublié  combien  ont~coûté~ces~billets ?
+~           did~you~also~forget how~much these~tickets~cost     
+
+[LINE]
+Speaker593: Bon,  d'accord, je vais     l'appeler.  
+~           well  OK        I  am~going to~call~him 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+> Vikram [appelle~son~frère] et  lui~demande sa  date de naissance.
+~ Vikram  calls~his~brother  and asks~him    his date of birth     
+- appelle son père
++ appelle son frère
+- épelle ton frère
+
+[LINE]
+Speaker593: Priti, c'est~bon ! J'ai   les billets !
+~           Priti  it's~fine   I~have the tickets  
+
+[CONTINUATION]
+> What comes next?
+Speaker560: Super ! Nous allons    pouvoir       voir     [cette pièce ]!
+~           great   we   are~going to~be~able~to (to)~see  this  play    
++ cette pièce
+~ this  play 
+- une fête~d'anniversaire
+~ a   birthday~party     
+- ton  frère  
+~ your brother
+
+[LINE]
+Speaker593: Euh… il~y~a   un problème. Les billets étaient pour hier.     
+~           uh   there~is a  problem   the tickets were    for  yesterday 
+
+[LINE]
+Speaker560: Quoi ?!
+~           what   
+
+[LINE]
+Speaker593: Je t'ai~dit que  j'étais nul avec les~dates.
+~           I  told~you that I~was   bad with dates     
+
+[MULTIPLE_CHOICE]
+> Vikram and Priti have the tickets, but…
++ …they are for last night's play.
+- …now Vikram's brother is coming too.
+- …Priti is too upset to watch the play.
+
+[MATCH]
+> Tap the pairs
+- vais <> am going
+- J'ai <> I have
+- Je <> I
+- lui demande <> asks him
+- Vikram <> Vikram
+
