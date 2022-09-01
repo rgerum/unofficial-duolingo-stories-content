@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=Um novo esporte
+icon=4779d731014382d1398621baf6c630efe3e344c0
+set=7|4
+
+[HEADER]
+> Un nuevo deporte
+~ um novo  esporte
+
+[LINE]
+> Eddy y Junior están en una tienda.
+~ Eddy e Junior estão em uma loja   
+
+[LINE]
+Speaker414: ¿Quieres practicar un nuevo deporte? ¡Qué bueno!
+~            queres  praticar  um novo  esporte   que bom   
+
+[LINE]
+Speaker414: ¿Quieres jugar~al baloncesto?
+~            queres  jogar    basquete   
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker415: No  me~gustan [los~deportes~con~pelotas].
+~           não gosto~dos  esportes~com~bolas        
+- los reportes con pelotas
++ los deportes con pelotas
+- los deportes con bellotas
+
+[LINE]
+Speaker414: ¡Esta raqueta de tenis es muy   bonita!
+~            esta raquete de tênis é  muito bonita 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker415: Necesitas   una pelota para [jugar~al tenis].
+~           precisas~de uma bola   para  jogar    tênis  
++ jugar~al tenis
+~ jogar    tênis
+- comer
+~ comer
+- una tienda
+~ uma loja  
+
+[LINE]
+Speaker414: Ah, sí.  Mmm… ¿Qué   puedes practicar?
+~           ah  sim  hum   o~que podes  praticar  
+
+[LINE]
+Speaker415: Yo quiero…
+~           eu quero  
+
+[LINE]
+Speaker414: ¡Nadar! ¡¿Quieres nadar?!
+~            nadar    queres  nadar  
+
+[LINE]
+Speaker415: No… 
+~           não 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker414: [(Pero) (es) (un~deporte) (sin) (pelotas).]
+~             mas    é    um~esporte   sem   bolas     
+
+[LINE]
+Speaker415: ¡Papá,  no! 
+~            papai  não 
+
+[LINE]
+Speaker414: Bueno, ¿qué   quieres hacer?
+~           bom     o~que queres  fazer 
+
+[LINE]
+> Junior mira unas zapatillas de ballet.
+~ Junior olha umas sapatilhas de balé   
+
+[MULTIPLE_CHOICE]
+> Ah! Parece que o Junior quer…
+- …jogar futebol.
+- …ir nadar.
++ …tentar dançar.
+
+[LINE]
+Speaker415: Yo quiero… bailar.
+~           eu quero   dançar 
+
+[LINE]
+Speaker414: ¡¿Quieres bailar?!
+~             queres  dançar  
+
+[LINE]
+Speaker415: Sí…  ¿Es un problema?
+~           sim   é  um problema 
+
+[LINE]
+Speaker414: ¡No!  ¡Bailar también es un deporte!
+~            não   dançar também  é  um esporte 
+
+[LINE]
+> Eddy empieza a bailar en~la tienda.
+~ Eddy começa  a dançar na    loja   
+
+[LINE]
+Speaker415: Papá,  para de bailar, por favor.
+~           papai  para de dançar  por favor 
+
+[MULTIPLE_CHOICE]
+> O Junior quer que o pai dele pare de…
+- …cantar.
++ …dançar.
+- …comprar coisas.
+
+[MATCH]
+> Toque nos pares
+- Necesitas <> precisas de
+- unas <> umas
+- baloncesto <> basquete
+- para <> para
+- es <> é
+
