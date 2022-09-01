@@ -1,0 +1,129 @@
+[DATA]
+fromLanguageName=Desenhando no parque
+icon=96fd9b652456a41bca2912838b14cb5bd9f7827a
+set=12|2
+
+[HEADER]
+> Dibujando  en~el parque
+~ desenhando no    parque
+
+[LINE]
+> Gustavo lleva~a su~perro        al parque todos los días.
+~ Gustavo leva    o~cachorro~dele ao parque todos os  dias 
+
+[LINE]
+> Y todos los días ve~a Lily dibujando  en~el parque.
+~ e todos os  dias vê   Lily desenhando no    parque 
+
+[LINE]
+> Un día, él  decide hablar con ella.
+~ um dia  ele decide falar  com ela  
+
+[LINE]
+Speaker1321: ¡Hola!
+~             olá  
+
+[LINE]
+Speaker416: Ah, hola.
+~           ah  olá  
+
+[LINE]
+Speaker1321: ¿Te~puedo hacer una pregunta?
+~             posso~te fazer uma pergunta 
+
+[LINE]
+Speaker416: ¿Qué?  
+~            o~quê 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker1321: Te veo  dibujar  [todos los días].
+~            te vejo desenhar  todos os  dias  
+- en~el lago
+~ no    lago
+- en mis  zapatos
+~ em meus sapatos
++ todos los días
+~ todos os  dias
+
+[LINE]
+Speaker416: Sí… 
+~           sim 
+
+[LINE]
+Speaker1321: ¿Qué   dibujas? 
+~             o~que desenhas 
+
+[LINE]
+Speaker416: ¡Muchas cosas! 
+~            muitas coisas 
+
+[LINE]
+Speaker416: Dibujo  cosas  que creo que son interesantes  o  bonitas.
+~           desenho coisas que acho que são interessantes ou bonitas 
+
+[LINE]
+Speaker1321: Muy   bien.
+~            muito bem  
+
+[ARRANGE]
+> Toque no que escutar
+Speaker1321: ¿[(Qué)   (estás) (dibujando)  (ahora)?]
+~               o~que   estás   desenhando   agora   
+
+[LINE]
+Speaker416: Es un… secreto.
+~           é  um  segredo 
+
+[LINE]
+Speaker1321: ¿Por qué?
+~             por quê 
+
+[MULTIPLE_CHOICE]
+> O Gustavo quer saber por que…
++ …a Lily não quer dizer o que está desenhando.
+- …há tantas pessoas no parque.
+- …a Lily está desenhando com os dentes.
+
+[LINE]
+Speaker416: Tú vienes al parque todos los días.
+~           tu vens   ao parque todos os  dias 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker1321: [Me~estás~dibujando], ¿verdad?
+~             está~me~desenhando    não~é  
+- Tú estás caminando
++ Me estás dibujando
+- Le estás rebajando
+
+[LINE]
+Speaker1321: Bueno, tú~también~me~gustas. 
+~            bom    eu~também~gosto~de~ti 
+
+[LINE]
+Speaker416: Ah… no,  no  te~estoy~dibujando~a~ti.
+~           ah  não  não estou~desenhando~a~ti   
+
+[LINE]
+Speaker1321: Ah…
+~            ah 
+
+[LINE]
+Speaker416: ¡Estoy dibujando~a tu    perro!    ¡Es muy   bonito! ¡Mira!
+~            estou desenhando  o~teu cachorro   é  muito bonito   olha 
+
+[MULTIPLE_CHOICE]
+> O Gustavo pensou que…
++ …a Lily estava desenhando um retrato dele.
+- …o cachorro dele tinha fugido.
+- …a Lily tinha poderes mágicos.
+
+[MATCH]
+> Toque nos pares
+- que <> que
+- Muy <> muito
+- su perro <> o cachorro dele
+- en el <> no
+- perro <> cachorro
+
