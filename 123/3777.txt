@@ -1,0 +1,103 @@
+[DATA]
+fromLanguageName=Día de descanso
+icon=5450714ebd6e5c59daf764d85a8fc7f9edb1c23a
+set=10|4
+
+[HEADER]
+> Jour de repos   
+~ día  de descanso
+
+[LINE]
+> Vikram prépare du~thé dans la cuisine.
+~ Vikram prepara té     en   la cocina  
+
+[LINE]
+> Sa femme,  Priti, arrive dans la pièce.     
+~ su esposa  Priti  llega  a    la habitación 
+
+[LINE]
+Speaker560: Bonjour,     Vikram !
+~           buenos~días  Vikram  
+
+[LINE]
+Speaker593: Priti ? Pourquoi tu~es à~la~maison ? On~est mardi. 
+~           Priti   por~qué  estás en~casa       es     martes 
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "día de descanso".
+Speaker560: Je (ne~travaille~pas) (aujourd'hui), (j'ai)  un (+jour~de~repos)   !
+~           yo  no~trabajo         hoy            tengo  un   día~de~descanso   
+
+[LINE]
+Speaker560: Je vais  faire beaucoup~de choses, c'est super  !
+~           yo voy~a hacer muchas      cosas   es    genial  
+
+[LINE]
+> Priti va au parc.  
+~ Priti va al parque 
+
+[LINE]
+> Après,   elle va au musée.
+~ después  ella va al museo 
+
+[MULTIPLE_CHOICE]
+> Priti fue...
+- …a un museo y al cine.
+- …al trabajo.
++ …a un parque y a un museo.
+
+[LINE]
+> Priti rentre  chez~elle, et va   lire dans le jardin.
+~ Priti regresa a~casa     y  va~a leer en   el jardín 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker593: Ça~va,      chérie ? Tu passes         [une~bonne~journée] ?
+~           estás~bien  cariño   tú estás~teniendo  un~buen~día         
+- une bonne tournée
++ une bonne journée
+- une tonne de dés
+
+[LINE]
+Speaker560: Oui ! Je vais  préparer le~dîner maintenant.
+~           sí    yo voy~a preparar la~cena  ahora      
+
+[LINE]
+Speaker593: Le~dîner ? Mais il~est~quatorze~heures... 
+~           la~cena    pero son~las~dos~de~la~tarde   
+
+[LINE]
+Speaker560: Quatorze~heures ? Il~est tôt      ! Je~vais~faire~quoi maintenant ?
+~           las~dos           es     temprano   qué~voy~a~hacer    ahora       
+
+[LINE]
+Speaker593: Tu~t'assieds et tu~te~reposes !
+~           te~sientas   y  descansas      
+
+[MULTIPLE_CHOICE]
+> Vikram quiere que Priti se levante.
+- Sí, así es.
++ No, no es así.
+
+[LINE]
+> Priti s'assied  cinq  minutes.
+~ Priti se~sienta cinco minutos 
+
+[LINE]
+Speaker560: Ce   n'est~pas amusant...   Je~vais au travail !
+~           esto no~es     divertido    me~voy  al trabajo  
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Priti decidió ir al trabajo después de todo?
+- No quería preparar la cena.
+- Recordó que tenía mucho que hacer.
++ Se aburre cuando descansa.
+
+[MATCH]
+> Selecciona los pares
+- cuisine <> cocina
+- arrive <> llega
+- prépare <> prepara
+- minutes <> minutos
+- Pourquoi <> por qué
+
