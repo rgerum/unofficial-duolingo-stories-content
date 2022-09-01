@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=A promoção
+icon=86aeb2f8135a55e49ebe8c6da5e13efdcde38d01
+set=15|1
+
+[HEADER]
+> La promoción
+~ a  promoção 
+
+[LINE]
+> El jefe  de Bea va~a hablar con ella.
+~ o  chefe de Bea vai  falar  com ela  
+
+[LINE]
+Speaker2144: Hola, Bea. ¿Tienes un minuto para hablar de Carlos?
+~            olá   Bea   tens   um minuto para falar  do Carlos 
+
+[LINE]
+Speaker507: Eh… sí,  por~supuesto.
+~           eh  sim  claro        
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker2144: ¿[Te~gusta~trabajar]      con él? 
+~              tu~gostas~de~trabalhar  com ele 
++ Te gusta trabajar
+- Te gusta dibujar
+- Te gustará bajar
+
+[LINE]
+Speaker507: ¿Con Carlos?   Eh…
+~            com o~Carlos  eh 
+
+[LINE]
+Speaker507: Él  es… simpático.
+~           ele é   simpático 
+
+[LINE]
+Speaker507: Pero él…  eh…
+~           mas  ele  eh 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker507: ¡Carlos   siempre llega tarde y yo tengo que hacer [su~trabajo]!     
+~            o~Carlos sempre  chega tarde e eu tenho que fazer  o~trabalho~dele  
+- su~almuerzo  
+~ o~almoço~dele
+- su~cama    
+~ a~cama~dele
++ su~trabajo     
+~ o~trabalho~dele
+
+[LINE]
+Speaker507: Él  me dice cómo tengo que hacer las cosas. 
+~           ele me diz  como tenho que fazer as  coisas 
+
+[LINE]
+Speaker507: Y, la~semana pasada,  ¡se~comió mi  almuerzo!
+~           e  semana    passada   comeu    meu almoço   
+
+[ARRANGE]
+> Toque no que escutar
+Speaker507: [(Carlos)   (es) (el) (peor).]
+~             o~Carlos   é    o    pior   
+
+[LINE]
+Speaker2144: ¿Ah, sí?  Y yo pensé  en darle~una~promoción.
+~             ah  sim  e eu pensei em promovê-lo          
+
+[MULTIPLE_CHOICE]
+> O chefe da Bea estava pensando em promover o Carlos.
++ Sim, isso mesmo.
+- Não, não é isso.
+
+[LINE]
+Speaker2144: El trabajo  es en otra~oficina     y tenemos que encontrar~a la persona correcta.
+~            o  trabalho é  em outro~escritório e temos   que encontrar   a  pessoa  correta  
+
+[LINE]
+Speaker507: Un momento… ¿El trabajo  es en otra~oficina?    
+~           um momento   o  trabalho é  em outro~escritório 
+
+[LINE]
+Speaker507: ¡Carlos   es perfecto!
+~            o~Carlos é  perfeito 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "disseste".
+Speaker2144: (Pero) (+dijiste)  (que) era     el (peor).
+~             mas     disseste   que  ele~era o   pior  
+
+[LINE]
+Speaker507: ¿Qué?   ¡Por~supuesto que no! 
+~            o~quê   claro        que não 
+
+[LINE]
+Speaker2144: Tú dijiste  que él  siempre llega tarde.
+~            tu disseste que ele sempre  chega tarde 
+
+[LINE]
+Speaker507: Eh… ¡no!  Yo dije  que él  nunca llega tarde.
+~           eh   não  eu disse que ele nunca chega tarde 
+
+[LINE]
+Speaker507: ¡Carlos   es la persona perfecta para este trabajo  en~la~otra~oficina! 
+~            o~Carlos é  a  pessoa  perfeita para este trabalho no~outro~escritório 
+
+[MULTIPLE_CHOICE]
+> Por que a Bea quer que o Carlos seja promovido?
+- Eles são melhores amigos.
+- Ela acha que ele é um excelente funcionário.
++ Ela quer que ele trabalhe em outro escritório.
+
+[MATCH]
+> Toque nos pares
+- perfecta <> perfeita
+- Qué <> o quê
+- él <> ele
+- para <> para
+- yo <> eu
+
