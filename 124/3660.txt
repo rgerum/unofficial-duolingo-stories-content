@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=Problème de pâtes
+icon=9a8e4c90ef30a62e59cf23d4265247e2655c4cec
+set=24|1
+
+[HEADER]
+> Pasta~Problem    
+~ problème~de~pâtes
+
+[LINE]
+> Bea is~eating pasta     at   a  restaurant in Rome. A  waiter  walks~past   her table.
+~ Bea mange     des~pâtes dans un restaurant à  Rome  un serveur passe~devant sa  table 
+
+[LINE]
+Speaker507: Excuse~me!   There's a  problem  with my  pasta.
+~           excusez-moi  il~y~a  un problème avec mes pâtes 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker385: That's~not   possible. That's [our~most~popular~dish]!       
+~           ce~n'est~pas possible  c'est   notre~plat~le~plus~populaire  
+- our most popular wish
++ our most popular dish
+- your most popular fish
+
+[LINE]
+Speaker507: Did~the~recipe~change?     
+~           la~recette~a-t-elle~changé 
+
+[LINE]
+Speaker385: No!  Our   recipe  hasn't~changed in fifty     years!
+~           non  notre recette n'a~pas~changé en cinquante ans   
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker507: Well,    I~ate      this~pasta here seven~years~ago, and now        [it~tastes         different].
+~           eh~bien  j'ai~mangé ces~pâtes  ici  il~y~a~sept~ans  et  maintenant  elles~ont~un~goût différent  
+- I~need         glasses 
+~ j'ai~besoin~de lunettes
++ it~tastes         different
+~ elles~ont~un~goût différent
+- I  work      here
+~ je travaille ici 
+
+[LINE]
+Speaker385: Seven years is~a~long~time. Maybe         you're    different. 
+~           sept  ans   c'est~long      peut-être~que vous~êtes différente 
+
+[LINE]
+Speaker507: Hmm… I~was   younger    then.       Everything was   new     and exciting.   
+~           hmm  j'étais plus~jeune à~l'époque  tout       était nouveau et  passionnant 
+
+[LINE]
+Speaker385: OK… 
+~           oui 
+
+[LINE]
+Speaker507: I'm     a~lot    more serious  now.       
+~           je~suis beaucoup plus sérieuse maintenant 
+
+[LINE]
+Speaker507: But  I'm     also  more responsible and intelligent. 
+~           mais je~suis aussi plus responsable et  intelligente 
+
+[LINE]
+Speaker507: You're~right.     I've~changed~a~lot!   Thanks!
+~           vous~avez~raison  j'ai~beaucoup~changé  merci  
+
+[MULTIPLE_CHOICE]
+> Pourquoi Bea a-t-elle remercié le serveur ?
+- Il lui a donné la recette du plat de pâtes.
+- Il lui a dit qu'elle était responsable et intelligente.
++ Il l'a aidée à se rendre compte combien elle avait changé.
+
+[LINE]
+Speaker385: You're~welcome. 
+~           je~vous~en~prie 
+
+[LINE]
+Speaker507: What~happened    to~the waiter  who worked      here seven~years~ago?
+~           qu'est-il~arrivé au     serveur qui travaillait ici  il~y~a~sept~ans 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « des lunettes de soleil ».
+Speaker507: He (had)   (+sunglasses)             (and) a   (mustache). 
+~           il  avait    des~lunettes~de~soleil   et   une  moustache  
+
+[LINE]
+Speaker385: That's Antonio.
+~           c'est  Antonio 
+
+[LINE]
+Speaker507: Does~he~still~work    here?
+~           travaille-t-il~encore ici  
+
+[LINE]
+Speaker385: No,  he never~worked         here.
+~           non  il n'a~jamais~travaillé ici  
+
+[LINE]
+Speaker385: He works     at   the restaurant across~the~street.
+~           il travaille dans le  restaurant d'en~face         
+
+[LINE]
+Speaker507: Oh…
+~           oh 
+
+[MULTIPLE_CHOICE]
+> On dirait que...
+- … Bea a le même serveur qu'il y a sept ans.
++ … Bea est dans le mauvais restaurant.
+- … Bea porte des lunettes de soleil et une moustache.
+
+[LINE]
+> Later,     Bea is~eating the same pasta~dish    in   the restaurant across~the~street.
+~ plus~tard  Bea mange     le  même plat~de~pâtes dans le  restaurant d'en~face         
+
+[LINE]
+Speaker507: Yeah,  this tastes~exactly~the~same.  
+~           ouais  ça   a~exactement~le~même~goût 
+
+[LINE]
+Speaker507: That's sad.    Maybe         I  haven't~changed.
+~           c'est  triste  peut-être~que je n'ai~pas~changé 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Bea pense-t-elle qu'elle n'a pas changé ?
+- Elle a oublié quel goût avaient les pâtes.
+- Le serveur a enlevé ses lunettes de soleil.
++ Le plat de pâtes a le même goût en fin de compte.
+
+[MATCH]
+> Choisis les paires
+- hasn't changed <> n'a pas changé
+- same <> même
+- table <> table
+- No <> non
+- now <> maintenant
+
