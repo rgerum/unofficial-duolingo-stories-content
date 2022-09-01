@@ -1,0 +1,151 @@
+[DATA]
+fromLanguageName=O grande jogo
+icon=170e9caad206d87350e17e32c18226edefea8131
+set=16|3
+
+[HEADER]
+> The Big    Game
+~ o   grande jogo
+
+[LINE]
+> Bea arrives~at her~friend~Justin's~house. 
+~ Bea chega~na   casa~do~amigo~dela,~Justin 
+
+[LINE]
+Speaker507: Are~you~ready?   
+~           você~está~pronto 
+
+[LINE]
+Speaker507: This is the~most~exciting~soccer~game      of~the year!
+~           este é  o~jogo~de~futebol~mais~emocionante do     ano  
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker507: And [we~have~tickets]!    
+~           e    nós~temos~ingressos  
++ we have tickets
+- even tickets
+- we have taken
+
+[LINE]
+Speaker295: Bea…
+~           Bea 
+
+[LINE]
+Speaker295: I  can't~go     to   the game.
+~           eu não~posso~ir para o   jogo 
+
+[LINE]
+Speaker507: What? 
+~           o~quê 
+
+[LINE]
+Speaker295: I  need~to~study.  
+~           eu preciso~estudar 
+
+[LINE]
+Speaker295: I  have  a   really~important~exam  tomorrow.
+~           eu tenho uma prova~muito~importante amanhã   
+
+[LINE]
+Speaker295: I  need~to~pass~the~exam   to~go   to     medical~school.       
+~           eu preciso~passar~na~prova para~ir para~a faculdade~de~medicina 
+
+[MULTIPLE_CHOICE]
+> Por que o Justin não pode ir ao jogo?
+- Ele perdeu a camiseta da sorte dele.
++ Ele precisa estudar para uma prova importante.
+- Ele precisa ir ao médico.
+
+[LINE]
+Speaker295: I'm~sorry…
+~           desculpa  
+
+[LINE]
+> Bea takes~off her~coat.     
+~ Bea tira      o~casaco~dela 
+
+[MULTIPLE_CHOICE]
+> Ou seja, a Bea…
+- …rouba o casaco do Justin.
+- …coloca o casaco dela.
++ …tira o casaco dela.
+
+[LINE]
+Speaker507: OK,    do~you~have any   coffee?
+~           certo  você~tem    algum café   
+
+[LINE]
+Speaker295: Why?    
+~           por~quê 
+
+[LINE]
+Speaker507: Well, I  don't~want to~be tired.  
+~           bem   eu não~quero  ficar cansada 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker507: We're~going~to~study [all~night].   
+~           nós~vamos~estudar     a~noite~toda  
++ all~night   
+~ a~noite~toda
+- the tickets  
+~ os  ingressos
+- a   soccer~ball    
+~ uma bola~de~futebol
+
+[LINE]
+Speaker295: But…
+~           mas 
+
+[LINE]
+Speaker507: You  help~me  often.         
+~           você me~ajuda frequentemente 
+
+[LINE]
+Speaker507: Of~course   I'm~going~to~help you  now.  
+~           é~claro~que eu~vou~ajudar     você agora 
+
+[LINE]
+Speaker295: But it's the~most~exciting~game  of~the year…
+~           mas é    o~jogo~mais~emocionante do     ano  
+
+[ARRANGE]
+> Toque no que escutar
+Speaker507: [(You're) (more~important)  (than)   (a)  (game).]
+~             você~é   mais~importante   do~que   um   jogo   
+
+[LINE]
+Speaker507: And you  will~pass~this   exam! 
+~           e   você vai~passar~nessa prova 
+
+[LINE]
+Speaker507: And when~you're     a~doctor…   
+~           e   quando~você~for (um)~médico 
+
+[LINE]
+Speaker507: … you're~going~to~buy the soccer~tickets,       right?
+~             você~vai~comprar    os  ingressos~do~futebol  certo 
+
+[LINE]
+Speaker295: Of~course, Bea.
+~           é~claro    Bea 
+
+[LINE]
+Speaker507: Now   where's~the~coffee?
+~           agora cadê~o~café        
+
+[MULTIPLE_CHOICE]
+> A Bea decidiu…
+- …se matricular na faculdade de medicina.
++ …não ir ao jogo e ajudar o Justin a estudar.
+- …convidar outro amigo para ir ao jogo.
+
+[MATCH]
+> Toque nos pares
+- can't go <> não posso ir
+- I'm sorry <> desculpa
+- any <> algum
+- have <> tenho
+- where's the coffee <> cadê o café
+
