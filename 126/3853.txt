@@ -1,0 +1,95 @@
+[DATA]
+fromLanguageName=Os macacos
+icon=c29e4533eca0186f83adafac9383fef2ed3aee56
+set=12|2
+
+[HEADER]
+> The Monkeys
+~ os  macacos
+
+[LINE]
+> Eddy and Junior are   at~the zoo.      
+~ Eddy e   Junior estão no     zoológico 
+
+[LINE]
+> They are~looking~at     the lions.
+~ eles estão~olhando~para os  leões 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker415: Dad,   [can~we~see]      the monkeys now?  
+~           papai   nós~podemos~ver  os  macacos agora 
++ can we see
+- can we be
+- can she see
+
+[LINE]
+Speaker414: But you  never want to~see the monkeys.
+~           mas você nunca quer ver    os  macacos 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker415: I  really    like  [the   monkeys now]!  
+~           eu realmente gosto  (d)os macacos agora  
+- potatoes    
+~ (de)~batatas
++ the   monkeys now  
+~ (d)os macacos agora
+- your~new~shirt      
+~ (da)~sua~camisa~nova
+
+[LINE]
+Speaker415: Can~we~see      them?
+~           nós~podemos~ver eles 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker414: Junior, the monkeys are   [on~the~other~side] of~the zoo!      
+~           Junior  os  macacos estão  do~outro~lado      do     zoológico 
++ on the other side
+- on the others' ride
+- and the mothers lied
+
+[LINE]
+Speaker415: We  can~run.        You  love exercise. 
+~           nós podemos~correr  você ama  exercício 
+
+[LINE]
+Speaker414: Hmm. OK!    Yes, I  love to~run!
+~           hmm  certo  sim  eu amo  correr 
+
+[ARRANGE]
+> Toque no que escutar
+> [(Junior) (and) (Eddy) (start~running).]   
+~   Junior   e     Eddy   começam~a~correr   
+
+[LINE]
+Speaker415: Can~you~run      faster,      Dad?  
+~           você~pode~correr mais~rápido  papai 
+
+[LINE]
+Speaker414: Wait.   Junior, why     are~we~running?       You  hate~running!
+~           espere  Junior  por~que nós~estamos~correndo  você odeia~correr 
+
+[LINE]
+Speaker415: I  hate~running, but I  love ice~cream!
+~           eu odeio~correr  mas eu amo  sorvete   
+
+[LINE]
+Speaker415: And there's an  ice~cream~shop next~to~the monkeys!
+~           e   há      uma sorveteria     perto~dos   macacos 
+
+[MULTIPLE_CHOICE]
+> Por que o Junior corre para ver os macacos?
++ Ele quer tomar um sorvete.
+- Ele está treinando para uma corrida contra um macaco.
+- Ele quer entrar em forma.
+
+[MATCH]
+> Toque nos pares
+- Hmm <> hmm
+- you <> você
+- can we see <> nós podemos ver
+- Can you run <> você pode correr
+- want <> quer
+
