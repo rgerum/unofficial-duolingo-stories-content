@@ -1,0 +1,98 @@
+[DATA]
+fromLanguageName=La cocina está muy sucia
+icon=0e6ab8c3a4e3224cb700e8daeac0038f7f0e929e
+set=8|3
+
+[HEADER]
+> La cuisine est  très sale 
+~ la cocina  está muy  sucia
+
+[LINE]
+> Béa va   chez       son amie,  Deb.
+~ Béa va~a la~casa~de su  amiga  Deb 
+
+[LINE]
+Speaker507: Salut, Deb ! Ça~va      ?
+~           hola   Deb   estás~bien  
+
+[LINE]
+Speaker175: Non !
+~           no   
+
+[LINE]
+Speaker507: Oh, pourquoi ?
+~           ah  por~qué   
+
+[LINE]
+Speaker175: Ma nouvelle colocataire         est horrible.
+~           mi nueva    compañera~de~cuarto es  terrible 
+
+[MULTIPLE_CHOICE]
+> Deb cree que su nueva compañera de cuarto es muy simpática.
+- Sí, así es.
++ No, no es así.
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "sucia".
+Speaker507: Oui, je (peux)  (voir) ça  ! La cuisine est  (très) (+sale). 
+~           sí   yo  puedo   ver   eso   la cocina  está  muy     sucia  
+
+[LINE]
+Speaker175: Je sais…
+~           yo sé   
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker507: Beurk, ce    sont des~vieilles~bananes [sur~la~table]  ?
+~           puaj   estas son  bananas~viejas        sobre~la~mesa   
+- sans la table
++ sur la table
+- sur le sable
+
+[LINE]
+Speaker175: Oui.
+~           sí  
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker507: [(Et) (il~y~a) (des~vêtements~sales) (sur)   (les~chaises) ]!
+~             y    hay      ropa~sucia            sobre   las~sillas     
+
+[LINE]
+Speaker507: Mais… c'est ton T-shirt  !
+~           pero  es    tu  camiseta  
+
+[LINE]
+Speaker175: Oui.
+~           sí  
+
+[LINE]
+Speaker507: Ce   sont~tes~vêtements !
+~           esta es~tu~ropa          
+
+[LINE]
+Speaker507: Et ce    sont tes bananes ?!
+~           y  estas son  tus bananas   
+
+[LINE]
+Speaker175: Oui ! Je~n'aime~pas nettoyer, et ma colocataire         ne~nettoie~pas pour moi.
+~           sí    no~me~gusta   limpiar   y  mi compañera~de~cuarto no~limpia      por  mí  
+
+[LINE]
+Speaker175: Elle est horrible !
+~           ella es  terrible  
+
+[MULTIPLE_CHOICE]
+> ¡Ajá! ¿Por qué Deb cree que su compañera de cuarto es terrible?
++ No limpia el desorden de Deb.
+- Siempre compra bananas viejas.
+- Usa toda la ropa de Deb.
+
+[MATCH]
+> Selecciona los pares
+- Elle <> ella
+- colocataire <> compañera de cuarto
+- T-shirt <> camiseta
+- des vieilles bananes <> bananas viejas
+- ne nettoie pas <> no limpia
+
