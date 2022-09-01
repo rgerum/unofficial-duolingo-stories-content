@@ -1,0 +1,147 @@
+[DATA]
+fromLanguageName=Das Büro des Managers
+icon=5e30e8550b553e3eab1690b49a538c688e556e50
+set=22|3
+
+[HEADER]
+> The Manager's~Office 
+~ das Büro~des~Managers
+
+[LINE]
+> Bea was   asked   to~go~to~the~manager's~office.    
+~ Bea wurde gebeten in~das~Büro~des~Managers~zu~gehen 
+
+[LINE]
+Speaker2144: Sit~down.        I'd~like         to~talk~to~you     about~something.
+~            setzen~Sie~sich  ich~möchte~gerne sprechen~mit~ihnen über~etwas      
+
+[LINE]
+Speaker507: Did   you get~that~report      I         put~on~your~desk?                  
+~           haben Sie den~Bericht~bekommen (den)~ich auf~Ihren~Schreibtisch~gelegt~habe 
+
+[LINE]
+Speaker2144: Yes. I   got~all~three~reports.            There were  a~lot~of details.
+~            ja   ich habe~alle~drei~Berichte~bekommen  da    waren viele    Details 
+
+[MULTIPLE_CHOICE]
+> Bea hat dem Manager …
++ … drei sehr ausführliche Berichte gegeben.
+- … drei neue Stühle für sein Büro gegeben.
+- … einen neuen Schreibtisch gegeben.
+
+[LINE]
+Speaker507: And did   you like~my~presentation       at~the meeting today?
+~           und haben Sie meine~Präsentation~gemocht im     Meeting heute 
+
+[LINE]
+Speaker2144: It  was very interesting.
+~            sie war sehr interessant 
+
+[LINE]
+Speaker507: Did   you try~the~cake        I         brought          for~Brenda's~birthday? 
+~           haben Sie den~Kuchen~probiert (den)~ich mitgebracht~habe für~Brendas~Geburtstag 
+
+[LINE]
+Speaker2144: Yes! It was delicious.
+~            ja   er war köstlich  
+
+[MULTIPLE_CHOICE]
+> Beas Manager mochte den Kuchen, den sie mitgebracht hat.
+- Nein, das ist falsch.
++ Ja, das ist richtig.
+
+[LINE]
+Speaker507: Also,     I'm~sorry       I~was~late             yesterday.
+~           außerdem  es~tut~mir~leid (dass)~ich~zu~spät~war gestern   
+
+[LINE]
+Speaker2144: You were  late?     
+~            Sie waren (zu)~spät 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker507: I   will  never be~late~again!       I'll      be~here~early  [every morning]!
+~           ich werde nie   wieder~zu~spät~sein  ich~werde früh~hier~sein  jeden Morgen   
++ every morning
+~ jeden Morgen 
+- at     night
+~ in~der Nacht
+- never
+~ nie  
+
+[LINE]
+Speaker2144: Please don't~do~that.    
+~            bitte  tun~Sie~das~nicht 
+
+[LINE]
+Speaker507: I'll      also     stay~at~work~late.           Every day!
+~           ich~werde außerdem spät~auf~der~Arbeit~bleiben  jeden Tag 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker2144: Again,       please [don't~do~that].    
+~            noch~einmal  bitte   tun~Sie~das~nicht  
++ don't do that
+- won't do that
+- don't you bat
+
+[LINE]
+Speaker507: Why?  
+~           warum 
+
+[LINE]
+Speaker2144: Because you don't~work~here.    
+~            weil    Sie hier~nicht~arbeiten 
+
+[MULTIPLE_CHOICE]
+> Oha! Was haben wir gerade herausgefunden?
++ Bea arbeitet dort eigentlich gar nicht.
+- Bea ist die neue Managerin.
+- Der Manager hasst Beas Kuchen.
+
+[LINE]
+Speaker507: Oh… is  that a~problem?  
+~           oh  ist das  ein~Problem 
+
+[LINE]
+Speaker2144: Yes. Who~are~you? 
+~            ja   wer~sind~Sie 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker507: I'm     Bea, and I'm     [a~very~hard~worker].           
+~           ich~bin Bea  und ich~bin  eine~sehr~fleißige~Arbeiterin  
+- a very hard walker
++ a very hard worker
+- a dairy farm worker
+
+[LINE]
+Speaker2144: Nice to~meet~you,        Bea.
+~            nett Sie~kennenzulernen  Bea 
+
+[LINE]
+Speaker507: Can  I   give~you~my~resume?           
+~           kann ich Ihnen~meinen~Lebenslauf~geben 
+
+[LINE]
+Speaker2144: If   I   look~at~your~resume,         will   you leave?   
+~            wenn ich mir~Ihren~Lebenslauf~ansehe  werden Sie weggehen 
+
+[LINE]
+Speaker507: OK!
+~           OK 
+
+[MULTIPLE_CHOICE]
+> Warum will Bea dem Manager ihren Lebenslauf geben?
+- Sie will früher nach Hause gehen.
+- Sie will eine Beförderung.
++ Sie will einen Job bei der Firma.
+
+[MATCH]
+> Wähle die Paare
+- details <> Details
+- I was late <> ich zu spät war
+- I <> ich
+- never <> nie
+- that <> das
+
