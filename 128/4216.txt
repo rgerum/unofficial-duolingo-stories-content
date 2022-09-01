@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=Xem tranh tớ đi! 
+icon=b4a0fb96a3bb2af295051d49d3c112c4c91779e6
+set=13|3
+
+[HEADER]
+> Look~at My~Painting 
+~ hãy~xem tranh~của~tớ
+
+[LINE]
+> Eddy walks~into Oscar's~apartment.
+~ Eddy bước~vào   căn~hộ~của~Oscar  
+
+[LINE]
+> Eddy is~carrying a   painting. 
+~ Eddy đang~cầm    một bức~tranh 
+
+[LINE]
+Speaker592: What~is~that, Eddy?
+~           cái~gì~đấy    Eddy 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker414: It's  [my~first~painting]!   
+~           nó~là  tranh~đầu~tay~của~tớ  
+- my fast painting
++ my first painting
+- my first printing
+
+[LINE]
+Speaker414: Can~you~look~at~it?      
+~           cậu~xem~hộ~tớ~được~không 
+
+[LINE]
+Speaker592: No.   
+~           không 
+
+[LINE]
+Speaker414: But   you're an~art~teacher.    
+~           nhưng cậu~là giáo~viên~mỹ~thuật 
+
+[MULTIPLE_CHOICE]
+> Eddy muốn…
+- …dạy mỹ thuật cho Oscar.
++ …Oscar xem tranh anh ấy vẽ.
+- …Oscar vẽ tranh cho anh ấy.
+
+[LINE]
+Speaker592: Yes,  and I~am   very honest.    
+~           phải  và  tớ~thì rất  thẳng~thắn 
+
+[LINE]
+Speaker414: Good.    
+~           tốt~thôi 
+
+[LINE]
+Speaker592: And you will~cry.        
+~           và  cậu chắc~sẽ~khóc~mất 
+
+[MULTIPLE_CHOICE]
+> Khoan đã! Vì sao Oscar lại nói Eddy sẽ khóc?
++ Nếu Oscar không thích bức tranh thì anh ấy sẽ nói thẳng.
+- Oscar sẽ kể một câu chuyện rất buồn.
+- Bức tranh của Oscar đẹp tuyệt vời.
+
+[LINE]
+Speaker414: But   I  want to~know if                the~painting~is good.
+~           nhưng tớ muốn biết    liệu~có…hay~không bức~tranh       đẹp  
+
+[LINE]
+Speaker592: It's~not good.
+~           nó~không đẹp  
+
+[LINE]
+Speaker414: How~do~you~know?
+~           sao~cậu~biết    
+
+[LINE]
+Speaker592: You are~not       an~artist. And it's  your~first~painting.  
+~           cậu không~phải~là họa~sĩ     và  nó~là tranh~đầu~tay~của~cậu 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker592: [(First~paintings) (are) (never)            (good).]
+~             tranh~đầu~tay     thì   không~bao~giờ…cả   đẹp    
+
+[LINE]
+Speaker414: Please, look~at~it.     
+~           đi~mà   hãy~xem~(nó)~đi 
+
+[LINE]
+Speaker414: Please,       Oscar.
+~           làm~ơn~đi~mà  Oscar 
+
+[LINE]
+Speaker592: Fine.          I'll  look~at~it.
+~           thôi~được~rồi  tớ~sẽ xem~(nó)   
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+> Oscar looks~at [the~painting].
+~ Oscar nhìn      bức~tranh     
++ the~painting
+~ bức~tranh   
+- the~apartment
+~ căn~hộ       
+- Eddy crying
+~ Eddy khóc  
+
+[LINE]
+Speaker592: Eddy, this~painting~is…  
+~           Eddy  bức~tranh~này~thật 
+
+[LINE]
+Speaker414: Yes?!  
+~           ừ~sao  
+
+[LINE]
+Speaker592: Really      good.
+~           thật~sự~rất đẹp  
+
+[LINE]
+Speaker414: Yes!        Cool!      I'm   a   good~artist!
+~           có~thế~chứ  tuyệt~quá  tớ~là một họa~sĩ~giỏi 
+
+[LINE]
+Speaker592: Now     please leave.    
+~           giờ~thì làm~ơn hãy~về~đi 
+
+[MULTIPLE_CHOICE]
+> Vì sao Oscar lại bất ngờ khi thấy tranh của Eddy đẹp?
+- Trước giờ Eddy vẫn luôn vẽ xấu.
+- Eddy vẽ bức tranh đó từ hồi còn nhỏ xíu.
++ Anh ấy nghĩ tranh đầu tay không bao giờ đẹp cả.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- Please <> đi mà
+- an artist <> họa sĩ
+- Cool <> tuyệt quá
+- How do you know <> sao cậu biết
+- this painting is <> bức tranh này thật
+
