@@ -1,0 +1,102 @@
+[DATA]
+fromLanguageName=Lucy und die Dinosaurier
+icon=f6ce899637bb8181ee5e78382fdf71a0f01e4f95
+set=8|1
+
+[HEADER]
+> Lucy and the Dinosaurs  
+~ Lucy und die Dinosaurier
+
+[LINE]
+> Lucy opens  her  apartment~door.
+~ Lucy öffnet ihre Wohnungstür    
+
+[LINE]
+Speaker509: Hello, Junior!
+~           hallo  Junior 
+
+[LINE]
+Speaker415: Hello! Can    you help~me    write~a~report~for~school?      
+~           hallo  kannst du  mir~helfen einen~Schulaufsatz~zu~schreiben 
+
+[LINE]
+Speaker509: Oh, yes!
+~           oh  ja  
+
+[LINE]
+Speaker509: I'm     a    great      writer.           I   have a     very popular   blog.
+~           ich~bin eine großartige Schriftstellerin  ich habe einen sehr beliebten Blog 
+
+[MULTIPLE_CHOICE]
+> Lucy sagt, dass sie eine gute Schriftstellerin ist, weil …
+- … sie immer gute Noten in der Schule bekommen hat.
+- … sie jeden Tag Liebesbriefe schreibt.
++ … sie einen sehr beliebten Blog hat.
+
+[ARRANGE]
+> Was hörst du?
+Speaker509: [(Do~you~read) (my)     (blog)?]
+~             liest~du      meinen   Blog   
+
+[LINE]
+Speaker415: No.  
+~           nein 
+
+[LINE]
+Speaker509: I   have a~lot~of books. 
+~           ich habe viele    Bücher 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „Recherche“.
+Speaker509: (Do~you~need) my    (books)  (for) (+research)? 
+~            brauchst~du  meine  Bücher   zur    Recherche  
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker415: I   don't~need~your~books     s].
+~           ich brauche~deine~Bücher~nicht   
+- apartment
+~ Wohnung  
++ books 
+~ Bücher
+- report 
+~ Aufsatz
+
+[LINE]
+Speaker509: What~is~your~report~about?
+~           über~was~ist~dein~Aufsatz 
+
+[LINE]
+Speaker415: Dinosaurs.  
+~           Dinosaurier 
+
+[LINE]
+Speaker509: Why   do~you~want to~talk~to~me?
+~           warum willst~du   mit~mir~reden 
+
+[LINE]
+Speaker415: Because you are~very~old. 
+~           weil    du  sehr~alt~bist 
+
+[LINE]
+Speaker415: You know   a~lot~of dinosaurs,   right?   
+~           du  kennst viele    Dinosaurier  stimmt's 
+
+[LINE]
+Speaker509: Goodbye,         Junior.
+~           auf~Wiedersehen  Junior 
+
+[MULTIPLE_CHOICE]
+> Warum dachte Junior, dass Lucy die Dinosaurier kennt?
+- Sie schreibt einen Blog über Dinosaurier.
++ Sie ist älter als er.
+- Sie hatte früher einen Dinosaurier als Haustier.
+
+[MATCH]
+> Wähle die Paare
+- Hello <> hallo
+- Goodbye <> auf Wiedersehen
+- Can <> kannst
+- popular <> beliebten
+- Oh <> oh
+
