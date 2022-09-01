@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=O pato errado
+icon=6ae21d07992767f2eef541bbcfde5913af8fc7a1
+set=30|1
+
+[HEADER]
+> The Wrong~Duck 
+~ o   pato~errado
+
+[LINE]
+> Eddy is~talking~to    a   waitress  at a  restaurant. 
+~ Eddy está~falando~com uma garçonete em um restaurante 
+
+[LINE]
+Speaker414: Is~the~food~here good? It~all looks…  really expensive.
+~           a~comida~aqui~é  boa   tudo   parece  muito  caro      
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker386: Yes, it's~not cheap,  but we're     [one~of~the~best] restaurants  in town.  
+~           sim  não~é    barato  mas nós~somos  um~dos~melhores  restaurantes da cidade 
+- onto the rest
+- one of the guests
++ one of the best
+
+[LINE]
+Speaker414: OK.    I  really    want~my~date~to~like             me. 
+~           certo  eu realmente quero~que~minha~paquera~goste~de mim 
+
+[LINE]
+Speaker386: Are~you~sure     she's~coming? You've~been~waiting for an  hour.
+~           você~tem~certeza que~ela~vem   você~está~esperando por uma hora 
+
+[LINE]
+Speaker414: She said  to~meet        her at~the Blue~Duck at 7~p.m.    
+~           ela disse para~encontrar ela no     Pato~Azul às 7~da~noite
+
+[LINE]
+Speaker386: Oh. This is the Black~Duck.
+~           ah  este é  o   Pato~Preto 
+
+[MULTIPLE_CHOICE]
+> Eita! O Eddy…
++ …está no restaurante errado.
+- …pediu pato para o jantar.
+- …não gosta da paquera dele.
+
+[LINE]
+Speaker414: What?  This isn't the Blue~Duck?!
+~           o~quê  este não~é o   Pato~Azul  
+
+[LINE]
+Speaker386: No,  but the Blue~Duck isn't far   from~here.
+~           não  mas o   Pato~Azul não~é longe daqui     
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker414: Maybe  [she's~still~there]!  
+~           talvez  ela~ainda~esteja~lá  
++ she's still there
+- she steals hair
+- she's still fair
+
+[LINE]
+> Eddy runs  to   the Blue~Duck. He  sees a  waiter.
+~ Eddy corre para o   Pato~Azul  ele vê   um garçom 
+
+[LINE]
+Speaker414: Excuse~me.   Did~you~see a   tall~woman  with dark~hair     waiting   here?
+~           com~licença  você~viu    uma mulher~alta com  cabelo~escuro esperando aqui 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker526: [(Yes)… (but) (her~date)       (never) (arrived).]
+~             sim    mas   o~paquera~dela   nunca   chegou    
+
+[LINE]
+Speaker526: I  told~her    to~go   to~the Black~Duck. I  think    her~date       is   there.
+~           eu disse~a~ela para~ir ao     Pato~Preto  eu acho~que o~paquera~dela está lá    
+
+[LINE]
+Speaker414: Oh, no! 
+~           ah  não 
+
+[CONTINUATION]
+> O que vem depois?
+> Eddy runs  back     to   [the Black~Duck].
+~ Eddy corre de~volta para  o   Pato~Preto  
++ the Black~Duck
+~ o   Pato~Preto
+- a  blue~duck
+~ um pato~azul
+- the office    
+~ o   escritório
+
+[LINE]
+> His~date       is   outside~the        restaurant. 
+~ a~paquera~dele está do~lado~de~fora~do restaurante 
+
+[LINE]
+Speaker414: Georgia! I'm      glad  that I  found     you!  Let's~go~eat.
+~           Georgia  eu~estou feliz que  eu encontrei você  vamos~comer  
+
+[LINE]
+Speaker1715: The restaurant  just~closed.     
+~            o   restaurante acabou~de~fechar 
+
+[LINE]
+Speaker414: I'm~so~sorry…  
+~           eu~sinto~muito 
+
+[MULTIPLE_CHOICE]
+> O Eddy lamenta muito porque…
+- …ele esbarrou na paquera dele sem querer.
+- …ele está se sentindo mal depois de comer tanto pato.
++ …está tarde demais para comer no restaurante.
+
+[LINE]
+Speaker1715: It's~OK.  Let's~have  burgers      across~the       street.
+~            tudo~bem  vamos~comer hambúrgueres do~outro~lado~da rua    
+
+[LINE]
+Speaker1715: This place is too~expensive anyway!           
+~            este lugar é  caro~demais   de~qualquer~forma 
+
+[LINE]
+Speaker414: I  think    I'm      in~love.   
+~           eu acho~que eu~estou apaixonado 
+
+[MULTIPLE_CHOICE]
+> Por que o Eddy acha que está apaixonado?
++ A paquera dele quer comer em um lugar mais barato.
+- A comida no Black Duck era muito gostosa.
+- A paquera dele pagou por um jantar muito caro.
+
+[MATCH]
+> Toque nos pares
+- told her <> disse a ela
+- one of the best <> um dos melhores
+- for <> por
+- is <> é
+- place <> lugar
+
