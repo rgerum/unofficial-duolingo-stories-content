@@ -1,0 +1,161 @@
+[DATA]
+fromLanguageName=Como te chamas?
+icon=689567546d7675ad256e56c304d89b12a7c38c8a
+set=11|2
+
+[HEADER]
+> ¿Cómo te llamas?
+~  como te chamas 
+
+[LINE]
+> Lily y Zari están en una fiesta.
+~ Lily e Zari estão em uma festa  
+
+[LINE]
+Speaker418: ¡Me~encanta esta fiesta! ¡Quiero bailar!
+~            eu~adoro   esta festa    quero  dançar 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker416: [Yo~no~bailo]. 
+~            eu~não~danço  
++ Yo no bailo
+- Ya no baila
+- No lo bailo
+
+[LINE]
+Speaker418: ¡Ah! ¿Quién es ese    chico?  ¡Es guapo! 
+~            ah   quem  é  aquele garoto   é  bonito 
+
+[LINE]
+Speaker416: Él  está en mi    clase de inglés. Esta es su~fiesta.   
+~           ele está na minha turma de inglês  esta é  a~festa~dele 
+
+[LINE]
+Speaker418: ¿Cómo se~llama?    
+~            como ele~se~chama 
+
+[LINE]
+Speaker416: ¿Juan? ¿Pedro? No  sé. 
+~            Juan   Pedro  não sei 
+
+[LINE]
+Speaker418: ¡Hola! ¿Podemos hablar contigo?
+~            olá    podemos falar  contigo 
+
+[LINE]
+Speaker416: ¡Zari! ¿Qué   estás haciendo?
+~            Zari   o~que estás fazendo  
+
+[LINE]
+Speaker416: Ahora va~a    querer hablar con nosotras.
+~           agora ele~vai querer falar  com a~gente  
+
+[MULTIPLE_CHOICE]
+> A Lily não quer que o garoto vá falar com elas.
+- Não, não é isso.
++ Sim, isso mesmo.
+
+[LINE]
+Speaker418: ¡Perfecto!
+~            perfeito 
+
+[LINE]
+Speaker416: ¡No!  ¡No  recuerdo su~nombre!  
+~            não   não lembro   o~nome~dele 
+
+[MULTIPLE_CHOICE]
+> A Lily não lembra…
+- …do endereço do garoto.
++ …do nome do garoto.
+- …onde ela conheceu o garoto.
+
+[LINE]
+Speaker418: ¿Se~llama… Antonio?
+~            se~chama  Antonio 
+
+[LINE]
+Speaker416: No. 
+~           não 
+
+[LINE]
+Speaker418: ¿Tomás?
+~            Tomás 
+
+[LINE]
+Speaker416: No. 
+~           não 
+
+[LINE]
+Speaker418: Se~llama…
+~           se~chama 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker416: ¡Zari! ¡No  sé  cómo [se~llama]!    
+~            Zari   não sei como  ele~se~chama  
++ se~llama    
+~ ele~se~chama
+- estás haciendo
+~ estás fazendo 
+- quiero bailar
+~ quero  dançar
+
+[LINE]
+Speaker418: ¡Mira! ¡Viene      para acá!
+~            olha   está~vindo para cá  
+
+[LINE]
+Speaker416: ¡Ay,~no! 
+~            ah,~não 
+
+[LINE]
+Speaker419: ¡Hola, Lily!
+~            olá   Lily 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker419: ¿[Estás~lista] para el~examen de inglés?
+~             está~pronta  para a~prova   de inglês 
++ Estás lista
+- Estás hasta
+- Estas listas
+
+[LINE]
+Speaker416: Sí. 
+~           sim 
+
+[LINE]
+> El chico  mira a    Zari. Zari mira a    Lily. Lily no  dice nada.
+~ o  garoto olha para Zari  Zari olha para Lily  Lily não diz  nada 
+
+[LINE]
+Speaker418: Hola, ¡soy Zari!  
+~           olá    sou a~Zari 
+
+[LINE]
+Speaker419: Mucho~gusto, Zari.
+~           é~um~prazer  Zari 
+
+[LINE]
+Speaker418: ¿Cómo te llamas? ¡Lily   no  recuerda tu    nombre!
+~            como te chamas   a~Lily não lembra   o~teu nome   
+
+[LINE]
+Speaker416: ¡Zari!
+~            Zari 
+
+[MULTIPLE_CHOICE]
+> Ah, não! Por que a Lily não gostou do que a Zari disse?
++ A Zari disse ao garoto que a Lily não lembrava do nome dele.
+- O garoto pediu a elas que saíssem da festa dele.
+- A Lily ficou com ciúmes da Zari.
+
+[MATCH]
+> Toque nos pares
+- están <> estão
+- Yo no bailo <> eu não danço
+- Juan <> Juan
+- Ah <> ah
+- recuerdo <> lembro
+
