@@ -1,0 +1,103 @@
+[DATA]
+fromLanguageName=Uma carta de amor
+icon=4ba2733ddb8bdc3f0924c6463da01f5d1eccaf40
+set=17|4
+
+[HEADER]
+> Love~Letter        
+~ (uma)~carta~de~amor
+
+[LINE]
+> Zari is~babysitting     her~neighbor,      Junior. They are   at~the library.   
+~ Zari está~tomando~conta (d)o~vizinho~dela  Junior  eles estão na     biblioteca 
+
+[LINE]
+Speaker418: What  are~you~doing,     Junior?
+~           o~que você~está~fazendo  Junior 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker415: Um…  [I'm~writing~a~letter].         
+~           hum   eu~estou~escrevendo~uma~carta  
+- I'm riding it better
+- I'm writing to let her
++ I'm writing a letter
+
+[LINE]
+Speaker418: Who~are~you~writing~to?        
+~           você~está~escrevendo~para~quem 
+
+[LINE]
+Speaker415: Well, it's for  a   girl…   I  like~her~a~lot.  
+~           bem   é    para uma garota  eu gosto~muito~dela 
+
+[LINE]
+Speaker418: Ooh! Is~it a   love~letter?   Is~it for  a   girl   in~your~class?      
+~           uh   é     uma carta~de~amor  é     para uma menina na~sua~sala~de~aula 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "adolescente".
+Speaker415: (No)…  (She's) (a)   (+teenager).   
+~            não    ela~é   uma    adolescente  
+
+[LINE]
+Speaker418: A   teenager?    Like~me?
+~           uma adolescente  como~eu 
+
+[LINE]
+Speaker415: Yes. She's my…    neighbor.
+~           sim  ela~é minha  vizinha  
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker418: [Wait~a~minute].    She's a   teenager    and she's your~neighbor?
+~            espera~um~minuto   ela~é uma adolescente e   ela~é sua~vizinha   
+- Late a minute
+- Way to win it
++ Wait a minute
+
+[LINE]
+Speaker415: Um…  yes.
+~           hum  sim 
+
+[LINE]
+Speaker418: Hmm… And is~she very  smart?  
+~           hmm  e   ela~é  muito esperta 
+
+[LINE]
+Speaker415: Yes!
+~           sim 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker418: Aw Junior! You  love~me? Sorry,    but you're [too~young   for  me]. 
+~           ~  Junior  você me~ama   desculpe  mas você~é  novo~demais para mim  
+- a   teenager   
+~ uma adolescente
++ too~young   for  me 
+~ novo~demais para mim
+- a   love~letter  
+~ uma carta~de~amor
+
+[LINE]
+Speaker415: No!  I  don't~love you…  I  love your~best~friend,     Lily!
+~           não  eu não~amo    você  eu amo  (a)~sua~melhor~amiga  Lily 
+
+[LINE]
+Speaker415: Can~you~give         her my        letter?
+~           você~pode~dar~(para) ela (a)~minha carta  
+
+[MULTIPLE_CHOICE]
+> A Zari pensou que o Junior estava escrevendo uma carta de amor para ela, mas na verdade…
+- …ele estava escrevendo um livro sobre o amor.
++ …a carta era para a Lily.
+- …ele estava fazendo a tarefa de casa.
+
+[MATCH]
+> Toque nos pares
+- Wait a minute <> espera um minuto
+- You <> você
+- is babysitting <> está tomando conta
+- her neighbor <> o vizinho dela
+- Junior <> Junior
+
