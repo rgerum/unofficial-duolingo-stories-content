@@ -1,0 +1,157 @@
+[DATA]
+fromLanguageName=Tên cậu là gì?
+icon=689567546d7675ad256e56c304d89b12a7c38c8a
+set=11|2
+
+[HEADER]
+> What's~Your~Name?
+~ tên~cậu~là~gì    
+
+[LINE]
+> Lily and Zari are~at a   party.   
+~ Lily và  Zari đang~ở một bữa~tiệc 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker418: I'm     so      happy  we're    here!  [I~want~to~dance]!
+~           tớ~thấy thật~là vui~vì chúng~ta ở~đây   tớ~muốn~nhảy     
+- I went to France
+- I want two days
++ I want to dance
+
+[LINE]
+Speaker416: I  do~not~dance.
+~           tớ không~nhảy   
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “dễ thương”.
+Speaker418: (Ooh),      (who's~that)? (He's)        (+cute)!     
+~            ôi~mẹ~ơi    ai~kia        cậu~ấy~thật    dễ~thương  
+
+[LINE]
+Speaker416: He's~in    my~science~class.     This is his~party.          
+~           cậu~ấy~học lớp~khoa~học~cùng~tớ  đây  là bữa~tiệc~của~cậu~ấy 
+
+[LINE]
+Speaker418: What's~his~name? 
+~           tên~cậu~ấy~là~gì 
+
+[LINE]
+Speaker416: John? Steve? I~don't~know.
+~           John  Steve  tớ~chịu      
+
+[LINE]
+Speaker418: Hello!    Can~we~talk~to~you?                    
+~           xin~chào  chúng~tớ~nói~chuyện~với~cậu~được~không 
+
+[LINE]
+Speaker416: Zari! What~are~you~doing?     
+~           Zari  cậu~đang~làm~cái~gì~đấy 
+
+[LINE]
+Speaker416: Now     he's~going~to talk~to        us.      
+~           giờ~thì cậu~ấy~sẽ     bắt~chuyện~với chúng~ta 
+
+[MULTIPLE_CHOICE]
+> Xem ra Lily có vẻ…
+- …chơi rất thân với cậu bạn kia.
+- …đã thi trượt bài kiểm tra môn Khoa học.
++ …không muốn nói chuyện với cậu bạn kia.
+
+[LINE]
+Speaker418: Great!            
+~           tuyệt~vời~chứ~sao 
+
+[LINE]
+Speaker416: No!    I  don't~remember his~name!  
+~           không  tớ không~nhớ…đâu  tên~cậu~ấy 
+
+[LINE]
+Speaker418: Is~his~name…                 Anthony?
+~           tên~cậu~ấy~có~phải~là…không  Anthony 
+
+[LINE]
+Speaker416: No|⁠—   
+~           không ~ 
+
+[LINE]
+Speaker418: Thomas?
+~           Thomas 
+
+[LINE]
+Speaker416: No|⁠—   
+~           không ~ 
+
+[LINE]
+Speaker418: Is~it|⁠—      
+~           có~phải~là… ~ 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker416: Zari! I  don't~know his         [name]!
+~           Zari  tớ không~biết …của~cậu~ấy  tên   
+- face
+~ mặt 
++ name
+~ tên 
+- dog
+~ chó
+
+[LINE]
+Speaker418: Look!       He's~coming~here    now!    
+~           ê~nhìn~kìa  cậu~ấy~đang~tới~đây bây~giờ 
+
+[LINE]
+Speaker416: Oh~no… 
+~           trời~ạ 
+
+[LINE]
+Speaker419: Hello,    Lily!
+~           xin~chào  Lily 
+
+[LINE]
+Speaker416: Hey… 
+~           chào 
+
+[LINE]
+Speaker419: Are~you~excited~for       our~science~exam?             
+~           cậu~có~hào~hứng~với…không bài~thi~khoa~học~lớp~chúng~ta 
+
+[LINE]
+Speaker416: Yeah. I'm~so~excited.     
+~           ừ     (tớ)~hào~hứng~lắm~ý 
+
+[LINE]
+> He     looks~at  Zari. Zari looks~at  Lily. Lily doesn't~say~anything.
+~ cậu~ấy nhìn~sang Zari  Zari nhìn~sang Lily  Lily không~nói~gì         
+
+[LINE]
+Speaker418: Hi!       I'm   Zari!
+~           chào~cậu  tớ~là Zari 
+
+[LINE]
+Speaker419: Nice~to~meet~you,     Zari.
+~           rất~vui~được~gặp~cậu  Zari 
+
+[LINE]
+Speaker418: What's~your~name?  Lily doesn't~remember~it!
+~           tên~cậu~là~gì~thế  Lily không~nhớ~(tên~cậu) 
+
+[LINE]
+Speaker416: Zari?!
+~           Zari  
+
+[MULTIPLE_CHOICE]
+> Thôi xong! Vì sao Lily lại nổi cáu?
++ Zari mách với cậu bạn kia là Lily không nhớ tên cậu ấy.
+- Zari không thể nhớ ra tên của Lily.
+- Cậu bạn kia đã rủ Lily nhảy cùng.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- Ooh <> ôi mẹ ơi
+- What's his name <> tên cậu ấy là gì
+- name <> tên
+- looks at <> nhìn sang
+- I'm <> tớ thấy
+
