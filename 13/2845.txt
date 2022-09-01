@@ -1,0 +1,108 @@
+[DATA]
+fromLanguageName=Breakfast
+icon=6d79d91b8caad82e9f6ce44a1b458f12ac6a7a9f
+set=16|4
+
+[HEADER]
+> Le~petit~déjeuner
+~ breakfast        
+
+[LINE]
+> Eddy prépare   le~petit~déjeuner pour Junior.
+~ Eddy is~making breakfast         for  Junior 
+
+[LINE]
+Speaker415: Salut Papa ! Tu~prépares    quelque~chose ?
+~           hi    Dad    are~you~making something      
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Bonjour Junior ! Oui, [le~petit~déjeuner] !
+~           hello   Junior   yes   breakfast           
++ le petit déjeuner
+- le petit jeune
+- le joli déjeuner
+
+[LINE]
+Speaker415: Mais pourquoi ?
+~           but  why       
+
+[LINE]
+Speaker414: Parce~que je n'ai~jamais le~temps de~le~faire !
+~           because   I  never~have  time     to~do~it     
+
+[LINE]
+Speaker415: Papa, je ne~veux~pas de~petit~déjeuner…
+~           Dad   I  don't~want  any~breakfast     
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Je) (suis~en~train~de~préparer) (des)  (œufs).]
+~             I    am~making                   some   eggs   
+
+[LINE]
+Speaker415: Je ne~veux~pas  d'œufs.  
+~           I  I~don't~want any~eggs 
+
+[CONTINUATION]
+> What comes next?
+Speaker414: Mais tu  adores [les~œufs ]!
+~           but  you love    eggs       
++ les~œufs
+~ eggs    
+- les~fleurs
+~ flowers   
+- les~plages
+~ beaches   
+
+[LINE]
+Speaker415: Oui, mais… 
+~           yes  but   
+
+[LINE]
+Speaker414: Il~y~a   du   pain  et  du   jus~d'orange aussi.
+~           there~is some bread and some orange~juice too   
+
+[LINE]
+Speaker414: Et  tu  adores le~jus~d'orange !
+~           and you love   orange~juice     
+
+[LINE]
+Speaker415: Oui, mais… 
+~           yes  but   
+
+[LINE]
+Speaker414: Qu'est-ce~qu'il~y~a, Junior ?
+~           what's~wrong         Junior  
+
+[LINE]
+Speaker415: Papa, il~est~midi.
+~           Dad   it's~noon   
+
+[POINT_TO_PHRASE]
+> Choose the option that means "wristwatch."
+> (Eddy) (regarde)  (sa)  (+montre).    
+~  Eddy   looks~at   his    wristwatch  
+
+[LINE]
+Speaker414: Ah… Préparer le~petit~déjeuner, ça~prend beaucoup de temps !
+~           ah  making   breakfast          it~takes a~lot    of time   
+
+[LINE]
+Speaker415: Mais on~peut~préparer le~déjeuner maintenant !
+~           but  we~can~making    lunch       now         
+
+[MULTIPLE_CHOICE]
+> Why can Eddy make lunch now?
+- Junior made breakfast for him.
++ He took too long making breakfast.
+- He ate all of Junior's breakfast.
+
+[MATCH]
+> Tap the pairs
+- des <> some
+- aussi <> too
+- Junior <> Junior
+- Parce que <> because
+- quelque chose <> something
+
