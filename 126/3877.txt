@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=O bolo
+icon=4a31a2e8269bfd907d862c44a3b320899c169419
+set=18|2
+
+[HEADER]
+> The Cake
+~ o   bolo
+
+[LINE]
+> Lin goes to   her~kitchen.    She looks     in~the    fridge.   
+~ Lin vai  para a~cozinha~dela  ela olha~para dentro~da geladeira 
+
+[LINE]
+Speaker508: Where is   my~cake?   
+~           onde  está o~meu~bolo 
+
+[LINE]
+> Lin sees her~grandmother, Lucy, at~the table.
+~ Lin vê   a~avó~dela       Lucy  à      mesa  
+
+[LINE]
+Speaker508: Grandma, what  did~you~just~eat?    
+~           vovó     o~que você~acabou~de~comer 
+
+[LINE]
+> Lucy hides   her~plate.   
+~ Lucy esconde o~prato~dela 
+
+[MULTIPLE_CHOICE]
+> A Lucy está tentando esconder seu prato de Lin.
+- Não, não é isso.
++ Sim, isso mesmo.
+
+[LINE]
+Speaker509: Uhhh… a  sandwich! 
+~           hãã   um sanduíche 
+
+[LINE]
+Speaker508: I  can't~find            my    cake.
+~           eu não~consigo~encontrar o~meu bolo 
+
+[LINE]
+Speaker509: That's strange.  What      does~it~look~like?
+~           isso~é estranho  com~o~que ele~se~parece     
+
+[ARRANGE]
+> Toque no que escutar
+Speaker508: [(It's) (a)  (very~small~cake).]   
+~             é      um   bolo~muito~pequeno   
+
+[LINE]
+Speaker509: Are~there oranges  on~the cake?
+~           há        laranjas no     bolo 
+
+[LINE]
+Speaker508: Yes! There~are a~lot~of oranges  on~the cake.
+~           sim  há        muitas   laranjas no     bolo 
+
+[LINE]
+Speaker509: Is~your~cake yellow? 
+~           o~seu~bolo~é amarelo 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker508: Yes! My    cake [is yellow]! 
+~           sim  o~meu bolo  é  amarelo  
++ is yellow 
+~ é  amarelo
+- is red     
+~ é  vermelho
+- is very  large 
+~ é  muito grande
+
+[LINE]
+Speaker509: Is~your~cake very,  very  delicious?
+~           o~seu~bolo~é muito  muito delicioso 
+
+[LINE]
+Speaker508: Grandma! Did~you~eat my    cake?!
+~           vovó     você~comeu  o~meu bolo  
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker509: No!  I  [didn't~eat~it]!
+~           não  eu  não~comi~ele   
+- didn't read it
+- did need it
++ didn't eat it
+
+[LINE]
+Speaker508: OK.    Sorry.    I'll~make~another… chocolate~cake.   
+~           certo  desculpe  eu~farei~outro     bolo~de~chocolate 
+
+[LINE]
+Speaker509: Chocolate? But your~cake  was~vanilla!    
+~           chocolate  mas o~seu~bolo era~de~baunilha 
+
+[LINE]
+Speaker508: Ha! Yes, it  was~vanilla!     You  did~eat   my    cake!
+~           ha  sim  ele era~de~baunilha  você comeu~sim o~meu bolo 
+
+[MULTIPLE_CHOICE]
+> Como a Lin descobriu que Lucy havia comido seu bolo?
++ A Lucy sabia qual era o sabor do bolo.
+- A Lucy estava com bolo no rosto.
+- Ela encontrou o prato da Lucy.
+
+[MATCH]
+> Toque nos pares
+- Ha <> ha
+- at the <> à
+- does it look like <> ele se parece
+- is <> está
+- in the <> dentro da
+
