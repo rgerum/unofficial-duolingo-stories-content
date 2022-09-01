@@ -1,0 +1,170 @@
+[DATA]
+fromLanguageName=Late Fees
+icon=98e27b1d8de5bdaae888da3a56cc672f414fdf27
+set=72|1
+
+[HEADER]
+> Pénalités~de~retard
+~ late~fees          
+
+[LINE]
+> Lily est à  la~bibliothèque. Elle essaie~d'emprunter     un~livre.
+~ Lily is  at the~library      she  is~trying~to~check~out a~book   
+
+[LINE]
+Speaker292: Je suis désolée, je ne~peux~pas vous~laisser emprunter      ce~livre.  Votre~carte~de~bibliothèque a~été~suspendue.   
+~           I  am   sorry    I  can't       (to)~let~you (to)~check~out this~book  your~library~card           has~been~suspended 
+
+[LINE]
+Speaker416: Quoi ?! Ce   n'est~pas possible !
+~           what    that is~not    possible  
+
+[MULTIPLE_CHOICE]
+> Hmm, pourquoi Lily n'est~pas contente ?
+~ hmm  why      Lily isn't     happy     
++ Elle ne~peut~pas utiliser sa~carte~de~bibliothèque.
+~ she  can't       (to)~use her~library~card         
+- L'employée   lui~a~lancé~un~livre~dessus.
+~ the~employee threw~a~book~at~her         
+- Elle a   des~problèmes parce~qu'elle a~volé un~livre.
+~ she  has some~problems because~she   stole  a~book   
+
+[LINE]
+> La~bibliothécaire montre    un~panneau qui  dit  : « Silence, s'il~vous~plaît ! ».
+~ the~librarian     points~to a~sign     that says   ~ silence  please            ~ 
+
+[LINE]
+Speaker416: Mais j'ai~besoin~de ce~livre  pour        faire   mes~devoirs.
+~           but  I~need         this~book in~order~to (to)~do my~homework 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker292: Je suis désolée. [Vous~avez~emprunté] plusieurs livres et  vous ne~les~avez~pas~rendus.
+~           I  am   sorry     you~checked~out     several   books  and you  have~not~returned~them 
++ Vous avez emprunté
+- Vous avez ennuyé
+- Nous étions empruntés
+
+[LINE]
+Speaker416: Quoi ?! Ce   n'est~pas possible.
+~           what    that is~not    possible 
+
+[LINE]
+Speaker292: Chut !
+~           shhh  
+
+[LINE]
+> La~bibliothécaire montre~à~nouveau le~panneau « Silence, s'il~vous~plaît ! ».
+~ the~librarian     points~again~to  the~sign   ~ silence  please            ~ 
+
+[LINE]
+Speaker292: C'est une~règle que  je prends très au~sérieux.
+~           it's  a~rule    that I  take   very seriously  
+
+[MULTIPLE_CHOICE]
+> Pourquoi Lily~pense-t-elle que  la~bibliothécaire se~trompe   ?
+~ why      does~Lily~think   that the~librarian     is~mistaken  
+- Elle n'avait~jamais~lu un~livre avant. 
+~ she  had~never~read    a~book   before 
++ Elle rapporte~toujours  ses~livres à~temps.
+~ she  always~brings~back her~books  on~time 
+- Elle a~laissé tous ses~livres au~lycée.          
+~ she  has~left all  her~books  at~the~high~school 
+
+[LINE]
+Speaker292: Selon        votre~dossier, vous n'avez~pas~rapporté « L'histoire  des~licornes », « Vampires amoureux, Tome   un  » et  « Vampires amoureux, Tome   deux ».
+~           according~to your~records   you  didn't~bring~back   ~ the~history of~unicorns  ~  ~ vampires in~love   volume one ~ and ~ vampires in~love   volume two  ~ 
+
+[LINE]
+Speaker416: Je ne~lirais~jamais aucun de ces   livres. Il~doit~y~avoir un~problème avec votre~ordinateur.
+~           I  would~never~read any   of those books   there~must~be   a~problem   with your~computer    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker292: Je suis désolée, mais je ne~peux~pas vous~laisser emprunter      un~autre livre tant~que~vous~n'avez~pas~rapporté ces   livres et  [payé~les~pénalités~de~retard].
+~           I  am   sorry    but  I  can't       (to)~let~you (to)~check~out another  book  until~you~bring~back              those books  and  pay~the~late~fees             
++ payé les pénalités de retard
+- payé les pénalités d'œuvre-d'art
+- baigné ces pénalités de retard
+
+[LINE]
+Speaker416: Bon  ! Je ferai   mes~recherches sur Internet     !
+~           well   I  will~do my~research    on  the~Internet  
+
+[LINE]
+> Lily s'en~va, furieuse. À~ce~moment-là, elle voit Zari dans la~bibliothèque. Elle lit        « Vampires amoureux, Tome   deux ».
+~ Lily leaves   furious   at~that~moment  she  sees Zari in   the~library      she  is~reading ~ vampires in~love   volume two  ~ 
+
+[MULTIPLE_CHOICE]
+> Ah ha ! Qui a~emprunté  les~livres et  ne~les~a~pas~rapportés ?
+~ ah ha   who checked~out the~books  and didn't~bring~them~back  
+- une~licorne
+~ a~unicorn  
+- Lily
+~ Lily
++ Zari
+~ Zari
+
+[LINE]
+> Lily attrape le~livre de   Zari.
+~ Lily grabs   the~book from Zari 
+
+[CONTINUATION]
+> Quelle est la~fin  de la~phrase    ?
+~ what   is  the~end of the~sentence  
+Speaker416: Zari ! Est-ce~que~tu~as~emprunté des~livres [avec ma~carte~de~bibliothèque ?]!
+~           Zari   did~you~check~out         some~books  with my~library~card             
++ avec ma~carte~de~bibliothèque
+~ with my~library~card         
+- et  les~as~jetés   
+~ and threw~them~away
+- et  dessiné des~licornes    dessus 
+~ and drew    (some)~unicorns on~them
+
+[LINE]
+Speaker418: Je suis désolée ! Mais tu  sais que  j'adore lire    !
+~           I  am   sorry     but  you know that I~love  to~read  
+
+[ARRANGE]
+> Tap what you hear
+Speaker416: [(Pourquoi) (tu)  (n'as~pas~utilisé) (ta~propre~carte) ]?!
+~             why        you   didn't~use         your~own~card       
+
+[LINE]
+Speaker418: Parce~que... je n'ai~plus      de~carte. Je rapportais~toujours mes~livres en~retard, donc j'avais beaucoup de pénalités.
+~           because      I  no~longer~have a~card    I  always~brought~back my~books   late       so   I~had   a~lot    of fees      
+
+[LINE]
+Speaker416: Aarh !
+~           argh  
+
+[LINE]
+Speaker418: Tu  me~pardonnes ?
+~           you forgive~me    
+
+[LINE]
+Speaker416: Évidemment.
+~           obviously  
+
+[LINE]
+Speaker418: Super. Parce~que j'ai~besoin~que~tu~empruntes « Vampires amoureux, Tome   trois ».
+~           great  because   I~need~you~to~check~out      ~ vampires in~love   volume three ~ 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Lily ne~pouvait-elle~pas emprunter      de~livres ?
+~ why      Lily couldn't            (to)~check~out any~books  
+- Zari a~déjà~emprunté     le~livre qu'elle  voulait.
+~ Zari already~checked~out the~book that~she wanted  
+- La~bibliothèque était pleine de vampires.
+~ the~library     was   full   of vampires 
++ Zari a~utilisé sa~carte et  n'a~pas~rendu les~livres.
+~ Zari used      her~card and didn't~return the~books  
+
+[MATCH]
+> Tap the pairs
+- la bibliothèque <> the library
+- à <> at
+- ta propre carte <> your own card
+- de carte <> a card
+- est <> is
+
