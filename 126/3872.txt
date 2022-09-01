@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=Veja a minha pintura
+icon=b4a0fb96a3bb2af295051d49d3c112c4c91779e6
+set=17|1
+
+[HEADER]
+> Look~at My        Painting
+~ veja    (a)~minha pintura 
+
+[LINE]
+> Eddy walks~into Oscar's~apartment.   
+~ Eddy entra~no   apartamento~de~Oscar 
+
+[LINE]
+> Eddy is~carrying     a   painting.
+~ Eddy está~carregando uma pintura  
+
+[LINE]
+Speaker592: What  is that, Eddy?
+~           o~que é  isso  Eddy 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker414: It's [my~first~painting]!         
+~           é     (a)~minha~primeira~pintura  
+- my fast painting
++ my first painting
+- my first printing
+
+[LINE]
+Speaker414: Can~you~look~at it? 
+~           você~pode~olhar ela 
+
+[LINE]
+Speaker592: No. 
+~           não 
+
+[LINE]
+Speaker414: But you're an~art~teacher.   
+~           mas você~é professor~de~arte 
+
+[MULTIPLE_CHOICE]
+> O Eddy quer…
+- …ensinar arte para o Oscar.
++ …que o Oscar veja a pintura dele.
+- …que o Oscar pinte algo para ele.
+
+[LINE]
+Speaker592: Yes, and I  am  very  honest. 
+~           sim  e   eu sou muito honesto 
+
+[LINE]
+Speaker414: Good.     
+~           (que)~bom 
+
+[LINE]
+Speaker592: And you  will~cry.  
+~           e   você vai~chorar 
+
+[MULTIPLE_CHOICE]
+> Espera… Por que o Oscar diz que o Eddy vai chorar?
++ Ele será muito honesto se não gostar da pintura.
+- As pinturas dele são muito lindas.
+- Ele tem uma história muito triste para contar.
+
+[LINE]
+Speaker414: But I  want  to~know if the painting is good.
+~           mas eu quero saber   se a   pintura  é  boa  
+
+[LINE]
+Speaker592: It's~not  good.
+~           ela~não~é boa  
+
+[LINE]
+Speaker414: How  do~you know?
+~           como você   sabe 
+
+[LINE]
+Speaker592: You  are~not an~artist. And it's your~first       painting.
+~           você não~é   artista    e   é    (a)~sua~primeira pintura  
+
+[ARRANGE]
+> Toque no que escutar
+Speaker592: [(First)     (paintings) (are~never) (good).]
+~             primeiras   pinturas    nunca~são   boas   
+
+[LINE]
+Speaker414: Please,    look~at it. 
+~           por~favor  veja    ela 
+
+[LINE]
+Speaker414: Please,    Oscar.
+~           por~favor  Oscar 
+
+[LINE]
+Speaker592: Fine.     I'll~look~at it. 
+~           está~bem  eu~verei     ela 
+
+[CONTINUATION]
+> O que vem depois?
+> Oscar looks~at    [the painting].
+~ Oscar olha~(para)  a   pintura   
++ the painting
+~ a   pintura 
+- the apartment  
+~ o   apartamento
+- Eddy crying  
+~ Eddy chorando
+
+[LINE]
+Speaker592: Eddy, this painting is…
+~           Eddy  esta pintura  é  
+
+[LINE]
+Speaker414: Yes?!
+~           sim  
+
+[LINE]
+Speaker592: Really    good.
+~           realmente boa  
+
+[LINE]
+Speaker414: Yes! Cool!  I'm    a  good artist! 
+~           sim  legal  eu~sou um bom  artista 
+
+[LINE]
+Speaker592: Now   please    leave.    
+~           agora por~favor vá~embora 
+
+[MULTIPLE_CHOICE]
+> Por que o Oscar ficou surpreso com o fato de a pintura do Eddy ser boa?
+- O Eddy sempre foi um pintor ruim.
++ Ele achava que a primeira pintura de alguém nunca seria boa.
+- O Eddy pintou quando era criança.
+
+[MATCH]
+> Toque nos pares
+- honest <> honesto
+- an artist <> artista
+- you <> você
+- looks at <> olha
+- it <> ela
+
