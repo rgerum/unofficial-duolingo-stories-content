@@ -1,0 +1,104 @@
+[DATA]
+fromLanguageName=Juniors Wahl
+icon=e0600de22649754eb7336b587834d36407767819
+set=6|3
+
+[HEADER]
+> Junior's Choice
+~ Juniors  Wahl  
+
+[LINE]
+> Junior is~getting his  lunch       at     school.
+~ Junior bekommt    sein Mittagessen in~der Schule 
+
+[LINE]
+Speaker415: Hello, Ms.   Linda! I'm     ready  to~eat~lunch!        
+~           hallo  Frau  Linda  ich~bin bereit Mittagessen~zu~essen 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker395: Hello, Junior. [We~have~fish]    for lunch       today.
+~           hallo  Junior   wir~haben~Fisch  zum Mittagessen heute 
+- We love dish
+- We have five
++ We have fish
+
+[LINE]
+Speaker395: And with the fish,  you~can   have~a~salad~or~fries.        
+~           und mit  dem Fisch  kannst~du einen~Salat~oder~Pommes~haben 
+
+[LINE]
+Speaker415: I   love  fries  and salads!
+~           ich liebe Pommes und Salate 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „nur“.
+Speaker395: (You) (can)  (+only) have~one,   (Junior).
+~            du    kann    nur   eins~haben   Junior  
+
+[LINE]
+Speaker415: Well, fries  are  the delicious option…
+~           gut   Pommes sind die leckere   Option 
+
+[LINE]
+Speaker415: And I   am~having a     difficult   day…
+~           und ich habe      einen schwierigen Tag 
+
+[LINE]
+Speaker415: But  salad is  healthy…
+~           aber Salat ist gesund  
+
+[MULTIPLE_CHOICE]
+> Junior denkt, dass Salat …
+- … billig ist.
+- … sehr groß ist.
++ … gesund ist.
+
+[LINE]
+Speaker395: Junior…
+~           Junior 
+
+[LINE]
+Speaker415: But  I   can  only have~one…  
+~           aber ich kann nur  eins~haben 
+
+[LINE]
+Speaker415: I   want the salad. No!   The fries!  Wait…      
+~           ich will den Salat  nein  die Pommes  warten~Sie 
+
+[LINE]
+Speaker415: I   don't~know!
+~           ich weiß~nicht 
+
+[MULTIPLE_CHOICE]
+> Armer Junior! Was ist sein Problem?
+- Er möchte Eiscreme in seinem Salat.
++ Er kann sich nicht zwischen Salat und Pommes entscheiden.
+- Er hat zu viele Pommes gegessen.
+
+[LINE]
+Speaker395: Junior!
+~           Junior 
+
+[LINE]
+Speaker415: Oh! Yes, Ms.   Linda?
+~           oh  ja   Frau  Linda 
+
+[LINE]
+Speaker395: Here! Take the fries  and the salad.
+~           hier  nimm die Pommes und den Salat 
+
+[MULTIPLE_CHOICE]
+> Linda hat Junior gesagt, dass …
+- … er sich vorstellen soll, dass der Salat wie Pommes schmeckt.
++ … er die Pommes und den Salat nehmen kann.
+- … er woanders essen soll.
+
+[MATCH]
+> Wähle die Paare
+- day <> Tag
+- difficult <> schwierigen
+- want <> will
+- Ms <> Frau
+- love <> liebe
+
