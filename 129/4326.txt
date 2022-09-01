@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=Favori Öğle Yemeği
+icon=7118252e70f96bc0ffa531032ec8c2efaf043e7b
+set=8|3
+
+[HEADER]
+> Favorite Lunch      
+~ Favori   Öğle~yemeği
+
+[LINE]
+> Juan and Rebecca are  at  a   restaurant.
+~ ~    ve  ~       -dır -da bir restoran   
+
+[LINE]
+Speaker338: I   usually eat   lunch         at  my~desk…
+~           ben genelde yerim öğle~yemeğini -da masam   
+
+[LINE]
+Speaker338: … but   this menu looks     delicious!
+~             fakat bu   menü görünüyor lezzetli  
+
+[MULTIPLE_CHOICE]
+> Rebecca genellikle öğle yemeğini restoranda yer.
+- Evet, bu doğru.
++ Hayır, bu doğru değil.
+
+[LINE]
+Speaker440: Yes!  This~is my    favorite place for  lunch!      
+~           Evet  burası  benim favori   yerim için öğle~yemeği 
+
+[LINE]
+Speaker338: Hmm… I   want      a   burger with fries…   
+~           ~    ben istiyorum bir burger ile  kızartma 
+
+[LINE]
+Speaker440: The burgers are very~good here!  
+~           ~   burger  ~   çok~güzel burada 
+
+[LINE]
+Speaker338: What are you eating?  
+~           Ne   ~   sen yiyorsun 
+
+[POINT_TO_PHRASE]
+> "Şey" anlamına gelen seçeneğe tıklayın.
+Speaker440: (The) (same) (+thing) I     (usually) eat.    
+~            ~     aynı    şeyle  benim  genelde  yediğim 
+
+[LINE]
+Speaker338: What do you usually eat?   
+~           Ne   ~  sen genelde yersin 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker440: [(A)   (burger) (with~no~meat) (and) (no~fries).]   
+~             Bir   burger   etsiz          ve    kızartmasız   
+
+[LINE]
+Speaker338: OK…    only   bread?   
+~           tamam  sadece ekmek~mi 
+
+[LINE]
+Speaker440: No,    I~don't~like bread!
+~           Hayır  sevmem       ekmek 
+
+[LINE]
+Speaker440: But I~like  lettuce and tomatoes.
+~           ama severim marul   ve  domatesi 
+
+[MULTIPLE_CHOICE]
+> Juan neyi sever?
++ Marul ve domates.
+- Marul ve ekmek.
+- Ekmek ve domates.
+
+[LINE]
+Speaker440: My    favorite lunch        is   a   burger…
+~           Benim favori   öğle~yemeğim -dir bir burger 
+
+[CONTINUATION]
+> Sıradaki ne olabilir?
+Speaker440: … with~no meat, no   bread, and a~lot~of [lettuce and tomatoes]!
+~             -siz    et    -siz ekmek  ve  bolca     marul   ve  domates   
+- lunch
+- hamburger
++ lettuce and tomatoes
+
+[LINE]
+Speaker338: Juan…
+
+[LINE]
+Speaker440: Yes? 
+~           Evet 
+
+[LINE]
+Speaker338: That is   a   salad! 
+~           Bu   -dır bir salata 
+
+[MULTIPLE_CHOICE]
+> Rebecca neden gülüyor?
++ Juan'ın karmaşık düzeni sadece bir salata içindi.
+- Juan vejetaryen ama hamburger yediği için.
+- Juan restorandan sadece ekmek istediği için.
+
+[MATCH]
+> Çiftlere dokun
+- for <> için
+- a lot of <> bolca
+- with no <> -siz
+- is <> -dir
+- very good <> çok güzel
+
