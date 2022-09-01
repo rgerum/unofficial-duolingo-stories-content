@@ -1,0 +1,92 @@
+[DATA]
+fromLanguageName=Je peux l'avoir ?
+icon=ce0ae956035c1bac6b9c64737466d59c5d027e97
+set=3|3
+
+[HEADER]
+> Can~I~Have~It?  
+~ je~peux~l'avoir 
+
+[LINE]
+> Junior and Eddy are  at~the mall.             
+~ Junior et  Eddy sont au     centre~commercial 
+
+[LINE]
+Speaker415: Dad!  I~need~a         new     video~game!
+~           Papa  j'ai~besoin~d'un nouveau jeu~vidéo  
+
+[LINE]
+Speaker414: You don't~need~a         new     video~game.
+~           tu  n'as~pas~besoin~d'un nouveau jeu~vidéo  
+
+[MULTIPLE_CHOICE]
+> Le père de Junior veut acheter un nouveau jeu vidéo.
++ Non, c'est faux.
+- Oui, c'est vrai.
+
+[LINE]
+Speaker415: Please?        There's a  flying~robot in   this game!
+~           s'il~te~plaît  il~y~a  un robot~volant dans ce   jeu  
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker414: Junior. You want this game, but  [you~don't~need~it].    
+~           Junior  tu  veux ce   jeu   mais  tu~n'en~as~pas~besoin  
+- we don't eat it
++ you don't need it
+- you won't read it
+
+[LINE]
+Speaker415: OK!       I  want this game. Now        can~I~have~it?  
+~           d'accord  je veux ce   jeu   maintenant je~peux~l'avoir 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker414: No,  you have video~games     [at home]!     
+~           non  tu  as   des~jeux~vidéos  à  la~maison  
++ at~home    
+~ à~la~maison
+- in   the shower
+~ dans la  douche
+- in   the fridge
+~ dans le  frigo 
+
+[LINE]
+Speaker415: You're~right.
+~           tu~as~raison 
+
+[LINE]
+Speaker415: So    can~we~go~home?             
+~           alors on~peut~rentrer~à~la~maison 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker414: [(No),  (we)   (are~going) (to~Vikram's~house).]
+~             non    nous   allons      chez~Vikram         
+
+[LINE]
+Speaker415: Ugh!  His house  is  boring!   
+~           pfff  sa  maison est ennuyeuse 
+
+[LINE]
+Speaker414: But  his TV   is  big,    and I~need         to~watch the football~game.              
+~           mais sa  télé est grande  et  j'ai~besoin~de regarder le  match~de~football~américain 
+
+[LINE]
+Speaker415: You don't~need         to~watch the game,  Dad.  You want to~watch~it.
+~           tu  n'as~pas~besoin~de regarder le  match  Papa  tu  veux le~regarder 
+
+[MULTIPLE_CHOICE]
+> Que font Eddy et Junior dans l'histoire ?
+- Ils volent avec des robots.
++ Ils disent qu'ils ont besoin de quelque chose dont ils ont envie.
+- Ils jouent à des jeux vidéo avec Vikram.
+
+[MATCH]
+> Choisis les paires
+- are going <> allons
+- the <> le
+- in <> dans
+- game <> jeu
+- So <> alors
+
