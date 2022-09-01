@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Ca khẩn cấp
+icon=7e5d8724d525fd56e3abc838f2849ae269ebefd5
+set=14|1
+
+[HEADER]
+> An~Emergency       
+~ tình~huống~khẩn~cấp
+
+[LINE]
+> Junior is~at  a~pool with his~father, Eddy.
+~ Junior đang~ở bể~bơi với  bố~cậu~ấy   Eddy 
+
+[LINE]
+> He     runs to  the~lifeguard.    
+~ cậu~ấy chạy tới chỗ~cứu~hộ~bể~bơi 
+
+[LINE]
+Speaker415: Help!    Lifeguard!   
+~           cứu~với  cô~cứu~hộ~ơi 
+
+[LINE]
+Speaker415: My~father needs help!    
+~           bố~cháu   cần   trợ~giúp 
+
+[LINE]
+Speaker856: Is~he~drowning?       
+~           ông~ấy~bị~đuối~nước~à 
+
+[MULTIPLE_CHOICE]
+> Vì sao cứu hộ bể bơi lại lo lắng?
++ Cô ấy nghĩ Eddy đang bị đuối nước.
+- Cô ấy rất sợ trẻ em.
+- Junior đang bị đuối nước.
+
+[LINE]
+Speaker415: No,      it's  my~father's~swimsuit. 
+~           không~ạ  mà~là bộ~đồ~bơi~của~bố~cháu 
+
+[LINE]
+Speaker856: I  don't~understand… 
+~           cô không~hiểu~ý~cháu 
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “đồ bơi”.
+Speaker415: (His)         (new) (+swimsuit) is too (small).
+~            của~bố~cháu   mới    đồ~bơi    bị quá  nhỏ    
+
+[LINE]
+Speaker415: It looks~really~bad,   but   he     won't~listen~to~me!              
+~           nó trông~rất~thảm~họa  nhưng ông~ấy kiểu~gì~cũng~không~nghe~cháu~đâu 
+
+[LINE]
+Speaker856: Sorry,        but   lifeguards    help~with  emergencies.              
+~           xin~lỗi~cháu  nhưng cứu~hộ~bể~bơi giúp~xử~lý những~tình~huống~khẩn~cấp 
+
+[MULTIPLE_CHOICE]
+> Cứu hộ bể bơi chỉ có thể giúp xử lý…
+- …đồ bơi.
+- …các ông bố.
++ …những tình huống khẩn cấp.
+
+[LINE]
+Speaker415: This is           an~emergency!        Look!          
+~           đây  đúng~thật~là tình~huống~khẩn~cấp  cô~nhìn~mà~xem 
+
+[LINE]
+> The~lifeguard    looks~at Eddy.
+~ cô~cứu~hộ~bể~bơi nhìn     Eddy 
+
+[LINE]
+Speaker856: No!           
+~           không~thể~nào 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker856: You're~right.  That~swimsuit~is [too~small]!
+~           cháu~nói~đúng  bộ~đồ~bơi~đó      quá~nhỏ    
+- do it all
+- to the mall
++ too small
+
+[LINE]
+> The~lifeguard    shouts~at     Eddy.
+~ cô~cứu~hộ~bể~bơi lớn~tiếng~gọi Eddy 
+
+[LINE]
+Speaker856: Excuse~me,~sir! I'm~coming  to~help you!
+~           anh~gì~ơi       tôi~đến…đây để~giúp anh 
+
+[LINE]
+> The~lifeguard    runs to  Eddy     with         a   big,~red~towel.          
+~ cô~cứu~hộ~bể~bơi chạy tới chỗ~Eddy trên~tay~cầm một chiếc~khăn~tắm~to~màu~đỏ 
+
+[LINE]
+Speaker414: What~is~it?!   
+~           chuyện~gì~thế  
+
+[LINE]
+Speaker856: Sir,      please wear         this~towel.         It's   an~emergency.       
+~           thưa~anh  làm~ơn hãy~quấn…vào chiếc~khăn~tắm~này  đây~là tình~huống~khẩn~cấp 
+
+[MULTIPLE_CHOICE]
+> Tình huống khẩn cấp ở đây là gì?
+- Junior quên mang khăn tắm.
++ Đồ bơi của Eddy quá nhỏ.
+- Eddy không biết bơi.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- an emergency <> tình huống khẩn cấp
+- the lifeguard <> chỗ cứu hộ bể bơi
+- That swimsuit is <> bộ đồ bơi đó
+- to help <> để giúp
+- Help <> cứu với
+
