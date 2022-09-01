@@ -1,0 +1,107 @@
+[DATA]
+fromLanguageName=The Garden
+icon=353ec768516986a1fc3f8a061638a3646f1de26b
+set=5|4
+
+[HEADER]
+> Der Garten
+~ the garden
+
+[LINE]
+> Vikram besucht seine Großmutter  im~Krankenhaus. 
+~ Vikram visits  his   grandmother in~the~hospital 
+
+[LINE]
+Speaker593: Guten Morgen,  Oma!    
+~           good  morning  grandma 
+
+[LINE]
+Speaker593: Wie~geht's~dir heute?
+~           how~are~you    today 
+
+[LINE]
+Speaker129: Ich bin ein bisschen traurig. Mein Zimmer ist so weiß  und langweilig.
+~           I   am  a   little   sad      my   room   is  so white and boring     
+
+[MULTIPLE_CHOICE]
+> Vikram's grandmother feels happy.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker593: Das~tut~mir~leid, Oma.    
+~           I'm~sorry         grandma 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "outside."
+Speaker129: Es (ist) (Frühling) und (+draußen) ist es (sonnig).
+~           it  is    spring    and   outside  is  it  sunny   
+
+[LINE]
+Speaker129: Ich arbeite im~Frühling immer  so~gern     in meinem Garten.
+~           I   to~work in~spring   always really~like in my     garden 
+
+[LINE]
+Speaker593: Hm ... Ich habe eine Idee!
+~           hm     I   have an   idea 
+
+[LINE]
+Speaker593: Gib  mir dreißig Minuten! Bis~gleich,   Oma!    
+~           give me  thirty  minutes  see~you~soon  grandma 
+
+[LINE]
+> Vikram läuft nach   draußen.
+~ Vikram runs  to~the outside 
+
+[MULTIPLE_CHOICE]
+> It seems like Vikram…
+- …decided to go to a party.
+- …realized he needs to take a shower.
++ …has an idea to make his grandma feel better.
+
+[LINE]
+> Dreißig Minuten später ...
+~ thirty  minutes later     
+
+[LINE]
+> Vikram kommt mit  zwei großen Pflanzen wieder.
+~ Vikram comes with two  big    plants   back   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker593: Hier, Oma!     Pflanzen [aus~deinem~Wohnzimmer]!
+~           here  grandma  plants    from~your~living~room  
++ aus deinem Wohnzimmer
+- und Bohnen fürs Zimmer
+- von seinem Sohn immer
+
+[LINE]
+Speaker593: Und Blumen  aus  deinem Garten!
+~           and flowers from your   garden 
+
+[LINE]
+Speaker129: Oh Vikram, wie schön!    
+~           oh Vikram  how beautiful 
+
+[LINE]
+Speaker593: Jetzt hast~du  den Frühling und deinen Garten in deinem Zimmer!
+~           now   you~have the spring   and your   garden in your   room   
+
+[LINE]
+Speaker129: Vielen Dank,   Vikram! Jetzt geht's~mir schon   viel besser!
+~           many   thanks  Vikram  now   I~am       already much better 
+
+[MULTIPLE_CHOICE]
+> How sweet! Vikram…
+- …took his grandma back to her house.
++ …brought his grandma plants and flowers from her garden.
+- …bought his grandma a flower necklace.
+
+[MATCH]
+> Tap the pairs
+- habe <> have
+- bin <> am
+- läuft <> runs
+- in <> in
+- schon <> already
+
