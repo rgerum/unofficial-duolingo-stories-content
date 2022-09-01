@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Merci ?
+icon=0e35077f2bf31284d5967e7096a66da10d0a9bdf
+set=4|3
+
+[HEADER]
+> Thanks?
+~ merci  
+
+[LINE]
+> Zari gives Lily~a~box.      
+~ Zari donne une~boîte~à~Lily 
+
+[LINE]
+Speaker416: What's~this?
+~           c'est~quoi  
+
+[LINE]
+Speaker418: Open  the box!  
+~           ouvre la  boîte 
+
+[LINE]
+> Lily opens the box.  
+~ Lily ouvre la  boîte 
+
+[LINE]
+Speaker416: It's  a   shirt.  
+~           c'est une chemise 
+
+[LINE]
+Speaker418: It's  so   cute!  
+~           c'est trop mignon 
+
+[MULTIPLE_CHOICE]
+> Zari déteste la chemise.
+- Oui, c'est vrai.
++ Non, c'est faux.
+
+[LINE]
+Speaker416: It's  pink.
+~           c'est rose 
+
+[LINE]
+Speaker418: Yeah,  my favorite~color.  
+~           ouais  ma couleur~préférée 
+
+[LINE]
+Speaker416: And it~has a  cat  on~it. 
+~           et  il~y~a un chat dessus 
+
+[LINE]
+Speaker418: I~love  cats!     
+~           j'adore les~chats 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « moto ».
+Speaker416: (And) (the) (cat)  is  on  a   (+motorcycle).
+~            et    le    chat  est sur une   moto        
+
+[LINE]
+Speaker418: It's  so   funny!
+~           c'est trop drôle 
+
+[LINE]
+Speaker418: It's  a  perfect~birthday~present.     
+~           c'est un cadeau~d'anniversaire~parfait 
+
+[MULTIPLE_CHOICE]
+> Zari pense que la chemise est...
+- … d'une couleur moche.
++ … un cadeau d'anniversaire parfait.
+- ... pour le chat.
+
+[LINE]
+Speaker416: Zari, it's~not     my  birthday.    
+~           Zari  ce~n'est~pas mon anniversaire 
+
+[LINE]
+Speaker418: I  know. Today       is    my  birthday.    
+~           je sais  aujourd'hui c'est mon anniversaire 
+
+[LINE]
+Speaker416: Oh, right.     
+~           oh  c'est~vrai 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker418: [(You) (always~forget)    (my)  (birthday).]    
+~             tu    oublies~toujours   mon   anniversaire   
+
+[LINE]
+Speaker418: Now        you can~give~me   this  shirt!  
+~           maintenant tu  peux~m'offrir cette chemise 
+
+[LINE]
+Speaker416: Wow,   thank~you.
+~           waouh  merci     
+
+[LINE]
+Speaker418: No,  no.  Thank you.  
+~           non  non  merci à~toi 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Zari a-t-elle donné cette chemise à Lily ?
+- C'est l'anniversaire de Lily.
+- Lily a un chat qui fait de la moto.
++ Elle voulait que Lily la lui offre en cadeau.
+
+[MATCH]
+> Choisis les paires
+- cats <> les chats
+- It's <> c'est
+- Yeah <> ouais
+- Lily <> Lily
+- What's this <> c'est quoi
+
