@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Dîner de famille
+icon=076bc5bf725308c211b9c04f07d3622683e84d78
+set=5|2
+
+[HEADER]
+> Family~Dinner   
+~ dîner~de~famille
+
+[LINE]
+> Lin walks~into Bea's~kitchen.    
+~ Lin entre~dans la~cuisine~de~Bea 
+
+[LINE]
+> She  sees food             and bottles        of wine on  the table.
+~ elle voit de~la~nourriture et  des~bouteilles de vin  sur la  table 
+
+[MULTIPLE_CHOICE]
+> Bea a des bouteilles de lait sur la table.
++ Non, c'est faux.
+- Oui, c'est vrai.
+
+[LINE]
+Speaker508: Wow,   you have a~lot    of food.      
+~           waouh  tu  as   beaucoup de nourriture 
+
+[LINE]
+Speaker507: Yeah.  My family  is~coming~for~dinner.
+~           ouais  ma famille vient~dîner          
+
+[LINE]
+Speaker508: Ooh, can~I~have      some cake?  
+~           oh   je~peux~prendre du   gâteau 
+
+[LINE]
+Speaker507: No. 
+~           non 
+
+[LINE]
+Speaker508: But  you have three cakes.  
+~           mais tu  as   trois gâteaux 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker507: [(I~need)         (three) (cakes).]  
+~             j'ai~besoin~de   trois   gâteaux   
+
+[LINE]
+Speaker508: Well,    can~I~have    a  glass of wine?
+~           eh~bien  je~peux~avoir un verre de vin  
+
+[LINE]
+Speaker507: No. 
+~           non 
+
+[LINE]
+Speaker508: You have four   bottles    of wine.
+~           tu  as   quatre bouteilles de vin  
+
+[LINE]
+Speaker507: I~need         all~of the wine.
+~           j'ai~besoin~de tout   le  vin  
+
+[POINT_TO_PHRASE]
+> Choisir l'option qui veut dire « part ».
+Speaker508: Can~I~have    (a)   (+slice) (of) (pizza)?
+~           je~peux~avoir  une    part    de   pizza  
+
+[LINE]
+Speaker507: No,  Lin.
+~           non  Lin 
+
+[LINE]
+Speaker508: Fine. So,    what~time      is  dinner   with your family  tonight?
+~           bien  alors  à~quelle~heure est le~dîner avec ta   famille ce~soir 
+
+[LINE]
+Speaker507: Oh, my family  is~visiting    next~week.           
+~           oh  ma famille me~rend~visite la~semaine~prochaine 
+
+[MULTIPLE_CHOICE]
+> La famille de Bea va venir dîner...
+- … l'année prochaine.
++ … la semaine prochaine.
+- ... ce soir
+
+[LINE]
+Speaker507: This~is~all   for  me. 
+~           tout~ça~c'est pour moi 
+
+[LINE]
+Speaker508: What?!
+~           quoi  
+
+[LINE]
+Speaker507: I~have a   very~difficult~family!  I'm     stressed!
+~           j'ai   une famille~très~difficile  je~suis stressée 
+
+[LINE]
+Speaker507: I~need         all~of this  food       and wine   now.       
+~           j'ai~besoin~de toute  cette nourriture et  ce~vin maintenant 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Bea a-t-elle besoin de tant de nourriture et de vin ?
+- Elle va tout donner à Lin.
+- Sa mère a très faim.
++ Sa famille la stresse.
+
+[MATCH]
+> Choisis les paires
+- walks into <> entre dans
+- food <> de la nourriture
+- sees <> voit
+- wine <> vin
+- I have <> j'ai
+
