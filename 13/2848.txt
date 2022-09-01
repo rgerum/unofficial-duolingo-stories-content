@@ -1,0 +1,114 @@
+[DATA]
+fromLanguageName=It's an Emergency!
+icon=7e5d8724d525fd56e3abc838f2849ae269ebefd5
+set=17|3
+
+[HEADER]
+> C'est une urgence   !
+~ it's  an  emergency  
+
+[LINE]
+> Junior est à  la  piscine       avec son père,   Eddy.
+~ Junior is  at the swimming~pool with his father  Eddy 
+
+[LINE]
+> Il court vers    la  maître-nageuse.
+~ he runs  towards the lifeguard      
+
+[LINE]
+Speaker415: Au~secours !
+~           help        
+
+[LINE]
+Speaker415: Mon père   a~besoin~d'|aide !
+~           my  father needs       help  
+
+[LINE]
+Speaker856: Il~est~en~train~de~se~noyer ?!
+~           is~he~drowning                
+
+[MULTIPLE_CHOICE]
+> Why is the lifeguard worried?
+- She's afraid of children.
++ She thinks Junior's dad is drowning.
+- Junior is drowning.
+
+[POINT_TO_PHRASE]
+> Choose the option that means "swimsuit."
+Speaker415: (Non)… Il (a~besoin~d'aide) (avec) son (+maillot~de~bain).
+~            no    he  needs~help        with  his   swimsuit         
+
+[LINE]
+Speaker856: Je ne~comprends~pas…
+~           I  don't~understand 
+
+[LINE]
+Speaker415: Son~maillot~de~bain est trop petit.
+~           his~swimsuit        is  too  small 
+
+[LINE]
+Speaker415: Il ne~veut~pas  m'écouter…       C'est vraiment horrible !
+~           he doesn't~want to~listen~to~me  it's  really   horrible  
+
+[LINE]
+Speaker856: Je suis désolée, mais les~maîtres-nageurs sont là    pour les~urgences.
+~           I  am   sorry    but  lifeguards          are  there for  emergencies  
+
+[LINE]
+Speaker415: Mais c'est une urgence   ! Regardez !
+~           but  it's  an  emergency   look      
+
+[ARRANGE]
+> Tap what you hear
+> [(La)  (maître-nageuse) (voit) (Eddy).]
+~   the   lifeguard        sees   Eddy   
+
+[LINE]
+Speaker856: Oh, non !
+~           oh  no   
+
+[CONTINUATION]
+> What comes next?
+Speaker856: Tu  as~raison. Il~est~vraiment trop petit, ce   [maillot~de~bain ]!
+~           you are~right  it~really~is    too  small  that  swimsuit          
+- pantalon     
+~ pair~of~pants
++ maillot~de~bain
+~ swimsuit       
+- manteau
+~ coat   
+
+[LINE]
+> La  maître-nageuse appelle Eddy.
+~ the lifeguard      calls   Eddy 
+
+[LINE]
+Speaker856: Monsieur ! J'arrive   !
+~           sir        I'm~coming  
+
+[LINE]
+> La  maître-nageuse court vers    Eddy avec une grande serviette~rouge.
+~ the lifeguard      runs  towards Eddy with a   big    red~towel       
+
+[LINE]
+Speaker414: Qu'est-ce~qu'il~y~a ?!
+~           what's~wrong          
+
+[LINE]
+Speaker856: Monsieur, prenez cette serviette, s'il~vous~plaît. C'est une urgence   !
+~           sir       take   this  towel      please           it's  an  emergency  
+
+[MULTIPLE_CHOICE]
+> What's the emergency?
+- Eddy doesn't know how to swim.
+- Junior forgot to bring his towel.
++ Eddy's swimsuit is too small.
+
+[MATCH]
+> Tap the pairs
+- sont <> are
+- a besoin d' <> needs
+- Non <> no
+- père <> father
+- Il est vraiment <> it really is
+
