@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Geburtstagsplan
+icon=9ac312d372abe49d99606848f5a7a8414143346d
+set=11|1
+
+[HEADER]
+> Birthday~Plan  
+~ Geburtstagsplan
+
+[LINE]
+> Eddy is~sleeping. Junior runs  into his  room.  
+~ Eddy schläft      Junior rennt in   sein Zimmer 
+
+[LINE]
+Speaker415: Dad!  Dad! 
+~           Papa  Papa 
+
+[LINE]
+Speaker414: What? Huh? Oh, good  morning, Junior.
+~           was   hä   oh  guten Morgen   Junior 
+
+[LINE]
+Speaker415: Dad,  I   can't~wait~for~my~birthday~party!         
+~           Papa  ich kann~meine~Geburtstagsparty~kaum~erwarten 
+
+[MULTIPLE_CHOICE]
+> Junior will keine Geburtstagsparty.
++ Nein, das ist falsch.
+- Ja, das ist richtig.
+
+[LINE]
+Speaker414: Oh! Yes… Happy~birthday…?           
+~           oh  ja   alles~Gute~zum~Geburtstag  
+
+[LINE]
+Speaker414: What~kind~of party do~you~want, Junior?
+~           was~für~eine Party willst~du    Junior 
+
+[LINE]
+Speaker415: I   don't~know!
+~           ich weiß~nicht 
+
+[LINE]
+Speaker415: But  I   want ice~cream! A~lot~of ice~cream!
+~           aber ich will Eiscreme   viel     Eiscreme  
+
+[LINE]
+Speaker414: OK, Junior! It's   your birthday!  
+~           OK  Junior  es~ist dein Geburtstag 
+
+[ARRANGE]
+> Was hörst du?
+Speaker415: [(Can)    (we)  (also) (have~a~big~cake)?]          
+~             können   wir   auch   einen~großen~Kuchen~haben   
+
+[LINE]
+Speaker414: Of~course, Junior!
+~           natürlich  Junior 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker415: Great! And I   want [all~my~friends]            to~come!
+~           toll   und ich will  (dass)~alle~meine~Freunde  kommen  
+- a lot of fries
+- all of my fish
++ all my friends
+
+[LINE]
+Speaker414: Oh! We  need   to~invite~them~all now!  
+~           oh  wir müssen sie~alle~einladen  jetzt 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker414: What~time          do~you~want to~have~your~partyy]?
+~           zu~welcher~Uhrzeit willst~du   deine~Party~feiern   
++ your  party
+~ deine Party
+- my   birthday  
+~ mein Geburtstag
+- breakfast
+~ Frühstück
+
+[LINE]
+> Eddy looks  at  his  phone.
+~ Eddy schaut auf sein Handy 
+
+[LINE]
+Speaker414: Wait…   it's   only January. Your birthday   is  in May, Junior!
+~           Moment  es~ist erst Januar   dein Geburtstag ist im Mai  Junior 
+
+[LINE]
+Speaker415: Yes, I   know. I   can't~wait!           
+~           ja   ich weiß  ich kann~es~kaum~erwarten 
+
+[LINE]
+Speaker415: But  can    we  still    have~ice~cream today, Dad? 
+~           aber können wir trotzdem Eiscreme~essen heute  Papa 
+
+[LINE]
+Speaker414: Aaah… Yes, Junior.
+~           aaah  ja   Junior 
+
+[MULTIPLE_CHOICE]
+> Was ist Eddy eingefallen?
+- Junior mag keine Eiscreme.
++ Juniors Geburtstag ist erst in ein paar Monaten.
+- Er hat vergessen, dass heute Juniors Geburtstag ist.
+
+[MATCH]
+> Wähle die Paare
+- your <> dein
+- Wait <> Moment
+- is <> ist
+- only <> erst
+- phone <> Handy
+
