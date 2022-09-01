@@ -1,0 +1,110 @@
+[DATA]
+fromLanguageName=La decisión de Junior
+icon=e0600de22649754eb7336b587834d36407767819
+set=6|3
+
+[HEADER]
+> Le choix    de Junior
+~ la decisión de Junior
+
+[LINE]
+> Junior est  à  l'école    et c'est l'heure du  déjeuner.
+~ Junior está en la~escuela y  es    la~hora del almuerzo 
+
+[LINE]
+Speaker415: Bonjour,     Claudette. Je suis  prêt  pour le déjeuner !
+~           buenos~días  Claudette  yo estoy listo para el almuerzo  
+
+[LINE]
+Speaker395: Bonjour,     Junior. Aujourd'hui, nous~avons du~poisson.
+~           buenos~días  Junior  hoy          tenemos    pescado    
+
+[MULTIPLE_CHOICE]
+> Claudette dice que tienen pescado para el almuerzo.
++ Sí, así es.
+- No, no es así.
+
+[LINE]
+Speaker395: Avec le poisson, tu peux   avoir une salade…  
+~           con  el pescado  tú puedes tener una ensalada 
+
+[LINE]
+Speaker395: … ou des~pommes~de~terre.
+~             o  papas               
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "papas".
+Speaker415: (J'adore)     (les) (salades)   et les (+pommes~de~terre) !
+~            me~encantan   las   ensaladas  y  las   papas             
+
+[LINE]
+Speaker395: Tu dois       choisir un  des    deux, Junior.
+~           tú tienes~que elegir  uno de~los dos   Junior 
+
+[LINE]
+Speaker415: J'adore     les pommes~de~terres…
+~           me~encantan las papas            
+
+[LINE]
+Speaker415: … mais la salade,   c'est bon   pour la santé.
+~             pero la ensalada  es    buena para la salud 
+
+[MULTIPLE_CHOICE]
+> Mmm… ¿qué quiere decir Junior?
+- La ensalada causa dolor de estómago.
++ La ensalada es buena para la salud.
+- Él quiere ser una papa.
+
+[LINE]
+Speaker395: Junior ?
+~           Junior  
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker415: Oui, je dois      choisir un~des~deux   x].
+~           sí   yo tengo~que elegir  una~de~las~dos   
++ deux
+~ dos 
+- déjeuner
+~ almuerzo
+- salade  
+~ ensalada
+
+[LINE]
+Speaker415: Je veux   les pommes~de~terre. Non ! La salade.   Non !
+~           yo quiero las papas            no    la ensalada  no   
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker415: [Je~ne~sais~pas] !
+~            (yo)~no~sé       
+- Tu ne sais pas
+- Je ne suis pas
++ Je ne sais pas
+
+[LINE]
+Speaker395: Junior !
+~           Junior  
+
+[LINE]
+Speaker415: Oui, Claudette ?
+~           sí   Claudette  
+
+[LINE]
+Speaker395: Tu peux   avoir les pommes~de~terre et la salade.  
+~           tú puedes comer las papas           y  la ensalada 
+
+[MULTIPLE_CHOICE]
+> Claudette le dijo a Junior que…
+- …imaginara que las papas eran ensalada.
++ …tomara tanto las papas como la ensalada.
+- …fuera a comer a otro lugar.
+
+[MATCH]
+> Selecciona los pares
+- une <> una
+- la <> la
+- J'adore <> me encantan
+- avoir <> tener
+- tu <> tú
+
