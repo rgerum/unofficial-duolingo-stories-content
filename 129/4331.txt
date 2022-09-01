@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Yeni Alışveriş Merkezi
+icon=22d80e422eeb2f9e860d1f014edf989ff6257372
+set=9|4
+
+[HEADER]
+> The New  Mall             
+~ ~   Yeni Alışveriş~Merkezi
+
+[LINE]
+> Rebecca is~reading a   newspaper on  the bus.   
+~ ~       okuyor     bir gazete    -te ~   otobüs 
+
+[LINE]
+Speaker1320: Wow!
+
+[LINE]
+Speaker258: What?   
+~           ne~oldu 
+
+[LINE]
+Speaker1320: There's a   new  shopping~mall     in  the city! 
+~            Var     bir yeni alışveriş~merkezi -de ~   şehir 
+
+[MULTIPLE_CHOICE]
+> Rebecca'nın yaşadığı şehirde yeni bir alışveriş merkezi açılmış.
+- Hayır, yanlış.
++ Evet, bu doğru.
+
+[LINE]
+Speaker258: Really?      
+~           Gerçekten~mi 
+
+[LINE]
+Speaker1320: Yes,  and there~is a   3D        movie~theater!
+~            Evet  ve  var      bir 3~boyutlu sinema        
+
+[MULTIPLE_CHOICE]
+> Yeni alışveriş merkezinde ne var?
+- 3D yazıcı satıcısı.
++ 3D sinema.
+- 3D bir fotoğraf.
+
+[LINE]
+Speaker1320: And the Mexican~restaurant you~like       is~there too!
+~            Ve  ~   Meksika~restoranı  senin~sevdiğin var      -da 
+
+[LINE]
+Speaker258: I~want    to~go  now!  
+~           istiyorum gitmek şimdi 
+
+[LINE]
+Speaker258: Where~in  Pittsburgh    is   it?
+~           neresinde Pittsburgh'un -dir o  
+
+[LINE]
+Speaker1320: Hmm… Sidney Street?
+~            ~    Sidney sokağı 
+
+[LINE]
+Speaker258: I~don't~know where           Sidney Street    is.
+~           bilmiyorum   nerede~olduğunu Sidney sokağının ~  
+
+[CONTINUATION]
+> Sorunun sonu olabilir?
+Speaker258: Can~I~look      at the [newspaper]?
+~           bakabilir~miyim -e ~    gazete     
++ ... newspaper?
+- ... city?
+- ... movie?
+
+[LINE]
+Speaker1320: Here. 
+~            buyur 
+
+[LINE]
+Speaker258: Rebecca…
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker258: [(This) (mall)              (isn't) (new).] 
+~             Bu     alışveriş~Merkezi   değil   yeni   
+
+[LINE]
+Speaker258: It's the same mall              we    usually go~to.     
+~           bu   ~   aynı alışveriş~Merkezi bizim genelde gittiğimiz 
+
+[LINE]
+Speaker258: But   the~name is different!
+~           Fakat adı      ~  farklı    
+
+[MULTIPLE_CHOICE]
+> Alışveriş merkezi…
+- … Yeni açıldı, fakat Pittsburgh'da değil.
++ … Bildikleri aynı alışveriş merkezi ama adını değiştirmiş.
+-  … Kapanacak.
+
+[LINE]
+Speaker1320: Oh…
+
+[LINE]
+Speaker1320: Well, do~you~want to~go  to the "new"  mall?             
+~            peki  ister~misin gitmek -e ~    yeni  alışveriş~Merkezi 
+
+[LINE]
+Speaker1320: We~can~see  a   movie and eat         Mexican~food.  
+~            izleyebilir bir film  ve  yiyebiliriz Meksika~yemeği 
+
+[LINE]
+Speaker258: Yes! 
+~           Evet 
+
+[MULTIPLE_CHOICE]
+> Ne yapacaklar?
+- Meksika'da yeni bir alışveriş merkezine gidecekler.
++ Bir film izlemek ve Meksika yemeği yemek için alışveriş merkezine gidecekler.
+- Evde kalıp ve Meksika yemeği söyleyecekler.
+
+[MATCH]
+> Çiftlere dokun
+- I want <> istiyorum
+- I don't know <> bilmiyorum
+- and <> ve
+- the name <> adı
+- Pittsburgh <> Pittsburgh'un
+
