@@ -1,0 +1,104 @@
+[DATA]
+fromLanguageName=O assento é teu!
+icon=cd2e97ba5e87d05c1e69dd805c067ece32ea89d5
+set=17|4
+
+[HEADER]
+> ¡El asiento es tuyo!
+~  o  assento é  teu  
+
+[LINE]
+> Óscar y Eddy están en~el autobús.
+~ Óscar e Eddy estão no    ônibus  
+
+[LINE]
+Speaker414: Estoy muy   cansado.
+~           estou muito cansado 
+
+[LINE]
+Speaker592: Sí,  yo también.
+~           sim  eu também  
+
+[LINE]
+Speaker592: Ah… solo hay un asiento.
+~           ah  só   tem um assento 
+
+[LINE]
+Speaker414: Es    tuyo, tú eres más  viejo.
+~           ele~é teu   tu és   mais velho 
+
+[MULTIPLE_CHOICE]
+> O Eddy diz para o Óscar pegar o último assento do ônibus.
+- Não, não é isso.
++ Sim, isso mesmo.
+
+[LINE]
+Speaker592: ¿Perdón? Yo solo tengo tres años más    que tú.
+~            perdão  eu só   tenho três anos a~mais que tu 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "cabelos brancos".
+Speaker414: (Sí),  (pero) tú (tienes) (+canas).          
+~            sim    mas   tu  tens      cabelos~brancos  
+
+[LINE]
+Speaker592: ¡Tú también tienes canas,           Eddy!
+~            tu também  tens   cabelos~brancos  Eddy 
+
+[LINE]
+Speaker414: ¡¿Qué?!   ¿Dónde?
+~             o~quê    onde  
+
+[CONTINUATION]
+> O que vem depois?
+Speaker592: El asiento es tuyo, Eddy. Tú estás [muy   cansado].
+~           o  assento é  teu   Eddy  tu estás  muito cansado  
+- en mi  asiento
+~ em meu assento
+- en un taxi
+~ em um táxi
++ muy   cansado
+~ muito cansado
+
+[LINE]
+Speaker414: ¡No,  yo tengo mucha energía!
+~            não  eu tenho muita energia 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker414: [Voy~a~correr] todos los días.
+~            vou~correr    todos os  dias 
++ Voy a correr
+- Voy a cocer
+- Doy de comer
+
+[LINE]
+Speaker592: ¿Ves? Estás cansado porque vas~a correr todos los días. El asiento es tuyo.
+~            vês  estás cansado porque vais  correr todos os  dias  o  assento é  teu  
+
+[LINE]
+Speaker414: ¡No,  Óscar! ¡Es    tuyo!
+~            não  Óscar   ele~é teu  
+
+[LINE]
+> Un chico  se~sube al autobús.
+~ um garoto sobe    no ônibus  
+
+[LINE]
+Speaker1649: ¡Excelente, un asiento para mí! 
+~             excelente  um assento para mim 
+
+[MULTIPLE_CHOICE]
+> Por que nem o Eddy nem o Óscar pegaram o assento?
+- Eles queriam que o garoto se sentasse.
++ Os dois eram teimosos demais para se sentarem.
+- Ele estava muito sujo.
+
+[MATCH]
+> Toque nos pares
+- yo <> eu
+- asiento <> assento
+- pero <> mas
+- hay <> tem
+- vas a <> vais
+
