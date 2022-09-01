@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Family Dinner
+icon=8a8875810a4da32fd00d493513efd3adcb2a7c2a
+set=5|2
+
+[HEADER]
+> かぞくとの                      ばんごはん             
+~ with~family~[kazoku~to~no] dinner~[ban-gohan]
+
+[LINE]
+> リンは          ビーの            キッチン              に~はいります。                  
+~ Lin~[rin~wa] Bea's~[bii~no] kitchen~[kicchin] walks~into~[ni~hairimasu] 
+
+[LINE]
+> テーブル                  の~うえには           たべもの            と        ワイン         が~あります。               
+~ (the)~table~[teeburu] on~[no~ue~ni~wa] food~[tabemono] and~[to] wine~[wain] there~is~[ga~arimasu] 
+
+[MULTIPLE_CHOICE]
+> Bea has bottles of milk on her kitchen table.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker508: わあ|、たくさん                   あるね。                
+~           wow~[waa]  a~lot~[takusan] (you)~have~[aru~ne] 
+
+[LINE]
+Speaker507: うん|。かぞくが                           ばんごはん              を~たべに              くるんだ。                        
+~           yeah~[un]  (my)~family~[kazoku~ga] dinner~[ban-gohan] to~eat~[o~tabe~ni] is~coming~(here)~[kuru~n~da] 
+
+[LINE]
+Speaker508: あっ|、ケーキ~だ|！たべてもいい？                                        
+~           oh~[a']  cakes~[keeki~da]  can~I~eat~(some)~[tabetemo~ii] 
+
+[LINE]
+Speaker507: ダメ。       
+~           no~[dame] 
+
+[ARRANGE]
+> Tap what you hear
+Speaker508: [(でも|)、(ケーキは)                     (みっつ)            (あるよ)。]                
+~             but~[ demo]   cakes~[keeki~wa]   three~[mittsu]   (you)~have~[aru~yo]   
+
+[LINE]
+Speaker507: ケーキが             みっつ            ひつようなの。                   
+~           cakes~[keeki~ga] three~[mittsu] (I)~need~[hitsuyou~na~no] 
+
+[CONTINUATION]
+> What comes next?
+Speaker508: じゃあ|、ワインを                 ちょっと              [のんでもいい]？                  
+~           well~[jaa]  wine~[wain~o] a~little~[chotto]  can~I~drink~[nondemo~ii]  
++ のんでもいい                  
+~ can~I~drink~[nondemo~ii]
+- かってもいい                
+~ can~I~buy~[kattemo~ii]
+- いれてもいい                
+~ can~I~put~[iretemo~ii]
+
+[LINE]
+Speaker507: ダメ。       
+~           no~[dame] 
+
+[LINE]
+Speaker508: でも|、よんほんも                                    あるよ。                
+~           but~[demo]  (even)~four~bottles~[yon-hon~mo] (you)~have~[aru~yo] 
+
+[LINE]
+Speaker507: ぜんぶ                   ひつようなの。                   
+~           all~(of~them)~[zenbu] (I)~need~[hitsuyou~na~no] 
+
+[LINE]
+Speaker508: じゃあ|、ピザは                    たべてもいい？                        
+~           then~[jaa]  pizza~[piza~wa] can~I~eat~(some)~[tabetemo~ii] 
+
+[LINE]
+Speaker507: ダメだよ|、リン。                  
+~           no~[dame~da~yo]  Lin~[rin] 
+
+[LINE]
+Speaker508: まあ|、いいや|。それで|、かぞくとの                                                      ばんごはんは                      なんじからなの？                              
+~           well~[maa]  fine~[ii~ya]  so~[sorede]  with~(your)~family~[kazoku~to~no] (the)~dinner~[ban-gohan~wa] from~what~time~is~[nan-ji~kara~na~no] 
+
+[LINE]
+Speaker507: ああ|、らいしゅう                    だよ。             
+~           oh~[aa]  next~week~[raishuu] (it)~is~[da~yo] 
+
+[MULTIPLE_CHOICE]
+> Wait, when is Bea's family coming for dinner?
++ next week
+- tonight
+- next year
+
+[POINT_TO_PHRASE]
+> Choose the option that means "by myself."
+Speaker507: (これは)            (ぜんぶ)              (わたしが)           (+ひとりで)                  たべるんだよ。                   
+~            this~[kore~wa]   all~(of)~[zenbu]   I~[watashi~ga]    by~myself~[hitori~de]  will~eat~[taberu~n~da~yo] 
+
+[LINE]
+Speaker508: ええっ？！       
+~           what~[ee']  
+
+[LINE]
+Speaker507: わたしの            かぞくは               ふくざつ                    だ       から|、ストレスが~たまってるんだ。                                        
+~           my~[watashi~no] family~[kazoku~wa] complicated~[fukuzatsu] is~[da] because~[kara]  I'm~stressed~[sutoresu~ga~tamatteru~n~da] 
+
+[LINE]
+Speaker507: だから         いま        この          たべもの            と        ワインが           ぜんぶ              ひつようなの。                   
+~           so~[dakara] now~[ima] this~[kono] food~[tabemono] and~[to] wine~[wain~ga] all~(of)~[zenbu] (I)~need~[hitsuyou~na~no] 
+
+[MULTIPLE_CHOICE]
+> Why does Bea need so much food and wine?
+- She is going to give it all to Lin.
++ Her family makes her stressed.
+- Her mother is really hungry.
+
+[MATCH]
+> Tap the pairs
+- あるよ <> have [aru yo]
+- かぞくが <> family [kazoku ga]
+- ええっ <> what [ee']
+- だから <> so [dakara]
+- それで <> so [sorede]
+
