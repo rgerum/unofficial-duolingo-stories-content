@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=Chuyến taxi
+icon=44410efbb175e599d5fbe5b4d86050262f324ca0
+set=13|4
+
+[HEADER]
+> Taxi~Ride  
+~ chuyến~taxi
+
+[LINE]
+> Bea is~in           a~taxi.  She   is~looking~at the~map on   her~phone.             
+~ Bea đang~ngồi~trong xe~taxi  cô~ấy đang~xem      bản~đồ  trên điện~thoại~(của~cô~ấy) 
+
+[LINE]
+Speaker507: Turn       left at the~end   of  the~street, please.
+~           xin~hãy~rẽ trái ở  phía~cuối của con~phố     làm~ơn 
+
+[LINE]
+Speaker889: I   don't~need     to~turn for~three~more~miles.
+~           tôi không~cần~phải rẽ      trong~ba~dặm~nữa     
+
+[MULTIPLE_CHOICE]
+> Khoan đã! Chú tài xế vừa nói gì vậy?
++ Đi ba dặm nữa mới cần phải rẽ.
+- Chú ấy đang lái xe ba dặm một giờ.
+- Chú ấy muốn chạy bộ ba dặm.
+
+[LINE]
+Speaker507: The~directions on   my~phone            say that~road~is faster…   
+~           chỉ~dẫn        trên điện~thoại~của~cháu bảo con~đường~đó nhanh~hơn 
+
+[LINE]
+Speaker889: Excuse~me,      I   know all    the~roads     in    this~city.    
+~           xin~lỗi~cô~chứ  tôi biết tất~cả các~con~đường trong thành~phố~này 
+
+[LINE]
+Speaker507: This~phone         knows all    the~roads     in    every city.     
+~           cái~điện~thoại~này biết  tất~cả các~con~đường trong mọi   thành~phố 
+
+[LINE]
+Speaker889: Ha, well,    the~phone      isn't~driving  the~car. I'm        the~driver.
+~           hứ  này~nhé  cái~điện~thoại đang~không~lái xe       tôi~mới~là người~lái  
+
+[LINE]
+Speaker507: But   I'm~paying    for the~ride, right?       
+~           nhưng cháu~trả~tiền cho cuốc~xe   phải~không~ạ 
+
+[MULTIPLE_CHOICE]
+> Vì sao Bea lại nói thế?
+- Cô ấy lái taxi vào những lúc rảnh rỗi.
+- Cô ấy muốn tài xế đưa tiền cho mình.
++ Cô ấy muốn tài xế phải đi theo chỉ dẫn của cô ấy.
+
+[LINE]
+Speaker889: OK,  OK! 
+~           rồi  rồi 
+
+[LINE]
+> The~driver   turns left and stops the~car.
+~ người~tài~xế rẽ    trái rồi dừng  xe      
+
+[LINE]
+Speaker889: We're~here.             Are~you~going~swimming?
+~           (chúng~ta)~tới~nơi~rồi  cô~định~đi~bơi~à       
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker507: No,    [I'm~going~shopping]. Why?      
+~           không   cháu~đi~mua~sắm      sao~vậy~ạ 
++ I'm going shopping
+- I'm good at stopping
+- I'm good at shopping
+
+[LINE]
+Speaker889: Because the~road  stops~here.       At  the~river.
+~           bởi~vì  con~đường kết~thúc~tại~đây  tại con~sông  
+
+[LINE]
+Speaker507: Oops…
+~           ối   
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker507:  [(I)    (think) (my~directions)    (are) (wrong).]  
+~              cháu   nghĩ    chỉ~dẫn~của~cháu   bị    sai~rồi   
+
+[LINE]
+Speaker507: I'm  so  sorry.  
+~           cháu rất xin~lỗi 
+
+[LINE]
+Speaker889: Do~you~want      to~use my~directions?  
+~           cô~có~muốn…không dùng   chỉ~dẫn~của~tôi 
+
+[LINE]
+Speaker507: Yes,  please…
+~           có~ạ  làm~ơn 
+
+[MULTIPLE_CHOICE]
+> Thôi xong! Bea nhận ra rằng…
+- …cô ấy là một tài xế xuất sắc.
++ …cô ấy đã chỉ sai đường.
+- …điện thoại của cô ấy cái gì cũng biết.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- I'm going shopping <> cháu đi mua sắm
+- in <> trong
+- for <> cho
+- I'm <> tôi mới là
+- We're here <> tới nơi rồi
+
