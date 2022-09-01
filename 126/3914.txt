@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=Problema na massa
+icon=9a8e4c90ef30a62e59cf23d4265247e2655c4cec
+set=27|3
+
+[HEADER]
+> Pasta~Problem    
+~ problema~na~massa
+
+[LINE]
+> Bea is~eating    pasta at a  restaurant  in Rome. A  waiter walks~past her~table.
+~ Bea está~comendo massa em um restaurante em Roma  um garçom passa~pela mesa~dela 
+
+[LINE]
+Speaker507: Excuse~me!   There's a  problem  with my    pasta.
+~           com~licença  há      um problema com  minha massa 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker385: That's~not possible. That's [our~most~popular~dish]!   
+~           isso~não~é possível  isso~é  nosso~prato~mais~popular  
+- our most popular wish
++ our most popular dish
+- your most popular fish
+
+[LINE]
+Speaker507: Did~the~recipe~change?
+~           a~receita~mudou       
+
+[LINE]
+Speaker385: No!  Our   recipe  hasn't~changed in fifty     years!
+~           não  nossa receita não~mudou      em cinquenta anos  
+
+[CONTINUATION]
+> O que vem depois?
+Speaker507: Well, I  ate  this pasta here seven years ago,   and now   [it  tastes         different].
+~           bem   eu comi esta massa aqui sete  anos  atrás  e   agora  ela está~com~gosto diferente  
+- I  work     here
+~ eu trabalho aqui
+- I  need       glasses
+~ eu preciso~de óculos 
++ it  tastes         different
+~ ela está~com~gosto diferente
+
+[LINE]
+Speaker385: Seven years is a~long~time. Maybe~you're       different.
+~           sete  anos  é  muito~tempo  talvez~você~esteja diferente 
+
+[LINE]
+Speaker507: Hmm… I  was younger    then.  Everything was new  and exciting.   
+~           hmm  eu era mais~jovem então  tudo       era novo e   emocionante 
+
+[LINE]
+Speaker385: OK…   
+~           certo 
+
+[LINE]
+Speaker507: I'm    a~lot more serious now.  
+~           eu~sou muito mais séria   agora 
+
+[LINE]
+Speaker507: But I'm~also      more responsible and intelligent.
+~           mas eu~também~sou mais responsável e   inteligente 
+
+[LINE]
+Speaker507: You're~right.   I've~changed a~lot! Thanks!  
+~           você~tem~razão  eu~mudei     muito  obrigada 
+
+[MULTIPLE_CHOICE]
+> Por que a Bea acabou de agradecer ao garçom?
+- Ele deu a receita do macarrão para ela.
++ Ele a ajudou a perceber o quanto ela mudou.
+- Ele disse que ela é responsável e inteligente.
+
+[LINE]
+Speaker385: You're~welcome.
+~           de~nada        
+
+[LINE]
+Speaker507: What  happened~to   the waiter who worked     here seven years ago?  
+~           o~que aconteceu~com o   garçom que trabalhava aqui sete  anos  atrás 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "óculos de sol".
+Speaker507: He  (had)   (+sunglasses)    (and) a  (mustache).
+~           ele  tinha    óculos~de~sol   e    um  bigode    
+
+[LINE]
+Speaker385: That's Antonio.  
+~           esse~é o~Antonio 
+
+[LINE]
+Speaker507: Does~he~still~work here?
+~           ele~ainda~trabalha aqui 
+
+[LINE]
+Speaker385: No,  he  never worked    here.
+~           não  ele nunca trabalhou aqui 
+
+[LINE]
+Speaker385: He  works    at~the restaurant  across~the       street.
+~           ele trabalha no     restaurante do~outro~lado~da rua    
+
+[LINE]
+Speaker507: Oh…
+~           ah 
+
+[MULTIPLE_CHOICE]
+> Parece que…
+- …a Bea está com o mesmo garçom de sete anos atrás.
+- …a Bea está usando óculos de sol e um bigode falso.
++ …a Bea está no restaurante errado.
+
+[LINE]
+> Later,      Bea is~eating    the same  pasta~dish     in~the restaurant  across~the       street.
+~ mais~tarde  Bea está~comendo o   mesmo prato~de~massa no     restaurante do~outro~lado~da rua    
+
+[LINE]
+Speaker507: Yeah, this tastes~exactly~the~same.     
+~           sim   isto tem~exatamente~o~mesmo~gosto 
+
+[LINE]
+Speaker507: That's sad.    Maybe~I~haven't~changed.   
+~           isso~é triste  talvez~eu~não~tenha~mudado 
+
+[MULTIPLE_CHOICE]
+> Por que a Bea acha que ela não mudou?
+- O garçom tirou os óculos de sol dele.
+- Ela esqueceu qual era o gosto do macarrão.
++ No fim das contas, o macarrão deste restaurante tem o mesmo gosto.
+
+[MATCH]
+> Toque nos pares
+- here <> aqui
+- walks past <> passa pela
+- He <> ele
+- restaurant <> restaurante
+- then <> então
+
