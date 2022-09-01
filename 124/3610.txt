@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Une conversation intéressante
+icon=6711cee61441da3d7aa6099466d6fff137239c3a
+set=11|3
+
+[HEADER]
+> An  Interesting~Conversation 
+~ une conversation~intéressante
+
+[LINE]
+> Bea is~sitting on  a  bench in   the park.
+~ Bea est~assise sur un banc  dans le  parc 
+
+[LINE]
+Speaker258: Excuse~me,  can~I~sit         here?
+~           excuse-moi  puis-je~m'asseoir ici  
+
+[LINE]
+Speaker507: Yes.
+~           oui 
+
+[LINE]
+Speaker507: But  I'm~waiting~for my  friend.
+~           mais j'attends       mon amie   
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « petit ami ».
+Speaker507: (She's~coming) (here) (with) her (+boyfriend).
+~            elle~vient     ici    avec  son   petit~ami  
+
+[LINE]
+Speaker258: Oh, really?  
+~           oh  vraiment 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker507: I'm     really   excited    [to~meet~him].     
+~           je~suis vraiment impatiente  de~le~rencontrer  
++ to meet him
+- to make him
+- to eat meat
+
+[LINE]
+Speaker258: Why?     
+~           pourquoi 
+
+[LINE]
+Speaker507: She  likes~him a~lot.   
+~           elle l'aime    beaucoup 
+
+[LINE]
+Speaker258: Interesting…
+~           intéressant 
+
+[LINE]
+Speaker507: She  is~going~to~ask~him to~marry~her…
+~           elle va~lui~demander     de~l'épouser 
+
+[LINE]
+Speaker507: … this weekend! 
+~             ce   week-end 
+
+[MULTIPLE_CHOICE]
+> L'amie de Bea va…
++ … demander son petit ami en mariage ce week-end.
+- … partir en vacances avec elle ce week-end.
+- … acheter une maison avec son petit ami le mois prochain.
+
+[LINE]
+Speaker258: This weekend? 
+~           ce   week-end 
+
+[LINE]
+Speaker507: Yes. It's  so        exciting!
+~           oui  c'est tellement génial   
+
+[LINE]
+Speaker507: Oh! My  friend is  here!
+~           oh  mon amie   est ici  
+
+[LINE]
+Speaker507: Hey,   Emily.
+~           salut  Emily 
+
+[LINE]
+Speaker260: Hey,   Bea!
+~           salut  Bea 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker260: Oh, [you're~talking~to] Leo! That's great! 
+~           oh   tu~parles~à        Leo  c'est  génial 
+- you talk to
++ you're talking to
+- you take the
+
+[LINE]
+Speaker507: Huh?  Who is  Leo?
+~           hein  qui est Leo 
+
+[LINE]
+Speaker260: My  boyfriend, Leo. He is~sitting next~to   you!
+~           mon petit~ami  Leo  il est~assis  à~côté~de toi 
+
+[LINE]
+Speaker507: Oh no! 
+~           oh non 
+
+[LINE]
+Speaker258: Nice~to~meet~you, Bea.
+~           enchanté          Bea 
+
+[MULTIPLE_CHOICE]
+> Oups ! Sans le faire exprès, Bea vient de dire à Leo...
++ ... que sa petite amie va le demander en mariage.
+- ... qu'elle est en couple avec sa petite amie.
+- ... que sa petite amie va rompre avec lui.
+
+[MATCH]
+> Choisis les paires
+- to marry her <> de l'épouser
+- Bea <> Bea
+- excited <> impatiente
+- exciting <> génial
+- is <> est
+
