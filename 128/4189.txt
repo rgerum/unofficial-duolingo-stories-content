@@ -1,0 +1,110 @@
+[DATA]
+fromLanguageName=Con muốn nuôi chó
+icon=f0d8a8f3340da1d468766192cafa7ac1ee986355
+set=6|4
+
+[HEADER]
+> I   Really      Want~a~Dog   
+~ con thật~sự~rất muốn~nuôi~chó
+
+[LINE]
+Speaker415: Dad,   we       need     to~talk.    I   really      want~a~dog.   
+~           bố~ơi  chúng~ta cần~phải nói~chuyện  con thật~sự~rất muốn~nuôi~chó 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker414: Junior, a~dog      [is~a~lot~of~work]…      
+~           Junior  (nuôi)~chó  tốn~nhiều~công~sức~lắm  
+- in a lot of weeks
+- if a love for work
++ is a lot of work
+
+[LINE]
+Speaker415: I   can~work!        I'm very responsible.   
+~           con có~thể~làm~việc  con rất  có~trách~nhiệm 
+
+[LINE]
+Speaker414: Really?       
+~           thật~không~hả 
+
+[LINE]
+Speaker414: Then    first,     you need     to~wash the~car…
+~           Thế~thì trước~hết  con cần~phải rửa     xe~ô~tô 
+
+[MULTIPLE_CHOICE]
+> Vì sao Eddy lại bảo Junior đi rửa xe ô tô?
+- Junior cần phải lái xe tới chỗ làm việc mới.
++ Anh ấy muốn Junior chứng tỏ cậu bé là người có trách nhiệm.
+- Chó của Junior làm bẩn xe ô tô.
+
+[LINE]
+Speaker415: Sure!       
+~           được~thôi~ạ 
+
+[LINE]
+Speaker414: …clean    the~bathroom…
+~            dọn~sạch phòng~tắm    
+
+[LINE]
+Speaker415: OK!  
+~           vâng 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker414: …[(and) (clean)    (the~windows)!]    
+~              và    lau~sạch   các~cánh~cửa~sổ   
+
+[LINE]
+Speaker415: Oh~no…   
+~           chán~thế 
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “sau đó”.
+> (Three) (hours) (+later),  (Junior) finishes~cleaning their~apartment.
+~  ba      tiếng    sau~đó    Junior  dọn~xong          căn~hộ~của~họ   
+
+[LINE]
+Speaker415: Dad!   Look~at      my~work!          
+~           bố~ơi  hãy~nhìn…này thành~quả~của~con 
+
+[LINE]
+Speaker414: Wow! This~looks~great!  You are     very responsible.   
+~           ồ    giỏi~lắm~con~trai  con đúng~là rất  có~trách~nhiệm 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker414: You can~have             [a~dog]!
+~           con có~thể~nuôi…được~rồi  chó    
+- a~toilet
+~ bồn~cầu 
+- a~window
+~ cửa~sổ  
++ a~dog
+~ chó  
+
+[LINE]
+Speaker415: No,   thank~you! I   don't~want~a~dog        now.     
+~           thôi  cảm~ơn~bố  con không~muốn~nuôi~chó~nữa giờ~thì… 
+
+[LINE]
+Speaker414: But   Junior, I  don't~understand…
+~           nhưng Junior  bố không~hiểu       
+
+[LINE]
+Speaker415: I'm~tired!   I   don't~want to~be~responsible!   
+~           con~mệt~rồi  con không~muốn chịu~trách~nhiệm~đâu 
+
+[MULTIPLE_CHOICE]
+> Cuối cùng Junior đã quyết định...
++ …sẽ không đòi nuôi chó nữa vì quá mệt.
+- …sẽ nuôi bò thay vì nuôi chó.
+- …sẽ nhận nuôi bốn chú chó.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- first <> trước hết
+- to wash <> rửa
+- Dad <> bố ơi
+- Look at <> hãy nhìn…này
+- to be responsible <> chịu trách nhiệm đâu
+
