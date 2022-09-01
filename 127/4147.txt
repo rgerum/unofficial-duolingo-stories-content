@@ -1,0 +1,114 @@
+[DATA]
+fromLanguageName=O táxi
+icon=44410efbb175e599d5fbe5b4d86050262f324ca0
+set=13|4
+
+[HEADER]
+> El taxi
+~ o  táxi
+
+[LINE]
+> Bea está en un taxi. Ella está mirando el mapa en su~teléfono.  
+~ Bea está em um táxi  ela  está olhando o  mapa no telefone~dela 
+
+[LINE]
+Speaker507: A~la izquierda en~la próxima, por favor.
+~           à    esquerda  na    próxima  por favor 
+
+[LINE]
+Speaker889: No,  tengo que seguir~derecho   por~otros tres kilómetros. 
+~           não  tenho que seguir~em~frente por~mais  três quilômetros 
+
+[MULTIPLE_CHOICE]
+> Por qual distância o motorista precisa seguir em frente?
+- um quilômetro
+- dez quilômetros
++ três quilômetros
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "diz".
+Speaker507: Mi  teléfono (+dice) (que) es (más)  rápido por (aquí)…
+~           meu telefone   diz    que  é   mais  rápido por  aqui  
+
+[LINE]
+Speaker889: Perdón,   pero conozco todas las calles de~esta ciudad.
+~           desculpe  mas  conheço todas as  ruas   desta   cidade 
+
+[LINE]
+Speaker507: Y este teléfono conoce  todas las calles de todas las ciudades del mundo.
+~           e este telefone conhece todas as  ruas   de todas as  cidades  do  mundo 
+
+[LINE]
+Speaker889: Jajajaja, bueno, yo estoy manejando, no  el teléfono…
+~           hahahaha  bom    eu estou dirigindo  não o  telefone 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker507: Pero [yo~estoy~pagando], ¿no? 
+~           mas   eu~estou~pagando    não 
+- ya estoy parando
+- no están pagando
++ yo estoy pagando
+
+[LINE]
+Speaker889: ¡Está bien, está bien!
+~            está bem   está bem  
+
+[LINE]
+> El hombre gira a~la izquierda y para el carro.
+~ o  homem  vira à    esquerda  e para o  carro 
+
+[MULTIPLE_CHOICE]
+> O homem vira à esquerda e segue em frente.
++ Não, não é isso.
+- Sim, isso mesmo.
+
+[LINE]
+Speaker889: Ya llegamos. ¿Va~a nadar?
+~           já chegamos   vai  nadar 
+
+[LINE]
+Speaker507: No,  voy de~compras. ¿Por qué?
+~           não  vou às~compras   por quê 
+
+[LINE]
+Speaker889: Porque ya no  puedo seguir. Hay un río, ¿lo~ve?     
+~           porque já não posso seguir  tem um rio   está~vendo 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker507: Ups… Creo que mi  teléfono no  conoce  [todas las calles]…
+~           opa  acho que meu telefone não conhece  todas as  ruas    
+- estos gatos
+~ estes gatos
++ todas las calles
+~ todas as  ruas  
+- todos los taxis
+~ todos os  táxis
+
+[LINE]
+Speaker507: Lo~siento~mucho.
+~           sinto~muito     
+
+[LINE]
+Speaker889: Pero yo sí  las conozco. ¿Vamos?
+~           mas  eu sim as  conheço   vamos 
+
+[LINE]
+Speaker507: Sí,  por favor…
+~           sim  por favor 
+
+[MULTIPLE_CHOICE]
+> Opa! A Bea percebeu que…
++ …o telefone dela estava errado.
+- …ela é uma ótima motorista de táxi.
+- …ela não tem nenhum dinheiro.
+
+[MATCH]
+> Toque nos pares
+- taxi <> táxi
+- yo <> eu
+- por otros <> por mais
+- qué <> quê
+- el <> o
+
