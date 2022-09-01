@@ -1,0 +1,187 @@
+[DATA]
+fromLanguageName=O reembolso
+icon=8d2cee2e2c88355a3e6a2d98c1b6723c455c41b5
+set=62|1
+
+[HEADER]
+> The Refund   
+~ o   reembolso
+
+[LINE]
+> Lily is~working       at~the clothing~store.
+~ Lily está~trabalhando na     loja~de~roupas 
+
+[LINE]
+Speaker1551: Excuse~me,   how~much is this suit? 
+~            com~licença  quanto   é  este terno 
+
+[LINE]
+Speaker416: Two~hundred dollars. Do~you~want to~try~the~suit~on?  
+~           duzentos    dólares  você~quer   experimentar~o~terno 
+
+[MULTIPLE_CHOICE]
+> Lily is~asking        if the man   wants…
+~ Lily está~perguntando se o   homem quer  
+- …to~put  the suit  on a   shelf.     
+~  colocar o   terno em uma prateleira 
+- …to~see a   picture of someone wearing the suit. 
+~  ver    uma foto    de alguém  usando  o   terno 
++ …to~make~sure       the suit  fits before~he~buys~it.     
+~  ter~certeza~de~que o   terno cabe antes~que~ele~o~compre 
+
+[LINE]
+Speaker1551: No,  I  don't~have time.  Just take my      money!   
+~            não  eu não~tenho  tempo  só   toma (o)~meu dinheiro 
+
+[LINE]
+> The man   buys   the suit.  The~next~day,    he  returns to   the store.
+~ o   homem compra o   terno  no~dia~seguinte  ele retorna para a   loja  
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker1551: Excuse~me!   I  want  a  refund   [for~this~suit]. 
+~            com~licença  eu quero um rembolso  por~este~terno  
+- for this soup
++ for this suit
+- or it's cute
+
+[LINE]
+Speaker416: Why?     Is~there a  problem? 
+~           por~quê  há       um problema 
+
+[LINE]
+Speaker1551: This is~not a  black~suit! 
+~            este não~é  um terno~preto 
+
+[LINE]
+Speaker416: You're~right.   That's a  blue~suit. 
+~           você~tem~razão  esse~é um terno~azul 
+
+[LINE]
+Speaker1551: I  came here to~buy         a  black~suit. 
+~            eu vim  aqui (para)~comprar um terno~preto 
+
+[CONTINUATION]
+> What  comes next?  
+~ o~que vem   depois 
+Speaker416: OK,    so    why     did~you~buy  [a  blue~suit]? 
+~           certo  então por~que você~comprou  um terno~azul  
+- a  pair of shoes  
+~ um par  de sapatos
+- a  black~suit 
+~ um terno~preto
++ a  blue~suit 
+~ um terno~azul
+
+[LINE]
+Speaker1551: Look~at   my~family~photo!        
+~            olha~para a~foto~da~minha~família 
+
+[LINE]
+> The man   shows         Lily his~family~photo.      
+~ o   homem mostra~(para) Lily a~foto~da~família~dele 
+
+[LINE]
+Speaker1551: My        wife   is~wearing  a  black~dress   in~this photo. She told~me  to~wear     a  black~suit  to~match            her~dress!     
+~            (a)~minha esposa está~usando um vestido~preto nesta   foto   ela me~disse (para)~usar um terno~preto (para)~combinar~com o~vestido~dela 
+
+[LINE]
+Speaker416: I'm~sorry,      dude. You  can't~return      the suit  if you  wore it. 
+~           eu~sinto~muito  cara  você não~pode~devolver o   terno se você usou ele 
+
+[LINE]
+Speaker1551: I  only wore the suit  for an  hour!
+~            eu só   usei o   terno por uma hora 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker416: [(Read) (the) (bottom)         (of~the) (receipt).]
+~             leia   a     parte~de~baixo   do       recibo    
+
+[LINE]
+> He  reads the receipt.
+~ ele lê    o   recibo  
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker1551: "No~refunds     if you  [wear~the~clothing]."
+~             sem~reembolsos se você  usar~a~roupa        
+- we're closing
++ wear the clothing
+- wears their clothing
+
+[LINE]
+Speaker1551: But the suit  didn't~even~fit me!  It  was so  uncomfortable! 
+~            mas o   terno nem~cabia~(em)  mim  ele era tão desconfortável 
+
+[LINE]
+Speaker416: Listen, I'm~sorry.      I  can't~give        you  a  refund    unless~there~was       a  problem.  Like, if~the~suit~was      damaged—   
+~           escuta  eu~sinto~muito  eu não~posso~dar~(a) você um reembolso a~não~ser~que~houvesse um problema  tipo  se~o~terno~estivesse danificado 
+
+[LINE]
+Speaker1551: I  can~get     a  refund    if~the~suit~is     damaged?    Well, fine!   Look!
+~            eu posso~obter um reembolso se~o~terno~estiver danificado  bem   tá~bom  olha 
+
+[ARRANGE]
+> Toque no que escutar
+> [(He)  (tears~the~sleeve~off) (of~the) (suit).] 
+~   ele   arranca~a~manga        do       terno   
+
+[LINE]
+Speaker416: Dude! That's~not cool. 
+~           cara  isso~não~é legal 
+
+[LINE]
+Speaker1551: I  want  my        two~hundred dollars back!    
+~            eu quero (os)~meus duzentos    dólares de~volta 
+
+[LINE]
+> The store~manager   runs~over~to the cash~register.     
+~ a   gerente~da~loja corre~até    a   caixa~registradora 
+
+[LINE]
+Speaker1186: What is the problem? 
+~            qual é  o   problema 
+
+[CONTINUATION]
+> What  comes next?  
+~ o~que vem   depois 
+Speaker1186: Oh! Sir,    your~suit     looks          damaged.    Would~you~like     [a  refund]?   
+~            ah  senhor  (o)~seu~terno parece~(estar) danificado  você~gostaria~(de)  um reembolso  
+- a  sandwich 
+~ um sanduíche
++ a  refund   
+~ um reembolso
+- a   new~lamp      
+~ uma luminária~nova
+
+[LINE]
+Speaker1551: Yes, please!    Thank~you~so~much, ma'am.  
+~            sim  por~favor  muito~obrigado     senhora 
+
+[LINE]
+Speaker1186: Lily, we  will~talk about this later.     
+~            Lily  nós falaremos sobre isto mais~tarde 
+
+[LINE]
+Speaker416: I  hate  this job.    
+~           eu odeio este emprego 
+
+[MULTIPLE_CHOICE]
+> The man   tore~the~sleeve~off the suit… 
+~ o   homem arrancou~a~manga    do  terno 
+- …because the sleeve was    too~long.    
+~  porque  a   manga  estava longa~demais 
++ …so~he~could~get            a  refund.   
+~  para~que~ele~pudesse~obter um reembolso 
+- …because he  liked~the~suit~better without sleeves.    
+~  porque  ele gostava~mais~do~terno sem     (as)~mangas 
+
+[MATCH]
+> Toque nos pares
+- black dress <> vestido preto
+- a <> um
+- this <> este
+- Would you like <> você gostaria
+- Is there <> há
+
