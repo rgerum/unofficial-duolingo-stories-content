@@ -1,0 +1,119 @@
+[DATA]
+fromLanguageName=I Want a Dog
+icon=bd9341c78bf48d9dd6261a57030ac813fb1c6452
+set=6|4
+
+[HEADER]
+> Eu quero um cachorro
+~ I  want  a  dog     
+
+[LINE]
+Speaker415: Papai, precisamos conversar.
+~           Dad    we~need    to~talk   
+
+[LINE]
+Speaker414: Sim, Júnior!
+~           yes  Júnior 
+
+[LINE]
+Speaker415: Eu quero um cachorro.
+~           I  want  a  dog      
+
+[LINE]
+Speaker414: Um cachorro dá~muito~trabalho, Júnior.
+~           a  dog      is~a~lot~of~work   Júnior 
+
+[MULTIPLE_CHOICE]
+> Eddy says dogs can take care of themselves.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker415: Por~favor, papai! Eu sou muito responsável!
+~           please     Dad    I  am  very  responsible 
+
+[LINE]
+Speaker414: Humm...
+~           hmm    
+
+[LINE]
+Speaker414: Então, você precisa lavar   o   carro…
+~           then   you  need    to~wash the car   
+
+[MULTIPLE_CHOICE]
+> Why does Eddy tell Júnior to wash the car?
++ He wants Júnior to prove he's responsible.
+- Júnior needs to drive to his new job.
+- Júnior's dog got the car really dirty.
+
+[LINE]
+Speaker415: Está~bem! 
+~           all~right 
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: …[(e)   (depois)     (lavar)     (o)   (banheiro)…]
+~              and   after~that   (to)~wash   the   bathroom   
+
+[LINE]
+Speaker415: Sim…
+~           yes 
+
+[LINE]
+Speaker414: …e   lavar     as  janelas!
+~            and (to)~wash the windows 
+
+[LINE]
+Speaker415: Ah, não!
+~           oh  no  
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "finishes."
+> Três  (horas) (depois), (Júnior) (+termina~de) lavar   tudo.      
+~ three  hours   later     Júnior    finishes    washing everything 
+
+[LINE]
+Speaker415: Papai! Olha!
+~           Dad    look 
+
+[LINE]
+Speaker414: Muito bem,  Júnior! Você é   muito responsável.
+~           very  well  Júnior  you  are very  responsible 
+
+[CONTINUATION]
+> What comes next?
+Speaker414: Eu vou      dar     um [cachorro pra você]!
+~           I  am~going to~give a   dog      to  you   
+- carro pra você
+~ car   for you 
++ cachorro pra você
+~ dog      to  you 
+- banheiro na     casa 
+~ bathroom in~the house
+
+[LINE]
+Speaker415: Não, obrigado!  Eu não~quero  um cachorro.
+~           no   thank~you  I  don't~want a  dog      
+
+[LINE]
+Speaker414: Você não~quer   um cachorro?
+~           you  don't~want a  dog      
+
+[LINE]
+Speaker415: Não! Eu estou cansado! Eu não~quero  ser   responsável!
+~           no   I  am    tired    I  don't~want to~be responsible 
+
+[MULTIPLE_CHOICE]
+> Júnior decided…
+- …he should adopt four dogs.
++ …he's too tired to take care of a dog.
+- …he wants a cow instead.
+
+[MATCH]
+> Tap the pairs
+- vou <> am going
+- responsável <> responsible
+- você <> you
+- cansado <> tired
+- bem <> well
+
