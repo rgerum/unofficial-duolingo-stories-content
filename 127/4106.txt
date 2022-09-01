@@ -1,0 +1,85 @@
+[DATA]
+fromLanguageName=Preciso de um videogame novo
+icon=ce0ae956035c1bac6b9c64737466d59c5d027e97
+set=3|3
+
+[HEADER]
+> Necesito   un videojuego        nuevo
+~ preciso~de um jogo~de~videogame novo 
+
+[LINE]
+> Junior y Eddy están en una tienda.
+~ Junior e Eddy estão em uma loja   
+
+[LINE]
+Speaker415: ¡Papá,  necesito   un videojuego        nuevo!
+~            papai  preciso~de um jogo~de~videogame novo  
+
+[LINE]
+Speaker414: No,  Junior. No  necesitas   un videojuego        nuevo.
+~           não  Junior  não precisas~de um jogo~de~videogame novo  
+
+[MULTIPLE_CHOICE]
+> O Eddy acha que o Junior precisa de um videogame novo.
++ Não, não é isso.
+- Sim, isso mesmo.
+
+[LINE]
+Speaker415: ¡Por favor! ¡Este videojuego        de robots es muy   divertido!
+~            por favor   este jogo~de~videogame de robôs  é  muito divertido 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker414: Junior, [tú~quieres~este] videojuego,        pero no  necesitas este  videojuego.       
+~           Junior   tu~queres~este   jogo~de~videogame  mas  não precisas  deste jogo~de~videogame 
+- tú quieres estar
++ tú quieres este
+- tú sientes este
+
+[LINE]
+Speaker415: Está bien, ¡yo lo~quiero! ¿Lo~compramos?     
+~           está bem    eu quero~ele   vamos~comprar~ele 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker414: [(No)…  (Tienes) (muchos) (videojuegos)        (en~casa).]
+~             não    tens     muitos   jogos~de~videogame   em~casa   
+
+[LINE]
+Speaker415: Sí,  sí…  Está bien, ¿vamos a    casa?
+~           sim  sim  está bem    vamos para casa 
+
+[LINE]
+Speaker414: No,  vamos a    casa   de Vikram.
+~           não  vamos para a~casa do Vikram 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker415: ¿Por qué? ¡Su~casa     es [muy   aburrida]!
+~            por quê   a~casa~dele é   muito chata     
+- un videojuego nuevo
++ muy aburrida
+- una tienda
+
+[LINE]
+Speaker414: Pero su~televisión    es grande y yo necesito ver el partido de fútbol. 
+~           mas  a~televisão~dele é  grande e eu preciso  ver o  jogo    de futebol 
+
+[LINE]
+Speaker415: Papá,  tú quieres ver el partido, pero no  necesitas ver el partido.
+~           papai  tu queres  ver o  jogo     mas  não precisas  ver o  jogo    
+
+[MULTIPLE_CHOICE]
+> Tanto o Eddy quanto o Junior...
+- …voam por todo lado em robôs.
+- ...jogam videogames com o Vikram.
++ ...falam que precisam, mas só querem algo.
+
+[MATCH]
+> Toque nos pares
+- es <> é
+- quieres <> queres
+- su televisión <> a televisão dele
+- lo quiero <> quero ele
+- Sí <> sim
+
