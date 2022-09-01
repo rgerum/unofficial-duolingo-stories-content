@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=Júnior's Breakfast
+icon=3b35bcd6b6ba9d6b8cc1fb877ee2ea468c917e52
+set=13|2
+
+[HEADER]
+> O~café~da~manhã~do~Júnior
+~ Júnior's~breakfast       
+
+[LINE]
+> Eddy está fazendo o~café~da~manhã~do~Júnior.
+~ Eddy is~  making  Júnior's~breakfast        
+
+[LINE]
+Speaker415: Oi papai! O~que você~está~fazendo?
+~           hi dad    what  are~you~doing     
+
+[LINE]
+Speaker414: Bom~dia,      Júnior! Eu estou fazendo o~seu      café~da~manhã!
+~           good~morning  Júnior  I  am    making  (the)~your breakfast     
+
+[MULTIPLE_CHOICE]
+> Eddy is cooking dinner.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker415: O~meu    café~da~manhã?
+~           (the)~my breakfast     
+
+[LINE]
+Speaker414: Sim. Eu nunca tenho tempo para        fazer     o~seu      café~da~manhã.
+~           yes  I  never have  time  in~order~to (to)~make (the)~your breakfast     
+
+[LINE]
+Speaker414: Mas hoje  é  diferente!
+~           but today is different 
+
+[CONTINUATION]
+> What comes next?
+Speaker415: Papai, eu não~quero  [café~da~manhã].
+~           dad    I  don't~want  breakfast      
+- jantar
+~ dinner
++ café~da~manhã
+~ breakfast    
+- um cardápio
+~ a  menu    
+
+[LINE]
+Speaker414: O~quê?! Eu estou fazendo ovos.
+~           what    I  am    making  eggs 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: Eu [não~quero~ovos]. 
+~           I   don't~want~eggs  
+- mãe quer ovo
+- não quero novos
++ não quero ovos
+
+[LINE]
+Speaker414: Mas você gosta~muito~de ovos.
+~           but you  really~like    eggs 
+
+[LINE]
+Speaker415: Sim, mas…
+~           yes  but 
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(E)   (temos)   (suco~de~laranja) (também)!]
+~             and   we~have   orange~juice      too      
+
+[LINE]
+Speaker414: Você ama  suco~de~laranja!
+~           you  love orange~juice    
+
+[LINE]
+Speaker415: Você está certo, mas…
+~           you  are  right  but 
+
+[LINE]
+Speaker414: O~que, Júnior?
+~           what   Júnior 
+
+[LINE]
+Speaker415: Papai… É    uma~hora   da~tarde!        
+~           dad    it's one~(hour) in~the~afternoon 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "clock."
+> (Eddy) (olha~para) (o)   (+relógio).
+~  Eddy   looks~at    the    clock    
+
+[LINE]
+Speaker414: Ah~não… Fazer  o~café~da~manhã leva~muito~tempo. 
+~           oh,~no  making (the)~breakfast takes~a~long~time 
+
+[LINE]
+Speaker415: Mas agora podemos fazer     o~almoço!   
+~           but now   we~can  (to)~make (the)~lunch 
+
+[MULTIPLE_CHOICE]
+> Why can Eddy make lunch now?
+- He ate all of Júnior's breakfast.
+- Júnior made breakfast for him.
++ He took too long making breakfast.
+
+[MATCH]
+> Tap the pairs
+- está <> is
+- Sim <> yes
+- Júnior <> Júnior
+- não quero <> don't want
+- você está fazendo <> are you doing
+
