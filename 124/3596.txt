@@ -1,0 +1,102 @@
+[DATA]
+fromLanguageName=Lucy et les dinosaures
+icon=f6ce899637bb8181ee5e78382fdf71a0f01e4f95
+set=8|1
+
+[HEADER]
+> Lucy and the Dinosaurs 
+~ Lucy et  les dinosaures
+
+[LINE]
+> Lucy opens her~apartment~door.         
+~ Lucy ouvre la~porte~de~son~appartement 
+
+[LINE]
+Speaker509: Hello,   Junior!
+~           bonjour  Junior 
+
+[LINE]
+Speaker415: Hello!   Can~you~help~me~write    a  report for  school? 
+~           bonjour  peux-tu~m'aider~à~écrire un exposé pour l'école 
+
+[LINE]
+Speaker509: Oh, yes!
+~           oh  oui 
+
+[LINE]
+Speaker509: I'm     a   great  writer.    I~have a  very~popular~blog.  
+~           je~suis une grande écrivaine  j'ai   un blog~très~populaire 
+
+[MULTIPLE_CHOICE]
+> Lucy affirme être une bonne écrivaine parce qu'elle…
+- … a toujours eu des bonnes notes à l'école.
++ ... tient un blog très populaire.
+- … écrit des lettres d'amour tous les jours.
+
+[LINE]
+Speaker509: Do~you~read       my  blog?
+~           est-ce~que~tu~lis mon blog 
+
+[LINE]
+Speaker415: No. 
+~           non 
+
+[LINE]
+Speaker509: I~have a~lot    of books. 
+~           j'ai   beaucoup de livres 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « des recherches ».
+Speaker509: (Do~you~need)     my  (books)  (for)  (+research)?      
+~            as-tu~besoin~de  mes  livres   pour    des~recherches  
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker415: I  don't~need         your [books]. 
+~           je n'ai~pas~besoin~de tes   livres  
++ books 
+~ livres
+- reports
+~ exposés
+- apartments  
+~ appartements
+
+[LINE]
+Speaker509: What~is~your~report~about?
+~           ton~exposé~est~sur~quoi   
+
+[LINE]
+Speaker415: Dinosaurs.     
+~           les~dinosaures 
+
+[LINE]
+Speaker509: Why      do~you~want to~talk~to~me?
+~           pourquoi veux-tu     me~parler     
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker415: [(Because)   (you) (are) (very) (old).]    
+~             parce~que   tu    es    très   vieille   
+
+[LINE]
+Speaker415: You know    a~lot    of dinosaurs,  right?   
+~           tu  connais beaucoup de dinosaures  pas~vrai 
+
+[LINE]
+Speaker509: Goodbye,    Junior.
+~           ~au~revoir  Junior 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Junior croyait-il que Lucy s'y connaissait en dinosaures ?
+- Elle a un blog sur les dinosaures.
++ Elle est bien plus âgée que lui.
+- Elle avait un dinosaure chez elle avant.
+
+[MATCH]
+> Choisis les paires
+- are <> es
+- yes <> oui
+- great <> grande
+- report <> exposé
+- Do you read <> est-ce que tu lis
+
