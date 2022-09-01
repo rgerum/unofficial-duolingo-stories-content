@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Roupas de férias
+icon=eda1b8214a6937df66a552eb581f2353da4d0352
+set=4|3
+
+[HEADER]
+> Vacation~Clothes
+~ roupas~de~férias
+
+[LINE]
+> Lucy is   in a   store.
+~ Lucy está em uma loja  
+
+[LINE]
+Speaker509: Hi, can~you~help~me?    
+~           oi  você~pode~me~ajudar 
+
+[LINE]
+Speaker509: I  need       new~clothes  for  my     vacation!
+~           eu preciso~de roupas~novas para minhas férias   
+
+[MULTIPLE_CHOICE]
+> Lucy está comprando roupas para as férias.
++ Sim, isso mesmo.
+- Não, não é isso.
+
+[LINE]
+Speaker416: OK.   
+~           certo 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker509: [(I)  (need)       (a)  (dress).]  
+~             eu   preciso~de   um   vestido   
+
+[LINE]
+> Lily gives   Lucy a  green~dress.  
+~ Lily dá~para Lucy um vestido~verde 
+
+[LINE]
+Speaker509: No!  I  need       a  short,~red~dress.        
+~           não  eu preciso~de um vestido~vermelho~e~curto 
+
+[MULTIPLE_CHOICE]
+> Lucy precisa de quê?
++ um vestido vermelho e curto
+- uma saia verde e longa
+- um carro marrom novo
+
+[LINE]
+> Lily gives   her a  short,~red~dress.        
+~ Lily dá~para ela um vestido~vermelho~e~curto 
+
+[LINE]
+Speaker509: And I  need       boots.
+~           e   eu preciso~de botas 
+
+[LINE]
+> Lily gives   Lucy red~boots.      
+~ Lily dá~para Lucy botas~vermelhas 
+
+[LINE]
+Speaker509: No,  big,~black~boots!      
+~           não  botas~pretas~e~grandes 
+
+[LINE]
+Speaker416: Ugh… 
+~           afff 
+
+[LINE]
+Speaker509: OK,    a  short,~red~dress         and big,~black~boots…      
+~           certo  um vestido~vermelho~e~curto e   botas~pretas~e~grandes 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker509: [And~a~hat]!  
+~            e~um~chapéu  
++ And a hat
+- And a cat
+- In the hat
+
+[LINE]
+> Lily gives   Lucy a  hat.   
+~ Lily dá~para Lucy um chapéu 
+
+[LINE]
+Speaker509: No!  A  yellow~hat!    
+~           não  um chapéu~amarelo 
+
+[CONTINUATION]
+> O que vem depois?
+> Lily gives   Lucy [a  yellow~hat].    
+~ Lily dá~para Lucy  um chapéu~amarelo  
+- a  red~hat        
+~ um chapéu~vermelho
+- a  yellow~dress   
+~ um vestido~amarelo
++ a  yellow~hat    
+~ um chapéu~amarelo
+
+[LINE]
+Speaker509: Perfect!  Now   I'm      ready  for  my     vacation!
+~           perfeito  agora eu~estou pronta para minhas férias   
+
+[LINE]
+Speaker416: Now   I  need~a~vacation.  
+~           agora eu preciso~de~férias 
+
+[MULTIPLE_CHOICE]
+> Pobrezinha! Por que a Lily precisa de férias?
+- Ela comeu demais no almoço.
++ Ela está cansada depois de ajudar a Lucy a escolher roupas.
+- Ela tem muitas roupas novas para usar.
+
+[MATCH]
+> Toque nos pares
+- Perfect <> perfeito
+- her <> ela
+- a <> uma
+- boots <> botas
+- I'm <> eu estou
+
