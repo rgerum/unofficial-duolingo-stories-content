@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=Perfect for the Job
+icon=5899822ff564221d831e0f0f0a91755383fd85a6
+set=32|4
+
+[HEADER]
+> Parfait pour ce   travail
+~ perfect for  this job    
+
+[LINE]
+> Junior entre~dans une boutique~de~glaces. Il parle  à  Geoffrey, le  gérant. 
+~ Junior walks~in   an  ice~cream~store     he speaks to Geoffrey  the manager 
+
+[LINE]
+Speaker415: Je~peux avoir     une glace~au~chocolat   et  je~peux vous~donner   mon CV     ?
+~           can~I   (to)~have a   chocolate~ice~cream and can~I   (to)~give~you my  résumé  
+
+[LINE]
+Speaker2243: Hmm... Tu~as~quel~âge  ?
+~            hmm    how~old~are~you  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: Je suis assez~grand pour savoir    que  votre [glace~au~chocolat]   a~besoin~de plus~de sucre. 
+~           I  am   old~enough  to   (to)~know that your   chocolate~ice~cream  needs       more    sugar  
++ glace au chocolat
+- place le chocolat
+- classe au chocolat
+
+[LINE]
+Speaker415: C'est~vous le  gérant  ?
+~           are~you    the manager  
+
+[LINE]
+Speaker2243: Oui, c'est~moi.
+~            yes  I~am      
+
+[LINE]
+Speaker415: Moi, c'est Junior. Écoutez, si vous me~donnez un travail, je peux vous~aider~à  gagner    beaucoup d'argent.
+~           me   I'm   Junior  listen   if you  give~me   a  job      I  can  (to)~help~you (to)~earn a~lot    of~money 
+
+[MULTIPLE_CHOICE]
+> Wait… what is Junior going to help the manager do?
+- give a lot of money away
++ make a lot of money
+- spend a lot of money
+
+[LINE]
+Speaker2243: Mais tu  n'es~qu'un enfant.
+~            but  you are~just~a child  
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(C'est)  (pourquoi) (je~suis) (parfait) (pour~ce~travail).]
+~             that's   why        I'm       perfect   for~this~job      
+
+[LINE]
+Speaker2243: Non merci,     Junior.
+~            no  thank~you  Junior 
+
+[LINE]
+> Plus~tard, Junior mange     sa  glace     en terrasse.   
+~ later      Junior is~eating his ice~cream on the~terrace 
+
+[LINE]
+> Une famille passe~devant la  terrasse et  voit Junior.
+~ a   family  walks~past   the terrace  and sees Junior 
+
+[LINE]
+Speaker415: C'est   la~meilleure glace     de ma vie  !
+~           this~is the~best     ice~cream of my life  
+
+[CONTINUATION]
+> What comes next?
+Speaker2540: S'il~te~plaît, Papa, on~peut avoir     la  même [glace     ]?
+~            please         Dad   can~we  (to)~have the same  ice~cream   
+- famille
+~ family 
+- monnaie
+~ change 
++ glace    
+~ ice~cream
+
+[LINE]
+> La  famille entre~dans la  boutique.
+~ the family  walks~in   the store    
+
+[LINE]
+Speaker3145: La  glace~au~chocolat   du     jeune homme dehors  a~l'air trop~bonne !
+~            the chocolate~ice~cream of~the young man   outside looks   so~good     
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker3145: On~peut en~avoir~quatre [comme~la~sienne], s'il~vous~plaît ?
+~            can~we  (to)~have~four   like~his          please           
+- comme les miennes
++ comme la sienne
+- calme la chienne
+
+[LINE]
+Speaker2243: Bien~sûr  !
+~            of~course  
+
+[LINE]
+> La  famille sort~du    magasin, toute contente.
+~ the family  leaves~the store    all   happy    
+
+[LINE]
+Speaker2243: Junior, c'était une super idée ! Mais je ne~peux~toujours~pas te~donner     un travail... parce~que... tu  es  un enfant.
+~            Junior  it~was  a   great idea   but  I  still~can't          (to)~give~you a  job        because      you are a  child  
+
+[MULTIPLE_CHOICE]
+> The manager thinks Junior can work for him.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker415: Pas~de~problème, vous pouvez me~payer    en glaces    !
+~           no~problem       you  can    (to)~pay~me in ice~cream  
+
+[MULTIPLE_CHOICE]
+> How did Junior help the manager sell ice cream?
+- He posted about it on social media.
+- He sold it from the back of a truck.
++ He talked about how delicious it is.
+
+[MATCH]
+> Tap the pairs
+- c'est moi <> I am
+- parle <> speaks
+- pourquoi <> why
+- voit <> sees
+- Pas de problème <> no problem
+
