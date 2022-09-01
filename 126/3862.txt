@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=O plano para o aniversário
+icon=9ac312d372abe49d99606848f5a7a8414143346d
+set=14|3
+
+[HEADER]
+> Birthday~Plan               
+~ (o)~plano~para~o~aniversário
+
+[LINE]
+> Eddy is~sleeping.   Junior runs~into         his~room.        
+~ Eddy está~dormindo  Junior corre~para~dentro (do)~quarto~dele 
+
+[LINE]
+Speaker415: Dad!   Dad!  
+~           papai  papai 
+
+[LINE]
+Speaker414: What?  Huh? Oh, good~morning, Junior.
+~           o~quê  ~    ~   bom~dia       Junior 
+
+[LINE]
+Speaker415: Dad,   I~can't~wait         for  my    birthday~party!      
+~           papai  eu~mal~posso~esperar pela minha festa~de~aniversário 
+
+[MULTIPLE_CHOICE]
+> O Junior não quer uma festa de aniversário.
+- Sim, isso mesmo.
++ Não, não é isso.
+
+[LINE]
+Speaker414: Oh! Yes… Happy birthday…?   
+~           ah  sim  feliz aniversário  
+
+[LINE]
+Speaker414: What kind of party do~you~want, Junior?
+~           que  tipo de festa você~quer    Junior 
+
+[LINE]
+Speaker415: I  don't~know!
+~           eu não~sei    
+
+[LINE]
+Speaker415: But I  want  ice~cream! A~lot~of ice~cream!
+~           mas eu quero sorvete    muito    sorvete   
+
+[LINE]
+Speaker414: OK,    Junior! It's your~birthday!      
+~           certo  Junior  é    (o)~seu~aniversário 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker415: [(Can~we)      (also)   (have) (a)  (big~cake)?]   
+~             nós~podemos   também   ter    um   bolo~grande   
+
+[LINE]
+Speaker414: Of~course, Junior!
+~           é~claro    Junior 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker415: Great! And I  want           [all~my~friends]       to~come!   
+~           ótimo  e   eu quero~(chamar)  todos~os~meus~amigos  (para)~vir 
+- a lot of fries
++ all my friends
+- all of my fish
+
+[LINE]
+Speaker414: Oh! We  need       to~invite them all   now!  
+~           ah  nós precisamos convidar  eles todos agora 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker414: What~time do~you~want to~have [your~party]?   
+~           que~horas você~quer   ter      (a)~sua~festa  
++ your~party   
+~ (a)~sua~festa
+- my      birthday   
+~ (o)~meu aniversário
+- breakfast        
+~ (o)~café~da~manhã
+
+[LINE]
+> Eddy looks~at  his~phone.        
+~ Eddy olha~para (o)~telefone~dele 
+
+[LINE]
+Speaker414: Wait…   it's     only January. Your~birthday       is in May,  Junior!
+~           espere  (hoje)~é só   janeiro  (o)~seu~aniversário é  em maio  Junior 
+
+[LINE]
+Speaker415: Yes, I  know. I~can't~wait!        
+~           sim  eu sei   eu~mal~posso~esperar 
+
+[LINE]
+Speaker415: But can~we~still~have       ice~cream today, Dad?  
+~           mas nós~ainda~podemos~tomar sorvete   hoje   papai 
+
+[LINE]
+Speaker414: Aaah… Yes, Junior.
+~           ~     sim  Junior 
+
+[MULTIPLE_CHOICE]
+> O que o Eddy percebeu?
++ Faltam alguns meses para o aniversário do Junior.
+- Ele esqueceu que o aniversário do Junior é hoje.
+- O Junior, na verdade, não gosta de sorvete.
+
+[MATCH]
+> Toque nos pares
+- I can't wait <> eu mal posso esperar
+- birthday party <> festa de aniversário
+- runs into <> corre para dentro
+- It's <> é
+- all my friends <> todos os meus amigos
+
