@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=Kırmızı Ceket
+icon=f2020f08dc6ab976902d63ac29d5779e5959d06a
+set=2|3
+
+[HEADER]
+> The Red     Jacket
+~ ~   Kırmızı Ceket 
+
+[LINE]
+> Sophie is   in  a   store  with         her~brother,   Kevin.
+~ ~      -dir -da bir mağaza ile~birlikte erkek~kardeşi  ~     
+
+[LINE]
+Speaker115: This store  is nice  but   very expensive.
+~           Bu   mağaza ~  Güzel fakat çok  pahalı    
+
+[MULTIPLE_CHOICE]
+> Sophie mağazayı çok seviyor çünkü ürünler pahalı değil.
+- Evet, doğru.
++ Hayır, yanlış.
+
+[LINE]
+Speaker3160: Yes… 
+~            Evet 
+
+[LINE]
+Speaker3160: Wow!
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker3160: This [red~jacket]    is perfect!
+~            Bu    kırmızı~ceket  ~  harika  
+- red jack in
+- rod jacket
++ red jacket
+
+[LINE]
+Speaker115: Kevin?
+
+[LINE]
+Speaker3160: I~like   this~color a~lot!
+~            beğendim bu~rengi   çok   
+
+[LINE]
+Speaker115: Kevin?
+
+[POINT_TO_PHRASE]
+> "Satın almak" anlamına gelen seçeneği seçin.
+Speaker3160: (I~want)    (+to~buy)      (this~jacket)!
+~             istiyorum    satın~almak   bu~ceketi    
+
+[LINE]
+Speaker115: Kevin!
+
+[LINE]
+Speaker3160: What?   
+~            ne~oldu 
+
+[LINE]
+Speaker115: The jacket is five hundred dollars.
+~           ~   ceket  ~  beş  yüz     dolar   
+
+[MULTIPLE_CHOICE]
+> Ceketin fiyatı ne kadar?
+- Beş dolar.
++ Beş yüz dolar.
+- Bir milyon dolar.
+
+[LINE]
+Speaker115: It~is very expensive.
+~           bu    çok  pahalı    
+
+[LINE]
+Speaker3160: What?!
+~            Ne    
+
+[LINE]
+Speaker115: Kevin you~do~not~need     a   new  jacket.
+~           ~     senin~ihtiyacın~yok bir yeni cekete 
+
+[LINE]
+Speaker3160: Sophie, today is my~birthday!      
+~            ~       bugün ~  benim~doğum~günüm 
+
+[MULTIPLE_CHOICE]
+> Kevin ne diyor?
+- Doğum gününe birkaç ay kaldı.
+- Doğum gününü unuttu.
++ Bugün onun doğum günü.
+
+[LINE]
+Speaker115: Yes… 
+~           Evet 
+
+[LINE]
+Speaker3160: And you are~my~sister!        
+~            Ve  sen benim~kız~kardeşimsin 
+
+[LINE]
+Speaker115: Yes,  I~am…   
+~           Evet  öyleyim 
+
+[LINE]
+Speaker3160: And you~can~buy—      
+~            Ve  satın~alabilirsin 
+
+[LINE]
+Speaker115: A   cheap jacket for  you!  
+~           Bir ucuz  ceket  için senin 
+
+[MULTIPLE_CHOICE]
+> Kevin'in doğum günü için, Sophie ...
++ … Ucuz bir ceket satın alacak.
+-  … Çok pahalı bir kırmızı ceket satın alacak.
+- … Mavi bir pantolon satın alacak.
+
+[MATCH]
+> Çiftlere dokun
+- I like <> beğendim
+- jacket <> ceket
+- dollars <> dolar
+- hundred <> yüz
+- cheap <> ucuz
+
