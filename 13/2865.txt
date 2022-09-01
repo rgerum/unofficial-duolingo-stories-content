@@ -1,0 +1,124 @@
+[DATA]
+fromLanguageName=Eddy's Breakup
+icon=9d77d24b95463b2b7a2e8c9aa8f7b1c9f8de9013
+set=21|4
+
+[HEADER]
+> La~rupture~d'Eddy
+~ Eddy's~breakup   
+
+[LINE]
+> Eddy ne~va~pas~bien.   Junior arrive. 
+~ Eddy isn't~doing~well  Junior arrives 
+
+[LINE]
+Speaker415: Papa ? Ça~ne~va~pas       ?
+~           Dad    is~something~wrong  
+
+[LINE]
+Speaker414: Chloé m'a~quitté, et  je ne~sais~pas pourquoi.
+~           Chloé left~me     and I  don't~know  why      
+
+[LINE]
+Speaker415: Ta   petite~amie, Chloé ? Je l'aimais~bien.
+~           your girlfriend   Chloé   I  liked~her     
+
+[MULTIPLE_CHOICE]
+> Eddy's girlfriend broke up with him.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker414: Moi aussi ! Et  je pensais qu'elle  m'aimait.
+~           me  too     and I  thought that~she loved~me 
+
+[LINE]
+Speaker414: Elle pensait que  j'étais beau.    
+~           she  thought that I~was   handsome 
+
+[LINE]
+Speaker415: Vraiment ?!
+~           really     
+
+[LINE]
+Speaker414: Oui !
+~           yes  
+
+[LINE]
+Speaker415: Alors… pourquoi elle~t'a~quitté   ?
+~           so     why      did~she~leave~you  
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(Tu~l'écoutais)         (quand) (elle) (parlait) ]?
+~             did~you~listen~to~her   when    she    talked     
+
+[LINE]
+Speaker414: Oui ! Je sais quelle est~sa~couleur~préférée, quel est~son~film~préféré… 
+~           yes   I  know what   her~favorite~color~is    what her~favorite~movie~is 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Je connais [son~nom~de~famille] !
+~           I  know     her~last~name        
++ son nom de famille
+- mon salon de famille
+- son nom de vanille
+
+[LINE]
+Speaker415: Alors qu'est-ce~qu'il~s'est~passé ?
+~           so    what~happened                
+
+[LINE]
+Speaker414: Je ne~sais~pas...
+~           I  don't~know    
+
+[CONTINUATION]
+> What comes next?
+Speaker414: On~a~passé une [très bonne soirée  hier].     
+~           we~had     a    very good  evening yesterday  
+- année au     zoo
+~ year  at~the zoo
++ très bonne soirée  hier     
+~ very good  evening yesterday
+- heure sur la  Lune
+~ hour  on  the Moon
+
+[LINE]
+Speaker415: Vous~avez~fait~quoi ?
+~           what~did~you~do      
+
+[LINE]
+Speaker414: Je lui~ai~préparé le~dîner !
+~           I  made~her       dinner    
+
+[LINE]
+Speaker415: Oh, non...
+~           oh  no    
+
+[LINE]
+Speaker415: Je pense que  je sais pourquoi elle t'a~quitté.
+~           I  think that I  know why      she  left~you   
+
+[LINE]
+Speaker414: Pourquoi ?
+~           why       
+
+[LINE]
+Speaker415: Papa, tu  sais que  je t'aime,   mais... tu  ne~sais~vraiment~pas  cuisiner.
+~           Dad   you know that I  love~you  but     you really~don't~know~how to~cook  
+
+[MULTIPLE_CHOICE]
+> Oh no! Why did Chloé break up with Eddy?
++ The dinner he made was terrible.
+- He forgot her name.
+- His gym socks smelled really bad.
+
+[MATCH]
+> Tap the pairs
+- ne sais pas <> don't know
+- Vous avez fait quoi <> what did you do
+- Oh <> oh
+- mais <> but
+- pensais <> thought
+
