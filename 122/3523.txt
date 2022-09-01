@@ -1,0 +1,138 @@
+[DATA]
+fromLanguageName=Eine Hochzeitsgeschichte
+icon=1af589ac8182b2da5175dd9c2dc973d1089ef4f2
+set=22|2
+
+[HEADER]
+> A~Wedding~Story         
+~ eine~Hochzeitsgeschichte
+
+[LINE]
+> Lucy and Lin are  at  a~family~wedding.      
+~ Lucy und Lin sind auf einer~Familienhochzeit 
+
+[LINE]
+Speaker509: This is  a    beautiful    wedding! 
+~           das  ist eine wunderschöne Hochzeit 
+
+[LINE]
+Speaker508: I   know! This~hotel~is~amazing!      
+~           ich weiß  dieses~Hotel~ist~wundervoll 
+
+[MULTIPLE_CHOICE]
+> Lin und Lucy sind beeindruckt von der Hochzeit.
++ Ja, das ist richtig.
+- Nein, das ist falsch.
+
+[LINE]
+Speaker509: And the~food  is  delicious!
+~           und das~Essen ist köstlich  
+
+[LINE]
+Speaker508: Are  these gold    forks? 
+~           sind das   goldene Gabeln 
+
+[LINE]
+Speaker509: Yes!
+~           ja  
+
+[LINE]
+Speaker508: This~wedding   was probably       very expensive.
+~           diese~Hochzeit war wahrscheinlich sehr teuer     
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker509: How much do~you~think [it~cost]?         
+~           wie viel denkst~du     hat~sie~gekostet  
+- it calls
+- it caught
++ it cost
+
+[LINE]
+Speaker508: A    lot.  
+~           eine Menge 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker509: Your~cousin, Paul, hates spending~moneyy]!
+~           dein~Cousin  Paul  hasst Geld~ausgeben    
+- time
+~ Zeit
+- forks 
+~ Gabeln
++ money
+~ Geld 
+
+[LINE]
+Speaker509: I'm     surprised  that the~wedding  is~so~nice.  
+~           ich~bin überrascht dass die~Hochzeit so~schön~ist 
+
+[LINE]
+Speaker508: I'm     surprised  that the~bride is~so~beautiful.
+~           ich~bin überrascht dass die~Braut so~hübsch~ist   
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker508: I   just~talked~to~the~bride.             Did  you know    [she's~a~doctor]?       
+~           ich habe~gerade~mit~der~Braut~gesprochen  hast du  gewusst  (dass)~sie~Ärztin~ist  
+- he's a dog too
++ she's a doctor
+- she said talk to her
+
+[LINE]
+Speaker509: How did Paul meet      such an   amazing woman?
+~           wie hat Paul getroffen so   eine tolle   Frau  
+
+[LINE]
+Speaker508: I   don't~know! He isn't     good enough for her.
+~           ich weiß~nicht  er ist~nicht gut  genug  für sie 
+
+[ARRANGE]
+> Was hörst du?
+Speaker509: [(He) (looks)     (like) (a)    (potato).]   
+~             er   sieht~aus   wie    eine   Kartoffel   
+
+[LINE]
+Speaker508: And he's   lazy.
+~           und er~ist faul 
+
+[LINE]
+Speaker509: But  it's   nice  that he invited~us!        
+~           aber es~ist schön dass er uns~eingeladen~hat 
+
+[LINE]
+Speaker508: Be  quiet! He's~coming here.
+~           sei leise  er~kommt    her  
+
+[MULTIPLE_CHOICE]
+> Lin will, dass Lucy …
+- … zum Arzt geht.
++ … leise ist.
+- … ein paar Kartoffeln isst.
+
+[LINE]
+Speaker509: Wait.   That's  not   Paul.
+~           Moment  das~ist nicht Paul 
+
+[LINE]
+Speaker508: You're~right!  I   think  we're    at the wrong    hotel! Let's~go. 
+~           du~hast~recht  ich glaube wir~sind in dem falschen Hotel  gehen~wir 
+
+[LINE]
+Speaker509: No,   let's~stay  here. It's   time for dessert!        
+~           nein  bleiben~wir hier  es~ist Zeit für (den)~Nachtisch 
+
+[MULTIPLE_CHOICE]
+> Ups! Lin und Lucy …
+- … sind auf dem Tisch eingeschlafen.
++ … sind auf der falschen Hochzeit.
+- … haben zu viele Kartoffeln gegessen.
+
+[MATCH]
+> Wähle die Paare
+- do you think <> denkst du
+- spending money <> Geld ausgeben
+- time <> Zeit
+- This wedding <> diese Hochzeit
+- was <> war
+
