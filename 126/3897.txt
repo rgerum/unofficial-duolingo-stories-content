@@ -1,0 +1,131 @@
+[DATA]
+fromLanguageName=Ficando mais velha
+icon=4b810ac5ac1d241fb2380e6785db12c40b5c0508
+set=23|2
+
+[HEADER]
+> Getting Older     
+~ ficando mais~velha
+
+[LINE]
+> Bea is   at~the gym      with her~friend,   Eddy.
+~ Bea está na     academia com  o~amigo~dela  Eddy 
+
+[LINE]
+> When   she starts~exercising,     her~knee      makes a  noise.  
+~ quando ela começa~a~se~exercitar  o~joelho~dela faz   um barulho 
+
+[LINE]
+Speaker507: What~was~that?! 
+~           o~que~foi~isso  
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker414: [What's~wrong]?      
+~            o~que~há~de~errado  
++ What's wrong
+- What's long
+- That song
+
+[LINE]
+Speaker507: My  knee   just~made       a  weird~noise!     
+~           meu joelho acabou~de~fazer um barulho~estranho 
+
+[LINE]
+Speaker414: That's because you're~getting    older.     
+~           isso~é porque  você~está~ficando mais~velha 
+
+[LINE]
+Speaker507: Eddy, I'm~not~even~thirty!            
+~           Eddy  eu~não~tenho~sequer~trinta~anos 
+
+[MULTIPLE_CHOICE]
+> A Bea acha que é…
+- …forte demais para se exercitar com o Eddy.
+- …velha demais para fazer exercício.
++ …jovem demais para ter problemas no joelho.
+
+[LINE]
+Speaker414: Don't~worry!     I  can~show           you  some   exercises  to~make     your knees   stronger.   
+~           não~se~preocupe  eu posso~mostrar~para você alguns exercícios para~deixar seus joelhos mais~fortes 
+
+[ARRANGE]
+> Toque no que escutar
+> [(Eddy) (shows)       (Bea) (a)  (leg~exercise).]            
+~   Eddy   mostra~para   Bea   um   exercício~para~as~pernas   
+
+[LINE]
+Speaker507: Great! But now   my~back~hurts…     
+~           ótimo  mas agora minhas~costas~doem 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker414: That's~also   because [you're~getting    older].     
+~           isso~também~é porque   você~está~ficando mais~velha  
+- it's a  beautiful~day
+~ é    um dia~lindo    
++ you're~getting    older     
+~ você~está~ficando mais~velha
+- this ice~cream is delicious
+~ este sorvete   é  delicioso
+
+[LINE]
+Speaker507: Ugh!  Really?
+~           afff  sério  
+
+[LINE]
+Speaker414: Don't~worry!     I  can~show           you  an exercise  to~make     your back   stronger    too.   
+~           não~se~preocupe  eu posso~mostrar~para você um exercício para~deixar suas costas mais~fortes também 
+
+[LINE]
+> Eddy shows       Bea another exercise  for  her~back.      
+~ Eddy mostra~para Bea outro   exercício para as~costas~dela 
+
+[LINE]
+Speaker507: Thanks,   Eddy!
+~           obrigada  Eddy 
+
+[MULTIPLE_CHOICE]
+> Você pegou essa? A Bea agradeceu o Eddy porque…
+- …ele está fazendo sons esquisitos.
+- …ele está dando remédio para as costas dela.
++ …ele está ensinando exercícios para ela ficar mais forte.
+
+[LINE]
+Speaker414: No~problem!  
+~           sem~problema 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker507: Can~you~show~me      [that~leg~exercise]               again?  
+~           você~pode~me~mostrar  aquele~exercício~para~as~pernas  de~novo 
++ that leg exercise
+- that leg is her size
+- that egg that you fried
+
+[LINE]
+Speaker414: You  don't~remember? I  just~showed       it  to   you. 
+~           você não~se~lembra   eu acabei~de~mostrar ele para você 
+
+[LINE]
+Speaker507: I  forgot…  Is~that because I'm~getting      older      too?   
+~           eu esqueci  isso~é  porque  eu~estou~ficando mais~velha também 
+
+[LINE]
+Speaker414: Maybe,  but I  don't~know  any~exercises    for  your brain.  
+~           talvez  mas eu não~conheço nenhum~exercício para seu  cérebro 
+
+[MULTIPLE_CHOICE]
+> Por que o Eddy pensa que a Bea pode precisar de exercícios para o cérebro?
+- Ela continua ouvindo barulhos esquisitos.
++ Ela já esqueceu o que o Eddy ensinou.
+- O Eddy vai abrir uma academia para cérebros.
+
+[MATCH]
+> Toque nos pares
+- some <> alguns
+- back <> costas
+- exercise <> exercício
+- her friend <> o amigo dela
+- Thanks <> obrigada
+
