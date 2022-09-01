@@ -1,0 +1,132 @@
+[DATA]
+fromLanguageName=The Vegetarian
+icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
+set=2|3
+
+[HEADER]
+> Der Vegetarier
+~ the vegetarian
+
+[LINE]
+> Vikram ist in~einem~schönen~Restaurant.
+~ Vikram is  in~a~nice~restaurant        
+
+[LINE]
+> Der Kellner bringt      die Speisekarte.
+~ the waiter  is~bringing the menu        
+
+[LINE]
+Speaker385: Guten Abend!  
+~           good  evening 
+
+[LINE]
+Speaker593: Hallo. Ich habe eine Frage,    bitte. 
+~           hello  I   have a    question  please 
+
+[MULTIPLE_CHOICE]
+> Vikram has a question.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker593: Ich bin Vegetarier.    
+~           I   am  (a)~vegetarian 
+
+[LINE]
+Speaker593: Haben~Sie   vegetarisches Essen?
+~           do~you~have vegetarian    food  
+
+[MULTIPLE_CHOICE]
+> Vikram is asking the waiter...
+- …what the soup of the day is.
+- …about their best meat dishes.
++ …if the restaurant has vegetarian food.
+
+[LINE]
+Speaker385: Oh ja,  das Schnitzel ist sehr gut. 
+~           oh yes  the schnitzel is  very good 
+
+[LINE]
+Speaker593: Schnitzel ist Fleisch.
+~           schnitzel is  meat    
+
+[LINE]
+Speaker593: Ich esse kein Fleisch.
+~           I   eat  no   meat    
+
+[LINE]
+Speaker385: Natürlich. Es~tut~mir~leid.
+~           of~course  I~am~sorry      
+
+[POINT_TO_PHRASE]
+> Choose the option that means "chicken."
+Speaker385: (Das) (+Hähnchen) ist (sehr) (lecker)!   
+~            the    chicken   is   very   delicious  
+
+[LINE]
+Speaker593: Hähnchen ist Fleisch.
+~           chicken  is  meat    
+
+[LINE]
+Speaker593: Ich möchte     kein Fleisch!
+~           I   would~like no   meat    
+
+[LINE]
+Speaker385: Wir haben Salat …
+~           we  have  salad  
+
+[LINE]
+Speaker593: Oh, ich liebe Salat! Was  ist in dem Salat?
+~           oh  I   love  salad  what is  in the salad 
+
+[LINE]
+Speaker385: In dem Salat sind        Tomaten,  Kartoffeln, Fisch …
+~           in the salad (there)~are tomatoes  potatoes    fish   
+
+[MULTIPLE_CHOICE]
+> What is in the salad?
++ tomatoes, potatoes and fish
+- schnitzel, chicken and fish
+- nothing but carrots
+
+[CONTINUATION]
+> What comes next?
+Speaker593: Ich esse keinen Fisch! Ich bin [Vegetarier]!    
+~           I   eat  no     fish   I   am   (a)~vegetarian  
+- Kartoffelsalat
+~ potato~salad  
++ Vegetarier
+~ vegetarian
+- Lehrer 
+~ teacher
+
+[LINE]
+Speaker385: Wir haben Pommes       …
+~           we  have  french~fries  
+
+[LINE]
+Speaker593: Gut.  Pommes       sind OK.
+~           good  french~fries are  OK 
+
+[LINE]
+Speaker385: Pommes,       sehr gut.  Und … eine Wurst?  
+~           french~fries  very good  and   a    sausage 
+
+[LINE]
+Speaker593: Kein Fleisch, bitte! 
+~           no   meat     please 
+
+[MULTIPLE_CHOICE]
+> Why is Vikram upset with the waiter?
+- He doesn't remember Vikram's name.
++ He keeps forgetting that Vikram is a vegetarian.
+- The food at the restaurant is bad.
+
+[MATCH]
+> Tap the pairs
+- bitte <> please
+- Hallo <> hello
+- Hähnchen <> chicken
+- Wir <> we
+- Vegetarier <> vegetarian
+
