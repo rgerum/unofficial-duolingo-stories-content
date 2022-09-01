@@ -1,0 +1,140 @@
+[DATA]
+fromLanguageName=Neues Hobby
+icon=62007089a594753623424845fe8d5efd80654385
+set=31|3
+
+[HEADER]
+> New   Hobby
+~ neues Hobby
+
+[LINE]
+> Lily's mother enters  Lily's bedroom.     
+~ Lilys  Mutter betritt Lilys  Schlafzimmer 
+
+[LINE]
+Speaker559: Lily? You should   get~up.   
+~           Lily  du  solltest aufstehen 
+
+[ARRANGE]
+> Was hörst du?
+Speaker416: [(You) (should)   (leave~my~room).]        
+~             du    solltest   mein~Zimmer~verlassen   
+
+[LINE]
+Speaker559: You've  been~in~bed     all~day.        It's   summer!
+~           du~bist im~Bett~gewesen den~ganzen~Tag  es~ist Sommer 
+
+[LINE]
+Speaker416: I   want to~stay~in~bed  and think~about~darkness.       The world is  terrible.   
+~           ich will im~Bett~bleiben und über~Dunkelheit~nachdenken  die Welt  ist schrecklich 
+
+[MULTIPLE_CHOICE]
+> Warum will Lily nicht aufstehen?
++ Sie will über dunkle und schreckliche Sachen nachdenken.
+- Sie konnte letzte Nacht nicht schlafen.
+- Sie hat sehr hohes Fieber.
+
+[LINE]
+Speaker559: Teenagers are  so dramatic!  
+~           Teenager  sind so dramatisch 
+
+[LINE]
+Speaker559: When I   was~your~age,        I~went~out          with my     friends,  swam~every~day,            and learned~new~languages!     
+~           als  ich in~deinem~Alter~war  bin~ich~ausgegangen mit  meinen Freunden  bin~jeden~Tag~geschwommen  und habe~neue~Sprachen~gelernt 
+
+[LINE]
+Speaker416: Learning~new~languages? That sounds very boring.    
+~           neue~Sprachen~lernen    das  klingt sehr langweilig 
+
+[LINE]
+Speaker559: You should   get~a~hobby.           Hobbies are~fun!    
+~           du  solltest dir~ein~Hobby~zulegen  Hobbys  machen~Spaß 
+
+[LINE]
+Speaker416: Lying~in~bed   is  my   hobby.
+~           im~Bett~liegen ist mein Hobby 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker559: You could    join      a     [book~club].
+~           du  könntest beitreten einem  Buchklub   
+- book bag
++ book club
+- big club
+
+[LINE]
+Speaker416: I   read alone.  Like a   normal   person.
+~           ich lese allein  wie  ein normaler Mensch 
+
+[LINE]
+Speaker559: Photography?
+~           Fotografie  
+
+[LINE]
+Speaker416: Ugh. No   thanks.
+~           bäh  nein danke  
+
+[LINE]
+Speaker559: Oh! You like  music, don't~you? 
+~           oh  du  magst Musik  nicht~wahr 
+
+[LINE]
+Speaker416: Yeah…
+~           ja   
+
+[LINE]
+Speaker559: You could~play       an~instrument. 
+~           du  könntest~spielen ein~Instrument 
+
+[ARRANGE]
+> Was hörst du?
+Speaker559: [(Your) (dad)  (has) (some~old)  (drums).]     
+~             dein   Papa   hat   ein~altes   Schlagzeug   
+
+[LINE]
+Speaker416: Hmm. Drums      are cool…
+~           hmm  Schlagzeug ist cool 
+
+[MULTIPLE_CHOICE]
+> Lily denkt darüber nach, Schlagzeug zu spielen.
+- Nein, das ist falsch.
++ Ja, das ist richtig.
+
+[LINE]
+> Four hours   later,  Lily~is~playing the drums.      It's   loud.
+~ vier Stunden später  spielt~Lily     das Schlagzeug  es~ist laut 
+
+[LINE]
+> Very loud.
+~ sehr laut 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker559: Lily, can    you stop     [playing~the~drums]         now?  
+~           Lily  kannst du  aufhören  das~Schlagzeug~zu~spielen  jetzt 
+- laying the drums
+- play in the rooms
++ playing the drums
+
+[LINE]
+Speaker416: But  it's   my   new   hobby. And I   need to~practice at~least   three hours   a  day.
+~           aber es~ist mein neues Hobby  und ich muss üben        mindestens drei  Stunden am Tag 
+
+[LINE]
+Speaker559: Your new   hobby is~giving me  a~headache.    Now   I~need   to~lie~down.  
+~           dein neues Hobby gibt      mir Kopfschmerzen  jetzt muss~ich mich~hinlegen 
+
+[MULTIPLE_CHOICE]
+> Lily hat ein neues Hobby gefunden und …
+- … ihre Mutter freut sich darüber.
+- … ist einem Buchklub beigetreten.
++ … ihre Mutter hat davon schreckliche Kopfschmerzen bekommen.
+
+[MATCH]
+> Wähle die Paare
+- been in bed <> im Bett gewesen
+- is <> ist
+- enters <> betritt
+- to lie down <> mich hinlegen
+- can <> kannst
+
