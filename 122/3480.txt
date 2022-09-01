@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Ein interessantes Gespräch
+icon=6711cee61441da3d7aa6099466d6fff137239c3a
+set=11|3
+
+[HEADER]
+> An  Interesting   Conversation
+~ ein interessantes Gespräch    
+
+[LINE]
+> Bea is~sitting on  a     bench in~the park.
+~ Bea sitzt      auf einer Bank  im     Park 
+
+[LINE]
+Speaker258: Excuse~me,      can  I   sit~here?   
+~           Entschuldigung  kann ich hier~sitzen 
+
+[LINE]
+Speaker507: Yes.
+~           ja  
+
+[LINE]
+Speaker507: But  I'm~waiting for my    friend.  
+~           aber ich~warte   auf meine Freundin 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „Freund“.
+Speaker507: (She's~coming) (here)    (with) her   (+boyfriend).
+~            sie~kommt      hierher   mit   ihrem   Freund     
+
+[LINE]
+Speaker258: Oh, really?  
+~           oh  wirklich 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker507: I'm~really~excited             [to~meet~him].       
+~           ich~freue~mich~wirklich~darauf  ihn~kennenzulernen  
+- to make him
+- to eat them
++ to meet him
+
+[LINE]
+Speaker258: Why?  
+~           warum 
+
+[LINE]
+Speaker507: She likes him a~lot.
+~           sie mag   ihn sehr  
+
+[LINE]
+Speaker258: Interesting…
+~           interessant 
+
+[LINE]
+Speaker507: She is~going to~ask~him~to~marry~her…       
+~           sie wird     ihm~einen~Heiratsantrag~machen 
+
+[LINE]
+Speaker507: … this   weekend!   
+~             dieses Wochenende 
+
+[MULTIPLE_CHOICE]
+> Beas Freundin wird …
+- … mit ihrem Freund nächsten Monat ein Haus kaufen.
++ … ihrem Freund dieses Wochenende einen Heiratsantrag machen.
+- … mit Bea dieses Wochenende in den Urlaub fahren.
+
+[LINE]
+Speaker258: This   weekend?   
+~           dieses Wochenende 
+
+[LINE]
+Speaker507: Yes. It's   so exciting! 
+~           ja   es~ist so aufregend 
+
+[LINE]
+Speaker507: Oh! My    friend   is  here!
+~           oh  meine Freundin ist hier 
+
+[LINE]
+Speaker507: Hey, Emily.
+~           hey  Emily 
+
+[LINE]
+Speaker260: Hey, Bea!
+~           hey  Bea 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker260: Oh, [you're~talking~to]      Leo! That's  great!    
+~           oh   du~unterhälst~dich~mit  Leo  das~ist großartig 
++ you're talking to
+- you talk to
+- you take the
+
+[LINE]
+Speaker507: Huh? Who is  Leo?
+~           hä   wer ist Leo 
+
+[LINE]
+Speaker260: My   boyfriend, Leo. He is~sitting next~to you!
+~           mein Freund     Leo  er sitzt      neben   dir 
+
+[LINE]
+Speaker507: Oh no!  
+~           oh nein 
+
+[LINE]
+Speaker258: Nice to~meet~you,         Bea.
+~           nett dich~kennenzulernen  Bea 
+
+[MULTIPLE_CHOICE]
+> Ups! Bea hat Leo aus Versehen verraten, …
++ … dass seine Freundin ihm einen Heiratsantrag machen wird.
+- … dass seine Freundin mit ihm Schluss machen wird.
+- … dass sie eine Beziehung mit seiner Freundin hat.
+
+[MATCH]
+> Wähle die Paare
+- She <> sie
+- likes <> mag
+- I <> ich
+- her <> ihrem
+- Excuse me <> Entschuldigung
+
