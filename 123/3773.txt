@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Yo quiero una pizza
+icon=3eebaf390a99fcebfaf064cfa42f14c071b5b97f
+set=9|4
+
+[HEADER]
+> Je veux   une pizza
+~ yo quiero una pizza
+
+[LINE]
+> Lin marche         dans la rue.  
+~ Lin está~caminando por  la calle 
+
+[LINE]
+> Elle a     deux pizzas.
+~ ella tiene dos  pizzas 
+
+[LINE]
+> Elle voit Oscar.
+~ ella ve~a Oscar 
+
+[LINE]
+Speaker592: Salut, Lin. Ça  sent~bon   !
+~           hola   Lin  eso huele~bien  
+
+[MULTIPLE_CHOICE]
+> Oscar cree que la pizza de Lin huele mal.
+- Sí, así es.
++ No, no es así.
+
+[LINE]
+Speaker508: Oui, ce    sont des~pizzas de chez~Emilio.      
+~           sí   estas son  pizzas     de en~casa~de~Emilio 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker592: Oh, [j'adore~ce~restaurant].     
+~           Oh   me~encanta~ese~restaurante  
++ j'adore ce restaurant
+- j'adore mon croissant
+- encore au restaurant
+
+[LINE]
+Speaker592: Je veux   une pizza maintenant !
+~           yo quiero una pizza ahora       
+
+[LINE]
+Speaker508: Oh, mais le restaurant  est  fermé.  
+~           ah  pero el restaurante está cerrado 
+
+[LINE]
+Speaker592: Oh, non...
+~           ay  no    
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "comprar".
+Speaker592: Ah ! Tu as     deux (pizzas). (Je~peux) (+acheter) une de tes (pizzas) ?
+~           ah   tú tienes dos   pizzas    puedo      comprar  una de tus  pizzas   
+
+[LINE]
+Speaker508: Non, désolée.   Il~y~a une pizza pour ma grand-mère, Lucie, et une pizza pour moi.
+~           no   lo~siento  hay    una pizza para mi abuela      Lucie  y  una pizza para mí  
+
+[LINE]
+Speaker592: Je~peux avoir un peu  de ta pizza ?
+~           puedo   comer un poco de tu pizza  
+
+[MULTIPLE_CHOICE]
+> Oscar quiere…
+- …una cita con la abuela de Lin.
++ …un poco de la pizza de Lin.
+- …un cupón para el restaurante.
+
+[LINE]
+Speaker508: Non, Oscar.
+~           no   Oscar 
+
+[LINE]
+> Lin rentre    chez~elle.
+~ Lin regresa~a su~casa   
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker592: Je veux   manger une pizza de chez~Emilio       [maintenant].
+~           yo quiero comer  una pizza de en~casa~de~Emilio  ahora       
+- dans dix  ans 
+~ en   diez años
++ maintenant
+~ ahora     
+- à  la piscine
+~ en la piscina
+
+[LINE]
+> Oscar prend son téléphone.
+~ Oscar toma  su  teléfono  
+
+[LINE]
+Speaker592: Salut, Lucie, c'est Oscar. Tu~fais~quelque~chose pour le~dîner ?
+~           hola   Lucie  soy   Oscar  tienes~planes         para la~cena   
+
+[LINE]
+Speaker509: Je mange       une~pizza avec Lin ! Tu~veux manger avec nous     ?
+~           yo voy~a~comer pizza     con  Lin   quieres comer  con  nosotras  
+
+[LINE]
+Speaker592: Bonne idée, merci   !
+~           buena idea  gracias  
+
+[MULTIPLE_CHOICE]
+> ¡Qué astuto! Oscar llamó a Lucie porque…
++ …quería que lo invitara a cenar.
+- …quería desearle un feliz cumpleaños.
+- …ella no le contestó sus mensajes de texto.
+
+[MATCH]
+> Selecciona los pares
+- avec <> con
+- restaurant <> restaurante
+- téléphone <> teléfono
+- Je <> yo
+- ma <> mi
+
