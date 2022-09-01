@@ -1,0 +1,114 @@
+[DATA]
+fromLanguageName=¡Es una emergencia!
+icon=7e5d8724d525fd56e3abc838f2849ae269ebefd5
+set=14|1
+
+[HEADER]
+> C'est une urgence    !
+~ es    una emergencia  
+
+[LINE]
+> Junior est  à  la piscine avec son père,  Eddy.
+~ Junior está en la piscina con  su  padre  Eddy 
+
+[LINE]
+> Il court vers  la maître-nageuse.
+~ él corre hacia la salvavidas     
+
+[LINE]
+Speaker415: Au~secours !
+~           socorro     
+
+[LINE]
+Speaker415: Mon père  a~besoin~d'aide !
+~           mi  padre necesita~ayuda   
+
+[LINE]
+Speaker856: Il est~en~train~de~se~noyer ?!
+~           él se~está~ahogando           
+
+[MULTIPLE_CHOICE]
+> ¿Por qué la salvavidas está preocupada?
+- Junior se está ahogando.
++ Ella cree que el papá de Junior se está ahogando.
+- Ella les tiene miedo a los niños.
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "traje de baño".
+Speaker415: (Non)… Il (a~besoin~d'aide) (avec) son (+maillot~de~bain).
+~            no    él  necesita~ayuda    con   su    traje~de~baño    
+
+[LINE]
+Speaker856: Je~ne~comprends~pas…
+~           no~entiendo         
+
+[LINE]
+Speaker415: Son maillot~de~bain est trop      petit.  
+~           su  traje~de~baño   es  demasiado pequeño 
+
+[LINE]
+Speaker415: Il ne~veut~pas m'écouter…  C'est  vraiment  horrible !
+~           él no~quiere   escucharme  eso~es realmente horrible  
+
+[LINE]
+Speaker856: Je~suis~désolée, mais les maîtres-nageurs sont  là   pour les urgences.   
+~           lo~siento        pero los salvavidas      están allí para las emergencias 
+
+[LINE]
+Speaker415: Mais c'est   une urgence    ! Regardez !
+~           pero esto~es una emergencia   mire      
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+> [(La) (maître-nageuse) (voit) (Eddy).]
+~   la   salvavidas       ve~a   Eddy   
+
+[LINE]
+Speaker856: Oh, non !
+~           ay  no   
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker856: Tu as     raison. Il~est~vraiment trop      petit,   ce  [maillot~de~bain ]!
+~           tú tienes razón   realmente~es    demasiado pequeño  ese  traje~de~baño     
++ maillot~de~bain
+~ traje~de~baño  
+- manteau
+~ abrigo 
+- pantalon
+~ pantalón
+
+[LINE]
+> La maître-nageuse appelle Eddy.
+~ la salvavidas     llama~a Eddy 
+
+[LINE]
+Speaker856: Monsieur ! J'arrive !
+~           señor      ya~voy    
+
+[LINE]
+> La maître-nageuse court vers  Eddy avec une grande serviette rouge.
+~ la salvavidas     corre hacia Eddy con  una gran   toalla    roja  
+
+[LINE]
+Speaker414: Qu'est-ce~qu'il~y~a ?!
+~           qué~pasa              
+
+[LINE]
+Speaker856: Monsieur, prenez cette serviette, s'il~vous~plaît. C'est une urgence    !
+~           señor     tome   esta  toalla     por~favor        es    una emergencia  
+
+[MULTIPLE_CHOICE]
+> ¿Cuál es la emergencia?
++ El traje de baño de Eddy es demasiado pequeño.
+- A Junior se le olvidó traer su toalla.
+- Eddy no sabe nadar.
+
+[MATCH]
+> Selecciona los pares
+- maillot de bain <> traje de baño
+- prenez <> tome
+- pour <> para
+- Regardez <> mire
+- a besoin d'aide <> necesita ayuda
+
