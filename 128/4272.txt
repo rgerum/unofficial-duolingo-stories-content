@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=Anh bị đau chân
+icon=e03c9c686e0856f66bc51a3f912c8be470a7f18b
+set=27|3
+
+[HEADER]
+> My~Leg       Hurts
+~ chân~của~anh đau  
+
+[LINE]
+> Bea opens her~front~door. She   sees      Eddy standing  on~one~leg.     
+~ Bea mở    cửa~nhà~cô~ấy   cô~ấy nhìn~thấy Eddy đang~đứng (bằng)~một~chân 
+
+[LINE]
+Speaker414: My~leg~hurts.    Can~you~drive~me      to  the~doctor's~office?
+~           anh~bị~đau~chân  em~chở~anh…được~không tới phòng~khám~bác~sĩ   
+
+[LINE]
+Speaker507: Sure!    
+~           được~chứ 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+> Bea and Eddy [get~in~Bea's~car].
+~ Bea và  Eddy  lên~xe~của~Bea    
+- quit in Bea's car
+- get on Bea's bar
++ get in Bea's car
+
+[LINE]
+Speaker414: Wait!     I   forgot     to~pick~up Junior from~school. Can~we~go~there?           
+~           khoan~đã  anh quên~không đón        Junior đi~học~về    chúng~ta~đến~đó~được~không 
+
+[LINE]
+Speaker507: Of~course.    
+~           tất~nhiên~rồi 
+
+[MULTIPLE_CHOICE]
+> Bea và Eddy cần phải đi đâu trước?
+- tới cửa hàng chân giò
+- tới một tiệm bánh
++ tới trường của Junior
+
+[LINE]
+> Bea and Eddy pick~up Junior from~school.
+~ Bea và  Eddy đón     Junior đi~học~về   
+
+[LINE]
+Speaker414: Can~we~also~go             to  the~post~office?
+~           chúng~ta~đi…nữa~được~không tới bưu~điện        
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker507: But   [you~hurt~your~leg],          remember?   
+~           nhưng  anh~bị~chấn~thương~chân~mà   anh~nhớ~chứ 
++ you hurt your leg
+- you heard a wreck
+- who hurt her leg
+
+[LINE]
+Speaker414: I   need~your~help  to~pick~up a   large~package.
+~           anh cần~em~giúp~anh đi~lấy     một bưu~kiện~lớn  
+
+[LINE]
+Speaker507: Ugh, fine.     
+~           hừm  thôi~được 
+
+[LINE]
+Speaker415: Look!     There's~no~line           at Benny's~Burgers!
+~           nhìn~kìa  đang~không~có~ai~xếp~hàng ở  Benny's~Burgers 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+> [(Junior) (points) (at)      (a)   (restaurant).]
+~   Junior   chỉ      về~phía   một   nhà~hàng     
+
+[LINE]
+Speaker414: Their~burgers~are     amazing,    but   the~line~is             always       so~long!       Let's~go!   
+~           bánh~hamburger~của~họ ngon~tuyệt  nhưng hàng~người~chờ~mua~bánh lúc~nào~cũng dài~ơi~là~dài  vào~ăn~thôi 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker507: But   you need     to~see [a~doctor]!
+~           nhưng anh cần~phải gặp     bác~sĩ    
+- your~date     
+~ cô~bạn~của~anh
++ a~doctor
+~ bác~sĩ  
+- my~cow       
+~ con~bò~của~em
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là "phép màu".
+Speaker415: (But)   there's~no~line!              (It's)  (a)   (+miracle)! 
+~            nhưng  đang~không~có~ai~xếp~hàng~cả   đó~là   một    phép~màu  
+
+[LINE]
+> Later,   Eddy, Junior, and Bea are~in       the~restaurant.
+~ lát~sau  Eddy  Junior  và  Bea đang~ở~trong nhà~hàng       
+
+[LINE]
+Speaker507: Wow,  that~burger        was     amazing.  
+~           trời  chiếc~hamburger~đó thật~là tuyệt~vời 
+
+[LINE]
+Speaker414: Yeah, but   we       should~go to  the~doctor's~office now.         
+~           ừ     nhưng chúng~ta nên~đi    tới phòng~khám~bác~sĩ   ngay~bây~giờ 
+
+[LINE]
+Speaker507: Does~your~leg~still~hurt?
+~           chân~anh~vẫn~còn~đau~à   
+
+[LINE]
+Speaker414: No,    my~stomach hurts now.        I~think     I   ate   too many  burgers.       
+~           không  bụng~anh   đau   giờ~thì...  hình~như~là anh đã~ăn quá nhiều bánh~hamburger 
+
+[MULTIPLE_CHOICE]
+> Tuy Eddy đã hết đau chân nhưng giờ…
+- …lại đến lượt Bea bị đau chân.
+- …anh ấy lại phải đi tắm.
++ …anh ấy lại bị đau bụng.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- remember <> anh nhớ chứ
+- fine <> thôi được
+- forgot <> quên không
+- miracle <> phép màu
+- from school <> đi học về
+
