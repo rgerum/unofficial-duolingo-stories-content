@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=Horoskope stimmen nicht
+icon=10523c977de263efd9025298f59cc9e2f702d3f1
+set=23|2
+
+[HEADER]
+> Horoscopes Aren't~Real  
+~ Horoskope  stimmen~nicht
+
+[LINE]
+> Eddy and Bea are  in a~coffee~shop. Bea is~reading the~newspaper.
+~ Eddy und Bea sind in einem~Café     Bea liest      die~Zeitung   
+
+[LINE]
+Speaker507: Hmm, this is  interesting…
+~           hmm  das  ist interessant 
+
+[LINE]
+Speaker414: What?
+~           was  
+
+[LINE]
+Speaker507: I'm~reading my~horoscope.  It~says     I'll~help~someone                today.
+~           ich~lese    mein~Horoskop  darin~steht (dass)~ich~jemandem~helfen~werde heute 
+
+[LINE]
+Speaker414: Horoscopes aren't~real.   A~newspaper  can't~tell~you        about~your~future. 
+~           Horoskope  stimmen~nicht  eine~Zeitung kann~dir~nichts~sagen über~deine~Zukunft 
+
+[MULTIPLE_CHOICE]
+> Eddy glaubt, dass Horoskope die Zukunft vorhersagen können.
++  Nein, das ist falsch.
+- Ja, das ist richtig.
+
+[LINE]
+Speaker507: Well,  I   read my~horoscope  every day, and it's   usually       right.  
+~           na~ja  ich lese mein~Horoskop jeden Tag  und es~ist normalerweise richtig 
+
+[LINE]
+Speaker414: OK… Can  I   read~my~horoscope?  
+~           OK  kann ich mein~Horoskop~lesen 
+
+[LINE]
+Speaker507: Sure.
+~           klar 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „verschüttet“.
+> (Bea) (gives) the~newspaper~to~Eddy (and) (+spills)      his~coffee.   
+~  Bea   gibt   Eddy~die~Zeitung       und    verschüttet  seinen~Kaffee 
+
+[LINE]
+Speaker507: Oh, no!  
+~           oh  nein 
+
+[ARRANGE]
+> Was hörst du?
+Speaker507: [(Now)   (there's) (coffee) (on)  (your~shirt)!] 
+~             jetzt   ist~da    Kaffee   auf   deinem~Hemd   
+
+[LINE]
+Speaker414: And I   have an   important meeting   in ten  minutes!
+~           und ich habe eine wichtige  Konferenz in zehn Minuten 
+
+[LINE]
+Speaker507: Don't~worry! I   have an~extra   sweater  in my~bag.       
+~           keine~Sorge  ich habe noch~einen Pullover in meiner~Tasche 
+
+[LINE]
+> Bea gives Eddy her~sweater.   
+~ Bea gibt  Eddy ihren~Pullover 
+
+[MULTIPLE_CHOICE]
+> Moment! Warum gibt Bea Eddy ihren Pullover?
++ Sie hat Kaffee auf sein Hemd verschüttet.
+- Die Farbe passt zu Eddys Augen.
+- Eddy friert heute sehr.
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker414: I   can't~wear~this!       It's    your [favorite~sweater]! 
+~           ich kann~das~nicht~tragen  das~ist dein  Lieblingspullover  
++ favorite~sweater 
+~ Lieblingspullover
+- coffee~shop
+~ Café       
+- newspaper
+~ Zeitung  
+
+[LINE]
+Speaker507: Hmm… When were    you born?   
+~           hmm  wann wurdest du  geboren 
+
+[LINE]
+Speaker414: October~fourth. 
+~           vierter~Oktober 
+
+[LINE]
+Speaker507: Oh, that means    you're  a~Libra.
+~           oh  das  bedeutet du~bist Waage   
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker414: That [doesn't~mean~anything].
+~           das   bedeutet~gar~nichts    
+- doesn't name anything
+- doesn't need many things
++ doesn't mean anything
+
+[LINE]
+Speaker507: Oh,~yeah? Then listen~to~this.
+~           ach~ja    dann hör~dir~das~an 
+
+[LINE]
+Speaker507: Your~horoscope says:
+~           dein~Horoskop  sagt 
+
+[LINE]
+Speaker507: "You will  have~a~very~good~day       today if   you let~a~friend~help~you."            
+~            du  wirst einen~sehr~guten~Tag~haben heute wenn du  dir~von~einem~Freund~helfen~lässt  
+
+[LINE]
+Speaker414: OK, Bea. I'll      wear~your~sweater.     
+~           OK  Bea  ich~werde deinen~Pullover~tragen 
+
+[MULTIPLE_CHOICE]
+> Bea glaubt, Eddys Horoskop deute darauf hin, dass …
+- … er aufhören sollte, Kaffee zu trinken.
+- … er einen furchtbaren Tag haben wird.
++ … er ihren Pullover tragen sollte.
+
+[MATCH]
+> Wähle die Paare
+- Now <> jetzt
+- an <> eine
+- Bea <> Bea
+- It says <> darin steht
+- this <> das
+
