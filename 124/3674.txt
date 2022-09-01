@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=J'ai mal à la jambe
+icon=e03c9c686e0856f66bc51a3f912c8be470a7f18b
+set=27|3
+
+[HEADER]
+> My~Leg~Hurts       
+~ j'ai~mal~à~la~jambe
+
+[LINE]
+> Bea opens her front~door.     She  sees Eddy standing on  one leg.  
+~ Bea ouvre sa  porte~d'entrée  elle voit Eddy debout   sur une jambe 
+
+[LINE]
+Speaker414: My~leg~hurts.        Can~you~drive~me    to~the~doctor's~office?
+~           j'ai~mal~à~la~jambe  tu~peux~me~conduire chez~le~médecin        
+
+[LINE]
+Speaker507: Sure!    
+~           bien~sûr 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+> Bea and Eddy [get~in~Bea's~car].              
+~ Bea et  Eddy  montent~dans~la~voiture~de~Bea  
+- get on Bea's bar
++ get in Bea's car
+- quit in Bea's car
+
+[LINE]
+Speaker414: Wait!    I~forgot    to~pick~up       Junior from school.  Can~we~go~there?
+~           attends  j'ai~oublié d'aller~chercher Junior à    l'école  on~peut~y~aller 
+
+[LINE]
+Speaker507: Of~course.
+~           bien~sûr  
+
+[MULTIPLE_CHOICE]
+> Où Bea et Eddy doivent-ils aller en premier ?
++ à l'école de Junior
+- à la boulangerie
+- au magasin de jambes
+
+[LINE]
+> Bea and Eddy pick~up       Junior from school. 
+~ Bea et  Eddy vont~chercher Junior à    l'école 
+
+[LINE]
+Speaker414: Can~we~also~go      to the post~office?
+~           on~peut~aussi~aller à  la  poste       
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker507: But  [you~hurt~your~leg],           remember?       
+~           mais  tu~t'es~fait~mal~à~la~jambe   tu~te~rappelles 
+- who hurt her leg
++ you hurt your leg
+- you heard a wreck
+
+[LINE]
+Speaker414: I~need         your help to~pick~up          a  large package.
+~           j'ai~besoin~de ton  aide pour~aller~chercher un gros  colis   
+
+[LINE]
+Speaker507: Ugh, fine.    
+~           roh  d'accord 
+
+[LINE]
+Speaker415: Look!     There's~no      line  at  Benny's~Burgers! 
+~           regardez  il~n'y~a~pas~de queue aux Burgers~de~Benny 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+> [(Junior) (points~at) (a)  (restaurant).]
+~   Junior   montre      un   restaurant   
+
+[LINE]
+Speaker414: Their burgers    are  amazing,     but  the line  is  always   so        long!   Let's~go!
+~           leurs hamburgers sont incroyables  mais la  queue est toujours tellement longue  allons-y 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker507: But  you need         to~see [a  doctor]! 
+~           mais tu  as~besoin~de voir    un médecin  
+- this movie
+~ ce   film 
++ a  doctor 
+~ un médecin
+- your date   
+~ ton  rencard
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « queue ».
+Speaker415: (But)  there's~no      (+line)!  (It's)  (a)  miracle!
+~            mais  il~n'y~a~pas~de   queue    c'est   un  miracle 
+
+[LINE]
+> Later,     Eddy, Junior, and Bea are  in   the restaurant.
+~ plus~tard  Eddy  Junior  et  Bea sont dans le  restaurant 
+
+[LINE]
+Speaker507: Wow,   that burger    was   amazing.   
+~           waouh  ce   hamburger était incroyable 
+
+[LINE]
+Speaker414: Yeah,  but  we   should~go      to~the~doctor's~office now.       
+~           ouais  mais nous devrions~aller chez~le~médecin        maintenant 
+
+[LINE]
+Speaker507: Does~your~leg~still~hurt?   
+~           tu~as~encore~mal~à~la~jambe 
+
+[LINE]
+Speaker414: No,  my~stomach~hurts   now.        I  think     I~ate      too~many burgers.   
+~           non  j'ai~mal~au~ventre maintenant  je pense~que j'ai~mangé trop~de  hamburgers 
+
+[MULTIPLE_CHOICE]
+> Eddy n'a plus mal à la jambe mais maintenant...
+- … Bea s'est fait mal à la jambe.
++ … il a mal au ventre.
+- … il doit prendre une douche.
+
+[MATCH]
+> Choisis les paires
+- from <> à
+- sees <> voit
+- your <> ton
+- to pick up <> d'aller chercher
+- There's no <> il n'y a pas de
+
