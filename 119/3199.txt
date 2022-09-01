@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=Where Are My Keys?
+icon=5110eca6fc0b03b232b80db4a6ed8fb955501d23
+set=8|2
+
+[HEADER]
+> Wo    sind meine Schlüssel?
+~ where are  my    keys      
+
+[LINE]
+> Lin und ihre Großmutter  Lucy sind zu~Hause.
+~ Lin and her  grandmother Lucy are  at~home  
+
+[LINE]
+Speaker509: Wir haben heute einen Tisch in einem schönen Restaurant!
+~           we  have  today a     table in a     nice    restaurant 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: Aber [wir~müssen~jetzt~gehen]!
+~           but   we~have~to~leave~now    
+- Sie müssen hier stehen
+- wir küssen und gehen
++ wir müssen jetzt gehen
+
+[LINE]
+Speaker508: OK!
+~           OK 
+
+[LINE]
+Speaker508: Oh nein! Wo    sind meine Motorradschlüssel?
+~           oh no    where are  my    motorcycle~keys   
+
+[LINE]
+Speaker509: Deine Schlüssel liegen~oft an~komischen~Orten.
+~           your  keys      are~often  in~strange~places  
+
+[MULTIPLE_CHOICE]
+> What is most likely to happen next?
++ Lin will look for her keys in strange places.
+- Lucy will leave without Lin.
+- Lucy and Lin will ride horses to the restaurant.
+
+[LINE]
+Speaker509: Sind sie  in deinem Rucksack?
+~           are  they in your   backpack 
+
+[LINE]
+> Lin sucht    in ihrem Rucksack.
+~ Lin searches in her   backpack 
+
+[ARRANGE]
+> Tap what you hear
+Speaker508: [(Nein), (da)    (sind) (sie)  (nicht).]
+~             no      there   are    they   not     
+
+[LINE]
+Speaker509: Liegen sie  auf dem Kaffeetisch? 
+~           are    they on  the coffee~table 
+
+[LINE]
+Speaker508: Nein, sie  liegen~nicht auf dem Kaffeetisch. 
+~           no    they aren't       on  the coffee~table 
+
+[CONTINUATION]
+> What comes next?
+Speaker509: Liegen sie  in der [Dusche]?
+~           are    they in the  shower  
++ Dusche
+~ shower
+- Banane
+~ banana
+- Wasserflasche
+~ water~bottle 
+
+[LINE]
+Speaker508: Nein, das  ist zu  komisch.
+~           no    that is  too strange 
+
+[LINE]
+Speaker508: Ich kann~sie~nicht~finden. Können wir ein~Taxi~nehmen?
+~           I   can't~find~them        can    we  take~a~taxi     
+
+[LINE]
+Speaker509: Es ist jetzt leider        zu  spät. Ich storniere     den Tisch.
+~           it is  now   unfortunately too late  I   (will)~cancel the table 
+
+[LINE]
+Speaker508: Es~tut~mir~leid, Oma.    
+~           I~am~sorry       grandma 
+
+[LINE]
+Speaker509: Kein Problem, ich mache       für uns Abendessen.
+~           no   problem  I   (will)~make for us  dinner     
+
+[LINE]
+> Lucy öffnet den Kühlschrank.
+~ Lucy opens  the fridge      
+
+[LINE]
+Speaker509: Lin! Deine Schlüssel liegen im~Kühlschrank!
+~           Lin  your  keys      are    in~the~fridge  
+
+[MULTIPLE_CHOICE]
+> At last! Lin's keys were in...
+- ...her shoes.
++ ...the refrigerator.
+- ...her car.
+
+[MATCH]
+> Tap the pairs
+- an komischen Orten <> in strange places
+- Restaurant <> restaurant
+- da <> there
+- Kühlschrank <> fridge
+- Problem <> problem
+
