@@ -1,0 +1,107 @@
+[DATA]
+fromLanguageName=Autoproblem
+icon=e161ff53b5f470063ac66df2698eddb71232c290
+set=16|2
+
+[HEADER]
+> Car~Problem
+~ Autoproblem
+
+[LINE]
+> Eddy is~standing on  the street.
+~ Eddy steht       auf der Straße 
+
+[LINE]
+> He closes   the trunk      of  a     car. 
+~ er schließt den Kofferraum von einem Auto 
+
+[LINE]
+> Vikram walks past~Eddy.     
+~ Vikram geht  an~Eddy~vorbei 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker593: Are  you OK, Eddy? [You~look~worried].     
+~           bist du  OK  Eddy   du~siehst~besorgt~aus  
++ You look worried
+- You look for it
+- Who cooked curry
+
+[LINE]
+Speaker414: Well,  I   borrowed~this~car                and it won't~start.  
+~           na~ja  ich habe~mir~dieses~Auto~ausgeliehen und es startet~nicht 
+
+[MULTIPLE_CHOICE]
+> Warum macht sich Eddy Sorgen?
+- Er ist im Kofferraum eines Autos.
+- Er weiß nicht, wo er ist.
++ Er kann das Auto, das er sich ausgeliehen hat, nicht starten.
+
+[LINE]
+Speaker593: Hmm. Can  I   help~you?  
+~           hmm  kann ich dir~helfen 
+
+[LINE]
+Speaker414: No.   It's   OK, Vikram.
+~           nein  es~ist OK  Vikram 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker593: But  I   know [what's~wrong]        with the car. 
+~           aber ich weiß  was~das~Problem~ist  mit  dem Auto 
+- what's along
++ what's wrong
+- that's wrong
+
+[LINE]
+Speaker414: Vikram, I   know a~lot about cars. 
+~           Vikram  ich weiß viel  über  Autos 
+
+[LINE]
+Speaker593: OK, well, you already~started~the~car…        
+~           OK  gut   du  hast~das~Auto~bereits~gestartet 
+
+[LINE]
+Speaker414: No,   I~didn't.       I   can't~hear~the~engine.     
+~           nein  habe~ich~nicht  ich kann~den~Motor~nicht~hören 
+
+[LINE]
+Speaker593: Eddy, this is  an  electric~car. It's   quiet, and it doesn't~use   gas.   
+~           Eddy  das  ist ein Elektroauto   es~ist leise  und es benötigt~kein Benzin 
+
+[MULTIPLE_CHOICE]
+> Weil das Auto elektrisch ist, …
+- … braucht es sehr viel Benzin.
+- … ist es hässlich.
++ … ist es leise und fährt ohne Benzin.
+
+[LINE]
+Speaker414: But  I   put~gas~in~the~car              ten~minutes~ago. 
+~           aber ich habe~Benzin~in~das~Auto~gefüllt vor~zehn~Minuten 
+
+[LINE]
+Speaker593: What?! Where? 
+~           was    worein 
+
+[LINE]
+Speaker414: Right here.
+~           genau hier 
+
+[LINE]
+Speaker593: Oh no,   Eddy... That's  the trunk!     
+~           oh nein  Eddy    das~ist der Kofferraum 
+
+[MULTIPLE_CHOICE]
+> Wo hat Eddy das Benzin hineingefüllt?
+- in sein Motorrad
+- in Vikrams Auto
++ in den Kofferraum des Autos
+
+[MATCH]
+> Wähle die Paare
+- a lot <> viel
+- on <> auf
+- Eddy <> Eddy
+- electric car <> Elektroauto
+- Right <> genau
+
