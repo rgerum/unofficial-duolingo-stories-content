@@ -1,0 +1,138 @@
+[DATA]
+fromLanguageName=The Bag
+icon=966f6e25540bc4ba5347e59005bcc1e2827fdd66
+set=3|1
+
+[HEADER]
+> Le  sac
+~ the bag
+
+[LINE]
+> Vikram est dans un~magasin.
+~ Vikram is  in   a~store    
+
+[LINE]
+> Une~femme parle       avec Vikram.
+~ a~woman   is~speaking with Vikram 
+
+[LINE]
+Speaker338: Bonjour !
+~           hello    
+
+[LINE]
+Speaker593: Bonjour.
+~           hello   
+
+[LINE]
+Speaker338: Vous travaillez ici  ?
+~           you  work       here  
+
+[MULTIPLE_CHOICE]
+> The woman asks Vikram if he works at the store.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker593: Je…
+~           I  
+
+[LINE]
+Speaker338: Très bien ! J'ai~besoin~de vous.
+~           very well   I~need         you  
+
+[MULTIPLE_CHOICE]
+> What does the woman mean?
+- She really likes Vikram.
++ She needs Vikram's help.
+- She wants Vikram's job.
+
+[LINE]
+Speaker593: Euh…
+~           uh  
+
+[LINE]
+Speaker338: J'ai~besoin~d'un~sac.
+~           I~need~a~bag         
+
+[LINE]
+Speaker338: Vous préférez le  sac~rouge ?
+~           you  prefer   the red~bag    
+
+[MULTIPLE_CHOICE]
+> The woman asks Vikram if he…
+- …wants a new job.
++ …prefers the red bag.
+- …likes working at the store.
+
+[LINE]
+Speaker593: Je…
+~           I  
+
+[LINE]
+Speaker338: Ou le~blanc        ?
+~           or the~white~(one)  
+
+[LINE]
+Speaker593: OK… Très bien.
+~           OK  very well 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker593: [Le~rouge~est~grand].
+~            the~red~one~is~big  
++ Le rouge est grand
+- Le rouge est blanc
+- La route est grande
+
+[LINE]
+Speaker593: Le~blanc        est beau…     
+~           the~white~(one) is  beautiful 
+
+[LINE]
+Speaker593: … et  il~n'est~pas cher.     
+~             and it~is~not    expensive 
+
+[MULTIPLE_CHOICE]
+> Vikram thinks the white bag is...
+- …ugly and too big.
+- …too expensive and old.
++ …pretty and not expensive.
+
+[LINE]
+Speaker593: Il~est super !
+~           it~is  great  
+
+[LINE]
+Speaker338: Très bien ! Je veux le  sac~blanc.
+~           very well   I  want the white~bag 
+
+[LINE]
+Speaker338: Merci~beaucoup.   
+~           thank~you~so~much 
+
+[LINE]
+Speaker338: Je paye où    ?
+~           I  pay  where  
+
+[LINE]
+Speaker593: Je ne~sais~pas.
+~           I  don't~know  
+
+[LINE]
+Speaker593: Je ne~travaille~pas ici. 
+~           I  don't~work       here 
+
+[MULTIPLE_CHOICE]
+> Why doesn't Vikram know where the woman can pay?
+- he hates shopping for bags
+- he forgot
++ he doesn't work at the store
+
+[MATCH]
+> Tap the pairs
+- beau <> beautiful
+- super <> great
+- Le rouge est grand <> the red one is big
+- J'ai besoin de <> I need
+- avec <> with
+
