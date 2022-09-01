@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=Two Tickets Please!
+icon=b8d10ee56171817ff548af825d5065b5561d1482
+set=4|2
+
+[HEADER]
+> チケットを                にまい                      ください！            
+~ tickets~[chiketto~o] two~(pieces~of)~[ni-mai] please~[kudasai] 
+
+[LINE]
+> ジュニアは             くうこう                   に~います。           
+~ Junior~[junia~wa] (the)~airport~[kuukou] is~at~[ni~imasu] 
+
+[LINE]
+> ジュニアは             カウンターの                        おんなのひと                     に~はなしかけます。                    
+~ Junior~[junia~wa] (at)~the~counter~[kauntaa~no] (the)~woman~[onna~no~hito] talks~to~[ni~hanashikakemasu] 
+
+[LINE]
+Speaker659: どうしましたか？                           
+~           can~I~help~you~[dou~shimashita~ka] 
+
+[LINE]
+Speaker415: ソウルいきの                  チケット                  が~ほしいんですけど。                      
+~           to~Seoul~[souru~iki~no] (a)~ticket~[chiketto] (I)~want~[ga~hoshii~n~desu~kedo] 
+
+[LINE]
+Speaker659: えっと|…ごりょうしんは                                どこ~ですか？                  
+~           well~[etto]  (your)~parents~[goryoushin~wa] where~are~[doko~desu~ka] 
+
+[MULTIPLE_CHOICE]
+> Junior is an adult.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker415: ちょっと|。ぼくは                       ななさい                       では~ありません。                  
+~           excuse~me~[chotto]  I~[boku~wa] seven~years~old~[nana-sai] (I)~am~not~[dewa~arimasen] 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker659: [なんさい~ですか]？                         
+~            how~old~are~you~[nan-sai~desu~ka]  
+- なんかい ですか
+- なんじ ですか
++ なんさい ですか
+
+[LINE]
+Speaker415: はっさい                     です。           
+~           eight~years~old~[hassai] (I)~am~[desu] 
+
+[MULTIPLE_CHOICE]
+> How old is Junior?
++ eight years old
+- ten years old
+- six years old
+
+[LINE]
+Speaker659: ソウルいきの                  チケットは                      よんまんえん                         ですよ。         
+~           to~Seoul~[souru~iki~no] (the)~ticket~[chiketto~wa] forty~thousand~yen~[yonman-en] is~[desu~yo] 
+
+[LINE]
+Speaker415: わかりました|。ごひゃくえんで                                          どこに             いくことが~できますか？                       
+~           OK~[wakarimashita]  for~five~hundred~yen~[gohyaku-en~de] where~[doko~ni] can~I~go~[iku~koto~ga~dekimasu~ka] 
+
+[MULTIPLE_CHOICE]
+> Uh oh! Why can't Junior go to Seoul?
+- The flight is already full.
+- He is afraid of flying.
++ He only has five hundred yen.
+
+[LINE]
+> ジュニアの               おとうさんの           エディが          カウンターに                      はしってきます。               
+~ Junior's~[junia~no] dad~[otousan~no] Eddy~[edi~ga] to~the~counter~[kauntaa~ni] runs~[hashitte~kimasu] 
+
+[LINE]
+Speaker504: ジュニア|！やっと                       みつけたよ|！くうこうで                                                 なに          を~しているの？                       
+~           Junior~[junia]  finally~[yatto] (I)~found~(you)~[mitsuketa~yo]  at~(the)~airport~[kuukou~de] what~[nani] are~you~doing~[o~shite~iru~no] 
+
+[POINT_TO_PHRASE]
+> Choose the option that means “test.”
+Speaker415: (きょう|)、さんすうの                     (+テスト)               が~あるんだ|。(だから|)、(この)                                  くに             を~でていく               ひつようが~あるんだ。                     
+~            today~[kyou]   math~[sansuu~no]   (a)~test~[tesuto]  (I)~have ~[ga~a ru~n~da]   so~[dakara]  this~[kono]  country~[kuni] to~leave~[o~deteiku] (I)~need~[hitsuyou~ga~aru~n~da] 
+
+[LINE]
+Speaker504: へえ|。チケットは                               いくら？                  
+~           I~see~[hee]  (the)~ticket~[chiketto~wa] how~much~(is)~[ikura] 
+
+[LINE]
+Speaker415: よんまんえん                         だよ。             
+~           forty~thousand~yen~[yonman-en] (it)~is~[da~yo] 
+
+[LINE]
+Speaker504: じゃあ|、にまいの                               チケットは                 いくら？                   
+~           then~[jaa]  two~(pieces~of)~[ni-mai~no] tickets~[chiketto~wa] how~much~(are)~[ikura] 
+
+[LINE]
+Speaker415: はちまんえん                            だよ。                
+~           eighty~thousand~yen~[hachiman-en] (they)~are~[da~yo] 
+
+[LINE]
+Speaker504: その~とおり|！ジュニアは                         さんすう          が~よく~できるね|！さあ|、がっこう                                                に~いくよ。                        
+~           right~[sono~toori]  Junior~[junia~wa] math~[sansuu] (you~are)~great~at~[ga~yoku~dekiru~ne]  now~[saa]  school~[gakkou] (we)~are~going~to~[ni~iku~yo] 
+
+[MULTIPLE_CHOICE]
+> Why did Junior want to buy a ticket to Seoul?
+- He wanted to surprise his dad with a vacation.
++ He didn't want to take his math test.
+- He wanted to see the architecture.
+
+[MATCH]
+> Tap the pairs
+- ぼくは <> I [boku wa]
+- です <> am [desu]
+- へえ <> I see [hee]
+- さんすうの <> math [sansuu no]
+- さんすう <> math [sansuu]
+
