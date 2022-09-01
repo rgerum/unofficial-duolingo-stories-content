@@ -1,0 +1,92 @@
+[DATA]
+fromLanguageName=Você pode me dar isso?
+icon=ce0ae956035c1bac6b9c64737466d59c5d027e97
+set=7|1
+
+[HEADER]
+> Can~I~Have~It?        
+~ você~pode~me~dar~isso 
+
+[LINE]
+> Junior and Eddy are   at~the mall.    
+~ Junior e   Eddy estão no     shopping 
+
+[LINE]
+Speaker415: Dad!   I  need         a  new~video~game!
+~           papai  eu preciso~(de) um videogame~novo 
+
+[LINE]
+Speaker414: You  don't~need       a  new~video~game.
+~           você não~precisa~(de) um videogame~novo 
+
+[MULTIPLE_CHOICE]
+> O pai do Junior quer comprar um videogame novo.
+- Sim, isso mesmo.
++ Não, não é isso.
+
+[LINE]
+Speaker415: Please?    There's a  flying~robot in~this game!
+~           por~favor  há      um robô~voador  neste   jogo 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker414: Junior. You  want this game, but [you~don't~need~it].    
+~           Junior  você quer este jogo  mas  você~não~precisa~dele  
+- you won't read it
++ you don't need it
+- we don't eat it
+
+[LINE]
+Speaker415: OK!    I  want  this game. Now   can~I~have~it?   
+~           certo  eu quero este jogo  agora você~pode~me~dar 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker414: No,  you  have video games [at home]!
+~           não  você tem  ~     ~      em casa  
+- in~the refrigerator
+~ na     geladeira   
+- in~the shower  
+~ no     chuveiro
++ at home
+~ em casa
+
+[LINE]
+Speaker415: You're~right.  
+~           você~tem~razão 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker415: [(So)    (can~we~go)             (home)?]
+~             então   nós~podemos~ir~(para)   casa   
+
+[LINE]
+Speaker414: No,  we  are~going    to   Vikram's~house.  
+~           não  nós estamos~indo para a~casa~do~Vikram 
+
+[LINE]
+Speaker415: Ugh! His~house   is boring!
+~           ~    a~casa~dele é  chata  
+
+[LINE]
+Speaker414: But his~TV    is big,    and I  need    to~watch the  football~game.            
+~           mas a~TV~dele é  grande  e   eu preciso assistir (a)o jogo~de~futebol~americano 
+
+[LINE]
+Speaker415: You  don't~need  to~watch the  game, Dad.   You  want to~watch     it. 
+~           você não~precisa assistir (a)o jogo  papai  você quer assistir~(a) ele 
+
+[MULTIPLE_CHOICE]
+> Tanto o Eddy como o Junior…
+- …jogam videogames com o Vikram.
++ …dizem que precisam, mas na verdade só querem algo.
+- …voam por aí em robôs.
+
+[MATCH]
+> Toque nos pares
+- can I have it <> você pode me dar
+- You <> você
+- big <> grande
+- this <> este
+- I <> eu
+
