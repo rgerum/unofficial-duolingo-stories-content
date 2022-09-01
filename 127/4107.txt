@@ -1,0 +1,124 @@
+[DATA]
+fromLanguageName=Onde está a tua namorada?
+icon=0d18f0403cfa415591d7ef50a9e9c01f1094936e
+set=3|4
+
+[HEADER]
+> ¿Dónde está tu    novia?   
+~  onde  está a~tua namorada 
+
+[LINE]
+> Bea está en~el aeropuerto.
+~ Bea está no    aeroporto  
+
+[LINE]
+> Ella habla con el hombre del mostrador.
+~ ela  fala  com o  homem  do  balcão    
+
+[LINE]
+Speaker823: ¡Hola! ¿Necesitas   ayuda?
+~            olá    precisas~de ajuda 
+
+[LINE]
+Speaker507: ¡Sí!  Voy para Barcelona…
+~            sim  vou para Barcelona 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "avião".
+Speaker507: … y quisiera       (estar) al lado de mi    (novia)    (en~el) (+avión).
+~             e eu~gostaria~de  estar  ao lado da minha  namorada   no       avião  
+
+[LINE]
+Speaker823: Está bien, tenemos dos  asientos juntos.
+~           está bem   temos   dois assentos juntos 
+
+[LINE]
+Speaker507: ¡Perfecto!
+~            perfeito 
+
+[MULTIPLE_CHOICE]
+> Por que a Bea está feliz?
+- O homem é de Barcelona.
++ Tem dois assentos disponíveis juntos.
+- Ela vai receber um desconto na passagem dela.
+
+[LINE]
+Speaker823: Mmm… ¿dónde está tu    novia?   
+~           hum   onde  está a~tua namorada 
+
+[LINE]
+Speaker507: No  sé.  ¿Puede ayudarme  a buscarla?    
+~           não sei   pode  me~ajudar a procurar~ela 
+
+[LINE]
+Speaker823: ¿Cómo es?   
+~            como ela~é 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker507: Mmm… Ella es alta, tiene [el~pelo~negro]… 
+~           hum  ela  é  alta  tem    o~cabelo~preto  
++ el pelo negro
+- el cielo negro
+- el perro negro
+
+[LINE]
+Speaker823: Está bien.
+~           está bem  
+
+[LINE]
+Speaker507: Le~gusta     hacer~deportes    y bailar…
+~           ela~gosta~de praticar~esportes e dançar 
+
+[LINE]
+Speaker823: Ah…
+~           ah 
+
+[LINE]
+Speaker507: A~ella~le~encantan los animales…
+~           ela~adora          os  animais  
+
+[LINE]
+Speaker507: …pero come demasiado~chocolate.
+~            mas  come chocolate~demais    
+
+[LINE]
+Speaker823: Está bien… ¿Cómo se llama tu    novia?   
+~           está bem    como se chama a~tua namorada 
+
+[LINE]
+Speaker507: Ah, yo no  sé. 
+~           ah  eu não sei 
+
+[LINE]
+Speaker823: ¿No  sabes cómo se llama tu    novia?   
+~            não sabes como se chama a~tua namorada 
+
+[MULTIPLE_CHOICE]
+>  Que estranho! A Bea não sabe...
+- ...o próprio nome dela.
+- …onde Barcelona fica.
++ …o nome da namorada dela.
+
+[LINE]
+Speaker507: No  tengo novia    todavía.
+~           não tenho namorada ainda   
+
+[LINE]
+Speaker507: ¿Puede ayudarme  a buscar   una?
+~            pode  me~ajudar a procurar uma 
+
+[MULTIPLE_CHOICE]
+> Você pegou essa? A Bea...
++ …não tem uma namorada ainda.
+- …deixou a namorada dela em casa.
+- …perdeu a namorada dela no aeroporto.
+
+[MATCH]
+> Toque nos pares
+- tengo <> tenho
+- estar <> estar
+- Necesitas <> precisas de
+- está <> está
+- Ella <> ela
+
