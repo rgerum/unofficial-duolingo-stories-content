@@ -1,0 +1,215 @@
+[DATA]
+fromLanguageName=Onde está a minha jaqueta?
+icon=c118dba677be114f65466bf9f2e2bb74df28ff32
+set=63|4
+
+[HEADER]
+> Where's   My        Jacket? 
+~ onde~está (a)~minha jaqueta 
+
+[LINE]
+> Oscar knocks on~Eddy's~door.  Eddy opens it. 
+~ Oscar bate   à~porta~de~Eddy  Eddy abre  ela 
+
+[LINE]
+Speaker592: Eddy, do~you~have the jacket  I        gave       you  last~week?          
+~           Eddy  você~tem    a   jaqueta (que)~eu dei~(para) você (na)~semana~passada 
+
+[LINE]
+Speaker414: Your~blue~jacket?     Don't~you~hate that   jacket? 
+~           (a)~sua~jaqueta~azul  você~não~odeia aquela jaqueta 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker592: [I~changed~my~mind]. I  really    need    it     back     now.  
+~            eu~mudei~de~ideia   eu realmente preciso (d)ela de~volta agora 
+- I'll change to mine
++ I changed my mind
+- I changed the time
+
+[LINE]
+Speaker414: Sorry,    but I  gave the jacket  to       Lin!
+~           desculpe  mas eu dei  a   jaqueta para~(a) Lin 
+
+[LINE]
+Speaker592: What?  Why?    
+~           o~quê  por~quê 
+
+[LINE]
+Speaker414: It  didn't~fit     me. 
+~           ela não~coube~(em) mim 
+
+[LINE]
+Speaker592: Oh, no.  Well, maybe~Lin~will~give it  back     to   me… 
+~           ah  não  bem   talvez~a~Lin~dê     ela de~volta para mim 
+
+[LINE]
+Speaker414: Good luck! 
+~           boa  sorte 
+
+[LINE]
+> Oscar runs  to   Lin's~apartment.     
+~ Oscar corre para o~apartamento~de~Lin 
+
+[MULTIPLE_CHOICE]
+> Wait…   why     is~Oscar~going to   Lin's~apartment?     
+~ espere  por~que Oscar~vai      para o~apartamento~de~Lin 
++ He  wants to~get his~jacket     back.    
+~ ele quer  pegar  a~jaqueta~dele de~volta 
+- He  needs   to~give  her his~jacket.    
+~ ele precisa dar~para ela a~jaqueta~dele 
+- Lin invited  him to~come~over~for~dinner.    
+~ Lin convidou ele para~ir~jantar~na~casa~dela 
+
+[LINE]
+Speaker592: Lin, Eddy told          me  he        gave       you  my        jacket… 
+~           Lin  Eddy contou~(para) mim (que)~ele deu~(para) você (a)~minha jaqueta 
+
+[LINE]
+Speaker508: Yes! I  loved it! 
+~           sim  eu amei  ela 
+
+[LINE]
+Speaker592: Oh, good. Then  you  must~still~have it! 
+~           ah  bom   então você ainda~deve~ter  ela 
+
+[LINE]
+Speaker508: No.  I'm    allergic to~the material of~the jacket.  I  gave it  to       Bea.
+~           não  eu~sou alérgica ao     ~        da     jaqueta  eu dei  ela para~(a) Bea 
+
+[LINE]
+Speaker592: Ugh! I  need    it     back.    
+~           ~    eu preciso (d)ela de~volta 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker508: [(I~think)     (Bea~is)     (home)    (now).]  
+~             eu~acho~que   a~Bea~está   em~casa   agora   
+
+[LINE]
+> Oscar goes to   Bea's~apartment.     
+~ Oscar vai  para o~apartamento~de~Bea 
+
+[LINE]
+Speaker507: Oscar! It's nice  to~see you! 
+~           Oscar  é    legal ver    você 
+
+[LINE]
+Speaker592: Hello, Bea. I  need         my    blue~jacket  back.     Lin said        she gave it  to   you. 
+~           olá    Bea  eu preciso~(da) minha jaqueta~azul de~volta  Lin disse~(que) ela deu  ela para você 
+
+[LINE]
+Speaker507: Oh! I'm~sorry,      it~was such~a~warm~jacket…        I  thought      someone who needs   it     should~have it. 
+~           ah  eu~sinto~muito  era    uma~jaqueta~tão~quentinha  eu pensei~(que) alguém  que precisa (d)ela deveria~ter ela 
+
+[POINT_TO_PHRASE]
+> Choose  the option that means     "doei."
+~ escolha a   opção  que  significa  ~     
+Speaker507: I  (+donated) (it)  (to)   a   (store) this~morning. 
+~           eu   doei      ela   para  uma  loja   hoje~de~manhã 
+
+[LINE]
+Speaker592: Oh, no! 
+~           ah  não 
+
+[LINE]
+Speaker507: They close  in an  hour, so    you  need    to~hurry!   
+~           eles fecham em uma hora  então você precisa se~apressar 
+
+[LINE]
+> Oscar runs  to   the store. He  gets  there a~few  minutes before~it~closes.    He  talks~to the clerk.    
+~ Oscar corre para a   loja   ele chega lá    alguns minutos antes~de~ela~fechar  ele fala~com a   atendente 
+
+[CONTINUATION]
+> What  comes next?  
+~ o~que vem   depois 
+Speaker592: Hi! I  am~wondering         if you  have~any      [blue~jackets].  
+~           oi  eu estou~me~perguntando se você tem~quaisquer  jaquetas~azuis  
++ blue~jackets  
+~ jaquetas~azuis
+- warm~hats         
+~ chapéus~quentinhos
+- red~pants       
+~ calças~vermelhas
+
+[LINE]
+Speaker260: Oh! Actually,   someone just~donated   one… here it~is! It's only fifty     dollars.
+~           ah  na~verdade  alguém  acabou~de~doar uma  aqui está   é    só   cinquenta dólares 
+
+[LINE]
+Speaker592: Only fifty     dollars?!
+~           só   cinquenta dólares  
+
+[LINE]
+Speaker260: Yes! It's a  good~deal.   But we  don't~give refunds.   
+~           sim  é    um bom~negócio  mas nós não~damos  reembolsos 
+
+[MULTIPLE_CHOICE]
+> The clerk     means      that if~Oscar~buys    the jacket… 
+~ a   atendente quer~dizer que  se~Oscar~comprar a   jaqueta 
+- …the clerk     will~keep  it  as~a~gift.  
+~  a   atendente ficará~com ela de~presente 
+- …he  has~to~buy      other  clothes too.   
+~  ele tem~que~comprar outras roupas  também 
++ …he  can't~get        his~money       back.    
+~  ele não~pode~receber o~dinheiro~dele de~volta 
+
+[LINE]
+Speaker592: That's~fine. I'll~buy     it. 
+~           tudo~bem     eu~comprarei ela 
+
+[LINE]
+> Oscar gives     her money        and she puts   the jacket  into        a   bag.   
+~ Oscar dá~(para) ela (o)~dinheiro e   ela coloca a   jaqueta dentro~(de) uma sacola 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker260: Also,       that jacket  has [a~cool~secret~pocket]!  
+~           além~disso  essa jaqueta tem  um~bolso~secreto~legal  
+- a cold secret pocket
+- a cool secret pot
++ a cool secret pocket
+
+[LINE]
+Speaker592: You…  found the secret~pocket?
+~           você  achou o   bolso~secreto 
+
+[LINE]
+Speaker260: Yes! And you  won't~believe  this:    I  found $500 in~it! I  donated~it to   our       charity.                 It's~going~to~help a~lot~of people. 
+~           sim  e   você não~acreditará (n)isto  eu achei  ~   nele   eu doei~isso  para (a)~nossa instituição~de~caridade  isso~vai~ajudar    muitas   pessoas 
+
+[LINE]
+Speaker592: That's… very  kind.    
+~           isso~é  muito generoso 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker260: [(Well), (enjoy)     (your)  (new~jacket)!]  
+~             bem     aproveite   a~sua   nova~jaqueta   
+
+[LINE]
+> Oscar gives the bag    back     to   her.
+~ Oscar dá    a   sacola de~volta para ela 
+
+[LINE]
+Speaker592: Actually,   I  don't~need  this    jacket  anymore. I  think      I'll~donate it  again.  
+~           na~verdade  eu não~preciso (d)esta jaqueta mais     eu acho~(que) eu~doarei   ela de~novo 
+
+[MULTIPLE_CHOICE]
+> Why     did~Oscar~donate the jacket  to   the store again?  
+~ por~que Oscar~doou       a   jaqueta para a   loja  de~novo 
++ He  only    wanted the money    in~the pocket.
+~ ele somente queria o   dinheiro no     bolso  
+- He  remembered      that the jacket  didn't~fit him.   
+~ ele se~lembrou~(de) que  a   jaqueta não~cabia  (n)ele 
+- He  thought     the clerk     looked~like~she~was cold.      
+~ ele achou~(que) a   atendente parecia~estar       (com)~frio 
+
+[MATCH]
+> Toque nos pares
+- this morning <> hoje de manhã
+- that <> aquela
+- it <> ela
+- to the <> ao
+- it is <> está
+
