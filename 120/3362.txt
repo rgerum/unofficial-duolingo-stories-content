@@ -1,0 +1,141 @@
+[DATA]
+fromLanguageName=Honeymoon
+icon=7e5d271488d31d6f1d0c503512e642ca7effe84f
+set=2|2
+
+[HEADER]
+> Luna~di~miele
+~ honeymoon    
+
+[LINE]
+> Pina è  in un taxi.
+~ ~    is in a  ~    
+
+[LINE]
+Speaker113: Buongiorno.  
+~           good~morning 
+
+[LINE]
+Speaker439: Salve, dovrei~andare  all'|  aeroporto, per~favore.
+~           hello  I'd~have~to~go to~the airport    please     
+
+[MULTIPLE_CHOICE]
+> Pina is in a taxi and wants to go to the airport.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+Speaker113: Certo.
+~           sure  
+
+[LINE]
+Speaker113: Vacanza? 
+~           vacation 
+
+[MULTIPLE_CHOICE]
+> The driver wants to know...
+- ... if Pina is going on a work trip.
++ ... if Pina is going on a vacation.
+- ... if Pina is going back home.
+
+[LINE]
+Speaker439: Non~proprio...
+~           not~exactly   
+
+[LINE]
+Speaker439: Ho     un biglietto per la~California.
+~           I~have a  ticket    to  California    
+
+[LINE]
+Speaker439: Beh...  due biglietti.
+~           well    two tickets   
+
+[LINE]
+Speaker113: La~California è  splendida!
+~           California    is beautiful 
+
+[LINE]
+Speaker439: È    il~mio viaggio~di~nozze...
+~           it's my     honeymoon~trip     
+
+[MULTIPLE_CHOICE]
+> Why is Pina going to California?
+- She is going to a funeral.
++ She is going on a honeymoon.
+- She is going to get married there.
+
+[LINE]
+Speaker113: Se mi~permette~la~domanda~indiscreta, Suo~marito~dov'è?    
+~           if I~may~ask                          where's~your~husband 
+
+[LINE]
+Speaker439: Non~ho       un marito.  Ho     una moglie~molto~difficile!
+~           I~don't~have a  husband  I~have a   very~difficult~wife    
+
+[LINE]
+Speaker439: Non~vuole        venire  in California con  me.
+~           she~doesn't~want to~come to ~          with ~  
+
+[MULTIPLE_CHOICE]
+> Pina's wife...
+- ... is in a different taxi.
++ ... doesn't want to go to California with her.
+- ... is already in California.
+
+[LINE]
+Speaker439: Sono un~po'|   triste.
+~           I~am a~little  sad    
+
+[LINE]
+Speaker113: Mi~dispiace.
+~           I'm~sorry   
+
+[LINE]
+Speaker113: Ehm! OK... siamo  all'|  aeroporto.
+~           ~    ~     we~are at~the airport   
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "runs."
+> Una (donna) (+corre) (verso)  il  (taxi).
+~ A    woman    runs    toward  the  ~     
+
+[LINE]
+Speaker439: Amanda?
+
+[LINE]
+Speaker1186: Pina!
+
+[LINE]
+Speaker1186: Mi~dispiace~tantissimo!
+~            I'm~so~sorry           
+
+[LINE]
+Speaker1186: Ti~amo.    
+~            I~love~you 
+
+[LINE]
+Speaker439: Ti~amo~anch'io.
+~           I~love~you~too 
+
+[LINE]
+Speaker1186: Voglio venire  in California con  te! 
+~            I~want to~come to ~          with you 
+
+[LINE]
+Speaker113: Buona~luna~di~miele!
+~           happy~honeymoon     
+
+[MULTIPLE_CHOICE]
+> What happened when Pina arrived at the airport?
+- Her wife, Amanda, called her on the phone.
++ Her wife, Amanda, apologized and told her that she loved her.
+- The taxi driver agreed to go to California with her.
+
+[MATCH]
+> Tap the pairs
+- Ti amo anch'io <> I love you too
+- Buona luna di miele <> happy honeymoon
+- un <> a
+- biglietto <> ticket
+- aeroporto <> airport
+
