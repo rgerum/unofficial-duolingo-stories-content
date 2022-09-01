@@ -1,0 +1,155 @@
+[DATA]
+fromLanguageName=The Big Game
+icon=5a2a2673d889c9c1c2cd45e4163e5439d144d438
+set=16|3
+
+[HEADER]
+> Le  grand match
+~ the big   game 
+
+[LINE]
+> Béa arrive  chez~Simon.      
+~ Béa arrives at~Simon's~house 
+
+[LINE]
+Speaker507: Tu  es  prêt  ?
+~           you are ready  
+
+[LINE]
+Speaker507: C'est le~match~le~plus~important de l'année  !
+~           it's  the~most~important~game    of the~year  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: Et  [nous~avons~des~billets] !
+~           and  we~have~tickets          
+- nous passons les billets
++ nous avons des billets
+- nous avons un musée
+
+[LINE]
+Speaker295: Béa...
+~           Béa   
+
+[LINE]
+Speaker295: Je ne~peux~pas aller   au     match.
+~           I  can't       (to)~go to~the game  
+
+[LINE]
+Speaker507: Pourquoi ?
+~           why       
+
+[LINE]
+Speaker295: Je dois    étudier.   
+~           I  have~to (to)~study 
+
+[LINE]
+Speaker295: J'ai   un examen~très~important demain.  
+~           I~have a  very~important~exam   tomorrow 
+
+[MULTIPLE_CHOICE]
+> Why can't Simon go to the game?
+- He lost his lucky T-shirt. 
++ He needs to study tonight.
+- He needs to go to the doctor.
+
+[LINE]
+Speaker295: J'ai~besoin~d'avoir une bonne note… 
+~           I~need~to~get       a   good  grade 
+
+[LINE]
+Speaker295: ... pour        entrer~en~médecine.          
+~               in~order~to (to)~get~into~medical~school 
+
+[LINE]
+Speaker295: Je suis désolé…
+~           I  am   sorry  
+
+[LINE]
+> Béa met  son~manteau sur la~table. 
+~ Béa puts her~coat    on  the~table 
+
+[MULTIPLE_CHOICE]
+> Béa just took off her coat and…
++ ...put it on the table.
+- ...used it as a blanket.
+- ...threw it at Simon.
+
+[LINE]
+Speaker507: D'accord, Simon. Tu  as   du   café   ?
+~           OK        Simon  you have some coffee  
+
+[LINE]
+Speaker295: Euh... Oui. Pourquoi ?
+~           uh     yes  why       
+
+[LINE]
+Speaker507: Je ne~veux~pas être  fatiguée.
+~           I  don't~want  to~be tired    
+
+[CONTINUATION]
+> What comes next?
+Speaker507: On~va        étudier  [toute~la~nuit]. 
+~           we~are~going to~study  all~night~long  
++ toute~la~nuit 
+~ all~night~long
+- un ballon~de~foot
+~ a  soccer~ball   
+- les billets
+~ the tickets
+
+[LINE]
+Speaker295: Mais…
+~           but  
+
+[LINE]
+Speaker507: Tu  es  toujours là    pour moi.
+~           you are always   there for  me  
+
+[LINE]
+Speaker507: Et,  aujourd'hui, je veux être  là    pour toi.
+~           and  today        I  want to~be there for  you 
+
+[ARRANGE]
+> Tap what you hear
+Speaker295: [(Mais) (c'est) (le~match~le~plus~important) (de) (l'année).].. 
+~             but    it's    the~most~important~game      of   the~year     
+
+[LINE]
+Speaker507: Tu  es  plus important qu'un  match.
+~           you are more important than~a game  
+
+[LINE]
+Speaker507: Tu  vas       avoir  une bonne note  !
+~           you are~going to~get a   good  grade  
+
+[LINE]
+Speaker507: Et  dans le~futur,   quand~tu~seras médecin... 
+~           and in   the~future  when~you're    a~doctor   
+
+[LINE]
+Speaker507: ... tu  achèteras des~billets    pour un grand match~de~foot, OK ?
+~               you will~buy  (some)~tickets for  a  big   football~game  OK  
+
+[LINE]
+Speaker295: Bien~sûr,  Béa.
+~           of~course  Béa 
+
+[LINE]
+Speaker507: Bon,  où    est mon~café  ?
+~           well  where is  my~coffee  
+
+[MULTIPLE_CHOICE]
+> Béa decided to…
+- …apply to medical school.
++ …skip the game and help Simon study.
+- …invite a different friend to the game.
+
+[MATCH]
+> Tap the pairs
+- ne veux pas <> don't want
+- grand <> big
+- des billets <> tickets
+- J'ai besoin d'avoir <> I need to get
+- désolé <> sorry
+
