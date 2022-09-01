@@ -1,0 +1,124 @@
+[DATA]
+fromLanguageName=Let's Go to the Beach!
+icon=7adc3c6ae983a10e3b79bd0efb8bfbb5ed3725c2
+set=6|1
+
+[HEADER]
+> Andiamo  in spiaggia   
+~ let's~go to (the)~beach
+
+[LINE]
+Speaker1616: Carlo, ti~va      di~venire in spiaggia    con  me?
+~            ~      you'd~like to~come   to (the)~beach with ~  
+
+[LINE]
+Speaker1321: No, oggi~no.  
+~            ~   not~today 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1616: Ma  è    [la~giornata~perfetta] per la  spiaggia!
+~            but it's  the~perfect~day       for the beach    
++ la giornata perfetta
+- la giornalaia perfetta
+- la giornata predetta
+
+[LINE]
+Speaker1321: Devo~studiare,   Emanuela.
+~            I~have~to~study  ~        
+
+[LINE]
+Speaker1616: Carlo, è    estate.
+~            ~      it's summer 
+
+[LINE]
+Speaker1616: Studi     troppo.  
+~            you~study too~much 
+
+[LINE]
+Speaker1616: Sii avventuroso per una~volta!
+~            be  adventurous for once      
+
+[MULTIPLE_CHOICE]
+> Emanuela is asking Carlo to be less adventurous.
+- Yes, that's true.
++ No, that's not right.
+
+[LINE]
+Speaker1321: Non~lo~so...   
+~            I~don't~know   
+
+[CONTINUATION]
+> What comes next?
+Speaker1616: Dai,     Carlo. Sarà       [divertente]!
+~            come~on  ~      it~will~be  fun         
++ divertente
+~ fun       
+- troppo  
+~ too~much
+- la  spiaggia
+~ the beach   
+
+[LINE]
+Speaker1321: Va~bene...
+~            alright   
+
+[ARRANGE]
+> Tap what you hear
+Speaker1321: [(Andiamo)  (in) (spiaggia)!]   
+~              let's~go   to   (the)~beach   
+
+[LINE]
+Speaker1616: Stupendo!
+~            great    
+
+[LINE]
+> Più~tardi, in spiaggia...   
+~ later      on (the)~beach   
+
+[LINE]
+Speaker1321: Che~bella   idea, Emanuela!
+~            what~a~nice ~     ~        
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1321: Grazie [per~avermi~invitato]!
+~            thanks  for~inviting~me      
+- per avermi incitato
++ per avermi invitato
+- per avermi avvitato
+
+[LINE]
+Speaker1616: Carlo, non~è    divertente!
+~            ~      it's~not fun        
+
+[LINE]
+Speaker1616: Ti~sei~portato~dietro quattro libri...
+~            you~brought~with~you  four    books   
+
+[LINE]
+Speaker1616: E   stai~studiando! 
+~            and you're~studying 
+
+[LINE]
+Speaker1321: Sì,  ma  siamo  in spiaggia!   
+~            yes  but we~are on (the)~beach 
+
+[LINE]
+Speaker1321: Mi~sento avventuroso!
+~            I~feel   adventurous 
+
+[MULTIPLE_CHOICE]
+> Why is Emanuela upset?
+- Because Carlo didn't go to the beach with her.
++ Because Carlo is studying on the beach.
+- Because she couldn't study.
+
+[MATCH]
+> Tap the pairs
+- Andiamo <> let's go
+- quattro <> four
+- Sarà <> it will be
+- Non lo so <> I don't know
+- troppo <> too much
+
