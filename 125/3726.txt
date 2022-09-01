@@ -1,0 +1,102 @@
+[DATA]
+fromLanguageName=Lucy e i dinosauri
+icon=f6ce899637bb8181ee5e78382fdf71a0f01e4f95
+set=8|1
+
+[HEADER]
+> Lucy and the Dinosaurs
+~ Lucy e   i   dinosauri
+
+[LINE]
+> Lucy opens her~apartment~door.           
+~ Lucy apre  la~porta~del~suo~appartamento 
+
+[LINE]
+Speaker509: Hello, Junior!
+~           ciao   Junior 
+
+[LINE]
+Speaker415: Hello! Can~you~help~me      write    a   report    for school?   
+~           ciao   (tu)~puoi~aiutarmi~a scrivere una relazione per la~scuola 
+
+[LINE]
+Speaker509: Oh, yes!
+~           oh  sì  
+
+[LINE]
+Speaker509: I'm       a   great  writer.     I~have  a  very~popular~blog.  
+~           (io)~sono una grande scrittrice  (io)~ho un blog~molto~popolare 
+
+[MULTIPLE_CHOICE]
+>  Lucy dice di essere una grande scrittrice perché…
+- … a scuola prendeva sempre voti alti.
++ … ha un blog molto popolare.
+- … scrive delle lettere d'amore tutti i giorni.
+
+[ARRANGE]
+> Seleziona ciò che senti
+Speaker509: [(Do~you~read) (my)     (blog)?]
+~             tu~leggi      il~mio   blog   
+
+[LINE]
+Speaker415: No.
+~           no 
+
+[LINE]
+Speaker509: I~have  a~lot~of books.
+~           (io)~ho tanti    libri 
+
+[POINT_TO_PHRASE]
+> Seleziona l'opzione che significa “la ricerca”.
+Speaker509: (Do~you~need)          my   (books) (for) (+research)?  
+~            (tu)~hai~bisogno~dei  miei  libri   per    la~ricerca  
+
+[CONTINUATION]
+> Come continua la frase?
+Speaker415: I~don't~need            your [books].
+~           (io)~non~ho~bisogno~dei tuoi  libri  
+- writers  
+~ scrittori
++ books
+~ libri
+- apartments  
+~ appartamenti
+
+[LINE]
+Speaker509: What is~your~report~about?     
+~           cosa riguarda~la~tua~relazione 
+
+[LINE]
+Speaker415: Dinosaurs.  
+~           i~dinosauri 
+
+[LINE]
+Speaker509: Why    do~you~want to~talk to~me? 
+~           perché (tu)~vuoi   parlare con~me 
+
+[LINE]
+Speaker415: Because you are very  old.    
+~           perché  tu  sei molto anziana 
+
+[LINE]
+Speaker415: You know    a~lot~of dinosaurs, right?
+~           tu  conosci tanti    dinosauri  vero  
+
+[LINE]
+Speaker509: Goodbye,     Junior.
+~           arrivederci  Junior 
+
+[MULTIPLE_CHOICE]
+> Perché Junior pensava che Lucy fosse esperta di dinosauri?
+- Aveva un dinosauro come animale domestico.
+- Ha un blog sui dinosauri.
++ È più anziana di lui.
+
+[MATCH]
+> Tocca le coppie
+- very popular blog <> blog molto popolare
+- are <> sei
+- a lot of <> tanti
+- I don't need <> non ho bisogno dei
+- write <> scrivere
+
