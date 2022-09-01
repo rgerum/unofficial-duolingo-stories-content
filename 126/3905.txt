@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Comprando vestidos
+icon=ffba9eba0bc98eb1b87842bfd234eb4274095663
+set=25|2
+
+[HEADER]
+> Dress~Shopping    
+~ comprando~vestidos
+
+[LINE]
+> Lily is~shopping~for       a  pink~dress   with her~mom.   
+~ Lily está~querendo~comprar um vestido~rosa com  a~mãe~dela 
+
+[LINE]
+Speaker416: Do~we~really~have~to~go to   Aunt~Betty's~wedding?    
+~           nós~temos~mesmo~que~ir  para o~casamento~da~tia~Betty 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker559: Yes! She's    finally    [getting~married]!
+~           sim  ela~está finalmente  se~casando       
+- getting hairy
++ getting married
+- quitting dairy
+
+[LINE]
+Speaker416: But I  hate  the color pink… and wearing dresses! 
+~           mas eu odeio a   cor   rosa  e   usar    vestidos 
+
+[LINE]
+Speaker559: I  know, but everyone   in~the wedding   is~wearing  a  black~suit  or a  pink~dress.  
+~           eu sei   mas todo~mundo no     casamento está~usando um terno~preto ou um vestido~rosa 
+
+[MULTIPLE_CHOICE]
+> Por que a Lily e a mãe dela estão comprando um vestido rosa?
+- A Lily só usa vestidos rosa.
++ A Lily precisa de roupas para um casamento.
+- Elas querem um presente para o gato da tia Betty.
+
+[LINE]
+> Lily's~mom    shows       her a  short~pink~dress.  
+~ a~mãe~da~Lily mostra~para ela um vestido~rosa~curto 
+
+[LINE]
+Speaker559: How~about this~one? 
+~           que~tal   este~aqui 
+
+[LINE]
+Speaker416: It's  too~short!     
+~           ele~é pequeno~demais 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker559: OK,    what~about this~one?  It's  longer     than   [the other dress].  
+~           certo  e~que~tal  este~aqui  ele~é mais~longo do~que  o   outro vestido  
+- your hair  
+~ seu  cabelo
+- the winter 
+~ o   inverno
++ the other dress  
+~ o   outro vestido
+
+[LINE]
+Speaker416: It  has feathers! I  don't~want to~look~like   a  bird.   
+~           ele tem penas     eu não~quero  me~parecer~com um pássaro 
+
+[MULTIPLE_CHOICE]
+> A Lily acha que vai ficar parecida com um pássaro porque…
++ …o vestido tem penas.
+- …o vestido tem várias cores.
+- …os braços dela na verdade são asas.
+
+[LINE]
+Speaker416: This is stupid!   I'm~only~going~to~wear this dress   once.   
+~           isto é  estúpido  eu~só~vou~usar         este vestido uma~vez 
+
+[LINE]
+Speaker559: But this is really~important to   Aunt~Betty.
+~           mas isto é  muito~importante para tia~Betty  
+
+[ARRANGE]
+> Toque no que escutar
+Speaker416: [(You)  (just) (want~me~to~look)    (pretty).]
+~             você   só     quer~que~eu~pareça   bonita   
+
+[LINE]
+Speaker559: No,  I  want~you~to~be       comfortable. Let's~go to   another store!
+~           não  eu quero~que~você~fique confortável  vamos    para outra   loja  
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker416: Mom, wait!   You  said      [everyone~is~wearing]    a  black~suit  or a  pink~dress,   right?
+~           mãe  espera  você disse~que  todo~mundo~está~usando  um terno~preto ou um vestido~rosa  certo 
+- everyone is staring
++ everyone is wearing
+- everybody's caring
+
+[LINE]
+> Lily shows       her~mom    a  small~black~suit.   
+~ Lily mostra~para a~mãe~dela um terno~preto~pequeno 
+
+[LINE]
+Speaker416: You  hate  it,  right?
+~           você odeia ele  certo 
+
+[LINE]
+Speaker559: Actually,   I  think    it~will~look  great on you! 
+~           na~verdade  eu acho~que ele~vai~ficar ótimo em você 
+
+[MULTIPLE_CHOICE]
+> O que a Lily vai usar no casamento?
+- calças de moletom
+- um vestido rosa
++ um terno preto
+
+[MATCH]
+> Toque nos pares
+- said <> disse que
+- know <> sei
+- short pink dress <> vestido rosa curto
+- has <> tem
+- getting married <> se casando
+
