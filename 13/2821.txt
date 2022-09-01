@@ -1,0 +1,110 @@
+[DATA]
+fromLanguageName=The Portrait
+icon=12547a4c20bef9c66913ef1a725b6fd4f0c544ea
+set=10|4
+
+[HEADER]
+> Le  portrait
+~ the portrait
+
+[LINE]
+> Oscar et  son~amie,   Lucie, sont dans un parc.
+~ Oscar and his~friend  Lucie  are  in   a  park 
+
+[LINE]
+> Oscar fait     un portrait de Lucie.
+~ Oscar is~doing a  portrait of Lucie 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker592: [Tu~peux~voir] le  portrait maintenant ! Tu  aimes     ?
+~            you~can~see   the portrait now          you like~(it)  
++ Tu peux voir
+- Tu peux savoir
+- Il ne peut pas avoir
+
+[LINE]
+> Lucie regarde  le  portrait.
+~ Lucie looks~at the portrait 
+
+[LINE]
+Speaker509: Pourquoi~j'ai les~cheveux~verts ?
+~           why~do~I~have green~hair         
+
+[LINE]
+Speaker592: J'aime~beaucoup le~vert.
+~           I~really~like   green   
+
+[ARRANGE]
+> Tap what you hear
+Speaker509: [(Pourquoi) (ma~tête~est) (aussi) (grande) ]?
+~             why        is~my~head    that    big       
+
+[LINE]
+Speaker592: Je ne~sais~pas, c'est ta~tête   !
+~           I  don't~know   it's  your~head  
+
+[LINE]
+Speaker509: Et  ça,   c'est  mon nez  ?
+~           and that  that's my  nose  
+
+[CONTINUATION]
+> What comes next?
+Speaker592: Oui ! Tu  as   un [joli   nez]. 
+~           yes   you have a   pretty nose  
++ joli   nez 
+~ pretty nose
+- beau      soleil
+~ beautiful sun   
+- chat~vert
+~ green~cat
+
+[LINE]
+Speaker509: Oui, mais pas sur ce   portrait !
+~           yes  but  not on  this portrait  
+
+[LINE]
+Speaker592: Tu  veux le  portrait ou pas ?
+~           you want the portrait or not  
+
+[POINT_TO_PHRASE]
+> Choose the option that means "sorry."
+Speaker509: Je (suis) (+désolée), (mais) (non).
+~           I   am      sorry      but    no   
+
+[LINE]
+> Un homme arrive  et  regarde  le  portrait.
+~ a  man   arrives and looks~at the portrait 
+
+[LINE]
+Speaker438: C'est  joli   ! Combien~ça~coûte      ? Cent        euros ?
+~           that's pretty   how~much~does~it~cost   one~hundred euros  
+
+[MULTIPLE_CHOICE]
+> Wow! The man wants to pay 100 euros for…
+- …Lucie's nose.
+- …Oscar's brushes.
++ …Lucie's portrait.
+
+[LINE]
+> Lucie prend le  portrait.
+~ Lucie takes the portrait 
+
+[LINE]
+Speaker509: C'est mon portrait, et  ça~coûte deux~cents  euros.
+~           it's  my  portrait  and it~costs two~hundred euros 
+
+[MULTIPLE_CHOICE]
+> Lucie decided to…
++ ...sell the painting for money.
+- ...buy the painting for 200 euros.
+- ...give the painting away for free.
+
+[MATCH]
+> Tap the pairs
+- et <> and
+- Oui <> yes
+- veux <> want
+- ne sais pas <> don't know
+- Pourquoi j'ai <> why do I have
+
