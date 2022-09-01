@@ -1,0 +1,226 @@
+[DATA]
+fromLanguageName=Where's My Jacket?
+icon=c118dba677be114f65466bf9f2e2bb74df28ff32
+set=63|4
+
+[HEADER]
+> Où    est ma veste  ?
+~ where is  my jacket  
+
+[LINE]
+> Oscar frappe~à  la~porte~d'Eddy. Eddy lui~ouvre.       
+~ Oscar knocks~on Eddy's~door      Eddy opens~it~for~him 
+
+[LINE]
+Speaker592: Eddy, tu  as   la  veste  que  je t'ai~donnée la~semaine~dernière ?
+~           Eddy  you have the jacket that I  gave~you    last~week            
+
+[LINE]
+Speaker414: Ta   veste~bleue ? Tu  détestes cette veste. 
+~           your blue~jacket   you hate     that  jacket 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker592: [J'ai~changé~d'avis]. Je la~veux.
+~            I~changed~my~mind    I  want~it 
++ J'ai changé d'avis
+- J'ai chanté ta vie
+- J'ai changé de vie
+
+[LINE]
+Speaker414: Désolé, mais je l'ai~donnée à  Lin.
+~           sorry   but  I  gave~it     to Lin 
+
+[LINE]
+Speaker592: Pardon ? Pourquoi ?
+~           sorry    why       
+
+[LINE]
+Speaker414: Elle ne~m'allait~pas.
+~           it   didn't~fit~me   
+
+[LINE]
+Speaker592: Oh, non. Peut-être~que~Lin va       me~la~rendre.         
+~           oh  no   maybe~Lin         is~going to~give~it~back~to~me 
+
+[LINE]
+Speaker414: Bonne chance !
+~           good  luck    
+
+[LINE]
+> Oscar court~chez~Lin.
+~ Oscar runs~to~Lin's  
+
+[MULTIPLE_CHOICE]
+> Pourquoi Oscar court-il   chez~Lin       ?
+~ why      Oscar is~running to~Lin's~place  
++ Il veut  récupérer  sa  veste. 
+~ he wants to~recover his jacket 
+- Il doit   lui~donner sa  veste. 
+~ he has~to give~her   his jacket 
+- Lin l'a~invité  à  dîner. 
+~ Lin invited~her to dinner 
+
+[LINE]
+Speaker592: Salut, Lin. Eddy t'a~donné ma veste  ?
+~           hi     Lin  Eddy gave~you  my jacket  
+
+[LINE]
+Speaker508: Oui ! Je l'adore !
+~           yes   I  love~it  
+
+[LINE]
+Speaker592: Ah, donc tu  l'as~toujours ?
+~           ah  so   you still~have~it  
+
+[LINE]
+Speaker508: Non. J'ai~eu une allergie quand je l'ai~portée. Je l'ai~donnée à  Béa.
+~           no   I~had   an  allergy  when  I  wore~it      I  gave~it     to Béa 
+
+[LINE]
+Speaker592: Oh, non ! J'ai~besoin~de cette veste  !
+~           oh  no    I~need         that  jacket  
+
+[ARRANGE]
+> Tap what you hear
+Speaker508: [(Eh~bien), (Béa) (est~sûrement) (chez~elle).]   
+~             well       Béa   surely~is      at~her~place   
+
+[LINE]
+> Oscar va   chez~Béa.
+~ Oscar goes to~Béa's 
+
+[LINE]
+Speaker507: Oscar ! Comment~ça~va     ?
+~           Oscar   how~are~you~doing  
+
+[LINE]
+Speaker592: Salut, Béa. J'ai~besoin~de ma veste~bleue. Lin a~dit qu'elle  te~l'avait~donnée.  
+~           hi     Béa  I~need         my blue~jacket  Lin said  that~she had~given~it~to~you 
+
+[LINE]
+Speaker507: Oui, mais… je suis désolée, je n'ai~pas~besoin~de veste.   
+~           yes  but   I  am   sorry    I  don't~need         a~jacket 
+
+[LINE]
+Speaker507: Je l'ai~donnée à  une association.
+~           I  gave~it     to a   charity     
+
+[LINE]
+Speaker592: Oh, non !
+~           oh  no   
+
+[LINE]
+Speaker507: Le  magasin~de~l'association ferme  dans une heure, dépêche-toi !
+~           the charity~shop             closes in   one hour   hurry~up     
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+> Oscar court au     magasin et  arrive  [juste avant  la  fermeture].   
+~ Oscar runs  to~the shop    and arrives  just  before the closing~time  
+- la  semaine~prochaine
+~ the following~week   
++ juste avant  la  fermeture
+~ just  before the closing  
+- avec sa  veste~bleue
+~ with her blue~jacket
+
+[LINE]
+Speaker592: Bonjour ! Vous avez des  vestes~bleues ?
+~           hello     you  have some blue~jackets   
+
+[LINE]
+Speaker260: Oui ! Quelqu'un vient~juste~d'en~donner~une… La~voilà    ! Trente euros !
+~           yes   somebody  just~donated~one             there~it~is   thirty euros  
+
+[LINE]
+Speaker592: Seulement trente euros ?!
+~           only      thirty euros   
+
+[LINE]
+Speaker260: Oui ! C'est une bonne~affaire.
+~           yes   it's  a   good~deal     
+
+[MULTIPLE_CHOICE]
+> La  vendeuse   veut~dire que… 
+~ the saleswoman means     that 
+- … la  veste  est de qualité.
+~   the jacket is  of quality 
++ … la  veste  ne~coûte~pas~cher.
+~   the jacket doesn't~cost~much 
+- … les ventes sont bonnes.
+~   the sales  are  good   
+
+[LINE]
+Speaker592: OK, je l'achète.    
+~           OK  I  am~buying~it 
+
+[LINE]
+> Oscar paye et  met  la  veste  dans son sac.
+~ Oscar pays and puts the jacket in   his bag 
+
+[LINE]
+Speaker260: Oh, et  cette veste  a   une poche~secrète !
+~           oh  and this  jacket has a   secret~pocket  
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker592: Vous… vous avez~trouvé [la  poche~secrète ]?
+~           you   you  found        the secret~pocket   
+- cette nouvelle veste 
+~ this  new      jacket
+- dans votre sac
+~ in   your  bag
++ la  poche~secrète
+~ the secret~pocket
+
+[LINE]
+Speaker260: Oui ! Et  il~y~avait cinq cents   euros dedans ! Je les~ai~donnés à  l'association. Ça   va~aider         beaucoup de gens.  
+~           yes   and there~were five hundred euros inside   I  gave~them     to the~charity    that is~going~to~help a~lot    of people 
+
+[LINE]
+Speaker592: Vous êtes très généreuse.
+~           you  are  very generous  
+
+[LINE]
+Speaker260: Profitez~de votre nouvelle veste  !
+~           enjoy       your  new      jacket  
+
+[MULTIPLE_CHOICE]
+> La  vendeuse   espère…
+~ the saleswoman hopes  
+- … changer~de travail.
+~   to~change  job     
+- … trouver une~autre poche~secrète.
+~   to~find another   secret~pocket 
++ … que  la  veste  lui~sera~utile.       
+~   that the jacket will~be~useful~to~him 
+
+[LINE]
+> Oscar rend~la~veste         à  la  vendeuse.  
+~ Oscar gives~the~jacket~back to the saleswoman 
+
+[LINE]
+Speaker592: Je pense que  je n'ai~plus~besoin~de cette veste.  Tenez. Pour l'association.
+~           I  think that I  no~longer~need      this  jacket  here   for  the~charity   
+
+[MULTIPLE_CHOICE]
+> Pourquoi Oscar a~donné la  veste  à  l'association   après l'avoir~rachetée      ?
+~ why      Oscar gave    the jacket to the~association after having~bought~it~back  
++ Il voulait~seulement l'argent  de   la  poche~secrète.
+~ he only~wanted       the~money from the secret~pocket 
+- Il a~pensé~que la  vendeuse   avait~froid.
+~ he thought     the saleswoman was~cold    
+- Il~s'est~souvenu que  la  veste  était trop petite.
+~ he~remembered    that the jacket was   too  small  
+
+[MATCH]
+> Tap the pairs
+- poche secrète <> secret pocket
+- êtes <> are
+- chez elle <> at her place
+- l'achète <> am buying it
+- J'ai changé d'avis <> I changed my mind
+
