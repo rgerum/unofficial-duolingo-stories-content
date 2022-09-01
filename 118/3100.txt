@@ -1,0 +1,105 @@
+[DATA]
+fromLanguageName=The Dirty Apartment
+icon=a2f5a8153ccb544a9a58d09d0cf7c96cfeb21826
+set=8|3
+
+[HEADER]
+> O   apartamento~sujo
+~ the dirty~apartment 
+
+[LINE]
+> Bia chega   no     apartamento da       amiga~dela, Sara.
+~ Bia arrives at~the apartment   of~(the) her~friend  Sara 
+
+[LINE]
+Speaker507: Oi, Sara, tudo       bem?
+~           hi  Sara  everything OK  
+
+[LINE]
+Speaker175: Não! Tudo~terrível!         
+~           no   everything~is~terrible 
+
+[LINE]
+Speaker507: Ah, não! Por~quê?
+~           oh  no   why     
+
+[LINE]
+Speaker175: Eu~e~a~minha~colega~de~quarto temos muitas   discussões.
+~           my~roommate~and~I             have  a~lot~of arguments  
+
+[MULTIPLE_CHOICE]
+> Things are terrible for Sarah because...
++ ...she argues with her roommate a lot.
+- ...she stayed out too late last night
+- ...she is allergic to her roommate's cat.
+
+[POINT_TO_PHRASE]
+> Choose the option that means "dirty."
+Speaker507: Eu entendo    por~quê! (Essa) cozinha (está) (muito) (+suja). 
+~           I  understand why       this  kitchen  is~    very     dirty  
+
+[LINE]
+Speaker175: Eu sei… 
+~           I  know 
+
+[LINE]
+Speaker507: E   isso na     mesa?  É     queijo~velho?
+~           and that on~the table  is~it old~cheese   
+
+[LINE]
+Speaker175: Sim!
+~           yes 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: E   roupa~suja    [na~cadeira]!  
+~           and dirty~clothes  on~the~chair  
++ na cadeira
+- na madeira
+- a cadeia
+
+[LINE]
+Speaker507: Sara… mas, essa camisa é  sua.  
+~           Sara  but  this shirt  is yours 
+
+[LINE]
+Speaker175: Sim.
+~           yes 
+
+[LINE]
+Speaker507: E   essas roupas  são suas! 
+~           and these clothes are yours 
+
+[CONTINUATION]
+> What comes next?
+Speaker507: E   aquele queijo~velho [também~é seu?]!  
+~           and that   old~cheese    is~also  yours   
++ também~é seu  
+~ is~also  yours
+- seu  quarto 
+~ your bedroom
+- suas roupas 
+~ your clothes
+
+[LINE]
+Speaker175: É!     Eu nunca limpo o   apartamento, e   a~minha  colega~de~quarto não~gosta!      
+~           it~is  I  never clean the apartment    and (the)~my roommate         doesn't~like~it 
+
+[LINE]
+Speaker175: Ela é  terrível!
+~           she is terrible 
+
+[MULTIPLE_CHOICE]
+> Ah ha! What do Sara and her roommate argue about?
++ Sara makes a mess and never cleans.
+- Bia likes to eat old cheese.
+- Sara wears all her roommate's clothes.
+
+[MATCH]
+> Tap the pairs
+- cozinha <> kitchen
+- são <> are
+- Eu <> I
+- muitas <> a lot of
+- isso <> that
+
