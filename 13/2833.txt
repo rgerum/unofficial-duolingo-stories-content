@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Oscar's Flowers
+icon=3bc2c3a627aad5f5aef4f68ae652c16713f9048f
+set=13|4
+
+[HEADER]
+> Les~fleurs~d'Oscar
+~ Oscar's~flowers   
+
+[LINE]
+> Oscar est dans son~jardin. Il voit Eddy, son~collègue. 
+~ Oscar is  in   his~garden  he sees Eddy  his~colleague 
+
+[LINE]
+Speaker592: Eddy ! Pourquoi~tu~portes  une chemise     aujourd'hui ?
+~           Eddy   why~are~you~wearing a   dress~shirt today        
+
+[LINE]
+Speaker414: J'ai   un rencard, et  je suis en~retard !
+~           I~have a  date     and I  am   late       
+
+[MULTIPLE_CHOICE]
+> Eddy is wearing a T-shirt.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker592: Hmm. Tu~as       des~fleurs ou du~chocolat pour ton  rencard ?
+~           hmm  do~you~have flowers    or chocolate   for  your date     
+
+[LINE]
+Speaker414: Non, et  je suis en~retard !
+~           no   and I  am   late       
+
+[LINE]
+Speaker592: Tu  peux~prendre des  fleurs  de   mon jardin !
+~           you can~take     some flowers from my  garden  
+
+[ARRANGE]
+> Tap what you hear
+> [(Oscar) (prend) (des~fleurs)   (pour~Eddy).]
+~   Oscar   gets    some~flowers   for~Eddy    
+
+[LINE]
+Speaker414: Je ne~peux~pas~prendre ces   fleurs. 
+~           I  can't~take          these flowers 
+
+[LINE]
+Speaker592: Tu~aimes    cette personne ?
+~           do~you~like this  person    
+
+[CONTINUATION]
+> What comes next?
+Speaker414: Oui ! Elle est très [amusante].
+~           yes   she  is  very  funny     
++ amusante
+~ funny   
+- salée
+~ salty
+- verte
+~ green
+
+[LINE]
+Speaker592: Alors prends ces   fleurs  !
+~           so    take   these flowers  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Oscar, [je~ne~veux~pas] ces   fleurs  !
+~           Oscar   I~don't~want    these flowers  
+- je ne dors pas
++ je ne veux pas
+- tu ne peux pas
+
+[LINE]
+Speaker592: Pourquoi ?
+~           why       
+
+[LINE]
+> Eddy éternue.
+~ Eddy sneezes 
+
+[MULTIPLE_CHOICE]
+> What did Eddy just do?
++ sneeze
+- cry
+- shout
+
+[LINE]
+Speaker592: Eddy ? Tu~vas~bien ?
+~           Eddy   are~you~OK   
+
+[LINE]
+Speaker414: Non ! Je suis allergique~aux fleurs  !
+~           no    I  am   allergic~to    flowers  
+
+[LINE]
+Speaker592: Oh, non. Tu~as~les~yeux~et~le~nez~rouges.
+~           oh  no   your~eyes~and~nose~are~red      
+
+[LINE]
+Speaker414: Je ne~vais~pas~bien...
+~           I  am~not~OK          
+
+[LINE]
+Speaker592: Bon  après-midi, Eddy !
+~           good afternoon   Eddy  
+
+[MULTIPLE_CHOICE]
+> Poor Eddy! Why does he feel terrible?
+- Oscar doesn't want to date him.
+- He realized his date is tomorrow.
++ He is allergic to flowers.
+
+[MATCH]
+> Tap the pairs
+- Hmm <> hmm
+- Tu vas bien <> are you OK
+- et <> and
+- éternue <> sneezes
+- Tu as <> do you have
+
