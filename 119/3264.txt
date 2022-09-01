@@ -1,0 +1,127 @@
+[DATA]
+fromLanguageName=The Dragon Cake
+icon=c2fbecd45802dc974e3ec727a0206cfec66fd87f
+set=24|3
+
+[HEADER]
+> Die Drachentorte
+~ the dragon~cake 
+
+[LINE]
+> Vikram dekoriert     eine Hochzeitstorte für Beas  Freundin Katrin. 
+~ Vikram is~decorating a    wedding~cake   for Bea's friend   Katrin  
+
+[LINE]
+Speaker507: Die Torte sieht~echt~toll~aus!
+~           the cake  looks~really~great  
+
+[LINE]
+Speaker507: Lustig, die Braut und der Bräutigam reiten~auf    Drachen!
+~           funny   the bride and the groom     are~riding~on dragons 
+
+[LINE]
+Speaker507: Wie  die Figuren    in Katrin und Daniels  Lieblingsfernsehserie!
+~           like the characters in Katrin and Daniel's favorite~TV~show      
+
+[MULTIPLE_CHOICE]
+> The cake is decorated to look like a TV show.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker593: Katrin ist meine erste Kundin.   Ich hoffe, ihr~gefällt die Torte.
+~           Katrin is  my    first customer  I   hope   she~likes   the cake  
+
+[LINE]
+> Plötzlich bekommt~Bea eine SMS. Sie ist von  Katrin.
+~ suddenly  Bea~gets    an   SMS  it  is  from Katrin 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "canceled."
+Speaker507: Oh (nein)! (Katrin) hat die (Hochzeit) (+abgesagt)!
+~           oh  no      Katrin  has the  wedding     canceled  
+
+[LINE]
+Speaker593: Was?  Warum?!
+~           what  why    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: Daniel hat ihr~Auto~gestohlen und hat mit  seiner neuen Freundin   [das~Land~verlassen]!
+~           Daniel has stolen~her~car     and has with his    new   girlfriend  left~the~country    
+- die Hand losgelassen
+- das Band erlassen
++ das Land verlassen
+
+[LINE]
+Speaker593: Das  ist furchtbar!
+~           that is  awful     
+
+[LINE]
+Speaker507: Ich kann~es~nicht~glauben.
+~           I   can't~believe~it      
+
+[CONTINUATION]
+> What comes next?
+Speaker593: Und ich wollte ihr     die schönste       Torte [für ihre Hochzeit machen ..].
+~           and I   wanted for~her the most~beautiful cake   for her  wedding  make       
+- ins~Möbelhaus~stellen     
+~ put~in~the~furniture~store
++ für ihre Hochzeit machen
+~ for her  wedding  make  
+- aus~Salami~stricken
+~ knit~out~of~salami 
+
+[LINE]
+Speaker507: Warte, ich habe eine Idee!
+~           wait   I   have an   idea 
+
+[LINE]
+> Bea dekoriert~die~Torte~neu.
+~ Bea redecorates~the~cake    
+
+[LINE]
+Speaker593: Warum essen~die~Drachen      den Bräutigam?
+~           why   are~the~dragons~eating the groom     
+
+[MULTIPLE_CHOICE]
+> Bea redecorated the cake because…
+- …Vikram wants to keep the dragons.
++ …Katrin canceled the wedding.
+- …Katrin asked her to change it.
+
+[LINE]
+> Bea macht ein Foto  und schickt es Katrin.     
+~ Bea takes a   photo and sends   it (to)~Katrin 
+
+[LINE]
+Speaker507: Oh, Katrin hat geantwortet!
+~           oh  Katrin has replied     
+
+[ARRANGE]
+> Tap what you hear
+Speaker593: [(Was)  (hat) (sie) (geschrieben)?]
+~             what   has   she   written       
+
+[LINE]
+Speaker507: Sie ist immer~noch traurig, aber sie liebt deine Torte.
+~           she is  still      sad      but  she loves your  cake  
+
+[LINE]
+Speaker593: Das  ist alles, was  ich wollte!
+~           that is  all    that I   wanted 
+
+[MULTIPLE_CHOICE]
+> Why does Katrin like the cake after all?
+- She's excited for her wedding.
+- She decided to marry Bea.
++ The dragons are eating the groom.
+
+[MATCH]
+> Tap the pairs
+- nein <> no
+- seiner <> his
+- Hochzeitstorte <> wedding cake
+- schönste <> most beautiful
+- Drachen <> dragons
+
