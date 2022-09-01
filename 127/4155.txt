@@ -1,0 +1,128 @@
+[DATA]
+fromLanguageName=Me manda um e-mail!
+icon=e70b0075377ea237ac6a6a55eaf12b14491ab78b
+set=15|4
+
+[HEADER]
+> Mándame  un correo~electrónico
+~ me~manda um e-mail            
+
+[LINE]
+> Lin y su~abuela,  Lucy, están visitando Madrid. Ellas están en un restaurante.
+~ Lin e a~avó~dela  Lucy  estão visitando Madrid  elas  estão em um restaurante 
+
+[LINE]
+Speaker509: ¡Es tan bonito estar aquí otra  vez!
+~            é  tão bonito estar aqui outra vez 
+
+[LINE]
+Speaker508: ¿Cuándo viviste en Madrid, abuela?
+~            quando viveste em Madrid  vó     
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker509: [Hace~treinta~años].
+~            há~trinta~anos     
+- Hacen treinta daños
+- Hace trece paños
++ Hace treinta años
+
+[LINE]
+Speaker508: ¿Podemos ir a un museo ahora?
+~            podemos ir a um museu agora 
+
+[LINE]
+Speaker509: Sí,  pero tengo que ir al baño     antes.
+~           sim  mas  tenho que ir ao banheiro antes 
+
+[LINE]
+> Lucy va  al baño.    
+~ Lucy vai ao banheiro 
+
+[LINE]
+> Un hombre llega al restaurante.
+~ um homem  chega ao restaurante 
+
+[LINE]
+> Él  mira a    Lin.
+~ ele olha para Lin 
+
+[LINE]
+Speaker307: Te~pareces~a   alguien que conocí  hace muchos años.
+~           tu~pareces~com alguém  que conheci há   muitos anos 
+
+[MULTIPLE_CHOICE]
+> O que o homem quer dizer?
+- Ele quer dar à Lin um ingresso para o museu.
++ A Lin parece com alguém que ele conheceu muitos anos atrás.
+- Ele está perguntando à Lin onde o banheiro fica.
+
+[LINE]
+Speaker508: ¿Perdón?
+~            perdão 
+
+[LINE]
+Speaker307: La~quise  mucho, pero…
+~           eu~a~amei muito  mas  
+
+[LINE]
+Speaker307: …no  sé  dónde está     ahora.
+~            não sei onde  ela~está agora 
+
+[ARRANGE]
+> Toque no que escutar
+> [(Lucy) (vuelve) (del) (baño).]    
+~   Lucy   volta    do    banheiro   
+
+[LINE]
+Speaker307: ¡Lucy!
+~            Lucy 
+
+[LINE]
+Speaker509: ¿Nos conocemos? 
+~            nos conhecemos 
+
+[LINE]
+Speaker307: ¡Soy yo, Marco!
+~            sou eu  Marco 
+
+[LINE]
+Speaker307: Te escribí muchas cartas, pero nunca me contestaste.
+~           te escrevi muitas cartas  mas  nunca me respondeste 
+
+[LINE]
+Speaker509: Tus  cartas nunca me~llegaron.    Viajé  por~el mundo en~barco.
+~           tuas cartas nunca chegaram~a~mim  viajei pelo   mundo de~barco 
+
+[LINE]
+Speaker307: ¡Pero ahora estás aquí! ¡Ahora podemos estar juntos!
+~            mas  agora estás aqui   agora podemos estar juntos 
+
+[MULTIPLE_CHOICE]
+> Parece que o Marco…
+- …está muito bravo com a Lucy.
+- …precisa entregar à Lucy muitas coisas antigas dela.
++ …quer começar um relacionamento com a Lucy novamente.
+
+[LINE]
+Speaker509: No,  ahora voy~a~ir al museo con mi    nieta.
+~           não  agora vou      ao museu com minha neta  
+
+[LINE]
+Speaker509: ¡La próxima vez, mándame  un correo~electrónico!
+~            na próxima vez  me~manda um e-mail             
+
+[MULTIPLE_CHOICE]
+> Por que a Lucy diz ao Marco para enviar um e-mail na próxima vez?
++ Ela nunca recebeu as cartas que ele mandou.
+- Ela não gosta do carteiro dela.
+- Ela tem um endereço de e-mail muito legal.
+
+[MATCH]
+> Toque nos pares
+- tengo <> tenho
+- correo electrónico <> e-mail
+- llega <> chega
+- no <> não
+- Perdón <> perdão
+
