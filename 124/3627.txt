@@ -1,0 +1,120 @@
+[DATA]
+fromLanguageName=Envoie un e-mail
+icon=583e75f447511e88fde0ed924039b785dccdd112
+set=15|4
+
+[HEADER]
+> Send   an Email 
+~ envoie un e-mail
+
+[LINE]
+> Lin and her grandmother, Lucy, are~visiting Seattle. They  are  in   a  coffee~shop.
+~ Lin et  sa  grand-mère   Lucy  visitent     Seattle  elles sont dans un café        
+
+[LINE]
+Speaker509: It's  nice  to~be  here again.    
+~           c'est sympa d'être ici  à~nouveau 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker508: [When~did~you~live] in Seattle, Grandma?
+~            quand~as-tu~vécu   à  Seattle  Mamie   
++ When did you live
+- Where do you love
+- When do you leave
+
+[LINE]
+Speaker509: Thirty~years~ago. 
+~           il~y~a~trente~ans 
+
+[LINE]
+Speaker508: Let's~go to~a museum now.       
+~           allons   au   musée  maintenant 
+
+[LINE]
+Speaker509: Sure,     after~I~go       to~the restroom. 
+~           d'accord  après~être~allée aux    toilettes 
+
+[LINE]
+> Lucy leaves the table. An old   man   walks~into the cafe. He sees Lin.
+~ Lucy quitte la  table  un vieil homme entre~dans le  café  il voit Lin 
+
+[LINE]
+Speaker307: You  look~like    someone   I~knew         many~years~ago!   
+~           vous ressemblez~à quelqu'un que~j'ai~connu il~y~a~des~années 
+
+[MULTIPLE_CHOICE]
+> Que veut dire cet homme ?
++ Lin ressemble à quelqu'un qu'il a connu il y a longtemps.
+- Il demande à Lin où sont les toilettes.
+- Il veut donner un billet d'entrée au musée à Lin.
+
+[LINE]
+Speaker508: Really?  
+~           vraiment 
+
+[LINE]
+Speaker307: I  loved~her very~much.
+~           je l'aimais  beaucoup  
+
+[LINE]
+Speaker307: I  don't~know  where she  is  now…       
+~           je ne~sais~pas où    elle est maintenant 
+
+[LINE]
+> Lucy returns from~the bathroom. 
+~ Lucy revient des      toilettes 
+
+[LINE]
+Speaker307: Lucy! It's  you!
+~           Lucy  c'est toi 
+
+[LINE]
+Speaker509: Do~I~know~you?  
+~           je~vous~connais 
+
+[LINE]
+Speaker307: It's  me,  Marco!
+~           c'est moi  Marco 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker307: [(You) (never~responded)     (to) (my)  (letters)…]
+~             tu    n'as~jamais~répondu   à    mes   lettres   
+
+[LINE]
+Speaker509: I  never~got        your letters. I  was~sailing around~the world.
+~           je n'ai~jamais~reçu tes  lettres  je naviguais   autour~du  monde 
+
+[LINE]
+Speaker307: Now        you're here! We   can~finally~be     together!
+~           maintenant tu~es  là    nous pouvons~enfin~être ensemble 
+
+[MULTIPLE_CHOICE]
+> On dirait que Marco…
+- … est très en colère contre Lucy.
+- … doit rendre à Lucy ses vieilles affaires.
++ … veut se remettre en couple avec Lucy.
+
+[LINE]
+Speaker509: Actually, I'm~going to~a museum with my granddaughter now.       
+~           en~fait   je~vais   au   musée  avec ma petite-fille  maintenant 
+
+[LINE]
+Speaker509: Next~time,         send   an email! 
+~           la~prochaine~fois  envoie un e-mail 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Lucy dit-elle à Marco de lui envoyer un e-mail la prochaine fois ?
++ Elle n'a jamais reçu ses lettres.
+- Elle a une adresse mail vraiment super.
+- Elle n'aime pas son facteur.
+
+[MATCH]
+> Choisis les paires
+- Sure <> d'accord
+- look like <> ressemblez à
+- table <> table
+- her <> sa
+- leaves <> quitte
+
