@@ -1,0 +1,104 @@
+[DATA]
+fromLanguageName=My Favorite Band
+icon=8809c44c2194d282a6e1573d25dcac12b6132022
+set=21|1
+
+[HEADER]
+> Mon groupe~préféré
+~ my  favorite~band 
+
+[LINE]
+> Lily et  Zari sont en cours.
+~ Lily and Zari are  in class 
+
+[LINE]
+Speaker418: Hé,  Lily ? Tu~peux~m'aider, s'il~te~plaît ?
+~           hey  Lily   can~you~help~me  please         
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker416: [Je~ne~sais~pas]. C'est~pour~quoi ?
+~            I~don't~know     with~what        
+- Je sais que c’est là
++ Je ne sais pas
+- Je ne suis pas
+
+[LINE]
+Speaker418: Je ne~peux~pas~aller au~volleyball aujourd'hui.
+~           I  can't~go          to~volleyball today       
+
+[LINE]
+Speaker418: Tu~peux~dire~à l'entraîneur que  je suis malade ?
+~           can~you~tell   the~coach    that I  am   sick    
+
+[MULTIPLE_CHOICE]
+> Zari wants Lily to tell their volleyball coach that she's sick.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker416: Tu  n'es~pas malade.
+~           you are~not  sick   
+
+[LINE]
+Speaker418: Si  ! Kof...   J'ai   une~lettre du       médecin. Regarde.
+~           yes   cough    I~have a~letter   from~the doctor   look    
+
+[ARRANGE]
+> Tap what you hear
+> [(Zari) (montre) (la~lettre~à)   (Lily).]
+~   Zari   shows    the~letter~to   Lily   
+
+[POINT_TO_PHRASE]
+> Choose the option that means "handwriting."
+Speaker416: (Zari). (C'est) (ton)  (+écriture).   
+~            Zari    it's    your    handwriting  
+
+[LINE]
+Speaker418: Mais~non      !
+~           of~course~not  
+
+[LINE]
+Speaker416: Zari, arrête~de~mentir.
+~           Zari  stop~lying       
+
+[MULTIPLE_CHOICE]
+> Lily is asking Zari to stop...
+- …eating.
+- …dancing.
++ …lying.
+
+[LINE]
+Speaker418: OK, OK ! Je vais~voir       les City~Boys. C'est   mon groupe~préféré !
+~           OK  OK   I  am~going~to~see the City~Boys  they're my  favorite~band   
+
+[LINE]
+Speaker416: Euh, non, je ne~peux~pas~t'aider.
+~           uh   no   I  can't~help~you      
+
+[LINE]
+Speaker418: Tu  as~raison… Ce~n'est~pas~bien~de~mentir.
+~           you are~right  lying~is~not~good           
+
+[LINE]
+Speaker416: Non, ce~n'est~pas ça.  
+~           no   it's~not     that 
+
+[LINE]
+Speaker416: Je ne~peux~pas~t'aider parce~que les City~Boys sont vraiment mauvais.
+~           I  can't~help~you      because   the City~Boys are  really   bad     
+
+[MULTIPLE_CHOICE]
+> Why won't Lily help Zari?
+- She doesn't want to get sick.
+- She doesn't want Zari to go to volleyball practice.
++ She thinks the City Boys are really bad.
+
+[MATCH]
+> Tap the pairs
+- groupe préféré <> favorite band
+- en <> in
+- J'ai <> I have
+- ne peux pas aller <> can't go
+- Tu peux m'aider <> can you help me
+
