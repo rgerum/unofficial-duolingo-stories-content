@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=La promoción
+icon=86aeb2f8135a55e49ebe8c6da5e13efdcde38d01
+set=15|1
+
+[HEADER]
+> La promotion
+~ la promoción
+
+[LINE]
+> Le chef de Béa vient   la~voir à son bureau. 
+~ el jefe de Béa llega~a verla   a su  oficina 
+
+[LINE]
+Speaker2144: Bonjour,     Béa. Pouvons-nous parler de Charles ?
+~            buenos~días  Béa  podemos      hablar de Charles  
+
+[LINE]
+Speaker507: OK...       
+~           está~bien   
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker2144: [Vous~aimez~travailler]     avec lui ?
+~             a~usted~le~gusta~trabajar  con  él   
+- Vous aimez le ciné
++ Vous aimez travailler
+- Vous aimez le collier
+
+[LINE]
+Speaker507: Avec Charles ?
+~           con  Charles  
+
+[LINE]
+Speaker507: Il est gentil...   
+~           él es  simpático   
+
+[LINE]
+Speaker507: Mais, euh...
+~           pero  eh    
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker507: Il est~toujours~en~retard, et je dois faire tout [son travail].
+~           él siempre~llega~tarde     y  yo debo hacer todo  su  trabajo  
++ son travail
+~ su  trabajo
+- son café
+~ su  café
+- mon journal  
+~ mi  periódico
+
+[LINE]
+Speaker507: Et il me dit  comment faire mon travail.
+~           y  él me dice cómo    hacer mi  trabajo 
+
+[LINE]
+Speaker507: Et la semaine dernière, il a~mangé  mon déjeuner.
+~           y  la semana  pasada    él se~comió mi  almuerzo 
+
+[LINE]
+Speaker507: Charles est horrible.
+~           Charles es  terrible 
+
+[LINE]
+Speaker2144: Ah oui ? Je~suis~désolé d'entendre ça.  Je pensais    lui~donner une promotion.
+~            ah sí    siento         oír        eso  yo pensaba~en darle      una promoción 
+
+[MULTIPLE_CHOICE]
+> El jefe de Béa pensaba darle a Charles una promoción.
+- No, no es así.
++ Sí, así es.
+
+[LINE]
+Speaker2144: C'est pour travailler dans un~nouveau~bureau.
+~            es    para trabajar   en   una~oficina~nueva 
+
+[LINE]
+Speaker2144: Nous~devons trouver     la bonne~personne.  
+~            tenemos~que encontrar~a la persona~correcta 
+
+[LINE]
+Speaker507: Attendez, il va   travailler dans un~autre~bureau ?
+~           espere    él va~a trabajar   en   otra~oficina     
+
+[LINE]
+Speaker507: Charles est votre homme  !
+~           Charles es  su    hombre  
+
+[MULTIPLE_CHOICE]
+> Béa primero dijo que Charles era terrible, pero ahora…
+- … ella se dio cuenta de que él no se comió el almuerzo de ella.
+- … ella piensa que él debería hacer el trabajo de ella.
++ … ella dice que él es la persona perfecta para el trabajo.
+
+[LINE]
+Speaker2144: Mais, vous  venez~de dire  qu'il  est horrible !
+~            pero  usted acaba~de decir que~él es  terrible  
+
+[LINE]
+Speaker507: Quoi ?! Non, il est génial !
+~           qué     no   él es  genial  
+
+[LINE]
+Speaker2144: Et    il est~toujours~en~retard.
+~            y~que él siempre~llega~tarde    
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "broma".
+Speaker507: (Euh), (non), (c'était) une (+blague) !
+~            eh     no     eso~fue  una   broma    
+
+[LINE]
+Speaker507: C'est l'homme   parfait  pour cette promotion. Et pour travailler dans un~autre~bureau !
+~           él~es el~hombre perfecto para esta  promoción  y  para trabajar   en   otra~oficina     
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Béa quiere que Charles consiga una promoción?
+- Ella creía que su jefe estaba hablando de otra persona.
++ Ella quiere que él se vaya a otra oficina.
+- Ella cree que él es un empleado excelente.
+
+[MATCH]
+> Selecciona los pares
+- dit <> dice
+- homme <> hombre
+- Le <> el
+- de <> de
+- dans <> en
+
