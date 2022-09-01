@@ -1,0 +1,152 @@
+[DATA]
+fromLanguageName=Cho xin kiểu ảnh nhé?
+icon=d6cfdc678db3116881efba02e683423389b53370
+set=20|4
+
+[HEADER]
+> Can~I~Take~a~Picture?    
+~ cho~tôi~xin~kiểu~ảnh~nhé 
+
+[LINE]
+> Lucy is~walking~down~the~street.
+~ Lucy đang~đi~bộ~trên~phố        
+
+[LINE]
+> She   sees      an  attractive~young~man. 
+~ bà~ấy nhìn~thấy một người~đàn~ông~trẻ~đẹp 
+
+[LINE]
+Speaker509: Wow!     Are~you              that~famous~actor?             
+~           trời~ơi  anh~có~phải~là…không cái~anh~diễn~viên~nổi~tiếng~đó 
+
+[LINE]
+Speaker385: Shh!  No…   
+~           suỵt  không 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker509: [(I)   (just)    (watched) (your)     (movie)!]
+~             tôi   vừa~mới   xem       …của~anh   phim    
+
+[LINE]
+Speaker385: I'm~not           an~actor. 
+~           tôi~không~phải~là diễn~viên 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker509: Yes,~you~are! Can~I              [take~a~picture~of~you]?
+~           phải~mà       cho~tôi…được~không  xin~anh~một~kiểu~ảnh   
+- take a picture with who
+- bake a picture or two
++ take a picture of you
+
+[LINE]
+Speaker385: OK…        quickly!  
+~           thôi~được  nhanh~nhé 
+
+[LINE]
+Speaker509: So  you are      that~famous~actor?         
+~           vậy anh chính~là anh~diễn~viên~nổi~tiếng~đó 
+
+[LINE]
+Speaker385: Yes. 
+~           vâng 
+
+[LINE]
+Speaker509: I~knew~it!       
+~           tôi~biết~ngay~mà 
+
+[LINE]
+> Lucy takes~a~picture~of~him with~her~phone.           
+~ Lucy chụp~ảnh~anh~ta        bằng~điện~thoại~của~bà~ấy 
+
+[MULTIPLE_CHOICE]
+> Vì sao Lucy lại chụp ảnh người đàn ông?
+- Bà ấy là một nhiếp ảnh gia chuyên nghiệp.
++ Anh ta là một diễn viên nổi tiếng.
+- Anh ta là bạn trai của Lucy.
+
+[LINE]
+Speaker509: You were~great      in    the~movie "Sad~Cats Can't~Dance."    
+~           anh đã~diễn~rất~hay trong bộ~phim    mèo~buồn không~biết~nhảy  
+
+[LINE]
+Speaker385: I   wasn't~in        that~movie.
+~           tôi không~đóng~trong bộ~phim~đó 
+
+[LINE]
+Speaker509: You~weren't?
+~           anh~không~á 
+
+[LINE]
+Speaker385: I   was~in       "Grandpa's~New~Hair."  
+~           tôi đã~đóng~phim  kiểu~tóc~mới~của~ông  
+
+[LINE]
+Speaker509: I've~never~seen~it.           
+~           tôi~chưa~xem~phim~đấy~bao~giờ 
+
+[LINE]
+Speaker385: Did~you~see    "What's~in   My~Mouth"?  I   was~amazing      in    that~movie!
+~           bà~đã~xem…chưa  có~gì~trong miệng~tôi   tôi đã~rất~tuyệt~vời trong bộ~phim~đó 
+
+[LINE]
+Speaker509: No.  
+~           chưa 
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “máu”.
+Speaker385: (Maybe) you saw    "(Bacon),          Eggs,  (Toast),         and (+Blood)"?
+~            có~lẽ  bà  đã~xem   thịt~xông~khói   trứng   bánh~mì~nướng   và    máu     
+
+[LINE]
+Speaker509: No,    I've~never~seen~it.           
+~           không  tôi~chưa~xem~phim~đấy~bao~giờ 
+
+[LINE]
+Speaker385: It's~famous!          Wait,   are~you~deleting  my~picture?
+~           nó~nổi~tiếng~lắm~đấy  đợi~đã  bà~đang~xóa…đấy~à ảnh~tôi    
+
+[MULTIPLE_CHOICE]
+> Người đàn ông không biết liệu có phải là…
+- …Lucy đang mê mệt anh ta.
+- …Lucy thích kiểu tóc của anh ta.
++ …Lucy đang xóa ảnh chụp anh ta.
+
+[LINE]
+Speaker509: Maybe.       Were~you~in                       anything~else?  
+~           cũng~có~thể  anh~có~từng~xuất~hiện~trong…không cái~gì~khác~nữa 
+
+[LINE]
+Speaker385: I've~been~in           fifty movies!
+~           tôi~đã~xuất~hiện~trong 50    phim   
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+> Lucy deletes [the~picture].
+~ Lucy xóa      bức~ảnh      
++ the~picture
+~ bức~ảnh    
+- the~movie
+~ bộ~phim  
+- the~cats     
+~ những~chú~mèo
+
+[LINE]
+Speaker509: If  you see that~actor           from       "Sad~Cats Can't~Dance,"     can~you~take~a~picture          for me? 
+~           nếu anh gặp cái~anh~diễn~viễn…đó trong~phim  mèo~buồn không~biết~nhảy   anh~xin~một~kiểu~ảnh…được~không cho tôi 
+
+[MULTIPLE_CHOICE]
+> Vì sao Lucy lại xóa bức ảnh?
+- Bà ấy muốn chụp ảnh kiểu tóc mới của ông mình.
++ Người đàn ông không đóng phim “Sad Cats Can't Dance”.
+- Hóa ra người đàn ông này không phải là diễn viên.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- OK <> thôi được
+- watched <> xem
+- I knew it <> tôi biết ngay mà
+- Can I <> cho tôi…được không
+- So <> vậy
+
