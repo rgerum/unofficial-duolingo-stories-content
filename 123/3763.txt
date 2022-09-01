@@ -1,0 +1,110 @@
+[DATA]
+fromLanguageName=El retrato
+icon=12547a4c20bef9c66913ef1a725b6fd4f0c544ea
+set=7|2
+
+[HEADER]
+> Le portrait
+~ el retrato 
+
+[LINE]
+> Oscar et son amie,  Lucie, sont  dans un parc.  
+~ Oscar y  su  amiga  Lucie  están en   un parque 
+
+[LINE]
+> Oscar fait un portrait de Lucie.
+~ Oscar hace un retrato  de Lucie 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker592: [Tu~peux~voir]    le portrait maintenant ! Tu~aimes ?
+~            (tú)~puedes~ver  el retrato  ahora        te~gusta  
+- Tu peux savoir
++ Tu peux voir
+- Il peut pas voir
+
+[LINE]
+> Lucie regarde le portrait.
+~ Lucie mira    el retrato  
+
+[LINE]
+Speaker509: Pourquoi j'ai  les~cheveux~verts ?
+~           por~qué  tengo el~pelo~verde      
+
+[LINE]
+Speaker592: J'aime   beaucoup le vert. 
+~           me~gusta mucho    el verde 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker509: [(Pourquoi) (ma) (tête)   (est) (aussi~grande) ]?
+~             por~qué    mi   cabeza   es    tan~grande      
+
+[LINE]
+Speaker592: Je ne~sais~pas, c'est ta tête   !
+~           yo no~sé        es    tu cabeza  
+
+[LINE]
+Speaker509: Et ça,  c'est mon nez   ?
+~           y  esa  es    mi  nariz  
+
+[CONTINUATION]
+> ¿Qué sigue？
+Speaker592: Oui ! Tu as     [un~joli~nez].     
+~           sí    tú tienes  una~bonita~nariz  
+- ta tête  
+~ tu cabeza
+- cheveux~verts
+~ pelo~verde   
++ un~joli~nez     
+~ una~bonita~nariz
+
+[LINE]
+Speaker509: Oui, mais pas sur ce   portrait !
+~           sí   pero no  en  este retrato   
+
+[LINE]
+Speaker592: Tu veux    le portrait ou pas ?
+~           tú quieres el retrato  o  no   
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "lo siento".
+Speaker509: (+Je~suis~désolée), (mais) (non).
+~             lo~siento          pero   no   
+
+[LINE]
+> Un homme  arrive et regarde le portrait.
+~ un hombre llega  y  mira    el retrato  
+
+[LINE]
+Speaker438: C'est joli   ! Combien~ça~coûte ? Cent euros ?
+~           es    bonito   cuánto~cuesta      cien euros  
+
+[MULTIPLE_CHOICE]
+> ¡Guau! El hombre quiere pagar cien euros por…
+- …la nariz de Lucie.
++ …el retrato de Lucie.
+- …los pinceles de Oscar.
+
+[LINE]
+> Lucie prend le portrait.
+~ Lucie toma  el retrato  
+
+[LINE]
+Speaker509: C'est mon portrait, et ça~coûte deux~cents euros.
+~           es    mi  retrato   y  cuesta   doscientos euros 
+
+[MULTIPLE_CHOICE]
+> Lucie decidió…
+- …comprar el retrato por 200 euros.
++ …vender el retrato.
+- …regalar el retrato.
+
+[MATCH]
+> Selecciona los pares
+- Oscar <> Oscar
+- J'aime <> me gusta
+- est <> es
+- euros <> euros
+- aussi grande <> tan grande
+
