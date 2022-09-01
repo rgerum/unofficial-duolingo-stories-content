@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=A carta
+icon=1517cbcf4f4e76f1dc8b0687b90969af2c828c4f
+set=24|3
+
+[HEADER]
+> The Letter
+~ a   carta 
+
+[LINE]
+> Zari and Lily walk~past  a   bookstore.
+~ Zari e   Lily passam~por uma livraria  
+
+[LINE]
+Speaker418: Let's~go~inside! I  love old~books.     
+~           vamos~entrar     eu amo  livros~antigos 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker416: [That's~why~we're~friends].       
+~            é~por~isso~que~nós~somos~amigas  
+- It's why they're friends
++ That's why we're friends
+- They try to be friends
+
+[LINE]
+> The girls   go~inside the bookstore.
+~ as  meninas entram    na  livraria  
+
+[ARRANGE]
+> Toque no que escutar
+> [(Zari) (picks~up) (a~book)   (and) (opens~it).]
+~   Zari   pega       um~livro   e     abre~ele   
+
+[LINE]
+Speaker418: Lily! There's an  old~letter   inside this  book. 
+~           Lily  há      uma carta~antiga dentro deste livro 
+
+[LINE]
+Speaker416: What  does~it~say?
+~           o~que ela~diz     
+
+[LINE]
+Speaker418: A  man   named   Joseph is~writing      to   his~friend,   Gabriela.
+~           um homem chamado Joseph está~escrevendo para a~amiga~dele  Gabriela 
+
+[LINE]
+Speaker418: He  wants her~advice.     
+~           ele quer  o~conselho~dela 
+
+[LINE]
+Speaker416: Why?    
+~           por~quê 
+
+[LINE]
+Speaker418: He  says    he  loves two  women,    Katherine and Meg.
+~           ele diz~que ele ama   duas mulheres  Katherine e   Meg 
+
+[LINE]
+Speaker418: Katherine is really intelligent.
+~           Katherine é  muito  inteligente 
+
+[LINE]
+Speaker418: But Meg is really funny.    
+~           mas Meg é  muito  engraçada 
+
+[LINE]
+Speaker418: He  doesn't~know who      to~marry!
+~           ele não~sabe     com~quem se~casar 
+
+[MULTIPLE_CHOICE]
+> O Joseph não sabia…
++ …com quem se casar.
+- …o nome da esposa dele.
+- …onde achar a livraria.
+
+[LINE]
+Speaker416: I  hope~he~stayed              single.  
+~           eu espero~que~ele~tenha~ficado solteiro 
+
+[LINE]
+Speaker418: Who      did~his~friend~Gabriela~tell him~to~marry?!      I  need    to~know!
+~           com~quem a~amiga~dele~Gabriela~disse  para~ele~se~casar   eu preciso saber   
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "dona".
+> The (+owner) (of~the) bookstore (comes) to~talk to  the (girls).  
+~ a     dona    da      livraria   vem    falar   com as   meninas  
+
+[LINE]
+Speaker3233: Oh, that's a  wonderful~book!   
+~            ah  esse~é um livro~maravilhoso 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker3233: It  belonged  to my  husband. [He~died~last~year].        
+~            ele pertencia ao meu marido    ele~morreu~no~ano~passado  
+- He cried every year
+- He tried a year
++ He died last year
+
+[LINE]
+Speaker418: Oh, I'm~sorry.     
+~           ah  eu~sinto~muito 
+
+[LINE]
+Speaker416: Was~your~husband's~name  Joseph?
+~           o~nome~do~seu~marido~era Joseph 
+
+[LINE]
+Speaker3233: Yes!
+~            sim 
+
+[LINE]
+Speaker418: Wow! Is~your~name Katherine or Meg?
+~           uau  o~seu~nome~é Katherine ou Meg 
+
+[LINE]
+> The woman  smiles.
+~ a   mulher sorri  
+
+[LINE]
+Speaker3233: My  name is Gabriela.
+~            meu nome é  Gabriela 
+
+[MULTIPLE_CHOICE]
+> Com quem o Joseph se casou?
+- Com todas as mulheres.
+- Ele nunca se casou.
++ Com sua amiga, Gabriela.
+
+[MATCH]
+> Toque nos pares
+- comes <> vem
+- or <> ou
+- Yes <> sim
+- Lily <> Lily
+- old books <> livros antigos
+
