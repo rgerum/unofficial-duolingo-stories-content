@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=La buona arte
+icon=501e7d609ee0dd5ba11ff7cdcf9740b12a7a7945
+set=9|1
+
+[HEADER]
+> Good     Art 
+~ la~buona arte
+
+[LINE]
+> Eddy and his    friend Oscar are  at~an art~museum.  
+~ Eddy e   il~suo amico  Oscar sono in~un museo~d'arte 
+
+[LINE]
+> Eddy looks~at a  painting of a  dog. 
+~ Eddy guarda   un dipinto  di un cane 
+
+[LINE]
+Speaker414: This   is my     favorite~painting in~the museum!
+~           questo è  il~mio dipinto~preferito nel    museo  
+
+[LINE]
+Speaker592: That painting is boring.
+~           quel dipinto  è  noioso 
+
+[MULTIPLE_CHOICE]
+> A Oscar piace molto il dipinto.
+- Sì, è giusto.
++ No, è sbagliato.
+
+[LINE]
+Speaker414: What? I  love  dogs!  
+~           cosa  io adoro i~cani 
+
+[LINE]
+Speaker592: Eddy, I'm     an art~teacher.        I  know    good     art. 
+~           Eddy  io~sono un insegnante~di~arte  io conosco la~buona arte 
+
+[LINE]
+Speaker592: This   painting is~not good  art. 
+~           questo dipinto  non~è  buona arte 
+
+[LINE]
+Speaker414: Why?   
+~           perché 
+
+[ARRANGE]
+> Seleziona ciò che senti
+Speaker592: [(Good)     (art)  (is) (interesting)!] 
+~             la~buona   arte   è    interessante   
+
+[LINE]
+Speaker592: Good     art  is surprising!  
+~           la~buona arte è  sorprendente 
+
+[SELECT_PHRASE]
+> Seleziona la frase mancante
+> Oscar sees a  sandwich [on~a~chair].  
+~ Oscar vede un panino    su~una~sedia  
+- on his hair
++ on a chair
+- and this chair
+
+[LINE]
+Speaker592: That   is good  art! 
+~           quella è  buona arte 
+
+[LINE]
+Speaker414: A  sandwich on a   chair?!
+~           un panino   su una sedia  
+
+[LINE]
+Speaker592: Yes! It's interesting  and surprising!   The~artist is a  genius!
+~           sì   è    interessante e   sorprendente  l'artista  è  un genio  
+
+[MULTIPLE_CHOICE]
+> Perché Oscar pensa che l'artista sia un genio?
+- Il panino ha un aspetto delizioso.
+- Il panino appartiene a un cane.
++ Un panino su una sedia è sorprendente.
+
+[LINE]
+Speaker414: I  don't~understand art.   
+~           io non~capisco      l'arte 
+
+[POINT_TO_PHRASE]
+> Seleziona l'opzione che significa “custode”.
+> A  (+janitor) walks (into~the) room.   He~starts      (eating)   the (sandwich).
+~ un   custode  entra  nella     stanza  (lui)~inizia~a  mangiare  il   panino    
+
+[LINE]
+Speaker592: Excuse~me! You~can't~eat          the~art!
+~           mi~scusi   (lei)~non~può~mangiare l'arte  
+
+[LINE]
+Speaker307: Uh,  this   isn't art.  This   is my     lunch. 
+~           ehm  questa non~è arte  questo è  il~mio pranzo 
+
+[MULTIPLE_CHOICE]
+> Cosa è successo? Oscar pensava che…
++ … il pranzo del custode fosse un'opera d'arte.
+- … il custode fosse un artista famoso.
+- … Eddy avesse mangiato tutte le opere del museo.
+
+[MATCH]
+> Tocca le coppie
+- know <> conosco
+- chair <> sedia
+- in the <> nel
+- is <> è
+- art museum <> museo d'arte
+
