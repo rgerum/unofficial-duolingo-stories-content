@@ -1,0 +1,101 @@
+[DATA]
+fromLanguageName=Gece Müziği
+icon=205eb89c151a9cea69e598e00b5cbe534c23881a
+set=9|3
+
+[HEADER]
+> Night Music 
+~ Gece  müziği
+
+[LINE]
+Speaker823: Listen to~this, Tony!
+~           Dinle  bunu     ~    
+
+[LINE]
+Speaker1087: Johnny! Stop  playing your~guitar! I'm~very~tired!
+~            ~       bırak çalmayı gitarını     çok~yorgunum   
+
+[MULTIPLE_CHOICE]
+> Tony yorgun olduğu için Johnny'nin gitar çalmayı bırakmasını ister.
++ Evet, bu doğru.
+- Hayır, bu doğru değil.
+
+[LINE]
+Speaker823: I     need          to~practice. I~want    to~be a   good guitar~player.
+~           benim ihtiyacım~var pratiğe      istiyorum olmak bir iyi  gitarist      
+
+[MULTIPLE_CHOICE]
+> Johnny neden pratik yapıyor?
+- İyi bir futbolcu olmak istiyor.
+- Arkadaşı Tony'den haber almak istiyor.
++ İyi bir gitarist olmak istiyor.
+
+[LINE]
+Speaker823: I~want    a   girlfriend…  
+~           istiyorum bir kız~arkadaşı 
+
+[LINE]
+Speaker823: … and women    love     men       who~play~the~guitar!
+~             ve  kadınlar severler erkekleri gitar~çalan         
+
+[LINE]
+Speaker1087: You   don't~need~to practice~guitar right~now! I     need  to~sleep!
+~            senin gerek~yok     gitar~çalışmana şu~anda    benim lazım uyumam   
+
+[CONTINUATION]
+> Sıradaki ne olabilir?
+Speaker823: OK,    OK.    [No  guitar].
+~           tamam  tamam   yok gitar   
+- No  bed
+~ yok ~  
+- Not tired
++ No  guitar
+~ yok ~     
+
+[LINE]
+Speaker1087: Thank~you.       Good~night. 
+~            teşekkür~ederim  iyi~geceler 
+
+[LINE]
+Speaker823: Good~night. 
+~           iyi~geceler 
+
+[ARRANGE]
+> İşittiğine dokun
+> [(Johnny) (starts) (to~play) (the) (piano).] 
+~   ~        başlar   çalmaya   ~     piyano   
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker1087: Johnny! [What~are~you~doing]?!
+~            ~        ne~yapıyorsun        
+- What are you going
+- That you're doing
++ What are you doing
+
+[LINE]
+Speaker823: What? You~don't~want me~to~play the guitar…
+~           Ne    istemiyorsun   çalmamı    ~   gitar  
+
+[LINE]
+Speaker823: … now   I'm~playing the piano! 
+~             şimdi çalıyorum   ~   piyano 
+
+[LINE]
+Speaker823: Women    love  the piano    too!
+~           kadınlar sever ~   piyanoyu da  
+
+[MULTIPLE_CHOICE]
+> Johnny ne yaptı?
+- Gitar çalmayı bıraktı ve uyudu.
++ Gitarı bıraktı ama piyano çalmaya başladı.
+- Gitar ve piyano çalan bir kadınla tanıştı.
+
+[MATCH]
+> Çiftlere dokun
+- I want <> istiyorum
+- Good night <> iyi geceler
+- Stop <> bırak
+- You <> senin
+- to play <> çalmaya
+
