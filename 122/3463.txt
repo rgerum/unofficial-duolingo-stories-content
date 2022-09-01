@@ -1,0 +1,114 @@
+[DATA]
+fromLanguageName=Schlechtes Gemälde
+icon=12547a4c20bef9c66913ef1a725b6fd4f0c544ea
+set=7|2
+
+[HEADER]
+> Bad        Painting
+~ schlechtes Gemälde 
+
+[LINE]
+> Oscar and his   friend,   Lucy, are~sitting in~the park.
+~ Oscar und seine Freundin  Lucy  sitzen      im     Park 
+
+[LINE]
+> Oscar is~painting Lucy.
+~ Oscar malt        Lucy 
+
+[LINE]
+Speaker592: OK, you can    look~at~the~painting~now!      Do~you~like~it?
+~           OK  du  kannst dir~jetzt~das~Gemälde~ansehen  gefällt~es~dir 
+
+[LINE]
+> Oscar shows Lucy the painting.
+~ Oscar zeigt Lucy das Gemälde  
+
+[MULTIPLE_CHOICE]
+> Oscar zeigt Lucy ein Gemälde von einem Fisch.
++ Nein, das ist falsch.
+- Ja, das ist richtig.
+
+[LINE]
+Speaker509: Why   is   my    hair  blue in the painting?
+~           warum sind meine Haare blau in dem Gemälde  
+
+[LINE]
+Speaker592: I   have a~lot~of   blue  paint.
+~           ich habe eine~Menge blaue Farbe 
+
+[LINE]
+Speaker509: And why   is  my   head so big? 
+~           und warum ist mein Kopf so groß 
+
+[LINE]
+Speaker592: I   don't~know. Ask  your  parents.
+~           ich weiß~nicht  frag deine Eltern  
+
+[MULTIPLE_CHOICE]
+> Oscar sagt Lucy, dass sie …
+- … ihre Haare blau färben soll.
++ … ihre Eltern fragen soll, warum ihr Kopf so groß ist.
+- … ein Gemälde von ihm malen soll.
+
+[LINE]
+Speaker509: My    nose doesn't~look~like~that.
+~           meine Nase sieht~nicht~so~aus     
+
+[LINE]
+Speaker592: Yes,  it~does! You have a    nice   nose!
+~           doch  tut~sie  du  hast eine schöne Nase 
+
+[ARRANGE]
+> Was hörst du?
+Speaker509: [(Yes), (I~do~have) (a)    (nice)   (nose).]
+~             ja     ich~habe    eine   schöne   Nase   
+
+[LINE]
+Speaker509: But  it  doesn't~look~nice     in the painting.
+~           aber sie sieht~nicht~schön~aus in dem Gemälde  
+
+[LINE]
+Speaker592: Do~you~want the painting or   not?  
+~           willst~du   das Gemälde  oder nicht 
+
+[LINE]
+Speaker509: Sorry,           but  no,   I   don't~want~it.
+~           es~tut~mir~leid  aber nein  ich will~es~nicht 
+
+[LINE]
+> A   man  stops   and looks~at~the~painting.    
+~ ein Mann hält~an und sieht~sich~das~Gemälde~an 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker438: That's  really   good! Can  I   buy~it~for~one~hundred~dollars s]?
+~           das~ist wirklich gut   kann ich es~für~einhundert~Dollar~kaufen   
+- paintings
+~ Gemälde  
+- noses
+~ Nasen
++ dollars
+~ Dollar 
+
+[LINE]
+> Lucy takes the painting.
+~ Lucy nimmt das Gemälde  
+
+[LINE]
+Speaker509: It's   my   painting, and it's      two~hundred dollars.
+~           es~ist mein Gemälde   und es~kostet zweihundert Dollar  
+
+[MULTIPLE_CHOICE]
+> Lucy hat sich dazu entschlossen, …
+- … das Gemälde für 200 Dollar zu kaufen.
++ … das Gemälde zu verkaufen.
+- … das Gemälde zu verschenken.
+
+[MATCH]
+> Wähle die Paare
+- stops <> hält an
+- It's <> es ist
+- in the <> im
+- OK <> OK
+- you <> du
+
