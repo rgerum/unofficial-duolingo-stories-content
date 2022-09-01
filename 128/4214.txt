@@ -1,0 +1,151 @@
+[DATA]
+fromLanguageName=Trận đấu quan trọng
+icon=170e9caad206d87350e17e32c18226edefea8131
+set=13|1
+
+[HEADER]
+> The~Big~Game       
+~ trận~đấu~quan~trọng
+
+[LINE]
+> Bea arrives~at her~friend~Justin's~house.   
+~ Bea đến        nhà~cậu~bạn~Justin~của~cô~ấy 
+
+[LINE]
+Speaker507: Are~you~ready?         
+~           cậu~chuẩn~bị~xong~chưa 
+
+[LINE]
+Speaker507: This is the~most~exciting~soccer~game   of~the~year!
+~           đây  là trận~bóng~đá~được~mong~đợi~nhất của~năm     
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker507: And [we~have~tickets]!   
+~           mà   chúng~ta~lại~có~vé  
++ we have tickets
+- even tickets
+- we have taken
+
+[LINE]
+Speaker295: Bea…
+~           Bea 
+
+[LINE]
+Speaker295: I  can't~go     to  the~game.
+~           tớ không~thể~đi tới trận~đấu 
+
+[LINE]
+Speaker507: What? 
+~           gì~cơ 
+
+[LINE]
+Speaker295: I  need     to~study.
+~           tớ cần~phải học      
+
+[LINE]
+Speaker295: I  have a   really~important~exam         tomorrow.
+~           tớ có   một kỳ~thi~thật~sự~rất~quan~trọng ngày~mai 
+
+[LINE]
+Speaker295: I  need to~pass the~exam   to~go~to medical~school.
+~           tớ phải thi~đỗ  kỳ~thi~này để~vào   trường~y       
+
+[MULTIPLE_CHOICE]
+> Vì sao Justin không thể đi xem trận đấu?
+- Cậu ấy phải đi khám bệnh.
+- Cậu ấy đã làm mất chiếc áo phông may mắn.
++ Cậu ấy phải chuẩn bị cho một kỳ thi quan trọng.
+
+[LINE]
+Speaker295: I'm~sorry…     
+~           tớ~xin~lỗi~nhé 
+
+[LINE]
+> Bea takes~off her~coat.          
+~ Bea cởi…ra    áo~khoác~của~cô~ấy 
+
+[MULTIPLE_CHOICE]
+> Bea vừa…
+- …lấy trộm áo khoác của Justin.
++ …cởi áo khoác ra.
+- …mặc áo khoác vào.
+
+[LINE]
+Speaker507: OK,       do~you~have~any coffee?
+~           được~rồi  cậu~có…gì~không cà~phê 
+
+[LINE]
+Speaker295: Why?    
+~           tại~sao 
+
+[LINE]
+Speaker507: Well,  I  don't~want to~be~tired.    
+~           ờ~thì  tớ không~muốn bị~lờ~đờ~uể~oải 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker507: We're~going~to study [all~night].
+~           chúng~ta~sẽ    học    cả~đêm     
++ all~night
+~ cả~đêm   
+- a   soccer~ball
+~ một quả~bóng~đá
+- the~tickets
+~ chỗ~vé     
+
+[LINE]
+Speaker295: But…  
+~           nhưng 
+
+[LINE]
+Speaker507: You help me often.       
+~           cậu giúp tớ thường~xuyên 
+
+[LINE]
+Speaker507: Of~course    I'm~going~to help you now.    
+~           tất~nhiên~là tớ~sẽ        giúp cậu bây~giờ 
+
+[LINE]
+Speaker295: But   it's   the~most~exciting~game      of~the~year…
+~           nhưng đây~là trận~đấu~được~mong~đợi~nhất của~năm     
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker507: [(You're) (more~important) (than)     (a~game).]      
+~             cậu      quan~trọng~hơn   (hơn)~là   một~trận~đấu   
+
+[LINE]
+Speaker507: And    you will~pass~this~exam!   
+~           với~cả cậu sẽ~thi~đỗ~(kỳ~thi~này) 
+
+[LINE]
+Speaker507: And when you're        a~doctor…
+~           và  khi  cậu~trở~thành bác~sĩ   
+
+[LINE]
+Speaker507: …you're~going~to buy the~soccer~tickets, right?     
+~            cậu~sẽ          mua vé~xem~bóng~đá      phải~không 
+
+[LINE]
+Speaker295: Of~course,     Bea.
+~           tất~nhiên~rồi  Bea 
+
+[LINE]
+Speaker507: Now     where's~the~coffee?
+~           giờ~thì cà~phê~của~tớ~đâu  
+
+[MULTIPLE_CHOICE]
+> Bea đã quyết định…
+- …rủ người khác đi xem cùng.
++ …không đi xem nữa và giúp Justin học bài.
+- …nộp hồ sơ vào trường y.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- now <> bây giờ
+- the soccer tickets <> vé xem bóng đá
+- I <> tớ
+- to go to <> để vào
+- all night <> cả đêm
+
