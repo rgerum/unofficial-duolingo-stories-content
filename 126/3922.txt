@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=Hora de uma mudança
+icon=a2ac5b4bdad2cf4c70c2d3a4f3ff8e0ade6aba2d
+set=29|3
+
+[HEADER]
+> Time~for a   Change 
+~ hora~de  uma mudança
+
+[LINE]
+> Lin brings a   big    blue~chair   into             Lucy's~apartment.   
+~ Lin traz   uma grande cadeira~azul para~dentro~(do) apartamento~de~Lucy 
+
+[LINE]
+Speaker508: Look~at the new~chair    I        found     for  the~living~room!
+~           olha    a   cadeira~nova (que)~eu encontrei para a~sala~de~estar 
+
+[LINE]
+Speaker509: I  can't~believe             you  actually  paid  money    for that!
+~           eu não~posso~acreditar~(que) você realmente pagou dinheiro por isso 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker509: [How~much~did~it~cost]?
+~            quanto~ela~custou     
+- Have such a cost
+- How much he lost
++ How much did it cost
+
+[LINE]
+Speaker508: It  was free!     I  found     it  outside,           in~front~of~the blue~house.
+~           ela foi de~graça  eu encontrei ela (do)~lado~de~fora  na~frente~da    casa~azul  
+
+[LINE]
+Speaker508: I  think      the woman  who lived there died…   but it's a   free~chair!      
+~           eu acho~(que) a   mulher que vivia lá    morreu  mas é    uma cadeira~de~graça 
+
+[LINE]
+Speaker509: You  aren't~going~to~keep it  in our   living~room,   are~you? 
+~           você não~vai~deixar       ela na nossa sala~de~estar  você~vai 
+
+[MULTIPLE_CHOICE]
+> Parece que a Lucy…
++ …não gosta da cadeira.
+- …está se mudando para um apartamento novo.
+- …gosta muito da cadeira.
+
+[LINE]
+Speaker508: I  knew        you~were~going to~hate it. 
+~           eu sabia~(que) você~ia        odiar   ela 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker509: [(It)  (won't~look~nice) (with) (our)         (curtains)…]
+~             ela   não~combinará     com    (as)~nossas   cortinas   
+
+[LINE]
+Speaker509: But I  suppose       we  can~buy         new   curtains.
+~           mas eu suponho~(que) nós podemos~comprar novas cortinas 
+
+[LINE]
+Speaker508: Hey! I  like        our    curtains…
+~           ei   eu gosto~(das) nossas cortinas 
+
+[LINE]
+Speaker509: But if~we~buy         new   curtains, then  we'll~need       to~buy  new   pillows   too…   
+~           mas se~nós~comprarmos novas cortinas  então nós~precisaremos comprar novas almofadas também 
+
+[LINE]
+Speaker508: I  like~the  pillows   we        have  now…  
+~           eu gosto~das almofadas (que)~nós temos agora 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker509: Ooh! Now   I'm~going~to [buy~new~lamps]            too!   
+~           ~    agora eu~vou        comprar~luminárias~novas  também 
+- buy new legs
+- but now lamps
++ buy new lamps
+
+[ARRANGE]
+> Toque no que escutar
+Speaker509: [(This) (room) (is~going~to~be) (beautiful)!]
+~             esta   sala   vai~ficar        linda       
+
+[LINE]
+Speaker508: I  like       how  the~room~looks now.  
+~           eu gosto~(de) como a~sala~está    agora 
+
+[LINE]
+Speaker509: Too~bad!  I'm~going~to~change the room now!   I'm      excited!
+~           que~pena  eu~vou~mudar        a   sala agora  eu~estou animada 
+
+[LINE]
+Speaker508: We're~going~to~have to~buy  all   new~things…       
+~           nós~vamos~ter~(que) comprar todas (as)~coisas~novas 
+
+[LINE]
+Speaker509: That's~OK, the chair   was free…     remember?
+~           tudo~bem   a   cadeira foi de~graça  lembra   
+
+[MULTIPLE_CHOICE]
+> Por que a Lucy quer comprar móveis novos?
++ Nenhum dos móveis velhos dela combina com a cadeira nova.
+- O apartamento dela não tem nenhum móvel.
+- Os móveis velhos cheiram muito mal.
+
+[MATCH]
+> Toque nos pares
+- won't look nice <> não combinará
+- you <> você
+- woman <> mulher
+- can buy <> podemos comprar
+- How much did it cost <> quanto ela custou
+
