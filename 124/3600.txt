@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=Du bon art
+icon=501e7d609ee0dd5ba11ff7cdcf9740b12a7a7945
+set=9|1
+
+[HEADER]
+> Good   Art
+~ du~bon art
+
+[LINE]
+> Eddy and his friend Oscar are  at an art~museum. 
+~ Eddy et  son ami    Oscar sont à  un musée~d'art 
+
+[LINE]
+> Eddy looks~at a  painting of~a dog.  
+~ Eddy regarde  un tableau  d'un chien 
+
+[LINE]
+Speaker414: This~is my  favorite~painting in   the museum!
+~           c'est   mon tableau~préféré   dans le  musée  
+
+[LINE]
+Speaker592: That painting is  boring.  
+~           ce   tableau  est ennuyeux 
+
+[MULTIPLE_CHOICE]
+> Oscar aime beaucoup le tableau.
++ Non, c'est faux.
+- Oui, c'est vrai.
+
+[LINE]
+Speaker414: What? I~love  dogs!      
+~           quoi  j'adore les~chiens 
+
+[LINE]
+Speaker592: Eddy, I'm     an~art~teacher.   I  know    good   art.
+~           Eddy  je~suis professeur~d'art  je connais le~bon art 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker592: [(This) (painting) (is~not)    (good)   (art).]
+~             ce     tableau    n'est~pas   du~bon   art   
+
+[LINE]
+Speaker414: Why?     
+~           pourquoi 
+
+[LINE]
+Speaker592: Good   art is  interesting!
+~           le~bon art est intéressant 
+
+[LINE]
+Speaker592: Good   art is  surprising!
+~           le~bon art est surprenant 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+> Oscar sees a  sandwich [on~a~chair].    
+~ Oscar voit un sandwich  sur~une~chaise  
++ on a chair
+- and this chair
+- on his hair
+
+[LINE]
+Speaker592: That is    good   art!
+~           ça   c'est du~bon art 
+
+[LINE]
+Speaker414: A  sandwich on  a   chair?! 
+~           un sandwich sur une chaise  
+
+[LINE]
+Speaker592: Yes! It's  interesting and surprising! The~artist is  a  genius!
+~           oui  c'est intéressant et  surprenant  l'artiste  est un génie  
+
+[MULTIPLE_CHOICE]
+> Pourquoi Oscar pense-t-il que l'artiste est un génie ?
++ Un sandwich sur une chaise, c'est surprenant.
+- C'est le sandwich d'un chien.
+- Le sandwich a vraiment l'air délicieux.
+
+[LINE]
+Speaker414: I  don't~understand art.  
+~           je ne~comprends~pas l'art 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « concierge ».
+> A  (+janitor)   walks~into the room.  He (starts)     (eating) the (sandwich).
+~ un   concierge  entre~dans la  pièce  il  commence~à   manger  le   sandwich  
+
+[LINE]
+Speaker592: Excuse~me!   You  can't~eat            the~art!
+~           excusez-moi  vous ne~pouvez~pas~manger l'art   
+
+[LINE]
+Speaker307: Uh,  this isn't     art.      This~is my  lunch.   
+~           euh  ce   n'est~pas de~l'art  c'est   mon déjeuner 
+
+[MULTIPLE_CHOICE]
+> Oscar a cru…
+- … qu'Eddy avait mangé toutes les œuvres du musée.
+- … que le concierge était un artiste célèbre.
++ … que le déjeuner du concierge était une œuvre d'art.
+
+[MATCH]
+> Choisis les paires
+- starts <> commence à
+- are <> sont
+- This is <> c'est
+- painting <> tableau
+- The artist <> l'artiste
+
