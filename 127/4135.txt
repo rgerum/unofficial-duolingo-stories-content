@@ -1,0 +1,103 @@
+[DATA]
+fromLanguageName=Hoje eu não trabalho
+icon=5450714ebd6e5c59daf764d85a8fc7f9edb1c23a
+set=10|4
+
+[HEADER]
+> Hoy  no~trabajo     
+~ hoje eu~não~trabalho
+
+[LINE]
+> Vikram está en~la cocina. 
+~ Vikram está na    cozinha 
+
+[LINE]
+> Su~esposa,     Priti, llega.
+~ a~esposa~dele  Priti  chega 
+
+[LINE]
+Speaker560: ¡Buenos~días, Vikram!
+~            bom~dia      Vikram 
+
+[LINE]
+Speaker593: Un momento… ¿Por qué estás en casa? Es martes.     
+~           um momento   por que estás em casa  é  terça-feira 
+
+[LINE]
+Speaker560: ¡Hoy  no  trabajo!  ¡Tengo el día libre!
+~            hoje não trabalho   tenho o  dia livre 
+
+[MULTIPLE_CHOICE]
+> A Priti tirou o dia de folga.
+- Não, não é isso.
++ Sim, isso mesmo.
+
+[LINE]
+Speaker560: ¡Estoy muy   emocionada! ¡Quiero hacer muchas cosas! 
+~            estou muito ansiosa      quero  fazer muitas coisas 
+
+[LINE]
+> Priti va  al~gimnasio.
+~ Priti vai à~academia  
+
+[LINE]
+> Más  tarde, ella visita un museo.
+~ mais tarde  ela  visita um museu 
+
+[MULTIPLE_CHOICE]
+> A Priti foi…
++ …para a academia e para um museu.
+- …trabalhar.
+- …para um museu e para um cinema.
+
+[LINE]
+> Priti vuelve a    su~casa     y lee un libro en~el jardín.
+~ Priti volta  para a~casa~dela e lê  um livro no    jardim 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker593: ¡Hola, Priti! ¿[Qué~tal~tu~día]?     
+~            olá   Priti    como~está~o~teu~dia  
+- Qué mal su día
++ Qué tal tu día
+- Qué tal tus tías
+
+[LINE]
+Speaker560: Eh… bien, pero… estoy un poco  aburrida.  ¿Hacemos     la~cena? 
+~           eh  bem   mas   estou um pouco entediada   vamos~fazer o~jantar 
+
+[LINE]
+Speaker593: ¿La~cena?  Pero son las~dos de~la tarde.
+~            o~jantar  mas  são duas    da    tarde 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "cedo".
+Speaker560: Es (muy)   (+temprano). ¿Qué   (puedo) (hacer)?
+~           é   muito    cedo        o~que  posso   fazer  
+
+[LINE]
+Speaker593: ¿Por qué no  te sientas aquí y descansas?
+~            por que não te sentas  aqui e descansas 
+
+[LINE]
+> Priti se~sienta unos minutos.
+~ Priti se~senta  uns  minutos 
+
+[LINE]
+Speaker560: No~me~gusta  descansar, es aburrido. Voy al     trabajo. 
+~           não~gosto~de descansar  é  chato     vou para~o trabalho 
+
+[MULTIPLE_CHOICE]
+> Por que a Priti decidiu ir para o trabalho afinal?
+- Ela lembrou que tinha muita coisa para fazer.
+- Ela não queria fazer o jantar.
++ Ela fica entediada quando descansa.
+
+[MATCH]
+> Toque nos pares
+- día <> dia
+- libre <> livre
+- no <> não
+- Voy <> vou
+- temprano <> cedo
+
