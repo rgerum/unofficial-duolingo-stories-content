@@ -1,0 +1,106 @@
+[DATA]
+fromLanguageName=I Don't Work Today
+icon=5450714ebd6e5c59daf764d85a8fc7f9edb1c23a
+set=10|4
+
+[HEADER]
+> Hoje~eu~não~trabalho
+~ I~don't~work~today  
+
+[LINE]
+> Vikram está na     cozinha.
+~ Vikram is~  in~the kitchen 
+
+[LINE]
+> Sua esposa, Priti, chega.  
+~ his wife    Priti  arrives 
+
+[LINE]
+Speaker560: Bom~dia,      Vikram!
+~           good~morning  Vikram 
+
+[LINE]
+Speaker593: Priti? Por~que~você~está em~casa? Hoje  é  terça-feira.
+~           Priti  why~are~you       at~home  today is Tuesday     
+
+[LINE]
+Speaker560: Hoje~eu~não~trabalho! É    meu dia~de~folga.
+~           I~don't~work~today    it's my  day~off      
+
+[MULTIPLE_CHOICE]
+> Priti took the day off.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker560: Estou muito  feliz. Eu quero fazer muita    coisa!
+~           I~am  really happy  I  want  to~do a~lot~of stuff 
+
+[LINE]
+> Priti vai  ao     parque.
+~ Priti goes to~the park   
+
+[ARRANGE]
+> Tap what you hear
+> [(Depois)    (ela) (vai)  (ao)     (museu).] 
+~   afterward   she   goes   to~the   museum   
+
+[LINE]
+> Quando Priti chega   em~casa,   ela lê    um livro no seu jardim.
+~ when   Priti arrives (at)~home  she reads a  book  in her garden 
+
+[LINE]
+Speaker593: Oi, Priti! Tudo~bem?                
+~           hi  Priti  is~everything~going~well 
+
+[CONTINUATION]
+> What comes next?
+Speaker560: Sim! Vou~fazer          [o~jantar]!    
+~           yes  I~am~going~to~make  (the)~dinner  
+- no     jardim
+~ in~the garden
+- ao     parque
+~ to~the park  
++ o~jantar    
+~ (the)~dinner
+
+[LINE]
+Speaker593: Jantar!? São  duas da~tarde!
+~           dinner   it's two  p.m.     
+
+[LINE]
+Speaker560: É    muito  cedo.  O~que~mais~posso~fazer?
+~           it's really early  what~else~can~I~do     
+
+[MULTIPLE_CHOICE]
+> Poor Priti! It's quite early and she...
+- …doesn't know what to cook for dinner.
+- …has loads of things she still wants to do.
++ …doesn't know what to do with herself.
+
+[LINE]
+Speaker593: Por~que~você~não~senta e   relaxa?
+~           why~don't~you~sit      and relax  
+
+[LINE]
+> Priti senta por um minuto.
+~ Priti sits  for a  minute 
+
+[LINE]
+Speaker560: Eu não~gosto~de relaxar.  Vou~trabalhar.     
+~           I  don't~like   to~relax  I~am~going~to~work 
+
+[MULTIPLE_CHOICE]
+> Why did Priti decide to go to work after all?
++ She gets bored when she relaxes.
+- She didn't want to make dinner.
+- She remembered she had a lot to do.
+
+[MATCH]
+> Tap the pairs
+- não gosto de <> don't like
+- Estou <> I am
+- chega <> arrives
+- quero <> want
+- Sim <> yes
+
