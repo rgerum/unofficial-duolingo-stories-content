@@ -1,0 +1,136 @@
+[DATA]
+fromLanguageName=The Fishing Trip
+icon=ea46dee03b853f7dd1510efe2db272f12066e345
+set=16|3
+
+[HEADER]
+> Der Angelausflug
+~ the fishing~trip
+
+[LINE]
+> Bea besucht     ihren Vater.  Sie  gehen angeln. 
+~ Bea is~visiting her   father  they go    fishing 
+
+[LINE]
+Speaker507: Papa, ich hasse Angeln. 
+~           dad   I   hate  fishing 
+
+[LINE]
+Speaker6: Warum?
+~         why   
+
+[LINE]
+Speaker507: Es ist so langweilig.
+~           it is  so boring     
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: [Und~es~ist~heiß].
+~            and~it's~hot     
++ Und es ist heiß
+- Und ich will Eis
+- Und er ist verreist
+
+[LINE]
+Speaker507: Und ich habe noch~keinen~Fisch!
+~           and I   have no~fish~yet       
+
+[LINE]
+Speaker6: Ich bin  jeden~Sommer mit~deinem~Großvater  angeln~gegangen.
+~         I   went every~summer with~your~grandfather fishing         
+
+[LINE]
+Speaker507: Warum?
+~           why   
+
+[LINE]
+Speaker6: Er war dann immer  ganz anders.   
+~         he was then always very different 
+
+[MULTIPLE_CHOICE]
+> Bea's grandfather…
+- …didn't know how to fish.
++ …acted differently when he was fishing.
+- …never went fishing with Bea's father.
+
+[LINE]
+Speaker6: Er hat viel~geredet.
+~         he has talked~a~lot 
+
+[LINE]
+Speaker507: Aber er war immer  so ruhig!
+~           but  he was always so quiet 
+
+[ARRANGE]
+> Tap what you hear
+Speaker507: [(Worüber)    (hat) (er) (gesprochen)?]
+~             about~what   has   he   spoken       
+
+[LINE]
+Speaker6: Über  die Zeit, bevor  er nach~Deutschland~kam.
+~         about the time  before he came~to~Germany      
+
+[LINE]
+Speaker6: Wusstest~du,  dass er als~Arzt      in~Frankreich gearbeitet~hat?
+~         did~you~know  that he as~(a)~doctor in~France     has~worked     
+
+[LINE]
+Speaker6: Aber eigentlich wollte~er ein~Opernsänger~sein. 
+~         but  actually   he~wanted to~be~an~opera~singer 
+
+[SELECT_PHRASE]
+> Select the missing word or phrase
+Speaker507: Opa?     [Wirklich]?
+~           grandpa   really    
+- Wer, ich
++ Wirklich
+- Warum nicht
+
+[LINE]
+Speaker6: Wirklich, Bea!
+~         really    Bea 
+
+[LINE]
+Speaker507: Papa? Hast du  mich~zum~Angeln~eingeladen, weil    du  mehr~mit~mir~reden~möchtest?  
+~           dad   have you invited~me~fishing          because you would~like~to~talk~to~me~more 
+
+[LINE]
+Speaker6: Ja  ...
+~         yes    
+
+[LINE]
+Speaker6: Du  bist in~eine~andere~Stadt umgezogen und wir sprechen nur~wenig.  
+~         you have to~a~new~city        moved     and we  talk     only~little 
+
+[MULTIPLE_CHOICE]
+> Why do Bea and her dad talk less now?
+- Bea moved into her dad's house.
+- Bea lost her phone.
++ Bea moved to a new city.
+
+[LINE]
+Speaker507: Aber wir müssen~nicht  angeln~gehen, um          uns~zu~unterhalten.  
+~           but  we  don't~have~to go~fishing    in~order~to chat~with~each~other 
+
+[LINE]
+Speaker6: Das~ist gut  ...
+~         that's  good    
+
+[LINE]
+Speaker6: Denn    ich finde Angeln  auch total   langweilig!
+~         because I   find  fishing also totally boring     
+
+[MULTIPLE_CHOICE]
+> Why did Bea's dad take her fishing?
++ He thought they would talk more.
+- Bea wanted to show off her fishing skills.
+- He thinks fishing is really exciting.
+
+[MATCH]
+> Tap the pairs
+- wollte er <> he wanted
+- Und es ist heiß <> and it's hot
+- ich <> I
+- noch keinen Fisch <> no fish yet
+- Wirklich <> really
+
