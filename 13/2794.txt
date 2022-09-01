@@ -1,0 +1,118 @@
+[DATA]
+fromLanguageName=The Vegetarian
+icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
+set=4|1
+
+[HEADER]
+> Le~végétarien 
+~ the~vegetarian
+
+[LINE]
+> Vikram est au     restaurant.
+~ Vikram is  at~the restaurant 
+
+[LINE]
+Speaker385: Bienvenue !
+~           welcome    
+
+[LINE]
+Speaker593: Bonjour… J'ai   une~question.
+~           hello    I~have a~question   
+
+[LINE]
+Speaker593: Je suis végétarien.  
+~           I  am   a~vegetarian 
+
+[LINE]
+Speaker593: Il~y~a    des~plats~végétariens ?
+~           are~there vegetarian~dishes      
+
+[MULTIPLE_CHOICE]
+> Vikram wants to know if they have vegetarian dishes.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker385: Oui, nous avons des  steaks.
+~           yes  we   have  some steaks 
+
+[LINE]
+Speaker593: C'est de~la~viande. Je ne~mange~pas de~viande. 
+~           it's  meat          I  don't~eat    (any)~meat 
+
+[MULTIPLE_CHOICE]
+> Vikram doesn't eat meat, and the waiter…
+- …told him to leave the restaurant.
+- …decided to quit his job.
++ …offered him steak.
+
+[LINE]
+Speaker385: Ah, oui. Pardon.
+~           ah  yes  sorry  
+
+[LINE]
+Speaker385: Le~porc  est délicieux.
+~           the~pork is  delicious 
+
+[LINE]
+Speaker593: Le  porc, c'est de~la~viande.
+~           the pork  it's  meat         
+
+[LINE]
+Speaker593: Je ne~mange~pas de~viande  !
+~           I  don't~eat    (any)~meat  
+
+[ARRANGE]
+> Tap what you hear
+Speaker385: [(Nous) (avons) (des)  (salades)…]
+~             we     have    some   salads    
+
+[LINE]
+Speaker593: J'aime les salades !
+~           I~love the salads   
+
+[LINE]
+Speaker385: Nous avons une salade avec de~la~tomate et  du~poisson.
+~           we   have  a   salad  with some~tomato  and some~fish  
+
+[MULTIPLE_CHOICE]
+> The restaurant has a salad with fish and…
+- …pork.
++ …tomatoes.
+- …steaks.
+
+[LINE]
+Speaker593: Je ne~mange~pas de~poisson ! Je suis végétarien !
+~           I  don't~eat    (any)~fish   I  am   vegetarian  
+
+[LINE]
+Speaker385: Nous avons du~pain    et  du~fromage… 
+~           we   have  some~bread and some~cheese 
+
+[LINE]
+Speaker593: OK, du~pain    et  du~fromage. 
+~           OK  some~bread and some~cheese 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "ham."
+Speaker385: (Très) (bien) ! Et  du   (+jambon) (avec) le  pain  ?
+~            very   good    and some   ham      with  the bread  
+
+[LINE]
+Speaker593: Non ! Je ne~mange~pas de~viande  !
+~           no    I  don't~eat    (any)~meat  
+
+[MULTIPLE_CHOICE]
+> Why is Vikram so upset?
+- The waiter spilled coffee on him.
+- He's tired of being a vegetarian.
++ The waiter kept on offering him meat.
+
+[MATCH]
+> Tap the pairs
+- nous <> we
+- une question <> a question
+- restaurant <> restaurant
+- Bienvenue <> welcome
+- salade <> salad
+
