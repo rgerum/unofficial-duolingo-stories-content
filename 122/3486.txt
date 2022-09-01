@@ -1,0 +1,151 @@
+[DATA]
+fromLanguageName=Das große Spiel
+icon=170e9caad206d87350e17e32c18226edefea8131
+set=13|1
+
+[HEADER]
+> The Big   Game 
+~ das große Spiel
+
+[LINE]
+> Bea arrives~at~her~friend~Justin's~house.    
+~ Bea kommt~beim~Haus~ihres~Freundes~Justin~an 
+
+[LINE]
+Speaker507: Are  you ready? 
+~           bist du  bereit 
+
+[LINE]
+Speaker507: This is  the most~exciting soccer~game  of~the year!  
+~           das  ist das spannendste   Fußballspiel des    Jahres 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker507: And [we~have~tickets]!          
+~           und  wir~haben~Eintrittskarten  
+- even tickets
+- we have taken
++ we have tickets
+
+[LINE]
+Speaker295: Bea…
+~           Bea 
+
+[LINE]
+Speaker295: I   can't      go~to~the~game. 
+~           ich kann~nicht zum~Spiel~gehen 
+
+[LINE]
+Speaker507: What?
+~           was  
+
+[LINE]
+Speaker295: I   need to~study.
+~           ich muss lernen   
+
+[LINE]
+Speaker295: I   have a    really   important exam    tomorrow.
+~           ich habe eine wirklich wichtige  Prüfung morgen   
+
+[LINE]
+Speaker295: I   need to~pass~the~exam     to go~to~medical~school.                 
+~           ich muss die~Prüfung~bestehen um zur~medizinischen~Hochschule~zu~gehen 
+
+[MULTIPLE_CHOICE]
+> Warum kann Justin nicht zum Spiel gehen?
+- Er hat seinen Glücksbringer verloren.
+- Er muss zum Arzt gehen.
++ Er muss für eine wichtige Prüfung lernen.
+
+[LINE]
+Speaker295: I'm~sorry…      
+~           es~tut~mir~leid 
+
+[LINE]
+> Bea takes~off~her~coat.    
+~ Bea zieht~ihren~Mantel~aus 
+
+[MULTIPLE_CHOICE]
+> Bea …
+- … zieht ihren Mantel an.
+- … stiehlt Justins Mantel.
++ … zieht ihren Mantel aus.
+
+[LINE]
+Speaker507: OK, do~you~have any~coffee?
+~           OK  hast~du     Kaffee     
+
+[LINE]
+Speaker295: Why?  
+~           warum 
+
+[LINE]
+Speaker507: Well,  I   don't~want~to~be~tired.
+~           na~ja  ich will~nicht~müde~werden 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker507: We're~going to~study~all~night    t].
+~           wir~werden  die~ganze~Nacht~lernen   
++ all~night      
+~ die~ganze~Nacht
+- the tickets        
+~ die Eintrittskarten
+- a   soccer~ball
+~ ein Fußball    
+
+[LINE]
+Speaker295: But… 
+~           aber 
+
+[LINE]
+Speaker507: You help   me  often.
+~           du  hilfst mir oft   
+
+[LINE]
+Speaker507: Of~course I'm~going to~help~you~now. 
+~           natürlich werde~ich dir~jetzt~helfen 
+
+[LINE]
+Speaker295: But  it's   the most~exciting game  of~the year…  
+~           aber es~ist das spannendste   Spiel des    Jahres 
+
+[ARRANGE]
+> Was hörst du?
+Speaker507: [(You're)  (more~important) (than) (a)   (game).] 
+~             du~bist   wichtiger        als    ein   Spiel   
+
+[LINE]
+Speaker507: And you will  pass~this~exam!        
+~           und du  wirst diese~Prüfung~bestehen 
+
+[LINE]
+Speaker507: And when you're~a~doctor…   
+~           und wenn du~(ein)~Arzt~bist 
+
+[LINE]
+Speaker507: … you're~going to~buy~the~soccer~tickets,          right?   
+~             wirst~du     die~Fußball-Eintrittskarten~kaufen  stimmt's 
+
+[LINE]
+Speaker295: Of~course, Bea.
+~           natürlich  Bea 
+
+[LINE]
+Speaker507: Now where's the coffee?
+~           nun wo~ist  der Kaffee 
+
+[MULTIPLE_CHOICE]
+> Bea hat sich dazu entschlossen, …
++ … nicht zum Spiel zu gehen und Justin beim Lernen zu helfen.
+- … einen anderen Freund zum Spiel einzuladen.
+- … sich an einer medizinischen Hochschule zu bewerben.
+
+[MATCH]
+> Wähle die Paare
+- me <> mir
+- to pass the exam <> die Prüfung bestehen
+- a <> eine
+- often <> oft
+- the <> der
+
