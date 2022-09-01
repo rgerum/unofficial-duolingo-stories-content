@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=O garçom tem razão
+icon=c8d008581b5b813d1b4afcedbe914f70003145c6
+set=9|2
+
+[HEADER]
+> El camarero tiene razón
+~ o  garçom   tem   razão
+
+[LINE]
+> Bea y su~amigo     Federico están en un restaurante.
+~ Bea e o~amigo~dela Federico estão em um restaurante 
+
+[LINE]
+Speaker507: ¡Tengo     hambre!
+~            estou~com fome   
+
+[LINE]
+Speaker440: ¡El pescado aquí es delicioso!
+~            o  peixe   aqui é  delicioso 
+
+[MULTIPLE_CHOICE]
+> A Bea e o Federico estão indo pescar.
+- Sim, isso mesmo.
++ Não, não é isso.
+
+[LINE]
+> Un camarero llega a~la mesa.
+~ um garçom   chega na   mesa 
+
+[LINE]
+Speaker526: Buenas~noches. ¿Qué   quieren comer hoy? 
+~           boa~noite       o~que querem  comer hoje 
+
+[LINE]
+Speaker507: El pescado, por favor.
+~           o  peixe    por favor 
+
+[LINE]
+Speaker526: Muy   bien. Y… ¿qué bebida quieren?
+~           muito bem   e   que bebida querem  
+
+[LINE]
+Speaker526: Tenemos un vino  muy   especial.
+~           temos   um vinho muito especial 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker526: [(Y) (es) (perfecto~para) (el) (pescado).]
+~             e   é    perfeito~com    o    peixe     
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker526: Pero [es~un~poco~caro]…
+~           mas   é~um~pouco~caro  
+- es un loco raro
+- vas un poco en carro
++ es un poco caro
+
+[LINE]
+Speaker440: Es una noche especial y queremos una botella de su  vino  especial.
+~           é  uma noite especial e queremos uma garrafa de seu vinho especial 
+
+[LINE]
+Speaker526: ¡Muy   bien!
+~            muito bem  
+
+[LINE]
+> El camarero llega a~la mesa con el pescado y la botella de vino. 
+~ o  garçom   chega na   mesa com o  peixe   e a  garrafa de vinho 
+
+[LINE]
+Speaker507: ¡Se~ve  delicioso!
+~            parece delicioso 
+
+[MULTIPLE_CHOICE]
+> A Bea não gostou da aparência do prato.
+- Sim, isso mesmo.
++ Não, não é isso.
+
+[LINE]
+Speaker440: ¡Sí,  muy   delicioso!
+~            sim  muito delicioso 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "prato".
+> Federico (derrama) (su~vino)      (en~el) (+plato) de Bea.
+~ Federico  derrama   o~vinho~dele   no       prato  de Bea 
+
+[LINE]
+Speaker440: ¡No!  ¡Tu  pescado!
+~            não   teu peixe   
+
+[LINE]
+Speaker507: Y… ¡tu  vino! 
+~           e   teu vinho 
+
+[LINE]
+> Bea come.
+~ Bea come 
+
+[LINE]
+Speaker507: ¡El camarero tiene razón!
+~            o  garçom   tem   razão 
+
+[LINE]
+Speaker507: ¡Este vino  es perfecto para el pescado!
+~            este vinho é  perfeito para o  peixe   
+
+[MULTIPLE_CHOICE]
+> Por que o garçom está certo?
+- O Federico é um paquera chato.
++ O vinho é perfeito com o peixe.
+- O restaurante é muito barato.
+
+[MATCH]
+> Toque nos pares
+- por <> por
+- Este <> este
+- perfecto <> perfeito
+- razón <> razão
+- aquí <> aqui
+
