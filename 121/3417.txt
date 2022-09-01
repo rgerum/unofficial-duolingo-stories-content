@@ -1,0 +1,108 @@
+[DATA]
+fromLanguageName=What Do You Want?
+icon=aa84a24e80b83bc37162a04593f1f72dcceec2e4
+set=3|2
+
+[HEADER]
+> なに          が~ほしいですか？                       
+~ what~[nani] do~you~want~[ga~hoshii~desu~ka] 
+
+[LINE]
+> オスカーは             ふくや                        に~はいります。                  
+~ Oscar~[osukaa~wa] (a)~clothes~store~[fukuya] walks~into~[ni~hairimasu] 
+
+[LINE]
+> かれは          せいとの                     ザリ          に~あいます|。ザリは                      その          みせ               で       アルバイトを~しています。                            
+~ he~[kare~wa] (his)~student~[seito~no] Zari~[zari] sees~[ni~aimasu]  Zari~[zari~wa] that~[sono] (a)~store~[mise] at~[de] works~part-time~[arubaito~o~shite~imasu] 
+
+[MULTIPLE_CHOICE]
+> Oscar saw Zari at the store.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker592: ザリ|！ああ|、よかった！                        
+~           Zari~[zari]  oh~[aa]  good~[yokatta] 
+
+[LINE]
+Speaker418: こんにちは|！いらっしゃいませ！                           
+~           hello~[konnichiwa]  welcome~[irasshaimase] 
+
+[LINE]
+Speaker418: どうしましたか？                           
+~           May~I~help~you~[dou~shimashita~ka] 
+
+[LINE]
+Speaker592: ぼくは…        
+~           I~[boku~wa] 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "new."
+Speaker418: (わかった|)！(+あたらしい)                            (ジャケット)                (が~ほしいんですね)？                               
+~            I've~go  t~it~[wakatta]   new~[atarashii]   (a)~jacket~[jaketto]   (you)~want~,~right~[ga~hoshii~n~desu~ne]  
+
+[LINE]
+> ザリは            オスカーに                ジャケット                を~みせます。            
+~ Zari~[zari~wa] to~Oscar~[osukaa~ni] (a)~jacket~[jaketto] shows~[o~misemasu] 
+
+[LINE]
+Speaker592: あたらしい           ジャケット|？ザリ|、ちがうよ|。ぼくは…                                          
+~           new~[atarashii] (a)~jacket~[jaketto]  Zari~[zari]  no~[chigau~yo]  I~[boku~wa] 
+
+[LINE]
+Speaker418: あっ|！あたらしい                シャツ                が~ほしいんですか？                        
+~           ah~[a']  new~[atarashii] (a)~shirt~[shatsu] do~you~want~[ga~hoshii~n~desu~ka] 
+
+[ARRANGE]
+> Tap what you hear
+Speaker418: [(この)          (みどりの)              (シャツは)              (すてきですよ)。]                  
+~             this~[kono]   green~[midori~no]   shirt~[shatsu~wa]   is~nice~[suteki~desu~yo]   
+
+[LINE]
+Speaker592: ザリ|、ちがうよ。                   
+~           Zari~[zari]  no~[chigau~yo] 
+
+[LINE]
+Speaker592: シャツも                         ジャケットも                     ほしくないんだ|。ぼくは…                                 
+~           (either)~a~shirt~[shatsu~mo] (or)~a~jacket~[jaketto~mo] (I)~don't~want~[hoshikunai~n~da]  I~[boku~wa] 
+
+[SELECT_PHRASE]
+> Select the missing word
+Speaker418: [ズボンだ]|！ズボン                               が~ほしいんですね？                               
+~            (it)~is~pants~[zubon~da]   pants~[zubon] (you)~want~,~right~[ga~hoshii~n~desu~ne] 
++ ズボンだ
+- うどんだ
+- ほんだ
+
+[LINE]
+Speaker592: ちがうよ|！ふくは                         ほしくないんだ！                         
+~           no~[chigau~yo]  clothes~[fuku~wa] (I)~don't~want~[hoshikunai~n~da] 
+
+[MULTIPLE_CHOICE]
+> Oscar got annoyed because...
++ ...he did not want to buy any clothes.
+- ...he does not like Zari.
+- ...he wants to buy a hat.
+
+[LINE]
+Speaker592: おしえて...               
+~           tell~(me)~[oshiete]   
+
+[LINE]
+Speaker592: トイレは                      どこ？               
+~           (the)~bathroom~[toire~wa] where~(is)~[doko] 
+
+[MULTIPLE_CHOICE]
+> What was Oscar looking for？
+- a green shirt
+- a new jacket
++ a restroom
+
+[MATCH]
+> Tap the pairs
+- この <> this [kono]
+- オスカーに <> to Oscar [osukaa ni]
+- を みせます <> shows [o misemasu]
+- その <> that [sono]
+- ぼくは <> I [boku wa]
+
