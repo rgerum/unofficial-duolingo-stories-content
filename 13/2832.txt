@@ -1,0 +1,129 @@
+[DATA]
+fromLanguageName=The Diary
+icon=11054d83adbe171cda3e5669c57e1e26d6cbd8db
+set=13|3
+
+[HEADER]
+> Le  journal
+~ the diary  
+
+[LINE]
+> Zari et  Lily sont au     lycée.      
+~ Zari and Lily are  in~the high~school 
+
+[LINE]
+Speaker418: Lily, c'est   horrible ! Je ne~trouve~pas mon journal !
+~           Lily  this~is horrible   I  can't~find    my  diary    
+
+[LINE]
+Speaker416: Et  ?
+~           and  
+
+[LINE]
+Speaker418: J'écris sur   Miguel dans mon journal !
+~           I~write about Miguel in   my  diary    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker416: Miguel ? [Le~garçon~dans~ta~classe] ?
+~           Miguel    the~boy~in~your~class      
++ Le garçon dans ta classe
+- L'avion dans ta classe
+- Le garçon de la glace
+
+[LINE]
+Speaker418: Oui ! Je dois~trouver mon journal !
+~           yes   I  have~to~find my  diary    
+
+[LINE]
+Speaker416: OK...
+~           OK   
+
+[ARRANGE]
+> Tap what you hear
+> [(Elles) (regardent) (dans) (la)  (salle~de~classe).]
+~   they    look        in     the   classroom         
+
+[LINE]
+Speaker416: Désolée, il~n'est~pas ici. 
+~           sorry    it~isn't     here 
+
+[LINE]
+Speaker418: Ce   n'est~pas une bonne journée pour moi.
+~           this isn't     a   good  day     for  me  
+
+[CONTINUATION]
+> What comes next?
+> Miguel arrive.  Il a   un journal~rose [dans la~main]. 
+~ Miguel arrives  he has a  pink~diary    in   his~hand  
+- sur la~tête 
+~ on  his~head
+- dans la~bouche
+~ in   his~mouth
++ dans la~main 
+~ in   his~hand
+
+[LINE]
+Speaker418: Oh, non ! C'est Miguel !
+~           oh  no    it's  Miguel  
+
+[LINE]
+Speaker790: Salut, Zari. C'est   ton  journal ?
+~           hi     Zari  is~this your diary    
+
+[LINE]
+Speaker418: Euh… Non !
+~           uh   no   
+
+[LINE]
+Speaker416: Mais il~y~a~ton~nom~là.
+~           but  your~name~is~here 
+
+[LINE]
+Speaker418: OK. Oui. Mais...
+~           OK  yes  but    
+
+[LINE]
+Speaker790: Je ne~peux~pas~te~lire,         tu  écris très mal.  
+~           I  can't~read~your~handwriting  you write very badly 
+
+[MULTIPLE_CHOICE]
+> Why can't Miguel read Zari's handwriting?
+- He forgot his glasses.
++ She writes very badly.
+- He doesn't know how to read.
+
+[LINE]
+Speaker418: Oh… Bien.
+~           oh  good 
+
+[LINE]
+Speaker790: Tu  veux~aller~voir un film  avec moi vendredi    ?
+~           you want~to~go~see  a  movie with me  (on)~Friday  
+
+[LINE]
+Speaker418: Waouh, oui !
+~           wow    yes  
+
+[LINE]
+Speaker790: Super ! À~vendredi        !
+~           great   see~you~on~Friday  
+
+[LINE]
+Speaker418: Lily, c'est une super journée !
+~           Lily  it's  a   great day      
+
+[MULTIPLE_CHOICE]
+> Whoa! Why does Zari say she's having a great day?
+- Miguel bought her a new diary.
++ Miguel asked her out.
+- It's her birthday.
+
+[MATCH]
+> Tap the pairs
+- sont <> are
+- dois trouver <> have to find
+- au <> in the
+- lycée <> high school
+- regardent <> look
+
