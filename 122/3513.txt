@@ -1,0 +1,131 @@
+[DATA]
+fromLanguageName=Älter werden
+icon=4b810ac5ac1d241fb2380e6785db12c40b5c0508
+set=19|4
+
+[HEADER]
+> Getting~Older
+~ älter~werden 
+
+[LINE]
+> Bea is  at~the~gym       with her~friend,   Eddy.
+~ Bea ist im~Fitnessstudio mit  ihrem~Freund  Eddy 
+
+[LINE]
+> When she starts  exercising,    her~knee~makes a~noise.     
+~ als  sie anfängt zu~trainieren  macht~ihr~Knie ein~Geräusch 
+
+[LINE]
+Speaker507: What was that?!
+~           was  war das   
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker414: [What's~wrong]?
+~            was~ist~los   
+- What's long
++ What's wrong
+- That song
+
+[LINE]
+Speaker507: My~knee   just~made~a~weird~noise!                  
+~           mein~Knie hat~gerade~ein~komisches~Geräusch~gemacht 
+
+[LINE]
+Speaker414: That's  because you're~getting~older.
+~           das~ist weil    du~älter~wirst       
+
+[LINE]
+Speaker507: Eddy, I'm     not   even   thirty! 
+~           Eddy  ich~bin nicht einmal dreißig 
+
+[MULTIPLE_CHOICE]
+> Bea glaubt, sie sei …
+- … zu stark, um mit Eddy zu trainieren.
++ … zu jung, um Knieprobleme zu haben.
+- … zu alt, um Sport zu treiben.
+
+[LINE]
+Speaker414: Don't~worry! I   can  show~you~some~exercises     to make~your~knees~stronger.
+~           keine~Sorge  ich kann dir~ein~paar~Übungen~zeigen um deine~Knie~zu~stärken    
+
+[ARRANGE]
+> Was hörst du?
+> [(Eddy) (shows) (Bea) (a~leg~exercise).]
+~   Eddy   zeigt   Bea   eine~Beinübung   
+
+[LINE]
+Speaker507: Great! But  now   my~back~hurts…      
+~           toll   aber jetzt tut~mein~Rücken~weh 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker414: That's  also because [you're~getting~older].
+~           das~ist auch weil     du~älter~wirst        
+- this  ice~cream is~delicious
+~ diese Eiscreme  lecker~ist  
++ you're~getting~older
+~ du~älter~wirst      
+- it's~a~beautiful~day  
+~ es~ein~schöner~Tag~ist
+
+[LINE]
+Speaker507: Ugh! Really?  
+~           uff  wirklich 
+
+[LINE]
+Speaker414: Don't~worry! I   can  show~you~an~exercise  to make~your~back~stronger,  too.      
+~           keine~Sorge  ich kann dir~eine~Übung~zeigen um deinen~Rücken~zu~stärken  ebenfalls 
+
+[LINE]
+> Eddy shows Bea another      exercise for her~back.    
+~ Eddy zeigt Bea eine~weitere Übung    für ihren~Rücken 
+
+[LINE]
+Speaker507: Thanks, Eddy!
+~           danke   Eddy 
+
+[MULTIPLE_CHOICE]
+> Hast du das gehört? Bea hat sich bei Eddy bedankt, weil …
+- … er ihr Medizin für ihren Rücken gibt.
+- … er merkwürdige Geräusche macht.
++ … er ihr Übungen zeigt, die sie stärker machen.
+
+[LINE]
+Speaker414: No~problem!  
+~           kein~Problem 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker507: Can  you show~me    [that~leg~exercise] again?      
+~           kann du  mir~zeigen  die~Beinübung      noch~einmal 
++ that leg exercise
+- that leg is her size
+- that egg that you fried
+
+[LINE]
+Speaker414: You don't~remember?       I   just~showed~it~to~you.      
+~           du  erinnerst~dich~nicht  ich habe~sie~dir~gerade~gezeigt 
+
+[LINE]
+Speaker507: I   forgot…            Is  that because I'm~getting~older too?      
+~           ich habe~es~vergessen  ist das  weil    ich~älter~werde   ebenfalls 
+
+[LINE]
+Speaker414: Maybe,      but  I   don't~know~any exercises for your~brain. 
+~           vielleicht  aber ich kenne~keine    Übungen   für dein~Gehirn 
+
+[MULTIPLE_CHOICE]
+> Warum sollte Bea laut Eddy Gedächtnistraining machen?
++ Sie hat bereits vergessen, was Eddy ihr zuvor gezeigt hatte.
+- Sie hört ständig seltsame Geräusche.
+- Eddy eröffnet ein Fitnessstudio für Gehirntraining.
+
+[MATCH]
+> Wähle die Paare
+- Really <> wirklich
+- thirty <> dreißig
+- shows <> zeigt
+- her back <> ihren Rücken
+- can <> kann
+
