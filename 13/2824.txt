@@ -1,0 +1,104 @@
+[DATA]
+fromLanguageName=Lucy and the Dinosaurs
+icon=f6ce899637bb8181ee5e78382fdf71a0f01e4f95
+set=11|3
+
+[HEADER]
+> Lucie et  les dinosaures
+~ Lucie and the dinosaurs 
+
+[LINE]
+> Lucie ouvre la~porte~de~son~appartement.
+~ Lucie opens her~apartment~door          
+
+[LINE]
+Speaker509: Salut, Junior !
+~           hi     Junior  
+
+[LINE]
+Speaker415: Salut ! Tu  peux~m'aider avec mes devoirs  ?
+~           hi      you can~help~me  with my  homework  
+
+[MULTIPLE_CHOICE]
+> Junior wants Lucie to help him with his homework.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker509: Ah, oui !
+~           ah  yes  
+
+[LINE]
+Speaker509: J'écris très bien et  j'ai   un super blog !
+~           I~write very well and I~have a  great blog  
+
+[ARRANGE]
+> Tap what you hear
+Speaker509: [(Tu~lis)   (mon) (blog) ]?
+~             you~read   my    blog    
+
+[LINE]
+Speaker415: Euh… non.
+~           uh   no  
+
+[LINE]
+Speaker509: J'ai   beaucoup de livres.
+~           I~have a~lot    of books  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: [Tu~as~besoin~de] mes livres pour tes~devoirs   ?
+~            you~need         my  books  for  your~homework  
++ Tu as besoin de
+- Tu as moins de
+- Je suis loin de
+
+[LINE]
+Speaker415: Non, je n'ai~pas~besoin~de tes~livres.
+~           no   I  don't~need         your~books 
+
+[LINE]
+Speaker509: C'est~sur~quoi~tes~devoirs ?
+~           what's~your~homework~about  
+
+[LINE]
+Speaker415: Sur   les~dinosaures.
+~           about dinosaurs      
+
+[MULTIPLE_CHOICE]
+> What is Junior's homework about?
+- French literature
+- social media
++ dinosaurs
+
+[LINE]
+Speaker509: Et  pourquoi~tu~as~besoin~de mon aide ?
+~           and why~do~you~need          my  help  
+
+[POINT_TO_PHRASE]
+> Choose the option that means "because."
+Speaker415: (+Parce~que) (tu)  (es)  (vieille).
+~             because     you   are   old      
+
+[LINE]
+Speaker415: Tu  dois~connaître beaucoup de dinosaures.
+~           you must~know      a~lot    of dinosaurs  
+
+[LINE]
+Speaker509: Au~revoir, Junior.
+~           goodbye    Junior 
+
+[MULTIPLE_CHOICE]
+> Why did Junior think Lucie knew about dinosaurs?
+- She used to have a pet dinosaur.
+- She writes a blog about dinosaurs.
++ She is older than him.
+
+[MATCH]
+> Tap the pairs
+- de <> of
+- tes devoirs <> your homework
+- beaucoup <> a lot
+- mes <> my
+- pour <> for
+
