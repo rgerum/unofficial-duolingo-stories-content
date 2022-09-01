@@ -1,0 +1,152 @@
+[DATA]
+fromLanguageName=Ça a un goût bizarre
+icon=2af10d537225ca8ebd8d85b0d77cdc2dc60ebb71
+set=24|2
+
+[HEADER]
+> This Tastes    Strange
+~ ça   a~un~goût bizarre
+
+[LINE]
+> Eddy is~eating              something     he    found    in   the fridge.
+~ Eddy est~en~train~de~manger quelque~chose qu'il a~trouvé dans le  frigo  
+
+[LINE]
+Speaker414: Junior? This dessert tastes    strange.
+~           Junior  ce   dessert a~un~goût bizarre 
+
+[LINE]
+Speaker415: What dessert?
+~           quel dessert 
+
+[LINE]
+Speaker414: The dessert that was   in   the fridge.
+~           le  dessert qui  était dans le  frigo  
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker415: [That~wasn't~a~dessert].     That~was my  science~project.   
+~            ce~n'était~pas~un~dessert   c'était  mon projet~de~sciences 
++ That wasn't a dessert
+- That was in the desert
+- That's what I deserve
+
+[LINE]
+Speaker414: I~thought             it looked      a  little green…
+~           je~me~disais~bien~que ça avait~l'air un peu    vert  
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker414: How~long                 was~it  [in   the fridge]?
+~           pendant~combien~de~temps c'était  dans le  frigo   
++ in   the fridge
+~ dans le  frigo 
+- under the bed
+~ sous  le  lit
+- on  my head
+~ sur ma tête
+
+[LINE]
+Speaker415: Since  November.
+~           depuis novembre 
+
+[LINE]
+Speaker414: It's~March     now.       
+~           on~est~en~mars maintenant 
+
+[LINE]
+Speaker414: I  feel~sick.  
+~           je me~sens~mal 
+
+[LINE]
+Speaker415: What's~wrong?           
+~           qu'est~ce~qui~ne~va~pas 
+
+[LINE]
+Speaker414: I~have a~stomachache…
+~           j'ai   mal~au~ventre 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « j'appuie ».
+Speaker415: Hmm. Does~it~hurt (when)  (+I~poke)       (your) (stomach) here?
+~           hmm  ça~fait~mal   quand    j'appuie~sur   ton    ventre   ici  
+
+[LINE]
+Speaker414: No. 
+~           non 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker415: [(What~if) (I~poke~you) (here)?]
+~             et~si     j'appuie     là     
+
+[LINE]
+Speaker414: Ouch!
+~           aïe  
+
+[LINE]
+Speaker415: Interesting…
+~           intéressant 
+
+[LINE]
+Speaker415: How~does~your~body~feel?        
+~           comment~tu~te~sens~physiquement 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker414: My~body~feels~cold… should~I~go      [to the~hospital]?
+~           j'ai~froid~partout  je~devrais~aller  à  l'hôpital     
+- for~a~run  
+~ pour~courir
+- to school 
+~ à  l'école
++ to the~hospital
+~ à  l'hôpital   
+
+[LINE]
+Speaker415: Maybe.     What~else~is~wrong?             
+~           peut-être  qu'est-ce~qui~ne~va~pas~d'autre 
+
+[LINE]
+Speaker414: My mouth  is  dry.   Now        my mouth  is  wet.    Now        it's     dry   again!    
+~           ma bouche est sèche  maintenant ma bouche est humide  maintenant elle~est sèche à~nouveau 
+
+[LINE]
+Speaker414: Is~my~face        blue?
+~           mon~visage~est-il bleu 
+
+[LINE]
+Speaker415: It~is!    Cool!
+~           il~l'est  cool 
+
+[LINE]
+Speaker414: I  think     I'm~dying.                  I'm~going to~lie~down.
+~           je pense~que je~suis~en~train~de~mourir  je~vais   m'allonger  
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « cahier ».
+Speaker415: (Wait)!    I  (need) (to~write) this in   my  (+notebook)!
+~            attends   je  dois   écrire    ça   dans mon   cahier    
+
+[LINE]
+Speaker414: Because   you want to~tell~the doctor? 
+~           parce~que tu  veux le~dire~au  docteur 
+
+[LINE]
+Speaker415: No.  Because   I  want to~tell   my  teacher! You're my  new     science~project!   
+~           non  parce~que je veux le~dire~à mon maître   tu~es  mon nouveau projet~de~sciences 
+
+[MULTIPLE_CHOICE]
+> Comment Eddy est-il devenu le sujet de l'expérience scientifique de Junior ?
+- Sa peau est devenue bleue après avoir pris une douche.
+- Il a réussi à vivre dans le frigo pendant plusieurs mois.
++ Il a mangé son projet de science et est tombé malade.
+
+[MATCH]
+> Choisis les paires
+- fridge <> frigo
+- think <> pense que
+- No <> non
+- teacher <> maître
+- Does it hurt <> ça fait mal
+
