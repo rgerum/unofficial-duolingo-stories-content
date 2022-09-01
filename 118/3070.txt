@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=The Passport
+icon=643347b755001a918130ddf5f6d3e914e63a00ce
+set=1|1
+
+[HEADER]
+> O   passaporte
+~ the passport  
+
+[LINE]
+> Vikram está no     aeroporto com  sua esposa, Priti.
+~ Vikram is~  at~the airport   with his wife    Priti 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "where is."
+Speaker593: (Ah,~não)! (+Cadê)     (meu) (passaporte)?
+~            oh~no       where~is   my    passport    
+
+[LINE]
+Speaker593: Não~está  aqui!
+~           it~is~not here 
+
+[LINE]
+Speaker560: Vikram…
+~           Vikram 
+
+[LINE]
+Speaker593: Não~está  na minha bolsa…
+~           it~is~not in my    bag   
+
+[LINE]
+Speaker593: E   não~está  na minha jaqueta…
+~           and it~is~not in my    jacket  
+
+[MULTIPLE_CHOICE]
+> Vikram can't find his passport.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker560: Vik…
+~           Vik 
+
+[LINE]
+Speaker593: Meu passaporte está no     táxi!
+~           my  passport   is~  in~the taxi 
+
+[LINE]
+> Vikram corre~atrás~do táxi.
+~ Vikram runs~after~the taxi 
+
+[MULTIPLE_CHOICE]
+> Why is Vikram running after the taxi?
++ He thinks his passport is in the taxi.
+- He wants to exercise.
+- He is scared of flying.
+
+[LINE]
+Speaker560: Vik, não!
+~           Vik  no  
+
+[LINE]
+> Priti corre~atrás~de Vikram.
+~ Priti runs~after     Vikram 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker593: Ah,~não! O   táxi [não~está~aqui]!
+~           oh~no    the taxi  is~not~here    
+- mão tá aqui
++ não está aqui
+- mamão e caqui
+
+[LINE]
+Speaker593: Temos   um problema.
+~           we~have a  problem  
+
+[LINE]
+Speaker560: Vikram!
+~           Vikram 
+
+[LINE]
+Speaker560: Seu  passaporte não~está no     táxi.
+~           your passport   is~not   in~the taxi 
+
+[POINT_TO_PHRASE]
+> Choose the option meaning "hand."
+Speaker560: O   passaporte (está) (na) (sua)  (+mão)! 
+~           the passport    is~    in   your    hand  
+
+[LINE]
+Speaker593: Ah…
+~           oh 
+
+[LINE]
+Speaker593: Obrigado,  meu~amor!
+~           thank~you  my~love  
+
+[MULTIPLE_CHOICE]
+> Where was Vikram's passport after all?
+- in the taxi
++ in his hand
+- at his house
+
+[MATCH]
+> Tap the pairs
+- Não está <> it is not
+- corre atrás do <> runs after the
+- meu amor <> my love
+- Ah, não <> oh no
+- corre atrás de <> runs after
+
