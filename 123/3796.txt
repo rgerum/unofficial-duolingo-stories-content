@@ -1,0 +1,127 @@
+[DATA]
+fromLanguageName=La canción
+icon=be8f47fb647fd1b6b62660bfeceaa284fb800d10
+set=15|3
+
+[HEADER]
+> La chanson
+~ la canción
+
+[LINE]
+> Luc et Arnaud sont  dans un restaurant. 
+~ Luc y  Arnaud están en   un restaurante 
+
+[LINE]
+> Ils   entendent        une chanson.
+~ ellos están~escuchando una canción 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker274: J'adore    [cette~chanson] !
+~           me~encanta  esta~canción    
++ cette chanson
+- cette sanction
+- sept chaussons
+
+[LINE]
+Speaker44: Eh~bien, moi,  je~ne~l'aime~pas trop. 
+~          bueno    a~mí  no~me~gusta      mucho 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker44: [(Cette) (chanson) (n'est~pas) (intéressante).]
+~            esta    canción   no~es       interesante    
+
+[LINE]
+Speaker274: Tout le monde la connaît !
+~           todo el mundo la conoce   
+
+[LINE]
+Speaker44: Elle~est ennuyeuse.
+~          es       aburrida  
+
+[LINE]
+Speaker274: Non, elle~est jolie. 
+~           no   es       bonita 
+
+[LINE]
+Speaker274: Le~texte est génial.
+~           la~letra es  genial 
+
+[LINE]
+Speaker44: On~n'entend~pas bien la guitare. 
+~          no~se~escucha   bien la guitarra 
+
+[LINE]
+Speaker274: Le piano ! Écoute  !
+~           el piano   escucha  
+
+[MULTIPLE_CHOICE]
+> ¿Qué le gusta a Luc de la canción?
++ El piano y la letra de la canción.
+- La guitarra y la letra de la canción.
+- El ritmo rápido y el mal cantante.
+
+[LINE]
+Speaker274: Mais il~y~a quelque~chose de~plus important... 
+~           pero hay    algo          más     importante   
+
+[LINE]
+Speaker44: Oui ?
+~          sí   
+
+[LINE]
+Speaker274: Il~y~avait~cette~chanson à  la radio le jour de notre   rencontre.   
+~           esta~canción~estaba      en la radio el día  de nuestra primera~cita 
+
+[LINE]
+Speaker274: Il~y~a trente  ans  !
+~           hace   treinta años  
+
+[MULTIPLE_CHOICE]
+> ¿Cuándo escucharon Luc y Arnaud esta canción por primera vez?
++ hace muchos años
+- hace treinta semanas
+- hace unos días
+
+[LINE]
+Speaker44: Oh, je~me~souviens...
+~          ah  me~acuerdo       
+
+[LINE]
+Speaker44: Luc, je~comprends~maintenant pourquoi tu~aimes   cette chanson.
+~          Luc  ahora~entiendo          por~qué  te~encanta esta  canción 
+
+[CONTINUATION]
+> ¿Qué sigue?
+> Arnaud se lève    et [regarde Luc dans les yeux].
+~ Arnaud se levanta y   mira~a  Luc a    los ojos  
+- parle    à une~chouette
+~ le~habla a un~búho     
+- fait~du~vélo     
+~ anda~en~bicicleta
++ regarde Luc dans les yeux
+~ mira~a  Luc a    los ojos
+
+[LINE]
+Speaker44: Tu~veux danser avec~moi ?
+~          quieres bailar conmigo   
+
+[LINE]
+Speaker274: Oui.
+~           sí  
+
+[MULTIPLE_CHOICE]
+> ¿Por qué la canción es tan importante para Luc y Arnaud?
+- La canta su cantante favorito. 
+- Siempre la cantan en el karaoke.
++ La escucharon el día que se conocieron.
+
+[MATCH]
+> Selecciona los pares
+- pourquoi <> por qué
+- Arnaud <> Arnaud
+- il y a <> hay
+- trente <> treinta
+- Eh bien <> bueno
+
