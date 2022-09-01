@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=Love Letter
+icon=4ba2733ddb8bdc3f0924c6463da01f5d1eccaf40
+set=17|4
+
+[HEADER]
+> Lettre~d'amour
+~ love~letter   
+
+[LINE]
+> Zari est avec son~voisin,   Junior. Ils  sont à  la  bibliothèque.
+~ Zari is  with her~neighbor  Junior  they are  at the library      
+
+[LINE]
+Speaker418: Junior, tu  fais      quoi ?
+~           Junior  you are~doing what  
+
+[LINE]
+Speaker415: Hmm… J'écris     une lettre.
+~           hmm  I'm~writing a   letter 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker418: [Tu~écris~une~lettre]      pour~qui ?
+~            you~are~writing~a~letter  to~whom   
++ Tu écris une lettre
+- Tu lis mes lettres
+- Elle écrit à la fenêtre
+
+[LINE]
+Speaker415: C'est pour une fille. Je l'aime   beaucoup.
+~           it's  for  a   girl   I  like~her a~lot    
+
+[LINE]
+Speaker418: Oh ! C'est une lettre~d'amour ? Elle est dans ta   classe ?
+~           oh   it's  a   love~letter      she  is  in   your class   
+
+[LINE]
+Speaker415: Non... Elle est plus~vieille~que moi.
+~           no     she  is  older~than       me  
+
+[MULTIPLE_CHOICE]
+> Junior is writing a love letter for an older girl.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker418: Plus~vieille ? Elle~a~mon~âge ?
+~           older          she~is~my~age   
+
+[LINE]
+Speaker415: Oui, c'est~ma...  voisine. 
+~           yes  she~is~my    neighbor 
+
+[LINE]
+Speaker418: Attends~un~peu...
+~           wait~a~minute    
+
+[ARRANGE]
+> Tap what you hear
+Speaker418: [(Elle~a~mon~âge) (et)  (c'est)  (ta~voisine)    ]?
+~             she~is~my~age    and   she~is   your~neighbor    
+
+[LINE]
+Speaker415: Euh… Oui.
+~           uh   yes 
+
+[LINE]
+Speaker418: Hmm… Elle est intelligente ?
+~           hmm  she  is  intelligent   
+
+[LINE]
+Speaker415: Oui !
+~           yes  
+
+[LINE]
+Speaker418: Oh, Junior !
+~           oh  Junior  
+
+[CONTINUATION]
+> What comes next?
+Speaker418: C'est pour moi ? Désolée, mais tu  es  [trop jeune].
+~           it's  for  me    sorry    but  you are  too  young  
++ trop jeune
+~ too  young
+- trop vieille
+~ too  old    
+- ma voisine 
+~ my neighbor
+
+[LINE]
+Speaker415: Non ! Ce   n'est pas pour toi, c'est pour ta   meilleure amie   !
+~           no    this is    not for  you  it's  for  your best      friend  
+
+[LINE]
+Speaker415: Tu  peux~donner ma lettre à  Lily ?
+~           you can~give    my letter to Lily  
+
+[MULTIPLE_CHOICE]
+> Who was Junior's love letter for?
++ Zari's best friend, Lily
+- Zari
+- Zari's sister
+
+[MATCH]
+> Tap the pairs
+- ma <> my
+- Non <> no
+- avec <> with
+- sont <> are
+- quoi <> what
+
