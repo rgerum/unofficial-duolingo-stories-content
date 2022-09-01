@@ -1,0 +1,147 @@
+[DATA]
+fromLanguageName=La persona perfetta
+icon=9a22c5f11ddc4785a81d887f35d522f3317e2f4c
+set=6|1
+
+[HEADER]
+> The Perfect~Person  
+~ la  persona~perfetta
+
+[LINE]
+> Bea meets    her    friend, Eddy, for coffee.  
+~ Bea incontra il~suo amico   Eddy  per un~caffè 
+
+[LINE]
+Speaker414: Good~morning, Bea!
+~           buongiorno    Bea 
+
+[LINE]
+Speaker507: How~are~you, Eddy?
+~           come~stai    Eddy 
+
+[LINE]
+Speaker414: Well, I~have  a  date         tonight.
+~           beh   (io)~ho un appuntamento stasera 
+
+[LINE]
+Speaker507: That's~great.
+~           è~fantastico 
+
+[LINE]
+Speaker414: Yes, but I~feel~a~little~sick.     
+~           sì   ma  (io)~mi~sento~un~po'~male 
+
+[LINE]
+Speaker507: Oh, I'm~sorry.  
+~           oh  mi~dispiace 
+
+[LINE]
+Speaker414: I'm  really  tired. 
+~           sono davvero stanco 
+
+[LINE]
+Speaker414: And I~also~feel      cold.  
+~           e   (io)~sento~anche freddo 
+
+[MULTIPLE_CHOICE]
+> Eddy si sente bene.
+- Sì, è giusto.
++ No, è sbagliato.
+
+[LINE]
+Speaker507: Hmm.
+~           uhm 
+
+[LINE]
+Speaker507: That's~not~good.
+~           non~va~bene     
+
+[ARRANGE]
+> Seleziona ciò che senti
+Speaker507: [(You~need)  (to~visit)  (a)  (doctor).] 
+~             (tu)~devi   andare~da   un   dottore   
+
+[SELECT_PHRASE]
+> Seleziona la frase mancante
+Speaker414: No, I  [can't~be~sick]!       
+~           no  io  non~posso~stare~male  
+- can't be sticky
++ can't be sick
+- can be a stick
+
+[LINE]
+Speaker414: I~have  a  date         tonight!
+~           (io)~ho un appuntamento stasera 
+
+[LINE]
+Speaker507: Forget         your   date!        
+~           (tu)~dimentica il~tuo appuntamento 
+
+[LINE]
+Speaker507: I~know       the perfect~person   for you.
+~           (io)~conosco la  persona~perfetta per te  
+
+[MULTIPLE_CHOICE]
+> Bea pensa che sarebbe meglio se Eddy…
++ … incontrasse qualcun altro invece di andare all'appuntamento.
+- … si dimenticasse il nome della persona che deve incontrare.
+- … non facesse tardi al suo appuntamento.
+
+[LINE]
+Speaker414: Really? 
+~           davvero 
+
+[LINE]
+Speaker507: Yes. She's tall…
+~           sì   è     alta 
+
+[LINE]
+Speaker507: And intelligent... 
+~           e   intelligente   
+
+[LINE]
+Speaker414: Is~she  funny?     
+~           (lei)~è divertente 
+
+[LINE]
+Speaker507: Yes, she's   very  funny.     
+~           sì   (lei)~è molto divertente 
+
+[SELECT_PHRASE]
+> Seleziona la frase mancante
+Speaker414: [She~is~perfect]!  
+~            (lei)~è~perfetta  
++ She is perfect
+- Cheese is perfect
+- He is a person
+
+[LINE]
+Speaker414: What's~her~name?     
+~           (lei)~come~si~chiama 
+
+[LINE]
+Speaker507: Doctor     Santos.
+~           dottoressa Santos 
+
+[LINE]
+Speaker507: You~need  to~go  to  her office now…   
+~           (tu)~devi andare nel suo studio adesso 
+
+[LINE]
+Speaker507: …because you're~sick!
+~            perché  stai~male   
+
+[MULTIPLE_CHOICE]
+> Bea pensa che la persona perfetta per Eddy sia…
++ … una dottoressa che lo aiuti a stare meglio.
+- … un'attrice che gli piace.
+- … qualcuno che ha conosciuto online.
+
+[MATCH]
+> Tocca le coppie
+- your <> il tuo
+- Well <> beh
+- Bea <> Bea
+- you <> te
+- I also feel <> sento anche
+
