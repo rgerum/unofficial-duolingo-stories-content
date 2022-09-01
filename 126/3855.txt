@@ -1,0 +1,129 @@
+[DATA]
+fromLanguageName=O garçom está certo
+icon=c8d008581b5b813d1b4afcedbe914f70003145c6
+set=12|4
+
+[HEADER]
+> The Waiter Is   Right
+~ o   garçom está certo
+
+[LINE]
+> Bea and her~friend   Ted are   at a  restaurant. 
+~ Bea e   o~amigo~dela Ted estão em um restaurante 
+
+[LINE]
+Speaker507: I'm      very~hungry.   
+~           eu~estou com~muita~fome 
+
+[LINE]
+Speaker440: The fish  here is delicious!
+~           o   peixe aqui é  delicioso 
+
+[LINE]
+> A  waiter comes to   the table.
+~ um garçom vem   para a   mesa  
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker526: [Good~evening]! What  would~you~like     to~eat?
+~            boa~noite      o~que vocês~gostariam~de comer  
+- Good eating
++ Good evening
+- Good even if
+
+[LINE]
+Speaker507: I  want  the fish,  please.   
+~           eu quero o   peixe  por~favor 
+
+[LINE]
+Speaker440: I  want  the fish  too!   
+~           eu quero o   peixe também 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker526: Great! And would~you~like       [something    to~drink]?    
+~           ótimo  e   vocês~gostariam~(de)  alguma~coisa (para)~beber  
+- to~sleep
+~ dormir  
+- a   new~jacket  
+~ uma jaqueta~nova
++ something    to~drink    
+~ alguma~coisa (para)~beber
+
+[LINE]
+Speaker526: We  have  a  very~special~wine    tonight.     
+~           nós temos um vinho~muito~especial hoje~à~noite 
+
+[LINE]
+Speaker526: It's  delicious with fish! 
+~           ele~é delicioso com  peixe 
+
+[LINE]
+Speaker526: But it's  a~little expensive…
+~           mas ele~é um~pouco caro      
+
+[LINE]
+Speaker440: No~problem!   We  would~like~the wine,  please.   
+~           sem~problema  nós gostaríamos~do vinho  por~favor 
+
+[LINE]
+Speaker526: Great!
+~           ótimo 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "traz".
+> The (waiter) (+brings) the fish  and two  (glasses) of wine  to   the (table).
+~ o    garçom    traz    o   peixe e   duas  taças    de vinho para a    mesa   
+
+[LINE]
+Speaker507: The fish  looks  great.
+~           o   peixe parece ótimo 
+
+[LINE]
+Speaker440: The wine  looks  good too!   
+~           o   vinho parece bom  também 
+
+[LINE]
+> Ted accidentally   spills  his~glass~of~wine    on~Bea's~plate. 
+~ Ted acidentalmente derrama a~taça~de~vinho~dele no~prato~de~Bea 
+
+[MULTIPLE_CHOICE]
+> Opa! Sem querer, o Ted derramou…
+- …vinho no garçom.
++ …vinho no jantar da Bea.
+- …água no peixe.
+
+[LINE]
+Speaker440: Your~fish!    
+~           (o)~seu~peixe 
+
+[LINE]
+Speaker507: Your~wine!    
+~           (o)~seu~vinho 
+
+[LINE]
+> Bea laughs and eats the fish. 
+~ Bea ri     e   come o   peixe 
+
+[LINE]
+Speaker507: The waiter is   right!
+~           o   garçom está certo 
+
+[LINE]
+Speaker507: This wine  is delicious with the fish! 
+~           este vinho é  delicioso com  o   peixe 
+
+[MULTIPLE_CHOICE]
+> Por que o garçom estava certo?
++ A Bea achou que o vinho ficou delicioso com o peixe dela.
+- O Ted era um paquera chato.
+- O peixe era caro demais.
+
+[MATCH]
+> Toque nos pares
+- would like the <> gostaríamos do
+- want <> quero
+- comes <> vem
+- right <> certo
+- too <> também
+
