@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=Anh bồi bàn nói đúng
+icon=c8d008581b5b813d1b4afcedbe914f70003145c6
+set=9|2
+
+[HEADER]
+> The~Waiter~Is~Right 
+~ anh~bồi~bàn~nói~đúng
+
+[LINE]
+> Bea and her~friend Ted are~at a   restaurant.
+~ Bea và  bạn~cô~ấy  Ted đang~ở một nhà~hàng   
+
+[LINE]
+Speaker507: I'm     very~hungry.
+~           tớ~đang đói~quá     
+
+[LINE]
+Speaker440: The~fish~here~is delicious!   
+~           món~cá~ở~đây     ngon~lắm~đấy 
+
+[MULTIPLE_CHOICE]
+> Ted nghĩ món cá ở đây không ngon.
++ Không đúng.
+- Đúng vậy.
+
+[LINE]
+> A   waiter      comes~to the~table.
+~ một anh~bồi~bàn tiến~tới bàn~ăn    
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker526: [Good~evening]!            What~would~you~like to~eat?
+~            chào~(buổi~tối)~hai~bạn   các~bạn~muốn…gì     ăn     
++ Good evening
+- Good even if
+- Good eating
+
+[LINE]
+Speaker507: I   want the~fish, please.
+~           tôi muốn món~cá    làm~ơn 
+
+[LINE]
+Speaker440: I~want~the~fish~too! 
+~           tôi~cũng~muốn~món~cá 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker526: Great!  And     would~you~like        [something to~drink]?
+~           được~ạ  với~lại các~bạn~có~muốn…không  thứ~gì~đó để~uống   
+- to~sleep
+~ đi~ngủ  
++ something to~drink
+~ thứ~gì~đó để~uống 
+- a       new~jacket  
+~ 1~chiếc áo~khoác~mới
+
+[LINE]
+Speaker526: We        have a   very~special~wine      tonight.
+~           chúng~tôi có   một loại~rượu~rất~đặc~biệt tối~nay 
+
+[LINE]
+Speaker526: It's delicious~with fish!
+~           nó   rất~hợp~với    cá   
+
+[LINE]
+Speaker526: But   it's a~little~expensive…
+~           nhưng nó   hơi~đắt~một~chút   
+
+[LINE]
+Speaker440: No~problem!    We~would~like~the~wine,~please.   
+~           không~sao~hết  làm~ơn~cho~chúng~tôi~loại~rượu~đó 
+
+[LINE]
+Speaker526: Great! 
+~           được~ạ 
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “mang”.
+> The~waiter  (+brings) (the~fish) (and) two glasses~of (wine) to  the~table. 
+~ anh~bồi~bàn   mang     món~cá     và   hai ly          rượu  tới chỗ~bàn~ăn 
+
+[LINE]
+Speaker507: The~fish looks great.    
+~           món~cá   trông tuyệt~quá 
+
+[LINE]
+Speaker440: The~wine looks~good~too!     
+~           rượu     trông~cũng~ngon~nữa 
+
+[LINE]
+> Ted accidentally spills his~glass~of~wine    on  Bea's~plate.
+~ Ted sơ~ý         làm~đổ ly~rượu~(của~anh~ấy) lên đĩa~của~Bea 
+
+[MULTIPLE_CHOICE]
+> Ối! Ted đã sơ ý làm đổ…
++ …rượu lên bữa tối của Bea.
+- …nước lên món cá.
+- …rượu vào nước.
+
+[LINE]
+Speaker440: Your~fish!    
+~           ôi~cá~của~cậu 
+
+[LINE]
+Speaker507: Your~wine!      
+~           ôi~rượu~của~cậu 
+
+[LINE]
+> Bea laughs and eats the~fish.
+~ Bea cười   và  ăn   món~cá   
+
+[LINE]
+Speaker507: The~waiter~is~right! 
+~           anh~bồi~bàn~nói~đúng 
+
+[LINE]
+Speaker507: This~wine~is delicious~with the~fish!
+~           rượu~này     rất~hợp~với    món~cá   
+
+[MULTIPLE_CHOICE]
+> Anh bồi bàn đã đúng vì…
+- …Ted nói chuyện quá nhạt nhẽo.
+- …món cá quá đắt.
++ …Bea thấy rượu rất hợp với món cá.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- laughs <> cười
+- I'm <> tớ đang
+- The fish here is <> món cá ở đây
+- have <> có
+- please <> làm ơn
+
