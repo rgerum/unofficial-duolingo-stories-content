@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=Le film d'horreur
+icon=1038afc2cf4744d25820807d461131e153f7ddcf
+set=19|3
+
+[HEADER]
+> The Horror~Movie  
+~ le  film~d'horreur
+
+[LINE]
+> Lily and Zari arrive   at~the movie~theater.
+~ Lily et  Zari arrivent au     cinéma        
+
+[LINE]
+> A  boy    from their school is~working~there.
+~ un garçon de   leur  école  y~travaille      
+
+[LINE]
+Speaker418: Hi,    Billy! Two  tickets for  "Blood~Lake",     please!       
+~           salut  Billy  deux places  pour  Le~lac~de~sang   s'il~te~plaît 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker1649: No,  [you're~too~young]      to~see    that movie.
+~            non   vous~êtes~trop~jeunes  pour~voir ce   film  
++ you're too young
+- you aren't young
+- you're too fun
+
+[LINE]
+Speaker416: But  you always~sell~us      tickets    for  horror~movies!      
+~           mais tu  nous~vends~toujours des~places pour les~films~d'horreur 
+
+[LINE]
+Speaker1649: You  also~have  coffees   from~the cafe across~the~street.
+~            vous avez~aussi des~cafés du       café d'en~face         
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker1649: [(You)  (can't~bring)            (those) (into) (the~theater).]
+~              vous   ne~pouvez~pas~apporter   ça      dans   le~cinéma     
+
+[LINE]
+> Lily takes both     coffees and throws~them in   the trash.   
+~ Lily prend les~deux cafés   et  les~jette   dans la  poubelle 
+
+[LINE]
+Speaker418: Aw, my  coffee! With extra         chocolate and cream!
+~           oh  mon café    avec un~supplément chocolat  et  crème 
+
+[LINE]
+Speaker416: Sorry.  
+~           désolée 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker1649: Well,    you  still~can't~have             [a~ticket].
+~            eh~bien  vous ne~pouvez~toujours~pas~avoir  de~place  
+- more    chocolate
+~ plus~de chocolat 
++ a~ticket
+~ de~place
+- this  trash   
+~ cette poubelle
+
+[LINE]
+Speaker416: Why?     
+~           pourquoi 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker1649: [(You)  (always~talk)     (during)  (movies).]   
+~              vous   parlez~toujours   pendant   les~films   
+
+[LINE]
+Speaker418: Why      are~you~doing this, Billy? We're  friends!
+~           pourquoi tu~fais       ça    Billy  on~est copains 
+
+[LINE]
+Speaker1649: If we're  friends, then  why      can't~I~be          in   your  band?  
+~            si on~est copains  alors pourquoi je~ne~peux~pas~être dans votre groupe 
+
+[MULTIPLE_CHOICE]
+> Billy refuse de leur vendre des billets car...
++ … il veut faire partie de leur groupe de musique.
+- … elles ont jeté son café à la poubelle.
+- … la séance est déjà complète.
+
+[LINE]
+Speaker418: Uh…  what band?  
+~           euh  quel groupe 
+
+[LINE]
+Speaker1649: I  heard~you         talking~about starting a  band   in class. 
+~            je vous~ai~entendues ~parler~de    former   un groupe en classe 
+
+[LINE]
+Speaker416: OK, fine.     We~need~a        guitar~player.
+~           OK  d'accord  on~a~besoin~d'un guitariste    
+
+[LINE]
+Speaker1649: Great!  When~is     the next      band~practice?         
+~            génial  c'est~quand la  prochaine répétition~(de~groupe) 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker416: Tomorrow, [after~school]. 
+~           demain     après~l'école  
+- at this cool
+- have to scroll
++ after school
+
+[LINE]
+Speaker418: Now        can~we~please~have two  tickets to~see    "Blood~Lake"?    
+~           maintenant pourrait-on~avoir  deux places  pour~voir  le~lac~de~sang  
+
+[LINE]
+Speaker1649: Sure,     but  not~until tomorrow|—after our   first    band~practice.         
+~            bien~sûr  mais pas~avant demain    après notre première répétition~(de~groupe) 
+
+[MULTIPLE_CHOICE]
+> Quand Zari et Lily pourront-elles voir « Le lac de sang » ?
++ après avoir répété avec Billy
+- quand elles le souhaitent
+- après avoir acheté d'autres cafés
+
+[MATCH]
+> Choisis les paires
+- their <> leur
+- always talk <> parlez toujours
+- Tomorrow <> demain
+- If <> si
+- across the street <> d'en face
+
