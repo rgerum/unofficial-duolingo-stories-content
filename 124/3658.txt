@@ -1,0 +1,147 @@
+[DATA]
+fromLanguageName=Le voleur de sandwichs
+icon=71bc9bc5c6a5619a4f4ee9651bbb246b449bf495
+set=23|3
+
+[HEADER]
+> The Sandwich~Thief     
+~ le  voleur~de~sandwichs
+
+[LINE]
+> Eddy is  in   the kitchen at~the office where he works.    
+~ Eddy est dans la  cuisine au     bureau où    il travaille 
+
+[LINE]
+> He is~talking to his new      colleague, Elena.
+~ il parle      à  sa  nouvelle collègue   Elena 
+
+[LINE]
+Speaker414: Ugh!  It~happened~again!  
+~           argh  c'est~encore~arrivé 
+
+[LINE]
+Speaker125: What?
+~           quoi 
+
+[LINE]
+Speaker414: Someone   stole  my  lunch!   
+~           quelqu'un a~volé mon déjeuner 
+
+[MULTIPLE_CHOICE]
+> Quelqu'un n'arrête pas de voler le déjeuner d'Eddy.
+- Non, c'est faux.
++ Oui, c'est vrai.
+
+[LINE]
+Speaker414: This~has~happened every~day      for    the past~week!       
+~           c'est~arrivé      tous~les~jours depuis la  semaine~dernière 
+
+[LINE]
+Speaker125: Really?   That's strange.
+~           vraiment  c'est  bizarre 
+
+[LINE]
+Speaker414: I  think     Phil has~been~stealing my food.      
+~           je pense~que Phil vole              ma nourriture 
+
+[LINE]
+Speaker125: Yeah,  Phil always~looks     hungry.
+~           ouais  Phil a~toujours~l'air affamé 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker414: [(He) (stole)  (my)  (ham~sandwich)       (yesterday)!]
+~             il   a~volé   mon   sandwich~au~jambon   hier        
+
+[LINE]
+Speaker125: Do~you~mean  your chicken~sandwich?  
+~           tu~veux~dire ton  sandwich~au~poulet 
+
+[LINE]
+Speaker125: You brought    a  ham~sandwich       on~Tuesday.
+~           tu  as~apporté un sandwich~au~jambon mardi      
+
+[LINE]
+Speaker414: What? How     do~you~know that?
+~           quoi  comment tu~sais     ça   
+
+[LINE]
+Speaker125: Uh…  I'm     good  at~guessing! 
+~           euh  je~suis douée pour~deviner 
+
+[MULTIPLE_CHOICE]
+> Qu'est-ce qu'Elena veut dire ?
+- Elle fait de très bons sandwichs au jambon.
+- Elle peut prédire l'avenir.
++ Elle peut deviner ce qu'Eddy a apporté pour le déjeuner.
+
+[LINE]
+Speaker414: Well,    I~have a   surprise for  Phil tomorrow.
+~           eh~bien  j'ai   une surprise pour Phil demain   
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « dégoûtant ».
+Speaker414: (I'm~going~to~bring) (a)  (+disgusting) (fish~and~banana~sandwich)!          
+~            je~vais~apporter     un    dégoûtant    sandwich~au~poisson~et~à~la~banane  
+
+[LINE]
+Speaker125: Good plan.
+~           bon  plan 
+
+[LINE]
+> The next~day,     Eddy sees~Elena~again.
+~ le  jour~suivant  Eddy revoit~Elena     
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker414: No~one~stole      [my  lunch    today]!      
+~           personne~n'a~volé  mon déjeuner aujourd'hui  
+- my fancy~watch   
+~ ma montre~de~luxe
+- your gym~shoes          
+~ tes  chaussures~de~sport
++ my  lunch    today      
+~ mon déjeuner aujourd'hui
+
+[LINE]
+Speaker125: But  that's a   good  thing, right?       
+~           mais c'est  une bonne chose  n'est-ce~pas 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker414: No,  I  only~brought     that fish~and~banana~sandwich…           so    now        [I~have~to~eat~it]. 
+~           non  je n'ai~apporté~que ce   sandwich~au~poisson~et~à~la~banane  alors maintenant  je~dois~le~manger  
++ I have to eat it
+- why have you eaten it
+- I have to read it
+
+[LINE]
+Speaker125: Well,    I~have a  delicious turkey~sandwich     today.      
+~           eh~bien  j'ai   un délicieux sandwich~à~la~dinde aujourd'hui 
+
+[LINE]
+Speaker414: Really?   You~don't~usually~bring      your lunch.   
+~           vraiment  d'habitude~tu~n'apportes~pas ton  déjeuner 
+
+[LINE]
+Speaker125: Well,    I'm     allergic   to  bananas.
+~           eh~bien  je~suis allergique aux bananes 
+
+[LINE]
+Speaker414: Wait…    It~was  you!
+~           attends  c'était toi 
+
+[MULTIPLE_CHOICE]
+> Qui est le voleur de sandwichs ?
+- Phil
++ Elena
+- une dinde
+
+[MATCH]
+> Choisis les paires
+- Wait <> attends
+- chicken sandwich <> sandwich au poulet
+- strange <> bizarre
+- disgusting <> dégoûtant
+- to <> à
+
