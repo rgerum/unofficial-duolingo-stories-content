@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=Phim kinh dị
+icon=1038afc2cf4744d25820807d461131e153f7ddcf
+set=19|3
+
+[HEADER]
+> The~Horror~Movie
+~ bộ~phim~kinh~dị 
+
+[LINE]
+> Lily and Zari arrive~at the~movie~theater.
+~ Lily và  Zari đến       rạp~phim          
+
+[LINE]
+> A   boy     from~their~school      is~working    there.
+~ một bạn~nam học~cùng~trường~với~họ đang~làm~việc ở~đó  
+
+[LINE]
+Speaker418: Hi,       Billy! Two~tickets~for     "Blood~Lake," please!
+~           chào~cậu  Billy  cho~bọn~tớ~2~vé~xem  hồ~máu       làm~ơn 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker1649: No,    [you're~too~young]     to~see that~movie.
+~            không   các~cậu~chưa~đủ~tuổi  để~xem bộ~phim~đó 
+- you aren't young
++ you're too young
+- you're too fun
+
+[LINE]
+Speaker416: But   you always      sell    us     tickets~for horror~movies!
+~           nhưng cậu mọi~khi~vẫn bán~cho bọn~tớ vé~xem      phim~kinh~dị  
+
+[LINE]
+Speaker1649: You     also    have      coffees from the~cafe    across~the~street.
+~            các~cậu lại~còn mang~theo cà~phê  từ   quán~cà~phê bên~kia~đường     
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker1649: [(You)     (can't~bring)          (those)        (into)      (the~theater).]
+~              các~cậu   không~được~phép~mang   những~thứ~đó   vào~trong   rạp           
+
+[LINE]
+> Lily takes   both~coffees      and throws them  in~the~trash. 
+~ Lily cầm~lấy cả~hai~cốc~cà~phê và  ném    chúng vào~thùng~rác 
+
+[LINE]
+Speaker418: Aw, my~coffee!     With~extra             chocolate and cream!
+~           ôi  cà~phê~của~tớ  còn~có~thêm~cả…nữa~chứ sô-cô-la  và  kem   
+
+[LINE]
+Speaker416: Sorry.      
+~           xin~lỗi~nhé 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker1649: Well,  you     still can't~have             [a~ticket].
+~            cơ~mà  các~cậu vẫn   không~thể~lấy…được~đâu  vé        
++ a~ticket
+~ vé      
+- this~trash 
+~ chỗ~rác~này
+- more chocolate
+~ thêm sô-cô-la 
+
+[LINE]
+Speaker416: Why?    
+~           tại~sao 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker1649: [(You)     (always)       (talk)       (during~movies).]     
+~              các~cậu   lúc~nào~cũng   nói~chuyện   trong~lúc~xem~phim   
+
+[LINE]
+Speaker418: Why     are~you~doing this,    Billy?    We're~friends!     
+~           tại~sao cậu~lại~làm   thế~này  hả~Billy  chúng~ta~là~bạn~mà 
+
+[LINE]
+Speaker1649: If  we're       friends, then why     can't~I~be~in         your~band?           
+~            nếu chúng~ta~là bạn      thì  tại~sao tớ~lại~không~được~vào ban~nhạc~của~các~cậu 
+
+[MULTIPLE_CHOICE]
+> Ra là thế! Billy từ chối bán vé cho họ vì…
+- …họ đã đổ cà phê của cậu ấy vào thùng rác.
+- …rạp phim đã hết chỗ.
++ …cậu ấy muốn được chơi trong ban nhạc của họ.
+
+[LINE]
+Speaker418: Uh… what~band?      
+~           ờm  ban~nhạc~nào~cơ 
+
+[LINE]
+Speaker1649: I  heard        you     talking~about starting       a~band   in~class.  
+~            tớ đã~nghe~thấy các~cậu bàn~về        việc~thành~lập ban~nhạc ở~trên~lớp 
+
+[LINE]
+Speaker416: OK,       fine.     We       need     a   guitar~player.    
+~           được~rồi  tốt~thôi  chúng~tớ đang~cần một người~chơi~guitar 
+
+[LINE]
+Speaker1649: Great!   When    is     the~next~band~practice?       
+~            hay~lắm  khi~nào thì~có buổi~tập~(ban~nhạc)~tiếp~theo 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker416: Tomorrow, [after~school].
+~           ngày~mai   sau~giờ~học   
+- at this cool
++ after school
+- have to scroll
+
+[LINE]
+Speaker418: Now     can~we~please~have                   two     tickets to~see "Blood~Lake"?
+~           giờ~thì cậu~làm~ơn~cho~bọn~tớ~lấy…được~không 2~chiếc vé      xem     hồ~máu      
+
+[LINE]
+Speaker1649: Sure,     but   not~until    tomorrow|—after our~first~band~practice.                  
+~            được~chứ  nhưng phải~đợi~đến ngày~mai  sau   buổi~tập~(ban~nhạc)~đầu~tiên~của~chúng~ta 
+
+[MULTIPLE_CHOICE]
+> Khi nào thì Zari và Lily mới có thể xem “Hồ Máu”?
+- bất cứ khi nào họ muốn
+- sau khi họ lấy thêm cà phê
++ sau khi họ cho Billy tập cùng ban nhạc
+
+[MATCH]
+> Nhấn vào các cặp từ
+- Aw <> ôi
+- the theater <> rạp
+- talk <> nói chuyện
+- the cafe <> quán cà phê
+- two <> 2 chiếc
+
