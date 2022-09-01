@@ -1,0 +1,146 @@
+[DATA]
+fromLanguageName=Es mi ex novia!
+icon=29463cb983d5da30288b0758a5f9ec7313b76094
+set=15|2
+
+[HEADER]
+> C'est mon ex      !
+~ es    mi  exnovia  
+
+[LINE]
+> Lin et Béa sont  au    supermarché. 
+~ Lin y  Béa están en~el supermercado 
+
+[LINE]
+Speaker508: Jeanne est  là   !
+~           Jeanne está allí  
+
+[LINE]
+Speaker507: C'est~qui Jeanne ?
+~           quién~es  Jeanne  
+
+[LINE]
+Speaker508: Mon ex.     
+~           mi  exnovia 
+
+[MULTIPLE_CHOICE]
+> Lin solía salir con Jeanne.
++ Sí, así es.
+- No, no es así.
+
+[LINE]
+Speaker507: La femme avec la chemise rouge ?
+~           la mujer de   la camisa  roja   
+
+[LINE]
+Speaker508: Oui.
+~           sí  
+
+[LINE]
+Speaker508: Elle est~partie étudier  dans une~autre ville. 
+~           ella se~fue~a   estudiar a    otra      ciudad 
+
+[LINE]
+Speaker508: La dernière fois qu'on~a~parlé...
+~           la última   vez  que~hablamos    
+
+[LINE]
+Speaker508: … c'était il~y~a cinq  ans. 
+~             fue     hace   cinco años 
+
+[LINE]
+Speaker507: Tu~veux lui~parler      ?
+~           quieres hablar~con~ella  
+
+[LINE]
+Speaker508: Je~ne~sais~pas...
+~           no~sé            
+
+[LINE]
+Speaker508: Je~pense qu'elle  ne~se~souvient~pas de moi.
+~           creo     que~ella no~se~acuerda      de mí  
+
+[MULTIPLE_CHOICE]
+> Lin cree que Jeanne no se acordará de ella porque…
+- … Jeanne tiene muy mala memoria.
+- … Lin solía usar un nombre falso cuando estaban juntas.
++ … ellas no han hablado durante años.
+
+[LINE]
+Speaker507: Va   lui~parler      !
+~           ve~a hablar~con~ella  
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker508: Hmm... D'accord.  Je~vais [lui~faire~signe].
+~           mmm    está~bien  voy~a    saludarla        
++ lui faire signe
+- finir sa ligne
+- faire la cuisine
+
+[LINE]
+> Lin lui fait~signe.
+~ Lin la  saluda     
+
+[LINE]
+Speaker507: Elle t'a~vue !
+~           ella te~vio   
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker507: [(Et) (elle) (vient) (ici)      ]!
+~             y    ella   viene   para~acá    
+
+[LINE]
+Speaker508: Oh, non !
+~           ay  no   
+
+[LINE]
+Speaker508: Ce  n'est~pas Jeanne.
+~           esa no~es     Jeanne 
+
+[LINE]
+Speaker507: Tu~es sûre   ?
+~           estás segura  
+
+[LINE]
+Speaker508: Oui, ce  n'est~pas elle !
+~           sí   esa no~es     ella  
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker125: Salut. Vous  [m'avez~fait~signe ]?
+~           hola   usted  me~saludó           
+- faites mes courses
+~ hace   mis compras
++ m'avez~fait~signe
+~ me~saludó        
+- avez  une chemise rouge
+~ tiene una camisa  roja 
+
+[LINE]
+Speaker125: On~se~connaît ?
+~           nos~conocemos  
+
+[LINE]
+Speaker507: Non, mais vous  savez où    on~peut acheter des  lunettes ?
+~           no   pero usted sabe  dónde podemos comprar unos anteojos  
+
+[LINE]
+Speaker507: Mon amie  ne~voit~pas bien !
+~           mi  amiga no~ve       bien  
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Béa dice que Lin necesita anteojos?
+- Los anteojos de Lin son muy feos.
++ Lin pensó que una extraña era su exnovia.
+- La mujer pisó los anteojos de Lin.
+
+[MATCH]
+> Selecciona los pares
+- Va <> ve a
+- est partie <> se fue a
+- dernière <> última
+- qu'elle <> que ella
+- n'est pas <> no es
+
