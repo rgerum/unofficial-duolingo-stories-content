@@ -1,0 +1,118 @@
+[DATA]
+fromLanguageName=Duas passagens, por favor!
+icon=b8d10ee56171817ff548af825d5065b5561d1482
+set=7|4
+
+[HEADER]
+> Two  Tickets,   Please!   
+~ duas passagens  por~favor 
+
+[LINE]
+> Junior is   at~the airport.  
+~ Junior está no     aeroporto 
+
+[LINE]
+> He  talks~to the woman  at~the desk.                   
+~ ele fala~com a   mulher no     balcão~(de~atendimento) 
+
+[LINE]
+Speaker659: Can~I~help      you? 
+~           eu~posso~ajudar você 
+
+[LINE]
+Speaker415: I  want  to~buy  a   ticket   to   Barcelona.
+~           eu quero comprar uma passagem para Barcelona 
+
+[LINE]
+Speaker659: Where are   your~parents?  
+~           onde  estão (os)~seus~pais 
+
+[MULTIPLE_CHOICE]
+> O Junior é um adulto.
+- Sim, isso mesmo.
++ Não, não é isso.
+
+[LINE]
+Speaker415: Excuse~me.   I'm~not~seven~years~old.        
+~           com~licença  eu~não~tenho~sete~anos~de~idade 
+
+[LINE]
+Speaker659: How~old~are~you?      
+~           quantos~anos~você~tem 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker415: I'm~eight     [years~old].    
+~           eu~tenho~oito  anos~de~idade  
+- you're old
+- you sold
++ years old
+
+[LINE]
+Speaker659: A   ticket   to   Barcelona is four~hundred dollars.
+~           uma passagem para Barcelona é  quatrocentos dólares 
+
+[LINE]
+Speaker415: OK…    Where can~I~go    for thirteen dollars?
+~           certo  aonde eu~posso~ir por treze    dólares 
+
+[MULTIPLE_CHOICE]
+> Ah, não! Por que o Junior não pode ir a Barcelona?
+- Ele tem medo de avião.
+- O voo já está lotado.
++ Ele só tem treze dólares.
+
+[LINE]
+> Junior's~dad,      Eddy, runs  to  the desk.                   
+~ (o)~pai~de~Junior  Eddy  corre até o   balcão~(de~atendimento) 
+
+[LINE]
+Speaker414: Junior! There~you~are! What  are~you~doing     at~the airport?  
+~           Junior  aí~está~você   o~que você~está~fazendo no     aeroporto 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "prova de matemática".
+Speaker415: I  have  a   (+math~test)           (today). I  need    (to~leave~the) (country).
+~           eu tenho uma   prova~de~matemática   hoje    eu preciso  sair~do        país     
+
+[LINE]
+Speaker414: OK.    How~much is the ticket?  
+~           certo  quanto   é  a   passagem 
+
+[LINE]
+Speaker415: Four~hundred dollars.
+~           quatrocentos dólares 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker414: How~much are [two  tickets]?  
+~           quanto   são  duas passagens  
+- eight years~old    
+~ oito  anos~de~idade
++ two  tickets  
+~ duas passagens
+- math~tests          
+~ provas~de~matemática
+
+[LINE]
+Speaker415: Eight~hundred dollars.
+~           oitocentos    dólares 
+
+[LINE]
+Speaker414: Right! You're great at math!       Now   go to   school.    
+~           certo  você~é ótimo em matemática  agora vá para (a)~escola 
+
+[MULTIPLE_CHOICE]
+> Por que o Junior queria comprar uma passagem para Barcelona?
+- Ele queria surpreender o pai com umas férias.
+- Ele queria ver a arquitetura de lá.
++ Ele não queria fazer a prova de matemática.
+
+[MATCH]
+> Toque nos pares
+- Excuse me <> com licença
+- airport <> aeroporto
+- great <> ótimo
+- Junior <> Junior
+- Eight hundred <> oitocentos
+
