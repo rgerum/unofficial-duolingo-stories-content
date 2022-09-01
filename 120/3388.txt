@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=A New Job
+icon=792e2286967c20465f3e45293ca8140533aa119e
+set=8|4
+
+[HEADER]
+> Un lavoro~nuovo
+~ a  new~job     
+
+[LINE]
+> Martina torna      dal  lavoro.
+~ ~       comes~back from work   
+
+[LINE]
+> Si~rivolge~a suo marito,  Francesco.
+~ she~talks~to her husband  ~         
+
+[SELECT_PHRASE]
+> Select the missing word
+Speaker260: [Odio]   il~mio lavoro!
+~            I~hate  my     job    
++ Odio
+- Odo
+- Oddio
+
+[LINE]
+Speaker260: Devo~trovarne  un~altro.   
+~           I~have~to~find another~one 
+
+[LINE]
+Speaker15: Che  tipo di lavoro vuoi     fare? 
+~          what kind of job    you~want to~do 
+
+[LINE]
+Speaker260: Beh,  non~voglio   un lavoro~difficile.
+~           well  I~don't~want a  difficult~job    
+
+[LINE]
+Speaker260: E   non~voglio   svegliarmi presto per~lavorare.
+~           and I~don't~want to~wake~up early  to~work      
+
+[LINE]
+Speaker15: OK...
+
+[LINE]
+Speaker260: Non~voglio   fare  tante riunioni.
+~           I~don't~want to~do many  meetings 
+
+[CONTINUATION]
+> What comes next?
+Speaker260: E   non~voglio   mandare [tante email].  
+~           and I~don't~want to~send  many  e-mails  
++ tante email  
+~ many  e-mails
+- riunioni
+~ meetings
+- un lavoro
+~ a  job   
+
+[LINE]
+Speaker15: OK. Questo è  quello~che non~vuoi...      
+~          ~   this   is what       you~don't~want   
+
+[ARRANGE]
+> Tap what you hear
+Speaker15: [(Ma)  (cosa) (vuoi)?]    
+~            but   what   you~want   
+
+[LINE]
+Speaker260: Uhm...
+
+[POINT_TO_PHRASE]
+> Click the option that means "before two".
+Speaker260: Beh,  voglio (uscire~dall'|)(ufficio) (+prima~delle~due) (tutti~i~giorni).
+~           well  I~want  to~leave~the o ffice      before~two        every~day       
+
+[LINE]
+Speaker260: Voglio un capo~simpatico.
+~           I~want a  nice~boss      
+
+[LINE]
+Speaker260: Anzi,     non~voglio   nessun capo.
+~           actually  I~don't~want any    boss 
+
+[LINE]
+Speaker15: Martina...
+
+[LINE]
+Speaker15: Conosco il  lavoro~perfetto per te! 
+~          I~know  the perfect~job     for you 
+
+[LINE]
+Speaker260: Quale?      
+~           which~(one) 
+
+[ARRANGE]
+> Tap what you hear
+Speaker15: [(Ecco), (il)  (lavoro~perfetto) (per) (te).].. 
+~            well    the   perfect~job       for   you     
+
+[LINE]
+Speaker15: ... è  non avere   un lavoro!
+~              is not to~have a  job    
+
+[LINE]
+Speaker260: Ah. Francesco!
+
+[LINE]
+Speaker260: Anzi,     aspetta...  non~mi~sembra   poi~così~male!   
+~           actually  wait        it~doesn't~seem so~bad~after~all 
+
+[MULTIPLE_CHOICE]
+> Francesco hinted that...
+- … Martina should resume her studies at the university.
+- ... he also wants to quit his job.
++ … Martina doesn't really want to work.
+
+[MATCH]
+> Tap the pairs
+- non mi sembra <> it doesn't seem
+- email <> e-mails
+- riunioni <> meetings
+- lavoro perfetto <> perfect job
+- è <> is
+
