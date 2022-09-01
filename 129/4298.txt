@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Bir Şey
+icon=717bd84875f83c678f64f124937a278061e0e778
+set=1|3
+
+[HEADER]
+> One Thing
+~ Bir Şey  
+
+[LINE]
+> Jennifer is with her~brother,   Steve.
+~ ~        ~  ile  erkek~kardeşi  ~     
+
+[POINT_TO_PHRASE]
+> "ekmek" anlamına gelen seçeneği seçin.
+Speaker856: (Oh no)! I     (need)          (+bread)  (for)  my    sandwich. 
+~            ~  ~    benim  ihtiyacım~var    ekmeğe   için  benim sandviçim 
+
+[LINE]
+Speaker103: Do~you~need  to~go  to the supermarket?
+~           gerekiyor~mu gitmen -e ~   süpermarket 
+
+[MULTIPLE_CHOICE]
+> Steve, kız kardeşinin süpermarkete gitmesi gerekip gerekmediğini bilmek istiyor.
+- Hayır, yanlış.
++ Evet, doğru.
+
+[LINE]
+Speaker856: Yes. 
+~           Evet 
+
+[LINE]
+Speaker103: Oh, I~want    one thing from the supermarket!
+~           ~   istiyorum bir şey   -ten ~   süpermarket 
+
+[LINE]
+Speaker856: What do~you~need?  
+~           neye ihtiyacın~var 
+
+[LINE]
+Speaker103: One tomato,  please.
+~           Bir domates  Lütfen 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker103: For  [my~salad]!
+~           İçin  salatam   
+- why salad
++ my salad
+- my solid
+
+[LINE]
+Speaker856: OK.   
+~           tamam 
+
+[LINE]
+Speaker103: Thank~you!      
+~           teşekkür~ederim 
+
+[LINE]
+Speaker103: And I~want    some  coffee…
+~           Ve  istiyorum biraz Kahve  
+
+[LINE]
+Speaker856: OK.  
+~           peki 
+
+[CONTINUATION]
+> Cümlenin sonu nedir?
+Speaker103: … and I~want    some  sugar [for  my~coffee].
+~             ve  istiyorum biraz şeker  için kahvem     
++ for my~coffee
+~ ~   kahvem   
+- for my~fish
+~ ~   balığım
+- for my~fries 
+~ ~   kızartmam
+
+[LINE]
+Speaker856: Steve—
+
+[LINE]
+Speaker103: And some  milk!
+~           Ve  biraz Süt  
+
+[LINE]
+Speaker856: Hmm… I     have an  idea.  
+~           ~    benim var  bir fikrim 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker856: [(Here)   (is)  (some)  (money), (Steve).]
+~             burada   var   biraz   para     ~       
+
+[LINE]
+Speaker103: What?!
+~           Ne    
+
+[LINE]
+Speaker856: I~want    one thing from the supermarket: bread.
+~           istiyorum bir şey   -ten ~   süpermarket  ekmek 
+
+[MULTIPLE_CHOICE]
+> Jennifer ne yaptı?
+- Steve için bir sandviç yaptı.
++  Steve'e ekmek alması için biraz para verdi.
+- Süpermarketten ekmek aldı.
+
+[MATCH]
+> Çiftlere dokun
+- with <> ile
+- What <> neye
+- one <> bir
+- coffee <> Kahve
+- supermarket <> süpermarket
+
