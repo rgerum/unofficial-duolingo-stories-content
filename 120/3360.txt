@@ -1,0 +1,133 @@
+[DATA]
+fromLanguageName=Surprise!
+icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
+set=1|4
+
+[HEADER]
+> Sorpresa!
+~ surprise 
+
+[LINE]
+> Antonio è  in un ristorante con  sua madre. 
+~ ~       is in a  restaurant with his mother 
+
+[LINE]
+Speaker2276: Un tavolo per tre,   per~favore.
+~            a  table  for three  please     
+
+[LINE]
+Speaker385: Tre?   Io, tu,  e...?  
+~           three  me  you  and    
+
+[LINE]
+Speaker2276: Un'|amica. 
+~            a   friend 
+
+[MULTIPLE_CHOICE]
+> Who else is coming to dinner?
+- Antonio's brother.
+- Antonio's dad.
++ A friend of Antonio's mom.
+
+[LINE]
+Speaker385: Oh... Devo...  
+~           ~     I~must   
+
+[LINE]
+Speaker2276: Ho     una sorpresa!
+~            I~have a   surprise 
+
+[LINE]
+Speaker385: Ecco... Anch'io devo~dirti    una~cosa. 
+~           well    I~also  must~tell~you something 
+
+[ARRANGE]
+> Tap what you hear
+Speaker2276: [(La~mia) (amica)  (è)  (molto) (simpatica).]
+~              my       friend   is   very    nice        
+
+[LINE]
+Speaker2276: È     una studentessa~di~economia.
+~            she's a   business~student        
+
+[LINE]
+Speaker2276: Si~chiama   Sonia.
+~            her~name~is ~     
+
+[LINE]
+Speaker385: Mamma, devo...  
+~           mom    I~must   
+
+[LINE]
+Speaker2276: Ed  è     bellissima! Perfetta per mio figlio!
+~            and she's gorgeous    perfect  for my  son    
+
+[MULTIPLE_CHOICE]
+> Antonio's mom wants...
++ … him to go out with her friend, Sonia.
+- … him to leave the restaurant.
+- … a new friend.
+
+[LINE]
+> Una donna entra~nel  ristorante.
+~ a   woman enters~the restaurant 
+
+[LINE]
+Speaker125: Ciao, tesoro!
+~           hi    honey  
+
+[LINE]
+Speaker2276: Tesoro?
+~            honey  
+
+[MULTIPLE_CHOICE]
+> Why is Antonio's mom surprised?
++ She did not know that Antonio was in a relationship.
+- Antonio left the restaurant.
+- The food they ordered came quickly.
+
+[LINE]
+Speaker385: Ciao, Carla. Mamma...
+~           hi    ~      mom     
+
+[LINE]
+Speaker125: Antonio, questa è  tua  madre? 
+~           ~        this   is your mother 
+
+[LINE]
+Speaker2276: Antonio?!
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker125: [Come~va]?    
+~            how~are~you  
++ Come va
+- Come vai
+- Come sa
+
+[LINE]
+Speaker125: Sono Carla! La~moglie~di~Antonio.
+~           I'm  ~      Antonio's~wife       
+
+[LINE]
+Speaker2276: Moglie?!
+~            wife    
+
+[LINE]
+Speaker385: Sorpresa!
+~           surprise 
+
+[MULTIPLE_CHOICE]
+> What was Antonio's surprise?
+- He never wants to get married.
++ He is married to Carla.
+- He wants to marry his mom's friend.
+
+[MATCH]
+> Tap the pairs
+- Devo <> I must
+- Come va <> how are you
+- Si chiama <> her name is
+- è <> is
+- devo dirti <> must tell you
+
