@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Đến chơi cuối tuần
+icon=e9870ece5e694f8efd3df5550e7bb5d130fadecf
+set=19|2
+
+[HEADER]
+> Weekend~Visit     
+~ đến~chơi~cuối~tuần
+
+[LINE]
+> Bea's~boyfriend,  Sean, is~visiting   for~the~weekend.         
+~ bạn~trai~của~Bea  Sean  đang~đến~chơi trong~mấy~ngày~cuối~tuần 
+
+[LINE]
+Speaker438: This is the~first~time I'm~staying~at    your~apartment! It's~so~exciting!      
+~           đây  là lần~đầu~tiên   anh~sẽ~được~ở~lại căn~hộ~của~em   nó~làm~anh~háo~hức~quá 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker507: Yeah, [it'll~be~a~fun~weekend].
+~           ừ      cuối~tuần~sẽ~vui~đây    
++ it'll be a fun weekend
+- it'll be fun weather
+- I'll be the weekend
+
+[LINE]
+Speaker438: It's~like we're~living       together!  We'll~learn           so~much   about~each~other.
+~           cứ~như~là chúng~ta~đang~sống cùng~nhau  chúng~ta~sẽ~hiểu~được rất~nhiều về~nhau          
+
+[LINE]
+Speaker507: What?!  No,    I'm~not~ready    to~live together! 
+~           gì~cơ   không  em~chưa~sẵn~sàng để~sống cùng~nhau 
+
+[MULTIPLE_CHOICE]
+> Bea tỏ ra gay gắt. Vì sao vậy nhỉ?
+- Cô ấy quên không dọn nhà.
++ Cô ấy chưa muốn sống cùng bạn trai.
+- Bạn trai cô ấy muốn chia tay.
+
+[LINE]
+Speaker438: Bea, it's~OK.     I~was~joking.    
+~           Bea  được~rồi~mà  anh~nói~đùa~thôi 
+
+[LINE]
+Speaker438: Hey, can~I~sleep        on~the~left~side of  the~bed?     
+~           này  anh~ngủ…được~không ở~phía~bên~trái  của chiếc~giường 
+
+[LINE]
+Speaker507: I  usually sleep on~the~left~side of  the~bed,      but   OK…           
+~           em thường  ngủ   ở~phía~bên~trái  của chiếc~giường  nhưng vậy~cũng~được 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker438: [(Could~I)            (close)   (the) (curtains)?]
+~             cho~anh…được~không   kéo…vào   cái   rèm        
+
+[LINE]
+Speaker438: I   don't~want the~sun  to~wake~me~up.      
+~           anh không~muốn ánh~nắng làm~(anh)~tỉnh~giấc 
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “mặt trời mọc”.
+Speaker507: OK,   but   I  (wake~up)  at      (+sunrise)      (every) (morning)…  
+~           được  nhưng em  tỉnh~dậy  vào~lúc   mặt~trời~mọc   mỗi     buổi~sáng  
+
+[LINE]
+Speaker438: And     do~you~mind       if  I   take that~painting off  the~wall? 
+~           với~lại em~có~phiền…không nếu anh gỡ   bức~tranh~kia khỏi bức~tường 
+
+[LINE]
+Speaker507: Why?     I  love      it. My~cousin    painted it.
+~           tại~sao  em rất~thích nó  em~họ~của~em đã~vẽ   nó 
+
+[LINE]
+Speaker438: It's     a~little scary…   I   won't~be~able~to  sleep.
+~           nó~trông hơi      đáng~sợ  anh sẽ~không~thể…được ngủ   
+
+[LINE]
+Speaker507: Ugh, OK.       
+~           hừm  thôi~được 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+> Bea takes the~painting [off  the~wall]. 
+~ Bea gỡ    bức~tranh     khỏi bức~tường  
+- off  the~sofa 
+~ khỏi ghế~sofa 
++ off  the~wall 
+~ khỏi bức~tường
+- off  the~floor
+~ khỏi sàn~nhà  
+
+[LINE]
+Speaker438: Oh! I   forgot       my~toothbrush.                Can~I~use           yours?     
+~           ối  anh quên…mất~rồi bàn~chải~đánh~răng~(của~anh)  anh~dùng…được~không cái~của~em 
+
+[LINE]
+Speaker507: My~toothbrush?!     No,~definitely~not.    
+~           bàn~chải~của~em~á   tất~nhiên~là~không~rồi 
+
+[LINE]
+Speaker438: Haha,  we're~learning     so~much   about~each~other!
+~           ha~ha  chúng~ta~đang~hiểu rất~nhiều về~nhau          
+
+[LINE]
+Speaker507: Yeah, and I  think you should~stay~at a~hotel.  
+~           ừ     còn em nghĩ  anh nên~ngủ~ở      khách~sạn 
+
+[MULTIPLE_CHOICE]
+> Bea đã nhận ra điều gì khi ở cùng bạn trai?
+- Anh ấy nên dọn đến ở cùng cô ấy.
+- Anh ấy thích những bức tranh ghê rợn.
++ Anh ấy không nên ngủ lại nhà cô ấy.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- it's OK <> được rồi mà
+- together <> cùng nhau
+- morning <> buổi sáng
+- can I sleep <> anh ngủ…được không
+- I'm staying at <> anh sẽ được ở lại
+
