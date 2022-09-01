@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=Noite de pizza
+icon=dcb1760c8fe5f2221fc2e3bc373a13632881ae44
+set=12|4
+
+[HEADER]
+> Noche de pizza
+~ noite de pizza
+
+[LINE]
+Speaker414: ¡Junior! ¿Qué   quieres comer esta noche?
+~            Junior   o~que queres  comer esta noite 
+
+[LINE]
+Speaker415: ¡Pizza! Tengo ocho años… Siempre quiero pizza.
+~            pizza  tenho oito anos  sempre  quero  pizza 
+
+[LINE]
+Speaker414: ¡Perfecto! ¡Podemos hacer pizza!
+~            perfeito   podemos fazer pizza 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker415: ¡O  podemos llamar y [comprar una pizza]!
+~            ou podemos ligar  e  comprar uma pizza  
+- vender el carro
+~ vender o  carro
++ comprar una pizza
+~ comprar uma pizza
+- cantar juntos
+~ cantar juntos
+
+[LINE]
+Speaker414: ¡Pero hacer nuestra pizza es más  divertido!
+~            mas  fazer nossa   pizza é  mais divertido 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker415: ¿[Divertido~para~ti]?
+~             divertido~para~ti  
++ Divertido para ti
+- Invertido para ti
+- Divertidos para mí
+
+[LINE]
+Speaker414: ¡Divertido para nosotros! ¡Padre e hijo! 
+~            divertido para nós        pai   e filho 
+
+[LINE]
+Speaker415: Está bien. ¿Qué   tenemos que hacer?
+~           está bem    o~que temos   que fazer 
+
+[LINE]
+Speaker414: ¡Muy   bien! ¿Puedes buscar harina,  agua y sal?
+~            muito bem    podes  buscar farinha  água e sal 
+
+[LINE]
+Speaker415: Está bien…
+~           está bem  
+
+[LINE]
+Speaker414: Ahora lo~mezclamos todo.
+~           agora misturamos   tudo 
+
+[LINE]
+> Eddy y Junior mezclan  la harina,  el~agua y la~sal.
+~ Eddy e Junior misturam a  farinha  a~água  e o~sal  
+
+[MULTIPLE_CHOICE]
+> Espera… o que o Eddy e o Junior estão misturando?
++ farinha, água e sal
+- tomates, água e óleo
+- sal, manteiga e açúcar
+
+[LINE]
+Speaker415: Esto es muy   difícil y yo tengo     hambre.
+~           isto é  muito difícil e eu estou~com fome   
+
+[LINE]
+Speaker414: Y ahora… tenemos que esperar.
+~           e agora  temos   que esperar 
+
+[LINE]
+Speaker415: ¡¿Tenemos que esperar?!
+~             temos   que esperar  
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "pronta".
+Speaker414: (La) (masa)  no  (está) (+lista). 
+~            a    massa  não  está    pronta  
+
+[LINE]
+Speaker415: ¿Y cuándo va~a estar lista? 
+~            e quando vai  estar pronta 
+
+[LINE]
+Speaker414: En dos  horas.
+~           em duas horas 
+
+[LINE]
+> Junior mira a    Eddy.
+~ Junior olha para Eddy 
+
+[LINE]
+Speaker414: Voy~a comprar una pizza.
+~           vou   comprar uma pizza 
+
+[LINE]
+Speaker415: ¡Eres el mejor  papá del mundo!
+~            és   o  melhor pai  do  mundo 
+
+[MULTIPLE_CHOICE]
+> Por que o Eddy decidiu comprar uma pizza?
+- Ele não tinha os ingredientes certos.
++ Fazer pizza demora muito.
+- O Junior comeu a massa toda.
+
+[MATCH]
+> Toque nos pares
+- quieres <> queres
+- mira <> olha
+- hambre <> fome
+- del <> do
+- Voy a <> vou
+
