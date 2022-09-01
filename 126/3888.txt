@@ -1,0 +1,97 @@
+[DATA]
+fromLanguageName=A minha banda favorita
+icon=8809c44c2194d282a6e1573d25dcac12b6132022
+set=21|1
+
+[HEADER]
+> My        Favourite~Band
+~ (a)~minha banda~favorita
+
+[LINE]
+> Lily and Zari are   in class.
+~ Lily e   Zari estão na aula  
+
+[LINE]
+Speaker418: Hey, Lily? Can~you~help~me     with something?
+~           ei   Lily  você~pode~me~ajudar com  uma~coisa 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker416: [I~don't~know]. What  is~it?
+~            eu~não~sei     o~que é     
++ I don't know
+- I won't know
+- I don't go
+
+[LINE]
+Speaker418: I  can't~come   to   swimming~practice today. Can~you~tell    the  coach     I'm            sick?  
+~           eu não~posso~ir para a~aula~de~natação hoje   você~pode~dizer (a)o treinador (que)~eu~estou doente 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker416: [(You)  (don't) (look)   (sick).]  
+~             você   não     parece   doente   
+
+[LINE]
+Speaker418: Cough, cough! But I  have  a  note     from my  doctor. Look.
+~           cof    cof    mas eu tenho um atestado do   meu médico  olha 
+
+[CONTINUATION]
+> O que vem depois?
+> Zari shows      Lily [the note].    
+~ Zari mostra~(a) Lily  o   atestado  
+- a   painting
+~ uma pintura 
++ the note    
+~ o   atestado
+- her~new~T-shirt     
+~ a~camiseta~nova~dela
+
+[LINE]
+Speaker416: Zari, this is your~handwriting.
+~           Zari  esta é  (a)~sua~letra    
+
+[LINE]
+Speaker418: No,  it's~not!
+~           não  não~é    
+
+[LINE]
+Speaker416: Zari, I  always know when   you're    lying.   
+~           Zari  eu sempre sei  quando você~está mentindo 
+
+[LINE]
+Speaker418: OK,    OK!    I'm~going to   the mall     to~see     my        favorite~band,  The~City~Boys.
+~           certo  certo  eu~vou    para o   shopping (para)~ver (a)~minha banda~favorita  The~City~Boys 
+
+[MULTIPLE_CHOICE]
+> A Zari quer dizer ao treinador que ela está doente, mas na verdade…
++ …ela vai ver uma banda tocar no shopping.
+- …ela vai comprar um vestido novo.
+- …ela só quer dormir um pouco.
+
+[LINE]
+Speaker416: Ugh, no,  I  can't~help       you. 
+~           ugh  não  eu não~posso~ajudar você 
+
+[LINE]
+Speaker418: Yeah, you're    right. Lying  is bad… 
+~           sim   você~está certa  mentir é  ruim 
+
+[LINE]
+Speaker416: No,  I  can't~help       you  because The~City~Boys are a   terrible~band. 
+~           não  eu não~posso~ajudar você porque  The~City~Boys são uma banda~terrível 
+
+[MULTIPLE_CHOICE]
+> A Lily acha que The City Boys é um grupo terrível, então…
+- …ela vai escrever uma carta para reclamar.
+- …ela quer começar uma banda com a Zari.
++ …ela não vai dizer ao treinador que a Zari está doente.
+
+[MATCH]
+> Toque nos pares
+- OK <> certo
+- You <> você
+- Zari <> Zari
+- today <> hoje
+- when <> quando
+
