@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=Der Brief
+icon=1517cbcf4f4e76f1dc8b0687b90969af2c828c4f
+set=21|1
+
+[HEADER]
+> The Letter
+~ der Brief 
+
+[LINE]
+> Zari and Lily walk  past~a~bookstore.         
+~ Zari und Lily gehen an~einem~Buchladen~vorbei 
+
+[LINE]
+Speaker418: Let's~go  inside! I   love  old  books. 
+~           gehen~wir hinein  ich liebe alte Bücher 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker416: [That's~why~we're~friends].  
+~            darum~sind~wir~Freundinnen  
++ That's why we're friends
+- It's why they're friends
+- They try to be friends
+
+[LINE]
+> The girls   go    inside the bookstore.
+~ die Mädchen gehen in     den Buchladen 
+
+[ARRANGE]
+> Was hörst du?
+> [(Zari) (picks~up) (a~book)   (and) (opens~it).] 
+~   Zari   nimmt      ein~Buch   und   öffnet~es   
+
+[LINE]
+Speaker418: Lily! There's an  old   letter inside this   book.
+~           Lily  da~ist  ein alter Brief  in     diesem Buch 
+
+[LINE]
+Speaker416: What does~it~say?
+~           was  steht~darin 
+
+[LINE]
+Speaker418: A   man  named  Joseph is~writing to his   friend,   Gabriela.
+~           ein Mann namens Joseph schreibt   an seine Freundin  Gabriela 
+
+[LINE]
+Speaker418: He wants her   advice.
+~           er will  ihren Rat    
+
+[LINE]
+Speaker416: Why?  
+~           warum 
+
+[LINE]
+Speaker418: He says he loves two  women,  Katherine and Meg.
+~           er sagt er liebt zwei Frauen  Katherine und Meg 
+
+[LINE]
+Speaker418: Katherine is  really   intelligent.
+~           Katherine ist wirklich intelligent 
+
+[LINE]
+Speaker418: But  Meg is  really   funny. 
+~           aber Meg ist wirklich witzig 
+
+[LINE]
+Speaker418: He doesn't~know who~to~marry!        
+~           er weiß~nicht   wen~er~heiraten~soll 
+
+[MULTIPLE_CHOICE]
+> Joseph weiß nicht, …
+- … wie seine Frau heißt.
++ … wen er heiraten soll.
+- … wo der Buchladen ist.
+
+[LINE]
+Speaker416: I   hope  he stayed~single.       
+~           ich hoffe er ist~Single~geblieben 
+
+[LINE]
+Speaker418: Who did his   friend   Gabriela tell   him~to~marry?!     I   need~to~know!  
+~           wen hat seine Freundin Gabriela gesagt soll~er~heiraten   ich muss~es~wissen 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „Besitzerin“.
+> (The) (+owner)      (of~the) bookstore  (comes) to~talk~to~the~girls.       
+~  die    Besitzerin   des     Buchladens  kommt  um~mit~den~Mädchen~zu~reden 
+
+[LINE]
+Speaker3233: Oh, that's  a   wonderful    book!
+~            oh  das~ist ein wundervolles Buch 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker3233: It belonged~to~my~husband. [He~died~last~year].            
+~            es hat~meinem~Mann~gehört   er~ist~letztes~Jahr~gestorben  
+- He tried a year
++ He died last year
+- He cried every year
+
+[LINE]
+Speaker418: Oh, I'm~sorry.       
+~           oh  das~tut~mir~leid 
+
+[LINE]
+Speaker416: Was your~husband's~name   Joseph?
+~           war der~Name~Ihres~Mannes Joseph 
+
+[LINE]
+Speaker3233: Yes!
+~            ja  
+
+[LINE]
+Speaker418: Wow! Is  your name Katherine or   Meg?
+~           wow  ist Ihr  Name Katherine oder Meg 
+
+[LINE]
+> The woman smiles. 
+~ die Frau  lächelt 
+
+[LINE]
+Speaker3233: My   name is  Gabriela.
+~            mein Name ist Gabriela 
+
+[MULTIPLE_CHOICE]
+> Wen hat Joseph geheiratet?
+- Alle drei Frauen.
+- Er hat nie geheiratet.
++ Seine Freundin Gabriela.
+
+[MATCH]
+> Wähle die Paare
+- or <> oder
+- But <> aber
+- stayed single <> ist Single geblieben
+- owner <> Besitzerin
+- does it say <> steht darin
+
