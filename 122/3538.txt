@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=Zeit für eine Veränderung
+icon=a2ac5b4bdad2cf4c70c2d3a4f3ff8e0ade6aba2d
+set=26|1
+
+[HEADER]
+> Time for a    Change     
+~ Zeit für eine Veränderung
+
+[LINE]
+> Lin brings a     big    blue   chair into Lucy's apartment.
+~ Lin bringt einen großen blauen Stuhl in   Lucys  Wohnung   
+
+[LINE]
+Speaker508: Look~at~the~new~chair        I         found         for the~living~room!
+~           schau~dir~den~neuen~Stuhl~an (den)~ich gefunden~habe für das~Wohnzimmer  
+
+[LINE]
+Speaker509: I   can't      believe you       actually paid~money~for~that!    
+~           ich kann~nicht glauben (dass)~du wirklich Geld~dafür~bezahlt~hast 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker509: [How~much~did~it~cost]?    
+~            wie~viel~hat~er~gekostet  
+- How much he lost
+- Have such a cost
++ How much did it cost
+
+[LINE]
+Speaker508: It was free!      I   found~it~outside,          in~front~of the blue   house.
+~           er war kostenlos  ich habe~ihn~draußen~gefunden  vor         dem blauen Haus  
+
+[LINE]
+Speaker508: I   think  the woman who lived~there     died…          but  it's   a   free        chair!
+~           ich glaube die Frau  die dort~gelebt~hat ist~gestorben  aber es~ist ein kostenloser Stuhl 
+
+[LINE]
+Speaker509: You aren't~going~to~keep~it  in our     living~room, are~you?
+~           du  wirst~ihn~nicht~behalten in unserem Wohnzimmer   oder    
+
+[MULTIPLE_CHOICE]
+> Lucy …
+- … zieht in eine andere Wohnung.
+- … mag den Stuhl wirklich sehr.
++ … mag den Stuhl anscheinend nicht.
+
+[LINE]
+Speaker508: I   knew   you were~going to~hate~it.
+~           ich wusste du  würdest    ihn~hassen 
+
+[ARRANGE]
+> Was hörst du?
+Speaker509: [(It) (won't)      (look~nice)    (with) (our~curtains)…]     
+~             er   wird~nicht   gut~aussehen   mit    unseren~Vorhängen   
+
+[LINE]
+Speaker509: But  I   suppose  we  can    buy~new~curtains.    
+~           aber ich nehme~an wir können neue~Vorhänge~kaufen 
+
+[LINE]
+Speaker508: Hey! I   like our    curtains…
+~           hey  ich mag  unsere Vorhänge 
+
+[LINE]
+Speaker509: But  if   we  buy~new~curtains,     then we'll~need to~buy~new~pillows~too… 
+~           aber wenn wir neue~Vorhänge~kaufen  dann müssen~wir auch~neue~Kissen~kaufen 
+
+[LINE]
+Speaker508: I   like the pillows we        have~now…   
+~           ich mag  die Kissen  (die)~wir jetzt~haben 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker509: Ooh! Now   I'm~going~to [buy~new~lamps]      too! 
+~           ooh  jetzt werde~ich     neue~Lampen~kaufen  auch 
+- buy new legs
++ buy new lamps
+- but now lamps
+
+[ARRANGE]
+> Was hörst du?
+Speaker509: [(This)   (room)   (is~going) (to~be~beautiful)!] 
+~             dieses   Zimmer   wird       wunderschön~sein   
+
+[LINE]
+Speaker508: I   like how the room   looks~now.     
+~           ich mag  wie das Zimmer jetzt~aussieht 
+
+[LINE]
+Speaker509: Too~bad!     I'm~going to~change~the~room~now!  I'm     excited!  
+~           Pech~gehabt  ich~werde das~Zimmer~jetzt~ändern  ich~bin aufgeregt 
+
+[LINE]
+Speaker508: We're~going to~have~to~buy~all~new~things…     
+~           wir~werden  komplett~neue~Sachen~kaufen~müssen 
+
+[LINE]
+Speaker509: That's  OK, the chair was free…      remember?         
+~           das~ist OK  der Stuhl war kostenlos  erinnerst~du~dich 
+
+[MULTIPLE_CHOICE]
+> Warum möchte Lucy neue Möbel kaufen?
+- Die alten Möbel stinken.
+- Sie hat keine Möbel in ihrer Wohnung.
++ Keine ihrer alten Möbel passen zu dem neuen Stuhl.
+
+[MATCH]
+> Wähle die Paare
+- apartment <> Wohnung
+- I <> ich
+- I'm going <> ich werde
+- the <> dem
+- died <> ist gestorben
+
