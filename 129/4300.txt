@@ -1,0 +1,108 @@
+[DATA]
+fromLanguageName=Müzede
+icon=86b7c49cff833ae55ebdce7743ae422307168a8e
+set=2|1
+
+[HEADER]
+> In~the~Museum
+~ müzede       
+
+[LINE]
+> Erin is   in  a   museum with her~grandfather.
+~ ~    -dir -de bir müze   ile  büyükbabası     
+
+[LINE]
+Speaker1320: The~photos~here      are very interesting!
+~            buradaki~fotoğraflar ~   çok  ilginç      
+
+[LINE]
+Speaker2474: Yes,  they  are photos       of~Pittsburgh.
+~            Evet  onlar ~   fotoğrafları Pittsburgh'un 
+
+[LINE]
+Speaker1320: But   there~are~no cars…    
+~            Fakat yok          arabalar 
+
+[MULTIPLE_CHOICE]
+> Eski fotoğraflarda araba yok.
++ Evet, doğru.
+- Hayır, yanlış.
+
+[LINE]
+Speaker2474: Yes,  the~photos  are very old. 
+~            Evet  fotoğraflar ~   çok  eski 
+
+[LINE]
+Speaker1320: Here is a   photo    of~students  from a   university.
+~            işte ~  bir Fotoğraf öğrencilerin -den bir Üniversite 
+
+[LINE]
+Speaker2474: Yes,  it is the~University~of~Pittsburgh.
+~            Evet  o  ~  Pittsburgh~Üniversitesi      
+
+[CONTINUATION]
+> Cümlenin sonu nedir?
+Speaker2474: The students   are from the~School~of~Medicinee].
+~            ~   öğrenciler ~   -den tıp~fakültesi            
+- children
++ School~of~Medicine
+~ Tıp~fakültesi     
+- intelligent
+
+[LINE]
+Speaker1320: There~is a   woman in  the photo!   
+~            var      bir Kadın -ta ~   Fotoğraf 
+
+[LINE]
+Speaker1320: Only   one woman…
+~            sadece bir Kadın 
+
+[MULTIPLE_CHOICE]
+> Erin diyor ki ...
+- … Fotoğrafta sadece bir kadını tanıyor.
++ … Fotoğrafta sadece bir kadın var.
+- … Fotoğrafta beş kadın var.
+
+[POINT_TO_PHRASE]
+> "Bakar" anlamına gelen seçeneği seçin.
+> (Erin's)  (grandfather) (+looks~at) (the~photo). He does~not~speak.
+~  Erin'in   büyükbabası    bakar      fotoğrafa   O  konuşmaz       
+
+[LINE]
+Speaker1320: Grandpa?  
+~            Büyükbaba 
+
+[LINE]
+Speaker2474: She is beautiful…
+~            O   ~  güzel     
+
+[LINE]
+Speaker1320: Yes,  very beautiful.
+~            Evet  çok  güzel     
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker2474: [(She) (is) (my~grandmother).]
+~              O     ~    büyükannem       
+
+[LINE]
+Speaker1320: Wow!
+
+[LINE]
+Speaker1320: I     have a   very interesting family!
+~            benim var  bir çok  ilginç      ailem  
+
+[MULTIPLE_CHOICE]
+> Hikayede ne oldu?
+- Erin, müzede büyükbabasının bir fotoğrafını gördü.
++ Erin'in büyükbabası müzede büyükannesinin bir fotoğrafını gördü.
+- Erin, müze ziyaretinden hoşlanmadı.
+
+[MATCH]
+> Çiftlere dokun
+- of Pittsburgh <> Pittsburgh'un
+- Only <> sadece
+- The photos here <> buradaki fotoğraflar
+- my grandmother <> büyükannem
+- beautiful <> güzel
+
