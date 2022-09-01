@@ -1,0 +1,151 @@
+[DATA]
+fromLanguageName=O grande jogo
+icon=170e9caad206d87350e17e32c18226edefea8131
+set=13|1
+
+[HEADER]
+> El gran   partido
+~ o  grande jogo   
+
+[LINE]
+> Bea llega a~la casa de Julio.
+~ Bea chega à    casa de Julio 
+
+[LINE]
+Speaker507: ¿Estás listo? 
+~            estás pronto 
+
+[LINE]
+Speaker507: ¡Este es el partido más  emocionante del año!
+~            este é  o  jogo    mais emocionante do  ano 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker507: ¡Y [tenemos~entradas] para ir!
+~            e  temos~ingressos   para ir 
+- tenemos extrañas
++ tenemos entradas
+- debemos entradas
+
+[LINE]
+Speaker295: Bea…
+~           Bea 
+
+[LINE]
+Speaker295: No  puedo ir al partido.
+~           não posso ir ao jogo    
+
+[LINE]
+Speaker507: ¿Por qué?
+~            por quê 
+
+[LINE]
+Speaker295: Tengo que estudiar.
+~           tenho que estudar  
+
+[LINE]
+Speaker295: Tengo un~examen muy   importante mañana.
+~           tenho uma~prova muito importante amanhã 
+
+[LINE]
+Speaker295: Necesito aprobar el~examen para ir a    la facultad  de medicina.
+~           preciso  passar  na~prova  para ir para a  faculdade de medicina 
+
+[MULTIPLE_CHOICE]
+> Por que o Julio não pode ir ao jogo?
+- Ele precisa ir ao médico.
+- Ele perdeu a camiseta da sorte dele.
++ Ele precisa estudar para uma prova importante.
+
+[LINE]
+Speaker295: Lo~siento…  
+~           sinto~muito 
+
+[LINE]
+> Bea pone su~cartera   sobre la mesa.
+~ Bea põe  a~bolsa~dela sobre a  mesa 
+
+[MULTIPLE_CHOICE]
+> Em outras palavras, a Bea…
+- …veste o casaco dela.
++ …coloca a bolsa dela na mesa.
+- …rouba o casaco do Julio.
+
+[LINE]
+Speaker507: Está bien, Julio, ¿tienes café?
+~           está bem   Julio   tens   café 
+
+[LINE]
+Speaker295: ¿Por qué?
+~            por quê 
+
+[LINE]
+Speaker507: Bueno, no  quiero estar cansada.
+~           bom    não quero  ficar cansada 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker507: Vamos~a estudiar [toda~la~noche].
+~           vamos   estudar   a~noite~toda   
+- las~entradas
+~ os~ingressos
+- una pelota
+~ uma bola  
++ toda~la~noche
+~ a~noite~toda 
+
+[LINE]
+Speaker295: Pero…
+~           mas  
+
+[LINE]
+Speaker507: Tú siempre me ayudas.
+~           tu sempre  me ajudas 
+
+[LINE]
+Speaker507: Y yo voy~a ayudarte  ahora.
+~           e eu vou   te~ajudar agora 
+
+[LINE]
+Speaker295: Pero es el partido más  emocionante del año…
+~           mas  é  o  jogo    mais emocionante do  ano 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker507: [(Tú) (eres) (más~importante)  (que) (un~partido).]
+~             tu   és     mais~importante   que   um~jogo      
+
+[LINE]
+Speaker507: Vas~a aprobar este~examen. ¡Lo~sé!       
+~           vais  passar  nesta~prova   eu~sei~disso 
+
+[LINE]
+Speaker507: Y algún día vas~a ser médico…
+~           e algum dia vais  ser médico 
+
+[LINE]
+Speaker507: …así~que siempre vas~a pagar las~entradas para todos los partidos, ¿verdad?
+~            então   sempre  vais  pagar os~ingressos para todos os  jogos      não~é  
+
+[LINE]
+Speaker295: Por~supuesto. Gracias,  Bea.
+~           claro         obrigado  Bea 
+
+[LINE]
+Speaker507: Y… ¿dónde está mi  café?
+~           e   onde  está meu café 
+
+[MULTIPLE_CHOICE]
+> A Bea decidiu…
+- …convidar um amigo diferente para o jogo.
+- …se candidatar para a escola de medicina.
++ …não ir ao jogo, e ajudar o Julio a estudar.
+
+[MATCH]
+> Toque nos pares
+- listo <> pronto
+- un partido <> um jogo
+- el examen <> na prova
+- café <> café
+- Necesito <> preciso
+
