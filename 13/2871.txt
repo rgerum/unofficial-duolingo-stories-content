@@ -1,0 +1,128 @@
+[DATA]
+fromLanguageName=You're Getting Older
+icon=4b810ac5ac1d241fb2380e6785db12c40b5c0508
+set=23|2
+
+[HEADER]
+> Tu  vieillis         
+~ you are~getting~older
+
+[LINE]
+> Béa est à  la  salle~de~sport avec son~ami,    Eddy.
+~ Béa is  at the gym            with her~friend  Eddy 
+
+[LINE]
+> Elle commence ses exercices, mais son~genou fait  un bruit~bizarre.
+~ she  starts   her exercises  but  her~knee  makes a  strange~noise 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: [C'était~quoi]  ?!
+~            what~was~that    
+- Sauter quoi
+- C'est ta croix
++ C'était quoi
+
+[LINE]
+Speaker414: Béa ?! Ça~va      ?
+~           Béa    are~you~OK  
+
+[LINE]
+Speaker507: Mon~genou vient~de~faire un bruit~bizarre !
+~           my~knee   just~made      a  strange~noise  
+
+[LINE]
+Speaker414: C'est  parce~que tu  vieillis.         
+~           that's because   you are~getting~older 
+
+[LINE]
+Speaker507: Eddy, j'ai~moins~de~trente~ans       !
+~           Eddy  I'm~less~than~thirty~years~old  
+
+[MULTIPLE_CHOICE]
+> Béa thinks she's…
+- …too old to exercise.
+- …too strong to exercise with Eddy.
++ …too young to have knee problems.
+
+[POINT_TO_PHRASE]
+> Choose the option that means "to strengthen."
+Speaker414: (Tout~va~bien)      ! Je vais     (te~montrer)  des  (exercices) pour (+renforcer)       tes  genoux.
+~            everything's~fine    I  am~going  to~show~you  some  exercises  to     (to)~strengthen  your knees  
+
+[LINE]
+> Eddy lui~montre un~exercice.
+~ Eddy shows~her  an~exercise 
+
+[LINE]
+Speaker507: Super   ! Mais maintenant j'ai~mal~au~dos...
+~           awesome   but  now        my~back~hurts     
+
+[CONTINUATION]
+> What comes next?
+Speaker414: C'est  aussi parce~que [tu  vieillis].         
+~           that's also  because    you are~getting~older  
++ tu  vieillis         
+~ you are~getting~older
+- la~glace      est délicieuse
+~ the~ice~cream is  delicious 
+- tu  es  trop jeune
+~ you are too  young
+
+[LINE]
+Speaker507: Quoi ? Vraiment ?
+~           what   really    
+
+[LINE]
+Speaker414: Ça~va~aller ! Je vais     te~montrer  un~exercice pour ton~dos.  
+~           it'll~be~OK   I  am~going to~show~you an~exercise for  your~back 
+
+[LINE]
+> Eddy lui~montre un~autre exercice.
+~ Eddy shows~her  another  exercise 
+
+[LINE]
+Speaker507: Merci,     Eddy !
+~           thank~you  Eddy  
+
+[MULTIPLE_CHOICE]
+> Did you catch that? Béa thanked Eddy because...
+- ...he is making weird noises.
+- ...he is giving her medicine for her back.
++ ...he is showing her exercises to get stronger.
+
+[LINE]
+Speaker414: Pas~de~problème !
+~           no~problem       
+
+[ARRANGE]
+> Tap what you hear
+Speaker507: [(Tu~peux) (me~montrer~l'exercice)     (pour~les~genoux) (encore~une~fois) ]?
+~             can~you   (to)~show~me~the~exercice   for~the~knees     one~more~time      
+
+[LINE]
+Speaker414: Tu  ne~t'en~souviens~pas ? Je viens~de~te~le~montrer.
+~           you don't~remember~it      I  just~showed~it~to~you  
+
+[LINE]
+Speaker507: J'ai~oublié… Tu~crois     que  c'est  aussi parce~que je vieillis         ?
+~           I~forgot     do~you~think that that's also  because   I  am~getting~older  
+
+[LINE]
+Speaker414: Peut-être, mais je ne~connais~aucun~exercice pour renforcer       ton~cerveau.
+~           maybe      but  I  don't~know~any~exercises  to   (to)~strengthen your~brain  
+
+[MULTIPLE_CHOICE]
+> Why does Eddy think Béa might need brain exercises?
+- Eddy is starting a gym for brains.
+- She keeps hearing weird noises.
++ She already forgot what Eddy showed her.
+
+[MATCH]
+> Tap the pairs
+- Tout va bien <> everything's fine
+- son genou <> her knee
+- exercice <> exercise
+- Mon genou <> my knee
+- pour <> to
+
