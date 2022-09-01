@@ -1,0 +1,114 @@
+[DATA]
+fromLanguageName=Un brutto dipinto
+icon=12547a4c20bef9c66913ef1a725b6fd4f0c544ea
+set=7|2
+
+[HEADER]
+> Bad       Painting
+~ un~brutto dipinto 
+
+[LINE]
+> Oscar and his    friend, Lucy, are~sitting in~the~park.
+~ Oscar e   la~sua amica   Lucy  sono~seduti al~parco    
+
+[LINE]
+> Oscar is~painting    Lucy.
+~ Oscar sta~dipingendo Lucy 
+
+[LINE]
+Speaker592: OK, you~can~look~at    the painting now!    Do~you~like~it?
+~           OK  (tu)~puoi~guardare il  dipinto  adesso  ti~piace       
+
+[LINE]
+> Oscar shows    Lucy the painting.
+~ Oscar mostra~a Lucy il  dipinto  
+
+[MULTIPLE_CHOICE]
+> Oscar mostra a Lucy la foto di un pesce.
++ No, è sbagliato.
+- Sì, è giusto.
+
+[LINE]
+Speaker509: Why    is~my~hair~blue         in~the painting?
+~           perché i~miei~capelli~sono~blu nel    dipinto  
+
+[LINE]
+Speaker592: I~have  a~lot~of blue~paint. 
+~           (io)~ho molta    pittura~blu 
+
+[LINE]
+Speaker509: And why    is~my~head     so   big?   
+~           e   perché la~mia~testa~è così grande 
+
+[LINE]
+Speaker592: I~don't~know.   Ask         your    parents. 
+~           (io)~non~lo~so  (tu)~chiedi ai~tuoi genitori 
+
+[MULTIPLE_CHOICE]
+> Oscar dice a Lucy di…
+- … fargli un dipinto.
+- … tingersi i capelli di blu.
++ … chiedere ai genitori perché ha la testa così grande.
+
+[LINE]
+Speaker509: My     nose doesn't~look~like~that.
+~           il~mio naso non~è~così             
+
+[LINE]
+Speaker592: Yes, it~does! You~have a  nice nose!
+~           sì   lo~è     (tu)~hai un bel  naso 
+
+[ARRANGE]
+> Seleziona ciò che senti
+Speaker509: [(Yes), (I~do~have)       (a)  (nice) (nose).]
+~             sì     (io)~ho~davvero   un   bel    naso   
+
+[LINE]
+Speaker509: But it~doesn't~look nice  in~the painting.
+~           ma  non~è           bello nel    dipinto  
+
+[LINE]
+Speaker592: Do~you~want the painting or not?
+~           (tu)~vuoi   il  dipinto  o  no  
+
+[LINE]
+Speaker509: Sorry, but no, I~don't~want~it.   
+~           scusa  ma  no  (io)~non~lo~voglio 
+
+[LINE]
+> A  man  stops    and looks~at the painting.
+~ un uomo si~ferma e   guarda   il  dipinto  
+
+[CONTINUATION]
+> Come continua la frase?
+Speaker438: That's     really  good!  Can~I~buy~it         for one~hundred [dollars]?
+~           (quello)~è davvero bello  (io)~posso~comprarlo per cento        dollari  
+- noses
+~ nasi 
++ dollars
+~ dollari
+- paintings
+~ dipinti  
+
+[LINE]
+> Lucy takes  the painting.
+~ Lucy prende il  dipinto  
+
+[LINE]
+Speaker509: It's my     painting, and it's~two~hundred dollars.
+~           è    il~mio dipinto   e   costa~duecento   dollari 
+
+[MULTIPLE_CHOICE]
+> Lucy ha deciso di…
+- … comprare il dipinto per 200 dollari.
+- … regalare il dipinto.
++ … vendere il dipinto.
+
+[MATCH]
+> Tocca le coppie
+- Ask <> chiedi
+- stops <> si ferma
+- looks at <> guarda
+- a <> un
+- in the <> nel
+
