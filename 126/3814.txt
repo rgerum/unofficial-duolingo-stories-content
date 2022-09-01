@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=Lua de mel
+icon=7e5d271488d31d6f1d0c503512e642ca7effe84f
+set=2|3
+
+[HEADER]
+> Honeymoon 
+~ lua~de~mel
+
+[LINE]
+> Shelly is   in a  taxi.
+~ Shelly está em um táxi 
+
+[LINE]
+Speaker113: Good~morning.
+~           bom~dia      
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker342: Hello, I  need    to~go [to~the~airport],   please.   
+~           olá    eu preciso ir     para~o~aeroporto   por~favor 
+- to their port
+- two of the pork
++ to the airport
+
+[LINE]
+Speaker113: OK.   
+~           certo 
+
+[LINE]
+Speaker113: Vacation?
+~           férias   
+
+[LINE]
+Speaker342: No… 
+~           não 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker342: [(I)  (have)  (a~ticket)     (to)   (California).]  
+~             eu   tenho   uma~passagem   para   a~Califórnia   
+
+[LINE]
+Speaker342: Well… two  tickets.  
+~           bem   duas passagens 
+
+[LINE]
+Speaker113: California   is very  nice! 
+~           a~Califórnia é  muito legal 
+
+[LINE]
+Speaker342: It's my    honeymoon… 
+~           é    minha lua~de~mel 
+
+[MULTIPLE_CHOICE]
+> Por que a Shelly vai para a Califórnia?
+- Ela está aprendendo a surfar.
+- Ela vai se casar lá.
++ Ela está indo em lua de mel.
+
+[LINE]
+Speaker113: Where is   your husband?
+~           onde  está seu  marido  
+
+[LINE]
+Speaker342: I  don't~have a  husband. I  have  a   very~difficult~wife! 
+~           eu não~tenho  um marido   eu tenho uma esposa~muito~difícil 
+
+[LINE]
+Speaker342: She does~not~want to~go to   California   with~me.
+~           ela não~quer      ir    para a~Califórnia comigo  
+
+[MULTIPLE_CHOICE]
+> Ah, não! A esposa da Shelly…
++ …não quer ir para a Califórnia com ela.
+- …já está na Califórnia.
+- …esqueceu de trazer protetor solar.
+
+[LINE]
+Speaker342: I'm      very  sad.   
+~           eu~estou muito triste 
+
+[LINE]
+Speaker113: I'm~sorry.     
+~           eu~sinto~muito 
+
+[LINE]
+Speaker113: Ahem!    OK…    we  are     at~the airport.  
+~           hum-hum  certo  nós estamos no     aeroporto 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "corre".
+> A   (woman)  (+runs)  (to~the) (taxi).
+~ uma  mulher    corre   até~o    táxi  
+
+[LINE]
+Speaker342: Anna?
+~           Anna 
+
+[LINE]
+Speaker343: Shelly!
+~           Shelly 
+
+[LINE]
+Speaker343: I'm~very~sorry!
+~           eu~sinto~muito 
+
+[LINE]
+Speaker343: I  love you. 
+~           eu amo  você 
+
+[LINE]
+Speaker342: I  love you  too.   
+~           eu amo  você também 
+
+[LINE]
+Speaker343: I  want  to~go to   California   with you! 
+~           eu quero ir    para a~Califórnia com  você 
+
+[LINE]
+Speaker113: Have   a   nice honeymoon! 
+~           tenham uma boa  lua~de~mel 
+
+[MULTIPLE_CHOICE]
+> O que vai acontecer agora?
+- A Shelly e o motorista do táxi vão para a Califórnia juntos.
+- A Shelly vai começar a trabalhar no aeroporto.
++ A Shelly e a esposa dela, a Anna, vão para a Califórnia juntas.
+
+[MATCH]
+> Toque nos pares
+- two <> duas
+- It's <> é
+- Well <> bem
+- don't have <> não tenho
+- in <> em
+
