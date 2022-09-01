@@ -1,0 +1,104 @@
+[DATA]
+fromLanguageName=Lucie y los dinosaurios
+icon=f6ce899637bb8181ee5e78382fdf71a0f01e4f95
+set=8|1
+
+[HEADER]
+> Lucie et les dinosaures 
+~ Lucie y  los dinosaurios
+
+[LINE]
+> Lucie ouvre la porte  de son appartement.
+~ Lucie abre  la puerta de su  apartamento 
+
+[LINE]
+Speaker509: Salut, Junior !
+~           hola   Junior  
+
+[LINE]
+Speaker415: Salut ! Tu peux   m'aider  avec mes~devoirs ?
+~           hola    tú puedes ayudarme con  mi~tarea     
+
+[MULTIPLE_CHOICE]
+> Junior quiere que Lucie lo ayude con su tarea.
+- No, no es así.
++ Sí, así es.
+
+[LINE]
+Speaker509: Ah, oui !
+~           ah  sí   
+
+[LINE]
+Speaker509: J'écris    très bien et j'ai     un super~blog     !
+~           yo~escribo muy  bien y  yo~tengo un blog~estupendo  
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker509: [(Tu) (lis)  (mon) (blog) ]?
+~             tú   lees   mi    blog    
+
+[LINE]
+Speaker415: Euh… non.
+~           eh   no  
+
+[LINE]
+Speaker509: J'ai     beaucoup~de livres.
+~           yo~tengo muchos      libros 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker509: [Tu~as~besoin~de] mes livres pour tes~devoirs ?
+~            tú~necesitas     mis libros para tu~tarea     
+- Dans le coin de
+- J'ai raison de
++ Tu as besoin de
+
+[LINE]
+Speaker415: Non, je n'ai~pas~besoin~de tes livres.
+~           no   yo no~necesito        tus libros 
+
+[LINE]
+Speaker509: C'est~sur~quoi tes~devoirs ?
+~           sobre~qué~es   tu~tarea     
+
+[LINE]
+Speaker415: Sur   les dinosaures. 
+~           sobre los dinosaurios 
+
+[MULTIPLE_CHOICE]
+> ¿De qué se trata la tarea de Junior?
+- redes sociales
+- literatura francesa
++ dinosaurios
+
+[LINE]
+Speaker509: Et pourquoi tu~as~besoin~de mon aide  ?
+~           y  por~qué  necesitas       mi  ayuda  
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "porque".
+Speaker415: (+Parce~que) (tu) (es)   (vieille).
+~             porque      tú   eres   vieja    
+
+[LINE]
+Speaker415: Tu dois     connaître beaucoup~de dinosaures. 
+~           tú debes~de conocer   muchos      dinosaurios 
+
+[LINE]
+Speaker509: Au~revoir, Junior.
+~           adiós      Junior 
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Junior creía que Lucie conocía dinosaurios?
++ Ella es mayor que él.
+- Ella escribe un blog sobre dinosaurios.
+- Ella solía tener un dinosaurio mascota.
+
+[MATCH]
+> Selecciona los pares
+- aide <> ayuda
+- j'ai <> yo tengo
+- connaître <> conocer
+- Tu as besoin de <> tú necesitas
+- de <> de
+
