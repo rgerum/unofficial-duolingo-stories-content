@@ -1,0 +1,151 @@
+[DATA]
+fromLanguageName=Horoscopes Are Nonsense
+icon=10523c977de263efd9025298f59cc9e2f702d3f1
+set=23|2
+
+[HEADER]
+> Horoskope  sind Quatsch 
+~ horoscopes are  nonsense
+
+[LINE]
+> Eddy und Bea sitzen      im~Café.            Bea liest      die Zeitung.  
+~ Eddy and Bea are~sitting in~the~coffee~shop  Bea is~reading the newspaper 
+
+[LINE]
+Speaker507: Interessant ...
+~           interesting    
+
+[LINE]
+Speaker414: Was  ist interessant?
+~           what is  interesting 
+
+[LINE]
+Speaker507: Ich lese       gerade    mein Horoskop. 
+~           I   am~reading right~now my   horoscope 
+
+[LINE]
+Speaker507: Heute werde~ich einem~guten~Freund~helfen.
+~           today I~will    help~a~good~friend        
+
+[LINE]
+Speaker414: Horoskope  sind Quatsch,  Bea!
+~           horoscopes are  nonsense  Bea 
+
+[LINE]
+Speaker414: Eine Zeitung   kann~nicht deine~Zukunft~kennen.
+~           a    newspaper can't      know~your~future     
+
+[MULTIPLE_CHOICE]
+> Eddy thinks horoscopes can tell you the future.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker507: Ich lese täglich   mein Horoskop! 
+~           I   read every~day my   horoscope 
+
+[LINE]
+Speaker507: Die Zeitung   hat meistens recht!
+~           the newspaper is  usually  right 
+
+[LINE]
+Speaker414: OK … Was  sagt~mein~Horoskop?   
+~           OK   what does~my~horoscope~say 
+
+[LINE]
+Speaker507: Moment!
+~           wait   
+
+[POINT_TO_PHRASE]
+>  Choose the option that means "spills."
+> Bea gibt  Eddy die (Zeitung).   Sie (+verschüttet) (seinen) (Kaffee).
+~ Bea gives Eddy the  newspaper   she   spills        his      coffee  
+
+[LINE]
+Speaker507: Oh nein! Jetzt hast~du  Kaffee auf deinem Hemd! 
+~           oh no    now   you~have coffee on  your   shirt 
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Ich~habe)   (in~zehn~Minuten) (einen) (wichtigen) (Termin)!]     
+~             I'm~having   in~ten~minutes    an      important   appointment   
+
+[LINE]
+Speaker507: Mach~dir~keine~Sorgen!
+~           don't~worry           
+
+[LINE]
+Speaker507: Ich habe einen sauberen Pullover in meinem Rucksack.
+~           I   have a     clean    sweater  in my     backpack 
+
+[LINE]
+> Bea gibt  Eddy den Pullover.
+~ Bea gives Eddy the sweater  
+
+[MULTIPLE_CHOICE]
+> Wait… Why does Bea give Eddy her sweater?
+- Eddy feels really cold today.
++ She spilled coffee on his shirt.
+- The color matches Eddy's eyes.
+
+[CONTINUATION]
+> What comes next?
+Speaker414: Nein Bea, das  ist [dein Lieblingspullover]!
+~           no   Bea  that is   your favorite~sweater   
+- ein altes Bettlaken
+~ an  old   bed~sheet
+- der Mantel von einem Clown
+~ the coat   of  a     clown
++ dein Lieblingspullover
+~ your favorite~sweater 
+
+[LINE]
+Speaker507: Hm, wann ist dein Geburtstag?
+~           hm  when is  your birthday   
+
+[LINE]
+Speaker414: Am     vierten   Oktober.
+~           on~the fourth~of October 
+
+[LINE]
+Speaker507: Also bist~du Waage.    
+~           so   you~are (a)~Libra 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: [Horoskope~sind~Quatsch],  Bea!
+~            horoscopes~are~nonsense   Bea 
++ Horoskope sind Quatsch
+- Horoskope sind deutsch
+- Horrorfilme sind Quatsch
+
+[LINE]
+Speaker507: Ja?  Dann höre~zu.
+~           yes  then listen  
+
+[LINE]
+Speaker507: Dein Horoskop  sagt:
+~           your horoscope says 
+
+[LINE]
+Speaker507: „Dein Tag wird    ein guter Tag, wenn du  Hilfe~von~einer~Freundin~annimmst|.”
+~            your day will~be a   good  day  if   you accept~help~from~a~friend         ~ 
+
+[LINE]
+Speaker414: OK, Bea. Ich trage     deinen Pullover.
+~           OK  Bea  I   will~wear your   sweater  
+
+[MULTIPLE_CHOICE]
+> Bea thinks that Eddy's horoscope means…
++ …he should wear her sweater. 
+- …he should stop drinking coffee.
+- …he's going to have a terrible day.
+
+[MATCH]
+> Tap the pairs
+- trage <> will wear
+- gibt <> gives
+- Eddy <> Eddy
+- Heute <> today
+- Pullover <> sweater
+
