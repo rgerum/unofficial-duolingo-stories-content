@@ -1,0 +1,94 @@
+[DATA]
+fromLanguageName=Sempre atrasada
+icon=a62bcc657853c02d336da2c3899591f7a148634c
+set=14|1
+
+[HEADER]
+> Always Late    
+~ sempre atrasada
+
+[LINE]
+> Lin and Lucy are~watching       TV.
+~ Lin e   Lucy estão~assistindo~à TV 
+
+[LINE]
+Speaker509: Oh, it's~six~thirty!
+~           ah  são~seis~e~meia 
+
+[LINE]
+Speaker508: Oh no!  Bea's~birthday~party          is in half~an~hour!
+~           ah não  a~festa~de~aniversário~da~Bea é  em meia~hora    
+
+[LINE]
+Speaker508: I  can't~be~late!       
+~           eu não~posso~me~atrasar 
+
+[MULTIPLE_CHOICE]
+> A festa de aniversário da Bea vai começar muito em breve.
+- Não, não é verdade.
++ Sim, isso mesmo.
+
+[LINE]
+> Lin runs  to   the bus~stop.        
+~ Lin corre para a   parada~de~ônibus 
+
+[ARRANGE]
+> Toque no que escutar
+> [(She) (sees) (the) (bus)    (leaving).]
+~   ela   vê     o     ônibus   saindo    
+
+[LINE]
+Speaker508: Noooo! That's my  bus!   
+~           não    esse~é meu ônibus 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker508: Ugh,  I  need    to~call [a~taxi~now].   
+~           afff  eu preciso chamar   um~táxi~agora  
++ a taxi now
+- a taxi cow
+- and ask me how
+
+[LINE]
+> Lin's~phone       doesn't~work.
+~ o~telefone~da~Lin não~funciona 
+
+[LINE]
+Speaker508: Oh no!  The battery!
+~           ah não  a   bateria 
+
+[LINE]
+> Lin runs  to   the restaurant.  She sees Bea.
+~ Lin corre para o   restaurante  ela vê   Bea 
+
+[LINE]
+Speaker508: Bea! I'm~on~time!       
+~           Bea  eu~cheguei~a~tempo 
+
+[LINE]
+Speaker508: Wait,   where are   all   the people?  It's~seven~o'clock!
+~           espera  onde  estão todas as  pessoas  são~sete~horas     
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "convite".
+Speaker507: Your (+invitation) says seven p.m.|     (because) (you're)    (always) late.    
+~           seu    convite     diz  sete  da~noite   porque    você~está   sempre  atrasada 
+
+[LINE]
+Speaker507: My    party starts at eight p.m.    
+~           minha festa começa às oito  da~noite
+
+[MULTIPLE_CHOICE]
+> A Lin se apressou para chegar na hora na festa da Bea, mas…
+- …a festa foi cancelada.
+- …ela estava uma hora atrasada mesmo assim.
++ …na verdade ela chegou uma hora mais cedo.
+
+[MATCH]
+> Toque nos pares
+- Bea <> Bea
+- I <> eu
+- is <> é
+- and <> e
+- invitation <> convite
+
