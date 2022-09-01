@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=I Really Want a Dog
+icon=f0d8a8f3340da1d468766192cafa7ac1ee986355
+set=10|2
+
+[HEADER]
+> Je veux un~chien
+~ I  want a~dog   
+
+[LINE]
+Speaker415: Papa ! Papa !
+~           Dad    Dad   
+
+[LINE]
+Speaker414: Oui, Junior ?
+~           yes  Junior  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: [Je~veux~un~chien] !
+~            I~want~a~dog       
+- Je veux le canadien
++ Je veux un chien
+- Je vends un chien
+
+[LINE]
+Speaker414: Un~chien ? C'est  beaucoup de travail.
+~           a~dog      that's a~lot    of work    
+
+[LINE]
+Speaker415: Papa, s'il~te~plaît !
+~           Dad   please         
+
+[LINE]
+Speaker414: Très bien.
+~           very well 
+
+[LINE]
+Speaker415: Oui !
+~           yes  
+
+[LINE]
+Speaker414: Mais d'abord, tu  dois    laver     la~voiture…
+~           but  first    you have~to (to)~wash the~car    
+
+[MULTIPLE_CHOICE]
+> Why does Eddy tell Junior to wash the car?
+- Junior's dog got the car really dirty.
+- Junior needs to drive to his new job.
++ He wants Junior to prove that he's responsible.
+
+[LINE]
+Speaker414: … tes~vêtements…
+~             your~clothes  
+
+[LINE]
+Speaker415: Oui…
+~           yes 
+
+[LINE]
+Speaker414: … et  aussi les~fenêtres !
+~             and also  the~windows   
+
+[LINE]
+> Junior finit~de~tout~laver.        
+~ Junior finishes~washing~everything 
+
+[LINE]
+Speaker415: Papa ! Regarde !
+~           Dad    look     
+
+[LINE]
+Speaker414: Bon  travail !
+~           good job      
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Tu)  (es)  (très) (responsable).]
+~             you   are   very   responsible   
+
+[CONTINUATION]
+> What comes next?
+Speaker414: Tu  peux avoir     [un~chien].
+~           you can  (to)~have  a~dog     
++ un~chien
+~ a~dog   
+- une~fenêtre
+~ a~window   
+- du   travail
+~ some work   
+
+[LINE]
+Speaker415: Non, merci     !
+~           no   thank~you  
+
+[LINE]
+Speaker415: Je ne~veux~pas de~chien.
+~           I  don't~want  a~dog    
+
+[LINE]
+Speaker414: Mais… je ne~comprends~pas.
+~           but   I  don't~understand 
+
+[LINE]
+Speaker415: Je suis fatigué ! Je ne~veux~pas être  responsable.
+~           I  am   tired     I  don't~want  to~be responsible 
+
+[MULTIPLE_CHOICE]
+> Junior decided...
+- ...he wants a cow instead.
++ ...he's too tired to take care of a dog.
+- ...he should adopt four dogs.
+
+[MATCH]
+> Tap the pairs
+- responsable <> responsible
+- peux <> can
+- C'est <> that's
+- travail <> work
+- dois <> have to
+
