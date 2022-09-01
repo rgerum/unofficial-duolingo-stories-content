@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=Um jantar com a família
+icon=076bc5bf725308c211b9c04f07d3622683e84d78
+set=5|2
+
+[HEADER]
+> Una~cena  con la familia
+~ um~jantar com a  família
+
+[LINE]
+> Lin está en~la casa de Bea. Ella va  a    la cocina. 
+~ Lin está na    casa da Bea  ela  vai para a  cozinha 
+
+[LINE]
+> Ella ve mucha comida y cuatro botellas de vino  sobre la mesa.
+~ ela  vê muita comida e quatro garrafas de vinho sobre a  mesa 
+
+[LINE]
+Speaker508: ¡Guau! Hay mucha comida aquí.
+~            uau   tem muita comida aqui 
+
+[LINE]
+Speaker507: Sí,  mi      familia va~a venir a    cenar. 
+~           sim  a~minha família vai  vir   para jantar 
+
+[MULTIPLE_CHOICE]
+> A família da Bea está vindo para a casa dela para o café da manhã.
++ Não, não é isso.
+- Sim, isso mesmo.
+
+[LINE]
+Speaker508: Ah, ¿me~puedo comer un poco  de pastel?
+~           ah   eu~posso comer um pouco de bolo   
+
+[LINE]
+Speaker507: No. 
+~           não 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker508: Pero [tienes~tres~pasteles].
+~           mas   tu~tens~três~bolos    
+- tiene tres carteles
+- vienes con tres pasteles
++ tienes tres pasteles
+
+[LINE]
+Speaker507: Yo necesito   tres pasteles.
+~           eu preciso~de três bolos    
+
+[LINE]
+Speaker508: Bueno, ¿me puedo beber un vaso de vino? 
+~           bom     eu posso beber um copo de vinho 
+
+[LINE]
+Speaker507: No. 
+~           não 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker508: Tienes cuatro botellas [de vino]. 
+~           tens   quatro garrafas  de vinho  
++ de vino 
+~ de vinho
+- de pastel
+~ de bolo  
+- en~la mesa
+~ na    mesa
+
+[LINE]
+Speaker507: Yo necesito   todo ese  vino. 
+~           eu preciso~de todo esse vinho 
+
+[LINE]
+Speaker508: ¿Puedo comer un poco  de pizza?
+~            posso comer um pouco de pizza 
+
+[LINE]
+Speaker507: No,  Lin.
+~           não  Lin 
+
+[LINE]
+Speaker508: Está bien, ¿a~qué~hora es la~cena  con tu    familia?
+~           está bem    que~horas  é  o~jantar com a~tua família 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "o jantar".
+Speaker507: Ah, (+la~cena)  con mi      (familia) es (la~próxima) (semana).
+~           ah    o~jantar  com a~minha  família  é   na~próxima   semana  
+
+[ARRANGE]
+> Toque no que escutar
+Speaker507: [(Todo) (esto) (es) (para) (mí).] 
+~             tudo   isto   é    para   mim   
+
+[LINE]
+Speaker508: ¿Qué?  
+~            o~quê 
+
+[LINE]
+Speaker507: ¡Tengo una familia muy   difícil! ¡Estoy nerviosa!
+~            tenho uma família muito difícil   estou nervosa  
+
+[LINE]
+Speaker507: Necesito   toda esta comida y todo el vino  ahora.
+~           preciso~de toda esta comida e todo o  vinho agora 
+
+[MULTIPLE_CHOICE]
+> A Bea tem uma família muito difícil, então…
+- …ela parou de falar com eles.
+- …ela vai dar a comida para a Lin em vez disso.
++ …ela vai comer tudo isso porque está nervosa.
+
+[MATCH]
+> Toque nos pares
+- tu <> a tua
+- comida <> comida
+- ese <> esse
+- pastel <> bolo
+- Qué <> o quê
+
