@@ -1,0 +1,109 @@
+[DATA]
+fromLanguageName=Lựa chọn của Junior
+icon=e0600de22649754eb7336b587834d36407767819
+set=6|3
+
+[HEADER]
+> Junior's~Choice    
+~ lựa~chọn~của~Junior
+
+[LINE]
+> Junior is~getting his~lunch               at school.
+~ Junior đang~lấy   suất~ăn~trưa~của~cậu~ấy ở  trường 
+
+[LINE]
+Speaker415: Hello,   Ms.~Linda! I'm  ready        to~eat~lunch!
+~           chào~cô  cô~Linda   cháu sẵn~sàng…rồi ăn~trưa      
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker395: Hello,     Junior. [We~have~fish]   for lunch    today.  
+~           chào~cháu  Junior   chúng~ta~có~cá  cho bữa~trưa hôm~nay 
++ We have fish
+- We love dish
+- We have five
+
+[LINE]
+Speaker395: And with       the~fish, you  can~have   a      salad or   fries.          
+~           và  đi~kèm~với món~cá    cháu có~thể~gọi 1~phần salad hoặc khoai~tây~chiên 
+
+[LINE]
+Speaker415: I    love      fries           and salads!
+~           cháu rất~thích khoai~tây~chiên và  salad  
+
+[LINE]
+Speaker395: You  can~only~have  one,     Junior.
+~           cháu chỉ~có~thể~gọi một~món  Junior 
+
+[MULTIPLE_CHOICE]
+> Linda nói rằng Junior có thể gọi…
+- …khoai tây chiên và salad.
++ …khoai tây chiên hoặc salad.
+- …bánh kếp.
+
+[LINE]
+Speaker415: Well,    fries           are the~delicious~option…
+~           xem~nào  khoai~tây~chiên là  lựa~chọn~rất~hấp~dẫn 
+
+[LINE]
+Speaker415: And     I~am~having~a~difficult~day…
+~           với~lại hôm~nay~cháu~đang~khá~oải   
+
+[LINE]
+Speaker415: But   salad is      healthy…         
+~           nhưng salad thì~lại tốt~cho~sức~khỏe 
+
+[MULTIPLE_CHOICE]
+> Junior nghĩ salad…
+- …đầy quá.
+- …rất rẻ.
++ …rất tốt cho sức khỏe.
+
+[LINE]
+Speaker395: Junior…
+~           Junior 
+
+[LINE]
+Speaker415: But   I    can~only~have  one…    
+~           nhưng cháu chỉ~có~thể~gọi một~món 
+
+[LINE]
+Speaker415: I    want the~salad. No!      The~fries!           Wait…    
+~           cháu muốn món~salad  à~không  món~khoai~tây~chiên  đợi~đã~ạ 
+
+[LINE]
+Speaker415: I~don't~know!       
+~           cháu~chẳng~biết~nữa 
+
+[MULTIPLE_CHOICE]
+> Khổ thân Junior! Cậu ấy làm sao thế nhỉ?
+- Cậu ấy thích trộn kem vào salad.
+- Cậu ấy ăn quá nhiều khoai tây chiên.
++ Cậu ấy không biết nên chọn salad hay là khoai tây chiên.
+
+[LINE]
+Speaker395: Junior!
+~           Junior 
+
+[LINE]
+Speaker415: Oh! Yes,  Ms.~Linda?
+~           dạ  vâng  cô~Linda  
+
+[LINE]
+Speaker395: Here! Take~the~fries~and~the~salad.        
+~           đây   lấy~khoai~tây~chiên~và~salad~đi~cháu 
+
+[MULTIPLE_CHOICE]
+> Linda bảo Junior…
+- …tưởng tượng khoai tây chiên là salad.
++ …lấy cả khoai tây chiên và salad.
+- …đi chỗ khác ăn.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- to eat lunch <> ăn trưa
+- I don't know <> cháu chẳng biết nữa
+- can only have <> chỉ có thể gọi
+- for <> cho
+- can have <> có thể gọi
+
