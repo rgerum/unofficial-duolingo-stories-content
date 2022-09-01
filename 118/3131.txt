@@ -1,0 +1,109 @@
+[DATA]
+fromLanguageName=A Car Problem
+icon=e161ff53b5f470063ac66df2698eddb71232c290
+set=16|2
+
+[HEADER]
+> Um problema com  o   carro
+~ a  problem  with the car  
+
+[LINE]
+> Eddy está na     rua.   
+~ Eddy is~  on~the street 
+
+[LINE]
+> Ele fecha  o   porta-malas de um carro.
+~ he  closes the trunk       of a  car   
+
+[LINE]
+> Vikram chega.  
+~ Vikram arrives 
+
+[LINE]
+Speaker593: Eddy, está~tudo~bem?    O~que você~está~fazendo?
+~           Eddy  is~everything~OK  what  are~you~doing     
+
+[LINE]
+Speaker414: Eu aluguei este carro, mas ele não~liga!   
+~           I  rented  this car    but it  won't~start 
+
+[MULTIPLE_CHOICE]
+> Why is Eddy worried?
+- He is in the trunk of a car.
+- He doesn't know where he is.
++ He can't start the car he rented.
+
+[LINE]
+Speaker593: Humm. Eu~posso te~ajudar?    
+~           hmm   can~I    (to)~help~you 
+
+[LINE]
+Speaker414: Não. Obrigado,  Vikram.
+~           no   thank~you  Vikram 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker593: Mas eu sei  [qual~é~o~problema].  
+~           but I  know  what~the~problem~is  
++ qual é o problema
+- que é o dilema
+- qual é o emblema
+
+[LINE]
+Speaker414: Vikram, eu sei  muito sobre carros!
+~           Vikram  I  know a~lot about cars   
+
+[POINT_TO_PHRASE]
+> Choose the option that means "on."
+Speaker593: (É~mesmo)?   Este (carro) (já~está)    (+ligado).
+~            oh~really   this  car     is~already    on      
+
+[LINE]
+Speaker414: Não, Vikram, não~está! Eu~não~escuto o   motor. 
+~           no   Vikram  it's~not  I~can't~hear  the engine 
+
+[LINE]
+Speaker593: Eddy, este carro é  elétrico! Não~precisa~de  gasolina, e   nós não~escutamos o   motor. 
+~           Eddy  this car   is electric  it~doesn't~need gasoline  and we  don't~hear    the engine 
+
+[MULTIPLE_CHOICE]
+> The car is electric, so…
+- …it's extremely ugly.
++ …it doesn't need gas and it's quiet.
+- …it uses a lot of gasoline.
+
+[LINE]
+Speaker414: Eu~não~sabia.  Comprei  gasolina há~dez~minutos! 
+~           I~didn't~know  I~bought gasoline ten~minutes~ago 
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Olha) (onde)  (a)   (gasolina) (está)!]
+~             look   where   the   gasoline   is     
+
+[LINE]
+Speaker593: O~quê?! Onde? 
+~           what    where 
+
+[LINE]
+Speaker414: Aqui.
+~           here 
+
+[LINE]
+Speaker593: Ai, não, Eddy! Isto é  o   porta-malas do     carro!
+~           oh  no   Eddy  this is the trunk       of~the car   
+
+[MULTIPLE_CHOICE]
+> Where did Eddy put the gas?
+- in his motorcycle
+- in Vikram's car
++ in the trunk of the car
+
+[MATCH]
+> Tap the pairs
+- aluguei <> rented
+- Humm <> hmm
+- Eu não escuto <> I can't hear
+- não liga <> won't start
+- não está <> it's not
+
