@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=Lớp học nhảy
+icon=9a6beecaaea348fb3939a0bda8c064c9d9c79dc5
+set=4|4
+
+[HEADER]
+> The~Dance~Class
+~ lớp~học~nhảy   
+
+[LINE]
+> Eddy walks~into Elizabeth's~class.
+~ Eddy bước~vào   lớp~của~Elizabeth 
+
+[LINE]
+Speaker125: Hi!      
+~           chào~anh 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker125: Today   [we're~learning~to~dance]!
+~           hôm~nay  chúng~ta~sẽ~học~nhảy     
+- we're earning two dances
+- we're leaning to dance
++ we're learning to dance
+
+[LINE]
+> Eddy quickly  walks~to the~door.
+~ Eddy vội~vàng bước~ra  cửa      
+
+[LINE]
+Speaker125: Wait!      
+~           đợi~đã~nào 
+
+[LINE]
+Speaker125: Don't~leave!   
+~           đừng~bỏ~đi~chứ 
+
+[LINE]
+Speaker125: I   know dancing  is~difficult~sometimes…
+~           tôi biết môn~nhảy đôi~khi~khá~là~khó     
+
+[LINE]
+Speaker125: …but   it's really~fun~too!  
+~            nhưng nó   cũng~rất~vui~đấy 
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “sai lầm”.
+Speaker414: (OK),        (but)   (this) is a   (+mistake).
+~            thôi~được    nhưng   đây   là một   sai~lầm  
+
+[LINE]
+Speaker125: It's~OK!       It's~easy. Watch~me!   
+~           không~sao~đâu  dễ~mà      xem~tôi~này 
+
+[LINE]
+Speaker414: But…  
+~           nhưng 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+> [(Eddy) (watches) (Elizabeth) (dance).]
+~   Eddy   xem       Elizabeth   nhảy    
+
+[LINE]
+Speaker125: Now     dance        with me! 
+~           giờ~thì hãy~nhảy…nào cùng tôi 
+
+[LINE]
+Speaker414: This~is really~fun!  
+~           cái~này vui~thật~đấy 
+
+[LINE]
+Speaker125: So…  is~this~class~still         a   mistake?
+~           thế  lớp~học~này~có~còn~là…không một sai~lầm 
+
+[MULTIPLE_CHOICE]
+> Elizabeth muốn biết…
+- …liệu Eddy có phải là một giáo viên nhảy.
+- …vì sao Eddy có thể nhảy tệ đến thế.
++ …liệu Eddy có còn nghĩ tham gia lớp học của cô ấy là một sai lầm.
+
+[LINE]
+Speaker414: Yes.
+~           có  
+
+[LINE]
+Speaker125: Really?  
+~           thật~sao 
+
+[LINE]
+Speaker414: Yes,  I'm      in~the~wrong~room.
+~           thật  tôi~đang ở~nhầm~phòng      
+
+[LINE]
+Speaker414: But   this~is more~fun~than a~cooking~class!
+~           nhưng lớp~này vui~hơn       lớp~học~nấu~ăn  
+
+[MULTIPLE_CHOICE]
+> Thì ra sai lầm của Eddy là gì?
+- Anh ấy đã từng hẹn hò với Elizabeth.
+- Anh ấy quên mang giày tập nhảy.
++ Anh ấy đáng lẽ phải tới lớp học nấu ăn.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- dance <> nhảy
+- dancing <> môn nhảy
+- but <> nhưng
+- Eddy <> Eddy
+- the door <> cửa
+
