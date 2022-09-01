@@ -1,0 +1,183 @@
+[DATA]
+fromLanguageName=Junior's Job Interview
+icon=e19a3d324c154276bcd5b81b5629ad1c91957a44
+set=46|6
+
+[HEADER]
+> Juniors  Jobinterview 
+~ Junior's job~interview
+
+[LINE]
+> Junior kommt in   Beas  Wohnung.   Er hat eine Aktentasche dabei.   
+~ Junior comes into Bea's apartment  he has a    briefcase   with~him 
+
+[LINE]
+Speaker415: Hallo Bea. Ich bin wegen      meines Jobinterviews hier.
+~           hello Bea  I   am  because~of my     job~interview here 
+
+[LINE]
+Speaker507: Jobinterview? 
+~           job~interview 
+
+[LINE]
+Speaker415: Ja.  Mein Vater  hat gesagt, dass du  verreist.            Deshalb    möchte~ich~mich~gerne um  den Job bewerben, deine~Pflanzen~zu~gießen.
+~           yes  my   father has said    that you will~be~out~of~town  that's~why I~would~like~to       for the job apply     to~water~your~plants     
+
+[MULTIPLE_CHOICE]
+> Junior will  ein Jobinterview,  weil    …
+~ Junior wants a   job~interview  because  
++ … er sich~um~Beas~Pflanzen~kümmern~will.
+~   he wants~to~take~care~of~Bea's~plants 
+- … er Bea~ein~paar~Pflanzen~verkaufen~will.
+~   he wants~to~sell~Bea~a~couple~of~plants 
+- … er Bea~Fragen~über~ihr~Leben~stellen~will.   
+~   he wants~to~ask~Bea~questions~about~her~life 
+
+[LINE]
+Speaker507: Ah! Bitte,  setz~dich.
+~           ah  please  sit~down  
+
+[LINE]
+Speaker415: Vielen Dank.  
+~           many   thanks 
+
+[ARRANGE]
+> Tap what you hear
+> [(Junior) (setzt~sich) (und) (öffnet) (seine~Aktentasche).]
+~   Junior   sits~down    and   opens    his~briefcase       
+
+[LINE]
+Speaker507: Möchtest~du    einen Keks?  
+~           would~you~like a     cookie 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: Nein, danke.     [Ich~esse~nie] bei geschäftlichen Meetings.
+~           no    thank~you   I~never~eat   at  business       meetings 
+- Ich fresse sie
++ Ich esse nie
+- Ich presse nie
+
+[LINE]
+Speaker507: Das  ist gut.  Die Kekse   gehören meiner Mitbewohnerin und ich darf          sie  eigentlich nicht essen.
+~           that is  good  the cookies belong  to~my  roommate      and I   am~allowed~to them actually   not   eat   
+
+[LINE]
+> Junior gibt  Bea seine Bewerbung.  
+~ Junior gives Bea his   application 
+
+[POINT_TO_PHRASE]
+> Wähle  die Option mit~der~Bedeutung „colored pencil|“.
+~ choose the option meaning            colored pencil ~ 
+Speaker507: Hast du  (deine) (Bewerbung)   mit  einem (+Farbstift)      (geschrieben)?
+~           have you  your    application  with a       colored~pencil   written      
+
+[LINE]
+Speaker415: Richtig.
+~           correct 
+
+[CONTINUATION]
+> Was  kommt als~Nächstes?
+~ what comes next         
+Speaker507: OK. Also, warum sollte ich dir    [den Job geben]?
+~           OK  so    why   should I   to~you  the job give   
++ den Job geben
+~ the job give 
+- die Wohnung   geben
+~ the apartment give 
+- einen Farbstift      geben
+~ a     colored~pencil give 
+
+[LINE]
+Speaker415: Ich bin sehr zuverlässig und fleißig.    
+~           I   am  very reliable    and hardworking 
+
+[LINE]
+Speaker507: Hast du  schon   Erfahrung  als Pflanzengießer?   
+~           have you already experience as  (a)~plant~waterer 
+
+[LINE]
+Speaker415: Nein, aber ich habe mir~Videos~im~Internet~angesehen.
+~           no    but  I   have watched~videos~online            
+
+[ARRANGE]
+> Tap what you hear
+Speaker507: [(Wo)    (siehst~du)  (dich)     (in) (zehn~Jahren)?]
+~             where   do~you~see   yourself   in   ten~years     
+
+[LINE]
+Speaker415: In einem fliegenden Auto!
+~           in a     flying     car  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: Aber zuerst werde ich meine eigene Firma   haben. Und du  bist meine [erste~Kundin].  
+~           but  first  will  I   my    own    company have   and you are  my     first~customer  
+- beste Freundin
++ erste Kundin
+- schwerste Stunde
+
+[LINE]
+Speaker507: Blumengießen     ist schwere Arbeit.
+~           watering~flowers is  hard    work   
+
+[LINE]
+Speaker415: Du  hast nur  zwei Pflanzen. Und die  sehen schon   nicht sehr gesund  aus.
+~           you have only two  plants    and they look  already not   very healthy ~   
+
+[LINE]
+Speaker507: Das~stimmt.   Meine Mitbewohnerin und ich vergessen immer,  sie~zu~gießen.
+~           that's~right  my    roommate      and I   forget    always  to~water~them 
+
+[LINE]
+Speaker415: Bea. Hör~zu.
+~           Bea  listen 
+
+[LINE]
+Speaker507: Ja? 
+~           yes 
+
+[LINE]
+Speaker415: Wenn du  mir~den~Job~gibst, kannst~du die~ganzen Kekse   deiner    Mitbewohnerin aufessen. Und dann kannst~du ihr~sagen, dass ich sie~gegessen~habe.
+~           if   you give~me~the~job    you~can   all~the    cookies from~your roommate      eat       and then you~can   tell~her   that I   ate~them          
+
+[MULTIPLE_CHOICE]
+> Junior sagt, dass Bea ihm~den~Job~geben~sollte, weil    …
+~ Junior says  that Bea should~give~him~the~job   because  
+- … er eines~Tages sehr berühmt sein~wird.
+~   he one~day     very famous  will~be   
+- … er jeden Tag in einem fliegenden Auto zur~Arbeit~kommen~wird.
+~   he every day in a     flying     car  will~come~to~work      
++ … sie dann~sagen~kann, dass er alle~Kekse~gegessen~hat.
+~   she can~then~say     that he ate~all~the~cookies     
+
+[LINE]
+Speaker507: Das  ist eine großartige Idee! Du  hast den Job!
+~           that is  a    great      idea  you have the job 
+
+[LINE]
+> Sie  geben~einander~die~Hand.
+~ they shake~hands             
+
+[LINE]
+Speaker415: Über  mein Gehalt können~wir uns~später~unterhalten.
+~           about my   salary we~can     discuss~later          
+
+[MULTIPLE_CHOICE]
+> Wer wird Beas~Pflanzen~gießen, während sie weg~ist?
+~ who will water~Bea's~plants    while   she is~away 
+- Juniors  Vater 
+~ Junior's father
+- ihre Mitbewohnerin
+~ her  roommate     
++ Junior
+~ Junior
+
+[MATCH]
+> Tap the pairs
+- fliegenden <> flying
+- die ganzen <> all the
+- großartige <> great
+- gibt <> gives
+- Richtig <> correct
+
