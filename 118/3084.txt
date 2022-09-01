@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=Thanks?
+icon=5990e04462d50bcf09acba6283645f0f5ae22b6e
+set=4|3
+
+[HEADER]
+> Obrigada? 
+~ thank~you 
+
+[LINE]
+> Zari dá    um presente para Lili.
+~ Zari gives a  present  to   Lili 
+
+[LINE]
+Speaker416: O~que~é~isso?
+~           what~is~this 
+
+[LINE]
+Speaker418: Abre!   
+~           open~it 
+
+[MULTIPLE_CHOICE]
+> Zari is telling Lili to open a present.
++ Yes, that's true.
+- No, that's not right.
+
+[LINE]
+> Lili abre  o   presente.
+~ Lili opens the present  
+
+[LINE]
+Speaker416: É    uma camisa.
+~           it's a   shirt  
+
+[LINE]
+Speaker418: É    linda!    
+~           it's beautiful 
+
+[LINE]
+Speaker416: Ela é  rosa.
+~           it  is pink 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker418: Sim, a~minha [cor~favorita]!  
+~           yes  my       favorite~color  
+- corre e frita
+- carro favorito
++ cor favorita
+
+[LINE]
+Speaker416: E   tem      um gato.
+~           and there~is a  cat  
+
+[LINE]
+Speaker418: Eu amo  gatos!
+~           I  love cats  
+
+[ARRANGE]
+> Tap what you hear
+Speaker416: [(E)   (o~gato)  (está) (em) (uma~moto).]    
+~             and   the~cat   is~    on   a~motorcycle   
+
+[LINE]
+Speaker418: É    muito engraçada!
+~           it's very  funny     
+
+[LINE]
+Speaker418: É    o   presente~de~aniversário~perfeito.
+~           it's the perfect~birthday~present         
+
+[LINE]
+Speaker416: Zari, hoje  não~é  o~meu aniversário.
+~           Zari  today is~not my    birthday    
+
+[CONTINUATION]
+> What comes next?
+Speaker418: Eu sei.  Hoje  é  o     [meu aniversário]!
+~           I  know  today is (the)  my  birthday     
+- meu gato
+~ my  cat 
+- minha cor~favorita  
+~ my    favorite~color
++ meu aniversário
+~ my  birthday   
+
+[LINE]
+Speaker416: Ah, certo…
+~           oh  right 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "forget."
+Speaker418: (Você) (sempre) (+esquece) (o~meu) aniversário.
+~            you    always    forget    my     birthday    
+
+[LINE]
+Speaker418: Mas hoje  você pode me~dar       a   camisa.
+~           but today you  can  (to)~give~me the shirt  
+
+[LINE]
+Speaker416: Certo… Muito~obrigada.
+~           right  thanks~a~lot   
+
+[LINE]
+Speaker418: Não, eu~que~digo          muito~obrigada, Lili.
+~           no   I'm~the~one~who~says thanks~a~lot    Lili 
+
+[MULTIPLE_CHOICE]
+> Why did Zari give Lili the shirt?
+- Today is Lili's birthday.
++ She wanted Lili to give it back to her.
+- Lili has a cat that rides a motorcycle.
+
+[MATCH]
+> Tap the pairs
+- amo <> love
+- gato <> cat
+- Abre <> open it
+- gatos <> cats
+- uma moto <> a motorcycle
+
