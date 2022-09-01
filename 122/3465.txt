@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Ein neuer Sport
+icon=4779d731014382d1398621baf6c630efe3e344c0
+set=7|4
+
+[HEADER]
+> A   New   Sport
+~ ein neuer Sport
+
+[LINE]
+> Eddy and Junior are  at a     store.   
+~ Eddy und Junior sind in einem Geschäft 
+
+[LINE]
+Speaker414: You want   to~play~a~new~sport!        That's  exciting! 
+~           du  willst eine~neue~Sportart~ausüben  das~ist aufregend 
+
+[LINE]
+Speaker414: Do~you~want to~play~basketball?
+~           willst~du   Basketball~spielen 
+
+[LINE]
+Speaker415: I   don't~like sports     with balls. 
+~           ich mag~keine  Sportarten mit  Bällen 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „Tennisschläger“.
+Speaker414: (This)   (+tennis~racket)  (is)  (nice)! 
+~            dieser    Tennisschläger   ist   schön  
+
+[LINE]
+Speaker415: Tennis is  a    sport    with balls. 
+~           Tennis ist eine Sportart mit  Bällen 
+
+[MULTIPLE_CHOICE]
+> Warum will Junior kein Basketball oder Tennis spielen?
++ Er mag keine Ballsportarten.
+- Er ist zu müde.
+- Er denkt, er sei zu jung.
+
+[LINE]
+Speaker414: OK, what~about…     
+~           OK  wie~wäre~es~mit 
+
+[LINE]
+Speaker415: I   want~to—
+~           ich will    
+
+[LINE]
+Speaker414: Swim!      Do~you~want to~swim?!  
+~           schwimmen  willst~du   schwimmen  
+
+[LINE]
+Speaker415: No—  
+~           nein 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker414: But  swimming  is  a    sport    with~no [balls].
+~           aber Schwimmen ist eine Sportart ohne     Bälle  
+- tennis
+~ Tennis
+- store   
+~ Geschäft
++ balls
+~ Bälle
+
+[LINE]
+Speaker415: Dad,  no!  
+~           Papa  nein 
+
+[LINE]
+Speaker414: Well, what do~you~want to~do? 
+~           gut   was  willst~du   machen 
+
+[LINE]
+> Junior looks  at  a   pair~of~ballet~shoes.
+~ Junior schaut auf ein Paar~Ballettschuhe   
+
+[MULTIPLE_CHOICE]
+> Oh! Es scheint, als würde Junior gerne …
+- … schwimmen gehen.
+- … Fußball spielen.
++ … tanzen.
+
+[LINE]
+Speaker415: I   really~want~to…  dance. 
+~           ich will~eigentlich  tanzen 
+
+[LINE]
+Speaker414: You want   to~dance?!
+~           du  willst tanzen    
+
+[LINE]
+Speaker415: Yes… Is  it  a   problem?
+~           ja   ist das ein Problem 
+
+[LINE]
+Speaker414: No!   Dancing is  a~sport~too!   
+~           nein  Tanzen  ist auch~ein~Sport 
+
+[LINE]
+> Eddy starts   to~dance~in~the~store.    
+~ Eddy fängt~an in~dem~Geschäft~zu~tanzen 
+
+[LINE]
+Speaker415: Dad,  please stop    dancing.  
+~           Papa  bitte  hör~auf zu~tanzen 
+
+[MULTIPLE_CHOICE]
+> Warum tanzt Eddy?
+- Er probiert ein Paar Ballettschuhe an.
++ Er freut sich, dass Junior gerne tanzen möchte.
+- Er zeigt Junior, wie schwer Tanzen ist.
+
+[MATCH]
+> Wähle die Paare
+- pair of ballet shoes <> Paar Ballettschuhe
+- Do you want <> willst du
+- store <> Geschäft
+- it <> das
+- please <> bitte
+
