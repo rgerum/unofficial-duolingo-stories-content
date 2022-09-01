@@ -1,0 +1,156 @@
+[DATA]
+fromLanguageName=Eu quero o sanduíche
+icon=43b9829cc459f78e9742fdf418c9b0821bb1646e
+set=29|4
+
+[HEADER]
+> I  Want  the Sandwich 
+~ eu quero o   sanduíche
+
+[LINE]
+> Vikram and Oscar sit~down    in a  restaurant. 
+~ Vikram e   Oscar (se)~sentam em um restaurante 
+
+[LINE]
+Speaker592: I  love this place. I  always order the grilled~cheese~sandwich.     
+~           eu amo  este lugar  eu sempre peço  o   sanduíche~de~queijo~na~chapa 
+
+[LINE]
+Speaker593: Me~too.   
+~           eu~também 
+
+[MULTIPLE_CHOICE]
+> O Vikram e o Oscar gostam de pedir coisas diferentes no restaurante.
+- Sim, isso mesmo.
++ Não, não é isso. 
+
+[LINE]
+> A  waiter comes to   their~table.   
+~ um garçom vem   para (a)~mesa~deles 
+
+[LINE]
+Speaker526: Are~you~ready       to~order?    
+~           vocês~estão~prontos (para)~pedir 
+
+[LINE]
+Speaker593: Two  grilled~cheese~sandwiches,     please.   
+~           dois sanduíches~de~queijo~na~chapa  por~favor 
+
+[LINE]
+Speaker526: Sorry.    We  only have  one~more grilled~cheese~sandwich.     
+~           desculpe  nós só   temos mais~um  sanduíche~de~queijo~na~chapa 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker592: OK,    then  [I'll~have~it].      
+~           certo  então  eu~ficarei~com~ele  
+- all of it
++ I'll have it
+- I love it
+
+[LINE]
+Speaker593: Wait.   Why     do~you~get the sandwich? 
+~           espere  por~que você~ganha o   sanduíche 
+
+[LINE]
+Speaker593: Could~you~give~us    a  minute?
+~           você~poderia~nos~dar um minuto 
+
+[MULTIPLE_CHOICE]
+> O Vikram pediu um minuto porque…
+- …ele e o Oscar ainda estão comendo.
+- …ele precisa muito ir no banheiro.
++ …ele e o Oscar precisam decidir quem vai pedir o sanduíche.
+
+[LINE]
+> The waiter walks~away.
+~ o   garçom se~afasta  
+
+[LINE]
+Speaker592: I  want  that sandwich,  Vikram.
+~           eu quero esse sanduíche  Vikram 
+
+[LINE]
+Speaker593: No,  I  want  the sandwich. 
+~           não  eu quero o   sanduíche 
+
+[LINE]
+Speaker592: But it~was my    idea  to~come here!
+~           mas foi    minha ideia vir     aqui 
+
+[LINE]
+Speaker593: I  helped~you~paint     your~apartment      last~week.          
+~           eu ajudei~você~a~pintar (o)~seu~apartamento (na)~semana~passada 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker593: [(And) (then)  (you)  (borrowed~my~car).]               
+~             e     então   você   pegou~(o)~meu~carro~emprestado   
+
+[LINE]
+Speaker592: I  borrowed~your~car               to~take      you  to~the hospital!
+~           eu peguei~(o)~seu~carro~emprestado (para)~levar você ao     hospital 
+
+[LINE]
+Speaker593: Because I  fell~out of~your~window while    I  was~painting!   
+~           porque  eu caí      da~sua~janela  enquanto eu estava~pintando 
+
+[MULTIPLE_CHOICE]
+> O Vikram caiu da janela do Oscar enquanto…
+- …estava gritando com os vizinhos.
+- …estava escondendo um sanduíche de queijo na chapa.
++ …estava ajudando a pintar o apartamento.
+
+[LINE]
+Speaker593: And then  I  gave~you my      chocolate~cake    at~the hospital.
+~           e   então eu te~dei   (o)~meu bolo~de~chocolate no     hospital 
+
+[LINE]
+Speaker592: That   was a  delicious~chocolate~cake.   
+~           aquele era um bolo~de~chocolate~delicioso 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker592: OK,    you  can~have       [the sandwich]. 
+~           certo  você pode~ficar~com  o   sanduíche  
+- the window
+~ a   janela
++ the sandwich 
+~ o   sanduíche
+- the hospital
+~ o   ~       
+
+[LINE]
+> The waiter returns.
+~ o   garçom retorna 
+
+[LINE]
+Speaker592: My      friend, Vikram, will~have     the sandwich. 
+~           (o)~meu amigo   Vikram  vai~ficar~com o   sanduíche 
+
+[LINE]
+Speaker526: While    you   were~talking,        someone ordered the last   sandwich. 
+~           enquanto vocês estavam~conversando  alguém  pediu   o   último sanduíche 
+
+[LINE]
+Speaker593: I  hate  this restaurant! 
+~           eu odeio este restaurante 
+
+[LINE]
+Speaker592: Yeah, I  told      you  we        shouldn't~eat        here.
+~           sim   eu disse~(a) você (que)~nós não~deveríamos~comer aqui 
+
+[MULTIPLE_CHOICE]
+> Quem vai comer o sanduíche de queijo na chapa?
++ alguém em outra mesa
+- o Oscar
+- o Vikram
+
+[MATCH]
+> Toque nos pares
+- Two <> dois
+- walks away <> se afasta
+- in <> em
+- have <> temos
+- last week <> semana passada
+
