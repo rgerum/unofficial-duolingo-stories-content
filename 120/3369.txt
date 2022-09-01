@@ -1,0 +1,132 @@
+[DATA]
+fromLanguageName=Need Help?
+icon=ec74184ed69da39d62ba574fa9d615f7d0c53da1
+set=4|1
+
+[HEADER]
+> Serve aiuto?
+~ need  help  
+
+[LINE]
+> Ginevra cammina    per~strada.   
+~ ~       is~walking on~the~street 
+
+[SELECT_PHRASE]
+> Select the missing word or phrase
+> Vede     un uomo [accanto] a  una macchina.
+~ she~sees a  man   next     to a   car      
++ accanto
+- acconto
+- e canto
+
+[LINE]
+> Non~sembra      contento.
+~ he~doesn't~seem happy    
+
+[LINE]
+Speaker101: Salve! Serve aiuto?
+~           hello  need  help  
+
+[CONTINUATION]
+> What comes next?
+Speaker127: Ho     un problema con  [la  macchina].
+~           I~have a  problem  with  the car       
+- per~strada   
+~ on~the~street
++ la  macchina
+~ the car     
+- contento
+~ happy   
+
+[LINE]
+Speaker127: Posso~usare il~Suo telefono, per~favore?
+~           I~can~use   your   phone     please     
+
+[LINE]
+> Ginevra dà    il~suo telefonino a  Patrizio.
+~ ~       gives her    phone      to ~        
+
+[LINE]
+Speaker101: Sì,  ma... 
+~           yes  but   
+
+[LINE]
+Speaker127: Mi~scusi,  solo un minuto.
+~           I'm~sorry  just a  minute 
+
+[LINE]
+> Patrizio usa  il  telefono.
+~ ~        uses the phone    
+
+[LINE]
+Speaker127: Pronto, è    l'| autofficina?     
+~           hello   it's the auto~repair~shop 
+
+[MULTIPLE_CHOICE]
+> Patrizio is calling...
+- ... his wife because he will be late for dinner.
+- ... a friend because he needs a lift.
++ ... an auto repair shop because he has a problem with his car.
+
+[LINE]
+Speaker127: La~mia macchina è~in~panne.
+~           my     car      broke~down 
+
+[LINE]
+Speaker127: Uhm...
+
+[SELECT_PHRASE]
+> Select the missing word or phrase
+Speaker127: No, non~so       dove  [mi~trovo].
+~           ~   I~don't~know where  I~am      
+- mi provo
+- ritrovo
++ mi trovo
+
+[LINE]
+Speaker127: Mi~scusi... 
+~           I'm~sorry   
+
+[LINE]
+Speaker101: Sì? 
+~           yes 
+
+[LINE]
+Speaker127: Dove  siamo? 
+~           where we~are 
+
+[ARRANGE]
+> Tap what you hear
+Speaker101: [(Vicino)   (l'|) (autofficina)!]     
+~             close~to   the a uto~repair~shop    
+
+[LINE]
+Speaker127: Come~dice?
+~           excuse~me 
+
+[LINE]
+Speaker101: Ci~lavoro.   
+~           I~work~there 
+
+[LINE]
+Speaker101: Faccio~il~meccanico!
+~           I'm~a~mechanic      
+
+[LINE]
+Speaker101: Quindi... serve aiuto?
+~           so        need  help  
+
+[MULTIPLE_CHOICE]
+> It turns out that Ginevra...
++ ... works in the auto repair shop as a mechanic.
+- ... wants her phone back.
+- ... doesn't know where they are.
+
+[MATCH]
+> Tap the pairs
+- cammina <> is walking
+- per strada <> on the street
+- Vicino <> close to
+- Mi scusi <> I'm sorry
+- Posso usare <> I can use
+
