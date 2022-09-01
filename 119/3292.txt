@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=My New Hobby
+icon=ccaaef79a61ea0b283c8b253f2397dfc44fbb2c1
+set=31|3
+
+[HEADER]
+> Mein neues Hobby
+~ my   new   hobby
+
+[LINE]
+> Lillis  Mutter kommt     in   Lillis  Zimmer.
+~ Lilli's mother is~coming into Lilli's room   
+
+[LINE]
+Speaker559: Lilli? Du  solltest aufstehen!
+~           Lilli  you should   get~up    
+
+[ARRANGE]
+> Tap what you hear
+Speaker416: [(Du)  (solltest) (mein) (Zimmer) (verlassen).]
+~             you   should     my     room     leave       
+
+[LINE]
+Speaker559: Du  liegst    den ganzen Tag im~Bett. Es ist Sommer!
+~           you are~lying the whole  day in~bed   it is  summer 
+
+[LINE]
+Speaker416: Ich bleibe~lieber  im~Bett und denke an    die~Dunkelheit. Die Welt  ist furchtbar.
+~           I   prefer~to~stay in~bed  and think about (the)~darkness  the world is  terrible  
+
+[MULTIPLE_CHOICE]
+> Why doesn't Lilli want to get out of bed?
+- She wasn't able to sleep last night.
++ She wants to think about darkness and terrible things.
+- She has a really high fever.
+
+[LINE]
+Speaker559: Teenager  sind so dramatisch!
+~           teenagers are  so dramatic   
+
+[LINE]
+Speaker559: Als  ich in~deinem~Alter~war, habe~ich Freunde~getroffen, bin~jeden~Tag~geschwommen und habe~Fremdsprachen~gelernt!
+~           when I   was~your~age         I        met~friends        went~swimming~every~day   and learned~foreign~languages  
+
+[LINE]
+Speaker416: Fremdsprachen?     Das  klingt total  langweilig.
+~           foreign~languages  that sounds really boring     
+
+[LINE]
+Speaker559: Du  solltest ein neues Hobby anfangen! Hobbies machen~Spaß!
+~           you should   a   new   hobby start     hobbys  are~fun     
+
+[LINE]
+Speaker416: Im~Bett~liegen ist mein Hobby.
+~           lying~in~bed   is  my   hobby 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker559: Du  könntest dir      einen [Buchclub~suchen]!   
+~           you could    yourself a      book~club~look~for  
+- Buchladen suchen
+- Suchtrupp buchen
++ Buchclub suchen
+
+[LINE]
+Speaker416: Ich lese allein.    Wie  normale Menschen.
+~           I   read on~my~own  like normal  people   
+
+[LINE]
+Speaker559: Oder du  könntest fotografieren. 
+~           or   you could    do~photography 
+
+[LINE]
+Speaker416: Was  soll   ich fotografieren?  Die Welt  ist hässlich.
+~           what should I   take~photos~of  the world is  ugly     
+
+[LINE]
+Speaker559: Oh! Du  interessierst~dich für Musik, richtig?
+~           oh  you are~interested     in  music  right   
+
+[LINE]
+Speaker416: Ja  …
+~           yes  
+
+[LINE]
+Speaker559: Du  könntest ein~Instrument~spielen.
+~           you could    play~an~instrument     
+
+[ARRANGE]
+> Tap what you hear
+Speaker559: [(Dein~Vater)  (hat~noch)  (sein) (altes) (Schlagzeug).]
+~             your~father   still~has   his    old     drum~kit     
+
+[LINE]
+Speaker416: Hmm … Schlagzeugspielen ist cool.
+~           hmm   playing~the~drums is  cool 
+
+[MULTIPLE_CHOICE]
+> Lilli is thinking about playing drums.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+> Vier Stunden später spielt~Lilli~Schlagzeug.    Es ist laut.
+~ four hours   later  Lilli~is~playing~the~drums  it is  loud 
+
+[LINE]
+> Sehr laut.
+~ very loud 
+
+[CONTINUATION]
+> What comes next?
+Speaker559: Lilli, willst~du~nicht   eine [Pause machen]?
+~           Lilli  don't~you~want~to a     break take    
+- Ente zeichnen
+~ duck draw    
++ Pause machen
+~ break take  
+- Gitarre bauen
+~ guitar  build
+
+[LINE]
+Speaker416: Nein, das  ist mein neues Hobby! Ich muss    täglich   mindestens drei  Stunden üben!    
+~           no    this is  my   new   hobby  I   have~to every~day at~least   three hours   practice 
+
+[LINE]
+Speaker559: Jetzt muss~ich  mich~hinlegen. Von  deinem neuen Hobby habe~ich Kopfschmerzen.
+~           now   I~have~to lay~down       from your   new   hobby I~have   (a)~headache  
+
+[MULTIPLE_CHOICE]
+> Lilli found a new hobby and…
+- …joined a book club.
+- …her mom is very happy about it.
++ …it gave her mom a terrible headache.
+
+[MATCH]
+> Tap the pairs
+- mindestens <> at least
+- richtig <> right
+- Schlagzeug <> drum kit
+- Das <> that
+- Stunden <> hours
+
