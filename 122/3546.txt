@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Abendessen mit der CEO
+icon=48ff56bf472c683d952ff24420066dbef5e7ac9f
+set=28|1
+
+[HEADER]
+> Dinner     with the CEO
+~ Abendessen mit  der CEO
+
+[LINE]
+> Bea is~using the photocopier  at      work.   Her boss, Craig, comes to talk~to~her.        
+~ Bea benutzt  den Fotokopierer auf~der Arbeit  ihr Chef  Craig  kommt um mit~ihr~zu~sprechen 
+
+[LINE]
+Speaker100: Bea, I'm~meeting our~company's~CEO     for dinner     tonight.    
+~           Bea  ich~treffe  die~CEO~unserer~Firma zum Abendessen heute~Abend 
+
+[LINE]
+Speaker100: Can    you come?   You couldn't       come   last    time.
+~           kannst du  kommen  du  konntest~nicht kommen letztes Mal  
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker507: I   [really~want~to~come],  but  I   can't.     
+~           ich  will~wirklich~kommen   aber ich kann~nicht 
++ really want to come
+- really want to run
+- will be wanting some
+
+[LINE]
+Speaker100: OK, but  she really~wants  to~meet~you…      
+~           OK  aber sie will~wirklich dich~kennenlernen 
+
+[LINE]
+Speaker507: I   know. I'm~sorry.      
+~           ich weiß  es~tut~mir~leid 
+
+[LINE]
+> Later,  Craig is~eating dinner     with the CEO, Paula.
+~ später  Craig isst      Abendessen mit  der CEO  Paula 
+
+[ARRANGE]
+> Was hörst du?
+> [(Bea) (walks) (past)      (their) (table).]
+~   Bea   geht    vorbei~an   ihrem   Tisch   
+
+[LINE]
+Speaker100: Bea, you're  here!
+~           Bea  du~bist hier 
+
+[LINE]
+Speaker507: Oh… hi, Craig! You chose…~this~restaurant?        
+~           oh  hi  Craig  du  hast~dieses~Restaurant~gewählt 
+
+[LINE]
+Speaker100: I'm     so happy     that you came~to~the~meeting.       This is  Paula, our    CEO!
+~           ich~bin so glücklich dass du  zum~Meeting~gekommen~bist  dies ist Paula  unsere CEO 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker507: Um…  Actually,   I'm     not   here [to meet~with~you].  
+~           ähm  eigentlich  bin~ich nicht hier  um euch~zu~treffen  
++ to meet~with~you  
+~ um euch~zu~treffen
+- as  a~musician   
+~ als (ein)~Musiker
+- until tomorrow
+~ bis   morgen  
+
+[LINE]
+Speaker100: What?!
+~           was   
+
+[LINE]
+Speaker507: I   work    here every night… as  a~waitress.      
+~           ich arbeite hier jede  Nacht  als (eine)~Kellnerin 
+
+[MULTIPLE_CHOICE]
+> Moment! Warum ist Bea im Restaurant?
+- Sie wollte die CEO kennenlernen.
++ Sie arbeitet dort als Kellnerin.
+- Sie hat dort ein Date.
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „Praktikantin“.
+Speaker988: (This) is  (the) (+intern)       you       (wanted)  me~to~meet?       
+~            dies  ist  die    Praktikantin  (die)~Sie  wollten  (dass)~ich~treffe 
+
+[LINE]
+Speaker100: Yes, but  I   didn't~know… 
+~           ja   aber ich wusste~nicht 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker988: I   also~had   two  jobs [when~I~was~younger]!
+~           ich hatte~auch zwei Jobs  als~ich~jünger~war  
++ when I was younger
+- when I was under
+- then I was a young girl
+
+[LINE]
+Speaker988: Bea, I   can  see   that you're~a~hard~worker.             I   want to~hear~all~your~ideas for our    company!
+~           Bea  ich kann sehen dass du~eine~fleißige~Arbeiterin~bist  ich will all~deine~Ideen~hören  für unsere Firma   
+
+[LINE]
+Speaker507: Wow, thanks!
+~           wow  danke  
+
+[LINE]
+Speaker507: But  first,  I~should   give~you~some~bread,    or   my   other   boss will be~angry.   
+~           aber zuerst  sollte~ich Ihnen~etwas~Brot~geben  oder mein anderer Chef wird wütend~sein 
+
+[MULTIPLE_CHOICE]
+> Warum ist die CEO so beeindruckt, dass Bea einen zweiten Job hat?
+- Sie will Bea bald entlassen.
+- Sie denkt, dass sie mehr Brot bekommt.
++ Sie denkt, dass Bea eine fleißige Arbeiterin ist.
+
+[MATCH]
+> Wähle die Paare
+- a waitress <> Kellnerin
+- really wants <> will wirklich
+- This <> dies
+- couldn't <> konntest nicht
+- Bea <> Bea
+
