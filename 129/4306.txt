@@ -1,0 +1,108 @@
+[DATA]
+fromLanguageName=Mağaza
+icon=e3c4951a636e72c3f82ef749d5fbf2e61d51628d
+set=3|3
+
+[HEADER]
+> The Store 
+~ ~   Mağaza
+
+[LINE]
+Speaker392: Good~morning!
+~           günaydın     
+
+[LINE]
+Speaker391: Hello! I     need          new  clothes.    
+~           Selam  benim ihtiyacım~var yeni kıyafetlere 
+
+[LINE]
+Speaker392: I~can      help   you! 
+~           edebilirim Yardım size 
+
+[MULTIPLE_CHOICE]
+> Mağaza sahibi, adama yardım edemeyeceğini söylüyor.
+- Evet, bu doğru.
++ Hayır, bu doğru değil.
+
+[LINE]
+Speaker391: Thank~you!      
+~           teşekkür~ederim 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker392: [(What) (do~you~need)?]    
+~             neye   ihtiyacınız~var   
+
+[LINE]
+Speaker392: We    have nice  boots      and jackets…     
+~           bizim var  Güzel botlarımız ve  ceketlerimiz 
+
+[LINE]
+Speaker391: I     need          a   new  white shirt   and a   new  black jacket.
+~           benim ihtiyacım~var bir yeni beyaz gömleğe ve  bir yeni siyah cekete 
+
+[LINE]
+Speaker391: I~like   that expensive black jacket!
+~           beğendim şu   pahalı    siyah ceketi 
+
+[LINE]
+Speaker392: That~is a   very nice  jacket!
+~           bu      bir çok  Güzel ceket  
+
+[LINE]
+Speaker391: And I     need          gray pants.    
+~           Ve  benim ihtiyacım~var gri  pantolona 
+
+[CONTINUATION]
+> Sırada ne var?
+Speaker392: Easy!       Why   do~you~need     [new  clothes]?    
+~           bir~dakika  Neden ihtiyacınız~var  yeni kıyafetlere  
+- stores
++ new clothes   
+~ ~   kıyafetler
+- hair
+
+[LINE]
+Speaker391: I     have a   job~interview.
+~           benim var  bir iş~görüşmem   
+
+[MULTIPLE_CHOICE]
+> Onun neden yeni kıyafetlere ihtiyacı var?
+- Çünkü, onun bir randevusu var.
++ Çünkü, onun bir iş görüşmesi var.
+- Çünkü, o tüm eski kıyafetlerini kaybetti.
+
+[LINE]
+Speaker392: Nice!  Where  is the~job~interview?
+~           Güzel  Nerede ~  iş~görüşmesi      
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker391: [My~favorite~store]!   
+~            benim~favori~mağazam  
+- My football store
+- My favorite stop
++ My favorite store
+
+[LINE]
+Speaker392: What    is your  favorite store?    
+~           hangisi ~  sizin favori   mağazanız 
+
+[LINE]
+Speaker391: This store! 
+~           Bu   mağaza 
+
+[MULTIPLE_CHOICE]
+> İş görüşmesi nerede?
+- Yakındaki bir ofiste.
++ Kıyafet satın aldığı mağazada.
+- Hastanede.
+
+[MATCH]
+> Çiftlere dokun
+- black <> siyah
+- the job interview <> iş görüşmesi
+- that <> şu
+- new <> yeni
+- What <> neye
+
