@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=The Stranger
+icon=f3d07f61cdd95c84cb15d7f9d0e4b0dc8173072b
+set=3|3
+
+[HEADER]
+> La  sconosciuta
+~ the stranger   
+
+[LINE]
+> Luigi è  al lavoro.
+~ ~     is at work   
+
+[LINE]
+> Sta~parlando al     telefono con  un~suo~amico.   
+~ he's~talking on~the phone    with a~friend~of~his 
+
+[LINE]
+Speaker385: Questo fine~settimana...
+~           this   week~end         
+
+[LINE]
+Speaker385: ... io~e~i~miei~amici~dell'università...
+~               my~college~friends~and~I            
+
+[LINE]
+Speaker385: Aspetta un minuto. Sta~squillando~il~telefono~dell'ufficio.
+~           wait    a  minute  the~office~phone~is~ringing             
+
+[MULTIPLE_CHOICE]
+> While Luigi is talking to his friend, his office phone starts ringing.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker385: Pronto?
+~           hello  
+
+[LINE]
+Speaker292: Ciao, Luigi.
+~           hi    ~     
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker385: [Chi~è]?    
+~            who~is~it  
+- Qui è
++ Chi è
+- Che è
+
+[LINE]
+Speaker292: Un'|amica. 
+~           a   friend 
+
+[LINE]
+Speaker385: Chi?
+~           who 
+
+[ARRANGE]
+> Tap what you hear
+Speaker292: [(Ho~bisogno~del) (tuo)  (aiuto), (Luigi).]
+~             I~need           your   help     ~       
+
+[LINE]
+Speaker385: Che~cosa vuoi     da   me? Io non~ti~conosco!
+~           what     you~want from ~   I  don't~know~you 
+
+[SELECT_PHRASE]
+> Select the missing word or phrase
+Speaker292: Ma  io [conosco~te].
+~           but I   know~you    
+- conoscere
+- conosco re
++ conosco te
+
+[LINE]
+Speaker292: E   sto~venendo nel~tuo ufficio!
+~           and I'm~coming  to~your office  
+
+[LINE]
+Speaker385: No, ti~prego!  Chiamo        la  polizia!
+~           ~   I~beg~you  I~(will)~call the police  
+
+[LINE]
+Speaker292: Luigi, sono il~tuo capo!
+~           ~      I'm  your   boss 
+
+[MULTIPLE_CHOICE]
+> Who is the stranger?
+- Luigi's friend from college.
+- Luigi's mother.
++ Luigi's boss.
+
+[LINE]
+Speaker292: Devi~finire        il  lavoro!
+~           you~have~to~finish the work   
+
+[LINE]
+Speaker292: Non~telefonare~agli amici          sul~lavoro.           
+~           don't~call          (your)~friends (when~you're)~at~work 
+
+[LINE]
+Speaker292: Ti~sente~tutto~l'ufficio!     
+~           the~whole~office~can~hear~you 
+
+[LINE]
+Speaker385: Oh, no...
+
+[LINE]
+Speaker385: Scusi,     torno~subito             al~lavoro!
+~           I'm~sorry  I'll~immediately~go~back to~work   
+
+[MULTIPLE_CHOICE]
+> Luigi's boss called to tell him...
+- ... he is fired for talking to his friends.
+- … he's getting a promotion.
++ ... he needs to work instead of talking to his friends.
+
+[MATCH]
+> Tap the pairs
+- la <> the
+- sono <> I'm
+- al <> at
+- polizia <> police
+- Chiamo <> I call
+
