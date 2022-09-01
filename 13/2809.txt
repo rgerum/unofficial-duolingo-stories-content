@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=A Ticket to New York
+icon=b8d10ee56171817ff548af825d5065b5561d1482
+set=7|4
+
+[HEADER]
+> Un billet pour New~York
+~ a  ticket to   New~York
+
+[LINE]
+> Junior est à  l'| aéroport.
+~ Junior is  at the airport  
+
+[LINE]
+> Il parle~avec    une femme qui travaille à  l'| aéroport.
+~ he is~talking~to a   woman who works     at the airport  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker659: [Tu~as~besoin~de] quelque~chose ?
+~            you~need         something      
+- Tu es bien loin de
++ Tu as besoin de
+- Dans le besoin de
+
+[LINE]
+Speaker415: Je voudrais   un billet pour New~York.
+~           I  would~like a  ticket to   New~York 
+
+[CONTINUATION]
+> What comes next?
+Speaker659: Où~sont   [tes~parents  ]?
+~           where~are  your~parents   
+- tes~fenêtres
+~ your~windows
+- tes~e-mails
+~ your~emails
++ tes~parents 
+~ your~parents
+
+[LINE]
+Speaker415: Pardon ? Je n'ai~pas~sept~ans.     
+~           sorry    I  am~not~seven~years~old 
+
+[LINE]
+Speaker659: Quel~âge~as-tu  ?
+~           how~old~are~you  
+
+[LINE]
+Speaker415: J'ai~huit~ans.      
+~           I'm~eight~years~old 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "four hundred."
+Speaker659: Un (billet) pour (New~York) (coûte) (+quatre~cents) euros.
+~           a   ticket  to    New~York   costs    four~hundred  euros 
+
+[LINE]
+Speaker415: Hmm. Je peux aller où    avec treize   euros ?
+~           hmm  I  can  go    where with thirteen euros  
+
+[LINE]
+> Eddy, le~père~de~Junior, arrive. 
+~ Eddy  Junior's~father    arrives 
+
+[LINE]
+Speaker414: Junior ! Qu'est-ce~que~tu~fais ici  ?
+~           Junior   what~are~you~doing    here  
+
+[MULTIPLE_CHOICE]
+> What does Eddy want to know?
+- what the woman's name is
++ what Junior is doing at the airport
+- what time it is
+
+[LINE]
+Speaker415: J'ai   un examen~de~maths aujourd'hui. Je dois~partir loin.    
+~           I~have a  math~exam       today        I  have~to~go  far~away 
+
+[MULTIPLE_CHOICE]
+> Wait... why does Junior want to go far away?
++ He has a math test today.
+- He misses his friends.
+- He wants to see the world.
+
+[LINE]
+Speaker414: Hmm. Combien~coûte un billet ?
+~           hmm  how~much~is   a  ticket  
+
+[LINE]
+Speaker415: Quatre~cents euros.
+~           four~hundred euros 
+
+[LINE]
+Speaker414: Et  deux billets ?
+~           and two  tickets  
+
+[LINE]
+Speaker415: Huit~cents    euros.
+~           eight~hundred euros 
+
+[LINE]
+Speaker414: Ah, tu  es  très bon  en~maths !
+~           ah  you are very good at~math   
+
+[LINE]
+Speaker414: Tu  es  prêt  pour ton  examen.
+~           you are ready for  your exam   
+
+[MULTIPLE_CHOICE]
+> Eddy tricked Junior to show him that…
+- …they should travel more.
+- …the tickets are very cheap.
++ …he is ready for his math test.
+
+[MATCH]
+> Tap the pairs
+- voudrais <> would like
+- tes parents <> your parents
+- Et <> and
+- quatre cents <> four hundred
+- es <> are
+
