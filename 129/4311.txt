@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=Yeni Öğrenci
+icon=5afbf601db955e3db76a96aea1d4e0a535c16e7c
+set=4|4
+
+[HEADER]
+> The New  Student
+~ ~   Yeni Öğrenci
+
+[LINE]
+> Zari and Lily are~sitting together on  the~school~bus.
+~ ~    ve  ~    oturuyorlar birlikte -de okul~otobüsü   
+
+[MULTIPLE_CHOICE]
+> Zari ve Lily okul otobüsünde birlikte oturuyorlar.
+- Hayır, bu doğru değil.
++ Evet, bu doğru.
+
+[LINE]
+Speaker418: Lily, there~is a   new  student in  our   class!    
+~           ~     var      bir yeni Öğrenci -da bizim sınıfımız 
+
+[LINE]
+Speaker418: His  name is Miguel.
+~           Onun adı  ~  ~      
+
+[LINE]
+Speaker416: Miguel, huh?
+~           ~       ha  
+
+[LINE]
+Speaker418: He is from~Mexico.
+~           O  ~  Meksikalı   
+
+[LINE]
+Speaker418: His  father writes books!
+~           Onun babası yazar  kitap 
+
+[LINE]
+Speaker416: Very interesting.
+~           Çok  enteresan   
+
+[CONTINUATION]
+> Sıradaki ne olabilir?
+Speaker418: He speaks  three [languages].
+~           O  biliyor üç     dil        
+- books
++ languages
+- fathers
+
+[LINE]
+Speaker416: Oh, he is intelligent.
+~           ~   o  ~  zeki        
+
+[LINE]
+Speaker418: Intelligent… and tall.       And he   has beautiful…
+~           zeki         ve  uzun~boylu  Ve  onun var güzel     
+
+[LINE]
+Speaker416: Haha, yes? 
+~           ~     Evet 
+
+[LINE]
+Speaker418: Um. Beautiful shoes.       
+~           ~   Güzel     ayakkabıları 
+
+[POINT_TO_PHRASE]
+> "Arkanda" anlamına gelen seçeneği tıklayın.
+Speaker416: (Zari), (Miguel) is~sitting (+behind)  (you).  
+~            ~       ~       oturuyor     arkanda   senin  
+
+[LINE]
+Speaker418: What?!   
+~           efendim  
+
+[LINE]
+Speaker416: Hi,    Miguel!
+~           Selam  ~      
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker790: Hi,    Lily! [How~are~you]?
+~           Selam  ~      nasılsın     
++ How are you
+- How I do
+- Here are two
+
+[LINE]
+Speaker416: I   am~good, thanks.     
+~           ben iyiyim   Teşekkürler 
+
+[LINE]
+Speaker416: Miguel, this~is my~friend,       Zari.
+~           ~       bu      benim~arkadaşım  ~    
+
+[LINE]
+Speaker416: She likes    your…  shoes.         
+~           O   beğenmiş senin  ayakkabılarını 
+
+[LINE]
+Speaker418: Oh, um, hi,    Miguel.
+~           ~   ~   Selam  Miguel 
+
+[MULTIPLE_CHOICE]
+> Zari şaşırdı çünkü ...
+- … Ödevini yapmayı unuttu.
+- … Miguel'in ayakkabılarının çok çirkin olduğu için.
++ … Miguel'in arkasında oturduğunu bilmiyordu.
+
+[MATCH]
+> Çiftlere dokun
+- a <> bir
+- Hi <> Selam
+- student <> Öğrenci
+- my friend <> benim arkadaşım
+- shoes <> ayakkabıları
+
