@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=Con ốm
+icon=68ffeb0d8b8a73e7de5cd3b964b34d0e08761977
+set=9|3
+
+[HEADER]
+> I   Feel     Sick      
+~ con cảm~thấy không~khỏe
+
+[LINE]
+Speaker415: Dad!   I   feel     sick!      
+~           bố~ơi  con cảm~thấy không~khỏe 
+
+[LINE]
+Speaker414: Oh,~no!  
+~           ôi~vậy~ư 
+
+[LINE]
+> Eddy touches Junior's~head. 
+~ Eddy sờ~lên  đầu~của~Junior 
+
+[LINE]
+Speaker414: You don't~have~a~fever.
+~           con không~bị~sốt       
+
+[MULTIPLE_CHOICE]
+> Junior bị sốt.
++ Không đúng.
+- Đúng vậy.
+
+[LINE]
+Speaker415: But   my~ear  hurts! I   want to~go to  the~doctor's~office!
+~           nhưng tai~con đau    con muốn đi    tới phòng~khám~bác~sĩ   
+
+[LINE]
+Speaker414: OK...       
+~           thôi~được   
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+> [(They) (go) (to)  (the~doctor's~office).]
+~   họ     đi   tới   phòng~khám~bác~sĩ     
+
+[LINE]
+Speaker341: It's~nice~to~see~you~again, Junior.
+~           rất~vui~được~gặp~lại~cháu   Junior 
+
+[LINE]
+Speaker341: What's~wrong?   
+~           cháu~bị~làm~sao 
+
+[LINE]
+Speaker414: His~ear~hurts.      
+~           thằng~bé~bị~đau~tai 
+
+[LINE]
+Speaker341: Oh,~no!   I~can~help.     
+~           ôi~vậy~ư  để~bác~giúp~nhé 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+> The~doctor looks~at [Junior's~ear].  
+~ bác~sĩ     nhìn      tai~của~Junior  
++ Junior's~ear  
+~ tai~của~Junior
+- the~clock
+~ đồng~hồ  
+- Eddy's~shoes 
+~ giày~của~Eddy
+
+[LINE]
+Speaker341: Hmmm…    Your~ear~is fine.     
+~           xem~nào  tai~cháu    không~sao 
+
+[LINE]
+Speaker415: Oh!    Well…    My~foot       hurts.
+~           thế~ạ  vậy~thì  bàn~chân~cháu đau   
+
+[LINE]
+> The~doctor looks~at Junior's~foot.      
+~ bác~sĩ     nhìn     bàn~chân~của~Junior 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker341: Your~foot     [is~also~fine].  
+~           bàn~chân~cháu  cũng~không~sao  
+- is also mine
+- it's all the wine
++ is also fine
+
+[LINE]
+Speaker414: Is~he~OK,            Doctor?   
+~           thằng~bé~vẫn~ổn~chứ  hả~bác~sĩ 
+
+[LINE]
+Speaker341: Yes.     
+~           đúng~vậy 
+
+[LINE]
+Speaker341: You're~not sick,  Junior.
+~           cháu~không bị~ốm  Junior 
+
+[LINE]
+Speaker415: I~am sick!    
+~           cháu bị~ốm~mà 
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “kẹo”.
+Speaker341: (Junior)... are~you~here               (because) I   (always) give~you (+candy)?
+~            Junior     có~phải~cháu~tới~đây…không  vì       bác  luôn    cho~cháu   kẹo    
+
+[LINE]
+Speaker415: Umm… Yes.   
+~           ờm   vâng~ạ 
+
+[LINE]
+Speaker414: Junior!
+~           Junior 
+
+[LINE]
+Speaker415: So...  Can~I~have~my~candy~now?      
+~           thế    giờ~cháu~nhận~kẹo~được~chưa~ạ 
+
+[MULTIPLE_CHOICE]
+> Bó tay với Junior! Vì sao cậu ấy lại muốn gặp bác sĩ?
+- Cậu ấy có quà cho bác sĩ.
+- Cậu ấy đang bị ốm nặng.
++ Bác sĩ lúc nào cũng cho cậu ấy kẹo.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- fine <> không sao
+- to go <> đi
+- I <> con
+- Your ear is <> tai cháu
+- But <> nhưng
+
