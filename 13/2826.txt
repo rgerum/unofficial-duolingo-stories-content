@@ -1,0 +1,98 @@
+[DATA]
+fromLanguageName=The Kitchen Is Really Dirty
+icon=0e6ab8c3a4e3224cb700e8daeac0038f7f0e929e
+set=12|1
+
+[HEADER]
+> La  cuisine est très sale 
+~ the kitchen is  very dirty
+
+[LINE]
+> Béa va   chez~son~amie,~Deb.       
+~ Béa goes to~her~friend~Deb's~place 
+
+[LINE]
+Speaker507: Salut, Deb ! Ça~va      ?
+~           hi     Deb   are~you~OK  
+
+[LINE]
+Speaker175: Non !
+~           no   
+
+[LINE]
+Speaker507: Oh, pourquoi ?
+~           oh  why       
+
+[LINE]
+Speaker175: Ma nouvelle colocataire est horrible.
+~           my new      roommate    is  horrible 
+
+[MULTIPLE_CHOICE]
+> Deb thinks her new roommate is very nice.
+- Yes, that's right.
++ No, that's wrong.
+
+[POINT_TO_PHRASE]
+> Choose the option that means "dirty."
+Speaker507: (Oui), je peux~voir ça   ! La  cuisine (est) (très) (+sale). 
+~            yes   I  can~see   that   the kitchen  is    very    dirty  
+
+[LINE]
+Speaker175: Je sais...
+~           I  know   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: Beurk, ce~sont   des~vieilles~bananes [sur~la~table] ?
+~           yuck   are~those old~bananas           on~the~table   
++ sur la table
+- dans le portable
+- sans la table
+
+[LINE]
+Speaker175: Oui.
+~           yes 
+
+[ARRANGE]
+> Tap what you hear
+Speaker507: [(Et~il~y~a)     (des~vêtements~sales) (sur) (les~chaises) ]!
+~             and~there~are   dirty~clothes         on    the~chairs     
+
+[LINE]
+Speaker507: Mais... c'est  ton  T-shirt !
+~           but     that's your T-shirt  
+
+[LINE]
+Speaker175: Oui.
+~           yes 
+
+[LINE]
+Speaker507: Ce~sont   tes  vêtements !
+~           those~are your clothes    
+
+[LINE]
+Speaker507: Et  ce~sont   tes  bananes ?!
+~           and those~are your bananas   
+
+[LINE]
+Speaker175: Oui ! Je n'aime~pas nettoyer, et  ma colocataire ne~nettoie~pas pour moi.
+~           yes   I  don't~like to~clean  and my roommate    doesn't~clean  for  me  
+
+[LINE]
+Speaker175: Elle est horrible !
+~           she  is  horrible  
+
+[MULTIPLE_CHOICE]
+> Ah ha! Why does Deb think her roommate is horrible?
++ She doesn't clean Deb's mess.
+- She always buys old bananas.
+- She wears all of Deb's clothes.
+
+[MATCH]
+> Tap the pairs
+- Et <> and
+- La <> the
+- moi <> me
+- des vêtements sales <> dirty clothes
+- nettoyer <> to clean
+
