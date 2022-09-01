@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=Mi sento male
+icon=68ffeb0d8b8a73e7de5cd3b964b34d0e08761977
+set=9|3
+
+[HEADER]
+> I~Feel~Sick  
+~ mi~sento~male
+
+[LINE]
+Speaker415: Dad!  I~feel~sick!       
+~           papà  (io)~mi~sento~male 
+
+[LINE]
+Speaker414: Oh, no!
+~           oh  no 
+
+[LINE]
+> Eddy touches Junior's~head.     
+~ Eddy tocca   la~testa~di~Junior 
+
+[LINE]
+Speaker414: You~don't~have a~fever.  
+~           (tu)~non~hai   la~febbre 
+
+[MULTIPLE_CHOICE]
+> Junior ha la febbre.
+- Sì, è giusto.
++ No, è sbagliato.
+
+[LINE]
+Speaker415: But my~ear~hurts!          I~want      to~go  to~the~doctor's~office!       
+~           ma  mi~fa~male~l'orecchio  (io)~voglio andare nello~studio~della~dottoressa 
+
+[LINE]
+Speaker414: OK…
+~           OK 
+
+[LINE]
+> They~go      to~the~doctor's~office.       
+~ (loro)~vanno nello~studio~della~dottoressa 
+
+[LINE]
+Speaker341: It's nice  to~see~you again,    Junior.
+~           è    bello vederti    di~nuovo  Junior 
+
+[LINE]
+Speaker341: What's~wrong?
+~           cosa~non~va  
+
+[LINE]
+Speaker414: His~ear~hurts.         
+~           gli~fa~male~l'orecchio 
+
+[LINE]
+Speaker341: Oh, no! I~can~help.        
+~           oh  no  (io)~posso~aiutare 
+
+[CONTINUATION]
+> Come continua la frase?
+> The doctor     looks~at [Junior's~ear].        
+~ la  dottoressa guarda    l'orecchio~di~Junior  
+- Eddy's~shoes     
+~ le~scarpe~di~Eddy
+- the~clock 
+~ l'orologio
++ Junior's~ear        
+~ l'orecchio~di~Junior
+
+[LINE]
+Speaker341: Hmmm… Your   ear      is~fine. 
+~           uhm   il~tuo orecchio sta~bene 
+
+[LINE]
+Speaker415: Oh! Well… My~foot~hurts.      
+~           oh  beh   mi~fa~male~il~piede 
+
+[ARRANGE]
+> Seleziona ciò che senti
+> [(The) (doctor)     (looks~at) (Junior's~foot).]     
+~   la    dottoressa   guarda     il~piede~di~Junior   
+
+[SELECT_PHRASE]
+> Seleziona la frase mancante
+Speaker341: Your   foot  [is~also~fine].  
+~           il~tuo piede  sta~bene~anche  
+- it's all the wine
+- is also mine
++ is also fine
+
+[LINE]
+Speaker414: Is~he~OK,       Doctor?    
+~           (lui)~sta~bene  dottoressa 
+
+[LINE]
+Speaker341: Yes.
+~           sì  
+
+[LINE]
+Speaker341: You're~not~sick,  Junior.
+~           tu~non~stai~male  Junior 
+
+[LINE]
+Speaker415: I  am~sick! 
+~           io sto~male 
+
+[POINT_TO_PHRASE]
+> Seleziona l'opzione che significa "le caramelle".
+Speaker341: (Junior)… (are~you)  (here) because I~always~give~you (+candy)?       
+~            Junior    (tu)~sei   qui   perché  (io)~ti~do~sempre   le~caramelle  
+
+[LINE]
+Speaker415: Umm… Yes.
+~           uhm  sì  
+
+[LINE]
+Speaker414: Junior!
+~           Junior 
+
+[LINE]
+Speaker415: So…     Can~I~have       my     candy     now?   
+~           quindi  (io)~posso~avere le~mie caramelle adesso 
+
+[MULTIPLE_CHOICE]
+> Oh, Junior! Perché voleva andare dalla dottoressa?
+- Stava molto male.
++ Lei gli dà sempre delle caramelle.
+- Aveva un regalo per lei.
+
+[MATCH]
+> Tocca le coppie
+- Junior's head <> la testa di Junior
+- It's <> è
+- OK <> OK
+- foot <> piede
+- a fever <> la febbre
+
