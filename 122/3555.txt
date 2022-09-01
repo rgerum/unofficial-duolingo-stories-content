@@ -1,0 +1,161 @@
+[DATA]
+fromLanguageName=Die Sicherheitsfrage
+icon=9558b378d2ca0a3f0626205e03866b3e91153f01
+set=30|2
+
+[HEADER]
+> The Security~Question
+~ die Sicherheitsfrage 
+
+[LINE]
+> Priti and Vikram are~walking quickly down~the~street.   
+~ Priti und Vikram gehen       schnell die~Straße~entlang 
+
+[LINE]
+Speaker560: I   can't           wait     to~see~this~play!            
+~           ich kann~(es)~nicht abwarten dieses~Theaterstück~zu~sehen 
+
+[LINE]
+Speaker593: Do~you~have the tickets?        
+~           hast~du     die Eintrittskarten 
+
+[LINE]
+Speaker560: Oh no.  
+~           oh nein 
+
+[LINE]
+> Priti stops  and looks  in her  purse.     
+~ Priti stoppt und schaut in ihre Handtasche 
+
+[LINE]
+Speaker560: I   forgot~them~at~home.        
+~           ich habe~sie~zu~Hause~vergessen 
+
+[MULTIPLE_CHOICE]
+> Oh-oh! Was ist das Problem?
++ Priti hat die Eintrittskarten für das Theaterstück vergessen.
+- Priti will das Theaterstück nicht sehen.
+- Jemand hat Pritis Handtasche gestohlen.
+
+[LINE]
+Speaker593: Oh no!   We  don't~have~time  to~go~home          and get~them.    
+~           oh nein  wir haben~keine~Zeit nach~Hause~zu~gehen und sie~zu~holen 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker560: I   was~so~excited              to~see~the~play.           [I've~waited~for~months]!        
+~           ich habe~mich~so~darauf~gefreut das~Theaterstück~zu~sehen   ich~habe~seit~Monaten~gewartet  
+- Why wait here for months
+- I've played here four months
++ I've waited for months
+
+[LINE]
+Speaker593: Wait…  I   have the tickets         on  my     phone!
+~           warte  ich habe die Eintrittskarten auf meinem Handy 
+
+[LINE]
+Speaker593: Hmm… I   have to~log~into~my~account,         but  I   forgot~my~password.          
+~           hmm  ich muss mich~bei~meinem~Konto~anmelden  aber ich habe~mein~Passwort~vergessen 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „Sicherheitsfrage“.
+Speaker593: I   (can)  (answer)      a    (+security~question) (to~log~in),          but… 
+~           ich  kann   beantworten  eine   Sicherheitsfrage    um~mich~anzumelden   aber 
+
+[LINE]
+Speaker560: What?
+~           was  
+
+[LINE]
+Speaker593: The question is,  "What's   your~brother's~birthday?"     
+~           die Frage    ist   wann~ist der~Geburtstag~Ihres~Bruders  
+
+[LINE]
+Speaker560: So? 
+~           und 
+
+[LINE]
+Speaker593: I   forgot~it.        
+~           ich habe~es~vergessen 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker560: You forgot         [your~brother's~birthday?]!      
+~           du  hast~vergessen  den~Geburtstag~deines~Bruders   
+- your   birthday  
+~ deinen Geburtstag
+- my    purse     
+~ meine Handtasche
++ your~brother's~birthday     
+~ den~Geburtsag~deines~Bruders
+
+[LINE]
+Speaker593: I   never~remember~dates.     
+~           ich kann~mir~nie~Daten~merken 
+
+[LINE]
+Speaker560: Let's~call~your~brother.   
+~           rufen~wir~deinen~Bruder~an 
+
+[ARRANGE]
+> Was hörst du?
+Speaker593: [(Then) (he'll~know)     (that) (I)   (forgot~his~birthday)!]             
+~             dann   wird~er~wissen   dass   ich   seinen~Geburtstag~vergessen~habe   
+
+[LINE]
+Speaker560: Did~you~forget    how expensive these tickets         were? 
+~           hast~du~vergessen wie teuer     diese Eintrittskarten waren 
+
+[LINE]
+Speaker593: OK, OK, I'll      call~him.   
+~           OK  OK  ich~werde ihn~anrufen 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+> Vikram [calls~his~brother]     and asks  about his    birthday.  
+~ Vikram  ruft~seinen~Bruder~an  und fragt nach  seinem Geburtstag 
+- calls this mother
+- kills another
++ calls his brother
+
+[LINE]
+Speaker593: Priti, it worked!           I   got~the~tickets!                  
+~           Priti  es hat~funktioniert  ich habe~die~Eintrittskarten~bekommen 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker560: Wonderful! We're~finally~going to~see~this~play      y]!
+~           wunderbar  wir~werden~endlich  das~Theaterstück~sehen   
+- a    birthday~party  
+~ eine Geburtstagsparty
+- your   brother
+~ deinen Bruder 
++ this play        
+~ das  Theaterstück
+
+[LINE]
+Speaker593: Wait…  One problem. The tickets         were  for last   night.
+~           warte  ein Problem  die Eintrittskarten waren für letzte Nacht 
+
+[LINE]
+Speaker560: What?!
+~           was   
+
+[LINE]
+Speaker593: I   told~you        that I   never~remember~dates.     
+~           ich habe~dir~gesagt dass ich kann~mir~nie~Daten~merken 
+
+[MULTIPLE_CHOICE]
+> Vikram und Priti haben die Eintrittskarten, aber …
++ … sie waren für die Aufführung vom Abend zuvor.
+- … Priti ist zu traurig, um das Theaterstück zu sehen.
+- … Vikrams Bruder kommt jetzt auch.
+
+[MATCH]
+> Wähle die Paare
+- Did you forget <> hast du vergessen
+- my <> meinem
+- he'll know <> wird er wissen
+- You <> du
+- stops <> stoppt
+
