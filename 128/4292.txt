@@ -1,0 +1,124 @@
+[DATA]
+fromLanguageName=Con muốn theo nghề bố
+icon=801667abeebafff15f24357bcfe453e3f5688383
+set=32|3
+
+[HEADER]
+> I   Want to~Be~like                You
+~ con muốn trở~thành~người~giống~như bố 
+
+[LINE]
+> Junior gets~in Eddy's~car       after~school.   
+~ Junior lên     xe~ô~tô~của~Eddy sau~giờ~tan~học 
+
+[LINE]
+Speaker414: How~was~school~today,     Junior?
+~           nay~đi~học~vui~không~con  Junior 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker415: Great!     We      talked       [about~jobs].    
+~           vui~lắm~ạ  bọn~con đã~thảo~luận  về~nghề~nghiệp  
++ about jobs
+- about dogs
+- around jobs
+
+[LINE]
+Speaker415: Guess    what~I~want~to~be when I   grow~up?
+~           đoán~xem con~muốn~làm~gì   khi  con lớn~lên 
+
+[LINE]
+Speaker414: Hmm.     I  don't~know.     A~soccer~player?      
+~           xem~nào  bố chẳng~biết~nữa  cầu~thủ~bóng~đá~chăng 
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “huấn luyện”.
+Speaker415: (No).    I   (want) (+to~train)   (lions)!
+~            không   con  muốn    huấn~luyện   sư~tử  
+
+[LINE]
+Speaker414: Oh, that's~an~exciting~job!
+~           ồ   công~việc~thú~vị~đấy   
+
+[LINE]
+Speaker415: I'm~going~to teach lions to~jump through big~rings~of~fire… 
+~           con~sẽ       dạy   sư~tử nhảy    qua     những~vòng~lửa~lớn 
+
+[LINE]
+Speaker414: Ooh!   
+~           ái~chà 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker415: [(And)    (I'll~teach) (them)  (to~dance)!]
+~             với~cả   con~sẽ~dạy   chúng   nhảy~múa   
+
+[LINE]
+Speaker414: I'd~like~to~see~that!    
+~           bố~muốn~thấy~cảnh~đó~quá 
+
+[LINE]
+Speaker415: I'll~even~be~able~to   put~my~head~in               their~mouths!
+~           con~sẽ~thậm~chí~có~thể chui~đầu~(của~con)~vào~trong miệng~chúng  
+
+[LINE]
+Speaker414: You~should~be careful.  That    sounds     very dangerous!
+~           con~nên       cẩn~thận  việc~đó nghe~có~vẻ rất  nguy~hiểm 
+
+[LINE]
+Speaker415: Don't~worry, I'm~going~to be        an  excellent~lion~trainer.         
+~           đừng~lo      con~sẽ       trở~thành một người~huấn~luyện~sư~tử~xuất~sắc 
+
+[MULTIPLE_CHOICE]
+> Vì sao Junior lại nói với Eddy là đừng lo lắng?
+- Sư tử của cậu ấy có bộ hàm rất bé.
+- Thật ra cậu ấy muốn làm cầu thủ bóng đá.
++ Cậu ấy nghĩ mình sẽ huấn luyện sư tử rất tốt.
+
+[LINE]
+Speaker414: Where~did~you~get   this~idea?  
+~           con~đã~lấy~ở~đâu~ra ý~tưởng~này 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker415: That's your~job.            And I   want~to~be [just~like~you]!
+~           đó~là  công~việc~của~bố~mà  và  con muốn~được   giống~như~bố   
++ just like you
+- just like who
+- dust like you
+
+[LINE]
+Speaker414: Wait.  You think I'm   a~lion~trainer?        
+~           khoan  con nghĩ  bố~là người~huấn~luyện~sư~tử 
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “roi da”.
+Speaker415: (Yes).  I~was~looking in    your~closet,       (and)   I   (found)   your~leather~pants and (+whips). 
+~            vâng   lúc~con~ngó   trong tủ~quần~áo~của~bố   (thì)  con  đã~thấy  quần~da~của~bố     và    roi~da  
+
+[LINE]
+Speaker414: Oh!       Uh…
+~           ôi~thế~á  ờm 
+
+[LINE]
+Speaker415: You are a~lion~trainer,         aren't~you?      
+~           bố  là  người~huấn~luyện~sư~tử  phải~không~hả~bố 
+
+[LINE]
+Speaker414: Um… yes.          I  was~going~to tell you, but   I  forgot.  
+~           ừm  đúng~rồi~đấy  bố đã~định      bảo  con  nhưng bố quên~mất 
+
+[MULTIPLE_CHOICE]
+> Junior tưởng Eddy làm nghề huấn luyện sư tử vì…
+- …Eddy thích nhảy qua vòng tròn lửa.
+- …Eddy dạy sư tử khiêu vũ trong nhà.
++ …Eddy cất quần da và roi da trong tủ quần áo.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- about jobs <> về nghề nghiệp
+- found <> đã thấy
+- Junior <> Junior
+- That's <> đó là
+- I was looking <> lúc con ngó
+
