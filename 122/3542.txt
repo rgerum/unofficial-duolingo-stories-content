@@ -1,0 +1,168 @@
+[DATA]
+fromLanguageName=Sommerpullover
+icon=a6221e8716923ce3381efbbfc20a0913ce314fdb
+set=27|1
+
+[HEADER]
+> Summer~Sweater
+~ Sommerpullover
+
+[LINE]
+> Eddy and Junior are  at~the mall.           
+~ Eddy und Junior sind im     Einkaufszentrum 
+
+[LINE]
+Speaker415: Dad,  why   are  we  here? You hate  this   store.   
+~           Papa  warum sind wir hier  du  hasst dieses Geschäft 
+
+[LINE]
+Speaker414: I   need    a     sweater. 
+~           ich brauche einen Pullover 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker415: [But~it's~summer].   
+~            aber~es~ist~Sommer  
+- But it's somewhere
++ But it's summer
+- Buy this summer
+
+[LINE]
+> A    salesperson walks up~to them. 
+~ eine Verkäuferin geht  zu    ihnen 
+
+[LINE]
+Speaker561: Hi again,    Eddy!
+~           hi noch~mal  Eddy 
+
+[LINE]
+Speaker414: Yes, my   name is  Eddy. I   mean…  hello!
+~           ja   mein Name ist Eddy  ich meine  hallo 
+
+[LINE]
+Speaker415: Oh. I   know why   we're~here…   
+~           oh  ich weiß warum wir~hier~sind 
+
+[LINE]
+Speaker561: Can  I   help~you   find~something? 
+~           kann ich dir~helfen etwas~zu~finden 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker414: Yes! I'm~looking for  [a     sweater]. 
+~           ja   ich~suche   nach  einem Pullover  
+- my pet fish
+- Junior
++ a sweater
+
+[LINE]
+Speaker561: You should   try~on~this~green~sweater.          It's~going to~look~good~on~you.
+~           du  solltest diesen~grünen~Pullover~anprobieren  er~wird    gut~an~dir~aussehen 
+
+[LINE]
+Speaker414: Cool, thanks!
+~           cool  danke  
+
+[LINE]
+Speaker415: You don't~like~green.
+~           du  magst~kein~Grün  
+
+[LINE]
+Speaker414: Shh.  No.   I   love  green!
+~           psst  nein  ich liebe Grün  
+
+[ARRANGE]
+> Was hörst du?
+> [(Eddy) (puts~on)  (the) (sweater).] 
+~   Eddy   zieht~an   den   Pullover   
+
+[LINE]
+Speaker561: You look~amazing!        
+~           du  siehst~großartig~aus 
+
+[LINE]
+Speaker415: It looks~too~small,    Dad. 
+~           er sieht~zu~klein~aus  Papa 
+
+[LINE]
+Speaker414: What? No.  
+~           was   nein 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker561: And it's   [on~sale].   
+~           und er~ist  im~Angebot  
++ on sale
+- one shell
+- on scale
+
+[LINE]
+Speaker414: I'll~take~it! 
+~           ich~nehme~ihn 
+
+[LINE]
+Speaker414: And… I'm~going to~wear~it~home.          
+~           und  ich~werde ihn~bis~nach~Hause~tragen 
+
+[LINE]
+Speaker561: Great! Have~a~nice~day!  I   hope  I   see  you  again~soon!! 
+~           toll   schönen~Tag~noch  ich hoffe ich sehe dich bald~wieder  
+
+[LINE]
+Speaker414: Really?  
+~           wirklich 
+
+[MULTIPLE_CHOICE]
+> Eddy scheint sich Hoffnungen zu machen. Warum?
+- Er geht mit Junior zusammen eine Pizza essen.
+- Junior kauft sich einen passenden Pullover.
++ Die Verkäuferin hat gesagt, dass sie ihn gern bald wiedersehen würde.
+
+[LINE]
+Speaker415: Let's~go,  Dad. 
+~           gehen~wir  Papa 
+
+[LINE]
+> Eddy and Junior leave     the store.   
+~ Eddy und Junior verlassen das Geschäft 
+
+[LINE]
+Speaker415: Dad,  are  you sure   you're~OK?       Your face    is  blue.
+~           Papa  bist du  sicher dass~du~OK~bist  dein Gesicht ist blau 
+
+[MULTIPLE_CHOICE]
+> Warum ist Eddys Gesicht blau?
+- Er trägt blaues Make-up.
+- Er hat viele Beeren gegessen.
++ Der Pullover ist zu klein.
+
+[LINE]
+Speaker414: I'm~fine!      
+~           mir~geht's~gut 
+
+[LINE]
+Speaker415: You can't~take~the~sweater~off,          can~you?   
+~           du  kannst~den~Pullover~nicht~ausziehen  nicht~wahr 
+
+[LINE]
+Speaker414: No.  
+~           nein 
+
+[LINE]
+Speaker415: Let's~go  buy~some~scissors. 
+~           gehen~wir eine~Schere~kaufen 
+
+[MULTIPLE_CHOICE]
+> Warum hat Eddy einen Pullover angezogen, der zu klein war?
+- Weil ihm kalt war.
++ Weil er mit der Verkäuferin flirten wollte.
+- Weil Junior es ihm befohlen hat.
+
+[MATCH]
+> Wähle die Paare
+- is <> ist
+- Let's go <> gehen wir
+- on sale <> im Angebot
+- are <> sind
+- green <> Grün
+
