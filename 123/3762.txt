@@ -1,0 +1,118 @@
+[DATA]
+fromLanguageName=El modelo
+icon=bf0f585cb9c595dad852ba30870242b639057e4f
+set=7|1
+
+[HEADER]
+> Le modèle
+~ el modelo
+
+[LINE]
+> Eddy arrive dans~la salle~de~classe d'Oscar. 
+~ Eddy llega  al      aula            de~Oscar 
+
+[LINE]
+Speaker414: Salut, je~peux entrer ?
+~           hola   puedo   entrar  
+
+[LINE]
+Speaker592: Mon cours d'art   est dans cinq  minutes.
+~           mi  clase de~arte es  en   cinco minutos 
+
+[LINE]
+Speaker414: Mais je m'ennuie…      
+~           pero yo estoy~aburrido 
+
+[MULTIPLE_CHOICE]
+> Eddy está aburrido.
+- No, no es así.
++ Sí, así es.
+
+[LINE]
+Speaker592: Tu n'as~pas~de cours maintenant ?
+~           tú no~tienes   clase ahora       
+
+[LINE]
+Speaker414: Non. Je~peux t'aider  à faire quelque~chose ?
+~           no   puedo   ayudarte a hacer algo           
+
+[LINE]
+Speaker592: Tu veux    m'aider,  toi ?!
+~           tú quieres ayudarme  tú    
+
+[LINE]
+Speaker592: Je ne~sais~pas…
+~           yo no~sé       
+
+[LINE]
+Speaker592: Ah, oui, je sais !
+~           ah  sí   yo sé    
+
+[LINE]
+Speaker414: Génial !
+~           genial  
+
+[LINE]
+Speaker592: Tu peux   mettre  ce   chapeau  ?
+~           tú puedes ponerte este sombrero  
+
+[MULTIPLE_CHOICE]
+> ¿Qué es lo que Oscar le pidió a Eddy que se pusiera?
+- una peluca
++ un sombrero
+- una camiseta
+
+[LINE]
+Speaker414: Oui !
+~           sí   
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+> [(Eddy) (met)     (le~chapeau)  (et) (regarde~Oscar).]
+~   Eddy   se~pone   el~sombrero   y    mira~a~Oscar    
+
+[LINE]
+Speaker592: Très bien. Maintenant, silence  !
+~           muy  bien  ahora       silencio  
+
+[LINE]
+Speaker414: Pourquoi ?
+~           por~qué   
+
+[LINE]
+Speaker592: Mon cours d'art   est dans une~minute. J'ai~besoin~d'un modèle.
+~           mi  clase de~arte es  en   un~minuto   necesito~un      modelo 
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker592: Les modèles [ne~parlent~pas].
+~           los modelos  no~hablan       
+- et regarde Oscar
+~ y  mira~a  Oscar
++ ne~parlent~pas
+~ no~hablan     
+- dans cinq  minutes
+~ en   cinco minutos
+
+[LINE]
+Speaker414: Mais je m'ennuie       !
+~           pero yo estoy~aburrido  
+
+[LINE]
+Speaker592: Chut !
+~           shh   
+
+[MULTIPLE_CHOICE]
+> ¡Ay! ¿Por qué Eddy todavía está aburrido?
++ Oscar quiere que se ponga un sombrero  y se calle.
+- A él no le gusta la clase de arte.
+- Quiere iniciar una agencia de modelos.
+
+[MATCH]
+> Selecciona los pares
+- ne parlent pas <> no hablan
+- à <> a
+- Les <> los
+- modèle <> modelo
+- Salut <> hola
+
