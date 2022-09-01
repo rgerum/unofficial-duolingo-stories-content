@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=The Manager's Office
+icon=5e30e8550b553e3eab1690b49a538c688e556e50
+set=26|1
+
+[HEADER]
+> Le  bureau~du~manager
+~ the manager's~office 
+
+[LINE]
+> Béa doit   aller   dans le  bureau~du~manager parce~qu'il veut  la~voir.   
+~ Béa has~to (to)~go to   the manager's~office  because~he  wants to~see~her 
+
+[LINE]
+Speaker2144: Asseyez-vous. Je dois    vous~parler.     
+~            sit~down      I  have~to (to)~talk~to~you 
+
+[LINE]
+Speaker507: Vous avez~vu les~rapports que  j'ai~mis sur votre~bureau ?
+~           you  saw     the~reports  that I~put    on  your~desk     
+
+[LINE]
+Speaker2144: Oui, tous~les~trois.   
+~            yes  all~three~of~them 
+
+[MULTIPLE_CHOICE]
+> Béa gave the manager...
++ ...three reports.
+- ...a new desk.
+- ...chairs for his office.
+
+[LINE]
+Speaker507: Et  vous avez~aimé ma~présentation ce   matin,   pendant la~réunion  ?
+~           and you  liked     my~presentation this morning  during  the~meeting  
+
+[LINE]
+Speaker2144: Elle~était très intéressante.
+~            it~was     very interesting  
+
+[LINE]
+Speaker507: Et  vous avez~aimé le~gâteau que  j'ai~préparé pour l'anniversaire~de~Léa ?
+~           and you  liked     the~cake  that I~made       for  Léa's~birthday         
+
+[LINE]
+Speaker2144: Ah, oui. Il~était délicieux !
+~            ah  yes  it~was   delicious  
+
+[LINE]
+Speaker507: Ah, et  je suis désolée. Je suis~arrivée en~retard hier.     
+~           ah  and I  am   sorry    I  arrived      late      yesterday 
+
+[MULTIPLE_CHOICE]
+> Hmm... why does Béa apologize?
+- She didn't prepare her presentation.
++ She was late yesterday.
+- She forgot her boss's birthday.
+
+[LINE]
+Speaker2144: Vous étiez en~retard ?
+~            you  were  late       
+
+[LINE]
+Speaker507: C'était la  dernière fois !
+~           it~was  the last     time  
+
+[LINE]
+Speaker507: Je vais     arriver   tous~les~jours à  sept~heures   du~matin       !
+~           I  am~going to~arrive every~day      at seven~o'clock in~the~morning  
+
+[LINE]
+Speaker2144: Ce   n'est~pas nécessaire…
+~            that is~not    necessary  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: Je vais~aussi    travailler tard. [Tous~les~jours] !
+~           I  am~also~going to~work    late   every~day        
+- Tuer mes jours
++ Tous les jours
+- Tous les fours
+
+[LINE]
+Speaker2144: Ce   n'est~vraiment~pas nécessaire.
+~            that is~really~not      necessary  
+
+[LINE]
+Speaker507: Pourquoi ?
+~           why       
+
+[ARRANGE]
+> Tap what you hear
+Speaker2144: [(Parce~que) (vous) (ne~travaillez~pas) (ici).] 
+~              because     you    don't~work          here   
+
+[LINE]
+Speaker507: Ah, oui… C'est   un~problème ?
+~           ah  yes  is~that a~problem    
+
+[LINE]
+Speaker2144: Oui. En~fait, qui êtes-vous ?
+~            yes  in~fact  who are~you    
+
+[CONTINUATION]
+> What comes next?
+Speaker507: Je suis Béa et  je suis [très motivée   ]!
+~           I  am   Béa and I  am    very motivated   
+- sur votre~bureau
+~ on  your~desk   
+- en~retard
+~ late     
++ très motivée  
+~ very motivated
+
+[LINE]
+Speaker2144: Enchanté,         Béa.
+~            nice~to~meet~you  Béa 
+
+[LINE]
+Speaker507: Je~peux~vous~donner mon~CV    ?
+~           can~I~give~you      my~resume  
+
+[LINE]
+Speaker2144: Si je prends votre~CV,    vous~allez    partir   ?
+~            if I  take   your~resume  are~you~going to~leave  
+
+[LINE]
+Speaker507: D'accord !
+~           OK        
+
+[MULTIPLE_CHOICE]
+> The manager will look at Béa's resume if…
++ …she leaves.
+- …she bakes a delicious cake.
+- …she writes another report.
+
+[MATCH]
+> Tap the pairs
+- fois <> time
+- travailler <> to work
+- j'ai préparé <> I made
+- un problème <> a problem
+- Pourquoi <> why
+
