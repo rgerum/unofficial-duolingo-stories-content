@@ -1,0 +1,106 @@
+[DATA]
+fromLanguageName=O passaporte
+icon=643347b755001a918130ddf5f6d3e914e63a00ce
+set=1|1
+
+[HEADER]
+> El pasaporte 
+~ o  passaporte
+
+[LINE]
+> Vikram y su~esposa,     Priti, están en~el aeropuerto.
+~ Vikram e a~esposa~dele  Priti  estão no    aeroporto  
+
+[LINE]
+Speaker593: ¡Ay,~no!  ¿Dónde está mi    pasaporte? 
+~            ah,~não   onde  está o~meu passaporte 
+
+[LINE]
+Speaker593: ¡No  está aquí!
+~            não está aqui 
+
+[LINE]
+Speaker560: Vikram…
+~           Vikram 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker593: No  está [en~mi~cartera]…    
+~           não está  na~minha~carteira  
++ en mi cartera
+- en mi campera
+- es mi cantera
+
+[LINE]
+Speaker593: Y no  está en mi    chaqueta.
+~           e não está na minha jaqueta  
+
+[LINE]
+Speaker560: Vik…
+~           Vik 
+
+[LINE]
+Speaker593: ¡Está en~el taxi!
+~            está no    táxi 
+
+[MULTIPLE_CHOICE]
+> O Vikram acha que o passaporte dele está no táxi.
++ Sim, isso mesmo.
+- Não, não é isso.
+
+[LINE]
+> Vikram corre a    buscar   su~taxi.    
+~ Vikram corre para procurar o~táxi~dele 
+
+[LINE]
+Speaker560: ¡Vik, no! 
+~            Vik  não 
+
+[ARRANGE]
+> Toque no que escutar
+> [(Priti) (corre) (detrás) (de) (Vikram).]
+~   Priti   corre   atrás    de   Vikram   
+
+[LINE]
+Speaker593: ¡Ay,~no!  ¡El taxi no  está aquí!
+~            ah,~não   o  táxi não está aqui 
+
+[LINE]
+Speaker593: ¡No  es posible! 
+~            não é  possível 
+
+[LINE]
+Speaker560: ¡Vikram!
+~            Vikram 
+
+[LINE]
+Speaker560: Tu    pasaporte  no  está en~el taxi.
+~           o~teu passaporte não está no    táxi 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "mão".
+Speaker560: (El) pasaporte  (está) (en) tu  (+mano).
+~            o   passaporte  está   na  tua   mão   
+
+[LINE]
+Speaker593: Ah…
+~           ah 
+
+[LINE]
+Speaker593: Gracias,  mi  amor.
+~           obrigado  meu amor 
+
+[MULTIPLE_CHOICE]
+> Onde estava o passaporte do Vikram?
+- no táxi
++ na mão dele
+- na casa dele
+
+[MATCH]
+> Toque nos pares
+- mi <> o meu
+- de <> de
+- a <> para
+- en <> na
+- en el <> no
+
