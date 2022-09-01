@@ -1,0 +1,109 @@
+[DATA]
+fromLanguageName=I Want a Dog
+icon=f0d8a8f3340da1d468766192cafa7ac1ee986355
+set=6|4
+
+[HEADER]
+> Ich möchte~gern einen Hund
+~ I   would~like  a     dog 
+
+[LINE]
+Speaker415: Papa, ich muss    mit~dir~sprechen. Ich möchte~so~gern    einen~Hund~haben!
+~           dad   I   have~to talk~to~you       I   would~really~like to~have~a~dog    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Junior, ein Hund macht [viel~Arbeit]!  
+~           Junior  a   dog  is     a~lot~of~work  
+- viel Streit
+- meine Arbeit
++ viel Arbeit
+
+[LINE]
+Speaker415: Arbeit ist kein~Problem für mich!
+~           work   is  no~problem   for me   
+
+[LINE]
+Speaker414: Wirklich?
+~           really   
+
+[LINE]
+Speaker414: Gut.  Zuerst musst~du    abwaschen       ...
+~           fine  first  you~have~to wash~the~dishes    
+
+[MULTIPLE_CHOICE]
+> Why does Eddy tell Junior to wash the dishes?
+- Junior's dog got the dishes really dirty.
++ He wants Junior to prove that he's responsible.
+- Junior needs to cook dinner for his father.
+
+[LINE]
+Speaker415: Kein Problem!
+~           no   problem 
+
+[LINE]
+Speaker414: Dann musst~du    das~Badezimmer~putzen ...
+~           then you~have~to clean~the~bathroom       
+
+[LINE]
+Speaker415: OK!
+~           OK 
+
+[CONTINUATION]
+> What comes next?
+Speaker414: Und unsere Fenster sind auch sehr [schmutzig]!
+~           and our    windows are  also very  dirty      
++ schmutzig
+~ dirty    
+- allein
+~ alone 
+- schick
+~ fancy 
+
+[LINE]
+Speaker415: Oh nein ...
+~           oh no      
+
+[LINE]
+> Drei  Stunden später ist~alles     sauber.
+~ three hours   later  everything~is clean  
+
+[LINE]
+Speaker415: Fertig, Papa!
+~           done    dad  
+
+[POINT_TO_PHRASE]
+> Choose the option that means “good job."
+Speaker414: Die (Wohnung)   ist (perfekt)! (+Gute~Arbeit), (mein) Sohn!
+~           the  apartment  is   perfect     good~job       my    son  
+
+[LINE]
+Speaker414: OK, du  kannst einen~Hund~haben!
+~           OK  you can    have~a~dog       
+
+[LINE]
+Speaker415: Nein, danke!     Ich möchte~keinen Hund~mehr~haben.      
+~           no    thank~you  I   don't~want    to~have~a~dog~anymore 
+
+[LINE]
+Speaker414: Aber Junior, das~verstehe~ich~nicht  ...
+~           but  Junior  I~don't~understand~this    
+
+[LINE]
+Speaker415: Ein Hund macht viel     Arbeit und zu  viel Arbeit macht mich müde! 
+~           a   dog  is    a~lot~of work   and too much work   makes me   tired 
+
+[MULTIPLE_CHOICE]
+> Junior decided...
+- ...he wants a cow instead.
++ ...he's too tired to take care of a dog.
+- ...he should adopt four dogs.
+
+[MATCH]
+> Tap the pairs
+- Gut <> fine
+- möchte keinen <> don't want
+- viel Arbeit <> a lot of work
+- Gute Arbeit <> good job
+- Stunden <> hours
+
