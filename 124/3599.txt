@@ -1,0 +1,95 @@
+[DATA]
+fromLanguageName=Les singes
+icon=c29e4533eca0186f83adafac9383fef2ed3aee56
+set=8|4
+
+[HEADER]
+> The Monkeys
+~ les singes 
+
+[LINE]
+> Eddy and Junior are  at~the zoo.
+~ Eddy et  Junior sont au     zoo 
+
+[LINE]
+> They are~looking~at            the lions.
+~ ils  sont~en~train~de~regarder les lions 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker415: Dad,  [can~we~see]   the monkeys now?       
+~           papa   on~peut~voir  les singes  maintenant 
++ can we see
+- can we be
+- can she see
+
+[LINE]
+Speaker414: But  you never~want     to~see the monkeys.
+~           mais tu  ne~veux~jamais voir   les singes  
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker415: I~really~like   [the monkeys now]!       
+~           j'aime~vraiment  les singes  maintenant  
++ the monkeys now       
+~ les singes  maintenant
+- your new      shirt  
+~ ta   nouvelle chemise
+- potatoes           
+~ les~pommes~de~terre
+
+[LINE]
+Speaker415: Can~we~see~them? 
+~           on~peut~les~voir 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker414: Junior, the monkeys are  [on~the~other~side] of~the zoo!
+~           Junior  les singes  sont  de~l'autre~côté    du     zoo 
+- on the others’ ride
++ on the other side
+- and the mothers lied
+
+[LINE]
+Speaker415: We can~run.     You love   exercise.           
+~           on peut~courir  tu  adores faire~de~l'exercice 
+
+[LINE]
+Speaker414: Hmm. OK!       Yes, I~love~to~run! 
+~           hmm  d'accord  oui  j'adore~courir 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+> [(Junior~and) (Eddy) (start)        (running).]
+~   Junior~et    Eddy   commencent~à   courir    
+
+[LINE]
+Speaker415: Can~you~run    faster,    Dad? 
+~           tu~peux~courir plus~vite  papa 
+
+[LINE]
+Speaker414: Wait.    Junior, why      are~we~running? You hate     running!
+~           attends  Junior  pourquoi on~court        tu  détestes courir  
+
+[LINE]
+Speaker415: I  hate    running, but  I~love  ice~cream!
+~           je déteste courir   mais j'adore la~glace  
+
+[LINE]
+Speaker415: And there's an ice~cream~shop     next~to~the monkeys!
+~           et  il~y~a  un marchand~de~glaces à~côté~des  singes  
+
+[MULTIPLE_CHOICE]
+> Pourquoi Junior court-il pour aller voir les singes ?
++ Il veut manger une glace.
+- Il veut retrouver la forme.
+- Il s'entraîne pour faire la course avec les singes.
+
+[MATCH]
+> Choisis les paires
+- of the <> du
+- Eddy <> Eddy
+- an <> un
+- can run <> peut courir
+- next to the <> à côté des
+
