@@ -1,0 +1,92 @@
+[DATA]
+fromLanguageName=I Want This Game
+icon=ce0ae956035c1bac6b9c64737466d59c5d027e97
+set=7|1
+
+[HEADER]
+> Je veux ce   jeu 
+~ I  want this game
+
+[LINE]
+> Junior et  Eddy sont dans un magasin.
+~ Junior and Eddy are  in   a  store   
+
+[LINE]
+Speaker415: Papa ! J'ai~besoin~d'un nouveau jeu~vidéo  !
+~           Dad    I~need~a         new     video~game  
+
+[LINE]
+Speaker414: Tu  n'as~pas~besoin~d'un nouveau jeu. 
+~           you don't~need~a         new     game 
+
+[MULTIPLE_CHOICE]
+> Eddy thinks Junior needs a new video game.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker415: S'il~te~plaît ! Il~y~a    des~robots~guitaristes  dans ce   jeu  !
+~           please          there~are (some)~robot~guitarists in   this game  
+
+[LINE]
+Speaker414: Junior, tu  n'as~pas~besoin~de ce   jeu. 
+~           Junior  you don't~need         this game 
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Tu)  (veux) (ce)   (jeu).] 
+~             you   want   this   game   
+
+[LINE]
+Speaker415: OK ! Je veux ce   jeu.  Et  maintenant ?
+~           OK   I  want this game  and now         
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Non, tu  as   des~jeux~vidéos [à~la~maison] !
+~           no   you have video~games      at~home       
+- à la leçon
+- vend la maison
++ à la maison
+
+[LINE]
+Speaker415: OK... On~rentre~à~la~maison ?
+~           OK    can~we~go~back~home    
+
+[LINE]
+Speaker414: Non, on~va        chez~Vikram.      
+~           no   we~are~going to~Vikram's~place 
+
+[CONTINUATION]
+> What comes next?
+Speaker415: Mais je ne~peux~pas~jouer [chez~Vikram       ]!
+~           but  I  can't~play         at~Vikram's~place   
+- dans un magasin
+~ in   a  store  
+- à~la~maison
+~ at~home    
++ chez~Vikram      
+~ at~Vikram's~place
+
+[LINE]
+Speaker414: Sa~télé est grande, et  j'ai~besoin~de~regarder le  match~de~football.
+~           his~TV  is  big     and I~need~to~watch         the soccer~game       
+
+[LINE]
+Speaker415: Papa, tu  n'as~pas~besoin~de~regarder le  match. Tu  veux regarder le  match.
+~           Dad   you don't~need~to~watch         the game   you want to~watch the game  
+
+[MULTIPLE_CHOICE]
+> Both Eddy and Junior…
+- ...fly around on robots.
++ ...say they need something when they only want it.
+- ...play video games with Vikram.
+
+[MATCH]
+> Tap the pairs
+- veux <> want
+- sont <> are
+- Eddy <> Eddy
+- et <> and
+- est <> is
+
