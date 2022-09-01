@@ -1,0 +1,133 @@
+[DATA]
+fromLanguageName=Besoin d'aide ?
+icon=ec74184ed69da39d62ba574fa9d615f7d0c53da1
+set=6|2
+
+[HEADER]
+> Need~Help?    
+~ besoin~d'aide 
+
+[LINE]
+> Lin is~walking on~a~road.   
+~ Lin marche     dans~une~rue 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+> She  sees a  man   [near~his~car].             
+~ elle voit un homme  près~de~sa~propre~voiture  
+- hear his car
+- near this bar
++ near his car
+
+[LINE]
+> He looks   unhappy.   
+~ il a~l'air malheureux 
+
+[LINE]
+Speaker508: Hi!      Do~you~need~help?       
+~           bonjour  vous~avez~besoin~d'aide 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker127: There's a  problem  with [my car].    
+~           il~y~a  un problème avec  ma voiture  
++ my car    
+~ ma voiture
+- the weather
+~ le  temps  
+- my  coffee
+~ mon café  
+
+[LINE]
+Speaker127: Can~I~use        your  phone,     please?         
+~           puis-je~utiliser votre téléphone  s'il~vous~plaît 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+> [(Lin) (gives) (her~phone)     (to) (the~man).]
+~   Lin   donne   son~téléphone   à    l'homme   
+
+[LINE]
+Speaker508: Sure, but… 
+~           OK    mais 
+
+[LINE]
+Speaker127: Sorry,  one minute.
+~           désolé  une minute 
+
+[LINE]
+> The~man uses    Lin's~phone.        
+~ l'homme utilise le~téléphone~de~Lin 
+
+[LINE]
+Speaker127: Yes, is~this    the auto~repair~shop?
+~           oui  c'est~bien le  garage           
+
+[MULTIPLE_CHOICE]
+> L'homme a emprunté le téléphone de Lin pour...
+- … regarder ses photos.
+- … regarder l'heure.
++ … appeler un garage.
+
+[LINE]
+Speaker127: I~have a  car~problem.        
+~           j'ai   un problème~de~voiture 
+
+[LINE]
+Speaker508: Uh…  Sir?     
+~           euh  Monsieur 
+
+[LINE]
+> The~man continues  talking on~the~phone.
+~ l'homme continue~à parler  au~téléphone 
+
+[LINE]
+Speaker127: No,  I  don't~know  where I  am.  
+~           non  je ne~sais~pas où    je suis 
+
+[LINE]
+Speaker127: Excuse~me,   miss…        
+~           excusez-moi  Mademoiselle 
+
+[LINE]
+Speaker508: Yes?
+~           oui 
+
+[LINE]
+Speaker127: Where are~we?     
+~           où    sommes-nous 
+
+[LINE]
+Speaker508: Near~the auto~repair~shop!
+~           près~du  garage           
+
+[LINE]
+Speaker127: What?
+~           quoi 
+
+[LINE]
+Speaker508: I~work~there  on~weekends.
+~           j'y~travaille le~week-end 
+
+[LINE]
+Speaker508: I'm     a~mechanic!        
+~           je~suis (une)~mécanicienne 
+
+[LINE]
+Speaker508: So…    do~you~need~help?       
+~           alors  vous~avez~besoin~d'aide 
+
+[MULTIPLE_CHOICE]
+> Il s'avère que Lin…
++ … travaille au garage que l'homme a appelé.
+- … a besoin d'aide pour acheter un nouveau portable.
+- … ne sait pas où elle est.
+
+[MATCH]
+> Choisis les paires
+- Hi <> bonjour
+- am <> suis
+- I <> je
+- on weekends <> le week-end
+- Can I use <> puis-je utiliser
+
