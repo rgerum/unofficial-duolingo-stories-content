@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=Eddys Trennung
+icon=9d77d24b95463b2b7a2e8c9aa8f7b1c9f8de9013
+set=18|2
+
+[HEADER]
+> Eddy's Breakup 
+~ Eddys  Trennung
+
+[LINE]
+> Junior sees  his    father, Eddy, crying.
+~ Junior sieht seinen Vater   Eddy  weinen 
+
+[LINE]
+Speaker415: What's~wrong, Dad? 
+~           was~ist~los   Papa 
+
+[LINE]
+Speaker414: Chloe broke~up~with~me,            and I   don't~know why.  
+~           Chloe hat~mit~mir~Schluss~gemacht  und ich weiß~nicht warum 
+
+[LINE]
+Speaker415: Your  girlfriend, Chloe? I   liked  her.
+~           deine Freundin    Chloe  ich mochte sie 
+
+[MULTIPLE_CHOICE]
+> Eddys Freundin hat mit ihm Schluss gemacht.
+- Nein, das ist falsch.
++ Ja, das ist richtig.
+
+[LINE]
+Speaker414: Me  too!  And I   thought      she liked  me.  
+~           ich auch  und ich habe~gedacht sie mochte mich 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „gutaussehend“.
+Speaker414: (She) (told~me)        I   (was) (+handsome).    
+~            sie   hat~mir~gesagt  ich  sei    gutaussehend  
+
+[LINE]
+Speaker415: Wow, that's  surprising.  
+~           wow  das~ist überraschend 
+
+[LINE]
+Speaker414: I   know!
+~           ich weiß 
+
+[LINE]
+Speaker415: Well, why   did she break~up        with you?
+~           also  warum hat sie Schluss~gemacht mit  dir 
+
+[ARRANGE]
+> Was hörst du?
+Speaker415: [(Did~you) (listen)   (when) (she) (talked)?]     
+~             hast~du   zugehört   wenn   sie   geredet~hat   
+
+[LINE]
+Speaker414: Yes. I   know  her  favorite~color and her   favorite~movie…
+~           ja   ich kenne ihre Lieblingsfarbe und ihren Lieblingsfilm  
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker414: I   even~know   [her~last~name]!  
+~           ich kenne~sogar  ihren~Nachnamen  
+- your past fame
++ her last name
+- her last game
+
+[LINE]
+Speaker415: So   what happened?    
+~           also was  ist~passiert 
+
+[LINE]
+Speaker414: I   don't~know…
+~           ich weiß~nicht 
+
+[LINE]
+Speaker414: We  had    a   great  date last~night.   
+~           wir hatten ein tolles Date gestern~Abend 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker415: What did  you do~on~your~date       e]?
+~           was  habt ihr auf~eurem~Date~gemacht   
+- at~work        yesterday
+~ auf~der~Arbeit gestern  
++ on  your  date
+~ auf eurem Date
+- last    year
+~ letztes Jahr
+
+[LINE]
+Speaker414: I   cooked~dinner           for her.
+~           ich habe~Abendessen~gekocht für sie 
+
+[LINE]
+Speaker415: Oh no.  
+~           oh nein 
+
+[LINE]
+Speaker415: I   think  I   know why   she broke~up~with~you.          
+~           ich glaube ich weiß warum sie mit~dir~Schluss~gemacht~hat 
+
+[LINE]
+Speaker414: Why?  
+~           warum 
+
+[LINE]
+Speaker415: Dad,  I   love  you,  but  you're  a   terrible    cook.
+~           Papa  ich liebe dich  aber du~bist ein furchtbarer Koch 
+
+[MULTIPLE_CHOICE]
+> Oh nein! Warum hat Chloe mit Eddy Schluss gemacht?
++ Seine Kochkünste ließen zu wünschen übrig.
+- Er hat ihren Namen vergessen.
+- Seine Sportsocken haben furchtbar gestunken.
+
+[MATCH]
+> Wähle die Paare
+- you <> dir
+- handsome <> gutaussehend
+- think <> glaube
+- Wow <> wow
+- father <> Vater
+
