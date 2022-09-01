@@ -1,0 +1,141 @@
+[DATA]
+fromLanguageName=Precisa de ajuda?
+icon=ec74184ed69da39d62ba574fa9d615f7d0c53da1
+set=6|2
+
+[HEADER]
+> ¿Necesita   ayuda?
+~  precisa~de ajuda 
+
+[LINE]
+> Lin está en~la calle.
+~ Lin está na    rua   
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+> Ella ve~a un hombre [cerca~de~su~carro].  
+~ ela  vê   um homem   perto~do~carro~dele  
+- cera de tu carro
++ cerca de su carro
+- acerca de tu carro
+
+[LINE]
+> Él  está preocupado.
+~ ele está preocupado 
+
+[LINE]
+Speaker508: ¡Hola! ¿Necesita   ayuda?
+~            olá    precisa~de ajuda 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker127: Mi  carro tiene [un problema].
+~           meu carro tem    um problema  
++ un problema
+~ um problema
+- mi  café
+~ meu café
+- un hombre
+~ um homem 
+
+[LINE]
+Speaker127: ¿Puedo usar su    teléfono, por favor?
+~            posso usar o~seu telefone  por favor 
+
+[LINE]
+> Lin le~da su~teléfono     al hombre.
+~ Lin dá    o~telefone~dela ao homem  
+
+[LINE]
+Speaker508: Sí,  pero…
+~           sim  mas  
+
+[LINE]
+Speaker127: Lo~siento, un momento.
+~           desculpa   um momento 
+
+[LINE]
+> El hombre llama por teléfono.
+~ o  homem  liga  por telefone 
+
+[LINE]
+Speaker127: Buenos~días, ¿ese~es el~taller~de~reparación~de~carros?
+~           bom~dia       é      a~oficina~mecânica                
+
+[MULTIPLE_CHOICE]
+> O homem pegou o telefone da Lin emprestado para…
++ …ligar para uma oficina mecânica.
+- …checar a hora.
+- …dar uma olhada nas fotos dela.
+
+[LINE]
+Speaker127: Mi  carro tiene un problema.
+~           meu carro tem   um problema 
+
+[LINE]
+Speaker508: Ah… ¿señor? 
+~           ah   senhor 
+
+[LINE]
+> El hombre ignora~a Lin.
+~ o  homem  ignora   Lin 
+
+[LINE]
+Speaker127: Ahh…
+~           ah  
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker127: No  sé  [dónde~estoy].
+~           não sei  onde~estou   
+- come esto hoy
+- adonde esto
++ dónde estoy
+
+[LINE]
+Speaker127: Mmm… Disculpe, ¿señorita? 
+~           hum  desculpe   senhorita 
+
+[LINE]
+Speaker508: ¿Sí? 
+~            sim 
+
+[LINE]
+Speaker127: ¿Dónde estamos?
+~            onde  estamos 
+
+[LINE]
+Speaker508: ¡Muy   cerca del~taller~de~reparación~de~carros!
+~            muito perto da~oficina~mecânica                
+
+[LINE]
+Speaker127: ¿Qué?  
+~            o~quê 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker508: ¡[(Yo) (trabajo)  (en~el~taller) (los) (fines~de~semana)!]
+~              eu   trabalho   na~oficina     nos   fins~de~semana    
+
+[LINE]
+Speaker508: Soy mecánica.
+~           sou mecânica 
+
+[LINE]
+Speaker508: Entonces… ¿necesita   ayuda?
+~           então      precisa~de ajuda 
+
+[MULTIPLE_CHOICE]
+> Na verdade, a Lin….
+- ... não sabe onde ela está.
+- …precisa de ajuda para comprar um novo telefone.
++ …trabalha na oficina mecânica.
+
+[MATCH]
+> Toque nos pares
+- le da <> dá
+- su teléfono <> o telefone dela
+- Ella <> ela
+- Sí <> sim
+- Dónde <> onde
+
