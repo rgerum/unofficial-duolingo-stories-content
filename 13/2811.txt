@@ -1,0 +1,119 @@
+[DATA]
+fromLanguageName=The Dance Class
+icon=9a6beecaaea348fb3939a0bda8c064c9d9c79dc5
+set=8|2
+
+[HEADER]
+> Le  cours~de~danse
+~ the dance~class   
+
+[LINE]
+> Eddy arrive  au~cours~de~danse~d'Hélène. 
+~ Eddy arrives at~Hélène's~dance~class     
+
+[LINE]
+Speaker125: Bienvenue au     cours !
+~           welcome   to~the class  
+
+[LINE]
+Speaker125: Vous êtes prêts~à  danser     ?
+~           you  are  ready~to (to)~dance  
+
+[LINE]
+> Eddy marche vite    en~direction~de la~porte.
+~ Eddy walks  quickly towards         the~door 
+
+[MULTIPLE_CHOICE]
+> Eddy wants to stay in the dance class.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker125: Excusez-moi !
+~           excuse~me    
+
+[LINE]
+Speaker125: Vous~allez~où       ?
+~           where~are~you~going  
+
+[ARRANGE]
+> Tap what you hear
+Speaker125: [(Je) (sais) (que)  (la~danse) (c'est~difficile).]..  
+~             I    know   that   dancing    (it)~is~difficult     
+
+[LINE]
+Speaker125: … mais c'est aussi très sympa !
+~             but  it's  also  very nice   
+
+[LINE]
+Speaker414: Oui, mais... il~y~a   un~problème.
+~           yes  but     there~is a~problem   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker125: [C'est~facile]. Regardez !
+~            it's~easy      look      
+- C'est tactile 
+- Très fragile
++ C'est facile
+
+[LINE]
+Speaker414: Mais...
+~           but    
+
+[LINE]
+> Eddy regarde Hélène danser.    
+~ Eddy watches Hélène (to)~dance 
+
+[LINE]
+Speaker125: Dansez avec moi !
+~           dance  with me   
+
+[LINE]
+Speaker414: Ah, oui ! C'est  sympa !
+~           ah  yes   that's nice   
+
+[LINE]
+Speaker125: Je vois que  vous aimez ça.  
+~           I  see  that you  like  that 
+
+[LINE]
+Speaker125: Maintenant, il~y~a   encore un~problème ?
+~           now         there~is still  a~problem    
+
+[MULTIPLE_CHOICE]
+> Hélène wants to know…
++ …if Eddy still thinks there's something wrong.
+- …why Eddy is such a terrible dancer.
+- …if Eddy is a dance teacher.
+
+[LINE]
+Speaker414: Oui.
+~           yes 
+
+[LINE]
+Speaker125: Je ne~comprends~pas.
+~           I  don't~understand 
+
+[LINE]
+Speaker414: Ce   n'est~pas mon~cours.
+~           this isn't     my~class  
+
+[LINE]
+Speaker414: Mais... c'est plus~sympa que  le  cours~de~cuisine !
+~           but     it's  nicer      than the cooking~class     
+
+[MULTIPLE_CHOICE]
+> Oops! What was Eddy's problem?
+- He forgot to wear his dancing shoes.
+- He used to date Hélène.
++ He was supposed to go to a cooking class.
+
+[MATCH]
+> Tap the pairs
+- ne comprends pas <> don't understand
+- c'est difficile <> is difficult
+- êtes <> are
+- en direction de <> towards
+- plus sympa <> nicer
+
