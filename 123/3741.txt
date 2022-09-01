@@ -1,0 +1,120 @@
+[DATA]
+fromLanguageName=El nuevo estudiante
+icon=5afbf601db955e3db76a96aea1d4e0a535c16e7c
+set=1|4
+
+[HEADER]
+> Le nouvel étudiant  
+~ el nuevo  estudiante
+
+[LINE]
+> Zari et Lily sont  dans le bus     de~l'école.
+~ Zari y  Lily están en   el autobús escolar    
+
+[LINE]
+Speaker418: Lily, il~y~a un nouvel étudiant   dans la classe !
+~           Lily  hay    un nuevo  estudiante en   la clase   
+
+[MULTIPLE_CHOICE]
+> Zari le dice a Lily que hay un nuevo profesor en la escuela.
+- Sí, así es.
++ No, no es así.
+
+[LINE]
+Speaker418: Il~s'appelle  Miguel.
+~           (él)~se~llama Miguel 
+
+[LINE]
+Speaker416: Miguel ?
+~           Miguel  
+
+[LINE]
+Speaker418: Il~est  mexicain.
+~           (él)~es mexicano 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker418: [(Son) (père)  (écrit)   (des~livres)    ]!
+~             su    padre   escribe   (unos)~libros    
+
+[LINE]
+Speaker416: Très~intéressant.
+~           muy~interesante  
+
+[LINE]
+Speaker418: Il~parle   français, espagnol et anglais.
+~           (él)~habla francés   español  e  inglés  
+
+[LINE]
+Speaker416: Ah, il est intelligent.
+~           ah  él es  inteligente 
+
+[LINE]
+Speaker418: Il est intelligent… et grand. Et il~a       de~beaux…      
+~           él es  inteligente  y  alto   Y  (él)~tiene (unos)~bonitos 
+
+[LINE]
+Speaker416: Haha… Oui ?
+~           jaja  sí   
+
+[LINE]
+Speaker418: Ah~ha… De~beaux~vêtements. Il~a       de~beaux~vêtements !
+~           ah     ropa~bonita         (él)~tiene ropa~bonita         
+
+[MULTIPLE_CHOICE]
+> ¿Cómo describe Zari a Miguel?
+- Él es guapo y escandaloso.
+- Él es bajo y tiene un carro grande.
++ Él es alto y tiene ropa bonita.
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "detrás de".
+Speaker416: (Zari), (Miguel) (est)  (+derrière)  toi.
+~            Zari    Miguel   está    detrás~de  ti  
+
+[LINE]
+Speaker418: Ah, oui ?
+~           ah  sí   
+
+[LINE]
+Speaker416: Salut, Miguel !
+~           hola   Miguel  
+
+[LINE]
+Speaker790: Salut, Lily ! Ça~va      ?
+~           hola   Lily   cómo~estás  
+
+[LINE]
+Speaker416: Ça~va~bien, merci.  
+~           bien        gracias 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker416: Miguel, [c'est~mon~amie],   Zari.
+~           Miguel   esta~es~mi~amiga   Zari 
+- mais son ami
+- c'est mon ennemie 
++ c'est mon amie
+
+[LINE]
+Speaker416: Elle~aime       tes… vêtements.
+~           a~ella~le~gusta tu   ropa      
+
+[LINE]
+Speaker418: Euh… Héhé… Salut, Miguel.
+~           eh   jeje  hola   Miguel 
+
+[MULTIPLE_CHOICE]
+> Zari no se dio cuenta de que…
+- …los zapatos de Miguel eran muy feos.
+- …su tarea era para hoy.
++ …Miguel estaba sentado detrás de ella.
+
+[MATCH]
+> Selecciona los pares
+- français <> francés
+- dans <> en
+- écrit <> escribe
+- classe <> clase
+- Haha <> jaja
+
