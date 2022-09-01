@@ -1,0 +1,131 @@
+[DATA]
+fromLanguageName=O diário
+icon=11054d83adbe171cda3e5669c57e1e26d6cbd8db
+set=10|1
+
+[HEADER]
+> El diario
+~ o  diário
+
+[LINE]
+> Zari y Lily están en~la escuela.
+~ Zari e Lily estão na    escola  
+
+[LINE]
+Speaker418: ¡Lily, tengo     miedo! ¡No  encuentro         mi    diario!
+~            Lily  estou~com medo    não estou~encontrando o~meu diário 
+
+[LINE]
+Speaker416: Y… ¿cuál es el problema?
+~           e   qual é  o  problema 
+
+[LINE]
+Speaker418: ¡Yo escribo sobre Miguel   en mi  diario!
+~            eu escrevo sobre o~Miguel no meu diário 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker416: ¿Miguel? ¿[El~chico~de~nuestra~clase]?
+~            Miguel    o~garoto~da~nossa~classe   
+- El chico de nuestra casa
++ El chico de nuestra clase
+- El chico muestra la clase
+
+[LINE]
+Speaker418: ¡Sí,  tengo que encontrar mi    diario!
+~            sim  tenho que encontrar o~meu diário 
+
+[LINE]
+Speaker416: Ahh… Está bien.
+~           ah   está bem  
+
+[ARRANGE]
+> Toque no que escutar
+> [(Ellas) (buscan)   (el) (diario).]
+~   elas    procuram   o    diário   
+
+[LINE]
+Speaker416: Lo~siento,   no  encuentro         tu    diario.
+~           sinto~muito  não estou~encontrando o~teu diário 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "pior".
+Speaker418: ¡(Es) el (+peor) (día) de mi    (vida)!
+~             é   o    pior   dia  da minha  vida  
+
+[LINE]
+> Ellas ven~a Miguel. Él  tiene    un diario rosado.
+~ elas  veem  Miguel  ele está~com um diário rosa   
+
+[LINE]
+Speaker418: ¡Ay,~no!  ¡Es Miguel   y tiene    mi    diario!
+~            ah,~não   é  o~Miguel e está~com o~meu diário 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker790: Hola, Zari. ¿[Este~es~tu~diario]?  
+~           olá   Zari    este~é~o~teu~diário  
++ Este es tu diario
+- Este mes es diario
+- Este es tu armario 
+
+[LINE]
+Speaker418: Eh… ¡no! 
+~           eh   não 
+
+[LINE]
+Speaker416: Pero tiene        tu    nombre.
+~           mas  ele~está~com o~teu nome   
+
+[LINE]
+Speaker418: Sí,  es mi    diario, pero...
+~           sim  é  o~meu diário  mas    
+
+[LINE]
+Speaker790: No  te preocupes, no  puedo   leer tu    letra.
+~           não te preocupes  não consigo ler  a~tua letra 
+
+[MULTIPLE_CHOICE]
+> O Miguel diz para a Zari não se preocupar pois…
++ …ele não consegue ler a letra dela.
+- …ele não sabe cantar muito bem.
+- …ele não sabe falar alemão.
+
+[LINE]
+Speaker418: Ah… perfecto.
+~           ah  perfeito 
+
+[LINE]
+Speaker790: Eh… ¿quieres ir conmigo al cine   el~viernes?    
+~           eh   queres  ir comigo  ao cinema na~sexta-feira 
+
+[LINE]
+Speaker418: ¡Sí! 
+~            sim 
+
+[LINE]
+Speaker790: ¡Hasta el~viernes!  ¡Adiós!
+~            até   sexta-feira   tchau 
+
+[LINE]
+Speaker418: ¡Adiós!
+~            tchau 
+
+[LINE]
+Speaker418: ¡Lily, es el mejor  día de mi    vida!
+~            Lily  é  o  melhor dia da minha vida 
+
+[MULTIPLE_CHOICE]
+> Uau! Por que a Zari disse que é o melhor dia da vida dela?
++ O Miguel chamou ela para sair.
+- É o aniversário dela.
+- O Miguel comprou um diário novo para ela.
+
+[MATCH]
+> Toque nos pares
+- sobre <> sobre
+- Miguel <> o Miguel
+- Adiós <> tchau
+- problema <> problema
+- Hasta <> até
+
