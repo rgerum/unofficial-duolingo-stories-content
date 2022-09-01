@@ -1,0 +1,157 @@
+[DATA]
+fromLanguageName=Cuidando de um pássaro
+icon=bec6ac06369ced77777ad5151e3a385213c413b8
+set=36|2
+
+[HEADER]
+> Bird~Sitting          
+~ cuidando~de~um~pássaro
+
+[LINE]
+> Lin is   on~the phone    with her~friend,   Garrett.
+~ Lin está no     telefone com  o~amigo~dela  Garrett 
+
+[LINE]
+Speaker508: Hi, Garrett!
+~           oi  Garrett 
+
+[LINE]
+Speaker508: Are~you~coming~home tomorrow or on Tuesday?    
+~           você~vem~para~casa  amanhã   ou na terça-feira 
+
+[LINE]
+Speaker7: Tomorrow.
+~         amanhã   
+
+[LINE]
+Speaker7: Thank~you for taking~care of my    house and my     bird!   
+~         obrigado  por cuidar      da minha casa  e   do~meu pássaro 
+
+[MULTIPLE_CHOICE]
+> A Lin cuidou do pássaro do amigo dela enquanto ele estava fora.
++ Sim, isso mesmo.
+- Não, não é isso.
+
+[LINE]
+Speaker508: You're~welcome.
+~           de~nada        
+
+[LINE]
+Speaker7: Is   everything OK  at~the house?
+~         está tudo       bem na     casa  
+
+[LINE]
+Speaker508: Well, I  have  bad~news.    
+~           bem   eu tenho más~notícias 
+
+[LINE]
+Speaker508: Your bird    flew~out~of~the~window.
+~           seu  pássaro voou~pela~janela       
+
+[LINE]
+Speaker7: What?! 
+~         o~quê  
+
+[LINE]
+Speaker508: The cage~door       was    open.  
+~           a   porta~da~gaiola estava aberta 
+
+[MULTIPLE_CHOICE]
+> O que estava aberto?
+- a geladeira
++ a gaiola
+- o banheiro
+
+[LINE]
+Speaker7: How  did~that~happen?
+~         como isso~aconteceu  
+
+[ARRANGE]
+> Toque no que escutar
+Speaker508: [(It)  (opened) (when)   (the~cage) (fell).]
+~             ela   abriu    quando   a~gaiola   caiu   
+
+[LINE]
+Speaker7: What?!  Why     did~it~fall?
+~         o~quê   por~que ela~caiu    
+
+[LINE]
+Speaker508: Well, your bed  fell through~the floor and hit     the cage.  
+~           bem   sua  cama caiu através~do  piso  e   acertou a   gaiola 
+
+[LINE]
+Speaker7: My    bed  fell through~the floor?!
+~         minha cama caiu através~do  piso   
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker7: [How~did~that~happen]?
+~          como~isso~aconteceu  
+- How did that open
+- Who do they have then
++ How did that happen
+
+[LINE]
+Speaker508: Well, there~was a~lot~of water on~the floor.
+~           bem   havia     muita    água  no     piso  
+
+[LINE]
+Speaker7: Water? Why     was~there so~much water?
+~         água   por~que havia     tanta   água  
+
+[LINE]
+Speaker508: Well, I  used water to   stop   the fire.    
+~           bem   eu usei água  para apagar o   incêndio 
+
+[LINE]
+Speaker7: You  started a  fire?!    
+~         você começou um incêndio  
+
+[LINE]
+Speaker508: But only on~the second  floor.
+~           mas só   no     segundo andar 
+
+[LINE]
+Speaker7: What  did~you~do?!
+~         o~que você~fez    
+
+[LINE]
+Speaker508: I  think    it~was because   of~the meditation~candles.
+~           eu acho~que foi    por~causa das    velas~de~meditação 
+
+[MULTIPLE_CHOICE]
+> Eita! O que causou o incêndio?
++ velas de meditação
+- um telefone
+- muitos pássaros 
+
+[LINE]
+Speaker7: Meditation~candles?
+~         velas~de~meditação 
+
+[LINE]
+Speaker508: Oh yeah, I  started~taking  meditation~classes!
+~           ah sim   eu comecei~a~fazer aulas~de~meditação 
+
+[LINE]
+Speaker508: Anyway,      I  can~take~care of your house next~month     too…   
+~           mesmo~assim  eu posso~cuidar  da sua  casa  no~próximo~mês também 
+
+[LINE]
+Speaker508: Hello? Garrett, are~you~still~there?
+~           alô    Garrett  você~ainda~está~aí  
+
+[MULTIPLE_CHOICE]
+> Por que o Garrett desligou?
+- Ele está irritado porque a Lin roubou o pássaro dele.
+- Ele vai para a aula de meditação da Lin.
++ Ele está irritado porque a Lin destruiu a casa dele.
+
+[MATCH]
+> Toque nos pares
+- can take care <> posso cuidar
+- bird <> pássaro
+- meditation classes <> aulas de meditação
+- I <> eu
+- fell <> caiu
+
