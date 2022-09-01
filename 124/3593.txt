@@ -1,0 +1,114 @@
+[DATA]
+fromLanguageName=Mauvais tableau
+icon=12547a4c20bef9c66913ef1a725b6fd4f0c544ea
+set=7|2
+
+[HEADER]
+> Bad     Painting
+~ mauvais tableau 
+
+[LINE]
+> Oscar and his friend, Lucy, are~sitting in   the park.
+~ Oscar et  son amie    Lucy  sont~assis  dans un  parc 
+
+[LINE]
+> Oscar is~painting             Lucy.
+~ Oscar est~en~train~de~peindre Lucy 
+
+[LINE]
+Speaker592: OK,       you can~look~at   the painting now!        Do~you~like~it?
+~           d'accord  tu  peux~regarder le  tableau  maintenant  tu~aimes       
+
+[LINE]
+> Oscar shows  Lucy~the~painting.
+~ Oscar montre le~tableau~à~Lucy 
+
+[MULTIPLE_CHOICE]
+> Oscar montre à Lucy le tableau d'un poisson.
+- Oui, c'est vrai.
++ Non, c'est faux.
+
+[LINE]
+Speaker509: Why      is~my~hair           blue  in  the painting?
+~           pourquoi mes~cheveux~sont-ils bleus sur le  tableau  
+
+[LINE]
+Speaker592: I~have a~lot    of blue~paint.    
+~           j'ai   beaucoup de peinture~bleue 
+
+[LINE]
+Speaker509: And why      is~my~head       so big?   
+~           et  pourquoi ma~tête~est-elle si grosse 
+
+[LINE]
+Speaker592: I  don't~know.  Ask       your parents.
+~           je ne~sais~pas  demande~à tes  parents 
+
+[MULTIPLE_CHOICE]
+> Oscar dit à Lucy de...
+- ... peindre un tableau de lui.
+- … teindre ses cheveux en bleu.
++ … demander à ses parents pourquoi sa tête est si grosse.
+
+[LINE]
+Speaker509: My  nose doesn't~look~like  that.
+~           mon nez  ne~ressemble~pas~à ça   
+
+[LINE]
+Speaker592: Yes, it~does!           You have a  nice nose!
+~           si   il~ressemble~à~ça  tu  as   un joli nez  
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker509: [(Yes), (I~do~have)     (a)  (nice) (nose).]
+~             oui    j'ai~vraiment   un   joli   nez    
+
+[LINE]
+Speaker509: But  it doesn't~look  nice in  the painting.
+~           mais il n'a~pas~l'air joli sur le  tableau  
+
+[LINE]
+Speaker592: Do~you~want        the painting or not?
+~           est-ce~que~tu~veux le  tableau  ou pas 
+
+[LINE]
+Speaker509: Sorry,   but  no,  I  don't~want~it. 
+~           désolée  mais non  je ne~le~veux~pas 
+
+[LINE]
+> A  man   stops    and looks~at the painting.
+~ un homme s'arrête et  regarde  le  tableau  
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker438: That's really   good! Can~I~buy~it      for  one~hundred [dollars]?
+~           c'est  vraiment bien  je~peux~l'acheter pour cent         dollars  
+- noses
+~ nez  
+- paintings
+~ tableaux 
++ dollars
+~ dollars
+
+[LINE]
+> Lucy takes the painting.
+~ Lucy prend le  tableau  
+
+[LINE]
+Speaker509: It's  my  painting, and it's  two  hundred dollars.
+~           c'est mon tableau   et  c'est deux cents   dollars 
+
+[MULTIPLE_CHOICE]
+> Lucy a décidé...
+- … d'acheter le tableau pour 200$.
++ … de vendre le tableau.
+- … de donner le tableau.
+
+[MATCH]
+> Choisis les paires
+- for <> pour
+- shows <> montre
+- you <> tu
+- I <> je
+- or <> ou
+
