@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=Quá nguy hiểm
+icon=1702eab67b54c34d15254bb3fb5daefb13f3a2ac
+set=12|1
+
+[HEADER]
+> Too Dangerous
+~ quá nguy~hiểm
+
+[LINE]
+Speaker418: I~can't~do~it,          Lily.
+~           tớ~không~chơi~được~đâu  Lily 
+
+[LINE]
+Speaker416: Don't~worry, Zari.
+~           đừng~lo      Zari 
+
+[LINE]
+Speaker418: I'm~afraid! This~is too dangerous!
+~           tớ~sợ~lắm   trò~này quá nguy~hiểm 
+
+[MULTIPLE_CHOICE]
+>  Zari chẳng sợ gì hết.
+- Đúng vậy.
++ Không đúng.
+
+[LINE]
+Speaker418: Something~will~go~wrong!  
+~           kiểu~gì~cũng~sẽ~có~chuyện 
+
+[LINE]
+Speaker416: It~will~be~OK.      
+~           sẽ~không~sao~đâu~mà 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker418: [(But)   (how)     (do~you~know)      (that)?]   
+~             nhưng   làm~sao   mà~cậu~biết~được   điều~đó   
+
+[LINE]
+Speaker416: Well,  a~lot~of~people do~this          every~day.
+~           ờ~thì  người~ta        vẫn~chơi~trò~này hằng~ngày 
+
+[LINE]
+Speaker416: You don't~need     to~worry, Zari.
+~           cậu không~cần~phải lo        Zari 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker416: [I'm~here~with~you].     
+~            có~tớ~ở~đây~với~cậu~mà  
+- I'm her nephew
+- I'm here when you
++ I'm here with you
+
+[LINE]
+Speaker418: Thanks, Lily. You're      a       good~friend.
+~           cảm~ơn  Lily  cậu~đúng~là 1~người bạn~tốt     
+
+[LINE]
+Speaker418: OK.      
+~           được~rồi 
+
+[LINE]
+Speaker418: I  think I'm~ready~now!      
+~           tớ nghĩ  giờ~tớ~sẵn~sàng~rồi 
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “tàu lượn siêu tốc”.
+Speaker300: (Listen),   (do~you~want)    (to~ride) the   (+roller~coaster)    or~not?       
+~            nghe~này    các~em~có~muốn   đi       chiếc   tàu~lượn~siêu~tốc  hay~không~nào 
+
+[LINE]
+Speaker300: A~lot~of  people are~waiting   behind   you!   
+~           rất~nhiều người  đang~đứng~đợi đằng~sau các~em 
+
+[LINE]
+Speaker300: This is the~tallest~and~oldest         roller~coaster in~the~country.
+~           đây  là chiếc…cao~nhất~và~lâu~năm~nhất tàu~lượn       trong~nước     
+
+[LINE]
+Speaker416: Wait…   Tallest?    Oldest?        
+~           đợi~đã  cao~nhất~á  lâu~năm~nhất~á 
+
+[LINE]
+Speaker418: OK,       I'm~going~to~do~it!
+~           được~rồi  em~chơi~đây        
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker418: And my~friend, Lily, [is~coming~with me]!
+~           và  bạn~em     Lily   sẽ~đi~cùng     em  
+- is~very dangerous
+~ rất     nguy~hiểm
+- is~going~home
+~ sẽ~về~nhà    
++ is~coming~with me
+~ sẽ~đi~cùng     em
+
+[LINE]
+Speaker418: Lily? Where~are~you~going?
+~           Lily  cậu~đi~đâu~đấy      
+
+[LINE]
+Speaker416: Sorry,   Zari! I'm~not~going~on    this~roller~coaster!        
+~           xin~lỗi  Zari  tớ~sẽ~không~lên…đâu chiếc~tàu~lượn~siêu~tốc~này 
+
+[LINE]
+Speaker416: It's too dangerous!
+~           nó   quá nguy~hiểm 
+
+[MULTIPLE_CHOICE]
+> Zari đã quyết định đi tàu lượn nhưng…
+- …phải xếp hàng quá lâu.
+- …tàu đã nghỉ chạy.
++ …Lily thì lại quá sợ hãi.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- I'm ready now <> giờ tớ sẵn sàng rồi
+- behind <> đằng sau
+- are waiting <> đang đứng đợi
+- do this <> vẫn chơi trò này
+- people <> người
+
