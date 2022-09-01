@@ -1,0 +1,185 @@
+[DATA]
+fromLanguageName=The Magic Trick
+icon=d6181c60c7a77aaca9c6ac396dc139ac4aa848ad
+set=45|4
+
+[HEADER]
+> Le  tour~de~magie
+~ the magic~trick  
+
+[LINE]
+> Oscar lit        un livre dans un café. Eddy arrive     en~courant.
+~ Oscar is~reading a  book  in   a  cafe  Eddy comes~(in) running    
+
+[LINE]
+Speaker414: Oscar, je dois    te~montrer    un tour~de~magie ! 
+~           Oscar  I  have~to (to)~show~you a  magic~trick     
+
+[LINE]
+Speaker592: Encore ?! Tu  sais que  je déteste la~magie.
+~           again     you know that I  hate    magic    
+
+[LINE]
+Speaker414: S'il~te~plaît, je veux devenir   magicien.   
+~           please         I  want to~become a~magician  
+
+[MULTIPLE_CHOICE]
+> Eddy veut  devenir   quelqu'un qui…
+~ Eddy wants to~become someone   who 
+- … travaille dans une banque.
+~   works     in   a   bank   
+- … fait  de~la~musique.
+~   makes music         
++ … fait des~tours~de~magie.
+~   does magic~tricks       
+
+[LINE]
+> Oscar prend une carte d'Eddy.    
+~ Oscar takes a   card  from~Eddy  
+
+[LINE]
+Speaker414: Maintenant, remets-la   avec les autres.
+~           now         put~it~back with the others 
+
+[LINE]
+> Oscar remet     la  carte avec les autres.
+~ Oscar puts~back the card  with the others 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: [Est-ce~que~c'est] ta   carte ?
+~            is~this           your card   
+- Qui est-ce que c'est
++ Est-ce que c'est
+- Est-ce qu'il est
+
+[LINE]
+> Eddy prend une carte.
+~ Eddy takes a   card  
+
+[LINE]
+Speaker592: Oui. Mais la  carte était dans ta   poche. 
+~           yes  but  the card  was   in   your pocket 
+
+[LINE]
+Speaker414: Oh, euh... je vais     essayer un~autre tour. 
+~           oh  uh     I  am~going to~try  another  trick 
+
+[ARRANGE]
+> Tap what you hear
+> [(Il) (prend) (une~pièce) (derrière)    (l'oreille~d'Oscar).]
+~   he   takes   a~coin      from~behind   Oscar's~ear         
+
+[LINE]
+Speaker592: Et  cette pièce était dans la  manche de ta   chemise.
+~           and that  coin  was   in   the sleeve of your shirt   
+
+[LINE]
+Speaker414: Oh… oui. 
+~           oh  yes  
+
+[LINE]
+Speaker414: Attends, je vais     te~montrer  un~autre tour  ! Donne-moi un billet~de~vingt~euros.
+~           hold~on  I  am~going to~show~you another  trick   give~me   a  twenty-euro~bill      
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker592: Si je te~donne vingt  euros, tu  [arrêteras~de~faire~des~tours] ?
+~           if I  give~you twenty euros  you  will~stop~doing~tricks         
+- paraîtras refaire les tours
++ arrêteras de faire des tours
+- arrêtera de faire le sourd
+
+[LINE]
+Speaker414: Oui.
+~           yes 
+
+[LINE]
+> Oscar lui~donne un billet~de~vingt~euros. Eddy le~brûle.
+~ Oscar gives~him a  twenty-euro~bill       Eddy burns~it 
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker592: Eddy ! C'était  [mon billet ]!
+~           Eddy   that~was  my  bill     
+- ma tasse~à~café
+~ my coffee~cup  
+- le~chat~de~mamie
+~ grandma's~cat   
++ mon billet
+~ my  bill  
+
+[LINE]
+Speaker414: Mais regarde !
+~           but  look     
+
+[LINE]
+> Eddy prend un billet dans   la~moustache~d'Oscar.
+~ Eddy takes a  bill   out~of Oscar's~mustache     
+
+[LINE]
+Speaker414: Tada  !
+~           ta-da  
+
+[LINE]
+Speaker592: Waouh ! C'est  super   ! 
+~           wow     that's awesome   
+
+[MULTIPLE_CHOICE]
+> Pourquoi Oscar~est-il tellement content ?
+~ why      is~Oscar     so        happy    
+- Il peut cacher    de~l'argent derrière son oreille.
+~ he can  (to)~hide money       behind   his ear     
+- Eddy a   une moustache comme la~sienne.
+~ Eddy has a   mustache  like  his       
++ Eddy a~fait un tour  qu'il   ne~comprend~pas.   
+~ Eddy did    a  trick that~he doesn't~understand 
+
+[LINE]
+Speaker592: Euh… c'est   un billet~de~dix~euros. Où    est mon billet~de~vingt~euros, Eddy ?
+~           uh   this~is a  ten-euro~bill        where is  my  twenty-euro~bill       Eddy  
+
+[LINE]
+Speaker414: Oh, regarde ça   !
+~           oh  look~at this  
+
+[LINE]
+> Eddy brûle le  billet~de~dix~euros et  prend un~autre billet de     la~moustache~d'Oscar.
+~ Eddy burns the ten-euro~bill       and takes another  bill   out~of Oscar's~mustache     
+
+[LINE]
+Speaker414: Voilà      !
+~           here~it~is  
+
+[LINE]
+Speaker592: Et  ça,~c'est un billet~de~cinq~euros ! 
+~           and this~is   a  five-euro~bill         
+
+[ARRANGE]
+> Tap what you hear
+Speaker592: [(Qu'est-ce~que) (tu~as~fait~de)   (mes) (vingt)  (euros) ]?
+~             what            did~you~do~with   my    twenty   euros    
+
+[LINE]
+Speaker414: Désolé, Oscar. Un magicien ne~révèle~pas  ses secrets.
+~           sorry   Oscar  a  magician doesn't~reveal his secrets 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Oscar~est-il énervé ?
+~ why      is~Oscar     upset   
++ Eddy lui~a~rendu   5€ au~lieu~de 20€.
+~ Eddy gave~him~back €5 instead~of €20 
+- Eddy a~trouvé les pièces qu'il~cachait      dans son oreille.
+~ Eddy found    the coins  that~he~was~hiding in   his ear     
+- Eddy a~brûlé sa  moustache~magique.
+~ Eddy burned  his magic~mustache    
+
+[MATCH]
+> Tap the pairs
+- essayer <> to try
+- billet <> bill
+- carte <> card
+- Donne-moi <> give me
+- que <> that
+
