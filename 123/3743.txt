@@ -1,0 +1,150 @@
+[DATA]
+fromLanguageName=¡A la estación!
+icon=5bee618bd907474764094eddf36ddcbc46523c98
+set=2|2
+
+[HEADER]
+> À la gare     !
+~ a la estación  
+
+[LINE]
+> Oscar prend un taxi.
+~ Oscar toma  un taxi 
+
+[LINE]
+> Son amie,  Lin, est la chauffeur  du  taxi.
+~ su  amiga  Lin  es  la conductora del taxi 
+
+[MULTIPLE_CHOICE]
+> Lin está manejando el taxi en el que va Oscar.
++ Sí, así es.
+- No, no es así.
+
+[LINE]
+Speaker592: Lin ! Tu es   chauffeur  de taxi ?
+~           Lin   tú eres conductora de taxi  
+
+[LINE]
+Speaker508: Oui, c'est   mon travail maintenant.
+~           sí   este~es mi  trabajo ahora      
+
+[MULTIPLE_CHOICE]
+> ¿Cuál es el trabajo de Lin ahora?
+- cocinera
++ taxista
+- pilota de avión
+
+[LINE]
+Speaker508: Tu~vas~où        ?
+~           a~dónde~vas~(tú)  
+
+[LINE]
+Speaker592: À la gare     !
+~           a la estación  
+
+[LINE]
+Speaker508: Où    est  la gare     ?
+~           dónde está la estación  
+
+[LINE]
+Speaker592: Je ne~sais~pas.
+~           yo no~sé       
+
+[MULTIPLE_CHOICE]
+> Oscar no sabe...
++ …dónde está la estación.
+- ...quién es Lin.
+- …nadar.
+
+[LINE]
+Speaker508: OK…       
+~           está~bien 
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa “maneja”.
+> (Lin) (+conduit) (le) (taxi).
+~  Lin    maneja    el   taxi  
+
+[LINE]
+Speaker508: Voilà        !
+~           aquí~estamos  
+
+[LINE]
+Speaker592: Lin… Ce   n'est~pas la gare.     C'est   l'université.  
+~           Lin  esta no~es     la estación  esta~es la~universidad 
+
+[LINE]
+Speaker508: Ah…
+~           ah 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+> [(Lin) (conduit) (le) (taxi).]
+~   Lin   maneja    el   taxi   
+
+[LINE]
+Speaker508: C'est~ici    !
+~           aquí~estamos  
+
+[LINE]
+Speaker592: Lin…
+~           Lin 
+
+[LINE]
+Speaker508: Oui ?
+~           sí   
+
+[LINE]
+Speaker592: Nous     sommes  à  l'hôpital.  
+~           nosotros estamos en el~hospital 
+
+[LINE]
+Speaker508: Ah…
+~           ah 
+
+[LINE]
+> Lin conduit le taxi.
+~ Lin maneja  el taxi 
+
+[LINE]
+Speaker508: OK,    c'est~ici~   !
+~           bueno  aquí~estamos  
+
+[LINE]
+Speaker592: Lin, ce   n'est~pas la gare     !
+~           Lin  esta no~es     la estación  
+
+[LINE]
+Speaker508: Oui, c'est   mon appartement.
+~           sí   este~es mi  apartamento 
+
+[LINE]
+Speaker508: Je ne~veux~pas conduire le taxi.
+~           yo no~quiero   manejar  el taxi 
+
+[LINE]
+Speaker508: C'est     un travail difficile.
+~           (este)~es un trabajo difícil   
+
+[LINE]
+> Lin ouvre la porte. 
+~ Lin abre  la puerta 
+
+[LINE]
+Speaker508: Bonne~nuit,    Oscar !
+~           buenas~noches  Oscar  
+
+[MULTIPLE_CHOICE]
+> ¡Ay, no! ¿Por qué Lin decidió irse a casa?
+- Ella necesitaba recoger a otro pasajero.
+- Ella olvidó traer su almuerzo.
++ Ella cree que manejar un taxi es demasiado difícil.
+
+[MATCH]
+> Selecciona los pares
+- Ce <> esta
+- Où <> dónde
+- Tu vas où <> a dónde vas
+- conduit <> maneja
+- ne sais pas <> no sé
+
