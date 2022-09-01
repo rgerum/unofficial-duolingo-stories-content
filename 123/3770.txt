@@ -1,0 +1,118 @@
+[DATA]
+fromLanguageName=Eso no es arte
+icon=501e7d609ee0dd5ba11ff7cdcf9740b12a7a7945
+set=9|1
+
+[HEADER]
+> Ce  n'est~pas de~l'art
+~ eso no~es     arte    
+
+[LINE]
+> Eddy et son ami   Oscar sont  au    musée.
+~ Eddy y  su  amigo Oscar están en~el museo 
+
+[LINE]
+> Eddy regarde une sculpture de chien.   
+~ Eddy mira    una escultura de un~perro 
+
+[LINE]
+Speaker414: C'est   ma sculpture préférée ici  !
+~           esta~es mi escultura favorita aquí  
+
+[LINE]
+Speaker592: Cette sculpture est ennuyeuse.
+~           esa   escultura es  aburrida  
+
+[MULTIPLE_CHOICE]
+> A Oscar le gusta mucho la escultura.
+- Sí, así es.
++ No, no es así.
+
+[LINE]
+Speaker414: Quoi ? J'adore     les chiens.
+~           qué    me~encantan los perros 
+
+[LINE]
+Speaker592: Je suis professeur d'art.   Je connais l'art.  
+~           yo soy  profesor   de~arte  yo conozco el~arte 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker592: Cette sculpture, [ce~n'est~pas~de~l'art].
+~           esa   escultura   no~es~arte             
++ ce n'est pas de l'art
+- ce n'est pas le noir
+- elle n'aime pas son art
+
+[LINE]
+Speaker414: Pourquoi ?
+~           por~qué   
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker592: [(L'art)   (est) (intéressant) ]!
+~             el~arte   es    interesante    
+
+[LINE]
+Speaker592: L'art   est original !
+~           el~arte es  original  
+
+[CONTINUATION]
+> ¿Qué sigue?
+> Oscar regarde un sandwich sur   [une chaise].
+~ Oscar mira    un sándwich sobre  una silla   
+- le soleil
+~ el sol   
++ une chaise
+~ una silla 
+- sa tête  
+~ su cabeza
+
+[LINE]
+Speaker592: Ça,  c'est de~l'art !
+~           eso  es    arte      
+
+[LINE]
+Speaker414: Quoi ?!
+~           qué    
+
+[LINE]
+Speaker592: Oui ! C'est intéressant et original ! L'artiste  est génial !
+~           sí    es    interesante y  original   el~artista es  genial  
+
+[LINE]
+Speaker414: Je ne~comprends~pas l'art.  
+~           yo no~entiendo      el~arte 
+
+[LINE]
+> Un homme  arrive. Il prend le sandwich, et le~mange.  
+~ un hombre llega   él toma  el sándwich  y  se~lo~come 
+
+[MULTIPLE_CHOICE]
+> ¿Qué hizo el hombre con el sándwich?
++ Se lo comió.
+- Se lo tiró a Oscar.
+- Lo vendió.
+
+[LINE]
+Speaker592: Excusez-moi ! Vous  ne~pouvez~pas manger ça,  c'est de~l'art !
+~           disculpe      usted no~se~puede   comer  eso  es    arte      
+
+[LINE]
+Speaker307: Ce   n'est~pas de~l'art... C'est mon déjeuner.
+~           esto no~es     arte        es    mi  almuerzo 
+
+[MULTIPLE_CHOICE]
+> ¿Entendiste eso? Oscar creía que…
+- ....el hombre era un artista famoso.
+- ...Eddy se había comido todo el arte del museo.
++ ...el almuerzo del hombre era arte.
+
+[MATCH]
+> Selecciona los pares
+- sur <> sobre
+- Je <> yo
+- Eddy <> Eddy
+- préférée <> favorita
+- génial <> genial
+
