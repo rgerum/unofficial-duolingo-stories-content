@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=Encontre a minha namorada
+icon=0d18f0403cfa415591d7ef50a9e9c01f1094936e
+set=7|2
+
+[HEADER]
+> Find     My        Girlfriend
+~ encontre (a)~minha namorada  
+
+[LINE]
+> Bea is   at~the airport.  
+~ Bea está no     aeroporto 
+
+[LINE]
+> She talks~to the man   at~the desk.                   
+~ ela fala~com o   homem no     balcão~(de~informações) 
+
+[LINE]
+Speaker823: Hello! Can~I~help      you? 
+~           olá    eu~posso~ajudar você 
+
+[LINE]
+Speaker507: Yes! I'm~going to   Barcelona…
+~           sim  eu~vou    para Barcelona 
+
+[LINE]
+Speaker507: I  want  to~sit      next~to  my    girlfriend on~the plane.
+~           eu quero (me)~sentar perto~de minha namorada   no     avião 
+
+[MULTIPLE_CHOICE]
+> A Bea quer se sentar ao lado da mãe dela no avião.
++ Não, não é isso.
+- Sim, isso mesmo.
+
+[LINE]
+Speaker823: OK,    we  have  two  seats    together.
+~           certo  nós temos dois assentos juntos   
+
+[MULTIPLE_CHOICE]
+> O atendente diz à Bea que…
+- …não há mais assentos no avião.
++ …há dois assentos juntos no avião.
+- …só há dois assentos no avião.
+
+[LINE]
+Speaker507: Great!
+~           ótimo 
+
+[LINE]
+Speaker823: Um…  where is   your~girlfriend? 
+~           hum  onde  está (a)~sua~namorada 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "encontrá-la".
+Speaker507: (I)  (don't~know). (Can~you~help~me)         (+find~her)?   
+~            eu   não~sei       você~pode~me~ajudar~(a)    encontrá-la  
+
+[LINE]
+Speaker823: What~does~she~look~like?
+~           como~ela~é              
+
+[LINE]
+Speaker507: Hmm. She is tall. She has dark~hair…    
+~           hmm  ela é  alta  ela tem cabelo~escuro 
+
+[LINE]
+Speaker823: OK.   
+~           certo 
+
+[LINE]
+Speaker507: She loves~sports~and~cooking…
+~           ela ama~esportes~e~cozinhar  
+
+[LINE]
+Speaker823: Uh…
+~           hã 
+
+[LINE]
+Speaker507: She loves animals…      but she drives too~fast.     
+~           ela ama   (os)~animais  mas ela dirige rápido~demais 
+
+[LINE]
+Speaker823: OK…    What~is her~name?     
+~           certo  qual~é  (o)~nome~dela 
+
+[MULTIPLE_CHOICE]
+> Por que o atendente quer saber mais sobre a namorada de Bea?
+- Ele quer praticar esportes com ela.
++ Ele está ajudando Bea a encontrá-la.
+- Ele e Bea são muito amigos.
+
+[LINE]
+Speaker507: Oh. I  don't~know.
+~           ah  eu não~sei    
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker823: You  don't~know [your~girlfriend's~name]?  
+~           você não~sabe    (o)~nome~da~sua~namorada  
+- your good friends' names
+- your girlfriend's game
++ your girlfriend's name
+
+[LINE]
+Speaker507: I  don't~have a   girlfriend yet.  
+~           eu não~tenho  uma namorada   ainda 
+
+[LINE]
+Speaker507: Can~you~help~me~find            one?
+~           você~pode~me~ajudar~a~encontrar uma 
+
+[MULTIPLE_CHOICE]
+> A Bea quer se sentar perto de alguém que…
+- …ronque muito alto.
+- …trabalhe no aeroporto.
++ …possa ser namorada dela.
+
+[MATCH]
+> Toque nos pares
+- two <> dois
+- want <> quero
+- loves <> ama
+- dark hair <> cabelo escuro
+- airport <> aeroporto
+
