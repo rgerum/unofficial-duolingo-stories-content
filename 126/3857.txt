@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Eu quero uma pizza
+icon=3eebaf390a99fcebfaf064cfa42f14c071b5b97f
+set=13|2
+
+[HEADER]
+> I  Want  a   Pizza
+~ eu quero uma pizza
+
+[LINE]
+> Lin is~walking   home.       
+~ Lin está~andando (para)~casa 
+
+[LINE]
+> She is~carrying     two  pizzas.
+~ ela está~carregando duas pizzas 
+
+[MULTIPLE_CHOICE]
+> A Lin tem sete pizzas.
+- Sim, isso mesmo.
++ Não, não é isso.
+
+[LINE]
+> She sees Oscar on~the street.
+~ ela vê   Oscar na     rua    
+
+[LINE]
+Speaker592: Hi, Lin. That pizza smells great!    
+~           oi  Lin  essa pizza cheira muito~bem 
+
+[LINE]
+Speaker508: Yes, it's from~Emilio's~Restaurant.
+~           sim  é    do~Restaurante~do~Emilio 
+
+[LINE]
+Speaker592: Oh, I  love that restaurant. 
+~           ah  eu amo  esse restaurante 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker592: Now   I  want  [a   pizza]!
+~           agora eu quero  uma pizza  
++ a   pizza
+~ uma ~    
+- some    new~clothes 
+~ algumas roupas~novas
+- to~clean my      apartment  
+~ limpar   (o)~meu apartamento
+
+[LINE]
+Speaker508: Oh, the restaurant  is   closed  now.  
+~           ah  o   restaurante está fechado agora 
+
+[LINE]
+Speaker592: Oh no… 
+~           ah não 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker592: [(Well), (you)  (have) (two)  (pizzas).]
+~             bem     você   tem    duas   pizzas   
+
+[LINE]
+Speaker592: Can~I    buy     one?
+~           eu~posso comprar uma 
+
+[LINE]
+Speaker508: No,  sorry.    These are for  my        grandma Lucy and me.        
+~           não  desculpa  essas são para (a)~minha avó     Lucy e   (para)~mim 
+
+[LINE]
+Speaker592: Well, can~I~have       a  piece  of~your~pizza?
+~           bem   você~pode~me~dar um pedaço da~sua~pizza  
+
+[LINE]
+Speaker508: Uh, no,  Oscar. That's… strange. 
+~           hã  não  Oscar  isso~é  estranho 
+
+[MULTIPLE_CHOICE]
+> A Lin acha que…
++ …dar um pouco de pizza para o Oscar é estranho.
+- …o Oscar odeia pizza.
+- …o Oscar está usando roupas estranhas.
+
+[LINE]
+> Lin leaves.    
+~ Lin vai~embora 
+
+[LINE]
+Speaker592: Now   I  really    want  pizza from~that restaurant… 
+~           agora eu realmente quero pizza daquele   restaurante 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+> Oscar [makes~a~call]    on~his~phone.    
+~ Oscar  faz~uma~ligação  no~telefone~dele 
++ makes a call
+- takes it all
+- makes a ball
+
+[LINE]
+Speaker592: Hi Lucy, it's  Oscar. Do~you~have plans  for  dinner?    
+~           oi Lucy  é~(o) Oscar  você~tem    planos para (o)~jantar 
+
+[LINE]
+Speaker509: I'm~having~pizza   with    Lin! Do~you~want to~eat with us?     
+~           eu~vou~comer~pizza com~(a) Lin  você~quer   comer  com  a~gente 
+
+[LINE]
+Speaker592: Thanks!   That's a   great idea! 
+~           obrigado  essa~é uma ótima ideia 
+
+[MULTIPLE_CHOICE]
+> Que espertinho! O Oscar ligou para a Lucy porque…
+- …ela não respondia as mensagens de texto dele.
+- …ele precisava contar um segredo para ela.
++ …ele queria que ela convidasse ele para jantar.
+
+[MATCH]
+> Toque nos pares
+- plans <> planos
+- restaurant <> restaurante
+- smells <> cheira
+- She <> ela
+- Oh <> ah
+
