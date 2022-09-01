@@ -1,0 +1,119 @@
+[DATA]
+fromLanguageName=Saturday Night
+icon=09cbfe4b009b6617a05701652d4210d552d0f5a2
+set=3|2
+
+[HEADER]
+> Sabato   sera 
+~ Saturday night
+
+[LINE]
+> Vittoria saluta       un amico. 
+~ ~        says~hi~(to) a  friend 
+
+[LINE]
+Speaker336: Ciao, Pietro!
+~           hi    ~      
+
+[LINE]
+Speaker336: Hai      qualcosa  in~programma per il  fine~settimana?
+~           you~have something planned      for the weekend        
+
+[MULTIPLE_CHOICE]
+> Vittoria is asking Pietro if he has plans for the weekend.
+- No, that's not right.
++ Yes, that's true.
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker2243: Ho     un biglietto per un concerto [sabato~sera]!        
+~            I~have a  ticket    for a  concert   (on)~Saturday~night  
++ sabato sera
+- sabato o seria
+- sabato è nera
+
+[LINE]
+Speaker2243: È    una band~emergente: "Le  sorelle".
+~            it's a   new~band         the sisters  
+
+[CONTINUATION]
+> What comes next?
+Speaker2243: Vuoi     venire  [con  me]?
+~            you~want to~come  with ~   
+- fine~settimana
+~ weekend       
+- emergente
+~ new      
++ con  me
+~ with ~ 
+
+[LINE]
+Speaker336: Ah...
+
+[LINE]
+Speaker2243: Hai      qualcos'altro  in~programma per il  fine~settimana?
+~            you~have something~else planned      for the weekend        
+
+[LINE]
+Speaker336: Ecco...
+~           well   
+
+[LINE]
+Speaker336: Sì!  Devo~studiare   per un esame.
+~           yes  I~have~to~study for an exam  
+
+[LINE]
+Speaker2243: Oh...
+
+[LINE]
+Speaker2243: OK...
+
+[ARRANGE]
+> Tap what you hear
+> [(Il~sabato~sera),    (Pietro) (va)   (al)     (concerto).]
+~   on~Saturday~night    ~        goes   to~the   concert    
+
+[LINE]
+Speaker2243: La  chitarrista...
+~            the guitarist     
+
+[LINE]
+Speaker2243: ... è...  Vittoria?
+~                is    ~        
+
+[MULTIPLE_CHOICE]
+> Why is Pietro confused?
++ Vittoria is the guitarist of the band.
+- He cannot see anything.
+- Vittoria is calling him on the phone.
+
+[LINE]
+> Alla   fine del    concerto, Pietro si~avvicina~a Vittoria.
+~ at~the end  of~the concert   ~      approaches    ~        
+
+[LINE]
+Speaker2243: Dovevi~studiare  per un esame, eh?
+~            you~had~to~study for an exam   ~  
+
+[LINE]
+Speaker336: Sorpresa!
+~           surprise 
+
+[LINE]
+Speaker2243: Sei    brava come   chitarrista!
+~            you're good  as~(a) guitarist   
+
+[MULTIPLE_CHOICE]
+> Pietro thinks that...
+- ... he should join Vittoria's band.
++ … Vittoria is a great guitarist.
+- … Vittoria is a lousy guitarist.
+
+[MATCH]
+> Tap the pairs
+- il <> the
+- saluta <> says hi
+- concerto <> concert
+- band emergente <> new band
+- Ciao <> hi
+
