@@ -1,0 +1,153 @@
+[DATA]
+fromLanguageName=The Hacker
+icon=a22fead6c7883506dab25f8e6ea7c66c0f406c7c
+set=36|4
+
+[HEADER]
+> Le~hacker 
+~ the~hacker
+
+[LINE]
+> Béa arrive  chez~Eddy.      
+~ Béa arrives to~Eddy's~place 
+
+[LINE]
+Speaker414: Ah, tu  es  là   ! Merci     !
+~           ah  you are here   thank~you  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: De~rien.        Tu  as~dit [que~tu~avais] un~problème avec ton~ordinateur ?
+~           you're~welcome  you said    that~you~had  a~problem   with your~computer   
+- que tout a fait
+- que tu allais
++ que tu avais
+
+[LINE]
+Speaker414: Oui !
+~           yes  
+
+[LINE]
+Speaker507: Quel est le~problème ?
+~           what is  the~problem  
+
+[LINE]
+Speaker414: Tu  sais ce~que~c'est,  des~hackers ?
+~           you know what~they~are  hackers      
+
+[LINE]
+Speaker414: Ce~sont  des~gens      qui changent des~trucs     sur les~ordinateurs~des~autres.
+~           they~are (some)~people who change   (some)~things on  other~people's~computers   
+
+[LINE]
+Speaker507: Oui, je sais ce~que~c'est~un~hacker. Quel est le~problème ?
+~           yes  I  know what~a~hacker~is        what is  the~problem  
+
+[LINE]
+Speaker414: J'ai~essayé~d'imprimer mon~CV,    mais c'était impossible !
+~           I~tried~to~print       my~resume  but  it~was  impossible  
+
+[MULTIPLE_CHOICE]
+> Eddy tried to print his resume but…
++ …he couldn't do it.
+- …he printed Béa's resume instead.
+- …he turned off the computer instead.
+
+[LINE]
+Speaker414: Et  maintenant, je ne~trouve~plus mon~CV.   
+~           and now         I  can't~find     my~resume 
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Je~pense) (qu'un)  (hacker) (a~fait) (quelque~chose).]
+~             I~think    that~a   hacker   did      something       
+
+[LINE]
+Speaker507: Je peux voir     ?
+~           I  can  (to)~see  
+
+[LINE]
+> Béa utilise l'ordinateur~d'Eddy.
+~ Béa uses    Eddy's~computer     
+
+[LINE]
+Speaker507: Hmm… J'ai~trouvé un~document qui~s'appelle   "CV     Eddy".
+~           hmm  I~found     a~document  which~is~called  resume Eddy  
+
+[LINE]
+> Béa ouvre le~document.  Eddy le~lit.  
+~ Béa opens the~document  Eddy reads~it 
+
+[LINE]
+Speaker414: On~dirait~que c'est mon~CV.   
+~           it~looks~like it's  my~resume 
+
+[MULTIPLE_CHOICE]
+> It looks like Béa found...
+- …a picture of Eddy.
+- …a computer virus.
++ …Eddy's resume.
+
+[LINE]
+Speaker507: Je sais pourquoi ton~imprimante ne~marche~pas.
+~           I  know why      your~printer   isn't~working 
+
+[LINE]
+> Béa branche  l'imprimante à  l'ordinateur.
+~ Béa connects the~printer  to the~computer 
+
+[MULTIPLE_CHOICE]
+> Béa connected the printer to…
+- …the wall.
+- …a charger.
++ …the computer.
+
+[LINE]
+Speaker507: Elle~n'était~pas branchée  !
+~           it~wasn't        connected  
+
+[LINE]
+Speaker414: Hmm… C'était sûrement Junior.
+~           hmm  it~was  surely   Junior 
+
+[CONTINUATION]
+> What comes next?
+> Béa imprime le~CV      [et  le~lit].  
+~ Béa prints  the~resume  and reads~it  
++ et  le~lit  
+~ and reads~it
+- et  achète quelque~chose
+~ and buys   something    
+- et  le~branche 
+~ and connects~it
+
+[LINE]
+Speaker507: Eddy, il~y~a    plein~d'erreurs sur ton~CV.     
+~           Eddy  there~are many~errors     on  your~resume 
+
+[LINE]
+Speaker414: Le~hacker  a~probablement~changé des~trucs.  
+~           the~hacker probably~changed      some~things 
+
+[LINE]
+Speaker507: Hmm… Ça   dit  que  tu  es  très bon~en    informatique.
+~           hmm  that says that you are very good~with IT           
+
+[LINE]
+Speaker414: Ah, c'est sûrement le~hacker  qui a~ajouté ça.  
+~           ah  it's  surely   the~hacker who added    that 
+
+[MULTIPLE_CHOICE]
+> Eddy thought his computer was hacked…
++ …but in fact he's just bad with technology.
+- …and he ended up losing all his data.
+- …so he called the police.
+
+[MATCH]
+> Tap the pairs
+- là <> here
+- dit <> says
+- pourquoi <> why
+- maintenant <> now
+- Eddy <> Eddy
+
