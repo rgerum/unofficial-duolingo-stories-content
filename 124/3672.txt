@@ -1,0 +1,171 @@
+[DATA]
+fromLanguageName=Pull-over d'été
+icon=a6221e8716923ce3381efbbfc20a0913ce314fdb
+set=27|1
+
+[HEADER]
+> Summer~Sweater 
+~ pull-over~d'été
+
+[LINE]
+> Eddy and Junior are  at~the mall.             
+~ Eddy et  Junior sont au     centre~commercial 
+
+[LINE]
+Speaker415: Dad,  why      are~we here? You hate     this store.  
+~           Papa  pourquoi on~est ici   tu  détestes ce   magasin 
+
+[LINE]
+Speaker414: I~need~a         sweater.  
+~           j'ai~besoin~d'un pull-over 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker415: [But~it's~summer]. 
+~            mais~c'est~l'été  
+- But it's somewhere
++ But it's summer
+- Buy this summer
+
+[LINE]
+> A   salesperson walks~up   to~them.
+~ une vendeuse    s'approche d'eux   
+
+[LINE]
+Speaker561: Hi~again,  Eddy!
+~           rebonjour  Eddy 
+
+[LINE]
+Speaker414: Yes, my~name~is   Eddy. I  mean…      hello!  
+~           oui  je~m'appelle Eddy  je veux~dire  bonjour 
+
+[LINE]
+Speaker415: Oh. I  know why      we're  here…
+~           oh  je sais pourquoi on~est là   
+
+[LINE]
+Speaker561: Can~I~help~you~find          something?    
+~           puis-je~vous~aider~à~trouver quelque~chose 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker414: Yes! I'm~looking~for [a  sweater].  
+~           oui  je~cherche       un pull-over  
+- my  pet~fish            
+~ mon poisson~de~compagnie
+- Junior
+~ Junior
++ a  sweater  
+~ un pull-over
+
+[LINE]
+Speaker561: You  should~try~on   this green~sweater.  It's~going~to~look~good~on~you.
+~           vous devriez~essayer ce   pull-over~vert  il~vous~ira~bien               
+
+[LINE]
+Speaker414: Cool, thanks!
+~           cool  merci  
+
+[LINE]
+Speaker415: You don't~like  green.  
+~           tu  n'aimes~pas le~vert 
+
+[LINE]
+Speaker414: Shh.  No.  I~love  green!  
+~           chut  non  j'adore le~vert 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+> [(Eddy) (puts~on) (the) (sweater).]  
+~   Eddy   met       le    pull-over   
+
+[LINE]
+Speaker561: You  look       amazing!   
+~           vous avez~l'air incroyable 
+
+[LINE]
+Speaker415: It looks   too  small, Dad. 
+~           il a~l'air trop petit  Papa 
+
+[LINE]
+Speaker414: What? No. 
+~           quoi  non 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker561: And it's   [on~sale]. 
+~           et  il~est  en~solde  
++ on sale
+- one shell
+- on scale
+
+[LINE]
+Speaker414: I'll~take~it!
+~           je~le~prends 
+
+[LINE]
+Speaker414: And… I'm~going~to~wear~it~home.     
+~           et   je~vais~le~porter~pour~rentrer 
+
+[LINE]
+Speaker561: Great!  Have~a~nice~day! I~hope~I~see~you~again soon!   
+~           génial  bonne~journée    j'espère~vous~revoir   bientôt 
+
+[LINE]
+Speaker414: Really?   
+~           vraiment  
+
+[MULTIPLE_CHOICE]
+> Eddy semble plein d'espoir. Pourquoi ?
+- Junior va acheter le même pull-over.
++ La vendeuse a dit qu'elle espérait le revoir bientôt.
+- Junior et lui vont aller manger une pizza.
+
+[LINE]
+Speaker415: Let's~go, Dad. 
+~           allons-y  Papa 
+
+[LINE]
+> Eddy and Junior leave   the store.  
+~ Eddy et  Junior sortent du  magasin 
+
+[LINE]
+Speaker415: Dad,  are~you sure    you're~OK?   Your face   is  blue.
+~           Papa  tu~es   sûr~que tu~vas~bien  ton  visage est bleu 
+
+[MULTIPLE_CHOICE]
+> Pourquoi le visage d'Eddy est-il bleu ?
++ Le pull-over est trop petit.
+- Il a mangé des myrtilles.
+- Il porte du maquillage bleu.
+
+[LINE]
+Speaker414: I'm~fine!    
+~           je~vais~bien 
+
+[LINE]
+Speaker415: You can't~take~the~sweater~off,       can~you?     
+~           tu  ne~peux~pas~enlever~le~pull-over  n'est-ce~pas 
+
+[LINE]
+Speaker414: No. 
+~           non 
+
+[LINE]
+Speaker415: Let's~go~buy   some scissors.
+~           allons~acheter des  ciseaux  
+
+[MULTIPLE_CHOICE]
+> Pourquoi Eddy a-t-il mis un pull-over trop petit ?
+- Parce qu'il avait froid.
++ Parce qu'il essayait de flirter avec la vendeuse.
+- Parce que Junior lui a dit de le faire.
+
+[MATCH]
+> Choisis les paires
+- at the <> au
+- know <> sais
+- can you <> n'est-ce pas
+- I'm fine <> je vais bien
+- But it's summer <> mais c'est l'été
+
