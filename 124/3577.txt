@@ -1,0 +1,102 @@
+[DATA]
+fromLanguageName=Qu'est-ce que vous voulez ?
+icon=8c5ae7b18c5ff0f37394646c91bd6a579213dcbc
+set=3|2
+
+[HEADER]
+> What Do~You~Want?
+~ que  voulez-vous 
+
+[LINE]
+> Oscar walks~into a  clothes~store.       
+~ Oscar entre~dans un magasin~de~vêtements 
+
+[LINE]
+> He sees his student,   Zari. She  works     in   the store.  
+~ il voit son étudiante  Zari  elle travaille dans le  magasin 
+
+[MULTIPLE_CHOICE]
+> Oscar voit Zari travailler dans un magasin.
+- Non, c'est faux.
++ Oui, c'est vrai.
+
+[LINE]
+Speaker592: Zari! Oh, good! I  am   happy   to~see~you.
+~           Zari  oh  bien  je suis heureux de~te~voir 
+
+[LINE]
+Speaker418: Hello!   Welcome!  
+~           bonjour  bienvenue 
+
+[LINE]
+Speaker418: Do~you~need~help?       
+~           vous~avez~besoin~d'aide 
+
+[LINE]
+Speaker592: Yes, thank~you! I~need…        
+~           oui  merci      j'ai~besoin~de 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « sais ».
+Speaker418: (Oh), I  (+know)! (You)  need~a            (new)      jacket!
+~            oh   je   sais    vous  avez~besoin~d'une  nouvelle  veste  
+
+[LINE]
+> Zari shows    Oscar a   jacket.
+~ Zari montre~à Oscar une veste  
+
+[LINE]
+Speaker592: A   new      jacket? No.  Zari, I… 
+~           une nouvelle veste   non  Zari  je 
+
+[LINE]
+Speaker418: Oh! You  need~a            new      shirt!  
+~           oh  vous avez~besoin~d'une nouvelle chemise 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker418: [(The) (green~shirt)   (is)  (perfect)!] 
+~             la    chemise~verte   est   parfaite   
+
+[LINE]
+Speaker592: No.  Zari, please…       
+~           non  Zari  s'il~te~plaît 
+
+[LINE]
+Speaker592: I  do~not~need~a         shirt.   I  do~not~need~a         jacket. I~need…        
+~           je n'ai~pas~besoin~d'une chemise  je n'ai~pas~besoin~d'une veste   j'ai~besoin~de 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker418: Pants!       [You~need~pants]!                
+~           un~pantalon   vous~avez~besoin~d'un~pantalon  
++ You need pants
+- Your new pants
+- You need parents
+
+[LINE]
+Speaker592: No!  I  do~not~need        clothes!  
+~           non  je n'ai~pas~besoin~de vêtements 
+
+[LINE]
+Speaker592: I~need         to~know…
+~           j'ai~besoin~de savoir  
+
+[LINE]
+Speaker592: Where is~the~restroom?   
+~           où    sont~les~toilettes 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Oscar est-il allé dans un magasin de vêtements ?
++ Il avait besoin d'aller aux toilettes.
+- Il voulait acheter une nouvelle veste à Zari.
+- Il voulait acheter un pantalon, une chemise et une veste.
+
+[MATCH]
+> Choisis les paires
+- No <> non
+- shows <> montre à
+- thank you <> merci
+- Pants <> un pantalon
+- Yes <> oui
+
