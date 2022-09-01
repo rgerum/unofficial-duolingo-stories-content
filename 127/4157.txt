@@ -1,0 +1,107 @@
+[DATA]
+fromLanguageName=Um problema com o carro
+icon=e161ff53b5f470063ac66df2698eddb71232c290
+set=16|2
+
+[HEADER]
+> Un problema con el carro
+~ um problema com o  carro
+
+[LINE]
+> Eddy está en~la calle.
+~ Eddy está na    rua   
+
+[LINE]
+> Él  cierra el baúl        de un carro.
+~ ele fecha  o  porta-malas de um carro 
+
+[LINE]
+> Vikram llega.
+~ Vikram chega 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker593: ¿Estás bien, Eddy? [Te~ves~preocupado]. 
+~            estás bem   Eddy   pareces~preocupado  
++ Te ves preocupado
+- Se han preocupado
+- Te vas preparado
+
+[LINE]
+Speaker414: Alquilé este carro, pero no      enciende.
+~           aluguei este carro  mas  ele~não liga     
+
+[MULTIPLE_CHOICE]
+> Por que o Eddy está preocupado?
+- Ele está no porta-malas de um carro.
++ Ele não consegue ligar um carro que ele alugou.
+- Ele não sabe onde está.
+
+[LINE]
+Speaker593: Mmm… ¿te~puedo~ayudar?      
+~           hum   posso~te~ajudar       
+
+[LINE]
+Speaker414: No,  gracias,  Vikram.
+~           não  obrigado  Vikram 
+
+[LINE]
+Speaker593: Pero yo sé  cuál es el problema con el carro.
+~           mas  eu sei qual é  o  problema com o  carro 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker414: Vikram, [yo~sé~mucho~sobre~carros]. 
+~           Vikram   eu~sei~muito~sobre~carros  
++ yo sé mucho sobre carros
+- yo me ducho sobre carros
+- yo sé mucho sobre callos
+
+[LINE]
+Speaker593: Eh… Eddy, el carro está encendido.
+~           eh  Eddy  o  carro está ligado    
+
+[LINE]
+Speaker414: Eh… no,  Vikram. No  está encendido porque no  escucho el motor.
+~           eh  não  Vikram  não está ligado    porque não escuto  o  motor 
+
+[LINE]
+Speaker593: Es un carro eléctrico, no  hace ruido   y no  necesita   gasolina.
+~           é  um carro elétrico   não faz  barulho e não precisa~de gasolina 
+
+[MULTIPLE_CHOICE]
+> O carro é elétrico, então…
+- …usa muita gasolina.
+- …é feio.
++ …é quieto e não usa gasolina.
+
+[LINE]
+Speaker414: Pero yo le~puse gasolina hace diez minutos…
+~           mas  eu pus     gasolina há   dez  minutos 
+
+[LINE]
+Speaker593: ¡¿Qué?!   ¿Dónde?
+~             o~quê    onde  
+
+[LINE]
+Speaker414: Aquí.
+~           aqui 
+
+[LINE]
+Speaker593: ¡Ay,~no,  Eddy… ese  es el baúl!       
+~            ah,~não  Eddy  esse é  o  porta-malas 
+
+[MULTIPLE_CHOICE]
+> Onde o Eddy colocou a gasolina?
++ no porta-malas do carro
+- na motocicleta dele
+- no carro do Vikram
+
+[MATCH]
+> Toque nos pares
+- sé <> sei
+- Qué <> o quê
+- de <> de
+- Vikram <> Vikram
+- Alquilé <> aluguei
+
