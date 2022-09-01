@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Der Kuchen
+icon=4a31a2e8269bfd907d862c44a3b320899c169419
+set=14|4
+
+[HEADER]
+> The Cake  
+~ der Kuchen
+
+[LINE]
+> Lin goes to her  kitchen. She looks  in the fridge.     
+~ Lin geht in ihre Küche    sie schaut in den Kühlschrank 
+
+[LINE]
+Speaker508: Where is  my~cake?    
+~           wo    ist mein~Kuchen 
+
+[LINE]
+> Lin sees  her  grandmother, Lucy, at~the table.
+~ Lin sieht ihre Großmutter   Lucy  am     Tisch 
+
+[LINE]
+Speaker508: Grandma, what did  you just   eat?     
+~           Oma      was  hast du  gerade gegessen 
+
+[LINE]
+> Lucy hides     her   plate. 
+~ Lucy versteckt ihren Teller 
+
+[MULTIPLE_CHOICE]
+> Lucy versucht, ihren Teller vor Lin zu verstecken.
++ Ja, das ist richtig.
+- Nein, das ist falsch.
+
+[LINE]
+Speaker509: Uhhh… a   sandwich!
+~           ähhh  ein Sandwich 
+
+[LINE]
+Speaker508: I   can't~find~my~cake.             
+~           ich kann~meinen~Kuchen~nicht~finden 
+
+[LINE]
+Speaker509: That's  strange. What does~it~look~like?
+~           das~ist seltsam  wie  sieht~er~aus      
+
+[ARRANGE]
+> Was hörst du?
+Speaker508: [(It's)   (a)   (very) (small)   (cake).]  
+~             es~ist   ein   sehr   kleiner   Kuchen   
+
+[LINE]
+Speaker509: Are~there oranges on  the cake?  
+~           sind      Orangen auf dem Kuchen 
+
+[LINE]
+Speaker508: Yes! There~are a~lot~of oranges on  the cake.  
+~           ja   es~sind   viele    Orangen auf dem Kuchen 
+
+[LINE]
+Speaker509: Is  your cake   yellow?
+~           ist dein Kuchen gelb   
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker508: Yes! My   cake   [is  yellow]!
+~           ja   mein Kuchen  ist gelb    
+- is  very large
+~ ist sehr groß 
++ is  yellow
+~ ist gelb  
+- is  red
+~ ist rot
+
+[LINE]
+Speaker509: Is  your cake   very, very delicious?
+~           ist dein Kuchen sehr  sehr lecker    
+
+[LINE]
+Speaker508: Grandma! Did  you eat~my~cake?!           
+~           Oma      hast du  meinen~Kuchen~gegessen  
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker509: No!   I   [didn't~eat~it]!          
+~           nein  ich  habe~ihn~nicht~gegessen  
+- did need it
+- didn't read it
++ didn't eat it
+
+[LINE]
+Speaker508: OK. Sorry.           I'll      make~another…~chocolate~cake.          
+~           OK  es~tut~mir~leid  ich~werde einen~anderen~Schokoladenkuchen~backen 
+
+[LINE]
+Speaker509: Chocolate?  But  your cake   was vanilla!
+~           Schokolade  aber dein Kuchen war Vanille 
+
+[LINE]
+Speaker508: Ha! Yes, it was vanilla! You did~eat~my~cake!            
+~           ha  ja   er war Vanille  du  hast~meinen~Kuchen~gegessen 
+
+[MULTIPLE_CHOICE]
+> Wie hat Lin herausgefunden, dass Lucy ihren Kuchen gegessen hat?
+- Sie hat Lucys Teller gefunden.
++ Lucy wusste, was für ein Kuchen es war.
+- Lucy hatte Kuchen in ihrem Gesicht.
+
+[MATCH]
+> Wähle die Paare
+- at the <> am
+- grandmother <> Großmutter
+- strange <> seltsam
+- I'll <> ich werde
+- My <> mein
+
