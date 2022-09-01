@@ -1,0 +1,153 @@
+[DATA]
+fromLanguageName=To the Station!
+icon=7e63cd097b5f8d7d545cff5a42fd9b054b7180ea
+set=2|2
+
+[HEADER]
+> Zum~Bahnhof!           
+~ to~the~railway~station 
+
+[LINE]
+> Oscar nimmt     ein Taxi.
+~ Oscar is~taking a   taxi 
+
+[LINE]
+> Seine Freundin Lin fährt      das Taxi.
+~ his   friend   Lin is~driving the taxi 
+
+[MULTIPLE_CHOICE]
+> Lin is driving the taxi Oscar just got into.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker592: Oh, Lin! Du  fährst    Taxi?
+~           oh  Lin  you drive~(a) taxi 
+
+[LINE]
+Speaker508: Ja!  Das  ist meine neue Arbeit!
+~           yes  that is  my    new  job    
+
+[POINT_TO_PHRASE]
+> Choose the option that means "where."
+Speaker508: (+Wohin) (möchtest~du)    (fahren)?
+~             where   would~you~like   to~go   
+
+[LINE]
+Speaker592: Zum~Bahnhof,            bitte! 
+~           to~the~railway~station  please 
+
+[LINE]
+Speaker508: Wo    ist der Bahnhof?        
+~           where is  the railway~station 
+
+[LINE]
+Speaker592: Keine~Ahnung.
+~           no~idea      
+
+[MULTIPLE_CHOICE]
+> Oscar doesn't know…
++ …where the station is.
+- …where he wants to go.
+- …who Lin is.
+
+[LINE]
+Speaker508: OK ...
+~           OK    
+
+[LINE]
+> Lin fährt~los.     
+~ Lin starts~driving 
+
+[MULTIPLE_CHOICE]
+> Lin starts…
+- …eating.
+- …walking.
++ …driving.
+
+[LINE]
+Speaker508: Wir sind da!  
+~           we  are  here 
+
+[LINE]
+Speaker592: Lin, das~hier ist nicht der Bahnhof.         Das  ist die Universität.
+~           Lin  this     is  not   the railway~station  this is  the university  
+
+[LINE]
+Speaker508: Oh ...
+~           oh    
+
+[LINE]
+> Lin fährt~los.     
+~ Lin starts~driving 
+
+[LINE]
+Speaker508: Wir sind da!  
+~           we  are  here 
+
+[LINE]
+Speaker592: Lin ...
+~           Lin    
+
+[LINE]
+Speaker508: Ja? 
+~           yes 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker592: Das~hier ist [die~Bibliothek].
+~           this     is   the~library     
+- die Diskothek
++ die Bibliothek
+- die Bibel am Weg
+
+[LINE]
+Speaker508: Oh ...
+~           oh    
+
+[LINE]
+> Und Lin ... fährt~wieder~los.    
+~ and Lin     starts~driving~again 
+
+[LINE]
+Speaker508: OK, wir sind da!  
+~           OK  we  are  here 
+
+[LINE]
+Speaker592: Lin, das~hier ist nicht der Bahnhof         ...
+~           Lin  this     is  not   the railway~station    
+
+[LINE]
+Speaker508: Richtig. Das~hier ist meine Wohnung.  
+~           correct  this     is  my    apartment 
+
+[LINE]
+Speaker508: Ich~will~nicht Taxi~fahren.      
+~           I~don't~want   to~drive~(a)~taxi 
+
+[LINE]
+Speaker508: Diese~Arbeit        ist zu  stressig. 
+~           this~(kind~of)~work is  too stressful 
+
+[LINE]
+> Lin geht       zu ihrer Wohnung.  
+~ Lin is~walking to her   apartment 
+
+[LINE]
+Speaker508: Auf~Wiedersehen, Oscar!
+~           goodbye          Oscar 
+
+[MULTIPLE_CHOICE]
+> Oh no! Why did Lin decide to go home?
++ She thinks driving a taxi is too difficult.
+- She needed to pick up another passenger.
+- She forgot to bring her lunch.
+
+[MATCH]
+> Tap the pairs
+- nimmt <> is taking
+- Ja <> yes
+- Wir <> we
+- Oh <> oh
+- Diese Arbeit <> this work
+
