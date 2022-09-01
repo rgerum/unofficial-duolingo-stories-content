@@ -1,0 +1,109 @@
+[DATA]
+fromLanguageName=La scelta di Junior
+icon=e0600de22649754eb7336b587834d36407767819
+set=6|3
+
+[HEADER]
+> Junior's~Choice    
+~ la~scelta~di~Junior
+
+[LINE]
+> Junior is~getting             his    lunch  at school.
+~ Junior sta~andando~a~prendere il~suo pranzo a  scuola 
+
+[LINE]
+Speaker415: Hello, Ms.|       Linda! I'm  ready  to  eat~lunch!
+~           salve  signorina  Linda  sono pronto per pranzare  
+
+[SELECT_PHRASE]
+> Seleziona la frase mancante
+Speaker395: Hello, Junior. [We~have~fish]            for lunch  today.
+~           ciao   Junior   (noi)~abbiamo~del~pesce  per pranzo oggi  
+- We have five
+- We love dish
++ We have fish
+
+[LINE]
+Speaker395: And with the fish,  you~can~have    a~salad     or fries.                
+~           e   con  il  pesce  (tu)~puoi~avere un'insalata o  delle~patatine~fritte 
+
+[LINE]
+Speaker415: I  love  fries              and salads!     
+~           io adoro le~patatine~fritte e   le~insalate 
+
+[LINE]
+Speaker395: You~can~only~have     one, Junior.
+~           (tu)~puoi~averne~solo uno  Junior 
+
+[MULTIPLE_CHOICE]
+> Linda sta dicendo che Junior può avere…
+- … un pancake.
+- … le patatine fritte e l'insalata.
++ … le patatine fritte o l'insalata.
+
+[LINE]
+Speaker415: Well,   fries              are  the~delicious option… 
+~           allora  le~patatine~fritte sono una~deliziosa opzione 
+
+[LINE]
+Speaker415: And I~am~having     a   difficult~day…     
+~           e   (io)~sto~avendo una giornata~difficile 
+
+[LINE]
+Speaker415: But salad      is healthy… 
+~           ma  l'insalata è  salutare 
+
+[MULTIPLE_CHOICE]
+> Junior pensa che le insalate siano...
+- … molto grandi.
++ … salutari.
+- … economiche.
+
+[LINE]
+Speaker395: Junior…
+~           Junior 
+
+[LINE]
+Speaker415: But I~can~only~have        one…
+~           ma  (io)~posso~averne~solo uno 
+
+[LINE]
+Speaker415: I  want   the~salad.  No! The fries!           Wait…   
+~           io voglio l'insalata  no  le  patatine~fritte  aspetti 
+
+[LINE]
+Speaker415: I~don't~know!  
+~           (io)~non~lo~so 
+
+[MULTIPLE_CHOICE]
+> Povero Junior! Qual è il suo problema?
+- Ha mangiato troppe patatine fritte.
+- Vuole il gelato nell'insalata.
++ Non riesce a scegliere tra l'insalata e le patatine fritte.
+
+[LINE]
+Speaker395: Junior!
+~           Junior 
+
+[LINE]
+Speaker415: Oh! Yes, Ms.|       Linda?
+~           oh  sì   signorina  Linda 
+
+[LINE]
+Speaker395: Here!  Take   the fries           and the~salad. 
+~           tieni  prendi le  patatine~fritte e   l'insalata 
+
+[MULTIPLE_CHOICE]
+> Linda ha detto a Junior che può…
++ … prendere le patatine fritte e l'insalata.
+- … immaginare che le patatine fritte siano un'insalata.
+- … andare a mangiare da qualche altra parte.
+
+[MATCH]
+> Tocca le coppie
+- or <> o
+- You can only have <> puoi averne solo
+- with <> con
+- eat lunch <> pranzare
+- love <> adoro
+
