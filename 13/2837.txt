@@ -1,0 +1,166 @@
+[DATA]
+fromLanguageName=What's Your Name?
+icon=689567546d7675ad256e56c304d89b12a7c38c8a
+set=14|4
+
+[HEADER]
+> Comment~tu~t'appelles ?
+~ what's~your~name       
+
+[LINE]
+> Lily et  Zari sont à  une fête. 
+~ Lily and Zari are  at a   party 
+
+[LINE]
+Speaker418: C'est   une fête~géniale ! Je veux danser   !
+~           this~is a   great~party    I  want to~dance  
+
+[LINE]
+Speaker416: Je n'aime~pas danser.  
+~           I  don't~like to~dance 
+
+[LINE]
+Speaker418: Hé  ! C'est~qui,~lui  ? Il est mignon !
+~           hey   who~is~that~guy   he is  cute    
+
+[MULTIPLE_CHOICE]
+> Zari saw a guy and she thinks he's cute.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker416: Il est dans ma classe. C'est   sa~fête.  
+~           he is  in   my class   this~is his~party 
+
+[LINE]
+Speaker418: Comment~il~s'appelle ?
+~           what's~his~name       
+
+[LINE]
+Speaker416: Jean ? Louis ? Je ne~sais~pas.
+~           Jean   Louis   I  don't~know  
+
+[LINE]
+Speaker418: Hé  ! Salut ! Oui ! Toi !
+~           hey   hi      yes   you  
+
+[CONTINUATION]
+> What comes next?
+Speaker416: Zari ! Mais qu'est-ce  que  [tu~fais       ]?
+~           Zari   but  what~is~it that  you~are~doing   
+- tu~conduis     
+~ you~are~driving
++ tu~fais      
+~ you~are~doing
+- tu~étudies
+~ you~study 
+
+[LINE]
+Speaker416: Maintenant, il va       venir   parler~avec  nous !
+~           now         he is~going to~come (to)~talk~to us    
+
+[LINE]
+Speaker418: Super   !
+~           awesome  
+
+[ARRANGE]
+> Tap what you hear
+Speaker416: [(Non), (ce)   (n'est~pas) (super) (du~tout) ]!
+~             no     this   isn't       great   at~all     
+
+[LINE]
+Speaker416: Je ne~me~souviens~pas~de son~prénom.
+~           I  don't~remember        his~name   
+
+[MULTIPLE_CHOICE]
+> Uh oh! Lily doesn't remember…
++ …the guy's name.
+- …the guy's address.
+- …where she met the guy.
+
+[LINE]
+Speaker418: Il~s'appelle… Antoine ?
+~           his~name~is   Antoine  
+
+[LINE]
+Speaker416: Non…
+~           no  
+
+[LINE]
+Speaker418: Thomas ?
+~           Thomas  
+
+[LINE]
+Speaker416: Non…
+~           no  
+
+[LINE]
+Speaker418: Jules ?
+~           Jules  
+
+[LINE]
+Speaker416: Zari ! Je ne~me~souviens~pas !
+~           Zari   I  don't~remember      
+
+[LINE]
+Speaker418: Regarde ! Il arrive    !
+~           look      he is~coming  
+
+[LINE]
+Speaker416: Oh, non.
+~           oh  no  
+
+[LINE]
+Speaker419: Salut Lily !
+~           hi    Lily  
+
+[LINE]
+Speaker416: Salut...
+~           hi      
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker419: Tu~es~prête   pour [l'examen~de~demain] ?
+~           are~you~ready for   tomorrow's~exam      
+- l'examen de Romain
+- l'exercice du lapin
++ l'examen de demain
+
+[LINE]
+Speaker416: Bien~sûr... 
+~           of~course   
+
+[LINE]
+> Il regarde  Zari. Zari regarde  Lily. Lily ne~dit~rien.         
+~ he looks~at Zari  Zari looks~at Lily  Lily doesn't~say~anything 
+
+[LINE]
+Speaker418: Salut. Je~m'appelle Zari !
+~           hi     my~name~is   Zari  
+
+[LINE]
+Speaker419: Enchanté,         Zari.
+~           nice~to~meet~you  Zari 
+
+[LINE]
+Speaker418: Comment~tu~t'appelles ? Lily ne~se~souvient~pas.
+~           what's~your~name        Lily doesn't~remember   
+
+[LINE]
+Speaker416: Zari !
+~           Zari  
+
+[MULTIPLE_CHOICE]
+> Why did Lily get mad at Zari?
+- The guy asked them to leave his party.
++ Zari told the guy that Lily didn't remember his name.
+- Lily got jealous of Zari.
+
+[MATCH]
+> Tap the pairs
+- sont <> are
+- arrive <> is coming
+- Il s'appelle <> his name is
+- Super <> awesome
+- classe <> class
+
