@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Doktor Eddy
+icon=29c5abbf74b46e43a4de510ac83e302c0722a100
+set=1|2
+
+[HEADER]
+> Doctor Eddy
+~ Doktor Eddy
+
+[LINE]
+> Eddy is  at~the supermarket.
+~ Eddy ist im     Supermarkt  
+
+[LINE]
+> An   elegant  woman starts  talking~to~Eddy.  
+~ eine elegante Frau  beginnt mit~Eddy~zu~reden 
+
+[MULTIPLE_CHOICE]
+> Eine Frau fängt an, im Supermarkt mit Eddy zu sprechen.
++ Ja, das ist richtig.
+- Nein, das ist falsch.
+
+[LINE]
+Speaker724: Hello!
+~           hallo 
+
+[LINE]
+Speaker414: Oh, hello!
+~           oh  hallo 
+
+[LINE]
+Speaker724: Are  you a~doctor?  
+~           sind Sie (ein)~Arzt 
+
+[LINE]
+Speaker414: What? Me?  Uh…
+~           was   ich  äh 
+
+[LINE]
+Speaker414: Yes. I…   am  a~doctor.  
+~           ja   ich  bin (ein)~Arzt 
+
+[LINE]
+Speaker724: Good!
+~           gut  
+
+[ARRANGE]
+> Was hörst du?
+> [(Eddy) (is)  (not~a) (doctor).]
+~   Eddy   ist   kein    Arzt     
+
+[LINE]
+Speaker414: I   have a~lot~of money.
+~           ich habe viel     Geld  
+
+[LINE]
+Speaker414: I   live  in a     big~house.  
+~           ich wohne in einem großen~Haus 
+
+[LINE]
+Speaker414: I   have expensive… uh... pants.
+~           ich habe teure      äh    Hosen 
+
+[LINE]
+Speaker724: OK, but… 
+~           OK  aber 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „jetzt“.
+Speaker724: (A)   (man)  (needs)   a     doctor (+now)!  
+~            ein   Mann   braucht  einen Arzt     jetzt  
+
+[LINE]
+Speaker414: What?! Where is  the man? 
+~           was    wo    ist der Mann 
+
+[LINE]
+Speaker724: He is  near the milk! 
+~           er ist nahe der Milch 
+
+[MULTIPLE_CHOICE]
+> Der Mann ist …
++ … in der Nähe der Milchabteilung des Supermarkts.
+- … in Eddys Einkaufswagen.
+- … im Krankenhaus.
+
+[LINE]
+Speaker724: Please help       the man!  He is  very sick! 
+~           bitte  helfen~Sie dem Mann  er ist sehr krank 
+
+[MULTIPLE_CHOICE]
+> Die Frau will, dass Eddy …
+- … zum Arzt geht.
+- … Milch kauft.
++ … einem Mann hilft, der krank ist.
+
+[LINE]
+Speaker414: Uh-oh!
+~           Oh-oh 
+
+[LINE]
+> Eddy sees  a    woman. He runs  and talks~to  her.
+~ Eddy sieht eine Frau   er läuft und redet~mit ihr 
+
+[LINE]
+Speaker414: Hello, are  you a~doctor?      I   need    help! 
+~           hallo  sind Sie (eine)~Ärztin  ich brauche Hilfe 
+
+[MULTIPLE_CHOICE]
+> Was macht Eddy?
++ Er versucht einen richtigen Arzt zu finden, um dem Mann zu helfen.
+- Er weint, weil er Milch verschüttet hat.
+- Er fährt den kranken Mann ins Krankenhaus.
+
+[MATCH]
+> Wähle die Paare
+- not a <> kein
+- money <> Geld
+- a lot of <> viel
+- a <> einem
+- is <> ist
+
