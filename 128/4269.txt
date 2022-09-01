@@ -1,0 +1,159 @@
+[DATA]
+fromLanguageName=Hỏi đường
+icon=0699ccdd9abbb4922a33be28cf6143a530843cc1
+set=26|4
+
+[HEADER]
+> Asking~for~Directions
+~ hỏi~đường            
+
+[LINE]
+> Lin and Bea are~looking~for a   restaurant in    a   small~town. 
+~ Lin và  Bea đang~tìm        một nhà~hàng   trong một khu~phố~nhỏ 
+
+[LINE]
+Speaker507: I'm tired~of~walking, and    I'm     really hungry!
+~           tớ  đi~bộ~mỏi~rồi     với~cả tớ~đang rất    đói    
+
+[LINE]
+Speaker508: I  think it's~somewhere in    this~area.
+~           tớ nghĩ  nó~ở~đâu~đó    trong khu~này   
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker508: Everyone  says [their~food~is~amazing].  
+~           mọi~người nói   đồ~ăn~của~họ~ngon~tuyệt  
+- their food is so lazy
++ their food is amazing
+- your mood is amazing
+
+[LINE]
+Speaker507: We       need     to~ask~for~directions.
+~           chúng~ta cần~phải hỏi~đường             
+
+[LINE]
+> They stop     a       woman  on   the~street.
+~ họ   dừng~hỏi 1~người phụ~nữ trên đường~phố  
+
+[LINE]
+Speaker507: Can~you~please                 give~us~directions   to  Cecil's~Restaurant?
+~           chị~làm~ơn~có~thể…được~không~ạ chỉ~đường~cho~bọn~em tới Nhà~hàng~Cecil's   
+
+[LINE]
+Speaker1187: Sure!     Turn   left at the~end   of  this~street.  
+~            được~chứ  hãy~rẽ trái ở  phía~cuối của con~đường~này 
+
+[LINE]
+Speaker1187: Then, you    will~see     a   very~attractive~man sitting   in~front~of a   red~house.       Turn   right there.
+~            rồi   các~em sẽ~nhìn~thấy một anh~rất~bảnh~trai   đang~ngồi ở~trước~cửa một ngôi~nhà~màu~đỏ  hãy~rẽ phải  ở~đó  
+
+[MULTIPLE_CHOICE]
+> Lin và Bea cần rẽ phải ở chỗ nào?
+- chỗ một nhà hàng ở cuối con phố
+- chỗ có anh xấu trai ngồi trước ngôi nhà màu xanh
++ chỗ có anh bảnh trai ngồi trước ngôi nhà màu đỏ
+
+[LINE]
+Speaker508: Thanks.        
+~           cảm~ơn~chị~nhé 
+
+[LINE]
+> They turn left.
+~ họ   rẽ   trái 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+> [(They) (walk)  (down~the~street) (for~fifteen~minutes).]
+~   họ     đi~bộ   dọc~con~phố       trong~15~phút         
+
+[LINE]
+> Finally,        they see       a       man     sitting   outside~of  a   red~house.      
+~ cuối~cùng…cũng  họ   nhìn~thấy 1~người đàn~ông đang~ngồi ở~bên~ngoài một ngôi~nhà~màu~đỏ 
+
+[LINE]
+Speaker508: Is~that              the~man?    
+~           đó~có~phải…không~nhỉ cái~anh~đấy 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker507: No,    she    said   he~was [very attractive].
+~           không  chị~ấy đã~nói anh~ta  rất  bảnh~trai   
+- really hungry
+~ rất    đói   
+- very red
+~ rất  đỏ 
++ very attractive
+~ rất  bảnh~trai 
+
+[LINE]
+Speaker508: He~is~attractive!        
+~           anh~ta~bảnh~trai~thật~mà 
+
+[LINE]
+Speaker507: But   he's~not           very attractive…
+~           nhưng anh~ta~đâu~phải~là rất  bảnh~trai  
+
+[LINE]
+Speaker508: Oh.  Maybe you're~right.    
+~           à~ừ  có~lẽ cậu~nói~đúng~đấy 
+
+[LINE]
+Speaker3135: Excuse~me,     I   can~hear         you.   
+~            xin~lỗi~nhưng  tôi có~thể~nghe~thấy các~cô 
+
+[LINE]
+Speaker507: Oops, sorry.  
+~           úi    xin~lỗi 
+
+[MULTIPLE_CHOICE]
+> Ủa, vì sao Bea lại phải xin lỗi?
++ Người đàn ông đã nghe thấy Bea chê anh ta.
+- Cô ấy vô tình giẫm lên chân Lin.
+- Cô ấy đã quên mất là mình đang đi đâu.
+
+[LINE]
+Speaker508: Are~we             close~to Cecil's~Restaurant?
+~           bọn~em~đang…chưa~ạ gần~tới  Nhà~hàng~Cecil's   
+
+[LINE]
+Speaker3135: No,       it's~three~miles~from~here.
+~            chưa~đâu  còn~ba~dặm~nữa~mới~tới     
+
+[LINE]
+Speaker508: Are~you~sure?     
+~           anh~có~chắc~không 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker3135: Yes.       I'm    [a~cook~there].
+~            (có)~chắc  tôi~là  đầu~bếp~ở~đó  
+- the book there
++ a cook there
+- to look there
+
+[LINE]
+Speaker507: Great!     Can~you~make~me                  a       sandwich? I'm     so~hungry!  
+~           tuyệt~quá  anh~có~thể~làm~cho~em…được~không 1~chiếc sandwich  em~đang đói~quá~rồi 
+
+[LINE]
+Speaker3135: No,    you said   I~wasn't  attractive.
+~            không  cô  đã~nói tôi~không bảnh~trai  
+
+[LINE]
+Speaker507: Well, that was before    I  found~out    you can~cook.   
+~           à     đó   là  trước~khi em phát~hiện~ra anh biết~nấu~ăn 
+
+[MULTIPLE_CHOICE]
+> Vì sao Bea lại nhờ người đàn ông làm bánh sandwich?
+- Anh ta có rất nhiều bánh mì và phô mai.
++ Anh ta làm đầu bếp ở Nhà hàng Cecil's.
+- Trước đó Bea đã làm bánh cho anh ta ăn rồi.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- Oh <> à ừ
+- that <> đó
+- you <> các em
+- it's somewhere <> nó ở đâu đó
+- can hear <> có thể nghe thấy
+
