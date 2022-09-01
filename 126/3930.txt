@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=O jantar com a CEO
+icon=48ff56bf472c683d952ff24420066dbef5e7ac9f
+set=31|3
+
+[HEADER]
+> Dinner   with the CEO
+~ o~jantar com  a   CEO
+
+[LINE]
+> Bea is~using    the photocopier   at work.     Her~boss,     Craig, comes to~talk~to her.
+~ Bea está~usando a   fotocopiadora no trabalho  o~chefe~dela  Craig  vem   falar~com  ela 
+
+[LINE]
+Speaker100: Bea, I'm~meeting          our~company's~CEO      for  dinner tonight.     
+~           Bea  eu~vou~me~reunir~com a~CEO~da~nossa~empresa para jantar hoje~à~noite 
+
+[LINE]
+Speaker100: Can~you~come? You  couldn't~come    last~time.    
+~           você~pode~ir  você não~conseguiu~ir da~última~vez 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker507: I  [really~want~to~come], but I  can't.    
+~           eu  quero~muito~ir        mas eu não~posso 
+- really want to run
++ really want to come
+- will be wanting some
+
+[LINE]
+Speaker100: OK,    but she really~wants to~meet  you… 
+~           certo  mas ela quer~muito   conhecer você 
+
+[LINE]
+Speaker507: I  know. I'm~sorry.     
+~           eu sei   eu~sinto~muito 
+
+[LINE]
+> Later,      Craig is~eating~dinner with the CEO, Paula.
+~ mais~tarde  Craig está~jantando    com  a   CEO  Paula 
+
+[ARRANGE]
+> Toque no que escutar
+> [(Bea) (walks~past) (their~table).]
+~   Bea   passa~pela   mesa~deles    
+
+[LINE]
+Speaker100: Bea, you're    here!
+~           Bea  você~está aqui 
+
+[LINE]
+Speaker507: Oh… hi, Craig! You  chose…    this restaurant? 
+~           ah  oi  Craig  você escolheu  este restaurante 
+
+[LINE]
+Speaker100: I'm      so  happy that you  came to   the meeting. This is Paula, our   CEO!
+~           eu~estou tão feliz que  você veio para a   reunião  esta é  Paula  nossa CEO 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker507: Um…  Actually,   I'm~not      here [to~meet        with you].  
+~           hum  na~verdade  eu~não~estou aqui  para~me~reunir com  vocês  
++ to~meet        with you  
+~ para~me~reunir com  vocês
+- as   a   musician 
+~ como uma musicista
+- until tomorrow
+~ até   amanhã  
+
+[LINE]
+Speaker100: What?! 
+~           o~quê  
+
+[LINE]
+Speaker507: I  work     here every night… as   a~waitress.     
+~           eu trabalho aqui toda  noite  como (uma)~garçonete 
+
+[MULTIPLE_CHOICE]
+> Espera… Por que a Bea está no restaurante?
+- Ela está lá em um encontro.
++ Ela é garçonete lá.
+- Ela queria conhecer a CEO.
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "estagiária".
+Speaker988: (This) is (the) (+intern)     (you)      wanted~me~to~meet?       
+~            esta  é   a      estagiária   que~você  queria~que~eu~conhecesse 
+
+[LINE]
+Speaker100: Yes, but I  didn't~know…
+~           sim  mas eu não~sabia   
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker988: I  also   had   two  jobs     [when~I~was~younger]!      
+~           eu também tinha dois empregos  quando~eu~era~mais~jovem  
+- then I was a young girl
++ when I was younger
+- when I was under
+
+[LINE]
+Speaker988: Bea, I  can~see   that you're~a~hard~worker. I  want  to~hear all      your ideas  for  our   company!
+~           Bea  eu posso~ver que  você~trabalha~duro    eu quero ouvir   todas~as suas ideias para nossa empresa 
+
+[LINE]
+Speaker507: Wow, thanks!  
+~           uau  obrigada 
+
+[LINE]
+Speaker507: But first,    I  should~give   you   some        bread, or my    other boss  will~be angry.   
+~           mas primeiro  eu deveria~dar~a vocês um~pouco~de pão    ou minha outra chefe ficará  irritada 
+
+[MULTIPLE_CHOICE]
+> Por que a CEO ficou impressionada com a Bea ter dois empregos?
+- Ela quer demitir a Bea em breve.
++ Ela acha que isso quer dizer que a Bea gosta de trabalhar.
+- Ela acha que pode ganhar pão extra.
+
+[MATCH]
+> Toque nos pares
+- every <> toda
+- a waitress <> garçonete
+- is using <> está usando
+- know <> sei
+- you're <> você está
+
