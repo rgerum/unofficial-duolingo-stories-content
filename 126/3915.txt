@@ -1,0 +1,152 @@
+[DATA]
+fromLanguageName=Isso tem gosto estranho
+icon=2af10d537225ca8ebd8d85b0d77cdc2dc60ebb71
+set=27|4
+
+[HEADER]
+> This Tastes~Strange    
+~ isto tem~gosto~estranho
+
+[LINE]
+> Eddy is~eating    something he        found     in~the fridge.   
+~ Eddy está~comendo algo      (que)~ele encontrou na     geladeira 
+
+[LINE]
+Speaker414: Junior? This dessert   tastes~strange.    
+~           Junior  esta sobremesa tem~gosto~estranho 
+
+[LINE]
+Speaker415: What dessert?  
+~           que  sobremesa 
+
+[LINE]
+Speaker414: The dessert   that was    in~the fridge.   
+~           a   sobremesa que  estava na     geladeira 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker415: [That~wasn't~a~dessert].      That was my      science~project.    
+~            isso~não~era~uma~sobremesa   isso era (o)~meu projeto~de~ciências 
++ That wasn't a dessert
+- That was in the desert
+- That's what I deserve
+
+[LINE]
+Speaker414: I  thought       it         looked  a  little green…
+~           eu achei~(mesmo) (que)~isto parecia um pouco  verde 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker414: How~long          was~it      [in~the fridge]?   
+~           (há)~quanto~tempo isto~estava  na     geladeira  
++ in~the fridge   
+~ na     geladeira
+- on my    head  
+~ em minha cabeça
+- under~the  bed 
+~ embaixo~da cama
+
+[LINE]
+Speaker415: Since November.
+~           desde novembro 
+
+[LINE]
+Speaker414: It's March now.  
+~           é    março agora 
+
+[LINE]
+Speaker414: I  feel~sick.     
+~           eu (me)~sinto~mal 
+
+[LINE]
+Speaker415: What's~wrong?     
+~           qual~é~o~problema 
+
+[LINE]
+Speaker414: I  have  a   stomachache…    
+~           eu tenho uma dor~de~estômago 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "cutuco".
+Speaker415: (Hmm). Does~it~hurt (when)   I  (+poke)   your~stomach     (here)?
+~            hmm   dói           quando  eu   cutuco  (o)~seu~estômago  aqui  
+
+[LINE]
+Speaker414: No. 
+~           não 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker415: [(What~if) (I)  (poke)   (you)  (here)?]
+~             e~se      eu   cutuco   você   aqui   
+
+[LINE]
+Speaker414: Ouch!
+~           ai   
+
+[LINE]
+Speaker415: Interesting… 
+~           interessante 
+
+[LINE]
+Speaker415: How  does~your~body~feel?     
+~           como (o)~seu~corpo~(se)~sente 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker414: My      body  feels~cold… should~I~go   [to   the hospital]?
+~           (o)~meu corpo sente~frio  eu~deveria~ir  para o   hospital  
+- for  a   run    
+~ para uma corrida
+- to     school
+~ para~a escola
++ to   the hospital
+~ para o   hospital
+
+[LINE]
+Speaker415: Maybe.  What~else~is~wrong? 
+~           talvez  o~que~mais~está~mal 
+
+[LINE]
+Speaker414: My        mouth is   dry.  Now   my        mouth is   wet.     Now   it's     dry  again!    
+~           (a)~minha boca  está seca  agora (a)~minha boca  está molhada  agora ela~está seca novamente 
+
+[LINE]
+Speaker414: Is~my~face         blue?
+~           (o)~meu~rosto~está azul 
+
+[LINE]
+Speaker415: It~is!      Cool! 
+~           está~(sim)  legal 
+
+[LINE]
+Speaker414: I  think      I'm~dying.         I'm~going~to~lie~down.
+~           eu acho~(que) eu~estou~morrendo  eu~vou~me~deitar      
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "caderno".
+Speaker415: (Wait)!   I  (need)    (to~write) this in my  (+notebook)!
+~            espera   eu  preciso   escrever  isto em meu   caderno   
+
+[LINE]
+Speaker414: Because you  want to~tell       the doctor?
+~           porque  você quer contar~(para) o   médico 
+
+[LINE]
+Speaker415: No.  Because I  want  to~tell       my      teacher!   You're my      new  science~project!    
+~           não  porque  eu quero contar~(para) (o)~meu professor  você~é (o)~meu novo projeto~de~ciências 
+
+[MULTIPLE_CHOICE]
+> Como o Eddy se tornou o novo projeto de ciências do Junior?
+- A pele dele ficou azul no banho.
+- Ele ficou na geladeira por vários meses.
++ Ele ficou mal depois de comer o antigo projeto de ciências do Junior.
+
+[MATCH]
+> Toque nos pares
+- blue <> azul
+- new <> novo
+- thought <> achei
+- Junior <> Junior
+- March <> março
+
