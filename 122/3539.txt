@@ -1,0 +1,156 @@
+[DATA]
+fromLanguageName=Ich will das Sandwich
+icon=43b9829cc459f78e9742fdf418c9b0821bb1646e
+set=26|2
+
+[HEADER]
+> I   Want the Sandwich
+~ ich will das Sandwich
+
+[LINE]
+> Vikram and Oscar sit~down    in a   restaurant.
+~ Vikram und Oscar setzen~sich in ein Restaurant 
+
+[LINE]
+Speaker592: I   love  this   place. I   always~order   the grilled   cheese~sandwich.
+~           ich liebe diesen Ort    ich bestelle~immer das gegrillte Käsesandwich    
+
+[LINE]
+Speaker593: Me  too. 
+~           ich auch 
+
+[MULTIPLE_CHOICE]
+> Vikram und Oscar bestellen gerne unterschiedliche Gerichte in dem Restaurant.
++ Nein, das ist falsch.
+- Ja, das ist richtig.
+
+[LINE]
+> A   waiter  comes to their table.
+~ ein Kellner kommt an ihren Tisch 
+
+[LINE]
+Speaker526: Are  you ready  to order?    
+~           sind Sie bereit zu bestellen 
+
+[LINE]
+Speaker593: Two  grilled   cheese~sandwiches, please.
+~           zwei gegrillte Käsesandwiches     bitte  
+
+[LINE]
+Speaker526: Sorry.           We  only~have one more     grilled    cheese~sandwich.
+~           es~tut~mir~leid  wir haben~nur ein weiteres gegrilltes Käsesandwich    
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker592: OK, then [I'll~have~it].
+~           OK  dann  nehme~ich~es  
++ I'll have it
+- I love it
+- all of it
+
+[LINE]
+Speaker593: Wait.   Why   do~you~get  the sandwich?
+~           moment  warum bekommst~du das Sandwich 
+
+[LINE]
+Speaker593: Could   you give~us~a~minute?     
+~           könnten Sie uns~eine~Minute~geben 
+
+[MULTIPLE_CHOICE]
+> Vikram hat den Kellner um eine Minute gebeten, weil …
+- … unbedingt auf die Toilette muss.
++ … er und Oscar sich entscheiden müssen, wer das Sandwich bekommt.
+- … er und Oscar immer noch essen.
+
+[LINE]
+> The waiter  walks away.
+~ der Kellner geht  weg  
+
+[LINE]
+Speaker592: I   want that sandwich, Vikram.
+~           ich will das  Sandwich  Vikram 
+
+[LINE]
+Speaker593: No,   I   want the sandwich.
+~           nein  ich will das Sandwich 
+
+[LINE]
+Speaker592: But  it was my    idea to~come~here!   
+~           aber es war meine Idee hierherzukommen 
+
+[LINE]
+Speaker593: I   helped~you        paint~your~apartment       last   week. 
+~           ich habe~dir~geholfen deine~Wohnung~zu~streichen letzte Woche 
+
+[ARRANGE]
+> Was hörst du?
+Speaker593: [(And) (then) (you~borrowed)         (my)   (car).] 
+~             und   dann   hast~du~dir~geliehen   mein   Auto   
+
+[LINE]
+Speaker592: I   borrowed~your~car           to take~you        to~the hospital!   
+~           ich habe~mir~dein~Auto~geliehen um dich~zu~bringen ins    Krankenhaus 
+
+[LINE]
+Speaker593: Because I   fell~out~of~your~window         while   I   was~painting!   
+~           weil    ich aus~deinem~Fenster~gefallen~bin während ich gestrichen~habe 
+
+[MULTIPLE_CHOICE]
+> Vikram ist aus Oscars Fenster gefallen, als …
+- … er draußen die Nachbarn angeschrien hat.
+- … er ein gegrilltes Käsesandwich versteckt hat.
++ … er ihm beim Streichen seiner Wohnung geholfen hat.
+
+[LINE]
+Speaker593: And then I~gave~you           my     chocolate~cake    at~the hospital.   
+~           und dann habe~ich~dir~gegeben meinen Schokoladenkuchen im     Krankenhaus 
+
+[LINE]
+Speaker592: That was a   delicious chocolate~cake.   
+~           das  war ein leckerer  Schokoladenkuchen 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker592: OK, you can    have~the~sandwich h].
+~           OK  du  kannst das~Sandwich~haben   
+- the hospital   
+~ das Krankenhaus
++ the sandwich
+~ das Sandwich
+- the window 
+~ das Fenster
+
+[LINE]
+> The waiter  returns.     
+~ der Kellner kommt~zurück 
+
+[LINE]
+Speaker592: My   friend, Vikram, will have~the~sandwich.  
+~           mein Freund  Vikram  wird das~Sandwich~nehmen 
+
+[LINE]
+Speaker526: While   you were~talking,  someone    ordered~the~last~sandwich.   
+~           während Sie geredet~haben  hat~jemand das~letzte~Sandwich~bestellt 
+
+[LINE]
+Speaker593: I   hate  this   restaurant!
+~           ich hasse dieses Restaurant 
+
+[LINE]
+Speaker592: Yeah, I   told~you        we  shouldn't     eat~here.  
+~           ja    ich habe~dir~gesagt wir sollten~nicht hier~essen 
+
+[MULTIPLE_CHOICE]
+> Wer wird das gegrillte Käsesandwich essen?
+- Vikram
++ jemand an einem anderen Tisch
+- Oscar
+
+[MATCH]
+> Wähle die Paare
+- you <> Sie
+- to <> an
+- cheese sandwiches <> Käsesandwiches
+- chocolate cake <> Schokoladenkuchen
+- cheese sandwich <> Käsesandwich
+
