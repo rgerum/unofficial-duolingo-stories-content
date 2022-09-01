@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=Wo sind meine Schlüssel?
+icon=3f21c887f044dc2ac0d1f0d0ea74e1200b587ac2
+set=8|2
+
+[HEADER]
+> Where Are  My    Keys?     
+~ wo    sind meine Schlüssel 
+
+[LINE]
+> Lin is  with her   grandmother, Lucy.
+~ Lin ist bei  ihrer Großmutter   Lucy 
+
+[LINE]
+Speaker509: We  have  a    reservation  at a     nice    restaurant tonight!    
+~           wir haben eine Reservierung in einem schönen Restaurant heute~Abend 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker509: But  we  need   [to~leave~now]!
+~           aber wir müssen  jetzt~gehen   
+- to read now
+- to leave out
++ to leave now
+
+[LINE]
+Speaker508: OK!
+~           OK 
+
+[LINE]
+Speaker508: Uh-oh… I   can't~find~the~keys~to~my~motorcycle.     
+~           oh-oh  ich kann~meine~Motorradschlüssel~nicht~finden 
+
+[LINE]
+Speaker509: You always~put~your~keys        in strange  places.
+~           du  legst~deine~Schlüssel~immer an seltsame Orte   
+
+[MULTIPLE_CHOICE]
+> Was glaubst du, passiert als Nächstes?
+- Lucy wird ohne Lin gehen.
+- Lin und Lucy werden auf Pferden zum Restaurant reiten.
++ Lin wird ihre Schlüssel an seltsamen Orten suchen.
+
+[LINE]
+Speaker509: Are  they in your   jacket?
+~           sind sie  in deiner Jacke  
+
+[LINE]
+> Lin looks  in her  jacket.
+~ Lin schaut in ihre Jacke  
+
+[LINE]
+Speaker508: No,   they're  not   in my     jacket.
+~           nein  sie~sind nicht in meiner Jacke  
+
+[LINE]
+Speaker509: Are  the keys      under the bed? 
+~           sind die Schlüssel unter dem Bett 
+
+[LINE]
+Speaker508: No,   the keys      aren't     there!
+~           nein  die Schlüssel sind~nicht dort  
+
+[ARRANGE]
+> Was hörst du?
+Speaker509: [(Are)  (they) (in) (the) (shower)?]
+~             sind   sie    in   der   Dusche   
+
+[LINE]
+Speaker508: No,   that's  too strange.
+~           nein  das~ist zu  seltsam 
+
+[LINE]
+Speaker508: I   don't~know where the keys      are.  Can    we  call~a~taxi?   
+~           ich weiß~nicht wo    die Schlüssel sind  können wir ein~Taxi~rufen 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker509: No,   we're    late~now.      We  can't        go~to~the~restaurant   t].
+~           nein  wir~sind jetzt~zu~spät  wir können~nicht in~das~Restaurant~gehen   
+- the beach 
+~ den Strand
+- the movie~theater
+~ das Kino         
++ the restaurant
+~ das Restaurant
+
+[LINE]
+Speaker508: I'm~sorry.       
+~           das~tut~mir~leid 
+
+[LINE]
+Speaker509: That's  OK. I   can  cook~dinner.      
+~           das~ist OK  ich kann Abendessen~kochen 
+
+[LINE]
+> Lucy opens  the refrigerator and looks  inside.
+~ Lucy öffnet den Kühlschrank  und schaut hinein 
+
+[LINE]
+Speaker509: Oh! Here are  your  keys!     
+~           oh  hier sind deine Schlüssel 
+
+[MULTIPLE_CHOICE]
+> Endlich! Lins Schlüssel waren …
+- … in ihren Schuhen.
++ … im Kühlschrank.
+- … in ihrem Auto.
+
+[MATCH]
+> Wähle die Paare
+- strange <> seltsame
+- tonight <> heute Abend
+- grandmother <> Großmutter
+- You <> du
+- bed <> Bett
+
