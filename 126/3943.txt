@@ -1,0 +1,158 @@
+[DATA]
+fromLanguageName=A padaria
+icon=dac984797ecc974f28ee915b961f8f66455fe4b6
+set=34|4
+
+[HEADER]
+> The Bakery 
+~ a   padaria
+
+[LINE]
+> Josh and Jane are~giving    Vikram a  tour    of~their~bakery.   
+~ Josh e   Jane estão~dando~a Vikram um passeio pela~padaria~deles 
+
+[LINE]
+Speaker295: A~lot~of people  are~interested     in our   bakery.  We're~selling        it  at~a~great~price…  
+~           muitas   pessoas estão~interessadas em nossa padaria  nós~estamos~vendendo ela por~um~preço~ótimo 
+
+[LINE]
+Speaker1187: Yes… because we're~getting~a~divorce.
+~            sim  porque  estamos~nos~divorciando 
+
+[LINE]
+Speaker593: Oh, no…  I'm~sorry.     
+~           ah  não  eu~sinto~muito 
+
+[MULTIPLE_CHOICE]
+> Hmm…Por que o Vikram diz que ele sente muito?
+- O Vikram quer se divorciar.
++ O Josh e a Jane estão se divorciando.
+- Ninguém quer comprar a padaria.
+
+[LINE]
+Speaker295: Jane! Don't~tell~everyone          that.
+~           Jane  não~conte~a~todo~mundo~sobre isso 
+
+[LINE]
+Speaker1187: Well, Josh, it's true.   
+~            bem   Josh  é    verdade 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker593: Uh… well, I'm    [the~best~person] to~buy       your bakery.  I'll~take~great~care~of~it.     
+~           hã  bem   eu~sou  a~melhor~pessoa  para~comprar sua  padaria  eu~tomarei~conta~dela~muito~bem 
+- the past person
++ the best person
+- the best purse
+
+[LINE]
+Speaker593: Wow, this is an amazing~oven!  
+~           uau  este é  um forno~incrível 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker295: Yes, we  baked   a~lot~of great~cookies    in     [that    oven]. 
+~           sim  nós assamos muitos   biscoitos~ótimos dentro  daquele forno  
++ that    oven 
+~ daquele forno
+- the bathtub 
+~ da  banheira
+- your   closet 
+~ do~seu armário
+
+[LINE]
+Speaker593: I've~had your cookies.   They're  fantastic!  
+~           eu~comi  seus biscoitos  eles~são fantásticos 
+
+[LINE]
+Speaker593: Did~you~use this mixer     to   make  them?
+~           você~usava  esta batedeira para fazer eles 
+
+[LINE]
+Speaker295: Yes. I  also   used  it  to~make    Jane's~favorite~pie.     
+~           sim  eu também usava ela para~fazer a~torta~favorita~da~Jane 
+
+[LINE]
+Speaker1187: It~was my~grandmother's~recipe…
+~            era    a~receita~da~minha~avó  
+
+[MULTIPLE_CHOICE]
+> A receita da torta da Jane veio…
++ …da avó da Jane.
+- …da mãe do Josh.
+- …do Vikram.
+
+[ARRANGE]
+> Toque no que escutar
+Speaker593: [(You)   (two)  (really~were) (a)   (great~team).]  
+~             vocês   dois   eram~mesmo    uma   ótima~equipe   
+
+[LINE]
+Speaker295: Yeah, we  were.  
+~           sim   nós éramos 
+
+[LINE]
+Speaker1187: I~think~so~too…
+~            eu~também~acho 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker295: Jane… [Can~I~talk~to~you]       alone?
+~           Jane   eu~posso~falar~com~você  a~sós 
+- Can I take you
++ Can I talk to you
+- When I talk to you
+
+[LINE]
+> Jane and Josh leave. A~few  minutes later,      they come~back.
+~ Jane e   Josh saem   alguns minutos mais~tarde  eles voltam    
+
+[LINE]
+Speaker1187: Vikram, Josh and I  have~made a   decision…
+~            Vikram  Josh e   eu tomamos   uma decisão  
+
+[LINE]
+Speaker593: You're~not~getting~divorced?
+~           vocês~não~vão~se~divorciar  
+
+[CONTINUATION]
+> O que vem depois?
+Speaker1187: Oh, we're~still     [getting~divorced].
+~            ah  nós~ainda~vamos  nos~divorciar     
+- buying~furniture
+~ comprar~móveis  
+- eating~lunch  
+~ comer~o~almoço
++ getting~divorced
+~ nos~divorciar   
+
+[LINE]
+Speaker295: We  had     a  terrible~marriage. 
+~           nós tivemos um casamento~terrível 
+
+[LINE]
+Speaker1187: But we  have  a   great bakery! 
+~            mas nós temos uma ótima padaria 
+
+[LINE]
+Speaker593: So    you're~not~selling       it  anymore?
+~           então vocês~não~estão~vendendo ela mais    
+
+[LINE]
+Speaker1187: No.  But you  can~always~come~back for  some   cookies!  
+~            não  mas você pode~sempre~voltar   para alguns biscoitos 
+
+[MULTIPLE_CHOICE]
+> Por que o Josh e a Jane decidem não vender a padaria?
+- Eles não acham que o Vikram é um bom padeiro.
+- Eles decidiram não se divorciar no fim das contas.
++ Eles perceberam que a padaria deles na verdade é ótima.
+
+[MATCH]
+> Toque nos pares
+- it's <> é
+- two <> dois
+- really were <> eram mesmo
+- were <> éramos
+- I'm sorry <> eu sinto muito
+
