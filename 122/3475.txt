@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Oscars Blumen
+icon=3bc2c3a627aad5f5aef4f68ae652c16713f9048f
+set=10|2
+
+[HEADER]
+> Oscar's Flowers
+~ Oscars  Blumen 
+
+[LINE]
+> Oscar is  in his    garden. He sees  his    co-worker,       Eddy.
+~ Oscar ist in seinem Garten  er sieht seinen Arbeitskollegen  Eddy 
+
+[LINE]
+Speaker592: Eddy! Why   are~you~wearing a   nice     shirt today? You never~wear nice    shirts.
+~           Eddy  warum trägst~du       ein schickes Hemd  heute  du  trägst~nie schicke Hemden 
+
+[LINE]
+Speaker414: I'm~meeting my   date now!  
+~           ich~treffe  mein Date jetzt 
+
+[LINE]
+Speaker592: Hmm. Do~you~have any~flowers       for your date? Or   chocolates?
+~           hmm  hast~du     (ein~paar)~Blumen für dein Date  oder Pralinen   
+
+[LINE]
+Speaker414: I   can't~buy~her   anything now…   I'm     late!       
+~           ich kann~ihr~kaufen nichts   jetzt  ich~bin spät~(dran) 
+
+[MULTIPLE_CHOICE]
+> Eddy hat Pralinen und Blumen für sein Date gekauft.
++ Nein, das ist falsch.
+- Ja, das ist richtig.
+
+[LINE]
+Speaker592: You can    give~her~some~of~my~flowers.         
+~           du  kannst ihr~ein~paar~von~meinen~Blumen~geben 
+
+[LINE]
+> Oscar gives Eddy flowers from his    garden.
+~ Oscar gibt  Eddy Blumen  aus  seinem Garten 
+
+[MULTIPLE_CHOICE]
+> Warum hat Oscar Eddy Blumen gegeben?
+- Er ist mit Eddy verabredet.
+- Er liebt Eddys Date.
++ Er will, dass Eddy sie seinem Date gibt.
+
+[LINE]
+Speaker414: I   can't~take~those~flowers.      
+~           ich kann~diese~Blumen~nicht~nehmen 
+
+[LINE]
+Speaker592: Do~you~like this  person?
+~           magst~du    diese Person 
+
+[LINE]
+Speaker414: Yes! She's   really   funny. 
+~           ja   sie~ist wirklich witzig 
+
+[LINE]
+Speaker592: Then give her these flowers.
+~           dann gib  ihr diese Blumen  
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker414: Oscar, I   don't~want~the~flowerss]!
+~           Oscar  ich will~die~Blumen~nicht    
++ the flowers
+~ die Blumen 
+- a   nice     shirt
+~ ein schickes Hemd 
+- to~go~to~work   
+~ zur~Arbeit~gehen
+
+[LINE]
+Speaker592: Why?  
+~           warum 
+
+[LINE]
+> Eddy starts   sneezing. 
+~ Eddy fängt~an zu~niesen 
+
+[MULTIPLE_CHOICE]
+> Was macht Eddy?
++ Er niest.
+- Er brüllt.
+- Er weint.
+
+[LINE]
+Speaker592: Eddy? Are  you OK?
+~           Eddy  bist du  OK 
+
+[LINE]
+Speaker414: No!   I'm     allergic   to    flowers!
+~           nein  ich~bin allergisch gegen Blumen  
+
+[LINE]
+Speaker592: Oh no.   Your face    is  very red.
+~           oh nein  dein Gesicht ist sehr rot 
+
+[LINE]
+Speaker414: Ugh. I   feel       terrible… 
+~           uff  ich fühle~mich furchtbar 
+
+[LINE]
+Speaker592: Well,    have~fun  on  your   date!
+~           nun~gut  viel~Spaß auf deinem Date 
+
+[MULTIPLE_CHOICE]
+> Armer Eddy! Warum geht es ihm so furchtbar?
+- Er hat kein Geschenk für Oscar.
+- Er hat sich erinnert, dass sein Date morgen ist.
++ Er hat eine Blumenallergie.
+
+[MATCH]
+> Wähle die Paare
+- face <> Gesicht
+- funny <> witzig
+- his <> seinem
+- her <> ihr
+- your <> dein
+
