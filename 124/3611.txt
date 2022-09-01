@@ -1,0 +1,114 @@
+[DATA]
+fromLanguageName=Pas pour les enfants
+icon=92f8e9fbcb106a065c67e2efcbb467a67077da4b
+set=11|4
+
+[HEADER]
+> Not For  Kids       
+~ pas pour les~enfants
+
+[LINE]
+> Zari is~watching Junior because Eddy is  at work.   
+~ Zari garde       Junior car     Eddy est au travail 
+
+[LINE]
+Speaker415: Zari!~Can~we~play    your video~game!?
+~           Zari on~peut~jouer~à ton  jeu~vidéo   
+
+[LINE]
+Speaker418: I  have~to~finish cleaning before    your dad  comes~home.        
+~           je dois~finir~de  nettoyer avant~que ton  papa rentre~à~la~maison 
+
+[MULTIPLE_CHOICE]
+> Zari ne peut pas jouer au jeu vidéo pour l'instant.
+~ Zari ne peut pas jouer au jeu vidéo pour l'instant 
++ Oui, c'est vrai.
+~ Oui  c'est vrai 
+- Non, c'est faux.
+~ Non  c'est faux 
+
+[LINE]
+Speaker415: Well…    can~I~play               the video~game?
+~           eh~bien  est-ce~que~je~peux~jouer au  jeu~vidéo  
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « les enfants ».
+Speaker418: (Sorry),   (my)  video~game is~not    (for)  (+kids).       
+~            désolée    mon  jeu~vidéo  n'est~pas  pour    les~enfants  
+
+[LINE]
+Speaker415: I  am~not      a  kid!   
+~           je ne~suis~pas un enfant 
+
+[LINE]
+Speaker418: Hmm… well, adults      wash   dishes.      
+~           hmm  bon   les~adultes lavent la~vaisselle 
+
+[LINE]
+Speaker415: I  can~wash   dishes!      
+~           je peux~laver la~vaisselle 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+> Junior starts~to  [wash~the~dishes].   
+~ Junior commence~à  laver~la~vaisselle  
+- eat~dinner
+~ dîner     
++ wash  the dishes   
+~ laver la  vaisselle
+- clean the video~game
+~ laver le  jeu~vidéo 
+
+[LINE]
+Speaker415: See?    
+~           tu~vois 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker418: [(Adults)      (also~clean)      (the) (table).]
+~             les~adultes   nettoient~aussi   la    table   
+
+[LINE]
+Speaker415: I  can~clean     the table!
+~           je peux~nettoyer la  table 
+
+[LINE]
+> Junior cleans  the table.
+~ Junior nettoie la  table 
+
+[LINE]
+Speaker418: Wow,   good job!     You are an adult. 
+~           waouh  bon  travail  tu  es  un adulte 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Zari dit à Junior qu'il est adulte ?
+- Il a beaucoup grandi.
++ Il a nettoyé la maison comme un adulte.
+- Elle n'a plus envie de le garder.
+
+[LINE]
+Speaker415: Now        can~we~play     your video~game!?
+~           maintenant on~peut~jouer~à ton  jeu~vidéo   
+
+[LINE]
+Speaker418: Oh no!  It's   nine o'clock. You need to~go to bed!
+~           oh non  il~est neuf heures   tu  dois aller au lit 
+
+[LINE]
+Speaker415: But  I'm     an adult!  Adults      go   to bed late.
+~           mais je~suis un adulte  les~adultes vont au lit tard 
+
+[MULTIPLE_CHOICE]
+> Junior dit que maintenant qu'il est adulte...
++ … il peut se coucher tard.
+- … il peut se marier avec Zari.
+- … il doit trouver un travail.
+
+[MATCH]
+> Choisis les paires
+- wash <> lavent
+- I'm <> je suis
+- Junior <> Junior
+- can wash <> peux laver
+- wash the dishes <> laver la vaisselle
+
