@@ -1,0 +1,177 @@
+[DATA]
+fromLanguageName=Choosing a Gift
+icon=8629734384786d1c817d99a7cdfc347428e45cdf
+set=45|2
+
+[HEADER]
+> Choisir  un cadeau
+~ choosing a  gift  
+
+[LINE]
+> Béa est au     centre~commercial. Elle voit son voisin,   Eddy.
+~ Béa is  at~the mall               she  sees her neighbor  Eddy 
+
+[LINE]
+Speaker507: Eddy ! Qu'est-ce~que~tu~fais ici  ? 
+~           Eddy   what~are~you~doing    here   
+
+[ARRANGE]
+> Tap what you hear
+Speaker507: [(Tu~n'as~pas)    (une) (soirée) (au)     (bureau~ce~soir) ]?
+~             don't~you~have   a     party    at~the   office~tonight    
+
+[LINE]
+Speaker414: Si,  mais j'ai~oublié d'acheter un cadeau pour mon nouveau chef, Laurent.
+~           yes  but  I~forgot    to~buy    a  gift   for  my  new     boss  Laurent 
+
+[LINE]
+Speaker414: Je veux~vraiment qu'il~m'aime~bien. 
+~           I  really~want   him~to~like~me     
+
+[LINE]
+Speaker414: Mais j'ai~peur  de ne~pas~acheter le  bon   cadeau ! 
+~           but  I'm~afraid of not~buying     the right gift     
+
+[LINE]
+Speaker507: Ne~t'inquiète~pas ! Je sais comment choisir   un cadeau. 
+~           don't~worry         I  know how     to~choose a  gift    
+
+[MULTIPLE_CHOICE]
+> Béa va       aider~Eddy~à…     
+~ Béa is~going to~help~Eddy~(to) 
+- … trouver   un travail avec un meilleur patron.
+~   (to)~find a  job     with a  better   boss   
++ … trouver   un cadeau pour son patron.
+~   (to)~find a  gift   for  his boss   
+- … ramasser  des  fleurs  du       jardin.
+~   (to)~pick some flowers from~the garden 
+
+[LINE]
+Speaker414: Merci     de~m'aider,     Béa !
+~           thank~you for~helping~me  Béa  
+
+[LINE]
+Speaker507: Qu'est-ce~que Laurent aime ? 
+~           what~does     Laurent like   
+
+[LINE]
+Speaker414: Je ne~sais~pas. Il aime  les~ordinateurs.
+~           I  don't~know   he likes computers       
+
+[LINE]
+Speaker507: Mais à~part     le~travail, est-ce~qu'il~a des~loisirs ? Il~aime      le~sport ?
+~           but  apart~from working     does~he~have   hobbies       does~he~like sports    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Je ne~crois~pas.   Il [ne~parle~jamais~de~sport].
+~           I  don't~think~so  he  never~talks~about~sports  
++ ne parle jamais de sport
+- ne râle jamais dehors
+- ne parle jamais des ports
+
+[LINE]
+Speaker507: Il~aime      voyager   ? Est-ce~qu'il~a un animal~de~compagnie ? 
+~           does~he~like to~travel   does~he~have   a  pet                   
+
+[LINE]
+Speaker414: Il ne~prend~jamais~de~vacances, et  il dit  qu'il   n'a~pas      le~temps pour un animal.
+~           he never~goes~on~vacation       and he says that~he doesn't~have time     for  a  pet    
+
+[LINE]
+Speaker507: Il a~l'air un peu    ennuyeux.
+~           he seems   a  little boring   
+
+[MULTIPLE_CHOICE]
+> Pourquoi Béa~pense      que  le  patron a~l'air ennuyeux ?
+~ why      does~Béa~think that the boss   seems   boring    
+- Il parle tout~le~temps de    ses animaux.
+~ he talks all~the~time  about his pets    
++ Il ne~fait~rien        à~part     travailler.
+~ he doesn't~do~anything apart~from working    
+- Il prend trop~de  vacances.
+~ he takes too~much vacation 
+
+[LINE]
+Speaker414: Oui. Il l'est !
+~           yes  he is     
+
+[ARRANGE]
+> Tap what you hear
+Speaker507: [(Alors) (tu~devrais) (lui~acheter) (une) (bougie) ]!
+~             so      you~should   buy~him       a     candle    
+
+[LINE]
+Speaker414: Pourquoi ? Personne n'aime les~bougies. 
+~           why        no~one   likes  candles      
+
+[LINE]
+Speaker507: Mais personne ne~déteste les~bougies.
+~           but  no~one   hates      candles     
+
+[LINE]
+Speaker414: Tu~es   sûre ? 
+~           are~you sure   
+
+[LINE]
+Speaker507: Fais-moi~confiance. Si tu  as   un ami~ennuyeux,  offre-lui une bougie. 
+~           trust~me            if you have a  boring~friend  give~them a   candle  
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker507: Les~gens~ennuyeux aiment [les~bougies].
+~           boring~people     like    candles      
+- les~fêtes
+~ parties  
++ les~bougies
+~ candles    
+- les~chaussures~de~danse
+~ dance~shoes            
+
+[LINE]
+Speaker414: OK, tu  as~raison. Merci,     Béa ! 
+~           OK  you are~right  thank~you  Béa   
+
+[LINE]
+> Le  lendemain, Eddy va   chez~Béa.
+~ the next~day   Eddy goes to~Béa's 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Regarde ce~que [mon~chef~m'a~donné] ! 
+~           look    what    my~boss~gave~me       
+- mon chien m'a donné
+- mon chef m'a collé
++ mon chef m'a donné
+
+[LINE]
+Speaker507: Oh, non... Une bougie ?! Je suis désolée, Eddy.
+~           oh  no     a   candle    I  am   sorry    Eddy 
+
+[LINE]
+Speaker414: En~fait...  je l'adore !
+~           actually    I  love~it  
+
+[LINE]
+Speaker414: Elle sent   trop bon  !
+~           it   smells so   good  
+
+[MULTIPLE_CHOICE]
+> Pourquoi Béa~est-elle désolée pour Eddy ?
+~ why      is~Béa       sorry   for  Eddy  
+- Eddy pense  que  les~bougies sentent très   mauvais.
+~ Eddy thinks that candles     smell   really bad     
+- Elle aussi voulait lui~acheter une bougie.
+~ she  also  wanted  to~buy~him  a   candle 
++ Elle pense  que  les~bougies sont pour les~gens~ennuyeux.
+~ she  thinks that candles     are  for  boring~people     
+
+[MATCH]
+> Tap the pairs
+- Alors <> so
+- cadeau <> gift
+- Fais-moi confiance <> trust me
+- voyager <> to travel
+- bureau ce soir <> office tonight
+
