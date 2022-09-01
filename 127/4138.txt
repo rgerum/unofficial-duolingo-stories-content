@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Uma conversa interessante
+icon=6711cee61441da3d7aa6099466d6fff137239c3a
+set=11|3
+
+[HEADER]
+> Una conversación interesante 
+~ uma conversa     interessante
+
+[LINE]
+> Bea está en~el parque.
+~ Bea está no    parque 
+
+[LINE]
+Speaker258: Hola, ¿puedo sentarme  aquí?
+~           olá    posso me~sentar aqui 
+
+[LINE]
+Speaker507: Sí. 
+~           sim 
+
+[LINE]
+Speaker507: Estoy esperando~a   una amiga.
+~           estou esperando~por uma amiga 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "namorado".
+Speaker507: (Ella) (va~a) (venir) con su  (+novio).   
+~            ela    vai    vir    com seu   namorado  
+
+[LINE]
+Speaker258: Ah… ¿sí? 
+~           ah   sim 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker507: [Estoy~muy~emocionada] por  conocer  al novio    de mi    amiga.
+~            estou~muito~ansiosa   para conhecer o  namorado da minha amiga 
++ Estoy muy emocionada
+- Está muy impresionada
+- Esto es muy emocionante
+
+[LINE]
+Speaker258: ¿Por qué?
+~            por quê 
+
+[LINE]
+Speaker507: A~ella~le~gusta~mucho.
+~           ela~gosta~muito~dele  
+
+[LINE]
+Speaker258: Interesante… 
+~           interessante 
+
+[LINE]
+Speaker507: Ella le~va~a~pedir matrimonio…  
+~           ela  vai~pedir~ele em~casamento 
+
+[LINE]
+Speaker507: … ¡este fin de semana!
+~              este fim de semana 
+
+[MULTIPLE_CHOICE]
+> A amiga da Bea vai…
++ …pedir o namorado em casamento neste fim de semana.
+- …sair de férias com a Bea neste fim de semana.
+- …comprar uma casa com o namorado no mês que vem.
+
+[LINE]
+Speaker258: ¿De~verdad?
+~            sério     
+
+[LINE]
+Speaker507: Sí.  ¡Es tan romántico!
+~           sim   é  tão romântico 
+
+[LINE]
+Speaker507: ¡Ah! ¡Mi    amiga está aquí!
+~            ah   minha amiga está aqui 
+
+[LINE]
+Speaker507: Hola, Gloria.
+~           olá   Gloria 
+
+[LINE]
+Speaker260: Hola, Bea.
+~           olá   Bea 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker260: ¡[Ya~conoces~a]   Leo!  
+~             tu~já~conheces  o~Leo 
+- Ya con voces a
++ Ya conoces a
+- La conoce a
+
+[LINE]
+Speaker507: ¿A~quién?
+~            quem    
+
+[LINE]
+Speaker260: A~mi novio,    Leo.
+~           meu  namorado  Leo 
+
+[LINE]
+Speaker507: ¡Ay,~no! 
+~            ah,~não 
+
+[LINE]
+Speaker258: Ah… ¡Ja,~ja,~ja! Mucho~gusto, Bea.
+~           ah   ha~ha~ha    é~um~prazer  Bea 
+
+[MULTIPLE_CHOICE]
+> Opa! A Bea acidentalmente contou ao Leo que...
+- …a namorada dele vai terminar com ele.
+- …ela está namorando a namorada dele.
++ …a namorada dele vai pedi-lo em casamento.
+
+[MATCH]
+> Toque nos pares
+- le va a pedir <> vai pedir ele
+- aquí <> aqui
+- mi <> minha
+- tan <> tão
+- Interesante <> interessante
+
