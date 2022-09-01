@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=I Want This Jacket!
+icon=c74da112b88638bc6cf1243d490c567bb7e8b2ed
+set=2|1
+
+[HEADER]
+> Je veux cette veste  !
+~ I  want this  jacket  
+
+[LINE]
+> Lily est dans un~magasin avec son~amie,   Zari.
+~ Lily is  in   a~store    with her~friend  Zari 
+
+[LINE]
+Speaker416: C'est cher      ici. 
+~           it's  expensive here 
+
+[LINE]
+Speaker418: Oui...
+~           yes   
+
+[LINE]
+Speaker418: Waouh !
+~           wow    
+
+[LINE]
+Speaker418: Cette veste  est super !
+~           this  jacket is  great  
+
+[LINE]
+Speaker416: Zari ?
+~           Zari  
+
+[LINE]
+Speaker418:  J'aime beaucoup~la~couleur.
+~            I~like the~color~a~lot     
+
+[LINE]
+Speaker416: Zari...
+~           Zari   
+
+[ARRANGE]
+> Tap what you hear
+Speaker418: [(Je) (veux) (cette) (veste)  ]!
+~             I    want   this    jacket    
+
+[LINE]
+Speaker416: Zari !
+~           Zari  
+
+[LINE]
+Speaker418: Oui ?
+~           yes  
+
+[LINE]
+Speaker416: La~veste   est à~cent           euros.
+~           the~jacket is  (at)~one~hundred euros 
+
+[MULTIPLE_CHOICE]
+> How much does the jacket cost?
+- one million euros
+- five euros
++ one hundred euros
+
+[LINE]
+Speaker416: Elle est très chère.    
+~           it   is  very expensive 
+
+[LINE]
+Speaker418: Cent        euros ?!
+~           one~hundred euros   
+
+[LINE]
+Speaker416: Oui...
+~           yes   
+
+[LINE]
+Speaker418: J'ai   une~idée !
+~           I~have an~idea   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker418: C'est bientôt [mon~anniversaire]...
+~           it's  soon     my~birthday         
++ mon anniversaire
+- son dictionnaire
+- ma cuisinière
+
+[LINE]
+Speaker416: Oui ?
+~           yes  
+
+[POINT_TO_PHRASE]
+> Choose the option that means "best."
+Speaker418: (Et)  (tu)  es  ma (+meilleure) (amie)   !
+~            and   you  are my   best        friend   
+
+[LINE]
+Speaker416: Oui...
+~           yes   
+
+[LINE]
+Speaker418: Tu  peux acheter... 
+~           you can  (to)~buy   
+
+[LINE]
+Speaker416: Une veste~pas~chère pour toi ?
+~           a   cheap~jacket    for  you  
+
+[MULTIPLE_CHOICE]
+> Zari's birthday gift from Lily will be…
+- …an expensive red jacket.
++ …a cheap jacket.
+- …a big pile of money.
+
+[MATCH]
+> Tap the pairs
+- veste <> jacket
+- J'ai <> I have
+- Et <> and
+- Lily <> Lily
+- tu <> you
+
