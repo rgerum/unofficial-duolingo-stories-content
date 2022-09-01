@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=The Cake
+icon=4a31a2e8269bfd907d862c44a3b320899c169419
+set=14|4
+
+[HEADER]
+> O   bolo
+~ the cake
+
+[LINE]
+> Lin está na     cozinha. Ela abre  a   geladeira.
+~ Lin is~  in~the kitchen  she opens the fridge    
+
+[LINE]
+Speaker508: Onde  está o~meu bolo?
+~           where is~  my    cake 
+
+[LINE]
+> Lin olha~para a   mesa  e   vê   sua avó,         Lucy.
+~ Lin looks~at  the table and sees her grandmother  Lucy 
+
+[LINE]
+Speaker508: Vovó,    o~que você~está~comendo?
+~           Grandma  what  are~you~eating    
+
+[LINE]
+> Lucy esconde o~prato~dela.
+~ Lucy hides   her~plate    
+
+[MULTIPLE_CHOICE]
+> Lucy is hiding her plate.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker509: Humm?! Um sanduíche!
+~           hmm    a  sandwich  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker508: Eu não~estou~encontrando [o~meu~bolo].
+~           I  can't~find             my~cake     
+- o meu lobo
++ o meu bolo
+- seu bolo
+
+[LINE]
+Speaker509: O~quê?! Como~é~o~seu~bolo?     
+~           what    what~is~your~cake~like 
+
+[ARRANGE]
+> Tap what you hear
+Speaker508: [(É)     (um) (bolo~pequeno).]
+~             it~is   a    small~cake     
+
+[LINE]
+Speaker509: O~seu~bolo~tem      morangos?    
+~           does~your~cake~have strawberries 
+
+[LINE]
+Speaker508: Sim! Tem    muitos   morangos!    
+~           yes  it~has a~lot~of strawberries 
+
+[LINE]
+Speaker509: E   é     amarelo?
+~           and is~it yellow  
+
+[LINE]
+Speaker508: Sim! O~meu bolo é  amarelo!
+~           yes  my    cake is yellow  
+
+[CONTINUATION]
+> What comes next?
+Speaker509: O~seu~bolo~é [gostoso]?
+~           is~your~cake  tasty    
+- grande
+~ big   
+- meu~bolo
+~ my~cake 
++ gostoso
+~ tasty  
+
+[LINE]
+Speaker508: Vovó!    Você~comeu  o~meu bolo?!
+~           Grandma  did~you~eat my    cake  
+
+[LINE]
+Speaker509: Eu?! Não!
+~           me   no  
+
+[LINE]
+Speaker508: Está~bem.  Desculpa! Eu vou      fazer   mais~um bolo~de~banana.
+~           all~right  sorry     I  am~going to~make another banana~cake    
+
+[LINE]
+Speaker509: Banana? Mas o~seu bolo era de~chocolate~branco!    
+~           banana  but your  cake was made~of~white~chocolate 
+
+[LINE]
+Speaker508: Ah! Eu~sabia!  Você comeu o~meu bolo!
+~           oh  I~knew~it  you  ate   my    cake 
+
+[MULTIPLE_CHOICE]
+> How did Lin discover that Lucy ate her cake?
+- Lucy had cake on her face.
+- She found Lucy's plate.
++ Lucy knew what flavor Lin's cake was.
+
+[MATCH]
+> Tap the pairs
+- olha para <> looks at
+- vou <> am going
+- mais um <> another
+- Não <> no
+- sua <> her
+
