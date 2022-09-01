@@ -1,0 +1,119 @@
+[DATA]
+fromLanguageName=Where Is My Key?
+icon=1afd1974b5fb720f70687c6b16146c66201f45ba
+set=8|2
+
+[HEADER]
+> Onde  está minha chave?
+~ where is~  my    key   
+
+[LINE]
+> Lin está com  a~avó~dela,            Lucy.
+~ Lin is~  with (the)~her~grandmother  Lucy 
+
+[LINE]
+Speaker509: Nós temos uma reserva     em um restaurante~muito~bom esta noite!  
+~           we  have  a   reservation in a  very~good~restaurant  this evening 
+
+[LINE]
+Speaker509: Vamos!    Eu não~quero  chegar    tarde.
+~           let's~go  I  don't~want to~arrive late  
+
+[MULTIPLE_CHOICE]
+> Lucy is cooking a fancy dinner.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker508: Está~bem! 
+~           all~right 
+
+[LINE]
+Speaker508: Humm… Onde~está a   chave da~minha moto?      
+~           hmm   where~is  the key   to~my    motorcycle 
+
+[LINE]
+Speaker509: Você nunca sabe onde  a~sua      chave está.
+~           you  never know where (the)~your key   is~  
+
+[MULTIPLE_CHOICE]
+> Lin never knows…
+- …what to wear for dinner.
+- …how to drive a motorcycle.
++ …where the key of her motorcycle is.
+
+[LINE]
+Speaker509: Está  na sua  jaqueta?
+~           is~it in your jacket  
+
+[LINE]
+> Lin procura   a   chave na~jaqueta~dela.
+~ Lin looks~for the key   in~her~jacket   
+
+[ARRANGE]
+> Tap what you hear
+Speaker508: [(Não~está) (na) (minha) (jaqueta).]
+~             it's~not   in   my      jacket    
+
+[LINE]
+Speaker509: Está  na sua  cama?
+~           is~it on your bed  
+
+[LINE]
+Speaker508: Não, a   chave não~está aqui!
+~           no   the key   is~not   here 
+
+[LINE]
+Speaker509: Está  no     chuveiro?
+~           is~it in~the shower   
+
+[LINE]
+Speaker508: Não. Isso é  muito estranho!
+~           no   that is very  strange  
+
+[LINE]
+Speaker508: Eu não~sei    onde  está.  Vamos pedir     um táxi?!
+~           I  don't~know where it~is  let's (to)~call a  taxi  
+
+[CONTINUATION]
+> What comes next?
+Speaker509: Não, está  [muito tarde].
+~           no   it~is  very  late   
+- minha casa 
+~ my    house
+- meu vestido
+~ my  dress  
++ muito tarde
+~ very  late 
+
+[LINE]
+Speaker508: Desculpa, vó.     
+~           sorry     Grandma 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "dinner."
+Speaker509: (Está~bem). (Eu~faço)   (+o~jantar).
+~            it's~OK     I'll~make    dinner    
+
+[LINE]
+> Lucy abre  a   geladeira.   
+~ Lucy opens the refrigerator 
+
+[LINE]
+Speaker509: Lin! A~sua      chave está aqui!
+~           Lin  (the)~your key   is~  here 
+
+[MULTIPLE_CHOICE]
+> At last! Lin's keys were in…
++ …the refrigerator.
+- …her shoes.
+- …her motorcycle.
+
+[MATCH]
+> Tap the pairs
+- Isso <> that
+- aqui <> here
+- jaqueta <> jacket
+- chuveiro <> shower
+- vó <> Grandma
+
