@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=Very Sick
+icon=05ef0ae553136cebfb24b2b3b7b0ace8a62050d0
+set=9|3
+
+[HEADER]
+> Sehr krank
+~ very sick 
+
+[LINE]
+Speaker415: Papa! Ich bin sehr krank!
+~           dad   I   am  very sick  
+
+[LINE]
+Speaker414: Oh, nein!
+~           oh  no   
+
+[LINE]
+> Eddy legt die Hand auf Juniors  Stirn.   
+~ Eddy lays his hand on  Junior's forehead 
+
+[LINE]
+Speaker414: Du  hast kein Fieber.
+~           you have no   fever  
+
+[MULTIPLE_CHOICE]
+> Junior has a fever.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker415: Aber ich habe Ohrenschmerzen! Können wir zur~Ärztin~gehen?
+~           but  I   have (an)~earache    can    we  go~to~the~doctor 
+
+[LINE]
+Speaker414: Natürlich.
+~           of~course 
+
+[LINE]
+> Sie  gehen zur~Ärztin.   
+~ they go    to~the~doctor 
+
+[LINE]
+Speaker341: Hallo, Junior.
+~           hello  Junior 
+
+[ARRANGE]
+> Tap what you hear
+Speaker341: [(Wie) (kann) (ich) (helfen)?]
+~             how   can    I     help     
+
+[LINE]
+Speaker414: Mein Sohn hat Ohrenschmerzen.
+~           my   son  has (an)~earache   
+
+[LINE]
+Speaker341: Oh, nein! Ich kann helfen.
+~           oh  no    I   can  help   
+
+[LINE]
+> Die Ärztin untersucht Juniors  Ohr.
+~ the doctor examines   Junior's ear 
+
+[MULTIPLE_CHOICE]
+> The doctor examines Junior's…
++ …ear.
+- …knee.
+- …throat.
+
+[LINE]
+Speaker341: Dein Ohr ist gesund. 
+~           your ear is  healthy 
+
+[LINE]
+Speaker415: Aber … mein Fuß  tut~weh!
+~           but    my   foot hurts   
+
+[LINE]
+> Die Ärztin untersucht Juniors  Fuß. 
+~ the doctor examines   Junior's foot 
+
+[LINE]
+Speaker341: Dein Fuß  ist auch OK.
+~           your foot is  also OK 
+
+[LINE]
+Speaker414: Ist alles      in~Ordnung?
+~           is  everything all~right  
+
+[CONTINUATION]
+> What comes next?
+Speaker341: Ja,  er ist [gesund]. 
+~           yes  he is   healthy  
+- neblig
+~ foggy 
+- sehr krank
+~ very sick 
++ gesund 
+~ healthy
+
+[LINE]
+Speaker341: Junior, du  bist nicht krank.
+~           Junior  you are  not   sick  
+
+[LINE]
+Speaker415: Ich bin krank!
+~           I   am  sick  
+
+[LINE]
+Speaker341: Junior, warum bist du  wirklich hier?
+~           Junior  why   are  you really   here 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "chocolate."
+Speaker341: Ist es (vielleicht) die (+Schokolade) auf (meinem) (Schreibtisch)?
+~           is  it  maybe       the   chocolate   on   my       desk          
+
+[LINE]
+Speaker415: Vielleicht …
+~           maybe       
+
+[LINE]
+Speaker414: Junior!
+~           Junior 
+
+[LINE]
+Speaker415: Ich bin gesund!  Kann ich jetzt meine~Schokolade~haben?
+~           I   am  healthy  can  I   now   have~my~chocolate      
+
+[MULTIPLE_CHOICE]
+> Oh Junior! Why did he want to see the doctor?
+- He had a gift for her.
++ She always gives him chocolate.
+- He was very sick.
+
+[MATCH]
+> Tap the pairs
+- Stirn <> forehead
+- OK <> OK
+- wirklich <> really
+- Ja <> yes
+- Sohn <> son
+
