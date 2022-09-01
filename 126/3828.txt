@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=No supermercado
+icon=9f4968b6294916f0d8c9f64c8a172ef8c0c368ef
+set=6|1
+
+[HEADER]
+> At~the Supermarket 
+~ no     supermercado
+
+[LINE]
+> Lin and Bea are   at~the supermarket. 
+~ Lin e   Bea estão no     supermercado 
+
+[LINE]
+Speaker508: I  do~not~want to~cook  dinner.  
+~           eu não~quero   cozinhar o~jantar 
+
+[MULTIPLE_CHOICE]
+> A Lin mal pode esperar para preparar o jantar.
++ Não, não é isso.
+- Sim, isso mesmo.
+
+[LINE]
+Speaker507: Cooking  is fun,       Lin!
+~           cozinhar é  divertido  Lin 
+
+[LINE]
+Speaker508: I'm      tired!  
+~           eu~estou cansada 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker508: Do~you~want to~eat [at a  restaurant]? 
+~           você~quer   comer   em um restaurante  
+- the supermarket 
+~ o   supermercado
++ at a  restaurant 
+~ em um reataurante
+- my          clothes
+~ (as)~minhas roupas 
+
+[LINE]
+Speaker507: No,  I  really~want to~cook! 
+~           não  eu quero~muito cozinhar 
+
+[LINE]
+Speaker508: Ugh,  OK.    What  do~we~need     for  dinner?  
+~           afff  certo  o~que nós~precisamos para o~jantar 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker507: First,    [we~need~rice]!           
+~           primeiro   nós~precisamos~de~arroz  
++ we need rice
+- we read nice
+- we eat rice
+
+[LINE]
+> They look~for~the  rice. 
+~ elas procuram~pelo arroz 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker508: [(Here) (is)   (the) (rice).] 
+~             aqui   está   o     arroz   
+
+[LINE]
+Speaker507: And we  need          beans   too.   
+~           e   nós precisamos~de feijões também 
+
+[LINE]
+> They look~for~the   beans.  
+~ eles procuram~pelos feijões 
+
+[LINE]
+Speaker507: OK!    Here are   the beans!  
+~           certo  aqui estão os  feijões 
+
+[LINE]
+Speaker507: And we  need          a~lot~of vegetables.
+~           e   nós precisamos~de muitos   legumes    
+
+[LINE]
+Speaker508: And milk. 
+~           e   leite 
+
+[LINE]
+Speaker507: And fruit… 
+~           e   frutas 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "coisas".
+Speaker508: (We)  (need)          (a~lot~of) (+things).
+~            nós   precisamos~de   muitas      coisas  
+
+[LINE]
+Speaker507: Yes… And I'm      very  tired   now.  
+~           sim  e   eu~estou muito cansada agora 
+
+[LINE]
+Speaker508: Do~you~want to~eat at a  restaurant? 
+~           você~quer   comer  em um restaurante 
+
+[LINE]
+Speaker507: Ooh! Yes!
+~           uh   sim 
+
+[MULTIPLE_CHOICE]
+> Por que a Bea concordou em comer em um restaurante?
+- O supermercado estava fechado.
+- O supermercado não tinha arroz.
++ Ela estava cansada demais para cozinhar.
+
+[MATCH]
+> Toque nos pares
+- Ugh <> afff
+- for <> para
+- at the <> no
+- beans <> feijões
+- milk <> leite
+
