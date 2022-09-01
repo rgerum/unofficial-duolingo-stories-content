@@ -1,0 +1,95 @@
+[DATA]
+fromLanguageName=Die Affen
+icon=c29e4533eca0186f83adafac9383fef2ed3aee56
+set=8|4
+
+[HEADER]
+> The Monkeys
+~ die Affen  
+
+[LINE]
+> Eddy and Junior are  at~the zoo.
+~ Eddy und Junior sind im     Zoo 
+
+[LINE]
+> They are~looking~at~the~lions. 
+~ sie  schauen~sich~die~Löwen~an 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker415: Dad,  [can~we~see]       the monkeys now?  
+~           Papa   können~wir~sehen  die Affen   jetzt 
++ can we see
+- can we be
+- can she see
+
+[LINE]
+Speaker414: But  you never~want to~see~the~monkeys.
+~           aber du  willst~nie die~Affen~sehen    
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker415: I   really~like  [the~monkeys now]!         
+~           ich mag~wirklich  die~Affen   mittlerweile  
+- your new   shirt
+~ dein neues Hemd 
++ the monkeys now  
+~ die Affen   jetzt
+- potatoes  
+~ Kartoffeln
+
+[LINE]
+Speaker415: Can    we  see~them? 
+~           können wir sie~sehen 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker414: Junior, the monkeys are  on  [the~other~side]    of~the zoo! 
+~           Junior  die Affen   sind auf  der~anderen~Seite  des    Zoos 
+- the mothers lied
+- the others’ ride
++ the other side
+
+[LINE]
+Speaker415: We  can    run.    You love   exercise.
+~           wir können laufen  du  liebst Sport    
+
+[LINE]
+Speaker414: Hmm. OK! Yes, I~love~to~run!         
+~           hmm  OK  ja   ich~liebe~es~zu~laufen 
+
+[ARRANGE]
+> Was hörst du?
+> [(Junior) (and) (Eddy) (start~running).]     
+~   Junior   und   Eddy   beginnen~zu~laufen   
+
+[LINE]
+Speaker415: Can    you run~faster,       Dad? 
+~           kannst du  schneller~laufen  Papa 
+
+[LINE]
+Speaker414: Wait.  Junior, why   are~we~running? You hate  running!
+~           warte  Junior  warum laufen~wir      du  hasst Laufen  
+
+[LINE]
+Speaker415: I   hate  running, but  I   love  ice~cream!
+~           ich hasse Laufen   aber ich liebe Eiscreme  
+
+[LINE]
+Speaker415: And there's an  ice~cream~shop next~to the monkeys!
+~           und da~ist  ein Eiscreme-Stand neben   den Affen   
+
+[MULTIPLE_CHOICE]
+> Warum läuft Junior zu den Affen?
+- Er trainiert für ein Rennen gegen einen Affen.
+- Er will abnehmen.
++ Er möchte sich ein Eis kaufen.
+
+[MATCH]
+> Wähle die Paare
+- start running <> beginnen zu laufen
+- why <> warum
+- Eddy <> Eddy
+- Wait <> warte
+- Yes <> ja
+
