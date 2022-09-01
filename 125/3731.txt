@@ -1,0 +1,129 @@
+[DATA]
+fromLanguageName=Il cameriere ha ragione
+icon=c8d008581b5b813d1b4afcedbe914f70003145c6
+set=9|2
+
+[HEADER]
+> The Waiter    Is~Right  
+~ il  cameriere ha~ragione
+
+[LINE]
+> Bea and her    friend Ted are  at~a~restaurant.
+~ Bea e   il~suo amico  Ted sono al~ristorante   
+
+[LINE]
+Speaker507: I'm       very  hungry.  
+~           (io)~sono molto affamata 
+
+[LINE]
+Speaker440: The fish  here is delicious!
+~           il  pesce qui  è  delizioso 
+
+[LINE]
+> A  waiter    comes  to~the table. 
+~ un cameriere arriva al     tavolo 
+
+[SELECT_PHRASE]
+> Seleziona la frase mancante
+Speaker526: [Good~evening]! What would~you~like to~eat?  
+~            buona~sera     cosa (voi)~vorreste mangiare 
+- Good eating
+- Good even if
++ Good evening
+
+[LINE]
+Speaker507: I  want   the fish,  please.    
+~           io voglio il  pesce  per~favore 
+
+[LINE]
+Speaker440: I  want   the fish  too!  
+~           io voglio il  pesce anche 
+
+[CONTINUATION]
+> Come continua la frase?
+Speaker526: Great!  And would~you~like [something to~drink]?
+~           ottimo  e   (voi)~vorreste  qualcosa  da~bere   
+- to~sleep
+~ dormire 
+- a   new   jacket
+~ una nuova giacca
++ something to~drink
+~ qualcosa  da~bere 
+
+[LINE]
+Speaker526: We~have       a  very~special~wine   tonight.
+~           (noi)~abbiamo un vino~molto~speciale stasera 
+
+[LINE]
+Speaker526: It's delicious with fish!    
+~           è    delizioso con  il~pesce 
+
+[LINE]
+Speaker526: But it's a~little expensive…
+~           ma  è    un~po'   caro      
+
+[LINE]
+Speaker440: No~problem!      We~would~like  the wine, please.    
+~           nessun~problema  (noi)~vorremmo il  vino  per~favore 
+
+[LINE]
+Speaker526: Great! 
+~           ottimo 
+
+[POINT_TO_PHRASE]
+> Seleziona l'opzione che significa "porta".
+> The (waiter)    (+brings) the fish  and two (glasses)   of wine (to~the) table. 
+~ il   cameriere    porta   il  pesce e   due  bicchieri  di vino  al      tavolo 
+
+[LINE]
+Speaker507: The fish  looks  great. 
+~           il  pesce sembra ottimo 
+
+[LINE]
+Speaker440: The wine looks  good  too!  
+~           il  vino sembra buono anche 
+
+[LINE]
+> Ted accidentally    spills   his    glass     of wine on~Bea's~plate.   
+~ Ted accidentalmente rovescia il~suo bicchiere di vino sul~piatto~di~Bea 
+
+[MULTIPLE_CHOICE]
+> Ops! Ted ha accidentalmente versato…
+- … l'acqua sul pesce.
+- … il vino addosso al cameriere.
++ … il vino sulla cena di Bea.
+
+[LINE]
+Speaker440: Your   fish! 
+~           il~tuo pesce 
+
+[LINE]
+Speaker507: Your   wine!
+~           il~tuo vino 
+
+[LINE]
+> Bea laughs and eats   the fish. 
+~ Bea ride   e   mangia il  pesce 
+
+[LINE]
+Speaker507: The waiter    is~right!  
+~           il  cameriere ha~ragione 
+
+[LINE]
+Speaker507: This   wine is delicious with the fish! 
+~           questo vino è  delizioso con  il  pesce 
+
+[MULTIPLE_CHOICE]
+> Perché il cameriere aveva ragione?
+- Il pesce è troppo caro.
+- Ted è noioso.
++ Bea pensa che il vino sia delizioso con il pesce.
+
+[MATCH]
+> Tocca le coppie
+- on Bea's plate <> sul piatto di Bea
+- glass <> bicchiere
+- We would like <> vorremmo
+- would you like <> vorreste
+- Bea <> Bea
+
