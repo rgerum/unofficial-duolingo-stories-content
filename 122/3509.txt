@@ -1,0 +1,118 @@
+[DATA]
+fromLanguageName=Du kannst sprechen?
+icon=a13fae69b40921c2d4f62a0295a19ff0c25d26eb
+set=18|4
+
+[HEADER]
+> You Can    Talk?    
+~ du  kannst sprechen 
+
+[LINE]
+> Lily just~got~home                  from her~job   at~the clothing~store.   
+~ Lily ist~gerade~nach~Hause~gekommen von  ihrem~Job im     Kleidungsgeschäft 
+
+[LINE]
+Speaker416: I'm~so~tired   of  customers complaining~all~day.               
+~           ich~habe~genug von Kunden    die~sich~den~ganzen~Tag~beschweren 
+
+[MULTIPLE_CHOICE]
+> Lily findet ihren Job perfekt.
++ Nein, das ist falsch.
+- Ja, das ist richtig.
+
+[LINE]
+> She sits~down.      Her~dog  jumps   up~on the~sofa.
+~ sie setzt~sich~hin  ihr~Hund springt auf   das~Sofa 
+
+[LINE]
+Speaker58: Lily, we~need~to~talk.           
+~          Lily  wir~müssen~uns~unterhalten 
+
+[LINE]
+Speaker416: What?!
+~           was   
+
+[LINE]
+Speaker58: It's   time for some     changes.   
+~          es~ist Zeit für ein~paar Änderungen 
+
+[MULTIPLE_CHOICE]
+> Moment! Was meint der Hund damit?
+- Er hat sich eine teure neue Uhr gekauft.
++ Er will, dass sich ein paar Dinge ändern.
+- Er muss Gassi gehen.
+
+[LINE]
+Speaker416: You can    talk?!    
+~           du  kannst sprechen  
+
+[ARRANGE]
+> Was hörst du?
+Speaker58: [(I)   (don't~want) (dog~food)    (anymore).]
+~            ich   will~kein    Hundefutter   mehr      
+
+[LINE]
+Speaker58: I   want to~eat~steak every day.
+~          ich will Steak~essen  jeden Tag 
+
+[LINE]
+Speaker416: What is~happening?   
+~           was  passiert~(hier) 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker58: And I   want to~sleep~in~your~bed   d].
+~          und ich will in~deinem~Bett~schlafen   
+- on  the~moon
+~ auf dem~Mond
+- at~work       
+~ bei~der~Arbeit
++ in your~bed   
+~ in deinem~Bett
+
+[LINE]
+Speaker58: You can    sleep~on~my~pillow.        
+~          du  kannst auf~meinem~Kissen~schlafen 
+
+[LINE]
+Speaker416: What? No!  
+~           was   nein 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker58: Do~you~want [to~sleep~outside] instead?    
+~          willst~du    draußen~schlafen  stattdessen 
+- two sleep inside
+- to keep outside
++ to sleep outside
+
+[LINE]
+Speaker416: You don't~even~sleep      outside!
+~           du  schläfst~nicht~einmal draußen 
+
+[LINE]
+> Suddenly,  Lily~wakes~up. 
+~ plötzlich  wacht~Lily~auf 
+
+[LINE]
+> She looks  at  her~dog    sleeping~on~the~floor        and laughs.
+~ sie schaut auf ihren~Hund der~auf~dem~Fußboden~schläft und lacht  
+
+[LINE]
+Speaker416: I   think  my~job   is~giving me  bad       dreams!
+~           ich glaube mein~Job gibt      mir schlechte Träume 
+
+[MULTIPLE_CHOICE]
+> Lily dachte, dass ihr Hund sprechen konnte, aber …
+- … er hat ihr nur einen Kuss gegeben.
+- … er wollte, dass es ein Geheimnis bleibt.
++ … ihr ist klar geworden, dass alles nur ein Traum war.
+
+[MATCH]
+> Wähle die Paare
+- think <> glaube
+- jumps <> springt
+- customers <> Kunden
+- talk <> sprechen
+- outside <> draußen
+
