@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Can I Help?
+icon=c8412ea851a57d897fb033bb2123079ac20b0a4e
+set=3|2
+
+[HEADER]
+> Kann ich helfen?
+~ can  I   help   
+
+[LINE]
+> Oscar ist im~Kaufhaus.            
+~ Oscar is  in~the~department~store 
+
+[LINE]
+> Sari, seine Schülerin, arbeitet im~Kaufhaus.            
+~ Sari  his   student    works    in~the~department~store 
+
+[MULTIPLE_CHOICE]
+> Sari works at the department store.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker592: Oh, hallo, Sari! Sehr gut! 
+~           oh  hello  Sari  very good 
+
+[LINE]
+Speaker418: Guten~Tag      und willkommen!
+~           good~afternoon and welcome    
+
+[LINE]
+Speaker418: Kann ich helfen?
+~           can  I   help   
+
+[LINE]
+Speaker592: Oh ja!  Danke,     Sari! Wo    …
+~           oh yes  thank~you  Sari  where  
+
+[POINT_TO_PHRASE]
+> Choose the option that means "look for."
+Speaker418: (Sie) (+suchen)          (ein) (Sakko)?      
+~            you    are~looking~for   a     suit~jacket  
+
+[LINE]
+> Sari nimmt       ein Sakko.      
+~ Sari takes~(out) a   suit~jacket 
+
+[MULTIPLE_CHOICE]
+> What is Sari doing?
+- returning a pair of shoes
++ taking out a suit jacket
+- buying a coffee
+
+[LINE]
+Speaker592: Nein danke,     Sari. Mein Sakko       ist sehr schön. Ich …
+~           no   thank~you  Sari  my   suit~jacket is  very nice   I    
+
+[LINE]
+Speaker418: Natürlich! Sie suchen          ein Hemd! 
+~           of~course  you are~looking~for a   shirt 
+
+[LINE]
+Speaker418: Das Hemd  hier ist schön und billig!
+~           the shirt here is  nice  and cheap  
+
+[MULTIPLE_CHOICE]
+> The shirt is…
+- ...large and colorful.
++ …nice and cheap.
+- …ugly and expensive.
+
+[LINE]
+Speaker592: Nein, Sari, bitte  …
+~           no    Sari  please  
+
+[LINE]
+Speaker592: Ich suche          kein Sakko       und ich suche          kein Hemd.  Ich suche          …
+~           I   am~looking~for no   suit~jacket and I   am~looking~for no   shirt  I   am~looking~for  
+
+[LINE]
+Speaker418: Schuhe! Sie suchen          Schuhe!
+~           shoes   you are~looking~for shoes  
+
+[CONTINUATION]
+> What comes next?
+Speaker592: Nein! Ich suche          [keine neue Kleidung]!
+~           no    I   am~looking~for  no    new  clothes   
+- keine Eule
+~ no    owl 
+- die Speisekarte
+~ the menu       
++ keine neue Kleidung
+~ no    new  clothes 
+
+[LINE]
+Speaker592: Ich suche          …
+~           I   am~looking~for  
+
+[LINE]
+Speaker592: Bitte,  wo    sind die Toiletten?!
+~           please  where are  the restrooms  
+
+[MULTIPLE_CHOICE]
+> Why did Oscar go into the department store?
+- He wanted to say hi to Sari.
+- He wanted to buy a suit jacket, a shirt, and shoes.
++ He needed to find the restrooms.
+
+[MATCH]
+> Tap the pairs
+- Oscar <> Oscar
+- sind <> are
+- Schuhe <> shoes
+- billig <> cheap
+- Das <> the
+
