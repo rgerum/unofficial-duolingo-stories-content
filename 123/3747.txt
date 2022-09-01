@@ -1,0 +1,109 @@
+[DATA]
+fromLanguageName=¿Qué quiere?
+icon=8c5ae7b18c5ff0f37394646c91bd6a579213dcbc
+set=3|2
+
+[HEADER]
+> Qu'est-ce~que~vous~voulez ?
+~ qué~quiere~(usted)         
+
+[LINE]
+> Oscar est  dans un  magasin de vêtements.
+~ Oscar está en   una tienda  de ropa      
+
+[LINE]
+> Son étudiante,  Zari, travaille dans le magasin.
+~ su  estudiante  Zari  trabaja   en   la tienda  
+
+[LINE]
+Speaker592: Salut, Zari ! Tu travailles ici  ? Super  !
+~           hola   Zari   tú trabajas   aquí   genial  
+
+[MULTIPLE_CHOICE]
+> Oscar ve a Zari trabajando en una tienda.
++ Sí, así es.
+- No, no es así.
+
+[LINE]
+Speaker418: Bienvenue  !
+~           bienvenido  
+
+[LINE]
+Speaker418: Vous  voulez quelque~chose ?
+~           usted quiere algo           
+
+[MULTIPLE_CHOICE]
+> Zari pregunta…
++ …si Oscar quiere algo.
+- …qué hora es.
+- …si Oscar quiere un trabajo.
+
+[LINE]
+Speaker592: Oui, merci   ! Je veux…  
+~           sí   gracias   yo quiero 
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "nueva".
+Speaker418: Ah ! (Vous)  (voulez) une (+nouvelle) (veste)    ?
+~           ah    usted   quiere  una   nueva      chaqueta   
+
+[LINE]
+> Zari prend une veste    rouge.
+~ Zari toma  una chaqueta roja  
+
+[LINE]
+Speaker592: Non, Zari. J'aime   ma veste    !
+~           no   Zari  me~gusta mi chaqueta  
+
+[LINE]
+Speaker418: Ah ! Un  T-shirt  ?
+~           ah   una camiseta  
+
+[LINE]
+Speaker418: Un  T-shirt  blanc  ?
+~           una camiseta blanca  
+
+[MULTIPLE_CHOICE]
+> Zari le muestra a Oscar…
+- …una casa de madera.
++ …una camiseta blanca.
+- …un sombrero de paja.
+
+[LINE]
+Speaker592: Non, Zari.
+~           no   Zari 
+
+[LINE]
+Speaker592: Je ne~veux~pas un  T-shirt  ou une veste.    Je veux…  
+~           yo no~quiero   una camiseta o  una chaqueta  yo quiero 
+
+[LINE]
+Speaker418: Un pantalon ! Vous  voulez un pantalon !
+~           un pantalón   usted quiere un pantalón  
+
+[LINE]
+Speaker592: Non ! Non !
+~           no    no   
+
+[LINE]
+Speaker592: Je veux   savoir…
+~           yo quiero saber  
+
+[LINE]
+Speaker592: … où    sont  les toilettes ?
+~             dónde están los baños      
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Oscar entró a la tienda?
+- Él quería comprar unos pantalones, una camisa y una chaqueta.
+- Él quería comprar una chaqueta nueva para Zari.
++ Él necesitaba encontrar un baño.
+
+[MATCH]
+> Selecciona los pares
+- nouvelle <> nueva
+- T-shirt <> camiseta
+- voulez <> quiere
+- blanc <> blanca
+- les <> los
+
