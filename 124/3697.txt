@@ -1,0 +1,145 @@
+[DATA]
+fromLanguageName=Le pirate informatique
+icon=d5d838c3ef0c7ca57b1c21aa81867b8fd732920d
+set=32|6
+
+[HEADER]
+> The Hacker             
+~ le  pirate~informatique
+
+[LINE]
+> Bea walks into Eddy's~apartment.    
+~ Bea entre dans l'appartement~d'Eddy 
+
+[LINE]
+Speaker414: Thanks for~coming!  
+~           merci  d'être~venue 
+
+[LINE]
+Speaker507: Sure!     You said   there~was     a  problem  with your computer,   right?       
+~           bien~sûr  tu  as~dit qu'il~y~avait un problème avec ton  ordinateur  n'est-ce~pas 
+
+[MULTIPLE_CHOICE]
+> Bea aide Eddy à réparer ses toilettes.
+- Oui, c'est vrai.
++ Non, c'est faux.
+
+[LINE]
+Speaker414: Yes!
+~           oui 
+
+[LINE]
+Speaker507: What~happened?     
+~           que~s'est-il~passé 
+
+[LINE]
+Speaker414: Well…    have~you~ever~heard       of~a "hacker"?             
+~           eh~bien  tu~as~déjà~entendu~parler d'un  pirate~informatique  
+
+[LINE]
+Speaker414: That's a   person   who changes things     on  computers.      
+~           c'est  une personne qui modifie des~choses sur les~ordinateurs 
+
+[LINE]
+Speaker507: Yes, Eddy, I  know what~a   hacker              is.  So,    what's   the problem? 
+~           oui  Eddy  je sais ce~qu'un pirate~informatique est  alors  quel~est le  problème 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « CV ».
+Speaker414: (I~tried)     (to~print)   my  (+resume), (but)  it didn't~work!   
+~            j'ai~essayé   d'imprimer  mon   CV        mais  ça n'a~pas~marché 
+
+[LINE]
+Speaker414: And now        I  can't~find      my  resume on  my  computer.   I  think     the hacker deleted~it.  
+~           et  maintenant je ne~retrouve~pas mon CV     sur mon ordinateur  je pense~que le  pirate l'a~supprimé 
+
+[MULTIPLE_CHOICE]
+> Eddy pense...
+- … que Bea a mangé son petit déjeuner.
+- … que quelqu'un a volé son ordinateur.
++ … qu'un pirate a supprimé son CV.
+
+[LINE]
+Speaker507: Can~I~look~at~it?
+~           je~peux~regarder 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+> Bea starts     working    [on  the~computer].
+~ Bea commence~à travailler  sur l'ordinateur  
+- at~a restaurant
+~ au   restaurant
++ on  the~computer
+~ sur l'ordinateur
+- on  her car    
+~ sur sa  voiture
+
+[LINE]
+Speaker507: OK, I~found     a  file    called        "my  resume."
+~           OK  j'ai~trouvé un fichier qui~s'appelle  mon CV      
+
+[LINE]
+> Bea opens the file.    Eddy sees~it on  the~computer.
+~ Bea ouvre le  fichier  Eddy le~voit sur l'ordinateur 
+
+[LINE]
+Speaker414: It does~look~like   my  resume.
+~           ça ressemble~bien~à mon CV     
+
+[LINE]
+Speaker507: Also,  I  know why      your printer    wasn't~working. 
+~           aussi  je sais pourquoi ton  imprimante ne~marchait~pas 
+
+[LINE]
+> Bea connects the~printer  to the~computer.
+~ Bea branche  l'imprimante à  l'ordinateur 
+
+[LINE]
+Speaker507: It   wasn't      connected!
+~           elle n'était~pas branchée  
+
+[MULTIPLE_CHOICE]
+> Pourquoi l'imprimante d'Eddy ne fonctionnait-elle pas ?
+- Il n'a pas d'imprimante.
++ Elle n'était pas branchée à l'ordinateur.
+- Le pirate informatique l'avait cassée.
+
+[LINE]
+Speaker414: Hmm. Junior probably~did        that.
+~           hmm  Junior a~probablement~fait ça   
+
+[LINE]
+> The resume prints,    and Bea looks~at~it.
+~ le  CV     s'imprime  et  Bea le~regarde  
+
+[LINE]
+Speaker507: Eddy, there~are mistakes    all~over    your resume.
+~           Eddy  il~y~a    des~erreurs partout~sur ton  CV     
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker414: [(The) (hacker) (probably~changed~it)!]     
+~             le    pirate   l'a~probablement~modifié   
+
+[LINE]
+Speaker507: Hmm. Do~you~know that your resume says    you're good~with~computers?
+~           hmm  tu~sais     que  ton  CV     dit~que tu~es  bon~en~informatique 
+
+[LINE]
+Speaker414: Yeah,  the hacker definitely~changed     that.
+~           ouais  le  pirate a~certainement~modifié ça   
+
+[MULTIPLE_CHOICE]
+> Eddy pensait que son ordinateur avait été piraté…
+- … donc il a appelé la police.
+- ... donc il a effacé toutes ses données.
++ … mais en fait il est nul en informatique.
+
+[MATCH]
+> Choisis les paires
+- said <> as dit
+- but <> mais
+- wasn't <> n'était pas
+- Yes <> oui
+- printer <> imprimante
+
