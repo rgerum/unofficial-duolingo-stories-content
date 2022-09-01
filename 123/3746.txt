@@ -1,0 +1,145 @@
+[DATA]
+fromLanguageName=La reserva
+icon=c9bde208f8e42428d456b631d6dfaed4d0aa9fa2
+set=3|1
+
+[HEADER]
+> La réservation
+~ la reserva    
+
+[LINE]
+> Béa et Lin sont  dans un restaurant. 
+~ Béa y  Lin están en   un restaurante 
+
+[LINE]
+Speaker507: C'est joli   ici  !
+~           está  bonito aquí  
+
+[LINE]
+Speaker508: Bon~anniversaire, Béa !
+~           feliz~cumpleaños  Béa  
+
+[MULTIPLE_CHOICE]
+> Es el cumpleaños de Béa.
+- No, no es así.
++ Sí, así es.
+
+[LINE]
+Speaker385: Bienvenue   !
+~           bienvenidas  
+
+[LINE]
+Speaker508: Bonsoir.       J'ai       une réservation pour deux.
+~           buenas~tardes  (yo)~tengo una reserva     para dos  
+
+[LINE]
+Speaker385: Oui, votre prénom ?
+~           sí   su    nombre  
+
+[MULTIPLE_CHOICE]
+> El mesero quiere saber…
++ …el nombre de Lin.
+- …la comida favorita de Lin.
+- …el nombre de la madre de Lin.
+
+[LINE]
+Speaker508: Lin.
+~           Lin 
+
+[LINE]
+Speaker385: Ah, oui.
+~           ah  sí  
+
+[LINE]
+Speaker385: Votre table est  ici. 
+~           su    mesa  está aquí 
+
+[LINE]
+Speaker508: Oh...
+~           ah   
+
+[LINE]
+Speaker507: C'est très cher, Lin.
+~           es    muy  caro  Lin 
+
+[MULTIPLE_CHOICE]
+> ¿Qué quiere decir Béa?
+- El restaurante es muy barato.
++ La comida cuesta mucho dinero.
+- La ropa de Lin cuesta mucho dinero.
+
+[LINE]
+Speaker508: Oui...
+~           sí    
+
+[LINE]
+Speaker507: Tu~veux~manger~quoi    ?
+~           (tú)~qué~quieres~comer  
+
+[LINE]
+Speaker508: Euh… Une… salade   ?
+~           eh   una  ensalada  
+
+[LINE]
+Speaker508: Quoi ?!
+~           qué    
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa “veinte”.
+Speaker508: (+Vingt)  (euros) (pour) une (salade)   ?!
+~             veinte   euros   por   una  ensalada    
+
+[LINE]
+Speaker508: Je voudrais un bon… 
+~           yo quisiera un buen 
+
+[LINE]
+Speaker508: … verre d'eau.  
+~             vaso  de~agua 
+
+[LINE]
+Speaker507: Moi, je veux   une salade   !
+~           yo   yo quiero una ensalada  
+
+[LINE]
+Speaker507: Et une pizza !
+~           y  una pizza  
+
+[LINE]
+Speaker507: Et une bière   !
+~           y  una cerveza  
+
+[LINE]
+Speaker508: Euh...
+~           eh    
+
+[LINE]
+Speaker507: Dans un restaurant  pas~cher !
+~           en   un restaurante barato    
+
+[LINE]
+Speaker508: Béa, c'est un jour important. 
+~           Béa  es    un día  importante 
+
+[LINE]
+Speaker507: Oui, mais le restaurant  n'est~pas important. 
+~           sí   pero el restaurante no~es     importante 
+
+[LINE]
+Speaker508: Ouf, très bien ! J'ai       très~faim    !
+~           uf   muy  bien   (yo)~tengo mucha~hambre  
+
+[MULTIPLE_CHOICE]
+> ¿Qué pasó？
+- Béa se enojó porque Lin se olvidó de su cumpleaños.
+- Lin se comió toda la comida porque tenía hambre.
++ Béa y Lin decidieron ir a un restaurante más barato.
+
+[MATCH]
+> Selecciona los pares
+- Bienvenue <> bienvenidas
+- bien <> bien
+- jour <> día
+- ici <> aquí
+- d'eau <> de agua
+
