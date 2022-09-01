@@ -1,0 +1,118 @@
+[DATA]
+fromLanguageName=Làm ơn cho hai vé!
+icon=b8d10ee56171817ff548af825d5065b5561d1482
+set=4|2
+
+[HEADER]
+> Two~Tickets~Please!
+~ làm~ơn~cho~hai~vé  
+
+[LINE]
+> Junior is~at  the~airport.
+~ Junior đang~ở sân~bay     
+
+[LINE]
+> He     talks~to       the~woman    at the~desk.     
+~ cậu~ấy nói~chuyện~với người~phụ~nữ ở  quầy~tiếp~đón 
+
+[LINE]
+Speaker659: Can~I~help~you?      
+~           cô~giúp~gì~được~cháu 
+
+[LINE]
+Speaker415: I    want to~buy a   ticket to  Barcelona.
+~           cháu muốn mua    một vé     tới Barcelona 
+
+[LINE]
+Speaker659: Where~are~your~parents?
+~           bố~mẹ~của~cháu~đâu     
+
+[MULTIPLE_CHOICE]
+> Junior là người lớn.
++ Không đúng.
+- Đúng vậy.
+
+[LINE]
+Speaker415: Excuse~me. I'm~not          seven years~old.
+~           ơ~hay      cháu~đâu~có~phải bảy   tuổi      
+
+[LINE]
+Speaker659: How~old~are~you?    
+~           cháu~bao~nhiêu~tuổi 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker415: I'm  eight [years~old].
+~           cháu tám    tuổi       
++ years old
+- you sold
+- you're old
+
+[LINE]
+Speaker659: A   ticket to  Barcelona is four~hundred dollars.
+~           một vé     tới Barcelona là 400          đô-la   
+
+[LINE]
+Speaker415: OK…   Where~can~I~go     for~thirteen~dollars?
+~           vâng  cháu~có~thể~đi~đâu với~13~đô-la         
+
+[MULTIPLE_CHOICE]
+> Vì sao Junior không thể tới Barcelona?
++ Cậu ấy chỉ có 13 đô-la.
+- Cậu ấy sợ đi máy bay.
+- Chuyến bay đã hết chỗ.
+
+[LINE]
+> Junior's~dad,  Eddy, runs to  the~desk.     
+~ bố~của~Junior  Eddy  chạy tới quầy~tiếp~đón 
+
+[LINE]
+Speaker414: Junior! There~you~are!    What~are~you~doing      at the~airport?
+~           Junior  thì~ra~con~ở~đấy  con~đang~làm~cái~gì…thế ở  sân~bay     
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “bài kiểm tra Toán”.
+Speaker415: I   have a   (+math~test)         (today).   I   need     (to~leave) (the~country).
+~           con có   một   bài~kiểm~tra~Toán   hôm~nay   con cần~phải  rời~khỏi   đất~nước     
+
+[LINE]
+Speaker414: OK.       How~much~is        the~ticket?
+~           được~rồi  bao~nhiêu~tiền~cho chiếc~vé   
+
+[LINE]
+Speaker415: Four~hundred dollars.
+~           400          đô-la   
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker414: How~much~are       [two~tickets]?
+~           bao~nhiêu~tiền~cho  hai~vé       
+- eight~years~old
+~ tám~tuổi       
+- math~tests       
+~ bài~kiểm~tra~Toán
++ two~tickets
+~ hai~vé     
+
+[LINE]
+Speaker415: Eight~hundred dollars.
+~           800           đô-la   
+
+[LINE]
+Speaker414: Right!    You're great~at math! Now     go~to~school. 
+~           đúng~rồi  con    rất~giỏi Toán  giờ~thì tới~trường~đi 
+
+[MULTIPLE_CHOICE]
+> Vì sao Junior lại muốn mua vé đi Barcelona?
+- Cậu ấy muốn cho bố mình một kỳ nghỉ bất ngờ.
+- Cậu ấy muốn ngắm nhìn kiến trúc của thành phố.
++ Cậu ấy không muốn phải làm bài kiểm tra Toán.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- dollars <> đô-la
+- math test <> bài kiểm tra Toán
+- talks to <> nói chuyện với
+- two tickets <> hai vé
+- eight <> tám
+
