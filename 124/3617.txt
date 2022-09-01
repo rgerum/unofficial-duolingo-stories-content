@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Préparer le petit déjeuner
+icon=6d79d91b8caad82e9f6ce44a1b458f12ac6a7a9f
+set=13|2
+
+[HEADER]
+> Making   Breakfast        
+~ préparer le~petit~déjeuner
+
+[LINE]
+> Eddy is~making                breakfast         for  Junior.
+~ Eddy est~en~train~de~préparer le~petit~déjeuner pour Junior 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker415: Hey, Dad!  [What~are~you~doing]?   
+~           hé   Papa   qu'est-ce~que~tu~fais  
++ What are you doing
+- What's your dog
+- When are you doing
+
+[LINE]
+Speaker414: Good~morning, Junior! I'm~making a  big  breakfast      for  you!
+~           bonjour       Junior  je~prépare un gros petit~déjeuner pour toi 
+
+[LINE]
+Speaker415: Breakfast?     
+~           petit~déjeuner 
+
+[LINE]
+Speaker414: Yes. I  never~have  time        to~make  breakfast         for  you.
+~           oui  je n'ai~jamais le~temps~de préparer le~petit~déjeuner pour toi 
+
+[LINE]
+Speaker414: But  today       is  different!
+~           mais aujourd'hui est différent 
+
+[MULTIPLE_CHOICE]
+> Que veut dire Eddy ?
++ Aujourd'hui il a le temps de préparer le petit déjeuner.
+- Il prépare le petit déjeuner de Junior tous les matins.
+- Il n'a pas le temps de préparer le petit déjeuner aujourd'hui.
+
+[LINE]
+Speaker415: Dad,  I  don't~want  breakfast.        
+~           Papa  je ne~veux~pas de~petit~déjeuner 
+
+[LINE]
+Speaker414: What?! But  I'm~making                eggs…    
+~           quoi   mais je~suis~en~train~de~faire des~œufs 
+
+[LINE]
+Speaker415: I  don't~want  eggs.  
+~           je ne~veux~pas d'œufs 
+
+[LINE]
+Speaker414: You love   eggs.    
+~           tu  adores les~œufs 
+
+[LINE]
+Speaker415: Yes, but— 
+~           oui  mais 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker414: [(And) (there's) (sausage)        (too)!]  
+~             et    il~y~a    de~la~saucisse   aussi   
+
+[LINE]
+Speaker414: You love   eating sausage        for  breakfast!        
+~           tu  adores manger de~la~saucisse pour le~petit~déjeuner 
+
+[LINE]
+Speaker415: That's right, but— 
+~           c'est  vrai   mais 
+
+[LINE]
+Speaker414: So    what's~wrong,            Junior?
+~           alors qu'est-ce~qui~ne~va~pas  Junior 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker415: Dad…  it's   [one~o'clock]!  
+~           Papa  il~est  treize~heures  
+- one on clock
++ one o'clock
+- on the clothes
+
+[LINE]
+> Eddy looks~at his~watch.
+~ Eddy regarde  sa~montre 
+
+[POINT_TO_PHRASE]
+> Choisis l'option  qui veut dire     « beaucoup de temps ».
+~ Choisis L’adresse qui veut terrible ~ beaucoup de temps ~ 
+Speaker414: Oh no…  (making)   (breakfast)         (takes) (+a~long~time).      
+~           oh non   préparer   le~petit~déjeuner   prend    beaucoup~de~temps  
+
+[LINE]
+Speaker415: But  now        we can~make      lunch!      
+~           mais maintenant on peut~préparer le~déjeuner 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Junior dit qu'ils devraient préparer le déjeuner ?
+- Eddy a mangé tout son petit déjeuner.
++ Eddy a mis trop de temps à faire le petit déjeuner.
+- Il a préparé le petit déjeuner pour Eddy.
+
+[MATCH]
+> Choisis les paires
+- now <> maintenant
+- What <> quoi
+- to make <> préparer
+- But <> mais
+- we <> on
+
