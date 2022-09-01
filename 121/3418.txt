@@ -1,0 +1,93 @@
+[DATA]
+fromLanguageName=Can I Have It?
+icon=a43844440848298947d074c3ba21224c4b7265c3
+set=3|3
+
+[HEADER]
+> かってくれる？                                 
+~ will~you~buy~(it~for~me)~[katte~kureru] 
+
+[LINE]
+> ジュニア           と        エディは          モール                に~います。            
+~ Junior~[junia] and~[to] Eddy~[edi~wa] (the)~mall~[mooru] are~at~[ni~imasu] 
+
+[LINE]
+Speaker505: パパ|！ぼく|、あたらしい                         ビデオゲーム                       が~ひつようなんだ！！                 
+~           Dad~[papa]  I~[boku]  new~[atarashii] (a)~video~game~[bideo-geemu] need~[ga~hitsuyou~na~n~da]  
+
+[LINE]
+Speaker504: あたらしい           ゲームは                ひつようじゃないよ。                            
+~           new~[atarashii] (a)~game~[geemu~wa] (you)~don't~need~[hitsuyou~ja~nai~yo] 
+
+[MULTIPLE_CHOICE]
+> Eddy thinks Junior does not need a new video game.
+- No, that's wrong.
++ Yes, that's right.
+
+[POINT_TO_PHRASE]
+> Choose the option that means “cool.”
+Speaker505: (おねがい|)！(この~ゲームには)                                   (+かっこいい)          (ロボット)                が~でてくるんだ！！！                  
+~            please~ [onegai]   in~this~game~[kono~geemu~ni~wa]    cool~[kakkoii]   (a)~robot~[robotto]  appears~[ga~detekuru~n~da]   
+
+[LINE]
+Speaker504: ジュニア|、ほしい                     と        ひつようは              ちがうよ|。ゲームは                                       ひつようじゃないよ|。ジュニアは                                         ゲーム                が~ほしいんだよ。                      
+~           Junior~[junia]  want~[hoshii] and~[to] need~[hitsuyou~wa] are~different~[chigau~yo]  (the)~game~[geemu~wa] (you)~don't~need~[hitsuyou~ja~nai~yo]  Junior~[junia~wa] (the)~game~[geemu] (you)~want~[ga~hoshii~n~da~yo] 
+
+[SELECT_PHRASE]
+> Select the missing word
+Speaker505: わかった|！ぼく|、この                        ゲーム          が~ほしい|。これなら                               [かってくれる]？                                 
+~           OK~[wakatta]  I~[boku]  this~[kono] game~[geemu] (I)~want~[ga~hoshii]  so~then~[kore~nara]  will~you~buy~(it~for~me)~[katte~kureru]  
++ かってくれる
+- かいてくれる
+- かえってくれる
+
+[LINE]
+Speaker504: ダメだよ|。うちに                          たくさん                 ビデオゲーム                    が~ある               でしょ？          
+~           no~[dame~da~yo]  at~home~[uchi~ni] a~lot~(of)~[takusan] video~games~[bideo-geemu] there~are~[ga~aru] right~[desho] 
+
+[LINE]
+Speaker505: そうだね|。じゃあ|、もう                                   かえらない？                          
+~           you're~right~[sou~da~ne]  then~[jaa]  now~[mou] why~don't~we~go~home~[kaeranai] 
+
+[LINE]
+Speaker504: ダメだよ|。これから                      ぼくたちは             ヴィクラムの                 いえ         に~いくんだから。                                    
+~           no~[dame~da~yo]  now~[korekara] we~[bokutachi~wa] Vikram's~[vikuramu~no] house~[ie] because~(we)~are~going~to~[ni~iku~n~da~kara] 
+
+[CONTINUATION]
+> What comes next?
+Speaker505: え～っ|！ヴィクラムの                      いえは           [つまらないよ]！                   
+~           Eh~[ee']  Vikram's~[vikuramu~no] house~[ie~wa]  is~boring~[tsumaranai~yo]  
+- きいろいよ                
+~ is~yellow~[kiiroi~yo]
++ つまらないよ                   
+~ is~boring~[tsumaranai~yo]
+- おもしろいよ                       
+~ is~interesting~[omoshiroi~yo]
+
+[ARRANGE]
+> Tap what you hear
+Speaker504: [(でも|)、(ヴィクラムの)                         (テレビは)           (おおきいんだ)。]             
+~             but~[ demo]   Vikram's~[vikuramu~no]   TV~[terebi~wa]   is~big~[ookii~n~da]   
+
+[LINE]
+Speaker504: ぼくは         サッカーの              しあい                 を~みる              ひつようが~あるんだよ。                       
+~           I~[boku~wa] soccer~[sakkaa~no] (the)~match~[shiai] to~watch~[o~miru] (I)~need~[hitsuyou~ga~aru~n~da~yo] 
+
+[LINE]
+Speaker505: パパ|、しあい                         を~みる                ひつようは~ないよ|。パパは                                       しあい                 が~みたいんだよ。                              
+~           Dad~[papa]  (the)~match~[shiai] (to)~watch~[o~miru] (you)~don't~need~[hitsuyou~wa~nai~yo]  Dad~[papa~wa] (the)~match~[shiai] (you)~want~to~watch~[ga~mitai~n~da~yo] 
+
+[MULTIPLE_CHOICE]
+> Both Eddy and Junior...
++ ...say they need something when they only want it.
+- ...play with robots.
+- ...play video games with Vikram.
+
+[MATCH]
+> Tap the pairs
+- ぼくたちは <> we [bokutachi wa]
+- ゲーム <> game [geemu]
+- ジュニア <> Junior [junia]
+- しあい <> match [shiai]
+- ゲームは <> game [geemu wa]
+
