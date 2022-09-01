@@ -1,0 +1,144 @@
+[DATA]
+fromLanguageName=The Tourist
+icon=c28cb69bf3836fd092352596d98fc29a300c70ce
+set=5|4
+
+[HEADER]
+> Il  turista
+~ the tourist
+
+[LINE]
+> Pablo sta~visitando Roma.
+~ ~     is~visiting   Rome 
+
+[LINE]
+> È~alla~ricerca~di un parco.
+~ he's~looking~for  a  park  
+
+[MULTIPLE_CHOICE]
+> Pablo is a tourist who is trying to find a park.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker172: Mi~scusi! 
+~           excuse~me 
+
+[LINE]
+Speaker172: Sto~cercando    il  Parco~della~Caffarella...
+~           I'm~looking~for the Caffarella~Park          
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker856: [Deve~prendere]    l'| autobus...
+~            you~have~to~take  the bus       
+- Devo prendere
+- Deve pendere
++ Deve prendere
+
+[LINE]
+Speaker856: C'è     una fermata qui~vicino.
+~           there's a   stop    nearby     
+
+[LINE]
+Speaker172: Grazie!   
+~           thank~you 
+
+[LINE]
+Speaker856: Prego,          non~c'è~di~che.   
+~           you're~welcome  no~problem~at~all 
+
+[LINE]
+Speaker856: Da~dove~viene?     
+~           where~are~you~from 
+
+[LINE]
+Speaker172: Madrid.
+
+[LINE]
+Speaker856: Adoro  la~Spagna!
+~           I~love Spain     
+
+[ARRANGE]
+> Tap what you hear
+Speaker856: [(E)   (sto~studiando) (lo~spagnolo)!]
+~             and   I'm~studying    Spanish       
+
+[LINE]
+Speaker172: Splendido!
+~           great     
+
+[CONTINUATION]
+> What comes next?
+Speaker856: È      [in~vacanza]? 
+~           you're  on~vacation  
++ in~vacanza 
+~ on~vacation
+- parco
+~ park 
+- Spagna
+~ Spain 
+
+[LINE]
+Speaker172: Sì,  ma  sto~anche~studiando l'italiano.
+~           yes  but I'm~also~studying   Italian    
+
+[LINE]
+Speaker856: Diamoci~del~tu.             Io sono Raffaella. E   tu? 
+~           let's~drop~the~formalities  I  am   ~          and you 
+
+[LINE]
+Speaker172: Pablo.
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker856: [Piacere~di~conoscerti]!
+~            nice~to~meet~you       
+- Piacere di conoscerli
++ Piacere di conoscerti
+- Sapere di conoscerti
+
+[LINE]
+Speaker856: Mi~piacerebbe fermarmi~a~parlare...
+~           I~would~like  to~stay~and~talk     
+
+[LINE]
+Speaker856: ... ma  adesso devo~andare. 
+~               but now    I~have~to~go 
+
+[LINE]
+Speaker856: Ho     un appuntamento con  dei~miei   amici   in un parco qui~vicino.
+~           I~have an appointment  with some~of~my friends ~  a  park  nearby     
+
+[LINE]
+Speaker172: Oh, OK.
+
+[LINE]
+Speaker856: Uhm...
+
+[LINE]
+Speaker856: Vuoi     venire  anche~tu?
+~           you~want to~come too      
+
+[LINE]
+Speaker856: Non~è    il  Parco~della~Caffarella, ma... 
+~           it's~not the Caffarella~Park         but   
+
+[LINE]
+Speaker172: Sì!  Certo!    
+~           yes  of~course 
+
+[MULTIPLE_CHOICE]
+> Pablo happily accepted...
++ … Raffaella's invitation to go to a different park.
+- … an invitation to go to Raffaella's school.
+- ... a plane ticket to Spain.
+
+[MATCH]
+> Tap the pairs
+- Mi scusi <> excuse me
+- appuntamento <> appointment
+- Deve prendere <> you have to take
+- È <> you're
+- non c'è di che <> no problem at all
+
