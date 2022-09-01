@@ -1,0 +1,147 @@
+[DATA]
+fromLanguageName=Der Sandwich-Dieb
+icon=71bc9bc5c6a5619a4f4ee9651bbb246b449bf495
+set=23|3
+
+[HEADER]
+> The~Sandwich~Thief
+~ der~Sandwich-Dieb 
+
+[LINE]
+> Eddy is  in the~kitchen at the~office where he works.   
+~ Eddy ist in der~Küche   in dem~Büro   wo    er arbeitet 
+
+[LINE]
+> He is~talking~to his    new   colleague, Elena.
+~ er redet~mit     seiner neuen Kollegin   Elena 
+
+[LINE]
+Speaker414: Ugh! It happened~again!           
+~           oh   es ist~schon~wieder~passiert 
+
+[LINE]
+Speaker125: What?
+~           was  
+
+[LINE]
+Speaker414: Someone stole~my~lunch!                
+~           jemand  hat~mein~Mittagessen~gestohlen 
+
+[MULTIPLE_CHOICE]
+> Jemand stiehlt ständig Eddys Mittagessen.
++ Ja, das ist richtig.
+- Nein, das ist falsch.
+
+[LINE]
+Speaker414: This has~happened every day for~the~past~week!     
+~           das  ist~passiert jeden Tag seit~der~letzten~Woche 
+
+[LINE]
+Speaker125: Really?   That's  strange.
+~           wirklich  das~ist seltsam 
+
+[LINE]
+Speaker414: I   think  Phil has~been~stealing~my~food.
+~           ich glaube Phil hat~mein~Essen~gestohlen  
+
+[LINE]
+Speaker125: Yeah, Phil always~looks~hungry.    
+~           ja    Phil sieht~immer~hungrig~aus 
+
+[ARRANGE]
+> Was hörst du?
+Speaker414: [(He) (stole)         (my)   (ham~sandwich)     (yesterday)!]
+~             er   hat~gestohlen   mein   Schinkensandwich   gestern     
+
+[LINE]
+Speaker125: Do~you~mean your~chicken~sandwich?
+~           meinst~du   dein~Hähnchensandwich 
+
+[LINE]
+Speaker125: You brought~a~ham~sandwich                on Tuesday. 
+~           du  hast~ein~Schinkensandwich~mitgebracht am Dienstag 
+
+[LINE]
+Speaker414: What? How   do~you~know that?
+~           was   woher weißt~du    das  
+
+[LINE]
+Speaker125: Uh… I'm     good at guessing!
+~           äh  ich~bin gut  im Raten    
+
+[MULTIPLE_CHOICE]
+> Moment! Was meint Elena damit?
++ Sie kann erraten, was Eddy zum Mittagessen mitgebracht hat.
+- Sie kann die Zukunft vorhersehen.
+- Sie macht sehr gute Schinkensandwiches.
+
+[LINE]
+Speaker414: Well, I   have a~surprise        for Phil tomorrow.
+~           gut   ich habe eine~Überraschung für Phil morgen   
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „ekelhaftes“.
+Speaker414: (I'm~going) (to~bring)   (a)   (+disgusting) fish~and~banana~sandwich!  
+~            ich~werde   mitbringen   ein    ekelhaftes  Fisch-~und~Bananensandwich 
+
+[LINE]
+Speaker125: Good  plan.
+~           guter Plan 
+
+[LINE]
+> The~next~day,    Eddy~sees  Elena again. 
+~ am~nächsten~Tag  sieht~Eddy Elena wieder 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker414: No~one  stole~my~lunch                h today]!
+~           niemand hat~mein~Mittagessen~gestohlen  heute  
+- my    fancy   watch
+~ meine schicke Uhr  
+- your~gym~shoes  
+~ deine~Turnschuhe
++ my~lunch         today
+~ mein~Mittagessen heute
+
+[LINE]
+Speaker125: But  that's  a    good thing, right?
+~           aber das~ist eine gute Sache  oder  
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker414: No,   I   only~brought         that~fish~and~banana~sandwich…  so   now   [I~have~to~eat~it]. 
+~           nein  ich habe~nur~mitgebracht das~Fisch-~und~Bananensandwich  also jetzt  muss~ich~es~essen  
+- why have you eaten it
++ I have to eat it
+- I have to read it
+
+[LINE]
+Speaker125: Well, I   have a   delicious turkey~sandwich  today.
+~           nun   ich habe ein leckeres  Truthahnsandwich heute 
+
+[LINE]
+Speaker414: Really?   You don't~usually~bring             your~lunch.      
+~           wirklich  du  bringst~normalerweise~nicht~mit dein~Mittagessen 
+
+[LINE]
+Speaker125: Well,  I'm     allergic   to    bananas.
+~           na~ja  ich~bin allergisch gegen Bananen 
+
+[LINE]
+Speaker414: Wait…   It~was~you! 
+~           Moment  du~warst~es 
+
+[MULTIPLE_CHOICE]
+> Wer hat jedes Mal Eddys Mittagessen gestohlen?
+- Phil
+- ein Truthahn
++ Elena
+
+[MATCH]
+> Wähle die Paare
+- No <> nein
+- is talking to <> redet mit
+- Someone <> jemand
+- tomorrow <> morgen
+- again <> wieder
+
