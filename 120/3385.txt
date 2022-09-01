@@ -1,0 +1,150 @@
+[DATA]
+fromLanguageName=The Game
+icon=170e9caad206d87350e17e32c18226edefea8131
+set=8|1
+
+[HEADER]
+> La  partita
+~ the game   
+
+[LINE]
+> Marcella arriva  a  casa~di~Simone.
+~ ~        arrives at Simone's~house 
+
+[LINE]
+Speaker325: Sei    pronto?
+~           you're ready  
+
+[LINE]
+Speaker325: Questa è  la  partita~più~eccitante dell'| anno!
+~           this   is the most~exciting~game    of~the year 
+
+[SELECT_PHRASE]
+> Select the missing word
+Speaker325: E   [abbiamo] i   biglietti!
+~           and  we~have  the tickets   
+- cambiamo
++ abbiamo
+- dobbiamo
+
+[LINE]
+Speaker295: Marcella...
+
+[LINE]
+Speaker295: Non~posso~venire alla   partita.
+~           I~can't~come     to~the game    
+
+[LINE]
+Speaker325: Cosa?
+~           what 
+
+[LINE]
+Speaker295: Devo~studiare.  
+~           I~have~to~study 
+
+[LINE]
+Speaker295: Ho     un esame~importantissimo domani.  
+~           I~have a  very~important~exam   tomorrow 
+
+[LINE]
+Speaker295: Devo~passare   questo esame se voglio entrare~a   medicina.      
+~           I~have~to~pass this   exam  if I~want to~get~into medical~school 
+
+[MULTIPLE_CHOICE]
+> What does Simone need to do?
+- Drive his car to medical school.
+- Pass by a hospital on the way to the game.
++ Pass an exam to go to medical school.
+
+[LINE]
+Speaker295: Mi~dispiace...
+~           I'm~sorry     
+
+[LINE]
+> Marcella si~toglie il~cappotto.
+~ ~        takes~off (her)~coat  
+
+[MULTIPLE_CHOICE]
+> Marcella...
+- ... puts on her coat.
++ ... takes off her coat.
+- ... steals Simone's coat.
+
+[LINE]
+Speaker325: OK, mi~fai            un caffè? 
+~           ~   (can)~you~make~me a  coffee 
+
+[LINE]
+Speaker295: Perché?
+~           why    
+
+[LINE]
+Speaker325: Beh,  voglio tenermi sveglia.
+~           well  I~want to~stay awake   
+
+[CONTINUATION]
+> What comes next?
+Speaker325: Passeremo     la  notte [a~studiare].
+~           we~will~spend the night  studying    
+- un caffè 
+~ a  coffee
+- il  cappotto
+~ the coat    
++ a~studiare
+~ studying  
+
+[LINE]
+Speaker295: Ma... 
+~           but   
+
+[LINE]
+Speaker325: Tu  mi~aiuti~sempre.
+~           you always~help~me  
+
+[LINE]
+Speaker325: Stavolta  tocca~a~me   aiutarti.   
+~           this~time it's~my~turn to~help~you 
+
+[LINE]
+Speaker295: Ma  è    la  partita~più~eccitante dell'| anno.
+~           but it's the most~exciting~game    of~the year 
+
+[LINE]
+Speaker325: Tu  sei più  importante di   una partita.
+~           you are more important  than a   game    
+
+[LINE]
+Speaker325: E   passerai      questo esame!
+~           and you~will~pass this   exam  
+
+[LINE]
+Speaker325: E   quando~sarai un dottore...
+~           and when~you're  a  doctor    
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "for free."
+Speaker325: ... (mi~curerai)       (+gratis),   (giusto)?
+~                you~will~cure~me    for~free    right   
+
+[LINE]
+Speaker295: Grazie, Marcella.
+~           thanks  ~        
+
+[LINE]
+Speaker325: Ora mi~fai            quel caffè? 
+~           now (can)~you~make~me that coffee 
+
+[MULTIPLE_CHOICE]
+> Marcella decided to...
+- … invite a different friend to the game.
+- … apply to medical school.
++ … skip the game and help Simone study.
+
+[MATCH]
+> Tap the pairs
+- aiutarti <> to help you
+- Devo passare <> I have to pass
+- voglio <> I want
+- Mi dispiace <> I'm sorry
+- pronto <> ready
+
