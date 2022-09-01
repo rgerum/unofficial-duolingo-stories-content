@@ -1,0 +1,108 @@
+[DATA]
+fromLanguageName=El desayuno
+icon=6d79d91b8caad82e9f6ce44a1b458f12ac6a7a9f
+set=13|2
+
+[HEADER]
+> Le petit~déjeuner
+~ el desayuno      
+
+[LINE]
+> Eddy prépare         le petit~déjeuner pour Junior.
+~ Eddy está~preparando el desayuno       para Junior 
+
+[LINE]
+Speaker415: Salut Papa ! Tu~prépares      quelque~chose ?
+~           hola  papá   estás~preparando algo           
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker414: Bonjour     Junior ! Oui, [le~petit~déjeuner] !
+~           buenos~días Junior   sí    el~desayuno         
+- le joli déjeuner
+- le petit jeune
++ le petit déjeuner
+
+[LINE]
+Speaker415: Mais pourquoi ?
+~           pero por~qué   
+
+[LINE]
+Speaker414: Parce~que je~n'ai~jamais le temps~de~le~faire   !
+~           porque    nunca~tengo    el tiempo~para~hacerlo  
+
+[LINE]
+Speaker415: Papa, je ne~veux~pas~de petit~déjeuner…
+~           papá  yo no~quiero      desayuno       
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker414: [(Je) (suis~en~train~de~préparer) (des~œufs).]     
+~             yo   estoy~preparando            (unos)~huevos   
+
+[LINE]
+Speaker415: Je ne~veux~pas d'œufs.
+~           yo no~quiero   huevos 
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker414: Mais tu~adores   [les œufs   ]!
+~           pero te~encantan  los huevos   
+- les fleurs
+~ las flores
+- les plages
+~ las playas
++ les œufs  
+~ los huevos
+
+[LINE]
+Speaker415: Oui, mais… 
+~           sí   pero  
+
+[LINE]
+Speaker414: Il~y~a du~pain et du~jus d'orange   aussi.  
+~           hay    pan     y  jugo   de~naranja también 
+
+[LINE]
+Speaker414: Et tu~adores  le jus  d'orange   !
+~           y  te~encanta el jugo de~naranja  
+
+[LINE]
+Speaker415: Oui, mais… 
+~           sí   pero  
+
+[LINE]
+Speaker414: Qu'est-ce~qu'il~y~a, Junior ?
+~           qué~pasa             Junior  
+
+[LINE]
+Speaker415: Papa, il~est midi.    
+~           papá  es     mediodía 
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "reloj".
+> (Eddy) (regarde) (sa) (+montre).
+~  Eddy   mira      su    reloj   
+
+[LINE]
+Speaker414: Ah… Préparer le petit~déjeuner, ça  prend beaucoup~de temps  !
+~           ah  preparar el desayuno        eso toma  mucho       tiempo  
+
+[LINE]
+Speaker415: Mais on~peut préparer le déjeuner maintenant !
+~           pero podemos preparar el almuerzo ahora       
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Eddy puede hacer el almuerzo ahora?
++ Se demoró mucho tiempo haciendo el desayuno.
+- Se comió todo el desayuno de Junior.
+- Junior le hizo el desayuno a él.
+
+[MATCH]
+> Selecciona los pares
+- il est <> es
+- des œufs <> huevos
+- Salut <> hola
+- déjeuner <> almuerzo
+- Oui <> sí
+
