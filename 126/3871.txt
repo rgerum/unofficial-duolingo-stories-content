@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=Fazendo café da manhã
+icon=6d79d91b8caad82e9f6ce44a1b458f12ac6a7a9f
+set=16|4
+
+[HEADER]
+> Making  Breakfast    
+~ fazendo café~da~manhã
+
+[LINE]
+> Eddy is~making    breakfast     for  Junior.
+~ Eddy está~fazendo café~da~manhã para Junior 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker415: Hey, Dad!   [What~are~you~doing]?     
+~           ei   papai   o~que~você~está~fazendo  
+- When are you doing
+- What's your dog
++ What are you doing
+
+[LINE]
+Speaker414: Good~morning, Junior! I'm~making       a  big    breakfast     for  you! 
+~           bom~dia       Junior  eu~estou~fazendo um grande café~da~manhã para você 
+
+[LINE]
+Speaker415: Breakfast?    
+~           café~da~manhã 
+
+[LINE]
+Speaker414: Yes. I  never have~time      to~make breakfast     for  you. 
+~           sim  eu nunca tenho~tempo~de fazer   café~da~manhã para você 
+
+[LINE]
+Speaker414: But today is different!
+~           mas hoje  é  diferente 
+
+[MULTIPLE_CHOICE]
+> Espera… O que o Eddy quer dizer?
+- Ele faz o café da manhã do Junior todo dia.
+- Ele não está com tempo para fazer o café da manhã hoje.
++ Ele está com tempo para fazer o café da manhã hoje.
+
+[LINE]
+Speaker415: Dad,   I  don't~want breakfast.    
+~           papai  eu não~quero  café~da~manhã 
+
+[LINE]
+Speaker414: What?!  But I'm~making       eggs…
+~           o~quê   mas eu~estou~fazendo ovos 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker415: [(I)  (don't~want) (eggs).]
+~             eu   não~quero    ovos   
+
+[LINE]
+Speaker414: You  love eggs.
+~           você ama  ovos 
+
+[LINE]
+Speaker415: Yes, but—
+~           sim  mas 
+
+[LINE]
+Speaker414: And there's sausage  too!   
+~           e   há      salsicha também 
+
+[LINE]
+Speaker414: You  love eating sausage  for~breakfast!   
+~           você ama  comer  salsicha no~café~da~manhã 
+
+[LINE]
+Speaker415: That's~right, but—
+~           é~verdade     mas 
+
+[LINE]
+Speaker414: So    what's~wrong,      Junior?
+~           então qual~é~o~problema  Junior 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker415: Dad…   it's [one~o'clock]!
+~           papai  é     uma~hora     
+- on the clothes
+- one on clock
++ one o'clock
+
+[LINE]
+> Eddy looks~at  his~watch.     
+~ Eddy olha~para o~relógio~dele 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "muito tempo".
+Speaker414: (Oh) no…  (making~breakfast)      (takes) (+a~long~time).
+~            ah  não   fazer~o~café~da~manhã   leva     muito~tempo  
+
+[LINE]
+Speaker415: But now   we  can~make      lunch!   
+~           mas agora nós podemos~fazer o~almoço 
+
+[MULTIPLE_CHOICE]
+> Por que o Junior diz que eles deveriam fazer o almoço?
+- O Junior fez o café da manhã para o Eddy.
++ O Eddy levou tempo demais fazendo o café da manhã.
+- O Eddy comeu todo o café da manhã do Junior.
+
+[MATCH]
+> Toque nos pares
+- eating <> comer
+- love <> ama
+- What <> o quê
+- So <> então
+- we <> nós
+
