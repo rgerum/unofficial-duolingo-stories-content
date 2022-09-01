@@ -1,0 +1,189 @@
+[DATA]
+fromLanguageName=Thief!
+icon=5fbef3515e1c05aae2179cc3a6bf95cbd695dd24
+set=64|1
+
+[HEADER]
+> Au~voleur !
+~ thief      
+
+[LINE]
+> Eddy et  Junior sont au     zoo. Ils  regardent      les singes.  Tout~à~coup,     Eddy entend~Junior~crier.
+~ Eddy and Junior are  at~the zoo  they are~looking~at the monkeys  all~of~a~sudden  Eddy hears~Junior~yell   
+
+[LINE]
+Speaker415: Arrête ! Au~voleur !
+~           stop     thief      
+
+[LINE]
+Speaker414: Junior, qu'est-ce~qu'il~y~a ?
+~           Junior  what's~going~on      
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: Ce   singe  a~volé les~bonbons que  [j'avais~dans~ma~veste] !
+~           this monkey stole  the~candy   that  I~had~in~my~jacket      
++ j'avais dans ma veste
+- j'allais dire la veste
+- j'avais à Bucarest
+
+[LINE]
+Speaker414: Ha ! ha~| ! ha ! Tu  as   une grande imagination ! Mais aucun~singe~n'a~pris tes~bonbons.
+~           ha   ha     ha   you have a   big    imagination   but  no~monkey~took       your~candy  
+
+[LINE]
+Speaker415: Si  ! Il les~a~pris ! Regarde-le  !
+~           yes   he took~them    look~at~him  
+
+[ARRANGE]
+> Tap what you hear
+> [(Le)  (singe)  (sourit) (à)  (Eddy).]
+~   the   monkey   smiles   at   Eddy   
+
+[LINE]
+Speaker414: Il a~l'air heureux.
+~           he looks   happy   
+
+[LINE]
+Speaker415: Oui, il est heureux parce~qu'il a~volé mes~bonbons.
+~           yes  he is  happy   because~he  stole  my~candy    
+
+[POINT_TO_PHRASE]
+> Choisis l'option   qui  veut~dire « wrapper ».
+~ choose  the~option that means     ~ ~       ~ 
+> Eddy regarde  (son~téléphone) (un~moment).      Le  singe  jette  un (+emballage~de~bonbon) sur Junior. Junior (le~ramasse). 
+~ Eddy looks~at  his~phone       (for)~a~moment   the monkey throws a    candy~wrapper        on  Junior  Junior  picks~it~up  
+
+[LINE]
+Speaker414: Ha ! Si le  singe  a~pris tes~bonbons, pourquoi c'est toi qui as   l'emballage ?
+~           ~    if the monkey took   your~candy   why      it's  you who have the~wrapper  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: C'est le  singe  qui l'a~jeté ! Il veut  [que~j'aie~des~problèmes].
+~           it's  the monkey who threw~it   he wants  me~to~get~in~trouble     
+- que j'aie des poèmes
++ que j'aie des problèmes
+- que j'aime mes problèmes
+
+[LINE]
+> Le  gardien~du~zoo vient vers    eux. 
+~ the zookeeper      comes towards them 
+
+[LINE]
+Speaker1814: Ce   singe  te~dérange       ?
+~            this monkey is~bothering~you  
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker415: Oui ! Il a~volé [mes~bonbons ]!
+~           yes   he stole   my~candy      
++ mes~bonbons
+~ my~candy   
+- ce   singe 
+~ this monkey
+- des  problèmes
+~ some problems 
+
+[LINE]
+Speaker1814: Ah, oui. Il fait ça   souvent.
+~            ah  yes  he does that often   
+
+[LINE]
+Speaker414: Ah~bon ?
+~           really  
+
+[LINE]
+Speaker1814: Oui, il a~l'air mignon, mais… Aïe  !
+~            yes  he looks   cute    but   ouch  
+
+[LINE]
+> Le  singe  lance  des~pierres sur~la~tête~du~gardien~du~zoo, et  se~met~à~rire.  
+~ the monkey throws rocks       at~the~zookeeper's~head        and starts~laughing 
+
+[LINE]
+Speaker1814: C'est le  pire  singe  qu'on   ait~jamais~eu dans ce   zoo.
+~            it's  the worst monkey that~we have~ever~had in   this zoo 
+
+[MULTIPLE_CHOICE]
+> Il semble~probable que… 
+~ he seems~likely    that 
++ … le  singe  ait~volé les~bonbons~de~Junior.
+~   the monkey stole    Junior's~candy        
+- … Junior ait~jeté des  pierres sur le  gardien. 
+~   Junior threw    some stones  on  the guardian 
+- … Junior ait~mangé tous ses bonbons.
+~   Junior ate       all  his candy   
+
+[LINE]
+Speaker415: Je le~savais !
+~           I  knew~it    
+
+[LINE]
+Speaker1814: Je déteste ce   singe.  
+~            I  hate    this monkey  
+
+[ARRANGE]
+> Tap what you hear
+Speaker1814: [(Il) (a~ruiné) (mon) (chapeau~préféré).]
+~              he   ruined    my    favorite~hat      
+
+[LINE]
+> Le  gardien~du~zoo et  le  singe  se~regardent.       Le  singe  vole   le  chapeau~du~gardien et  part~en~courant.
+~ the zookeeper      and the monkey look~at~each~other  the monkey steals the zookeeper's~hat    and runs~away       
+
+[LINE]
+Speaker1814: Mon chapeau ! Pas encore !
+~            my  hat       not again   
+
+[LINE]
+> Le~gardien court après le  singe. 
+~ the~keeper runs  after the monkey 
+
+[LINE]
+Speaker415: Tu  vois que  je disais      la  vérité, Papa ?
+~           you see  that I  was~telling the truth   dad   
+
+[LINE]
+Speaker414: Je suis~désolé~de~ne~pas~t'avoir~cru, Junior. Je vais~t'acheter      d'autres~bonbons.
+~           I  am~sorry~for~not~believing~you     Junior  I  am~going~to~buy~you some~other~candy 
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+> Eddy cherche   [son~portefeuille].
+~ Eddy looks~for  his~wallet        
+- ce   zoo
+~ this zoo
+- le  singe 
+~ the monkey
++ son~portefeuille
+~ his~wallet      
+
+[LINE]
+Speaker414: C'est étrange… Je ne~trouve~pas mon portefeuille.
+~           it's  strange  I  can't~find    my  wallet       
+
+[LINE]
+Speaker415: Je pense~savoir qui l'a~pris…
+~           I  think~I~know who took~it  
+
+[MULTIPLE_CHOICE]
+> Pourquoi Eddy~ne~peut-il~pas trouver   son portefeuille ?
+~ why      can't~Eddy          (to)~find his wallet        
+- Le  gardien  l'a~mis dans son chapeau.
+~ the guardian put~it  in   his hat     
++ Le  singe  l'a~volé.
+~ the monkey stole~it 
+- Junior l'a~pris pour        acheter  des~bonbons.
+~ Junior take~it  in~order~to (to)~buy candy       
+
+[MATCH]
+> Tap the pairs
+- imagination <> imagination
+- vers <> towards
+- au <> at the
+- chapeau <> hat
+- l'emballage <> the wrapper
+
