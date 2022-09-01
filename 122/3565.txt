@@ -1,0 +1,157 @@
+[DATA]
+fromLanguageName=Vogelsitting
+icon=bec6ac06369ced77777ad5151e3a385213c413b8
+set=32|4
+
+[HEADER]
+> Bird~Sitting
+~ Vogelsitting
+
+[LINE]
+> Lin is  on~the phone   with her   friend, Garrett.
+~ Lin ist am     Telefon mit  ihrem Freund  Garrett 
+
+[LINE]
+Speaker508: Hi, Garrett!
+~           hi  Garrett 
+
+[LINE]
+Speaker508: Are~you~coming home       tomorrow or   on Tuesday? 
+~           kommst~du      nach~Hause morgen   oder am Dienstag 
+
+[LINE]
+Speaker7: Tomorrow.
+~         morgen   
+
+[LINE]
+Speaker7: Thank~you for~taking~care    of  my   house and my     bird! 
+~         danke     (dass)~du~aufpasst auf mein Haus  und meinen Vogel 
+
+[MULTIPLE_CHOICE]
+> Lin hat auf den Vogel ihres Freundes aufgepasst, als er weg war.
++ Ja, das ist richtig.
+- Nein, das ist falsch.
+
+[LINE]
+Speaker508: You're~welcome.
+~           keine~Ursache  
+
+[LINE]
+Speaker7: Is  everything OK at~the house?
+~         ist alles      OK im     Haus  
+
+[LINE]
+Speaker508: Well,  I   have bad       news.       
+~           na~ja  ich habe schlechte Nachrichten 
+
+[LINE]
+Speaker508: Your bird  flew~out~of~the~window.      
+~           dein Vogel ist~aus~dem~Fenster~geflogen 
+
+[LINE]
+Speaker7: What?!
+~         was   
+
+[LINE]
+Speaker508: The cage~door was open. 
+~           die Käfigtür  war offen 
+
+[MULTIPLE_CHOICE]
+> Was war offen?
+- die Dusche
++ der Käfig
+- der Kühlschrank
+
+[LINE]
+Speaker7: How did~that~happen? 
+~         wie ist~das~passiert 
+
+[ARRANGE]
+> Was hörst du?
+Speaker508: [(It)  (opened)          (when) (the~cage)  (fell).]                
+~             sie   ist~aufgegangen   als    der~Käfig   heruntergefallen~ist   
+
+[LINE]
+Speaker7: What?! Why   did~it~fall?            
+~         was    warum ist~er~heruntergefallen 
+
+[LINE]
+Speaker508: Well,  your bed  fell~through~the~floor          and hit~the~cage.           
+~           na~ja  dein Bett ist~durch~den~Fußboden~gefallen und hat~den~Käfig~getroffen 
+
+[LINE]
+Speaker7: My   bed  fell~through~the~floor?!         
+~         mein Bett ist~durch~den~Fußboden~gefallen  
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker7: [How~did~that~happen]? 
+~          wie~ist~das~passiert  
+- Who do they have then
++ How did that happen
+- How did that open
+
+[LINE]
+Speaker508: Well,  there~was a~lot~of   water  on  the floor.   
+~           na~ja  es~war    eine~Menge Wasser auf dem Fußboden 
+
+[LINE]
+Speaker7: Water?  Why   was there so much water? 
+~         Wasser  warum war da    so viel Wasser 
+
+[LINE]
+Speaker508: Well,  I   used~water          to~stop~the~fire.       
+~           na~ja  ich habe~Wasser~benutzt um~das~Feuer~zu~löschen 
+
+[LINE]
+Speaker7: You started~a~fire?!        
+~         du  hast~ein~Feuer~gemacht  
+
+[LINE]
+Speaker508: But  only on~the second  floor.
+~           aber nur  im     zweiten Stock 
+
+[LINE]
+Speaker7: What did~you~do?!   
+~         was  hast~du~getan  
+
+[LINE]
+Speaker508: I   think  it was because of~the meditation~candles.
+~           ich glaube es war wegen   der    Meditationskerzen  
+
+[MULTIPLE_CHOICE]
+> Oh je! Was hat das Feuer verursacht?
+- die Kerzen auf Lins Geburtstagstorte
+- ganz viele Vögel
++ Lins Meditationskerzen
+
+[LINE]
+Speaker7: Meditation~candles?
+~         Meditationskerzen  
+
+[LINE]
+Speaker508: Oh yeah, I   started         taking~meditation~classes!   
+~           oh ja    ich habe~angefangen Meditationskurse~zu~besuchen 
+
+[LINE]
+Speaker508: Anyway,         I   can  take~care~of~your~house next     month too…      
+~           wie~auch~immer  ich kann auf~dein~Haus~aufpassen nächsten Monat ebenfalls 
+
+[LINE]
+Speaker508: Hello? Garrett, are  you still there?
+~           hallo  Garrett  bist du  noch  da    
+
+[MULTIPLE_CHOICE]
+> Warum hat Garrett aufgelegt?
+- Er geht zu Lins Meditationskurs.
+- Er ist wütend, weil Lin seinen Vogel gestohlen hat.
++ Er ist wütend, weil Lin sein Haus zerstört hat.
+
+[MATCH]
+> Wähle die Paare
+- and <> und
+- Hi <> hi
+- Oh <> oh
+- second <> zweiten
+- Well <> na ja
+
