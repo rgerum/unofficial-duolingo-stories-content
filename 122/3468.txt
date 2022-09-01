@@ -1,0 +1,105 @@
+[DATA]
+fromLanguageName=Schmutzige Wohnung
+icon=0e6ab8c3a4e3224cb700e8daeac0038f7f0e929e
+set=8|3
+
+[HEADER]
+> Dirty      Apartment
+~ schmutzige Wohnung  
+
+[LINE]
+> Bea goes to  her~friend~Sarah's~apartment.
+~ Bea geht zur Wohnung~ihrer~Freundin~Sarah 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker507: Hi, Sarah, [how~are~you]?   
+~           hi  Sarah   wie~geht's~dir  
+- how were two
+- now are you
++ how are you
+
+[LINE]
+Speaker175: I'm        terrible! 
+~           mir~geht's furchtbar 
+
+[LINE]
+Speaker507: Oh, no.   Why?  
+~           oh  nein  warum 
+
+[LINE]
+Speaker175: My    new  roommate      and I   always~argue~a~lot.          
+~           meine neue Mitbewohnerin und ich streiten~uns~immer~sehr~viel 
+
+[MULTIPLE_CHOICE]
+> Sarah geht es furchtbar, weil …
+- … sie allergisch gegen die Katze von ihrer Mitbewohnerin ist.
+- … sie letzte Nacht zu lange gefeiert hat.
++ … sie sich ständig mit ihrer Mitbewohnerin streitet.
+
+[LINE]
+Speaker507: I'm     not   surprised!  This  kitchen is  very dirty.    
+~           ich~bin nicht überrascht  diese Küche   ist sehr schmutzig 
+
+[LINE]
+Speaker175: Ugh, I   know.
+~           uff  ich weiß 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker507: And there's old   cheese [on  that table].
+~           und da~ist  alter Käse    auf dem  Tisch  
+- at~the supermarket
+~ im     Supermarkt 
+- on  your   head
+~ auf deinem Kopf
++ on  that table
+~ auf dem  Tisch
+
+[LINE]
+Speaker175: Yes. Yuck! 
+~           ja   igitt 
+
+[LINE]
+Speaker507: And there are  dirty      clothes on  this   chair!
+~           und da    sind schmutzige Kleider auf diesem Stuhl 
+
+[LINE]
+Speaker507: Wait…   this is  your shirt.
+~           Moment  das  ist dein Hemd  
+
+[LINE]
+Speaker175: Yes.
+~           ja  
+
+[ARRANGE]
+> Was hörst du?
+Speaker507: [(These) (are)  (all)   (your)  (clothes)!]
+~             das     sind   alles   deine   Kleider   
+
+[LINE]
+Speaker507: Is  that your~old~cheese,~too?!
+~           ist das  auch~dein~alter~Käse  
+
+[LINE]
+Speaker175: Yes! I   never~clean, and my    roommate      always~complains!    
+~           ja   ich putze~nie    und meine Mitbewohnerin beschwert~sich~immer 
+
+[LINE]
+Speaker175: She's   terrible! 
+~           sie~ist furchtbar 
+
+[MULTIPLE_CHOICE]
+> Aha! Worüber streiten sich Sarah und ihre Mitbewohnerin so oft?
+- Sarahs trägt ständig die Kleidung ihrer Mitbewohnerin.
+- Bea isst sehr gerne alten Käse.
++ Sarah macht ständig Unordnung und räumt nie auf.
+
+[MATCH]
+> Wähle die Paare
+- know <> weiß
+- chair <> Stuhl
+- clothes <> Kleider
+- cheese <> Käse
+- how are you <> wie geht's dir
+
