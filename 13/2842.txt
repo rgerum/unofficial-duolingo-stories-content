@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=The Art Homework
+icon=81f7ed2bd4ece4842874e1ea985c979bd6457de6
+set=16|1
+
+[HEADER]
+> Le~devoir~d'art
+~ art~homework   
+
+[LINE]
+> Lily et  Zari sont au~cours~d'art~d'Oscar.
+~ Lily and Zari are  in~Oscar's~art~class   
+
+[LINE]
+Speaker592: Lily, je~peux~voir ton  devoir   ?
+~           Lily  can~I~see    your homework  
+
+[LINE]
+Speaker416: Je… Je ne~veux~pas vous~le~montrer.  
+~           I   I  don't~want  to~show~it~to~you 
+
+[LINE]
+Speaker592: Pardon    ?
+~           excuse~me  
+
+[LINE]
+Speaker416: J'ai~honte. 
+~           I'm~ashamed 
+
+[MULTIPLE_CHOICE]
+> Lily is too embarrassed to show her homework.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker592: Mais pourquoi ?
+~           but  why       
+
+[CONTINUATION]
+> What comes next?
+Speaker416: Parce~que je pense que  mon travail [n'est~pas bon]. 
+~           because   I  think that my  work     isn't     good  
+- est dans un musée 
+~ is  in   a  museum
++ n'est~pas bon 
+~ isn't     good
+- est magnifique 
+~ is  magnificent
+
+[LINE]
+Speaker418: Lily, tu  es  la  meilleure de~la~classe !
+~           Lily  you are the best      in~the~class  
+
+[LINE]
+Speaker416: Zari, arrête !
+~           Zari  stop    
+
+[MULTIPLE_CHOICE]
+> Lily wants Zari to stop saying…
+- …she ruined Zari's homework.
+- …she doesn't like to paint.
++ …she's the best artist in the class.
+
+[LINE]
+Speaker592: Lily, tu  es  la  meilleure de~la~classe.
+~           Lily  you are the best      in~the~class 
+
+[LINE]
+Speaker416: S'il~vous~plaît, je ne~veux~pas…    
+~           please           I  don't~want~(to) 
+
+[ARRANGE]
+> Tap what you hear
+> [(Oscar) (prend) (le~devoir~de~Lily).]
+~   Oscar   takes   Lily's~homework     
+
+[LINE]
+Speaker592: C'est… C'est… beau.     
+~           it's   it's   beautiful 
+
+[LINE]
+Speaker416: Vous aimez~bien ?
+~           you  like~(it)   
+
+[LINE]
+Speaker592: J'adore     ! Le  blanc sur blanc sur blanc…
+~           I~love~(it)   the white on  white on  white 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker592: Quand je le~regarde, je me~sens triste… [mais~heureux~aussi].
+~           when  I  look~at~it  I  feel    sad      but~happy~too       
+- oui un peu merci
++ mais heureux aussi
+- c'est dangereux ici
+
+[LINE]
+Speaker592: Super   travail, Lily.
+~           awesome job      Lily 
+
+[LINE]
+> Oscar part.   Zari regarde  le~devoir~de~Lily.
+~ Oscar leaves  Zari looks~at Lily's~homework   
+
+[LINE]
+Speaker418: Mais c'est tout blanc, Lily.
+~           but  it's  all  white  Lily 
+
+[LINE]
+Speaker416: Je sais.
+~           I  know 
+
+[LINE]
+Speaker418: Tu  ne~fais~jamais tes~devoirs.  
+~           you never~do       your~homework 
+
+[MULTIPLE_CHOICE]
+> Why is Lily's painting all white?
+- She is making an artistic statement.
+- White is her favorite color.
++ She forgot to do her homework.
+
+[MATCH]
+> Tap the pairs
+- le regarde <> look at it
+- Parce que <> because
+- Zari <> Zari
+- regarde <> looks at
+- mais heureux aussi <> but happy too
+
