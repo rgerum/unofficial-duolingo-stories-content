@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=Ich habe Sie gesehen
+icon=5efd5d3e85a10ad5c37e72a842288f5c3d967300
+set=27|4
+
+[HEADER]
+> I   Saw~You         
+~ ich habe~Sie~gesehen
+
+[LINE]
+> Lily is~working in a     clothes~store.      
+~ Lily arbeitet   in einem Bekleidungsgeschäft 
+
+[LINE]
+> She stops  a    well-dressed    woman leaving~the~store.        
+~ sie stoppt eine      gekleidete Frau  die~das~Geschäft~verlässt 
+
+[LINE]
+Speaker416: Ma'am,      did   you~just   put      that~sweater in your purse?     
+~           werte~Frau  haben Sie~gerade gesteckt den~Pullover in Ihre Handtasche 
+
+[LINE]
+Speaker528: My    purse?      No.  
+~           meine Handtasche  nein 
+
+[LINE]
+Speaker416: Yes, you~did.   I   saw~you.         
+~           ja   haben~Sie  ich habe~Sie~gesehen 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker528: Oh, [this~sweater]?   
+~           oh   dieser~Pullover  
+- this weather
++ this sweater
+- it’s better
+
+[LINE]
+Speaker528: I   was~going to~pay~for~it, but  I   forgot.            I'm     old. My   memory     is  bad.     
+~           ich wollte    ihn~bezahlen   aber ich habe~es~vergessen  ich~bin alt  mein Gedächtnis ist schlecht 
+
+[MULTIPLE_CHOICE]
+> Warum hat die Frau ihrer Aussage nach nicht für den Pullover bezahlt?
+- Der Pullover ist in der falschen Größe.
++ Sie hat ein schlechtes Gedächtnis.
+- Sie will den Pullover nicht.
+
+[LINE]
+Speaker416: Wait,   is  that a   scarf in your  purse      too?      
+~           Moment  ist das  ein Schal in Ihrer Handtasche auch~noch 
+
+[LINE]
+Speaker528: Oops!
+~           ups  
+
+[LINE]
+Speaker416: Can    you please take~everything    out~of your  purse?     
+~           können Sie bitte  alles~herausnehmen aus    Ihrer Handtasche 
+
+[LINE]
+> The woman takes a     scarf, a     belt,   and a    watch out of~the purse.     
+~ die Frau  nimmt einen Schal  einen Gürtel  und eine Uhr   aus der    Handtasche 
+
+[LINE]
+Speaker416: Were  you trying   to~steal   all~of these~things?!
+~           haben Sie versucht zu~stehlen all    diese~Sachen  
+
+[LINE]
+Speaker528: Yes, I~was!    I   love  stealing! It's   exciting! 
+~           ja   habe~ich  ich liebe Stehlen   es~ist aufregend 
+
+[POINT_TO_PHRASE]
+> Klicke auf die Option mit der Bedeutung „wird langweilig“.
+Speaker528: I   live  (alone).  I   (+get~bored).       One   day,   (you'll)     (understand).
+~           ich wohne  allein   mir   wird~langweilig   eines Tages   werden~Sie   verstehen   
+
+[LINE]
+Speaker528: I   can  leave, right?    I'm     a    nice  old  woman.
+~           ich kann gehen  stimmt's  ich~bin eine nette alte Frau  
+
+[LINE]
+Speaker416: Are  you nice?
+~           sind Sie nett 
+
+[LINE]
+Speaker528: Not   really.   But  you could   let~me~leave      because you're~a~nice~young~woman.     
+~           nicht wirklich  aber Sie könnten mich~gehen~lassen weil    Sie~eine~nette~junge~Frau~sind 
+
+[MULTIPLE_CHOICE]
+> Warum sagt die Frau zu Lily, dass sie nett ist?
+- Sie will, dass Lily mit ihr einkaufen geht.
++ Sie will, dass Lily sie gehen lässt.
+- Sie denkt, dass Lily ihre Enkelin ist.
+
+[LINE]
+Speaker416: OK. You can    leave. But  don't~tell~anyone   that I'm~nice.    
+~           OK  Sie können gehen  aber sagen~Sie~niemandem dass ich~nett~bin 
+
+[LINE]
+Speaker528: OK! Thanks! Goodbye!        
+~           OK  danke   auf~Wiedersehen 
+
+[LINE]
+> The old  woman takes her  purse      and leaves.
+~ die alte Frau  nimmt ihre Handtasche und geht   
+
+[LINE]
+> Lily's boss runs  into the store.   
+~ Lilys  Chef rennt in   das Geschäft 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker113: Did   you let~that~woman~leave e]?
+~           haben Sie die~Frau~gehen~lassen   
++ leave
+~ gehen
+- live~alone  
+~ allein~leben
+- in your  purse     
+~ in Ihrer Handtasche
+
+[LINE]
+Speaker416: Of~course I~did.        Why   not?  
+~           natürlich habe~ich~das  warum nicht 
+
+[LINE]
+Speaker113: She just~stole           a    $300          purse!     
+~           sie hat~gerade~gestohlen eine 300~$~(teure) Handtasche 
+
+[MULTIPLE_CHOICE]
+> Oh-oh! Warum ist Lilys Chef so wütend?
+- Lily hat eine teure Handtasche gestohlen.
++ Die Frau hat eine teure Handtasche gestohlen.
+- Lily hat der Frau gesagt, dass sie Sachen stehlen soll.
+
+[MATCH]
+> Wähle die Paare
+- stealing <> Stehlen
+- in <> in
+- alone <> allein
+- Why <> warum
+- boss <> Chef
+
