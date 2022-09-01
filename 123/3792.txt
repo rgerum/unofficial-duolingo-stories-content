@@ -1,0 +1,107 @@
+[DATA]
+fromLanguageName=Las plantas de Vikram
+icon=c3349839a5c44c2f209b5fc0993e4567e294246a
+set=14|3
+
+[HEADER]
+> Les plantes de Vikram
+~ las plantas de Vikram
+
+[LINE]
+> Eddy va   chercher son voisin Vikram à~l'aéroport. 
+~ Eddy va~a buscar~a su  vecino Vikram al~aeropuerto 
+
+[LINE]
+Speaker593: Salut, Eddy ! Merci~de    me~conduire chez~moi.
+~           hola   Eddy   gracias~por llevarme    a~casa   
+
+[LINE]
+Speaker414: C'est~normal ! Mais j'ai     quelque~chose à~te~dire.  
+~           de~nada        pero yo~tengo algo          que~decirte 
+
+[LINE]
+Speaker593: Ah oui ?
+~           ah sí   
+
+[LINE]
+Speaker414: J'ai~arrosé tes plantes.
+~           yo~regué    tus plantas 
+
+[MULTIPLE_CHOICE]
+> ¿Qué hizo Eddy mientras VIkram no estaba?
+- Él durmió en el aeropuerto.
++ Él regó las plantas de Vikram.
+- Él compró plantas para la casa de Vikram.
+
+[LINE]
+Speaker593: Merci   !
+~           gracias  
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "muertas".
+Speaker414: (Mais) (toutes) tes (plantes) sont  (+mortes). 
+~            pero   todas   tus  plantas  están   muertas  
+
+[LINE]
+Speaker593: Quoi !? J'étais   en~voyage seulement une semaine !
+~           qué     yo~estuve de~viaje  solamente una semana   
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+> [(Ils~arrivent) (chez~Vikram)         (et) (regardent) (les~plantes).]
+~   ellos~llegan   a~la~casa~de~Vikram   y    miran       las~plantas   
+
+[LINE]
+Speaker414: Cette plante était verte. Maintenant, elle~est marron.
+~           esta  planta era   verde  ahora       está     marrón 
+
+[LINE]
+Speaker593: Oui, cette plante est  morte. 
+~           sí   esta  planta está muerta 
+
+[LINE]
+Speaker414: Et cette plante était rouge, et maintenant, elle~est marron aussi.  
+~           y  esta  planta era   roja   y  ahora       está     marrón también 
+
+[LINE]
+Speaker593: Eddy, comment mes~plantes~sont-elles~mortes ?!
+~           Eddy  cómo    se~murieron~mis~plantas         
+
+[LINE]
+Speaker414: Je~ne~sais~pas. J'ai~arrosé tes plantes trois fois  par~jour !
+~           no~sé           yo~regué    tus plantas tres  veces al~día    
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker593: [Trois~fois~par~jour] ?! Mais j'ai~dit trois fois  par~semaine !
+~            tres~veces~al~día       pero yo~dije  tres  veces a~la~semana  
++ Trois fois par jour
+- Trois fois au four
+- Treize fois par jour
+
+[LINE]
+Speaker414: Oh. Désolé.   
+~           ah  lo~siento 
+
+[LINE]
+Speaker414: Mais regarde ! Cette plante n'est~pas marron, elle~est verte !
+~           pero mira      esta  planta no~está   marrón  está     verde  
+
+[LINE]
+Speaker593: Eddy, c'est   une plante en~plastique.
+~           Eddy  esta~es una planta de~plástico  
+
+[MULTIPLE_CHOICE]
+> ¡Ay, no! ¿Qué fue lo que Eddy hizo mal?
+- Él no regó las plantas lo suficiente.
++ Él regó demasiado las plantas.
+- A él se le olvidó cuidar las plantas de Vikram.
+
+[MATCH]
+> Selecciona los pares
+- toutes <> todas
+- Maintenant <> ahora
+- son <> su
+- regarde <> mira
+- Ah <> ah
+
