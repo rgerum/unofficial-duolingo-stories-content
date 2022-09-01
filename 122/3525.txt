@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=Großmutters Rezept
+icon=f846bda2ef7cfcb2a7b491fdab26521cbd7b480d
+set=22|4
+
+[HEADER]
+> Grandmother's Recipe
+~ Großmutters   Rezept
+
+[LINE]
+> Vikram walks into Eddy's apartment.
+~ Vikram geht  in   Eddys  Wohnung   
+
+[LINE]
+Speaker414: Hi Vikram, where's Priti?
+~           hi Vikram  wo~ist  Priti 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker593: She's   at~work,        but  [she'll~be~here~soon].    
+~           sie~ist auf~der~Arbeit  aber  sie~wird~bald~hier~sein  
++ she'll be here soon
+- she'll be near the moon
+- we'll be weird soon
+
+[LINE]
+Speaker593: Thank~you for~inviting~us~to~dinner.       
+~           danke     für~die~Einladung~zum~Abendessen 
+
+[LINE]
+Speaker414: You're~welcome! You and Priti cook  dinner     for me   often.
+~           gern~geschehen  du  und Priti kocht Abendessen für mich oft   
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker414: So   now~I'm~going  g to~cook~for~you]!
+~           also werde~ich~jetzt  für~euch~kochen  
+- I'm~going to~the~park
+~ gehe~ich  in~den~Park
++ I'm~going to~cook~for~you
+~ werde~ich für~euch~kochen
+- we're~going to~take~a~nap        
+~ werden~wir  ein~Nickerchen~machen
+
+[LINE]
+Speaker593: You're~cooking?! Uh… it smells… interesting.
+~           du~kochst        äh  es riecht  interessant 
+
+[LINE]
+Speaker414: Thanks! I'm~making Priti's favorite~meal.   
+~           danke   ich~mache  Pritis  Lieblingsgericht 
+
+[LINE]
+Speaker593: Really?   It's   very difficult to make…  
+~           wirklich  es~ist sehr schwierig zu machen 
+
+[MULTIPLE_CHOICE]
+> Vikram scheint besorgt zu sein. Warum?
+- Er hat bemerkt, dass Eddys Küche brennt.
++ Er denkt, dass Eddy das Essen nicht richtig kocht.
+- Pritis Lieblingsessen ist sehr einfach zu kochen.
+
+[LINE]
+> Vikram looks  at  the~food  on  the~stove.
+~ Vikram schaut auf das~Essen auf dem~Herd  
+
+[LINE]
+Speaker593: Which  kind~of~rice did  you use?      
+~           welche Reissorte    hast du  verwendet 
+
+[ARRANGE]
+> Was hörst du?
+Speaker414: [(There~are) (different)    (kinds~of~rice)?]
+~             es~gibt     verschiedene   Reissorten      
+
+[LINE]
+> Vikram tastes the~food. 
+~ Vikram kostet das~Essen 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „seltsam“.
+Speaker593: Oh no.   (This) (tastes)…   a   (little) (+strange).
+~           oh nein   das    schmeckt   ein  wenig     seltsam  
+
+[LINE]
+Speaker414: Can    you help~me?   
+~           kannst du  mir~helfen 
+
+[LINE]
+Speaker593: Maybe…      I   need    four tomatoes, some     onions,   and a~lot~of garlic.   
+~           vielleicht  ich brauche vier Tomaten   ein~paar Zwiebeln  und viel     Knoblauch 
+
+[LINE]
+Speaker414: I   don't~have~those~things.
+~           ich habe~diese~Sachen~nicht 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker593: OK. Then [we~need~your~phone].     
+~           OK  dann  brauchen~wir~dein~Handy  
+- we meet your own
+- we'll read your phone
++ we need your phone
+
+[LINE]
+> Later,  Eddy, Vikram, and Priti are~eating dinner.    
+~ später  Eddy  Vikram  und Priti essen      Abendessen 
+
+[LINE]
+Speaker560: Wow, Eddy, this is  so good! It tastes   just~like my~grandmother's~recipe!     
+~           wow  Eddy  das  ist so gut   es schmeckt genau~wie das~Rezept~meiner~Großmutter 
+
+[LINE]
+Speaker414: Thanks! I   ordered~it       from the restaurant myself!
+~           danke   ich habe~es~bestellt aus  dem Restaurant selbst 
+
+[MULTIPLE_CHOICE]
+> Warum war das Abendessen so lecker?
+- Eddy ist ein sehr guter Koch.
++ Eddy hat das Essen bei einem Lieferservice bestellt.
+- Vikram hat ganz viel Knoblauch hinzugegeben.
+
+[MATCH]
+> Wähle die Paare
+- some <> ein paar
+- onions <> Zwiebeln
+- often <> oft
+- Which <> welche
+- the stove <> dem Herd
+
