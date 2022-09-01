@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=Pasta Problems
+icon=9a8e4c90ef30a62e59cf23d4265247e2655c4cec
+set=24|1
+
+[HEADER]
+> Pasta-Probleme
+~ pasta~problems
+
+[LINE]
+> Bea isst      Pasta in einem Restaurant in Rom.  Sie ruft  den Kellner.
+~ Bea is~eating pasta in a     restaurant in Rome  she calls the waiter  
+
+[LINE]
+Speaker507: Entschuldigung! Es~gibt  ein Problem mit  meiner Pasta.
+~           excuse~me       there~is a   problem with my     pasta 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker385: Das  kann~nicht sein. Es ist [unser~beliebtestes~Gericht].
+~           that can't      be    it is   our~most~popular~dish       
+- unser siebtes Gewicht
++ unser beliebtestes Gericht
+- unser verliebtes Gesicht
+
+[LINE]
+Speaker507: Ist das Rezept neu?
+~           is  the recipe new 
+
+[LINE]
+Speaker385: Nein! Unser Rezept ist      seit~fünfzig~Jahren das gleiche!
+~           no    our   recipe has~been for~fifty~years     the same    
+
+[LINE]
+Speaker507: Ich habe vor~sieben~Jahren hier diese Pasta gegessen.
+~           I   have seven~years~ago   here this  pasta eaten    
+
+[CONTINUATION]
+> What comes next?
+Speaker507: Heute schmeckt~das~Gericht [anders].   
+~           today the~dish~tastes       different  
+- gemütlich
+~ cozy     
++ anders   
+~ different
+- gestresst   
+~ stressed~out
+
+[LINE]
+Speaker385: Sieben Jahre sind eine lange Zeit. Vielleicht sind~Sie heute~anders.    
+~           seven  years are  a    long  time  maybe      you~are  different~today  
+
+[LINE]
+Speaker507: Hm … damals    war~ich jünger.  Alles      war neu und aufregend.
+~           hm   back~then I~was   younger  everything was new and exciting  
+
+[LINE]
+Speaker385: Aha.
+~           Aha 
+
+[LINE]
+Speaker507: Jetzt bin~ich viel~erwachsener.  
+~           now   I~am    much~more~grown~up 
+
+[LINE]
+Speaker507: Aber auch ordentlicher und intelligenter.
+~           but  also tidier       and smarter       
+
+[LINE]
+Speaker507: Sie~haben~recht, ich bin heute ein anderer   Mensch. Danke!    
+~           you're~right     I   am  today a   different person  thank~you 
+
+[MULTIPLE_CHOICE]
+> Why did Bea just thank the waiter?
+- He gave her the pasta recipe.
+- He told her she's reliable and intelligent.
++ She realized how much she's changed.
+
+[LINE]
+Speaker385: Gern~geschehen.
+~           you're~welcome 
+
+[LINE]
+Speaker507: Wo    ist der Kellner, der hier vor~sieben~Jahren gearbeitet~hat?
+~           where is  the waiter   who here seven~years~ago   has~worked     
+
+[POINT_TO_PHRASE]
+> Choose the option that means “sunglasses.”
+Speaker507: Er (hatte) (+eine~Sonnenbrille)      und (einen) (Bart). 
+~           he  had      (a~pair~of)~sunglasses  and  a       beard  
+
+[LINE]
+Speaker385: Sie meinen Antonio?
+~           you mean   Antonio 
+
+[LINE]
+Speaker507: Richtig, Antonio! Arbeitet~er~noch~hier?  
+~           correct  Antonio  does~he~still~work~here 
+
+[LINE]
+Speaker385: Nein, er hat hier nie   gearbeitet.
+~           no    he has here never worked     
+
+[LINE]
+Speaker385: Er arbeitet im~Restaurant     gegenüber.        
+~           he works    at~the~restaurant across~the~street 
+
+[LINE]
+Speaker507: Oh …
+~           oh  
+
+[MULTIPLE_CHOICE]
+> It seems like…
+- …Bea has sunglasses and a beard.
+- …Bea has the same waiter as seven years ago.
++ …Bea is in the wrong restaurant.
+
+[LINE]
+> Später isst~Bea      das gleiche Pastagericht im~Restaurant     gegenüber.        
+~ later  Bea~is~eating the same    pasta~dish   in~the~restaurant across~the~street 
+
+[LINE]
+Speaker507: Ja,  es schmeckt genauso~wie damals.   
+~           yes  it tastes   just~like   back~then 
+
+[LINE]
+Speaker507: Schade.                Vielleicht bin~ich doch~immer~noch die Bea von  damals.   
+~           this~is~disappointing  maybe      I~am    after~all       the Bea from back~then 
+
+[MULTIPLE_CHOICE]
+> Why does Bea think she hasn't changed?
++ The pasta in this restaurant tastes the same after all.
+- The waiter took off his sunglasses.
+- She forgot what the pasta tasted like.
+
+[MATCH]
+> Tap the pairs
+- Es <> it
+- habe <> have
+- heute anders <> different today
+- ordentlicher <> tidier
+- Bea <> Bea
+
