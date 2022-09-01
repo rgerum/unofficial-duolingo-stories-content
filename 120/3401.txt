@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=A Letter to Cristina
+icon=4a459a2aa33ff61983d53d6cb64e4642869086a2
+set=12|1
+
+[HEADER]
+> Una lettera per Cristina
+~ a   letter  to  ~       
+
+[LINE]
+> Nella  parte~precedente... Elisabetta ha~visto suo marito,  Andrea, che~scriveva qualcosa. 
+~ in~the previous~part       ~          saw      her husband  ~       writing      something 
+
+[LINE]
+Speaker988: Andrea... cosa scrivi?         
+~           ~         what you~are~writing 
+
+[LINE]
+Speaker275: Beh... 
+~           well   
+
+[SELECT_PHRASE]
+> Select the missing word
+Speaker275: Una [lettera] per Cristina.
+~           a    letter   to  ~        
+- letta
+- lettiera
++ lettera
+
+[LINE]
+Speaker988: Oh...
+
+[LINE]
+Speaker988: Andrea, sei     così teatrale!
+~           ~       you~are so   dramatic 
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "just."
+Speaker988: (Nostra) (figlia)   si~è~trasferita (all'|)  università da    (+appena) una settimana!
+~            our      daughter  moved            to~the university  since   just    a   week      
+
+[LINE]
+Speaker275: Lo~so. 
+~           I~know 
+
+[LINE]
+Speaker275: E   mi~manca     tanto!
+~           and I~miss~(her) a~lot 
+
+[MULTIPLE_CHOICE]
+> What does Andrea mean?
+- He misses his wife.
++ He misses his daughter.
+- He doesn't like his daughter.
+
+[LINE]
+Speaker988: Manca~anche~a~me...
+~           I~miss~her~too     
+
+[ARRANGE]
+> Tap what you hear
+Speaker988: ... [(ma)  (andremo)    (a~trovarla)   (presto)!]
+~                 but   we~will~go   to~visit~her   soon     
+
+[LINE]
+Speaker275: Chi cucinerà  e   canterà   con  me?
+~           who will~cook and will~sing with ~  
+
+[CONTINUATION]
+> What comes next?
+Speaker988: Beh,  io sono [qui]. 
+~           well  I  am    here  
+- con  me
+~ with ~ 
++ qui
+- presto
+
+[LINE]
+Speaker275: Sì,  lo~so. 
+~           yes  I~know 
+
+[LINE]
+Speaker275: Vuoi     preparare  la~cena con  me stasera?
+~           you~want to~prepare dinner  with ~  tonight 
+
+[LINE]
+Speaker988: Certo.
+~           sure  
+
+[LINE]
+Speaker275: E   più~tardi, ti~va~di   chiamare Cristina?
+~           and later      you'd~like to~call  ~        
+
+[LINE]
+Speaker988: Sì,  Andrea.
+~           yes  ~      
+
+[MULTIPLE_CHOICE]
+> What are Andrea and Elisabetta going to do?
++ Cook dinner together and call their daughter.
+- Buy a gift for Cristina.
+- Cook with their daughter.
+
+[MATCH]
+> Tap the pairs
+- parte precedente <> previous part
+- tanto <> a lot
+- Chi <> who
+- qualcosa <> something
+- ti va di <> you'd like
+
