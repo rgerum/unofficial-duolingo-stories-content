@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=Le mauvais canard
+icon=6ae21d07992767f2eef541bbcfde5913af8fc7a1
+set=26|3
+
+[HEADER]
+> The Wrong   Duck  
+~ le  mauvais canard
+
+[LINE]
+> Eddy is~talking to a   waitress at   a  restaurant.
+~ Eddy parle      à  une serveuse dans un restaurant 
+
+[LINE]
+Speaker414: Is~the~food            here~good? It~all~looks… really   expensive.
+~           la~nourriture~est-elle bonne~ici  tout~a~l'air  vraiment cher      
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker386: Yes, it's~not     cheap,      but  we're       [one~of~the~best]    restaurants in~town.    
+~           oui  ce~n'est~pas bon~marché  mais nous~sommes  l'un~des~meilleurs  restaurants de~la~ville 
+- onto the rest
++ one of the best
+- one of the guests
+
+[LINE]
+Speaker414: OK.       I  really~want   my~date~to~like~me.         
+~           d'accord  je veux~vraiment que~mon~rencard~m'aime~bien 
+
+[LINE]
+Speaker386: Are~you   sure she's~coming?     You've~been~waiting for~an~hour.     
+~           vous~êtes sûr  qu'elle~va~venir  vous~attendez       depuis~une~heure 
+
+[LINE]
+Speaker414: She  said  to~meet~her     at~the Blue~Duck   at seven~p.m.      
+~           elle a~dit de~la~retrouver au     Canard~Bleu à  dix-neuf~heures 
+
+[LINE]
+Speaker386: Oh. This~is the Black~Duck. 
+~           oh  c'est   le  Canard~Noir 
+
+[MULTIPLE_CHOICE]
+> Oh oh ! Eddy…
++ … est dans le mauvais restaurant.
+- … n'apprécie pas son rencard.
+- … a commandé du canard pour le dîner.
+
+[LINE]
+Speaker414: What? This isn't     the Blue~Duck?!  
+~           quoi  ce   n'est~pas le  Canard~Bleu  
+
+[LINE]
+Speaker386: No,  but  the Blue~Duck   isn't     far  from~here.
+~           non  mais le  Canard~Bleu n'est~pas loin d'ici     
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker414: Maybe     [she's~still~there]!        
+~           peut-être  qu'elle~est~encore~là-bas  
+- she steals hair
+- she's still fair
++ she's still there
+
+[LINE]
+> Eddy runs  to~the Blue~Duck.   He sees a  waiter. 
+~ Eddy court au     Canard~Bleu  il voit un serveur 
+
+[LINE]
+Speaker414: Excuse~me.   Did~you~see  a   tall   woman with~dark~hair waiting  here?
+~           excusez-moi  avez-vous~vu une grande femme brune          attendre ici  
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker526: [(Yes)… (but)  (her) (date)    (never~arrived).]      
+~             oui    mais   son   rencard   n'est~jamais~arrivé   
+
+[LINE]
+Speaker526: I  told~her   to~go   to~the Black~Duck.  I  think     her date    is  there. 
+~           je lui~ai~dit d'aller au     Canard~Noir  je pense~que son rencard est là-bas 
+
+[LINE]
+Speaker414: Oh, no! 
+~           oh  non 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+> Eddy runs~back           [to~the Black~Duck]. 
+~ Eddy retourne~en~courant  au     Canard~Noir  
+- to~the office
+~ au     bureau
+- to~the Blue~Duck  
+~ au     Canard~Bleu
++ to~the Black~Duck 
+~ au     Canard~Noir
+
+[LINE]
+> His date    is  outside~the      restaurant.
+~ son rencard est à~l'extérieur~du restaurant 
+
+[LINE]
+Speaker414: Georgia! I'm     glad    that~I~found~you!   Let's~go~eat. 
+~           Georgia  je~suis content de~t'avoir~trouvée  allons~manger 
+
+[LINE]
+Speaker1715: The restaurant just~closed.    
+~            le  restaurant vient~de~fermer 
+
+[LINE]
+Speaker414: I'm     so        sorry… 
+~           je~suis tellement désolé 
+
+[MULTIPLE_CHOICE]
+> Eddy est désolé car…
+- … il a bousculé la femme sans le faire exprès.
++ … il est trop tard pour manger au restaurant.
+- … il s'est rendu malade en mangeant trop de canard.
+
+[LINE]
+Speaker1715: It's~OK.            Let's~have    burgers        across             the street.
+~            ce~n'est~pas~grave  allons~manger des~hamburgers de~l'autre~côté~de la  rue    
+
+[LINE]
+Speaker1715: This place   is  too  expensive anyway!        
+~            cet  endroit est trop cher      de~toute~façon 
+
+[LINE]
+Speaker414: I  think     I'm     in~love. 
+~           je pense~que je~suis amoureux 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Eddy pense-t-il être amoureux ?
++ La femme veut manger dans un restaurant moins cher.
+- La nourriture au Black Duck était vraiment délicieuse.
+- La femme a payé l'addition d'un repas très cher. 
+
+[MATCH]
+> Choisis les paires
+- there <> là-bas
+- I <> je
+- isn't <> n'est pas
+- a <> une
+- cheap <> bon marché
+
