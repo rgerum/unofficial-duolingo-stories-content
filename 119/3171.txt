@@ -1,0 +1,118 @@
+[DATA]
+fromLanguageName=Eddy, the Doctor
+icon=29c5abbf74b46e43a4de510ac83e302c0722a100
+set=1|2
+
+[HEADER]
+> Eddy, der Arzt  
+~ Eddy  the doctor
+
+[LINE]
+> Eddy ist im~Supermarkt.     
+~ Eddy is  at~the~supermarket 
+
+[LINE]
+> Eine elegante Frau  kommt zu Eddy.
+~ an   elegant  woman comes to Eddy 
+
+[MULTIPLE_CHOICE]
+> A woman approaches Eddy at the supermarket.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker724: Hallo!
+~           hello 
+
+[LINE]
+Speaker414: Oh, hallo!
+~           oh  hello 
+
+[LINE]
+Speaker724: Entschuldigung, sind~Sie Arzt?      
+~           excuse~me       are~you  (a)~doctor 
+
+[LINE]
+Speaker414: Was?  Ich? Äh ...
+~           what  me   uh    
+
+[LINE]
+Speaker414: Ja,  ich ... bin Arzt.      
+~           yes  I       am  (a)~doctor 
+
+[LINE]
+Speaker724: Sehr gut! 
+~           very good 
+
+[ARRANGE]
+> Tap what you hear
+> [(Eddy) (ist) (kein~Arzt).]   
+~   Eddy   is    not~a~doctor   
+
+[LINE]
+Speaker414: Ich bin sehr reich.
+~           I   am  very rich  
+
+[LINE]
+Speaker414: Mein Haus  ist groß.
+~           my   house is  big  
+
+[LINE]
+Speaker414: Mein … äh … Hemd  ist sehr teuer.    
+~           my     uh   shirt is  very expensive 
+
+[LINE]
+Speaker724: OK, aber ...
+~           OK  but     
+
+[POINT_TO_PHRASE]
+> Choose the option that means "now."
+Speaker724: Ein (Mann) braucht (+jetzt) (einen) (Arzt)!  
+~           a    man   needs     now     a       doctor  
+
+[LINE]
+Speaker724: Er ist da~drüben!  Wo    die Milch ist!
+~           he is  over~there  where the milk  is  
+
+[MULTIPLE_CHOICE]
+> The man is…
+- …in Eddy's shopping cart.
++ …near the milk in the supermarket.
+- …at the hospital.
+
+[LINE]
+Speaker724: Schnell! Der Mann ist sehr krank!
+~           quick    the man  is  very sick  
+
+[MULTIPLE_CHOICE]
+> The woman wants Eddy to...
++ …help a very sick man.
+- …go to a doctor's office.
+- …buy some milk.
+
+[LINE]
+Speaker414: Oh nein!
+~           oh no   
+
+[LINE]
+> Eddy sieht eine Frau.  Er läuft zu ihr.
+~ Eddy sees  a    woman  he runs  to her 
+
+[LINE]
+Speaker414: Hallo! Entschuldigung, sind~Sie Ärztin?     Ich brauche Hilfe!
+~           hello  excuse~me       are~you  (a)~doctor  I   need    help  
+
+[MULTIPLE_CHOICE]
+> What did Eddy do?
+- He started crying and ran out of the supermarket.
+- He drove a sick man to the hospital.
++ After he lied, he tried to find a real doctor to help the man.
+
+[MATCH]
+> Tap the pairs
+- Mann <> man
+- Arzt <> doctor
+- krank <> sick
+- läuft <> runs
+- reich <> rich
+
