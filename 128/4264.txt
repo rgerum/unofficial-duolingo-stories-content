@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=Chiếc lều xịn thật!
+icon=15da04337561f2df975e0ed2ea8ee243a726b629
+set=25|3
+
+[HEADER]
+> What    a       Great~Tent!   
+~ thật~là 1~chiếc lều~tuyệt~vời 
+
+[LINE]
+> Eddy and his~son         Junior are~in       a       tent in    the~woods at~night.    
+~ Eddy và  con~trai~anh~ấy Junior đang~ở~trong 1~chiếc lều  trong khu~rừng  vào~buổi~tối 
+
+[LINE]
+Speaker414: Are~you~having~fun?
+~           con~thấy~vui~không 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker415: No.      This~camping~trip   is      [terrible]!
+~           không~ạ  chuyến~cắm~trại~này thật~là  tồi~tệ    
++ terrible
+~ tồi~tệ  
+- alone 
+~ cô~độc
+- afraid
+~ e~sợ  
+
+[LINE]
+Speaker414: Do~you~like        our~new~tent?         It's as~big~as a~house! 
+~           con~có~thích…không lều~mới~của~chúng~ta  nó   to~như    ngôi~nhà 
+
+[LINE]
+Speaker415: I   like  our~real~house.       
+~           con thích nhà~thật~của~chúng~ta 
+
+[MULTIPLE_CHOICE]
+> Ý Junior là gì?
++ Cậu ấy thích nhà thật của mình hơn chiếc lều.
+- Cậu ấy thích chiếc lều mới hơn nhà mình.
+- Cậu ấy thấy chuyến cắm trại này cực vui.
+
+[LINE]
+Speaker414: Our~camping~beds~are         very soft.
+~           giường~cắm~trại~của~chúng~ta rất  êm   
+
+[LINE]
+Speaker415: I   can't~sleep~right~now! 
+~           con đang~không~ngủ~nổi~đây 
+
+[LINE]
+Speaker414: We       have a~stove and a~fridge.
+~           chúng~ta có   bếp     và  tủ~lạnh  
+
+[MULTIPLE_CHOICE]
+> Eddy và Junior có một chiếc tủ lạnh và…
+- …một con thuyền.
+- …một cái bồn tắm.
++ …một cái bếp.
+
+[LINE]
+Speaker415: I~am~not  hungry.
+~           con~không đói    
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker414: I  also    bought [a~special~camping~bathroom].
+~           bố còn…nữa mua     lều~vệ~sinh~đặc~biệt        
+- a spacious fancy bathroom
+- a special lamp and bathtub
++ a special camping bathroom
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker415: [(I)   (do~like)          (the)   (special)   (camping~bathroom).]
+~             con   đúng~là~có~thích   chiếc   …đặc~biệt   lều~vệ~sinh        
+
+[LINE]
+Speaker414: And    we       have a~television, a~radio, and video~games!     
+~           với~cả chúng~ta có   tivi          đài      và  trò~chơi~điện~tử 
+
+[LINE]
+Speaker415: I~know…      
+~           con~biết~chứ 
+
+[LINE]
+Speaker415: You're~trying~very~hard!
+~           bố~đang~rất~cố~gắng     
+
+[LINE]
+Speaker414: I  don't~understand,   what~else~do~you~need? 
+~           bố chẳng~hiểu~nổi~con  con~còn~cần~cái~gì~nữa 
+
+[LINE]
+Speaker415: I   need the~bear that's~outside        the~tent  to~leave!!!   
+~           con cần  con~gấu  (mà)~đang~ở~bên~ngoài chiếc~lều đi~khỏi~đây   
+
+[LINE]
+Speaker40: Grrr! 
+~          gừ~gừ 
+
+[MULTIPLE_CHOICE]
+> Junior không thích chuyến cắm trại này vì…
+- …cậu ấy không được phép chơi điện tử trong lều.
+- …chiếc lều vệ sinh đặc biệt quá nhỏ.
++ …có một con gấu ở bên ngoài chiếc lều.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- Grrr <> gừ gừ
+- need <> cần
+- have <> có
+- Are you having fun <> con thấy vui không
+- soft <> êm
+
