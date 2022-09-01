@@ -1,0 +1,120 @@
+[DATA]
+fromLanguageName=O doutor Eddy
+icon=29c5abbf74b46e43a4de510ac83e302c0722a100
+set=1|2
+
+[HEADER]
+> El~doctor  Eddy
+~ (o)~doutor Eddy
+
+[LINE]
+> Eddy está en~el supermercado.
+~ Eddy está no    supermercado 
+
+[LINE]
+> Una mujer  elegante habla con él. 
+~ uma mulher elegante fala  com ele 
+
+[MULTIPLE_CHOICE]
+> Uma mulher elegante está falando com o Eddy no supermercado.
+- Não, não é isso.
++ Sim, isso mesmo.
+
+[LINE]
+Speaker724: ¡Hola!
+~            olá  
+
+[LINE]
+Speaker414: Ah, ¡hola!
+~           ah   olá  
+
+[LINE]
+Speaker724: ¿Eres  doctor?
+~            tu~és médico 
+
+[LINE]
+Speaker414: ¿Yo? ¿Doctor? Ah…
+~            eu   médico  ah 
+
+[LINE]
+Speaker414: Sí.  Yo… soy doctor.
+~           sim  eu  sou médico 
+
+[LINE]
+Speaker724: ¡Qué~bueno!
+~            que~bom   
+
+[LINE]
+> Eddy no  es doctor.
+~ Eddy não é  médico 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker414: [(Tengo) (mucho) (dinero).]  
+~             tenho   muito   dinheiro   
+
+[LINE]
+Speaker414: Vivo en una casa muy   grande.
+~           moro em uma casa muito grande 
+
+[LINE]
+Speaker414: Tengo… pantalones~muy~caros.
+~           tenho  calças~muito~caras   
+
+[LINE]
+Speaker724: Está bien, pero…
+~           está bem   mas  
+
+[LINE]
+Speaker724: ¡Ese    hombre necesita   un doctor, ahora!
+~            aquele homem  precisa~de um médico  agora 
+
+[LINE]
+Speaker414: ¿Qué?   ¿Dónde está?    
+~            o~quê   onde  ele~está 
+
+[LINE]
+Speaker724: ¡Está     cerca de~la~leche!
+~            ele~está perto do~leite    
+
+[LINE]
+Speaker724: ¡Por~favor, ese    hombre necesita   ayuda!
+~            por~favor  aquele homem  precisa~de ajuda 
+
+[MULTIPLE_CHOICE]
+> O homem que precisa de ajuda está perto…
+- …da estação.
++ …do leite.
+- …dos tomates.
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa “doente”.
+Speaker724: ¡(Está)     (muy)   (+enfermo)!
+~             ele~está   muito    doente   
+
+[LINE]
+Speaker414: ¡Ay, no! 
+~            ah  não 
+
+[LINE]
+> Eddy ve~a una mujer  y habla con ella.
+~ Eddy vê   uma mulher e fala  com ela  
+
+[LINE]
+Speaker414: Hola, ¿eres  doctora? ¡Necesito   ayuda!
+~           olá    tu~és médica    preciso~de ajuda 
+
+[MULTIPLE_CHOICE]
+> O que aconteceu na história?
+- O Eddy salvou um homem no supermercado.
++ O Eddy fingiu ser médico para impressionar uma mulher.
+- O Eddy começou a faculdade de medicina para se tornar médico.
+
+[MATCH]
+> Toque nos pares
+- Ah <> ah
+- ve a <> vê
+- dinero <> dinheiro
+- doctor <> médico
+- y <> e
+
