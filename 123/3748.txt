@@ -1,0 +1,92 @@
+[DATA]
+fromLanguageName=Quiero este juego
+icon=ce0ae956035c1bac6b9c64737466d59c5d027e97
+set=3|3
+
+[HEADER]
+> Je veux   ce   jeu  
+~ yo quiero este juego
+
+[LINE]
+> Junior et Eddy sont  dans un~magasin.
+~ Junior y  Eddy están en   una~tienda 
+
+[LINE]
+Speaker415: Papa ! J'ai~besoin~d'un nouveau jeu~vidéo  !
+~           papá   yo~necesito~un   nuevo   videojuego  
+
+[LINE]
+Speaker414: Tu n'as~pas~besoin~d'un nouveau jeu.  
+~           tú no~necesitas~un      nuevo   juego 
+
+[MULTIPLE_CHOICE]
+> Eddy cree que Junior necesita un nuevo videojuego.
+- Sí, así es.
++ No, no es así.
+
+[LINE]
+Speaker415: S'il~te~plaît ! Il~y~a des~robots guitaristes  dans ce   jeu   !
+~           por~favor       hay    robots     guitarristas en   este juego  
+
+[LINE]
+Speaker414: Junior, tu n'as~pas~besoin~de ce   jeu.  
+~           Junior  tú no~necesitas       este juego 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker414: [(Tu) (veux)    (ce)   (jeu).]  
+~             tú   quieres   este   juego   
+
+[LINE]
+Speaker415: OK        ! Je veux   ce   jeu.   Et maintenant ?
+~           está~bien   yo quiero este juego  y  ahora       
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker414: Non, tu~as     des~jeux~vidéos [à~la~maison] !
+~           no   tú~tienes videojuegos      en~casa       
++ à la maison
+- vend la maison
+- à la leçon
+
+[LINE]
+Speaker415: OK...        On~rentre à la~maison ?
+~           está~bien    volvemos  a casa       
+
+[LINE]
+Speaker414: Non, on~va chez      Vikram.
+~           no   vamos a~casa~de Vikram 
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker415: Mais je ne~peux~pas jouer [chez       Vikram ]!
+~           pero yo no~puedo    jugar  en~casa~de Vikram   
+- dans un~magasin
+~ en   una~tienda
+- à~la~maison
+~ en~casa    
++ chez       Vikram
+~ en~casa~de Vikram
+
+[LINE]
+Speaker414: Sa télé       est grande, et j'ai~besoin~de regarder le match   de football.
+~           su televisión es  grande  y  yo~necesito    ver      el partido de fútbol   
+
+[LINE]
+Speaker415: Papa, tu n'as~pas~besoin~de regarder le match.   Tu veux    regarder le match.  
+~           papá  tú no~necesitas       ver      el partido  tú quieres ver      el partido 
+
+[MULTIPLE_CHOICE]
+> Tanto Eddy como Junior…
++ … dicen que necesitan algo, pero solo lo quieren.
+- … vuelan por ahí en robots.
+- … juegan videojuegos con Vikram.
+
+[MATCH]
+> Selecciona los pares
+- ne peux pas <> no puedo
+- guitaristes <> guitarristas
+- n'as pas besoin de <> no necesitas
+- de <> de
+- S'il te plaît <> por favor
+
