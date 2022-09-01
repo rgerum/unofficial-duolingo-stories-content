@@ -1,0 +1,119 @@
+[DATA]
+fromLanguageName=El doctor Eddy
+icon=29c5abbf74b46e43a4de510ac83e302c0722a100
+set=1|2
+
+[HEADER]
+> Eddy~le~médecin
+~ el~doctor~Eddy 
+
+[LINE]
+> Eddy est  au    supermarché. 
+~ Eddy está en~el supermercado 
+
+[LINE]
+> Une femme élégante parle~à   Eddy.
+~ una mujer elegante habla~con Eddy 
+
+[MULTIPLE_CHOICE]
+> Una mujer habla con Eddy en el supermercado.
++ Sí, así es.
+- No, no es así.
+
+[LINE]
+Speaker724: Bonjour     !
+~           buenos~días  
+
+[LINE]
+Speaker414: Ah, bonjour     !
+~           ah  buenos~días  
+
+[LINE]
+Speaker724: Êtes-vous médecin ?
+~           usted~es  doctor   
+
+[MULTIPLE_CHOICE]
+> ¿Qué está preguntando la mujer?
+- ¿Usted es profesor?
++ ¿Usted es doctor?
+- ¿Usted es escritor?
+
+[LINE]
+Speaker414: Moi ? Médecin ? Euh…
+~           yo    doctor    eh  
+
+[LINE]
+Speaker414: Oui, oui. Je suis médecin.
+~           sí   sí   yo soy  doctor  
+
+[LINE]
+Speaker724: Super  !
+~           genial  
+
+[LINE]
+> Eddy n'est~pas médecin.
+~ Eddy no~es     doctor  
+
+[LINE]
+Speaker414: J'ai     trois voitures.
+~           yo~tengo tres  carros   
+
+[LINE]
+Speaker414: J'habite dans une grande~maison.
+~           yo~vivo  en   una casa~grande   
+
+[LINE]
+Speaker414: Mon pantalon… coûte~très~cher !
+~           mi  pantalón  es~muy~caro      
+
+[MULTIPLE_CHOICE]
+> Eddy está presumiendo de su casa grande y de…
+- …su carro morado.
+- …su chaqueta tan vieja.
++ …su pantalón caro.
+
+[LINE]
+Speaker724: OK,        mais…
+~           está~bien  pero 
+
+[LINE]
+Speaker724: ... un homme  a~besoin~d'un médecin !
+~               un hombre necesita~un   doctor   
+
+[LINE]
+Speaker724: Il est  très malade  !
+~           él está muy  enfermo  
+
+[MULTIPLE_CHOICE]
+> La mujer le dice a Eddy que…
+- …ella olvidó su cartera en casa.
++ …un hombre enfermo necesita un doctor.
+- …ella necesita comprar naranjas.
+
+[LINE]
+Speaker414: Euh…
+~           eh  
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "otra".
+> (Eddy) (parle~à)   (+une~autre) (femme).
+~  Eddy   habla~con    otra        mujer  
+
+[LINE]
+Speaker414: Bonjour,     vous  êtes médecin ? J'ai~besoin d'aide !
+~           buenos~días  usted es   doctora   necesito    ayuda   
+
+[MULTIPLE_CHOICE]
+> ¿Qué pasó en la historia?
+- Eddy salvó a un hombre en el supermercado.
++ Eddy fingió ser doctor para impresionar a una mujer.
+- Eddy empezó a estudiar medicina para convertirse en doctor.
+
+[MATCH]
+> Selecciona los pares
+- suis <> soy
+- voitures <> carros
+- Mon <> mi
+- mais <> pero
+- pantalon <> pantalón
+
