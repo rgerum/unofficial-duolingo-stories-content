@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Đêm pizza
+icon=dcb1760c8fe5f2221fc2e3bc373a13632881ae44
+set=12|4
+
+[HEADER]
+> Pizza~Night
+~ đêm~pizza  
+
+[LINE]
+Speaker414: Junior! What~do~you~want for dinner? 
+~           Junior  con~muốn~ăn~gì   cho bữa~tối 
+
+[LINE]
+Speaker415: I   want pizza. I'm eight~years~old… I   always       want pizza.
+~           con muốn pizza  con tám~tuổi         con lúc~nào~cũng muốn pizza 
+
+[LINE]
+Speaker414: Cool!     We       can~make   a~pizza!
+~           được~đấy  chúng~ta có~thể~làm pizza   
+
+[LINE]
+Speaker415: Or      we       can~call        and order a~pizza!
+~           hoặc~là chúng~ta có~thể~gọi~điện và  đặt   pizza   
+
+[MULTIPLE_CHOICE]
+> Junior muốn đặt bánh pizza.
++ Đúng vậy.
+- Không đúng.
+
+[LINE]
+Speaker414: It~will~be~more~fun to~make    a~pizza!
+~           sẽ~vui~hơn          nếu~ta~làm pizza   
+
+[LINE]
+Speaker415: Fun~for~you?
+~           vui~với~bố  
+
+[LINE]
+Speaker414: Fun~for~us!        Father~and~son! 
+~           chúng~ta~cùng~vui  hai~bố~con~mình 
+
+[LINE]
+Speaker415: I   want you to~be~happy, so…      OK.       
+~           con muốn bố  được~vui     cho~nên  thôi~được 
+
+[LINE]
+Speaker414: Great! Can~you~get               the~flour, water, and salt?
+~           tuyệt  con~lấy~cho~bố…được~không bột~mì     nước   và  muối 
+
+[MULTIPLE_CHOICE]
+> Eddy cần nước, muối và…
+- …một cuộc hẹn.
+- …pizza.
++ …bột mì.
+
+[LINE]
+Speaker415: OK…    
+~           vâng~ạ 
+
+[LINE]
+Speaker414: Now     we       can~put~it~all~together…       
+~           bây~giờ chúng~ta có~thể~cho~tất~cả~vào~với~nhau 
+
+[LINE]
+> They put     the~flour, water, and salt together.
+~ họ   cho…vào bột~mì     nước   và  muối với~nhau 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker415: This~is hard,     and    [I'm~hungry].  
+~           cái~này khó~thật  mà…nữa  con~đang~đói  
++ I'm hungry
+- aim at me
+- I'm angry
+
+[LINE]
+Speaker414: And now     we       have~to wait.
+~           và  bây~giờ chúng~ta sẽ~phải đợi  
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker415: [(We)       (have~to) (wait)?]! 
+~             chúng~ta   phải      đợi~ư    
+
+[LINE]
+Speaker414: The~dough isn't~ready~yet.
+~           bột~nhào  vẫn~chưa~được   
+
+[LINE]
+Speaker415: When~will~it~be~ready?  
+~           khi~nào~thì~nó~mới~được 
+
+[LINE]
+Speaker414: In~two~hours. 
+~           hai~tiếng~nữa 
+
+[LINE]
+> Junior looks~at Eddy.
+~ Junior nhìn     Eddy 
+
+[LINE]
+Speaker414: I'll~order a~pizza.
+~           để~bố~đặt  pizza   
+
+[LINE]
+Speaker415: You're a   great~dad.         
+~           bố~là  một người~bố~tuyệt~vời 
+
+[MULTIPLE_CHOICE]
+> Vì sao Eddy lại quyết định đặt bánh pizza?
+- Junior đã ăn hết chỗ bột.
++ Làm pizza mất quá nhiều thời gian.
+- Anh ấy không có đủ nguyên liệu.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- a <> một
+- pizza <> pizza
+- Junior <> Junior
+- the flour <> bột mì
+- have to <> sẽ phải
+
