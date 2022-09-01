@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Je veux une pizza
+icon=3eebaf390a99fcebfaf064cfa42f14c071b5b97f
+set=9|4
+
+[HEADER]
+> I  Want a   Pizza
+~ je veux une pizza
+
+[LINE]
+> Lin is~walking~home.
+~ Lin rentre~à~pied   
+
+[LINE]
+> She  is~carrying two  pizzas.
+~ elle porte       deux pizzas 
+
+[MULTIPLE_CHOICE]
+> Lin a sept pizzas.
++ Non, c'est faux.
+- Oui, c'est vrai.
+
+[LINE]
+> She  sees Oscar on~the~street.
+~ elle voit Oscar dans~la~rue   
+
+[LINE]
+Speaker592: Hi,    Lin. That  pizza smells great!    
+~           salut  Lin  cette pizza sent   super~bon 
+
+[LINE]
+Speaker508: Yes, it's  from Emilio's~Restaurant.
+~           oui  c'est de   Emilio's~Restaurant 
+
+[LINE]
+Speaker592: Oh, I~love  that restaurant.
+~           oh  j'adore ce   restaurant 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker592: Now        I  want [a   pizza]!
+~           maintenant je veux  une pizza  
+- some new      clothes  
+~ des  nouveaux vêtements
++ a   pizza
+~ une pizza
+- to~clean my  apartment  
+~ nettoyer mon appartement
+
+[LINE]
+Speaker508: Oh, the restaurant is  closed now.       
+~           oh  le  restaurant est fermé  maintenant 
+
+[LINE]
+Speaker592: Oh no... 
+~           oh non   
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker592: [(Well),    (you) (have) (two)  (pizzas).]
+~             eh~bien    tu    as     deux   pizzas   
+
+[LINE]
+Speaker592: Can~I~buy~one?         
+~           je~peux~en~acheter~une 
+
+[LINE]
+Speaker508: No,  sorry.  These     are  for  my grandma    Lucy and me. 
+~           non  désolé  celles-ci sont pour ma grand-mère Lucy et  moi 
+
+[LINE]
+Speaker592: Well, can~I~have    a   piece of your pizza?
+~           ben   je~peux~avoir une part  de ta   pizza 
+
+[LINE]
+Speaker508: Uh,  no,  Oscar. That's... strange.
+~           euh  non  Oscar  c'est     bizarre 
+
+[MULTIPLE_CHOICE]
+> Lin pense que...
+- ... Oscar n'aime vraiment pas la pizza.
++ ... c'est bizarre de donner une part à Oscar.
+- ... Oscar porte des vêtements bizarres.
+
+[LINE]
+> Lin leaves.
+~ Lin part   
+
+[LINE]
+Speaker592: Now        I  really~want   pizza     from that restaurant…
+~           maintenant je veux~vraiment une~pizza de   ce   restaurant 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+> Oscar [makes~a~call]   on  his phone.    
+~ Oscar  passe~un~appel  sur son téléphone 
+- makes a ball
++ makes a call
+- takes it all
+
+[LINE]
+Speaker592: Hi    Lucy, it's  Oscar. Do~you~have plans       for  dinner?  
+~           salut Lucy  c'est Oscar  as-tu       des~projets pour le~dîner 
+
+[LINE]
+Speaker509: I'm~having     pizza       with Lin! Do~you~want to~eat with us?  
+~           je~vais~manger de~la~pizza avec Lin  tu~veux     manger avec nous 
+
+[LINE]
+Speaker592: Thanks! That's a   great idea!
+~           merci   c'est  une super idée 
+
+[MULTIPLE_CHOICE]
+> Oscar a appelé Lucy car...
+- ... elle ne répondait pas à ses SMS.
+- ... il voulait lui dire un secret.
++ ... il voulait qu'elle l'invite à dîner.
+
+[MATCH]
+> Choisis les paires
+- Oh <> oh
+- She <> elle
+- and <> et
+- strange <> bizarre
+- sorry <> désolé
+
