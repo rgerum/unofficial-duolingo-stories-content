@@ -1,0 +1,119 @@
+[DATA]
+fromLanguageName=Entierro en el mar
+icon=d269170970dbcc5a5f80f6ea1ffed7394ae2b584
+set=16|4
+
+[HEADER]
+> Funérailles en mer   
+~ entierro    en el~mar
+
+[LINE]
+> Lily voit son voisin, Junior. Il est  triste.
+~ Lily ve~a su  vecino  Junior  él está triste 
+
+[LINE]
+Speaker416: Junior ? Ça~ne~va~pas  ?
+~           Junior   no~estás~bien  
+
+[LINE]
+Speaker415: Némo est  mort   !
+~           Némo está muerto  
+
+[LINE]
+Speaker416: Ton poisson ?
+~           tu  pez      
+
+[LINE]
+Speaker415: Oui ! Il était trop      jeune !
+~           sí    él era   demasiado joven  
+
+[MULTIPLE_CHOICE]
+> Junior está triste porque su perro se murió.
+- Sí, así es.
++ No, no es así.
+
+[LINE]
+Speaker416: Je peux  t'aider.  Je sais quoi faire.
+~           yo puedo ayudarte  yo sé   qué  hacer 
+
+[SELECT_PHRASE]
+> Completa la oración
+> Lily et Junior prennent Némo et vont [dans~la~salle~de~bain].
+~ Lily y  Junior toman~a  Némo y  van   al~baño                
+- la salle dans le train
+- dans le maillot de bain
++ dans la salle de bain
+
+[LINE]
+Speaker416: Nous~pouvons faire des~funérailles en mer    pour ton poisson.
+~           podemos      hacer un~entierro     en el~mar para tu  pez     
+
+[MULTIPLE_CHOICE]
+> ¿Dónde quieren Lily y Junior darle un entierro en el mar a Némo?
+- en una piscina
+- en un tobogán de agua
++ en el baño
+
+[LINE]
+Speaker416: Tu~veux parler de tes souvenirs avec Némo ?
+~           quieres hablar de tus recuerdos con  Némo  
+
+[LINE]
+Speaker415: Hmm… J'aimais   regarder Némo nager.
+~           mmm  me~gustaba ver~a    Némo nadar 
+
+[LINE]
+Speaker415: Et il~aimait       me~regarder manger.
+~           y  a~él~le~gustaba verme       comer  
+
+[LINE]
+Speaker415: Et il~aimait  beaucoup m'entendre chanter !
+~           y  le~gustaba mucho    escucharme cantar   
+
+[LINE]
+Speaker416: OK,    Junior. C'était parfait. 
+~           bueno  Junior  eso~fue perfecto 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+> [(Lily) (met)  (le~poisson) (dans) (les~toilettes).]
+~   Lily   pone   el~pez       en     el~inodoro      
+
+[LINE]
+Speaker416: Tu~es prêt~à     dire    au~revoir à Némo ?
+~           estás listo~para decirle adiós     a Némo  
+
+[LINE]
+> Némo commence à nager.
+~ Némo empieza  a nadar 
+
+[LINE]
+Speaker415: Némo !
+~           Némo  
+
+[LINE]
+Speaker416: Waouh ! Ce  poisson n'est~pas mort.  
+~           guau    ese pez     no~está   muerto 
+
+[LINE]
+Speaker415: Mais comment je~vais le~sortir des~toilettes ?
+~           pero cómo    voy~a   sacarlo   del~inodoro    
+
+[LINE]
+Speaker416: Ah, je ne~peux~pas t'aider  avec ça. 
+~           ah  yo no~puedo    ayudarte con  eso 
+
+[MULTIPLE_CHOICE]
+> ¿Cómo supieron Lily y Junior que Némo estaba vivo?
+- Junior se acordó de que era la hora de la siesta de Némo.
++ Él empezó a nadar en el inodoro.
+- Él se rió de un chiste de Junior.
+
+[MATCH]
+> Selecciona los pares
+- avec <> con
+- poisson <> pez
+- parler <> hablar
+- de <> de
+- tes <> tus
+
