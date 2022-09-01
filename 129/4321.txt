@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Sen Mary Değilsin
+icon=df387e0b6c2030a0ad1f881718467e35a29f15b6
+set=7|2
+
+[HEADER]
+> You're~Not~Mary  
+~ Sen~Mary~değilsin
+
+[LINE]
+> Junior comes home from school.
+~ ~      gelir eve  -dan okul   
+
+[LINE]
+> There~is a   woman in  the living~room. 
+~ var      bir Kadın -da ~   oturma~odası 
+
+[MULTIPLE_CHOICE]
+> Oturma odasında bir kadın vardır.
+- Hayır, bu doğru değil.
++ Evet, bu doğru.
+
+[LINE]
+Speaker415: Oh! You're~not~Mary!  
+~           ~   Sen~Mary~değilsin 
+
+[LINE]
+Speaker658: No…    I'm Penelope. I'm your  dad's   date…     
+~           Hayır  Ben ~         Ben senin babanın flörtüyüm 
+
+[MULTIPLE_CHOICE]
+> Penelope ...
++ … Junior'ın babasının flörtü.
+- ... Junior'ın kız kardeşi.
+- … Junior'ın büyükannesi.
+
+[LINE]
+Speaker415: I'm Junior!
+~           Ben ~      
+
+[LINE]
+Speaker658: Hi,    Junior… your~dad    is in  the bathroom.
+~           Selam  ~       senin~baban ~  -da ~   banyo    
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker658: So…  Is Mary [here~often]?    
+~           şey  mı ~     sık~sık~burada  
+- her or them
++ here often
+- hear of them
+
+[LINE]
+Speaker415: Yes!  Every day.
+~           Evet  Her   gün 
+
+[LINE]
+Speaker658: Every~day!? 
+~           her~gün~mü  
+
+[LINE]
+Speaker415: Dad   and Mary always    talk       in~the~morning.
+~           babam ve  ~    her~zaman konuşurlar sabahları      
+
+[LINE]
+Speaker658: I~want    to~know more         about    Mary…
+~           istiyorum bilmek  daha~çok~şey hakkında ~    
+
+[LINE]
+Speaker415: Well, I~like  Mary   but…
+~           peki  severim Mary'i ama 
+
+[LINE]
+Speaker415: She talks   too~much.  My~dad      loves   her!
+~           O   konuşur çok~fazla  benim~babam seviyor onu 
+
+[LINE]
+Speaker658: He~loves~her?!  
+~           onu~seviyor~mu  
+
+[POINT_TO_PHRASE]
+> "Kız arkadaşlar" anlamına gelen seçeneğe tıklayın.
+Speaker658: Your  dad     (can't~have) two (+girlfriends)!  (That's) (not~OK)!     
+~           senin babanın  olamaz      iki   kız~arkadaşı    Bu       doğru~değil  
+
+[LINE]
+> Penelope leaves.  Eddy comes~out of   the bathroom.
+~ ~        ayrılır  ~    çıkar     -dan ~   banyo    
+
+[LINE]
+Speaker414: Where  is Penelope?
+~           Nerede ~  ~        
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker415: [(She's) (not)   (happy) (about)    (Mary).]
+~             O       değil   mutlu   hakkında   ~      
+
+[LINE]
+Speaker414: Oh no!
+
+[LINE]
+Speaker414: Wait!  Penelope! Mary is   our   bird!   
+~           Bekle  ~         ~    -dur bizim kuşumuz 
+
+[LINE]
+Speaker625: Squawk! Goodbye,   Penelope!
+~           ~       Güle~güle  ~        
+
+[MULTIPLE_CHOICE]
+> Penelope neden ayrıldı?
+- Eddy'nin banyodan çıkmak istemediği için.
++ Mary'nin Eddy ve Junior'ın kuşu olduğunu bilmediği için.
+- Odada başka bir kadın gördüğü için.
+
+[MATCH]
+> Çiftlere dokun
+- I'm <> Ben
+- but <> ama
+- dad's <> babanın
+- Dad <> babam
+- two <> iki
+
