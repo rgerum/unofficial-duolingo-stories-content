@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Ăn chay
+icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
+set=2|3
+
+[HEADER]
+> The~Vegetarian
+~ người~ăn~chay 
+
+[LINE]
+> Vikram is~reading a~menu   in    a   nice~restaurant.    
+~ Vikram đang~đọc   thực~đơn trong một nhà~hàng~sang~trọng 
+
+[LINE]
+Speaker385: Welcome!            
+~           kính~chào~quý~khách 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker593: Hello.    I   have a   question about [the~menu].
+~           xin~chào  tôi có   một câu~hỏi  về     thực~đơn  
+- the men
+- the man to
++ the menu
+
+[LINE]
+Speaker593: I~am~a~vegetarian.
+~           tôi~ăn~chay       
+
+[LINE]
+Speaker593: Is~there       vegetarian~food?
+~           ở~đây~có…không đồ~ăn~chay      
+
+[MULTIPLE_CHOICE]
+> Vikram thích ăn thịt.
+- Đúng vậy.
++ Không đúng.
+
+[LINE]
+Speaker385: Yes,  we        have very~good~steaks.
+~           có~ạ  chúng~tôi có   bít~tết~rất~ngon 
+
+[LINE]
+Speaker593: Steaks  are meat. I   do~not~eat meat.
+~           bít~tết là  thịt  tôi không~ăn   thịt 
+
+[LINE]
+Speaker385: Oh, yes.      I~am~sorry. 
+~           à   phải~rồi  tôi~xin~lỗi 
+
+[LINE]
+Speaker385: The~chicken~is delicious.  
+~           món~gà         rất~hấp~dẫn 
+
+[MULTIPLE_CHOICE]
+> Ôi trời, giờ thì cậu phục vụ bàn lại cho là Vikram…
+- ...không đói.
+- ...ghét thịt gà.
++ ...nên gọi thịt gà.
+
+[LINE]
+Speaker593: Chicken is meat.
+~           gà      là thịt 
+
+[LINE]
+Speaker593: I   do~not~want meat!
+~           tôi không~muốn  thịt 
+
+[LINE]
+Speaker385: We        have salad…
+~           chúng~tôi có   salad 
+
+[LINE]
+Speaker593: Oh, I   like  salad! What~is~in  the~salad?
+~           ồ   tôi thích salad  có~gì~trong món~salad 
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “cá".
+Speaker385: (There~is) (tomato),  (lettuce),     (+fish)…
+~            có         cà~chua    rau~xà~lách     cá    
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker593: I   do~not~eat fish! I   am a     [vegetarian]!   
+~           tôi không~ăn   cá    tôi là (một)  người~ăn~chay  
+- restaurant
+~ nhà~hàng  
++ vegetarian   
+~ người~ăn~chay
+- salad
+~ salad
+
+[LINE]
+Speaker385: We        have fries…          
+~           chúng~tôi có   khoai~tây~chiên 
+
+[LINE]
+Speaker593: OK. Fries           are fine.
+~           ừ   khoai~tây~chiên thì được 
+
+[LINE]
+Speaker385: Fries,           perfect.   And… a~burger?             
+~           khoai~tây~chiên  tuyệt~vời  và   một~bánh~burger~chứ~ạ 
+
+[LINE]
+Speaker593: No~meat,~please!            
+~           làm~ơn~đừng~mời~thịt~nữa~mà 
+
+[MULTIPLE_CHOICE]
+> Vì sao Vikram lại phát bực với cậu phục vụ bàn?
++ Cậu ấy cứ quên rằng anh ấy là người ăn chay.
+- Đồ ăn của nhà hàng này rất chán.
+- Cậu ấy không nhớ tên anh ấy.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- And <> và
+- The chicken is <> món gà
+- salad <> salad
+- about <> về
+- fries <> khoai tây chiên
+
