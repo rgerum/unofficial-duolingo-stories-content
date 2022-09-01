@@ -1,0 +1,187 @@
+[DATA]
+fromLanguageName=The Refund
+icon=8d2cee2e2c88355a3e6a2d98c1b6723c455c41b5
+set=62|1
+
+[HEADER]
+> Le  remboursement
+~ the refund       
+
+[LINE]
+> Lily travaille dans un magasin~de~vêtements.
+~ Lily works     in   a  clothing~store       
+
+[LINE]
+Speaker1551: Excusez-moi, combien~coûte ce   costume ?
+~            excuse~me    how~much~is   this suit     
+
+[LINE]
+Speaker416: Deux-cent euros. Vous~voulez l'essayer    ?
+~           200       euros  do~you~want to~try~it~on  
+
+[MULTIPLE_CHOICE]
+> Lily demande~à l'homme s'il  veut... 
+~ Lily asks~(to) the~man if~he wants   
+- … ranger~le~costume    sur une étagère.
+~   to~put~the~suit~away on  a   shelf   
++ … être  sûr  que  le  costume lui~va~bien.  
+~   to~be sure that the suit    fits~him~well 
+- … lui~vendre deux-cent   costumes~utilisés.
+~   to~sell    two~hundred used~suits        
+
+[LINE]
+Speaker1551: Non, je n'ai~pas   le  temps.
+~            no   I  don't~have the time  
+
+[LINE]
+> L'homme achète le  costume. Le  jour~suivant,  il retourne  au     magasin.
+~ the~man buys   the suit     the following~day  he goes~back to~the store   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1551: Excusez-moi ! Je voudrais   [me~faire~rembourser].
+~            excuse~me     I  would~like  to~get~a~refund      
+- me faire emporter
+- le verre remboursé
++ me faire rembourser
+
+[LINE]
+Speaker416: Pourquoi ? Il~y~a   un problème ?
+~           why        there~is a  problem   
+
+[LINE]
+Speaker1551: Ce   costume n'est~pas noir. 
+~            this suit    isn't     black 
+
+[LINE]
+Speaker416: En~effet. Ce   costume est bleu.
+~           indeed    this suit    is  blue 
+
+[LINE]
+Speaker1551: Je suis~venu~ici pour acheter  un costume~noir.
+~            I  came~here     to   (to)~buy a  black~suit   
+
+[LINE]
+Speaker416: Alors pourquoi vous avez~acheté un costume~bleu ?
+~           so    why      you  bought      a  blue~suit     
+
+[LINE]
+Speaker1551: Regardez ma photo~de~famille !
+~            look~at  my family~photo      
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+> L'homme lui~montre [une photo].
+~ the~man shows~her   a   photo  
+- un problème
+~ a  problem 
++ une photo
+~ a   photo
+- au     magasin
+~ at~the store  
+
+[LINE]
+Speaker1551: Vous voyez la  différence ? Ma femme porte      une robe~noire  sur cette photo. 
+~            you  see   the difference   my wife  is~wearing a   black~dress on  this  photo  
+
+[ARRANGE]
+> Tap what you hear
+Speaker1551: [(Le~costume) (et)  (la~robe)   (ne~vont~pas) (ensemble) ]!
+~              the~suit     and   the~dress   don't~go      together    
+
+[LINE]
+Speaker416: Désolée, mais vous avez~porté le  costume. On~ne~peut~pas vous~rembourser.       
+~           sorry    but  you  wore       the suit     we~can't       (to)~give~you~a~refund 
+
+[LINE]
+Speaker1551: Mais je ne~l'ai~porté~que pour la  photo !
+~            but  I  only~wore~it      for  the photo  
+
+[LINE]
+Speaker416: Lisez le  ticket.  Là,    en~bas.    
+~           read  the receipt  there  down~there 
+
+[LINE]
+> Il lit   le  ticket. 
+~ he reads the receipt 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1551: « L'article   n'est~pas remboursable [s'il~a~été~porté].    »
+~            ~ the~article isn't     refundable    it~it~has~been~worn   ~
+- s'il a été stoppé
++ s'il a été porté
+- s'il était posté
+
+[LINE]
+Speaker1551: Mais le  costume n'était~même~pas~à ma taille ! Il n'était~vraiment~pas confortable.
+~            but  the suit    wasn't~even        my size     it really~wasn't        comfortable 
+
+[LINE]
+Speaker416: Je suis désolée, mais à~moins~qu'il~y~ait un problème, je ne~peux~pas vous~rembourser.        S'il  était abîmé,   par~exemple…
+~           I  am   sorry    but  unless~there~is     a  problem   I  can't       (to)~give~you~a~refund  if~it was   damaged  for~example 
+
+[LINE]
+Speaker1551: Ah, oui ? Je peux~être~remboursé s'il  est abîmé   ? Comme~ça  ?
+~            ah  yes   I  can~get~a~refund    if~it is  damaged   like~this  
+
+[ARRANGE]
+> Tap what you hear
+> [(Il) (déchire) (une) (manche) (du~costume).]    
+~   he   tears     a     sleeve   of~the~costume   
+
+[LINE]
+Speaker416: Mais qu'est-ce~que~vous~faites ?
+~           but  what~are~you~doing         
+
+[LINE]
+Speaker1551: Je veux mes deux cents   euros !
+~            I  want my  two  hundred euros  
+
+[LINE]
+> La~chef~de~Lily arrive,  inquiète.
+~ Lily's~boss     arrives  worried  
+
+[LINE]
+Speaker1186: Quel est le  problème ?
+~            what is  the problem   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1186: Oh ! Mais votre costume [est~abîmé]  ! Voulez-vous    être~remboursé  ?
+~            oh   but  your  suit     is~damaged    would~you~like to~get~a~refund  
+- est arrivé
+- était limé
++ est abîmé
+
+[LINE]
+Speaker1551: Oui, s'il~vous~plaît ! Merci.    
+~            yes  please            thank~you 
+
+[LINE]
+Speaker1186: Lily, nous aurons    une petite discussion plus~tard.
+~            Lily  we   will~have a   little discussion later     
+
+[LINE]
+Speaker416: Je déteste ce   travail.
+~           I  hate    this job     
+
+[MULTIPLE_CHOICE]
+> L'homme a~déchiré la  manche du     costume...
+~ the~man torn      the sleeve of~the suit      
+-  … parce~qu'il préférait le  costume sans    manches.
+~    because~he  preferred the suit    without sleeves 
++ … pour pouvoir         obtenir un remboursement.
+~   to   (to)~be~able~to get     a  refund        
+- … parce~que les manches étaient trop longues.
+~   because   the sleeves were    too  long    
+
+[MATCH]
+> Tap the pairs
+- ticket <> receipt
+- photo <> photo
+- s'il vous plaît <> please
+- Il y a <> there is
+- ne l'ai porté que <> only wore it
+
