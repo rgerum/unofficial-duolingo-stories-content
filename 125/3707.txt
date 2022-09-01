@@ -1,0 +1,102 @@
+[DATA]
+fromLanguageName=Cosa vuole?
+icon=8c5ae7b18c5ff0f37394646c91bd6a579213dcbc
+set=3|2
+
+[HEADER]
+> What~Do~You~Want?
+~ cosa~le~serve    
+
+[LINE]
+> Oscar walks into a  clothes~store.     
+~ Oscar entra in   un negozio~di~vestiti 
+
+[LINE]
+> He~sees    his    student,     Zari. She works  in~the store.  
+~ (lui)~vede la~sua studentessa  Zari  lei lavora nel    negozio 
+
+[MULTIPLE_CHOICE]
+> Oscar vede Zari lavorare in un negozio.
+- No, è sbagliato.
++ Sì, è giusto.
+
+[LINE]
+Speaker592: Zari! Oh, good! I~am      happy    to~see~you.
+~           Zari  oh  bene  (io)~sono contento di~vederti 
+
+[LINE]
+Speaker418: Hello! Welcome!  
+~           salve  benvenuto 
+
+[LINE]
+Speaker418: Do~you~need~help?
+~           le~serve~aiuto   
+
+[LINE]
+Speaker592: Yes, thank~you! I~need…  
+~           sì   grazie     mi~serve 
+
+[POINT_TO_PHRASE]
+> Seleziona l'opzione che significa "lo so".
+Speaker418: (Oh), I  (+know)!  You~need a   (new)   (jacket)!
+~            oh   io   lo~so   le~serve una  nuova   giacca  
+
+[LINE]
+> Zari shows    Oscar a   jacket.
+~ Zari mostra~a Oscar una giacca 
+
+[LINE]
+Speaker592: A   new   jacket? No. Zari, I… 
+~           una nuova giacca  no  Zari  io 
+
+[LINE]
+Speaker418: Oh! You~need a   new   shirt!  
+~           oh  le~serve una nuova camicia 
+
+[ARRANGE]
+> Seleziona ciò che senti
+Speaker418: [(The) (green~shirt)   (is) (perfect)!] 
+~             la    camicia~verde   è    perfetta   
+
+[LINE]
+Speaker592: No. Zari, please…    
+~           no  Zari  per~favore 
+
+[LINE]
+Speaker592: I~do~not~need a   shirt.   I~do~not~need a   jacket. I~need…  
+~           non~mi~serve  una camicia  non~mi~serve  una giacca  mi~serve 
+
+[SELECT_PHRASE]
+> Seleziona la frase mancante
+Speaker418: Pants!     [You~need~pants]!          
+~           pantaloni   le~servono~dei~pantaloni  
++ You need pants
+- You need parents
+- Your new pants
+
+[LINE]
+Speaker592: No! I~do~not~need  clothes!    
+~           no  non~mi~servono dei~vestiti 
+
+[LINE]
+Speaker592: I~need   to~know…
+~           mi~serve sapere  
+
+[LINE]
+Speaker592: Where~is~| the restroom?
+~           dov'è      il  bagno    
+
+[MULTIPLE_CHOICE]
+> Perché Oscar è entrato in un negozio di abbigliamento?
+- Voleva comprare dei pantaloni, una maglietta e una giacca.
++ Stava cercando un bagno.
+- Voleva comprare una nuova giacca a Zari.
+
+[MATCH]
+> Tocca le coppie
+- Pants <> pantaloni
+- shirt <> camicia
+- Welcome <> benvenuto
+- please <> per favore
+- thank you <> grazie
+
