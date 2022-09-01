@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=Por que ela terminou comigo?
+icon=9d77d24b95463b2b7a2e8c9aa8f7b1c9f8de9013
+set=17|6
+
+[HEADER]
+> ¿Por qué terminó      conmigo?
+~  por que ela~terminou comigo  
+
+[LINE]
+> Junior ve~a su~padre,   Eddy. Él  está muy   triste.
+~ Junior vê   o~pai~dele  Eddy  ele está muito triste 
+
+[LINE]
+Speaker415: ¿Estás bien, papá? 
+~            estás bem   papai 
+
+[LINE]
+Speaker414: No,  Karla terminó  conmigo y no  sé  por qué.
+~           não  Karla terminou comigo  e não sei por quê 
+
+[LINE]
+Speaker415: ¿Karla? ¿Tu  novia?    Ella es muy   simpática.
+~            Karla   tua namorada  ela  é  muito simpática 
+
+[MULTIPLE_CHOICE]
+> A namorada do Eddy terminou com ele.
++ Sim, isso mesmo.
+- Não, não é isso.
+
+[LINE]
+Speaker414: ¡Lo~sé!  Me~gustaba~mucho   y pensé  que yo~también~le~gustaba.    
+~            eu~sei  gostava~muito~dela e pensei que ela~também~gostava~de~mim 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "bonito".
+Speaker414: Me     (dijo)  (que) (era)    (+guapo). 
+~           ela~me  disse   que   eu~era    bonito  
+
+[LINE]
+Speaker415: ¿Ah, sí?  Increíble.
+~            ah  sim  incrível  
+
+[LINE]
+Speaker414: ¡Lo~sé! 
+~            eu~sei 
+
+[LINE]
+Speaker415: Entonces, ¿por qué terminó      contigo?
+~           então      por que ela~terminou contigo 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker415: ¿[(Le~prestabas) (atención) (cuando) (hablaba)?]   
+~              prestavas      atenção    quando   ela~falava   
+
+[LINE]
+Speaker414: Sí,  sé  cuál es su~color~favorito   y su~película~favorita. 
+~           sim  sei qual é  a~cor~favorita~dela e o~filme~favorito~dela 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker414: ¡[Y~también~conozco] su~apellido!     
+~             e~também~sei       o~sobrenome~dela 
+- Está bien conozco
+- Y también con osos
++ Y también conozco
+
+[LINE]
+Speaker415: Entonces, ¿qué~pasó?       
+~           então      o~que~aconteceu 
+
+[LINE]
+Speaker414: No  lo~sé…
+~           não sei   
+
+[LINE]
+Speaker414: Ayer  pasamos  una noche muy   bonita.
+~           ontem passamos uma noite muito bonita 
+
+[LINE]
+Speaker415: ¿Qué   hicieron?     
+~            o~que vocês~fizeram 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker414: Yo cociné   [la~cena]. 
+~           eu cozinhei  o~jantar  
+- el año pasado 
+~ o  ano passado
++ la~cena 
+~ o~jantar
+- en~el baño    
+~ no    banheiro
+
+[LINE]
+Speaker415: Ay,~no. 
+~           ah,~não 
+
+[LINE]
+Speaker415: Creo que ya sé  por qué terminó      contigo.
+~           acho que já sei por que ela~terminou contigo 
+
+[LINE]
+Speaker414: ¿Por qué?
+~            por quê 
+
+[LINE]
+Speaker415: Papá,  yo te quiero, pero cocinas  muy   mal.
+~           papai  eu te amo     mas  cozinhas muito mal 
+
+[MULTIPLE_CHOICE]
+> Ah, não! Por que a Karla terminou com o Eddy?
++ O jantar que ele fez estava terrível.
+- Ele esqueceu o nome dela.
+- As meias de academia dele cheiravam muito mal.
+
+[MATCH]
+> Toque nos pares
+- quiero <> amo
+- triste <> triste
+- Él <> ele
+- Estás <> estás
+- bien <> bem
+
