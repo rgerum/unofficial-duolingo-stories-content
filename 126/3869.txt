@@ -1,0 +1,129 @@
+[DATA]
+fromLanguageName=Noite de pizza
+icon=dcb1760c8fe5f2221fc2e3bc373a13632881ae44
+set=16|2
+
+[HEADER]
+> Pizza~Night   
+~ noite~de~pizza
+
+[LINE]
+Speaker414: Junior! What  do~you~want for  dinner?    
+~           Junior  o~que você~quer   para (o)~jantar 
+
+[LINE]
+Speaker415: I  want  pizza. I'm~eight~years~old…         I  always want  pizza.
+~           eu quero pizza  eu~tenho~oito~anos~de~idade  eu sempre quero pizza 
+
+[LINE]
+Speaker414: Cool!  We  can~make      a   pizza!
+~           legal  nós podemos~fazer uma pizza 
+
+[LINE]
+Speaker415: Or we  can~call~and~order    a   pizza!
+~           ou nós podemos~ligar~e~pedir uma pizza 
+
+[MULTIPLE_CHOICE]
+> O Junior quer pedir uma pizza.
+- Não, não é isso.
++ Sim, isso mesmo.
+
+[LINE]
+Speaker414: It~will~be more fun       to~make a   pizza!
+~           será       mais divertido fazer   uma pizza 
+
+[LINE]
+Speaker415: Fun       for  you? 
+~           divertido para você 
+
+[LINE]
+Speaker414: Fun       for  us!  Father and son!  
+~           divertido para nós  pai    e   filho 
+
+[LINE]
+Speaker415: I  want~you~to~be       happy, so…    OK.   
+~           eu quero~que~você~fique feliz  então  certo 
+
+[LINE]
+Speaker414: Great! Can~you~get     the flour,   water,    and salt?
+~           ótimo  você~pode~pegar a   farinha  (a)~água  e   sal  
+
+[MULTIPLE_CHOICE]
+> O Eddy precisa de água, sal e…
+- …um encontro.
+- …pizza.
++ …farinha.
+
+[LINE]
+Speaker415: OK…   
+~           certo 
+
+[LINE]
+Speaker414: Now   we  can~put~it           all~together…
+~           agora nós podemos~colocar~isso tudo~junto   
+
+[LINE]
+> They put     the flour,   water,    and salt together.
+~ eles colocam a   farinha  (a)~água  e   sal  juntos   
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker415: This is hard,    and [I'm hungry].
+~           isto é  difícil  e    ~   ~       
+- I'm angry
++ I'm hungry
+- aim at me
+
+[LINE]
+Speaker414: And now   we  have~to~wait.     
+~           e   agora nós temos~que~esperar 
+
+[LINE]
+Speaker415: We  have~to~wait?!     
+~           nós temos~que~esperar  
+
+[LINE]
+Speaker414: The dough isn't~ready     yet.  
+~           a   massa não~está~pronta ainda 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker415: When   will~it~be [ready]? 
+~           quando ela~ficará  pronta  
+- hungry  
+~ com~fome
++ ready 
+~ pronta
+- ordered
+~ pedida 
+
+[LINE]
+Speaker414: In two  hours.
+~           em duas horas 
+
+[LINE]
+> Junior looks~at  Eddy.
+~ Junior olha~para Eddy 
+
+[LINE]
+Speaker414: I'll~order a   pizza.
+~           eu~pedirei uma pizza 
+
+[LINE]
+Speaker415: You're a  great dad.
+~           você~é um ótimo pai 
+
+[MULTIPLE_CHOICE]
+> Por que o Eddy decidiu pedir uma pizza?
+- Ele não tinha os ingredientes certos.
+- O Junior comeu a massa toda.
++ Fazer uma pizza demora demais.
+
+[MATCH]
+> Toque nos pares
+- can make <> podemos fazer
+- Now <> agora
+- flour <> farinha
+- This <> isto
+- ready <> pronta
+
