@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=She Left Me
+icon=9d77d24b95463b2b7a2e8c9aa8f7b1c9f8de9013
+set=18|2
+
+[HEADER]
+> Sie hat mich~verlassen
+~ she has left~me       
+
+[LINE]
+> Eddy sitzt      traurig im~Wohnzimmer.      Junior kommt ins~Zimmer.   
+~ Eddy is~sitting sadly   in~the~living~room  Junior comes into~the~room 
+
+[LINE]
+Speaker415: Alles      OK, Papa?
+~           everything OK  dad  
+
+[LINE]
+Speaker414: Nein. Anja hat mich~verlassen und ich weiß~nicht, warum.
+~           no    Anja has left~me        and I   don't~know  why   
+
+[LINE]
+Speaker415: Deine Freundin?   Schade,  ich mochte Anja.
+~           your  girlfriend  too~bad  I   liked  Anja 
+
+[MULTIPLE_CHOICE]
+> Eddy's girlfriend broke up with him.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker414: Ich~auch. Und ich dachte,  sie mag   mich.
+~           me~too    and I   thought  she liked me   
+
+[CONTINUATION]
+> What comes next?
+Speaker414: Sie fand,  dass ich [gut~aussehe].     
+~           she found  that I    was~good-looking  
+- im~Ausland~Karotten~esse
+~ eat~carrots~abroad      
++ gut~aussehe     
+~ was~good-looking
+- ein~Pferd~einladen~muss
+~ have~to~invite~a~horse 
+
+[LINE]
+Speaker415: Wow, das~ist überraschend!
+~           wow  that's  surprising   
+
+[LINE]
+Speaker414: Nicht~wahr?
+~           isn't~it   
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(Aber) (warum) (hat) (sie) (dich~verlassen)?]
+~             but    why     has   she   left~you         
+
+[LINE]
+Speaker415: Hast du  ihr~zugehört,    wenn sie dir~etwas~erzählt~hat?
+~           have you listened~to~her  when she told~you~something    
+
+[LINE]
+Speaker414: Natürlich. Ich kenne ihre Lieblingsfarbe und ihren Lieblingsfilm  ...
+~           of~course  I   know  her  favorite~color and her   favorite~movie    
+
+[POINT_TO_PHRASE]
+> Choose the option that means "surname."
+Speaker414: Ich (kenne) (sogar) (ihren) (+Nachnamen)!
+~           I    know    even    her      surname    
+
+[LINE]
+Speaker415: Also, was  ist~passiert?
+~           so    what happened     
+
+[LINE]
+Speaker414: Ich weiß~es~nicht ...
+~           I   don't~know       
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Wir hatten gestern   Abend   [ein~tolles~Date].
+~           we  had    yesterday evening  a~great~date     
++ ein tolles Date
+- ein volles Date
+- Roller Skates
+
+[LINE]
+Speaker415: Was  habt ihr gemacht?
+~           what have you done    
+
+[LINE]
+Speaker414: Ich habe Abendessen~gekocht.
+~           I   have cooked~dinner      
+
+[LINE]
+Speaker415: Du  hast was?! 
+~           you have what  
+
+[LINE]
+Speaker415: Jetzt verstehe~ich, warum sie dich~verlassen~hat.
+~           now   I~understand  why   she has~left~you       
+
+[LINE]
+Speaker414: Äh, warum?
+~           uh  why   
+
+[LINE]
+Speaker415: Papa, du  bist ein super Typ, aber wahrscheinlich der schlechteste Koch der~Welt!    
+~           dad   you are  a   great guy  but  probably       the worst        cook in~the~world 
+
+[MULTIPLE_CHOICE]
+> Oh no! Why did Anja break up with Eddy?
++ The dinner he made was terrible.
+- He forgot her name.
+- His gym socks smelled really bad.
+
+[MATCH]
+> Tap the pairs
+- ins Zimmer <> into the room
+- das ist <> that's
+- Alles <> everything
+- Eddy <> Eddy
+- Nachnamen <> surname
+
