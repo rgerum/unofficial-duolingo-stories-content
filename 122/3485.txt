@@ -1,0 +1,129 @@
+[DATA]
+fromLanguageName=Pizzaabend
+icon=dcb1760c8fe5f2221fc2e3bc373a13632881ae44
+set=12|4
+
+[HEADER]
+> Pizza~Night
+~ Pizzaabend 
+
+[LINE]
+Speaker414: Junior! What do~you~want for dinner?    
+~           Junior  was  willst~du   zum Abendessen 
+
+[LINE]
+Speaker415: I   want pizza. I'm     eight years old… I   always~want pizza.
+~           ich will Pizza  ich~bin acht  Jahre alt  ich will~immer  Pizza 
+
+[LINE]
+Speaker414: Cool! We  can    make~a~pizza!     
+~           cool  wir können eine~Pizza~machen 
+
+[LINE]
+Speaker415: Or   we  can    call    and order~a~pizza!       
+~           oder wir können anrufen und eine~Pizza~bestellen 
+
+[MULTIPLE_CHOICE]
+> Junior will eine Pizza bestellen.
+- Nein, das ist falsch.
++ Ja, das ist richtig.
+
+[LINE]
+Speaker414: It will be~more~fun      to~make~a~pizza!     
+~           es wird mehr~Spaß~machen eine~Pizza~zu~machen 
+
+[LINE]
+Speaker415: Fun  for you? 
+~           Spaß für dich 
+
+[LINE]
+Speaker414: Fun  for us!  Father and son! 
+~           Spaß für uns  Vater  und Sohn 
+
+[LINE]
+Speaker415: I   want you~to~be~happy,          so…   OK.
+~           ich will (dass)~du~glücklich~bist  also  OK 
+
+[LINE]
+Speaker414: Great! Can    you get~the~flour,~water,~and~salt?             
+~           toll   kannst du  das~Mehl,~(das)~Wasser~und~(das)~Salz~holen 
+
+[MULTIPLE_CHOICE]
+> Eddy braucht Wasser, Salz und …
++ … Mehl.
+- … Pizza.
+- … ein Date.
+
+[LINE]
+Speaker415: OK…
+~           OK 
+
+[LINE]
+Speaker414: Now   we~can     put~it        all~together…     
+~           jetzt können~wir es~vermischen alles~miteinander 
+
+[LINE]
+> They put        the flour, water,  and salt  together.   
+~ sie  vermischen das Mehl   Wasser  und Salz- miteinander 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker415: This       is  hard,   and [I'm~hungry].     
+~           das~(hier) ist schwer  und  ich~habe~Hunger  
++ I'm hungry
+- aim at me
+- I'm angry
+
+[LINE]
+Speaker414: And now   we~have    to~wait.
+~           und jetzt müssen~wir warten  
+
+[LINE]
+Speaker415: We  have   to~wait?!
+~           wir müssen warten   
+
+[LINE]
+Speaker414: The dough isn't~ready~yet.      
+~           der Teig  ist~noch~nicht~fertig 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker415: When will it be~ready   y]?
+~           wann wird er fertig~sein   
+- ordered 
+~ bestellt
+- hungry 
+~ hungrig
++ ready 
+~ fertig
+
+[LINE]
+Speaker414: In two  hours.  
+~           in zwei Stunden 
+
+[LINE]
+> Junior looks  at Eddy.
+~ Junior schaut zu Eddy 
+
+[LINE]
+Speaker414: I'll      order~a~pizza.       
+~           ich~werde eine~Pizza~bestellen 
+
+[LINE]
+Speaker415: You're  a   great  dad. 
+~           du~bist ein toller Papa 
+
+[MULTIPLE_CHOICE]
+> Warum hat Eddy dann doch eine Pizza bestellt?
+- Er hatte nicht die richtigen Zutaten.
+- Junior hat den ganzen Teig gegessen.
++ Das Pizzabacken dauert zu lange.
+
+[MATCH]
+> Wähle die Paare
+- They <> sie
+- old <> alt
+- order a pizza <> eine Pizza bestellen
+- make a pizza <> eine Pizza machen
+- hard <> schwer
+
