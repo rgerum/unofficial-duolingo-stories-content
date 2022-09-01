@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=Đến lúc phải thay rồi
+icon=a2ac5b4bdad2cf4c70c2d3a4f3ff8e0ade6aba2d
+set=26|1
+
+[HEADER]
+> Time~for~a~Change    
+~ đến~lúc~phải~thay~rồi
+
+[LINE]
+> Lin brings a       big~blue~chair  into      Lucy's~apartment.
+~ Lin mang   1~chiếc ghế~to~màu~xanh vào~trong căn~hộ~của~Lucy  
+
+[LINE]
+Speaker508: Look~at      the~new~chair I    found    for the~living~room!
+~           hãy~nhìn…này chiếc~ghế~mới cháu tìm~được cho căn~phòng~khách 
+
+[LINE]
+Speaker509: I  can't~believe     you  actually paid   money for that!  
+~           bà không~thể~tin~nổi cháu thật~sự  đã~trả tiền  cho cái~đó 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker509: [How~much~did~it~cost]?    
+~            nó~có~giá~bao~nhiêu~tiền  
++ How much did it cost
+- How much he lost
+- Have such a cost 
+
+[LINE]
+Speaker508: It~was free!           I    found   it outside, in~front~of the~blue~house.   
+~           nó     không~mất~tiền  cháu đã~thấy nó ở~ngoài  phía~trước  ngôi~nhà~màu~xanh 
+
+[LINE]
+Speaker508: I    think that the~woman    who~lived            there died…    but~it's              a~free~chair! 
+~           cháu nghĩ  rằng người~phụ~nữ (người~mà)~từng~sống ở~đó  đã~chết  dù~sao~thì~nó~cũng~là ghế~cho~không 
+
+[LINE]
+Speaker509: You  aren't~going~to keep it in    our~living~room,          are~you?
+~           cháu không~định      để   nó trong phòng~khách~của~chúng~ta  chứ~hả  
+
+[MULTIPLE_CHOICE]
+> Hình như Lucy…
++ …không thích chiếc ghế.
+- …sẽ chuyển sang nhà mới.
+- …rất thích chiếc ghế.
+
+[LINE]
+Speaker508: I    knew         you were~going~to hate it.
+~           cháu biết~ngay~là bà  sẽ            ghét nó 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker509: [(It) (won't~look~nice)    (with) (our)           (curtains)…]
+~             nó   trông~sẽ~không~hợp   với    …của~chúng~ta   rèm        
+
+[LINE]
+Speaker509: But   I~suppose we       can~buy    new~curtains.
+~           nhưng có~lẽ~là  chúng~ta có~thể~mua rèm~mới      
+
+[LINE]
+Speaker508: Hey!   I    like  our~curtains…    
+~           ơ~này  cháu thích rèm~của~chúng~ta 
+
+[LINE]
+Speaker509: But   if  we       buy new~curtains, then we'll~need       to~buy new~pillows too…
+~           nhưng nếu chúng~ta mua rèm~mới       thì  chúng~ta~sẽ~phải mua    gối~mới     nữa 
+
+[LINE]
+Speaker508: I    like  the~pillows     we       have~now…
+~           cháu thích những~chiếc~gối chúng~ta đang~có  
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker509: Ooh!    Now     I'm~going~to [buy~new~lamps] too!     
+~           úi~chà  bây~giờ bà~sẽ         mua~đèn~mới    nữa~luôn 
+- but now lamps
+- buy new legs
++ buy new lamps
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker509: [(This~room)     (is~going~to) (be)      (beautiful)!]
+~             căn~phòng~này   sẽ            trở~nên   xinh~đẹp    
+
+[LINE]
+Speaker508: I    like  how~the~room~looks~now.
+~           cháu thích căn~phòng~như~bây~giờ  
+
+[LINE]
+Speaker509: Too~bad!  I'm~going~to change~the~room             now!     I'm~excited!   
+~           rất~tiếc  bà~sẽ        thay~đổi~diện~mạo~căn~phòng bây~giờ  bà~háo~hức~quá 
+
+[LINE]
+Speaker508: We're~going~to have~to buy~all~new~things…    
+~           chúng~ta~sẽ    phải    mua~mới~tất~cả~mọi~thứ 
+
+[LINE]
+Speaker509: That's~OK,  the~chair~was~free…          remember? 
+~           có~sao~đâu  chiếc~ghế~không~mất~tiền~mà  nhớ~không 
+
+[MULTIPLE_CHOICE]
+> Vì sao Lucy lại muốn sắm nội thất mới?
++ Chẳng có món đồ nào trong nhà hợp với chiếc ghế mới.
+- Căn hộ mới của bà ấy chưa có đồ đạc ở bên trong.
+- Đồ đạc trong nhà bà ấy có mùi rất khó chịu.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- brings <> mang
+- with <> với
+- a free chair <> ghế cho không
+- can buy <> có thể mua
+- in front of <> phía trước
+
