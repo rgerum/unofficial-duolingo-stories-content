@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Un cri dans le train
+icon=6a2cfe9a3b62354a66111cce8d24f451aa087ef0
+set=32|1
+
+[HEADER]
+> A  Scream on   the Night~Train  
+~ un cri    dans le  train~de~nuit
+
+[LINE]
+> Lucy and Lin are  on   a  train at~night. They're~getting~ready to~go~to~sleep in   their room.  
+~ Lucy et  Lin sont dans un train la~nuit   elles~se~préparent    à~s'endormir   dans leur  cabine 
+
+[LINE]
+> Suddenly,    they  hear      a  scream.
+~ tout~à~coup  elles entendent un cri    
+
+[LINE]
+Speaker509: Did~you~hear  that?
+~           tu~as~entendu ça   
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker508: Yeah.  Maybe         someone   [is~in~danger]. 
+~           ouais  peut-être~que quelqu'un  est~en~danger  
++ is in danger
+- is a ranger
+- has strange hair
+
+[LINE]
+> Lucy listens at the door. 
+~ Lucy écoute  à  la  porte 
+
+[LINE]
+Speaker509: Let~me~see      if everything is~OK.  
+~           laisse-moi~voir si tout       va~bien 
+
+[LINE]
+Speaker508: No!  Maybe~a         murderer  is  outside          our   room!  
+~           non  peut-être~qu'un meurtrier est à~l'extérieur~de notre cabine 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Lin ne veut-elle pas quitter la cabine ?
+- Elle n'a entendu personne crier.
+- Elle est trop fatiguée pour s'inquiéter de ce qui s'est passé.
++ Elle a peur qu'il y ait un assassin dans le train.
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker509: [(You) (watch)    (too~much) (TV).]     
+~             tu    regardes   trop       la~télé   
+
+[LINE]
+Speaker508: I  don't~want  someone~to~kill~me!  
+~           je ne~veux~pas que~quelqu'un~me~tue 
+
+[LINE]
+Speaker509: I'll~feel      better if I  see  what's~happening. 
+~           je~me~sentirai mieux  si je vois ce~qu'il~se~passe 
+
+[LINE]
+Speaker508: And I'll~feel      better if you lock~the~door         and go  to~sleep.
+~           et  je~me~sentirai mieux  si tu  fermes~la~porte~à~clé et  vas dormir   
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker509: Fine.     [I'll~stay      here].
+~           d'accord   je~vais~rester ici   
++ I'll~stay      here
+~ je~vais~rester ici 
+- I'll~drink    some coffee
+~ je~vais~boire du   café  
+- I'll~scream  
+~ je~vais~crier
+
+[LINE]
+> Later,     in~the middle of the night, Lin wakes~up.    She  sees that Lucy is~not    in   her bed.
+~ plus~tard  au     milieu de la  nuit   Lin se~réveille  elle voit que  Lucy n'est~pas dans son lit 
+
+[LINE]
+Speaker508: Oh, no!  Where's Grandma?
+~           oh  non  où~est  Mamie   
+
+[LINE]
+> Lin walks  into the hallway. Suddenly,    she  hears~Lucy~scream in   the next~room.      
+~ Lin marche dans le  couloir  tout~à~coup  elle entend~Lucy~crier dans la  cabine~d'à~côté 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+> [(She)  (runs~to)    (the~door) (and) (opens~it).]
+~   elle   court~vers   la~porte   et    l'ouvre    
+
+[LINE]
+> Inside the room,   Lucy is~playing cards      with a  group  of women. 
+~ dans   la  cabine  Lucy joue       aux~cartes avec un groupe de femmes 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker508: Grandma? [Why~did~you~scream]?! 
+~           Mamie     pourquoi~tu~as~crié   
+- Why did you dream
++ Why did you scream
+- Where's the ice cream
+
+[LINE]
+Speaker509: Lin! Meet           my new      friend, Jane! She's~not      a   murderer.  
+~           Lin  je~te~présente ma nouvelle amie    Jane  elle~n'est~pas une meurtrière 
+
+[LINE]
+Speaker509: But  she  did~just~take~$100~from~me    in      our   card~game.       
+~           mais elle vient~bien~de~me~prendre~100$ pendant notre partie~de~cartes 
+
+[MULTIPLE_CHOICE]
+> Des gens criaient dans le train...
+- ... parce que le train a été retardé.
++ ... parce qu'ils perdaient de l'argent aux cartes.
+- ... parce que Jane est une tueuse en série.
+
+[MATCH]
+> Choisis les paires
+- a <> un
+- walks <> marche
+- that <> ça
+- hear <> entendent
+- watch <> regardes
+
