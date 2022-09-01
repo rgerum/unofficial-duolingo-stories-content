@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=¿Dónde está Marie?
+icon=7a321a8d84d41c79b4d3c85aced0cbcdd13756b6
+set=5|1
+
+[HEADER]
+> Où    est  Marie ?
+~ dónde está Marie  
+
+[LINE]
+> Junior rentre de l'école.   
+~ Junior vuelve de la~escuela 
+
+[SELECT_PHRASE]
+> Completa la oración
+> Il~y~a une femme [dans~le~salon].
+~ hay    una mujer  en~la~sala     
+- sort du salon
++ dans le salon
+- dans le talon
+
+[LINE]
+Speaker415: Bonjour…     Qui   êtes-vous ?
+~           buenos~días  quién es~usted   
+
+[LINE]
+Speaker658: Je suis Agathe.
+~           yo soy  Agathe 
+
+[LINE]
+Speaker658: J'attends              ton papa. Il est  aux~toilettes.
+~           (yo)~estoy~esperando~a tu  papá  él está ~en~el~baño   
+
+[LINE]
+Speaker415: Moi, c'est Junior ! Où    est  Marie ?
+~           yo   soy   Junior   dónde está Marie  
+
+[LINE]
+Speaker658: Enchantée, Junior.
+~           encantada  Junior 
+
+[LINE]
+Speaker658: Je ne~sais~pas où    est  Marie. Elle est  souvent~ici   ?
+~           yo no~sé       dónde está Marie  ella está aquí~a~menudo  
+
+[LINE]
+Speaker415: Oui ! Tous  les jours.
+~           sí    todos los días  
+
+[LINE]
+Speaker658: Tous  les jours !?
+~           todos los días    
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker415: [(Papa) (et) (Marie) (parlent) (tous~les~matins).]  
+~             papá   y    Marie   hablan    todas~las~mañanas   
+
+[LINE]
+Speaker658: Quoi !?
+~           qué    
+
+[LINE]
+Speaker658: Et… tu~aimes bien Marie ?
+~           y   te~cae   bien Marie  
+
+[LINE]
+Speaker415: Oui,~j'aime bien Marie, mais…
+~           sí  me~cae  bien Marie  pero 
+
+[LINE]
+Speaker415: … elle parle beaucoup ! Mais mon père adore Marie !
+~             ella habla mucho      pero mi  papá ama~a Marie  
+
+[MULTIPLE_CHOICE]
+> A Junior le cae bien Marie…
+- …pero ella es una cocinera terrible.
++ …pero ella habla demasiado.
+- …pero a ella no le cae bien él.
+
+[LINE]
+Speaker658: Il adore Marie ?!
+~           él ama~a Marie   
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker658: Ton père ne~peut~pas être~avecc deux femmes ]!
+~           tu  papá no~puede    tener      dos  novias   
+- souvent~ici  
+~ aquí~a~menudo
++ avec~deux femmes
+~ dos       novias
+- tous  les matins 
+~ todas las mañanas
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "se va".
+> (Agathe) (+part).  (Eddy) (sort) des~toilettes.
+~  Agathe    se~va    Eddy   sale  del~baño      
+
+[LINE]
+Speaker414: Où    est  Agathe ?
+~           dónde está Agathe  
+
+[LINE]
+Speaker415: Elle~n'aime~pas       Marie.
+~           a~ella~no~le~cae~bien Marie 
+
+[LINE]
+Speaker414: Oh, non !
+~           ay  no   
+
+[LINE]
+Speaker414: Agathe ! Marie est notre   perroquet !
+~           Agathe   Marie es  nuestro loro       
+
+[LINE]
+Speaker625: Croa   ! Au~revoir, Agathe !
+~           rrrroá   adiós      Agathe  
+
+[MULTIPLE_CHOICE]
+> ¡Ay! ¿Por qué se fue Agathe?
++ No sabía que Marie era un pájaro.
+- Vio a otra mujer en la sala.
+- Eddy nunca salió del baño.
+
+[MATCH]
+> Selecciona los pares
+- et <> y
+- Junior <> Junior
+- Il <> él
+- Oui <> sí
+- des toilettes <> del baño
+
