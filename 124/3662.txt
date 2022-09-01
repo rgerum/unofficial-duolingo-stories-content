@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Le gâteau dragon
+icon=c2fbecd45802dc974e3ec727a0206cfec66fd87f
+set=24|3
+
+[HEADER]
+> The Dragon~Cake  
+~ le  gâteau~dragon
+
+[LINE]
+> Bea is~watching Vikram decorate a  wedding~cake      for  her friend, Kara.
+~ Bea regarde     Vikram décorer  un gâteau~de~mariage pour son amie    Kara 
+
+[LINE]
+Speaker507: Wow,   I~love  how     you decorated the cake!  
+~           waouh  j'adore comment tu  as~décoré le  gâteau 
+
+[LINE]
+Speaker507: The bride~and~groom are~riding  dragons,     just       like  the characters  from Kara~and~David's~favorite~TV~show!      
+~           les mariés          chevauchent des~dragons  exactement comme les personnages de   la~série~télé~préférée~de~Kara~et~David 
+
+[MULTIPLE_CHOICE]
+> Le gâteau est décoré sur le thème d'une série télé.
+- Non, c'est faux.
++ Oui, c'est vrai.
+
+[LINE]
+Speaker593: Kara's   my first    customer. I~just~hope    that~she'll~like the cake.  
+~           Kara~est ma première cliente   j'espère~juste qu'elle~aimera   le  gâteau 
+
+[LINE]
+> Bea gets   a  text~message from Kara.
+~ Bea reçoit un texto        de   Kara 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « a annulé ».
+Speaker507: Oh, no!  (Kara) (+canceled) (the) (wedding)!
+~           oh  non   Kara    a~annulé   le    mariage  
+
+[LINE]
+Speaker593: What? Why?!     
+~           quoi  pourquoi  
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker507: David [stole~her~car]     and left     the country with another   woman!
+~           David  a~volé~sa~voiture  et  a~quitté le  pays    avec une~autre femme 
+- stole her a bar
++ stole her car
+- stood her car
+
+[LINE]
+Speaker593: That's awful!   
+~           c'est  terrible 
+
+[LINE]
+Speaker507: I  can't~believe~it.       
+~           je n'arrive~pas~à~y~croire 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker593: I  know. I  really~wanted    Kara~to~like  [this cake].  
+~           je sais  je voulais~vraiment que~Kara~aime  ce   gâteau  
++ this cake  
+~ ce   gâteau
+- another   woman
+~ une~autre femme
+- a   different~TV~show    
+~ une sérié~télé~différente
+
+[LINE]
+Speaker507: I~have an  idea.
+~           j'ai   une idée 
+
+[LINE]
+> Bea redecorates the cake.  
+~ Bea redécore    le  gâteau 
+
+[LINE]
+Speaker593: Wait,    now        it~looks~like the dragons are~eating the groom!
+~           attends  maintenant on~dirait~que les dragons mangent    le  marié 
+
+[MULTIPLE_CHOICE]
+> Bea a redécoré le gâteau parce que…
++ … Kara a annulé le mariage.
+- … Vikram veut garder les dragons.
+- … Kara lui a demandé de le faire.
+
+[LINE]
+> Bea takes a   picture and sends~it to Kara. Then, she  smiles.
+~ Bea prend une photo   et  l'envoie à  Kara  puis  elle sourit 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker507: [(Kara) (just~sent~me)       (a)  (message)!]
+~             Kara   vient~de~m'envoyer   un   texto     
+
+[LINE]
+Speaker593: What~did~she~say?       
+~           qu'est-ce~qu'elle~a~dit 
+
+[LINE]
+Speaker507: She's    still    really sad,    but  she  loves the cake.  
+~           elle~est toujours très   triste  mais elle adore le  gâteau 
+
+[LINE]
+Speaker593: That's all~I          wanted! 
+~           c'est  tout~ce~que~je voulais 
+
+[MULTIPLE_CHOICE]
+> En fin de compte, pourquoi Kara aime-t-elle le gâteau ?
+- Elle a décidé d'épouser Bea.
+- Elle est impatiente d'être à son mariage.
++ Les dragons mangent le marié.
+
+[MATCH]
+> Choisis les paires
+- characters <> personnages
+- wedding <> mariage
+- still <> toujours
+- redecorates <> redécore
+- are riding <> chevauchent
+
