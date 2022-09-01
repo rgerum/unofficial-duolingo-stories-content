@@ -1,0 +1,89 @@
+[DATA]
+fromLanguageName=A New Video Game
+icon=5ac2251224ddf0950fe6c8404d9d3f4e843508e7
+set=3|3
+
+[HEADER]
+> Ein neues Videospiel
+~ a   new   video~game
+
+[LINE]
+> Junior und Eddy sind im~Kaufhaus.            
+~ Junior and Eddy are  in~the~department~store 
+
+[LINE]
+Speaker415: Papa! Ich muss~auf~jeden~Fall das~Videospiel~hier~haben!
+~           dad   I   definitely~have~to  have~the~video~game~here  
+
+[LINE]
+Speaker414: Du  musst~das~Videospiel~nicht~haben! 
+~           you don't~have~to~have~the~video~game 
+
+[LINE]
+Speaker415: Bitte  Papa! Das Spiel hat total  coole Aliens!!
+~           please dad   the game  has really cool  ~       
+
+[MULTIPLE_CHOICE]
+> What is Junior telling his dad?
++ He wants a video game that has cool aliens.
+- He thinks aliens have invaded the department store.
+- He thinks Alien is one of the coolest movies.
+
+[CONTINUATION]
+> What comes next?
+Speaker414: Junior. Du  musst~das~Spiel~nicht~haben. Du  [möchtest~es~haben].    
+~           Junior  you don't~have~to~have~the~game  you  would~like~to~have~it  
+- kannst es~grillen
+~ can    grill~it  
++ möchtest      es~haben
+~ would~like~to have~it 
+- musst   es~trinken
+~ have~to drink~it  
+
+[LINE]
+Speaker415: Gut,  ich möchte     das~Spiel~haben.  Bitte?! 
+~           Fine  I   would~like to~have~the~game  please  
+
+[LINE]
+Speaker414: Nein, du  hast zu~Hause so viele Videospiele!
+~           no    you have at~home  so many  video~games 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "home."
+Speaker415: (OK). (Gehen~wir)    (jetzt) (+nach~Hause)?
+~            OK    are~we~going   now      home        
+
+[LINE]
+Speaker414: Nein, wir~gehen   jetzt zu~Vikram.        
+~           no    we're~going now   to~Vikram's~house 
+
+[LINE]
+Speaker415: Oh nein! Seine Wohnung   ist so langweilig!
+~           oh no    his   apartment is  so boring     
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Aber Vikram hat einen großen Fernseher.  Und ich muss    [das~Fußballspiel~sehen].
+~           but  Vikram has a     big    television  and I   need~to  watch~the~soccer~game   
+- zum Fußballspiel gehen
++ das Fußballspiel sehen
+- Fußball verstehen
+
+[LINE]
+Speaker415: Du  musst~das~Spiel~nicht~sehen,  Papa. Du  möchtest~es~sehen.     
+~           you don't~have~to~watch~the~game  dad   you would~like~to~watch~it 
+
+[MULTIPLE_CHOICE]
+> What did both Eddy and Junior do in the story?
+- They played video games with Vikram.
+- They looked out for aliens.
++ They said they "must" have something that they simply "wanted."
+
+[MATCH]
+> Tap the pairs
+- möchte <> would like
+- zu Vikram <> to Vikram's house
+- coole <> cool
+- Papa <> dad
+- Wohnung <> apartment
+
