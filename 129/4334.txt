@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=Tren Bileti
+icon=1cad8a6eda3c353f9c7c98e338cb8fc3d211644d
+set=10|3
+
+[HEADER]
+> The Train Ticket
+~ ~   Tren  bileti
+
+[LINE]
+> Layla is   at  a   restaurant.
+~ ~     -dır -da bir restoran   
+
+[LINE]
+> She talks   to~the~waiter, Matthew.
+~ O   konuşur garsonla       ~       
+
+[MULTIPLE_CHOICE]
+> Layla bir restoranda garsonla konuşuyor.
+- Hayır, bu doğru değil.
++ Evet, bu doğru.
+
+[LINE]
+Speaker1715: OK,    I'm~going to the train station   now.  
+~            tamam  gidiyorum -a ~   tren  istasyonu şimdi 
+
+[LINE]
+Speaker526: Where  are~you~traveling?  
+~           nereye seyahat~ediyorsunuz 
+
+[LINE]
+Speaker1715: Chicago.
+
+[LINE]
+Speaker526: Wow! I|'  m~from~Chicago!
+~           ~    ben Chicago'luyum   
+
+[LINE]
+Speaker1715: Nice!    
+~            ne~güzel 
+
+[LINE]
+Speaker526: I~really~want       to~visit      my~family…
+~           gerçekten~istiyorum ziyaret~etmek ailemi    
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker526: [(But)   (tickets)  (are) (too) (expensive).]
+~             Fakat   biletler   ~     çok   pahalı      
+
+[LINE]
+Speaker1715: I'm~sorry.
+~            üzgünüm   
+
+[LINE]
+Speaker526: It's~OK.    
+~           sorun~değil 
+
+[LINE]
+Speaker526: Why   are you~going    to Chicago?
+~           Neden ~   gidiyorsunuz -a ~       
+
+[MULTIPLE_CHOICE]
+> Matthew ...
+- … Layla'nın yemeği neden pahalıydı, bilmek istiyor.
++ … Layla'nın neden Chicago'ya gideceğini bilmek istiyor.
+- … Layla Chicago'da nerede kalacağını bilmek istiyor.
+
+[LINE]
+Speaker1715: A   job~interview.
+~            Bir iş~görüşmesi  
+
+[MULTIPLE_CHOICE]
+> Layla neden Chicago'ya gidiyor?
++ Bir iş görüşmesi var.
+- Trenle seyahat etmeyi çok sevdiği için.
+- Ailesini ziyaret edecek.
+
+[LINE]
+Speaker1715: But   I~don't~want this job…
+~            Fakat istemiyorum  bu   işi 
+
+[LINE]
+Speaker526: Oh.
+
+[LINE]
+Speaker1715: I~want    to~be here,   near  my~family.
+~            istiyorum olmak burada  yakın aileme    
+
+[LINE]
+Speaker526: Oh.
+
+[LINE]
+Speaker1715: Do~you…~want  my    ticket?  
+~            ister~misiniz benim biletimi 
+
+[LINE]
+Speaker526: What?
+~           Ne   
+
+[LINE]
+Speaker1715: You~can~visit         your~family.
+~            ziyaret~edebilirsiniz ailenizi    
+
+[LINE]
+Speaker526: OK!    Thank~you!      
+~           tamam  teşekkür~ederim 
+
+[POINT_TO_PHRASE]
+> "Yakında" anlamına gelen seçeneği tıklayın.
+Speaker1715: Oh, (but) (the) (train) leaves    (+soon).   
+~            ~    ama   ~     tren   ayrılacak   yakında  
+
+[LINE]
+Speaker1715: And you're~working now.  
+~            Ve  çalışıyorsunuz şu~an 
+
+[LINE]
+Speaker526: No,    it's~OK!    
+~           Hayır  sorun~değil 
+
+[LINE]
+Speaker526: I   also   don't~want  this job!
+~           ben Ayrıca istemiyorum bu   işi 
+
+[MULTIPLE_CHOICE]
+> Layla ne yaptı?
++ Matthew'a tren biletini verdi.
+- Bir restoranda çalışmaya başladı.
+- Matthew ile Chicago'ya gitti.
+
+[MATCH]
+> Çiftlere dokun
+- Do you… want <> ister misiniz
+- But <> Fakat
+- I'm sorry <> üzgünüm
+- She <> O
+- Thank you <> teşekkür ederim
+
