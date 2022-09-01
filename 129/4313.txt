@@ -1,0 +1,147 @@
+[DATA]
+fromLanguageName=İstasyona!
+icon=5bee618bd907474764094eddf36ddcbc46523c98
+set=5|2
+
+[HEADER]
+> To the Station! 
+~ -a ~   İstasyon 
+
+[LINE]
+> Oscar gets  in a   taxi. 
+~ ~     biner -e bir taksi 
+
+[LINE]
+> His  friend,   Lin, is~driving the~taxi.
+~ Onun arkadaşı  ~    sürüyor    taksiyi  
+
+[MULTIPLE_CHOICE]
+> Oscar bir takside ve arkadaşı Lin taksiyi kullanıyor.
++ Evet, bu doğru.
+- Hayır, bu doğru değil.
+
+[LINE]
+Speaker592: Lin! You are~driving a   taxi! 
+~           ~    Sen sürüyorsun  bir taksi 
+
+[LINE]
+Speaker508: Yes!  It~is my    new  job! 
+~           Evet  bu    benim yeni işim 
+
+[POINT_TO_PHRASE]
+> "Gitmek" anlamına gelen seçeneği tıklayın.
+Speaker508: (Where)  (do~you~want)    (+to~go)? 
+~            nereye   sen~istiyorsun    gitmek  
+
+[LINE]
+Speaker592: To the station,  please!
+~           -a ~   istasyon  Lütfen 
+
+[LINE]
+Speaker508: Where  is the station? 
+~           Nerede ~  ~   istasyon 
+
+[LINE]
+Speaker592: I~do~not~know.
+~           bilmiyorum    
+
+[MULTIPLE_CHOICE]
+> Oscar...
++ … istasyonun nerede olduğunu bilmiyor.
+- … Lin'in kim olduğunu bilmiyor.
+- … nereye gitmek istediğini bilmiyor.
+
+[LINE]
+Speaker508: OK…   
+~           tamam 
+
+[LINE]
+> Lin starts driving.
+~ ~   başlar sürmeye 
+
+[MULTIPLE_CHOICE]
+> Lin...
++ … taksiyi sürmeye başladı.
+- … yürümeye başladı.
+- … yemek yemeye başladı.
+
+[LINE]
+Speaker508: We~are~here!
+~           işte~geldik 
+
+[LINE]
+Speaker592: Lin… this is not   the station.  This~is the university.
+~           ~    bu   ~  değil ~   istasyon  bu      ~   Üniversite 
+
+[LINE]
+Speaker508: Oh…
+
+[LINE]
+> Lin starts driving.
+~ ~   başlar sürmeye 
+
+[LINE]
+Speaker508: We~are~here!
+~           işte~geldik 
+
+[LINE]
+Speaker592: Lin…
+
+[LINE]
+Speaker508: Yes? 
+~           Evet 
+
+[LINE]
+Speaker592: This~is the hospital.
+~           bu      ~   hastane  
+
+[LINE]
+Speaker508: Oh…
+
+[POINT_TO_PHRASE]
+> "Tekrar" anlamına gelen seçeneği tıklayın.
+> (Lin) (starts) (driving)… (+again). 
+~  ~     başlar   sürmeye     tekrar  
+
+[LINE]
+Speaker508: OK,    we~are~here!
+~           tamam  işte~geldik 
+
+[LINE]
+Speaker592: Lin, this~is not   the station… 
+~           ~    bu      değil ~   istasyon 
+
+[LINE]
+Speaker508: I~know.    This~is my~apartment.
+~           biliyorum  bu      apartmanım   
+
+[LINE]
+Speaker508: I~do~not~want to~drive a   taxi. 
+~           istemiyorum   sürmek   bir taksi 
+
+[LINE]
+Speaker508: It~is a   difficult job.
+~           bu    bir zor       iş  
+
+[LINE]
+> Lin gets~out of~the~taxi.
+~ ~   iner     taksiden    
+
+[LINE]
+Speaker508: Good~night,  Oscar!
+~           iyi~geceler  ~     
+
+[MULTIPLE_CHOICE]
+> Lin ne yapmaya karar verdi?
+- Birinin ona nasıl istasyona gideceğini söylemesini istedi.
+- Oscar ile trenle geziye çıkmayı.
++ Eve gitmeye, çünkü taksi sürmenin çok zor olduğunu düşünüyor.
+
+[MATCH]
+> Çiftlere dokun
+- my apartment <> apartmanım
+- new <> yeni
+- to go <> gitmek
+- I do not want <> istemiyorum
+- You <> Sen
+
