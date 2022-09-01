@@ -1,0 +1,133 @@
+[DATA]
+fromLanguageName=Can I Help You?
+icon=3353b2d2d326875fc3ab76228fda57149bcd012a
+set=9|4
+
+[HEADER]
+> Je peux vous~aider    ?
+~ I  can  (to)~help~you  
+
+[LINE]
+> Lin est dans~la~rue.  
+~ Lin is  on~the~street 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+> Elle [voit~un~homme] devant      sa~voiture.
+~ she   sees~a~man     in~front~of his~car    
+- veut une pomme
+- va à Rome
++ voit un homme
+
+[LINE]
+> Il est stressé. 
+~ he is  stressed 
+
+[LINE]
+Speaker508: Bonjour ! Je peux vous~aider    ?
+~           hello     I  can  (to)~help~you  
+
+[LINE]
+Speaker127: J'ai   un~problème avec ma~voiture.
+~           I~have a~problem   with my~car     
+
+[LINE]
+Speaker127: Je peux utiliser votre~portable,  s'il~vous~plaît ?
+~           I  can  (to)~use your~cell~phone  please           
+
+[LINE]
+> Lin donne son~portable   à  l'homme.
+~ Lin gives her~cell~phone to the~man 
+
+[LINE]
+Speaker508: Oui, mais...
+~           yes  but    
+
+[LINE]
+Speaker127: Excusez-moi.
+~           excuse~me   
+
+[LINE]
+> L'homme utilise le~téléphone~de~Lin.
+~ the~man uses    Lin's~phone         
+
+[LINE]
+Speaker127: Bonjour ! C'est   le~garage            ?
+~           hello     is~this the~auto~repair~shop  
+
+[MULTIPLE_CHOICE]
+> The man borrowed Lin's phone so he could...
+- ...look through her pictures.
+- ...check the time.
++ ...call an auto repair shop.
+
+[LINE]
+Speaker127: J'ai   un~problème.
+~           I~have a~problem   
+
+[LINE]
+Speaker508: Euh… Monsieur ?
+~           uh   sir       
+
+[LINE]
+> L'homme ignore  Lin.
+~ the~man ignores Lin 
+
+[ARRANGE]
+> Tap what you hear
+Speaker127: [(Non,~je) (ne~sais~pas) (où)    (je~suis).]
+~             no,~I     don't~know    where   I~am      
+
+[LINE]
+Speaker127: Excusez-moi ?
+~           excuse~me    
+
+[LINE]
+Speaker508: Oui ?
+~           yes  
+
+[LINE]
+Speaker127: Nous~sommes~où ?
+~           where~are~we    
+
+[LINE]
+Speaker508: Pas loin du       garage.          
+~           not far  from~the auto~repair~shop 
+
+[LINE]
+Speaker127: Pardon ?
+~           sorry   
+
+[CONTINUATION]
+> What comes next?
+Speaker508: Je travaille au     garage           [le~week-end].
+~           I  work      at~the auto~repair~shop  on~weekends  
+- avec vous
+~ with you 
++ le~week-end
+~ on~weekends
+- de la  reine
+~ of the queen
+
+[LINE]
+Speaker508: Je suis mécanicienne !
+~           I  am   a~mechanic    
+
+[LINE]
+Speaker508: Alors, je peux vous~aider    ?
+~           so     I  can  (to)~help~you  
+
+[MULTIPLE_CHOICE]
+> It turns out that Lin…
++ …works at the auto repair shop the man called.
+- …needs help buying a new phone.
+- …doesn't know where she is.
+
+[MATCH]
+> Tap the pairs
+- le week-end <> on weekends
+- donne <> gives
+- à <> to
+- son portable <> her cell phone
+- le garage <> the auto repair shop
+
