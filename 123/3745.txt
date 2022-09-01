@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=Ropa para mis vacaciones
+icon=eda1b8214a6937df66a552eb581f2353da4d0352
+set=2|4
+
+[HEADER]
+> Des~vêtements pour mes vacances  
+~ ropa          para mis vacaciones
+
+[LINE]
+> Lucie est  dans un  magasin.
+~ Lucie está en   una tienda  
+
+[LINE]
+Speaker509: Bonjour     !
+~           buenos~días  
+
+[LINE]
+Speaker509: Je voudrais des~vêtements pour mes vacances.  
+~           yo quisiera ropa          para mis vacaciones 
+
+[MULTIPLE_CHOICE]
+> Lucie está comprando ropa para sus vacaciones.
+- No, no es así.
++ Sí, así es.
+
+[LINE]
+Speaker416: OK.       
+~           está~bien 
+
+[LINE]
+Speaker509: Je voudrais… un short.         
+~           yo quisiera  un pantalón~corto 
+
+[LINE]
+> Lily prend un short          rouge.
+~ Lily toma  un pantalón~corto rojo  
+
+[LINE]
+Speaker509: Non ! Je voudrais un short          vert  !
+~           no    yo quisiera un pantalón~corto verde  
+
+[MULTIPLE_CHOICE]
+> ¿Qué quiere Lucie ahora?
++ un pantalón corto verde
+- un pantalón corto amarillo
+- un carro marrón nuevo
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+> [(Lily) (prend) (un) (short)          (vert).] 
+~   Lily   toma    un   pantalón~corto   verde   
+
+[LINE]
+Speaker509: Et je voudrais des  bottes.
+~           y  yo quisiera unas botas  
+
+[LINE]
+> Lily prend des  bottes vertes.
+~ Lily toma  unas botas  verdes 
+
+[LINE]
+Speaker509: Non. Des  bottes blanches !
+~           no   unas botas  blancas   
+
+[MULTIPLE_CHOICE]
+> Lucie quiere…
+- …camisetas blancas.
++ …botas blancas.
+- …carros blancos.
+
+[LINE]
+Speaker416: OK…       
+~           está~bien 
+
+[LINE]
+Speaker509: Un short          vert,  des  bottes blanches.
+~           un pantalón~corto verde  unas botas  blancas  
+
+[LINE]
+Speaker509: Et une veste    !
+~           y  una chaqueta  
+
+[LINE]
+> Lily prend une veste.   
+~ Lily toma  una chaqueta 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker509: Non ! Une [veste~orange]     !
+~           no    una  chaqueta~naranja   
+- zeste d'orange
++ veste orange
+- reste on mange
+
+[LINE]
+> Lily prend une veste    orange. 
+~ Lily toma  una chaqueta naranja 
+
+[LINE]
+Speaker509: Parfait  ! Je~peux    aller~en~vacances. 
+~           perfecto   (yo)~puedo irme~de~vacaciones 
+
+[LINE]
+Speaker416: Et moi, je veux   des~vacances…
+~           y  yo   yo quiero vacaciones   
+
+[MULTIPLE_CHOICE]
+> ¡Pobre Lily! ¿Por qué quiere vacaciones?
+- Ella tiene mucha ropa nueva para usar.
++ Ella está cansada después de ayudar a Lucie a buscar ropa.
+- Ella comió demasiado en el almuerzo.
+
+[MATCH]
+> Selecciona los pares
+- des <> unas
+- dans <> en
+- OK <> está bien
+- rouge <> rojo
+- bottes <> botas
+
