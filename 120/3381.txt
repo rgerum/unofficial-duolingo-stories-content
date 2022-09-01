@@ -1,0 +1,136 @@
+[DATA]
+fromLanguageName=The Drawing
+icon=96fd9b652456a41bca2912838b14cb5bd9f7827a
+set=7|1
+
+[HEADER]
+> Il  disegno
+~ the drawing
+
+[LINE]
+> Gustavo va   tutti~i~giorni al     parco con  il~cane.  
+~ ~       goes every~day      to~the park  with (his)~dog 
+
+[SELECT_PHRASE]
+> Select the missing word or phrase
+> E,   [ogni~giorno], vede    Anna che~disegna al     parco.
+~ and   each~day      he~sees ~    drawing     in~the park  
++ ogni giorno
+- oggigiorno
+- ogni corno
+
+[LINE]
+> Un  giorno, decide     di~rivolgerle~la~parola.
+~ one day     he~decides to~talk~to~her          
+
+[LINE]
+Speaker385: Ciao!
+~           hi   
+
+[LINE]
+Speaker101: Oh, salve!
+~           ~   hello 
+
+[CONTINUATION]
+> What comes next?
+Speaker385: Posso [farti~una~domanda]? 
+~           I~can  ask~you~a~question  
++ farti~una~domanda 
+~ ask~you~a~question
+- un  giorno
+~ one ~     
+- al     parco
+~ in~the ~    
+
+[LINE]
+Speaker101: Dimmi.  
+~           tell~me 
+
+[LINE]
+Speaker385: Ti~vedo~disegnare tutti~i~giorni...
+~           I~see~you~drawing every~day        
+
+[LINE]
+Speaker101: Sì... 
+~           yes   
+
+[LINE]
+Speaker385: Che~cosa disegni? 
+~           what     you~draw 
+
+[LINE]
+Speaker101: Oh, ecco...
+~           ~   well   
+
+[ARRANGE]
+> Tap what you hear
+Speaker101: [(Un) (mucchio) (di) (cose)!]  
+~             a    lot       of   things   
+
+[LINE]
+Speaker101: Disegno quello~che mi~sembra bello     o  interessante.       
+~           I~draw  what       seems     beautiful or interesting~(to~me) 
+
+[LINE]
+Speaker385: Stupendo!
+~           great    
+
+[LINE]
+Speaker385: Ora cosa stai~disegnando?
+~           now what you're~drawing  
+
+[LINE]
+Speaker101: È    un segreto...
+~           it's a  secret    
+
+[MULTIPLE_CHOICE]
+> What is Anna's secret?
+- The park.
++ Her drawing.
+- Her name.
+
+[LINE]
+Speaker385: Perché?
+~           why    
+
+[LINE]
+Speaker101: Beh,  tu  vieni al     parco tutti~i~giorni...
+~           well  you come  to~the park  every~day        
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker385: [Stavi~disegnando] me?
+~            you~were~drawing  ~  
+- Stare sognando
++ Stavi disegnando
+- Stavi segnando
+
+[LINE]
+Speaker385: Ecco, anch'io penso~tu~sia  molto bella.    
+~           well  I~also  think~you~are very  beautiful 
+
+[LINE]
+Speaker101: No, no. Scusa. Non~stavo~disegnando te. 
+~           ~   ~   sorry  I~wasn't~drawing     you 
+
+[LINE]
+Speaker385: Oh...
+
+[LINE]
+Speaker101: Stavo~disegnando il~tuo cane! È    perfetto! Guarda!
+~           I~was~drawing    your   dog   he's perfect   look   
+
+[MULTIPLE_CHOICE]
+> Gustavo believed that...
+- ... it was the first time Anna had visited the park.
+- ... his dog had escaped.
++ ... Anna was drawing a picture of him.
+
+[MATCH]
+> Tap the pairs
+- Ciao <> hi
+- Ti vedo disegnare <> I see you drawing
+- Guarda <> look
+- Disegno <> I draw
+- Stupendo <> great
+
