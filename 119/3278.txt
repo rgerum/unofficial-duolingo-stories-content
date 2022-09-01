@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Dinner with the CEO
+icon=48ff56bf472c683d952ff24420066dbef5e7ac9f
+set=28|1
+
+[HEADER]
+> Abendessen mit  der Geschäftsführerin
+~ dinner     with the CEO              
+
+[LINE]
+> Bea ist im~Büro       und kopiert    Dokumente. Ihr Chef Christoph kommt            zu ihr.
+~ Bea is  at~the~office and is~copying documents  her boss Christoph is~coming~(over) to her 
+
+[LINE]
+Speaker100: Bea, ich treffe~mich heute mit  unserer Geschäftsführerin zum~Abendessen.
+~           Bea  I   will~meet   today with our     CEO               for~dinner     
+
+[LINE]
+Speaker100: Kannst du  mitkommen?  Letztes Mal  hattest du  keine Zeit.
+~           can    you come~along  last    time had     you no    time 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: Ich möchte~wirklich~gern mitkommen,  aber [ich~kann~nicht].
+~           I   would~really~like~to come~along  but   I~can't         
+- dann kann ich
+- du kommst nicht
++ ich kann nicht
+
+[LINE]
+Speaker100: Schade,       sie möchte              dich~so~gern~kennenlernen ...
+~           what~a~shame  she would~(really)~like to~meet~you                  
+
+[LINE]
+Speaker507: Ich weiß. Es~tut~mir~leid.
+~           I   know  I'm~sorry       
+
+[LINE]
+> Später sitzt~Christoph      mit  Paula, der Geschäftsführerin, beim~Abendessen.
+~ later  Christoph~is~sitting with Paula  the CEO                at~dinner       
+
+[ARRANGE]
+> Tap what you hear
+> [(Bea) (kommt) (an) (ihren) (Tisch).]
+~   Bea   comes   to   their   table   
+
+[LINE]
+Speaker100: Bea, du  bist doch~hier!     
+~           Bea  you are  here~after~all 
+
+[LINE]
+Speaker507: Oh … Hallo, Christoph! Ich wusste~nicht, dass du  dieses Restaurant ausgesucht hast.
+~           oh   hello  Christoph  I   didn't~know   that you this   restaurant chosen     have 
+
+[LINE]
+Speaker100: Ich freue~mich, dass du  gekommen~bist. Darf ich dir~unsere~Geschäftsführerin~Paula~vorstellen?
+~           I   am~happy    that you came           may  I   introduce~you~to~our~CEO~Paula                
+
+[CONTINUATION]
+> What comes next?
+Speaker507: Also … eigentlich bin~ich nicht hier, um [euch~zu~treffen].
+~           so     actually   I~am    not   here  to  meet~you         
++ euch~zu~treffen
+~ meet~you       
+- im~Schnee~zu~spielen
+~ play~in~the~snow    
+- dich~zu~malen
+~ paint~you    
+
+[LINE]
+Speaker100: Was? 
+~           what 
+
+[LINE]
+Speaker507: Ich arbeite    hier abends         … als Kellnerin.   
+~           I   am~working here in~the~evening   as  (a)~waitress 
+
+[MULTIPLE_CHOICE]
+> Wait… why is Bea at the restaurant?
++ She is a waitress there.
+- She wanted to meet the CEO.
+- She is on a date there.
+
+[POINT_TO_PHRASE]
+> Choose the option that means "intern."
+Speaker988: (Ist) (das)  die (+Praktikantin), von   der  du  (mir~erzählt~hast)?
+~            is    this  the   intern         about whom you  have~told~me      
+
+[LINE]
+Speaker100: Ja,  aber ich wusste~nicht ...
+~           yes  but  I   didn't~know     
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker988: Ich hatte auch zwei Jobs, [als~ich~jünger~war]!
+~           I   had   also two  jobs   when~I~was~younger  
+- weil ich jung aussah
++ als ich jünger war
+- als der Junge kam
+
+[LINE]
+Speaker988: Ich sehe, dass Sie sehr~fleißig~sind,       Bea! Ich möchte~gern Ihre Ideen für die Firma   hören!
+~           I   see   that you are~really~hard-working  Bea  I   would~like  your ideas for the company hear  
+
+[LINE]
+Speaker507: Wow, danke!    
+~           wow  thank~you 
+
+[LINE]
+Speaker507: Aber zuerst sollte~ich Ihnen~Brot~bringen. Sonst     bekomme~ich~Ärger     mit  meiner anderen Chefin.
+~           but  first  I~should   bring~you~bread     otherwise I'll~get~into~trouble with my     other   boss   
+
+[MULTIPLE_CHOICE]
+> Why is the CEO impressed that Bea has a second job?
+- She thinks she can get extra bread.
+- She wants to fire Bea soon.
++ She thinks that means Bea is a hard worker.
+
+[MATCH]
+> Tap the pairs
+- Wow <> wow
+- arbeite <> am working
+- Kellnerin <> waitress
+- danke <> thank you
+- doch hier <> here after all
+
