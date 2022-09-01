@@ -1,0 +1,146 @@
+[DATA]
+fromLanguageName=Aunt Inge
+icon=cf97dedd87f85f1626b472f5c4193958ee5ed38a
+set=46|4
+
+[HEADER]
+> Tante~Inge
+~ Aunt~Inge 
+
+[LINE]
+> Eddy klopft an die Badezimmertür.
+~ Eddy knocks on the bathroom~door 
+
+[LINE]
+Speaker414: Junior, komm jetzt! Wir besuchen     heute~Abend Tante~Inge.
+~           Junior  come now    we  are~visiting tonight     Aunt~Inge  
+
+[LINE]
+Speaker415: Ich kann~nicht mitkommen.  Ich bin krank.
+~           I   cannot     come~along  I   am  sick  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Du  [bist~nicht~krank]. Du  willst~nur~nicht   zu Tante~Inge gehen.
+~           you  are~not~sick       you just~don't~want~to to Aunt~Inge  go    
+- bist nicht Frank
++ bist nicht krank
+- bist ein Punk
+
+[POINT_TO_PHRASE]
+> Wähle  die Option mit~der~Bedeutung „mean|“.
+~ choose the option meaning            mean ~ 
+Speaker415: Du  hast~recht. (Ich) mag~sie~nicht.  Sie ist (+gemein) und (ihre) Süßigkeiten (sind) alt.
+~           you are~right    I    don't~like~her  she is    mean    and  her   candies      are   old 
+
+[LINE]
+Speaker415: Aber heute bin~ich wirklich krank.
+~           but  today I~am    really   sick  
+
+[LINE]
+Speaker414: Nein, das  bist du  nicht.
+~           no    that are  you not   
+
+[MULTIPLE_CHOICE]
+> Eddy glaubt, …
+~ Eddy thinks   
+- … dass Junior krank~ist.
+~   that Junior is~sick   
++ … dass Junior Tante~Inge nicht~besuchen~will.  
+~   that Junior Aunt~Inge  doesn't~want~to~visit 
+- … dass Junior alte~Süßigkeiten~gegessen~hat.
+~   that Junior has~eaten~old~candy           
+
+[LINE]
+Speaker415: Doch! Mein Bauch tut~weh, mein Gesicht tut~weh, alles      tut~weh!
+~           yes   my   belly hurts    my   face    hurts    everything hurts   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: Ich glaube, [ich~sterbe].
+~           I   think    I'm~dying   
++ ich sterbe
+- ich färbe
+- ich erbe
+
+[LINE]
+Speaker414: Tante~Inge wird~traurig~sein, wenn du  nicht mitkommst. 
+~           Aunt~Inge  will~be~sad        if   you don't come~along 
+
+[LINE]
+Speaker415: Ich weiß, aber sie wird noch trauriger sein, wenn ich sterbe.
+~           I   know  but  she will even sadder    be    if   I   die    
+
+[LINE]
+Speaker414: Junior!
+~           Junior 
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(Du)  (kannst) (ohne)    (mich) (gehen).]
+~             you   can      without   me     go      
+
+[LINE]
+Speaker415: Ich bleibe    hier und sehe~fern, bis   es~mir~besser~geht.
+~           I   will~stay here and watch~TV   until I~feel~better      
+
+[LINE]
+Speaker414: Wenn du  zu Tante~Inge mitkommst,  können~wir Eis~essen.    
+~           if   you to Aunt~Inge  come~along  we~can     eat~ice~cream 
+
+[LINE]
+Speaker415: Eis?      
+~           ice~cream 
+
+[CONTINUATION]
+> Was  kommt als~Nächstes?
+~ what comes next         
+Speaker414: Ich kaufe~dir    die größte  Packung     Eis,       die  es    [im     Supermarkt  gibt].
+~           I   will~buy~you the biggest carton~(of) ice~cream  that there  in~the supermarket is    
+- im     Meer  gibt
+~ in~the ocean is  
+- in der Toilette gibt
+~ in the bathroom is  
++ im     Supermarkt  gibt
+~ in~the supermarket is  
+
+[LINE]
+Speaker415: Also … OK.
+~           well   OK 
+
+[LINE]
+> Junior öffnet die Tür.  Er sieht wirklich furchtbar aus.
+~ Junior opens  the door  he looks really   terrible  ~   
+
+[POINT_TO_PHRASE]
+> Wähle  die Option mit~der~Bedeutung „red spots|“.
+~ choose the option meaning            red spots ~ 
+Speaker414: Oh nein, (Junior)! Du  hast (ganz~viele) (+rote~Flecken) im      (Gesicht)!
+~           oh no     Junior   you have  lots~of       red~spots     on~your  face     
+
+[LINE]
+Speaker414: Wir müssen       sofort      ins    Krankenhaus!
+~           we  have~to~(go) immediately to~the hospital    
+
+[LINE]
+Speaker415: Ins    Krankenhaus?! Du  hast gesagt, wir gehen   Eis~kaufen!   
+~           to~the hospital      you have said    we  will~go buy~ice~cream 
+
+[MULTIPLE_CHOICE]
+> Warum wollte~Junior~Tante~Inge~doch~besuchen?      
+~ why   did~Junior~want~to~visit~Aunt~Inge~after~all 
+- Er hat erfahren,  dass Tante~Inge im     Krankenhaus ist.
+~ he has found~out  that Aunt~Inge  in~the hospital    is  
+- Er findet Tante~Inge eigentlich nett.
+~ he finds  Aunt~Inge  actually   nice 
++ Eddy hat Junior Eis       versprochen.
+~ Eddy has Junior ice~cream promised    
+
+[MATCH]
+> Tap the pairs
+- die <> the
+- Süßigkeiten <> candies
+- wird traurig sein <> will be sad
+- Tante Inge <> Aunt Inge
+- mich <> me
+
