@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=Two Tickets
+icon=1038afc2cf4744d25820807d461131e153f7ddcf
+set=23|1
+
+[HEADER]
+> Deux places 
+~ two  tickets
+
+[LINE]
+> Lily et  Zari arrivent au     cinéma.       
+~ Lily and Zari arrive   at~the movie~theater 
+
+[LINE]
+> Un~garçon de   leur  école  y~travaille.
+~ a~boy     from their school works~there 
+
+[LINE]
+Speaker418: Salut, Étienne ! Deux places  pour « La~mer  de sang  », s'il~te~plaît !
+~           hi     Étienne   two  tickets for  ~ the~sea of blood ~  please         
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1649: Non, [vous~êtes~trop~jeunes] pour voir     ce   film. 
+~            no    you~are~too~young      to   (to)~see that movie 
+- vous faites trop de jeans
+- vous êtes aux jeux
++ vous êtes trop jeunes
+
+[LINE]
+Speaker416: Mais tu  nous~vends~toujours des~places pour ce   genre~de~films !
+~           but  you always~sell~us      tickets    for  this kind~of~movie   
+
+[LINE]
+Speaker1649: Et  vous avez des~boissons du       café d'à~côté. 
+~            and you  have drinks       from~the café next~door 
+
+[ARRANGE]
+> Tap what you hear
+Speaker1649: [(Vous) (ne~pouvez~pas) (entrer)     (avec) (ça).]  
+~              you    can't           (to)~go~in   with   that   
+
+[LINE]
+> Lily met  les deux boissons dans la~poubelle.  
+~ Lily puts the two  drinks   in   the~trash~can 
+
+[LINE]
+Speaker418: Hé,  mon~café  ! Il~y~avait de~la~crème et  du~chocolat...
+~           hey  my~coffee   it~had     cream       and chocolate     
+
+[LINE]
+Speaker416: Désolée.
+~           sorry   
+
+[CONTINUATION]
+> What comes next?
+Speaker1649: Vous ne~pouvez~toujours~pas avoir     [de~places].  
+~            you  still~can't            (to)~have  any~tickets  
+- plus~de chocolat 
+~ more    chocolate
++ de~places  
+~ any~tickets
+- cette poubelle 
+~ this  trash~can
+
+[LINE]
+Speaker416: Pourquoi ?
+~           why       
+
+[ARRANGE]
+> Tap what you hear
+Speaker1649: [(Vous) (parlez~toujours) (pendant) (les~films).]
+~              you    always~talk       during    movies      
+
+[LINE]
+Speaker418: Pourquoi tu~fais~ça,         Étienne ? On~est copains, non ?
+~           why      are~you~doing~this  Étienne   we~are friends  no   
+
+[LINE]
+Speaker1649: Ah oui ? Alors pourquoi je~ne~peux~pas jouer     dans votre groupe ?
+~            ah yes   then  why      can't~I        (to)~play in   your  band    
+
+[MULTIPLE_CHOICE]
+> Ah ha! Étienne won't sell them tickets because...
+- ...the theater is already full.
++ ...he wants to be in their band.
+- ...they poured his coffee in the trash.
+
+[LINE]
+Speaker418: Euh... quel groupe ?
+~           uh     what band    
+
+[LINE]
+Speaker1649: Je vous~ai~entendues dire     que  vous commenciez    un~groupe.
+~            I  heard~you         (to)~say that you  were~starting a~band    
+
+[LINE]
+Speaker416: OK, d'accord.  On~a~besoin~de quelqu'un qui joue~de… la~guitare !
+~           OK  all~right  we~need        someone   who plays    the~guitar  
+
+[LINE]
+Speaker1649: Génial ! C'est~quand la  prochaine répétition ?
+~            great    when~is     the next      practice    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker416: Demain,   [après~l'école].
+~           tomorrow   after~school   
+- près de la colle
++ après l'école
+- après les vols
+
+[LINE]
+Speaker418: On~peut avoir     nos places  pour « La~mer  de sang  » maintenant ?
+~           can~we  (to)~have our tickets for  ~ the~sea of blood ~ now         
+
+[LINE]
+Speaker1649: Oui, mais, demain.   Après notre première répétition.
+~            yes  but   tomorrow  after our   first    practice   
+
+[MULTIPLE_CHOICE]
+> When can Zari and Lily see "La mer de sang"?
++ after they have band practice with Étienne
+- any time they want
+- after they get more coffee
+
+[MATCH]
+> Tap the pairs
+- Étienne <> Étienne
+- nos <> our
+- d'à côté <> next door
+- On a besoin de <> we need
+- de <> from
+
