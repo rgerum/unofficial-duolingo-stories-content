@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=Perigoso demais
+icon=1702eab67b54c34d15254bb3fb5daefb13f3a2ac
+set=15|3
+
+[HEADER]
+> Too~Dangerous  
+~ perigoso~demais
+
+[LINE]
+Speaker418: I  can't~do~it,          Lily.
+~           eu não~posso~fazer~isso  Lily 
+
+[LINE]
+Speaker416: Don't~worry,     Zari.
+~           não~se~preocupe  Zari 
+
+[LINE]
+Speaker418: I'm      afraid!    This is too~dangerous!  
+~           eu~estou assustada  isto é  perigoso~demais 
+
+[MULTIPLE_CHOICE]
+> A Zari não tem medo de nada.
+- Sim, isso mesmo.
++ Não, não é isso.
+
+[LINE]
+Speaker418: Something    will~go~wrong! 
+~           alguma~coisa vai~dar~errado 
+
+[LINE]
+Speaker416: It~will~be~OK.     
+~           vai~ficar~tudo~bem 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker418: [(But) (how)  (do~you~know) (that)?] 
+~             mas   como   você~sabe     disso   
+
+[LINE]
+Speaker416: Well, a~lot~of people  do    this every~day.
+~           bem   muitas   pessoas fazem isto todo~dia  
+
+[LINE]
+Speaker416: You  don't~need~to~worry,      Zari.
+~           você não~precisa~se~preocupar  Zari 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker416: [I'm~here~with~you].     
+~            eu~estou~aqui~com~você  
+- I'm here when you
++ I'm here with you
+- I'm her nephew
+
+[LINE]
+Speaker418: Thanks,   Lily. You're a   good friend.
+~           obrigada  Lily  você~é uma boa  amiga  
+
+[LINE]
+Speaker418: OK.   
+~           certo 
+
+[LINE]
+Speaker418: I  think    I'm      ready  now!  
+~           eu acho~que eu~estou pronta agora 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "montanha-russa".
+Speaker300: (Listen), (do~you~want) (to~ride~the) (+roller~coaster) or not?
+~            escuta    você~quer     andar~na       montanha-russa  ou não 
+
+[LINE]
+Speaker300: A~lot~of people  are~waiting     behind   you! 
+~           muitas   pessoas estão~esperando atrás~de você 
+
+[LINE]
+Speaker300: This is the tallest   and oldest      roller~coaster in~the country.
+~           este é  a   mais~alta e   mais~antiga montanha-russa no     país    
+
+[LINE]
+Speaker416: Wait…   Tallest?   Oldest?     
+~           espera  mais~alta  mais~antiga 
+
+[LINE]
+Speaker418: OK,    I'm~going~to~do~it!
+~           certo  eu~vou~fazer~isso  
+
+[CONTINUATION]
+> O que vem depois?
+Speaker418: And my    friend, Lily, [is~coming  with~me]!
+~           e   minha amiga   Lily   está~vindo comigo   
+- is   going~home    
+~ está indo~para~casa
++ is   coming with~me
+~ está vindo  comigo 
+- is very  dangerous
+~ é  muito perigosa 
+
+[LINE]
+Speaker418: Lily? Where~are~you~going? 
+~           Lily  aonde~você~está~indo 
+
+[LINE]
+Speaker416: Sorry,    Zari! I'm~not~going on~this roller~coaster!
+~           desculpe  Zari  eu~não~vou    nesta   montanha-russa 
+
+[LINE]
+Speaker416: It's too~dangerous!  
+~           é    perigoso~demais 
+
+[MULTIPLE_CHOICE]
+> A Zari decidiu andar na montanha-russa, mas…
+- …a fila era grande demais.
++ …a Lily estava assustada demais.
+- …ela parou de funcionar.
+
+[MATCH]
+> Toque nos pares
+- with me <> comigo
+- are waiting <> estão esperando
+- Don't worry <> não se preocupe
+- I'm going to do it <> eu vou fazer isso
+- on this <> nesta
+
