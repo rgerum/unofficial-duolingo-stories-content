@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Quần áo cho kỳ nghỉ
+icon=eda1b8214a6937df66a552eb581f2353da4d0352
+set=2|4
+
+[HEADER]
+> Vacation~Clothes   
+~ quần~áo~cho~kỳ~nghỉ
+
+[LINE]
+> Lucy is~in        a   store.   
+~ Lucy đang~ở~trong một cửa~hàng 
+
+[LINE]
+Speaker509: Hi,   can~you~help~me?                 
+~           chào  cháu~giúp~cô~một~chút~được~không 
+
+[LINE]
+Speaker509: I  need new~clothes for my~vacation!     
+~           cô cần  quần~áo~mới cho kỳ~nghỉ~(của~cô) 
+
+[MULTIPLE_CHOICE]
+> Lucy đang mua quần áo mới cho kỳ nghỉ.
++ Đúng vậy.
+- Không đúng.
+
+[LINE]
+Speaker416: OK.    
+~           được~ạ 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker509: [(I)  (need) (a)       (dress).]
+~             cô   cần    1~chiếc   váy     
+
+[LINE]
+> Lily gives   Lucy a       green~dress.    
+~ Lily đưa~cho Lucy 1~chiếc váy~màu~xanh~lá 
+
+[LINE]
+Speaker509: No!    I  need a       short,~red~dress.
+~           không  cô cần  1~chiếc váy~ngắn~màu~đỏ  
+
+[MULTIPLE_CHOICE]
+> Lucy cần gì?
+- một chiếc xe ô tô mới màu nâu
+- một chiếc váy dài màu xanh
++ một chiếc váy ngắn màu đỏ
+
+[LINE]
+> Lily gives   her   a       short,~red~dress.
+~ Lily đưa~cho bà~ấy 1~chiếc váy~ngắn~màu~đỏ  
+
+[LINE]
+Speaker509: And     I  need boots.      
+~           với~lại cô cần  một~đôi~bốt 
+
+[LINE]
+> Lily gives   Lucy red~boots.         
+~ Lily đưa~cho Lucy một~đôi~bốt~màu~đỏ 
+
+[LINE]
+Speaker509: No,    big,~black~boots!      
+~           không  một~đôi~bốt~to~màu~đen 
+
+[LINE]
+Speaker416: Ugh…
+~           hừm 
+
+[LINE]
+Speaker509: OK,       a       short,~red~dress and big,~black~boots…      
+~           được~rồi  1~chiếc váy~ngắn~màu~đỏ  và  một~đôi~bốt~to~màu~đen 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker509: [And~a~hat]!           
+~            với~lại~một~chiếc~mũ  
+- In the hat
+- And a cat
++ And a hat
+
+[LINE]
+> Lily gives   Lucy a       hat.
+~ Lily đưa~cho Lucy 1~chiếc mũ  
+
+[LINE]
+Speaker509: No!    A~yellow~hat!  
+~           không  mũ~màu~vàng~cơ 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+> Lily gives   Lucy [a       yellow~hat]. 
+~ Lily đưa~cho Lucy  1~chiếc mũ~màu~vàng  
+- a       yellow~dress
+~ 1~chiếc váy~màu~vàng
++ a       yellow~hat 
+~ 1~chiếc mũ~màu~vàng
+- a       red~hat  
+~ 1~chiếc mũ~màu~đỏ
+
+[LINE]
+Speaker509: Perfect!   Now I'm ready           for my~vacation!       
+~           tuyệt~vời  giờ tôi đã~sẵn~sàng…rồi cho kỳ~nghỉ~(của~mình) 
+
+[LINE]
+Speaker416: Now     I    need a   vacation.
+~           giờ~thì cháu cần  một kỳ~nghỉ  
+
+[MULTIPLE_CHOICE]
+> Khổ thân Lily! Vì sao cô ấy lại cần một kỳ nghỉ?
+- Cô ấy đã ăn trưa quá no.
++ Cô ấy thấy mệt mỏi sau khi giúp Lucy lựa quần áo.
+- Cô ấy có rất nhiều quần áo mới để mặc đi chơi.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- short, red dress <> váy ngắn màu đỏ
+- her <> bà ấy
+- for <> cho
+- a <> một
+- Now <> giờ
+
