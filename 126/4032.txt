@@ -1,0 +1,146 @@
+[DATA]
+fromLanguageName=Tia Betty
+icon=6b43af575436274a77c4a1096dde31088be555b2
+set=57|1
+
+[HEADER]
+> Aunt Betty
+~ tia  Betty
+
+[LINE]
+> Eddy knocks~on~the bathroom~door.    
+~ Eddy bate~à        porta~do~banheiro 
+
+[LINE]
+Speaker414: Junior, come~out~now. We're~going to   Aunt~Betty's~house  tonight.     
+~           Junior  saia~agora    nós~vamos   para a~casa~da~tia~Betty hoje~à~noite 
+
+[LINE]
+Speaker415: I  can't~go.     I'm      sick.  
+~           eu não~posso~ir  eu~estou doente 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker414: [You're~not~sick].      You  just don't~like     Aunt Betty.
+~            você~não~está~doente   você só   não~gosta~(da) tia  Betty 
+- You're not six
+- You brought sticks
++ You're not sick
+
+[POINT_TO_PHRASE]
+> Choose  the option that means     "malvada."
+~ escolha a   opção  que  significa  ~        
+Speaker415: You're~right,   I  don't~like   (her).    (She's) (+mean)    (and) all~of~her~candy~is~old.       
+~           você~tem~razão  eu eu~não~gosto  (d)ela    ela~é    malvada   e    todos~os~doces~dela~são~velhos 
+
+[LINE]
+Speaker415: But I  really~am   sick.  
+~           mas eu estou~mesmo doente 
+
+[LINE]
+Speaker414: No,  you  aren't.  
+~           não  você não~está 
+
+[MULTIPLE_CHOICE]
+> Eddy thinks…  
+~ Eddy acha~que 
++ …Junior doesn't~want to~visit Aunt Betty.
+~  Junior não~quer     visitar  tia  Betty 
+- …Junior ate   some   really~old~candy.  
+~  Junior comeu alguns doces~muito~velhos 
+- …Junior is   very  sick.  
+~  Junior está muito doente 
+
+[LINE]
+Speaker415: Yes, I  am.    My      stomach  hurts. My      face  hurts. Everything hurts!
+~           sim  eu estou  (o)~meu estômago dói    (o)~meu rosto dói    tudo       dói   
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker415: I  think      [I'm~dying].        
+~           eu acho~(que)  eu~estou~morrendo  
++ I'm dying
+- I’m buying
+- I’m trying
+
+[LINE]
+Speaker414: Aunt    Betty will~be sad    if~you~don't~come with~me to~visit her.
+~           (a)~tia Betty ficará  triste se~você~não~vier  comigo  visitar  ela 
+
+[LINE]
+Speaker415: I  know, but she will~be sadder      if~I~die.    
+~           eu sei   mas ela ficará  mais~triste se~eu~morrer 
+
+[LINE]
+Speaker414: Junior…
+~           Junior 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker415: [(You)  (can~go)  (without) (me).] 
+~             você   pode~ir   sem       mim   
+
+[LINE]
+Speaker415: I'll~stay~here~and~watch      TV until~I~feel~better.    
+~           ficarei~aqui~e~assistirei~(à) TV até~eu~me~sentir~melhor 
+
+[LINE]
+Speaker414: If~you~come  with~me to   Aunt~Betty's~house,  we  can~get         ice~cream.
+~           se~você~vier comigo  para a~casa~da~tia~Betty  nós podemos~comprar sorvete   
+
+[LINE]
+Speaker415: Ice~cream?
+~           sorvete   
+
+[CONTINUATION]
+> What  comes next?  
+~ o~que vem   depois 
+Speaker414: I'll~buy            you  the biggest bowl   of ice~cream [at~the shop].
+~           eu~comprarei~(para) você a   maior   tigela de sorvete    na     loja  
++ at~the shop
+~ na     loja
+- on~the TV
+~ na     TV
+- in~the bathroom
+~ no     banheiro
+
+[LINE]
+Speaker415: Well… OK.   
+~           bem   certo 
+
+[LINE]
+> Junior opens the door…  and he  looks  terrible.
+~ Junior abre  a   porta  e   ele parece terrível 
+
+[POINT_TO_PHRASE]
+> Choose  the option meaning       "manchas vermelhas."
+~ escolha a   opção  que~significa  ~       ~          
+Speaker414: Whoa! Wow! (Junior), (your~face)     is   (covered~in) (+red~spots)!        
+~           opa   uau   Junior    (o)~seu~rosto  está  coberto~de    manchas~vermelhas  
+
+[LINE]
+Speaker414: We  need       to~go to   the hospital right~now!  
+~           nós precisamos ir    para o   hospital agora~mesmo 
+
+[LINE]
+Speaker415: The hospital?! You  told~me        we  were~going~to~get ice~cream!
+~           o   hospital   você me~disse~(que) nós íamos~comprar     sorvete   
+
+[MULTIPLE_CHOICE]
+> Why     did~Junior~decide to~visit Aunt Betty?
+~ por~que Junior~decidiu    visitar  tia  Betty 
++ Eddy told    Junior he      would~buy~him~ice~cream.   
+~ Eddy disse~a Junior que~ele compraria~sorvete~para~ele 
+- He  learned   that Aunt Betty is   in~the hospital.
+~ ele descobriu que  tia  Betty está no     hospital 
+- He  thinks   Aunt Betty is really~nice.    
+~ ele acha~que tia  Betty é  muito~agradável 
+
+[MATCH]
+> Toque nos pares
+- tonight <> hoje à noite
+- your face <> seu rosto
+- You <> você
+- OK <> certo
+- of <> de
+
