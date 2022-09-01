@@ -1,0 +1,109 @@
+[DATA]
+fromLanguageName=What Do You Want?
+icon=8c5ae7b18c5ff0f37394646c91bd6a579213dcbc
+set=5|2
+
+[HEADER]
+> Qu'est-ce~que~vous~voulez ?
+~ what~do~you~want           
+
+[LINE]
+> Oscar est dans un magasin~de~vêtements.
+~ Oscar is  in   a  clothing~store       
+
+[LINE]
+> Son~étudiante, Zari, travaille dans le  magasin.
+~ his~student    Zari  works     in   the store   
+
+[LINE]
+Speaker592: Salut, Zari ! Tu  travailles ici  ? Super !
+~           hi     Zari   you work       here   great  
+
+[MULTIPLE_CHOICE]
+> Oscar sees Zari working in a store.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker418: Bienvenue !
+~           welcome    
+
+[LINE]
+Speaker418: Vous voulez quelque~chose ?
+~           you  want   something      
+
+[MULTIPLE_CHOICE]
+> Zari is asking...
+- ...if Oscar wants a job.
+- ...what time it is.
++ ...if Oscar wants something.
+
+[LINE]
+Speaker592: Oui, merci     ! Je veux…
+~           yes  thank~you   I  want 
+
+[POINT_TO_PHRASE]
+> Choose the option meaning "new".
+Speaker418: Ah ! (Vous) (voulez) une (+nouvelle) (veste)  ?
+~           ah    you    want    a     new        jacket   
+
+[LINE]
+> Zari prend une veste~rouge.
+~ Zari gets  a   red~jacket  
+
+[LINE]
+Speaker592: Non, Zari. J'aime ma veste  !
+~           no   Zari  I~like my jacket  
+
+[LINE]
+Speaker418: Ah ! Un T-shirt ?
+~           ah   a  T-shirt  
+
+[LINE]
+Speaker418: Un T-shirt~blanc ?
+~           a  white~T-shirt  
+
+[MULTIPLE_CHOICE]
+> Zari is showing Oscar…
++ …a white T-shirt.
+- …a wooden house.
+- …a straw hat.
+
+[LINE]
+Speaker592: Non, Zari.
+~           no   Zari 
+
+[LINE]
+Speaker592: Je ne~veux~pas un T-shirt ou une veste.  Je veux…
+~           I  don't~want  a  T-shirt or a   jacket  I  want 
+
+[LINE]
+Speaker418: Un~pantalon     ! Vous voulez un~pantalon     !
+~           a~pair~of~pants   you  want   a~pair~of~pants  
+
+[LINE]
+Speaker592: Non ! Non !
+~           no    no   
+
+[LINE]
+Speaker592: Je veux savoir… 
+~           I  want to~know 
+
+[LINE]
+Speaker592: … où    sont~les~toilettes ?
+~             where is~the~restroom     
+
+[MULTIPLE_CHOICE]
+> Why did Oscar go into the clothing store?
+- He wanted to buy pants, a shirt, and a jacket.
+- He wanted to buy a new jacket for Zari.
++ He needed to find a restroom.
+
+[MATCH]
+> Tap the pairs
+- J'aime <> I like
+- où <> where
+- ma <> my
+- Un pantalon <> a pair of pants
+- le <> the
+
