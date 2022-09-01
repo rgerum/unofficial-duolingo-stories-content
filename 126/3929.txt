@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=Eu vi você
+icon=5efd5d3e85a10ad5c37e72a842288f5c3d967300
+set=31|2
+
+[HEADER]
+> I  Saw~You
+~ eu vi~você
+
+[LINE]
+> Lily is~working       in a   clothes~store. 
+~ Lily está~trabalhando em uma loja~de~roupas 
+
+[LINE]
+> She stops a   well-dressed~woman leaving~the                 store.
+~ ela para  uma mulher~bem-vestida (que~estava)~indo~embora~da loja  
+
+[LINE]
+Speaker416: Ma'am,   did~you~just~put       that sweater in~your~purse?
+~           senhora  você~acabou~de~colocar esse suéter  na~sua~bolsa  
+
+[LINE]
+Speaker528: My    purse? No. 
+~           minha bolsa  não 
+
+[LINE]
+Speaker416: Yes, you  did.        I  saw~you.
+~           sim  você fez~(isso)  eu vi~você 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker528: Oh, [this~sweater]?
+~           ah   este~suéter   
++ this sweater
+- this weather
+- it's better
+
+[LINE]
+Speaker528: I  was~going   to~pay for it,  but I  forgot.       I'm      old.   My        memory  is   bad. 
+~           eu estava~indo pagar  por ele  mas eu (me)~esqueci  eu~estou velha  (a)~minha memória está ruim 
+
+[MULTIPLE_CHOICE]
+> Por que a mulher diz que não pagou pelo suéter?
+- Ela não quer o suéter.
+- O suéter é do tamanho errado.
++ Ela tem memória ruim.
+
+[LINE]
+Speaker416: Wait,   is~that a  scarf    in~your~purse too?   
+~           espera  isso~é  um cachecol na~sua~bolsa  também 
+
+[LINE]
+Speaker528: Oops!
+~           opa  
+
+[LINE]
+Speaker416: Can~you~please~take       everything out~of~your~purse?
+~           você~pode~por~favor~tirar tudo       da~sua~bolsa      
+
+[LINE]
+> The woman  takes a  scarf,    a  belt,  and a  watch   out~of~the~purse.
+~ a   mulher tira  um cachecol  um cinto  e   um relógio da~bolsa         
+
+[LINE]
+Speaker416: Were~you~trying      to~steal all~of~these things?!
+~           você~estava~tentando roubar   todas~essas  coisas  
+
+[LINE]
+Speaker528: Yes, I  was!    I  love~stealing! It's     exciting!   
+~           sim  eu estava  eu amo~roubar     (isso)~é emocionante 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "entediada".
+Speaker528: I  (live) (alone).   I  (get)  (+bored).     One day, you'll~understand.
+~           eu  vivo   sozinha   eu  fico    entediada   um  dia  você~entenderá    
+
+[LINE]
+Speaker528: I  can~leave,       right? I'm    a   nice~old~woman. 
+~           eu posso~ir~embora  certo  eu~sou uma velhinha~gentil 
+
+[LINE]
+Speaker416: Are~you nice?  
+~           você~é  gentil 
+
+[LINE]
+Speaker528: Not~really.     But you  could~let~me~leave          because you're a   nice~young~woman.
+~           na~verdade~não  mas você poderia~me~deixar~ir~embora porque  você~é uma jovem~gentil     
+
+[MULTIPLE_CHOICE]
+> Por que a idosa diz que a Lily é gentil?
+- Ela acha que a Lily é neta dela.
+- Ela quer que a Lily vá fazer compras com ela.
++ Ela quer que a Lily deixe ela ir embora.
+
+[LINE]
+Speaker416: OK.    You  can~leave.      But don't~tell   anyone  that I'm    nice.  
+~           certo  você pode~ir~embora  mas não~diga~(a) ninguém que  eu~sou gentil 
+
+[LINE]
+Speaker528: OK!    Thanks!   Goodbye!
+~           certo  obrigada  adeus   
+
+[LINE]
+> The old~woman    takes her~purse      and leaves.    
+~ a   mulher~idosa pega  (a)~bolsa~dela e   vai~embora 
+
+[LINE]
+> Lily's~boss       runs  into~the       store.
+~ (o)~chefe~de~Lily corre para~dentro~da loja  
+
+[CONTINUATION]
+> O que vem depois?
+Speaker113: Did~you~let that   woman  [leave]?    
+~           você~deixou aquela mulher  ir~embora  
+- live  alone  
+~ viver sozinha
++ leave    
+~ ir~embora
+- in~your~purse
+~ na~sua~bolsa 
+
+[LINE]
+Speaker416: Of~course     I  did.        Why     not?
+~           é~claro~(que) eu fiz~(isso)  por~que não 
+
+[LINE]
+Speaker113: She just~stole       a   $300~purse!   
+~           ela acabou~de~roubar uma bolsa~de~$300 
+
+[MULTIPLE_CHOICE]
+> Eita! Por que o chefe da Lily está com tanta raiva?
++ A mulher roubou uma bolsa cara.
+- A Lily disse à mulher para roubar as coisas.
+- A Lily roubou uma bolsa cara.
+
+[MATCH]
+> Toque nos pares
+- Did you let <> você deixou
+- and <> e
+- I <> eu
+- to pay <> pagar
+- things <> coisas
+
