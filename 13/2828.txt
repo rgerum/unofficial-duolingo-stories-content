@@ -1,0 +1,118 @@
+[DATA]
+fromLanguageName=This Is Not Art
+icon=501e7d609ee0dd5ba11ff7cdcf9740b12a7a7945
+set=12|3
+
+[HEADER]
+> Ce   n'est~pas de~l'art
+~ this isn't     art     
+
+[LINE]
+> Eddy et  son~ami    Oscar sont au     musée. 
+~ Eddy and his~friend Oscar are  at~the museum 
+
+[LINE]
+> Eddy regarde       une sculpture de chien.  
+~ Eddy is~looking~at a   sculpture of (a)~dog 
+
+[LINE]
+Speaker414: C'est   ma sculpture~préférée ici  !
+~           this~is my favorite~sculpture here  
+
+[LINE]
+Speaker592: Cette sculpture est ennuyeuse.
+~           this  sculpture is  boring    
+
+[MULTIPLE_CHOICE]
+> Oscar really likes the sculpture.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker414: Quoi ? J'adore les~chiens.
+~           what   I~love  dogs       
+
+[LINE]
+Speaker592: Je suis professeur~d'art. Je connais l'art.
+~           I  am   (an)~art~teacher  I  know    art   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker592: Cette sculpture, [ce~n'est~pas~de~l'art].
+~           this  sculpture   isn't~art              
++ ce n'est pas de l'art
+- ce n'est pas le noir
+- elle n'aime pas son art
+
+[LINE]
+Speaker414: Pourquoi ?
+~           why       
+
+[ARRANGE]
+> Tap what you hear
+Speaker592: [(L'art) (est) (intéressant) ]!
+~             art     is    interesting    
+
+[LINE]
+Speaker592: L'art est original !
+~           art   is  original  
+
+[CONTINUATION]
+> What comes next?
+> Oscar regarde  un sandwich sur [une chaise].
+~ Oscar looks~at a  sandwich on   a   chair   
++ une chaise
+~ a   chair 
+- le  soleil
+~ the sun   
+- sa  tête
+~ his head
+
+[LINE]
+Speaker592: Ça,   c'est  de~l'art !
+~           that  that's art       
+
+[LINE]
+Speaker414: Quoi ?!
+~           what   
+
+[LINE]
+Speaker592: Oui ! C'est intéressant et  original ! L'artiste  est génial !
+~           yes   it's  interesting and original   the~artist is  great   
+
+[LINE]
+Speaker414: Je ne~comprends~pas l'art.
+~           I  don't~understand art   
+
+[LINE]
+> Un homme arrive.  Il prend le  sandwich, et  le~mange.
+~ a  man   arrives  he takes the sandwich  and eats~it  
+
+[MULTIPLE_CHOICE]
+> What did the man do with the sandwich?
+- He threw it at Oscar.
+- He sold it.
++ He ate it.
+
+[LINE]
+Speaker592: Excusez-moi ! Vous ne~pouvez~pas~manger ça,   c'est de~l'art !
+~           excuse~me     you  can't~eat            that  it's  art       
+
+[LINE]
+Speaker307: Ce   n'est~pas de~l'art... C'est mon déjeuner.
+~           this isn't     art         it's  my  lunch    
+
+[MULTIPLE_CHOICE]
+> Did you get that? Oscar thought…
+- ...Eddy ate all of the art in the museum.
+- ...the man was a famous artist.
++ ...the man's lunch was art.
+
+[MATCH]
+> Tap the pairs
+- Eddy <> Eddy
+- intéressant <> interesting
+- et <> and
+- Je <> I
+- J'adore <> I love
+
