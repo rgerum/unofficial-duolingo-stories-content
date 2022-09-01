@@ -1,0 +1,114 @@
+[DATA]
+fromLanguageName=Garip Bir Gürültü
+icon=21138fac4fa22d97330dc25cec4b68dcda9abc13
+set=10|1
+
+[HEADER]
+> A   Strange Noise  
+~ Bir Garip   gürültü
+
+[LINE]
+> Ben is   in  his~bedroom    at~night.
+~ ~   -dır -da yatak~odasında gece     
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+> He [hears~a~noise].    
+~ O   duyar~bir gürültü  
+- hear noisy
+- hears noses
++ hears a noise
+
+[LINE]
+Speaker236: What~is that noise?  
+~           nedir   bu   gürültü 
+
+[LINE]
+Speaker236: It's coming  from the garden…
+~           bu   geliyor -den ~   Bahçe  
+
+[MULTIPLE_CHOICE]
+> Ben, mutfaktan bir ses geldiğini düşünüyor.
+- Evet, bu doğru.
++ Hayır, bu yanlış.
+
+[LINE]
+> He walks to the window  and listens.
+~ O  yürür -e ~   pencere ve  dinler  
+
+[LINE]
+Speaker236: Hello?
+~           Selam 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker236: [(Who) (is)  (there)?]
+~             kim   var   Orada   
+
+[LINE]
+Speaker236: I~can~hear    you! 
+~           duyabiliyorum seni 
+
+[LINE]
+Speaker236: I     have a   big   dog   in~here with~me!
+~           benim var  bir büyük köpek burada  benimle 
+
+[LINE]
+> Ben hears more       noises. 
+~ ~   duyar daha~fazla gürültü 
+
+[LINE]
+Speaker236: I'm~going~to~call the police!
+~           arayacağım        ~   polisi 
+
+[MULTIPLE_CHOICE]
+> Ben ne diyor?
+- Polisin geldiğini duydu.
+- Polisi dinleyecek.
++ Polisi arayacak.
+
+[LINE]
+> Then,  he hears something different.
+~ Sonra  o  duyar bir~şey   farklı    
+
+[LINE]
+Speaker58: Woof!
+
+[CONTINUATION]
+> Cümlenin sonu nedir?
+Speaker236: Oh, it's [the dog]!  
+~           ~   bu    ~   köpek  
+- … the cow.
++ … the dog.
+-  … the bird.
+
+[LINE]
+Speaker236: Come in here,   Martin!
+~           Gel  ~  buraya  ~      
+
+[LINE]
+Speaker236: Why   are you in~the~garden?
+~           Neden ~   sen bahçedesin    
+
+[LINE]
+> Ben opens the door   and his~dog     walks~in.   
+~ ~   açar  ~   kapıyı ve  onun~köpeği içeri~girer 
+
+[LINE]
+Speaker236: You   need  to~be in  the house… you're my    guard~dog!       
+~           senin lazım olman -de ~   ev     sen    benim bekçi~köpeğimsin 
+
+[MULTIPLE_CHOICE]
+> Ben köpeğinden ...
++ … Onu korumak için içeride kalmasını istiyor.
+- … Dışarıda kalmasını istiyor.
+- … Korktuğu için gitmesini istiyor.
+
+[MATCH]
+> Çiftlere dokun
+- Then <> Sonra
+- here <> buraya
+- dog <> köpek
+- you're <> sen
+- in <> -da
+
