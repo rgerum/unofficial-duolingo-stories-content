@@ -1,0 +1,108 @@
+[DATA]
+fromLanguageName=Não é para crianças
+icon=92f8e9fbcb106a065c67e2efcbb467a67077da4b
+set=11|4
+
+[HEADER]
+> No  es para niños   
+~ não é  para crianças
+
+[LINE]
+> Zari está con Junior porque Eddy está en~el trabajo. 
+~ Zari está com Junior porque Eddy está no    trabalho 
+
+[LINE]
+Speaker415: ¡Zari! ¿Podemos jugar tu    videojuego?       
+~            Zari   podemos jogar o~teu jogo~de~videogame 
+
+[LINE]
+Speaker418: Ahhh… Tengo que limpiar la casa porque tu  papá va~a llegar pronto.
+~           ahh   tenho que limpar  a  casa porque teu pai  vai  chegar logo   
+
+[MULTIPLE_CHOICE]
+> A Zari tem tempo para jogar videogame com o Junior.
++ Não, não é isso.
+- Sim, isso mesmo.
+
+[LINE]
+Speaker415: Bueno… ¿puedo jugar tu  videojuego        sin ti?
+~           bom     posso jogar teu jogo~de~videogame sem ti 
+
+[LINE]
+Speaker418: Lo~siento,   mi  videojuego        no  es para niños.   
+~           sinto~muito  meu jogo~de~videogame não é  para crianças 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker415: ¡[(Yo) (no)  (soy) (un~niño)!]    
+~              eu   não   sou   uma~criança   
+
+[LINE]
+Speaker418: Mmm… bueno, los adultos lavan los platos.
+~           hum  bom    os  adultos lavam os  pratos 
+
+[LINE]
+Speaker415: ¡Yo sé  lavar los platos!
+~            eu sei lavar os  pratos 
+
+[CONTINUATION]
+> O que vem depois?
+> Junior empieza a lavar [los platos].
+~ Junior começa  a lavar  os  pratos  
++ los platos
+~ os  pratos
+- mi  videojuego       
+~ meu jogo~de~videogame
+- los adultos
+~ os  adultos
+
+[LINE]
+Speaker415: ¿Ves?
+~            vês 
+
+[LINE]
+Speaker418: Los adultos limpian la mesa.
+~           os  adultos limpam  a  mesa 
+
+[LINE]
+Speaker415: ¡Yo sé  limpiar la mesa!
+~            eu sei limpar  a  mesa 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+> Junior [limpia~la~mesa].
+~ Junior  limpa~a~mesa    
+- limpias la masa
+- linda la mesa
++ limpia la mesa
+
+[LINE]
+Speaker418: ¡Muy   bien! Sí,  eres un adulto.
+~            muito bem   sim  és   um adulto 
+
+[LINE]
+Speaker415: ¿¡Ahora podemos jugar tu    videojuego!?       
+~             agora podemos jogar o~teu jogo~de~videogame  
+
+[LINE]
+Speaker418: ¡Ay,~no!  Son las~nueve.  ¡Tienes que ir a    la cama!
+~            ah,~não  são nove~horas   tens   que ir para a  cama 
+
+[LINE]
+Speaker415: ¡Pero soy un adulto! Los adultos van a    la cama tarde.
+~            mas  sou um adulto  os  adultos vão para a  cama tarde 
+
+[MULTIPLE_CHOICE]
+> O Junior acha que ele é adulto agora, então…
+- …ele pode casar com a Zari.
++ …ele pode dormir tarde.
+- …ele precisa encontrar um emprego.
+
+[MATCH]
+> Toque nos pares
+- en el <> no
+- ti <> ti
+- soy <> sou
+- Lo siento <> sinto muito
+- Sí <> sim
+
