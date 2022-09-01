@@ -1,0 +1,142 @@
+[DATA]
+fromLanguageName=The Horror Movie
+icon=1038afc2cf4744d25820807d461131e153f7ddcf
+set=19|3
+
+[HEADER]
+> Der Horrorfilm  
+~ the horror~movie
+
+[LINE]
+> Lilli und Sari gehen     ins~Kino.            
+~ Lilli and Sari are~going to~the~movie~theater 
+
+[LINE]
+> Ein Junge aus  ihrer Schule sitzt      an der Kasse.        
+~ a   boy   from their school is~sitting at the cash~register 
+
+[LINE]
+Speaker418: Hi, Timo. Zwei Karten  für „Der~Blutsee|”    bitte. 
+~           hi  Timo  two  tickets for  The~Blood~Lake ~ please 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1649: Nein. Der Film  ist [ab~achtzehn].               
+~            no    the movie is   for~(ages)~eighteen~and~up  
+- aber um zehn
++ ab achtzehn
+- ab achtzig
+
+[LINE]
+Speaker1649: Ihr seid zu  jung. 
+~            you are  too young 
+
+[LINE]
+Speaker416: Aber du  verkaufst uns immer  Karten  für Horrorfilme!  
+~           but  you sell      us  always tickets for horror~movies 
+
+[LINE]
+Speaker1649: Ihr habt auch Kaffee aus~dem~Café         um~die~Ecke       dabei.   
+~            you have also coffee from~the~coffee~shop around~the~corner with~you 
+
+[LINE]
+Speaker1649: Das  ist verboten. 
+~            that is  forbidden 
+
+[LINE]
+> Lilli wirft  die~beiden  Becher in den Mülleimer.
+~ Lilli throws both~of~the cups   in the trash~can 
+
+[ARRANGE]
+> Tap what you hear
+Speaker418: [(Mein) (schöner)        (Kaffee) (mit)  (extra) (Sahne)!]
+~             my     more~beautiful   coffee   with   extra   cream   
+
+[LINE]
+Speaker416: Sorry.
+~           sorry 
+
+[CONTINUATION]
+> What comes next?
+Speaker1649: Ich verkaufe  euch trotzdem     [keine Karten]. 
+~            I   will~sell you  nevertheless  no    tickets  
+- die Frikadellen
+~ the meat~balls 
++ keine Karten 
+~ no    tickets
+- keine Meerschweinchen
+~ no    guinea~pigs    
+
+[LINE]
+Speaker416: Warum nicht?
+~           why   not   
+
+[ARRANGE]
+> Tap what you hear
+Speaker1649: [(Sari) (redet) (immer)  (im)     (Kino).]         
+~              Sari   talks   always   in~the   movie~theater   
+
+[LINE]
+Speaker418: Ich dachte,  wir sind Freunde!
+~           I   thought  we  are  friends 
+
+[LINE]
+Speaker1649: Freunde, ja? Und warum darf~ich~nicht   in~eurer~Band~spielen?
+~            friends  eh  and why   am~I~not~allowed to~play~in~your~band  
+
+[MULTIPLE_CHOICE]
+> Aha! Timo won't sell them tickets because…
+- …the theater is already full.
++ …he wants to be in their band.
+- …they poured his coffee in the trash.
+
+[LINE]
+Speaker418: Äh … welche Band?
+~           uh   which  band 
+
+[LINE]
+Speaker1649: Ich habe euch in~der~Schule gehört. Ihr wollt eine~Band~gründen.
+~            I   have you  at~school     heard   you want  to~start~a~band   
+
+[LINE]
+Speaker416: OK, gut. 
+~           ok  good 
+
+[LINE]
+Speaker416: Wir brauchen jemanden für die Gitarre.
+~           we  need     someone  for the guitar  
+
+[LINE]
+Speaker1649: Super! Wann ist die nächste Probe?   
+~            great  when is  the next    practice 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker416: [Morgen~nach~der~Schule].
+~            tomorrow~after~school   
+- Morgens bei Nachbarn der Schule
+- Am Nachmittag in der Schule
++ Morgen nach der Schule
+
+[LINE]
+Speaker418: Können wir jetzt zwei Karten  für „Der~Blutsee"    haben, bitte? 
+~           can    we  now   two  tickets for  The~Blood~Lake  have   please 
+
+[LINE]
+Speaker1649: Sicher, aber erst       morgen.   Nach  unserer ersten Bandprobe.    
+~            sure    but  not~before tomorrow  after our     first  band~practice 
+
+[MULTIPLE_CHOICE]
+> When can Sari and Lilli see „Der Blutsee”?
+- any time they want
+- after they get more coffee
++ after they have band practice with Timo
+
+[MATCH]
+> Tap the pairs
+- Nach <> after
+- ihrer <> their
+- um die Ecke <> around the corner
+- Kasse <> cash register
+- Der Blutsee <> The Blood Lake
+
