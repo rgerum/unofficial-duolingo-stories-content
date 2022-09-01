@@ -1,0 +1,147 @@
+[DATA]
+fromLanguageName=O escritório do gerente
+icon=5e30e8550b553e3eab1690b49a538c688e556e50
+set=26|1
+
+[HEADER]
+> The Manager's~Office     
+~ o   escritório~do~gerente
+
+[LINE]
+> Bea~was~asked~to~go     to~the manager's~office.     
+~ pediram~a~Bea~que~fosse ao     escritório~do~gerente 
+
+[LINE]
+Speaker2144: Sit~down. I'd~like         to~talk~to    you  about something.
+~            sente-se  eu~gostaria~(de) conversar~com você sobre algo      
+
+[LINE]
+Speaker507: Did~you~get  that   report    I        put      on your~desk?
+~           você~recebeu aquele relatório (que)~eu coloquei em sua~mesa  
+
+[LINE]
+Speaker2144: Yes. I  got    all   three     reports.    There~were a~lot~of details. 
+~            sim  eu recebi todos (os)~três relatórios  havia      muitos   detalhes 
+
+[MULTIPLE_CHOICE]
+> A Bea deu ao gerente…
+- …três cadeiras novas para o escritório dele.
++ …três relatórios muito detalhados.
+- …uma escrivaninha.
+
+[LINE]
+Speaker507: And did~you~like     my    presentation at~the meeting today?
+~           e   você~gostou~(da) minha apresentação na     reunião hoje  
+
+[LINE]
+Speaker2144: It~was  very  interesting. 
+~            ela~foi muito interessante 
+
+[LINE]
+Speaker507: Did~you~try       the cake I        brought for  Brenda's~birthday?        
+~           você~experimentou o   bolo (que)~eu trouxe  para (o)~aniversário~da~Brenda 
+
+[LINE]
+Speaker2144: Yes! It~was     delicious.
+~            sim  ele~estava delicioso 
+
+[MULTIPLE_CHOICE]
+> O gerente da Bea gostou do bolo que ela trouxe.
++ Sim, isso mesmo.
+- Não, não é isso.
+
+[LINE]
+Speaker507: Also,       I'm~sorry            I~was~late    yesterday.
+~           além~disso  me~desculpe~(porque) eu~me~atrasei ontem     
+
+[LINE]
+Speaker2144: You~were~late?  
+~            você~se~atrasou 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker507: I  will~never~be~late again!     I'll~be    here early [every morning]!
+~           eu nunca~me~atrasarei novamente  eu~estarei aqui cedo   toda  manhã    
+- at~night
+~ à~noite 
+- never
+~ nunca
++ every morning
+~ toda  manhã  
+
+[LINE]
+Speaker2144: Please    don't~do that.
+~            por~favor não~faça isso 
+
+[LINE]
+Speaker507: I'll~also~stay    at~work     late.        Every day!
+~           eu~também~ficarei no~trabalho (até)~tarde  todo  dia 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker2144: Again,     please    [don't~do~that].
+~            novamente  por~favor  não~faça~isso  
+- won't do that
+- don't you bat
++ don't do that
+
+[LINE]
+Speaker507: Why?    
+~           por~quê 
+
+[LINE]
+Speaker2144: Because you  don't~work   here.
+~            porque  você não~trabalha aqui 
+
+[MULTIPLE_CHOICE]
+> Opa! O que foi que a gente descobriu?
+- O gerente odiou o bolo da Bea.
+- A Bea é a nova gerente.
++ A Bea na verdade não trabalha lá.
+
+[LINE]
+Speaker507: Oh… is~that a   problem? 
+~           ah  isto~é  uma problema 
+
+[LINE]
+Speaker2144: Yes. Who  are~you?
+~            sim  quem você~é  
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker507: I'm    Bea, and I'm    [a~very~hard~worker].              
+~           eu~sou Bea  e   eu~sou  uma~trabalhadora~muito~esforçada  
+- a very hard walker
++ a very hard worker
+- a dairy farm worker
+
+[LINE]
+Speaker2144: Nice~to~meet       you,  Bea.
+~            prazer~em~conhecer você  Bea 
+
+[LINE]
+Speaker507: Can~I~give       you  my      résumé?   
+~           eu~posso~dar~(a) você (o)~meu currículo 
+
+[LINE]
+Speaker2144: If I  look~at your    résumé,    will~you~leave? 
+~            se eu olhar   (o)~seu currículo  você~irá~embora 
+
+[LINE]
+Speaker507: OK!   
+~           certo 
+
+[MULTIPLE_CHOICE]
+> Por que a Bea quer entregar o currículo dela ao gerente?
+- Ela quer uma promoção.
++ Ela quer um emprego na empresa.
+- Ela quer sair do trabalho mais cedo.
+
+[MATCH]
+> Toque nos pares
+- There were <> havia
+- very <> muito
+- report <> relatório
+- I'm <> eu sou
+- problem <> problema
+
