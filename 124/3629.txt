@@ -1,0 +1,107 @@
+[DATA]
+fromLanguageName=Problème de voiture
+icon=e161ff53b5f470063ac66df2698eddb71232c290
+set=16|2
+
+[HEADER]
+> Car~Problem        
+~ problème~de~voiture
+
+[LINE]
+> Eddy is~standing on~the~street.
+~ Eddy est~debout  dans~la~rue   
+
+[LINE]
+> He closes the trunk  of~a  car.    
+~ il ferme  le  coffre d'une voiture 
+
+[LINE]
+> Vikram walks~past   Eddy.
+~ Vikram passe~devant Eddy 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker593: Are~you~OK, Eddy? [You~look~worried].   
+~           ça~va       Eddy   tu~as~l'air~inquiet  
+- You look for it
++ You look worried
+- Who cooked curry
+
+[LINE]
+Speaker414: Well, I~borrowed    this  car     and it   won't~start.         
+~           ben   j'ai~emprunté cette voiture et  elle ne~veut~pas~démarrer 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Eddy est-il inquiet ?
+- Il est dans le coffre de la voiture.
++ Il n'arrive pas à démarrer la voiture qu'il a empruntée.
+- Il ne sait pas où il est.
+
+[LINE]
+Speaker593: Hmm. Can~I~help~you? 
+~           hmm  je~peux~t'aider 
+
+[LINE]
+Speaker414: No.  It's~OK,   Vikram.
+~           non  c'est~bon  Vikram 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker593: But  I  know [what's~wrong]     with the car.    
+~           mais je sais  ce~qui~ne~va~pas  avec la  voiture 
+- that's wrong
+- what's along
++ what's wrong
+
+[LINE]
+Speaker414: Vikram, I  know~a~lot~about    cars.    
+~           Vikram  je m'y~connais~bien~en voitures 
+
+[LINE]
+Speaker593: OK,       well,    you already~started the car…    
+~           d'accord  eh~bien  tu  as~déjà~démarré la  voiture 
+
+[LINE]
+Speaker414: No,  I  didn't.           I  can't~hear    the engine.
+~           non  je ne~l'ai~pas~fait  je n'entends~pas le  moteur 
+
+[LINE]
+Speaker593: Eddy, this~is an  electric~car.       It's  quiet,      and it doesn't~use   gas.      
+~           Eddy  c'est   une voiture~électrique  c'est silencieux  et  ça n'utilise~pas d'essence 
+
+[MULTIPLE_CHOICE]
+> La voiture est électrique donc elle…
+- … est moche.
+- … consomme beaucoup d'essence.
++ … ne fait pas de bruit et n'a pas besoin d'essence.
+
+[LINE]
+Speaker414: But  I~put    gas          in   the car     ten~minutes~ago.   
+~           mais j'ai~mis de~l'essence dans la  voiture il~y~a~dix~minutes 
+
+[LINE]
+Speaker593: What?! Where?
+~           quoi   où    
+
+[LINE]
+Speaker414: Right here.
+~           juste ici  
+
+[LINE]
+Speaker593: Oh no,  Eddy… That's the trunk! 
+~           oh non  Eddy  c'est  le  coffre 
+
+[MULTIPLE_CHOICE]
+> Où Eddy a-t-il mis l'essence ?
+- dans la voiture de Vikram
+- dans sa moto
++ dans le coffre de la voiture
+
+[MATCH]
+> Choisis les paires
+- is standing <> est debout
+- But <> mais
+- in <> dans
+- Well <> ben
+- didn't <> ne l'ai pas fait
+
