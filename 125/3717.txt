@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=Il giardino
+icon=2048b2aca1b5e4e869402fc61c30ffa6617ba5b8
+set=5|4
+
+[HEADER]
+> The Garden  
+~ il  giardino
+
+[LINE]
+> Vikram visits his    sick~grandmother in~the~hospital.
+~ Vikram visita la~sua nonna~malata     all'ospedale    
+
+[LINE]
+Speaker593: Good~morning, Grandma!
+~           buongiorno    nonna   
+
+[LINE]
+Speaker593: How~do~you~feel today?
+~           come~ti~senti   oggi  
+
+[LINE]
+Speaker129: Well, I~feel        a~little sad.   
+~           beh   (io)~mi~sento un~po'   triste 
+
+[MULTIPLE_CHOICE]
+> La nonna di Vikram è felice.
++ No, è sbagliato.
+- Sì, è giusto.
+
+[LINE]
+Speaker129: This   hospital~room     has~no color. 
+~           questa stanza~d'ospedale non~ha colore 
+
+[POINT_TO_PHRASE]
+> Seleziona l'opzione che significa “fuori”.
+Speaker129: It's warm  and (sunny)      (today), and I  want   (to~go)  (+outside).
+~           è    caldo e    soleggiato   oggi    e   io voglio  andare    fuori    
+
+[LINE]
+Speaker593: Oh. I'm~sorry.  
+~           oh  mi~dispiace 
+
+[LINE]
+Speaker129: On  sunny~days,        I  love  working  in  my  garden…  
+~           nei giorni~soleggiati  io adoro lavorare nel mio giardino 
+
+[LINE]
+Speaker593: Hmm… I~have  an~idea.
+~           uhm  (io)~ho un'idea 
+
+[LINE]
+Speaker593: See~you    in  half~an~hour, Grandma.
+~           ci~vediamo tra mezz'ora      nonna   
+
+[LINE]
+> Vikram leaves.  
+~ Vikram se~ne~va 
+
+[MULTIPLE_CHOICE]
+> Sembra che Vikram…
+- … si sia reso conto di aver bisogno di una doccia.
+- … abbia deciso di andare a una festa.
++ … abbia un'idea su come far sentire meglio sua nonna.
+
+[LINE]
+> Thirty minutes later…
+~ trenta minuti  dopo  
+
+[LINE]
+> Vikram walks into  his~grandmother's~room with two big    plants.
+~ Vikram entra nella stanza~di~sua~nonna    con  due grandi piante 
+
+[SELECT_PHRASE]
+> Seleziona la frase mancante
+Speaker593: Here~are some   plants [from~your~house].
+~           ecco     alcune piante  da~casa~tua      
+- for your hours
+- from our horse
++ from your house
+
+[LINE]
+Speaker593: And some   flowers from your garden!  
+~           e   alcuni fiori   dal  tuo  giardino 
+
+[LINE]
+Speaker129: My     plants and my     flowers!
+~           le~mie piante e   i~miei fiori   
+
+[LINE]
+Speaker593: Now    your   garden   is here!
+~           adesso il~tuo giardino è  qui  
+
+[LINE]
+Speaker129: I'm  so   happy!  Thank~you~very~much, Vikram!
+~           sono così felice  grazie~mille         Vikram 
+
+[MULTIPLE_CHOICE]
+> Che dolce! Vikram…
+- … ha accompagnato sua nonna a casa.
+- … ha comprato una collana di fiori a sua nonna.
++ … ha portato a sua nonna delle piante e dei fiori dal suo giardino.
+
+[MATCH]
+> Tocca le coppie
+- and <> e
+- an idea <> un'idea
+- Now <> adesso
+- It's <> è
+- his <> la sua
+
