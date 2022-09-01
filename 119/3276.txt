@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=My Leg Hurts
+icon=e03c9c686e0856f66bc51a3f912c8be470a7f18b
+set=27|3
+
+[HEADER]
+> Mir~tut~das~Bein~weh
+~ my~leg~hurts        
+
+[LINE]
+> Bea öffnet die Tür.  Sie sieht Eddy, der auf~einem~Bein~steht.  
+~ Bea opens  the door  she sees  Eddy  who is~standing~on~one~leg 
+
+[LINE]
+Speaker414: Mir~tut~das~Bein~weh. Kannst du  mich zum    Arzt   fahren?
+~           my~leg~hurts          can    you me   to~the doctor drive  
+
+[LINE]
+Speaker507: Natürlich!
+~           of~course 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+> Bea und Eddy steigen [in~Beas~Auto~ein].
+~ Bea and Eddy climb    into~Bea's~car    
+- in Beas Autobahn
++ in Beas Auto ein
+- in Beas Auge hinein
+
+[LINE]
+Speaker414: Warte! Ich habe Junior vergessen! Können wir ihn~von~der~Schule~abholen?
+~           wait   I   have Junior forgotten  can    we  pick~him~up~from~school    
+
+[LINE]
+Speaker507: Natürlich, Eddy.
+~           of~course  Eddy 
+
+[MULTIPLE_CHOICE]
+> Where do Bea and Eddy need to go first?
+- to the bakery
++ to Junior's school
+- to the leg store
+
+[LINE]
+> Bea und Eddy holen   Junior von~der~Schule ab.
+~ Bea and Eddy pick~up Junior from~school    ~  
+
+[LINE]
+Speaker414: Können wir auch zur    Post        fahren?
+~           can    we  also to~the post~office drive  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: Aber was~ist [mit~deinem~Bein]?
+~           but  what     about~your~leg   
++ mit deinem Bein
+- mit meinem Wein
+- mit seinen Beinen
+
+[LINE]
+Speaker414: Ich muss    ein großes Paket   abholen. Das~kann~ich~nicht zu~Fuß. 
+~           I   have~to a   big    package pick~up  I~can't~do~that    by~foot 
+
+[LINE]
+Speaker507: Gut,  OK.
+~           fine  OK 
+
+[LINE]
+Speaker415: Oh! Bei Bennys~Burger   da~drüben  ist~es gerade    ganz    leer! 
+~           oh  at  Benny's~Burgers over~there it~is  right~now totally empty 
+
+[LINE]
+Speaker414: Die Burger  sind fantastisch, aber die Schlange ist meistens         total  lang! Lasst uns anhalten!
+~           the burgers are  fantastic    but  the line     is  most~of~the~time really long  let   us  stop     
+
+[CONTINUATION]
+> What comes next?
+Speaker507: Aber du  musst        [zum    Arzt]!  
+~           but  you have~to~(go)  to~the doctor  
++ zum    Arzt  
+~ to~the doctor
+- in~die Oper 
+~ to~the opera
+- im     Schrank schlafen
+~ in~the closet  sleep   
+
+[POINT_TO_PHRASE]
+> Choose the option that means "miracle."
+Speaker415: (Aber) (es~gibt) (keine) Schlange! Das  ist ein (+Wunder)! 
+~            but    there's   no     line      that is  a     miracle  
+
+[LINE]
+> Später sitzen      Eddy, Junior und Bea im~Restaurant.    
+~ later  are~sitting Eddy  Junior and Bea in~the~restaurant 
+
+[ARRANGE]
+> Tap what you hear
+Speaker507: [(Wow), (das)  (war) (wirklich) (ein~großartiger~Burger).]
+~             wow    that   was   really     a~great~burger           
+
+[LINE]
+Speaker414: Ja,  aber jetzt sollten~wir zum    Arzt   fahren.
+~           yes  but  now   we~should   to~the doctor drive  
+
+[LINE]
+Speaker507: Tut  dein Bein immer~noch weh? 
+~           does your leg  still      hurt 
+
+[LINE]
+Speaker414: Nein, aber mein Bauch.   Ich glaube, ich habe zu  viele Burger  gegessen.
+~           no    but  my   stomach  I   think   I   have too many  burgers eaten    
+
+[MULTIPLE_CHOICE]
+> Eddy's leg doesn't hurt anymore, but now…
+- …he needs a shower.
+- …Bea hurt her leg.
++ …his stomach hurts.
+
+[MATCH]
+> Tap the pairs
+- Sie <> she
+- war <> was
+- und <> and
+- Tür <> door
+- Gut <> fine
+
