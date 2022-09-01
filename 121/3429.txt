@@ -1,0 +1,152 @@
+[DATA]
+fromLanguageName=Need Help?
+icon=bef5c43c8220e1f08b5eeea1d574aa9a9d106d6d
+set=6|2
+
+[HEADER]
+> おてつだい~しましょうか？                           
+~ can~I~help~you~[otetsudai-shimashou~ka] 
+
+[LINE]
+> リンは          とおり                  を~あるいています。                     
+~ Lin~[rin~wa] (the)~street~[toori] is~walking~on~[o~aruite~imasu] 
+
+[LINE]
+> かのじょは           おとこの~ひと                 を~みかけます。            
+~ she~[kanojo~wa] (a)~man~[otoko~no~hito] sees~[o~mikakemasu] 
+
+[LINE]
+> その          ひとは              くるま              の~ちかくに               たっています。                   
+~ that~[sono] person~[hito~wa] (a)~car~[kuruma] near~[no~chikaku~ni] is~standing~[tatte~imasu] 
+
+[LINE]
+> かれは          こまっている                ようです。            
+~ he~[kare~wa] worried~[komatte~iru] seems~[you~desu] 
+
+[LINE]
+> リンは          その          ひと            に~はなしかけます。                    
+~ Lin~[rin~wa] that~[sono] person~[hito] talks~to~[ni~hanashikakemasu] 
+
+[LINE]
+Speaker508: あの|、だいじょうぶですか|？てつだいましょうか？                                                   
+~           um~[ano]  are~you~OK~[daijoubu~desu~ka]  can~I~help~you~[tetsudaimashou~ka] 
+
+[LINE]
+Speaker127: いえ|、だいじょうぶです。                      
+~           no~[ie]  (I)~am~OK~[daijoubu~desu] 
+
+[LINE]
+Speaker127: この          くるま          に~もんだい                       が~ある              みたいなんです。                        
+~           this~[kono] car~[kuruma] (a)~problem~with~[ni~mondai] there~is~[ga~aru] it~looks~like~[mitai~na~n~desu] 
+
+[MULTIPLE_CHOICE]
+> Did you get that? The man said that...
++ …his car seems to have a problem.
+- …his car is very cool.
+- …he likes to drive.
+
+[LINE]
+Speaker127: あっ|、すみませんが|、でんわ                                             を~かして~いただけませんか？                                        
+~           oh~[a']  I'm~sorry~but~[sumimasen~ga]  (your)~phone~[denwa] could~you~please~lend~(me)~[o~kashite~itadakemasen~ka] 
+
+[LINE]
+Speaker127: うちに               わすれた                         みたいで…                    
+~           at~home~[uchi~ni] (I)~forgot~(mine)~[wasureta] it~looks~like~[mitai~de] 
+
+[LINE]
+> リンは          その         おとこの~ひと            に       でんわ                 を~かします。                   
+~ Lin~[rin~wa] the~[sono] man~[otokono~hito] to~[ni] (her)~phone~[denwa] (she)~lends~[o~kashimasu] 
+
+[LINE]
+Speaker508: どうぞ|。でも…                 
+~           here~[douzo]  but~[demo] 
+
+[LINE]
+Speaker127: すみません|、ちょっと                       まってください。                    
+~           sorry~[sumimasen]  a~bit~[chotto] please~wait~[matte~kudasai] 
+
+[LINE]
+> おとこの~ひとは                     でんわを~かけます。                            
+~ (the)~man~[otoko~no~hito~wa] makes~a~phone~call~[denwa~o~kakemasu] 
+
+[LINE]
+Speaker127: あ|、もしもし|。そちらは                                じどうしゃの                        しゅうりこうじょう                       ですか？                
+~           ah~[a]  hello~[moshimoshi]  you~[sochira~wa] for~automobiles~[jidousha~no] (a)~repair~shop~[shuuri-koujou] are~(you)~[desu~ka] 
+
+[MULTIPLE_CHOICE]
+> The man borrowed Lin's phone so he could…
+- …check the time.
++ …call an auto repair shop.
+- …look through her pictures.
+
+[LINE]
+Speaker127: いまから                  しゅうり                を~おねがいしたいんですが。                                  
+~           right~away~[ima~kara] (a)~repair~[shuuri] I'd~like~to~ask~for~[o~onegai-shitai~n~desu~ga] 
+
+[LINE]
+Speaker127: えっ|？ばしょ~ですか？                           
+~           uh~[e']  (my)~location~[basho~desu~ka] 
+
+[LINE]
+Speaker127: いえ|、いま             どこ           に~いるのか                   わかりません。                      
+~           no~[ie]  now~[ima] where~[doko] (I)~am~at~[ni~iru~no~ka] (I)~don't~know~[wakarimasen] 
+
+[MULTIPLE_CHOICE]
+> The man knows where he is.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker127: あの|、すみません…                      
+~           um~[ano]  excuse~me~[sumimasen] 
+
+[LINE]
+Speaker508: はい？       
+~           yes~[hai] 
+
+[CONTINUATION]
+> What comes next?
+Speaker127: ここは                    [どこ~ですか]？                 
+~           this~(place)~[koko~wa]  where~is~[doko~desu~ka]  
+- なん~ですか               
+~ what~is~[nan~desu~ka]
++ どこ~ですか                 
+~ where~is~[doko~desu~ka]
+- こうえん~ですか                      
+~ is~(it~a)~park~[kouen~desu~ka]
+
+[LINE]
+Speaker508: しゅうりこうじょう                         の~ちかく             ですよ。              
+~           (the)~repair~shop~[shuuri-koujou] near~[no~chikaku] (it)~is~[desu~yo] 
+
+[LINE]
+Speaker127: えっ？       
+~           what~[e'] 
+
+[ARRANGE]
+> Tap what you hear
+Speaker508: [(わたし|)、(しゅうまつに)                             (そこで)             (はたらいてるんです)。]                    
+~             I~[wat ashi]   on~weekends~[shuumatsu~ni]   there~[soko~de]   (I)~work~[hataraiteru~n~desu]   
+
+[LINE]
+Speaker508: じつは|、せいびしなんです。                                                
+~           actually~[jitsu~wa]  (I)~am~(a)~mechanic~[seibishi~na~n~desu] 
+
+[LINE]
+Speaker508: だから…         おてつだい~しましょうか？                           
+~           so~[dakara]  can~I~help~you~[otetsudai-shimashou~ka] 
+
+[MULTIPLE_CHOICE]
+> It turns out that Lin…
+- …needs help buying a new phone.
+- …doesn't know where she is.
++ …works at the auto repair shop the man called.
+
+[MATCH]
+> Tap the pairs
+- を かします <> lends [o kashimasu]
+- うちに <> at home [uchi ni]
+- ひとは <> person [hito wa]
+- ちょっと <> a bit [chotto]
+- しゅうり <> repair [shuuri]
+
