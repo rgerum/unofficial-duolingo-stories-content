@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=Brauchen Sie Hilfe?
+icon=ec74184ed69da39d62ba574fa9d615f7d0c53da1
+set=6|2
+
+[HEADER]
+> Need           Help? 
+~ brauchen~(Sie) Hilfe 
+
+[LINE]
+> Lin is~walking on  a     road.  
+~ Lin geht       auf einer Straße 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+> She sees  a     man  [near~his~car].            
+~ sie sieht einen Mann  in~der~Nähe~seines~Autos  
+- near this bar
+- hear his car
++ near his car
+
+[LINE]
+> He looks~unhappy.        
+~ er sieht~unglücklich~aus 
+
+[LINE]
+Speaker508: Hi! Do~you~need  help? 
+~           hi  brauchen~Sie Hilfe 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker127: There~is a   problem with [my     car]. 
+~           es~gibt  ein Problem mit   meinem Auto  
+- the weather
+~ dem Wetter 
+- my     coffee
+~ meinem Kaffee
++ my     car 
+~ meinem Auto
+
+[LINE]
+Speaker127: Can  I   use~your~phone,     please?
+~           kann ich Ihr~Handy~benutzen  bitte  
+
+[LINE]
+> Lin gives her phone to~the man. 
+~ Lin gibt  ihr Handy dem    Mann 
+
+[LINE]
+Speaker508: Sure, but… 
+~           klar  aber 
+
+[LINE]
+Speaker127: Sorry,          one  minute.
+~           Entschuldigung  eine Minute 
+
+[LINE]
+> The man  uses    Lin's phone.
+~ der Mann benutzt Lins  Handy 
+
+[LINE]
+Speaker127: Yes, is  this the auto~repair~shop?
+~           ja   ist das  die Autowerkstatt    
+
+[MULTIPLE_CHOICE]
+> Der Mann hat sich Lins Handy geborgt, damit …
+- … er nach der Uhrzeit sehen kann.
+- … er sich ihre Fotos ansehen kann.
++ … er eine Autowerkstatt anrufen kann.
+
+[LINE]
+Speaker127: I   have a   car~problem.            
+~           ich habe ein Problem~mit~meinem~Auto 
+
+[LINE]
+Speaker508: Uh… Sir?      
+~           äh  mein~Herr 
+
+[LINE]
+> The man  continues~talking on~the phone.
+~ der Mann spricht~weiter    am     Handy 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker127: No,   I   don't~know [where~I~am].
+~           nein  ich weiß~nicht  wo~ich~bin  
+- here I am
+- where I ran
++ where I am
+
+[LINE]
+Speaker127: Excuse~me,         miss…    
+~           entschuldigen~Sie  Fräulein 
+
+[LINE]
+Speaker508: Yes?
+~           ja  
+
+[LINE]
+Speaker127: Where are  we? 
+~           wo    sind wir 
+
+[LINE]
+Speaker508: Near        the auto~repair~shop!
+~           in~der~Nähe der Autowerkstatt    
+
+[LINE]
+Speaker127: What?
+~           was  
+
+[ARRANGE]
+> Was hörst du?
+Speaker508: [(I)   (work)    (there) (on) (weekends).]   
+~             ich   arbeite   dort    an   Wochenenden   
+
+[LINE]
+Speaker508: I'm     a    mechanic!    
+~           ich~bin eine Mechanikerin 
+
+[LINE]
+Speaker508: So…   do~you~need  help? 
+~           also  brauchen~Sie Hilfe 
+
+[MULTIPLE_CHOICE]
+> Wie sich herausstellt, …
+- … braucht Lin Hilfe beim Kauf eines Handys.
+- … weiß Lin nicht, wo sie sind.
++ … arbeitet Lin in der Autowerkstatt.
+
+[MATCH]
+> Wähle die Paare
+- Near <> in der Nähe
+- but <> aber
+- Sir <> mein Herr
+- Uh <> äh
+- uses <> benutzt
+
