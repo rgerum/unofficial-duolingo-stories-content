@@ -1,0 +1,138 @@
+[DATA]
+fromLanguageName=Qui vient dîner ?
+icon=dc357430b977e970c350bd02c026ab07731f28f3
+set=29|1
+
+[HEADER]
+> Who's~Coming to~Dinner?
+~ qui~vient    dîner     
+
+[LINE]
+> Lucy is~making soup.        Lin comes into the kitchen.
+~ Lucy prépare   de~la~soupe  Lin vient dans la  cuisine 
+
+[LINE]
+Speaker509: Guess  who's~coming to~dinner tonight?
+~           devine qui~vient    dîner     ce~soir 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker508: Well,    you're~making your [famous~fish~soup],         so    it's  probably     someone      special.
+~           eh~bien  tu~prépares   ta    célèbre~soupe~de~poisson   alors c'est probablement quelqu'un~de spécial 
+- favorite fish suit
++ famous fish soup
+- famous wish soup
+
+[LINE]
+Speaker509: Yes! It's  someone      very special.
+~           oui  c'est quelqu'un~de très spécial 
+
+[LINE]
+Speaker508: Is~your~friend,      the famous  actress, coming to~dinner?
+~           est-ce~que~ton~amie  la  célèbre actrice  vient  dîner     
+
+[LINE]
+Speaker509: No,  she's~working  on  a  film right~now. 
+~           non  elle~travaille sur un film maintenant 
+
+[MULTIPLE_CHOICE]
+> L'actrice célèbre vient dîner.
+- Oui, c'est vrai.
++ Non, c'est faux.
+
+[LINE]
+Speaker509: It's  someone      more important. You can't~wear         pajamas!  
+~           c'est quelqu'un~de plus important  tu  ne~peux~pas~porter un~pyjama 
+
+[LINE]
+Speaker508: Oh, really?   Alright,  I'll~wear   something~else!
+~           oh  vraiment  d'accord  je~porterai autre~chose    
+
+[MULTIPLE_CHOICE]
+> Hum… On dirait que Lin porte...
++ ... un pyjama.
+- … une belle robe.
+- … un maillot de bain.
+
+[LINE]
+> Lin goes to   her room    and puts~on a   shirt   and jeans.  
+~ Lin va   dans sa  chambre et  met     une chemise et  un~jean 
+
+[LINE]
+Speaker508: So,    is~it your friend, Victor?! Is~he~back       from~taking~photos          of wild~horses      in Argentina?
+~           alors  c'est ton  ami     Victor   il~est~de~retour après~avoir~pris~des~photos de chevaux~sauvages en Argentine 
+
+[LINE]
+Speaker509: No,  he's~photographing lions     in India now.       
+~           non  il~photographie    des~lions en Inde  maintenant 
+
+[LINE]
+Speaker508: Is~it the~astronaut you~worked~with?         
+~           c'est l'astronaute  avec~qui~tu~as~travaillé 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker509: No,  [he's~getting~ready] to~go   to  Mars.
+~           non   il~se~prépare       à~aller sur Mars 
+- his bed is ready
++ he's getting ready
+- he's getting lettuce
+
+[LINE]
+Speaker508: Wait…    Is~this a  date    for  me,  Grandma?
+~           attends  c'est   un rencard pour moi  Mamie   
+
+[LINE]
+Speaker508: I  don't~need~help        with~dating.              
+~           je n'ai~pas~besoin~d'aide pour~faire~des~rencontres 
+
+[LINE]
+Speaker509: Of~course~not!   
+~           bien~sûr~que~non 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+> [(Someone)   (knocks~on) (the) (door).]  
+~   quelqu'un   frappe~à    la    porte    
+
+[LINE]
+> It's  Lucy's~friend, Frank.
+~ c'est l'ami~de~Lucy  Frank 
+
+[LINE]
+Speaker509: Lin, this~is Frank. He helps people   with their resumes.
+~           Lin  voici   Frank  il aide  les~gens avec leurs CV      
+
+[LINE]
+Speaker113: Hi,    Lin! Your grandma    really~wanted    us~to~meet.        
+~           salut  Lin  ta   grand-mère voulait~vraiment qu'on~se~rencontre 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker113: She  said  that [you need         to~find a  job].   
+~           elle a~dit que   tu  as~besoin~de trouver un emploi  
++ you need         to~find a  job   
+~ tu  as~besoin~de trouver un emploi
+- you live    on  Mars
+~ tu  habites sur Mars
+- you have a  pet~fish            
+~ tu  as   un poisson~de~compagnie
+
+[LINE]
+Speaker508: Ugh,  I'm~going~to~put~my~pajamas~back~on.
+~           hein  je~vais~me~remettre~en~pyjama       
+
+[MULTIPLE_CHOICE]
+> Pourquoi Lin va-t-elle se remettre en pyjama ?
+- Elle veut être jolie pour son rencard.
++ L'invité est là pour l'aider à trouver un travail.
+- En pyjama, elle ressemble à une astronaute.
+
+[MATCH]
+> Choisis les paires
+- Argentina <> Argentine
+- friend <> ami
+- who's coming <> qui vient
+- he's photographing <> il photographie
+- she's working <> elle travaille
+
