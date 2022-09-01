@@ -1,0 +1,168 @@
+[DATA]
+fromLanguageName=The Sweater
+icon=a6221e8716923ce3381efbbfc20a0913ce314fdb
+set=30|3
+
+[HEADER]
+> Le~pull    
+~ the~sweater
+
+[LINE]
+> Eddy et  Junior sont dans un magasin~de~vêtements.
+~ Eddy and Junior are  in   a  clothes~shop         
+
+[LINE]
+Speaker415: Papa, qu'est-ce  qu'on~fait        ici  ? Tu  détestes ce   magasin.
+~           Dad   what~is~it that~we~are~doing here   you hate     this shop    
+
+[LINE]
+Speaker414: J'ai~besoin~d'un pull.   
+~           I~need~a         sweater 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: [Mais~c'est~l'été].   
+~            but~it's~the~summer  
++ Mais c'est l'été
+- Mais c'est la tête
+- C'était l'été
+
+[LINE]
+> Une~vendeuse arrive. 
+~ a~saleswoman arrives 
+
+[LINE]
+Speaker561: Bonjour, Eddy !
+~           hello    Eddy  
+
+[LINE]
+Speaker414: Oui, je~m'appelle Eddy. Euh... je veux~dire… Bonjour !
+~           yes  my~name~is   Eddy  uh     I  mean       hello    
+
+[LINE]
+Speaker415: Ah… je comprends  pourquoi on~est ici. 
+~           ah  I  understand why      we~are here 
+
+[LINE]
+Speaker561: Je peux vous~aider    ?
+~           I  can  (to)~help~you  
+
+[CONTINUATION]
+> What comes next?
+Speaker414: Oui ! Je cherche        [un~pull].  
+~           yes   I  am~looking~for  a~sweater  
+- l'été     
+~ the~summer
+- ce   magasin
+~ this shop   
++ un~pull  
+~ a~sweater
+
+[LINE]
+Speaker561: Vous devriez essayer  ce   pull~vert.     Ça vous~ira~bien.     
+~           you  should  (to)~try this green~sweater  it will~suit~you~well 
+
+[LINE]
+Speaker414: Cool, merci     !
+~           cool  thank~you  
+
+[LINE]
+Speaker415: Tu  n'aimes~pas le~vert.    
+~           you don't~like  (the)~green 
+
+[LINE]
+Speaker414: Chut ! J'adore le~vert     !
+~           shh    I~love  (the)~green  
+
+[ARRANGE]
+> Tap what you hear
+> [(Eddy) (met)     (le)  (pull).]   
+~   Eddy   puts~on   the   sweater   
+
+[LINE]
+Speaker561: Ça vous~va~vraiment~bien !
+~           it really~suits~you       
+
+[LINE]
+Speaker415: Il~est trop petit, Papa.
+~           it~is  too  small  Dad  
+
+[LINE]
+Speaker414: Quoi ? Pas~du~tout.
+~           what   not~at~all  
+
+[LINE]
+Speaker561: Et  il~est en~solde.
+~           and it~is  on~sale  
+
+[MULTIPLE_CHOICE]
+> What does the saleswoman mean?
++ The sweater is on sale.
+- The sweater is old.
+- The sweater is horrible.
+
+[LINE]
+Speaker414: Je le~prends !
+~           I  take~it    
+
+[LINE]
+Speaker414: Et…  je vais     le~porter  toute~la~journée.
+~           and  I  am~going to~wear~it all~day~long     
+
+[LINE]
+Speaker561: Super ! J'espère vous~revoir      bientôt !
+~           great   I~hope   to~see~you~again soon     
+
+[LINE]
+Speaker414: Ah, oui ?
+~           ah  yes  
+
+[MULTIPLE_CHOICE]
+> Eddy seems hopeful. Why?
+- Junior is buying a matching sweater.
+- He and Junior are going to eat pizza now.
++ The saleswoman said she hopes to see him again soon.
+
+[LINE]
+Speaker415: Allons-y, Papa.
+~           let's~go  Dad  
+
+[LINE]
+> Eddy et  Junior sortent du     magasin.
+~ Eddy and Junior get~out of~the shop    
+
+[LINE]
+Speaker415: Papa, tu  vas~bien ? Tu~as~le~visage~tout~bleu.
+~           Dad   you are~OK     your~face~is~all~blue     
+
+[LINE]
+Speaker414: Je vais~bien !
+~           I  am~OK      
+
+[POINT_TO_PHRASE]
+> Choose the option that means "to take off."
+Speaker415: Tu  (ne~peux~pas) (+enlever)       (ton~pull)…     (C'est~ça) ?
+~           you  can't          (to)~take~off   your~sweater    right      
+
+[LINE]
+Speaker414: C'est~ça.
+~           right    
+
+[LINE]
+Speaker415: Viens. On~va       acheter des~ciseaux.  
+~           come   we're~going to~buy  some~scissors 
+
+[MULTIPLE_CHOICE]
+> Why did Eddy buy a sweater that was too small?
+- He was really cold.
++ He was trying to flirt with the salesperson.
+- Junior told him to do it.
+
+[MATCH]
+> Tap the pairs
+- ne peux pas <> can't
+- met <> puts on
+- Allons-y <> let's go
+- C'est ça <> right
+- ton pull <> your sweater
+
