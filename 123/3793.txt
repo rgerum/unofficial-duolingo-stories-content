@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=El pastel
+icon=4a31a2e8269bfd907d862c44a3b320899c169419
+set=14|4
+
+[HEADER]
+> Le gâteau
+~ el pastel
+
+[LINE]
+> Lin est  dans la cuisine. Elle ne~trouve~pas son gâteau.
+~ Lin está en   la cocina   ella no~encuentra  su  pastel 
+
+[LINE]
+Speaker508: Où    est  mon gâteau ?
+~           dónde está mi  pastel  
+
+[LINE]
+> Lin regarde Lucie.
+~ Lin mira~a  Lucie 
+
+[LINE]
+Speaker508: Lucie ? Tu~manges~quoi     ?
+~           Lucie   qué~estás~comiendo  
+
+[LINE]
+> Lucie cache   son assiette.
+~ Lucie esconde su  plato    
+
+[MULTIPLE_CHOICE]
+> Lucie está escondiendo su plato.
++ Sí, así es.
+- No, no es así.
+
+[LINE]
+Speaker509: Euh… rien !
+~           eh   nada  
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker508: Je~ne~trouve~pas [mon~gâteau].
+~           no~encuentro      mi~pastel   
+- mon chapeau
++ mon gâteau
+- mon tableau
+
+[LINE]
+Speaker509: C'est  bizarre. C'est un petit~gâteau   ?
+~           eso~es raro     es    un pastel~pequeño  
+
+[LINE]
+Speaker508: Oui !
+~           sí   
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker509: [(Il~y~a) (des)  (oranges)  (sur)   (le~gâteau) ]?
+~             hay      unas   naranjas   sobre   el~pastel    
+
+[LINE]
+Speaker508: Oui ! Il~y~a beaucoup d'oranges.
+~           sí    hay    muchas   naranjas  
+
+[LINE]
+Speaker509: Il~est blanc  ?
+~           es     blanco  
+
+[LINE]
+Speaker508: Oui ! Il~est blanc  !
+~           sí    es     blanco  
+
+[LINE]
+Speaker509: Ton gâteau est bon  ? Très bon  ?
+~           tu  pastel es  rico   muy  rico  
+
+[CONTINUATION]
+> What comes next?
+Speaker508: Lucie ! Tu~manges         [mon gâteau ?]!
+~           Lucie   te~estás~comiendo  mi  pastel    
++ mon gâteau
+~ mi  pastel
+- ma carotte   
+~ mi zanahoria 
+- la cuisine
+~ la cocina 
+
+[LINE]
+Speaker509: Non !
+~           no   
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "Tengo mucha hambre".
+Speaker508: OK.        (Désolée).   (+J'ai~très~faim),     et je (veux~manger)     mon gâteau (au~chocolat). 
+~           está~bien   lo~siento     tengo~mucha~hambre   y  yo  me~quiero~comer  mi  pastel  de~chocolate  
+
+[LINE]
+Speaker509: Chocolat  ? Ton gâteau est à~la~vanille !
+~           chocolate   tu  pastel es  de~vainilla   
+
+[LINE]
+Speaker508: Aha, je le savais ! Tu as     mon gâteau !
+~           ajá  yo lo sabía    tú tienes mi  pastel  
+
+[MULTIPLE_CHOICE]
+> ¿Cómo sabe Lin que Lucie se comió su pastel?
++ Lucie sabe de qué sabor es el pastel.
+- Lucie tiene pastel en su cara.
+- Lin puede ver el plato de Lucie.
+
+[MATCH]
+> Selecciona los pares
+- Très <> muy
+- Non <> no
+- bon <> rico
+- son <> su
+- le <> lo
+
