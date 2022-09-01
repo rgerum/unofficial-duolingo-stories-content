@@ -1,0 +1,146 @@
+[DATA]
+fromLanguageName=Đi chơi lần hai
+icon=3de4c74a9c516e04a9ccbd4614f29e68acb55f2a
+set=20|3
+
+[HEADER]
+> Second~Date    
+~ đi~chơi~lần~hai
+
+[LINE]
+> Bea and Jim are~walking~home  after their~first~date.        
+~ Bea và  Jim đang~đi~bộ~về~nhà sau   buổi~hẹn~đầu~tiên~của~họ 
+
+[LINE]
+Speaker15: Do~you~want      to~have~dinner~again~soon? 
+~          em~có~muốn…không hôm~nào~lại~đi~ăn~tối~tiếp 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker507: No.    Honestly,    [this~was~a~terrible~date].  
+~           không  nói~thật~là   đây~là~một~cuộc~hẹn~tồi~tệ  
+- these were terrible days
++ this was a terrible date
+- his was a terrible day
+
+[LINE]
+Speaker15: What?  Why?    
+~          gì~cơ  tại~sao 
+
+[LINE]
+Speaker507: You talked   about yourself     during     the~whole~date!
+~           anh đã~kể~lể về    bản~thân~anh trong~suốt cả~cuộc~hẹn    
+
+[LINE]
+Speaker507: And you didn't~ask   any~questions      about my~life.         
+~           và  anh đã~không~hỏi bất~cứ~câu~hỏi~nào về    cuộc~sống~của~em 
+
+[CONTINUATION]
+> Tiếp theo sẽ là gì?
+Speaker15: Well,         you were~texting~a~lot   [during     the~date]!
+~          cơ~mà…còn~gì  em  đã~nhắn~tin~liên~tục  trong~suốt buổi~hẹn  
+- to~my~girlfriend   
+~ cho~bạn~gái~của~anh
++ during     the~date
+~ trong~suốt buổi~hẹn
+- last~month 
+~ tháng~trước
+
+[LINE]
+Speaker507: I~was~texting               my~friend Lin.
+~           lúc~đó~em~đang~nhắn~tin~cho bạn~em    Lin 
+
+[LINE]
+Speaker507: She's~taking~care~of my~dog         tonight.
+~           cô~ấy~trông          con~chó~của~em tối~nay 
+
+[LINE]
+Speaker15: You have a~dog? I~didn't~know~that!       
+~          em  nuôi chó    thế~mà~anh~không~biết~đấy 
+
+[LINE]
+Speaker507: That's because you didn't~ask.  
+~           đó~là  bởi~vì  anh đã~không~hỏi 
+
+[LINE]
+Speaker15: Sorry,   I   talk too much  when I'm    nervous.   
+~          xin~lỗi  anh nói  quá nhiều khi  anh~bị căng~thẳng 
+
+[MULTIPLE_CHOICE]
+> Khi căng thẳng, Jim sẽ…
+- …hỏi Bea liên tục.
+- …liên tục đi hẹn hò.
++ …nói rất nhiều.
+
+[LINE]
+Speaker507: Yeah.
+~           ừ    
+
+[LINE]
+Speaker15: Well, I   love dogs. I   have two.  
+~          ừm    anh yêu  chó   anh nuôi 2~con 
+
+[LINE]
+Speaker507: Oh, really?  
+~           ô   thật~sao 
+
+[LINE]
+Speaker15: Their~names are Steve and Phil!
+~          tên~chúng   là  Steve và  Phil 
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “nhút nhát”.
+Speaker15: Steve (is)  friendly,   (but)   (Phil) is  a~little (+shy).      
+~          Steve  thì  thân~thiện   nhưng   Phil  thì hơi        nhút~nhát  
+
+[LINE]
+Speaker15: They  love      playing in    the~park  and going to the~beach and—
+~          chúng rất~thích chơi    trong công~viên và  đi    ra bãi~biển  và  
+
+[LINE]
+Speaker15: Sorry,   I'm~talking~too~much~again.   
+~          xin~lỗi  anh~lại~nói~quá~nhiều~nữa~rồi 
+
+[LINE]
+Speaker507: Yes,  but   that's~OK.
+~           phải  nhưng không~sao 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker507: [(I)  (love)      (talking~about) (my~dog)         (too).] 
+~             em   rất~thích   kể~về           con~chó~của~em   cũng   
+
+[LINE]
+Speaker15: Maybe our~dogs         can~play    together  at the~park  soon.      
+~          có~lẽ chó~của~chúng~ta có~thể~chơi cùng~nhau ở  công~viên hôm~nào~đó 
+
+[LINE]
+Speaker507: Great~idea!
+~           ý~hay~đấy  
+
+[LINE]
+Speaker15: It'll~be~a~fun~second~date. 
+~          cuộc~hẹn~thứ~hai~sẽ~vui~đây 
+
+[LINE]
+Speaker507: Oh, I  don't~want     to~have~a~second~date.    
+~           ồ   em không~muốn…đâu đi~chơi~lần~hai~(với~anh) 
+
+[LINE]
+Speaker507: But   our~dogs         can~still~play  together! 
+~           nhưng chó~của~chúng~ta vẫn~có~thể~chơi cùng~nhau 
+
+[MULTIPLE_CHOICE]
+> Ra là Bea…
+- …muốn làm bạn gái Jim.
++ …không muốn đi chơi cùng Jim nữa.
+- …không hề nuôi chó.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- Do you want <> em có muốn…không
+- two <> 2 con
+- a little <> hơi
+- talked <> đã kể lể
+- playing <> chơi
+
