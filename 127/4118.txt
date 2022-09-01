@@ -1,0 +1,108 @@
+[DATA]
+fromLanguageName=A decisão de Junior
+icon=e0600de22649754eb7336b587834d36407767819
+set=6|3
+
+[HEADER]
+> La decisión de Junior
+~ a  decisão  de Junior
+
+[LINE]
+> Es la hora del almuerzo en~la escuela de Junior.
+~ é  a  hora do  almoço   na    escola  de Junior 
+
+[LINE]
+Speaker415: ¡Buenos~días, señora  Pérez! ¡Tengo     mucha hambre!
+~            bom~dia      senhora Pérez   estou~com muita fome   
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker395: Hola, Junior. [Hoy~tenemos~pollo].
+~           olá   Junior   hoje~temos~frango  
+- Hoy veremos pollo
+- Hoy tendremos polo
++ Hoy tenemos pollo
+
+[LINE]
+Speaker395: Y con el pollo… 
+~           e com o  frango 
+
+[LINE]
+Speaker395: … te~puedes comer una ensalada o  patatas fritas.
+~             podes     comer uma salada   ou batatas fritas 
+
+[MULTIPLE_CHOICE]
+> O Junior pode escolher salada ou batatas fritas com o frango.
+- Não, não é isso.
++ Sim, isso mesmo.
+
+[ARRANGE]
+> Toque no que escutar
+Speaker415: ¡[(Quiero) (patatas) (fritas) (y) (ensalada)!]
+~              quero    batatas   fritas   e   salada     
+
+[LINE]
+Speaker395: Te~puedes comer solo una de~las dos  cosas,  Junior.
+~           podes     comer só   uma das    duas coisas  Junior 
+
+[LINE]
+Speaker415: Bueno, me~encantan las~patatas~fritas…
+~           bom    eu~adoro    batatas~fritas     
+
+[LINE]
+Speaker415: Y va~a ser un día muy   largo…
+~           e vai  ser um dia muito longo 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "saudável".
+Speaker415: … (pero) la (ensalada) es (más)  (+saludable).
+~              mas   a   salada    é   mais    saudável   
+
+[LINE]
+Speaker395: ¿Junior?
+~            Junior 
+
+[LINE]
+Speaker415: ¿Patatas fritas o  ensalada? Mmm…
+~            batatas fritas ou salada    hum 
+
+[LINE]
+Speaker415: Está bien, quiero patatas fritas… ¡No!  ¡Ensalada! ¡No! 
+~           está bem   quero  batatas fritas   não   salada     não 
+
+[LINE]
+Speaker415: ¡Ay, no  sé! 
+~            ah  não sei 
+
+[MULTIPLE_CHOICE]
+> Pobre Junior! Qual o problema dele?
+- Ele quer sorvete na salada dele.
+- Ele comeu batatas fritas demais.
++ Ele não consegue escolher entre salada e batatas fritas.
+
+[LINE]
+Speaker395: ¡Junior!
+~            Junior 
+
+[LINE]
+Speaker415: ¡Ay! ¿Sí,  señora  Pérez?
+~            ah   sim  senhora Pérez 
+
+[LINE]
+Speaker395: ¡Toma! Patatas fritas y ensalada para ti.
+~            toma  batatas fritas e salada   para ti 
+
+[MULTIPLE_CHOICE]
+> A Sra. Pérez disse para o Junior…
+- …imaginar que as batatas fritas são uma salada.
+- …ir a outro lugar para comer.
++ …pegar as batatas fritas e a salada.
+
+[MATCH]
+> Toque nos pares
+- la <> a
+- para <> para
+- Está <> está
+- las patatas fritas <> batatas fritas
+- más <> mais
+
