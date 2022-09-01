@@ -1,0 +1,141 @@
+[DATA]
+fromLanguageName=Turist
+icon=c28cb69bf3836fd092352596d98fc29a300c70ce
+set=8|2
+
+[HEADER]
+> The Tourist
+~ ~   Turist 
+
+[LINE]
+> Pablo is~visiting  San~Francisco.   
+~ ~     ziyaret~eder San~Francisco'yu 
+
+[LINE]
+> He is~looking~for a   park.
+~ O  arıyor         bir park 
+
+[MULTIPLE_CHOICE]
+> Pablo, park arayan bir turist.
++ Evet, bu doğru.
+- Hayır, bu yanlış.
+
+[LINE]
+Speaker172: Excuse~me!   
+~           affedersiniz 
+
+[LINE]
+Speaker172: I'm~looking~for Golden~Gate~Park…  
+~           arıyorum        Golden~Gate~Park'ı 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker856: You   need  [to~take~the~bus]… 
+~           sizin lazım  otobüse~binmeniz  
+- two take the bus
+- to take then busy
++ to take the bus
+
+[LINE]
+Speaker856: There's a   stop  near  here.  
+~           Var     bir durak yakın buraya 
+
+[LINE]
+Speaker172: Thanks!     
+~           Teşekkürler 
+
+[LINE]
+Speaker856: You're~welcome.
+~           Rica~~ederim   
+
+[LINE]
+Speaker856: Where~are~you~from?
+~           siz~nerelisiniz    
+
+[LINE]
+Speaker172: Barcelona.
+~           Barselona 
+
+[LINE]
+Speaker856: I   love    Spain!     
+~           ben severim İspanya'yı 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker856: [(And) (I'm~studying) (Spanish)!]   
+~             Ve    öğreniyorum    İspanyolca   
+
+[LINE]
+Speaker172: Nice! 
+~           Güzel 
+
+[CONTINUATION]
+> Sorunun sonu ne olabilir?
+Speaker856: Are~you [on  vacation]?
+~           misiniz  -de tatil     
+- ... my house?
++ ... vacation?
+- ... the bus?
+
+[LINE]
+Speaker172: Yes,  but I'm also   studying    English.  
+~           Evet  ama Ben Ayrıca öğreniyorum İngilizce 
+
+[LINE]
+Speaker856: I'm Andrea. You?
+~           Ben ~       Sen 
+
+[LINE]
+Speaker172: I'm Pablo.
+~           Ben ~     
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker856: [Nice~to~meet~you]!          
+~            tanıştığımıza~memnun~oldum  
+- Nice to melt you
++ Nice to meet you
+- Ice to meet you
+
+[LINE]
+Speaker856: I~would~like to~talk  more…    
+~           isterim      konuşmak daha~çok 
+
+[LINE]
+Speaker856: … but   I     need  to~go  now.  
+~             fakat benim lazım gitmem şimdi 
+
+[LINE]
+Speaker856: I'm~going to~meet   my~friends     at  a   park near  here.  
+~           gidiyorum buluşmaya arkadaşlarımla -ta bir park yakın buraya 
+
+[LINE]
+Speaker172: Oh, OK.   
+~           ~   tamam 
+
+[LINE]
+Speaker856: Umm… do~you~want   to~come?
+~           ~    ister~misiniz gelmek  
+
+[LINE]
+Speaker856: It's  not   Golden~Gate~Park,    but…
+~           orası değil Golden~Gate~Parkı'ı  ama 
+
+[LINE]
+Speaker172: Yes!  Of~course!
+~           Evet  tabii~ki  
+
+[MULTIPLE_CHOICE]
+> Pablo ...
+- … Andrea'nın okulunu görmeyi memnuniyetle kabul eder.
+- … İspanya'ya bir uçak bileti almayı memnuniyetle kabul eder.
++ … Andrea ile parka gitmeyi memnuniyetle kabul eder.
+
+[MATCH]
+> Çiftlere dokun
+- Thanks <> Teşekkürler
+- English <> İngilizce
+- stop <> durak
+- I <> ben
+- There's <> Var
+
