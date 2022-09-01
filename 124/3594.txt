@@ -1,0 +1,154 @@
+[DATA]
+fromLanguageName=Prenez-moi en photo
+icon=7dd783a29013b7951880f8d2428316358039470c
+set=7|3
+
+[HEADER]
+> Take~My~Photo      
+~ prenez-moi~en~photo
+
+[LINE]
+> Zari stops  her art~teacher,      Oscar, outside      the classroom.      
+~ Zari arrête son professeur~d'art  Oscar  en~dehors~de la  salle~de~classe 
+
+[LINE]
+Speaker418: Can~you~take~my~photo,           please?         
+~           pouvez-vous~me~prendre~en~photo  s'il~vous~plaît 
+
+[LINE]
+Speaker592: Why?     
+~           pourquoi 
+
+[LINE]
+Speaker418: I~need~it      for  my  social~media.   
+~           j'en~ai~besoin pour mes réseaux~sociaux 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Zari veut-elle qu'Oscar la prenne en photo ?
++ Elle veut poster la photo sur les réseaux sociaux.
+- Elle veut envoyer la photo à un garçon qu'elle aime bien.
+- Elle ne sait pas utiliser son appareil photo.
+
+[LINE]
+Speaker592: I'm     late      for  a   meeting with the other  teachers,    Zari.
+~           je~suis en~retard pour une réunion avec les autres professeurs  Zari 
+
+[LINE]
+Speaker418: Please!         
+~           s'il~vous~plaît 
+
+[LINE]
+Speaker592: Ugh,  OK.      
+~           pfff  d'accord 
+
+[LINE]
+Speaker418: Thanks. Here's my  phone.    
+~           merci   voici  mon téléphone 
+
+[LINE]
+Speaker592: OK.      
+~           d'accord 
+
+[LINE]
+Speaker418: Wait.     Do~I~look~good?
+~           attendez  je~suis~jolie  
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker592: [I~don't~know].  
+~            je~ne~sais~pas  
++ I don't know
+- I do now
+- I do not
+
+[LINE]
+Speaker418: Yes. I  always~look~good.   
+~           oui  je suis~toujours~jolie 
+
+[LINE]
+Speaker592: Great. 
+~           génial 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « à côté de ».
+Speaker418: (Wait).     Do~you~want (to~take) the (photo) (+next~to)   the door… 
+~            attendez   vous~voulez  prendre  la   photo    à~côté~de  la  porte 
+
+[LINE]
+Speaker418: …or in~front~of the door? 
+~            ou devant      la  porte 
+
+[LINE]
+Speaker592: Next~to   the door. 
+~           à~côté~de la  porte 
+
+[LINE]
+Speaker418: Maybe     in~front~of the door… 
+~           peut-être devant      la  porte 
+
+[LINE]
+Speaker592: Zari!
+~           Zari 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Oscar est-il agacé ?
+- Zari veut changer de tenue.
++ Zari n'arrive pas à décider où prendre la photo.
+- Zari bloque la porte.
+
+[LINE]
+Speaker418: OK!       Take   the photo.
+~           d'accord  prenez la  photo 
+
+[LINE]
+> Oscar takes a   photo.
+~ Oscar prend une photo 
+
+[LINE]
+Speaker418: Thanks!
+~           merci  
+
+[LINE]
+Speaker418: Wait.     This~is~wrong.
+~           attendez  ça~ne~va~pas  
+
+[LINE]
+Speaker418: This~is a   photo of you. 
+~           c'est   une photo de vous 
+
+[LINE]
+Speaker418: I  want~you~to~take      a   photo of me! 
+~           je veux~que~vous~preniez une photo de moi 
+
+[LINE]
+Speaker418: Oh no!  Is~it already online?!  
+~           oh non  c'est déjà    en~ligne  
+
+[MULTIPLE_CHOICE]
+> Zari veut savoir...
+- … si Oscar a commandé une pizza.
++ … si Oscar a déjà publié la photo.
+- … si Oscar est un photographe professionnel.
+
+[LINE]
+Speaker592: Oops.
+~           oups 
+
+[LINE]
+Speaker418: Oh… look!     Fifty     people    like   your  photo!
+~           oh  regardez  cinquante personnes aiment votre photo 
+
+[MULTIPLE_CHOICE]
+> Combien de personnes ont aimé le selfie d'Oscar ?
++ cinquante
+- juste Zari
+- zéro
+
+[MATCH]
+> Choisis les paires
+- Zari <> Zari
+- Here's <> voici
+- door <> porte
+- always look good <> suis toujours jolie
+- already <> déjà
+
