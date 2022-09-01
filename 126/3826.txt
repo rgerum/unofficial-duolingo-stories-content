@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Café, por favor!
+icon=221d57fa97fa27260e9dd5ad3457870d033f291a
+set=5|3
+
+[HEADER]
+> Coffee, Please!   
+~ café    por~favor 
+
+[LINE]
+> Eddy is   in a  restaurant  with his~son,      Junior.
+~ Eddy está em um restaurante com  o~filho~dele  Junior 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "hoje".
+Speaker386: (Hi), (Eddy)! (What)  do~you~want (+today)?
+~            oi    Eddy    o~que  você~quer     hoje   
+
+[LINE]
+Speaker414: I  want  a   big    cup    of coffee, please.   
+~           eu quero uma grande xícara de café    por~favor 
+
+[LINE]
+Speaker386: Great! Do~you~want milk  in~the coffee?
+~           ótimo  você~quer   leite no     café   
+
+[LINE]
+Speaker414: Yes, please!   
+~           sim  por~favor 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker386: And do~you~want sugar  [in~the coffee]?
+~           e   você~quer   açúcar  no     café    
+- in a   salad 
+~ em uma salada
+- on~your  fries         
+~ nas~suas batatas~fritas
++ in~the coffee
+~ no     café  
+
+[LINE]
+Speaker414: Yes, please!   
+~           sim  por~favor 
+
+[LINE]
+Speaker415: I  want  coffee too!   
+~           eu quero café   também 
+
+[MULTIPLE_CHOICE]
+> O Junior está dizendo que ele…
+- …precisa ir ao banheiro.
+- …quer ir pra casa.
++ …também quer café.
+
+[LINE]
+Speaker414: You  want coffee, Junior?
+~           você quer café    Junior 
+
+[LINE]
+Speaker415: Yes, I  want  a   cup    with a~lot~of milk… 
+~           sim  eu quero uma xícara com  muito    leite 
+
+[LINE]
+Speaker415: …and a~lot~of sugar… 
+~            e   muito    açúcar 
+
+[LINE]
+Speaker415: …and ice~cream!
+~            e   sorvete   
+
+[MULTIPLE_CHOICE]
+> O Junior quer…
+- …leite, salada e peixe.
++ …leite, açúcar e sorvete.
+- …um sanduíche, uma salada e batatas fritas.
+
+[LINE]
+Speaker414: Ice~cream?
+~           sorvete   
+
+[ARRANGE]
+> Toque no que escutar
+Speaker415: [(And) (no~coffee), (please)!]   
+~             e     sem~café     por~favor   
+
+[LINE]
+Speaker386: OK…    you  want a  milkshake?
+~           certo  você quer um milkshake 
+
+[LINE]
+Speaker415: Yes, please!   
+~           sim  por~favor 
+
+[LINE]
+Speaker414: Oh, I  want  a  milkshake too…   
+~           ah  eu quero um milkshake também 
+
+[LINE]
+Speaker414: Two  milkshakes, please!   
+~           dois milkshakes  por~favor 
+
+[MULTIPLE_CHOICE]
+> Tadinho do Junior! Pediu uma xícara de café…
+- …porque ele queria ter mais energia.
++ …mas ele queria um milkshake.
+- …mas Eddy tomou tudo.
+
+[MATCH]
+> Toque nos pares
+- do you want <> você quer
+- ice cream <> sorvete
+- with <> com
+- I <> eu
+- milkshake <> milkshake
+
