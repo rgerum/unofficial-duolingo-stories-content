@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=Uma emergência
+icon=7e5d8724d525fd56e3abc838f2849ae269ebefd5
+set=17|3
+
+[HEADER]
+> An  Emergency 
+~ uma emergência
+
+[LINE]
+> Junior is   at a   pool    with his~father,   Eddy.
+~ Junior está em uma piscina com  (o)~pai~dele  Eddy 
+
+[LINE]
+> He  runs  to  the lifeguard.  
+~ ele corre até a   salva-vidas 
+
+[LINE]
+Speaker415: Help!    Lifeguard!  
+~           socorro  salva-vidas 
+
+[LINE]
+Speaker415: My      father needs        help! 
+~           (o)~meu pai    precisa~(de) ajuda 
+
+[LINE]
+Speaker856: Is~he~drowning?      
+~           ele~está~se~afogando 
+
+[MULTIPLE_CHOICE]
+> Por que a salva-vidas está preocupada?
+- Ela tem medo de crianças.
++ Ela acha que o pai do Junior está se afogando.
+- O Junior está se afogando.
+
+[LINE]
+Speaker415: No,  it's my~father's~swimsuit.         
+~           não  é    (o)~traje~de~banho~do~meu~pai 
+
+[LINE]
+Speaker856: I  don't~understand…
+~           eu não~entendo      
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "traje de banho".
+Speaker415: (His~new)      (+swimsuit)       (is) (too~small).     
+~            (o)~seu~novo    traje~de~banho   é    pequeno~demais  
+
+[LINE]
+Speaker415: It~looks~really~bad, but he  won't~listen~to~me! 
+~           está~muito~ruim      mas ele não~quer~me~escutar 
+
+[LINE]
+Speaker856: Sorry,    but lifeguards       help   with emergencies.
+~           desculpe  mas (os)~salva-vidas ajudam com  emergências 
+
+[LINE]
+Speaker415: This is an  emergency!  Look!
+~           esta é  uma emergência  olha 
+
+[LINE]
+> The lifeguard   looks~at  Eddy.
+~ a   salva-vidas olha~para Eddy 
+
+[LINE]
+Speaker856: No! 
+~           não 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker856: You're    right. That swimsuit       is [too~small]!     
+~           você~está certo  esse traje~de~banho é   pequeno~demais  
+- to the mall
+- do it all
++ too small
+
+[LINE]
+> The lifeguard   shouts~at  Eddy.
+~ a   salva-vidas grita~para Eddy 
+
+[LINE]
+Speaker856: Excuse~me,   sir!    I'm~coming    to~help you! 
+~           com~licença  senhor  eu~estou~indo ajudar  você 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "toalha".
+> The lifeguard   (runs)  to  (Eddy) (with) a   big,~red          (+towel). 
+~ a   salva-vidas  corre  até  Eddy   com   uma grande~e~vermelha   toalha  
+
+[LINE]
+Speaker414: What~is~it?!
+~           o~que~foi   
+
+[LINE]
+Speaker856: Sir,    please    wear  this towel.  It's an  emergency. 
+~           senhor  por~favor ponha esta toalha  é    uma emergência 
+
+[MULTIPLE_CHOICE]
+> Qual é a emergência?
+- O Eddy não sabe nadar.
++ O traje de banho do Eddy é pequeno demais.
+- O Junior esqueceu de trazer a toalha dele.
+
+[MATCH]
+> Toque nos pares
+- a <> uma
+- wear <> ponha
+- You're <> você está
+- Look <> olha
+- too small <> pequeno demais
+
