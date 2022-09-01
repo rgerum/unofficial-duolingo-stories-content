@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Die Beförderung
+icon=86aeb2f8135a55e49ebe8c6da5e13efdcde38d01
+set=15|1
+
+[HEADER]
+> The Promotion  
+~ die Beförderung
+
+[LINE]
+> Bea's boss walks~past~Bea's~desk.           
+~ Beas  Chef geht~an~Beas~Schreibtisch~vorbei 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker2144: Hi, Bea. [Can~we~talk]      about Carl?
+~            hi  Bea   können~wir~reden  über  Carl 
+- Can we walk
+- When we talk
++ Can we talk
+
+[LINE]
+Speaker507: OK…
+~           OK 
+
+[ARRANGE]
+> Was hörst du?
+Speaker2144: [(Do~you~like)    (working)  (with) (him)?]
+~              mögen~Sie~gern   arbeiten   mit    ihm   
+
+[LINE]
+Speaker507: Carl, uh…
+~           Carl  äh 
+
+[LINE]
+Speaker507: He's…   nice.
+~           er~ist  nett 
+
+[LINE]
+Speaker507: But,  well… 
+~           aber  na~ja 
+
+[LINE]
+Speaker507: Carl is  always late,    and I   have to~do~his~work.     
+~           Carl ist immer  zu~spät  und ich muss seine~Arbeit~machen 
+
+[LINE]
+Speaker507: He tells me  how to~do~my~job.                
+~           er sagt  mir wie ich~meine~Arbeit~machen~soll 
+
+[LINE]
+Speaker507: And last   week,  he~ate my   lunch.      
+~           und letzte Woche  aß~er  mein Mittagessen 
+
+[MULTIPLE_CHOICE]
+> Bea mag Carl wirklich sehr.
+- Ja, das ist richtig.
++ Nein, das ist falsch.
+
+[LINE]
+Speaker507: Carl is  terrible.   
+~           Carl ist schrecklich 
+
+[LINE]
+Speaker2144: I'm~sorry       to~hear~that. I   wanted to~promote~him.
+~            es~tut~mir~leid das~zu~hören  ich wollte ihn~befördern  
+
+[MULTIPLE_CHOICE]
+> Mmh … Was bedeutet „I'm sorry to hear that?“
++ Das ist enttäuschend.
+- Das ist sehr witzig.
+- Das ist aufregend.
+
+[LINE]
+Speaker2144: The job is  in a     new   office. We  need   to~find~the~right~person.  
+~            der Job ist in einem neuen Büro    wir müssen die~richtige~Person~finden 
+
+[LINE]
+Speaker507: Wait,   the job is  in a     different office?
+~           Moment  der Job ist in einem anderen   Büro   
+
+[LINE]
+Speaker507: Carl is  perfect for the job!
+~           Carl ist perfekt für den Job 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker2144: But  you said   [he's   terrible]!   
+~            aber Sie sagten  er~ist schrecklich  
++ he's   terrible   
+~ er~ist schrecklich
+- you want   the job
+~ Sie wollen den Job
+- he's   your best   friend
+~ er~ist Ihr  bester Freund
+
+[LINE]
+Speaker507: What? No!   He's   great!    
+~           was   nein  er~ist großartig 
+
+[LINE]
+Speaker2144: You said   he is  always late.   
+~            Sie sagten er ist immer  zu~spät 
+
+[LINE]
+Speaker507: Um…  it  was a   joke!  
+~           ähm  das war ein Scherz 
+
+[LINE]
+Speaker507: Please promote       him and send         him to a   different office!
+~           bitte  befördern~Sie ihn und schicken~Sie ihn in ein anderes   Büro   
+
+[MULTIPLE_CHOICE]
+> Warum sagt Bea plötzlich, dass Carl so toll ist?
++ Sie will, dass Carl in ein anderes Büro versetzt wird.
+- Sie hat gedacht, dass ihr Chef über jemanden anderes geredet hat.
+- Sie hat zuvor nur einen Witz gemacht.
+
+[MATCH]
+> Wähle die Paare
+- He's <> er ist
+- a <> einem
+- tells <> sagt
+- Bea <> Bea
+- We <> wir
+
