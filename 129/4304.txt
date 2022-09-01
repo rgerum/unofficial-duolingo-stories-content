@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Biraz Para
+icon=d52beeb7535f755c3ac9c0475dfc3c87a8f1fa07
+set=3|1
+
+[HEADER]
+> A~Little~Bit~of Money
+~ biraz           Para 
+
+[LINE]
+Speaker119: Mom,  I     need          money. 
+~           Anne  benim ihtiyacım~var paraya 
+
+[LINE]
+Speaker988: For  what?
+~           İçin ne   
+
+[LINE]
+Speaker119: I'm going     to~see   a   movie.
+~           Ben gidiyorum izlemeye bir film  
+
+[MULTIPLE_CHOICE]
+> Bryan, sinemaya gitmek için para istiyor.
+-  Hayır, yanlış.
++ Evet, doğru.
+
+[LINE]
+Speaker988: You   need  to~study      for  your~exam.    
+~           senin lazım ders~çalışman için senin~sınavın 
+
+[LINE]
+Speaker119: OK…   
+~           tamam 
+
+[LINE]
+Speaker988: And you   need  to~buy      a   new  Turkish dictionary.
+~           Ve  senin lazım satın~alman bir yeni Türkçe  sözlük     
+
+[LINE]
+Speaker119: Mom! 
+~           Anne 
+
+[LINE]
+Speaker119: Please!
+~           Lütfen 
+
+[LINE]
+> Bryan's~mother  gives him money.
+~ Bryan'ın~annesi verir ona para  
+
+[MULTIPLE_CHOICE]
+> Bryan, annesinden ...
+- … Borç para ister.
+- … Dondurma ister.
++ … Ona para vermesini ister.
+
+[LINE]
+Speaker988: Here. 
+~           buyur 
+
+[LINE]
+Speaker119: Mom,  I     need          more       money… 
+~           Anne  benim ihtiyacım~var daha~fazla paraya 
+
+[POINT_TO_PHRASE]
+> "Para" anlamına gelen seçeneği seçin.
+Speaker988: (You)   do~not~need   (more)       (+money)  (for)  the bus    to~the~library.   
+~            senin  ihtiyacın~yok  daha~fazla    paraya   için  ~   otobüs kütüphaneye~giden 
+
+[LINE]
+Speaker119: Mom,  the movie…
+~           Anne  ~   film  
+
+[LINE]
+Speaker988: OK…   
+~           tamam 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker988: [Here~is~more]      for  the dictionary.
+~            işte~daha~fazlası  için ~   sözlük     
+- Here is most
++ Here is more
+- Have is more
+
+[LINE]
+Speaker119: Thanks,      Mom… 
+~           Teşekkürler  Anne 
+
+[LINE]
+Speaker119: Umm…
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker119: [(Can~I~use)          (your~car)?]     
+~             kullanabilir~miyim   senin~arabanı   
+
+[LINE]
+Speaker988: No,    I     need          my    car.    
+~           Hayır  benim ihtiyacım~var benim arabama 
+
+[LINE]
+Speaker119: For  what?
+~           İçin ne   
+
+[LINE]
+Speaker988: I'm going     to~see   a   movie!
+~           Ben gidiyorum izlemeye bir film  
+
+[MULTIPLE_CHOICE]
+> Bryan neden annesinin arabasını kullanamıyor?
+- Annesinin kütüphaneye gitmek için arabasına ihtiyacı var.
+- Araba garajda.
++ Annesinin sinemaya gitmek için arabasına ihtiyacı var.
+
+[MATCH]
+> Çiftlere dokun
+- your exam <> senin sınavın
+- No <> Hayır
+- gives <> verir
+- do not need <> ihtiyacın yok
+- Turkish <> Türkçe
+
