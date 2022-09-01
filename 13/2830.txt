@@ -1,0 +1,135 @@
+[DATA]
+fromLanguageName=I Feel Sick
+icon=68ffeb0d8b8a73e7de5cd3b964b34d0e08761977
+set=13|1
+
+[HEADER]
+> Je suis malade
+~ I  am   sick  
+
+[LINE]
+Speaker415: Papa ! Je suis malade !
+~           Dad    I  am   sick    
+
+[LINE]
+Speaker414: Oh, non !
+~           oh  no   
+
+[LINE]
+> Eddy touche  le~front~de~Junior.
+~ Eddy touches Junior's~forehead  
+
+[LINE]
+Speaker414: Tu  n'as~pas   de~température.
+~           you don't~have a~temperature  
+
+[MULTIPLE_CHOICE]
+> Junior has a fever.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker415: Mais j'ai~mal~à~l'oreille ! Je veux aller chez~le~docteur        !
+~           but  my~ear~hurts           I  want to~go to~the~doctor's~office  
+
+[LINE]
+Speaker414: OK...
+~           OK   
+
+[LINE]
+> Ils  vont chez~le~docteur.       
+~ they go   to~the~doctor's~office 
+
+[LINE]
+Speaker127: Ah, Junior !
+~           ah  Junior  
+
+[LINE]
+Speaker127: Comment~vas-tu ?
+~           how~are~you     
+
+[LINE]
+Speaker414: Il~a~mal~à~l'oreille.
+~           his~ear~hurts        
+
+[LINE]
+Speaker127: Oh, non ! Je vais~regarder       ça.  
+~           oh  no    I  am~going~to~look~at that 
+
+[MULTIPLE_CHOICE]
+> What is the doctor going to do?
+- call an ambulance
++ look at Junior's ear
+- touch Eddy's forehead
+
+[LINE]
+> Le  docteur regarde  l'oreille~de~Junior.
+~ the doctor  looks~at Junior's~ear        
+
+[LINE]
+Speaker127: Hmm… Ton  oreille va~bien.
+~           hmm  your ear     is~fine 
+
+[LINE]
+Speaker415: Oh ! Euh… J'ai~mal~au~pied.
+~           oh   uh   my~foot~hurts    
+
+[ARRANGE]
+> Tap what you hear
+> [(Le)  (docteur) (regarde)  (le~pied~de~Junior).]
+~   the   doctor    looks~at   Junior's~foot       
+
+[LINE]
+Speaker127: Ton  pied va~bien, Junior.
+~           your foot is~fine  Junior 
+
+[LINE]
+Speaker414: Docteur, il va~bien ?
+~           doctor   he is~fine  
+
+[LINE]
+Speaker127: Oui.
+~           yes 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker127: [Tu~n'es~pas~malade], Junior.
+~            you~are~not~sick     Junior 
++ Tu n'es pas malade
+- Quand tu es malade
+- Tu n'es pas une salade
+
+[LINE]
+Speaker415: Je suis malade !
+~           I  am   sick    
+
+[LINE]
+Speaker127: Junior... C'est pour les bonbons que  tu  es  ici  ?
+~           Junior    is~it for  the candy   that you are here  
+
+[LINE]
+Speaker415: Euh… Oui.
+~           uh   yes 
+
+[LINE]
+Speaker414: Junior !
+~           Junior  
+
+[LINE]
+Speaker415: Je~peux~prendre un~bonbon        maintenant ?
+~           can~I~take      a~piece~of~candy now         
+
+[MULTIPLE_CHOICE]
+> Oh Junior! Why did he want to see the doctor?
+- Junior had a gift for the doctor.
++ The doctor always gives him candy.
+- Junior was very sick.
+
+[MATCH]
+> Tap the pairs
+- C'est <> is it
+- Il a mal à l'oreille <> his ear hurts
+- Tu n'es pas malade <> you are not sick
+- Hmm <> hmm
+- Mais <> but
+
