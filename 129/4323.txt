@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=Zor Bir Sorun
+icon=88e500c781ec4505c30a55fa55eda9d2df4a04da
+set=7|4
+
+[HEADER]
+> A   Difficult Problem
+~ Bir Zor       Sorun  
+
+[LINE]
+> Sarah and Luke are     in  a   class at  a   university.
+~ ~     ve  ~    -dırlar -ta bir sınıf -de bir Üniversite 
+
+[LINE]
+Speaker334: Hi,    Luke…
+~           Selam  ~    
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker3135: [Are~you~OK],    Sarah?
+~             sen~iyi~misin   ~     
+- Aren't your OK
+- Art or OK
++ Are you OK
+
+[LINE]
+Speaker334: Hmm… I     have a   problem.
+~           ~    benim var  bir sorunum 
+
+[LINE]
+Speaker3135: Can~I          help   you? 
+~            edebilir~miyim Yardım sana 
+
+[POINT_TO_PHRASE]
+> "bence" anlamına gelen seçeneği tıklayın.
+Speaker334: (+I~think) (you) (can~help)           (me)…  
+~             bence     sen   yardım~edebilirsin   bana  
+
+[LINE]
+Speaker3135: Do you~have your  homework?
+~            mı var      senin ödevin   
+
+[CONTINUATION]
+> Sıradaki ne olabilir?
+Speaker334: Yes,  I     have [my~homework]. 
+~           Evet  benim var   benim~ödevim  
+- university
+- class
++ homework
+
+[LINE]
+Speaker3135: Are   you ready for  the exam? 
+~            mısın sen hazır için ~   sınav 
+
+[MULTIPLE_CHOICE]
+> Luke ...
+- … Sarah'ın ona ödevlerini verip vermeyeceğini bilmek istiyor.
+- … Sarah'ın ona yardım edip edemeyeceğini bilmek istiyor.
++ … Sarah'ın sınava hazır olup olmadığını bilmek istiyor.
+
+[LINE]
+Speaker334: Yes,  I'm~ready.
+~           Evet  hazırım   
+
+[LINE]
+Speaker3135: Do~you~need…       a   pen?   
+~            ihtiyacın~var~mı?  bir kaleme 
+
+[LINE]
+Speaker334: I     have a   pen.     Thank    you, Luke.
+~           benim var  bir kalemim  Teşekkür sen  ~    
+
+[LINE]
+Speaker3135: What's the problem, Sarah?
+~            Ne     ~   sorun    ~     
+
+[LINE]
+Speaker334: I     have two~tickets for  a   concert tonight…
+~           benim var  iki~biletim için bir konser  Bu~gece 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker3135: [(And) (that's) (a)   (problem)?] 
+~              Ve    bu       bir   sorun~mu   
+
+[LINE]
+Speaker334: Yes,  but you~can     help   me!  
+~           Evet  ama edebilirsin Yardım bana 
+
+[LINE]
+Speaker334: You~can~come with~me!
+~           gelebilirsin benimle 
+
+[LINE]
+Speaker3135: Oh… OK!    Yes,  I~can~help        you  with that problem!
+~            ~   tamam  Evet  yardım~edebilirim sana ile  bu   sorun   
+
+[MULTIPLE_CHOICE]
+> Sarah ne yaptı?
++ Luke'a onunla bir konserde gitmek isteyip istemediğini sordu.
+- Sınava çalışmayı unuttuğu için eve gitti.
+- Luke'tan bir kalem istedi.
+
+[MATCH]
+> Çiftlere dokun
+- Can I <> edebilir miyim
+- OK <> tamam
+- concert <> konser
+- Are you OK <> sen iyi misin
+- your <> senin
+
