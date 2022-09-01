@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=Quem vem para o jantar?
+icon=dc357430b977e970c350bd02c026ab07731f28f3
+set=32|3
+
+[HEADER]
+> Who's~Coming to   Dinner?  
+~ quem~vem     para o~jantar 
+
+[LINE]
+> Lucy is~making    soup. Lin comes~into~the kitchen.
+~ Lucy está~fazendo sopa  Lin entra~na       cozinha 
+
+[LINE]
+Speaker509: Guess    who's~coming to   dinner   tonight?     
+~           adivinha quem~vem     para o~jantar hoje~à~noite 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker508: Well, you're~making     your [famous~fish~soup],     so    it's probably      someone special. 
+~           bem   você~está~fazendo sua   famosa~sopa~de~peixe   então é    provavelmente alguém  especial 
+- favorite fish suit
+- famous wish soup
++ famous fish soup
+
+[LINE]
+Speaker509: Yes! It's someone very  special. 
+~           sim  é    alguém  muito especial 
+
+[LINE]
+Speaker508: Is your friend, the famous~actress, coming         to   dinner?  
+~           é  sua  amiga   a   atriz~famosa    que~está~vindo para o~jantar 
+
+[LINE]
+Speaker509: No,  she's~working       on a  film  right~now.    
+~           não  ela~está~trabalhado em um filme neste~momento 
+
+[MULTIPLE_CHOICE]
+> A atriz famosa está vindo jantar.
+- Sim, isso mesmo.
++ Não, não é isso.
+
+[LINE]
+Speaker509: It's someone more important.  You  can't~wear    pajamas!
+~           é    alguém  mais importante  você não~pode~usar pijama  
+
+[LINE]
+Speaker508: Oh,~really? Alright,  I'll~wear something~else!
+~           ah,~sério   tudo~bem  eu~usarei outra~coisa    
+
+[MULTIPLE_CHOICE]
+> Hmm… Parece que agora a Lin está usando…
++ …pijama.
+- …roupa de banho.
+- …um vestido lindo.
+
+[LINE]
+> Lin goes to   her~room      and puts~on a   shirt  and jeans.
+~ Lin vai  para o~quarto~dela e   põe     uma camisa e   jeans 
+
+[LINE]
+Speaker508: So,    is~it your friend, Victor?! Is~he~back from taking~photos of wild~horses       in Argentina?
+~           então  é     seu  amigo   Victor   ele~voltou de   tirar~fotos   de cavalos~selvagens na Argentina 
+
+[LINE]
+Speaker509: No,  he's~photographing    lions in India now.  
+~           não  ele~está~fotografando leões na Índia agora 
+
+[LINE]
+Speaker508: Is~it the astronaut  you~worked~with?        
+~           é     o   astronauta com~quem~você~trabalhou 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker509: No,  [he's~getting~ready]     to~go   to   Mars. 
+~           não   ele~está~se~preparando  para~ir para Marte 
++ he's getting ready
+- he's getting lettuce
+- his bed is ready
+
+[LINE]
+Speaker508: Wait…   Is~this a  date     for  me,  Grandma?
+~           espera  isto~é  um encontro para mim  vovó    
+
+[ARRANGE]
+> Toque no que escutar
+Speaker508: [(I)  (don't~need)     (help)  (with) (dating).]
+~             eu   não~preciso~de   ajuda   com    namoro   
+
+[LINE]
+Speaker509: Of~course   not!
+~           é~claro~que não 
+
+[LINE]
+> Someone knocks on~the door.  It's Lucy's~friend,   Frank.
+~ alguém  bate   à      porta  é    o~amigo~da~Lucy  Frank 
+
+[LINE]
+Speaker509: Lin, this is Frank. He  helps people  with their~resumes.      
+~           Lin  este é  Frank  ele ajuda pessoas com  os~currículos~delas 
+
+[LINE]
+Speaker113: Hi, Lin! Your grandma really~wanted us~to~meet.               
+~           oi  Lin  sua  avó     queria~muito  que~a~gente~se~conhecesse 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker113: She said  that [you  need    to~find   a  job].     
+~           ela disse que   você precisa encontrar um trabalho  
+- you  have a  pet~fish          
+~ você tem  um peixe~de~estimação
++ you  need    to~find   a  job     
+~ você precisa encontrar um trabalho
+- you  live on Mars 
+~ você vive em Marte
+
+[LINE]
+Speaker508: Ugh,  I'm~going~to~put~my~pajamas~back~on.
+~           afff  eu~vou~pôr~meu~pijama~de~novo       
+
+[MULTIPLE_CHOICE]
+> Por que a Lin está vestindo o pijama dela de novo?
+- O pijama dela faz ela parecer uma astronauta.
++ O convidado era só alguém para ajudar ela a encontrar um trabalho.
+- Ela quer ficar elegante para o encontro dela.
+
+[MATCH]
+> Toque nos pares
+- to go <> para ir
+- she's working <> ela está trabalhado
+- Victor <> Victor
+- really wanted <> queria muito
+- Oh, really <> ah, sério
+
