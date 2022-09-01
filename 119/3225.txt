@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=The Cake
+icon=4a31a2e8269bfd907d862c44a3b320899c169419
+set=14|4
+
+[HEADER]
+> Der Kuchen
+~ the cake  
+
+[LINE]
+> Lin geht in   die Küche   und öffnet den Kühlschrank.
+~ Lin goes into the kitchen and opens  the fridge      
+
+[LINE]
+Speaker508: Wo    ist~mein~Kuchen?
+~           where is~my~cake      
+
+[LINE]
+> Lins  Großmutter  Lucy sitzt      am     Tisch.
+~ Lin's grandmother Lucy is~sitting at~the table 
+
+[LINE]
+Speaker508: Oma,     was  hast du  gerade gegessen?
+~           grandma  what have you just   eaten    
+
+[LINE]
+Speaker509: Äh … Ein Käsebrot!       
+~           uh   a   cheese~sandwich 
+
+[LINE]
+Speaker508: Mein Kuchen ist weg. 
+~           my   cake   is  gone 
+
+[LINE]
+Speaker509: Komisch! Wie~sieht~er~aus?      
+~           strange  what~does~it~look~like 
+
+[MULTIPLE_CHOICE]
+> Lucy wants to know what the cake…
++ …looks like.
+- …sounds like.
+- …tastes like.
+
+[LINE]
+Speaker508: Er ist ziemlich klein.
+~           it is  quite    small 
+
+[LINE]
+Speaker509: Mit  Nüssen?
+~           with nuts   
+
+[ARRANGE]
+> Tap what you hear
+Speaker508: [(Ja),  (Nüsse~sind)       (in) (dem) (Kuchen).]
+~             yes    (there)~are~nuts   in   the   cake     
+
+[LINE]
+Speaker509: Ist dein Kuchen gelb?  
+~           is  your cake   yellow 
+
+[LINE]
+Speaker508: Ja,  er ist gelb!  
+~           yes  it is  yellow 
+
+[CONTINUATION]
+> What comes next?
+Speaker509: Ist dein Kuchen [total   lecker]?   
+~           is  your cake    totally delicious  
+- sehr gefährlich
+~ very dangerous 
+- wirklich unhöflich
+~ really   impolite 
++ total   lecker   
+~ totally delicious
+
+[LINE]
+Speaker508: Oma!     Hast du  meinen~Kuchen~gegessen?!
+~           grandma  have you eaten~my~cake           
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: Was?  Ich habe deinen~Kuchen [nicht~gegessen]!
+~           what  I   have your~cake      not~eaten       
++ nicht gegessen
+- nicht vergessen
+- nicht vermessen
+
+[LINE]
+Speaker508: OK. Es~tut~mir~leid, Oma.    
+~           OK  I'm~sorry        grandma 
+
+[LINE]
+Speaker508: Ich backe       einen neuen … Schokoladenkuchen!
+~           I   (will)~bake a     new     chocolate~cake    
+
+[LINE]
+Speaker509: Schokolade? Aber dein Kuchen war ein Bananenkuchen!
+~           chocolate   but  your cake   was a   banana~cake   
+
+[LINE]
+Speaker508: Ha! Richtig! Mein Kuchen war ein Bananenkuchen!!
+~           ~   correct  my   cake   was a   banana~cake    
+
+[LINE]
+Speaker508: Du~hast~also wirklich meinen~Kuchen~gegessen!
+~           so~you~have  really   eaten~my~cake          
+
+[MULTIPLE_CHOICE]
+> How did Lin discover that Lucy ate her cake?
+- Lucy had cake on her face.
+- Lucy showed symptoms of a nut allergy.
++ Lucy knew what flavor the cake was.
+
+[MATCH]
+> Tap the pairs
+- ziemlich <> quite
+- Wo <> where
+- Er <> it
+- Lin <> Lin
+- neuen <> new
+
