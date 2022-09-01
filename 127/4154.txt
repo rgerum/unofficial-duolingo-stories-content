@@ -1,0 +1,131 @@
+[DATA]
+fromLanguageName=A canção
+icon=be8f47fb647fd1b6b62660bfeceaa284fb800d10
+set=15|3
+
+[HEADER]
+> La canción
+~ a  canção 
+
+[LINE]
+> Bruno y Héctor están en un restaurante.
+~ Bruno e Héctor estão em um restaurante 
+
+[LINE]
+> Ellos escuchan una canción.
+~ eles  escutam  uma canção  
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker44: ¡[Me~encanta~esta~canción]!
+~            eu~adoro~esta~canção     
++ Me encanta esta canción
+- Me canta esa canción
+- Te encanta esta nación
+
+[LINE]
+Speaker274: Esta canción es aburrida.
+~           esta canção  é  chata    
+
+[LINE]
+Speaker44: Pero es    muy   famosa…
+~          mas  ela~é muito famosa 
+
+[LINE]
+Speaker274: ¡Sí,  pero es    muy   vieja!
+~            sim  mas  ela~é muito velha 
+
+[LINE]
+Speaker274: No~me~gusta mucho.
+~           não~gosto   muito 
+
+[LINE]
+Speaker274: No  escucho bien la guitarra.
+~           não escuto  bem  a  guitarra 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker274: [(Y) (es)    (muy)   (lenta).]
+~             e   ela~é   muito   lenta   
+
+[LINE]
+Speaker44: No,  es    bonita.
+~          não  ela~é bonita 
+
+[LINE]
+Speaker44: ¡Escucha el piano!
+~           escuta  o  piano 
+
+[LINE]
+Speaker44: Las palabras de~la canción son muy   especiales.
+~          as  palavras da    canção  são muito especiais  
+
+[MULTIPLE_CHOICE]
+> O Bruno gosta…
+- …da guitarra e da letra.
+- …do ritmo rápido e do cantor ruim.
++ …do piano e da letra.
+
+[LINE]
+Speaker44: Pero hay algo más  importante.
+~          mas  tem algo mais importante 
+
+[LINE]
+Speaker274: ¿Qué?  
+~            o~quê 
+
+[LINE]
+Speaker44: Recuerdo esta  canción en~el restaurante en nuestra~primera~cita.   
+~          lembro   desta canção  no    restaurante em nosso~primeiro~encontro 
+
+[LINE]
+Speaker44: ¡Hace treinta años!
+~           há   trinta  anos 
+
+[MULTIPLE_CHOICE]
+> Quando o Héctor e o Bruno escutaram a canção pela primeira vez?
+- trinta dias atrás
++ muitos anos atrás
+- algumas semanas atrás
+
+[LINE]
+Speaker274: ¡¿Ah, sí?! 
+~             ah  sim  
+
+[LINE]
+Speaker274: Bruno, entonces creo que es una buena razón para amar esta canción.
+~           Bruno  então    acho que é  uma boa   razão para amar esta canção  
+
+[CONTINUATION]
+> O que vem depois?
+> Héctor se levanta [y mira a    Bruno].
+~ Héctor se levanta  e olha para Bruno  
+- y canta con su~gato    
+~ e canta com o~gato~dele
+- y visita~a su~mamá   
+~ e visita   a~mãe~dele
++ y mira a    Bruno
+~ e olha para Bruno
+
+[LINE]
+Speaker274: ¿Quieres bailar conmigo?
+~            queres  dançar comigo  
+
+[LINE]
+Speaker44: Sí. 
+~          sim 
+
+[MULTIPLE_CHOICE]
+> Por que a canção é tão importante para o Bruno e o Héctor?
+- É cantada pelo cantor favorito deles.
++ Ela estava tocando durante o primeiro encontro deles.
+- Eles sempre cantam ela nas noites de karaoke.
+
+[MATCH]
+> Toque nos pares
+- guitarra <> guitarra
+- una <> uma
+- Esta <> esta
+- y <> e
+- mira <> olha
+
