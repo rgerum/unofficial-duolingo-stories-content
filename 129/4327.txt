@@ -1,0 +1,104 @@
+[DATA]
+fromLanguageName=Bir İçecek, Lütfen!
+icon=02ed13ae1aba57917368af1e2492564588e51b06
+set=8|4
+
+[HEADER]
+> A   Drink,  Please!
+~ Bir içecek  Lütfen 
+
+[LINE]
+> Emily is   at  a   restaurant.
+~ ~     -dır -da bir restoran   
+
+[LINE]
+Speaker335: Hello, can~I          help   you? 
+~           Selam  edebilir~miyim Yardım size 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker336: Hi.    [I~would~like] a   beer, please.
+~           Selam   alayım        bir bira  Lütfen 
+- I could live
++ I would like
+- I would live
+
+[LINE]
+Speaker335: How old~are~you? 
+~           kaç yaşındasınız 
+
+[LINE]
+Speaker336: I~am thirty-five years~old. 
+~           ben  ~           yaşındayım 
+
+[LINE]
+Speaker335: Hmm. Do~you~have identification… like a   passport?
+~           ~    var~mı      kimlik          gibi bir pasaport 
+
+[MULTIPLE_CHOICE]
+> Garson neyi görmek istedi?
+- Emily'nin parasını.
+- Emily'nin içeceğini.
++ Emily'nin pasaportunu.
+
+[LINE]
+Speaker336: Yes.  Wait!       Oh~no!  My    passport   is in  my~hotel~room…  
+~           Evet  bir~dakika  olamaz  Benim pasaportum ~  -da benim~otel~odam 
+
+[LINE]
+Speaker336: But   my~name    is Emily Gonzalez, and I|'  m~thirty-five!     
+~           Fakat benim~adım ~  ~     ~         ve  ben otuz~beş~yaşındayım 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker336: [I~have~my] credit~card  and my~phone— 
+~            benim~var  kredi~kartım ve  telefonum 
++ I have my
+- I have by
+- I hate my
+
+[LINE]
+Speaker335: I|'  m~sorry—
+~           ben üzgünüm  
+
+[LINE]
+Speaker336: But I'm an  adult!      I     have a   job  and two children!
+~           ama Ben bir yetişkinim  benim var  bir işim ve  iki çocuğum  
+
+[MULTIPLE_CHOICE]
+> Emily neden garsona bunları söylüyor?
+- Garsonun pasaportunu görmek istediği için.
+- Garsonun ona biraz para vermesini istediği için.
++ Yetişkin olduğunu kanıtlamak istediği için.
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker335: [(Sorry),   (I~need)        (your~identification).]
+~             Üzgünüm    ihtiyacım~var   kimliğinize           
+
+[LINE]
+Speaker336: Which drink   can~I~have with~no identification?
+~           Hangi içeceği alabilirim olmadan kimlik         
+
+[LINE]
+Speaker335: A~glass~of cold…  milk!
+~           bir~bardak soğuk  Süt  
+
+[LINE]
+Speaker336: Thanks…     
+~           Teşekkürler 
+
+[MULTIPLE_CHOICE]
+> Emily neden hayal kırıklığına uğradı?
+- Garson pasaportunu görmek istemedi.
+- Garson onun çok yaşlı olduğunu düşündü.
++ Garson ona bir bardak süt ikram etti.
+
+[MATCH]
+> Çiftlere dokun
+- I have my <> benim var
+- please <> Lütfen
+- Wait <> bir dakika
+- Yes <> Evet
+- But <> Fakat
+
