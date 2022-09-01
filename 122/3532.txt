@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Die Drachentorte
+icon=c2fbecd45802dc974e3ec727a0206cfec66fd87f
+set=24|3
+
+[HEADER]
+> The~Dragon~Cake 
+~ die~Drachentorte
+
+[LINE]
+> Bea is~watching Vikram       decorate~a~wedding~cake       for her~friend,    Kara.
+~ Bea schaut~zu   (wie)~Vikram eine~Hochzeitstorte~dekoriert für ihre~Freundin  Kara 
+
+[LINE]
+Speaker507: Wow, I   love       how you decorated~the~cake!  
+~           wow  ich liebe~(es) wie du  die~Torte~dekorierst 
+
+[LINE]
+Speaker507: The~bride and groom     are~riding dragons, just~like the~characters from Kara and David's favorite~TV~show!     
+~           die~Braut und Bräutigam reiten     Drachen  genau~wie die~Charaktere aus  Kara und Davids  Lieblingsfernsehserie 
+
+[MULTIPLE_CHOICE]
+> Die Torte ist wie eine Fernsehserie dekoriert.
+- Nein, das ist falsch.
++ Ja, das ist richtig.
+
+[LINE]
+Speaker593: Kara's   my    first customer. I   just~hope that she'll~like~the~cake.    
+~           Kara~ist meine erste Kundin    ich hoffe~nur dass sie~die~Torte~mögen~wird 
+
+[LINE]
+> Bea gets    a~text~message     from Kara.
+~ Bea bekommt eine~Textnachricht von  Kara 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „hat abgesagt“.
+Speaker507: (Oh), no!   (Kara) (+canceled)     (the~wedding)! 
+~            oh   nein   Kara    hat~abgesagt   die~Hochzeit  
+
+[LINE]
+Speaker593: What? Why?!  
+~           was   warum  
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker507: David [stole~her~car]          and left~the~country   with another       woman!
+~           David  hat~ihr~Auto~gestohlen  und das~Land~verlassen mit  einer~anderen Frau  
+- stole her a bar
+- stood her car
++ stole her car
+
+[LINE]
+Speaker593: That's  awful!      
+~           das~ist schrecklich 
+
+[LINE]
+Speaker507: I   can't~believe~it.     
+~           ich kann~es~nicht~glauben 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker593: I   know. I   really~wanted   Kara~to~like~this~cake     e].
+~           ich weiß  ich wollte~wirklich (dass)~Kara~diese~Torte~mag   
+- a    different TV~show     
+~ eine andere    Fernsehserie
++ this~cake  
+~ diese~Torte
+- another     woman
+~ eine~andere Frau 
+
+[LINE]
+Speaker507: I   have an~idea.  
+~           ich habe eine~Idee 
+
+[LINE]
+> Bea redecorates~the~cake.   
+~ Bea dekoriert~die~Torte~neu 
+
+[LINE]
+Speaker593: Wait,   now   it~looks~like   the~dragons              are~eating~the~groom!
+~           Moment  jetzt sieht~es~so~aus (als~würden)~die~Drachen den~Bräutigam~essen  
+
+[MULTIPLE_CHOICE]
+> Bea hat den Kuchen neu dekoriert, weil …
++ … Kara die Hochzeit abgesagt hat.
+- … Vikram die Drachen behalten will.
+- … Kara sie darum gebeten hat.
+
+[LINE]
+> Bea takes a~picture and sends   it to Kara. Then, she~smiles. 
+~ Bea macht ein~Bild  und schickt es an Kara  dann  lächelt~sie 
+
+[ARRANGE]
+> Was hörst du?
+Speaker507: [(Kara) (just~sent)            (me)  (a~message)!]     
+~             Kara   hat~gerade~geschickt   mir   eine~Nachricht   
+
+[LINE]
+Speaker593: What did she say?   
+~           was  hat sie gesagt 
+
+[LINE]
+Speaker507: She's   still      really sad,     but  she loves the~cake. 
+~           sie~ist immer~noch sehr   traurig  aber sie liebt die~Torte 
+
+[LINE]
+Speaker593: That's  all   I~wanted!      
+~           das~ist alles was~ich~wollte 
+
+[MULTIPLE_CHOICE]
+> Warum mag Kara den Kuchen schließlich doch?
+- Sie will jetzt Bea heiraten.
+- Sie freut sich auf ihre Hochzeit.
++ Die Drachen essen den Bräutigam.
+
+[MATCH]
+> Wähle die Paare
+- really wanted <> wollte wirklich
+- What <> was
+- no <> nein
+- the cake <> die Torte
+- know <> weiß
+
