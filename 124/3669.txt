@@ -1,0 +1,156 @@
+[DATA]
+fromLanguageName=Je veux le sandwich
+icon=43b9829cc459f78e9742fdf418c9b0821bb1646e
+set=26|2
+
+[HEADER]
+> I  Want the Sandwich
+~ je veux le  croque  
+
+[LINE]
+> Vikram and Oscar sit~down   in   a  restaurant.
+~ Vikram et  Oscar s'asseyent dans un restaurant 
+
+[LINE]
+Speaker592: I~love  this place.   I  always~order      the grilled~cheese~sandwich.
+~           j'adore cet  endroit  je commande~toujours le  croque~au~fromage       
+
+[LINE]
+Speaker593: Me  too.  
+~           moi aussi 
+
+[MULTIPLE_CHOICE]
+> Vikram et Oscar ne commandent jamais la même chose.
++ Non, c'est faux.
+- Oui, c'est vrai.
+
+[LINE]
+> A  waiter  comes to their table.
+~ un serveur vient à  leur  table 
+
+[LINE]
+Speaker526: Are~you   ready to~order?   
+~           êtes-vous prêts à~commander 
+
+[LINE]
+Speaker593: Two  grilled~cheese~sandwiches, please.         
+~           deux croques~au~fromage         s'il~vous~plaît 
+
+[LINE]
+Speaker526: Sorry.  We   only~have~one~more grilled~cheese~sandwich.
+~           désolé  nous n'avons~plus~qu'un croque~au~fromage       
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker592: OK,       then  [I'll~have~it].
+~           d'accord  alors  je~le~prends  
++ I'll have it
+- I love it
+- all of it
+
+[LINE]
+Speaker593: Wait.    Why      do~you~get           the sandwich?
+~           attends  pourquoi c'est~toi~qui~prends le  croque   
+
+[LINE]
+Speaker593: Could~you~give~us        a   minute?
+~           pouvez-vous~nous~laisser une minute 
+
+[MULTIPLE_CHOICE]
+> Vikram a demandé un peu de temps au serveur...
+- ... parce qu'ils n'ont pas fini de manger.
++ ... pour décider qui aura le croque au fromage.
+- ... parce qu'il doit vraiment aller aux toilettes.
+
+[LINE]
+> The waiter  walks~away.
+~ le  serveur s'en~va    
+
+[LINE]
+Speaker592: I  want that sandwich, Vikram.
+~           je veux ce   croque    Vikram 
+
+[LINE]
+Speaker593: No,  I  want the sandwich.
+~           non  je veux le  croque   
+
+[LINE]
+Speaker592: But  it~was  my  idea to~come  here!
+~           mais c'était mon idée de~venir ici  
+
+[LINE]
+Speaker593: I  helped~you~paint    your apartment   last~week.          
+~           je t'ai~aidé~à~peindre ton  appartement la~semaine~dernière 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker593: [(And~then)   (you) (borrowed)    (my) (car).]    
+~             et~ensuite   tu    as~emprunté   ma   voiture   
+
+[LINE]
+Speaker592: I~borrowed    your car     to~take~you    to the~hospital!
+~           j'ai~emprunté ta   voiture pour~t'emmener à  l'hôpital    
+
+[LINE]
+Speaker593: Because   I  fell~out   of your window  while~I~was~painting!
+~           parce~que je suis~tombé de ta   fenêtre en~peignant          
+
+[MULTIPLE_CHOICE]
+> Vikram est tombé de la fenêtre d'Oscar en…
+- … essayant de cacher un croque au fromage.
++ … l'aidant à peindre son appartement.
+- ... criant sur les voisins qui étaient dehors.
+
+[LINE]
+Speaker593: And then    I  gave~you   my  chocolate~cake     at the~hospital.
+~           et  ensuite je t'ai~donné mon gâteau~au~chocolat à  l'hôpital    
+
+[LINE]
+Speaker592: That~was a  delicious chocolate~cake.    
+~           c'était  un délicieux gâteau~au~chocolat 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker592: OK,       you can~have   [the sandwich].
+~           d'accord  tu  peux~avoir  le  croque    
+- the~hospital
+~ l'hôpital   
+- the window 
+~ la  fenêtre
++ the sandwich
+~ le  croque  
+
+[LINE]
+> The waiter returns.
+~ le  seveur revient 
+
+[LINE]
+Speaker592: My  friend, Vikram, will~have  the sandwich.
+~           mon ami     Vikram  va~prendre le  croque   
+
+[LINE]
+Speaker526: While       you  were~talking,             someone   ordered    the last    sandwich.
+~           pendant~que vous êtiez~en~train~de~parler  quelqu'un a~commandé le  dernier croque   
+
+[LINE]
+Speaker593: I  hate    this restaurant!
+~           je déteste ce   restaurant 
+
+[LINE]
+Speaker592: Yeah,  I  told~you we    shouldn't~eat         here.
+~           ouais  je t'ai~dit qu'on ne~devrait~pas~manger ici  
+
+[MULTIPLE_CHOICE]
+> Qui va manger le croque au fromage ?
+- Vikram
++ un client à une autre table
+- Oscar
+
+[MATCH]
+> Choisis les paires
+- Wait <> attends
+- then <> alors
+- please <> s'il vous plaît
+- want <> veux
+- here <> ici
+
