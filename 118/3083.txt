@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=A Ticket to China!
+icon=e74cdb65f47dfde8518a919c9e11c143eb2c0464
+set=4|2
+
+[HEADER]
+> Uma passagem para a~China!
+~ a   ticket   to   China   
+
+[LINE]
+> Júnior está no     aeroporto.
+~ Júnior is~  at~the airport   
+
+[LINE]
+> Ele fala~com a   mulher~do~balcão.    
+~ he  talks~to the woman~at~the~counter 
+
+[LINE]
+Speaker659: Você~precisa~de~ajuda?
+~           do~you~need~help      
+
+[LINE]
+Speaker415: Quero  uma passagem para a~China, por~favor!
+~           I~want a   ticket   to   China    please    
+
+[MULTIPLE_CHOICE]
+> Júnior wants to buy an airline ticket.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker659: Cadê      seus pais?   
+~           where~are your parents 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: [Com~licença], eu não~tenho~sete~anos.   
+~            excuse~me     I  am~not~seven~years~old 
++ Com licença
+- Ou nascença
+- Com ciência
+
+[LINE]
+Speaker659: Quantos~anos~você~tem?
+~           how~old~are~you       
+
+[LINE]
+Speaker415: Eu tenho~oito~anos!   
+~           I  am~eight~years~old 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "ten thousand."
+Speaker659: Uma (passagem) para (a~China) (custa) (+dez~mil)      reais.
+~           a    ticket    to    China     costs    ten~thousand  reals 
+
+[LINE]
+Speaker415: Tudo~bem.  Para~onde~eu~posso~ir com  vinte  reais?
+~           all~right  where~can~I~go        with twenty reals 
+
+[LINE]
+> Eddy, o~pai~de~Júnior, corre para o   balcão. 
+~ Eddy  Júnior's~father  runs  to   the counter 
+
+[LINE]
+Speaker414: Júnior! Por~que~você~está no     aeroporto?
+~           Júnior  why~are~you       at~the airport   
+
+[MULTIPLE_CHOICE]
+> What does Eddy want to know?
+- what the woman's name is
+- what time it is
++ what Júnior is doing at the airport
+
+[LINE]
+Speaker415: Eu tenho um teste~de~matemática hoje.  Preciso sair~do      país.   
+~           I  have  a  math~test           today  I~need  to~leave~the country 
+
+[MULTIPLE_CHOICE]
+> Ah ha! Why does Júnior want to leave the country?
++ He has a math test today.
+- He wants to see the world.
+- He misses his friends.
+
+[LINE]
+Speaker414: Quanto   custa~uma~passagem?
+~           how~much does~a~ticket~cost 
+
+[LINE]
+Speaker415: Dez~mil      reais.
+~           ten~thousand reals 
+
+[LINE]
+Speaker414: E   duas passagens?
+~           and two  tickets   
+
+[LINE]
+Speaker415: Vinte~mil       reais.
+~           twenty~thousand reals 
+
+[LINE]
+Speaker414: Excelente! Você é   muito bom  em matemática. 
+~           excellent  you  are very  good at mathematics 
+
+[LINE]
+Speaker414: E   você está preparado para o~seu teste.
+~           and you  are  prepared  for  your  test  
+
+[MULTIPLE_CHOICE]
+> Eddy tricked Júnior to show him that…
+- …they should travel more.
++ …he is ready for his math test.
+- …the tickets are very cheap.
+
+[MATCH]
+> Tap the pairs
+- teste de matemática <> math test
+- está <> is
+- o pai de Júnior <> Júnior's father
+- reais <> reals
+- Ele <> he
+
