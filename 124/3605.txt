@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Les fleurs d'Oscar
+icon=3bc2c3a627aad5f5aef4f68ae652c16713f9048f
+set=10|2
+
+[HEADER]
+> Oscar's~Flowers   
+~ les~fleurs~d'Oscar
+
+[LINE]
+> Oscar is  in   his garden. He sees his co-worker, Eddy.
+~ Oscar est dans son jardin  il voit son collègue   Eddy 
+
+[LINE]
+Speaker592: Eddy! Why      are~you~wearing a   nice  shirt   today?       You never~wear          nice   shirts.  
+~           Eddy  pourquoi portes-tu       une belle chemise aujourd'hui  tu  ne~portes~jamais~de belles chemises 
+
+[LINE]
+Speaker414: I'm~meeting~my~date  now!       
+~           je~vais~à~un~rencard maintenant 
+
+[LINE]
+Speaker592: Hmm. Do~you~have any flowers for  your date?    Or chocolates?   
+~           hmm  tu~as       des fleurs  pour ton  rencard  ou des~chocolats 
+
+[LINE]
+Speaker414: I  can't~buy~her~anything   now…        I'm     late!     
+~           je ne~peux~rien~lui~acheter maintenant  je~suis en~retard 
+
+[MULTIPLE_CHOICE]
+> Eddy a acheté des chocolats et des fleurs pour son rencard.
++ Non, c'est faux.
+- Oui, c'est vrai.
+
+[LINE]
+Speaker592: You can~give~her    some      of my  flowers.
+~           tu  peux~lui~donner certaines de mes fleurs  
+
+[LINE]
+> Oscar gives~Eddy~flowers      from his garden.
+~ Oscar donne~des~fleurs~à~Eddy de   son jardin 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Oscar a-t-il donné des fleurs à Eddy ?
+- Il est amoureux du rencard d'Eddy.
+- Il a un rendez-vous avec Eddy.
++ Il veut qu'Eddy les offre à son rencard.
+
+[LINE]
+Speaker414: I  can't~take          those flowers.
+~           je ne~peux~pas~prendre ces   fleurs  
+
+[LINE]
+Speaker592: Do~you~like this  person?  
+~           tu~aimes    cette personne 
+
+[LINE]
+Speaker414: Yes! She's    really   funny.
+~           oui  elle~est vraiment drôle 
+
+[LINE]
+Speaker592: Then  give~her  these flowers.
+~           alors donne-lui ces   fleurs  
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker414: Oscar, I  don't~want  [the flowers]!
+~           Oscar  je ne~veux~pas  les fleurs   
+- to~go to work   
+~ aller au travail
+- a   nice  shirt  
+~ une belle chemise
++ the flowers
+~ les fleurs 
+
+[LINE]
+Speaker592: Why?     
+~           pourquoi 
+
+[LINE]
+> Eddy starts     sneezing.
+~ Eddy commence~à éternuer 
+
+[MULTIPLE_CHOICE]
+> Que fait Eddy ?
++ Il éternue.
+- Il crie.
+- Il pleure.
+
+[LINE]
+Speaker592: Eddy? Are~you~OK? 
+~           Eddy  tu~vas~bien 
+
+[LINE]
+Speaker414: No!  I'm     allergic   to  flowers!
+~           non  je~suis allergique aux fleurs  
+
+[LINE]
+Speaker592: Oh no.  Your face   is  very red.  
+~           oh non  ton  visage est très rouge 
+
+[LINE]
+Speaker414: Ugh.   I  feel    terrible…
+~           pouah  je me~sens très~mal 
+
+[LINE]
+Speaker592: Well, have~fun       on your date!   
+~           bien  amuse-toi~bien à  ton  rencard 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Eddy ne se sent pas bien ?
++ Il est allergique aux fleurs.
+- Il n'a pas de cadeau pour Oscar.
+- Il s'est rendu compte que son rencard était le lendemain.
+
+[MATCH]
+> Choisis les paires
+- face <> visage
+- Do you have <> tu as
+- your <> ton
+- She's <> elle est
+- person <> personne
+
