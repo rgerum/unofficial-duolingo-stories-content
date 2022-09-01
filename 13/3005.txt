@@ -1,0 +1,195 @@
+[DATA]
+fromLanguageName=Horror Movie
+icon=a1bbf834056206ad49e2cdb3e37429d21dafecc5
+set=56|4
+
+[HEADER]
+> Film~d'horreur
+~ horror~movie  
+
+[LINE]
+> Il~fait~nuit.   Junior est avec Zari, sa  baby-sitter pour la  soirée. 
+~ it's~nighttime  Junior is  with Zari  his babysitter  for  the evening 
+
+[LINE]
+Speaker415: Zari, on peut~regarder « La  poupée~fantôme » ?
+~           Zari  we can~watch     ~ The Ghost~Doll     ~  
+
+[LINE]
+Speaker418: Quoi ?! Un film~d'horreur ?! Non !
+~           what    a  horror~movie      no   
+
+[LINE]
+Speaker415: S'il~te~plaît ! J'ai~fini  mes devoirs,  j'ai~fait la  vaisselle… et  j'ai~lavé ta   voiture !
+~           please          I~finished my  homework  I~did     the dishes     and I~cleaned your car      
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker418: Je [n'ai~pas~de~voiture].
+~           I   don't~have~a~car     
+- n'aime pas les voitures
+- n'ai pas de coiffure
++ n'ai pas de voiture
+
+[LINE]
+Speaker415: Ah. Eh~bien,   j'ai~lavé la  voiture de… quelqu'un.
+~           ah  well~then  I~cleaned the car     of  somebody  
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker418: Tu  es  trop jeune pour~regarder  [des  films~d'horreur].
+~           you are too  young to~be~watching  some horror~movies    
++ des  films~d'horreur
+~ some horror~movies  
+- un match~de~foot
+~ a  soccer~game  
+- ma voiture
+~ my car    
+
+[LINE]
+Speaker415: Mais j'adore ça   ! Mon père   et  moi en~regardons tout le  temps.
+~           but  I~love  that   my  father and I   watch~some   all  the time  
+
+[LINE]
+Speaker418: « La  poupée~fantôme » fait~trop~peur.
+~           ~ The Ghost~Doll     ~ is~too~scary   
+
+[MULTIPLE_CHOICE]
+> Zari pense  que  Junior…
+~ Zari thinks that Junior 
+- ... devrait regarder   plein de films~d'horreur.
+~     should  (to)~watch a~lot of horror~movies   
+- ... écrit  des~films~d'horreur avec son père.  
+~     writes horror~movies       with his father 
++ ... est trop jeune pour regarder   « La  poupée~fantôme ».
+~     is  too  young to   (to)~watch ~ the ghost~doll     ~ 
+
+[LINE]
+Speaker415: Mais non ! 
+~           but  no    
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(Je) (l'ai~vu)      (six) (fois).] 
+~             I    have~seen~it   six   times   
+
+[LINE]
+Speaker418: Impossible.
+~           impossible 
+
+[LINE]
+Speaker415: Mais si  ! Et,  je n'ai~pas~peur quand la  poupée est cachée sous  le  lit avec un super~grand couteau.
+~           but  yes   and  I  am~not~scared when  the doll   is  hidden under the bed with a  very~big    knife   
+
+[LINE]
+Speaker418: La  poupée est sous  le  lit ?
+~           the doll   is  under the bed  
+
+[LINE]
+Speaker415: Et  quand l'homme crie~comme~un~fou  en~courant,    c'est trop drôle !
+~           and when  the~man screams~like~crazy while~running  it's  too  funny  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker418: La  poupée suit    l'homme ? [Avec~le~couteau] ?
+~           the doll   follows the~man    with~the~knife    
+- Arrête le couteau
++ Avec le couteau
+- Avec le bureau
+
+[LINE]
+Speaker415: Oui. Tu  penses qu'une poupée pourrait~se~cacher sous  ton  lit ?
+~           yes  you think  that~a doll   could~hide         under your bed  
+
+[LINE]
+Speaker418: Je… ne~sais~pas.
+~           I   don't~know  
+
+[LINE]
+Speaker415: Moi, je pense~que~oui.
+~           me   I  think~so      
+
+[LINE]
+Speaker415: Ma partie~préférée, c'est quand la  poupée entre~dans la  chambre de la  fille.
+~           my favorite~part    it's  when  the doll   enters     the bedroom of the girl  
+
+[LINE]
+Speaker418: Pardon ?
+~           sorry   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: D'ailleurs, [la~fille~te~ressemble]   !
+~           by~the~way   the~girl~looks~like~you   
+- la fille se rassemble
++ la fille te ressemble
+- la ville te ressemble
+
+[LINE]
+Speaker415: Et  la  poupée se~déplace   doucement, en silence, et… 
+~           and the doll   moves~around slowly     in silence  and 
+
+[LINE]
+Speaker415: … saute sur le  visage de la  fille !
+~             jumps on  the face   of the girl   
+
+[LINE]
+Speaker418: Non !
+~           no   
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(Ce)   (film)  (est) (trop) (génial)  ]! 
+~             this   movie   is    too    awesome     
+
+[LINE]
+Speaker415: Tu  dois~le~voir !
+~           you must~see~it   
+
+[LINE]
+Speaker418: S'il~te~plaît, arrête !
+~           please         stop    
+
+[LINE]
+Speaker415: Pourquoi ?
+~           why       
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker418: Tu  vas~te~faire~peur.           Tu  ne~vas~pas~dormir     [après].
+~           you are~going~to~scare~yourself  you aren't~going~to~sleep  after  
++ après
+~ after
+- dehors 
+~ outside
+- dans la  baignoire
+~ in   the bathtub  
+
+[LINE]
+Speaker415: Le  film  ne~me~fait~pas~peur~à~moi.
+~           the movie isn't~scary~to~me         
+
+[LINE]
+Speaker418: Junior… le  film  me~fait~peur~à~moi.
+~           Junior  the movie is~scary~to~me     
+
+[MULTIPLE_CHOICE]
+> Ha ! ha ! Pourquoi Zari~ne~veut~pas  voir   le  film  ?
+~ ha   ha   why      doesn't~Zari~want to~see the movie  
+- Il fait~trop~peur~à Junior.
+~ it is~too~scary~for Junior 
+- Elle l'a~vu plusieurs fois.
+~ she  saw~it several   time 
++ Il lui~fait~trop~peur.  
+~ it is~too~scary~for~her 
+
+[MATCH]
+> Tap the pairs
+- six <> six
+- Mais <> but
+- es <> are
+- voiture <> car
+- en courant <> while running
+
