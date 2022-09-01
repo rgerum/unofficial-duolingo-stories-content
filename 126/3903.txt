@@ -1,0 +1,127 @@
+[DATA]
+fromLanguageName=Rápido demais
+icon=0dacade4e0909e7d3d1149423aa5f432618b1157
+set=24|4
+
+[HEADER]
+> Too~Fast     
+~ rápido~demais
+
+[LINE]
+> Bea and Lin are~running    on a   trail. 
+~ Bea e   Lin estão~correndo em uma trilha 
+
+[LINE]
+Speaker507: Come~on,  Lin! Run   faster!     
+~           vamos~lá  Lin  corra mais~rápido 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker508: [I'm~thirsty],       and my     legs   hurt!
+~            eu~estou~com~sede   e   minhas pernas dóem 
+- I'm first
++ I'm thirsty
+- It's Thursday
+
+[LINE]
+Speaker507: That's because you  never run.   Come~on,  you  can~do         this!
+~           isso~é porque  você nunca corre  vamos~lá  você consegue~fazer isto 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker508: [(When)   (can~we)      (go) (home)?]     
+~             quando   nós~podemos   ir   para~casa   
+
+[LINE]
+Speaker507: One~more~mile!  We're~almost~done            !
+~           mais~uma~milha  nós~estamos~quase~terminando  
+
+[LINE]
+Speaker508: One~more~mile?! 
+~           mais~uma~milha  
+
+[MULTIPLE_CHOICE]
+> A Lin está se divertindo muito correndo com a Bea.
++ Não, não é isso.
+- Sim, isso mesmo.
+
+[LINE]
+> Lin tries to~run faster.      Suddenly,   she falls.
+~ Lin tenta correr mais~rápido  de~repente  ela cai   
+
+[LINE]
+Speaker508: Ow! My    leg!  
+~           ai  minha perna 
+
+[LINE]
+> Later,      Bea and Lin are   at~the hospital.
+~ mais~tarde  Bea e   Lin estão no     hospital 
+
+[MULTIPLE_CHOICE]
+> Eita! Por que elas estão no hospital?
++ A Lin machucou a perna.
+- A Bea está paquerando um médico.
+- A Lin mora no hospital.
+
+[LINE]
+Speaker127: Tell~me  what  happened. 
+~           me~conte o~que aconteceu 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker508: [(I~hurt)       (my)    (leg)   (while)    (I~was~running).]     
+~             eu~machuquei   minha   perna   enquanto   eu~estava~correndo   
+
+[LINE]
+Speaker127: Were~you~running     too~fast?     
+~           você~estava~correndo rápido~demais 
+
+[LINE]
+Speaker507: Oh, no,  Doctor. She's~not fast.  
+~           ah  não  doutor  ela~não~é rápida 
+
+[LINE]
+Speaker508: I  was~trying      to~run as~fast~as        you,  Bea!
+~           eu estava~tentando correr tão~rápido~quanto você  Bea 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker127: Maybe~you~should~run       [slower       next~time].     
+~           talvez~você~devesse~correr  mais~devagar na~próxima~vez  
+- in~the bathtub 
+~ na     banheira
+- on one leg  
+~ em uma perna
++ slower       next~time     
+~ mais~devagar na~próxima~vez
+
+[LINE]
+Speaker507: Run    slower?       I  don't~think  that's possible.
+~           correr mais~devagar  eu não~acho~que isso~é possível 
+
+[LINE]
+Speaker508: Or maybe~I~should~stop~running!      
+~           ou talvez~eu~devesse~parar~de~correr 
+
+[LINE]
+Speaker127: No,  you  can~still~run.    
+~           não  você ainda~pode~correr 
+
+[LINE]
+Speaker127: But you  should~stop~running     with your friend.
+~           mas você deveria~parar~de~correr com  sua  amiga  
+
+[MULTIPLE_CHOICE]
+> O médico diz que…
+- …a Lin não deveria correr nunca mais.
+- …a Lin consegue correr mais rápido do que a Bea.
++ …a Lin deveria correr sem a Bea.
+
+[MATCH]
+> Toque nos pares
+- Run <> corra
+- don't think <> não acho que
+- I hurt <> eu machuquei
+- what <> o que
+- she <> ela
+
