@@ -1,0 +1,95 @@
+[DATA]
+fromLanguageName=Le scimmie
+icon=c29e4533eca0186f83adafac9383fef2ed3aee56
+set=8|4
+
+[HEADER]
+> The Monkeys
+~ le  scimmie
+
+[LINE]
+> Eddy and Junior are  at~the zoo.
+~ Eddy e   Junior sono allo   zoo 
+
+[LINE]
+> They~are~looking~at     the lions.
+~ (loro)~stanno~guardando i   leoni 
+
+[SELECT_PHRASE]
+> Seleziona la frase mancante
+Speaker415: Dad,  [can~we~see]            the monkeys now?   
+~           papà   (noi)~possiamo~vedere  le  scimmie adesso 
+- can she see
+- can we be
++ can we see
+
+[LINE]
+Speaker414: But you never~want   to~see the monkeys.
+~           ma  tu  non~vuoi~mai vedere le  scimmie 
+
+[CONTINUATION]
+> Come continua la frase?
+Speaker415: I~really~like        [the monkeys now]!   
+~           mi~piacciono~davvero  le  scimmie adesso  
+- potatoes 
+~ le~patate
+- your   new   shirts 
+~ le~tue nuove camicie
++ the monkeys now   
+~ le  scimmie adesso
+
+[LINE]
+Speaker415: Can~we~see~them?       
+~           (noi)~possiamo~vederle 
+
+[SELECT_PHRASE]
+> Seleziona la frase mancante
+Speaker414: Junior, the monkeys are  [on~the~other~side] of~the zoo!
+~           Junior  le  scimmie sono  dall'altro~lato    dello  zoo 
++ on the other side
+- and the mothers lied
+- on the others’ ride
+
+[LINE]
+Speaker415: We~can~run.             You love  exercise.      
+~           (noi)~possiamo~correre  tu  adori fare~esercizio 
+
+[LINE]
+Speaker414: Hmm. OK! Yes, I  love  to~run! 
+~           uhm  OK  sì   io adoro correre 
+
+[ARRANGE]
+> Seleziona ciò che senti
+> [(Junior) (and) (Eddy) (start)      (running).]
+~   Junior   e     Eddy   iniziano~a   correre   
+
+[LINE]
+Speaker415: Can~you~run       faster,     Dad? 
+~           (tu)~puoi~correre più~veloce  papà 
+
+[LINE]
+Speaker414: Wait.    Junior, why    are~we~running?        You hate    running!
+~           aspetta  Junior  perché (noi)~stiamo~correndo  tu  detesti correre 
+
+[LINE]
+Speaker415: I  hate    running, but I~love     ice~cream!
+~           io detesto correre  ma  (io)~adoro il~gelato 
+
+[LINE]
+Speaker415: And there's an  ice~cream~shop next~to~the  monkeys!
+~           e   c'è     una gelateria      accanto~alle scimmie 
+
+[MULTIPLE_CHOICE]
+> Perché Junior corre per vedere le scimmie?
+- Si sta allenando per gareggiare con una scimmia.
++ Vuole prendere un gelato.
+- Vuole rimettersi in forma.
+
+[MATCH]
+> Tocca le coppie
+- ice cream <> il gelato
+- at the <> allo
+- Hmm <> uhm
+- But <> ma
+- are <> sono
+
