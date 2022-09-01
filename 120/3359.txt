@@ -1,0 +1,119 @@
+[DATA]
+fromLanguageName=One Thing
+icon=717bd84875f83c678f64f124937a278061e0e778
+set=1|3
+
+[HEADER]
+> Una~cosa 
+~ one~thing
+
+[LINE]
+> Bianca è  con  suo fratello Raffaele.
+~ ~      is with her brother  ~        
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "bread."
+Speaker856: (Oh), (no)! Mi~manca    (il)  (+pane)  per~fare un panino.  
+~            ~     ~    I'm~missing  the    bread  to~make  a  sandwich 
+
+[LINE]
+Speaker103: Devi~andare    al     supermercato?
+~           you~have~to~go to~the supermarket  
+
+[MULTIPLE_CHOICE]
+> Raffaele wants to know if his sister needs to go to the supermarket.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker856: Sì. 
+~           yes 
+
+[LINE]
+Speaker103: Oh, anche~a~me serve una~cosa  dal      supermercato!
+~           ~   I~also     need  one~thing from~the supermarket  
+
+[LINE]
+Speaker856: Che  ti~serve?
+~           what you~need 
+
+[LINE]
+Speaker103: Un pomodoro, grazie.   
+~           a  tomato    thank~you 
+
+[SELECT_PHRASE]
+> Select the missing word or phrase
+Speaker103: Per [l'insalata]!
+~           for  the~salad   
+- la salata
++ l'insalata
+- l'ho salata
+
+[LINE]
+Speaker856: OK.
+~           ok 
+
+[LINE]
+Speaker103: Grazie!   
+~           thank~you 
+
+[LINE]
+Speaker103: E   del  caffè... 
+~           and some coffee   
+
+[LINE]
+Speaker856: OK.
+~           ok 
+
+[CONTINUATION]
+> What comes next?
+Speaker103: ... e   dello zucchero [per il  caffè]. 
+~               and some  sugar     for the coffee  
++ per il  caffè 
+~ for the coffee
+- un panino  
+~ a  sandwich
+- al     supermercato
+~ at~the supermarket 
+
+[LINE]
+Speaker856: Raffaele...
+
+[LINE]
+Speaker103: E   del  latte!
+~           and some milk  
+
+[LINE]
+Speaker856: Uhm...
+
+[LINE]
+Speaker856: Ho     un'|idea.
+~           I~have an  ~    
+
+[ARRANGE]
+> Tap what you hear
+Speaker856: [(Tieni)  (qualche) (moneta), (Raffaele).]
+~             here's   some      coins     ~          
+
+[LINE]
+Speaker103: Come?!
+~           what  
+
+[LINE]
+Speaker856: A~me~serve una~cosa  sola dal      supermercato: il~pane.
+~           I~need     one~thing only from~the supermarket   bread   
+
+[MULTIPLE_CHOICE]
+> What did Bianca do?
+- She made Raffaele a sandwich.
+- She bought bread from the supermarket.
++ She gave Raffaele money to buy the only thing she wanted: bread.
+
+[MATCH]
+> Tap the pairs
+- Devi andare <> you have to go
+- sola <> only
+- un' <> an
+- l'insalata <> the salad
+- zucchero <> sugar
+
