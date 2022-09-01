@@ -1,0 +1,103 @@
+[DATA]
+fromLanguageName=Dia de folga
+icon=5450714ebd6e5c59daf764d85a8fc7f9edb1c23a
+set=14|2
+
+[HEADER]
+> Day~Off     
+~ dia~de~folga
+
+[LINE]
+> Vikram is~making    tea in~the kitchen.
+~ Vikram está~fazendo chá na     cozinha 
+
+[LINE]
+> His~wife,      Priti, walks~into~the room.
+~ a~esposa~dele  Priti  entra~na       sala 
+
+[LINE]
+Speaker560: Good~morning, Vikram!
+~           bom~dia       Vikram 
+
+[LINE]
+Speaker593: Wait…   why~are~you~home?          It's Tuesday.    
+~           espera  por~que~você~está~em~casa  é    terça-feira 
+
+[LINE]
+Speaker560: I'm~not~working      today! I  have~a~day~off!
+~           eu~não~vou~trabalhar hoje   eu estou~de~folga 
+
+[MULTIPLE_CHOICE]
+> A Priti tirou o dia de folga.
+- Não, não é isso.
++ Sim, isso mesmo.
+
+[LINE]
+Speaker560: I'm      excited. I  want  to~do so~many things!
+~           eu~estou animada  eu quero fazer tantas  coisas 
+
+[LINE]
+> Priti goes to   the gym.     
+~ Priti vai  para a   academia 
+
+[LINE]
+> Then,   she visits a  museum.
+~ depois  ela visita um museu  
+
+[MULTIPLE_CHOICE]
+> A Priti foi para…
+- …um museu e o cinema.
++ …a academia e um museu.
+- …o trabalho.
+
+[LINE]
+> When   she gets     home, Priti reads a  book  in~the garden.
+~ quando ela chega~em casa  Priti lê    um livro no     jardim 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker593: Hi, honey!   Are~you~having  [a~nice~day]?      
+~           oi  querida  você~está~tendo  um~dia~agradável  
++ a nice day
+- a nice way
+- a rice tray
+
+[LINE]
+Speaker560: Yes! But let's~make  dinner   now!  
+~           sim  mas vamos~fazer o~jantar agora 
+
+[LINE]
+Speaker593: Dinner?   But it's~only  2 p.m.    
+~           o~jantar  mas são~apenas ~ da~tarde
+
+[LINE]
+Speaker560: It's so  early. What~can~I~do        now?  
+~           é    tão cedo   o~que~eu~posso~fazer agora 
+
+[LINE]
+Speaker593: You  can~sit        and relax.  
+~           você pode~se~sentar e   relaxar 
+
+[ARRANGE]
+> Toque no que escutar
+> [(Priti) (sits)     (for) (a)  (minute).]
+~   Priti   se~senta   por   um   minuto   
+
+[LINE]
+Speaker560: Relaxing is boring. I'm~going~to~work.
+~           relaxar  é  chato   eu~vou~trabalhar  
+
+[MULTIPLE_CHOICE]
+> Por que a Priti decidiu ir para o trabalho afinal de contas?
++ Ela fica entediada quando relaxa.
+- Ela não queria fazer o jantar.
+- Ela lembrou que tinha muito o que fazer.
+
+[MATCH]
+> Toque nos pares
+- I'm <> eu estou
+- so many <> tantas
+- Hi <> oi
+- to do <> fazer
+- want <> quero
+
