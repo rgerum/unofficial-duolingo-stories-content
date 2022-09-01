@@ -1,0 +1,186 @@
+[DATA]
+fromLanguageName=Festa em casa
+icon=ce7bdc77eb0bfd3e19e3b0db208edc729aeee2bd
+set=39|1
+
+[HEADER]
+> House~Party  
+~ festa~em~casa
+
+[LINE]
+> Bea's~boss     is~paying    Bea to   take~care of his~mansion while    he's     on~vacation.
+~ o~chefe~de~Bea está~pagando Bea para cuidar    da mansão~dele enquanto ele~está de~férias   
+
+[LINE]
+> Bea's~friend   Lin arrives at~the house with several friends.
+~ a~amiga~de~Bea Lin chega   à      casa  com  vários  amigos  
+
+[LINE]
+Speaker507: Lin, who  are all~of these people?! 
+~           Lin  quem são todas  estas pessoas  
+
+[LINE]
+Speaker508: You  said      I  could~come~over. 
+~           você disse~que eu poderia~vir~aqui 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker507: I  didn't~say    you  could~bring    friends. My  boss  said      [I~can't~bring~any~friends]        besides you. 
+~           eu não~disse~que você poderia~trazer amigos   meu chefe disse~que  eu~não~posso~trazer~nenhum~amigo  além~de você 
++ I can't bring any friends
+- I can't bring in the ends
+- I'm camping with a friend
+
+[LINE]
+Speaker508: Don't~worry,     they're  cool.  
+~           não~se~preocupe  eles~são legais 
+
+[LINE]
+Speaker507: They~might~break          something    or make  a   huge~mess!     
+~           pode~ser~que~eles~quebrem alguma~coisa ou façam uma bagunça~enorme 
+
+[LINE]
+Speaker508: But they'll~help~us     clean  the house after~the party.
+~           mas eles~nos~ajudarão~a limpar a   casa  depois~da festa 
+
+[LINE]
+Speaker507: We're~not~having    a   party!
+~           nós~não~vamos~fazer uma festa 
+
+[LINE]
+> The~next~morning,  after  the party, Bea is~looking~at     a   big    mess    in~the house.
+~ na~manhã~seguinte  depois da  festa  Bea está~olhando~para uma grande bagunça na     casa  
+
+[MULTIPLE_CHOICE]
+> Did~you~catch~that? Bea and Lin…
+~ você~entendeu       Bea e   Lin 
++ …had     a   party in~the mansion.
+~  fizeram uma festa na     mansão  
+- …let      a  lion come~into~the house.
+~  deixaram um leão entrar~na     casa  
+- …went  to   bed    early.
+~  foram para a~cama cedo  
+
+[LINE]
+Speaker507: There's trash everywhere!   
+~           há      lixo  em~todo~lugar 
+
+[LINE]
+Speaker508: Don't~worry.     I'll~help~you~clean.      
+~           não~se~preocupe  eu~ajudarei~você~a~limpar 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker508: [(We'll~be~done)    (very)  (soon).]    
+~             nós~terminaremos   muito   em~breve   
+
+[LINE]
+> Six  hours later,      they're~still~cleaning.    Lin moves a  sofa and finds    a  large~hole    in~the wall.  
+~ seis horas mais~tarde  elas~ainda~estão~limpando  Lin move  um sofá e   encontra um buraco~grande na     parede 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker507: Oh no!  Someone made [a~hole~in~the~wall]! 
+~           ah não  alguém  fez   um~buraco~na~parede  
++ a hole in the wall
+- a goal in the wall
+- a hole in the mall
+
+[LINE]
+Speaker507: Lin, your friends did     this, didn't~they?
+~           Lin  seus amigos  fizeram isto  não~fizeram 
+
+[LINE]
+Speaker508: No,  they~didn't!     
+~           não  eles~não~fizeram 
+
+[POINT_TO_PHRASE]
+> Choose  the option that means     "materiais."
+~ escolha a   opção  que  significa  ~          
+> Bea (finds)    (some)   (+supplies)  to   fix       the (hole).  
+~ Bea  encontra   alguns    materiais  para consertar o    buraco  
+
+[LINE]
+Speaker507: Ugh,  why     did~I~invite you  here? You're~not a   responsible~person.
+~           afff  por~que eu~convidei  você aqui  você~não~é uma pessoa~responsável 
+
+[LINE]
+Speaker508: Well, at~least   I  know how  to~have~fun. No~one  invites you  to   parties because you're~not fun.      
+~           bem   pelo~menos eu sei  como me~divertir  ninguém convida você para festas  porque  você~não~é divertida 
+
+[LINE]
+Speaker507: That's so  mean! 
+~           isso~é tão cruel 
+
+[LINE]
+Speaker508: You  were mean  to~me  first!   
+~           você foi  cruel comigo primeiro 
+
+[MULTIPLE_CHOICE]
+> Oh~no!   Why     are~Bea~and~Lin upset     with~each~other?
+~ Ah,~não  por~que Bea~e~Lin~estão chateadas uma~com~a~outra 
+- Lin doesn't~want to~help  clean  the mansion.
+~ Lin não~quer     ajudar~a limpar a   mansão  
+- No~one  came to   their~party   last~night.   
+~ ninguém veio para a~festa~delas ontem~à~noite 
++ They~both said     bad~things   about~each~other. 
+~ elas~duas disseram coisas~ruins uma~sobre~a~outra 
+
+[LINE]
+> Suddenly,   Bea's~boss     walks~in.
+~ de~repente  o~chefe~de~Bea entra    
+
+[LINE]
+Speaker295: Excuse~me.   What  are~you~doing?      
+~           com~licença  o~que vocês~estão~fazendo 
+
+[LINE]
+Speaker507: We're~so~sorry!    
+~           nós~sentimos~muito 
+
+[LINE]
+Speaker295: Why?     You're~fixing           that ugly~hole   in~the wall.   It's~been  there for years.
+~           por~quê  vocês~estão~consertando esse buraco~feio na     parede  ele~esteve aí    por anos  
+
+[CONTINUATION]
+> What  comes next?  
+~ o~que vem   depois 
+Speaker507: That hole   has~been there [for years?]!
+~           esse buraco esteve   aí     por anos    
+- since this morning
+~ desde esta manhã  
+- for  your cat 
+~ para seu  gato
++ for years
+~ por anos 
+
+[LINE]
+Speaker295: Yes! Thanks   for fixing      it. 
+~           sim  obrigado por consertarem ele 
+
+[LINE]
+Speaker508: Bea, I  told       you  my       friends didn't~do   this!
+~           Bea  eu disse~para você que~meus amigos  não~fizeram isto 
+
+[LINE]
+Speaker295: Um,  your friends were      here?
+~           hum  seus amigos  estiveram aqui 
+
+[MULTIPLE_CHOICE]
+> Bea didn't~want    her~boss     to~know  that…
+~ Bea não~queria~que o~chefe~dela soubesse que  
+- …Lin's~friends    are~hiding          in~the wall.  
+~  os~amigos~de~Lin estão~se~escondendo na     parede 
++ …she and Lin had     a   party in his~house.
+~  ela e   Lin fizeram uma festa na casa~dele 
+- …she's~leaving     her~job        at his~company. 
+~  ela~está~deixando o~emprego~dela na empresa~dele 
+
+[MATCH]
+> Toque nos pares
+- What <> o que
+- to have fun <> me divertir
+- mean <> cruel
+- didn't say <> não disse que
+- everywhere <> em todo lugar
+
