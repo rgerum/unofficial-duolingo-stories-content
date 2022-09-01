@@ -1,0 +1,151 @@
+[DATA]
+fromLanguageName=Obrigada, mãe
+icon=bf40ef982a083d2f6c8dbc8896888db65d7f1488
+set=22|1
+
+[HEADER]
+> Thanks,   Mom
+~ obrigada  mãe
+
+[LINE]
+> Zari opens a  gift     from~her~mother.
+~ Zari abre  um presente da~mãe~dela     
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker418: [What's~this]? 
+~            o~que~é~isto  
++ What's this
+- What dress
+- When's this
+
+[LINE]
+Speaker511: It's   a   surprise! Open~it.    
+~           isso~é uma surpresa  abra~(isso) 
+
+[LINE]
+Speaker418: It's   the sweater we        saw   yesterday at~the store!
+~           isto~é o   suéter  (que)~nós vimos ontem     na     loja  
+
+[LINE]
+Speaker418: Thank~you!
+~           obrigada  
+
+[LINE]
+Speaker511: I  know how~much   you  wanted it. 
+~           eu sei  (o)~quanto você queria ele 
+
+[LINE]
+Speaker418: It's  beautiful! I  love~it so~much!
+~           ele~é lindo      eu amo~ele tanto   
+
+[LINE]
+Speaker511: Only               the best   for  my        daughter!
+~           (eu~quero)~somente o   melhor para (a)~minha filha    
+
+[MULTIPLE_CHOICE]
+> A mãe da Zari quer que ela tenha…
++ …as melhores coisas.
+- …um novo par de sapatos.
+- …um emprego de vendedora de roupas.
+
+[LINE]
+Speaker511: And you  look~so~nice in~blue.
+~           e   você fica~tão~bem de~azul 
+
+[LINE]
+Speaker418: It's  so  special!  I  will~wear~it every day. But…
+~           ele~é tão especial  eu usarei~ele   todo  dia  mas 
+
+[LINE]
+Speaker511: What's~the~matter?
+~           qual~é~o~problema 
+
+[LINE]
+Speaker418: Are~you~sure     about this? It  was so  expensive.
+~           você~tem~certeza sobre isto  ele era tão caro      
+
+[LINE]
+Speaker511: Don't~worry.     It  was    on~sale.    
+~           não~se~preocupe  ele estava em~promoção 
+
+[MULTIPLE_CHOICE]
+> A mãe da Zari diz para ela não se preocupar porque…
+- …ela tem muito dinheiro.
++ …o suéter não foi caro.
+- …ela comprou um suéter diferente.
+
+[LINE]
+Speaker418: Oh! Good.     
+~           ah  (que)~bom 
+
+[LINE]
+Speaker511: It~was a  great price, so    I  got    four!  
+~           foi    um ótimo preço  então eu peguei quatro 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker418: Four   [sweaters]?
+~           quatro  suéteres  
+- daughters
+~ filhas   
++ sweaters
+~ suéteres
+- dresses 
+~ vestidos
+
+[LINE]
+> Zari's~mother   shows      her three~more  blue~sweaters. 
+~ (a)~mãe~de~Zari mostra~(a) ela outros~três suéteres~azuis 
+
+[LINE]
+Speaker511: Look! This~one is mine,    this~one is for  your~brother,  and this~one is for  your~dad!   
+~           veja  este     é  (o)~meu  este     é  para (o)~seu~irmão  e   este     é  para (o)~seu~pai 
+
+[SELECT_PHRASE]
+> Escolha a opção que falta
+Speaker511: That's [so~fun]!       
+~           isso~é  tão~divertido  
+- no fun
+- sofa
++ so fun
+
+[LINE]
+Speaker418: Oh…
+~           ah 
+
+[LINE]
+Speaker511: We  can~all~wear       our         new   sweaters tomorrow! I'm      so  excited!
+~           nós podemos~todos~usar (os)~nossos novos suéteres amanhã    eu~estou tão animada 
+
+[MULTIPLE_CHOICE]
+> A mãe da Zari comprou suéteres azuis para a família toda.
+- Não, não é isso.
++ Sim, isso mesmo.
+
+[LINE]
+Speaker418: Uh…
+~           hã 
+
+[LINE]
+Speaker511: What's~wrong?      
+~           o~que~há~de~errado 
+
+[LINE]
+Speaker418: I  don't~think~I~like~this~sweater~anymore.
+~           eu acho~que~não~gosto~mais~deste~suéter    
+
+[MULTIPLE_CHOICE]
+> Por que a Zari não gosta mais do suéter?
++ Ela não quer que a família dela use suéteres combinando.
+- Ela descobriu que ele custou muito caro.
+- Ela não gosta da cor azul.
+
+[MATCH]
+> Toque nos pares
+- daughter <> filha
+- your dad <> seu pai
+- yesterday <> ontem
+- my <> minha
+- wanted <> queria
+
