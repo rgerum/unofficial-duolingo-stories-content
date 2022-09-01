@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Acheter une robe
+icon=ffba9eba0bc98eb1b87842bfd234eb4274095663
+set=21|4
+
+[HEADER]
+> Dress~Shopping  
+~ acheter~une~robe
+
+[LINE]
+> Lily is~shopping      for  a   pink~dress with her mom. 
+~ Lily fait~du~shopping pour une robe~rose  avec sa  mère 
+
+[LINE]
+Speaker416: Do~we~really~have~to~go to Aunt~Betty's~wedding?  
+~           on~doit~vraiment~aller  au mariage~de~tante~Betty 
+
+[LINE]
+Speaker559: Yes! She's~finally~getting~married!
+~           oui  elle~se~marie~enfin           
+
+[LINE]
+Speaker416: But  I  hate    the color   pink… and wearing dresses!  
+~           mais je déteste la  couleur rose  et  porter  des~robes 
+
+[LINE]
+Speaker559: I  know, but  everyone      in~the~wedding is~wearing a  black~suit   or a   pink~dress.
+~           je sais  mais tout~le~monde au~mariage     porte      un costume~noir ou une robe~rose  
+
+[MULTIPLE_CHOICE]
+> Pourquoi Lily et sa mère veulent-elles acheter une robe rose ?
+- Lily ne porte que des robes roses.
+- Elles veulent un cadeau pour le chat de tante Betty.
++ Lily a besoin d'une tenue pour un mariage.
+
+[LINE]
+> Lily's~mom      shows~her  a   short~pink~dress.
+~ la~mère~de~Lily lui~montre une robe~rose~courte 
+
+[LINE]
+Speaker559: How~about        this~one?
+~           que~penses-tu~de celle-ci 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker416: It's     [too~short]!  
+~           elle~est  trop~courte  
+- two shirts
++ too short
+- two shots
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker559: OK,       what~about       this~one? It's     longer      than [the~other dress].
+~           d'accord  que~penses-tu~de celle-ci  elle~est plus~longue que   l'autre   robe   
+- your hair   
+~ tes  cheveux
++ the~other dress
+~ l'autre   robe 
+- the~winter
+~ l'hiver   
+
+[LINE]
+Speaker416: It   has feathers!   I  don't~want  to~look~like a  bird.  
+~           elle a   des~plumes  je ne~veux~pas ressembler~à un oiseau 
+
+[MULTIPLE_CHOICE]
+> Lily pense qu'elle aura l'air d'un oiseau dans cette robe parce que...
+- … les bras de Lily sont en fait des ailes.
++ … la robe a des plumes.
+- … la robe est multicolore.
+
+[LINE]
+Speaker416: This~is stupid!  I'm~only~going~to~wear~this~dress~once.  
+~           c'est   stupide  je~ne~vais~porter~cette~robe~qu'une~fois 
+
+[LINE]
+Speaker559: But  this~is really   important to   Aunt  Betty.
+~           mais c'est   vraiment important pour tante Betty 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker416: [(You) (just~want)  (me~to~look)      (pretty).]
+~             tu    veux~juste   que~j'aie~l'air   jolie    
+
+[LINE]
+Speaker559: No,  I  want you~to~be   comfortable. Let's~go to   another  store!  
+~           non  je veux que~tu~sois à~l'aise     allons   dans un~autre magasin 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker416: Mom,   wait!    You said       [everyone~is~wearing]     a  black~suit   or a   pink~dress, right?       
+~           Maman  attends  tu  as~dit~que  tout~le~monde~va~porter  un costume~noir ou une robe~rose   n'est-ce~pas 
+- everybody's caring
++ everyone is wearing
+- everyone is staring
+
+[LINE]
+> Lily shows    her mom  a  small black~suit.  
+~ Lily montre~à sa  mère un petit costume~noir 
+
+[LINE]
+Speaker416: You hate~it,  right?       
+~           tu  détestes  n'est-ce~pas 
+
+[LINE]
+Speaker559: Actually, I  think it    will~look~great~on~you!
+~           en~fait   je pense qu'il t'ira~très~bien        
+
+[MULTIPLE_CHOICE]
+> Que va porter Lily au mariage ?
++ un costume noir
+- une robe rose
+- un pantalon de jogging
+
+[MATCH]
+> Choisis les paires
+- dress <> robe
+- pretty <> jolie
+- short pink dress <> robe rose courte
+- stupid <> stupide
+- you to be <> que tu sois
+
