@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=Grandmother's Recipe
+icon=f846bda2ef7cfcb2a7b491fdab26521cbd7b480d
+set=22|4
+
+[HEADER]
+> Omas      Rezept
+~ grandma's recipe
+
+[LINE]
+> Vikram kommt   in Eddys  Wohnung.  
+~ Vikram arrives at Eddy's apartment 
+
+[LINE]
+Speaker414: Hallo Vikram. Wo    ist Priya?
+~           hello Vikram  where is  Priya 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker593: Priya arbeitet~noch,    [aber~sie~kommt~gleich]. 
+~           Priya is~still~working   but~she~is~coming~soon  
+- aber du kommst gleich
++ aber sie kommt gleich
+- sie sonnt sich am Teich
+
+[LINE]
+Speaker593: Danke     für die Einladung  zum~Abendessen.
+~           thank~you for the invitation to~dinner      
+
+[LINE]
+Speaker414: Gern~geschehen! Du  und Priya kocht so oft   für mich.
+~           you're~welcome  you and Priya cook  so often for me   
+
+[CONTINUATION]
+> What comes next?
+Speaker414: Also [koche~ich~jetzt für euch]!
+~           so    now~I'm~cooking for you   
+- koche~ich   nichts  für euch
+~ I'm~cooking nothing for you 
++ koche~ich~jetzt für euch
+~ now~I'm~cooking for you 
+- musst~du    meine Wohnung   staubsaugen
+~ you~have~to my    apartment vacuum     
+
+[LINE]
+Speaker593: Du~kochst,      Eddy? OK… Es riecht … interessant.
+~           you're~cooking  Eddy  OK  it smells   interesting 
+
+[LINE]
+Speaker414: Danke!     Ich~koche   Priyas  Lieblingsessen!
+~           thank~you  I'm~cooking Priya's favorite~dish  
+
+[LINE]
+Speaker593: Wirklich? Das Rezept ist ziemlich kompliziert ...
+~           really    the recipe is  quite    complicated    
+
+[MULTIPLE_CHOICE]
+> Vikram seems concerned. Why is that?
++ He thinks Eddy might not make the meal correctly.
+- Priya's favorite meal is very easy to make.
+- He realized Eddy's kitchen is on fire.
+
+[LINE]
+> Vikram sieht in   den Topf auf dem Herd. 
+~ Vikram looks into the pot  on  the stove 
+
+[LINE]
+Speaker593: Was~für      Reis ist das? 
+~           what~kind~of rice is  that 
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Gibt~es)  (mehr) (als)  (eine) (Sorte~Reis)?]  
+~             is~there   more   than   one    type~of~rice   
+
+[LINE]
+> Vikram probiert das Essen.
+~ Vikram tries    the food  
+
+[LINE]
+Speaker593: Oh. Es schmeckt ein bisschen ... komisch.
+~           oh  it tastes   a   little       strange 
+
+[LINE]
+Speaker414: Kannst du  mir~helfen?
+~           can    you help~me    
+
+[POINT_TO_PHRASE]
+> Choose the option that means “garlic.”
+Speaker593: (Vielleicht). Ich (brauche) vier Tomaten,  (Zwiebeln) und viel     (+Knoblauch).
+~            maybe        I    need     four tomatoes   onions    and a~lot~of   garlic     
+
+[LINE]
+Speaker414: Oh nein, das~habe~ich~nicht.
+~           oh no    I~don't~have~that  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker593: OK. Dann [brauchen~wir~dein~Handy].
+~           OK  then  we~need~your~phone       
+- braucht ihr kein Handy
++ brauchen wir dein Handy
+- rauchen wir mit Mandy
+
+[LINE]
+> Später essen~Eddy,~Vikram~und~Priya      zusammen~Abendessen.
+~ later  Eddy,~Vikram~and~Priya~are~eating dinner~together     
+
+[LINE]
+Speaker560: Eddy, dein Essen ist wirklich lecker!   
+~           Eddy  your food  is  really   delicious 
+
+[LINE]
+Speaker560: Es schmeckt fast   genauso~wie  das~Rezept~von~meiner~Oma!
+~           it tastes   almost exactly~like my~grandma's~recipe       
+
+[LINE]
+Speaker414: Danke!     Ich habe es selbst im~Restaurant~bestellt!     
+~           thank~you  I   have it myself ordered~from~the~restaurant 
+
+[MULTIPLE_CHOICE]
+> Why was the dinner so delicious?
+- Vikram added plenty of garlic.
++ Eddy ordered take-out.
+- Eddy is an amazing cook.
+
+[MATCH]
+> Tap the pairs
+- sieht <> looks
+- koche ich jetzt <> now I'm cooking
+- Rezept <> recipe
+- Einladung <> invitation
+- Reis <> rice
+
