@@ -1,0 +1,142 @@
+[DATA]
+fromLanguageName=La persona perfecta
+icon=9a22c5f11ddc4785a81d887f35d522f3317e2f4c
+set=6|1
+
+[HEADER]
+> La personne parfaite
+~ la persona  perfecta
+
+[LINE]
+> Béa est  dans un café avec son ami,   Eddy.
+~ Béa está en   un café con  su  amigo  Eddy 
+
+[LINE]
+Speaker414: Ça~va,      Béa ?
+~           estás~bien  Béa  
+
+[LINE]
+Speaker507: Oui, merci.   Et toi ?
+~           sí   gracias  y  tú   
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker414: Non. Kof, kof, kof ! [Je~suis~malade].
+~           no   cof  cof  cof    estoy~enfermo   
++ Je suis malade
+- Je m'y ballade
+- Je fuis le malade
+
+[LINE]
+Speaker507: Oh, non ! Je~suis~désolée.
+~           ay  no    lo~siento       
+
+[LINE]
+Speaker414: Je ne~vais~pas~bien.
+~           yo no~estoy~bien    
+
+[LINE]
+Speaker414: Et j'ai  froid.
+~           y  tengo frío  
+
+[MULTIPLE_CHOICE]
+> Eddy se siente muy bien.
++ No, no es así.
+- Sí, así es.
+
+[LINE]
+Speaker507: Hmm.
+~           mmm 
+
+[LINE]
+Speaker507: Eddy !
+~           Eddy  
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker507: [(Tu~dois)  (rentrer) (chez~toi) (et) (dormir) ]!
+~             tú~debes   volver    a~casa     y    dormir    
+
+[LINE]
+Speaker507: Tu vas   aller chez~le~docteur ?
+~           tú vas~a ir    al~médico        
+
+[LINE]
+Speaker414: Non, ça~va.    
+~           no   todo~bien 
+
+[LINE]
+Speaker414: Je sors        avec une femme ce~soir.   
+~           yo voy~a~salir con  una mujer esta~noche 
+
+[LINE]
+Speaker507: Non, non !
+~           no   no   
+
+[LINE]
+Speaker507: J'ai         la personne parfaite pour toi !
+~           (yo)~tengo~a la persona  perfecta para ti   
+
+[MULTIPLE_CHOICE]
+> ¿Entendiste eso? Béa cree que Eddy debería…
+- …salir con muchas personas al mismo tiempo.
++ …conocer a otra persona en lugar de ir a su cita.
+- …olvidar qué día es.
+
+[LINE]
+Speaker414: Ah, oui ?
+~           ah  sí   
+
+[LINE]
+Speaker507: Oui. Elle est grande.
+~           sí   ella es  alta   
+
+[LINE]
+Speaker507: Intelligente...
+~           inteligente    
+
+[LINE]
+Speaker507: Et amusante. 
+~           y  divertida 
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker414: Ah, oui, elle [est parfaite ]!
+~           ah  sí   ella  es  perfecta   
+- est~désolée
+~ lo~siente  
++ est parfaite
+~ es  perfecta
+- est  malade 
+~ está enferma
+
+[LINE]
+Speaker414: Comment~elle~s'appelle ?
+~           cómo~se~llama           
+
+[LINE]
+Speaker507: Docteur Martin.
+~           doctora Martin 
+
+[LINE]
+Speaker507: Tu dois  aller chez~le~docteur...
+~           tú debes ir    al~médico         
+
+[LINE]
+Speaker507: … parce~que tu es    malade  !
+~             porque    tú estás enfermo  
+
+[MULTIPLE_CHOICE]
+> Béa cree que la persona perfecta para Eddy es…
+- …un chico que ella conoció por Internet.
+- …una mujer en la televisión que le gusta a él.
++ …una doctora que lo ayude a sentirse mejor.
+
+[MATCH]
+> Selecciona los pares
+- Elle <> ella
+- Je suis désolée <> lo siento
+- Kof <> cof
+- toi <> tú
+- amusante <> divertida
+
