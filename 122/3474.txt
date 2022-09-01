@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Das Tagebuch
+icon=11054d83adbe171cda3e5669c57e1e26d6cbd8db
+set=10|1
+
+[HEADER]
+> The Diary   
+~ das Tagebuch
+
+[LINE]
+> Zari and Lily are  at     school.
+~ Zari und Lily sind in~der Schule 
+
+[LINE]
+Speaker418: Lily, I'm~so~scared!         I   can't~find~my~diary!            
+~           Lily  ich~habe~solche~Angst  ich kann~mein~Tagebuch~nicht~finden 
+
+[LINE]
+Speaker416: OK?
+~           OK 
+
+[LINE]
+Speaker418: I   write    about Miguel in my     diary!   
+~           ich schreibe über  Miguel in meinem Tagebuch 
+
+[LINE]
+Speaker416: Miguel? The boy   in our     class? 
+~           Miguel  der Junge in unserer Klasse 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker418: Yes! [We~need~to~find~it]!  
+~           ja    wir~müssen~es~finden  
+- We need a fine hat
+- He needs to find it
++ We need to find it
+
+[LINE]
+Speaker416: Fine.
+~           OK   
+
+[LINE]
+> They look~for the diary    in~the hall.
+~ sie  suchen   das Tagebuch im     Flur 
+
+[LINE]
+Speaker416: Sorry,           it isn't     here.
+~           es~tut~mir~leid  es ist~nicht hier 
+
+[ARRANGE]
+> Was hörst du?
+Speaker418: [(This) (is)  (a)   (bad)        (day)!]
+~             das    ist   ein   schlechter   Tag   
+
+[LINE]
+> They see   Miguel. He has a   pink   diary.   
+~ sie  sehen Miguel  er hat ein pinkes Tagebuch 
+
+[LINE]
+Speaker418: Oh no!   It's   Miguel! This is  a   very bad        day.
+~           oh nein  es~ist Miguel  das  ist ein sehr schlechter Tag 
+
+[MULTIPLE_CHOICE]
+> Warum sagt Zari, dass es ein sehr schlechter Tag ist?
++ Sie denkt, dass Miguel ihr Tagebuch gelesen hat.
+- Miguel wechselt an eine andere Schule.
+- Lily ist jetzt mit Miguel zusammen.
+
+[LINE]
+Speaker790: Hi Zari. Is  this your diary?   
+~           hi Zari  ist das  dein Tagebuch 
+
+[LINE]
+Speaker418: Uh… No!  
+~           äh  nein 
+
+[LINE]
+Speaker416: But  your name is    on~it. 
+~           aber dein Name steht darauf 
+
+[LINE]
+Speaker418: OK. That is  my   diary.    But… 
+~           OK  das  ist mein Tagebuch  aber 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „Handschrift“.
+Speaker790: (Don't~worry)… I   (can't~read)       (your)  (+handwriting).
+~            keine~Sorge   ich  kann~nicht~lesen   deine    Handschrift  
+
+[LINE]
+Speaker418: Oh… good.
+~           oh  gut  
+
+[LINE]
+Speaker790: So,   do~you~want to~see~a~movie   with me  on Friday? 
+~           also  willst~du   einen~Film~sehen mit  mir am Freitag 
+
+[LINE]
+Speaker418: Wow, yes!
+~           wow  ja  
+
+[LINE]
+> Miguel smiles  at~Zari. He leaves.  
+~ Miguel lächelt Zari~an  er geht~weg 
+
+[LINE]
+Speaker418: Lily, this is  a   great  day!
+~           Lily  das  ist ein toller Tag 
+
+[MULTIPLE_CHOICE]
+> Oha! Warum findet Zari, dass es nun doch ein toller Tag ist?
+- Sie hat eine gute Note für ihre Hausaufgaben bekommen.
+- Miguel hat ihr gesamtes Tagebuch gelesen.
++ Miguel hat sie gefragt, ob sie einen Film mit ihm sehen möchte.
+
+[MATCH]
+> Wähle die Paare
+- handwriting <> Handschrift
+- at <> in der
+- Oh <> oh
+- pink <> pinkes
+- But <> aber
+
