@@ -1,0 +1,103 @@
+[DATA]
+fromLanguageName=Jour de congé
+icon=5450714ebd6e5c59daf764d85a8fc7f9edb1c23a
+set=10|4
+
+[HEADER]
+> Day~Off      
+~ jour~de~congé
+
+[LINE]
+> Vikram is~making tea    in   the kitchen.
+~ Vikram prépare   du~thé dans la  cuisine 
+
+[LINE]
+> His wife,  Priti, walks~into the room. 
+~ sa  femme  Priti  entre~dans la  pièce 
+
+[LINE]
+Speaker560: Good~morning, Vikram!
+~           bonjour       Vikram 
+
+[LINE]
+Speaker593: Wait…    why      are~you home?        It's~Tuesday.
+~           attends  pourquoi es-tu   à~la~maison  on~est~mardi 
+
+[LINE]
+Speaker560: I'm~not~working     today!       I~have a  day~off!      
+~           je~ne~travaille~pas aujourd'hui  j'ai   un jour~de~congé 
+
+[MULTIPLE_CHOICE]
+> Priti a pris un jour de congé.
++ Oui, c'est vrai.
+- Non, c'est faux.
+
+[LINE]
+Speaker560: I'm~excited. I  want to~do so~many      things!
+~           j'ai~hâte    je veux faire tellement~de choses 
+
+[LINE]
+> Priti goes to the gym.           
+~ Priti va   à  la  salle~de~sport 
+
+[LINE]
+> Then,    she  visits a  museum.
+~ ensuite  elle visite un musée  
+
+[MULTIPLE_CHOICE]
+> Priti est allée...
+- ... au musée et au cinéma.
++ ... à la salle de sport et au musée.
+- ... au travail.
+
+[LINE]
+> When  she  gets~home,        Priti reads a  book  in   the garden.
+~ quand elle rentre~chez~elle  Priti lit   un livre dans le  jardin 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker593: Hi,    honey!  Are~you~having [a~nice~day]?       
+~           salut  chérie  tu~passes       une~bonne~journée  
+- a nice way
++ a nice day
+- a rice tray
+
+[LINE]
+Speaker560: Yes! But  let's~make dinner   now!       
+~           oui  mais préparons  le~dîner maintenant 
+
+[LINE]
+Speaker593: Dinner?   But  it's   only      2~p.m.         
+~           le~dîner  mais il~est seulement quatorze~heures
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « tôt ».
+Speaker560: (It's)   (so) (+early). What~can~I~do               (now)?       
+~            il~est   si    tôt     qu'est-ce~que~je~peux~faire  maintenant  
+
+[LINE]
+Speaker593: You can~sit        and relax.      
+~           tu  peux~t'asseoir et  te~détendre 
+
+[LINE]
+> Priti sits     for~a~minute.     
+~ Priti s'assoit (pour)~une~minute 
+
+[LINE]
+Speaker560: Relaxing    is    boring.   I'm~going~to~work. 
+~           se~détendre c'est ennuyeux  je~vais~travailler 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Priti a-t-elle décidé d'aller au travail au final ?
++ Elle s'ennuie quand elle se détend.
+- Elle s'est souvenu qu'elle avait quelque chose à faire.
+- Elle ne voulait pas préparer le dîner. 
+
+[MATCH]
+> Choisis les paires
+- is making <> prépare
+- Hi <> salut
+- You <> tu
+- why <> pourquoi
+- museum <> musée
+
