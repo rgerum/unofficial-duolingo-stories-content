@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=A aula de dança
+icon=9a1213d7cb11cc1ab115544c9557336da748fca6
+set=4|4
+
+[HEADER]
+> La clase de baile
+~ a  aula  de dança
+
+[LINE]
+> Eddy entra a~la clase de baile de Eliana.
+~ Eddy entra na   aula  de dança de Eliana 
+
+[LINE]
+Speaker125: ¡Hola, chicos! 
+~            olá   rapazes 
+
+[LINE]
+Speaker125: ¿Quién tiene~ganas      de bailar?
+~            quem  está~com~vontade de dançar 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker125: Hoy  vamos~a aprender [cosas~nuevas].
+~           hoje vamos   aprender  coisas~novas  
++ cosas nuevas
+- con tus viejas
+- rosas nuevas
+
+[LINE]
+> Eddy se levanta y camina  en dirección a~la puerta.
+~ Eddy se levanta e caminha em direção   à    porta  
+
+[LINE]
+Speaker125: ¡Ey!
+~            ei 
+
+[LINE]
+Speaker125: ¿A    dónde vas?    
+~            para onde  tu~vais 
+
+[LINE]
+Speaker125: Bailar da un poco  de miedo…
+~           dançar dá um pouco de medo  
+
+[LINE]
+Speaker125: … ¡pero es muy   divertido!
+~              mas  é  muito divertido 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "mas".
+Speaker504: Sí,  (+pero) (creo) (que) (esto) es un error.
+~           sim    mas    acho   que   isto  é  um erro  
+
+[LINE]
+Speaker125: Sin miedo. Es fácil. ¡Mira!
+~           sem medo   é  fácil   olha 
+
+[LINE]
+Speaker504: Pero…
+~           mas  
+
+[ARRANGE]
+> Toque no que escutar
+> [(Eddy) (mira~a) (Eliana) (bailar).]
+~   Eddy   olha     Eliana   dançar   
+
+[LINE]
+Speaker125: ¡Ahora baila conmigo!
+~            agora dança comigo  
+
+[LINE]
+Speaker504: ¡Esto es muy   divertido!
+~            isto é  muito divertido 
+
+[LINE]
+Speaker125: ¿Qué   piensas ahora? ¿Esta clase es un error?
+~            o~que pensas  agora   esta aula  é  um erro  
+
+[MULTIPLE_CHOICE]
+> A Eliana quer saber...
+- …se o Eddy é professor de dança.
+- …por que o Eddy é um dançarino tão terrível.
++ …se o Eddy ainda acha que ir à aula dela foi um erro.
+
+[LINE]
+Speaker504: Sí. 
+~           sim 
+
+[LINE]
+Speaker125: ¿De~verdad?
+~            sério     
+
+[LINE]
+Speaker504: Esta no  es mi      clase.
+~           esta não é  a~minha aula  
+
+[LINE]
+Speaker504: ¡Pero es más  divertida que una clase de cocina!   
+~            mas  é  mais divertida que uma aula  de culinária 
+
+[MULTIPLE_CHOICE]
+> Opa! Qual foi o erro do Eddy?
++ Ele deveria ter ido a uma aula de culinária.
+- Ele esqueceu de usar os sapatos de dança dele.
+- Ele costumava namorar a Eliana.
+
+[MATCH]
+> Toque nos pares
+- fácil <> fácil
+- Qué <> o que
+- error <> erro
+- en <> em
+- Sí <> sim
+
