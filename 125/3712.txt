@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Grazie?
+icon=0e35077f2bf31284d5967e7096a66da10d0a9bdf
+set=4|3
+
+[HEADER]
+> Thanks?
+~ grazie 
+
+[LINE]
+> Zari gives Lily a   box.    
+~ Zari dà~a  Lily una scatola 
+
+[LINE]
+Speaker416: What's~this? 
+~           cos'è~questo 
+
+[LINE]
+Speaker418: Open the box!    
+~           apri la  scatola 
+
+[LINE]
+> Lily opens the box.    
+~ Lily apre  la  scatola 
+
+[LINE]
+Speaker416: It's a   shirt.  
+~           è    una camicia 
+
+[LINE]
+Speaker418: It's so   cute!  
+~           è    così carina 
+
+[MULTIPLE_CHOICE]
+> Zari detesta la camicia.
+- Sì, è giusto.
++ No, è sbagliato.
+
+[LINE]
+Speaker416: It's pink.
+~           è    rosa 
+
+[LINE]
+Speaker418: Yeah, my     favorite~color.  
+~           sì    il~mio colore~preferito 
+
+[LINE]
+Speaker416: And it~has a  cat   on~it.
+~           e   ha     un gatto sopra 
+
+[LINE]
+Speaker418: I  love cats!   
+~           io amo  i~gatti 
+
+[POINT_TO_PHRASE]
+> Seleziona l'opzione che significa "moto".
+Speaker416: (And) (the) (cat)   is on    a   (+motorcycle).
+~            e     il    gatto  è  sopra una   moto        
+
+[LINE]
+Speaker418: It's so   funny!
+~           è    così buffo 
+
+[LINE]
+Speaker418: It's a  perfect  birthday~present.    
+~           è    un perfetto regalo~di~compleanno 
+
+[MULTIPLE_CHOICE]
+> Zari pensa che la camicia sia…
+- ... per il suo gatto.
++ ... un regalo di compleanno perfetto.
+- … di un brutto colore.
+
+[LINE]
+Speaker416: Zari, it's~not my     birthday.  
+~           Zari  non~è    il~mio compleanno 
+
+[LINE]
+Speaker418: I~know.     Today is my     birthday.  
+~           (io)~lo~so  oggi  è  il~mio compleanno 
+
+[LINE]
+Speaker416: Oh, right. 
+~           oh  giusto 
+
+[ARRANGE]
+> Seleziona ciò che senti
+Speaker418: [(You) (always) (forget)     (my)     (birthday).]  
+~             tu    sempre   dimentichi   il~mio   compleanno   
+
+[LINE]
+Speaker418: Now    you~can~give~me this   shirt!  
+~           adesso (tu)~puoi~darmi questa camicia 
+
+[LINE]
+Speaker416: Wow, thank~you.
+~           wow  grazie    
+
+[LINE]
+Speaker418: No, no. Thank~you.  
+~           no  no  grazie~a~te 
+
+[MULTIPLE_CHOICE]
+> Perché Zari ha dato la camicia a Lily?
+- Oggi è il compleanno di Lily.
++ Vuole che Lily gliela restituisca.
+- Lily ha un gatto che guida una moto.
+
+[MATCH]
+> Tocca le coppie
+- gives <> dà a
+- What's this <> cos'è questo
+- right <> giusto
+- love <> amo
+- so <> così
+
