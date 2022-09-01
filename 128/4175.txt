@@ -1,0 +1,102 @@
+[DATA]
+fromLanguageName=Thầy muốn gì ạ?
+icon=8c5ae7b18c5ff0f37394646c91bd6a579213dcbc
+set=3|2
+
+[HEADER]
+> What~Do~You~Want?
+~ thầy~muốn~gì~ạ   
+
+[LINE]
+> Oscar walks~into a   clothes~store.   
+~ Oscar bước~vào   một cửa~hàng~quần~áo 
+
+[LINE]
+> He     sees      his~student,         Zari. She   works    in    the~store.
+~ anh~ấy nhìn~thấy học~sinh~của~anh~ấy  Zari  cô~ấy làm~việc trong cửa~hàng  
+
+[MULTIPLE_CHOICE]
+> Oscar nhìn thấy Zari làm việc trong cửa hàng.
++ Đúng vậy.
+- Không đúng.
+
+[LINE]
+Speaker592: Zari! Oh,~good!   I~am happy~to~see~you.  
+~           Zari  ôi~may~quá  thầy rất~vui~khi~gặp~em 
+
+[LINE]
+Speaker418: Hello!        Welcome!     
+~           em~chào~thầy  mời~thầy~vào 
+
+[LINE]
+Speaker418: Do~you~need~help?         
+~           thầy~cần~em~giúp~gì~không 
+
+[LINE]
+Speaker592: Yes, thank~you! I    need…
+~           có   cảm~ơn~em  thầy cần  
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “biết”.
+Speaker418: (Oh), I  (+know)! (You)  (need) a~new~jacket!
+~            a    em   biết    thầy   cần   áo~khoác~mới 
+
+[LINE]
+> Zari shows~Oscar   a       jacket.  
+~ Zari cho~Oscar~xem 1~chiếc áo~khoác 
+
+[LINE]
+Speaker592: A~new~jacket?   No.    Zari, I…   
+~           áo~khoác~mới~á  không  Zari  thầy 
+
+[ARRANGE]
+> Nhấn vào những gì bạn nghe
+Speaker418: [(Oh)! (You)  (need) (a~new~shirt)!] 
+~             à     thầy   cần    áo~sơ~mi~mới   
+
+[LINE]
+Speaker418: The~green~shirt~is     perfect!        
+~           chiếc~áo~sơ~mi~xanh~lá tuyệt~hảo~đấy~ạ 
+
+[LINE]
+Speaker592: No.    Zari, please…
+~           không  Zari  làm~ơn 
+
+[LINE]
+Speaker592: I    do~not~need a~shirt.  I    do~not~need a~jacket. I    need…
+~           thầy không~cần   áo~sơ~mi  thầy không~cần   áo~khoác  thầy cần  
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker418: Pants! [You~need~pants]!
+~           quần    thầy~cần~quần   
++ You need pants
+- Your new pants
+- You need parents
+
+[LINE]
+Speaker592: No!    I    do~not~need clothes!
+~           không  thầy không~cần   quần~áo 
+
+[LINE]
+Speaker592: I    need to~know…
+~           thầy cần  biết    
+
+[LINE]
+Speaker592: Where~is~the~restroom?
+~           phòng~vệ~sinh~ở~đâu   
+
+[MULTIPLE_CHOICE]
+> Vì sao Oscar lại đi vào cửa hàng quần áo?
+- Anh ấy muốn mua quần, áo sơ mi và áo khoác.
++ Anh ấy muốn đi vệ sinh.
+- Anh ấy muốn mua áo mới cho Zari.
+
+[MATCH]
+> Nhấn vào các cặp từ
+- jacket <> áo khoác
+- a new jacket <> áo khoác mới
+- Oh <> à
+- happy to see you <> rất vui khi gặp em
+- a shirt <> áo sơ mi
+
