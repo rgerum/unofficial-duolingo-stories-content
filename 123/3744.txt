@@ -1,0 +1,118 @@
+[DATA]
+fromLanguageName=El vegetariano
+icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
+set=2|3
+
+[HEADER]
+> Le végétarien 
+~ el vegetariano
+
+[LINE]
+> Vikram est  au    restaurant. 
+~ Vikram está en~el restaurante 
+
+[LINE]
+Speaker385: Bienvenue  !
+~           bienvenido  
+
+[LINE]
+Speaker593: Bonjour…     J'ai       une question.
+~           buenos~días  (yo)~tengo una pregunta 
+
+[LINE]
+Speaker593: Je suis végétarien. 
+~           yo soy  vegetariano 
+
+[LINE]
+Speaker593: Il~y~a des~plats     végétariens  ?
+~           hay    (unos)~platos vegetarianos  
+
+[MULTIPLE_CHOICE]
+> Vikram quiere saber si tienen platos vegetarianos.
++ Sí, así es.
+- No, no es así.
+
+[LINE]
+Speaker385: Oui, nous     avons   des~steaks.    
+~           sí   nosotros tenemos (unos)~bistecs 
+
+[LINE]
+Speaker593: C'est  de~la~viande. Je ne~mange~pas de~viande.
+~           eso~es carne         yo no~como      carne     
+
+[MULTIPLE_CHOICE]
+> Vikram no come carne y el mesero…
++ …le ofreció un bistec.
+- …le dijo que saliera del restaurante.
+- …decidió renunciar a su trabajo.
+
+[LINE]
+Speaker385: Ah, oui. Pardon.   
+~           ah  sí   lo~siento 
+
+[LINE]
+Speaker385: Le porc  est délicieux.
+~           el cerdo es  delicioso 
+
+[LINE]
+Speaker593: Le porc,  c'est de~la~viande.
+~           el cerdo  es    carne        
+
+[LINE]
+Speaker593: Je ne~mange~pas de~viande !
+~           yo no~como      carne      
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker385: [(Nous)     (avons)   (des~salades)…]     
+~             nosotros   tenemos   (unas)~ensaladas   
+
+[LINE]
+Speaker593: J'aime    les salades   !
+~           me~gustan las ensaladas  
+
+[LINE]
+Speaker385: Nous     avons   une salade   avec de~la~tomate        et du~poisson.          
+~           nosotros tenemos una ensalada con  (un~poco~de)~tomate y  (un~poco~de)~pescado 
+
+[MULTIPLE_CHOICE]
+> El restaurante ofrece una ensalada de pescado y…
+- …bistec.
+- …cerdo.
++ …tomate.
+
+[LINE]
+Speaker593: Je ne~mange~pas de~poisson ! Je suis végétarien  !
+~           yo no~como      pescado      yo soy  vegetariano  
+
+[LINE]
+Speaker385: Nous     avons   du~pain et du~fromage…
+~           nosotros tenemos pan     y  queso      
+
+[LINE]
+Speaker593: OK,    du~pain et du~fromage.
+~           bueno  pan     y  queso      
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "jamón".
+Speaker385: (Très) (bien) ! Et (+du~jambon) (avec) le pain ?
+~            muy    bien    y    jamón       con   el pan   
+
+[LINE]
+Speaker593: Non ! Je ne~mange~pas de~viande !
+~           no    yo no~como      carne      
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Vikram está decepcionado?
+- Él está cansado de ser vegetariano.
++ El mesero seguía ofreciéndole carne.
+- El mesero derramó café sobre él.
+
+[MATCH]
+> Selecciona los pares
+- du jambon <> jamón
+- des plats <> platos
+- des salades <> ensaladas
+- Pardon <> lo siento
+- restaurant <> restaurante
+
