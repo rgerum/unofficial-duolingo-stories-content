@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=Parfait pour le job
+icon=5899822ff564221d831e0f0f0a91755383fd85a6
+set=29|2
+
+[HEADER]
+> Perfect for  the Job
+~ parfait pour le  job
+
+[LINE]
+> Junior enters an~ice~cream~store. He speaks to Jerry, the manager.
+~ Junior entre  chez~un~glacier     il parle  à  Jerry  le  gérant  
+
+[LINE]
+Speaker415: Can~I~have    a   chocolate~ice~cream and a  job~application?          
+~           je~peux~avoir une glace~au~chocolat   et  un formulaire~de~candidature 
+
+[LINE]
+Speaker2243: Umm. How~old~are~you?
+~            euh  tu~as~quel~âge  
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker415: I'm     old~enough  to~know     that your  chocolate~ice~cream [needs~more~sugar].          Are~you   the manager?
+~           je~suis assez~grand pour~savoir que  votre glace~au~chocolat    a~besoin~de~plus~de~sucre   vous~êtes le  gérant  
++ needs more sugar
+- eats more sugar
+- is more sure
+
+[LINE]
+Speaker2243: Yes, I~am.     
+~            oui  c'est~moi 
+
+[LINE]
+Speaker415: I'm     Junior. Listen,  if you  give~me   a  job,     I  can~help~you~make        a~lot    of~money.
+~           je~suis Junior  écoutez  si vous me~donnez un travail  je peux~vous~aider~à~gagner beaucoup d'argent 
+
+[MULTIPLE_CHOICE]
+> Junior va aider le gérant à faire quoi ?
+- donner beaucoup d'argent
++ gagner beaucoup d'argent
+- dépenser beaucoup d'argent
+
+[LINE]
+Speaker2243: But  you're~just~a kid.   
+~            mais tu~n'es~qu'un enfant 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker415: [(That's~why)     (I'm)     (perfect) (for)  (the~job).]   
+~             c'est~pourquoi   je~suis   parfait   pour   le~travail   
+
+[LINE]
+Speaker2243: No  thanks, Junior.
+~            non merci   Junior 
+
+[LINE]
+> Later,     Junior is~eating his ice~cream in~front~of the store.  
+~ plus~tard  Junior mange     sa  glace     devant      le  magasin 
+
+[LINE]
+> A   family  walks~past   the store   and sees Junior.
+~ une famille passe~devant le  magasin et  voit Junior 
+
+[LINE]
+Speaker415: This~is the best      ice~cream I've~ever~had!         
+~           c'est   la  meilleure glace     que~j'ai~jamais~mangée 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker2540: Dad,  can~we~get    that  [ice~cream]?
+~            Papa  on~peut~avoir cette  glace      
+- family 
+~ famille
++ ice~cream
+~ glace    
+- money 
+~ argent
+
+[LINE]
+> They walk~into    the store.  
+~ ils  entrent~dans le  magasin 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker3145: [That~kid's~chocolate~ice~cream]     looks   amazing!    
+~             la~glace~au~chocolat~de~cet~enfant  a~l'air incroyable  
+- That kid chocolate scream
++ That kid's chocolate ice cream
+- That key chocolate icing
+
+[LINE]
+Speaker3145: We   want~four~of      the~same~thing.
+~            nous en~voulons~quatre pareil         
+
+[LINE]
+Speaker2243: Great! 
+~            génial 
+
+[LINE]
+> The family  looks   very happy    as~they~leave~the store.  
+~ la  famille a~l'air très contente en~sortant~du     magasin 
+
+[LINE]
+Speaker2243: Junior, you're a  genius.
+~            Junior  tu~es  un génie  
+
+[MULTIPLE_CHOICE]
+> Le gérant trouve Junior très intelligent.
+- Non, c'est faux.
++ Oui, c'est vrai.
+
+[LINE]
+Speaker2243: But  I  still~can't~give~you           a  job…     Because   you're a  child. 
+~            mais je ne~peux~toujours~pas~te~donner un travail  parce~que tu~es  un enfant 
+
+[LINE]
+Speaker415: That's~OK,          you  can~pay~me      in ice~cream!
+~           ce~n'est~pas~grave  vous pouvez~me~payer en glaces    
+
+[MULTIPLE_CHOICE]
+> Comment Junior a-t-il aidé le gérant à vendre des glaces ?
+- Il en a parlé sur les réseaux sociaux.
++ Il a dit qu'elles étaient délicieuses.
+- Il en a vendu à l'arrière d'un camion.
+
+[MATCH]
+> Choisis les paires
+- and <> et
+- to <> à
+- a <> une
+- is eating <> mange
+- old enough <> assez grand
+
