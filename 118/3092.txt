@@ -1,0 +1,108 @@
+[DATA]
+fromLanguageName=Júnior's Choice
+icon=af56f1138258ee0713ae0ad63b96c8cd11ce320c
+set=6|3
+
+[HEADER]
+> A~escolha~de~Júnior
+~ Júnior's~choice    
+
+[LINE]
+> Júnior está na escola. É    hora~do~almoço.
+~ Júnior is~  at school  it's lunch~time     
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: Bom~dia,      Dona Luísa! [Eu~estou~com~fome]!
+~           good~morning  Mrs. Luísa   I~am~hungry        
+- Está com a fome
++ Eu estou com fome
+- Estou sem nome
+
+[LINE]
+Speaker395: Oi, Júnior! Hoje  temos   peixe para o~almoço.   
+~           hi  Júnior  today we~have fish  for  (the)~lunch 
+
+[LINE]
+Speaker395: E   você pode escolher    batata~frita ou salada.
+~           and you  can  (to)~choose fries        or salad  
+
+[MULTIPLE_CHOICE]
+> Júnior has choices for lunch.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker415: Eu amo  batata~frita e   salada.
+~           I  love fries        and salad  
+
+[CONTINUATION]
+> What comes next?
+Speaker395: Você precisa [escolher,  Júnior].
+~           you  need     to~choose  Júnior  
++ escolher,  Júnior
+~ to~choose  Júnior
+- salada, Luísa
+~ salad   Luísa
+- da~escola,       Júnior
+~ (of)~the~school  Júnior
+
+[LINE]
+Speaker415: Humm... Eu amo  batata~frita.
+~           hmm     I  love fries        
+
+[POINT_TO_PHRASE]
+> Choose the option that means "healthy."
+Speaker415: (Mas) (salada) (é)  (+saudável)…
+~            but   salad    is    healthy   
+
+[LINE]
+Speaker395: Júnior…
+~           Júnior 
+
+[LINE]
+Speaker415: Hã…  Eu preciso escolher! 
+~           huh  I  need    to~choose 
+
+[LINE]
+Speaker415: Eu quero salada! Não. Batata~frita! Um  minuto…
+~           I  want  salad   no   fries         one minute 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: [Eu~não~sei]!  
+~            I~don't~know  
+- Eu sou rei
++ Eu não sei
+- E não sou
+
+[LINE]
+Speaker395: Júnior!
+~           Júnior 
+
+[LINE]
+Speaker415: Sim, Dona Luísa?
+~           yes  Mrs. Luísa 
+
+[LINE]
+Speaker395: Você não~precisa escolher! 
+~           you  don't~need  to~choose 
+
+[LINE]
+Speaker395: Pega a   batata~frita e   a   salada.
+~           take the fries        and the salad  
+
+[MULTIPLE_CHOICE]
+> What did Dona Luísa tell Júnior to do?
+- Go somewhere else to eat.
++ Take both the fries and the salad.
+- Imagine that fries are salad.
+
+[MATCH]
+> Tap the pairs
+- Luísa <> Luísa
+- Eu estou com fome <> I am hungry
+- o almoço <> lunch
+- ou <> or
+- a <> the
+
