@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Des vêtements pour les vacances
+icon=eda1b8214a6937df66a552eb581f2353da4d0352
+set=2|4
+
+[HEADER]
+> Vacation~Clothes               
+~ des~vêtements~pour~les~vacances
+
+[LINE]
+> Lucy is  in   a  store.  
+~ Lucy est dans un magasin 
+
+[LINE]
+Speaker509: Hi,      can~you~help~me?    
+~           bonjour  pouvez-vous~m'aider 
+
+[LINE]
+Speaker509: I~need         new      clothes   for  my  vacation!
+~           j'ai~besoin~de nouveaux vêtements pour mes vacances 
+
+[MULTIPLE_CHOICE]
+> Lucy veut acheter de nouveaux vêtements pour ses vacances.
++ Oui, c'est vrai.
+- Non, c'est faux.
+
+[LINE]
+Speaker416: OK.      
+~           d'accord 
+
+[LINE]
+Speaker509: I~need~a          dress.
+~           j'ai~besoin~d'une robe  
+
+[LINE]
+> Lily gives   Lucy a   green~dress.
+~ Lily donne~à Lucy une robe~verte  
+
+[LINE]
+Speaker509: No!  I~need~a          short,~red~dress. 
+~           non  j'ai~besoin~d'une robe~rouge~courte 
+
+[MULTIPLE_CHOICE]
+> De quoi Lucy a-t-elle besoin ?
+- une longue jupe verte
++ une robe rouge courte
+- une nouvelle voiture marron
+
+[LINE]
+> Lily gives~her a   short,~red~dress. 
+~ Lily lui~donne une robe~rouge~courte 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker509: [(And) (I~need)         (boots).] 
+~             et    j'ai~besoin~de   bottes   
+
+[LINE]
+> Lily gives   Lucy red~boots.        
+~ Lily donne~à Lucy des~bottes~rouges 
+
+[LINE]
+Speaker509: No,  big,         black~boots!  
+~           non  des~grosses  bottes~noires 
+
+[LINE]
+Speaker416: Ugh…  
+~           pouah 
+
+[LINE]
+Speaker509: OK,       a   short,~red~dress  and big,         black~boots…  
+~           d'accord  une robe~rouge~courte et  des~grosses  bottes~noires 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker509: [And~a~hat]!    
+~            et~un~chapeau  
+- And a cat
++ And a hat
+- In the hat
+
+[LINE]
+> Lily gives   Lucy a  hat.    
+~ Lily donne~à Lucy un chapeau 
+
+[LINE]
+Speaker509: No!  A  yellow~hat!   
+~           non  un chapeau~jaune 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+> Lily gives   Lucy [a  yellow~hat].   
+~ Lily donne~à Lucy  un chapeau~jaune  
+- a  red~hat      
+~ un chapeau~rouge
+- a   yellow~dress
+~ une robe~jaune  
++ a  yellow~hat   
+~ un chapeau~jaune
+
+[LINE]
+Speaker509: Perfect! Now        I'm     ready for  my  vacation!
+~           parfait  maintenant je~suis prête pour mes vacances 
+
+[LINE]
+Speaker416: Now        I~need         a~vacation.
+~           maintenant j'ai~besoin~de vacances   
+
+[MULTIPLE_CHOICE]
+> Pauvre Lily ! Pourquoi a-t-elle besoin de vacances ?
+- Elle a beaucoup de nouveaux vêtements à porter.
++ Elle est fatiguée d'avoir aidé Lucy à trouver des vêtements.
+- Elle a trop mangé à midi.
+
+[MATCH]
+> Choisis les paires
+- dress <> robe
+- Lily <> Lily
+- short, red dress <> robe rouge courte
+- Ugh <> pouah
+- No <> non
+
