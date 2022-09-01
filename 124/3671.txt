@@ -1,0 +1,159 @@
+[DATA]
+fromLanguageName=Demander son chemin
+icon=0699ccdd9abbb4922a33be28cf6143a530843cc1
+set=26|4
+
+[HEADER]
+> Asking~for Directions
+~ demander   son~chemin
+
+[LINE]
+> Lin and Bea are~looking~for a  restaurant in   a   small  town. 
+~ Lin et  Bea cherchent       un restaurant dans une petite ville 
+
+[LINE]
+Speaker507: I'm     tired    of walking, and I'm~really~hungry! 
+~           je~suis fatiguée de marcher  et  j'ai~vraiment~faim 
+
+[LINE]
+Speaker508: I  think     it's  somewhere    in   this area.
+~           je pense~que c'est quelque~part dans ce   coin 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker508: Everyone      says    [their~food~is~amazing].         
+~           tout~le~monde dit~que  leur~nourriture~est~incroyable  
+- their food is so lazy
++ their food is amazing
+- your mood is amazing
+
+[LINE]
+Speaker507: We   need   to~ask~for directions.  
+~           nous devons demander   notre~chemin 
+
+[LINE]
+> They  stop     a   woman on~the~street.
+~ elles arrêtent une femme dans~la~rue   
+
+[LINE]
+Speaker507: Can~you~please~give~us~directions~to     Cecil's~Restaurant? 
+~           pourriez-vous~nous~indiquer~le~chemin~du Restaurant~de~Cecil 
+
+[LINE]
+Speaker1187: Sure!     Turn    left     at~the end  of this  street.
+~            bien~sûr  tournez à~gauche au     bout de cette rue    
+
+[LINE]
+Speaker1187: Then,    you  will~see a  very attractive man   sitting in~front~of a   red~house.    Turn    right    there.
+~            ensuite  vous verrez   un très bel        homme assis   devant      une maison~rouge  tournez à~droite là    
+
+[MULTIPLE_CHOICE]
+> Où Lin et Bea doivent-elles tourner à droite ?
+- Après l'homme très laid devant la maison bleue.
+- Au niveau du restaurant au bout de la rue.
++ Après le bel homme devant la maison rouge.
+
+[LINE]
+Speaker508: Thanks.
+~           merci  
+
+[LINE]
+> They  turn     left.    
+~ elles tournent à~gauche 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+> [(They)  (walk~down)  (the~street) (for)     (fifteen~minutes).]
+~   elles   descendent   la~rue       pendant   quinze~minutes    
+
+[LINE]
+> Finally, they  see    a  man   sitting outside       of~a  red~house.   
+~ enfin    elles voient un homme assis   à~l'extérieur d'une maison~rouge 
+
+[LINE]
+Speaker508: Is~that the~man?
+~           est-ce  l'homme 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker507: No,  she  said  he    was   [very attractive].
+~           non  elle a~dit qu'il était  très beau        
+- really   hungry
+~ vraiment affamé
+- very red  
+~ très rouge
++ very attractive
+~ très beau      
+
+[LINE]
+Speaker508: He is  attractive!
+~           il est beau       
+
+[LINE]
+Speaker507: But  he's~not     very attractive…
+~           mais il~n'est~pas très beau       
+
+[LINE]
+Speaker508: Oh. Maybe         you're~right.
+~           oh  peut-être~que tu~as~raison 
+
+[LINE]
+Speaker3135: Excuse~me, I  can~hear~you.      
+~            pardon     je peux~vous~entendre 
+
+[LINE]
+Speaker507: Oops, sorry.  
+~           oups  désolée 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Bea vient-elle de s'excuser ?
++ L'homme l'a entendue dire qu'il n'était pas très beau.
+- Elle a oublié où elle allait.
+- Elle a marché sur le pied de Lin sans le faire exprès.
+
+[LINE]
+Speaker508: Are~we      close~to Cecil's~Restaurant? 
+~           sommes-nous près~du  Restaurant~de~Cecil 
+
+[LINE]
+Speaker3135: No,  it's  three   miles from~here.
+~            non  c'est à~trois miles d'ici     
+
+[LINE]
+Speaker508: Are~you   sure?
+~           vous~êtes sûr  
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker3135: Yes. I'm     [a~cook~there].    
+~            oui  je~suis  cuisinier~là-bas  
+- the book there
+- to look there
++ a cook there
+
+[LINE]
+Speaker507: Great!  Can~you~make~me      a  sandwich? I'm~so~hungry!      
+~           génial  pouvez~vous~me~faire un sandwich  j'ai~tellement~faim 
+
+[LINE]
+Speaker3135: No,  you  said         I  wasn't      attractive.
+~            non  vous avez~dit~que je n'étais~pas beau       
+
+[LINE]
+Speaker507: Well,    that~was   before~I~found~out    you  can~cook.       
+~           eh~bien  ça~c'était avant~d'apprendre~que vous saviez~cuisiner 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Bea a-t-elle demandé à l'homme de lui faire un sandwich ?
++ Il est cuisinier au Cecil's Restaurant.
+- Il a beaucoup de pain et de fromage.
+- Elle lui a d'abord fait un sandwich.
+
+[MATCH]
+> Choisis les paires
+- red house <> maison rouge
+- walk down <> descendent
+- need <> devons
+- They <> elles
+- see <> voient
+
