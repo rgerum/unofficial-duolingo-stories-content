@@ -1,0 +1,206 @@
+[DATA]
+fromLanguageName=The Teapot
+icon=364bddf1e2cbd39437d61f97a9961df4badf4af8
+set=36|4
+
+[HEADER]
+> Die Teekanne
+~ the teapot  
+
+[LINE]
+> Lucy gibt  ihrer Enkelin       Lin ein Geschenk.
+~ Lucy gives her   granddaughter Lin a   present  
+
+[LINE]
+Speaker508: Oh, was  ist das?  Ist es die Jacke,  die  ich~mir~gewünscht~habe?
+~           oh  what is  this  is  it the jacket  that I~wanted               
+
+[LINE]
+Speaker509: Öffne~es~einfach.
+~           just~open~it     
+
+[LINE]
+> Lin öffnet das Geschenk.
+~ Lin opens  the present  
+
+[POINT_TO_PHRASE]
+> Wähle  die Option mit~der~Bedeutung „dusty|“.
+~ choose the option meaning            dusty ~ 
+Speaker508: Oh … (Eine) (alte), (+verstaubte) (Teekanne).
+~           oh    an     old      dusty        teapot    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: Diese Teekanne gehörte     meiner Großmutter.  Jetzt [sollst~du~sie~haben].
+~           this  teapot   belonged~to my     grandmother  now    you~shall~have~it    
+- sollst du nie baden
+- rollst du in den Graben
++ sollst du sie haben
+
+[LINE]
+Speaker508: Aber sie hat~sie~dir~geschenkt. Du  solltest sie~behalten.
+~           but  she gave~it~to~you         you should   keep~it      
+
+[LINE]
+Speaker509: Jetzt ist~sie deine!
+~           now   it's    yours 
+
+[LINE]
+Speaker508: Ich habe~Angst, sie~zu~zerbrechen.
+~           I   am~scared   of~breaking~it    
+
+[LINE]
+Speaker509: Nein, das~wirst~du~nicht~tun. Ich vertraue dir.
+~           no    you~won't~do~that       I   trust    you 
+
+[LINE]
+Speaker508: Aber … sie ist so hässlich!
+~           but    it  is  so ugly     
+
+[LINE]
+Speaker509: Ich weiß, aber meine Großmutter  hat sie meiner Mutter zur~Hochzeit    geschenkt.
+~           I   know  but  my    grandmother has it  to~my  mother for~her~wedding given     
+
+[CONTINUATION]
+> Was  kommt als~Nächstes?
+~ what comes next         
+Speaker509: Und dann hat meine Mutter sie mir   [zur~Hochzeit~geschenkt].
+~           and then has my    mother it  to~me  for~my~wedding~given    
+- auf~den~Kopf gestellt
+~ on~my~head   put     
+- zur Mittagspause geschenkt
+~ for lunch~break  given    
++ zur~Hochzeit~geschenkt
+~ for~my~wedding~given  
+
+[LINE]
+Speaker508: OK, aber ich heirate~heute~nicht.         
+~           OK  but  I   am~not~getting~married~today 
+
+[LINE]
+Speaker509: Ich weiß. Und du  wirst wahrscheinlich nie   heiraten,    weil    du  nicht~weißt, was  du  willst.
+~           I   know  and you will  probably       never get~married  because you don't~know   what you want   
+
+[MULTIPLE_CHOICE]
+> Warum denkt~Lucy,      dass Lin nie~heiraten~wird?     
+~ why   does~Lucy~think  that Lin will~never~get~married 
+- Sie arbeitet die ganze Zeit.
+~ she works    the whole time 
++ Sie kann sich~nie~entscheiden.
+~ she can  never~decide         
+- Sie verbringt zu  viel Zeit mit ihrem Handy.     
+~ she spends    too much time on  her   cell~phone 
+
+[LINE]
+Speaker508: Was? 
+~           what 
+
+[ARRANGE]
+> Tap what you hear
+Speaker509: [(Also), (willst~du)   (die~Teekanne) (oder) (nicht)?]
+~             so      do~you~want   the~teapot     or     not     
+
+[LINE]
+Speaker508: Nein, jetzt will~ich~sie~nicht mehr.   
+~           no    now   I~don't~want~it    anymore 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker508: Gib  sie Oscar.      Er trinkt Tee und [mag~alte~Sachen]. 
+~           give it  (to)~Oscar  he drinks tea and  likes~old~things  
++ mag alte Sachen
+- mag bemalte Kacheln
+- mag kalte Drachen
+
+[LINE]
+Speaker509: Oh, gute Idee!
+~           oh  good idea 
+
+[LINE]
+> Später gibt~Lucy  Oscar die Teekanne.
+~ later  Lucy~gives Oscar the teapot   
+
+[LINE]
+Speaker592: Danke!     Sie ist wunderschön!
+~           thank~you  it  is  beautiful   
+
+[LINE]
+> Plötzlich läuft~Lin zu ihnen.
+~ suddenly  Lin~runs  to them  
+
+[CONTINUATION]
+> Was  kommt als~Nächstes?
+~ what comes next         
+Speaker508: Oma,     ich habe meine~Meinung~geändert! Ich möchte     [die~Teekanne~doch~behalten]!  
+~           grandma  I   have changed~my~mind         I   would~like  to~keep~the~teapot~after~all  
+- eine~alte~Jacke~haben
+~ to~have~an~old~jacket
++ die~Teekanne~doch~behalten  
+~ to~keep~the~teapot~after~all
+- mir~ein~neues~Schwein~kaufen
+~ to~buy~myself~a~new~pig     
+
+[LINE]
+Speaker509: Tut~mir~leid, aber sie gehört  jetzt Oscar.     
+~           I'm~sorry     but  it  belongs now   (to)~Oscar 
+
+[LINE]
+Speaker509: Siehst~du, du  weißt~nicht, was  du  willst!
+~           see        you don't~know   what you want   
+
+[LINE]
+Speaker508: Aber ich habe im~Internet~recherchiert, Oma!     Die Teekanne ist wertvoll!   
+~           but  I   have done~research~online      grandma  the teapot   is  worth~money 
+
+[MULTIPLE_CHOICE]
+> Warum will~Lin~die~Teekanne~jetzt~doch~behalten?     
+~ why   does~Lin~now~want~to~keep~the~teapot~after~all 
+- Sie findet sie wunderschön.
+~ she finds  it  beautiful   
++ Sie ist sehr~viel~wert.      
+~ it  is  worth~a~lot~of~money 
+- Sie sammelt  Teekannen.
+~ she collects teapots   
+
+[LINE]
+Speaker509: Wirklich?
+~           really   
+
+[LINE]
+Speaker592: Zu  spät! Lucy hat sie~mir~geschenkt.
+~           too late  Lucy has given~it~to~me    
+
+[LINE]
+Speaker508: Das  ist nicht fair! Sie war mein Hochzeitsgeschenk!
+~           that is  not   fair  it  was my   wedding~gift      
+
+[LINE]
+Speaker592: Lin, wenn du  jemals heiratest,   werde~ich sie~dir~schenken.
+~           Lin  if   you ever   get~married  I'll      give~it~to~you   
+
+[LINE]
+Speaker509: Keine~Sorge, das  wird~nicht passieren.
+~           don't~worry  that won't      happen    
+
+[LINE]
+Speaker592: Ich weiß.~Möchte~jemand    Tee?       
+~           I   know would~anyone~like (some)~tea 
+
+[MULTIPLE_CHOICE]
+> Wann will~Oscar~Lin~die~Teekanne~geben?        
+~ when does~Oscar~want~to~give~the~teapot~to~Lin 
++ An dem Tag, an~dem sie heiratet.    
+~ on the day  when   she gets~married 
+- Zu  ihrem nächsten Geburtstag.
+~ for her   next     birthday   
+- Wenn sie einen~besseren~Tee~macht als  Oscar.
+~ if   she makes~better~tea         than Oscar 
+
+[MATCH]
+> Tap the pairs
+- gibt <> gives
+- Und <> and
+- solltest <> should
+- sie dir schenken <> give it to you
+- die Teekanne <> the teapot
+
