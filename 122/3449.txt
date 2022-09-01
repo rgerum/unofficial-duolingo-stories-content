@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=Finden Sie meine Freundin
+icon=0d18f0403cfa415591d7ef50a9e9c01f1094936e
+set=3|4
+
+[HEADER]
+> Find       My    Girlfriend
+~ finden~Sie meine Freundin  
+
+[LINE]
+> Bea is  at~the airport.  
+~ Bea ist am     Flughafen 
+
+[LINE]
+> She talks to  the man  at~the desk.    
+~ sie redet mit dem Mann am     Schalter 
+
+[LINE]
+Speaker823: Hello! Can  I   help~you?    
+~           hallo  kann ich Ihnen~helfen 
+
+[LINE]
+Speaker507: Yes! I'm~going  to   Barcelona…
+~           ja   ich~fliege nach Barcelona 
+
+[LINE]
+Speaker507: I   want to~sit~next~to~my~girlfriend on~the~plane.
+~           ich will neben~meiner~Freundin~sitzen im~Flugzeug  
+
+[MULTIPLE_CHOICE]
+> Bea will im Flugzeug neben ihrer Mutter sitzen.
++ Nein, das ist falsch.
+- Ja, das ist richtig.
+
+[LINE]
+Speaker823: OK, we  have  two  seats      together.     
+~           OK  wir haben zwei Sitzplätze nebeneinander 
+
+[MULTIPLE_CHOICE]
+> Der Angestellte sagt zu Bea, dass …
+- … es im Flugzeug keine freien Plätze gibt.
+- … es im Flugzeug nur zwei Plätze gibt.
++ … es im Flugzeug zwei Plätze nebeneinander gibt.
+
+[LINE]
+Speaker507: Great!    
+~           großartig 
+
+[LINE]
+Speaker823: Um…  where is  your girlfriend?
+~           ähm  wo    ist Ihre Freundin   
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „sie zu finden“.
+Speaker507: I   (don't~know).    (Can)    you (help~me)    (+find~her)?     
+~           ich  weiß~es~nicht    können  Sie  mir~helfen    sie~zu~finden  
+
+[LINE]
+Speaker823: What~does~she~look~like?
+~           wie~sieht~sie~aus       
+
+[LINE]
+Speaker507: Hmm. She is  tall. She has dark   hair… 
+~           hmm  sie ist groß  sie hat dunkle Haare 
+
+[LINE]
+Speaker823: OK.
+~           OK 
+
+[LINE]
+Speaker507: She loves sports and cooking…
+~           sie liebt Sport  und Kochen  
+
+[LINE]
+Speaker823: Uh…
+~           äh 
+
+[LINE]
+Speaker507: She loves animals… but  she drives too fast.   
+~           sie liebt Tiere    aber sie fährt  zu  schnell 
+
+[LINE]
+Speaker823: OK… What is  her name?
+~           OK  wie  ist ihr Name 
+
+[MULTIPLE_CHOICE]
+> Warum stellt der Angestellte Fragen zu Beas Freundin?
+- Er und Bea sind sehr gute Freunde.
+- Er will mit ihr Sport treiben.
++ Er versucht Bea dabei zu helfen, sie zu finden.
+
+[LINE]
+Speaker507: Oh. I~don't~know.      
+~           oh  das~weiß~ich~nicht 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker823: You don't~know   [your~girlfriend's~name]?  
+~           Sie kennen~nicht  den~Namen~Ihrer~Freundin  
+- your girlfriend's game
++ your girlfriend's name
+- your good friends' names
+
+[LINE]
+Speaker507: I   don't~have~a~girlfriend~yet.
+~           ich habe~noch~keine~Freundin    
+
+[LINE]
+Speaker507: Can    you help~me    find~one?      
+~           können Sie mir~helfen eine~zu~finden 
+
+[MULTIPLE_CHOICE]
+> Bea wollte, dass der Angestellte sie neben …
+- … ihren Vater setzt.
++ … eine mögliche neue Freundin setzt.
+- … ein Fenster setzt.
+
+[MATCH]
+> Wähle die Paare
+- I don't know <> das weiß ich nicht
+- but <> aber
+- I'm going <> ich fliege
+- fast <> schnell
+- OK <> OK
+
