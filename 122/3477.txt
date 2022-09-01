@@ -1,0 +1,103 @@
+[DATA]
+fromLanguageName=Freier Tag
+icon=5450714ebd6e5c59daf764d85a8fc7f9edb1c23a
+set=10|4
+
+[HEADER]
+> Day~Off   
+~ freier~Tag
+
+[LINE]
+> Vikram is~making tea in the kitchen.
+~ Vikram macht     Tee in der Küche   
+
+[LINE]
+> His   wife,    Priti, walks into the room.  
+~ seine Ehefrau  Priti  geht  in   das Zimmer 
+
+[LINE]
+Speaker560: Good  morning, Vikram!
+~           guten Morgen   Vikram 
+
+[LINE]
+Speaker593: Wait…   why   are  you home?     It's   Tuesday. 
+~           Moment  warum bist du  zu~Hause  es~ist Dienstag 
+
+[LINE]
+Speaker560: I'm~not~working   today! I   have a     day~off!   
+~           ich~arbeite~nicht heute  ich habe einen freien~Tag 
+
+[MULTIPLE_CHOICE]
+> Priti hat sich den Tag freigenommen.
++ Ja, das ist richtig.
+- Nein, das ist falsch.
+
+[LINE]
+Speaker560: I'm     excited.   I   want to~do~so~many~things!  
+~           ich~bin aufgeregt  ich will so~viele~Sachen~machen 
+
+[LINE]
+> Priti goes to~the gym.          
+~ Priti geht ins    Fitnessstudio 
+
+[LINE]
+> Then, she~visits  a   museum.
+~ dann  besucht~sie ein Museum 
+
+[MULTIPLE_CHOICE]
+> Priti ist …
++ … ins Fitnessstudio und ins Museum gegangen.
+- … ins Museum und ins Kino gegangen.
+- … zur Arbeit gegangen.
+
+[LINE]
+> When she gets~home,        Priti~reads a   book in~the garden.
+~ als  sie nach~Hause~kommt  liest~Priti ein Buch im     Garten 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker593: Hi, honey!  Are~you~having [a~nice~day]?       
+~           hi  Schatz  hast~du         einen~schönen~Tag  
+- a nice way
+- a rice tray
++ a nice day
+
+[LINE]
+Speaker560: Yes! But  let's    make~dinner       now!  
+~           ja   aber lass~uns Abendessen~machen jetzt 
+
+[LINE]
+Speaker593: Dinner?     But  it's   only 2~p.m.           
+~           Abendessen  aber es~ist erst 2~Uhr~nachmittags
+
+[LINE]
+Speaker560: It's   so early. What can  I   do  now?  
+~           es~ist so früh   was  kann ich tun jetzt 
+
+[LINE]
+Speaker593: You can    sit    and relax.          
+~           du  kannst sitzen und dich~entspannen 
+
+[ARRANGE]
+> Was hörst du?
+> [(Priti) (sits)  (for) (a)    (minute).]
+~   Priti   sitzt   für   eine   Minute   
+
+[LINE]
+Speaker560: Relaxing   is  boring.     I'm~going to  work.  
+~           Entspannen ist langweilig  ich~gehe  zur Arbeit 
+
+[MULTIPLE_CHOICE]
+> Warum ist Priti am Ende doch zur Arbeit gegangen?
+- Sie wollte das Abendessen nicht kochen.
++ Ihr wird langweilig, wenn sie versucht, sich zu entspannen.
+- Ihr ist eingefallen, dass sie noch viel zu tun hat.
+
+[MATCH]
+> Wähle die Paare
+- honey <> Schatz
+- to the <> ins
+- I <> ich
+- Wait <> Moment
+- garden <> Garten
+
