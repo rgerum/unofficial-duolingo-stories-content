@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Pizza Night
+icon=dcb1760c8fe5f2221fc2e3bc373a13632881ae44
+set=16|2
+
+[HEADER]
+> Soirée~pizza
+~ pizza~night 
+
+[LINE]
+Speaker414: Junior ! Qu'est-ce  que  tu~veux  manger ?
+~           Junior   what~is~it that you~want to~eat  
+
+[LINE]
+Speaker415: Une pizza. J'ai~huit~ans.       Je veux~toujours~des~pizzas.
+~           a   pizza  I'm~eight~years~old  I  always~want~pizza        
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Super   ! [On~peut~faire] une pizza !
+~           awesome    we~can~make    a   pizza  
+- Un peu clair
++ On peut faire
+- On a l'air
+
+[LINE]
+Speaker415: Ou… on peut~acheter une pizza !
+~           or  we can~buy      a   pizza  
+
+[LINE]
+Speaker414: Mais préparer une pizza, c'est  plus amusant.
+~           but  making   a   pizza  that's more fun     
+
+[LINE]
+Speaker415: Amusant pour qui ?
+~           fun     for  who  
+
+[LINE]
+Speaker414: Amusant pour nous !
+~           fun     for  us    
+
+[LINE]
+Speaker415: D'accord, Papa… Qu'est-ce  qu'|  on~doit~faire ?
+~           OK        dad   what~is~it that  we~have~to~do  
+
+[POINT_TO_PHRASE]
+> Choose the option that means "flour."
+Speaker414: Tu  peux~aller~chercher (de~la) (+farine), (de~l'|) (eau)   et  du   sel  ?
+~           you can~go~get           some     flour     some     water  and some salt  
+
+[LINE]
+Speaker415: D'accord.
+~           OK       
+
+[LINE]
+Speaker414: On va~tout~mélanger…           
+~           we are~going~to~mix~everything 
+
+[LINE]
+> Ils  mélangent la  farine, l'eau     et  le  sel. 
+~ they mix       the flour   the~water and the salt 
+
+[MULTIPLE_CHOICE]
+> Wait… what are Eddy and Junior mixing?
+- tomatoes, water, and oil
+- salt, butter, and sugar
++ flour, water, and salt
+
+[LINE]
+Speaker415: C'est   difficile... et  j'ai~faim  !
+~           this~is difficult    and I'm~hungry  
+
+[LINE]
+Speaker414: OK. Et  maintenant, on attend.
+~           OK  and now         we wait   
+
+[LINE]
+Speaker415: On doit~attendre ?!
+~           we have~to~wait    
+
+[LINE]
+Speaker414: La  pâte  n'est~pas~encore~prête.
+~           the dough is~not~ready~yet       
+
+[MULTIPLE_CHOICE]
+> The dough is ready.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker415: Il~faut~attendre combien~de~temps ?
+~           we~must~wait     for~how~long      
+
+[LINE]
+Speaker414: Euh… deux heures.
+~           uh   two  hours  
+
+[LINE]
+> Junior regarde  Eddy.
+~ Junior looks~at Eddy 
+
+[LINE]
+Speaker414: Je vais~acheter    une pizza.
+~           I  am~going~to~buy a   pizza 
+
+[LINE]
+Speaker415: Tu  es  le  meilleur, Papa !
+~           you are the best      Dad   
+
+[MULTIPLE_CHOICE]
+> Why did Eddy decide to buy a pizza?
+- Junior ate all the dough.
+- He didn't have the right ingredients.
++ Making pizza takes too long.
+
+[MATCH]
+> Tap the pairs
+- pizza <> pizza
+- Papa <> dad
+- Qu'est-ce <> what is it
+- on doit faire <> we have to do
+- qui <> who
+
