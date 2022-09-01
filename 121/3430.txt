@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=Junior's Choice
+icon=53bded8a873131832543feb9e1a3f4c7ffeb74e0
+set=6|3
+
+[HEADER]
+> ジュニアの               せんたく            
+~ Junior's~[junia~no] choice~[sentaku]
+
+[LINE]
+> ジュニアは             いま|、がっこうの                       カフェテリア                      に~います。           
+~ Junior~[junia~wa] now~[ima]  school's~[gakkou~no] (the)~cafeteria~[kafeteria] is~at~[ni~imasu] 
+
+[LINE]
+> かれは          カフェテリア                      で~はたらいている                              すずきさん                   に~はなしかけます。                    
+~ he~[kare~wa] (the)~cafeteria~[kafeteria] (who)~is~working~at~[de~hataraite~iru] Ms.~Suzuki~[suzuki-san] talks~to~[ni~hanashikakemasu] 
+
+[CONTINUATION]
+> What comes next?
+Speaker415: すずきさん|、こんにちは|！きょうの                                               おひるごはんは                      [なん         ですか]？              
+~           Ms.~Suzuki~[suzuki-san]  hello~[konnichiwa]  for~today~[kyou~no] (the)~lunch~[ohiru-gohan~wa]  what~[nan] is~(it)~[desu~ka]  
+- さんすう          ですか              
+~ math~[sansuu] is~(it)~[desu~ka]
++ なん         ですか              
+~ what~[nan] is~(it)~[desu~ka]
+- フットボール                 ですか              
+~ football~[futto-booru] is~(it)~[desu~ka]
+
+[POINT_TO_PHRASE]
+> Choose the option that means “lunch.”
+Speaker395: (こんにちは|)、(ジュニアくん|)！(きょうの)                                         (+おひるごはんは)                さかな           ですよ。         
+~            hello~[k onnichiwa ]    Junior~[junia-kun]  for~today~[kyou~no]    lunch~[ohiru-gohan~wa]  fish~[sakana] is~[desu~yo] 
+
+[LINE]
+Speaker395: つけあわせで                              サラダ                か       フライドポテト                を~えらんでね。                    
+~           for~(the)~side~dish~[tsukeawase~de] (a)~salad~[sarada] or~[ka] fries~[furaido-poteto] please~choose~[o~erande~ne] 
+
+[LINE]
+Speaker415: わあ|、フライドポテトも                              サラダも                  だいすき！              
+~           wow~[waa]  both~fries~[furaido-poteto~mo] and~salad~[sarada~mo] (I)~love~[daisuki] 
+
+[LINE]
+Speaker395: ジュニアくん|、ひとつ                       だけ          えらんでね。                    
+~           Junior~[junia-kun]  one~[hitotsu] only~[dake] please~choose~[erande~ne] 
+
+[MULTIPLE_CHOICE]
+> Ms. Suzuki is saying that Junior can have…
+- …fries and salad.
++ …fries or salad.
+- …a pancake.
+
+[LINE]
+Speaker415: う～ん|、フライドポテトは                        おいしい                     けど|、サラダは                          けんこうにいい                     からなあ…               
+~           hmm~[uun]  fries~[furaido-poteto~wa] (are)~delicious~[oishii] but~[kedo]  (a)~salad~[sarada~wa] (is)~healthy~[kenkou~ni~ii] you~know~[kara~naa] 
+
+[MULTIPLE_CHOICE]
+> Junior thinks that salads are healthy.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker395: ジュニアくん...            
+~           Junior~[junia-kun]   
+
+[LINE]
+Speaker415: でも|、どちらか                        ひとつ           を~えらばなくちゃ…                          
+~           but~[demo]  either~[dochira~ka] one~[hitotsu] (I)~have~to~choose~[o~erabanakucha] 
+
+[LINE]
+Speaker415: フライドポテト                      に~します！                    … いや|、やっぱり                     サラダ                  に~します！                   
+~           (the)~fries~[furaido-poteto] (I'll)~have~[ni~shimasu]    no~[iya]  actually~[yappari] (the)~salad~[sarada] (I'll)~have~[ni~shimasu] 
+
+[LINE]
+Speaker415: うわあ|、どうしよう？                               
+~           ahh~[uwaa]  what~should~I~do~[dou~shiyou] 
+
+[LINE]
+Speaker415: もう|、わからないよ！                                  
+~           anymore~[mou]  (I)~don't~know~[wakaranai~yo] 
+
+[MULTIPLE_CHOICE]
+> Poor Junior! What problem does he have?
+- He ate too many fries.
++ He can't choose between a salad and fries.
+- He wants ice cream in his salad.
+
+[LINE]
+Speaker395: ジュニアくん！            
+~           Junior~[junia-kun] 
+
+[LINE]
+Speaker415: えっ|？なん               ですか？              
+~           huh~[e']  what~[nan] is~(it)~[desu~ka] 
+
+[LINE]
+Speaker395: はい|、これ|！フライドポテト~も                                                    サラダ~も                       どうぞ。         
+~           here~[hai]  (have)~this~[kore]  both~(the)~fries~[furaido-poteto~mo] and~(the)~salad~[sarada~mo] take~[douzo] 
+
+[MULTIPLE_CHOICE]
+> What did Ms. Suzuki tell Junior to do?
+- Imagine that fries are salad.
+- Go somewhere else to eat.
++ Take both the fries and the salad.
+
+[MATCH]
+> Tap the pairs
+- もう <> anymore [mou]
+- きょうの <> for today [kyou no]
+- に します <> have [ni shimasu]
+- けど <> but [kedo]
+- ですよ <> is [desu yo]
+
