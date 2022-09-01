@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Lilli Takes out the Trash
+icon=91374b52bec2926cece039bf27f69b75c8b4be87
+set=33|1
+
+[HEADER]
+> Lilli bringt den Müll  raus
+~ Lilli takes  the trash out 
+
+[LINE]
+> Lucy kommt~aus  ihrer Wohnung.  
+~ Lucy is~leaving her   apartment 
+
+[LINE]
+> Sie sieht Lilli, die gerade    einen Teppich, eine Lampe und einen großen Fernseher nach~draußen trägt.      
+~ she sees  Lilli  who right~now a     carpet   a    lamp  and a     big    TV        outside      is~carrying 
+
+[LINE]
+Speaker509: Ziehst~du~um?  
+~           are~you~moving 
+
+[LINE]
+Speaker416: Nein.
+~           no   
+
+[MULTIPLE_CHOICE]
+> Lilli is moving to a new apartment.
++ No, that's wrong.
+- Yes, that's right.
+
+[ARRANGE]
+> Tap what you hear
+Speaker509: [(Verkaufst~du)    (diese) (Sachen)?]
+~             are~you~selling   these   things   
+
+[LINE]
+Speaker416: Nein.
+~           no   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: Warum stellst~du~sie~dann  [vor~die~Tür]?         
+~           why   are~you~putting~them  in~front~of~the~door  
++ vor die Tür
+- an mein Ohr
+- unter die Tür
+
+[LINE]
+Speaker416: Meine Mutter hat~gesagt, ich soll   den~Müll~rausbringen.
+~           my    mother said        I   should take~out~the~trash   
+
+[LINE]
+Speaker509: Ich glaube, das~meinte~sie anders.     
+~           I   think   she~meant~that differently 
+
+[LINE]
+Speaker509: Der Teppich ist ganz   neu.
+~           the carpet  is  really new 
+
+[MULTIPLE_CHOICE]
+> Why doesn't Lucy think the carpet is trash?
++ It is new.
+- It is beautiful.
+- It is outside.
+
+[POINT_TO_PHRASE]
+> Choose the option that means “wet dog.”
+Speaker416: Der (Teppich) (stinkt) nach (+nassem~Hund). Und wir haben (keinen) Hund.
+~           the  carpet    stinks  of     wet~dog       and we  have   no      dog  
+
+[LINE]
+Speaker509: Er stinkt~wirklich.   Und die Lampe?
+~           it really~does~stink  and the lamp  
+
+[LINE]
+Speaker416: Ich sitze~lieber  im     Dunkeln.
+~           I   prefer~to~sit in~the dark    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: Aber der Fernseher ist kein Müll.  Der war [bestimmt~teuer]!      
+~           but  the TV        is  no   trash  it  was  definitely~expensive  
+- bestimmt nicht teuer
++ bestimmt teuer
+- aus dem Feuer
+
+[LINE]
+Speaker416: Sehen~Sie~manchmal~fern?   Das  ist der schlimmste Müll. 
+~           do~you~sometimes~watch~TV  that is  the worst      trash 
+
+[LINE]
+Speaker416: In jeder Sendung geht~es~um Geld,  Mord   oder Kuchen.
+~           in every show    it's~about money  murder or   cake   
+
+[LINE]
+Speaker509: Das~stimmt,  aber deine Mutter wird~bestimmt       wütend, wenn sie das~sieht.
+~           that's~true  but  your  mother will~definitely~get upset   when she sees~this 
+
+[LINE]
+Speaker416: Wahrscheinlich, aber wenigstens wird~sie~mir~nie wieder~sagen,  dass ich den~Müll~rausbringen~soll.
+~           probably        but  at~least   she'll~never     tell~me~again  that I   should~take~out~the~trash 
+
+[MULTIPLE_CHOICE]
+> Why will Lilli's mom never ask her to help with the trash again?
+- Lilli's family doesn't have any trash.
++ Lilli is putting things that are not trash outside.
+- Lucy steals everyone's trash.
+
+[MATCH]
+> Tap the pairs
+- ganz <> really
+- stellst du sie dann <> are you putting them
+- das meinte sie <> she meant that
+- das sieht <> sees this
+- nach <> of
+
