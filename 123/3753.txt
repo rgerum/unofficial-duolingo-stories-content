@@ -1,0 +1,119 @@
+[DATA]
+fromLanguageName=La clase de baile
+icon=9a6beecaaea348fb3939a0bda8c064c9d9c79dc5
+set=4|4
+
+[HEADER]
+> Le cours de danse
+~ la clase de baile
+
+[LINE]
+> Eddy arrive au~cours   de danse d'Hélène.  
+~ Eddy llega  a~la~clase de baile de~Hélène  
+
+[LINE]
+Speaker125: Bienvenue   au~cours   !
+~           bienvenidos a~la~clase  
+
+[LINE]
+Speaker125: Vous    êtes  prêts  à    danser ?
+~           ustedes están listos para bailar  
+
+[LINE]
+> Eddy marche vite        en~direction~de la porte. 
+~ Eddy camina rápidamente en~dirección~a  la puerta 
+
+[MULTIPLE_CHOICE]
+> Eddy quiere quedarse en la clase de baile.
++ No, no es así.
+- Sí, así es.
+
+[LINE]
+Speaker125: Excusez-moi !
+~           disculpe     
+
+[LINE]
+Speaker125: Vous~allez~où     ?
+~           adónde~va~(usted)  
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker125: [(Je~sais) (que) (la~danse) (c'est) (difficile).]..
+~             yo~sé     que   el~baile   es      difícil       
+
+[LINE]
+Speaker125: … mais c'est aussi   très sympa     !
+~             pero es    también muy  divertido  
+
+[LINE]
+Speaker414: Oui, mais... il~y~a un problème.
+~           sí   pero    hay    un problema 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker125: [C'est~facile]. Regardez !
+~            es~fácil       mire      
+- C'est tactile 
+- Très fragile
++ C'est facile
+
+[LINE]
+Speaker414: Mais...
+~           pero   
+
+[LINE]
+> Eddy regarde Hélène danser.
+~ Eddy mira~a  Hélène bailar 
+
+[LINE]
+Speaker125: Dansez avec~moi !
+~           baile  conmigo   
+
+[LINE]
+Speaker414: Ah, oui ! C'est sympa     !
+~           ah  sí    es    divertido  
+
+[LINE]
+Speaker125: Je vois que vous~aimez       ça.  
+~           yo veo  que a~usted~le~gusta esto 
+
+[LINE]
+Speaker125: Maintenant, il~y~a encore  un problème ?
+~           ahora~bien  hay    todavía un problema  
+
+[MULTIPLE_CHOICE]
+> Hélène quiere saber…
+- …si Eddy es un profesor de baile.
+- …por qué Eddy es un bailarín tan malo.
++ …si Eddy todavía cree que hay un problema.
+
+[LINE]
+Speaker414: Oui.
+~           sí  
+
+[LINE]
+Speaker125: Je ne~comprends~pas.
+~           yo no~comprendo     
+
+[LINE]
+Speaker414: Ce   n'est~pas mon cours.
+~           esta no~es     mi  clase 
+
+[LINE]
+Speaker414: Mais... c'est plus sympa     que le~cours de cuisine !
+~           pero    es    más  divertida que la~clase de cocina   
+
+[MULTIPLE_CHOICE]
+> ¡Ay! ¿Cuál fue el problema de Eddy?
+- Olvidó usar sus zapatos de baile.
++ Debía ir a la clase de cocina.
+- Solía salir con Hélène.
+
+[MATCH]
+> Selecciona los pares
+- êtes <> están
+- C'est facile <> es fácil
+- au cours <> a la clase
+- d'Hélène <> de Hélène
+- Ah <> ah
+
