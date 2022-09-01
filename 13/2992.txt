@@ -1,0 +1,196 @@
+[DATA]
+fromLanguageName=Bea's Date
+icon=cab4be49323f5dd876f6351e2fb939b328536fa9
+set=53|3
+
+[HEADER]
+> Le~rencard~de~Béa
+~ Béa's~date       
+
+[LINE]
+> Béa est au     restaurant pour un premier rencard.
+~ Béa is  at~the ~          for  a  first   date    
+
+[LINE]
+Speaker507: Salut ! C'est toi Nadia ?
+~           hi      it's  you ~      
+
+[LINE]
+Speaker659: Oh. Oui, c'est moi. Et  toi, tu  dois~être Béa ?
+~           ~   yes  it's  me   and you  you must~be   Béa  
+
+[LINE]
+Speaker507: Oui ! Enchantée        ! Tu  es~déjà~venue~dans ce   restaurant ?
+~           yes   nice~to~meet~you   you already~came~to    this ~           
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker659: J'y~mangeais       souvent avant.  J'ai~arrêté~de~venir après~avoir~vu    un homme [mourir~ici].   
+~           I~used~to~eat~here often   before  I~stopped~coming     after~having~seen a  man    (to)~die~here  
++ mourir ici
+- nourrir ici
+- mourir hippie
+
+[LINE]
+Speaker507: Oh.
+
+[LINE]
+Speaker659: Mais leurs tacos ne~sont~pas~mal.
+~           but  their ~     aren't~bad      
+
+[LINE]
+Speaker507: Euh, OK.
+~           uh   OK 
+
+[ARRANGE]
+> Tap what you hear
+Speaker507: [(Tu)  (as~vu)     (de~bons)  (films)  (récemment) ]?
+~             you   have~seen   any~good   movies   recently     
+
+[LINE]
+Speaker659: Je ne~regarde~pas de~films.   Ça   m'ennuie.
+~           I  don't~watch    any~movies  that bores~me 
+
+[LINE]
+Speaker507: Oh… Alors tu  aimes~lire   ?
+~           ~   so    you like~reading  
+
+[LINE]
+Speaker659: Des~livres ? Non. Ça   prend trop~de  temps.
+~           books        no   that takes too~much time  
+
+[LINE]
+Speaker507: Hmm… Tu  aimes~cuisiner ?
+~           hmm  you like~cooking    
+
+[LINE]
+Speaker659: Non, j'aime~que  les~gens cuisinent pour~moi.
+~           no   I~like~that people   cook      for~me   
+
+[MULTIPLE_CHOICE]
+> On~dirait~que…
+~ it~looks~like 
+- … Nadia aime~beaucoup le~cinéma et  la~littérature.
+~   Nadia loves         movies    and literature     
++ … Nadia n'aime~pas   faire plein de choses.
+~   Nadia doesn't~like to~do a~lot of things 
+- … Nadia veut  cuisiner quelque~chose pour Béa.
+~   Nadia wants to~cook  something     for  Béa 
+
+[LINE]
+Speaker507: OK… Bon…  Parle-moi  de    toi.
+~           OK  well  talk~to~me about you 
+
+[LINE]
+Speaker659: Non, pas pendant un premier rencard. On ne~se~connait~pas     encore~assez, je préfère~attendre.
+~           no   not during  a  first   date     we don't~know~each~other enough~yet    I  prefer~waiting   
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker507: Ah… Tu  as   beaucoup [de rencards ]?
+~           ah  you have a~lot     of dates      
+- de restaurants
+~ of restaurants
+- de films 
+~ of movies
++ de rencards
+~ of dates   
+
+[LINE]
+Speaker659: Je vais à  beaucoup de premiers rencards… mais pas à  beaucoup de seconds.       Je ne~sais~pas pourquoi.
+~           I  go   to a~lot    of first    dates     but  not to a~lot    of second~(ones)  I  don't~know  why      
+
+[LINE]
+Speaker507: Je pense~savoir pourquoi…
+~           I  think~I~know why      
+
+[ARRANGE]
+> Tap what you hear
+Speaker507: [(Je~crois) (que)  (je) (vais)     (rentrer).]   
+~             I~think    that   I    am~going   to~go~home   
+
+[LINE]
+> Béa se~lève pour~partir,       et  remarque une femme.
+~ ~   gets~up in~order~to~leave  and notices  a   woman 
+
+[LINE]
+Speaker507: Oh, non ! C'est mon ex !
+~           ~   no    it's  my  ex  
+
+[LINE]
+> Nadia regarde  la  femme.
+~ ~     looks~at the woman 
+
+[LINE]
+Speaker659: Mais non, c'est mon ex !
+~           but  no   it's  my  ex  
+
+[LINE]
+Speaker507: Tu  es~sortie avec Mélissa ?
+~           you went~out  with ~        
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker659: Oui ! Elle est horrible ! Elle éternue [tellement fort   ]!
+~           yes   she  is  horrible   she  sneezes  so        loudly   
++ tellement fort  
+~ so        loudly
+- très gentiment
+~ very nicely   
+- par     les~oreilles
+~ through her~ears    
+
+[LINE]
+Speaker507: Mais oui !
+~           but  yes  
+
+[LINE]
+Speaker659: Et  si tu  ne~ris~pas  à  ses~blagues, elle les~répète,   mais plus~fort.
+~           and if you don't~laugh to her~jokes    she  repeats~them  but  louder    
+
+[LINE]
+Speaker507: C'est tellement vrai !
+~           it's  so        true  
+
+[LINE]
+Speaker507: Ah, alors, nous avons quelque~chose en commun ! Tu  veux commander à~manger           ?
+~           ah  then   we   have  something     in common   you want to~order  (something)~to~eat  
+
+[MULTIPLE_CHOICE]
+> Pourquoi Béa~veut-elle rester  au     restaurant ?
+~ why      does~Béa~want to~stay at~the restaurant  
+- Elle a~peur    que  son ex-copine     la~voit. 
+~ she  is~afraid that her ex-girlfriend sees~her 
+- Elle a   des  choses~à~dire à  son ex-copine.    
+~ she  has some things~to~say to her ex-girlfriend 
++ Elle pense~pouvoir  discuter     avec Nadia.
+~ she  thinks~she~can (to)~discuss with Nadia 
+
+[LINE]
+Speaker659: Non. Tu  as~l'air un peu    négative.
+~           no   you look     a  little negative 
+
+[LINE]
+Speaker659: Je ne~sors~pas  avec les~gens~négatifs.
+~           I  don't~go~out with negative~people   
+
+[MULTIPLE_CHOICE]
+> Pourquoi Nadia~a         beaucoup de premiers rendez-vous mais pas de deuxièmes   ?
+~ why      does~Nadia~have a~lot    of first    dates       but  not of second~ones  
+- Elle est trop gentille.
+~ she  is  too  kind     
++ Elle n'est~pas sympa.   
+~ she  isn't     friendly 
+- Elle éternue trop fort.  
+~ she  sneezes too  loudly 
+
+[MATCH]
+> Tap the pairs
+- les gens négatifs <> negative people
+- es sortie <> went out
+- films <> movies
+- J'y mangeais <> I used to eat here
+- trop de <> too much
+
