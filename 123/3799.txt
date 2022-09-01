@@ -1,0 +1,104 @@
+[DATA]
+fromLanguageName=Problemas con el carro
+icon=e161ff53b5f470063ac66df2698eddb71232c290
+set=16|2
+
+[HEADER]
+> Problèmes de~voiture  
+~ problemas con~el~carro
+
+[LINE]
+> Eddy est  dans la rue.  
+~ Eddy está en   la calle 
+
+[LINE]
+> Il sort d'une~voiture.
+~ él sale de~un~carro   
+
+[LINE]
+> Vikram marche dans la rue   et voit Eddy.
+~ Vikram camina por  la calle y  ve~a Eddy 
+
+[LINE]
+Speaker593: Tout~va~bien, Eddy ? Tu~as~l'air inquiet.   
+~           todo~bien     Eddy   te~ves      preocupado 
+
+[LINE]
+Speaker414: J'ai~emprunté       cette~voiture à un ami,   mais elle~ne~démarre~pas.
+~           yo~le~pedí~prestado este~carro    a un amigo  pero no~enciende         
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Eddy está preocupado?
+- Él está en el baúl de un carro.
+- Él no sabe dónde está.
++ Él no puede encender el carro que pidió prestado.
+
+[LINE]
+Speaker593: Hmm. Je peux  t'aider  !
+~           mmm  yo puedo ayudarte  
+
+[LINE]
+Speaker414: Non. Ça~va     ! Merci,   Vikram.
+~           no   está~bien   gracias  Vikram 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker593: Mais je sais [quel~est~le~problème].
+~           pero yo sé    cuál~es~el~problema   
+- qui est le même
+- quel est le deuxième
++ quel est le problème
+
+[LINE]
+Speaker414: Vikram, je connais bien les voitures.
+~           Vikram  yo conozco bien los carros   
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker593: [(OK),    (tu) (as~démarré) (la~voiture).]
+~             bueno    tú   encendiste   el~carro     
+
+[LINE]
+Speaker414: Non. Je n'entends~pas le bruit du  moteur.
+~           no   yo no~escucho    el ruido del motor  
+
+[LINE]
+Speaker593: Eddy, c'est  une~voiture électrique. Ça  ne~fait~pas de~bruit, et ça~n'a~pas~besoin d'essence.
+~           Eddy  ese~es un~carro    eléctrico   ese no~hace     ruido     y  no~necesita       gasolina  
+
+[MULTIPLE_CHOICE]
+> El carro es eléctrico, así que…
+- … es extremadamente feo.
++ … no hace ruido y no necesita gasolina.
+- … usa mucha gasolina.
+
+[LINE]
+Speaker414: Mais... j'ai~mis   de~l'essence dans~la~voiture.
+~           pero    yo~le~puse gasolina     al~carro        
+
+[LINE]
+Speaker593: Quoi ?! Où~ça ?
+~           qué     dónde  
+
+[LINE]
+Speaker414: Là.  
+~           allí 
+
+[LINE]
+Speaker593: Oh, non… Eddy, c'est  le coffre !
+~           ay  no   Eddy  ese~es el baúl    
+
+[MULTIPLE_CHOICE]
+> ¿En dónde puso Eddy la gasolina?
++ en el baúl del carro
+- en su motocicleta
+- en el carro de Vikram
+
+[MATCH]
+> Selecciona los pares
+- Ça va <> está bien
+- OK <> bueno
+- inquiet <> preocupado
+- rue <> calle
+- d'une voiture <> de un carro
+
