@@ -1,0 +1,138 @@
+[DATA]
+fromLanguageName=Do You Need Help?
+icon=bef5c43c8220e1f08b5eeea1d574aa9a9d106d6d
+set=6|2
+
+[HEADER]
+> Você~precisa~de ajuda?
+~ do~you~need     help  
+
+[LINE]
+> Lin está na     rua.   
+~ Lin is~  on~the street 
+
+[LINE]
+> Ela vê   um homem perto~de um carro.
+~ she sees a  man   near     a  car   
+
+[LINE]
+> Ele está nervoso.
+~ he  is~  nervous 
+
+[LINE]
+Speaker508: Oi! Você~precisa~de ajuda?
+~           hi  do~you~need     help  
+
+[MULTIPLE_CHOICE]
+> Lin offers help to a man near his car. 
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker127: Meu carro tem um problema.
+~           my  car   has a  problem  
+
+[LINE]
+Speaker127: Posso usar     o~seu telefone, por~favor?
+~           can~I (to)~use your  phone     please    
+
+[CONTINUATION]
+> What comes next?
+> Lin dá    o   telefone [para o   homem].
+~ Lin gives the phone     to   the man    
+- da rua~dela.  
+~ of her~street 
++ para o   homem.
+~ to   the man   
+- para um carro.
+~ to   a  car   
+
+[LINE]
+Speaker508: Sim, mas…
+~           yes  but 
+
+[LINE]
+Speaker127: Um  minuto.
+~           one minute 
+
+[LINE]
+> O   homem usa  o   telefone.
+~ the man   uses the phone    
+
+[LINE]
+Speaker127: É     da       oficina~mecânica?
+~           is~it from~the auto~repair~shop 
+
+[MULTIPLE_CHOICE]
+> The man borrowed Lin's phone so he could…
+- …check the time.
++ …call an auto repair shop.
+- …look through her pictures.
+
+[LINE]
+Speaker127: Meu carro tem um problema.
+~           my  car   has a  problem  
+
+[LINE]
+Speaker508: Hã…  Senhor?
+~           huh  sir    
+
+[LINE]
+> O   homem ignora  Lin.
+~ the man   ignores Lin 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker127: Não, eu não~sei    [onde~eu~estou].
+~           no   I  don't~know  where~I~am     
+- onde e gostou
+- ande eu vou
++ onde eu estou
+
+[LINE]
+Speaker127: Com~licença…
+~           excuse~me   
+
+[LINE]
+Speaker508: Sim?
+~           yes 
+
+[LINE]
+Speaker127: Onde~estamos?
+~           where~are~we 
+
+[ARRANGE]
+> Tap what you hear
+Speaker508: [(Perto~de) (uma) (oficina~mecânica).]
+~             near       an    auto~repair~shop   
+
+[LINE]
+Speaker127: O~quê?!
+~           what   
+
+[LINE]
+Speaker508: Eu trabalho lá.   
+~           I  work     there 
+
+[LINE]
+Speaker508: Sou  mecânica!  
+~           I~am a~mechanic 
+
+[LINE]
+Speaker508: Então… Você~precisa~de ajuda?
+~           so     do~you~need     help  
+
+[MULTIPLE_CHOICE]
+> It turns out that Lin…
++ …works at the auto repair shop.
+- …doesn't know where she is.
+- …needs help buying a new phone.
+
+[MATCH]
+> Tap the pairs
+- o seu <> your
+- ajuda <> help
+- O quê <> what
+- eu <> I
+- uma <> an
+
