@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=A New Coat
+icon=b2702b2974228dcea571f3a27cc4e4dd5b3ade64
+set=1|3
+
+[HEADER]
+> あたらしい           コート             
+~ new~[atarashii] (a)~coat~[kooto]
+
+[LINE]
+> ヴィクラムは               ふくや                         に~います|。ひとりの                                おんなのひとが                 ヴィクラム             に~はなしかけます。                     
+~ Vikram~[vikuramu~wa] (a)~clothing~store~[fukuya] is~in~[ni~imasu]  one~(person)~[hitori~no] woman~[onna~no~hito~ga] Vikram~[vikuramu] talks~to~[ni~hanashikakemasu]  
+
+[LINE]
+Speaker338: あの|、すみません。                      
+~           um~[ano]  excuse~me~[sumimasen] 
+
+[LINE]
+Speaker593: はい。       
+~           yes~[hai] 
+
+[MULTIPLE_CHOICE]
+> A woman in a store says goodbye to Vikram.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker338: おみせのひと                             ですか？                
+~           (a)~shop~assistant~[omise~no~hito] are~(you)~[desu~ka] 
+
+[LINE]
+Speaker593: えっと|、ぼくは…                
+~           uhh~[etto]  I~[boku~wa]  
+
+[LINE]
+Speaker338: よかった|。てつだってくれませんか？                                          
+~           good~[yokatta]  could~you~help~me~[tetsudatte~kuremasen~ka] 
+
+[LINE]
+Speaker338: あたらしい           コート              が~ほしいんです。                   
+~           new~[atarashii] (a)~coat~[kooto] (I)~want~[ga~hoshii~n~desu] 
+
+[ARRANGE]
+> Tap what you hear
+Speaker338: [(この)          (あかい)        (コートは)            (どうですか)？]                  
+~             this~[kono]   red~[akai]   coat~[kooto~wa]   how~about~[dou~desu~ka]   
+
+[LINE]
+Speaker338: それか|、この                   ちゃいろい           コートは            どうですか？                  
+~           or~[sore~ka]  this~[kono] brown~[chairoi] coat~[kooto~wa] how~about~[dou~desu~ka] 
+
+[LINE]
+Speaker593: うーん|、そうですね…。                   
+~           hmm~[uun]  well~[sou~desu~ne]  
+
+[POINT_TO_PHRASE]
+> Choose the option that means “is cheap.”
+Speaker593: (その)          (ちゃいろい)           (コートは)            (+やすいです)。                
+~            that~[sono]   brown~[chairoi]   coat~[kooto~wa]    is~cheap~[yasui~desu]  
+
+[LINE]
+Speaker593: でも|、その                  あかい        コートは            とても           きれいです。                    
+~           but~[demo]  that~[sono] red~[akai] coat~[kooto~wa] very~[totemo] is~beautiful~[kirei~desu] 
+
+[MULTIPLE_CHOICE]
+> Vikram thinks the red coat is…
++ ...beautiful.
+- ...ugly.
+- ...strange.
+
+[LINE]
+Speaker593: そして|、あたたかいです。                               
+~           and~[soshite]  (it)~is~warm~[atatakai~desu] 
+
+[LINE]
+Speaker593: あなたに               ぴったりですよ！                          
+~           for~you~[anata~ni] (it)~is~perfect~[pittari~desu~yo] 
+
+[LINE]
+Speaker338: わかりました|。この                      あかい        コート          に~します！                   
+~           OK~[wakarimashita]  this~[kono] red~[akai] coat~[kooto] (I'll)~take~[ni~shimasu] 
+
+[LINE]
+Speaker338: ありがとうございます！                    
+~           thank~you~[arigatou~gozaimasu] 
+
+[LINE]
+Speaker338: レジは                      どこですか？                  
+~           (the)~checkout~[reji~wa] where~is~[doko~desu~ka] 
+
+[MULTIPLE_CHOICE]
+> The woman is looking for a restroom.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker593: わかりません。                       
+~           (I)~do~not~know~[wakarimasen] 
+
+[LINE]
+Speaker593: ぼくは         この          みせのひと                         では~ありません               から。            
+~           I~[boku~wa] this~[kono] shop~assistant~[mise~no~hito] am~not~[dewa~arimasen] because~[kara] 
+
+[MULTIPLE_CHOICE]
+> What happened in the story?
++ A woman thought Vikram worked at the store.
+- A woman gave Vikram a job at the store.
+- A woman helped Vikram buy a new hat.
+
+[MATCH]
+> Tap the pairs
+- あたらしい <> new [atarashii]
+- えっと <> uhh [etto]
+- ヴィクラムは <> Vikram [vikuramu wa]
+- でも <> but [demo]
+- に します <> take [ni shimasu]
+
