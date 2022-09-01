@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=The Dance Class
+icon=9a6beecaaea348fb3939a0bda8c064c9d9c79dc5
+set=4|4
+
+[HEADER]
+> ダンスの             クラス                 
+~ dance~[dansu~no] (the)~class~[kurasu]
+
+[LINE]
+> エディは          エリザベスの                     きょうしつ                  に~はいります。              
+~ Eddy~[edi~wa] Elizabeth's~[erizabesu~no] classroom~[kyoushitsu] enters~[ni~hairimasu] 
+
+[LINE]
+Speaker125: こんにちは！          
+~           hi~[konnichiwa] 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker125: きょうは            いっしょに               ダンス           [を~しましょう]！                 
+~           today~[kyou~wa] together~[issho~ni] dance~[dansu]  let's~(do)~[o~shimashou]  
+- を すいましょう
++ を しましょう
+- を やめましょう
+
+[LINE]
+> エディは          いそいで             ドア               に~むかって              あるきます。            
+~ Eddy~[edi~wa] quickly~[isoide] (the)~door~[doa] toward~[ni~mukatte] walks~[arukimasu] 
+
+[LINE]
+Speaker125: まって！                  
+~           (please)~wait~[matte] 
+
+[LINE]
+Speaker125: いかないで！              
+~           don't~go~[ikanaide] 
+
+[MULTIPLE_CHOICE]
+> Elizabeth thought Eddy was leaving her class.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker125: ダンスは             むずかしい                       と~おもいますか？                           
+~           dance~[dansu~wa] (is)~difficult~[muzukashii] do~you~think~that~~[to~omoimasu~ka] 
+
+[LINE]
+Speaker125: じつは|、とても                           たのしいんですよ！                        
+~           actually~[jitsu~wa]  very~[totemo] (it)~is~fun~[tanoshii~n~desu~yo] 
+
+[LINE]
+Speaker504: そうですか|。でも|、まちがえたんです。                                                 
+~           OK~[sou~desu~ka]  but~[demo]  (I)~made~a~mistake~[machigaeta~n~desu] 
+
+[CONTINUATION]
+> What comes next?
+Speaker125: だいじょうぶですよ|。ダンスは                                 かんたんです|。わたしを                          [みてください]！                     
+~           (it)~is~OK~[daijoubu~desu~yo]  dance~[dansu~wa] is~easy~[kantan~desu]  me~[watashi~o]  please~watch~[mite~kudasai]  
++ みてください                     
+~ please~watch~[mite~kudasai]
+- かいてください                     
+~ please~write~[kaite~kudasai]
+- きいてください                         
+~ please~listen~to~[kiite~kudasai]
+
+[LINE]
+Speaker504: でも…        
+~           but~[demo] 
+
+[LINE]
+> エディは          エリザベスの                     ダンス           を~みます。             
+~ Eddy~[edi~wa] Elizabeth's~[erizabesu~no] dance~[dansu] watches~[o~mimasu] 
+
+[ARRANGE]
+> Tap what you hear
+Speaker125: [(さあ|)、(わたしと)                        (いっしょに)               (ダンス)           (を~してください)！]                     
+~             now~[ saa]   with~me~[watashi~to]   together~[issho~ni]   dance~[dansu]   please~(do)~[o~shite~kudasai]   
+
+[LINE]
+Speaker504: わあ|、ほんとうに                     たのしいですね！                       
+~           wow~[waa]  really~[hontou~ni] (it)~is~fun~[tanoshii~desu~ne] 
+
+[LINE]
+Speaker125: いまでも             この          クラスは              まちがい                   だった         と~おもいますか？                           
+~           still~[ima~demo] this~[kono] class~[kurasu~wa] (a)~mistake~[machigai] was~[datta] do~you~think~that~~[to~omoimasu~ka] 
+
+[MULTIPLE_CHOICE]
+> Elizabeth wants to know…
+- …if Eddy is a dance teacher.
++ …if Eddy still thinks going to her class was a mistake.
+- …why Eddy is such a terrible dancer.
+
+[LINE]
+Speaker504: はい。       
+~           yes~[hai] 
+
+[LINE]
+Speaker125: ほんとうですか？                
+~           really~[hontou~desu~ka] 
+
+[LINE]
+Speaker504: はい|。ぼくは                へや                を~まちがえたんです。                                    
+~           yes~[hai]  I~[boku~wa] (the)~room~[heya] (I)~made~a~mistake~about~[o~machigaeta~n~desu] 
+
+[LINE]
+Speaker504: でも|、ダンスの                     クラスは                    りょうりの               クラス                  よりも                    たのしいです！                
+~           but~[demo]  dance~[dansu~no] (the)~class~[kurasu~wa] cooking~[ryouri~no] (the)~class~[kurasu] (more~)~than~[yori~mo] is~fun~[tanoshii~desu] 
+
+[MULTIPLE_CHOICE]
+> Oops! What was Eddy's mistake?
++ He was supposed to go to a cooking class.
+- He forgot to wear his dancing shoes.
+- He used to date Elizabeth.
+
+[MATCH]
+> Tap the pairs
+- ダンスは <> dance [dansu wa]
+- クラスは <> class [kurasu wa]
+- ダンス <> dance [dansu]
+- わたしを <> me [watashi o]
+- を みます <> watches [o mimasu]
+
