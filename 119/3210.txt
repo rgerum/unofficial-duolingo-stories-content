@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=The Birthday Party
+icon=157ee2128aba6877452d1ae6518db9c58c9d1d28
+set=11|1
+
+[HEADER]
+> Die Geburtstagsparty
+~ the birthday~party  
+
+[LINE]
+> Eddy schläft.     Junior kommt ins~Schlafzimmer.
+~ Eddy is~sleeping  Junior comes into~the~bedroom 
+
+[LINE]
+Speaker415: Papa! Papa!
+~           dad   dad  
+
+[LINE]
+Speaker414: Was?  Wer? Wo?    Oh. Guten Morgen,  Junior.
+~           what  who  where  oh  good  morning  Junior 
+
+[LINE]
+Speaker415: Papa! Ich freue~mich~so~auf            meine Geburtstagsparty!
+~           dad   I   am~really~looking~forward~to my    birthday~party   
+
+[MULTIPLE_CHOICE]
+> Junior doesn't want a birthday party.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker414: Oh! Ja  … Herzlichen~Glückwunsch~zum~Geburtstag …?
+~           oh  yes   happy~birthday                          
+
+[POINT_TO_PHRASE]
+> Choose the option that means "what kind of."
+Speaker414: (+Was~für)      (eine) (Party) möchtest~du,    (Junior)?
+~             what~kind~of   (a)    party  would~you~like   Junior  
+
+[LINE]
+Speaker415: Ich weiß~nicht!
+~           I   don't~know 
+
+[LINE]
+Speaker415: Aber ich möchte     Eis~essen!        Viel     Eis!      
+~           but  I   would~like to~eat~ice~cream  a~lot~of ice~cream 
+
+[CONTINUATION]
+> What comes next?
+Speaker414: Natürlich, Junior! Es ist dein [Geburtstag]!
+~           of~course  Junior  it is  your  birthday    
+- Donnerstag
+~ thursday  
+- Picknick
+~ picnic  
++ Geburtstag
+~ birthday  
+
+[LINE]
+Speaker415: Können wir auch meine~Lieblingspizza~bestellen?
+~           can    we  also order~my~favorite~pizza        
+
+[LINE]
+Speaker414: Natürlich, Junior!
+~           of~course  Junior 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: Und ich möchte     [mit~allen~Freunden]    zusammen feiern!   
+~           and I   would~like  with~all~(my)~friends  together celebrate 
++ mit allen Freunden
+- mittags mit Freude
+- mit alten Fischen
+
+[LINE]
+Speaker414: Wo    ist mein Handy?      Wir müssen  schnell alle~einladen!  
+~           where is  my   cell~phone  we  have~to quickly invite~everyone 
+
+[LINE]
+Speaker414: Wann möchtest~du deine~Party~haben? 
+~           when do~you~want to~have~your~party 
+
+[LINE]
+> Eddy sieht auf sein Handy.     
+~ Eddy looks at  his  cell~phone 
+
+[LINE]
+Speaker414: Warte! Es ist Januar.  Dein Geburtstag ist im~Mai, Junior!
+~           wait   it is  January  your birthday   is  in~May  Junior 
+
+[LINE]
+Speaker415: Ja,  ich weiß. Aber ich freue~mich~schon~so.               
+~           yes  I   know  but  I   am~already~looking~forward~(to~it) 
+
+[LINE]
+Speaker415: Papa? Kann ich heute~Eis~essen?     Nur  ein~bisschen      Schokoladeneis?     
+~           dad   can  I   eat~ice~cream~today  just a~little~bit~(of) chocolate~ice~cream 
+
+[LINE]
+Speaker414: Natürlich, mein Sohn.
+~           of~course  my   son  
+
+[MULTIPLE_CHOICE]
+> Why was Eddy relieved?
++ Junior's birthday is in a few months.
+- Junior wanted to get him some ice cream.
+- Junior doesn't want a birthday party.
+
+[MATCH]
+> Tap the pairs
+- meine <> my
+- deine Party haben <> to have your party
+- wir <> we
+- Party <> party
+- ins Schlafzimmer <> into the bedroom
+
