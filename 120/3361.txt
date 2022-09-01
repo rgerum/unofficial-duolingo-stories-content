@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=In The Museum
+icon=86b7c49cff833ae55ebdce7743ae422307168a8e
+set=2|1
+
+[HEADER]
+> Al     museo 
+~ in~the museum
+
+[LINE]
+> Giovanna è  in un museo  con  suo nonno.      
+~ ~        is in a  museum with her grandfather 
+
+[LINE]
+Speaker1320: Queste foto   sono molto interessanti!
+~            these  photos are  very  interesting  
+
+[LINE]
+Speaker2474: Sì,  sono     fotografie di Bologna.
+~            yes  they~are photos     of ~       
+
+[LINE]
+Speaker1320: Ma  non~ci~sono  automobili...
+~            but there~are~no cars         
+
+[MULTIPLE_CHOICE]
+> There are no cars in the old photos.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker2474: Sì,  sono     fotografie~molto~antiche.
+~            yes  they~are very~old~photos          
+
+[LINE]
+Speaker1320: Qui  c'è      una foto  di alcuni studenti~universitari.
+~            here there~is a   photo of some   university~students   
+
+[LINE]
+Speaker2474: Sì,  è    l'| Università di Bologna.
+~            yes  it's the University of ~       
+
+[CONTINUATION]
+> What comes next?
+Speaker2474: Sono    studenti della  [facoltà~di~medicina].
+~            they're students of~the  medical~school       
+- studenti~universitari
+~ university~students  
++ facoltà~di~medicina
+~ medical~school     
+- automobili
+~ cars      
+
+[LINE]
+Speaker1320: C'è     una donna nella  foto! 
+~            there's a   woman in~the photo 
+
+[LINE]
+Speaker1320: Una~donna~sola...
+~            only~one~woman   
+
+[MULTIPLE_CHOICE]
+> Giovanna means...
+- … she sees five women in the old photo.
++ … she sees only one female medical student in the old photo.
+- … she only knows one woman.
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "looks at."
+> Il~nonno~di~Giovanna   (+guarda)   (la)  fotografia. (Resta)      in (silenzio).
+~ Giovanna's~grandfather   looks~at   the  photo        he~remains  in  silence   
+
+[LINE]
+Speaker1320: Nonno?  
+~            grandpa 
+
+[LINE]
+Speaker2474: È     bellissima.
+~            she's gorgeous   
+
+[LINE]
+Speaker1320: Sì,  è     molto bella.    
+~            yes  she's very  beautiful 
+
+[ARRANGE]
+> Tap what you hear
+Speaker2474: [(È)     (mia) (nonna).]      
+~              she's   my    grandmother   
+
+[LINE]
+Speaker1320: Caspita!
+~            wow     
+
+[LINE]
+Speaker1320: La~nostra famiglia è  interessantissima!
+~            our       family   is very~interesting  
+
+[MULTIPLE_CHOICE]
+> What happened in the story?
+- Giovanna saw a photo of her grandfather in the museum.
++ Giovanna's grandfather saw a photo of his grandmother in the museum.
+- Giovanna didn't enjoy going to the museum.
+
+[MATCH]
+> Tap the pairs
+- Sì <> yes
+- Queste <> these
+- di <> of
+- in <> in
+- Università <> University
+
