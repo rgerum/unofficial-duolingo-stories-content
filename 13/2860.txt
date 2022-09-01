@@ -1,0 +1,146 @@
+[DATA]
+fromLanguageName=Free Pizza
+icon=5df0cf17cbca345b14d6a52cc2df9818a71526c0
+set=20|3
+
+[HEADER]
+> Pizza~gratuite
+~ free~pizza    
+
+[LINE]
+> Lin marche     dans la~rue.    
+~ Lin is~walking on   the~street 
+
+[LINE]
+> Il commence à  pleuvoir. 
+~ it starts   to (to)~rain 
+
+[LINE]
+Speaker508: Oh, non !
+~           oh  no   
+
+[LINE]
+> Elle entre~dans un immeuble~de~bureaux.
+~ she  goes~in    an office~building     
+
+[MULTIPLE_CHOICE]
+> Lin is trying to get out of the rain.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+> Lin regarde        à~l'intérieur, et  voit des  boîtes~de~pizzas sur une~table.
+~ Lin looks~(around) inside         and sees some pizza~boxes      on  a~table   
+
+[LINE]
+Speaker508: Waouh. Il~y~a    beaucoup de pizzas.
+~           wow    there~are a~lot    of pizzas 
+
+[LINE]
+Speaker508: Je pense que  je peux prendre   une~part...
+~           I  think that I  can  (to)~take a~slice    
+
+[MULTIPLE_CHOICE]
+> Lin wants to eat…
+- ...a lot of pizza.
++ …one slice of pizza.
+- …all of the pizzas.
+
+[LINE]
+> Elle prend une~part.
+~ she  takes a~slice  
+
+[LINE]
+Speaker307: La~pizza,  c'est   pour les~gens   qui travaillent ici  !
+~           the~pizza  (it)~is for  the~people who work        here  
+
+[LINE]
+Speaker508: Mais...
+~           but    
+
+[LINE]
+Speaker307: Oh, mais… je vous~connais ! Pardon.
+~           oh  but   I  know~you       sorry  
+
+[LINE]
+Speaker307: Vous êtes l'assistante~de~madame~Dupont.
+~           you  are  Mrs.~Dupont's~assistant       
+
+[LINE]
+Speaker508: Euh, je...
+~           uh   I    
+
+[CONTINUATION]
+> What comes next?
+Speaker307: Je dois    aller   travailler. [Bon~appétit     ]!
+~           I  have~to (to)~go to~work      enjoy~your~meal   
+- Bon~voyage      
+~ have~a~nice~trip
++ Bon~appétit    
+~ enjoy~your~meal
+- Bon~anniversaire
+~ happy~birthday  
+
+[LINE]
+> Lin prend une~autre part. 
+~ Lin takes another   slice 
+
+[LINE]
+> Une~femme arrive. 
+~ a~woman   arrives 
+
+[LINE]
+Speaker292: Des~pizzas    ! J'ai~très~faim. 
+~           (some)~pizzas   I'm~very~hungry 
+
+[LINE]
+Speaker292: On~se~connaît         ?
+~           do~we~know~each~other  
+
+[LINE]
+Speaker508: Non. Je suis Lin.
+~           no   I  am   Lin 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker292: Vous~faites~quoi [dans~cette~entreprise] ?
+~           what~do~you~do    at~this~company         
+- prends cette entreprise 
++ dans cette entreprise
+- dans cette église
+
+[LINE]
+Speaker508: Je suis l'assistante~de~madame~Dupont.
+~           I  am   Mrs.~Dupont's~assistant       
+
+[LINE]
+Speaker292: C'est  intéressant...
+~           that's interesting   
+
+[LINE]
+Speaker292: …parce~que je suis madame Dupont.
+~            because   I  am   Mrs.   Dupont 
+
+[ARRANGE]
+> Tap what you hear
+Speaker292: [(Et)  (vous) (n'êtes~pas) (mon~assistante) ]!
+~             and   you    aren't       my~assistant      
+
+[LINE]
+Speaker508: Oh ! Euh… Je dois    partir     ! Enchantée        !
+~           oh   uh   I  have~to (to)~leave   nice~to~meet~you  
+
+[MULTIPLE_CHOICE]
+> Why did Lin suddenly need to leave?
++ The woman found out Lin didn't work there.
+- The pizza gave her a stomachache.
+- She needed to buy an umbrella. 
+
+[MATCH]
+> Tap the pairs
+- regarde <> looks
+- un <> an
+- J'ai très faim <> I'm very hungry
+- êtes <> are
+- c'est <> is
+
