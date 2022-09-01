@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=L’allenamento di Junior
+icon=9f2d4bdaca5fe3e93b4a97529d903567ee23fd4e
+set=5|3
+
+[HEADER]
+> Junior's~Exercise      
+~ l'allenamento~di~Junior
+
+[LINE]
+> Junior is~playing   video~games.   
+~ Junior sta~giocando ai~videogiochi 
+
+[LINE]
+Speaker414: Do~you~want to~exercise, Junior?
+~           (tu)~vuoi   allenarti    Junior 
+
+[LINE]
+Speaker415: No. I~want      to~play video~games.   
+~           no  (io)~voglio giocare ai~videogiochi 
+
+[MULTIPLE_CHOICE]
+> Eddy vuole che Junior si alleni.
+- No, è sbagliato.
++ Sì, è giusto.
+
+[POINT_TO_PHRASE]
+> Seleziona l'opzione che significa "pensa".
+> (Eddy) (+thinks) (for) a  (minute).
+~  Eddy    pensa    per  un  minuto  
+
+[LINE]
+Speaker414: Do~you~want to~go  to~the video~game~store?      
+~           (tu)~vuoi   andare al     negozio~di~videogiochi 
+
+[LINE]
+Speaker415: Yes!
+~           sì  
+
+[LINE]
+Speaker414: OK! Can~you~get        my     money from~the bedroom?        
+~           OK  (tu)~puoi~prendere i~miei soldi dalla    camera~da~letto 
+
+[LINE]
+> Junior runs~and~gets    the money.
+~ Junior corre~a~prendere i   soldi 
+
+[LINE]
+Speaker415: Here, Dad! 
+~           ecco  papà 
+
+[LINE]
+Speaker414: And can~you~get        my     keys   from~the kitchen?
+~           e   (tu)~puoi~prendere le~mie chiavi dalla    cucina  
+
+[LINE]
+> Junior runs~and~gets    the keys.  
+~ Junior corre~a~prendere le  chiavi 
+
+[SELECT_PHRASE]
+> Seleziona la frase mancante
+Speaker415: [Can~we~go~now]?               
+~            (noi)~possiamo~andare~adesso  
+- Can we show now
++ Can we go now
+- Can we know how
+
+[LINE]
+Speaker414: I~need   my     jacket.
+~           mi~serve la~mia giacca 
+
+[LINE]
+Speaker414: It's in~Vikram's~apartment.      
+~           è    nell'appartamento~di~Vikram 
+
+[LINE]
+Speaker415: But Vikram lives on~the fourth floor…
+~           ma  Vikram vive  al     quarto piano 
+
+[MULTIPLE_CHOICE]
+> Aspetta… a che piano abita Vikram?
++ al quarto piano
+- all'ottavo piano
+- al secondo piano
+
+[LINE]
+Speaker414: You~can~do~it!    
+~           (tu)~puoi~farcela 
+
+[LINE]
+> Junior leaves.   He~comes~back with Eddy's~jacket.    
+~ Junior se~ne~va  (lui)~torna   con  la~giacca~di~Eddy 
+
+[LINE]
+Speaker414: Great,  now    we~can~go!            
+~           ottimo  adesso (noi)~possiamo~andare 
+
+[LINE]
+Speaker415: I'm  tired. 
+~           sono stanco 
+
+[MULTIPLE_CHOICE]
+> Uff! Junior è…
+- … emozionato.
++ ... stanco.
+- … spaventato.
+
+[LINE]
+Speaker414: Why?    Too~much exercise?   
+~           perché  troppo   allenamento 
+
+[MULTIPLE_CHOICE]
+> Eddy...
+- … ha dato a Vikram la sua giacca.
++ … ha ingannato Junior per farlo allenare un po'.
+- … ha comprato un nuovo videogioco a Junior.
+
+[MATCH]
+> Tocca le coppie
+- But <> ma
+- lives <> vive
+- bedroom <> camera da letto
+- minute <> minuto
+- now <> adesso
+
