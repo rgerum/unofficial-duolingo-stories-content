@@ -1,0 +1,98 @@
+[DATA]
+fromLanguageName=Siempre llegas tarde
+icon=29ac5d3103a8288de01c8e985828f55e1c34cc14
+set=10|3
+
+[HEADER]
+> Toujours en~retard   
+~ siempre  llegas~tarde
+
+[LINE]
+> Lin et Lucie regardent    la télé.      
+~ Lin y  Lucie están~viendo la televisión 
+
+[LINE]
+Speaker509: Oh, il~est~dix-huit~heures~trente !
+~           ah  son~las~seis~y~media           
+
+[LINE]
+Speaker508: Oh, non ! Le~repas d'anniversaire de Béa est dans trente  minutes !
+~           ay  no    la~cena  de~cumpleaños  de Béa es  en   treinta minutos  
+
+[MULTIPLE_CHOICE]
+> Lin va a ir a la cena de cumpleaños de Béa.
+- No, no es así.
++ Sí, así es.
+
+[LINE]
+Speaker508: Je ne~peux~pas être~en~retard !
+~           yo no~puedo    llegar~tarde    
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "corre".
+> (Lin) (+court) (pour) (prendre) le bus.    
+~  Lin    corre   para   tomar    el autobús 
+
+[LINE]
+> Elle voit le bus     partir.
+~ ella ve   el autobús partir 
+
+[LINE]
+Speaker508: Non ! C'est mon bus     !
+~           no    es    mi  autobús  
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker508: Arf, je dois prendre [un~taxi~maintenant].
+~           ay   yo debo tomar    un~taxi~ahora       
++ un taxi maintenant
+- et voici le lieutenant
+- un taxi étincelant
+
+[LINE]
+> Lin prend son téléphone, mais il~ne~marche~pas.
+~ Lin toma  su  teléfono   pero no~funciona      
+
+[LINE]
+Speaker508: Oh, non ! La batterie !
+~           ay  no    la batería   
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+> [(Lin) (court) (pour) (aller) (au~restaurant).] 
+~   Lin   corre   para   ir      al~restaurante   
+
+[LINE]
+> Elle voit Béa.
+~ Ella ve~a Béa 
+
+[LINE]
+Speaker508: Béa ! Je ne~suis~pas~en~retard !
+~           Béa   yo no~llegué~tarde        
+
+[LINE]
+Speaker508: Mais, où    sont  tes amis   ? Il~est~dix-neuf~heures !
+~           pero  dónde están tus amigos   son~las~siete           
+
+[LINE]
+Speaker507: Ton invitation est  à dix-neuf~heures, parce~que tu es~toujours~en~retard.
+~           tu  invitación dice a las~siete        porque    tú siempre~llegas~tarde  
+
+[LINE]
+Speaker507: Ma soirée est à vingt~heures.
+~           mi fiesta es  a las~ocho     
+
+[MULTIPLE_CHOICE]
+> Lin corrió para llegar a tiempo a la cena de Béa, pero…
+- …la cena se canceló.
+- …aún así llegó una hora tarde.
++ …en realidad llegó una hora antes.
+
+[MATCH]
+> Selecciona los pares
+- Lucie <> Lucie
+- est <> es
+- vingt heures <> las ocho
+- Béa <> Béa
+- où <> dónde
+
