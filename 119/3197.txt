@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Sports Are Great
+icon=bd3ee21fde9eb547f2dcf8531f965477a9f4f00f
+set=7|4
+
+[HEADER]
+> Sport ist super
+~ sport is  great
+
+[LINE]
+> Eddy und Junior sind im~Kaufhaus.            
+~ Eddy and Junior are  at~the~department~store 
+
+[LINE]
+Speaker414: Oh Junior, du  willst Sport~machen!
+~           oh Junior  you want   to~do~sports 
+
+[LINE]
+Speaker414: Das  ist so toll!  Sport ist super!
+~           that is  so great  sport is  great 
+
+[LINE]
+Speaker414: Willst~du   Basketball~spielen?
+~           do~you~want to~play~basketball 
+
+[LINE]
+Speaker415: Ich mag~keinen Ballsport. 
+~           I   don't~like ball~games 
+
+[MULTIPLE_CHOICE]
+> Junior doesn't like ball games.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker414: Diese Fußballschuhe sind cool!
+~           these soccer~shoes  are  cool 
+
+[CONTINUATION]
+> What comes next?
+Speaker415: Fußball ist ein [Ballsport].
+~           soccer  is  a    ball~game  
+- Fitnessstudio
+~ gym          
++ Ballsport
+~ ball~game
+- Lieblingsessen
+~ favorite~food 
+
+[LINE]
+Speaker414: OK, vielleicht …
+~           OK  maybe       
+
+[LINE]
+Speaker415: Ich möchte     —
+~           I   would~like  
+
+[LINE]
+Speaker414: Schwimmen! Willst~du   schwimmen?!
+~           swimming   do~you~want to~swim    
+
+[LINE]
+Speaker415: Nein!
+~           no   
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Aber) (Schwimmen) (ist) (kein)  (Ballsport)!]
+~             but    swimming    is    not~a   ball~game   
+
+[LINE]
+Speaker415: Nein, Papa!
+~           no    dad  
+
+[LINE]
+Speaker414: OK, welchen Sport willst~du   machen?
+~           OK  which   sport do~you~want to~do  
+
+[LINE]
+> Junior geht zu den Ballettschuhen.
+~ Junior goes to the ballet~shoes   
+
+[MULTIPLE_CHOICE]
+> Oh! It seems like Junior wants to...
+- …play soccer.
+- …go for a swim.
++ …try dancing.
+
+[LINE]
+Speaker415: Ich möchte~so~gern    … tanzen.  
+~           I   would~really~like   to~dance 
+
+[LINE]
+Speaker414: Du  willst tanzen?!  
+~           you want   to~dance  
+
+[LINE]
+Speaker415: Ja  … Ist das  ein Problem?
+~           yes   is  that a   problem 
+
+[LINE]
+Speaker414: Nein, nein! Tanzen  ist auch Sport!
+~           no    no    dancing is  also sport 
+
+[LINE]
+> Eddy tanzt  durch   das Kaufhaus.        
+~ Eddy dances through the department~store 
+
+[LINE]
+Speaker415: Papa, nein! Bitte!  Das  ist nicht lustig!
+~           dad   no    please  that is  not   funny  
+
+[MULTIPLE_CHOICE]
+> Why is Eddy dancing?
++ He's excited that Junior wants to dance.
+- He wants to show Junior that dancing is hard.
+- He's trying on a pair of ballet shoes.
+
+[MATCH]
+> Tap the pairs
+- möchte so gern <> would really like
+- ist <> is
+- geht <> goes
+- toll <> great
+- Nein <> no
+
