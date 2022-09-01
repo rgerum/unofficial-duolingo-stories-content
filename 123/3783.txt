@@ -1,0 +1,129 @@
+[DATA]
+fromLanguageName=Un dibujo en el parque
+icon=87ba3a7b817eb4a8ad4548c9b04d97677d2b75e8
+set=12|2
+
+[HEADER]
+> Un dessin dans le parc  
+~ un dibujo en   el parque
+
+[LINE]
+> Tous  les jours, Thomas va au parc   avec son chien.
+~ todos los días   Thomas va al parque con  su  perro 
+
+[LINE]
+> Et tous  les jours, il voit Lily en~train~de~dessiner.
+~ y  todos los días   él ve~a Lily dibujando            
+
+[LINE]
+> Un jour, il décide~de parler avec elle.
+~ un día   él decide    hablar con  ella 
+
+[LINE]
+Speaker1321: Salut !
+~            hola   
+
+[LINE]
+Speaker416: Euh, salut.
+~           eh   hola  
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker1321: Je~peux [te~demander quelque~chose ]?
+~            puedo    preguntarte algo            
+- parler   à mon chien
+~ hablarle a mi  perro
+- marcher le~matin     
+~ caminar por~la~mañana
++ te~demander quelque~chose
+~ preguntarte algo         
+
+[LINE]
+Speaker416: Quoi ?
+~           qué   
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker1321: [(Je~te~vois) (dessiner) (tous)  (les) (jours).]
+~              te~veo       dibujar    todos   los   días    
+
+[LINE]
+Speaker416: Oui...
+~           sí    
+
+[LINE]
+Speaker1321: Qu'est-ce~que tu~dessines ?
+~            qué           dibujas      
+
+[LINE]
+Speaker416: Beaucoup~de choses.
+~           muchas      cosas  
+
+[LINE]
+Speaker416: Je~dessine des~choses   belles  ou intéressantes.
+~           dibujo     (unas)~cosas bonitas o  interesantes  
+
+[LINE]
+Speaker1321: Très bien.
+~            muy  bien 
+
+[LINE]
+Speaker1321: Et maintenant ? Tu~dessines~quoi    ?
+~            y  ahora        qué~estás~dibujando  
+
+[LINE]
+Speaker416: Je~ne~veux~pas le~dire.  
+~           no~quiero      decírtelo 
+
+[LINE]
+Speaker1321: Pourquoi ?
+~            por~qué   
+
+[MULTIPLE_CHOICE]
+> Thomas quiere saber por qué …
+- … Lily está dibujando con sus dientes.
+- … hay tantas personas en el parque.
++ … Lily no quiere decir qué es lo que está dibujando.
+
+[LINE]
+Speaker416: Eh bien... Tu viens  ici  tous  les jours...
+~           eh bien    tú vienes aquí todos los días    
+
+[LINE]
+Speaker1321: Ah ! Tu~es~en~train~de~me~dessiner !
+~            ah   me~estás~dibujando~a~mí        
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker1321: Tu~sais, je~pense que toi aussi,   [tu~es~belle] !
+~            sabes    pienso   que tú  también   eres~bonita   
+- tu as une pelle
+- tu te baignes
++ tu es belle
+
+[LINE]
+Speaker416: Euh, non, ce~n'est~pas~toi que     je~dessine.     
+~           eh   no   no~eres~tú       a~quien estoy~dibujando 
+
+[LINE]
+Speaker1321: Ah...
+~            ah   
+
+[LINE]
+Speaker416: Je~dessine        ton chien. Il est très beau.   Regarde !
+~           estoy~dibujando~a tu  perro  él es  muy  bonito  mira     
+
+[MULTIPLE_CHOICE]
+> Thomas creía que…
++ … Lily estaba haciendo un dibujo de él.
+- … su perro se había escapado.
+- … Lily tenía poderes mágicos.
+
+[MATCH]
+> Selecciona los pares
+- bien <> bien
+- Quoi <> qué
+- Oui <> sí
+- Salut <> hola
+- parler <> hablar
+
