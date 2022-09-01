@@ -1,0 +1,114 @@
+[DATA]
+fromLanguageName=O modelo
+icon=bf0f585cb9c595dad852ba30870242b639057e4f
+set=7|1
+
+[HEADER]
+> El modelo
+~ o  modelo
+
+[LINE]
+> Eddy va  a    la clase        de Óscar.
+~ Eddy vai para a  sala~de~aula de Óscar 
+
+[LINE]
+Speaker414: Hola, ¿puedo entrar?
+~           olá    posso entrar 
+
+[LINE]
+Speaker592: Tengo que dar mi      clase de arte en cinco minutos.
+~           tenho que dar a~minha aula  de arte em cinco minutos 
+
+[MULTIPLE_CHOICE]
+> Óscar tem que dar uma aula de arte daqui a duas horas.
++ Não, não é isso.
+- Sim, isso mesmo.
+
+[LINE]
+Speaker414: Pero estoy aburrido. 
+~           mas  estou entediado 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker592: ¿Y tú [no~tienes~clase]?
+~            e tu  não~tens~aula    
+- no tienes pase
+- no vienes a clase
++ no tienes clase
+
+[LINE]
+Speaker414: No,  ¿te~puedo~ayudar en algo?
+~           não   posso~te~ajudar em algo 
+
+[LINE]
+Speaker592: ¿Por qué?
+~            por quê 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker414: [(Porque) (eres) (mi)    (mejor)  (amigo).]
+~             porque   és     o~meu   melhor   amigo   
+
+[LINE]
+Speaker592: ¿Ah, sí? 
+~            ah  sim 
+
+[LINE]
+Speaker592: Mmm… Creo  que sí~puedes ayudarme. 
+~           hum  creio que podes~sim me~ajudar 
+
+[LINE]
+Speaker414: ¡Muy   bien, amigo!
+~            muito bem   amigo 
+
+[LINE]
+Speaker592: ¿Puedes sentarte  en~esta silla?  
+~            podes  te~sentar nesta   cadeira 
+
+[LINE]
+Speaker414: ¡Sí! 
+~            sim 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "olha".
+> (Eddy) (se) sienta y (+mira) a    (Óscar).
+~  Eddy   se  senta  e   olha  para  Óscar  
+
+[LINE]
+Speaker592: ¿Y puedes hacer silencio?
+~            e podes  fazer silêncio 
+
+[LINE]
+Speaker414: ¿Por qué?
+~            por quê 
+
+[LINE]
+Speaker592: Mi      clase es en un minuto y necesito   un modelo.
+~           a~minha aula  é  em um minuto e preciso~de um modelo 
+
+[LINE]
+Speaker592: Los modelos no  hablan.
+~           os  modelos não falam  
+
+[LINE]
+Speaker414: Pero esto es aburrido.  
+~           mas  isto é  entediante 
+
+[LINE]
+Speaker592: Shh…
+~           shh 
+
+[MULTIPLE_CHOICE]
+> Por que o Eddy ainda está entediado?
+- Ele não gosta de ler sobre arte.
+- O Óscar não para de falar sobre o trabalho dele.
++ O Óscar quer que ele se sente e fique quieto.
+
+[MATCH]
+> Toque nos pares
+- sienta <> senta
+- ayudarme <> me ajudar
+- Los <> os
+- Ah <> ah
+- dar <> dar
+
