@@ -1,0 +1,132 @@
+[DATA]
+fromLanguageName=The New Sport
+icon=4779d731014382d1398621baf6c630efe3e344c0
+set=11|2
+
+[HEADER]
+> Le  nouveau sport
+~ the new     sport
+
+[LINE]
+> Eddy et  Junior sont dans un magasin.
+~ Eddy and Junior are  in   a  store   
+
+[LINE]
+Speaker414: Tu  veux faire~un~nouveau~sport !
+~           you want to~play~a~new~sport     
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Je) (suis) (trop) (content) ]!
+~             I    am     so     happy      
+
+[LINE]
+Speaker414: Tu  veux faire~du~baseball ?
+~           you want to~play~baseball   
+
+[LINE]
+Speaker415: Je n'aime~pas les~sports~de~balle.
+~           I  don't~like ball~sports         
+
+[MULTIPLE_CHOICE]
+> Junior loves ball sports.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker414: Cette raquette~de~tennis est jolie  !
+~           this  tennis~racket      is  pretty  
+
+[LINE]
+Speaker415: On~a~besoin~d'une~balle pour        jouer~au  tennis.
+~           we~need~a~ball          in~order~to (to)~play tennis 
+
+[MULTIPLE_CHOICE]
+> Why doesn't Junior want to play baseball or tennis?
++ He doesn't like ball sports.
+- He thinks he is too young.
+- He is too tired.
+
+[LINE]
+Speaker414: Hmm… Tu  peux…
+~           hmm  you can  
+
+[LINE]
+Speaker415: Je veux…
+~           I  want 
+
+[LINE]
+Speaker414: Nager   ! Tu  veux nager   ?
+~           to~swim   you want to~swim  
+
+[LINE]
+Speaker415: Non…
+~           no  
+
+[CONTINUATION]
+> What comes next?
+Speaker414: Mais c'est amusant et  tu  n'as~pas~besoin [de~balles ]!
+~           but  it's  fun     and you don't~need       balls       
+- d'eau
+~ water
+- de~salade
+~ a~salad  
++ de~balles
+~ balls    
+
+[LINE]
+Speaker415: Papa, non !
+~           Dad   no   
+
+[LINE]
+Speaker414: OK… Qu'est-ce  que  tu  veux faire ?
+~           OK  what~is~it that you want to~do  
+
+[LINE]
+> Junior prend des    chaussures~de~ballet.
+~ Junior gets  (some) ballet~shoes         
+
+[MULTIPLE_CHOICE]
+> Oh! It seems like Junior wants to…
+- ...play football.
++ ...try dancing.
+- ...go for a swim.
+
+[LINE]
+Speaker415: Je veux apprendre~à~danser.
+~           I  want to~learn~to~dance  
+
+[LINE]
+Speaker414: Tu  veux danser   ?!
+~           you want to~dance   
+
+[LINE]
+Speaker415: Oui. C'est   un problème ?
+~           yes  is~that a  problem   
+
+[LINE]
+Speaker414: Mais~non      ! Danser,  c'est  aussi un sport !
+~           of~course~not   dancing  that's also  a  sport  
+
+[LINE]
+> Eddy danse  dans le  magasin.
+~ Eddy dances in   the store   
+
+[LINE]
+Speaker415: Papa, arrête~de~danser, s'il~te~plaît.
+~           Dad   stop~dancing      please        
+
+[MULTIPLE_CHOICE]
+> Junior wants his dad to stop…
+- …buying stuff.
+- …singing.
++ …dancing.
+
+[MATCH]
+> Tap the pairs
+- amusant <> fun
+- magasin <> store
+- Eddy <> Eddy
+- Mais non <> of course not
+- Junior <> Junior
+
