@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Pizza Night
+icon=112533484d0e0176f1d067903e94a98c4d0c8c7a
+set=12|4
+
+[HEADER]
+> Noite~de~pizza
+~ pizza~night   
+
+[LINE]
+Speaker414: Júnior! O~que~você~quer~jantar?     
+~           Júnior  what~do~you~want~for~dinner 
+
+[LINE]
+Speaker415: Pizza! Eu~tenho~oito~anos…   Eu sempre quero pizza.
+~           pizza  I~am~eight~years~old  I  always want  pizza 
+
+[LINE]
+Speaker414: Perfeito! Vamos fazer uma pizza!
+~           perfect   let's make  a   pizza 
+
+[CONTINUATION]
+> What comes next?
+Speaker415: Ou vamos [comprar uma pizza]!
+~           or let's  buy     a   pizza  
++ comprar uma pizza
+~ buy     a   pizza
+- dormir agora
+~ sleep  now  
+- pesar as  batatas 
+~ weigh the potatoes
+
+[LINE]
+Speaker414: Mas fazer  uma pizza é  mais divertido!
+~           but making a   pizza is more fun       
+
+[LINE]
+Speaker415: Divertido para quem?
+~           fun       for  whom 
+
+[LINE]
+Speaker414: Divertido para nós! Pai    e   filho!
+~           fun       for  us   father and son   
+
+[LINE]
+Speaker415: Tudo~bem.  Como~fazemos?     
+~           all~right  how~do~we~do~that 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "flour."
+Speaker414: (Você) (pega) a   (+farinha), a   (água)  e   o   sal? 
+~            you    get   the   flour     the  water  and the salt 
+
+[LINE]
+Speaker415: Sim.
+~           yes 
+
+[LINE]
+Speaker414: Agora juntamos tudo…      
+~           now   we~mix   everything 
+
+[LINE]
+> Eles juntam a   farinha, a   água  e   o   sal. 
+~ they mix    the flour    the water and the salt 
+
+[MULTIPLE_CHOICE]
+> What are Eddy and Júnior mixing?
++ flour, water, and salt
+- salt, butter, and sugar
+- tomatoes, water, and oil
+
+[LINE]
+Speaker415: Isso é  muito difícil,   e   eu estou com~fome.
+~           this is very  difficult  and I  am    hungry   
+
+[LINE]
+Speaker414: Mas agora temos~que  esperar.  
+~           but now   we~have~to (to)~wait 
+
+[LINE]
+Speaker415: Temos~que  esperar?!  
+~           we~have~to (to)~wait  
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(A)   (massa~da~pizza) (ainda~não~está~pronta).]
+~             the   pizza~dough      is~not~ready~yet        
+
+[LINE]
+Speaker415: Quanto~tempo temos~de      esperar?  
+~           how~long     do~we~have~to (to)~wait 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: [Duas~horas].
+~            two~hours   
+- Dez horas
++ Duas horas
+- Dura horas
+
+[LINE]
+> Júnior olha~para Eddy.
+~ Júnior looks~at  Eddy 
+
+[LINE]
+Speaker414: Eu vou         comprar  uma pizza.
+~           I  am~going~to (to)~buy a   pizza 
+
+[LINE]
+Speaker415: Você é   o   melhor pai    do     mundo!
+~           you  are the best   father in~the world 
+
+[MULTIPLE_CHOICE]
+> Why did Eddy decide to buy a pizza?
++ Making pizza takes too long.
+- Júnior ate all the dough.
+- He didn't have the right ingredients.
+
+[MATCH]
+> Tap the pairs
+- mundo <> world
+- Como fazemos <> how do we do that
+- para <> for
+- difícil <> difficult
+- sal <> salt
+
