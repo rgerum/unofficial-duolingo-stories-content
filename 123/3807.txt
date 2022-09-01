@@ -1,0 +1,124 @@
+[DATA]
+fromLanguageName=La ruptura de Eddy
+icon=9d77d24b95463b2b7a2e8c9aa8f7b1c9f8de9013
+set=17|6
+
+[HEADER]
+> La rupture d'Eddy 
+~ la ruptura de~Eddy
+
+[LINE]
+> Eddy ne~va~pas bien. Junior arrive.
+~ Eddy no~está   bien  Junior llega  
+
+[LINE]
+Speaker415: Papa ? Ça~ne~va~pas  ?
+~           papá   no~estás~bien  
+
+[LINE]
+Speaker414: Chloé m'a~quitté, et je~ne~sais~pas pourquoi.
+~           Chloé me~dejó     y  no~sé          por~qué  
+
+[LINE]
+Speaker415: Ta petite~amie, Chloé ? Je~l'aimais~bien.
+~           tu novia        Chloé   me~gustaba~ella  
+
+[MULTIPLE_CHOICE]
+> La novia de Eddy lo dejó.
++ Sí, así es.
+- No, no es así.
+
+[LINE]
+Speaker414: Moi  aussi   ! Et je pensais qu'elle~m'aimait.        
+~           a~mí también   y  yo pensaba que~yo~le~gustaba~a~ella 
+
+[LINE]
+Speaker414: Elle pensait que j'étais beau. 
+~           ella pensaba que yo~era  guapo 
+
+[LINE]
+Speaker415: Vraiment  ?!
+~           de~verdad   
+
+[LINE]
+Speaker414: Oui !
+~           sí   
+
+[LINE]
+Speaker415: Alors…    pourquoi elle~t'a~quitté ?
+~           entonces  por~qué  ella~te~dejó     
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker415: [(Tu~l'écoutais) (quand)  (elle~parlait) ]?
+~             la~escuchabas   cuando   hablaba         
+
+[LINE]
+Speaker414: Oui ! Je sais quelle est sa couleur~préférée, quel est son film~préféré…     
+~           sí    yo sé   cuál   es  su color~favorito    cuál es  su  película~favorita 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker414: Je connais [son~nom~de~famille] !
+~           yo conozco  su~apellido          
+- son nom de vanille
++ son nom de famille
+- mon salon de famille
+
+[LINE]
+Speaker415: Alors    qu'est-ce~qu'il~s'est~passé ?
+~           entonces qué~pasó                     
+
+[LINE]
+Speaker414: Je~ne~sais~pas...
+~           no~sé            
+
+[CONTINUATION]
+> ¿Qué sigue？
+Speaker414: On~a~passé une [très bonne soirée hier].
+~           pasamos    una  muy  buena noche  ayer  
++ très bonne soirée hier
+~ muy  buena noche  ayer
+- semaine au    zoo
+~ semana  en~el zoo
+- heure sur la Lune
+~ hora  en  la luna
+
+[LINE]
+Speaker415: Vous~avez~fait~quoi  ?
+~           qué~hicieron~ustedes  
+
+[LINE]
+Speaker414: Je lui ai~préparé le~dîner !
+~           yo le  preparé    la~cena   
+
+[LINE]
+Speaker415: Oh, non...
+~           ay  no    
+
+[LINE]
+Speaker415: Je pense que je~sais pourquoi elle~t'a~quitté.
+~           yo creo  que sé      por~qué  te~dejó         
+
+[LINE]
+Speaker414: Pourquoi ?
+~           por~qué   
+
+[LINE]
+Speaker415: Papa, tu sais  que je~t'aime, mais... tu~ne~sais~vraiment~pas cuisiner.
+~           papá  tú sabes que te~quiero  pero    realmente~no~sabes      cocinar  
+
+[MULTIPLE_CHOICE]
+> ¡Ay, no! ¿Por qué Chloé dejó a Eddy?
+- Sus calcetines deportivos olían muy mal.
+- Él olvidó el nombre de ella.
++ La cena que él hizo fue terrible.
+
+[MATCH]
+> Selecciona los pares
+- sa <> su
+- ne va pas <> no está
+- elle t'a quitté <> ella te dejó
+- son nom de famille <> su apellido
+- aussi <> también
+
