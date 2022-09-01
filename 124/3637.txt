@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=La rupture d'Eddy
+icon=9d77d24b95463b2b7a2e8c9aa8f7b1c9f8de9013
+set=18|2
+
+[HEADER]
+> Eddy's~Breakup    
+~ la~rupture~d'Eddy 
+
+[LINE]
+> Junior sees his father, Eddy, crying. 
+~ Junior voit son père    Eddy  pleurer 
+
+[LINE]
+Speaker415: What's~wrong,            Dad? 
+~           qu'est-ce~qui~ne~va~pas  Papa 
+
+[LINE]
+Speaker414: Chloe broke~up~with~me, and I  don't~know  why.     
+~           Chloe m'a~quitté        et  je ne~sais~pas pourquoi 
+
+[LINE]
+Speaker415: Your girlfriend,  Chloe? I  liked~her.    
+~           ta   petite~amie  Chloe  je l'aimais~bien 
+
+[MULTIPLE_CHOICE]
+> La copine d'Eddy l'a quitté.
++ Oui, c'est vrai.
+- Non, c'est faux.
+
+[LINE]
+Speaker414: Me  too!   And I  thought~she     liked~me.     
+~           moi aussi  et  je pensais~qu'elle m'aimait~bien 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « beau ».
+Speaker414: (She)  (told~me)     (I~was)   (+handsome).
+~            elle   m'a~dit~que   j'étais    beau      
+
+[LINE]
+Speaker415: Wow,   that's surprising.
+~           waouh  c'est  surprenant 
+
+[LINE]
+Speaker414: I  know!
+~           je sais 
+
+[LINE]
+Speaker415: Well,    why      did~she~break~up~with~you?
+~           eh~bien  pourquoi elle~t'a~quitté           
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker415: [(Did~you~listen) (when)  (she)  (talked)?] 
+~             tu~l'écoutais    quand   elle   parlait   
+
+[LINE]
+Speaker414: Yes. I  know    her favorite~color   and her favorite~movie…
+~           oui  je connais sa  couleur~préférée et  son film~préféré   
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker414: I  even~know    [her~last~name]!     
+~           je connais~même  son~nom~de~famille  
+- her last game
++ her last name
+- your past fame
+
+[LINE]
+Speaker415: So    what~happened?      
+~           alors il~s'est~passé~quoi 
+
+[LINE]
+Speaker414: I  don't~know… 
+~           je ne~sais~pas 
+
+[LINE]
+Speaker414: We   had         a  great date    last~night.
+~           nous avons~passé un super rencard hier~soir  
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker415: What          did~you~do     [on      your  date]?   
+~           qu'est-ce~que vous~avez~fait  pendant votre rencard  
+- at work    yesterday
+~ au travail hier     
++ on      your  date   
+~ pendant votre rencard
+- last~year       
+~ l'année~dernière
+
+[LINE]
+Speaker414: I~cooked     dinner   for  her. 
+~           j'ai~préparé le~dîner pour elle 
+
+[LINE]
+Speaker415: Oh no. 
+~           oh non 
+
+[LINE]
+Speaker415: I  think~I~know why      she  broke~up~with~you.
+~           je pense~savoir pourquoi elle t'a~quitté        
+
+[LINE]
+Speaker414: Why?     
+~           pourquoi 
+
+[LINE]
+Speaker415: Dad,  I  love~you, but  you're a  terrible cook.     
+~           Papa  je t'aime    mais tu~es  un mauvais  cuisinier 
+
+[MULTIPLE_CHOICE]
+> Oh non ! Pourquoi Chloe a-t-elle rompu avec Eddy ?
++ Le dîner qu'il a préparé était horrible.
+- Il a oublié comment elle s'appelait.
+- Les chaussettes d'Eddy sentent très mauvais.
+
+[MATCH]
+> Choisis les paires
+- did you do <> vous avez fait
+- great <> super
+- told me <> m'a dit que
+- crying <> pleurer
+- She <> elle
+
