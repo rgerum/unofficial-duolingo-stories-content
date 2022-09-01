@@ -1,0 +1,119 @@
+[DATA]
+fromLanguageName=Where Is Your Girlfriend?
+icon=0d18f0403cfa415591d7ef50a9e9c01f1094936e
+set=3|4
+
+[HEADER]
+> Onde~está sua  namorada?  
+~ where~is  your girlfriend 
+
+[LINE]
+> Bia está no     aeroporto.
+~ Bia is~  at~the airport   
+
+[LINE]
+> Ela fala~com um homem no     balcão~de~informações.
+~ she talks~to a  man   on~the help~desk             
+
+[LINE]
+Speaker823: Boa~tarde!      Você~precisa~de~ajuda?
+~           good~afternoon  do~you~need~help      
+
+[MULTIPLE_CHOICE]
+> The man at the airport asks Bia if she needs help.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker507: Sim! Eu vou      para o~Rio~de~Janeiro…    
+~           yes  I  am~going to   (the)~Rio~de~Janeiro 
+
+[LINE]
+Speaker507: E   quero  sentar com  a~minha namorada   no     avião.   
+~           and I~want to~sit with my      girlfriend on~the airplane 
+
+[LINE]
+Speaker823: Tudo~bem,  eu tenho dois lugares juntos.  
+~           all~right  I  have  two  places  together 
+
+[LINE]
+Speaker507: Excelente!
+~           excellent 
+
+[MULTIPLE_CHOICE]
+> Why is Bia happy?
+- The man is from Rio de Janeiro.
+- She's getting a discount on her ticket.
++ There are two available seats together.
+
+[LINE]
+Speaker823: Onde~está a~sua namorada?  
+~           where~is  your  girlfriend 
+
+[LINE]
+Speaker507: Não~sei.      Você~me~ajuda~a achar     ela?
+~           I~don't~know  can~you~help~me (to)~find her 
+
+[LINE]
+Speaker823: Como~ela~é?
+~           how~is~she 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "a brunette."
+Speaker507: (Hum)… (Ela) é  (+morena)     e   (tem)     olhos~azuis…
+~            hmm    she  is   a~brunette  and  she~has  blue~eyes   
+
+[LINE]
+Speaker823: Sim…
+~           yes 
+
+[LINE]
+Speaker507: Ela gosta de~ler       e   de~cozinhar… 
+~           she likes (of)~to~read and (of)~to~cook 
+
+[LINE]
+Speaker823: Hã… 
+~           huh 
+
+[LINE]
+Speaker507: Ela ama   os~animais…    mas ela come muito    chocolate.
+~           she loves (the)~animals  but she eats a~lot~of chocolate 
+
+[LINE]
+Speaker823: Qual~é~o~nome~dela?
+~           what~is~her~name   
+
+[LINE]
+Speaker507: Não~sei.     
+~           I~don't~know 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker823: Você não~sabe   o   nome da [sua~namorada]?   
+~           you  don't~know the name of  your~girlfriend  
+- a sua namora
++ sua namorada
+- lua é morada
+
+[LINE]
+Speaker507: Eu não~tenho  namorada.    
+~           I  don't~have a~girlfriend 
+
+[LINE]
+Speaker507: Você~me~ajuda~a achar     uma?
+~           can~you~help~me (to)~find one 
+
+[MULTIPLE_CHOICE]
+> Did you get that? Bia…
++ …doesn't have a girlfriend yet.
+- …left her girlfriend at home.
+- …lost her girlfriend at the airport.
+
+[MATCH]
+> Tap the pairs
+- E <> and
+- Como ela é <> how is she
+- ama <> loves
+- nome <> name
+- tenho <> have
+
