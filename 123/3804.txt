@@ -1,0 +1,104 @@
+[DATA]
+fromLanguageName=Mi grupo favorito
+icon=8809c44c2194d282a6e1573d25dcac12b6132022
+set=17|3
+
+[HEADER]
+> Mon groupe préféré 
+~ mi  grupo  favorito
+
+[LINE]
+> Lily et Zari sont  en cours.
+~ Lily y  Zari están en clase 
+
+[LINE]
+Speaker418: Hé,  Lily ? Tu~peux m'aider,  s'il~te~plaît ?
+~           oye  Lily   puedes  ayudarme  por~favor      
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker416: [Je~ne~sais~pas]. C'est~pour~quoi ?
+~            no~sé            qué~necesitas    
+- Je sais que c’est là
+- Je ne suis pas
++ Je ne sais pas
+
+[LINE]
+Speaker418: Je~ne~peux~pas aller au volleyball aujourd'hui.
+~           no~puedo       ir    a  vóleibol   hoy         
+
+[LINE]
+Speaker418: Tu~peux   dire  à~l'entraîneur que je suis  malade  ?
+~           le~puedes decir al~entrenador  que yo estoy enferma  
+
+[MULTIPLE_CHOICE]
+> Zari quiere que Lily le diga a su entrenador que ella está enferma.
+- No, no es así.
++ Sí, así es.
+
+[LINE]
+Speaker416: Tu n'es~pas malade. 
+~           tú no~estás enferma 
+
+[LINE]
+Speaker418: Si ! Kof... J'ai     une lettre du  médecin. Regarde.
+~           sí   cof    yo~tengo una carta  del médico   mira    
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+> [(Zari) (montre)     (la~lettre~à) (Lily).]
+~   Zari   le~muestra   la~carta~a    Lily   
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "letra".
+Speaker416: (Zari). (C'est)   (ton) (+écriture).
+~            Zari    esta~es   tu     letra     
+
+[LINE]
+Speaker418: Mais~non     !
+~           claro~que~no  
+
+[LINE]
+Speaker416: Zari, arrête de mentir.
+~           Zari  deja   de mentir 
+
+[LINE]
+Speaker418: OK,    OK    ! Je vais  voir  les City~Boys. C'est mon groupe préféré  !
+~           bueno  bueno   yo voy~a ver~a los City~Boys  es    mi  grupo  favorito  
+
+[LINE]
+Speaker416: Euh, non, je~ne~peux~pas t'aider. 
+~           eh   no   no~puedo       ayudarte 
+
+[LINE]
+Speaker418: Tu~as  raison… Ce~n'est~pas bien~de mentir.
+~           tienes razón   no~está      bien    mentir 
+
+[MULTIPLE_CHOICE]
+> Espera… Zari cree que…
++ … mentir está mal.
+- … decir la verdad está mal.
+- … Lily no tiene razón.
+
+[LINE]
+Speaker416: Non, ce~n'est~pas ça. 
+~           no   no~es        eso 
+
+[LINE]
+Speaker416: Je~ne~peux~pas t'aider  parce~que les City~Boys sont vraiment  mauvais.
+~           no~puedo       ayudarte porque    los City~Boys son  realmente malos   
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Lily no va a ayudar a Zari?
++ Ella piensa que los City Boys son muy malos.
+- Ella no quiere enfermarse.
+- Ella no quiere que Zari vaya al entrenamiento de vóleibol.
+
+[MATCH]
+> Selecciona los pares
+- la lettre à <> la carta a
+- Tu <> tú
+- suis <> estoy
+- Lily <> Lily
+- mauvais <> malos
+
