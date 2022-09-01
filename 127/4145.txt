@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=O café da manhã de Junior
+icon=6d79d91b8caad82e9f6ce44a1b458f12ac6a7a9f
+set=13|2
+
+[HEADER]
+> El desayuno      de Junior
+~ o  café~da~manhã de Junior
+
+[LINE]
+> Eddy está haciendo el desayuno      para Junior.
+~ Eddy está fazendo  o  café~da~manhã para Junior 
+
+[LINE]
+Speaker415: ¡Hola, papá!  ¿Qué   haces?
+~            olá   papai   o~que fazes 
+
+[LINE]
+Speaker414: ¡Buenos~días, Junior! ¡Te~estoy haciendo el desayuno!     
+~            bom~dia      Junior   estou~te fazendo  o  café~da~manhã 
+
+[MULTIPLE_CHOICE]
+> O Eddy está fazendo o jantar.
++ Não, não é isso.
+- Sim, isso mesmo.
+
+[LINE]
+Speaker415: ¿El desayuno?     
+~            o  café~da~manhã 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker414: Sí,  nunca tengo tiempo de hacerte  [el desayuno].     
+~           sim  nunca tenho tempo  de te~fazer  o  café~da~manhã  
++ el desayuno     
+~ o  café~da~manhã
+- las tareas 
+~ as  tarefas
+- la presentación
+~ a  apresentação
+
+[LINE]
+Speaker414: ¡Pero hoy  es diferente!
+~            mas  hoje é  diferente 
+
+[LINE]
+Speaker415: Papá,  no  quiero desayunar.          
+~           papai  não quero  tomar~café~da~manhã 
+
+[LINE]
+Speaker414: ¡¿Qué?!   Pero estoy haciendo huevos…
+~             o~quê   mas  estou fazendo  ovos   
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker415: [No~quiero~huevos].
+~            não~quero~ovos    
++ No quiero huevos
+- No quiero nuevos
+- Lo quiero nuevo
+
+[LINE]
+Speaker414: ¡Pero a~ti~te~encantan!
+~            mas  tu~os~adoras     
+
+[LINE]
+Speaker415: Sí,  pero…
+~           sim  mas  
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "bacon".
+Speaker414: ¡(Y) (hay) (+tocino) (también)!
+~             e   tem    bacon    também   
+
+[LINE]
+Speaker414: ¡A~ti~te~encanta el~tocino!
+~            tu~adoras       bacon     
+
+[LINE]
+Speaker415: Sí,  pero…
+~           sim  mas  
+
+[LINE]
+Speaker414: ¿Qué?  
+~            o~quê 
+
+[LINE]
+Speaker415: Papá…  ¡ya es la~una!  
+~           papai   já é  uma~hora 
+
+[LINE]
+> Eddy mira su~reloj.      
+~ Eddy olha o~relógio~dele 
+
+[LINE]
+Speaker414: Ay,~no…  Hacer el desayuno      toma mucho tiempo.
+~           ah,~não  fazer o  café~da~manhã leva muito tempo  
+
+[LINE]
+Speaker415: ¡Pero ahora podemos hacer el almuerzo!
+~            mas  agora podemos fazer o  almoço   
+
+[MULTIPLE_CHOICE]
+> Por que o Junior não queria café da manhã?
+- Ele odeia bacon e ovos.
++ Já é hora do almoço.
+- Ele está com dor de estômago.
+
+[MATCH]
+> Toque nos pares
+- mucho <> muito
+- hay <> tem
+- quiero <> quero
+- no <> não
+- Qué <> o que
+
