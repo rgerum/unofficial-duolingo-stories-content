@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=Der Garten
+icon=2048b2aca1b5e4e869402fc61c30ffa6617ba5b8
+set=5|4
+
+[HEADER]
+> The Garden
+~ der Garten
+
+[LINE]
+> Vikram visits  his   sick   grandmother in~the hospital.   
+~ Vikram besucht seine kranke Großmutter  im     Krankenhaus 
+
+[LINE]
+Speaker593: Good  morning, Grandma!
+~           guten Morgen   Oma     
+
+[LINE]
+Speaker593: How do~you~feel    today?
+~           wie fühlst~du~dich heute 
+
+[LINE]
+Speaker129: Well,  I   feel       a   little sad.     
+~           na~ja  ich fühle~mich ein wenig  traurig  
+
+[MULTIPLE_CHOICE]
+> Vikrams Oma ist glücklich.
++ Nein, das ist falsch.
+- Ja, das ist richtig.
+
+[LINE]
+Speaker129: This   hospital~room has no    color.
+~           dieses Krankenzimmer hat keine Farbe 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „nach draußen“.
+Speaker129: It's   warm and (sunny)  (today), and I   want (to~go) (+outside).     
+~           es~ist warm und  sonnig   heute   und ich will  gehen    nach~draußen  
+
+[LINE]
+Speaker593: Oh. I'm~sorry.       
+~           oh  das~tut~mir~leid 
+
+[LINE]
+Speaker129: On sunny    days,  I~love       working~in~my~garden…        
+~           an sonnigen Tagen  liebe~ich~es in~meinem~Garten~zu~arbeiten 
+
+[LINE]
+Speaker593: Hmm… I   have an   idea.
+~           hmm  ich habe eine Idee 
+
+[LINE]
+Speaker593: See~you       in half~an~hour,        Grandma.
+~           wir~sehen~uns in einer~halben~Stunde  Oma     
+
+[LINE]
+> Vikram leaves.  
+~ Vikram geht~weg 
+
+[MULTIPLE_CHOICE]
+> Vikram …
+- … will auf eine Party gehen.
+- … hat bemerkt, dass er sich duschen sollte.
++ … hat anscheinend eine Idee, wie er seine Oma aufheitern kann.
+
+[LINE]
+> Thirty  minutes later… 
+~ dreißig Minuten später 
+
+[LINE]
+> Vikram walks into his~grandmother's~room       with two  big    plants.  
+~ Vikram geht  in   das~Zimmer~seiner~Großmutter mit  zwei großen Pflanzen 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker593: Here are  some     plants   [from~your~house].
+~           hier sind ein~paar Pflanzen  aus~deinem~Haus  
+- for your hours
++ from your house
+- from our horse
+
+[LINE]
+Speaker593: And some     flowers from your   garden!
+~           und ein~paar Blumen  aus  deinem Garten 
+
+[LINE]
+Speaker129: My    plants   and my    flowers!
+~           meine Pflanzen und meine Blumen  
+
+[LINE]
+Speaker593: Now   your~garden~is  here!
+~           jetzt ist~dein~Garten hier 
+
+[LINE]
+Speaker129: I'm     so happy.     Thank~you~very~much, Vikram!
+~           ich~bin so glücklich  vielen~Dank          Vikram 
+
+[MULTIPLE_CHOICE]
+> Wie lieb von ihm! Vikram …
++ … hat seiner Oma Pflanzen und Blumen aus ihrem Garten mitgebracht.
+- … hat seiner Oma eine Blumenhalskette gekauft.
+- … hat seine Oma zurück zu ihrem Haus gebracht.
+
+[MATCH]
+> Wähle die Paare
+- and <> und
+- leaves <> geht weg
+- Good <> guten
+- have <> habe
+- no <> keine
+
