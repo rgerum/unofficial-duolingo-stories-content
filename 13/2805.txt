@@ -1,0 +1,102 @@
+[DATA]
+fromLanguageName=The Math Test
+icon=fb16be061ee25cbd89be9a23e762f04047652d7f
+set=6|4
+
+[HEADER]
+> L'examen~de~maths
+~ the~math~exam    
+
+[LINE]
+> Junior va~dans   l'appartement~de~Zari.
+~ Junior goes~into Zari's~apartment      
+
+[LINE]
+Speaker415: Zari ! J'ai~besoin~de toi !
+~           Zari   I~need         you  
+
+[LINE]
+Speaker418: Tu  as~besoin~de moi ?
+~           you need         me   
+
+[LINE]
+Speaker415: Oui, j'ai   un examen~de~maths~très~important.
+~           yes  I~have a  very~important~math~exam       
+
+[MULTIPLE_CHOICE]
+> Junior has an upcoming science exam.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker415: Je veux jouer...  
+~           I  want to~play   
+
+[LINE]
+Speaker415: … mais je dois~étudier  !
+~             but  I  have~to~study  
+
+[MULTIPLE_CHOICE]
+> Junior needs to study math, but he'd prefer to...
++ ...play.
+- ...take over the world.
+- ...study history.
+
+[LINE]
+Speaker418: Je peux~étudier avec toi !
+~           I  can~study    with you  
+
+[ARRANGE]
+> Tap what you hear
+Speaker418: [(Où)    (est) (ton)  (livre~de~maths) ]?
+~             where   is    your   math~book         
+
+[POINT_TO_PHRASE]
+> Choose the option that means “bag.”
+Speaker415: (Dans) (mon) (+sac).
+~            in     my     bag  
+
+[LINE]
+Speaker418: Super ! Où    est ton  sac ?
+~           great   where is  your bag  
+
+[LINE]
+Speaker415: À~l'école.
+~           at~school 
+
+[LINE]
+Speaker418: Junior, comment~tu~veux   étudier  sans    ton  livre ?
+~           Junior  how~do~you~expect to~study without your book   
+
+[MULTIPLE_CHOICE]
+> Hmm... How is Junior going to study...
+- …if he's at school?
++ …without his book?
+- …while he's asleep?
+
+[LINE]
+Speaker415: Toi, tu  vas à  l'école…   
+~           you  you go  to the~school 
+
+[LINE]
+Speaker415: … tu  prends mon livre…
+~             you get    my  book  
+
+[LINE]
+Speaker415: … et  moi, je joue !
+~             and me   I  play  
+
+[MULTIPLE_CHOICE]
+> What does Junior want Zari to do?
+- buy him a new backpack
++ go get his book from school while he plays
+- play video games with him
+
+[MATCH]
+> Tap the pairs
+- Junior <> Junior
+- à <> to
+- joue <> play
+- peux étudier <> can study
+- jouer <> to play
+
