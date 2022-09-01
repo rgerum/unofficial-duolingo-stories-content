@@ -1,0 +1,105 @@
+[DATA]
+fromLanguageName=Un appartamento sporco
+icon=0e6ab8c3a4e3224cb700e8daeac0038f7f0e929e
+set=8|3
+
+[HEADER]
+> Dirty~Apartment       
+~ un~appartamento~sporco
+
+[LINE]
+> Bea goes~to her~friend~Sarah's~apartment.          
+~ Bea va      all'appartamento~della~sua~amica~Sarah 
+
+[SELECT_PHRASE]
+> Seleziona la frase mancante
+Speaker507: Hi,   Sarah, [how~are~you]?
+~           ciao  Sarah   come~stai    
++ how are you
+- now are you
+- how were two
+
+[LINE]
+Speaker175: I'm~terrible!      
+~           (io)~sto~malissimo 
+
+[LINE]
+Speaker507: Oh, no. Why?   
+~           oh  no  perché 
+
+[LINE]
+Speaker175: My     new   roommate    and I  always~argue      a~lot.
+~           la~mia nuova coinquilina e   io discutiamo~sempre molto 
+
+[MULTIPLE_CHOICE]
+> Sarah sta male perché…
+- … è allergica al gatto della sua coinquilina.
+- … è tornata a casa molto tardi la sera prima.
++ … discute spesso con la sua coinquilina.
+
+[LINE]
+Speaker507: I'm~not       surprised! This   kitchen is very  dirty. 
+~           (io)~non~sono sorpresa   questa cucina  è  molto sporca 
+
+[LINE]
+Speaker175: Ugh,  I~know.    
+~           uffa  (io)~lo~so 
+
+[CONTINUATION]
+> Come continua la frase?
+Speaker507: And there's old         cheese    [on~that~table]. 
+~           e   c'è     del~vecchio formaggio  su~quel~tavolo  
+- on~your   head 
+~ sulla~tua testa
++ on that table 
+~ su quel tavolo
+- at~the supermarket 
+~ al     supermercato
+
+[LINE]
+Speaker175: Yes. Yuck! 
+~           sì   bleah 
+
+[LINE]
+Speaker507: And there~are dirty~clothes       on this   chair!
+~           e   ci~sono   degli~abiti~sporchi su questa sedia 
+
+[LINE]
+Speaker507: Wait…    this   is your   shirt.  
+~           aspetta  questa è  la~tua camicia 
+
+[LINE]
+Speaker175: Yes.
+~           sì  
+
+[ARRANGE]
+> Seleziona ciò che senti
+Speaker507: [(These)  (are)  (all)   (your)   (clothes)!]
+~             questi   sono   tutti   i~tuoi   abiti     
+
+[LINE]
+Speaker507: Is~that  your   old     cheese,    too?!  
+~           quello~è il~tuo vecchio formaggio  anche  
+
+[LINE]
+Speaker175: Yes! I  never~clean,     and my     roommate    always~complains! 
+~           sì   io non~pulisco~mai  e   la~mia coinquilina si~lamenta~sempre 
+
+[LINE]
+Speaker175: She's terrible! 
+~           lei~è terribile 
+
+[MULTIPLE_CHOICE]
+> Ah! Perché Sarah e la sua coinquilina discutono?
++ Sarah sporca e non pulisce mai.
+- A Bea piace mangiare il formaggio vecchio.
+- Sarah indossa tutti i vestiti della sua coinquilina.
+
+[MATCH]
+> Tocca le coppie
+- Oh <> oh
+- on <> su
+- goes to <> va
+- Sarah <> Sarah
+- new <> nuova
+
