@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=Trajet en taxi
+icon=44410efbb175e599d5fbe5b4d86050262f324ca0
+set=13|4
+
+[HEADER]
+> Taxi~Ride     
+~ trajet~en~taxi
+
+[LINE]
+> Bea is  in   a  taxi. She  is~looking~at            the map  on  her phone.    
+~ Bea est dans un taxi  elle est~en~train~de~regarder le  plan sur son téléphone 
+
+[LINE]
+Speaker507: Turn    left     at~the end  of the street, please.         
+~           tournez à~gauche au     bout de la  rue     s'il~vous~plaît 
+
+[LINE]
+Speaker889: I  don't~need         to~turn for~three~more~miles.
+~           je n'ai~pas~besoin~de tourner avant~trois~miles    
+
+[MULTIPLE_CHOICE]
+> Qu'est-ce que le chauffeur a dit ?
++ Il n'a pas besoin de tourner avant trois miles.
+- Il veut courir trois miles.
+- Il roule à trois miles à l'heure.
+
+[LINE]
+Speaker507: The~directions on  my  phone     say     that  road  is  faster…     
+~           l'itinéraire   sur mon téléphone dit~que cette route est plus~rapide 
+
+[LINE]
+Speaker889: Excuse~me,   I  know    all    the roads  in   this  city. 
+~           excusez-moi  je connais toutes les routes dans cette ville 
+
+[LINE]
+Speaker507: This phone     knows   all    the roads  in   every  city. 
+~           ce   téléphone connait toutes les routes dans chaque ville 
+
+[LINE]
+Speaker889: Ha, well,    the phone     isn't~driving  the car.     I'm     the driver.   
+~           ha  eh~bien  le  téléphone ne~conduit~pas la  voiture  je~suis le  chauffeur 
+
+[LINE]
+Speaker507: But  I'm~paying for  the ride,   right?       
+~           mais je~paye    pour la  course  n'est-ce~pas 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Bea a-t-elle dit ça ?
+- Elle a besoin que le chauffeur lui donne de l'argent.
++ Elle veut que le chauffeur suive son itinéraire à elle.
+- Elle conduit un taxi pendant son temps libre.
+
+[LINE]
+Speaker889: OK,       OK!      
+~           d'accord  d'accord 
+
+[LINE]
+> The driver    turns  left     and stops  the car.    
+~ le  chauffeur tourne à~gauche et  arrête la  voiture 
+
+[LINE]
+Speaker889: We're~here. Are~you~going~swimming?
+~           on~y~est    vous~allez~nager       
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker507: No,  [I'm~going~shopping].        Why?     
+~           non   je~vais~faire~du~shopping   pourquoi 
++ I'm going shopping
+- I'm good at shopping
+- I'm good at stopping
+
+[LINE]
+Speaker889: Because   the road  stops    here. At the river.  
+~           parce~que la  route s'arrête ici   à  la  rivière 
+
+[LINE]
+Speaker507: Oops… 
+~           oups  
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker507: [(I)  (think)     (my)  (directions~are) (wrong).]    
+~             je   pense~que   mon   itinéraire~est   incorrect   
+
+[LINE]
+Speaker507: I'm     so        sorry.  
+~           je~suis tellement désolée 
+
+[LINE]
+Speaker889: Do~you~want to~use   my  directions?
+~           voulez-vous utiliser mon itinéraire 
+
+[LINE]
+Speaker507: Yes, please…         
+~           oui  s'il~vous~plaît 
+
+[MULTIPLE_CHOICE]
+> Bea s'est rendu compte...
+- … qu'elle était un bon chauffeur de taxi.
+- … que son téléphone savait tout faire.
++ … que son itinéraire n'était pas bon.
+
+[MATCH]
+> Choisis les paires
+- the <> le
+- river <> rivière
+- We're here <> on y est
+- my <> mon
+- Excuse me <> excusez-moi
+
