@@ -1,0 +1,129 @@
+[DATA]
+fromLanguageName=A New Coat
+icon=b2702b2974228dcea571f3a27cc4e4dd5b3ade64
+set=1|3
+
+[HEADER]
+> Um casaco~novo
+~ a  new~coat   
+
+[LINE]
+> Vikram está em uma loja. 
+~ Vikram is~  in a   store 
+
+[LINE]
+> Uma mulher fala~com ele.
+~ a   woman  talks~to him 
+
+[LINE]
+Speaker338: Olá!  
+~           hello 
+
+[LINE]
+Speaker593: Oi!
+~           hi 
+
+[LINE]
+Speaker338: Você~trabalha~aqui?
+~           do~you~work~here   
+
+[MULTIPLE_CHOICE]
+> The woman asks Vikram if he works at the store.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker593: Eu…
+~           I  
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "help."
+Speaker338: (Excelente)! (Eu) (preciso~de) (+ajuda).
+~            excellent    I    need          help   
+
+[LINE]
+Speaker593: Mas…
+~           but 
+
+[LINE]
+Speaker338: Eu preciso~de um casaco~novo.
+~           I  need       a  new~coat    
+
+[LINE]
+Speaker338: Você~gosta~do   casaco~vermelho?
+~           do~you~like~the red~coat        
+
+[LINE]
+Speaker338: Ou você~gosta~do   casaco~cinza?
+~           or do~you~like~the gray~coat    
+
+[LINE]
+Speaker593: Eu…
+~           I  
+
+[LINE]
+Speaker593: O   casaco~cinza é  bom  e   barato…
+~           the gray~coat    is good and cheap  
+
+[LINE]
+Speaker593: Mas o   casaco~vermelho é  lindo.    
+~           but the red~coat        is beautiful 
+
+[MULTIPLE_CHOICE]
+> Vikram says that…
+- …he hates both coats.
+- …the woman doesn't need a new coat.
++ …the gray coat is cheap and the red one is beautiful.
+
+[LINE]
+Speaker593: E   elegante.
+~           and elegant  
+
+[LINE]
+Speaker593: Ele é  perfeito para você!
+~           it  is perfect  for  you  
+
+[LINE]
+Speaker338: Eu quero o   casaco~vermelho!
+~           I  want  the red~coat        
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker338: Obrigada!  Você é   [bom~no~seu~trabalho]!
+~           thank~you  you  are  good~at~your~job     
+- bom não ter baralho
++ bom no seu trabalho
+- bônus sem trabalho
+
+[LINE]
+Speaker338: Onde~eu~pago       o   casaco?
+~           where~do~I~pay~for the coat   
+
+[LINE]
+Speaker593: Eu não~sei.   
+~           I  don't~know 
+
+[MULTIPLE_CHOICE]
+> Vikram doesn't know…
+- …if the woman needs to pay for the coat.
+- …if he wants a new coat too.
++ …where the woman can pay for the coat.
+
+[LINE]
+Speaker593: Eu não~trabalho aqui.
+~           I  don't~work   here 
+
+[MULTIPLE_CHOICE]
+> What happened in the story?
+- A woman helped Vikram buy a new hat.
++ A woman thought Vikram worked at the store.
+- A woman gave Vikram a job at the store.
+
+[MATCH]
+> Tap the pairs
+- bom <> good
+- fala com <> talks to
+- aqui <> here
+- casaco novo <> new coat
+- ajuda <> help
+
