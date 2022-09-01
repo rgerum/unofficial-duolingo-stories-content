@@ -1,0 +1,187 @@
+[DATA]
+fromLanguageName=Junior's Interview
+icon=990c177e87e1e541636fcd21d879719817ad82d2
+set=57|3
+
+[HEADER]
+> L'entretien~de~Junior 
+~ Junior's~interview    
+
+[LINE]
+> Junior entre~dans l'appartement~de~Béa, avec une mallette  à~la~main.
+~ Junior enters     Béa's~apartment       with a   briefcase in~hand   
+
+[LINE]
+Speaker415: Bonjour, Béa. Je suis ici  pour mon entretien.
+~           hello    Béa  I  am   here for  my  interview 
+
+[LINE]
+Speaker507: Quel entretien ?
+~           what interview  
+
+[LINE]
+Speaker415: Tu  pars        en~voyage, non ? Je voudrais   être  embauché pour~m'occuper        de tes  plantes.
+~           you are~leaving on~a~trip  no    I  would~like to~be hired    in~order~to~take~care of your plants  
+
+[MULTIPLE_CHOICE]
+> Junior veut  un entretien parce~qu'il veut… 
+~ Junior wants an interview because~he  wants 
+- ... en~savoir~plus sur   Béa.
+~     to~know~more   about Béa 
++ ... s'occuper         des~plantes~de~Béa pendant son voyage.
+~     (to)~take~care~of Béa's~plants       during  his trip   
+- ... que~Béa~achète des  plantes pour lui.
+~     Béa~to~buy     some plants  for  him 
+
+[LINE]
+Speaker507: Ah ! Assieds-toi, s'il~te~plaît.
+~           ah   sit~down     please        
+
+[LINE]
+Speaker415: Merci.    
+~           thank~you 
+
+[ARRANGE]
+> Tap what you hear
+> [(Il) (s'assied)  (et)  (ouvre) (sa~mallette).]  
+~   he   sits~down   and   opens   his~briefcase   
+
+[LINE]
+Speaker507: Veux-tu     un biscuit ?
+~           do~you~want a  cookie   
+
+[LINE]
+Speaker415: Non, merci.     Je ne~mange~pas pendant les~rendez-vous~professionnels.
+~           no   thank~you  I  don't~eat    during  professional~appointments      
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker507: Bien. Ce    sont les~biscuits~de~ma~colocataire, et  elle déteste quand [je les~mange].
+~           good  these are  my~roommate's~cookies           and she  hates   when   I  eat~them   
++ je les~mange
+~ I  eat~them 
+- pour mon entretien
+~ for  my  interview
+- les plantes les~mangent
+~ the plants  eat~them   
+
+[LINE]
+> Junior donne son CV     à  Béa.
+~ Junior gives his resume to Béa 
+
+[LINE]
+Speaker507: As-tu~écrit   ton  CV     au~crayon     ?
+~           did~you~write your resume with~a~pencil  
+
+[LINE]
+Speaker415: Oui.
+~           yes 
+
+[LINE]
+Speaker507: D'accord. Pourquoi devrais-je~t'embaucher ?
+~           OK        why      should~I~hire~you       
+
+[LINE]
+Speaker415: Je suis une personne~responsable. Et  je travaille dur. 
+~           I  am   a   responsible~person    and I  work      hard 
+
+[LINE]
+Speaker507: As-tu~déjà~arrosé     des~plantes ?
+~           have~you~ever~watered any~plants   
+
+[MULTIPLE_CHOICE]
+> Béa veut  savoir si Junior a   déjà…
+~ Béa wants know   if Junior has ever 
+- … mangé des  plantes.
+~   eaten some plants  
+- … rencontré des  plantes.
+~   met       some plants  
++ … donné de~l'eau aux    plantes.
+~   given water    to~the plants  
+
+[LINE]
+Speaker415: Non, mais j'ai~regardé des  vidéos en~ligne.
+~           no   but  I~watched    some ~      online   
+
+[ARRANGE]
+> Tap what you hear
+Speaker507: [(Où)    (te~vois-tu)          (dans) (dix) (ans)   ]?
+~             where   do~you~see~yourself   in     ten   years    
+
+[LINE]
+Speaker415: Dans une voiture~volante !
+~           in   a   flying~car       
+
+[LINE]
+Speaker415: Mais d'abord, je dois~ouvrir mon entreprise, et  tu  es  ma première cliente.
+~           but  first    I  must~open   my  company     and you are my first    client  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: Arroser~les~plantes, c'est [un~travail~important].
+~           watering~plants      it's   an~important~job      
+- une bataille importante
++ un travail important
+- un travail dégoûtant
+
+[LINE]
+Speaker415: Tu  n'as~que  deux plantes… et  elles sont~en~train~de~mourir.
+~           you only~have two  plants   and they  are~dying               
+
+[LINE]
+Speaker507: En~effet. Ma colocataire et  moi, nous oublions~toujours de~les~arroser.
+~           indeed    my roommate    and me   we   always~forget     to~water~them  
+
+[LINE]
+Speaker415: Béa. Écoute.
+~           Béa  listen 
+
+[LINE]
+Speaker507: Oui ?
+~           yes  
+
+[LINE]
+Speaker415: Si tu  m'embauches, tu  peux~manger tous les~biscuits~de~ta~colocataire, et  dire que  c'était moi.
+~           if you hire~me      you can~eat     all  your~roommate's~cookies         and say  that it~was  me  
+
+[MULTIPLE_CHOICE]
+> Pourquoi Junior~dit       que  Béa devrait lui~donner    le  travail ?
+~ why      is~Junior~saying that Béa should  (to)~give~him the job      
+- Il sera    très célèbre un  jour.
+~ he will~be very famous  one day  
+- Il pourra       aller   au~travail en voiture~volante.
+~ he will~be~able (to)~go to~work    in a~flying~car    
++ Elle pourra       dire   que  Junior a~mangé tous les biscuits.
+~ she  will~be~able to~say that Junior ate     all  the biscuits 
+
+[LINE]
+Speaker507: Ah, bonne idée ! Tu  es  embauché !
+~           ah  good  idea   you are hired     
+
+[LINE]
+> Ils  se~serrent~la~main.
+~ they shake~hands        
+
+[LINE]
+Speaker415: Nous pourrons~parler de    mon salaire plus~tard.
+~           we   can~talk        about my  salary  later     
+
+[MULTIPLE_CHOICE]
+> Qui va~arroser        les~plantes~de~Béa pendant son~voyage ?
+~ who is~going~to~water Béa's~plants       during  her~trip    
+- le~père~de~Junior
+~ Junior's~father  
++ Junior
+~ Junior
+- sa  colocataire
+~ her roommate   
+
+[MATCH]
+> Tap the pairs
+- se serrent la main <> shake hands
+- Béa <> Béa
+- pars <> are leaving
+- plus tard <> later
+- Écoute <> listen
+
