@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=Lily hilft mit dem Müll
+icon=093ca1e21f226b69b5c86085e1710ffbca164b46
+set=32|5
+
+[HEADER]
+> Lily Helps with the Trash
+~ Lily hilft mit  dem Müll 
+
+[LINE]
+> Lucy is  outside~of  her   apartment~building.
+~ Lucy ist draußen~vor ihrem Apartmenthaus      
+
+[LINE]
+> She notices that Lily is~moving a     carpet,  a    lamp,  and a     big,    expensive TV        outside.     
+~ sie bemerkt dass Lily trägt     einen Teppich  eine Lampe  und einen großen  teuren    Fernseher nach~draußen 
+
+[LINE]
+Speaker509: Are~you~moving?
+~           ziehst~du~um   
+
+[LINE]
+Speaker416: No.  
+~           nein 
+
+[MULTIPLE_CHOICE]
+> Lily zieht in eine neue Wohnung.
++ Nein, das ist falsch.
+- Ja, das ist richtig.
+
+[LINE]
+Speaker509: Are~you~selling these things?
+~           verkaufst~du    diese Sachen 
+
+[LINE]
+Speaker416: No.  
+~           nein 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker509: Then why   are~you~putting [all~of~these~things] here?   
+~           dann warum stellst~du       all~diese~Sachen     hierher 
+- a wall of his things
+- all of these rings
++ all of these things
+
+[LINE]
+Speaker416: Because my    mom  asked~me         to~take    the trash outside.     
+~           weil    meine Mama mich~gebeten~hat zu~bringen den Müll  nach~draußen 
+
+[LINE]
+Speaker509: I   don't~think  this~is~what~she~means.
+~           ich glaube~nicht dass~sie~das~so~meint  
+
+[LINE]
+Speaker509: That   carpet  is  new.
+~           dieser Teppich ist neu 
+
+[MULTIPLE_CHOICE]
+> Warum glaubt Lucy nicht, dass der Teppich in den Müll gehört?
++ Er ist neu.
+- Er ist draußen.
+- Er ist wunderschön.
+
+[POINT_TO_PHRASE]
+> Klicke auf die Option mit der Bedeutung „riecht“.
+Speaker416: (That)   (carpet)  (+smells) (like) a   dog.  And we  don't~have~a dog. 
+~            dieser   Teppich    riecht   wie   ein Hund  und wir haben~keinen Hund 
+
+[LINE]
+Speaker509: Well, yes, it does~smell awful.       And that lamp? 
+~           nun   ja   er riecht     schrecklich  und die  Lampe 
+
+[ARRANGE]
+> Was hörst du?
+Speaker416: [(I'd)       (prefer)        (to~sit)    (in~the) (dark).]   
+~             ich~würde   es~bevorzugen   zu~sitzen   im       Dunkeln   
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker509: But  that TV        is  definitely not  trash. It [looks~expensive].
+~           aber der  Fernseher ist definitiv  kein Müll   er  sieht~teuer~aus  
++ looks expensive
+- took the offensive
+- looks at pencils
+
+[LINE]
+Speaker416: Do~you~watch~TV? Every show    is  about money, murder, or   dessert.
+~           siehst~du~fern   jede  Sendung ist über  Geld   Mord    oder Dessert 
+
+[LINE]
+Speaker509: Hmm. I~agree, but  your  mom  is~going to~be~mad   when she sees~this.
+~           hmm  stimmt   aber deine Mama wird     durchdrehen wenn sie das~sieht 
+
+[LINE]
+Speaker416: Yes, but  she will never~ask~me    to~help~with~the~trash again. 
+~           ja   aber sie wird mich~nie~bitten mit~dem~Müll~zu~helfen wieder 
+
+[MULTIPLE_CHOICE]
+> Warum wird Lilys Mutter sie nie wieder bitten, den Müll rauszubringen?
+- Lucy stiehlt den ganzen Müll.
++ Lily bringt Dinge, die nicht in den Müll gehören, nach draußen.
+- Lilys Familie hat keinen Müll.
+
+[MATCH]
+> Wähle die Paare
+- is <> ist
+- show <> Sendung
+- all of these things <> all diese Sachen
+- TV <> Fernseher
+- not <> kein
+
