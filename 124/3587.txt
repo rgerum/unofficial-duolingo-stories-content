@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=Le jardin
+icon=2048b2aca1b5e4e869402fc61c30ffa6617ba5b8
+set=5|4
+
+[HEADER]
+> The Garden
+~ le  jardin
+
+[LINE]
+> Vikram visits his sick~grandmother  in the~hospital.
+~ Vikram visite sa  grand-mère~malade à  l'hôpital    
+
+[LINE]
+Speaker593: Good~morning, Grandma!
+~           bonjour       Mamie   
+
+[LINE]
+Speaker593: How~do~you~feel    today?      
+~           comment~tu~te~sens aujourd'hui 
+
+[LINE]
+Speaker129: Well,    I~feel     a  little sad.   
+~           eh~bien  je~me~sens un peu    triste 
+
+[MULTIPLE_CHOICE]
+> La grand-mère de Vikram est heureuse.
++ Non, c'est faux.
+- Oui, c'est vrai.
+
+[LINE]
+Speaker129: This  hospital~room     has~no     color.  
+~           cette chambre~d'hôpital n'a~pas~de couleur 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « dehors ».
+Speaker129: (It's~warm)     and (sunny)      (today),       and I  want to~go (+outside).
+~            il~fait~chaud  et   ensoleillé   aujourd'hui   et  je veux aller   dehors   
+
+[LINE]
+Speaker593: Oh. I'm     sorry. 
+~           oh  je~suis désolé 
+
+[LINE]
+Speaker129: On~sunny~days,         I~love~working    in   my  garden…
+~           les~jours~ensoleillés  j'aime~travailler dans mon jardin 
+
+[LINE]
+Speaker593: Hmm… I~have an  idea!
+~           hmm  j'ai   une idée 
+
+[LINE]
+Speaker593: See~you    in   half~an~hour,   Grandma.
+~           on~se~voit dans une~demi-heure  Mamie   
+
+[LINE]
+> Vikram leaves.
+~ Vikram part   
+
+[MULTIPLE_CHOICE]
+> On dirait que Vikram…
+- … s'est rendu compte qu'il devait prendre une douche.
++ … a une idée pour que sa grand-mère se sente mieux.
+- … a décidé d'aller à une fête.
+
+[LINE]
+> Thirty minutes later…    
+~ trente minutes plus~tard 
+
+[LINE]
+> Vikram walks~into his~grandmother's~room      with two  big     plants. 
+~ Vikram entre~dans la~chambre~de~sa~grand-mère avec deux grosses plantes 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker593: Here~are some plants  [from~your~house].
+~           voici    des  plantes  de~chez~toi      
++ from your house
+- from our horse
+- from your hours
+
+[LINE]
+Speaker593: And some flowers from your garden!
+~           et  des  fleurs  de   ton  jardin 
+
+[LINE]
+Speaker129: My  plants  and my  flowers!
+~           mes plantes et  mes fleurs  
+
+[LINE]
+Speaker593: Now        your garden is  here!
+~           maintenant ton  jardin est ici  
+
+[LINE]
+Speaker129: I'm     so happy.    Thank~you very~much, Vikram!
+~           je~suis si heureuse  merci     beaucoup   Vikram 
+
+[MULTIPLE_CHOICE]
+> Comme c'est gentil ! Vikram...
+- ... a ramené sa grand-mère chez elle.
+- ... a acheté un collier de fleurs à sa grand-mère.
++ ... a apporté ses plantes et ses fleurs à sa grand-mère.
+
+[MATCH]
+> Choisis les paires
+- so <> si
+- is <> est
+- Thirty <> trente
+- here <> ici
+- sick grandmother <> grand-mère malade
+
