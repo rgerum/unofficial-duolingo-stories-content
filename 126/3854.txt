@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=Boa arte
+icon=501e7d609ee0dd5ba11ff7cdcf9740b12a7a7945
+set=12|3
+
+[HEADER]
+> Good Art 
+~ boa  arte
+
+[LINE]
+> Eddy and his~friend   Oscar are   at an art~museum.   
+~ Eddy e   o~amigo~dele Oscar estão em um museu~de~arte 
+
+[LINE]
+> Eddy looks~at  a   painting of a  dog.     
+~ Eddy olha~para uma pintura  de um cachorro 
+
+[LINE]
+Speaker414: This is my        favorite~painting in~the museum!
+~           esta é  (a)~minha pintura~favorita  no     museu  
+
+[LINE]
+Speaker592: That painting is boring.
+~           essa pintura  é  chata  
+
+[MULTIPLE_CHOICE]
+> O Oscar gosta muito da pintura.
++ Não, não é isso.
+- Sim, isso mesmo.
+
+[LINE]
+Speaker414: What?  I  love dogs!     
+~           o~quê  eu amo  cachorros 
+
+[LINE]
+Speaker592: Eddy, I'm    an art~teacher.       I  know    good art. 
+~           Eddy  eu~sou um professor~de~arte  eu conheço boa  arte 
+
+[LINE]
+Speaker592: This painting is~not good art. 
+~           esta pintura  não~é  boa  arte 
+
+[LINE]
+Speaker414: Why?    
+~           por~quê 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker592: [(Good) (art)  (is) (interesting)!] 
+~             boa    arte   é    interessante   
+
+[LINE]
+Speaker592: Good art  is surprising!   
+~           boa  arte é  surpreendente 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+> Oscar sees a  sandwich  [on~a~chair].    
+~ Oscar vê   um sanduíche  em~uma~cadeira  
+- on his hair
++ on a chair
+- and this chair
+
+[LINE]
+Speaker592: That is good art! 
+~           isso é  boa  arte 
+
+[LINE]
+Speaker414: A  sandwich  on a   chair?!  
+~           um sanduíche em uma cadeira  
+
+[LINE]
+Speaker592: Yes! It's     interesting  and surprising!    The artist  is a  genius!
+~           sim  (isso)~é interessante e   surpreendente  o   artista é  um gênio  
+
+[MULTIPLE_CHOICE]
+> Por que o Oscar acha que o artista é um gênio?
+- O sanduíche parece delicioso.
++ Um sanduíche em uma cadeira é algo surpreendente.
+- O sanduíche pertence a um cachorro.
+
+[LINE]
+Speaker414: I  don't~understand art. 
+~           eu não~entendo      arte 
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "zelador".
+> A  (+janitor) walks~into~the (room). He  starts~eating  (the) (sandwich). 
+~ um   zelador  entra~na        sala   ele começa~a~comer  o     sanduíche  
+
+[LINE]
+Speaker592: Excuse~me!   You  can't~eat      the art! 
+~           com~licença  você não~pode~comer a   arte 
+
+[LINE]
+Speaker307: Uh, this isn't art.  This is my      lunch. 
+~           hã  isto não~é arte  este é  (o)~meu almoço 
+
+[MULTIPLE_CHOICE]
+> Você pegou essa? O Oscar achou que…
+- …o Eddy tinha comido toda a arte do museu.
+- …o zelador era um artista famoso.
++ …o almoço do zelador era arte.
+
+[MATCH]
+> Toque nos pares
+- That <> essa
+- sandwich <> sanduíche
+- good <> boa
+- painting <> pintura
+- on a chair <> em uma cadeira
+
