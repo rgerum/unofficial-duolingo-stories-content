@@ -1,0 +1,169 @@
+[DATA]
+fromLanguageName=A regra do gato
+icon=cf456fd247b4e865382f745b035e6d6a99179473
+set=62|4
+
+[HEADER]
+> The Cat~Rule     
+~ a   regra~do~gato
+
+[LINE]
+> Eddy and Junior are~taking~care of~a~neighbor's~cat.   The cat  is~sleeping   on~Junior's~lap.  
+~ Eddy e   Junior estão~cuidando  do~gato~de~um~vizinho  o   gato está~dormindo no~colo~de~Junior 
+
+[LINE]
+Speaker414: Junior, you  need    to~wash the dishes.
+~           Junior  você precisa lavar   os  pratos 
+
+[LINE]
+Speaker415: I  can't~do        that now,   Dad.   It's the Cat~Rule!     
+~           eu não~posso~fazer isso agora  papai  é    a   regra~do~gato 
+
+[LINE]
+Speaker414: What's  the Cat~Rule?     
+~           o~que~é a   regra~do~gato 
+
+[POINT_TO_PHRASE]
+> Choose  the option that means     "colo."
+~ escolha a   opção  que  significa  ~     
+Speaker415: If~a~cat~is~sleeping        (on~your) (+lap),  (you)  can't~stand~up       (to~do)        anything.
+~           se~um~gato~estiver~dormindo  no~seu     colo    você  não~pode~se~levantar  (para)~fazer  nada     
+
+[LINE]
+Speaker414: Hmm. I've~never~heard      of~the Cat~Rule…     
+~           hmm  eu~nunca~ouvi~(falar) da     regra~do~gato 
+
+[LINE]
+Speaker415: So,    Dad,   can~you~bring~me    a   drink? 
+~           então  papai  você~pode~me~trazer uma bebida 
+
+[CONTINUATION]
+> What  comes next?  
+~ o~que vem   depois 
+Speaker414: Can't~you     [get   it  yourself]?  
+~           você~não~pode  pegar ela você~mesmo  
+- sleep 
+~ dormir
+- drive  
+~ dirigir
++ get   it  yourself  
+~ pegar ela você~mesmo
+
+[LINE]
+Speaker415: No!  Cat~Rule!         
+~           não  (a)~regra~do~gato 
+
+[LINE]
+Speaker414: Ugh, OK.   
+~           ~    certo 
+
+[ARRANGE]
+> Toque no que escutar
+> [(Eddy) (puts)   (a~glass) (of~juice) (on~the~table).]
+~   Eddy   coloca   um~copo   de~suco    na~mesa        
+
+[LINE]
+Speaker415: Can~you~move    the glass closer~to            me?  I  can't~reach          it  because the cat  is   on~my~lap.   Cat~Rule!         
+~           você~pode~mover o   copo  mais~para~perto~(de) mim  eu não~consigo~alcançar ele porque  o   gato está no~meu~colo  (a)~regra~do~gato 
+
+[LINE]
+> Eddy moves the glass closer~to            Junior.
+~ Eddy move  o   copo  mais~para~perto~(de) Junior 
+
+[LINE]
+Speaker415: And can~you~also~give~me    the remote~control?  I  want  to~watch     something    on TV, but—
+~           e   você~também~pode~me~dar o   controle~remoto  eu quero assistir~(a) alguma~coisa na TV  mas 
+
+[MULTIPLE_CHOICE]
+> Junior probably      can't~reach           the remote~control  because…
+~ Junior provavelmente não~consegue~alcançar o   controle~remoto porque  
++ …the cat  is~still~sitting   on~him.
+~  o   gato ainda~está~sentado nele   
+- …he  doesn't~know where it  is.  
+~  ele não~sabe     onde  ele está 
+- …Eddy keeps  it  on~top~of~the refrigerator.
+~  Eddy guarda ele em~cima~da    geladeira    
+
+[LINE]
+Speaker414: The Cat~Rule.      Yeah, yeah, I  know.
+~           a   regra~do~gato  sim   sim   eu sei  
+
+[LINE]
+> Eddy leaves the  room for a~while,  then  he  returns.
+~ Eddy sai    (d)a sala por um~tempo  então ele retorna 
+
+[LINE]
+Speaker414: Junior, when   are~you~going~to~wash the dishes?
+~           Junior  quando você~vai~lavar        os  pratos 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker415: I  can't~do~anything    until [the~cat~wakes~up]!   
+~           eu não~posso~fazer~nada até    (que)~o~gato~acorde  
++ the cat wakes up
+- the cat makes up
+- the cat wakes it
+
+[LINE]
+> Eddy tries to~move the cat. 
+~ Eddy tenta mover   o   gato 
+
+[LINE]
+Speaker414: Hey, cat— 
+~           ei   gato 
+
+[LINE]
+Speaker415: Don't~wake~the~cat~up on~purpose,   Dad!   That's mean! 
+~           não~acorda~o~gato     de~propósito  papai  isso~é cruel 
+
+[LINE]
+Speaker414: That cat  has~been~sleeping for quite~a~while…
+~           esse gato está~dormindo     por um~bom~tempo  
+
+[ARRANGE]
+> Toque no que escutar
+Speaker415: [(He)  (had)  (a)  (busy~day).] 
+~             ele   teve   um   dia~cheio   
+
+[LINE]
+> Someone knocks on~the door. 
+~ alguém  bate   à      porta 
+
+[LINE]
+Speaker414: Do~you~want to~answer the door?  Oh, right, you  can't.    Cat~Rule,          right?
+~           você~quer   atender   a   porta  ah  certo  você não~pode  (a)~regra~do~gato  certo 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+> Eddy [answers~the~door] and comes~back with a   pizza.
+~ Eddy  atende~a~porta    e   volta      com  uma pizza 
+- lands on the floor
++ answers the door
+- answers all four
+
+[LINE]
+Speaker415: You  ordered my        favorite~pizza!
+~           você pediu   (a)~minha pizza~favorita 
+
+[LINE]
+Speaker414: And now   I'm~going~to~eat the whole~pizza by~myself in~the kitchen! I'd~share    with you,  but you~can't~stand~up.        Cat~Rule!         
+~           e   agora eu~vou~comer     a   pizza~toda  sozinho   na     cozinha  eu~dividiria com  você  mas você~não~pode~se~levantar  (a)~regra~do~gato 
+
+[MULTIPLE_CHOICE]
+> Because~of~the "Cat~Rule"…     
+~ por~causa~da    regra~do~gato  
++ …Junior can't~get~up         to~eat       the pizza.
+~  Junior não~pode~se~levantar (para)~comer a   pizza 
+- …Eddy has       to~buy  a  cat  and name~it     Pizza.
+~  Eddy tem~(que) comprar um gato e   chamá-lo~de Pizza 
+- …Junior has       to~give    the cat  his~pizza.   
+~  Junior tem~(que) dar~(para) o   gato a~pizza~dele 
+
+[MATCH]
+> Toque nos pares
+- Oh <> ah
+- dishes <> pratos
+- That's <> isso é
+- knocks <> bate
+- pizza <> pizza
+
