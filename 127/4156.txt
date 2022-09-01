@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=Uma excelente professora 
+icon=fea97b34f975e980cb0f47aab08a6980675bbd81
+set=16|1
+
+[HEADER]
+> Una excelente maestra   
+~ uma excelente professora
+
+[LINE]
+> Jennifer está afuera          de~la~oficina de~su~jefa.   
+~ Jennifer está do~lado~de~fora do~escritório da~chefe~dela 
+
+[LINE]
+Speaker856: Le~voy~a~decir  que ya no  quiero trabajar  aquí.
+~           vou~dizer~a~ela que já não quero  trabalhar aqui 
+
+[MULTIPLE_CHOICE]
+> A Jennifer vai contar à chefe dela que quer sair do emprego.
++ Sim, isso mesmo.
+- Não, não é isso.
+
+[LINE]
+Speaker856: Soy la peor maestra    del mundo.
+~           sou a  pior professora do  mundo 
+
+[LINE]
+Speaker856: ¡Mis  estudiantes no  me~quieren!   
+~            meus alunos      não gostam~de~mim 
+
+[LINE]
+Speaker856: Este trabajo  es demasiado~difícil.
+~           este trabalho é  difícil~demais    
+
+[CONTINUATION]
+> O que vem depois?
+> Jennifer toca~a [la~puerta].
+~ Jennifer bate    à~porta    
++ la~puerta
+~ à~porta  
+- la bicicleta
+~ a  bicicleta
+- la carta
+~ a  carta
+
+[LINE]
+> Nadie   responde.
+~ ninguém responde 
+
+[LINE]
+> Óscar sale de~su~aula.          
+~ Óscar sai  da~sala~de~aula~dele 
+
+[LINE]
+Speaker592: ¡Hola, Jennifer! La jefa  no  está en~su~oficina.     
+~            olá   Jennifer  a  chefe não está no~escritório~dela 
+
+[LINE]
+Speaker592: ¿Puedo ayudarte? 
+~            posso te~ajudar 
+
+[LINE]
+Speaker856: Mmm… ¿podemos hablar?   
+~           hum   podemos conversar 
+
+[LINE]
+Speaker592: Por~supuesto, pero antes quisiera decirte  algo… ¿sabes que eres una excelente maestra?   
+~           claro         mas  antes queria   te~dizer algo   sabes que és   uma excelente professora 
+
+[LINE]
+Speaker856: ¿De~verdad?
+~            sério     
+
+[ARRANGE]
+> Toque no que escutar
+Speaker592: ¡[(Sí),  (tus)  (estudiantes) (te~quieren) (mucho)!]
+~              sim    teus   alunos        te~gostam    muito   
+
+[LINE]
+Speaker592: Muchos maestros    salen temprano de sus  trabajos.
+~           muitos professores saem  cedo     de seus empregos 
+
+[LINE]
+Speaker592: Pero tú te~quedas para ayudar~a los estudiantes.
+~           mas  tu ficas     para ajudar   os  alunos      
+
+[LINE]
+Speaker592: Yo sé  que este trabajo  es difícil.
+~           eu sei que este trabalho é  difícil 
+
+[LINE]
+Speaker592: Pero tus  estudiantes necesitan~a una maestra    como tú.
+~           mas  teus alunos      precisam~de uma professora como tu 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker856: Gracias.  [Tienes~razón].
+~           obrigada   tens~razão    
+- Vienes ladrón
+- Tienen sazón
++ Tienes razón
+
+[LINE]
+Speaker856: A~veces  lo~olvido.    
+~           às~vezes esqueço~disso 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker856: [(Y) (me~preocupo) (mucho) (por~mi~trabajo).]  
+~             e   me~preocupo   muito   com~meu~trabalho   
+
+[LINE]
+Speaker592: Yo sé  que te preocupas.
+~           eu sei que te preocupas 
+
+[LINE]
+Speaker856: ¿Y cómo lo~sabes?   
+~            e como sabes~disso 
+
+[LINE]
+Speaker592: Bueno, ¡te escuché hablar afuera          de mi    aula!        
+~           bom     te escutei falar  do~lado~de~fora de minha sala~de~aula 
+
+[MULTIPLE_CHOICE]
+> Como o Óscar sabia do problema da Jennifer?
++ Ela estava falando alto do lado de fora da sala dele.
+- Um dos alunos dela disse a ele.
+- Ele leu os e-mails pessoais dela.
+
+[MATCH]
+> Toque nos pares
+- podemos <> podemos
+- es <> é
+- preocupas <> preocupas
+- ayudarte <> te ajudar
+- Yo <> eu
+
