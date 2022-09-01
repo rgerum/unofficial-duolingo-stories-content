@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Yeni Bir Ceket
+icon=966f6e25540bc4ba5347e59005bcc1e2827fdd66
+set=4|2
+
+[HEADER]
+> A   New  Coat 
+~ Bir Yeni Ceket
+
+[LINE]
+> A   woman talks   to~Vikram in  a   store. 
+~ Bir Kadın konuşur Vikram'la -da bir mağaza 
+
+[MULTIPLE_CHOICE]
+> Bir kadın, bir mağazada Vikram ile konuşuyor.
+- Hayır, bu doğru değil.
++ Evet, bu doğru.
+
+[LINE]
+Speaker338: Hello!
+~           Selam 
+
+[LINE]
+Speaker593: Hi.   
+~           Selam 
+
+[LINE]
+Speaker338: Do~you  work      here?  
+~           musunuz çalışıyor burada 
+
+[LINE]
+Speaker593: I,   uhh...
+~           ben  ~     
+
+[POINT_TO_PHRASE]
+> "Yardım" anlamına gelen seçeneği tıklayın.
+Speaker338: (Good)! (I)     (need)          (+help).   
+~            İyi     benim   ihtiyacım~var    yardıma  
+
+[LINE]
+Speaker338: I     need          a   new  coat. 
+~           benim ihtiyacım~var bir yeni ceket 
+
+[LINE]
+Speaker338: Do~you~like   the~red~coat? 
+~           beğendiniz~mi kırmızı~ceket 
+
+[LINE]
+Speaker338: Or    do you~like   the~brown~coat?   
+~           yoksa mi beğendiniz kahverengi~ceketi 
+
+[LINE]
+Speaker593: Hmm, OK…   
+~           ~    tamam 
+
+[LINE]
+Speaker593: The brown      coat  is nice  and cheap.
+~           ~   Kahverengi ceket ~  Güzel ve  ucuz  
+
+[LINE]
+Speaker593: But   the red     coat  is very beautiful.
+~           Fakat ~   kırmızı ceket ~  çok  güzel     
+
+[MULTIPLE_CHOICE]
+> Vikram, kırmızı ceketin ...
+- … çirkin olduğunu düşünüyor.
++ … gerçekten güzel olduğunu düşünüyor.
+- … çok enteresan olduğunu düşünüyor.
+
+[LINE]
+Speaker593: And it~is warm. 
+~           Ve  bu    sıcak 
+
+[LINE]
+Speaker593: It~is perfect  for  you!  
+~           bu    mükemmel için sizin 
+
+[LINE]
+Speaker338: OK,    I   want      the~red~coat!  
+~           tamam  ben istiyorum kırmızı~ceketi 
+
+[LINE]
+Speaker338: Thank~you!       You are~good at  your~job!
+~           teşekkür~ederim  siz iyisiniz -de işiniz   
+
+[MULTIPLE_CHOICE]
+> Kadın ne demek istiyor?
+- Vikram'ın yeni bir iş bulması gerektiğini.
++ Vikram'ın işinde iyi olduğuna inandığını.
+- Kırmızı ceketin çirkin olduğunu.
+
+[LINE]
+Speaker338: Where  do~I~pay            for  the coat? 
+~           nereye ben~ödeme~yapacağım için ~   ceket 
+
+[LINE]
+Speaker593: I~don't~know.
+~           bilmiyorum   
+
+[MULTIPLE_CHOICE]
+> Vikram ...
+- … Ceket için ödeme yapmak istiyor.
+- … Kadının ceket için parayı nerede ödeyeceğini biliyor.
++ … Kadının ceket için parayı nerede ödeyeceğini bilmiyor.
+
+[LINE]
+Speaker593: I~don't~work here.  
+~           çalışmıyorum burada 
+
+[MULTIPLE_CHOICE]
+> Hikayede ne oldu?
+- Bir kadın Vikram'ın yeni bir şapka almasına yardım etti.
++ Bir kadın hata yaptı ve Vikram'ın mağazada çalıştığını düşündü.
+- Bir kadın Vikram'a mağazada iş verdi.
+
+[MATCH]
+> Çiftlere dokun
+- at <> -de
+- store <> mağaza
+- woman <> Kadın
+- talks <> konuşur
+- work <> çalışıyor
+
