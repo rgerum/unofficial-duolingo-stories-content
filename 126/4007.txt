@@ -1,0 +1,193 @@
+[DATA]
+fromLanguageName=A foto de bebê
+icon=608435f5b2c3eaa0011590abf47e1ae92b8138bf
+set=50|4
+
+[HEADER]
+> The Baby~Photo  
+~ a   foto~de~bebê
+
+[LINE]
+> Zari runs~into           her~neighbor~Bea's~apartment.   
+~ Zari entra~correndo~(no) apartamento~de~sua~vizinha,~Bea 
+
+[LINE]
+Speaker418: Bea! Help!   
+~           Bea  socorro 
+
+[LINE]
+Speaker507: Zari, what's~wrong?      Are~you~OK?   
+~           Zari  qual~é~o~problema  você~está~bem 
+
+[LINE]
+Speaker418: No!  It's an  emergency! 
+~           não  é    uma emergência 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker507: Are~you   hurt?   [Are~you~bleeding]?   
+~           você~está ferida   você~está~sangrando  
++ Are you bleeding
+- Are you reading
+- Were you eating
+
+[LINE]
+Speaker418: No,  it's worse than   bleeding!         
+~           não  é    pior  do~que (estar)~sangrando 
+
+[LINE]
+Speaker507: Worse?
+~           pior  
+
+[LINE]
+Speaker418: I  accidentally   sent   an  embarrassing~picture to   the cutest~boy       at~my    school.
+~           eu acidentalmente enviei uma foto~embaraçosa      para o   garoto~mais~fofo na~minha escola 
+
+[MULTIPLE_CHOICE]
+> What is Zari's~emergency?    
+~ qual é  a~emergência~da~Zari 
+- She forgot   a~cute~boy's~name.       
+~ ela esqueceu o~nome~de~um~garoto~fofo 
+- She's    hurt      and bleeding. 
+~ ela~está machucada e   sangrando 
++ She accidentally   sent   a   picture to   a  boy.   
+~ ela acidentalmente enviou uma foto    para um menino 
+
+[LINE]
+Speaker507: Oh, no…  that is worse.
+~           ah  não  isso é  pior  
+
+[LINE]
+Speaker418: Right?!
+~           né?!   
+
+[CONTINUATION]
+> What  comes next?  
+~ o~que vem   depois 
+Speaker507: Show~me   the [picture].
+~           me~mostra a    foto     
+- school
+~ escola
++ picture
+~ foto   
+- neighbor
+~ vizinha 
+
+[LINE]
+Speaker418: Here~it~is…
+~           aqui~está  
+
+[LINE]
+Speaker507: Is~that…
+~           essa~é  
+
+[LINE]
+Speaker418: My        baby~photo?   Yes, it~is.
+~           (a)~minha foto~de~bebê  sim  é     
+
+[MULTIPLE_CHOICE]
+> It's a   picture…
+~ é    uma foto    
++ …of Zari as~a~baby.  
+~  de Zari quando~bebê 
+- …of~Zari's~school. 
+~  da~escola~da~Zari 
+- …of~Bea's~baby. 
+~  do~bebê~da~Bea 
+
+[LINE]
+Speaker507: Well… that's~not terrible…
+~           bem   isso~não~é terrível 
+
+[LINE]
+Speaker418: I  sent   it  with the text~message      "I  have~loved  you  since the day I           was~born."
+~           eu enviei ela com  a   mensagem~de~texto  eu tenho~amado você desde o   dia (em~que)~eu nasci     
+
+[LINE]
+Speaker507: What? 
+~           o~quê 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker418: [(I)  (was~trying)      (to~send~it) (to~my)          (mom).]
+~             eu   estava~tentando   enviar~ela   para~(a)~minha   mãe   
+
+[LINE]
+Speaker418: What  should~I~do?!   Tell~me what  to~do, Bea.
+~           o~que eu~devo~fazer   me~diga o~que fazer  Bea 
+
+[LINE]
+Speaker507: You  can~study    a~lot. Then,  you  can~graduate~from~school early.      
+~           você pode~estudar muito  então  você pode~terminar~a~escola   (mais)~cedo 
+
+[LINE]
+Speaker507: After~that,   you  won't~have~to~see him again!  
+~           depois~disso  você não~terá~que~ver  ele de~novo 
+
+[LINE]
+Speaker418: Bea…
+~           Bea 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker507: Or you~can~move       to   another city.   I  can~help~you~find             a  job.      Do~you~know [how~to~fish]?
+~           ou você~pode~se~mudar para outra   cidade  eu posso~ajudar~você~a~encontrar um trabalho  você~sabe    como~pescar  
+- how to wish
++ how to fish
+- now two fish
+
+[LINE]
+Speaker418: Bea!
+~           Bea 
+
+[LINE]
+Speaker507: Don't~worry,     Zari. It's embarrassing, but you  were so  cute!
+~           não~se~preocupa  Zari  é    embaraçoso    mas você era  tão fofa 
+
+[LINE]
+Speaker507: If~you~tell    him     it~was    an accident, he  will~understand.
+~           se~você~contar (a)~ele (que)~foi um acidente  ele entenderá       
+
+[ARRANGE]
+> Toque no que escutar
+> [(Zari) (gets)   (a)   (text~message).]     
+~   Zari   recebe   uma   mensagem~de~texto   
+
+[LINE]
+Speaker418: It's him!
+~           é    ele 
+
+[LINE]
+Speaker507: What  does~the~message say?
+~           o~que a~mensagem       diz 
+
+[LINE]
+Speaker418: He…  doesn't~recognize my      number.
+~           ele  não~reconhece     (o)~meu número 
+
+[LINE]
+Speaker507: That's great! He  doesn't~know   the photo is from you! 
+~           isso~é ótimo  ele não~sabe~(que) a   foto  é  de   você 
+
+[LINE]
+Speaker418: No,  it's terrible! He  doesn't~even~know who  I  am! 
+~           não  é    terrível  ele nem~sequer~sabe   quem eu sou 
+
+[MULTIPLE_CHOICE]
+> Why     is~Zari   upset    at~the end of~the story?   
+~ por~que Zari~está chateada no     fim da     história 
+- Her~mom    sent~her        a   strange~text~message.      
+~ a~mãe~dela enviou~para~ela uma mensagem~de~texto~estranha 
+- She is~moving    to   a   new  city.  
+~ ela vai~se~mudar para uma nova cidade 
++ The boy    she     likes doesn't~know who  she is.
+~ o   garoto que~ela gosta não~sabe     quem ela é  
+
+[MATCH]
+> Toque nos pares
+- embarrassing <> embaraçoso
+- Bea <> Bea
+- Right?! <> né?!
+- That's <> isso é
+- am <> sou
+
