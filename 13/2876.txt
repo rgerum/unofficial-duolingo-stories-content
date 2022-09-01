@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=The Letter
+icon=1517cbcf4f4e76f1dc8b0687b90969af2c828c4f
+set=24|3
+
+[HEADER]
+> La  lettre 
+~ the letter 
+
+[LINE]
+> Zari et  Lily passent~devant une librairie.
+~ Zari and Lily pass~by        a   bookstore 
+
+[LINE]
+Speaker418: On~entre            ? J'adore les~livres.
+~           should~we~go~inside   I~love  books      
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker416: C'est~pour~ça [qu'on~est~amies].     
+~           that's~why     (that)~we're~friends  
++ qu'on est amies
+- qu'on est mamies
+- qu'on a dormi
+
+[LINE]
+> Les filles entrent dans la  librairie.
+~ the girls  go      into the bookstore 
+
+[ARRANGE]
+> Tap what you hear
+> [(Zari) (prend)    (un~livre) (et)  (l'ouvre).] 
+~   Zari   picks~up   a~book     and   opens~it   
+
+[LINE]
+Speaker418: Lily ! Il~y~a   une vieille lettre dans ce   livre !
+~           Lily   there~is an  old     letter in   this book   
+
+[LINE]
+Speaker416: Qu'est-ce~qui~est~écrit ?
+~           what's~written           
+
+[LINE]
+Speaker418: Un homme qui~s'appelle Joseph écrit  à  son amie,   Gabrielle.
+~           a  man   whose~name~is Joseph writes to his friend  Gabrielle 
+
+[LINE]
+Speaker418: Il veut  un conseil.        
+~           he wants a  piece~of~advice 
+
+[LINE]
+Speaker416: Pourquoi ?
+~           why       
+
+[LINE]
+Speaker418: Il aime  deux femmes, Catherine et  Mélanie.
+~           he loves two  women   Catherine and Mélanie 
+
+[LINE]
+Speaker418: Catherine est très intelligente.
+~           Catherine is  very intelligent  
+
+[LINE]
+Speaker418: Mais Mélanie est très drôle.
+~           but  Mélanie is  very funny 
+
+[LINE]
+Speaker418: Et  il ne~sait~pas  avec~quelle  femme se~marier !
+~           and he doesn't~know (with)~which woman to~marry   
+
+[MULTIPLE_CHOICE]
+> Joseph didn't know…
++ …who to marry.
+- …where to find the bookstore.
+- …his wife's name.
+
+[LINE]
+Speaker416: J'espère qu'il   est~resté célibataire.
+~           I~hope   that~he stayed    single      
+
+[LINE]
+Speaker418: Qu'est-ce~que Gabrielle~lui~a~dit    ?! Je veux savoir  !
+~           what          did~Gabrielle~tell~him    I  want to~know  
+
+[POINT_TO_PHRASE]
+> Choose the option that means "bookstore owner."
+> (La)  (+libraire)        (vient) (leur~parler).    
+~  the    bookstore~owner   comes   to~talk~to~them  
+
+[LINE]
+Speaker3233: Oh, ce   livre est très bon  !
+~            oh  that book  is  very good  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker3233: Il était à~mon~mari.   Malheureusement, il [n'est~plus~avec~nous]...
+~            it was   my~husband's  unfortunately    he  is~no~longer~with~us    
+- n'est plus avec vous
+- n'est plus chez vous
++ n'est plus avec nous
+
+[LINE]
+Speaker418: Je suis désolée.
+~           I  am   sorry   
+
+[LINE]
+Speaker416: Votre mari~s'appelait    Joseph ?
+~           your  husband's~name~was Joseph  
+
+[LINE]
+Speaker3233: Oui !
+~            yes  
+
+[LINE]
+Speaker418: Waouh ! Vous~êtes Catherine ou Mélanie ?
+~           wow     are~you   Catherine or Mélanie  
+
+[LINE]
+> La  libraire        sourit.
+~ the bookstore~owner smiles 
+
+[LINE]
+Speaker3233: Moi,~c'est Gabrielle.
+~            I'm        Gabrielle 
+
+[MULTIPLE_CHOICE]
+> Who did Joseph marry?
++ his friend, Gabrielle
+- all of the women
+- no one
+
+[MATCH]
+> Tap the pairs
+- drôle <> funny
+- n'est plus avec nous <> is no longer with us
+- un livre <> a book
+- à mon mari <> my husband's
+- librairie <> bookstore
+
