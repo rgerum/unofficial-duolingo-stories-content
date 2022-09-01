@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Una conversación interesante
+icon=0bec9c96a6832f8cc779c53de0e307e0a7f43c62
+set=11|3
+
+[HEADER]
+> Une conversation intéressante
+~ una conversación interesante 
+
+[LINE]
+> Béa est  dans un parc,   sur un~banc.  
+~ Béa está en   un parque  en  una~banca 
+
+[LINE]
+Speaker258: Bonjour     ! Il~y~a quelqu'un ici  ?
+~           buenos~días   hay    alguien   aquí  
+
+[LINE]
+Speaker507: Non.
+~           no  
+
+[LINE]
+Speaker507: J'attends         mon amie,  mais elle est  en~retard.
+~           estoy~esperando~a mi  amiga  pero ella está retrasada 
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "novio".
+Speaker507: (Elle) (vient)      (avec) son (+copain).
+~            ella   va~a~venir   con   su    novio   
+
+[LINE]
+Speaker258: Je~vois...
+~           ya~veo    
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker507: Je~suis~trop~contente~de [le~rencontrer] !
+~           me~alegro~mucho~de        conocerlo       
+- me concentrer
+- la raconter
++ le rencontrer
+
+[LINE]
+Speaker507: Elle l'aime beaucoup.
+~           ella lo~ama mucho    
+
+[LINE]
+Speaker258: Ah, oui ?
+~           ah  sí   
+
+[LINE]
+Speaker507: Elle va   le~demander~en~mariage...
+~           ella va~a proponerle~matrimonio    
+
+[LINE]
+Speaker507: ... ce   week-end      !
+~               este fin~de~semana  
+
+[MULTIPLE_CHOICE]
+> La amiga de Béa va a…
+- … irse de vacaciones con Béa este fin de semana.
++ … proponerle matrimonio a su novio este fin de semana.
+- … comprar una casa con su novio el próximo mes.
+
+[LINE]
+Speaker258: Vraiment  ?
+~           de~verdad  
+
+[LINE]
+Speaker507: Oui, c'est trop romantique !
+~           sí   es    tan  romántico   
+
+[LINE]
+Speaker507: Voilà     mon amie  !
+~           aquí~está mi  amiga  
+
+[LINE]
+Speaker507: Salut, Marion !
+~           hola   Marion  
+
+[LINE]
+Speaker260: Salut, Béa.
+~           hola   Béa 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker260: Super  ! [Tu~es~avec] Léo.
+~           genial    estás~con   Léo 
++ Tu es avec
+- Tu n'es pas prête
+- Tu es au sec
+
+[LINE]
+Speaker507: Qui   ?
+~           quién  
+
+[LINE]
+Speaker260: Mon copain, Léo.
+~           mi  novio   Léo 
+
+[LINE]
+Speaker507: Oh, non !
+~           ay  no   
+
+[LINE]
+Speaker258: Enchanté,  Béa.
+~           encantado  Béa 
+
+[MULTIPLE_CHOICE]
+> ¡Ups! Béa accidentalmente le dijo a Léo que...
++ … su novia va a proponerle matrimonio.
+- … su novia va a terminar con él.
+- … ella está saliendo con la novia de él.
+
+[MATCH]
+> Selecciona los pares
+- un banc <> una banca
+- est <> está
+- Bonjour <> buenos días
+- Qui <> quién
+- Marion <> Marion
+
