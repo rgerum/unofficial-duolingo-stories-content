@@ -1,0 +1,154 @@
+[DATA]
+fromLanguageName=Chụp ảnh cho em
+icon=7dd783a29013b7951880f8d2428316358039470c
+set=7|3
+
+[HEADER]
+> Take~My~Photo  
+~ chụp~ảnh~cho~em
+
+[LINE]
+> Zari stops    her~art~teacher,              Oscar, outside     the~classroom.
+~ Zari chặn~lại thầy~giáo~mỹ~thuật~của~cô~ấy  Oscar  ở~bên~ngoài lớp~học       
+
+[LINE]
+Speaker418: Can~you~take~my~photo,           please?
+~           thầy~chụp~ảnh~cho~em~được~không  làm~ơn 
+
+[LINE]
+Speaker592: Why?    
+~           tại~sao 
+
+[LINE]
+Speaker418: I  need it for my~social~media.         
+~           em cần  nó cho trang~mạng~xã~hội~của~em 
+
+[MULTIPLE_CHOICE]
+> Vì sao Zari muốn Oscar chụp ảnh cô ấy?
+- Cô ấy muốn gửi nó cho một cậu bạn cùng lớp.
+- Cô ấy không biết dùng máy ảnh.
++ Cô ấy muốn đăng bức ảnh lên mạng xã hội.
+
+[LINE]
+Speaker592: I'm       late~for~a~meeting with the~other~teachers,   Zari.
+~           thầy~đang bị~trễ~họp         với  những~giáo~viên~khác  Zari 
+
+[LINE]
+Speaker418: Please!    
+~           đi~mà~thầy 
+
+[LINE]
+Speaker592: Ugh, OK.           
+~           hừm  thôi~được~rồi 
+
+[LINE]
+Speaker418: Thanks.      Here's my~phone.         
+~           cảm~ơn~thầy  đây~là điện~thoại~của~em 
+
+[LINE]
+Speaker592: OK.      
+~           được~rồi 
+
+[LINE]
+Speaker418: Wait.     Do~I~look~good?   
+~           đợi~đã~ạ  trông~em~ổn~chứ~ạ 
+
+[SELECT_PHRASE]
+> Chọn cụm từ còn thiếu
+Speaker592: [I~don't~know].
+~            thầy~chịu     
+- I do now
+- I do not
++ I don't know
+
+[LINE]
+Speaker418: Yes.      I  always~look~good.    
+~           phải~rồi  em trông~lúc~nào~chả~ổn 
+
+[LINE]
+Speaker592: Great.    
+~           tuyệt~vời 
+
+[POINT_TO_PHRASE]
+> Chọn từ có nghĩa là “bên cạnh”.
+Speaker418: (Wait).   (Do~you~want)        to~take~the~photo (+next~to)  (the~door)…
+~            đợi~đã    thầy~có~muốn…không  chụp~bức~ảnh        bên~cạnh   cái~cửa   
+
+[LINE]
+Speaker418: …or     in~front~of the~door?
+~            hay~là phía~trước  cái~cửa  
+
+[LINE]
+Speaker592: Next~to~the~door.
+~           cạnh~cửa~nhé     
+
+[LINE]
+Speaker418: Maybe    in~front~of~the~door…
+~           có~lẽ~là trước~cửa~đi~ạ       
+
+[LINE]
+Speaker592: Zari!
+~           Zari 
+
+[MULTIPLE_CHOICE]
+> Vì sao Oscar lại bực mình?
+- Zari đứng chắn ngang cửa.
++ Zari mãi không chọn được chỗ chụp.
+- Zari muốn thay sang một bộ đồ mới.
+
+[LINE]
+Speaker418: OK!       Take~the~photo.  
+~           được~rồi  chụp~ảnh~đi~thầy 
+
+[LINE]
+> Oscar takes~a~photo.    
+~ Oscar chụp~một~kiểu~ảnh 
+
+[LINE]
+Speaker418: Thanks!     
+~           cảm~ơn~thầy 
+
+[LINE]
+Speaker418: Wait.   This~is~wrong. 
+~           đợi~đã  không~phải~rồi 
+
+[LINE]
+Speaker418: This is a~photo~of you. 
+~           đây  là ảnh~chụp   thầy 
+
+[LINE]
+Speaker418: I  want you  to~take~a~photo~of~me!
+~           em muốn thầy chụp~ảnh~em~cơ~mà     
+
+[LINE]
+Speaker418: Oh~no!    Is~it~already online?!  
+~           ôi~không  nó~đã…rồi~sao lên~mạng  
+
+[MULTIPLE_CHOICE]
+> Zari đang không biết liệu Oscar…
++ …đã đăng bức ảnh lên mạng hay chưa.
+- …có phải là một thợ ảnh chuyên nghiệp.
+- …có phải đã dùng điện thoại của cô ấy để gọi pizza.
+
+[LINE]
+Speaker592: Oops.
+~           úi   
+
+[LINE]
+Speaker418: Oh… look!     Fifty~people like  your~photo!  
+~           ồ   nhìn~này  50~người     thích ảnh~của~thầy 
+
+[MULTIPLE_CHOICE]
+> Có bao nhiêu người đã thích bức ảnh tự sướng của Oscar?
+- không một ai
+- chỉ có mỗi Zari
++ năm mươi người
+
+[MATCH]
+> Nhấn vào các cặp từ
+- late for a meeting <> bị trễ họp
+- Ugh <> hừm
+- Next to the door <> cạnh cửa nhé
+- next to <> bên cạnh
+- online <> lên mạng
+
