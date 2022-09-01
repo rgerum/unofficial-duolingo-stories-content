@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=O filme de terror
+icon=1038afc2cf4744d25820807d461131e153f7ddcf
+set=23|1
+
+[HEADER]
+> The Horror~Movie   
+~ o   filme~de~terror
+
+[LINE]
+> Lily and Zari arrive at~the movie~theater.
+~ Lily e   Zari chegam ao     cinema        
+
+[LINE]
+> A  boy    from~their~school is~working       there.
+~ um menino da~escola~delas   está~trabalhando lá    
+
+[LINE]
+Speaker418: Hi, Billy! Two  tickets   for  "Blood~Lake",     please!   
+~           oi  Billy  dois ingressos para  Lago~de~Sangue   por~favor 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker1649: No,  [you're~too~young]             to~see that movie.
+~            não   vocês~são~jovens~demais~para  ver    esse filme 
+- you aren't young
++ you're too young
+- you're too fun
+
+[LINE]
+Speaker416: But you  always sell~us   tickets   for  horror~movies!   
+~           mas você sempre nos~vende ingressos para filmes~de~terror 
+
+[LINE]
+Speaker1649: You  also   have     coffees from~the cafe      across~the       street.
+~            você também está~com cafés   da       cafeteria do~outro~lado~da rua    
+
+[ARRANGE]
+> Toque no que escutar
+Speaker1649: [(You)  (can't~bring)     (those) (into~the)       (theater).]       
+~              você   não~pode~trazer   esses   para~dentro~da   sala~de~cinema   
+
+[LINE]
+> Lily takes both     coffees and throws them in~the trash.
+~ Lily leva  ambos~os cafés   e   joga   eles no     lixo  
+
+[LINE]
+Speaker418: Aw, my  coffee! With extra~chocolate~and~cream!
+~           oh  meu café    com  chocolate~e~creme~extra   
+
+[LINE]
+Speaker416: Sorry.   
+~           desculpe 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker1649: Well, you   still can't~have    [a  ticket].  
+~            bem   vocês ainda não~podem~ter  um ingresso  
+- this trash
+~ este lixo 
++ a  ticket  
+~ um ingresso
+- more chocolate
+~ mais chocolate
+
+[LINE]
+Speaker416: Why?    
+~           por~quê 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker1649: [(You)   (always) (talk)      (during)  (movies).]
+~              vocês   sempre   conversam   durante   filmes   
+
+[LINE]
+Speaker418: Why     are~you~doing~this,     Billy? We're     friends!
+~           por~que você~está~fazendo~isto  Billy  nós~somos amigos  
+
+[LINE]
+Speaker1649: If we're     friends, then  why     can't~I~be         in your band? 
+~            se nós~somos amigos   então por~que eu~não~posso~estar na sua  banda 
+
+[MULTIPLE_CHOICE]
+> Ahá! O Billy não vai vender os ingressos para ela porque…
++ …ele quer fazer parte da banda delas.
+- …o cinema já está lotado.
+- …elas jogaram o café dele no lixo.
+
+[LINE]
+Speaker418: Uh… what band? 
+~           hã  que  banda 
+
+[LINE]
+Speaker1649: I  heard you   talking about starting a   band  in class.       
+~            eu ouvi  vocês falando sobre começar  uma banda na sala~de~aula 
+
+[LINE]
+Speaker416: OK,       fine.     We  need          a  guitar~player.
+~           tá~certo  tudo~bem  nós precisamos~de um guitarrista   
+
+[LINE]
+Speaker1649: Great! When   is the next    band~practice?  
+~            ótimo  quando é  o   próximo ensaio~da~banda 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker416: Tomorrow, [after~school].    
+~           amanhã     depois~da~escola  
+- have to scroll
+- at this cool
++ after school
+
+[LINE]
+Speaker418: Now   can~we~please~have        two  tickets   to~see   "Blood~Lake"?    
+~           agora nós~podemos~por~favor~ter dois ingressos para~ver  Lago~de~Sangue  
+
+[LINE]
+Speaker1649: Sure,  but not until tomorrow|—after     our   first    band~practice.  
+~            claro  mas não até   amanhã    depois~do nosso primeiro ensaio~da~banda 
+
+[MULTIPLE_CHOICE]
+> Quando a Zari e a Lily podem assistir a "Lago de Sangue"?
++ depois do Billy ensaiar junto com a banda
+- depois de comprarem mais café
+- quando elas quiserem
+
+[MATCH]
+> Toque nos pares
+- Zari <> Zari
+- tickets <> ingressos
+- OK <> tá certo
+- talking <> falando
+- until <> até
+
