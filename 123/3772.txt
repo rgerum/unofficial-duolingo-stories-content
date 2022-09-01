@@ -1,0 +1,135 @@
+[DATA]
+fromLanguageName=Estoy enfermo
+icon=68ffeb0d8b8a73e7de5cd3b964b34d0e08761977
+set=9|3
+
+[HEADER]
+> Je suis  malade 
+~ yo estoy enfermo
+
+[LINE]
+Speaker415: Papa ! Je suis  malade  !
+~           papá   yo estoy enfermo  
+
+[LINE]
+Speaker414: Oh, non !
+~           ay  no   
+
+[LINE]
+> Eddy touche  le~front~de Junior.
+~ Eddy le~toca la~frente~a Junior 
+
+[LINE]
+Speaker414: Tu n'as~pas  de~température.
+~           tú no~tienes fiebre         
+
+[MULTIPLE_CHOICE]
+> Junior tiene fiebre.
+- Sí, así es.
++ No, no es así.
+
+[LINE]
+Speaker415: Mais j'ai~mal~à l'oreille ! Je veux   aller chez~le          docteur !
+~           pero me~duele   el~oído     yo quiero ir    a~la~oficina~del doctor   
+
+[LINE]
+Speaker414: OK...       
+~           está~bien   
+
+[LINE]
+> Ils   vont chez~le          docteur.
+~ ellos van  a~la~oficina~del doctor  
+
+[LINE]
+Speaker127: Ah, Junior !
+~           ah  Junior  
+
+[LINE]
+Speaker127: Comment~vas-tu ?
+~           cómo~estás      
+
+[LINE]
+Speaker414: Il~a~mal~à l'oreille.
+~           le~duele   el~oído   
+
+[LINE]
+Speaker127: Oh, non ! Je vais  regarder ça. 
+~           ay  no    yo voy~a mirar    eso 
+
+[MULTIPLE_CHOICE]
+> ¿Qué va a hacer el doctor?
++ examinar el oído de Junior
+- llamar a una ambulancia
+- tocarle la frente a Eddy
+
+[LINE]
+> Le docteur regarde l'oreille de Junior.
+~ el doctor  mira    el~oído   de Junior 
+
+[LINE]
+Speaker127: Hmm… Ton oreille va~bien.  
+~           mmm  tu  oído    está~bien 
+
+[LINE]
+Speaker415: Oh ! Euh… J'ai~mal~au pied.
+~           ah   eh   me~duele~el pie  
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+> [(Le) (docteur) (regarde) (le~pied) (de) (Junior).]
+~   el   doctor    mira      el~pie    de   Junior   
+
+[LINE]
+Speaker127: Ton pied va~bien,   Junior.
+~           tu  pie  está~bien  Junior 
+
+[LINE]
+Speaker414: Docteur, il va~bien   ?
+~           doctor   él está~bien  
+
+[LINE]
+Speaker127: Oui.
+~           sí  
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker127: [Tu~n'es~pas~malade],  Junior.
+~            tú~no~estás~enfermo   Junior 
++ Tu n'es pas malade
+- Quand tu es malade
+- Tu n'es pas une salade
+
+[LINE]
+Speaker415: Je suis  malade  !
+~           yo estoy enfermo  
+
+[LINE]
+Speaker127: Junior... C'est pour les bonbons que tu es    ici  ?
+~           Junior    es    por  los dulces  que tú estás aquí  
+
+[LINE]
+Speaker415: Euh… Oui.
+~           ah   sí  
+
+[LINE]
+Speaker414: Junior !
+~           Junior  
+
+[LINE]
+Speaker415: Je~peux prendre un bonbon maintenant ?
+~           puedo   tomar   un dulce  ahora       
+
+[MULTIPLE_CHOICE]
+> ¡Ay, Junior! ¿Por qué quería ver al doctor?
+- Junior estaba muy enfermo.
++ El doctor siempre le da dulces.
+- Junior tenía un regalo para el doctor.
+
+[MATCH]
+> Selecciona los pares
+- OK <> está bien
+- Tu <> tú
+- J'ai mal au <> me duele el
+- le front de <> la frente a
+- malade <> enfermo
+
