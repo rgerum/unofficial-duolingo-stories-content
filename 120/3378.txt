@@ -1,0 +1,128 @@
+[DATA]
+fromLanguageName=An Interesting Conversation
+icon=6711cee61441da3d7aa6099466d6fff137239c3a
+set=6|2
+
+[HEADER]
+> Una conversazione~interessante
+~ an  interesting~conversation  
+
+[LINE]
+> Isabella è  al     parco. Leonardo le~si~avvicina.
+~ ~        is at~the park   ~        approaches~her 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker258: Mi~scusi,  [posso~sedermi]  qui? 
+~           excuse~me   I~can~sit~down  here 
+- passo a sedermi
++ posso sedermi
+- posso vedermi
+
+[LINE]
+Speaker259: Sì. 
+~           yes 
+
+[LINE]
+Speaker259: Sto~aspettando   un'|amica. 
+~           I~am~waiting~for a   friend 
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "boyfriend."
+Speaker259: (Verrà)       (con~il)   (+ragazzo).  
+~            she'll~come   with~her    boyfriend  
+
+[LINE]
+Speaker258: Bene.
+~           nice 
+
+[LINE]
+Speaker259: Sono molto emozionata di~conoscere il~ragazzo~della~mia~amica.
+~           I~am very  excited    to~meet      my~friend's~boyfriend      
+
+[CONTINUATION]
+> What comes next?
+Speaker259: Le~piace        [molto].      
+~           she~likes~(him)  (very)~much  
+- ragazzo  
+~ boyfriend
+- amica 
+~ friend
++ molto      
+~ (very)~much
+
+[LINE]
+Speaker258: Interessante...
+~           interesting    
+
+[LINE]
+Speaker259: Gli~chiederà     di~sposarla... 
+~           she~will~ask~him to~marry~her   
+
+[LINE]
+Speaker259: ... questo fine~settimana!
+~               this   week~end       
+
+[MULTIPLE_CHOICE]
+> Isabella's friend is going to...
++ … propose to her boyfriend this weekend.
+- … buy a house with her boyfriend next month.
+- ... go on vacation with her this weekend.
+
+[LINE]
+Speaker258: Questo fine~settimana?
+~           this   week~end       
+
+[LINE]
+Speaker259: Sì.  È    così eccitante!
+~           yes  it's so   exciting  
+
+[LINE]
+Speaker259: Oh! La~mia amica  è  qui! 
+~           ~   my     friend is here 
+
+[LINE]
+Speaker259: Ciao, Emilia.
+~           hi    ~      
+
+[LINE]
+Speaker260: Ciao, Isabella!
+~           hi    ~        
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker260: Vedo  che  [hai~già~conosciuto]   Leonardo! Splendido!
+~           I~see that  you~have~already~met  ~         great     
+- allo sconosciuto
++ hai già conosciuto
+- ha riconosciuto
+
+[LINE]
+Speaker259: Come? Non~capisco.       
+~           what  I~don't~understand 
+
+[LINE]
+Speaker260: Il~mio ragazzo,   Leonardo. È~seduto      di~fianco~a te! 
+~           my     boyfriend  ~         he~is~sitting next~to     you 
+
+[LINE]
+Speaker259: Oh, no!
+
+[LINE]
+Speaker258: Piacere~di~conoscerti, Isabella.
+~           nice~to~meet~you       ~        
+
+[MULTIPLE_CHOICE]
+> What did Leonardo just discover?
+- That his girlfriend is going to break up with him.
++ That his girlfriend is going to propose to him.
+- That nothing interesting will happen to him.
+
+[MATCH]
+> Tap the pairs
+- Ciao <> hi
+- molto <> very
+- Come <> what
+- te <> you
+- posso sedermi <> I can sit down
+
