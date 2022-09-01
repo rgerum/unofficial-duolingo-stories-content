@@ -1,0 +1,150 @@
+[DATA]
+fromLanguageName=Acampando!
+icon=6a073f6357dc14ea58e162202f936682895b11ec
+set=22|3
+
+[HEADER]
+> Camping!  
+~ acampando 
+
+[LINE]
+> Vikram and his~wife,      Priti, are~camping.     They're~sitting     in~their~tent.   
+~ Vikram e   a~esposa~dele  Priti  estão~acampando  eles~estão~sentados na~barraca~deles 
+
+[LINE]
+Speaker560: I  want  to~check my  email… 
+~           eu quero checar   meu e-mail 
+
+[LINE]
+Speaker593: We  agreed         not to~use our    phones    during  this trip,   remember?
+~           nós concordamos~em não usar   nossos telefones durante esta viagem  lembra   
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker560: You're~right.   [We~should~enjoy~nature].          
+~           você~tem~razão   nós~deveríamos~curtir~a~natureza  
++ We should enjoy nature
+- We sold the nature
+- We should enjoy neither
+
+[LINE]
+Speaker593: Let's~make  dinner   now.   I'm      hungry!  
+~           vamos~fazer o~jantar agora  eu~estou com~fome 
+
+[LINE]
+Speaker560: Uh… we  only have  two  apples. We  ate     too~much at lunch. 
+~           hã  nós só   temos duas maçãs   nós comemos demais   no almoço 
+
+[LINE]
+Speaker593: Oh no.  And all   the stores are   closed.  
+~           ah não  e   todas as  lojas  estão fechadas 
+
+[LINE]
+Speaker593: Maybe~camping~was         a   bad idea… 
+~           talvez~acampar~tenha~sido uma má  ideia 
+
+[MULTIPLE_CHOICE]
+> Por que o Vikram disse isso agora?
++ Eles não têm comida para o jantar.
+- Eles não gostam de passar tempo juntos.
+- Eles esqueceram de trazer a barraca deles.
+
+[ARRANGE]
+> Toque no que escutar
+> [(Suddenly),   (Vikram) (hears) (a~noise)    (outside).]        
+~   de~repente    Vikram   ouve    um~barulho   do~lado~de~fora   
+
+[LINE]
+Speaker593: Wait…   did~you~hear~that?
+~           espera  você~ouviu~isso   
+
+[LINE]
+Speaker560: No… 
+~           não 
+
+[LINE]
+Speaker593: Maybe~it's  a  bear…
+~           talvez~seja um urso 
+
+[LINE]
+Speaker593: Do~bears~like~apples?!  
+~           ursos~gostam~de~maçãs   
+
+[CONTINUATION]
+> O que vem depois?
+Speaker560: I'll~look  [outside~the        tent].   
+~           eu~olharei  do~lado~de~fora~da barraca  
++ outside~the        tent   
+~ do~lado~de~fora~da barraca
+- in~the store
+~ na     loja 
+- at our   house
+~ na nossa casa 
+
+[LINE]
+Speaker593: Be~careful!   
+~           tenha~cuidado 
+
+[LINE]
+Speaker593: What~do~you~see?      
+~           o~que~você~está~vendo 
+
+[LINE]
+Speaker560: It's so  dark.   I  don't~see anything.
+~           está tão escuro  eu não~vejo  nada     
+
+[LINE]
+Speaker560: Wait!   I  see         something    near~that     other tent!   
+~           espera  eu estou~vendo alguma~coisa perto~daquela outra barraca 
+
+[LINE]
+Speaker593: What~is~it?
+~           o~que~é    
+
+[LINE]
+Speaker560: It's… a  guy  delivering a   pizza!
+~           é     um cara entregando uma pizza 
+
+[LINE]
+Speaker593: Really?
+~           sério  
+
+[LINE]
+Speaker560: Yeah, those other  campers   ordered a   pizza!
+~           sim   esses outros campistas pediram uma pizza 
+
+[ARRANGE]
+> Toque no que escutar
+> [(Priti) (takes~out) (her~phone).]      
+~   Priti   saca        o~telefone~dela   
+
+[LINE]
+Speaker593: What~are~you~doing?      We  agreed         not to~use our    phones.    
+~           o~que~você~está~fazendo  nós concordamos~em não usar   nossos telefones  
+
+[LINE]
+> Priti makes a   call.   
+~ Priti faz   uma ligação 
+
+[LINE]
+Speaker560: Hi, I'd~like       to~order one pizza!
+~           oi  eu~gostaria~de pedir    uma pizza 
+
+[LINE]
+Speaker593: Actually…   order two! 
+~           na~verdade  peça  duas 
+
+[MULTIPLE_CHOICE]
+> A Priti e o Vikram decidiram…
+- …lutar com um urso por comida.
++ …pedir duas pizzas.
+- …telefonar para os outros campistas.
+
+[MATCH]
+> Toque nos pares
+- makes <> faz
+- to order <> pedir
+- Maybe it's <> talvez seja
+- see <> estou vendo
+- not <> não
+
