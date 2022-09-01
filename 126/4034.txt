@@ -1,0 +1,183 @@
+[DATA]
+fromLanguageName=A entrevista de Junior
+icon=990c177e87e1e541636fcd21d879719817ad82d2
+set=57|3
+
+[HEADER]
+> Junior's~Interview    
+~ a~entrevista~de~Junior
+
+[LINE]
+> Junior enters     Bea's~apartment.    He  is~carrying     a   briefcase.
+~ Junior entra~(no) apartamento~de~Bea  ele está~carregando uma maleta    
+
+[LINE]
+Speaker415: Hello, Bea. I'm      here for  my        interview. 
+~           olá    Bea  eu~estou aqui para (a)~minha entrevista 
+
+[LINE]
+Speaker507: Um…  interview? 
+~           hum  entrevista 
+
+[LINE]
+Speaker415: Yes. My      dad   said        you're~going~on~a~trip. So,    I  would~like    to~apply      for  a  job           watering~your~plants. 
+~           sim  (o)~meu papai disse~(que) você~vai~viajar         então  eu gostaria~(de) me~candidatar para um trabalho~(de) regar~as~suas~plantas 
+
+[MULTIPLE_CHOICE]
+> Junior wants an  interview  because…
+~ Junior quer  uma entrevista porque  
+- …he  wants to~ask~Bea~questions  about her~life.   
+~  ele quer  fazer~perguntas~a~Bea sobre a~vida~dela 
+- …he  wants~Bea~to~buy    some    plants  from~him.
+~  ele quer~que~Bea~compre algumas plantas dele     
++ …he  wants to~take~care of~Bea's~plants.   
+~  ele quer  cuidar       das~plantas~de~Bea 
+
+[LINE]
+Speaker507: Ah! Please,    sit~down.
+~           ~   por~favor  sente-se 
+
+[LINE]
+Speaker415: Thank~you, I  will~sit~down.
+~           obrigado   eu me~sentarei   
+
+[ARRANGE]
+> Toque no que escutar
+> [(He)  (sits~down) (and) (opens) (his~briefcase).]
+~   ele   se~senta    e     abre    a~maleta~dele   
+
+[LINE]
+Speaker507: Would~you~like     a  cookie?  
+~           você~gostaria~(de) um biscoito 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker415: No,  thank~you. [I~don't~eat] during  business~meetings.   
+~           não  obrigado    eu~não~como  durante reuniões~de~negócios 
++ I don't eat
+- I don't read
+- I won't lead
+
+[LINE]
+Speaker507: Good,      because they're  my~roommate's~cookies.                  She's~not~happy    when   I  eat  them.
+~           (que)~bom  porque  eles~são os~biscoitos~da~minha~colega~de~quarto  ela~não~fica~feliz quando eu como eles 
+
+[LINE]
+> Junior gives his     résumé    to   Bea.
+~ Junior dá    (o)~seu currículo para Bea 
+
+[POINT_TO_PHRASE]
+> Choose  the option that means     "giz de cera."
+~ escolha a   opção  que  significa  ~   ~  ~     
+Speaker507: Did~you~write (this) (with) (a)  (+crayon)?     
+~           você~escreveu  isto   com    um    giz~de~cera  
+
+[LINE]
+Speaker415: Yes. Yes,~I~did.     
+~           sim  sim,~eu~escrevi 
+
+[CONTINUATION]
+> What  comes next?  
+~ o~que vem   depois 
+Speaker507: OK.    Why     should~I~give      you  [this job]?     
+~           certo  por~que eu~deveria~dar~(a) você  este trabalho  
++ this job     
+~ este trabalho
+- my  apartment  
+~ meu apartamento
+- a  crayon     
+~ um giz~de~cera
+
+[LINE]
+Speaker415: I  am  very  responsible. I  like       to~work~hard.  
+~           eu sou muito responsável  eu gosto~(de) trabalhar~duro 
+
+[LINE]
+Speaker507: Have~you~watered plants  before?
+~           você~já~regou    plantas antes  
+
+[LINE]
+Speaker415: No,  but I've~been~watching     videos online.
+~           não  mas eu~tenho~assistido~(a) vídeos ~      
+
+[ARRANGE]
+> Toque no que escutar
+Speaker507: [(What)  (are) (your~goals)        (for)  (the~future)?]
+~             quais   são   os~seus~objetivos   para   o~futuro     
+
+[LINE]
+Speaker415: Driving~a~flying~car!   
+~           dirigir~um~carro~voador 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker415: But first    I'll~have my      own     business. And you're my        [first~customer].  
+~           mas primeiro eu~terei  (o)~meu próprio negócio   e   você~é (a)~minha  primeira~cliente  
+- worst customer
++ first customer
+- first costume maker
+
+[LINE]
+Speaker507: Watering~plants is a  very~big~job.             
+~           regar~plantas   é  um trabalho~muito~importante 
+
+[LINE]
+Speaker415: You  only have two  plants.  And they're~dying.      
+~           você só   tem  duas plantas  e   elas~estão~morrendo 
+
+[LINE]
+Speaker507: Right. My        roommate         and I  always forget                to~water them.
+~           certo  (a)~minha colega~de~quarto e   eu sempre (nos)~esquecemos~(de) regar    elas 
+
+[LINE]
+Speaker415: Bea. Listen.
+~           Bea  escuta 
+
+[LINE]
+Speaker507: Yeah?
+~           sim  
+
+[LINE]
+Speaker415: If~you~give~me the job,      you  can~eat    all~of your~roommate's~cookies.              And then,  you  can~tell       her I        ate  them.
+~           se~você~me~der o   trabalho  você pode~comer todos  os~biscoitos~da~sua~colega~de~quarto  e   então  você pode~dizer~(a) ela (que)~eu comi eles 
+
+[MULTIPLE_CHOICE]
+> Junior says    Bea should~give   him the job      because…
+~ Junior diz~que Bea deveria~dar~a ele o   trabalho porque  
++ …she can~say    that Junior ate   all   the cookies.  
+~  ela pode~dizer que  Junior comeu todos os  biscoitos 
+- …he  will~be very  famous one day.
+~  ele será    muito famoso um  dia 
+- …he  will~drive a  flying~car   to   work       every~day.    
+~  ele dirigirá   um carro~voador para o~trabalho todos~os~dias 
+
+[LINE]
+Speaker507: Ooh. Good idea!  You  can~have the job!     
+~           ~    boa  ideia  você pode~ter o   trabalho 
+
+[LINE]
+> They shake   hands.    
+~ eles apertam (as)~mãos 
+
+[LINE]
+Speaker415: We  can~talk      about my      salary  later. 
+~           nós podemos~falar sobre (o)~meu salário depois 
+
+[MULTIPLE_CHOICE]
+> Who  is~going~to~water Bea's~plants      while    she's    away? 
+~ quem vai~regar         as~plantas~de~Bea enquanto ela~está longe 
+- Junior's~dad   
+~ o~pai~de~Junior
++ Junior
+~ Junior
+- her~roommate           
+~ a~colega~de~quarto~dela
+
+[MATCH]
+> Toque nos pares
+- would like <> gostaria
+- résumé <> currículo
+- when <> quando
+- crayon <> giz de cera
+- I'm <> eu estou
+
