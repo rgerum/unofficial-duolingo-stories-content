@@ -1,0 +1,127 @@
+[DATA]
+fromLanguageName=Télétravail
+icon=a791ba499744af6b30bd5863838619250f9b3437
+set=30|3
+
+[HEADER]
+> Work~from~Home
+~ télétravail   
+
+[LINE]
+> Bea is~having a   video~meeting with her boss, Paula.
+~ Bea a         une réunion~vidéo avec sa  chef  Paula 
+
+[LINE]
+Speaker988: Thank~you for~working   from home      while       we   were~fixing the ceilings at~the~office.
+~           merci     de~travailler de   la~maison pendant~que nous réparions   les plafonds du~bureau     
+
+[LINE]
+Speaker507: No~problem!     
+~           pas~de~problème 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker988: But  [I~have~great~news]!       The office will~finally~open~again on~Monday.
+~           mais  j'ai~une~super~nouvelle   le  bureau va~enfin~rouvrir        lundi     
+- I have great shoes
++ I have great news
+- what if they knew
+
+[LINE]
+Speaker507: Uhh… Monday?
+~           euh  lundi  
+
+[LINE]
+Speaker988: Yes, isn't~that   great? 
+~           oui  ce~n'est~pas génial 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker507: [(Well),    (I~like)      (working)    (from) (home)…]     
+~             eh~bien    j'aime~bien   travailler   de     la~maison   
+
+[LINE]
+> A  surfer  walks~by     Bea's~window.     
+~ un surfeur passe~devant la~fenêtre~de~Bea 
+
+[LINE]
+Speaker988: Was~that a  surfer?  You  don't~live    near    the beach…
+~           c'était  un surfeur  vous n'habitez~pas près~de la  plage 
+
+[LINE]
+Speaker507: Uh,  if our   meeting is  finished, then  I'll~see~you   on~Monday!
+~           euh  si notre réunion est finie     alors je~vous~verrai lundi     
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « lever du soleil ».
+> (Paula) (sees) the (+sunrise)         (from) Bea's~window.     
+~  Paula   voit  le    lever~du~soleil   de    la~fenêtre~de~Bea 
+
+[LINE]
+Speaker988: Wait~a~minute,   the sun    is~rising behind   you,  but  it's   eleven~a.m. 
+~           attendez~un~peu  le  soleil se~lève   derrière vous  mais il~est onze~heures 
+
+[MULTIPLE_CHOICE]
+> On dirait que…
+- … le ciel est très nuageux.
++ … Bea n'est pas chez elle.
+- … Bea regarde la télé.
+
+[LINE]
+Speaker988: You're~not~working     from home,      are~you?     
+~           vous~ne~travaillez~pas de   la~maison  n'est-ce~pas 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker507: Yes, [I  am~working from home]…     
+~           si    je travaille  de   la~maison  
+- I  am~fixing the ceilings
+~ je répare    les plafonds
++ I  am~working from home     
+~ je travaille  de   la~maison
+- I  am~taking a  dance~class   
+~ je prends    un cours~de~dance
+
+[LINE]
+> A   seagull flies~in through Bea's~window      and sits    on  her desk.  
+~ une mouette entre    par     la~fenêtre~de~Bea et  se~pose sur son bureau 
+
+[LINE]
+Speaker507: Ahahaha! From my~aunt's~home…        on  an  island.
+~           ahahaha  de   la~maison~de~ma~tante  sur une île    
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker507: [(But)  (this~whole)  (island) (has) (great~wifi)!]   
+~             mais   toute~cette   île      a     un~super~wifi   
+
+[LINE]
+Speaker507: You're~not      mad,       are~you?     
+~           vous~n'êtes~pas en~colère  n'est-ce~pas 
+
+[LINE]
+Speaker988: Actually, it~doesn't~matter      where you  are  right~now. 
+~           en~fait   ce~n'est~pas~important où    vous êtes maintenant 
+
+[LINE]
+Speaker507: Oh, good!
+~           oh  bien 
+
+[LINE]
+Speaker988: But  you  need  to~be on   the first   flight back.  
+~           mais vous devez être  dans le  premier vol    retour 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Bea doit-elle prendre le prochain vol retour ?
+- Elle doit s'occuper de sa tante malade.
++ Elle doit retourner travailler au bureau lundi.
+- Elle est allergique aux mouettes.
+
+[MATCH]
+> Choisis les paires
+- on <> sur
+- we <> nous
+- are you <> n'est-ce pas
+- am working <> travaille
+- don't live <> n'habitez pas
+
