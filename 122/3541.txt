@@ -1,0 +1,159 @@
+[DATA]
+fromLanguageName=Nach dem Weg fragen
+icon=0699ccdd9abbb4922a33be28cf6143a530843cc1
+set=26|4
+
+[HEADER]
+> Asking~for~Directions
+~ nach~dem~Weg~fragen  
+
+[LINE]
+> Lin and Bea are~looking~for a     restaurant in a     small   town. 
+~ Lin und Bea suchen~nach     einem Restaurant in einer kleinen Stadt 
+
+[LINE]
+Speaker507: I'm~tired~of     walking,     and I'm     really   hungry! 
+~           ich~habe~es~satt (zu)~laufen  und ich~bin wirklich hungrig 
+
+[LINE]
+Speaker508: I   think  it's   somewhere in this   area.  
+~           ich glaube es~ist irgendwo  in dieser Gegend 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker508: Everyone says [their~food~is~amazing].  
+~           jeder    sagt  ihr~Essen~sei~großartig  
++ their food is amazing
+- your mood is amazing
+- their food is so lazy
+
+[LINE]
+Speaker507: We  need   to~ask~for~directions.
+~           wir müssen nach~dem~Weg~fragen   
+
+[LINE]
+> They stop    a    woman on  the street.
+~ sie  stoppen eine Frau  auf der Straße 
+
+[LINE]
+Speaker507: Can    you please give~us~directions      to Cecil's Restaurant?
+~           können Sie bitte  uns~den~Weg~beschreiben zu Cecils  Restaurant 
+
+[LINE]
+Speaker1187: Sure! Turn~left           at~the end  of  this   street.
+~            klar  biegen~Sie~links~ab am     Ende von dieser Straße 
+
+[LINE]
+Speaker1187: Then, you~will   see~a~very~attractive~man         sitting~in~front~of~a~red~house.  Turn~right           there.
+~            dann  werden~Sie einen~sehr~attraktiven~Mann~sehen (der)~vor~einem~roten~Haus~sitzt  biegen~Sie~rechts~ab dort  
+
+[MULTIPLE_CHOICE]
+> Wo müssen Lin und Bea rechts abbiegen?
+- bei dem sehr hässlichen Mann am blauen Haus
++ bei dem sehr attraktiven Mann am roten Haus
+- bei dem Restaurant am Ende der Straße
+
+[LINE]
+Speaker508: Thanks.
+~           danke  
+
+[LINE]
+> They turn~left.      
+~ sie  biegen~links~ab 
+
+[ARRANGE]
+> Was hörst du?
+> [(They) (walk)  (down~the~street)    (for) (fifteen~minutes).] 
+~   sie    gehen   die~Straße~entlang   für   fünfzehn~Minuten   
+
+[LINE]
+> Finally,     they~see  a     man  sitting~outside~of~a~red~house.  
+~ schließlich  sehen~sie einen Mann (der)~vor~einem~roten~Haus~sitzt 
+
+[LINE]
+Speaker508: Is  that the man? 
+~           ist das  der Mann 
+
+[CONTINUATION]
+> Was kommt als Nächstes?
+Speaker507: No,   she said       he was [very attractive].
+~           nein  sie hat~gesagt er ist  sehr attraktiv   
++ very attractive
+~ sehr attraktiv 
+- very red
+~ sehr rot
+- really   hungry 
+~ wirklich hungrig
+
+[LINE]
+Speaker508: He is  attractive!
+~           er ist attraktiv  
+
+[LINE]
+Speaker507: But  he's   not   very attractive…
+~           aber er~ist nicht sehr attraktiv  
+
+[LINE]
+Speaker508: Oh. Maybe      you're~right. 
+~           oh  vielleicht hast~du~recht 
+
+[LINE]
+Speaker3135: Excuse~me,         I   can  hear~you. 
+~            entschuldigen~Sie  ich kann Sie~hören 
+
+[LINE]
+Speaker507: Oops, sorry.         
+~           ups   Entschuldigung 
+
+[MULTIPLE_CHOICE]
+> Moment! Warum hat sich Bea gerade entschuldigt?
++ Der Mann hat gehört, wie sie ihn als nicht sehr attraktiv bezeichnet hat.
+- Sie hat vergessen, wo sie hingehen wollte.
+- Sie ist aus Versehen auf Lins Fuß getreten.
+
+[LINE]
+Speaker508: Are  we  close~to        Cecil's Restaurant?
+~           sind wir in~der~Nähe~von Cecils  Restaurant 
+
+[LINE]
+Speaker3135: No,   it's   three miles  from here.           
+~            nein  es~ist drei  Meilen von  hier~(entfernt) 
+
+[LINE]
+Speaker508: Are  you sure?  
+~           sind Sie sicher 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker3135: Yes. I'm     [a~cook~there]. 
+~            ja   ich~bin  ein~Koch~dort  
+- to look there
++ a cook there
+- the book there
+
+[LINE]
+Speaker507: Great! Can    you make~me~a~sandwich?      I'm     so hungry! 
+~           super  können Sie mir~ein~Sandwich~machen  ich~bin so hungrig 
+
+[LINE]
+Speaker3135: No,   you said         I~wasn't~attractive.           
+~            nein  Sie haben~gesagt (dass)~ich~nicht~attraktiv~bin 
+
+[LINE]
+Speaker507: Well,  that was before I   found~out           you~can~cook.            
+~           na~ja  das  war bevor  ich herausgefunden~habe (dass)~Sie~kochen~können 
+
+[MULTIPLE_CHOICE]
+> Warum hat Bea den Mann gebeten, ihr ein Sandwich zu machen?
++ Er ist ein Koch in Cecils Restaurant.
+- Er hat ganz viel Brot und Käse.
+- Bea hatte ihm zuerst ein Sandwich gemacht.
+
+[MATCH]
+> Wähle die Paare
+- he's <> er ist
+- Well <> na ja
+- Bea <> Bea
+- Oops <> ups
+- Turn left <> biegen Sie links ab
+
