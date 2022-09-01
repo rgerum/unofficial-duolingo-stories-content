@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=O vegetariano
+icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
+set=4|1
+
+[HEADER]
+> The Vegetarian 
+~ o   vegetariano
+
+[LINE]
+> Vikram is~reading a  menu     in a  nice restaurant. 
+~ Vikram está~lendo um cardápio em um bom  restaurante 
+
+[LINE]
+Speaker385: Welcome!  
+~           bem-vindo 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker593: Hello. I  have  a   question about [the~menu].  
+~           olá    eu tenho uma pergunta sobre  o~cardápio  
+- the men
++ the menu
+- the man to
+
+[LINE]
+Speaker593: I  am  a  vegetarian. 
+~           eu sou um vegetariano 
+
+[LINE]
+Speaker593: Is~there vegetarian~food?   
+~           tem      comida~vegetariana 
+
+[MULTIPLE_CHOICE]
+> O Vikram gosta de comer carne.
++ Não, não é isso.
+- Sim, isso mesmo.
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa "bifes".
+Speaker385: Yes, we  (have)  (very)  (good) (+steaks).
+~           sim  nós  temos   muito   bons    bifes   
+
+[LINE]
+Speaker593: Steaks are meat.  I  do~not~eat meat. 
+~           bifes  são carne  eu não~como   carne 
+
+[LINE]
+Speaker385: Oh, yes. I~am~sorry.
+~           ah  sim  desculpa   
+
+[LINE]
+Speaker385: The chicken is delicious.
+~           o   frango  é  delicioso 
+
+[MULTIPLE_CHOICE]
+> Espera… O quê? O garçom acha que o Vikram…
++ …deveria pedir o frango.
+- …odeia frango.
+- …não está com fome.
+
+[LINE]
+Speaker593: Chicken is meat. 
+~           frango  é  carne 
+
+[LINE]
+Speaker593: I  do~not~want meat! 
+~           eu não~quero   carne 
+
+[LINE]
+Speaker385: We  have  salad… 
+~           nós temos salada 
+
+[LINE]
+Speaker593: Oh, I  like     salad!  What  is  in~the salad? 
+~           ah  eu gosto~de salada  o~que tem na     salada 
+
+[LINE]
+Speaker385: There~is tomato, lettuce, fish… 
+~           tem      tomate  alface   peixe 
+
+[CONTINUATION]
+> O que vem depois?
+Speaker593: I  do~not~eat fish!  I  am  a  [vegetarian]! 
+~           eu não~como   peixe  eu sou um  vegetariano  
+- restaurant 
+~ restaurante
+- salad 
+~ salada
++ vegetarian 
+~ vegetariano
+
+[LINE]
+Speaker385: We  have  fries…         
+~           nós temos batatas~fritas 
+
+[LINE]
+Speaker593: OK.    Fries          are fine.
+~           certo  batatas~fritas são OK   
+
+[LINE]
+Speaker385: Fries,          perfect.  And… a  burger?    
+~           batatas~fritas  perfeito  e    um hambúrguer 
+
+[LINE]
+Speaker593: No~meat,   please!   
+~           carne~não  por~favor 
+
+[MULTIPLE_CHOICE]
+> Por que o Vikram está irritado com o garçom?
++ Ele fica esquecendo que o Vikram é vegetariano.
+- A comida do restaurante é ruim.
+- Ele não lembra o nome do Vikram.
+
+[MATCH]
+> Toque nos pares
+- fries <> batatas fritas
+- a <> um
+- delicious <> delicioso
+- OK <> certo
+- nice <> bom
+
