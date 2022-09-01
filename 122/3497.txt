@@ -1,0 +1,120 @@
+[DATA]
+fromLanguageName=Schicke eine E-Mail
+icon=583e75f447511e88fde0ed924039b785dccdd112
+set=15|4
+
+[HEADER]
+> Send    an   Email 
+~ schicke eine E-Mail
+
+[LINE]
+> Lin and her  grandmother, Lucy, are~visiting Seattle. They are  in a     coffee~shop.
+~ Lin und ihre Großmutter   Lucy  besuchen     Seattle  sie  sind in einem Café        
+
+[LINE]
+Speaker509: It's   nice  to~be~here~again.   
+~           es~ist schön wieder~hier~zu~sein 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+Speaker508: [When~did~you~live]   in Seattle, Grandma?
+~            wann~hast~du~gelebt  in Seattle  Oma     
++ When did you live
+- Where do you love
+- When do you leave
+
+[LINE]
+Speaker509: Thirty~years~ago.  
+~           vor~dreißig~Jahren 
+
+[LINE]
+Speaker508: Let's    go~to~a~museum      now.  
+~           lass~uns in~ein~Museum~gehen jetzt 
+
+[LINE]
+Speaker509: Sure, after   I   go~to~the~restroom.  
+~           klar  nachdem ich auf~der~Toilette~war 
+
+[LINE]
+> Lucy leaves   the table. An  old   man  walks into the cafe. He sees  Lin.
+~ Lucy verlässt den Tisch  ein alter Mann geht  in   das Café  er sieht Lin 
+
+[LINE]
+Speaker307: You look~like~someone     I~knew~many~years~ago!           
+~           du  siehst~aus~wie~jemand die~ich~vor~vielen~Jahren~kannte 
+
+[MULTIPLE_CHOICE]
+> Was meint der Mann damit?
+- Er fragt Lin, wo die Toiletten sind.
++ Lin erinnert ihn an eine alte Bekannte.
+- Er möchte Lin eine Eintrittskarte für das Museum geben.
+
+[LINE]
+Speaker508: Really?  
+~           wirklich 
+
+[LINE]
+Speaker307: I   loved~her~very~much.  
+~           ich habe~sie~sehr~geliebt 
+
+[LINE]
+Speaker307: I   don't~know where she is~now…   
+~           ich weiß~nicht wo    sie jetzt~ist 
+
+[LINE]
+> Lucy returns      from the bathroom.  
+~ Lucy kommt~zurück aus  dem Badezimmer 
+
+[LINE]
+Speaker307: Lucy! It's~you!  
+~           Lucy  du~bist~es 
+
+[LINE]
+Speaker509: Do~I~know~you?
+~           kenne~ich~Sie 
+
+[LINE]
+Speaker307: It's~me,   Marco!
+~           ich~bin's  Marco 
+
+[ARRANGE]
+> Was hörst du?
+Speaker307: [(You) (never~responded)      (to)  (my)    (letters)…]
+~             du    hast~nie~geantwortet   auf   meine   Briefe    
+
+[LINE]
+Speaker509: I   never~got~your~letters.         I   was~sailing~around~the~world.
+~           ich habe~deine~Briefe~nie~bekommen  ich bin~um~die~Welt~gesegelt     
+
+[LINE]
+Speaker307: Now   you're  here! We  can    finally be~together!  
+~           jetzt bist~du hier  wir können endlich zusammen~sein 
+
+[MULTIPLE_CHOICE]
+> Marco …
++ … möchte anscheinend erneut eine Beziehung mit Lucy beginnen.
+- … muss Lucy viele ihrer alten Sachen zurückgeben.
+- … ist sehr wütend auf Lucy.
+
+[LINE]
+Speaker509: Actually,   I'm~going to a   museum with my     granddaughter now.  
+~           eigentlich  gehe~ich  in ein Museum mit  meiner Enkelin       jetzt 
+
+[LINE]
+Speaker509: Next     time, send    an   email! 
+~           nächstes Mal   schicke eine E-Mail 
+
+[MULTIPLE_CHOICE]
+> Warum sagt Lucy, dass Marco das nächste Mal eine E-Mail schreiben soll?
++ Sie hat die Briefe von ihm nie bekommen.
+- Sie mag ihren Postboten nicht.
+- Sie hat eine wirklich coole E-Mail-Adresse.
+
+[MATCH]
+> Wähle die Paare
+- to <> auf
+- finally <> endlich
+- coffee shop <> Café
+- I <> ich
+- Do I know you <> kenne ich Sie
+
