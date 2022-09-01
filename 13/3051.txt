@@ -1,0 +1,213 @@
+[DATA]
+fromLanguageName=Surprise Party
+icon=cd119e89aaf59a22f65503e29a5a41e7e614f61b
+set=68|2
+
+[HEADER]
+> Fête~surprise 
+~ surprise~party
+
+[LINE]
+> Lily et  Zari voient Vikram acheter des  ballons  dans un magasin.
+~ Lily and Zari see    Vikram buying  some balloons in   a  shop    
+
+[LINE]
+Speaker418: Salut, Vikram. Jolis ballons  !
+~           hi     Vikram  nice  balloons  
+
+[LINE]
+Speaker593: Merci.     J'organise     une fête~surprise  pour        fêter          l'anniversaire~de~ma~femme.
+~           thank~you  I'm~organizing a   surprise~party in~order~to (to)~celebrate my~wife's~birthday         
+
+[LINE]
+Speaker418: Mais Priti est là   !
+~           but  Priti is  here  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker416: On~vient~de~la~voir [dans~le~magasin].
+~           we~just~saw~her      in~the~shop      
++ dans le magasin
+- dans le sarrasin
+- dans des magazines
+
+[LINE]
+Speaker593: Oh, non ! Elle a~quitté le~travail plus~tôt ! Si elle me~voit, la  surprise sera    gâchée.
+~           oh  no    she  left     work       earlier    if she  sees~me  the surprise will~be ruined 
+
+[LINE]
+Speaker593: Vous pouvez distraire     Priti ?
+~           you  can    (to)~distract Priti  
+
+[MULTIPLE_CHOICE]
+> Vikram veut~que~Lily~et~Zari… 
+~ Vikram wants~Lily~and~Zari~to 
+- … volent des~ballons du       magasin.
+~   steal  balloons    from~the shop    
++ … occupent Priti pour~qu'elle ne~le~voit~pas. 
+~   occupy   Priti so~she       doesn't~see~him 
+- … fassent le~travail~de~Priti pour~qu'elle rentre    tôt.  
+~   do      Priti's~work        so~she       goes~home early 
+
+[LINE]
+Speaker593: Je dois    rentrer      chez~moi    et  finir~de~préparer     la  fête. 
+~           I  have~to (to)~go~back to~my~place and (to)~finish~preparing the party 
+
+[LINE]
+Speaker416: Bien~sûr  !
+~           of~course  
+
+[LINE]
+> Zari et  Lily trouvent Priti. Elle a   une bouteille de shampoing dans les~mains.
+~ Zari and Lily find     Priti  she  has a   bottle    of shampoo   in   her~hands 
+
+[LINE]
+Speaker416: Salut, Priti ! Tu  utilises ce   shampoing ?
+~           hi     Priti   you use      this shampoo    
+
+[LINE]
+Speaker560: Oh, bonjour ! Oui, c'est un bon  shampoing.
+~           oh  hello     yes  it's  a  good shampoo   
+
+[LINE]
+Speaker416: J'ai~entendu~dire qu'il   contenait des  produits~chimiques~dangereux.
+~           I've~heard        that~it contained some dangerous~chemicals          
+
+[LINE]
+Speaker560: Mais c'est un produit~bio.    
+~           but  it's  an organic~product 
+
+[ARRANGE]
+> Tap what you hear
+Speaker416: [(Lis)  (la)  (liste) (des~ingrédients).]
+~             read   the   list    of~ingredients    
+
+[LINE]
+Speaker418: Oui, et  tu  devrais regarder     tous les ingrédients sur ton  téléphone... tout~de~suite !
+~           yes  and you should  (to)~look~up all  the ingredients on  your phone        right~now      
+
+[LINE]
+Speaker560: Je n'ai~pas   le  temps. Je dois    rentrer.     
+~           I  don't~have the time   I  have~to (to)~go~home 
+
+[LINE]
+> Priti part.  
+~ Priti leaves 
+
+[CONTINUATION]
+> Quelle est la  fin de la  phrase   ?
+~ what   is  the end of the sentence  
+Speaker418: Elle ne~peut~pas rentrer      maintenant ! Vikram a~besoin~de [plus~de~temps].
+~           she  can't       (to)~go~home now          Vikram needs        more~time      
+- réparer   le  vase
+~ to~repair the vase
++  plus~de~temps
+~  more~time    
+- faire~une~sieste
+~ to~take~a~nap   
+
+[LINE]
+> Priti sort      du     magasin. Lily et  Zari courent vers    elle. Lily a   un portefeuille dans la~main. 
+~ Priti walks~out of~the shop     Lily and Zari run     towards her   Lily has a  wallet       in   her~hand 
+
+[LINE]
+Speaker416: Priti ! Tu  as~fait~tomber ton  portefeuille !
+~           Priti   you dropped        your wallet        
+
+[LINE]
+Speaker560: Ce n'est~pas le~mien.
+~           it isn't     mine    
+
+[LINE]
+Speaker418: Euh… elle voulait~dire... tes  clés !
+~           uh   she  meant           your keys  
+
+[ARRANGE]
+> Tap what you hear
+> [(Zari) (sort~des~clés)       (de) (sa~poche).]  
+~   Zari   takes~some~keys~out   of   her~pocket   
+
+[LINE]
+Speaker560: Ce~ne~sont~pas mes clés.
+~           they~aren't    my  keys 
+
+[LINE]
+> Priti essaye~de partir,   mais Zari court devant      elle et  tombe par~terre.    
+~ Priti tries     to~leave  but  Zari runs  in~front~of her  and falls on~the~ground 
+
+[LINE]
+Speaker560: Zari, ça~va      ?
+~           Zari  you~are~OK  
+
+[LINE]
+Speaker418: Non, je~ne~me~sens~pas bien !
+~           no   I~don't~feel      well  
+
+[LINE]
+> Zari fait~semblant~de s'évanouir.
+~ Zari pretends~to      (to)~faint 
+
+[MULTIPLE_CHOICE]
+> Tu  as~bien~compris ? Qu'a~fait~Zari   ?
+~ you understood~well   what~did~Zari~do  
+- Elle est~montée dans la~voiture~de~Priti.
+~ she  got        in   Priti's~car         
+- Elle a~pris des  médicaments et  appelé un médecin.
+~ she  took   some medicine    and called a  doctor  
++ Elle a~fait~comme~si elle ne~se~sentait~pas bien.
+~ she  pretended~that  she  wasn't~feeling    well 
+
+[LINE]
+Speaker416: Oh, non. Il~faut l'aider.      
+~           oh  no   we~must (to)~help~her 
+
+[LINE]
+> Priti regarde  Zari et  Lily. Elle réfléchit.
+~ Priti looks~at Zari and Lily  she  thinks    
+
+[LINE]
+Speaker560: Bon.  J'appelle   une ambulance.
+~           well  I'm~calling an  ambulance 
+
+[LINE]
+> Zari s'assied.
+~ Zari sits~up  
+
+[LINE]
+Speaker418: Non ! Ce~n'est~pas~la~peine.
+~           no    don't~bother          
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker416: Oh, elle se~sent    [déjà~mieux].    
+~           oh  she  is~feeling  better~already  
++ déjà mieux
+- fais le mieux
+- déjà faux
+
+[LINE]
+Speaker560: Bon,  ça~suffit     maintenant.
+~           well  that's~enough now        
+
+[LINE]
+Speaker560: Mon mari    organise      une fête~surprise  pour moi, et  je ne~peux~pas être    en~retard.
+~           my  husband is~organizing a   surprise~party for  me   and I  can't       (to)~be late      
+
+[MULTIPLE_CHOICE]
+> Vikram voulait surprendre  Priti avec une fête,  mais…
+~ Vikram wanted  to~surprise Priti with a   party  but  
++ … Priti était~déjà~au~courant~de tout.      
+~   Priti already~knew~about       everything 
+- … Lily et  Zari vont      lui~laver~les~cheveux.
+~   Lily and Zari are~going to~wash~her~hair      
+- … Priti doit   travailler tard.
+~   Priti has~to (to)~work  late 
+
+[MATCH]
+> Tap the pairs
+- là <> here
+- Si <> if
+- un <> a
+- maintenant <> now
+- sort <> walks out
+
