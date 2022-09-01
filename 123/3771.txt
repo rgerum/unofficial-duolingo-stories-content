@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=El camarero tiene razón
+icon=c8d008581b5b813d1b4afcedbe914f70003145c6
+set=9|2
+
+[HEADER]
+> Le serveur  a     raison
+~ el camarero tiene razón 
+
+[LINE]
+> Béa et son ami,   Ted, sont  au    restaurant. 
+~ Béa y  su  amigo  Ted  están en~un restaurante 
+
+[LINE]
+Speaker507: J'ai     très  faim   !
+~           yo~tengo mucha hambre  
+
+[LINE]
+Speaker440: Le plat  du  jour est~toujours délicieux ici  !
+~           el plato del día  siempre~es   delicioso aquí  
+
+[MULTIPLE_CHOICE]
+> Mmm… ¿Qué crees que Béa y Ted van a pedir?
++ el plato del día
+- postre
+- una ensalada pequeña
+
+[LINE]
+> Un serveur  vient à leur table.
+~ un camarero viene a su   mesa  
+
+[LINE]
+Speaker526: Bonsoir       ! Que voulez-vous manger ?
+~           buenas~noches   qué quieren     comer   
+
+[LINE]
+Speaker507: Deux plats  du  jour !
+~           dos  platos del día   
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker526: Très bien. [Vous~voulez~boire]     quelque~chose ?
+~           muy  bien   ustedes~quieren~beber  algo           
+- Vous voulez la poire
++ Vous voulez boire
+- Vous venez en noir
+
+[LINE]
+Speaker526: Nous     avons   un vin  très spécial  cette semaine.
+~           nosotros tenemos un vino muy  especial esta  semana  
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker526: [(Il~est~delicieux) (avec) (le) (plat)  (du~jour) ]!
+~             sabe~delicioso     con    el   plato   del~día    
+
+[LINE]
+Speaker526: Mais il~est cher.
+~           pero es     caro 
+
+[LINE]
+Speaker440: Ce  n'est~pas un problème ! Deux verres, s'il~vous~plaît.
+~           eso no~es     un problema   dos  vasos   por~favor       
+
+[LINE]
+Speaker526: Très bien.
+~           muy  bien 
+
+[LINE]
+> Le serveur  arrive avec les plats  et deux verres de vin. 
+~ el camarero llega  con  los platos y  dos  vasos  de vino 
+
+[LINE]
+Speaker507: Hmm, ça~sent~bon !
+~           mmm  huele~bien   
+
+[MULTIPLE_CHOICE]
+> Béa cree que su comida huele…
+- …a podrido.
+- …fatal.
++ …bien.
+
+[LINE]
+Speaker440: Et ce   vin... 
+~           y  este vino   
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "derrama".
+> Ted (+renverse) son (verre) (dans) le (plat)  de Béa.
+~ Ted   derrama   su   vaso    en    el  plato  de Béa 
+
+[LINE]
+Speaker440: Ton plat  !
+~           tu  plato  
+
+[LINE]
+Speaker507: Ton vin  !
+~           tu  vino  
+
+[LINE]
+> Béa mange.
+~ Béa come  
+
+[LINE]
+Speaker507: Le serveur  a     raison !
+~           el camarero tiene razón   
+
+[LINE]
+Speaker507: Ce   vin  est~délicieux  avec le plat  du  jour !
+~           este vino sabe~delicioso con  el plato del día   
+
+[MULTIPLE_CHOICE]
+> ¿Por qué el camarero tiene razón?
++ El vino sabe delicioso con el plato del día.
+- Ted es muy aburrido.
+- El vino no es nada especial.
+
+[MATCH]
+> Selecciona los pares
+- s'il vous plaît <> por favor
+- Deux <> dos
+- cette <> esta
+- Le <> el
+- Bonsoir <> buenas noches
+
