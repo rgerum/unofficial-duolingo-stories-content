@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=Gute Kunst
+icon=501e7d609ee0dd5ba11ff7cdcf9740b12a7a7945
+set=9|1
+
+[HEADER]
+> Good Art  
+~ gute Kunst
+
+[LINE]
+> Eddy and his  friend Oscar are  at an    art~museum. 
+~ Eddy und sein Freund Oscar sind in einem Kunstmuseum 
+
+[LINE]
+> Eddy looks  at  a   painting of  a     dog. 
+~ Eddy schaut auf ein Gemälde  von einem Hund 
+
+[LINE]
+Speaker414: This is  my   favorite~painting in the museum!
+~           dies ist mein Lieblingsgemälde  in dem Museum 
+
+[LINE]
+Speaker592: That   painting is  boring.    
+~           dieses Gemälde  ist langweilig 
+
+[MULTIPLE_CHOICE]
+> Oscar findet das Gemälde wundervoll.
++ Nein, das ist falsch.
+- Ja, das ist richtig.
+
+[LINE]
+Speaker414: What? I   love  dogs! 
+~           was   ich liebe Hunde 
+
+[LINE]
+Speaker592: Eddy, I'm     an~art~teacher.    I   know  good art.  
+~           Eddy  ich~bin (ein)~Kunstlehrer  ich kenne gute Kunst 
+
+[LINE]
+Speaker592: This   painting is  not   good art.  
+~           dieses Gemälde  ist keine gute Kunst 
+
+[LINE]
+Speaker414: Why?  
+~           warum 
+
+[ARRANGE]
+> Was hörst du?
+Speaker592: [(Good) (art)   (is)  (interesting)!]
+~             gute   Kunst   ist   interessant   
+
+[LINE]
+Speaker592: Good art   is  surprising!  
+~           gute Kunst ist überraschend 
+
+[SELECT_PHRASE]
+> Wähle den fehlenden Satzteil
+> Oscar sees  a   sandwich [on~a~chair].     
+~ Oscar sieht ein Sandwich  auf~einem~Stuhl  
++ on a chair
+- on his hair
+- and this chair
+
+[LINE]
+Speaker592: That is  good art!  
+~           das  ist gute Kunst 
+
+[LINE]
+Speaker414: A   sandwich on  a     chair?!
+~           ein Sandwich auf einem Stuhl  
+
+[LINE]
+Speaker592: Yes! It's   interesting and surprising!   The artist   is  a   genius!
+~           ja   es~ist interessant und überraschend  der Künstler ist ein Genie  
+
+[MULTIPLE_CHOICE]
+> Warum hält Oscar den Künstler für ein Genie?
+- Das Sandwich sieht lecker aus.
++ Ein Sandwich auf einem Stuhl ist überraschend.
+- Das Sandwich gehört einem Hund.
+
+[LINE]
+Speaker414: I   don't~understand~art.
+~           ich verstehe~Kunst~nicht 
+
+[POINT_TO_PHRASE]
+> Wähle die Option mit der Bedeutung „Hausmeister“.
+> A   (+janitor)     (walks) (into) the room. He (starts)   eating~the~sandwich.  
+~ ein   Hausmeister   geht    in    den Raum  er  fängt~an  das~Sandwich~zu~essen 
+
+[LINE]
+Speaker592: Excuse~me!      You can't~eat~the~art!               
+~           Entschuldigung  Sie können~das~Kunstwerk~nicht~essen 
+
+[LINE]
+Speaker307: Uh, this isn't     art.   This is  my   lunch.      
+~           äh  das  ist~keine Kunst  das  ist mein Mittagessen 
+
+[MULTIPLE_CHOICE]
+> Hast du das gehört? Oscar dachte, …
+- … dass Eddy alle Kunstwerke gegessen hat.
+- … dass der Hausmeister ein berühmter Künstler ist.
++ … dass das Mittagessen des Hausmeisters Teil der Kunstausstellung ist.
+
+[MATCH]
+> Wähle die Paare
+- dog <> Hund
+- on <> auf
+- his <> sein
+- are <> sind
+- I <> ich
+
