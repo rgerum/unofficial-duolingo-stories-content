@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=몸이 아파요
+icon=68ffeb0d8b8a73e7de5cd3b964b34d0e08761977
+set=9|3
+
+[HEADER]
+> I  Feel~Sick
+~ 저는 몸이~아파요   
+
+[LINE]
+Speaker415: Dad! I  feel~sick!
+~           아빠   저는 몸이~아파요    
+
+[LINE]
+Speaker414: Oh,~no!
+~           아~이런   
+
+[LINE]
+> Eddy touches Junior's head.
+~ 에디가  만져본다    주니어의     머리를  
+
+[LINE]
+Speaker414: You don't~have a~fever.
+~           너는  없는데        열이      
+
+[MULTIPLE_CHOICE]
+> 주니어는 열이 난다.
+- 네, 맞아요.
++ 아니요, 그렇지 않아요.
+
+[LINE]
+Speaker415: But  my ear hurts! I want~to~go to~the~doctor's~office!
+~           그렇지만 제  귀가  아파요    전 가고~싶어요     병원에                    
+
+[LINE]
+Speaker414: OK...
+~           그래   
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+> [(They) (go) (to~the~doctor's~office).]
+~   그들은    간다   병원에                      
+
+[LINE]
+Speaker341: It's~nice to~see~you~again, Junior.
+~           반갑구나      널~다시~보게~되어        주니어    
+
+[LINE]
+Speaker341: What's~wrong?
+~           뭐가~문제니       
+
+[LINE]
+Speaker414: His~ear hurts.
+~           (그의)~귀가 아프대요  
+
+[LINE]
+Speaker341: Oh,~no! I  can~help. 
+~           아~이런    제가 도와줄~수~있어요 
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+> The~doctor looks~at [Junior's ear].
+~ 의사~선생님이    살펴본다      주니어의     귀를   
++ Junior's ear
+~ 주니어의     귀  
+- the~clock
+~ 시계       
+- Eddy's shoes
+~ 에디의    신발   
+
+[LINE]
+Speaker341: Hmmm… Your ear~is fine.
+~           음     네    귀는     괜찮아  
+
+[LINE]
+Speaker415: Oh! Well… My foot hurts.
+~           아   음     제  발이   아파요   
+
+[LINE]
+> The~doctor looks at~Junior's~foot.
+~ 의사~선생님이    살펴본다  주니어의~발을          
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker341: Your foot [is~also~fine].
+~           네    발     역시~괜찮아        
++ is also fine
+- it's all the wine
+- is also mine
+
+[LINE]
+Speaker414: Is~he~OK,     Doctor?
+~           (그가)~괜찮은~건가요  의사~선생님 
+
+[LINE]
+Speaker341: Yes.
+~           네   
+
+[LINE]
+Speaker341: You're not~sick, Junior.
+~           너는     아프지~않아    주니어    
+
+[LINE]
+Speaker415: I~am sick!
+~           저는   아파요  
+
+[POINT_TO_PHRASE]
+> “사탕”을 뜻하는 말을 고르세요.
+Speaker341: (Junior)... are~you~here (because) I  (always) give~you (+candy)?
+~            주니어        여기에~온~거니      ~때문에     내가  항상      너에게~주다     사탕을    
+
+[LINE]
+Speaker415: Umm… Yes.
+~           음    네   
+
+[LINE]
+Speaker414: Junior!
+~           주니어    
+
+[LINE]
+Speaker415: So... Can~I~have  my candy now?
+~           그럼    가질~수~있는~거예요 제  사탕을   이제  
+
+[MULTIPLE_CHOICE]
+> 아! 주니어가 병원에 가고 싶었던 이유는 무엇인가요?
+- 아주 많이 아팠기 때문에.
+- 의사 선생님께 드릴 선물이 있었기 때문에.
++ 의사 선생님이 항상 사탕을 주기 때문에.
+
+[MATCH]
+> 짝을 누르세요
+- The doctor <> 의사 선생님이
+- Eddy <> 에디가
+- Doctor <> 의사 선생님
+- But <> 그렇지만
+- Your <> 네
+
