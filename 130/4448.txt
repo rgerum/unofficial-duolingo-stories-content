@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=Кто придёт на ужин?
+icon=dc357430b977e970c350bd02c026ab07731f28f3
+set=29|1
+
+[HEADER]
+> Who's Coming to Dinner?
+~ кто   придёт на ужин   
+
+[LINE]
+> Lucy is~making soup. Lin comes   into~the~kitchen.
+~ Люси готовит   суп   Лин заходит на~кухню         
+
+[LINE]
+Speaker509: Guess  who's coming to dinner tonight?        
+~           угадай кто   придёт на ужин   сегодня~вечером 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker508: Well, you're making   your [famous~fish~soup],      so      it's~probably someone special.  
+~           ну    ты     готовишь свой  знаменитый~рыбный~суп   так~что наверное,~это кто-то  особенный 
+- famous wish soup
++ famous fish soup
+- favorite fish suit
+
+[LINE]
+Speaker509: Yes! It's someone very  special.  
+~           да   это  кое-кто очень особенный 
+
+[LINE]
+Speaker508: Is~your friend,  the~famous actress, coming to dinner?
+~           твоя    подруга  известная  актриса  придёт на ужин   
+
+[LINE]
+Speaker509: No,  she's working  on  a~film  right~now.
+~           нет  она   работает над фильмом сейчас    
+
+[MULTIPLE_CHOICE]
+> На ужин придёт известная актриса.
++ Нет, это неправда.
+- Да, это правда.
+
+[LINE]
+Speaker509: It's someone more~important. You~can't~wear            pajamas!
+~           это  кое-кто поважнее        тебе~нельзя~быть~одетой~в пижаму  
+
+[LINE]
+Speaker508: Oh, really?  Alright, I'll wear   something else!  
+~           о   вот~как  хорошо   я    надену что-то    другое 
+
+[MULTIPLE_CHOICE]
+> Хмм… Кажется, Лин сейчас…
+-  …в красивом платье.
++ …в пижаме.
+- …в купальнике.
+
+[LINE]
+> Lin goes to her  room    and puts~on  a~shirt and jeans. 
+~ Лин идёт в  свою комнату и   надевает рубашку и   джинсы 
+
+[LINE]
+Speaker508: So,  is~it your friend, Victor?! Is~he~back  from~taking~photos              of~wild horses  in Argentina?
+~           так  это   твой друг    Виктор   он~вернулся (из~поездки~с~целью)~фотографии диких   лошадей в  Аргентине 
+
+[LINE]
+Speaker509: No,  he's photographing lions in India now.   
+~           нет  он   фотографирует львов в  Индии теперь 
+
+[LINE]
+Speaker508: Is~it the~astronaut you~worked~with?        
+~           это   космонавт     с~(которым)~ты~работала 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker509: No,  [he's~getting~ready] to~go       to Mars.
+~           нет   он~готовится        отправиться на Марс 
+- his bed is ready
+- he's getting lettuce
++ he's getting ready
+
+[LINE]
+Speaker508: Wait…    Is~this a~date   for me,   Grandma?
+~           подожди  это     свидание для меня  бабушка 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker508: [(I~don't~need) (help)   (with~dating).]  
+~             мне~не~нужна   помощь   со~свиданиями   
+
+[LINE]
+Speaker509: Of~course not!
+~           конечно   нет 
+
+[LINE]
+> Someone knocks on~the~door. It's Lucy's~friend, Frank.
+~ кто-то  стучит в~дверь      это  друг~Люси      Фрэнк 
+
+[LINE]
+Speaker509: Lin, this~is Frank. He helps    people with their resumes.
+~           Лин  это     Фрэнк  он помогает людям  с    их    резюме  
+
+[LINE]
+Speaker113: Hi,         Lin! Your grandma really wanted us~to~meet.          
+~           здравствуй  Лин  твоя бабушка очень  хотела чтобы~мы~встретились 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker113: She said    that [you~need   to~find a~job]. 
+~           она сказала что   тебе~нужно найти   работу  
++ you~need   to~find a~job 
+~ тебе~нужно найти   работу
+- you live   on Mars 
+~ ты  живёшь на Марсе
+- you~have    a~pet~fish    
+~ у~тебя~есть домашняя~рыбка
+
+[LINE]
+Speaker508: Ugh,  I'm~going~to~put my   pajamas back~on.
+~           тьфу  я~надену         свою пижаму  назад   
+
+[MULTIPLE_CHOICE]
+> Почему Лин пошла переодеться обратно в пижаму?
+- Она хочет выглядеть красиво ради своего парня.
++ На ужин пришёл человек, который поможет ей найти работу.
+- В пижаме она похожа на космонавта.
+
+[MATCH]
+> Коснитесь пар
+- Is he back <> он вернулся
+- he's getting ready <> он готовится
+- you're <> ты
+- It's <> это
+- I'm going to put <> я надену
+
