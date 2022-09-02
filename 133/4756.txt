@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=농구 선수
+icon=93b7dddcb57fc76fde878bfb42e8c4f35d68fb5d
+set=4|1
+
+[HEADER]
+> The~Basketball~Player
+~ 농구~선수                
+
+[LINE]
+> Vikram~and~Priti~are shopping. 
+~ 비크람과~프리티가            장을~보는~중이다 
+
+[LINE]
+Speaker560: What~do~we~need from~the~supermarket?
+~           우린~뭐가~필요하지      슈퍼마켓에서               
+
+[LINE]
+Speaker593: Well, we~have  eggs, milk, and beans… We  need— 
+~           음     (우리는)~있어 달걀    우유    그리고 콩      우리가 필요한~건 
+
+[LINE]
+Speaker560: Vikram! Look who~it~is!
+~           비크람     봐    저게~누군지    
+
+[LINE]
+Speaker593: Who~is~it?
+~           누군데       
+
+[LINE]
+Speaker560: Your favorite basketball player!
+~           당신이  제일~좋아하는  농구         선수야    
+
+[MULTIPLE_CHOICE]
+> 프리티가 본 사람은 누구인가요?
+- 그녀가 제일 좋아하는 야구 선수
++ 비크람이 제일 좋아하는 농구 선수
+- 게임을 하고 있는 사람들
+
+[LINE]
+Speaker593: No, it's~not!
+~           아니  그럴리가     
+
+[LINE]
+Speaker560: Yes,~it~is! Talk  to~him!
+~           맞다니까        말~걸어봐 그~사람한테 
+
+[POINT_TO_PHRASE]
+> “떨리다”를 뜻하는 말을 고르세요.
+Speaker593: (I'm) (too) (+nervous)!
+~            난     너무     떨려       
+
+[LINE]
+Speaker560: But Vikram! Look!
+~           하지만 비크람     봐    
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker560: [(You) (have)  (the~same) (shoes)!]
+~             당신은   신고~있어   똑같은        신발을     
+
+[LINE]
+> Priti points at~the~basketball~player's~shoes.
+~ 프리티가  가리킨다   농구~선수의~신발을                       
+
+[LINE]
+Speaker593: Oh~no, he sees     us!
+~           아~이런   그가 쳐다~보고~있어 우릴 
+
+[MULTIPLE_CHOICE]
+> 비크람이 걱정하는 이유는 무엇인가요?
+- 농구 선수가 앞을 볼 수 없기 때문에.
++ 농구 선수가 그들을 쳐다보고 있기 때문에.
+- 자신의 신발이 보이지 않기 때문에.
+
+[LINE]
+Speaker560: Yes! And now he~is coming here!
+~           그래   그리고 지금  그가    오고~있어  여기로  
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker593: I don't~know [what~to~do]!
+~           난 모르겠어        어떡할지        
+- a lot to do
++ what to do
+- what a dude
+
+[LINE]
+Speaker560: You can~tell him, "hello!"
+~           당신이 말하면~돼    그에게   안녕하세요  
+
+[LINE]
+Speaker593: I need~to~go!
+~           난 가야~해       
+
+[LINE]
+> Vikram drops the~eggs.
+~ 비크람이   떨어뜨린다 달걀을      
+
+[LINE]
+Speaker113: Hey,~you!
+~           저기요      
+
+[LINE]
+Speaker593: Me?
+~           저요 
+
+[LINE]
+Speaker113: I really like   your shoes.
+~           전 정말     맘에~들어요 당신의  신발이   
+
+[MULTIPLE_CHOICE]
+> 농구 선수가 비크람과 얘기하고 싶어한 이유는 무엇인가요?
+- 비크람이 자신의 농구 팀에 들어오길 원해서.
+- 비크람이 계란 요리를 해주길 바래서.
++ 비크람이 자신과 똑같은 신발을 신고 있어서.
+
+[MATCH]
+> 짝을 누르세요
+- and <> 그리고
+- him <> 그에게
+- the eggs <> 달걀을
+- Talk <> 말 걸어봐
+- hello <> 안녕하세요
+
