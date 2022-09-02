@@ -1,0 +1,157 @@
+[DATA]
+fromLanguageName=애완용 새 봐주기
+icon=bec6ac06369ced77777ad5151e3a385213c413b8
+set=32|4
+
+[HEADER]
+> Bird Sitting
+~ 새    돌봐주기   
+
+[LINE]
+> Lin~is on~the~phone with~her~friend,~Garrett.
+~ 린이     통화~중이다       그녀의~친구~개럿과               
+
+[LINE]
+Speaker508: Hi, Garrett!
+~           안녕  개럿      
+
+[LINE]
+Speaker508: Are~you~coming~home tomorrow or  on~Tuesday?
+~           집에~올~거야             내일       아니면 화요일에       
+
+[LINE]
+Speaker7: Tomorrow.
+~         내일       
+
+[LINE]
+Speaker7: Thank~you for~taking~care~of my~house~and my~bird!
+~         고마워       돌봐줘서               내~집과         새를      
+
+[MULTIPLE_CHOICE]
+> 린은 친구가 집을 비운 동안 그의 새를 돌봐줬다.
+- 아니요, 그렇지 않아요.
++ 네, 맞아요.
+
+[LINE]
+Speaker508: You're~welcome.
+~           천만에            
+
+[LINE]
+Speaker7: Is~everything~OK at~the~house?
+~         별일~없지            집에는          
+
+[LINE]
+Speaker508: Well, I~have~bad~news.
+~           음     나쁜~소식이~있어       
+
+[LINE]
+Speaker508: Your bird flew out~of~the~window.
+~           네    새가   날아갔어 창~밖으로             
+
+[LINE]
+Speaker7: What?!
+~         뭐     
+
+[LINE]
+Speaker508: The~cage door~was open.  
+~           새장       문이       열려~있었어 
+
+[MULTIPLE_CHOICE]
+> 무엇이 열려 있었나요?
+- 냉장고
+- 샤워실
++ 새장 
+
+[LINE]
+Speaker7: How~did~that~happen?
+~         어떻게~된~거야            
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker508: [(It) (opened~when) (the~cage) (fell).]
+~             그게   ~했을~때~열렸어     새장이        떨어졌다   
+
+[LINE]
+Speaker7: What?! Why~did~it~fall?
+~         뭐      왜~떨어졌는데         
+
+[LINE]
+Speaker508: Well, your bed fell through~the~floor and hit  the~cage.
+~           음     네    침대가 떨어졌어 바닥을~뚫고            그리고 부딪쳤어 새장에      
+
+[LINE]
+Speaker7: My bed fell  through~the~floor?!
+~         내  침대가 떨어졌다고 바닥을~뚫고             
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker7: [How~did~that~happen]?
+~          어떻게~된~거야             
++ How did that happen
+- Who do they have then
+- How did that open
+
+[LINE]
+Speaker508: Well, there~was~a~lot~of~water on~the~floor.
+~           그게    물이~많이~있었어                바닥에          
+
+[LINE]
+Speaker7: Water? Why was~there~so~much~water?
+~         물      왜   물이~많이~있었어               
+
+[LINE]
+Speaker508: Well, I  used water to~stop~the~fire.
+~           음     내가 썼거든  물을    불을~끄려고           
+
+[LINE]
+Speaker7: You started~a~fire?!
+~         네가  불을~피웠어          
+
+[LINE]
+Speaker508: But only~on~the~second~floor.
+~           하지만 2층에만                     
+
+[LINE]
+Speaker7: What~did~you~do?!
+~         뭘~했는데            
+
+[LINE]
+Speaker508: I think it~was~because~of the~meditation~candles.
+~           내 생각엔   ~때문이었던~것~같아       명상용~촛불                 
+
+[MULTIPLE_CHOICE]
+> 이런! 무엇 때문에 불이 났나요?
+- 많은 새들
++ 린의 명상용 촛불
+- 린의 생일 케이크에 꽂힌 촛불
+
+[LINE]
+Speaker7: Meditation candles?
+~         명상용        촛불      
+
+[LINE]
+Speaker508: Oh yeah, I started taking~meditation~classes!
+~           아  응     난 시작했어    명상~수업을                    
+
+[LINE]
+Speaker508: Anyway, I can~take~care~of your house next month too...
+~           어쨌든     난 봐줄~수~있어          너네   집을    다음   달에도   역시    
+
+[LINE]
+Speaker508: Hello? Garrett, are~you~still~there?
+~           여보세요   개럿       너~거기~있어             
+
+[MULTIPLE_CHOICE]
+> 개럿이 전화를 끊은 이유는 무엇인가요?
+- 린의 명상 수업에 함께 가려고.
+- 린이 그의 새를 훔쳐서 화가 나서.
++ 린이 그의 집을 훼손시켜서 화가 나서.
+
+[MATCH]
+> 짝을 누르세요
+- on the floor <> 바닥에
+- through the floor <> 바닥을 뚫고
+- fell <> 떨어졌다
+- Garrett <> 개럿
+- opened when <> ~했을 때 열렸어
+
