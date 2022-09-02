@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=Не та утка
+icon=6ae21d07992767f2eef541bbcfde5913af8fc7a1
+set=26|3
+
+[HEADER]
+> The~Wrong Duck
+~ не~та     утка
+
+[LINE]
+> Eddy is~talking~to   a~waitress  at a~restaurant.
+~ Эдди разговаривает~с официанткой в  ресторане    
+
+[LINE]
+Speaker414: Is~the~food~here~good? It~all~looks… really expensive.
+~           здесь~хорошая~еда      всё~выглядит  очень  дорогим   
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker386: Yes, it's~not~cheap, but we're [one~of~the~best] restaurants in town.  
+~           да   она~недешёвая   но  мы     один~из~лучших   ресторанов  в  городе 
++ one of the best
+- one of the guests
+- onto the rest
+
+[LINE]
+Speaker414: OK.     I really want my~date~to~like~me.       
+~           хорошо  я очень  хочу понравиться~своей~девушке 
+
+[LINE]
+Speaker386: Are~you~sure     she's~coming? You've~been~waiting for~an~hour.
+~           вы~уверены~(что) она~придёт    вы~ждали            (целый)~час 
+
+[LINE]
+Speaker414: She said    to~meet   her at the~Blue Duck at 7~p.m.      
+~           она сказала встретить её  в  синей    утке в  семь~вечера 
+
+[LINE]
+Speaker386: Oh. This~is the~Black Duck.
+~           ой  это     чёрная    утка 
+
+[MULTIPLE_CHOICE]
+> О нет! Эдди…
++ …перепутал ресторан.
+- …не нравится девушка на свидании.
+-  …заказал утку на ужин.
+
+[LINE]
+Speaker414: What? This isn't the~Blue Duck?!
+~           что   это  не    синяя    утка  
+
+[LINE]
+Speaker386: No,  but the~Blue Duck isn't~far from~here.
+~           нет  но  синяя    утка недалеко  отсюда    
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker414: Maybe [she's~still~there]!
+~           может  она~всё~ещё~там    
+- she steals hair
+- she's still fair
++ she's still there
+
+[LINE]
+> Eddy runs~to the~Blue Duck. He sees  a~waiter. 
+~ Эдди бежит~в синюю    утку  он видит официанта 
+
+[LINE]
+Speaker414: Excuse~me. Did~you~see a~tall  woman   with dark    hair     waiting here? 
+~           извините   вы~видели   высокую женщину с    тёмными волосами ждущую  здесь 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker526: [(Yes)… (but) (her) (date)    (never~arrived).]  
+~             да     но    её    кавалер   так~и~не~пришёл   
+
+[LINE]
+Speaker526: I told   her to~go to the~Black Duck. I think her date    is~there.
+~           я сказал ей  идти  в  чёрную    утку  я думаю её  кавалер там      
+
+[LINE]
+Speaker414: Oh, no! 
+~           ой  нет 
+
+[CONTINUATION]
+> Продолжите фразу
+> Eddy runs  back  to [the~Black Duck].
+~ Эдди бежит назад в   чёрную    утку  
+- the~office
+~ офис      
+- a~blue duck
+~ синюю  утку
++ the~Black Duck
+~ чёрную    утку
+
+[LINE]
+> His date    is~outside      the~restaurant.
+~ его девушка (стоит)~снаружи ресторана      
+
+[LINE]
+Speaker414: Georgia!  I'm glad that I found you!  Let's~go     eat. 
+~           Джорджия  я   рад  что  я нашёл тебя  давай~пойдём есть 
+
+[LINE]
+Speaker1715: The~restaurant just       closed.  
+~            ресторан       только~что закрылся 
+
+[LINE]
+Speaker414: I'm~so~sorry…
+~           мне~так~жаль 
+
+[MULTIPLE_CHOICE]
+> Эдди извиняется, потому что…
+- …он объелся утки и ему стало нехорошо.
+- …он случайно врезался в девушку.
++ …они не успели поужинать в ресторане.
+
+[LINE]
+Speaker1715: It's~OK. Let's~have    burgers across~the~street.   
+~            ничего   давай~возьмём бургеры на~той~стороне~улицы 
+
+[LINE]
+Speaker1715: This place is~too~expensive anyway!        
+~            это  место слишком~дорогое  в~любом~случае 
+
+[LINE]
+Speaker414: I think I'm in~love.
+~           я думаю я   влюблён 
+
+[MULTIPLE_CHOICE]
+> Почему Эдди говорит, что влюбился?
+- Девушка сама оплатила дорогой ужин.
++ Девушка хочет пойти в заведение подешевле.
+- Еда в Чёрной утке была очень вкусной.
+
+[MATCH]
+> Коснитесь пар
+- is talking to <> разговаривает с
+- Maybe <> может
+- expensive <> дорогим
+- Oh <> ой
+- a tall <> высокую
+
