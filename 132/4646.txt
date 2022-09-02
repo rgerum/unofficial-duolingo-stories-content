@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=बेहतरीन कला
+icon=501e7d609ee0dd5ba11ff7cdcf9740b12a7a7945
+set=9|1
+
+[HEADER]
+> Good  Art
+~ अच्छी कला
+
+[LINE]
+> Eddy  and his  friend Oscar are at~an~art~museum.    
+~ एड्डी और  उसका दोस्त  ऑस्कर हैं एक~कला~संग्रहालय~में 
+
+[LINE]
+> Eddy  looks    at~a~painting~of~a~dog.  
+~ एड्डी देखता~है एक~कुत्ते~के~एक~चित्र~को 
+
+[LINE]
+Speaker414: This is my   favorite painting in~the~museum!     
+~           यह   है मेरा पसंदीदा  चित्र    (इस)~संग्रहालय~में 
+
+[LINE]
+Speaker592: That painting is boring.
+~           वह   पेंटिंग  है उबाऊ   
+
+[MULTIPLE_CHOICE]
+> ऑस्कर को वह पेंटिंग काफ़ी पसंद है।
+- हाँ, यह सही है।
++ नहीं, ऐसा नहीं है।
+
+[LINE]
+Speaker414: What? I~love        dogs!  
+~           क्या  मुझे~पसंद~हैं कुत्ते 
+
+[LINE]
+Speaker592: Eddy,  I'm     an art~teacher.   I~know        good  art.     
+~           एड्डी  मैं~हूँ एक कला~का~शिक्षक  मुझे~पहचान~है अच्छी कला~(की) 
+
+[LINE]
+Speaker592: This painting is~not  good  art.
+~           यह   चित्र    नहीं~है अच्छी कला 
+
+[LINE]
+Speaker414: Why?  
+~           क्यों 
+
+[ARRANGE]
+> सुनकर शब्द चुनें
+Speaker592: [(Good)  (art) (is)        (interesting)!]
+~             अच्छी   कला   (होती)~है   दिलचस्प       
+
+[LINE]
+Speaker592: Good  art is        surprising!        
+~           अच्छी कला (होती)~है हैरान~कर~देने~वाली 
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+> Oscar sees     a  sandwich [on~a~chair].  
+~ ऑस्कर देखता~है एक सैंडविच   एक~कुर्सी~पर  
+- and this chair
+- on his hair
++ on a chair
+
+[LINE]
+Speaker592: That is good  art!
+~           वह   है अच्छी कला 
+
+[LINE]
+Speaker414: A  sandwich on~a~chair?!  
+~           एक सैंडविच  एक~कुर्सी~पर  
+
+[LINE]
+Speaker592: Yes! It's  interesting and surprising!         The~artist    is a  genius!               
+~           हाँ  यह~है दिलचस्प     और  हैरान~कर~देने~वाला  (इसका)~कलाकार है एक प्रतिभाशाली~(व्यक्ति) 
+
+[MULTIPLE_CHOICE]
+> ऑस्कर को यह क्यों लगता है कि वह कलाकार काफ़ी प्रतिभाशाली है?
++ क्योंकि एक कुर्सी पर किसी सैंडविच का होना काफ़ी हैरानी वाली बात है।
+- क्योंकि वह सैंडविच किसी कुत्ते का है।
+- क्योंकि वह सैंडविच लज़ीज़ लग रहा है।
+
+[LINE]
+Speaker414: I~don't~understand art.
+~           मुझे~समझ~नहीं~आती  कला 
+
+[POINT_TO_PHRASE]
+> उस विकल्प को चुनें जिसका मतलब “सफ़ाई कर्मचारी” है।
+> A  (+janitor)       (walks)  into~the~room. He (starts)       (eating) the~sandwich.
+~ एक   सफ़ाई~कर्मचारी   आता~है  कमरे~के~अंदर   वह  शुरू~करता~है   खाना    सैंडविच~(को) 
+
+[LINE]
+Speaker592: Excuse~me! You can't~eat       the~art! 
+~           माफ़~करना   तुम नहीं~खा~सकते~हो कला~(को) 
+
+[LINE]
+Speaker307: Uh, this isn't   art. This is my   lunch.        
+~           ~   यह   नहीं~है कला  यह   है मेरा दोपहर~का~भोजन 
+
+[MULTIPLE_CHOICE]
+> कुछ समझे आप? ऑस्कर को लगा कि...
+- …एड्डी म्यूज़ियम में रखी सारी की सारी पेंटिंग खा गया।
++ ...उस सफ़ाई कर्मचारी का खाना दरअसल एक तरह की कला थी।
+- ...वह सफ़ाई कर्मचारी कोई जाना-माना कलाकार था।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- I'm <> मैं हूँ
+- art <> कला
+- my <> मेरा
+- boring <> उबाऊ
+- art teacher <> कला का शिक्षक
+
