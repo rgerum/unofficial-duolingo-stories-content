@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=Урок танцев
+icon=9a1213d7cb11cc1ab115544c9557336da748fca6
+set=5|4
+
+[HEADER]
+> The~Dance~Class
+~ урок~танцев    
+
+[LINE]
+> Eddy walks~into Elizabeth's~class.
+~ Эдди заходит~в  класс~Элизабет    
+
+[LINE]
+Speaker125: Hi!    
+~           привет 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker125: Today   we're [learning~to~dance]!
+~           сегодня мы     учимся~танцевать   
++ learning to dance
+- earning two dance
+- leaning to dances
+
+[LINE]
+> Eddy quickly walks    to~the~door.
+~ Эдди быстро  подходит к~двери     
+
+[LINE]
+Speaker125: Wait!     
+~           подождите 
+
+[LINE]
+Speaker125: Don't leave!  
+~           не    уходите 
+
+[LINE]
+Speaker125: I know dancing   is~difficult sometimes…
+~           я знаю танцевать сложно       иногда    
+
+[LINE]
+Speaker125: …but it's really fun    too! 
+~            но  это  очень  весело тоже 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «ошибка».
+Speaker414: (OK),     (but) (this~is) (+a~mistake).
+~            хорошо    но    это        ошибка     
+
+[LINE]
+Speaker125: It's~OK! It's easy.  Watch~me!        
+~           ничего   это  легко  смотрите~на~меня 
+
+[LINE]
+Speaker414: But…
+~           но  
+
+[ARRANGE]
+> Наберите услышанное
+> [(Eddy) (watches) (Elizabeth~dance).]       
+~   Эдди   смотрит   (как)~Элизабет~танцует   
+
+[LINE]
+Speaker125: Now    dance    with~me!
+~           теперь танцуйте со~мной 
+
+[LINE]
+Speaker414: This~is really        fun!   
+~           это     действительно весело 
+
+[LINE]
+Speaker125: So…  is~this class still   a~mistake?
+~           так  этот    урок  всё~ещё ошибка    
+
+[MULTIPLE_CHOICE]
+> Элизабет интересуется…
++ …Эдди всё ещё считает посещение её урока ошибкой?
+- …преподаёт ли Эдди танцы.
+- ...почему Эдди такой плохой танцор.
+
+[LINE]
+Speaker414: Yes.
+~           да  
+
+[LINE]
+Speaker125: Really?
+~           правда 
+
+[LINE]
+Speaker414: Yes, I'm in~the~wrong room.   
+~           да   я   не~в~той     комнате 
+
+[LINE]
+Speaker414: But this~is more~fun than a~cooking~class!
+~           но  это     веселее  чем  урок~кулинарии  
+
+[MULTIPLE_CHOICE]
+> Ой! В чём ошибка Эдди?
+- Он забыл обувь для танцев.
+- Он раньше встречался с Элизабет.
++ Он собирался пойти на кулинарный курс.
+
+[MATCH]
+> Коснитесь пар
+- Elizabeth dance <> Элизабет танцует
+- class <> урок
+- Today <> сегодня
+- too <> тоже
+- So <> так
+
