@@ -1,0 +1,156 @@
+[DATA]
+fromLanguageName=Я хочу этот бутерброд
+icon=43b9829cc459f78e9742fdf418c9b0821bb1646e
+set=26|2
+
+[HEADER]
+> I Want the~Sandwich
+~ я хочу бутерброд   
+
+[LINE]
+> Vikram and Oscar sit~down in a~restaurant.
+~ Викрам и   Оскар садятся  в  ресторане    
+
+[LINE]
+Speaker592: I~love   this place. I always order     the~grilled~cheese~sandwich.
+~           я~обожаю это  место  я всегда заказываю горячий~бутерброд~с~сыром   
+
+[LINE]
+Speaker593: Me~too.
+~           я~тоже 
+
+[MULTIPLE_CHOICE]
+> Викрам и Оскар любят заказывать в ресторане разные блюда.
++ Нет, это неправда.
+- Да, это правда.
+
+[LINE]
+> A~waiter comes    to their table.  
+~ официант подходит к  их    столику 
+
+[LINE]
+Speaker526: Are~you ready  to~order?     
+~           вы      готовы сделать~заказ 
+
+[LINE]
+Speaker593: Two grilled~cheese~sandwiches,  please.    
+~           два горячих~бутерброда~с~сыром  пожалуйста 
+
+[LINE]
+Speaker526: Sorry.    We~only~have      one~more grilled~cheese~sandwich.  
+~           простите  у~нас~есть~только еще~один горячий~бутерброд~с~сыром 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker592: OK,     then  [I'll~have~it].
+~           хорошо  тогда  я~его~закажу  
++ I'll have it
+- all of it
+- I love it
+
+[LINE]
+Speaker593: Wait.   Why~do~you~get         the~sandwich?
+~           постой  почему~тебе~достанется бутерброд    
+
+[LINE]
+Speaker593: Could~you give~us~a~minute?      
+~           можете    оставить~нас~на~минуту 
+
+[MULTIPLE_CHOICE]
+> Зачем Викрам попросил официанта оставить их на минуту?
+- Чтобы он воспользовался уборной.
++ Чтобы они решили, кому достанется горячий бутерброд с сыром.
+- Чтобы они закончили есть.
+
+[LINE]
+> The~waiter walks~away.
+~ официант   уходит     
+
+[LINE]
+Speaker592: I want that sandwich,  Vikram.
+~           я хочу тот  бутерброд  Викрам 
+
+[LINE]
+Speaker593: No,  I want the~sandwich.
+~           нет  я хочу бутерброд    
+
+[LINE]
+Speaker592: But it~was   my  idea to~come here!
+~           но  это~была моя идея прийти  сюда 
+
+[LINE]
+Speaker593: I helped  you  paint     your apartment last~week.          
+~           я помогал тебе покрасить твою квартиру  (на)~прошлой~неделе 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker593: [(And~then) (you) (borrowed) (my)  (car).]   
+~             а~потом    ты    одолжил    мою   машину   
+
+[LINE]
+Speaker592: I borrowed your car    to~take         you  to the~hospital!
+~           я одолжил  твою машину (чтобы)~отвезти тебя в  больницу     
+
+[LINE]
+Speaker593: Because    I fell~out~of your   window while~I~was~painting!
+~           потому~что я выпал~из    твоего окна   когда~я~красил       
+
+[MULTIPLE_CHOICE]
+> Викрам выпал из окна, когда…
+- …кричал на соседей на улице.
++ …помогал Оскару с покраской его квартиры.
+- …прятал бутерброд с сыром.
+
+[LINE]
+Speaker593: And then  I gave you  my  chocolate~cake  at the~hospital.
+~           и   потом я дал  тебе мой шоколадный~торт в  больнице     
+
+[LINE]
+Speaker592: That~was a~delicious   chocolate~cake. 
+~           это~был  очень~вкусный шоколадный~торт 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker592: OK,     you~can~have    [the~sandwich].
+~           хорошо  можешь~заказать  бутерброд     
++ the~sandwich
+~ бутерброд   
+- the~hospital
+~ больница    
+- the~window
+~ окно      
+
+[LINE]
+> The~waiter returns.     
+~ официант   возвращается 
+
+[LINE]
+Speaker592: My  friend, Vikram, will~have the~sandwich.
+~           мой друг    Викрам  будет     бутерброд    
+
+[LINE]
+Speaker526: While you were~talking,  someone ordered the~last  sandwich. 
+~           пока  вы  разговаривали  кто-то  заказал последний бутерброд 
+
+[LINE]
+Speaker593: I hate     this restaurant!
+~           я ненавижу этот ресторан   
+
+[LINE]
+Speaker592: Yeah, I told    you  we~shouldn't       eat  here. 
+~           да    я говорил тебе (что)~нам~не~стоит есть здесь 
+
+[MULTIPLE_CHOICE]
+> Кому достанется горячий бутерброд с сыром?
+- Викраму.
++ Другому посетителю.
+- Оскару.
+
+[MATCH]
+> Коснитесь пар
+- And then <> а потом
+- ready <> готовы
+- I <> я
+- in <> в
+- helped <> помогал
+
