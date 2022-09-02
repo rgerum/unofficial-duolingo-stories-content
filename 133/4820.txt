@@ -1,0 +1,128 @@
+[DATA]
+fromLanguageName=새해에는 새 비
+icon=8771524805b100d0e185a914607b8c5d904534bc
+set=20|1
+
+[HEADER]
+> New~Year, New Bea
+~ 새해에는      새   비  
+
+[LINE]
+> Bea~and~Lin~are at~a~New~Year's~Eve~party.
+~ 비와~린이           새해~전야~파티에~와~있다            
+
+[LINE]
+Speaker508: Would~you~like~more~wine?
+~           와인~더~줄까                  
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker507: OK, but I'm going~to~stop [drinking~wine] this~year.
+~           그래  하지만 난   끊을~거야          와인~마시는~걸       올해에는      
++ drinking wine
+- drinking lime
+- thinking fine
+
+[LINE]
+Speaker508: You~are?
+~           정말      
+
+[LINE]
+Speaker507: I'm also going~to~stop watching~TV.
+~           난   또한   끊을~거야         텔레비전~보는~걸   
+
+[LINE]
+Speaker507: And I'm going~to~do yoga every~day and date   more people!
+~           그리고 난   할~거야        요가를  매일        그리고 만나볼~거야 더~많은 사람들을   
+
+[LINE]
+Speaker507: New~year, new Bea!
+~           새해에는      새   비   
+
+[MULTIPLE_CHOICE]
+> 음… 비가 방금 그렇게 말한 이유는 무엇인가요?
++ 자신의 인생에 많은 변화를 주고 싶어서.
+- 린이 자신을 젊게 봐주길 바라서.
+- “비”라는 이름을 가진 또 다른 사람을 만나서.
+
+[LINE]
+Speaker508: So we're going~to~spend less time together now?
+~           그럼 우린    보내는~거야         더~적은 시간을  함께       이제  
+
+[LINE]
+Speaker507: What~do~you~mean?
+~           무슨~말이야           
+
+[LINE]
+Speaker508: I love   watching~TV… And I hate yoga.
+~           난 아주~좋아해 텔레비전~보는~걸    그리고 난 싫어해  요가를  
+
+[LINE]
+Speaker508: I don't~understand why things have~to~change.
+~           난 이해가~안~가          왜   상황이    변해야~하는지        
+
+[LINE]
+Speaker507: Lin, I didn't~mean…
+~           린    난 그런~뜻이~아니었어  
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+> [(An) (attractive) (guy) (walks~past) (them).]
+~   한    멋진           남자가   옆을~지나간다      그들의    
+
+[LINE]
+Speaker508: You should~talk to~him. You want~to~date more people, right?
+~           넌   대화하는~게~좋겠어  저~남자와   네가  만나보고~싶다며     더~많은 사람들을    그렇지   
+
+[LINE]
+> Lin walks~away.
+~ 린이  자리를~뜬다     
+
+[MULTIPLE_CHOICE]
+> 린이 자리를 뜬 이유는...
++ …비가 그 남자랑 대화해야 한다고 생각해서.
+- …갑자기 치즈가 먹고 싶어져서.
+- …요가 수업을 한번 들어보고 싶어서.
+
+[LINE]
+Speaker1088: Hi.    Can~I~get~you a~drink?
+~            안녕하세요  제가~사~드릴까요     마실~걸    
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker507: Actually… I want [to~spend~more~time] with~my~friend,~Lin.
+~           사실        전 원해요   더~많은~시간을~보내길        제~친구~린과             
++ to spend more time
+- to spend more dimes
+- to send your time
+
+[LINE]
+> Bea runs to~Lin.
+~ 비가  뛰어간다 린에게    
+
+[LINE]
+Speaker507: Lin! I don't~want~to~be~a~different~person this~year.
+~           린    난 변하고~싶지~않아                           올해에       
+
+[LINE]
+Speaker507: Last~year~was great.  We had~a~lot~of~fun!
+~           지난~해는         아주~좋았어  우린 즐거웠다고            
+
+[LINE]
+Speaker508: That's good because I can't~be~friends with~someone who~doesn't~watch~TV.
+~           그건     다행이네 왜냐하면    난 친구할~수~없거든        사람과는         텔레비전을~보지~않는          
+
+[MULTIPLE_CHOICE]
+> 비는 자신이 변화를 원한다고 생각했지만…
+- …너무 겁이 나 그 멋진 남자와 말을 할 수 없었다.
+- …린과 함께 하는 시간이 전혀 즐겁지 않다는 걸 깨달았다.
++ …실은 지난 해에 자신이 행복했음을 깨달았다.
+
+[MATCH]
+> 짝을 누르세요
+- date <> 만나볼 거야
+- new <> 새
+- to spend more time <> 더 많은 시간을 보내길
+- good <> 다행이네
+- to him <> 저 남자와
+
