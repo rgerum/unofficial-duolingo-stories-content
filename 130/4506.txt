@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=Без весла
+icon=bbbf59720476669932c111e1a738c86b6d678fbe
+set=43|3
+
+[HEADER]
+> Without a~Paddle
+~ без     весла   
+
+[LINE]
+> Lucy and Lin are~spending a~day at the~lake.
+~ Люси и   Лин проводят     день  у  озера    
+
+[LINE]
+> They decided to~rent        a~boat.
+~ они  решили  взять~напрокат лодку  
+
+[LINE]
+Speaker508: This~is so  nice.   
+~           это     так здорово 
+
+[LINE]
+Speaker509: Hmm… I'm~not~sure.
+~           хм   я~не~уверена 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker508: Aren't~you~glad  [we~rented~this~boat]?        
+~           ты~не~рада~(что)  мы~взяли~напрокат~эту~лодку  
+- we went in this coat
+- we rented this goat
++ we rented this boat
+
+[LINE]
+Speaker509: No.  I wanted to~go~swimming. 
+~           нет  я хотела пойти~поплавать 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker508: [(But) (we're) (still)       (enjoying)     (the~lake).]
+~             но    мы      по-прежнему   наслаждаемся   озером     
+
+[LINE]
+Speaker509: You're right, it's~nice.   
+~           ты     права  оно~красивое 
+
+[LINE]
+Speaker508: And now    we~have    everything~we~need  for the~perfect afternoon: a~great~view, beautiful~weather, wine, cheese…
+~           и   теперь у~нас~есть всё~(что)~нам~нужно для идеального  полудня    отличный~вид  прекрасная~погода  вино  сыр    
+
+[POINT_TO_PHRASE]
+> Choose   the~option that    means    «вёсла»
+~ выберите вариант    который означает ~      
+Speaker508: (Wait),       (where~are) (our)  (+paddles)?
+~            подожди-ка    где         наши    вёсла    
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker509: Oops, I~think     I dropped them [in the~lake].
+~           ой    мне~кажется я уронила их    в  озеро     
++ in the~lake
+~ в  озеро   
+- this    boat 
+~ (в)~эту лодку
+- a~great~view    
+~ (в)~отличный~вид
+
+[LINE]
+Speaker508: Did~you~do~that on~purpose? Without paddles, we can't~get~out       of the~lake!
+~           ты~сделала~это  специально  без     вёсел    мы не~сможем~выбраться из озера    
+
+[MULTIPLE_CHOICE]
+> Did~you~catch~that? Lin asked~if…
+~ вы~поняли           Лин спросила 
+- …Lucy~painted       the~paddles.
+~  нарисовала~ли~Люси вёсла       
+- …Lucy~dropped    the~paddles on a~fish.
+~  уронила~ли~Люси вёсла       на рыбу   
++ …Lucy~wanted    to~drop the~paddles in the~lake.
+~  хотела~ли~Люси уронить вёсла       в  озеро    
+
+[LINE]
+Speaker509: That's not a~problem.
+~           это    не  проблема  
+
+[ARRANGE]
+> Наберите услышанное
+> [(Lucy) (takes)   (two~swimsuits)  (out~of~her) (bag).]  
+~   Люси   достаёт   два~купальника   из~своей     сумки   
+
+[LINE]
+Speaker509: Because    we~have    these!  
+~           потому~что у~нас~есть вот~это 
+
+[LINE]
+Speaker508: You brought our  swimsuits?!  You planned      this!
+~           ты  взяла   наши купальники   ты  спланировала это  
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker509: I told     you  I wanted [to~go~swimming]. 
+~           я говорила тебе я хотела  пойти~поплавать  
+- to~play  in the~snow
+~ поиграть в  снегу   
+- to~eat some~cake
+~ съесть торт     
++ to~go~swimming 
+~ пойти~поплавать
+
+[LINE]
+Speaker509: We went~for      a~boat~ride,       like you wanted.
+~           мы отправились~в прогулку~на~лодке  как  ты  хотела 
+
+[LINE]
+Speaker509: And now    we're going~for~a~swim,       like~I    wanted!
+~           и   теперь мы    отправляемся~поплавать  как~я~(и) хотела 
+
+[MULTIPLE_CHOICE]
+> Why~did Lucy drop    the~paddles into the~lake?
+~ почему  Люси уронила вёсла       в    озеро    
+- She was~scared~of a~big   fish in the~water.
+~ она боялась       большой рыбы в  воде      
++ She wanted to~go~swimming  in the~lake.
+~ она хотела пойти~поплавать в  озере    
+- She was~looking~at a~man   in a~different boat. 
+~ она смотрела~на    мужчину в  другой      лодке 
+
+[MATCH]
+> Коснитесь пар
+- dropped <> уронила
+- nice <> здорово
+- everything we need <> всё нам нужно
+- No <> нет
+- swimsuits <> купальники
+
