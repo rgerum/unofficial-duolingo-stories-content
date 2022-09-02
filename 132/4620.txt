@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=शाकाहारी
+icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
+set=2|3
+
+[HEADER]
+> The~Vegetarian
+~ शाकाहारी      
+
+[LINE]
+> Vikram is~reading a  menu   in~a~nice~restaurant.   
+~ विक्रम पढ़~रहा~है  एक मेन्यू एक~अच्छे~रेस्टोरेंट~में 
+
+[LINE]
+Speaker385: Welcome!         
+~           (आपका)~स्वागत~है 
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker593: Hello.  I~have  a  question about       [the~menu].
+~           नमस्ते  मेरा~है एक सवाल     के~बारे~में  मेन्यू    
++ the menu
+- the man to
+- the men
+
+[LINE]
+Speaker593: I   am  a  vegetarian.
+~           मैं हूँ एक शाकाहारी   
+
+[LINE]
+Speaker593: Is~there           vegetarian food?
+~           क्या~(आपके~पास)~है शाकाहारी   खाना 
+
+[MULTIPLE_CHOICE]
+> विक्रम को मांस खाना पसंद है।
++ नहीं, ऐसा नहीं है।
+- हाँ, यह सही है।
+
+[LINE]
+Speaker385: Yes, we~have       very good  steaks.
+~           हाँ  हमारे~पास~हैं बहुत अच्छे स्टेक  
+
+[LINE]
+Speaker593: Steaks are      meat. I   do~not~eat meat.
+~           स्टेक  होते~हैं मांस  मैं नहीं~खाता  मांस 
+
+[LINE]
+Speaker385: Oh, yes. I~am~sorry. 
+~           ~   हाँ  माफ़~कीजिएगा 
+
+[LINE]
+Speaker385: The~chicken is delicious.
+~           चिकन        है स्वादिष्ट 
+
+[MULTIPLE_CHOICE]
+> ज़रा एक मिनट… यह क्या? वेटर को लगता है कि विक्रम को...
++ …चिकन मँगा लेना चाहिए।
+- …चिकन पसंद नहीं है।
+- …भूख नहीं लगी है।
+
+[LINE]
+Speaker593: Chicken is        meat.
+~           चिकन    (होता)~है मांस 
+
+[LINE]
+Speaker593: I~do~not~want   meat!
+~           मुझे~नहीं~चाहिए मांस 
+
+[LINE]
+Speaker385: We~have      salad…
+~           हमारे~पास~है सलाद  
+
+[LINE]
+Speaker593: Oh, I~like       salad! What is in~the~salad?
+~           ~   मुझे~पसंद~है सलाद   क्या है सलाद~में     
+
+[POINT_TO_PHRASE]
+> उस शब्द पर क्लिक करें जिसका मतलब “सलाद के पत्ते” है।
+Speaker385: (There~is) (tomato), (+lettuce),       (fish)…
+~            उसमें~है   टमाटर      सलाद~के~पत्ते    मछली  
+
+[CONTINUATION]
+> आगे क्या आएगा?
+Speaker593: I   do~not~eat fish! I   am  a  [vegetarian]!
+~           मैं नहीं~खाता  मछली  मैं हूँ एक  शाकाहारी    
+- restaurant
+~ रेस्टोरेंट
++ vegetarian
+~ शाकाहारी  
+- salad
+~ सलाद 
+
+[LINE]
+Speaker385: We~have       fries  …
+~           हमारे~पास~हैं फ़्राइज़  
+
+[LINE]
+Speaker593: OK.     Fries  are fine.
+~           ठीक~है  फ़्राइज़ हैं ठीक  
+
+[LINE]
+Speaker385: Fries,  perfect. And… a  burger?
+~           फ़्राइज़  बढ़िया    और   एक बर्गर  
+
+[LINE]
+Speaker593: No~meat,      please!
+~           बिना~मांस~के  कृपया  
+
+[MULTIPLE_CHOICE]
+> विक्रम वेटर से आखिर क्यों परेशान हो गया?
+- क्योंकि वेटर को विक्रम का नाम याद ही नहीं रहता।
++ क्योंकि वेटर बार-बार भूल जाता है कि विक्रम शाकाहारी है।
+- क्योंकि रेस्टोरेंट का खाना बेकार है।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- question <> सवाल
+- burger <> बर्गर
+- delicious <> स्वादिष्ट
+- about <> के बारे में
+- vegetarian <> शाकाहारी
+
