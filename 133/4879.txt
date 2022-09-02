@@ -1,0 +1,201 @@
+[DATA]
+fromLanguageName=장거리 연애
+icon=44f38e39c6769b51408ae83596a1e538d967e8bb
+set=34|4
+
+[HEADER]
+> Long-Distance Girlfriend
+~ 장거리           여자친구      
+
+[LINE]
+> Eddy~is on~a~video~call with his long-distance girlfriend, Lola.
+~ 에디가     영상통화~중이다        ~와   그의  장거리           여자친구        롤라   
+
+[LINE]
+Speaker414: It's~sad that we  don't~see each~other very~often. I really miss~you…
+~           슬퍼       ~해서  우리가 못~본다      서로를        자주          난 정말     네가~보고~싶어 
+
+[LINE]
+Speaker1848: Eddy, I'm~sorry. I~don't~think~this~is~working—
+~            에디    미안해        잘~안되는~것~같아                    
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+> Suddenly, [the~video~call~ends].
+~ 갑자기        영상통화가~끊긴다            
++ the video call ends
+- then it all ends
+- the video mall ends
+
+[LINE]
+Speaker414: Lola? Lola!
+~           롤라    롤라   
+
+[LINE]
+> Eddy tries to~call~Lola~back, but she doesn't~answer.
+~ 에디가  해본다   롤라에게~다시~전화를        하지만 그녀가 받지~않는다         
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+> [(Eddy) (calls) (his) (friend) (Bea).]
+~   에디가    전화한다    그의    친구       비에게   
+
+[LINE]
+Speaker507: Hey Eddy. How's~it~going?
+~           안녕  에디    잘~지내           
+
+[LINE]
+Speaker414: Awful! I~think Lola wants~to~break~up!
+~           최악이야   ~인~것~같아 롤라가  헤어지고~싶어한다         
+
+[MULTIPLE_CHOICE]
+> Wait… what~does~Eddy~think?
+~ 잠깐만요  에디는~뭐라고~생각하나요        
++ Lola doesn't~want~to~date him anymore.
+~ 롤라가  만나고~싶어하지~않는다         그를  더~이상    
+- Lola didn't~pay for~her~Internet.
+~ 롤라가  내지~않았다     그녀의~인터넷~사용료를     
+- Lola wants~to~break her computer.
+~ 롤라가  부수고~싶어한다       그녀의 컴퓨터를     
+
+[LINE]
+Speaker507: Does~she~want~to~break~up because you live too far~away?
+~           롤라가~헤어지고~싶어해              ~해서     네가  산다   너무  멀리~떨어져   
+
+[LINE]
+Speaker414: I~don't~know! She said our relationship isn't~working!
+~           모르겠어          롤라가 말했어  우리의 관계가          잘~안되고~있다고     
+
+[LINE]
+Speaker414: Then,   I  called~her~back~and she didn't~answer!
+~           그리고~나서  내가 다시~전화했는데            롤라가 받지~않았어        
+
+[LINE]
+Speaker507: Long-distance relationships~are hard.
+~           장거리           연애는               힘들어  
+
+[LINE]
+Speaker414: But I want this  to~work! What~should~I~do?
+~           하지만 난 바라   이~관계가 잘되길      어떡하지             
+
+[LINE]
+Speaker507: You have~to~let~Lola~know that  you're serious about~her!
+~           네가  롤라한테~알려줘야~해           ~라는~걸 네가     진지하다    그녀에~대해    
+
+[CONTINUATION]
+> What comes next?
+~ 무엇이  오나요   다음에  
+Speaker414: Yeah! I~am [serious about~her]!
+~           응     난     진지해     롤라에~대해     
+- hungry~for a~sandwich
+~ 먹고~싶다      샌드위치를     
+- ready to~leave
+~ 준비됐다  떠날      
++ serious about~her
+~ 진지하다    그녀에~대해   
+
+[LINE]
+> Just then, Lola calls again.
+~ 바로   그때    롤라가  전화한다  다시    
+
+[LINE]
+Speaker414: Wait, she's calling now! Thanks, Bea.
+~           잠깐    롤라한테  전화왔어    지금   고마워     비   
+
+[LINE]
+> Eddy answers Lola's call.
+~ 에디가  받는다     롤라의    전화를  
+
+[LINE]
+Speaker1848: Hey Eddy. I'm~so~sorry…
+~            안녕  에디    정말~미안해       
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker414: No, listen, Lola! I think this relationship can~work. We live very far~away from~each~other, but [I~can~move]!
+~           아니  들어봐     롤라    내 생각엔   이    관계가          잘될~수~있어   우린 살아   아주   멀리~떨어져   서로               하지만  내가~이사하면~돼   
+- I can lose
++ I can move
+- why can't you
+
+[LINE]
+Speaker1848: Move? Wait, why?
+~            이사    잠깐만   왜   
+
+[LINE]
+Speaker414: Because I'm serious about~you!
+~           ~하니까    난   진지하다    너에~대해     
+
+[LINE]
+Speaker1848: You~are?
+~            정말      
+
+[LINE]
+Speaker414: Or…  you can~move~in with~Junior~and~me! We  can~get~married!
+~           아니면  네가  같이~살아도~좋아   주니어와~나랑             우리가 결혼할~수도~있어       
+
+[LINE]
+Speaker1848: You want~to~get~married?! Eddy, we've~only~dated for~two~months!
+~            넌   결혼하고~싶어               에디    우린~고작~만났어        두~달간           
+
+[MULTIPLE_CHOICE]
+> Why is~Lola~confused about~what~Eddy~said?
+~ 왜   롤라가~혼란스러워하나요     에디가~한~말에~대해          
+- There~is~too~much~noise, and she can't~hear~him.
+~ 소음이~너무~심하다               그래서 그녀는 그의~말이~안~들린다    
+- He's using words she doesn't~understand.
+~ 그는   쓰고~있다 단어를   그녀가 이해하지~못하는           
++ She thinks it~is~too~early for~them to~get~married.
+~ 그녀는 생각한다   너무~이르다고         그들이      결혼하기엔          
+
+[LINE]
+Speaker414: You're right. That's pretty soon.  I~was just worried…
+~           네~말이   맞아     그게     좀      이르긴~해  난     그냥   걱정이~돼서  
+
+[LINE]
+Speaker1848: Worried~about~what?
+~            뭐가~걱정돼             
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker414: [(You) (said) (our) (relationship) (wasn't~working)!]
+~             네가    말했잖아   우리    관계가            잘~안되고~있다고        
+
+[LINE]
+Speaker1848: No, I~was talking about~the~video~call! My connection~is bad   here!
+~            아니  난     얘기한~거였어 영상통화에~대해              내  연결~상태가        좋지~않아 여기서  
+
+[LINE]
+Speaker1848: But… I really like you. Maybe we  can—    
+~            하지만  난 정말     좋아   네가   어쩌면   우리가 ~할~수~있어 
+
+[LINE]
+> The~call ends again.
+~ 통화가      끊긴다  다시    
+
+[LINE]
+Speaker414: Lola? Lola!
+~           롤라    롤라   
+
+[LINE]
+Speaker414: She's right. This isn't~working.
+~           롤라~말이 맞아     이건   잘~안되고~있어      
+
+[MULTIPLE_CHOICE]
+> Eddy thought Lola wanted~to~break~up with~him, but…
+~ 에디는  생각했다    롤라가  헤어지길~원한다고          그와        하지만 
+- …she just forgot how~to~make~a~video~call.
+~  그녀는 단지   잊어버렸다  영상통화하는~법을                
++ …she just had~a~bad~Internet~connection.
+~  그녀는 단지   인터넷~연결~상태가~좋지~않았다             
+- …she actually wants~to~get~married now.
+~  그녀는 사실       결혼하고~싶어한다            지금  
+
+[MATCH]
+> 짝을 누르세요
+- miss you <> 네가 보고 싶어
+- listen <> 들어봐
+- Eddy is <> 에디가
+- call <> 전화를
+- from each other <> 서로
+
