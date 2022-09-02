@@ -1,0 +1,150 @@
+[DATA]
+fromLanguageName=На вокзал!
+icon=5bee618bd907474764094eddf36ddcbc46523c98
+set=3|2
+
+[HEADER]
+> To the~Station!
+~ на вокзал      
+
+[LINE]
+> Oscar gets~in~a~taxi. 
+~ Оскар садится~в~такси 
+
+[LINE]
+> His friend,  Lin, is~driving~the~taxi.
+~ его подруга  Лин  ведет~такси         
+
+[MULTIPLE_CHOICE]
+> Оскар сидит в такси, а за рулём — его подруга Лин.
++ Да, это правда.
+- Нет, это неправда.
+
+[LINE]
+Speaker592: Lin! You~are~driving a~taxi!
+~           Лин  ты~водишь       такси  
+
+[LINE]
+Speaker508: Yes! It~is~my new   job!   
+~           да   это~моя  новая работа 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «поехать».
+Speaker508: (Where) (do~you) (want)   (+to~go)?  
+~            куда    ты       хочешь    поехать  
+
+[LINE]
+Speaker592: To the~station, please!    
+~           на вокзал       пожалуйста 
+
+[LINE]
+Speaker508: Where~is the~station?
+~           где      вокзал      
+
+[LINE]
+Speaker592: I do~not~know.
+~           я не~знаю     
+
+[MULTIPLE_CHOICE]
+> Оскар не знает...
++ …где находится вокзал.
+- …кто такая Лин.
+- ...куда он хочет поехать.
+
+[LINE]
+Speaker508: OK…    
+~           хорошо 
+
+[LINE]
+> Lin starts   driving.
+~ Лин начинает ехать   
+
+[MULTIPLE_CHOICE]
+> Лин начинает…
++ …ехать.
+- …идти.
+- …есть.
+
+[LINE]
+Speaker508: We~are~here!
+~           мы~на~месте 
+
+[LINE]
+Speaker592: Lin… this~is not the~station. This~is the~university.
+~           Лин  это     не  вокзал       это     университет    
+
+[LINE]
+Speaker508: Oh…
+~           ой 
+
+[LINE]
+> Lin starts   driving.
+~ Лин начинает ехать   
+
+[LINE]
+Speaker508: We~are~here!
+~           мы~на~месте 
+
+[LINE]
+Speaker592: Lin…
+~           Лин 
+
+[LINE]
+Speaker508: Yes?
+~           да  
+
+[LINE]
+Speaker592: This~is the~hospital.
+~           это     больница     
+
+[LINE]
+Speaker508: Oh…
+~           ой 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «снова».
+> (Lin) (starts)   (driving)… (+again).
+~  Лин   начинает   ехать       снова  
+
+[LINE]
+Speaker508: OK,     we~are~here!
+~           хорошо  мы~на~месте 
+
+[LINE]
+Speaker592: Lin, this~is not the~station…
+~           Лин  это     не  вокзал      
+
+[LINE]
+Speaker508: I know. This~is my  apartment.
+~           я знаю  это     моя квартира  
+
+[LINE]
+Speaker508: I do~not~want to~drive a~taxi.
+~           я не~хочу     водить   такси  
+
+[LINE]
+Speaker508: It~is~a~difficult~job.
+~           это~сложная~работа    
+
+[LINE]
+> Lin gets~out~of~the~taxi.
+~ Лин выходит~из~такси     
+
+[LINE]
+Speaker508: Good~night,     Oscar!
+~           спокойной~ночи  Оскар 
+
+[MULTIPLE_CHOICE]
+> О нет! Почему Лин решила пойти домой?
+- Ей нужно было подобрать ещё одного пассажира.
++ Она считает, что водить такси слишком сложно.
+- Она забыла свой обед.
+
+[MATCH]
+> Коснитесь пар
+- To <> на
+- Oscar <> Оскар
+- driving <> ехать
+- the station <> вокзал
+- not <> не
+
