@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Вегетаріанець
+icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
+set=5|3
+
+[HEADER]
+> The~Vegetarian 
+~ вегетаріанець  
+
+[LINE]
+> Vikram is~reading a~menu in a~nice  restaurant.
+~ Вікрам читає      меню   у  гарному ресторані  
+
+[LINE]
+Speaker385: Welcome!        
+~           ласкаво~просимо 
+
+[SELECT_PHRASE]
+> Виберіть пропущену фразу
+Speaker593: Hello.       I~have   a~question about [the~menu].
+~           добрий~день  у~мене~є запитання  щодо   меню      
+- the meat
+- the restaurant
++ the menu
+
+[LINE]
+Speaker593: I~am a~vegetarian. 
+~           я    вегетаріанець 
+
+[LINE]
+Speaker593: Is~there vegetarian     food?
+~           є        вегетаріанська їжа  
+
+[MULTIPLE_CHOICE]
+> Вікрам любить їсти м'ясо.
++ Ні, це неправда.
+- Так, це правда. 
+
+[POINT_TO_PHRASE]
+> Виберіть варіант, що означає «стейки».
+Speaker385: Yes, (we~have) (very) (good)   (+steaks).
+~           так   у~нас~є   дуже   хороші    стейки  
+
+[LINE]
+Speaker593: Steaks are~meat. I do~not~eat meat. 
+~           стейки це~м'ясо  я не~їм      м'ясо 
+
+[LINE]
+Speaker385: Oh, yes. I~am~sorry.
+~           о   так  вибачте    
+
+[LINE]
+Speaker385: The~chicken is~delicious.
+~           курка       смачна       
+
+[MULTIPLE_CHOICE]
+> Офіціант вважає, що…
+- … Вікрам ненавидить курку.
+- … Вікрам не голодний.
++ … Вікраму варто замовити курку.
+
+[LINE]
+Speaker593: Chicken is~meat.  
+~           курка   це~м'ясо  
+
+[LINE]
+Speaker593: I do~not~want meat! 
+~           я не~хочу     м'яса 
+
+[LINE]
+Speaker385: We~have salad…
+~           у~нас~є салат 
+
+[LINE]
+Speaker593: Oh, I like  salad! What is in~the~salad?
+~           о   я люблю салат  що   є  у~салаті     
+
+[LINE]
+Speaker385: There~is tomato,  lettuce,     fish…
+~           там~є    помідор  салат-латук  риба 
+
+[CONTINUATION]
+> Що далі?
+Speaker593: I do~not eat fish ! I'm~a~vegetariann]!
+~           я не     їм  рибу   я~вегетаріанець    
+- restaurant
+~ ресторан  
+- salad 
+~ салат 
++ vegetarian   
+~ вегетаріанець
+
+[LINE]
+Speaker385: We~have fries…       
+~           у~нас~є картопля~фрі 
+
+[LINE]
+Speaker593: OK.     Fries~are~fine.        
+~           гаразд  картопля~фрі~підходить 
+
+[LINE]
+Speaker385: Fries,        perfect. And … a~burger? 
+~           картопля~фрі  чудово   і     гамбургер 
+
+[LINE]
+Speaker593: No~meat,       please!    
+~           ніякого~м'яса  будь~ласка 
+
+[MULTIPLE_CHOICE]
+> Чому Вікрам був незадоволений офіціантом?
++ Він постійно забував, що Вікрам вегетаріанець.
+- Їжа в ресторані була несмачною.
+- Він не запам'ятав його імені.
+
+[MATCH]
+> З’єднайте пари
+- we have <> у нас є
+- I am <> я
+- in the salad <> у салаті
+- fish <> риба
+- OK <> гаразд
+
