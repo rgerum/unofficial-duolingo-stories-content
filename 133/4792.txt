@@ -1,0 +1,151 @@
+[DATA]
+fromLanguageName=중요한 경기
+icon=170e9caad206d87350e17e32c18226edefea8131
+set=13|1
+
+[HEADER]
+> The~Big~Game
+~ 중요한~경기      
+
+[LINE]
+> Bea arrives at~her~friend~Justin's~house.
+~ 비가  도착한다    그녀의~친구~저스틴의~집에               
+
+[LINE]
+Speaker507: Are~you~ready?
+~           (넌)~준비됐어      
+
+[LINE]
+Speaker507: This~is the~most~exciting soccer~game of~the~year!
+~           이건      가장~신나는            축구~경기야      올해의         
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker507: And [we~have~tickets]!
+~           그리고  우리한테~티켓이~있어      
+- we have taken
++ we have tickets
+- even tickets
+
+[LINE]
+Speaker295: Bea…
+~           비   
+
+[LINE]
+Speaker295: I can't~go to~the~game.
+~           난 못~가      그~경기에       
+
+[LINE]
+Speaker507: What?
+~           뭐라고  
+
+[LINE]
+Speaker295: I need~to~study.
+~           난 공부해야~해        
+
+[LINE]
+Speaker295: I have a   really important exam tomorrow.
+~           난 있어   하나의 정말     중요한       시험이  내일       
+
+[LINE]
+Speaker295: I need~to~pass the exam to~go to~medical~school.
+~           난 통과해야~해       그   시험을  가려면   의대에               
+
+[MULTIPLE_CHOICE]
+> 저스틴이 경기에 갈 수 없는 이유는 무엇인가요?
++ 중요한 시험에 대비해 공부를 해야 해서.
+- 병원에 가야 해서.
+- 자신의 행운의 티셔츠를 잃어버려서.
+
+[LINE]
+Speaker295: I'm~sorry…
+~           (내가)~미안해  
+
+[LINE]
+> Bea takes~off her coat.
+~ 비가  벗는다       그녀의 코트를  
+
+[MULTIPLE_CHOICE]
+> 다시 말해, 비는…
++ ...코트를 벗었다.
+- ...코트를 입었다.
+- ...저스틴의 코트를 슬쩍했다.
+
+[LINE]
+Speaker507: OK,  do~you~have any~coffee?
+~           알았어  (넌)~있어      커피~좀       
+
+[LINE]
+Speaker295: Why?
+~           왜   
+
+[LINE]
+Speaker507: Well, I don't~want~to~be~tired.
+~           음     난 피곤하기~싫으니까              
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker507: We're going~to~study [all~night].
+~           우린    공부할~거야          밤새도록       
++ all~night
+~ 밤새도록     
+- the~tickets
+~ 티켓         
+- a~soccer~ball
+~ 축구공          
+
+[LINE]
+Speaker295: But…
+~           하지만 
+
+[LINE]
+Speaker507: You help  me often.
+~           넌   도와주잖아 날  자주    
+
+[LINE]
+Speaker507: Of~course I'm going~to~help you now.
+~           당연히       나도  도와줄거야         너를  이제  
+
+[LINE]
+Speaker295: But it's the~most~exciting game of~the~year…
+~           하지만 이건   가장~신나는            경기인데 올해의         
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker507: [(You're) (more) (important) (than~a~game).]
+~             네가       더      중요해         경기보다          
+
+[LINE]
+Speaker507: And you will~pass this exam!
+~           그리고 넌   통과할거야     이    시험을  
+
+[LINE]
+Speaker507: And when~you're~a~doctor…
+~           그리고 네가~의사가~되면            
+
+[LINE]
+Speaker507: … you're going~to~buy the~soccer~tickets, right?
+~             네가     살~거지         축구~경기~티켓을           그렇지   
+
+[LINE]
+Speaker295: Of~course, Bea.
+~           당연하지       비   
+
+[LINE]
+Speaker507: Now where's~the~coffee?
+~           이제  그~커피~어딨니           
+
+[MULTIPLE_CHOICE]
+> 비는…
++ ...경기에 가지 않고 저스틴이 시험 공부하는 걸 도와주기로 했다.
+- ...다른 친구를 불러 경기를 보러 가기로 했다.
+- ...의대에 지원하기로 했다.
+
+[MATCH]
+> 짝을 누르세요
+- important <> 중요한
+- right <> 그렇지
+- exam <> 시험이
+- going to help <> 도와줄거야
+- need to pass <> 통과해야 해
+
