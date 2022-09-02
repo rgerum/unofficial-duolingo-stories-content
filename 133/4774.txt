@@ -1,0 +1,105 @@
+[DATA]
+fromLanguageName=지저분한 아파트
+icon=0e6ab8c3a4e3224cb700e8daeac0038f7f0e929e
+set=8|3
+
+[HEADER]
+> Dirty Apartment
+~ 지저분한  아파트      
+
+[LINE]
+> Bea goes to~her~friend~Sarah's~apartment.
+~ 비가  간다   그녀의~친구~세라의~아파트에                 
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker507: Hi, Sarah, [how~are~you]?
+~           안녕  세라      잘~지냈어        
+- now are you
+- how were two
++ how are you
+
+[LINE]
+Speaker175: I'm terrible!
+~           난   정말~짜증나   
+
+[LINE]
+Speaker507: Oh,~no. Why?
+~           아~이런    왜   
+
+[LINE]
+Speaker175: My new roommate~and I  always argue~a~lot.
+~           나의 새   룸메이트랑        나는 항상     자주~다퉈       
+
+[MULTIPLE_CHOICE]
+> 세라가 속상한 이유는...
+- ...어젯밤에 집에 너무 늦게 들어왔기 때문이다.
+- ...룸메이트의 고양이에 알레르기가 있기 때문이다.
++ ...룸메이트와 많이 다투기 때문이다.
+
+[LINE]
+Speaker507: I'm~not~surprised! This~kitchen~is very dirty. 
+~           (나는)~그리~놀랍지도~않은~걸  여기~부엌이          엄청   지저분하잖아 
+
+[LINE]
+Speaker175: Ugh, I~know.
+~           어후   나도~알아  
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker507: And there's~old~cheese [on~that~table].
+~           그리고 오래된~치즈가~있네          저~테이블~위에       
+- at~the~supermarket
+~ 슈퍼에               
+- on~your~head
+~ 네~머리~위에     
++ on~that~table
+~ 저~테이블~위에     
+
+[LINE]
+Speaker175: Yes. Yuck!
+~           응    우웩   
+
+[LINE]
+Speaker507: And there~are~dirty~clothes on~this~chair!
+~           그리고 더러운~옷들이~있어              이~의자~위에       
+
+[LINE]
+Speaker507: Wait… this~is your shirt.
+~           잠깐만   이건      너의   셔츠잖아  
+
+[LINE]
+Speaker175: Yes.
+~           응   
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker507: [(These~are) (all) (your) (clothes)!]
+~             이것들은        전부    너의     옷이야       
+
+[LINE]
+Speaker507: Is~that~your~old~cheese,~too?!
+~           저~오래된~치즈도~네~거야                
+
+[LINE]
+Speaker175: Yes! I  never~clean, and my roommate always complains!
+~           응    나는 청소를~전혀~안~해   그리고 내  룸메이트는    항상     불평해       
+
+[LINE]
+Speaker175: She's terrible!
+~           그녀는   정말~짜증나   
+
+[MULTIPLE_CHOICE]
+> 아하! 세라와 그녀의 룸메이트는 왜 다투나요?
++ 세라가 항상 집을 어지럽히고 청소를 하지 않아서.
+- 세라가 룸메이트의 옷을 모두 가져다 입어서.
+- 비가 오래된 치즈 먹는 걸 좋아해서.
+
+[MATCH]
+> 짝을 누르세요
+- dirty <> 지저분하잖아
+- roommate <> 룸메이트는
+- shirt <> 셔츠잖아
+- complains <> 불평해
+- I know <> 나도 알아
+
