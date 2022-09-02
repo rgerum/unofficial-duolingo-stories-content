@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=드레스 쇼핑
+icon=ffba9eba0bc98eb1b87842bfd234eb4274095663
+set=21|4
+
+[HEADER]
+> Dress Shopping
+~ 드레스   쇼핑      
+
+[LINE]
+> Lily~is shopping for~a~pink~dress with~her~mom.
+~ 릴리가     쇼핑~중이다   분홍색~드레스를~사려고     (그녀의)~엄마와~함께 
+
+[LINE]
+Speaker416: Do~we~really~have~to~go to~Aunt~Betty's~wedding?
+~           우린~꼭~가야~돼요              베티~이모의~결혼식에             
+
+[LINE]
+Speaker559: Yes! She's finally getting~married!
+~           그럼   이모가   드디어     결혼하잖니           
+
+[LINE]
+Speaker416: But I hate the~color~pink… and wearing~dresses!
+~           하지만 전 싫어요  분홍색이            그리고 드레스를~입는~것도      
+
+[LINE]
+Speaker559: I   know, but everyone~in~the~wedding~is wearing a~black~suit or  a~pink~dress.
+~           엄마도 알아    하지만 결혼식에~오는~모든~사람이             입을~거야   검정색~정장       아니면 분홍색~드레스를     
+
+[MULTIPLE_CHOICE]
+> 릴리와 그녀의 엄마가 분홍색 드레스를 사려는 이유는 무엇인가요?
+- 베티 이모의 고양이에게 줄 선물을 사려고.
++ 릴리가 결혼식 때 입을 옷이 필요해서.
+- 릴리는 분홍색 드레스만 입어서.
+
+[LINE]
+> Lily's mom shows her  a   short pink dress.
+~ 릴리의    엄마가 보여준다  그녀에게 하나의 짧은    분홍색  드레스를  
+
+[LINE]
+Speaker559: How~about~this~one?
+~           이건~어때              
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker416: It's [too~short]!
+~           그건    너무~짧아요     
+- two shirts
+- two shots
++ too short
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker559: OK,  what~about~this~one? It's longer than [the~other~dress].
+~           알았어  이건~어때                이건   더~길어   ~보다   아까~그~드레스         
+- your hair
+~ 네    머리  
+- the~winter
+~ 겨울        
++ the~other dress
+~ 다른        드레스  
+
+[LINE]
+Speaker416: It has~feathers! I don't~want~to~look like~a~bird.
+~           그건 깃털이~달렸잖아요     전 보이고~싶지~않아요         새처럼         
+
+[MULTIPLE_CHOICE]
+> 릴리가 그 드레스를 입으면 새처럼 보일거라 생각하는 이유는...
++ …깃털이 달렸기 때문이다. 
+- …여러 색깔이 섞여있기 때문이다.
+- …그녀의 팔이 사실은 날개이기 때문이다.
+
+[LINE]
+Speaker416: This~is stupid!    I'm only going~to~wear this dress once.
+~           이건      바보같은~짓이에요  제가  단지   입을~거잖아요       이    드레스를  한~번만 
+
+[LINE]
+Speaker559: But this~is really important to~Aunt~Betty.
+~           하지만 이건      정말     중요해       베티~이모에게       
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker416: [(You) (just) (want)   (me) (to~look~pretty).]
+~             엄마는   그저     바라는~거죠   제가   예뻐~보이기를          
+
+[LINE]
+Speaker559: No, I   want you to~be~comfortable. Let's~go to~another~store!
+~           아니  엄마는 바래   네가  (옷을~입고)~편하길        가자       다른~가게로           
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker416: Mom, wait! You said [everyone~is~wearing] a~black~suit or  a~pink~dress, right?
+~           엄마   잠깐만요  엄마가 말했죠   모든~사람이~입을~거라고        검은색~정장       아니면 분홍색~드레스를      그렇죠   
+- everyone is staring
++ everyone is wearing
+- everybody's caring
+
+[LINE]
+> Lily shows her mom  a   small black suit.
+~ 릴리가  보여준다  그녀의 엄마에게 하나의 작은    검은색   정장을  
+
+[LINE]
+Speaker416: You hate~it, right?
+~           엄마는 맘에~안~들죠  그렇죠   
+
+[LINE]
+Speaker559: Actually, I  think it will~look~great on~you!
+~           사실        엄마 생각엔   그게 잘~어울릴~것~같아      너한테    
+
+[MULTIPLE_CHOICE]
+> 릴리는 결혼식 때 무얼 입기로 했나요?
+- 운동복
+- 분홍색 드레스
++ 검은색 정장
+
+[MATCH]
+> 짝을 누르세요
+- to Aunt Betty <> 베티 이모에게
+- going to wear <> 입을 거잖아요
+- a <> 하나의
+- a pink dress <> 분홍색 드레스를
+- shopping <> 쇼핑 중이다
+
