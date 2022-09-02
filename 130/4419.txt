@@ -1,0 +1,127 @@
+[DATA]
+fromLanguageName=Слишком быстро
+icon=0dacade4e0909e7d3d1149423aa5f432618b1157
+set=21|4
+
+[HEADER]
+> Too     Fast  
+~ слишком быстро
+
+[LINE]
+> Bea and Lin are~running on a~trail. 
+~ Би  и   Лин бегают      по тропинке 
+
+[LINE]
+Speaker507: Come~on, Lin! Run  faster! 
+~           давай    Лин  беги быстрее 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker508: [I'm~thirsty], and my~legs~hurt!     
+~            я~хочу~пить   и   у~меня~ноги~болят 
++ I'm thirsty
+- It's Thursday
+- I'm first
+
+[LINE]
+Speaker507: That's because    you never~run.          Come~on, you~can~do~this!
+~           это    потому~что ты  никогда~не~бегаешь  давай    ты~сможешь      
+
+[ARRANGE]
+> Наберите услышанное
+Speaker508: [(When)  (can~we)    (go~home)?]    
+~             когда   нам~можно   пойти~домой   
+
+[LINE]
+Speaker507: One~more mile! We're almost~done!    
+~           ещё~одна миля  мы    почти~закончили 
+
+[LINE]
+Speaker508: One~more mile?!
+~           ещё~одна миля  
+
+[MULTIPLE_CHOICE]
+> Лин наслаждается бегом с Би.
++ Нет, это неправда.
+- Да, это правда.
+
+[LINE]
+> Lin tries    to~run faster.  Suddenly, she falls. 
+~ Лин пытается бежать быстрее  вдруг     она падает 
+
+[LINE]
+Speaker508: Ow! My  leg! 
+~           ай  моя нога 
+
+[LINE]
+> Later, Bea and Lin are~at~the~hospital.   
+~ позже  Би  и   Лин (находятся)~в~больнице 
+
+[MULTIPLE_CHOICE]
+> Ой-ёй! Почему они в больнице?
++ Лин повредила ногу.
+- Лин живёт в больнице.
+- Би встречается с врачом.
+
+[LINE]
+Speaker127: Tell       me  what happened. 
+~           расскажите мне что  произошло 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker508: [(I) (hurt)      (my~leg)    (while) (I~was~running).]
+~             я   повредила   свою~ногу   когда   я~бегала        
+
+[LINE]
+Speaker127: Were~you~running too     fast?  
+~           вы~бегали        слишком быстро 
+
+[LINE]
+Speaker507: Oh, no,  Doctor. She's not fast.   
+~           ой  нет  доктор  она   не  быстрая 
+
+[LINE]
+Speaker508: I was~trying to~run as~fast       as      you, Bea!
+~           я старалась  бежать так~же~быстро как~(и) ты   Би  
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker127: Maybe      you should run    [slower      next~time].        
+~           может~быть вам стоит  бегать  помедленнее (в)~следующий~раз  
+- in~the~bathtub
+~ в~ванне       
++ slower      next~time        
+~ помедленнее (в)~следующий~раз
+- on~one~leg   
+~ на~одной~ноге
+
+[LINE]
+Speaker507: Run    slower?      I don't think that's    possible.
+~           бегать помедленнее  я не    думаю (что)~это возможно 
+
+[LINE]
+Speaker508: Or  maybe I~should  stop       running!
+~           или может мне~стоит прекратить бегать  
+
+[LINE]
+Speaker127: No,  you can~still~run.        
+~           нет  вы  всё~еще~можете~бегать 
+
+[LINE]
+Speaker127: But you~should stop       running with your  friend.  
+~           но  вам~стоит  прекратить бегать  с    вашей подругой 
+
+[MULTIPLE_CHOICE]
+> Врач считает, что…
++ …Лин лучше бегать без Би.
+- …Лин может бегать быстрее Би.
+- …Лин вообще не стоит бегать.
+
+[MATCH]
+> Коснитесь пар
+- We're <> мы
+- because <> потому что
+- was trying <> старалась
+- too <> слишком
+- tries <> пытается
+
