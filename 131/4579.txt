@@ -1,0 +1,104 @@
+[DATA]
+fromLanguageName=Напій, будь ласка!
+icon=02ed13ae1aba57917368af1e2492564588e51b06
+set=8|4
+
+[HEADER]
+> A~Drink, Please!    
+~ напій    будь~ласка 
+
+[LINE]
+> Emily is~at~a~restaurant.
+~ Емілі у~ресторані        
+
+[LINE]
+Speaker335: Hello,      can~I  help~you?     
+~           здрастуйте  я~можу вам~допомогти 
+
+[SELECT_PHRASE]
+> Виберіть пропущену фразу
+Speaker336: Hi.     [I~would~like] a~beer,    please.    
+~           привіт   я~б~хотіла    одне~пиво  будь~ласка 
++ I would like
+- I could live
+- I would live
+
+[LINE]
+Speaker335: How~old~are~you?  
+~           скільки~вам~років 
+
+[LINE]
+Speaker336: I~am thirty-five    years~old.
+~           мені тридцять~п'ять років     
+
+[LINE]
+Speaker335: Hmm. Do~you~have identification…    like      a~passport?
+~           хм   у~вас~є     посвідчення~особи  наприклад паспорт    
+
+[MULTIPLE_CHOICE]
+> Що хоче побачити офіціант?
+- Напій Емілі.
+- Гроші Емілі.
++ Паспорт Емілі.
+
+[LINE]
+Speaker336: Yes. Wait!      Oh no! My  passport is~in~my~hotel~room…      
+~           так  зачекайте  о  ні  мій паспорт  у~моєму~готельному~номері 
+
+[LINE]
+Speaker336: But my~name~is Emily Gonzalez, and I'm~thirty-five!    
+~           але мене~звати Емілі Гонсалес  і   мені~тридцять~п'ять 
+
+[SELECT_PHRASE]
+> Виберіть пропущену фразу
+Speaker336: [I~have~my]    credit~card     and my  phone—  
+~            у~мене~є~моя  кредитна~картка і   мій телефон 
+- I have by
++ I have my
+- I hate my
+
+[LINE]
+Speaker335: I'm~sorry—  
+~           мені~прикро 
+
+[LINE]
+Speaker336: But I'm an~adult! I~have   a~job  and two  children!
+~           але я   доросла   у~мене~є робота і   двоє дітей    
+
+[MULTIPLE_CHOICE]
+> Чому Емілі говорить це офіціанту?
+- Вона хоче побачити його паспорт.
++ Вона хоче довести, що доросла.
+- Вона хоче, щоб він дав їй трохи грошей.
+
+[ARRANGE]
+> Що ви чуєте?
+Speaker335: [(Sorry),   (I~need)        (your) (identification).]   
+~             вибачте    мені~потрібне   ваше   посвідчення~особи   
+
+[LINE]
+Speaker336: Which~drink can~I~have      with~no identification?   
+~           який~напій  я~можу~замовити без     посвідчення~особи 
+
+[LINE]
+Speaker335: A~glass of~cold…   milk!  
+~           склянку холодного  молока 
+
+[LINE]
+Speaker336: Thanks…
+~           дякую  
+
+[MULTIPLE_CHOICE]
+> Чому Емілі засмутилась?
+- Офіціант не захотів подивитися в її паспорт.
++ Офіціант запропонував їй склянку молока.
+- Офіціант подумав, що вона дуже стара.
+
+[MATCH]
+> З’єднайте пари
+- I am <> мені
+- Which drink <> який напій
+- of cold <> холодного
+- thirty-five <> тридцять п'ять
+- I need <> мені потрібне
+
