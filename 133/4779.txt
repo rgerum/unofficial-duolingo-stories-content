@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=피자가 먹고 싶어
+icon=3eebaf390a99fcebfaf064cfa42f14c071b5b97f
+set=9|4
+
+[HEADER]
+> I Want  a~Pizza
+~ 난 먹고~싶어 피자를    
+
+[LINE]
+> Lin~is walking home.
+~ 린이     걸어가고~있다 집으로  
+
+[LINE]
+> She~is carrying two~pizzas.
+~ 그녀가    들고~있다    피자~두~판을    
+
+[MULTIPLE_CHOICE]
+> 린은 피자 일곱 판을 가지고 있다.
+- 네, 맞아요.
++ 아니요, 그렇지 않아요.
+
+[LINE]
+> She sees Oscar on~the~street.
+~ 그녀가 만난다  오스카를  거리에서          
+
+[LINE]
+Speaker592: Hi, Lin. That pizza smells~great!
+~           안녕  린    그    피자    냄새~좋은데       
+
+[LINE]
+Speaker508: Yes, it's from~Emilio's~Restaurant.
+~           네    이건   에밀리오네~가게~거예요             
+
+[LINE]
+Speaker592: Oh, I  love   that restaurant.
+~           아   나는 정말~좋아해 그    가게를        
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker592: Now I  want    [a~pizza]!
+~           이제  나도 먹고~싶은~걸  피자를      
++ a~pizza
+~ 피자     
+- to~clean~my~apartment
+~ 아파트~청소하기             
+- some~new~clothes
+~ (몇~벌의)~새~옷      
+
+[LINE]
+Speaker508: Oh, the~restaurant~is closed now.
+~           아   그~가게는             문~닫았어요 이제  
+
+[LINE]
+Speaker592: Oh~no...
+~           아~이런    
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker592: [(Well), (you) (have)    (two~pizzas).]
+~             음       너는    가지고~있잖아   피자~두~판을      
+
+[LINE]
+Speaker592: Can~I~buy one?
+~           내가~사도~될까  하나를 
+
+[LINE]
+Speaker508: No,  sorry. These~are for~my~grandma~Lucy~and~me.
+~           아니요  죄송해요   이건        루시~할머니랑~제~거예요              
+
+[LINE]
+Speaker592: Well, can~I~have a~piece~of~your~pizza?
+~           음     내가~가져도~될까  네~피자~한~조각만            
+
+[LINE]
+Speaker508: Uh, no,  Oscar. That's... strange.
+~           어   안돼요  오스카    그건        이상해요    
+
+[MULTIPLE_CHOICE]
+> 린은…
+~ 린은 
+- ...오스카가 이상한 옷을  입고 있다고 생각한다.
+~    오스카가 이론  학생을 입고 앗   생각한다 
+- ...오스카가 피자를 싫어한다고 생각한다.
+~    오스카가 피자를 싫어    생각한다 
++ ...오스카에게 피자를 나눠주는 건 좀 이상하다고 생각한다.
+~    오스카에게 피자를 키보보  건 좀 이상    생각한다 
+
+[LINE]
+> Lin leaves.
+~ 린이  떠난다    
+
+[LINE]
+Speaker592: Now I  really want   pizza~from~that~restaurant…
+~           이제  나는 정말     먹고~싶은데 그~가게의~피자가                  
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+> Oscar [makes~a~call] on~his~phone.
+~ 오스카가   전화를~건다        (그의)~휴대폰으로   
++ makes a call
+- takes it all
+- makes a ball
+
+[LINE]
+Speaker592: Hi Lucy, it's~Oscar. Do~you~have plans~for~dinner?
+~           안녕 루시    나~오스카야      ~있어         저녁식사~계획          
+
+[LINE]
+Speaker509: I'm having~pizza with~Lin! Do~you~want~to~eat with~us?
+~           나는  피자를~먹을~거야    린이랑       먹고~싶니              우리랑~같이  
+
+[LINE]
+Speaker592: Thanks! That's a~great~idea!
+~           고마워     그건     정말~좋은~생각이야   
+
+[MULTIPLE_CHOICE]
+> 오스카가 루시에게 전화한 이유는...
+- …루시에게 비밀 얘기를 해주기 위해서이다.
+- …루시가 그의 문자에 답하지 않아서이다.
++ …루시로부터 피자 먹으러 오라는 초대를 받기 위해서이다.
+
+[MATCH]
+> 짝을 누르세요
+- with Lin <> 린이랑
+- Yes <> 네
+- Oh no <> 아 이런
+- Well <> 음
+- Lin is <> 린이
+
