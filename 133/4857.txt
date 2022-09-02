@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=적성에 딱 맞는 일
+icon=5899822ff564221d831e0f0f0a91755383fd85a6
+set=29|2
+
+[HEADER]
+> Perfect for~the~Job
+~ 완벽해     그~일에       
+
+[LINE]
+> Junior enters an ice~cream store. He speaks to~Jerry,~the~manager.
+~ 주니어가   들어간다   한  아이스크림     가게에    그가 얘기한다   매니저인~제리에게             
+
+[LINE]
+Speaker415: Can~I~have a   chocolate~ice~cream and a    job~application?
+~           주시겠어요      하나의 초콜릿~아이스크림           그리고 한~장의 일자리~지원서를        
+
+[LINE]
+Speaker2243: Umm. How~old~are~you?
+~            음    넌~몇~살이니         
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker415: I'm old~enough to~know that  your chocolate~ice~cream [needs~more~sugar]. Are~you~the~manager?
+~           전   나이~들었어요    알~만큼    ~라는~걸 아저씨의 초콜릿~아이스크림에           설탕이~더~필요하다         매니저세요               
+- eats more sugar
+- is more sure
++ needs more sugar
+
+[LINE]
+Speaker2243: Yes, I~am.   
+~            그래   내가~매니저야 
+
+[LINE]
+Speaker415: I'm Junior. Listen, if you  give me  a~job, I  can~help   you  make~a~lot~of~money.
+~           전   주니어에요   저기      만약 아저씨가 주시면  저에게 일자리를   제가 도와드릴~수~있어요 아저씨가 수익을~올리도록            
+
+[MULTIPLE_CHOICE]
+> 잠깐만요… 주니어는 매니저를 어떤 면에서 도와줄 수 있나요?
+- 지출을 늘리는 것
++ 수익을 올리는 것
+- 많은 돈을 기부하는 것
+
+[LINE]
+Speaker2243: But you're just a~kid.
+~            하지만 넌      고작   어린이잖아 
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker415: [(That's) (why)  (I'm) (perfect) (for~the~job).]
+~             그게       이유예요   제가    완벽한       이~일에          
+
+[LINE]
+Speaker2243: No~thanks, Junior.
+~            고맙지만~됐어    주니어    
+
+[LINE]
+> Later, Junior~is eating his ice~cream in~front~of the~store.
+~ 조금~후에  주니어가      먹고~있다  그의  아이스크림을    앞에서         가게의       
+
+[LINE]
+> A family walks~past the~store and sees Junior.
+~ 한 가족이    옆을~지나간다    가게의       그리고 본다   주니어를   
+
+[LINE]
+Speaker415: This~is the~best ice~cream I've~ever~had!
+~           이건      최고의      아이스크림이야   내가~먹어본~것~중    
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker2540: Dad, can~we~get  that [ice~cream]?
+~            아빠   우리도~사면~안~돼요 저     아이스크림을     
+- money
+~ 돈    
+- family
+~ 가족    
++ ice~cream
+~ 아이스크림    
+
+[LINE]
+> They walk~into the~store.
+~ 그들이  걸어~들어간다   가게로       
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker3145: That kid's chocolate~ice~cream looks~amazing! We  want [four~of~the~same~thing].
+~            저    아이의   초콜릿~아이스크림이          맛있어~보여요        저희도 원해요   같은~걸로~네~개를              
++ four of the same thing
+- four of this main ring
+- more of the something
+
+[LINE]
+Speaker2243: Great!
+~            알겠습니다 
+
+[LINE]
+> The family looks~very~happy as~they~leave the~store.
+~ 그   가족이    아주~행복해~보인다       떠나면서          가게를       
+
+[LINE]
+Speaker2243: Junior, you're a~genius.
+~            주니어     넌      천재야      
+
+[MULTIPLE_CHOICE]
+> 매니저는 주니어가 아주 똑똑하다고 생각한다.
+- 아니요, 그렇지 않아요.
++ 네, 맞아요.
+
+[LINE]
+Speaker2243: But I still can't~give you a~job… Because you're a~child.
+~            하지만 난 아직도   줄~수~없어     너에게 일자리를   왜냐하면    너는     어린이니까   
+
+[LINE]
+Speaker415: That's~OK, you  can~pay    me  in~ice~cream!
+~           괜찮아요       아저씨가 보상해~주시면~돼요 저에게 아이스크림으로      
+
+[MULTIPLE_CHOICE]
+> 주니어는 아이스크림 판매를 어떻게 도왔나요?
+- 소셜 미디어에 아이스크림을 포스팅했다.
++ 아이스크림이 얼마나 맛있는지 떠들어 댔다.
+- 트럭에서 아이스크림을 판매했다.
+
+[MATCH]
+> 짝을 누르세요
+- enters <> 들어간다
+- sees <> 본다
+- We <> 저희도
+- Umm <> 음
+- This is <> 이건
+
