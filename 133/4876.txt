@@ -1,0 +1,172 @@
+[DATA]
+fromLanguageName=새 룸메이트
+icon=01ad2f6fead363d9258efd96f3a6dc40d585b715
+set=34|1
+
+[HEADER]
+> New Roommate
+~ 새로운 룸메이트    
+
+[LINE]
+> Lin~is drinking wine with~her~friend~Dana at~a~restaurant.
+~ 린이     마시고~있다   와인을  그녀의~친구~다나랑           레스토랑에서          
+
+[LINE]
+Speaker508: I don't~want you to~move~away!
+~           난 원치~않아      네가  이사가는~걸       
+
+[LINE]
+Speaker3163: I~know, but this city~is too expensive. My apartment costs~too~much!
+~            나도      하지만 이    도시는     너무  비싸         내  아파트는      월세가~너무~비싸      
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker508: I~have~an~idea! What~if   you stay with  me~and my~grandma? You can~sleep [on~the~couch]!
+~           좋은~생각이~있어       만약~~하면~어때 네가  지내다  ~랑~같이 나와     우리~할머니      넌   자면~돼       소파에서          
++ on the couch
+- under the couch
+- on the cows
+
+[LINE]
+Speaker3163: Wow, really? Are~you~sure?
+~            우와   정말      확실해          
+
+[LINE]
+Speaker508: But you have~to~meet my~grandma first. It~is her  apartment.
+~           하지만 네가  만나봐야~돼       우리~할머니를    우선     그건    할머니의 아파트거든     
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker3163: [(What~if)    (we)  (don't~get~along)?]
+~              만약~~하면~어떡해   우리가   잘~맞지~않다           
+
+[LINE]
+Speaker508: I'm sure she'll~love   you! Well, I'm~pretty~sure…
+~           난   확신해  할머니가~좋아하실~거라고 널    음     거의~확신해          
+
+[LINE]
+> Later that week, Dana meets Lucy at~her~apartment.
+~ 며칠~후  그    주에    다나가  만난다   루시를  그녀의~아파트에서        
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker509: Lin said you   need  a~place~to~stay. [You~seem~nice], but I want~to~make~sure that~you~will~be a~good~roommate.
+~           린이  말했어요 다나~씨가 필요하다고 지낼~장소가            좋은~분~같아요        하지만 난 확실히~하고~싶어요        다나~씨가~될~것이란~걸    좋은~룸메이트가        
++ You seem nice
+- You see mice
+- Who seems nice
+
+[LINE]
+Speaker3163: Of~course. I completely understand.
+~            물론이죠       전 전적으로       이해해요       
+
+[LINE]
+Speaker509: Do~you usually stay~up~late?
+~           다나~씨는  보통      늦게~자요        
+
+[CONTINUATION]
+> What comes next?
+~ 무엇이  오나요   다음에  
+Speaker3163: I used~to  stay~up~late, but now I~go~to~bed [early].
+~            전 예전엔~~했어요 늦게~자다         하지만 지금은 자요           일찍     
++ early
+~ 일찍   
+- late
+~ 늦게  
+- angry
+~ 화난   
+
+[LINE]
+Speaker509: Do~you~have~a~job?
+~           직업이~있나요           
+
+[LINE]
+Speaker3163: I~work at~a~restaurant now, but when~I~finish my degree, I'll~be a~lawyer.
+~            일해요    레스토랑에서          지금은  하지만 ~를~마치면        제  학위      전~될~거예요 변호사가     
+
+[MULTIPLE_CHOICE]
+> Wait… why is~Lucy asking Dana these questions?
+~ 잠깐만요  왜   루시는     물어보나요  다나에게 이     질문들을      
+- She's interviewing Dana for~a~new~job.
+~ 그녀는   면접~중이다       다나와  새~일자리를~위해     
+- She's helping Dana use   an~online~dating~app.
+~ 그녀는   돕고~있다   다나가  사용하도록 온라인~데이트~앱을           
++ She needs~to~decide if      Dana can~stay at~her~apartment.
+~ 그녀는 결정해야~한다         ~인지~아닌지 다나가  지내도~좋다   그녀의~아파트에서        
+
+[LINE]
+Speaker509: Do~you~usually~drink tea or  coffee?
+~           보통~마셔요               차   아니면 커피를    
+
+[LINE]
+Speaker3163: Well, I hate coffee.
+~            음     전 싫어해요 커피를    
+
+[LINE]
+Speaker3163: But I drink tea every~day! Do~you~want me to~make~some?
+~            하지만 전 마셔요   차를  매일         원하세요        제가 차를~타~드리길     
+
+[LINE]
+Speaker509: Hmm… I like   you.  
+~           음    난 맘에~들어요 다나~씨가 
+
+[MULTIPLE_CHOICE]
+> Lucy likes   Dana, so  it~seems~like…
+~ 루시는  맘에~들어한다 다나를   그래서 아마도           
++ …she will~let her stay at~the~apartment.
+~  그녀는 허락할~것이다  다나가 지내도록 아파트에서            
+- …Dana will~need~to~move to~a~new~city.
+~  다나는  이사해야~할~것이다        새~도시로         
+- …she never~wants to~see~her again.
+~  그녀는 절대~원치~않는다   다나를~보는~걸   다시    
+
+[LINE]
+> Later, Lin comes home. She sees Lucy drinking tea in~the~kitchen.
+~ 얼마~후   린이  온다    집에    그녀가 본다   루시가  마시는~걸    차를  부엌에서           
+
+[LINE]
+Speaker508: What~do~you~think, Grandma? Can~Dana~stay?
+~           어떻게~생각해요           할머니      다나가~같이~지내도~돼요 
+
+[CONTINUATION]
+> What comes next?
+~ 무엇이  오나요   다음에  
+Speaker509: Yes, Dana [can~stay]! 
+~           그래   다나가   같이~지내도~좋아  
++ can~stay
+~ 지내도~좋다  
+- hates our couch
+~ 싫어한다  우리의 소파를  
+- is~cold
+~ 춥다     
+
+[LINE]
+Speaker508: Thank~you!
+~           감사해요      
+
+[LINE]
+Speaker509: And she offered~to~pay, so  I  gave~her your room.
+~           그리고 다나가 돈을~내겠다고~했어      그래서 내가 줬어       네    방을   
+
+[LINE]
+Speaker509: You stay~here for~free, so   you can~sleep on~the~couch.
+~           넌   여기서~지내잖아  공짜로       그러니까 넌   자면~돼      소파에서         
+
+[MULTIPLE_CHOICE]
+> Uh~oh! Lin thought Dana could~sleep on~the~couch, but…
+~ 이런     린은  생각했다    다나가  자면~된다고      소파에서          하지만 
+- …Lucy decided she~didn't~like Dana.
+~  루시는  결정했다    맘에~안~든다고        다나가  
++ …Lucy gave her  Lin's room instead.
+~  루시는  줬다   다나에게 린의    방을   대신      
+- …Dana didn't~have any~money.
+~  다나는  없었다         돈이        
+
+[MATCH]
+> 짝을 누르세요
+- I <> 난
+- need <> 필요하다고
+- can sleep <> 자면 돼
+- she'll love <> 할머니가 좋아하실 거라고
+- degree <> 학위
+
