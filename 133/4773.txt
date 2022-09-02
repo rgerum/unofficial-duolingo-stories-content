@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=제 키 어딨죠?
+icon=3f21c887f044dc2ac0d1f0d0ea74e1200b587ac2
+set=8|2
+
+[HEADER]
+> Where~Are~My~Keys?
+~ 제~키~어딨죠           
+
+[LINE]
+> Lin~is with~her~grandmother,~Lucy.
+~ 린이     그녀의~할머니~루시와~함께~있다          
+
+[LINE]
+Speaker509: We  have~a~reservation at~a~nice~restaurant tonight!
+~           우리는 예약이~있단다            근사한~레스토랑에서           오늘~밤    
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker509: But we need  [to~leave~now]!
+~           다만  우린 ~해야~해  지금~떠나다        
++ to leave now
+- to read now
+- to leave out
+
+[LINE]
+Speaker508: OK!  
+~           알겠어요 
+
+[LINE]
+Speaker508: Uh-oh… I  can't~find the~keys~to~my~motorcycle.
+~           아~이런   저는 찾을~수가~없어요  저의~오토바이~키를                
+
+[LINE]
+Speaker509: You always put your~keys in~strange~places.
+~           넌   항상     두더라 (너의)~키를   이상한~곳에다           
+
+[MULTIPLE_CHOICE]
+> 다음엔 아마도 무슨 일이 일어날까요?
+- 루시가 린을 집에 두고 혼자 나갈 것이다.
++ 린이 이상한 곳에서 키를 찾아볼 것이다.
+- 린과 루시가 말을 타고 레스토랑에 갈 것이다.
+
+[LINE]
+Speaker509: Are~they in~your~jacket?
+~           (그것은)~있니 네~재킷~안에        
+
+[LINE]
+> Lin looks in~her~jacket.
+~ 린이  본다    재킷~안을         
+
+[LINE]
+Speaker508: No,  they're~not in~my~jacket.
+~           아니요  (그것은)~없어요   제~재킷~안에      
+
+[LINE]
+Speaker509: Are~the~keys under~the~bed?
+~           키가           침대~밑에~있니      
+
+[LINE]
+Speaker508: No,  the~keys~aren't there!
+~           아니요  키는~없어요          거기에   
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker509: [(Are~they) (in)  (the~shower)?]
+~             (그것은)~있니   ~안에   샤워실          
+
+[LINE]
+Speaker508: No,  that's too strange.
+~           아니요  그건     너무  이상하잖아요  
+
+[LINE]
+Speaker508: I  don't~know where the~keys~are. Can~we~call a~taxi?
+~           저는 모르겠어요      어디에   키가~있는지        불러도~돼요      택시를    
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker509: No, we're~late now. We  can't~go to [the~restaurant].
+~           아니  (우린)~늦었어   이제   우리는 갈~수~없겠구나 ~에  레스토랑            
+- the~movie~theater
+~ 영화관              
++ the~restaurant
+~ 레스토랑          
+- the~beach
+~ 바닷가      
+
+[LINE]
+Speaker508: I'm~sorry.
+~           죄송해요      
+
+[LINE]
+Speaker509: That's~OK. I  can~cook dinner.
+~           괜찮아        내가 만들~수~있어  저녁식사를  
+
+[LINE]
+> Lucy opens the~refrigerator and looks inside.
+~ 루시가  연다    냉장고를             그리고 본다    안을     
+
+[LINE]
+Speaker509: Oh! Here~are your keys!
+~           아   여기~있네    네    키가   
+
+[MULTIPLE_CHOICE]
+> 결국 린의 키는...
++ ...냉장고 안에 있었다.
+- ...그녀의 신발 안에 있었다.
+- ...차 안에 있었다.
+
+[MATCH]
+> 짝을 누르세요
+- That's OK <> 괜찮아
+- can't find <> 찾을 수가 없어요
+- But <> 다만
+- they're not <> 없어요
+- a taxi <> 택시를
+
