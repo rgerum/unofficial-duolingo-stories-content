@@ -1,0 +1,129 @@
+[DATA]
+fromLanguageName=Вечер пиццы
+icon=dcb1760c8fe5f2221fc2e3bc373a13632881ae44
+set=13|4
+
+[HEADER]
+> Pizza~Night
+~ вечер~пиццы
+
+[LINE]
+Speaker414: Junior!  What~do~you want   for dinner?
+~           Джуниор  что~ты      хочешь на  ужин   
+
+[LINE]
+Speaker415: I want~pizza. I'm~eight~years~old… I always want~pizza.
+~           я хочу~пиццу  мне~восемь~лет       я всегда хочу~пиццу 
+
+[LINE]
+Speaker414: Cool!    We can~make          a~pizza!
+~           здорово  мы можем~приготовить пиццу   
+
+[LINE]
+Speaker415: Or  we can   call      and order    a~pizza!
+~           или мы можем позвонить и   заказать пиццу   
+
+[MULTIPLE_CHOICE]
+> Джуниор хочет заказать пиццу.
++ Да, это правда.
+- Нет, это неправда.
+
+[LINE]
+Speaker414: It~will~be~more~fun to~make     a~pizza!
+~           будет~веселее       приготовить пиццу   
+
+[LINE]
+Speaker415: Fun    for you? 
+~           весело для тебя 
+
+[LINE]
+Speaker414: Fun    for us!  Father and son! 
+~           весело для нас  отца   и   сына 
+
+[LINE]
+Speaker415: I want         you~to~be~happy, so…      OK.    
+~           я хочу~(чтобы) ты~был~счастлив  так~что  хорошо 
+
+[LINE]
+Speaker414: Great!   Can~you   get     the~flour, water, and salt?
+~           отлично  ты~можешь достать муку       воду   и   соль 
+
+[MULTIPLE_CHOICE]
+> Эдди понадобится вода, соль и…
+- …свидание.
+- …пицца.
++ …мука.
+
+[LINE]
+Speaker415: OK…    
+~           хорошо 
+
+[LINE]
+Speaker414: Now    we can   put~it      all~together…
+~           теперь мы можем собрать~это всё~вместе   
+
+[LINE]
+> They put    the~flour, water, and salt together.
+~ они  кладут муку       воду   и   соль вместе   
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker415: This~is hard,   and [I'm~hungry].
+~           это     тяжело  и    я~голоден   
++ I'm hungry
+- aim at me
+- I'm angry
+
+[LINE]
+Speaker414: And now    we~have   to~wait.
+~           и   теперь нам~нужно ждать   
+
+[LINE]
+Speaker415: We~have   to~wait?!
+~           нам~нужно ждать    
+
+[LINE]
+Speaker414: The~dough isn't~ready yet.     
+~           тесто     не~готово   пока~что 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker415: When  will~it~be [ready]? 
+~           когда оно~будет   готово  
+- order
+~ заказ
++ ready 
+~ готово
+- hungry 
+~ голоден
+
+[LINE]
+Speaker414: In~two~hours.  
+~           через~два~часа 
+
+[LINE]
+> Junior  looks~at   Eddy.
+~ Джуниор смотрит~на Эдди 
+
+[LINE]
+Speaker414: I'll~order a~pizza.
+~           я~закажу   пиццу   
+
+[LINE]
+Speaker415: You're a~great  dad. 
+~           ты     отличный отец 
+
+[MULTIPLE_CHOICE]
+> Почему Эдди решил заказать пиццу?
++ Готовить пиццу довольно долго.
+- Джуниор съел всё тесто.
+- У него не было всех ингредиентов для её приготовления.
+
+[MATCH]
+> Коснитесь пар
+- all together <> всё вместе
+- together <> вместе
+- I'll order <> я закажу
+- When <> когда
+- Or <> или
+
