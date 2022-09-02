@@ -1,0 +1,171 @@
+[DATA]
+fromLanguageName=Летний свитер
+icon=a6221e8716923ce3381efbbfc20a0913ce314fdb
+set=27|1
+
+[HEADER]
+> Summer~Sweater
+~ летний~свитер 
+
+[LINE]
+> Eddy and Junior  are~at~the~mall.              
+~ Эдди и   Джуниор (находятся)~в~торговом~центре 
+
+[LINE]
+Speaker415: Dad,  why    are~we~here? You hate       this~store.  
+~           папа  почему мы~здесь     ты  ненавидишь этот~магазин 
+
+[LINE]
+Speaker414: I~need    a~sweater.
+~           мне~нужен свитер    
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker415: [But~it's~summer].
+~            но~сейчас~лето   
+- But it’s somewhere
+- Buy this summer
++ But it's summer
+
+[LINE]
+> A~salesperson walks~up to them.
+~ продавщица    подходит к  ним  
+
+[LINE]
+Speaker561: Hi~again,             Eddy!
+~           и~снова~здравствуйте  Эдди 
+
+[LINE]
+Speaker414: Yes, my~name~is Eddy. I~mean…  hello!       
+~           да   меня~зовут Эдди  то~есть  здравствуйте 
+
+[LINE]
+Speaker415: Oh. I know why    we're here… 
+~           ой  я знаю почему мы    здесь 
+
+[LINE]
+Speaker561: Can~I~help    you find  something? 
+~           я~могу~помочь вам найти что-нибудь 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker414: Yes! I'm looking~for [a~sweater].
+~           да   я   ищу          свитер     
+- my  pet~fish
+~ мою рыбку   
+- Junior  
+~ Джуниора
++ a~sweater
+~ свитер   
+
+[LINE]
+Speaker561: You should~try~on   this green   sweater. It's~going~to~look~good    on you.
+~           вам стоит~примерить этот зеленый свитер   он~будет~хорошо~смотреться на вас 
+
+[LINE]
+Speaker414: Cool,    thanks! 
+~           классно  спасибо 
+
+[LINE]
+Speaker415: You~don't~like   green.  
+~           тебе~не~нравится зеленый 
+
+[LINE]
+Speaker414: Shh.   No.  I love  green!  
+~           т-с-с  нет  я люблю зеленый 
+
+[ARRANGE]
+> Наберите услышанное
+> [(Eddy) (puts~on)  (the~sweater).]
+~   Эдди   надевает   свитер        
+
+[LINE]
+Speaker561: You look      amazing!   
+~           вы  выглядите потрясающе 
+
+[LINE]
+Speaker415: It~looks    too     small,     Dad. 
+~           он~выглядит слишком маленьким  папа 
+
+[LINE]
+Speaker414: What? No. 
+~           что   нет 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker561: And it's [on~sale].      
+~           и   он    на~распродаже  
++ on sale
+- one shell
+- on scale
+
+[LINE]
+Speaker414: I'll~take~it!
+~           я~его~куплю  
+
+[LINE]
+Speaker414: And… I'm going~to~wear~it home. 
+~           и    я   пойду~в~нём      домой 
+
+[LINE]
+Speaker561: Great!   Have~a~nice~day!  I hope          I see~you~again~soon!   
+~           здорово  хорошего~вам~дня  я надеюсь~(что) я скоро~опять~вас~увижу 
+
+[LINE]
+Speaker414: Really?
+~           правда 
+
+[MULTIPLE_CHOICE]
+> Эдди кажется обнадёженным. Почему?
++ Продавщица сказала, что надеется скоро опять его увидеть.
+- Сейчас они с Джуниором пойдут есть пиццу.
+- Джуниор покупает себе такой же свитер.
+
+[LINE]
+Speaker415: Let's~go, Dad. 
+~           пойдем    папа 
+
+[LINE]
+> Eddy and Junior  leave       the~store.
+~ Эдди и   Джуниор уходят~(из) магазина  
+
+[LINE]
+Speaker415: Dad,  are~you~sure you're~OK?          Your~face~is~blue.
+~           папа  ты~уверен    (что)~ты~в~порядке  у~тебя~синее~лицо 
+
+[MULTIPLE_CHOICE]
+> Почему у Эдди синее лицо?
++ Свитер ему мал.
+- Он съел много ягод.
+- У него на лице синий макияж.
+
+[LINE]
+Speaker414: I'm fine!   
+~           я   в~норме 
+
+[LINE]
+Speaker415: You can't     take~the~sweater~off, can~you?
+~           ты  не~можешь снять~свитер          верно   
+
+[LINE]
+Speaker414: No. 
+~           нет 
+
+[LINE]
+Speaker415: Let's~go buy   some~scissors.
+~           пойдем   купим ножницы       
+
+[MULTIPLE_CHOICE]
+> Зачем Эдди надел такой маленький свитер?
+- Ему было холодно.
++ Он заигрывал с продавщицей.
+- Он послушался совета Джуниора.
+
+[MATCH]
+> Коснитесь пар
+- are we here <> мы здесь
+- some scissors <> ножницы
+- thanks <> спасибо
+- Hi again <> и снова здравствуйте
+- this <> этот
+
