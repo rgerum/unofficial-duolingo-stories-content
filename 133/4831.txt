@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=할머니의 레시피
+icon=f846bda2ef7cfcb2a7b491fdab26521cbd7b480d
+set=22|4
+
+[HEADER]
+> Grandmother's Recipe
+~ 할머니의          레시피   
+
+[LINE]
+> Vikram walks~into Eddy's apartment.
+~ 비크람이   걸어~들어온다    에디의    아파트로      
+
+[LINE]
+Speaker414: Hi Vikram, where's~Priti?
+~           안녕 비크람     프리티는~어딨어      
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker593: She's~at~work, but [she'll~be~here~soon].
+~           (그녀는)~회사에~있어   하지만  (그녀는)~곧~올~거야         
+- we'll be weird soon
++ she'll be here soon
+- she'll be near the moon
+
+[LINE]
+Speaker593: Thank~you for~inviting us to~dinner.
+~           고마워       초대해~줘서       우릴 저녁~식사에    
+
+[LINE]
+Speaker414: You're~welcome! You~and Priti cook  dinner for~me often.
+~           천만에             너랑      프리티는  요리하잖아 저녁~식사를 날~위해   자주    
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker414: So  now [I'm going~to~cook for~you]!
+~           그래서 이제   내가  요리해~줄게        너희를~위해   
+- we're going~to~take~a~nap
+~ 우리가   낮잠을~잘~것이다          
+- I'm going to~the~park
+~ 내가  갈~것이다 공원에        
++ I'm going~to~cook for~you
+~ 내가  요리할~것이다       널~위해   
+
+[LINE]
+Speaker593: You're cooking?! Uh… it~smells…    interesting.
+~           네가     요리한다고     어   (그건)~냄새가~나는데  흥미로운        
+
+[LINE]
+Speaker414: Thanks! I'm making  Priti's favorite meal.
+~           고마워     난   만드는~중이야 프리티가    가장~좋아하는  요리를  
+
+[LINE]
+Speaker593: Really? It's very difficult to~make…
+~           정말      그건   아주   어려운데      만들기가    
+
+[MULTIPLE_CHOICE]
+> 비크람이 걱정하는 것 같아요. 왜 그럴까요?
++ 에디가 그 요리를 제대로 못 만들거라 생각하기 때문이다.
+- 에디의 부엌에 불이 난 걸 알아챘기 때문이다.
+- 프리티가 제일 좋아하는 요리는 만들기 아주 쉽기 때문이다.
+
+[LINE]
+> Vikram looks at~the~food on~the~stove.
+~ 비크람이   본다    음식을         가스레인지~위에~있는  
+
+[LINE]
+Speaker593: Which kind~of rice did~you~use?
+~           어떤    종류의     쌀을   (네가)~썼어     
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker414: [(There~are) (different) (kinds~of) (rice)?]
+~             ~가~있어       다른          종류의        쌀이     
+
+[LINE]
+> Vikram tastes the~food.
+~ 비크람이   맛을~본다  음식의      
+
+[POINT_TO_PHRASE]
+> “이상한”을 뜻하는 말을 고르세요.
+Speaker593: (Oh~no). This (tastes)… (a~little) (+strange).
+~            아~이런    이건    맛이~나      조금          이상한      
+
+[LINE]
+Speaker414: Can~you~help me?
+~           네가~도와줄~수~있어  날  
+
+[LINE]
+Speaker593: Maybe… I need four tomatoes, some~onions, and a~lot~of garlic.
+~           아마도    난 필요해  네~개의 토마토       양파~조금        그리고 많은~양의    마늘이    
+
+[LINE]
+Speaker414: I don't~have those~things.
+~           난 없는데        그것들이         
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker593: OK.  Then [we~need~your~phone].
+~           알았어  그럼    (우린)~네~휴대폰이~필요해     
+- we'll read your phone
++ we need your phone
+- we meet your own
+
+[LINE]
+> Later, Eddy,~Vikram,~and~Priti~are eating dinner.
+~ 얼마~후   에디,~비크람,~그리고~프리티가           먹고~있다  저녁~식사를 
+
+[LINE]
+Speaker560: Wow, Eddy, this~is so good! It tastes just~like my grandmother's recipe!
+~           우와   에디~씨  이건      정말 맛있어요  이건 맛이~나요  ~와~똑같은    저희 할머니의          레시피    
+
+[LINE]
+Speaker414: Thanks! I  ordered it from~the~restaurant myself!
+~           고마워요    제가 주문했어요   그걸 식당에서                직접     
+
+[MULTIPLE_CHOICE]
+> 저녁 식사가 아주 맛있었던 이유는 무엇인가요?
+- 비크람이 마늘을 많이 추가했기 때문에.
++ 에디가 식당에서 주문했기 때문에.
+- 에디가 요리를 잘하기 때문에.
+
+[MATCH]
+> 짝을 누르세요
+- different <> 다른
+- need <> 필요해
+- Uh <> 어
+- Which <> 어떤
+- Later <> 얼마 후
+
