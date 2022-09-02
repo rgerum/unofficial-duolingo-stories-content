@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=Новое пальто
+icon=966f6e25540bc4ba5347e59005bcc1e2827fdd66
+set=2|3
+
+[HEADER]
+> A~New Coat  
+~ новое пальто
+
+[LINE]
+> A~woman talks~to     Vikram  in a~store. 
+~ женщина обращается~к Викраму в  магазине 
+
+[LINE]
+Speaker338: Hello!       
+~           здравствуйте 
+
+[LINE]
+Speaker593: Hi.    
+~           привет 
+
+[MULTIPLE_CHOICE]
+> Женщина в магазине прощается с Викрамом.
++ Нет, это неправда.
+- Да, это правда.
+
+[LINE]
+Speaker338: Do~you work      here? 
+~           вы     работаете здесь 
+
+[LINE]
+Speaker593: I, uhh...
+~           я  э-э   
+
+[POINT_TO_PHRASE]
+> Выберите вариант «помощь».
+Speaker338: (Good)!   (I~need)    (+help).  
+~            хорошо    мне~нужна    помощь  
+
+[LINE]
+Speaker338: I~need    a~new coat.  
+~           мне~нужно новое пальто 
+
+[LINE]
+Speaker338: Do~you~like  the red     coat?  
+~           вам~нравится это красное пальто 
+
+[LINE]
+Speaker338: Or  do~you~like  the brown      coat?  
+~           или вам~нравится это коричневое пальто 
+
+[LINE]
+Speaker593: Hmm, OK…   
+~           хм   ладно 
+
+[LINE]
+Speaker593: The brown      coat   is~nice     and cheap.  
+~           это коричневое пальто симпатичное и   дешёвое 
+
+[LINE]
+Speaker593: But the red     coat   is~very~beautiful.
+~           но  это красное пальто очень~красивое    
+
+[MULTIPLE_CHOICE]
+> Викрам считает, что красное пальто...
+- ...очень странное.
+- ...очень страшное.
++ ...очень красивое.
+
+[LINE]
+Speaker593:  And it~is warm.  
+~            и   оно   теплое 
+
+[LINE]
+Speaker593: It~is perfect   for you!
+~           оно   идеальное для вас 
+
+[LINE]
+Speaker338: OK,    I want the~red coat!  
+~           ладно  я хочу красное пальто 
+
+[LINE]
+Speaker338: Thank~you! You~are good                at~your~job!     
+~           спасибо    вы      хорошо~справляетесь со~своей~работой 
+
+[MULTIPLE_CHOICE]
+> Что эта женщина имеет в виду?
+- Она считает, что Викраму стоит найти новую работу.
++ Она считает, что Викрам хорошо справляется с работой.
+- Она считает, что красное пальто страшное.
+
+[LINE]
+Speaker338: Where~do~I~pay       for~the~coat?
+~           где~я~могу~заплатить за~пальто    
+
+[LINE]
+Speaker593: I do~not know.
+~           я не     знаю 
+
+[LINE]
+Speaker593: I do~not~work here. 
+~           я не~работаю  здесь 
+
+[MULTIPLE_CHOICE]
+> Что произошло в истории?
+- Женщина помогла Викраму купить новую шляпу.
++ Женщина по ошибке приняла Викрама за работника магазина.
+- Женщина наняла Викрама на работу в магазин.
+
+[MATCH]
+> Коснитесь пар
+- it is <> оно
+- Good <> хорошо
+- want <> хочу
+- warm <> теплое
+- do not work <> не работаю
+
