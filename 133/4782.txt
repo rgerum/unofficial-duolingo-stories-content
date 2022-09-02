@@ -1,0 +1,94 @@
+[DATA]
+fromLanguageName=항상 늦어
+icon=29ac5d3103a8288de01c8e985828f55e1c34cc14
+set=10|3
+
+[HEADER]
+> Always Late
+~ 항상     늦어  
+
+[LINE]
+> Lin~and~Lucy~are watching TV. 
+~ 린과~루시가           보고~있다    티비를 
+
+[LINE]
+Speaker509: Oh, it's~six~thirty!
+~           아   여섯~시~반이네        
+
+[LINE]
+Speaker508: Oh~no! Bea's birthday~party~is in~half~an~hour!
+~           아~이런   비의    생일파티가             삼십~분~후에~시작해     
+
+[LINE]
+Speaker508: I can't~be~late!
+~           난 늦으면~안~돼       
+
+[MULTIPLE_CHOICE]
+> 비의 생일파티는 곧 시작할 것이다.
+- 아니요, 그렇지 않아요.
++ 네, 맞아요.
+
+[LINE]
+> Lin runs to~the~bus~stop.
+~ 린이  뛰어간다 버스~정류장으로        
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+> [(She) (sees) (the~bus) (leaving).]
+~   그녀가   본다     버스가       떠나가는~걸    
+
+[LINE]
+Speaker508: Noooo! That's my bus! 
+~           안돼     저건     내  버스인데 
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker508: Ugh, I~need~to~call [a~taxi~now].
+~           어후   (난)~불러야겠네       택시를~이제      
++ a taxi now
+- a taxi cow
+- and ask me how
+
+[LINE]
+> Lin's phone doesn't~work.
+~ 린의    휴대폰이  작동되지~않는다     
+
+[LINE]
+Speaker508: Oh~no! The~battery!
+~           아~이런   배터리         
+
+[LINE]
+> Lin runs to~the~restaurant. She sees Bea.
+~ 린이  뛰어간다 레스토랑으로             그녀가 본다   비를  
+
+[POINT_TO_PHRASE]
+> “제 시간에 오다”를 뜻하는 말을 고르세요.
+Speaker508: (Bea)! (I'm) (+on~time)! 
+~            비      난      제~시간에~왔어  
+
+[LINE]
+Speaker508: Wait, where~are~all~the~people? It's~seven~o'clock!
+~           잠깐만   사람들~다~어딨어                 지금~일곱~신데           
+
+[LINE]
+Speaker507: Your invitation says seven~p.m.| because you're always late.
+~           네    초대장엔       쓰여있어 일곱~시로       왜냐하면    넌      항상     늦으니까 
+
+[LINE]
+Speaker507: My party starts at~eight~p.m.
+~           내  파티는   시작해    여덟~시에        
+
+[MULTIPLE_CHOICE]
+> 린은 비의 파티에 늦지 않으려고 서둘렀지만…
+- ...파티가 취소됐다.
++ ...실은 한 시간 일찍 도착했다.
+- ...여전히 한 시간 늦게 도착했다.
+
+[MATCH]
+> 짝을 누르세요
+- because <> 왜냐하면
+- I <> 난
+- Ugh <> 어후
+- The battery <> 배터리
+- doesn't work <> 작동되지 않는다
+
