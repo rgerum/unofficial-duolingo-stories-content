@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=채식주의자
+icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
+set=2|3
+
+[HEADER]
+> The~Vegetarian
+~ 채식주의자         
+
+[LINE]
+> Vikram~is reading a~menu in~a~nice~restaurant.
+~ 비크람이      읽고~있다   메뉴를    고급~레스토랑에서            
+
+[LINE]
+Speaker385: Welcome!
+~           어서~오십시오 
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker593: Hello. I have~a~question about [the~menu].
+~           안녕하세요  전 질문이~있는데요        ~에~관해  메뉴        
+- the man to
++ the menu
+- the men
+
+[LINE]
+Speaker593: I~am a~vegetarian.
+~           저는   채식주의자예요      
+
+[LINE]
+Speaker593: Is~there~vegetarian~food?
+~           채식~메뉴가~있나요               
+
+[MULTIPLE_CHOICE]
+> 비크람은 고기 먹는 것을 좋아한다.
++ 아니요, 그렇지 않아요.
+- 네, 맞아요.
+
+[POINT_TO_PHRASE]
+> "스테이크"를 뜻하는 말을 고르세요.
+Speaker385: Yes, (we~have) (very) (good) (+steaks).
+~           네     있습니다      아주     좋은      스테이크가   
+
+[LINE]
+Speaker593: Steaks~are meat. I  do~not~eat meat.
+~           스테이크는      고기예요  저는 먹지~않아요     고기를  
+
+[LINE]
+Speaker385: Oh, yes. I~am~sorry.
+~           아   그렇죠  죄송합니다      
+
+[LINE]
+Speaker385: The~chicken~is delicious.
+~           치킨이            맛있습니다     
+
+[MULTIPLE_CHOICE]
+> 웨이터는 비크람이...
++ ...치킨을 주문하는 게 좋겠다고 생각한다.
+- ...치킨을 싫어한다고 생각한다.
+- ...배가 고프지 않다고 생각한다.
+
+[LINE]
+Speaker593: Chicken~is meat.
+~           치킨은        고기예요 
+
+[LINE]
+Speaker593: I  do~not~want meat!
+~           저는 원하지~않아요     고기를  
+
+[LINE]
+Speaker385: We~have salad…
+~           있습니다    샐러드가  
+
+[LINE]
+Speaker593: Oh, I  like salad! What~is~in~the~salad?
+~           아   저는 좋아해요 샐러드    그~샐러드~안에는~뭐가~들었나요    
+
+[LINE]
+Speaker385: There~is tomato, lettuce, fish…
+~           들어~있습니다  토마토     양상추      생선이  
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker593: I  do~not~eat fish! I~am~a [vegetarian]!
+~           저는 먹지~않아요     생선을   저는      채식주의자라구요    
++ vegetarian
+~ 채식주의자     
+- salad
+~ 샐러드  
+- restaurant
+~ 레스토랑      
+
+[LINE]
+Speaker385: We~have fries…
+~           있습니다    감자튀김이 
+
+[LINE]
+Speaker593: OK.   Fries~are fine.
+~           알겠어요  감자튀김은     괜찮아요 
+
+[LINE]
+Speaker385: Fries, perfect. And… a~burger? 
+~           감자튀김   알겠습니다    그리고  버거는~어떻습니까 
+
+[LINE]
+Speaker593: No~meat,   please!
+~           고기는~안된다고요  제발요    
+
+[MULTIPLE_CHOICE]
+> 비크람은 왜 웨이터에게 화가 났나요?
++ 웨이터가 자꾸 그가 채식주의자란 걸 잊어버려서.
+- 웨이터가 그의 이름을 기억하지 못해서.
+- 레스토랑의 음식이 맛이 없어서.
+
+[MATCH]
+> 짝을 누르세요
+- fish <> 생선이
+- a burger <> 버거는 어떻습니까
+- Hello <> 안녕하세요
+- very <> 아주
+- Chicken is <> 치킨은
+
