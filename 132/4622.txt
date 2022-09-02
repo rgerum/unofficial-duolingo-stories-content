@@ -1,0 +1,167 @@
+[DATA]
+fromLanguageName=बुकिंग
+icon=3ef44f16233d10a5c2f1b5cb171779208191e11a
+set=3|1
+
+[HEADER]
+> The~Reservation
+~ बुकिंग         
+
+[LINE]
+> Bea and Lin go       to~a~restaurant.   
+~ बी  और  लिन जाते~हैं एक~रेस्टोरेंट~(को) 
+
+[LINE]
+Speaker507: Wow! Nice  restaurant!     
+~           वाह  अच्छा रेस्टोरेंट~(है) 
+
+[LINE]
+Speaker508: Happy~Birthday,     Bea!
+~           जन्मदिन~की~बधाई~हो  बी  
+
+[MULTIPLE_CHOICE]
+> आज बी का जन्मदिन है।
+- नहीं, ऐसा नहीं है।
++ हाँ, यह सही है।
+
+[LINE]
+Speaker385: Welcome!       
+~           आपका~स्वागत~है 
+
+[CONTINUATION]
+> आगे क्या आएगा?
+Speaker508: Thank~you. I~have  a  reservation [for~two~people]. 
+~           धन्यवाद    मेरी~है एक बुकिंग       दो~लोगों~के~लिए  
++ for~two~people 
+~ दो~लोगों~के~लिए
+- for~my~class     
+~ मेरी~कक्षा~के~लिए
+- for~the~airport  
+~ हवाई~अड्डे~के~लिए
+
+[LINE]
+Speaker385: What is your name?
+~           क्या है आपका नाम  
+
+[LINE]
+Speaker508: My   name is Lin.
+~           मेरा नाम  है लिन 
+
+[LINE]
+Speaker385: OK!    
+~           ठीक~है 
+
+[LINE]
+Speaker385: Here~is your table.
+~           यह~रही  आपकी मेज़   
+
+[LINE]
+Speaker385: And here~is the~menu.
+~           और  यह~रहा  मेन्यू   
+
+[LINE]
+Speaker508: Oh…
+
+[LINE]
+Speaker507: It is very expensive, Lin.
+~           यह है बहुत महँगा      लिन 
+
+[MULTIPLE_CHOICE]
+> बी क्या कहना चाहती है?
++ खाना काफ़ी महँगा है।
+- लिन के कपड़े काफ़ी कीमती हैं।
+- रेस्टोरेंट बेहद सस्ता है।
+
+[LINE]
+Speaker508: Yes…
+~           हाँ 
+
+[LINE]
+Speaker507: What do~you~want?  
+~           क्या चाहिए~तुम्हें 
+
+[LINE]
+Speaker508: Hmm… a  salad?
+~           ~    एक सलाद  
+
+[LINE]
+Speaker508: What?!
+~           क्या  
+
+[LINE]
+Speaker508: A  salad is thirty~dollars?!
+~           एक सलाद  है तीस~डॉलर~(का)   
+
+[MULTIPLE_CHOICE]
+> सलाद कितने का है?
+- $3
++ $30
+- $20
+
+[LINE]
+Speaker508: I~want     a  delicious…
+~           मुझे~चाहिए एक स्वादिष्ट 
+
+[LINE]
+Speaker508: …glass~of~water.
+~            पानी~का~गिलास  
+
+[LINE]
+Speaker507: OK,     I~want     a  salad!
+~           ठीक~है  मुझे~चाहिए एक सलाद  
+
+[LINE]
+Speaker507: And a  big burger!
+~           और  एक बड़ा बर्गर  
+
+[LINE]
+Speaker507: And fries!   
+~           और  फ़्राइज़ 
+
+[LINE]
+Speaker508: Oh…
+
+[LINE]
+Speaker507: At~a~cheap~restaurant!  
+~           एक~सस्ते~रेस्टोरेंट~में 
+
+[LINE]
+Speaker507: Do~you~want       to~go now?
+~           क्या~तुम~चाहती~हो चलना  अब  
+
+[LINE]
+Speaker508: Bea, your     birthday is important…   
+~           बी   तुम्हारा जन्मदिन  है महत्त्वपूर्ण 
+
+[MULTIPLE_CHOICE]
+> लिन को लगता है कि…
+- …बी अपने जन्मदिन को लेकर झूठ बोल रही है।
+- …उसने गलत दिन की बुकिंग करा दी है।
++ …बी का जन्मदिन मनाना अहमियत रखता है।
+
+[LINE]
+Speaker507: The~day  is important.   
+~           (यह)~दिन है महत्त्वपूर्ण 
+
+[LINE]
+Speaker507: The~restaurant  is~not.   
+~           (यह)~रेस्टोरेंट नहीं~(है) 
+
+[LINE]
+Speaker508: OK,     good…  I   am  very hungry!
+~           ठीक~है  बढ़िया  मैं हूँ बहुत भूखी   
+
+[MULTIPLE_CHOICE]
+> कहानी में क्या हुआ?
+- भूखी लिन सारा का सारा खाना खा गई।
++ बी और लिन ने किसी सस्ते रेस्टोरेंट में जाने का फ़ैसला किया।
+- बी नाराज़ हो गई क्योंकि लिन को उसका जन्मदिन याद ही नहीं रहा।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- Yes <> हाँ
+- is not <> नहीं
+- table <> मेज़
+- go <> जाते हैं
+- Bea <> बी
+
