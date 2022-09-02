@@ -1,0 +1,159 @@
+[DATA]
+fromLanguageName=Узнавая дорогу
+icon=0699ccdd9abbb4922a33be28cf6143a530843cc1
+set=26|4
+
+[HEADER]
+> Asking~for~Directions
+~ узнавая~дорогу       
+
+[LINE]
+> Lin and Bea are~looking~for a~restaurant in a~small   town.   
+~ Лин и   Би  ищут            ресторан     в  маленьком городке 
+
+[LINE]
+Speaker507: I'm tired~of~walking, and I'm really hungry!  
+~           я   устала~ходить     и   я   очень  голодная 
+
+[LINE]
+Speaker508: I think it's~somewhere in this area.  
+~           я думаю он~где-то      в  этом районе 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker508: Everyone says           [their~food~is~amazing].
+~           все      говорят,~(что)  их~еда~потрясающая     
+- your mood is amazing
++ their food is amazing
+- their food is so lazy
+
+[LINE]
+Speaker507: We~need   to~ask~for~directions.
+~           нам~нужно узнать~дорогу         
+
+[LINE]
+> They stop          a~woman on the~street.
+~ они  останавливают женщину на улице      
+
+[LINE]
+Speaker507: Can~you   please     give~us~directions to Cecil's~Restaurant?
+~           вы~можете пожалуйста указать~нам~дорогу в  ресторан~Сесила    
+
+[LINE]
+Speaker1187: Sure!    Turn      left   at~the~end of~this street.
+~            конечно  поверните налево в~конце    этой    улицы  
+
+[LINE]
+Speaker1187: Then,  you will~see a~very attractive       man     sitting  in~front~of a~red    house. Turn      right   there.
+~            потом  вы  увидите  очень  привлекательного мужчину сидящего возле       красного дома   поверните направо там   
+
+[MULTIPLE_CHOICE]
+> Когда Лин и Би нужно повернуть направо?
++ Возле очень привлекательного мужчины, сидящего возле красного дома.
+- У ресторана в конце улицы.
+- Возле некрасивого мужчины, сидящего возле синего дома.
+
+[LINE]
+Speaker508: Thanks. 
+~           спасибо 
+
+[LINE]
+> They turn         left.  
+~ они  поворачивают налево 
+
+[ARRANGE]
+> Наберите услышанное
+> [(They) (walk~down~the~street) (for~fifteen) (minutes).]
+~   они    идут~по~улице          пятнадцать    минут     
+
+[LINE]
+> Finally, they see   a~man   sitting  outside~of a~red    house.
+~ наконец  они  видят мужчину сидящего снаружи    красного дома  
+
+[LINE]
+Speaker508: Is~that~the~man?
+~           это~тот~мужчина 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker507: No,  she said           he~was [very~attractive].      
+~           нет  она сказала,~(что) он      очень~привлекательный  
++ very  attractive     
+~ очень привлекательный
+- really hungry  
+~ очень  голодный
+- very  red    
+~ очень красный
+
+[LINE]
+Speaker508: He~is attractive!     
+~           он    привлекательный 
+
+[LINE]
+Speaker507: But he's not very  attractive…     
+~           но  он   не  очень привлекательный 
+
+[LINE]
+Speaker508: Oh. Maybe you're right.
+~           ой  может ты     права 
+
+[LINE]
+Speaker3135: Excuse~me, I~can~hear~you.
+~            извините   я~вас~слышу    
+
+[LINE]
+Speaker507: Oops, sorry.   
+~           ой    простите 
+
+[MULTIPLE_CHOICE]
+> Стоп… Почему Би извинилась?
++ Мужчина услышал, как она назвала его не очень привлекательным.
+- Она забыла, куда шла.
+- Она нечаянно наступила Лин на ногу.
+
+[LINE]
+Speaker508: Are~we close~to Cecil's~Restaurant?
+~           мы     близко~к ресторану~Сесила   
+
+[LINE]
+Speaker3135: No,  it's~three~miles from~here.
+~            нет  он~в~трёх~милях  отсюда    
+
+[LINE]
+Speaker508: Are~you~sure?
+~           вы~уверены   
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker3135: Yes. I'm [a~cook~there].
+~            да   я    там~повар     
+- the book there
++ a cook there
+- to look there
+
+[LINE]
+Speaker507: Great!   Can~you   make    me  a~sandwich? I'm so    hungry!  
+~           отлично  вы~можете сделать мне бутерброд   я   такая голодная 
+
+[LINE]
+Speaker3135: No,  you said           I~wasn't~attractive.
+~            нет  вы  сказали,~(что) я~непривлекательный 
+
+[LINE]
+Speaker507: Well, that was  before      I found~out     you can~cook.       
+~           ну    это  было до~того~как я узнала,~(что) вы  умеете~готовить 
+
+[MULTIPLE_CHOICE]
+> Почему Би попросила мужчину сделать ей бутерброд?
++ Он работает поваром в ресторане Сесила.
+- Би первая сделала ему бутерброд.
+- Он держит в руках сыр и ветчину.
+
+[MATCH]
+> Коснитесь пар
+- Great <> отлично
+- Excuse me <> извините
+- Sure <> конечно
+- said <> сказала,
+- Oh <> ой
+
