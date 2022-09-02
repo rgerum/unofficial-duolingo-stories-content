@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=Я вас видела
+icon=5efd5d3e85a10ad5c37e72a842288f5c3d967300
+set=27|4
+
+[HEADER]
+> I Saw~You   
+~ я вас~видела
+
+[LINE]
+> Lily is~working in a~clothes~store.
+~ Лили работает   в  магазине~одежды 
+
+[LINE]
+> She stops         a~well-dressed woman   leaving~the~store.   
+~ она останавливает хорошо~одетую  женщину уходящую~из~магазина 
+
+[LINE]
+Speaker416: Ma'am, did~you just       put      that sweater in your purse?  
+~           мэм    вы      только~что положили этот свитер  в  свою сумочку 
+
+[LINE]
+Speaker528: My  purse?   No. 
+~           мою сумочку  нет 
+
+[LINE]
+Speaker416: Yes, you~did.          I saw~you.   
+~           да   вы~(это)~сделали  я вас~видела 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker528: Oh, [this~sweater]?
+~           ой   этот~свитер   
+- this weather
+- it’s better
++ this sweater
+
+[LINE]
+Speaker528: I was~going~to pay~for~it,        but I forgot. I'm old.    My~memory~is~bad.    
+~           я собиралась   за~него~заплатить  но  я забыла  я   старая  у~меня~плохая~память 
+
+[MULTIPLE_CHOICE]
+> Женщина говорит Лили, что не заплатила за свитер, потому что...
+- ...свитер не подходит ей по размеру.
++ ...у неё плохая память.
+- …она не хочет покупать этот свитер.
+
+[LINE]
+Speaker416: Wait,      is~that a~scarf in~your~purse   too? 
+~           подождите  а~это   шарф    у~вас~в~сумочке тоже 
+
+[LINE]
+Speaker528: Oops!
+~           ой   
+
+[LINE]
+Speaker416: Can~you   please     take    everything out~of your  purse?  
+~           вы~можете пожалуйста достать всё        из     своей сумочки 
+
+[LINE]
+> The~woman takes   a~scarf, a~belt, and a~watch       out~of the~purse.
+~ женщина   достает шарф     пояс    и   наручные~часы из     сумочки   
+
+[LINE]
+Speaker416: Were~you~trying to~steal all~of~these things?!
+~           вы~пытались     украсть  все~эти      вещи    
+
+[LINE]
+Speaker528: Yes,~I~was!   I love  stealing! It's exciting!    
+~           да,~пыталась  я люблю воровать  это  захватывающе 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «скучно».
+Speaker528: I (live) (alone). (I~get)      (+bored).  One~day, you'll~understand.
+~           я  живу   одна     мне~бывает    скучно   однажды  вы~поймете        
+
+[LINE]
+Speaker528: I can  leave, right? I'm a~nice old~woman.
+~           я могу уйти   верно  я   добрая старушка  
+
+[LINE]
+Speaker416: Are~you~nice?     
+~           (точно)~вы~добрая 
+
+[LINE]
+Speaker528: Not~really. But you could    let       me  leave because    you're a~nice young   woman.  
+~           не~очень    но  вы  могли~бы позволить мне уйти  потому~что вы     добрая молодая женщина 
+
+[MULTIPLE_CHOICE]
+> Почему женщина говорит Лили, что она добрая?
+- Она хочет, чтобы Лили пошла с ней по магазинам.
++ Она хочет, чтобы Лили её отпустила.
+- Она приняла Лили за свою внучку.
+
+[LINE]
+Speaker416: OK.     You can    leave. But don't~tell  anyone that I'm nice.  
+~           хорошо  вы  можете уйти   но  не~говорите никому что  я   добрая 
+
+[LINE]
+Speaker528: OK!     Thanks!  Goodbye!    
+~           хорошо  спасибо  до~свидания 
+
+[LINE]
+> The~old~woman takes her  purse   and leaves.
+~ старушка      берет свою сумочку и   уходит 
+
+[LINE]
+> Lily's~boss    runs     into the~store.
+~ начальник~Лили забегает в    магазин   
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker113: Did~you~let  that woman   [leave]?
+~           ты~позволила той  женщине  уйти   
++ leave
+~ уйти 
+- live~alone        
+~ жить~в~одиночестве
+- in~your~purse  
+~ в~вашей~сумочке
+
+[LINE]
+Speaker416: Of~course~I~did. Why~not?   
+~           конечно          почему~нет 
+
+[LINE]
+Speaker113: She just       stole  a~$300~purse!   
+~           она только~что украла сумочку~за~300$ 
+
+[MULTIPLE_CHOICE]
+> Ой-ёй! Почему начальник Лили так разозлился?
+- Лили посоветовала женщине совершить кражу.
++ Женщина украла из магазина дорогую сумочку.
+- Лили украла дорогую сумочку.
+
+[MATCH]
+> Коснитесь пар
+- takes <> достает
+- anyone <> никому
+- Did you let <> ты позволила
+- stealing <> воровать
+- was going to <> собиралась
+
