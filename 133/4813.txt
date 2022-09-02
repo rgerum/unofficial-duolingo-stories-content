@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=에디의 이별
+icon=9d77d24b95463b2b7a2e8c9aa8f7b1c9f8de9013
+set=18|2
+
+[HEADER]
+> Eddy's Breakup
+~ 에디의    이별     
+
+[LINE]
+> Junior sees his father, Eddy, crying. 
+~ 주니어가   본다   그의  아빠      에디가   울고~있는~걸 
+
+[LINE]
+Speaker415: What's~wrong, Dad?
+~           왜~그래요         아빠  
+
+[LINE]
+Speaker414: Chloe broke~up with~me, and I  don't~know why.
+~           클로이가  헤어지자고~했어 아빠한테     그리고 아빤 모르겠어       왠지를 
+
+[LINE]
+Speaker415: Your girlfriend, Chloe? I liked her.
+~           아빠의  여자친구        클로이요   전 좋았는데  그~분 
+
+[MULTIPLE_CHOICE]
+> 에디의 여자친구가 그에게 헤어지자고 했다.
+- 아니요, 그렇지 않아요.
++ 네, 맞아요.
+
+[LINE]
+Speaker414: Me~too! And I  thought she liked me. 
+~           아빠도     그리고 아빤 생각했는데   그녀도 좋아한다고 아빠를 
+
+[POINT_TO_PHRASE]
+> “잘생긴”을 뜻하는 말을 고르세요.
+Speaker414: (She) (told) me   (I~was) (+handsome).
+~            그녀가   말했어   아빠한테  아빠가      잘생겼다고     
+
+[LINE]
+Speaker415: Wow, that's surprising.
+~           우와   그건     놀랍네요       
+
+[LINE]
+Speaker414: I~know!
+~           내~말이   
+
+[LINE]
+Speaker415: Well, why did~she~break~up with~you?
+~           음     왜   그녀가~헤어지자고~한~거예요  아빠한테     
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker415: [(Did~you~listen) (when) (she)  (talked)?]
+~             (아빠가)~잘~들어줬어요    ~할~때   클로이가   얘기(했다)   
+
+[LINE]
+Speaker414: Yes. I  know her favorite~color and her favorite~movie…
+~           응    아빤 알아   그녀가 가장~좋아하는~색깔     그리고 그녀가 가장~좋아하는~영화를    
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker414: I  even know [her~last~name].
+~           아빤 심지어  알아    그녀의~성까지        
++ her last name
+- her last game
+- your past fame
+
+[LINE]
+Speaker415: So what~happened?
+~           그럼 무슨~일이~있었던~거예요 
+
+[LINE]
+Speaker414: I~don't~know…
+~           (아빤)~모르겠어    
+
+[LINE]
+Speaker414: We had a~great~date last~night.
+~           우린 했어  멋진~데이트를      어젯밤에       
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker415: What~did~you~do [on~your~date]?
+~           (아빤)~뭘~했어요       (아빠의)~데이트에서   
+- at~work yesterday
+~ 직장에서    어제       
+- last~year 
+~ 작년에       
++ on~your~date
+~ 데이트에서       
+
+[LINE]
+Speaker414: I   cooked dinner for~her.
+~           아빠가 요리했어   저녁~식사를 그녀를~위해  
+
+[LINE]
+Speaker415: Oh~no.
+~           아~이런  
+
+[LINE]
+Speaker415: I think~I~know why she  broke~up with~you.
+~           전 알~것~같아요      왜   클로이가 헤어졌는지    아빠랑      
+
+[LINE]
+Speaker414: Why?
+~           왠데  
+
+[LINE]
+Speaker415: Dad, I love you, but you're a~terrible~cook.
+~           아빠   전 사랑해요 아빠를  하지만 아빤     요리를~진짜~못~해요     
+
+[MULTIPLE_CHOICE]
+> 이런! 클로이가 에디에게 헤어지자고 한 이유는 무엇인가요?
++ 에디가 만들어 준 저녁 식사가 형편없어서.
+- 에디가 신었던 양말 냄새가 너무 심해서.
+- 에디가 그녀의 이름을 잊어버려서.
+
+[MATCH]
+> 짝을 누르세요
+- I was <> 아빠가
+- girlfriend <> 여자친구
+- even <> 심지어
+- did she break up <> 그녀가 헤어지자고 한 거예요
+- cooked <> 요리했어
+
