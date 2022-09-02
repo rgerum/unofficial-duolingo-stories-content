@@ -1,0 +1,114 @@
+[DATA]
+fromLanguageName=Складна проблема
+icon=88e500c781ec4505c30a55fa55eda9d2df4a04da
+set=7|4
+
+[HEADER]
+> A~Difficult Problem 
+~ складна     проблема
+
+[LINE]
+> Sarah and Luke are~in~a~class at~a~university.
+~ Сара  і   Люк  у~класі        в~університеті  
+
+[LINE]
+Speaker334: Hi,     Luke…
+~           привіт  Люку 
+
+[SELECT_PHRASE]
+> Виберіть пропущену фразу
+Speaker3135: [Are~you~OK],   Sarah?
+~             ти~в~порядку   Саро  
+- Art or OK
+- Aren't your OK
++ Are you OK
+
+[LINE]
+Speaker334: Hmm… I~have a~problem.
+~           хм   у~мене проблема  
+
+[LINE]
+Speaker3135: Can  I help      you? 
+~            можу я допомогти тобі 
+
+[POINT_TO_PHRASE]
+> Виберіть варіант, що означає «думаю».
+Speaker334: I (+think) (you) (can)   (help)      me…  
+~           я   думаю   ти    можеш   допомогти  мені 
+
+[LINE]
+Speaker3135: Do~you~have your homework?        
+~            у~тебе~є    твоє домашнє~завдання 
+
+[CONTINUATION]
+> Що далі?
+Speaker334: Yes, I~have   [my  homework].        
+~           так  у~мене~є  моє домашнє~завдання  
+- my~classroom 
+~ мій~клас     
++ my~homework          
+~ моє~домашнє~завдання 
+- a~university 
+~ університет  
+
+[LINE]
+Speaker3135: Are~you ready  for~the~exam?
+~            ти      готова до~іспиту    
+
+[MULTIPLE_CHOICE]
+> Люк хоче знати, чи…
++ … Сара готова до іспиту.
+- … Сара може дати йому своє домашнє завдання.
+- … Сара може йому допомогти.
+
+[LINE]
+Speaker334: Yes, I'm ready. 
+~           так  я   готова 
+
+[LINE]
+Speaker3135: Do~you need…     a~pen?
+~            тобі   потрібна  ручка 
+
+[LINE]
+Speaker334: I~have   a~pen. Thank~you, Luke.
+~           у~мене~є ручка  дякую      Люку 
+
+[LINE]
+Speaker3135: What's the~problem, Sarah?
+~            у~чому проблема     Саро  
+
+[LINE]
+Speaker334: I~have   two tickets for~a~concert tonight…         
+~           у~мене~є два квитки  на~концерт    сьогодні~ввечері 
+
+[ARRANGE]
+> Що ви чуєте?
+Speaker3135: [(And) (that's) (a~problem)?]
+~              і     це       проблема    
+
+[LINE]
+Speaker334: Yes, but you can   help      me!  
+~           так  але ти  можеш допомогти мені 
+
+[LINE]
+Speaker334: You can   come with~me!
+~           ти  можеш піти зі~мною 
+
+[LINE]
+Speaker3135: Oh… OK!    Yes, I can  help      you  with that~problem!  
+~            о   добре  так  я можу допомогти тобі з    цією~проблемою 
+
+[MULTIPLE_CHOICE]
+> Що зробила Сара?
++ Вона запросила Люка на концерт.
+- Вона пішла додому, бо забула підготуватися до іспиту.
+- Вона попросила у Люка ручку.
+
+[MATCH]
+> З’єднайте пари
+- with <> з
+- your <> твоє
+- Are you <> ти
+- Hi <> привіт
+- homework <> домашнє завдання
+
