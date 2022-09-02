@@ -1,0 +1,105 @@
+[DATA]
+fromLanguageName=Грязная квартира
+icon=0e6ab8c3a4e3224cb700e8daeac0038f7f0e929e
+set=9|3
+
+[HEADER]
+> Dirty   Apartment
+~ грязная квартира 
+
+[LINE]
+> Bea goes~to her~friend~Sarah's~apartment.
+~ Би  идёт~в  квартиру~своей~подруги~Сары  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker507: Hi,     Sarah, [how~are~you]?
+~           привет  Сара    как~ты       
+- how were two
++ how are you
+- now are you
+
+[LINE]
+Speaker175: I'm~terrible!
+~           я~ужасно     
+
+[LINE]
+Speaker507: Oh, no.  Why?   
+~           о   нет  почему 
+
+[LINE]
+Speaker175: My  new   roommate           and I always argue~a~lot.   
+~           моя новая соседка~по~комнате и   я всегда много~ругаемся 
+
+[MULTIPLE_CHOICE]
+> Сара ужасно себя чувствует, потому что…
+- …она вчера очень поздно вернулась домой.
++ …она много ругается со своей соседкой по комнате.
+- …у неё аллергия на кота соседки.
+
+[LINE]
+Speaker507: I'm not surprised! This kitchen is~very dirty.  
+~           я   не  удивлена   эта  кухня   очень   грязная 
+
+[LINE]
+Speaker175: Ugh, I know.
+~           ох   я знаю 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker507: And there's     old    cheese [on~that~table].
+~           и   там~(лежит) старый сыр     на~том~столе   
+- on~your~head   
+~ на~твоей~голове
+- at~the~supermarket
+~ в~супермаркете    
++ on~that~table
+~ на~том~столе 
+
+[LINE]
+Speaker175: Yes. Yuck!
+~           да   фу   
+
+[LINE]
+Speaker507: And~there~are dirty   clothes on this chair!
+~           и~там~(лежит) грязная одежда  на этом стуле 
+
+[LINE]
+Speaker507: Wait…   this~is your shirt.  
+~           погоди  это     твоя рубашка 
+
+[LINE]
+Speaker175: Yes.
+~           да  
+
+[ARRANGE]
+> Наберите услышанное
+Speaker507: [(These~are~all) (your) (clothes)!]
+~             это~всё         твоя   одежда    
+
+[LINE]
+Speaker507: Is~that~your old    cheese, too?! 
+~           это~твой     старый сыр     тоже  
+
+[LINE]
+Speaker175: Yes! I never        clean,  and my  roommate           always    complains!
+~           да   я никогда~(не) убираю  и   моя соседка~по~комнате постоянно жалуется  
+
+[LINE]
+Speaker175: She's terrible!
+~           она   ужасная  
+
+[MULTIPLE_CHOICE]
+> Ого! Из-за чего Сара и её соседка по комнате не поладили?
++ Сара устраивает беспорядок и никогда за собой не убирает.
+- Би любит есть просроченный сыр.
+- Сара носит всю одежду своей соседки.
+
+[MATCH]
+> Коснитесь пар
+- Oh <> о
+- Wait <> погоди
+- Yuck <> фу
+- too <> тоже
+- terrible <> ужасная
+
