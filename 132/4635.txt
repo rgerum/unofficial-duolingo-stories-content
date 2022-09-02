@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=क्या मैं आपकी मदद कर सकती हूँ?
+icon=3353b2d2d326875fc3ab76228fda57149bcd012a
+set=6|2
+
+[HEADER]
+> Need~Help?
+~ मदद~चाहिए 
+
+[LINE]
+> Lin is walking     on~a~road.
+~ लिन है चलकर~जा~रही एक~सड़क~पर 
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+> She~sees          a  man       [near~his~car].    
+~ उसे~दिखाई~देता~है एक आदमी~(को)  अपनी~गाड़ी~के~पास  
+- hear his car
+- near this bar
++ near his car
+
+[LINE]
+> He looks     unhappy.
+~ वह लग~रहा~है उदास    
+
+[LINE]
+Speaker508: Hi!     Do~you~need     help?
+~           नमस्ते  क्या~आपको~चाहिए मदद  
+
+[CONTINUATION]
+> आगे क्या आएगा?
+Speaker127: There~is   a~problem with [my~car].   
+~           (हो~गई)~है कोई~गड़बड़  में   मेरी~गाड़ी  
+- the~weather
+~ मौसम       
++ my~car   
+~ मेरी~गाड़ी
+- my~coffee
+~ मेरी~कॉफ़ी
+
+[LINE]
+Speaker127: Can~I~use                     your phone, please?
+~           क्या~मैं~इस्तेमाल~कर~सकता~हूँ आपका फ़ोन   कृपया  
+
+[LINE]
+> Lin gives      her~phone to~the~man.
+~ लिन दे~देती~है अपना~फ़ोन  उस~आदमी~को 
+
+[LINE]
+Speaker508: Sure,  but…  
+~           ज़रूर  लेकिन 
+
+[LINE]
+Speaker127: Sorry,       one minute.
+~           माफ़~कीजिएगा  एक  मिनट   
+
+[LINE]
+> The~man uses             Lin's  phone.
+~ वह~आदमी इस्तेमाल~करता~है लिन~का फ़ोन  
+
+[LINE]
+Speaker127: Yes, is~this               the~auto~repair~shop?               
+~           हाँ  क्या~आप~(बोल~रहे)~हैं गाड़ी~की~मरम्मत~करने~वाली~दुकान~(से) 
+
+[MULTIPLE_CHOICE]
+> उस आदमी ने लिन का फ़ोन लिया ताकि वह...
+- ...समय देख सके।
+-  ...लिन की तस्वीरें देख सके।
++ …गाड़ी की मरम्मत करने वाली किसी दुकान को फ़ोन लगा सके।
+
+[LINE]
+Speaker127: I~have  a~car~problem.    
+~           मेरी~है गाड़ी~में~कोई~गड़बड़ 
+
+[LINE]
+Speaker508: Uh… Sir?  
+~           ~   महोदय 
+
+[LINE]
+> The~man continues~talking on~the~phone.
+~ वह~आदमी बात~करता~रहता~है  फ़ोन~पर       
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker127: No,   I~don't~know  [where~I~am].  
+~           नहीं  मुझे~नहीं~पता  कहाँ~हूँ~मैं  
+- where I ran
+- here I am
++ where I am
+
+[LINE]
+Speaker127: Excuse~me,  miss…
+~           ज़रा~सुनिए  मिस  
+
+[LINE]
+Speaker508: Yes?        
+~           हाँ~(बोलिए) 
+
+[ARRANGE]
+> सुनकर शब्द चुनें
+Speaker127: [(Where) (are) (we)?]
+~             कहाँ    हैं   हम   
+
+[LINE]
+Speaker508: Near    the~auto~repair~shop!               
+~           पास~में गाड़ी~की~मरम्मत~करने~वाली~दुकान~(के) 
+
+[LINE]
+Speaker127: What?
+~           क्या 
+
+[LINE]
+Speaker508: I   work         there on~weekends. 
+~           मैं काम~करती~हूँ वहाँ  सप्ताहांत~पर 
+
+[LINE]
+Speaker508: I'm     a  mechanic!
+~           मैं~हूँ एक मैकेनिक  
+
+[LINE]
+Speaker508: So… do~you~need     help?
+~           तो  क्या~आपको~चाहिए मदद  
+
+[MULTIPLE_CHOICE]
+> आखिर में यह बात सामने आई कि लिन...
+- …को एक नया फ़ोन खरीदने में मदद चाहिए।
++ …गाड़ी की मरम्मत करने वाली दुकान में काम करती है।
+- ...को नहीं पता कि वह कहाँ है।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- I have <> मेरी है
+- uses <> इस्तेमाल करता है
+- What <> क्या
+- I <> मैं
+- Hi <> नमस्ते
+
