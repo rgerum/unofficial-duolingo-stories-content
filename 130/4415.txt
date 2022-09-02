@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=Поездка в Рим
+icon=7a9d96c0ef5e239395ce01891267355130ad35aa
+set=20|4
+
+[HEADER]
+> Going~to~Rome
+~ поездка~в~Рим
+
+[LINE]
+> Zari runs~to     Lily in~the~hall at~school.
+~ Зари подбегает~к Лили в~коридоре  в~школе   
+
+[LINE]
+Speaker418: Lily, I~have~a~problem!
+~           Лили  у~меня~проблема  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker416: Zari, for~the~last~time,      it's~OK       if   you don't~get   [a~perfect~grade].
+~           Зари  последний~раз~(говорю)  это~нормально если ты  не~получишь  отличную~оценку  
++ a perfect grade
+- a person's grade
+- a perfect read
+
+[LINE]
+Speaker418: No,  I think Enzo is~in~love~with~me.
+~           нет  я думаю Энцо влюблён~в~меня     
+
+[LINE]
+Speaker416: Enzo? The~student visiting   from Italy? 
+~           Энцо  студент     приехавший из   Италии 
+
+[LINE]
+Speaker418: Yes, I~think     he's going~to~ask~me           to~visit him in Rome.
+~           да   мне~кажется он   собирается~предложить~мне посетить его в  Риме 
+
+[MULTIPLE_CHOICE]
+> Что случилось с Зари?
++ Она думает, что Энцо хочет пригласить её в Рим.
+- Её семья переезжает в Рим.
+- Она получила плохую оценку на уроке итальянского.
+
+[LINE]
+Speaker416: Really?
+~           правда 
+
+[LINE]
+Speaker418: Then  we'll~get~married!
+~           потом мы~поженимся      
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker418: We'll~have  an~apartment with [a~great~view]   of~the~Colosseum.
+~           у~нас~будет квартира     с     отличным~видом  на~Колизей       
+- a great new
++ a great view
+- a gray view
+
+[LINE]
+Speaker418: And we'll~have  a~scooter and a~cat named     Fellini!
+~           и   у~нас~будет мопед     и   кот   по~кличке Феллини 
+
+[LINE]
+Speaker416: Wow, that's~a… detailed  plan.
+~           ого  это       подробный план 
+
+[MULTIPLE_CHOICE]
+> Хмм… Лили сомневается в словах Зари. Почему?
++ Она думает, что Лили строит слишком много планов.
+- Она думает, что Энцо не существует.
+- Она думает, что Зари назовёт свою кошку Лили.
+
+[LINE]
+Speaker418: But now    I~need    to~tell    my   parents…  
+~           но  теперь мне~нужно рассказать моим родителям 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker416: Zari… why    do~you~think that [he wants~you~to~go          to Rome]?
+~           Зари  почему ты~думаешь   что   он хочет~(чтобы)~ты~поехала в  Рим   
++ he wants~you~to~go          to Rome
+~ он хочет~(чтобы)~ты~поехала в  Рим 
+- he's sleeping in~the~library
+~ он   спит     в~библиотеке  
+- you're~going to the~gym        
+~ ты~идёшь     в  тренажёрный~зал
+
+[LINE]
+Speaker418: He said    very  romantic    things to~me.
+~           он говорил очень романтичные вещи   мне   
+
+[LINE]
+Speaker416: Really?
+~           правда 
+
+[LINE]
+Speaker418: Yes, he asked     me   if~I~like  Rome.
+~           да   он спрашивал меня люблю~ли~я Рим  
+
+[LINE]
+Speaker418: He also  asked     if~I~like  cats. 
+~           он также спрашивал люблю~ли~я кошек 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker418: [(He) (even) (asked)     (about) (my~family)!] 
+~             он   даже   спрашивал   о       моей~семье   
+
+[LINE]
+Speaker416: Zari… I think he's asking~those~questions to~everyone in our   class. 
+~           Зари  я думаю он   задаёт~эти~вопросы     всем        в  нашем классе 
+
+[LINE]
+Speaker418: What?!
+~           что   
+
+[LINE]
+Speaker416: Those questions are~from~his~textbook.
+~           те    вопросы   из~его~учебника       
+
+[LINE]
+Speaker416: He's just   practicing his  English.   
+~           он   просто практикует свой английский 
+
+[MULTIPLE_CHOICE]
+> Зари думала, что Энцо её любит, но на самом деле…
+- …он любит Лили.
++ …он задавал ей вопросы из учебника.
+- …ему нужны лишь мопед и кот по кличке Феллини.
+
+[MATCH]
+> Коснитесь пар
+- him <> его
+- he's <> он
+- of the Colosseum <> на Колизей
+- why <> почему
+- But <> но
+
