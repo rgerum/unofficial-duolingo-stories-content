@@ -1,0 +1,105 @@
+[DATA]
+fromLanguageName=पासपोर्ट
+icon=643347b755001a918130ddf5f6d3e914e63a00ce
+set=1|1
+
+[HEADER]
+> The~Passport
+~ पासपोर्ट    
+
+[LINE]
+> Vikram and his  wife,  Priti,  are at~the~airport.
+~ विक्रम और  उसकी पत्नी  प्रीति  हैं हवाई~अड्डे~पर  
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker593: Oh~no.    [Where~is~my~passport]? 
+~           अरे~नहीं   मेरा~पासपोर्ट~कहाँ~है  
+- Here is my passport
+- What is my passport
++ Where is my passport
+
+[LINE]
+Speaker593: It~is~not  here!
+~           वह~नहीं~है यहाँ 
+
+[LINE]
+Speaker560: Vikram…
+~           विक्रम 
+
+[LINE]
+Speaker593: It~is~not  in~my~bag…   
+~           वह~नहीं~है मेरे~बैग~में 
+
+[LINE]
+Speaker593: And it~is~not  in~my~jacket…  
+~           और  वह~नहीं~है मेरी~जैकेट~में 
+
+[MULTIPLE_CHOICE]
+> विक्रम अपना पासपोर्ट नहीं ढूँढ पा रहा है।
+- नहीं, ऐसा नहीं है।
++ हाँ, यह सही है।
+
+[LINE]
+Speaker560: But   Vik…
+~           लेकिन विक 
+
+[LINE]
+Speaker593: Oh! My   passport is in~the~taxi!
+~           ~   मेरा पासपोर्ट है टैक्सी~में  
+
+[POINT_TO_PHRASE]
+> उस विकल्प को चुनें जिसका मतलब “भागता है” है।
+> (Vikram) (+runs)     (to~the~taxi). 
+~  विक्रम    भागता~है   टैक्सी~की~ओर  
+
+[LINE]
+Speaker560: Vik, no!  
+~           विक  नहीं 
+
+[LINE]
+> Priti  runs     to~Vikram.   
+~ प्रीति भागती~है विक्रम~की~ओर 
+
+[LINE]
+Speaker593: Oh~no,    the~taxi is~not  here now!
+~           अरे~नहीं  टैक्सी   नहीं~है यहाँ अब  
+
+[LINE]
+Speaker593: This is a  big problem…
+~           यह   है एक बड़ी समस्या  
+
+[LINE]
+Speaker560: Vikram!
+~           विक्रम 
+
+[LINE]
+Speaker560: Your     passport is~not  in~the~taxi.
+~           तुम्हारा पासपोर्ट नहीं~है टैक्सी~में  
+
+[POINT_TO_PHRASE]
+> उस विकल्प को चुनें जिसका मतलब “तुम्हारे हाथ में” है।
+Speaker560: (Your)     (passport) (is) (+in~your~hand).    
+~            तुम्हारा   पासपोर्ट   है    तुम्हारे~हाथ~में  
+
+[LINE]
+Speaker593: Oh…
+
+[LINE]
+Speaker593: Thank~you, my~love. 
+~           धन्यवाद    मेरी~जान 
+
+[MULTIPLE_CHOICE]
+> विक्रम का पासपोर्ट कहाँ था?
++ उसके हाथ में।
+- टैक्सी में।
+- उसके घर पर।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- the taxi <> टैक्सी
+- Priti <> प्रीति
+- But <> लेकिन
+- in my jacket <> मेरी जैकेट में
+- passport <> पासपोर्ट
+
