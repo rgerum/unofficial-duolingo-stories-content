@@ -1,0 +1,120 @@
+[DATA]
+fromLanguageName=Новий учень
+icon=5afbf601db955e3db76a96aea1d4e0a535c16e7c
+set=4|4
+
+[HEADER]
+> The~New Student 
+~ новий   учень   
+
+[LINE]
+> Zari and Lily are~sitting together on~the~school~bus.   
+~ Зарі і   Лілі сидять      разом    у~шкільному~автобусі 
+
+[MULTIPLE_CHOICE]
+> Зарі та Лілі сидять разом у шкільному автобусі.
+- Ні, це неправда.
++ Так, це правда.
+
+[LINE]
+Speaker418: Lily, there~is a~new student in~our~class!  
+~           Лілі  є        новий учень   у~нашому~класі 
+
+[LINE]
+Speaker418: His~name~is Miguel.
+~           його~звуть  Мігель 
+
+[LINE]
+Speaker416: Miguel, huh?
+~           Мігель  ха  
+
+[LINE]
+Speaker418: He~is from~Mexico.
+~           він   із~Мексики  
+
+[LINE]
+Speaker418: His  father writes books!
+~           його батько пише   книги 
+
+[LINE]
+Speaker416: Very interesting.
+~           дуже цікаво      
+
+[CONTINUATION]
+> Що далі?
+Speaker418: He  speaks    three  [languages ].
+~           він розмовляє трьома  мовами      
+- parents
+~ батьки 
+- books
+~ книги
++ languages
+~ мови     
+
+[LINE]
+Speaker416: Oh, he~is intelligent.
+~           о   він   розумний    
+
+[LINE]
+Speaker418: Intelligent… and tall.    And he~has  beautiful…
+~           розумний     і   високий  і   у~нього красиві   
+
+[LINE]
+Speaker416: Haha,  yes?
+~           ха-ха  так 
+
+[LINE]
+Speaker418: Um. Beautiful shoes.   
+~           гм  красиві   черевики 
+
+[POINT_TO_PHRASE]
+> Виберіть варіант, що означає «позаду».
+Speaker416: (Zari), (Miguel) is~sitting (+behind) (you). 
+~            Зарі    Мігель  сидить       позаду   тебе  
+
+[LINE]
+Speaker418: What?!
+~           що    
+
+[LINE]
+Speaker416: Hi,     Miguel!
+~           привіт  Мігель 
+
+[SELECT_PHRASE]
+> Виберіть пропущену фразу
+Speaker790: Hi,     Lily! [How~are~you]?
+~           привіт  Лілі   як~справи    
+- Here are two
+- How are your shoes
++ How are you
+
+[LINE]
+Speaker416: I~am good,  thanks.
+~           я    добре  дякую  
+
+[LINE]
+Speaker416: Miguel, this~is my  friend,  Zari.
+~           Мігель  це      моя подруга  Зарі 
+
+[LINE]
+Speaker416: She~likes      your… shoes    .
+~           їй~подобаються твої  черевики  
+
+[LINE]
+Speaker418: Oh, um, hi,     Miguel.
+~           о   ем  привіт  Мігель 
+
+[MULTIPLE_CHOICE]
+> Зарі здивована, тому що…
+- … у Мігеля потворні черевики.
+- … вона забула виконати домашнє завдання.
++ … вона не знала, що Мігель сидить позаду неї.
+
+[MATCH]
+> З’єднайте пари
+- are sitting <> сидять
+- Lily <> Лілі
+- your <> твої
+- good <> добре
+- shoes <> черевики
+
