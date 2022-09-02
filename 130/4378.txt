@@ -1,0 +1,94 @@
+[DATA]
+fromLanguageName=Ты вечно опаздываешь
+icon=a62bcc657853c02d336da2c3899591f7a148634c
+set=11|3
+
+[HEADER]
+> Always~Late       
+~ всегда~опаздываешь
+
+[LINE]
+> Lin and Lucy are~watching TV.       
+~ Лин и   Люси смотрят      телевизор 
+
+[LINE]
+Speaker509: Oh, it's~six~thirty!     
+~           о   (уже)~шесть~тридцать 
+
+[LINE]
+Speaker508: Oh no!  Bea's~birthday~party              is~in~half~an~hour!   
+~           о  нет  вечеринка~в~честь~дня~рождения~Би (будет)~через~полчаса 
+
+[LINE]
+Speaker508: I can't   be~late! 
+~           я не~могу опоздать 
+
+[MULTIPLE_CHOICE]
+> Скоро начнётся вечеринка по случаю дня рождения Би.
+- Нет, это неправда.
++ Да, это правда.
+
+[LINE]
+> Lin runs  to the~bus~stop.        
+~ Лин бежит на автобусную~остановку 
+
+[ARRANGE]
+> Наберите услышанное
+> [(She) (sees)  (the~bus~leaving).]      
+~   она   видит   (как)~автобус~уезжает   
+
+[LINE]
+Speaker508: Noooo! That's my  bus!    
+~           нет    это    мой автобус 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker508: Ugh, I~need    to~call [a~taxi~now].  
+~           ох   мне~нужно вызвать  такси~теперь  
++ a taxi now
+- and ask me how
+- a taxi cow
+
+[LINE]
+> Lin's~phone doesn't work.    
+~ телефон~Лин не      работает 
+
+[LINE]
+Speaker508: Oh no!  The~battery!
+~           о  нет  аккумулятор 
+
+[LINE]
+> Lin runs~to     the~restaurant. She sees  Bea.
+~ Лин подбегает~к ресторану       она видит Би  
+
+[POINT_TO_PHRASE]
+> Выберите вариант «вовремя».
+Speaker508: (Bea)! (I'm) (+on~time)!
+~            Би     я      вовремя  
+
+[LINE]
+Speaker508: Wait,    where~are all the~people? It's~seven~o'clock!
+~           подожди  где       все люди        (уже)~семь~часов   
+
+[LINE]
+Speaker507: Your~invitation       says    seven p.m.|   because    you're always late.       
+~           (в)~твоём~приглашении сказано семь  вечера  потому~что ты     всегда опаздываешь 
+
+[LINE]
+Speaker507: My  party     starts     at eight  p.m.  
+~           моя вечеринка начинается в  восемь вечера
+
+[MULTIPLE_CHOICE]
+> Лин спешила, чтобы не опоздать на вечеринку Би, но в итоге…
+- ...пришла на час позже.
+- ...вечеринку отменили.
++ ...пришла на час раньше.
+
+[MATCH]
+> Коснитесь пар
+- no <> нет
+- are watching <> смотрят
+- Ugh <> ох
+- to call <> вызвать
+- The battery <> аккумулятор
+
