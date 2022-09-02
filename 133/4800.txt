@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=승진
+icon=86aeb2f8135a55e49ebe8c6da5e13efdcde38d01
+set=15|1
+
+[HEADER]
+> The~Promotion
+~ 승진           
+
+[LINE]
+> Bea's boss walks~past Bea's desk.
+~ 비의    상사가  지나간다       비의    책상을  
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker2144: Hi,    Bea. [Can~we~talk] about~Carl?
+~            안녕하세요  비~씨   얘기~좀~할까요     카를에~대해서    
+- When we talk
++ Can we talk
+- Can we walk
+
+[LINE]
+Speaker507: OK…
+~           네  
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker2144: [(Do~you~like) (working) (with~him)?]
+~              좋아해요          일하는~걸     그와~같이      
+
+[LINE]
+Speaker507: Carl, uh…
+~           카를이요  어  
+
+[LINE]
+Speaker507: He's… nice.   
+~           그는    좋은~분이에요 
+
+[LINE]
+Speaker507: But, well…
+~           하지만  음    
+
+[LINE]
+Speaker507: Carl~is always late, and I  have~to~do his work.
+~           카를은     항상     늦어요   그리고 제가 해야~해요      그의  일을   
+
+[LINE]
+Speaker507: He tells~me~how~to~do~my~job.
+~           그는 제~일에~참견해요                 
+
+[LINE]
+Speaker507: And last~week, he ate  my lunch.
+~           그리고 지난주에는      그가 먹었어요 저의 점심을   
+
+[MULTIPLE_CHOICE]
+> 비는 카를을 아주 좋아한다.
++ 아니요, 그렇지 않아요.
+- 네, 맞아요.
+
+[LINE]
+Speaker507: Carl~is terrible.
+~           카를은     형편없어요    
+
+[LINE]
+Speaker2144: I'm~sorry~to~hear~that. I  wanted~to~promote him.
+~            (난)~그렇다니~유감이네요          나는 승진시키고~싶었는데        그를  
+
+[MULTIPLE_CHOICE]
+> 음… “I'm sorry to hear that”은 무슨 의미인가요?
+- 그건 참 웃긴 얘기다.
++ 그건 실망스럽다.
+- 그건 정말 잘 됐다.
+
+[LINE]
+Speaker2144: The~job~is in~a~new~office. We  need~to~find the~right~person.
+~            그~승진~자리는   새로운~사무실에~있어요     우리는 찾아야~해요       적당한~인재를          
+
+[LINE]
+Speaker507: Wait, the~job~is in~a~different~office?
+~           잠깐만요  그~승진~자리가   다른~사무실에~있다고요          
+
+[LINE]
+Speaker507: Carl~is perfect for~the~job!
+~           카를은     완벽해요    그~승진~자리에    
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker2144: But you  said  [he's terrible]!
+~            하지만 비~씨가 말했잖아요  그는   형편없다고     
++ he's terrible
+~ 그는   형편없다    
+- he's your best~friend
+~ 그는   너의   가장~친한~친구이다 
+- you want~the~job
+~ 당신이 그~승진~자리를~원한다
+
+[LINE]
+Speaker507: What? No!   He's great!
+~           뭐라고요  아니에요  그는   훌륭해요  
+
+[LINE]
+Speaker2144: You  said  he~is always late.
+~            비~씨가 말했잖아요 그는    항상     늦는다고 
+
+[LINE]
+Speaker507: Um… it~was a~joke!
+~           음   그건     농담이었어요 
+
+[LINE]
+Speaker507: Please promote  him and send  him to~a~different~office!
+~           제발     승진시켜~주세요 그를  그리고 보내주세요 그를  다른~사무실로               
+
+[MULTIPLE_CHOICE]
+> 비가 카를은 훌륭하다며 갑자기 말을 바꾸는 이유는 무엇인가요?
++ 비는 카를이 다른 사무실로 가길 원하기 때문이다.
+- 그녀가 조금 전에 한 말은 농담이었기 때문이다.
+- 그녀의 상사가 다른 사람에 대해 얘기하는 줄로 착각했기 때문이다.
+
+[MATCH]
+> 짝을 누르세요
+- have to do <> 해야 해요
+- walks past <> 지나간다
+- perfect <> 완벽해요
+- lunch <> 점심을
+- last week <> 지난주에는
+
