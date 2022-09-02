@@ -1,0 +1,165 @@
+[DATA]
+fromLanguageName=우주 거북이
+icon=9705eaba9c242e5c1f1eb5c85f1889f5f230729e
+set=35|1
+
+[HEADER]
+> Space Turtles
+~ 우주    거북이    
+
+[LINE]
+> Eddy~is in~the~kitchen paying~his~bills. He sees an~unusual~charge on~his~credit~card~bill.
+~ 에디가     부엌에~있다         고지서를~정산하면서        그가 본다   뜻밖의~요금을           그의~신용카드~내역서에서           
+
+[LINE]
+Speaker414: Junior? Do~you~play~a~game called~"Space~Turtles"?
+~           주니어     네가~게임을~하니          "우주~거북이"라는             
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker415: Yes, it's about~turtles fighting~robots… in~space! You downloaded it for~me [on~my~phone], remember?
+~           네    그건   거북이~게임이에요     로봇과~싸우는          우주에서      아빠가 다운로드했어요    그걸 절~위해서   제~휴대폰에        기억나요     
+- when I'm home
+- on my bone
++ on my phone
+
+[LINE]
+Speaker414: Oh, yeah. I~remember now.
+~           아   맞다    기억나        이제  
+
+[LINE]
+Speaker415: It's a~great~game!
+~           그건   재밌는~게임이에요    
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker415: [(Look) (at~all~of~the~turtles) (I)  (downloaded)!]
+~             보세요    모든~거북이들을                제가   다운로드한        
+
+[LINE]
+Speaker414: Junior, I~think the~game charges  my credit~card every~time you download new turtles. You spent $150!    
+~           주니어     ~인~것~같아 게임이      요금을~청구한다 내  신용카드에       ~할~때마다     네가  다운로드하다   새   거북이를     네가  썼어    백~오십~달러를 
+
+[LINE]
+Speaker415: Oops, sorry. I didn't~know. I'm just a~kid!
+~           이런    죄송해요   전 몰랐어요         전   단지   아이인걸요 
+
+[LINE]
+Speaker414: Ugh… I'll~call their~customer~service number. Maybe they'll~give~me a~refund.
+~           어후   내가~전화할~거야 고객~서비스                 번호로     어쩌면   해~줄~거야          환불을      
+
+[MULTIPLE_CHOICE]
+> Eddy~is going~to…
+~ 에디는     ~할~것이다   
++ …ask  if  he can~get~his~money~back.
+~  물어보다 ~인지 그가 환불받을~수~있다              
+- …call Junior's phone.
+~  전화하다 주니어의     휴대폰에  
+- …fight turtles~and robots in~space.
+~  싸우다   거북이와        로봇들과   우주에서     
+
+[LINE]
+> Eddy calls customer service. A~woman~named~Pamela answers.
+~ 에디가  전화한다  고객       서비스에     파멜라란~여자가             받는다     
+
+[LINE]
+Speaker1186: How can~I~help~you?
+~            어떻게 도와드릴까요         
+
+[LINE]
+Speaker414: Hi!    My son spent $150     on~your~game. Can~I~please~get a~refund?
+~           안녕하세요  제  아들이 썼어요   백~오십~달러를 우주~거북이~게임에    제발~받을~수~있을까요     환불을      
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker1186: [(Sorry), (but) (we)  (don't~give~refunds).]
+~              죄송합니다    하지만   저희는   환불해~드리지~않아요          
+
+[LINE]
+Speaker414: But he's  only a~kid. He didn't~know you~have~to~pay to~download turtles. Please!
+~           하지만 제~아들은 고작   아이에요   그는 몰랐어요        돈을~내야~하는지       다운로드하는데     거북이를     부탁드려요  
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker1186: Fine. [I'll~ask~my~boss], but I~don't~think he will~agree. I'll~call~you~back.
+~            알겠어요   제가~매니저님께~물어볼게요     하지만 ~하지~않을~것~같아요  그가 동의할~것이다     다시~전화드릴게요          
+- I'll ask my box
++ I'll ask my boss
+- I left my boss
+
+[LINE]
+> Pamela ends the~call.
+~ 파멜라가   끊는다  전화를      
+
+[LINE]
+> Eddy opens the~game on~Junior's~phone.
+~ 에디가  열어본다  게임을      주니어의~휴대폰에서        
+
+[LINE]
+Speaker414: Come~on, Junior. They   probably won't~give~me my~money~back, so   you can~at~least~show me   the~game.
+~           이리~와봐    주니어     그~회사에서 아마도      해주지~않을~거야     환불을            그러니까 네가  최소한~보여나~줘~봐       아빠한테 게임을      
+
+[MULTIPLE_CHOICE]
+> Wait… why does~Eddy~want to~play~Space~Turtles?
+~ 잠깐만요  왜   에디가~원하나요       우주~거북이~게임을~하길         
+- Space~Turtles~is a~great~way to~learn~languages.
+~ 우주~거북이는          좋은~방법이다     언어를~배우는            
++ He thinks he~probably~won't~get a~refund.
+~ 그는 생각한다   아마도~받지~못~할~거라고        환불을      
+- He can~win money when his turtles fight robots.
+~ 그는 딸~수~있다  돈을    ~하면  그의  거북이가    싸우다   로봇과    
+
+[LINE]
+> Eddy~and Junior play~the~game for~an~hour.
+~ 에디와      주니어가   게임을~한다        한~시간~동안     
+
+[LINE]
+> Finally, Pamela calls back.
+~ 마침내      파멜라가   전화한다  다시   
+
+[CONTINUATION]
+> What comes next?
+~ 무엇이  오나요   다음에  
+Speaker1186: Good news.  We  can~give~you [a~refund].
+~            좋은   소식이에요  저희가 해드릴~수~있어요     환불을       
++ a~refund
+~ 환불      
+- twenty robots
+~ 스무~개의  로봇    
+- a~new~haircut
+~ 새~머리         
+
+[LINE]
+Speaker414: Hooray!
+~           오~예    
+
+[LINE]
+Speaker1186: We'll~just~delete all~of~the space turtles from~your~game.
+~            저희가~그냥~삭제할게요      모든         우주    거북이들을   고객님~게임에서       
+
+[LINE]
+Speaker414: What? No!  
+~           뭐라고요  안~돼요 
+
+[LINE]
+Speaker414: I love all~of~our space turtles! And actually, now I~need~to~buy ten  more, but it~says my account~is locked…  Can~you~please~help?
+~           전 좋아요  제~모든       우주    거북이들이    그리고 사실        지금  사야~돼요         열~개를 더     하지만 ~라고~하네요 제  계정이        잠금~상태이다  도와주실~수~있어요          
+
+[MULTIPLE_CHOICE]
+> Why doesn't~Eddy~want a~refund now?
+~ 왜   에디가~원치~않나요        환불을      이제  
+- He remembered that Junior~is rich. 
+~ 그는 기억났다       ~란~게 주니어가      돈이~많다 
+- He learned that  Pamela~is actually a~turtle.
+~ 그는 알게~됐다   ~라는~걸 파멜라가      사실       거북이이다    
++ He wants~to~keep all~of~the space turtles.
+~ 그는 유지하고~싶다       모든         우주    거북이들을   
+
+[MATCH]
+> 짝을 누르세요
+- How <> 어떻게
+- can I help you <> 도와드릴까요
+- you have to pay <> 돈을 내야 하는지
+- locked <> 잠금 상태이다
+- Junior <> 주니어
+
