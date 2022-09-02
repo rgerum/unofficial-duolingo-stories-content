@@ -1,0 +1,187 @@
+[DATA]
+fromLanguageName=헬스장에서
+icon=c11e22dbce96e56db5b41dd6e0d41b36ee6e24f8
+set=38|2
+
+[HEADER]
+> At~the~Gym
+~ 헬스장에서     
+
+[LINE]
+> Eddy~is at~the~gym exercising with his friend Bea.
+~ 에디가     헬스장에~있다    운동하면서      ~랑   그의  친구     비   
+
+[LINE]
+> He sees a woman walk~in   with a handsome man.
+~ 그가 본다   한 여자가   걸어~들어오는~걸 ~와   한 멋진       남자  
+
+[LINE]
+Speaker414: Oh~no! I~think my ex-girlfriend Penelope~is here  with her new boyfriend.
+~           아~이런   ~인~것~같아 내  전~여자친구        페넬로피가       여기~있다 ~와   그녀의 새   남자친구      
+
+[LINE]
+Speaker507: Wow! He has~a~great~body!
+~           우와   그는 몸짱이야             
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker414: Ugh, that doesn't~make me [feel~better].
+~           어후   그건   도움이~안~돼      내가  기분이~나아지는데    
++ feel better
+- seal a letter
+- real butter
+
+[LINE]
+Speaker507: I can't~believe she   brought him here. She knows you come to~this~gym every~day!
+~           난 믿기지~않아        페넬로피가 데려왔다니   그를  여기에   그녀는 알잖아   네가  오는~걸 이~헬스장에      매일        
+
+[LINE]
+Speaker414: I need~to~start running. That'll~make me feel~better.
+~           난 시작해야~돼        달리기를     도와줄거야        내가 기분이~나아지도록   
+
+[LINE]
+> Eddy walks over~to~the~treadmill.
+~ 에디가  걸어간다  러닝머신~쪽으로              
+
+[LINE]
+> The handsome man gets~on the~treadmill next~to~Eddy. He looks~over at~Eddy.
+~ 그   멋진       남자가 올라선다    러닝머신에         에디~옆에~있는      그가 바라본다       에디를     
+
+[LINE]
+Speaker440: Hi,    do~I~know~you?
+~           안녕하세요  제가~아는~분인가요    
+
+[CONTINUATION]
+> What comes next?
+~ 무엇이  오나요   다음에  
+Speaker414: Sorry, I can't~talk when [I'm~running].
+~           미안합니다  전 얘기할~수~없어요  ~할~때  뛰고~있다        
+- I'm eating
+~ 내가  먹고~있다 
+- my son~is sleeping
+~ 내  아들이    자고~있다   
++ I'm running
+~ 내가  뛰고~있다  
+
+[LINE]
+> Eddy starts~running on~the~treadmill.
+~ 에디가  뛰기~시작한다        러닝머신에서           
+
+[LINE]
+Speaker440: Wow, you're~fast!
+~           우와   빠르시네요       
+
+[LINE]
+Speaker414: I  know!
+~           저도 알아요  
+
+[LINE]
+> The~handsome~man starts~to~run.
+~ 멋진~남자가           뛰기~시작한다       
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker440: [(You're) (almost) (as~fast) (as~me)!]
+~             당신은      거의       빨라요       저만큼     
+
+[LINE]
+> Eddy sees Penelope watching them from~across~the~room.
+~ 에디가  본다   페넬로피가    보고~있는~걸  그들을  반대편에서                
+
+[LINE]
+Speaker414: Actually, I can~run faster than~you!
+~           사실        전 뛸~수~있어요 더~빨리   당신보다     
+
+[POINT_TO_PHRASE]
+> Choose the~option~that~means "속도."
+~ 고르세요   ~를~뜻하는~말을              ~   
+> (Eddy) (increases) (+the~speed) (on~his~treadmill).
+~  에디가    올린다          속도를         러닝머신의             
+
+[LINE]
+Speaker440: Is~this a~race?    Because I  love   races!
+~           이건      달리기~시합인가요  왜냐하면    제가 좋아하거든요 시합을   
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+> [(The~handsome~man) (increases) (his~speed), (too).]
+~   멋진~남자도             올린다         속도를          역시    
+
+[LINE]
+Speaker440: Wait! I~do~know~you. You~dated Penelope!
+~           잠깐만요  제가~아는~분이네요     사귀었죠      페넬로피랑    
+
+[LINE]
+Speaker414: Penelope told you  about~me?!
+~           페넬로피가    말했어요 당신한테 저에~대해     
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker440: No,  but I  saw [photos~of~you] on~her~social~media.
+~           아니요  하지만 제가 봤어요  당신의~사진을        그녀의~SNS에서           
++ photos of you
+- potatoes and you
+- folders and views
+
+[LINE]
+> Suddenly, Eddy falls off~the~treadmill. The~handsome~man stops running and helps him.
+~ 갑자기       에디가  넘어진다  러닝머신에서             멋진~남자가           멈춘다   뛰는~걸    그리고 도와준다  그를  
+
+[LINE]
+> Penelope runs~over to~Eddy.
+~ 페넬로피가    달려온다      에디한테    
+
+[LINE]
+Speaker658: Are~you~OK?
+~           괜찮아요       
+
+[CONTINUATION]
+> What comes next?
+~ 무엇이  오나요   다음에  
+Speaker414: Not~really. I just fell~down in~front~of my~ex-girlfriend~and [her new boyfriend]!
+~           아니요         전 방금   넘어졌어요     ~앞에서        전~여자친구와               그녀의 새   남자친구       
+- her pet fish
+~ 그녀의 애완  물고기 
++ her new boyfriend
+~ 그녀의 새   남자친구     
+- my high~school teacher
+~ 나의 고등학교        선생님    
+
+[LINE]
+Speaker658: Boyfriend? No,   this~is Adam.  He's my cousin!
+~           남자친구요      아니에요  이쪽은     애덤이에요  그는   나의 사촌이에요  
+
+[LINE]
+Speaker440: And I don't~date women!
+~           그리고 전 사귀지~않아요    여자를   
+
+[LINE]
+Speaker414: Oh…
+~           아  
+
+[LINE]
+Speaker440: Actually, I  thought you~were handsome.
+~           사실은       제가 생각했어요   당신이      멋지다고     
+
+[LINE]
+Speaker440: That's~why I  got~on  the~treadmill next~to~you.
+~           그래서        제가 올라간~거예요 러닝머신에         당신~옆에~있는    
+
+[MULTIPLE_CHOICE]
+> Who~was the handsome man at~the~gym with~Penelope?
+~ 누구였나요   그   멋진       남자는 헬스장에서      페넬로피와~함께~있던   
+- her new boyfriend
+~ 그녀의 새   남자친구     
++ her cousin
+~ 그녀의 사촌    
+- Bea's cousin
+~ 비의    사촌    
+
+[MATCH]
+> 짝을 누르세요
+- but <> 하지만
+- Eddy is <> 에디가
+- don't date <> 사귀지 않아요
+- from across the room <> 반대편에서
+- Actually <> 사실
+
