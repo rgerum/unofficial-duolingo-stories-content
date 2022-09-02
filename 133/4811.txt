@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=하나 남은 자리
+icon=cd2e97ba5e87d05c1e69dd805c067ece32ea89d5
+set=17|4
+
+[HEADER]
+> The~Last~Seat
+~ 하나~남은~자리     
+
+[LINE]
+> Oscar and Eddy get~on the~bus.
+~ 오스카   그리고 에디가  탄다     버스에     
+
+[LINE]
+Speaker414: Wow, I~am very tired.
+~           하아   나는   굉장히  피곤해   
+
+[LINE]
+Speaker592: I'm~tired~too. I  had a~busy~day.
+~           나도~피곤해         나는 보냈어 바쁜~하루를     
+
+[LINE]
+Speaker592: Oh. There's~only~one~empty~seat.
+~           아   빈자리가~딱~하나~있네                
+
+[MULTIPLE_CHOICE]
+> 버스에 빈자리가 딱 하나 있다.
++ 네, 맞아요.
+- 아니요, 그렇지 않아요.
+
+[LINE]
+Speaker414: You can~have it.  
+~           네가  가져도~돼    그~자리 
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker414: I  always give the~last~seat to~people [older~than~me].
+~           나는 항상     양보해  하나~남은~자리를     사람들에게      나보다~나이~많은      
+- older than he
++ older than me
+- colder than me
+
+[LINE]
+Speaker592: What? I'm only a~little older than~you!
+~           뭐     난   단지   조금       나이~많아 너보다      
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker414: [(But) (you) (have) (some)  (gray~hair)…]
+~             하지만   너는    있잖아    몇~가닥의   흰머리가        
+
+[LINE]
+Speaker592: You have some  gray~hair too.
+~           너도  있잖아  몇~가닥의 흰머리가      역시  
+
+[LINE]
+Speaker414: I  have gray~hair?!
+~           내가 있다고  흰머리가       
+
+[LINE]
+Speaker592: You can~sit~down. You~are very tired.
+~           네가  앉아도~돼         넌       굉장히  피곤하잖아 
+
+[LINE]
+Speaker414: No! I  have~a~lot~of~energy!
+~           아니  나는 힘이~넘쳐                
+
+[LINE]
+Speaker414: I  go to~the~gym every~day!
+~           나는 가  헬스장에       매일        
+
+[LINE]
+Speaker592: You're tired because~you~go to~the~gym every~day! You need~to~rest…
+~           넌      피곤한거야 (네가)~가니까       헬스장에       매일         넌   쉬어야~해        
+
+[MULTIPLE_CHOICE]
+> 오스카가 에디는 쉬어야 한다고 말하는 이유는 무엇인가요?
++ 에디가 매일 헬스장에서 운동을 하기 때문이다.
+- 에디가 아프기 시작했기 때문이다.
+- 에디가 전날 밤에 잠을 못 잤기 때문이다.
+
+[LINE]
+Speaker414: I'm not~going~to~sit~down, Oscar.
+~           난   앉지~않을거야                오스카   
+
+[LINE]
+Speaker592: Then I'm~not~going~to~sit~down~either!
+~           그럼   나도~앉지~않겠어                        
+
+[POINT_TO_PHRASE]
+> “십 대 아이”를 뜻하는 말을 고르세요.
+> (A) (+teenager) (gets~on) (the~bus).
+~  한    십~대~아이가    탄다        버스에      
+
+[LINE]
+Speaker1649: Cool, an~empty~seat! I'll~sit~down!
+~            잘됐다   빈자리네           내가~앉아야지       
+
+[MULTIPLE_CHOICE]
+> 에디나 오스카가 그 빈자리에 앉지 않은 이유는 무엇인가요?
+- 그들은 십 대 아이가 앉길 바랬기 때문이다.
++ 둘 다 앉지 않겠다고 너무 고집을 부렸기 때문이다.
+- 그 자리가 너무 지저분했기 때문이다.
+
+[MATCH]
+> 짝을 누르세요
+- Cool <> 잘됐다
+- I'm tired too <> 나도 피곤해
+- very <> 굉장히
+- Then <> 그럼
+- No <> 아니
+
