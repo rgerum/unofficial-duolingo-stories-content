@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=एक इमरजेंसी
+icon=7e5d8724d525fd56e3abc838f2849ae269ebefd5
+set=14|1
+
+[HEADER]
+> An Emergency
+~ एक आपातकाल  
+
+[LINE]
+> Junior is at~a~pool with~his~father,~Eddy.   
+~ जूनियर है एक~पूल~पर अपने~पिता,~एड्डी,~के~साथ 
+
+[LINE]
+> He runs            to~the~lifeguard.
+~ वह भागकर~(जाता~है) लाइफ़गार्ड~की~ओर  
+
+[LINE]
+Speaker415: Help!    Lifeguard!
+~           मदद~करो  लाइफ़गार्ड 
+
+[LINE]
+Speaker415: My   father    needs help!
+~           मेरे पापा~(को) चाहिए मदद  
+
+[LINE]
+Speaker856: Is~he   drowning?   
+~           क्या~वे डूब~रहे~हैं 
+
+[MULTIPLE_CHOICE]
+> लाइफ़गार्ड आखिर किस बात को लेकर परेशान है?
+- उसे डर है कि जूनियर डूब ना रहा हो।
++ उसे डर है कि एड्डी डूब ना रहा हो।
+- उसे बच्चों से डर लगता है।
+
+[LINE]
+Speaker415: No,   it's  my   father's swimsuit.              
+~           नहीं  यह~है मेरे पापा~के  स्विमसूट~(के~बारे~में) 
+
+[LINE]
+Speaker856: I~don't~understand…
+~           मैं~समझी~नहीं      
+
+[LINE]
+Speaker415: His  new swimsuit is too~small.
+~           उनका नया स्विमसूट है बहुत~छोटा 
+
+[LINE]
+Speaker415: It looks    really    bad,   but   he won't~listen to~me!     
+~           वह दिखता~है बहुत~(ही) बेकार  लेकिन वे नहीं~सुन~रहे मेरी~(बात) 
+
+[LINE]
+Speaker856: Sorry,     but   lifeguards help         with~emergencies.
+~           माफ़~करना  लेकिन लाइफ़गार्ड  मदद~करते~हैं आपातकाल~में      
+
+[MULTIPLE_CHOICE]
+> लाइफ़गार्ड का कहना है कि वह सिर्फ़…
++ …इमरजेंसी वाले मामलों में ही मदद कर सकती है।
+- …स्विमसूट वाले मामलों में ही मदद कर सकती है।
+- …माता-|पिता वाले मामलों में ही मदद कर सकती है।
+~      - ~    ~    ~      ~   ~  ~   ~  ~    ~  
+
+[LINE]
+Speaker415: This is an emergency! Look!
+~           यह   है एक आपातकाल    देखो 
+
+[LINE]
+> The~lifeguard looks    at~Eddy. 
+~ लाइफ़गार्ड     देखती~है एड्डी~को 
+
+[LINE]
+Speaker856: No!  
+~           नहीं 
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker856: You're~right.      That swimsuit is [too~small]!
+~           तुम~ठीक~कह~रहे~हो  वह   स्विमसूट है  बहुत~छोटा  
+- do it all
+- to the mall
++ too small
+
+[LINE]
+> The~lifeguard shouts      at~Eddy. 
+~ लाइफ़गार्ड     चिल्लाती~है एड्डी~पर 
+
+[LINE]
+Speaker856: Excuse~me, sir!  I'm     coming to~help~you!  
+~           माफ़~कीजिए  जनाब  मैं~हूँ आ~रही  आपकी~मदद~करने 
+
+[POINT_TO_PHRASE]
+> उस शब्द पर क्लिक करें जिसका मतलब “तौलिया” है।
+> The~lifeguard (runs)          (to~Eddy)     (with)          a  big, red (+towel). 
+~ लाइफ़गार्ड      भागकर~जाती~है   एड्डी~की~ओर   साथ~में~(लिए)  एक बड़ा  लाल   तौलिया  
+
+[LINE]
+Speaker414: What~is~it?! 
+~           क्या~हो~गया  
+
+[LINE]
+Speaker856: Sir,  please wear      this towel.  It's  an emergency.
+~           जनाब  कृपया  पहन~लीजिए यह   तौलिया  यह~है एक आपातकाल   
+
+[MULTIPLE_CHOICE]
+> लाइफ़गार्ड एड्डी से तौलिया बाँधने को क्यों कहती है?
+- क्योंकि जूनियर अपना तौलिया लाना भूल गया था।
++ क्योंकि एड्डी का स्विमसूट बेहद छोटा है।
+- क्योंकि एड्डी को तैरना नहीं आता।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- Sorry <> माफ़ करना
+- father's <> पापा के
+- I don't understand <> मैं समझी नहीं
+- Junior <> जूनियर
+- Excuse me <> माफ़ कीजिए
+
