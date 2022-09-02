@@ -1,0 +1,155 @@
+[DATA]
+fromLanguageName=Передвинь кровать
+icon=0f7ed20f8dd9abe2d26821e7d69caa9a9d28f194
+set=41|1
+
+[HEADER]
+> Move      the~Bed
+~ передвинь кровать
+
+[LINE]
+> Zari is~lying on Lily's~bed.   She's looking up    at~the~ceiling.
+~ Зари лежит    на кровати~Лили  она   смотрит вверх на~потолок     
+
+[LINE]
+Speaker418: Lily, your~room~is~boring.  You  should move        your furniture.
+~           Лили  твоя~комната~скучная  тебе стоит  передвинуть свою мебель    
+
+[LINE]
+Speaker416: No.  The~room looks    good   now.   
+~           нет  комната  выглядит хорошо сейчас 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker418: I think your bed     would~look   great   [in~that~corner].
+~           я думаю твоя кровать выглядела~бы отлично  в~том~углу      
+- is that warmer
+- in that corn
++ in that corner
+
+[LINE]
+Speaker416: I~do~not.      
+~           я~так~не~думаю 
+
+[LINE]
+Speaker418: You know,   it's~really dangerous to~have~your~bed  next~to the~window.
+~           ты  знаешь  очень       опасно    размещать~кровать радом~с окном      
+
+[LINE]
+Speaker416: Dangerous?
+~           опасно    
+
+[LINE]
+Speaker418: Lightning could~hit     that   tree   outside,  and it  could~fall   through~your~window.
+~           молния    может~ударить (в)~то дерево на~улице  и   оно может~упасть тебе~в~окно         
+
+[POINT_TO_PHRASE]
+> Click~on the~option that~means       «убийца».
+~ выберите вариант    который~означает ~        
+Speaker418: Or  (+a~murderer) (could~climb)   (into) (your) room!   
+~           или   убийца       может~залезть   в      твою  комнату 
+
+[LINE]
+Speaker416: Wow, Zari. You've~thought~a~lot about this.
+~           ого  Зари  ты~много~думала      об    этом 
+
+[MULTIPLE_CHOICE]
+> Lily thinks        Zari has~thought~a~lot about…
+~ Лили считает~(что) Зари много~думала      о     
++ …where     Lily's~bed~should~be.      
+~  (том)~где должна~стоять~кровать~Лили 
+- …climbing  into Lily's~room. 
+~  залезании в    комнату~Лили 
+- …falling   out~of Lily's~window.
+~  выпадании из     окна~Лили     
+
+[LINE]
+Speaker418: I'm trying  to~be a~good  friend,   Lily. I want         you to~be~safe.         
+~           я   пытаюсь быть  хорошей подругой  Лили  я хочу~(чтобы) ты  была~в~безопасности 
+
+[LINE]
+Speaker416: I'm fine.      My  bed     has~always~been next~to the~window.
+~           я   в~порядке  моя кровать всегда~была     около   окна       
+
+[LINE]
+Speaker418:  Always? Then  don't~you~want        to~try      something new?  
+~            всегда  тогда разве~тебе~не~хочется попробовать что-то    новое 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker416: [(You) (know)   (I~hate)     (new)   (things).]
+~             ты    знаешь   я~ненавижу   новые   вещи     
+
+[LINE]
+Speaker418: Well… I read   a~book once       that~said                 it's~good    to~sleep with~your~head on the~north side    of~your~room.
+~           ну    я читала книгу  как-то~раз (в~которой)~было~написано (что)~хорошо спать    головой        на северную  сторону комнаты      
+
+[LINE]
+Speaker416: This~is the~north side    of~my~room.  
+~           это     северная  сторона моей~комнаты 
+
+[LINE]
+Speaker418: Oh, did~I~say north    side?    I mean        south side.   
+~           ой  я~сказала северная сторона  я имею~в~виду южную сторону 
+
+[MULTIPLE_CHOICE]
+> Now    Zari says           Lily should sleep with~her~head…
+~ теперь Зари говорит,~(что) Лили должна спать головой       
+- ...out~the~window.
+~    из~окна        
++ ...on the~south side    of~the~room.
+~    на южную     сторону комнаты     
+- ...under a~lot~of   blankets.
+~    под   множеством одеял    
+
+[LINE]
+Speaker416: Ugh, Zari! Why~do~you want~me          to~move     my   bed?    
+~           ух   Зари  почему~ты  хочешь~(чтобы)~я передвинула свою кровать 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker418: [(I) (think) (it)  (will~look)       (so~nice)!]
+~             я   думаю   это   будет~выглядеть   здорово   
+
+[LINE]
+Speaker416: Fine.   Help   me  move~it.       
+~           хорошо  помоги мне передвинуть~её 
+
+[LINE]
+> They start    to~move     Lily's~bed,   but Lily sees  something on the~carpet…
+~ они  начинают передвигать кровать~Лили  но  Лили видит что-то    на ковре      
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker416: Zari, did~you~spill coffee on my  [carpet]?
+~           Зари  ты~пролила    кофе   на мой  ковёр   
+- tree  
+~ дерево
++ carpet
+~ ковёр 
+- window
+~ окно  
+
+[LINE]
+Speaker418: Yes. But don't~worry. You~won't~see~it        after             we move       your bed.    
+~           да   но  не~волнуйся  тебе~не~будет~его~видно после~того,~(как) мы передвинем твою кровать 
+
+[MULTIPLE_CHOICE]
+> Zari wants          Lily to~move     her  bed...    
+~ Зари хочет,~(чтобы) Лили передвинула свою кровать   
+- ...into a~very dangerous place.
+~    в    очень  опасное   место 
+- ...so~that Lily can   look~out       the~window at~night.
+~    чтобы   Лили могла выглядывать~из окна       ночью    
++ ...to~hide        the~coffee      she spilled on the~carpet.
+~    (чтобы)~скрыть кофе,~(который) она пролила на ковёр      
+
+[MATCH]
+> Коснитесь пар
+- about <> об
+- with your head <> головой
+- You've thought a lot <> ты много думала
+- this <> этом
+- No <> нет
+
