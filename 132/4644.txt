@@ -1,0 +1,105 @@
+[DATA]
+fromLanguageName=एक गंदा फ़्लैट
+icon=0e6ab8c3a4e3224cb700e8daeac0038f7f0e929e
+set=8|3
+
+[HEADER]
+> Dirty Apartment
+~ गंदा  फ़्लैट    
+
+[LINE]
+> Bea goes    to~her~friend~Sarah's~apartment.
+~ बी  जाती~है अपनी~दोस्त~साराह~के~फ़्लैट~पर    
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker507: Hi,     Sarah, [how~are~you]?
+~           नमस्ते  साराह   तुम~कैसी~हो  
+- now are you
+- how were two
++ how are you
+
+[LINE]
+Speaker175: I'm                    terrible! 
+~           मैं~(महसूस~कर~रही)~हूँ बहुत~बुरा 
+
+[LINE]
+Speaker507: Oh,~no.   Why?  
+~           अरे~नहीं  क्यों 
+
+[LINE]
+Speaker175: My   new roommate and I   always argue~a~lot.      
+~           मेरी नयी रूममेट   और  मैं हमेशा  बहुत~बहस~करते~हैं 
+
+[MULTIPLE_CHOICE]
+> साराह को बहुत बुरा लग रहा है क्योंकि...
++ ...उसकी रोज़-रोज़ अपनी रूममेट से बहस होती है।
+- ...उसे अपनी रूममेट की बिल्ली से एलर्जी है।
+- …बीती रात उसे घर आने में काफ़ी देर हो गई थी।
+
+[LINE]
+Speaker507: I'm~not      surprised! This kitchen is very dirty.
+~           मैं~नहीं~हूँ हैरान      यह   रसोई    है बहुत गंदी  
+
+[LINE]
+Speaker175: Ugh, I~know.     
+~           ~    मुझे~पता~है 
+
+[CONTINUATION]
+> आगे क्या आएगा?
+Speaker507: And there's old    cheese         [on~that~table].
+~           और  वहाँ~है पुरानी चीज़~(का~टुकड़ा)  उस~मेज़~पर      
+- on~your~head   
+~ तुम्हारे~सिर~पर
++ on~that~table
+~ उस~मेज़~पर    
+- at~the~supermarket
+~ बाज़ार~में         
+
+[LINE]
+Speaker175: Yes. Yuck!
+~           हाँ  छी   
+
+[LINE]
+Speaker507: And there~are dirty clothes on~this~chair!
+~           और  हैं       गंदे  कपड़े    इस~कुर्सी~पर  
+
+[LINE]
+Speaker507: Wait… this    is your     shirt.
+~           रुको  यह~(तो) है तुम्हारी कमीज़  
+
+[LINE]
+Speaker175: Yes.
+~           हाँ 
+
+[ARRANGE]
+> सुनकर शब्द चुनें
+Speaker507: [(These) (are) (all)  (your)     (clothes)!]
+~             यह      हैं   सारे   तुम्हारे   कपड़े      
+
+[LINE]
+Speaker507: Is~that~your~old~cheese,~too?!     
+~           क्या~वह~पुरानी~चीज़~भी~तुम्हारी~है  
+
+[LINE]
+Speaker175: Yes! I   never    clean,     and my   roommate always complains!     
+~           हाँ  मैं कभी~नहीं सफ़ाई~करती  और  मेरी रूममेट   हमेशा  शिकायत~करती~है 
+
+[LINE]
+Speaker175: She's terrible! 
+~           वह~है बहुत~बुरी 
+
+[MULTIPLE_CHOICE]
+> ओह, अच्छा! साराह और उसकी रूममेट की किस बात को लेकर बहस होती है?
+- यह कि बी को बासी चीज़ खाना पसंद है।
++ यह कि साराह फ़्लैट गंदा करके कभी उसकी साफ़-सफ़ाई नहीं करती है।
+- यह कि साराह अपनी रूममेट के सारे कपड़े अपने समझकर पहन लेती है।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- goes <> जाती है
+- Oh, no <> अरे नहीं
+- is <> है
+- on this chair <> इस कुर्सी पर
+- terrible <> बहुत बुरा
+
