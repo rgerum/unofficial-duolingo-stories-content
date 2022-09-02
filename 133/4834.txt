@@ -1,0 +1,147 @@
+[DATA]
+fromLanguageName=샌드위치 도둑
+icon=71bc9bc5c6a5619a4f4ee9651bbb246b449bf495
+set=23|3
+
+[HEADER]
+> The~Sandwich~Thief
+~ 샌드위치~도둑           
+
+[LINE]
+> Eddy~is in~the~kitchen at~the~office where~he~works.
+~ 에디가     주방에~있다         회사의           그가~일하는         
+
+[LINE]
+> He~is talking to~his~new~colleague,~Elena.
+~ 그가    얘기하고~있다 (그의)~새~직장동료~엘레나와            
+
+[LINE]
+Speaker414: Ugh! It~happened~again!
+~           어후   또~그랬어             
+
+[LINE]
+Speaker125: What?
+~           뭐가요  
+
+[LINE]
+Speaker414: Someone stole    my lunch!
+~           누군가가    몰래~가져갔어요 제  점심을   
+
+[MULTIPLE_CHOICE]
+> 누군가가 에디의 점심을 계속 몰래 가져가고 있다.
+- 아니요, 그렇지 않아요.
++ 네, 맞아요.
+
+[LINE]
+Speaker414: This  has~happened every~day for~the~past~week!
+~           이런~일이 계속~일어났어요     매일        지난~주~동안           
+
+[LINE]
+Speaker125: Really? That's strange.
+~           정말요     그건     이상하네요   
+
+[LINE]
+Speaker414: I think Phil has~been~stealing my food.
+~           제 생각엔   필이   몰래~가져가는~것~같아요     제  음식을  
+
+[LINE]
+Speaker125: Yeah, Phil always looks~hungry.
+~           네     필은   항상     배고파~보여요      
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker414: [(He) (stole)    (my) (ham~sandwich) (yesterday)!]
+~             그가   몰래~가져갔어요   제    햄~샌드위치를        어제          
+
+[LINE]
+Speaker125: Do~you~mean your  chicken~sandwich?
+~           ~말이에요       에디~씨의 치킨~샌드위치          
+
+[LINE]
+Speaker125: You   brought a~ham~sandwich on~Tuesday.
+~           에디~씨가 가져왔잖아요  햄~샌드위치를        화요일에       
+
+[LINE]
+Speaker414: What? How~do~you~know that?
+~           뭐라고요  엘레나~씨가~어떻게~알아요  그걸   
+
+[LINE]
+Speaker125: Uh… I'm good~at~guessing!
+~           어   전   추측을~잘해요          
+
+[MULTIPLE_CHOICE]
+> 잠깐만요, 엘레나의 말은 무엇을 의미하나요?
+- 그녀는 햄 샌드위치를 잘 만든다.
+- 그녀는 미래를 예측할 수 있다.
++ 그녀는 에디가 점심으로 뭘 싸왔는지 추측할 수 있다.
+
+[LINE]
+Speaker414: Well, I have a~surprise for~Phil tomorrow.
+~           암튼    전 있어요  서프라이즈가     필을~위해    내일       
+
+[POINT_TO_PHRASE]
+> “정말 맛없는”을 뜻하는 말을 고르세요. 
+Speaker414: I'm (going~to~bring) a   (+disgusting) (fish~and~banana) (sandwich)!
+~           전    가져올~거예요         하나의   정말~맛없는       생선과~바나나를~넣은       샌드위치를     
+
+[LINE]
+Speaker125: Good plan. 
+~           좋은   계획이에요 
+
+[LINE]
+> The~next~day, Eddy sees Elena again.
+~ 다음~날          에디가  본다   엘레나를  다시    
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker414: No~one~stole [my lunch today]!
+~           아무도~안~가져갔어요   제  점심을   오늘     
+- my fancy watch
+~ 제  고급    손목~시계
+- your gym  shoes
+~ 당신의  헬스장용 신발   
++ my lunch today
+~ 제  점심    오늘   
+
+[LINE]
+Speaker125: But that's a~good~thing, right?
+~           하지만 그건     잘~된~거잖아요      그렇죠   
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker414: No,  I only brought that fish~and~banana sandwich… so  now [I~have~to~eat~it].
+~           아니요  전 단지   가져왔어요   그    생선과~바나나를~넣은     샌드위치만     그래서 이제   제가~그걸~먹어야~해요      
+- why have you eaten it
++ I have to eat it
+- I have to read it
+
+[LINE]
+Speaker125: Well, I have a~delicious~turkey~sandwich today.
+~           음     전 있어요  맛있는~칠면조~샌드위치가               오늘    
+
+[LINE]
+Speaker414: Really? You    don't~usually~bring your~lunch.
+~           정말요     엘레나~씨는 보통~안~가져오잖아요         (당신의)~점심을  
+
+[LINE]
+Speaker125: Well, I'm allergic~to~bananas.
+~           그게    전   바나나~알레르기가~있어요       
+
+[LINE]
+Speaker414: Wait… It~was you!     
+~           잠깐만요  도둑이    엘레나~씨였군요 
+
+[MULTIPLE_CHOICE]
+> 에디의 샌드위치 도둑은 누구였나요?
+- 칠면조
+- 필
++ 엘레나
+
+[MATCH]
+> 짝을 누르세요
+- That's <> 그건
+- fish and banana <> 생선과 바나나를 넣은
+- allergic to bananas <> 바나나 알레르기가 있어요
+- Eddy is <> 에디가
+- Someone <> 누군가가
+
