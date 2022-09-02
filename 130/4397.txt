@@ -1,0 +1,120 @@
+[DATA]
+fromLanguageName=Отправь имейл
+icon=583e75f447511e88fde0ed924039b785dccdd112
+set=16|2
+
+[HEADER]
+> Send    an~Email          
+~ отправь электронное~письмо
+
+[LINE]
+> Lin and her grandmother, Lucy, are~visiting Seattle. They~are in a~coffee~shop.
+~ Лин и   её  бабушка      Люси  приехали~(в) Сиэтл    они      в  кофейне       
+
+[LINE]
+Speaker509: It's~nice to~be here  again.
+~           приятно   быть  здесь снова 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker508: [When~did~you~live] in Seattle, Grandma?
+~            когда~ты~жила      в  Сиэтле   бабушка 
++ When did you live
+- When do you leave
+- Where do you love
+
+[LINE]
+Speaker509: Thirty   years ago.  
+~           тридцать лет   назад 
+
+[LINE]
+Speaker508: Let's~go     to a~museum now.   
+~           давай~пойдем в  музей    сейчас 
+
+[LINE]
+Speaker509: Sure,  after          I go    to the~restroom.
+~           давай  после~того~как я схожу в  туалет       
+
+[LINE]
+> Lucy leaves~the~table.   An~old  man     walks   into the~cafe. He sees  Lin.
+~ Люси уходит~из-за~стола  пожилой мужчина заходит в    кафе      он видит Лин 
+
+[LINE]
+Speaker307: You look      like someone~I~knew       many  years ago!  
+~           вы  выглядите как  кто-то~(кого)~я~знал много лет   назад 
+
+[MULTIPLE_CHOICE]
+> Что этот мужчина имеет в виду?
+- Он хочет дать Лин билет в музей.
++ Лин похожа на женщину, с которой он был знаком много лет назад.
+- Он спрашивает у Лин, где туалет.
+
+[LINE]
+Speaker508: Really?
+~           правда 
+
+[LINE]
+Speaker307: I loved her very~much.   
+~           я любил её  очень~сильно 
+
+[LINE]
+Speaker307: I don't know where she~is now…   
+~           я не    знаю где   она    сейчас 
+
+[LINE]
+> Lucy returns      from the~bathroom.
+~ Люси возвращается из   уборной      
+
+[LINE]
+Speaker307: Lucy! It's you!
+~           Люси  это  ты  
+
+[LINE]
+Speaker509: Do~I~know~you?
+~           мы~знакомы    
+
+[LINE]
+Speaker307: It's me, Marco!
+~           это  я   Марко 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker307: [(You) (never~responded)   (to) (my)  (letters)…]
+~             ты    так~и~не~ответила   на   мои   письма    
+
+[LINE]
+Speaker509: I never        got      your  letters. I was~sailing~around~the~world.
+~           я никогда~(не) получала твоих писем    я плавала~по~миру              
+
+[LINE]
+Speaker307: Now    you're here!  We can   finally    be   together!
+~           теперь ты     здесь  мы можем наконец-то быть вместе   
+
+[MULTIPLE_CHOICE]
+> Кажется, Марко...
+- ...должен отдать Люси много старых вещей.
+- ...очень злится на Люси.
++ ...хочет возобновить отношения с Люси.
+
+[LINE]
+Speaker509: Actually,  I'm going to a~museum with my   granddaughter now.   
+~           вообще-то  я   иду   в  музей    с    моей внучкой       сейчас 
+
+[LINE]
+Speaker509: Next~time,         send    an~email!          
+~           (в)~следующий~раз  отправь электронное~письмо 
+
+[MULTIPLE_CHOICE]
+> Почему Люси посоветовала Марко писать ей по электронной почте?
+- У неё очень крутой адрес электронной почты.
++ Она не получила от него ни одного письма.
+- Ей не нравится почтальон.
+
+[MATCH]
+> Коснитесь пар
+- ago <> назад
+- know <> знаю
+- You <> вы
+- to be <> быть
+- can <> можем
+
