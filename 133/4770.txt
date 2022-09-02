@@ -1,0 +1,154 @@
+[DATA]
+fromLanguageName=사진 찍어주세요
+icon=7dd783a29013b7951880f8d2428316358039470c
+set=7|3
+
+[HEADER]
+> Take~My~Photo
+~ 사진~찍어주세요     
+
+[LINE]
+> Zari stops  her art~teacher, Oscar, outside~the~classroom.
+~ 자리가  멈춰~세운다 그녀의 미술~선생님       오스카를   교실~밖에서                
+
+[LINE]
+Speaker418: Can~you~take my photo, please?
+~           찍어주실~수~있어요   제  사진을    부탁드려요  
+
+[LINE]
+Speaker592: Why?
+~           왜   
+
+[LINE]
+Speaker418: I  need~it for~my~social~media.
+~           저는 그게~필요해요 SNS에~올리려고           
+
+[MULTIPLE_CHOICE]
+> 자리가 오스카에게 자신의 사진을 찍어달라고 한 이유는 무엇인가요?
+- 카메라 사용법을 몰라서.
+- 사진을 좋아하는 남자애에게 보내려고.
++ SNS에 사진을 올리려고.
+
+[LINE]
+Speaker592: I'm late~for a~meeting~with~the~other~teachers, Zari.
+~           나는  ~에~늦었어   다른~교사들과의~회의                        자리   
+
+[LINE]
+Speaker418: Please!
+~           제발요    
+
+[LINE]
+Speaker592: Ugh, OK. 
+~           어후   알았어 
+
+[LINE]
+Speaker418: Thanks. Here's my phone.
+~           고맙습니다   여기~있어요 제  휴대폰   
+
+[LINE]
+Speaker592: OK. 
+~           알았어 
+
+[LINE]
+Speaker418: Wait. Do~I~look~good?
+~           잠시만요  저~예뻐~보여요       
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker592: [I~don't~know].
+~            모르겠는데         
+- I do now
++ I don't know
+- I do not
+
+[LINE]
+Speaker418: Yes. I  always look~good.
+~           네    저는 항상     예뻐~보여요    
+
+[LINE]
+Speaker592: Great.
+~           잘됐네   
+
+[LINE]
+Speaker418: Wait. Do~you~want to~take~the~photo next~to~the~door…
+~           잠시만요  원하세요        사진~찍기를            문~옆에서            
+
+[LINE]
+Speaker418: …or  in~front~of~the~door?
+~            아니면 문~앞에서요               
+
+[LINE]
+Speaker592: Next~to~the~door.
+~           문~옆에서~(찍자)       
+
+[LINE]
+Speaker418: Maybe in~front~of~the~door…
+~           아무래도  문~앞이~(낫겠어요)          
+
+[LINE]
+Speaker592: Zari!
+~           자리   
+
+[MULTIPLE_CHOICE]
+> 오스카가 짜증난 이유는 무엇인가요?
+- 자리가 문을 가로막고 있어서.
+- 자리가 새 옷으로 갈아입길 원해서.
++ 자리가 어디서 사진을 찍을지 결정을 내리지 못해서.
+
+[LINE]
+Speaker418: OK!   Take  the~photo.
+~           알겠어요  찍어주세요 사진을       
+
+[LINE]
+> Oscar takes a~photo.
+~ 오스카가  찍는다   사진을     
+
+[LINE]
+Speaker418: Thanks!
+~           감사합니다  
+
+[POINT_TO_PHRASE]
+> "잘못된"을 뜻하는 말을 고르세요.
+Speaker418: (Wait). (This~is) (+wrong).
+~            잠시만요    이건         잘못됐어요  
+
+[LINE]
+Speaker418: This~is a~photo~of~you.
+~           이것은     선생님~사진이에요      
+
+[LINE]
+Speaker418: I  want you  to~take~a~photo~of~me!
+~           저는 원해요  선생님이 제~사진을~찍어주기를           
+
+[LINE]
+Speaker418: Oh~no! Is~it already online?!      
+~           아~이런   이게    벌써      (인터넷에)~올라갔다고  
+
+[MULTIPLE_CHOICE]
+> 이런! 자리가 알고 싶은 건 무엇인가요?
++ 오스카가 사진을 이미 올렸는지.
+- 오스카가 그녀의 휴대폰으로 피자를 주문했는지.
+- 오스카가 전문 사진작가인지.
+
+[LINE]
+Speaker592: Oops.
+~           이런   
+
+[LINE]
+Speaker418: Oh… look! Fifty~people like your photo!
+~           아   보세요   오십~명이        좋아해요 선생님의 사진을   
+
+[MULTIPLE_CHOICE]
+> 오스카의 셀카에 "좋아요"를 누른 사람은 모두 몇 명인가요?
++ 오십 명
+- 아무도 없었다
+- 자리 한 명뿐
+
+[MATCH]
+> 짝을 누르세요
+- Great <> 잘됐네
+- need it <> 그게 필요해요
+- look <> 보세요
+- photo <> 사진을
+- takes <> 찍는다
+
