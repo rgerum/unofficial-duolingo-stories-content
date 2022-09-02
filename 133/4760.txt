@@ -1,0 +1,119 @@
+[DATA]
+fromLanguageName=당신은 메리가 아니잖아요
+icon=7a321a8d84d41c79b4d3c85aced0cbcdd13756b6
+set=5|1
+
+[HEADER]
+> You're Not~Mary 
+~ 당신은    메리가~아니잖아요
+
+[LINE]
+> Junior comes~home from~school.
+~ 주니어가   집에~온다      학교에서        
+
+[LINE]
+> There~is~a~woman in~the~living~room.
+~ 한~여자가~있다         거실에                
+
+[LINE]
+Speaker415: Oh! You're not~Mary!
+~           아   당신은    메리가~아니네요 
+
+[LINE]
+Speaker658: No…  I'm Penelope. I'm your dad's date…   
+~           아니야  나는  페넬로피야     난   네    아빠의   데이트~상대야 
+
+[MULTIPLE_CHOICE]
+> 이해했나요? 페넬로피는...
+- …주니어의 여동생이다.
++ …주니어 아빠의 데이트 상대이다. 
+- ...주니어의 할머니이다.
+
+[LINE]
+Speaker415: I'm Junior!
+~           저는  주니어에요  
+
+[LINE]
+Speaker658: Hi, Junior… your dad~is in~the~bathroom.
+~           안녕  주니어     너의   아빠는    화장실에~계셔         
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker658: So…  Is~Mary [here~often]?
+~           그래서  메리는      여기에~자주~있니   
+- hear of them
++ here often
+- her or them
+
+[LINE]
+Speaker415: Yes! Every~day.
+~           네    매일이요      
+
+[LINE]
+Speaker658: Every~day!?
+~           매일         
+
+[LINE]
+Speaker415: Dad~and Mary always talk in~the~morning.
+~           아빠와     메리는  항상     얘기해요 아침에            
+
+[LINE]
+Speaker658: I  want~to~know more about~Mary…
+~           나는 알고~싶어        좀~더  메리에~대해     
+
+[LINE]
+Speaker415: Well, I  like Mary but…
+~           음     저는 좋아해요 메리를  하지만 
+
+[LINE]
+Speaker415: She talks~too~much. My dad loves her!
+~           그녀는 말이~너무~많아요       우리 아빠는 사랑해요  그녀를 
+
+[LINE]
+Speaker658: He loves her?!
+~           그가 사랑한다고 그녀를  
+
+[POINT_TO_PHRASE]
+> "여자친구들"을 뜻하는 말을 고르세요.
+Speaker658: Your dad (can't~have) two  (+girlfriends)! (That's) (not~OK)!
+~           너의   아빠는  가질~수~없어     두~명의   여자친구를          그건       옳지~않아   
+
+[LINE]
+> Penelope leaves. Eddy comes~out of~the~bathroom.
+~ 페넬로피가    떠난다     에디가  나온다       화장실에서           
+
+[LINE]
+Speaker414: Where~is~Penelope?
+~           페넬로피는~어디~있어       
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker415: [(She's) (not~happy) (about~Mary).]
+~             그녀는     맘이~상했어요     메리때문에        
+
+[LINE]
+Speaker414: Oh~no!
+~           아~이런  
+
+[LINE]
+Speaker414: Wait! Penelope! Mary~is our~bird!
+~           잠깐만요  페넬로피      메리는     우리집~새에요  
+
+[LINE]
+Speaker625: Squawk! Goodbye, Penelope!
+~           꺼억      잘~가요     페넬로피     
+
+[MULTIPLE_CHOICE]
+> 이런! 페넬로피가 떠난 이유는 무엇인가요?
+- 에디가 화장실에서 나오지 않았기 때문에.
++ 메리가 새인 것을 몰랐기 때문에.
+- 거실에서 다른 여자를 보았기 때문에.
+
+[MATCH]
+> 짝을 누르세요
+- My <> 우리
+- Where is Penelope <> 페넬로피는 어디 있어
+- She <> 그녀는
+- date <> 데이트 상대야
+- girlfriends <> 여자친구를
+
