@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=웨이터 말이 맞아
+icon=c8d008581b5b813d1b4afcedbe914f70003145c6
+set=9|2
+
+[HEADER]
+> The~Waiter~Is Right
+~ 웨이터~말이        맞아   
+
+[LINE]
+> Bea~and~her~friend~Ted~are at~a~restaurant.
+~ 비와~그녀의~친구~테드가              레스토랑에~있다        
+
+[LINE]
+Speaker507: I'm very hungry.
+~           나는  진짜   배고파    
+
+[LINE]
+Speaker440: The~fish~here~is delicious!
+~           여기~생선요리가         맛있어       
+
+[MULTIPLE_CHOICE]
+> 테드는 이 레스토랑의 생선요리가 맛없다고 생각한다.
+- 네, 맞아요.
++ 아니요, 그렇지 않아요.
+
+[LINE]
+> A~waiter comes to~the~table.
+~ 웨이터가     다가온다  테이블로         
+
+[LINE]
+Speaker526: Good~evening! What would~you~like~to~eat?
+~           어서~오십시오       무엇을  드시겠습니까                
+
+[LINE]
+Speaker507: I  want~the~fish,~please.
+~           저는 생선요리~주세요              
+
+[LINE]
+Speaker440: I~want~the~fish~too!
+~           저도~생선요리~주세요         
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker526: Great! And would~you~like [something~to~drink]?
+~           좋습니다   그리고 주문하시겠습니까        마실~것도               
+- a~new~jacket
+~ 새~재킷        
++ something~to~drink
+~ 마실~것              
+- to~sleep
+~ 잠자다     
+
+[LINE]
+Speaker526: We~have    a~very~special~wine tonight.
+~           (저희는)~있습니다 아주~특별한~와인이          오늘~밤    
+
+[LINE]
+Speaker526: It's delicious~with~fish!
+~           그것은  생선요리와~잘~어울립니다       
+
+[LINE]
+Speaker526: But~it's~a~little~expensive…
+~           조금~비싸긴~하지만요                 
+
+[LINE]
+Speaker440: No~problem! We  would~like~the~wine,~please.
+~           상관없어요       우리는 그~와인으로~할게요                  
+
+[LINE]
+Speaker526: Great!
+~           좋습니다  
+
+[POINT_TO_PHRASE]
+> “가져오다”를 뜻하는 말을 고르세요.
+> (The~waiter) (+brings) (the~fish) (and) two~glasses~of~wine to~the~table.
+~  웨이터가          가져온다     생선요리       그리고  두~잔의~와인을            테이블로         
+
+[LINE]
+Speaker507: The~fish looks~great.
+~           생선요리가    맛있어~보이네     
+
+[LINE]
+Speaker440: The~wine~looks~good~too!
+~           와인도~맛있겠다                
+
+[LINE]
+> Ted accidentally spills his~glass~of~wine on~Bea's~plate.
+~ 테드가 실수로          쏟는다    그의~와인을            비의~접시에         
+
+[MULTIPLE_CHOICE]
+> 이런! 테드는 실수로…
++ …비의 저녁식사에 와인을 쏟았다.
+- …생선요리에 물을 쏟았다.
+- …웨이터에게 와인을 쏟았다.
+
+[LINE]
+Speaker440: Your fish!
+~           너의   생선요리 
+
+[LINE]
+Speaker507: Your wine!
+~           너의   와인   
+
+[LINE]
+> Bea laughs and eats the~fish.
+~ 비가  웃는다    그리고 먹는다  생선을      
+
+[LINE]
+Speaker507: The~waiter~is right!
+~           웨이터~말이        맞아    
+
+[LINE]
+Speaker507: This~wine~is delicious~with~the~fish!
+~           이~와인은        생선과~잘~어울리네              
+
+[MULTIPLE_CHOICE]
+> 비가 웨이터의 말이 맞다고 한 이유는 무엇인가요?
+- 생선요리가 너무 비쌌기 때문이다.
+- 테드가 지루한 데이트 상대였기 때문이다.
++ 생선요리와 그 위에 쏟은 와인이 잘 어울린다고 생각했기 때문이다.
+
+[MATCH]
+> 짝을 누르세요
+- wine <> 와인
+- the fish <> 생선요리
+- delicious <> 맛있어
+- We have <> 있습니다
+- What <> 무엇을
+
