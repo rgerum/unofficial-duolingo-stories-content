@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=릴리가 분리수거를 돕다
+icon=093ca1e21f226b69b5c86085e1710ffbca164b46
+set=33|1
+
+[HEADER]
+> Lily Helps with~the~Trash
+~ 릴리가  돕는다   분리수거를         
+
+[LINE]
+> Lucy~is outside~of her apartment building.
+~ 루시가     밖에~있다      그녀의 아파트       건물의      
+
+[LINE]
+> She notices that~Lily~is~moving a~carpet, a~lamp, and a~big,~expensive~TV outside.
+~ 그녀가 보게~된다   릴리가~옮기고~있는~걸        카펫~하나     조명등~하나  그리고 크고~비싼~티비~하나를        바깥으로    
+
+[LINE]
+Speaker509: Are~you~moving?
+~           이사~가니          
+
+[LINE]
+Speaker416: No. 
+~           아니요 
+
+[MULTIPLE_CHOICE]
+> 릴리는 새 아파트로 이사 중이다.
++ 아니요, 그렇지 않아요.
+- 네, 맞아요.
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker509: [(Are~you) (selling) (these~things)?]
+~             네가        파는~거니     이~물건들을         
+
+[LINE]
+Speaker416: No. 
+~           아니요 
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker509: Then why are~you putting [all~of~these~things] here?
+~           그러면  왜   너는      내놓고~있니   이~물건들을~모두            여기에  
+- a wall of his things
+- all of these rings
++ all of these things
+
+[LINE]
+Speaker416: Because my mom asked me  to~take the~trash outside.
+~           왜냐하면    저희 엄마가 시켜서요  저한테 갖다~두라고  쓰레기를      바깥에     
+
+[LINE]
+Speaker509: I don't~think this~is what~she~means.
+~           난 아닌~것~같아     이게      너희~엄마가~의미한~것이  
+
+[LINE]
+Speaker509: That carpet~is new. 
+~           저    카펫은       새~거야 
+
+[MULTIPLE_CHOICE]
+> 루시가 카펫은 쓰레기가 아니라 생각하는 이유는 무엇인가요?
+- 예쁘기 때문이다.
++ 새 것이기 때문이다.
+- 밖에 있기 때문이다.
+
+[POINT_TO_PHRASE]
+> “냄새가 나다”를 뜻하는 말을 고르세요.
+Speaker416: (That) (carpet) (+smells) like~a~dog. And we  don't~have (a~dog).
+~            저      카펫은       냄새가~나요  개~털~같은      그런데 우리는 키우지~않아요     개를     
+
+[LINE]
+Speaker509: Well, yes, it does~smell~awful. And that lamp?
+~           음     그래   그건 고약한~냄새가~나긴~하네     그럼  저    조명등은 
+
+[LINE]
+Speaker416: I'd~prefer~to~sit in~the~dark.
+~           전~앉아~있는~게~더~좋아요   어둠~속에       
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker509: But that TV~is definitely not~trash. It [looks~expensive].
+~           하지만 저    티비는   확실히        쓰레기가~아니야   그건  비싸~보여            
+- looks at pencils
+- took the offensive
++ looks expensive
+
+[LINE]
+Speaker416: Do~you~watch~TV? Every show~is  about     money, murder, or  dessert.
+~           할머니는~티비~보세요      모든    티비~프로그램이 ~에~관한~거예요 돈      살인      아니면 디저트     
+
+[LINE]
+Speaker509: Hmm. I  agree, but your mom~is going~to~be~mad when~she~sees~this.
+~           음    나도 동감이야   하지만 네    엄마가    화를~낼~거야         이걸~보면              
+
+[LINE]
+Speaker416: Yes, but she will~never~ask me  to~help with~the~trash again.
+~           네    하지만 엄마가 절대~시키지~않을~거예요  저한테 도와달라고   분리수거를          다시는   
+
+[MULTIPLE_CHOICE]
+> 릴리의 엄마가 다시는 그녀에게 분리수거를 부탁하지 않을 이유는 무엇인가요?
++ 릴리가 쓰레기가 아닌 물건을 밖에 내다놓고 있기 때문에.
+- 루시가 이웃들의 쓰레기를 몰래 가져가기 때문에.
+- 릴리네 집엔 더 이상 쓰레기가 없기 때문에.
+
+[MATCH]
+> 짝을 누르세요
+- But <> 하지만
+- Because <> 왜냐하면
+- agree <> 동감이야
+- yes <> 그래
+- Well <> 음
+
