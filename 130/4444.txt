@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Ужин с директором
+icon=48ff56bf472c683d952ff24420066dbef5e7ac9f
+set=28|1
+
+[HEADER]
+> Dinner with the~CEO   
+~ ужин   с    директором
+
+[LINE]
+> Bea is~using   the~photocopier at work.   Her boss,      Craig, comes    to~talk    to~her.
+~ Би  пользуется ксероксом       на работе  её  начальник  Крэг   подходит поговорить с~ней  
+
+[LINE]
+Speaker100: Bea, I'm meeting       our   company's~CEO       for~dinner tonight.        
+~           Би   я   встречусь~(с) нашим директором~компании за~ужином  сегодня~вечером 
+
+[LINE]
+Speaker100: Can~you   come?   You couldn't come   last~time.      
+~           ты~можешь прийти  ты  не~могла прийти (в)~прошлый~раз 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker507: I [really~want~to~come], but I can't.  
+~           я  очень~хочу~прийти     но  я не~могу 
++ really want to come
+- will be wanting some
+- really want to run
+
+[LINE]
+Speaker100: OK,     but she really wants to~meet~you…          
+~           хорошо  но  она очень  хочет познакомиться~с~тобой 
+
+[LINE]
+Speaker507: I know. I'm~sorry.
+~           я знаю  прости    
+
+[LINE]
+> Later, Craig is~eating dinner with the~CEO,    Paula.
+~ позже  Крэг  ест       ужин   с    директором  Полой 
+
+[ARRANGE]
+> Наберите услышанное
+> [(Bea) (walks~past)    (their) (table).]  
+~   Би    проходит~мимо   их      столика   
+
+[LINE]
+Speaker100: Bea, you're here! 
+~           Би   ты     здесь 
+
+[LINE]
+Speaker507: Oh… hi,     Craig! You chose…   this restaurant?
+~           о   привет  Крэг   вы  выбрали  этот ресторан   
+
+[LINE]
+Speaker100: I'm so  happy that you came   to the~meeting. This~is Paula, our CEO!     
+~           я   так рад   что  ты  пришла на встречу      это     Пола   наш директор 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker507: Um… Actually,  I'm~not~here        [to~meet             with you]. 
+~           гм  вообще-то  я~здесь~не~для~того  (чтобы)~встретиться с    вами  
++ to~meet             with you 
+~ (чтобы)~встретиться с    вами
+- until tomorrow
+~ до    завтра  
+- as~a~musician   
+~ в~роли~музыканта
+
+[LINE]
+Speaker100: What?!
+~           что   
+
+[LINE]
+Speaker507: I work    here  every  night… as~a~waitress.
+~           я работаю здесь каждый вечер  официанткой   
+
+[MULTIPLE_CHOICE]
+> Стоп… Почему Би тоже в ресторане?
+- Она пришла сюда на свидание.
+- Она хотела встретиться с директором.
++ Она работает здесь официанткой.
+
+[POINT_TO_PHRASE]
+> Выберите вариант «стажёр».
+Speaker988: (This~is) (+the~intern) (you~wanted)           (me~to~meet)?             
+~            это        стажёр       (с~которой)~ты~хотел   (чтобы)~я~познакомилась  
+
+[LINE]
+Speaker100: Yes, but I didn't know…
+~           да   но  я не     знал 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker988: I~also~had       two jobs   [when~I~was~younger]! 
+~           у~меня~тоже~было две работы  когда~я~была~моложе  
+- then I was a young girl
++ when I was younger
+- when I was under
+
+[LINE]
+Speaker988: Bea, I~can~see that you're a~hard       worker.   I want to~hear  all your ideas for~our~company!         
+~           Би   я~вижу    что  ты     трудолюбивый работник  я хочу услышать все твои идеи  по~поводу~нашей~компании 
+
+[LINE]
+Speaker507: Wow, thanks! 
+~           ого  спасибо 
+
+[LINE]
+Speaker507: But first,   I should give you some~bread, or  my  other  boss      will~be~angry.  
+~           но  сначала  я должна дать вам хлеб        или мой другой начальник будет~сердиться 
+
+[MULTIPLE_CHOICE]
+> Почему директор оценила тот факт, что у Би две работы?
+- Она хочет уволить Би.
+- Она думает, что Би принесёт ей ещё хлеба.
++ Это значит, что Би трудолюбива.
+
+[MATCH]
+> Коснитесь пар
+- last time <> прошлый раз
+- my <> мой
+- Craig <> Крэг
+- company's CEO <> директором компании
+- to meet <> встретиться
+
