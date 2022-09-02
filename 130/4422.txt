@@ -1,0 +1,138 @@
+[DATA]
+fromLanguageName=Свадебная история
+icon=1af589ac8182b2da5175dd9c2dc973d1089ef4f2
+set=22|3
+
+[HEADER]
+> A~Wedding~Story  
+~ свадебная~история
+
+[LINE]
+> Lucy and Lin are~at         a~family~wedding.     
+~ Люси и   Лин (находятся)~на свадьбе~родственников 
+
+[LINE]
+Speaker509: This~is a~beautiful wedding!
+~           это     красивая    свадьба 
+
+[LINE]
+Speaker508: I know! This~hotel~is~amazing!    
+~           я знаю  эта~гостиница~потрясающая 
+
+[MULTIPLE_CHOICE]
+> Лин и Люси впечатлены свадьбой.
++ Да, это правда.
+- Нет, это неправда.
+
+[LINE]
+Speaker509: And the~food is~delicious! 
+~           и   еда      очень~вкусная 
+
+[LINE]
+Speaker508: Are~these gold    forks?
+~           это       золотые вилки 
+
+[LINE]
+Speaker509: Yes!
+~           да  
+
+[LINE]
+Speaker508: This wedding was~probably  very  expensive.
+~           эта  свадьба наверное~была очень дорогой   
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker509: How~much do~you~think [it~cost]?   
+~           сколько  думаешь       она~стоила  
++ it cost
+- it calls
+- it caught
+
+[LINE]
+Speaker508: A~lot.
+~           много 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker509: Your cousin, Paul, hates     spending [money]! 
+~           твой кузен   Пол   ненавидит тратить   деньги  
+- forks
+~ вилки
+- time 
+~ время
++ money 
+~ деньги
+
+[LINE]
+Speaker509: I'm surprised that the~wedding is~so~nice.    
+~           я   удивлена  что  свадьба     такая~чудесная 
+
+[LINE]
+Speaker508: I'm surprised that the~bride is~so~beautiful.
+~           я   удивлена  что  невеста   такая~красивая  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker508: I just       talked~to       the~bride. Did~you~know   [she's~a~doctor]?
+~           я только~что разговаривала~с невестой   ты~знала~(что)  она~врач        
+- she said talk to her
++ she's a doctor
+- he's a dog too
+
+[LINE]
+Speaker509: How~did~Paul meet     such  an~amazing  woman?  
+~           как~Пол      встретил такую потрясающую женщину 
+
+[LINE]
+Speaker508: I don't~know! He isn't~good~enough  for her.
+~           я не~знаю     он недостаточно~хорош для неё 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker509: [(He) (looks~like) (a~potato).]
+~             он   похож~на     картошку   
+
+[LINE]
+Speaker508: And he's lazy.   
+~           и   он   ленивый 
+
+[LINE]
+Speaker509: But it's~nice that he invited   us! 
+~           но  здорово   что  он пригласил нас 
+
+[LINE]
+Speaker508: Be~quiet! He's coming here.
+~           помолчи   он   идет   сюда 
+
+[MULTIPLE_CHOICE]
+> Лин хочет, чтобы Люси…
+- …пошла к врачу.
+- …съела картофель.
++ …замолчала.
+
+[LINE]
+Speaker509: Wait.   That's not Paul.
+~           погоди  это    не  Пол  
+
+[LINE]
+Speaker508: You're right! I~think we're~at~the~wrong hotel!     Let's~go.
+~           ты     права  думаю   мы~не~в~той        гостинице  идем     
+
+[LINE]
+Speaker509: No,  let's stay      here.  It's~time~for dessert!
+~           нет  давай останемся здесь  время~(есть)  десерт  
+
+[MULTIPLE_CHOICE]
+> Ой! Лин и Люси...
++ ...по ошибке попали на чужую свадьбу.
+- …объелись картофеля.
+- ...заснули на столе с десертами.
+
+[MATCH]
+> Коснитесь пар
+- Let's go <> идем
+- we're at the wrong <> мы не в той
+- How much <> сколько
+- Lucy <> Люси
+- forks <> вилки
+
