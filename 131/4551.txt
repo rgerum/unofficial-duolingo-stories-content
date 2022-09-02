@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=Сюрприз
+icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
+set=1|4
+
+[HEADER]
+> Surprise! 
+~ сюрприз   
+
+[LINE]
+> Bruce is~in~a~restaurant with his   mother. 
+~ Брюс  у~ресторані        із   своєю матір'ю 
+
+[LINE]
+Speaker2276: A~table for three, please.    
+~            стіл    на  трьох  будь~ласка 
+
+[LINE]
+Speaker385: Three? You, me, and…?
+~           трьох  ти   я   і    
+
+[LINE]
+Speaker2276: A~friend.
+~            подруга  
+
+[MULTIPLE_CHOICE]
+> Хто ще має прийти?
++ Подруга матері Брюса.
+- Брат Брюса.
+- Батько Брюса.
+
+[LINE]
+Speaker385: Oh… I~need…       
+~           о   мені~потрібно 
+
+[LINE]
+Speaker2276: I~have a~surprise!
+~            у~мене сюрприз    
+
+[LINE]
+Speaker385: I… I~have a~surprise too.
+~           я  у~мене сюрприз    теж 
+
+[ARRANGE]
+> Що ви чуєте?
+Speaker2276: [(My)  (friend)  (is~very) (nice) ].
+~              моя   подруга   дуже      мила    
+
+[LINE]
+Speaker2276: She's a~business~student.     
+~            вона  студентка~школи~бізнесу 
+
+[LINE]
+Speaker2276: Her~name~is Sonia.
+~            її~звуть    Соня  
+
+[LINE]
+Speaker385: Mom,  I~need…       
+~           мамо  мені~потрібно 
+
+[LINE]
+Speaker2276: And she's beautiful! Perfect  for my   son! 
+~            і   вона  красива~   ідеальна для мого сина 
+
+[MULTIPLE_CHOICE]
+> Мама Брюса хоче…
+- … щоб Брюс пішов з ресторану.
+- … завести нове знайомство.
++ … щоб Брюс сходив на побачення з її подругою Сонею.
+
+[LINE]
+> A~woman enters   the~restaurant.
+~ жінка   заходить (у)~ресторан   
+
+[LINE]
+Speaker125: Hi,     honey!  
+~           привіт  коханий 
+
+[LINE]
+Speaker2276: Honey?  
+~            коханий 
+
+[MULTIPLE_CHOICE]
+> Чому мати Брюса здивована?
+- Брюс пішов із ресторану.
++ Вона не знала, що Брюс у стосунках.
+- Їхнє замовлення принесли дуже швидко.
+
+[LINE]
+Speaker385: Hi,     Carla. Mom… 
+~           привіт  Карла  мамо 
+
+[LINE]
+Speaker125: Bruce, is~this your mother?
+~           Брюсе  це      твоя матір  
+
+[LINE]
+Speaker2276: Bruce?!
+~            Брюсе  
+
+[SELECT_PHRASE]
+> Виберіть пропущену фразу
+Speaker125: [How~are~you]?
+~            як~справи    
++ How are you
+- How aren't you
+- How art your
+
+[LINE]
+Speaker125: I'm Carla! Bruce's wife.   
+~           я   Карла  Брюсова дружина 
+
+[LINE]
+Speaker2276: Wife?!   
+~            дружина  
+
+[LINE]
+Speaker385: Surprise!
+~           сюрприз  
+
+[MULTIPLE_CHOICE]
+> У чому сюрприз Брюса?
+- Він вирішив ніколи не одружуватися.
+- Він хоче одружитися з подругою своєї матері.
++ Він одружений з Карлою.
+
+[MATCH]
+> З’єднайте пари
+- me <> я
+- his <> своєю
+- Sonia <> Соня
+- your <> твоя
+- My <> моя
+
