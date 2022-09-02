@@ -1,0 +1,119 @@
+[DATA]
+fromLanguageName=Красная куртка
+icon=f2020f08dc6ab976902d63ac29d5779e5959d06a
+set=1|4
+
+[HEADER]
+> The~Red Jacket
+~ красная куртка
+
+[LINE]
+> Lily is~in~a~store with her   friend,   Zari.
+~ Лили в~магазине    со   своей подругой  Зари 
+
+[LINE]
+Speaker416: This store   is~expensive.
+~           этот магазин дорогой      
+
+[LINE]
+Speaker418: Yes…
+~           да  
+
+[LINE]
+Speaker418: Wow!  
+~           ух~ты 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker418: This [red~jacket]     is~perfect!
+~           эта   красная~куртка  идеальная  
++ red jacket
+- recheck it
+- wet jacket
+
+[LINE]
+Speaker416: Umm, Zari?
+~           э-э  Зари 
+
+[LINE]
+Speaker418: I~like       this color a~lot!
+~           мне~нравится этот цвет  очень 
+
+[LINE]
+Speaker416: Zari?
+~           Зари 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «купить».
+Speaker418: I (want) (+to~buy) (this) (jacket)!
+~           я  хочу    купить   эту    куртку  
+
+[LINE]
+Speaker416: Zari!
+~           Зари 
+
+[LINE]
+Speaker418: What?
+~           что  
+
+[LINE]
+Speaker416: The~jacket~is one~hundred dollars. 
+~           куртка~стоит  сто         долларов 
+
+[MULTIPLE_CHOICE]
+> Сколько стоит куртка?
+- Миллион долларов.
++ Сто долларов.
+- Пять долларов.
+
+[LINE]
+Speaker416: It~is very  expensive.
+~           это   очень дорого    
+
+[LINE]
+Speaker418: What?!
+~           что   
+
+[LINE]
+Speaker416: Zari you~do~not~need a~new jacket.
+~           Зари тебе~не~нужна   новая куртка 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «день рождения».
+> (But) (Lily), (today~is) my  (+birthday)!     
+~  но    Лили    сегодня   мой   день~рождения  
+
+[LINE]
+Speaker416: Yes,~it~is…
+~           да         
+
+[LINE]
+Speaker418: And you~are my  best   friend! 
+~           и   ты      моя лучшая подруга 
+
+[LINE]
+Speaker416: Yes~I~am…   
+~           да,~это~так 
+
+[LINE]
+Speaker418: And you can    buy—   
+~           и   ты  можешь купить 
+
+[LINE]
+Speaker416: A~cheap jacket for you! 
+~           дешёвую куртку для тебя 
+
+[MULTIPLE_CHOICE]
+> Лили подарит Зари на день рождения...
+- ...дорогую красную куртку.
+- ...пачку денег.
++ ...дешёвую куртку.
+
+[MATCH]
+> Коснитесь пар
+- for <> для
+- red jacket <> красная куртка
+- is perfect <> идеальная
+- you <> тебя
+- can <> можешь
+
