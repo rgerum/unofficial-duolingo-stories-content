@@ -1,0 +1,157 @@
+[DATA]
+fromLanguageName=Резюме Лин
+icon=8e5e77d262103500eeca12f2cd193e7766c3285b
+set=50|1
+
+[HEADER]
+> Lin's~Resume
+~ резюме~Лин  
+
+[LINE]
+> Lin is~meeting      a~woman  at a~cafe for  a~job~interview.         She sits~down and gives the~woman her  resume.
+~ Лин встречается~(с) женщиной в  кафе   для~ собеседования~на~работу  она садится   и   даёт  женщине   своё резюме 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker338: Thank~you [for~meeting~me],          Lin. You~have a~very interesting resume.
+~           спасибо    что~встретились~со~мной   Лин  у~вас    очень  интересное  резюме 
+- for meeting men
++ for meeting me
+- for meat on me
+
+[LINE]
+Speaker338: It~says        that your  first  job     was~studying  whales in Antarctica.
+~           в~нём~написано что  вашей первой работой было~изучение китов  в  Антарктиде 
+
+[LINE]
+Speaker508: Yes, I wrote    that on my   resume.
+~           да   я написала это  в  моём резюме 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker338: [(What~kind) (of~whales) (did~you~study)?]
+~             каких       китов       вы~изучали      
+
+[LINE]
+Speaker508: There's    more   than one  kind of~whale? Uh…  I studied… the~biggest   whales.
+~           существует больше чем  один вид  кита      э-э  я изучала  самых~больших китов  
+
+[LINE]
+Speaker338: OK…     And then  your  next      job     was…  working in a~morgue in Paris? 
+~           хорошо  и   потом вашей следующей работой была  работа  в  морге    в  Париже 
+
+[LINE]
+Speaker508: Doesn't~that~sound~like a~cool job?    I've~wanted to~do~that      since          I was  a~little  girl.    
+~           вам~не~кажется,~что~это крутая работа  я~хотела    этим~заниматься с~тех~пор,~как я была маленькой девочкой 
+
+[LINE]
+Speaker338: Really?
+~           правда 
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker338: You~seem…    very  young.   Do~you~need    years~of~training [to~work          in a~morgue]?
+~           вы~кажетесь  очень молодой  разве~не~нужны годы~обучения      (чтобы)~работать в  морге     
++ to~work          in a~morgue
+~ (чтобы)~работать в  морге   
+- to~go           to Paris
+~ (чтобы)~поехать в  Париж
+- to~be        a~little  girl    
+~ (чтобы)~быть маленькой девочкой
+
+[LINE]
+Speaker508: I forgot. I've~had    a~lot of~interesting jobs. 
+~           я забыла  у~меня~было много интересных     работ 
+
+[LINE]
+Speaker338: Next,  you wrote    on your  resume that you were a~firefighter in San~Diego…
+~           затем  вы  написали в  своём резюме что  вы  были пожарной      в  Сан-Диего 
+
+[LINE]
+Speaker508: Yes, I~did!     
+~           да   так~и~есть 
+
+[MULTIPLE_CHOICE]
+> Lin's~resume   says     that…
+~ (в)~резюме~Лин написано что  
+- …she's~afraid of~whales and fire.
+~  она~боится   китов     и   огня 
+- …she's~taking~classes  at a~college in the~city.
+~  она~проходит~обучение в  колледже  в  городе   
++ …she~has~had many  different jobs. 
+~  у~неё~было  много разных    работ 
+
+[LINE]
+Speaker338: I~have      a~brother~who~is~a~firefighter  there. Sam Watkins. Do~you~know~him?
+~           у~меня~есть брат,~который~работает~пожарным там    Сэм Уоткинс  вы~его~знаете   
+
+[LINE]
+Speaker508: Of~course, I know Sam!  He's great!   
+~           конечно    я знаю Сэма  он   чудесный 
+
+[LINE]
+Speaker338: Lin, I lied.    I~don't~have a~brother.
+~           Лин  я соврала  у~меня~нет   брата     
+
+[MULTIPLE_CHOICE]
+> Why~did the~woman lie~to~Lin  about~having~a~brother?     
+~ почему  женщина   соврала~Лин про~то,~что~у~неё~есть~брат 
++ She knows that Lin is~lying about her  jobs.  
+~ она знает что  Лин врёт     про   свои работы 
+- She is~jealous of~Lin's~experience.
+~ она завидует   опыту~Лин           
+- She wants to~be~friends with Lin.
+~ она хочет дружить       с    Лин 
+
+[LINE]
+Speaker508: Oops.
+~           ой   
+
+[LINE]
+Speaker338: So…  are~any~of~the~jobs        on your  resume real?     
+~           так  какие-нибудь~из~этих~работ в  вашем резюме настоящие 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker508: No.  All~of~my real      jobs   [were~pretty~boring].    
+~           нет  все~мои   настоящие работы  были~довольно~скучными  
+- they're pretty boring
+- were a pretty morning
++ were pretty boring
+
+[LINE]
+Speaker338: Well,  I'm~sorry. I~can't   give you this job.   
+~           что~ж  мне~жаль   я~не~могу дать вам эту  работу 
+
+[LINE]
+Speaker508: Yeah, I understand…
+~           да    я понимаю    
+
+[ARRANGE]
+> Наберите услышанное
+Speaker338: [(But) (I~do~have)   (a~suggestion).]
+~             но    у~меня~есть   рекомендация   
+
+[LINE]
+Speaker338: Have~you~ever~thought about a~career in creative~writing?       
+~           вы~никогда~не~думали  о     карьере  в  креативном~писательстве 
+
+[MULTIPLE_CHOICE]
+> Why~does~the~woman ask        if~Lin~has~thought about creative~writing?       
+~ почему~женщина     спрашивает думала~ли~Лин      о     креативном~писательстве 
+- She is~hiring Lin to~be~a~writer.           
+~ она нанимает  Лин (на~работу)~писательницей 
+- She~likes   to~read stories about whales.
+~ ей~нравится читать  истории про   китов  
++ Lin's~resume~has many~creative~lies~in~it.
+~ в~резюме~Лин     много~креативного~вранья 
+
+[MATCH]
+> Коснитесь пар
+- I'm sorry <> мне жаль
+- Paris <> Париже
+- resume <> резюме
+- But <> но
+- a cafe <> кафе
+
