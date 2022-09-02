@@ -1,0 +1,95 @@
+[DATA]
+fromLanguageName=Обезьяны
+icon=c29e4533eca0186f83adafac9383fef2ed3aee56
+set=9|4
+
+[HEADER]
+> The~Monkeys
+~ обезьяны   
+
+[LINE]
+> Eddy and Junior  are~at~the~zoo.
+~ Эдди и   Джуниор в~зоопарке     
+
+[LINE]
+> They~are~looking at the~lions.
+~ они~смотрят      на львов     
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker415: Dad,  [can~we~see]       the~monkeys now?   
+~           папа   мы~можем~увидеть  обезьян     сейчас 
++ can we see
+- can she see
+- can we be
+
+[LINE]
+Speaker414: But you never      want   to~see the~monkeys.
+~           но  ты  никогда~не хочешь видеть обезьян     
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker415: I~really~like      [the~monkeys~now]!
+~           мне~очень~нравятся  обезьяны~сейчас  
++ the~monkeys~now
+~ обезьяны~сейчас
+- your~new~shirt    
+~ твоя~новая~рубашка
+- potatoes 
+~ картофель
+
+[LINE]
+Speaker415: Can~we~see       them?
+~           мы~можем~увидеть их   
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker414: Junior,  the~monkeys~are [on~the~other~side] of~the~zoo!
+~           Джуниор  обезьяны         на~другой~стороне  зоопарка   
+- and the mothers lied
+- on the others’ ride
++ on the other side
+
+[LINE]
+Speaker415: We can   run.      You love   exercise.             
+~           мы можем побежать  ты  любишь физические~упражнения 
+
+[LINE]
+Speaker414: Hmm. OK!     Yes, I~love~to~run! 
+~           хм   хорошо  да   я~люблю~бегать 
+
+[ARRANGE]
+> Наберите услышанное
+> [(Junior)  (and) (Eddy) (start~running).]  
+~   Джуниор   и     Эдди   начинают~бежать   
+
+[LINE]
+Speaker415: Can~you run    faster,  Dad? 
+~           можешь  бежать быстрее  папа 
+
+[LINE]
+Speaker414: Wait.    Junior,  why~are~we~running? You hate~running!     
+~           подожди  Джуниор  почему~мы~бежим     ты  ненавидишь~бегать 
+
+[LINE]
+Speaker415: I hate~running,    but I love  ice~cream!
+~           я ненавижу~бегать  но  я люблю мороженое 
+
+[LINE]
+Speaker415: And there's  an~ice~cream~shop next~to the~monkeys!
+~           и   там~есть ларёк~с~мороженым возле   обезьян     
+
+[MULTIPLE_CHOICE]
+> Почему Джуниор бежит к обезьянам?
+- Он хочет быть в хорошей форме.
+- Он тренируется, чтобы обогнать обезьяну.
++ Он хочет купить мороженое.
+
+[MATCH]
+> Коснитесь пар
+- and <> и
+- faster <> быстрее
+- to see <> видеть
+- ice cream <> мороженое
+- We <> мы
+
