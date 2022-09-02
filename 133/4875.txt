@@ -1,0 +1,178 @@
+[DATA]
+fromLanguageName=새 청바지
+icon=f626ff0ffb04c43f1e356ecce52d30f0b07af892
+set=33|4
+
+[HEADER]
+> New Jeans
+~ 새   청바지  
+
+[LINE]
+> Eddy~and~Junior~are shopping at~the~store where~Lily~works.
+~ 에디와~주니어가            쇼핑~중이다   가게에서         릴리가~일하는          
+
+[LINE]
+Speaker415: Please don't~make~me try~on clothes, Dad.
+~           제발     저한테~시키지~마세요   입어보라고  옷을       아빠  
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker414: But you need new clothes. Just [put~on~these~jeans].
+~           하지만 넌   필요해  새   옷이       그냥    이~청바지를~입어~봐         
++ put on these jeans
+- putt on these greens
+- put in these beans
+
+[LINE]
+Speaker415: Fine.
+~           알겠어요 
+
+[LINE]
+> Junior tries~on the~pair~of~jeans and shows Eddy.
+~ 주니어가   입어본다     청바지를              그리고 보여준다  에디에게 
+
+[LINE]
+Speaker415: I hate these jeans.
+~           전 싫어요  이     청바지가  
+
+[LINE]
+Speaker414: Why? Let's~ask Lily what~she~thinks. They~look~great! Right, Lily?
+~           왜    물어보자      릴리한테 어떻게~생각하는지        잘~어울려            그치     릴리   
+
+[LINE]
+Speaker416: They're~OK.
+~           그냥~그래요     
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker415: [(But) (I) (like) (my~old~pants).]
+~             하지만   전   좋아요    헌~바지가          
+
+[LINE]
+Speaker414: Your old pants~are too small. You're growing~up so fast!
+~           네    헌   바지는       너무  작아     네가     크고~있어      아주 빨리   
+
+[LINE]
+Speaker415: Well, maybe I don't~want to~grow~up! I like being~a~kid.
+~           음     어쩌면   전 원치~않아요     어른이~되는~걸    전 좋아요  아이인~게       
+
+[LINE]
+Speaker416: He's   right. Growing~up~is terrible.
+~           주니어~말이 맞아요    어른이~되는~건      좋지~않아요   
+
+[MULTIPLE_CHOICE]
+> Hmm… who does~Lily~think is~right?
+~ 음    누가  릴리의~생각에는        맞나요      
++ Junior
+~ 주니어   
+- the~pants
+~ 바지       
+- Eddy
+~ 에디  
+
+[LINE]
+Speaker416: You have~to~get a~job and work    for~people you~don't~like.
+~           네가  구해야~돼       직장을   그리고 일도~해야~돼 사람들을~위해    네가~싫어하는        
+
+[LINE]
+> Lily's boss walks~by and tells her  that~she~needs to~speak~to~her~alone.
+~ 릴리의    사장님이 걸어~지나간다  그리고 말한다   그녀에게 ~해야~한다고        단둘이~얘기하다              
+
+[POINT_TO_PHRASE]
+> Choose the~option~that~means "당신을 해고하다."
+~ 고르세요   ~를~뜻하는~말을              ~   ~     
+Speaker341: Lily, you~haven't~sold (anything) this (month). If you~don't~sell (something) today, then I'll~have~to (+fire~you).
+~           릴리~씨  팔지~못했어요           아무것도      이번    달에      만약 팔지~못하면          뭔가를        오늘     그러면  ~해야~돼요         당신을~해고하다  
+
+[LINE]
+> Lily walks~back to~Junior~and~Eddy.
+~ 릴리가  다시~걸어간다    주니어와~에디에게로         
+
+[LINE]
+Speaker416: Did~I~say growing~up~is terrible? I~was wrong. Growing~up~is great.
+~           내가~말했나    어른이~되는~게      좋지~않다고    내가    틀렸어    어른이~되는~건      좋아    
+
+[MULTIPLE_CHOICE]
+> Why did~Lily~just~tell Junior that growing~up~is great?
+~ 왜   릴리가~방금~말했나요        주니어에게  ~라고  어른이~되는~건      좋다    
++ She needs~to~sell him some~clothes.
+~ 그녀는 팔아야~한다        그에게 옷을           
+- She doesn't~have~to take~math~tests anymore.
+~ 그녀는 ~하지~않아도~된다      수학~시험을~보다       더~이상    
+- She wants him to~get~a~job at~the~store.
+~ 그녀는 원한다   그가  일자리를~구하길     가게에서         
+
+[LINE]
+Speaker415: Why?
+~           왜요  
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker416: You'll~be~cool and you~can~hang~out with [cool~people].
+~           넌~멋있어질~거야      그리고 어울릴~수~있어         ~과    멋진~사람들       
++ cool people
+- cool beetles
+- pool people
+
+[LINE]
+Speaker415: Can~I~hang~out with~you when~I~grow~up?
+~           제가~어울릴~수~있어요   누나랑      어른이~되면         
+
+[LINE]
+Speaker416: Maybe.
+~           아마도   
+
+[CONTINUATION]
+> What comes next?
+~ 무엇이  오나요   다음에  
+Speaker415: Wow, I~can't~wait [to~grow~up]!
+~           우와   기대~돼요         어른이~되는~게    
+- until~tomorrow
+~ 내일까지          
++ to~grow~up
+~ 어른이~되다    
+- to~eat dinner
+~ 먹다     저녁을   
+
+[LINE]
+Speaker414: So… Does~that~mean you want the~new~jeans?
+~           그럼  ~라는~거니         네가  원한다  새~청바지를        
+
+[LINE]
+Speaker415: Yes! And I~want that T-shirt too. And that jacket!
+~           네    그리고 원해요    저    티셔츠     역시   그리고 저    재킷도요   
+
+[LINE]
+Speaker414: Of~course! What's~the~total, Lily?
+~           물론이지       전부~얼마야            릴리   
+
+[LINE]
+Speaker416: $150.    
+~           백~오십~달러요 
+
+[LINE]
+Speaker414: What?!
+~           뭐     
+
+[LINE]
+Speaker414: I don't~want you to~grow~up, Junior. It's too expensive!
+~           난 원치~않아      네가  크는~걸        주니어     그건   너무  비싸        
+
+[MULTIPLE_CHOICE]
+> Why did~Junior~decide he~wants new clothes?
+~ 왜   주니어는~결정했나요        갖고~싶다고   새   옷을      
++ He's excited~to~grow~up~and hang~out with~Lily.
+~ 그는   얼른~자라서                 어울리고~싶다  릴리와       
+- He wants~to~look like his favorite movie star.
+~ 그는 보이고~싶다        ~처럼  그가  제일~좋아하는  영화    배우   
+- He's allergic to~his~old~pants.
+~ 그는   알레르기가~있다 그의~헌~바지에         
+
+[MATCH]
+> 짝을 누르세요
+- Right <> 그치
+- Can I hang out <> 제가 어울릴 수 있어요
+- my old pants <> 헌 바지가
+- these <> 이
+- They're OK <> 그냥 그래요
+
