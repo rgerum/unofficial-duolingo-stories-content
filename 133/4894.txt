@@ -1,0 +1,183 @@
+[DATA]
+fromLanguageName=파이 축제
+icon=0a98539b616a4908c9715c94db4a67fec58e6b40
+set=38|3
+
+[HEADER]
+> The~Pie~Festival
+~ 파이~축제           
+
+[LINE]
+> Lucy~and~Vikram~are at~the~pie~festival. They each made a~pie for~a~contest.
+~ 루시와~비크람이            파이~축제에~있다            그들이  각자   만들었다 파이를   경연을~위해서       
+
+[LINE]
+> They see Lin at~the~judge's~table.
+~ 그들이  본다  린을  심사위원~테이블에서           
+
+[LINE]
+Speaker509: Lin, I can't~wait for~you to~taste my strawberry pie. Then you can~tell   everyone that it~is the~best!
+~           린    난 기대~돼       네가      맛보는~게    내  딸기         파이를  그러면  네가  말할~수~있을~거야 모두에게     ~라고  내~파이가 최고다      
+
+[LINE]
+Speaker593: No, my apple pie~is the~best!
+~           아니  내  사과    파이가    최고야      
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker508: [I'll~taste~both~pies] and decide!
+~            제가~두~파이~모두~맛볼게요       그리고 결정할게요  
+- I'll taste those fries
++ I'll taste both pies
+- I'll text both guys
+
+[LINE]
+Speaker593: Try  mine first. I've~been~working on~my~recipes for~years. I'm the~best baker in~town.
+~           먹어~봐 내~걸  먼저     노력하고~개발했어         내~레시피를        수~년동안      내가  최고의      제빵사야  우리~동네에서 
+
+[CONTINUATION]
+> What comes next?
+~ 무엇이  오나요   다음에  
+Speaker509: You're wrong! Everyone knows that grandmothers make [the~best pies].
+~           당신은    틀렸어요   모두가      알아요   ~란~걸 할머니들이        만든다   최고의      파이를   
++ the~best pies
+~ 최고의      파이  
+- beautiful art  
+~ 아름다운      예술~작품
+- carrot salads
+~ 당근     샐러드   
+
+[LINE]
+> Lin tries a~slice~of Vikram's pie.
+~ 린이  먹어~본다 한~조각의      비크람의     파이를 
+
+[LINE]
+Speaker508: Wow… you're right. It's perfect.
+~           우와   아저씨~말이 맞아요    이건   완벽해요    
+
+[LINE]
+Speaker509: Now try  mine!
+~           이제  먹어~봐 내~걸  
+
+[LINE]
+> Lin eats a~slice~of Lucy's pie.
+~ 린이  먹는다  한~조각의      루시의    파이를 
+
+[LINE]
+Speaker508: Yours~is also great, Grandma! It's sweet~but not~too~sweet!
+~           이것도      역시   훌륭해요   할머니      이건   달콤하지만     너무~달진~않아요     
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker593: [(But) (which) (pie) (do~you~prefer)?]!
+~             하지만   어느      파이가   더~좋아             
+
+[LINE]
+Speaker508: Hmm… I think I~need~to~have another~slice.
+~           음    제 생각엔   먹어~봐야~돼요       한~조각~더        
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker508: I'm really hungry. [I~stayed~up~all~night] watching TV,  and I~forgot to~eat!
+~           전   정말     배고파요     밤을~샜어요                 보다가      티비를  그리고 깜빡했어요    밥~먹는~걸 
++ I stayed up all night
+- I stayed up in flight
+- I stand up all night
+
+[LINE]
+> Lin continues~eating.
+~ 린이  계속~먹는다           
+
+[LINE]
+Speaker593: So…  who~is the~winner?!
+~           그래서  누가     우승자야        
+
+[LINE]
+Speaker509: I let~you~live in~my~apartment for~free, remember?
+~           난 네가~살게~해주잖아   내~아파트에서         공짜로       알지       
+
+[MULTIPLE_CHOICE]
+> Whoa… why did~Lucy~just~say that?
+~ 우와    왜   루시가~방금~말했나요       그렇게  
++ She wants Lin to~choose her as~the~winner.
+~ 그녀는 원한다   린이  선택하길      그녀를 우승자로          
+- She wants Lin to~give her  money.
+~ 그녀는 원한다   린이  주길      그녀에게 돈을    
+- Lin forgot where she lives.
+~ 린이  잊어버렸다  어디에   그녀가 사는지   
+
+[LINE]
+Speaker593: But I  always give you free cookies!
+~           하지만 내가 항상     주잖아  너한테 공짜   쿠키를     
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker508: [(It's) (really) (hard) (to~decide)…]
+~             이건     정말       어려워요   결정하기가       
+
+[LINE]
+> Suddenly, Oscar runs to~the~judge's~table.
+~ 갑자기       오스카가  뛰어온다 심사위원~테이블로            
+
+[LINE]
+Speaker592: Sorry I'm~late! I'm ready to~judge~the~pies.
+~           미안해   늦어서       난   준비됐어  파이를~심사할           
+
+[LINE]
+Speaker593: Oscar, you're the~judge?!
+~           오스카    네가     심사위원이야     
+
+[LINE]
+Speaker592: Of~course I'm the~judge! I~have~the~best~opinions!
+~           당연히       내가  심사위원이지     내~의견이~최고니까               
+
+[CONTINUATION]
+> What comes next?
+~ 무엇이  오나요   다음에  
+Speaker509: Lin, I thought [you~were the~judge]!
+~           린    난 생각했어     네가       심사위원이라고    
+- the~pies~were very warm
+~ 파이가           아주   따뜻했다
+- you~were eating fish
+~ 네가       먹고~있었다 생선을 
++ you~were the~judge
+~ 네가       심사위원이다   
+
+[LINE]
+Speaker508: I never~said~that.
+~           전 그런~말~한~적~없어요    
+
+[LINE]
+Speaker593: But you~were standing at~the~judge's~table!
+~           하지만 네가       서~있었어    심사위원~테이블에            
+
+[LINE]
+Speaker508: I~was just here    to~charge my phone! Then you  asked me  to~taste your~pies!
+~           전     단지   여기~있었어요 충전하려고     제  전화기를   그런데  여러분이 부탁했어요 저한테 맛보라고     파이를       
+
+[LINE]
+Speaker592: So  where~are~Lucy~and~Vikram's~pies?
+~           그래서 루시와~비크람의~파이는~어딨어                 
+
+[LINE]
+Speaker508: Sorry, I  finished both~of~them.
+~           죄송해요   제가 다~먹었어요   두~개~모두       
+
+[MULTIPLE_CHOICE]
+> Uh~oh! Why did~Vikram~and~Lucy~let~Lin~eat their pies?
+~ 아~이런   왜   비크람과~루시는~린이~먹게~했나요              그들의   파이를  
+- They knew   she~was really hungry.
+~ 그들은  알고~있었다 그녀가     정말     배고픈~걸  
++ They thought she~was a~judge at~the~pie~festival.
+~ 그들은  생각했다    그녀가     심사위원이라고 파이~축제에서             
+- They didn't~want Oscar to~get any~pie.
+~ 그들은  원치~않았다      오스카가  먹는~걸   어떤~파이도  
+
+[MATCH]
+> 짝을 누르세요
+- Of course <> 당연히
+- here <> 여기 있었어요
+- continues eating <> 계속 먹는다
+- watching <> 보다가
+- just <> 단지
+
