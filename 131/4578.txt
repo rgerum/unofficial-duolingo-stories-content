@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=Улюблений обід
+icon=7118252e70f96bc0ffa531032ec8c2efaf043e7b
+set=8|3
+
+[HEADER]
+> Favorite  Lunch 
+~ улюблений обід  
+
+[LINE]
+> Juan and Rebecca are         at~a~restaurant.
+~ Хуан і   Ребекка знаходяться у~ресторані     
+
+[LINE]
+Speaker338: I usually  eat~lunch at~my~desk…            
+~           я зазвичай обідаю    за~моїм~робочим~столом 
+
+[LINE]
+Speaker338: … but this menu looks    delicious!
+~             але це   меню виглядає смачно    
+
+[MULTIPLE_CHOICE]
+> Ребекка зазвичай обідає в ресторані.
+- Так, це правда. 
++ Ні, це неправда.
+
+[LINE]
+Speaker440: Yes! This~is my  favorite place for~lunch!
+~           так  це      моє улюблене місце для~обіду 
+
+[LINE]
+Speaker338: Hmm… I want a~burger with~fries…     
+~           хм   я хочу бургер   з~картоплею~фрі 
+
+[LINE]
+Speaker440: The~burgers are~very good  here!
+~           бургери     дуже     добрі тут  
+
+[LINE]
+Speaker338: What are~you~eating?
+~           що   ти~будеш~їсти  
+
+[POINT_TO_PHRASE]
+> Виберіть варіант, що означає «зазвичай».
+Speaker440: (The~same~thing) (I) (+usually)  (eat).
+~            те~саме~(що)     я    зазвичай   їм   
+
+[LINE]
+Speaker338: What~do~you usually  eat?
+~           що~ти       зазвичай їси 
+
+[ARRANGE]
+> Що ви чуєте?
+Speaker440: [(A~burger) (with~no~meat) (and) (no~fries).]        
+~             бургер     без~м'яса      і     без~картоплі~фрі   
+
+[LINE]
+Speaker338: OK…    only bread?
+~           добре  лише хліб  
+
+[LINE]
+Speaker440: No, I~don't~like        bread!
+~           ні  мені~не~подобається хліб  
+
+[LINE]
+Speaker440: But I~like           lettuce     and tomatoes.
+~           але мені~подобається салат-латук і   помідори 
+
+[MULTIPLE_CHOICE]
+> Що подобається Хуану?
++ Салат-латук і помідори.
+- Салат-латук і хліб.
+- Хліб і помідори.
+
+[LINE]
+Speaker440: My  favorite  lunch is~a~burger…
+~           мій улюблений обід  це~бургер   
+
+[CONTINUATION]
+> Що далі?
+Speaker440: … with~no~meat, no~bread,  and a~lot~of [lettuce       and tomatoes]! 
+~             без~м'яса     без~хліба  і   багато    салату-латуку і   помідорів  
+- lunch
+~ обід 
+- burgers
+~ бургери
++ lettuce~and~tomatoes     
+~ салату-латуку~і~помідорів
+
+[LINE]
+Speaker338: Juan…
+~           Хуан 
+
+[LINE]
+Speaker440: Yes?
+~           так 
+
+[LINE]
+Speaker338: That~is~a~salad!
+~           це~ж~салат      
+
+[MULTIPLE_CHOICE]
+> Чому Ребекка сміється?
+- Хуан замовив в ресторані лише хліб.
+- Хуан — вегетаріанець, але він їсть бургер.
++ Складне замовлення Хуана — це просто салат.
+
+[MATCH]
+> З’єднайте пари
+- tomatoes <> помідори
+- bread <> хліб
+- are you eating <> ти будеш їсти
+- Rebecca <> Ребекка
+- That is a salad <> це ж салат
+
