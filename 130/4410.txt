@@ -1,0 +1,150 @@
+[DATA]
+fromLanguageName=Поход с палатками
+icon=6a073f6357dc14ea58e162202f936682895b11ec
+set=19|3
+
+[HEADER]
+> Camping!          
+~ поход~с~палатками 
+
+[LINE]
+> Vikram and his wife, Priti, are~camping.          They're sitting in their tent.   
+~ Викрам и   его жена  Прити  в~походе~с~палатками  они     сидят   в  своей палатке 
+
+[LINE]
+Speaker560: I want to~check  my   email…            
+~           я хочу проверить свою электронную~почту 
+
+[LINE]
+Speaker593: We agreed       not~to~use      our    phones     during   this trip,    remember?
+~           мы договорились не~пользоваться нашими телефонами во~время этой поездки  помнишь  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker560: You're~right. [We~should~enjoy~nature].         
+~           ты~прав        нам~стоит~наслаждаться~природой  
+- We should enjoy neither
+- We sold the nature
++ We should enjoy nature
+
+[LINE]
+Speaker593: Let's make       dinner now.    I'm hungry! 
+~           давай приготовим ужин   сейчас  я   голоден 
+
+[LINE]
+Speaker560: Uh…  we~only~have      two apples. We ate   too~much      at~lunch.
+~           э-э  у~нас~есть~только два яблока  мы съели слишком~много в~обед   
+
+[LINE]
+Speaker593: Oh no.  And all the~stores are~closed.
+~           о  нет  и   все магазины   закрыты    
+
+[LINE]
+Speaker593: Maybe camping           was a~bad  idea… 
+~           может поход~с~палатками был плохой идеей 
+
+[MULTIPLE_CHOICE]
+> Почему Викрам так сказал?
+- Они забыли взять с собой палатку.
+- Им не нравится проводить время вместе.
++ Им нечего есть на ужин.
+
+[ARRANGE]
+> Наберите услышанное
+> [(Suddenly), (Vikram) (hears)  (a~noise) (outside).]
+~   вдруг       Викрам   слышит   шум       снаружи   
+
+[LINE]
+Speaker593: Wait…    did~you~hear that?
+~           подожди  ты~слышала   это  
+
+[LINE]
+Speaker560: No… 
+~           нет 
+
+[LINE]
+Speaker593: Maybe it's a~bear… 
+~           может это  медведь 
+
+[LINE]
+Speaker593: Do~bears like  apples?!
+~           медведи  любят яблоки  
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker560: I'll~look  [outside the~tent].
+~           я~посмотрю  снаружи палатки   
+- at~our~house
+~ в~нашем~доме
+- in~the~store
+~ в~магазине  
++ outside~the~tent
+~ снаружи~палатки 
+
+[LINE]
+Speaker593: Be   careful!  
+~           будь осторожна 
+
+[LINE]
+Speaker593: What~do~you see?   
+~           что~ты      видишь 
+
+[LINE]
+Speaker560: It's~so~dark.      I don't see  anything.
+~           (здесь)~так~темно  я не    вижу ничего   
+
+[LINE]
+Speaker560: Wait!    I see  something near  that~other~tent!
+~           подожди  я вижу что-то    около другой~палатки  
+
+[LINE]
+Speaker593: What~is~it?
+~           что~это    
+
+[LINE]
+Speaker560: It's… a~guy~delivering a~pizza?
+~           это   доставщик        пиццы   
+
+[LINE]
+Speaker593: Really?
+~           правда 
+
+[LINE]
+Speaker560: Yeah, those other  campers ordered  a~pizza!
+~           да    те    другие туристы заказали пиццу   
+
+[ARRANGE]
+> Наберите услышанное
+> [(Priti) (takes~out) (her)  (phone).]  
+~   Прити   достаёт     свой   телефон   
+
+[LINE]
+Speaker593: What are~you~doing? We agreed       not to~use       our    phones.    
+~           что  ты~делаешь     мы договорились не  пользоваться нашими телефонами 
+
+[LINE]
+> Priti makes~a~call.  
+~ Прити набирает~номер 
+
+[LINE]
+Speaker560: Hi,      I'd~like to~order one  pizza!
+~           здрасте  я~хочу   заказать одну пиццу 
+
+[LINE]
+Speaker593: Actually…  order  two!
+~           вообще-то  закажи две 
+
+[MULTIPLE_CHOICE]
+> Прити и Викрам решили...
+- …охотиться на медведя, чтобы добыть еду.
++ …заказать две пиццы.
+- …позвонить другим отдыхающим.
+
+[MATCH]
+> Коснитесь пар
+- Uh <> э-э
+- in <> в
+- makes a call <> набирает номер
+- Wait <> подожди
+- What do you <> что ты
+
