@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=다리가 아파
+icon=e03c9c686e0856f66bc51a3f912c8be470a7f18b
+set=27|3
+
+[HEADER]
+> My Leg Hurts
+~ 내  다리가 아파   
+
+[LINE]
+> Bea opens her front~door. She sees Eddy standing on~one~leg.
+~ 비가  연다    그녀의 현관문을        그녀가 본다   에디가  서~있는~걸   한쪽~다리로     
+
+[LINE]
+Speaker414: My leg hurts. Can~you~drive~me to~the~doctor's~office?
+~           내  다리가 아파     날~차로~데려다~줄~수~있어  병원으로                   
+
+[LINE]
+Speaker507: Sure!
+~           물론이지 
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+> Bea~and Eddy [get~in~Bea's~car].
+~ 비와      에디가   비의~차에~탄다          
++ get in Bea's car
+- get on Bea's bar
+- quit in Bea's car
+
+[LINE]
+Speaker414: Wait! I  forgot to~pick~up Junior from~school. Can~we~go~there?
+~           잠깐만   내가 깜빡했어   데려오는~걸     주니어를   학교에서         학교에~갈~수~있을까     
+
+[LINE]
+Speaker507: Of~course.
+~           물론이지      
+
+[MULTIPLE_CHOICE]
+> 비와 에디가 제일 먼저 가야 할 곳은 어디인가요?
+- 다리 가게
++ 주니어의 학교
+- 빵집
+
+[LINE]
+> Bea~and Eddy pick~up Junior from~school.
+~ 비와      에디가  데려온다    주니어를   학교에서        
+
+[LINE]
+Speaker414: Can~we~also~go to~the~post~office?
+~           또~우리가~갈~수~있을까  우체국에               
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker507: But [you~hurt~your~leg], remember?
+~           하지만  넌~다리~다쳤잖아           기억나      
+- who hurt her leg
++ you hurt your leg
+- you heard a wreck
+
+[LINE]
+Speaker414: I need your help to~pick~up a    large package.
+~           난 필요해  네    도움이  가져오는~데     한~개의 큰     소포를     
+
+[LINE]
+Speaker507: Ugh, fine.
+~           어후   알았어  
+
+[LINE]
+Speaker415: Look! There's~no~line at~Benny's~Burgers!
+~           보세요   줄이~없어요          베니즈~햄버거집에          
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+> [(Junior) (points) (at~a~restaurant).]
+~   주니어가     가리킨다     레스토랑을             
+
+[LINE]
+Speaker414: Their burgers~are amazing, but the~line~is always so long! Let's~go!
+~           저~집의  햄버거는        진짜~맛있어   하지만 줄이          항상     아주 길어    가자       
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker507: But you need~to~see [a~doctor]!
+~           하지만 넌   보러가야~해       의사를       
++ a~doctor
+~ 의사      
+- your date  
+~ 네    데이트~상대
+- this movie
+~ 이    영화   
+
+[POINT_TO_PHRASE]
+> “기적”을 뜻하는 말을 고르세요.
+Speaker415: (But) (there's~no~line)! (It's) (+a~miracle)!
+~            하지만   줄이~없어요             이건      기적이에요      
+
+[LINE]
+> Later, Eddy,~Junior,~and~Bea~are in~the~restaurant.
+~ 얼마~후   에디,~주니어,~그리고~비가           레스토랑에~있다          
+
+[LINE]
+Speaker507: Wow, that burger~was amazing.
+~           우와   그    햄버거는       진짜~맛있었어 
+
+[LINE]
+Speaker414: Yeah, but we should~go to~the~doctor's~office now.
+~           맞아    하지만 우린 가야~해      병원에                    이제  
+
+[LINE]
+Speaker507: Does~your~leg~still~hurt?
+~           다리~아직도~아파                
+
+[LINE]
+Speaker414: No, my~stomach hurts now. I think I  ate  too~many burgers.
+~           아니  배가         아파    이제   내 생각엔   내가 먹었나봐 너무~많은    햄버거를    
+
+[MULTIPLE_CHOICE]
+> 에디의 다리는 더 이상 아프지 않지만 이제는...
++ …배가 아프다.
+- …비가 다리를 다쳤다.
+- …샤워를 해야 한다.
+
+[MATCH]
+> 짝을 누르세요
+- Yeah <> 맞아
+- help <> 도움이
+- always <> 항상
+- that <> 그
+- hurts <> 아파
+
