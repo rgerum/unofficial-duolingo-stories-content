@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Какая прекрасная палатка!
+icon=15da04337561f2df975e0ed2ea8ee243a726b629
+set=25|3
+
+[HEADER]
+> What  a~Great    Tent   
+~ какая прекрасная палатка
+
+[LINE]
+> Eddy and his son Junior  are~in~a~tent       in~the~woods at~night.
+~ Эдди и   его сын Джуниор находятся~в~палатке в~лесу       ночью    
+
+[LINE]
+Speaker414: Are~you~having~fun?
+~           тебе~весело        
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker415: No.  This camping~trip      is~terriblee]!
+~           нет  этот поход~с~палатками ужасный       
+- alone   
+~ одинокий
+- afraid
+~ боюсь 
++ terrible
+~ ужасный 
+
+[LINE]
+Speaker414: Do~you~like   our  new   tent?    It's~as~big~as a~house!
+~           тебе~нравится наша новая палатка  она~размером~с дом     
+
+[LINE]
+Speaker415: I~like       our real      house.
+~           мне~нравится наш настоящий дом   
+
+[MULTIPLE_CHOICE]
+> Что Джуниор имеет в виду?
+- Ему очень нравится этот поход в лес.
++ Дом ему нравится больше, чем палатка.
+- Палатка ему нравится больше, чем дом.
+
+[POINT_TO_PHRASE]
+> Выберите вариант «мягкие».
+Speaker414: (Our)  (camping~beds)     (are~very) (+soft).  
+~            наши   походные~кровати   очень       мягкие  
+
+[LINE]
+Speaker415: I can't   sleep right~now!
+~           я не~могу спать сейчас    
+
+[LINE]
+Speaker414: We~have    a~stove and a~fridge.   
+~           у~нас~есть плита   и   холодильник 
+
+[MULTIPLE_CHOICE]
+> У Эдди и Джуниора есть холодильник и…
++ …плита.
+- …ванная.
+- …лодка.
+
+[LINE]
+Speaker415: I~am not hungry.  
+~           я    не  голодный 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker414: I also  bought [a~special~camping~bathroom]. 
+~           я также купил   специальный~походный~туалет  
+- a spacious fancy bathroom
+- a special lamp and bathtub
++ a special camping bathroom
+
+[LINE]
+Speaker415: I~do~like           the~special camping~bathroom.
+~           мне~правда~нравится специальный походный~туалет  
+
+[LINE]
+Speaker414: And we~have    a~television, a~radio, and video~games!
+~           и   у~нас~есть телевизор     радио    и   видеоигры   
+
+[LINE]
+Speaker415: I know…
+~           я знаю 
+
+[LINE]
+Speaker415: You're trying~very~hard!
+~           ты     очень~стараешься 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker414: [(I) (don't) (understand), (what~else) (do~you~need)?]
+~             я   не      понимаю       что~ещё     тебе~нужно    
+
+[LINE]
+Speaker415: I~need    the~bear        that's  outside the~tent to~leave!!!
+~           мне~нужно (чтобы)~медведь который снаружи палатки  ушел       
+
+[LINE]
+Speaker40: Grrr!
+~          гр   
+
+[MULTIPLE_CHOICE]
+> Джуниору не нравится поход, потому что…
++ …возле палатки ходит медведь.
+- …он не может играть в видеоигры в походе.
+- …специальный походный туалет слишком маленький.
+
+[MATCH]
+> Коснитесь пар
+- I need <> мне нужно
+- our <> наша
+- hungry <> голодный
+- Grrr <> гр
+- in the woods <> в лесу
+
