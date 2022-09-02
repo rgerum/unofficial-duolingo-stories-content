@@ -1,0 +1,151 @@
+[DATA]
+fromLanguageName=엄마, 고마워요
+icon=bf40ef982a083d2f6c8dbc8896888db65d7f1488
+set=18|3
+
+[HEADER]
+> Thanks, Mom
+~ 고마워요    엄마 
+
+[LINE]
+> Zari opens a~gift from~her~mother.
+~ 자리가  연다    선물을    (그녀의)~엄마가~주신    
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker418: [What's~this]?
+~            이게~뭐예요       
+- When's this
+- What dress
++ What's this
+
+[LINE]
+Speaker511: It's~a~surprise! Open~it.  
+~           (그건)~깜짝~선물이야     (그것을)~열어봐 
+
+[LINE]
+Speaker418: It's the sweater we  saw yesterday at~the~store!
+~           이건   그   스웨터네요   우리가 봤던  어제        가게에서         
+
+[LINE]
+Speaker418: Thank~you!
+~           고맙습니다     
+
+[LINE]
+Speaker511: I   know how~much you wanted it. 
+~           엄마는 알아   얼마나      네가  원했는지   그것을 
+
+[LINE]
+Speaker418: It's~beautiful! I love~it     so~much!
+~           (이건)~예뻐요        전 (이게)~맘에~들어요 정말로     
+
+[LINE]
+Speaker511: Only the~best for~my~daughter!
+~           오직   최고의~것들이지 내~딸에겐           
+
+[MULTIPLE_CHOICE]
+> 자리의 엄마는...
++ …자리에게 최고의 것들을 주고 싶어 한다.
+- …자리가 옷가게에서 일을 했으면 한다.
+- …자리에게 새 신발을 주고 싶어 한다.
+
+[LINE]
+Speaker511: And you look~so~nice in~blue.  
+~           그리고 넌   정말~예뻐~보여     파란색을~입을~때 
+
+[LINE]
+Speaker418: It's so special! I will~wear it every~day. But…
+~           이건   정말 특별해요     전 입을~거예요    이걸 매일         하지만 
+
+[LINE]
+Speaker511: What's~the~matter?
+~           왜~그래              
+
+[LINE]
+Speaker418: Are~you~sure~about~this? It~was so expensive.
+~           정말~괜찮아요                  이건     정말 비쌌는데      
+
+[LINE]
+Speaker511: Don't~worry. It~was~on~sale.
+~           걱정~마         (그건)~할인~중이었어   
+
+[MULTIPLE_CHOICE]
+> 자리의 엄마가 자리에게 걱정 말라고 얘기하는 이유는...
++ …그 스웨터가 비싸지 않았기 때문이다.
+- …돈이 많기 때문이다.
+- …다른 스웨터를 샀기 때문이다.
+
+[LINE]
+Speaker418: Oh! Good.
+~           아   잘됐네요 
+
+[LINE]
+Speaker511: It~was a~great~price, so  I  got four!
+~           그건     파격~할인가였어       그래서 내가 샀어  네~개를 
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker418: Four [sweaters]?
+~           네~개의  스웨터요      
++ sweaters
+~ 스웨터     
+- daughters
+~ 딸        
+- dresses
+~ 드레스    
+
+[LINE]
+> Zari's mother shows her  three more blue sweaters.
+~ 자리의    엄마가    보여준다  그녀에게 세~개   더    파란색  스웨터를     
+
+[LINE]
+Speaker511: Look! This~one~is mine, this~one~is for~your~brother, and this~one~is for~your~dad!
+~           봐     이건          내~꺼   이건          네~오빠~꺼            그리고 이건          네~아빠~꺼야      
+
+[SELECT_PHRASE]
+> 빠진 단어 또는 문구를 선택하세요
+Speaker511: That's [so~fun]!
+~           그건      재밌지~않니  
+- sofa
+- no fun
++ so fun
+
+[LINE]
+Speaker418: Oh…
+~           아  
+
+[LINE]
+Speaker511: We  can~all~wear our new sweaters tomorrow! I'm so excited!
+~           우리가 모두~입을~수~있어   우리의 새   스웨터를     내일        엄마는 정말 기대~돼    
+
+[MULTIPLE_CHOICE]
+> 자리의 엄마는 가족 모두를 위해 파란 스웨터를 샀다.
+- 아니요, 그렇지 않아요.
++ 네, 맞아요.
+
+[LINE]
+Speaker418: Uh…
+~           어  
+
+[LINE]
+Speaker511: What's~wrong?
+~           뭐가~문제니       
+
+[LINE]
+Speaker418: I don't~think~I~like this sweater anymore.
+~           전 별로~좋아하지~않는~것~같아요   이    스웨터를    더~이상    
+
+[MULTIPLE_CHOICE]
+> 자리가 새 스웨터를 더 이상 좋아하지 않는 이유는 무엇인가요?
+- 스웨터가 아주 비쌌단 걸 알게 돼서.
+- 파란색이 맘에 들지 않아서.
++ 가족 모두가 똑같은 스웨터를 입는 걸 원치 않아서.
+
+[MATCH]
+> 짝을 누르세요
+- blue <> 파란색
+- this <> 이
+- Open it <> 열어봐
+- don't think I like <> 별로 좋아하지 않는 것 같아요
+- Don't worry <> 걱정 마
+
