@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=केक
+icon=4a31a2e8269bfd907d862c44a3b320899c169419
+set=14|4
+
+[HEADER]
+> The~Cake
+~ केक     
+
+[LINE]
+> Lin goes    to~her~kitchen. She looks    in~the~fridge.
+~ लिन जाती~है अपनी~रसोई~में   वह  देखती~है फ़्रिज~में     
+
+[LINE]
+Speaker508: Where is my~cake? 
+~           कहाँ  है मेरा~केक 
+
+[LINE]
+> Lin sees     her~grandmother,~Lucy, at~the~table.     
+~ लिन देखती~है अपनी~दादी,~लूसी~(को)   मेज़~पर~(बैठी~हुई) 
+
+[LINE]
+Speaker508: Grandma, what~did~you~just~eat?    
+~           दादी     आपने~अभी-अभी~क्या~खाया~है 
+
+[LINE]
+> Lucy hides        her~plate.      
+~ लूसी छिपा~लेती~है अपनी~प्लेट~(को) 
+
+[MULTIPLE_CHOICE]
+> लूसी अपनी प्लेट को लिन से छिपाने की कोशिश कर रही है।
++ हाँ, यह सही है।
+- नहीं, ऐसा नहीं है।
+
+[LINE]
+Speaker509: Uhhh… a  sandwich!
+~           ~     एक सैंडविच  
+
+[LINE]
+Speaker508: I~can't~find      my~cake. 
+~           मुझे~मिल~नहीं~रहा अपना~केक 
+
+[LINE]
+Speaker509: That's     strange.    What~does~it~look~like?
+~           यह~(तो)~है अजीब~(बात)  वह~दिखने~में~कैसा~है   
+
+[ARRANGE]
+> सुनकर शब्द चुनें
+Speaker508: [(It's)  (a)  (very) (small) (cake).]
+~             वह~है   एक   बहुत   छोटा    केक    
+
+[LINE]
+Speaker509: Are~there          oranges on~the~cake?
+~           क्या~(लगे~हुए)~हैं संतरे   (उस)~केक~पर 
+
+[LINE]
+Speaker508: Yes! There~are     a~lot~of  oranges on~the~cake.
+~           हाँ  (लगे~हुए)~हैं बहुत~सारे संतरे   (उस)~केक~पर 
+
+[LINE]
+Speaker509: Is~your~cake         yellow?
+~           क्या~तुम्हारा~केक~है पीला   
+
+[CONTINUATION]
+> आगे क्या आएगा?
+Speaker508: Yes! My   cake [is~yellow]!
+~           हाँ  मेरा केक   पीला~है    
+- is~red
+~ लाल~है
+- is~very~large
+~ बहुत~बड़ा~है  
++ is~yellow
+~ पीला~है  
+
+[LINE]
+Speaker509: Is~your~cake         very, very delicious?
+~           क्या~तुम्हारा~केक~है बहुत  बहुत लज़ीज़      
+
+[LINE]
+Speaker508: Grandma! Did~you~eat       my   cake?!
+~           दादी     क्या~आपने~खाया~है मेरा केक   
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker509: No!   [I~didn't~eat~it]!      
+~           नहीं   मैंने~वह~नहीं~खाया~है  
++ I didn't eat it
+- I did need it
+- I didn't read it
+
+[LINE]
+Speaker508: OK.     Sorry.       I'll~make     another… chocolate cake.
+~           ठीक~है  माफ़~कीजिएगा  मैं~बना~लूंगी एक~और    चॉकलेट    केक  
+
+[LINE]
+Speaker509: Chocolate? But   your     cake was     vanilla!              
+~           चॉकलेट     लेकिन तुम्हारा केक  (तो)~था वनीला~(के~स्वाद~वाला) 
+
+[LINE]
+Speaker508: Ha! Yes, it is vanilla!                You~did~eat        my   cake!
+~           ~   हाँ  वह है वैनिला~(के~स्वाद~वाला)  आप~(ही)~ने~खाया~है मेरा केक  
+
+[MULTIPLE_CHOICE]
+> लिन ने कैसे पता लगाया कि उसका केक लूसी ने ही खाया है?
++ लूसी जानती थी कि केक कौनसे फ्लेवर का था।
+- लिन ने लूसी की प्लेट ढूँढ निकाली।
+- लूसी के मुँह पर केक लगा हुआ था।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- is <> है
+- She <> वह
+- Where <> कहाँ
+- It's <> वह है
+- Is your cake <> क्या तुम्हारा केक है
+
