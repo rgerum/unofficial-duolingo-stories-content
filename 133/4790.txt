@@ -1,0 +1,124 @@
+[DATA]
+fromLanguageName=미술 숙제
+icon=81f7ed2bd4ece4842874e1ea985c979bd6457de6
+set=12|3
+
+[HEADER]
+> The~Art~Homework
+~ 미술~숙제           
+
+[LINE]
+> Lily~and~Zari~are in~Oscar's~art~class.
+~ 릴리와~자리가           오스카의~미술~수업을~듣고~있다    
+
+[LINE]
+Speaker592: Lily, can~I~see your homework?
+~           릴리    볼~수~있을까   너의   숙제를      
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker416: I…  don't~want [to~show~it~to~you].
+~           저는  원치~않아요      그걸~선생님께~보여드리다      
+- who showed it to you
+- to show what to do
++ to show it to you
+
+[LINE]
+Speaker592: Excuse~me?
+~           뭐라고       
+
+[LINE]
+Speaker416: I'm too embarrassed.
+~           저는  너무  부끄러워요       
+
+[LINE]
+Speaker592: What? Why?
+~           뭐     왜   
+
+[LINE]
+Speaker416: I… don't~think my~painting~is very good.     
+~           전  생각하지~않아요    제~그림이          아주   잘~그린~것이라고 
+
+[MULTIPLE_CHOICE]
+> 릴리는 너무 부끄러운 나머지…
+- …학교에 못 가겠다고 한다.
+- …엄마에게 전화할 수 없다고 한다.
++ …오스카에게 그림 숙제를 보여줄 수 없다고 한다.
+
+[LINE]
+Speaker418: Lily, you're the~best artist in~this~class!
+~           릴리    너는     최고의      화가야    이~반에서         
+
+[LINE]
+Speaker416: Zari, stop!
+~           자리야   그만해  
+
+[LINE]
+Speaker592: Lily, you're the~best artist in~this~class.
+~           릴리    너는     최고의      화가야    이~반에서         
+
+[LINE]
+Speaker416: Please, no— 
+~           제발요     안돼요 
+
+[LINE]
+> Oscar takes Lily's painting.
+~ 오스카는  가져간다  릴리의    그림을      
+
+[LINE]
+Speaker592: It's… it's… beautiful.
+~           이     이것은   아름답구나     
+
+[LINE]
+Speaker416: Do~you~like~it?
+~           맘에~드세요         
+
+[LINE]
+Speaker592: I~love~it! The~white~on~white~on~white…
+~           정말~좋구나     흰색~위에~흰색~또~그~위에~흰색          
+
+[MULTIPLE_CHOICE]
+> 이해했나요? 릴리의 그림은…
+- …색채가 풍부하다.
++ …흰색이 많다.
+- …검정색이 많다.
+
+[LINE]
+Speaker592: When~I~look~at~this~painting, I~feel~sad… and I~feel~happy?
+~           이~그림을~보고~있으면                  슬픔이~느껴져     그리고 기쁨도~느껴지는데    
+
+[LINE]
+Speaker592: Wow. Great~work, Lily.
+~           우와   정말~잘했어      릴리   
+
+[LINE]
+> Oscar leaves. Zari sees Lily's painting.
+~ 오스카가  떠난다     자리가  본다   릴리의    그림을      
+
+[POINT_TO_PHRASE]
+> “백지 상태인"을 뜻하는 말을 고르세요.
+Speaker418: (Your) (painting~is) (+blank), (Lily).
+~            너의     그림은            백지인데     릴리    
+
+[LINE]
+Speaker416: I  know.
+~           나도 알아   
+
+[LINE]
+Speaker418: You always forget to~do~your~homework.
+~           넌   항상     깜빡하더라  숙제~하는~것을            
+
+[MULTIPLE_CHOICE]
+> 릴리의 그림이 백지인 이유는 무엇인가요?
++ 릴리가 미술 숙제하는 걸 깜빡해서.
+- 릴리가 가장 좋아하는 색이 흰색이어서.
+- 릴리가 자신의 예술적 의도를 보여주고 싶어서.
+
+[MATCH]
+> 짝을 누르세요
+- to show it to you <> 그걸 선생님께 보여드리다
+- leaves <> 떠난다
+- Why <> 왜
+- I feel sad <> 슬픔이 느껴져
+- Wow <> 우와
+
