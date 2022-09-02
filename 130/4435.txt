@@ -1,0 +1,131 @@
+[DATA]
+fromLanguageName=Премьера фильма
+icon=3bcede6752ca2da06f769fd523244f5c763cebc6
+set=25|4
+
+[HEADER]
+> The~Movie~Premiere
+~ премьера~фильма   
+
+[LINE]
+> Oscar is~visiting his    cousin            Orson,  an~actor, in Hollywood.
+~ Оскар гостит~у    своего двоюродного~брата Орсона  актёра    в  Голливуде 
+
+[LINE]
+Speaker592: I'm~excited     to~go to your~movie~premiere!    Look~at     my  new   suit!  
+~           мне~не~терпится пойти на премьеру~твоего~фильма  посмотри~на мой новый костюм 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker3107: [(We~don't~have~to)  (wear)     (suits).]  
+~              нам~необязательно   надевать   костюмы   
+
+[LINE]
+Speaker3107: No~one~will~look        at us.  I'm~only~in~the~movie for~a~few~minutes.
+~            никто~не~будет~смотреть на нас  я~в~фильме~всего      пару~минут        
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker592: No!  You should wear   your [best~clothes]. 
+~           нет  ты  должен надеть свою  лучшую~одежду  
+- bets closed
+- past clothes
++ best clothes
+
+[LINE]
+Speaker592: Then  we'll~look         like movie~stars when  the~photographers take~our~photo!    
+~           тогда мы~будем~выглядеть как  кинозвёзды  когда фотографы         нас~сфотографируют 
+
+[LINE]
+Speaker592: Also, I rented        a~limo  for us! 
+~           ещё   я взял~в~прокат лимузин для нас 
+
+[LINE]
+Speaker3107: Oscar, no! 
+~            Оскар  нет 
+
+[MULTIPLE_CHOICE]
+> Орсон хочет поехать на премьеру фильма на лимузине.
+- Да, это правда.
++ Нет, это неправда.
+
+[LINE]
+> Oscar and Orson get~in    the~limo. A~mile   from the~theater, the~limo stops.          
+~ Оскар и   Орсон садятся~в лимузин   (в)~миле от   театра       лимузин  останавливается 
+
+[LINE]
+Speaker889: Sorry,    the~traffic is~really bad.   
+~           простите  движение    очень     плохое 
+
+[LINE]
+Speaker3107: But the~premiere starts     in    twenty   minutes!
+~            но  премьера     начинается через двадцать минут   
+
+[LINE]
+Speaker592: Let's~run!
+~           побежали  
+
+[MULTIPLE_CHOICE]
+> Стоп… Почему Оскару и Орсону пришлось бежать?
+- Они пытаются прийти в форму, прямо как актёры.
++ Из-за пробок на дорогах они не доедут вовремя на премьеру.
+- Орсон снимается в фильме о легкоатлете.
+
+[POINT_TO_PHRASE]
+> Выберите вариант «грязь».
+> (They) get~out~of the~limo (and) (step~in)     (+mud).  
+~  они   выходят~из лимузина  и     наступают~в    грязь  
+
+[LINE]
+Speaker592: My  shoes!
+~           моя обувь 
+
+[LINE]
+> It~starts~raining.
+~ начинается~дождь  
+
+[LINE]
+Speaker3107: My  suit!  
+~            мой костюм 
+
+[LINE]
+> Oscar and Orson run   to the~theater.
+~ Оскар и   Орсон бегут к  театру      
+
+[LINE]
+> When  they arrive,    they're wet    and covered~in mud.   
+~ когда они  прибывают  они     мокрые и   покрыты    грязью 
+
+[CONTINUATION]
+> Продолжите фразу
+> A~photographer [takes~their~photo].
+~ фотограф        фотографирует~их   
+- jumps   on the~limo
+~ прыгает на лимузине
++ takes~their~photo
+~ фотографирует~их 
+- drinks   a~glass of~milk
+~ выпивает стакан  молока 
+
+[LINE]
+Speaker658: Wow, you look      like       you were in~a~war! Just  like characters in the~movie!
+~           ого  вы  выглядите так,~будто вы  были на~войне  прямо как  персонажи  в  фильме    
+
+[LINE]
+Speaker3107: Well, Oscar, you wanted~us       to~look   like movie~stars!
+~            ну    Оскар  ты  хотел,~чтобы~мы выглядели как  кинозвёзды  
+
+[MULTIPLE_CHOICE]
+> Оскар и Орсон выглядят как персонажи фильма, потому что...
+- …на них костюмы из фильма.
++ …они все в грязи, будто с войны.
+- …они приехали на крутом лимузине.
+
+[MATCH]
+> Коснитесь пар
+- is really <> очень
+- were <> были
+- It starts raining <> начинается дождь
+- to look <> выглядели
+- wear <> надевать
+
