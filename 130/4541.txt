@@ -1,0 +1,215 @@
+[DATA]
+fromLanguageName=Где моя куртка?
+icon=c118dba677be114f65466bf9f2e2bb74df28ff32
+set=52|2
+
+[HEADER]
+> Where's My  Jacket?
+~ где     моя куртка 
+
+[LINE]
+> Oscar knocks~on Eddy's~door. Eddy opens~it.    
+~ Оскар стучит~в  дверь~Эдди   Эдди открывает~её 
+
+[LINE]
+Speaker592: Eddy, do~you~have the~jacket       I gave you  last~week?          
+~           Эдди  у~тебя~есть куртка~(которую) я дал  тебе (на)~прошлой~неделе 
+
+[LINE]
+Speaker414: Your blue  jacket? Don't~you     hate       that jacket?
+~           твоя синяя куртка  разве~ты~(не) ненавидишь ту   куртку 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker592: [I~changed~my~mind]. I~really~need~it~back      now.   
+~            я~передумал         мне~очень~нужно~её~вернуть теперь 
++ I changed my mind
+- I'll change to mine
+- I changed the time
+
+[LINE]
+Speaker414: Sorry,  but I gave  the~jacket to~Lin!
+~           прости  но  я отдал куртку     Лин    
+
+[LINE]
+Speaker592: What? Why?  
+~           что   зачем 
+
+[LINE]
+Speaker414: It~didn't~fit~me.  
+~           она~мне~не~подошла 
+
+[LINE]
+Speaker592: Oh, no.  Well,  maybe Lin will~give~it~back~to~me…
+~           о   нет  что~ж  может Лин вернёт~её~мне           
+
+[LINE]
+Speaker414: Good~luck!
+~           удачи     
+
+[LINE]
+> Oscar runs  to Lin's~apartment.
+~ Оскар бежит в  квартиру~Лин    
+
+[MULTIPLE_CHOICE]
+> Wait…      why~is Oscar going~to Lin's~apartment?
+~ подождите  зачем  Оскар идёт~в   квартиру~Лин    
+- He~needs  to~give her his  jacket.
+~ ему~нужно отдать  ей  свою куртку 
++ He wants to~get~his~jacket~back.
+~ он хочет вернуть~свою~куртку    
+- Lin invited    him to~come~over  for~dinner.
+~ Лин пригласила его зайти~(к~ней) на~ужин    
+
+[LINE]
+Speaker592: Lin, Eddy told   me  he~gave        you  my  jacket…
+~           Лин  Эдди сказал мне (что)~он~отдал тебе мою куртку 
+
+[LINE]
+Speaker508: Yes! I~loved~it!               
+~           да   она~мне~очень~понравилась 
+
+[LINE]
+Speaker592: Oh, good.   Then  you~must~still~have~it!  
+~           о   хорошо  тогда наверняка~она~ещё~у~тебя 
+
+[LINE]
+Speaker508: No.  I'm~allergic    to~the~material of~the~jacket. I gave~it~to Bea.
+~           нет  у~меня~аллергия на~материал     куртки         я отдала~её  Би  
+
+[LINE]
+Speaker592: Ugh!     I~need~it~back.      
+~           ох~ты~ж  мне~нужно~её~вернуть 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker508: [(I) (think) (Bea~is) (home) (now).]   
+~             я   думаю   Би       дома   сейчас   
+
+[LINE]
+> Oscar goes to Bea's~apartment.
+~ Оскар идёт в  квартиру~Би     
+
+[LINE]
+Speaker507: Oscar! It's~nice~to~see~you!  
+~           Оскар  какая~приятная~встреча 
+
+[LINE]
+Speaker592: Hello,  Bea. I~need    my~blue~jacket~back.      Lin said          she gave~it   to~you.
+~           привет  Би   мне~нужно вернуть~мою~синюю~куртку  Лин сказала~(что) она отдала~её тебе   
+
+[LINE]
+Speaker507: Oh! I'm~sorry, it~was   such  a~warm jacket… I thought  someone~who~needs~it should~have~it.   
+~           ой  прости     это~была такая тёплая куртка  я подумала тот,~кому~она~нужна  должен~владеть~ею 
+
+[POINT_TO_PHRASE]
+> Choose   the~option that    means    «пожертвовала».
+~ выберите вариант    который означает ~              
+Speaker507: I (+donated)      it to (a~store) (this) (morning).
+~           я   пожертвовала  её в   магазин   этим   утром    
+
+[LINE]
+Speaker592: Oh, no! 
+~           о   нет 
+
+[LINE]
+Speaker507: They close       in    an~hour, so      you~need   to~hurry! 
+~           они  закрываются через час      так~что тебе~нужно поспешить 
+
+[LINE]
+> Oscar runs  to the~store. He gets     there a~few~minutes before~it~closes. He talks~to     the~clerk.
+~ Оскар бежит в  магазин    он приходит туда  за~пару~минут до~закрытия       он обращается~к продавцу  
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker592: Hi!       I~am~wondering if~you~have   any          [blue  jackets].
+~           здрасьте  хочу~спросить  есть~ли~у~вас какие-нибудь  синие куртки   
+- red     pants
+~ красные штаны
+- warm   hats          
+~ тёплые головные~уборы
++ blue  jackets
+~ синие куртки 
+
+[LINE]
+Speaker260: Oh! Actually,  someone just   donated     one…  here~it~is! It's~only  fifty     dollars. 
+~           о   вообще-то  кто-то  только пожертвовал одну  вот~она     цена~всего пятьдесят долларов 
+
+[LINE]
+Speaker592: Only  fifty     dollars?! 
+~           всего пятьдесят долларов  
+
+[LINE]
+Speaker260: Yes! It's~a~good~deal.         But we don't give~refunds.     
+~           да   это~выгодное~предложение  но  мы не    возвращаем~деньги 
+
+[MULTIPLE_CHOICE]
+> The~clerk means        that if   Oscar buys  the~jacket…
+~ продавец  имеет~в~виду что  если Оскар купит куртку     
+- …he~has       to~buy other  clothes too. 
+~  ему~придётся купить другую одежду  тоже 
++ …he can't     get      his  money  back. 
+~  он не~сможет получить свои деньги назад 
+- …the~clerk will~keep~it as~a~gift.         
+~  продавец  оставит~её   в~качестве~подарка 
+
+[LINE]
+Speaker592: That's~fine. I'll~buy~it.
+~           ничего       я~её~куплю  
+
+[LINE]
+> Oscar gives her money  and she puts   the~jacket into a~bag.
+~ Оскар даёт  ей  деньги и   она кладёт куртку     в    пакет 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker260: Also,  that~jacket~has    [a~cool~secret~pocket]!    
+~           а~ещё  у~этой~куртки~есть  классный~потайной~карман  
+- a cold secret pocket
+- a cool secret pot
++ a cool secret pocket
+
+[LINE]
+Speaker592: You… found the~secret~pocket?
+~           вы   нашли потайной~карман   
+
+[LINE]
+Speaker260: Yes! And you won't~believe~this: I found $500             in~it! I donated~it      to our  charity.             It's~going~to~help a~lot~of~people.
+~           да   и   вы  не~поверите         я нашла пятьсот~долларов в~ней  я пожертвовала~их на нашу благотворительность  они~помогут        многим~людям    
+
+[LINE]
+Speaker592: That's… very  kind. 
+~           это     очень щедро 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker260: [(Well), (enjoy)         (your)  (new)   (jacket)!] 
+~             ну      наслаждайтесь   своей   новой   курткой   
+
+[LINE]
+> Oscar gives the~bag back~to~her.
+~ Оскар даёт  пакет   ей~обратно  
+
+[LINE]
+Speaker592: Actually,  I~don't~need this jacket anymore. I think I'll~donate~it again.
+~           вообще-то  мне~не~нужна эта  куртка больше   я думаю я~пожертвую~её опять 
+
+[MULTIPLE_CHOICE]
+> Why~did~Oscar donate      the~jacket to~the~store again?
+~ зачем~Оскар   пожертвовал куртку     магазину     опять 
+- He thought       the~clerk looked~like           she~was~cold.   
+~ он подумал~(что) продавец  выглядела~(так)~будто ей~было~холодно 
+- He remembered that the~jacket didn't~fit~him. 
+~ он вспомнил   что  куртка     ему~не~подходит 
++ He only   wanted the~money in~the~pocket.
+~ он только хотел  деньги    из~кармана    
+
+[MATCH]
+> Коснитесь пар
+- an hour <> час
+- donated it <> пожертвовала их
+- the jacket <> куртка
+- last week <> прошлой неделе
+- to Lin <> Лин
+
