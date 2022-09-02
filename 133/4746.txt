@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=새 코트
+icon=966f6e25540bc4ba5347e59005bcc1e2827fdd66
+set=1|3
+
+[HEADER]
+> A~New~Coat
+~ 새~코트      
+
+[LINE]
+> A woman talks to~Vikram in~a~store.
+~ 한 여자가   이야기한다 비크람과      가게~안에서     
+
+[LINE]
+Speaker338: Hello!
+~           안녕하세요 
+
+[LINE]
+Speaker593: Hi.   
+~           안녕하세요 
+
+[MULTIPLE_CHOICE]
+> 한 여자가 가게 안에서 비크람에게 작별인사를 하고 있다.
+- 네, 맞아요.
++ 아니요, 그렇지 않아요.
+
+[LINE]
+Speaker338: Do~you~work here?
+~           당신은~일해요     여기서  
+
+[LINE]
+Speaker593: I,  uhh...
+~           저는  어     
+
+[POINT_TO_PHRASE]
+> "도움"을 뜻하는 말을 고르세요.
+Speaker338: (Good)! (I)  (need) (+help).
+~            잘됐네요    저는   필요해요    도움이   
+
+[LINE]
+Speaker338: I  need a~new~coat.
+~           저는 필요해요 새~코트가      
+
+[LINE]
+Speaker338: Do~you~like the red coat?
+~           당신은~맘에~들어요  이   빨간  코트가  
+
+[LINE]
+Speaker338: Or  do~you~like the brown coat?
+~           아니면 당신은~맘에~들어요  이   갈색    코트가  
+
+[LINE]
+Speaker593: Hmm, OK…  
+~           음    알겠어요 
+
+[LINE]
+Speaker593: The brown coat~is nice and cheap.
+~           그   갈색    코트는     예뻐요  그리고 값이~싸요 
+
+[LINE]
+Speaker593: But the red coat~is very beautiful.
+~           하지만 그   빨간  코트는     아주   아름다워요     
+
+[MULTIPLE_CHOICE]
+> 비크람 생각엔 빨간 코트가…
+- ...이상하다.
++ ...아름답다.
+- ...별로다.
+
+[LINE]
+Speaker593:  And it~is warm.
+~            그리고 그것은   따뜻해요 
+
+[LINE]
+Speaker593: It~is perfect for~you!
+~           그것은   완벽해요    당신에게    
+
+[LINE]
+Speaker338: OK,   I  want the red coat!
+~           알겠어요  저는 원해요  이   빨간  코트를  
+
+[LINE]
+Speaker338: Thank~you! You~are~good~at~your~job!
+~           고마워요       (당신은)~일을~참~잘~하시네요        
+
+[MULTIPLE_CHOICE]
+> 여자는...
+- ...비크람이 다른 직장을 구해야 한다고 생각한다.
++ ...비크람이 일을 참 잘한다고 생각한다.
+- ...빨간 코트가 별로라고 생각한다.
+
+[LINE]
+Speaker338: Where do~I~pay for~the~coat?
+~           어디서   ~값을~지불해요 이~코트의        
+
+[LINE]
+Speaker593: I  do~not~know.
+~           저는 몰라요         
+
+[LINE]
+Speaker593: I  do~not~work here.
+~           저는 일하지~않아요     여기서  
+
+[MULTIPLE_CHOICE]
+> 이 스토리에서 무슨 일이 있었나요?
++ 한 여자가 비크람을 가게 직원으로 착각했다.
+- 한 여자가 비크람이 새 모자를 사는 것을 도와주었다. 
+- 한 여자가 비크람을 가게 직원으로 고용했다.
+
+[MATCH]
+> 짝을 누르세요
+- But <> 하지만
+- a new coat <> 새 코트가
+- do not know <> 몰라요
+- to Vikram <> 비크람과
+- red <> 빨간
+
