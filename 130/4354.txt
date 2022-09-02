@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Спасибо?
+icon=0e35077f2bf31284d5967e7096a66da10d0a9bdf
+set=5|3
+
+[HEADER]
+> Thanks? 
+~ спасибо 
+
+[LINE]
+> Zari gives Lily a~box.  
+~ Зари даёт  Лили коробку 
+
+[LINE]
+Speaker416: What's this?
+~           что    это  
+
+[LINE]
+Speaker418: Open~the~box!  
+~           открой~коробку 
+
+[LINE]
+> Lily opens~the~box.    
+~ Лили открывает~коробку 
+
+[LINE]
+Speaker416: It's~a~shirt.
+~           это~рубашка  
+
+[LINE]
+Speaker418: It's~so   cute!       
+~           она~такая симпатичная 
+
+[MULTIPLE_CHOICE]
+> Зари очень не нравится эта рубашка.
+- Да, это правда.
++ Нет, это неправда.
+
+[LINE]
+Speaker416: It's~pink.  
+~           она~розовая 
+
+[LINE]
+Speaker418: Yeah, my  favorite color.
+~           да    мой любимый  цвет  
+
+[LINE]
+Speaker416: And it~has~a~cat~on~it.    
+~           и   на~ней~(нарисован)~кот 
+
+[LINE]
+Speaker418: I love  cats! 
+~           я люблю котов 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «на мотоцикле».
+Speaker416: (And) (the~cat)  (+is~on~a~motorcycle).
+~            и     этот~кот    на~мотоцикле        
+
+[LINE]
+Speaker418: It's~so~funny!  
+~           это~так~забавно 
+
+[LINE]
+Speaker418: It's~a~perfect birthday~present.        
+~           это~отличный   подарок~на~день~рождения 
+
+[MULTIPLE_CHOICE]
+> Зари считает, что рубашка…
+- …предназначена для её кошки.
++ …отличный подарок на день рождения.
+- …некрасивого цвета.
+
+[LINE]
+Speaker416: Zari, it's~not~my birthday.     
+~           Зари  это~не~мой  день~рождения 
+
+[LINE]
+Speaker418: I know. Today~is my  birthday.     
+~           я знаю  сегодня  мой день~рождения 
+
+[LINE]
+Speaker416: Oh, right.
+~           ой  точно 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker418: [(You) (always) (forget)          (my)  (birthday).]     
+~             ты    всегда   забываешь~(про)   мой   день~рождения   
+
+[LINE]
+Speaker418: Now    you can    give me  this~shirt! 
+~           теперь ты  можешь дать мне эту~рубашку 
+
+[LINE]
+Speaker416: Wow, thank~you.   
+~           ого  спасибо~тебе 
+
+[LINE]
+Speaker418: No,  no.  Thank~you.   
+~           нет  нет  тебе~спасибо 
+
+[MULTIPLE_CHOICE]
+> Зачем Зари дала Лили эту рубашку?
+- У Лили есть кот, который ездит на мотоцикле.
++ Чтобы Лили могла подарить её Зари на день рождения.
+- У Лили сегодня день рождения.
+
+[MATCH]
+> Коснитесь пар
+- thank you <> спасибо тебе
+- It's a shirt <> это рубашка
+- Wow <> ого
+- You <> ты
+- know <> знаю
+
