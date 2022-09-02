@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Нове пальто
+icon=966f6e25540bc4ba5347e59005bcc1e2827fdd66
+set=4|2
+
+[HEADER]
+> A~New Coat  
+~ нове  пальто
+
+[LINE]
+> A~woman talks~to    Vikram  in~a~store.
+~ жінка   говорить~до Вікрама у~магазині 
+
+[MULTIPLE_CHOICE]
+> Жінка говорить до Вікрама у магазині.
+- Ні, це неправда.
++ Так, це правда.
+
+[LINE]
+Speaker338: Hello!     
+~           здрастуйте 
+
+[LINE]
+Speaker593: Hi.    
+~           привіт 
+
+[LINE]
+Speaker338: Do~you work     here?
+~           ви     працюєте тут  
+
+[LINE]
+Speaker593: I, uhh...
+~           я  еее   
+
+[POINT_TO_PHRASE]
+> Виберіть варіант, що означає «допомога».
+Speaker338: (Good)!  (I~need)        (+help).    
+~            добре    мені~потрібна    допомога  
+
+[LINE]
+Speaker338: I~need        a~new coat.  
+~           мені~потрібне нове  пальто 
+
+[LINE]
+Speaker338: Do~you~like     the~red coat?  
+~           вам~подобається червоне пальто 
+
+[LINE]
+Speaker338: Or do~you~like     the~brown coat?  
+~           чи вам~подобається коричневе пальто 
+
+[LINE]
+Speaker593: Hmm, OK…   
+~           хм   добре 
+
+[LINE]
+Speaker593: The~brown coat   is~nice and cheap. 
+~           коричневе пальто гарне   і   дешеве 
+
+[LINE]
+Speaker593: But the~red coat   is~very~beautiful.
+~           але червоне пальто дуже~красиве      
+
+[MULTIPLE_CHOICE]
+> Вікрам вважає, що червоне пальто…
+- … дуже огидне.
++ … дуже красиве.
+- … дуже дивне.
+
+[LINE]
+Speaker593: And it   is~warm.
+~           і   воно тепле   
+
+[LINE]
+Speaker593: It~is perfect  for you!
+~           воно  ідеальне для вас 
+
+[LINE]
+Speaker338: OK,    I want the~red coat!  
+~           добре  я хочу червоне пальто 
+
+[LINE]
+Speaker338: Thank~you! You~are good               at~your~job!     
+~           дякую      ви      добре~справляєтесь зі~своєю~роботою 
+
+[MULTIPLE_CHOICE]
+> Що жінка має на увазі?
+- Вона вважає, що Вікраму потрібно знайти нову роботу.
+- Вона вважає червоне пальто потворним.
++ Вона вважає, що Вікрам добре справляється зі своєю роботою.
+
+[LINE]
+Speaker338: Where~do~I~pay      for~the~coat?
+~           де~я~можу~заплатити за~пальто    
+
+[LINE]
+Speaker593: I do~not know.
+~           я не     знаю 
+
+[MULTIPLE_CHOICE]
+> Вікрам…
+- … знає, де жінка може заплатити за пальто.
+- … хоче заплатити за пальто.
++ … не знає, де жінка може заплатити за пальто.
+
+[LINE]
+Speaker593: I do~not work   here.
+~           я не     працюю тут  
+
+[MULTIPLE_CHOICE]
+> Що сталося в історії?
+- Жінка допомогла Вікраму придбати новий капелюх.
++ Жінка помилилася і подумала, що Вікрам працює в магазині.
+- Жінка найняла Вікрама на роботу в магазині.
+
+[MATCH]
+> З’єднайте пари
+- and <> і
+- the brown <> коричневе
+- A woman <> жінка
+- Where do I pay <> де я можу заплатити
+- it <> воно
+
