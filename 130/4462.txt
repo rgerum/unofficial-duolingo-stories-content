@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=Лили помогает вынести мусор
+icon=093ca1e21f226b69b5c86085e1710ffbca164b46
+set=32|3
+
+[HEADER]
+> Lily Helps    with the~Trash
+~ Лили помогает с    мусором  
+
+[LINE]
+> Lucy is~outside~of       her apartment~building.
+~ Люси (находится)~снаружи ее  многоэтажки        
+
+[LINE]
+> She notices  that Lily is~moving a~carpet, a~lamp, and a~big,   expensive TV        outside. 
+~ она замечает что  Лили выносит   ковер     лампу   и   большой  дорогой   телевизор на~улицу 
+
+[LINE]
+Speaker509: Are~you moving?     
+~           ты      переезжаешь 
+
+[LINE]
+Speaker416: No. 
+~           нет 
+
+[MULTIPLE_CHOICE]
+> Лили переезжает в новую квартиру.
+- Да, это правда.
++ Нет, это неправда.
+
+[ARRANGE]
+> Наберите услышанное
+Speaker509: [(Are~you) (selling)  (these) (things)?]
+~             ты        продаешь   эти     вещи     
+
+[LINE]
+Speaker416: No. 
+~           нет 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker509: Then  why    are~you putting [all~of~these~things] here? 
+~           тогда почему ты      ставишь  все~эти~вещи         здесь 
++ all of these things
+- all of these rings
+- a wall of his things
+
+[LINE]
+Speaker416: Because    my  mom  asked     me   to~take the~trash outside. 
+~           потому~что моя мама попросила меня вынести мусор     на~улицу 
+
+[LINE]
+Speaker509: I don't think this~is      what she means.       
+~           я не    думаю (что)~это~то что  она имеет~в~виду 
+
+[LINE]
+Speaker509: That carpet is~new.
+~           тот  ковер  новый  
+
+[MULTIPLE_CHOICE]
+> Почему Люси не считает ковёр мусором?
+- Он красивый.
+- Он снаружи.
++ Он новый.
+
+[POINT_TO_PHRASE]
+> Выберите вариант «пахнет».
+Speaker416: (That) (carpet) (+smells) like~a~dog. And we~don't~have (a~dog). 
+~            тот    ковер     пахнет  собакой     и   у~нас~нет      собаки  
+
+[LINE]
+Speaker509: Well,  yes, it~does     smell~awful.   And~that lamp? 
+~           что~ж  да   он~и~правда ужасно~пахнет  а~эта    лампа 
+
+[LINE]
+Speaker416: I'd~prefer  to~sit in the~dark.
+~           я~предпочту сидеть в  темноте  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker509: But that TV        is~definitely~not trash. It [looks~expensive]. 
+~           но  тот  телевизор точно~не          мусор  он  выглядит~дорогим  
+- looks at pencils
++ looks expensive
+- took the offensive
+
+[LINE]
+Speaker416: Do~you watch    TV?        Every  show     is~about money,   murder,   or  dessert.
+~           вы     смотрите телевизор  каждая передача о        деньгах  убийстве  или десерте 
+
+[LINE]
+Speaker509: Hmm. I agree,    but your mom  is~going~to~be~mad when  she sees   this.
+~           хм   я согласна  но  твоя мама будет~в~ярости     когда она увидит это  
+
+[LINE]
+Speaker416: Yes, but she will~never~ask      me   to~help with the~trash again.
+~           да   но  она никогда~не~попросит меня помочь  с    мусором   снова 
+
+[MULTIPLE_CHOICE]
+> Почему мама Лили больше никогда не попросит её выносить мусор?
+- У Лили дома больше нет мусора.
+- Люси ворует весь мусор.
++ Лили выносит на улицу хорошие вещи вместо мусора.
+
+[MATCH]
+> Коснитесь пар
+- I <> я
+- think <> думаю
+- I'd prefer <> я предпочту
+- will never ask <> никогда не попросит
+- is outside of <> снаружи
+
