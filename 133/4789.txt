@@ -1,0 +1,129 @@
+[DATA]
+fromLanguageName=공원에서 그림 그리기
+icon=96fd9b652456a41bca2912838b14cb5bd9f7827a
+set=12|2
+
+[HEADER]
+> Drawing in~the~Park
+~ 그림~그리기  공원에서       
+
+[LINE]
+> Lucas goes to~the~park with~his~dog every~day.
+~ 루카스는  간다   공원에         그의~개를~데리고    매일        
+
+[LINE]
+> And, every~day, he sees Lily drawing  in~the~park.
+~ 그리고  매일         그는 본다   릴리가  그림~그리는~걸 공원에서        
+
+[LINE]
+> One~day, he decides to~talk to~her.
+~ 어느~날     그가 결심한다    말을~걸기로  그녀에게   
+
+[LINE]
+Speaker1321: Hello!
+~            안녕    
+
+[LINE]
+Speaker416: Uh hi.
+~           어  안녕 
+
+[LINE]
+Speaker1321: Can~I~ask~you~a~question?
+~            내가~(너한테)~뭐~하나~물어봐도~돼     
+
+[LINE]
+Speaker416: What?
+~           뭔데   
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker1321: I see you drawing  [every~day]…
+~            난 봐   네가  그림~그리는~걸  매일         
+- on~my~shoes
+~ 내~신발~위에    
+- in~the~lake
+~ 호수에서       
++ every~day
+~ 매일       
+
+[LINE]
+Speaker416: Yes…
+~           근데  
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker1321: [(What) (do~you) (usually) (draw)?]
+~              뭐를     넌        주로        그려     
+
+[LINE]
+Speaker416: A~lot~of things.
+~           많은       것들     
+
+[LINE]
+Speaker416: I draw things that~I~think~are interesting~or beautiful.
+~           난 그려   것들을    내~생각에~~한         흥미롭거나          아름다운      
+
+[LINE]
+Speaker1321: Cool!
+~            멋지다  
+
+[LINE]
+Speaker1321: What~are~you~drawing now?
+~            넌~뭘~그리고~있어           지금  
+
+[LINE]
+Speaker416: I… don't~want~to~tell you…
+~           난  말하고~싶지~않아          너한테 
+
+[LINE]
+Speaker1321: Why?
+~            왜   
+
+[MULTIPLE_CHOICE]
+> 루카스는…
+- ...릴리가 이빨로 그림을 그리고 있는 이유를 알고 싶다.
++ ...릴리가 뭘 그리는지 말해주지 않는 이유를 알고 싶다.
+- ...공원에 사람이 많은 이유를 알고 싶다.
+
+[LINE]
+Speaker416: Well, you come to~the~park every~day…
+~           음     네가  오잖아  공원에         매일        
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker1321: Oh! Are~you [drawing~a~picture] of~me?
+~            아   넌        그림을~그리고~있니         나의    
++ drawing a picture
+- drawn in pictures
+- draw on a picture
+
+[LINE]
+Speaker1321: Umm, well… I  think you're beautiful too! 
+~            음    있잖아   나도 생각해   네가     아름답다고     (역시) 
+
+[LINE]
+Speaker416: Uh no… I'm not~drawing you.
+~           어  아니  난   그리고~있지~않아   너를  
+
+[LINE]
+Speaker1321: Oh…
+~            아  
+
+[LINE]
+Speaker416: I'm drawing your dog. He's beautiful. Look!
+~           난   그리고~있어  너의   개를   네~개는 아름다워       봐    
+
+[MULTIPLE_CHOICE]
+> 루카스는…
+- ...그의 개가 도망갔다고 생각했다.
+- ...릴리에게 마법의 힘이 있다고 생각했다.
++ ...릴리가 자신을 그리고 있다고 생각했다.
+
+[MATCH]
+> 짝을 누르세요
+- things <> 것들
+- sees <> 본다
+- usually <> 주로
+- A lot of <> 많은
+- And <> 그리고
+
