@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=진정한 예술
+icon=501e7d609ee0dd5ba11ff7cdcf9740b12a7a7945
+set=9|1
+
+[HEADER]
+> Good Art
+~ 진정한  예술 
+
+[LINE]
+> Eddy~and~his~friend~Oscar~are at~an~art~museum.
+~ 에디와~그의~친구~오스카가                미술관에~있다          
+
+[LINE]
+> Eddy looks at~a~painting~of~a~dog.
+~ 에디가  바라본다  개~그림을                  
+
+[LINE]
+Speaker414: This~is my~favorite painting in~the~museum!
+~           이것이     가장~내~맘에~드는  그림이야     이~미술관에서       
+
+[LINE]
+Speaker592: That painting~is boring.
+~           그    그림은         지루해    
+
+[MULTIPLE_CHOICE]
+> 오스카는 그 그림이 아주 맘에 든다.
+- 네, 맞아요.
++ 아니요, 그렇지 않아요.
+
+[LINE]
+Speaker414: What? I  love~dogs! 
+~           뭐     나는 개들을~정말~좋아해 
+
+[LINE]
+Speaker592: Eddy, I'm an~art~teacher. I know good art.
+~           에디    난   미술~교사야          난 알아   진정한  예술을 
+
+[LINE]
+Speaker592: This painting~is not~good~art.  
+~           이    그림은         진정한~예술~작품이~아니야 
+
+[LINE]
+Speaker414: Why?
+~           왜   
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker592: [(Good) (art~is) (interesting)!]
+~             진정한    예술이라면    흥미로워야지        
+
+[LINE]
+Speaker592: Good art~is surprising!
+~           진정한  예술이라면  놀라워야~해     
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+> Oscar sees a~sandwich [on~a~chair].
+~ 오스카가  본다   샌드위치를       의자~위에~있는    
+- on his hair
+- and this chair
++ on a chair
+
+[LINE]
+Speaker592: That~is good art! 
+~           저것이     진정한  예술이지 
+
+[LINE]
+Speaker414: A~sandwich on~a~chair?!
+~           샌드위치       의자~위에~있는    
+
+[LINE]
+Speaker592: Yes! It's interesting and surprising! The~artist~is a~genius!
+~           그래   그건   흥미로워        그리고 놀라워         저~아티스트는       천재야      
+
+[MULTIPLE_CHOICE]
+> 오스카는 왜 그 아티스트가 천재라고 생각하나요?
+- 그 샌드위치가 먹음직스러워 보이기 때문이다.
++ 의자 위의 샌드위치는 놀라운 발상이기 때문이다.
+- 그 샌드위치는 개가 먹던 것이기 때문이다.
+
+[LINE]
+Speaker414: I don't~understand art.
+~           난 이해~못~하겠어         예술을 
+
+[POINT_TO_PHRASE]
+> “경비원”을 뜻하는 말을 고르세요.
+> A (+janitor) walks~into~the~room. (He) starts~eating (the) (sandwich).
+~ 한   경비원이     전시실로~걸어~들어온다          그가  먹기~시작한다        그     샌드위치를     
+
+[LINE]
+Speaker592: Excuse~me! You~can't~eat the~art!
+~           실례합니다      드시면~안~돼요      예술~작품을  
+
+[LINE]
+Speaker307: Uh, this~isn't~art. This~is my lunch.
+~           어   이건~예술~작품이~아니에요  이건      제  점심이에요 
+
+[MULTIPLE_CHOICE]
+> 이해했나요? 오스카는…
+- …에디가 미술관의 예술 작품을 전부 먹어치웠다고 생각했다.
++ …경비원의 점심을 예술 작품이라고 생각했다.
+- …경비원이 유명한 아티스트라고 생각했다.
+
+[MATCH]
+> 짝을 누르세요
+- looks <> 바라본다
+- in the museum <> 이 미술관에서
+- don't understand <> 이해 못 하겠어
+- Excuse me <> 실례합니다
+- Uh <> 어
+
