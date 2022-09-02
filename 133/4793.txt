@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=아침 만들기
+icon=6d79d91b8caad82e9f6ce44a1b458f12ac6a7a9f
+set=13|2
+
+[HEADER]
+> Making~Breakfast
+~ 아침~만들기          
+
+[LINE]
+> Eddy~is making breakfast for~Junior.
+~ 에디는     만들고~있다 아침을       주니어를~위해    
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker415: Hey,~Dad! [What~are~you~doing]?
+~           아빠         뭐하세요                
+- What's your dog
+- When are you doing
++ What are you doing
+
+[LINE]
+Speaker414: Good~morning, Junior! I'm making  a~big~breakfast for~you!
+~           좋은~아침         주니어     나는  만들고~있단다 푸짐한~아침을         널~위해서   
+
+[LINE]
+Speaker415: Breakfast?
+~           아침이요      
+
+[LINE]
+Speaker414: Yes. I  never~have~time to~make~breakfast for~you.
+~           응    내가 평소에는~시간이~없잖니    아침을~만들어~줄         널~위해서   
+
+[LINE]
+Speaker414: But today~is different!
+~           하지만 오늘은      다르단다      
+
+[MULTIPLE_CHOICE]
+> 잠깐만요… 에디의 말은 무엇을 의미하나요?
+- 그는 매일 아침 주니어의 아침을 챙겨준다.
++ 오늘은 주니어의 아침을 챙겨줄 여유가 있다.
+- 오늘은 아침을 챙겨줄 시간이 없다.
+
+[LINE]
+Speaker415: Dad, I don't~want breakfast.
+~           아빠   전 원하지~않아요    아침을       
+
+[LINE]
+Speaker414: What?! But I'm making eggs…  
+~           뭐라고    하지만 난   만들고~있어 계란~요리를 
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker415: [(I) (don't~want) (eggs).]  
+~             전   원하지~않아요      계란~요리를   
+
+[LINE]
+Speaker414: You love~eggs.  
+~           너   계란~요리~좋아하잖아 
+
+[LINE]
+Speaker415: Yes, but—
+~           네    하지만 
+
+[LINE]
+Speaker414: And there's~sausage~too!
+~           그리고 소시지도~있어             
+
+[LINE]
+Speaker414: You love  eating~sausage for~breakfast!
+~           넌   좋아하잖아 소시지~먹는~걸       아침으로          
+
+[LINE]
+Speaker415: That's right, but—
+~           그건     맞아요    하지만 
+
+[LINE]
+Speaker414: So  what's~wrong, Junior?
+~           그러면 뭐가~문제인데       주니어    
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker415: Dad… it's [one~o'clock]!
+~           아빠   지금    한~시에요        
+- on the clothes
+- one on clock
++ one o'clock
+
+[LINE]
+> Eddy looks at~his~watch.
+~ 에디가  본다    그의~손목시계를     
+
+[POINT_TO_PHRASE]
+> "오랜 시간"을 뜻하는 말을 고르세요.
+Speaker414: (Oh~no)… (making~breakfast) (takes) (+a~long~time).
+~            아~이런     아침~만드는~건           걸리네      오랜~시간이       
+
+[LINE]
+Speaker415: But now we  can~make lunch!
+~           하지만 이제  우리가 만들면~되죠   점심을   
+
+[MULTIPLE_CHOICE]
+> 주니어가 점심을 만들자고 하는 이유는 무엇인가요?
++ 에디가 아침 준비하는 데 시간이 너무 오래 걸려서.
+- 에디가 주니어의 아침밥을 다 먹어버려서.
+- 에디를 위한 아침밥 준비를 주니어가 다 해서.
+
+[MATCH]
+> 짝을 누르세요
+- now <> 이제
+- a big breakfast <> 푸짐한 아침을
+- for breakfast <> 아침으로
+- Yes <> 응
+- I'm <> 나는
+
