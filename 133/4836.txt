@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=파스타 문제
+icon=9a8e4c90ef30a62e59cf23d4265247e2655c4cec
+set=24|1
+
+[HEADER]
+> Pasta Problem
+~ 파스타   문제     
+
+[LINE]
+> Bea~is eating pasta at~a~restaurant in~Rome. A waiter walks~past her table.
+~ 비가     먹고~있다  파스타를  한~레스토랑에서        로마에~있는   한 웨이터가   옆을~지나간다    그녀의 테이블의  
+
+[LINE]
+Speaker507: Excuse~me! There's a~problem with~my~pasta.
+~           저기요        ~있어요    문제가       제~파스타에        
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker385: That's not~possible. That's [our~most~popular~dish]!
+~           그건     불가능해요         그~파스타는  저희~가게의~최고~인기~요리인걸요     
+- your most popular fish
+- our most popular wish
++ our most popular dish
+
+[LINE]
+Speaker507: Did~the~recipe~change?
+~           레시피가~바뀌었나요            
+
+[LINE]
+Speaker385: No!  Our recipe hasn't~changed in~fifty~years!
+~           아니요  저희  레시피는   바뀐~적이~없어요      오십~년~동안        
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker507: Well, I  ate  this pasta here seven years ago, and now [it~tastes~different].
+~           음     제가 먹었어요 이    파스타를  여기서  칠     년     전에   그런데 지금은  맛이~달라요               
+- I work here 
+~ 난 일한다  여기서  
+- I need glasses
+~ 난 필요하다 안경이    
++ it tastes~different
+~ 그건 맛이~다르다          
+
+[LINE]
+Speaker385: Seven~years~is a~long~time. Maybe you're different.
+~           칠~년은           긴~시간이에요      어쩌면   손님이    달라졌을~수~있죠 
+
+[LINE]
+Speaker507: Hmm… I~was younger then. Everything~was new~and exciting.
+~           음    전     더~어렸어요  그~땐   모든~것이          새롭고     흥미진진했었죠  
+
+[LINE]
+Speaker385: OK…
+~           네  
+
+[LINE]
+Speaker507: I'm a~lot more serious now.
+~           전   훨씬    더    성숙해요    지금은 
+
+[LINE]
+Speaker507: But    I'm also more responsible~and intelligent.
+~           그것~말고도 전   또한   더    책임감~있고          똑똑해요        
+
+[LINE]
+Speaker507: You're right. I've~changed a~lot! Thanks!
+~           당신~말이  맞아요    전~변했어요       많이     고마워요   
+
+[MULTIPLE_CHOICE]
+> 방금 비가 웨이터에게 고맙다고 한 이유는 무엇인가요?
+- 그가 비에게 책임감 있고 똑똑한 사람이라고 얘기해줘서.
+- 그가 파스타 레시피를 알려줘서.
++ 그 덕분에 자신이 얼마나 변했는지 깨달아서.
+
+[LINE]
+Speaker385: You're~welcome.
+~           천만에요           
+
+[LINE]
+Speaker507: What~happened to~the~waiter who~worked~here seven years ago?
+~           어떻게~됐어요       그~웨이터는        여기서~일했던         칠     년     전에  
+
+[POINT_TO_PHRASE]
+> “콧수염”을 뜻하는 말을 고르세요.
+Speaker507: He  (had)  (sunglasses) (and) (+a~mustache).
+~           그에겐  있었어요   선글라스         그리고    콧수염이        
+
+[LINE]
+Speaker385: That's Antonio.
+~           그건     안토니오예요  
+
+[LINE]
+Speaker507: Does~he~still~work here?
+~           그가~아직도~일해요         여기서  
+
+[LINE]
+Speaker385: No,  he never~worked here.
+~           아니요  그는 일한~적이~없어요    여기서  
+
+[LINE]
+Speaker385: He works at~the~restaurant across~the~street.
+~           그는 일해요   레스토랑에서            길~건너의             
+
+[LINE]
+Speaker507: Oh…
+~           아  
+
+[MULTIPLE_CHOICE]
+> 아마도…
+- …비가 선글라스를 끼고 콧수염을 단 것 같다.
++ …비가 레스토랑을 잘못 찾아온 것 같다.
+- …비가 칠 년 전에 만났던 웨이터를 다시 만난 것 같다.
+
+[LINE]
+> Later, Bea~is eating the~same pasta dish in~the~restaurant across~the~street.
+~ 얼마~후   비가     먹고~있다  똑같은      파스타   요리를  그~레스토랑에서          길~건너의             
+
+[LINE]
+Speaker507: Yeah, this tastes exactly the~same.
+~           맞아    이건   맛이~나   정확히     똑같은      
+
+[LINE]
+Speaker507: That's~sad. Maybe I haven't~changed.
+~           슬프네         어쩌면   난 변하지~않았나봐        
+
+[MULTIPLE_CHOICE]
+> 비가 자신은 변하지 않았다고 생각하는 이유는 무엇인가요?
++ 사실 이 레스토랑의 파스타 맛이 예전과 같아서.
+- 웨이터가 선글라스를 벗어버려서.
+- 예전 파스타 맛을 잊어버려서.
+
+[MATCH]
+> 짝을 누르세요
+- the same <> 똑같은
+- Bea is <> 비가
+- different <> 달라졌을 수 있죠
+- not possible <> 불가능해요
+- seven <> 칠
+
