@@ -1,0 +1,181 @@
+[DATA]
+fromLanguageName=Плохая обезьяна
+icon=5fbef3515e1c05aae2179cc3a6bf95cbd695dd24
+set=52|3
+
+[HEADER]
+> Bad    Monkey  
+~ плохая обезьяна
+
+[LINE]
+> Eddy and Junior  are~looking~at the~monkeys at the~zoo.  Suddenly, Eddy hears~Junior~shout.         
+~ Эдди и   Джуниор смотрят~на     обезьян     в  зоопарке  вдруг     Эдди слышит~(как)~Джуниор~кричит 
+
+[LINE]
+Speaker415: Stop! Thief!
+~           стой  вор   
+
+[LINE]
+Speaker414: Junior,  what's~wrong? 
+~           Джуниор  что~случилось 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker415: That monkey   stole  the~candy that    I~had       [in~my~pocket]!  
+~           эта  обезьяна украла конфету   которая у~меня~была  в~моём~кармане  
++ in my pocket
+- when I lock it
+- in a socket
+
+[LINE]
+Speaker414: Ha, ha, you~have a~great~imagination! But a~monkey didn't~take your candy.  
+~           ха  ха  у~тебя   бурное~воображение   но  обезьяна не~брала    твою конфету 
+
+[LINE]
+Speaker415: He~did~take      my  candy.   Look~at     him! 
+~           он~всё-таки~взял мою конфету  посмотри~на него 
+
+[ARRANGE]
+> Наберите услышанное
+> [(The~monkey) (smiles~at) (Eddy).]
+~   обезьяна     улыбается   Эдди   
+
+[LINE]
+Speaker414: He looks~like   a~happy    monkey.  
+~           он выглядит~как счастливая обезьяна 
+
+[LINE]
+Speaker415: Yeah, he's~happy  because    he ate  my  candy.  
+~           ага   он~счастлив потому~что он съел мою конфету 
+
+[LINE]
+> Eddy looks~at~his~phone          for~a~minute. The~monkey throws  a~candy~wrapper    at Junior.   Junior  picks~it~up. 
+~ Эдди отвлекается~на~свой~телефон на~минуту     обезьяна   бросает обёртку~от~конфеты в  Джуниора  Джуниор поднимает~её 
+
+[LINE]
+Speaker414: Ha! If   the~monkey took  your candy,   then  why    do~you~have the~wrapper?
+~           ха  если обезьяна   взяла твою конфету  тогда почему у~тебя      обёртка     
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker415: The~monkey threw~it  at~me!  He~wants~me            [to~get~in~trouble].
+~           обезьяна   кинула~её в~меня  он~хочет,~чтобы~у~меня  были~неприятности  
+- to give him trouble
++ to get in trouble
+- to get it double
+
+[LINE]
+> The~zookeeper     walks~over.
+~ работник~зоопарка подходит   
+
+[LINE]
+Speaker1814: Did~this~monkey~do something      to~you? 
+~            эта~обезьяна       сделала~что-то с~тобой 
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker415: Yes! He [stole my  candy]!  
+~           да   он  украл мою конфету  
+- stole my  car   
+~ украл мою машину
++ stole my  candy  
+~ украл мою конфету
+- told      me  a~joke
+~ рассказал мне шутку 
+
+[LINE]
+Speaker1814: Oh, yes. He~does~that  a~lot.
+~            о   да   он~делает~это часто 
+
+[LINE]
+Speaker414: He~does?
+~           вот~как 
+
+[LINE]
+Speaker1814: Yes, he looks    cute,  but|—ouch!
+~            да   он выглядит милым  но   ой   
+
+[LINE]
+> The~monkey is~throwing rocks at the~zookeeper's~head.      The~monkey starts   to~laugh.
+~ обезьяна   бросает     камни в  голову~работника~зоопарка  обезьяна   начинает смеяться 
+
+[LINE]
+Speaker1814: He's the~worst monkey   that    we've~ever~had        at this zoo.     
+~            он   худшая    обезьяна которая у~нас~когда-либо~была в  этом зоопарке 
+
+[MULTIPLE_CHOICE]
+> It's~probably~true   that…
+~ наверное,~это~правда что  
++ …the~monkey stole  Junior's~candy.  
+~  обезьяна   украла конфету~Джуниора 
+- …Eddy threw  rocks at the~zookeeper's~head.     
+~  Эдди бросил камни в  голову~работника~зоопарка 
+- …Junior  ate  all~the~candy by~himself.
+~  Джуниор съел все~конфеты   сам        
+
+[LINE]
+Speaker415: I~knew~it!   
+~           я~так~и~знал 
+
+[LINE]
+Speaker1814: I hate     this monkey.  
+~            я ненавижу эту  обезьяну 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker1814: [(He~did)    (a~terrible~thing) (to~my)  (favorite) (hat).]   
+~              он~сделал   ужасную~вещь       с~моей   любимой    шляпой   
+
+[LINE]
+> The~zookeeper     and the~monkey look~at~each~other.    The~monkey steals the~zookeeper's~hat      and runs~away.
+~ работник~зоопарка и   обезьяна   смотрят~друг~на~друга  обезьяна   крадёт шляпу~работника~зоопарка и   убегает   
+
+[LINE]
+Speaker1814: My  hat!   Not~again!    
+~            моя шляпа  только~не~это 
+
+[POINT_TO_PHRASE]
+> Choose   the~option that    means    «преследует».
+~ выберите вариант    который означает ~            
+> (The~zookeeper)     (+chases)     (the~monkey).
+~  работник~зоопарка    преследует   обезьяну    
+
+[LINE]
+Speaker415: Do~you~see, Dad?  I wasn't~lying.
+~           видишь      папа  я не~врал      
+
+[LINE]
+Speaker414: Wow, I'm~sorry that I didn't~believe you,  Junior.  I'll~buy you  some~more~candy.
+~           ого  прости    что  я не~верил       тебе  Джуниор  я~куплю  тебе ещё~конфет      
+
+[LINE]
+> Eddy looks~for his  wallet. 
+~ Эдди ищет      свой кошелёк 
+
+[LINE]
+Speaker414: That's~strange… I can't   find  my  wallet. 
+~           странно         я не~могу найти мой кошелёк 
+
+[LINE]
+Speaker415: I~think     I know who took~it…   
+~           мне~кажется я знаю кто его~забрал 
+
+[MULTIPLE_CHOICE]
+> Why    can't~Eddy~find     his  wallet? 
+~ почему Эдди~не~может~найти свой кошелёк 
+- The~zookeeper     put~it      in his  hat.  
+~ работник~зоопарка положил~его в  свою шляпу 
++ The~monkey stole~it.  
+~ обезьяна   его~украла 
+- Junior  took~it  to~buy         more candy. 
+~ Джуниор взял~его (чтобы)~купить ещё  конфет 
+
+[MATCH]
+> Коснитесь пар
+- looks <> выглядит
+- to get in trouble <> были неприятности
+- this <> этом
+- I knew it <> я так и знал
+- a happy <> счастливая
+
