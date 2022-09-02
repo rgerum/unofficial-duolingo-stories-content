@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=Письмо
+icon=1517cbcf4f4e76f1dc8b0687b90969af2c828c4f
+set=21|3
+
+[HEADER]
+> The~Letter
+~ письмо    
+
+[LINE]
+> Zari and Lily walk     past a~bookstore.      
+~ Зари и   Лили проходят мимо книжного~магазина 
+
+[LINE]
+Speaker418: Let's~go inside! I love  old    books.
+~           пойдём   внутрь  я люблю старые книги 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker416: [That's~why~we're~friends]. 
+~            именно~поэтому~мы~подруги  
+- They try to be friends
++ That's why we're friends
+- It's why they're friends
+
+[LINE]
+> The~girls go~inside the~bookstore.  
+~ девочки   заходят~в книжный~магазин 
+
+[ARRANGE]
+> Наберите услышанное
+> [(Zari) (picks~up) (a~book) (and) (opens~it).]    
+~   Зари   выбирает   книгу    и     открывает~её   
+
+[LINE]
+Speaker418: Lily! There's an~old letter inside this book. 
+~           Лили  здесь   старое письмо внутри этой книги 
+
+[LINE]
+Speaker416: What~does~it~say?  
+~           что~в~нём~написано 
+
+[LINE]
+Speaker418: A~man   named    Joseph is~writing to~his friend,  Gabriela.
+~           мужчина по~имени Джозеф пишет      своей  подруге  Габриэле 
+
+[LINE]
+Speaker418: He wants her advice.
+~           он хочет её  совет  
+
+[LINE]
+Speaker416: Why?  
+~           зачем 
+
+[LINE]
+Speaker418: He says          he loves two  women,  Katherine and Meg.
+~           он говорит~(что) он любит двух женщин  Кэтрин    и   Мег 
+
+[LINE]
+Speaker418: Katherine is~really intelligent.
+~           Кэтрин    очень     умная       
+
+[LINE]
+Speaker418: But Meg is~really funny.  
+~           но  Мег очень     весёлая 
+
+[LINE]
+Speaker418: He doesn't know  who~to~marry!   
+~           он не      знает на~ком~жениться 
+
+[MULTIPLE_CHOICE]
+> Джозеф не знал…
+- ...имя своей жены.
++ …на ком жениться.
+- …где найти книжный магазин.
+
+[LINE]
+Speaker416: I hope    he stayed  single.    
+~           я надеюсь он остался холостяком 
+
+[LINE]
+Speaker418: Who    did~his~friend Gabriela tell~him         to~marry?! I~need    to~know!
+~           на~ком его~подруга    Габриэла посоветовала~ему жениться   мне~нужно знать   
+
+[POINT_TO_PHRASE]
+> Выберите вариант «хозяйка».
+> (+The~owner) of~the~bookstore  (comes)    (to~talk~to)   (the~girls).
+~   хозяйка    книжного~магазина  подходит   поговорить~с   девочками  
+
+[LINE]
+Speaker3233: Oh, that's a~wonderful book! 
+~            о   это    чудесная    книга 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker3233: It~belonged~to   my    husband. [He~died~last~year].     
+~            она~принадлежала моему мужу      он~умер~в~прошлом~году  
+- He cried every year
+- He tried a year
++ He died last year
+
+[LINE]
+Speaker418: Oh, I'm~sorry.
+~           о   мне~жаль  
+
+[LINE]
+Speaker416: Was~your~husband's~name Joseph?
+~           вашего~мужа~звали       Джозеф 
+
+[LINE]
+Speaker3233: Yes!
+~            да  
+
+[LINE]
+Speaker418: Wow! Is~your~name Katherine or  Meg?
+~           ого  вас~зовут    Кэтрин    или Мег 
+
+[LINE]
+> The~woman smiles.   
+~ женщина   улыбается 
+
+[LINE]
+Speaker3233: My~name~is Gabriela.
+~            меня~зовут Габриэла 
+
+[MULTIPLE_CHOICE]
+> На ком женился Джозеф?
+- Он так и не женился.
+- На всех этих женщинах.
++ На своей подруге Габриэле.
+
+[MATCH]
+> Коснитесь пар
+- Lily <> Лили
+- Who <> на ком
+- did his friend <> его подруга
+- a bookstore <> книжного магазина
+- that's <> это
+
