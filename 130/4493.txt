@@ -1,0 +1,141 @@
+[DATA]
+fromLanguageName=Изысканная свадьба
+icon=732ec5afd01e01da806de38ce2b70c19a6b52e33
+set=40|2
+
+[HEADER]
+> A~Fancy    Wedding
+~ изысканная свадьба
+
+[LINE]
+> Lucy and her granddaughter Lin are~at         a~fancy    wedding.
+~ Люси и   её  внучка        Лин (находятся)~на изысканной свадьбе 
+
+[LINE]
+Speaker509: There~are~too~many flowers here.  At your~mother's~wedding, there~was~one simple  rose on every  table.
+~           слишком~много      цветов  здесь  на свадьбе~твоей~мамы     была~одна     простая роза на каждом столе 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker508: Shhh!  Grandma, be~quiet! The~bride [will~hear~you].
+~           т-с-с  бабушка  молчи     невеста    услышит~тебя   
+- will hear yours
++ will hear you
+- will fear you
+
+[LINE]
+Speaker509: Achoo! Good!   She~should~know        there~are~too~many~flowers. I can't   stop      sneezing!
+~           апчхи  хорошо  ей~следует~знать~(что) здесь~слишком~много~цветов  я не~могу перестать чихать   
+
+[ARRANGE]
+> Наберите услышанное
+Speaker508: [(I) (think)        (the~flowers) (are~nice).]
+~             я   считаю~(что)   цветы         красивые   
+
+[LINE]
+Speaker509: But they don't match           these silver     plates.  
+~           но  они  не    не~подходят~(к) этим  серебряным тарелкам 
+
+[LINE]
+Speaker508: I think        the~silver plates  are~fancy. 
+~           я считаю~(что) серебряные тарелки изысканные 
+
+[LINE]
+Speaker509: At your~mother's~wedding, there~were gold    plates. 
+~           на свадьбе~твоей~мамы     были       золотые тарелки 
+
+[LINE]
+Speaker508: Oh, I didn't~know that…  Tell     me  more   about mom's~wedding.  
+~           о   я не~знала    этого  расскажи мне больше о     маминой~свадьбе 
+
+[MULTIPLE_CHOICE]
+> Lin wants to~know more   about…
+~ Лин хочет узнать  больше о     
+- ...the~silver plates.  
+~    серебряных тарелках 
++ ...her~mother's~wedding.
+~    свадьбе~её~мамы      
+- ...why    Lucy is~sneezing.
+~    почему Люси чихает      
+
+[LINE]
+Speaker509: I've~never~told           you  anything about~it?
+~           я~никогда~не~рассказывала тебе ничего   о~ней    
+
+[LINE]
+Speaker509: Well,  all the~men wore           blue    suits.  
+~           что~ж  все мужчины были~одеты~(в) голубые костюмы 
+
+[POINT_TO_PHRASE]
+> Choose   the~option that~means       «стильно».
+~ выберите вариант    который~означает ~         
+Speaker508: (That~sounds) (very)  (+stylish)!
+~            звучит        очень    стильно  
+
+[ARRANGE]
+> Наберите услышанное
+Speaker509: [(And) (there~was) (a~violin~player).]
+~             и     был         скрипач           
+
+[LINE]
+Speaker508: Wow. That's romantic.  
+~           ого  это    романтично 
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker509: And during   the~ceremony, your mother sang a~song for your   [father].
+~           и   во~время церемонии     твоя мама   пела песню  для твоего  папы    
+- waiter   
+~ официанта
++ father
+~ папы  
+- flowers
+~ цветов 
+
+[LINE]
+Speaker508: Really? My  mom  did~that?  
+~           правда  моя мама это~делала 
+
+[LINE]
+Speaker509: Yes!
+~           да  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker508: Grandma… [are~you~crying]?
+~           бабушка   ты~плачешь      
++ are you crying
+- were you trying
+- are you spying
+
+[LINE]
+Speaker508: Wow, my~parents'~wedding    sounds~like it~was really beautiful.
+~           ого  свадьба~моих~родителей кажется     была   очень  красивой  
+
+[LINE]
+Speaker509: No,  that's~not~why~I'm crying.
+~           нет  я~не~поэтому       плачу  
+
+[LINE]
+Speaker509: I'm crying because    I just       saw     that there's~no   cake. 
+~           я   плачу  потому~что я только~что увидела что  нет~никакого торта 
+
+[MULTIPLE_CHOICE]
+> Why~is Lucy crying?
+~ почему Люси плачет 
+- Lin's~mother's~wedding was  beautiful.
+~ свадьба~мамы~Лин       была красивой  
+- The~cake tastes~terrible. 
+~ торт     ужасно~невкусный 
++ There's~no~cake    at the~wedding.
+~ нет~никакого~торта на свадьбе     
+
+[MATCH]
+> Коснитесь пар
+- about it <> о ней
+- me <> мне
+- No <> нет
+- a fancy <> изысканной
+- My <> моя
+
