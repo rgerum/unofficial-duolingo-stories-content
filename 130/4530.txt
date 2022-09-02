@@ -1,0 +1,161 @@
+[DATA]
+fromLanguageName=Худший сезон
+icon=5e4e9012d9857aee0d7fae3518c470c2fc0b1a55
+set=49|3
+
+[HEADER]
+> The~Worst Season
+~ худший    сезон 
+
+[LINE]
+> Oscar and Vikram are~waiting~for a~bus.  
+~ Оскар и   Викрам ждут            автобус 
+
+[LINE]
+> Oscar sneezes.
+~ Оскар чихает  
+
+[LINE]
+Speaker592: Ugh. I~have very  bad~allergies    right~now.
+~           эх   у~меня очень сильная~аллергия сейчас    
+
+[LINE]
+Speaker593: Yeah, your eyes  look     really red!     
+~           да    твои глаза выглядят очень  красными 
+
+[LINE]
+Speaker592: I always feel            terrible during~spring.   
+~           я всегда чувствую~(себя) ужасно   в~весеннее~время 
+
+[MULTIPLE_CHOICE]
+> Why~does Oscar feel~terrible?          
+~ почему   Оскар ужасно~(себя)~чувствует 
+- He ate  too     much  ice~cream. 
+~ он съел слишком много мороженого 
+- He missed       his  bus.    
+~ он опоздал~(на) свой автобус 
++ His~allergies~are~bad   in~the~spring.
+~ у~него~сильная~аллергия весной        
+
+[LINE]
+Speaker593: Well,  summer will~be~here~soon.
+~           что~ж  лето   скоро~придёт      
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker592: Why~is~that [a~good~thing]?
+~           почему~это   хорошо        
+- a gold thing
+- a good sink
++ a good thing
+
+[LINE]
+Speaker593: Because    then  you~won't~have~allergies~anymore.
+~           потому~что тогда у~тебя~больше~не~будет~аллергии  
+
+[ARRANGE]
+> Наберите услышанное
+Speaker592: [(But) (summer~is) (so)    (hot).]   
+~             но    лето        такое   жаркое   
+
+[LINE]
+Speaker592: I hate     seeing~everyone    wear  shorts.
+~           я ненавижу смотреть~(как)~все носят шорты  
+
+[LINE]
+Speaker593: OK.     Then  you~probably~like        fall! 
+~           хорошо  тогда тебе,~наверное,~нравится осень 
+
+[LINE]
+Speaker592: Definitely~not.
+~           точно~нет      
+
+[LINE]
+Speaker593: Why?   
+~           почему 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker592: Fall~is [the~worst~season].
+~           осень    худший~сезон      
+- their first season
++ the worst season
+- the work season
+
+[LINE]
+Speaker592: I'm a~teacher! I~have    to~go~back~to~work     again in~fall.
+~           я   учитель    мне~нужно возвращаться~на~работу снова осенью  
+
+[LINE]
+Speaker593: Well,  do~you~like   winter?
+~           что~ж  тебе~нравится зима   
+
+[ARRANGE]
+> Наберите услышанное
+Speaker592: [(Winter) (is~the~worst) (season).]
+~             зима     худший         сезон    
+
+[LINE]
+Speaker593: You just       said         fall  is~the~worst season.
+~           ты  только~что сказал~(что) осень худший       сезон  
+
+[LINE]
+Speaker592: Winter~is~freezing.
+~           зимой~холодина     
+
+[MULTIPLE_CHOICE]
+> Oscar  doesn't~like winter because…   
+~ Оскару не~нравится  зима   потому~что 
++ …it~is~too~cold.      
+~  она~слишком~холодная 
+- …he loves wearing shorts.
+~  он любит носить  шорты  
+- …he~doesn't~like swimming.
+~  ему~не~нравится плавание 
+
+[LINE]
+Speaker592: And the~weather~makes my  skin so    dry!  
+~           и   из-за~погоды      моя кожа такая сухая 
+
+[LINE]
+Speaker593: Oscar, do~you~like   any           part~of~the~year?
+~           Оскар  тебе~нравится хоть~какое-то время~года       
+
+[LINE]
+Speaker592: New~Year's~Eve  is~OK.     
+~           новогодняя~ночь нормальная 
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker593: Great!   Why    do~you~like   [New~Year's~Eve]? 
+~           отлично  почему тебе~нравится  новогодняя~ночь  
+- summer
+~ лето  
++ New~Year's~Eve 
+~ новогодняя~ночь
+- allergies
+~ аллергия 
+
+[LINE]
+Speaker592: Because    on~New~Year's~Eve another  terrible year is~finally~over.      
+~           потому~что в~новогоднюю~ночь ещё~один ужасный  год  наконец~заканчивается 
+
+[MULTIPLE_CHOICE]
+> Oscar  likes    New~Year's~Eve  because…   
+~ Оскару нравится новогодняя~ночь потому~что 
+- …he loves the~weather.
+~  он любит погоду      
+- …everyone always wears   shorts.
+~  все      всегда ходят~в шортах 
++ …it's the~end~of another    terrible year.
+~  это  конец      ещё~одного ужасного года 
+
+[MATCH]
+> Коснитесь пар
+- look <> выглядят
+- hot <> жаркое
+- red <> красными
+- your <> твои
+- terrible <> ужасно
+
