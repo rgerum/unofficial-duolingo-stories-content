@@ -1,0 +1,110 @@
+[DATA]
+fromLanguageName=मुझे एक कुत्ता चाहिए ही चाहिए
+icon=f0d8a8f3340da1d468766192cafa7ac1ee986355
+set=6|4
+
+[HEADER]
+> I~Really    Want  a  Dog   
+~ मुझे~सच~में चाहिए एक कुत्ता
+
+[LINE]
+Speaker415: Dad,  we~need       to~talk.     I~really    want  a  dog.   
+~           पापा  हमें~ज़रूरत~है बात~करने~की  मुझे~सच~में चाहिए एक कुत्ता 
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker414: Junior, a  dog         is        [a~lot~of~work]…
+~           जूनियर  एक कुत्ते~(का) (होता)~है  बहुत~सारा~काम  
+- a love for work
++ a lot of work
+- a lot of weeks
+
+[LINE]
+Speaker415: I   can         work! I'm     very responsible.
+~           मैं कर~सकता~हूँ काम   मैं~हूँ बहुत ज़िम्मेदार   
+
+[LINE]
+Speaker414: Really?
+~           सच~में 
+
+[LINE]
+Speaker414: Then first, you~need         to~wash~the~car…
+~           फिर  पहले   तुम्हें~ज़रूरत~है गाड़ी~धोने~की    
+
+[MULTIPLE_CHOICE]
+> एड्डी जूनियर से गाड़ी धोने के लिए क्यों कहता है?
+- क्योंकि जूनियर को अपने नये काम पर गाड़ी में जाना है।
++ क्योंकि वह चाहता है कि जूनियर उसे ज़िम्मेदार बनकर दिखाए।
+- क्योंकि जूनियर के कुत्ते ने गाड़ी को काफ़ी गंदा कर दिया है।
+
+[LINE]
+Speaker415: Sure!
+~           ज़रूर 
+
+[LINE]
+Speaker414: …clean         the~bathroom...
+~            साफ़~करने~(की) शौचालय~(को)    
+
+[LINE]
+Speaker415: OK!    
+~           ठीक~है 
+
+[ARRANGE]
+> सुनकर शब्द चुनें
+Speaker414: …[(and) (clean)       (the~windows)!]     
+~              और    साफ़~करने~की   खिड़कियों~(को~भी)   
+
+[LINE]
+Speaker415: Oh~no…   
+~           अरे~नहीं 
+
+[POINT_TO_PHRASE]
+> उस विकल्प को चुनें जिसका मतलब "बाद" है।
+> (Three) (hours) (+later), (Junior) finishes     cleaning~their~apartment.
+~  तीन     घंटे     बाद      जूनियर  खत्म~करता~है उनके~फ़्लैट~की~सफ़ाई       
+
+[LINE]
+Speaker415: Dad!  Look  at~my~work! 
+~           पापा  देखिए मेरे~काम~को 
+
+[LINE]
+Speaker414: Wow! This looks      great! You are very responsible.
+~           वाह  यह   दिख~रहा~है बढ़िया  तुम हो  बहुत ज़िम्मेदार   
+
+[CONTINUATION]
+> आगे क्या आएगा?
+Speaker414: You can~have   [a~dog]!    
+~           तुम ले~सकते~हो  एक~कुत्ता  
+- a~toilet 
+~ एक~शौचालय
+- a~window
+~ एक~खिड़की
++ a~dog    
+~ एक~कुत्ता
+
+[LINE]
+Speaker415: No,   thank~you! I~don't~want    a  dog    now.
+~           नहीं  धन्यवाद    मुझे~नहीं~चाहिए एक कुत्ता अब  
+
+[LINE]
+Speaker414: But   Junior, I~don't~understand…
+~           लेकिन जूनियर  मैं~समझा~नहीं      
+
+[LINE]
+Speaker415: I'm     tired!  I~don't~want   to~be responsible!
+~           मैं~हूँ थक~गया  मैं~नहीं~चाहता बनना  ज़िम्मेदार   
+
+[MULTIPLE_CHOICE]
+> जूनियर समझ गया कि...
++ ...एक कुत्ता लेने से उसका काम काफ़ी बढ़ जाएगा।
+- ...उसे चार कुत्ते पाल लेने चाहिए।
+- …अब उसे एक कुत्ता नहीं, बल्कि एक गाय चाहिए।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- dog <> कुत्ता
+- OK <> ठीक है
+- Three <> तीन
+- and <> और
+- now <> अब
+
