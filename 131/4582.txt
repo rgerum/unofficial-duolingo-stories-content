@@ -1,0 +1,102 @@
+[DATA]
+fromLanguageName=Нічна музика
+icon=205eb89c151a9cea69e598e00b5cbe534c23881a
+set=9|3
+
+[HEADER]
+> Night~Music  
+~ нічна~музика 
+
+[LINE]
+Speaker823: Listen~to this, Tony!
+~           послухай  це    Тоні 
+
+[LINE]
+Speaker1087: Johnny! Stop~playing         your  guitar! I'm very tired!    
+~            Джонні  перестань~грати~(на) своїй гітарі  я   дуже стомлений 
+
+[MULTIPLE_CHOICE]
+> Тоні хоче, щоб Джонні перестав грати на гітарі, бо він стомлений.
++ Так, це правда.
+- Ні, це неправда.
+
+[LINE]
+Speaker823: I~need     to~practice. I want to~be a~good  guitar~player.
+~           мені~треба займатися    я хочу бути  хорошим гітаристом    
+
+[MULTIPLE_CHOICE]
+> Чому Джонні займається?
+- Він хоче слухати свого друга Тоні.
+- Він хоче стати хорошим футболістом.
++ Він хоче стати хорошим гітаристом.
+
+[LINE]
+Speaker823: I~want          a~girlfriend…
+~           я~хочу~(знайти) дівчину      
+
+[LINE]
+Speaker823: … and women love    men       who play~the~guitar!   
+~             а   жінки люблять чоловіків які грають~(на)~гітарі 
+
+[LINE]
+Speaker1087: You~don't~need   to~practice~guitar    right~now|!  I~need     to~sleep!
+~            тобі~не~потрібно тренуватися~на~гітарі прямо~зараз  мені~треба спати    
+
+[CONTINUATION]
+> Що далі?
+Speaker823: OK,    OK.    [No~guitar].    
+~           добре  добре   ніякої~гітари  
++ No~guitar    
+~ ніякої~гітари
+- No~tired    
+~ не~втомився 
+- No~bed        
+~ ніякого~ліжка 
+
+[LINE]
+Speaker1087: Thank~you. Good~night.
+~            дякую      добраніч   
+
+[LINE]
+Speaker823: Good~night.
+~           добраніч   
+
+[ARRANGE]
+> Що ви чуєте?
+> [(Johnny) (starts)  (to~play)    (the~piano).] 
+~   Джонні   починає   грати~(на)   фортепіано   
+
+[SELECT_PHRASE]
+> Виберіть пропущену фразу
+Speaker1087: Johnny! [What~are~you~doing]?!
+~            Джонні   що~ти~робиш          
+- Where are you going
++ What are you doing
+- What are you eating
+
+[LINE]
+Speaker823: What? You don't~want~me~to~play~the~guitar…  
+~           що    ти  не~хочеш,~(щоб)~я~грав~(на)~гітарі 
+
+[LINE]
+Speaker823: … now   I'm~playing the~piano! 
+~             тепер я~граю~(на) фортепіано 
+
+[LINE]
+Speaker823: Women love    the~piano  too!  
+~           жінки люблять фортепіано також 
+
+[MULTIPLE_CHOICE]
+> Що зробив Джонні?
++ Він перестав грати на гітарі, але почав грати на фортепіано.
+- Він перестав грати на гітарі і пішов спати.
+- Він зустрів жінку, яка грає на гітарі та фортепіано.
+
+[MATCH]
+> З’єднайте пари
+- men <> чоловіків
+- to practice <> займатися
+- your <> своїй
+- play the guitar <> грають гітарі
+- to sleep <> спати
+
