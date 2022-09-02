@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Я хочу пиццу
+icon=3eebaf390a99fcebfaf064cfa42f14c071b5b97f
+set=10|4
+
+[HEADER]
+> I Want a~Pizza
+~ я хочу пиццу  
+
+[LINE]
+> Lin is~walking home. 
+~ Лин идёт       домой 
+
+[LINE]
+> She is~carrying two~pizzas.
+~ она несёт       две~пиццы  
+
+[MULTIPLE_CHOICE]
+> Лин несёт семь коробок с пиццей.
+- Да, это правда.
++ Нет, это неправда.
+
+[LINE]
+> She sees  Oscar  on the~street.
+~ она видит Оскара на улице      
+
+[LINE]
+Speaker592: Hi,     Lin. That~pizza smells~great!     
+~           привет  Лин  эта~пицца  потрясающе~пахнет 
+
+[LINE]
+Speaker508: Yes, it's~from~Emilio's~Restaurant.
+~           да   она~из~ресторана~Эмилио       
+
+[LINE]
+Speaker592: Oh, I love  that restaurant.
+~           о   я люблю этот ресторан   
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker592: Now    I want [a~pizza]!
+~           теперь я хочу  пиццу    
+- some~new~clothes    
+~ немного~новой~одежды
++ a~pizza
+~ пиццу  
+- to~clean~my~apartment
+~ убрать~свою~квартиру 
+
+[LINE]
+Speaker508: Oh, the~restaurant is~closed~now.    
+~           о   ресторан       сейчас~уже~закрыт 
+
+[LINE]
+Speaker592: Oh no… 
+~           о  нет 
+
+[LINE]
+Speaker592: Well, you~have two~pizzas.
+~           ну    у~тебя   две~пиццы  
+
+[ARRANGE]
+> Наберите услышанное
+Speaker592: [(Can~I)     (buy)    (one)?] 
+~             можно~мне   купить   одну   
+
+[LINE]
+Speaker508: No,  sorry.  These~are~for   my   grandma Lucy and me.  
+~           нет  прости  эти~(пиццы)~для моей бабушки Люси и   меня 
+
+[LINE]
+Speaker592: Well, can~I~have~a~piece of~your~pizza? 
+~           ну    можно~мне~кусочек  от~твоей~пиццы 
+
+[LINE]
+Speaker508: Uh,  no,  Oscar. That's… strange.
+~           э-э  нет  Оскар  это     странно 
+
+[MULTIPLE_CHOICE]
+> Лин считает, что…
++ …делиться пиццей с Оскаром странно.
+- …Оскар странно одет.
+- …Оскар ненавидит пиццу.
+
+[LINE]
+> Lin leaves.
+~ Лин уходит 
+
+[LINE]
+Speaker592: Now    I really        want~pizza from that restaurant…
+~           теперь я действительно хочу~пиццу из   того ресторана  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+> Oscar [makes~a~call] on~his~phone.      
+~ Оскар  звонит        по~своему~телефону 
+- makes a ball
++ makes a call
+- takes it all
+
+[LINE]
+Speaker592: Hi     Lucy, it's~Oscar. Do~you~have~plans for~dinner?
+~           привет Люси  это~Оскар   у~тебя~есть~планы на~ужин    
+
+[LINE]
+Speaker509: I'm~having~pizza       with Lin! Do~you~want to~eat with~us?
+~           я~собираюсь~есть~пиццу с    Лин  хочешь      поесть с~нами  
+
+[LINE]
+Speaker592: Thanks!  That's a~great  idea!
+~           спасибо  это    отличная идея 
+
+[MULTIPLE_CHOICE]
+> Вот хитрец! Оскар позвонил Люси…
+- …потому что она не отвечала на его сообщения.
++ …чтобы она пригласила его в гости на пиццу.
+- ….чтобы рассказать ей секрет.
+
+[MATCH]
+> Коснитесь пар
+- on <> на
+- for dinner <> на ужин
+- want pizza <> хочу пиццу
+- Oh <> о
+- no <> нет
+
