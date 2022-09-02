@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=애들은 안 돼
+icon=92f8e9fbcb106a065c67e2efcbb467a67077da4b
+set=11|4
+
+[HEADER]
+> Not~For~Kids
+~ 애들은~안돼      
+
+[LINE]
+> Zari~is watching Junior because~Eddy~is~at~work.
+~ 자리가     보고있다     주니어를   에디가~직장에~있기~때문에          
+
+[LINE]
+Speaker415: Zari!  Can~we~play your video~game!?
+~           자리~누나  우리~해도~돼요    누나의  비디오~게임을     
+
+[LINE]
+Speaker418: I  have~to~finish cleaning before~your~dad~comes~home.
+~           나는 끝내야~돼          청소를      너희~아빠가~집에~오시기~전에           
+
+[MULTIPLE_CHOICE]
+> 자리는 지금 비디오 게임을 할 수 없다.
++ 네, 맞아요.
+- 아니요, 그렇지 않아요.
+
+[LINE]
+Speaker415: Well… can~I~play the video~game?
+~           그럼    제가~해도~돼요   그   비디오~게임을    
+
+[POINT_TO_PHRASE]
+> “애들”을 뜻하는 말을 고르세요.
+Speaker418: (Sorry), (my) video~game~is (not~for) (+kids)
+~            미안       내   비디오~게임은        ~용이~아니야    애들   
+
+[LINE]
+Speaker415: I~am not~a~kid!
+~           저는   애가~아니에요   
+
+[LINE]
+Speaker418: Hmm… well, adults wash~dishes.
+~           음    글쎄    어른들은   설거지를~해      
+
+[LINE]
+Speaker415: I can     wash~dishes!
+~           저 할~수~있어요 설거지         
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+> Junior starts~to [wash~the~dishes].
+~ 주니어가   시작한다       설거지를             
+- clean~the~video~game
+~ 비디오~게임을~정리하다        
++ wash~the~dishes
+~ 설거지하다          
+- eat~dinner
+~ 저녁을~먹다    
+
+[LINE]
+Speaker415: See?
+~           잘하죠 
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker418: [(Adults) (also) (clean) (the~table).]
+~             어른들은     또한     정리해     식탁을         
+
+[LINE]
+Speaker415: I  can~clean the~table!
+~           저는 정리할~수~있어요 식탁을       
+
+[LINE]
+> Junior cleans the~table.
+~ 주니어가   정리한다   식탁을       
+
+[LINE]
+Speaker418: Wow, good~job! You~are an~adult.
+~           우와   잘했어       너는      어른이구나    
+
+[MULTIPLE_CHOICE]
+> 자리가 주니어에게 그가 어른이라고 하는 이유는 무엇인가요?
++ 주니어가 어른인 것 마냥 집을 청소해서.
+- 그새 주니어의 키가 많이 커서.
+- 더 이상 주니어를 돌봐주고 싶지 않아서.
+
+[LINE]
+Speaker415: Now can~we~play your video~game!?
+~           이제  우리~해도~돼요    누나의  비디오~게임을     
+
+[LINE]
+Speaker418: Oh~no! It's~nine~o'clock. You need~to~go~to~bed!
+~           아~이런   아홉시야               넌   자러~가야~해           
+
+[LINE]
+Speaker415: But I'm an~adult! Adults go~to~bed~late.
+~           하지만 전   어른이에요     어른들은   늦게~자요          
+
+[MULTIPLE_CHOICE]
+> 주니어는 이제 자신이 어른이니까…
+- …자리와 결혼할 수 있다고 한다.
++ …늦게 자도 된다고 한다.
+- …직장을 구해야겠다고 한다.
+
+[MATCH]
+> 짝을 누르세요
+- can I play <> 제가 해도 돼요
+- not for <> ~용이 아니야
+- Oh no <> 아 이런
+- the table <> 식탁을
+- video game is <> 비디오 게임은
+
