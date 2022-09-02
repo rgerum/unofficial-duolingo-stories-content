@@ -1,0 +1,145 @@
+[DATA]
+fromLanguageName=해커
+icon=d5d838c3ef0c7ca57b1c21aa81867b8fd732920d
+set=33|2
+
+[HEADER]
+> The~Hacker
+~ 해커        
+
+[LINE]
+> Bea walks~into Eddy's apartment.
+~ 비가  걸어~들어간다    에디의    아파트에      
+
+[LINE]
+Speaker414: Thanks~for~coming!
+~           와~줘서~고마워          
+
+[LINE]
+Speaker507: Sure! You said there~was~a~problem with~your~computer, right?
+~           당연하지  네가  말했지  문제가~있다고             네~컴퓨터에              그렇지   
+
+[MULTIPLE_CHOICE]
+> 비는 에디의 변기 수리를 도와주고 있다.
++ 아니요, 그렇지 않아요.
+- 네, 맞아요.
+
+[LINE]
+Speaker414: Yes!
+~           응   
+
+[LINE]
+Speaker507: What~happened?
+~           무슨~일이~있었어     
+
+[LINE]
+Speaker414: Well… have~you~ever~heard~of a~"hacker"?
+~           음     들어본~적~있니               해커라고       
+
+[LINE]
+Speaker414: That's a~person~who~changes~things on~computers.
+~           그건     이것~저것~조작하는~사람이야             컴퓨터~상에서      
+
+[LINE]
+Speaker507: Yes, Eddy, I  know what~a~hacker~is. So,   what's~the~problem?
+~           응    에디    나도 알아   해커가~뭔지            그러니까  문제가~뭐야             
+
+[POINT_TO_PHRASE]
+> “이력서”를 뜻하는 말을 고르세요.
+Speaker414: (I)  tried~to~print (my) (+resume), (but) it~didn't~work!
+~            내가  출력하려고~했어        내     이력서를      하지만  작동이~안~됐어       
+
+[LINE]
+Speaker414: And now I can't~find my resume on~my~computer. I think the~hacker deleted  it.
+~           그리고 이제  난 못~찾겠어      내  이력서를   컴퓨터에서           내 생각엔   해커가        삭제한~것~같아 그걸 
+
+[MULTIPLE_CHOICE]
+> 에디 생각엔…
+- ...비가 그의 아침을 먹었다.
+- ...누군가가 그의 컴퓨터를 훔쳐갔다.
++ ...해커가 그의 이력서를 삭제했다.
+
+[LINE]
+Speaker507: Can~I~look~at~it?
+~           내가~좀~봐도~될까       
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+> Bea starts~working [on~the~computer].
+~ 비가  작업을~시작한다        컴퓨터에서            
++ on~the~computer
+~ 컴퓨터에서          
+- at~a~restaurant
+~ 레스토랑에서         
+- on~her~car
+~ 그녀의~차에    
+
+[LINE]
+Speaker507: OK, I  found a   file called  "my resume."
+~           됐어  내가 찾았어   하나의 파일을  ~라는~이름의  내  이력서     
+
+[LINE]
+> Bea opens the file. Eddy sees it  on~the~computer.
+~ 비가  연다    그   파일을   에디가  본다   그것을 컴퓨터에서           
+
+[LINE]
+Speaker414: It does~look like my resume.
+~           그건 보이긴~하네    ~처럼  내  이력서    
+
+[LINE]
+Speaker507: Also, I know why your printer wasn't~working.
+~           또     난 알겠어  왜   네    프린터가    작동되지~않았는지      
+
+[LINE]
+> Bea connects the~printer to~the~computer.
+~ 비가  연결한다     프린터를        컴퓨터에            
+
+[LINE]
+Speaker507: It wasn't~connected!
+~           그게 연결이~안~돼~있었어      
+
+[MULTIPLE_CHOICE]
+> 에디의 프린터가 작동되지 않았던 이유는 무엇인가요?
+- 에디에게 프린터가 없기 때문이다.
++ 컴퓨터에 연결되어 있지 않았기 때문이다.
+- 해커가 고장냈기 때문이다.
+
+[LINE]
+Speaker414: Hmm. Junior probably did~that.
+~           음    주니어가   아마도      그랬을~거야   
+
+[LINE]
+> The~resume prints, and Bea looks at~it.
+~ 이력서가       출력된다    그리고 비가  읽어~본다 그것을   
+
+[LINE]
+Speaker507: Eddy, there~are~mistakes all~over~your~resume.
+~           에디    실수들이~있어            네~이력서~전체에            
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker414: [(The~hacker) (probably) (changed) (it)!]
+~             해커가          아마도        조작했나봐     그걸   
+
+[LINE]
+Speaker507: Hmm. Do~you~know that~your~resume~says you're good~with~computers?
+~           음    그거~알아       네~이력서에~쓰여있는~거         네가     컴퓨터를~잘~한다고          
+
+[LINE]
+Speaker414: Yeah, the~hacker definitely changed that.
+~           그래    해커가        확실히        조작했네    그건   
+
+[MULTIPLE_CHOICE]
+> 에디는 그의 컴퓨터가 해킹 당했다고 생각했다…
++ ...하지만 사실은 그의 컴퓨터 실력이 꽝인 것이다.
+- ...그리고 컴퓨터 상의 모든 데이터를 잃었다.
+- ...그래서 경찰에 신고했다.
+
+[MATCH]
+> 짝을 누르세요
+- definitely <> 확실히
+- What happened <> 무슨 일이 있었어
+- deleted <> 삭제한 것 같아
+- there was a problem <> 문제가 있다고
+- there are mistakes <> 실수들이 있어
+
