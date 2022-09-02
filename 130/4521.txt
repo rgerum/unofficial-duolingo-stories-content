@@ -1,0 +1,181 @@
+[DATA]
+fromLanguageName=Опоздание на фильм
+icon=3bd2f67694dc090bb3ad482fb4fddb7effb3e8a6
+set=47|2
+
+[HEADER]
+> Late~for~the~Movie
+~ опоздание~на~фильм
+
+[LINE]
+> Lucy is~buying popcorn at the~movie~theater. She sees  a~man   and a~woman. She waves~at~them.
+~ Люси покупает  попкорн в  кинотеатре         она видит мужчину и   женщину  она машет~им      
+
+[LINE]
+Speaker509: John? John! Hello! 
+~           Джон  Джон  привет 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+> The~man grabs~the~woman's~hand  and starts   [to~walk~away~quickly].
+~ мужчина хватает~женщину~за~руку и   начинает  быстро~уходить        
+- it was awake quickly
+- to walk the way quick
++ to walk away quickly
+
+[LINE]
+Speaker509: John, wait!    It's~me, Lucy!
+~           Джон  подожди  это~я    Люси 
+
+[LINE]
+> Lucy runs~over to them.
+~ Люси подбегает к  ним  
+
+[LINE]
+Speaker889: Oh, hi,     Lucy… It's~good~to~see~you but sorry,  we~need   to~go sit~down.
+~           о   привет  Люси  приятно~тебя~видеть  но  прости  нам~нужно идти  садиться 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker509: [(Movies) (never)   (start)           (on~time).]
+~             фильмы   никогда   (не)~начинаются   вовремя   
+
+[LINE]
+Speaker509: Stay       for a~minute.
+~           останьтесь на  минутку  
+
+[LINE]
+Speaker175: Sure!  
+~           хорошо 
+
+[LINE]
+Speaker889: Uh…  sure.  
+~           э-э  хорошо 
+
+[LINE]
+Speaker509: It's~been~a~long~time! How~have~you~been?
+~           давно~не~виделись      как~у~вас~дела    
+
+[LINE]
+Speaker889: Uh…  fine.      And~you? 
+~           э-э  нормально  а~у~тебя 
+
+[LINE]
+Speaker509: I'm~good!      I just   started boxing,            and I~love~it!       
+~           у~меня~хорошо  я только начала  заниматься~боксом  и   мне~это~нравится 
+
+[LINE]
+> Lucy turns          to the~woman and smiles.   
+~ Люси поворачивается к  женщине   и   улыбается 
+
+[LINE]
+Speaker509: And you look      great!   Did~you~change your hair~color? You~look~so~good~with blonde  hair!  
+~           а   ты  выглядишь отлично  ты~изменила    свой цвет~волос  тебе~очень~идут       светлые волосы 
+
+[LINE]
+Speaker175: No,  this~is~the~color~my~hair~has~always~been.
+~           нет  мои~волосы~всегда~были~этого~цвета        
+
+[MULTIPLE_CHOICE]
+> The~woman says          her hair…  
+~ женщина   говорит~(что) её  волосы 
+- …looks    better when  it's~pink.  
+~  выглядят лучше  когда они~розовые 
++ …has~always~been blonde.  
+~  всегда~были     светлыми 
+- …has~been many   different colors.
+~  были     многих разных    цветов 
+
+[LINE]
+Speaker509: Really? And you stopped   wearing glasses! It~makes~you~look      so~much younger.
+~           правда  и   ты  перестала носить  очки     (без~них)~ты~выглядишь намного моложе  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker175: [I've~never~worn~glasses]…  
+~            я~никогда~не~носила~очков  
++ I've never worn glasses
+- I never own glass
+- the new or worn dresses
+
+[LINE]
+Speaker889: We~really~need   to~leave~for that movie…
+~           нам~правда~нужно идти~на      этот фильм 
+
+[LINE]
+Speaker509:  Actually,  you look      a~lot   younger now!    What~is your secret?
+~            вообще-то  ты  выглядишь намного моложе  теперь  в~чём   твой секрет 
+
+[LINE]
+Speaker175: I'm~sorry, but we've never   met              before.
+~           простите   но  мы    никогда (не)~встречались раньше 
+
+[LINE]
+Speaker509: What? Of~course  we've~met.      I was  a~guest at your  wedding.
+~           что   конечно~же мы~встречались  я была гостьей на вашей свадьбе 
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker175: What  wedding? John~and~I  [aren't~married].
+~           какой свадьбе  мы~с~Джоном  не~в~браке      
+- are~your best   friends
+~ ваши     лучшие друзья 
+- wear  glasses
+~ носим очки   
++ aren't~married
+~ не~в~браке    
+
+[LINE]
+Speaker509: That's funny,  Sandra.
+~           это    смешно  Сандра 
+
+[LINE]
+Speaker175: My~name~is Shirley! Who's       Sandra?!
+~           меня~зовут Ширли    кто~(такая) Сандра  
+
+[MULTIPLE_CHOICE]
+> Why~is Shirley confused?        
+~ почему Ширли   в~замешательстве 
++ Lucy thinks       she's a~woman named    Sandra.
+~ Люси думает~(что) она   женщина по~имени Сандра 
+- She doesn't know  what~time  the~movie~starts.
+~ она не      знает во~сколько начинается~фильм 
+- She~wasn't~invited to Lucy's~wedding.
+~ её~не~пригласили   на свадьбу~Люси   
+
+[LINE]
+Speaker889: Oh~hey!  The~movie is~starting now!    We~have to~go!
+~           слышишь  фильм     начинается  сейчас  нужно   идти  
+
+[LINE]
+Speaker175: John? Who~is    Sandra?!
+~           Джон  кто~такая Сандра  
+
+[ARRANGE]
+> Наберите услышанное
+> [(Lucy) (starts)   (eating) (her)  (popcorn).]
+~   Люси   начинает   есть     свой   попкорн   
+
+[LINE]
+Speaker509: Oh, wow.        John, my  friend, I think you're~going~to~miss that movie.
+~           о   вот~это~да  Джон  мой друг    я думаю ты~пропустишь        этот фильм 
+
+[MULTIPLE_CHOICE]
+> Lucy thinks       John will~miss the~movie because…   
+~ Люси думает~(что) Джон пропустит фильм     потому~что 
++ …he~needs  to~explain some      things to~Shirley.
+~  ему~нужно объяснить  некоторые вещи   Ширли      
+- …he~needs  to~eat some    popcorn. 
+~  ему~нужно съесть немного попкорна 
+- …there~are~no~more~tickets.
+~  билетов~уже~нет           
+
+[MATCH]
+> Коснитесь пар
+- She <> она
+- is starting <> начинается
+- we've <> мы
+- Who's <> кто
+- wow <> вот это да
+
