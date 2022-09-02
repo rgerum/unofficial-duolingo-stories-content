@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=제가 다 봤어요
+icon=5efd5d3e85a10ad5c37e72a842288f5c3d967300
+set=27|4
+
+[HEADER]
+> I  Saw You
+~ 제가 봤어요 당신을
+
+[LINE]
+> Lily~is working in~a~clothes~store.
+~ 릴리가     일하고~있다  옷가게에서              
+
+[LINE]
+> She stops  a well-dressed woman leaving the~store.
+~ 그녀가 멈춰~세운다 한 옷을~잘~차려입은    여자가   나가려는~걸  가게에서      
+
+[LINE]
+Speaker416: Ma'am, did~you~just~put that sweater in~your~purse?
+~           저기요    방금~넣으셨어요         그    스웨터를    손님의~가방에       
+
+[LINE]
+Speaker528: My purse? No. 
+~           내  가방에요   아니요 
+
+[LINE]
+Speaker416: Yes, you~did. I  saw~you.
+~           네    그러셨어요    제가 봤어요     
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker528: Oh, [this~sweater]?
+~           아    이~스웨터요        
++ this sweater
+- this weather
+- it's better
+
+[LINE]
+Speaker528: I~was going~to~pay~for~it, but I~forgot. I'm old.     My memory~is bad.
+~           내가    계산하려고~했어요            하지만 깜빡했어요     내가  나이가~많아서  내  기억력이      나빠요 
+
+[MULTIPLE_CHOICE]
+> 그 여자는 스웨터 값을 지불하지 않은 이유가 무엇이라고 했나요?
+- 그 스웨터 사이즈가 맞지 않아서.
++ 기억력이 나빠서.
+- 그 스웨터를 원치 않아서.
+
+[LINE]
+Speaker416: Wait, is~that a~scarf in~your~purse~too?
+~           잠깐만요  그거      스카프예요   손님의~가방에~또~들어있는    
+
+[LINE]
+Speaker528: Oops!
+~           아~이런 
+
+[LINE]
+Speaker416: Can~you~please~take everything out~of~your~purse?
+~           꺼내주시겠어요             모든~걸       손님의~가방에서          
+
+[LINE]
+> The woman takes a~scarf, a~belt, and a~watch  out~of~the~purse.
+~ 그   여자가   꺼낸다   스카프~하나   벨트~하나   그리고 손목시계~하나를 가방에서             
+
+[LINE]
+Speaker416: Were~you trying~to~steal all~of~these~things?!
+~           손님이      훔치려고~했던~거예요     이~모든~것들을             
+
+[LINE]
+Speaker528: Yes, I~was! I love stealing! It's exciting!
+~           네    그래요    난 좋아해요 훔치는~걸     그건   신나요      
+
+[POINT_TO_PHRASE]
+> “심심해지다”를 뜻하는 말을 고르세요.
+Speaker528: (I) (live~alone). I (+get~bored). (One~day), you'll~understand.
+~            난   혼자~살아요       난   심심해진다구요      언젠가       당신도~이해하게~될~거예요    
+
+[LINE]
+Speaker528: I can~leave, right? I'm a~nice~old~woman.
+~           나 가도~돼죠      그렇죠    나는  착한~할머니이니까        
+
+[LINE]
+Speaker416: Are~you~nice? 
+~           할머니가~착한~사람이에요 
+
+[LINE]
+Speaker528: Not~really. But you could~let~me~leave because you're a~nice~young~woman.
+~           아니~별로       하지만 당신이 날~가게~해줘요           왜냐하면    당신은    젊고~착한~여자니까요        
+
+[MULTIPLE_CHOICE]
+> 그 할머니 손님이 릴리에게 그녀는 착한 사람이라고 말하는 이유는 무엇인가요?
+- 릴리가 그녀의 손녀라고 생각해서.
++ 릴리가 그녀를 그냥 보내주길 바래서.
+- 릴리와 함께 쇼핑을 가고 싶어서.
+
+[LINE]
+Speaker416: OK.   You  can~leave. But don't~tell~anyone that~I'm~nice.
+~           알겠어요  할머니는 가셔도~좋아요    하지만 아무한테도~말하지~마세요     제가~착한~사람이라고   
+
+[LINE]
+Speaker528: OK!   Thanks! Goodbye!
+~           알았어요  고마워요    잘~있어요   
+
+[LINE]
+> The old~woman takes~her~purse~and leaves.
+~ 그   할머니가      그녀의~가방을~가지고         나간다    
+
+[LINE]
+> Lily's boss runs~into the~store.
+~ 릴리의    사장님이 뛰어~들어온다   가게로       
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker113: Did~you~let~that~woman [leave]?
+~           네가~저~할머니~~해도~좋다고~했니     나가다    
++ leave
+~ 나가다  
+- in~your~purse
+~ 네~가방에        
+- live~alone
+~ 혼자~살다     
+
+[LINE]
+Speaker416: Of~course I~did. Why~not?     
+~           물론        그랬죠    안~될~이유라도~있나요 
+
+[LINE]
+Speaker113: She    just stole a~$300~purse!
+~           저~할머니가 방금   훔쳐~갔어 삼백~달러짜리~가방을  
+
+[MULTIPLE_CHOICE]
+> 이런! 릴리의 사장님이 그토록 화가 난 이유는 무엇인가요?
+- 릴리가 할머니 손님에게 물건을 훔치라고 해서.
++ 할머니 손님이 비싼 가방을 훔쳐 가서.
+- 릴리가 비싼 가방을 훔쳐서.
+
+[MATCH]
+> 짝을 누르세요
+- One day <> 언젠가
+- get bored <> 심심해진다구요
+- I'm <> 나는
+- a nice young woman <> 젊고 착한 여자니까요
+- Were you <> 손님이
+
