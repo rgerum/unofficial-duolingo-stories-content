@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=लिली के घर का कूड़ा
+icon=093ca1e21f226b69b5c86085e1710ffbca164b46
+set=32|5
+
+[HEADER]
+> Lily Helps       with~the~Trash  
+~ लिली मदद~करती~है कूड़ा~फेंकने~में 
+
+[LINE]
+> Lucy is outside of~her~apartment~building.
+~ लूसी है बाहर    अपने~फ़्लैट~की~इमारत~के   
+
+[LINE]
+> She~notices       that Lily is~moving     a  carpet, a  lamp, and a  big, expensive TV   outside.
+~ उसे~दिखाई~देता~है कि   लिली लेकर~आ~रही~है एक कालीन   एक लैंप  और  एक बड़ा  महँगा     टीवी बाहर    
+
+[LINE]
+Speaker509: Are~you  moving?       
+~           क्या~तुम घर~बदल~रही~हो 
+
+[LINE]
+Speaker416: No.       
+~           नहीं~(तो) 
+
+[MULTIPLE_CHOICE]
+> लिली एक नये फ़्लैट में जाकर रहने वाली है।
+- हाँ, यह सही है।
++ नहीं, ऐसा नहीं है।
+
+[ARRANGE]
+> सुनकर शब्द चुनें
+Speaker509: [(Are~you)  (selling)    (these) (things)?]    
+~             क्या~तुम   बेच~रही~हो   इन      चीज़ों~(को)   
+
+[LINE]
+Speaker416: No.       
+~           नहीं~(तो) 
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker509: Then     why   are~you putting [all~of~these~things] here?     
+~           (तो)~फिर क्यों हो~तुम  रख~रही   इन~सभी~चीज़ों~(को)    यहाँ~(पर) 
+- all of these rings
+- a wall of his things
++ all of these things
+
+[LINE]
+Speaker416: Because my   mom      asked~me     to~take    the~trash outside.
+~           क्योंकि मेरी माँ~(ने) मुझसे~कहा~है ले~जाने~को कूड़ा      बाहर    
+
+[LINE]
+Speaker509: I~don't~think       this is what~she~means.        
+~           मुझे~नहीं~लगता~(कि) यह   है (जो)~वे~कहना~चाहती~हैं 
+
+[LINE]
+Speaker509: That carpet is      new.
+~           वह   कालीन  (तो)~है नया 
+
+[MULTIPLE_CHOICE]
+> लूसी को यह क्यों लगता है कि उस कालीन को कूड़े में नहीं फेंका जाना चाहिए?
+- क्योंकि वह खूबसूरत है।
++ क्योंकि वह नया है।
+- क्योंकि वह बाहर रखा हुआ है।
+
+[POINT_TO_PHRASE]
+> उस विकल्प को चुनें जिसका मतलब "गंध आ रही है" है।
+Speaker416: That~carpet   (+smells)     (like~a~dog).       (And) we~don't~have          a   (dog).   
+~           उस~कालीन~(से)   गंध~आती~है   किसी~कुत्ते~जैसी    और   हमारे~पास~है~(भी)~नहीं कोई  कुत्ता  
+
+[LINE]
+Speaker509: Well, yes, it~does~smell  awful.     And that lamp?                    
+~           (तो)  हाँ  इसकी~गंध~है~तो बहुत~बुरी  और  वह   लैंप~(क्यों~फेंक~रही~हो) 
+
+[LINE]
+Speaker416: I'd~prefer                      to~sit in~the~dark.
+~           (इससे~अच्छा~तो)~मैं~पसंद~करुँगी बैठना  अँधेरे~में  
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker509: But   that TV   is~definitely~not  trash. It [looks~expensive].          
+~           लेकिन वह   टीवी (तो)~पक्का~नहीं~है कूड़ा   वह  (देखने~में)~लगता~है~महँगा  
+- took the offensive
++ looks expensive
+- looks at pencils
+
+[LINE]
+Speaker416: Do~you  watch     TV?   Every show is           about~money,~murder,~or~dessert.      
+~           क्या~आप देखती~हैं टीवी  हर    शो   (तो)~होता~है पैसे,~खून-खराबे,~या~मिठाई~के~बारे~में 
+
+[LINE]
+Speaker509: Hmm. I   agree,    but   your     mom      is~going~to~be~mad when she sees    this.   
+~           ~    मैं सहमत~हूँ  लेकिन तुम्हारी माँ~(को) गुस्सा~आ~जाएगा     जब   वे  देखेंगी यह~(सब) 
+
+[LINE]
+Speaker416: Yes, but   she will~never~ask~me         to~help     with~the~trash  again. 
+~           हाँ  लेकिन वे  फिर~कभी~मुझसे~नहीं~कहेंगी मदद~करने~को कूड़ा~फेंकने~में दुबारा 
+
+[MULTIPLE_CHOICE]
+> लिली की माँ कूड़ा फेंकने में फिर कभी लिली की मदद क्यों नहीं माँगेंगी?
+- क्योंकि लिली के घर में कूड़ा है ही नहीं।
++ क्योंकि जो चीज़ें कूड़े में फेंकनी वाली नहीं हैं, लिली उन्हें भी बाहर रख रही है।
+- क्योंकि लूसी सबका कूड़ा चुरा लेती है।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- what she means <> वे कहना चाहती हैं
+- with the trash <> कूड़ा फेंकने में
+- Then <> फिर
+- Are you <> क्या तुम
+- this <> यह
+
