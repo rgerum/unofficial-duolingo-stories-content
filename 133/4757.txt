@@ -1,0 +1,118 @@
+[DATA]
+fromLanguageName=티켓 두 장이요!
+icon=70fa18585d1f8f16f69d7dd4711e8595cdcae158
+set=4|2
+
+[HEADER]
+> Two~Tickets~Please!
+~ 티켓~두~장이요           
+
+[LINE]
+> Junior~is at~the~airport.
+~ 주니어가      공항에~있다         
+
+[LINE]
+> He talks to~the~woman~at~the~desk.
+~ 그가 이야기한다 카운터에~있는~여자와              
+
+[LINE]
+Speaker659: Can~I~help~you?
+~           도와~줄까          
+
+[LINE]
+Speaker415: I  want~to~buy a~ticket~to~Barcelona.
+~           저는 사고~싶어요      바르셀로나행~티켓~한~장을        
+
+[LINE]
+Speaker659: Where~are~your~parents?
+~           부모님은~어디~계시니            
+
+[MULTIPLE_CHOICE]
+> 주니어는 성인이다.
+- 네, 맞아요.
++ 아니요, 그렇지 않아요.
+
+[LINE]
+Speaker415: Excuse~me. I'm not~seven~years~old.
+~           저기요        저는  일곱~살이~아니에요          
+
+[LINE]
+Speaker659: How~old~are~you?
+~           몇~살이니           
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker415: I'm eight [years~old].
+~           저는  여덟     ~살이에요      
++ years old
+- you sold
+- you're old
+
+[LINE]
+Speaker659: A~ticket~to~Barcelona~is four~hundred dollars.
+~           바르셀로나행~티켓~한~장은           사백           달러야     
+
+[LINE]
+Speaker415: OK…   Where can~I~go for~thirteen~dollars?
+~           알겠어요  어디에   갈~수~있나요  십삼~달러로               
+
+[MULTIPLE_CHOICE]
+> 이런! 주니어가 바르셀로나에 가지 못하는 이유는 무엇인가요?
+- 비행기 타는 게 무서워서.
++ 돈이 13달러 밖에 없어서.
+- 비행기가 만석이라서.
+
+[LINE]
+> Junior's dad, Eddy, runs to~the~desk.
+~ 주니어의     아빠   에디가   뛰어온다 카운터로        
+
+[LINE]
+Speaker414: Junior! There~you~are! What~are~you~doing at~the~airport?
+~           주니어     너~거기~있었네       뭐하고~있니             공항에서           
+
+[POINT_TO_PHRASE]
+> "수학 시험"을 뜻하는 말을 고르세요.
+Speaker415: I  have (+a~math~test) (today). I  (need~to~leave) the (country).
+~           저는 있어요    수학~시험이        오늘      저는  떠나야~해요         이    나라를      
+
+[LINE]
+Speaker414: OK. How~much~is~the~ticket?
+~           그래  티켓이~얼마야                
+
+[LINE]
+Speaker415: Four~hundred dollars.
+~           사백           달러요     
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker414: How~much~are [two~tickets]?
+~           얼마야           티켓~두~장은      
+- math~tests
+~ 수학~시험     
++ two~tickets
+~ 티켓~두~장     
+- eight~years~old
+~ 여덟~살           
+
+[LINE]
+Speaker415: Eight~hundred dollars.
+~           팔백            달러요     
+
+[LINE]
+Speaker414: Right! You're great~at~math! Now go~to~school.
+~           맞았어    넌      수학을~잘~하네       이제  학교에~가렴       
+
+[MULTIPLE_CHOICE]
+> 주니어가 바르셀로나행 티켓을 사고 싶어 한 이유는 무엇인가요?
+- 건축물을 보고 싶어서.
+- 아빠에게 깜짝 휴가를 선물하고 싶어서.
++ 수학 시험을 보고 싶지 않아서.
+
+[MATCH]
+> 짝을 누르세요
+- great at math <> 수학을 잘 하네
+- eight <> 여덟
+- want to buy <> 사고 싶어요
+- Right <> 맞았어
+- What are you doing <> 뭐하고 있니
+
