@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=분위기 전환이 필요해
+icon=a2ac5b4bdad2cf4c70c2d3a4f3ff8e0ade6aba2d
+set=26|1
+
+[HEADER]
+> Time~for~a~Change
+~ 변화가~필요해          
+
+[LINE]
+> Lin brings a   big blue chair into~Lucy's~apartment.
+~ 린이  가져온다   하나의 큰   파란색  의자를   루시의~아파트로              
+
+[LINE]
+Speaker508: Look at~the~new~chair I  found for    the~living~room!
+~           보세요  새~의자를            제가 발견한   ~에~두려고 거실              
+
+[LINE]
+Speaker509: I can't~believe you actually paid~money for~that!
+~           난 믿을~수가~없어      네가  실제로      돈을~냈다니     그걸~사려고   
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker509: [How~much~did~it~cost]?
+~            얼마였니                  
+- Have such a cost
+- How much he lost
++ How much did it cost
+
+[LINE]
+Speaker508: It~was~free! I  found~it outside, in~front~of the~blue~house.
+~           공짜였어요        제가 발견했어요    밖에서      ~앞에         파란~집           
+
+[LINE]
+Speaker508: I think the~woman~who~lived~there died…     but it's a~free~chair!
+~           제 생각엔   거기~살던~여자가                 죽은~것~같아요  하지만 이건   공짜~의자예요      
+
+[LINE]
+Speaker509: You~aren't~going~to~keep~it in~our~living~room, are~you?
+~           그걸~두려는~건~아니지                거실에                 그렇지     
+
+[MULTIPLE_CHOICE]
+> 아마도 루시는…
+- …새 아파트로 이사할 것 같다.
++ …그 의자를 좋아하지 않는 것 같다.
+- …그 의자가 맘에 드는 것 같다.
+
+[LINE]
+Speaker508: I~knew     you~were going~to~hate~it.
+~           그러실~줄~알았어요 할머니가     싫어할~것이다          
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker509: [(It) (won't~look~nice) (with~our~curtains)…]
+~             그건   어울리지~않을~거야        우리~커튼이랑             
+
+[LINE]
+Speaker509: But I suppose we  can~buy new curtains.
+~           하지만 내 생각엔     우리가 사면~되겠네  새   커튼을      
+
+[LINE]
+Speaker508: Hey! I like   our curtains…
+~           할머니  전 맘에~들어요 우리  커튼이      
+
+[LINE]
+Speaker509: But if we  buy new curtains, then we'll~need~to~buy new pillows~too…
+~           하지만 만약 우리가 산다면 새   커튼을       그럼   사야~되겠네            새   쿠션도         
+
+[LINE]
+Speaker508: I like   the~pillows we  have  now…
+~           전 맘에~들어요 쿠션이         우리가 갖고~있는 지금  
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker509: Ooh! Now I'm going~to [buy~new~lamps] too!
+~           오    이제  난   ~할~거야     새~조명등을~사다      또한  
++ buy new lamps
+- buy new legs
+- but now lamps
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker509: [(This) (room~is) (going~to~be~beautiful)!]
+~             여기     거실이       아름다워질거야                 
+
+[LINE]
+Speaker508: I like   how~the~room~looks now.
+~           전 맘에~들어요 거실~상태가             지금  
+
+[LINE]
+Speaker509: Too~bad! I'm going~to~change the~room now! I'm~excited!
+~           어쩔~수~없어  난   바꿀거야            거실을      이제   신나는~걸       
+
+[LINE]
+Speaker508: We're~going~to~have~to~buy all~new~things…
+~           사야~하잖아요                    다~새걸로          
+
+[LINE]
+Speaker509: That's~OK, the chair~was free…  remember?
+~           괜찮아        그   의자는       공짜였잖아  기억나      
+
+[MULTIPLE_CHOICE]
+> 루시가 새 가구를 사고 싶어하는 이유는 무엇인가요?
+- 기존에 있던 가구들에서 불쾌한 냄새가 나기 때문이다.
+- 그녀의 아파트에 가구가 하나도 없기 때문이다.
++ 새 의자가 기존에 있던 가구들과 하나도 어울리지 않기 때문이다.
+
+[MATCH]
+> 짝을 누르세요
+- This <> 여기
+- brings <> 가져온다
+- all new things <> 다 새걸로
+- I <> 제가
+- buy new lamps <> 새 조명등을 사다
+
