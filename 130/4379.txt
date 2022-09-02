@@ -1,0 +1,103 @@
+[DATA]
+fromLanguageName=Выходной
+icon=5450714ebd6e5c59daf764d85a8fc7f9edb1c23a
+set=11|4
+
+[HEADER]
+> Day~Off 
+~ выходной
+
+[LINE]
+> Vikram is~making~tea  in the~kitchen.
+~ Викрам заваривает~чай на кухне       
+
+[LINE]
+> His wife, Priti, walks   into the~room.
+~ его жена  Прити  заходит в    комнату  
+
+[LINE]
+Speaker560: Good   morning, Vikram!
+~           доброе утро     Викрам 
+
+[LINE]
+Speaker593: Wait…    why~are you home? It's~Tuesday.     
+~           подожди  почему  ты  дома  (сегодня)~вторник 
+
+[LINE]
+Speaker560: I'm~not~working today!   I~have a~day~off!
+~           я~не~работаю    сегодня  у~меня выходной  
+
+[MULTIPLE_CHOICE]
+> Прити взяла выходной.
++ Да, это правда.
+- Нет, это неправда.
+
+[LINE]
+Speaker560: I'm~excited.      I want to~do   so  many  things!
+~           я~в~предвкушении  я хочу сделать так много вещей  
+
+[LINE]
+> Priti goes to the~gym.        
+~ Прити идет в  тренажёрный~зал 
+
+[LINE]
+> Then,  she visits   a~museum.
+~ затем  она посещает музей    
+
+[MULTIPLE_CHOICE]
+> Прити пошла…
++ ...в тренажёрный зал и в музей.
+- ...в музей и в кино.
+- ...на работу.
+
+[LINE]
+> When  she gets~home,          Priti reads  a~book in the~garden.
+~ когда она возвращается~домой  Прити читает книгу  в  саду       
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker593: Hi,     honey! Are~you~having [a~nice~day]?  
+~           привет  милая  у~тебя          хороший~день  
+- a nice way
++ a nice day
+- a rice tray
+
+[LINE]
+Speaker560: Yes! But let's make     dinner now!   
+~           да   но  давай готовить ужин   сейчас 
+
+[LINE]
+Speaker593: Dinner? But it's~only       2~p.m.  
+~           ужин    но  (сейчас)~только два~часа
+
+[LINE]
+Speaker560: It's~so~early. What can~I  do     now?   
+~           так~рано       что  я~могу делать сейчас 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «расслабиться».
+Speaker593: (You) (can)    (sit)   and (+relax).       
+~            ты    можешь   сесть  и     расслабиться  
+
+[LINE]
+> Priti sits          for~a~minute.
+~ Прити присаживается на~минуту    
+
+[LINE]
+Speaker560: Relaxing      is~boring. I'm going to~work.  
+~           расслабляться скучно     я   иду   на~работу 
+
+[MULTIPLE_CHOICE]
+> Почему Прити всё же решила пойти на работу?
++ Ей стало скучно отдыхать.
+- Она не хотела готовить ужин.
+- Она вспомнила, что у неё много дел.
+
+[MATCH]
+> Коснитесь пар
+- relax <> расслабиться
+- Vikram <> Викрам
+- It's Tuesday <> вторник
+- to work <> на работу
+- do <> делать
+
