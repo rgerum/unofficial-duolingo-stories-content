@@ -1,0 +1,118 @@
+[DATA]
+fromLanguageName=Два квитки, будь ласка
+icon=fd5ae5efca52f7edd767e216d1ea329adf2403a5
+set=6|3
+
+[HEADER]
+> Two Tickets Please!    
+~ два квитки  будь~ласка 
+
+[LINE]
+> Junior  is~at~the~airport.
+~ Джуніор в~аеропорту       
+
+[LINE]
+> He~talks~to      the~woman at~the~desk.
+~ він~розмовляє~із жінкою    за~стійкою  
+
+[LINE]
+Speaker659: Can~I  help      you? 
+~           можу~я допомогти тобі 
+
+[LINE]
+Speaker415: I want to~buy a~ticket to~Barcelona.
+~           я хочу купити квиток   до~Барселони 
+
+[LINE]
+Speaker659: Where~are your parents?
+~           де        твої батьки  
+
+[MULTIPLE_CHOICE]
+> Джуніор — дорослий.
+- Так, це правда.
++ Ні, це неправда.
+
+[LINE]
+Speaker415: Excuse~me. I'm~not seven years~old.
+~           вибачте    мені~не сім   років     
+
+[LINE]
+Speaker659: How~old~are~you?   
+~           скільки~тобі~років 
+
+[SELECT_PHRASE]
+> Виберіть пропущену фразу
+Speaker415: I'm~eight  [years~old].
+~           мені~вісім  років      
++ years old
+- you are old
+- you sold
+
+[LINE]
+Speaker659: A~ticket to~Barcelona is~four~hundred~dollars. 
+~           квиток   до~Барселони коштує~чотириста~доларів 
+
+[LINE]
+Speaker415: OK…    Where~can~I go      for thirteen   dollars?
+~           добре  куди~я~можу поїхати за  тринадцять доларів 
+
+[MULTIPLE_CHOICE]
+> Чому Джуніор не може поїхати до Барселони?
++ У нього лише тринадцять доларів.
+- Рейс вже заповнений.
+- Він боїться літати.
+
+[LINE]
+> Junior's~dad,    Eddy, runs   to~the~desk.
+~ батько~Джуніора  Едді  біжить до~стійки   
+
+[LINE]
+Speaker414: Junior!   There~you~are! What~are~you~doing at the~airport?
+~           Джуніоре  ось~де~ти      що~ти~робиш        в  аеропорту   
+
+[POINT_TO_PHRASE]
+> Виберіть варіант, який означає «контрольна робота з математики».
+Speaker415: (I~have) (+a~math~test)                    (today).    (I~need)        to~leave~the~country.
+~            у~мене    контрольна~робота~з~математики   сьогодні    мені~потрібно  поїхати~з~країни     
+
+[LINE]
+Speaker414: OK.    How~much~is    the~ticket?
+~           добре  скільки~коштує квиток     
+
+[LINE]
+Speaker415: Four~hundred dollars.
+~           чотириста    доларів 
+
+[CONTINUATION]
+> Що далі?
+Speaker414: How~much~are     [two tickets]?
+~           скільки~коштують  два квитки   
++ two~tickets 
+~ два~квитки  
+- eight~years~old 
+~ вісім~років     
+- math~test         
+~ тест~з~математики 
+
+[LINE]
+Speaker415: Eight~hundred dollars.
+~           вісімсот      доларів 
+
+[LINE]
+Speaker414: Right!     You're~great~at~math!       Now   go~to~school.
+~           правильно  ти~чудово~знаєш~математику  тепер іди~до~школи 
+
+[MULTIPLE_CHOICE]
+> Чому Джуніор хотів купити квиток до Барселони?
+- Він хотів побачити архітектуру міста.
+- Він хотів здивувати тата поїздкою.
++ Він не хотів писати контрольну роботу з математики.
+
+[MATCH]
+> З’єднайте пари
+- to Barcelona <> до Барселони
+- How much are <> скільки коштують
+- OK <> добре
+- How much is <> скільки коштує
+- at the desk <> за стійкою
+
