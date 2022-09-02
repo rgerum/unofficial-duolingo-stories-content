@@ -1,0 +1,157 @@
+[DATA]
+fromLanguageName=Присмотри за птичкой
+icon=bec6ac06369ced77777ad5151e3a385213c413b8
+set=32|2
+
+[HEADER]
+> Bird~Sitting  
+~ уход~за~птицей
+
+[LINE]
+> Lin is~on~the~phone           with her   friend, Garrett.  
+~ Лин разговаривает~по~телефону со   своим другом  Гарреттом 
+
+[LINE]
+Speaker508: Hi,     Garrett!
+~           привет  Гарретт 
+
+[LINE]
+Speaker508: Are~you~coming home  tomorrow or  on Tuesday?
+~           ты~приедешь    домой завтра   или во вторник 
+
+[LINE]
+Speaker7: Tomorrow.
+~         завтра   
+
+[LINE]
+Speaker7: Thank~you for~taking~care of~my  house and my   bird! 
+~         спасибо   что~заботишься  о~моём доме  и   моей птице 
+
+[MULTIPLE_CHOICE]
+> Лин присматривала за птицей своего друга, пока он был в отъезде.
+- Нет, это неправда.
++ Да, это правда.
+
+[LINE]
+Speaker508: You're~welcome.
+~           пожалуйста     
+
+[LINE]
+Speaker7: Is~everything~OK at the~house?
+~         всё~хорошо       в  доме      
+
+[LINE]
+Speaker508: Well, I~have bad    news.   
+~           ну    у~меня плохая новость 
+
+[LINE]
+Speaker508: Your bird  flew~out~of the~window.
+~           твоя птица вылетела~из окна       
+
+[LINE]
+Speaker7: What?!
+~         что   
+
+[LINE]
+Speaker508: The~cage~door was  open.   
+~           дверь~клетки  была открыта 
+
+[MULTIPLE_CHOICE]
+> Что было открыто?
+- душевая кабина
+- холодильник
++ клетка
+
+[LINE]
+Speaker7: How did~that happen?   
+~         как это      произошло 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker508: [(It~opened)     (when)  (the~cage) (fell).] 
+~             она~открылась   когда   клетка     упала   
+
+[LINE]
+Speaker7: What?! Why    did~it~fall?
+~         что    почему она~упала   
+
+[LINE]
+Speaker508: Well, your bed     fell~through      the~floor and hit    the~cage.
+~           ну    твоя кровать провалилась~через пол       и   задела клетку   
+
+[LINE]
+Speaker7: My  bed     fell~through      the~floor?!
+~         моя кровать провалилась~через пол        
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker7: [How~did~that~happen]?
+~          как~это~произошло    
+- How did that open
++ How did that happen
+- Who do they have then
+
+[LINE]
+Speaker508: Well, there~was a~lot~of water on the~floor.
+~           ну    было      много    воды  на полу      
+
+[LINE]
+Speaker7: Water? Why    was~there so  much  water?
+~         воды   почему там~было  так много воды  
+
+[LINE]
+Speaker508: Well, I used         water to~stop~the~fire.      
+~           ну    я использовала воду  (чтобы)~потушить~пожар 
+
+[LINE]
+Speaker7: You started~a~fire?!
+~         ты  устроила~пожар  
+
+[LINE]
+Speaker508: But only   on the~second floor.
+~           но  только на втором     этаже 
+
+[LINE]
+Speaker7: What did~you~do?!
+~         что  ты~делала   
+
+[LINE]
+Speaker508: I think it~was because~of the~meditation~candles.
+~           я думаю он~был из-за      свечей~для~медитации   
+
+[MULTIPLE_CHOICE]
+> Брр! Что стало причиной пожара?
+- свечи на праздничном торте Лин
+- стая птиц
++ свечи для медитации Лин
+
+[LINE]
+Speaker7: Meditation~candles?  
+~         свечей~для~медитации 
+
+[LINE]
+Speaker508: Oh yeah, I started~taking     meditation~classes!  
+~           о  да    я начала~ходить~(на) занятия~по~медитации 
+
+[LINE]
+Speaker508: Anyway,  I can  take~care    of~your house next          month  too... 
+~           в~общем  я могу позаботиться о~твоём доме  (в)~следующем месяце тоже   
+
+[LINE]
+Speaker508: Hello? Garrett, are~you~still there?
+~           алло   Гарретт  ты~ещё        там   
+
+[MULTIPLE_CHOICE]
+> Почему Гаррет повесил трубку?
+- Он идёт на занятие по медитации.
++ Он злится на Лин из-за того, что она разгромила его дом.
+- Он зол из-за того, что Лин украла его птицу.
+
+[MATCH]
+> Коснитесь пар
+- How <> как
+- did that <> это
+- You're welcome <> пожалуйста
+- You <> ты
+- open <> открыта
+
