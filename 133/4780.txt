@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=일기장
+icon=11054d83adbe171cda3e5669c57e1e26d6cbd8db
+set=10|1
+
+[HEADER]
+> The~Diary
+~ 일기장      
+
+[LINE]
+> Zari~and~Lily~are at~school.
+~ 자리와~릴리가           학교에~있다    
+
+[LINE]
+Speaker418: Lily, I'm so scared! I  can't~find my diary!
+~           릴리    나는  너무 두려워     나는 못~찾겠어      내  일기장을  
+
+[LINE]
+Speaker416: OK?   
+~           그...래 
+
+[LINE]
+Speaker418: I  write  about~Miguel in~my~diary!
+~           나는 쓴단~말이야 미겔에~대해서      내~일기장에      
+
+[LINE]
+Speaker416: Miguel? The boy in~our~class?
+~           미겔      그   남자애 우리~반에~있는     
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker418: Yes! [We~need~to~find~it]!
+~           응     우리는~그것을~찾아야~해       
++ We need to find it
+- We need a fine hat
+- He needs to find it
+
+[LINE]
+Speaker416: Fine.
+~           알겠어  
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+> [(They) (look) (for~the~diary) (in~the~hall).]
+~   그들이    찾아본다   일기장을            복도에서          
+
+[LINE]
+Speaker416: Sorry, it~isn't here.
+~           미안하지만  그건~없어    여기에  
+
+[LINE]
+Speaker418: This~is a~bad~day!
+~           오늘은     최악의~날이야   
+
+[LINE]
+> They see Miguel. He has    a~pink~diary.
+~ 그들이  본다  미겔을     그가 가지고~있다 핑크색~일기장을     
+
+[LINE]
+Speaker418: Oh~no! It's Miguel! This~is a~very~bad~day.
+~           아~이런   저건   미겔이잖아   오늘은     정말~최악의~날이야     
+
+[MULTIPLE_CHOICE]
+> 자리가 오늘이 정말 최악이라고 말하는 이유는 무엇인가요?
+- 릴리가 미겔과 사귀기 시작해서.
++ 미겔이 그녀의 일기장을 읽었다고 생각해서.
+-  미겔이 전학 간다는 얘기를 들어서.
+
+[LINE]
+Speaker790: Hi Zari. Is~this your diary?
+~           안녕 자리    이거      네    일기장이야 
+
+[LINE]
+Speaker418: Uh… No!
+~           어   아니 
+
+[LINE]
+Speaker416: But your name~is on~it.        
+~           하지만 네    이름이     (그~위에)~쓰여~있는데 
+
+[LINE]
+Speaker418: OK. That~is my diary. But…
+~           맞아  그건      내  일기장이야  하지만 
+
+[POINT_TO_PHRASE]
+> “손글씨”를 뜻하는 말을 고르세요.
+Speaker790: (Don't~worry)… I  (can't~read) (your) (+handwriting).
+~            걱정~마          나는  읽을~수가~없어     네       손글씨를         
+
+[LINE]
+Speaker418: Oh… good.
+~           아   다행이다 
+
+[LINE]
+Speaker790: So, do~you~want~to~see a~movie with~me on~Friday?
+~           참   보러~갈래              영화      나랑      금요일에      
+
+[LINE]
+Speaker418: Wow, yes!
+~           우와   그래  
+
+[LINE]
+> Miguel smiles at~Zari. He leaves.
+~ 미겔이    미소~짓는다 자리에게     그가 떠난다    
+
+[LINE]
+Speaker418: Lily, this~is a~great~day!
+~           릴리    오늘은     최고의~날이야     
+
+[MULTIPLE_CHOICE]
+> 자리가 오늘은 최고의 날이라며 말을 바꾼 이유는 무엇인가요?
++ 미겔이 그녀에게 함께 영화 보러 가자고 했기 때문이다.
+- 그녀가 학교 과제에서 좋은 점수를 받았기 때문이다.
+- 미겔이 그녀가 일기장에 쓴 모든 것을 읽었기 때문이다.
+
+[MATCH]
+> 짝을 누르세요
+- a very bad day <> 정말 최악의 날이야
+- good <> 다행이다
+- a movie <> 영화
+- Oh no <> 아 이런
+- here <> 여기에
+
