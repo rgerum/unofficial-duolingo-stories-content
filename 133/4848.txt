@@ -1,0 +1,171 @@
+[DATA]
+fromLanguageName=여름용 스웨터
+icon=a6221e8716923ce3381efbbfc20a0913ce314fdb
+set=27|1
+
+[HEADER]
+> Summer Sweater
+~ 여름용    스웨터    
+
+[LINE]
+> Eddy~and~Junior~are at~the~mall.
+~ 에디와~주니어가            쇼핑몰에~있다     
+
+[LINE]
+Speaker415: Dad, why~are~we~here? You hate   this store.
+~           아빠   우리~여기~왜~온~거예요    아빠는 싫어하잖아요 이    가게를   
+
+[LINE]
+Speaker414: I need a~sweater.
+~           난 필요해  스웨터가~하나   
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker415: [But~it's~summer].
+~            하지만~지금~여름인데요     
++ But it's summer
+- Buy this summer
+- But it's somewhere
+
+[LINE]
+> A salesperson walks~up to~them.
+~ 한 점원이         걸어온다     그들~쪽으로  
+
+[LINE]
+Speaker561: Hi~again, Eddy!
+~           또~보네요     에디~씨 
+
+[LINE]
+Speaker414: Yes, my name~is Eddy. I~mean…    hello!
+~           네    제  이름이     에디에요  그러니까~제~말은  안녕하세요 
+
+[LINE]
+Speaker415: Oh. I know why we're here…  
+~           아   전 알겠어요 왜   우리가   여기~있는지 
+
+[LINE]
+Speaker561: Can~I~help~you find~something?
+~           제가~도와드릴까요      물건~찾는~걸        
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker414: Yes! I'm looking~for [a~sweater].
+~           네    저는  찾고~있어요       스웨터를~하나    
++ a   sweater
+~ 하나의 스웨터    
+- my pet fish
+~ 저의 애완  물고기 
+- Junior
+~ 주니어   
+
+[LINE]
+Speaker561: You~should~try~on this green sweater. It's going~to~look~good on~you.
+~           입어~보세요            이    초록색   스웨터를     이건   잘~어울릴~거예요          에디~씨에게 
+
+[LINE]
+Speaker414: Cool, thanks!
+~           좋아요   감사해요   
+
+[LINE]
+Speaker415: You don't~like green.
+~           아빤  좋아하지~않잖아요  초록색을  
+
+[LINE]
+Speaker414: Shh. No.  I love   green!
+~           쉿    아니야  난 정말~좋아해 초록색을  
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+> [(Eddy) (puts~on) (the~sweater).]
+~   에디가    입어~본다     그~스웨터를        
+
+[LINE]
+Speaker561: You~look~amazing!
+~           정말~멋있어요          
+
+[LINE]
+Speaker415: It looks~too~small, Dad.
+~           그건 너무~작아~보여요        아빠  
+
+[LINE]
+Speaker414: What? No. 
+~           뭐     아니야 
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker561: And it's [on~sale].
+~           그리고 이건    할인~중이에요  
+- on scale
+- one shell
++ on sale
+
+[LINE]
+Speaker414: I'll~take~it!
+~           이거~살~게요      
+
+[LINE]
+Speaker414: And… I'm going~to~wear it home.
+~           그리고  전   입고~갈게요        이걸 집에   
+
+[LINE]
+Speaker561: Great! Have~a~nice~day! I~hope I~see~you~again soon!!
+~           잘됐네요   좋은~하루~보내세요       바라요    에디~씨를~다시~보길     곧     
+
+[LINE]
+Speaker414: Really?
+~           정말요    
+
+[MULTIPLE_CHOICE]
+> 에디가 들뜬 것 같아요. 왜 그럴까요?
++ 점원이 그를 곧 다시 봤으면 좋겠다고 해서.
+- 주니어도 똑같은 스웨터를 살거라서.
+- 주니어와 같이 이제 피자를 먹으러 갈거라서.
+
+[LINE]
+Speaker415: Let's~go, Dad.
+~           가요        아빠  
+
+[LINE]
+> Eddy~and Junior leave the~store.
+~ 에디와      주니어가   떠난다   가게를       
+
+[LINE]
+Speaker415: Dad, are~you~sure you're~OK? Your face~is blue.
+~           아빠   확실해요         괜찮은~거      아빠의  얼굴이     파래요  
+
+[MULTIPLE_CHOICE]
+> 에디의 얼굴이 파래진 이유는 무엇인가요?
+- 파란색 화장을 하고 있기 때문에.
+- 블루베리를 많이 먹었기 때문에.
++ 스웨터가 너무 작기 때문에.
+
+[LINE]
+Speaker414: I'm fine!
+~           난   괜찮아  
+
+[LINE]
+Speaker415: You can't~take~the~sweater~off, can~you??
+~           아빤  스웨터가~벗겨지지~않죠                그렇죠      
+
+[LINE]
+Speaker414: No.      
+~           응,~안~벗겨져 
+
+[LINE]
+Speaker415: Let's~go~buy~some~scissors.
+~           가위~사러~가요                   
+
+[MULTIPLE_CHOICE]
+> 에디가 꽉 끼는 스웨터를 굳이 입은 이유는 무엇인가요?
+- 주니어가 입어 보라고 해서.
++ 옷가게 점원에게 잘 보이고 싶어서.
+- 날씨가 너무 추워서.
+
+[MATCH]
+> 짝을 누르세요
+- don't like <> 좋아하지 않잖아요
+- You <> 아빠는
+- Oh <> 아
+- Your <> 아빠의
+- Dad <> 아빠
+
