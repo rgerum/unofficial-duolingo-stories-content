@@ -1,0 +1,103 @@
+[DATA]
+fromLanguageName=Любовное письмо
+icon=4ba2733ddb8bdc3f0924c6463da01f5d1eccaf40
+set=15|2
+
+[HEADER]
+> Love~Letter    
+~ любовное~письмо
+
+[LINE]
+> Zari is~babysitting     her   neighbor, Junior.    They~are at~the~library.
+~ Зари присматривает~(за) своим соседом   Джуниором  они      в~библиотеке   
+
+[LINE]
+Speaker418: What~are~you~doing, Junior? 
+~           что~ты~делаешь      Джуниор 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker415: Um…  I'm [writing~a~letter].
+~           э-э  я    пишу~письмо       
+- writing to let her
++ writing a letter
+- riding it better
+
+[LINE]
+Speaker418: Who~are~you~writing~to?
+~           кому~ты~пишешь         
+
+[LINE]
+Speaker415: Well, it's~for~a~girl… I~like~her       a~lot.
+~           ну    оно~для~девочки  она~мне~нравится очень 
+
+[LINE]
+Speaker418: Ooh! Is~it~a~love~letter? Is~it for a~girl  in your  class? 
+~           о    это~любовное~письмо  оно   для девочки в  твоем классе 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «подросток».
+Speaker415: (No)…  (She's) (+a~teenager).
+~            нет    она      подросток   
+
+[LINE]
+Speaker418: A~teenager? Like~me?
+~           подросток   как~я   
+
+[LINE]
+Speaker415: Yes. She's my…  neighbor.
+~           да   она   моя  соседка  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker418: [Wait~a~minute].   She's a~teenager and she's your neighbor?
+~            подожди~минутку   она   подросток  и   она   твоя соседка  
+- Way to win it
++ Wait a minute
+- Late a minute
+
+[LINE]
+Speaker415: Um…  yes.
+~           э-э  да  
+
+[LINE]
+Speaker418: Hmm… And is~she~very~smart?
+~           хм   и   она~очень~умная   
+
+[LINE]
+Speaker415: Yes!
+~           да  
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker418: Aw Junior!  You love   me?   Sorry,  but you're [too~young~for~me].      
+~           о  Джуниор  ты  любишь меня  извини  но  ты      слишком~молод~для~меня  
+- a~love~letter  
+~ любовное~письмо
+- a~teenager
+~ подросток 
++ too~young~for~me      
+~ слишком~молод~для~меня
+
+[LINE]
+Speaker415: No!  I don't love  you…  I love  your best   friend,  Lily!
+~           нет  я не    люблю тебя  я люблю твою лучшую подругу  Лили 
+
+[LINE]
+Speaker415: Can~you   give   her my  letter?
+~           ты~можешь отдать ей  мое письмо 
+
+[MULTIPLE_CHOICE]
+> Зари думала, что Джуниор пишет любовное письмо ей, но на самом деле…
+- ...он писал книгу о любви.
+- …он делал домашнее задание.
++ …письмо предназначено для Лили.
+
+[MATCH]
+> Коснитесь пар
+- Is it <> оно
+- What are you doing <> что ты делаешь
+- letter <> письмо
+- Lily <> Лили
+- but <> но
+
