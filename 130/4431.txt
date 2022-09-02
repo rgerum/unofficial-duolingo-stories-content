@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Торт с драконами
+icon=c2fbecd45802dc974e3ec727a0206cfec66fd87f
+set=24|4
+
+[HEADER]
+> The~Dragon~Cake 
+~ торт~с~драконами
+
+[LINE]
+> Bea is~watching~Vikram decorate a~wedding~cake for her friend,  Kara.
+~ Би  смотрит~как~Викрам украшает свадебный~торт для её  подруги  Кары 
+
+[LINE]
+Speaker507: Wow,   I~love       how you decorated the~cake!
+~           ух~ты  мне~нравится как ты  украсил   торт     
+
+[LINE]
+Speaker507: The~bride and groom are~riding dragons,  just~like the~characters from Kara~and~David's~favorite~TV~show! 
+~           невеста   и   жених верхом~на  драконах  прямо~как персонажи      из   любимой~телепередачи~Кары~и~Дэвида 
+
+[MULTIPLE_CHOICE]
+> Торт украшен в тематике телепередачи.
+- Нет, это не правда.
++ Да, это правда.
+
+[LINE]
+Speaker593: Kara's my  first  customer. I just   hope    that she'll~like   the~cake.
+~           Кара   мой первый клиент    я просто надеюсь что  ей~понравится торт     
+
+[LINE]
+> Bea gets     a~text~message from Kara.
+~ Би  получает сообщение      от   Кары 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «отменила».
+Speaker507: (Oh), no!  (Kara) (+canceled) (the~wedding)!
+~            о    нет   Кара    отменила   свадьбу      
+
+[LINE]
+Speaker593: What? Why?!   
+~           что   почему  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker507: David [stole~her~car]   and left~the~country with another woman!   
+~           Дэвид  украл~её~машину  и   покинул~страну   с    другой  женщиной 
+- stood her car
++ stole her car
+- stole her a bar
+
+[LINE]
+Speaker593: That's awful! 
+~           это    ужасно 
+
+[LINE]
+Speaker507: I can't~believe~it.      
+~           я не~могу~в~это~поверить 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker593: I know. I really wanted Kara~to~like            [this cake].
+~           я знаю  я очень  хотел  (чтобы)~Каре~понравился  этот торт  
+- a~different TV~show     
+~ другая      телепередача
++ this cake
+~ этот торт
+- another woman  
+~ другая  женщина
+
+[LINE]
+Speaker507: I~have      an~idea.
+~           у~меня~есть идея    
+
+[LINE]
+> Bea redecorates            the~cake.  
+~ Би  переделывает~украшение (на)~торте 
+
+[LINE]
+Speaker593: Wait,    now    it~looks~like            the~dragons are~eating the~groom!
+~           подожди  теперь он~выглядит~так,~(будто) драконы     едят       жениха    
+
+[MULTIPLE_CHOICE]
+> Би переделала украшение на торте, потому что...
++ …Кара отменила свадьбу.
+- …её об этом попросила Кара.
+- …Викрам захотел оставить драконов себе.
+
+[LINE]
+> Bea takes~a~picture   and sends~it      to~Kara. Then,  she smiles.   
+~ Би  делает~фотографию и   отправляет~её Каре     потом  она улыбается 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker507: [(Kara) (just)       (sent)     (me)  (a~message)!]
+~             Кара   только~что   прислала   мне   сообщение   
+
+[LINE]
+Speaker593: What did~she~say?
+~           что  она~сказала 
+
+[LINE]
+Speaker507: She's still   really sad,      but she~loves     the~cake.
+~           она   всё~ещё очень  грустная  но  ей~понравился торт     
+
+[LINE]
+Speaker593: That's all~I~wanted!     
+~           это    всё,~чего~я~хотел 
+
+[MULTIPLE_CHOICE]
+> Почему Каре всё же понравился торт?
+- Она с нетерпением ждёт свадьбы.
+- Она решила выйти замуж за Викрама.
++ Драконы пожирают жениха.
+
+[MATCH]
+> Коснитесь пар
+- smiles <> улыбается
+- know <> знаю
+- woman <> женщиной
+- Kara <> Кары
+- customer <> клиент
+
