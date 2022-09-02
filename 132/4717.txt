@@ -1,0 +1,159 @@
+[DATA]
+fromLanguageName=ज़रा रास्ता बताना
+icon=0699ccdd9abbb4922a33be28cf6143a530843cc1
+set=26|4
+
+[HEADER]
+> Asking for~Directions
+~ पूछना  रास्ता        
+
+[LINE]
+> Lin and Bea are        looking  for~a~restaurant in~a~small~town.   
+~ लिन और  बी  (होते)~हैं ढूँढ~रहे एक~रेस्टोरेंट    एक~छोटे~से~शहर~में 
+
+[LINE]
+Speaker507: I'm     tired of~walking, and I'm     really hungry!
+~           मैं~हूँ थक~गई चलते-चलते   और  मैं~हूँ बहुत   भूखी   
+
+[LINE]
+Speaker508: I~think      it's            somewhere in~this~area. 
+~           मुझे~लगता~है वह~(होना~चाहिए) यहीं~कहीं इसी~इलाके~में 
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker508: Everyone says     [their~food~is~amazing].       
+~           सब~लोग   कहते~हैं  उनका~खाना~बहुत~बढ़िया~होता~है  
++ their food is amazing
+- their food is so lazy
+- your mood is amazing
+
+[LINE]
+Speaker507: We~need       to~ask   for~directions.
+~           हमें~ज़रूरत~है पूछने~की रास्ता         
+
+[LINE]
+> They stop      a  woman    on~the~street.
+~ वे   रोकते~हैं एक औरत~(को) सड़क~पर        
+
+[LINE]
+Speaker507: Can~you~please~give        us   directions to~Cecil's~Restaurant?
+~           क्या~आप~कृपया~बता~सकती~हैं हमें रास्ता     सेसिल~रेस्टोरेंट~का   
+
+[LINE]
+Speaker1187: Sure!  Turn     left  at~the~end of~this~street.
+~            ज़रूर  मुड़~जाना बायें आखिर~से    इस~सड़क~के      
+
+[LINE]
+Speaker1187: Then, you~will~see a  very      attractive man  sitting  in~front of~a~red~house. Turn     right there.    
+~            फिर   आपको~दिखेगा  एक बहुत~(ही) आकर्षक     आदमी बैठा~हुआ सामने    एक~लाल~घर~के    मुड़~जाना दायें वहाँ~(से) 
+
+[MULTIPLE_CHOICE]
+> लिन और बी को कहाँ से दायीं तरफ़ मुड़ना है?
++ लाल घर के बाहर बैठे बेहद आकर्षक आदमी के पास से
+- सड़क के आखिर में पड़ने वाले रेस्टोरेंट के पास से
+- नीले घर के बाहर बैठे बेहद बदसूरत आदमी के पास से
+
+[LINE]
+Speaker508: Thanks. 
+~           धन्यवाद 
+
+[LINE]
+> They turn         left.      
+~ वे   मुड़~जाते~हैं बायीं~(ओर) 
+
+[ARRANGE]
+> सुनकर शब्द चुनें
+> [(They) (walk~down)         (the~street) (for~fifteen~minutes).]
+~   वे     आगे~चलते~रहते~हैं   सड़क~(पर)     पंद्रह~मिनट~के~लिए    
+
+[LINE]
+> Finally, they~see             a  man  sitting  outside of~a~red~house.
+~ आखिरकार  उन्हें~दिखाई~देता~है एक आदमी बैठा~हुआ बाहर    एक~लाल~घर~के   
+
+[LINE]
+Speaker508: Is~that    the~man?   
+~           क्या~वह~है (वही)~आदमी 
+
+[CONTINUATION]
+> आगे क्या आएगा?
+Speaker507: No,   she~said         he was    [very~attractive].
+~           नहीं  उसने~कहा~था~(कि) वह (होगा)  बहुत~आकर्षक      
++ very~attractive
+~ बहुत~आकर्षक    
+- very~red
+~ बहुत~लाल
+- really~hungry
+~ बहुत~भूखा    
+
+[LINE]
+Speaker508: He is      attractive!
+~           वह है~(तो) आकर्षक     
+
+[LINE]
+Speaker507: But   he's~not   very attractive…
+~           लेकिन वह~नहीं~है बहुत आकर्षक     
+
+[LINE]
+Speaker508: Oh. Maybe you're          right.
+~           ~   शायद  तुम~(कह~रही)~हो सही   
+
+[LINE]
+Speaker3135: Excuse~me, I   can~hear~you.     
+~            ज़रा~सुनिए  मैं आपको~सुन~सकता~हूँ 
+
+[LINE]
+Speaker507: Oops, sorry.      
+~           ~     माफ़~कीजिएगा 
+
+[MULTIPLE_CHOICE]
+> रुकिए... बी ने अभी-अभी माफ़ी क्यों माँगी?
+- क्योंकि वह भूल गई थी कि वह कहाँ जा रही है।
++ क्योंकि उस आदमी ने बी को यह कहते सुन लिया कि वह उतना भी आकर्षक नहीं है।
+- क्योंकि उसने गलती से लिन के पैर पर अपना पैर रख दिया।
+
+[LINE]
+Speaker508: Are~we      close to~Cecil's~Restaurant?
+~           क्या~हम~हैं नज़दीक सेसिल~रेस्टोरेंट~के   
+
+[LINE]
+Speaker3135: No,   it's  three miles            from~here.
+~            नहीं  वह~है तीन   मील~(की~दूरी~पर) यहाँ~से   
+
+[LINE]
+Speaker508: Are~you~sure?     
+~           क्या~आपको~यकीन~है 
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker3135: Yes. I'm                [a~cook~there].        
+~            हाँ  मैं~(काम~करता)~हूँ  वहीं~पर~बावर्ची~(का)  
++ a cook there
+- the book there
+- to look there
+
+[LINE]
+Speaker507: Great! Can~you~make~me              a  sandwich? I'm     so   hungry!
+~           बढ़िया  क्या~आप~मेरे~लिए~बना~सकते~हो एक सैंडविच   मैं~हूँ बहुत भूखी   
+
+[LINE]
+Speaker3135: No,   you~said    I   wasn't   attractive.
+~            नहीं  आपने~कहा~था मैं नहीं~हूँ आकर्षक     
+
+[LINE]
+Speaker507: Well, that was      before I~found~out           you can~cook.        
+~           (तो)  वह   (कहा)~था पहले   मुझे~पता~चलने~से~(कि) आप  खाना~बना~सकते~हो 
+
+[MULTIPLE_CHOICE]
+> बी ने उस आदमी से एक सैंडविच बनाने के लिए क्यों कहा?
++ क्योंकि वह सेसिल रेस्टोरेंट में बावर्ची है।
+- क्योंकि पहले बी ने उसके लिए एक सैंडविच बनाया था।
+- क्योंकि उसके हाथ में काफ़ी सारी ब्रेड और चीज़ हैं।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- Lin <> लिन
+- and <> और
+- wasn't <> नहीं हूँ
+- are <> हैं
+- of a red house <> एक लाल घर के
+
