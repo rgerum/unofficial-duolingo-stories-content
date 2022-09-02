@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=मेरी चाबियाँ कहाँ हैं?
+icon=3f21c887f044dc2ac0d1f0d0ea74e1200b587ac2
+set=8|2
+
+[HEADER]
+> Where Are My   Keys?   
+~ कहाँ  हैं मेरी चाबियाँ 
+
+[LINE]
+> Lin is with~her~grandmother,~Lucy.
+~ लिन है अपनी~दादी,~लूसी,~के~साथ    
+
+[LINE]
+Speaker509: We~have  a  reservation at~a~nice~restaurant    tonight!
+~           हमारी~है एक बुकिंग      एक~अच्छे~रेस्टोरेंट~में आज~रात  
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker509: But   we~need    [to~leave~now]!
+~           लेकिन हमें~चाहिए  अब~चलना       
++ to leave now
+- to read now
+- to leave out
+
+[LINE]
+Speaker508: OK!    
+~           ठीक~है 
+
+[LINE]
+Speaker508: Uh-oh… I~can't~find      the~keys to~my~motorcycle.  
+~           ~      मुझे~मिल~नहीं~रही चाबियाँ  मेरी~मोटरसाइकिल~की 
+
+[LINE]
+Speaker509: You always put     your keys    in~strange~places.
+~           तुम हमेशा  रखती~हो अपनी चाबियाँ अजीब~जगहों~पर     
+
+[MULTIPLE_CHOICE]
+> अब आगे क्या हो सकता है?
+- लूसी लिन के बिना ही चली जाएगी।
++ लिन अपनी चाबियों को अजीब-अजीब जगहों में ढूँढेगी।
+- लिन और लूसी घोड़े पर सवार होकर रेस्टोरेंट जाएँगीं।
+
+[LINE]
+Speaker509: Are~they    in~your~jacket?    
+~           क्या~वे~हैं तुम्हारी~जैकेट~में 
+
+[LINE]
+> Lin looks    in~her~jacket. 
+~ लिन देखती~है अपनी~जैकेट~में 
+
+[LINE]
+Speaker508: No,   they're~not in~my~jacket.  
+~           नहीं  वे~नहीं~हैं मेरी~जैकेट~में 
+
+[LINE]
+Speaker509: Are~the~keys     under~the~bed? 
+~           क्या~चाबियाँ~हैं बिस्तर~के~नीचे 
+
+[LINE]
+Speaker508: No,   the~keys aren't   there!    
+~           नहीं  चाबियाँ  नहीं~हैं वहाँ~(भी) 
+
+[ARRANGE]
+> सुनकर शब्द चुनें
+Speaker509: [(Are)      (they) (in~the~shower)?]
+~             क्या~हैं   वे     शावर~में        
+
+[LINE]
+Speaker508: No,   that's too  strange.
+~           नहीं  वह~है  बहुत अजीब    
+
+[LINE]
+Speaker508: I~don't~know  where the~keys are. Can~we~call           a  taxi?       
+~           मुझे~नहीं~पता कहाँ  चाबियाँ  हैं  क्या~हम~बुला~सकते~हैं एक टैक्सी~(को) 
+
+[CONTINUATION]
+> आगे क्या आएगा?
+Speaker509: No,   we're~late        now. We can't~go     [to~the~restaurant].
+~           नहीं  हमें~देर~हो~गई~है अब   हम नहीं~जा~सकते  रेस्टोरेंट~(तक)    
+- to~the~beach
+~ बीच~(तक)    
++ to~the~restaurant
+~ रेस्टोरेंट~(तक)  
+- to~the~movie~theater
+~ सिनेमा~घर~(तक)      
+
+[LINE]
+Speaker508: I'm~sorry.    
+~           मुझे~माफ़~करना 
+
+[LINE]
+Speaker509: That's~OK.    I   can~cook     dinner.     
+~           कोई~बात~नहीं  मैं बना~सकती~हूँ रात~का~भोजन 
+
+[LINE]
+> Lucy opens    the~refrigerator and looks    inside.
+~ लूसी खोलती~है फ़्रिज            और  देखती~है अंदर   
+
+[LINE]
+Speaker509: Oh! Here are your~keys!       
+~           ~   यहाँ हैं तुम्हारी~चाबियाँ 
+
+[MULTIPLE_CHOICE]
+> कुछ समझे आप? अंत में लिन कि चाबियाँ…
++ …फ्रिज में मिलीं।
+- …उसके जूतों में मिलीं।
+- …उसकी गाड़ी में मिलीं।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- I <> मैं
+- in strange places <> अजीब जगहों पर
+- to the restaurant <> रेस्टोरेंट
+- they're not <> वे नहीं हैं
+- to my motorcycle <> मेरी मोटरसाइकिल की
+
