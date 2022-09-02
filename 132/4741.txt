@@ -1,0 +1,157 @@
+[DATA]
+fromLanguageName=चिड़िया की देखभाल
+icon=bec6ac06369ced77777ad5151e3a385213c413b8
+set=32|4
+
+[HEADER]
+> Bird        Sitting
+~ चिड़िया~(की) देखभाल 
+
+[LINE]
+> Lin is              on~the~phone with~her~friend,~Garrett. 
+~ लिन (बात~कर~रही)~है फ़ोन~पर       अपने~दोस्त,~गैरेट,~के~साथ 
+
+[LINE]
+Speaker508: Hi,     Garrett!
+~           नमस्ते  गैरेट   
+
+[LINE]
+Speaker508: Are~you  coming   home tomorrow or on~Tuesday?
+~           क्या~तुम आ~रहे~हो घर   कल       या मंगलवार~को 
+
+[LINE]
+Speaker7: Tomorrow.
+~         कल       
+
+[LINE]
+Speaker7: Thank~you for~taking~care   of~my~house and my~bird!         
+~         धन्यवाद   ध्यान~रखने~के~लिए मेरे~घर~का  और  मेरी~चिड़िया~(का) 
+
+[MULTIPLE_CHOICE]
+> अपने दोस्त की गैरमौजूदगी में लिन ने उसकी चिड़िया का ध्यान रखा।
+- नहीं, ऐसा नहीं है।
++ हाँ, यह सही है।
+
+[LINE]
+Speaker508: You're~welcome.
+~           कोई~बात~नहीं   
+
+[LINE]
+Speaker7: Is~everything~OK at~the~house?
+~         क्या~सब~ठीक~है   घर~पर        
+
+[LINE]
+Speaker508: Well, I~have      bad~news.     
+~           (तो)  मेरे~पास~है (एक)~बुरी~खबर 
+
+[LINE]
+Speaker508: Your     bird   flew  out~of~the~window.
+~           तुम्हारी चिड़िया उड़~गई खिड़की~से~बाहर     
+
+[LINE]
+Speaker7: What?!
+~         क्या  
+
+[LINE]
+Speaker508: The~cage    door   was open.    
+~           पिंजरे~(का) दरवाज़ा था  खुला~हुआ 
+
+[MULTIPLE_CHOICE]
+> क्या खुला हुआ था?
+- फ़्रिज
+- शावर
++ पिंजरा
+
+[LINE]
+Speaker7: How~did~that~happen?
+~         यह~कैसे~हुआ         
+
+[ARRANGE]
+> सुनकर शब्द चुनें
+Speaker508: [(It) (opened)  (when) (the~cage) (fell).]   
+~             वह   खुल~गया   जब     पिंजरा     गिरा~था   
+
+[LINE]
+Speaker7: What?! Why   did~it~fall?        
+~         क्या   क्यों गिरा~था~वह~(पिंजरा) 
+
+[LINE]
+Speaker508: Well, your     bed    fell    through~the~floor and hit~the~cage.       
+~           (तो)  तुम्हारा बिस्तर गिर~गया फ़र्श~से~(नीचे)    और  पिंजरे~में~(जा)~लगा 
+
+[LINE]
+Speaker7: My   bed    fell    through~the~floor?!
+~         मेरा बिस्तर गिर~गया फ़र्श~से~(नीचे)     
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker7: [How~did~that~happen]?
+~          यह~कैसे~हुआ          
++ How did that happen
+- How did that open
+- Who do they have then
+
+[LINE]
+Speaker508: Well, there~was a~lot~of  water on~the~floor.
+~           (तो)  था~(वहाँ) बहुत~सारा पानी  फ़र्श~पर      
+
+[LINE]
+Speaker7: Water? Why   was~there so~much   water?
+~         पानी   क्यों था~(वहाँ) इतना~सारा पानी  
+
+[LINE]
+Speaker508: Well, I~used                 water     to~stop      the~fire.
+~           (तो)  मैंने~इस्तेमाल~किया~था पानी~(का) रोकने~के~लिए आग~(को)  
+
+[LINE]
+Speaker7: You~started     a~fire?!
+~         तुमने~लगा~दी~थी आग      
+
+[LINE]
+Speaker508: But   only  on~the~second~floor.
+~           लेकिन सिर्फ़ दूसरी~मंज़िल~पर~(ही) 
+
+[LINE]
+Speaker7: What       did~you~do?!
+~         (ऐसा)~क्या किया~तुमने  
+
+[LINE]
+Speaker508: I~think           it~was         because~of~the~meditation~candles.  
+~           मुझे~लगता~है~(कि) वह~(आग~लगी)~थी मेडिटेशन~वाली~मोमबत्तियों~की~वजह~से 
+
+[MULTIPLE_CHOICE]
+> उफ़्फ़! आग के लिए कौन ज़िम्मेदार था?
++ लिन की मैडिटेशन वाली मोमबत्तियाँ
+- लिन के जन्मदिन वाले केक की मोमबत्तियाँ
+- काफ़ी सारी चिड़ियाँ
+
+[LINE]
+Speaker7: Meditation~candles?       
+~         मेडिटेशन~वाली~मोमबत्तियाँ 
+
+[LINE]
+Speaker508: Oh~yeah, I~started         taking meditation    classes!
+~           अरे~हाँ  मैंने~शुरू~की~हैं लेनी   मेडिटेशन~(की) क्लास   
+
+[LINE]
+Speaker508: Anyway, I~can~take~care       of~your~house    next month too...
+~           खैर     मैं~ध्यान~रख~सकती~हूँ तुम्हारे~घर~(का) अगले महीने भी    
+
+[LINE]
+Speaker508: Hello?  Garrett, are~you     still  there?
+~           हैल्लो  गैरेट    क्या~तुम~हो अभी~भी वहाँ  
+
+[MULTIPLE_CHOICE]
+> गैरेट ने फ़ोन क्यों काट दिया?
+- वह लिन की मैडिटेशन क्लास में आने वाला है।
++ वह गुस्से में है क्योंकि लिन ने उसके घर का सत्यानाश कर दिया।
+- वह गुस्से में है क्योंकि लिन उसकी चिड़िया चुरा ले गई।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- for taking care <> ध्यान रखने के लिए
+- tomorrow <> कल
+- so much <> इतना सारा
+- out of the window <> खिड़की से बाहर
+- of my house <> मेरे घर का
+
