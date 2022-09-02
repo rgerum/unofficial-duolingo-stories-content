@@ -1,0 +1,196 @@
+[DATA]
+fromLanguageName=Чудовище под кроватью
+icon=2ae39ad74abbad9f61bed45e4ff88fbafc38f692
+set=53|1
+
+[HEADER]
+> Monster  Under the~Bed 
+~ чудовище Под   кроватью
+
+[LINE]
+> It's~late~at~night. Junior~is in~his  bed,     but he can't    sleep. 
+~ поздний~вечер       Джуниор   в~своей кровати  но  он не~может уснуть 
+
+[LINE]
+Speaker415: Dad!  There's~a~monster~under~my~bed! I~need~you!  
+~           папа  под~моей~кроватью~чудовище      ты~мне~нужен 
+
+[LINE]
+> Eddy runs      to~Junior's~bedroom. 
+~ Эдди прибегает в~спальню~к~Джуниору 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker414: It's~OK,    Junior.  Let~me~look. If   I see   a~monster, then  [I'll~make~him~leave].
+~           всё~хорошо  Джуниор  дай~я~гляну  если я увижу чудовище   тогда  я~заставлю~его~уйти  
+- all wake him please
+- I'll make him need
++ I'll make him leave
+
+[LINE]
+Speaker415: Thanks,  Dad. 
+~           спасибо  папа 
+
+[LINE]
+> Eddy looks   under the~bed.
+~ Эдди смотрит под   кровать 
+
+[LINE]
+Speaker414: I don't see  any     monsters, so      it's~safe to~go~to~sleep.
+~           я не    вижу никаких чудовищ   так~что безопасно ложиться~спать 
+
+[LINE]
+Speaker415: I can't   sleep! Maybe the~monster is~hiding!
+~           я не~могу спать  может чудовище    прячется  
+
+[POINT_TO_PHRASE]
+> Choose   the~option that    means    «заползать».
+~ выберите вариант    который означает ~           
+> Eddy (starts)   (+to~crawl)  (under) (the~bed).
+~ Эдди  начинает    заползать   под     кровать  
+
+[LINE]
+Speaker414: There~isn't~a~lot~of~space down~here. I don't know if~I'll~fit,   Junior. 
+~           здесь~не~так~много~места   внизу      я не    знаю помещусь~ли~я  Джуниор 
+
+[LINE]
+Speaker415: Please!     I'm scared!
+~           пожалуйста  я   боюсь  
+
+[ARRANGE]
+> Наберите услышанное
+> [(Eddy) (crawls) (further) (under) (the~bed).]
+~   Эдди   ползёт   дальше    под     кровать   
+
+[LINE]
+Speaker414: Hello? Monster?  Are~you~hiding?
+~           эй     чудовище  ты~прячешься   
+
+[LINE]
+Speaker414: No,  Junior,  the~monster~is gone!
+~           нет  Джуниор  чудовище       ушло 
+
+[LINE]
+Speaker415: Thanks,  Dad. 
+~           спасибо  папа 
+
+[LINE]
+> Eddy tries    to~crawl~out from~under the~bed.
+~ Эдди пытается выползти     из-под     кровати 
+
+[LINE]
+Speaker414: Um…  Junior?  I~think     I'm~stuck.
+~           э-э  Джуниор  мне~кажется я~застрял 
+
+[MULTIPLE_CHOICE]
+> When  Eddy says          he is~"stuck,"| he means…             
+~ когда Эдди говорит~(что) он застрял      он имеет~в~виду~(что) 
++ …he can't    move.     
+~  он не~может двигаться 
+- …he found the~monster.
+~  он нашёл чудовище    
+- …he~is~hiding from Junior.  
+~  он~прячется  от   Джуниора 
+
+[LINE]
+Speaker415: Uh-oh. Let~me help   you! 
+~           ой-ёй  дай~я  помогу тебе 
+
+[LINE]
+> Junior  tries    to~lift the~bed.
+~ Джуниор пытается поднять кровать 
+
+[LINE]
+Speaker415: Ugh… the~bed~is too     heavy!   Let~me try      to~pull~you~out.
+~           эх   кровать    слишком тяжёлая  дай~я  попробую вытянуть~тебя   
+
+[LINE]
+> Junior  pulls Eddy's~legs.
+~ Джуниор тянет ноги~Эдди   
+
+[LINE]
+Speaker415: Oh no,  Dad…  you're really        stuck!  
+~           о  нет  папа  ты     действительно застрял 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker414: [Can~you~pull~harder]?  
+~            можешь~тянуть~сильнее  
+- Cars you pull harder
++ Can you pull harder
+- Can't you pull him over
+
+[LINE]
+Speaker415: This~is~hard~work. I'm tired.
+~           это~тяжело         я   устал 
+
+[LINE]
+Speaker415: I'm~going~to~lie~down, OK?   
+~           я~прилягу              ладно 
+
+[LINE]
+Speaker414: Maybe if   I move    my   head,   then  I can   get~out…  
+~           может если я подвину свою голову  тогда я смогу выбраться 
+
+[LINE]
+Speaker414: Or  maybe if   I turn    my   shoulders…
+~           или может если я поверну свои плечи     
+
+[MULTIPLE_CHOICE]
+> Eddy is~trying~to…
+~ Эдди пытается     
+- …catch   the~monster with~his~legs.
+~  поймать чудовище    своими~ногами 
++ …get~out   from~under Junior's~bed.    
+~  выбраться из-под     кровати~Джуниора 
+- …move        Junior's~bed     to a~safe     place.
+~  передвинуть кровать~Джуниора в  безопасное место 
+
+[LINE]
+Speaker414: I think it's~working! Junior,  can~you   reach           my   legs and pull?    
+~           я думаю это~работает  Джуниор  ты~можешь дотянуться~(до) моих ног  и   потянуть 
+
+[LINE]
+Speaker414: Junior?  Junior? 
+~           Джуниор  Джуниор 
+
+[POINT_TO_PHRASE]
+> Choose   the~option that    means    «храпеть».
+~ выберите вариант    который означает ~         
+> (Junior)  has~fallen~asleep. (He) (begins)   (+to~snore).
+~  Джуниор  уснул               он   начинает    храпеть   
+
+[LINE]
+Speaker414: Ah. OK.   
+~           а   ладно 
+
+[LINE]
+Speaker414: I'll just   sleep  here… 
+~           я    просто посплю здесь 
+
+[LINE]
+> Eddy closes    his  eyes. 
+~ Эдди закрывает свои глаза 
+
+[LINE]
+Speaker414: Goodnight,      Junior. 
+~           спокойной~ночи  Джуниор 
+
+[MULTIPLE_CHOICE]
+> Why~is Eddy sleeping under Junior's~bed?     
+~ почему Эдди спит     под   кроватью~Джуниора 
+- He wants to~keep~looking~for the~monster.
+~ он хочет продолжать~искать   чудовище    
+- Junior  asked    him to~sleep under the~bed. 
+~ Джуниор попросил его поспать  под   кроватью 
++ He got~stuck under the~bed. 
+~ он застрял   под   кроватью 
+
+[MATCH]
+> Коснитесь пар
+- to crawl <> заползать
+- to lift <> поднять
+- too <> слишком
+- can <> смогу
+- No <> нет
+
