@@ -1,0 +1,107 @@
+[DATA]
+fromLanguageName=권투 시합
+icon=149224cb1a7c361279bece453d459dc57ba243a5
+set=25|1
+
+[HEADER]
+> The~Boxing~Match
+~ 권투~시합           
+
+[LINE]
+> Lin~and~her~grandmother,~Lucy,~are at~a~bar watching a~boxing~match.
+~ 린과~그녀의~할머니~루시가                     술집에~있다   보면서      권투~시합을         
+
+[LINE]
+Speaker508: I'm leaving after I~finish~my~drink, Grandma.
+~           전   떠날~거예요  ~후에   이걸~다~마시다           할머니     
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker509: But this~is the~most~important match [of~the~year]!
+~           하지만 이건      가장~중요한             시합이야   올해의          
+- of the beer
++ of the year
+- other ear
+
+[LINE]
+Speaker508: I hate boxing. It's so boring.
+~           전 싫어요  권투가     그건   너무 지루해요   
+
+[MULTIPLE_CHOICE]
+> 권투는 린이 가장 좋아하는 스포츠다.
++ 아니요, 그렇지 않아요.
+- 네, 맞아요.
+
+[LINE]
+Speaker509: No,  it's exciting!
+~           아니야  이건   흥미진진해    
+
+[POINT_TO_PHRASE]
+> “싸우다”를 뜻하는 말을 고르세요.
+Speaker508: (It's) (just) (two) men (+fighting) while~wearing big leather~gloves.
+~            그건     단지     두    남자가   싸우는~거예요   ~을~끼고서        커다란 가죽~장갑          
+
+[LINE]
+Speaker509: They're not just men…  They're athletes!
+~           그들은     아니야 단지   남자들이  그들은     운동선수들이야  
+
+[LINE]
+Speaker508: They're just trying~to~win a~stupid~trophy.
+~           그들은     단지   얻으려~하는~거예요    쓸데없는~트로피를       
+
+[MULTIPLE_CHOICE]
+> 린의 생각에 권투는…
++ …그저 두 남자가 트로피를 위해 싸우는 것에 불과하다.
+- …새 친구를 사귀기에 좋은 방법이다.
+- …그녀가 이빨을 잃게 된 이유이다.
+
+[LINE]
+> Lin puts~down her glass and walks~away.
+~ 린이  내려~놓는다    그녀의 잔을    그리고 자리를~뜬다     
+
+[LINE]
+Speaker509: Where~are~you~going?
+~           어디~가니               
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker508: I'm~going home to~watch my [favorite TV~show].
+~           가요        집에   보려고      제가  가장~좋아하는  티비~쇼를    
+- sandwich
+~ 샌드위치    
+- socks
+~ 양말   
++ favorite TV~show
+~ 가장~좋아하는  티비~쇼   
+
+[LINE]
+Speaker509: The dating~show about twenty men  fighting over~one~woman?
+~           그   연애~쇼~말이니    ~에~관한 스무~명의  남자들이 싸우는~것    한~여자를~얻겠다고     
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker509: [(They) (don't~even~win) (a~trophy)!]
+~             그들은    ~조차도~얻지~못해       트로피~하나     
+
+[LINE]
+Speaker508: No.      But they're fighting for~love.
+~           트로피는~없죠  하지만 그들은     싸우는~거예요  사랑을~얻으려고 
+
+[LINE]
+Speaker509: Now~that's~boring.
+~           오히려~그게~지루한데       
+
+[MULTIPLE_CHOICE]
+> 이해했나요? 루시의 생각엔…
++ …한 여자를 얻으려 싸우는 건 정말 지루하다.
+- …스무 명의 여자가 한 남자를 상대로 권투 시합 중이다.
+- …린은 훌륭한 권투 선수가 될 것 같다.
+
+[MATCH]
+> 짝을 누르세요
+- leather gloves <> 가죽 장갑
+- TV show <> 티비 쇼를
+- I finish my drink <> 이걸 다 마시다
+- fighting <> 싸우는 거예요
+- They're <> 그들은
+
