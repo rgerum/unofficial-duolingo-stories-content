@@ -1,0 +1,127 @@
+[DATA]
+fromLanguageName=재택근무
+icon=a791ba499744af6b30bd5863838619250f9b3437
+set=30|3
+
+[HEADER]
+> Work~from~Home
+~ 재택근무          
+
+[LINE]
+> Bea~is having~a~video~meeting with~her~boss,~Paula.
+~ 비가     화상~미팅~중이다              그녀의~상사~폴라와           
+
+[LINE]
+Speaker988: Thank~you for~working~from~home while  we~were fixing the~ceilings at~the~office.
+~           고마워요      재택근무를~해줘서             ~하는~동안 우리가     수리~중이다 천장을          사무실에          
+
+[LINE]
+Speaker507: No~problem!
+~           천만에요       
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker988: But [I~have~great~news]! The~office will~finally~open again on~Monday.
+~           그런데  좋은~소식이~있어요          사무실이       드디어~열~거예요         다시    월요일에      
+- what if they knew
+- I have great shoes
++ I have great news
+
+[LINE]
+Speaker507: Uhh… Monday?
+~           어    월요일이요  
+
+[LINE]
+Speaker988: Yes, isn't~that~great?
+~           네    잘~됐죠             
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker507: [(Well), (I) (like) (working~from~home)…]
+~             음       전   좋아요    재택근무가               
+
+[LINE]
+> A surfer walks by~Bea's~window.
+~ 한 서퍼가    걸어간다  비의~창문~옆을        
+
+[LINE]
+Speaker988: Was~that a~surfer? You  don't~live near~the~beach…
+~           저기       서퍼였어요     비~씨는 살지~않잖아요    해변~근처에         
+
+[LINE]
+Speaker507: Uh, if our meeting~is finished, then I'll~see~you on~Monday!
+~           어   만약 저희  미팅이        끝난거면      그럼   뵐게요          월요일에      
+
+[POINT_TO_PHRASE]
+> “해 뜨는 것”을 뜻하는 말을 고르세요.
+> (Paula) (sees) (+the~sunrise) (from~Bea's~window).
+~  폴라가     본다      해가~뜨는~걸       비의~창문에서            
+
+[LINE]
+Speaker988: Wait~a~minute, the~sun~is rising behind~you, but it's eleven~a.m.
+~           잠깐만요           해가         뜨고~있어요 비~씨~뒤에      하지만 지금   오전~열한~시인데  
+
+[MULTIPLE_CHOICE]
+> 음… 아마도…
++ …비는 집이 아닌 다른 곳에 있는 것 같다.
+- …하늘에 구름이 잔뜩 낀 것 같다.
+- …비가 텔레비전을 보고 있는 것 같다.
+
+[LINE]
+Speaker988: You're not~working from~home, are~you?
+~           비~씨는   일하는~게~아니죠   집에서        그렇죠     
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker507: Yes, [I~am working from~home]…
+~           네     전    일하고~있어요 집에서        
++ I~am working from~home
+~ 전    일하고~있다  집에서      
+- I~am taking a~dance~class
+~ 전    듣고~있다  댄스~수업을       
+- I~am fixing the~ceilings
+~ 전    수리~중이다 천장을         
+
+[LINE]
+> A~seagull flies~in through~Bea's~window and sits on~her~desk.
+~ 갈매기~한~마리가 날아든다     비의~창문을~통해            그리고 앉는다  그녀의~책상~위에   
+
+[LINE]
+Speaker507: Ahahaha! From~my~aunt's~home… on~an~island.
+~           아하하하     저희~이모님~댁에서요          섬에~있는        
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker507: [(But) (this) (whole~island) (has~great~wifi)!]
+~             하지만   이      섬~전부에          인터넷~수신이~좋아요      
+
+[LINE]
+Speaker507: You're~not~mad, are~you?
+~           화나신~거~아니죠       그렇죠     
+
+[LINE]
+Speaker988: Actually, it~doesn't~matter where~you~are right~now.
+~           사실        중요하지~않아요          비~씨가~어디에~있는지  지금        
+
+[LINE]
+Speaker507: Oh, good! 
+~           아   다행이네요 
+
+[LINE]
+Speaker988: But you  need~to~be~on the~first~flight~back.
+~           하지만 비~씨가 타야~돼요         돌아오는~첫~비행기를           
+
+[MULTIPLE_CHOICE]
+> 비가 첫 비행기를 타고 돌아가야 하는 이유는 무엇인가요?
+- 갈매기 알레르기가 있다는 걸 깨달아서.
+- 아프신 이모를 돌봐드려야 해서.
++ 월요일부터 다시 사무실로 출근해야 해서.
+
+[MATCH]
+> 짝을 누르세요
+- with her boss, Paula <> 그녀의 상사 폴라와
+- on Monday <> 월요일에
+- Yes <> 네
+- it's <> 지금
+- A seagull <> 갈매기 한 마리가
+
