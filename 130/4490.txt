@@ -1,0 +1,193 @@
+[DATA]
+fromLanguageName=Детское фото
+icon=608435f5b2c3eaa0011590abf47e1ae92b8138bf
+set=39|3
+
+[HEADER]
+> The~Baby~Photo
+~ детское~фото  
+
+[LINE]
+> Zari runs     into her~neighbor~Bea's~apartment.
+~ Зари забегает в    в~квартиру~своей~соседки~Би  
+
+[LINE]
+Speaker418: Bea! Help!  
+~           Би   помоги 
+
+[LINE]
+Speaker507: Zari, what's~wrong? Are~you~OK?  
+~           Зари  что~такое     ты~в~порядке 
+
+[LINE]
+Speaker418: No!  It's an~emergency!         
+~           нет  это  чрезвычайная~ситуация 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker507: Are~you~hurt? [Are~you~bleeding]?   
+~           ты~ранена      у~тебя~кровотечение  
+- Are you reading
+- Were you eating
++ Are you bleeding
+
+[LINE]
+Speaker418: No,  it's worse than bleeding!    
+~           нет  это  хуже  чем  кровотечение 
+
+[LINE]
+Speaker507: Worse?
+~           хуже  
+
+[LINE]
+Speaker418: I accidentally sent      an~embarrassing picture to~the~cutest    boy      at my   school.
+~           я случайно     отправила стыдный         снимок  самому~красивому мальчику в  моей школе  
+
+[MULTIPLE_CHOICE]
+> What~is Zari's   emergency?            
+~ какая   (у)~Зари чрезвычайная~ситуация 
+- She forgot a~cute~boy's~name.        
+~ она забыла имя~симпатичного~мальчика 
+- She's hurt   and bleeding.            
+~ она   ранена и   (у~неё)~кровотечение 
++ She accidentally sent      a~picture to~a~boy.
+~ она случайно     отправила снимок    мальчику 
+
+[LINE]
+Speaker507: Oh, no…  that~is worse.
+~           о   нет  это     хуже  
+
+[LINE]
+Speaker418: Right?! 
+~           правда  
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker507: Show   me  the~picturee].
+~           покажи мне снимок        
+- school
+~ школу 
+- neighbor
+~ соседа  
++ picture
+~ снимок 
+
+[LINE]
+Speaker418: Here~it~is…
+~           вот~он     
+
+[LINE]
+Speaker507: Is~that…
+~           это     
+
+[LINE]
+Speaker418: My  baby~photo?   Yes,~it~is.   
+~           моё детское~фото  да,~оно~самое 
+
+[MULTIPLE_CHOICE]
+> It's a~picture…
+~ это  снимок    
++ …of~Zari~as~a~baby.
+~  Зари~в~детстве    
+- …of~Zari's~school.
+~  школы~Зари       
+- …of~Bea's~baby.
+~  ребёнка~Би    
+
+[LINE]
+Speaker507: Well…  that's not terrible…
+~           что~ж  это    не  ужасно   
+
+[LINE]
+Speaker418: I sent~it       with the~text~message     "I have~loved you  since~the~day    I was~born."
+~           я отправила~его с    текстовым~сообщением  я любила     тебя с~того~дня~(как) я родилась  
+
+[LINE]
+Speaker507: What?
+~           что  
+
+[ARRANGE]
+> Наберите услышанное
+Speaker418: [(I) (was~trying) (to~send~it)    (to~my~mom).] 
+~             я   пыталась     отправить~его   своей~маме   
+
+[LINE]
+Speaker418: What should~I~do?! Tell  me  what to~do,  Bea.
+~           что  мне~делать    скажи мне что  делать  Би  
+
+[LINE]
+Speaker507: You can    study~a~lot.   Then,  you can    graduate~from~school early.
+~           ты  можешь много~учиться  потом  ты  можешь окончить~школу       рано  
+
+[LINE]
+Speaker507: After that,  you  won't~have~to see~him~again!   
+~           после этого  тебе не~придётся   снова~его~видеть 
+
+[LINE]
+Speaker418: Bea…
+~           Би  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker507: Or  you can    move      to another city.  I can  help   you  find  a~job.  Do~you~know [how~to~fish]?
+~           или ты  можешь переехать в  другой  город  я могу помочь тебе найти работу  ты~умеешь    ловить~рыбу  
+- how to wish
+- now two fish
++ how to fish
+
+[LINE]
+Speaker418: Bea!
+~           Би  
+
+[LINE]
+Speaker507: Don't~worry,  Zari. It's embarrassing, but you were so    cute! 
+~           не~переживай  Зари  это  стыдно        но  ты  была такой милой 
+
+[LINE]
+Speaker507: If   you tell    him it~was~an~accident,      he will~understand.
+~           если ты  скажешь ему (что)~это~было~случайно  он поймёт          
+
+[ARRANGE]
+> Наберите услышанное
+> [(Zari) (gets)     (a~text~message).]     
+~   Зари   получает   текстовое~сообщение   
+
+[LINE]
+Speaker418: It's him!
+~           это  он  
+
+[LINE]
+Speaker507: What does~the~message~say?
+~           что  написано~в~сообщении 
+
+[LINE]
+Speaker418: He… doesn't~recognize my  number.
+~           он  не~узнаёт         мой номер  
+
+[LINE]
+Speaker507: That's~great! He doesn't know  the~photo  is~from~you!
+~           отлично       он не      знает (что)~фото от~тебя     
+
+[LINE]
+Speaker418: No,  it's terrible! He doesn't~even~know who I~am!
+~           нет  это  ужасно    он даже~не~знает     кто я    
+
+[MULTIPLE_CHOICE]
+> Why~is Zari upset      at~the~end of~the~story?
+~ почему Зари расстроена в~конце    истории      
+- Her mom  sent~her     a~strange text~message.       
+~ её  мама отправила~ей странное  текстовое~сообщение 
++ The~boy she~likes             doesn't~know who~she~is.
+~ мальчик (который)~ей~нравится не~знает     кто~она    
+- She is~moving  to a~new city. 
+~ она переезжает в  новый город 
+
+[MATCH]
+> Коснитесь пар
+- to do <> делать
+- me <> мне
+- Oh <> о
+- Don't worry <> не переживай
+- It's <> это
+
