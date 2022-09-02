@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=제 여자친구를 찾아주세요
+icon=0d18f0403cfa415591d7ef50a9e9c01f1094936e
+set=3|4
+
+[HEADER]
+> Find  My Girlfriend
+~ 찾아주세요 제  여자친구를     
+
+[LINE]
+> Bea~is at~the~airport.
+~ 비가     공항에~있다         
+
+[LINE]
+> She talks to~the~man~at~the~desk.
+~ 그녀가 이야기한다 카운터에~있는~남자와            
+
+[LINE]
+Speaker823: Hello! Can~I~help~you?
+~           안녕하세요  도와드릴까요         
+
+[LINE]
+Speaker507: Yes! I'm going to~Barcelona…
+~           네    저는  가요    바르셀로나에       
+
+[LINE]
+Speaker507: I  want~to~sit next~to~my~girlfriend on~the~plane.
+~           저는 앉고~싶어요      제~여자친구~옆에             비행기에서        
+
+[MULTIPLE_CHOICE]
+> 비는 비행기에서 엄마 옆에 앉고 싶어한다.
++ 아니요, 그렇지 않아요.
+- 네, 맞아요.
+
+[LINE]
+Speaker823: OK,   we~have two~seats~together.
+~           알겠어요  있어요     붙어있는~두~좌석이         
+
+[MULTIPLE_CHOICE]
+> 승무원은 비에게...
+- ...비행기에 남은 좌석이 두 개뿐이라고 말했다.
++ …비행기에 붙어있는 두 좌석이 있다고 말했다.
+- …비행기가 만석이라고 말했다.
+
+[LINE]
+Speaker507: Great!
+~           잘됐네요  
+
+[LINE]
+Speaker823: Um… where~is~your~girlfriend?
+~           음   여자친구는~어디~있나요             
+
+[POINT_TO_PHRASE]
+> "찾다"를 뜻하는 말을 고르세요.
+Speaker507: (I~don't~know). (Can~you~help~me) (+find) (her)?
+~            몰라요             도와줄~수~있나요          찾는~걸   그녀를  
+
+[LINE]
+Speaker823: What~does~she~look~like?
+~           그녀는~어떻게~생겼나요            
+
+[LINE]
+Speaker507: Hmm. She~is~tall. She~has~dark~hair…
+~           음    키가~커요        머리색이~짙어요          
+
+[LINE]
+Speaker823: OK.  
+~           그렇군요 
+
+[LINE]
+Speaker507: She loves sports and cooking…
+~           그녀는 좋아해요  운동     그리고 요리를     
+
+[LINE]
+Speaker823: Uh…
+~           어  
+
+[LINE]
+Speaker507: She loves~animals… but she drives~too~fast.
+~           그녀는 동물을~사랑해요       하지만 그녀는 너무~빨리~운전해요      
+
+[LINE]
+Speaker823: OK…   What~is~her~name?
+~           그렇군요  그녀의~이름이~뭔가요      
+
+[MULTIPLE_CHOICE]
+> 승무원이 비의 여자친구에 대해 알고 싶어하는 이유는 무엇인가요?
+- 비의 여자친구와 운동을 함께 하고 싶어서.
+- 그와 비는 친한 친구라서.
++ 비의 여자친구 찾는 것을 도와주려고.
+
+[LINE]
+Speaker507: Oh. I don't~know.
+~           아   전 몰라요        
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker823: You~don't~know [your~girlfriend's~name]?
+~           모른다고요           당신~여자친구의~이름을            
++ your girlfriend's name
+- your girlfriend's game
+- your good friends' names
+
+[LINE]
+Speaker507: I  don't~have a~girlfriend yet.
+~           저는 없어요        여자친구가        아직  
+
+[LINE]
+Speaker507: Can~you~help~me find one?  
+~           도와줄~수~있나요       찾는~걸 여자친구를 
+
+[MULTIPLE_CHOICE]
+> 비는…
++ ...새 여자친구가 될 만한 사람 옆에 앉고 싶다.
+- …시끄럽게 코를 고는 사람 옆에 앉고 싶다.
+- …공항에서 일하는 사람 옆에 앉고 싶다.
+
+[MATCH]
+> 짝을 누르세요
+- we have <> 있어요
+- Can you help me <> 도와줄 수 있나요
+- What is her name <> 그녀의 이름이 뭔가요
+- her <> 그녀를
+- want to sit <> 앉고 싶어요
+
