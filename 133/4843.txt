@@ -1,0 +1,131 @@
+[DATA]
+fromLanguageName=영화 시사회
+icon=3bcede6752ca2da06f769fd523244f5c763cebc6
+set=25|4
+
+[HEADER]
+> The~Movie~Premiere
+~ 영화~시사회            
+
+[LINE]
+> Oscar~is visiting his cousin Orson, an~actor,~in~Hollywood.
+~ 오스카가     방문~중이다   그의  사촌     올슨을    할리우드~배우인               
+
+[LINE]
+Speaker592: I'm excited to~go to~your~movie~premiere! Look at~my~new~suit!
+~           난   신나      가려니   네~영화~시사회에               봐    내~새~양복을        
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker3107: [(We) (don't~have~to~wear) (suits).]
+~              우린   안~입어도~돼              양복을     
+
+[LINE]
+Speaker3107: No~one~will~look at~us. I'm only in~the~movie for~a~few~minutes.
+~            아무도~보지~않을~거야     우릴     난   단지   영화에~나와       몇~분~동안만           
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker592: No!  You should~wear your [best~clothes].
+~           아니야  넌   입어야~해       네     가장~멋진~옷을      
++ best clothes
+- past clothes
+- bets closed
+
+[LINE]
+Speaker592: Then we'll~look like~movie~stars when the~photographers take our photo!
+~           그러면  우린~보일거야    영화~배우들처럼         ~할~때 사진사들이             찍다   우리의 사진을   
+
+[LINE]
+Speaker592: Also, I  rented a~limo for~us!
+~           또한    내가 대여했어   리무진을   우릴~위해  
+
+[LINE]
+Speaker3107: Oscar, no! 
+~            오스카    안~돼 
+
+[MULTIPLE_CHOICE]
+> 올슨은 리무진을 타고 영화 시사회에 가고 싶어한다.
+- 네, 맞아요.
++ 아니요, 그렇지 않아요.
+
+[LINE]
+> Oscar~and Orson get~in the~limo. A~mile~from the~theater, the~limo stops.
+~ 오스카와      올슨이   탄다     리무진을      일~마일~떨어져    시사회장에서       리무진이     멈춰~선다 
+
+[LINE]
+Speaker889: Sorry, the~traffic~is~really~bad.
+~           죄송합니다  차가~너무~막히네요                
+
+[LINE]
+Speaker3107: But the~premiere starts in~twenty~minutes!
+~            하지만 시사회가         시작해    이십~분~후에           
+
+[LINE]
+Speaker592: Let's~run!
+~           뛰자        
+
+[MULTIPLE_CHOICE]
+> 잠깐만요… 오스카와 올슨이 뛰어야 하는 이유는 무엇인가요?
++ 차가 너무 막혀 시사회에 제 시간에 도착할 수 없기 때문이다.
+- 올슨이 영화에서 달리기 선수 배역을 맡았기 때문이다. 
+- 영화 배우처럼 몸짱이 되고 싶기 때문이다.
+
+[POINT_TO_PHRASE]
+> “진흙탕”을 뜻하는 말을 고르세요.
+> (They) (get~out) of~the~limo (and) step~in (+mud). 
+~  그들이    내린다      리무진에서        그리고  발을~내딛는다   진흙탕에  
+
+[LINE]
+Speaker592: My shoes!
+~           내  신발    
+
+[LINE]
+> It~starts~raining.
+~ 비가~오기~시작한다        
+
+[LINE]
+Speaker3107: My suit!
+~            내  양복   
+
+[LINE]
+> Oscar~and Orson run   to~the~theater.
+~ 오스카와      올슨이   뛰어~간다 시사회장으로         
+
+[LINE]
+> When~they~arrive, they're~wet~and covered~in~mud.
+~ 그들이~도착했을~땐        옷이~다~젖었고        진흙을~뒤집어~썼다     
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+> A photographer [takes their photo].
+~ 한 사진사가          찍는다   그들의   사진을    
++ takes their photo
+~ 찍는다   그들의   사진을  
+- jumps on~the~limo
+~ 올라탄다  리무진에       
+- drinks a~glass~of milk
+~ 마신다    한~잔의       우유를 
+
+[LINE]
+Speaker658: Wow, you  look~like you~were~in~a~war! Just~like characters in~the~movie!
+~           우와   여러분은 ~처럼~보여요   전쟁터에~있었다           ~과~똑같아요   캐릭터들       영화~속에        
+
+[LINE]
+Speaker3107: Well, Oscar, you wanted us  to~look like~movie~stars!
+~            음     오스카    네가  원했잖아   우리가 보이길     영화~배우들처럼         
+
+[MULTIPLE_CHOICE]
+> 오스카와 올슨이 영화 캐릭터처럼 보이는 이유는…
+- …고급 리무진을 타고 도착했기 때문이다.
++ …전쟁터에서 온 듯 진흙을 뒤집어 썼기 때문이다.
+- …영화에 나오는 의상을 입고 있기 때문이다.
+
+[MATCH]
+> 짝을 누르세요
+- characters <> 캐릭터들
+- mud <> 진흙탕에
+- Oscar <> 오스카
+- for us <> 우릴 위해
+- at my new suit <> 내 새 양복을
+
