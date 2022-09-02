@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Новый спорт
+icon=4779d731014382d1398621baf6c630efe3e344c0
+set=8|4
+
+[HEADER]
+> A~New Sport
+~ новый спорт
+
+[LINE]
+> Eddy and Junior  are~at~a~store.
+~ Эдди и   Джуниор в~магазине     
+
+[LINE]
+Speaker414: You want   to~play~a~new~sport!    That's~exciting!
+~           ты  хочешь заняться~новым~спортом  это~так~здорово 
+
+[LINE]
+Speaker414: Do~you~want to~play~basketball?
+~           ты~хочешь   играть~в~баскетбол 
+
+[LINE]
+Speaker415: I~don't~like    sports~with~balls.
+~           мне~не~нравится спорт~с~мячами    
+
+[POINT_TO_PHRASE]
+> Выберите вариант «теннисная ракетка».
+Speaker414: (This) (+tennis~racket)     (is~nice)! 
+~            эта     теннисная~ракетка   красивая  
+
+[LINE]
+Speaker415: Tennis is~a~sport with balls. 
+~           теннис это~спорт  с    мячами 
+
+[MULTIPLE_CHOICE]
+> Почему Джуниор не хочет играть в баскетбол и теннис?
++ Ему не нравится спорт с мячами.
+- Он считает, что ему ещё рано играть в эти игры.
+- Он очень устал.
+
+[LINE]
+Speaker414: OK,     what~about…
+~           хорошо  как~насчет 
+
+[LINE]
+Speaker415: I~want~to—
+~           я~хочу    
+
+[LINE]
+Speaker414: Swim!    Do~you~want~to~swim?!
+~           плавать  ты~хочешь~плавать    
+
+[LINE]
+Speaker415: No— 
+~           нет 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker414: But swimming is~a~sport with~no [balls].
+~           но  плавание это~спорт  без      мячей  
+- tennis 
+~ тенниса
+- store   
+~ магазина
++ balls
+~ мячей
+
+[LINE]
+Speaker415: Dad,  no! 
+~           папа  нет 
+
+[LINE]
+Speaker414: Well,  what do~you~want to~do? 
+~           что~ж  что  ты~хочешь   делать 
+
+[LINE]
+> Junior  looks~at   a~pair~of ballet~shoes.  
+~ Джуниор смотрит~на пару      балетных~чешек 
+
+[MULTIPLE_CHOICE]
+> Ой! Похоже, Джуниор хочет...
++ …заняться танцами.
+- …поплавать.
+- …поиграть в футбол.
+
+[LINE]
+Speaker415: I really want to…~dance.
+~           я очень  хочу танцевать 
+
+[LINE]
+Speaker414: You want   to~dance?! 
+~           ты  хочешь танцевать  
+
+[LINE]
+Speaker415: Yes… Is~it~a~problem?
+~           да   это~проблема    
+
+[LINE]
+Speaker414: No!  Dancing is~a~sport~too!
+~           нет  танцы   тоже~спорт     
+
+[LINE]
+> Eddy starts   to~dance  in the~store.
+~ Эдди начинает танцевать в  магазине  
+
+[LINE]
+Speaker415: Dad,  please     stop~dancing.      
+~           папа  пожалуйста прекрати~танцевать 
+
+[MULTIPLE_CHOICE]
+> Почему Эдди танцует?
++ Он радуется, что Джуниор хочет заниматься танцами.
+- Он хочет показать Джуниору, что танцы — это тяжело.
+- Он примеряет балетные чешки.
+
+[MATCH]
+> Коснитесь пар
+- starts <> начинает
+- Dancing <> танцы
+- OK <> хорошо
+- balls <> мячами
+- are at a store <> в магазине
+
