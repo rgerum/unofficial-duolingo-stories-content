@@ -1,0 +1,128 @@
+[DATA]
+fromLanguageName=Поїздка в Париж
+icon=82f278cdb107bead5682d9161323e0ba329af607
+set=7|3
+
+[HEADER]
+> Visiting~Paris  
+~ поїздка~в~Париж 
+
+[LINE]
+> Carl and Christina are~on~vacation in~Paris.
+~ Карл і   Крістіна  у~відпустці     в~Парижі 
+
+[LINE]
+Speaker2705: I don't want to~go home.  
+~            я не    хочу їхати додому 
+
+[LINE]
+Speaker439: I know.
+~           я знаю 
+
+[LINE]
+Speaker439: I don't want to~leave.   
+~           я не    хочу від'їжджати 
+
+[MULTIPLE_CHOICE]
+> Карл і Крістіна із задоволенням повертаються додому.
+- Так, це правда.
++ Ні, це неправда.
+
+[LINE]
+Speaker2705: I love  Paris!
+~            я люблю Париж 
+
+[LINE]
+Speaker2705: There's a~lot~to~do   here.
+~            є       багато~розваг тут  
+
+[LINE]
+Speaker439: Yes.
+~           так 
+
+[LINE]
+Speaker439: I love  the~cafés.
+~           я люблю кафе      
+
+[ARRANGE]
+> Що ви чуєте?
+Speaker2705: [(And) (I) (love)  (the~parks)!]
+~              а     я   люблю   парки       
+
+[LINE]
+Speaker439: I want to~eat French      bread every~day!
+~           я хочу їсти   французький хліб  щодня     
+
+[LINE]
+Speaker2705: We~need      to~go to~the~airport now…  
+~            нам~потрібно їхати до~аеропорту   зараз 
+
+[LINE]
+Speaker2705: Christina, I~have   an~idea…
+~            Крістіно   у~мене~є ідея    
+
+[LINE]
+Speaker2705: Do~you~want to~live in~Paris?
+~            ти~хочеш    жити    в~Парижі 
+
+[LINE]
+Speaker439: But we~have a~house and jobs…  
+~           але у~нас~є будинок і   роботи 
+
+[SELECT_PHRASE]
+> Виберіть пропущену фразу
+Speaker2705: We can    [live~and~work]    here!
+~            ми можемо  жити~і~працювати  тут  
+- leaves are work
++ live and work
+- live and rest
+
+[LINE]
+Speaker439: Really? 
+~           справді 
+
+[LINE]
+Speaker2705: My~friend~has    a~restaurant in~Paris…
+~            у~моєї~подруги~є ресторан     у~Парижі 
+
+[POINT_TO_PHRASE]
+> Виберіть варіант, що означає «офіціанти».
+Speaker2705: (And) (she~needs)   (+waiters)!  
+~             і     їй~потрібні    офіціанти  
+
+[LINE]
+Speaker439: Are~you~sure?
+~           ти~впевнений 
+
+[MULTIPLE_CHOICE]
+> Що запитує Крістіна?
+- Ти вдома?
+- Ти щасливий?
++ Ти впевнений?
+
+[LINE]
+Speaker2705: Yes!
+~            так 
+
+[LINE]
+Speaker439: We're~going to~live in~Paris!
+~           ми~будемо   жити    в~Парижі 
+
+[LINE]
+Speaker439: I'm so   happy!  
+~           я   така щаслива 
+
+[MULTIPLE_CHOICE]
+> Крістіна та Карл вирішили…
+- … їздити в Париж кожних вихідних.
++ … жити в Парижі.
+- … купити ресторан.
+
+[MATCH]
+> З’єднайте пари
+- want <> хочу
+- we have <> у нас є
+- to live <> жити
+- don't <> не
+- Carl <> Карл
+
