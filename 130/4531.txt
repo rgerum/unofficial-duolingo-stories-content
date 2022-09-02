@@ -1,0 +1,190 @@
+[DATA]
+fromLanguageName=Вызовите врача
+icon=c92c412287a69a673eeae5639f07af4c004bb634
+set=49|4
+
+[HEADER]
+> Call     a~Doctor!
+~ вызовите врача    
+
+[LINE]
+> Eddy is~jogging in~the~neighborhood. Suddenly, he falls  and hurts      his  ankle.  
+~ Эдди бегает     по~району            внезапно  он падает и   повреждает свою лодыжку 
+
+[LINE]
+Speaker414: Ow!
+~           ай 
+
+[POINT_TO_PHRASE]
+> Choose   the~option that    means    «белом медицинском халате».
+~ выберите вариант    который означает ~      ~           ~       
+> (A~man)   in (+a~white~lab~coat)         (walks~quickly)   (past) him. 
+~  мужчина  в    белом~медицинском~халате   быстро~проходит   мимо  него 
+
+[LINE]
+Speaker414: Hey! Doctor! Doctor!
+~           эй   доктор  доктор 
+
+[LINE]
+Speaker385: Who, me?
+~           кто  я  
+
+[LINE]
+Speaker414: Yes, can~you   help   me? 
+~           да   вы~можете помочь мне 
+
+[LINE]
+Speaker385: I'm~actually~late,     I~need    to~go to work.  
+~           вообще-то~я~опаздываю  мне~нужно идти  на работу 
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker414: But my  ankle   hurts~a~lot.  Please     [help     me]! 
+~           но  моя лодыжка сильно~болит  пожалуйста  помогите мне  
+- go    to work  
+~ идите на работу
+- dance      with me  
+~ потанцуйте со   мной
++ help     me 
+~ помогите мне
+
+[LINE]
+Speaker385: Well… OK.   
+~           ну    ладно 
+
+[LINE]
+Speaker385: I'll~just~take~off your shoe… 
+~           я~только~сниму     вашу обувь 
+
+[LINE]
+Speaker385: Wow! This~looks~bad!
+~           ого  выглядит~плохо 
+
+[LINE]
+Speaker414: Oh, no.  What's~wrong?
+~           о   нет  что~такое    
+
+[POINT_TO_PHRASE]
+> Choose   the~option that    means    «ногти на ногах»
+~ выберите вариант    который означает ~      ~  ~     
+Speaker385: You (really) (need)  (to~cut)   your (+toenails)!      
+~           вам  очень    нужно   обрезать  ваши   ногти~на~ногах  
+
+[LINE]
+Speaker385: But let~me~look         at your ankle.   Hm. I'm~going~to~try to~move    it.
+~           но  дайте~мне~взглянуть на вашу лодыжку  хм  я~попробую       пошевелить ею 
+
+[LINE]
+Speaker414: What? No|— Ow!
+~           что   нет  ай 
+
+[LINE]
+Speaker385: OK,    that~was a~bad  idea. Did~it~hurt?
+~           ладно  это~была плохая идея  было~больно 
+
+[LINE]
+Speaker414: Yes!
+~           да  
+
+[MULTIPLE_CHOICE]
+> Hmm… what~did the~man do     that~hurt          Eddy?
+~ хм   что      мужчина сделал что~причинило~боль Эдди 
+- He stepped  on~Eddy's~foot.
+~ он наступил Эдди~на~ногу   
+- He cut     his toenails.      
+~ он обрезал его ногти~на~ногах 
++ He moved     Eddy's~ankle.
+~ он пошевелил лодыжку~Эдди 
+
+[LINE]
+Speaker385: Oops. Hmm. Maybe I~can   make~a~bandage.  
+~           ой    хм   может я~смогу наложить~повязку 
+
+[LINE]
+> He tears    a~piece of~Eddy's~shirt.
+~ он отрывает часть   рубашки~Эдди    
+
+[LINE]
+Speaker414: Hey! My  shirt!  
+~           эй   моя рубашка 
+
+[LINE]
+Speaker385: I~need~it     to~make         a~bandage. I'm~going   to~put~it   around your  ankle.  
+~           она~мне~нужна (чтобы)~сделать повязку    я~собираюсь повязать~её вокруг вашей лодыжки 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker414: Ow! [That's~too~tight]!
+~           ай   слишком~туго      
+- Hats too light
++ That's too tight
+- That's a light
+
+[LINE]
+Speaker385: If   you're~going to~complain about~everything, I'm~not~going to~help  you.
+~           если вы~будете    жаловаться  на~всё            я~не~буду     помогать вам 
+
+[LINE]
+Speaker414: What? Don't~doctors~have    to~help  people when  they're~hurt?
+~           что   разве~врачи~не~должны помогать людям  когда они~ранены   
+
+[LINE]
+Speaker385: I don't know, I'm not a~doctor.
+~           я не    знаю  я   не  врач     
+
+[ARRANGE]
+> Наберите услышанное
+Speaker414: [(You) (said)          (you~were~a~doctor).]
+~             вы    сказали~(что)   вы~врач             
+
+[LINE]
+Speaker385: No,  I~didn't.     I'm an~actor.
+~           нет  я~не~говорил  я   актёр    
+
+[LINE]
+Speaker414: Why~are you wearing a~lab~coat?       
+~           почему  вы  одеты~в медицинский~халат 
+
+[LINE]
+Speaker385: I'm a~doctor on~a~TV~show, and I'm~wearing my  costume.
+~           я   врач     в~сериале     и   на~мне      мой костюм  
+
+[LINE]
+Speaker414: Wait,      I've~seen you on the~TV~show you're~on!              My~son~and~I watch   it! 
+~           минуточку  я~видел   вас в  телесериале (в~котором)~вы~играете  мы~с~сыном   смотрим его 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker414: I know how you can    help   me  [feel~better]…             
+~           я знаю как вы  можете помочь мне  почувствовать~себя~лучше  
++ feel better
+- fill it better
+- feel wetter
+
+[LINE]
+Speaker385: How?
+~           как 
+
+[LINE]
+Speaker414: You can    take~a~picture~with~me for my    son! 
+~           вы  можете сделать~со~мной~фото   для моего сына 
+
+[MULTIPLE_CHOICE]
+> Why    wasn't~the~man~able to~help Eddy's~ankle?
+~ почему мужчина~не~смог     помочь  лодыжке~Эдди 
+- Eddy's~ankle was~hurt        too     badly. 
+~ лодыжка~Эдди была~повреждена слишком сильно 
+- Eddy decided     he~didn't~want      help.  
+~ Эдди решил~(что) он~не~нуждается~(в) помощи 
++ He~was actually      an~actor, not~a~doctor.
+~ он~был на~самом~деле актёром   а~не~врачом  
+
+[MATCH]
+> Коснитесь пар
+- don't <> не
+- I'm going to try <> я попробую
+- idea <> идея
+- I'm going <> я собираюсь
+- in <> в
+
