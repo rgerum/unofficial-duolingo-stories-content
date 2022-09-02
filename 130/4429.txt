@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=Проблема с макаронами
+icon=9a8e4c90ef30a62e59cf23d4265247e2655c4cec
+set=24|2
+
+[HEADER]
+> Pasta~Problem        
+~ проблема~с~макаронами
+
+[LINE]
+> Bea is~eating pasta    at~a~restaurant in Rome. A~waiter walks~past     her table.  
+~ Би  ест       макароны в~ресторане     в  Риме  официант проходит~возле её  столика 
+
+[LINE]
+Speaker507: Excuse~me! There's~a~problem~with~my~pasta.
+~           извините   у~меня~проблема~с~макаронами    
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker385: That's not~possible. That's [our~most~popular~dish]!      
+~           это    невозможно    это     наше~самое~популярное~блюдо  
++ our most popular dish
+- your most popular fish
+- our most popular wish
+
+[LINE]
+Speaker507: Did~the~recipe~change?
+~           рецепт~изменился      
+
+[LINE]
+Speaker385: No!  Our recipe hasn't~changed in~fifty~years!
+~           нет  наш рецепт не~менялся     пятьдесят~лет  
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker507: Well, I ate this pasta    here  seven years ago,   and now    [it~tastes~different].
+~           ну    я ела эти  макароны здесь семь  лет   назад  и   теперь  у~них~другой~вкус    
++ it~tastes~different
+~ у~них~другой~вкус  
+- I work    here 
+~ я работаю здесь
+- I~need    glasses
+~ мне~нужны очки   
+
+[LINE]
+Speaker385: Seven years is~a~long~time. Maybe you're~different.
+~           семь  лет   долгое~время    может вы~другая        
+
+[LINE]
+Speaker507: Hmm… I was  younger then.  Everything was  new   and exciting.     
+~           хм   я была моложе  тогда  всё        было новым и   захватывающим 
+
+[LINE]
+Speaker385: OK…    
+~           хорошо 
+
+[LINE]
+Speaker507: I'm a~lot~more serious   now.   
+~           я   намного    серьёзнее сейчас 
+
+[LINE]
+Speaker507: But I'm also  more  responsible   and intelligent.
+~           но  я   ещё~и более ответственная и   умная       
+
+[LINE]
+Speaker507: You're right. I've~changed~a~lot!  Thanks! 
+~           вы     правы  я~сильно~изменилась  спасибо 
+
+[MULTIPLE_CHOICE]
+> За что Би поблагодарила официанта?
+- Он дал ей рецепт макарон.
++ Он помог ей понять, как сильно она изменилась.
+- Он сказал ей, что она ответственная и умная.
+
+[LINE]
+Speaker385: You're~welcome.
+~           пожалуйста     
+
+[LINE]
+Speaker507: What happened~to the~waiter who     worked  here  seven years ago?  
+~           что  произошло~с официантом который работал здесь семь  лет   назад 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «солнцезащитные очки».
+Speaker507: (He~had)      (+sunglasses)          (and) (a~mustache).
+~            у~него~были    солнцезащитные~очки   и     усы         
+
+[LINE]
+Speaker385: That's Antonio.
+~           это    Антонио 
+
+[LINE]
+Speaker507: Does~he~still work     here? 
+~           он~ещё        работает здесь 
+
+[LINE]
+Speaker385: No,  he never~worked       here. 
+~           нет  он никогда~не~работал здесь 
+
+[LINE]
+Speaker385: He works    at~the~restaurant across~the~street.
+~           он работает ресторане         через~дорогу      
+
+[LINE]
+Speaker507: Oh…
+~           ой 
+
+[MULTIPLE_CHOICE]
+> Кажется…
+- …Би обслуживает тот же официант, что и семь лет назад.
++ …Би перепутала ресторан.
+- …Би носит солнцезащитные очки и усы.
+
+[LINE]
+> Later, Bea is~eating the~same~pasta~dish in~the~restaurant across~the~street.
+~ позже  Би  ест       те~самые~макароны   в~ресторане       через~дорогу      
+
+[LINE]
+Speaker507: Yeah, this~tastes exactly the~same.
+~           да    на~вкус     точно   такие~же 
+
+[LINE]
+Speaker507: That's sad.      Maybe I haven't changed.   
+~           это    печально  может я не      изменилась 
+
+[MULTIPLE_CHOICE]
+> Почему Би думает, что не изменилась?
++ Макароны в этом ресторане на вкус точно такие же как раньше.
+- Она забыла вкус макарон.
+- Официант снял очки.
+
+[MATCH]
+> Коснитесь пар
+- he <> он
+- exciting <> захватывающим
+- But <> но
+- haven't <> не
+- pasta <> макароны
+
