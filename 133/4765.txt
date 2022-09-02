@@ -1,0 +1,133 @@
+[DATA]
+fromLanguageName=도움이 필요하세요?
+icon=3353b2d2d326875fc3ab76228fda57149bcd012a
+set=6|2
+
+[HEADER]
+> Need~Help?
+~ 도움이~필요하세요 
+
+[LINE]
+> Lin~is walking on~a~road.
+~ 린이     걸어가고~있다 길에서       
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+> She sees a man [near~his~car].
+~ 그녀가 본다   한 남자를  그의~차~근처에서     
++ near his car
+- near this bar
+- hear his car
+
+[LINE]
+> He looks~unhappy.
+~ 그는 기분이~안~좋아~보인다  
+
+[LINE]
+Speaker508: Hi!    Do~you~need~help?
+~           안녕하세요  (당신은)~도움이~필요하세요  
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker127: There~is~a~problem~with [my car].
+~           ~에~문제가~있어요               제  차    
+- the~weather
+~ 날씨         
+- my coffee
+~ 제  커피    
++ my car
+~ 제  차  
+
+[LINE]
+Speaker127: Can~I~use~your~phone,~please?
+~           그~쪽~휴대폰을~(제가)~써도~될까요         
+
+[LINE]
+> Lin gives her phone to~the~man.
+~ 린이  건넨다   그녀의 휴대폰을  그~남자에게     
+
+[LINE]
+Speaker508: Sure, but…
+~           그러세요  하지만 
+
+[LINE]
+Speaker127: Sorry, one~minute.
+~           죄송해요   잠시만요       
+
+[LINE]
+> The man uses Lin's phone.
+~ 그   남자가 쓴다   린의    휴대폰을  
+
+[LINE]
+Speaker127: Yes, is~this the~auto~repair~shop?
+~           네    거기가     자동차~정비소인가요           
+
+[MULTIPLE_CHOICE]
+> 그 남자가 린의 휴대폰을 빌린 이유는…
++ ...자동차 정비소에 전화하기 위해서이다.
+- ...그녀의 사진들을 보기 위해서이다.
+- ...시간을 확인하기 위해서이다.
+
+[LINE]
+Speaker127: I~have~a~car~problem.
+~           제~차에~문제가~있어요         
+
+[LINE]
+Speaker508: Uh… Sir?
+~           어   저기요 
+
+[LINE]
+> The man continues talking~on~the~phone.
+~ 그   남자가 계속한다      통화를                  
+
+[LINE]
+Speaker127: No,  I  don't~know where~I~am. 
+~           아니요  저는 몰라요        (제가)~지금~어딘지 
+
+[LINE]
+Speaker127: Excuse~me, miss…
+~           실례합니다      아가씨  
+
+[LINE]
+Speaker508: Yes?
+~           네   
+
+[LINE]
+Speaker127: Where~are~we?
+~           저희가~지금~어디죠   
+
+[LINE]
+Speaker508: Near  the~auto~repair~shop!
+~           ~근처예요 자동차~정비소              
+
+[LINE]
+Speaker127: What?
+~           뭐라고요 
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker508: [(I) (work) (there) (on~weekends).]
+~             전   일해요    거기서     주말에           
+
+[LINE]
+Speaker508: I'm a~mechanic!
+~           전   정비공이에요     
+
+[LINE]
+Speaker508: So…    do~you~need~help?
+~           그럼~이제  (당신은)~도움이~필요하세요  
+
+[MULTIPLE_CHOICE]
+> 사실 린은…
+- ...새 휴대폰을 사는 데 도움이 필요하다.
++ ...자동차 정비소에서 일한다.
+- ...현재 자신이 어디에 있는지 모른다.
+
+[MATCH]
+> 짝을 누르세요
+- gives <> 건넨다
+- my <> 제
+- there <> 거기서
+- talking on the phone <> 통화를
+- Sir <> 저기요
+
