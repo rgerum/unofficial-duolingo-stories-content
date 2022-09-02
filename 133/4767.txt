@@ -1,0 +1,110 @@
+[DATA]
+fromLanguageName=개를 키우고 싶어요
+icon=f0d8a8f3340da1d468766192cafa7ac1ee986355
+set=6|4
+
+[HEADER]
+> I Really Want~a~Dog
+~ 전 정말     개를~키우고~싶어요
+
+[LINE]
+Speaker415: Dad, we need~to~talk. I really want~a~dog.
+~           아빠   우리 얘기~좀~해요       전 정말     개를~키우고~싶어요 
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker414: Junior, a~dog~is [a~lot~of~work]…
+~           주니어     개~키우는~건   힘든~일이야         
+- a lot of weeks
+- a love for work
++ a lot of work
+
+[LINE]
+Speaker415: I  can~work! I'm very responsible.
+~           제가 일할~수~있어요  전   아주   책임감이~강해요    
+
+[LINE]
+Speaker414: Really?
+~           정말     
+
+[LINE]
+Speaker414: Then first, you need~to~wash~the~car…
+~           그럼   우선     네가  세차를~해야~해             
+
+[MULTIPLE_CHOICE]
+> 에디가 주니어에게 세차를 하라고 한 이유는 무엇인가요?
++ 주니어가 책임감이 있는지 증명할 기회를 주려고.
+- 주니어의 개가 차를 더럽혔기 때문에.
+- 주니어가 일하러 갈 때 차가 필요해서.
+
+[LINE]
+Speaker415: Sure!
+~           알겠어요 
+
+[LINE]
+Speaker414: …clean  the~bathroom…
+~            청소도~하고 화장실          
+
+[LINE]
+Speaker415: OK!
+~           네  
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker414: …[(and) (clean) (the~windows)!]
+~              그리고   닦아봐     창문을           
+
+[LINE]
+Speaker415: Oh~no…
+~           아~이런  
+
+[POINT_TO_PHRASE]
+> “이후에”를 뜻하는 말을 고르세요.
+> (Three) (hours) (+later), (Junior) finishes cleaning~their~apartment.
+~  세       시간       이후에      주니어가    끝낸다      그들의~아파트~청소를              
+
+[LINE]
+Speaker415: Dad! Look at~my~work!
+~           아빠   보세요  제가~한~일을    
+
+[LINE]
+Speaker414: Wow! This~looks~great! You~are very responsible.
+~           우와   (이거)~훌륭한데         넌       아주   책임감이~강하구나   
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker414: You~can~have [a~dog]!
+~           (네가)~키워도~좋아   개를     
++ a~dog
+~ 개    
+- a~window
+~ 창문      
+- a~toilet
+~ 화장실     
+
+[LINE]
+Speaker415: No,~thank~you! I don't~want a~dog now.
+~           아니요,~괜찮아요      전 원치~않아요     개를    이제  
+
+[LINE]
+Speaker414: But Junior, I don't~understand…
+~           하지만 주니어     난 이해가~안~가          
+
+[LINE]
+Speaker415: I'm tired! I don't~want~to~be~responsible!
+~           전   피곤해요   전 책임을~지고~싶지~않아요                
+
+[MULTIPLE_CHOICE]
+> 주니어가 내린 결정은 무엇인가요?
++ 너무 지쳐서 개를 키우고 싶지 않다는 것.
+- 개 대신 소를 키우고 싶다는 것.
+- 개 네 마리를 입양해야겠다는 것.
+
+[MATCH]
+> 짝을 누르세요
+- you <> 네가
+- Dad <> 아빠
+- very <> 아주
+- can work <> 일할 수 있어요
+- Oh no <> 아 이런
+
