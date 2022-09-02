@@ -1,0 +1,154 @@
+[DATA]
+fromLanguageName=전 여자친구
+icon=29463cb983d5da30288b0758a5f9ec7313b76094
+set=15|2
+
+[HEADER]
+> The~Ex-Girlfriend
+~ 전~여자친구           
+
+[LINE]
+> Lin~is shopping with~her~friend,~Bea.
+~ 린이     쇼핑~중이다   그녀의~친구~비와~함께         
+
+[LINE]
+Speaker508: Oh, wow, that's Jamie!
+~           어   우와   저~사람은  제이미야  
+
+[LINE]
+Speaker507: Who~is~Jamie?
+~           제이미가~누구야     
+
+[LINE]
+Speaker508: My ex-girlfriend!
+~           내  전~여자친구        
+
+[MULTIPLE_CHOICE]
+> 린은 제이미와 예전에 사귀던 사이였다.
++ 네, 맞아요.
+- 아니요, 그렇지 않아요.
+
+[LINE]
+Speaker507: The woman  in~the~red~shirt?
+~           저   여자~말이야 빨간~셔츠를~입은        
+
+[LINE]
+Speaker508: Yes.
+~           응   
+
+[LINE]
+Speaker507: She looks~nice.
+~           그녀는 좋은~사람~같아   
+
+[LINE]
+Speaker508: She  moved to~a~different~city, and we stopped talking.
+~           제이미가 이사~갔어 다른~도시로               그리고 우린 끊겼어     연락이     
+
+[LINE]
+Speaker508: I haven't~talked to~her in~five~years.
+~           난 연락한~적이~없어      제이미랑   오~년~동안        
+
+[LINE]
+Speaker507: Are~you going~to~talk to~her now?
+~           넌       말을~걸거야        그녀에게   지금  
+
+[LINE]
+Speaker508: I~don't~know…
+~           (난)~모르겠어     
+
+[LINE]
+Speaker508: She  probably doesn't~remember me.
+~           제이미는 아마       기억~못~할거야         나를 
+
+[MULTIPLE_CHOICE]
+> 린이 제이미가 자신을 기억 못 할거라 생각하는 이유는…
+- ...린이 예전에 사귈 때 가짜 이름을 썼기 때문이다.
++ ...지난 몇 년 동안 서로 연락한 적이 없기 때문이다.
+- ...제이미의 기억력이 아주 나쁘기 때문이다.
+
+[LINE]
+Speaker507: Talk  to~her!
+~           말~걸어봐 그녀에게   
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker507: Ooh, [this~is~exciting]!
+~           오     이거~신나는~걸          
+- it is inviting
+- he's exercising
++ this is exciting
+
+[LINE]
+Speaker508: Hmm.
+~           음   
+
+[LINE]
+Speaker508: OK.  I'm going~to~wave at~her.
+~           알았어  내가  손을~흔들거야       제이미에게  
+
+[LINE]
+> Lin waves  at~the~woman.
+~ 린이  손을~흔든다 그~여자에게       
+
+[LINE]
+Speaker507: She saw you!
+~           그녀가 봤어  널   
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker507: [(She's) (coming) (here) (now)!]
+~             그녀가     오고~있어    여기로    지금    
+
+[LINE]
+Speaker508: Oh~no.
+~           아~이런  
+
+[LINE]
+Speaker508: That's not~Jamie.
+~           저~사람은  제이미가~아니야  
+
+[LINE]
+Speaker507: Are~you~sure?
+~           (넌)~확실해      
+
+[LINE]
+Speaker508: Yes! That's not~her! 
+~           응    저~사람은  제이미가~아니야 
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker125: Uh, hello. I saw you [waving~at~me].
+~           어   안녕하세요  전 봤어요 당신이  저에게~손~흔드는~걸   
+- shopping with~me
+~ 쇼핑하는~것   나랑     
++ waving  at~me
+~ 손~흔드는~것 나에게  
+- studying with~me
+~ 공부하는~것   나랑     
+
+[LINE]
+Speaker125: Do~I~know~you?
+~           저희가~아는~사이인가요  
+
+[LINE]
+Speaker507: No,  but do~you~know where to~buy  glasses?
+~           아니요  하지만 (당신은)~아세요   어디서   살~수~있는지 안경을     
+
+[LINE]
+Speaker507: My friend needs a~pair!
+~           제  친구가    필요해요  안경이    
+
+[MULTIPLE_CHOICE]
+> 비가 린에게 안경이 필요하다고 말하는 이유는 무엇인가요?
+- 린의 안경이 너무 어울리지 않아서.
++ 린이 모르는 사람을 전 여자친구로 착각해서.
+- 그 여자가 린의 안경을 실수로 밟아서.
+
+[MATCH]
+> 짝을 누르세요
+- Oh no <> 아 이런
+- and <> 그리고
+- glasses <> 안경을
+- that's <> 저 사람은
+- waving at me <> 저에게 손 흔드는 걸
+
