@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=मेरी पेंटिंग देखो
+icon=b4a0fb96a3bb2af295051d49d3c112c4c91779e6
+set=13|3
+
+[HEADER]
+> Look at~My~Painting
+~ देखो मेरे~चित्र~को 
+
+[LINE]
+> Eddy  walks         into~Oscar's~apartment.
+~ एड्डी (चलकर)~आता~है ऑस्कर~के~फ़्लैट~में     
+
+[LINE]
+> Eddy  is carrying           a  painting.
+~ एड्डी है (साथ~में)~लेकर~आया एक चित्र    
+
+[LINE]
+Speaker592: What is that, Eddy? 
+~           क्या है वह    एड्डी 
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker414: It's  [my~first~painting]!
+~           यह~है  मेरा~पहला~चित्र    
+- my fast painting
++ my first painting
+- my first printing
+
+[LINE]
+Speaker414: Can~you~look         at~it?
+~           क्या~तुम~देख~सकते~हो इसे   
+
+[LINE]
+Speaker592: No.  
+~           नहीं 
+
+[LINE]
+Speaker414: But   you're      an art~teacher.  
+~           लेकिन तुम~(तो)~हो एक कला~के~शिक्षक 
+
+[MULTIPLE_CHOICE]
+> एड्डी चाहता है कि…
+- ...कला के बारे में ऑस्कर उससे चार बातें सीख ले।
++ ...ऑस्कर उसकी पेंटिंग को देख ले।
+- ...ऑस्कर उसके लिए कोई पेंटिंग बना दे।
+
+[LINE]
+Speaker592: Yes, and I   am  very honest. 
+~           हाँ  और  मैं हूँ बहुत ईमानदार 
+
+[LINE]
+Speaker414: Good.    
+~           अच्छा~है 
+
+[LINE]
+Speaker592: And you will~cry.  
+~           और  तुम रोने~लगोगे 
+
+[MULTIPLE_CHOICE]
+> ज़रा एक मिनट… ऑस्कर को आखिर क्यों लगता है कि एड्डी रो देगा?
+- क्योंकि ऑस्कर की पेंटिंग बेहद खूबसूरत होती हैं।
+- क्योंकि ऑस्कर एक बहुत दुखभरी कहानी सुनाने वाला है।
++ क्योंकि ऑस्कर एड्डी से साफ़-साफ़ कह देगा कि उसे एड्डी की पेंटिंग पसंद नहीं आई।
+
+[LINE]
+Speaker414: But   I   want      to~know if  the~painting is good. 
+~           लेकिन मैं चाहता~हूँ जानना   अगर चित्र        है अच्छा 
+
+[LINE]
+Speaker592: It's~not   good. 
+~           यह~नहीं~है अच्छा 
+
+[LINE]
+Speaker414: How~do~you~know? 
+~           तुम्हें~कैसे~पता 
+
+[LINE]
+Speaker592: You are~not an artist. And it's       your     first painting.
+~           तुम नहीं~हो एक कलाकार  और  यह~(तो)~है तुम्हारा पहला  चित्र    
+
+[ARRANGE]
+> सुनकर शब्द चुनें
+Speaker592: [(First) (paintings) (are~never)     (good).] 
+~             पहले    चित्र       कभी~नहीं~होते   अच्छे   
+
+[LINE]
+Speaker414: Please, look      at~it.
+~           कृपया   देखो~(तो) इसे   
+
+[LINE]
+Speaker414: Please, Oscar.
+~           कृपया   ऑस्कर 
+
+[LINE]
+Speaker592: Fine.   I'll~look     at~it.
+~           ठीक~है  मैं~देख~लूँगा इसे   
+
+[CONTINUATION]
+> आगे क्या आएगा?
+> Oscar looks    [at~the~painting].
+~ ऑस्कर देखता~है  चित्र~को         
+- at~Eddy~crying   
+~ एड्डी~को~रोते~हुए
++ at~the~painting
+~ चित्र~को       
+- at~the~apartment
+~ फ़्लैट~को        
+
+[LINE]
+Speaker592: Eddy,  this painting is…
+~           एड्डी  यह   चित्र    है 
+
+[LINE]
+Speaker414: Yes?!
+~           हाँ  
+
+[LINE]
+Speaker592: Really   good. 
+~           वाकई~में अच्छा 
+
+[LINE]
+Speaker414: Yes! Cool!   I'm     a  good  artist!
+~           हाँ  सही~है  मैं~हूँ एक अच्छा कलाकार 
+
+[LINE]
+Speaker592: Now please leave.  
+~           अब  कृपया  चले~जाओ 
+
+[MULTIPLE_CHOICE]
+> ऑस्कर को यह देखकर इतनी हैरानी क्यों हुई कि एड्डी की पेंटिंग दरअसल अच्छी थी?
+- क्योंकि वह पेंटिंग एड्डी ने अपने बचपन में बनाई थी।
++ क्योंकि उसका मानना था कि किसी भी इंसान की पहली पेंटिंग कभी अच्छी नहीं होती।
+- क्योंकि एड्डी हमेशा से ही एक बेकार पेंटर रहा है।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- Eddy <> एड्डी
+- artist <> कलाकार
+- Now <> अब
+- painting <> चित्र
+- will cry <> रोने लगोगे
+
