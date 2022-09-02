@@ -1,0 +1,159 @@
+[DATA]
+fromLanguageName=길 물어보기
+icon=0699ccdd9abbb4922a33be28cf6143a530843cc1
+set=26|4
+
+[HEADER]
+> Asking for~Directions
+~ 물어보기   길을            
+
+[LINE]
+> Lin~and~Bea~are looking for~a~restaurant in~a~small~town.
+~ 린과~비가           찾고~있다   한~레스토랑을          작은~동네에서         
+
+[LINE]
+Speaker507: I'm tired~of~walking, and I'm really hungry!
+~           난   걷는~데~지쳤어          그리고 난   정말로    배고파    
+
+[LINE]
+Speaker508: I think it's somewhere~in~this~area.
+~           내 생각엔   그게   여기~근처인~것~같아            
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker508: Everyone says [their~food~is~amazing].
+~           다들       그래    그~집~음식이~환상적이라고         
+- your mood is amazing
+- their food is so lazy
++ their food is amazing
+
+[LINE]
+Speaker507: We need~to~ask for~directions.
+~           우린 물어봐야~해      길을             
+
+[LINE]
+> They stop   a woman on~the~street.
+~ 그들이  멈춰~세운다 한 여자를   거리에서          
+
+[LINE]
+Speaker507: Can~you~please give~us~directions to~Cecil's~Restaurant?
+~           ~해~주실~수~있어요    저희에게~길을~알려주다       시실즈~레스토랑으로~가는         
+
+[LINE]
+Speaker1187: Sure! Turn~left at~the~end of~this~street.
+~            그럼요   좌회전하세요    끝에서        이~거리의          
+
+[LINE]
+Speaker1187: Then, you  will~see a very attractive man sitting in~front~of a~red~house. Turn~right there.
+~            그러면   여러분이 볼~거예요    한 아주   잘생긴        남자가 앉아있는~걸  ~앞에         빨간~집         우회전하세요     거기서   
+
+[MULTIPLE_CHOICE]
+> 린과 비는 어디서 우회전을 해야 하나요?
+- 파란 집 앞 아주 못생긴 남자가 있는 곳에서
++ 빨간 집 앞 잘생긴 남자가 있는 곳에서
+- 도로 끝 레스토랑이 있는 곳에서
+
+[LINE]
+Speaker508: Thanks.
+~           감사합니다  
+
+[LINE]
+> They turn~left.
+~ 그들이  좌회전한다     
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+> [(They) (walk) (down~the~street) (for~fifteen~minutes).]
+~   그들이    걸어간다   거리를~따라            십오~분동안                
+
+[LINE]
+> Finally, they see a man sitting outside~of a~red~house.
+~ 마침내      그들이  본다  한 남자가 앉아있는~걸  ~밖에        빨간~집        
+
+[LINE]
+Speaker508: Is~that~the~man?
+~           저~사람인가          
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker507: No, she   said he~was [very attractive].
+~           아니  그~여자가 말했어  남자가     아주   잘생겼다고       
+- very red
+~ 아주   빨간 
++ very attractive
+~ 아주   잘생긴       
+- really hungry
+~ 정말로    배고픈   
+
+[LINE]
+Speaker508: He~is attractive!
+~           저~사람은 잘생겼어       
+
+[LINE]
+Speaker507: But he's not~very~attractive…
+~           하지만 그가   아주~잘생기진~않았어         
+
+[LINE]
+Speaker508: Oh. Maybe you're right.
+~           아   어쩌면   네~말이   맞아    
+
+[LINE]
+Speaker3135: Excuse~me, I~can~hear~you.
+~            저기요        다~들려요          
+
+[LINE]
+Speaker507: Oops, sorry.
+~           이런    죄송합니다 
+
+[MULTIPLE_CHOICE]
+> 잠깐만요… 비가 방금 사과한 이유는 무엇인가요?
+- 그녀가 목적지를 잊어버렸기 때문에.
++ 남자가 아주 잘생기진 않았다고 한 말을 그가 들었기 때문에.
+- 그녀가 실수로 린의 발을 밟았기 때문에.
+
+[LINE]
+Speaker508: Are~we close to~Cecil's~Restaurant?
+~           저희가    가깝나요  시실즈~레스토랑에서            
+
+[LINE]
+Speaker3135: No,  it's~three~miles from~here.
+~            아니요  삼~마일~거리에요        여기서       
+
+[LINE]
+Speaker508: Are~you~sure?
+~           확실해요         
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker3135: Yes. I'm [a~cook~there].
+~            네    제가   거기~요리사예요      
+- the book there
+- to look there
++ a cook there
+
+[LINE]
+Speaker507: Great! Can~you~make~me a~sandwich? I'm so hungry!
+~           잘됐네요   만들어~주실~수~있어요    샌드위치~하나를    전   진짜 배고파요   
+
+[LINE]
+Speaker3135: No,  you said  I  wasn't~attractive.
+~            아니요  당신이 말했잖아요 내가 잘생기지~않았다고         
+
+[LINE]
+Speaker507: Well, that~was before I  found~out you can~cook.   
+~           음     그건       ~전이었죠  제가 알게~됐다     당신이 요리할~줄~안다는~걸 
+
+[MULTIPLE_CHOICE]
+> 비가 남자에게 샌드위치를 만들어 달라고 한 이유는 무엇인가요?
+- 비가 그에게 먼저 샌드위치를 만들어 주었기 때문에.
++ 그가 시실즈 레스토랑의 요리사이기 때문에.
+- 그가 빵과 치즈를 많이 들고 있기 때문에.
+
+[MATCH]
+> 짝을 누르세요
+- Then <> 그러면
+- wasn't attractive <> 잘생기지 않았다고
+- We <> 우린
+- in front of <> ~앞에
+- for a restaurant <> 한 레스토랑을
+
