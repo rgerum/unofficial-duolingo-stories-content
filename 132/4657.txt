@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=यह बच्चों का खेल नहीं है
+icon=92f8e9fbcb106a065c67e2efcbb467a67077da4b
+set=11|4
+
+[HEADER]
+> Not       For~Kids     
+~ नहीं~(है) बच्चों~के~लिए
+
+[LINE]
+> Zari is watching      Junior      because Eddy  is at~work.         
+~ ज़ारी है देखभाल~कर~रही जूनियर~(की) क्योंकि एड्डी है काम~पर~(गया~हुआ) 
+
+[LINE]
+Speaker415: Zari! Can~we~play          your     video~game!?
+~           ज़ारी  क्या~हम~खेल~सकते~हैं तुम्हारा वीडियो~गेम  
+
+[LINE]
+Speaker418: I~have~to~finish  cleaning before         your     dad  comes~home.   
+~           मुझे~खत्म~करनी~है साफ़-सफ़ाई इससे~पहले~(कि) तुम्हारे पिता (वापस)~घर~आएँ 
+
+[MULTIPLE_CHOICE]
+> ज़ारी फ़िलहाल विडियो गेम नहीं खेल सकती।
++ हाँ, यह सही है।
+- नहीं, ऐसा नहीं है।
+
+[LINE]
+Speaker415: Well… can~I~play            the~video~game?
+~           (तो)  क्या~मैं~खेल~सकता~हूँ वीडियो~गेम     
+
+[POINT_TO_PHRASE]
+> उस विकल्प को चुनें जिसका मतलब “बच्चों के लिए” है।
+Speaker418: (Sorry),    my   (video~game) (is~not)  (+for~kids).     
+~            माफ़~करना   मेरा  वीडियो~गेम   नहीं~है    बच्चों~के~लिए  
+
+[LINE]
+Speaker415: I   am~not   a  kid!  
+~           मैं नहीं~हूँ एक बच्चा 
+
+[LINE]
+Speaker418: Hmm… well, adults  wash     dishes.
+~           ~    (तो)  बड़े~लोग धोते~हैं बर्तन  
+
+[LINE]
+Speaker415: I   can~wash    dishes!
+~           मैं धो~सकता~हूँ बर्तन  
+
+[CONTINUATION]
+> आगे क्या आएगा?
+> Junior starts~to       [wash~the~dishes].
+~ जूनियर शुरू~कर~देता~है  बर्तन~धोना       
++ wash~the~dishes
+~ बर्तन~धोना     
+- eat  dinner     
+~ खाना रात~का~भोजन
+- clean    the~video~game
+~ साफ़~करना वीडियो~गेम    
+
+[LINE]
+Speaker415: See?         
+~           देखा~(तुमने) 
+
+[LINE]
+Speaker418: Adults  also~clean~the~table.
+~           बड़े~लोग मेज़~भी~साफ़~करते~हैं  
+
+[LINE]
+Speaker415: I   can~clean       the~table!
+~           मैं साफ़~कर~सकता~हूँ मेज़       
+
+[ARRANGE]
+> सुनकर शब्द चुनें
+> [(Junior) (cleans)         (the~table).]
+~   जूनियर   साफ़~कर~देता~है   मेज़         
+
+[LINE]
+Speaker418: Wow, good~job!   You are~an~adult.
+~           वाह  बहुत~बढ़िया  तुम बड़े~हो~गए~हो 
+
+[MULTIPLE_CHOICE]
+> ज़ारी जूनियर से यह क्यों कहती है कि वह बड़ा हो गया है?
++ क्योंकि जूनियर ने बड़ों की तरह घर की सफ़ाई कर दी।
+- क्योंकि ज़ारी उसकी और देखभाल नहीं करना चाहती।
+- क्योंकि जूनियर बहुत लंबा हो गया है।
+
+[LINE]
+Speaker415: Now can~we~play          your     video~game!?
+~           अब  क्या~हम~खेल~सकते~हैं तुम्हारा वीडियो~गेम  
+
+[LINE]
+Speaker418: Oh~no!    It's~nine~o'clock. You~need~to~go     to~bed!
+~           अरे~नहीं  नौ~बज~गए~हैं       तुम्हें~जाना~चाहिए सोने   
+
+[LINE]
+Speaker415: But   I'm~an~adult!       Adults  go       to~bed late.  
+~           लेकिन मैं~बड़ा~हो~गया~हूँ  बड़े~लोग जाते~हैं सोने   देर~से 
+
+[MULTIPLE_CHOICE]
+> जूनियर का कहना है कि वह अब बड़ा हो गया है, इसलिए…
+- …वह ज़ारी से शादी कर सकता है।
+- …उसे एक नौकरी ढूँढ लेनी चाहिए।
++ …वह देर से सोने जा सकता है।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- I <> मैं
+- go <> जाते हैं
+- wash <> धोते हैं
+- before <> इससे पहले
+- can clean <> साफ़ कर सकता हूँ
+
