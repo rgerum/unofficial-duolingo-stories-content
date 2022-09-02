@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=로스앤젤레스에 간 오스카
+icon=aa7be12b0429b89da80e093e44f1d40788aba012
+set=28|2
+
+[HEADER]
+> Oscar in~Los~Angeles
+~ 오스카   로스앤젤레스에~간     
+
+[LINE]
+> Oscar~is visiting his cousin, Orson, in~Los~Angeles.
+~ 오스카가     방문~중이다   그의  사촌      올슨을    로스앤젤레스에        
+
+[LINE]
+> He walks~into the~kitchen with   his camera~and guidebook.
+~ 그가 걸어~들어간다    부엌으로        ~을~가지고 그의  카메라와       가이드북      
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker3107: Good~morning, Oscar! I'm working today, but I~can~give you directions~to [any~place~in~the~city]!
+~            좋은~아침         오스카    난   일~해     오늘     하지만 알려줄~수~있어   너한테 ~에~가는~길을       도시에~어디든                
+- any face that's so pretty
++ any place in the city
+- any space with a kitty
+
+[LINE]
+> Oscar points~to a page in~the~guidebook.
+~ 오스카가  가리킨다      한 페이지를 가이드북에~있는         
+
+[POINT_TO_PHRASE]
+> “거리”를 뜻하는 말을 고르세요.
+Speaker592: (Where's) (the) (famous) (+sidewalk) with~all~the~stars on~the~ground?
+~            어딨어       그     유명한       거리        수많은~별들이~있는         바닥에           
+
+[LINE]
+Speaker3107: That's on~the~west~side of~the~city.
+~            그건     서쪽에~있어           도시의         
+
+[LINE]
+Speaker3107: You have~to~drive on~the~highway for~an~hour and get~off on~Hollywood~Boulevard.
+~            네가  운전해야~해        고속도로로          한~시간동안      그리고 내려야~해   할리우드~불러바드에서            
+
+[LINE]
+Speaker592: An hour?! That's too long. 
+~           한  시간     그건     너무  오래~걸려 
+
+[LINE]
+Speaker592: How~far is~the~Hollywood~sign from~here?
+~           얼마나~멀어  할리우드~사인이              여기서       
+
+[LINE]
+Speaker3107: That's in~the~north~part of~town.
+~            그건     북쪽에~있어            시내의     
+
+[MULTIPLE_CHOICE]
+> 할리우드 사인은 시내 어느 쪽에 있나요?
+- 서쪽
+- 남쪽
++ 북쪽
+
+[LINE]
+Speaker3107: You'll~have~to~drive straight on~Vermont~Avenue for~an~hour.
+~            네가~운전해야~해            직진으로     버몬트~애버뉴를~따라       한~시간동안      
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker592: [(Maybe) (I'll~go) (to~Malibu).]
+~             어쩌면     난~갈까~해    말리부에        
+
+[LINE]
+Speaker3107: Oh,~no.    If you want~to~go there, then you'll~be~in~traffic for~at~least~two~hours.
+~            안~가는~게~좋아  만약 네가  가고~싶다면     그곳에    그럼   교통체증에~시달릴~거야         최소~두~시간동안              
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker592: Is~there~any~place that~takes~less~than [an~hour to~get~to]?
+~           ~곳이~있어             ~이하로~걸리는              한~시간    가는~데       
+- a~cup~of~coffee
+~ 커피~한~잔         
++ an~hour~to~get~to 
+~ 가는~데~한~시간         
+- ten~dollars~in~coins
+~ 동전으로~십~달러           
+
+[LINE]
+Speaker3107: The~art~museum~is only fifty-nine~minutes from~here!
+~            미술관은              단지   오십구~분~거리야          여기서       
+
+[LINE]
+> Oscar leaves the~kitchen.
+~ 오스카가  떠난다    부엌을         
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker3107: So,  [where~are~you~going]?
+~            그래서   어디~갈~건데              
+- why are you growing
+- here you are rowing
++ where are you going
+
+[LINE]
+Speaker592: You just got a~new~TV, right?
+~           네가  최근에  샀지  새~티비를     그렇지   
+
+[LINE]
+Speaker3107: Yes! It's in~the~living~room.
+~            응    그건   거실에~있어             
+
+[LINE]
+Speaker592: That's~where~I'm~going.
+~           거기~갈~거야                
+
+[MULTIPLE_CHOICE]
+> 오스카가 텔레비전을 보기로 한 이유는 무엇인가요?
+- 가보고 싶은 곳은 이미 모두 가봤기 때문에.
+- 제일 좋아하는 프로그램이 나올 시간이라서.
++ 시내 어디든 가는데 시간이 너무 오래 걸려서.
+
+[MATCH]
+> 짝을 누르세요
+- I'm <> 난
+- an hour <> 한 시간
+- today <> 오늘
+- to Malibu <> 말리부에
+- Good morning <> 좋은 아침
+
