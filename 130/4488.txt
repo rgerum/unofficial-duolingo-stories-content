@@ -1,0 +1,180 @@
+[DATA]
+fromLanguageName=Картина Лили
+icon=e917f49d6b7ff96ca39f110ebb88551e3359dbd4
+set=39|1
+
+[HEADER]
+> Lily's~Painting
+~ картина~Лили   
+
+[LINE]
+> Lily~has    a~painting in~an~art~show.
+~ у~Лили~есть картина    на~выставке    
+
+[LINE]
+Speaker418: This~is so  exciting! I'm~so~proud  of~you!
+~           это     так здорово   я~так~горжусь тобой  
+
+[LINE]
+Speaker416: A~lot~of other  artists    have paintings here,  too.  No~one~is~going~to~buy mine.
+~           у~многих других художников есть картины   здесь  тоже  никто~не~купит         мою  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker418: Of~course they~will! Your painting [is~the~best~one~here]!
+~           конечно   купят      твоя картина   лучшая~здесь          
+- is the bets won there
++ is the best one here
+- is the last one here
+
+[LINE]
+Speaker416: I don't~think~so.
+~           я так~не~думаю   
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+> People enter       the~art~gallery        and [start    looking~at  the~paintings].
+~ люди   заходят~(в) художественную~галерею и    начинают смотреть~на картины        
+- start    feeding the~cows
+~ начинают кормить коров   
+- start    breaking  all the~windows
+~ начинают разбивать все окна       
++ start    looking~at  the~paintings
+~ начинают смотреть~на картины      
+
+[LINE]
+Speaker418: Isn't~this~painting~amazing?     
+~           разве~эта~картина~не~потрясающая 
+
+[LINE]
+> Zari points~at     Lily's~painting.
+~ Зари показывает~на картину~Лили    
+
+[LINE]
+Speaker416: Zari, shh!
+~           Зари  тсс 
+
+[LINE]
+Speaker418: What? I just   want to~make~sure       everyone sees    your painting. It's~so~good!      
+~           что   я просто хочу убедиться,~(чтобы) все      увидели твою картину   она~такая~красивая 
+
+[LINE]
+Speaker416: Please     stop.     This~is embarrassing.
+~           пожалуйста прекрати  это     унизительно  
+
+[MULTIPLE_CHOICE]
+> Lily wants          Zari~to~stop…   
+~ Лили хочет,~(чтобы) Зари~прекратила 
++ …talking~to people about her painting.
+~  говорить   людям  о     её  картине  
+- …drawing  on other~people's~paintings.
+~  рисовать на картинах~других~людей    
+- …giving everyone pieces~of~candy.
+~  давать всем     конфеты         
+
+[LINE]
+Speaker418: Fine.  I'll~stop.  
+~           ладно  я~перестану 
+
+[LINE]
+> A~couple stops           to~look~at    Lily's~painting.
+~ пара     останавливается посмотреть~на картину~Лили    
+
+[POINT_TO_PHRASE]
+> Choose  the~option that    means    «шепчутся».
+~ выбрите вариант    который означает ~          
+> (They) (+whisper)  to~each~other, and (then)  (they) walk     past the~painting.
+~  они     шепчутся  друг~с~другом  и    затем   они   проходят мимо картины      
+
+[LINE]
+> They look~at    a~painting~of~a~flower next~to Lily's.          Then  they buy~it.     
+~ они  смотрят~на картину~с~цветком      рядом~с (картиной)~Лили  затем они  покупают~её 
+
+[MULTIPLE_CHOICE]
+> Wait…      what just       happened? 
+~ минуточку  что  только~что произошло 
+- Lily bought a~beautiful flower for the~couple.
+~ Лили купила красивый    цветок для пары       
++ The~couple bought the~painting next~to Lily's.         
+~ пара       купила картину      рядом~с (картиной)~Лили 
+- The~couple bought Lily's~painting.
+~ пара       купила картину~Лили    
+
+[LINE]
+Speaker418: I can't   believe         they just       bought that flower    painting.
+~           я не~могу поверить,~(что) они  только~что купили ту   цветочную картину  
+
+[ARRANGE]
+> Наберите услышанное
+Speaker418: [(Your) (painting) (is~so~much) (better).]
+~             твоя   картина    намного      лучше    
+
+[LINE]
+> An~hour later,  most~of     the~paintings have~been~sold. Lily's~painting is~still on the~wall.
+~ час     спустя  большинство картин        распроданы      картина~Лили    всё~ещё  на стене    
+
+[LINE]
+Speaker418: Hmm. No~one~bought  your painting yet!     
+~           хм   никто~не~купил твою картину  пока~что 
+
+[LINE]
+Speaker416: Yeah, I know.
+~           да    я знаю 
+
+[LINE]
+Speaker418: Uh… I'm going~to~go to the~bathroom.
+~           гм  я   пойду       в  туалет       
+
+[POINT_TO_PHRASE]
+> Choose   the~option that    means    «владелице».
+~ выберите вариант    который означает ~           
+> (Zari) (walks~over~to) (+the~owner) (of~the~art~gallery).    
+~  Зари   подходит~к       владелице   художественной~галереи  
+
+[LINE]
+Speaker418: Hi!           I want to~buy Lily's~painting.
+~           здравствуйте  я хочу купить картину~Лили    
+
+[LINE]
+Speaker341: Which painting is~hers?
+~           какая картина  её      
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker418: That~one     over~there. No~one     [wants~to~buy~it], and I really want to~make~Lily~feel~better!
+~           та~(картина) вон~там     никто~(не)  хочет~купить~её   а   я очень  хочу поднять~Лили~настроение  
+- wants to fry it
+- was beside it
++ wants to buy it
+
+[LINE]
+Speaker341: Oh, a~lot~of~people want  to~buy that~one!      But I won't~let~them. 
+~           о   многие~люди     хотят купить эту~(картину)  но  я я~им~не~позволю 
+
+[LINE]
+Speaker418: What? Why?   
+~           что   почему 
+
+[LINE]
+Speaker341: It's the~best painting here.  I'm going~to~buy~it for myself!
+~           это  лучшая   картина  здесь  я   куплю~её        для себя   
+
+[MULTIPLE_CHOICE]
+> Why~has no~one~bought  Lily's~painting?
+~ почему  никто~не~купил картину~Лили    
+- No~one~likes~it.       
+~ она~никому~не~нравится 
+- Zari won't~let anyone~else    buy~it.   
+~ Зари не~даёт   никому~другому купить~её 
++ The~gallery~owner wants~it for herself.
+~ владелица~галереи хочет~её для себя    
+
+[MATCH]
+> Коснитесь пар
+- stop <> прекрати
+- the best <> лучшая
+- can't <> не могу
+- want <> хочу
+- Of course <> конечно
+
