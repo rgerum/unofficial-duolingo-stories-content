@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=Посмотри на мою картину
+icon=b4a0fb96a3bb2af295051d49d3c112c4c91779e6
+set=14|3
+
+[HEADER]
+> Look~at     My~Painting
+~ посмотри~на мою~картину
+
+[LINE]
+> Eddy walks~into Oscar's~apartment.
+~ Эдди заходит~в  квартиру~Оскара   
+
+[LINE]
+> Eddy is~carrying~a~painting.
+~ Эдди несёт~картину          
+
+[LINE]
+Speaker592: What~is~that, Eddy?
+~           что~это       Эдди 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker414: It's [my~first~painting]! 
+~           это   моя~первая~картина  
+- my first printing
++ my first painting
+- my fast painting
+
+[LINE]
+Speaker414: Can~you look~at~it?       
+~           можешь  посмотреть~на~неё 
+
+[LINE]
+Speaker592: No. 
+~           нет 
+
+[LINE]
+Speaker414: But~you're an~art~teacher.   
+~           но~ты      учитель~рисования 
+
+[MULTIPLE_CHOICE]
+> Эдди хочет…
+- …научить Оскара рисовать.
++ …чтобы Оскар посмотрел на его картину.
+- …чтобы Оскар нарисовал что-то для него.
+
+[LINE]
+Speaker592: Yes, and I~am~very~honest.
+~           да   и   я~очень~честный  
+
+[LINE]
+Speaker414: Good.  
+~           хорошо 
+
+[LINE]
+Speaker592: And~you will   cry.    
+~           и~ты    будешь плакать 
+
+[MULTIPLE_CHOICE]
+> Почему Оскар говорит, что Эдди будет плакать?
+- У Оскара очень красивые картины.
+- Оскар собирается рассказать печальную историю.
++ Оскар скажет прямо, если ему не понравится картина.
+
+[LINE]
+Speaker414: But I want to~know if~the~painting~is~good.
+~           но  я хочу знать   хорошая~ли~картина      
+
+[LINE]
+Speaker592: It's~not~good. 
+~           она~не~хорошая 
+
+[LINE]
+Speaker414: How    do~you know?  
+~           откуда ты     знаешь 
+
+[LINE]
+Speaker592: You~are~not an~artist. And it's your first~painting.
+~           ты~не       художник   и   это  твоя первая~картина 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker592: [(First)  (paintings) (are~never~good).]
+~             первые   картины     всегда~плохие    
+
+[LINE]
+Speaker414: Please     look~at~it.     
+~           пожалуйста посмотри~на~неё 
+
+[LINE]
+Speaker414: Please     Oscar.
+~           пожалуйста Оскар 
+
+[LINE]
+Speaker592: Fine.  I'll~look~at~it.  
+~           ладно  я~посмотрю~на~неё 
+
+[CONTINUATION]
+> Продолжите фразу
+> Oscar looks~at   [the~painting].
+~ Оскар смотрит~на  картину       
++ the~painting
+~ картину     
+- the~apartment
+~ квартиру     
+- Eddy~crying   
+~ плачущего~Эдди
+
+[LINE]
+Speaker592: Eddy, this~painting~is…
+~           Эдди  эта~картина      
+
+[LINE]
+Speaker414: Yes?!
+~           да   
+
+[LINE]
+Speaker592: Really good.   
+~           очень  хорошая 
+
+[LINE]
+Speaker414: Yes! Cool!  I'm~a~good~artist! 
+~           да   круто  я~хороший~художник 
+
+[LINE]
+Speaker592: Now    please     leave.
+~           теперь пожалуйста уходи 
+
+[MULTIPLE_CHOICE]
+> Почему Оскар удивился тому, что Эдди нарисовал красивую картину?
+- Эдди всегда плохо рисовал.
+- Эдди нарисовал её, когда был ребёнком.
++ Он считает, что первые картины всегда плохие.
+
+[MATCH]
+> Коснитесь пар
+- It's not good <> она не хорошая
+- want <> хочу
+- Cool <> круто
+- walks into <> заходит в
+- to know <> знать
+
