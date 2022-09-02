@@ -1,0 +1,159 @@
+[DATA]
+fromLanguageName=추락하는 엘리베이터
+icon=f5dc8cdee1c001f2b1b6c4c56613c01a458a17c3
+set=22|1
+
+[HEADER]
+> Falling Elevator
+~ 추락하는    엘리베이터   
+
+[LINE]
+> Lin~and~Bea~are in~an~elevator.
+~ 린과~비가           엘리베이터~안에~있다    
+
+[LINE]
+> Suddenly, the~elevator makes~a~strange~sound.
+~ 갑자기       엘리베이터에서      이상한~소리가~난다            
+
+[LINE]
+Speaker507: Did~you~hear~that?
+~           너~그~소리~들었어        
+
+[LINE]
+Speaker508: That~didn't~sound~good.
+~           소리가~이상한데               
+
+[MULTIPLE_CHOICE]
+> 린의 말은 무엇을 의미하나요?
+- 엘리베이터 안에서 나오는 음악 소리가 좋다.
+- 비의 목소리가 맘에 들지 않는다.
++ 엘리베이터에서 난 소리가 걱정스럽다.
+
+[LINE]
+Speaker507: That~didn't~feel~good!
+~           느낌도~이상해               
+
+[LINE]
+Speaker508: Oh~no! The~elevator~is falling!
+~           이런     엘리베이터가          추락하고~있어 
+
+[LINE]
+Speaker507: Oh, good. It~stopped!
+~           아   다행이다  (그게)~멈췄어   
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker508: [(I) (don't~want) (to~die)…]
+~             난   원치~않아        죽는~걸     
+
+[LINE]
+Speaker507: AHH! The~elevator~is falling again!
+~           아악   엘리베이터가          추락하고~있어 다시    
+
+[LINE]
+Speaker508: I'm too young to~die!
+~           난   너무  어려    죽기엔    
+
+[LINE]
+> The~elevator stops again.
+~ 엘리베이터가       멈춘다   다시    
+
+[LINE]
+Speaker507: There~are~still~so~many~things I  want~to~do in~my~life!
+~           아직~너무~많은~것들이~있어                내가 하고~싶은~게    내~인생에      
+
+[MULTIPLE_CHOICE]
+> 비가 속상해하는 이유는...
++ …살면서 하고 싶은 일들이 아직 많기 때문이다.
+- …치통 때문이다.
+- …출근 시간에 늦을 것 같기 때문이다.
+
+[LINE]
+Speaker508: I  want~to~climb Mount~Everest!
+~           나는 오르고~싶어        에베레스트산을       
+
+[LINE]
+Speaker507: I  want~to~win the~New~York~Marathon!
+~           나는 우승하고~싶어     뉴욕~마라톤에서              
+
+[LINE]
+Speaker508: I  want~to~learn how~to~fly~a~plane!
+~           나는 배우고~싶어        비행기~조종하는~걸         
+
+[LINE]
+Speaker507: I  want~to~teach my cat   to~drive!
+~           나는 가르치고~싶어       내  고양이에게 운전하는~걸   
+
+[LINE]
+Speaker508: Wait, what~did~you~just~say?
+~           잠깐만   너~방금~뭐랬어              
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker507: Oh~no! We're falling [again]!
+~           이런     우리는   추락하고~있어  다시     
+- first
+~ 첫~번째 
+- next
+~ 다음  
++ again
+~ 다시   
+
+[LINE]
+> There's~a~very~loud~sound. The~elevator stops.
+~ 아주~시끄러운~소리가~난다             엘리베이터가       멈춘다   
+
+[LINE]
+Speaker508: Wait!
+~           잠깐만  
+
+[LINE]
+Speaker507: The~doors~are opening!
+~           문이            열리고~있어  
+
+[LINE]
+Speaker507: We're~OK!
+~           우린~살았어   
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker508: [That~was~exciting].
+~            (그건)~참~흥미진진했어      
+- That was expensive
++ That was exciting
+- That ex again
+
+[LINE]
+> Lin~and~Bea leave the~elevator. Everyone~is safe.
+~ 린과~비가       떠난다   엘리베이터를        모두가         안전하다 
+
+[LINE]
+Speaker507: So  what~are~you~going~to~do today?
+~           그래서 넌~뭐~할~거야                 오늘    
+
+[LINE]
+Speaker508: Nothing.  I'll~probably~watch TV.  What~about~you?
+~           아무것도~안~해  (난)~아마~볼~거야         티비를  넌              
+
+[LINE]
+Speaker507: Me~too. Bye.
+~           나도      잘~가 
+
+[LINE]
+Speaker508: See~you~later.
+~           나중에~봐         
+
+[MULTIPLE_CHOICE]
+> 린과 비는 엘리베이터 사고에서 무사히 탈출한 후...
++ …집에 가서 아무것도 안 하기로 했다.
+- …비의 고양이가 운전하는 차를 타고 집에 갔다.
+- …흥미진진한 일들을 많이 하기로 했다.
+
+[MATCH]
+> 짝을 누르세요
+- Suddenly <> 갑자기
+- want to do <> 하고 싶은 게
+- Oh no <> 이런
+- want to learn <> 배우고 싶어
+- Mount Everest <> 에베레스트산을
+
