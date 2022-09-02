@@ -1,0 +1,186 @@
+[DATA]
+fromLanguageName=홈 파티
+icon=ce7bdc77eb0bfd3e19e3b0db208edc729aeee2bd
+set=35|3
+
+[HEADER]
+> House Party
+~ 홈     파티   
+
+[LINE]
+> Bea's boss~is paying    Bea to~take~care~of~his~mansion while~he's~on~vacation.
+~ 비의    상사가     돈을~주기로~했다 비에게 그의~집을~봐주는~대가로               그의~휴가~기간~동안            
+
+[LINE]
+> Bea's friend Lin arrives at~the~house with~several~friends.
+~ 비의    친구     린이  도착한다    집에           친구~몇~명과              
+
+[LINE]
+Speaker507: Lin, who~are all~of~these~people?!
+~           린    누구야     이~모든~사람들은            
+
+[LINE]
+Speaker508: You said I  could~come~over.
+~           네가  말했잖아 내가 와도~된다고          
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker507: I didn't~say you could~bring friends. My boss said [I~can't~bring~any~friends] besides~you.
+~           난 말한~적~없어    네가  데려올~수~있다고   친구들을     나의 상사가  말했어   친구를~데려올~수~없다고              너~말고는       
+- I can't bring in the ends
+- I'm camping with a friend
++ I can't bring any friends
+
+[LINE]
+Speaker508: Don't~worry, they're~cool.
+~           걱정~마         좋은~애들이야      
+
+[LINE]
+Speaker507: They might~break something or make~a~huge~mess!
+~           친구들이 부술~수도~있어    뭔가를       또는 집을~크게~어지를~수도~있어  
+
+[LINE]
+Speaker508: But they'll~help us clean the~house after~the~party.
+~           하지만 도와줄~거야       우릴 청소하는데 집을        파티~후에           
+
+[LINE]
+Speaker507: We're not~having a~party!
+~           우린    안~할~거야     파티를     
+
+[LINE]
+> The~next~morning, after~the~party, Bea~is looking at~a~big~mess~in~the~house.
+~ 다음~날~아침           파티~후에            비가     바라보고~있다 엉망진창이~된~집을                 
+
+[MULTIPLE_CHOICE]
+> Did~you~catch~that? Bea~and Lin…
+~ 이해했나요               비와      린은  
+- …went~to~bed early.
+~  잤다          일찍    
++ …had~a~party in~the~mansion.
+~  파티를~했다      그~집에서          
+- …let~a~lion~come into~the~house.
+~  사자를~들여놓았다       집~안에           
+
+[LINE]
+Speaker507: There's~trash everywhere!
+~           쓰레기가~있어       모든~곳에      
+
+[LINE]
+Speaker508: Don't~worry. I'll~help you clean. 
+~           걱정~마         내가~도와줄게   네가  청소하는~걸 
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker508: [(We'll~be~done) (very) (soon).]
+~             끝날~거야           진짜     금방     
+
+[LINE]
+> Six hours later, they're still cleaning. Lin moves a~sofa and finds a   large hole in~the~wall.
+~ 여섯  시간    후에     그들은     아직도   청소~중이다    린이  옮긴다   소파를    그리고 발견한다  하나의 큰     구멍을  벽에~있는       
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker507: Oh~no! Someone made [a~hole~in~the~wall]!
+~           아~이런   누군가가    냈어    벽에~구멍을              
++ a hole in the wall
+- a hole in the mall
+- a goal in the wall
+
+[LINE]
+Speaker507: Lin, your friends did~this, didn't~they?
+~           린    네    친구들이    그런~거지     그렇지         
+
+[LINE]
+Speaker508: No,  they didn't!
+~           아니야  친구들이 안~그랬어  
+
+[POINT_TO_PHRASE]
+> Choose the~option~that~means "도구."
+~ 고르세요   ~를~뜻하는~말을              ~   
+> (Bea) (finds) (some) (+supplies) to~fix~the~hole.
+~  비가    발견한다    몇~개의    도구를       구멍을~고칠만한        
+
+[LINE]
+Speaker507: Ugh, why did~I~invite you here? You're not~a~responsible~person.
+~           어후   왜   내가~초대했지      널   여기로   넌      책임감이~없어                  
+
+[LINE]
+Speaker508: Well, at~least I know how~to~have~fun. No~one~invites you to~parties because you're not~fun.
+~           음     적어도      난 알아   잘~노는~법을          아무도~초대~안~해     널   파티에        왜냐하면    넌      재미없으니까  
+
+[LINE]
+Speaker507: That's~so~mean!
+~           넌~정말~못됐어       
+
+[LINE]
+Speaker508: You~were mean     to~me first!
+~           네가       못되게~굴었잖아 나한테   먼저    
+
+[MULTIPLE_CHOICE]
+> Oh~no! Why are~Bea~and~Lin upset  with~each~other?
+~ 아~이런   왜   비와~린은           화가~났나요 서로에게            
+- Lin doesn't~want~to~help clean  the~mansion.
+~ 린은  돕고~싶지~않다             청소하는~걸 집을          
+- No~one~came to~their~party last~night.
+~ 아무도~오지~않았다  그들의~파티에        어젯밤에       
++ They~both said~bad~things about~each~other.
+~ 둘~다       나쁜~말을~했다        서로에~대해           
+
+[LINE]
+> Suddenly, Bea's boss walks~in.
+~ 갑자기       비의    상사가  걸어~들어온다  
+
+[LINE]
+Speaker295: Excuse~me. What~are~you~doing?
+~           저기요        뭐하는~거예요            
+
+[LINE]
+Speaker507: We're~so~sorry!
+~           정말~죄송합니다       
+
+[LINE]
+Speaker295: Why? You're fixing  that ugly  hole in~the~wall. It's~been~there for~years.
+~           왜요   비~씨가   고치고~있어요 그    보기~흉한 구멍을  벽에~있는        그건~거기~있었어요      몇~년~동안    
+
+[CONTINUATION]
+> What comes next?
+~ 무엇이  오나요   다음에  
+Speaker507: That hole has~been~there [for~years?]!
+~           그    구멍이  거기~있었다고요        몇~년~동안      
++ for~years
+~ 몇~년~동안   
+- since~this~morning
+~ 오늘~아침부터           
+- for~your~cat
+~ 고양이를~위해     
+
+[LINE]
+Speaker295: Yes! Thanks for~fixing it.
+~           네    고마워요   고쳐줘서       그걸 
+
+[LINE]
+Speaker508: Bea, I  told~you my friends didn't~do~this!
+~           비    내가 말했잖아     내  친구들이    안~그랬다고         
+
+[LINE]
+Speaker295: Um, your friends~were here?   
+~           음   당신의  친구들이         여기~있었어요 
+
+[MULTIPLE_CHOICE]
+> Bea didn't~want her boss to~know~that…
+~ 비는  원치~않았다      그녀의 상사가  ~을~알기를       
+- …Lin's friends~are hiding in~the~wall.
+~  린의    친구들이        숨어~있다  벽에          
++ …she~and Lin had~a~party in~his~house.
+~  그녀와     린이  파티를~했다      그의~집에서       
+- …she's leaving~her~job at~his~company.
+~  그녀가   일을~그만둘~예정이다     그의~회사에서        
+
+[MATCH]
+> 짝을 누르세요
+- hours <> 시간
+- did I invite <> 내가 초대했지
+- know <> 알아
+- Thanks <> 고마워요
+- walks in <> 걸어 들어온다
+
