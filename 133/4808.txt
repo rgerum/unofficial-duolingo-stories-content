@@ -1,0 +1,146 @@
+[DATA]
+fromLanguageName=공짜 피자
+icon=1dcd5216b93313f075eb62584804a9bec488724e
+set=17|1
+
+[HEADER]
+> Free Pizza
+~ 공짜   피자   
+
+[LINE]
+> Lin~is walking home one~day.
+~ 린이     걸어가고~있다 집으로  어느~날    
+
+[LINE]
+> It~starts~raining.
+~ 비가~오기~시작한다        
+
+[LINE]
+Speaker508: Oh~no!
+~           아~이런  
+
+[LINE]
+> She runs~into an office building.
+~ 그녀가 뛰어~들어간다   한  사무실    건물로      
+
+[MULTIPLE_CHOICE]
+> 린은 잠시 비를 피하려 하고 있다.
++ 네, 맞아요.
+- 아니요, 그렇지 않아요.
+
+[LINE]
+> Inside, she sees some pizza boxes on~a~table.
+~ 안에서     그녀가 본다   몇~개의 피자    상자들을  테이블~위에~놓인  
+
+[LINE]
+Speaker508: Wow. That's~a~lot~of~pizza.
+~           우와   피자가~많이도~있네            
+
+[LINE]
+Speaker508: I think it's~OK to~eat one slice…
+~           내 생각엔   괜찮을~거야  먹어도    한   조각만   
+
+[MULTIPLE_CHOICE]
+> 린은 피자를...
+- …많이 먹고 싶다.
+- …전부 다 먹고 싶다.
++ …한 조각 먹고 싶다.
+
+[LINE]
+> She takes some~pizza.
+~ 그녀가 가져간다  (조금의)~피자를  
+
+[LINE]
+Speaker307: Hey! That's for       people~who~work here.
+~           저기요  그건     ~을~위한~거예요 일하는~사람들         여기서  
+
+[LINE]
+Speaker508: Sorry, I… 
+~           죄송해요   저는 
+
+[LINE]
+Speaker307: Wait. I know you!
+~           잠깐만요  전 알아요  당신을 
+
+[LINE]
+Speaker307: You're Mrs.~Smith's secretary.
+~           당신은    스미스~씨의       비서~맞죠     
+
+[LINE]
+Speaker508: Oh. Well…
+~           아   음    
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker307: I need~to~go~back to~work. Enjoy   [the~pizza]!
+~           전 돌아가야~해요         사무실로     맛있게~드세요  피자         
++ the~pizza
+~ 피자       
+- the~rain
+~ 비       
+- walking home
+~ 걸어가기    집으로 
+
+[LINE]
+> Lin decides~to~eat one~more~slice~of pizza.
+~ 린은  먹기로~한다         한~조각~더            피자를   
+
+[LINE]
+> Soon,      a woman enters the~room.
+~ 얼마~지나지~않아  한 여자가   들어온다   실내로      
+
+[LINE]
+Speaker292: Pizza! Great! I'm so hungry.
+~           피자네    잘됐다    난   정말 배고팠는데  
+
+[LINE]
+Speaker292: Oh, have~we~met? 
+~           아   저희가~만난~적~있나요 
+
+[LINE]
+Speaker508: No.  I'm Lin. 
+~           아니요  전   린이에요 
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker292: What  do~you~do [for~the~company]?
+~           무슨~일을 (당신은)~하세요  회사에서             
++ for the company
+- form the companies
+- for the camping
+
+[LINE]
+Speaker508: Oh. Well, I'm… Mrs.~Smith's secretary.
+~           아   음     저는   스미스~씨의       비서예요      
+
+[LINE]
+Speaker292: That's interesting…
+~           그건     흥미롭네요       
+
+[LINE]
+Speaker292: … because I'm Mrs.~Smith.
+~             왜냐하면    제가  스미스거든요     
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker292: [(And) (you're) (not)  (my) (secretary)!]
+~             그리고   당신은      아니에요   제    비서가         
+
+[LINE]
+Speaker508: Oops! I need~to~go now! Nice~to~meet~you!
+~           이런    전 가봐야~해요     지금   만나서~반가웠습니다       
+
+[MULTIPLE_CHOICE]
+> 린이 갑자기 떠나야 했던 이유는 무엇인가요?
+- 우산을 사야 해서.
++ 여자가 린이 그 회사에서 일하지 않는다는 걸 알아채서.
+- 피자를 먹고 배탈이 나서. 
+
+[MATCH]
+> 짝을 누르세요
+- to eat <> 먹어도
+- enters <> 들어온다
+- one more slice of <> 한 조각 더
+- have we met <> 저희가 만난 적 있나요
+- No <> 아니요
+
