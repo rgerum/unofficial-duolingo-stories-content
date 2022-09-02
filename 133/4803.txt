@@ -1,0 +1,120 @@
+[DATA]
+fromLanguageName=이메일 보내요
+icon=583e75f447511e88fde0ed924039b785dccdd112
+set=15|4
+
+[HEADER]
+> Send an~Email
+~ 보내요  이메일을    
+
+[LINE]
+> Lin~and~her~grandmother,~Lucy,~are visiting Seattle. They~are in~a~coffee~shop.
+~ 린과~그녀의~할머니~루시가                     방문~중이다   시애틀을     그들이      커피숍에~있다          
+
+[LINE]
+Speaker509: It's~nice to~be~here again.
+~           참~좋구나     여기에~있으니    또다시   
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker508: [When~did~you~live] in~Seattle, Grandma?
+~            언제~사셨어요            시애틀에서       할머니     
++ When did you live
+- Where do you love
+- When do you leave
+
+[LINE]
+Speaker509: Thirty years ago.
+~           삼십     년     전에  
+
+[LINE]
+Speaker508: Let's~go to~a~museum now.
+~           우리~가요    박물관에        이제  
+
+[LINE]
+Speaker509: Sure, after~I~go to~the~restroom.
+~           그래    내가~간~후에    화장실에            
+
+[LINE]
+> Lucy leaves the~table. An old  man walks~into the~cafe. He sees Lin.
+~ 루시가  떠난다    테이블을       한  나이~든 남자가 걸어~들어온다    카페로       그가 본다   린을  
+
+[LINE]
+Speaker307: You look~like someone~I~knew many~years ago!
+~           당신은 ~과~닮았어요   내가~알던~사람       수년         전에  
+
+[MULTIPLE_CHOICE]
+> 남자의 말은 무엇을 의미하나요?
+- 그는 린에게 화장실이 어딘지 묻고 있다.
++ 린이 그가 오래 전에 알던 사람과 닮았다.
+- 그는 린에게 박물관 입장권을 주고 싶다.
+
+[LINE]
+Speaker508: Really?
+~           정말요    
+
+[LINE]
+Speaker307: I loved her very much.
+~           난 사랑했어요 그녀를 아주   많이   
+
+[LINE]
+Speaker307: I don't~know where~she~is now…
+~           난 몰라요        그녀가~어디~있는지   지금  
+
+[LINE]
+> Lucy returns from~the~bathroom.
+~ 루시가  돌아온다    화장실에서             
+
+[LINE]
+Speaker307: Lucy! It's~you!
+~           루시    당신이잖아    
+
+[LINE]
+Speaker509: Do~I~know you?
+~           제가~아나요    당신을 
+
+[LINE]
+Speaker307: It's~me, Marco!
+~           나야       마르코   
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker307: [(You) (never~responded) (to~my~letters)…]
+~             당신은   답장을~한~번도~안~했어     내~편지에           
+
+[LINE]
+Speaker509: I never~got your letters. I~was sailing  around~the~world.
+~           난 받은~적이~없어요 당신의  편지를      난     항해~중이었어요 전~세계를            
+
+[LINE]
+Speaker307: Now you're here!   We can~finally~be~together!
+~           이제  당신이    여기~있잖아  우린 마침내~함께~할~수~있어           
+
+[MULTIPLE_CHOICE]
+> 마르코는 아마도…
+- ...루시의 예전 물건들을 그녀에게 돌려주려는 것 같다.
++ ...루시와 다시 사귀고 싶어하는 것 같다.
+- ...루시에게 화가 많이 난 것 같다.
+
+[LINE]
+Speaker509: Actually, I'm going    to~a~museum with~my~granddaughter now.
+~           실은        난   가려던~참이에요 박물관에        내~손녀랑                 지금  
+
+[LINE]
+Speaker509: Next~time, send an~email!
+~           다음엔        보내요  이메일을     
+
+[MULTIPLE_CHOICE]
+> 루시가 마르코에게 다음엔 이메일을 보내라고 하는 이유는 무엇인가요?
++ 그녀는 마르코가 보냈던 편지들을 하나도 받지 못해서.
+- 그녀가 아주 멋진 이메일 주소를 갖고 있어서.
+- 그녀가 자신의 우편 배달부를 별로 좋아하지 않아서. 
+
+[MATCH]
+> 짝을 누르세요
+- It's nice <> 참 좋구나
+- to the restroom <> 화장실에
+- you're <> 당신이
+- Actually <> 실은
+- in Seattle <> 시애틀에서
+
