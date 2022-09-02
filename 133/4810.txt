@@ -1,0 +1,97 @@
+[DATA]
+fromLanguageName=내가 가장 좋아하는 밴드
+icon=8809c44c2194d282a6e1573d25dcac12b6132022
+set=17|3
+
+[HEADER]
+> My Favorite~Band
+~ 내가 가장~좋아하는~밴드   
+
+[LINE]
+> Lily~and~Zari~are in~class.
+~ 릴리와~자리가           교실에~있다   
+
+[LINE]
+Speaker418: Hey, Lily? Can~you~help~me~with~something?
+~           저기   릴리    (네가)~나~좀~도와줄~수~있어              
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker416: [I~don't~know]. What~is~it?
+~            글쎄             (그게)~뭔데    
++ I don't know
+- I won't know
+- I don't go
+
+[LINE]
+Speaker418: I  can't~come to~swimming~practice today. Can~you~tell    the~coach I'm sick?
+~           나는 갈~수~없어     수영~연습에               오늘     (네가)~얘기해~줄~수~있어 코치님께      내가  아프다고 
+
+[LINE]
+Speaker416: You don't~look~sick.
+~           너는  아파보이지~않는데       
+
+[LINE]
+Speaker418: Cough, cough! But I  have  a~note from~my~doctor.  Look.
+~           콜록     콜록     하지만 나는 갖고~있어 확인서를   (나의)~의사~선생님이~주신  봐    
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+> Zari shows Lily [the~note].
+~ 자리가  보여준다  릴리에게  확인서를      
+- a~painting
+~ 그림        
+- her new T-shirt
+~ 그녀의 새   티셔츠    
++ the~note
+~ 확인서     
+
+[POINT_TO_PHRASE]
+> "손글씨"를 뜻하는 말을 고르세요.
+Speaker416: (Zari), (this~is) (your) (+handwriting).
+~            자리      이건        너의      손글씨잖아        
+
+[LINE]
+Speaker418: No, it's~not!
+~           아냐  그렇지~않아   
+
+[LINE]
+Speaker416: Zari, I  always know when you're lying.
+~           자리    나는 항상     알아   ~할~때 네가     거짓말하다 
+
+[LINE]
+Speaker418: OK, OK! I'm going to~the~mall to~see my favorite~band, The~City~Boys.
+~           그래  그래  난   갈거야   쇼핑몰에        보기~위해  내가 가장~좋아하는~밴드     시티~보이즈를       
+
+[MULTIPLE_CHOICE]
+> 자리는 코치에게 아프다고 얘기할 거지만, 사실은…
++ ...그녀가 가장 좋아하는 밴드의 공연을 보러 쇼핑몰에 갈 계획이다.
+- ...새 드레스를 사러 쇼핑을 갈 계획이다.
+- ...그냥 잠을 자고 싶어한다.
+
+[LINE]
+Speaker416: Ugh, no, I  can't~help you.
+~           어후   안돼  나는 도와줄~수~없어   너를  
+
+[LINE]
+Speaker418: Yeah, you're right. Lying~is bad… 
+~           그래    네가     맞아     거짓말하는~건  나쁜거야 
+
+[LINE]
+Speaker416: No, I  can't~help you because The~City~Boys~are a~terrible~band.
+~           아니  나는 도와줄~수~없어   너를  왜냐하면    시티~보이즈가           형편~없는~밴드라서      
+
+[MULTIPLE_CHOICE]
+> 릴리는 시티 보이즈가 형편없다고 생각해서…
+- ...자리와 함께 밴드를 결성하고 싶어한다.
++ ...자리가 아프다고 코치에게 말하지 않을 것이다.
+- ...항의 편지를 쓸 것이다.
+
+[MATCH]
+> 짝을 누르세요
+- handwriting <> 손글씨잖아
+- Can you tell <> 얘기해 줄 수 있어
+- this is <> 이건
+- The City Boys are <> 시티 보이즈가
+- when <> ~할 때
+
