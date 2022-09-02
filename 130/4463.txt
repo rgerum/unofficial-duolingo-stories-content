@@ -1,0 +1,144 @@
+[DATA]
+fromLanguageName=Хакер
+icon=a22fead6c7883506dab25f8e6ea7c66c0f406c7c
+set=32|4
+
+[HEADER]
+> The~Hacker
+~ хакер     
+
+[LINE]
+> Bea walks   into Eddy's~apartment.
+~ Би  заходит в    квартиру~Эдди    
+
+[LINE]
+Speaker414: Thanks~for~coming!  
+~           спасибо,~что~пришла 
+
+[LINE]
+Speaker507: Sure!      You said   there~was~a~problem with your  computer,    right?
+~           не~за~что  ты  сказал (что~была)~проблема с    твоим компьютером  верно 
+
+[MULTIPLE_CHOICE]
+> Би помогает Эдди ремонтировать унитаз.
++ Нет, это неправда.
+- Да, это правда.
+
+[LINE]
+Speaker414: Yes!
+~           да  
+
+[LINE]
+Speaker507: What happened? 
+~           что  случилось 
+
+[LINE]
+Speaker414: Well… have~you~ever   heard~of  a~"hacker"?
+~           ну    ты~когда-нибудь слышала~о хакере     
+
+[LINE]
+Speaker414: That's a~person who     changes~things on computers.  
+~           это    человек  который меняет~что-то  на компьютерах 
+
+[LINE]
+Speaker507: Yes, Eddy, I know what~a~hacker~is. So,  what's~the~problem?
+~           да   Эдди  я знаю кто~такой~хакер   так  в~чём~проблема     
+
+[LINE]
+Speaker414: I tried   to~print    my   resume, but it~didn't~work! 
+~           я пытался распечатать свое резюме  но  ничего~не~вышло 
+
+[LINE]
+Speaker414: And now    I can't   find  my   resume on~my~computer.       I think the~hacker deleted~it.
+~           и   теперь я не~могу найти свое резюме у~себя~на~компьютере  я думаю хакер      удалил~его 
+
+[MULTIPLE_CHOICE]
+> Эдди думает, что...
+- …Би съела его завтрак.
+- …кто-то украл его компьютер.
++ …хакер удалил его резюме.
+
+[LINE]
+Speaker507: Can~I~look~at~it?
+~           можно~я~посмотрю 
+
+[CONTINUATION]
+> Продолжите фразу
+> Bea starts   working  [on~the~computer].
+~ Би  начинает работать  на~компьютере    
+- at~a~restaurant
+~ в~ресторане    
++ on~the~computer
+~ на~компьютере  
+- on~her~car    
+~ в~своей~машине
+
+[LINE]
+Speaker507: OK,    I found a~file called        "my  resume."
+~           ладно  я нашла файл   под~названием  мое резюме  
+
+[LINE]
+> Bea opens     the~file. Eddy sees~it   on~the~computer.
+~ Би  открывает файл      Эдди видит~его на~компьютере   
+
+[LINE]
+Speaker414: It~does~look          like my  resume.
+~           оно~и~правда~выглядит как  мое резюме 
+
+[LINE]
+Speaker507: Also, I know why    your printer wasn't~working.
+~           еще   я знаю почему твой принтер не~работал     
+
+[LINE]
+> Bea connects   the~printer to the~computer.
+~ Би  подключает принтер     к  компьютеру   
+
+[LINE]
+Speaker507: It~wasn't connected!
+~           он~не~был подключен 
+
+[MULTIPLE_CHOICE]
+> Почему у Эдди не работал принтер?
+- Его сломал хакер.
+- У него нет принтера.
++ Он не был подключён к компьютеру.
+
+[LINE]
+Speaker414: Hmm. Junior  probably did    that.
+~           хм   Джуниор наверное сделал это  
+
+[LINE]
+> The~resume prints,     and Bea looks~at~it.    
+~ резюме     печатается  и   Би  смотрит~на~него 
+
+[LINE]
+Speaker507: Eddy, there~are~mistakes all~over your  resume.
+~           Эдди  там~ошибки         во~всём  твоем резюме 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker414: [(The~hacker) (probably) (changed~it)!] 
+~             хакер        наверное   изменил~его   
+
+[LINE]
+Speaker507: Hmm. Do~you~know that your~resume~says                you're~good~with~computers?    
+~           хм   ты~знаешь   что  (в)~твоем~резюме~написано~(что) ты~хорошо~владеешь~компьютером 
+
+[LINE]
+Speaker414: Yeah, the~hacker definitely changed that.
+~           да    хакер      точно      изменил это  
+
+[MULTIPLE_CHOICE]
+> Эдди думал, что его компьютер хакнули...
+- …и все данные пропали.
+- …поэтому он вызвал полицию.
++ …но на самом деле он не умеет пользоваться компьютером.
+
+[MATCH]
+> Коснитесь пар
+- the hacker <> хакер
+- working <> работать
+- all over <> во всём
+- said <> сказал
+- into <> в
+
