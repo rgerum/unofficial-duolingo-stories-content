@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=케이크
+icon=4a31a2e8269bfd907d862c44a3b320899c169419
+set=14|4
+
+[HEADER]
+> The~Cake
+~ 케이크     
+
+[LINE]
+> Lin goes to~her~kitchen. She looks in~the~fridge.
+~ 린이  간다   그녀의~부엌으로        그녀가 살펴본다  냉장고~안을        
+
+[LINE]
+Speaker508: Where~is my cake?
+~           어디있어요    제  케이크  
+
+[LINE]
+> Lin sees her grandmother, Lucy, at~the~table.
+~ 린이  본다   그녀의 할머니          루시를   식탁에~있는       
+
+[LINE]
+Speaker508: Grandma, what~did~you~just~eat?
+~           할머니      방금~뭐~드셨어요             
+
+[LINE]
+> Lucy hides her plate.
+~ 루시가  감춘다   그녀의 접시를   
+
+[MULTIPLE_CHOICE]
+> 루시는 린이 보지 못하게 접시를 감추고 있다.
+- 아니요, 그렇지 않아요.
++ 네, 맞아요.
+
+[LINE]
+Speaker509: Uhhh… a~sandwich!
+~           어     샌드위치       
+
+[LINE]
+Speaker508: I  can't~find my cake.
+~           저는 찾을~수~없어요   제  케이크를 
+
+[LINE]
+Speaker509: That's strange. What~does~it~look~like?
+~           그거     이상하구나    그게~어떻게~생겼니             
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker508: [(It's) (a)   (very) (small) (cake).] 
+~             그건     하나의   아주     작은      케이크에요   
+
+[LINE]
+Speaker509: Are~there~oranges on~the~cake?
+~           오렌지가~있니           케이크~위에      
+
+[LINE]
+Speaker508: Yes! There~are~a~lot~of~oranges on~the~cake.
+~           네    오렌지가~많아요                   케이크~위에      
+
+[LINE]
+Speaker509: Is~your~cake yellow?
+~           네~케이크가       노란색이니  
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker508: Yes! My cake [is~yellow]!
+~           네    제  케이크는  노란색이에요     
+- is~very~large
+~ 아주~크다        
++ is~yellow
+~ 노란색이다    
+- is~red
+~ 빨간색이다 
+
+[LINE]
+Speaker509: Is~your~cake very, very delicious?
+~           네~케이크가       아주    아주   맛있니       
+
+[LINE]
+Speaker508: Grandma! Did~you~eat  my cake?!
+~           할머니      (할머니께서)~드셨어요 제  케이크를  
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker509: No! I  [didn't~eat~it]!
+~           아니  나는  (그것을)~먹지~않았어   
+- didn't read it
+- did need it
++ didn't eat it
+
+[LINE]
+Speaker508: OK.   Sorry. I'll~make another… chocolate~cake.
+~           알겠어요  죄송해요   제가~만들게요   또~하나의    초콜릿~케이크를       
+
+[LINE]
+Speaker509: Chocolate? But your cake~was vanilla!  
+~           초콜릿        하지만 너의   케이크는     바닐라~맛이었는데 
+
+[LINE]
+Speaker508: Ha!     Yes, it~was~vanilla! You   did~eat  my cake!
+~           딱~걸렸어요  그래요  (그건)~바닐라였어요     할머니께서 드신~거~맞네요 제  케이크를 
+
+[MULTIPLE_CHOICE]
+> 린은 루시가 자신의 케이크를 먹었다는 걸 어떻게 알아챘나요?
++ 루시가 어떤 종류의 케이크였는지를 알고 있어서.
+- 루시의 접시를 발견해서.
+- 루시의 얼굴에 케이크가 묻어 있어서.
+
+[MATCH]
+> 짝을 누르세요
+- Where is <> 어디있어요
+- Are there oranges <> 오렌지가 있니
+- to her kitchen <> 그녀의 부엌으로
+- goes <> 간다
+- at the table <> 식탁에 있는
+
