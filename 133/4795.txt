@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=택시 타기
+icon=44410efbb175e599d5fbe5b4d86050262f324ca0
+set=13|4
+
+[HEADER]
+> Taxi Ride
+~ 택시   승차  
+
+[LINE]
+> Bea~is in~a~taxi. She~is looking at~the~map on~her~phone.
+~ 비가     택시~안에~있다   그녀가    보고~있다   지도를        (그녀의)~휴대폰에서  
+
+[LINE]
+Speaker507: Turn~left at~the~end~of~the~street, please.
+~           좌회전해~주세요  이~길~끝에서                   부탁드려요  
+
+[LINE]
+Speaker889: I~don't~need~to~turn for~three~more~miles.
+~           좌회전~안~해도~되는데요        3마일~앞까지              
+
+[MULTIPLE_CHOICE]
+> 잠깐만요... 택시 기사가 방금 뭐라고 했나요?
+- 3마일을 뛰고 싶다고 했다.
+- 현재 시속 3마일로 운전 중이라고 했다.
++ 3마일 더 가서 좌회전해야 된다고 말했다.
+
+[LINE]
+Speaker507: The~directions~on~my~phone say     that road~is faster…
+~           제~휴대폰~상의~길~안내에선            (말)하는데요 그    길이      더~빠르다고 
+
+[LINE]
+Speaker889: Excuse~me, I  know all~the~roads in~this~city.
+~           저기요        저는 알아요  모든~길을         이~도시에~있는     
+
+[LINE]
+Speaker507: This phone knows all~the~roads in~every~city.
+~           이    휴대폰은  알아요   모든~길을         모든~도시에~있는     
+
+[LINE]
+Speaker889: Ha,  well, the~phone~isn't driving~the~car. I'm the~driver.
+~           나~참  글쎄요   휴대폰이~하는~게~아닌데요  (차)~운전을          제가  운전기사라고요    
+
+[LINE]
+Speaker507: But  I'm paying~for~the~ride, right?
+~           그렇지만 제가  승차~요금을~내는~거잖아요       그렇죠   
+
+[MULTIPLE_CHOICE]
+> 비가 방금 그렇게 말한 이유는 무엇인가요?
+- 그녀도 시간 날 때 택시를 운전하기 때문에.
++ 택시 기사가 자신의 길 안내를 따르길 바래서.
+- 택시 기사가 자신에게 돈을 주길 바래서.
+
+[LINE]
+Speaker889: OK, OK!
+~           예   예  
+
+[LINE]
+> The~driver turns~left and stops the~car.
+~ 기사가        좌회전한다      그리고 세운다   차를      
+
+[LINE]
+Speaker889: We're~here. Are~you~going~swimming?
+~           다~왔습니다      수영하러~가세요               
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker507: No,  [I'm~going~shopping]. Why?
+~           아니요   쇼핑하러~가요              왜요  
+- I'm good at shopping
+- I'm good at stopping
++ I'm going shopping
+
+[LINE]
+Speaker889: Because the~road stops~here. At~the~river.
+~           왜냐하면    길이       여기서~끝나니까요   강에서요         
+
+[LINE]
+Speaker507: Oops… 
+~           아~이런  
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker507: [(I~think)  (my~directions~are) (wrong).]
+~             ~인~것~같아요   제가~찾은~길~안내가         잘못됐어요   
+
+[LINE]
+Speaker507: I'm~so~sorry.
+~           정말~죄송합니다     
+
+[LINE]
+Speaker889: Do~you~want~to~use my~directions?
+~           이용하실래요             제가~아는~길을      
+
+[LINE]
+Speaker507: Yes, please…
+~           네    부탁드려요  
+
+[MULTIPLE_CHOICE]
+> 이런! 비가 깨달은 것은...
+- ...휴대폰으로 뭐든지 알아낼 수 있다는 것이다.
+- ...그녀가 훌륭한 택시 기사라는 것이다.
++ ...그녀의 길 안내가 잘못됐다는 것이다.
+
+[MATCH]
+> 짝을 누르세요
+- Do you want to use <> 이용하실래요
+- paying for the ride <> 승차 요금을 내는 거잖아요
+- the driver <> 운전기사라고요
+- No <> 아니요
+- I don't need to turn <> 좌회전 안 해도 되는데요
+
