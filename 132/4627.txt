@@ -1,0 +1,118 @@
+[DATA]
+fromLanguageName=दो टिकटें!
+icon=70fa18585d1f8f16f69d7dd4711e8595cdcae158
+set=4|2
+
+[HEADER]
+> Two~Tickets Please!
+~ दो~टिकटें   कृपया  
+
+[LINE]
+> Junior is at~the~airport.
+~ जूनियर है हवाई~अड्डे~पर  
+
+[LINE]
+> He talks       to~the~woman at~the~desk.    
+~ वह बात~करता~है औरत~से       डेस्क~पर~(बैठी) 
+
+[LINE]
+Speaker659: Can~I                help~you?
+~           क्या~मैं~कर~सकती~हूँ आपकी~मदद 
+
+[LINE]
+Speaker415: I   want      to~buy a  ticket to~Barcelona. 
+~           मैं चाहता~हूँ खरीदना एक टिकट   बार्सिलोना~की 
+
+[LINE]
+Speaker659: Where are your parents?  
+~           कहाँ  हैं आपके माता-पिता 
+
+[MULTIPLE_CHOICE]
+> जूनियर बालिग है।
+- हाँ, यह सही है।
++ नहीं, ऐसा नहीं है।
+
+[LINE]
+Speaker415: Excuse~me. I'm~not      seven years~old.
+~           माफ़~करना   मैं~नहीं~हूँ सात   साल~का    
+
+[LINE]
+Speaker659: How~old~are~you?   
+~           आप~कितने~साल~के~हो 
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker415: I'm     eight [years~old].
+~           मैं~हूँ आठ     साल~का     
++ years old
+- you're old
+- you sold
+
+[LINE]
+Speaker659: A  ticket to~Barcelona  is four~hundred dollars.  
+~           एक टिकट   बार्सिलोना~की है चार~सौ       डॉलर~(की) 
+
+[LINE]
+Speaker415: OK…    Where~can~I~go       for~thirteen~dollars?
+~           अच्छा  मैं~कहाँ~जा~सकता~हूँ तेरह~डॉलर~में        
+
+[MULTIPLE_CHOICE]
+> जूनियर बार्सिलोना क्यों नहीं जा सकता?
++ क्योंकि उसके पास सिर्फ़ तेरह डॉलर हैं।
+- क्योंकि उसे हवाई जहाज़ में बैठने से डर लगता है।
+- क्योंकि हवाई जहाज़ में कोई सीट नहीं बची है।
+
+[LINE]
+> Junior's  dad,  Eddy,  runs          to~the~desk.
+~ जूनियर~के पिता  एड्डी  भागकर~आते~हैं डेस्क~तक    
+
+[LINE]
+Speaker414: Junior! There~you~are! What~are~you~doing at~the~airport?
+~           जूनियर  तुम~यहाँ~हो    तुम~क्या~कर~रहे~हो हवाई~अड्डे~पर  
+
+[POINT_TO_PHRASE]
+> उस शब्द पर क्लिक करें जिसका मतलब “गणित की परीक्षा” है।
+Speaker415: (I~have)  a  (+math~test)       today. I~need        (to~leave) (the~country).
+~            मेरी~है  एक   गणित~की~परीक्षा  आज     मुझे~ज़रूरत~है  छोड़ने~की   ~यह~देश      
+
+[LINE]
+Speaker414: OK.    How~much~is the~ticket?
+~           अच्छा  कितने~की~है टिकट       
+
+[LINE]
+Speaker415: Four~hundred dollars.  
+~           चार~सौ       डॉलर~(की) 
+
+[CONTINUATION]
+> आगे क्या आएगा?
+Speaker414: How~much~are [two~tickets]?
+~           कितने~की~हैं  दो~टिकटें    
++ two~tickets
+~ दो~टिकटें  
+- math~tests       
+~ गणित~की~परीक्षाएँ
+- eight years~old
+~ आठ    साल~की   
+
+[LINE]
+Speaker415: Eight~hundred dollars.
+~           आठ~सौ         डॉलर~की 
+
+[LINE]
+Speaker414: Right!       You're great      at~math!  Now go  to~school. 
+~           बिल्कुल~ठीक  तुम~हो बहुत~अच्छे गणित~में  अब  जाओ स्कूल~(को) 
+
+[MULTIPLE_CHOICE]
+> जूनियर बार्सिलोना का टिकट क्यों खरीदना चाहता था?
++ क्योंकि वह गणित की परीक्षा नहीं देना चाहता था।
+- क्योंकि वह बार्सिलोना की वास्तुकला देखना चाहता था।
+- क्योंकि वह अपने पिता को एक छुट्टी पर ले जाकर हैरान करना चाहता था।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- years old <> साल का
+- four hundred <> चार सौ
+- How much are <> कितने की हैं
+- Right <> बिल्कुल ठीक
+- Can I <> क्या मैं कर सकती हूँ
+
