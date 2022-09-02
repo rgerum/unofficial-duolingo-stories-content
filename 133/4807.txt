@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=물고기의 장례식
+icon=d269170970dbcc5a5f80f6ea1ffed7394ae2b584
+set=16|4
+
+[HEADER]
+> Fish Funeral
+~ 물고기  장례식    
+
+[LINE]
+> Lily sees her neighbor, Junior. He's crying.
+~ 릴리가  본다   그녀의 이웃        주니어를    그가   울고~있다  
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker416: Junior? [What's~wrong]?
+~           주니어      무슨~일이야        
++ What's wrong
+- What's on
+- What's long
+
+[LINE]
+Speaker415: Bubbles died!
+~           버블스가    죽었어요 
+
+[LINE]
+Speaker416: Your fish?
+~           너의   물고기  
+
+[LINE]
+Speaker415: Yes. He~was so young!
+~           네    걔는     너무 어렸어요  
+
+[POINT_TO_PHRASE]
+> “장례식|”을 뜻하는 말을 고르세요.
+~  길길   을 뜻하는 말을 ㅇㅇ   
+Speaker416: I  (can~help). I  know (a~lot) (about) (+funerals).
+~           내가  도와줄~수~있어   나는 알아    많은~걸    ~에~대해    장례식       
+
+[LINE]
+> Lily~and~Junior take the~fish into~Junior's~bathroom.
+~ 릴리와~주니어가        데려간다 물고기를     주니어의~화장실로              
+
+[LINE]
+Speaker416: We  can~give your fish  a~burial~at~sea.
+~           우리가 해줄~수~있어  네    물고기에게 바다에~묻어주는~걸      
+
+[MULTIPLE_CHOICE]
+> 잠깐만요… 릴리가 말한 “a burial at sea”는 무엇을 의미하나요?
+- 주니어가 한 척의 배를 이끄는 선장이라는 것.
++ 그들이 버블스를 변기에 내려보낼 것이라는 것.
+- 버블스가 늘 선원이 되고 싶어했다는 것.
+
+[LINE]
+Speaker416: Do~you~want~to~talk about  some~nice~memories of~Bubbles?
+~           넌~말하고~싶니            ~에~대해서 좋은~추억들             버블스와~함께한   
+
+[LINE]
+Speaker415: Hmmm… Well, I  liked watching~Bubbles~swim.
+~           음     글쎄요   저는 좋아했어요 버블스가~수영하는~것을~쳐다보는~걸   
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker415: [(And) (he) (liked) (watching~me~eat).]  
+~             그리고   걔는   좋아했어요   제가~밥~먹는~것을~쳐다보는~걸   
+
+[LINE]
+Speaker415: And he really loved my jokes!
+~           그리고 걔는 정말로    좋아했어요 제  농담을   
+
+[LINE]
+Speaker416: OK,   Junior. That's~good.
+~           그랬구나  주니어     잘했어         
+
+[LINE]
+> Lily puts the~fish into~the~toilet.
+~ 릴리가  넣는다  물고기를     변기~안에다          
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker416: Are~you ready [to~say~goodbye]?
+~           넌       준비됐니   작별~인사~할         
+- to~buy some~socks
+~ 살      양말을       
+- to~take~a~shower
+~ 샤워~할            
++ to~say~goodbye
+~ 작별~인사~할       
+
+[LINE]
+> Suddenly, Bubbles starts~swimming.
+~ 갑자기       버블스가    헤엄치기~시작한다       
+
+[LINE]
+Speaker415: Bubbles!
+~           버블스     
+
+[LINE]
+Speaker416: Whoa. That fish~is alive.
+~           우와    저    물고기는    살아있어  
+
+[LINE]
+Speaker415: But how~do~we~get~him out~of~the~toilet?
+~           하지만 우리가~걔를~어떻게~꺼내죠    변기~밖으로            
+
+[LINE]
+Speaker416: I~can't~help~you~with~that.
+~           그건~내가~도와줄~수~없어             
+
+[MULTIPLE_CHOICE]
+> 릴리와 주니어는 버블스가 아직 살아있다는 것을 어떻게 알았나요?
++ 버블스가 변기 속에서 헤엄치기 시작했기 때문에.
+- 버블스가 주니어의 농담에 웃었기 때문에.
+- 주니어가 버블스의 낮잠 시간이 다 됐다는 것을 기억했기 때문에.
+
+[MATCH]
+> 짝을 누르세요
+- about <> ~에 대해
+- my <> 제
+- alive <> 살아있어
+- Bubbles <> 버블스가
+- Suddenly <> 갑자기
+
