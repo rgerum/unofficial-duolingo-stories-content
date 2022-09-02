@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=Время перемен
+icon=a2ac5b4bdad2cf4c70c2d3a4f3ff8e0ade6aba2d
+set=26|1
+
+[HEADER]
+> Time~for~a~Change  
+~ время~для~изменений
+
+[LINE]
+> Lin brings   a~big   blue  chair  into Lucy's~apartment.
+~ Лин приносит большое синее кресло в    квартиру~Люси    
+
+[LINE]
+Speaker508: Look~at     the~new chair  I~found           for the~living~room!
+~           посмотри~на новое   кресло (которое)~я~нашла для гостиной        
+
+[LINE]
+Speaker509: I can't   believe        you actually      paid      money  for~that!
+~           я не~могу поверить~(что) ты  на~самом~деле заплатила деньги за~это   
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker509: [How~much~did~it~cost]?
+~            сколько~оно~стоило    
+- Have such a cost
+- How much he lost
++ How much did it cost
+
+[LINE]
+Speaker508: It~was   free!       I found~it  outside,  in~front~of the~blue house.
+~           оно~было бесплатным  я нашла~его на~улице  перед       синим    домом 
+
+[LINE]
+Speaker508: I think the~woman who     lived there died…   but it's a~free     chair! 
+~           я думаю женщина   которая жила  там   умерла  но  это  бесплатное кресло 
+
+[LINE]
+Speaker509: You aren't~going   to~keep~it   in our   living~room, are~you?  
+~           ты  не~собираешься оставить~его в  нашей гостиной     не~так~ли 
+
+[MULTIPLE_CHOICE]
+> Кажется, Люси…
+- …очень нравится это кресло.
+- …переезжает в новую квартиру.
++ …не нравится это кресло.
+
+[LINE]
+Speaker508: I knew  you~were~going~to~hate~it.   
+~           я знала (что)~оно~тебе~не~понравится 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker509: [(It~won't)     (look~nice)         (with) (our)    (curtains)…]
+~             оно~не~будет   хорошо~смотреться   с      нашими   шторами    
+
+[LINE]
+Speaker509: But I suppose we can   buy    new   curtains.
+~           но  я полагаю мы можем купить новые шторы    
+
+[LINE]
+Speaker508: Hey! I~like       our  curtains…
+~           эй   мне~нравятся наши шторы    
+
+[LINE]
+Speaker509: But if   we buy   new   curtains, then  we'll~need      to~buy new   pillows too… 
+~           но  если мы купим новые шторы     тогда нам~нужно~будет купить новые подушки тоже 
+
+[LINE]
+Speaker508: I~like       the~pillows we~have              now…   
+~           мне~нравятся подушки     (которые)~у~нас~есть сейчас 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker509: Ooh! Now    I'm~going~to [buy~new~lamps]      too! 
+~           ох   сейчас я~собираюсь   купить~новые~лампы  тоже 
+- buy new legs
++ buy new lamps
+- but now lamps
+
+[ARRANGE]
+> Наберите услышанное
+Speaker509: [(This) (room)    (is~going~to~be) (beautiful)!]
+~             эта    комната   будет            красивой    
+
+[LINE]
+Speaker508: I~like       how the~room looks    now.   
+~           мне~нравится как комната  выглядит сейчас 
+
+[LINE]
+Speaker509: Too~bad!    I'm~going   to~change the~room now!    I'm~excited!     
+~           очень~жаль  я~собираюсь изменить  комнату  сейчас  я~в~предвкушении 
+
+[LINE]
+Speaker508: We're~going~to~have to~buy all~new~things…
+~           нам~придется        купить всё~новое      
+
+[LINE]
+Speaker509: That's OK,        the~chair was  free…       remember?
+~           это    нормально  кресло    было бесплатным  помнишь  
+
+[MULTIPLE_CHOICE]
+> Почему Люси хочет купить новую мебель?
++ Старая мебель не подходит к новому креслу.
+- Старая мебель плохо пахнет.
+- У нее в квартире совсем нет мебели.
+
+[MATCH]
+> Коснитесь пар
+- too <> тоже
+- can't <> не могу
+- a free <> бесплатное
+- for that <> за это
+- I'm going to <> я собираюсь
+
