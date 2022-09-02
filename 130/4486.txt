@@ -1,0 +1,191 @@
+[DATA]
+fromLanguageName=Это очень дорого
+icon=f53bcbcd74f00acabcca4d9d2408fb16e6d30f3f
+set=38|3
+
+[HEADER]
+> It's Too   Expensive
+~ это  очень дорого   
+
+[LINE]
+> Vikram and Priti wait for~a~realtor outside a~house with a~"for~sale"~sign.    
+~ Викрам и   Прити ждут риэлтора      снаружи дома    с    вывеской~«на~продажу» 
+
+[LINE]
+Speaker560: Wow, I~love       this house! It's~beautiful and so    big!    
+~           ого  мне~нравится этот дом    он~красивый    и   такой большой 
+
+[LINE]
+Speaker593: I'm not sure.   It's too   expensive.
+~           я   не  уверен  это  очень дорого    
+
+[LINE]
+> The~realtor greets~them.       
+~ риэлтор     здоровается~с~ними 
+
+[LINE]
+Speaker988: Welcome!          Which room    do~you~want to~see     first?  
+~           добро~пожаловать  какую комнату вы~хотите   посмотреть сначала 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker560: Vikram loves to~bake. [Let's~see~the~kitchen]!  
+~           Викрам любит печь      давайте~посмотрим~кухню  
+- Let's get a kitten
++ Let's see the kitchen
+- Let's see the chicken
+
+[LINE]
+> They look~around the~kitchen. Priti opens     the~oven.
+~ они  осматривают кухню        Прити открывает духовку  
+
+[LINE]
+Speaker560: Vikram, you could  bake   so~many great      cakes  here! 
+~           Викрам  ты  мог~бы испечь столько прекрасных тортов здесь 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker593: [(I~can)  (bake) (great)      (cakes) (anywhere).]     
+~             я~могу   печь   прекрасные   торты   в~любом~месте   
+
+[LINE]
+Speaker988: The~kitchen~also~has two dishwashers.         
+~           не~кухне~есть        две посудомоечные~машины 
+
+[LINE]
+Speaker560: Two dishwashers?          How wonderful,    Vikram!
+~           две посудомоечные~машины  как замечательно  Викрам 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker593: I prefer      [to~wash~my~dishes] by~hand.
+~           я предпочитаю  мыть~свою~посуду   руками  
++ to wash my dishes
+- to brush my fishes
+- to watch my dishes
+
+[LINE]
+> The~realtor takes~them  upstairs.
+~ риэлтор     проводит~их наверх   
+
+[LINE]
+Speaker988: There~are four   bedrooms!
+~           здесь     четыре спальни  
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker593: It's~just~the~two~of~us. We~don't~need [that~many rooms]. 
+~           нас~всего~двое           нам~не~нужно   так~много комнат  
+- all  these sheep
+~ всех этих  овец 
++ that~many rooms 
+~ так~много комнат
+- three swimming~pools
+~ три   бассейна      
+
+[LINE]
+Speaker560: But look,   the~windows are~so big!    
+~           но  смотри  окна        такие  большие 
+
+[LINE]
+Speaker593: If~we~have       big     windows, then  we'll~have  a~big   electric~bill!        
+~           если~у~нас~будут большие окна     тогда у~нас~будет большой счёт~за~электричество 
+
+[LINE]
+Speaker593: This house is~too  expensive.
+~           этот дом   слишком дорогой   
+
+[LINE]
+Speaker988: Maybe I can  talk     to the~owners  about~the~price. Excuse~me.
+~           может я могу обсудить с  владельцами цену             извините  
+
+[LINE]
+> The~realtor leaves to~make~a~call.
+~ риэлтор     уходит позвонить      
+
+[LINE]
+Speaker560: Can~you   please     stop      complaining?
+~           ты~можешь пожалуйста перестать жаловаться  
+
+[MULTIPLE_CHOICE]
+> Priti wants          Vikram to~stop… 
+~ Прити хочет,~(чтобы) Викрам перестал 
+- …buying  all the~houses in town.  
+~  скупать все дома       в  городе 
+- …saying   good    things about the~house.
+~  говорить хорошие вещи   о     доме      
++ …saying   bad    things about the~house.
+~  говорить плохие вещи   о     доме      
+
+[LINE]
+Speaker593: You don't understand. It's part  of~my plan.  I want          the~owner to~lower the~price.
+~           ты  не    понимаешь   это  часть моего плана  я хочу,~(чтобы) владелец  снизил   цену      
+
+[LINE]
+> The~realtor returns.     
+~ риэлтор     возвращается 
+
+[LINE]
+Speaker988: Good    news!    I spoke~to     the~owners  and they'll~lower the~price.
+~           хорошие новости  я поговорила~с владельцами и   они~снизят    цену      
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker593: Amazing!    Then  we will~buy [this house]!
+~           потрясающе  тогда мы купим     этот дом    
++ this house
+~ этот дом  
+- tickets to Paris
+~ билеты  в  Париж
+- a~bowl of~soup
+~ миску  супа   
+
+[LINE]
+Speaker560: No,  we~won't!
+~           нет  не~купим 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker593: [(But) (I~thought) (you~loved)       (this) (house)?]
+~             но    я~думал     тебе~понравился   этот   дом     
+
+[LINE]
+Speaker560: That~was before         you started complaining.
+~           это~было до~того,~(как) ты  начал   жаловаться  
+
+[LINE]
+Speaker560: Now    I think you're right. This~house~has too     many  rooms,  too     many  windows, and too     many  dishwashers!        
+~           теперь я думаю ты     прав   в~этом~доме    слишком много комнат  слишком много окон     и   слишком много посудомоечных~машин 
+
+[LINE]
+Speaker593: But I~love          the~two dishwashers!         
+~           но  мне~понравились две     посудомоечные~машины 
+
+[LINE]
+Speaker560: I thought you preferred     doing~dishes by~hand.
+~           я думала  ты  предпочитаешь мыть~посуду  руками  
+
+[LINE]
+Speaker593: No~one prefers~that.       
+~           никто  это~(не)~предпочтёт 
+
+[MULTIPLE_CHOICE]
+> Why~was Vikram complaining about~the~house?
+~ почему  Викрам жаловался   на~дом          
+- He wanted at~least        three dishwashers.         
+~ он хотел  по~крайней~мере три   посудомоечные~машины 
+- He didn't~think it~was~big~enough         for two   people.
+~ он не~думал     что~он~достаточно~большой для двоих людей  
++ He wanted to~make~the~owner   lower   the~price.
+~ он хотел  заставить~владельца снизить цену      
+
+[MATCH]
+> Коснитесь пар
+- room <> комнату
+- will buy <> купим
+- to see <> посмотреть
+- I'm <> я
+- opens <> открывает
+
