@@ -1,0 +1,151 @@
+[DATA]
+fromLanguageName=Спасибо, мама
+icon=bf40ef982a083d2f6c8dbc8896888db65d7f1488
+set=19|1
+
+[HEADER]
+> Thanks,  Mom 
+~ спасибо  мама
+
+[LINE]
+> Zari opens     a~gift  from her   mother.
+~ Зари открывает подарок от   своей мамы   
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker418: [What's~this]?
+~            что~это      
+- What dress
++ What's this
+- When's this
+
+[LINE]
+Speaker511: It's a~surprise! Open~it.
+~           это  сюрприз     открой  
+
+[LINE]
+Speaker418: It's the~sweater      we saw    yesterday at the~store!
+~           это  свитер~(который) мы видели вчера     в  магазине  
+
+[LINE]
+Speaker418: Thank~you!
+~           спасибо   
+
+[LINE]
+Speaker511: I know how~much   you wanted~it. 
+~           я знаю как~сильно ты  его~хотела 
+
+[LINE]
+Speaker418: It's~beautiful! I~love~it~so~much!    
+~           он~красивый     он~мне~очень~нравится 
+
+[LINE]
+Speaker511: Only   the~best for my   daughter!
+~           только лучшее   для моей дочери   
+
+[MULTIPLE_CHOICE]
+> Мама Зари хочет, чтобы у её дочери...
+- …была новая пара обуви.
++ …были самые лучшие вещи.
+- …была работа в магазине одежды.
+
+[LINE]
+Speaker511: And you look~so~nice          in blue. 
+~           и   ты  так~красиво~выглядишь в  синем 
+
+[LINE]
+Speaker418: It's~so~special!    I will~wear   it  every  day.  But…
+~           он~такой~особенный  я буду~носить его каждый день  но  
+
+[LINE]
+Speaker511: What's~the~matter?
+~           в~чём~дело        
+
+[LINE]
+Speaker418: Are~you~sure~about~this? It~was so    expensive.
+~           ты~уверена               он~был очень дорогой   
+
+[LINE]
+Speaker511: Don't worry.    It~was on~sale.      
+~           не    волнуйся  он~был на~распродаже 
+
+[MULTIPLE_CHOICE]
+> Мама Зари говорит, что нечего волноваться, потому что…
+- …у неё много денег.
+- ...она купила другой свитер.
++ …свитер стоил недорого.
+
+[LINE]
+Speaker418: Oh! Good.  
+~           ой  хорошо 
+
+[LINE]
+Speaker511: It~was~a~great~price, so      I got    four!  
+~           цена~была~отличная    так~что я купила четыре 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker418: Four   [sweaters]?
+~           четыре  свитера   
+- daughters
+~ дочери   
+- dresses
+~ платья 
++ sweaters
+~ свитера 
+
+[LINE]
+> Zari's~mother shows      her three~more blue  sweaters.
+~ мама~Зари     показывает ей  ещё~три    синих свитера  
+
+[LINE]
+Speaker511: Look!   This~one~is mine, this~one~is for your   brother, and this~one~is for your   dad! 
+~           смотри  этот        мой   этот        для твоего брата    и   этот        для твоего папы 
+
+[SELECT_PHRASE]
+> Выберите пропущенное слово или фразу
+Speaker511: That's [so~fun]!     
+~           это     так~здорово  
+- no fun
+- sofa
++ so fun
+
+[LINE]
+Speaker418: Oh…
+~           ой 
+
+[LINE]
+Speaker511: We can   all wear   our  new   sweaters tomorrow! I'm so  excited!
+~           мы можем все надеть наши новые свитеры  завтра    я   так рада    
+
+[MULTIPLE_CHOICE]
+> Мама Зари купила по синему свитеру каждому члену семьи.
++ Да, это правда.
+- Нет, это неправда.
+
+[LINE]
+Speaker418: Uh… 
+~           э-э 
+
+[LINE]
+Speaker511: What's~wrong?
+~           что~такое    
+
+[LINE]
+Speaker418: I~don't~think  I~like~this~sweater~anymore. 
+~           не~думаю~(что) мне~ещё~нравится~этот~свитер 
+
+[MULTIPLE_CHOICE]
+> Почему Зари больше не нравится свитер?
+- Она узнала, что он очень дорогой.
+- Ей не нравится синий цвет.
++ Она не хочет, чтобы все родственники носили одинаковые свитеры.
+
+[MATCH]
+> Коснитесь пар
+- we <> мы
+- new <> новые
+- on sale <> на распродаже
+- can <> можем
+- And <> и
+
