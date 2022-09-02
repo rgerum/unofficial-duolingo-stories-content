@@ -1,0 +1,150 @@
+[DATA]
+fromLanguageName=기차역으로!
+icon=5bee618bd907474764094eddf36ddcbc46523c98
+set=2|2
+
+[HEADER]
+> To~the~Station!
+~ 기차역으로          
+
+[LINE]
+> Oscar gets~in~a~taxi.
+~ 오스카가  택시에~탄다         
+
+[LINE]
+> His friend, Lin,~is driving the~taxi.
+~ 그의  친구      린이      운전~중이다  택시를      
+
+[MULTIPLE_CHOICE]
+> 오스카가 방금 탄 택시를 린이 운전하고 있다.
+- 아니요, 그렇지 않아요.
++ 네, 맞아요.
+
+[LINE]
+Speaker592: Lin! You~are driving a~taxi!
+~           린    네가      운전하는구나  택시를    
+
+[LINE]
+Speaker508: Yes! It~is my new job!  
+~           네    이건    제  새   직업이에요 
+
+[POINT_TO_PHRASE]
+> "가다"를 뜻하는 말을 고르세요.
+Speaker508: (Where) (do~you~want) (+to~go)?
+~            어디로     원하세요           가는~걸   
+
+[LINE]
+Speaker592: To~the~station, please!
+~           기차역으로           부탁해    
+
+[LINE]
+Speaker508: Where~is~the~station?
+~           기차역이~어디에요            
+
+[LINE]
+Speaker592: I do~not~know.
+~           난 모르겠어        
+
+[MULTIPLE_CHOICE]
+> 오스카는...
++ …기차역이 어딘지 모른다.
+- ...어디로 가고 싶은지 모른다.
+- ...린이 누군지 모른다.
+
+[LINE]
+Speaker508: OK… 
+~           그래요 
+
+[LINE]
+> Lin starts~driving.
+~ 린이  운전하기~시작한다      
+
+[MULTIPLE_CHOICE]
+> 린은...
+- …걷기 시작했다.
++ …운전하기 시작했다.
+- …먹기 시작했다.
+
+[LINE]
+Speaker508: We~are~here!
+~           다~왔어요       
+
+[LINE]
+Speaker592: Lin… this~is not~the~station. This~is the~university.
+~           린    여기는     기차역이~아니야         여기는     대학교잖아          
+
+[LINE]
+Speaker508: Oh…
+~           아  
+
+[LINE]
+> Lin starts~driving.
+~ 린이  운전하기~시작한다      
+
+[LINE]
+Speaker508: We~are~here!
+~           다~왔어요       
+
+[LINE]
+Speaker592: Lin…
+~           린   
+
+[LINE]
+Speaker508: Yes?
+~           네   
+
+[LINE]
+Speaker592: This~is the~hospital.
+~           여기는     병원이잖니        
+
+[LINE]
+Speaker508: Oh…
+~           아  
+
+[POINT_TO_PHRASE]
+> "또다시"를 뜻하는 말을 고르세요.
+> (Lin) (starts~driving)… (+again).
+~  린이    운전하기~시작한다          또다시    
+
+[LINE]
+Speaker508: OK, we~are~here!
+~           자   다~왔어요       
+
+[LINE]
+Speaker592: Lin, this~is not~the~station…
+~           린    여기는     기차역이~아닌데        
+
+[LINE]
+Speaker508: I  know. This~is my apartment.
+~           저도 알아요   여기는     제  아파트예요     
+
+[LINE]
+Speaker508: I  do~not~want to~drive~a~taxi.
+~           저는 하고~싶지~않아요   택시~운전을          
+
+[LINE]
+Speaker508: It~is a~difficult~job.
+~           이건    어려운~직업이네요       
+
+[LINE]
+> Lin gets~out of~the~taxi.
+~ 린이  내린다      택시에서        
+
+[LINE]
+Speaker508: Good~night, Oscar!
+~           좋은~밤~보내요    오스카   
+
+[MULTIPLE_CHOICE]
+> 이런! 린이 집에 가기로 결심한 이유는 무엇인가요?
+- 점심을 가져오는 걸 깜빡해서.
+- 다른 손님을 태워야 해서.
++ 택시 운전이 너무 어려워서.
+
+[MATCH]
+> 짝을 누르세요
+- His <> 그의
+- again <> 또다시
+- do not know <> 모르겠어
+- To the station <> 기차역으로
+- a difficult job <> 어려운 직업이네요
+
