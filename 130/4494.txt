@@ -1,0 +1,165 @@
+[DATA]
+fromLanguageName=Поведу я
+icon=cc2a52bc6b367269cf450bdc0cc6a70a19a199d2
+set=40|3
+
+[HEADER]
+> I'm~Driving
+~ поведу~я   
+
+[LINE]
+> Bea is~waiting~for Lin in~front~of her apartment~building.
+~ Би  ждёт           Лин возле       её  многоэтажки        
+
+[LINE]
+> Lin arrives~at   the~apartment on a~motorcycle.
+~ Лин подъезжает~к квартире      на мотоцикле    
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker508: Are~you~ready to~go   [to~the~beach]?
+~           ты~готова     поехать  на~пляж       
+- to a peach
+- two of each
++ to the beach
+
+[LINE]
+Speaker507: What~is~that?
+~           что~это      
+
+[LINE]
+Speaker508: It's my  motorcycle!
+~           это  мой мотоцикл   
+
+[LINE]
+Speaker507: I thought that you were~going to~rent    a~car. 
+~           я думала  что  ты  собиралась арендовать машину 
+
+[MULTIPLE_CHOICE]
+> Bea seems   upset~with~Lin.         Why?   
+~ Би  кажется расстроенной~из-за~Лин  почему 
++ Lin didn't rent       a~car. 
+~ Лин не     арендовала машину 
+- She doesn't like     the~car that    Lin rented.    
+~ ей  не      нравится машина  которую Лин арендовала 
+- She doesn't want  to~go to the~beach.
+~ она не      хочет ехать на пляж      
+
+[LINE]
+Speaker508: Renting~a~car is~very expensive, but riding    my   motorcycle is~free.   
+~           аренда~машины очень   дорогая    но  езда~(на) моём мотоцикле  бесплатная 
+
+[LINE]
+Speaker508: Now    get~on.
+~           теперь садись 
+
+[LINE]
+Speaker507: You want~me           to~ride on~the~back~of    your   motorcycle?
+~           ты  хочешь,~(чтобы)~я ехала   на~заднем~сидении твоего мотоцикла  
+
+[LINE]
+Speaker508: What's wrong?  Are~you~scared?
+~           что    не~так  ты~боишься     
+
+[ARRANGE]
+> Наберите услышанное
+Speaker507: [(I'm) (not~scared) (of~anything).]
+~             я     не~боюсь     ничего        
+
+[LINE]
+Speaker507: Except~for hairless    cats. 
+~           кроме      бесшёрстных кошек 
+
+[MULTIPLE_CHOICE]
+> What~is the~only~thing    Bea is~scared~of?
+~ какой   единственной~вещи Би  боится       
+- motorcycles
+~ мотоциклов 
++ cats  with~no~hair
+~ кошек без~шерсти  
+- dogs  with~lots~of~hair
+~ собак с~шерстью        
+
+[LINE]
+Speaker508: If   you're~not~scared, then  let's~go.
+~           если ты~не~боишься      тогда поехали  
+
+[LINE]
+Speaker507: OK,     but I'm driving.
+~           хорошо  но  я   поведу  
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker508: You want   to~drive my  [motorcycle]?
+~           ты  хочешь вести    мой  мотоцикл    
++ motorcycle
+~ мотоцикл  
+- cat  
+~ кошку
+- beach
+~ пляж 
+
+[LINE]
+Speaker507: Of~course.
+~           конечно   
+
+[LINE]
+Speaker508: Bea! Why    do~you~always~have to~control     everything?
+~           Би   почему тебе~всегда~нужно  контролировать всё        
+
+[LINE]
+Speaker508: Why    can't~you    relax?       
+~           почему ты~не~можешь расслабиться 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker507: I will~relax…  when  you [let~me~drive].       
+~           я расслаблюсь  когда ты   позволишь~мне~вести  
++ let me drive
+- let me dive
+- get me drive
+
+[LINE]
+Speaker507: Lin, do~you~want to~go   to the~beach or~not? 
+~           Лин  ты~хочешь   поехать на пляж      или~нет 
+
+[LINE]
+Speaker508: Yes, I~do.
+~           да   хочу 
+
+[LINE]
+> Later, Bea is~driving the~motorcycle, and Lin is~riding~behind~her.
+~ позже  Би  ведёт      мотоцикл        а   Лин сидит~позади~неё     
+
+[ARRANGE]
+> Наберите услышанное
+> [(Lin) (looks)    (very)  (unhappy).]   
+~   Лин   выглядит   очень   несчастной   
+
+[LINE]
+Speaker507: You were right. This~is better than renting a~car! 
+~           ты  была права  это     лучше  чем  аренда  машины 
+
+[LINE]
+Speaker508: And you were right, riding~back~here  is~not~fun.
+~           и   ты  была права  ехать~здесь~сзади невесело   
+
+[MULTIPLE_CHOICE]
+> Poor   Lin! Why~is she unhappy?   
+~ бедная Лин  почему она несчастная 
++ She~doesn't~like riding on~the~back       of~her motorcycle.
+~ ей~не~нравится   ездить на~заднем~сидении её     мотоцикла  
+- Bea rented     an~ugly   car.   
+~ Би  арендовала уродливую машину 
+- Bea gave her a~hairless  cat.  
+~ Би  дала ей  бесшёрстную кошку 
+
+[MATCH]
+> Коснитесь пар
+- that <> что
+- I <> я
+- on <> на
+- is driving <> ведёт
+- wrong <> не так
+
