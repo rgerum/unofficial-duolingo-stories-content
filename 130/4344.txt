@@ -1,0 +1,129 @@
+[DATA]
+fromLanguageName=Вопрос Джуниора
+icon=d845f544be0f67c8960124f8ef46185826f40763
+set=3|1
+
+[HEADER]
+> Junior's~Question
+~ вопрос~Джуниора  
+
+[LINE]
+Speaker415: Dad,  I~have      a~question.
+~           папа  у~меня~есть вопрос     
+
+[LINE]
+Speaker414: Sorry,  Junior,  I~am busy  now.   
+~           извини  Джуниор  я    занят сейчас 
+
+[LINE]
+Speaker414: A~football game is~on   TV.        
+~           футбольный матч идёт~по телевизору 
+
+[LINE]
+Speaker414: Go!   Go!   Go!  
+~           беги  беги  беги 
+
+[MULTIPLE_CHOICE]
+> Отец Джуниора болеет за футбольную команду в телевизионном матче.
+- Нет, это неправда.
++ Да, это правда.
+
+[LINE]
+Speaker415: I~need    money… 
+~           мне~нужны деньги 
+
+[LINE]
+Speaker414: Yes!
+~           да  
+
+[LINE]
+Speaker415: Really?
+~           правда 
+
+[MULTIPLE_CHOICE]
+> Почему Джуниор удивился?
++ Отец согласился дать ему денег.
+- Его любимая футбольная команда проигрывает.
+- Он нашёл деньги на полу.
+
+[LINE]
+Speaker415: I~need~the~money for pizza.
+~           мне~нужны~деньги на  пиццу 
+
+[LINE]
+Speaker414: Go!   Go!   Go!  
+~           беги  беги  беги 
+
+[LINE]
+Speaker415: And I~need~a~new    video~game.
+~           и   мне~нужна~новая видеоигра  
+
+[LINE]
+Speaker414: Yes!
+~           да  
+
+[LINE]
+Speaker415: And I~am~not~going to school on Monday.     
+~           и   я~не~пойду     в  школу  в  понедельник 
+
+[MULTIPLE_CHOICE]
+> Джуниор не хочет...
+- ...идти в школу в пятницу.
++ ...идти в школу в понедельник.
+- ...идти на работу в понедельник.
+
+[LINE]
+Speaker414: Yes! Good!  
+~           да   хорошо 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker415: [(Wow), (this~is) (easy)!]  
+~             ого    это       просто   
+
+[LINE]
+Speaker415: I~am~going to the~store now!   
+~           я~пойду    в  магазин   сейчас 
+
+[LINE]
+Speaker414: Go!   Go!   Go!  
+~           беги  беги  беги 
+
+[LINE]
+Speaker415: Bye,  Dad! 
+~           пока  папа 
+
+[LINE]
+Speaker414: Yes!
+~           да  
+
+[LINE]
+Speaker414: Sorry,  Junior… 
+~           прости  Джуниор 
+
+[LINE]
+Speaker414: It~is a~good  football   game!
+~           это   хороший футбольный матч 
+
+[LINE]
+Speaker414: OK…    what~do~you~need?
+~           ладно  что~тебе~нужно   
+
+[LINE]
+Speaker414: Junior?  Where~are~you?
+~           Джуниор  где~ты        
+
+[MULTIPLE_CHOICE]
+> Отец Джуниора...
++ ...был так увлечён игрой, что не обращал внимания на Джуниора.
+- ...повёл Джуниора в торговый центр, чтобы купить ему видеоигру.
+- ...не любит смотреть спортивные матчи по ТВ.
+
+[MATCH]
+> Коснитесь пар
+- OK <> ладно
+- a question <> вопрос
+- the store <> магазин
+- A football <> футбольный
+- Bye <> пока
+
