@@ -1,0 +1,118 @@
+[DATA]
+fromLanguageName=Ты умеешь разговаривать?
+icon=a13fae69b40921c2d4f62a0295a19ff0c25d26eb
+set=19|2
+
+[HEADER]
+> You~Can   Talk?         
+~ ты~умеешь разговаривать 
+
+[LINE]
+> Lily just       got       home  from her   job    at the~clothing~store.
+~ Лили только~что вернулась домой со   своей работы в  магазине~одежды    
+
+[LINE]
+Speaker416: I'm so  tired  of~customers   complaining        all  day. 
+~           я   так устала от~покупателей (которые)~жалуются весь день 
+
+[MULTIPLE_CHOICE]
+> Лили считает, что у неё идеальная работа.
++ Нет, это неправда.
+- Да, это правда.
+
+[LINE]
+> She sits~down. Her dog jumps~up~on    the~sofa.
+~ она садится    её  пёс запрыгивает~на диван    
+
+[LINE]
+Speaker58: Lily, we~need   to~talk.   
+~          Лили  нам~нужно поговорить 
+
+[LINE]
+Speaker416: What?!
+~           что   
+
+[LINE]
+Speaker58: It's~time~for      some      changes.
+~          (пришло)~время~для некоторых перемен 
+
+[MULTIPLE_CHOICE]
+> Стоп… Что пёс имеет в виду?
++ Он хочет перемен.
+- Он хочет пойти гулять.
+- Он купил новые дорогие часы.
+
+[LINE]
+Speaker416: You can    talk?!         
+~           ты  умеешь разговаривать  
+
+[ARRANGE]
+> Наберите услышанное
+Speaker58: [(I) (don't) (want) (dog~food)     (anymore).]
+~            я   не      хочу   собачий~корм   больше    
+
+[LINE]
+Speaker58: I want to~eat steak every  day. 
+~          я хочу есть   стейк каждый день 
+
+[LINE]
+Speaker416: What~is~happening?
+~           что~происходит    
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker58: And I want to~sleep [in your  bed].    
+~          и   я хочу спать     в  твоей кровати  
+- on~the~moon
+~ на~Луне    
+- at~work  
+~ на~работе
++ in~your~bed    
+~ в~твоей~кровати
+
+[LINE]
+Speaker58: You can    sleep on my   pillow. 
+~          ты  можешь спать на моей подушке 
+
+[LINE]
+Speaker416: What? No! 
+~           что   нет 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker58: Do~you~want [to~sleep~outside] instead?     
+~          хочешь       спать~на~улице    вместо~этого 
++ to sleep outside
+- two sleep inside
+- to keep outside
+
+[LINE]
+Speaker416: You don't~even~sleep outside! 
+~           ты  даже~не~спишь    на~улице 
+
+[LINE]
+> Suddenly, Lily wakes~up.   
+~ вдруг     Лили просыпается 
+
+[LINE]
+> She looks~at   her    dog sleeping on the~floor and laughs. 
+~ она смотрит~на своего пса спящего  на полу      и   смеётся 
+
+[LINE]
+Speaker416: I think my  job    is~giving~me    bad    dreams!
+~           я думаю моя работа вызывает~у~меня плохие сны    
+
+[MULTIPLE_CHOICE]
+> Лили думала, что её пёс говорящий, но…
+- …он хотел, чтобы это осталось в секрете.
++ …она поняла, что это был сон.
+- …он только поцеловал её.
+
+[MATCH]
+> Коснитесь пар
+- her <> своей
+- pillow <> подушке
+- dog <> пёс
+- It's time for <> время для
+- laughs <> смеётся
+
