@@ -1,0 +1,98 @@
+[DATA]
+fromLanguageName=Неожиданная концовка
+icon=136e95ddf7eef68f8c312f81c3b03bf4100a14e7
+set=17|4
+
+[HEADER]
+> Surprise~Ending     
+~ неожиданная~концовка
+
+[LINE]
+> Vikram is~reading in bed.     His wife, Priti, is~next~to~him.         
+~ Викрам читает     в  кровати  его жена  Прити  (находится)~рядом~с~ним 
+
+[LINE]
+Speaker560: Vikram, I'm tired.  Can~you   turn~off  the~light?
+~           Викрам  я   устала  ты~можешь выключить свет      
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker593: I can't   sleep! I~need    to~finish [this~book]!
+~           я не~могу спать  мне~нужно закончить  эту~книгу  
+- his book
++ this book
+- this look
+
+[POINT_TO_PHRASE]
+> Выберите вариант «вот-вот разобьётся».
+Speaker593: A~man   (is~on~an~airplane)!  He's (traveling~to~see)    his   wife,  but (the~plane) (+is~going~to~crash)! 
+~           мужчина  (летит)~в~самолете   он    едет~увидеться~(со)  своей женой  но   самолет      вот-вот~разобьется  
+
+[LINE]
+Speaker560: I'll tell     you  the~ending, but then  you~have~to turn~off  the~light.
+~           я    расскажу тебе концовку    но  тогда ты~должен   выключить свет      
+
+[ARRANGE]
+> Наберите услышанное
+Speaker593: [(You) (read)   (this) (book)?] 
+~             ты    читала   эту    книгу   
+
+[LINE]
+Speaker593: Please,     tell      me  the~ending!
+~           пожалуйста  расскажи~ мне концовку   
+
+[LINE]
+Speaker560: The~man's~wife    is~really     a~ghost. He dies|—   and now    they can   be   together.
+~           жена~того~мужчины на~самом~деле призрак  он умирает  и   теперь они  могут быть вместе   
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker593: That's strange. But now    I can  [turn~off~the~light].
+~           это    странно  но  теперь я могу  выключить~свет      
++ turn~off~the~light
+~ выключить~свет    
+- watch~TV            
+~ посмотреть~телевизор
+- get~on~an~airplane
+~ сесть~в~самолет   
+
+[LINE]
+> The~next~morning,    Vikram talks~to        Priti about the~book again.
+~ (на)~следующее~утро  Викрам разговаривает~с Прити про   книгу    снова 
+
+[LINE]
+Speaker593: That ending   was  surprising! 
+~           эта  концовка была неожиданной 
+
+[MULTIPLE_CHOICE]
+> Викрам имеет в виду, что концовка книги…
+- …склонила его в сон.
++ …была для него неожиданной.
+- …была ужасной.
+
+[LINE]
+Speaker560: Vikram… I lied    about  the~ending.
+~           Викрам  я соврала насчет концовки   
+
+[LINE]
+Speaker593: What?!
+~           что   
+
+[LINE]
+Speaker560: I never~read          that book.  I just   wanted~you        to~turn~off the~light.
+~           я никогда~(не)~читала ту   книгу  я просто хотела~(чтобы)~ты выключил    свет      
+
+[MULTIPLE_CHOICE]
+> Почему Прити соврала Викраму?
+- Она скрывала от него секрет.
++ Она хотела спать.
+- Она пыталась рассмешить Викрама.
+
+[MATCH]
+> Коснитесь пар
+- sleep <> спать
+- turn off <> выключить
+- to finish <> закончить
+- you have to <> ты должен
+- in <> в
+
