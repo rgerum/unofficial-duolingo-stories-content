@@ -1,0 +1,92 @@
+[DATA]
+fromLanguageName=क्या मैं यह ले सकता हूँ?
+icon=ce0ae956035c1bac6b9c64737466d59c5d027e97
+set=3|3
+
+[HEADER]
+> Can~I~Have           It?
+~ क्या~मैं~ले~सकता~हूँ यह 
+
+[LINE]
+> Junior and Eddy  are at~the~mall.
+~ जूनियर और  एड्डी हैं मॉल~में     
+
+[LINE]
+Speaker415: Dad!  I~need        a  new video~game!     
+~           पापा  मुझे~ज़रूरत~है एक नये वीडियो~गेम~(की) 
+
+[LINE]
+Speaker414: You~don't~need        a  new video~game.     
+~           तुम्हें~ज़रूरत~नहीं~है एक नये वीडियो~गेम~(की) 
+
+[MULTIPLE_CHOICE]
+> जूनियर के पिता एक नया वीडियो गेम खरीदना चाहते हैं।
+- हाँ, यह सही है।
++ नहीं, ऐसा नहीं है।
+
+[LINE]
+Speaker415: Please? There's a  flying~robot   in~this~game!
+~           कृपया   है      एक उड़ता~हुआ~रोबॉट इस~गेम~में   
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker414: Junior. You~want      this game, but   [you~don't~need~it].         
+~           जूनियर  तुम्हें~चाहिए यह   गेम   लेकिन  तुम्हें~इसकी~ज़रुरत~नहीं~है  
++ you don't need it
+- we don't eat it
+- you won't read it
+
+[LINE]
+Speaker415: OK!     I~want     this game. Now can~I~have           it?
+~           ठीक~है  मुझे~चाहिए यह   गेम   अब  क्या~मैं~ले~सकता~हूँ यह 
+
+[CONTINUATION]
+> आगे क्या आएगा?
+Speaker414: No,   you~have         video~games          [at~home]!
+~           नहीं  तुम्हारे~पास~हैं (कई~सारे)~वीडियो~गेम  घर~पर    
+- in~the~refrigerator
+~ फ़्रिज~में          
+- in~the~shower
+~ शावर~में     
++ at~home
+~ घर~पर  
+
+[LINE]
+Speaker415: You're~right.       
+~           आप~सही~(कह~रहे)~हैं 
+
+[ARRANGE]
+> सुनकर शब्द चुनें
+Speaker415: [(So) (can~we~go)           (home)?]
+~             तो   क्या~हम~जा~सकते~हैं   घर     
+
+[LINE]
+Speaker414: No,   we are going  to~Vikram's~house.
+~           नहीं  हम हैं जा~रहे विक्रम~के~घर~(तक) 
+
+[LINE]
+Speaker415: Ugh! His  house is boring!
+~           ~    उनका घर    है उबाऊ   
+
+[LINE]
+Speaker414: But   his  TV   is big, and I~need        to~watch~the~football~game.
+~           लेकिन उसका टीवी है बड़ा  और  मुझे~ज़रूरत~है फ़ुटबॉल~का~खेल~देखने~(की)   
+
+[LINE]
+Speaker415: You~don't~need     to~watch~the~game, Dad.  You want      to~watch it.
+~           आपको~ज़रूरत~नहीं~है खेल~देखने~(की)     पापा  आप  चाहते~हैं देखना    वह 
+
+[MULTIPLE_CHOICE]
+> अरे वाह! एड्डी और जूनियर, दोनों ही ने...
+- ...रोबॉट पर उड़ान भरी।
+- ...विक्रम के साथ वीडियो गेम खेले।
++ ...कहा कि उन्हें किसी चीज़ की ज़रूरत थी, जबकि वह सिर्फ़ उन्हें चाहिए थी।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- in this game <> इस गेम में
+- flying robot <> उड़ता हुआ रोबॉट
+- So <> तो
+- are <> हैं
+- we <> हम
+
