@@ -1,0 +1,129 @@
+[DATA]
+fromLanguageName=चलो पिज़्ज़ा बनाते हैं
+icon=dcb1760c8fe5f2221fc2e3bc373a13632881ae44
+set=12|4
+
+[HEADER]
+> Pizza         Night
+~ पिज़्ज़ा~(वाली) रात  
+
+[LINE]
+Speaker414: Junior! What do~you~want         for~dinner?        
+~           जूनियर  क्या (खाना)~चाहते~हो~तुम रात~के~भोजन~के~लिए 
+
+[LINE]
+Speaker415: I   want             pizza.    I'm     eight years~old… I   always want             pizza.   
+~           मैं (खाना)~चाहता~हूँ पिज़्ज़ा  मैं~हूँ आठ    साल~का     मैं हमेशा  (खाना)~चाहता~हूँ पिज़्ज़ा 
+
+[LINE]
+Speaker414: Cool!   We can~make     a  pizza!   
+~           सही~है  हम बना~सकते~हैं एक पिज़्ज़ा 
+
+[LINE]
+Speaker415: Or we can~call        and order           a  pizza!   
+~           या हम कॉल~कर~सकते~हैं और  मँगा~(सकते~हैं) एक पिज़्ज़ा 
+
+[MULTIPLE_CHOICE]
+> जूनियर पिज़्ज़ा ऑर्डर करना चाहता है।
++ हाँ, यह सही है।
+- नहीं, ऐसा नहीं है।
+
+[LINE]
+Speaker414: It~will~be more   fun    to~make a  pizza!   
+~           होगा       ज़्यादा मज़ेदार बनाना   एक पिज़्ज़ा 
+
+[LINE]
+Speaker415: Fun    for~you? 
+~           मज़ेदार आपके~लिए 
+
+[LINE]
+Speaker414: Fun    for~us!    Father and son!          
+~           मज़ेदार हमारे~लिए  बाप    और  बेटा~(एक~साथ) 
+
+[LINE]
+Speaker415: I   want      you to~be~happy, so… OK.    
+~           मैं चाहता~हूँ आप  खुश~रहें     तो  ठीक~है 
+
+[LINE]
+Speaker414: Great! Can~you~get         the~flour, water, and salt?
+~           बढ़िया  क्या~तुम~ला~सकते~हो आटा        पानी   और  नमक  
+
+[MULTIPLE_CHOICE]
+> एड्डी को पानी, नमक, और…
++ …आटे की ज़रूरत है।
+- …पिज़्ज़ा की ज़रूरत है।
+- …एक डेट की ज़रूरत है।
+
+[LINE]
+Speaker415: OK…    
+~           ठीक~है 
+
+[LINE]
+Speaker414: Now we can~put~it       all~together…
+~           अब  हम यह~मिला~सकते~हैं सब~साथ~में   
+
+[LINE]
+> They put        the~flour, water, and salt together.
+~ वे   मिलाते~हैं आटा        पानी   और  नमक  साथ~में  
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker415: This is hard,    and [I'm~hungry].  
+~           यह   है मुश्किल  और   मैं~हूँ~भूखा  
+- aim at me
+- I'm angry
++ I'm hungry
+
+[LINE]
+Speaker414: And now we~have~to     wait.  
+~           और  अब  हमें~करना~होगा इंतज़ार 
+
+[LINE]
+Speaker415: We~have~to     wait?!  
+~           हमें~करना~होगा इंतज़ार  
+
+[LINE]
+Speaker414: The~dough     isn't         ready yet.
+~           गूंथा~हुआ~आटा नहीं~(हुआ)~है तैयार अभी 
+
+[CONTINUATION]
+> आगे क्या आएगा?
+Speaker415: When will~it~be  [ready]?
+~           कब   हो~जाएगा~यह  तैयार  
+- ordered   
+~ मँगाया~हुआ
++ ready
+~ तैयार
+- hungry
+~ भूखा  
+
+[LINE]
+Speaker414: In~two~hours.
+~           दो~घंटों~में 
+
+[LINE]
+> Junior looks    at~Eddy. 
+~ जूनियर देखता~है एड्डी~को 
+
+[LINE]
+Speaker414: I'll~order        a  pizza.   
+~           मैं~मँगा~लेता~हूँ एक पिज़्ज़ा 
+
+[LINE]
+Speaker415: You're a  great~dad.      
+~           आप~हैं एक बहुत~बढ़िया~पिता 
+
+[MULTIPLE_CHOICE]
+> एड्डी ने आखिरकार पिज़्ज़ा ऑर्डर करने का फ़ैसला क्यों किया?
++ क्योंकि पिज़्ज़ा बनाने में काफ़ी देर लगती है।
+- क्योंकि उसके पास सही सामग्री नहीं थी।
+- क्योंकि जूनियर सारा का सारा गूंथा हुआ आटा खा गया।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- What <> क्या
+- for you <> आपके लिए
+- looks <> देखता है
+- is <> है
+- isn't <> नहीं है
+
