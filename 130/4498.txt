@@ -1,0 +1,198 @@
+[DATA]
+fromLanguageName=Это не ужин
+icon=e0718b43f841b45b2c93f3500731f0a130105110
+set=41|3
+
+[HEADER]
+> That's Not Dinner
+~ это    не  ужин  
+
+[LINE]
+> Vikram runs     into his~neighbor's~apartment.
+~ Викрам забегает в    квартиру~своего~соседа   
+
+[LINE]
+Speaker593: Eddy, I'm here!  What's          the~emergency?!        
+~           Эдди  я   здесь  что~(у~тебя~за) чрезвычайная~ситуация  
+
+[LINE]
+Speaker414: I~have a~date,   but I forgot       she~is a~vegetarian… like you!
+~           у~меня свидание  но  я забыл,~(что) она    вегетарианка  как  ты  
+
+[MULTIPLE_CHOICE]
+> What~is~Eddy's emergency?            
+~ какая~у~Эдди   чрезвычайная~ситуация 
+- He forgot where Vikram lives.
+~ он забыл  где   Викрам живёт 
++ He forgot that his date    doesn't eat meat.
+~ он забыл  что  его девушка не      ест мясо 
+- He wants to~go on a~date   with Vikram.  
+~ он хочет пойти на свидание с    Викрамом 
+
+[LINE]
+Speaker593: That~is~not an~emergency!         
+~           это~не      чрезвычайная~ситуация 
+
+[LINE]
+Speaker414: But I~really~like~her!     
+~           но  она~мне~очень~нравится 
+
+[LINE]
+Speaker593: OK,     I'll~help you. 
+~           хорошо  я~помогу  тебе 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker593: A~vegetarian   dinner [is~easy~to~make]!  
+~           вегетарианский ужин    легко~приготовить  
+- is easy to break
+- is easy to take
++ is easy to make
+
+[LINE]
+> Vikram opens     the~refrigerator.
+~ Викрам открывает холодильник      
+
+[LINE]
+Speaker593: Hmm… your refrigerator is~full of~meat.
+~           хм   твой холодильник  полон   мяса    
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker593: Chicken, beef,     pork…    Why    do~you~have so~much   [meat?]!
+~           курица   говядина  свинина  почему у~тебя      так~много  мяса   
+- milk  
+~ молока
++ meat
+~ мяса
+- fruit  
+~ фруктов
+
+[POINT_TO_PHRASE]
+> Click~on the~option that~means       «мышц».
+~ выберите вариант    который~означает ~      
+Speaker414: (Because)    I exercise~a~lot!   (I~need)    (to~eat) meat for my   (+muscles)!
+~            потому~что  я много~тренируюсь   мне~нужно   есть    мясо для моих   мышц     
+
+[LINE]
+Speaker593: Do~you~have anything   else?
+~           у~тебя~есть что-нибудь ещё  
+
+[LINE]
+Speaker414: Yogurt!
+~           йогурт 
+
+[LINE]
+Speaker593: Eddy, yogurt is~not dinner.
+~           Эдди  йогурт это~не ужин   
+
+[LINE]
+Speaker414: I~also~have…     cereal?
+~           у~меня~ещё~есть  хлопья 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker593: Eddy, [cereal~is~not~dinner]! Where~are all the~vegetables?
+~           Эдди   хлопья~—~не~ужин       где       все овощи          
+- cereal will not win it
++ cereal is not dinner
+- serious and hot dinner
+
+[LINE]
+Speaker414: Did~you look    in~the~back    of~the~refrigerator?
+~           ты      смотрел в~задней~части холодильника        
+
+[LINE]
+Speaker593: Oh! I see  something green!  
+~           о   я вижу что-то    зелёное 
+
+[LINE]
+Speaker414: Actually,  I think that's Junior's~science~experiment. 
+~           вообще-то  я думаю это    научный~эксперимент~Джуниора 
+
+[MULTIPLE_CHOICE]
+> What~is    the~green thing   in Eddy's~refrigerator?
+~ что~это~за зелёный   предмет в  холодильнике~Эдди   
+- a~very old    bag   of~lettuce   
+~ очень  старый пакет салата-латука
+- a~scary  green   monster 
+~ страшное зелёное чудовище
++ something      Junior  made   for science~class      
+~ кое-что,~(что) Джуниор сделал на  урок~естествознания
+
+[LINE]
+Speaker593: You  should go      to the~supermarket.
+~           тебе стоит  сходить в  супермаркет     
+
+[LINE]
+Speaker414: She'll~be here  in    thirty   minutes!
+~           она~будет здесь через тридцать минут   
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker414: I~don't~have time    to~go to the~supermarkett]!
+~           у~меня~нет   времени идти  в  супермаркет       
+- emergency            
+~ чрезвычайную~ситуацию
+- refrigerator
+~ холодильник 
++ supermarket
+~ супермаркет
+
+[LINE]
+> Junior  walks   into the~kitchen.
+~ Джуниор заходит в    кухню       
+
+[LINE]
+Speaker415: Hi,     Vikram. Hi,     Dad. 
+~           привет  Викрам  привет  папа 
+
+[LINE]
+Speaker415: What's~wrong? 
+~           что~случилось 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker593: [(He's~worried) (because)    (his) (date)    (is~a~vegetarian).]
+~             он~волнуется   потому~что   его   девушка   вегетарианка      
+
+[LINE]
+Speaker415: So?   
+~           и~что 
+
+[LINE]
+Speaker414: We~don't~have any     food to~make             a~vegetarian   dinner!
+~           у~нас~нет     никакой еды  (чтобы)~приготовить вегетарианский ужин   
+
+[LINE]
+Speaker415: That's not~true. We~have    ice~cream.
+~           это    неправда  у~нас~есть мороженое 
+
+[LINE]
+Speaker593: Junior,  that's not dinner.
+~           Джуниор  это    не  ужин   
+
+[LINE]
+Speaker415: Yes,~it~is! Dad~and~I  eat  ice~cream for dinner all~the~time!
+~           да,~ужин    мы~с~папой едим мороженое на  ужин   всё~время    
+
+[MULTIPLE_CHOICE]
+> Why~does Junior  think         Eddy shouldn't worry?      
+~ почему   Джуниор считает~(что) Эдди не~стоит  волноваться 
+- Eddy's~date  eats a~lot~of meat.
+~ девушка~Эдди ест  много    мяса 
+- He ordered pizza.
+~ он заказал пиццу 
++ He thinks        ice~cream is~a~good dinner.
+~ он считает~(что) мороженое хороший   ужин   
+
+[MATCH]
+> Коснитесь пар
+- Vikram <> Викрам
+- That is not <> это не
+- We have <> у нас есть
+- I also have <> у меня ещё есть
+- but <> но
+
