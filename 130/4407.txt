@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=Расставание Эдди
+icon=9d77d24b95463b2b7a2e8c9aa8f7b1c9f8de9013
+set=18|4
+
+[HEADER]
+> Eddy's~Breakup  
+~ расставание~Эдди
+
+[LINE]
+> Junior  sees  his    father, Eddy, crying.  
+~ Джуниор видит своего отца    Эдди  плачущим 
+
+[LINE]
+Speaker415: What's~wrong,  Dad? 
+~           что~случилось  папа 
+
+[LINE]
+Speaker414: Chloe broke~up   with me,   and I don't know why.   
+~           Хлои  рассталась со   мной  и   я не    знаю почему 
+
+[LINE]
+Speaker415: Your girlfriend, Chloe? I~liked~her.      
+~           твоя девушка     Хлои   она~мне~нравилась 
+
+[MULTIPLE_CHOICE]
+> Эдди бросила девушка.
++ Да, это правда.
+- Нет, это неправда.
+
+[LINE]
+Speaker414: Me  too!  And I thought she~liked~me. 
+~           мне тоже  и   я думал   я~ей~нравился 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «красивый».
+Speaker414: (She) (told)     me  (I~was)   (+handsome).
+~            она   говорила  мне  (что)~я    красивый  
+
+[LINE]
+Speaker415: Wow, that's surprising.
+~           ого  это    неожиданно 
+
+[LINE]
+Speaker414: I know!
+~           я знаю 
+
+[LINE]
+Speaker415: Well,  why    did~she break~up   with you?  
+~           что~ж  почему она     рассталась с    тобой 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker415: [(Did~you) (listen) (when)  (she) (talked)?]  
+~             ты        слушал   когда   она   говорила   
+
+[LINE]
+Speaker414: Yes. I know her favorite color and her favorite movie…
+~           да   я знаю её  любимый  цвет  и   её  любимый  фильм 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker414: I even know [her~last~name].
+~           я даже знаю  её~фамилию     
+- her last game
+- your past fame
++ her last name
+
+[LINE]
+Speaker415: So  what happened? 
+~           так что  произошло 
+
+[LINE]
+Speaker414: I don't know…
+~           я не    знаю 
+
+[LINE]
+Speaker414: We~had     a~great  date     last~night.   
+~           у~нас~было отличное свидание вчера~вечером 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker415: What did~you do    [on your  date]?    
+~           что  ты      делал  на своём свидании  
+- at~work   yesterday
+~ на~работе вчера    
+- last~year     
+~ в~прошлом~году
++ on your  date    
+~ на своём свидании
+
+[LINE]
+Speaker414: I cooked  dinner for her.
+~           я готовил ужин   для неё 
+
+[LINE]
+Speaker415: Oh no. 
+~           о  нет 
+
+[LINE]
+Speaker415: I think I know why    she broke~up   with you.  
+~           я думаю я знаю почему она рассталась с    тобой 
+
+[LINE]
+Speaker414: Why?   
+~           почему 
+
+[LINE]
+Speaker415: Dad,  I love  you,  but you're a~terrible cook. 
+~           папа  я люблю тебя  но  ты     ужасный    повар 
+
+[MULTIPLE_CHOICE]
+> О нет! Почему Хлои разошлась с Эдди?
+- Он забыл, как её зовут.
++ Он приготовил ужасный ужин.
+- У него воняли носки.
+
+[MATCH]
+> Коснитесь пар
+- Chloe <> Хлои
+- broke up <> рассталась
+- and <> и
+- date <> свидание
+- don't <> не
+
