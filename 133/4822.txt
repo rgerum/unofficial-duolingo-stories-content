@@ -1,0 +1,146 @@
+[DATA]
+fromLanguageName=두 번째 데이트
+icon=3de4c74a9c516e04a9ccbd4614f29e68acb55f2a
+set=20|3
+
+[HEADER]
+> Second Date
+~ 두~번째   데이트 
+
+[LINE]
+> Bea~and~Jim~are walking home after their first date.
+~ 비와~짐이           걸어가고~있다 집으로  ~후에   그들의   첫     데이트  
+
+[LINE]
+Speaker15: Do~you~want~to~have~dinner again soon?
+~          저녁~먹을래요                    또     곧    
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker507: No.  Honestly, [this~was~a~terrible~date].
+~           아니요  솔직히        이건~형편없는~데이트였어요            
+- these were terrible days
++ this was a terrible date
+- his was a terrible day
+
+[LINE]
+Speaker15: What? Why?
+~          네     왜요  
+
+[LINE]
+Speaker507: You  talked about~yourself during~the~whole~date!
+~           짐~씨가 얘기했어요  자신에~대해         데이트~내내                
+
+[LINE]
+Speaker507: And you~didn't~ask any questions about~my~life.
+~           그리고 묻지~않았어요        어떤  질문도       저에~대해         
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker15: Well, you~were texting    a~lot [during~the~date]!
+~          음     비~씨는     문자하고~있었잖아요 많이     데이트~중에           
+- to~my~girlfriend
+~ 내~여자친구에게        
++ during~the~date
+~ 데이트~중에         
+- last month
+~ 지난   달    
+
+[LINE]
+Speaker507: I~was texting   my friend Lin.
+~           전     문자하고~있었어요 제  친구     린에게 
+
+[LINE]
+Speaker507: She's taking~care~of my dog tonight.
+~           그녀가   돌봐주고~있어요       제  개를  오늘~밤    
+
+[LINE]
+Speaker15: You~have~a~dog? I didn't~know~that!
+~          개를~키우세요         전 몰랐어요             
+
+[LINE]
+Speaker507: That's because you  didn't~ask.
+~           그건     ~때문이에요  짐~씨가 묻지~않았다     
+
+[LINE]
+Speaker15: Sorry, I talk~too~much when~I'm~nervous.
+~          미안해요   전 말을~너무~많이~해요   긴장했을~때           
+
+[MULTIPLE_CHOICE]
+> 짐은 긴장했을 때…
++ …말을 많이 한다.
+- …데이트를 많이 한다.
+- …비에게 질문을 많이 한다.
+
+[LINE]
+Speaker507: Yeah.
+~           네    
+
+[LINE]
+Speaker15: Well, I love    dogs. I have~two. 
+~          음     전 정말~좋아해요 개를    전 두~마리를~키워요 
+
+[LINE]
+Speaker507: Oh, really?
+~           아   정말요    
+
+[LINE]
+Speaker15: Their names~are Steve~and Phil!
+~          개들의   이름이       스티브와      필이에요 
+
+[POINT_TO_PHRASE]
+> “수줍음을 타는”을 뜻하는 말을 고르세요.
+Speaker15: (Steve~is) friendly, (but) (Phil~is) a~little (+shy).    
+~           스티브는      사교성이~좋아요   하지만   필은       조금         수줍음을~타요  
+
+[LINE]
+Speaker15: They love    playing~in~the~park and going~to~the~beach and—
+~          둘은   정말~좋아해요 공원에서~노는~걸           그리고 해변에~가는~걸           그리고 
+
+[LINE]
+Speaker15: Sorry, I'm talking~too~much again.
+~          미안해요   제가  말을~너무~많이~하네요     또     
+
+[LINE]
+Speaker507: Yes, but that's~OK. 
+~           네    하지만 괜찮아요       
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker507: [(I)  (love) (talking) (about~my~dog) (too).]
+~             저도   좋아해요   얘기하는~걸    제~개에~대해        역시    
+
+[LINE]
+Speaker15: Maybe our dogs can~play together at~the~park soon.
+~          어쩌면   우리의 개들이  놀~수~있겠어요 같이       공원에서        곧    
+
+[LINE]
+Speaker507: Great~idea!
+~           좋은~생각이에요   
+
+[LINE]
+Speaker15: It'll~be a~fun~second~date.
+~          될~거예요    재밌는~두~번째~데이트가     
+
+[LINE]
+Speaker507: Oh, I don't~want~to~have a~second~date.
+~           아   전 하고~싶지~않아요          두~번째~데이트를     
+
+[LINE]
+Speaker507: But our dogs can~still~play together!
+~           하지만 우리의 개들은  여전히~놀~수~있어요    같이       
+
+[MULTIPLE_CHOICE]
+> 결국 비는…
++ …짐과 또 데이트를 하고 싶지 않다.
+- …짐과 정식으로 사귀고 싶어 한다.
+- …기르는 애완견이 따로 없다.
+
+[MATCH]
+> 짝을 누르세요
+- home <> 집으로
+- going to the beach <> 해변에 가는 걸
+- Honestly <> 솔직히
+- And <> 그리고
+- Phil is <> 필은
+
