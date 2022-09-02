@@ -1,0 +1,106 @@
+[DATA]
+fromLanguageName=여권
+icon=643347b755001a918130ddf5f6d3e914e63a00ce
+set=1|1
+
+[HEADER]
+> The~Passport
+~ 여권          
+
+[LINE]
+> Vikram~and~his~wife,~Priti,~are at~the~airport.
+~ 비크람과~그의~아내~프리티가                 공항에~있다         
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker593: Oh~no. [Where~is~my~passport]?
+~           아~이런    내~여권이~어디에~있지          
+- What is my passport
+- Here is my passport
++ Where is my passport
+
+[LINE]
+Speaker593: It~is not~here!
+~           그것은   여기에~없네   
+
+[LINE]
+Speaker560: Vikram…
+~           비크람    
+
+[LINE]
+Speaker593: It~is not~in~my~bag…
+~           그것은   내~가방~안에~없네    
+
+[LINE]
+Speaker593: And it~is not~in~my~jacket…
+~           그리고 그것은   내~재킷~안에~없네       
+
+[MULTIPLE_CHOICE]
+> 비크람은 그의 여권을 찾지 못하고 있다.
+- 아니요, 그렇지 않아요.
++ 네, 맞아요.
+
+[LINE]
+Speaker560: But  Vik…
+~           그렇지만 비크  
+
+[LINE]
+Speaker593: Oh! My passport~is in~the~taxi!
+~           아   나의 여권은         택시~안에~있어    
+
+[POINT_TO_PHRASE]
+> "뛰어가다"를 뜻하는 말을 고르세요.
+> (Vikram) (+runs) (to~the~taxi).
+~  비크람이      뛰어간다   그~택시를~향해     
+
+[LINE]
+Speaker560: Vik, no! 
+~           비크   안~돼 
+
+[LINE]
+> Priti runs to~Vikram.
+~ 프리티가  뛰어간다 비크람에게     
+
+[LINE]
+Speaker593: Oh~no, the~taxi~is not~here now!
+~           아~이런   그~택시가       여기에~없잖아  지금  
+
+[LINE]
+Speaker593: This~is~a~big~problem…
+~           이거~큰일인데               
+
+[LINE]
+Speaker560: Vikram!
+~           비크람    
+
+[LINE]
+Speaker560: Your passport~is not~in~the~taxi.
+~           너의   여권은         그~택시에~없어        
+
+[POINT_TO_PHRASE]
+> "네 손에"를 뜻하는 말을 고르세요.
+Speaker560: (Your) (passport~is) (+in~your~hand).
+~            너의     여권은            네~손에~있잖아      
+
+[LINE]
+Speaker593: Oh…
+~           아  
+
+[LINE]
+Speaker593: Thank~you, my~love.
+~           고마워        여보      
+
+[MULTIPLE_CHOICE]
+> 비크람의 여권은 어디에 있었나요?
+- 그의 집에
+- 택시 안에
++ 비크람의 손에
+
+[MATCH]
+> 짝을 누르세요
+- not in the taxi <> 그 택시에 없어
+- And <> 그리고
+- But <> 그렇지만
+- My <> 나의
+- to the taxi <> 그 택시를 향해
+
