@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Лікар Едді
+icon=29c5abbf74b46e43a4de510ac83e302c0722a100
+set=4|3
+
+[HEADER]
+> Doctor Eddy
+~ лікар  Едді
+
+[LINE]
+> Eddy is~at~the~supermarket.
+~ Едді у~супермаркеті        
+
+[LINE]
+> An~elegant~woman starts  talking~to    Eddy.
+~ елегантна~жінка  починає розмовляти~із Едді 
+
+[MULTIPLE_CHOICE]
+> У супермаркеті до Едді підійшла жінка і почала розмовляти з ним.
+- Ні, це неправда.
++ Так, це правда.
+
+[LINE]
+Speaker724: Hello!      
+~           здрастуйте  
+
+[LINE]
+Speaker414: Oh, hello!     
+~           о   здрастуйте 
+
+[LINE]
+Speaker724: Are~you~a~doctor?
+~           ви~лікар         
+
+[LINE]
+Speaker414: What? Me? Uh… 
+~           що    я   еее 
+
+[LINE]
+Speaker414: Yes. I…~am a~doctor.
+~           так  я     лікар    
+
+[LINE]
+Speaker724: Good! 
+~           добре 
+
+[ARRANGE]
+> Що ви чуєте?
+> [(Eddy) (is~not) (a~doctor).]
+~   Едді   не       лікар      
+
+[LINE]
+Speaker414: I~have a~lot~of money. 
+~           у~мене багато   грошей 
+
+[LINE]
+Speaker414: I live in a~big    house.  
+~           я живу у  великому будинку 
+
+[LINE]
+Speaker414: I~have expensive… uh...  pants.
+~           у~мене дорогі     е-е    штани 
+
+[LINE]
+Speaker724: OK,    but…
+~           добре  але 
+
+[POINT_TO_PHRASE]
+> Виберіть варіант, що означає «зараз».
+Speaker724: (A~man~needs)         (a~doctor) (+now)!  
+~            чоловікові~потрібен   лікар       зараз  
+
+[LINE]
+Speaker414: What?! Where is the~man?
+~           що     де    є  чоловік 
+
+[LINE]
+Speaker724: He~is near the~milk!
+~           він   біля молока   
+
+[MULTIPLE_CHOICE]
+> Чоловік знаходиться… 
++ … біля молока у супермаркеті.
+- … у магазинному візку Едді.
+- … у лікарні.
+
+[LINE]
+Speaker724: Please     help       the~man!    He~is~very~sick! 
+~           будь~ласка допоможіть чоловікові  йому~дуже~погано 
+
+[MULTIPLE_CHOICE]
+> Жінка хоче, щоб Едді…
++ … допоміг чоловікові, якому дуже погано.
+- … купив молока.
+- … звернувся до лікаря.
+
+[LINE]
+Speaker414: Uh-oh!
+~           ой-ой 
+
+[LINE]
+> Eddy sees   a~woman. He  runs     and talks~to~her.   
+~ Едді бачить жінку    він підбігає і   говорить~до~неї 
+
+[LINE]
+Speaker414: Hello,      are~you~a~doctor? I~need        help!    
+~           здрастуйте  ви~лікар          мені~потрібна допомога 
+
+[MULTIPLE_CHOICE]
+> Що зробив Едді?
++ Збрехав, а тоді спробував знайти справжнього лікаря, щоб допомогти чоловікові.
+- Завіз хворого чоловіка до лікарні.
+- Розплакався і вибіг із супермаркету.
+
+[MATCH]
+> З’єднайте пари
+- He is very sick <> йому дуже погано
+- Oh <> о
+- What <> що
+- is not <> не
+- I need <> мені потрібна
+
