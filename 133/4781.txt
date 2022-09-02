@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=오스카의 꽃
+icon=3bc2c3a627aad5f5aef4f68ae652c16713f9048f
+set=10|2
+
+[HEADER]
+> Oscar's Flowers
+~ 오스카의    꽃      
+
+[LINE]
+> Oscar~is in~his~garden. He sees his co-worker, Eddy.
+~ 오스카가     그의~정원에~있다      그가 본다   그의  직장~동료      에디를  
+
+[LINE]
+Speaker592: Eddy! Why are~you wearing a~nice~shirt today? You never~wear nice shirts.
+~           에디    왜   너는      입고~있어   멋진~셔츠를       오늘     넌   평소에~입지~않잖아 멋진   셔츠를    
+
+[LINE]
+Speaker414: I'm meeting my date    now!
+~           나는  만날~거야   내  데이트~상대를 지금  
+
+[LINE]
+Speaker592: Hmm. Do~you~have any~flowers for~your~date? Or chocolates?
+~           음    가지고~있어      꽃을          데이트~상대에게~줄     아님 초콜릿이라도     
+
+[LINE]
+Speaker414: I  can't~buy her  anything now… I'm late!
+~           나는 사줄~수~없어   그녀에게 아무것도     지금   난   늦었어  
+
+[MULTIPLE_CHOICE]
+> 에디는 데이트 상대에게 줄 초콜릿과 꽃을 샀다.
+- 네, 맞아요.
++ 아니요, 그렇지 않아요.
+
+[LINE]
+Speaker592: You~can~give her  some~of~my~flowers.
+~           줘도~돼         그녀에게 내~꽃을~좀             
+
+[LINE]
+> Oscar gives Eddy flowers from~his~garden.
+~ 오스카가  준다    에디에게 꽃을      그의~정원에서~딴       
+
+[MULTIPLE_CHOICE]
+> 오스카가 에디에게 꽃을 준 이유는 무엇인가요?
+- 그가 에디와 데이트를 할 예정이기 때문에.
++ 에디가 데이트 상대에게 꽃을 줄 수 있게 하려고.
+- 그가 에디의 데이트 상대를 사랑하기 때문에.
+
+[LINE]
+Speaker414: I  can't~take those~flowers.
+~           나는 가져갈~수~없어   그~꽃을          
+
+[LINE]
+Speaker592: Do~you~like this person?
+~           넌~좋아하는~거지   이    사람을    
+
+[LINE]
+Speaker414: Yes! She's really funny.
+~           응    그녀는   정말     재밌어   
+
+[LINE]
+Speaker592: Then give her  these~flowers.
+~           그럼   줘    그녀에게 이~꽃을          
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker414: Oscar, I  don't~want [the~flowers]!
+~           오스카    나는 원치~않아       그~꽃을         
+- a~nice~shirt
+~ 멋진~셔츠       
++ the~flowers
+~ 그~꽃        
+- to~go~to~work
+~ 일하러~가기       
+
+[LINE]
+Speaker592: Why?
+~           왜   
+
+[LINE]
+> Eddy starts~sneezing.
+~ 에디가  재채기를~하기~시작한다    
+
+[MULTIPLE_CHOICE]
+> 에디는 무엇을 하고 있나요?
+- 울고 있다.
++ 재채기를 하고 있다.
+- 소리 지르고 있다.
+
+[LINE]
+Speaker592: Eddy? Are~you OK? 
+~           에디    너       괜찮아 
+
+[LINE]
+Speaker414: No! I'm allergic~to~flowers!
+~           아니  난   꽃~알레르기가~있어          
+
+[LINE]
+Speaker592: Oh~no. Your face~is very red.
+~           아~이런   네    얼굴이     아주   빨개  
+
+[LINE]
+Speaker414: Ugh. I  feel~terrible…
+~           어후   나는 기분이~좋지~않아     
+
+[LINE]
+Speaker592: Well, have~fun on~your~date!
+~           아무튼   좋은~시간~보내 데이트에서        
+
+[MULTIPLE_CHOICE]
+> 저런! 에디의 기분이 안 좋아진 이유는 무엇인가요?
++ 그에게 꽃 알레르기가 있기 때문이다.
+- 그의 데이트 약속이 내일이라는 것을 깨달았기 때문이다.
+- 오스카에게 줄 선물이 없기 때문이다.
+
+[MATCH]
+> 짝을 누르세요
+- Yes <> 응
+- a nice shirt <> 멋진 셔츠를
+- sees <> 본다
+- some of my flowers <> 내 꽃을 좀
+- now <> 지금
+
