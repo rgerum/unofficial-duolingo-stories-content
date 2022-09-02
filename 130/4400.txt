@@ -1,0 +1,136 @@
+[DATA]
+fromLanguageName=Поездка на рыбалку
+icon=b25effb6b84f963315c4cf0b94d70033d61e59cb
+set=17|1
+
+[HEADER]
+> The~Fishing~Trip  
+~ поездка~на~рыбалку
+
+[LINE]
+> Bea is~visiting her    dad.  They are~fishing.
+~ Би  гостит~(у)  своего папы  они  рыбачат     
+
+[LINE]
+Speaker507: Dad,  I~hate~this.   
+~           папа  я~это~ненавижу 
+
+[LINE]
+Speaker6: Why?   
+~         почему 
+
+[LINE]
+Speaker507: It's~boring.
+~           это~скучно  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker507: [It's~hot~outside].
+~            на~улице~жарко    
++ It's hot outside
+- It got outside
+- That's hot inside
+
+[LINE]
+Speaker507: And I can't   catch   any~fish!     
+~           и   я не~могу поймать ни~одной~рыбы 
+
+[LINE]
+Speaker6: I went~fishing     with your  grandfather every  summer.
+~         я ходил~на~рыбалку с    твоим дедушкой    каждое лето   
+
+[LINE]
+Speaker507: Really?
+~           правда 
+
+[LINE]
+Speaker6: He was a~very~different~person when  he was~fishing.
+~         он был совсем~другим~человеком когда он рыбачил     
+
+[MULTIPLE_CHOICE]
+> Дедушка Би…
+- ...не умел ловить рыбу.
+- ...никогда не ездил на рыбалку с её отцом.
++ ...вёл себя по-другому, когда рыбачил.
+
+[LINE]
+Speaker6: He talked~a~lot.      
+~         он много~разговаривал 
+
+[LINE]
+Speaker507: But he was usually quiet!     
+~           но  он был обычно  молчаливым 
+
+[LINE]
+Speaker507: What~did~he~talk~about?
+~           о~чем~он~говорил       
+
+[LINE]
+Speaker6: His       life  before        he moved    to the~United~States.
+~         (о)~своей жизни до~того~(как) он переехал в  Соединенные~Штаты 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker6: [(Did~you~know) (that) (he~was) (a~doctor) (in~France)?] 
+~           ты~знала       что    он~был   врачом     во~Франции   
+
+[LINE]
+Speaker6: But he really~wanted to~be an~opera~singer.
+~         но  он очень~хотел   быть  оперным~певцом  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker507: Grandpa?! [I~don't~believe~it]!
+~           дедушка    я~в~это~не~верю     
++ I don't believe it
+- I won't relieve it
+- Why won't he leave it
+
+[LINE]
+Speaker6: It's true.  
+~         это  правда 
+
+[LINE]
+Speaker507: Dad,  did~you~invite~me to~go~fishing      because    you want   to~talk~more?   
+~           папа  ты~пригласил~меня поехать~на~рыбалку потому~что ты  хочешь больше~общаться 
+
+[LINE]
+Speaker6: Yes…
+~         да  
+
+[LINE]
+Speaker6: You moved~to    a~new city  and now    we don't~talk~much.
+~         ты  переехала~в новый город и   теперь мы мало~общаемся   
+
+[MULTIPLE_CHOICE]
+> Почему Би и её отец сейчас меньше общаются?
+- Би переехала в дом отца.
++ Би переехала в другой город.
+- Би потеряла свой телефон.
+
+[LINE]
+Speaker507: We~don't~need to~go~fishing     to~talk~about~things.       
+~           нам~не~нужно  ездить~на~рыбалку (чтобы)~поговорить~о~всяком 
+
+[LINE]
+Speaker6: That's~good…
+~         это~хорошо  
+
+[LINE]
+Speaker6: Because    I~think  fishing is~boring too! 
+~         потому~что я~считаю рыбалку скучной   тоже 
+
+[MULTIPLE_CHOICE]
+> Зачем отец Би привёз её на рыбалку?
++ Он подумал, что так они смогут поговорить.
+- Он считает рыбалку интересным занятием.
+- Би хотела похвастаться своими рыболовными навыками.
+
+[MATCH]
+> Коснитесь пар
+- before <> до того
+- But <> но
+- I <> я
+- life <> жизни
+- summer <> лето
+
