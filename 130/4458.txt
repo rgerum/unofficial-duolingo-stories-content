@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Крик в ночном поезде
+icon=6a2cfe9a3b62354a66111cce8d24f451aa087ef0
+set=31|3
+
+[HEADER]
+> A~Scream on the~Night~Train
+~ крик     в  ночном~поезде  
+
+[LINE]
+> Lucy and Lin are~on~a~train   at~night. They're getting~ready to~go~to~sleep in their room.
+~ Люси и   Лин (едут)~на~поезде ночью     они     готовятся     ложиться~спать в  своём купе 
+
+[LINE]
+> Suddenly, they hear   a~scream.
+~ внезапно  они  слышат крик     
+
+[LINE]
+Speaker509: Did~you~hear~that?
+~           ты~это~слышала    
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker508: Yeah. Maybe someone [is~in~danger].
+~           да    может кто-то   в~опасности   
+- is a ranger
++ is in danger
+- has strange hair
+
+[LINE]
+> Lucy listens at~the~door.
+~ Люси слушает у~двери     
+
+[LINE]
+Speaker509: Let~me~see       if~everything~is~OK.
+~           давай~я~посмотрю всё~ли~в~порядке    
+
+[LINE]
+Speaker508: No!  Maybe a~murderer is~outside          our    room!
+~           нет  может убийца     (находится)~снаружи нашего купе 
+
+[MULTIPLE_CHOICE]
+> Почему Лин не хочет выходить из купе?
+- Она не слышала никаких криков.
+- Она устала, и ей нет дела до происходящего.
++ Она боится, что в поезде убийца.
+
+[LINE]
+Speaker509: You~watch~too~much        TV.       
+~           ты~слишком~много~смотришь телевизор 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker508: [(I) (don't) (want)          (someone) (to~kill~me)!]
+~             я   не      хочу,~(чтобы)   кто-то    убил~меня    
+
+[LINE]
+Speaker509: I'll~feel~better if   I see      what's happening. 
+~           мне~станет~лучше если я посмотрю что    происходит 
+
+[LINE]
+Speaker508: And I'll~feel~better if   you lock    the~door and go~to~sleep. 
+~           а   мне~станет~лучше если ты  запрёшь дверь    и   ляжешь~спать 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker509: Fine.  I'll [stay     here]. 
+~           ладно  я     останусь здесь  
+- drink some~coffee
+~ выпью кофе       
++ stay     here 
+~ останусь здесь
+- scream 
+~ закричу
+
+[LINE]
+> Later, in~the~middle of~the~night, Lin wakes~up.    She sees  that Lucy is~not~in~her~bed.
+~ позже  посреди       ночи          Лин просыпается  она видит что  Люси нет~в~её~кровати  
+
+[LINE]
+Speaker508: Oh, no!  Where's Grandma?
+~           о   нет  где     бабушка 
+
+[LINE]
+> Lin walks~into the~hallway. Suddenly, she hears~Lucy~scream       in the~next room.
+~ Лин выходит~в  коридор      внезапно  она слышит,~как~Люси~кричит в  соседнем купе 
+
+[ARRANGE]
+> Наберите услышанное
+> [(She) (runs~to)     (the~door) (and) (opens~it).]    
+~   она   подбегает~к   двери      и     открывает~её   
+
+[LINE]
+> Inside~the~room, Lucy is~playing~cards with a~group of~women.
+~ в~купе           Люси играет~в~карты   с    группой женщин   
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker508: Grandma? [Why~did~you~scream]?!
+~           бабушка   почему~ты~кричала    
+- Why did you dream
++ Why did you scream
+- Where's the ice cream
+
+[LINE]
+Speaker509: Lin! Meet            my   new   friend,   Jane!  She's not a~murderer.
+~           Лин  познакомься~(с) моей новой подругой  Джейн  она   не  убийца     
+
+[LINE]
+Speaker509: But she did~just~take       $100         from~me in our   card~game.     
+~           но  она только~что~выиграла сто~долларов у~меня  в  нашей карточной~игре 
+
+[MULTIPLE_CHOICE]
+> Вот это поворот! Почему люди в поезде кричали?
++ Они проигрывали деньги в карты.
+- Поезд прибыл не по расписанию.
+- Новая подруга Люси — убийца.
+
+[MATCH]
+> Коснитесь пар
+- Inside the room <> в купе
+- Where's <> где
+- sees <> видит
+- the door <> дверь
+- in the middle <> посреди
+
