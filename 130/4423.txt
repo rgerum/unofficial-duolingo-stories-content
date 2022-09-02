@@ -1,0 +1,147 @@
+[DATA]
+fromLanguageName=Кабинет начальника
+icon=5e30e8550b553e3eab1690b49a538c688e556e50
+set=22|4
+
+[HEADER]
+> The~Manager's~Office
+~ кабинет~начальника  
+
+[LINE]
+> Bea was~asked to~go to the~manager's~office.
+~ Би  попросили зайти в  кабинет~начальника   
+
+[LINE]
+Speaker2144: Sit~down.     I'd~like   to~talk~to   you   about~something.
+~            присаживайся  я~хотел~бы поговорить~с тобой кое~о~чём       
+
+[LINE]
+Speaker507: Did~you~get that report I~put                on your desk?           
+~           вы~получили тот  отчёт  (который)~я~положила на ваш  письменный~стол 
+
+[LINE]
+Speaker2144: Yes. I got     all three reports. There~were a~lot~of details.
+~            да   я получил все три   отчёта   в~них~было много    деталей 
+
+[MULTIPLE_CHOICE]
+> Би отдала начальнику…
+- ...три новых стула для его кабинета.
++ …три очень подробных отчёта.
+- …новый рабочий стол.
+
+[LINE]
+Speaker507: And did~you~like    my  presentation at the~meeting today?  
+~           и   вам~понравилась моя презентация  на совещании   сегодня 
+
+[LINE]
+Speaker2144: It  was  very  interesting.
+~            она была очень интересной  
+
+[LINE]
+Speaker507: Did~you~try  the~cake       I brought  for Brenda's~birthday?   
+~           вы~пробовали торт~(который) я принесла на  день~рождения~Бренды 
+
+[LINE]
+Speaker2144: Yes! It was delicious.    
+~            да   он был очень~вкусным 
+
+[MULTIPLE_CHOICE]
+> Начальнику Би понравился торт, который она принесла.
++ Да, это правда.
+- Нет, это неправда.
+
+[LINE]
+Speaker507: Also, I'm~sorry      I was~late yesterday.
+~           ещё   простите~(что) я опоздала вчера     
+
+[LINE]
+Speaker2144: You were~late?
+~            ты  опоздала  
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker507: I will~never~be~late~again!  I'll be   here  early [every  morning]!
+~           я больше~никогда~не~опоздаю  я    буду здесь рано   каждое утро     
++ every~morning
+~ каждое~утро  
+- never  
+~ никогда
+- at~night
+~ ночью   
+
+[LINE]
+Speaker2144: Please     don't~do~that. 
+~            пожалуйста не~делай~этого 
+
+[LINE]
+Speaker507: I'll~also    stay       at~work   late.     Every  day! 
+~           также~я~буду оставаться на~работе допоздна  каждый день 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker2144: Again,   please     [don't~do~that]. 
+~            ещё~раз  пожалуйста  не~делай~этого  
++ don't do that
+- don’t you bat
+- won’t do that
+
+[LINE]
+Speaker507: Why?   
+~           почему 
+
+[LINE]
+Speaker2144: Because    you don't work      here. 
+~            потому~что ты  не    работаешь здесь 
+
+[MULTIPLE_CHOICE]
+> Ого! Что мы только что узнали?
++ Би не работает в этой компании.
+- Начальнику не понравился торт.
+- Би — новая начальница.
+
+[LINE]
+Speaker507: Oh… is~that a~problem?
+~           ой  это     проблема  
+
+[LINE]
+Speaker2144: Yes. Who~are~you? 
+~            да   кто~ты~такая 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker507: I'm Bea, and I'm [a~very~hard~worker].     
+~           я   Би   и   я    очень~усердный~работник  
+- a very hard walker
+- a dairy farm worker
++ a very hard worker
+
+[LINE]
+Speaker2144: Nice~to~meet~you,      Bea.
+~            приятно~познакомиться  Би  
+
+[LINE]
+Speaker507: Can   I give you my   resume?
+~           можно я дам  вам своё резюме 
+
+[LINE]
+Speaker2144: If   I look~at     your resume, will~you~leave?
+~            если я посмотрю~на твоё резюме  ты~уйдешь      
+
+[LINE]
+Speaker507: OK!    
+~           хорошо 
+
+[MULTIPLE_CHOICE]
+> Почему Би хочет оставить своё резюме?
+- Она хочет уйти с работы пораньше.
+- Она хочет получить повышение.
++ Она хочет работать в этой компании.
+
+[MATCH]
+> Коснитесь пар
+- presentation <> презентация
+- Can <> можно
+- Sit down <> присаживайся
+- late <> допоздна
+- every <> каждое
+
