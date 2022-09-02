@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=Сад
+icon=2048b2aca1b5e4e869402fc61c30ffa6617ba5b8
+set=6|4
+
+[HEADER]
+> The~Garden
+~ сад       
+
+[LINE]
+> Vikram visits   his  sick    grandmother in the~hospital.
+~ Викрам навещает свою больную бабушку     в  больнице     
+
+[LINE]
+Speaker593: Good~morning, grandma!
+~           доброе~утро   бабушка 
+
+[LINE]
+Speaker593: How~do~you~feel        today?  
+~           как~ты~себя~чувствуешь сегодня 
+
+[LINE]
+Speaker129: Well, I~feel            a~little sad.      
+~           ну    я~чувствую~(себя) немного  грустной  
+
+[MULTIPLE_CHOICE]
+> Бабушка Викрама счастлива.
+- Да, это правда.
++ Нет, это неправда.
+
+[LINE]
+Speaker129: This hospital~room     has~no~color.
+~           эта  больничная~палата бесцветная   
+
+[POINT_TO_PHRASE]
+> Выберите вариант «на улицу».
+Speaker129: (It's~warm)       and (sunny)     today,   and (I~want)      to~go (+outside). 
+~            (погода)~теплая  и    солнечная  сегодня  и    мне~хочется  пойти   на~улицу  
+
+[LINE]
+Speaker593: Oh. I'm~sorry.
+~           о   мне~жаль  
+
+[LINE]
+Speaker129: On sunny     days, I love  working  in my    garden…
+~           в  солнечные дни   я люблю работать в  своём саду   
+
+[LINE]
+Speaker593: Hmm… I~have      an~idea.
+~           хм   у~меня~есть идея    
+
+[LINE]
+Speaker593: See~you  in~half~an~hour, Grandma.
+~           увидимся через~полчаса    бабушка 
+
+[LINE]
+> Vikram leaves.
+~ Викрам уходит 
+
+[MULTIPLE_CHOICE]
+> Кажется, Викрам…
++ …знает, как порадовать бабушку.
+- …решил пойти на вечеринку.
+- …понял, что ему нужно принять душ.
+
+[LINE]
+> Thirty   minutes later… 
+~ тридцать минут   спустя 
+
+[LINE]
+> Vikram walks   into his~grandmother's~room with two   big      plants.    
+~ Викрам заходит в    комнату~своей~бабушки  с    двумя большими растениями 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker593: Here~are some~plants [from~your~house].
+~           вот      растения     из~твоего~дома   
+- from our horse
+- for your hours
++ from your house
+
+[LINE]
+Speaker593: And some~flowers from your   garden!
+~           и   цветы        из   твоего сада   
+
+[LINE]
+Speaker129: My  plants   and my  flowers!
+~           мои растения и   мои цветы   
+
+[ARRANGE]
+> Наберите услышанное
+Speaker593: [(Now)    (your) (garden) (is~here)!]
+~             теперь   твой   сад      здесь     
+
+[LINE]
+Speaker129: I'm so  happy.     Thank~you~very~much,  Vikram!
+~           я   так счастлива  большое~тебе~спасибо  Викрам 
+
+[MULTIPLE_CHOICE]
+> Как мило! Викрам...
++ …принёс бабушке растения и цветы из её сада.
+- …купил бабушке цветочное ожерелье.
+- ...отвёз бабушку домой.
+
+[MATCH]
+> Коснитесь пар
+- I have <> у меня есть
+- outside <> на улицу
+- so <> так
+- visits <> навещает
+- grandma <> бабушка
+
