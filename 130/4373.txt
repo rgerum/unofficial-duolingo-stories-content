@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=Официант прав
+icon=c8d008581b5b813d1b4afcedbe914f70003145c6
+set=10|2
+
+[HEADER]
+> The~Waiter Is~Right
+~ официант   прав    
+
+[LINE]
+> Bea and her friend Ted are~at~a~restaurant.
+~ Би  и   её  друг   Тед в~ресторане         
+
+[LINE]
+Speaker507: I'm very  hungry.  
+~           я   очень голодная 
+
+[LINE]
+Speaker440: The~fish here  is~delicious! 
+~           рыба     здесь очень~вкусная 
+
+[MULTIPLE_CHOICE]
+> Тед считает, что рыба невкусная.
+- Да, это правда.
++ Нет, это неправда.
+
+[LINE]
+> A~waiter comes    to~the~table.
+~ официант подходит к~столу      
+
+[LINE]
+Speaker526: Good~evening! What~would~you~like to~eat?
+~           добрый~вечер  что~вы~будете       есть   
+
+[LINE]
+Speaker507: I want the~fish, please.    
+~           я хочу рыбу      пожалуйста 
+
+[LINE]
+Speaker440: I want the~fish too! 
+~           я хочу рыбу     тоже 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker526: Great!   And would~you~like [something~to~drink]?
+~           отлично  и   вы~хотите       что-нибудь~выпить   
+- a~new~jacket
+~ новую~куртку
+-  to~sleep
+~  спать   
++ something~to~drink
+~ что-нибудь~выпить 
+
+[LINE]
+Speaker526: We~have    a~very special   wine tonight.        
+~           у~нас~есть очень  особенное вино сегодня~вечером 
+
+[LINE]
+Speaker526: It's~delicious    with~fish!
+~           оно~очень~вкусное с~рыбой   
+
+[LINE]
+Speaker526: But it's a~little expensive…
+~           но  оно  немного  дорогое   
+
+[LINE]
+Speaker440: No~problem!       We~would~like~the~wine, please.    
+~           ничего~страшного  мы~будем~вино           пожалуйста 
+
+[LINE]
+Speaker526: Great!  
+~           отлично 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «приносит».
+> The~waiter (+brings)   (the~fish) (and) (two) glasses~of~wine to~the~table.
+~ официант     приносит   рыбу       и     два  бокала~вина     на~стол      
+
+[LINE]
+Speaker507: The~fish looks    great.  
+~           рыба     выглядит отлично 
+
+[LINE]
+Speaker440: The~wine~looks good   too! 
+~           вино~выглядит  хорошо тоже 
+
+[LINE]
+> Ted accidentally spills    his  glass~of~wine on~Bea's~plate.
+~ Тед случайно     проливает свой бокал~вина    на~тарелку~Би  
+
+[MULTIPLE_CHOICE]
+> Ой! Тед случайно пролил...
+- …воду на рыбу.
++ …вино на ужин Би.
+- …вино на официанта.
+
+[LINE]
+Speaker440: Your~fish!
+~           твоя~рыба 
+
+[LINE]
+Speaker507: Your wine!
+~           твоё вино 
+
+[LINE]
+> Bea laughs  and eats the~fish.
+~ Би  смеётся и   ест  рыбу     
+
+[LINE]
+Speaker507: The~waiter is~right!
+~           официант   прав     
+
+[LINE]
+Speaker507: This wine is~delicious  with the~fish!
+~           это  вино очень~вкусное с    рыбой    
+
+[MULTIPLE_CHOICE]
+> Почему официант был прав?
+- Свидание с Тедом было скучным.
++ Би понравилось сочетание вина с рыбой.
+- Цена на рыбу завышена.
+
+[MATCH]
+> Коснитесь пар
+- glasses of wine <> бокала вина
+- friend <> друг
+- The wine looks <> вино выглядит
+- something to drink <> что-нибудь выпить
+- too <> тоже
+
