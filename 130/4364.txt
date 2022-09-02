@@ -1,0 +1,127 @@
+[DATA]
+fromLanguageName=Модель
+icon=bf0f585cb9c595dad852ba30870242b639057e4f
+set=8|1
+
+[HEADER]
+> The~Model
+~ модель   
+
+[LINE]
+> Eddy walks   into Oscar's~classroom.
+~ Эдди заходит в    класс~Оскара      
+
+[LINE]
+Speaker414: Hi,     can~I     come~in?
+~           привет  можно~мне войти   
+
+[LINE]
+Speaker592: I~need    to~teach my   art~class      now.   
+~           мне~нужно провести свой урок~рисования сейчас 
+
+[MULTIPLE_CHOICE]
+> Оскару нужно провести урок рисования.
+- Нет, это неправда.
++ Да, это правда.
+
+[LINE]
+Speaker414: But I'm~bored. 
+~           но  мне~скучно 
+
+[MULTIPLE_CHOICE]
+> Почему Эдди пришёл к Оскару в класс?
++ Ему скучно.
+- Сегодня он заменит Оскара.
+- Он хочет рассказать Оскару секрет.
+
+[LINE]
+Speaker592: Do~you~need to~teach a~class now    too? 
+~           тебе~нужно  провести урок    сейчас тоже 
+
+[LINE]
+Speaker414: No.  Can~I~help    with anything?
+~           нет  я~могу~помочь с    чем-либо 
+
+[LINE]
+Speaker592: Why?   
+~           почему 
+
+[LINE]
+Speaker414: You're my  best   friend.
+~           ты     мой лучший друг   
+
+[MULTIPLE_CHOICE]
+> Почему Эдди хочет помочь Оскару?
++ Оскар — его лучший друг.
+- Эдди хочет стать художником.
+- Он должен денег Оскару.
+
+[LINE]
+Speaker592: I~am?
+~           я    
+
+[LINE]
+Speaker592: Hmm. Yes, you~can~help     me. 
+~           хм   да   ты~можешь~помочь мне 
+
+[LINE]
+Speaker414: OK,     friend!
+~           хорошо  друг   
+
+[LINE]
+Speaker592: Can~you   sit   on this chair?
+~           ты~можешь сесть на этот стул  
+
+[LINE]
+Speaker414: Yes!
+~           да  
+
+[LINE]
+> Eddy sits    on~the~chair and looks~at   Oscar.   
+~ Эдди садится на~стул      и   смотрит~на Оскар(а) 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «вести себя тихо».
+Speaker592: (And) (can~you)   (+be~quiet)?       
+~            и     ты~можешь    вести~себя~тихо  
+
+[LINE]
+Speaker414: Why?   
+~           почему 
+
+[LINE]
+Speaker592: My  art~class      starts     in~one~minute. I~need~a~model.  
+~           мой урок~рисования начинается через~минуту   мне~нужна~модель 
+
+[MULTIPLE_CHOICE]
+> Вы поняли? Оскар хочет, чтобы Эдди…
++ …был моделью на его уроке рисования.
+- …провёл вместо него урок.
+- …немедленно ушёл.
+
+[LINE]
+Speaker592: Models are~quiet.      
+~           модели ведут~себя~тихо 
+
+[LINE]
+Speaker414: Ohhh, I'm~bored. 
+~           ох    мне~скучно 
+
+[LINE]
+Speaker592: Shh.
+~           тсс 
+
+[MULTIPLE_CHOICE]
+> Почему Эдди всё ещё скучно?
+- Оскар без умолку говорит о работе.
+- Ему не нравится читать про искусство.
++ Оскар хочет, чтобы он тихо сидел на стуле.
+
+[MATCH]
+> Коснитесь пар
+- too <> тоже
+- friend <> друг
+- No <> нет
+- can I <> можно мне
+- Models <> модели
+
