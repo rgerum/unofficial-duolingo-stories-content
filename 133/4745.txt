@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=의사 에디
+icon=29c5abbf74b46e43a4de510ac83e302c0722a100
+set=1|2
+
+[HEADER]
+> Doctor Eddy
+~ 의사     에디  
+
+[LINE]
+> Eddy~is at~the~supermarket.
+~ 에디가     슈퍼에~있다             
+
+[LINE]
+> An elegant woman starts~talking to~Eddy.
+~ 한  우아한     여자가   말하기~시작한다       에디에게    
+
+[MULTIPLE_CHOICE]
+> 한 여자가 슈퍼에서 에디에게 말을 걸었다.
++ 네, 맞아요.
+- 아니요, 그렇지 않아요.
+
+[LINE]
+Speaker724: Hello!
+~           안녕하세요 
+
+[LINE]
+Speaker414: Oh, hello!
+~           아   안녕하세요 
+
+[LINE]
+Speaker724: Are~you a~doctor?
+~           당신은     의사인가요    
+
+[LINE]
+Speaker414: What? Me? Uh…
+~           뭐라고요  저요  어  
+
+[LINE]
+Speaker414: Yes. I…~am a~doctor.
+~           네    저...는 의사예요     
+
+[LINE]
+Speaker724: Good!
+~           잘됐네요 
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+> [(Eddy~is) (not) (a~doctor).]
+~   에디는       아니다   의사가        
+
+[LINE]
+Speaker414: I  have a~lot~of money.
+~           저는 있어요  많은       돈이    
+
+[LINE]
+Speaker414: I  live in~a~big~house.
+~           저는 살아요  큰~집에서          
+
+[LINE]
+Speaker414: I  have expensive… uh... pants.
+~           저는 있어요  비싼         어     바지가   
+
+[LINE]
+Speaker724: OK,  but… 
+~           그래요  그렇지만 
+
+[POINT_TO_PHRASE]
+> "지금 당장"을 뜻하는 말을 고르세요.
+Speaker724: (A) (man) (needs)  a~doctor (+now)!  
+~            한   남자가   필요로~해요  의사를        지금~당장  
+
+[LINE]
+Speaker414: What?! Where~is~the~man?
+~           뭐라고요   그~남자가~어디~있어요     
+
+[LINE]
+Speaker724: He~is near~the~milk!
+~           그는    우유~근처에~있어요    
+
+[MULTIPLE_CHOICE]
+> 그 남자는…
+- …병원에 있다.
++ …슈퍼의 우유 진열대 근처에 있다.
+- …에디의 쇼핑 카트 안에 있다.
+
+[LINE]
+Speaker724: Please help  the man! He~is very sick!
+~           제발     도와주세요 그   남자를  그는    아주   아파요  
+
+[MULTIPLE_CHOICE]
+> 여자는 에디가...
+- …의사에게 가길 바란다.
++ ...아픈 남자를 도와주길 바란다.
+- …우유를 사길 바란다.
+
+[LINE]
+Speaker414: Uh-oh!
+~           아~이런  
+
+[LINE]
+> Eddy sees a woman. He runs and talks to~her.
+~ 에디가  본다   한 여자를    그는 달린다  그리고 말을~건다 여자에게   
+
+[LINE]
+Speaker414: Hello, are~you a~doctor? I  need help!
+~           저기요    당신은     의사인가요     저는 필요해요 도움이  
+
+[MULTIPLE_CHOICE]
+> 에디는 무엇을 하고 있나요?
+- 아픈 남자를 차로 병원에 데려가고 있다.
+- 우유를 쏟아서 울고 있다.
++ 아픈 남자를 도울 진짜 의사를 찾고 있다.
+
+[MATCH]
+> 짝을 누르세요
+- I <> 저는
+- starts talking <> 말하기 시작한다
+- Where is the man <> 그 남자가 어디 있어요
+- I… am <> 저...는
+- runs <> 달린다
+
