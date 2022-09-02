@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=Новый ученик
+icon=5afbf601db955e3db76a96aea1d4e0a535c16e7c
+set=2|4
+
+[HEADER]
+> The~New Student
+~ новый   ученик 
+
+[LINE]
+> Zari and Lily are~sitting together on~the~school~bus.  
+~ Зари и   Лили сидят       вместе   в~школьном~автобусе 
+
+[LINE]
+Speaker418: Lily, there~is~a~new student in our   class! 
+~           Лили  есть~новый     ученик  в  нашем классе 
+
+[LINE]
+Speaker418: His~name~is Miguel.
+~           его~зовут   Мигель 
+
+[MULTIPLE_CHOICE]
+> Зари радуется, потому что…
++ …в её классе появился новый ученик, Мигель.
+- …она поменяла своё имя на Мигель.
+- …её брата зовут Мигель.
+
+[LINE]
+Speaker416: Miguel, huh?
+~           Мигель  а   
+
+[LINE]
+Speaker418: He~is~from Mexico. 
+~           он~из      Мексики 
+
+[LINE]
+Speaker418: His father writes books!
+~           его отец   пишет  книги 
+
+[LINE]
+Speaker416: Very  interesting.
+~           очень интересно   
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker418: He speaks       three [languages].
+~           он говорит~(на) трёх   языках     
+- books 
+~ книгах
++ languages
+~ языках   
+- fathers
+~ отцах  
+
+[LINE]
+Speaker416: Oh, he~is~intelligent.
+~           о   он~умный          
+
+[LINE]
+Speaker418: Intelligent… and tall.    And he~has beautiful…
+~           умный        и   высокий  и   у~него красивая  
+
+[LINE]
+Speaker416: Haha,  yes?
+~           ха-ха  да  
+
+[LINE]
+Speaker418: Um. Beautiful shoes.
+~           гм  красивая  обувь 
+
+[POINT_TO_PHRASE]
+> выберите вариант «позади».
+Speaker416: (Zari), (Miguel) is~sitting (+behind) (you). 
+~            Зари    Мигель  сидит        позади   тебя  
+
+[LINE]
+Speaker418: What?!
+~           что   
+
+[LINE]
+Speaker416: Hi,     Miguel!
+~           привет  Мигель 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker790: Hi,     Lily! [How~are~you]?
+~           привет  Лили   как~ты       
+- Here are two
++ How are you
+- How I do
+
+[LINE]
+Speaker416: I~am good,   thanks. 
+~           я    хорошо  спасибо 
+
+[LINE]
+Speaker416: Miguel, this~is my  friend,  Zari.
+~           Мигель  это     моя подруга  Зари 
+
+[LINE]
+Speaker416: She~likes   your… shoes.
+~           ей~нравится твоя  обувь 
+
+[LINE]
+Speaker418: Oh, um, hi,     Miguel.
+~           о   гм  привет  Мигель 
+
+[MULTIPLE_CHOICE]
+> Зари не знала, что…
++ …Мигель сидит позади неё.
+- …у Мигеля ужасная обувь.
+- …домашнее задание было на сегодня.
+
+[MATCH]
+> Коснитесь пар
+- student <> ученик
+- His name is <> его зовут
+- What <> что
+- How are you <> как ты
+- this is <> это
+
