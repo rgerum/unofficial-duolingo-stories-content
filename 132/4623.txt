@@ -1,0 +1,102 @@
+[DATA]
+fromLanguageName=आपको क्या चाहिए?
+icon=8c5ae7b18c5ff0f37394646c91bd6a579213dcbc
+set=3|2
+
+[HEADER]
+> What Do~You~Want?
+~ क्या चाहिए~आपको  
+
+[LINE]
+> Oscar walks   into~a~clothes~store. 
+~ ऑस्कर जाता~है कपड़ों~की~एक~दुकान~में 
+
+[LINE]
+> He sees     his  student, Zari.      She works       in~the~store.
+~ वह देखता~है उनके छात्र    ज़ारी~(को)  वह  काम~करती~है दुकान~में    
+
+[MULTIPLE_CHOICE]
+> ऑस्कर को ज़ारी एक दुकान में काम करती हुई दिखाई देती है।
+- नहीं, ऐसा नहीं है।
++ हाँ, यह सही है।
+
+[LINE]
+Speaker592: Zari! Oh,~good! I~am~happy~to~see~you.      
+~           ज़ारी  अरे~वाह   तुम्हें~देखकर~मुझे~खुशी~हुई 
+
+[LINE]
+Speaker418: Hello!  Welcome!       
+~           नमस्ते  आपका~स्वागत~है 
+
+[LINE]
+Speaker418: Do~you~need     help?
+~           क्या~आपको~चाहिए मदद  
+
+[LINE]
+Speaker592: Yes, thank~you! I~need…    
+~           हाँ  धन्यवाद    मुझे~चाहिए 
+
+[POINT_TO_PHRASE]
+> उस शब्द पर क्लिक करें जिसका मतलब "नयी" है।
+Speaker418: (Oh), (I~know)!      You~need   (a)  (+new) jacket!
+~            ~     मुझे~पता~है   आपको~चाहिए  एक    नयी  जैकेट  
+
+[LINE]
+> Zari shows     Oscar      a  jacket.
+~ ज़ारी दिखाती~है ऑस्कर~(को) एक जैकेट  
+
+[LINE]
+Speaker592: A  new jacket? No.   Zari, I…  
+~           एक नयी जैकेट   नहीं  ज़ारी  मैं 
+
+[LINE]
+Speaker418: Oh! You~need   a  new shirt!
+~           ~   आपको~चाहिए एक नयी कमीज़  
+
+[ARRANGE]
+> सुनकर शब्द चुनें
+Speaker418: [(The~green)  (shirt) (is) (perfect)!]    
+~             हरी~(वाली)   कमीज़    है   एकदम~बढ़िया   
+
+[LINE]
+Speaker592: No.   Zari, please…
+~           नहीं  ज़ारी  कृपया  
+
+[LINE]
+Speaker592: I~do~not~need   a  shirt. I~do~not~need   a  jacket. I~need…    
+~           मुझे~नहीं~चाहिए एक कमीज़   मुझे~नहीं~चाहिए एक जैकेट   मुझे~चाहिए 
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker418: Pants! [You~need~pants]!  
+~           पतलून   आपको~पतलून~चाहिए  
++ You need pants
+- Your new pants
+- You need parents
+
+[LINE]
+Speaker592: No!   I~do~not~need   clothes!
+~           नहीं  मुझे~नहीं~चाहिए कपड़े    
+
+[LINE]
+Speaker592: I   need~to~know…   
+~           मैं जानना~चाहता~हूँ 
+
+[LINE]
+Speaker592: Where is the~restroom?
+~           कहाँ  है बाथरूम       
+
+[MULTIPLE_CHOICE]
+> ऑस्कर कपड़ों की दुकान में आखिर क्यों गया था?
++ क्योंकि उसे बाथरूम जाना था।
+- क्योंकि उसे एक पतलून, एक शर्ट, और एक जैकेट खरीदने थे।
+- क्योंकि वह ज़ारी के लिए एक नयी जैकेट खरीदना चाहता था।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- Oh, good <> अरे वाह
+- jacket <> जैकेट
+- a <> एक
+- clothes <> कपड़े
+- Where <> कहाँ
+
