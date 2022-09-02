@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=छुट्टियों के कपड़े
+icon=eda1b8214a6937df66a552eb581f2353da4d0352
+set=2|4
+
+[HEADER]
+> Vacation       Clothes
+~ छुट्टियों~(के) कपड़े   
+
+[LINE]
+> Lucy is in~a~store.  
+~ लूसी है एक~दुकान~में 
+
+[LINE]
+Speaker509: Hi,     can~you~help~me?             
+~           नमस्ते  क्या~तुम~मेरी~मदद~कर~सकती~हो 
+
+[LINE]
+Speaker509: I~need     new clothes for~my~vacation!      
+~           मुझे~चाहिए नये कपड़े    अपनी~छुट्टियों~के~लिए 
+
+[MULTIPLE_CHOICE]
+> लूसी छुट्टियों के लिए कपड़े खरीद रही है।
++ हाँ, यह सही है।
+- नहीं, ऐसा नहीं है।
+
+[LINE]
+Speaker416: OK.    
+~           ठीक~है 
+
+[ARRANGE]
+> सुनकर शब्द चुनें
+Speaker509: [(I~need)     (a)  (dress).]
+~             मुझे~चाहिए   एक   पोशाक   
+
+[LINE]
+> Lily gives   Lucy      a  green dress.
+~ लिली देती~है लूसी~(को) एक हरी   पोशाक 
+
+[LINE]
+Speaker509: No!   I~need     a  short, red dress.
+~           नहीं  मुझे~चाहिए एक छोटी   लाल पोशाक 
+
+[MULTIPLE_CHOICE]
+> लूसी को क्या चाहिए?
++ एक छोटी, लाल ड्रेस
+- एक नयी, भूरी गाड़ी
+- एक लंबी, हरी स्कर्ट
+
+[LINE]
+> Lily gives   her  a  short, red dress.
+~ लिली देती~है उसको एक छोटी   लाल पोशाक 
+
+[LINE]
+Speaker509: And I~need     boots.
+~           और  मुझे~चाहिए जूते  
+
+[LINE]
+> Lily gives   Lucy      red boots.
+~ लिली देती~है लूसी~(को) लाल जूते  
+
+[LINE]
+Speaker509: No,   big,  black boots!
+~           नहीं  बड़े  काले  जूते  
+
+[LINE]
+Speaker416: Ugh…
+
+[LINE]
+Speaker509: OK,     a  short, red dress and big,  black boots…
+~           ठीक~है  एक छोटी   लाल पोशाक और  बड़े  काले  जूते  
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker509: [And~a~hat]! 
+~            और~एक~टोपी  
+- In the hat
+- And a cat
++ And a hat
+
+[LINE]
+> Lily gives   Lucy      a  hat. 
+~ लिली देती~है लूसी~(को) एक टोपी 
+
+[LINE]
+Speaker509: No!   A  yellow hat! 
+~           नहीं  एक पीली   टोपी 
+
+[CONTINUATION]
+> आगे क्या आएगा?
+> Lily gives   Lucy      [a  yellow hat]. 
+~ लिली देती~है लूसी~(को)  एक पीली   टोपी  
++ a  yellow hat 
+~ एक पीली   टोपी
+- a  red hat 
+~ एक लाल टोपी
+- a  yellow dress
+~ एक पीली   पोशाक
+
+[LINE]
+Speaker509: Perfect!    Now I'm     ready for~my~vacation!      
+~           एकदम~बढ़िया  अब  मैं~हूँ तैयार अपनी~छुट्टियों~के~लिए 
+
+[LINE]
+Speaker416: Now I~need     a  vacation.
+~           अब  मुझे~चाहिए एक छुट्टी   
+
+[MULTIPLE_CHOICE]
+> बेचारी लिली! अब आखिर उसे छुट्टियों की ज़रूरत क्यों है?
+- क्योंकि पहनने के लिए उसके पास ढेर सारे नये कपड़े हैं।
++ क्योंकि कपड़े ढूँढ़ने में लूसी की मदद करते-करते वह थक गई है।
+- क्योंकि उसने लंच में कुछ ज़्यादा ही खा लिया।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- OK <> ठीक है
+- yellow <> पीली
+- black <> काले
+- short <> छोटी
+- Lily <> लिली
+
