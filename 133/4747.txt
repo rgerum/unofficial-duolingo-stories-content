@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=전학생
+icon=5afbf601db955e3db76a96aea1d4e0a535c16e7c
+set=1|4
+
+[HEADER]
+> The~New~Student
+~ 전학생            
+
+[LINE]
+> Zari~and~Lily~are sitting together on~the~school~bus.
+~ 자리와~릴리가           앉아~있다   함께       통학버스에             
+
+[LINE]
+Speaker418: Lily, there~is a~new~student in~our~class!
+~           릴리    있어       새로~전학~온~학생이   우리~반에        
+
+[LINE]
+Speaker418: His name~is Miguel.
+~           그의  이름은     미겔이야   
+
+[MULTIPLE_CHOICE]
+> 자리가 신난 이유는…
+- …그녀의 남동생 이름이 미겔이기 때문이다.
++ …미겔이라는 새 전학생이 왔기 때문이다.
+- …그녀가 미겔로 이름을 바꿨기 때문이다.
+
+[LINE]
+Speaker416: Miguel~huh?
+~           미겔이라고      
+
+[LINE]
+Speaker418: He~is from~Mexico.
+~           그는    멕시코에서~왔어    
+
+[LINE]
+Speaker418: His father writes~books!
+~           그의  아버지는   책을~쓰셔        
+
+[LINE]
+Speaker416: Very interesting.
+~           아주   흥미로운걸       
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker418: He speaks three [languages].
+~           그는 말해     세      언어를        
++ languages
+~ 언어       
+- fathers
+~ 아버지    
+- books
+~ 책    
+
+[LINE]
+Speaker416: Oh, he~is intelligent.
+~           오   그는    똑똑해         
+
+[LINE]
+Speaker418: Intelligent… and tall. And he has   beautiful…
+~           똑똑해          그리고 키가~커  그리고 그는 갖고~있어 아름다운      
+
+[LINE]
+Speaker416: Haha, yes?
+~           하하    응   
+
+[LINE]
+Speaker418: Um. Beautiful shoes.
+~           음   아름다운      신발    
+
+[POINT_TO_PHRASE]
+> "네 뒤에"를 뜻하는 말을 고르세요.
+Speaker416: (Zari), (Miguel~is) (sitting) (+behind~you).
+~            자리야     미겔은         앉아~있어      네~뒤에        
+
+[LINE]
+Speaker418: What?!
+~           뭐라고   
+
+[LINE]
+Speaker416: Hi, Miguel.
+~           안녕  미겔     
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker790: Hi, Lily! [How~are~you]?
+~           안녕  릴리     잘~지냈어        
++ How are you
+- Here are two
+- How I do
+
+[LINE]
+Speaker416: I~am~good, thanks.
+~           잘~지냈어      고마워    
+
+[LINE]
+Speaker416: Miguel, this~is my friend Zari.
+~           미겔      이쪽은     내  친구     자리야  
+
+[LINE]
+Speaker416: She likes your… shoes.
+~           그녀가 좋아해   너의    신발을   
+
+[LINE]
+Speaker418: Oh, um, hi, Miguel.
+~           아   음   안녕  미겔     
+
+[MULTIPLE_CHOICE]
+> 자리는…
+- …미겔의 신발이 아주 별로란 걸 몰랐다.
++ …미겔이 뒤에 앉아 있다는 걸 몰랐다.
+- …숙제를 오늘 제출해야 한다는 걸 몰랐다.
+
+[MATCH]
+> 짝을 누르세요
+- friend <> 친구
+- Very <> 아주
+- my <> 내
+- in our class <> 우리 반에
+- shoes <> 신발
+
