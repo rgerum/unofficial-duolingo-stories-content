@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=이 오리가 아니야 
+icon=6ae21d07992767f2eef541bbcfde5913af8fc7a1
+set=26|3
+
+[HEADER]
+> The~Wrong~Duck
+~ 다른~오리         
+
+[LINE]
+> Eddy~is talking to~a~waitress at~a~restaurant.
+~ 에디가     얘기~중이다  웨이트리스와        레스토랑에서          
+
+[LINE]
+Speaker414: Is~the~food~here good? It~all looks… really expensive.
+~           여기~음식이           괜찮나요  모든~게   보여요    정말     비싼        
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker386: Yes, it's~not~cheap, but we're [one~of~the~best] restaurants in~town.
+~           네    저렴하진~않아요        하지만 저흰     최고~중~하나의         레스토랑이에요     시내에서    
++ one of the best
+- onto the rest
+- one of the guests
+
+[LINE]
+Speaker414: OK.    I really want my date    to~like me.
+~           알겠습니다  전 정말로    바라요  제  데이트~상대가 좋아하길    저를 
+
+[LINE]
+Speaker386: Are~you~sure she's coming? You've~been~waiting for~an~hour.
+~           확실한가요        그~분이  오시는~게   손님은~기다리고~계세요        한~시간~동안     
+
+[LINE]
+Speaker414: She said to~meet~her at~the~Blue~Duck at~7~p.m.
+~           그녀가 말했어요 만나자고        블루~덕에서           저녁~일곱~시에 
+
+[LINE]
+Speaker386: Oh. This~is the~Black~Duck.
+~           아   여기는     블랙~덕이에요        
+
+[MULTIPLE_CHOICE]
+> 이런! 에디는…
+- …데이트 상대가 맘에 들지 않는다.
++ …레스토랑을 잘못 찾아왔다.
+- …저녁식사로 오리 요리를 주문했다.
+
+[LINE]
+Speaker414: What? This isn't the~Blue~Duck?!
+~           뭐라고요  여기가  아니라고요 블루~덕이          
+
+[LINE]
+Speaker386: No,   but the~Blue~Duck isn't~far from~here.
+~           아니에요  하지만 블루~덕이         멀진~않아요    여기서       
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker414: Maybe [she's~still~there]!
+~           어쩌면    그녀가~거기~아직~있을~거예요   
++ she's still there
+- she's still fair
+- she steals hair
+
+[LINE]
+> Eddy runs to~the~Blue~Duck. He sees a waiter.
+~ 에디가  달려간다 블루~덕으로            그가 본다   한 웨이터를   
+
+[LINE]
+Speaker414: Excuse~me. Did~you~see a tall woman~with~dark~hair waiting~here?
+~           실례합니다      보셨어요        한 키~큰  짙은~머리색의~여성이          여기서~기다리는~걸   
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker526: [(Yes)… (but) (her) (date)    (never~arrived).]
+~             네      하지만   그녀의   데이트~상대가   오지~않았어요         
+
+[LINE]
+Speaker526: I  told her  to~go to~the~Black~Duck. I think her date~is there.
+~           제가 말했어요 그녀에게 가보시라고 블랙~덕에              제 생각엔   그녀의 데이트~상대가 거기있어요 
+
+[LINE]
+Speaker414: Oh,~no!
+~           아~이런   
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+> Eddy runs back~to [the~Black~Duck].
+~ 에디가  달려간다 다시~~로    블랙~덕            
+- the~office
+~ 사무실       
+- the~Blue~Duck
+~ 블루~덕         
++ the~Black~Duck
+~ 블랙~덕          
+
+[LINE]
+> His date~is outside the~restaurant.
+~ 그의  데이트~상대가 밖에~있다   레스토랑의          
+
+[LINE]
+Speaker414: Georgia! I'm glad that I~found~you! Let's~go~eat.
+~           조지아      전   기뻐요  ~해서  당신을~찾았다      먹으러~가요       
+
+[LINE]
+Speaker1715: The~restaurant just closed. 
+~            레스토랑이          방금   문을~닫았어요 
+
+[LINE]
+Speaker414: I'm~so~sorry…
+~           정말~미안해요      
+
+[MULTIPLE_CHOICE]
+> 에디가 미안해하는 이유는…
+- …오리를 너무 많이 먹어 속이 안 좋기 때문이다.
++ …시간이 너무 늦어 레스토랑에서 먹을 수 없기 때문이다.
+- …실수로 데이트 상대와 부딪쳤기 때문이다.
+
+[LINE]
+Speaker1715: It's~OK. Let's~have~burgers across~the~street.
+~            괜찮아요     햄버거~먹어요            길~건너에서            
+
+[LINE]
+Speaker1715: This~place~is too expensive anyway!
+~            이~곳은          너무  비싸요       어쨌든    
+
+[LINE]
+Speaker414: I~think  I'm~in~love.
+~           ~인~것~같아요 반하다         
+
+[MULTIPLE_CHOICE]
+> 에디가 데이트 상대에게 반한 이유는 무엇인가요?
+- 블랙 덕 레스토랑의 음식이 너무 훌륭해서.
++ 그녀가 더 저렴한 식당에 가서 먹자고 해서.
+- 그녀가 비싼 저녁식사 비용을 지불해서.
+
+[MATCH]
+> 짝을 누르세요
+- a <> 한
+- said <> 말했어요
+- at a restaurant <> 레스토랑에서
+- Did you see <> 보셨어요
+- it's not cheap <> 저렴하진 않아요
+
