@@ -1,0 +1,142 @@
+[DATA]
+fromLanguageName=Второе свидание
+icon=3de4c74a9c516e04a9ccbd4614f29e68acb55f2a
+set=21|1
+
+[HEADER]
+> Second Date    
+~ второе свидание
+
+[LINE]
+> Bea and Jim  are~walking home  after their first   date     .
+~ Би  и   Джим идут        домой после их    первого свидания  
+
+[LINE]
+Speaker15: Do~you~want to~have~dinner again soon?             
+~          ты~хочешь   поужинать      снова в~ближайшее~время 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker507: No.  Honestly,      [this~was~a~terrible~date]. 
+~           нет  честно~говоря   это~свидание~было~ужасным  
+- his was a terrible day
+- these were terrible days
++ this was a terrible date
+
+[LINE]
+Speaker15: What? Why?   
+~          что   почему 
+
+[LINE]
+Speaker507: You talked  about yourself during    the~whole date!    
+~           ты  говорил о     себе     в~течение всего     свидания 
+
+[LINE]
+Speaker507: And you didn't ask     any     questions about my   life. 
+~           и   ты  не     задавал никаких вопросов  о     моей жизни 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker15: Well,  you were~texting   a~lot [during   the~date]!
+~          что~ж  ты  переписывалась много  во~время свидания  
+- last~month      
+~ в~прошлом~месяце
++ during   the~date
+~ во~время свидания
+- to~my~girlfriend
+~ с~моей~девушкой 
+
+[LINE]
+Speaker507: I was~texting        my   friend   Lin.
+~           я переписывалась~(с) моей подругой Лин 
+
+[LINE]
+Speaker507: She's taking~care~of   my   dog     tonight.        
+~           она   присматривает~за моей собакой сегодня~вечером 
+
+[LINE]
+Speaker15: You~have    a~dog?  I didn't know~that!   
+~          у~тебя~есть собака  я не     знал~об~этом 
+
+[LINE]
+Speaker507: That's because    you didn't ask.      
+~           это    потому~что ты  не     спрашивал 
+
+[LINE]
+Speaker15: Sorry,  I talk   too     much  when  I'm~nervous.
+~          прости  я говорю слишком много когда я~нервничаю 
+
+[MULTIPLE_CHOICE]
+> Когда Джим нервничает, он…
++ …много болтает.
+- …часто ходит на свидания.
+- …задаёт Би много вопросов.
+
+[LINE]
+Speaker507: Yeah.
+~           да   
+
+[LINE]
+Speaker15: Well, I love  dogs.  I~have      two.
+~          ну    я люблю собак  у~меня~есть две 
+
+[LINE]
+Speaker507: Oh, really?
+~           о   правда 
+
+[LINE]
+Speaker15: Their names~are Steve and Phil!
+~          их    клички    Стив  и   Фил  
+
+[POINT_TO_PHRASE]
+> Выберите вариант «застенчивый».
+Speaker15: (Steve) is~friendly, (but) (Phil) is~a~little (+shy).        
+~           Стив   дружелюбный   а     Фил   немного       застенчивый  
+
+[LINE]
+Speaker15: They love  playing in the~park and going  to the~beach and—
+~          они  любят играть  в  парке    и   ходить на пляж      и   
+
+[LINE]
+Speaker15: Sorry,  I'm talking too     much  again.
+~          прости  я   говорю  слишком много опять 
+
+[LINE]
+Speaker507: Yes, but that's~OK.     I love  talking  about my    dog    too. 
+~           да   но  это~нормально  я люблю говорить о     своей собаке тоже 
+
+[LINE]
+Speaker15:  Maybe our  dogs   can    play   together at the~park soon.             
+~           может наши собаки смогут играть вместе   в  парке    в~ближайшее~время 
+
+[LINE]
+Speaker507: Great    idea!
+~           отличная идея 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker15: [(It'll~be)  (a~fun)   (second) (date).]    
+~            это~будет   весёлое   второе   свидание   
+
+[LINE]
+Speaker507: Oh, I don't~want~to~have  a~second date.    
+~           ой  я не~хочу,~чтобы~было второе   свидание 
+
+[LINE]
+Speaker507: But our  dogs   can~still~play         together!
+~           но  наши собаки всё~равно~могут~играть вместе   
+
+[MULTIPLE_CHOICE]
+> Оказывается, Би…
+- …наврала о том, что у неё есть собака.
+- …хочет, чтобы Джим был её парнем.
++ …не хочет идти на второе свидание с Джимом.
+
+[MATCH]
+> Коснитесь пар
+- the beach <> пляж
+- talking <> говорить
+- my <> моей
+- after <> после
+- questions <> вопросов
+
