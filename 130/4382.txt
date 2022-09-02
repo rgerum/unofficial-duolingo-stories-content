@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Интересный разговор
+icon=6711cee61441da3d7aa6099466d6fff137239c3a
+set=12|3
+
+[HEADER]
+> An~Interesting Conversation
+~ интересный     разговор    
+
+[LINE]
+> Bea is~sitting on a~bench in the~park.
+~ Би  сидит      на лавочке в  парке    
+
+[LINE]
+Speaker258: Excuse~me, can~I~sit~here?      
+~           извините   можно~здесь~присесть 
+
+[LINE]
+Speaker507: Yes.
+~           да  
+
+[LINE]
+Speaker507: But I'm~waiting~for my  friend. 
+~           но  я~жду           мою подругу 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «парнем».
+Speaker507: (She's~coming) (here) (with) her   (+boyfriend).
+~            она~придёт     сюда   со    своим   парнем     
+
+[LINE]
+Speaker258: Oh, really? 
+~           о   правда  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker507: I'm~really excited     [to~meet~him]        
+~           мне~очень  не~терпится  познакомиться~с~ним 
+- to make him
++ to meet him
+- to eat them
+
+[LINE]
+Speaker258: Why?   
+~           почему 
+
+[LINE]
+Speaker507: She~likes~him  a~lot.
+~           он~ей~нравится очень 
+
+[LINE]
+Speaker258: Interesting…
+~           интересно   
+
+[LINE]
+Speaker507: She is~going   to~ask~him~to~marry~her…
+~           она собирается сделать~ему~предложение 
+
+[LINE]
+Speaker507: … this~weekend!      
+~             (на)~этих~выходных 
+
+[MULTIPLE_CHOICE]
+> Подруга Би собирается…
+- …поехать в отпуск с Би на этих выходных.
++ …сделать своему парню предложение на этих выходных.
+- …купить дом вместе со своим парнем в следующем месяце.
+
+[LINE]
+Speaker258: This~weekend?      
+~           (на)~этих~выходных 
+
+[LINE]
+Speaker507: Yes. It's so  exciting!   
+~           да   это  так волнительно 
+
+[LINE]
+Speaker507: Oh! My  friend  is~here!
+~           о   моя подруга здесь   
+
+[LINE]
+Speaker507: Hey,    Emily.
+~           привет  Эмили 
+
+[LINE]
+Speaker260: Hey,    Bea!
+~           привет  Би  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker260: Oh, [you're~talking~to]   Leo! That's~great! 
+~           ой   ты~разговариваешь~с  Лео  это~прекрасно 
++ you're talking to
+- you'd be talking to
+- you talk to
+
+[LINE]
+Speaker507: Huh? Who~is      Leo?
+~           а    кто~(такой) Лео 
+
+[LINE]
+Speaker260: My  boyfriend, Leo. He is~sitting next~to~you!  
+~           мой парень     Лео  он сидит      рядом~с~тобой 
+
+[LINE]
+Speaker507: Oh no! 
+~           о  нет 
+
+[LINE]
+Speaker258: Nice~to~meet~you,      Bea.
+~           приятно~познакомиться  Би  
+
+[MULTIPLE_CHOICE]
+> Ой, Би случайно рассказала Лео, что...
++ ...его девушка собирается сделать ему предложение.
+- ...его девушка хочет с ним расстаться.
+- ...его девушка встречается с другим парнем.
+
+[MATCH]
+> Коснитесь пар
+- That's great <> это прекрасно
+- you're talking to <> ты разговариваешь с
+- It's <> это
+- no <> нет
+- in <> в
+
