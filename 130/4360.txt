@@ -1,0 +1,147 @@
+[DATA]
+fromLanguageName=Идеальный человек
+icon=9a22c5f11ddc4785a81d887f35d522f3317e2f4c
+set=7|1
+
+[HEADER]
+> The~Perfect Person 
+~ идеальный   человек
+
+[LINE]
+> Bea meets     her    friend, Eddy, for~coffee.
+~ Би  встречает своего друга   Эдди  за~кофе    
+
+[LINE]
+Speaker414: Good~morning, Bea!
+~           доброе~утро   Би  
+
+[LINE]
+Speaker507: How~are~you, Eddy?
+~           как~ты       Эдди 
+
+[LINE]
+Speaker414: Well, I~have a~date   tonight.        
+~           ну    у~меня свидание сегодня~вечером 
+
+[LINE]
+Speaker507: That's great.  
+~           это    отлично 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker414: Yes, but I~feel            [a~little~sick]…  
+~           да   но  я~чувствую~(себя)  немного~больным  
+- it'll sit
+- a little quick
++ a little sick
+
+[LINE]
+Speaker507: Oh, I'm~sorry.
+~           ой  мне~жаль  
+
+[LINE]
+Speaker414: I'm really tired.
+~           я   очень  устал 
+
+[LINE]
+Speaker414: And I~also~feel~cold.
+~           и   еще~мне~холодно  
+
+[MULTIPLE_CHOICE]
+> Эдди отлично себя чувствует.
+- Да, это правда.
++ Нет, это неправда.
+
+[LINE]
+Speaker507: Hmm.
+~           хм  
+
+[LINE]
+Speaker507: That's not~good!
+~           это    нехорошо 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker507: [(You~need)   (to~visit)           (a~doctor)!]
+~             тебе~нужно   пойти~(на~прием~к)   врачу      
+
+[LINE]
+Speaker414: No,  I can't~be~sick!  
+~           нет  я не~могу~болеть  
+
+[LINE]
+Speaker414: I~have a~date   tonight.        
+~           у~меня свидание сегодня~вечером 
+
+[LINE]
+Speaker507: Forget     your~date!     
+~           забудь~(о) своем~свидании 
+
+[LINE]
+Speaker507: I~know the~perfect person   for you. 
+~           я~знаю идеального  человека для тебя 
+
+[MULTIPLE_CHOICE]
+> А вы поняли, о чём речь? Би считает, что Эдди нужно…
+- …прийти вовремя на свидание.
+- …забыть имя своей девушки.
++ …встретиться с кем-то другим.
+
+[LINE]
+Speaker414: Really?
+~           правда 
+
+[LINE]
+Speaker507: Yes. She's tall.   
+~           да   она   высокая 
+
+[LINE]
+Speaker507: And intelligent.
+~           и   умная       
+
+[LINE]
+Speaker414: Is~she funny?  
+~           она    веселая 
+
+[LINE]
+Speaker507: Yes, she's very  funny.  
+~           да   она   очень веселая 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker414: [She~is~perfect]!        
+~            она~и~правда~идеальная  
++ She is perfect
+- Cheese is perfect
+- He is a person
+
+[LINE]
+Speaker414: What's~her~name?
+~           как~ее~зовут    
+
+[LINE]
+Speaker507: Doctor Santos.
+~           доктор Сантос 
+
+[LINE]
+Speaker507: You~need   to~go to~her~office   now…      
+~           тебе~нужно пойти к~ней~в~кабинет сейчас~же 
+
+[LINE]
+Speaker507: … because    you're sick! 
+~             потому~что ты     болен 
+
+[MULTIPLE_CHOICE]
+> Би считает, что идеальной парой для Эдди будет…
+- …парень, с которым она познакомилась в интернете.
+- …понравившаяся ему женщина с телевидения.
++ …врач, которая поможет ему выздороветь.
+
+[MATCH]
+> Коснитесь пар
+- tall <> высокая
+- great <> отлично
+- Yes <> да
+- intelligent <> умная
+- your date <> своем свидании
+
