@@ -1,0 +1,124 @@
+[DATA]
+fromLanguageName=Хочу быть как ты
+icon=801667abeebafff15f24357bcfe453e3f5688383
+set=32|1
+
+[HEADER]
+> I Want to~Be Like You
+~ я хочу быть  как  ты 
+
+[LINE]
+> Junior  gets    in Eddy's~car  after school.
+~ Джуниор садится в  машину~Эдди после школы  
+
+[LINE]
+Speaker414: How~was~school   today,   Junior? 
+~           как~дела~в~школе сегодня  Джуниор 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker415: Great!   We talked   [about~jobs].  
+~           отлично  мы говорили  о~профессиях  
++ about jobs
+- about dogs
+- around jobs
+
+[LINE]
+Speaker415: Guess  what~I~want~to~be when  I grow~up?
+~           угадай кем~я~хочу~быть   когда я вырасту 
+
+[LINE]
+Speaker414: Hmm. I don't know. A~soccer~player?
+~           хм   я не    знаю  футболистом     
+
+[POINT_TO_PHRASE]
+> Выберите вариант «дрессировать».
+Speaker415: (No).  I (want) (+to~train)     (lions)!
+~            нет   я  хочу    дрессировать   львов  
+
+[LINE]
+Speaker414: Oh, that's an~exciting   job!   
+~           о   это    захватывающая работа 
+
+[LINE]
+Speaker415: I'm~going to~teach lions to~jump through big     rings~of~fire… 
+~           я~буду    учить    львов прыгать через   большие кольца~с~огнем 
+
+[LINE]
+Speaker414: Ooh!
+~           о   
+
+[ARRANGE]
+> Наберите услышанное
+Speaker415: [(And) (I'll~teach)   (them) (to~dance)!] 
+~             и     я~буду~учить   их     танцевать   
+
+[LINE]
+Speaker414: I'd~like   to~see          that!
+~           я~бы~хотел посмотреть~(на) это  
+
+[LINE]
+Speaker415: I'll~even~be~able to~put     my   head   in~their~mouths!
+~           я~даже~смогу      засовывать свою голову им~в~пасти      
+
+[LINE]
+Speaker414: You~should~be   careful.    That~sounds very  dangerous!
+~           тебе~стоит~быть осторожным  это~звучит  очень опасно    
+
+[LINE]
+Speaker415: Don't worry,    I'm~going~to~be an~excellent lion~trainer.        
+~           не    волнуйся  я~буду          отличным     дрессировщиком~львов 
+
+[MULTIPLE_CHOICE]
+> Почему Джуниор говорит Эдди не волноваться?
+- На самом деле он хочет стать футболистом.
+- У его львов маленькие пасти.
++ Он планирует стать очень хорошим дрессировщиком львов.
+
+[LINE]
+Speaker414: Where did~you get  this idea?
+~           где   ты      взял эту  идею 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker415: That's   your job.       And I want to~be [just~like~you]!   
+~           это~(же) твоя профессия  и   я хочу быть   таким~же,~как~ты  
++ just like you
+- dust like you
+- just like who
+
+[LINE]
+Speaker414: Wait.    You think         I'm a~lion~trainer?    
+~           подожди  ты  думаешь~(что) я   дрессировщик~львов 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «плети».
+Speaker415: Yes. I was~looking~in (your) closet, and I (found) your leather (pants) and (+whips).
+~           да   я заглядывал~в    твой  шкаф    и   я  нашел  твои кожаные  штаны  и     плети  
+
+[LINE]
+Speaker414: Oh! Uh… 
+~           ой  э-э 
+
+[LINE]
+Speaker415: You~are a~lion~trainer,     aren't~you?
+~           ты      дрессировщик~львов  так~ведь   
+
+[LINE]
+Speaker414: Um… yes. I was~going to~tell    you,  but I forgot.
+~           гм  да   я собирался рассказать тебе  но  я забыл  
+
+[MULTIPLE_CHOICE]
+> Джуниор думает, что Эдди работает дрессировщиком львов потому, что…
+- …Эдди нравится прыгать сквозь горящие кольца.
++ …Эдди хранит кожаные штаны и плети в своём шкафу.
+- …Эдди учит львов танцевать.
+
+[MATCH]
+> Коснитесь пар
+- Guess <> угадай
+- to see <> посмотреть
+- talked <> говорили
+- you <> тебе
+- pants <> штаны
+
