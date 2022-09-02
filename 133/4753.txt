@@ -1,0 +1,102 @@
+[DATA]
+fromLanguageName=뭘 찾으세요?
+icon=8c5ae7b18c5ff0f37394646c91bd6a579213dcbc
+set=3|2
+
+[HEADER]
+> What Do~You~Want?
+~ 뭘    찾으세요        
+
+[LINE]
+> Oscar walks~into a~clothes~store.
+~ 오스카가  들어간다       옷가게에            
+
+[LINE]
+> He sees his student, Zari. She works in~the~store.
+~ 그가 본다   그의  학생       자리를   그녀가 일한다   이~가게에서       
+
+[MULTIPLE_CHOICE]
+> 오스카는 자리가 가게에서 일하고 있는 걸 본다.
+- 아니요, 그렇지 않아요.
++ 네, 맞아요.
+
+[LINE]
+Speaker592: Zari! Oh, good! I~am happy~to~see~you.
+~           자리    아   잘됐다   나는   널~보게~되어~반가워      
+
+[LINE]
+Speaker418: Hello! Welcome!
+~           안녕하세요  어서오세요   
+
+[LINE]
+Speaker418: Do~you~need help?
+~           필요하세요       도움이  
+
+[LINE]
+Speaker592: Yes, thank~you! I  need… 
+~           응    고마워        내가 필요한~건 
+
+[POINT_TO_PHRASE]
+> “알다”를 뜻하는 말을 고르세요.
+Speaker418: (Oh), I (+know)! (You)  (need) a~new~jacket!
+~            아    전   알아요     선생님은   필요해요  새~재킷이        
+
+[LINE]
+> Zari shows Oscar a~jacket.
+~ 자리가  보여준다  오스카에게 재킷을      
+
+[LINE]
+Speaker592: A~new~jacket? No.  Zari, I… 
+~           새~재킷          아니야  자리    나는 
+
+[LINE]
+Speaker418: Oh! You  need a~new~shirt!
+~           아   선생님은 필요해요 새~셔츠가       
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker418: [(The) (green) (shirt~is) (perfect)!]
+~             이     초록색     셔츠는        완벽해요      
+
+[LINE]
+Speaker592: No. Zari, please…
+~           아니  자리    제발     
+
+[LINE]
+Speaker592: I  do~not~need a~shirt. I  do~not~need a~jacket. I  need…
+~           나는 필요하지~않아     셔츠가      나는 필요하지~않아     재킷이       내가 필요한건 
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker418: Pants! [You~need~pants]!
+~           바지      선생님은~바지가~필요하군요  
++ You need pants
+- Your new pants
+- You need parents
+
+[LINE]
+Speaker592: No! I  do~not~need clothes!
+~           아니  나는 필요하지~않아     옷이      
+
+[LINE]
+Speaker592: I  need~to~know…
+~           내가 알아야~하는~것은    
+
+[LINE]
+Speaker592: Where~is~the~restroom?
+~           화장실이~어디야              
+
+[MULTIPLE_CHOICE]
+> 오스카가 옷가게에 들어간 이유는 무엇인가요?
++ 화장실을 찾고 있었기 때문에.
+- 바지, 셔츠, 그리고 재킷을 사고 싶었기 때문에.
+- 자리에게 새 재킷을 사주고 싶었기 때문에.
+
+[MATCH]
+> 짝을 누르세요
+- shirt is <> 셔츠는
+- Pants <> 바지
+- Yes <> 응
+- student <> 학생
+- shows <> 보여준다
+
