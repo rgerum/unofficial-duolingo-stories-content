@@ -1,0 +1,132 @@
+[DATA]
+fromLanguageName=Рисование в парке
+icon=96fd9b652456a41bca2912838b14cb5bd9f7827a
+set=13|2
+
+[HEADER]
+> Drawing   in the~Park
+~ рисование в  парке   
+
+[LINE]
+> Lucas goes  to the~park with his   dog     every  day. 
+~ Лукас ходит в  парк     со   своей собакой каждый день 
+
+[LINE]
+> And, every~day,   he sees  Lily drawing  in the~park.
+~ и    каждый~день  он видит Лили рисующей в  парке    
+
+[LINE]
+> One~day, he decides to~talk    to~her.
+~ однажды  он решает  поговорить с~ней  
+
+[LINE]
+Speaker1321: Hello! 
+~            привет 
+
+[LINE]
+Speaker416: Uh,  hi!    
+~           э-э  привет 
+
+[LINE]
+Speaker1321: Can~I  ask~you~a~question?
+~            я~могу задать~тебе~вопрос 
+
+[LINE]
+Speaker416: What? 
+~           какой 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker1321: I see  you  drawing  [every  day]… 
+~            я вижу тебя рисующей  каждый день  
+- in the~lake
+~ в  озере   
+- on my   shoes 
+~ на моих туфлях
++ every  day 
+~ каждый день
+
+[LINE]
+Speaker416: Yes…
+~           да  
+
+[LINE]
+Speaker1321: What~do~you usually draw?   
+~            что~ты      обычно  рисуешь 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker416: [A~lot~of~things]!   
+~            много~разных~вещей  
++ A lot of things
+- A lot of singing
+- A loud thing
+
+[LINE]
+Speaker416: I draw  things that    I think  are      interesting or  beautiful.
+~           я рисую вещи   которые я считаю являются интересными или красивыми 
+
+[LINE]
+Speaker1321: Cool! 
+~            круто 
+
+[LINE]
+Speaker1321: What are~you~drawing now?   
+~            что  ты~рисуешь      сейчас 
+
+[LINE]
+Speaker416: I... don't want to~tell  you... 
+~           я    не    хочу говорить тебе   
+
+[LINE]
+Speaker1321: Why?   
+~            почему 
+
+[MULTIPLE_CHOICE]
+> Лукас интересуется, почему…
+- …почему в парке столько людей.
+- …почему Лили рисует, держа карандаш в зубах.
++ …Лили не хочет рассказывать, что она рисует.
+
+[LINE]
+Speaker416: Well, you come      to the~park every  day… 
+~           ну    ты  приходишь в  парк     каждый день 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker1321: Oh! Are~you [drawing~a~picture] of~me?
+~            о   ты       рисуешь~картину    меня  
+- drawn in pictures
++ drawing a picture
+- draw on a picture
+
+[LINE]
+Speaker1321: Umm, well...  I~think  you're~beautiful too. 
+~            ну   что~ж    я~считаю ты~красивая      тоже 
+
+[LINE]
+Speaker416: Uh,  no…  I'm~not~drawing you. 
+~           э-э  нет  я~рисую~не      тебя 
+
+[LINE]
+Speaker1321: Oh…
+~            ой 
+
+[LINE]
+Speaker416: I'm~drawing your~dog!   He's beautiful! Look!    
+~           я~рисую     твоего~пса  он   красивый   посмотри 
+
+[MULTIPLE_CHOICE]
+> Лукас думал, что…
+- …у Лили есть суперспособности.
++ …Лили рисовала его.
+- ...его собака убежала.
+
+[MATCH]
+> Коснитесь пар
+- I think <> я считаю
+- your dog <> твоего пса
+- come <> приходишь
+- Lucas <> Лукас
+- A lot of things <> много разных вещей
+
