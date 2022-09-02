@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Одежда для отпуска
+icon=eda1b8214a6937df66a552eb581f2353da4d0352
+set=4|1
+
+[HEADER]
+> Vacation~Clothes  
+~ одежда~для~отпуска
+
+[LINE]
+> Lucy is~in~a~store.
+~ Люси в~магазине    
+
+[LINE]
+Speaker509: Hi,     can~you   help   me? 
+~           привет  вы~можете помочь мне 
+
+[LINE]
+Speaker509: I~need    new   clothes for my    vacation!
+~           мне~нужна новая одежда  для моего отпуска  
+
+[MULTIPLE_CHOICE]
+> Люси пришла купить одежду для отпуска.
+- Нет, это неправда.
++ Да, это правда.
+
+[LINE]
+Speaker416: OK.    
+~           хорошо 
+
+[LINE]
+Speaker509: I~need    a~dress.
+~           мне~нужно платье  
+
+[LINE]
+> Lily gives Lucy a~green dress. 
+~ Лили даёт  Люси зелёное платье 
+
+[LINE]
+Speaker509: No!  I~need    a~short,  red     dress. 
+~           нет  мне~нужно короткое  красное платье 
+
+[MULTIPLE_CHOICE]
+> Что Люси хочет купить?
+- Длинную зелёную юбку.
++ Короткое красное платье.
+- Новый коричневый автомобиль.
+
+[LINE]
+> Lily gives her a~short,  red     dress. 
+~ Лили даёт  ей  короткое  красное платье 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker509: [(And) (I~need)    (boots).]  
+~             и     мне~нужны   ботинки   
+
+[LINE]
+> Lily gives Lucy red     boots.  
+~ Лили даёт  Люси красные ботинки 
+
+[LINE]
+Speaker509: No,  big,     black  boots!  
+~           нет  большие  чёрные ботинки 
+
+[LINE]
+Speaker416: Ugh…
+~           ох  
+
+[LINE]
+Speaker509: OK,     a~short,  red     dress  and big,     black  boots…  
+~           хорошо  короткое  красное платье и   большие  чёрные ботинки 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker509: [And~a~hat]!
+~            и~шляпу    
+- In the hat
++ And a hat
+- And a cat
+
+[LINE]
+> Lily gives Lucy a~hat.
+~ Лили даёт  Люси шляпу 
+
+[LINE]
+Speaker509: No!  A~yellow hat!  
+~           нет  жёлтую   шляпу 
+
+[CONTINUATION]
+> Продолжите фразу
+> Lily gives Lucy [a~yellow hat].  
+~ Лили дает  Люси  жёлтую   шляпу  
+- a~red   hat  
+~ красную шляпу
++ a~yellow hat  
+~ жёлтую   шляпу
+- a~yellow dress 
+~ жёлтое   платье
+
+[LINE]
+Speaker509: Perfect!  Now    I'm ready  for~my~vacation! 
+~           идеально  теперь я   готова к~своему~отпуску 
+
+[LINE]
+Speaker416: Now    I~need~a~vacation.
+~           теперь мне~нужен~отпуск  
+
+[MULTIPLE_CHOICE]
+> Бедная Лили! Почему ей нужен отпуск?
+- У неё теперь много новой одежды.
+- Она переела за обедом.
++ Она устала помогать Люси выбирать одежду.
+
+[MATCH]
+> Коснитесь пар
+- I need <> мне нужна
+- vacation <> отпуска
+- gives <> даёт
+- black <> чёрные
+- a green <> зелёное
+
