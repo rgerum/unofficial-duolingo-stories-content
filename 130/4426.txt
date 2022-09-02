@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=Гороскопы — это чушь
+icon=10523c977de263efd9025298f59cc9e2f702d3f1
+set=23|3
+
+[HEADER]
+> Horoscopes Aren't~Real 
+~ гороскопы  не~настоящие
+
+[LINE]
+> Eddy and Bea are~in~a~coffee~shop.  Bea is~reading the~newspaper.
+~ Эдди и   Би  (находятся)~в~кофейне  Би  читает     газету        
+
+[LINE]
+Speaker507: Hmm, this is~interesting…
+~           хм   это  интересно      
+
+[LINE]
+Speaker414: What?
+~           что  
+
+[LINE]
+Speaker507: I'm reading my   horoscope. It~says        I'll~help~someone      today.  
+~           я   читаю   свой гороскоп   в~нём~написано (что)~я~кому-то~помогу сегодня 
+
+[LINE]
+Speaker414: Horoscopes aren't~real.  A~newspaper can't    tell       you  about your  future. 
+~           гороскопы  не~настоящие  газета      не~может рассказать тебе о     твоём будущем 
+
+[MULTIPLE_CHOICE]
+> Эдди считает, что гороскопы предсказывают будущее.
+- Да, это правда.
++ Нет, это неправда.
+
+[LINE]
+Speaker507: Well, I read  my   horoscope every  day,  and it's~usually~right.
+~           ну    я читаю свой гороскоп  каждый день  и   обычно~он~прав     
+
+[LINE]
+Speaker414: OK…     Can~I  read     my   horoscope?
+~           хорошо  я~могу прочесть свой гороскоп  
+
+[LINE]
+Speaker507: Sure.   
+~           конечно 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «проливает».
+> Bea (gives) the~newspaper (to~Eddy) and (+spills)    his (coffee).
+~ Би   даёт   газету         Эдди     и     проливает  его  кофе    
+
+[LINE]
+Speaker507: Oh, no! 
+~           о   нет 
+
+[LINE]
+Speaker507: Now    there's~coffee~on~your~shirt!
+~           теперь у~тебя~кофе~на~рубашке       
+
+[ARRANGE]
+> Наберите услышанное
+Speaker414: [(And~I~have) (an~important) (meeting) (in~ten~minutes)!]    
+~             и~у~меня     важная         встреча   через~десять~минут   
+
+[LINE]
+Speaker507: Don't worry!      I~have      an~extra sweater in my   bag.  
+~           не    беспокойся  у~меня~есть запасной свитер  в  моей сумке 
+
+[LINE]
+> Bea gives Eddy her sweater.
+~ Би  даёт  Эдди её  свитер  
+
+[MULTIPLE_CHOICE]
+> Стоп… Почему Би даёт Эдди свой свитер?
++ Она пролила кофе ему на рубашку.
+- Свитер подходит ему под цвет глаз.
+- Эдди сегодня знобит.
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker414: I can't~wear~this!    It's your [favorite sweater]!
+~           я не~могу~его~надеть  это  твой  любимый  свитер   
+- coffee~shop     
+~ кофейный~магазин
+- newspaper
+~ газета   
++ favorite sweater
+~ любимый  свитер 
+
+[LINE]
+Speaker507: Hmm… When  were~you~born?
+~           хм   когда ты~родился    
+
+[LINE]
+Speaker414: October~fourth.    
+~           четвёртого~октября 
+
+[LINE]
+Speaker507: Oh, that means  you're a~Libra.
+~           ой  это  значит ты     Весы    
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker414: That [doesn't~mean~anything].
+~           это   ничего~не~значит       
+- doesn't need many things
++ doesn't mean anything
+- doesn't name anything
+
+[LINE]
+Speaker507: Oh,~yeah? Then  listen~to~this.
+~           вот~как   тогда послушай~это   
+
+[LINE]
+Speaker507: Your~horoscope~says:      
+~           в~твоём~гороскопе~сказано 
+
+[LINE]
+Speaker507: "You~will~have a~very good    day  today   if   you let       a~friend help   you."
+~            у~вас~будет   очень  хороший день сегодня если вы  позволите другу    помочь вам  
+
+[LINE]
+Speaker414: OK,     Bea. I'll~wear your sweater.
+~           хорошо  Би   я~надену  твой свитер  
+
+[MULTIPLE_CHOICE]
+> Би считает, что согласно гороскопу Эдди…
++ …нужно надеть её свитер. 
+- …стоит прекратить пить кофе.
+- …ждёт ужасный день.
+
+[MATCH]
+> Коснитесь пар
+- can't <> не может
+- an important <> важная
+- tell <> рассказать
+- in ten minutes <> через десять минут
+- your <> твоём
+
