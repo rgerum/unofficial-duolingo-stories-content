@@ -1,0 +1,92 @@
+[DATA]
+fromLanguageName=이거 사도 돼요?
+icon=ce0ae956035c1bac6b9c64737466d59c5d027e97
+set=3|3
+
+[HEADER]
+> Can~I~Have~It?
+~ 이거~사도~돼요      
+
+[LINE]
+> Junior~and~Eddy~are at~the~mall.
+~ 주니어와~에디가            쇼핑몰에~있다     
+
+[LINE]
+Speaker415: Dad! I  need a~new~video~game!
+~           아빠   저는 필요해요 새~비디오~게임이        
+
+[LINE]
+Speaker414: You don't~need a~new~video~game.
+~           너는  필요하지~않아    새~비디오~게임이        
+
+[MULTIPLE_CHOICE]
+> 주니어의 아빠는 새 비디오 게임을 사고 싶어 한다.
++ 아니요, 그렇지 않아요.
+- 네, 맞아요.
+
+[LINE]
+Speaker415: Please? There's~a~flying~robot in~this~game!
+~           제발요     날아다니는~로봇이~있어요          이~게임에는       
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker414: Junior. You want   this game, but [you~don't~need~it].
+~           주니어     넌   원하는~거지 이    게임을   하지만  필요한~게~아니야          
+- you won't read it
++ you don't need it
+- we don't eat it
+
+[LINE]
+Speaker415: OK!   I  want this game. Now can~I~have~it?
+~           알겠어요  저는 원해요  이    게임을   이제  사도~돼요         
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker414: No, you have    video games [at~home]!
+~           아니  넌   가지고~있잖아 비디오   게임들을   집에       
+- in~the~shower
+~ 샤워실에         
+- in~the~refrigerator
+~ 냉장고에               
++ at~home
+~ 집에     
+
+[LINE]
+Speaker415: You're right.
+~           아빠~말이  맞아요   
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker415: [(So)  (can~we~go) (home)?]
+~             그러면   가도~돼요       집에     
+
+[LINE]
+Speaker414: No, we~are going to~Vikram's~house.
+~           아니  우리는    갈~거야  비크람의~집에           
+
+[LINE]
+Speaker415: Ugh! His~house~is boring!
+~           어후   그~아저씨~집은     지루해요   
+
+[LINE]
+Speaker414: But his TV~is big, and I need~to~watch the~football~game.
+~           하지만 그의  티비는   커    그리고 난 볼~필요가~있단다     미식축구~경기를          
+
+[LINE]
+Speaker415: You   don't~need~to~watch the~game, Dad. You~want~to~watch~it.
+~           (아빠는) 볼~필요가~있는~게~아니잖아요    경기를       아빠   보기를~원하는~거죠           
+
+[MULTIPLE_CHOICE]
+> 웃기죠! 에디와 주니어는 둘 다...
++ ...단지 원하는 것을 필요한 것이라고 얘기했다.
+- ...로봇을 타고 날아다녔다.
+- ...비크람과 비디오 게임을 했다.
+
+[MATCH]
+> 짝을 누르세요
+- game <> 게임을
+- Ugh <> 어후
+- have <> 가지고 있잖아
+- No <> 아니
+- Junior and Eddy are <> 주니어와 에디가
+
