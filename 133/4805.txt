@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=차 문제
+icon=e161ff53b5f470063ac66df2698eddb71232c290
+set=16|2
+
+[HEADER]
+> Car Problem
+~ 차   문제     
+
+[LINE]
+> Eddy~is standing on~the~street.
+~ 에디가     서~있다     길거리에          
+
+[LINE]
+> He closes the~trunk~of~a~car.
+~ 그가 닫는다    차의~트렁크를            
+
+[LINE]
+> Vikram walks~past Eddy.
+~ 비크람이   옆을~지나간다    에디의  
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker593: Are~you~OK, Eddy? [You~look~worried].
+~           너~괜찮아       에디     (넌)~걱정스러워~보이는데    
+- Who cooked curry
+- You look for it
++ You look worried
+
+[LINE]
+Speaker414: Well, I  borrowed this car and it~won't~start. 
+~           음     나는 빌렸어      이    차를  그런데 (이게)~시동이~걸리지~않아 
+
+[MULTIPLE_CHOICE]
+> 에디가 걱정하고 있는 이유는 무엇인가요?
++ 그가 빌린 차가 시동이 걸리지 않기 때문에.
+- 그가 차 트렁크 안에 있기 때문에.
+- 자신이 지금 어디에 있는지 모르기 때문에.
+
+[LINE]
+Speaker593: Hmm. Can~I~help~you?
+~           음    내가~(널)~도와줄까    
+
+[LINE]
+Speaker414: No. It's~OK, Vikram.
+~           아니  괜찮아      비크람    
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker593: But I  know [what's~wrong] with~the~car.
+~           하지만 나는 알아    뭐가~문제인지       그~차에         
++ what's wrong
+- that's wrong
+- what's along
+
+[LINE]
+Speaker414: Vikram, I  know a~lot about~cars.
+~           비크람     나는 알아   많은~걸  차에~대해      
+
+[LINE]
+Speaker593: OK, well, you already started~the~car…
+~           그래  그럼    넌   이미      차~시동을~걸었고       
+
+[LINE]
+Speaker414: No, I didn't.   I~can't~hear the~engine.
+~           아니  난 시동~안~걸었어  (난)~안~들리잖아   엔진~소리가     
+
+[LINE]
+Speaker593: Eddy, this~is an~electric~car. It's quiet,~and it~doesn't~use gas. 
+~           에디    이건      전기차야             이건   조용하고       (이건)~쓰지~않아     휘발유를 
+
+[MULTIPLE_CHOICE]
+> 이 차는 전기차라서...
+- ...연료 소모가 많다.
++ ...휘발유가 필요 없다.
+- ...디자인이 별로다.
+
+[LINE]
+Speaker414: But I  put gas  in~the~car ten minutes ago.
+~           하지만 내가 넣었어 휘발유를 차~안에       십   분       전에  
+
+[LINE]
+Speaker593: What?! Where?
+~           뭐라고    어디에   
+
+[LINE]
+Speaker414: Right here.
+~           바로    여기에  
+
+[LINE]
+Speaker593: Oh~no, Eddy... That's the~trunk!
+~           아~이런   에디      그건     트렁크야      
+
+[MULTIPLE_CHOICE]
+> 에디는 어디에 휘발유를 넣었나요?  
+~ 에디는 어디에 휘발유를 이게~가능해 
+- 비크람의 차에
+~ 비크람의 차에
+- 자신의 오토바이에
+~ 자신의 노에   
++ 차 트렁크에
+~ 차 ~에  
+
+[MATCH]
+> 짝을 누르세요
+- it won't start <> 시동이 걸리지 않아
+- ten <> 십
+- Right <> 바로
+- No <> 아니
+- the trunk of a car <> 차의 트렁크를
+
