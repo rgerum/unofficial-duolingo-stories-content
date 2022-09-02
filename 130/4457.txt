@@ -1,0 +1,140 @@
+[DATA]
+fromLanguageName=Новое хобби
+icon=62007089a594753623424845fe8d5efd80654385
+set=31|2
+
+[HEADER]
+> New   Hobby
+~ новое хобби
+
+[LINE]
+> Lily's~mother enters      Lily's~bedroom.
+~ мама~Лили     заходит~(в) спальню~Лили   
+
+[LINE]
+Speaker559: Lily? You  should get~up.
+~           Лили  тебе стоит  встать 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker416: [(You)  (should) (leave)     (my)   (room).]   
+~             тебе   стоит    уйти~(из)   моей   комнаты   
+
+[LINE]
+Speaker559: You've~been~in~bed     all  day.  It's~summer!
+~           ты~пролежала~в~кровати весь день  сейчас~лето 
+
+[LINE]
+Speaker416: I want to~stay~in~bed   and think  about darkness. The~world is~terrible.
+~           я хочу лежать~в~кровати и   думать о     темноте   мир       ужасен      
+
+[MULTIPLE_CHOICE]
+> Почему Лили не хочет вылезать из кровати?
++ Она хочет думать о мрачных и ужасных вещах.
+- У неё высокая температура.
+- Она не могла уснуть прошлой ночью.
+
+[LINE]
+Speaker559: Teenagers are~so dramatic!   
+~           подростки такие  драматичные 
+
+[LINE]
+Speaker559: When  I was~your~age,          I went~out with~my~friends,    swam    every  day,  and learned new   languages!
+~           когда я была~в~твоем~возрасте  я гуляла   со~своими~друзьями  плавала каждый день  и   учила   новые языки     
+
+[LINE]
+Speaker416: Learning new   languages? That~sounds very  boring.
+~           изучение новых языков     звучит      очень скучно 
+
+[LINE]
+Speaker559: You  should get~a~hobby. Hobbies are~fun!   
+~           тебе стоит  найти~хобби  хобби   это~весело 
+
+[LINE]
+Speaker416: Lying~in~bed     is~my hobby.
+~           лежать~в~кровати мое   хобби 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker559: You could  join         [a~book~club]. 
+~           ты  можешь вступить~(в)  книжный~клуб  
+- a big club
++ a book club
+- a book bag
+
+[LINE]
+Speaker416: I read  alone. Like a~normal   person. 
+~           я читаю одна   как  нормальный человек 
+
+[LINE]
+Speaker559: Photography?
+~           фотография  
+
+[LINE]
+Speaker416: Ugh. No  thanks. 
+~           фу   нет спасибо 
+
+[LINE]
+Speaker559: Oh! You~like      music,  don't~you?
+~           о   тебе~нравится музыка  не~так~ли 
+
+[LINE]
+Speaker416: Yeah…
+~           да   
+
+[LINE]
+Speaker559: You could~play         an~instrument.            
+~           ты  можешь~играть~(на) (музыкальном)~инструменте 
+
+[ARRANGE]
+> Наберите услышанное
+> [(Your~dad)      (has)  (some~old~drums).] 
+~   у~твоего~папы   есть   старые~барабаны   
+
+[LINE]
+Speaker416: Hmm. Drums    are~cool… 
+~           хм   барабаны это~круто 
+
+[MULTIPLE_CHOICE]
+> Лили задумалась об игре на барабанах.
+- Нет, это неправда.
++ Да, это правда.
+
+[LINE]
+> Four   hours later,  Lily is~playing  the~drums. It's~loud.
+~ четыре часа  спустя  Лили играет~(на) барабанах  громко    
+
+[LINE]
+> Very  loud.  
+~ очень громко 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker559: Lily, can~you   stop      [playing~the~drums]   now?   
+~           Лили  ты~можешь перестать  играть~на~барабанах  сейчас 
++ playing the drums
+- play in the rooms
+- laying the drums
+
+[LINE]
+Speaker416: But it's my  new   hobby. And I~need    to~practice   at~least        three hours~a~day.
+~           но  это  мое новое хобби  и   мне~нужно тренироваться по~крайней~мере три   часа~в~день 
+
+[LINE]
+Speaker559: Your new   hobby is~giving~me    a~headache.    Now    I~need    to~lie~down.
+~           твое новое хобби вызывает~у~меня головную~боль  теперь мне~нужно прилечь     
+
+[MULTIPLE_CHOICE]
+> Лили нашла новое хобби и...
++ …у её мамы от него разболелась голова.
+- …вступила в читательский клуб.
+- ...её мама этому очень рада.
+
+[MATCH]
+> Коснитесь пар
+- darkness <> темноте
+- swam <> плавала
+- Hobbies <> хобби
+- get up <> встать
+- with my friends <> со своими друзьями
+
