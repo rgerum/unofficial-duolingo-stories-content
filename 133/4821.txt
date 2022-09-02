@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=로마 여행
+icon=7a9d96c0ef5e239395ce01891267355130ad35aa
+set=20|2
+
+[HEADER]
+> Going to~Rome
+~ 가기    로마에    
+
+[LINE]
+> Zari runs to~Lily in~the~hall at~school.
+~ 자리가  뛰어간다 릴리한테    복도에서        학교의       
+
+[LINE]
+Speaker418: Lily, I~have~a~problem.
+~           릴리    큰일이야             
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker416: Zari, for~the~last~time, it's~OK if~you~don't~get [a~perfect~grade]!
+~           자리    마지막으로~말하지만         괜찮아     네가~받지~못해도         완벽한~성적을          
++ a perfect grade
+- a perfect read
+- a person's grade
+
+[LINE]
+Speaker418: No,    I think Enzo~is in~love with~me.
+~           그게~아냐  내 생각엔   엔조가     사랑하나봐   나를      
+
+[LINE]
+Speaker416: Enzo? The student visiting~from~Italy?
+~           엔조    그   학생말이야   이탈리아에서~방문~온         
+
+[LINE]
+Speaker418: Yes, I think he's going~to~ask me  to~visit~him in~Rome.
+~           응    내 생각엔   그가   물어볼~것~같아     나한테 그를~방문해~달라고   로마에     
+
+[MULTIPLE_CHOICE]
+> 자리의 문제는 무엇인가요?
++ 엔조가 그녀의 로마 방문을 꼭 바라는 것 같다.
+- 이탈리아어 수업에서 안 좋은 성적을 받을 것 같다.
+- 그녀의 가족이 로마로 이사가게 됐다.
+
+[LINE]
+Speaker416: Really?
+~           정말     
+
+[LINE]
+Speaker418: Then  we'll~get~married!
+~           그~다음에 우린~결혼할~거야         
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker418: We'll~have~an~apartment with  [a~great~view] of~the~Colosseum.
+~           우린~아파트에서~살~거야           ~이~있는  멋진~전망         콜로세움의            
+- a great new
+- a gray view
++ a great view
+
+[LINE]
+Speaker418: And we'll~have a~scooter~and a~cat     named~Fellini!
+~           그리고 우린~갖게~될거야  스쿠터와          고양이~한~마리를 펠리니라는~이름을~가진  
+
+[LINE]
+Speaker416: Wow, that's~a… detailed~plan.
+~           우와   그건        아주~자세한~계획이네   
+
+[MULTIPLE_CHOICE]
+> 음… 릴리는 자리의 말을 못 믿는 눈치예요. 왜일까요?
++ 자리가 혼자 너무 서두르는 것 같아서.
+- 자리가 고양이 이름을 릴리라고 지을 것 같아서.
+- 엔조가 실존하는 사람이 아니라고 생각해서.
+
+[LINE]
+Speaker418: But now I need~to~tell my parents…
+~           하지만 이제  난 얘기해야~해       우리 부모님께    
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker416: Zari… why do~you~think that [he wants you to~go to~Rome]?
+~           자리    왜   (넌)~생각하는~거야  ~라고   그는 원한다   네가  가길    로마에      
+- he's sleeping in~the~library
+~ 그가   자고~있다    도서관에서         
+- you're going  to~the~gym
+~ 네가     가는~중이다 헬스장에      
++ he wants you to~go to~Rome
+~ 그는 원한다   네가  가기를   로마에    
+
+[LINE]
+Speaker418: He said very romantic things to~me.
+~           그가 얘기했어 아주   낭만적인     것들을    나한테   
+
+[LINE]
+Speaker416: Really?
+~           정말     
+
+[LINE]
+Speaker418: Yes, he asked me  if~I~like  Rome.
+~           응    그가 물어봤어  나한테 (내가)~좋아하는지 로마를  
+
+[LINE]
+Speaker418: He also asked if~I~like cats.
+~           그가 또한   물어봤어  내가~좋아하는지  고양이를 
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker418: [(He) (even~asked) (about) (my~family)!]
+~             그는   심지어~물어봤어     ~에~대해   내~가족        
+
+[LINE]
+Speaker416: Zari… I think he's asking  those questions to~everyone in~our~class.
+~           자리    내 생각엔   그가   물어보고~있어 그     질문들을      모든~애들에게     우리~반에~있는     
+
+[LINE]
+Speaker418: What?!
+~           뭐라고   
+
+[LINE]
+Speaker416: Those questions~are from~his~textbook.
+~           그     질문들은          그의~교과서에~있는~거야     
+
+[LINE]
+Speaker416: He's just practicing his English.
+~           그는   단지   연습하는~거야    그의  영어를     
+
+[MULTIPLE_CHOICE]
+> 자리는 엔조가 자신을 사랑한다고 생각했지만, 사실…
+- …그는 실제로 릴리를 사랑한다.
+- …그가 원하는 건 스쿠터와 펠리니라 불리는 고양이 뿐이었다.
++ …그는 영어책에서 배운 질문들을 자리에게 한 것 뿐이었다.
+
+[MATCH]
+> 짝을 누르세요
+- questions <> 질문들을
+- very <> 아주
+- Rome <> 로마를
+- about <> ~에 대해
+- that's a <> 그건
+
