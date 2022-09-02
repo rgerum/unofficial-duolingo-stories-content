@@ -1,0 +1,150 @@
+[DATA]
+fromLanguageName=매니저의 사무실
+icon=5e30e8550b553e3eab1690b49a538c688e556e50
+set=22|3
+
+[HEADER]
+> The~Manager's Office
+~ 매니저의          사무실   
+
+[LINE]
+> Bea~was asked~to~go to~the~manager's~office.
+~ 비는      불려갔다        매니저의~사무실로               
+
+[LINE]
+Speaker2144: Sit~down. I'd~like~to~talk to~you about~something.
+~            앉으세요      저는~얘기하고~싶습니다     당신과    뭔가에~대해          
+
+[LINE]
+Speaker507: Did~you~get that report I  put~on~your~desk?
+~           받으셨어요       그    보고서를   제가 (당신의)~책상에~놓아~둔   
+
+[LINE]
+Speaker2144: Yes. I~got      all~three reports. There~were~a~lot~of~details.
+~            네    (저는)~받았습니다 세~부~모두    보고서들을    내용이~아주~자세하더군요               
+
+[MULTIPLE_CHOICE]
+> 비가 매니저에게 준 것은...
++ …아주 꼼꼼히 작성한 보고서 세 부이다.
+- …새 책상이다.
+- …그의 사무실에 놓을 새 의자 세 개이다.
+
+[LINE]
+Speaker507: And did~you~like my presentation at~the~meeting~today?
+~           그리고 맘에~드셨어요      제  발표           오늘~회의에서~한            
+
+[LINE]
+Speaker2144: It~was very interesting.
+~            그것은    아주   흥미로웠어요      
+
+[LINE]
+Speaker507: Did~you~try the cake I  brought for~Brenda's~birthday?
+~           드셔~보셨어요     그   케이크  제가 가져온     브렌다의~생일을~위해           
+
+[LINE]
+Speaker2144: Yes! It~was delicious.
+~            네    그것은    맛있었어요     
+
+[MULTIPLE_CHOICE]
+> 비의 매니저는 그녀가 가져온 케이크를 맛있게 먹었다.
+~ 비의 매니저는 그녀가 아주  처음을  정상  새로운 
++ 네, 맞아요.
+~ 네  이야  
+- 아니요, 그렇지 않아요.
+~ 아니요  빙   노   
+
+[LINE]
+Speaker507: Also, I'm~sorry I~was~late yesterday.
+~           또한    죄송합니다     (제가)~늦어서   어제        
+
+[LINE]
+Speaker2144: You~were late?
+~            당신이      늦었어요 
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker507: I~will~never~be~late again! I'll~be~here~early [every~morning]!
+~           (저는)~절대~늦지~않겠습니다     다시는    (저는)~일찍~오겠습니다       매일~아침          
+- never
+~ 절대   
++ every~morning
+~ 매일~아침        
+- at~night
+~ 밤에      
+
+[LINE]
+Speaker2144: Please don't~do~that.
+~            제발     그러지~마세요       
+
+[LINE]
+Speaker507: I'll~also~stay~at~work~late. Every~day!
+~           (저는)~야근도~할게요                 매일요       
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker2144: Again,      please [don't~do~that].
+~            다시~말씀~드리지만  제발      그러지~마세요        
++ don't do that
+- don't you bat
+- won't do that
+
+[LINE]
+Speaker507: Why?
+~           왜요  
+
+[LINE]
+Speaker2144: Because you don't~work here.
+~            왜냐하면    당신은 일하지~않잖아요   여기서  
+
+[MULTIPLE_CHOICE]
+> 아하! 우리가 알게 된 사실은 무엇인가요?
+- 매니저는 비의 케이크가 맛없다고 생각했다.
++ 비는 그 회사의 직원이 아니다.
+- 비가 새로운 매니저이다.
+
+[LINE]
+Speaker507: Oh… is~that a~problem?
+~           아   그게      문제인가요     
+
+[LINE]
+Speaker2144: Yes. Who~are~you?
+~            네    당신은~누구세요    
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker507: I'm Bea,  and I'm [a~very~hard~worker].
+~           저는  비입니다  그리고 저는   일을~정말~열심히~합니다       
++ a very hard worker
+- a very hard walker
+- a dairy farm worker
+
+[LINE]
+Speaker2144: Nice~to~meet~you, Bea.
+~            만나서~반가워요          비~씨 
+
+[LINE]
+Speaker507: Can~I~give~you    my resume?
+~           제가~(당신에게)~드려도~될까요 제  이력서를   
+
+[LINE]
+Speaker2144: If  I  look at~your~resume, will~you~leave?
+~            만약에 제가 살펴보면 당신의~이력서를        (당신이)~떠나주시겠어요  
+
+[LINE]
+Speaker507: OK!   
+~           알겠습니다 
+
+[MULTIPLE_CHOICE]
+> 비가 매니저에게 이력서를 주고 싶어하는 이유는 무엇인가요?
+- 일찍 퇴근하고 싶어서.
+- 승진하고 싶어서.
++ 그 회사에서 일하고 싶어서.
+
+[MATCH]
+> 짝을 누르세요
+- a very hard worker <> 일을 정말 열심히 합니다
+- here <> 여기서
+- put on your desk <> 책상에 놓아 둔
+- I'll be here early <> 일찍 오겠습니다
+- I'm sorry <> 죄송합니다
+
