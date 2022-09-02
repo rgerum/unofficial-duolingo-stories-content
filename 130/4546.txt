@@ -1,0 +1,207 @@
+[DATA]
+fromLanguageName=Вдыхайте, выдыхайте
+icon=4f73cbdcb805af9af869a20300f8a0563fefd730
+set=53|3
+
+[HEADER]
+> Inhale,   Exhale   
+~ вдыхайте  выдыхайте
+
+[LINE]
+> Oscar is~lying on the~sofa at his~therapist's~office.         The~therapist is~taking~notes.
+~ Оскар лежит    на диване   в  кабинете~своего~психотерапевта  психотерапевт делает~заметки  
+
+[LINE]
+Speaker988: So,  how~are~you~feeling    today?  
+~           так  как~вы~себя~чувствуете сегодня 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker592: [I~am~feeling~stressed]!
+~            я~испытываю~стресс     
+- I am feeling it's best
+- I am really dressed
++ I am feeling stressed
+
+[LINE]
+> The~therapist nods   her   head.   
+~ психотерапевт кивает своей головой 
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker988: And what is~making~you  [feel~stressed]?    
+~           и   что  заставляет~вас  испытывать~стресс  
++ feel~stressed    
+~ испытывать~стресс
+- buy    the~sofa
+~ купить диван   
+- get~a~haircut  
+~ постричь~волосы
+
+[LINE]
+Speaker592: Everything! Don't~you   watch    the~news?!
+~           всё         разве~вы~не смотрите новости   
+
+[LINE]
+Speaker988: OK.     Try         to~stay~calm.          Inhale   slowly   and then  exhale.   
+~           хорошо  попытайтесь сохранять~спокойствие  вдыхайте медленно и   затем выдыхайте 
+
+[MULTIPLE_CHOICE]
+> Oscar's~therapist    is~asking~him~to…
+~ психотерапевт~Оскара просит~его       
++ …slowly   breathe~in~and~out.
+~  медленно вдыхать~и~выдыхать 
+- …walk~in~and~out    of~the~room.
+~  входить~и~выходить из~комнаты  
+- …speak         more~slowly.
+~  разговаривать помедленнее 
+
+[LINE]
+> Oscar inhales and then  exhales.  He shakes his   head.   
+~ Оскар вдыхает и   затем выдыхает  он трясёт своей головой 
+
+[LINE]
+Speaker592: No.  This isn't helping!  I~don't~like    hearing~myself breathe.
+~           нет  это  не    помогает  мне~не~нравится слышать,~как~я дышу    
+
+[LINE]
+Speaker988: I~see.   Then,  what~is~something~that helps    you feel~calm?                  
+~           понятно  тогда  есть~ли~что-то,~что    помогает вам чувствовать~(себя)~спокойно 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker592: [(I) (don't~ever) (feel~calm).]               
+~             я   никогда~не   чувствую~(себя)~спокойно   
+
+[LINE]
+> The~therapist smiles    patiently.
+~ психотерапевт улыбается терпеливо 
+
+[LINE]
+Speaker988: You could    try         to~meditate. 
+~           вы  могли~бы попробовать медитировать 
+
+[LINE]
+Speaker592: No.  I~don't~have time    to~sit and do~nothing!      
+~           нет  у~меня~нет   времени сидеть и   ничего~не~делать 
+
+[LINE]
+Speaker988: Maybe you~need  something more  active.   Have~you~tried yoga?
+~           может вам~нужно нечто     более активное  вы~пробовали   йогу 
+
+[LINE]
+Speaker592: Yes. But I hate     the~music        yoga~teachers       play.     And anyway,         I can't   touch           my   toes!       
+~           да   но  я ненавижу музыку~(которую) инструкторы~по~йоге включают  и   в~любом~случае  я не~могу дотянуться~(до) моих пальцев~ног 
+
+[MULTIPLE_CHOICE]
+> Oh Oscar! What~problem~does~he~have?
+~ о  Оскар  какая~у~него~проблема     
+- He~has too     much  time    and feels~bored. 
+~ у~него слишком много времени и   (ему)~скучно 
+- He wants to~listen~to music  from his    yoga~class.     
+~ он хочет слушать      музыку со   своего занятия~по~йоге 
++ He can't    find  anything~to~help     him feel~less~stressed.       
+~ он не~может найти ничего~(что)~поможет ему испытывать~меньше~стресса 
+
+[LINE]
+> The~therapist takes~a~deep~breath.
+~ психотерапевт глубоко~вдыхает     
+
+[LINE]
+Speaker988: You could    take    a~long,          hot     bath  to~relax…            
+~           вы  могли~бы принять продолжительную  горячую ванну (чтобы)~расслабиться 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker592: By~the~time            I relax,        [the~water~is~always~cold]!
+~           к~тому~времени~(когда) я расслабляюсь   вода~всегда~остывает      
+- the water was already old
++ the water is always cold
+- the weather is always cold
+
+[LINE]
+Speaker988: OK.     Try        to~stay~calm.          Inhale,   exhale.   
+~           хорошо  попробуйте сохранять~спокойствие  вдыхайте  выдыхайте 
+
+[LINE]
+> Oscar's~therapist tries          one~more suggestion.  
+~ психотерапевт     пробует~(дать) ещё~одну рекомендацию 
+
+[LINE]
+Speaker988: You could    go    to the~beach.
+~           вы  могли~бы пойти на пляж      
+
+[ARRANGE]
+> Наберите услышанное
+Speaker988: [(Everyone) (likes)    (a~little~bit) (of~sun).]
+~             всем       нравится   немного        солнца   
+
+[LINE]
+Speaker592: Not~me! The~last~time           I went  to the~beach, I got     a~sunburn      and all~of~my students called   me   "Mr.~Tomato!"    
+~           не~мне  (в)~прошлый~раз~(когда) я ходил на пляж       я получил солнечный~ожог и   все~мои   ученики  называли меня  синьор~помидор  
+
+[LINE]
+Speaker592: I hate             being~called  Mr.~Tomato!    
+~           я ненавижу~(когда) меня~называют синьор~помидор 
+
+[MULTIPLE_CHOICE]
+> Why~did Oscar's~students call     him "Mr.~Tomato"?    
+~ почему  ученики~Оскара   называют его  синьор~помидор  
+- He loves to~eat tomatoes every  day. 
+~ он любит есть   помидоры каждый день 
++ His sunburn        made   his skin red     like a~tomato.
+~ его солнечный~ожог сделал его кожу красной как  помидор  
+- He~was~throwing tomatoes at the~beach.
+~ он~бросал       помидоры на пляже     
+
+[LINE]
+Speaker988: Oscar! You're shouting again!
+~           Оскар  вы     кричите  опять 
+
+[LINE]
+> She puts~her~notebook~down.  
+~ она откладывает~свой~блокнот 
+
+[LINE]
+Speaker988: I~think     I know something that will~help you feel               more  relaxed.      
+~           мне~кажется я знаю кое-что   что  поможет   вам чувствовать~(себя) более расслабленным 
+
+[LINE]
+> Oscar and his therapist     walk~outside.     They count~to   three, and then  they both scream~loudly.
+~ Оскар и   его психотерапевт выходят~на~улицу  они  считают~до трёх   и   затем они  оба  громко~кричат 
+
+[LINE]
+Speaker988: Ah!   
+~           а-а-а 
+
+[LINE]
+Speaker592: Ah!   
+~           а-а-а 
+
+[LINE]
+Speaker592: You're~right! I~do~feel                more  relaxed       now.   
+~           вы~правы      я~правда~чувствую~(себя) более расслабленным теперь 
+
+[LINE]
+Speaker988: I~do,~too.
+~           я~тоже    
+
+[MULTIPLE_CHOICE]
+> Why~did screaming~loudly help  Oscar's~therapist     feel                 better?
+~ почему  громкий~крик     помог психотерапевту~Оскара почувствовать~(себя) лучше  
+- She~already~had a~sore~throat.
+~ у~неё~уже~была  боль~в~горле  
++ Oscar was~making~her feel~stressed.    
+~ Оскар заставлял~её   испытывать~стресс 
+- She~had   a~sunburn      and looked          like a~tomato.
+~ у~неё~был солнечный~ожог и   (она)~выглядела как  помидор  
+
+[MATCH]
+> Коснитесь пар
+- OK <> хорошо
+- to sit <> сидеть
+- Ah <> а-а-а
+- count to <> считают до
+- You're <> вы
+
