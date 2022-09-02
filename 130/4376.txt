@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Дневник
+icon=11054d83adbe171cda3e5669c57e1e26d6cbd8db
+set=11|1
+
+[HEADER]
+> The~Diary
+~ дневник  
+
+[LINE]
+> Zari and Lily are~at~school.
+~ Зари и   Лили в~школе       
+
+[LINE]
+Speaker418: Lily, I'm so  scared!   I can't   find  my~diary!    
+~           Лили  я   так напугана  я не~могу найти свой~дневник 
+
+[LINE]
+Speaker416: OK?   
+~           ладно 
+
+[LINE]
+Speaker418: I write about Miguel in my~diary!      
+~           я пишу  про   Мигеля в  своем~дневнике 
+
+[LINE]
+Speaker416: Miguel? The~boy in our   class? 
+~           Мигель  мальчик в  нашем классе 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker418: Yes! [We~need~to~find~it]!
+~           да    нам~надо~его~найти  
++ We need to find it
+- He needs to find it
+- We need a fine hat
+
+[LINE]
+Speaker416: Fine. 
+~           ладно 
+
+[LINE]
+> They look~for the~diary in~the~hall.
+~ они  ищут     дневник   в~коридоре  
+
+[LINE]
+Speaker416: Sorry,  it~isn't~here.
+~           прости  его~здесь~нет 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker418: [(This~is) (a~bad)  (day)!] 
+~             это       плохой   день   
+
+[LINE]
+> They see   Miguel. He~has a~pink  diary.  
+~ они  видят Мигеля  у~него розовый дневник 
+
+[LINE]
+Speaker418: Oh no!  It's~Miguel! This~is a~very bad    day. 
+~           о  нет  это~Мигель   это     очень  плохой день 
+
+[MULTIPLE_CHOICE]
+> Почему Зари говорит, что сегодня очень плохой день?
+- Лили начала встречаться с Мигелем.
++ Она думает, что Мигель прочёл её дневник.
+- Мигель переходит в другую школу.
+
+[LINE]
+Speaker790: Hi     Zari. Is~this~your~diary?
+~           привет Зари  этой~твой~дневник  
+
+[LINE]
+Speaker418: Uh… No! 
+~           э   нет 
+
+[LINE]
+Speaker416: But your~name~is~on~it.
+~           но  на~нём~твоё~имя    
+
+[LINE]
+Speaker418: OK.   That~is~my~diary. But…
+~           окей  это~мой~дневник   но  
+
+[POINT_TO_PHRASE]
+> Выберите вариант «почерк».
+Speaker790: (Don't~worry)…  I (can't)   (read)     your (+handwriting).
+~            не~переживай   я  не~могу   прочесть  твой   почерк       
+
+[LINE]
+Speaker418: Oh… good.  
+~           о   хорошо 
+
+[LINE]
+Speaker790: So,      do~you~want to~see~a~movie with me   on~Friday?
+~           так~что  ты~хочешь   пойти~в~кино   со   мной в~пятницу 
+
+[LINE]
+Speaker418: Wow,   yes!
+~           ух~ты  да  
+
+[LINE]
+> Miguel smiles~at Zari. He leaves.
+~ Мигель улыбается Зари  он уходит 
+
+[LINE]
+Speaker418: Lily, this~is a~great  day! 
+~           Лили  это     отличный день 
+
+[MULTIPLE_CHOICE]
+> Почему Зари теперь говорит, что сегодня отличный день?
+- Она получила хорошую оценку за домашнее задание.
+- Мигель прочёл её дневник.
++ Мигель пригласил её в кино.
+
+[MATCH]
+> Коснитесь пар
+- Miguel <> Мигеля
+- the diary <> дневник
+- a great <> отличный
+- It's Miguel <> это Мигель
+- That is my diary <> это мой дневник
+
