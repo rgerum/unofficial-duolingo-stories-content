@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=Баскетболист
+icon=93b7dddcb57fc76fde878bfb42e8c4f35d68fb5d
+set=5|1
+
+[HEADER]
+> The~Basketball~Player
+~ баскетболист         
+
+[LINE]
+> Vikram and Priti are~shopping.  
+~ Викрам и   Прити делают~покупки 
+
+[LINE]
+Speaker560: What~do~we~need from~the~supermarket?
+~           что~нам~нужно   из~супермаркета      
+
+[LINE]
+Speaker593: Well we~have    eggs, milk,   and beans…  We~need|--  
+~           ну   у~нас~есть яйца  молоко  и   фасоль  нам~нужно --
+
+[LINE]
+Speaker560: Vikram! Look   who~it~is!
+~           Викрам  смотри кто~это   
+
+[LINE]
+Speaker593: Who~is~it?
+~           кто       
+
+[LINE]
+Speaker560: Your favorite basketball~player!
+~           твой любимый  баскетболист      
+
+[MULTIPLE_CHOICE]
+> Кого увидела Прити?
+- своего любимого бейсболиста
+- людей, играющих в баскетбол
++ любимого баскетболиста Викрама
+
+[LINE]
+Speaker593: No,~it's~not!    
+~           нет,~(это~не~он) 
+
+[LINE]
+Speaker560: Yes,~it~is!   Talk     to him!
+~           да,~(это~он)  поговори с  ним 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «взволнованный».
+Speaker593: (I'm) (too)     (+nervous)!      
+~            я     слишком    взволнованный  
+
+[LINE]
+Speaker560: But Vikram! Look!  
+~           но  Викрам  смотри 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker560: [(You~have) (the~same)   (shoes)!]
+~             у~вас      одинаковые   туфли   
+
+[LINE]
+> Priti points~at     the~basketball~player's~shoes.
+~ Прити показывает~на туфли~баскетболиста           
+
+[LINE]
+Speaker593: Oh no,  he sees  us! 
+~           о  нет  он видит нас 
+
+[MULTIPLE_CHOICE]
+> Почему Викрам нервничает?
++ Баскетболист смотрит на них.
+- Он не видит своей обуви.
+- Баскетболист не видит его.
+
+[LINE]
+Speaker560: Yes! And now    he's coming here!
+~           да   и   теперь он   идёт   сюда 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker593: I don't know [what~to~do]!
+~           я не    знаю  что~делать  
++ what to do
+- a lot to do
+- what a dude
+
+[LINE]
+Speaker560: You can    tell    him, "hello!" 
+~           ты  можешь сказать ему   привет  
+
+[LINE]
+Speaker593: I~need    to~go!
+~           мне~нужно идти  
+
+[LINE]
+> Vikram drops  the~eggs.
+~ Викрам кидает яйца     
+
+[LINE]
+Speaker113: Hey, you!
+~           эй   ты  
+
+[LINE]
+Speaker593: Me?
+~           я  
+
+[LINE]
+Speaker113: I~really~like      your shoes.
+~           мне~очень~нравятся твои туфли 
+
+[MULTIPLE_CHOICE]
+> Почему баскетболист заговорил с Викрамом?
++ У них одинаковая обувь.
+- Он хочет пригласить Викрама в команду.
+- Он хочет, чтобы Викрам приготовил ему яйца.
+
+[MATCH]
+> Коснитесь пар
+- to <> с
+- know <> знаю
+- I need <> мне нужно
+- tell <> сказать
+- No, it's not <> нет,
+
