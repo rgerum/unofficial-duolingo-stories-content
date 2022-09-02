@@ -1,0 +1,140 @@
+[DATA]
+fromLanguageName=Кошмарное свидание
+icon=a0fcf3ace5fe44c02a92d0f17972a2115b744eb8
+set=29|4
+
+[HEADER]
+> Terrible  Date    
+~ кошмарное свидание
+
+[LINE]
+> Lin arrives   at her~friend~Bea's~house.
+~ Лин приезжает в  дом~своей~подруги~Би   
+
+[LINE]
+Speaker508: Hi,     Bea! Are~you~ready to~go?
+~           привет  Би   ты~готова     идти  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker507: No!  [I~can't~find~my~phone]!       
+~           нет   я~не~могу~найти~свой~телефон  
++ I can't find my phone
+- We can't find my home
+- I can't rhyme on my own
+
+[LINE]
+Speaker508: Where~was~the~last~place you used~it?        
+~           где~в~последний~раз      ты  пользовалась~им 
+
+[LINE]
+Speaker507: During   my    date     last~night…    Uh~oh.
+~           во~время моего свидания вчера~вечером  ой-ёй 
+
+[MULTIPLE_CHOICE]
+> Кажется, телефон Би находится…
+- …на крыше дома.
++ …там, где было свидание.
+- …у неё на рабочем столе.
+
+[LINE]
+Speaker508: What?
+~           что  
+
+[LINE]
+Speaker507: It  was  a~terrible date.     I~really~liked       the~guy, but I broke   his favorite lamp! 
+~           это было кошмарное  свидание  мне~очень~понравился парень   но  я сломала его любимую  лампу 
+
+[LINE]
+Speaker508: Oh, no! 
+~           о   нет 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «пролила».
+Speaker507: And (then)  I (+spilled) red     wine on his new   (white) (couch)!
+~           и    потом  я   пролила  красное вино на его новый  белый   диван  
+
+[LINE]
+Speaker507: I felt             so  bad!   I told    him that I was~going to the~bathroom, but I climbed~out the~window instead.     
+~           я чувствовала~себя так плохо  я сказала ему что  я иду       в  туалет        но  я вылезла~в   окно       вместо~этого 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker507: [(I~think) (I~left)     (my~phone)     (at) (his~apartment).]
+~             я~думаю   я~оставила   свой~телефон   в    его~квартире    
+
+[LINE]
+Speaker508: You didn't~even say~goodbye?
+~           ты  даже~не     попрощалась 
+
+[LINE]
+Speaker507: No… 
+~           нет 
+
+[LINE]
+Speaker508: So,  where does~he~live?
+~           так  где   он~живёт     
+
+[LINE]
+Speaker507: On the~east~side   of~town, next  to the~old bank.  
+~           в  восточной~части города   рядом со старым  банком 
+
+[LINE]
+Speaker508: Let's~go!
+~           пойдём   
+
+[MULTIPLE_CHOICE]
+> Зачем Лин и Би направляются в квартиру того парня?
+- Лин хочет с ним встречаться.
+- Би купила ему новый диван.
++ Им нужно забрать телефон Би.
+
+[LINE]
+> Bea goes~to    an~apartment and knocks~on the~door. A~man   answers.  
+~ Би  подходит~к квартире     и   стучит~в  дверь     мужчина открывает 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker438: You're back!      I thought you~didn't~like~me   when  you [climbed~out the~window].
+~           ты     вернулась  я думал   я~тебе~не~понравился когда ты   вылезла~в   окно        
++ climbed~out the~window
+~ вылезла~в   окно      
+- climbed      a~mountain
+~ поднялась~на гору      
+- took~my~picture      
+~ сфотографировала~меня
+
+[LINE]
+Speaker507: Uh…  I~do,       but… Do~you~have my  phone?  
+~           э-э  понравился  но   у~тебя      мой телефон 
+
+[LINE]
+Speaker438: Yes, here!
+~           да   вот  
+
+[LINE]
+> He gives Bea her phone.  
+~ он даёт  Би  её  телефон 
+
+[LINE]
+Speaker507: So,     can~we   have~dinner again sometime?  
+~           значит  мы~можем поужинать   снова как-нибудь 
+
+[LINE]
+Speaker438: Yes… But not at my   apartment.
+~           да   но  не  в  моей квартире  
+
+[MULTIPLE_CHOICE]
+> Почему кавалер Би не хочет ужинать с ней у себя дома?
+- Он не хочет, чтобы Би знала, где он живёт.
++ Вчера Би разгромила его квартиру.
+- У него живёт неприятный квартирант.
+
+[MATCH]
+> Коснитесь пар
+- Uh <> э-э
+- I left <> я оставила
+- you didn't like me <> я тебе не понравился
+- bad <> плохо
+- Bea <> Би
+
