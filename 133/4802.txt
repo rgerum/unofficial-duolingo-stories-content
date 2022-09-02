@@ -1,0 +1,135 @@
+[DATA]
+fromLanguageName=그 노래
+icon=be8f47fb647fd1b6b62660bfeceaa284fb800d10
+set=15|3
+
+[HEADER]
+> The Song
+~ 그   노래  
+
+[LINE]
+> Bill~and~Harry~are in~a~restaurant.
+~ 빌과~해리가             레스토랑에~있다        
+
+[LINE]
+> They hear a song.
+~ 그들에게 들려온다 한 노래가  
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker274: I [love~this~song]!
+~           난  이~노래가~정말~좋아     
++ love this song
+- leave the song
+- love his son
+
+[LINE]
+Speaker44: This song~is boring.
+~          이    노래는     지루해    
+
+[LINE]
+Speaker274: But it's very famous…
+~           하지만 이건   아주   유명해    
+
+[LINE]
+Speaker44: Yes, but it's also very old! 
+~          그래   하지만 이건   또한   아주   오래됐어 
+
+[LINE]
+Speaker44: I don't~like it    very~much.
+~          난 맘에~안~들어    이~노래가 그다지       
+
+[LINE]
+Speaker44: There's~no~guitar.
+~          기타~연주가~없어         
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker44: [(And) (it's) (too) (slow).]
+~            그리고   이건     너무    느려     
+
+[LINE]
+Speaker274: No,  it's nice.
+~           아니야  이~노랜 좋아   
+
+[LINE]
+Speaker274: Listen to~the~piano!
+~           들어봐    피아노~연주를      
+
+[LINE]
+Speaker274: And the~words~of~the~song~are very beautiful.
+~           그리고 노래~가사가                    아주   아름다워      
+
+[MULTIPLE_CHOICE]
+> 빌이 맘에 들어 하는 것은...
++ ...피아노 연주와 가사이다.
+- ...빠른 템포와 가수의 형편없는 가창력이다.
+- ...기타 연주와 가사이다.
+
+[LINE]
+Speaker274: But it's also   a~very~important~song.
+~           하지만 이~노랜 그것~말고도 아주~중요한~노래야            
+
+[LINE]
+Speaker44: Why?
+~          왜   
+
+[LINE]
+Speaker274: I remember hearing this song the night we  met…
+~           난 기억해      들리던~걸   이    노래가  그   밤에    우리가 만났던 
+
+[LINE]
+Speaker274: … thirty years ago!
+~             삼십     년     전에  
+
+[MULTIPLE_CHOICE]
+> 해리와 빌이 이 노래를 처음 들은 것은 언제인가요?
+- 몇 주 전
+- 한 달 전
++ 몇 십 년 전
+
+[LINE]
+Speaker44: Oh…
+~          아  
+
+[LINE]
+Speaker274: Do~you~understand why I  love     this song, honey?
+~           (넌)~이해~돼          왜   내가 정말~좋아하는지 이    노래를   자기    
+
+[LINE]
+Speaker44: Yes, I~do.    
+~          응    (난)~이해~돼 
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+> Harry gets~up~and looks [at~Bill].
+~ 해리가   일어나서        바라본다   빌을       
+- at~his~cat
+~ 그의~고양이를   
++ at~Bill
+~ 빌을     
+- at~his~mother
+~ 그의~어머니를      
+
+[LINE]
+Speaker44: Do~you~want~to~dance with~me?
+~          (넌)~춤추고~싶어           나랑      
+
+[LINE]
+Speaker274: Of~course.
+~           물론이지      
+
+[MULTIPLE_CHOICE]
+> 그 노래가 빌과 해리에게 그렇게 중요한 이유는 무엇인가요?
+- 그들이 노래방에서 항상 부르는 노래여서.
+- 그들이 가장 좋아하는 가수가 부른 노래여서.
++ 그들이 처음 만난 날 들렸던 노래여서.
+
+[MATCH]
+> 짝을 누르세요
+- hearing <> 들리던 걸
+- it's <> 이건
+- love <> 정말 좋아하는지
+- beautiful <> 아름다워
+- very <> 아주
+
