@@ -1,0 +1,146 @@
+[DATA]
+fromLanguageName=Бесплатная пицца
+icon=1dcd5216b93313f075eb62584804a9bec488724e
+set=17|3
+
+[HEADER]
+> Free       Pizza
+~ бесплатная пицца
+
+[LINE]
+> Lin is~walking home  one~day.
+~ Лин идёт       домой однажды 
+
+[LINE]
+> It~starts~raining.
+~ начинается~дождь  
+
+[LINE]
+Speaker508: Oh no! 
+~           о  нет 
+
+[LINE]
+> She runs~into  an~office~building.
+~ она забегает~в офисное~здание     
+
+[MULTIPLE_CHOICE]
+> Лин пытается спрятаться от дождя.
+- Нет, это неправда.
++ Да, это правда.
+
+[LINE]
+> Inside, she sees  some~pizza~boxes on a~table.
+~ внутри  она видит коробки~с~пиццей на столе   
+
+[LINE]
+Speaker508: Wow. That's~a~lot~of~pizza.
+~           ого  как~много~пиццы       
+
+[LINE]
+Speaker508: I think it's~OK~to~eat one  slice…  
+~           я думаю можно~съесть   один кусочек 
+
+[MULTIPLE_CHOICE]
+> Лин хочет съесть...
+- ...много кусочков пиццы.
++ ...кусочек пиццы.
+- ...все пиццы.
+
+[LINE]
+> She takes some~pizza.
+~ она берёт пиццу      
+
+[LINE]
+Speaker307: Hey! That's for~people who     work     here. 
+~           эй   это    для~людей  которые работают здесь 
+
+[LINE]
+Speaker508: Sorry,    I…
+~           простите  я 
+
+[LINE]
+Speaker307: Wait.     I know you!
+~           погодите  я знаю вас 
+
+[LINE]
+Speaker307: You're Mrs.~Smith's~secretary.
+~           вы     секретарь~миссис~Смит  
+
+[LINE]
+Speaker508: Oh. Well…
+~           о   ну   
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker307: I~need    to~go~back~to~work.  Enjoy         [the~pizza]!
+~           мне~нужно вернуться~на~работу  наслаждайтесь  пиццей     
+- the~rain
+~ дождём  
+- walking~home   
+~ прогулкой~домой
++ the~pizza
+~ пиццей   
+
+[LINE]
+> Lin decides to~eat one~more slice~of~pizza.
+~ Лин решает  съесть ещё~один кусочек~пиццы  
+
+[LINE]
+> Soon,   a~woman enters~the~room.  
+~ вскоре  женщина заходит~в~комнату 
+
+[LINE]
+Speaker292: Pizza! Great!   I'm so~hungry.     
+~           пицца  отлично  я   такая~голодная 
+
+[LINE]
+Speaker292: Oh, have~we~met?
+~           о   мы~знакомы  
+
+[LINE]
+Speaker508: No.  I'm Lin.
+~           нет  я   Лин 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker292: What~do~you~do [for~the~company]?
+~           что~вы~делаете  для~компании     
+- for the camping
++ for the company
+- form the companies
+
+[LINE]
+Speaker508: Oh. Well, I'm… Mrs.~Smith's~secretary.
+~           о   ну    я    секретарь~миссис~Смит  
+
+[LINE]
+Speaker292: That's~interesting…
+~           интересно          
+
+[LINE]
+Speaker292: … because    I'm Mrs.~Smith. 
+~             потому~что я   миссис~Смит 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker292: [(And) (you're) (not) (my)  (secretary)!]
+~             и     вы       не    моя   секретарь   
+
+[LINE]
+Speaker508: Oops! I~need    to~go now!    Nice~to~meet~you!     
+~           ой    мне~нужно идти  сейчас  приятно~познакомиться 
+
+[MULTIPLE_CHOICE]
+> Почему Лин пришлось внезапно уйти?
++ Эта женщина поняла, что Лин здесь не работает.
+- От пиццы у неё заболел живот.
+- Ей нужно купить зонт.
+
+[MATCH]
+> Коснитесь пар
+- Soon <> вскоре
+- Oh <> о
+- Enjoy <> наслаждайтесь
+- What do you do <> что вы делаете
+- so hungry <> такая голодная
+
