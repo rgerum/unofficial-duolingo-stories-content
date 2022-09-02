@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=주말 방문
+icon=e9870ece5e694f8efd3df5550e7bb5d130fadecf
+set=19|2
+
+[HEADER]
+> Weekend Visit
+~ 주말      방문   
+
+[LINE]
+> Bea's boyfriend, Sean,~is visiting for~the~weekend.
+~ 비의    남자친구       션이       방문~중이다   주말~동안           
+
+[LINE]
+Speaker438: This~is the~first~time I'm staying at~your~apartment! It's so exciting!
+~           이번이     처음이야           내가  지내는~건   네~아파트에서            이거   아주 신나는데     
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker507: Yeah, [it'll~be~a~fun~weekend].
+~           응      재밌는~주말이~될~거야            
++ it'll be a fun weekend
+- I'll be the weekend
+- it'll be a fun weather
+
+[LINE]
+Speaker438: It's like we're living~together! We'll~learn so much about~each~other.
+~           이건   마치   우리가   같이~사는~것~같아       우린~배울~거야    아주 많이   서로에~대해           
+
+[LINE]
+Speaker507: What?! No, I'm not~ready to~live~together!
+~           뭐라고    아니  난   준비~안~됐어   같이~살기엔           
+
+[MULTIPLE_CHOICE]
+> 아 이런! 비가 긴장한 이유는 무엇인가요?
+- 남자친구가 그녀와 헤어지길 원해서.
++ 아직은 남자친구와 동거하고 싶은 맘이 없어서.
+- 아파트 청소를 깜빡해서.
+
+[LINE]
+Speaker438: Bea, it's~OK. I~was~joking.
+~           비    괜찮아      농담이었어        
+
+[LINE]
+Speaker438: Hey, can~I~sleep on~the~left~side of~the~bed?
+~           저기   내가~자도~돼     왼쪽에서             침대의        
+
+[LINE]
+Speaker507: I  usually sleep on~the~left~side of~the~bed, but OK… 
+~           내가 보통      자는데   왼쪽에서             침대의         하지만 알았어 
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker438: [(Could~I~close) (the) (curtains)?]
+~             닫아도~돼           저     커튼을        
+
+[LINE]
+Speaker438: I don't~want the~sun to~wake~me~up.
+~           난 원치~않아      햇빛이     나를~깨우길        
+
+[POINT_TO_PHRASE]
+> “해가 뜰 때|”를  뜻하는 말을 고르세요.
+~  해가 뜰 언제  ㅇ 뜻하는 말을 ㅇㅇ   
+Speaker507: OK,  (but) I (wake~up) (+at~sunrise) (every~morning)…
+~           알았어   하지만  난  깨          해가~뜰~때       매일~아침          
+
+[LINE]
+Speaker438: And do~you~mind~if I  take that painting off~the~wall?
+~           그리고 ~해도~될까         내가 떼다   저    그림을      벽에서          
+
+[LINE]
+Speaker507: Why? I love   it. My cousin painted~it.
+~           왜    난 너무~좋은데 그게  내  사촌이    그린거야       
+
+[LINE]
+Speaker438: It's a~little scary… I won't~be~able~to~sleep.
+~           그건   조금       무서워    난 잠이~안~올~것~같아            
+
+[LINE]
+Speaker507: Ugh, OK. 
+~           어후   알았어 
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+> Bea takes the painting [off~the~wall].
+~ 비가  뗀다    그   그림을       벽에서           
+- off~the~sofa
+~ 소파로부터       
++ off~the~wall
+~ 벽에서         
+- off~the~floor
+~ 바닥으로부터       
+
+[LINE]
+Speaker438: Oh! I forgot my toothbrush. Can~I~use yours?
+~           아   난 깜빡했어   내  칫솔을         써도~돼      네~걸   
+
+[LINE]
+Speaker507: My toothbrush?! No, definitely not.
+~           내  칫솔           아니  절대         안~돼 
+
+[LINE]
+Speaker438: Haha, we're learning so much about~each~other!
+~           하하    우리가   배우고~있어   아주 많이   서로에~대해           
+
+[LINE]
+Speaker507: Yeah, and I think you should~stay at~a~hotel.
+~           맞아    그리고 내 생각엔   네가  머무는~게~좋겠어   호텔에서       
+
+[MULTIPLE_CHOICE]
+> 비가 남자친구와 함께 지내면서 깨달은 사실은 무엇인가요?
++ 그와 아파트에서 함께 지내면 안 되겠다는 것.
+- 그와 동거하면 좋겠다는 것.
+- 그가 무서운 그림을 아주 좋아한다는 것.
+
+[MATCH]
+> 짝을 누르세요
+- take <> 떼다
+- wake up <> 깨
+- cousin <> 사촌이
+- What <> 뭐라고
+- for the weekend <> 주말 동안
+
