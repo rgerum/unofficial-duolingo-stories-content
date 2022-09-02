@@ -1,0 +1,98 @@
+[DATA]
+fromLanguageName=뜻밖의 결말
+icon=136e95ddf7eef68f8c312f81c3b03bf4100a14e7
+set=17|2
+
+[HEADER]
+> Surprise~Ending
+~ 뜻밖의~결말         
+
+[LINE]
+> Vikram~is reading  in~bed. His wife, Priti,~is next~to~him.
+~ 비크람이      책을~읽고~있다 침대에서    그의  아내    프리티가      그의~옆에~있다    
+
+[LINE]
+Speaker560: Vikram, I'm tired. Can~you~turn~off the~light?
+~           비크람     난   피곤해    꺼줄수~있어           불을        
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker593: I  can't~sleep! I  need~to~finish [this~book]!
+~           나는 잘~수가~없어      나는 끝내야~해           이~책을       
++ this book
+- this look
+- his book
+
+[POINT_TO_PHRASE]
+> “충돌할 것이다”를 뜻하는 말을 고르세요.
+Speaker593: A man~is (on~an~airplane)! He's (traveling) to~see his wife, but the (plane~is) (+going~to~crash)!
+~           한 남자가     비행기에~타고~있어       그는    여행~중이야     보기~위해  그의  아내를   하지만 그    비행기가        충돌할~거야          
+
+[LINE]
+Speaker560: I'll~tell~you   the~ending, but then you have~to~turn~off the~light.
+~           내가~(너에게)~얘기해~줄게 (그)~결말을     하지만 그~후에 넌   꺼야~돼             불을        
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker593: [(You) (read) (this) (book)?]
+~             넌     읽었어    이      책을     
+
+[LINE]
+Speaker593: Please, tell~me     the~ending!
+~           제발      (나에게)~얘기해~줘 (그)~결말을    
+
+[LINE]
+Speaker560: The man's wife~is really a~ghost. He dies|—and now they can~be~together.
+~           그   남자의   아내는     실제로    유령이야     그가 죽어    그리고 이제  그들이  함께할~수~있게~되지     
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker593: That's strange. But now I  can    [turn~off~the~light].
+~           그거     이상하네     하지만 이제  내가 할~수~있어  불을~끄다               
+- get~on~an~airplane
+~ 비행기를~타다           
+- watch~TV
+~ 티비를~보다  
++ turn~off~the~light
+~ 불을~끄다             
+
+[LINE]
+> The~next~morning, Vikram talks to~Priti about~the~book again.
+~ 다음날~아침            비크람이   얘기한다  프리티에게    그~책에~대해        또다시   
+
+[LINE]
+Speaker593: That ending~was surprising!
+~           그    결말은        뜻밖이었어      
+
+[MULTIPLE_CHOICE]
+> 비크람의 말이 의미하는 것은…
++ ...책의 결말이 뜻밖이었다는 것이다.
+- ...책의 결말이 형편없었다는 것이다.
+- ...책의 결말 덕분에 잠이 들었다는 것이다.
+
+[LINE]
+Speaker560: Vikram… I  lied  about the~ending.
+~           비크람     나는 거짓말했어 ~에~대해 (그)~결말     
+
+[LINE]
+Speaker593: What?!
+~           뭐     
+
+[LINE]
+Speaker560: I  never~read that book. I  just~wanted you to~turn~off~the~light.
+~           나는 읽은~적이~없어   그    책을    나는 원했을~뿐이야     네가  불을~꺼주길                
+
+[MULTIPLE_CHOICE]
+> 프리티가 비크람에게 거짓말한 이유는 무엇인가요?
+- 그녀는 비크람을 웃기고 싶었기 때문이다.
++ 그녀는 자고 싶었기 때문이다.
+- 그녀에겐 커다란 비밀이 있었기 때문이다.
+
+[MATCH]
+> 짝을 누르세요
+- man's <> 남자의
+- a ghost <> 유령이야
+- lied <> 거짓말했어
+- strange <> 이상하네
+- have to turn off <> 꺼야 돼
+
