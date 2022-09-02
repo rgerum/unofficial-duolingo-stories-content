@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=Приготовление завтрака
+icon=6d79d91b8caad82e9f6ce44a1b458f12ac6a7a9f
+set=14|2
+
+[HEADER]
+> Making~Breakfast      
+~ приготовление~завтрака
+
+[LINE]
+> Eddy is~making breakfast for Junior.  
+~ Эдди готовит   завтрак   для Джуниора 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker415: Hey,    Dad!  [What~are~you~doing]?
+~           привет  папа   что~ты~делаешь      
+- What's your dog
++ What are you doing
+- When are you doing
+
+[LINE]
+Speaker414: Good   morning, Junior!  I'm~making a~big   breakfast for you! 
+~           доброе утро     Джуниор  я~готовлю  большой завтрак   для тебя 
+
+[LINE]
+Speaker415: Breakfast?
+~           завтрак   
+
+[LINE]
+Speaker414: Yes. I~never~have~time          to~make     breakfast for you. 
+~           да   у~меня~никогда~нет~времени приготовить завтрак   для тебя 
+
+[LINE]
+Speaker414: But today   is~different!    
+~           но  сегодня (всё)~по-другому 
+
+[MULTIPLE_CHOICE]
+> Минуточку… Что Эдди имеет в виду?
++ Сегодня у него есть время приготовить завтрак.
+- Сегодня у него нет времени приготовить завтрак.
+- Он каждое утро готовит Джуниору завтрак.
+
+[LINE]
+Speaker415: Dad,  I don't want breakfast.
+~           папа  я не    хочу завтрак   
+
+[LINE]
+Speaker414: What?! But I'm~making eggs…
+~           что    но  я~готовлю  яйца 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker415: [(I) (don't) (want) (eggs).]
+~             я   не      хочу   яйца   
+
+[LINE]
+Speaker414: You love   eggs.
+~           ты  любишь яйца 
+
+[LINE]
+Speaker415: Yes, but—
+~           да   но  
+
+[LINE]
+Speaker414: And~there's sausage too! 
+~           и~есть      колбаса тоже 
+
+[LINE]
+Speaker414: You love   eating sausage for breakfast!
+~           ты  любишь есть   колбасу на  завтрак   
+
+[LINE]
+Speaker415: That's~right, but—
+~           это~правда    но  
+
+[LINE]
+Speaker414: So  what's~wrong, Junior? 
+~           так в~чём~дело    Джуниор 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker415: Dad…~it's [one~o'clock]!
+~           папа,~уже  час~дня      
+- on the clothes
++ one o'clock
+- one on clock
+
+[LINE]
+> Eddy looks~at   his  watch.
+~ Эдди смотрит~на свои часы  
+
+[POINT_TO_PHRASE]
+> Выберите вариант «много времени».
+Speaker414: (Oh) no…  (making~breakfast)       (takes)    (+a~long~time).  
+~            о   нет   приготовление~завтрака   занимает    много~времени  
+
+[LINE]
+Speaker415: But now    we can   make~lunch!      
+~           но  теперь мы можем приготовить~обед 
+
+[MULTIPLE_CHOICE]
+> Почему Джуниор предлагает приготовить обед?
+- Эдди съел весь завтрак.
+- Джуниор готовил завтрак для Эдди.
++ Эдди потратил слишком много времени на приготовление завтрака.
+
+[MATCH]
+> Коснитесь пар
+- his <> свои
+- what's wrong <> в чём дело
+- breakfast <> завтрак
+- But <> но
+- is different <> по-другому
+
