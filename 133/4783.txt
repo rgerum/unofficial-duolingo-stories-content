@@ -1,0 +1,103 @@
+[DATA]
+fromLanguageName=휴일
+icon=133724060d44f92515a472ae4eacbf7e51124744
+set=10|4
+
+[HEADER]
+> Day~Off
+~ 휴일     
+
+[LINE]
+> Vikram~is making tea in~the~kitchen.
+~ 비크람이      만들고~있다 차를  부엌에서           
+
+[LINE]
+> His wife, Priti, walks~into the~room.
+~ 그의  아내    프리티가   걸어~들어온다    부엌으로     
+
+[LINE]
+Speaker560: Good~morning, Vikram!
+~           좋은~아침         비크람    
+
+[LINE]
+Speaker593: Wait… why~are~you~home? It's Tuesday.
+~           잠깐만   (당신이)~왜~집에~있어     오늘은  화요일인데   
+
+[LINE]
+Speaker560: I'm not~working today! I~have~a~day~off!
+~           난   일~안~해       오늘     쉬는~날이야           
+
+[MULTIPLE_CHOICE]
+> 프리티는 오늘 하루 휴가를 냈다.
++ 네, 맞아요.
+- 아니요, 그렇지 않아요.
+
+[LINE]
+Speaker560: I'm excited. I want~to~do so many things!
+~           난   신나       난 하고~싶어      아주 많은   것들을    
+
+[LINE]
+> Priti goes to~the~gym.
+~ 프리티가  간다   헬스장에       
+
+[LINE]
+> Then,   she visits a~museum.
+~ 그리고~나서  그녀는 방문한다   박물관을     
+
+[MULTIPLE_CHOICE]
+> 프리티가 다녀온 곳은…
++ ...헬스장과 박물관이다.
+- ...회사이다.
+- ...박물관과 영화관이다.
+
+[LINE]
+> When~she~gets~home, Priti reads a~book in~the~garden.
+~ (그녀가)~집에~와서는        프리티가  읽는다   책을     정원에서          
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker593: Hi, honey! Are~you~having [a~nice~day]?
+~           안녕  여보     당신은~보내고~있어      좋은~하루를      
+- a nice way
+- a rice tray
++ a nice day
+
+[LINE]
+Speaker560: Yes! But let's~make dinner now!
+~           응    하지만 (우리)~만들자   저녁~식사를 이제  
+
+[LINE]
+Speaker593: Dinner? But it's only~2~p.m.
+~           저녁~식사   하지만 지금   두~시밖에~안~됐어 
+
+[LINE]
+Speaker560: It's so early. What~can~I~do now?
+~           시간이  너무 이른데    (내가)~뭘~하면~좋지  이제  
+
+[POINT_TO_PHRASE]
+> "쉬다”를 뜻하는 말을 고르세요.
+Speaker593: (You) (can~sit~and) (+relax).
+~            당신은   앉아서            쉬면~돼   
+
+[LINE]
+> Priti sits for~a~minute.
+~ 프리티가  앉는다  잠시~동안        
+
+[LINE]
+Speaker560: Relaxing~is boring. I'm going to~work.
+~           쉬는~건        지루해     난   갈~거야  회사에     
+
+[MULTIPLE_CHOICE]
+> 프리티가 결국 출근하기로 한 이유는 무엇인가요?
+- 저녁 식사를 준비하기 싫어서.
++ 쉬다 보니 지루해져서.
+- 할 일이 많다는 걸 깨달아서.
+
+[MATCH]
+> 짝을 누르세요
+- only 2 p.m. <> 두 시밖에 안 됐어
+- honey <> 여보
+- a museum <> 박물관을
+- Vikram <> 비크람
+- a nice day <> 좋은 하루를
+
