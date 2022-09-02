@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=मेरे पैर में दर्द हो रहा है
+icon=e03c9c686e0856f66bc51a3f912c8be470a7f18b
+set=27|3
+
+[HEADER]
+> My   Leg       Hurts         
+~ मेरे पैर~(में) दर्द~हो~रहा~है
+
+[LINE]
+> Bea opens    her~front~door.                  She sees     Eddy       standing on~one~leg.
+~ बी  खोलती~है अपने~(घर~का)~सामने~वाला~दरवाज़ा  वह  देखती~है एड्डी~(को) खड़े~हुए  एक~टांग~पर 
+
+[LINE]
+Speaker414: My   leg       hurts.          Can~you~drive                   me   to~the~doctor's~office?
+~           मेरे पैर~(में) दर्द~हो~रहा~है  क्या~तुम~गाड़ी~में~ले~जा~सकती~हो मुझे डॉक्टर~के~क्लिनिक~(तक) 
+
+[LINE]
+Speaker507: Sure! 
+~           ज़रूर 
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+> Bea and Eddy  [get~in~Bea's~car].           
+~ बी  और  एड्डी  बी~की~गाड़ी~में~बैठ~जाते~हैं  
+- get on Bea's bar
+- quit in Bea's car
++ get in Bea's car
+
+[LINE]
+Speaker414: Wait! I        forgot       to~pick~up   Junior      from~school. Can~we~go           there?
+~           रुको  मैं~(तो) भूल~(ही)~गया (वापिस)~लाना जूनियर~(को) स्कूल~से     क्या~हम~जा~सकते~हैं वहाँ  
+
+[LINE]
+Speaker507: Of~course. 
+~           क्यों~नहीं 
+
+[MULTIPLE_CHOICE]
+> बी और एड्डी को पहले कहाँ जाना है?
++ जूनियर के स्कूल
+- पैर की दुकान
+- बेकरी
+
+[LINE]
+> Bea and Eddy  pick~up     Junior      from~school.
+~ बी  और  एड्डी ले~लेते~हैं जूनियर~(को) स्कूल~से    
+
+[LINE]
+Speaker414: Can~we~also~go         to~the~post~office?
+~           क्या~हम~जा~भी~सकते~हैं डाकघर~(तक)         
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker507: But   [you~hurt~your~leg],                    remember? 
+~           लेकिन  तुम्हारे~पैर~में~(तो)~चोट~लगी~हुई~है   याद~है~ना 
++ you hurt your leg
+- who hurt her leg
+- you heard a wreck
+
+[LINE]
+Speaker414: I~need     your     help to~pick~up  a  large package.
+~           मुझे~चाहिए तुम्हारी मदद  लाने~के~लिए एक बड़ा   पैकेज   
+
+[LINE]
+Speaker507: Ugh, fine.  
+~           ~    ठीक~है 
+
+[LINE]
+Speaker415: Look!       There's~no line at~Benny's~Burgers!
+~           (ज़रा)~देखो  नहीं~है    कतार बैनीज़~बर्गर्स~पर  
+
+[ARRANGE]
+> सुनकर शब्द चुनें
+> [(Junior) (points)        (at~a~restaurant).]    
+~   जूनियर   इशारा~करता~है   एक~रेस्टोरेंट~की~ओर   
+
+[LINE]
+Speaker414: Their burgers are        amazing, but   the~line is        always so   long! Let's~go!    
+~           उनके  बर्गर   (होते)~हैं शानदार   लेकिन कतार     (होती)~है हमेशा  बहुत लंबी  चलो~चलते~हैं 
+
+[CONTINUATION]
+> आगे क्या आएगा?
+Speaker507: But   you~need         to~see    [a~doctor]!      
+~           लेकिन तुम्हें~ज़रूरत~है दिखाने~की  एक~डॉक्टर~(को)  
+- this~movie      
+~ यह~फ़िल्म~(देखने)
++ a~doctor          
+~ एक~डॉक्टर~(के~पास)
+- your~date            
+~ तुम्हारी~डेट~(के~पास)
+
+[POINT_TO_PHRASE]
+> उस विकल्प को चुनें जिसका मतलब "चमत्कार" है।
+Speaker415: But   (there's~no)   (line)! (It's)       a  (+miracle)!
+~           लेकिन  वहाँ~नहीं~है   कतार    यह~(तो)~है  एक   चमत्कार  
+
+[LINE]
+> Later,   Eddy,  Junior, and Bea are        in~the~restaurant.   
+~ बाद~में  एड्डी  जूनियर  और  बी  (होते)~हैं (उसी)~रेस्टोरेंट~में 
+
+[LINE]
+Speaker507: Wow, that burger was amazing.
+~           वाह  वह   बर्गर  था  शानदार  
+
+[LINE]
+Speaker414: Yeah, but   we~should~go    to~the~doctor's~office now.
+~           हाँ   लेकिन हमें~चलना~चाहिए डॉक्टर~के~क्लिनिक~(तक) अब  
+
+[LINE]
+Speaker507: Does~your~leg           still  hurt?          
+~           क्या~तुम्हारे~पैर~(में) अभी~भी दर्द~हो~रहा~है 
+
+[LINE]
+Speaker414: No,   my   stomach   hurts          now. I~think I~ate        too~many      burgers.
+~           नहीं  मेरे पेट~(में) दर्द~हो~रहा~है अब   शायद    मैंने~खा~लिए कुछ~ज़्यादा~ही बर्गर   
+
+[MULTIPLE_CHOICE]
+> एड्डी के पैर का दर्द तो ठीक हो गया, मगर अब...
+- …उसे शावर लेना है।
+- …बी के पैर में चोट लग गई है।
++ …उसके पेट में दर्द हो रहा है।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- stomach <> पेट
+- Does your leg <> क्या तुम्हारे पैर
+- so <> बहुत
+- package <> पैकेज
+- There's no <> नहीं है
+
