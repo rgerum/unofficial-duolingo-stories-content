@@ -1,0 +1,110 @@
+[DATA]
+fromLanguageName=Выбор Джуниора
+icon=8928ad6c754624263805f3d1451667529f2fa0da
+set=7|3
+
+[HEADER]
+> Junior's~Choice
+~ выбор~Джуниора 
+
+[LINE]
+> Junior  is~getting his  lunch at school.
+~ Джуниор получает   свой обед  в  школе  
+
+[LINE]
+Speaker415: Hello,        Ms.|  Linda! I'm~ready to~eat~lunch!
+~           здравствуйте  мисс  Линда  я~готов   обедать      
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker395: Hello,      Junior.  [We~have~fish] for lunch today.  
+~           здравствуй  Джуниор   у~нас~рыба    на  обед  сегодня 
+- We love dish
++ We have fish
+- We have five
+
+[LINE]
+Speaker395: And with~the~fish, you can~have~a~salad   or  fries.        
+~           и   с~рыбой        ты  можешь~взять~салат или картофель~фри 
+
+[LINE]
+Speaker415: I love   fries         and salads!
+~           я обожаю картофель~фри и   салаты 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «только».
+Speaker395: (You) (can)    (+only)   have~one,            (Junior). 
+~            ты    можешь    только  взять~(что-то)~одно   Джуниор  
+
+[LINE]
+Speaker415: Well,  fries         are~the~delicious~option...
+~           что~ж  картофель~фри вкусное~блюдо              
+
+[MULTIPLE_CHOICE]
+> Джуниор считает, что картофель фри…
++ …вкусное блюдо.
+- ...не такой вкусный, как салат.
+- …отвратительное блюдо.
+
+[LINE]
+Speaker415: And I~am~having a~difficult day... 
+~           и   у~меня      сложный     день   
+
+[LINE]
+Speaker415: But salad~is~healthy…
+~           но  салат~полезный   
+
+[MULTIPLE_CHOICE]
+> Джуниор считает, что салат…
+- …очень большой.
+- …дешёвый.
++ …полезный.
+
+[LINE]
+Speaker395: Junior… 
+~           Джуниор 
+
+[LINE]
+Speaker415: But I can  only   have~one…           
+~           но  я могу только взять~(что-то)~одно 
+
+[LINE]
+Speaker415: I want the~salad. No!  The~fries!     Wait…     
+~           я хочу салат      нет  картофель~фри  подождите 
+
+[LINE]
+Speaker415: I don't know!
+~           я не    знаю 
+
+[MULTIPLE_CHOICE]
+> Бедный Джуниор! В чём его проблема?
+- Он хочет добавить мороженое в салат.
+- Он съел слишком много картофеля фри.
++ Он не может определиться: взять салат или картофель фри.
+
+[LINE]
+Speaker395: Junior! 
+~           Джуниор 
+
+[LINE]
+Speaker415: Oh! Yes, Ms.|  Linda?
+~           ой  да   мисс  Линда 
+
+[LINE]
+Speaker395: Here! Take~the~fries       and the~salad.
+~           вот   возьми~картофель~фри и   салат     
+
+[MULTIPLE_CHOICE]
+> Линда сказала Джуниору, что он может…
++ …взять картофель фри и салат.
+- …пойти поесть где-нибудь в другом месте.
+- …представить, что картофель фри — это салат.
+
+[MATCH]
+> Коснитесь пар
+- Well <> что ж
+- want <> хочу
+- can have a salad <> можешь взять салат
+- But <> но
+- today <> сегодня
+
