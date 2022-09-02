@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=내 그림 좀 봐 줘
+icon=b4a0fb96a3bb2af295051d49d3c112c4c91779e6
+set=13|3
+
+[HEADER]
+> Look at~My~Painting
+~ 봐~줘  내~그림을         
+
+[LINE]
+> Eddy walks~into Oscar's apartment.
+~ 에디가  걸어~들어간다    오스카의    아파트에      
+
+[LINE]
+> Eddy~is carrying a~painting.
+~ 에디가     들고~있다    그림~한~점을    
+
+[LINE]
+Speaker592: What~is~that, Eddy?
+~           그게~뭐야         에디   
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker414: It's [my~first~painting]!
+~           이건    내~첫~그림이야           
++ my first painting
+- my fast painting
+- my first printing
+
+[LINE]
+Speaker414: Can~you~look~at~it?
+~           네가~좀~봐줄래           
+
+[LINE]
+Speaker592: No.
+~           아니 
+
+[LINE]
+Speaker414: But you're an~art~teacher.
+~           하지만 넌      미술~선생님이잖아      
+
+[MULTIPLE_CHOICE]
+> 에디는...
+- ...오스카에게 예술을 가르치고 싶어한다.
++ ...오스카가 그의 그림을 봐주길 바란다.
+- ...오스카가 그림을 그려주길 바란다.
+
+[LINE]
+Speaker592: Yes, and I~am very honest.
+~           그래   그리고 나는   아주   솔직하지   
+
+[LINE]
+Speaker414: Good.
+~           잘~됐네 
+
+[LINE]
+Speaker592: And you will~cry.
+~           그리고 넌   울게~될~거야  
+
+[MULTIPLE_CHOICE]
+> 잠깐만요... 오스카가 에디에게 울게 될 거라고 말하는 이유는 무엇인가요?
+- 오스카가 아주 슬픈 얘기를 해줄 것이라서.
++ 오스카가 그림이 맘에 안 들면 아주 솔직하게 말할 것이라서.
+- 오스카의 그림들이 너무나 아름다워서.
+
+[LINE]
+Speaker414: But I  want~to~know if~the~painting~is~good.
+~           하지만 나는 알고~싶어        이~그림이~괜찮은지              
+
+[LINE]
+Speaker592: It's not~good.
+~           그것은  괜찮지~않아   
+
+[LINE]
+Speaker414: How~do~you~know?
+~           (네가)~어떻게~알아     
+
+[LINE]
+Speaker592: You~are not~an~artist. And it's your first painting.
+~           너는      화가가~아니잖아       그리고 그건   너의   첫     그림이잖아    
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker592: [(First) (paintings~are) (never~good).]
+~             첫       그림들은            항상~별로야       
+
+[LINE]
+Speaker414: Please, look~at~it.
+~           부탁해     좀~봐~줘      
+
+[LINE]
+Speaker414: Please, Oscar.
+~           부탁해     오스카   
+
+[LINE]
+Speaker592: Fine. I'll~look at~it.
+~           알겠어   (내가)~봐~줄게 그것을   
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+> Oscar looks~at [the painting].
+~ 오스카가  본다        그   그림을       
++ the painting
+~ 그   그림      
+- the~apartment
+~ 아파트          
+- Eddy crying
+~ 에디가  우는~걸  
+
+[LINE]
+Speaker592: Eddy, this painting~is…
+~           에디    이    그림은         
+
+[LINE]
+Speaker414: Yes?!
+~           응    
+
+[LINE]
+Speaker592: Really good.
+~           정말로    훌륭해  
+
+[LINE]
+Speaker414: Yes! Cool! I'm a~good~artist!
+~           오예   좋아    나는  훌륭한~화가야       
+
+[LINE]
+Speaker592: Now please leave.
+~           이제  제발     가~줘   
+
+[MULTIPLE_CHOICE]
+> 오스카가 에디의 그림이 훌륭하다는 사실에 놀란 이유는 무엇인가요?
+- 에디는 그동안 그림 실력이 별로였기 때문에.
+- 에디가 어렸을 때 그린 그림이었기 때문에.
++ 처음으로 그린 그림들은 항상 별로라고 생각했기 때문에.
+
+[MATCH]
+> 짝을 누르세요
+- paintings are <> 그림들은
+- Yes <> 그래
+- at it <> 그것을
+- No <> 아니
+- apartment <> 아파트에
+
