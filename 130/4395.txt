@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Торт
+icon=4a31a2e8269bfd907d862c44a3b320899c169419
+set=15|4
+
+[HEADER]
+> The~Cake
+~ торт    
+
+[LINE]
+> Lin goes to~her~kitchen. She looks   in the~fridge. 
+~ Лин идёт на~кухню        она смотрит в  холодильник 
+
+[LINE]
+Speaker508: Where~is my~cake? 
+~           где      мой~торт 
+
+[LINE]
+> Lin sees  her  grandmother, Lucy, at~the~table.
+~ Лин видит свою бабушку      Люси  за~столом    
+
+[LINE]
+Speaker508: Grandma, what did~you~just~eat? 
+~           бабушка  что  ты~только~что~ела 
+
+[LINE]
+> Lucy hides  her  plate.  
+~ Люси прячет свою тарелку 
+
+[MULTIPLE_CHOICE]
+> Люси пытается спрятать свою тарелку от Лин.
++ Да, это правда.
+- Нет, это неправда.
+
+[LINE]
+Speaker509: Uhhh… a~sandwich!
+~           э-э   сэндвич    
+
+[LINE]
+Speaker508: I can't   find  my   cake.
+~           я не~могу найти свой торт 
+
+[LINE]
+Speaker509: That's~strange. What~does~it~look~like?
+~           странно         как~он~выглядит        
+
+[ARRANGE]
+> Наберите услышанное
+Speaker508: [(It's) (a~very) (small)     (cake).]
+~             это    очень    маленький   торт   
+
+[LINE]
+Speaker509: Are~there~oranges~on~the~cake?
+~           на~торте~есть~апельсины       
+
+[LINE]
+Speaker508: Yes! There~are~a~lot~of~oranges~on~the~cake.
+~           да   на~торте~много~апельсинов              
+
+[LINE]
+Speaker509: Is~your~cake yellow?
+~           твой~торт    жёлтый 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker508: Yes! My  cake [is~yellow]!
+~           да   мой торт  жёлтый     
++ is~yellow
+~ жёлтый   
+- is~red 
+~ красный
+- is~very~large
+~ очень~большой
+
+[LINE]
+Speaker509: Is~your~cake very,  very  delicious?
+~           твой~торт    очень  очень вкусный   
+
+[LINE]
+Speaker508: Grandma! Did~you~eat my  cake?!
+~           бабушка  ты~ела      мой торт  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker509: No!  I [didn't~eat~it]!
+~           нет  я  не~ела~его     
+- didn't read it
+- did need it
++ didn't eat it
+
+[LINE]
+Speaker508: OK.    Sorry.  I'll~make    another…  chocolate  cake.
+~           ладно  прости  я~приготовлю ещё~один  шоколадный торт 
+
+[LINE]
+Speaker509: Chocolate?  But your cake was vanilla!  
+~           шоколадный  но  твой торт был ванильным 
+
+[LINE]
+Speaker508: Ha! Yes, it~was~vanilla! You~did~eat    my  cake!
+~           ха  да   он~ванильный    ты~точно~съела мой торт 
+
+[MULTIPLE_CHOICE]
+> Как Лин узнала, что Люси съела её торт?
++ Люси проболталась, что торт был ванильным.
+- Она нашла тарелку Люси.
+- У Люси на лице были крошки торта.
+
+[MATCH]
+> Коснитесь пар
+- was <> был
+- cake <> торт
+- That's strange <> странно
+- I'll make <> я приготовлю
+- Sorry <> прости
+
