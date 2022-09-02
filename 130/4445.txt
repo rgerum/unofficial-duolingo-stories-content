@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Оскар в Лос-Анджелесе
+icon=aa7be12b0429b89da80e093e44f1d40788aba012
+set=28|2
+
+[HEADER]
+> Oscar in Los~Angeles  
+~ Оскар в  Лос-Анджелесе
+
+[LINE]
+> Oscar is~visiting his    cousin,            Orson,  in Los~Angeles.  
+~ Оскар гостит~(у)  своего двоюродного~брата  Орсона  в  Лос-Анджелесе 
+
+[LINE]
+> He walks   into the~kitchen with his   camera        and guidebook.    
+~ он заходит на   кухню       со   своим фотоаппаратом и   путеводителем 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker3107: Good   morning, Oscar! I'm working today,   but I can  give~you~directions to [any~place~in~the~city]!
+~            доброе утро     Оскар  я   работаю сегодня  но  я могу указать~тебе~дорогу к   любому~месту~в~городе  
+- any space with a kitty
++ any place in the city
+- any face that's so pretty
+
+[LINE]
+> Oscar points~to     a~page   in the~guidebook.
+~ Оскар показывает~на страницу в  путеводителе  
+
+[POINT_TO_PHRASE]
+> Выберите вариант «тротуар».
+Speaker592: (Where's) (the~famous) (+sidewalk) with all   (the~stars) on the~ground?
+~            где       известный     тротуар   со   всеми  звёздами   на земле      
+
+[LINE]
+Speaker3107: That's on~the~west side  of~the~city.
+~            это    в~западной  части города      
+
+[LINE]
+Speaker3107: You~have   to~drive on the~highway for~an~hour    and get~off on Hollywood~Boulevard.  
+~            тебе~нужно ехать    по шоссе       в~течение~часа и   съехать на Голливудском~бульваре 
+
+[LINE]
+Speaker592: An~hour?! That's too     long. 
+~           час       это    слишком долго 
+
+[LINE]
+Speaker592: How~far~is the~Hollywood~sign from~here?
+~           как~далеко знак~Голливуда     отсюда    
+
+[LINE]
+Speaker3107: That's in the~north part  of~town.
+~            это    в  северной  части города  
+
+[MULTIPLE_CHOICE]
+> В какой части города находится знак Голливуда?
+- в восточной
++ в северной
+- в южной
+
+[LINE]
+Speaker3107: You'll~have   to~drive straight on Vermont Avenue for~an~hour.   
+~            тебе~придётся ехать    прямо    по Вермонт Авеню  в~течение~часа 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker592: [(Maybe) (I'll~go) (to) (Malibu).]
+~             может   я~поеду   в    Малибу   
+
+[LINE]
+Speaker3107: Oh, no.  If   you want   to~go   there, then  you'll~be    in traffic for~at~least two hours.
+~            о   нет  если ты  хочешь поехать туда   тогда ты~окажешься в  пробке  минимум~на   два часа  
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker592: Is~there~any~place  that    takes   less~than [an~hour to~get~to]?             
+~           есть~какое-то~место которое требует меньше     часа    чтобы~добраться~(туда)  
++ an~hour to~get~to             
+~ часа    чтобы~добраться~(туда)
+- a~cup of~coffee
+~ чашку кофе     
+- ten    dollars  in~coins
+~ десять долларов монетами
+
+[LINE]
+Speaker3107: The~art~museum       is~only   fifty-nine        minutes from~here!
+~            художественный~музей всего~(в) пятидесяти~девяти минутах отсюда    
+
+[LINE]
+> Oscar leaves     the~kitchen.
+~ Оскар уходит~(с) кухни       
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker3107: So,  [where~are~you~going]?
+~            так   куда~ты~идёшь        
+- here you are rowing
++ where are you going
+- why are you growing
+
+[LINE]
+Speaker592: You just   got   a~new TV,        right?
+~           ты  только купил новый телевизор  верно 
+
+[LINE]
+Speaker3107: Yes! It's in the~living~room.
+~            да   он   в  гостиной        
+
+[LINE]
+Speaker592: That's~where I'm going.
+~           вот~туда     я   иду   
+
+[MULTIPLE_CHOICE]
+> Почему Оскар решил остаться смотреть телевизор?
+- Он уже посетил все интересующие его места.
++ Дорога к любому интересному месту в городе занимает кучу времени.
+- По телевизору идёт его любимая передача.
+
+[MATCH]
+> Коснитесь пар
+- Is there any place <> есть какое-то место
+- that <> которое
+- too <> слишком
+- How far is <> как далеко
+- the north <> северной
+
