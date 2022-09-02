@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=생일 계획
+icon=9ac312d372abe49d99606848f5a7a8414143346d
+set=11|1
+
+[HEADER]
+> Birthday Plan
+~ 생일       계획  
+
+[LINE]
+> Eddy~is sleeping. Junior runs~into~his~room.
+~ 에디가     자고~있다     주니어가   그의~방으로~뛰어~들어온다     
+
+[LINE]
+Speaker415: Dad! Dad!
+~           아빠   아빠  
+
+[LINE]
+Speaker414: What? Huh? Oh, good~morning, Junior.
+~           뭐라고   뭐    아   좋은~아침이구나      주니어    
+
+[LINE]
+Speaker415: Dad, I can't~wait for~my~birthday~party!
+~           아빠   전 못~기다리겠어요   제~생일파티를               
+
+[MULTIPLE_CHOICE]
+> 주니어는 생일파티를 원하지 않는다.
++ 아니요, 그렇지 않아요.
+- 네, 맞아요.
+
+[LINE]
+Speaker414: Oh! Yes… Happy~birthday…?
+~           아   그래   생일~축하해          
+
+[LINE]
+Speaker414: What~kind~of~party do~you~want, Junior?
+~           어떤~종류의~파티를         원하니          주니어    
+
+[LINE]
+Speaker415: I~don't~know!
+~           모르겠어요        
+
+[LINE]
+Speaker415: But I want ice~cream! A~lot~of ice~cream!
+~           하지만 전 원해요  아이스크림을     아주~많은~양의 아이스크림이요   
+
+[LINE]
+Speaker414: OK, Junior! It's~your~birthday!
+~           그래  주니어     너의~생일이니까           
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker415: [(Can~we)      (also) (have) (a~big~cake)?]
+~             (우리는)~해도~돼요   또한     먹다     커다란~케이크를     
+
+[LINE]
+Speaker414: Of~course, Junior!
+~           물론이지       주니어    
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker415: Great! And I want [all~my~friends] to~come!
+~           좋아요    그리고 전 원해요   제~친구들~모두가       오기를     
+- all of my fish
+- a lot of fries
++ all my friends
+
+[LINE]
+Speaker414: Oh! We  need~to~invite them~all now!  
+~           아   우리는 초대해야~해         그들~모두를   지금~당장 
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker414: What~time do~you~want~to~have [your party]?
+~           몇~시에      하고~싶니                너의   파티를    
+- the~morning
+~ 아침         
++ your party
+~ 너의   파티   
+- my birthday
+~ 나의 생일      
+
+[LINE]
+> Eddy looks at~his~phone.
+~ 에디가  본다    그의~휴대폰을      
+
+[LINE]
+Speaker414: Wait… it's~only~January. Your birthday~is in~May, Junior!
+~           잠깐만   아직~1월이잖아           너의   생일은         5월이야    주니어    
+
+[LINE]
+Speaker415: Yes, I~know. I~can't~wait!
+~           네    알아요     못~기다리겠어요     
+
+[LINE]
+Speaker415: But can~we~still~have ice~cream today, Dad?
+~           하지만 여전히~먹어도~돼요        아이스크림을    오늘     아빠  
+
+[LINE]
+Speaker414: Aaah…| Yes, Junior.
+~           아      그래   주니어    
+
+[MULTIPLE_CHOICE]
+> 에디는 무엇을 깨달았나요?
+- 주니어가 실은 아이스크림을 좋아하지 않는다는 사실.
+- 오늘이 주니어의 생일인 것을 깜빡했다는 사실.
++ 주니어의 생일이 아직 몇 개월 남았다는 사실.
+
+[MATCH]
+> 짝을 누르세요
+- at his phone <> 그의 휴대폰을
+- runs into his room <> 그의 방으로 뛰어 들어온다
+- A lot of <> 아주 많은 양의
+- What time <> 몇 시에
+- a big cake <> 커다란 케이크를
+
