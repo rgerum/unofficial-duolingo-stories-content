@@ -1,0 +1,127 @@
+[DATA]
+fromLanguageName=Удалёнка
+icon=a791ba499744af6b30bd5863838619250f9b3437
+set=30|3
+
+[HEADER]
+> Work   from Home
+~ работа из   дома
+
+[LINE]
+> Bea~is~having a~video~meeting with her boss,        Paula.
+~ у~Би          видеовстреча    с    её  начальницей  Полой 
+
+[LINE]
+Speaker988: Thank~you for~working~from~home while we were~fixing   the~ceilings at the~office.
+~           спасибо   за~работу~из~дома     пока  мы ремонтировали потолки      в  офисе      
+
+[LINE]
+Speaker507: No~problem! 
+~           без~проблем 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker988: But [I~have~great~news]!       The~office will~finally~open again on Monday.     
+~           но   у~меня~отличные~новости   офис       наконец~откроется снова в  понедельник 
+- I have great shoes
++ I have great news
+- what if they knew
+
+[LINE]
+Speaker507: Uhh… Monday?     
+~           э-э  понедельник 
+
+[LINE]
+Speaker988: Yes, isn't~that   great?  
+~           да   разве~это~не чудесно 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker507: [(Well), (I~like)       (working)  (from) (home)…]
+~             ну      мне~нравится   работать   из     дома   
+
+[LINE]
+> A~surfer walks    by   Bea's~window.
+~ сёрфер   проходит мимо окна~Би      
+
+[LINE]
+Speaker988: Was~that a~surfer? You don't live   near  the~beach…
+~           это~был  сёрфер    ты  не    живёшь возле пляжа     
+
+[LINE]
+Speaker507: Uh, if   our  meeting is~finished, then  I'll~see~you    on Monday!     
+~           эм  если наша встреча окончена     тогда увидимся~с~вами в  понедельник 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «восход».
+> (Paula) (sees)  (+the~sunrise) from (Bea's~window).
+~  Пола    видит    восход       из    окна~Би       
+
+[LINE]
+Speaker988: Wait~a~minute,   the~sun is~rising behind you,  but it's~eleven~a.m.       
+~           подожди~минутку  солнце  встаёт    позади тебя  но  сейчас~одиннадцать~утра
+
+[MULTIPLE_CHOICE]
+> Хмм… Кажется...
+- …день будет пасмурным.
++ …Би не дома.
+- …Би смотрит телевизор.
+
+[LINE]
+Speaker988: You're not working   from home, are~you?  
+~           ты     не  работаешь из   дома  не~так~ли 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker507: Yes, [I~am~working from home]…
+~           да    я~работаю    из   дома  
++ I~am~working from home
+~ я~работаю    из   дома
+- I~am~fixing  the~ceilings
+~ я~ремонтирую потолки     
+- I~am~taking a~dance~class
+~ я~беру      урок~танцев  
+
+[LINE]
+> A~seagull flies~in through~Bea's~window and sits    on~her~desk.          
+~ чайка     залетает в~окно~Би            и   садится к~ней~на~рабочий~стол 
+
+[LINE]
+Speaker507: Ahahaha! From my~aunt's~home… on an~island.
+~           ха-ха    из   дома~моей~тёти  на острове   
+
+[ARRANGE]
+> Наберите услышанное
+Speaker507: [(But) (this~whole~island) (has~great)     (wifi)!]   
+~             но    на~всём~острове     есть~отличный   вай-фай   
+
+[LINE]
+Speaker507: You're~not~mad, are~you?
+~           вы~не~злитесь   правда  
+
+[LINE]
+Speaker988: Actually,  it~doesn't~matter where you~are right~now.
+~           вообще-то  неважно           где   ты      сейчас    
+
+[LINE]
+Speaker507: Oh, good!  
+~           о   хорошо 
+
+[LINE]
+Speaker988: But you  need  to~be~on~the~first~flight   back. 
+~           но  тебе нужно (вылететь)~первым~же~рейсом назад 
+
+[MULTIPLE_CHOICE]
+> Почему Би должна вернуться первым же рейсом?
+- Ей нужно ухаживать за своей больной тётей.
++ С понедельника ей придётся работать в офисе.
+- Оказалось, что у неё аллергия на чаек.
+
+[MATCH]
+> Коснитесь пар
+- the office <> офисе
+- meeting <> встреча
+- again <> снова
+- it doesn't matter <> неважно
+- Paula <> Полой
+
