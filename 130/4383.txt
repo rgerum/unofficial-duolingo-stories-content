@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=Не для детей
+icon=92f8e9fbcb106a065c67e2efcbb467a67077da4b
+set=12|4
+
+[HEADER]
+> Not For Kids 
+~ не  для детей
+
+[LINE]
+> Zari is~watching        Junior      because    Eddy is~at~work.
+~ Зари присматривает~(за) Джуниор(ом) потому~что Эдди на~работе  
+
+[LINE]
+Speaker415: Zari! Can~we   play         your video~game!?
+~           Зари  мы~можем поиграть~(в) твою видеоигру   
+
+[LINE]
+Speaker418: I~have    to~finish cleaning before      your dad  comes  home. 
+~           мне~нужно закончить уборку   до~того~как твой папа придет домой 
+
+[MULTIPLE_CHOICE]
+> Сейчас Зари не может играть в видеоигры.
+- Нет, это неправда.
++ Да, это правда.
+
+[LINE]
+Speaker415: Well…  can~I  play~the~video~game? 
+~           что~ж  я~могу поиграть~в~видеоигру 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «детей».
+Speaker418: (Sorry),  (my)  (video~game) is~not~for (+kids). 
+~            прости    моя   видеоигра   не~для       детей  
+
+[LINE]
+Speaker415: I~am~not a~kid!  
+~           я~не     ребенок 
+
+[LINE]
+Speaker418: Hmm… well,  adults   wash~dishes.
+~           хм   что~ж  взрослые моют~посуду 
+
+[LINE]
+Speaker415: I can  wash~dishes!  
+~           я могу помыть~посуду 
+
+[CONTINUATION]
+> Продолжите фразу
+> Junior  starts   to~washh the~dishes].
+~ Джуниор начинает мыть     посуду      
++ wash~the~dishes
+~ мыть~посуду    
+- eat~dinner
+~ ужинать   
+- clean~the~video~game
+~ мыть~видеоигру      
+
+[LINE]
+Speaker415: See?   
+~           видишь 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker418: [(Adults)   (also)  (clean)    (the~table).]
+~             взрослые   также   вытирают   стол        
+
+[LINE]
+Speaker415: I can  clean~the~table!
+~           я могу вытереть~стол   
+
+[LINE]
+> Junior~cleans~the~table.
+~ Джуниор~вытирает~стол   
+
+[LINE]
+Speaker418: Wow,   good~job! You~are~an~adult.
+~           ух~ты  молодец   ты~взрослый      
+
+[MULTIPLE_CHOICE]
+> Почему Зари говорит Джуниору, что он взрослый?
+- Она больше не хочет за ним присматривать.
+- Он стал очень высоким.
++ Он убрал дом как взрослый.
+
+[LINE]
+Speaker415: Now    can~we   play         your video~game!?
+~           теперь мы~можем поиграть~(в) твою видеоигру   
+
+[LINE]
+Speaker418: Oh no!  It's~nine~o'clock.   You~need   to~go~to~bed!
+~           о  нет  сейчас~девять~часов  тебе~нужно идти~спать   
+
+[LINE]
+Speaker415: But I'm~an~adult! Adults   go~to~bed~late.      
+~           но  я~взрослый    взрослые ложатся~спать~поздно 
+
+[MULTIPLE_CHOICE]
+> Джуниор говорит, что он взрослый, а значит…
++ …он может ложиться спать поздно.
+- …он должен найти себе работу.
+- …он может жениться на Зари.
+
+[MATCH]
+> Коснитесь пар
+- because <> потому что
+- wash dishes <> моют посуду
+- play the video game <> поиграть в видеоигру
+- is watching <> присматривает
+- See <> видишь
+
