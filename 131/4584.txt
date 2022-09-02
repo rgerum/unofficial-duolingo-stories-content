@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=Дивний шум
+icon=21138fac4fa22d97330dc25cec4b68dcda9abc13
+set=10|1
+
+[HEADER]
+> A~Strange Noise 
+~ дивний    шум   
+
+[LINE]
+> Ben is          in his   bedroom at~night.
+~ Бен знаходиться у  своїй спальні вночі    
+
+[SELECT_PHRASE]
+> Виберіть пропущену фразу
+> He  [hears~a~noise].
+~ він  чує~шум        
+- hears noses
++ hears a noise
+- hear noisy
+
+[LINE]
+Speaker236: What~is~that~noise ?
+~           що~це~за~шум        
+
+[LINE]
+Speaker236: It's~coming from the~garden…
+~           він~іде     із   саду       
+
+[MULTIPLE_CHOICE]
+> Бен думає, що з кухні долинає шум.
+- Так, це правда.
++ Ні, це неправда.
+
+[LINE]
+> He  walks~to     the~window and listens       .
+~ він підходить~до вікна      і   прислухається  
+
+[LINE]
+Speaker236: Hello?
+~           агов  
+
+[ARRANGE]
+> Що ви чуєте?
+Speaker236: [(Who) (is) (there)?]
+~             хто   є    там     
+
+[LINE]
+Speaker236: I~can~hear you!
+~           я~чую      вас 
+
+[LINE]
+Speaker236: I~have a~big   dog in~here with~me!
+~           у~мене великий пес тут     зі~мною 
+
+[LINE]
+> Ben hears more noises.
+~ Бен чує   ще   звуки  
+
+[LINE]
+Speaker236: I'm~going to~call      the~police!  
+~           я~буду    телефонувати (до)~поліції 
+
+[MULTIPLE_CHOICE]
+> Що Бен має на увазі?
++ Він збирається викликати поліцію.
+- Він збирається слухати поліцію.
+- Він чує, як під'їжджає поліція.
+
+[LINE]
+> Then, he  hears something different.
+~ тоді  він чує   щось      інше      
+
+[LINE]
+Speaker58: Woof!
+~          гав  
+
+[CONTINUATION]
+> Чим закінчується речення?
+Speaker236: Oh,  it's [the~dog]!
+~           о-о  це    пес      
+- … the cow.
++ … the dog.
+- … the bird.
+
+[LINE]
+Speaker236: Come~in here, Martin! 
+~           заходь  сюди  Мартіне 
+
+[LINE]
+Speaker236: Why  are~you in the~garden?
+~           чому ти      в  саду       
+
+[LINE]
+> Ben opens    the~door and his  dog walks~in.
+~ Бен відчиняє двері    і   його пес заходить 
+
+[LINE]
+Speaker236: You~need      to~be in~the~house… you~are my  guard~dog!     
+~           тобі~потрібно бути  у~будинку     ти      мій сторожовий~пес 
+
+[MULTIPLE_CHOICE]
+> Бен хоче, щоб пес...
++ … був у будинку і захищав його.
+-  … залишався на вулиці.
+- … пішов геть, бо він боїться його. 
+
+[MATCH]
+> З’єднайте пари
+- the police <> поліції
+- listens <> прислухається
+- are you <> ти
+- hears <> чує
+- it's <> це
+
