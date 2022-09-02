@@ -1,0 +1,106 @@
+[DATA]
+fromLanguageName=Паспорт
+icon=643347b755001a918130ddf5f6d3e914e63a00ce
+set=2|1
+
+[HEADER]
+> The~Passport
+~ паспорт     
+
+[LINE]
+> Vikram and his wife, Priti, are~at~the~airport.
+~ Викрам и   его жена  Прити  в~аэропорту        
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker593: Oh no.  [Where~is~my~passport]?
+~           о  нет   где~мой~паспорт       
+-  What is my passport
++ Where is my passport
+- Here is my passport
+
+[LINE]
+Speaker593: It~is~not here! 
+~           его~нет   здесь 
+
+[LINE]
+Speaker560: Vikram...
+~           Викрам   
+
+[LINE]
+Speaker593: It~is~not in~my~bag…   
+~           его~нет   в~моей~сумке 
+
+[LINE]
+Speaker593: And it~is~not in my   jacket… 
+~           и   его~нет   в  моём пиджаке 
+
+[MULTIPLE_CHOICE]
+> Викрам не может найти паспорт.
++ Да, это правда.
+- Нет, это неправда.
+
+[LINE]
+Speaker560: But Vik...
+~           но  Вик   
+
+[LINE]
+Speaker593: Oh! My~passport is~in~the~taxi!
+~           о   мой~паспорт в~такси        
+
+[POINT_TO_PHRASE]
+> Выберите вариант «бежит».
+> (Vikram) (+runs)  (to) (the~taxi).
+~  Викрам    бежит   к    такси     
+
+[LINE]
+Speaker560: Vik, no! 
+~           Вик  нет 
+
+[LINE]
+> Priti runs  to Vikram. 
+~ Прити бежит к  Викраму 
+
+[LINE]
+Speaker593: Oh no,  the~taxi is~not~here now.   
+~           о  нет  такси    здесь~нет   теперь 
+
+[LINE]
+Speaker593: This~is a~big   problem... 
+~           это     большая проблема   
+
+[LINE]
+Speaker560: Vikram!
+~           Викрам 
+
+[LINE]
+Speaker560: Your~passport is~not~in~the~taxi.
+~           твой~паспорт  не~в~такси         
+
+[POINT_TO_PHRASE]
+> Выберите вариант «руке».
+Speaker560: (Your~passport) (is~in~your) (+hand).
+~            твой~паспорт    в~твоей       руке  
+
+[LINE]
+Speaker593: Oh...
+~           о    
+
+[LINE]
+Speaker593: Thank~you, my~love.
+~           спасибо    любимая 
+
+[MULTIPLE_CHOICE]
+> Где паспорт Викрама?
++ У него в руке.
+- В такси.
+- У него дома.
+
+[MATCH]
+> Коснитесь пар
+- Priti <> Прити
+- is in your <> в твоей
+- My passport <> мой паспорт
+- Thank you <> спасибо
+- a big <> большая
+
