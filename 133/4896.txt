@@ -1,0 +1,167 @@
+[DATA]
+fromLanguageName=송별회
+icon=b79230ae81e343d886b4cea62a52d0b5883bd728
+set=39|1
+
+[HEADER]
+> Going~Away~Party
+~ 송별회             
+
+[LINE]
+> Oscar~is moving   to~a~new~city for~a~new~job.
+~ 오스카가     이사갈~예정이다 새~도시로         새~직장~때문에      
+
+[LINE]
+> His friends~are having~a~goodbye~party for~him.
+~ 그의  친구들이        송별~파티~중이다              그를~위해   
+
+[LINE]
+Speaker592: Thank~you, everyone! I'm~so~lucky to~have~friends.
+~           고마워        모두들       정말~행운이야      친구들이~있어서        
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker592: [(I) (will~miss) (you) (all).]
+~             난   보고~싶을~거야    너희들   모두    
+
+[LINE]
+Speaker509: What will~you~miss about~us, Oscar?
+~           뭐가   그리울~거야        우리에~대해    오스카   
+
+[LINE]
+Speaker592: Um… I'll~miss hearing your alarm every~morning, Lucy. It always wakes~me~up so early.
+~           음   난~그리울~거야  듣는~게    네    알람을   매일~아침          루시    그건 항상     날~깨워        아주 일찍    
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker509: Thanks, Oscar! I'll~miss [living~next~to~you].
+~           고마워     오스카    난~그리울~거야   네~옆집에~사는~게          
+- leaving a mess for you
++ living next to you
+- giving a nest to you
+
+[LINE]
+Speaker592: And Eddy… I suppose I'll~miss spending~time with~you~and~Junior.
+~           그리고 에디    내 생각엔     난~그리울~거야  시간을~보내는~게     너와~주니어랑             
+
+[LINE]
+Speaker414: Actually, you promised to~babysit Junior, but you~never~did.
+~           사실        네가  약속했어     봐주기로       주니어를    하지만 그러지~않았어       
+
+[LINE]
+Speaker592: Oh, well. Now it's too late.
+~           아   음     이제  그건   너무  늦었어  
+
+[LINE]
+Speaker507: What will~you~miss about~me, Oscar?
+~           뭘    그리워할~거예요      저에~대해선    오스카   
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker592: [(I'll~miss) (trying) (new) (things) (with~you,~Bea).]
+~             그리울~거야      해보는~게    새로운   것들을      비~너랑            
+
+[LINE]
+Speaker507: You also said you~wanted~to~go~camping with~me, Oscar, but you~never~did.
+~           당신이 또한   말했어요 캠핑을~가고~싶다고               저랑       오스카    하지만 그러지~않았어요      
+
+[LINE]
+Speaker592: Yeah, I'm~sorry we  never~slept~outside in~the~cold, near~spiders~and~bears.
+~           응     미안해       우리가 밖에서~자보지~못해서         추위~속에        거미들과~곰들~근처에서           
+
+[MULTIPLE_CHOICE]
+> Oscar said he would~go~camping, but…
+~ 오스카는  말했다  그가 캠핑을~가겠다고          하지만 
++ …it~doesn't~seem~like he really wants~to.
+~  ~인~것~같지~않다           그가 정말로    하고~싶다    
+- …a~bear  broke his tent.
+~  곰~한~마리가 망가뜨렸다 그의  텐트를  
+- …Bea~is too afraid of~spiders.
+~  비는     너무  무서워한다  거미를        
+
+[LINE]
+> Oscar receives an~email on~his~phone. He reads it and looks~upset.
+~ 오스카가  받는다      이메일을     그의~휴대폰으로      그가 읽는다   그걸 그리고 속상해~보인다     
+
+[LINE]
+Speaker509: Is~everything~OK, Oscar?
+~           괜찮아               오스카   
+
+[CONTINUATION]
+> What comes next?
+~ 무엇이  오나요   다음에  
+Speaker592: No, I don't~have~a~new~job anymore, so  I~can't~move~away. And I'll~have~to~stay at [my old job].
+~           아니  난 새~직장이~없어             더~이상     그래서 이사를~못~가게~됐어        그리고 머물러야~돼            ~에  내  예전  직장   
+- Bea's tent
+~ 비의    텐트  
++ my old job
+~ 내  예전  직장 
+- the~dog~park
+~ 애견공원        
+
+[LINE]
+Speaker509: Oh,~no!
+~           아~이런   
+
+[POINT_TO_PHRASE]
+> Choose the~option~that~means "부끄러운."
+~ 고르세요   ~을~뜻하는~말을              ~     
+Speaker592: I'm so (+embarrassed). (What) (do~I~tell) (everyone)?
+~           난   너무   부끄러워           뭐라고    말하지         모두한테      
+
+[LINE]
+> Lucy turns~to~everyone~else at~the~party.
+~ 루시가  모두를~바라본다               파티에서         
+
+[LINE]
+Speaker509: Everyone, I~have~great~news! Oscar~is staying.   He decided he~will~miss us  too~much!
+~           여러분       좋은~소식이~있어요         오스카는     여기~머물~거예요  그가 결정했어요   보고~싶을~거라고    우리가 너무도      
+
+[LINE]
+> Everyone cheers.
+~ 모두가      환호한다   
+
+[MULTIPLE_CHOICE]
+> Everyone~is…
+~ 모두가         
++ …happy that Oscar~is staying.
+~  행복해한다 ~해서  오스카가     머무를~것이다 
+- …getting~sick from~eating too much cake.
+~  속이~안~좋다      먹어서         너무  많이   케이크를 
+- …angry that Oscar~is staying.
+~  화가~났다 ~해서  오스카가     머무를~것이다 
+
+[LINE]
+Speaker414: Now you can~babysit Junior this weekend, Oscar!
+~           이제  네가  봐줄~수~있어     주니어를   이번   주말에      오스카   
+
+[LINE]
+Speaker507: And, we can~go~camping next weekend! We just have~to~wake~up early.
+~           그리고  우린 캠핑을~갈~수~있어요    다음   주말에      우린 단지   일어나기만~하면~돼요     일찍    
+
+[LINE]
+Speaker509: Don't~worry, Oscar. My alarm will~wake~you~up!
+~           걱정~마         오스카    내  알람이   널~깨워줄~거야         
+
+[LINE]
+Speaker592: Great. I'm~so~lucky to~have~friends.
+~           잘~됐네   정말~행운이야      친구들이~있어서        
+
+[MULTIPLE_CHOICE]
+> Now~that~Oscar~is~staying, his friends want him to… 
+~ 이제~오스카가~머물게~돼서             그의  친구들은    원한다  그가  ~하길 
+- …go~swimming with~them in~the~ocean.
+~  수영하러~가다     그들과       바다에          
++ …do all~the~things he~said~he~wanted~to~do.
+~  하다 모든~걸           그가~하고~싶다고~말한            
+- …take them on~a~long~vacation to~Rome.
+~  데려가다 그들을  긴~휴가~여행에           로마로     
+
+[MATCH]
+> 짝을 누르세요
+- can go camping <> 캠핑을 갈 수 있어요
+- so <> 아주
+- for him <> 그를 위해
+- every morning <> 매일 아침
+- Great <> 잘 됐네
+
