@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=Последнее место
+icon=cd2e97ba5e87d05c1e69dd805c067ece32ea89d5
+set=18|2
+
+[HEADER]
+> The~Last  Seat 
+~ последнее место
+
+[LINE]
+> Oscar and Eddy get~on    the~bus.
+~ Оскар и   Эдди садятся~в автобус 
+
+[LINE]
+Speaker414: Wow, I~am very  tired.   
+~           ого  я    очень уставший 
+
+[LINE]
+Speaker592: I'm tired~too.     I~had      a~busy     day. 
+~           я   тоже~уставший  у~меня~был насыщенный день 
+
+[LINE]
+Speaker592: Oh. There's only   one  empty     seat. 
+~           ой  есть    только одно свободное место 
+
+[MULTIPLE_CHOICE]
+> В автобусе всего одно свободное место.
++ Да, это правда.
+- Нет, это неправда.
+
+[LINE]
+Speaker414: You~can~have~it.
+~           можешь~сесть    
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker414: I always give  the~last  seat  to~people [older~than~me].
+~           я всегда отдаю последнее место людям      старше~меня    
+- colder than me
+- older than he
++ older than me
+
+[LINE]
+Speaker592: What? I'm only   a~little older  than~you!
+~           что   я   только немного  старше тебя     
+
+[ARRANGE]
+> Наберите услышанное
+Speaker414: [(But) (you~have)    (some~gray~hair)…]
+~             но    у~тебя~есть   седые~волосы     
+
+[LINE]
+Speaker592: You~have some~gray~hair too. 
+~           у~тебя   седые~волосы   тоже 
+
+[LINE]
+Speaker414: I~have      gray~hair?!   
+~           у~меня~есть седые~волосы  
+
+[LINE]
+Speaker592: You can    sit~down. You~are very  tired.   
+~           ты  можешь сесть     ты      очень уставший 
+
+[LINE]
+Speaker414: No!  I~have a~lot~of energy! 
+~           нет  у~меня много    энергии 
+
+[LINE]
+Speaker414: I go   to the~gym         every  day! 
+~           я хожу в  тренажёрный~зал каждый день 
+
+[LINE]
+Speaker592: You're tired    because    you go     to the~gym         every  day!  You~need   to~rest…  
+~           ты     уставший потому~что ты  ходишь в  тренажерный~зал каждый день  тебе~нужно отдохнуть 
+
+[MULTIPLE_CHOICE]
+> Почему Оскар говорит, что Эдди нужно отдохнуть?
+- Эдди плохо спал прошлой ночью.
+- Эдди болен.
++ Эдди занимается в тренажёрном зале каждый день.
+
+[LINE]
+Speaker414: I'm not going     to~sit~down, Oscar.
+~           я   не  собираюсь садиться     Оскар 
+
+[LINE]
+Speaker592: Then  I'm not going~to  sit~down either!
+~           тогда я   не  собираюсь садиться тоже   
+
+[POINT_TO_PHRASE]
+> Выберите вариант «подросток».
+> (+A~teenager) (gets~on)   (the~bus).
+~   подросток    садится~в   автобус  
+
+[LINE]
+Speaker1649: Cool,  an~empty  seat!  I'll sit~down!
+~            круто  свободное место  я    сяду     
+
+[MULTIPLE_CHOICE]
+> Почему Эдди или Оскар не сели на свободное место?
+- Место было грязным.
++ Они оба слишком упрямые.
+- Они хотели, чтобы место занял подросток.
+
+[MATCH]
+> Коснитесь пар
+- give <> отдаю
+- I had <> у меня был
+- going <> собираюсь
+- You <> ты
+- go <> хожу
+
