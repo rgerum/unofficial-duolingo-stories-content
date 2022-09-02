@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=План на день рождения
+icon=9ac312d372abe49d99606848f5a7a8414143346d
+set=12|1
+
+[HEADER]
+> Birthday~Plan        
+~ план~на~день~рождения
+
+[LINE]
+> Eddy is~sleeping. Junior  runs~into  his room.    
+~ Эдди спит         Джуниор забегает~в его комнату  
+
+[LINE]
+Speaker415: Dad!  Dad! 
+~           папа  папа 
+
+[LINE]
+Speaker414: What? Huh? Oh, good   morning, Junior. 
+~           что   а    ой  доброе утро     Джуниор 
+
+[LINE]
+Speaker415: Dad,  I can't~wait~for    my    birthday~party!            
+~           папа  я не~могу~дождаться моего праздника~на~день~рождения 
+
+[MULTIPLE_CHOICE]
+> Джуниор не хочет праздновать день рождения.
++ Нет, это неправда.
+- Да, это правда.
+
+[LINE]
+Speaker414: Oh! Yes… Happy~birthday…?! 
+~           ой  да   с~днем~рождения   
+
+[LINE]
+Speaker414: What~kind~of party    do~you~want, Junior? 
+~           какой        праздник ты~хочешь    Джуниор 
+
+[LINE]
+Speaker415: I don't know!
+~           я не    знаю 
+
+[LINE]
+Speaker415: But I want ice~cream! A~lot~of ice~cream! 
+~           но  я хочу мороженое  много    мороженого 
+
+[LINE]
+Speaker414: OK,     Junior!  It's your birthday!     
+~           хорошо  Джуниор  это  твой день~рождения 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker415: [(Can~we~also~have) (a~big)   (cake)?] 
+~             можно~нам~ещё      большой   торт    
+
+[LINE]
+Speaker414: Of~course, Junior! 
+~           конечно    Джуниор 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker415: Great!   And I want         [all~my~friends] to~come!
+~           отлично  и   я хочу~(чтобы)  все~мои~друзья  пришли  
+- all of my fish
++ all my friends
+- a lot of fries
+
+[LINE]
+Speaker414: Oh! We~need   to~invite  them~all now!   
+~           ой  нам~нужно пригласить их~всех  сейчас 
+
+[CONTINUATION]
+> Продолжите фразу:
+Speaker414: What~time do~you~want to~have  [your~party]?   
+~           когда     ты~хочешь   устроить  свой~праздник  
+- the~morning
+~ утро       
++ your~party   
+~ свой~праздник
+- my~birthday      
+~ мой~день~рождения
+
+[LINE]
+> Eddy looks~at  his  phone.  
+~ Эдди смотрит~в свой телефон 
+
+[LINE]
+Speaker414: Wait…   it's~only     January. Your birthday      is~in~May, Junior! 
+~           погоди  сейчас~только январь   твой день~рождения в~мае      Джуниор 
+
+[LINE]
+Speaker415: Yes, I know. I~can't~wait!        
+~           да   я знаю  я~не~могу~дождаться  
+
+[LINE]
+Speaker415: But can~we   still  have~ice~cream   today,   Dad? 
+~           но  мы~можем всё~же съесть~мороженое сегодня  папа 
+
+[LINE]
+Speaker414: Aaah … Yes, Junior. 
+~           ах     да   Джуниор 
+
+[MULTIPLE_CHOICE]
+> Что понял Эдди?
+- День рождения Джуниора сегодня, и он о нём забыл.
+- Джуниору на самом деле не нравится мороженое.
++ Что день рождения Джуниора через пару месяцев.
+
+[MATCH]
+> Коснитесь пар
+- A lot of <> много
+- my <> моего
+- know <> знаю
+- Of course <> конечно
+- do you want <> ты хочешь
+
