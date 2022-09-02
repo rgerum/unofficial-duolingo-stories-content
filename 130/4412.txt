@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=Фильм ужасов
+icon=1038afc2cf4744d25820807d461131e153f7ddcf
+set=20|1
+
+[HEADER]
+> The~Horror~Movie
+~ фильм~ужасов    
+
+[LINE]
+> Lily and Zari arrive    at the~movie~theater.
+~ Лили и   Зари приезжают в  кинотеатр         
+
+[LINE]
+> A~boy   from their school is~working there.
+~ мальчик из   их    школы  работает   там   
+
+[LINE]
+Speaker418: Hi,     Billy! Two tickets for "Blood~Lake",     please!    
+~           привет  Билли  два билета  на   кровавое~озеро   пожалуйста 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker1649: No,  [you're~too~young] to~see           that movie.
+~            нет   вы~ещё~маленькие  (чтобы)~смотреть тот  фильм 
+- you aren't young
++ you're too young
+- you're too fun
+
+[LINE]
+Speaker416: But you always sell     us  tickets for horror~movies!
+~           но  ты  всегда продаёшь нам билеты  на  фильмы~ужасов 
+
+[LINE]
+Speaker1649: You also  have~coffees     from the~café across~the~street.
+~            вы  также (приносите)~кофе из   кафе     через~дорогу      
+
+[ARRANGE]
+> Наберите услышанное
+Speaker1649: [(You~can't)  (bring~those)     (into) (the~theater).]
+~              вам~нельзя   приносить~такое   в      кинотеатр     
+
+[LINE]
+> Lily takes both coffees          and throws      them in the~trash.
+~ Лили берёт оба  (стакана~с)~кофе и   выбрасывает их   в  мусор     
+
+[LINE]
+Speaker418: Aw, my  coffee! With extra~chocolate   and cream!   
+~           ой  мой кофе    с    двойным~шоколадом и   сливками 
+
+[LINE]
+Speaker416: Sorry. 
+~           прости 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker1649: Well, you still     can't~have      [a~ticket].
+~            ну    вам всё~равно нельзя~получить  билет     
++ a~ticket
+~ билет   
+- this trash
+~ этот мусор
+- more   chocolate
+~ больше шоколада 
+
+[LINE]
+Speaker416: Why?   
+~           почему 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker1649: [(You) (always) (talk)           (during)               (movies).] 
+~              вы    всегда   разговариваете   во~время~(просмотра)   фильмов   
+
+[LINE]
+Speaker418: Why    are~you~doing~this, Billy? We're   friends!
+~           почему ты~так~поступаешь   Билли  мы~(же) друзья  
+
+[LINE]
+Speaker1649: If   we're friends, then  why    can't~I~be     in your  band?  
+~            если мы    друзья   тогда почему я~не~могу~быть в  вашей группе 
+
+[MULTIPLE_CHOICE]
+> Ну вот! Билли отказывается продать девочкам билеты, потому что...
+- …в зале нет свободных мест.
+- …они вылили его кофе в мусорный бак.
++ …он хочет играть в их группе.
+
+[LINE]
+Speaker418: Uh…  what  band?  
+~           э-э  какой группе 
+
+[LINE]
+Speaker1649: I heard  you~talking       about~starting a~band in class. 
+~            я слышал (как)~вы~говорили о~создании     группы в  классе 
+
+[LINE]
+Speaker416: OK,    fine.   We~need   a~guitar~player.
+~           ладно  хорошо  нам~нужен гитарист        
+
+[LINE]
+Speaker1649: Great!   When~is the~next  band~practice?   
+~            отлично  когда   следующая репетиция~группы 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker416: Tomorrow, [after~school].
+~           завтра     после~школы   
+- have to scroll
++ after school
+- at this cool
+
+[LINE]
+Speaker418: Now    can~we~please~have   two tickets to~see             "Blood~Lake"?    
+~           теперь можно~нам~пожалуйста два билета  (чтобы)~посмотреть  кровавое~озеро  
+
+[LINE]
+Speaker1649: Sure,    but not~until~tomorrow|–   after our   first  band~practice.   
+~            конечно  но  не~раньше,~чем~завтра  после нашей первой репетиции~группы 
+
+[MULTIPLE_CHOICE]
+> Когда Зари и Лили смогут посмотреть «Кровавое озеро»?
++ После того, как проведут репетицию с Билли.
+- В любое время, когда им захочется.
+- После того, как купят ещё кофе.
+
+[MATCH]
+> Коснитесь пар
+- and <> и
+- With <> с
+- movies <> фильмов
+- sell <> продаёшь
+- have coffees <> кофе
+
