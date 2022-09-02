@@ -1,0 +1,127 @@
+[DATA]
+fromLanguageName=Незнайомка
+icon=f3d07f61cdd95c84cb15d7f9d0e4b0dc8173072b
+set=9|2
+
+[HEADER]
+> The~Stranger 
+~ незнайомка   
+
+[LINE]
+> Harry is~at~work.
+~ Гаррі на~роботі  
+
+[LINE]
+> He's~talking  to~his~friend   on~the~phone.
+~ він~розмовляє із~своїм~другом по~телефону  
+
+[LINE]
+Speaker385: This~weekend …
+~           цих~вихідних  
+
+[LINE]
+Speaker385: … my  university~friends    and I…
+~             мої університетські~друзі та  я 
+
+[LINE]
+Speaker385: Wait~a~minute.   My  office~phone      is~ringing.
+~           зачекай~хвилину  мій службовий~телефон дзвонить   
+
+[MULTIPLE_CHOICE]
+>  Службовий телефон Гаррі задзвонив, коли він розмовляв з другом.
+- Ні, це неправда.
++ Так, це правда.
+
+[LINE]
+Speaker385: Hello?     
+~           здрастуйте 
+
+[LINE]
+Speaker292: Hello,      Harry.
+~           здрастуйте  Гаррі 
+
+[SELECT_PHRASE]
+> Виберіть пропущену фразу
+Speaker385: [Who~is~this]?
+~            хто~це       
++ Who is this
+- Is this an owl
+- Who is the prince
+
+[LINE]
+Speaker292: A~friend.
+~           подруга  
+
+[LINE]
+Speaker385: Who?
+~           хто 
+
+[LINE]
+Speaker292: I~need        you      to~help~me,   Harry.
+~           мені~потрібно (щоб)~ти допоміг~мені  Гаррі 
+
+[LINE]
+Speaker385: What~do~you~want? I don't know you!
+~           що~ви~хочете      я не    знаю вас 
+
+[SELECT_PHRASE]
+> Виберіть пропущену фразу
+Speaker292: But [I~know~you]. 
+~           але  я~знаю~тебе  
++ I know you
+- Why don't you
+- I don't know
+
+[LINE]
+Speaker292: And I'm~coming to your  office right~now!   
+~           і   я~йду      до твого офісу  просто~зараз 
+
+[LINE]
+Speaker385: No, please!     I'm~calling the~police!  
+~           ні  будь~ласка  я~телефоную (до)~поліції 
+
+[LINE]
+Speaker292: Harry, it's your boss!      
+~           Гаррі  це   твоя начальниця 
+
+[MULTIPLE_CHOICE]
+> Хто ця незнайомка?
+- Подруга Гаррі з університету.
++ Начальниця Гаррі.
+- Мати Гаррі.
+
+[LINE]
+Speaker292: You~need      to~finish your work!  
+~           тобі~потрібно закінчити свою роботу 
+
+[LINE]
+Speaker292: Don't~talk   to~your~friends   on~the~phone at~work.  
+~           не~розмовляй із~своїми~друзями по~телефону  на~роботі 
+
+[ARRANGE]
+> Що ви чуєте?
+Speaker292: [(All~of~the~office) (can)    (hear) (you)!] 
+~             усі~в~офісі         можуть   чути   тебе   
+
+[LINE]
+Speaker385: Oh no…
+~           о  ні 
+
+[LINE]
+Speaker385: Sorry,   I'll~start~working now!  
+~           вибачте  я~почну~працювати  зараз 
+
+[MULTIPLE_CHOICE]
+> Начальниця Гаррі зателефонувала сказати…
+- … що його звільнено за розмови з друзями під час роботи.
+- … що він отримав підвищення.
++ … що йому потрібно працювати, а не розмовляти зі своїми друзями.
+
+[MATCH]
+> З’єднайте пари
+- He's talking <> він розмовляє
+- now <> зараз
+- Who is this <> хто це
+- But <> але
+- All of the office <> усі в офісі
+
