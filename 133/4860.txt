@@ -1,0 +1,152 @@
+[DATA]
+fromLanguageName=메시지를 남겨줘
+icon=cee444ea2f249c913835205531b4e68f994b65b4
+set=30|1
+
+[HEADER]
+> Leave a~Message
+~ 남겨줘   메시지를     
+
+[LINE]
+> Lily~and~Zari~are listening to~music in~Zari's~bedroom.
+~ 릴리와~자리가           듣고~있다     음악을      자리의~방에서           
+
+[LINE]
+Speaker416: Isn't~Marco's~party~tomorrow?
+~           마르코의~파티가~내일~아냐               
+
+[LINE]
+Speaker418: Yes. I hope he invites~me. He's so cute.
+~           맞아   난 바라   그가 날~초대하길      그는   너무 귀여워  
+
+[MULTIPLE_CHOICE]
+> 자리는 마르코가 못생겼다고 생각한다.
++ 아니요, 그렇지 않아요.
+- 네, 맞아요.
+
+[LINE]
+Speaker416: He's… alright.
+~           그는    나쁘지~않아  
+
+[LINE]
+Speaker418: Just alright? Really? I think he's magical.
+~           단지   나쁘지~않다고  정말      내 생각에   그는   신비로워    
+
+[LINE]
+Speaker416: Zari, stop.
+~           자리야   그만해  
+
+[LINE]
+Speaker418: He~is as~beautiful~as~the~night~sky. I want~to~look at~him until~he~dies.
+~           그는    밤하늘처럼~아름다워                     난 바라보고~싶어      그를     그가~죽을~때까지     
+
+[LINE]
+Speaker416: Please~stop.
+~           제발~그만해      
+
+[LINE]
+Speaker418: His party~is going~to~be~the~best~party of~the~year.
+~           그의  파티는      최고의~파티가~될~거야               올해의         
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker418: [(There~will~be) (a)   (real) (K-pop~group) (there).]
+~             있을거야            하나의   진짜     케이팝~그룹이       거기에     
+
+[LINE]
+Speaker416: A~good~K-pop~group?
+~           괜찮은~케이팝~그룹         
+
+[LINE]
+Speaker418: All K-pop~groups~are good, Lily.
+~           모든  케이팝~그룹들은         괜찮아   릴리   
+
+[LINE]
+Speaker418: Will~you~please~come with~me to~Marco's~party?
+~           제발~가~줄래              나랑~같이   마르코의~파티에         
+
+[LINE]
+Speaker416: I~don't~know…
+~           글쎄           
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker418: I  can't~go [by~myself]!
+~           내가 갈~순~없잖아   혼자서        
+- by himself
+- fly myself
++ by myself
+
+[LINE]
+Speaker416: Maybe.
+~           봐서    
+
+[POINT_TO_PHRASE]
+> “울리다”를 뜻하는 말을 고르세요.
+> (Zari's) (phone) (starts) (+ringing).
+~  자리의      휴대폰이    시작한다      울리기      
+
+[LINE]
+Speaker418: It's~Marco! He's… calling me? 
+~           마르코야        얘가    전화를~걸어  나한테 
+
+[LINE]
+> The~phone~is still ringing.
+~ 휴대폰이         아직도   울린다     
+
+[LINE]
+Speaker416: Are~you~going~to~answer~it?
+~           전화~받을~거야                   
+
+[LINE]
+Speaker418: Ew, no!
+~           어후  아니 
+
+[LINE]
+Speaker416: No?  
+~           안~받아 
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker418: Only a~crazy~person actually calls  people [on~the~phone].
+~           오직   이상한~사람들만       실제로      전화를~걸어 사람들한테   휴대폰으로         
+- on the bone
+- won the phone
++ on the phone
+
+[LINE]
+Speaker416: Very~true.
+~           맞는~말이야    
+
+[LINE]
+Speaker418: If he wants~to~talk to~me, he should~send a~text. 
+~           만약 그가 얘기하고~싶으면      나랑     그가 보내야~해       문자~메시지를 
+
+[MULTIPLE_CHOICE]
+> 자리가 전화를 받지 않는 이유는 무엇인가요?
+- 릴리가 그녀의 전화기를 몰래 가져가서.
++ 문자로만 연락하고 싶어서.
+- 모르는 번호라서.
+
+[LINE]
+Speaker416: Do~you~still~want~to~go to~Marco's~party?
+~           너~아직도~가고~싶어             마르코의~파티에         
+
+[LINE]
+Speaker418: No. I don't~even~like him anymore.
+~           아니  난 좋아하지도~않아        그를  더~이상    
+
+[MULTIPLE_CHOICE]
+> 자리가 마르코의 파티에 가고 싶지 않은 이유는…
++ ...휴대폰으로 직접 전화 거는 사람들은 이상하다고 생각하기 때문이다.
+- ...파티가 하나도 재미없을 거라 생각하기 때문이다.
+- ...평소에 케이팝 음악을 즐겨 듣지 않기 때문이다.
+
+[MATCH]
+> 짝을 누르세요
+- I <> 난
+- he <> 그가
+- me <> 나한테
+- wants to talk <> 얘기하고 싶으면
+- Maybe <> 봐서
+
