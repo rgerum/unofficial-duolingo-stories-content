@@ -1,0 +1,102 @@
+[DATA]
+fromLanguageName=루시와 공룡들
+icon=f6ce899637bb8181ee5e78382fdf71a0f01e4f95
+set=8|1
+
+[HEADER]
+> Lucy~and the~Dinosaurs
+~ 루시와      공룡들          
+
+[LINE]
+> Lucy opens her apartment~door.
+~ 루시가  연다    그녀의 아파트~현관문을       
+
+[LINE]
+Speaker509: Hello, Junior!
+~           안녕     주니어    
+
+[LINE]
+Speaker415: Hello! Can~you~help me write~a~report for~school?
+~           안녕하세요  도와주실~수~있어요   제가 리포트~쓰는~것을      학교에~제출할    
+
+[LINE]
+Speaker509: Oh, yes!
+~           아   그래  
+
+[LINE]
+Speaker509: I'm a~great~writer. I  have   a~very~popular~blog.
+~           나는  훌륭한~작가야         나는 가지고~있어 아주~인기~있는~블로그를       
+
+[MULTIPLE_CHOICE]
+> 루시가 자신이 훌륭한 작가라고 말하는 이유는…
++ …아주 인기 있는 블로그를 운영 중이기 때문이다.
+- …매일 러브레터를 쓰기 때문이다.
+- …학교에서 항상 우수한 성적을 받았기 때문이다.
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker509: [(Do~you~read) (my) (blog)?]
+~             넌~읽니          나의   블로그를   
+
+[LINE]
+Speaker415: No. 
+~           아니요 
+
+[LINE]
+Speaker509: I  have   a~lot~of books.
+~           나는 가지고~있어 많은       책들을   
+
+[POINT_TO_PHRASE]
+> “자료조사”를 뜻하는 말을 고르세요.
+Speaker509: (Do~you~need) my (books) (for)   (+research)?
+~            넌~필요하니       내   책들이     ~를~위해    자료조사      
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker415: I  don't~need your [books].
+~           저는 필요~없어요     할머니의  책들이    
+- report
+~ 리포트   
++ books
+~ 책들   
+- apartment
+~ 아파트      
+
+[LINE]
+Speaker509: What~is~your~report~about?
+~           네~리포트~주제가~뭐니              
+
+[LINE]
+Speaker415: Dinosaurs.
+~           공룡이요      
+
+[LINE]
+Speaker509: Why do~you~want~to~talk to~me?
+~           왜   얘기하고~싶니             나랑    
+
+[LINE]
+Speaker415: Because you~are very old.     
+~           왜냐하면    할머니는    아주   나이가~많아서요 
+
+[LINE]
+Speaker415: You~know a~lot~of dinosaurs, right?
+~           알고~있죠    많은       공룡들을       그렇죠   
+
+[LINE]
+Speaker509: Goodbye, Junior.
+~           잘~가렴     주니어    
+
+[MULTIPLE_CHOICE]
+> 주니어가 루시는 공룡에 대해 잘 알 거라 생각한 이유는 무엇인가요?
+- 루시가 전에 애완용 공룡을 키웠어서.
+- 루시가 공룡에 관한 블로그를 쓰고 있어서.
++ 루시가 자신보다 나이가 많아서.
+
+[MATCH]
+> 짝을 누르세요
+- for school <> 학교에 제출할
+- Do you read <> 넌 읽니
+- blog <> 블로그를
+- Because <> 왜냐하면
+- Dinosaurs <> 공룡이요
+
