@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=정말 멋진 텐트야!
+icon=15da04337561f2df975e0ed2ea8ee243a726b629
+set=25|3
+
+[HEADER]
+> What~a~Great~Tent
+~ 정말~멋진~텐트야        
+
+[LINE]
+> Eddy~and~his~son~Junior~are in~a~tent in~the~woods at~night.
+~ 에디와~그의~아들~주니어가              텐트에~있다    숲~속에~있는      밤에       
+
+[LINE]
+Speaker414: Are~you~having~fun?
+~           (넌)~재밌어            
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker415: No.  This camping~trip~is [terrible]!
+~           아니요  이번   캠핑~여행은           최악이에요     
++ terrible
+~ 최악인     
+- afraid
+~ 겁나는   
+- alone
+~ 혼자인  
+
+[LINE]
+Speaker414: Do~you~like our new tent? It's as~big~as~a~house!
+~           (넌)~맘에~드니   우리의 새   텐트가   이건   집만큼이나~넓어          
+
+[LINE]
+Speaker415: I like our real house.
+~           전 좋아요  우리의 진짜   집이    
+
+[MULTIPLE_CHOICE]
+> 주니어의 말은 무엇을 의미하나요?
+- 자기 집보다 새 텐트가 훨씬 좋다.
+- 이번 캠핑 여행에서 정말 즐거운 시간을 보내고 있다.
++ 텐트보다 자기 집이 훨씬 좋다.
+
+[POINT_TO_PHRASE]
+> “부드러운”을 뜻하는 말을 고르세요.
+Speaker414: (Our) (camping~beds~are) (very) (+soft).
+~            우리의   캠핑~침대는             아주      부드러워  
+
+[LINE]
+Speaker415: I can't~sleep right~now!
+~           전 잘~수가~없어요    지금        
+
+[LINE]
+Speaker414: We have  a~stove and a~fridge.
+~           우린 갖고~있어 가스레인지   그리고 냉장고      
+
+[MULTIPLE_CHOICE]
+> 에디와 주니어에겐 냉장고도 있고...
++ …가스레인지도 있다.
+- …보트도 있다.
+- …욕조도 있다.
+
+[LINE]
+Speaker415: I~am not~hungry.
+~           전    배고프지~않아요   
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker414: I also bought [a~special~camping~bathroom].
+~           난 또한   샀어      특별한~캠핑용~화장실을                
++ a special camping bathroom
+- a special lamp and bathtub
+- a spacious fancy bathroom
+
+[LINE]
+Speaker415: I do~like  the special camping~bathroom.
+~           전 맘에~들긴~해요 그   특별한     캠핑용~화장실은         
+
+[LINE]
+Speaker414: And we  have  a~television, a~radio, and video~games!
+~           그리고 우리는 갖고~있어 텔레비전          라디오      그리고 비디오~게임까지    
+
+[LINE]
+Speaker415: I  know…
+~           저도 알아요  
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker415: [(You're) (trying)  (very~hard)!]
+~             아빠는      애쓰고~있어요   아주~많이       
+
+[LINE]
+Speaker414: I don't~understand, what~else~do~you~need?
+~           난 이해를~못~하겠어         (넌)~뭐가~더~필요하니         
+
+[LINE]
+Speaker415: I  need  the~bear~that's~outside~the~tent to~leave!!!
+~           제가 필요한~건 텐트~밖에~있는~저~곰이                    떠나가는~거예요   
+
+[LINE]
+Speaker40: Roar!
+~          으르렁  
+
+[MULTIPLE_CHOICE]
+> 주니어가 캠핑을 즐기지 못하고 있는 이유는...
++ …텐트 밖에 곰이 한 마리 있기 때문이다.
+- …텐트에서 비디오 게임을 할 수 없기 때문이다.
+- …캠핑용 화장실이 너무 작기 때문이다.
+
+[MATCH]
+> 짝을 누르세요
+- very hard <> 아주 많이
+- Are you having fun <> 재밌어
+- camping trip is <> 캠핑 여행은
+- to leave <> 떠나가는 거예요
+- right now <> 지금
+
