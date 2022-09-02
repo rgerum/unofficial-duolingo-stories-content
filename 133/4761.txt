@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=가족 저녁 식사
+icon=076bc5bf725308c211b9c04f07d3622683e84d78
+set=5|2
+
+[HEADER]
+> Family Dinner
+~ 가족     저녁~식사 
+
+[LINE]
+> Lin walks~into Bea's kitchen.
+~ 린이  걸어들어온다     비의    부엌으로    
+
+[LINE]
+> She sees food and bottles~of~wine on~the~table.
+~ 그녀가 본다   음식   그리고 와인~병들을          테이블~위에~있는    
+
+[MULTIPLE_CHOICE]
+> 비의 부엌 테이블에 우유병들이 놓여있다.
+- 네, 맞아요.
++ 아니요, 그렇지 않아요.
+
+[LINE]
+Speaker508: Wow, you~have~a~lot~of~food.
+~           우와   음식이~많네                 
+
+[LINE]
+Speaker507: Yeah. My family~is coming for~dinner.
+~           응     우리 가족이       올거야    저녁~먹으러     
+
+[LINE]
+Speaker508: Ooh, can~I~have some~cake?
+~           와    나~먹어도~돼    케이크~좀     
+
+[LINE]
+Speaker507: No.
+~           아니 
+
+[LINE]
+Speaker508: But  you~have three~cakes.
+~           그렇지만 가지고~있잖아  케이크~세~개나    
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker507: [(I)  (need) (three) (cakes).]
+~             나는   필요해    세~개의    케이크가    
+
+[LINE]
+Speaker508: Well, can~I~have a~glass~of~wine?
+~           음     나~마셔도~돼    와인~한~잔          
+
+[LINE]
+Speaker507: No.
+~           아니 
+
+[LINE]
+Speaker508: You~have four~bottles~of wine.
+~           가지고~있잖아  네~병의            와인을  
+
+[LINE]
+Speaker507: I  need all~of~the~wine.
+~           나는 필요해  이~와인~전부         
+
+[POINT_TO_PHRASE]
+> “한 조각”을 뜻하는 말을 고르세요.
+Speaker508: (Can~I~have) (+a~slice~of) (pizza)?
+~            나~먹어도~돼       한~조각의        피자를    
+
+[LINE]
+Speaker507: No,  Lin.
+~           안~돼  린   
+
+[LINE]
+Speaker508: Fine. So,  what~time~is dinner~with~your~family tonight?
+~           알았어   그래서  몇~시야         너희~가족과의~저녁식사가           오늘~밤    
+
+[LINE]
+Speaker507: Oh, my family~is visiting next~week.
+~           아   우리 가족은       방문할~거야   다음~주에     
+
+[MULTIPLE_CHOICE]
+> 잠깐만요, 비의 가족은 저녁 식사하러 언제 오나요? 
+- 오늘 밤에
+- 내년에
++ 다음 주에
+
+[LINE]
+Speaker507: This~is all~for~me.
+~           이건      모두~날~위한거야  
+
+[LINE]
+Speaker508: What?!
+~           뭐라고   
+
+[LINE]
+Speaker507: I  have a~very~difficult~family! I'm stressed!
+~           내겐 있어   아주~까다로운~가족이              난   스트레스~받았어 
+
+[LINE]
+Speaker507: I  need all~of~this food and wine now.
+~           나는 필요해  이~모든        음식   그리고 와인이  지금  
+
+[MULTIPLE_CHOICE]
+> 비는 왜 그렇게 많은 음식과 와인이 필요한가요?
+- 그녀의 엄마가 많이 배고파 하셔서.
++ 가족들 때문에 스트레스를 받아서.
+- 린에게 모두 주기 위해서.
+
+[MATCH]
+> 짝을 누르세요
+- three cakes <> 케이크 세 개나
+- Well <> 음
+- have <> 있어
+- family is <> 가족이
+- all of this <> 이 모든
+
