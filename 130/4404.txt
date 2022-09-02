@@ -1,0 +1,97 @@
+[DATA]
+fromLanguageName=Моя любимая группа
+icon=8809c44c2194d282a6e1573d25dcac12b6132022
+set=18|1
+
+[HEADER]
+> My  Favorite Band  
+~ моя любимая  группа
+
+[LINE]
+> Lily and Zari are~in~class.        
+~ Лили и   Зари (находятся)~в~классе 
+
+[LINE]
+Speaker418: Hey, Lily? Can~you   help~me    with~something?
+~           эй   Лили  ты~можешь помочь~мне кое~с~чем      
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker416: [I~don't~know]. What~is~it?
+~            я~не~знаю      в~чём~дело 
+- I won't know
+- I don't go
++ I don't know
+
+[LINE]
+Speaker418: I can't   come  to swimming~practice      today.   Can~you   tell    the~coach I'm~sick?      
+~           я не~могу пойти на тренировку~по~плаванию сегодня  ты~можешь сказать тренеру   (что)~я~больна 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker416: [(You) (don't) (look)      (sick).]   
+~             ты    не      выглядишь   больной   
+
+[LINE]
+Speaker418: Cough, cough! But I~have      a~note  from my    doctor. Look.  
+~           кхе    кхе    но  у~меня~есть записка от   моего врача   смотри 
+
+[CONTINUATION]
+> Продолжите фразу
+> Zari shows      Lily [the~note].
+~ Зари показывает Лили  записку   
++ the~note
+~ записку 
+- a~painting
+~ картину   
+- her~new~T-shirt    
+~ свою~новую~футболку
+
+[LINE]
+Speaker416: Zari, this~is your handwriting.
+~           Зари  это     твой почерк      
+
+[LINE]
+Speaker418: No,  it's~not!  
+~           нет  это~не~так 
+
+[LINE]
+Speaker416: Zari, I always know when  you're lying.
+~           Зари  я всегда знаю когда ты     врёшь 
+
+[LINE]
+Speaker418: OK,     OK!     I'm going     to the~mall       to~see  my  favorite band,   The~City~Boys.  
+~           хорошо  хорошо  я   собираюсь в  торговый~центр увидеть мою любимую  группу  городские~парни 
+
+[MULTIPLE_CHOICE]
+> Зари хочет сказать тренеру, что она больна, когда на самом деле…
+- …она идёт покупать новое платье.
++ …она хочет пойти в торговый центр на концерт группы.
+- …она просто хочет поспать.
+
+[LINE]
+Speaker416: Ugh, no,  I can't   help   you. 
+~           фу   нет  я не~могу помочь тебе 
+
+[LINE]
+Speaker418: Yeah, you're right. Lying is~bad…  
+~           да    ты     права  врать нехорошо 
+
+[LINE]
+Speaker416: No,  I can't   help   you  because    The~City~Boys   are~a~terrible~band.
+~           нет  я не~могу помочь тебе потому~что городские~парни ужасная~группа      
+
+[MULTIPLE_CHOICE]
+> Лили считает, что «Городские парни» — ужасная группа, поэтому…
+- …она хочет создать группу с Зари.
+- ...она напишет жалобное письмо.
++ …она не скажет тренеру, что Зари больна.
+
+[MATCH]
+> Коснитесь пар
+- this is <> это
+- help <> помочь
+- it's not <> это не так
+- because <> потому что
+- tell <> сказать
+
