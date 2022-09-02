@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=नाश्ते की तैयारी
+icon=6d79d91b8caad82e9f6ce44a1b458f12ac6a7a9f
+set=13|2
+
+[HEADER]
+> Making Breakfast
+~ बनाना  नाश्ता   
+
+[LINE]
+> Eddy  is making  breakfast for~Junior.   
+~ एड्डी है बना~रहा नाश्ता    जूनियर~के~लिए 
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker415: Hey,    Dad!  [What~are~you~doing]?
+~           नमस्ते  पापा   आप~क्या~कर~रहे~हैं  
+- When are you doing
+- What's your dog
++ What are you doing
+
+[LINE]
+Speaker414: Good~morning, Junior! I'm     making  a  big breakfast for~you!     
+~           सुप्रभात      जूनियर  मैं~हूँ बना~रहा एक बड़ा नाश्ता    तुम्हारे~लिए 
+
+[LINE]
+Speaker415: Breakfast?
+~           नाश्ता    
+
+[LINE]
+Speaker414: Yes. I~never~have              time to~make  breakfast for~you.     
+~           हाँ  मेरे~पास~कभी~भी~नहीं~होता समय  बनाने~का नाश्ता    तुम्हारे~लिए 
+
+[LINE]
+Speaker414: But   today     is different!
+~           लेकिन आज~का~दिन है अलग       
+
+[MULTIPLE_CHOICE]
+> ज़रा एक मिनट… एड्डी क्या कहना चाहता है?
++ यह कि आज उसके पास नाश्ता बनाने का समय है।
+- यह कि आज उसके पास नाश्ता बनाने का समय नहीं है।
+- यह कि वह रोज़ सुबह जूनियर के लिए नाश्ता बनाता है।
+
+[LINE]
+Speaker415: Dad,  I~don't~want    breakfast.
+~           पापा  मुझे~नहीं~चाहिए नाश्ता    
+
+[LINE]
+Speaker414: What?! But   I'm     making  eggs…
+~           क्या   लेकिन मैं~हूँ बना~रहा अंडे 
+
+[ARRANGE]
+> सुनकर शब्द चुनें
+Speaker415: [(I~don't)   (want)  (eggs).]
+~             मुझे~नहीं   चाहिए   अंडे   
+
+[LINE]
+Speaker414: You~love              eggs.
+~           तुम्हें~(तो)~पसंद~हैं अंडे 
+
+[LINE]
+Speaker415: Yes, but—  
+~           हाँ  लेकिन 
+
+[LINE]
+Speaker414: And there's~sausage~too!
+~           और  सॉसेज~भी~है         
+
+[LINE]
+Speaker414: You~love        eating sausage for~breakfast!
+~           तुम्हें~पसंद~है खाना   सॉसेज   नाश्ते~में    
+
+[LINE]
+Speaker415: That's right, but—  
+~           वह~है  सही    लेकिन 
+
+[LINE]
+Speaker414: So what's~wrong, Junior?
+~           तो क्या~बात~है   जूनियर 
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker415: Dad…  it's    [one~o'clock]!
+~           पापा  (अब)~है  एक~बज~गया    
++ one o'clock
+- one on clock
+- on the clothes
+
+[LINE]
+> Eddy  looks    at~his~watch.
+~ एड्डी देखता~है अपनी~घड़ी~को  
+
+[POINT_TO_PHRASE]
+> उस विकल्प को चुनें जिसका मतलब “काफ़ी समय” है।
+Speaker414: (Oh~no)…    (making~breakfast) (takes)       (+a~long~time).
+~            अरे~नहीं    नाश्ता~बनाने       में~लगता~है    काफ़ी~समय     
+
+[LINE]
+Speaker415: But   now we can~make     lunch!        
+~           लेकिन अब  हम बना~सकते~हैं दोपहर~का~खाना 
+
+[MULTIPLE_CHOICE]
+> जूनियर यह क्यों कहता है कि उन्हें दोपहर का खाना बना लेना चाहिए?
+- क्योंकि उसी ने एड्डी का नाश्ता बनाया था।
+- क्योंकि एड्डी जूनियर का सारा का सारा नाश्ता खा गया।
++ क्योंकि नाश्ता बनाने में ही एड्डी को काफ़ी समय लग गया।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- Hey <> नमस्ते
+- to make <> बनाने का
+- there's sausage too <> सॉसेज भी है
+- big <> बड़ा
+- making breakfast <> नाश्ता बनाने
+
