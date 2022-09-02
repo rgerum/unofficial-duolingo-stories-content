@@ -1,0 +1,132 @@
+[DATA]
+fromLanguageName=Новий торговий центр
+icon=22d80e422eeb2f9e860d1f014edf989ff6257372
+set=9|4
+
+[HEADER]
+> The~New Mall           
+~ новий   торговий~центр 
+
+[LINE]
+> Rebecca is~reading a~newspaper on~the~bus.
+~ Ребекка читає      газету      в~автобусі 
+
+[LINE]
+Speaker1320: Wow!
+~            ого 
+
+[LINE]
+Speaker258: What?
+~           що   
+
+[LINE]
+Speaker1320: There's a~new shopping~mall  in~the~city!
+~            є       новий торговий~центр у~місті     
+
+[MULTIPLE_CHOICE]
+> У місті, в якому живе Ребекка, відкрили новий торговий центр.
+- Ні, це неправда.
++ Так, це правда.
+
+[LINE]
+Speaker258: Really? 
+~           справді 
+
+[LINE]
+Speaker1320: Yes, and there~is a~3D~movie~theater!
+~            так  і   там~є    3D-кінотеатр       
+
+[MULTIPLE_CHOICE]
+> Що є в новому торговому центрі?
+- Продаж 3D-принтерів.
++ Кінотеатр з технологією 3D.
+- 3D-фотографія.
+
+[LINE]
+Speaker1320: And the~Mexican   restaurant you~like                is~there too!  
+~            і   мексиканський ресторан   (який)~тобі~подобається є~там    також 
+
+[LINE]
+Speaker258: I want to~go now!  
+~           я хочу піти  зараз 
+
+[LINE]
+Speaker258: Where in Pittsburgh is~it?          
+~           де    в  Піттсбурзі він~знаходиться 
+
+[LINE]
+Speaker1320: Hmm… Sidney~Street?
+~            хм   вулиця~Сідні  
+
+[LINE]
+Speaker258: I~don't~know where Sidney~Street is.         
+~           я~не~знаю    де    вулиця~Сідні  знаходиться 
+
+[CONTINUATION]
+> На чому питання закінчується?
+Speaker258: Can   I~look~at   the~newspaperr ]?
+~           можна я~подивлюся газету           
+- … movie?
+~   фільм 
++ … newspaper?
+~   газету    
+- … city? 
+~   місто 
+
+[LINE]
+Speaker1320: Here.
+~            ось  
+
+[LINE]
+Speaker258: Rebecca…
+~           Ребекка 
+
+[ARRANGE]
+> Що ви чуєте?
+Speaker258: [(This) (mall)           (isn't) (new).]  
+~             цей    торговий~центр   не      новий   
+
+[LINE]
+Speaker258: It's the~same  mall           we~usually~go~to.         
+~           це   той~самий торговий~центр (куди)~ми~зазвичай~ходимо 
+
+[LINE]
+Speaker258: But the~name~is different!
+~           але назва       інша      
+
+[MULTIPLE_CHOICE]
+> Цей торговий центр…
+- … щойно відкрили, але не в Піттсбурзі.
++ … той самий, який вони знають, але він змінив свою назву.
+- … закривається.
+
+[LINE]
+Speaker1320: Oh…
+~            о  
+
+[LINE]
+Speaker1320: Well,   do~you~want to~go to the~"new"| mall?          
+~            гаразд  хочеш       піти  в  новий      торговий~центр 
+
+[LINE]
+Speaker1320: We~can    see        a~movie and eat    Mexican      food.
+~            ми~можемо подивитися фільм   і   поїсти мексиканську їжу  
+
+[LINE]
+Speaker258: Yes!
+~           так 
+
+[MULTIPLE_CHOICE]
+> Що вони збираються зробити?
+- Залишитися вдома і замовити мексиканську їжу.
+- Відвідати новий торговий центр у Мексиці.
++ Піти у торговий центр, щоб подивитися фільм та поїсти страви мексиканської кухні.
+
+[MATCH]
+> З’єднайте пари
+- is there <> є там
+- Wow <> ого
+- a newspaper <> газету
+- This <> цей
+- I don't know <> я не знаю
+
