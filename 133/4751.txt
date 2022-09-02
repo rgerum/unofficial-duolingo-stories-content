@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=휴가 패션
+icon=eda1b8214a6937df66a552eb581f2353da4d0352
+set=2|4
+
+[HEADER]
+> Vacation Clothes
+~ 휴가용      옷      
+
+[LINE]
+> Lucy~is in~a~store.
+~ 루시가     가게~안에~있다   
+
+[LINE]
+Speaker509: Hi,    can~you~help~me?
+~           안녕하세요  절~도와줄~수~있어요     
+
+[LINE]
+Speaker509: I  need new clothes for~my~vacation!
+~           저는 필요해요 새   옷이      휴가~때~입을         
+
+[MULTIPLE_CHOICE]
+> 루시는 휴가 때 입을 옷을 사는 중이다.
++ 네, 맞아요.
+- 아니요, 그렇지 않아요.
+
+[LINE]
+Speaker416: OK.   
+~           알겠습니다 
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker509: [(I)  (need) (a~dress).]
+~             저는   필요해요   드레스가      
+
+[LINE]
+> Lily gives Lucy a~green~dress.
+~ 릴리가  건넨다   루시에게 초록색~드레스를      
+
+[LINE]
+Speaker509: No!  I  need a~short,~red~dress.
+~           아니요  저는 필요해요 짧고~빨간~드레스가         
+
+[MULTIPLE_CHOICE]
+> 루시가 필요한 것은 무엇인가요?
+- 새 갈색 자동차
+- 긴 초록색 치마
++ 짧은 빨간색 드레스
+
+[LINE]
+> Lily gives her  a~short,~red~dress.
+~ 릴리가  건넨다   그녀에게 짧고~빨간~드레스를         
+
+[LINE]
+Speaker509: And I  need boots.
+~           그리고 저는 필요해요 부츠가   
+
+[LINE]
+> Lily gives Lucy red boots.
+~ 릴리가  건넨다   루시에게 빨간  부츠를   
+
+[LINE]
+Speaker509: No,  big, black boots!
+~           아니요  큰    검정    부츠요   
+
+[LINE]
+Speaker416: Ugh…
+~           어후  
+
+[LINE]
+Speaker509: OK,   a~short,~red~dress and big, black boots…
+~           어디보자  짧고~빨간~드레스          그리고 큰    검정    부츠    
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker509: [And~a~hat]!
+~            모자도요       
+- In the hat
+- And a cat
++ And a hat
+
+[LINE]
+> Lily gives Lucy a~hat.
+~ 릴리가  건넨다   루시에게 모자를   
+
+[LINE]
+Speaker509: No!  A~yellow~hat!
+~           아니요  노란~모자요       
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+> Lily gives Lucy [a~yellow~hat].
+~ 릴리가  건넨다   루시에게  노란~모자를        
+- a~yellow~dress
+~ 노란~드레스        
++ a~yellow~hat
+~ 노란~모자       
+- a~red~hat
+~ 빨간~모자    
+
+[LINE]
+Speaker509: Perfect! Now I'm~ready for~my~vacation!
+~           완벽해요     이제  준비됐어요     휴가~갈            
+
+[LINE]
+Speaker416: Now I  need a~vacation.
+~           이제  제가 필요해요 휴가         
+
+[MULTIPLE_CHOICE]
+> 저런! 릴리에게 휴가가 필요한 이유는 무엇인가요?
+- 점심을 너무 많이 먹고 배탈이 나서.
++ 루시의 옷 고르는 것을 도와주다가 지쳐서.
+- 새로 산 옷들을 입어야 돼서.
+
+[MATCH]
+> 짝을 누르세요
+- a hat <> 모자를
+- in a store <> 가게 안에 있다
+- Lucy is <> 루시가
+- gives <> 건넨다
+- Hi <> 안녕하세요
+
