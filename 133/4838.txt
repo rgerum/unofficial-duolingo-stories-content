@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=용 케이크
+icon=c2fbecd45802dc974e3ec727a0206cfec66fd87f
+set=24|3
+
+[HEADER]
+> The~Dragon~Cake
+~ 용~케이크          
+
+[LINE]
+> Bea~is watching Vikram decorate a~wedding~cake for~her~friend,~Kara.
+~ 비가     보고~있다    비크람이   장식하는~걸   웨딩~케이크를        그녀의~친구~케라를~위한        
+
+[LINE]
+Speaker507: Wow, I love      how~you~decorated the~cake!
+~           우와   전 정말~맘에~들어요 아저씨가~장식한~스타일이     케이크를     
+
+[LINE]
+Speaker507: The~bride~and~groom~are riding dragons, just~like~the~characters from   Kara~and~David's favorite TV~show!
+~           신부와~신랑이                 타고~있네요 용을       캐릭터들처럼                   ~에~나오는 케라와~데이빗이         가장~좋아하는  티비~쇼    
+
+[MULTIPLE_CHOICE]
+> 이 케이크의 테마는 한 유명한 티비 쇼이다.
++ 네, 맞아요.
+- 아니요, 그렇지 않아요.
+
+[LINE]
+Speaker593: Kara's my first customer. I just hope that she'll~like the~cake.
+~           케라는    내  첫     고객이야      난 단지   바라   ~하기를 그녀가~좋아할~것이다 케이크를     
+
+[LINE]
+> Bea gets a   text~message from~Kara.
+~ 비가  받는다  하나의 문자~메시지를      케라로부터     
+
+[POINT_TO_PHRASE]
+> “취소했다”를 뜻하는 말을 고르세요.
+Speaker507: (Oh,~no)! (Kara) (+canceled) (the~wedding)!
+~            아~이런      케라가     취소했어요      결혼식을         
+
+[LINE]
+Speaker593: What? Why?!
+~           뭐     왜    
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker507: David [stole~her~car] and left the~country with  another woman!
+~           데이빗이   케라의~차를~훔쳤대요    그리고 떠났대요 이~나라를       ~와~함께 다른      여자    
+- stole her a bar
+- stood her car
++ stole her car
+
+[LINE]
+Speaker593: That's awful!
+~           그건     최악인데  
+
+[LINE]
+Speaker507: I can't~believe~it.
+~           전 믿을~수가~없어요        
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker593: I~know. I really wanted Kara to~like [this cake].
+~           그러게     난 정말     원했어    케라가  좋아하길     이    케이크를  
+- a~different~TV~show
+~ 다른~티비~쇼            
++ this cake
+~ 이    케이크 
+- another woman
+~ 다른      여자   
+
+[LINE]
+Speaker507: I   have~an~idea.
+~           저한테 좋은~생각이~있어요   
+
+[LINE]
+> Bea redecorates the~cake.
+~ 비가  다시~장식한다     케이크를     
+
+[LINE]
+Speaker593: Wait, now it looks~like the~dragons~are eating the~groom!
+~           잠깐만   이제  그게 ~처럼~생겼어    용들이             먹고~있다  신랑을       
+
+[MULTIPLE_CHOICE]
+> 비가 케이크 장식을 다시 한 이유는...
++ …케라가 결혼식을 취소했기 때문이다.
+- …비크람이 용을 간직하고 싶어하기 때문이다.
+- …케라가 그렇게 해 달라고 부탁했기 때문이다.
+
+[LINE]
+> Bea takes a~picture and sends it to~Kara. Then,   she smiles.
+~ 비가  찍는다   사진을       그리고 보낸다   그걸 케라에게     그리고~나서  그녀가 싱긋~웃는다 
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker507: [(Kara) (just) (sent) (me)  (a~message)!]
+~             케라가    방금     보냈어요   저한테   메시지를        
+
+[LINE]
+Speaker593: What~did~she~say?
+~           케라가~뭐래           
+
+[LINE]
+Speaker507: She's still really sad,  but she~loves the~cake.
+~           그녀는   아직도   정말     슬프대요  하지만 정말~맘에~든대요 케이크가     
+
+[LINE]
+Speaker593: That's all I  wanted!
+~           그게     전부야 내가 원했던    
+
+[MULTIPLE_CHOICE]
+> 결국 케라가 케이크를 맘에 들어한 이유는 무엇인가요?
+- 자신의 결혼식이 너무 기대돼서.
+- 비와 결혼하기로 결심해서.
++ 용들이 신랑을 잡아 먹고 있어서.
+
+[MATCH]
+> 짝을 누르세요
+- favorite <> 가장 좋아하는
+- from <> ~에 나오는
+- but <> 하지만
+- a wedding cake <> 웨딩 케이크를
+- riding <> 타고 있네요
+
