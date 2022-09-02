@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=공포 영화
+icon=1038afc2cf4744d25820807d461131e153f7ddcf
+set=19|3
+
+[HEADER]
+> The~Horror~Movie
+~ 공포~영화           
+
+[LINE]
+> Lily~and Zari arrive at~the~movie~theater.
+~ 릴리와      자리가  도착한다   영화관에                 
+
+[LINE]
+> A~boy~from~their~school~is working there.
+~ (그들의)~학교에~다니는~남자애가         일하고~있다  거기서   
+
+[LINE]
+Speaker418: Hi, Billy! Two~tickets~for~"Blood~Lake"|, please!
+~           안녕  빌리     "피의~호수"~영화표~두~장                부탁해    
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker1649: No,  [you're~too~young] to~see that movie.
+~            안~돼   너흰~너무~어려          보기엔    그    영화를   
+- you're too fun
++ you're too young
+- you aren't young
+
+[LINE]
+Speaker416: But you always sell us   tickets for~horror~movies!
+~           하지만 넌   항상     팔잖아  우리한테 영화표를    공포~영화의            
+
+[LINE]
+Speaker1649: You also have  coffees from~the~cafe across~the~street.
+~            너흰  또한   갖고~있어 커피를     카페에서~가져온      길~건너의             
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker1649: [(You) (can't~bring) (those) (into~the~theater).]
+~              너흰    반입할~수~없어      그것들을    영화관~안으로            
+
+[LINE]
+> Lily takes both~coffees and throws~them in~the~trash.
+~ 릴리가  가져간다  커피~두~개를~다    그리고 (그것들을)~버린다  쓰레기통에        
+
+[LINE]
+Speaker418: Aw, my coffee! With~extra chocolate~and cream!
+~           어   내  커피      추가한~건데     초콜릿이랑         크림    
+
+[LINE]
+Speaker416: Sorry.
+~           미안    
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker1649: Well, you still can't~have [a~ticket].
+~            음     너흰  그래도   가질~수~없어     영화표를      
++ a~ticket
+~ 영화표     
+- this trash
+~ 이    쓰레기  
+- more chocolate
+~ 추가의  초콜릿      
+
+[LINE]
+Speaker416: Why?
+~           왜   
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker1649: [(You) (always) (talk) (during~movies).]
+~              너흰    항상       떠들어    영화~보는~동안에       
+
+[LINE]
+Speaker418: Why~are~you~doing~this, Billy? We're friends!
+~           너~왜~이러는~거야              빌리     우린    친구잖아    
+
+[LINE]
+Speaker1649: If we're friends, then why can't~I~be   in~your~band?
+~            만약 우리가   친구면      그럼   왜   내가~낄~수~없는~거야 너희~밴드에       
+
+[MULTIPLE_CHOICE]
+> 아하! 빌리가 그들에게 영화표를 팔지 않는 이유는…
++ …그들의 밴드에 끼고 싶기 때문이다.
+- …그들이 빌리의 커피를 쓰레기통에 쏟았기 때문이다.
+- …영화관이 만석이기 때문이다.
+
+[LINE]
+Speaker418: Uh… what band?
+~           어   무슨   밴드   
+
+[LINE]
+Speaker1649: I  heard you talking about starting~a~band in~class.
+~            내가 들었어   너희가 얘기하는~걸  ~에~대해 밴드를~결성하는~것      반에서      
+
+[LINE]
+Speaker416: OK,  fine. We need a    guitar~player.
+~           알았어  좋아    우린 필요해  한~명의 기타리스트가        
+
+[LINE]
+Speaker1649: Great! When~is the~next~band~practice?
+~            잘됐네    언제야     다음~밴드~연습이              
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker416: Tomorrow, [after~school].
+~           내일         방과~후에         
+- have to scroll
++ after school
+- at this cool
+
+[LINE]
+Speaker418: Now can~we~please~have two~tickets to~see~"Blood~Lake"?
+~           이제  우리가~제발~가져도~돼       영화표~두~장을    "피의~호수"~영화를~보게      
+
+[LINE]
+Speaker1649: Sure, but not~until~tomorrow|—after our first band practice.
+~            그래    하지만 내일~전까진~안~돼          ~후에   우리의 첫     밴드   연습       
+
+[MULTIPLE_CHOICE]
+> 자리와 릴리는 언제 영화 “피의 호수”를 볼 수 있나요?
+- 새 커피를 사온 후에
++ 빌리와 밴드 연습을 끝낸 후에
+- 원하면 언제든지
+
+[MATCH]
+> 짝을 누르세요
+- first <> 첫
+- always <> 항상
+- there <> 거기서
+- in your band <> 너희 밴드에
+- Well <> 음
+
