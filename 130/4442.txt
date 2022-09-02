@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=У меня болит нога
+icon=e03c9c686e0856f66bc51a3f912c8be470a7f18b
+set=27|3
+
+[HEADER]
+> My~Leg~Hurts     
+~ у~меня~болит~нога
+
+[LINE]
+> Bea opens     her  front~door.    She sees  Eddy standing on one   leg. 
+~ Би  открывает свою входную~дверь  она видит Эдди стоящего на одной ноге 
+
+[LINE]
+Speaker414: My~leg~hurts.      Can~you   drive   me   to~the~doctor's~office?
+~           у~меня~болит~нога  ты~можешь отвезти меня к~врачу                
+
+[LINE]
+Speaker507: Sure!   
+~           конечно 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+> Bea and Eddy [get~in~Bea's~car].   
+~ Би  и   Эдди  садятся~в~машину~Би  
++ get in Bea's car
+- quit in Bea's car
+- get on Bea's bar
+
+[LINE]
+Speaker414: Wait!    I forgot to~pick~up Junior   from school. Can~we   go      there?
+~           подожди  я забыл  забрать    Джуниора из   школы   мы~можем поехать туда  
+
+[LINE]
+Speaker507: Of~course. 
+~           разумеется 
+
+[MULTIPLE_CHOICE]
+> Куда Би и Эдди нужно заехать сначала?
+- в магазин с протезами
+- в булочную
++ в школу Джуниора
+
+[LINE]
+> Bea and Eddy pick~up  Junior   from school.
+~ Би  и   Эдди забирают Джуниора из   школы  
+
+[LINE]
+Speaker414: Can~we   also go      to~the~post~office?
+~           мы~можем ещё  поехать на~почту           
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker507: But [you~hurt~your~leg], remember?
+~           но   ты~повредил~ногу    помнишь  
+- who hurt her leg
+- you heard a wreck
++ you hurt your leg
+
+[LINE]
+Speaker414: I~need    your help   to~pick~up      a~large package.
+~           мне~нужна твоя помощь (чтобы)~забрать большую посылку 
+
+[LINE]
+Speaker507: Ugh, fine. 
+~           эх   ладно 
+
+[LINE]
+Speaker415: Look!     There's~no~line at~Benny's~Burgers!
+~           смотрите  нет~очереди     в~бургерной~Бенни  
+
+[ARRANGE]
+> Наберите услышанное
+> [(Junior)  (points~at)     (a~restaurant).]
+~   Джуниор   показывает~на   ресторан       
+
+[LINE]
+Speaker414: Their burgers are~amazing, but the~line is~always so    long!    Let's~go!      
+~           их    бургеры невероятные  но  очередь  всегда    такая длинная  давайте~пойдём 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker507: But you~need   to~see      [a~doctor]!
+~           но  тебе~нужно увидеться~с  врачом    
+- your date   
+~ твою девушку
++ a~doctor
+~ врачом  
+- this movie
+~ этот фильм
+
+[POINT_TO_PHRASE]
+> Выберите вариант «чудо».
+Speaker415: But (there's) no  (line)!    (It's) (+a~miracle)!
+~           но   там      нет  очереди    это     чудо       
+
+[LINE]
+> Later, Eddy, Junior,  and Bea are~in~the~restaurant.  
+~ позже  Эдди  Джуниор  и   Би  (находятся)~в~ресторане 
+
+[LINE]
+Speaker507: Wow,   that burger was amazing.    
+~           ух~ты  этот бургер был невероятным 
+
+[LINE]
+Speaker414: Yeah, but we should go      to~the~doctor's~office now.   
+~           да    но  мы должны поехать к~врачу                теперь 
+
+[LINE]
+Speaker507: Does~your~leg still   hurt? 
+~           твоя~нога     всё~ещё болит 
+
+[LINE]
+Speaker414: No,  my  stomach hurts now.    I~think     I ate  too     many  burgers. 
+~           нет  мой живот   болит теперь  мне~кажется я съел слишком много бургеров 
+
+[MULTIPLE_CHOICE]
+> У Эдди больше не болит нога, но теперь…
++ …болит живот.
+- …ему нужно в душ.
+- …Би повредила ногу.
+
+[MATCH]
+> Коснитесь пар
+- pick up <> забирают
+- Their <> их
+- points at <> показывает на
+- you hurt your leg <> ты повредил ногу
+- to pick up <> забрать
+
