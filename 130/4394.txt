@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=Растения Викрама
+icon=c3349839a5c44c2f209b5fc0993e4567e294246a
+set=15|3
+
+[HEADER]
+> Vikram's~Plants 
+~ растения~Викрама
+
+[LINE]
+> Eddy meets     his    neighbor Vikram  at the~airport.
+~ Эдди встречает своего соседа   Викрама в  аэропорту   
+
+[LINE]
+Speaker593: Hi     Eddy! Thanks  for~driving~me~home.     
+~           привет Эдди  спасибо что~подвозишь~меня~домой 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker414: Of~course! But… I~need    [to~tell~you~something].
+~           не~за~что  но   мне~нужно  кое-что~тебе~сказать   
+- to tell you're something
+- to sell you something
++ to tell you something
+
+[LINE]
+Speaker593: What~is~it?
+~           что~такое  
+
+[LINE]
+Speaker414: So… I~remembered~to~water your plants…  
+~           ну  я~не~забывал~поливать твои растения 
+
+[MULTIPLE_CHOICE]
+> Что делал Эдди в отсутствие Викрама?
+- Купил растения, чтобы поставить их дома у Викрама.
+- Спал в аэропорту.
++ Поливал растения Викрама.
+
+[LINE]
+Speaker593: Thanks! 
+~           спасибо 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker414: … [(but) (now)    (your) (plants)   (are~dead).]
+~               но    теперь   твои   растения   мертвы     
+
+[LINE]
+Speaker593: What? I~was~only~gone~for~a~week!
+~           что   меня~не~было~всего~неделю  
+
+[LINE]
+> They arrive~at   Vikram's~apartment and look~at    the~plants.
+~ они  приезжают~в квартиру~Викрама   и   смотрят~на растения   
+
+[LINE]
+Speaker414: This plant    was  green.   Now    it's brown.     
+~           это  растение было зелёным  теперь оно  коричневое 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker593: Yes, that plant    [is~dead].
+~           да   это  растение  мёртвое  
++ is~dead
+~ мёртвое
+- is~excited   
+~ взволнованное
+- likes to~walk~in~the~park
+~ любит гулять~в~парке     
+
+[LINE]
+Speaker414: And this plant    was  red,     but now    it's brown,      too. 
+~           и   это  растение было красным  но  теперь оно  коричневое  тоже 
+
+[LINE]
+Speaker593: Eddy, what happened?! 
+~           Эдди  что  случилось  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker414: I don't know! I watered your plants   [three~times~every~day]!
+~           я не    знаю  я поливал твои растения  три~раза~каждый~день   
+- free time is every day
++ three times every day
+- three times every way
+
+[LINE]
+Speaker593: Three times every  day?!  I told   you  to~water the~plants three times every  week!  
+~           три   раза  каждый день   я сказал тебе поливать растения   три   раза  каждую неделю 
+
+[LINE]
+Speaker414: Oh. Sorry. 
+~           ой  прости 
+
+[LINE]
+Speaker414: But look!   This plant    isn't brown!      It's green!  
+~           но  смотри  это  растение не    коричневое  оно  зеленое 
+
+[LINE]
+Speaker593: Eddy, that's a~plastic   plant.   
+~           Эдди  это    пластиковое растение 
+
+[MULTIPLE_CHOICE]
+> Ой-ёй! Что Эдди сделал не так?
++ Он слишком обильно поливал растения Викрама.
+- Он забыл о растениях Викрама.
+- Он недостаточно поливал растения.
+
+[MATCH]
+> Коснитесь пар
+- plants <> растения
+- meets <> встречает
+- to water <> поливать
+- every <> каждый
+- I need <> мне нужно
+
