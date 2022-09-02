@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=적당한 시기
+icon=6a7e27a82dfe78e2546e5da50285e42496874dde
+set=31|1
+
+[HEADER]
+> The~Right~Time
+~ 적당한~시기        
+
+[LINE]
+> Lin~and~Bea~are in~a~clothing~store.
+~ 린과~비가           옷가게에~있다             
+
+[LINE]
+Speaker507: Let's~get~pizza now.
+~           피자~먹자           이제  
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker508: I can't. [I'm~going~to~dinner] with~Jennifer.
+~           난 안~돼     저녁~먹기로~했어            제니퍼랑          
++ I'm going to dinner
+- I'm getting thinner
+- I'm going to win it
+
+[LINE]
+Speaker507: I thought you broke~up with~Jennifer after~New~Year's~Eve.
+~           난 생각했는데   네가  헤어졌다고    제니퍼랑          새해~전야~이후             
+
+[LINE]
+Speaker508: I~was going~to~break~up with~her then, but her  birthday~was two~weeks later.
+~           내가    헤어지려고~했었어         제니퍼랑     그~때   하지만 제니퍼의 생일이          이~주       후였어   
+
+[LINE]
+Speaker507: Yes, but now it's~April!
+~           그래   하지만 지금은 사월이잖아      
+
+[MULTIPLE_CHOICE]
+> 린은 새해 전야에 제니퍼와 헤어졌다.
++ 아니요, 그렇지 않아요.
+- 네, 맞아요.
+
+[LINE]
+Speaker508: I  know, but we planned a~lot~of trips for~the~spring!
+~           나도 알아    하지만 우린 계획했어    많은       여행들을  봄에             
+
+[POINT_TO_PHRASE]
+> “탈의실”을 뜻하는 말을 고르세요.
+> (Lin~and) Bea (stand) (in~line~for) (+the~fitting~room).
+~  린과       비가   선다      ~의~줄에          탈의실               
+
+[LINE]
+Speaker507: You should~just~break~up with~her now!
+~           넌   그냥~헤어져야~해            제니퍼와     지금  
+
+[LINE]
+Speaker508: I'm just waiting  for~the~right~time.
+~           난   단지   기다리는~중이야 적당한~시기를            
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker508: [(Her)  (mother~is) (visiting) (this) (weekend).]
+~             제니퍼의   엄마가         방문하실~거야    이번     주말에       
+
+[LINE]
+Speaker507: What~about~next~week?
+~           다음~주는                
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker508: Next week we're visiting her  cousin in~Hawaii! I don't~want [to~make~her~sad] during~her~vacation.
+~           다음   주엔   우리가   방문할~거야   제니퍼의 사촌을    하와이에~있는    난 ~하고~싶지~않아   그녀를~슬프게~하다       휴가~중에               
+- to make you sick
++ to make her sad
+- to bake her bread
+
+[LINE]
+Speaker507: So  when are~you~going~to~break~up with~Jennifer?!
+~           그래서 언제   헤어질~거야                    제니퍼랑           
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker508: I  told~you that I'm~waiting~for [the~right~time]!
+~           내가 말했잖아     ~라고  ~를~기다리고~있다       적당한~시기          
+- more money
+~ 더~많은 돈    
+- these pants to~fit
+~ 이     바지가   맞길    
++ the~right~time
+~ 적당한~시기        
+
+[LINE]
+> The~fitting~room door suddenly opens. Jennifer comes~out.
+~ 탈의실              문이   갑자기      열린다    제니퍼가     나온다       
+
+[LINE]
+Speaker508: Jennifer!
+~           제니퍼      
+
+[LINE]
+Speaker175: I think this~is the~right~time.
+~           내 생각엔   지금이     적당한~시기야        
+
+[LINE]
+Speaker508: But what~about~Hawaii?
+~           하지만 하와이는~어떡하고         
+
+[MULTIPLE_CHOICE]
+> 지금이 린이 제니퍼와 헤어지기에 적당한 시기인 이유는 무엇인가요?
+- 현재 제니퍼에게 변명이 될 만한 중대한 일이 없어서.
++ 제니퍼가 린이 자신과 헤어지길 원한다는 걸 들어서.
+- 제니퍼가 린보다 비를 더 좋아한다는 걸 깨달아서.
+
+[MATCH]
+> 짝을 누르세요
+- in a clothing store <> 옷가게에 있다
+- I'm going to dinner <> 저녁 먹기로 했어
+- to make her sad <> 그녀를 슬프게 하다
+- week <> 주엔
+- I <> 난
+
