@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=ऑस्कर के फूल
+icon=3bc2c3a627aad5f5aef4f68ae652c16713f9048f
+set=10|2
+
+[HEADER]
+> Oscar's  Flowers
+~ ऑस्कर~के फूल    
+
+[LINE]
+> Oscar is in~his~garden.  He sees     his~co-worker, Eddy.      
+~ ऑस्कर है अपने~बगीचे~में  वह देखता~है अपने~सहकर्मी   एड्डी~(को) 
+
+[LINE]
+Speaker592: Eddy!  Why~are~you~wearing     a  nice  shirt today? You never         wear  nice  shirts.
+~           एड्डी  तुमने~क्यों~पहनी~हुई~है एक अच्छी कमीज़  आज     तुम कभी~(भी)~नहीं पहनते अच्छी कमीज़ें 
+
+[LINE]
+Speaker414: I'm     meeting my~date       now!
+~           मैं~हूँ मिल~रहा अपनी~डेट~(से) अभी 
+
+[LINE]
+Speaker592: Hmm. Do~you~have           any flowers for~your~date?   Or chocolates?
+~           ~    क्या~तुम्हारे~पास~हैं कोई फूल     अपनी~डेट~के~लिए  या चॉकलेट     
+
+[LINE]
+Speaker414: I   can't~buy      her      anything now… I'm~late!          
+~           मैं नहीं~खरीद~सकता उसके~लिए कुछ~भी   अब   मुझे~देर~हो~रही~है 
+
+[MULTIPLE_CHOICE]
+> एड्डी ने अपनी डेट के लिए चॉकलेट और फूल खरीदे हैं।
++ नहीं, ऐसा नहीं है।
+- हाँ, यह सही है।
+
+[LINE]
+Speaker592: You can~give   her some~of~my~flowers.     
+~           तुम दे~सकते~हो उसे मेरे~(बगीचे~के)~कुछ~फूल 
+
+[LINE]
+> Oscar gives   Eddy       flowers from~his~garden.
+~ ऑस्कर देता~है एड्डी~(को) फूल     अपने~बगीचे~से   
+
+[MULTIPLE_CHOICE]
+> ऑस्कर ने एड्डी को आखिर फूल क्यों दिए?
++ क्योंकि वह चाहता है कि एड्डी उन्हें अपनी डेट को दे दे।
+- क्योंकि उसे एड्डी की डेट से प्यार हो गया है।
+- क्योंकि वह एड्डी के साथ डेट पर जा रहा है।
+
+[LINE]
+Speaker414: I   can't~take   those flowers.
+~           मैं नहीं~ले~सकता वे    फूल     
+
+[LINE]
+Speaker592: Do~you~like           this person?      
+~           क्या~तुम~पसंद~करते~हो इस   व्यक्ति~(को) 
+
+[LINE]
+Speaker414: Yes! She's really~funny.
+~           हाँ  वह~है बहुत~मज़ाकिया 
+
+[LINE]
+Speaker592: Then give  her these flowers.
+~           फिर  दे~दो उसे ये    फूल     
+
+[CONTINUATION]
+> आगे क्या आएगा?
+Speaker414: Oscar, I~don't~want    [the~flowers]!
+~           ऑस्कर  मुझे~नहीं~चाहिए  फूल          
+- a~nice~shirt 
+~ एक~अच्छी~कमीज़
++ the~flowers
+~ फूल        
+- to~go~to~work
+~ काम~पर~जाना  
+
+[LINE]
+Speaker592: Why?  
+~           क्यों 
+
+[LINE]
+> Eddy  starts          sneezing.
+~ एड्डी शुरू~कर~देता~है छींकना   
+
+[MULTIPLE_CHOICE]
+> एड्डी क्या कर रहा है?
+- वह रो रहा है।
++ वह छींक रहा है।
+- वह चीख रहा है।
+
+[LINE]
+Speaker592: Eddy?  Are~you     OK? 
+~           एड्डी  क्या~तुम~हो ठीक 
+
+[LINE]
+Speaker414: No!   I'm     allergic to~flowers!
+~           नहीं  मुझे~है एलर्जी   फूलों~से   
+
+[LINE]
+Speaker592: Oh~no.    Your     face  is          very red.
+~           अरे~नहीं  तुम्हारा चेहरा (हो~गया)~है बहुत लाल 
+
+[LINE]
+Speaker414: Ugh. I   feel             terrible… 
+~           ~    मैं महसूस~कर~रहा~हूँ बहुत~बुरा 
+
+[LINE]
+Speaker592: Well, have~fun on~your~date!
+~           (तो)  मज़े~करना अपनी~डेट~पर  
+
+[MULTIPLE_CHOICE]
+> बेचारा एड्डी! उसे अच्छा महसूस क्यों नहीं हो रहा है?
++ क्योंकि उसे फूलों से एलर्जी है।
+- क्योंकि उसे याद आया कि उसकी डेट तो कल है।
+- क्योंकि उसके पास ऑस्कर को देने के लिए कोई तोहफ़ा नहीं है।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- can't take <> नहीं ले सकता
+- shirts <> कमीज़ें
+- No <> नहीं
+- I don't want <> मुझे नहीं चाहिए
+- in his garden <> अपने बगीचे में
+
