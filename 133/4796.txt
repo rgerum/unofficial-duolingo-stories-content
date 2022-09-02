@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=긴급상황
+icon=7e5d8724d525fd56e3abc838f2849ae269ebefd5
+set=14|1
+
+[HEADER]
+> An~Emergency
+~ 긴급~상황       
+
+[LINE]
+> Junior~is at~a~pool with~his~father,~Eddy.
+~ 주니어가      수영장에~있다   (그의)~아빠~에디와~함께        
+
+[LINE]
+> He runs to~the~lifeguard.
+~ 그가 뛰어간다 구조요원에게           
+
+[LINE]
+Speaker415: Help!  Lifeguard!
+~           도와주세요  구조요원님     
+
+[LINE]
+Speaker415: My~father needs~help!
+~           저희~아빠가    도움이~필요해요   
+
+[LINE]
+Speaker856: Is~he drowning?
+~           아빠가   물에~빠지셨니  
+
+[MULTIPLE_CHOICE]
+> 구조요원이 걱정하고 있는 이유는 무엇인가요?
+- 주니어가 물에 빠져서.
++ 주니어의 아빠가 물에 빠졌다고 생각해서.
+- 아이들을 무서워해서.
+
+[LINE]
+Speaker415: No,  it's my~father's swimsuit.
+~           아니요  그게   저희~아빠의      수영복~때문에요 
+
+[LINE]
+Speaker856: I~don't~understand…
+~           무슨~말인지~모르겠구나       
+
+[POINT_TO_PHRASE]
+> “수영복”을 뜻하는 말을 고르세요.
+Speaker415: (His) (new) (+swimsuit) (is~too~small).
+~            아빠의   새      수영복이       너무~작아요        
+
+[LINE]
+Speaker415: It looks~really~bad, but he  won't~listen to~me!
+~           그건 정말~보기~흉해요         하지만 아빠가 듣질~않아요       제~말을  
+
+[LINE]
+Speaker856: Sorry, but lifeguards help  with~emergencies.
+~           미안하구나  하지만 구조요원은      도와준단다 긴급~상황에만          
+
+[MULTIPLE_CHOICE]
+> 구조요원은...
+- …아버지들만 도와줄 수 있다고 한다.
++ …긴급 상황에만 도와줄 수 있다고 한다.
+- …수영복 문제만 도와줄 수 있다고 한다.
+
+[LINE]
+Speaker415: This~is an~emergency! Look!
+~           이건      긴급~상황이에요      보세요  
+
+[LINE]
+> The~lifeguard looks at~Eddy.
+~ 구조요원이         바라본다  에디를     
+
+[LINE]
+Speaker856: No! 
+~           안~돼 
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker856: You're right. That swimsuit~is [too~small]!
+~           네~말이   맞네     저    수영복은         너무~작구나     
++ too small
+- do it all
+- to the mall
+
+[LINE]
+> The~lifeguard shouts at~Eddy.
+~ 구조요원이         소리친다   에디에게    
+
+[LINE]
+Speaker856: Excuse~me, sir! I'm coming to~help~you!
+~           실례합니다      선생님  제가  가겠습니다  당신을~도우러     
+
+[POINT_TO_PHRASE]
+> “수건”을 뜻하는 말을 고르세요.
+> The~lifeguard (runs) (to~Eddy) (with~a) big, red (+towel).
+~ 구조요원이          뛰어간다   에디에게      ~를~가지고  크고   빨간    수건     
+
+[LINE]
+Speaker414: What~is~it?!
+~           무슨~일이에요     
+
+[LINE]
+Speaker856: Sir, please~wear this towel. It's an~emergency.
+~           선생님  제발~몸에~둘러주세요 이    수건을    이건   긴급~상황입니다     
+
+[MULTIPLE_CHOICE]
+> 현재 긴급 상황은 무엇인가요?
++ 에디의 수영복이 너무 작다.
+- 주니어가 수건 가져오는 걸 깜빡했다.
+- 에디가 수영할 줄을 모른다.
+
+[MATCH]
+> 짝을 누르세요
+- Excuse me <> 실례합니다
+- right <> 맞네
+- an emergency <> 긴급 상황이에요
+- to help you <> 당신을 도우러
+- swimsuit <> 수영복 때문에요
+
