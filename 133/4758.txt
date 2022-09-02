@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=고마워?
+icon=0e35077f2bf31284d5967e7096a66da10d0a9bdf
+set=4|3
+
+[HEADER]
+> Thanks?
+~ 고마워    
+
+[LINE]
+> Zari gives Lily a~box. 
+~ 자리가  건넨다   릴리에게 상자~하나를 
+
+[LINE]
+Speaker416: What's~this?
+~           이게~뭐야       
+
+[LINE]
+Speaker418: Open the~box!
+~           열어봐  상자를     
+
+[LINE]
+> Lily opens the~box.
+~ 릴리가  연다    상자를     
+
+[LINE]
+Speaker416: It's a~shirt.
+~           이건   셔츠잖아    
+
+[LINE]
+Speaker418: It's~so~cute!
+~           귀엽지~않니       
+
+[MULTIPLE_CHOICE]
+> 자리는 셔츠가 맘에 안 든다.
++ 아니요, 그렇지 않아요.
+- 네, 맞아요.
+
+[LINE]
+Speaker416: It's~pink.
+~           핑크색이네     
+
+[LINE]
+Speaker418: Yeah, my favorite color.
+~           응     내가 제일~좋아하는  색깔이야  
+
+[LINE]
+Speaker416: And it~has~a~cat on~it.
+~           그리고 고양이도~그려져있네   그~위에  
+
+[LINE]
+Speaker418: I love  cats!
+~           난 너무~좋아 고양이가 
+
+[POINT_TO_PHRASE]
+> “오토바이”를 뜻하는 말을 고르세요.
+Speaker416: (And) (the~cat~is) (on~a)     (+motorcycle).
+~            그리고   고양이가         ~를~타고~있네    오토바이        
+
+[LINE]
+Speaker418: It's~so~funny!
+~           재밌지~않니        
+
+[LINE]
+Speaker418: It's a~perfect~birthday~present.
+~           이건   완벽한~생일~선물이야                
+
+[MULTIPLE_CHOICE]
+> 자리는 셔츠가…
+- …색깔이 별로라고 생각한다.
+- …그녀의 고양이를 위한 것이라고 생각한다.
++ …생일 선물로 완벽하다고 생각한다.
+
+[LINE]
+Speaker416: Zari, it's~not~my~birthday.
+~           자리    내~생일~아니야             
+
+[LINE]
+Speaker418: I  know. Today~is my birthday.
+~           나도 알아    오늘은      내  생일이야     
+
+[LINE]
+Speaker416: Oh, right.
+~           아   맞다    
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker418: [(You) (always) (forget) (my) (birthday).]
+~             넌     항상       잊어버려     내    생일을        
+
+[LINE]
+Speaker418: Now you can~give me  this shirt!
+~           이제  네가  주면~돼     나한테 이    셔츠를   
+
+[LINE]
+Speaker416: Wow, thank~you.
+~           우와   고마워       
+
+[LINE]
+Speaker418: No, no. Thank~you.
+~           아니  아니  내가~고맙지    
+
+[MULTIPLE_CHOICE]
+> 자리가 릴리에게 셔츠를 준 이유는 무엇인가요?
++ 릴리가 자신에게 다시 돌려주게 하려고.
+- 오늘이 릴리의 생일이라서.
+- 릴리에게 오토바이를 타는 고양이가 있어서.
+
+[MATCH]
+> 짝을 누르세요
+- it has a cat <> 고양이도 그려져있네
+- a box <> 상자 하나를
+- And <> 그리고
+- on a <> ~를 타고 있네
+- cats <> 고양이가
+
