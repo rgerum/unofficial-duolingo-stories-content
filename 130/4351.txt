@@ -1,0 +1,92 @@
+[DATA]
+fromLanguageName=Купишь мне ее?
+icon=ce0ae956035c1bac6b9c64737466d59c5d027e97
+set=4|4
+
+[HEADER]
+> Can~I~Have~It?
+~ купишь~мне~её 
+
+[LINE]
+> Junior  and Eddy are~at~the~mall.  
+~ Джуниор и   Эдди в~торговом~центре 
+
+[LINE]
+Speaker415: Dad!  I~need    a~new video~game!
+~           папа  мне~нужна новая видеоигра  
+
+[LINE]
+Speaker414: You~don't~need a~new video~game.
+~           тебе~не~нужна  новая видеоигра  
+
+[MULTIPLE_CHOICE]
+> Отец Джуниора хочет купить новую видеоигру.
++ Нет, это неправда.
+- Да, это правда.
+
+[LINE]
+Speaker415: Please?     There's  a~flying robot in this game!
+~           пожалуйста  там~есть летающий робот в  этой игре 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker414: Junior.  You want   this game, but [you~don't~need~it].
+~           Джуниор  ты  хочешь эту  игру  но   она~тебе~не~нужна  
+- we don't eat it
+- you won't read it
++ you don't need it
+
+[LINE]
+Speaker415: OK!     I want this game. Now    can~I~have~it?
+~           хорошо  я хочу эту  игру  теперь купишь~мне~её 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker414: No,  you~have    video~games [at~home]!
+~           нет  у~тебя~есть видеоигры    дома     
++ at~home
+~ дома   
+- in~the~refrigerator
+~ в~холодильнике     
+- in~the~shower
+~ в~душе       
+
+[LINE]
+Speaker415: You're~right.
+~           ты~прав      
+
+[ARRANGE]
+> Наберите услышанное
+Speaker415: [(So)  (can~we)   (go~home)?]    
+~             так   мы~можем   пойти~домой   
+
+[LINE]
+Speaker414: No,  we~are~going to~Vikram's~house.
+~           нет  мы~идем      к~Викраму~домой   
+
+[LINE]
+Speaker415: Ugh! His house is~boring!
+~           фу   его дом   скучный   
+
+[LINE]
+Speaker414: But his TV        is~big,  and I~need    to~watch   the~football~game.
+~           но  его телевизор большой  и   мне~нужно посмотреть футбольный~матч   
+
+[LINE]
+Speaker415: You~don't~need to~watch~the~game, Dad.  You want   to~watch~it.   
+~           тебе~не~нужно  посмотреть~матч    папа  ты  хочешь посмотреть~его 
+
+[MULTIPLE_CHOICE]
+> Забавно! Эдди и Джуниор...
++ ...используют слово «нужно» вместо слова «хочу».
+- ...летают на роботах.
+- ...играют в видеоигры с Викрамом.
+
+[MATCH]
+> Коснитесь пар
+- in <> в
+- You <> ты
+- Ugh <> фу
+- Eddy <> Эдди
+- are at the mall <> в торговом центре
+
