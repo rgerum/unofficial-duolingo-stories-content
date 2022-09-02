@@ -1,0 +1,161 @@
+[DATA]
+fromLanguageName=보안 질문
+icon=9558b378d2ca0a3f0626205e03866b3e91153f01
+set=30|2
+
+[HEADER]
+> The~Security~Question
+~ 보안~질문                
+
+[LINE]
+> Priti~and~Vikram~are walking quickly down~the~street.
+~ 프리티와~비크람이            걷고~있다   빠르게     거리를~따라          
+
+[LINE]
+Speaker560: I can't~wait to~see this play!
+~           난 너무~기대~돼    보는게    이    연극을  
+
+[LINE]
+Speaker593: Do~you~have the~tickets?
+~           갖고~있어       티켓을         
+
+[LINE]
+Speaker560: Oh~no.
+~           아~이런  
+
+[LINE]
+> Priti stops~and looks in~her~purse.
+~ 프리티가  멈춰서       본다    가방~안을        
+
+[LINE]
+Speaker560: I  forgot them at~home.
+~           내가 깜빡했어   티켓을  집에      
+
+[MULTIPLE_CHOICE]
+> 이런! 무슨 일이 일어났나요?
+- 누군가가 프리티의 가방을 훔쳐갔다.
++ 프리티가 연극 티켓을 깜빡했다.
+- 프리티가 연극을 보고 싶어하지 않는다.
+
+[LINE]
+Speaker593: Oh~no! We don't~have~time to~go~home~and get  them.
+~           아~이런   우린 시간이~없어          집에~가서          가져~올 티켓을  
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker560: I~was so excited to~see the play. [I've~waited~for~months]!
+~           난     정말 신났었는데   보려니    이   연극을    몇~달이나~기다렸다고             
+- I've played here four months
+- Why wait here for months
++ I've waited for months
+
+[LINE]
+Speaker593: Wait… I   have the~tickets on~my~phone!
+~           잠깐만   나한테 있어   티켓이         휴대폰에        
+
+[LINE]
+Speaker593: Hmm… I have~to~log into~my~account, but I~forgot my password.
+~           음    난 로그인해야~돼     내~계정에            하지만 잊어버렸어    내  비밀번호를    
+
+[POINT_TO_PHRASE]
+> “보안 질문”을 뜻하는 말을 고르세요.
+Speaker593: I  (can~answer) (+a~security~question) (to~log~in), (but)…
+~           내가  대답하면~돼        보안~질문에                로그인하려면       하지만  
+
+[LINE]
+Speaker560: What?
+~           뭔데   
+
+[LINE]
+Speaker593: The question~is, "What's~your~brother's~birthday?"
+~           그   질문이~이거야       남동생의~생일이~언제입니까                  
+
+[LINE]
+Speaker560: So? 
+~           그래서 
+
+[LINE]
+Speaker593: I forgot~it.
+~           난 잊어버렸어     
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker560: You~forgot [your brother's birthday?]!
+~           잊어버렸어       당신   남동생의      생일을        
+- my purse
+~ 내  가방   
++ your brother's birthday
+~ 당신   남동생의      생일      
+- your birthday
+~ 당신의  생일      
+
+[LINE]
+Speaker593: I never~remember dates.
+~           난 항상~기억~못~해      날짜들을  
+
+[LINE]
+Speaker560: Let's~call your brother.
+~           전화~하자      당신   남동생한테   
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker593: [(Then) (he'll~know)  (that~I~forgot) (his) (birthday)!]
+~             그러면    동생이~알게~될~거야   내가~잊어버린~걸       그의    생일을        
+
+[LINE]
+Speaker560: Did~you~forget how expensive these tickets~were?
+~           잊은~거야          얼마나 비쌌는지      이     티켓이          
+
+[LINE]
+Speaker593: OK,  OK,  I'll~call~him.
+~           알았어  알았어  전화할게          
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+> Vikram [calls~his~brother] and asks about his birthday.
+~ 비크람이    그의~남동생에게~전화한다      그리고 묻는다  ~에~대해 그의  생일       
++ calls his brother
+- calls this mother
+- kills another
+
+[LINE]
+Speaker593: Priti, it~worked! I   got the~tickets!
+~           프리티    됐어         나한테 있어  티켓이         
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker560: Wonderful! We're finally going~to~see [this play]!
+~           잘했어        우리가   드디어     보겠다           이    연극을   
+- your brother
+~ 네    남동생    
+- a~birthday~party
+~ 생일~파티           
++ this play
+~ 이    연극  
+
+[LINE]
+Speaker593: Wait… One problem. The tickets~were for~last~night.
+~           잠깐만   하나  문제가~있어   이   티켓은          어젯밤~공연~티켓이었어   
+
+[LINE]
+Speaker560: What?!
+~           뭐라고   
+
+[LINE]
+Speaker593: I  told~you that I never~remember dates.
+~           내가 말했잖아     ~라고  난 기억~못~한다        날짜들을  
+
+[MULTIPLE_CHOICE]
+> 비크람과 프리티에게 티켓은 있지만…
+- …프리티가 연극을 보기엔 너무 화가 나있다.
+- …이젠 비크람의 동생도 연극을 보러 오게 됐다.
++ …그건 어젯밤의 연극 티켓이었다.
+
+[MATCH]
+> 짝을 누르세요
+- Did you forget <> 잊은 거야
+- down the street <> 거리를 따라
+- have to log <> 로그인해야 돼
+- Do you have <> 갖고 있어
+- at home <> 집에
+
