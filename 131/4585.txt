@@ -1,0 +1,109 @@
+[DATA]
+fromLanguageName=Новий домашній улюбленець
+icon=51e004f16574a25cf124ce8d3c718187674dfbdc
+set=10|2
+
+[HEADER]
+> New   Pet                
+~ новий домашній~улюбленець
+
+[LINE]
+Speaker370: Mom!  Mom! 
+~           мамо  мамо 
+
+[LINE]
+Speaker292: Yes, Regis?  
+~           так  Ріджесе 
+
+[LINE]
+Speaker370: Can~I~have a~dog? 
+~           можна~мені собаку 
+
+[SELECT_PHRASE]
+> Виберіть пропущену фразу
+Speaker292: A~dog  is [a~lot~of~work]...
+~           собака це  багато~роботи    
++ a lot of work
+- a love for work
+- a lot of weeks
+
+[LINE]
+Speaker370: Please,     Mom!!! 
+~           будь~ласка  мамо   
+
+[LINE]
+Speaker292: Hmm… OK.   
+~           хм   добре 
+
+[LINE]
+Speaker370: Yes!
+~           так 
+
+[POINT_TO_PHRASE]
+> Виберіть варіант, що означає «спочатку».
+Speaker292: (But) (+first),    (you~need)   (to~wash~the~car)…  
+~            але    спочатку    тобі~треба   помити~автомобіль  
+
+[LINE]
+Speaker292: … clean~the~bathroom…    
+~             прибрати~ванну~кімнату 
+
+[LINE]
+Speaker370: OK…   
+~           добре 
+
+[ARRANGE]
+> Що ви чуєте?
+Speaker292: … [(and) (clean)  (the~windows)!]
+~               і     помити   вікна         
+
+[POINT_TO_PHRASE]
+> Виберіть варіант, що означає «потому».
+> (Three) (hours)  (+later),  (Regis)  finishes cleaning~the~house.
+~  три     години    потому    Ріджес  закінчує прибирання~будинку 
+
+[LINE]
+Speaker370: Mom!  Look~at     my   work!  
+~           мамо  подивися~на мою~ роботу 
+
+[LINE]
+Speaker292: Wow! This looks    great!  You~are very responsible.   
+~           ого  це   виглядає чудово  ти      дуже відповідальний 
+
+[CONTINUATION]
+> Що далі?
+Speaker292: You can   have [a~dog]! 
+~           ти  можеш мати  собаку  
+- a~cat 
+~ кота  
++ a~dog  
+~ собаку 
+- a~bag 
+~ сумку 
+
+[LINE]
+Speaker370: No, thank~you! I~don't~want a~dog. 
+~           ні  дякую      я~не~хочу    собаку 
+
+[LINE]
+Speaker292: But Regis,   I don't understand…
+~           але Ріджесе  я не    розумію    
+
+[LINE]
+Speaker370: I don't want to~be responsible!    I'm~tired! 
+~           я не    хочу бути  відповідальним  я~стомився 
+
+[MULTIPLE_CHOICE]
+> Чому Ріджес не хоче собаку?
++ Він стомився і більше не хоче відповідальності.
+- У нього вже чотири собаки.
+- Він вважає, що мати собаку буде дуже нудно.
+
+[MATCH]
+> З’єднайте пари
+- want <> хочу
+- Please <> будь ласка
+- first <> спочатку
+- You are <> ти
+- Can I have <> можна мені
+
