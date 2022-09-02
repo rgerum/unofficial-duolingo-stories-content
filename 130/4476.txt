@@ -1,0 +1,170 @@
+[DATA]
+fromLanguageName=Собеседование
+icon=857c570ed760cd6d06526cecf0b469a7c0ef3236
+set=36|1
+
+[HEADER]
+> The~Interview
+~ собеседование
+
+[LINE]
+> Bea is~at~the~office of~a~non-profit~company   for~an~interview. She sits~down next~to a~man.   
+~ Би  (пришла)~в~офис  некомерческой~организации на~собеседование  она садится   рядом~с мужчиной 
+
+[LINE]
+Speaker507: Wow, I'm really nervous. 
+~           ого  я   очень  волнуюсь 
+
+[LINE]
+Speaker7: Oh, why?   
+~         ох  почему 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker507: I really hope          [I~get~this~job].      I care     about the~environment  a~lot.
+~           я очень  надеюсь~(что)  я~получу~эту~работу   я забочусь об    окружающей~среде очень 
+- my cat has a job
++ I get this job
+- I get his joke
+
+[LINE]
+Speaker7: Oh, don't~be~nervous!
+~         ой  не~волнуйся      
+
+[ARRANGE]
+> Наберите услышанное
+Speaker7: [(You're) (not~going~to~get) (the~job).]   
+~           ты       не~получишь        эту~работу   
+
+[LINE]
+Speaker507: Excuse~me?     
+~           что~вы~сказали 
+
+[LINE]
+Speaker7: Clearly,   I'm the~best person~for~the~job.    
+~         бесспорно  я   лучший   кандидат~на~эту~работу 
+
+[POINT_TO_PHRASE]
+> Choose   the~option that    means    «через трубочку»
+~ выберите вариант    который означает ~      ~        
+Speaker7: You're (drinking) your coffee (+with~a~straw).   (Plastic)     straws   kill    (turtles).
+~         ты      пьёшь     свой кофе     через~трубочку    пластиковые  трубочки убивают  черепах  
+
+[LINE]
+Speaker507: Actually,  this straw    is~made     of~recycled       paper. 
+~           вообще-то  эта  трубочка изготовлена из~переработанной бумаги 
+
+[LINE]
+Speaker507: And look,       you're using       a~plastic   coffee~cup.        Plastic is~really~bad for our   oceans. 
+~           и   посмотрите  вы     пользуетесь пластиковым стаканом~для~кофе  пластик вреден        для наших океанов 
+
+[LINE]
+Speaker7: Uh…  I usually use       a~glass    bottle,   but I forgot to~bring~it.
+~         э-э  я обычно  пользуюсь стеклянной бутылкой  но  я забыл  её~взять    
+
+[MULTIPLE_CHOICE]
+> Why~does the~man say           he usually uses       a~glass    bottle?  
+~ почему   мужчина говорит~(что) он обычно  пользуется стеклянной бутылкой 
+- He wants to~start using        more   plastic. 
+~ он хочет начать   использовать больше пластика 
+- He~is an~artist who~makes fancy      glasses.
+~ он    художник  создающий изысканные стаканы 
++ Glass  is~better for the~environment  than plastic.
+~ стекло лучше     для окружающей~среды чем  пластик 
+
+[LINE]
+Speaker7: I drove   here in~an~electric~car, though!      
+~         я приехал сюда на~электрокаре      между~прочим 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker507: Well,  I rode~my           bicycle    here! And [I~only~buy~clothes]      made~of          recycled       materials! 
+~           что~ж  я приехала~на~своём велосипеде сюда  и    я~покупаю~одежду~только  изготовленную~из переработанных материалов 
+- I'll only be close
++ I only buy clothes
+- why only buy those
+
+[LINE]
+Speaker7: Oh, that's~why your clothes look     terrible!
+~         ох  вот~почему твоя одежда  выглядит отвратно 
+
+[LINE]
+Speaker507: You're the~rudest          person  I've~ever~met!                    
+~           вы     самый~невоспитанный человек (которого)~я~когда-либо~встречала 
+
+[MULTIPLE_CHOICE]
+> Bea thinks         the~man~is…
+~ Би  считает,~(что) мужчина    
++ …not a~very nice    person. 
+~  не  очень  хороший человек 
+- …dressed very  badly.
+~  одет    очень плохо 
+- …very  nice    and friendly.   
+~  очень хороший и   дружелюбный 
+
+[LINE]
+Speaker528: Excuse~me!
+~           извините  
+
+[LINE]
+> Bea realizes that the~interviewer is~standing behind them.
+~ Би  понимает что  рекрутер        стоит       позади них  
+
+[LINE]
+Speaker528: You're arguing   really loudly.
+~           вы     ругаетесь очень  громко 
+
+[LINE]
+Speaker507: I'm~so~sorry.
+~           мне~так~жаль 
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker528: But… I can~see that you both really        care       about [the~environment]. 
+~           но   я вижу    что  вы  оба  действительно заботитесь об     окружающей~среде  
+- horror~movies 
+~ фильмах~ужасов
+- good    coffee
+~ хорошем кофе  
++ the~environment 
+~ окружающей~среде
+
+[LINE]
+Speaker528: I want          you both to~work  for~me! 
+~           я хочу,~(чтобы) вы  оба  работали на~меня 
+
+[LINE]
+Speaker7: Yes! I got     the~job!
+~         да   я получил работу  
+
+[LINE]
+Speaker507: Will~I~have  to~work  with him every  day? 
+~           мне~придётся работать с    ним каждый день 
+
+[LINE]
+Speaker528: Of~course!  You'll~be a~team.  
+~           разумеется  вы~будете командой 
+
+[LINE]
+Speaker507: No,  thanks.  I don't want this job    that~much.       
+~           нет  спасибо  я не    хочу эту  работу настолько~сильно 
+
+[MULTIPLE_CHOICE]
+> Why~did Bea decide not to~take~the~job?      
+~ почему  Би  решила не  соглашаться~на~работу 
++ She doesn't want  to~work  with the~man.      
+~ она не      хочет работать с    этим~мужчиной 
+- She doesn't care      about the~environment. 
+~ она не      заботится об    окружающей~среде 
+- The~office is~too~far~away          from her apartment.
+~ офис       находится~слишком~далеко от   её  квартиры  
+
+[MATCH]
+> Коснитесь пар
+- a man <> мужчиной
+- him <> ним
+- Wow <> ого
+- day <> день
+- loudly <> громко
+
