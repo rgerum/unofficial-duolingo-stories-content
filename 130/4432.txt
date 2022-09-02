@@ -1,0 +1,107 @@
+[DATA]
+fromLanguageName=Боксёрский поединок
+icon=149224cb1a7c361279bece453d459dc57ba243a5
+set=25|1
+
+[HEADER]
+> The~Boxing~Match   
+~ боксёрский~поединок
+
+[LINE]
+> Lin and her grandmother, Lucy, are~at~a~bar~watching a~boxing~match.     
+~ Лин и   её  бабушка      Люси  смотрят~в~баре        боксёрский~поединок 
+
+[LINE]
+Speaker508: I'm leaving after          I finish~my~drink,    Grandma.
+~           я   уйду    после~того~как я допью~свой~напиток  бабушка 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker509: But this~is the~most~important match    [of~the~year]!
+~           но  это     самый~важный       поединок  года         
+- of the beer
+- other ear
++ of the year
+
+[LINE]
+Speaker508: I hate     boxing. It's~so  boring. 
+~           я ненавижу бокс    он~такой скучный 
+
+[MULTIPLE_CHOICE]
+> Бокс — любимый спорт Лин.
++ Нет, это неправда.
+- Да, это правда.
+
+[LINE]
+Speaker509: No,  it's~exciting!   
+~           нет  он~захватывающий 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «дерущихся».
+Speaker508: (It's) just   two  men    (+fighting)  while~wearing         big     (leather) (gloves).  
+~            это   просто двое мужчин   дерущихся  в~то~время~как~на~них большие  кожаные   перчатки  
+
+[LINE]
+Speaker509: They're not just   men…     They're athletes!  
+~           они     не  просто мужчины  они     спортсмены 
+
+[LINE]
+Speaker508: They're just   trying   to~win   a~stupid trophy.
+~           они     просто пытаются выиграть глупый   приз   
+
+[MULTIPLE_CHOICE]
+> Лин говорит, что бокс — это…
++ …просто драка двух мужчин за приз.
+- …хороший способ завести друзей.
+- …опасный спорт, из-за которого она осталась без зуба.
+
+[LINE]
+> Lin puts~down her  glass  and walks~away.
+~ Лин ставит    свой стакан и   уходит     
+
+[LINE]
+Speaker509: Where~are you going?
+~           куда      ты  идёшь 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker508: I'm going home  to~watch my  [favorite TV~show].     
+~           я   иду   домой смотреть мою  любимую  телепередачу  
+- socks
+~ носки
++ favorite TV~show     
+~ любимую  телепередачу
+- sandwich 
+~ бутерброд
+
+[LINE]
+Speaker509: The~dating~show        about twenty   men    fighting~over one  woman?  
+~           романтическую~передачу про   двадцать мужчин дерущихся~за  одну женщину 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker509: [(They) (don't~even~win)   (a~trophy)!]
+~             они    даже~не~выиграют   приз       
+
+[LINE]
+Speaker508: No.  But they're fighting for love.  
+~           нет  но  они     дерутся  за  любовь 
+
+[LINE]
+Speaker509: Now~that's boring.
+~           вот~это    скучно 
+
+[MULTIPLE_CHOICE]
+> Вы поняли? Люси считает, что…
+- …из Лин получится отличная боксёрша.
++ …драться за женщину скучно.
+- …двадцать женщин боксируют с одним мужчиной.
+
+[MATCH]
+> Коснитесь пар
+- They're <> они
+- fighting over <> дерущихся за
+- gloves <> перчатки
+- Lucy <> Люси
+- trophy <> приз
+
