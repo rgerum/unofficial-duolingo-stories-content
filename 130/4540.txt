@@ -1,0 +1,197 @@
+[DATA]
+fromLanguageName=Прививка от гриппа
+icon=222533c8796169cf6c8fb897c31c7b0f51f3a1bf
+set=52|1
+
+[HEADER]
+> The~Flu~Shot      
+~ прививка~от~гриппа
+
+[LINE]
+> Eddy and his son Junior  are~waiting in a~small   room    at the~doctor's~office.
+~ Эдди и   его сын Джуниор ждут        в  маленькой комнате в  кабинете~врача      
+
+[LINE]
+Speaker415: I~wish~I~didn't~have     to~get a~flu~shot…        
+~           вот~бы~мне~не~нужно~было делать прививку~от~гриппа 
+
+[LINE]
+Speaker414: I~know!      You~must~be~scared,   son.  
+~           и~не~говори  наверное,~ты~напуган  сынок 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker414: [(But) (this) (shot)     (will~keep~you~healthy)!]   
+~             но    эта    прививка   убережёт~тебя~от~болезни   
+
+[LINE]
+Speaker415: Will~the~shot~hurt?   
+~           прививка~будет~болеть 
+
+[LINE]
+Speaker414: It~might  hurt     for~a~second, so      you~have   to~be very  brave!  
+~           она~может поболеть секунду       так~что тебе~нужно быть  очень храбрым 
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker415: But I don't know how [to~be brave]!  
+~           но  я не    знаю как  быть  храбрым  
+- to~cook  dinner
+~ готовить ужин  
++ to~be brave  
+~ быть  храбрым
+- to~drive a~car 
+~ водить   машину
+
+[LINE]
+Speaker414: Just   think   about the~warrior in your  video~game. He's not afraid of~anything, right?
+~           просто подумай про   воина       в  твоей видеоигре   он   не  боится ничего       верно 
+
+[LINE]
+Speaker415: That's~right. He fights~dragons!       
+~           верно         он сражается~с~драконами 
+
+[LINE]
+Speaker414: Exactly!
+~           именно  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker415: OK.     I'm~going~to~be brave.   I'm not going [to~scream~or~cry].   
+~           хорошо  я~буду          храбрым  я   не  буду   кричать~или~плакать  
+- to scream or try
++ to scream or cry
+- get ice cream or cry
+
+[LINE]
+> There~is~a~knock on the~door. It's the~doctor.
+~ (слышится)~стук  в  дверь     это  врач       
+
+[LINE]
+Speaker341: Hello,  Junior!  Are~you~ready for your  shot?    
+~           привет  Джуниор  ты~готов      к   твоей прививке 
+
+[LINE]
+Speaker415: Uh…  I~think~so.
+~           э-э  думаю,~да  
+
+[POINT_TO_PHRASE]
+> Choose   the~option that    means    «иглу».
+~ выберите вариант    который означает ~      
+> (The~doctor) opens     (the~drawer) and (takes~out) (+a~needle).
+~  врач        открывает  ящик        и    достаёт      иглу      
+
+[LINE]
+Speaker415: Oh, no,  Dad,  the~needle~is so    big!    
+~           о   нет  папа  игла          такая большая 
+
+[LINE]
+Speaker414: Oh. Wow, you're right. That needle~is very  big.    
+~           ой  ого  ты     прав   та   игла      очень большая 
+
+[LINE]
+Speaker415: Doctor, I~don't~think    I~can~do~this!      
+~           доктор  я~не~думаю~(что) я~смогу~это~сделать 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker341: OK,     Junior…  I'll~give your   dad  a~flu~shot         first,   so    you can see           [it's~very~safe].     
+~           хорошо  Джуниор  я~сделаю  твоему папе прививку~от~гриппа сначала  чтобы ты  мог увидеть~(что)  это~очень~безопасно  
+- it's every state
++ it's very safe
+- his hairy face
+
+[LINE]
+Speaker414: What? I'm~getting a~flu~shot?        
+~           что   я~сделаю    прививку~от~гриппа 
+
+[LINE]
+Speaker341: Why~not?        
+~           почему~бы~и~нет 
+
+[LINE]
+Speaker414: Because    this appointment~is   for Junior,   not for me.  
+~           потому~что эта  запись~(к~врачу) для Джуниора  не  для меня 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker341: [(You~should) (get)     (a~flu~shot)         (too).] 
+~             вам~стоит    сделать   прививку~от~гриппа   тоже   
+
+[LINE]
+Speaker415: What's~wrong,  Dad?  You~don't~look~very   good.  
+~           что~случилось  папа  ты~выглядишь~не~очень хорошо 
+
+[LINE]
+Speaker414: That needle~is very  big!    
+~           та   игла      очень большая 
+
+[MULTIPLE_CHOICE]
+> Did~you~notice that? It~seems~like Eddy…
+~ вы~заметили    это   похоже        Эдди 
+- …is~a~warrior who     fights~dragons.       
+~  воин         который сражается~с~драконами 
+- …is~going   to~give the~doctor a~flu~shot.        
+~  собирается сделать врачу      прививку~от~гриппа 
++ …is~scared~of getting a~flu~shot.        
+~  боится       делать  прививку~от~гриппа 
+
+[LINE]
+Speaker415: Dad,  this shot     will~help you  stay~healthy.        We~have   to~be very  brave,    remember?
+~           папа  эта  прививка поможет   тебе оставаться~здоровым  нам~нужно быть  очень храбрыми  помнишь  
+
+[LINE]
+Speaker414: Yes… Yes, I remember…
+~           да   да   я помню    
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+> The~doctor gives  Eddy [his flu~shot].          
+~ врач       делает Эдди  его прививку~от~гриппа  
+- an~apple~pie  
+~ яблочный~пирог
++ his flu~shot          
+~ его прививку~от~гриппа
+- some~shoes    
+~ какую-то~обувь
+
+[LINE]
+Speaker414: Ow!
+~           ой 
+
+[LINE]
+> The~doctor puts~the~needle~away.
+~ врач       убирает~иглу         
+
+[LINE]
+Speaker341: I'm~finished! That was a~good  plan, Junior. 
+~           я~закончила   это  был хороший план  Джуниор 
+
+[LINE]
+Speaker414: What  plan? Junior,  I don't understand.
+~           какой план  Джуниор  я не    понимаю    
+
+[LINE]
+Speaker415: Well, Dad,  the~Doctor and I just       convinced you  to~get  your flu~shot!          
+~           ну    папа  доктор     и   я только~что убедили   тебя сделать твою прививку~от~гриппа 
+
+[MULTIPLE_CHOICE]
+> Junior  said~he~was~afraid    of~getting~a~flu~shot…    
+~ Джуниор сказал,~что~он~боится делать~прививку~от~гриппа 
+- …because    he plays      a~video~game with scary     flu~shots.           
+~  потому~что он играет~(в) видеоигру    со   страшными прививками~от~гриппа 
++ …so    Eddy would~get a~flu~shot         first. 
+~  чтобы Эдди сделал    прививку~от~гриппа первым 
+- …because    the~doctor was~angry~at him. 
+~  потому~что врач       злилась~на   него 
+
+[MATCH]
+> Коснитесь пар
+- Because <> потому что
+- a good <> хороший
+- in <> в
+- Ow <> ой
+- That <> та
+
