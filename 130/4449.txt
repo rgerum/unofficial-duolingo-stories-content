@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=Идеальный кандидат
+icon=5899822ff564221d831e0f0f0a91755383fd85a6
+set=29|2
+
+[HEADER]
+> Perfect for the~Job
+~ идеален для работы 
+
+[LINE]
+> Junior  enters      an~ice~cream~store. He speaks        to Jerry,  the~manager.
+~ Джуниор заходит~(в) магазин~мороженого  он разговаривает с  Джерри  управляющим 
+
+[LINE]
+Speaker415: Can~I~have a~chocolate ice~cream and a~job~application?        
+~           можно~мне  шоколадное  мороженое и   заявку~о~приёме~на~работу 
+
+[LINE]
+Speaker2243: Umm. How~old~are~you? 
+~            э-э  сколько~тебе~лет 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker415: I'm~old~enough        to~know     that your   chocolate   ice~cream  [needs~more~sugar].    Are~you the~manager?
+~           я~достаточно~взрослый чтобы~знать что  вашему шоколадному мороженому  нужно~больше~сахара   вы      управляющий 
+- eats more sugar
++ needs more sugar
+- is more sure
+
+[LINE]
+Speaker2243: Yes, I~am.
+~            да   я    
+
+[LINE]
+Speaker415: I'm Junior.  Listen,   if   you give   me  a~job,  I can   help   you make       a~lot~of money.
+~           я   Джуниор  слушайте  если вы  дадите мне работу  я смогу помочь вам заработать много    денег 
+
+[MULTIPLE_CHOICE]
+> Стоп… С чем Джуниор хочет помочь управляющему?
+- раздать много денег
++ заработать много денег
+- потратить много денег
+
+[LINE]
+Speaker2243: But you're just       a~kid.    
+~            но  ты     всего~лишь мальчишка 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker415: [(That's~why) (I'm) (perfect) (for) (the~job).]
+~             поэтому      я     идеален   для   работы    
+
+[LINE]
+Speaker2243: No  thanks,  Junior. 
+~            нет спасибо  Джуниор 
+
+[LINE]
+> Later, Junior  is~eating his  ice~cream in~front~of the~store.
+~ позже  Джуниор ест       своё мороженое перед       магазином 
+
+[LINE]
+> A~family walks    past the~store and sees  Junior.  
+~ семья    проходит мимо магазина  и   видит Джуниора 
+
+[LINE]
+Speaker415: This~is the~best ice~cream I've~ever~had!      
+~           это     лучшее   мороженое что~я~когда-либо~ел 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker2540: Dad,  can~we   get    that [ice~cream]?
+~            папа  мы~можем купить это   мороженое  
+- family
+~ семью 
++ ice~cream
+~ мороженое
+- money 
+~ деньги
+
+[LINE]
+> They walk~into the~store.
+~ они  заходят~в магазин   
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker3145: That~kid's~chocolate~ice~cream     looks    amazing!    We want  [four~of~the~same~thing].
+~            шоколадное~мороженое~того~мальчика выглядит потрясающе  мы хотим  четыре~таких~же         
+- four of this main ring
+- more of the something
++ four of the same thing
+
+[LINE]
+Speaker2243: Great!  
+~            отлично 
+
+[LINE]
+> The~family    looks    very  happy       as~they~leave    the~store.
+~ (члены)~семьи выглядят очень счастливыми когда~выходят~из магазина  
+
+[LINE]
+Speaker2243: Junior,  you're a~genius.
+~            Джуниор  ты     гений    
+
+[MULTIPLE_CHOICE]
+> Управляющий считает, что Джуниор очень умный.
+- Нет, это неправда.
++ Да, это правда.
+
+[LINE]
+Speaker2243: But I still       can't   give you  a~job…  Because    you're a~child.
+~            но  я по-прежнему не~могу дать тебе работу  потому~что ты     ребёнок 
+
+[LINE]
+Speaker415: That's~OK, you can    pay     me  in~ice~cream!
+~           ничего     вы  можете платить мне мороженым    
+
+[MULTIPLE_CHOICE]
+> Каким образом Джуниор помог управляющему продать много мороженого?
+- Он написал о мороженом в соцсетях.
++ Он говорил людям, что оно вкусное.
+- Он продавал его из фургончика.
+
+[MATCH]
+> Коснитесь пар
+- the store <> магазином
+- to <> с
+- walk into <> заходят в
+- a lot of <> много
+- But <> но
+
