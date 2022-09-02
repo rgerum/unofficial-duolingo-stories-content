@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=흰머리
+icon=101b38fafc765483e659badbd2b174d558c65da2
+set=21|3
+
+[HEADER]
+> Gray~Hair
+~ 흰머리      
+
+[LINE]
+> Kay~and~her~husband,~Jeff,~are getting~ready in~the~bathroom.
+~ 케이와~그녀의~남편~제프가                 나갈~준비~중이다     화장실에서           
+
+[LINE]
+Speaker439: Oh~no!
+~           아~이런  
+
+[LINE]
+Speaker440: What's~wrong, my~love?
+~           왜~그래          여보      
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker439: [(I) (found) (a~gray~hair) (on~my~head)!]
+~             난   발견했어    흰머리~하나를       (내)~머리에서     
+
+[LINE]
+Speaker440: Your first gray~hair! Let's~have~a~party!
+~           당신의  첫     흰머리네       파티~하자              
+
+[LINE]
+Speaker439: That's~not~funny…
+~           (그건)~하나도~안~웃겨    
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker440: I'm~sorry. But don't~worry, it's only~one [gray~hair].
+~           미안         하지만 걱정~마         그건   딱~하나의     흰머리잖아      
+- bathroom
+~ 화장실     
+- minute
+~ 분     
++ gray~hair
+~ 흰머리      
+
+[LINE]
+Speaker439: I have~to~color my~hair!
+~           난 염색해야~돼        (내)~머리를 
+
+[LINE]
+Speaker440: Really?
+~           정말     
+
+[LINE]
+Speaker439: I'm not~ready to~have~gray~hair. I'm young!
+~           난   준비가~안~됐어  흰머리를~받아들일          난   젊다고   
+
+[MULTIPLE_CHOICE]
+> 케이가 머리를 염색하고 싶어하는 이유는 무엇인가요?
+- 백발 머리를 하고 싶어해서.
+- 제프는 그녀의 머리가 초록색이었으면 해서.
++ 흰머리가 나기엔 자신이 아직 젊다고 생각해서.
+
+[LINE]
+Speaker440: Young people have gray~hair too.
+~           젊은    사람들도   있어   흰머리가      역시  
+
+[LINE]
+Speaker440: And you'll~look~beautiful when~all~of~your~hair~is~gray.
+~           그리고 당신은~아름다울~거야           (당신)~머리가~백발이~되어도              
+
+[LINE]
+Speaker439: All~gray~hair?!
+~           전부~백발~머리       
+
+[LINE]
+Speaker440: Not~now. When~you're~old—
+~           지금~말고    당신이~나이가~들면      
+
+[LINE]
+Speaker439: See?  Gray~hair~is for~old~people!   
+~           그것~봐  흰머리는         나이~든~사람들한테~나는~거잖아 
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker440: [Everyone~gets~old]…
+~            우리~모두~나이가~들어       
++ Everyone gets old
+- Every pet is old
+- Everyone is cold
+
+[LINE]
+Speaker439: You're right, but…
+~           당신~말이  맞아     하지만 
+
+[LINE]
+Speaker440: We'll~be~old together. I will~always~love you.
+~           우린~나이~들거야    함께        난 항상~사랑할~거야        당신을 
+
+[POINT_TO_PHRASE]
+> “대머리”를 뜻하는 말을 고르세요.
+Speaker439: I  (will~always~love) you too. And (you'll~look~great) (with) (+a~bald~head)!
+~           나도  항상~사랑할~거야         당신을 역시   그리고  당신은~멋있을~거야          ~되어도    대머리가         
+
+[LINE]
+Speaker440: What?
+~           뭐라고  
+
+[LINE]
+Speaker439: Well, one~day, you'll~lose all~of your~hair.  
+~           음     언젠가      당신은~다~빠질~거야 모든     (당신의)~머리카락이 
+
+[LINE]
+Speaker439: Everyone gets~old, Jeff…
+~           우리~모두    나이가~들어    제프   
+
+[LINE]
+Speaker440: Oh~no…
+~           아~이런  
+
+[MULTIPLE_CHOICE]
+> 제프는...
++ …나중에 대머리가 될 수도 있다.
+- …케이의 흰머리가 맘에 들지 않는다.
+- …머리를 회색으로 염색할 것이다.
+
+[MATCH]
+> 짝을 누르세요
+- And <> 그리고
+- Everyone gets old <> 우리 모두 나이가 들어
+- my hair <> 머리를
+- I'm sorry <> 미안
+- people <> 사람들도
+
