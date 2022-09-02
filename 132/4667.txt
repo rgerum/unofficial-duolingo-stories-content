@@ -1,0 +1,103 @@
+[DATA]
+fromLanguageName=प्रेम पत्र
+icon=4ba2733ddb8bdc3f0924c6463da01f5d1eccaf40
+set=14|2
+
+[HEADER]
+> Love~Letter
+~ प्रेम~पत्र 
+
+[LINE]
+> Zari is~babysitting   her~neighbor, Junior.      They are at~the~library.
+~ ज़ारी देखभाल~कर~रही~है अपने~पड़ोसी    जूनियर~(की)  वे   हैं पुस्तकालय~में  
+
+[LINE]
+Speaker418: What are you doing,  Junior?
+~           क्या हो  तुम कर~रहे  जूनियर 
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker415: Um… I'm     [writing~a~letter].
+~           ~   मैं~हूँ  एक~पत्र~लिख~रहा   
+- writing to let her
+- riding it better
++ writing a letter
+
+[LINE]
+Speaker418: Who  are you writing~to?
+~           किसे हो  तुम लिख~रहे    
+
+[LINE]
+Speaker415: Well, it's  for~a~girl…     I~like       her a~lot.      
+~           (तो)  यह~है एक~लड़की~के~लिए  मुझे~पसंद~है वह  बहुत~ज़्यादा 
+
+[LINE]
+Speaker418: Ooh! Is~it      a  love~letter? Is~it      for~a~girl       in~your~class?      
+~           ~    क्या~यह~है एक प्रेम~पत्र   क्या~यह~है किसी~लड़की~के~लिए तुम्हारी~कक्षा~(की) 
+
+[POINT_TO_PHRASE]
+> उस विकल्प को चुनें जिसका मतलब “किशोरी” है।
+Speaker415: (No)…   (She's) (a)  (+teenager).
+~            नहीं    वह~है   एक    किशोरी    
+
+[LINE]
+Speaker418: A  teenager? Like~me? 
+~           एक किशोरी    मेरी~तरह 
+
+[LINE]
+Speaker415: Yes. She's my…   neighbor.
+~           हाँ  वह~है मेरी  पड़ोसन    
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker418: [Wait~a~minute]. She's a  teenager and she's your     neighbor?
+~            एक~मिनट~रुको    वह~है एक किशोरी   और  वह~है तुम्हारी पड़ोसन    
++ Wait a minute
+- Way to win it
+- Late a minute
+
+[LINE]
+Speaker415: Um… yes.
+~           ~   हाँ 
+
+[LINE]
+Speaker418: Hmm… And is~she     very smart?  
+~           ~    और  क्या~वह~है बहुत होशियार 
+
+[LINE]
+Speaker415: Yes!
+~           हाँ 
+
+[CONTINUATION]
+> आगे क्या आएगा?
+Speaker418: Aw Junior! You~love          me?    Sorry,    but   you're [too~young~for~me   ].
+~           ~  जूनियर  तुम~प्यार~करते~हो मुझसे  माफ़~करना  लेकिन तुम~हो  मेरे~लिए~बहुत~छोटे   
+- a~love~letter
+~ एक~प्रेमपत्र 
+- a~teenager
+~ एक~किशोर  
++ too~young~for~me  
+~ मेरे~लिए~बहुत~छोटे
+
+[LINE]
+Speaker415: No!   I~don't~love        you…   I~love             your     best~friend,~Lily!     
+~           नहीं  मैं~प्यार~नहीं~करता तुमसे  मैं~प्यार~करता~हूँ तुम्हारी पक्की~सहेली,~लिली~(से) 
+
+[LINE]
+Speaker415: Can~you~give        her my   letter?
+~           क्या~तुम~दे~सकती~हो उसे मेरा पत्र   
+
+[MULTIPLE_CHOICE]
+> ज़ारी को लगा कि जूनियर उसके लिए एक प्रेम पत्र लिख रहा था, लेकिन दरअसल…
+- …वह तो अपना होमवर्क कर रहा था।
++ …वह प्रेम पत्र तो लिली के लिए था।
+- …वह तो प्यार-मोहब्बत वाली शायरी लिख रहा था।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- Sorry <> माफ़ करना
+- Is it <> क्या यह है
+- her neighbor <> अपने पड़ोसी
+- her <> वह
+- writing a letter <> एक पत्र लिख रहा
+
