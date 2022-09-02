@@ -1,0 +1,169 @@
+[DATA]
+fromLanguageName=В ожидании Джорджа
+icon=7d8114eab9a5a0933ffdb44a23c7a12e3a5e0682
+set=42|2
+
+[HEADER]
+> Waiting~for~George
+~ в~ожидании~Джорджа
+
+[LINE]
+> Lucy is~leaving  a~nice   restaurant.
+~ Люси уходит~(из) хорошего ресторана  
+
+[LINE]
+> She sees  her  friend,  Julia,  sitting at~a~table by~herself.   
+~ она видит свою подругу  Джулию  сидящей за~столом  в~одиночестве 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker509: Julia!  What's~wrong? [You~look~sad]!          
+~           Джулия  что~такое      ты~выглядишь~печальной  
+- Your book’s sad
+- Who looks bad
++ You look sad
+
+[LINE]
+Speaker988: Oh Lucy, it's awful!    It's~my~anniversary, but I don't think        George is~coming.
+~           ой Люси  это  кошмарно  у~меня~годовщина     но  я не    думаю,~(что) Джордж придёт    
+
+[LINE]
+Speaker509: What? Why    not?
+~           что   почему нет 
+
+[LINE]
+Speaker988: I forgot     our   anniversary last~year,        and I think he's still   angry~about~it.     He's very  late.      
+~           я забыла~(о) нашей годовщине   (в)~прошлом~году  и   я думаю он   всё~ещё злится~из-за~этого  он   очень опаздывает 
+
+[LINE]
+Speaker509: But that was  a~year ago!  
+~           но  это  было год    назад 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker509: [(He's) (probably) (late)       (because~of) (traffic).]
+~             он     наверное   опаздывает   из-за        пробок    
+
+[LINE]
+Speaker988: No,  he's~not~coming…
+~           нет  он~не~придёт    
+
+[LINE]
+Speaker988: And look     at~everything I did     for him  this     year. I got    his favorite flowers.
+~           и   посмотри на~всё,~(что) я сделала для него (в)~этом году  я купила его любимые  цветы   
+
+[POINT_TO_PHRASE]
+> Choose   the~option that    means    «наняла».
+~ выберите вариант    который означает ~        
+Speaker988: (And) I (+hired)  a~musician (to~play) his favorite (song). 
+~            и    я   наняла  музыканта   сыграть  его любимую   песню  
+
+[LINE]
+> Julia  points~to     a~violin~player at~a~nearby~table.   
+~ Джулия показывает~на скрипачку       за~соседним~столиком 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker988: The~musician [has~been~waiting~for~an~hour].
+~           музыкант      ждёт~уже~час                  
+- has been wading through the flowers
+- has been waiting for a shower
++ has been waiting for an hour
+
+[LINE]
+Speaker509: George is~an~hour~late?!   Maybe he isn't~coming…
+~           Джордж опаздывает~на~час   может он не~придёт    
+
+[LINE]
+Speaker988: He was so  angry when  I forgot     our   anniversary last~year.       
+~           он был так зол   когда я забыла~(о) нашей годовщине   (в)~прошлом~году 
+
+[LINE]
+Speaker988: This~year,     I remembered~everything. But he's~not~here! Now    I know        our  relationship is~finished.
+~           (в)~этом~году  я всё~припомнила         но  его~здесь~нет  теперь я знаю,~(что) наши отношения    окончены    
+
+[MULTIPLE_CHOICE]
+> Why~does Julia  think         her relationship with George   is~finished?
+~ почему   Джулия думает,~(что) её  отношения    с    Джорджем окончены    
+- He is~dating        a~violin~player.
+~ он встречается~(со) скрипачкой      
++ He is~still angry that Julia  forgot      their anniversary.
+~ он всё~ещё  зол   что  Джулия забыла~(об) их    годовщине   
+- He told   Lucy he~didn't~want    to~come   to~dinner.
+~ он сказал Люси (что)~он~не~хотел приходить на~ужин   
+
+[LINE]
+Speaker509: Julia,  George is~terrible. You can    find  five men    in this restaurant who     are~better than~him.
+~           Джулия  Джордж ужасен       ты  можешь найти пять мужчин в  этом ресторане  которые лучше      него     
+
+[LINE]
+Speaker988: You  don't~like  George?
+~           тебе не~нравится Джордж 
+
+[LINE]
+Speaker509: I~have~never~liked      George! He talks         too~much.     
+~           мне~никогда~не~нравился Джордж  он разговаривает слишком~много 
+
+[ARRANGE]
+> Наберите услышанное
+> [(Julia)  (gets)     (a~text~message).]     
+~   Джулия   получает   текстовое~сообщение   
+
+[LINE]
+Speaker988: Oh, George just       texted~me!            
+~           ой  Джордж только~что написал~мне~сообщение 
+
+[LINE]
+Speaker988: He says,    "I'm so~excited~for our   anniversary tomorrow."
+~           он говорит   я   жду~не~дождусь нашей годовщины   завтра    
+
+[LINE]
+Speaker988: What?! Our  anniversary~is the~fifteenth!
+~           что    наша годовщина      пятнадцатого  
+
+[LINE]
+Speaker509: Julia,  tomorrow~is the~fifteenth.
+~           Джулия  завтра      пятнадцатое   
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker988: Oh! My  anniversary~is [tomorrow]!
+~           ой  моя годовщина       завтра    
+- yesterday
+~ вчера    
+- today  
+~ сегодня
++ tomorrow
+~ завтра  
+
+[LINE]
+Speaker988: I~feel            much~better   now!   
+~           я~чувствую~(себя) намного~лучше теперь 
+
+[LINE]
+Speaker509: Oh, great!   Everything~is OK        with~you~and~George!
+~           ой  отлично  всё           в~порядке у~тебя~с~Джорджем   
+
+[LINE]
+Speaker988: Yes! I'm so  happy.     But wait,    do~you really think           George talks         too~much?     
+~           да   я   так счастлива  но  подожди  ты     правда считаешь,~(что) Джордж разговаривает слишком~много 
+
+[MULTIPLE_CHOICE]
+> George didn't~come to~dinner because…   
+~ Джордж не~пришел   на~ужин   потому~что 
++ …their anniversary~is tomorrow, not tonight.        
+~  их    годовщина      завтра    не  сегодня~вечером 
+- …there~was too~much      traffic.
+~  было      слишком~много пробок  
+- …their relationship is~finished.
+~  их    отношения    окончены    
+
+[MATCH]
+> Коснитесь пар
+- a year <> год
+- probably <> наверное
+- look <> посмотри
+- is leaving <> уходит
+- Julia <> Джулию
+
