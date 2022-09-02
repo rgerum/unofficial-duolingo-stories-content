@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=댄스 수업
+icon=9a1213d7cb11cc1ab115544c9557336da748fca6
+set=4|4
+
+[HEADER]
+> The~Dance~Class
+~ 댄스~수업          
+
+[LINE]
+> Eddy walks~into Elizabeth's class.
+~ 에디가  걸어~들어간다    엘리자베스의      수업에   
+
+[LINE]
+Speaker125: Hi!   
+~           안녕하세요 
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker125: Today we're [learning~to~dance]!
+~           오늘    우린     춤추는~걸~배울~거예요       
++ learning to dance
+- leaning to dance
+- earning two dances
+
+[LINE]
+> Eddy quickly walks to~the~door.
+~ 에디가  재빨리     걸어간다  문~쪽으로       
+
+[LINE]
+Speaker125: Wait!
+~           잠깐만요 
+
+[LINE]
+Speaker125: Don't~leave!
+~           가지~마세요      
+
+[LINE]
+Speaker125: I know dancing~is difficult sometimes…
+~           전 알아요  춤추는~게      어렵다는~걸    때로는       
+
+[LINE]
+Speaker125: …but it's really fun~too!
+~            하지만 이건   정말     재밌기도~해요 
+
+[POINT_TO_PHRASE]
+> “실수”를 뜻하는 말을 고르세요.
+~     ㅇ 뜻하는 말을 ㅇㅇ   
+Speaker414: (OK), (but) (this~is) a   (+mistake).
+~            네     하지만   이건       하나의   실수예요     
+
+[LINE]
+Speaker125: It's~OK! It's~easy. Watch me!
+~           괜찮아요     (이건)~쉬워요   보세요   저를 
+
+[LINE]
+Speaker414: But…
+~           하지만 
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+> [(Eddy) (watches) (Elizabeth) (dance).]
+~   에디가    본다        엘리자베스가      춤추는~걸   
+
+[LINE]
+Speaker125: Now dance with~me!
+~           이제  춤춰~봐요 저랑~같이   
+
+[LINE]
+Speaker414: This~is really fun!  
+~           이건      정말     재밌는데요 
+
+[LINE]
+Speaker125: So…  is~this~class still a~mistake?
+~           그래서  이~수업이         아직도   실수인가요     
+
+[MULTIPLE_CHOICE]
+> 엘리자베스는…
++ …에디가 아직도 본인의 수업에 온 걸 실수라 생각하는지 알고 싶어한다.
+- …에디가 왜 그리도 춤을 못 추는지 알고 싶어한다.
+- …에디가 댄스 강사인지 알고 싶어한다.
+
+[LINE]
+Speaker414: Yes.
+~           네   
+
+[LINE]
+Speaker125: Really?
+~           정말요    
+
+[LINE]
+Speaker414: Yes, I'm in~the~wrong~room.
+~           네    제가  방을~잘못~찾아~왔어요      
+
+[LINE]
+Speaker414: But this~is more fun  than~a~cooking~class!
+~           하지만 이게      더    재밌네요 요리~수업보다              
+
+[MULTIPLE_CHOICE]
+> 이런! 에디의 실수는 뭐였나요?
++ 사실은 요리 수업에 가야 했었다.
+- 엘리자베스와 전에 사귀던 사이였다.
+- 댄스화를 신는 걸 깜빡했다.
+
+[MATCH]
+> 짝을 누르세요
+- we're <> 우린
+- So <> 그래서
+- walks <> 걸어간다
+- a mistake <> 실수인가요
+- Wait <> 잠깐만요
+
