@@ -1,0 +1,158 @@
+[DATA]
+fromLanguageName=Пекарня
+icon=dac984797ecc974f28ee915b961f8f66455fe4b6
+set=31|1
+
+[HEADER]
+> The~Bakery
+~ пекарня   
+
+[LINE]
+> Josh and Jane  are~giving Vikram  a~tour    of~their~bakery. 
+~ Джош и   Джейн проводят   Викраму экскурсию по~своей~пекарне 
+
+[LINE]
+Speaker295: A~lot~of people are~interested in our   bakery.  We're selling~it at a~great       price…
+~           много    людей  заинтересованы в  нашей пекарне  мы    продаём~её по замечательной цене  
+
+[LINE]
+Speaker1187: Yes… because    we're getting~a~divorce.
+~            да   потому~что мы    разводимся        
+
+[LINE]
+Speaker593: Oh, no…  I'm~sorry.
+~           о   нет  сожалею   
+
+[MULTIPLE_CHOICE]
+> Хмм… О чём Викрам сожалеет?
+- Викрам хочет развестись.
++ Джош и Джейн разводятся.
+- Никто не хочет покупать их пекарню.
+
+[LINE]
+Speaker295: Jane!  Don't~tell     everyone~that.
+~           Джейн  не~рассказывай всем~об~этом  
+
+[LINE]
+Speaker1187: Well, Josh, it's~true. 
+~            ну    Джош  это~правда 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker593: Uh... well,   I'm [the~best~person] to~buy     your  bakery.  I'll~take~great~care of~it.
+~           эм    хорошо  я    лучший~кандидат  на~покупку вашей пекарни  я~хорошо~позабочусь  о~ней 
+- the past person
+- the best purse
++ the best person
+
+[LINE]
+Speaker593: Wow,   this~is an~amazing  oven!
+~           ух~ты  это     потрясающая печь 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker295: Yes, we baked   a~lot~of great          cookies in [that oven].
+~           да   мы испекли много    замечательного печенья в   той  печи  
++ that oven
+~ той  печи
+- your  closet
+~ твоём шкафу 
+- the~bathtub
+~ ванной     
+
+[LINE]
+Speaker593: I've~had   your cookies. They're~fantastic!
+~           я~пробовал ваше печенье  оно~невероятное   
+
+[LINE]
+Speaker593: Did~you~use     this mixer  to~make~them?           
+~           вы~использовали этот миксер (чтобы)~приготовить~его 
+
+[LINE]
+Speaker295: Yes. I also  used        it  to~make             Jane's~favorite~pie.
+~           да   я также использовал его (чтобы)~приготовить любимый~пирог~Джейн 
+
+[LINE]
+Speaker1187: It  was my~grandmother's~recipe...
+~            это был рецепт~моей~бабушки       
+
+[MULTIPLE_CHOICE]
+> Рецепт любимого пирога Джейн достался им от…
+- ...Викрама.
++ …бабушки Джейн.
+- ...мамы Джоша.
+
+[ARRANGE]
+> Наберите услышанное
+Speaker593: [(You~two) (really)        (were) (a~great)       (team).]    
+~             вы~двое   действительно   были   замечательной   командой   
+
+[LINE]
+Speaker295: Yeah, we~were.
+~           да    мы~были 
+
+[LINE]
+Speaker1187: I~think~so~too...   
+~            я~тоже~так~считаю   
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker295: Jane…  [Can~I~talk~to~you]   alone?  
+~           Джейн   мы~можем~поговорить  наедине 
++ Can I talk to you
+- Can I take you
+- When I talk to you
+
+[LINE]
+> Jane  and Josh leave.  A~few     minutes later,  they come~back.   
+~ Джейн и   Джош уходят  несколько минут   спустя  они  возвращаются 
+
+[LINE]
+Speaker1187: Vikram, Josh and I have~made~a~decision...
+~            Викрам  Джош и   я приняли~решение        
+
+[LINE]
+Speaker593: You're not getting~divorced?
+~           вы     не  разводитесь      
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker1187: Oh, we're still       [getting~divorced].
+~            о   мы    по-прежнему  разводимся        
+- buying   furniture
+~ покупаем мебель   
++ getting~divorced
+~ разводимся      
+- eating lunch
+~ едим   обед 
+
+[LINE]
+Speaker295: We~had    a~terrible marriage.
+~           у~нас~был ужасный    брак     
+
+[LINE]
+Speaker1187: But we~have    a~great       bakery! 
+~            но  у~нас~есть замечательная пекарня 
+
+[LINE]
+Speaker593: So     you're not selling~it  anymore?
+~           значит вы     не  продаёте~её больше  
+
+[LINE]
+Speaker1187: No.  But you can~always    come~back    for~some~cookies!
+~            нет  но  вы  всегда~можете возвращаться за~печеньем      
+
+[MULTIPLE_CHOICE]
+> Почему Джош и Джейн решили не продавать пекарню?
++ Они поняли, что у них отличная пекарня.
+- Они считают, что Викрам плохой пекарь.
+- Они решили не разводиться.
+
+[MATCH]
+> Коснитесь пар
+- getting a divorce <> разводимся
+- Can I talk to you <> мы можем поговорить
+- are interested <> заинтересованы
+- in <> в
+- Wow <> ух ты
+
