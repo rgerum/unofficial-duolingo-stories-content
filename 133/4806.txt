@@ -1,0 +1,136 @@
+[DATA]
+fromLanguageName=낚시 여행
+icon=b25effb6b84f963315c4cf0b94d70033d61e59cb
+set=16|3
+
+[HEADER]
+> The~Fishing~Trip
+~ 낚시~여행           
+
+[LINE]
+> Bea~is visiting her dad. They~are fishing.  
+~ 비가     방문~중이다   그녀의 아빠를  그들이      낚시를~하고~있다 
+
+[LINE]
+Speaker507: Dad, I hate this.
+~           아빠   전 싫어요  이게   
+
+[LINE]
+Speaker6: Why?
+~         왜   
+
+[LINE]
+Speaker507: It's boring.
+~           이건   지루해요   
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker507: [It's~hot~outside].
+~            밖은~더워요            
++ It's hot outside
+- It got outside
+- That's hot inside
+
+[LINE]
+Speaker507: And I can't~catch any~fish!  
+~           그리고 전 못~잡아요       물고기를~한~마리도 
+
+[LINE]
+Speaker6: I   went~fishing with~your~grandfather every~summer.
+~         아빠는 낚시를~갔었어      네~할아버지랑               매년~여름에       
+
+[LINE]
+Speaker507: Really?
+~           정말요    
+
+[LINE]
+Speaker6: He~was a~very~different~person when~he~was~fishing.
+~         할아버지는  아주~다른~사람이셨어             (그가)~낚시하실~땐         
+
+[MULTIPLE_CHOICE]
+> 비의 할아버지는…
++ ...낚시를 할 때는 평소와 다르게 행동했다.
+- ...비의 아빠와 낚시 하러 간 적이 없다.
+- ...낚시하는 법을 몰랐다.
+
+[LINE]
+Speaker6: He    talked  a~lot.
+~         할아버지는 얘기를~하셨어 많이    
+
+[LINE]
+Speaker507: But he~was usually quiet!  
+~           하지만 할아버지는  보통      조용하셨잖아요 
+
+[LINE]
+Speaker507: What~did~he~talk~about?
+~           (할아버지가)~무슨~얘기~하셨어요     
+
+[LINE]
+Speaker6: His   life before~he~moved to~the~United~States.
+~         할아버지의 인생   (그가)~이사하시기~전    미국으로                 
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker6: [(Did~you~know) (that)  (he~was) (a~doctor) (in~France)?]
+~           (넌)~알고~있었니     ~라는~걸   할아버지가    의사셨다       프랑스에서       
+
+[LINE]
+Speaker6: But he   really wanted~to~be an~opera~singer.
+~         하지만 할아버진 실제로    되고~싶어~하셨어    오페라~가수가         
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker507: Grandpa?! [I~don't~believe~it]!
+~           할아버지가요     (전)~믿기지~않아요         
+- Why won't he leave it
++ I don't believe it
+- I won't relieve it
+
+[LINE]
+Speaker6: It's~true.
+~         (그건)~진짜야  
+
+[LINE]
+Speaker507: Dad, did~you~invite me to~go~fishing because~you~want~to~talk more?
+~           아빠   (아빠가)~부르신~거예요  저를 낚시하러~가자고      (아빠가)~얘기하고~싶어서           더~많이 
+
+[LINE]
+Speaker6: Yes…
+~         응   
+
+[LINE]
+Speaker6: You moved to~a~new~city and now we  don't~talk much.
+~         네가  이사갔잖니 새~도시로         그리고 이제  우리는 얘기를~안~해    많이   
+
+[MULTIPLE_CHOICE]
+> 비와 아빠 사이에 대화가 줄어든 이유는 무엇인가요?
+- 비가 휴대폰을 잃어버려서.
++ 비가 다른 도시로 이사를 가서.
+- 비가 아빠 댁으로 이사를 해서.
+
+[LINE]
+Speaker507: We don't~need to~go~fishing to~talk~about~things.
+~           우린 필요~없어요     낚시하러~갈        이런~저런~얘기하러           
+
+[LINE]
+Speaker6: That's good…
+~         그거     잘됐네  
+
+[LINE]
+Speaker6: Because I   think fishing~is boring too! 
+~         왜냐하면    아빠도 생각하거든 낚시가        지루하다고  (역시) 
+
+[MULTIPLE_CHOICE]
+> 비의 아빠가 비를 낚시 여행에 데려간 이유는 무엇인가요?
+- 비가 자신의 낚시 실력을 뽐내고 싶어해서.
+- 낚시가 정말 신나는 일이라 생각해서.
++ 딸과 대화를 좀 더 할 수 있을 것 같아서.
+
+[MATCH]
+> 짝을 누르세요
+- Why <> 왜
+- visiting <> 방문 중이다
+- Yes <> 응
+- before he moved <> 이사하시기 전
+- hate <> 싫어요
+
