@@ -1,0 +1,109 @@
+[DATA]
+fromLanguageName=주니어의 선택
+icon=e0600de22649754eb7336b587834d36407767819
+set=6|3
+
+[HEADER]
+> Junior's Choice
+~ 주니어의     선택    
+
+[LINE]
+> Junior~is getting~his~lunch at~school.
+~ 주니어가      점심을~받는~중이다        학교에서      
+
+[LINE]
+Speaker415: Hello, Ms.~Linda! I'm ready to~eat~lunch!
+~           안녕하세요  린다~선생님     전   준비됐어요 점심~먹을        
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker395: Hello, Junior. [We~have~fish] for~lunch today.
+~           안녕     주니어      생선이~있어        점심으로      오늘    
+- We have five
++ We have fish
+- We love dish
+
+[LINE]
+Speaker395: And with~the~fish, you can~have a~salad or fries.
+~           그리고 생선이랑~같이        넌   가져갈~수~있어 샐러드     또는 감자튀김을 
+
+[LINE]
+Speaker415: I  love fries~and~salads!
+~           저는 좋아해요 감자튀김과~샐러드~모두     
+
+[LINE]
+Speaker395: You can~only~have~one, Junior.
+~           너는  단~하나만~가져갈~수~있어     주니어    
+
+[MULTIPLE_CHOICE]
+> 린다는 주니어에게...
+- …팬케이크를 가져갈 수 있다고 말하고 있다.
+- …감자튀김과 샐러드 모두 가져갈 수 있다고 말하고 있다.
++ …감자튀김과 샐러드 중 하나만 가져갈 수 있다고 말하고 있다.
+
+[LINE]
+Speaker415: Well, fries~are the~delicious~option…
+~           음     감자튀김이     맛있긴~한데               
+
+[LINE]
+Speaker415: And I~am having~a~difficult~day…
+~           그리고 저는   힘든~하루를~보내고~있기도~해요      
+
+[LINE]
+Speaker415: But salad~is healthy…
+~           하지만 샐러드는     건강에~좋은데 
+
+[MULTIPLE_CHOICE]
+> 주니어 생각에 샐러드는…
+- …저렴하다.
+- …양이 아주 많다.
++ …건강에 좋다.
+
+[LINE]
+Speaker395: Junior…
+~           주니어    
+
+[LINE]
+Speaker415: But  I  can~only~have~one…
+~           그렇지만 제가 단~한가지만~가져갈~수~있으니  
+
+[LINE]
+Speaker415: I want the~salad. No!  The~fries! Wait…
+~           전 원해요  샐러드        아니요  감자튀김이요     잠깐만요 
+
+[LINE]
+Speaker415: I~don't~know!
+~           모르겠어요        
+
+[MULTIPLE_CHOICE]
+> 저런! 주니어의 고민은 무엇인가요?
+- 아이스크림을 넣은 샐러드가 먹고 싶다.
+- 감자튀김을 너무 많이 먹었다.
++ 샐러드와 감자튀김 중 하나만 고르기가 어렵다.
+
+[LINE]
+Speaker395: Junior!
+~           주니어    
+
+[LINE]
+Speaker415: Oh! Yes, Ms.~Linda?
+~           아   네    린다~선생님    
+
+[LINE]
+Speaker395: Here!  Take the~fries~and~the~salad.
+~           여기있단다  가져가렴 감자튀김과~샐러드~모두            
+
+[MULTIPLE_CHOICE]
+> 린다가 주니어에게 무엇을 하라고 말했나요?
+- 감자튀김이 샐러드라고 상상하며 먹으라고.
+- 다른 곳에 가서 먹으라고.
++ 감자튀김과 샐러드 둘 다 가져가라고.
+
+[MATCH]
+> 짝을 누르세요
+- And <> 그리고
+- I <> 저는
+- the delicious option <> 맛있긴 한데
+- getting his lunch <> 점심을 받는 중이다
+- Yes <> 네
+
