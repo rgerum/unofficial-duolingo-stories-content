@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Суботній вечір
+icon=09cbfe4b009b6617a05701652d4210d552d0f5a2
+set=3|2
+
+[HEADER]
+> Saturday~Night 
+~ суботній~вечір 
+
+[LINE]
+> Victoria talks    to her   friend.
+~ Вікторія говорить до свого друга  
+
+[LINE]
+Speaker336: Hello,  Pete!
+~           привіт  Піте 
+
+[LINE]
+Speaker336: Do~you~have plans for the~weekend?
+~           у~тебе~є    плани на  вихідні     
+
+[MULTIPLE_CHOICE]
+> Вікторія запитує Піта, чи має він плани на ці вихідні.
++ Так, це правда.
+- Ні, це неправда.
+
+[SELECT_PHRASE]
+> Виберіть пропущену фразу
+Speaker2243: I~have   a~ticket to~a~concert [on~Saturday~night]!
+~            у~мене~є квиток   на~концерт    у~суботу~ввечері   
+- a Saturday morning
++ on Saturday night
+- on subway night
+
+[LINE]
+Speaker2243: It's a~new band: The~Sisters.
+~            це   новий гурт  Сестри      
+
+[CONTINUATION]
+> На чому питання закінчується?
+Speaker2243: Do~you want  to~go [with~me]?
+~            ти     хочеш піти   зі~мною  
++ … with~me?
+~   зі~мною 
+- … to~work   together?
+~   працювати разом    
+- … my  phone?  
+~   мій телефон 
+
+[LINE]
+Speaker336: Uh… 
+~           еее 
+
+[LINE]
+Speaker2243: Do~you~have plans for the~weekend?
+~            у~тебе~є    плани на  вихідні     
+
+[LINE]
+Speaker336: Uh… 
+~           еее 
+
+[LINE]
+Speaker336: Yes! I~need        to~study   for an~exam.
+~           так  мені~потрібно готуватися до  іспиту  
+
+[LINE]
+Speaker2243: Oh…
+~            о  
+
+[LINE]
+Speaker2243: OK…   
+~            добре 
+
+[ARRANGE]
+> Що ви чуєте?
+> [(On~Saturday~night), (Pete) (goes) (to~the~concert).]
+~   у~суботу~ввечері     Піт    йде    на~концерт       
+
+[LINE]
+Speaker2243: The~guitarist…
+~            гітаристка    
+
+[LINE]
+Speaker2243: … is … Victoria!
+~              це   Вікторія 
+
+[MULTIPLE_CHOICE]
+> Чому Піт дивується?
+- Концерт скасовано.
+- Йому телефонує Вікторія.
++ Вікторія — гітаристка групи.
+
+[LINE]
+> At~the~end of~the~concert, Pete talks     to~Victoria.
+~ наприкінці концерту        Піт  розмовляє з~Вікторією 
+
+[LINE]
+Speaker2243: You~need      to~study   for~an~exam, huh?
+~            тобі~потрібно готуватися до~іспиту    га  
+
+[LINE]
+Speaker336: Surprise!
+~           сюрприз  
+
+[LINE]
+Speaker2243: You~are a~very good   guitarist! 
+~            ти      дуже   хороша гітаристка 
+
+[MULTIPLE_CHOICE]
+> Піт каже…
+- … що Вікторія погано грає на гітарі.
+- … що він хоче грати у групі Вікторії.
++ … що Вікторія — чудова гітаристка.
+
+[MATCH]
+> З’єднайте пари
+- a new <> новий
+- to study <> готуватися
+- Oh <> о
+- goes <> йде
+- of the concert <> концерту
+
