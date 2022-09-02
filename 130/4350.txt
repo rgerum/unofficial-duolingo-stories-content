@@ -1,0 +1,102 @@
+[DATA]
+fromLanguageName=Что вам нужно?
+icon=8c5ae7b18c5ff0f37394646c91bd6a579213dcbc
+set=4|3
+
+[HEADER]
+> What~Do~You~Want?
+~ что~вам~нужно    
+
+[LINE]
+> Oscar walks   into a~clothes~store.
+~ Оскар заходит в    магазин~одежды  
+
+[LINE]
+> He sees  his  student, Zari. She works    in~the~store.
+~ он видит свою ученицу  Зари  она работает в~магазине   
+
+[MULTIPLE_CHOICE]
+> Оскар зашёл в магазин и увидел Зари.
++ Да, это правда.
+- Нет, это неправда.
+
+[LINE]
+Speaker592: Zari! Oh, good!   I~am~happy to~see~you. 
+~           Зари  о   хорошо  я~рад      тебя~видеть 
+
+[LINE]
+Speaker418: Hello!        Welcome!         
+~           здравствуйте  добро~пожаловать 
+
+[LINE]
+Speaker418: Do~you~need~help?
+~           вам~нужна~помощь 
+
+[LINE]
+Speaker592: Yes, thank~you! I~need…   
+~           да   благодарю  мне~нужно 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «знаю».
+Speaker418: (Oh), (I) (+know)! (You~need)  a~new~jacket!
+~            о     я    знаю    вам~нужна  новая~куртка 
+
+[LINE]
+> Zari shows      Oscar  a~jacket.
+~ Зари показывает Оскару куртку   
+
+[LINE]
+Speaker592: A~new~jacket? No.  Zari, I…
+~           новая~куртка  нет  Зари  я 
+
+[LINE]
+Speaker418: Oh! You~need  a~new shirt!  
+~           о   вам~нужна новая рубашка 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker418: [(The~green) (shirt)   (is~perfect)!]
+~             зелёная     рубашка   идеальная    
+
+[LINE]
+Speaker592: No.  Zari, please…    
+~           нет  Зари  пожалуйста 
+
+[LINE]
+Speaker592: I~do~not~need a~shirt. I~do~not~need a~jacket. I~need…   
+~           мне~не~нужна  рубашка  мне~не~нужна  куртка    мне~нужно 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker418: Pants! [You~need~pants]! 
+~           брюки   вам~нужны~брюки  
++ You need pants
+- Your new pants
+- You need parents
+
+[LINE]
+Speaker592: No!  I~do~not~need clothes!
+~           нет  мне~не~нужна  одежда  
+
+[LINE]
+Speaker592: I~need    to~know…
+~           мне~нужно знать   
+
+[LINE]
+Speaker592: Where~is      the~restroom?
+~           где~находится туалет       
+
+[MULTIPLE_CHOICE]
+> Зачем Оскар пришёл в магазин одежды?
+- Он хотел купить брюки, рубашку и куртку.
++ Он искал туалет.
+- Он хотел купить Зари новую куртку.
+
+[MATCH]
+> Коснитесь пар
+- Oh <> о
+- to see you <> тебя видеть
+- thank you <> благодарю
+- walks <> заходит
+- You need pants <> вам нужны брюки
+
