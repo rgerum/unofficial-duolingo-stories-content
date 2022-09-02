@@ -1,0 +1,185 @@
+[DATA]
+fromLanguageName=Новая стрижка Эдди
+icon=7f5eed8e21ecae2b3a840ece026a544e67778e1b
+set=41|4
+
+[HEADER]
+> Eddy's~New~Haircut
+~ новая~стрижка~Эдди
+
+[LINE]
+> Eddy sees  Lucy outside their apartment~building.
+~ Эдди видит Люси снаружи их    многоэтажки        
+
+[LINE]
+Speaker509: Whoa, Eddy! What~happened~to~your~hair?     
+~           ого   Эдди  что~случилось~с~твоими~волосами 
+
+[LINE]
+Speaker414: Oh, I~got    a~new haircut!
+~           о   я~сделал новую стрижку 
+
+[LINE]
+Speaker509: Well,  you  need  to~fix~it.   
+~           что~ж  тебе нужно её~поправить 
+
+[LINE]
+Speaker509: Can~you   go      to a~hairstylist?
+~           ты~можешь сходить к  парикмахеру   
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker414: No,  [I~have~a~date]   right now…   
+~           нет   у~меня~свидание  прямо сейчас 
+- why all the dates
++ I have a date
+- I leave at eight
+
+[LINE]
+Speaker414: Oh, no! 
+~           о   нет 
+
+[LINE]
+Speaker414: This~is really bad!  
+~           это     очень  плохо 
+
+[LINE]
+Speaker509: Actually,  maybe the~haircut is~OK…     
+~           вообще-то  может стрижка     нормальная 
+
+[LINE]
+Speaker509: Turn    your head   to~the~right.
+~           поверни свою голову вправо       
+
+[LINE]
+> Eddy turns        his  head.   Lucy looks~closely.     
+~ Эдди поворачивает свою голову  Люси пристально~смотрит 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker509: No.  Turn    your head   [the~other~way].   
+~           нет  поверни свою голову  в~другую~сторону  
+- another day
++ the other way
+- the others say
+
+[LINE]
+> Eddy turns        his  head   the~other~way.   
+~ Эдди поворачивает свою голову в~другую~сторону 
+
+[LINE]
+Speaker509: No,  sorry,  it~looks     bad   from every   angle.  
+~           нет  прости  она~выглядит плохо с    каждого ракурса 
+
+[MULTIPLE_CHOICE]
+> Lucy thinks         Eddy's~haircut…
+~ Люси считает,~(что) стрижка~Эдди   
+- …looks    great   on the~right side    of~his~head.
+~  выглядит отлично на правой    стороне его~головы  
+- …is~perfect.
+~  идеальная  
++ …looks    bad   on both  sides    of~his~head.
+~  выглядит плохо на обеих сторонах его~головы  
+
+[LINE]
+Speaker509: I hope    you can    get~your~money~back from~your hairstylist.
+~           я надеюсь ты  можешь забрать~свои~деньги у~своего  парикмахера 
+
+[LINE]
+Speaker414: It~was   free.      
+~           она~была бесплатной 
+
+[LINE]
+Speaker509: Someone should tell    your   hairstylist to~find a~new career. 
+~           кто-то  должен сказать твоему парикмахеру найти   новую карьеру 
+
+[MULTIPLE_CHOICE]
+> Hmm…| what~does Lucy mean?        
+~ хмм   что       Люси имеет~в~виду 
+- Eddy is~looking~for a~new career. 
+~ Эдди ищет           новую карьеру 
++ Eddy's~hairstylist~is really bad.   
+~ парикмахер~Эдди       очень  плохой 
+- She wants to~make~money    as~a~hairstylist.
+~ она хочет заработать~денег как~парикмахер   
+
+[LINE]
+Speaker414: You just       told    him.
+~           ты  только~что сказала ему 
+
+[LINE]
+Speaker509: What?
+~           что  
+
+[ARRANGE]
+> Наберите услышанное
+Speaker414: [(I) (cut)     (my~own~hair).]    
+~             я   постриг   свои~волосы~сам   
+
+[LINE]
+Speaker414: I watched a~video on the~Internet.
+~           я смотрел видео   в  интернете    
+
+[LINE]
+Speaker414: It  looked    easy. 
+~           это выглядело легко 
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker509: Eddy, you~have~to cancel   [your date].    
+~           Эдди  ты~должен   отменить  своё свидание  
++ your date    
+~ своё свидание
+- the~interview
+~ собеседование
+- my  vacation
+~ мой отпуск  
+
+[LINE]
+Speaker414: It's~OK.       I brought my   favorite hat!  
+~           всё~в~порядке  я принёс  свою любимую  шляпу 
+
+[LINE]
+> Eddy puts~on  his  hat.   Lucy looks    worried.      
+~ Эдди надевает свою шляпу  Люси выглядит взволнованной 
+
+[LINE]
+Speaker414: What's wrong~now?    
+~           что    не~так~теперь 
+
+[LINE]
+Speaker509: Uh…  well…
+~           э-э  ну   
+
+[ARRANGE]
+> Наберите услышанное
+Speaker509: [(Do~you~have) (a~different) (hat)?]  
+~             у~тебя~есть   другая        шляпа   
+
+[LINE]
+Speaker414: Why?  
+~           а~что 
+
+[LINE]
+Speaker509: That hat   is~worse than the~haircut.
+~           та   шляпа хуже     чем  стрижка     
+
+[MULTIPLE_CHOICE]
+> Why~does Eddy need          Lucy's~help?   
+~ почему   Эдди нуждается~(в) помощи~от~Люси 
++ He doesn't know  how~bad         his haircut and his hat   look.    
+~ он не      знает насколько~плохо его стрижка и   его шляпа выглядят 
+- He doesn't know  what to~cook     for his   date.   
+~ он не      знает что  приготовить для своей девушки 
+- He doesn't know  how to~use       the~Internet.
+~ он не      знает как пользоваться интернетом   
+
+[MATCH]
+> Коснитесь пар
+- I <> я
+- you <> тебе
+- I have a date <> у меня свидание
+- worried <> взволнованной
+- outside <> снаружи
+
