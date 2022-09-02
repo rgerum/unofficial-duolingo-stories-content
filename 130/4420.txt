@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Поиски платья
+icon=ffba9eba0bc98eb1b87842bfd234eb4274095663
+set=22|1
+
+[HEADER]
+> Dress~Shopping
+~ покупка~платья
+
+[LINE]
+> Lily is~shopping~for a~pink  dress  with her   mom.  
+~ Лили ищет~в~магазине розовое платье со   своей мамой 
+
+[LINE]
+Speaker416: Do~we~really have~to~go to Aunt~Betty's~wedding?
+~           нам~правда   нужно~идти на свадьбу~тёти~Бетти   
+
+[LINE]
+Speaker559: Yes! She's finally    getting~married!
+~           да   она   наконец-то выходит~замуж   
+
+[LINE]
+Speaker416: But I hate     the~color~pink… and wearing dresses!
+~           но  я ненавижу розовый~цвет    и   носить  платья  
+
+[LINE]
+Speaker559: I know, but everyone in~the~wedding is~wearing a~black suit   or  a~pink  dress. 
+~           я знаю  но  все      на~свадьбу     надевают   чёрный  костюм или розовое платье 
+
+[MULTIPLE_CHOICE]
+> Почему Лили и её мама ищут в магазине розовое платье?
++ Лили нужна новая одежда на свадьбу.
+- Лили носит только розовые платья.
+- Они хотят купить подарок для кошки тёти Бетти.
+
+[LINE]
+> Lily's~mom shows      her a~short  pink    dress. 
+~ мама~Лили  показывает ей  короткое розовое платье 
+
+[LINE]
+Speaker559: How~about  this~one?
+~           как~насчёт этого    
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker416: It's [too~short].       
+~           оно   слишком~короткое  
+- two shots
+- two shirts
++ too short
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker559: OK,     what~about this~one? It's longer  than [the~other~dress].
+~           хорошо  как~насчёт этого     оно  длиннее чем   то~платье        
+- the~winter
+~ зима      
+- your hair  
+~ твои волосы
++ the~other~dress
+~ то~платье      
+
+[LINE]
+Speaker416: It~has~feathers. I don't want to~look   like a~bird.
+~           на~нём~перья     я не    хочу выглядеть как  птица  
+
+[MULTIPLE_CHOICE]
+> Лили считает, что в этом платье она будет выглядеть как птица, потому что…
+- …оно пёстрое.
+- …у неё вместо рук крылья.
++ …оно украшено перьями. 
+
+[LINE]
+Speaker416: This~is~stupid. I'm~only~going~to~wear this dress  once.    
+~           это~глупо       я~всего~лишь~надену    это  платье один~раз 
+
+[LINE]
+Speaker559: But this is~really~important to  Aunt Betty.
+~           но  это  очень~важно         для тёти Бетти 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker416: [(You) (just)   (want~me)          (to~look)   (pretty).]  
+~             ты    просто   хочешь~(чтобы)~я   выглядела   красивой   
+
+[LINE]
+Speaker559: No,  I want~you~to~be         comfortable. Let's~go     to another store!  
+~           нет  я хочу~(чтобы)~тебе~было комфортно    давай~пойдём в  другой  магазин 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker416: Mom,  wait!    You said          [everyone~is~wearing] a~black suit   or  a~pink  dress,  right?
+~           мама  подожди  ты  сказала~(что)  все~надевают         чёрный  костюм или розовое платье  верно 
+- everybody's caring
++ everyone is wearing
+- everyone is staring
+
+[LINE]
+> Lily shows      her   mom  a~small   black  suit.  
+~ Лили показывает своей маме маленький чёрный костюм 
+
+[LINE]
+Speaker416: You hate~it,        right? 
+~           ты  ненавидишь~его  правда 
+
+[LINE]
+Speaker559: Actually,  I think it~will  look~great~on~you!         
+~           вообще-то  я думаю он~будет отлично~на~тебе~смотреться 
+
+[MULTIPLE_CHOICE]
+> Что Лили наденет на свадьбу?
++ чёрный костюм
+- розовое платье
+- спортивные штаны
+
+[MATCH]
+> Коснитесь пар
+- right <> верно
+- with <> со
+- hate <> ненавижу
+- Do we really <> нам правда
+- wearing <> носить
+
