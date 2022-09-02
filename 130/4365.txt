@@ -1,0 +1,114 @@
+[DATA]
+fromLanguageName=Плохая картина
+icon=12547a4c20bef9c66913ef1a725b6fd4f0c544ea
+set=8|2
+
+[HEADER]
+> Bad~Painting  
+~ плохая~картина
+
+[LINE]
+> Oscar and his friend,  Lucy, are~sitting in the~park.
+~ Оскар и   его подруга  Люси  сидят       в  парке    
+
+[LINE]
+> Oscar is~painting Lucy.
+~ Оскар рисует      Люси 
+
+[LINE]
+Speaker592: OK,     you~can look~at       the~painting now!    Do~you~like~it?
+~           хорошо  можешь  посмотреть~на картину      теперь  тебе~нравится  
+
+[LINE]
+> Oscar shows      Lucy the~painting.
+~ Оскар показывает Люси картину      
+
+[MULTIPLE_CHOICE]
+> Оскар показывает Люси картину, на которой нарисована рыба.
+- Да, это правда.
++ Нет, это неправда.
+
+[LINE]
+Speaker509: Why~is my  hair   blue  in the~painting?
+~           почему мои волосы синие на картине      
+
+[LINE]
+Speaker592: I~have      a~lot~of blue  paint. 
+~           у~меня~есть много    синей краски 
+
+[LINE]
+Speaker509: And why~is my  head   so~big?       
+~           и   почему моя голова такая~большая 
+
+[LINE]
+Speaker592: I don't know. Ask    your  parents.  
+~           я не    знаю  спроси своих родителей 
+
+[MULTIPLE_CHOICE]
+> Оскар говорит Люси...
+- …нарисовать его портрет.
+- …покрасить волосы в синий.
++ …спросить родителей, почему у неё такая большая голова.
+
+[LINE]
+Speaker509: My  nose doesn't~look~like~that.
+~           мой нос  выглядит~не~так        
+
+[LINE]
+Speaker592: Yes,~it~does!          You~have a~nice   nose!
+~           да,~(он~так~выглядит)  у~тебя   красивый нос  
+
+[ARRANGE]
+> Наберите услышанное
+Speaker509: [(Yes), (I~do~have)       (a~nice)   (nose).]
+~             да     у~меня~и~правда   красивый   нос    
+
+[LINE]
+Speaker509: But it~doesn't~look~nice    in the~painting.
+~           но  он~не~выглядит~красивым на картине      
+
+[LINE]
+Speaker592: Do~you~want the~painting or~not? 
+~           ты~хочешь   картину      или~нет 
+
+[LINE]
+Speaker509: Sorry,  but no,  I don't~want~it.
+~           извини  но  нет  я не~хочу~её    
+
+[LINE]
+> A~man   stops           and looks~at   the~painting.
+~ мужчина останавливается и   смотрит~на картину      
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker438: That's~really~good! Can  I buy~it    for one~hundred [dollars]? 
+~           это~очень~красиво   могу я купить~её за  сто          долларов  
+- noses
+~ носов
++ dollars 
+~ долларов
+- paintings
+~ картин   
+
+[LINE]
+> Lucy takes the~painting.
+~ Люси берёт картину      
+
+[LINE]
+Speaker509: It's~my~painting, and it's~two~hundred~dollars. 
+~           это~моя~картина   и   она~стоит~двести~долларов 
+
+[MULTIPLE_CHOICE]
+> Люси решила...
+- ...отдать картину бесплатно.
++ ...продать картину.
+- ...купить картину за 200 долларов.
+
+[MATCH]
+> Коснитесь пар
+- his <> его
+- the park <> парке
+- know <> знаю
+- Lucy <> Люси
+- That's really good <> это очень красиво
+
