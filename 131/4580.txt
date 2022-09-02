@@ -1,0 +1,128 @@
+[DATA]
+fromLanguageName=Перший будинок
+icon=dc39b146e09be64389b169c261884a6c5ea6fcca
+set=9|1
+
+[HEADER]
+> First  House   
+~ перший будинок 
+
+[LINE]
+> Gina  and Ryan  want   to~buy a~house.
+~ Джина і   Райан хочуть купити будинок 
+
+[SELECT_PHRASE]
+> Виберіть пропущену фразу
+Speaker336: Houses  [in~the~city] are~too~expensive.
+~           будинки  у~місті      занадто~дорогі    
+- end of the city
++ in the city
+- in the village
+
+[LINE]
+Speaker385: I know.
+~           я знаю 
+
+[LINE]
+Speaker385: But our  apartment is~so~small.   
+~           але наша квартира  така~маленька  
+
+[LINE]
+Speaker385: And I really  want a~dog! 
+~           і   я справді хочу собаку 
+
+[LINE]
+Speaker336: I know. 
+~           я знаю  
+
+[LINE]
+Speaker385: I~have   an~idea.
+~           у~мене~є ідея    
+
+[LINE]
+Speaker385: Do~you~want to~take~a~train~ride?
+~           ти~хочеш    проїхатись~на~поїзді 
+
+[MULTIPLE_CHOICE]
+> Що запитує Райан?
++ Чи Джина хоче кудись поїхати на поїзді.
+- Чи Джина хоче жити в поїзді.
+- Чи Джина знає, о котрій годині прибуває поїзд.
+
+[LINE]
+Speaker336: OK…   
+~           добре 
+
+[LINE]
+> Gina  and Ryan  go~to~see        a~house.
+~ Джина і   Райан їдуть~подивитися будинок 
+
+[LINE]
+Speaker385: This~is my~grandparents'~house.      
+~           це      будинок~моїх~дідуся~й~бабусі 
+
+[LINE]
+Speaker385: But they don't~live here now.  
+~           але вони не~живуть  тут  зараз 
+
+[MULTIPLE_CHOICE]
+> Будинок належить бабусі та дідусю Райана, але вони там не живуть.
+- Ні, це неправда.
++ Так, це правда.
+
+[LINE]
+Speaker385: It's~not in~the~city…
+~           він~не   в~місті     
+
+[ARRANGE]
+> Що ви чуєте?
+Speaker385: … [(but) (it's~near) (the~train~station)!]   
+~               але   він~біля    залізничного~вокзалу   
+
+[LINE]
+Speaker385: There~are four   big    rooms.  
+~           є         чотири великі кімнати 
+
+[LINE]
+Speaker385: And there's~grass for~a~dog! 
+~           і   є~трава       для~собаки 
+
+[POINT_TO_PHRASE]
+> Виберіть варіант, що означає «думає».
+> (Gina)  (+thinks) (for~a~minute).
+~  Джина    думає    хвилину       
+
+[LINE]
+Speaker336: Ryan… 
+~           Райан 
+
+[LINE]
+Speaker336: It's~perfect! 
+~           він~ідеальний 
+
+[LINE]
+Speaker336: But we~need      one~thing.
+~           але нам~потрібно (ще)~дещо 
+
+[LINE]
+Speaker385: What?
+~           що   
+
+[LINE]
+Speaker336: A~dog! 
+~           собака 
+
+[MULTIPLE_CHOICE]
+> Що вирішили Райан та Джина?
++ Переїхати за місто у будинок дідуся та бабусі Райана.
+- Залишитися у своїй маленькій квартирі і купити собаку.
+- Переїхати в дорогу нову квартиру в місті.
+
+[MATCH]
+> З’єднайте пари
+- know <> знаю
+- Gina <> Джина
+- thinks <> думає
+- to take a train ride <> проїхатись на поїзді
+- four <> чотири
+
