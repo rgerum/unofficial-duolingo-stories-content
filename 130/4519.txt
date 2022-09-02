@@ -1,0 +1,221 @@
+[DATA]
+fromLanguageName=Красивый галстук
+icon=d21c68e3211da19a42de21a0fe19156e7c76dcd3
+set=46|4
+
+[HEADER]
+> Nice     Tie    
+~ красивый галстук
+
+[LINE]
+> Zari is~babysitting     Junior    while his dad  is~on~a~date.
+~ Зари присматривает~(за) Джуниором пока  его папа на~свидании  
+
+[LINE]
+> Junior  walks   into the~room. He's~wearing a~nice   shirt   and a~tie.  
+~ Джуниор заходит в    комнату   на~нём       красивая рубашка и   галстук 
+
+[LINE]
+Speaker418: Junior,  why~are~you~wearing a~tie?  
+~           Джуниор  почему~на~тебе      галстук 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker415: [Sometimes~I~wear~ties].  I~like       to~look   fancy.    
+~            иногда~я~ношу~галстуки   мне~нравится выглядеть элегантно 
++ Sometimes I wear ties
+- Some ties I wear tied
+- Sometimes a bear cries
+
+[LINE]
+Speaker418: Aw,  that's great.      You look~nice!        
+~           о-о  это    потрясающе  ты  красиво~выглядишь 
+
+[LINE]
+Speaker415: So…  are~you~inviting a~friend here?
+~           так  пригласишь       подругу  сюда 
+
+[LINE]
+Speaker418: No,  why?  
+~           нет  а~что 
+
+[LINE]
+Speaker415: Well… the~last~time           you babysat~me,     Lily came~over.
+~           ну    (в)~прошлый~раз~(когда) ты  сидела~со~мной  Лили приходила 
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker418: Oh, do~you~want~me~to   [invite~Lily]?    
+~           о   ты~хочешь~(чтобы)~я  пригласила~Лили  
++ invite~Lily    
+~ пригласила~Лили
+- wear~a~tie    
+~ носила~галстук
+- answer~the~phone  
+~ ответила~на~звонок
+
+[LINE]
+Speaker415: I~mean,  sure,    only   if   you want~to…
+~           то~есть  конечно  только если ты  хочешь  
+
+[LINE]
+> Junior  brings   a~huge   plate   of~cheese and fruit    from the~kitchen.
+~ Джуниор приносит огромную тарелку с~сыром   и   фруктами с    кухни       
+
+[LINE]
+Speaker415: And if   she comes~over, we~have    plenty     of~juice and snacks  for her!
+~           и   если она придёт      у~нас~есть достаточно сока     и   закусок для неё 
+
+[LINE]
+Speaker418: Wow,   Junior!  Did~you~make  that by~yourself?
+~           ух~ты  Джуниор  ты~приготовил это  сам         
+
+[LINE]
+Speaker415: It  was  easy. 
+~           это было легко 
+
+[MULTIPLE_CHOICE]
+> What did~Junior~say was  easy? 
+~ что  Джуниор~сказал было легко 
++ making      the~plate of~cheese and fruit   
+~ приготовить тарелку   с~сыром   и   фруктами
+- passing his  math~exam            
+~ сдать   свой экзамен~по~математике
+- eating all the~snacks in the~fridge  
+~ съесть все закуски    в  холодильнике
+
+[LINE]
+Speaker418: Junior,  do~you~like   Lily?
+~           Джуниор  тебе~нравится Лили 
+
+[LINE]
+Speaker415: No.  She's pretty~cool, but…
+~           нет  она   классная     но  
+
+[LINE]
+Speaker418: You~know, I can  ask      Lily if~she~wants to~babysit~you   sometime.  
+~           знаешь    я могу спросить Лили хочет~ли~она посидеть~с~тобой как-нибудь 
+
+[LINE]
+Speaker415: What? Really? Do~you~think she'll~say~yes?
+~           что   правда  ты~думаешь   она~согласится 
+
+[LINE]
+Speaker418: If   your dad  is~paying~her,    then  she'll~say~yes.
+~           если твой папа будет~ей~платить  тогда она~согласится 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+> Suddenly~there's [a~knock~on~the~door].
+~ вдруг~(слышится)  стук~в~дверь         
+- a knock on the floor
++ a knock on the door
+- a lock on the door
+
+[LINE]
+Speaker415: Who's that?!
+~           кто   это   
+
+[LINE]
+Speaker418: I think it's Lily!
+~           я думаю это  Лили 
+
+[LINE]
+Speaker415: Did~you~invite her?!
+~           ты~пригласила  её   
+
+[ARRANGE]
+> Наберите услышанное
+Speaker418: [(She's) (just)   (bringing~me)  (my)  (homework).]        
+~             она     просто   принесёт~мне   моё   домашнее~задание   
+
+[LINE]
+> Zari walks    to the~door.
+~ Зари подходит к  двери    
+
+[LINE]
+Speaker415: Wait!   Do~I look~OK?       
+~           постой  я    хорошо~выгляжу 
+
+[LINE]
+Speaker418: You look      great,      Junior! 
+~           ты  выглядишь потрясающе  Джуниор 
+
+[MULTIPLE_CHOICE]
+> Why~does Junior  want  to~look~nice?     
+~ почему   Джуниор хочет красиво~выглядеть 
++ He~really~likes    Lily.
+~ ему~очень~нравится Лили 
+- He~is on a~date   with Zari.
+~ он    на свидании с    Зари 
+- He~is~going to a~job~interview.        
+~ он~идёт     на собеседование~на~работу 
+
+[LINE]
+> Zari opens     the~door.
+~ Зари открывает дверь    
+
+[LINE]
+Speaker418: Hi,     Lily!
+~           привет  Лили 
+
+[LINE]
+Speaker416: Hey,     friend. 
+~           здорово  подруга 
+
+[LINE]
+Speaker418: Come~in! I'm~just~hanging~out with Junior!   
+~           проходи  я~тут~провожу~время  с    Джуниором 
+
+[LINE]
+Speaker416: Hi,     Junior.  Nice     tie.    
+~           привет  Джуниор  красивый галстук 
+
+[LINE]
+Speaker415: Thanks,  uh… 
+~           спасибо  э-э 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker415: [(I~need)    (to~go~to~bed)   (now)!]      
+~             мне~нужно   ложиться~спать   сейчас~же   
+
+[LINE]
+> Junior  runs    into his  bedroom and closes    the~door.
+~ Джуниор убегает в    свою спальню и   закрывает дверь    
+
+[LINE]
+Speaker416: What's~wrong~with~him?
+~           что~с~ним~такое       
+
+[LINE]
+Speaker418: Haha…  I~think     you~have    a~fan.
+~           ха-ха  мне~кажется у~тебя~есть фанат 
+
+[LINE]
+Speaker416: That's~cool. Whoa, this cheese looks    great.      Can~I~have~some?      
+~           круто        ого   этот сыр    выглядит потрясающе  можно~мне~попробовать 
+
+[LINE]
+Speaker418: Yes, I think that's all for you. 
+~           да   я думаю это    всё для тебя 
+
+[MULTIPLE_CHOICE]
+> When  Lily came   to the~apartment, Junior… 
+~ когда Лили пришла в  квартиру       Джуниор 
+- …ate  all  the~cheese.
+~  съел весь сыр        
+- …got~very~angry   at Zari.
+~  очень~разозлился на Зари 
++ …was~too~nervous   to~talk               to her.
+~  слишком~нервничал (чтобы)~разговаривать с  ней 
+
+[MATCH]
+> Коснитесь пар
+- her <> неё
+- runs <> убегает
+- great <> потрясающе
+- Wait <> постой
+- Suddenly there's <> вдруг
+
