@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=회장님과의 저녁 식사
+icon=48ff56bf472c683d952ff24420066dbef5e7ac9f
+set=28|1
+
+[HEADER]
+> Dinner with~the~CEO
+~ 저녁~식사  회장님과의       
+
+[LINE]
+> Bea~is using  the~photocopier at~work. Her boss, Craig, comes to~talk to~her.
+~ 비가     사용~중이다 복사기를            회사에서     그녀의 상사    크렉이    온다    얘기하려고   그녀와    
+
+[LINE]
+Speaker100: Bea, I'm meeting our company's CEO  for~dinner tonight.
+~           비~씨  전   만날~거예요  우리  회사의       회장님을 저녁~식사~때    오늘~밤    
+
+[LINE]
+Speaker100: Can~you~come? You~couldn't~come last~time.
+~           비~씨도~올~수~있어요  못~왔잖아요            지난~번에     
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker507: I [really~want~to~come], but I~can't.
+~           전  정말~가고~싶어요             하지만 못~가요    
+- will be wanting some
++ really want to come
+- really want to run
+
+[LINE]
+Speaker100: OK,   but she  really wants~to~meet you… 
+~           알겠어요  하지만 회장님이 정말로    만나고~싶어하세요     비~씨를 
+
+[LINE]
+Speaker507: I  know. I'm~sorry.
+~           저도 알아요   죄송합니다     
+
+[LINE]
+> Later, Craig~is eating~dinner with~the~CEO,~Paula.
+~ 얼마~후   크렉이      저녁~식사~중이다     폴라~회장과              
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+> [(Bea) (walks~past) (their) (table).]
+~   비가    옆을~지나간다      그들의     테이블     
+
+[LINE]
+Speaker100: Bea, you're~here!
+~           비~씨  왔군요         
+
+[POINT_TO_PHRASE]
+> "골랐다"를 뜻하는 말을 고르세요.
+Speaker507: Oh… hi,    (Craig)! (You)  (+chose)…   (this) restaurant?
+~           아   안녕하세요   크렉~님     두~분이    고르신~거예요    이     레스토랑을      
+
+[LINE]
+Speaker100: I'm so happy that you  came to~the~meeting. This~is Paula,~our~CEO!
+~           전   아주 기뻐요   ~해서  비~씨가 왔다   미팅에             이~분이    저희~회장님~폴라예요    
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker507: Um… Actually, I'm not~here    [to~meet with~you].
+~           음   사실        전   여기~온~게~아니에요  만나려고    여러분을      
++ to~meet with~you
+~ 만나려고    여러분을    
+- until~tomorrow
+~ 내일까지          
+- as~a~musician
+~ 뮤지션으로서       
+
+[LINE]
+Speaker100: What?!
+~           뭐라고요  
+
+[LINE]
+Speaker507: I work here every~night… as~a~waitress.
+~           전 일해요  여기서  매일~밤         웨이트리스로        
+
+[MULTIPLE_CHOICE]
+> 잠깐만요… 비가 레스토랑에 있는 이유는 무엇인가요?
+- 회장님을 만나러 왔기 때문이다.
++ 거기서 직원으로 일하기 때문이다.
+- 데이트가 있기 때문이다.
+
+[LINE]
+Speaker988: This~is the intern you wanted me to~meet?
+~           이~분이    그   인턴인가요  당신이 원했던    제가 만나보길    
+
+[LINE]
+Speaker100: Yes, but I didn't~know…
+~           네    하지만 전 몰랐어요        
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker988: I~also had  two  jobs [when~I~was~younger]!
+~           저도     있었어요 두~개의 직업이   어렸을~때               
+- then I was a young girl
+- when I was under
++ when I was younger
+
+[LINE]
+Speaker988: Bea, I  can~see that you're a~hard~worker. I want~to~hear all~your~ideas for~our~company!
+~           비~씨  제가 알겠어요    ~란~걸 당신이    열심히~일하는~사람이다   전 듣고~싶어요       당신의~모든~아이디어들을  우리~회사를~위한       
+
+[LINE]
+Speaker507: Wow, thanks!
+~           우와   감사합니다  
+
+[LINE]
+Speaker507: But first, I  should~give you  some~bread, or      my other boss will~be~angry.
+~           하지만 우선     제가 드려야~해요      여러분께 빵을          그렇지~않으면 제  다른    상사가  화내실~거예요       
+
+[MULTIPLE_CHOICE]
+> 회장님이 비에게 두 개의 직업이 있단 사실에 감탄한 이유는 무엇인가요?
+- 비를 곧 해고하고 싶어하기 때문이다.
+- 빵을 추가로 더 받을 수 있을 것 같아서이다.
++ 그것은 비의 성실함을 보여준다고 생각하기 때문이다.
+
+[MATCH]
+> 짝을 누르세요
+- at work <> 회사에서
+- with the CEO, Paula <> 폴라 회장과
+- I <> 저도
+- should give <> 드려야 해요
+- a hard worker <> 열심히 일하는 사람이다
+
