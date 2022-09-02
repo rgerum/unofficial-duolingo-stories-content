@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=जन्मदिन का प्लान
+icon=9ac312d372abe49d99606848f5a7a8414143346d
+set=11|1
+
+[HEADER]
+> Birthday~Plan   
+~ जन्मदिन~की~योजना
+
+[LINE]
+> Eddy  is sleeping.  Junior runs           into~his~room.    
+~ एड्डी है सो~रहा~है  जूनियर भागकर~(आता~है) उसके~कमरे~के~अंदर 
+
+[LINE]
+Speaker415: Dad!  Dad! 
+~           पापा  पापा 
+
+[LINE]
+Speaker414: What?       Huh? Oh, good~morning, Junior.
+~           क्या~(हुआ)  ~    ~   सुप्रभात      जूनियर 
+
+[LINE]
+Speaker415: Dad,  I~can't~wait                for~my~birthday~party!    
+~           पापा  मुझसे~इंतज़ार~नहीं~हो~रहा~है अपने~जन्मदिन~की~पार्टी~का 
+
+[MULTIPLE_CHOICE]
+> जूनियर को अपने जन्मदिन की पार्टी नहीं चाहिए।
++ नहीं, ऐसा नहीं है।
+- हाँ, यह सही है।
+
+[LINE]
+Speaker414: Oh! Yes… Happy~birthday…?   
+~           ~   हाँ  जन्मदिन~मुबारक~हो  
+
+[LINE]
+Speaker414: What~kind~of party  do~you~want,   Junior?
+~           किस~तरह~की   पार्टी तुम्हें~चाहिए  जूनियर 
+
+[LINE]
+Speaker415: I~don't~know! 
+~           मुझे~नहीं~पता 
+
+[LINE]
+Speaker415: But   I~want     ice~cream! A~lot~of  ice~cream!
+~           लेकिन मुझे~चाहिए आइस~क्रीम  बहुत~सारी आइस~क्रीम 
+
+[LINE]
+Speaker414: OK,     Junior! It's  your     birthday!
+~           ठीक~है  जूनियर  यह~है तुम्हारा जन्मदिन  
+
+[ARRANGE]
+> सुनकर शब्द चुनें
+Speaker415: [(Can~we~also~have)       (a)  (big) (cake)?]
+~             क्या~हम~भी~ला~सकते~हैं   एक   बड़ा   केक    
+
+[LINE]
+Speaker414: Of~course,     Junior!
+~           (हाँ)~बिल्कुल  जूनियर 
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker415: Great! And I   want           [all~my~friends]  to~come!
+~           बढ़िया  और  मैं चाहता~हूँ~(कि)  मेरे~सारे~दोस्त  आएँ     
+- a lot of fries
++ all my friends
+- all of my fish
+
+[LINE]
+Speaker414: Oh! We~need         to~invite them~all now!
+~           ~   हमें~करना~चाहिए आमंत्रित  उन~सब~को अभी 
+
+[CONTINUATION]
+> आगे क्या आएगा?
+Speaker414: What~time do~you~want~to~have [your~party]? 
+~           किस~समय   तुम~करना~चाहते~हो    अपनी~पार्टी  
+- my   birthday
+~ मेरा जन्मदिन 
+- breakfast     
+~ सुबह~का~नाश्ता
++ your~party 
+~ अपनी~पार्टी
+
+[LINE]
+> Eddy  looks    at~his~phone.
+~ एड्डी देखता~है अपने~फ़ोन~को  
+
+[LINE]
+Speaker414: Wait… it's~only          January. Your     birthday is       in~May, Junior!
+~           रुको  अभी~(हुआ)~है~सिर्फ़ जनवरी    तुम्हारा जन्मदिन  (आता)~है मई~में  जूनियर 
+
+[LINE]
+Speaker415: Yes, I~know.      I~can't~wait!               
+~           हाँ  मुझे~पता~है  मुझसे~इंतज़ार~नहीं~हो~रहा~है 
+
+[LINE]
+Speaker415: But   can~we~still~have          ice~cream today, Dad? 
+~           लेकिन क्या~हम~फिर~भी~खा~सकते~हैं आइस~क्रीम आज     पापा 
+
+[LINE]
+Speaker414: Aaah… Yes, Junior.
+~           ~     हाँ  जूनियर 
+
+[MULTIPLE_CHOICE]
+> एड्डी को किस बात का पता चला?
+- वह भूल गया था कि जूनियर का जन्मदिन आज है।
+- दरअसल जूनियर को आइस क्रीम पसंद ही नहीं है।
++ जूनियर के जन्मदिन में अभी कुछ महीने बाकी हैं।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- to invite <> आमंत्रित
+- What kind of <> किस तरह की
+- OK <> ठीक है
+- all my friends <> मेरे सारे दोस्त
+- do you want <> तुम्हें चाहिए
+
