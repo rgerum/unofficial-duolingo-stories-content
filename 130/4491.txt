@@ -1,0 +1,151 @@
+[DATA]
+fromLanguageName=Переезд
+icon=1207e92b451e858adc8163cb73cf6bafb190fdae
+set=39|4
+
+[HEADER]
+> Moving 
+~ переезд
+
+[LINE]
+> Lucy is~helping her   granddaughter, Lin, pack~her~suitcases.
+~ Люси помогает   своей внучке         Лин  собирать~чемоданы  
+
+[LINE]
+Speaker509: You're finally    moving~out of my   apartment!
+~           ты     наконец-то съезжаешь  с  моей квартиры  
+
+[LINE]
+Speaker508: I feel~like       I just   moved     here.
+~           я чувствую,~будто я только переехала сюда 
+
+[LINE]
+Speaker509: And five years later,  you're finally    moving~out.
+~           и   пять лет   спустя  ты     наконец-то съезжаешь  
+
+[MULTIPLE_CHOICE]
+> Why~is Lucy helping  Lin pack      her suitcases?
+~ почему Люси помогает Лин упаковать её  чемоданы  
+- Lin is~going on a~long vacation.
+~ Лин едет     в  долгий отпуск   
+- Lin is~selling her  clothes.
+~ Лин продаёт    свою одежду  
++ Lin is~going~to live somewhere~else.       
+~ Лин собирается  жить где-то~в~другом~месте 
+
+[LINE]
+Speaker509: Are~you~ready?
+~           ты~готова     
+
+[LINE]
+Speaker508: I'm going to~miss      this  comfortable couch! 
+~           я   буду  скучать~(по) этому удобному    дивану 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker509: [(Now)    (you~can)   (sleep) (in~a~real)   (bed)!]    
+~             теперь   ты~можешь   спать   в~настоящей   кровати   
+
+[LINE]
+Speaker508: And I~will~have  a~lot~more     roommates.          
+~           и   у~меня~будет намного~больше соседей~по~квартире 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker509: You'll~make [some~new~friends]!
+~           ты~заведёшь  новых~друзей      
++ some new friends
+- some new ends
+- some blue fins
+
+[LINE]
+Speaker508: Who will  wake~you~up when  you don't~hear your alarm~clock?
+~           кто будет будить~тебя когда ты  не~слышишь свой будильник   
+
+[LINE]
+Speaker509: Oh… maybe I~need    a~louder      alarm~clock.
+~           о   может мне~нужен более~громкий будильник   
+
+[MULTIPLE_CHOICE]
+> Why~does Lucy need  a~louder      alarm~clock?
+~ почему   Люси нужен более~громкий будильник   
+- Lin broke    her alarm~clock.
+~ Лин поломала её  будильник   
++ Lin won't~be in her apartment to~wake~her~up.      
+~ Лин не~будет в  её  квартире  (чтобы)~разбудить~её 
+- Lin packed    Lucy's~alarm~clock in her  suitcase.
+~ Лин упаковала будильник~Люси     в  свой чемодан  
+
+[POINT_TO_PHRASE]
+> Chose    the~option that~means       «продукты».
+~ выберите вариант    который~означает ~          
+Speaker508: And who (will)  (help)     you  (carry)  (+groceries)?
+~           и   кто  будет   помогать  тебе  носить    продукты   
+
+[LINE]
+Speaker509: I'm still   very  strong,  thank~you~very~much. 
+~           я   всё~ещё очень сильная  большое~тебе~спасибо 
+
+[LINE]
+Speaker508: And who will  read   the~newspaper with you   on~Sunday~mornings?  
+~           и   кто будет читать газету        с    тобой по~утрам~воскресенья 
+
+[LINE]
+Speaker509: Oh… I don't know.
+~           о   я не    знаю 
+
+[LINE]
+Speaker509: And who will  eat  chocolate~cake  with me!?   And watch    scary    movies? And go~dancing       on Fridays!? 
+~           и   кто будет есть шоколадный~торт со   мной   и   смотреть страшные фильмы  и   ходить~танцевать по пятницам  
+
+[LINE]
+Speaker508: I don't know!
+~           я не    знаю 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker508: Maybe [I~need~to~stay~here]…      for~you.  
+~           может  мне~нужно~остаться~здесь   ради~тебя 
++ I need to stay here
+- I knew you’d stay clear
+- I need this day here
+
+[LINE]
+> Lin looks~at   her  suitcases. Lucy smiles.   
+~ Лин смотрит~на свои чемоданы   Люси улыбается 
+
+[LINE]
+Speaker509: Yes… you  should stay.    
+~           да   тебе стоит  остаться 
+
+[LINE]
+Speaker508: Great!  
+~           отлично 
+
+[ARRANGE]
+> Наберите услышанное
+> [(Lin) (starts)   (unpacking) (her)  (suitcases).]
+~   Лин   начинает   разбирать   свои   чемоданы    
+
+[LINE]
+Speaker509: But you  can't  sleep on the~couch tonight.         I~have~a~date~coming~over!
+~           но  тебе нельзя спать на диване    сегодня~вечером  ко~мне~придёт~кавалер     
+
+[MULTIPLE_CHOICE]
+> Why~did Lin decide to~stay? 
+~ почему  Лин решила остаться 
+- She~doesn't~have~enough suitcases.
+~ у~неё~не~хватает        чемоданов 
+- She wants to~meet           Lucy's~date.   
+~ она хочет познакомиться~(с) кавалером~Люси 
++ She realized        she~likes   doing      things           with Lucy.
+~ она осознала,~(что) ей~нравится заниматься (разными)~вещами с    Люси 
+
+[MATCH]
+> Коснитесь пар
+- But <> но
+- unpacking <> разбирать
+- on <> по
+- suitcases <> чемоданы
+- a louder <> более громкий
+
