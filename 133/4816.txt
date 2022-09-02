@@ -1,0 +1,150 @@
+[DATA]
+fromLanguageName=캠핑!
+icon=6a073f6357dc14ea58e162202f936682895b11ec
+set=19|1
+
+[HEADER]
+> Camping!
+~ 캠핑      
+
+[LINE]
+> Vikram~and~his~wife,~Priti,~are camping. They're sitting in~their~tent.
+~ 비크람과~그의~아내~프리티가                 캠핑~중이다   그들이     앉아~있다   (그들의)~텐트~안에   
+
+[LINE]
+Speaker560: I want~to~check my email…
+~           난 확인하고~싶어       내  이메일을  
+
+[LINE]
+Speaker593: We  agreed~not~to~use our phones during~this~trip, remember?
+~           우리가 안~쓰기로~했잖아         우리의 휴대폰을   이번~여행~동안          기억나      
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker560: You're right. [We~should~enjoy~nature].
+~           당신~말이  맞아      우린~자연을~즐겨야지             
++ We should enjoy nature
+- We sold the nature
+- We should enjoy neither
+
+[LINE]
+Speaker593: Let's~make dinner now. I'm hungry!
+~           만들자        저녁~식사를 이제   난   배고파    
+
+[LINE]
+Speaker560: Uh… we only~have two  apples. We  ate too much at~lunch.
+~           어   우린 ~밖에~없어    두~개의 사과      우리가 먹었어 너무  많이   점심~때     
+
+[LINE]
+Speaker593: Oh~no. And all~the stores~are closed.
+~           아~이런   그리고 모든      가게들이       문을~닫았어 
+
+[LINE]
+Speaker593: Maybe camping~was a~bad~idea…  
+~           어쩌면   캠핑은         좋은~생각이~아니었나봐 
+
+[MULTIPLE_CHOICE]
+> 비크람이 방금 그렇게 말한 이유는 무엇인가요?
++ 저녁으로 먹을 음식이 없어서.
+- 텐트를 가져오는 걸 깜빡해서.
+- 둘이 함께 시간을 보내는 걸 좋아하지 않아서.
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+> [(Suddenly), (Vikram) (hears) (a~noise) (outside).]
+~   갑자기         비크람이     듣는다     어떤~소리를    밖에서~나는    
+
+[LINE]
+Speaker593: Wait… did~you~hear that?
+~           잠깐만   당신도~들었어      그~소리 
+
+[LINE]
+Speaker560: No…
+~           아니 
+
+[LINE]
+Speaker593: Maybe it's a~bear… 
+~           어쩌면   그건   곰일지도~몰라 
+
+[LINE]
+Speaker593: Do~bears~like apples?!
+~           곰들이~좋아하나      사과를     
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker560: I'll~look [outside~the~tent].
+~           내가~볼게      텐트~밖을             
+- in~the~store
+~ 가게~안에       
+- at~our~house
+~ 우리~집에       
++ outside~the~tent
+~ 텐트~밖            
+
+[LINE]
+Speaker593: Be~careful!
+~           조심해        
+
+[LINE]
+Speaker593: What~do~you~see?
+~           (당신은)~뭐가~보여     
+
+[LINE]
+Speaker560: It's so dark. I don't~see~anything.
+~           밖이   너무 어두워   난 아무것도~안~보여          
+
+[LINE]
+Speaker560: Wait! I see~something near that~other tent!
+~           잠깐만   난 뭔가~보여         ~근처에 저쪽         텐트   
+
+[LINE]
+Speaker593: What~is~it?
+~           그게~뭔데      
+
+[LINE]
+Speaker560: It's… a guy delivering~a~pizza?
+~           그건    한 남자야 피자를~배달~중인          
+
+[LINE]
+Speaker593: Really?
+~           정말     
+
+[LINE]
+Speaker560: Yeah, those other~campers ordered a~pizza!
+~           응     저쪽의   캠핑하는~사람들이     주문했어    피자를     
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+> [(Priti) (takes~out) (her) (phone).]
+~   프리티가    꺼낸다         그녀의   휴대폰을    
+
+[LINE]
+Speaker593: What~are~you~doing? We agreed~not~to~use our phones.
+~           당신~뭐하는~거야           우린 안~쓰기로~했잖아         우리의 휴대폰을   
+
+[LINE]
+> Priti makes~a~call.
+~ 프리티가  전화를~건다       
+
+[LINE]
+Speaker560: Hi,   I'd~like~to~order one~pizza!
+~           여보세요  (전)~주문하고~싶은데요     피자~한~판을   
+
+[LINE]
+Speaker593: Actually… order two! 
+~           이왕~이런~거   주문해   두~판을 
+
+[MULTIPLE_CHOICE]
+> 프리티와 비크람은...
++ ...피자 두 판을 주문하기로 했다.
+- ...음식을 얻으려고 곰과 싸우기로 했다.
+- ...캠핑장에 있는 다른 사람들에게 전화하기로 했다.
+
+[MATCH]
+> 짝을 누르세요
+- Wait <> 잠깐만
+- all the <> 모든
+- a bear <> 곰일지도 몰라
+- it's <> 그건
+- delivering a pizza <> 피자를 배달 중인
+
