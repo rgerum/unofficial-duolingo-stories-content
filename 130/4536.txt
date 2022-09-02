@@ -1,0 +1,169 @@
+[DATA]
+fromLanguageName=Потерянный костюм
+icon=7ed2a64969f8b30063d5ec75f4dae3d01074573a
+set=51|1
+
+[HEADER]
+> The~Lost~Costume 
+~ потерянный~костюм
+
+[LINE]
+> Lily is~helping Zari get~ready     for the~school~play.    
+~ Лили помогает   Зари подготовиться к   школьному~спектаклю 
+
+[LINE]
+Speaker418: Where's my  costume?! I~need    to~be on the~stage in    five minutes, and I can't   find  it! 
+~           где     мой костюм    мне~нужно быть  на сцене     через пять минут    и   я не~могу найти его 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker416: You always lose    things. [Do~you~need~help~looking]?
+~           ты  всегда теряешь вещи     нужна~помощь~в~поисках    
++ Do you need help looking
+- Don't you need her booking
+- Do you need help cooking
+
+[LINE]
+Speaker418: Yes, please!    
+~           да   пожалуйста 
+
+[LINE]
+> Lily looks   in the~closet.
+~ Лили смотрит в  шкафу      
+
+[LINE]
+Speaker416: I don't know what I'm~looking~for.
+~           я не    знаю что  я~ищу           
+
+[LINE]
+Speaker418: My  costume is  a~red   dress.  Please,     we~have   to~hurry! 
+~           мой костюм  это красное платье  пожалуйста  нам~нужно поспешить 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker416: [(I) (don't~see) (any)     (dresses) (in~here).]
+~             я   не~вижу     никаких   платьев   здесь     
+
+[LINE]
+Speaker418: I'm the~main actor   in the~play!  I can't   go    on the~stage without my     costume!
+~           я   главная  актриса в  спектакле  я не~могу выйти на сцену     без     своего костюма 
+
+[LINE]
+> Lily looks~at   the~stage. The~other actors have~started their scene.
+~ Лили смотрит~на сцену      другие    актёры начали       свою  сцену 
+
+[MULTIPLE_CHOICE]
+> Uh~oh! What's happening  on the~stage?
+~ ой-ёй  что    происходит на сцене     
+- None  of~the~actors are~on~the~stage~yet.
+~ никто из~актёров    ещё~(не)~на~сцене    
++ The~play  has~already~started.
+~ спектакль уже~начался         
+- Zari is~wearing a~red   dress. 
+~ Зари одета~(в)  красное платье 
+
+[LINE]
+Speaker416: Uh-oh… Zari, come    here and look~at     Jenny's~dress. Do~you~recognize~it?
+~           ой-ёй  Зари  подойди сюда и   посмотри~на платье~Дженни  ты~его~узнаёшь      
+
+[LINE]
+Speaker418: Jenny  is~wearing my  costume?! I don't understand. Did~she~take~it on~purpose?
+~           Дженни одета~(в)  мой костюм    я не    понимаю     она~взяла~его   специально 
+
+[LINE]
+Speaker416: Maybe she~was~jealous because    you got      a~bigger part in the~play. 
+~           может она~завидовала  потому~что ты  получила большую  роль в  спектакле 
+
+[ARRANGE]
+> Наберите услышанное
+> [(Jenny)  (smiles~at~Zari) (from) (the~stage).]
+~   Дженни   улыбается~Зари   со     сцены       
+
+[LINE]
+Speaker418: What~am~I~going~to~do?
+~           что~мне~делать        
+
+[LINE]
+Speaker416: Well, I saw    one  costume          you can    use.         
+~           ну    я видела один костюм~(который) ты  можешь использовать 
+
+[LINE]
+Speaker418: Really?       Where?
+~           в~самом~деле  где   
+
+[LINE]
+> Lily gets    a~new costume from the~closet for Zari.
+~ Лили достаёт новый костюм  из   шкафа      для Зари 
+
+[LINE]
+Speaker418: No! 
+~           нет 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker416: It's the~only     other  costume          [I~could~find].  
+~           это  единственный другой костюм~(который)  я~смогла~найти  
+- I could mind
+- I can't fight
++ I could find
+
+[LINE]
+Speaker418: Fine.  I'll~go put~it~on. 
+~           ладно  я~пойду надену~его 
+
+[LINE]
+> Zari returns.      She~is dressed like a~bear. 
+~ Зари возвращается  она    одета   как  медведь 
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker416: Wow, you're actually     [going       to~wear that]?
+~           ого  ты     в~самом~деле  собираешься надеть  это   
+- going to a~restaurant
+~ идёшь в  ресторан    
++ going       to~wear that
+~ собираешься надеть  это 
+- falling~asleep
+~ засыпаешь     
+
+[LINE]
+Speaker418: I'm going~to~be in this play,      and Jenny  is~not~going~to~stop me!  
+~           я   буду        в  этом спектакле  и   Дженни не~остановит         меня 
+
+[LINE]
+> Zari walks~on   the~stage in the~bear~costume and starts   to~say   her  lines.   The~audience starts   clapping     and laughing.
+~ Зари выходит~на сцену     в  костюме~медведя  и   начинает говорить свои реплики  публика      начинает аплодировать и   смеяться 
+
+[POINT_TO_PHRASE]
+> Choose   the~option that    means    «very  angry|».   
+~ выберите вариант    который означает  очень сердитый ~ 
+> Lily sees        (Jenny)  (walk~off)  (the~stage). Jenny  looks    (+furious).    
+~ Лили видит~(как)  Дженни   сходит~со   сцены       Дженни выглядит   разъярённой  
+
+[LINE]
+Speaker1616: I don't understand! The~audience loves~her! 
+~            я не    понимаю     публика      обожает~её 
+
+[LINE]
+Speaker416: Yeah, you're~right. Thanks~for your help,   Jenny. 
+~           да    ты~права      спасибо~за твою помощь  Дженни 
+
+[MULTIPLE_CHOICE]
+> Why~did Jenny  get~upset?   
+~ почему  Дженни расстроилась 
+- A~bear  attacked   her and stole her costume.
+~ медведь напал~(на) неё и   украл её  костюм  
++ The~audience loved      Zari's~costume and performance.
+~ публике      понравился костюм~Зари    и   выступление 
+- She learned that Zari is~actually   a~bear. 
+~ она узнала  что  Зари на~самом~деле медведь 
+
+[MATCH]
+> Коснитесь пар
+- the only <> единственный
+- dress <> платье
+- from <> со
+- is <> это
+- lose <> теряешь
+
