@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Повышение
+icon=86aeb2f8135a55e49ebe8c6da5e13efdcde38d01
+set=16|1
+
+[HEADER]
+> The~Promotion
+~ повышение    
+
+[LINE]
+> Bea's~boss   walks~past    Bea's~desk.       
+~ начальник~Би проходит~мимо рабочего~стола~Би 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker2144: Hi,         Bea. [Can~we~talk]         about Carl? 
+~            здравствуй  Би    мы~можем~поговорить  о     Карле 
+- Can we walk
+- When we talk
++ Can we talk
+
+[LINE]
+Speaker507: OK…    
+~           хорошо 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker2144: [(Do~you~like)   (working)  (with) (him)?]
+~              тебе~нравится   работать   с      ним   
+
+[LINE]
+Speaker507: Carl, uh… 
+~           Карл  э-э 
+
+[LINE]
+Speaker507: He's… nice. 
+~           он    милый 
+
+[LINE]
+Speaker507: But, well… 
+~           но   что~ж 
+
+[LINE]
+Speaker507: Carl is~always~late,    and I~have          to~do  his work.  
+~           Карл всегда~опаздывает  и   мне~приходится~ делать его работу 
+
+[LINE]
+Speaker507: He tells~me         how to~do  my  job.   
+~           он рассказывает~мне как делать мою работу 
+
+[LINE]
+Speaker507: And last~week,         he ate  my  lunch.
+~           и   на~прошлой~неделе  он съел мой обед  
+
+[MULTIPLE_CHOICE]
+> Би очень нравится Карл.
+- Да, это правда.
++ Нет, это неправда.
+
+[LINE]
+Speaker507: Carl is~terrible.
+~           Карл ужасен      
+
+[LINE]
+Speaker2144: I'm~sorry to~hear~that. I wanted to~promote him.
+~            мне~жаль  это~слышать   я хотел  повысить   его 
+
+[MULTIPLE_CHOICE]
+> Хмм… Что значит фраза «I'm sorry to hear that»?
+- Это захватывающе.
++ Это печально.
+- Это смешная шутка.
+
+[LINE]
+Speaker2144: The~job~is in a~new office. We~need   to~find the~right   person.  
+~            работа     в  новом офисе   нам~нужно найти   подходящего человека 
+
+[LINE]
+Speaker507: Wait,      the~job~is in a~different office?
+~           подождите  работа     в  другом      офисе  
+
+[LINE]
+Speaker507: Carl is~perfect for the~job!    
+~           Карл идеален    для этой~работы 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker2144: But you said    [he's~terrible]!
+~            но  ты  сказала  он~ужасен      
+- he's~your~best~friend
+~ он~твой~лучший~друг  
++ he's~terrible
+~ он~ужасен    
+- you~want~the~job
+~ ты~хочешь~работу
+
+[LINE]
+Speaker507: What? No!  He's great!    
+~           что   нет  он   прекрасен 
+
+[LINE]
+Speaker2144: You said    he is~always~late.   
+~            ты  сказала он всегда~опаздывает 
+
+[LINE]
+Speaker507: Um…  it  was  a~joke!
+~           э-э  это была шутка  
+
+[LINE]
+Speaker507: Please     promote  him and send      him to a~different office!
+~           пожалуйста повысьте его и   отправьте его в  другой      офис   
+
+[MULTIPLE_CHOICE]
+> Почему Би вдруг сказала, что Карл — отличный сотрудник?
+- До этого она шутила.
+- Она подумала, что её шеф говорил о другом человеке.
++ Она хочет, чтобы Карла перевели в другой офис.
+
+[MATCH]
+> Коснитесь пар
+- lunch <> обед
+- I have <> мне приходится
+- is always late <> всегда опаздывает
+- the right <> подходящего
+- great <> прекрасен
+
