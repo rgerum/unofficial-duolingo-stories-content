@@ -1,0 +1,131 @@
+[DATA]
+fromLanguageName=나이가 들어서
+icon=4b810ac5ac1d241fb2380e6785db12c40b5c0508
+set=19|4
+
+[HEADER]
+> Getting~Older
+~ 나이~드는~것      
+
+[LINE]
+> Bea~is at~the~gym with~her~friend,~Eddy.
+~ 비가     헬스장에~있다    그녀의~친구~에디랑            
+
+[LINE]
+> When~she~starts~exercising, her knee makes~a~noise.
+~ 그녀가~운동을~시작하자                그녀의 무릎에서 소리가~난다        
+
+[LINE]
+Speaker507: What~was~that?!
+~           그게~뭐였지         
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker414: [What's~wrong]?
+~            왜~그래          
++ What's wrong
+- What's long
+- That song
+
+[LINE]
+Speaker507: My knee just made~a~weird~noise!
+~           내  무릎에서 방금   이상한~소리가~났어         
+
+[LINE]
+Speaker414: That's because you're getting~older.
+~           그건     ~때문이야   네가     나이가~들어서       
+
+[LINE]
+Speaker507: Eddy, I'm not~even~thirty!
+~           에디    난   서른도~안~됐어        
+
+[MULTIPLE_CHOICE]
+> 비의 생각에는…
+- …에디와 함께 운동하기엔 자신이 너무 힘세다.
++ …무릎이 아프기엔 자신이 너무 어리다.
+- …운동을 하기엔 자신이 너무 늙었다.
+
+[LINE]
+Speaker414: Don't~worry! I  can~show you some exercises to~make~your~knees~stronger.
+~           걱정~마         내가 보여줄게     너한테 몇~가지 운동법을      (네)~무릎~근육~강화를~위한            
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+> [(Eddy) (shows) (Bea) (a)   (leg~exercise).]
+~   에디가    보여준다    비한테   하나의   다리~운동법을        
+
+[LINE]
+Speaker507: Great! But now my back hurts…
+~           좋았어    하지만 이제  내  등이   아파    
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker414: That's also because [you're~getting~older].
+~           그것     또한   ~때문이야    (네가)~나이가~들어서          
+- it's a~beautiful~day
+~ 오늘은  날씨가~좋다         
+- this ice~cream~is delicious
+~ 이    아이스크림은       맛있다      
++ you're getting~older
+~ 네가     나이가~들다       
+
+[LINE]
+Speaker507: Ugh! Really?
+~           어후   정말     
+
+[LINE]
+Speaker414: Don't~worry! I  can~show you an  exercise to~make~your~back~stronger, too.
+~           걱정~마         내가 보여줄게     너한테 하나의 운동법을     (네)~등~근육~강화를~위한             역시  
+
+[LINE]
+> Eddy shows Bea another exercise for~her~back.  
+~ 에디가  보여준다  비한테 또~다른    운동법을     (그녀의)~등~근육을~위한 
+
+[LINE]
+Speaker507: Thanks, Eddy!
+~           고마워     에디   
+
+[MULTIPLE_CHOICE]
+> 이해했나요? 비가 에디에게 고맙다고 한 이유는…
+- …에디가 이상한 소리를 냈기 때문이다.
++ …에디가 근육 강화 운동을 가르쳐줬기 때문이다.
+- …에디가 아픈 등에 바를 약을 줬기 때문이다.
+
+[LINE]
+Speaker414: No~problem!
+~           천만에        
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker507: Can~you~show  me  [that~leg~exercise] again?
+~           (네가)~보여줄~수~있어 나한테  그~다리~운동법을          다시    
+- that egg that you fried
+- that leg is her size
++ that leg exercise
+
+[LINE]
+Speaker414: You don't~remember? I  just showed it to~you.
+~           넌   기억~안~나          내가 방금   보여줬잖아  그걸 너한테    
+
+[LINE]
+Speaker507: I~forgot…  Is~that because I'm getting~older too?
+~           (난)~잊어버렸어  이것도     ~때문이야   내가  나이가~들어서       역시  
+
+[LINE]
+Speaker414: Maybe, but I don't~know any exercises for~your~brain.
+~           아마도    하지만 난 몰라         어떤  운동법도      (너의)~뇌~훈련을~위한  
+
+[MULTIPLE_CHOICE]
+> 에디가 비에게 뇌 훈련이 필요하다고 생각하는 이유는 무엇인가요?
+- 에디가 곧 뇌 훈련장을 오픈할 계획이라서.
++ 비가 방금 에디에게 배운 운동을 벌써 잊어버렸기 때문에.
+- 비가 환청이 들리는 것 같아서.
+
+[MATCH]
+> 짝을 누르세요
+- you're <> 네가
+- too <> 역시
+- also <> 또한
+- just <> 방금
+- Ugh <> 어후
+
