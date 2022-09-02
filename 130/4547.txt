@@ -1,0 +1,199 @@
+[DATA]
+fromLanguageName=Первый ряд
+icon=2d03636afd6c976c087761130ff03da6796e545c
+set=53|4
+
+[HEADER]
+> Front~Row 
+~ первый~ряд
+
+[LINE]
+> Eddy is~on~a~date with Rose. They go   to~see   a~comedy~show. 
+~ Эдди на~свидании  с    Роуз  они  идут смотреть комедийное~шоу 
+
+[LINE]
+Speaker1913: Let's~sit   in the~front~row!
+~            давай~сядем в  первый~ряд    
+
+[LINE]
+Speaker414: Sure! 
+~           давай 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker1913: Marie Baker  is~the~funniest comedian. She always [makes~jokes~about~the~audience]!
+~            Мари  Бейкер самый~смешной   комик     она всегда  шутит~про~зрителей              
++ makes jokes about the audience
+- takes coats around the audience
+- makes jokes about the guardians 
+
+[LINE]
+Speaker414: Marie Baker?  Uh-oh.
+~           Мари  Бейкер  ой-ёй 
+
+[LINE]
+Speaker414: Um,  can~we   sit   in the~back~row  instead?      Those seats look     better.
+~           э-э  мы~можем сесть в  последний~ряд вместо~этого  те    места выглядят лучше  
+
+[ARRANGE]
+> Наберите услышанное
+Speaker1913: [(These~are) (great)    (seats)!]
+~              это         отличные   места   
+
+[LINE]
+> Marie comes   to~the~stage and looks~into the~audience.
+~ Мари  выходит на~сцену     и   смотрит~на зрителей     
+
+[LINE]
+Speaker724: How's~everyone  tonight?        
+~           как~дела~у~всех сегодня~вечером 
+
+[LINE]
+Speaker724: I see  a~beautiful elderly couple… Thanks  for~coming~out past  your   bedtime!     
+~           я вижу красивую    пожилую пару    спасибо что~пришли     после вашего сонного~часа 
+
+[LINE]
+> The~couple laughs. 
+~ пара       смеётся 
+
+[LINE]
+Speaker724: And I see  a~man   in running~shorts.  Did~you~get~lost on~your~way to the~gym?   
+~           и   я вижу мужчину в  шортах~для~бега  вы~заблудились   по~дороге   в  тренажёрку 
+
+[LINE]
+Speaker1913: She's~talking about~you!
+~            она~говорит   о~тебе    
+
+[MULTIPLE_CHOICE]
+> Hmm… what will~probably~happen    next?  
+~ хм   что  скорее~всего~произойдёт дальше 
+- Eddy will~go to the~gym         with Marie.
+~ Эдди пойдёт  в  тренажёрный~зал с    Мари  
++ Marie will~make~jokes about Eddy.
+~ Мари  будет~шутить    про   Эдди 
+- Rose will~try~on Eddy's~running~shorts.
+~ Роуз примерит    шорты~для~бега~Эдди   
+
+[LINE]
+Speaker724: Tell~me, miss, does~your~husband lift~weights while~he's~sleeping?
+~           скажите  мисс  ваш~муж           качается     во~время~сна        
+
+[LINE]
+Speaker1913: Haha,  this~is only       our  second date!    
+~            ха-ха  это     всего~лишь наше второе свидание 
+
+[LINE]
+> Eddy looks    uncomfortable.
+~ Эдди выглядит нервным       
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker724: He's~wearing  those old    sneakers   on your second date?!     Please     don't~tell  me  there's~going~to~be [a~third date].    
+~           он~пришёл~(в) тех   старых кроссовках на ваше второе свидание   пожалуйста не~говорите мне (что)~будет          третье  свидание  
+- a~gym          
+~ тренажёрный~зал
++ a~third date    
+~ третье  свидание
+- five children
+~ пять детей   
+
+[LINE]
+> Rose laughs.  Eddy doesn't.     
+~ Роуз смеётся  Эдди не~(смеётся) 
+
+[LINE]
+> Later, Eddy and Rose see   Marie at the~bar.
+~ позже  Эдди и   Роуз видят Мари  в  баре    
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+> Eddy [tries~to~hide~his~face]      with~Rose's~scarf.
+~ Эдди  пытается~спрятать~своё~лицо  под~шарфом~Роуз   
+- tries to ride to space
++ tries to hide his face
+- tries to lie in place
+
+[LINE]
+Speaker1913: What are~you~doing?
+~            что  ты~делаешь    
+
+[LINE]
+Speaker414: My~face~is~cold.     
+~           у~меня~замёрзло~лицо 
+
+[LINE]
+Speaker724: Oh, look!     It's Eddy, the~gym~teacher.    
+~           ой  смотрите  это  Эдди  учитель~физкультуры 
+
+[LINE]
+Speaker1913: Wait,      do~you~know each~other?
+~            минуточку  вы~знаете   друг~друга 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker724: [(We) (met)           (at~a~bar) (a~long~time~ago).]
+~             мы   познакомились   в~баре     давным-давно      
+
+[LINE]
+Speaker724: Eddy asked~for my  number, but he never~called      me. 
+~           Эдди попросил  мой номер   но  он так~и~не~позвонил мне 
+
+[POINT_TO_PHRASE]
+> Choose   the~option that    means    «вспотела».
+~ выберите вариант    который означает ~          
+Speaker414: I wrote   your (number) (on~my~hand).     But then  my  hand (+got~sweaty)… and I lost    (the~number).
+~           я написал твой  номер    у~себя~на~руке   но  потом моя рука   вспотела     и   я потерял  номер       
+
+[LINE]
+Speaker1913: Why    didn't~you~save her number in your  phone?   
+~            почему ты~не~сохранил  её  номер  в  своём телефоне 
+
+[LINE]
+Speaker414: Because…    I wrote   it  on~my~hand.    
+~           потому~что  я записал его у~себя~на~руке 
+
+[LINE]
+Speaker724: Oh, that's hilarious.    I'm~going~to~use that in my   next      show.
+~           ой  это    очень~смешно  я~использую      это  на моём следующем шоу  
+
+[MULTIPLE_CHOICE]
+> Marie finds   Eddy's~story so    funny    that she's…
+~ Мари  находит историю~Эдди такой забавной что  она   
++ …going~to~make~a~joke about Eddy at her   next      show.
+~  будет~шутить         про   Эдди на своём следующем шоу  
+- …going~to~give Eddy a~towel   for his sweaty hand.
+~  даст          Эдди полотенце для его потной руки 
+- …going~to~give Eddy her  phone~number   again.
+~  даст          Эдди свой номер~телефона снова 
+
+[LINE]
+> Marie walks~away laughing.
+~ Мари  уходит     смеясь   
+
+[LINE]
+Speaker1913: Wow! You inspired  Marie~Baker's~next~joke!        You're~going~to~be famous!    
+~            ого  ты  вдохновил Мари~Бейкер~на~следующую~шутку  ты~будешь          знаменитым 
+
+[LINE]
+Speaker414: Great.  
+~           отлично 
+
+[MULTIPLE_CHOICE]
+> Eddy doesn't seem    happy.     Why~not?
+~ Эдди не      кажется счасливым  почему  
+- His~date's~hands~are sweaty.
+~ руки~его~девушки     потные 
++ He doesn't want          the~comedian to~tell~jokes      about him. 
+~ он не      хочет~(чтобы) комик        рассказывала~шутки про   него 
+- He lost    his  favorite pair of~running~shorts.
+~ он потерял свою любимую  пару шортов~для~бега   
+
+[MATCH]
+> Коснитесь пар
+- couple <> пару
+- I <> я
+- Why <> почему
+- is the funniest <> самый смешной
+- to the stage <> на сцену
+
