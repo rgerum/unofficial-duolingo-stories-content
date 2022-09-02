@@ -1,0 +1,169 @@
+[DATA]
+fromLanguageName=Кошачье правило
+icon=cf456fd247b4e865382f745b035e6d6a99179473
+set=51|2
+
+[HEADER]
+> The~Cat~Rule   
+~ кошачье~правило
+
+[LINE]
+> Eddy and Junior  are~taking~care~of a~neighbor's~cat. The~cat is~sleeping on Junior's~lap.    
+~ Эдди и   Джуниор ухаживают~за       соседским~котом   кот     спит        на коленях~Джуниора 
+
+[LINE]
+Speaker414: Junior,  you~need   to~wash the~dishes.
+~           Джуниор  тебе~нужно помыть  посуду     
+
+[LINE]
+Speaker415: I can't   do      that now,    Dad.  It's the~Cat~Rule!   
+~           я не~могу сделать это  сейчас  папа  это  кошачье~правило 
+
+[LINE]
+Speaker414: What's    the~Cat~Rule?   
+~           что~такое кошачье~правило 
+
+[POINT_TO_PHRASE]
+> Choose   the~option that    means    «коленях».
+~ выберите вариант    который означает ~         
+Speaker415: (If)   a~cat is~sleeping (on) your  (+lap),     (you) can't     stand~up to~do~anything.          
+~            если  кот   спит         на  твоих   коленях    ты   не~можешь встать   (чтобы)~что-либо~сделать 
+
+[LINE]
+Speaker414: Hmm. I've never   heard~of      the~Cat~Rule…    
+~           хм   я    никогда (не)~слышал~о кошачьем~правиле 
+
+[LINE]
+Speaker415: So,  Dad,  can~you   bring    me  a~drink?
+~           так  папа  ты~можешь принести мне напиток 
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker414: Can't~you    [get~it       yourself]?
+~           ты~не~можешь  принести~его сам       
++ get~it       yourself
+~ принести~его сам     
+- sleep
+~ спать
+- drive        
+~ водить~машину
+
+[LINE]
+Speaker415: No!  Cat~Rule!       
+~           нет  кошачье~правило 
+
+[LINE]
+Speaker414: Ugh, OK.   
+~           эх   ладно 
+
+[ARRANGE]
+> Наберите услышанное
+> [(Eddy) (puts)   (a~glass~of~juice) (on) (the~table).]
+~   Эдди   ставит   стакан~с~соком     на   стол        
+
+[LINE]
+Speaker415: Can~you   move      the~glass closer  to me?  I can't   reach~it    because    the~cat is~on~my~lap.              Cat~Rule!       
+~           ты~можешь подвинуть стакан    поближе ко мне  я не~могу его~достать потому~что кот     (сидит)~у~меня~на~коленях  кошачье~правило 
+
+[LINE]
+> Eddy moves     the~glass closer  to Junior.  
+~ Эдди подвигает стакан    поближе к  Джуниору 
+
+[LINE]
+Speaker415: And can~you~also    give me  the~remote~control? I want to~watch   something  on TV,         but—
+~           и   ты~можешь~также дать мне пульт               я хочу посмотреть что-нибудь по телевизору  но  
+
+[MULTIPLE_CHOICE]
+> Junior  probably     can't    reach           the~remote~control because…   
+~ Джуниор скорее~всего не~может дотянуться~(до) пульта             потому~что 
+- …Eddy keeps~it   on~top~of~the~refrigerator.
+~  Эдди держит~его на~холодильнике            
+- …he doesn't~know where~it~is.       
+~  он не~знает     где~он~(находится) 
++ …the~cat is~still~sitting on him.
+~  кот     всё~ещё~сидит    на нём 
+
+[LINE]
+Speaker414: The~Cat~Rule.    Yeah, yeah, I know.
+~           кошачье~правило  да    да    я знаю 
+
+[LINE]
+> Eddy leaves      the~room for~a~while,       then  he returns.     
+~ Эдди уходит~(из) комнаты  на~какое-то~время  потом он возвращается 
+
+[LINE]
+Speaker414: Junior,  when  are~you~going~to~wash the~dishes?
+~           Джуниор  когда ты~помоешь            посуду     
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker415: I can't   do~anything   until [the~cat~wakes~up]!  
+~           я не~могу ничего~делать пока   кот~(не)~проснётся  
+- the cat wakes it
+- the cat makes up
++ the cat wakes up
+
+[LINE]
+> Eddy tries   to~move   the~cat.
+~ Эдди пробует подвинуть кота    
+
+[LINE]
+Speaker414: Hey, cat—
+~           эй   кот 
+
+[LINE]
+Speaker415: Don't wake~the~cat~up on~purpose, Dad!  That's mean!   
+~           не    буди~кота       специально  папа  это    жестоко 
+
+[LINE]
+Speaker414: That cat has~been~sleeping for~quite~a~while…
+~           этот кот спит              уже~долгое~время  
+
+[ARRANGE]
+> Наберите услышанное
+Speaker415: [(He~had)     (a~busy)     (day).] 
+~             у~него~был   насыщенный   день   
+
+[LINE]
+> Someone knocks on the~door.
+~ кто-то  стучит в  дверь    
+
+[LINE]
+Speaker414: Do~you~want to~answer~the~door? Oh, right, you can't.     Cat~Rule,        right?
+~           хочешь      открыть~дверь       о   верно  ты  не~можешь  кошачье~правило  верно 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+> Eddy [answers~the~door] and comes~back   with a~pizza.
+~ Эдди  открывает~дверь   и   возвращается с    пиццей  
+- lands on the floor
+- answers all four
++ answers the door
+
+[LINE]
+Speaker415: You ordered my  favorite pizza!
+~           ты  заказал мою любимую  пиццу 
+
+[LINE]
+Speaker414: And now    I'm~going   to~eat the~whole pizza by~myself in~the~kitchen! I'd~share      with you,   but you can't     stand~up. Cat~Rule!       
+~           и   теперь я~собираюсь съесть всю       пиццу сам       на~кухне        я~бы~поделился с    тобой  но  ты  не~можешь встать    кошачье~правило 
+
+[MULTIPLE_CHOICE]
+> Because~of "the~Cat~Rule"…     
+~ из-за       кошачьего~правила  
+- …Eddy has    to~buy a~cat and name~it     Pizza.
+~  Эдди должен купить кота  и   назвать~его Пицца 
+- …Junior  has    to~give the~cat his  pizza.
+~  Джуниор должен отдать  коту    свою пиццу 
++ …Junior  can't    get~up to~eat       the~pizza.
+~  Джуниор не~может встать (чтобы)~есть пиццу     
+
+[MATCH]
+> Коснитесь пар
+- The cat <> кот
+- Hmm <> хм
+- my <> мою
+- can't <> не могу
+- knocks <> стучит
+
