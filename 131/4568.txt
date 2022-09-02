@@ -1,0 +1,109 @@
+[DATA]
+fromLanguageName=Я не можу заснути
+icon=0641ff57af041e20c48758333ca7a5e76006d438
+set=6|1
+
+[HEADER]
+> I~Can't~Sleep     
+~ я~не~можу~заснути 
+
+[LINE]
+Speaker856: Robert?  Are~you~sleeping?
+~           Роберте  ти~спиш          
+
+[LINE]
+Speaker361: I'm~not~sleeping now...  
+~           я~не~сплю        тепер   
+
+[SELECT_PHRASE]
+> Виберіть пропущену фразу
+Speaker856: [I~can't~sleep].    
+~            я~не~можу~заснути  
+- I can't step
+- I don't like to sleep
++ I can't sleep
+
+[LINE]
+Speaker361: Would~you~like a~glass of~warm~milk?  
+~           ти~хочеш       склянку теплого~молока 
+
+[LINE]
+Speaker856: Robert!  You know  I~don't~like        milk.  
+~           Роберте  ти  знаєш мені~не~подобається молоко 
+
+[CONTINUATION]
+> Що далі?
+Speaker361: Would~you~like to~listen~to [music]? 
+~           ти~хочеш       послухати     музику  
+- milk   
+~ молоко 
+- sleep 
+~ спати 
++ music  
+~ музику 
+
+[LINE]
+Speaker856: We~can't     listen~to~music.  The~baby is~sleeping.
+~           ми~не~можемо послухати~музику  дитина   спить       
+
+[MULTIPLE_CHOICE]
+> Чому Роберт і Ріта не можуть послухати музику?
+- Вони ненавидять музику.
++ Їхня дитина спить.
+- Їхня дитина плаче.
+
+[LINE]
+Speaker361: Well, we~can    talk       about the~new paint…
+~           ну    ми~можемо поговорити про   нову    фарбу 
+
+[LINE]
+Speaker856: OK     …
+~           гаразд  
+
+[LINE]
+Speaker361: We~need      a~new color for~the~bedroom~walls.
+~           нам~потрібен новий колір для~стін~у~спальні    
+
+[SELECT_PHRASE]
+> Виберіть пропущену фразу
+Speaker361: [I~like~gray]!           
+~            мені~подобається~сірий  
+- I like blue
++ I like gray
+- I hate gray
+
+[LINE]
+Speaker856: Yes… gray… 
+~           так  сірий 
+
+[LINE]
+Speaker361: Blue      is~nice too. I~like           light  colors. 
+~           блакитний гарний  теж  мені~подобаються світлі кольори 
+
+[ARRANGE]
+> Що ви чуєте?
+Speaker361: [(Which) (color) (do~you~like)?]     
+~             який    колір   тобі~подобається   
+
+[LINE]
+Speaker361: Rita? Rita, are~you~sleeping?
+~           Ріто  Ріто  ти~спиш          
+
+[LINE]
+Speaker361: Oh no, now   I~can't   sleep.
+~           о  ні  тепер я~не~можу спати 
+
+[MULTIPLE_CHOICE]
+> Що сталося з Робертом?
+- Він пофарбував стіни своєї спальні в блакитний та сірий.
+- Він розбудив дитину і Ріта розізлилася.
++ Він допоміг Ріті заснути, а сам не зміг.
+
+[MATCH]
+> З’єднайте пари
+- Robert <> Роберте
+- I don't like <> мені не подобається
+- colors <> кольори
+- know <> знаєш
+- too <> теж
+
