@@ -1,0 +1,141 @@
+[DATA]
+fromLanguageName=이별
+icon=8f4366e7efa33308b803737d9fcb51ac94bcc27f
+set=23|4
+
+[HEADER]
+> The~Breakup
+~ 이별         
+
+[LINE]
+> Lucy~is leaving for~a~date. Her granddaughter Lin~is watching TV.   
+~ 루시가     나가는~중이다 데이트를~하러     그녀의 손녀            린이     보고~있다    텔레비전을 
+
+[LINE]
+Speaker508: Say~hello to~Sam for~me!
+~           안부~전해~주세요 샘한테    저~대신   
+
+[LINE]
+Speaker509: It~will~be   a~short~dinner. I'm going~to~break~up with~him.
+~           (그건)~~가~될~거야 짧은~저녁~식사        난   헤어질~거야            샘이랑      
+
+[MULTIPLE_CHOICE]
+> 루시는 샘에게 청혼할 것이다.
+- 네, 맞아요.
++ 아니요, 그렇지 않아요.
+
+[LINE]
+Speaker508: What? You  spend so~much time together!
+~           뭐라고요  두~분은 보내잖아요 아주~많은   시간을  함께       
+
+[LINE]
+Speaker509: That's the~problem!
+~           그게     문제야         
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker509: He wants~to~see me every~day. But I want [to~be~alone] more often.
+~           그는 보고~싶어~해      날  매일         하지만 난 원해    혼자~있길        더    자주    
+- to buy a home
+- to eat in Rome
++ to be alone
+
+[LINE]
+> At~the~cafe, Lucy finds her boyfriend, Sam.
+~ 카페에서         루시가  발견한다  그녀의 남자친구       샘을  
+
+[LINE]
+Speaker2573: Hi, my~love.
+~            안녕  자기      
+
+[LINE]
+Speaker509: We need~to~talk.
+~           우리 할~얘기가~있어     
+
+[MULTIPLE_CHOICE]
+> 루시가 해야 할 얘기는 무엇인가요?
++ 샘과 헤어지고 싶다는 것.
+- 웃긴 농담을 알고 있다는 것.
+- 방금 괜찮은 영화를 봤다는 것.
+
+[LINE]
+Speaker2573: Before you say anything~else, you should~know that  I  really like you.
+~            ~전에    당신이 말하다 다른~뭔가를         당신이 알아줬음~해      ~라는~걸 내가 정말     좋아한다 당신을 
+
+[LINE]
+Speaker509: I  really like you too.
+~           나도 정말     좋아해  당신을 역시  
+
+[LINE]
+Speaker2573: But we should~break~up.
+~            하지만 우린 헤어지는~게~좋겠어      
+
+[MULTIPLE_CHOICE]
+> 이런! 루시가 샘에게 헤어지자고 말하려 했지만…
+- …샘이 너무 소극적이어서 말을 못하고 있다.
++ …샘이 먼저 헤어지자고 말했다.
+- …샘이 카페에 나오지 않았다.
+
+[LINE]
+Speaker509: You're breaking~up with~me?
+~           당신이    헤어지자는~거야    나랑      
+
+[LINE]
+Speaker2573: I have~to~move to~Barcelona for~work…
+~            난 이사가야~해       바르셀로나로       일~때문에    
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker2573: And I can~only~see you [a~few~times] a~year.
+~            그리고 난 단지~볼~수~있을~거야 당신을  서너~번만        일년에    
+- the new times
+- a few dimes
++ a few times
+
+[LINE]
+Speaker509: That's perfect!
+~           그건     완벽해     
+
+[LINE]
+Speaker2573: It~is?
+~            그래    
+
+[LINE]
+Speaker509: I wanted~to~break~up with~you because I need more independence.
+~           난 헤어지길~원했어           당신과      왜냐하면    난 필요해서 좀~더  혼자만의~시간이     
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker509: [(But) (now) (that's) (not~a~problem)!]
+~             하지만   이제    그건       문제가~안~돼         
+
+[LINE]
+Speaker2573: So…  we're staying~together?
+~            그러면  우린    계속~사귀는~거야        
+
+[LINE]
+Speaker509: Yes! When~are~you~leaving?
+~           응    당신은~언제~떠나            
+
+[LINE]
+Speaker2573: Saturday.
+~            토요일에     
+
+[LINE]
+Speaker509: Great! I'll~drive  you to~the~airport!
+~           잘됐네    내가~차로~데려다줄게 당신을 공항으로           
+
+[MULTIPLE_CHOICE]
+> 루시와 샘이 결국 헤어지지 않기로 한 이유는 무엇인가요?
+- 루시가 샘과 매일 함께 있고 싶어서.
++ 샘이 바르셀로나로 이사가기 때문에.
+- 샘이 울음을 그치지 못해서.
+
+[MATCH]
+> 짝을 누르세요
+- independence <> 혼자만의 시간이
+- with you <> 당신과
+- What <> 뭐라고요
+- my love <> 자기
+- too <> 역시
+
