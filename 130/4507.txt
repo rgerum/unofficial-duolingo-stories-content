@@ -1,0 +1,178 @@
+[DATA]
+fromLanguageName=Идеальная годовщина
+icon=8103bcc2bd34c0b59a2105674893f50dc6d6b1e2
+set=43|4
+
+[HEADER]
+> A~Perfect Anniversary
+~ идеальная годовщина  
+
+[LINE]
+> Vikram walks~into a~jewelry~store.  
+~ Викрам заходит~в  ювелирный~магазин 
+
+[LINE]
+Speaker823: Hello,        how~can~I~help~you?   
+~           здравствуйте  чем~я~могу~вам~помочь 
+
+[LINE]
+Speaker593: Hi!     I~need    help   with~something very  special.  
+~           привет  мне~нужна помощь кое~с~чем      очень особенным 
+
+[LINE]
+Speaker593: I just       drove~all~the~way              to this city.  Twenty   years ago,   I met              my   wife  here! 
+~           я только~что проделал~на~машине~долгий~путь в  этот город  двадцать лет   назад  я познакомился~(с) моей женой здесь 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker823: Wow! Twenty   years is  [such~a~long~time]! 
+~           ого  двадцать лет   это  такой~долгий~срок  
+- so the wrong time
+- such a long town
++ such a long time
+
+[LINE]
+Speaker593: Yes, it~is!      I'm planning the~perfect anniversary.
+~           да   так~и~есть  я   планирую идеальную   годовщину   
+
+[LINE]
+Speaker823: Great,   I can  help   you with that!
+~           отлично  я могу помочь вам с    этим 
+
+[MULTIPLE_CHOICE]
+> The~man wants to~help Vikram… 
+~ мужчина хочет помочь  Викраму 
+- …by~cooking dinner for Vikram  and his wife.
+~  приготовив ужин   для Викрама и   его жены 
++ …by~selling him a~piece~of~jewelry  for his wife.
+~  продав     ему ювелирное~украшение для его жены 
+- …by~watching romantic      movies with Vikram.  
+~  смотря      романтические фильмы с    Викрамом 
+
+[LINE]
+Speaker593: Thanks!  So,   I'm looking~for—
+~           спасибо  итак  я   ищу         
+
+[LINE]
+Speaker823: Don't tell     me!  I already know.
+~           не    говорите мне  я уже     знаю 
+
+[LINE]
+Speaker593: You~do?   
+~           вы~знаете 
+
+[LINE]
+Speaker823: Yes! You~need  a~silver   necklace! You can    take       your wife on~a~boat at~sunset and give~it  to~her. That will~be very  romantic.  
+~           да   вам~нужно серебряное ожерелье  вы  можете пригласить свою жену на~лодку  на~закате и   дать~его ей      это  будет   очень романтично 
+
+[LINE]
+Speaker593: Actually,  no— 
+~           вообще-то  нет 
+
+[LINE]
+Speaker823: You're right. The~anniversary has~to~be   perfect.  
+~           вы     правы  годовщина       должна~быть идеальной 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker823: [(A~gold)  (necklace) (is~much) (better)!]
+~             золотое   ожерелье   намного   лучше    
+
+[LINE]
+Speaker593: No,  no— 
+~           нет  нет 
+
+[LINE]
+Speaker823: Earrings? Look~at       these beautiful diamond~earrings      here.
+~           серьги    посмотрите~на эти   красивые  серьги~с~бриллиантами вот  
+
+[MULTIPLE_CHOICE]
+> Why~does the~man think         diamond~earrings      are~a~good present?
+~ почему   мужчина считает~(что) серьги~с~бриллиантами хороший    подарок 
++ They~are very  expensive and beautiful.
+~ они      очень дорогие   и   красивые  
+- Vikram said         his wife loves diamonds.  
+~ Викрам сказал~(что) его жена любит бриллианты 
+- They~are~easy to~carry.
+~ их~легко      нести    
+
+[LINE]
+Speaker593: Diamond~earrings?      No.  We~don't~usually~spend more   than five dollars  on anniversary~presents.
+~           серьги~с~бриллиантами  нет  мы~обычно~не~тратим    больше чем  пять долларов на подарки~на~годовщину 
+
+[LINE]
+Speaker823: What?
+~           что  
+
+[LINE]
+Speaker593: We love  each~other and we~don't~care~about fancy      presents.
+~           мы любим друг~друга и   нам~не~важны        изысканные подарки  
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker823: Then  why~are~you in [a~jewelry~store]?  
+~           тогда почему~вы   в   ювелиром~магазине  
++ a~jewelry~store   
+~ ювелирном~магазине
+- a~boat
+~ лодке 
+- a~supermarket
+~ супермаркете 
+
+[POINT_TO_PHRASE]
+> Choose   the~option that    means    «салфетку».
+~ выберите вариант    который означает ~          
+> (Vikram) takes   (+a~napkin) (out~of) his    (pocket).  It~has~the~name~of~a~sandwich~shop~on~it.
+~  Викрам  достаёт   салфетку   из      своего  кармана   на~ней~название~бутербродной             
+
+[LINE]
+Speaker593: Do~you~know where this~sandwich~shop~is?      I can't   find  the~address online. I~need    to~buy my    wife a~sandwich there for our  anniversary.
+~           вы~знаете   где   находится~эта~бутербродная  я не~могу найти адрес       в~сети  мне~нужно купить своей жене бутерброд  там   на  нашу годовщину   
+
+[LINE]
+Speaker823: A~sandwich? That's not very  romantic.  
+~           бутерброд   это    не  очень романтично 
+
+[LINE]
+Speaker593: Well, we shared    a~sandwich there on our   first  date.    
+~           ну    мы разделили бутерброд  там   на нашем первом свидании 
+
+[LINE]
+Speaker823: You kept    this napkin   for~twenty~years?!
+~           вы  хранили эту  салфетку двадцать~лет      
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker593: Yes! I have~loved her since           we [shared    that sandwich]. 
+~           да   я любил      её  с~тех~пор~(как) мы  разделили тот  бутерброд  
+- got~divorced
+~ развелись   
++ shared    that sandwich 
+~ разделили тот  бутерброд
+- bought expensive jewelry          
+~ купили дорогие   ювелирные~изделия
+
+[LINE]
+Speaker823: OK…     maybe that~is romantic.  
+~           хорошо  может это     романтично 
+
+[MULTIPLE_CHOICE]
+> Vikram was~looking~for a~sandwich~shop because…   
+~ Викрам искал           бутербродную    потому~что 
+- …he wanted to~get~a~job         there.
+~  он хотел  устроиться~на~работу там   
++ …he and his wife went   on their first  date     there.
+~  он и   его жена ходили на их    первое свидание туда  
+- …he~was very  hungry.  
+~  он~был очень голодный 
+
+[MATCH]
+> Коснитесь пар
+- such a long time <> такой долгий срок
+- Vikram <> Викрам
+- You're <> вы
+- five <> пять
+- me <> мне
+
