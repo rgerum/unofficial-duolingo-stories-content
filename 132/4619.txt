@@ -1,0 +1,148 @@
+[DATA]
+fromLanguageName=स्टेशन चलो!
+icon=5bee618bd907474764094eddf36ddcbc46523c98
+set=2|2
+
+[HEADER]
+> To~the~Station!
+~ स्टेशन~चलो     
+
+[LINE]
+> Oscar gets     in~a~taxi.    
+~ ऑस्कर बैठता~है एक~टैक्सी~में 
+
+[LINE]
+> His  friend, Lin, is~driving the~taxi.
+~ उसकी दोस्त   लिन  चला~रही~है टैक्सी   
+
+[MULTIPLE_CHOICE]
+> लिन वह टैक्सी चला रही है, जिसमें ऑस्कर अभी-अभी सवार हुआ है।
++ हाँ, यह सही है।
+- नहीं, ऐसा नहीं है।
+
+[LINE]
+Speaker592: Lin! You are~driving a~taxi!   
+~           लिन  तुम चला~रही~हो  एक~टैक्सी 
+
+[LINE]
+Speaker508: Yes! It is my   new job!  
+~           हाँ  यह है मेरी नयी नौकरी 
+
+[POINT_TO_PHRASE]
+> उस विकल्प को चुनें जिसका मतलब “जाना” है।
+Speaker508: (Where) (do~you~want)  (+to~go)?
+~            कहाँ    तुम~चाहते~हो    जाना   
+
+[LINE]
+Speaker592: To~the~station, please!
+~           स्टेशन~चलो      कृपया  
+
+[LINE]
+Speaker508: Where is the~station?
+~           कहाँ  है स्टेशन      
+
+[LINE]
+Speaker592: I~do~not~know.
+~           मुझे~नहीं~पता 
+
+[MULTIPLE_CHOICE]
+> ऑस्कर को नहीं पता कि...
++ …स्टेशन कहाँ है।
+- …लिन कौन है।
+- …उसे कहाँ जाना है।
+
+[LINE]
+Speaker508: OK…    
+~           ठीक~है 
+
+[LINE]
+> Lin starts       driving.   
+~ लिन शुरू~करती~है गाड़ी~चलाना 
+
+[MULTIPLE_CHOICE]
+> लिन ने...
+- …चलना शुरू कर दिया है।
+- …खाना शुरू कर दिया है।
++ …गाड़ी चलाना शुरू कर दिया है।
+
+[LINE]
+Speaker508: We~are~here!
+~           हम~पहुँच~गए 
+
+[LINE]
+Speaker592: Lin… this is not  the~station. This is the~university.
+~           लिन  यह   है नहीं स्टेशन       यह   है विश्वविद्यालय  
+
+[LINE]
+Speaker508: Oh…
+
+[LINE]
+> Lin starts       driving.   
+~ लिन शुरू~करती~है गाड़ी~चलाना 
+
+[LINE]
+Speaker508: We~are~here!
+~           हम~पहुँच~गए 
+
+[LINE]
+Speaker592: Lin…
+~           लिन 
+
+[LINE]
+Speaker508: Yes?
+~           हाँ 
+
+[LINE]
+Speaker592: This is the~hospital.
+~           यह   है अस्पताल      
+
+[LINE]
+Speaker508: Oh…
+
+[POINT_TO_PHRASE]
+> उस विकल्प को चुनें जिसका मतलब “फिर से” है।
+> (Lin) (starts)       (driving)…    (+again). 
+~  लिन   शुरू~करती~है   गाड़ी~चलाना     फिर~से  
+
+[LINE]
+Speaker508: OK,     we~are~here!
+~           ठीक~है  हम~पहुँच~गए 
+
+[LINE]
+Speaker592: Lin, this is not  the~station…
+~           लिन  यह   है नहीं स्टेशन      
+
+[LINE]
+Speaker508: I~know.      This is my   apartment. 
+~           मुझे~पता~है  यह   है मेरा अपार्टमेंट 
+
+[LINE]
+Speaker508: I   do~not~want to~drive a~taxi.
+~           मैं नहीं~चाहती  चलाना    टैक्सी 
+
+[LINE]
+Speaker508: It is a  difficult job.
+~           यह है एक मुश्किल   काम 
+
+[LINE]
+> Lin gets~out       of~the~taxi.
+~ लिन बाहर~निकलती~है टैक्सी~से   
+
+[LINE]
+Speaker508: Good~night, Oscar!
+~           शुभ~रात्रि  ऑस्कर 
+
+[MULTIPLE_CHOICE]
+> अरे नहीं! लिन ने अपने घर जाने का फ़ैसला क्यों किया?
+- क्योंकि वह अपना लंच लाना भूल गई थी।
+- क्योंकि उसे किसी और सवारी को लेने जाना था।
++ क्योंकि उसे एक टैक्सी चलाना बहुत मुश्किल काम लगता है।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- the university <> विश्वविद्यालय
+- You <> तुम
+- gets out <> बाहर निकलती है
+- To the station <> स्टेशन चलो
+- friend <> दोस्त
+
