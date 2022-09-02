@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=흥미로운 대화
+icon=6711cee61441da3d7aa6099466d6fff137239c3a
+set=11|3
+
+[HEADER]
+> An~Interesting~Conversation
+~ 흥미로운~대화                    
+
+[LINE]
+> Bea~is sitting on~a~bench in~the~park.
+~ 비가     앉아있다    벤치에        공원에~있는      
+
+[LINE]
+Speaker258: Excuse~me, can~I~sit  here?
+~           저기요        제가~앉아도~될까요 여기   
+
+[LINE]
+Speaker507: Yes.
+~           네   
+
+[LINE]
+Speaker507: But I'm waiting  for~my~friend.
+~           하지만 전   기다리고~있어요 제~친구를         
+
+[POINT_TO_PHRASE]
+> “남자친구”를 뜻하는 말을 고르세요.
+Speaker507: (She's) (coming) (here) with  her (+boyfriend).
+~            그녀는     올~거예요    여기에   ~랑~같이 그녀의   남자친구       
+
+[LINE]
+Speaker258: Oh, really?
+~           아   정말요    
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker507: I'm really excited [to~meet~him].
+~           전   정말     기대돼요     그를~만나는~게     
+- to eat meat
+- to make him
++ to meet him
+
+[LINE]
+Speaker258: Why?
+~           왜요  
+
+[LINE]
+Speaker507: She   likes  him a~lot.
+~           제~친구가 좋아하거든요 그를  많이    
+
+[LINE]
+Speaker258: Interesting…
+~           흥미롭네요       
+
+[LINE]
+Speaker507: She~is going~to~ask~him~to~marry~her…
+~           제~친구가  그에게~청혼할~거예요                   
+
+[LINE]
+Speaker507: … this weekend!
+~             이번   주말에     
+
+[MULTIPLE_CHOICE]
+> 비의 친구는…
+- ...다음 달에 남자친구와 함께 집을 살 예정이다.
++ ...이번 주말에 남자친구에게 청혼할 예정이다.
+- ...이번 주말에 비와 함께 휴가를 갈 예정이다.
+
+[LINE]
+Speaker258: This weekend?
+~           이번   주말이요    
+
+[LINE]
+Speaker507: Yes. It's~so exciting!
+~           네    (그건)~너무 기대돼요     
+
+[LINE]
+Speaker507: Oh! My friend~is~here!
+~           아   제  친구가~왔네요        
+
+[LINE]
+Speaker507: Hey, Emily.
+~           안녕   에밀리   
+
+[LINE]
+Speaker260: Hey, Bea!
+~           안녕   비   
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker260: Oh, [you're~talking~to] Leo! That's~great!
+~           아    네가~얘기하고~있네         리오랑  잘됐다          
+- you take the
++ you're talking to
+- you talk to
+
+[LINE]
+Speaker507: Huh? Who~is~Leo?
+~           어    리오가~누구야    
+
+[LINE]
+Speaker260: My boyfriend, Leo. He~is sitting next~to~you!
+~           내  남자친구       리오   그가    앉아있잖아   네~옆에        
+
+[LINE]
+Speaker507: Oh~no!
+~           아~이런  
+
+[LINE]
+Speaker258: Nice~to~meet~you, Bea.
+~           만나서~반가워요          비~씨 
+
+[MULTIPLE_CHOICE]
+> 이런! 비는 실수로 리오에게…
+- ...자신이 그의 여자친구와 사귄다고 얘기해버렸다.
+- ...그의 여자친구가 그에게 헤어지자고 할 거라고 얘기해버렸다.
++ ...그의 여자친구가 그에게 청혼할 거라고 얘기해버렸다.
+
+[MATCH]
+> 짝을 누르세요
+- Oh <> 아
+- boyfriend <> 남자친구
+- Bea <> 비
+- Why <> 왜요
+- can I sit <> 제가 앉아도 될까요
+
