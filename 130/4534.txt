@@ -1,0 +1,187 @@
+[DATA]
+fromLanguageName=Возврат средств
+icon=8d2cee2e2c88355a3e6a2d98c1b6723c455c41b5
+set=50|3
+
+[HEADER]
+> The~Refund     
+~ возврат~средств
+
+[LINE]
+> Lily is~working at the~clothing~store.
+~ Лили работает   в  магазине~одежды    
+
+[LINE]
+Speaker1551: Excuse~me, how~much~is   this suit?  
+~            извините   сколько~стоит этот костюм 
+
+[LINE]
+Speaker416: Two~hundred dollars.  Do~you~want to~try~the~suit~on?
+~           двести      долларов  хотите      примерить~костюм   
+
+[MULTIPLE_CHOICE]
+> Lily is~asking  if~the~man~wants…
+~ Лили спрашивает хочет~ли~мужчина 
++ …to~make~sure    the~suit fits     before          he buys  it. 
+~  убедиться~(что) костюм   подходит перед~тем~(как) он купит его 
+- …to~see  a~picture  of~someone wearing~the~suit.
+~  увидеть фотографию кого-то    в~этом~костюме   
+- …to~put   the~suit on a~shelf.
+~  положить костюм   на полку   
+
+[LINE]
+Speaker1551: No,  I~don't~have time.    Just   take     my  money! 
+~            нет  у~меня~нет   времени  просто возьмите мои деньги 
+
+[LINE]
+> The~man buys     the~suit. The~next~day,        he returns      to the~store.
+~ мужчина покупает костюм    (на)~следующий~день  он возвращается в  магазин   
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker1551: Excuse~me! I want            a~refund        [for~this~suit]. 
+~            извините   я хочу~(получить) возврат~средств  за~этот~костюм  
+- or it's cute
++ for this suit
+- for this soup
+
+[LINE]
+Speaker416: Why?    Is~there~a~problem?
+~           почему  что-то~не~так      
+
+[LINE]
+Speaker1551: This~is not a~black suit!  
+~            это     не  чёрный  костюм 
+
+[LINE]
+Speaker416: You're right. That's a~blue suit.  
+~           вы     правы  это    синий  костюм 
+
+[LINE]
+Speaker1551: I came   here to~buy a~black suit.  
+~            я пришёл сюда купить чёрный  костюм 
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker416: OK,     so    why    did~you~buy [a~blue suit]?  
+~           хорошо  тогда почему вы~купили    синий  костюм  
+- a~pair of~shoes
+~ пару   обуви   
++ a~blue suit  
+~ синий  костюм
+- a~black suit  
+~ чёрный  костюм
+
+[LINE]
+Speaker1551: Look~at    my  family~photo!       
+~            гляньте~на мою семейную~фотографию 
+
+[LINE]
+> The~man shows      Lily his  family~photo.       
+~ мужчина показывает Лили свою семейную~фотографию 
+
+[LINE]
+Speaker1551: My  wife is~wearing a~black dress  in this photo.      She told    me  to~wear a~black suit   to~match                her dress! 
+~            моя жена одета~(в)  чёрное  платье на этой фотографии  она сказала мне надеть  чёрный  костюм (чтобы~он)~подходил~(к) её  платью 
+
+[LINE]
+Speaker416: I'm~sorry, dude.  You~can't   return  the~suit if   you wore~it.  
+~           прости     чувак  тебе~нельзя вернуть костюм   если ты  носил~его 
+
+[LINE]
+Speaker1551: I only~wore~the~suit   for~an~hour!
+~            я я~носил~костюм~всего час         
+
+[ARRANGE]
+> Наберите услышанное
+Speaker416: [(Read)   (the~bottom) (of~the~receipt).]
+~             прочти   внизу        квитанции        
+
+[LINE]
+> He reads  the~receipt.
+~ он читает квитанцию   
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker1551: "No       refunds          if   you [wear~the~clothing]."
+~             никакого возврата~средств если вы   надевали~одежду     
+- wears their clothing
+- we're closing
++ wear the clothing
+
+[LINE]
+Speaker1551: But the~suit didn't~even~fit me!  It was so    uncomfortable!
+~            но  костюм   даже~не~подошёл мне  он был такой неудобный     
+
+[LINE]
+Speaker416: Listen, I'm~sorry. I can't   give~you~a~refund   unless~there~was~a~problem.   Like,     if   the~suit was damaged—  
+~           слушай  мне~жаль   я не~могу вернуть~тебе~деньги если~только~не~было~проблемы  например  если костюм   был повреждён 
+
+[LINE]
+Speaker1551: I can  get      a~refund        if   the~suit is~damaged? Well,  fine!   Look!    
+~            я могу получить возврат~средств если костюм   повреждён   что~ж  хорошо  смотрите 
+
+[ARRANGE]
+> Наберите услышанное
+> [(He) (tears)    (the~sleeve) (off~of~the~suit).]
+~   он   отрывает   рукав        от~костюма        
+
+[LINE]
+Speaker416: Dude!  That's not cool. 
+~           чувак  это    не  круто 
+
+[LINE]
+Speaker1551: I want my   two~hundred dollars  back! 
+~            я хочу свои двести      долларов назад 
+
+[LINE]
+> The~store~manager runs~over to the~cash~register.
+~ менеджер~магазина подбегает к  кассе             
+
+[LINE]
+Speaker1186: What~is~the~problem?
+~            что~случилось       
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker1186: Oh! Sir, your suit   looks    damaged.      Would~you~like    [a~refund]?       
+~            ой  сэр  ваш  костюм выглядит повреждённым  хотите~(получить)  возврат~средств  
+- a~new lamp 
+~ новую лампу
++ a~refund       
+~ возврат~средств
+- a~sandwich
+~ сэндвич   
+
+[LINE]
+Speaker1551: Yes, please!     Thank~you~so~much, ma'am.
+~            да   пожалуйста  большое~спасибо    мэм   
+
+[LINE]
+Speaker1186: Lily, we will~talk about~this later.
+~            Лили  мы поговорим об~этом    позже 
+
+[LINE]
+Speaker416: I hate     this job.   
+~           я ненавижу эту  работу 
+
+[MULTIPLE_CHOICE]
+> The~man tore    the~sleeve off~the~suit…
+~ мужчина оторвал рукав      от~костюма   
+- …because    the~sleeve was too     long.   
+~  потому~что рукав      был слишком длинный 
+- …because    he~liked~the~suit~better   without sleeves.
+~  потому~что ему~больше~нравился~костюм без     рукавов 
++ …so    he could get      a~refund.       
+~  чтобы он мог   получить возврат~средств 
+
+[MATCH]
+> Коснитесь пар
+- we <> мы
+- the receipt <> квитанцию
+- This is <> это
+- to buy <> купить
+- Like <> например
+
