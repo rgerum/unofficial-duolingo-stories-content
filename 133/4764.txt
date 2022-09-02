@@ -1,0 +1,147 @@
+[DATA]
+fromLanguageName=너한테 딱 맞는 사람
+icon=9a22c5f11ddc4785a81d887f35d522f3317e2f4c
+set=6|1
+
+[HEADER]
+> The~Perfect~Person
+~ 딱~맞는~사람           
+
+[LINE]
+> Bea meets her friend, Eddy, for~coffee.
+~ 비가  만난다   그녀의 친구      에디를   커피를~마시러    
+
+[LINE]
+Speaker414: Good morning, Bea!
+~           좋은   아침       비   
+
+[LINE]
+Speaker507: How~are~you, Eddy?
+~           어떻게~지냈어      에디   
+
+[LINE]
+Speaker414: Well, I have~a~date tonight.
+~           음     난 데이트가~있어     오늘~밤에   
+
+[LINE]
+Speaker507: That's~great.
+~           (그거)~잘됐네     
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker414: Yes, but I~feel       [a~little~sick].
+~           응    하지만 (내가)~~한~것~같아  좀~아픈           
+- it'll sit
+- a little quick
++ a little sick
+
+[LINE]
+Speaker507: Oh, I'm~sorry.
+~           아   어떡해       
+
+[LINE]
+Speaker414: I'm really tired.
+~           난   정말     피곤해   
+
+[LINE]
+Speaker414: And I~also~feel~cold.
+~           그리고 (난)~춥기도~해        
+
+[MULTIPLE_CHOICE]
+> 에디는 컨디션이 최상이다.
+- 네, 맞아요. 
++ 아니요, 그렇지 않아요.
+
+[LINE]
+Speaker507: Hmm.
+~           음   
+
+[LINE]
+Speaker507: That's~not~good.
+~           그럼~안~되는데        
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker507: [(You) (need~to~visit) (a~doctor).]
+~             넌     보러~가야~해         의사를        
+
+[LINE]
+Speaker414: No,  I can't~be~sick!
+~           아니야  난 아프면~안~돼       
+
+[LINE]
+Speaker414: I have~a~date tonight!
+~           난 데이트가~있다니까   오늘~밤에   
+
+[LINE]
+Speaker507: Forget your~date!
+~           잊어버려   (너의)~데이트는 
+
+[LINE]
+Speaker507: I know the~perfect~person for~you.
+~           난 알아   딱~맞는~사람을           너한테     
+
+[MULTIPLE_CHOICE]
+> 이해 했나요? 비는 에디가…
+- ...데이트 상대의 이름을 잊어버려야 한다고 생각한다.
++ ...데이트 상대 대신 다른 사람을 만나야 한다고 생각한다.
+- ...데이트 약속 시간에 늦지 말아야 한다고 생각한다.
+
+[LINE]
+Speaker414: Really?
+~           정말     
+
+[LINE]
+Speaker507: Yes. She's tall...
+~           응    그녀는   키가~커   
+
+[LINE]
+Speaker507: And intelligent...
+~           그리고 똑똑해           
+
+[LINE]
+Speaker414: Is~she funny?
+~           그녀는    재밌어   
+
+[LINE]
+Speaker507: Yes, she's very funny.
+~           응    그녀는   아주   재밌어   
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker414: [She~is~perfect]!
+~            (그녀는)~완벽하네      
+- Cheese is perfect
+- He is a person
++ She is perfect
+
+[LINE]
+Speaker414: What's~her~name?
+~           (그녀의)~이름이~뭐야    
+
+[LINE]
+Speaker507: Doctor~Santos.
+~           산토스~의사~선생님    
+
+[LINE]
+Speaker507: You need~to~go to~her~office now…
+~           넌   가야~해       그녀가~있는~병원에    지금  
+
+[LINE]
+Speaker507: …because you're sick!
+~            왜냐하면    넌      아프니까 
+
+[MULTIPLE_CHOICE]
+> 비의 생각에 에디한테 딱 맞는 사람은…
++ ...에디의 몸을 낫게 해 줄 의사이다.
+- ...비가 온라인에서 만난 한 남자이다.
+- ...에디가 좋아하는 여자 연예인이다.
+
+[MATCH]
+> 짝을 누르세요
+- Yes <> 응
+- And <> 그리고
+- She's <> 그녀는
+- Eddy <> 에디를
+- No <> 아니야
+
