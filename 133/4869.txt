@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=비크람의 깜짝 선물
+icon=2729a328a5a5eca5cd0db3189fc0c1ce390cfb4f
+set=32|2
+
+[HEADER]
+> Vikram's Surprise
+~ 비크람의     깜짝~선물   
+
+[LINE]
+> Priti enters the~kitchen. It's filled  with~smoke.
+~ 프리티가  들어간다   부엌에          그곳이  가득~차~있다 연기로        
+
+[LINE]
+Speaker560: Oh~no! What~happened~in~here?
+~           아니~이런  여기서~무슨~일이~있었어         
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker593: I~was going~to~do something~special [for~your~birthday].
+~           내가    하려고~했어      특별한~걸              당신~생일을~위해          
+- for the worst day
+- for her first day
++ for your birthday
+
+[LINE]
+Speaker560: Thanks, Vik, but…
+~           고마워     비크   하지만 
+
+[LINE]
+Speaker593: While~I~was~baking your cake, I lost  my wedding~ring!
+~           내가~굽는~동안           당신의  케이크를  난 잃어버렸어 내  결혼~반지를       
+
+[LINE]
+Speaker593: Then, I realized that  it went~in the~cake!
+~           그~순간  난 깨달았어     ~라는~걸 그게 들어갔다    케이크에     
+
+[LINE]
+Speaker593: I  had~to~eat the~whole~cake by~myself to~find it.
+~           내가 먹어야~했어     케이크를~전부~다      혼자서       찾기~위해   그걸 
+
+[MULTIPLE_CHOICE]
+> 잠깐만요... 비크람이 케이크를 전부 다 먹은 이유는 무엇인가요?
+- 케이크를 너무 좋아해서.
++ 그의 결혼 반지를 찾고 싶어서.
+- 배가 너무 고파서.
+
+[LINE]
+Speaker560: OK…  
+~           그랬구나 
+
+[LINE]
+Speaker593: After~I~ate the~whole~cake, I~was really tired. So  I  went to~lie~down.
+~           먹은~후에       케이크를~전부~다       난     정말     피곤했어   그래서 내가 갔어   누우러         
+
+[LINE]
+Speaker560: Uh~huh…
+~           그리고    
+
+[POINT_TO_PHRASE]
+> "내가 연기 냄새를 맡았다"를 뜻하는 말을 고르세요.
+Speaker593: I (went~to~sleep). But I  (woke~up) (because) (+I~smelled~smoke).
+~           난  잠들었어            하지만 내가  깼지        ~해서        연기~냄새를~맡았다       
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker593: I forgot that  [I~was~cooking~dinner] in~the~oven, and a~fire started!
+~           난 잊어버렸어  ~라는~걸  내가~저녁~요리~중이었다         오븐에          그리고 불이     붙은~거야   
+- I won’t cook you dinner
+- I was looking thinner
++ I was cooking dinner
+
+[LINE]
+Speaker560: Oh~no.
+~           아~이런  
+
+[LINE]
+Speaker593: I  ran  into~the~kitchen.
+~           내가 달려갔어 부엌으로             
+
+[LINE]
+Speaker593: I put the~water~from~a~vase on~the~fire!
+~           난 쏟았어 꽃병에~있던~물을             불~위에다       
+
+[MULTIPLE_CHOICE]
+> 비크람이 불 위에 쏟아버린 것은 무엇인가요?
+- 변기에 있던 물
+- 커다란 케이크
++ 꽃병에 있던 물
+
+[LINE]
+Speaker560: My hero!
+~           나의 영웅   
+
+[LINE]
+Speaker593: But the~flowers~I~bought~for~you~were in~that~vase, too.
+~           하지만 내가~당신을~위해~산~꽃들이                   꽃병에~있었어       역시  
+
+[POINT_TO_PHRASE]
+> “상태가 엉망인”을 뜻하는 말을 고르세요.
+> (Vikram) (gives) his wife the (flowers). They're (+ruined).  
+~  비크람이     건넨다    그의  아내에게 그    꽃들을       그것들은      상태가~엉망이다  
+
+[LINE]
+Speaker593: Surprise?
+~           서프라이즈    
+
+[LINE]
+Speaker560: Oh, sweetie. This isn't~a~surprise.
+~           아   여보       이건   서프라이즈가~아니야       
+
+[LINE]
+Speaker593: It's~not?
+~           아니야      
+
+[LINE]
+Speaker560: No. You start~a~fire in~the~kitchen on~my~birthday every~year.
+~           전혀  당신은 불을~내         부엌에            내~생일~날         매년         
+
+[LINE]
+Speaker560: So  I  got  our favorite pizza. Surprise!
+~           그래서 내가 사~왔어 우리가 제일~좋아하는  피자를    서프라이즈    
+
+[MULTIPLE_CHOICE]
+> 프리티가 피자를 사 온 이유는 무엇인가요?
++ 비크람이 매년 그녀의 생일 저녁을 망친다는 걸 알기 때문이다.
+- 비크람이 생일 케이크를 다 먹어 버려 화가 났기 때문이다.
+- 오늘이 자신의 생일이란 걸 잊어버렸기 때문이다.
+
+[MATCH]
+> 짝을 누르세요
+- enters <> 들어간다
+- Vik <> 비크
+- No <> 전혀
+- got <> 사 왔어
+- I was cooking dinner <> 내가 저녁 요리 중이었다
+
