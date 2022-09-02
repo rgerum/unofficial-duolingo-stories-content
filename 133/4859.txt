@@ -1,0 +1,140 @@
+[DATA]
+fromLanguageName=최악의 데이트
+icon=a0fcf3ace5fe44c02a92d0f17972a2115b744eb8
+set=29|4
+
+[HEADER]
+> Terrible Date
+~ 최악의      데이트 
+
+[LINE]
+> Lin arrives at her friend Bea's house.
+~ 린이  도착한다    ~에 그녀의 친구     비의    집     
+
+[LINE]
+Speaker508: Hi, Bea! Are~you~ready~to~go?
+~           안녕  비    나갈~준비됐어             
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker507: No! [I~can't~find~my~phone]!
+~           아니   내~휴대폰을~못~찾겠어           
+- We can't find my home
+- I can't rhyme on my own
++ I can't find my phone
+
+[LINE]
+Speaker508: Where~was the~last~place you used~it?
+~           어디였어      마지막~장소가        네가  그걸~사용한  
+
+[LINE]
+Speaker507: During~my~date last~night… Uh~oh.
+~           데이트하는~동안       어젯밤에        아~이런  
+
+[MULTIPLE_CHOICE]
+> 비의 휴대폰은 아마도…
+- …그녀의 아파트 지붕에 있는 것 같다.
+- …그녀의 사무실 책상에 있는 것 같다.
++ …지난 밤 데이트 장소에 두고 온 것 같다.
+
+[LINE]
+Speaker508: What?
+~           뭔데   
+
+[LINE]
+Speaker507: It~was a~terrible~date. I really liked  the guy, but I  broke his favorite lamp!
+~           그건     최악의~데이트였어        난 정말     맘에~들었어 그   남자가  하지만 내가 깨뜨렸어  그가  가장~좋아하는  램프를  
+
+[LINE]
+Speaker508: Oh,~no!
+~           아~이런   
+
+[POINT_TO_PHRASE]
+> “흘렸다”를 뜻하는 말을 고르세요.
+Speaker507: (And~then) I  (+spilled) (red~wine) on  his new (white) couch!
+~            그리고~나선    내가   흘렸어       레드~와인을    ~위에 그의  새    하얀색    소파    
+
+[LINE]
+Speaker507: I felt~so~bad! I told him that I~was~going to~the~bathroom, but I~climbed~out~the~window instead.
+~           난 너무~미안했어      난 말했어  그에게 ~라고  간다          화장실에             하지만 창문~밖으로~나왔어               그~대신    
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker507: [(I~think) (I~left)    (my) (phone) (at~his~apartment).]
+~             내~생각엔     두고~온~것~같아   내    휴대폰을    그의~아파트에            
+
+[LINE]
+Speaker508: You didn't~even~say~goodbye?
+~           넌   작별인사도~안~했어              
+
+[LINE]
+Speaker507: No…
+~           아니 
+
+[LINE]
+Speaker508: So,  where~does~he~live?
+~           그래서  그~사람~어디~살아         
+
+[LINE]
+Speaker507: On~the~east~side~of~town, next~to the~old~bank.
+~           시내~동쪽에                    ~옆에     오래된~은행       
+
+[LINE]
+Speaker508: Let's~go!
+~           가자       
+
+[MULTIPLE_CHOICE]
+> 린과 비가 그 남자의 아파트에 가려는 이유는 무엇인가요?
+- 린이 그 남자와 데이트하고 싶어해서.
+- 비가 그에게 새 소파를 사줬기 때문에.
++ 비의 휴대폰을 찾아야 해서.
+
+[LINE]
+> Bea goes to~an~apartment and knocks~on the~door. A man answers.
+~ 비가  간다   한~아파트에          그리고 노크한다      문을        한 남자가 문을~연다   
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker438: You're~back! I thought you didn't~like me when  you [climbed~out~the~window].
+~           돌아왔네요        전 생각했어요   당신이 싫어했다고       날  ~했을~때 당신이  창문~밖으로~나갔다              
++ climbed~out~the~window
+~ 창문~밖으로~나갔다            
+- took my picture
+~ 찍었다  내  사진을    
+- climbed~a~mountain
+~ 등산을~했다            
+
+[LINE]
+Speaker507: Uh… I do,       but… Do~you~have my phone?
+~           어   전 당신을~좋아해요  하지만  갖고~있어요      제  휴대폰을  
+
+[LINE]
+Speaker438: Yes, here!
+~           네    여기요  
+
+[LINE]
+> He gives Bea her phone.
+~ 그가 건넨다   비에게 그녀의 휴대폰을  
+
+[LINE]
+Speaker507: So, can~we~have~dinner again sometime?
+~           그럼  우리~저녁~먹을까요         다시    나중에      
+
+[LINE]
+Speaker438: Yes… But not~at~my~apartment.
+~           좋아요  하지만 제~아파트에선~말고요         
+
+[MULTIPLE_CHOICE]
+> 비의 데이트 상대가 자신의 아파트에서 저녁식사를 원치 않는 이유는 무엇인가요?
+- 자신이 사는 곳을 비가 몰랐으면 해서.
+- 그에게 정말 형편없는 룸메이트가 있어서.
++ 비가 지난 밤 그의 아파트를 크게 어지럽혔기 때문에.
+
+[MATCH]
+> 짝을 누르세요
+- And then <> 그리고 나선
+- his <> 그가
+- instead <> 그 대신
+- gives <> 건넨다
+- broke <> 깨뜨렸어
+
