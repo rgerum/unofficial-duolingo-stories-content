@@ -1,0 +1,151 @@
+[DATA]
+fromLanguageName=Важный матч
+icon=170e9caad206d87350e17e32c18226edefea8131
+set=14|1
+
+[HEADER]
+> The~Big Game
+~ важный  матч
+
+[LINE]
+> Bea arrives   at~her~friend~Justin's~house. 
+~ Би  приезжает домой~к~своему~другу~Джастину 
+
+[LINE]
+Speaker507: Are~you~ready?
+~           ты~готов      
+
+[LINE]
+Speaker507: This~is the~most exciting      soccer     game of~the~year!
+~           это     самый    захватывающий футбольный матч года        
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker507: And [we~have~tickets]!  
+~           и    у~нас~есть~билеты  
++ we have tickets
+- even tickets
+- we have taken
+
+[LINE]
+Speaker295: Bea…
+~           Би  
+
+[LINE]
+Speaker295: I can't   go    to~the~game.
+~           я не~могу пойти на~матч     
+
+[LINE]
+Speaker507: What?
+~           что  
+
+[LINE]
+Speaker295: I~need    to~study.
+~           мне~нужно учиться  
+
+[LINE]
+Speaker295: I~have a~really~important exam    tomorrow.
+~           у~меня очень~важный       экзамен завтра   
+
+[LINE]
+Speaker295: I~need    to~pass the~exam to~go         to medical~school.
+~           мне~нужно сдать   экзамен  (чтобы)~пойти в  мединститут    
+
+[MULTIPLE_CHOICE]
+> Почему Джастин не может пойти на матч?
+- Ему нужно к врачу.
++ Ему нужно готовиться к важному экзамену.
+- Он потерял свою счастливую футболку.
+
+[LINE]
+Speaker295: I'm~sorry…
+~           мне~жаль  
+
+[LINE]
+> Bea takes~off her  coat.  
+~ Би  снимает   своё пальто 
+
+[MULTIPLE_CHOICE]
+> Другими словами, Би...
+- …крадёт пальто Джастина.
+- …надевает пальто.
++ …снимает пальто.
+
+[LINE]
+Speaker507: OK,    do~you~have any~coffee?
+~           ладно  у~тебя~есть кофе       
+
+[LINE]
+Speaker295: Why?  
+~           зачем 
+
+[LINE]
+Speaker507: Well, I don't want to~be tired.   
+~           ну    я не    хочу быть  уставшей 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker507: We're~going to~study [all night].
+~           мы~будем    учиться   всю ночь   
+- the~tickets
+~ билеты     
+- a~soccer~ball 
+~ футбольный~мяч
++ all~night
+~ всю~ночь 
+
+[LINE]
+Speaker295: But…
+~           но  
+
+[LINE]
+Speaker507: You help      me  often.
+~           ты  помогаешь мне часто 
+
+[LINE]
+Speaker507: Of~course I'm~going~to~help you  now.   
+~           конечно   я~помогу          тебе теперь 
+
+[LINE]
+Speaker295: But it's the~most exciting      game of~the~year…
+~           но  это  самый    захватывающий матч года        
+
+[ARRANGE]
+> Наберите услышанное
+Speaker507: [(You're) (more~important) (than) (a~game).]
+~             ты       важнее           чем    матч     
+
+[LINE]
+Speaker507: And you will~pass this exam!   
+~           и   ты  сдашь     этот экзамен 
+
+[LINE]
+Speaker507: And when  you're~a~doctor… 
+~           и   когда ты~будешь~врачом 
+
+[LINE]
+Speaker507: … you're~going to~buy   the~soccer~tickets, right?
+~             ты~будешь    покупать билеты~на~футбол    верно 
+
+[LINE]
+Speaker295: Of~course, Bea.
+~           конечно    Би  
+
+[LINE]
+Speaker507: Now~where's the~coffee?
+~           так~где     кофе       
+
+[MULTIPLE_CHOICE]
+> Би решила…
+- …пригласить на матч другого друга.
++ …пропустить матч и помочь Джастину с учёбой.
+- …подать документы в мединститут.
+
+[MATCH]
+> Коснитесь пар
+- tired <> уставшей
+- I need <> мне нужно
+- we have tickets <> у нас есть билеты
+- me <> мне
+- I have <> у меня
+
