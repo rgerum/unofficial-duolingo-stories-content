@@ -1,0 +1,142 @@
+[DATA]
+fromLanguageName=Побачення
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+[HEADER]
+> A~Date   
+~ побачення
+
+[LINE]
+> Julia~has a~date    at a~restaurant.
+~ у~Джулії  побачення у  ресторані    
+
+[LINE]
+Speaker336: Hi!     How~are~you?
+~           привіт  як~справи   
+
+[LINE]
+Speaker100: Good,  thanks!
+~           добре  дякую  
+
+[LINE]
+Speaker100: What do~you want  to~eat?
+~           що   ти     хочеш їсти   
+
+[MULTIPLE_CHOICE]
+> Чоловік, який розмовляє з Джулією, запитує...
+- ... де знайти хороший ресторан.
++ ... що вона хоче їсти.
+- ... скільки коштує їжа.
+
+[LINE]
+Speaker336: A~salad.
+~           салат   
+
+[LINE]
+Speaker336: I don't~eat meat. 
+~           я не~їм     м'ясо 
+
+[LINE]
+Speaker100: Are~you a~vegetarian?
+~           ти      вегетаріанка 
+
+[LINE]
+Speaker336: Yes…
+~           так 
+
+[LINE]
+Speaker100: Me too!
+~           я  теж 
+
+[MULTIPLE_CHOICE]
+> Чому він це сказав?
++ Він теж вегетаріанець.
+- Він любить їсти м'ясо.
+-  Він ненавидить салати.
+
+[LINE]
+Speaker336: Perfect! 
+~           ідеально 
+
+[LINE]
+Speaker336: Where~are~you~from?
+~           звідки~ти          
+
+[LINE]
+Speaker100: I'm from Canada.
+~           я   із   Канади 
+
+[ARRANGE]
+> Що ви чуєте?
+Speaker100: [(But) (my)  (parents) (are~from) (Ukraine) ].
+~             але   мої   батьки    із         України    
+
+[LINE]
+Speaker336: I'm Ukrainian!
+~           я   українка  
+
+[LINE]
+Speaker100: Ukraine is~nice!  
+~           Україна прекрасна 
+
+[POINT_TO_PHRASE]
+> Виберіть варіант, який означає «домашніх тварин».
+Speaker100: (Do~you) (have) (+pets)?           
+~            ти       маєш    домашніх~тварин  
+
+[LINE]
+Speaker336: I~have three cats and two dogs.  
+~           у~мене три   коти і   дві собаки 
+
+[LINE]
+Speaker100: Wow!
+~           ого 
+
+[LINE]
+Speaker100: I~have two dogs   too, Sarah!
+~           у~мене дві собаки теж  Саро  
+
+[LINE]
+Speaker336: What? My~name~is Julia… 
+~           що    мене~звати Джулія 
+
+[LINE]
+Speaker336: What's~your~name? Are~you Conor?
+~           як~тебе~звати     ти      Конор 
+
+[LINE]
+Speaker100: No, my~name~is Daniel…
+~           ні  мене~звуть Деніел 
+
+[MULTIPLE_CHOICE]
+> Джулія та Деніел мали зустрітися з іншими людьми.
++ Так, це правда.
+- Ні, це неправда.
+
+[LINE]
+> A~woman enters   the~restaurant and speaks   to Daniel. 
+~ жінка   заходить (до)~ресторану і   говорить до Деніела 
+
+[LINE]
+Speaker101: Hi!     Are~you Daniel? I'm Sarah.
+~           привіт  ти      Деніел  я   Сара  
+
+[LINE]
+Speaker100: No, sorry.   I'm Conor.
+~           ні  вибачте  я   Конор 
+
+[MULTIPLE_CHOICE]
+> Наприкінці історії Деніел…
++ … збрехав про своє справжнє ім'я, бо йому сподобалась Джулія.
+- ... не захотів розмовляти з Джулією.
+- ... познайомився з Конором.
+
+[MATCH]
+> З’єднайте пари
+- Sarah <> Саро
+- Julia <> Джулія
+- my <> мої
+- speaks <> говорить
+- Conor <> Конор
+
