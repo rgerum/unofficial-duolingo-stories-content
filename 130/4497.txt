@@ -1,0 +1,161 @@
+[DATA]
+fromLanguageName=Новое приложение
+icon=f4881f1c1ad32fbc97657b1eac17c752c927aa7a
+set=41|2
+
+[HEADER]
+> The~New App       
+~ новое   приложение
+
+[LINE]
+> Lucy is~exercising.  Lin walks   in the~room with her   cell~phone.         
+~ Люси делает~зарядку  Лин заходит в  комнату  со   своим мобильным~телефоном 
+
+[LINE]
+Speaker508: Grandma! Look,   I~have      a~new app        on my   phone!   
+~           бабушка  смотри  у~меня~есть новое приложение на моём телефоне 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker509: You~always~have    [a~new~app]        on your  phone.   
+~           у~тебя~всегда~есть  новое~приложение  на твоём телефоне 
+- a new hat
+- a blue map
++ a new app
+
+[LINE]
+Speaker508: But this app        tells   you  if~you're~healthy!
+~           но  это  приложение говорит тебе здоровая~ли~ты    
+
+[ARRANGE]
+> Наберите услышанное
+Speaker509: [(I~already) (know)        (I'm) (healthy).] 
+~             я~и~так     знаю,~(что)   я     здоровая   
+
+[LINE]
+Speaker508: Question one:  How~many steps did~you~take today?  
+~           вопрос   один  сколько  шагов ты~прошла    сегодня 
+
+[LINE]
+Speaker509: Ten    thousand.
+~           десять тысяч    
+
+[LINE]
+Speaker508: Wow, really? I only~took…    twenty-seven  steps today.  
+~           ого  правда  я прошла~всего  двадцать~семь шагов сегодня 
+
+[LINE]
+Speaker508: Question two: Do~you~eat healthy  food?
+~           вопрос   два  ты~ешь     здоровую еду  
+
+[LINE]
+Speaker509: Yes, and I only   eat dessert on special occasions.
+~           да   и   я только ем  десерт  по особым  случаям   
+
+[MULTIPLE_CHOICE]
+> When~does Lucy eat dessert?
+~ когда     Люси ест десерт  
++ when  something special   happens  
+~ когда что-то    особенное случается
+- when  she's in the~bathtub
+~ когда она   в  ванне      
+- after every   meal      
+~ после каждого приёма~еды
+
+[ARRANGE]
+> Наберите услышанное
+Speaker508: [(I) (always) (eat) (dessert)…].
+~             я   всегда   ем    десерт     
+
+[LINE]
+Speaker508: Question three: How~many glasses  of~water do~you~drink every  day? 
+~           вопрос   три    сколько  стаканов воды     ты~пьёшь     каждый день 
+
+[LINE]
+Speaker509: Nine!  
+~           девять 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker509: I love  water! [I'm~like~a~fish].
+~           я люблю воду    я~как~рыба       
+- I like a wish
+- I’ll bite a fish
++ I'm like a fish
+
+[LINE]
+Speaker508: Nine?   I only~drink two glasses of~water every  day… 
+~           девять  я пью~всего  два стакана воды     каждый день 
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker508: Question four:   How~many hours do~you~sleep [every  night]?
+~           вопрос   четыре  сколько  часов ты~спишь      каждую ночь   
+- in    an~hour
+~ через час    
+- tomorrow
+~ завтра  
++ every  night
+~ каждую ночь 
+
+[LINE]
+Speaker509: I usually sleep for~ten~hours. But if   I go  dancing,   I only~sleep for~eight~hours.
+~           я обычно  сплю  десять~часов   но  если я иду танцевать  я сплю~всего восемь~часов    
+
+[LINE]
+Speaker508: Eight  hours?!
+~           восемь часов  
+
+[LINE]
+Speaker508: Question five: Do~you~feel        stressed?   
+~           вопрос   пять  ты~чувствуешь~себя напряжённой 
+
+[LINE]
+Speaker509: Only   when  my  granddaughter asks   too     many  questions!
+~           только когда моя внучка        задаёт слишком много вопросов  
+
+[LINE]
+Speaker508: But Grandma, you're getting~older!
+~           но  бабушка  ты     стареешь      
+
+[MULTIPLE_CHOICE]
+> Why~is Lin asking Lucy so  many  questions?
+~ почему Лин задаёт Люси так много вопросов  
+- Lin~is Lucy's~doctor.
+~ Лин    врач~Люси     
+- Lucy is~getting very  sick.   
+~ Люси становится очень больной 
++ Lin wants~her          to~be healthy. 
+~ Лин хочет,~(чтобы)~она была  здоровой 
+
+[LINE]
+Speaker509: Maybe you  should take~the~test.
+~           может тебе стоит  пройти~тест   
+
+[LINE]
+Speaker508: Me?  Why?   
+~           мне  почему 
+
+[LINE]
+Speaker509: Because    you don't sleep enough,     you don't eat healthy  food, and you don't drink enough     water!
+~           потому~что ты  не    спишь достаточно  ты  не    ешь здоровую еду   и   ты  не    пьёшь достаточно воды  
+
+[MULTIPLE_CHOICE]
+> Lucy thinks        Lin should take~the~test because...   
+~ Люси считает~(что) Лин стоит  пройти~тест   потому~что   
++ Lin doesn't make   healthy~choices.        
+~ Лин не      делает выбор~в~пользу~здоровья 
+- Lucy thinks        the~test is~too~hard.  
+~ Люси считает~(что) тест     очень~тяжёлый 
+- Lin is~getting very  old.   
+~ Лин становится очень старой 
+
+[MATCH]
+> Коснитесь пар
+- do you drink <> ты пьёшь
+- Because <> потому что
+- I'm like a fish <> я как рыба
+- for eight hours <> восемь часов
+- four <> четыре
+
