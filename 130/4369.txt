@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=Где мои ключи?
+icon=3f21c887f044dc2ac0d1f0d0ea74e1200b587ac2
+set=9|2
+
+[HEADER]
+> Where~Are My  Keys? 
+~ где       мои ключи 
+
+[LINE]
+> Lin is        with her   grandmother, Lucy.
+~ Лин находится со   своей бабушкой     Люси 
+
+[LINE]
+Speaker509: We~have a~reservation            at~a~nice restaurant tonight!        
+~           у~нас   зарезервированный~столик в~хорошем ресторане  сегодня~вечером 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker509: But we~need   [to~leave~now]!   
+~           но  нам~нужно  выезжать~сейчас  
+- to read now
++ to leave now
+- to leave out
+
+[LINE]
+Speaker508: OK!    
+~           хорошо 
+
+[LINE]
+Speaker508: Uh-oh… I can't   find~the~keys to~my~motorcycle.  
+~           ой-ёй  я не~могу найти~ключи   от~моего~мотоцикла 
+
+[LINE]
+Speaker509: You always put     your~keys  in strange  places.
+~           ты  всегда кладёшь свои~ключи в  странных местах 
+
+[MULTIPLE_CHOICE]
+> Что, скорее всего, произойдёт дальше?
++ Лин будет искать ключи в разных странных местах.
+- Люси пойдёт без Лин.
+- Лин и Люси поедут на ресторан верхом на лошадях.
+
+[LINE]
+Speaker509: Are~they in your  jacket?
+~           они      в  твоей куртке 
+
+[LINE]
+> Lin looks   in her   jacket.
+~ Лин смотрит в  своей куртке 
+
+[LINE]
+Speaker508: No,  they're~not in my   jacket.
+~           нет  их~нет      в  моей куртке 
+
+[LINE]
+Speaker509: Are~the~keys    under the~bed? 
+~           ключи~находятся под   кроватью 
+
+[LINE]
+Speaker508: No,  the~keys~aren't~there!
+~           нет  ключей~там~нет        
+
+[ARRANGE]
+> Наберите услышанное
+Speaker509: [(Are~they) (in) (the~shower)?]
+~             они        в    душе         
+
+[LINE]
+Speaker508: No,  that's too     strange.
+~           нет  это    слишком странно 
+
+[LINE]
+Speaker508: I don't~know where~the~keys~are.  Can~we   call~a~taxi?  
+~           я не~знаю    где~находятся~ключи  мы~можем вызвать~такси 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker509: No,  we're~late~now.  We~can't    go~to     [the~restaurant].
+~           нет  мы~уже~опоздали  мы~не~можем поехать~в  ресторан        
+- the~movie~theater
+~ кинотеатр        
+- the~beach
+~ пляж     
++ the~restaurant
+~ ресторан      
+
+[LINE]
+Speaker508: I'm~sorry.
+~           мне~жаль  
+
+[LINE]
+Speaker509: That's~OK.  I can  cook        dinner.
+~           всё~хорошо  я могу приготовить ужин   
+
+[LINE]
+> Lucy opens     the~refrigerator and looks   inside.
+~ Люси открывает холодильник      и   смотрит внутрь 
+
+[LINE]
+Speaker509: Oh! Here~are your keys! 
+~           ой  вот      твои ключи 
+
+[MULTIPLE_CHOICE]
+> Наконец-то! Люси нашла ключи в...
+- ...своей машине.
++ ...холодильнике.
+- ...своих туфлях.
+
+[MATCH]
+> Коснитесь пар
+- That's OK <> всё хорошо
+- Can we <> мы можем
+- the bed <> кроватью
+- her <> своей
+- at a nice <> в хорошем
+
