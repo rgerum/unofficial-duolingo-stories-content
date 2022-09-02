@@ -1,0 +1,147 @@
+[DATA]
+fromLanguageName=Бутербродный вор
+icon=71bc9bc5c6a5619a4f4ee9651bbb246b449bf495
+set=23|4
+
+[HEADER]
+> The~Sandwich~Thief
+~ бутербродный~вор  
+
+[LINE]
+> Eddy is~in~the~kitchen    at~the~office where he works.   
+~ Эдди (находится)~на~кухне в~офисе       где   он работает 
+
+[LINE]
+> He is~talking    to his   new   colleague, Elena. 
+~ он разговаривает со своей новой коллегой   Еленой 
+
+[LINE]
+Speaker414: Ugh! It~happened   again!
+~           ох   это~случилось снова 
+
+[LINE]
+Speaker125: What?
+~           что  
+
+[LINE]
+Speaker414: Someone stole my  lunch!
+~           кто-то  украл мой обед  
+
+[MULTIPLE_CHOICE]
+> Кто-то постоянно ворует у Эдди обед.
+- Нет, это неправда.
++ Да, это правда.
+
+[LINE]
+Speaker414: This has~happened every  day  for~the~past~week! 
+~           это  случалось    каждый день всю~прошлую~неделю 
+
+[LINE]
+Speaker125: Really? That's strange.
+~           правда  это    странно 
+
+[LINE]
+Speaker414: I think Phil has~been~stealing my  food.
+~           я думаю Фил  ворует            мою еду  
+
+[LINE]
+Speaker125: Yeah, Phil always looks    hungry.  
+~           да    Фил  всегда выглядит голодным 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker414: [(He) (stole) (my)  (ham~sandwich)         (yesterday)!]
+~             он   украл   мой   бутерброд~с~ветчиной   вчера       
+
+[LINE]
+Speaker125:  Do~you~mean      your chicken~sandwich?   
+~            ты~имеешь~в~виду твой бутерброд~с~курицей 
+
+[LINE]
+Speaker125: You brought  a~ham~sandwich       on~Tuesday.
+~           ты  приносил бутерброд~с~ветчиной во~вторник 
+
+[LINE]
+Speaker414: What? How~do~you~know~that?
+~           что   откуда~ты~это~знаешь 
+
+[LINE]
+Speaker125: Uh… I'm~good~at              guessing. 
+~           эм  у~меня~хорошо~получается угадывать 
+
+[MULTIPLE_CHOICE]
+> Стоп. Что Елена имеет в виду?
+- Она предвидит будущее.
+- Она готовит вкусные бутерброды с ветчиной.
++ Она умеет угадывать, что Эдди принёс на обед.
+
+[LINE]
+Speaker414: Well, I~have      a~surprise for Phil tomorrow.
+~           ну    у~меня~есть сюрприз    для Фила завтра   
+
+[POINT_TO_PHRASE]
+> Выберите вариант «отвратительный».
+Speaker414: (I'm) (going~to~bring) (+a~disgusting)   (fish~and~banana~sandwich)!   
+~            я     принесу           отвратительный   бутерброд~с~рыбой~и~бананом  
+
+[LINE]
+Speaker125: Good    plan.
+~           хороший план 
+
+[LINE]
+> The~next~day,      Eddy sees~Elena      again.
+~ на~следующий~день  Эдди встречает~Елену снова 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker414: No~one~stole   [my  lunch today]!  
+~           никто~не~украл  мой обед  сегодня  
+- your gym~shoes         
+~ твои кроссовки~для~зала
+- my  fancy  watch
+~ мои модные часы 
++ my  lunch today  
+~ мой обед  сегодня
+
+[LINE]
+Speaker125: But that's~a~good~thing, right? 
+~           но  это~же~хорошо        правда 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker414: No,  I only~brought  that fish~and~banana~sandwich…    so      now    [I~have~to~eat~it].     
+~           нет  я принёс~только тот  бутерброд~с~бананом~и~рыбой  так~что теперь  мне~придётся~есть~его  
+- why have you eaten it
+- I have to read it
++ I have to eat it
+
+[LINE]
+Speaker125: Well, I~have      a~delicious   turkey~sandwich      today.  
+~           ну    у~меня~есть очень~вкусный бутерброд~с~индейкой сегодня 
+
+[LINE]
+Speaker414: Really? You don't~usually~bring your lunch.
+~           правда  ты  обычно~не~приносишь свой обед  
+
+[LINE]
+Speaker125: Well, I'm~allergic    to bananas.
+~           ну    у~меня~аллергия на бананы  
+
+[LINE]
+Speaker414: Wait…    It  was  you!
+~           подожди  это была ты  
+
+[MULTIPLE_CHOICE]
+> Кто же воровал у Эдди обед?
++ Елена
+- Фил
+- индейка
+
+[MATCH]
+> Коснитесь пар
+- a disgusting <> отвратительный
+- I'm allergic <> у меня аллергия
+- chicken sandwich <> бутерброд с курицей
+- only brought <> принёс только
+- sees Elena <> встречает Елену
+
