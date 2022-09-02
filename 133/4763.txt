@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=정원
+icon=353ec768516986a1fc3f8a061638a3646f1de26b
+set=5|4
+
+[HEADER]
+> The~Garden
+~ 정원        
+
+[LINE]
+> Vikram visits his sick grandmother in~the~hospital.
+~ 비크람이   방문한다   그의  아프신  할머니를        병원에             
+
+[LINE]
+Speaker593: Good morning, Grandma!
+~           좋은   아침이에요    할머니     
+
+[LINE]
+Speaker593: How~do~you~feel today?
+~           할머니~기분이~어떠세요    오늘    
+
+[LINE]
+Speaker129: Well, I feel~a~little~sad.
+~           음     난 기분이~조금~슬프네        
+
+[MULTIPLE_CHOICE]
+> 비크람의 할머니는 기분이 좋다.
+- 네, 맞아요.
++ 아니요, 그렇지 않아요.
+
+[LINE]
+Speaker129: This hospital~room has~no~color.
+~           이    병실은           너무~칙칙해       
+
+[POINT_TO_PHRASE]
+> “밖에”를 뜻하는 말을 고르세요.
+Speaker129: It's~warm~and (sunny) (today), and I (want~to~go) (+outside).
+~           날씨가~따뜻하고       맑아      오늘      그리고 난  나가고~싶어        밖에       
+
+[LINE]
+Speaker593: Oh. I'm~sorry.
+~           아   그러셨군요     
+
+[LINE]
+Speaker129: On~sunny~days, I love working in~my~garden…
+~           맑은~날에는         난 좋아해  일하는~걸   내~정원에서       
+
+[LINE]
+Speaker593: Hmm… I   have~an~idea.
+~           음    저한테 좋은~생각이~있어요   
+
+[LINE]
+Speaker593: See~you in~half~an~hour, Grandma.
+~           ~봬요     삼십~분~후에          할머니     
+
+[LINE]
+> Vikram leaves.
+~ 비크람이   떠난다    
+
+[MULTIPLE_CHOICE]
+> 비크람은 아마도...
+- ...샤워를 해야한다는 것을 기억한 것 같다.
+- ...파티에 가기로 결심한 것 같다.
++ ...할머니의 기분 전환을 위한 좋은 생각이 떠오른 것 같다.
+
+[LINE]
+> Thirty minutes later…
+~ 삼십     분       이후에   
+
+[LINE]
+> Vikram walks~into his grandmother's room with~two~big~plants.
+~ 비크람이   걸어~들어온다    그의  할머니의          병실로  큰~식물~두~개를~갖고        
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker593: Here~are~some~plants [from~your~house].
+~           식물들~여기~있어요            할머니~댁에서~가져온      
+- from our horse
++ from your house
+- for your hours
+
+[LINE]
+Speaker593: And some~flowers from~your~garden!
+~           그리고 꽃들도요         할머니의~정원에서~가져온    
+
+[LINE]
+Speaker129: My plants~and my flowers!
+~           내  식물들과       내  꽃들      
+
+[LINE]
+Speaker593: Now your garden~is here!  
+~           이제  할머니의 정원이       여기~있어요 
+
+[LINE]
+Speaker129: I'm so happy. Thank~you~very~much, Vikram!
+~           난   너무 행복해    정말~고마워               비크람    
+
+[MULTIPLE_CHOICE]
+> 정말 자상하죠! 비크람은…
+- ...할머니에게 꽃목걸이를 사드렸다.
++ ...할머니의 정원에서 꽃과 식물들을 가져왔다.
+- ...할머니를 댁으로 다시 모셔왔다.
+
+[MATCH]
+> 짝을 누르세요
+- morning <> 아침이에요
+- want to go <> 나가고 싶어
+- Oh <> 아
+- Now <> 이제
+- room <> 병실로
+
