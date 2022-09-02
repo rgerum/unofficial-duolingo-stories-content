@@ -1,0 +1,118 @@
+[DATA]
+fromLanguageName=नया छात्र
+icon=5afbf601db955e3db76a96aea1d4e0a535c16e7c
+set=1|4
+
+[HEADER]
+> The~New Student
+~ नया     छात्र  
+
+[LINE]
+> Zari and Lily are~sitting together on~the~school~bus.
+~ ज़ारी और  लिली बैठी~हैं    एक~साथ   स्कूल~बस~में      
+
+[LINE]
+Speaker418: Lily, there~is a  new student in~our~class!   
+~           लिली  है       एक नया छात्र   हमारी~कक्षा~में 
+
+[LINE]
+Speaker418: His  name is Miguel.
+~           उसका नाम  है मिगेल  
+
+[MULTIPLE_CHOICE]
+> ज़ारी उत्साहित है क्योंकि…
+- …उसने अपना नाम बदलकर मिगेल रख लिया है।
+- …उसके भाई का नाम मिगेल है।
++  …उनकी कक्षा में मिगेल नाम का एक नया छात्र आया है।
+
+[LINE]
+Speaker416: Miguel, huh?
+~           मिगेल   ~   
+
+[LINE]
+Speaker418: He is from~Mexico.
+~           वह है मेक्सिको~से 
+
+[LINE]
+Speaker418: His  father writes    books!  
+~           उसके पिता   लिखते~हैं किताबें 
+
+[LINE]
+Speaker416: Very interesting.
+~           बहुत दिलचस्प     
+
+[CONTINUATION]
+> आगे क्या आएगा?
+Speaker418: He speaks   three [languages].
+~           वह बोलता~है तीन    भाषाएँ     
+- books
++ languages
+- fathers
+
+[LINE]
+Speaker416: Oh, he is intelligent.
+~           ~   वह है समझदार      
+
+[LINE]
+Speaker418: Intelligent… and tall. And he~has       beautiful…
+~           समझदार       और  लंबा  और  उसके~पास~हैं सुंदर     
+
+[LINE]
+Speaker416: Haha, yes?
+~           ~     हाँ 
+
+[LINE]
+Speaker418: Um. Beautiful shoes.
+~           ~   सुंदर     जूते  
+
+[POINT_TO_PHRASE]
+> उस विकल्प को चुनें जिसका मतलब “पीछे” है।
+Speaker416: (Zari), (Miguel) is~sitting (+behind) (you).     
+~            ज़ारी    मिगेल   बैठा~है      पीछे     तुम्हारे  
+
+[LINE]
+Speaker418: What?!
+~           क्या  
+
+[LINE]
+Speaker416: Hi,     Miguel!
+~           नमस्ते  मिगेल  
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker790: Hi,     Lily! [How~are~you]?
+~           नमस्ते  लिली   तुम~कैसी~हो  
++ How are you
+- How I do
+- Here are two
+
+[LINE]
+Speaker416: I   am  good,  thanks. 
+~           मैं हूँ अच्छी  धन्यवाद 
+
+[LINE]
+Speaker416: Miguel, this is my~friend,  Zari.
+~           मिगेल   यह   है मेरी~दोस्त  ज़ारी 
+
+[LINE]
+Speaker416: She~likes    your…     shoes.
+~           उसे~पसंद~हैं तुम्हारे  जूते  
+
+[LINE]
+Speaker418: Oh, um, hi,     Miguel.
+~           ~   ~   नमस्ते  मिगेल  
+
+[MULTIPLE_CHOICE]
+> ज़ारी को मालूम ही नहीं था कि…
+- …मिगेल के जूते बहुत भद्दे हैं।
++ …मिगेल उसके पीछे बैठा है।
+- …उसे आज अपना होमवर्क जमा करवाना है।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- are sitting <> बैठी हैं
+- together <> एक साथ
+- She likes <> उसे पसंद हैं
+- languages <> भाषाएँ
+- Very <> बहुत
+
