@@ -1,0 +1,180 @@
+[DATA]
+fromLanguageName=릴리의 그림
+icon=e917f49d6b7ff96ca39f110ebb88551e3359dbd4
+set=39|4
+
+[HEADER]
+> Lily's Painting
+~ 릴리의    그림      
+
+[LINE]
+> Lily has~a~painting in~an~art~show.
+~ 릴리가  그림~하나를~전시~중이다  전시회에서          
+
+[LINE]
+Speaker418: This~is so exciting! I'm so proud of~you!
+~           이건      정말 신나        난   정말 자랑스러워 네가     
+
+[LINE]
+Speaker416: A~lot~of other artists have~paintings here, too. No~one~is~going~to~buy mine. 
+~           많은       다른    예술가들이   그림을~전시해        여기서   역시   아무도~안~살~거야             내~그림을 
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker418: Of~course they will! Your painting~is [the~best~one~here]!
+~           당연히       사람들이 살~거야  네    그림이          여기서~최고야            
+- the bets won there
++ the best one here
+- the last one here
+
+[LINE]
+Speaker416: I~don't~think~so.
+~           그렇지~않아           
+
+[CONTINUATION]
+> What comes next?
+~ 무엇이  오나요   다음에  
+> People enter the~art~gallery and [start~looking at~the~paintings].
+~ 사람들이   들어온다  갤러리에            그리고  보기~시작한다       그림들을              
++ start~looking at~the~paintings
+~ 보기~시작한다       그림들을            
+- start~feeding the~cows
+~ 먹이기~시작한다      소들을     
+- start~breaking all~the windows
+~ 깨기~시작한다        모든      창문들을   
+
+[LINE]
+Speaker418: Isn't~this~painting~amazing?
+~           이~그림~놀랍지~않아요                
+
+[LINE]
+> Zari points~at Lily's painting.
+~ 자리가  가리킨다      릴리의    그림을      
+
+[LINE]
+Speaker416: Zari, shh!
+~           자리    쉿   
+
+[LINE]
+Speaker418: What? I just want~to~make~sure everyone sees your painting. It's so good!
+~           뭘     난 단지   확실히~하고~싶어         모두가      보도록  네    그림을       그건   정말 훌륭해  
+
+[LINE]
+Speaker416: Please stop. This~is~embarrassing.
+~           제발     그만해   민망하단~말이야             
+
+[MULTIPLE_CHOICE]
+> Lily wants Zari to~stop…
+~ 릴리는  원한다   자리가  ~을~그만하길 
+- …drawing on~other~people's~paintings.
+~  그리는~것   다른~사람들의~그림~위에               
++ …talking to~people about~her~painting.
+~  말하는~것   사람들에게     그녀의~그림에~대해         
+- …giving everyone pieces~of~candy.
+~  주는~것   모두에게     사탕을             
+
+[LINE]
+Speaker418: Fine. I'll~stop.
+~           좋아    그만할게      
+
+[LINE]
+> A couple stops to~look at~Lily's~painting.
+~ 한 커플이    멈춘다   보려고     릴리의~그림을            
+
+[POINT_TO_PHRASE]
+> Choose the~option~that~means "귓속말하다."
+~ 고르세요   ~를~뜻하는~말을              ~      
+> (They) (+whisper) to~each~other, (and~then) they~walk~past (the~painting).
+~  그들이     귓속말한다    서로에게            그리고~나서    걸어~지나간다         그림~옆을         
+
+[LINE]
+> They look at~a~painting~of~a~flower next~to~Lily's. Then   they~buy it.
+~ 그들이  본다   꽃~그림을                     릴리의~그림~옆에~있는    그리고~나서 산다       그걸 
+
+[MULTIPLE_CHOICE]
+> Wait… what~just~happened?
+~ 잠깐만요  방금~무슨~일이~있었나요      
+- The~couple bought Lily's painting.
+~ 커플이        샀다     릴리의    그림을      
+- Lily bought a~beautiful~flower for~the~couple.
+~ 릴리가  샀다     예쁜~꽃을              커플을~위해         
++ The~couple bought the~painting next~to~Lily's.
+~ 커플이        샀다     그림을          릴리의~그림~옆에~있는   
+
+[LINE]
+Speaker418: I can't~believe they just bought that flower~painting.
+~           난 믿을~수~없어       그들이  방금   샀다니    저    꽃~그림을           
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker418: [(Your) (painting~is) (so~much) (better).]
+~             네      그림이           훨씬        더~훌륭해    
+
+[LINE]
+> An hour later, most~of the~paintings have~been~sold. Lily's painting~is still on~the~wall.
+~ 한  시간   후      대부분의    그림들이          팔렸다             릴리의    그림은         여전히   벽에~걸려있다     
+
+[LINE]
+Speaker418: Hmm. No~one~bought your painting yet!
+~           음    아무도~안~샀어      네    그림을      아직  
+
+[LINE]
+Speaker416: Yeah, I  know.
+~           어     나도 알아   
+
+[LINE]
+Speaker418: Uh… I'm going~to~go to~the~bathroom.
+~           어   난   갈~거야        화장실에            
+
+[POINT_TO_PHRASE]
+> Choose the~option~that~means "관장."
+~ 고르세요   ~을~뜻하는~말을              ~   
+> (Zari) (walks~over) (to)  (+the~owner) of~the~art~gallery.
+~  자리가    걸어간다         ~에게    관장         갤러리의               
+
+[LINE]
+Speaker418: Hi!    I want~to~buy Lily's painting.
+~           안녕하세요  전 사고~싶어요      릴리의    그림을      
+
+[LINE]
+Speaker341: Which~painting~is~hers?
+~           그녀의~그림이~어떤~건가요         
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker418: That~one over~there. No~one      [wants~to~buy~it], and I really want~to~make Lily feel~better!
+~           저~그림이요   저쪽에~있는      아무도~~하지~않아요  그걸~사고~싶어하다        그리고 전 정말로    ~하게~하고~싶어요   릴리가  기분이~나아지다    
+- was beside it
+- wants to fry it
++ wants to buy it
+
+[LINE]
+Speaker341: Oh, a~lot~of people want~to~buy that~one! But I  won't~let~them.
+~           아   많은       사람들이   사고~싶어해요     저~그림을     하지만 제가 못~사게~한~거죠      
+
+[LINE]
+Speaker418: What? Why?
+~           뭐라고요  왜요  
+
+[LINE]
+Speaker341: It's the~best painting here.  I'm going~to~buy~it for~myself!
+~           그건   최고의      그림이에요    여기~있는  제가  살~거예요           소장용으로      
+
+[MULTIPLE_CHOICE]
+> Why has~no~one~bought Lily's painting?
+~ 왜   아무도~사지~않았나요       릴리의    그림을      
++ The~gallery~owner wants~it for~herself.
+~ 갤러리~관장이           원한다      소장용으로       
+- Zari won't~let~anyone~else~buy~it.
+~ 자리가  다른~사람이~못~사게~한다               
+- No~one~likes~it.
+~ 아무도~좋아하지~않는다    
+
+[MATCH]
+> 짝을 누르세요
+- later <> 후
+- to each other <> 서로에게
+- have paintings <> 그림을 전시해
+- stops <> 멈춘다
+- A lot of <> 많은
+
