@@ -1,0 +1,129 @@
+[DATA]
+fromLanguageName=오늘 저녁은 피자
+icon=dcb1760c8fe5f2221fc2e3bc373a13632881ae44
+set=12|4
+
+[HEADER]
+> Pizza~Night
+~ 피자~먹는~날    
+
+[LINE]
+Speaker414: Junior! What do~you~want for~dinner?
+~           주니어     무엇을  원하니         저녁~식사로     
+
+[LINE]
+Speaker415: I  want~pizza. I'm eight~years~old… I always want~pizza.
+~           저는 피자를~원해요     전   여덟~살이잖아요         전 항상     피자를~원해요    
+
+[LINE]
+Speaker414: Cool! We  can~make a~pizza!
+~           좋아    우리가 만들면~되지   피자를     
+
+[LINE]
+Speaker415: Or  we  can~call~and~order a~pizza!
+~           아니면 우리가 전화해서~주문해도~돼요       피자를     
+
+[MULTIPLE_CHOICE]
+> 주니어는 피자를 주문하고 싶다.
+- 아니요, 그렇지 않아요.
++ 네, 맞아요.
+
+[LINE]
+Speaker414: It~will~be~more~fun to~make~a~pizza!
+~           더~재밌을~거야            피자를~만드는~게       
+
+[LINE]
+Speaker415: Fun~for~you?  
+~           아빠한테~재밌을~거라고요 
+
+[LINE]
+Speaker414: Fun~for~us!   Father~and~son!
+~           우리한테~재밌을~거라고  아빠와~아들         
+
+[LINE]
+Speaker415: I want you to~be~happy, so…  OK.  
+~           전 원해요  아빠가 행복하기를        그러니  알겠어요 
+
+[LINE]
+Speaker414: Great! Can~you~get the~flour, water, and salt?
+~           좋아     가져올~수~있겠니   밀가루        물      그리고 소금을  
+
+[MULTIPLE_CHOICE]
+> 에디가 필요한 것은 물, 소금, 그리고…
+- …데이트이다.
++ …밀가루이다.
+- …피자이다.
+
+[LINE]
+Speaker415: OK…  
+~           알겠어요 
+
+[LINE]
+Speaker414: Now we  can~put~it all~together…
+~           이제  우리가 그것을~섞으면~돼  다~같이         
+
+[LINE]
+> They put~the~flour,~water,~and~salt~together.
+~ 그들이  밀가루,~물,~소금을~같이~섞는다                      
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker415: This~is hard, and [I'm~hungry].
+~           이건      힘들어요  그리고  전~배고파요      
++ I'm hungry
+- I'm angry
+- aim at me
+
+[LINE]
+Speaker414: And now we  have~to~wait.
+~           그리고 이제  우리는 기다려야~돼       
+
+[LINE]
+Speaker415: We~have~to~wait?!
+~           (우리가)~기다려야~된다고요  
+
+[LINE]
+Speaker414: The dough isn't~ready yet.
+~           그   반죽이   준비되지~않았어    아직  
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker415: When will~it~be [ready]?
+~           언제   되는데요        준비(된)  
+- hungry
+~ 배고픈   
+- ordered
+~ 주문된    
++ ready
+~ 준비된  
+
+[LINE]
+Speaker414: In~two~hours.
+~           두~시간~후에      
+
+[LINE]
+> Junior looks at~Eddy.
+~ 주니어가   쳐다본다  에디를     
+
+[LINE]
+Speaker414: I'll~order a~pizza.
+~           주문할게       피자를     
+
+[LINE]
+Speaker415: You're a~great~dad.
+~           아빠는    정말~좋은~아빠예요  
+
+[MULTIPLE_CHOICE]
+> 에디가 피자를 주문하기로 결정한 이유는 무엇인가요?
++ 피자를 만드는 건 시간이 너무 오래 걸려서.
+- 주니어가 피자 반죽을 다 먹어 버려서.
+- 피자를 만들 재료가 없어서.
+
+[MATCH]
+> 짝을 누르세요
+- I <> 저는
+- Now <> 이제
+- This is <> 이건
+- yet <> 아직
+- for dinner <> 저녁 식사로
+
