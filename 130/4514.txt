@@ -1,0 +1,146 @@
+[DATA]
+fromLanguageName=Тётя Бетти
+icon=6b43af575436274a77c4a1096dde31088be555b2
+set=45|3
+
+[HEADER]
+> Aunt Betty
+~ тётя Бетти
+
+[LINE]
+> Eddy knocks~on the~bathroom~door.
+~ Эдди стучит~в  дверь~ванной      
+
+[LINE]
+Speaker414: Junior,  come~out~now.      We're~going to~Aunt~Betty's~house tonight.        
+~           Джуниор  выходи~немедленно  мы~едем     в~гости~к~тёте~Бетти  сегодня~вечером 
+
+[LINE]
+Speaker415: I can't   go.      I'm sick. 
+~           я не~могу поехать  я   болен 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker414: [You're~not~sick]. You~just~don't~like     Aunt Betty.
+~            ты~не~болен       тебе~просто~не~нравится тётя Бетти 
++ You're not sick
+- You’re not six
+- You brought sticks
+
+[POINT_TO_PHRASE]
+> Choose   the~option that    means    «злая».
+~ выберите вариант    который означает ~      
+Speaker415: You're (right), I~don't~like~her.    (She's) (+mean) (and) all~of~her candy   is~old.
+~           ты      прав    она~мне~не~нравится   она      злая   и    все~её     конфеты старые 
+
+[LINE]
+Speaker415: But I~really~am     sick. 
+~           но  я~действительно болен 
+
+[LINE]
+Speaker414: No,~you~aren't.  
+~           нет,~ты~не~болен 
+
+[MULTIPLE_CHOICE]
+> Eddy thinks...      
+~ Эдди думает~(что)   
+- ...Junior  is~very sick. 
+~    Джуниор очень   болен 
++ ...Junior  doesn't want  to~visit Aunt Betty.
+~    Джуниор не      хочет посетить тётю Бетти 
+- ...Junior  ate  some~really~old candy.  
+~    Джуниор съел очень~старые    конфеты 
+
+[LINE]
+Speaker415: Yes,~I~am. My~stomach~hurts.   My~face~hurts.     Everything hurts!
+~           да,~болен  у~меня~болит~живот  у~меня~болит~лицо  всё        болит 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker415: I~think     [I'm~dying].
+~           мне~кажется  я~умираю   
+- I’m trying
++ I'm dying
+- I’m buying
+
+[LINE]
+Speaker414: Aunt Betty will~be~sad if   you don't~come with me   to~visit  her.
+~           тётя Бетти расстроится если ты  не~поедешь со   мной навестить её  
+
+[LINE]
+Speaker415: I~know, but she~will~be~sadder      if~I~die.   
+~           я~знаю  но  она~расстроится~сильнее если~я~умру 
+
+[LINE]
+Speaker414: Junior… 
+~           Джуниор 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker415: [(You) (can)    (go)    (without) (me).]  
+~             ты    можешь   ехать   без       меня   
+
+[LINE]
+Speaker415: I'll~stay  here  and watch    TV        until~I~feel~better.     
+~           я~останусь здесь и   посмотрю телевизор пока~мне~не~станет~лучше 
+
+[LINE]
+Speaker414: If   you come    with me   to~Aunt~Betty's~house, we can    get    ice~cream.
+~           если ты  поедешь со   мной в~гости~к~тёте~Бетти   мы сможем купить мороженое 
+
+[LINE]
+Speaker415: Ice~cream?
+~           мороженое 
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker414: I'll~buy you  the~biggest   bowl     of~ice~cream [at~the~shop].
+~           я~куплю  тебе самую~большую креманку мороженого    в~магазине   
+- in the~bathroom
+~ в  ванной      
++ at~the~shop
+~ в~магазине 
+- on~the~TV    
+~ по~телевизору
+
+[LINE]
+Speaker415: Well… OK.   
+~           ну    ладно 
+
+[LINE]
+> Junior  opens     the~door… and he looks    terrible.
+~ Джуниор открывает дверь     и   он выглядит ужасно   
+
+[POINT_TO_PHRASE]
+> Click~on the~option meaning            «красными пятнами».
+~ выберите вариант    (который)~означает ~         ~        
+Speaker414: (Whoa)! Wow! (Junior),  your face (is~covered) (+in~red~spots)!    
+~            ох     ого   Джуниор   твоё лицо  покрыто       красными~пятнами  
+
+[LINE]
+Speaker414: We~need   to~go to the~hospital right~now. 
+~           нам~нужно ехать в  больницу     немедленно 
+
+[LINE]
+Speaker415: The~hospital?! You told   me  we~were~going       to~get ice~cream!
+~           (в)~больницу   ты  сказал мне (что)~мы~собирались купить мороженое 
+
+[MULTIPLE_CHOICE]
+> Why~did Junior  decide to~visit  Aunt Betty?
+~ почему  Джуниор решил  навестить тётю Бетти 
++ Eddy told   Junior   he~would~buy   him ice~cream.
+~ Эдди сказал Джуниору (что)~он~купит ему мороженое 
+- He learned that Aunt Betty is~in~the~hospital.
+~ он узнал   что  тётя Бетти в~больнице         
+- He thinks       Aunt Betty is~really~nice.
+~ он думает~(что) тётя Бетти очень~милая    
+
+[MATCH]
+> Коснитесь пар
+- without <> без
+- your <> твоё
+- the door <> дверь
+- is covered <> покрыто
+- watch <> посмотрю
+
