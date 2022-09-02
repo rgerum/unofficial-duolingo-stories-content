@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Семейный ужин
+icon=076bc5bf725308c211b9c04f07d3622683e84d78
+set=6|2
+
+[HEADER]
+> Family~Dinner
+~ семейный~ужин
+
+[LINE]
+> Lin walks~into Bea's~kitchen.
+~ Лин заходит~на кухню~Би      
+
+[LINE]
+> She sees  food and bottles of~wine on the~table.
+~ она видит еду  и   бутылки вина    на столе     
+
+[MULTIPLE_CHOICE]
+> У Би на кухонном столе стоят бутылки с молоком.
++ Нет, это неправда.
+- Да, это правда.
+
+[LINE]
+Speaker508: Wow, you~have a~lot~of food.
+~           ого  у~тебя   много    еды  
+
+[LINE]
+Speaker507: Yeah. My  family is~coming for~dinner.
+~           да    моя семья  приедет   на~ужин    
+
+[LINE]
+Speaker508: Ooh, can~I~have     some~cake?
+~           ой   можно~я~возьму торт      
+
+[LINE]
+Speaker507: No. 
+~           нет 
+
+[LINE]
+Speaker508: But you~have three cakes.
+~           но  у~тебя   три   торта 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker507: [(I~need)    (three) (cakes).]
+~             мне~нужны   три     торта   
+
+[LINE]
+Speaker508: Well,  can~I~have     a~glass of~wine?
+~           что~ж  можно~я~возьму бокал   вина    
+
+[LINE]
+Speaker507: No. 
+~           нет 
+
+[LINE]
+Speaker508: You~have    four   bottles of~wine.
+~           у~тебя~есть четыре бутылки вина    
+
+[LINE]
+Speaker507: I~need    all~of~the~wine.
+~           мне~нужно всё~вино        
+
+[POINT_TO_PHRASE]
+> Выберите вариант «кусочек».
+Speaker508: (Can~I~have)     (+a~slice) (of~pizza)?
+~            можно~я~возьму    кусочек   пиццы     
+
+[LINE]
+Speaker507: No,  Lin.
+~           нет  Лин 
+
+[LINE]
+Speaker508: Fine.   So,  what~time~is dinner with your  family tonight?        
+~           хорошо  так  во~сколько   ужин   с    твоей семьей сегодня~вечером 
+
+[LINE]
+Speaker507: Oh, my  family is~visiting     next~week.            
+~           о   моя семья  приедет~в~гости (на)~следующей~неделе 
+
+[MULTIPLE_CHOICE]
+> Минуточку, когда семья Би приедет на ужин?
++ На следующей неделе.
+- В следующем году.
+- Сегодня вечером.
+
+[LINE]
+Speaker507: This~is all for me.  
+~           это     всё для меня 
+
+[LINE]
+Speaker508: What?!
+~           что   
+
+[LINE]
+Speaker507: I~have a~very difficult family! I'm~stressed! 
+~           у~меня очень  непростая семья   у~меня~стресс 
+
+[LINE]
+Speaker507: I~need    all~of~this food and~wine now.   
+~           мне~нужна вся~эта     еда  и~вино   сейчас 
+
+[MULTIPLE_CHOICE]
+> Зачем Би столько еды и вина?
+- Её мать очень голодная.
++ У неё стресс из-за предстоящего визита родных.
+- Она собирается отдать всё Лин.
+
+[MATCH]
+> Коснитесь пар
+- Lin <> Лин
+- and wine <> и вино
+- dinner <> ужин
+- three <> три
+- Yeah <> да
+
