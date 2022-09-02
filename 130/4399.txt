@@ -1,0 +1,107 @@
+[DATA]
+fromLanguageName=Проблема с машиной
+icon=e161ff53b5f470063ac66df2698eddb71232c290
+set=16|4
+
+[HEADER]
+> Car~Problem       
+~ проблема~с~машиной
+
+[LINE]
+> Eddy is~standing on~the~street.
+~ Эдди стоит       на~улице      
+
+[LINE]
+> He closes    the~trunk of~a~car.
+~ он закрывает багажник  машины   
+
+[LINE]
+> Vikram walks    past Eddy.
+~ Викрам проходит мимо Эдди 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker593: Are~you~OK,   Eddy? [You~look~worried].       
+~           ты~в~порядке  Эдди   выглядишь~взволнованным  
+- Who cooked curry
++ You look worried
+- You look for it
+
+[LINE]
+Speaker414: Well, I borrowed this car    and it~won't~start.  
+~           ну    я одолжил  эту  машину и   она~не~заводится 
+
+[MULTIPLE_CHOICE]
+> Почему Эдди взволнован?
+- Он не знает, где находится.
++ Он не может завести машину, которую одолжил.
+- Он в багажнике машины.
+
+[LINE]
+Speaker593: Hmm. Can~I  help   you? 
+~           хм   я~могу помочь тебе 
+
+[LINE]
+Speaker414: No.  It's~OK,       Vikram.
+~           нет  всё~в~порядке  Викрам 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker593: But I know [what's~wrong] with the~car.
+~           но  я знаю  что~не~так    с    машиной 
+- that's wrong
+- what's along
++ what's wrong
+
+[LINE]
+Speaker414: Vikram, I know~a~lot about cars.   
+~           Викрам  я много~знаю о     машинах 
+
+[LINE]
+Speaker593: OK,    well, you already started the~car…
+~           ладно  ну    ты  уже     завёл   машину  
+
+[LINE]
+Speaker414: No,  I~didn't. I can't~hear the~engine.
+~           нет  не~завёл  я не~слышу   двигателя  
+
+[LINE]
+Speaker593: Eddy, this~is an~electric   car.    It's~quiet, and it  doesn't~use   gas.   
+~           Эдди  это     электрическая машина  она~тихая   и   она не~использует бензин 
+
+[MULTIPLE_CHOICE]
+> Машина электрическая, поэтому...
+- ...она страшная.
+- ...она расходует много бензина.
++ ...она тихая и работает не на бензине.
+
+[LINE]
+Speaker414: But I put~gas      in the~car ten    minutes ago!  
+~           но  я залил~бензин в  машину  десять минут   назад 
+
+[LINE]
+Speaker593: What?! Where?
+~           что    куда  
+
+[LINE]
+Speaker414: Right here.
+~           прямо сюда 
+
+[LINE]
+Speaker593: Oh no,  Eddy… That's the~trunk!
+~           о  нет  Эдди  это    багажник  
+
+[MULTIPLE_CHOICE]
+> Куда Эдди залил бензин?
+- В мотоцикл.
++ В багажник.
+- В машину Викрама.
+
+[MATCH]
+> Коснитесь пар
+- past <> мимо
+- in <> в
+- Right <> прямо
+- borrowed <> одолжил
+- Vikram <> Викрам
+
