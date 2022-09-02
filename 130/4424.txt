@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=Бабушкин рецепт
+icon=f846bda2ef7cfcb2a7b491fdab26521cbd7b480d
+set=23|1
+
+[HEADER]
+> Grandmother's Recipe
+~ бабушкин      рецепт
+
+[LINE]
+> Vikram walks   into Eddy's~apartment.
+~ Викрам заходит в    квартиру~Эдди    
+
+[LINE]
+Speaker414: Hi     Vikram, where's Priti?
+~           привет Викрам  где     Прити 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker593: She's at~work,   but [she'll~be~here~soon].  
+~           она   на~работе  но   она~скоро~будет~здесь  
+- we'll be weird soon
+- she'll be near the moon
++ she'll be here soon
+
+[LINE]
+Speaker593: Thank~you for~inviting  us  to~dinner.
+~           спасибо   что~пригласил нас на~ужин   
+
+[LINE]
+Speaker414: You're~welcome! You and Priti cook     dinner for me   often.
+~           пожалуйста      ты  и   Прити готовите ужин   для меня часто 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker414: So      now    [I'm~going~to~cook for you]!
+~           так~что теперь  я~приготовлю      для вас  
++ I'm~going~to~cook for you
+~ я~приготовлю      для вас
+- I'm~going to the~park
+~ я~иду     в  парк    
+- we're~going   to~take~a~nap
+~ мы~собираемся вздремнуть   
+
+[LINE]
+Speaker593: You're cooking?!  Uh…  it~smells… interesting.
+~           ты     готовишь   м-м  пахнет     интересно   
+
+[LINE]
+Speaker414: Thanks!  I'm making Priti's~favorite~meal.
+~           спасибо  я   делаю  любимое~блюдо~Прити   
+
+[LINE]
+Speaker593: Really? It's very  difficult to~make…
+~           правда  его  очень сложно    сделать 
+
+[MULTIPLE_CHOICE]
+> Викрам кажется обеспокоенным. Почему?
+- Он понял, что на кухне Эдди пожар.
+- Любимое блюдо Прити очень легко приготовить.
++ Он не уверен, что Эдди сможет правильно приготовить блюдо.
+
+[LINE]
+> Vikram looks~at   the~food on the~stove.
+~ Викрам смотрит~на еду      на плите     
+
+[LINE]
+Speaker593: Which kind of~rice did~you~use?   
+~           какой сорт риса    ты~использовал 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker414: [(There~are) (different) (kinds) (of~rice)?]
+~             есть        разные      сорта   риса      
+
+[LINE]
+> Vikram tastes  the~food.
+~ Викрам пробует еду      
+
+[POINT_TO_PHRASE]
+> Выберите вариант «странно».
+Speaker593: (Oh) no.  (This~tastes)… (a~little) (+strange).
+~            о   нет   на~вкус~это    немного     странно  
+
+[LINE]
+Speaker414: Can~you   help   me? 
+~           ты~можешь помочь мне 
+
+[LINE]
+Speaker593: Maybe…   I~need    four   tomatoes, some    onions, and a~lot~of garlic. 
+~           наверно  мне~нужно четыре помидора  немного лука    и   много    чеснока 
+
+[LINE]
+Speaker414: I~don't~have those things.
+~           у~меня~нет   этих  вещей  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker593: OK.     Then  [we~need~your~phone].    
+~           хорошо  тогда  нам~нужен~твой~телефон  
+- we meet your own
++ we need your phone
+- we'll read your phone
+
+[LINE]
+> Later, Eddy, Vikram, and Priti are~eating dinner.
+~ позже  Эдди  Викрам  и   Прити едят       ужин   
+
+[LINE]
+Speaker560: Wow,   Eddy, this~is so~good!    It~tastes just  like my~grandmother's~recipe!  
+~           ух~ты  Эдди  это     так~вкусно  на~вкус   прямо как  (по)~рецепту~моей~бабушки 
+
+[LINE]
+Speaker414: Thanks!  I ordered it  from the~restaurant myself!
+~           спасибо  я заказал его из   ресторана      сам    
+
+[MULTIPLE_CHOICE]
+> Почему ужин был таким вкусным?
+- Эдди очень хорошо готовит.
+- Викрам добавил в блюдо много чеснока.
++ Эдди заказал доставку из ресторана.
+
+[MATCH]
+> Коснитесь пар
+- for inviting <> что пригласил
+- So <> так что
+- Which <> какой
+- cooking <> готовишь
+- onions <> лука
+
