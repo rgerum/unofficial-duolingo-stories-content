@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Больше места
+icon=d052dcca47838cd5debc241d8963f4a99b3bb873
+set=3|4
+
+[HEADER]
+> More   Space
+~ больше места
+
+[LINE]
+> Junior's~friend, Andy, is~talking~to    his   dad.  
+~ друг~Джуниора    Энди  разговаривает~со своим отцом 
+
+[LINE]
+Speaker366: I~need    a~job,  Dad. 
+~           мне~нужна работа  папа 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker295: Andy, [you~are~eight].
+~           Энди   тебе~восемь    
+- you were late
++ you are eight
+- who are they
+
+[LINE]
+Speaker295: You  do~not need  a~job. 
+~           тебе не     нужна работа 
+
+[LINE]
+Speaker366: We  need  more   money.
+~           нам нужно больше денег 
+
+[LINE]
+Speaker295: We~have    money,  Andy.
+~           у~нас~есть деньги  Энди 
+
+[LINE]
+Speaker366: We~need   more   money for a~new house.
+~           нам~нужно больше денег на  новый дом   
+
+[POINT_TO_PHRASE]
+> Выберите вариант «наш».
+Speaker366: (+Our) (house) (is~small). 
+~             наш   дом     маленький  
+
+[LINE]
+Speaker295: Andy! Our house is~not small!    
+~           Энди  наш дом   не     маленький 
+
+[LINE]
+Speaker366: And we~need   a~new car.   
+~           и   нам~нужна новая машина 
+
+[LINE]
+Speaker295: Why?  
+~           зачем 
+
+[LINE]
+Speaker366: It~is very  small.    
+~           она   очень маленькая 
+
+[LINE]
+Speaker295: Andy…
+~           Энди 
+
+[LINE]
+Speaker366: We~need   more   space.
+~           нам~нужно больше места 
+
+[MULTIPLE_CHOICE]
+> Что Энди имеет в виду?
+- Ему мала его обувь.
++ Семье нужен дом побольше.
+- Он хочет уехать в дальние края.
+
+[LINE]
+Speaker295: Space?
+~           места 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «ребенка».
+Speaker366: (We~need)   (space) (for) (+the~baby), Dad! 
+~            нам~нужно   место   для    ребенка    папа 
+
+[LINE]
+Speaker295: Baby?   
+~           ребёнка 
+
+[LINE]
+Speaker366: Mom's    new    baby.   
+~           маминого нового ребёнка 
+
+[LINE]
+Speaker295: What?! Mom?!  A~baby?! 
+~           что    мама   ребёнок  
+
+[LINE]
+Speaker366: Are~you OK,        Dad? 
+~           ты      в~порядке  папа 
+
+[LINE]
+Speaker295: We~need   a~new house and a~new car!   
+~           нам~нужен новый дом   и   новая машина 
+
+[LINE]
+Speaker295: We~do~need      more   space!
+~           нам~точно~нужно больше места 
+
+[MULTIPLE_CHOICE]
+> Что Энди сказал своему отцу?
+- Что он купил новый дом.
+- Что он собирается бросить школу.
++ Что у мамы будет ребёнок.
+
+[MATCH]
+> Коснитесь пар
+- for <> на
+- We need <> нам нужно
+- I need <> мне нужна
+- house <> дом
+- We do need <> нам точно нужно
+
