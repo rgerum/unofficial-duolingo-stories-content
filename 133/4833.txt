@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=별자리 운세를 믿지 마
+icon=10523c977de263efd9025298f59cc9e2f702d3f1
+set=23|2
+
+[HEADER]
+> Horoscopes Aren't~Real
+~ 별자리~운세는    진짜가~아니야    
+
+[LINE]
+> Eddy~and~Bea~are in~a~coffee~shop. Bea~is reading the~newspaper.
+~ 에디와~비가           커피숍에~있다           비가     읽고~있다   신문을           
+
+[LINE]
+Speaker507: Hmm, this~is interesting…
+~           음    이거      흥미로운~걸      
+
+[LINE]
+Speaker414: What?
+~           뭐가   
+
+[LINE]
+Speaker507: I'm reading my horoscope. It says I'll~help someone today.
+~           난   읽고~있어   내  별자리~운세를    그에 따르면  내가~도와줄~거야 누군가를    오늘    
+
+[LINE]
+Speaker414: Horoscopes aren't~real. A~newspaper can't~tell you about your future.
+~           별자리~운세는    진짜가~아니야      신문이         알려줄~순~없어   너에게 ~에~대해 네    미래     
+
+[MULTIPLE_CHOICE]
+> 에디는 별자리 운세가 미래에 대해 알려준다고 생각한다.
++ 아니요, 그렇지 않아요.
+- 네, 맞아요.
+
+[LINE]
+Speaker507: Well, I read my horoscope every~day, and it's usually right.
+~           음     난 읽어   내  별자리~운세를   매일         그리고 그건   주로      맞아    
+
+[LINE]
+Speaker414: OK… Can~I~read my horoscope?
+~           좋아  내가~읽어봐도~돼  내  별자리~운세를   
+
+[LINE]
+Speaker507: Sure.
+~           그럼   
+
+[POINT_TO_PHRASE]
+> “쏟는다”를 뜻하는 말을 고르세요.
+> Bea (gives) the~newspaper (to~Eddy) and (+spills) his (coffee).
+~ 비가   건넨다    신문을            에디에게     그리고   쏟는다     그의   커피를     
+
+[LINE]
+Speaker507: Oh,~no!
+~           아~이런   
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker507: [(Now) (there's~coffee) (on) (your) (shirt)!]
+~             이제    커피~얼룩이~있어        ~에   네      셔츠      
+
+[LINE]
+Speaker414: And I have an~important~meeting in~ten~minutes!
+~           그리고 난 있어   중요한~회의가              십~분~후에         
+
+[LINE]
+Speaker507: Don't~worry! I have an extra sweater in~my~bag.
+~           걱정~마         난 있어   하나 여분의   스웨터가    내~가방에     
+
+[LINE]
+> Bea gives Eddy her sweater.
+~ 비가  건넨다   에디에게 그녀의 스웨터를    
+
+[MULTIPLE_CHOICE]
+> 잠깐만요… 비가 에디에게 자신의 스웨터를 준 이유는 무엇인가요?
+- 에디가 춥다고 해서.
+- 스웨터와 에디의 눈동자 색이 같아서.
++ 그의 셔츠에 커피를 쏟아서.
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker414: I can't~wear this! It's your [favorite sweater]!
+~           난 입을~수~없어    이걸    이건   네가    제일~좋아하는  스웨터잖아    
+- coffee~shop
+~ 커피숍        
++ favorite sweater
+~ 제일~좋아하는  스웨터    
+- newspaper
+~ 신문       
+
+[LINE]
+Speaker507: Hmm… When~were~you~born?
+~           음    너~생일이~언제야          
+
+[LINE]
+Speaker414: October fourth.
+~           시월      4일     
+
+[LINE]
+Speaker507: Oh, that~means you're a~Libra.
+~           어   그럼         넌      천칭자리네   
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker414: That [doesn't~mean~anything].
+~           그건    아무~의미도~없어              
+- doesn't need many things
++ doesn't mean anything
+- doesn't name anything
+
+[LINE]
+Speaker507: Oh, yeah? Then listen~to~this.
+~           어   그래    그럼   이걸~잘~들어봐       
+
+[LINE]
+Speaker507: Your horoscope says:
+~           네    별자리~운세에   따르면  
+
+[LINE]
+Speaker507: "You will~have a~very~good~day today if   you let~a~friend~help~you."
+~            당신은 보낼~거예요    아주~좋은~하루를       오늘    ~한다면 당신이 친구의~도움을~받다             
+
+[LINE]
+Speaker414: OK,  Bea. I'll~wear your sweater.
+~           알았어  비    내가~입을게    네    스웨터를    
+
+[MULTIPLE_CHOICE]
+> 비의 생각에 에디의 별자리 운세는...
+- …오늘은 그에게 최악의 하루가 될 거란 걸 의미한다.
++ …그가 그녀의 스웨터를 입어야 한다는 걸 의미한다.
+- …그가 커피를 끊어야 한다는 걸 의미한다.
+
+[MATCH]
+> 짝을 누르세요
+- you're <> 넌
+- gives <> 건넨다
+- usually <> 주로
+- A newspaper <> 신문이
+- his <> 그의
+
