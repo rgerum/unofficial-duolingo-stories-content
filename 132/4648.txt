@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=मेरी तबियत खराब है
+icon=68ffeb0d8b8a73e7de5cd3b964b34d0e08761977
+set=9|3
+
+[HEADER]
+> I   Feel             Sick 
+~ मैं महसूस~कर~रहा~हूँ बीमार
+
+[LINE]
+Speaker415: Dad!  I   feel             sick! 
+~           पापा  मैं महसूस~कर~रहा~हूँ बीमार 
+
+[LINE]
+Speaker414: Oh,~no!  
+~           अरे~नहीं 
+
+[LINE]
+> Eddy  touches Junior's~head.
+~ एड्डी छूता~है जूनियर~का~सिर 
+
+[LINE]
+Speaker414: You~don't~have           a~fever.
+~           तुम्हें~नहीं~(हो~रहा)~है बुखार   
+
+[MULTIPLE_CHOICE]
+> जूनियर को बुखार है।
+- हाँ, यह सही है।
++ नहीं, ऐसा नहीं है।
+
+[LINE]
+Speaker415: But   my   ear~hurts!              I   want      to~go to~the~doctor's~office!
+~           लेकिन मेरे कान~में~दर्द~हो~रहा~है  मैं चाहता~हूँ जाना  डॉक्टर~के~क्लिनिक~(तक) 
+
+[LINE]
+Speaker414: OK...    
+~           ठीक~है   
+
+[ARRANGE]
+> सुनकर शब्द चुनें
+> [(They) (go)       (to~the~doctor's~office).]
+~   वे     जाते~हैं   डॉक्टर~के~क्लिनिक~(तक)   
+
+[LINE]
+Speaker341: It's~nice~to~see~you~again,     Junior.
+~           तुम्हें~फिर~से~देखकर~अच्छा~लगा  जूनियर 
+
+[LINE]
+Speaker341: What's~wrong?
+~           क्या~हुआ~है  
+
+[LINE]
+Speaker414: His  ear~hurts.             
+~           इसके कान~में~दर्द~हो~रहा~है 
+
+[LINE]
+Speaker341: Oh,~no!   I   can~help.       
+~           अरे~नहीं  मैं मदद~कर~सकती~हूँ 
+
+[CONTINUATION]
+> आगे क्या आएगा?
+> The~doctor looks     [at~Junior's~ear]. 
+~ डॉक्टर     देखती~हैं  जूनियर~के~कान~को  
+- at~the~clock
+~ घड़ी~को      
+- at~Eddy's~shoes  
+~ एड्डी~के~जूतों~को
++ at~Junior's~ear 
+~ जूनियर~के~कान~को
+
+[LINE]
+Speaker341: Hmmm… Your     ear is fine.
+~           ~     तुम्हारा कान है ठीक  
+
+[LINE]
+Speaker415: Oh! Well… My   foot~hurts.            
+~           ~   (तो)  मेरे पैर~में~दर्द~हो~रहा~है 
+
+[LINE]
+> The~doctor looks     at~Junior's~foot.
+~ डॉक्टर     देखती~हैं जूनियर~के~पैर~को 
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker341: Your     foot [is~also~fine].
+~           तुम्हारा पैर   भी~ठीक~है     
++ is also fine
+- it's all the wine
+- is also mine
+
+[LINE]
+Speaker414: Is~he~OK,       Doctor?
+~           क्या~यह~ठीक~है  डॉक्टर 
+
+[LINE]
+Speaker341: Yes.
+~           हाँ 
+
+[LINE]
+Speaker341: You're~not  sick,  Junior.
+~           तुम~नहीं~हो बीमार  जूनियर 
+
+[LINE]
+Speaker415: I   am  sick! 
+~           मैं हूँ बीमार 
+
+[POINT_TO_PHRASE]
+> उस विकल्प को चुनें जिसका मतलब “क्योंकि” है।
+Speaker341: (Junior)... are~you~here          (+because) I   (always) (give~you)         candy?
+~            जूनियर     क्या~तुम~यहाँ~(आए)~हो   क्योंकि  मैं  हमेशा    तुम्हें~देती~हूँ  कैंडी 
+
+[LINE]
+Speaker415: Umm… Yes.
+~           ~    हाँ 
+
+[LINE]
+Speaker414: Junior!
+~           जूनियर 
+
+[LINE]
+Speaker415: So... Can~I~have            my   candy now?
+~           तो    क्या~मुझे~मिल~सकती~है मेरी कैंडी अब  
+
+[MULTIPLE_CHOICE]
+> तो यह बात है! जूनियर डॉक्टर के पास आखिर क्यों जाना चाहता था?
++ क्योंकि डॉक्टर हमेशा उसे कैंडी देती हैं।
+- क्योंकि वह डॉक्टर को एक तोहफ़ा देना चाहता था।
+- क्योंकि वह बहुत बीमार था।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- feel <> महसूस कर रहा हूँ
+- What's wrong <> क्या हुआ है
+- at Junior's foot <> जूनियर के पैर को
+- I <> मैं
+- You're not <> तुम नहीं हो
+
