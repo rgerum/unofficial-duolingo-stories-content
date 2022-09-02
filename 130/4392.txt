@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=Чрезвычайная ситуация
+icon=7e5d8724d525fd56e3abc838f2849ae269ebefd5
+set=15|1
+
+[HEADER]
+> An~Emergency         
+~ чрезвычайная~ситуация
+
+[LINE]
+>  Junior  is~at~a~pool with his   father, Eddy.
+~  Джуниор у~бассейна   со   своим отцом   Эдди 
+
+[LINE]
+> He runs~to     the~lifeguard.
+~ он подбегает~к спасательнице 
+
+[LINE]
+Speaker415: Help!     Lifeguard!    
+~           помогите  спасательница 
+
+[LINE]
+Speaker415: My    father needs help!  
+~           моему отцу   нужна помощь 
+
+[LINE]
+Speaker856: Is~he~drowning?
+~           он~тонет       
+
+[MULTIPLE_CHOICE]
+> Чем обеспокоена спасательница?
+- Джуниор тонет.
++ Она думает, что Эдди тонет.
+- Она боится детей.
+
+[LINE]
+Speaker415: No,  it's my~father's~swimsuit.       
+~           нет  это  купальный~костюм~моего~отца 
+
+[LINE]
+Speaker856: I don't understand…
+~           я не    понимаю    
+
+[POINT_TO_PHRASE]
+> Выберите вариант «купальный костюм».
+Speaker415:  (His) (new)   (+swimsuit)         (is~too~small).     
+~             его   новый    купальный~костюм   слишком~маленький  
+
+[LINE]
+Speaker415: It~looks~really~bad, but he won't~listen~to~me!
+~           он~выглядит~ужасно   но  он меня~не~слушает    
+
+[LINE]
+Speaker856: Sorry,  but lifeguards help     with emergencies.             
+~           прости  но  спасатели  помогают с    чрезвычайными~ситуациями 
+
+[MULTIPLE_CHOICE]
+> Спасательница говорит, что может помочь только…
++ …в чрезвычайных ситуациях.
+- ...отцам.
+- …с купальными костюмами.
+
+[LINE]
+Speaker415: This~is    an~emergency!          Look!    
+~           это~и~есть чрезвычайная~ситуация  смотрите 
+
+[LINE]
+> The~lifeguard looks~at   Eddy.
+~ спасательница смотрит~на Эдди 
+
+[LINE]
+Speaker856: No! 
+~           нет 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker856: You're~right. That swimsuit~is      [too~small]!        
+~           ты~прав       этот купальный~костюм  слишком~маленький  
++ too small
+- do it all
+- to the mall
+
+[LINE]
+> The~lifeguard shouts~at~Eddy.
+~ спасательница кричит~Эдди    
+
+[LINE]
+Speaker856: Excuse~me, sir! I'm~coming to~help~you!  
+~           извините   сэр  я~иду      вам~на~помощь 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «полотенцем».
+> The~lifeguard runs~to     (Eddy) (with) (a~big),   red     (+towel).     
+~ спасательница подбегает~к  Эдди   с      большим   красным   полотенцем  
+
+[LINE]
+Speaker414: What~is~it?!
+~           что~такое   
+
+[LINE]
+Speaker856: Sir, please     wear     this~towel.    It's an~emergency.         
+~           сэр  пожалуйста наденьте это~полотенце  это  чрезвычайная~ситуация 
+
+[MULTIPLE_CHOICE]
+> Из-за чего возникла чрезвычайная ситуация?
+- Джуниор забыл своё полотенце.
++ Купальный костюм Эдди был слишком мал.
+- Эдди не умеет плавать.
+
+[MATCH]
+> Коснитесь пар
+- This is <> это и есть
+- looks at <> смотрит на
+- understand <> понимаю
+- You're right <> ты прав
+- a big <> большим
+
