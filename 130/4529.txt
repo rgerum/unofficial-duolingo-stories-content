@@ -1,0 +1,195 @@
+[DATA]
+fromLanguageName=У тебя Wi-Fi работает?
+icon=074a5ab61a047d40fdd7079e2fa37bf394a2fbbf
+set=49|2
+
+[HEADER]
+> Is~Your~Wifi Working? 
+~ твой~вай-фай работает 
+
+[LINE]
+> It's~late~at~night. Eddy's~neighbor, Bea, knocks on his door. 
+~ поздний~вечер       соседка~Эдди     Би   стучит в  его дверь 
+
+[LINE]
+Speaker414: Oh, hi,     Bea! Why    are~you here  so  late?  
+~           о   привет  Би   почему ты      здесь так поздно 
+
+[LINE]
+Speaker507: Hi,     Eddy. I~was~wondering… is~your wifi    working? 
+~           привет  Эдди  мне~интересно    твой    вай-фай работает 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker414: It~isn't!    [How~did~you~know]?
+~           не~работает   как~ты~узнала     
+- How didn't he know
+- How did you go
++ How did you know
+
+[LINE]
+Speaker507: My  wifi    stopped  working,  too.  I just wanted to~make~sure    you~were~OK. 
+~           мой вай-фай перестал работать  тоже  я лишь хотела убедиться~(что) ты~в~порядке 
+
+[LINE]
+Speaker414: Oh, you're such  a~good  friend! 
+~           о   ты     такая хорошая подруга 
+
+[LINE]
+Speaker507: Would~you~like~me to~come~inside and fix      it  for you? 
+~           хочешь,~чтобы~я   зашла~к~тебе   и   починила его для тебя 
+
+[LINE]
+Speaker414: You~mean right now?    Um… sure!   
+~           то~есть  прямо сейчас  гм  конечно 
+
+[LINE]
+> Bea walks   into Eddy's~apartment and looks~around. 
+~ Би  заходит в    квартиру~Эдди    и   осматривается 
+
+[MULTIPLE_CHOICE]
+> Why~is Bea at Eddy's~apartment?
+~ почему Би  в  квартире~Эдди    
+- She's~buying his couch.
+~ она~покупает его диван 
++ She wants to~fix   his wifi.   
+~ она хочет починить его вай-фай 
+- She brought  Eddy a~pizza.
+~ она принесла Эдди пиццу   
+
+[LINE]
+Speaker507: OK,     did~you~try turning~it~off~and~on?   
+~           хорошо  ты~пробовал выключить~и~включить~его 
+
+[LINE]
+Speaker414: Turning~what~off~and~on? 
+~           что~выключить~и~включить 
+
+[LINE]
+Speaker507: Your router.
+~           свой роутер 
+
+[MULTIPLE_CHOICE]
+> A~"router"…
+~ роутер     
++ …connects  a~computer to the~internet.
+~  соединяет компьютер  с  интернетом   
+- …is~a~piece  of~clothing.
+~  это~предмет одежды      
+- …is~used      in basketball.
+~  используется в  баскетболе 
+
+[LINE]
+Speaker414: My  what?
+~           мой что  
+
+[LINE]
+Speaker507: Never~mind.
+~           неважно    
+
+[ARRANGE]
+> Наберите услышанное
+> [(Bea) (looks~for) (Eddy's~router).]
+~   Би    ищет        роутер~Эдди     
+
+[LINE]
+Speaker414: You~know, my  walls~are very  thick   here.  Maybe that's~the~problem!
+~           знаешь    мои стены     очень толстые здесь  может в~этом~проблема    
+
+[LINE]
+Speaker507: No,  that's not the~problem. Your wifi~is very  strong  in my   apartment.
+~           нет  это    не  проблема     твой вай-фай очень сильный в  моей квартире  
+
+[LINE]
+Speaker414: It~is? 
+~           правда 
+
+[LINE]
+Speaker507: I~mean,  I~think~it~is.       
+~           то~есть  я~думаю,~что~это~так 
+
+[LINE]
+Speaker414: Wait,      why    are~you really        here?
+~           минуточку  почему ты      на~самом~деле тут  
+
+[ARRANGE]
+> Наберите услышанное
+Speaker507: [(Because)    (your) (wifi)    (isn't~working).]
+~             потому~что   твой   вай-фай   не~работает     
+
+[LINE]
+Speaker507: And… my  wifi    isn't~working because    your wifi    isn't~working.
+~           и    мой вай-фай не~работает   потому~что твой вай-фай не~работает   
+
+[LINE]
+Speaker414: Huh?
+~           а   
+
+[LINE]
+Speaker507: Eddy, I use       your  wifi.    
+~           Эдди  я пользуюсь твоим вай-фаем 
+
+[LINE]
+Speaker414: What?
+~           что  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker507: And I was~just~watching   [a~really~good~movie]. There~were~only~five~minutes~left!
+~           и   я только~что~смотрела  очень~хороший~фильм   оставалось~всего~пять~минут       
++ a really good movie
+- a really good pudding
+- a real godly move
+
+[LINE]
+Speaker414: You use         my   wifi?    
+~           ты  пользуешься моим вай-фаем 
+
+[LINE]
+Speaker507: Yes. Now,    can~I     please     try         to~fix   your wifi    so    I can   finish     my   movie?
+~           да   теперь  можно~мне пожалуйста попробовать починить твой вай-фай чтобы я могла досмотреть свой фильм 
+
+[MULTIPLE_CHOICE]
+> Aha! Why~does Bea really~want to~fix   Eddy's~wifi? 
+~ ага  почему   Би  так~хочет   починить вай-фай~Эдди 
+- Eddy is~working on  something important.
+~ Эдди работает   над чем-то    важным    
++ She's~using    his wifi     to~watch~a~movie.    
+~ она~пользуется его вай-фаем для~просмотра~фильма 
+- Eddy wants to~show  her a~funny movie.
+~ Эдди хочет показать ей  смешной фильм 
+
+[LINE]
+Speaker414: OK.    
+~           хорошо 
+
+[LINE]
+> There~is~another~knock on Eddy's~door. Eddy answers~it.   Lin is~standing outside.
+~ ещё~кто-то~стучит      в  дверь~Эдди   Эдди открывает~её  Лин стоит       снаружи 
+
+[LINE]
+Speaker414:  Oh, hi,     Lin!| Why    are~you here  so  late?  
+~            о   привет  Лин   почему ты      здесь так поздно 
+
+[LINE]
+Speaker508: Hi,     Eddy. Uh…  I~was~wondering. Is~your~wifi~working?   
+~           привет  Эдди  э-э  мне~интересно    у~тебя~работает~вай-фай 
+
+[MULTIPLE_CHOICE]
+> Did~you~catch~that? It~seems~like Lin…
+~ вы~поняли           похоже        Лин 
++ …is~using   Eddy's~wifi   too. 
+~  пользуется вай-фаем~Эдди тоже 
+- …is~looking~for Bea.
+~  ищет           Би  
+- …doesn't know  who~Eddy~is.   
+~  не      знает кто~такой~Эдди 
+
+[MATCH]
+> Коснитесь пар
+- really <> на самом деле
+- Oh <> о
+- Eddy <> Эдди
+- Eddy's neighbor <> соседка Эдди
+- a really good movie <> очень хороший фильм
+
