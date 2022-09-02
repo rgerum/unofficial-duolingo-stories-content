@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=결혼식 이야기
+icon=1af589ac8182b2da5175dd9c2dc973d1089ef4f2
+set=22|2
+
+[HEADER]
+> A~Wedding~Story
+~ 결혼식~이야기        
+
+[LINE]
+> Lucy~and~Lin~are at~a~family~wedding.
+~ 루시와~린이           친척의~결혼식에~와~있다       
+
+[LINE]
+Speaker509: This~is a~beautiful~wedding!
+~           이건      아름다운~결혼식이야          
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker508: I~know! [This~hotel~is~amazing]!
+~           그러게요     이~호텔은~멋져요              
++ This hotel is amazing
+- This horse is lazy
+- Is the hotel a maze
+
+[LINE]
+Speaker509: And the~food~is delicious!
+~           그리고 음식이         맛있어       
+
+[LINE]
+Speaker508: Are~these gold forks?
+~           이것들은      금    포크예요  
+
+[LINE]
+Speaker509: Yes!
+~           응   
+
+[MULTIPLE_CHOICE]
+> 루시는 린에게...
++ ...금 포크를 몰래 가져가자고 제안한다.
+- …같은 스타일의 금색 옷을 사자고 제안한다.
+- ...금 포크를 선물로 주자고 제안한다. 
+
+[LINE]
+Speaker508: This wedding~was probably very expensive. 
+~           이    결혼식은        아마도      아주   비용이~컸을~거예요 
+
+[LINE]
+Speaker509: How~much~do~you~think it~cost?       
+~           네~생각엔~얼마나             (비용이)~들었을~것~같니 
+
+[LINE]
+Speaker508: A~lot.
+~           많이요   
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker509: Your cousin, Paul, hates spending [money]!
+~           네    사촌      폴은    싫어해   쓰는~걸      돈을     
+- time
+~ 시간  
++ money
+~ 돈    
+- forks
+~ 포크   
+
+[LINE]
+Speaker509: I'm surprised that the~wedding~is so nice.
+~           난   놀랐어       ~해서  결혼식이           너무 훌륭해  
+
+[LINE]
+Speaker508: I'm surprised that the~bride~is so beautiful.
+~           전   놀랐어요      ~해서  신부가          너무 아름다워      
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker508: I  just talked to~the~bride. Did~you~know [she's~a~doctor]?
+~           제가 방금   얘기했어요  신부랑           (할머니는)~아셨어요   그녀가~의사란~걸       
++ she's a doctor
+- she said talk to her
+- he's a dog too
+
+[LINE]
+Speaker509: How~did~Paul~meet such~an~amazing woman?
+~           폴은~어떻게~만났지        이렇게~멋진          여자를   
+
+[LINE]
+Speaker508: I~don't~know! He~isn't~good~enough~for~her.
+~           (전)~모르겠어요     신부가~훨씬~아까워요                  
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker509: [(He) (looks~like) (a~potato).]
+~             폴은   ~처럼~생겼어      감자         
+
+[LINE]
+Speaker508: And he's lazy.
+~           그리고 폴은   게을러요 
+
+[LINE]
+Speaker509: But it's~nice~that he invited us! 
+~           하지만 ~해서~다행이야       폴이 초대했다    우리를 
+
+[LINE]
+Speaker508: Be~quiet! He's coming here.
+~           조용히~하세요   폴이   오고~있어요 여기로  
+
+[MULTIPLE_CHOICE]
+> 린은 루시가...
+- …감자를 먹길 바란다.
++ …조용히 하길 바란다.
+- …의사에게 가길 바란다.
+
+[LINE]
+Speaker509: Wait. That's not~Paul.
+~           잠깐만   저~사람은  폴이~아니야   
+
+[LINE]
+Speaker508: You're~right! I~think we're at~the~wrong~hotel! Let's~go.
+~           할머니가~맞네요      제~생각엔   우리가   호텔을~잘못~찾아온~것~같아요    가요       
+
+[LINE]
+Speaker509: No, let's~stay here. It's~time for~dessert!
+~           아니  그냥~있자      여기에   (이제)~시간이야 디저트~먹을      
+
+[MULTIPLE_CHOICE]
+> 이런! 린과 루시는...
+- ...포크를 몰래 가져가려다 들켰다.
+- ...디저트를 먹다가 잠이 들었다.
++ ...결혼식을 잘못 찾아왔다.
+
+[MATCH]
+> 짝을 누르세요
+- probably <> 아마도
+- Are these <> 이것들은
+- delicious <> 맛있어
+- that <> ~해서
+- surprised <> 놀랐어
+
