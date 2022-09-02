@@ -1,0 +1,127 @@
+[DATA]
+fromLanguageName=너무 빨라
+icon=0dacade4e0909e7d3d1149423aa5f432618b1157
+set=21|2
+
+[HEADER]
+> Too Fast
+~ 너무  빨라  
+
+[LINE]
+> Bea~and~Lin~are running on~a~trail.
+~ 비와~린이           달리고~있다  산책로에서      
+
+[LINE]
+Speaker507: Come~on, Lin! Run faster!
+~           힘내       린    달려  더~빨리   
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker508: [I'm~thirsty], and my~legs hurt!
+~            난~목말라         그리고 (내)~다리가 아파   
+- I'm first
++ I'm thirsty
+- It's Thursday
+
+[LINE]
+Speaker507: That's because you never~run.   Come~on, you can~do~this!
+~           그건     ~때문이야   네가  평소에~달리지~않아서  힘내       넌   (이걸)~할~수~있어 
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker508: [(When) (can~we~go) (home)?]
+~             언제쯤    우리~갈~수~있어   집에     
+
+[LINE]
+Speaker507: One~more~mile! We're almost done!
+~           일~마일~더         우린    거의     다~왔어 
+
+[LINE]
+Speaker508: One~more~mile?!
+~           일~마일이나         
+
+[MULTIPLE_CHOICE]
+> 린은 비와 함께 달리는 게 즐겁다.
+- 네, 맞아요.
++ 아니요, 그렇지 않아요.
+
+[LINE]
+> Lin tries~to~run faster. Suddenly, she falls.
+~ 린이  달리려~해~본다     더~빨리    갑자기       그녀가 넘어진다  
+
+[LINE]
+Speaker508: Ow! My leg!
+~           아야  내  다리  
+
+[LINE]
+> Later, Bea~and~Lin~are at~the~hospital.
+~ 나중에    비와~린이           병원에~와~있다        
+
+[MULTIPLE_CHOICE]
+> 이런! 그들이 병원에 온 이유는 무엇인가요?
+- 비가 의사와 사귀기 때문에.
+- 린이 병원에 살기 때문에.
++ 린이 다리를 다쳤기 때문에.
+
+[LINE]
+Speaker127: Tell   me  what  happened.
+~           말해~보세요 저한테 무슨~일이 있었는지     
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker508: [(I)  (hurt) (my~leg)  (while)   (I~was~running).]
+~             제가   다쳤어요   (제)~다리를   ~하는~동안에   (제가)~달리기하다      
+
+[LINE]
+Speaker127: Were~you~running too fast?
+~           (당신이)~뛰셨나요       너무  빨리   
+
+[LINE]
+Speaker507: Oh,~no, Doctor. She's not~fast.
+~           아니요     의사~선생님  얘는    빠르지~않아요  
+
+[LINE]
+Speaker508: I~was trying~to~run as~fast~as~you, Bea!
+~           난     달리려~했어        너만큼~빨리          비   
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker127: Maybe you should~run [slower next~time].
+~           아마도   당신은 달리는~게~좋겠어요  더~천천히  다음엔        
+- in~the~bathtub
+~ 욕조~안에서        
+- on~one~leg
+~ 한~쪽~다리로   
++ slower next~time
+~ 더~천천히  다음에      
+
+[LINE]
+Speaker507: Run   slower? I~don't~think~that's~possible.
+~           달리라고요 더~천천히   제~생각엔~그건~불가능해요                
+
+[LINE]
+Speaker508: Or  maybe I  should~stop running!
+~           아니면 아마도   제가 그만두는~게~좋겠어요 달리기를    
+
+[LINE]
+Speaker127: No,  you can~still~run.
+~           아니요  당신은 달리기를~계속해도~돼요  
+
+[LINE]
+Speaker127: But you~should~stop   running with~your~friend.
+~           하지만 (당신은)~그만두는~게~좋겠어요 달리기를    (당신의)~친구와~함께는    
+
+[MULTIPLE_CHOICE]
+> 의사 선생님의 생각에는…
++ …린이 비 없이 달리는 게 좋겠다.
+- …린이 비보다 더 빨리 달릴 수 있다.
+- …린이 다시는 달리지 말아야 한다.
+
+[MATCH]
+> 짝을 누르세요
+- at the hospital <> 병원에 와 있다
+- One more mile <> 일 마일 더
+- Suddenly <> 갑자기
+- But <> 하지만
+- slower <> 더 천천히
+
