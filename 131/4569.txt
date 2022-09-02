@@ -1,0 +1,101 @@
+[DATA]
+fromLanguageName=Ресторан
+icon=d009bf5a911fc69baee4534e0bcc9e5478a9b633
+set=6|2
+
+[HEADER]
+> The~Restaurant 
+~ ресторан       
+
+[LINE]
+> Ana is          at a~new  restaurant in her city. 
+~ Ана знаходиться у  новому ресторані  в  її  місті 
+
+[LINE]
+Speaker386: Hello!      What~would~you~like to~eat?
+~           здрастуйте  що~б~ви~хотіли      поїсти 
+
+[SELECT_PHRASE]
+> Виберіть пропущену фразу
+Speaker387: I~would~like [a~glass~of~water] and a~salad, please.    
+~           я~б~хотіла    склянку~води      і   салат    будь~ласка 
+- my glasses in weather
++ a glass of water
+- a girl and water
+
+[LINE]
+Speaker386: OK!    One  glass   of~water and one  potato~salad      —
+~           добре  одна склянка води     і   один картопляний~салат  
+
+[ARRANGE]
+> Що ви чуєте?
+Speaker387: [(No), (I) (don't) (want) (a~potato~salad).]    
+~             ні    я   не      хочу   картопляний~салат~   
+
+[LINE]
+Speaker386: Oh. Well… do~you~like     soup?
+~           о   ну    вам~подобається суп  
+
+[CONTINUATION]
+> Що далі?
+Speaker387: Yes! I~like           soup! Do~you~have [tomato~soup]? 
+~           так  мені~подобається суп   у~вас~є      томатний~суп  
++ tomato~soup 
+~ томатний~суп
+- a~new~restaurant
+~ новий~ресторан  
+- a~potato~salad   
+~ картопляний~салат
+
+[LINE]
+Speaker386: No, but we~have potato~soup     —
+~           ні  але у~нас~є картопляний~суп  
+
+[ARRANGE]
+> Що ви чуєте?
+Speaker387: [(Can~I~have) (a) (sandwich)?]
+~             можна~мені   ~   сендвіч    
+
+[LINE]
+Speaker386: We~have potato     sandwiches!
+~           у~нас~є картопляні сендвічі   
+
+[POINT_TO_PHRASE]
+> Виберіть варіант, що означає «без».
+Speaker387: (Do~you~have) any   (food) (+without) (potatoes)?
+~            у~вас~є      якась  їжа     без       картоплі  
+
+[LINE]
+Speaker386: No,~we~don't!
+~           ні,~немає    
+
+[LINE]
+Speaker387: What~kind~of restaurant~is~this?!
+~           що~це~за     ресторан~такий      
+
+[LINE]
+Speaker386: It's a~potato~restaurant! 
+~           це   картопляний~ресторан 
+
+[LINE]
+Speaker387: Oh… a~potato~restaurant… 
+~           o   картопляний~ресторан 
+
+[LINE]
+Speaker387: Wait,    what?!
+~           чекайте  що    
+
+[MULTIPLE_CHOICE]
+> У цьому ресторані…
++ … подають лише страви з картоплі.
+- … не подають ніякої їжі.
+- … подають лише воду.
+
+[MATCH]
+> З’єднайте пари
+- restaurant is this <> ресторан такий
+- tomato soup <> томатний суп
+- to eat <> поїсти
+- don't <> не
+- and <> і
+
