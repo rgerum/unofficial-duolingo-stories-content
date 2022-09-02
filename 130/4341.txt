@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Врач Эдди
+icon=29c5abbf74b46e43a4de510ac83e302c0722a100
+set=2|2
+
+[HEADER]
+> Doctor~Eddy
+~ врач~Эдди  
+
+[LINE]
+> Eddy is~at~the~supermarket.
+~ Эдди в~супермаркете        
+
+[LINE]
+> An~elegant woman   starts   talking~to      Eddy.
+~ элегантная женщина начинает разговаривать~с Эдди 
+
+[MULTIPLE_CHOICE]
+> В супермаркете к Эдди подошла женщина и заговорила с ним.
++ Да, это правда.
+- Нет, это неправда.
+
+[LINE]
+Speaker724: Hello!       
+~           здравствуйте 
+
+[LINE]
+Speaker414: Oh, hello!       
+~           о   здравствуйте 
+
+[LINE]
+Speaker724: Are~you~a~doctor?
+~           вы~врач          
+
+[LINE]
+Speaker414: What? Me? Uh… 
+~           что   я   э-э 
+
+[LINE]
+Speaker414: Yes. I…~am~a~doctor.
+~           да   я~врач         
+
+[LINE]
+Speaker724: Good!  
+~           хорошо 
+
+[LINE]
+> Eddy is~not~a~doctor.
+~ Эдди не~врач         
+
+[ARRANGE]
+> Наберите услышанное
+Speaker414: [(I~have)      (a~lot~of) (money).]
+~             у~меня~есть   много      денег   
+
+[LINE]
+Speaker414: I~live in a~big   house.
+~           я~живу в  большом доме  
+
+[LINE]
+Speaker414: I~have expensive… uh...  pants.
+~           у~меня дорогие    э-э    штаны 
+
+[LINE]
+Speaker724: OK,    but…
+~           ладно  но  
+
+[POINT_TO_PHRASE]
+> Выберите вариант «срочно».
+Speaker724: (A~man~needs)   (a~doctor) (+now)!   
+~            мужчине~нужен   врач        срочно  
+
+[LINE]
+Speaker414: What?! Where~is the~man?
+~           что    где      мужчина 
+
+[LINE]
+Speaker724: He~is~near the~milk!
+~           он~возле   молока   
+
+[MULTIPLE_CHOICE]
+> Мужчина находится…
+- …в больнице.
++ …в супермаркете, возле отдела с молоком.
+- …в магазинной тележке Эдди.
+
+[LINE]
+Speaker724: Please     help     the~man! He~is~very~sick!
+~           пожалуйста помогите мужчине  ему~очень~плохо 
+
+[MULTIPLE_CHOICE]
+> Женщина просит Эдди...
+- …сходить на приём к врачу.
+- …купить молоко.
++ …помочь мужчине, которому стало плохо.
+
+[LINE]
+Speaker414: Uh-oh!
+~           ой-ёй 
+
+[LINE]
+> Eddy sees  a~woman. He runs      and talks~to~her.    
+~ Эдди видит женщину  он подбегает и   обращается~к~ней 
+
+[LINE]
+Speaker414: Hello,        are~you~a~doctor? I~need    help!  
+~           здравствуйте  вы~врач           мне~нужна помощь 
+
+[MULTIPLE_CHOICE]
+> Что делает Эдди?
++ Пытается найти настоящего врача для мужчины, которому стало плохо.
+- Плачет из-за того, что разлил молоко.
+- Везёт больного мужчину в больницу.
+
+[MATCH]
+> Коснитесь пар
+- the man <> мужчина
+- woman <> женщина
+- talking to <> разговаривать с
+- runs <> подбегает
+- is not a doctor <> не врач
+
