@@ -1,0 +1,127 @@
+[DATA]
+fromLanguageName=मुझे एक पिज़्ज़ा चाहिए
+icon=3eebaf390a99fcebfaf064cfa42f14c071b5b97f
+set=9|4
+
+[HEADER]
+> I~Want     a  Pizza   
+~ मुझे~चाहिए एक पिज़्ज़ा
+
+[LINE]
+> Lin is walking       home.   
+~ लिन है (चलकर)~जा~रही घर~(तक) 
+
+[LINE]
+> She is carrying  two pizzas.
+~ वह  है ले~जा~रही दो  पिज़्ज़ा 
+
+[MULTIPLE_CHOICE]
+> लिन के पास सात पिज़्ज़ा हैं।
+- हाँ, यह सही है।
++ नहीं, ऐसा नहीं है।
+
+[LINE]
+> She sees     Oscar      on~the~street.
+~ वह  देखती~है ऑस्कर~(को) सड़क~पर        
+
+[LINE]
+Speaker592: Hi,     Lin. That~pizza     smells~great!        
+~           नमस्ते  लिन  उस~पिज़्ज़ा~(की) बढ़िया~खुशबू~आ~रही~है 
+
+[LINE]
+Speaker508: Yes, it's  from~Emilio's~Restaurant.
+~           हाँ  यह~है एमीलिओ~के~रेस्टोरेंट~से  
+
+[LINE]
+Speaker592: Oh, I~love       that restaurant.
+~           ~   मुझे~पसंद~है वह   रेस्टोरेंट 
+
+[CONTINUATION]
+> आगे क्या आएगा?
+Speaker592: Now I~want     [a~pizza]!  
+~           अब  मुझे~चाहिए  एक~पिज़्ज़ा  
++ a~pizza  
+~ एक~पिज़्ज़ा
+- to~clean~my~apartment     
+~ अपना~फ़्लैट~साफ़~करने~के~लिए
+- some~new~clothes
+~ कुछ~नये~कपड़े    
+
+[LINE]
+Speaker508: Oh, the~restaurant is           closed now.
+~           ~   रेस्टोरेंट     (हो~चुका)~है बंद    अब  
+
+[LINE]
+Speaker592: Oh~no...   
+~           अरे~नहीं   
+
+[ARRANGE]
+> सुनकर शब्द चुनें
+Speaker592: [(Well), (you~have)         (two) (pizzas).]
+~             (तो)    तुम्हारे~पास~हैं   दो    पिज़्ज़ा   
+
+[LINE]
+Speaker592: Can~I~buy              one?
+~           क्या~मैं~खरीद~सकता~हूँ एक  
+
+[LINE]
+Speaker508: No,   sorry.    These are for~my~grandma~Lucy~and~me.
+~           नहीं  माफ़~करना  ये    हैं मेरी~दादी~लूसी~और~मेरे~लिए 
+
+[LINE]
+Speaker592: Well, can~I~have           a  piece  of~your~pizza?     
+~           (तो)  क्या~मैं~ले~सकता~हूँ एक टुकड़ा तुम्हारे~पिज़्ज़ा~का 
+
+[LINE]
+Speaker508: Uh, no,   Oscar. That's...  strange.
+~           ~   नहीं  ऑस्कर  वह~होगा    अजीब    
+
+[MULTIPLE_CHOICE]
+> लिन को लगता है कि...
++ …ऑस्कर को थोड़ा-|सा पिज़्ज़ा देना अजीब होगा।
+~  ~     ~      - ~  ~      ~    ~    ~    
+- …ऑस्कर को पिज़्ज़ा नापसंद है।
+- …ऑस्कर ने अजीबोगरीब कपड़े पहने हुए हैं।
+
+[LINE]
+> Lin leaves.     
+~ लिन चली~जाती~है 
+
+[LINE]
+Speaker592: Now I~really~want       pizza    from~that~restaurant...
+~           अब  मुझे~वाकई~में~चाहिए पिज़्ज़ा उस~रेस्टोरेंट~से       
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+> Oscar [makes~a~call]   on~his~phone.
+~ ऑस्कर  एक~कॉल~करता~है  अपने~फ़ोन~से  
+- takes it all
+- makes a ball
++ makes a call
+
+[LINE]
+Speaker592: Hi     Lucy, it's      Oscar. Do~you~have   plans for~dinner?        
+~           नमस्ते लूसी  (मैं~हूँ) ऑस्कर  क्या~आपके~हैं प्लान रात~के~भोजन~के~लिए 
+
+[LINE]
+Speaker509: I'm~having pizza    with~Lin!   Do~you~want       to~eat with~us?  
+~           मैं~खाऊँगी पिज़्ज़ा लिन~के~साथ  क्या~तुम~चाहते~हो खाना   हमारे~साथ 
+
+[LINE]
+Speaker592: Thanks!  That's a  great idea!
+~           धन्यवाद  वह~है  एक बढ़िया खयाल 
+
+[MULTIPLE_CHOICE]
+> क्या बात है! ऑस्कर ने लूसी को फ़ोन इसलिए किया...
++ ...ताकि लूसी उसे डिनर के लिए बुला ले।
+- ...ताकि वह लूसी को राज़ की एक बात बता सके।
+- ...क्योंकि लूसी उसके टेक्स्ट का जवाब नहीं दे रही थी।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- Hi <> नमस्ते
+- home <> घर
+- for dinner <> रात के भोजन के लिए
+- Oscar <> ऑस्कर
+- makes a call <> एक कॉल करता है
+
