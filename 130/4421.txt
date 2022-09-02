@@ -1,0 +1,159 @@
+[DATA]
+fromLanguageName=Падающий лифт
+icon=f5dc8cdee1c001f2b1b6c4c56613c01a458a17c3
+set=22|2
+
+[HEADER]
+> Falling  Elevator
+~ падающий лифт    
+
+[LINE]
+> Lin and Bea are~in~an~elevator. 
+~ Лин и   Би  (находятся)~в~лифте 
+
+[LINE]
+> Suddenly, the~elevator makes  a~strange sound.
+~ внезапно  лифт         издаёт странный  звук  
+
+[LINE]
+Speaker507: Did~you~hear~that?
+~           ты~это~слышала    
+
+[LINE]
+Speaker508: That~didn't~sound~good.
+~           нехороший~звук         
+
+[MULTIPLE_CHOICE]
+> Что Лин имеет в виду?
+- Ей не нравится голос Би.
+- Ей нравится музыка в лифте.
++ Лифт издаёт нехороший звук.
+
+[LINE]
+Speaker507: That~didn't~feel~good!
+~           нехорошие~ощущения    
+
+[LINE]
+Speaker508: Oh no!  The~elevator is~falling!
+~           о  нет  лифт         падает     
+
+[LINE]
+Speaker507: Oh, good.   It stopped!    
+~           о   хорошо  он остановился 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker508: [(I) (don't) (want) (to~die)…] 
+~             я   не      хочу   умирать   
+
+[LINE]
+Speaker507: AHH! The~elevator is~falling again!
+~           а-а  лифт         падает     опять 
+
+[LINE]
+Speaker508: I'm too     young  to~die!         
+~           я   слишком молода (чтобы)~умереть 
+
+[LINE]
+> The~elevator stops           again.
+~ лифт         останавливается опять 
+
+[LINE]
+Speaker507: There~are~still so  many  things          I want to~do   in my    life! 
+~           есть~ещё        так много вещей~(которые) я хочу сделать в  своей жизни 
+
+[MULTIPLE_CHOICE]
+> Би расстроена, потому что…
++ …она ещё многое хочет сделать в жизни.
+- ...у неё болит зуб.
+- …она опоздает на работу.
+
+[LINE]
+Speaker508: I want to~climb       Mt.~Everest!
+~           я хочу подняться~(на) Эверест     
+
+[LINE]
+Speaker507: I want to~win       the~New~York~Marathon!
+~           я хочу победить~(в) Нью-Йоркском~марафоне 
+
+[LINE]
+Speaker508: I want to~learn  how~to~fly~a~plane! 
+~           я хочу научиться управлять~самолетом 
+
+[LINE]
+Speaker507: I want to~teach my    cat  to~drive!     
+~           я хочу научить  моего кота водить~машину 
+
+[LINE]
+Speaker508: Wait,    what did~you~just~say? 
+~           подожди  что  ты~сейчас~сказала 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker507: Oh no!  We're~falling [again]!
+~           о  нет  мы~падаем      опять  
+- first  
+~ сначала
++ again
+~ опять
+- next     
+~ следующий
+
+[LINE]
+> There's a~very loud    sound. The~elevator stops.          
+~ звучит  очень  громкий звук   лифт         останавливается 
+
+[LINE]
+Speaker508: Wait!   
+~           подожди 
+
+[LINE]
+Speaker507: The~doors are~opening!
+~           двери     открываются 
+
+[LINE]
+Speaker507: We're~OK!    
+~           мы~в~порядке 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker508: [That~was~exciting].   
+~            это~было~волнительно  
+- That ex again
+- That was expensive
++ That was exciting
+
+[LINE]
+> Lin and Bea leave~the~elevator. Everyone is~safe.       
+~ Лин и   Би  выходят~из~лифта    все      в~безопасности 
+
+[LINE]
+Speaker507: So  what are~you~going to~do  today?  
+~           так что  ты~будешь     делать сегодня 
+
+[LINE]
+Speaker508: Nothing. I'll probably watch    TV.        What~about~you?
+~           ничего   я    наверное посмотрю телевизор  а~ты           
+
+[LINE]
+Speaker507: Me~too. Bye. 
+~           я~тоже  пока 
+
+[LINE]
+Speaker508: See~you~later.
+~           до~скорого    
+
+[MULTIPLE_CHOICE]
+> После того, как Лин и Би пережили падение в лифте, они…
++ …решили пойти домой и ничего не делать.
+- …решили заняться разными захватывающими занятиями.
+- …поехали на машине, которую вёл кот Би.
+
+[MATCH]
+> Коснитесь пар
+- We're falling <> мы падаем
+- The doors <> двери
+- stopped <> остановился
+- too <> слишком
+- and <> и
+
