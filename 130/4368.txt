@@ -1,0 +1,102 @@
+[DATA]
+fromLanguageName=Люси и динозавры
+icon=f6ce899637bb8181ee5e78382fdf71a0f01e4f95
+set=9|1
+
+[HEADER]
+> Lucy~and~the~Dinosaurs
+~ Люси~и~динозавры      
+
+[LINE]
+> Lucy opens     her~apartment~door.  
+~ Люси открывает дверь~своей~квартиры 
+
+[LINE]
+Speaker509: Hello,      Junior! 
+~           здравствуй  Джуниор 
+
+[LINE]
+Speaker415: Hello!        Can~you   help   me  write~a~report   for~school?
+~           здравствуйте  вы~можете помочь мне написать~реферат в~школу    
+
+[LINE]
+Speaker509: Oh, yes!
+~           о   да  
+
+[LINE]
+Speaker509: I'm a~great  writer.       I~have      a~very popular    blog.
+~           я   отличная писательница  у~меня~есть очень  популярный блог 
+
+[MULTIPLE_CHOICE]
+> Люси говорит, что она отличная писательница, потому что…
+- …она всегда получала высокие оценки в школе.
++ …она ведёт очень популярный блог.
+- …она каждый день пишет любовные письма.
+
+[ARRANGE]
+> Наберите услышанное
+Speaker509: [(Do~you~read) (my)  (blog)?]
+~             ты~читаешь    мой   блог   
+
+[LINE]
+Speaker415: No. 
+~           нет 
+
+[LINE]
+Speaker509: I~have      a~lot~of books.
+~           у~меня~есть много    книг  
+
+[POINT_TO_PHRASE]
+> Выберите вариант «поиска информации».
+Speaker509: (Do~you~need) my  (books) (for) (+research)?         
+~            тебе~нужны   мои  книги   для    поиска~информации  
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker415: I~don't~need your [books].
+~           мне~не~нужны ваши  книги  
++ books
+~ книги
+- report 
+~ реферат
+- apartment
+~ квартира 
+
+[LINE]
+Speaker509: What~is~your~report~about?
+~           о~чём~твой~реферат        
+
+[LINE]
+Speaker415: Dinosaurs.     
+~           (о)~динозаврах 
+
+[LINE]
+Speaker509: Why    do~you~want to~talk    to~me?  
+~           почему ты~хочешь   поговорить со~мной 
+
+[LINE]
+Speaker415: Because    you~are very  old.   
+~           потому~что вы      очень старая 
+
+[LINE]
+Speaker415: You~know  a~lot~of dinosaurs,  right?
+~           вы~знаете много    динозавров  верно 
+
+[LINE]
+Speaker509: Goodbye,     Junior. 
+~           до~свидания  Джуниор 
+
+[MULTIPLE_CHOICE]
+> Почему Джуниор решил, что Люси может рассказать ему о динозаврах?
+- Она раньше держала дома динозавра.
+- Она ведёт блог о динозаврах.
++ Люси старше него.
+
+[MATCH]
+> Коснитесь пар
+- your <> ваши
+- me <> мне
+- I have <> у меня есть
+- for <> для
+- do you want <> ты хочешь
+
