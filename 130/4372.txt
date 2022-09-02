@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=Хорошее искусство
+icon=501e7d609ee0dd5ba11ff7cdcf9740b12a7a7945
+set=10|1
+
+[HEADER]
+> Good    Art      
+~ хорошее искусство
+
+[LINE]
+> Eddy and his friend Oscar are~at~an~art~museum.  
+~ Эдди и   его друг   Оскар в~художественном~музее 
+
+[LINE]
+> Eddy looks   at~a~painting of~a~dog. 
+~ Эдди смотрит на~картину    с~собакой 
+
+[LINE]
+Speaker414: This~is~my favorite painting in the~museum!
+~           это~моя    любимая  картина  в  музее      
+
+[LINE]
+Speaker592: That painting is~boring.
+~           та   картина  скучная   
+
+[MULTIPLE_CHOICE]
+> Оскару очень понравилась картина.
+- Да, это правда.
++ Нет, это неправда.
+
+[LINE]
+Speaker414: What? I love  dogs! 
+~           что   я люблю собак 
+
+[LINE]
+Speaker592: Eddy, I'm an~art~teacher.    I know good    art.      
+~           Эдди  я   учитель~рисования  я знаю хорошее искусство 
+
+[LINE]
+Speaker592: This painting is~not good    art.      
+~           эта  картина  не     хорошее искусство 
+
+[LINE]
+Speaker414: Why?   
+~           почему 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker592: [(Good)    (art)       (is~interesting)!]
+~             хорошее   искусство   интересное       
+
+[LINE]
+Speaker592: Good    art       is~surprising!
+~           хорошее искусство удивительное  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+> Oscar sees  a~sandwich [on~a~chair].
+~ Оскар видит сэндвич     на~стуле    
+- and this chair
++ on a chair
+- on his hair
+
+[LINE]
+Speaker592: That~is good    art!      
+~           вот~это хорошее искусство 
+
+[LINE]
+Speaker414: A~sandwich on~a~chair?!
+~           сэндвич    на~стуле    
+
+[LINE]
+Speaker592: Yes! It's~interesting and surprising!  The~artist~is a~genius!
+~           да   это~интересно    и   удивительно  художник      гений    
+
+[MULTIPLE_CHOICE]
+> Почему Оскар считает художника гением?
+- Сэндвич аппетитно выглядит.
++ Сэндвич на стуле — это удивительно.
+- Сэндвич принадлежит собаке.
+
+[LINE]
+Speaker414: I don't understand art.      
+~           я не    понимаю    искусство 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «уборщик».
+> (+A~janitor) (walks)   into (the~room). He (starts)   eating~the~sandwich.
+~   уборщик     заходит  в     комнату    он  начинает  есть~сэндвич        
+
+[LINE]
+Speaker592: Excuse~me! You~can't  eat~the~art!   
+~           извините   вам~нельзя есть~искусство 
+
+[LINE]
+Speaker307: Uh,  this~isn't art.       This~is~my~lunch.
+~           э-э  это~не     искусство  это~мой~обед     
+
+[MULTIPLE_CHOICE]
+> Вы поняли? Оскар решил, что…
++ …сэндвич уборщика — экспонат выставки.
+- …Эдди съел все экспонаты в музее.
+-  …уборщик — известный художник.
+
+[MATCH]
+> Коснитесь пар
+- of a dog <> с собакой
+- surprising <> удивительно
+- the museum <> музее
+- The artist is <> художник
+- know <> знаю
+
