@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=너무 위험해
+icon=1702eab67b54c34d15254bb3fb5daefb13f3a2ac
+set=12|1
+
+[HEADER]
+> Too Dangerous
+~ 너무  위험해      
+
+[LINE]
+Speaker418: I can't~do it, Lily.
+~           난 못~하겠어    이걸  릴리   
+
+[LINE]
+Speaker416: Don't~worry, Zari.
+~           걱정~마         자리   
+
+[LINE]
+Speaker418: I'm afraid! This~is too dangerous!
+~           난   무서워     이건      너무  위험해       
+
+[MULTIPLE_CHOICE]
+> 자리는 무서워하는 게 없다.
+- 네, 맞아요.
++ 아니요, 그렇지 않아요.
+
+[LINE]
+Speaker418: Something will~go~wrong!
+~           뭔가        잘못될~거야        
+
+[LINE]
+Speaker416: It~will~be~OK.
+~           괜찮을~거야        
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker418: [(But) (how) (do~you~know) (that)?]
+~             하지만   어떻게   (네가)~알아       그걸     
+
+[LINE]
+Speaker416: Well, a~lot~of people do  this every~day.
+~           음     많은       사람들이   하니까 이걸   매일        
+
+[LINE]
+Speaker416: You don't~need~to~worry, Zari.
+~           넌   걱정~안~해도~돼            자리   
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker416: [I'm~here~with~you].
+~            내가~여기~너랑~있잖아       
+- I'm her nephew
++ I'm here with you
+- I'm here when you
+
+[LINE]
+Speaker418: Thanks, Lily. You're a~good~friend.
+~           고마워     릴리    넌      좋은~친구야        
+
+[LINE]
+Speaker418: OK.
+~           그래 
+
+[LINE]
+Speaker418: I think I'm~ready now!
+~           난 ~것~같아 (내가)~준비됐어 이제  
+
+[POINT_TO_PHRASE]
+> “타다”를 뜻하는 말을 고르세요.
+Speaker300: (Listen), (do~you~want) (+to~ride) (the) roller~coaster or not?  
+~            저기요       당신은~원해요        타는~걸      이    롤러코스터를         아님 말~거예요 
+
+[LINE]
+Speaker300: A~lot~of people~are waiting  behind~you!
+~           많은       사람들이       기다리고~있어요 당신~뒤에서     
+
+[LINE]
+Speaker300: This~is the~tallest~and oldest roller~coaster in~the~country.
+~           이건      가장~높고           가장~오래된 롤러코스터예요        전국에서           
+
+[LINE]
+Speaker416: Wait… Tallest? Oldest?  
+~           잠깐만   가장~높고    가장~오래됐다고 
+
+[LINE]
+Speaker418: OK,   I'm going~to~do~it!
+~           알겠어요  전   (이걸)~할~거예요     
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker418: And my friend, Lily, [is~coming~with~me]!
+~           그리고 제  친구      릴리가    저랑~같이~갈~거예요        
+- is~going home
+~ 갈~것이다    집에  
++ is~coming with~me
+~ 갈~것이다     저랑~같이  
+- is~very~dangerous
+~ 아주~위험하다          
+
+[LINE]
+Speaker418: Lily? Where~are~you~going?
+~           릴리    너~어디~가는~거야          
+
+[LINE]
+Speaker416: Sorry, Zari! I'm not~going~on this roller~coaster!
+~           미안해    자리    난   타지~않을~거야     이    롤러코스터를         
+
+[LINE]
+Speaker416: It's too dangerous!
+~           그건   너무  위험해       
+
+[MULTIPLE_CHOICE]
+> 자리는 롤러코스터를 타기로 결심했지만…
+- ...롤러코스터가 고장 나 버렸다.
+- ...대기 줄이 너무 길었다.
++ ...릴리는 너무 겁이 났다.
+
+[MATCH]
+> 짝을 누르세요
+- Zari <> 자리
+- oldest <> 가장 오래된
+- Listen <> 저기요
+- waiting <> 기다리고 있어요
+- my <> 제
+
