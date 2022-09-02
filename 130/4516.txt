@@ -1,0 +1,181 @@
+[DATA]
+fromLanguageName=Собеседование Джуниора
+icon=990c177e87e1e541636fcd21d879719817ad82d2
+set=46|1
+
+[HEADER]
+> Junior's~Interview    
+~ собеседование~Джуниора
+
+[LINE]
+> Junior  enters      Bea's~apartment. He~is~carrying a~briefcase.
+~ Джуниор заходит~(в) квартиру~Би      у~него~в~руках портфель    
+
+[LINE]
+Speaker415: Hello,  Bea. I'm~here~for my   interview.    
+~           привет  Би   я~пришёл~на  своё собеседование 
+
+[LINE]
+Speaker507: Um…  interview?    
+~           э-э  собеседование 
+
+[LINE]
+Speaker415: Yes. My  dad  said         you're going~on      a~trip.  So,      I would~like to~apply~for                    a~job~watering   your  plants.  
+~           да   мой папа сказал~(что) ты     собираешься~в поездку  поэтому  я хочу       предложить~свою~кандидатуру~для работы~по~поливу твоих растений 
+
+[MULTIPLE_CHOICE]
+> Junior  wants          an~interview  because...   
+~ Джуниор хочет~(пройти) собеседование потому~что   
+- …he wants         Bea to~buy some      plants   from him. 
+~  он хочет~(чтобы) Би  купила некоторые растения у    него 
+- …he wants to~ask Bea questions about her life. 
+~  он хочет задать Би  вопросы   о     её  жизни 
++ …he wants to~take~care~of Bea's~plants. 
+~  он хочет ухаживать~за    растениями~Би 
+
+[LINE]
+Speaker507: Ah!  Please,     sit~down.
+~           а-а  пожалуйста  сядь     
+
+[LINE]
+Speaker415: Thank~you, I will~sit~down.
+~           спасибо    я сяду          
+
+[ARRANGE]
+> Наберите услышанное
+> [(He) (sits~down) (and~opens)   (his)  (briefcase).]
+~   он   садится     и~открывает   свой   портфель    
+
+[LINE]
+Speaker507: Would~you~like a~cookie?
+~           хочешь         печенье  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker415: No,  thank~you. [I~don't~eat] during   business meetings.
+~           нет  спасибо     я~не~ем      во~время деловых  встреч   
+- I won't lead
+- I don’t read
++ I don't eat
+
+[LINE]
+Speaker507: Good,   because    they're~my~roommate's~cookies. She's~not~happy when  I~eat~them.
+~           хорошо  потому~что это~печенье~моей~соседки       ей~не~нравится  когда я~его~ем   
+
+[LINE]
+> Junior  gives his  résumé to~Bea.
+~ Джуниор даёт  своё резюме Би     
+
+[LINE]
+Speaker507: Did~you~write this with~a~crayon?     
+~           ты~написал    это  цветным~карандашом 
+
+[LINE]
+Speaker415: Yes. Yes,~I~did.    
+~           да   да,~так~и~есть 
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker507: OK.     Why    should~I give you  [this job]?   
+~           хорошо  почему я~должна дать тебе  эту  работу  
+- a~crayon        
+~ цветной~карандаш
++ this job   
+~ эту  работу
+- my   apartment
+~ свою квартиру 
+
+[LINE]
+Speaker415: I~am very  responsible.   I~like       to~work~hard.    
+~           я    очень ответственный  мне~нравится усердно~работать 
+
+[LINE]
+Speaker507: Have~you~watered plants   before?
+~           ты~поливал       растения раньше 
+
+[LINE]
+Speaker415: No,  but I've~been~watching videos online.
+~           нет  но  я~смотрел          видео  онлайн 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker507: [(What~are) (your) (goals) (for~the~future)?]
+~             какие      твои   цели    на~будущее       
+
+[LINE]
+Speaker415: Driving     a~flying car!   
+~           ездить~(на) летающей машине 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker415: But first   I'll~have    my~own business. And you're my  [first~customer].
+~           но  сначала у~меня~будет свой   бизнес    и   ты     мой  первый~клиент   
+- first costume maker
+- worst customer
++ first customer
+
+[LINE]
+Speaker507: Watering plants   is~a~very~big job.   
+~           полив    растений очень~важная  работа 
+
+[LINE]
+Speaker415: You~only~have two plants.   And they're dying.   
+~           у~тебя~только два растения  и   они     погибают 
+
+[LINE]
+Speaker507: Right.  My~roommate~and~I always forget   to~water them.
+~           именно  мы~с~соседкой     всегда забываем поливать их   
+
+[LINE]
+Speaker415: Bea. Listen.
+~           Би   слушай 
+
+[LINE]
+Speaker507: Yeah?
+~           да   
+
+[LINE]
+Speaker415: If   you give me  the~job, you can     eat    all~of~your~roommate's~cookies. And then,  you can    tell       her I~ate~them.      
+~           если ты  дашь мне работу   ты  сможешь съесть всё~печенье~своей~соседки       и   потом  ты  можешь рассказать ей  (что)~я~его~съел 
+
+[MULTIPLE_CHOICE]
+> Junior  says          Bea should  give him the~job because…   
+~ Джуниор говорит~(что) Би  следует дать ему работу  потому~что 
++ …she can   say     that Junior  ate  all the~cookies.
+~  она может сказать что  Джуниор съел всё печенье     
+- …he will~be very  famous    one~day.
+~  он будет   очень известным однажды 
+- …he will~drive        a~flying car    to~work   every  day. 
+~  он будет~ездить~(на) летающей машине на~работу каждый день 
+
+[LINE]
+Speaker507: Ooh. Good    idea! You~can~have~the~job!
+~           у-у  хорошая идея  работа~твоя          
+
+[LINE]
+> They shake    hands.
+~ они  пожимают руки  
+
+[LINE]
+Speaker415: We can   talk~about my  salary   later.
+~           мы можем обсудить   мою зарплату позже 
+
+[MULTIPLE_CHOICE]
+> Who is~going to~water Bea's~plants while~she's~away?
+~ кто будет    поливать растения~Би  в~её~отсутствие  
+- Junior's~dad 
+~ папа~Джуниора
+- her roommate          
+~ её  соседка~по~комнате
++ Junior 
+~ Джуниор
+
+[MATCH]
+> Коснитесь пар
+- Driving <> ездить
+- you <> тебе
+- car <> машине
+- a flying <> летающей
+- Listen <> слушай
+
