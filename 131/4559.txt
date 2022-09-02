@@ -1,0 +1,106 @@
+[DATA]
+fromLanguageName=Паспорт
+icon=643347b755001a918130ddf5f6d3e914e63a00ce
+set=3|4
+
+[HEADER]
+> The~Passport
+~ паспорт     
+
+[LINE]
+> Vikram and his  wife,    Priti, are         at~the~airport .
+~ Вікрам і   його дружина  Пріті  знаходяться в~аеропорту     
+
+[SELECT_PHRASE]
+> Виберіть пропущену фразу
+Speaker593: Oh no. [Where~is~my~passport]?
+~           о  ні   де~мій~паспорт        
++ Where is my passport
+- Here is my passport
+- What is my passport
+
+[LINE]
+Speaker593: It~is~not  here!
+~           його~немає тут  
+
+[LINE]
+Speaker560: Vikram… 
+~           Вікраме 
+
+[LINE]
+Speaker593: It~is~not  in~my~bag…   
+~           його~немає у~моїй~сумці 
+
+[LINE]
+Speaker593: And it~is~not  in~my~jacket… 
+~           і   його~немає у~моїй~куртці 
+
+[MULTIPLE_CHOICE]
+> Паспорта Вікрама немає ні в сумці, ні в куртці.
++ Так, це правда. 
+- Ні, це неправда.
+
+[LINE]
+Speaker560: But Vik…
+~           але Вік 
+
+[LINE]
+Speaker593: Oh! My  passport is~in~the~taxi !
+~           о   мій паспорт  у~таксі         
+
+[POINT_TO_PHRASE]
+> Виберіть варіант, що означає «біжить».
+> (Vikram) (+runs)   (to) (the~taxi).
+~  Вікрам    біжить   до   таксі     
+
+[LINE]
+Speaker560: Vik, no!
+~           Вік  ні 
+
+[LINE]
+> Priti runs   to Vikram  .
+~ Пріті біжить до Вікрама  
+
+[LINE]
+Speaker593: Oh no, the~taxi is~not here now!  
+~           о  ні  таксі    немає  тут  зараз 
+
+[LINE]
+Speaker593: This~is a~big  problem… 
+~           це      велика проблема 
+
+[LINE]
+Speaker560: Vikram! 
+~           Вікраме 
+
+[LINE]
+Speaker560: Your passport is~not~in~the~taxi.
+~           твій паспорт  не~у~таксі         
+
+[POINT_TO_PHRASE]
+> Виберіть варіант, що означає «руці».
+Speaker560: (Your) (passport) (is~in~your) (+hand).
+~            твій   паспорт    у~твоїй       руці  
+
+[LINE]
+Speaker593: Oh…
+~           о  
+
+[LINE]
+Speaker593: Thank~you, my  love.   
+~           дякую      моє кохання 
+
+[MULTIPLE_CHOICE]
+> Де був паспорт Вікрама?
+- У таксі.
+- У нього вдома.
++ У нього в руці.
+
+[MATCH]
+> З’єднайте пари
+- to <> до
+- Thank you <> дякую
+- Where is my passport <> де мій паспорт
+- a big <> велика
+- passport <> паспорт
+
