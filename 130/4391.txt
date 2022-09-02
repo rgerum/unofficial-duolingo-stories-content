@@ -1,0 +1,105 @@
+[DATA]
+fromLanguageName=Поездка на такси
+icon=44410efbb175e599d5fbe5b4d86050262f324ca0
+set=14|4
+
+[HEADER]
+> Taxi~Ride       
+~ поездка~на~такси
+
+[LINE]
+> Bea is~in~a~taxi. She is~looking~at the~map on her   phone.   
+~ Би  в~такси       она смотрит~на    карту   на своем телефоне 
+
+[LINE]
+Speaker507: Turn      left   at~the~end~of the~street, please.    
+~           поверните налево в~конце       улицы       пожалуйста 
+
+[LINE]
+Speaker889: I~don't~need to~turn     for~three~more~miles.
+~           мне~не~нужно сворачивать ещё~три~мили         
+
+[MULTIPLE_CHOICE]
+> Минуточку… Что только что сказал таксист?
+- Он ездит со скоростью три мили в час.
+- Он хочет пробежать три мили.
++ Ему не нужно сворачивать ещё три мили.
+
+[POINT_TO_PHRASE]
+> Выберите вариант «навигация».
+Speaker507: (+The~directions) (on~my~phone)       say           (that~road) (is~faster)…
+~             навигация        у~меня~в~телефоне  говорит~(что)  та~дорога   быстрее    
+
+[LINE]
+Speaker889: Excuse~me, I know all the~roads in~this~city. 
+~           извините   я знаю все дороги    в~этом~городе 
+
+[LINE]
+Speaker507: This~phone   knows all the~roads in every  city.  
+~           этот~телефон знает все дороги    в  каждом городе 
+
+[LINE]
+Speaker889: Ha, well, the~phone isn't~driving the~car. I'm~the~driver.
+~           ха  ну    телефон   не~ведёт      машину   я~водитель     
+
+[LINE]
+Speaker507: But I'm~paying for the~ride, right?
+~           но  я~плачу    за  поездку   верно 
+
+[MULTIPLE_CHOICE]
+> Почему Би только что это сказала?
++ Она хочет, чтобы таксист ехал по её навигатору.
+- Она подрабатывает таксистом в свободное время.
+- Ей нужно, чтобы таксист одолжил ей деньги.
+
+[LINE]
+Speaker889: OK,     OK!    
+~           хорошо  хорошо 
+
+[LINE]
+> The~driver turns        left   and stops         the~car.
+~ водитель   поворачивает налево и   останавливает машину  
+
+[LINE]
+Speaker889: We're here.     Are~you~going  swimming?
+~           мы    на~месте  вы~собираетесь плавать  
+
+[LINE]
+Speaker507: No,  I'm~going~shopping. Why?                 
+~           нет  я~еду~за~покупками  почему~(спрашиваете) 
+
+[LINE]
+Speaker889: Because    the~road stops~here.          At~the~river.
+~           потому~что дорога   здесь~заканчивается  у~реки       
+
+[ARRANGE]
+> Наберите услышанное
+Speaker507: [(Oops)… (I) (think) (my~directions) (are~wrong).]   
+~             ой      я   думаю   моя~навигация   неправильная   
+
+[LINE]
+Speaker507: I'm~so~sorry.   
+~           я~очень~сожалею 
+
+[LINE]
+Speaker889: Do~you~want to~use       my~directions?
+~           вы~хотите   использовать мою~навигацию 
+
+[LINE]
+Speaker507: Yes, please…    
+~           да   пожалуйста 
+
+[MULTIPLE_CHOICE]
+> Ой! Би поняла, что…
++ Навигация на её телефоне была плохой.
+- У неё в телефоне есть все ответы.
+- Она отличный таксист.
+
+[MATCH]
+> Коснитесь пар
+- say <> говорит
+- I <> я
+- her <> своем
+- Are you going <> вы собираетесь
+- OK <> хорошо
+
