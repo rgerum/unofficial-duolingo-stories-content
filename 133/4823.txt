@@ -1,0 +1,157 @@
+[DATA]
+fromLanguageName=사진 찍어도 돼요?
+icon=d6cfdc678db3116881efba02e683423389b53370
+set=20|4
+
+[HEADER]
+> Can~I~take~a~Picture?
+~ 사진~찍어도~돼요            
+
+[LINE]
+> Lucy~is walking~down the~street.
+~ 루시가     걸어가고~있다      길거리를       
+
+[LINE]
+> She sees an attractive young man.
+~ 그녀가 본다   한  매력적인       젊은    남자를 
+
+[LINE]
+Speaker509: Wow! Are~you that famous actor?
+~           우와   당신은     그    유명한    배우인가요 
+
+[LINE]
+Speaker385: Shh! No…  
+~           쉿    아니에요 
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker509: [(I) (just) (watched) (your) (movie)!]
+~             전   방금     봤어요       당신의    영화를     
+
+[LINE]
+Speaker385: I'm not~an~actor.
+~           저는  배우가~아니에요     
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker509: Yes,~you~are!  Can~I      [take~a~picture~of~you]?
+~           당신은~(배우가)~맞아요  제가~~해도~될까요  당신의~사진을~찍다             
++ take a picture of you
+- bake a picture or two
+- take a picture with who
+
+[LINE]
+Speaker385: OK…   quickly!
+~           알겠어요  빨리요     
+
+[LINE]
+Speaker509: So you~are  that famous actor?
+~           그럼 당신이~맞으시죠 그    유명한    배우    
+
+[LINE]
+Speaker385: Yes.
+~           네   
+
+[LINE]
+Speaker509: I~knew~it!   
+~           제가~그럴~줄~알았어요 
+
+[LINE]
+> Lucy takes a~picture of~him with~her~phone.
+~ 루시가  찍는다   사진~한~장을   그의     그녀의~휴대폰으로      
+
+[MULTIPLE_CHOICE]
+> 루시가 남자의 사진을 찍은 이유는 무엇인가요?
+~ 루시가 남자의 사진을 젝  이유는 만년필   
+- 그가 그녀의 남자친구라서.
+~ 앗  그녀의 남자친구   
++ 그가 유명한 배우라서.
+~ 앗  영어로 반갑다  
+- 그녀가 전문 사진작가라서.
+~ 그녀가 전문 사진작가위탁 
+
+[LINE]
+Speaker509: You~were great in~the~movie "Sad Cats Can't~Dance."
+~           당신은      멋졌어요  그~영화에서        슬픈  고양이는 춤추지~못한다      
+
+[LINE]
+Speaker385: I wasn't~in that movie.
+~           전 나오지~않았어요  그    영화에   
+
+[LINE]
+Speaker509: You~weren't?    
+~           (당신은)~나오지~않았다고요 
+
+[LINE]
+Speaker385: I  was~in  "Grandpa's New Hair." 
+~           저는 ~에~나왔어요  할아버지의     새   헤어스타일  
+
+[LINE]
+Speaker509: I've~never~seen~it.
+~           (전)~그건~본~적이~없어요    
+
+[LINE]
+Speaker385: Did~you~see "What's~in~My~Mouth?" I~was amazing in~that~movie!
+~           (당신은)~봤어요    내~입~속에~뭐가~있을까        저는    굉장했어요   그~영화에서        
+
+[LINE]
+Speaker509: No. 
+~           아니요 
+
+[POINT_TO_PHRASE]
+> “피”를 뜻하는 말을 고르세요.
+Speaker385: (Maybe) you saw    "(Bacon), Eggs, (Toast), and (+Blood)"?
+~            아마도    당신은 봤을~거예요   베이컨     달걀     토스트     그리고   피       
+
+[LINE]
+Speaker509: No,  I've~never~seen~it.
+~           아니요  (전)~그건~본~적이~없어요    
+
+[LINE]
+Speaker385: It's famous! Wait, are~you deleting my picture?
+~           그건   유명해요    잠깐만요  당신은     삭제하는~건가요 제  사진을     
+
+[MULTIPLE_CHOICE]
+> 남자는...
+- …루시가 자신의 머리 스타일을 좋아하는지 알고 싶어한다.
++ …루시가 자신의 사진을 삭제하고 있는지 알고 싶어한다.
+- …루시가 자신을 사랑하는지 알고 싶어한다.
+
+[LINE]
+Speaker509: Maybe. Were~you in~anything~else?
+~           아마도요   당신이      나온~다른~작품은~없나요    
+
+[LINE]
+Speaker385: I've~been~in fifty movies!
+~           전~출연했어요      오십~편의 영화에    
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+> Lucy deletes [the picture].
+~ 루시가  삭제한다     그   사진을      
++ the picture
+~ 그   사진     
+- the movie
+~ 그   영화   
+- the cats
+~ 그   고양이 
+
+[LINE]
+Speaker509: If  you see that actor from  "Sad Cats Can't~Dance", can~you~take a~picture for~me?
+~           만약에 당신이 보거든 그    배우를   ~에~나온  슬픈  고양이는 춤추지~못한다       찍어줄~수~있어요    사진~한~장을   저를~위해  
+
+[MULTIPLE_CHOICE]
+> 루시가 사진을 삭제한 이유는 무엇인가요?
+- 그 남자는 사실 배우가 아니었기 때문이다.
+- 새로 머리하신 할아버지의 사진을 찍고 싶었기 때문이다.
++ 그 남자는 영화 "Sad Cats Can't~Dance|"에 나온 배우가 아니었기 때문이다.
+~ ~ ~   ~   슬픈  고양이는 춤추지~못한다     ~  ~  ~   ~    ~    
+
+[MATCH]
+> 짝을 누르세요
+- Cats <> 고양이는
+- Bacon <> 베이컨
+- my <> 제
+- just <> 방금
+- No <> 아니에요
+
