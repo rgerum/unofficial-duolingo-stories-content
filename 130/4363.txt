@@ -1,0 +1,110 @@
+[DATA]
+fromLanguageName=Я очень хочу собаку
+icon=f0d8a8f3340da1d468766192cafa7ac1ee986355
+set=7|4
+
+[HEADER]
+> I Really Want a~Dog 
+~ я очень  хочу собаку
+
+[LINE]
+Speaker415: Dad,  we~need   to~talk.    I really want a~dog. 
+~           папа  нам~нужно поговорить  я очень  хочу собаку 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker414: Junior,  a~dog       [is~a~lot~of~work]…
+~           Джуниор  (с)~собакой  много~работы      
+- in a lot of weeks
+- if a love for work
++ is a lot of work
+
+[LINE]
+Speaker415: I can  work!     I'm very  responsible.  
+~           я могу работать  я   очень ответственный 
+
+[LINE]
+Speaker414: Really?
+~           правда 
+
+[LINE]
+Speaker414: Then  first,   you~need   to~wash the~car…
+~           тогда сначала  тебе~нужно помыть  машину  
+
+[MULTIPLE_CHOICE]
+> Почему Эдди сказал Джуниору помыть машину?
+- Собака Джуниора сильно испачкала машину.
++ Он хочет, чтобы Джуниор доказал, что он ответственный.
+- Джуниору придётся ездить на машине на новую работу.
+
+[LINE]
+Speaker415: Sure!   
+~           конечно 
+
+[LINE]
+Speaker414: …clean  the~bathroom…
+~            вымыть ванную       
+
+[LINE]
+Speaker415: OK!    
+~           хорошо 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker414: …[(and) (clean)  (the~windows)!]
+~              и     вымыть   окна          
+
+[LINE]
+Speaker415: Oh no… 
+~           о  нет 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «спустя».
+> (Three) (hours) (+later),  Junior  finishes    cleaning (their) apartment .
+~  три     часа     спустя   Джуниор заканчивает уборку    их     квартиры   
+
+[LINE]
+Speaker415: Dad!  Look     at my  work!  
+~           папа  посмотри на мою работу 
+
+[LINE]
+Speaker414: Wow! This looks    great!   You~are very  responsible.  
+~           ого  это  выглядит чудесно  ты      очень ответственный 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker414: You~can~have   [a~dog]! 
+~           можешь~завести  собаку  
+- a~window
+~ окно    
+- a~toilet
+~ туалет  
++ a~dog 
+~ собаку
+
+[LINE]
+Speaker415: No,  thank~you! I don't want a~dog  now.   
+~           нет  спасибо    я не    хочу собаку теперь 
+
+[LINE]
+Speaker414: But Junior,  I don't understand…
+~           но  Джуниор  я не    понимаю    
+
+[LINE]
+Speaker415: I'm tired! I don't want to~be responsible!  
+~           я   устал  я не    хочу быть  ответственным 
+
+[MULTIPLE_CHOICE]
+> Джуниор решил, что...
+- …лучше взять четырёх собак из приюта.
++ …у него нет сил ухаживать за собакой.
+- …вместо собаки хочет корову.
+
+[MATCH]
+> Коснитесь пар
+- to talk <> поговорить
+- and <> и
+- clean <> вымыть
+- tired <> устал
+- now <> теперь
+
