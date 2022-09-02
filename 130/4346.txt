@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Вегетарианец
+icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
+set=3|3
+
+[HEADER]
+> The~Vegetarian
+~ вегетарианец  
+
+[LINE]
+> Vikram is~reading~a~menu in a~nice  restaurant.
+~ Викрам читает~меню       в  хорошем ресторане  
+
+[LINE]
+Speaker385: Welcome!         
+~           добро~пожаловать 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker593: Hello.        I~have      a~question about  [the~menu].
+~           здравствуйте  у~меня~есть вопрос     насчёт  меню      
+- the man to
+- the men
++ the menu
+
+[LINE]
+Speaker593: I~am~a~vegetarian.
+~           я~вегетарианец    
+
+[LINE]
+Speaker593: Is~there     vegetarian     food?
+~           (у~вас)~есть вегетарианская еда  
+
+[MULTIPLE_CHOICE]
+> Викрам любит есть мясо.
+- Да, это правда.
++ Нет, это неправда.
+
+[POINT_TO_PHRASE]
+> Выберите вариант «стейки».
+Speaker385: (Yes), (we~have)    (very~good)     (+steaks).
+~            да     у~нас~есть   очень~хорошие    стейки  
+
+[LINE]
+Speaker593: Steaks are~meat. I do~not eat meat.
+~           стейки это~мясо  я не     ем  мясо 
+
+[LINE]
+Speaker385: Oh, yes. I~am~sorry.
+~           о   да   простите   
+
+[LINE]
+Speaker385: The~chicken is~delicious. 
+~           курица      очень~вкусная 
+
+[MULTIPLE_CHOICE]
+> Стоп... Что? Официант считает, что Викрам...
++ …должен заказать курицу.
+- ...не голоден.
+- …ненавидит курицу.
+
+[LINE]
+Speaker593: Chicken~is~meat.  
+~           курица~—~это~мясо 
+
+[LINE]
+Speaker593: I do~not want meat!
+~           я не     хочу мясо 
+
+[LINE]
+Speaker385: We~have    salad…
+~           у~нас~есть салат 
+
+[LINE]
+Speaker593: Oh, I~like       salad! What~is in~the~salad?
+~           о   мне~нравится салат  что     в~салате     
+
+[LINE]
+Speaker385: There~is tomato,  lettuce,     fish…
+~           там~есть помидор  салат~латук  рыба 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker593: I do~not eat fish! I~am~a~vegetariann]!
+~           я не     ем  рыбу  я~вегетарианец      
++ vegetarian  
+~ вегетарианец
+- salad
+~ салат
+- restaurant
+~ ресторан  
+
+[LINE]
+Speaker385: We~have    fries…        
+~           у~нас~есть картофель~фри 
+
+[LINE]
+Speaker593: OK.     Fries~are~fine.        
+~           хорошо  картофель~фри~подойдет 
+
+[LINE]
+Speaker385: Fries,         perfect. And… a~burger?
+~           картофель~фри  отлично  и    бургер   
+
+[LINE]
+Speaker593: No~meat,       please!    
+~           никакого~мяса  пожалуйста 
+
+[MULTIPLE_CHOICE]
+> Чем официант рассердил Викрама?
+- Он не помнит имя Викрама.
++ Он постоянно забывает, что тот вегетарианец.
+- В ресторане невкусная еда.
+
+[MATCH]
+> Коснитесь пар
+- a nice <> хорошем
+- What is <> что
+- I like <> мне нравится
+- a burger <> бургер
+- tomato <> помидор
+
