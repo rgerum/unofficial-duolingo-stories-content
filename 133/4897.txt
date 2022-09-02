@@ -1,0 +1,191 @@
+[DATA]
+fromLanguageName=너무 비싸요
+icon=f53bcbcd74f00acabcca4d9d2408fb16e6d30f3f
+set=39|2
+
+[HEADER]
+> It's Too Expensive
+~ 그건   너무  비싸요      
+
+[LINE]
+> Vikram~and Priti wait for~a~realtor outside~a~house with~a~"for~sale"~sign.
+~ 비크람과       프리티가  기다린다 부동산~중개인을      한~집~앞에서         "매매"~표지판이~붙은           
+
+[LINE]
+Speaker560: Wow, I love  this house! It's beautiful~and so big!
+~           우와   난 맘에~들어 이    집이     이건   아름답고          정말 커   
+
+[LINE]
+Speaker593: I'm not~sure. It's too expensive.
+~           난   잘~모르겠어    이건   너무  비싸        
+
+[LINE]
+> The~realtor greets them.
+~ 부동산~중개인이    인사한다   그들에게 
+
+[LINE]
+Speaker988: Welcome! Which room do~you~want~to~see first?
+~           어서~오세요   어느    방을   보고~싶으세요            먼저    
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker560: Vikram loves to~bake. [Let's~see~the~kitchen]!
+~           비크람은   좋아해요  빵~굽는~걸    주방을~먼저~봐요              
+- Let's see the chicken
++ Let's see the kitchen
+- Let's get a kitten
+
+[LINE]
+> They look~around the~kitchen. Priti opens the~oven.
+~ 그들이  돌아본다        주방을          프리티가  열어본다  오븐을      
+
+[LINE]
+Speaker560: Vikram, you could~bake so many great cakes here!
+~           비크람     당신이 구울~수~있겠어   정말 많은   훌륭한   케이크를  여기서  
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker593: [(I) (can~bake) (great) (cakes) (anywhere).]
+~             난   구울~수~있어    훌륭한     케이크를    어디서든지      
+
+[LINE]
+Speaker988: The~kitchen also has two  dishwashers.
+~           주방엔         또한   있어요 두~개의 식기세척기가      
+
+[LINE]
+Speaker560: Two  dishwashers? How~wonderful, Vikram!
+~           두~개의 식기세척기요       잘~됐다           비크람    
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker593: I prefer [to~wash~my~dishes] by~hand.
+~           난 더~좋아    설거지하는~게            손으로     
+- to watch my dishes
++ to wash my dishes
+- to brush my fishes
+
+[LINE]
+> The~realtor takes them upstairs.
+~ 부동산~중개인이    데려~간다 그들을  위층으로     
+
+[LINE]
+Speaker988: There~are four bedrooms!
+~           ~이~있어요    네~개의 침실       
+
+[CONTINUATION]
+> What comes next?
+~ 무엇이  오나요   다음에  
+Speaker593: It's~just~the~two~of~us. We  don't~need [that many rooms].
+~           저희는~둘~뿐이에요               저희는 필요~없어요      그렇게  많은   침실이    
++ that many rooms
+~ 그렇게  많은   침실   
+- all~these sheep
+~ 이~모든      양들   
+- three swimming~pools
+~ 세~개의  수영장           
+
+[LINE]
+Speaker560: But look, the~windows~are so big!
+~           하지만 봐     창문들이            정말 커   
+
+[LINE]
+Speaker593: If~we~have~big~windows, then we'll~have~to~buy a~lot~of cleaning~products.
+~           창문들이~크면                 그러면  사야~할~거야           많은       청소용품들을            
+
+[LINE]
+Speaker593: This house~is too expensive.
+~           이    집은       너무  비싸요       
+
+[LINE]
+Speaker988: Maybe I  can~talk     to~the~owners about~the~price. Excuse~me.
+~           아마도   제가 얘기할~수~있을~거예요 집주인들과         가격에~대해           실례할게요     
+
+[LINE]
+> The~realtor leaves to~make~a~call.
+~ 부동산~중개인이    나간다    전화를~하려고        
+
+[LINE]
+Speaker560: Can~you~please~stop complaining?
+~           제발~그만해~줄래           불평하는~걸      
+
+[MULTIPLE_CHOICE]
+> Priti wants Vikram to~stop…
+~ 프리티는  원한다   비크람이   ~을~그만하길 
++ …saying bad things about~the~house.
+~  말하는~것  나쁜  점들을    집에~대해           
+- …saying good things about~the~house.
+~  말하는~것  좋은   점들을    집에~대해           
+- …buying all~the houses in~town.
+~  사는~것   모든      집들을    동네에~있는  
+
+[LINE]
+Speaker593: You~don't~understand. It's part of~my~plan. I want the~owner to~lower the~price.
+~           모르는~소리~마              그건   일부야  내~계획의       난 원해   집주인이      낮추기를     가격을       
+
+[LINE]
+> The~realtor returns.
+~ 부동산~중개인이    돌아온다    
+
+[LINE]
+Speaker988: Good news!  I  spoke to~the~owners and they'll~lower the~price.
+~           좋은   소식이에요  제가 얘기했어요 집주인들과         그리고 낮추겠대요         가격을       
+
+[CONTINUATION]
+> What comes next?
+~ 무엇이  오나요   다음에  
+Speaker593: Amazing! Then we  will~buy [this house]!
+~           잘~됐네요    그럼   저희가 살게요       이    집을     
+- tickets~to~Paris
+~ 파리행~표           
++ this house
+~ 이    집    
+- a~bowl~of soup
+~ 한~그릇의     수프  
+
+[LINE]
+Speaker560: No,  we~won't!
+~           아니요  안~살~거예요  
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker593: [(But) (I~thought) (you) (loved)   (this~house)?]
+~             하지만   ~인~줄~알았는데   당신이   맘에~들어했다   이~집을         
+
+[LINE]
+Speaker560: That~was before   you started~complaining.
+~           그건       ~하기~전이었지 당신이 불평을~시작했다            
+
+[LINE]
+Speaker560: Now I~think you're right. This house has   too many rooms, too many windows, and too many dishwashers!
+~           이제는 ~인~것~같아 당신~말이  맞다     이    집은    갖고~있어 너무  많은   방들을    너무  많은   창문들을     그리고 너무  많은   식기세척기들을     
+
+[LINE]
+Speaker593: But I love  the~two~dishwashers!
+~           하지만 난 맘에~들어 두~개의~식기세척기가         
+
+[LINE]
+Speaker560: I~thought you preferred doing~dishes by~hand.
+~           ~인~줄~알았는데 당신이 더~좋아한다    설거지하는~걸      손으로     
+
+[LINE]
+Speaker593: No~one~prefers~that.
+~           그런~사람이~어딨어          
+
+[MULTIPLE_CHOICE]
+> Why was~Vikram complaining about~the~house?
+~ 왜   비크람은       불평했나요       그~집에~대해서        
+- He wanted at~least three dishwashers.
+~ 그는 원했다    최소한      세~개의  식기세척기를      
+- He didn't~think it~was big~enough for~two~people.
+~ 그는 생각하지~않았다     집이     충분히~크다고    두~사람을~위해       
++ He wanted~to~make the~owner lower~the~price.
+~ 그는 ~하게~하고~싶었다     집주인이      가격을~낮추다         
+
+[MATCH]
+> 짝을 누르세요
+- Welcome <> 어서 오세요
+- love <> 맘에 들어
+- anywhere <> 어디서든지
+- We <> 저희는
+- Vikram and <> 비크람과
+
