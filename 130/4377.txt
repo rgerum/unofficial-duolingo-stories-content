@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Цветы Оскара
+icon=3bc2c3a627aad5f5aef4f68ae652c16713f9048f
+set=11|2
+
+[HEADER]
+> Oscar's~Flowers
+~ цветы~Оскара   
+
+[LINE]
+> Oscar is~in~his~garden. He sees  his    co-worker,         Eddy.
+~ Оскар в~своём~саду      он видит своего коллегу~по~работе  Эдди 
+
+[LINE]
+Speaker592: Eddy! Why~are~you~wearing a~nice   shirt   today?   You never~wear        nice~shirts.     
+~           Эдди  почему~на~тебе      красивая рубашка сегодня  ты  никогда~не~носишь красивые~рубашки 
+
+[LINE]
+Speaker414: I'm~meeting~my             date     now!   
+~           я~иду~на~свидание~со~своей девушкой сейчас 
+
+[LINE]
+Speaker592: Hmm. Do~you~have any          flowers for your  date?    Or  chocolates?        
+~           хм   у~тебя~есть какие-нибудь цветы   для твоей девушки  или шоколадные~конфеты 
+
+[LINE]
+Speaker414: I can't   buy    her anything now…    I'm~late!   
+~           я не~могу купить ей  ничего   теперь  я~опаздываю 
+
+[MULTIPLE_CHOICE]
+> Эдди купил конфеты и цветы своей девушке.
++ Нет, это неправда.
+- Да, это правда.
+
+[LINE]
+Speaker592: You can    give     her some~of~my~flowers.
+~           ты  можешь подарить ей  мои~цветы          
+
+[LINE]
+> Oscar gives Eddy flowers from his    garden.
+~ Оскар даёт  Эдди цветы   из   своего сада   
+
+[MULTIPLE_CHOICE]
+> Зачем Оскар дал Эдди цветы?
+- Он любит девушку Эдди.
+- Он идёт на свидание с Эдди.
++ Чтобы Эдди подарил их девушке на свидании.
+
+[LINE]
+Speaker414: I can't   take  those~flowers.
+~           я не~могу взять эти~цветы     
+
+[LINE]
+Speaker592: Do~you~like   this person?
+~           тебе~нравится эта  особа  
+
+[LINE]
+Speaker414: Yes! She's really funny.  
+~           да   она   очень  веселая 
+
+[LINE]
+Speaker592: Then  give   her these~flowers.
+~           тогда подари ей  эти~цветы     
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker414: Oscar, I don't~want [the~flowers]!
+~           Оскар  я не~хочу     цветы        
+- to~go~to~work 
+~ идти~на~работу
+- a~nice~shirt    
+~ красивую~рубашку
++ the~flowers
+~ цветы      
+
+[LINE]
+Speaker592: Why?   
+~           почему 
+
+[LINE]
+> Eddy starts~sneezing.
+~ Эдди начинает~чихать 
+
+[MULTIPLE_CHOICE]
+> Что делает Эдди?
+- плачет
++ чихает
+- кричит
+
+[LINE]
+Speaker592: Eddy? Are~you~OK?  
+~           Эдди  ты~в~порядке 
+
+[LINE]
+Speaker414: No!  I'm~allergic    to~flowers!
+~           нет  у~меня~аллергия на~цветы   
+
+[LINE]
+Speaker592: Oh no.  Your face is~very~red.  
+~           о  нет  твоё лицо очень~красное 
+
+[LINE]
+Speaker414: Ugh. I~feel~terrible…
+~           ох   мне~очень~плохо 
+
+[LINE]
+Speaker592: Well, have~fun   on~your~date!     
+~           ну    повеселись на~своём~свидании 
+
+[MULTIPLE_CHOICE]
+> Бедный Эдди! Почему ему плохо?
++ У него аллергия на цветы.
+- У него нет подарка для Оскара.
+- Он вспомнил, что свидание завтра.
+
+[MATCH]
+> Коснитесь пар
+- date <> девушкой
+- any <> какие-нибудь
+- have fun <> повеселись
+- Yes <> да
+- He <> он
+
