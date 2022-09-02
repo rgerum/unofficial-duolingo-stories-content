@@ -1,0 +1,199 @@
+[DATA]
+fromLanguageName=해적은 멋있어
+icon=165a7a41d8d4b3060ca395954c2835c4ff28f8ce
+set=37|1
+
+[HEADER]
+> Pirates~Are Cool
+~ 해적은         멋있어 
+
+[LINE]
+> Zari~and~Junior~are at~an~amusement~park.
+~ 자리와~주니어가            놀이공원에~있다             
+
+[LINE]
+Speaker415: Thanks for~bringing me to~Pirate~Land, Zari!  Everything~here~is so cool!
+~           고마워요   데려와줘서        절  해적랜드에           자리~누나  여기~있는~모든~게         정말 멋져요  
+
+[LINE]
+Speaker418: Yeah, I  used~to~love this~place when~I~was~your~age.
+~           응     나도 좋아했었어        여길         내가~너만~했을~때          
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker415: [(Let's~go) (see) (the~singing~pirate~show)!]
+~             가서         봐요    노래하는~해적쇼를                 
+
+[LINE]
+Speaker418: No, they're terrible~singers.
+~           아니  그들은     노래를~진짜~못해        
+
+[LINE]
+Speaker415: Well, then can~you~buy me  a~pirate~hat?
+~           음     그럼   사줄~수~있어요    저한테 해적~모자를       
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker418: Sorry, your dad only [gave~us~money] for~food~and~rides.
+~           미안해    네    아빠가 단지    돈만~주셨어         음식과~놀이기구~표를~살      
+- gave us honey
+- waved some money
++ gave us money
+
+[LINE]
+> Suddenly, Zari sees a boy  from~school.
+~ 갑자기       자리가  본다   한 남자애를 학교~친구인      
+
+[LINE]
+Speaker418: Oh~no! It's Paul!
+~           아~이런   저건   폴이야  
+
+[LINE]
+Speaker418: I don't~want him to~see~me here! I really like him! He'll~think I'm not~cool!
+~           난 원치~않아      그가  날~보길      여기서   난 정말로    좋아해  그를   그가~생각할~거야   내가  멋지지~않다고  
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker415: [(But) (Pirate~Land~is) (super) (cool)!]
+~             하지만   해적랜드는            진짜로     멋진데요   
+
+[LINE]
+Speaker418: Let's~hide in~the~gift~shop.
+~           숨자         기념품~가게~안에        
+
+[CONTINUATION]
+> What comes next?
+~ 무엇이  오나요   다음에  
+> They run~into [the~gift~shop].
+~ 그들이  뛰어~들어간다   기념품~가게로        
+- the~refrigerator
+~ 냉장고             
+- a~train~station
+~ 기차역            
++ the~gift~shop
+~ 기념품~가게       
+
+[LINE]
+Speaker415: I  have~an~idea. You can~wear a~pirate~costume! Then Paul won't~know who~you~are!
+~           제게 좋은~생각이~있어요    누나가 입으면~돼요   해적~의상을            그러면  폴이   모를~거예요     누나가~누군지     
+
+[LINE]
+Speaker418: I~don't~know…
+~           글쎄           
+
+[LINE]
+Speaker415: Put~on this hat, this eye~patch… and this fake~beard!
+~           써요     이    모자를  이    안대를        그리고 이    가짜~수염도~붙여요 
+
+[LINE]
+Speaker418: Junior, this~is crazy!    
+~           주니어     이건      바보~같은~짓이야 
+
+[LINE]
+Speaker415: Look, Paul~is coming over~here!
+~           봐요    폴이      오고~있어요 여기로       
+
+[LINE]
+Speaker418: Ugh! Fine!
+~           어후   알았어  
+
+[LINE]
+> Zari quickly buys~and puts~on the~costume.
+~ 자리가  재빨리     사서       착용한다    해적~의상을      
+
+[MULTIPLE_CHOICE]
+> Wait… why is~Zari~putting~on a~costume?
+~ 잠깐만요  왜   자리가~착용하고~있나요       의상을       
+- She wants~to~do~a~pirate~dance for~Paul.
+~ 그녀는 해적~춤을~추고~싶다                폴을~위해    
+- She wants~to~get a~job at~Pirate~Land.
+~ 그녀는 얻고~싶다        일자리를  해적랜드에서         
++ She doesn't~want Paul to~see her.
+~ 그녀는 원치~않는다       폴이   보는~걸   그녀를 
+
+[LINE]
+> Paul sees Zari.
+~ 폴이   본다   자리를  
+
+[LINE]
+Speaker1321: Zari, is~that~you?
+~            자리    너~맞아        
+
+[LINE]
+Speaker418: Um… hi, Paul.
+~           음   안녕  폴    
+
+[LINE]
+Speaker1321: Wow, you really like   pirates, don't~you?
+~            우와   넌   정말     좋아하는구나 해적을      그치        
+
+[LINE]
+Speaker418: Haha… No. I hate pirates!
+~           하하    아니  난 싫어해  해적을     
+
+[CONTINUATION]
+> What comes next?
+~ 무엇이  오나요   다음에  
+Speaker1321: But you're wearing [a~pirate~costume].
+~            하지만 네가     입고~있잖아   해적~의상을            
+- warm socks
+~ 따뜻한  양말   
++ a~pirate~costume
+~ 해적~의상           
+- a~wedding~dress
+~ 웨딩드레스          
+
+[LINE]
+Speaker418: Uh… yeah… The~kid~I'm~babysitting loves  pirates.
+~           어   맞아    내가~봐주는~아이가              아주~좋아해 해적을     
+
+[LINE]
+Speaker1321: Well, I think pirates~are cool. I'm actually performing in~the~singing~pirate~show.
+~            음     난 생각해   해적이         멋지다고  난   사실       공연할~거야     노래하는~해적쇼에서                 
+
+[LINE]
+Speaker418: What?!
+~           뭐라고   
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker1321: [I~was~going~to~invite~you], but you just said you hate  pirates…
+~             내가~널~초대하려~했어                하지만 네가  방금   말했지  넌   싫어한다고 해적을     
+- I was going tonight too
++ I was going to invite you
+- Now it's going to bite you
+
+[LINE]
+Speaker418: Wait, I actually love   pirates! I~was joking! 
+~           잠깐만   난 사실       아주~좋아해 해적을      내가    농담한~거였어 
+
+[LINE]
+Speaker1321: I have~to~go.
+~            난 가봐야~돼      
+
+[LINE]
+> Paul walks~away.
+~ 폴이   걸어가버린다     
+
+[LINE]
+Speaker415: Sorry, Zari.  Can~I~have your pirate~hat?
+~           안됐어요   자리~누나  제가~가져도~돼요  누나의  해적~모자를     
+
+[MULTIPLE_CHOICE]
+> Why does~Zari~now~say she~loves pirates?
+~ 왜   자리는~이제~말하나요       좋아한다고     해적을     
++ She wants Paul to~invite her to~the~show.
+~ 그녀는 원한다   폴이   초대하길      그녀를 공연에         
+- She learned that her mother~is a~pirate.
+~ 그녀는 알게~됐다   ~란~걸 그녀의 엄마가       해적이다     
+- A  pirate gave her  his favorite eye~patch.
+~ 어떤 해적이    줬다   그녀에게 그가  가장~좋아하는  안대를       
+
+[MATCH]
+> 짝을 누르세요
+- walks away <> 걸어가버린다
+- What <> 뭐라고
+- to see me <> 날 보길
+- No <> 아니
+- see <> 봐요
+
