@@ -1,0 +1,154 @@
+[DATA]
+fromLanguageName=Сфотографируйте меня
+icon=7dd783a29013b7951880f8d2428316358039470c
+set=8|3
+
+[HEADER]
+> Take~My~Photo       
+~ сфотографируйте~меня
+
+[LINE]
+> Zari stops         her    art~teacher,       Oscar,    outside~the~classroom.
+~ Зари останавливает своего учителя~рисования  Оскар(а)  за~дверью~класса      
+
+[LINE]
+Speaker418: Can~you   take~my~photo,         please?    
+~           вы~можете сфотографировать~меня  пожалуйста 
+
+[LINE]
+Speaker592: Why?  
+~           зачем 
+
+[LINE]
+Speaker418: I~need~it     for my   social~media.
+~           мне~это~нужно для моих соцсетей     
+
+[MULTIPLE_CHOICE]
+> Почему Зари хочет, чтобы Оскар её сфотографировал?
+- Она хочет отправить фото мальчику, который ей нравится.
++ Она хочет разместить фото в соцсетях.
+- Она не умеет пользоваться камерой.
+
+[LINE]
+Speaker592: I'm~late~for   a~meeting with the~other teachers,  Zari.
+~           я~опаздываю~на совещание с    другими   учителями  Зари 
+
+[LINE]
+Speaker418: Please!    
+~           пожалуйста 
+
+[LINE]
+Speaker592: Ugh, OK.    
+~           ох   хорошо 
+
+[LINE]
+Speaker418: Thanks.  Here's my  phone.  
+~           спасибо  вот    мой телефон 
+
+[LINE]
+Speaker592: OK.    
+~           хорошо 
+
+[LINE]
+Speaker418: Wait.      Do~I~look~good?  
+~           подождите  я~хорошо~выгляжу 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker592: [I~don't~know].
+~            я~не~знаю     
+- I do now
+- I do not
++ I don't know
+
+[LINE]
+Speaker418: Yes. I always look~good.     
+~           да   я всегда хорошо~выгляжу 
+
+[LINE]
+Speaker592: Great.  
+~           отлично 
+
+[LINE]
+Speaker418: Wait.      Do~you~want to~take~the~photo next~to~the~door…
+~           подождите  вы~хотите   сфотографировать  рядом~с~дверью   
+
+[LINE]
+Speaker418: …or  in~front~of~the~door?
+~            или перед~дверью         
+
+[LINE]
+Speaker592: Next~to~the~door.
+~           рядом~с~дверью   
+
+[LINE]
+Speaker418: Maybe in~front~of~the~door…
+~           может перед~дверью         
+
+[LINE]
+Speaker592: Zari!
+~           Зари 
+
+[MULTIPLE_CHOICE]
+> Почему Оскар раздражён?
++ Зари не может решить, где ей сфотографироваться.
+- Зари заблокировала дверь.
+- Зари хочет переодеться в другую одежду.
+
+[LINE]
+Speaker418: OK!     Take~the~photo.
+~           хорошо  фотографируйте 
+
+[LINE]
+> Oscar~takes~a~photo.
+~ Оскар~фотографирует 
+
+[LINE]
+Speaker418: Thanks! 
+~           спасибо 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «неправильно».
+Speaker418: (Wait).      (This~is) (+wrong).      
+~            подождите    это        неправильно  
+
+[LINE]
+Speaker418: This~is a~photo~of~you. 
+~           это     ваша~фотография 
+
+[LINE]
+Speaker418: I want~you         to~take~a~photo~of~me!
+~           я хочу,~(чтобы)~вы сфотографировали~меня 
+
+[LINE]
+Speaker418: Oh no!  Is~it~already~online?!
+~           о  нет  она~уже~онлайн        
+
+[MULTIPLE_CHOICE]
+> Ой-ёй! Что спросила Зари?
++ Опубликовал ли Оскар своё фото онлайн.
+- Является ли Оскар профессиональным фотографом.
+- Заказал ли Оскар пиццу с помощью её телефона.
+
+[LINE]
+Speaker592: Oops.
+~           ой   
+
+[LINE]
+Speaker418: Oh… look!     Fifty      people like     your photo!     
+~           о   смотрите  пятидесяти людям  нравится ваша фотография 
+
+[MULTIPLE_CHOICE]
+> Скольким людям понравилась фотография Оскара?
++ Пятидесяти.
+- Никому не понравилась.
+- Понравилась только Зари.
+
+[MATCH]
+> Коснитесь пар
+- like <> нравится
+- Oops <> ой
+- social media <> соцсетей
+- next to the door <> рядом с дверью
+- Can you <> вы можете
+
