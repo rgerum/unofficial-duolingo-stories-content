@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Похороны рыбки
+icon=d269170970dbcc5a5f80f6ea1ffed7394ae2b584
+set=17|2
+
+[HEADER]
+> Fish~Funeral  
+~ похороны~рыбки
+
+[LINE]
+> Lily sees  her    neighbor, Junior.   He's crying.
+~ Лили видит своего соседа    Джуниора  он   плачет 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker416: Junior?  [What's~wrong]?
+~           Джуниор   что~не~так    
++ What's wrong
+- What's on
+- What's long
+
+[LINE]
+Speaker415: Bubbles died!
+~           Баблз   умер 
+
+[LINE]
+Speaker416: Your fish? 
+~           твоя рыбка 
+
+[LINE]
+Speaker415: Yes. He was so  young!
+~           да   он был так молод 
+
+[POINT_TO_PHRASE]
+> Выберите вариант «похороны».
+Speaker416: I can  (help).   I (know~a~lot) (about) (+funerals).
+~           я могу  помочь   я  много~знаю   про      похороны  
+
+[LINE]
+> Lily and Junior  take    the~fish into Junior's~bathroom.        
+~ Лили и   Джуниор относят рыбку    в    в~ванную~комнату~Джуниора 
+
+[LINE]
+Speaker416: We can   give~your~fish       a~burial   at~sea.
+~           мы можем устроить~твоей~рыбке погребение в~море 
+
+[MULTIPLE_CHOICE]
+> Минуточку… Что Лили имеет в виду под «погребением в море»?
++ Они смоют его в унитаз.
+- Джуниор — капитан корабля.
+- Баблз всегда хотел стать моряком.
+
+[LINE]
+Speaker416: Do~you~want to~talk~about some~nice~memories    of~Bubbles?
+~           ты~хочешь   поговорить~о  хороших~воспоминаниях о~Баблзе   
+
+[LINE]
+Speaker415: Hmmm… Well, I~liked       watching       Bubbles swim.   
+~           хм    ну    мне~нравилось смотреть~(как) Баблз   плавает 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker415: [(And) (he~liked)      (watching~me~eat).]    
+~             и     ему~нравилось   смотреть~(как)~я~ем   
+
+[LINE]
+Speaker415: And he really loved my  jokes!
+~           и   он очень  любил мои шутки 
+
+[LINE]
+Speaker416: OK,    Junior.  That's~good.
+~           ладно  Джуниор  это~хорошо  
+
+[LINE]
+> Lily puts   the~fish into the~toilet.
+~ Лили кладёт рыбку    в    унитаз     
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker416: Are~you~ready [to~say~goodbye]?
+~           ты~готов       попрощаться     
++ to~say~goodbye
+~ попрощаться   
+- to~buy~some~socks
+~ купить~носки     
+- to~take~a~shower
+~ принять~душ     
+
+[LINE]
+> Suddenly, Bubbles starts   swimming.
+~ внезапно  Баблз   начинает плавать  
+
+[LINE]
+Speaker415: Bubbles!
+~           Баблз   
+
+[LINE]
+Speaker416: Whoa. That fish  is~alive.
+~           ого   эта  рыбка жива     
+
+[LINE]
+Speaker415: But how~do~we~get~him    out~of the~toilet?
+~           но  как~нам~его~вытащить из     унитаза    
+
+[LINE]
+Speaker416: I can't   help   you  with that.
+~           я не~могу помочь тебе с    этим 
+
+[MULTIPLE_CHOICE]
+> Как Джуниор и Лили узнали, что Баблз жив?
+- Джуниор вспомнил, что Баблз в это время спит.
+- Баблз посмеялся с шутки Джуниора.
++ Он начал плавать в унитазе.
+
+[MATCH]
+> Коснитесь пар
+- neighbor <> соседа
+- fish <> рыбка
+- puts <> кладёт
+- He's <> он
+- Lily <> Лили
+
