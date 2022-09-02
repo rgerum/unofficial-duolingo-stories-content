@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=Одна річ
+icon=717bd84875f83c678f64f124937a278061e0e778
+set=1|3
+
+[HEADER]
+> One  Thing 
+~ одна річ   
+
+[LINE]
+> Jennifer  is~with her   brother, Steve  .
+~ Дженніфер із      своїм братом   Стівом  
+
+[POINT_TO_PHRASE]
+> Виберіть варіант, який означає «хліб».
+Speaker856: (Oh) no! (I~need)        (+bread) (for) my   sandwich.
+~            о   ні   мені~потрібен    хліб    для  мого сендвіча 
+
+[LINE]
+Speaker103: Do~you need  to~go to the supermarket? 
+~           тобі   треба йти   до ~   супермаркету 
+
+[MULTIPLE_CHOICE]
+> Стів хоче знати, чи потрібно його сестрі йти до супермаркету.
+- Ні, це неправда.
++ Так, це правда.
+
+[LINE]
+Speaker856: Yes.
+~           так 
+
+[LINE]
+Speaker103: Oh, I want one  thing from the supermarket! 
+~           о   я хочу одну річ   із   ~   супермаркету 
+
+[LINE]
+Speaker856: What do~you need?    
+~           що   тобі   потрібно 
+
+[LINE]
+Speaker103: One  tomato,  please.    
+~           один помідор  будь~ласка 
+
+[SELECT_PHRASE]
+> Виберіть пропущену фразу
+Speaker103: For [my~salad]!   
+~           для  мого~салату  
++ my salad
+- why salad
+- my solid
+
+[LINE]
+Speaker856: OK.   
+~           добре 
+
+[LINE]
+Speaker103: Thank~you!
+~           дякую     
+
+[LINE]
+Speaker103: And I want some~coffee…
+~           і   я хочу кави        
+
+[LINE]
+Speaker856: OK.   
+~           добре 
+
+[CONTINUATION]
+> Чим закінчується речення?
+Speaker103: … and I want some~sugar [for my   coffee].
+~             і   я хочу цукру       для моєї кави    
+-  for~my~fries          
+~  для~моєї~картоплі~фрі 
++ for~my~coffee
+~ для~моєї~кави
+- for~my~fish   
+~ для~моєї~риби 
+
+[LINE]
+Speaker856: Steve—
+~           Стіве 
+
+[LINE]
+Speaker103: And some~milk!
+~           і   молока    
+
+[LINE]
+Speaker856: Hmm… I~have   an~idea.
+~           хм   у~мене~є ідея    
+
+[ARRANGE]
+> Що ви чуєте?
+Speaker856: [(Here~is) (some~money), (Steve).]
+~             ось       гроші         Стіве   
+
+[LINE]
+Speaker103: What?!
+~           що    
+
+[LINE]
+Speaker856: I want one  thing from the supermarket:  bread.
+~           я хочу одну річ   із   ~   супермаркету  хліб  
+
+[MULTIPLE_CHOICE]
+> Що зробила Дженніфер?
+- Вона купила хліб у супермаркеті.
+- Вона зробила сендвіч для Стіва.
++  Вона дала Стіву гроші, щоб він купив їй хліб. 
+
+[MATCH]
+> З’єднайте пари
+- What <> що
+- supermarket <> супермаркету
+- bread <> хліб
+- OK <> добре
+- thing <> річ
+
