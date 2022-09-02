@@ -1,0 +1,142 @@
+[DATA]
+fromLanguageName=커피 예술가
+icon=721a83a9cb283d95fc4a904b27a83c7a60b7760a
+set=27|2
+
+[HEADER]
+> The~Coffee~Artist
+~ 커피~예술가           
+
+[LINE]
+> Oscar~is at~the~counter of~a~new~coffee~shop.
+~ 오스카가     카운터에~있다        새~커피숍의               
+
+[LINE]
+Speaker592: This coffee~is terrible!
+~           이    커피는       형편없어요    
+
+[LINE]
+Speaker1087: But this~is the~way I  always make~coffee.
+~            하지만 이게      방식이에요   제가 항상     커피를~만드는     
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker592: You don't~understand. The [milk~is~too~hot].
+~           당신은 이해~못~해요           이    우유가~너무~뜨거워요      
+- milk will do what
+- silk is too hot
++ milk is too hot
+
+[LINE]
+Speaker1087: I don't~know what~you~want. I  already made     three coffees for~you.
+~            전 모르겠어요      손님이~뭘~원하시는지    제가 이미      만들어~드렸어요 세~잔의  커피를     손님께     
+
+[LINE]
+Speaker592: Please move.  I'll~show you  how~to~make it. 
+~           제발     비켜보세요  제가~보여드릴게요 당신에게 만드는~법을      커피를 
+
+[LINE]
+> Oscar goes behind~the~counter and makes a~perfect~cup~of~coffee.
+~ 오스카가  간다   카운터~뒤로             그리고 만든다   완벽한~커피~한~잔을             
+
+[LINE]
+> The~employee tries it. 
+~ 직원이          마셔본다  커피를 
+
+[LINE]
+Speaker1087: Wow, it's… amazing!
+~            우와   이건    훌륭해요    
+
+[MULTIPLE_CHOICE]
+> 오스카는 커피를 잘 만들지 못한다.
++ 아니요, 그렇지 않아요. 
+- 네, 맞아요.
+
+[LINE]
+Speaker592: I  know. A~great~cup~of~coffee~is like~art!
+~           저도 알아요   훌륭한~커피~한~잔은              예술과도~같아요 
+
+[LINE]
+> Another customer walks~over to~Oscar.
+~ 또~다른    손님이      걸어온다       오스카에게로   
+
+[LINE]
+Speaker438: One~coffee,~please.
+~           커피~한~잔~주세요         
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+> [(Oscar) (makes) (another) (perfect) (coffee).]
+~   오스카가    만든다     또~하나의     완벽한       커피를      
+
+[LINE]
+Speaker438: Wow, this~is the~best coffee I've~ever~had!
+~           우와   이건      최고의      커피예요   제가~마셔~본~것~중   
+
+[LINE]
+Speaker592: I  know.
+~           저도 알아요  
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker1087: Please [tell~all~your~friends] about our amazing coffee!
+~            제발      친구분들에게~소문~내~주세요        ~에~대해 저희의 훌륭한     커피     
+- sell all your cans
+- tell how it ends
++ tell all your friends
+
+[LINE]
+> Hours~later, there's~a~long~line in~front~of the~coffee~shop. Eddy arrives.
+~ 몇~시간~후       긴~줄이~있다             ~앞에         커피숍              에디가  온다      
+
+[MULTIPLE_CHOICE]
+> 음… 커피 숍에 긴 줄이 있는 이유는 무엇인가요?
++ 커피를 맛 본 손님들이 친구들에게 소문을 내서.
+- 오스카의 신작 소설 사인회가 열려서.
+- 모든 손님들이 커피에 불만이 있어서.
+
+[LINE]
+Speaker414: Oscar! Do~you~work~here now?
+~           오스카    너~여기서~일해         이제  
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker592: No, I~don't! But no~one~else~can~make [a~great~cup~of~coffee]!
+~           아니  일하지~않아   하지만 아무도~만들지~못~해           훌륭한~커피~한~잔을            
+- a~delicious~burger
+~ 맛있는~햄버거           
+- a~magic~milkshake
+~ 마법의~밀크셰이크        
++ a~great~cup~of~coffee
+~ 훌륭한~커피~한~잔           
+
+[LINE]
+Speaker414: Are~they~paying~you?
+~           돈~받고~하는~거야          
+
+[LINE]
+Speaker592: I'm~not~doing this for~money. This~is art. 
+~           하는~게~아니야      이걸   돈~때문에      이건      예술이야 
+
+[LINE]
+Speaker414: So  is~the~coffee free, then?
+~           그래서 커피가           공짜야   그럼   
+
+[LINE]
+Speaker1087: No.  A~cup~of~coffee costs~five~dollars. And you have~to~stand in~line.
+~            아니요  커피~한~잔은         오~달러예요              그리고 손님은 서야~해요         줄에      
+
+[MULTIPLE_CHOICE]
+> 오스카가 커피를 만들고 있는 이유는 무엇인가요?
++ 완벽한 커피 한 잔을 만드는 것은 예술과 같다고 생각해서.
+- 최근에 커피를 이용해 그림 그리는 걸 시작해서.
+- 커피숍에서 일을 하면 돈을 많이 준다고 해서.
+
+[MATCH]
+> 짝을 누르세요
+- don't know <> 모르겠어요
+- I'll show <> 제가 보여드릴게요
+- the best <> 최고의
+- make coffee <> 커피를 만드는
+- Are they paying you <> 돈 받고 하는 거야
+
