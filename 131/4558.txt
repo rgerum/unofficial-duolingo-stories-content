@@ -1,0 +1,110 @@
+[DATA]
+fromLanguageName=Магазин
+icon=e3c4951a636e72c3f82ef749d5fbf2e61d51628d
+set=3|3
+
+[HEADER]
+> The~Store
+~ магазин  
+
+[LINE]
+Speaker392: Good   morning!
+~           добрий ранок   
+
+[LINE]
+Speaker391: Hello!      I~need        new   clothes.
+~           здрастуйте  мені~потрібен новий одяг    
+
+[LINE]
+Speaker392: I can  help      you!
+~           я можу допомогти вам 
+
+[MULTIPLE_CHOICE]
+> Працівниця магазину каже, що не зможе допомогти чоловікові.
+- Так, це правда.
++ Ні, це неправда.
+
+[LINE]
+Speaker391: Thank~you!
+~           дякую     
+
+[ARRANGE]
+> Що ви чуєте?
+Speaker392: [(What) (do~you) (need)?]    
+~             що     вам      потрібно   
+
+[LINE]
+Speaker392: We~have nice  boots    and jackets…
+~           у~нас~є гарні черевики і   куртки  
+
+[LINE]
+Speaker391: I~need        a~new white shirt   and a~new black jacket.
+~           мені~потрібна нова  біла  сорочка і   нова  чорна куртка 
+
+[LINE]
+Speaker391: I~like           that expensive black jacket!
+~           мені~подобається ота  дорога    чорна куртка 
+
+[LINE]
+Speaker392: That~is a~very nice  jacket!
+~           то      дуже   гарна куртка 
+
+[LINE]
+Speaker391: And I~need        gray pants.
+~           і   мені~потрібні сірі штани 
+
+[CONTINUATION]
+> Що далі?
+Speaker392: Easy!        Why    do~you~need  [new   clothes]?
+~           не~проблема  навіщо вам~потрібен  новий одяг     
++ new~clothes
+~ новий~одяг 
+- hair   
+~ волосся
+- stores   
+~ магазини 
+
+[LINE]
+Speaker391: I~have a~job~interview.     
+~           у~мене співбесіда~на~роботу 
+
+[MULTIPLE_CHOICE]
+> Навіщо чоловіку новий одяг?
+- Він втратив увесь свій старий одяг.
++ У нього співбесіда на роботу.
+- У нього побачення.
+
+[LINE]
+Speaker392: Nice!   Where~is the~job~interview?   
+~           чудово  де       співбесіда~на~роботу 
+
+[SELECT_PHRASE]
+> Виберіть пропущену фразу
+Speaker391: [My~favorite~store]!          
+~            у~моєму~улюбленому~магазині  
++ My favorite store
+- My football store
+- My favorite journal
+
+[LINE]
+Speaker392: What~is your favorite  store?  
+~           який    ваш  улюблений магазин 
+
+[LINE]
+Speaker391: This store!  
+~           цей  магазин 
+
+[MULTIPLE_CHOICE]
+> Де відбудеться співбесіда?
+- В офісі поблизу.
++ У магазині, де він купував одяг.
+- У лікарні.
+
+[MATCH]
+> З’єднайте пари
+- a new <> нова
+- We have <> у нас є
+- nice <> гарні
+- do you need <> вам потрібен
+- white <> біла
+
