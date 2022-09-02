@@ -1,0 +1,98 @@
+[DATA]
+fromLanguageName=एक हैरतअंगेज़ अंत
+icon=136e95ddf7eef68f8c312f81c3b03bf4100a14e7
+set=17|2
+
+[HEADER]
+> Surprise  Ending
+~ हैरतअंगेज़ अंत   
+
+[LINE]
+> Vikram is reading in~bed.             His  wife,  Priti,  is next~to~him.            
+~ विक्रम है पढ़~रहा  बिस्तर~में~(लेटकर)  उसकी पत्नी  प्रीति  है उसके~बगल~में~(लेटी~हुई) 
+
+[LINE]
+Speaker560: Vikram, I'm     tired.   Can~you~turn~off        the~light?
+~           विक्रम  मैं~हूँ थकी~हुई  क्या~तुम~बंद~कर~सकते~हो लाइट~(को) 
+
+[SELECT_PHRASE]
+> सही वाक्यांश से ख़ाली जगह भरें
+Speaker593: I   can't~sleep!        I~need~to~finish  [this~book]!
+~           मैं सो~नहीं~पा~रहा~हूँ  मुझे~खत्म~करनी~है  यह~किताब   
+- his book
++ this book
+- this look
+
+[POINT_TO_PHRASE]
+> उस विकल्प को चुनें जिसका मतलब "दुर्घटनाग्रस्त" है।
+Speaker593: A  (man)  is            on~an~airplane!   (He's)  traveling     (to~see)       his~wife,        but   the~plane is~going~to  (+crash)!         
+~           एक  आदमी  (बैठा~हुआ)~है एक~हवाई~जहाज़~में   वह~है  यात्रा~कर~रहा  मिलने~के~लिए  अपनी~पत्नी~(से)  लेकिन हवाई~जहाज़ होने~वाला~है   दुर्घटनाग्रस्त  
+
+[LINE]
+Speaker560: I'll~tell~you         the~ending,             but   then you~have~to        turn~off the~light.
+~           मैं~तुम्हें~बता~दूँगी अंत~(में~क्या~होता~है)  लेकिन फिर  तुम्हें~करनी~पड़ेगी बंद      लाइट      
+
+[ARRANGE]
+> सुनकर शब्द चुनें
+Speaker593: [(You~read)         (this) (book)?] 
+~             तुमने~पढ़ी~हुई~है   यह     किताब   
+
+[LINE]
+Speaker593: Please, tell~me   the~ending!            
+~           कृपया   मुझे~बताओ अंत~(में~क्या~होता~है) 
+
+[LINE]
+Speaker560: The~man's  wife  is really     a  ghost. He dies|—      and now they can~be~together.
+~           उस~आदमी~की पत्नी है वास्तव~में एक भूत    वह मर~जाता~है  और  अब  वे   साथ~रह~सकते~हैं 
+
+[CONTINUATION]
+> आगे क्या आएगा?
+Speaker593: That's     strange.    But   now I   can         [turn~off~the~light].
+~           यह~(तो)~है अजीब~(बात)  लेकिन अब  मैं कर~सकता~हूँ  लाइट~बंद            
++ turn~off~the~light
+~ लाइट~बंद          
+- get~on~an~airplane   
+~ एक~हवाई~जहाज़~में~जाना
+- watch~TV  
+~ टीवी~देखना
+
+[LINE]
+> The~next morning, Vikram talks       to~Priti  about~the~book    again. 
+~ अगली     सुबह     विक्रम बात~करता~है प्रीति~से किताब~के~बारे~में फिर~से 
+
+[LINE]
+Speaker593: That ending was surprising!              
+~           वह   अंत    था  हैरतअंगेज़~(कर~देने~वाला) 
+
+[MULTIPLE_CHOICE]
+> विक्रम का कहना है कि कहानी का अंत…
+- …पढ़कर उसकी आँख लग गई।
++ …वैसा नहीं था जैसा उसने सोचा था।
+- …बहुत ही बेकार था।
+
+[LINE]
+Speaker560: Vikram… I~lied            about~the~ending.
+~           विक्रम  मैंने~झूठ~बोला~था अंत~के~बारे~में  
+
+[LINE]
+Speaker593: What?!
+~           क्या  
+
+[LINE]
+Speaker560: I~never~read          that book.  I   just wanted        you to~turn~off the~light.
+~           मैंने~कभी~नहीं~पढ़ी~थी वह   किताब  मैं बस   चाहती~थी~(कि) तुम बंद~कर~दो   लाइट~(को) 
+
+[MULTIPLE_CHOICE]
+> प्रीति ने विक्रम से झूठ क्यों बोला?
+- क्योंकि वह विक्रम को हँसाने की कोशिश कर रही थी।
+- क्योंकि वह एक बहुत बड़ा राज़ जानती थी।
++ क्योंकि उसे नींद आ रही थी।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- on an airplane <> एक हवाई जहाज़ में
+- his wife <> अपनी पत्नी
+- to Priti <> प्रीति से
+- then <> फिर
+- really <> वास्तव में
+
