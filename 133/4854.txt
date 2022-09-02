@@ -1,0 +1,148 @@
+[DATA]
+fromLanguageName=공항에서의 휴가
+icon=2b278a0330bde258574bdf9c02d9149192bc7d06
+set=28|3
+
+[HEADER]
+> Airport Vacation
+~ 공항에서의   휴가      
+
+[LINE]
+> Lily~and~Zari~are at~the~airport.
+~ 릴리와~자리가           공항에~있다         
+
+[LINE]
+> They're on~vacation with~Zari's~family.
+~ 그들이     휴가~중이다      자리의~가족과~함께         
+
+[LINE]
+> Zari's mom walks~over to~them.
+~ 자리의    엄마가 걸어~온다      그들에게    
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker511: Sorry, girls. Our flight~is delayed [for~three~hours].
+~           어쩌지    얘들아    우리  항공편이      지연됐어     세~시간동안           
+- for three flowers
++ for three hours
+- for free hours
+
+[LINE]
+Speaker416: Three~more~hours?! I hate airports.
+~           세~시간이나~더요          전 싫어요  공항이      
+
+[LINE]
+Speaker418: This airport~is really big. Maybe we  can~find   something~cool~to~do.
+~           이    공항은        진짜     커    아마도   우리가 찾을~수~있을~거야 재밌는~할~거리를            
+
+[LINE]
+Speaker416: There's~nothing~cool at~an~airport.
+~           재밌는~건~하나도~없어         공항엔           
+
+[LINE]
+Speaker418: Maybe~we~can~go to~that~clothing~store.
+~           우리가~가볼~수~있어     저기~옷가게에                
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker416: [(No~one~buys) (clothes) (at~airports).]
+~             아무도~안~사       옷을        공항에서          
+
+[LINE]
+> Later, Lily~is wearing a~new~T-shirt.
+~ 얼마~후   릴리가     입고~있다   새~티셔츠를        
+
+[LINE]
+Speaker418: I like  your new T-shirt, Lily.
+~           난 맘에~들어 네    새   티셔츠가     릴리   
+
+[LINE]
+Speaker416: Be~quiet.
+~           조용히~해    
+
+[MULTIPLE_CHOICE]
+> 이해했나요? 릴리는…
+- …아주 크게 소리지르고 있다.
++ …공항에서 새 티셔츠를 샀다.
+- …세 시간 동안 잤다.
+
+[LINE]
+Speaker418: Are~you~hungry?
+~           너~배고파          
+
+[LINE]
+Speaker416: Yes, but I don't~eat food in~airports.
+~           응    하지만 난 안~먹어      음식을  공항에서        
+
+[LINE]
+Speaker418: There's~a~Japanese~restaurant near~the~spa.
+~           일식~레스토랑이~있어                   스파~근처에       
+
+[LINE]
+Speaker416: There's~a~spa here?
+~           스파가~있어        여기에  
+
+[LINE]
+Speaker418: They~have~everything!
+~           공항엔~뭐든지~다~있어         
+
+[POINT_TO_PHRASE]
+> “국수”를 뜻하는 말을 고르세요.
+> (Later), Lily~and~Zari~are (eating) big (bowls~of) (+noodles) at~the~Japanese~restaurant.
+~  얼마~후    릴리와~자리가            먹고~있다   큰    볼에~담긴       국수를      일식~레스토랑에서                  
+
+[LINE]
+Speaker416: OK, I love  this airport.
+~           그래  난 정말~좋아 이    공항이     
+
+[LINE]
+Speaker418: Yeah, but now I'm tired.
+~           맞아    하지만 이제  난   피곤해   
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker416: [(I) (know) (where) (we)  (can~go).] 
+~             난   알아     어디에     우리가   갈~수~있는지   
+
+[LINE]
+> Later, Zari's mom~is looking~for the~two~girls.
+~ 얼마~후   자리의    엄마가    찾고~있다       두~아이들을        
+
+[LINE]
+> She finds them sitting in~massage~chairs at~the~spa.
+~ 그녀가 발견한다  그들이  앉아~있는~걸 마사지~의자에           스파에서       
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker511: Come~on, girls, our plane [is~leaving~soon]!
+~           가자       얘들아    우리  비행기가   곧~출발할~거야         
+- is weaving some
+- is reading soon
++ is leaving soon
+
+[LINE]
+Speaker418: Can~we~stay~here?
+~           여기~있으면~안~돼요      
+
+[LINE]
+Speaker511: What~about~our~vacation?
+~           우리~휴가는~어쩌고              
+
+[LINE]
+Speaker416: This~is the~best~vacation I've~ever~had.
+~           이게      최고의~휴가예요          제가~보낸~것~중     
+
+[MULTIPLE_CHOICE]
+> 릴리는 원래 공항을 싫어했었지만 이제는…
+- …오히려 자리가 공항을 더 싫어한다.
+- …마사지 의자만 싫어한다.
++ …공항에서 할 수 있는 것들을 좋아한다.
+
+[MATCH]
+> 짝을 누르세요
+- Later <> 얼마 후
+- mom <> 엄마가
+- Come on <> 가자
+- a new T-shirt <> 새 티셔츠를
+- sitting <> 앉아 있는 걸
+
