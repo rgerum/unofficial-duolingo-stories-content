@@ -1,0 +1,119 @@
+[DATA]
+fromLanguageName=История любви
+icon=b957b41bd8d5fcb39a128a06784c94f776e81d43
+set=23|2
+
+[HEADER]
+> A~Love~Story 
+~ история~любви
+
+[LINE]
+> Lin is~looking~at pictures   of~her~grandfather with Lucy.
+~ Лин смотрит~на    фотографии своего~дедушки     с    Люси 
+
+[LINE]
+Speaker508: How~did~Grandpa ask~you        to~marry~him?       
+~           как~дедушка     предложил~тебе выйти~за~него~замуж 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker509: Well, I remember we were~driving through~the~city. He said         [he~had~a~surprise].  
+~           ну    я помню    мы ехали        по~городу         он сказал~(что)  у~него~есть~сюрприз  
+- he had this prize
++ he had a surprise
+- we had some pies
+
+[LINE]
+Speaker509: He stopped   the~car. He told   me  that he~needed to~get~something.
+~           он остановил машину   он сказал мне что  ему~нужно кое-что~забрать  
+
+[LINE]
+Speaker508: The~ring?
+~           кольцо   
+
+[LINE]
+Speaker509: No,  he got    a~suitcase and ran     back  to the~car.
+~           нет  он забрал чемодан    и   побежал назад к  машине  
+
+[MULTIPLE_CHOICE]
+> Дедушка Лин остановил машину, чтобы забрать кольцо.
+- Да, это правда.
++ Нет, это неправда.
+
+[LINE]
+Speaker508: He~was probably excited!   
+~           он~был наверное взволнован 
+
+[LINE]
+Speaker509: He jumped    in the~car, and we drove  to the~mountains.
+~           он запрыгнул в  машину   и   мы уехали в  горы          
+
+[LINE]
+Speaker508: That's romantic!  
+~           это    романтично 
+
+[LINE]
+Speaker509: We were~driving really fast.   Then,  another car    started~to follow       us. 
+~           мы ехали        очень  быстро  потом  другая  машина начала     преследовать нас 
+
+[LINE]
+Speaker508: Oh no! 
+~           о  нет 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker509: We drove~off~the~road. Your grandpa told~me    to~take [his~suitcase] and run.   
+~           мы съехали~с~дороги    твой дедушка сказал~мне взять    его~чемодан   и   бежать 
+- his new case
++ his suitcase
+- this bookcase
+
+[LINE]
+Speaker508: What?!
+~           что   
+
+[LINE]
+Speaker509: We~needed      to~escape! We didn't~want~them     to~take the~documents!
+~           нам~нужно~было сбежать    мы не~хотели,~чтобы~они забрали документы     
+
+[MULTIPLE_CHOICE]
+> Почему Люси и дедушке Лин нужно было сбежать?
+- Они очень хотели поехать в отпуск.
++ Они пытались сохранить документы.
+- Они встретили медведя в горах.
+
+[LINE]
+Speaker508: What  documents?
+~           какие документы 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker509: [(The~documents) (in) (the~suitcase).]
+~             документы       в    чемодане       
+
+[LINE]
+Speaker508: I don't understand…
+~           я не    понимаю    
+
+[LINE]
+Speaker509: Oh. I'm~telling   you  the~wrong story.   This~was when  Grandpa and I were spies.   
+~           о   я~рассказываю тебе не~ту     историю  это~было когда дедушка и   я были шпионами 
+
+[LINE]
+Speaker509: Forget I~said~anything.
+~           забудь что~я~сказала   
+
+[MULTIPLE_CHOICE]
+> Минуточку… Что Люси имеет в виду?
++ Лин не должна была узнать, что её бабушка была шпионкой.
+- Она стесняется рассказывать романтическую историю.
+- Она забыла свой чемодан дома.
+
+[MATCH]
+> Коснитесь пар
+- started to <> начала
+- didn't want them <> не хотели, чтобы они
+- to take <> взять
+- Lucy <> Люси
+- This was <> это было
+
