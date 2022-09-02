@@ -1,0 +1,161 @@
+[DATA]
+fromLanguageName=Контрольный вопрос
+icon=9558b378d2ca0a3f0626205e03866b3e91153f01
+set=30|2
+
+[HEADER]
+> The~Security~Question
+~ контрольный~вопрос   
+
+[LINE]
+> Priti and Vikram are~walking quickly down~the~street.
+~ Прити и   Викрам идут        быстро  по~улице        
+
+[LINE]
+Speaker560: I can't~wait     to~see     this play!     
+~           я жду~не~дождусь посмотреть этот спектакль 
+
+[LINE]
+Speaker593: Do~you~have the~tickets?
+~           у~тебя~есть билеты      
+
+[LINE]
+Speaker560: Oh no. 
+~           о  нет 
+
+[LINE]
+> Priti stops           and looks   in her   purse.  
+~ Прити останавливается и   смотрит в  своей сумочке 
+
+[LINE]
+Speaker560: I forgot them at~home.
+~           я забыла их   дома    
+
+[MULTIPLE_CHOICE]
+> О нет! Что случилось?
+- У Прити украли сумочку.
+- Прити не хочет смотреть спектакль.
++ Прити забыла билеты на спектакль.
+
+[LINE]
+Speaker593: Oh no!  We~don't~have time    to~go home  and get   them.
+~           о  нет  у~нас~нет     времени пойти домой и   взять их   
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker560: I was  so~excited           to~see  the~play.  [I've~waited~for~months]!
+~           я была в~таком~предвкушении увидеть спектакль   я~месяцами~ждала        
+- I've played here four months
++ I've waited for months
+- Why wait here for months
+
+[LINE]
+Speaker593: Wait…    I~have      the~tickets on my   phone!   
+~           подожди  у~меня~есть билеты      на моём телефоне 
+
+[LINE]
+Speaker593: Hmm… I~have    to~log into my  account, but I forgot my  password.
+~           хм   мне~нужно войти  в    мой аккаунт  но  я забыл  мой пароль   
+
+[POINT_TO_PHRASE]
+> Выберите вариант «контрольный вопрос».
+Speaker593: I (can)  (answer)        (+a~security~question) (to~log~in),   but…
+~           я  могу   ответить~(на)    контрольный~вопрос    чтобы~войти   но  
+
+[LINE]
+Speaker560: What?
+~           что  
+
+[LINE]
+Speaker593: The~question~is, "What's your~brother's~birthday?"   
+~           вопрос            когда  день~рождения~вашего~брата  
+
+[LINE]
+Speaker560: So?
+~           и  
+
+[LINE]
+Speaker593: I forgot~it.
+~           я забыл     
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker560: You forgot [your~brother's~birthday?]!
+~           ты  забыл   день~рождения~брата       
+- your birthday
+~ свой ~       
++ your~brother's~birthday
+~ день~рождения~брата    
+- my  purse  
+~ мой кошелёк
+
+[LINE]
+Speaker593: I never~remember       dates.
+~           я никогда~не~запоминаю даты  
+
+[LINE]
+Speaker560: Let's call     your   brother.
+~           давай позвоним твоему брату   
+
+[ARRANGE]
+> Наберите услышанное
+Speaker593: [(Then)  (he'll~know) (that~I~forgot) (his) (birthday)!]     
+~             тогда   он~узнает    что~я~забыл     его   день~рождения   
+
+[LINE]
+Speaker560: Did~you~forget how   expensive these tickets were?
+~           ты~забыл       какие дорогие   эти   билеты  были 
+
+[LINE]
+Speaker593: OK,     OK,     I'll~call him.
+~           хорошо  хорошо  я~позвоню ему 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+> Vikram [calls~his~brother]   and asks       about his birthday.    
+~ Викрам  звонит~своему~брату  и   спрашивает о     его дне~рождения 
++ calls his brother
+- kills another
+- calls this mother
+
+[LINE]
+Speaker593: Priti, it  worked!    I got     the~tickets!
+~           Прити  это сработало  я получил билеты      
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker560: Wonderful!    We're finally    going~to~see [this play]!     
+~           замечательно  мы    наконец-то увидим        этот спектакль  
+- a~birthday~party                
+~ вечеринку~по~случаю~дня~рождения
+- your   brother
+~ твоего брата  
++ this play     
+~ этот спектакль
+
+[LINE]
+Speaker593: Wait…    One  problem.  The~tickets were for last      night.
+~           подожди  одна проблема  билеты      были на  вчерашний вечер 
+
+[LINE]
+Speaker560: What?!
+~           что   
+
+[LINE]
+Speaker593: I told    you  that I never~remember       dates.
+~           я говорил тебе что  я никогда~не~запоминаю даты  
+
+[MULTIPLE_CHOICE]
+> Теперь у Викрама и Прити есть билеты, но…
+- …брат Викрама тоже идёт с ними.
++ …они на вчерашний спектакль.
+- …Прити слишком расстроена, чтобы смотреть спектакль.
+
+[MATCH]
+> Коснитесь пар
+- can <> могу
+- Do you have <> у тебя есть
+- asks <> спрашивает
+- dates <> даты
+- to go <> пойти
+
