@@ -1,0 +1,102 @@
+[DATA]
+fromLanguageName=लूसी और डाइनोसॉर
+icon=f6ce899637bb8181ee5e78382fdf71a0f01e4f95
+set=8|1
+
+[HEADER]
+> Lucy and the~Dinosaurs
+~ लूसी और  डाइनोसॉर     
+
+[LINE]
+> Lucy opens    her~apartment~door.  
+~ लूसी खोलती~है अपने~फ़्लैट~का~दरवाज़ा 
+
+[LINE]
+Speaker509: Hello,  Junior!
+~           नमस्ते  जूनियर 
+
+[LINE]
+Speaker415: Hello!  Can~you~help~me              write     a  report  for~school?  
+~           नमस्ते  क्या~आप~मेरी~मदद~कर~सकती~हैं लिखने~में एक रिपोर्ट स्कूल~के~लिए 
+
+[LINE]
+Speaker509: Oh, yes!
+~           ~   हाँ 
+
+[LINE]
+Speaker509: I'm     a  great      writer. I~have  a  very popular  blog. 
+~           मैं~हूँ एक बहुत~बढ़िया लेखक    मेरा~है एक बहुत लोकप्रिय ब्लॉग 
+
+[MULTIPLE_CHOICE]
+> लूसी का कहना है कि वह एक अच्छी लेखिका है क्योंकि…
+- …वह हर रोज़ प्रेम पत्र लिखती है।
+- …वह स्कूल में हमेशा अच्छे नंबर लाती थी।
++ …उसका एक बहुत जाना-माना ब्लॉग है।
+
+[ARRANGE]
+> सुनकर शब्द चुनें
+Speaker509: [(Do~you~read)      (my)   (blog)?] 
+~             क्या~तुम~पढ़ते~हो   मेरा   ब्लॉग   
+
+[LINE]
+Speaker415: No.  
+~           नहीं 
+
+[POINT_TO_PHRASE]
+> उस शब्द पर क्लिक करें जिसका मतलब “बहुत सारी” है।
+Speaker509: (I~have)       (+a~lot~of)  (books).  
+~            मेरे~पास~हैं    बहुत~सारी   किताबें  
+
+[LINE]
+Speaker509: Do~you~need        my   books   for~research? 
+~           क्या~तुम्हें~चाहिए मेरी किताबें रिसर्च~के~लिए 
+
+[CONTINUATION]
+> आगे क्या आएगा?
+Speaker415: I~don't~need    your [books].  
+~           मुझे~नहीं~चाहिए आपकी  किताबें  
+- apartment
+~ फ़्लैट    
+- report 
+~ रिपोर्ट
++ books  
+~ किताबें
+
+[LINE]
+Speaker509: What~is~your~report~about?       
+~           तुम्हारी~रिपोर्ट~किस~बारे~में~है 
+
+[LINE]
+Speaker415: Dinosaurs.               
+~           डाइनोसॉरों~(के~बारे~में) 
+
+[LINE]
+Speaker509: Why   do~you~want  to~talk~to~me? 
+~           क्यों चाहते~हो~तुम मुझसे~बात~करना 
+
+[LINE]
+Speaker415: Because you are very old.    
+~           क्योंकि आप  हैं बहुत उम्रदार 
+
+[LINE]
+Speaker415: You know      a~lot~of  dinosaurs,       right?
+~           आप  जानती~हैं बहुत~सारे डाइनोसॉरों~(को)  है~ना 
+
+[LINE]
+Speaker509: Goodbye, Junior.
+~           अलविदा   जूनियर 
+
+[MULTIPLE_CHOICE]
+> जूनियर को यह क्यों लगा कि लूसी को डाइनोसॉरों के बारे में जानकारी होगी?
+- क्योंकि लूसी डाइनोसॉरों के बारे में एक ब्लॉग लिखती है।
++ क्योंकि लूसी उम्र में जूनियर से बड़ी है।
+- क्योंकि लूसी के पास एक पालतू डाइनोसॉर हुआ करता था।
+
+[MATCH]
+> हिन्दी-अंग्रेज़ी शब्दों के जोड़े चुनें
+- Why <> क्यों
+- popular <> लोकप्रिय
+- Dinosaurs <> डाइनोसॉरों
+- right <> है ना
+- I have <> मेरा है
+
