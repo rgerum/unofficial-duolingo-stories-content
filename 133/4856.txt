@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=누가 저녁식사에 오나요?
+icon=dc357430b977e970c350bd02c026ab07731f28f3
+set=29|1
+
+[HEADER]
+> Who's Coming to~Dinner?
+~ 누가    오나요    저녁식사에     
+
+[LINE]
+> Lucy~is making soup. Lin comes~into the~kitchen.
+~ 루시가     만들고~있다 수프를   린이  들어온다       부엌으로        
+
+[LINE]
+Speaker509: Guess who's coming to~dinner tonight?
+~           맞혀보렴  누가    오는지    저녁식사에     오늘~밤    
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker508: Well, you're making  your [famous~fish~soup], so   it's probably someone~special.
+~           음     할머니가   만들고~계세요 할머니의  소문난~생선~수프를         그러니까 그분은  아마도      특별한~사람일~거예요     
++ famous fish soup
+- famous wish soup
+- favorite fish suit
+
+[LINE]
+Speaker509: Yes! It's someone~very~special.
+~           맞아   그분은  아주~특별한~사람이야          
+
+[LINE]
+Speaker508: Is~your~friend, the famous actress, coming to~dinner?
+~           할머니~친구분인        그   유명한    여배우가     오세요    저녁식사에     
+
+[LINE]
+Speaker509: No, she's working on~a~film right~now.
+~           아니  그녀는   촬영~중이야  영화를       지금        
+
+[MULTIPLE_CHOICE]
+> 유명한 여배우가 저녁식사에 올 예정이다.
+- 네, 맞아요.
++ 아니요, 그렇지 않아요.
+
+[LINE]
+Speaker509: It's~someone more important. You can't~wear pajamas!
+~           어떤~분이야       더    중요한        네가  입으면~안~돼    잠옷을     
+
+[LINE]
+Speaker508: Oh, really? Alright, I'll~wear something~else!
+~           아   정말요     알겠어요     입을게요      다른~걸           
+
+[MULTIPLE_CHOICE]
+> 음… 린이 현재 입고 있는 옷은…
++ …잠옷이다.
+- …수영복이다.
+- …예쁜 드레스이다.
+
+[LINE]
+> Lin goes to~her~room and puts~on a~shirt~and jeans.
+~ 린이  간다   그녀의~방에      그리고 입는다     셔츠와         청바지를  
+
+[LINE]
+Speaker508: So, is~it~your~friend, Victor?! Is~he back  from~taking~photos of~wild~horses in~Argentina?
+~           그럼  할머니~친구분이에요         빅터       그분이   돌아왔어요 사진~촬영을~마치고         야생마의           아르헨티나에서      
+
+[LINE]
+Speaker509: No, he's photographing lions in~India now.
+~           아니  그는   사진~촬영~중이야     사자들을  인도에서     지금  
+
+[LINE]
+Speaker508: Is~it the astronaut you  worked~with?
+~           그분이   그   우주비행사예요   할머니가 함께~일했던      
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker509: No, [he's~getting~ready] to~go to~Mars.
+~           아니   그는~준비~중이야           가려고   화성에     
+- he's getting lettuce
+- his bed is ready
++ he's getting ready
+
+[LINE]
+Speaker508: Wait… Is~this a~date for~me, Grandma?
+~           잠깐만요  이건      데이트에요  절~위한    할머니     
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker508: [(I) (don't~need) (help) (with~dating).]
+~             전   필요~없어요       도움이    데이트하는데        
+
+[LINE]
+Speaker509: Of~course~not!
+~           그럴리가          
+
+[LINE]
+> Someone knocks~on the~door. It's Lucy's friend, Frank.
+~ 누군가가    노크한다      문을        그건   루시의    친구      프랭크이다 
+
+[LINE]
+Speaker509: Lin, this~is Frank. He helps people with~their~resumes.
+~           린    이쪽은     프랭크야   그는 도와줘   사람들을   이력서~쓰는~걸           
+
+[LINE]
+Speaker113: Hi,    Lin! Your grandma really wanted us  to~meet.
+~           안녕하세요  린    당신의  할머니가    정말로    원했어요   저희가 만나길     
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker113: She said that [you need~to~find a~job].
+~           루시가 말했어요 ~라고   당신이 찾아야~한다       일자리를   
+- you have  a~pet~fish
+~ 당신이 갖고~있다 애완~물고기를   
+- you live on~Mars
+~ 당신이 산다   화성에서   
++ you need~to~find a~job
+~ 당신이 찾아야~한다       일자리를 
+
+[LINE]
+Speaker508: Ugh, I'm going~to~put my pajamas back~on.
+~           어후   전   입을~거예요       제  잠옷을     다시      
+
+[MULTIPLE_CHOICE]
+> 린은 왜 잠옷을 다시 입겠다고 했나요?
+- 잠옷을 입으면 그녀가 우주비행사처럼 보여서.
++ 저녁식사의 초대 손님이 단지 린의 구직을 도와줄 사람이라서.
+- 그녀의 데이트 상대에게 잘 보이고 싶어서.
+
+[MATCH]
+> 짝을 누르세요
+- probably <> 아마도
+- Well <> 음
+- important <> 중요한
+- she's <> 그녀는
+- with their resumes <> 이력서 쓰는 걸
+
