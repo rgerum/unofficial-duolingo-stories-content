@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=비크람의 화초
+icon=c3349839a5c44c2f209b5fc0993e4567e294246a
+set=14|3
+
+[HEADER]
+> Vikram's Plants
+~ 비크람의     화초    
+
+[LINE]
+> Eddy meets his neighbor Vikram at~the~airport.
+~ 에디가  만난다   그의  이웃       비크람을   공항에서           
+
+[LINE]
+Speaker593: Hi Eddy! Thanks for~driving~me~home.
+~           안녕 에디    고마워    나를~(차로)~집까지~데려다~줘서  
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker414: Of~course! But… I need [to~tell~you~something].
+~           당연하지       하지만  난 해야~돼  너에게~뭔가를~말(하다)          
+- to tell you’re something
++ to tell you something
+- to sell you something
+
+[LINE]
+Speaker593: What~is~it?
+~           (그게)~뭔데    
+
+[LINE]
+Speaker414: So… I  remembered to~water your plants…
+~           그게  나는 기억했어       물을~주는~것을 너의   화초에    
+
+[MULTIPLE_CHOICE]
+> 비크람이 집을 비운 동안 에디가 한 일은 무엇인가요?
++ 비크람의 화초에 물을 주었다.
+- 공항에서 잠을 잤다.
+- 비크람의 집에 놓을 화초를 샀다.
+
+[LINE]
+Speaker593: Thanks!
+~           고마워    
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker414: …[(but~now) (your~plants~are) (dead).]
+~              하지만~이제    네~화초들은            죽었어    
+
+[LINE]
+Speaker593: What? I~was only~gone    for~a~week!
+~           뭐라고   난     (집을)~비웠을~뿐인데 딱~일주일만     
+
+[LINE]
+> They arrive at~Vikram's~apartment and look at~the~plants.
+~ 그들이  도착한다   비크람의~아파트에             그리고 살펴본다 화초들을          
+
+[LINE]
+Speaker414: This plant~was green.   Now it's~brown.
+~           이    화초는       초록색이었는데  이제는 (그게)~갈색이네  
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker593: Yes, that plant [is~dead].
+~           응    그    화초는    죽었어      
++ is~dead
+~ 죽었다    
+- likes~to~walk~in~the~park
+~ 공원~산책을~즐기다               
+- is~excited
+~ 신났다       
+
+[LINE]
+Speaker414: And this plant~was red,     but now it's~brown,~too.
+~           그리고 이    화초는       빨간색이었는데  하지만 이제는 이것도~갈색이네        
+
+[LINE]
+Speaker593: Eddy, what~happened?!
+~           에디    무슨~일이~있었던거야    
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker414: I~don't~know! I  watered your plants [three~times~every~day]!
+~           (나는)~모르겠어     나는 물을~줬어   네    화초에     하루에~세~번씩               
+- three times every way
++ three times every day
+- free time is every day
+
+[LINE]
+Speaker593: Three~times~every~day?! I  told~you  to~water the~plants three~times~every~week!
+~           하루에~세~번씩                내가 너한테~얘기했잖아 물을~주라고   화초에        일주일에~세~번씩              
+
+[LINE]
+Speaker414: Oh. Sorry.
+~           아   미안해   
+
+[LINE]
+Speaker414: But look! This plant isn't~brown! It's green!
+~           하지만 봐     이    화초는   갈색이~아니야      이건   초록색이야 
+
+[LINE]
+Speaker593: Eddy, that's a~plastic~plant.
+~           에디    그건     인조~화초야          
+
+[MULTIPLE_CHOICE]
+> 이런! 에디가 잘못한 일은 무엇인가요?
++ 화초에 물을 너무 많이 줬다.
+- 비크람의 화초를 돌보는 것을 깜빡했다.
+- 화초에 물을 충분히 주지 않았다.
+
+[MATCH]
+> 짝을 누르세요
+- Yes <> 응
+- your plants are <> 네 화초들은
+- Oh <> 아
+- remembered <> 기억했어
+- Hi <> 안녕
+
