@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Ночёвка на выходных
+icon=e9870ece5e694f8efd3df5550e7bb5d130fadecf
+set=19|4
+
+[HEADER]
+> Weekend~Visit      
+~ в~гости~на~выходные
+
+[LINE]
+> Bea's~boyfriend, Sean, is~visiting for~the~weekend.
+~ парень~Би        Шон   приехал     на~выходные     
+
+[LINE]
+Speaker438: This~is the~first~time     I'm staying at your  apartment! It's so  exciting!
+~           это     первый~раз~(когда) я   остаюсь в  твоей квартире   это  так волнующе 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker507: Yeah, [it'll~be~a~fun~weekend].
+~           да     будут~весёлые~выходные  
++ it'll be a fun weekend
+- it'll be a fun weather
+- I'll be the weekend
+
+[LINE]
+Speaker438: It's~like we're~living together! We'll~learn so~much   about~each~other.
+~           будто     мы~живём     вместе    мы~узнаем   так~много друг~о~друге     
+
+[LINE]
+Speaker507: What?! No,  I'm not ready  to~live together!
+~           что    нет  я   не  готова жить    вместе   
+
+[MULTIPLE_CHOICE]
+> О нет! Почему Би нервничает?
++ Она пока не хочет жить со своим парнем.
+- Она забыла убраться в квартире.
+- Её парень хочет расстаться.
+
+[LINE]
+Speaker438: Bea, it's~OK.       I was~joking.
+~           Би   всё~нормально  я пошутил    
+
+[LINE]
+Speaker438: Hey, can~I     sleep on the~left side    of~the~bed?
+~           эй   можно~мне спать на левой    стороне кровати    
+
+[LINE]
+Speaker507: I usually sleep on the~left side    of~the~bed, but OK…   
+~           я обычно  сплю  на левой    стороне кровати     но  ладно 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker438: [(Could~I) (close)   (the~curtains)?]
+~             я~могу    закрыть   шторы          
+
+[LINE]
+Speaker438: I don't want         the~sun to~wake~me~up.
+~           я не    хочу~(чтобы) солнце  будило~меня   
+
+[POINT_TO_PHRASE]
+> Выберите вариант «на рассвете»
+Speaker507: OK,    but I (wake~up)    (+at~sunrise)  (every)  (morning)…
+~           ладно  но  я  просыпаюсь    на~рассвете   каждое   утро     
+
+[LINE]
+Speaker438: And do~you~mind  if   I take~that~painting off~the~wall?
+~           и   ты~не~против если я сниму~ту~картину   со~стены     
+
+[LINE]
+Speaker507: Why?   I~love~it.        My  cousin            painted~it.   
+~           зачем  она~мне~нравится  моя двоюродная~сестра нарисовала~её 
+
+[LINE]
+Speaker438: It's~a~little scary…    I won't~be~able to~sleep.
+~           она~немного   страшная  я не~смогу      спать    
+
+[LINE]
+Speaker507: Ugh, OK.   
+~           эх   ладно 
+
+[CONTINUATION]
+> Продолжите фразу
+> Bea takes~the~painting [off~the~wall].
+~ Би  снимает~картину     со~стены      
+- off~the~sofa
+~ с~дивана    
+- off~the~floor
+~ с~пола       
++ off~the~wall
+~ со~стены    
+
+[LINE]
+Speaker438: Oh! I forgot my   toothbrush.   Can   I use          yours?
+~           ой  я забыл  свою зубную~щётку  можно я воспользуюсь твоей 
+
+[LINE]
+Speaker507: My   toothbrush?!    No,  definitely~not.
+~           моей зубной~щёткой   нет  точно~нет      
+
+[LINE]
+Speaker438: Haha,  we're learning so  much  about~each~other!
+~           ха-ха  мы    узнаём   так много друг~о~друге     
+
+[LINE]
+Speaker507: Yeah, and I think you  should~stay        at a~hotel.  
+~           да    и   я думаю тебе лучше~переночевать в  гостинице 
+
+[MULTIPLE_CHOICE]
+> Какой вывод Би сделала о своём парне?
+- Он любит страшные картины.
+- Она хочет с ним жить.
++ Ему не стоит ночевать у неё в квартире.
+
+[MATCH]
+> Коснитесь пар
+- No <> нет
+- OK <> ладно
+- Ugh <> эх
+- Could I <> я могу
+- I love it <> она мне нравится
+
