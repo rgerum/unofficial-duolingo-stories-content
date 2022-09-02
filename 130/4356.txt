@@ -1,0 +1,119 @@
+[DATA]
+fromLanguageName=Ты не Мэри
+icon=7a321a8d84d41c79b4d3c85aced0cbcdd13756b6
+set=6|1
+
+[HEADER]
+> You're Not Mary
+~ ты     не  Мэри
+
+[LINE]
+> Junior  comes~home         from school.
+~ Джуниор возвращается~домой из   школы  
+
+[LINE]
+> There~is~a~woman             in~the~living~room.
+~ какая-то~женщина~(находится) в~гостиной         
+
+[LINE]
+Speaker415: Oh! You're not Mary!
+~           о   ты     не  Мэри 
+
+[LINE]
+Speaker658: No…  I'm Penelope. I'm your~dad's~date…    
+~           нет  я   Пенелопа  я   подруга~твоего~папы 
+
+[MULTIPLE_CHOICE]
+> Вы поняли? Пенелопа — это...
+- …бабушка Джуниора.
+- …сестра Джуниора.
++ …подруга отца Джуниора.
+
+[LINE]
+Speaker415: I'm Junior! 
+~           я   Джуниор 
+
+[LINE]
+Speaker658: Hi,     Junior…  your dad  is~in~the~bathroom.
+~           привет  Джуниор  твой папа в~ванной           
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker658: So…  Is~Mary [here~often]?          
+~           так  а~Мэри   часто~здесь~(бывает)  
+- hear of them
+- her or them
++ here often
+
+[LINE]
+Speaker415: Yes! Every  day. 
+~           да   каждый день 
+
+[LINE]
+Speaker658: Every  day!? 
+~           каждый день  
+
+[LINE]
+Speaker415: Dad  and Mary always talk          in~the~morning.
+~           папа и   Мэри всегда разговаривают по~утрам       
+
+[LINE]
+Speaker658: I~want to~know more   about Mary…
+~           я~хочу узнать  больше про   Мэри 
+
+[LINE]
+Speaker415: Well, I~like       Mary but…
+~           ну    мне~нравится Мэри но  
+
+[LINE]
+Speaker415: She talks   too~much.      My  dad  loves her!
+~           она болтает слишком~много  мой папа любит её  
+
+[LINE]
+Speaker658: He loves her?!
+~           он любит её   
+
+[POINT_TO_PHRASE]
+> Выберите вариант «девушек».
+Speaker658: (Your) dad  (can't~have)     two  (+girlfriends)! (That's~not~OK)!
+~            твой  папа  не~может~иметь  двух   девушек        это~не~хорошо  
+
+[LINE]
+> Penelope leaves. Eddy comes~out~of the~bathroom.
+~ Пенелопа уходит  Эдди выходит~из   ванной       
+
+[LINE]
+Speaker414: Where~is Penelope?
+~           где      Пенелопа 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker415: [(She's~not~happy) (about)  (Mary).]
+~             она~недовольна    насчёт   Мэри   
+
+[LINE]
+Speaker414: Oh no! 
+~           о  нет 
+
+[LINE]
+Speaker414: Wait!    Penelope! Mary is~our~bird!
+~           подожди  Пенелопа  Мэри наша~птица  
+
+[LINE]
+Speaker625: Squawk! Goodbye,     Penelope!
+~           кар     до~свидания  Пенелопа 
+
+[MULTIPLE_CHOICE]
+> Ой! Почему Пенелопа ушла?
++ Она не знала, что Мэри — домашняя птица.
+- Она увидела другую женщину в гостиной.
+- Эдди не выходил из ванной.
+
+[MATCH]
+> Коснитесь пар
+- Wait <> подожди
+- I'm <> я
+- always <> всегда
+- Mary <> Мэри
+- from <> из
+
