@@ -1,0 +1,169 @@
+[DATA]
+fromLanguageName=Плохой сигнал
+icon=d72ea91e3c190e09f1659bad7070c54d56364893
+set=43|2
+
+[HEADER]
+> Bad    Reception
+~ плохой сигнал   
+
+[LINE]
+> Eddy and Oscar are~in~Oscar's~apartment.      They are~watching a~soccer~game   on TV.        
+~ Эдди и   Оскар (находятся)~в~квартире~Оскара  они  смотрят      футбольный~матч по телевизору 
+
+[LINE]
+Speaker414: Yes! Amazing!   
+~           да   потрясающе 
+
+[LINE]
+Speaker414: Did~you~see that goal?
+~           ты~видел    тот  гол  
+
+[POINT_TO_PHRASE]
+> Choose   the~option that    means    «счёт».
+~ выберите вариант    который означает ~      
+Speaker592: No.  Eddy, you asked    (to~come) into~my~apartment for one  (minute) (to~check)          (+the~score).
+~           нет  Эдди  ты  попросил  прийти   ко~мне~в~квартиру на  одну  минуту   (чтобы)~проверить    счёт       
+
+[LINE]
+Speaker592: But you've~been here  an~hour!
+~           но  ты~пробыл   здесь час     
+
+[LINE]
+Speaker414: I know. Aren't~you~glad       I stayed? 
+~           я знаю  разве~ты~не~рад~(что) я остался 
+
+[LINE]
+Speaker592: Eddy, I~am very  tired.
+~           Эдди  я    очень устал 
+
+[LINE]
+Speaker414: Some~pizza will~wake~you~up.
+~           пицца      тебя~расшевелит  
+
+[ARRANGE]
+> Наберите услышанное
+Speaker592: [(No),  (it's~too~late)        (for) (pizza)!]
+~             нет    (уже)~слишком~поздно   для   пиццы   
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker414: Don't~worry! I know an~amazing  pizza~place [that's~open~late].        
+~           не~волнуйся  я знаю потрясающую пиццерию     которая~открыта~допоздна  
+- which won't be great
+- that's over eight
++ that's open late
+
+[LINE]
+> Eddy takes~out his  phone.  
+~ Эдди достаёт   свой телефон 
+
+[LINE]
+Speaker414: Hmm… I~don't~have~any  reception. Does~your~phone~have   reception?
+~           хм   у~меня~совсем~нет сигнала    у~твоего~телефона~есть сигнал    
+
+[MULTIPLE_CHOICE]
+> If   a~phone~doesn't~have~any reception…
+~ если у~телефона~совсем~нет    сигнала   
+- …you can    call    anyone~you~want.
+~  вы  можете звонить кому~хотите     
++ …you~can't    make~calls or  send       texts.              
+~  вы~не~можете звонить    или отправлять текстовые~сообщения 
+- …your calls  sound  very  good.  
+~  ваши звонки звучат очень хорошо 
+
+[LINE]
+> Oscar looks~at his  phone.   It~has great    reception.
+~ Оскар смотрит  свой телефон  у~него отличный сигнал    
+
+[LINE]
+Speaker592: No,  sorry. 
+~           нет  извини 
+
+[LINE]
+Speaker592: But there's good    reception near  my   front   door. 
+~           но  есть    хороший сигнал    около моей входной двери 
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+> Eddy walks~over~to [the~door].
+~ Эдди подходит~к     двери     
+- the~pizza
+~ пицце    
+- the~soccer~game  
+~ футбольному~матчу
++ the~door
+~ двери   
+
+[LINE]
+Speaker414: There's~still~no reception here. 
+~           всё~так~же~нет   сигнала   здесь 
+
+[LINE]
+Speaker592: Can~you   try         walking~out the~door?
+~           ты~можешь попробовать выйти~за    дверь    
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker414: You~want~me~to      [go~into~the~hall]?
+~           ты~хочешь~(чтобы)~я  вышел~в~коридор   
+- going to fall
+- go get the ball
++ go into the hall
+
+[LINE]
+Speaker592: Yes! The~reception~is great    there.
+~           да   сигнал           отличный там   
+
+[LINE]
+> Eddy opens     the~door and walks~out~of the~apartment.
+~ Эдди открывает дверь    и   выходит~из   квартиры      
+
+[ARRANGE]
+> Наберите услышанное
+Speaker414: [(There~is~great~reception) (in) (the~hall)!]
+~             связь~отличная             в    коридоре   
+
+[LINE]
+> Oscar runs~to     the~door, shuts~it~quickly, and locks~it.   
+~ Оскар подбегает~к двери     быстро~закрывает  и   запирает~её 
+
+[LINE]
+Speaker592: He's finally    gone!
+~           он   наконец-то ушёл 
+
+[LINE]
+> Oscar's~phone~rings.    
+~ у~Оскара~звонит~телефон 
+
+[LINE]
+> Oscar answers~his~phone.    It's Eddy calling from the~hall.
+~ Оскар отвечает~по~телефону  это  Эдди звонит  из   коридора 
+
+[LINE]
+Speaker414: Oscar? Your door  is~locked. Can~you   let~me~in?    
+~           Оскар  твоя дверь заперта    ты~можешь впустить~меня 
+
+[LINE]
+Speaker592: Sorry,  I can't~hear~you. I~have bad    reception.
+~           прости  я тебя~не~слышу   у~меня плохой сигнал    
+
+[MULTIPLE_CHOICE]
+> Why~did Oscar lock  the~door?
+~ почему  Оскар запер дверь    
+- His favorite soccer~team        lost.     
+~ его любимая  футбольная~команда проиграла 
+- He wants to~eat all~of~Eddy's~pizza.
+~ он хочет съесть всю~пиццу~Эдди      
++ He doesn't~want     Eddy to~come~back    inside.
+~ он не~хочет~(чтобы) Эдди заходил~обратно внутрь 
+
+[MATCH]
+> Коснитесь пар
+- Yes <> да
+- takes out <> достаёт
+- runs to <> подбегает к
+- sorry <> извини
+- the door <> дверь
+
