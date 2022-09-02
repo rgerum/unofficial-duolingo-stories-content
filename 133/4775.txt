@@ -1,0 +1,95 @@
+[DATA]
+fromLanguageName=원숭이들
+icon=c29e4533eca0186f83adafac9383fef2ed3aee56
+set=8|4
+
+[HEADER]
+> The~Monkeys
+~ 원숭이들       
+
+[LINE]
+> Eddy~and~Junior~are at~the~zoo.
+~ 에디와~주니어가            동물원에~있다    
+
+[LINE]
+> They~are looking at~the~lions.
+~ 그들은      보고~있다   사자들을         
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker415: Dad, [can~we~see] the~monkeys now?
+~           아빠    우리~봐도~돼요    원숭이들을       이제  
+- can we be
+- can she see
++ can we see
+
+[LINE]
+Speaker414: But you never~want~to~see the~monkeys.
+~           하지만 넌   항상~보기~싫어했잖아       원숭이들을       
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker415: I  really like [the~monkeys~now]!
+~           저는 정말     좋아해요  원숭이들을~이제         
+- your new shirt
+~ 아빠의  새   셔츠   
++ the~monkeys now
+~ 원숭이들        이제 
+- potatoes
+~ 감자      
+
+[LINE]
+Speaker415: Can~we~see~them?
+~           (우리)~봐도~돼요      
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker414: Junior, the~monkeys~are [on~the~other~side] of~the~zoo!
+~           주니어     원숭이들은            저~반대편에~있어          동물원의       
++ on the other side
+- on the others' ride
+- and the mothers lied
+
+[LINE]
+Speaker415: We~can~run.    You love   exercise.
+~           (우리는)~뛰어가면~돼요  아빠는 좋아하잖아요 운동을      
+
+[LINE]
+Speaker414: Hmm. OK! Yes, I  love~to~run! 
+~           음    그래  맞아   내가 뛰는~걸~진짜~좋아하지 
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+> [(Junior~and~Eddy) (start) (running).]
+~   주니어와~에디가          시작한다    뛰기        
+
+[LINE]
+Speaker415: Can~you~run faster, Dad?
+~           뛸~수~있어요     더~빨리    아빠  
+
+[LINE]
+Speaker414: Wait. Junior, why are~we running? You hate  running!
+~           잠깐만   주니어     왜   우리가    뛰고~있지    넌   싫어하잖아 뛰는~것을   
+
+[LINE]
+Speaker415: I  hate running, but I  love   ice~cream!
+~           저는 싫어요  뛰는~게     하지만 저는 너무~좋아요 아이스크림이    
+
+[LINE]
+Speaker415: And there's~an~ice~cream~shop next~to~the~monkeys!
+~           그리고 아이스크림~가게가~있어요             원숭이들~옆에             
+
+[MULTIPLE_CHOICE]
+> 주니어가 원숭이들을 보려고 뛰는 이유는 무엇인가요?
++ 아이스크림을 먹기 위해서.
+- 원숭이와의 달리기 시합에 대비해 연습하기 위해서.
+- 건강해지기 위해서.
+
+[MATCH]
+> 짝을 누르세요
+- OK <> 그래
+- Yes <> 맞아
+- the monkeys are <> 원숭이들은
+- We can run <> 뛰어가면 돼요
+- Dad <> 아빠
+
