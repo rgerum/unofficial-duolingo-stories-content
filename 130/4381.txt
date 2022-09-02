@@ -1,0 +1,157 @@
+[DATA]
+fromLanguageName=Как тебя зовут?
+icon=689567546d7675ad256e56c304d89b12a7c38c8a
+set=12|2
+
+[HEADER]
+> What's~Your~Name?
+~ как~тебя~зовут   
+
+[LINE]
+> Lily and Zari are~at~a~party.
+~ Лили и   Зари на~вечеринке   
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker418: I'm~so~happy     we're here!  [I~want~to~dance]! 
+~           я~так~рада~(что) мы    здесь   я~хочу~танцевать  
++ I want to dance
+- I went to France
+- I want two days
+
+[LINE]
+Speaker416: I do~not~dance.
+~           я не~танцую    
+
+[POINT_TO_PHRASE]
+> Выберите вариант «симпатичный».
+Speaker418: (Ooh), (who's~that)? (He's) (+cute)!       
+~            о      кто~это       он      симпатичный  
+
+[LINE]
+Speaker416: He's in my   science~class.         This~is~his~party.
+~           он   в  моём классе~естествознания  это~его~вечеринка 
+
+[LINE]
+Speaker418: What's~his~name?
+~           как~его~зовут   
+
+[LINE]
+Speaker416: John? Steve? I don't know.
+~           Джон  Стив   я не    знаю 
+
+[LINE]
+Speaker418: Hello!  Can~we    talk~to~you?       
+~           привет  можно~нам поговорить~с~тобой 
+
+[LINE]
+Speaker416: Zari! What~are~you~doing?
+~           Зари  что~ты~делаешь     
+
+[LINE]
+Speaker416: Now    he's going      to~talk~to~us.    
+~           теперь он   собирается поговорить~с~нами 
+
+[MULTIPLE_CHOICE]
+> Хмм... Кажется, Лили…
+- …лучшая подруга этого парня.
+- …получает плохие оценки на уроках естествознания.
++ …не хочет разговаривать с парнем на вечеринке.
+
+[LINE]
+Speaker418: Great!  
+~           отлично 
+
+[LINE]
+Speaker416: No!  I don't remember his name!
+~           нет  я не    помню    его имя  
+
+[LINE]
+Speaker418: Is~his~name… Anthony?
+~           его~имя      Энтони  
+
+[LINE]
+Speaker416: No|⁠— 
+~           нет ~ 
+
+[LINE]
+Speaker418: Thomas?
+~           Томас  
+
+[LINE]
+Speaker416: No|⁠— 
+~           нет ~ 
+
+[LINE]
+Speaker418: Is~it⁠—
+~           это    
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker416: Zari! I don't know his [name]!
+~           Зари  я не    знаю его  имя   
++ name
+~ имя 
+- dog   
+~ собаку
+- face
+~ лицо
+
+[LINE]
+Speaker418: Look!   He's coming here now!   
+~           смотри  он   идёт   сюда сейчас 
+
+[LINE]
+Speaker416: Oh no… 
+~           о  нет 
+
+[LINE]
+Speaker419: Hello,  Lily!
+~           привет  Лили 
+
+[LINE]
+Speaker416: Hey…
+~           хэй 
+
+[LINE]
+Speaker419: Are~you~excited~for  our   science~exam?               
+~           ты~взволнована~перед нашим экзаменом~по~естествознанию 
+
+[LINE]
+Speaker416: Yeah. I'm~so~excited.     
+~           да    я~очень~взволнована 
+
+[LINE]
+> He~looks~at   Zari. Zari looks~at   Lily. Lily doesn't~say~anything.
+~ он~смотрит~на Зари  Зари смотрит~на Лили  Лили ничего~не~говорит    
+
+[LINE]
+Speaker418: Hi!     I'm Zari!
+~           привет  я   Зари 
+
+[LINE]
+Speaker419: Nice~to~meet~you,      Zari.
+~           приятно~познакомиться  Зари 
+
+[LINE]
+Speaker418: What's your name? Lily doesn't~remember~it!
+~           как    твоё имя   Лили не~помнит~его       
+
+[LINE]
+Speaker416: Zari?!
+~           Зари  
+
+[MULTIPLE_CHOICE]
+> Ой-ёй! Почему Лили рассердилась?
+- Парень пригласил её потанцевать.
+- Зари не может вспомнить её имя.
++  Зари сказала тому парню, что Лили не помнит его имени.
+
+[MATCH]
+> Коснитесь пар
+- coming <> идёт
+- Great <> отлично
+- to talk to us <> поговорить с нами
+- in <> в
+- who's that <> кто это
+
