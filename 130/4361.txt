@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=Нужна помощь?
+icon=ec74184ed69da39d62ba574fa9d615f7d0c53da1
+set=7|2
+
+[HEADER]
+> Need  Help?  
+~ нужна помощь 
+
+[LINE]
+> Lin is~walking on a~road.
+~ Лин идёт       по дороге 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+> She sees  a~man   [near~his~car].        
+~ она видит мужчину  возле~его~автомобиля  
+- hear his car
++ near his car
+- near this car
+
+[LINE]
+> He looks    unhappy.   
+~ он выглядит несчастным 
+
+[LINE]
+Speaker508: Hi!     Do~you~need help?  
+~           привет  вам~нужна   помощь 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker127: There~is a~problem with [my   car].    
+~           есть     проблема  с     моей машиной  
++ my~car      
+~ моей~машиной
+- the~weather
+~ погодой    
+- my~coffee
+~ моим~кофе
+
+[LINE]
+Speaker127: Can  I use             your  phone,     please?    
+~           могу я воспользоваться вашим телефоном  пожалуйста 
+
+[LINE]
+> Lin gives her  phone   to~the~man.
+~ Лин даёт  свой телефон мужчине    
+
+[LINE]
+Speaker508: Sure,    but…
+~           конечно  но  
+
+[LINE]
+Speaker127: Sorry,    one  minute.
+~           простите  одну минуту 
+
+[LINE]
+> The~man uses       Lin's~phone.  
+~ мужчина пользуется телефоном~Лин 
+
+[LINE]
+Speaker127: Yes, is~this the~auto~repair~shop?
+~           да   это     автомастерская       
+
+[MULTIPLE_CHOICE]
+> Мужчина одолжил у Лин телефон, чтобы…
++ …позвонить в автомастерскую.
+- …посмотреть время.
+- …посмотреть её фотографии.
+
+[LINE]
+Speaker127: I~have a~car~problem.     
+~           у~меня проблема~с~машиной 
+
+[LINE]
+Speaker508: Uh…  Sir? 
+~           э-э  сэр  
+
+[LINE]
+> The~man continues  talking  on~the~phone.
+~ мужчина продолжает говорить по~телефону  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker127: No,  I don't know [where~I~am].
+~           нет  я не    знаю  где~я       
++ where I am
+- where I ran
+- here I am
+
+[LINE]
+Speaker127: Excuse~me, miss…
+~           извините   мисс 
+
+[LINE]
+Speaker508: Yes?
+~           да  
+
+[LINE]
+Speaker127: Where~are we?
+~           где       мы 
+
+[LINE]
+Speaker508: Near  the~auto~repair~shop!
+~           около автомастерской       
+
+[LINE]
+Speaker127: What?
+~           что  
+
+[ARRANGE]
+> Наберите услышанное
+Speaker508: [(I) (work)    (there) (on~weekends).]
+~             я   работаю   там     по~выходным   
+
+[LINE]
+Speaker508: I'm a~mechanic!
+~           я   механик    
+
+[LINE]
+Speaker508: So…  do~you~need help?  
+~           так  вам~нужна   помощь 
+
+[MULTIPLE_CHOICE]
+> Оказывается, Лин...
+- ...не знает, где она находится.
+- ...нужна помощь с покупкой нового телефона.
++ ...работает в автомастерской.
+
+[MATCH]
+> Коснитесь пар
+- a car problem <> проблема с машиной
+- Sir <> сэр
+- my <> моей
+- near his car <> возле его автомобиля
+- on weekends <> по выходным
+
