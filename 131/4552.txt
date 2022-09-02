@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=У музеї
+icon=86b7c49cff833ae55ebdce7743ae422307168a8e
+set=2|1
+
+[HEADER]
+> In the~Museum 
+~ у  музеї      
+
+[LINE]
+> Erin is~in~a~museum with her   grandfather.
+~ Ерін у~музеї        із   своїм дідусем     
+
+[LINE]
+Speaker1320: The photos     here are very interesting!
+~            ~   фотографії тут  є   дуже цікаві      
+
+[LINE]
+Speaker2474: Yes, they~are photos     of~Pittsburgh.
+~            так  це       фотографії Піттсбурга    
+
+[LINE]
+Speaker1320: But there~are~no cars…       
+~            але там~немає    автомобілів 
+
+[MULTIPLE_CHOICE]
+> На старих фотографіях немає автомобілів.
++ Так, це правда.
+- Ні, це неправда.
+
+[LINE]
+Speaker2474: Yes, the~photos~are very old.  
+~            так  фотографії     дуже старі 
+
+[LINE]
+Speaker1320: Here~is a~photo of~students from~a~university.
+~            ось     фото    студентів   із~університету   
+
+[LINE]
+Speaker2474: Yes, it~is the~University~of~Pittsburgh.
+~            так  це    Університет~Піттсбурга       
+
+[CONTINUATION]
+> Чим закінчується речення?
+Speaker2474: The~students~are from the~School~of~Medicinee.] 
+~            ці~студенти      із   інституту~медицини        
+- children 
+~ діти     
++  School~of~Medicine 
+~  інституту~медицини 
+- intelligent 
+~ розумні     
+
+[LINE]
+Speaker1320: There~is a~woman in~the~photo! 
+~            є        жінка   на~фотографії 
+
+[LINE]
+Speaker1320: Only one  woman…
+~            лише одна жінка 
+
+[MULTIPLE_CHOICE]
+> Ерін каже…
+- … що бачить п'ятьох жінок на старій фотографії.
+- … що вона знає лише одну жінку.
++ … що на фотографії лише одна жінка-студентка.
+
+[POINT_TO_PHRASE]
+> Виберіть варіант, який означає «дивиться».
+> Erin's~grandfather (+looks)    at~the~photo. (He)  (does~not) (speak).   
+~ дідусь~Ерін          дивиться  на~фото        він   не         говорить  
+
+[LINE]
+Speaker1320: Grandpa?
+~            дідусю  
+
+[LINE]
+Speaker2474: She~is beautiful…
+~            вона   красива   
+
+[LINE]
+Speaker1320: Yes, very beautiful.
+~            так  дуже красива   
+
+[ARRANGE]
+> Що ви чуєте?
+Speaker2474: [(She~is) (my)  (grandmother).]
+~              це       моя   бабуся        
+
+[LINE]
+Speaker1320: Wow!
+~            ого 
+
+[LINE]
+Speaker1320: I~have a~very interesting family!
+~            у~мене дуже   цікава      сім'я  
+
+[MULTIPLE_CHOICE]
+> Що сталося в історії?
+- Ерін не сподобався похід до музею.
+- Ерін побачила в музеї фотографію свого дідуся.
++ Дідусь Ерін побачив у музеї фотографію своєї бабусі.
+
+[MATCH]
+> З’єднайте пари
+- is in a museum <> у музеї
+- looks <> дивиться
+- one <> одна
+- from a university <> із університету
+- with <> із
+
