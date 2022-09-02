@@ -1,0 +1,142 @@
+[DATA]
+fromLanguageName=Кофейное искусство
+icon=721a83a9cb283d95fc4a904b27a83c7a60b7760a
+set=27|2
+
+[HEADER]
+> The~Coffee Artist  
+~ кофейный   художник
+
+[LINE]
+> Oscar is~at~the~counter      of~a~new coffee~shop.
+~ Оскар (стоит)~возле~прилавка новой    кофейни     
+
+[LINE]
+Speaker592: This coffee is~terrible!
+~           этот кофе   ужасный     
+
+[LINE]
+Speaker1087: But this~is~the~way I always make    coffee.
+~            но  таким~способом  я всегда готовлю кофе   
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker592: You don't understand. [The~milk~is~too~hot].   
+~           вы  не    понимаете    молоко~слишком~горячее  
+- The milk will do what
++ The milk is too hot
+- The silk is too hot
+
+[LINE]
+Speaker1087: I don't know what you want.   I already made       three coffees for you.
+~            я не    знаю чего вы  хотите  я уже     приготовил три   кофе    для вас 
+
+[LINE]
+Speaker592: Please     move.        I'll show   you how to~make~it.  
+~           пожалуйста подвиньтесь  я    покажу вам как его~готовить 
+
+[LINE]
+> Oscar goes behind the~counter and makes   a~perfect cup   of~coffee.
+~ Оскар идёт за     прилавок    и   готовит идеальную чашку кофе      
+
+[LINE]
+> The~employee tries   it. 
+~ работник     пробует его 
+
+[LINE]
+Speaker1087: Wow,   it's… amazing!   
+~            ух~ты  это   потрясающе 
+
+[MULTIPLE_CHOICE]
+> Оскар готовит ужасный кофе.
++ Нет, это неправда
+-  Да, это правда.
+
+[LINE]
+Speaker592: I know. A~great       cup   of~coffee is~like~art!  
+~           я знаю  замечательная чашка кофе      как~искусство 
+
+[LINE]
+> Another  customer   walks~over~to Oscar. 
+~ ещё~один покупатель подходит~к    Оскару 
+
+[LINE]
+Speaker438: One  coffee, please.    
+~           один кофе    пожалуйста 
+
+[ARRANGE]
+> Наберите услышанное
+> [(Oscar) (makes)   (another)  (perfect)   (coffee).]
+~   Оскар   готовит   ещё~один   идеальный   кофе     
+
+[LINE]
+Speaker438: Wow,   this~is the~best coffee I've~ever~had!              
+~           ух~ты  это     лучший   кофе   (что)~я~когда-либо~пробовал 
+
+[LINE]
+Speaker592: I know.
+~           я знаю 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker1087: Please     [tell~all~your~friends]         about our amazing      coffee!
+~            пожалуйста  расскажите~всем~своим~друзьям  про   наш удивительный кофе   
++ tell all your friends
+- sell all your cans
+- tell how it ends
+
+[LINE]
+> Hours~later,      there's~a~long~line           in~front~of the~coffee~shop. Eddy~arrives.  
+~ через~пару~часов  (выстроилась)~длинная~очередь перед       кофейней         приезжает~Эдди 
+
+[MULTIPLE_CHOICE]
+> Хмм… Почему у кофейни такая длинная очередь?
+- Все ненавидят кофе.
+- Оскар раздаёт автографы по случаю выхода его книги.
++ Посетители кофейни рассказали друзьям о вкусном кофе.
+
+[LINE]
+Speaker414: Oscar! Do~you~work  here  now?   
+~           Оскар  ты~работаешь здесь теперь 
+
+[CONTINUATION]
+> Продолжите фразу
+Speaker592: No,  I~don't!    But no~one~else     can~make          [a~great       cup   of~coffee]!
+~           нет  не~работаю  но  никто~больше~не может~приготовить  замечательную чашку кофе       
+- a~delicious   burger
+~ очень~вкусный бургер
++ a~great       cup   of~coffee
+~ замечательную чашку кофе     
+- a~magic     milkshake        
+~ невероятный молочный~коктейль
+
+[LINE]
+Speaker414: Are~they paying you? 
+~           они      платят тебе 
+
+[LINE]
+Speaker592: I'm not doing this for~money.  This~is art.      
+~           я   не  делаю это  ради~денег  это     искусство 
+
+[LINE]
+Speaker414: So     is~the~coffee~free, then? 
+~           значит кофе~бесплатный     тогда 
+
+[LINE]
+Speaker1087: No.  A~cup of~coffee costs five dollars.  And you~have~to stand~in~line.   
+~            нет  чашка кофе      стоит пять долларов  и   вам~нужно   встать~в~очередь 
+
+[MULTIPLE_CHOICE]
+> Почему Оскар готовит кофе?
+- Он начал рисовать картины с помощью кофе.
+- Кофейня платит ему за это большие деньги.
++ Он считает, что приготовление вкусного кофе — тоже искусство.
+
+[MATCH]
+> Коснитесь пар
+- show <> покажу
+- You <> вы
+- this is the way <> таким способом
+- three <> три
+- amazing <> потрясающе
+
