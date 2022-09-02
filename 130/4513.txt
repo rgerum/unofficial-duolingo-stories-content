@@ -1,0 +1,177 @@
+[DATA]
+fromLanguageName=Страшное кино
+icon=a1bbf834056206ad49e2cdb3e37429d21dafecc5
+set=45|2
+
+[HEADER]
+> Scary    Movie
+~ страшное кино 
+
+[LINE]
+> It's~a~dark~night, and Zari is~babysitting Junior.   
+~ тёмная~ночь        и   Зари сидит~с        Джуниором 
+
+[LINE]
+Speaker415: Zari, can~we   watch      The~Ghost~Doll?  
+~           Зари  мы~можем посмотреть Кукла-привидение 
+
+[LINE]
+Speaker418: What? No!  That's a~scary  movie!
+~           что   нет  это    страшное кино  
+
+[LINE]
+Speaker415: Please?     I finished my   homework,         washed the~dishes, and I even washed your car!   
+~           пожалуйста  я закончил своё домашнее~задание  помыл  посуду      и   я даже помыл  твою машину 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker418: [I~don't~have~a~car].
+~            у~меня~нет~машины   
+- I don't hate the car
++ I don't have a car
+- I don't give a card
+
+[LINE]
+Speaker415: Oh. Well, I washed someone's car.   
+~           о   ну    я помыл  чью-то    машину 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker418: [(You~are) (too~young)         (to~watch)         (scary)    (movies).]
+~             ты        слишком~маленький   (чтобы)~смотреть   страшные   фильмы   
+
+[LINE]
+Speaker415: But I love  watching scary    movies! I always watch  them with my   dad.  
+~           но  я люблю смотреть страшные фильмы  я всегда смотрю их   с    моим папой 
+
+[LINE]
+Speaker418: Well, The~Ghost~Doll   is~too  scary.   
+~           ну    Кукла-привидение слишком страшный 
+
+[MULTIPLE_CHOICE]
+> Zari thinks that Junior… 
+~ Зари думает что  Джуниор 
+- ...writes             scary    movies  with his   dad.  
+~    пишет~(сценарии~к) страшным фильмам со   своим папой 
++ ...is~too~young      to~watch         The~Ghost~Doll.  
+~    слишком~маленький (чтобы)~смотреть Куклу-привидение 
+- ...should watch    a~lot~of scary    movies. 
+~    должен смотреть много    страшных фильмов 
+
+[LINE]
+Speaker415: No,~it~isn't.     I've seen  it  six   times.
+~           нет,~не~страшный  я    видел его шесть раз   
+
+[LINE]
+Speaker418: No,~you~haven't.
+~           нет,~не~видел   
+
+[LINE]
+Speaker415: Yes~I~have! I~wasn't~scared~at~all     when  the~doll hid        under the~bed  with the~big knife.
+~           да,~видел   мне~вообще~не~было~страшно когда кукла    спряталась под   кроватью с    большим ножом 
+
+[CONTINUATION]
+> What~comes~next? 
+~ продолжите~фразу 
+Speaker418: The~doll was  under [the~bed]? 
+~           кукла    была под    кроватью  
++ the~bed 
+~ кроватью
+- the~movie
+~ фильмом  
+- the~knife
+~ ножом    
+
+[LINE]
+Speaker415: And I laughed when  the~man ran~away from the~doll. He was~screaming the~whole~time!
+~           и   я смеялся когда мужчина убегал   от   куклы     он кричал        всё~время      
+
+[POINT_TO_PHRASE]
+> Click~on the~option meaning            «преследовала».
+~ выберите вариант    (который)~означает ~              
+Speaker418: (The~doll) (+chased)       (the~man)? With (a~knife)?
+~            кукла       преследовала   мужчину   с     ножом    
+
+[LINE]
+Speaker415: Yeah. Do~you~think a~doll could~really hide      under a~bed?   
+~           да    думаешь      кукла  правда~могла прятаться под   кроватью 
+
+[LINE]
+Speaker418: I… I don't know.
+~           я  я не    знаю 
+
+[LINE]
+Speaker415: I think a~doll could~definitely do~that.   
+~           я думаю кукла  точно~могла      это~делать 
+
+[LINE]
+Speaker415: My  favorite~part  was when  the~doll went~into the~girl's~room…  
+~           мой любимый~момент был когда кукла    пошла~в   комнату~к~девочке 
+
+[LINE]
+Speaker418: What?
+~           что  
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker415: The~girl [looked~like~you]!    
+~           девочка   была~похожа~на~тебя  
+- cooked like you
+- looked like new
++ looked like you
+
+[LINE]
+Speaker415: And the~doll was~really~quiet…     and then… 
+~           и   кукла    вела~себя~очень~тихо  а   потом 
+
+[LINE]
+Speaker415: It~jumped on~the~girl's~face!
+~           прыгнула  девочке~на~лицо    
+
+[LINE]
+Speaker418: No! 
+~           нет 
+
+[LINE]
+Speaker415: Yes! It  was  so  cool! 
+~           да   это было так круто 
+
+[ARRANGE]
+> Наберите услышанное
+Speaker418: [(Please)     (stop)     (talking)  (about) (this)!]
+~             пожалуйста   прекрати   говорить   об      этом   
+
+[LINE]
+Speaker415: Why?   
+~           почему 
+
+[LINE]
+Speaker418: You'll~scare yourself. You won't~be~able to~sleep.
+~           ты~напугаешь себя      ты  не~сможешь    спать    
+
+[LINE]
+Speaker415: The~movie is~not~too~scary  for me.  
+~           фильм     не~очень~страшный для меня 
+
+[LINE]
+Speaker418: Fine.   We~can't~watch~it        because    the~movie is~too  scary    for me.  
+~           хорошо  мы~не~можем~смотреть~его потому~что фильм     слишком страшный для меня 
+
+[MULTIPLE_CHOICE]
+> Ah~ha!   Why    doesn't~Zari~want to~watch the~movie?
+~ вот~как  почему Зари~не~хочет     смотреть фильм     
+- She has~watched~it too     many  times.
+~ она смотрела~его   слишком много раз   
+- It's~too   scary    for Junior.  
+~ он~слишком страшный для Джуниора 
++ It's~too   scary    for her.
+~ он~слишком страшный для неё 
+
+[MATCH]
+> Коснитесь пар
+- movie <> кино
+- so <> так
+- Oh <> о
+- times <> раз
+- No <> нет
+
