@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=밤기차 안의 비명
+icon=6a2cfe9a3b62354a66111cce8d24f451aa087ef0
+set=32|1
+
+[HEADER]
+> A~Scream on~the~Night~Train
+~ 비명       밤기차~안의            
+
+[LINE]
+> Lucy~and~Lin~are on~a~train at~night. They're getting~ready to~go~to~sleep in~their~room.
+~ 루시와~린이           기차를~타고~있다  밤에        그들이     준비~중이다        잠을~잘           그들의~방에서       
+
+[LINE]
+> Suddenly, they hear a~scream.
+~ 갑자기       그들이  듣는다  비명~소리를   
+
+[LINE]
+Speaker509: Did~you~hear~that?
+~           너도~들었니            
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker508: Yeah. Maybe someone [is~in~danger].
+~           네     어쩌면   누군가가     위험에~빠졌나봐요     
++ is in danger
+- has strange hair
+- is a ranger
+
+[LINE]
+> Lucy listens at~the~door.
+~ 루시가  귀를~기울인다 문에          
+
+[LINE]
+Speaker509: Let~me~see if~everything~is~OK.
+~           보고~올게      아무~일~없는지            
+
+[LINE]
+Speaker508: No!   Maybe a~murderer~is outside   our room!
+~           안~돼요  어쩌면   살인마가          밖에~있을~거예요 우리  방의   
+
+[MULTIPLE_CHOICE]
+> 린이 방 밖으로 나가고 싶지 않은 이유는 무엇인가요?
++ 기차에 살인마가 있을까봐 무서워서.
+- 너무 피곤해서 무슨 일인지 알아보는 게 귀찮아서.
+- 아무 비명 소리도 듣지 못해서.
+
+[LINE]
+Speaker509: You watch~too~much TV.   
+~           넌   너무~많이~봐        텔레비전을 
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker508: [(I) (don't~want) (someone) (to~kill) (me)!]
+~             전   원치~않아요       누군가       죽이는~걸     절    
+
+[LINE]
+Speaker509: I'll~feel~better if  I~see what's happening.
+~           난~안심될~것~같아       ~하면 알다    무슨~일이  일어나는지     
+
+[LINE]
+Speaker508: And I'll~feel~better if  you  lock the~door and go~to~sleep.
+~           그리고 전~안심될~것~같아요      ~하면 할머니가 잠그다  문을       그리고 자러~가다       
+
+[CONTINUATION]
+> 다음에 올 말은 무엇인가요?
+Speaker509: Fine. I'll [stay~here].
+~           알았어   내가    여기~있을게     
++ stay here
+~ 있다   여기  
+- drink some~coffee
+~ 마시다   커피를        
+- scream 
+~ 비명을~지르다
+
+[LINE]
+> Later, in~the~middle~of~the~night, Lin wakes~up. She sees that  Lucy~is not~in~her~bed.
+~ 얼마~후   밤중에                         린이  깬다        그녀가 본다   ~인~것을 루시가     그녀의~침대에~없다     
+
+[LINE]
+Speaker508: Oh,~no! Where's~Grandma?
+~           아~이런    할머니가~어디~가셨지     
+
+[LINE]
+> Lin walks into~the~hallway. Suddenly, she hears Lucy scream    in~the~next~room.
+~ 린이  걸어간다  복도~쪽으로            갑자기       그녀가 듣는다   루시가  비명을~지르는~걸 옆~방에서            
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+> [(She) (runs) (to~the~door) (and) (opens~it).]
+~   그녀가   달려간다   그~문으로         그리고   문을~연다      
+
+[LINE]
+> Inside~the~room, Lucy~is playing~cards with~a~group~of~women.
+~ 방~안에서            루시가     카드~게임을~하고~있다  여러~명의~여자들과            
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker508: Grandma? [Why~did~you~scream]?!
+~           할머니       왜~비명을~지르셨어요          
++ Why did you scream
+- Where's the ice cream
+- Why did you dream
+
+[LINE]
+Speaker509: Lin! Meet my new friend, Jane! She's not a~murderer.
+~           린    인사해  내  새   친구      제인한테  그녀는   아니야 살인마가       
+
+[LINE]
+Speaker509: But she did~just~take $100   from~me in~our~card~game.
+~           하지만 그녀가 방금~따~갔어       100달러를 나한테서    카드~게임에서          
+
+[MULTIPLE_CHOICE]
+> 아하! 사람들이 기차에서 비명을 지른 이유는 무엇인가요?
+- 루시의 새 친구 제인이 살인마라서.
++ 카드 게임에서 돈을 잃어서.
+- 기차 도착 시간이 지연되어서.
+
+[MATCH]
+> 짝을 누르세요
+- I'll feel better <> 난 안심될 것 같아
+- room <> 방의
+- stay here <> 여기 있을게
+- Inside the room <> 방 안에서
+- in the next room <> 옆 방에서
+
