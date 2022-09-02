@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=Мне нехорошо
+icon=68ffeb0d8b8a73e7de5cd3b964b34d0e08761977
+set=10|3
+
+[HEADER]
+> I~Feel~Sick 
+~ мне~нехорошо
+
+[LINE]
+Speaker415: Dad!  I~feel~sick! 
+~           папа  мне~нехорошо 
+
+[LINE]
+Speaker414: Oh, no! 
+~           о   нет 
+
+[LINE]
+> Eddy touches  Junior's~head.  
+~ Эдди касается головы~Джуниора 
+
+[LINE]
+Speaker414: You~don't~have a~fever.
+~           у~тебя~нет     жара    
+
+[MULTIPLE_CHOICE]
+> У Джуниора жар.
+- Да, это правда.
++ Нет, это неправда.
+
+[LINE]
+Speaker415: But my  ear hurts! I want to~go to~the~doctor's~office!
+~           но  моё ухо болит  я хочу пойти на~приём~к~врачу       
+
+[LINE]
+Speaker414: OK…    
+~           хорошо 
+
+[ARRANGE]
+> Наберите услышанное
+> [(They) (go)   (to~the~doctor's~office).]
+~   они    идут   на~приём~к~врачу         
+
+[LINE]
+Speaker341: It's~nice to~see~you  again, Junior. 
+~           приятно   видеть~тебя снова  Джуниор 
+
+[LINE]
+Speaker341: What's~wrong?
+~           в~чём~дело   
+
+[LINE]
+Speaker414: His ear hurts.
+~           его ухо болит 
+
+[LINE]
+Speaker341: Oh, no!  I can  help.  
+~           о   нет  я могу помочь 
+
+[CONTINUATION]
+> Продолжите фразу
+> The~doctor~looks~at [Junior's~ear].
+~ доктор~осматривает   ухо~Джуниора  
++ Junior's~ear
+~ ухо~Джуниора
+- Eddy's~shoes
+~ туфли~Эдди  
+- the~clock
+~ часы     
+
+[LINE]
+Speaker341: Hmmm… Your ear is~fine.  
+~           хм    твоё ухо в~порядке 
+
+[LINE]
+Speaker415: Oh! Well… My  foot   hurts.
+~           о   ну    моя ступня болит 
+
+[LINE]
+> The~doctor~looks~at Junior's~foot.  
+~ доктор~осматривает  ступню~Джуниора 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker341: Your foot   [is~also~fine].  
+~           твоя ступня  тоже~в~порядке  
+- is also mine
++ is also fine
+- it's all the wine
+
+[LINE]
+Speaker414: Is~he~OK,     Doctor?
+~           он~в~порядке  доктор 
+
+[LINE]
+Speaker341: Yes.
+~           да  
+
+[LINE]
+Speaker341: You're~not~sick, Junior. 
+~           ты~не~болен      Джуниор 
+
+[LINE]
+Speaker415: I~am~sick!
+~           я~болен   
+
+[POINT_TO_PHRASE]
+> Выберите вариант «конфету».
+Speaker341: (Junior)…  are~you~here because    I (always) (give) you  (+candy)?  
+~            Джуниор   ты~здесь     потому~что я  всегда   даю   тебе   конфету  
+
+[LINE]
+Speaker415: Umm… Yes.
+~           эм   да  
+
+[LINE]
+Speaker414: Junior! 
+~           Джуниор 
+
+[LINE]
+Speaker415: So…  Can~I~have my  candy   now?   
+~           так  можно~мне  мою конфету теперь 
+
+[MULTIPLE_CHOICE]
+> Ох и Джуниор! Почему он хотел пойти к врачу?
+- Ему сильно нездоровилось.
++ Она всегда угощает его конфетами.
+- У него был подарок для врача.
+
+[MATCH]
+> Коснитесь пар
+- candy <> конфету
+- The doctor looks at <> доктор осматривает
+- His <> его
+- Umm <> эм
+- Dad <> папа
+
