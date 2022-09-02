@@ -1,0 +1,140 @@
+[DATA]
+fromLanguageName=새 취미
+icon=62007089a594753623424845fe8d5efd80654385
+set=31|3
+
+[HEADER]
+> New Hobby
+~ 새   취미   
+
+[LINE]
+> Lily's mother enters Lily's bedroom.
+~ 릴리의    엄마가    들어간다   릴리의    방에      
+
+[LINE]
+Speaker559: Lily? You~should~get~up.
+~           릴리야   일어나야지             
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker416: [(You) (should~leave) (my) (room).]
+~             엄마는   나가~주세요         제    방에서    
+
+[LINE]
+Speaker559: You've~been~in~bed all~day. It's summer!
+~           넌~누워~있었잖니          하루~종일    지금   여름이야   
+
+[LINE]
+Speaker416: I want~to~stay~in~bed and think    about~darkness. The world~is terrible.
+~           전 누워~있고~싶어요           그리고 생각하고~싶어요 어둠에~대해          이   세상은      끔찍한~곳이에요 
+
+[MULTIPLE_CHOICE]
+> 릴리가 침대에서 일어나기 싫은 이유는 무엇인가요?
+- 어제 밤새 계속 뒤척이다 잠을 잘 못 자서.
+- 몸에 열이 심하게 나고 있어서.
++ 어둡고 끔찍한 것들에 대해 생각하고 싶어서.
+
+[LINE]
+Speaker559: Teenagers~are so dramatic!
+~           십~대~애들은       정말 감정적이야    
+
+[LINE]
+Speaker559: When~I~was~your~age, I~went~out with~my~friends, swam   every~day, and learned new languages!
+~           엄마가~네~나이였을~땐         밖에서~어울렸어   친구들이랑            수영도~했고 매일         그리고 배웠단다    새   언어들을      
+
+[LINE]
+Speaker416: Learning new languages? That sounds~very~boring.
+~           배운다고요    새   언어들을       그건   진짜~지루할~것~같아요       
+
+[LINE]
+Speaker559: You should~get a   hobby. Hobbies~are fun!
+~           넌   찾아야~해      하나의 취미를    취미생활은       재밌어 
+
+[LINE]
+Speaker416: Lying~in~bed~is my hobby.
+~           침대에~누워있는~게      제  취미예요  
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker559: You could~join a   [book~club].
+~           네가  가입하는~건~어때  하나의  북클럽에       
++ book club
+- big club
+- book bag
+
+[LINE]
+Speaker416: I read alone. Like a~normal~person.
+~           전 읽어요  혼자     ~처럼  보통~사람           
+
+[LINE]
+Speaker559: Photography?
+~           사진~찍기는      
+
+[LINE]
+Speaker416: Ugh. No~thanks.
+~           어후   됐어요       
+
+[LINE]
+Speaker559: Oh! You like music, don't~you?
+~           아   넌   좋아하지 음악을    그렇지       
+
+[LINE]
+Speaker416: Yeah…
+~           네    
+
+[LINE]
+Speaker559: You could~play an  instrument. 
+~           네가  연주하는~건~어때  하나의 악기를         
+
+[ARRANGE]
+> 다음 음성을 듣고 해당 내용을 탭하세요
+Speaker559: [(Your) (dad) (has)   (some~old~drums).]
+~             네      아빠가   갖고~있어   오래된~드럼~몇~개를      
+
+[LINE]
+Speaker416: Hmm. Drums~are cool…  
+~           음    드럼이       멋있긴~하죠 
+
+[MULTIPLE_CHOICE]
+> 릴리는 드럼을 쳐볼까 생각 중이다.
++ 네, 맞아요.
+- 아니요, 그렇지 않아요.
+
+[LINE]
+> Four hours later, Lily~is playing~the~drums. It's~loud.
+~ 네    시간    후에     릴리가     드럼을~치고~있다          소리가~시끄럽다  
+
+[LINE]
+> Very loud.
+~ 아주   시끄럽다 
+
+[SELECT_PHRASE]
+> 빠진 문구를 선택하세요.
+Speaker559: Lily, can~you~stop [playing~the~drums] now?
+~           릴리야   그만할~수~있겠니     드럼~치는~걸            이제  
+- laying the drums
+- play in the rooms
++ playing the drums
+
+[LINE]
+Speaker416: But it's my new hobby. And I need~to~practice at~least three~hours~a~day.
+~           하지만 이건   저의 새   취미예요   그리고 전 연습해야~해요          최소한      하루에~세~시간          
+
+[LINE]
+Speaker559: Your new hobby~is giving~me~a~headache. Now I   need~to~lie~down.
+~           너의   새   취미가      내~머리를~아프게~해           이제  엄마가 누워야겠어            
+
+[MULTIPLE_CHOICE]
+> 릴리는 새 취미를 하나 찾았고…
+- ...그녀의 엄마가 그것을 아주 맘에 들어한다.
++ ...그것 때문에 그녀의 엄마는 심한 두통이 생겼다.
+- ...북클럽에 가입했다.
+
+[MATCH]
+> 짝을 누르세요
+- Yeah <> 네
+- dramatic <> 감정적이야
+- fun <> 재밌어
+- That <> 그건
+- later <> 후에
+
