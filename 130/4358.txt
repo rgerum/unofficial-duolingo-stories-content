@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=Тренировка Джуниора
+icon=9f2d4bdaca5fe3e93b4a97529d903567ee23fd4e
+set=6|3
+
+[HEADER]
+> Junior's~Exercise  
+~ тренировка~Джуниора
+
+[LINE]
+> Junior  is~playing video~games.
+~ Джуниор играет~(в) видеоигры   
+
+[LINE]
+Speaker414: Do~you~want to~exercise,     Junior? 
+~           хочешь      потренироваться  Джуниор 
+
+[LINE]
+Speaker415: No.  I want to~play    video~games.
+~           нет  я хочу играть~(в) видеоигры   
+
+[MULTIPLE_CHOICE]
+> Эдди хочет, чтобы Джуниор потренировался.
+- Нет, это неправда.
++ Да, это правда.
+
+[POINT_TO_PHRASE]
+> Выберите вариант «раздумывает».
+> (Eddy) (+thinks)      (for~a~minute).    
+~  Эдди    раздумывает   в~течение~минуты  
+
+[LINE]
+Speaker414: Do~you~want to~go to the~video~game~store?
+~           хочешь      пойти в  магазин~видеоигр     
+
+[LINE]
+Speaker415: Yes!
+~           да  
+
+[LINE]
+Speaker414: OK!     Can~you get      my  money  from the~bedroom?
+~           хорошо  можешь  принести мои деньги из   спальни     
+
+[LINE]
+> Junior  runs  and gets~the~money. 
+~ Джуниор бежит и   приносит~деньги 
+
+[LINE]
+Speaker415: Here, Dad! 
+~           вот   папа 
+
+[LINE]
+Speaker414: And can~you get      my  keys  from the~kitchen?
+~           и   можешь  принести мои ключи из   кухни       
+
+[LINE]
+> Junior  runs  and gets~the~keys. 
+~ Джуниор бежит и   приносит~ключи 
+
+[SELECT_PHRASE]
+> Выберите пропущенную фразу
+Speaker415: [Can~we~go~now]?    
+~            мы~можем~уже~идти  
+- Can we know how
+- Can we show now
++ Can we go now
+
+[LINE]
+Speaker414: I~need    my  jacket.
+~           мне~нужна моя куртка 
+
+[LINE]
+Speaker414: It's~in~Vikram's~apartment.
+~           она~в~квартире~Викрама     
+
+[LINE]
+Speaker415: But Vikram lives on the~fourth floor…  
+~           но  Викрам живёт на четвёртом  этаж(е) 
+
+[MULTIPLE_CHOICE]
+> На каком этаже живёт Викрам?
+- На втором.
+- На восьмом.
++ На четвёртом.
+
+[LINE]
+Speaker414: You~can~do~it!
+~           ты~сможешь    
+
+[LINE]
+> Junior  leaves. He comes~back   with Eddy's~jacket.
+~ Джуниор уходит  он возвращается с    курткой~Эдди  
+
+[LINE]
+Speaker414: Great,   now    we~can~go!     
+~           отлично  теперь мы~можем~пойти 
+
+[LINE]
+Speaker415: I'm~tired.
+~           я~устал   
+
+[MULTIPLE_CHOICE]
+> Теперь Джуниор...
+- …напуганный.
+- …радостный.
++ …уставший.
+
+[LINE]
+Speaker414: Why?    Too~much      exercise?  
+~           почему  слишком~много упражнений 
+
+[MULTIPLE_CHOICE]
+> Эдди...
++ …обманом заставил Джуниора потренироваться.
+- …отдал Викраму свою куртку.
+- …купил Джуниору новую видеоигру.
+
+[MATCH]
+> Коснитесь пар
+- is playing <> играет
+- No <> нет
+- exercise <> упражнений
+- to play <> играть
+- comes back <> возвращается
+
