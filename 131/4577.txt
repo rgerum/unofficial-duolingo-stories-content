@@ -1,0 +1,144 @@
+[DATA]
+fromLanguageName=Турист
+icon=c28cb69bf3836fd092352596d98fc29a300c70ce
+set=8|2
+
+[HEADER]
+> The~Tourist 
+~ турист      
+
+[LINE]
+> Pablo is~visiting San~Francisco.
+~ Пабло відвідує    Сан-Франциско 
+
+[LINE]
+> He  is~looking~for a~park.
+~ він шукає          парк   
+
+[MULTIPLE_CHOICE]
+>  Пабло — турист, який шукає парк.
+- Ні, це неправда.
++ Так, це правда.
+
+[LINE]
+Speaker172: Excuse~me!
+~           вибачте   
+
+[LINE]
+Speaker172: I'm~looking~for Golden~Gate~Park…   
+~           я~шукаю         парк~«Золота~Брама» 
+
+[SELECT_PHRASE]
+> Виберіть пропущену фразу
+Speaker856: You~need     [to~take~the~bus]… 
+~           вам~потрібно  сісти~на~автобус  
++ to take the bus
+- two on the bus
+- too busy to talk
+
+[LINE]
+Speaker856: There's a~stop  near~here.
+~           є       зупинка поблизу   
+
+[LINE]
+Speaker172: Thanks!
+~           дякую  
+
+[LINE]
+Speaker856: You're~welcome.
+~           будь~ласка     
+
+[LINE]
+Speaker856: Where~are~you~from?
+~           звідки~ви          
+
+[LINE]
+Speaker172: Barcelona.
+~           Барселона 
+
+[LINE]
+Speaker856: I love  Spain~! 
+~           я люблю Іспанію 
+
+[ARRANGE]
+> Що ви чуєте?
+Speaker856: [(And) (I'm~studying) (Spanish)!]  
+~             і     я~вивчаю       іспанську   
+
+[LINE]
+Speaker172: Nice!  
+~           чудово 
+
+[CONTINUATION]
+> Доповніть запитання. 
+Speaker856: Are~you [on~vacation]?
+~           ви       у~відпустці  
+- ... by~bus    ?
+~     автобусом  
++ ... on~vacation?
+~     у~відпустці 
+- ... at~my~house? 
+~     в~моєму~домі 
+
+[LINE]
+Speaker172: Yes, but I'm also  studying English.   
+~           так  але я   також вивчаю   англійську 
+
+[LINE]
+Speaker856: I'm Andrea. You?
+~           я   Андреа  ви  
+
+[LINE]
+Speaker172: I'm Pablo.
+~           я   Пабло 
+
+[SELECT_PHRASE]
+> Виберіть пропущену фразу
+Speaker856: [Nice~to~meet~you]!     
+~            приємно~познайомитися  
+- Nice to melt you
+- Ice to meet you
++ Nice to meet you
+
+[LINE]
+Speaker856: I~would~like to~talk    more…
+~           я~б~хотіла   поговорити ще   
+
+[LINE]
+Speaker856: … but I~need        to~go now.  
+~             але мені~потрібно йти   зараз 
+
+[LINE]
+Speaker856: I'm~going  to~meet~my~friends           at~a~park near~here.
+~           я~збираюся зустрітися~(з)~моїми~друзями у~парку   поблизу   
+
+[LINE]
+Speaker172: Oh, OK.   
+~           о   добре 
+
+[LINE]
+Speaker856: Umm… do~you~want to~come?
+~           емм  ви~хочете   піти    
+
+[LINE]
+Speaker856: It's not Golden~Gate~Park,    but…
+~           це   не  парк~«Золота~Брама»  але 
+
+[LINE]
+Speaker172: Yes! Of~course!
+~           так  звичайно  
+
+[MULTIPLE_CHOICE]
+> Пабло із задоволенням приймає…
+- … квиток на літак до Іспанії.
++ … запрошення піти в інший парк з Андреа.
+- … запрошення піти до школи Андреа.
+
+[MATCH]
+> З’єднайте пари
+- Oh <> о
+- Andrea <> Андреа
+- studying <> вивчаю
+- now <> зараз
+- And <> і
+
