@@ -1,0 +1,99 @@
+[DATA]
+fromLanguageName=Araba Sorunu
+icon=e161ff53b5f470063ac66df2698eddb71232c290
+set=19|4
+
+[HEADER]
+> Car   Problem
+~ Araba Sorunu 
+
+[LINE]
+> Eddy is~standing on~the~street.
+~ Eddy duruyor     sokakta       
+
+[LINE]
+> He closes  the~trunk of~a~car.
+~ ~  kapatır bagajını  arabanın 
+
+[LINE]
+> Vikram walks~past     Eddy.    
+~ Vikram yanından~geçer Eddy'nin 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker593: Are~you OK,  Eddy? [You~look~worried].     
+~           misin   İyi  Eddy   Endişeli~görünüyorsun  
++ You look worried
+- Who cooked curry
+- You look for it
+
+[LINE]
+Speaker414: Well, I~borrowed  this car     and it~won't~start.
+~           ~     ödünç~aldım bu   arabayı ve  çalışmıyor     
+
+[MULTIPLE_CHOICE]
+> Eddy, neden endişeli?
+- Bir arabanın bagajına girmiş.
+- Nerede olduğunu bilmiyor.
++ Ödünç aldığı arabayı çalıştıramıyor.
+
+[LINE]
+Speaker593: Hmm. Can~I          help   you? 
+~           ~    edebilir~miyim yardım sana 
+
+[LINE]
+Speaker414: No.    It's~OK,     Vikram.
+~           Hayır  Sıkıntı~yok  Vikram 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker593: But I~know    [what's~wrong]          with~the~car.
+~           Ama biliyorum  neyin~yanlış~olduğunu  arabada      
++ what's wrong
+- that's wrong
+- what's along
+
+[LINE]
+Speaker414: Vikram, I~know    a~lot       about    cars.    
+~           Vikram  biliyorum pek~çok~şey hakkında arabalar 
+
+[LINE]
+Speaker593: OK,    well, you already started        the~car …
+~           Tamam  peki  sen zaten   çalıştırmışsın arabayı  
+
+[LINE]
+Speaker414: No,    I~didn't.      I~can't~hear the~engine.
+~           Hayır  çalıştırmadım  duyamıyorum  motoru     
+
+[LINE]
+Speaker593: Eddy, this is an  electric   car.   It's quiet,  and it~doesn't~use gas.   
+~           Eddy  bu   ~  bir elektrikli araba  ~    sessiz  ve  kullanmaz      benzin 
+
+[MULTIPLE_CHOICE]
+> Araba elektrikli olduğundan…
+- …çok fazla benzin kullanıyor.
+- …çirkin görünüyor.
++ …ses çıkarmaz ve benzin kullanmaz.
+
+[LINE]
+Speaker414: But I   put    gas    in~the~car ten minutes ago. 
+~           Ama ben koydum benzin arabaya    on  dakika  önce 
+
+[LINE]
+Speaker593: What?! Where?   
+~           Ne     Neresine 
+
+[LINE]
+Speaker414: Right   here.  
+~           Ahan~da buraya 
+
+[LINE]
+Speaker593: Oh~no,    Eddy … That's the~trunk!
+~           Hay~aksi  Eddy   Orası  bagaj     
+
+[MULTIPLE_CHOICE]
+> Eddy, benzini nereye koydu?
++ arabanın bagajına
+- kendi motosikletine
+- Vikram'ın arabasına
+
