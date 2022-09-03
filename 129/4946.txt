@@ -1,0 +1,102 @@
+[DATA]
+fromLanguageName=Gerçekten Köpek İstiyorum
+icon=f0d8a8f3340da1d468766192cafa7ac1ee986355
+set=10|2
+
+[HEADER]
+> I~Really~Want~a~Dog      
+~ Gerçekten~Köpek~İstiyorum
+
+[LINE]
+Speaker415: Dad,  we    need  to~talk.    I   really    want      a   dog.  
+~           Baba  bizim lazım konuşmamız  Ben gerçekten istiyorum bir köpek 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker414: Junior, a   dog   is [a~lot~of~work] …
+~           Junior  bir köpek ~   çok~iştir       
+- a lot of weeks
++ a lot of work
+- a love for work
+
+[LINE]
+Speaker415: I~can~work!    I'm     very responsible.
+~           çalışabilirim  biriyim çok  sorumlu     
+
+[LINE]
+Speaker414: Really?      
+~           Gerçekten~mi 
+
+[LINE]
+Speaker414: Then    first, you   need  to~wash the~car …
+~           O~zaman önce   senin gerek yıkaman arabayı  
+
+[MULTIPLE_CHOICE]
+> Eddy, neden Junior'a arabayı yıkamasını söylüyor?
+- Junior'ın yeni işine araba ile gitmesi gerekiyor.
++ Junior'ın sorumlu olduğunu kanıtlamasını istiyor.
+- Junior'ın köpeği arabayı çok pisletti.
+
+[LINE]
+Speaker415: Sure!
+~           Peki 
+
+[LINE]
+Speaker414: … clean      the~bathroom …
+~             temizlemen banyoyu       
+
+[LINE]
+Speaker415: OK!   
+~           Tamam 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker414: … [(and) (clean)      (the~windows)!]
+~               ve    temizlemen   camları       
+
+[LINE]
+Speaker415: Oh~no     …
+~           hay~Allah  
+
+[POINT_TO_PHRASE]
+> "Sonra" anlamına gelen seçeneği seçin.
+> (Three) (hours) (+later), (Junior) finishes cleaning    their~apartment.
+~  Üç      saat     sonra    Junior  bitirir  temizlemeyi evi             
+
+[LINE]
+Speaker415: Dad!  Look at~my~work!  
+~           Baba  bak  yaptığım~işe 
+
+[LINE]
+Speaker414: Wow! This looks     great!  You~are very responsible.
+~           ~    Bu   görünüyor harika  birisin çok  sorumlu     
+
+[CONTINUATION]
+> Devamında ne gelecek?
+Speaker414: You~can~have [a~dog]!  
+~           olabilir      köpeğin  
+- a   window 
+~ bir pencere
+- a   toilet 
+~ bir tuvalet
++ a   dog  
+~ bir köpek
+
+[LINE]
+Speaker415: No,    thank~you!   I~don't~want a~dog now.  
+~           Hayır  teşekkürler  istemiyorum  köpek artık 
+
+[LINE]
+Speaker414: But Junior, I~don't~understand …
+~           Ama Junior  anlamıyorum         
+
+[LINE]
+Speaker415: I'm~tired! I~don't~want to~be responsible! 
+~           Yoruldum   istemiyorum  olmak sorumlu~biri 
+
+[MULTIPLE_CHOICE]
+> Junior,...
++ …bir köpeğe bakamayacak kadar yorgun olduğunu anladı.
+- …dört tane köpek sahiplenmenin daha iyi olacağını anladı.
+- …asıl istediğinin bir inek olduğunu anladı.
+
