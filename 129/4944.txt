@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Yardıma İhtiyacın Var Mı?
+icon=3353b2d2d326875fc3ab76228fda57149bcd012a
+set=9|4
+
+[HEADER]
+> Need~Help?               
+~ Yardıma~İhtiyacın~Var~Mı 
+
+[LINE]
+> Lin is~walking on~a~road.
+~ Lin yürüyor    yolda     
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+> She sees  a   man  [near~his~car].        
+~ O   görür bir adam  arabasının~yakınında  
+- hear his car
+- near this bar
++ near his car
+
+[LINE]
+> He   looks   unhappy.
+~ Adam görünür mutsuz  
+
+[LINE]
+Speaker508: Hi!      Do~you~need        help?   
+~           Merhaba  ihtiyacınız~var~mı yardıma 
+
+[CONTINUATION]
+> Devamında ne gelecek?
+Speaker127: There~is a   problem with~my~carr].
+~           var      bir sorun   arabamda      
+- the~weather
+~ hava       
+- my~coffee
+~ kahvem   
++ my~car
+~ arabam
+
+[LINE]
+Speaker127: Can~I~use          your~phone,   please?
+~           kullanabilir~miyim telefonunuzu  lütfen 
+
+[LINE]
+> Lin gives her~phone  to~the~man.
+~ Lin verir telefonunu adama      
+
+[LINE]
+Speaker508: Sure,  but …
+~           Tabii  ama  
+
+[LINE]
+Speaker127: Sorry,  one minute.
+~           Pardon  bir dakika 
+
+[LINE]
+> The~man uses     Lin's  phone.     
+~ adam    kullanır Lin'in telefonunu 
+
+[LINE]
+Speaker127: Yes,  is~this the~auto repair~shop?
+~           Evet  mi      araba    tamirhanesi 
+
+[LINE]
+Speaker127: I~have~a~car~problem.  
+~           arabamda~bir~sorun~var 
+
+[LINE]
+Speaker508: Uh … Sir?      
+~           ~    Beyefendi 
+
+[LINE]
+> The~man continues  talking   on~the~phone.
+~ Adam    devam~eder konuşmaya telefonda    
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker127: No,    I~don't~know [where~I~am].     
+~           Hayır  bilmiyorum    nerede~olduğumu  
+- where I ran
++ where I am
+- here I am
+
+[LINE]
+Speaker127: Excuse~me,    miss        …
+~           Affedersiniz  hanımefendi  
+
+[LINE]
+Speaker508: Yes? 
+~           Evet 
+
+[LINE]
+Speaker127: Where     are we? 
+~           Neredeyiz ~   biz 
+
+[LINE]
+Speaker508: Near      the~auto repair~shop!   
+~           yakınında araba    tamirhanesinin 
+
+[LINE]
+Speaker127: What?
+~           Ne   
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker508: [(I~work)      (there)       (on~weekends).]  
+~             çalışıyorum   tamirhanede   hafta~sonları   
+
+[LINE]
+Speaker508: I'm a~mechanic!
+~           Ben tamirciyim 
+
+[LINE]
+Speaker508: So  … do~you~need        help?   
+~           Eee   ihtiyacınız~var~mı yardıma 
+
+[MULTIPLE_CHOICE]
+> Lin'in...
++ …tamircide çalıştığı ortaya çıktı.
+- ...yeni bir telefon almak için yardıma ihtiyacı olduğu ortaya çıktı.
+- ...nerede olduğunu bilmediği ortaya çıktı.
+
