@@ -1,0 +1,103 @@
+[DATA]
+fromLanguageName=Acil
+icon=7e5d8724d525fd56e3abc838f2849ae269ebefd5
+set=17|3
+
+[HEADER]
+> An~Emergency
+~ Acil        
+
+[LINE]
+> Junior is at~a~pool with his~father, Eddy.
+~ Junior ~  havuzda   ile  babası      Eddy 
+
+[LINE]
+> He~runs to    the~lifeguard.
+~ koşar   doğru Cankurtarana  
+
+[LINE]
+Speaker415: Help!        Lifeguard!  
+~           Yardım~edin  Cankurtaran 
+
+[LINE]
+Speaker415: My~father needs        help!   
+~           Babamın   ihtiyacı~var yardıma 
+
+[LINE]
+Speaker856: Is~he drowning? 
+~           mu    boğuluyor 
+
+[MULTIPLE_CHOICE]
+> Cankurtaran neden endişendi?
+- Junior boğuluyor.
+- Çocuklardan korkuyor.
++ Eddy'nin boğulduğunu sandı.
+
+[LINE]
+Speaker415: No,    it's my~father's swimsuit.
+~           Hayır  ~    babamın     mayosu   
+
+[LINE]
+Speaker856: I~don't~understand …
+~           Anlamadım           
+
+[POINT_TO_PHRASE]
+> "Mayo" anlamına gelen seçeneği seçin.
+Speaker415: (His)  (new)  (+swimsuit) is too (small).
+~            Onun   yeni    mayosu    ~  çok  küçük  
+
+[LINE]
+Speaker415: It~looks  really    bad,  but he won't~listen to~me!
+~           görünüyor gerçekten kötü  ama o  dinlemiyor   beni  
+
+[LINE]
+Speaker856: Sorry,        but lifeguards     help             with~emergencies.
+~           Kusura~bakma  ama cankurtaranlar yardımcı~olurlar acil~durumlarda  
+
+[LINE]
+Speaker415: This is an~emergency!   Look!   
+~           Bu   ~  acil~bir~durum  Baksana 
+
+[LINE]
+> The~lifeguard looks~at Eddy.  
+~ Cankurtaran   bakar    Eddy'e 
+
+[LINE]
+Speaker856: No!   
+~           Hayır 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker856: You're~right. That swimsuit is [too~small]!
+~           Haklısın      Bu   mayo     ~   çok~küçük  
+- do it all
++ too small
+- to the mall
+
+[LINE]
+> The~lifeguard shouts~at Eddy.  
+~ Cankurtaran   seslenir  Eddy'e 
+
+[LINE]
+Speaker856: Excuse~me,    sir!       I'm~coming to~help       you! 
+~           Affedersiniz  beyefendi  geliyorum  yardım~etmeye size 
+
+[POINT_TO_PHRASE]
+> "Havlu" anlamına gelen seçeneği seçin.
+> The~lifeguard (runs)  to    (Eddy)   (with) a   big,   red     (+towel).
+~ Cankurtaran    koşar  doğru  Eddy'e   ile   bir büyük  kırmızı   havlu  
+
+[LINE]
+Speaker414: What~is~it?!
+~           Ne~oldu     
+
+[LINE]
+Speaker856: Sir,       please wear  this towel.   It's an~emergency.  
+~           Beyefendi  lütfen giyin bu   havluyu  Bu   acil~bir~durum 
+
+[MULTIPLE_CHOICE]
+> Acil durum ne?
+- Junior havlusunu getirmeyi unutmuş.
++ Eddy'nin mayosu çok küçük.
+- Eddy, yüzmeyi bilmiyor.
+
