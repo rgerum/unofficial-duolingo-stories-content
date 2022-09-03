@@ -1,0 +1,107 @@
+[DATA]
+fromLanguageName=Kahvaltı Hazırlamak
+icon=6d79d91b8caad82e9f6ce44a1b458f12ac6a7a9f
+set=16|4
+
+[HEADER]
+> Making~Breakfast    
+~ ~Kahvaltı~Hazırlamak
+
+[LINE]
+> Eddy is~making  breakfast for~Junior.
+~ Eddy hazırlıyor kahvaltı  Junior'a   
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker415: Hey,   Dad!  [What~are~you~doing]?
+~           Selam  baba   Ne~yapıyorsun       
+- When are you doing
+- What's your dog
++ What are you doing
+
+[LINE]
+Speaker414: Good~morning, Junior! I'm making       a   big   breakfast for~you!
+~           Günaydın      Junior  Ben hazırlıyorum bir büyük kahvaltı  sana    
+
+[LINE]
+Speaker415: Breakfast?  
+~           Kahvaltı~mı 
+
+[LINE]
+Speaker414: Yes.  I     never~have~time    to~make     breakfast for~you.
+~           Evet  benim hiç~vaktim~olmuyor hazırlamaya kahvaltı  sana    
+
+[LINE]
+Speaker414: But today is different!
+~           Ama bugün ~  farklı    
+
+[MULTIPLE_CHOICE]
+> Eddy ne demek istiyor?
++ Bugün kahvaltı hazırlamak için zamanı var.
+- Her sabah Junior'ın kahvaltısını hazırlıyor.
+- Bugün kahvaltı hazırlayacak vakti yok.
+
+[LINE]
+Speaker415: Dad,  I~don't~want breakfast.
+~           Baba  istemiyorum  kahvaltı  
+
+[LINE]
+Speaker414: What?! But I'm~making eggs    …
+~           Ne     Ama yapıyorum  yumurta  
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker415: [(I)   (don't~want)  (eggs).]   
+~             Ben   istemiyorum   yumurta   
+
+[LINE]
+Speaker414: You~love eggs.     
+~           seversin Yumurtayı 
+
+[LINE]
+Speaker415: Yes,  but —
+~           Evet  ama  
+
+[LINE]
+Speaker414: And there's sausage too!
+~           Ve  var     sosis   de  
+
+[LINE]
+Speaker414: You~love eating sausage for~breakfast!
+~           seversin yemeyi sosis   kahvaltıda    
+
+[LINE]
+Speaker415: That's right, but —
+~           Bu     doğru  ama  
+
+[LINE]
+Speaker414: So  what's~wrong, Junior?
+~           Eee sorun~ne      Junior 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker415: Dad  … it's [one~o'clock]!
+~           Baba   saat  bir          
+- on the clothes
++ one o'clock
+- one on clock
+
+[LINE]
+> Eddy looks~at his~watch.
+~ Eddy bakar    saatine   
+
+[POINT_TO_PHRASE]
+> "Uzun zaman" anlamına gelen seçeneği seçin.
+Speaker414: (Oh~no)    … (making)     (breakfast) takes  (+a~long~time).
+~            Hay~aksi     hazırlamak   kahvaltı   alıyor   uzun~zaman   
+
+[LINE]
+Speaker415: But now   we~can~make      lunch!      
+~           Ama şimdi hazırlayabiliriz öğle~yemeği 
+
+[MULTIPLE_CHOICE]
+> Junior, neden öğle yemeği hazırlamaları gerektiğini söylüyor?
++ Eddy'nin kahvaltı hazırlaması uzun zaman aldı.
+- Eddy'e kahvaltı hazırladı.
+- Eddy, Junior'ın kahvaltısının hepsini yedi.
+
