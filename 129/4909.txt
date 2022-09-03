@@ -1,0 +1,100 @@
+[DATA]
+fromLanguageName=Günaydın
+icon=e6eb499f6c5427de3076401adb1e84003294d689
+set=1|1
+
+[HEADER]
+> Good~Morning!
+~ Günaydın     
+
+[LINE]
+Speaker593: Good~morning, Priti!
+~           Günaydın      Priti 
+
+[LINE]
+Speaker560: Good~morning, honey. 
+~           Günaydın      tatlım 
+
+[LINE]
+Speaker560: Where~are my~keys?     
+~           nerede    anahtarlarım 
+
+[LINE]
+Speaker593: Your~keys?      
+~           Anahtarların~mı 
+
+[MULTIPLE_CHOICE]
+> Priti, anahtarlarını bulamıyor.
+- Hayır, bu yanlış.
++ Evet, bu doğru.
+
+[LINE]
+Speaker560: Yes,  I~need    to~go  to~work.
+~           Evet  gerekiyor gitmem işe     
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker560: [(I~need)        (the~keys)      (to~my~car)!]
+~             ihtiyacım~var   anahtarlarına   Arabamın    
+
+[LINE]
+Speaker593: Priti, your~keys    are here,   on       the~table!
+~           Priti  anahtarların ~   burada  üzerinde masanın   
+
+[POINT_TO_PHRASE]
+> "Yorgunum" anlamına gelen seçeneği seçin.
+Speaker560: (Sorry),        (honey).  (+I'm~tired). (I~work)      a~lot!
+~            Kusura~bakma    tatlım     Yorgunum     çalışıyorum  çok   
+
+[LINE]
+Speaker593: Do~you~want some  coffee?
+~           ister~misin biraz kahve  
+
+[LINE]
+Speaker560: Yes,  please.
+~           Evet  lütfen 
+
+[LINE]
+Speaker593: OK.   Here,  my~love.
+~           Peki  Buyur  aşkım   
+
+[LINE]
+Speaker560: Where  is the~sugar? Oh, here~it~is. 
+~           nerede ~  şeker      ~   işte~burada 
+
+[MULTIPLE_CHOICE]
+> Priti ne yapıyor?
+- Kahvesini masaya döküyor.
+- Anahtarlarına şeker koyuyor.
++ Kahvesi için şeker arıyor.
+
+[LINE]
+> Priti drinks her~coffee.
+~ Priti içer   kahvesini  
+
+[LINE]
+Speaker560: Yuck!  
+~           İğrenç 
+
+[LINE]
+Speaker593: What?   
+~           Ne~oldu 
+
+[LINE]
+Speaker560: This is salt!
+~           Bu   ~  tuz  
+
+[LINE]
+Speaker593: Priti, you are very tired!    
+~           Priti  sen ~   çok  yorgunsun 
+
+[LINE]
+Speaker560: Yes,  I~need        a   new  cup    of~coffee … with~sugar, not   salt! 
+~           Evet  ihtiyacım~var bir yeni fincan kahveye     şekerli     değil tuzlu 
+
+[MULTIPLE_CHOICE]
+> Priti o kadar yorgundu ki...
+- ...anahtarlarını kahvesine koydu.
+- ...mutfakta uyuyakaldı.
++ ...kahvesine tuz koydu.
+
