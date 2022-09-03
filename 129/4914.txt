@@ -1,0 +1,97 @@
+[DATA]
+fromLanguageName=Pasaport
+icon=643347b755001a918130ddf5f6d3e914e63a00ce
+set=2|2
+
+[HEADER]
+> The Passport
+~ ~   Pasaport
+
+[LINE]
+> Vikram and his~wife, Priti, are~at~the~airport.
+~ Vikram ve  eşi       Priti  havaalanındalar    
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker593: Oh~no.    [Where~is~my~passport]?
+~           Hay~aksi   pasaportum~nerede     
+- Here is my passport
++ Where is my passport
+- What is my passport
+
+[LINE]
+Speaker593: It~is~not here!  
+~           değil     burada 
+
+[LINE]
+Speaker560: Vikram …
+~           Vikram  
+
+[LINE]
+Speaker593: It is not   in     my~bag   …
+~           ~  ~  değil içinde çantamın  
+
+[LINE]
+Speaker593: And it~is~not in     my~jacket …
+~           Ve  değil     içinde ceketimin  
+
+[MULTIPLE_CHOICE]
+> Vikram'ın pasaportu ne bavulunda ne de ceketinde.
++ Evet, bu doğru.
+- Hayır, bu yanlış.
+
+[LINE]
+Speaker560: But Vik …
+~           Ama Vik  
+
+[LINE]
+Speaker593: Oh! My~passport is in~the~taxi!
+~           ~   pasaportum  ~  takside     
+
+[POINT_TO_PHRASE]
+> "Koşar" anlamına gelen seçeneği seçin.
+> (Vikram) (+runs)  (to~the~taxi).
+~  Vikram    koşar   taksiye      
+
+[LINE]
+Speaker560: Vik, no!   
+~           Vik  hayır 
+
+[LINE]
+> Priti runs  to~Vikram.
+~ Priti koşar Vikram'a  
+
+[LINE]
+Speaker593: Oh~no,    the~taxi is~not here   now!  
+~           Hay~aksi  taksi    değil  burada şimdi 
+
+[LINE]
+Speaker593: This is a   big   problem …
+~           Bu   ~  bir büyük problem …
+
+[LINE]
+Speaker560: Vikram!
+~           Vikram 
+
+[LINE]
+Speaker560: Your~passport is~not in~the~taxi.
+~           Pasaportun    değil  takside     
+
+[POINT_TO_PHRASE]
+> "Elinde" anlamına gelen seçeneği seçin.
+Speaker560: (Your~passport) (is) (+in~your~hand).
+~            Pasaportun      ~     elinde        
+
+[LINE]
+Speaker593: Oh …
+
+[LINE]
+Speaker593: Thank~you, my~love.
+~           Sağ~ol     aşkım   
+
+[MULTIPLE_CHOICE]
+> Vikram'ın pasaportu neredeydi?
++ Elinde
+- takside
+- Vikram'ın evinde
+
