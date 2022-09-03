@@ -1,0 +1,108 @@
+[DATA]
+fromLanguageName=Kek
+icon=4a31a2e8269bfd907d862c44a3b320899c169419
+set=18|2
+
+[HEADER]
+> The~Cake
+~ Kek     
+
+[LINE]
+> Lin goes~to her~kitchen. She~looks in~the~fridge.
+~ Lin gider   mutfağına    bakar     Buzdolabına   
+
+[LINE]
+Speaker508: Where  is my    cake? 
+~           nerede ~  benim kekim 
+
+[LINE]
+> Lin sees  her~grandmother, Lucy,   at~the~table.
+~ Lin görür büyükannesi      Lucy'i  masada       
+
+[LINE]
+Speaker508: Grandma,   what did you just    eat?  
+~           Büyükanne  ne   ~   ~   az~önce yedin 
+
+[LINE]
+> Lucy hides  her~plate.
+~ Lucy saklar tabağını  
+
+[MULTIPLE_CHOICE]
+> Lucy, Lin görmesin diye tabağını saklamaya çalışıyor.
++ Evet, bu doğru.
+- Hayır, bu yanlış.
+
+[LINE]
+Speaker509: Uhhh … a        sandwich!
+~           ~      bir~tane sandviç  
+
+[LINE]
+Speaker508: I~can't~find my~cake.
+~           bulamıyorum  Kekimi  
+
+[LINE]
+Speaker509: That's~strange. What does~it~look~like?
+~           Tuhaf           Neye benziyor          
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker508: [(It's) (a)   (very) (small) (cake).]
+~             ~      bir   çok    küçük   kek    
+
+[LINE]
+Speaker509: Are~there oranges  on       the~cake?
+~           var~mı    portakal üzerinde kekin    
+
+[LINE]
+Speaker508: Yes!  There~are a~lot~of oranges  on       the~cake.
+~           Evet  var       bir~sürü portakal üzerinde kekin    
+
+[LINE]
+Speaker509: Is your~cake yellow?     
+~           mi kekin     sarı~renkli 
+
+[CONTINUATION]
+> Devamında ne gelecek?
+Speaker508: Yes!  My~cake [is yellow]!     
+~           Evet  kekim    ~  sarı~renkli  
+- is very large
+~ ~  çok  büyük
+- is red    
+~ ~  kırmızı
++ is yellow
+~ ~  sarı  
+
+[LINE]
+Speaker509: Is your~cake very, very delicious?
+~           mi kekin     çok   çok  lezzetli  
+
+[LINE]
+Speaker508: Grandma!   Did~you~eat  my~cake?!
+~           Büyükanne  sen~mi~yedin kekimi   
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker509: No!    I   [didn't~eat~it]!
+~           Hayır  Ben  yemedim        
+- didn't read it
+- did need it
++ didn't eat it
+
+[LINE]
+Speaker508: OK.   Sorry.        I'll~make another   … chocolate  cake.
+~           Peki  Kusura~bakma  yapacağım başka~bir   çikolatalı kek  
+
+[LINE]
+Speaker509: Chocolate?     But your  cake  was~vanilla! 
+~           Çikolatalı~mı  Ama senin kekin vanilyalıydı 
+
+[LINE]
+Speaker508: Ha! Yes,  it~was~vanilla! You did~eat  my~cake!
+~           ~   Evet  vanilyalıydı    Sen yemişsin kekimi  
+
+[MULTIPLE_CHOICE]
+> Lin, Lucy'nin kekini yediğini nasıl öğrendi?
+- Lucy'nin yüzünde kek kalmıştı.
+- Lucy'nin tabağını buldu.
++ Kekin içinde ne olduğunu biliyordu.
+
