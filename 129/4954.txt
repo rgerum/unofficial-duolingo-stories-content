@@ -1,0 +1,87 @@
+[DATA]
+fromLanguageName=Maymunlar
+icon=c29e4533eca0186f83adafac9383fef2ed3aee56
+set=12|2
+
+[HEADER]
+> The Monkeys  
+~ ~   Maymunlar
+
+[LINE]
+> Eddy and Junior are at~the~zoo.         
+~ Eddy ve  Junior ~   hayvanat~bahçesinde 
+
+[LINE]
+> They~are~looking~at the~lions.
+~ bakıyorlar          aslanlara 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker415: Dad,  [can~we~see]      the~monkeys now?  
+~           Baba   görebilir~miyiz  maymunları  şimdi 
++ can we see
+- can we be
+- can she see
+
+[LINE]
+Speaker414: But you never want       to~see the~monkeys.
+~           Ama sen asla  istemezsin görmek maymunları  
+
+[CONTINUATION]
+> Devamında ne gelecek?
+Speaker415: I   really    like      [the~monkeys now]!  
+~           ben gerçekten seviyorum  maymunları  şimdi  
+- your~new~shirt
+~ yeni~gömleğin 
+- potatoes
+~ patates 
++ the~monkeys now  
+~ maymunları  şimdi
+
+[LINE]
+Speaker415: Can~we~see      them?  
+~           görebilir~miyiz Onları 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker414: Junior, the~monkeys are on  [the~other~side] of~the~zoo!         
+~           Junior  maymunlar   ~   -da  diğer~tarafı    hayvanat~bahçesinin 
++ the other side
+- the others' ride
+- the mothers lied
+
+[LINE]
+Speaker415: We~can~run.  You~love   exercise.        
+~           Koşabiliriz  seviyorsun egzersiz~yapmayı 
+
+[LINE]
+Speaker414: Hmm. OK!   Yes,  I~love    to~run! 
+~           ~    Peki  Evet  seviyorum koşmayı 
+
+[ARRANGE]
+> İşittiğine dokun
+> [(Junior) (and) (Eddy) (start)  (running).]
+~   Junior   ve    Eddy   başlar   koşmaya   
+
+[LINE]
+Speaker415: Can~you~run     faster,     Dad? 
+~           koşabilir~misin daha~hızlı  baba 
+
+[LINE]
+Speaker414: Wait.  Junior, why   are we~running? You hate           running!  
+~           Bekle  Junior  neden ~   koşuyoruz   sen nefret~edersin koşmaktan 
+
+[LINE]
+Speaker415: I~hate        running,   but I~love  ice~cream! 
+~           nefret~ederim koşmaktan  ama severim dondurmayı 
+
+[LINE]
+Speaker415: And there's an  ice~cream shop    next~to the~monkeys!
+~           Ve  var     bir dondurma  dükkanı yanında maymunların 
+
+[MULTIPLE_CHOICE]
+> Junior, neden maymunlara doğru koşuyor?
+- Formda kalmak istiyor.
++ Dondurma almak istiyor.
+- Maymunla yarışmak için pratik yapıyor.
+
