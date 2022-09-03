@@ -1,0 +1,108 @@
+[DATA]
+fromLanguageName=Bir Şey
+icon=1ea4e0c01e9dbb817001b9bb23e6ae1e7d50542e
+set=1|3
+
+[HEADER]
+> One Thing
+~ Bir Şey  
+
+[LINE]
+> Lucy is with         her~granddaughter, Lin.
+~ Lucy ~  ile~birlikte torunu             Lin 
+
+[LINE]
+Speaker509: Oh~no!  I~need        bread  for  my~sandwich.
+~           Olamaz  ihtiyacım~var ekmeğe için sandviçim   
+
+[LINE]
+Speaker508: Do~you~need  to~go   to~the~supermarket?
+~           gerek~var~mı gitmene Süpermarkete       
+
+[LINE]
+Speaker509: Yes. 
+~           Evet 
+
+[MULTIPLE_CHOICE]
+> Lin ve Lucy'nin çok ekmeği var.
+- Evet, bu doğru.
++ Hayır, bu yanlış.
+
+[LINE]
+Speaker508: Oh, I~want    one thing from~the~supermarket!
+~           ~   istiyorum bir şey   süpermarketten       
+
+[LINE]
+Speaker509: What do~you~need?  
+~           Neye ihtiyacın~var 
+
+[LINE]
+Speaker508: One      tomato,  please.
+~           Bir~tane domates  lütfen 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker508: For  [my~salad]!
+~           için  Salatam   
++ my salad
+- my solid
+- why salad
+
+[LINE]
+Speaker509: OK.  
+~           Peki 
+
+[LINE]
+Speaker508: Thank~you!      
+~           Teşekkür~ederim 
+
+[LINE]
+Speaker508: And I~want    some  coffee …
+~           Ve  istiyorum biraz kahve   
+
+[LINE]
+Speaker509: OK.      
+~           Tamamdır 
+
+[CONTINUATION]
+> Devamında ne gelecek?
+Speaker508: … and I~want    some  sugar [for  my~coffee].
+~             ve  istiyorum biraz şeker  için kahvem     
++ for  my~coffee
+~ için kahvem   
+- for  my~fries 
+~ için kızartmam
+- for  my~fish
+~ için balığım
+
+[LINE]
+Speaker509: Lin —
+~           Lin  
+
+[LINE]
+Speaker508: And some  milk!
+~           Ve  biraz süt  
+
+[LINE]
+Speaker509: Hmm … I~have an  idea.  
+~           ~     var    bir fikrim 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker509: [(Here~is) (some)  (money), (Lin).]
+~             İşte      biraz   para     Lin   
+
+[LINE]
+Speaker508: What?!
+~           Ne    
+
+[LINE]
+Speaker509: I~want    one thing from~the~supermarket: bread.
+~           istiyorum bir şey   süpermarketten        ekmek 
+
+[MULTIPLE_CHOICE]
+> Lucy, neden Lin'e para verdi?
++ Lin'in süpermarkete gitmesini istiyor.
+- Lin, öğle yemeği için bir restorana gidecek.
+- Lin, bir sandviç dükkanı açacak.
+
