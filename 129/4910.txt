@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Randevu
+icon=b8fb879208594263eebf2bcdf422b2352af44096
+set=1|2
+
+[HEADER]
+> A~Date 
+~ Randevu
+
+[LINE]
+> Bea     has a~date    at~a~restaurant.
+~ Bea'nın var randevusu bir~restoranda  
+
+[LINE]
+Speaker507: Hi!    How~are~you?
+~           Selam  Nasılsın    
+
+[LINE]
+Speaker100: Good!
+~           İyi  
+
+[LINE]
+Speaker100: What do~you~want to~eat?
+~           Ne   istiyorsun  yemek  
+
+[LINE]
+Speaker507: A~salad.
+~           Salata  
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker507: I~have [a~big~game]       today.
+~           var     büyük~bir~oyunum  bugün 
++ a big game
+- a pig game
+- a big name
+
+[LINE]
+Speaker100: Oh, do~you~play   sports?
+~           ~   yapıyor~musun spor   
+
+[LINE]
+Speaker507: Yes,  I~play    soccer.
+~           Evet  oynuyorum futbol 
+
+[LINE]
+Speaker100: I   play      soccer too!
+~           Ben oynuyorum futbol de  
+
+[LINE]
+Speaker507: Cool!    
+~           Ne~güzel 
+
+[LINE]
+Speaker507: Where~are~you~from?
+~           Nerelisin          
+
+[LINE]
+Speaker100: I'm~from~Canada.
+~           Kanadalıyım     
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker100: [(But) (my~parents)   (are) (from~Spain).]
+~             Ama   ebeveynlerim   ~     İspanyalı    
+
+[LINE]
+Speaker507: I~love  Spain!     
+~           severim İspanya'yı 
+
+[LINE]
+Speaker100: Spain   is~beautiful!
+~           İspanya güzeldir     
+
+[LINE]
+Speaker507: Do~you~have pets?          
+~           var~mı      evcil~hayvanın 
+
+[LINE]
+Speaker100: I~have two cats  and a   dog.    
+~           var    iki kedim ve  bir köpeğim 
+
+[LINE]
+Speaker507: I     have a   dog     too, Conor!
+~           benim var  bir köpeğim de   Conor 
+
+[LINE]
+Speaker100: What? My    name is Daniel …
+~           Ne    Benim adım ~  Daniel  
+
+[LINE]
+Speaker100: What's your  name? Are~you~Sarah?  
+~           ne     senin adın  Sen~Sarah~mısın 
+
+[LINE]
+Speaker507: No,    my    name is Bea …
+~           Hayır  benim adım ~  Bea  
+
+[MULTIPLE_CHOICE]
+> Bea ve Daniel…
+- …köpeklerini yürüyüşe çıkarıyor.
+- …İspanya'ya gitmek için bilet aldılar.
++ …başka insanlarla tanışmalıydı.
+
+[LINE]
+> A~woman   enters the~restaurant and sees  Daniel.  
+~ bir~kadın girer  restorana      ve  görür Daniel'i 
+
+[LINE]
+Speaker101: Hi!    Are~you~Daniel?   I'm Sarah.
+~           Selam  Daniel~sen~misin  Ben Sarah 
+
+[LINE]
+Speaker100: No,    sorry.        I'm Conor.
+~           Hayır  kusura~bakma  Ben Conor 
+
+[MULTIPLE_CHOICE]
+> Az önce ne oldu?
+- Bea, adını Sarah olarak değiştirdi.
+- Bea ve Daniel'in köpekleri futbol oynadı.
++ Daniel, Bea'den hoşlandığı için gerçek sevgilisine yalan söyledi.
+
