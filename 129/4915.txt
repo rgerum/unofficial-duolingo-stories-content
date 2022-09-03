@@ -1,0 +1,129 @@
+[DATA]
+fromLanguageName=Balayı
+icon=37ac4190dff0a34a36b90aa52ddad02c9463b6a0
+set=2|3
+
+[HEADER]
+> Honeymoon
+~ Balayı   
+
+[LINE]
+> Shelly is in~a~taxi.  
+~ Shelly ~  bir~takside 
+
+[LINE]
+Speaker113: Good~morning!
+~           Günaydın     
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker342: Hello,   I~need    to~go  [to~the~airport], please.
+~           Merhaba  gerekiyor gitmem  havaalanına      lütfen 
+- to their port
++ to the airport
+- two of the pork
+
+[LINE]
+Speaker113: OK.  
+~           Peki 
+
+[LINE]
+Speaker113: Vacation? 
+~           Tatile~mi 
+
+[LINE]
+Speaker342: No    …
+~           Hayır  
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker342: [(I)     (have) (a)   (ticket)  (to~California).] 
+~             benim   var    bir   biletim   Kaliforniya'ya   
+
+[LINE]
+Speaker342: Well    … two tickets.
+~           aslında   iki bilet   
+
+[LINE]
+Speaker113: California  is very nice! 
+~           Kaliforniya ~  çok  güzel 
+
+[LINE]
+Speaker342: It's my    honeymoon …
+~           bu   benim balayım    
+
+[MULTIPLE_CHOICE]
+> Shelly neden Kaliforniya'ya gidiyor?
+- Orada evlenecek.
++ Balayına gidecek.
+- Sörf yapmayı öğrenecek.
+
+[LINE]
+Speaker113: Where  is your  husband?
+~           nerede ~  sizin kocanız 
+
+[LINE]
+Speaker342: I~don't~have a   husband. I~have a   very difficult wife!
+~           yok          bir kocam    var    bir çok  zor       eşim 
+
+[LINE]
+Speaker342: She~does~not~want to~go  to~California  with~me.
+~           istemiyor         gitmek Kaliforniya'ya benimle 
+
+[MULTIPLE_CHOICE]
+> Shelly'nin eşi…
+- …güneş kremini almayı unuttu.
++ …onunla Kaliforniya'ya gitmek istemiyor.
+- …zaten Kaliforniya'da.
+
+[LINE]
+Speaker342: I'm very sad.    
+~           ben çok  üzgünüm 
+
+[LINE]
+Speaker113: I'm~sorry              …
+~           Bunu~duyduğuma~üzüldüm …
+
+[LINE]
+Speaker113: Ahem! OK   … we~are~at~the~airport.
+~           ~     Peki   havaalanındayız       
+
+[POINT_TO_PHRASE]
+> "Koşar" anlamına gelen seçeneği seçin.
+> (A)   (woman) (+runs)  (to~the~taxi).
+~  Bir   kadın    koşar   taksiye      
+
+[LINE]
+Speaker342: Anna?
+~           Anna 
+
+[LINE]
+Speaker343: Shelly!
+~           Shelly 
+
+[LINE]
+Speaker343: I'm very sorry!       
+~           ben çok  özür~dilerim 
+
+[LINE]
+Speaker343: I~love    you. 
+~           seviyorum seni 
+
+[LINE]
+Speaker342: I   love      you  too.
+~           Ben seviyorum seni de  
+
+[LINE]
+Speaker343: I~want    to~go  to~California  with~you!        
+~           istiyorum gitmek Kaliforniya'ya seninle~birlikte 
+
+[LINE]
+Speaker113: Have    a   nice honeymoon!
+~           geçirin bir İyi  balayı    
+
+[MULTIPLE_CHOICE]
+> Bundan sonra ne olacak?
+- Shelly, taksi şoförüyle birlikte Kaliforniya'ya gidecekler.
++ Shelly ve eşi Anna, birlikte Kaliforniya'ya gidecekler.
+- Shelly, havaalanında çalışmaya başlayacak.
+
