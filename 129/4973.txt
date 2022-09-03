@@ -1,0 +1,135 @@
+[DATA]
+fromLanguageName=Tabloma Bak
+icon=b4a0fb96a3bb2af295051d49d3c112c4c91779e6
+set=17|1
+
+[HEADER]
+> Look~at My~Painting
+~ Bak     Tabloma    
+
+[LINE]
+> Eddy walks~into Oscar's  apartment.
+~ Eddy girer      Oscar'ın dairesine 
+
+[LINE]
+> Eddy is~carrying a   painting.
+~ Eddy taşıyor     bir tablo    
+
+[LINE]
+Speaker592: What is that, Eddy?
+~           Bu   ~  ne    Eddy 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker414: It's [my~first~painting]!
+~           Bu    benim~ilk~tablom   
+- my first printing
+- my fast painting
++ my first painting
+
+[LINE]
+Speaker414: Can~you~look~at~it?
+~           Bakabilir~misin    
+
+[LINE]
+Speaker592: No.   
+~           Hayır 
+
+[LINE]
+Speaker414: But you're an~art~teacher.    
+~           Ama sen    sanat~öğretmenisin 
+
+[MULTIPLE_CHOICE]
+> Eddy,...
+- …Oscar'a sanat öğretmek istiyor
+- …Oscar'dan onun için bir şeyler çizmesini istiyor.
++ …Oscar'dan tablosuna bakmasını istiyor.
+
+[LINE]
+Speaker592: Yes,  and I~am very honest.        
+~           Evet  ve  ben  çok  dürüst~biriyim 
+
+[LINE]
+Speaker414: Good.
+~           İyi  
+
+[LINE]
+Speaker592: And you~will~cry.
+~           Ve  ağlayacaksın 
+
+[MULTIPLE_CHOICE]
+> Oscar neden Eddy'ye ağlayacağını söylüyor?
++ Tabloyu beğenmese bile çok dürüst kalacak.
+- Oscar'ın üzücü bir anısı var.
+- Oscar'ın tabloları çok güzel.
+
+[LINE]
+Speaker414: But I~want    to~know if~the~painting is              good.
+~           Ama istiyorum bilmek  tablonun        olup~olmadığını iyi  
+
+[LINE]
+Speaker592: It's not   good.
+~           Bu   değil iyi  
+
+[LINE]
+Speaker414: How~do~you~know?   
+~           Nereden~biliyorsun 
+
+[LINE]
+Speaker592: You~are not      an~artist. And it's your  first painting.
+~           sen     değilsin sanatçı    Ve  bu   senin ilk   tablon   
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker592: [(First) (paintings) (are)      (never) (good).]
+~             İlk     tablolar    değildir   asla    iyi    
+
+[LINE]
+Speaker414: Please, look~at~it.
+~           Lütfen  bir~bak    
+
+[LINE]
+Speaker414: Please, Oscar.
+~           Lütfen  Oscar 
+
+[LINE]
+Speaker592: Fine. I'll~look~at~it.
+~           Peki  Bakacağım       
+
+[CONTINUATION]
+> Devamında ne gelecek?
+> Oscar looks~at [the~painting].
+~ Oscar bakar     tabloya       
++ the~painting
+~ tablo       
+- the~apartment
+~ apartman     
+- Eddy~crying        
+~ Eddy'nin~ağlamasına
+
+[LINE]
+Speaker592: Eddy, this painting is …
+~           Eddy  bu   tablo    ~   
+
+[LINE]
+Speaker414: Yes?! 
+~           Evet  
+
+[LINE]
+Speaker592: Really    good.
+~           Gerçekten iyi  
+
+[LINE]
+Speaker414: Yes!  Cool!     I'm a   good artist!    
+~           Evet  Ne~güzel  Ben bir iyi  sanatçıyım 
+
+[LINE]
+Speaker592: Now   please leave.
+~           Şimdi lütfen git   
+
+[MULTIPLE_CHOICE]
+> Oscar, Eddy'nin tablosunun iyi olmasına neden şaşırdı?
++ İlk tabloların asla iyi olmadığını düşündü.
+- Eddy, tabloyu çocukken çizdi.
+- Eddy, hep kötü bir ressamdı.
+
