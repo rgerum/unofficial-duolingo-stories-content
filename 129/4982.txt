@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=E-Posta Gönder
+icon=583e75f447511e88fde0ed924039b785dccdd112
+set=19|2
+
+[HEADER]
+> Send~an~Email 
+~ E-posta~Gönder
+
+[LINE]
+> Lin and her~grandmother, Lucy, are~visiting   Seattle.   They  are in~a~coffee~shop.
+~ Lin ve  büyükannesi      Lucy  ziyaret~ediyor Seattle'ı  onlar ~   kafede           
+
+[LINE]
+Speaker509: It's nice to~be here   again.    
+~           ~    hoş  olmak burada tekrardan 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker508: [When~did~you~live] {in/     Seattle|/Seattle'da}, Grandma?  
+~            ne~zaman~yaşadın    içinde  Seattle  Seattle'da   büyükanne 
++ When did you live
+- When do you leave
+- Where do you love
+
+[LINE]
+Speaker509: Thirty years ago. 
+~           Otuz   yıl   önce 
+
+[LINE]
+Speaker508: Let's go      to~a~museum now.  
+~           Hadi  gidelim müzeye      şimdi 
+
+[LINE]
+Speaker509: Sure,  after~I~go      to~the~restroom.
+~           Tabii  gittikten~sonra tuvalete        
+
+[LINE]
+> Lucy leaves the~table. An  old   man  walks~into the~cafe. He sees  Lin.  
+~ Lucy kalkar masadan    bir Yaşlı adam girer      kafeye    ~  görür Lin'i 
+
+[LINE]
+Speaker307: You~look~like someone~I~knew   many~years ago! 
+~           benziyorsun   tanıdığım~birine yıllar     önce 
+
+[MULTIPLE_CHOICE]
+> Adam ne demek istiyor?
+- Lin'e müzeye gitmesi için bir bilet vermek istiyor.
++ Lin, adamın uzun zaman önce tanıdığı birine benziyor.
+- Lin'e lavabonun nerede olduğunu soruyor.
+
+[LINE]
+Speaker508: Really?      
+~           Gerçekten~mi 
+
+[LINE]
+Speaker307: I~loved her very~much.
+~           sevdim  onu çok       
+
+[LINE]
+Speaker307: I~don't~know where  she~is   now   …
+~           bilmiyorum   nerede olduğunu şimdi  
+
+[LINE]
+> Lucy returns from~the~bathroom.
+~ Lucy döner   tuvaletten        
+
+[LINE]
+Speaker307: Lucy! It's~you! 
+~           Lucy  Bu~sensin 
+
+[LINE]
+Speaker509: Do~I~know     you? 
+~           tanıyor~muyum seni 
+
+[LINE]
+Speaker307: It's~me,   Marco!
+~           Benim~ben  Marco 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker307: [(You) (never~responded)    (to~my~letters) ]…
+~             sen   hiç~cevap~vermedin   Mektuplarıma     
+
+[LINE]
+Speaker509: I   never got     your~letters. I~was~sailing around~the~world.
+~           ben hiç   almadım mektuplarını  dolaşıyordum  Dünyayı          
+
+[LINE]
+Speaker307: Now   you're here!      We~can     finally be~together!
+~           Şimdi sen    buradasın  olabiliriz sonunda birlikte    
+
+[MULTIPLE_CHOICE]
+> Görünüşe göre…
+- ...Marco Lucy'ye çok kızgın.
+- …Marco'nun Lucy'ye eski eşyalarını geri vermesi gerekiyor.
++ …Marco, Lucy ile yeni bir ilişkiye başlamak istiyor.
+
+[LINE]
+Speaker509: Actually, I'm~going to~a~museum with my~granddaughter now.  
+~           Aslında   gideceğim müzeye      ile  torunum          şimdi 
+
+[LINE]
+Speaker509: Next~time,         send   an  email!  
+~           bir~dahaki~sefere  gönder bir e-posta 
+
+[MULTIPLE_CHOICE]
+> Lucy neden Marco'ya bir dahaki sefere kendisine bir e-posta göndermesini istiyor?
++ Lucy'e gönderdiği mektuplar Lucy'nin eline hiç geçmedi.
+- Bayağı özel bir e-posta adresi var.
+- Lucy postacısını sevmiyor.
+
