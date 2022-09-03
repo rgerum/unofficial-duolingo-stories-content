@@ -1,0 +1,114 @@
+[DATA]
+fromLanguageName=Vejetaryen
+icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
+set=4|1
+
+[HEADER]
+> The Vegetarian
+~ ~   Vejetaryen
+
+[LINE]
+> Vikram is~reading a   menu in  a   nice  restaurant.
+~ Vikram okuyor     bir menü -da bir güzel restoran   
+
+[LINE]
+Speaker385: Welcome!     
+~           Hoş~geldiniz 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker593: Hello.   I~have a   question about    [the~menu].
+~           Merhaba  var    bir sorum    hakkında  menü      
+- the man to
++ the menu
+- the men
+
+[LINE]
+Speaker593: I~am a~vegetarian.
+~           Ben  vejetaryenim 
+
+[LINE]
+Speaker593: Is~there vegetarian food?  
+~           var~mı   vejetaryen yemeği 
+
+[MULTIPLE_CHOICE]
+> Vikram, et yemeyi sever.
+- Evet, bu doğru.
++ Hayır, bu yanlış.
+
+[POINT_TO_PHRASE]
+> "Biftek" anlamına gelen seçeneği seçin.
+Speaker385: Yes,  (we~have) (very) (good)  (+steaks).    
+~           Evet   var       çok    güzel    bifteğimiz  
+
+[LINE]
+Speaker593: Steaks are meat. I~do~not~eat meat.
+~           Biftek ~   et    yemiyorum    et   
+
+[LINE]
+Speaker385: Oh, yes.  I~am~sorry.  
+~           ~   evet  Özür~dilerim 
+
+[LINE]
+Speaker385: The~chicken is~delicious.
+~           tavuk       lezzetlidir  
+
+[MULTIPLE_CHOICE]
+> Garson, Vikram'ın…
++ ...tavuk sipariş etmesi gerektiğini düşünüyor.
+- ...aç olmadığını düşünüyor.
+- ...tavuktan nefret ettiğini düşünüyor.
+
+[LINE]
+Speaker593: Chicken is~meat.
+~           Tavuk   ettir   
+
+[LINE]
+Speaker593: I~do~not~want meat!
+~           istemiyorum   et   
+
+[LINE]
+Speaker385: We~have salad     …
+~           var     salatamız  
+
+[LINE]
+Speaker593: Oh, I~like  salad!    What is  in~the~salad?
+~           ~   severim salatayı  ne   var salatada     
+
+[LINE]
+Speaker385: There~is tomato,  lettuce, fish  …
+~           var      Domates  marul    balık  
+
+[CONTINUATION]
+> Devamında ne gelecek?
+Speaker593: I~do~not~eat fish!  I~am a~vegetariann]!
+~           yemem        balık  Ben  vejetaryenim   
+- restaurant
+~ restoran  
++ vegetarian
+~ vejetaryen
+- salad 
+~ salata
+
+[LINE]
+Speaker385: We~have fries               …
+~           var     Patates~kızartmamız  
+
+[LINE]
+Speaker593: OK.       Fries              are~fine.
+~           Tamamdır  Patates~kızartması olur     
+
+[LINE]
+Speaker385: Fries,              perfect.  And … a~burger? 
+~           Patates~kızartması  mükemmel  Ve    hamburger 
+
+[LINE]
+Speaker593: No~meat, please!
+~           Etsiz    lütfen 
+
+[MULTIPLE_CHOICE]
+> Vikram, neden garsona kızdı?
++ Vejetaryen olduğunu unutup durduğu için.
+- Vikram'ın adını hatırlamadığı için.
+- Restorandaki yemekler kötü olduğu için.
+
