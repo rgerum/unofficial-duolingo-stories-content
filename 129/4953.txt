@@ -1,0 +1,90 @@
+[DATA]
+fromLanguageName=Kirli Daire
+icon=0e6ab8c3a4e3224cb700e8daeac0038f7f0e929e
+set=12|1
+
+[HEADER]
+> Dirty Apartment
+~ Kirli Daire    
+
+[LINE]
+> Bea goes~to her~friend Sarah's   apartment.
+~ Bea gider   arkadaşı   Sarah'nın dairesine 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker507: Hi,    Sarah, [how~are~you]?
+~           Selam  Sarah   nasılsın     
++ how are you
+- how were two
+- now are you
+
+[LINE]
+Speaker175: I'm terrible!   
+~           ben çok~kötüyüm 
+
+[LINE]
+Speaker507: Oh, no.     Why? 
+~           ~   olamaz  Niye 
+
+[LINE]
+Speaker175: My    new  roommate     and I   always argue      a~lot.
+~           benim Yeni ev~arkadaşım ve  ben hep    tartışırız çok   
+
+[LINE]
+Speaker507: I'm~not~surprised! This kitchen is very dirty.
+~           Şaşırmadım         Bu   mutfak  ~  çok  kirli 
+
+[LINE]
+Speaker175: Ugh, I~know.   
+~           ~    biliyorum 
+
+[CONTINUATION]
+> Devamında ne gelecek?
+Speaker507: And there's old  cheese [on       that table].  
+~           Ve  var     eski peynir  üzerinde o    masanın  
+- at~the~supermarket
+~ süpermarkette     
++ on~that~table     
+~ o~masanın~üzerinde
+- on~your~head    
+~ kafanın~üzerinde
+
+[LINE]
+Speaker175: Yes.  Yuck!
+~           Evet  ~    
+
+[LINE]
+Speaker507: And there~are dirty clothes    on       this~chair!    
+~           Ve  var       kirli kıyafetler üzerinde bu~sandalyenin 
+
+[LINE]
+Speaker507: Wait  … this~is your  shirt.   
+~           Bekle   bu      senin gömleğin 
+
+[LINE]
+Speaker175: Yes. 
+~           Evet 
+
+[LINE]
+Speaker507: These    are all   your  clothes!     
+~           Bunların ~   hepsi senin kıyafetlerin 
+
+[LINE]
+Speaker507: Is that your~old~cheese,     too?!
+~           mı bu   senin~eski~peynirin  da   
+
+[LINE]
+Speaker175: Yes!  I   never clean,           and my~roommate  always    complains!   
+~           Evet  ben asla  temizlik~yapmam  ve  ev~arkadaşım her~zaman şikayet~eder 
+
+[LINE]
+Speaker175: She's terrible!    
+~           O     korkunç~biri 
+
+[MULTIPLE_CHOICE]
+> Sarah ve oda arkadaşı neden tartışıyorlar?
++ Sarah, ortalığı hep dağıtıyor ve asla temizlemiyor.
+- Sarah, oda arkadaşının tüm kıyafetlerini giyiyor.
+- Bea, eski peynir yemeyi seviyor.
+
