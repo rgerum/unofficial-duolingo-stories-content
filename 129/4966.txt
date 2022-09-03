@@ -1,0 +1,103 @@
+[DATA]
+fromLanguageName=Çocuklara Göre Değil
+icon=92f8e9fbcb106a065c67e2efcbb467a67077da4b
+set=15|2
+
+[HEADER]
+> Not~For~Kids        
+~ Çocuklara~Göre~Değil
+
+[LINE]
+> Zari is~watching      Junior   because Eddy is at~work.
+~ Zari göz~kulak~oluyor Junior'a çünkü   Eddy ~  işte    
+
+[LINE]
+Speaker415: Zari! Can~we~play       your~video~game!?
+~           Zari  oynayabilir~miyiz oyununu          
+
+[LINE]
+Speaker418: I~have to~finish cleaning  before your~dad comes    home.
+~           lazım  bitirmem  temizliği önce   baban    gelmeden eve  
+
+[MULTIPLE_CHOICE]
+> Zari, şu anda oyun oynayamıyor.
+- Hayır, bu yanlış.
++ Evet, bu doğru.
+
+[LINE]
+Speaker415: Well … can~I~play            the~video~game?
+~           ~      ben~oynayabilir~miyim oyunu          
+
+[POINT_TO_PHRASE]
+> "Çocuklar" anlamına gelen seçeneği seçin.
+Speaker418: (Sorry),        my~video~game (is~not) (for)  (+kids).     
+~            Kusura~bakma   oyunum         değil    göre    çocuklara  
+
+[LINE]
+Speaker415: I~am~not a~kid!
+~           değilim  çocuk 
+
+[LINE]
+Speaker418: Hmm … well, adults      wash  dishes.     
+~           ~     ~     yetişkinler yıkar bulaşıkları 
+
+[LINE]
+Speaker415: I~can~wash    dishes!     
+~           yıkayabilirim bulaşıkları 
+
+[CONTINUATION]
+> Devamında ne gelecek?
+> Junior starts [to~wash  the~dishes]. 
+~ Junior başlar  yıkamaya bulaşıkları  
+- to~clean   the~video~game
+~ temizlemek oyunu         
+- to~eat dinner      
+~ yemek  akşam~yemeği
++ to~wash the~dishes 
+~ yıkamak bulaşıkları
+
+[LINE]
+Speaker415: See?          
+~           Görüyor~musun 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker418: [(Adults)      (also) (clean)    (the~table).]
+~             Yetişkinler   da     temizler   masayı      
+
+[LINE]
+Speaker415: I~can~clean      the~table!
+~           temizleyebilirim Masayı    
+
+[LINE]
+> Junior cleans   the~table.
+~ Junior temizler masayı    
+
+[LINE]
+Speaker418: Wow, good~job!        You are an~adult.   
+~           ~    iyi~iş~çıkardın  Sen ~   yetişkinsin 
+
+[MULTIPLE_CHOICE]
+> Zari, neden Junior'a bir yetişkin olduğunu söylüyor?
+- Çok büyüdüğü için.
++ Evi, bir yetişkin gibi temizlediği için.
+- Artık onunla ilgilenmek istemediği için.
+
+[LINE]
+Speaker415: Now   can~we~play       your~video~game!?
+~           Şimdi oynayabilir~miyiz oyununu          
+
+[LINE]
+Speaker418: Oh~no!  It's nine~o'clock. You   need~to go~to~bed!
+~           Olamaz  Saat dokuz         senin lazım   yatman    
+
+[LINE]
+Speaker415: But I'm an~adult!   Adults      go~to~bed late.
+~           Ama ben yetişkinim  Yetişkinler yatar     geç  
+
+[MULTIPLE_CHOICE]
+> Junior, artık bir yetişkin olduğunu, bu yüzden…
++ …gece geç saatte yatabileceğini söylüyor.
+- …bir iş bulması gerektiğini söylüyor.
+- …Zari ile evlenebileceğini söylüyor.
+
