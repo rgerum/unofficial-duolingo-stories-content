@@ -1,0 +1,103 @@
+[DATA]
+fromLanguageName=Taksi Yolculuğu
+icon=44410efbb175e599d5fbe5b4d86050262f324ca0
+set=17|2
+
+[HEADER]
+> Taxi  Ride     
+~ Taksi Yolculuğu
+
+[LINE]
+> Bea is in~a~taxi. She is~looking at~the~map on~her~phone. 
+~ Bea ~  takside    ~   bakıyor    haritaya   telefonundaki 
+
+[LINE]
+Speaker507: Turn~left  at~the~end of~the~street, please.
+~           sola~dönün sonundan   sokağın        lütfen 
+
+[LINE]
+Speaker889: I~don't~need to~turn for  three more    miles.
+~           gerek~yok    dönmeme için üç    fazlası mil   
+
+[MULTIPLE_CHOICE]
+> Şoför az önce ne dedi?
+- Saatte üç mil hızında araba sürüyor.
+- Üç mil boyunca koşmak istiyor.
++ Üç mil dönmesine gerek yok.
+
+[LINE]
+Speaker507: The~directions on~my~phone   say      that~road is       faster     …
+~           yol~tarifi     telefonumdaki söylüyor yolun     olduğunu daha~hızlı  
+
+[LINE]
+Speaker889: Excuse~me,    I   know      all   the~roads in~this~city.
+~           Affedersiniz  ben biliyorum bütün yolları   bu~şehirdeki 
+
+[LINE]
+Speaker507: This phone   knows all the~roads in~every~city.
+~           Bu   telefon bilir tüm yolları   her~şehirdeki 
+
+[LINE]
+Speaker889: Ha, well, the~phone isn't~driving the~car. I'm~the~driver.  
+~           ~   ~     telefon   sürmüyor      arabayı  Şoför~olan~benim 
+
+[LINE]
+Speaker507: But I'm paying   for~the~ride, right?   
+~           Ama ben ödüyorum yolculuğu     değil~mi 
+
+[MULTIPLE_CHOICE]
+> Bea, neden öyle söyledi?
+- Boş zamanlarında taksi şoförlüğü yapıyor.
++ Şoförün yol tarifini takip etmesini istiyor.
+- Şoförün ona para vermesi gerek.
+
+[LINE]
+Speaker889: OK,    OK!   
+~           Tamam  tamam 
+
+[LINE]
+> The~driver turns left and stops    the~car.
+~ Şoför      döner sola ve  durdurur arabayı 
+
+[LINE]
+Speaker889: We're~here. Are~you~going swimming?
+~           Geldik      mi~gidiyorsun yüzmeye  
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker507: No,    [I'm~going~shopping].   Why? 
+~           Hayır   alışverişe~gidiyorum   Niye 
++ I'm going shopping
+- I'm good at shopping
+- I'm good at stopping
+
+[LINE]
+Speaker889: Because the~road stops   here.   At~the~river.
+~           Çünkü   yol      bitiyor burada  Nehirde      
+
+[LINE]
+Speaker507: Oops …
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker507: [(I~think) (my)    (directions)  (are) (wrong).] 
+~             bence     benim   yol~tarifim   ~     yanlış   
+
+[LINE]
+Speaker507: I'm so  sorry.       
+~           ben çok özür~dilerim 
+
+[LINE]
+Speaker889: Do~you~want to~use    my    directions?  
+~           ister~misin kullanmak benim yol~tarifimi 
+
+[LINE]
+Speaker507: Yes,  please …
+~           Evet  lütfen  
+
+[MULTIPLE_CHOICE]
+> Bea,…
+- …havalı bir taksi şoförü olduğunu fark etti.
+- …telefonunun tüm cevaplara sahip olduğunu fark etti.
++ …yol tarifinin yanlış olduğunu fark etti.
+
