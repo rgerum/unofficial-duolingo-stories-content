@@ -1,0 +1,109 @@
+[DATA]
+fromLanguageName=Anahtarlarım Nerede?
+icon=3f21c887f044dc2ac0d1f0d0ea74e1200b587ac2
+set=11|4
+
+[HEADER]
+> Where  Are My~Keys?     
+~ Nerede Are Anahtarlarım 
+
+[LINE]
+> Lin is with         her~grandmother, Lucy.
+~ Lin ~  ile~birlikte büyükannesi      Lucy 
+
+[LINE]
+Speaker509: We~have a~reservation   at  a   nice restaurant tonight!
+~           var     rezervasyonumuz -da bir hoş  restoran   bu~gece 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker509: But we    need  [to~leave~now]!  
+~           Ama bizim lazım  şimdi~gitmemiz  
++ to leave now
+- to read now
+- to leave out
+
+[LINE]
+Speaker508: OK!   
+~           Tamam 
+
+[LINE]
+Speaker508: Uh-oh … I~can't~find the~keys      to~my~motorcycle.
+~           ~       bulamıyorum  anahtarlarını motosikletimin   
+
+[LINE]
+Speaker509: You always put      your~keys     in~strange~places.
+~           sen hep    koyarsın anahtarlarını tuhaf~yerlere     
+
+[MULTIPLE_CHOICE]
+> Hikayenin devamında ne olması muhtemel?
+- Lucy, Lin olmadan gidecek.
++ Lin, anahtarlarını tuhaf yerlerde arayacak.
+- Lin ve Lucy restorana atla gidecek.
+
+[LINE]
+Speaker509: Are~they in     your~jacket?
+~           mi       içinde ceketinin   
+
+[LINE]
+> Lin looks in    her~jacket.
+~ Lin bakar içine ceketinin  
+
+[LINE]
+Speaker508: No,    they're~not in     my~jacket.
+~           Hayır  değiller    içinde ceketimin 
+
+[LINE]
+Speaker509: Are the~keys   under   the~bed?
+~           mı  anahtarlar altında yatağın 
+
+[LINE]
+Speaker508: No,    the~keys   aren't there!
+~           Hayır  anahtarlar değil  orada 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker509: [(Are) (they) (in~the~shower)?]
+~             mı    ~      duşta           
+
+[LINE]
+Speaker508: No,    that's too strange.
+~           Hayır  bu     çok garip   
+
+[LINE]
+Speaker508: I~don't~know where  the~keys     are.      Can~we~call       a~taxi?
+~           bilmiyorum   nerede anahtarların olduğunu  çağırabilir~miyiz taksi  
+
+[CONTINUATION]
+> Devamında ne gelecek?
+Speaker509: No,    we're~late now.   We~can't~go to~the~restaurantt].
+~           Hayır  geç~kaldık şimdi  gidemiyoruz restorana           
+- the beach 
+~ ~   kumsal
+- the movie~theatre
+~ ~   sinema       
++ the restaurant
+~ ~   restoran  
+
+[LINE]
+Speaker508: I'm~sorry.   
+~           Özür~dilerim 
+
+[LINE]
+Speaker509: That's~OK. I~can~cook    dinner.      
+~           Sorun~yok  pişirebilirim akşam~yemeği 
+
+[LINE]
+> Lucy opens the~refrigerator and looks inside.
+~ Lucy açar  buzdolabını      ve  bakar içine  
+
+[LINE]
+Speaker509: Oh! Here        are your~keys!   
+~           ~   işte~burada ~   anahtarların 
+
+[MULTIPLE_CHOICE]
+> Lin'in anahtarları…
++ ...buzdolabındaydı.
+- …ayakkabısındaydı
+- ...arabasındaydı.
+
