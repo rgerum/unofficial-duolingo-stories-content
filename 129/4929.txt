@@ -1,0 +1,113 @@
+[DATA]
+fromLanguageName=Süpermarkette
+icon=9f4968b6294916f0d8c9f64c8a172ef8c0c368ef
+set=6|1
+
+[HEADER]
+> At~the~Supermarket
+~ Süpermarkette     
+
+[LINE]
+> Lin and Bea are at~the~supermarket.
+~ Lin ve  Bea ~   süpermarkette      
+
+[LINE]
+Speaker508: I~do~not~want to~cook  dinner.      
+~           istemiyorum   pişirmek akşam~yemeği 
+
+[MULTIPLE_CHOICE]
+> Lin, akşam yemeği hazırlamak için sabırsızlanıyor.
+- Evet, bu doğru.
++ Hayır, bu yanlış.
+
+[LINE]
+Speaker507: Cooking      is~fun,       Lin!
+~           Yemek~yapmak eğlencelidir  Lin 
+
+[LINE]
+Speaker508: I'm~tired!
+~           Yorgunum  
+
+[CONTINUATION]
+> Devamında ne gelecek?
+Speaker508: Do~you~want to~eat      [at~a~restaurant]?
+~           ister~misin yemek~yemek  bir~restoranda   
+- my~clothes   
+~ kıyafetlerimi
++ at~a~restaurant
+~ restoranda     
+- at~the~supermarket
+~ süpermarkette     
+
+[LINE]
+Speaker507: No,    I~really~want       to~cook!      
+~           Hayır  gerçekten~istiyorum yemek~yapmayı 
+
+[LINE]
+Speaker508: Ugh, OK.   What do we   need  for  dinner?      
+~           ~    Peki  neye ~  bize lazım için akşam~yemeği 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker507: First,    [we~need~rice]!     
+~           İlk~önce   bize~pirinç~lazım  
+- we read nice
+- we eat rice
++ we need rice
+
+[LINE]
+> They  look~for the~rice.
+~ onlar bakarlar Pirince  
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker508: [(Here)        (is) (the~rice).]
+~             işte~burada   ~    pirinç     
+
+[LINE]
+Speaker507: And we   need  beans   too.
+~           ve  bize lazım fasulye de  
+
+[LINE]
+> They  look~for the~beans.
+~ onlar bakarlar fasulyeye 
+
+[LINE]
+Speaker507: OK!       Here are the~beans!
+~           Tamamdır  İşte ~   fasulye   
+
+[LINE]
+Speaker507: And we   need  a~lot~of vegetables.
+~           Ve  bize lazım çokça    sebze      
+
+[LINE]
+Speaker508: And milk.
+~           Ve  süt  
+
+[LINE]
+Speaker507: And fruit …
+~           Ve  meyve  
+
+[POINT_TO_PHRASE]
+> "Şeye" anlamına gelen seçeneği seçin.
+Speaker508: (We~need)         (a~lot~of) (+things).
+~            ihtiyacımız~var   birçok      şeye    
+
+[LINE]
+Speaker507: Yes  … And I'm very tired    now.  
+~           Evet   Ve  ben çok  yorgunum şimdi 
+
+[LINE]
+Speaker508: Do~you~want to~eat      at~a~restaurant?
+~           ister~misin yemek~yemek bir~restoranda  
+
+[LINE]
+Speaker507: Ooh! Yes! 
+~           ~    Evet 
+
+[MULTIPLE_CHOICE]
+> Bea, neden bir restoranda yemek yemeyi kabul etti?
++ Yemek yapamayacak kadar yorgundu.
+- Süpermarkette pirinç yoktu.
+- Süpermarket kapalıydı.
+
