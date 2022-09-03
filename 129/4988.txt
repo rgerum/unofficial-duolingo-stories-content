@@ -1,0 +1,90 @@
+[DATA]
+fromLanguageName=Sürpriz Son
+icon=136e95ddf7eef68f8c312f81c3b03bf4100a14e7
+set=20|4
+
+[HEADER]
+> Surprise Ending
+~ Sürpriz  Son   
+
+[LINE]
+> Vikram is~reading in~bed.  His~wife, Priti, is next~to    him. 
+~ Vikram okuyor     yatakta  Eşi       Priti  r  yanındadır onun 
+
+[LINE]
+Speaker560: Vikram, I'm tired.    Can~you~turn~off  the~light?
+~           Vikram  Ben yoruldum  kapatabilir~misin Işığı     
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker593: I~can't~sleep! I     need  to~finish [this~book]!
+~           Uyuyamıyorum   benim gerek bitirmem   bu~kitabı  
+- this look
++ this book
+- his book
+
+[POINT_TO_PHRASE]
+> "yere çarpacak" anlamına gelen seçeneği seçin.
+Speaker593: A~man       is (on~an~airplane)! (He's~traveling) to~see his~wife, but (the~plane) (+is~going~to~crash)!
+~           adamın~biri ~   uçakta            seyahat~ediyor  görmek eşini     ama  uçak         yere~çarpacak      
+
+[LINE]
+Speaker560: I'll~tell~you the~ending, but then  you   have  to~turn~off the~light.
+~           söyleyeceğim  sonunu      ama sonra senin lazım kapatman    ışığı     
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker593: [(You) (read)      (this) (book)?]  
+~             sen   okudun~mu   bu     kitabı   
+
+[LINE]
+Speaker593: Please, tell~me the~ending!
+~           Lütfen  söyle   sonunu     
+
+[LINE]
+Speaker560: The~man's wife is really    a   ghost.   He dies|—  and now   they  can~be      together.
+~           Adamın    eşi  ~  gerçekten bir hayalet  O  ölüyor  ve  şimdi onlar olabilirler birlikte 
+
+[CONTINUATION]
+> Devamında ne gelecek?
+Speaker593: That's~strange. But now   I~can~turn~offf the~light].
+~           Garip           Ama şimdi kapatabilirim   ışığı      
++ turn~off the~light
+~ kapat    ışığı    
+- get~on~an~airplane
+~ uçağa~bin         
+- watch TV        
+~ izle  televizyon
+
+[LINE]
+> The~next morning, Vikram talks   to~Priti  about    the~book again. 
+~ Ertesi   sabah    Vikram konuşur Priti'yle hakkında kitap    tekrar 
+
+[LINE]
+Speaker593: That ending was~surprising!
+~           Bu   son    şaşırtıcıydı   
+
+[MULTIPLE_CHOICE]
+> Vikram, kitabın sonunun...
+- …onu uykusunu getirdiğini söylemek istiyor.
++ ...beklediği gibi olmadığını söylemek istiyor.
+- ...korkunç olduğunu söylemek istiyor.
+
+[LINE]
+Speaker560: Vikram … I~lied         about    the~ending.
+~           Vikram   yalan~söyledim hakkında sonu       
+
+[LINE]
+Speaker593: What?!
+~           Ne    
+
+[LINE]
+Speaker560: I   never read     that book.   I   just   wanted  you   to~turn~off the~light.
+~           ben hiç   okumadım o    kitabı  ben sadece istedim senin kapatmanı   ışığı     
+
+[MULTIPLE_CHOICE]
+> Priti neden Vikram'a yalan söyledi?
+- Priti'nin büyük bir sırrı vardı.
++ Priti, artık yatmak istedi.
+- Vikram'ı güldürmeye çalışıyordu.
+
