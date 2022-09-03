@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=Kırmızı Ceket
+icon=c74da112b88638bc6cf1243d490c567bb7e8b2ed
+set=2|1
+
+[HEADER]
+> The Red     Jacket
+~ ~   Kırmızı Ceket 
+
+[LINE]
+> Lily is in~a~store with         her~friend, Zari.
+~ Lily ~  mağazada   ile~birlikte arkadaşı    Zari 
+
+[LINE]
+Speaker416: This store  is expensive.
+~           Bu   mağaza ~  pahalı    
+
+[LINE]
+Speaker418: Yes  …
+~           Evet  
+
+[LINE]
+Speaker418: Wow!
+~           Vay 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker418: This [red~jacket]    is perfect! 
+~           Bu    kırmızı~ceket  ~  mükemmel 
+- recheck it
++ red jacket
+- wet jacket
+
+[LINE]
+Speaker416: Umm, Zari …
+~           ~    Zari  
+
+[LINE]
+Speaker418: I~like this color a~lot!
+~           sevdim bu   rengi çok   
+
+[LINE]
+Speaker416: Zari?
+~           Zari 
+
+[POINT_TO_PHRASE]
+> "Satın almak" anlamına gelen seçeneği seçin.
+Speaker418: (I~want)    (+to~buy)      (this) (jacket)!
+~            istiyorum    satın~almak   bu     ceketi  
+
+[LINE]
+Speaker416: Zari!
+~           Zari 
+
+[LINE]
+Speaker418: What?  
+~           Ne~var 
+
+[LINE]
+Speaker416: This jacket is one~hundred dollars.
+~           Bu   ceket  ~  yüz         dolar   
+
+[MULTIPLE_CHOICE]
+> Ceket ne kadar?
+- bir milyon dolar
+- beş dolar
++ yüz dolar
+
+[LINE]
+Speaker416: It is very expensive.
+~           ~  ~  çok  pahalı    
+
+[LINE]
+Speaker418: What?!
+~           Ne    
+
+[LINE]
+Speaker416: Zari, you~do~not~need a   new  jacket.
+~           Zari  ihtiyacın~yok   bir yeni cekete 
+
+[POINT_TO_PHRASE]
+> "Doğum günüm" anlamına gelen seçeneği seçin.
+Speaker418: (But) (Lily), (today) is (+my~birthday)       …
+~            Ama   Lily    bugün  ~    benim~doğum~günüm   
+
+[LINE]
+Speaker416: Yes,  it~is …
+~           Evet  öyle   
+
+[LINE]
+Speaker418: And you are my    best   friend!      
+~           Ve  sen ~   benim en~iyi arkadaşımsın 
+
+[LINE]
+Speaker416: Yes,  I~am    …
+~           Evet  öyleyim  
+
+[LINE]
+Speaker418: And you~can     buy   —
+~           Ve  alabilirsin satın  
+
+[LINE]
+Speaker416: A   cheap jacket for  you.  
+~           bir ucuz  ceket  için senin 
+
+[MULTIPLE_CHOICE]
+> Lily'nin Zari'ye doğum günü hediyesi...
++ …ucuz bir ceket olacak.
+- ...büyük miktarda para olacak.
+- ...pahalı bir kırmızı ceket olacak.
+
