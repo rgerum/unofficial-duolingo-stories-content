@@ -1,0 +1,95 @@
+[DATA]
+fromLanguageName=Aşk Mektubu
+icon=4ba2733ddb8bdc3f0924c6463da01f5d1eccaf40
+set=17|4
+
+[HEADER]
+> Love Letter 
+~ Aşk  Mektubu
+
+[LINE]
+> Zari is~babysitting    her~neighbor, Junior.   They  are at~the~library.
+~ Zari bakıcılık~yapıyor komşusu       Junior'a  Onlar ~   kütüphanede    
+
+[LINE]
+Speaker418: What are~you~doing, Junior?
+~           Ne   yapıyorsun     Junior 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker415: Um … [I'm~writing~a~letter].
+~           ~     Bir~mektup~yazıyorum  
++ I'm writing a letter
+- I'm riding it better
+- I'm writing to let her
+
+[LINE]
+Speaker418: Who  are~you~writing~to?
+~           Kime yazıyorsun         
+
+[LINE]
+Speaker415: Well, it's for  a   girl … I~like       her   a~lot.
+~           ~     bu   için bir kız    hoşlanıyorum ondan çok   
+
+[LINE]
+Speaker418: Ooh! Is~it a   love letter?  Is~it for  a   girl in~your~class?
+~           ~    mu    bir aşk  mektubu  mi    için bir kız  sınıfındaki   
+
+[POINT_TO_PHRASE]
+> "ergen" anlamına gelen seçeneği seçin.
+Speaker415: (No)    … (She's) (a) (+teenager).
+~            Hayır     O       ~    genç      
+
+[LINE]
+Speaker418: A~teenager? Like~me?      
+~           Genç~mi     Benim~gibi~mi 
+
+[LINE]
+Speaker415: Yes.  She's my    … neighbor.
+~           Evet  O     benim   komşum   
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker418: [Wait~a~minute].    She's a   teenager and she's your~neighbor?
+~            Bir~dakika~bekle   O     bir genç     ve  o     komşun        
+- Way to win it
++ Wait a minute
+- Late a minute
+
+[LINE]
+Speaker415: Um… yes. 
+~           ~   evet 
+
+[LINE]
+Speaker418: Hmm … And is~she very smart? 
+~           ~     Ve  mı     çok  akıllı 
+
+[LINE]
+Speaker415: Yes! 
+~           Evet 
+
+[CONTINUATION]
+> Devamında ne gelecek?
+Speaker418: Aw Junior! You~love      me?   Sorry,        but you're [too young    for  me].   
+~           ~  Junior  mi~seviyorsun beni  Kusura~bakma  ama sen     çok küçüksün için benim  
+- a   love~letter
+~ bir mektubu    
+- a~teenager
+~ ergen     
++ too young for~me    
+~ çok küçük benim~için
+
+[LINE]
+Speaker415: No!    I   don't~love you  … I~love    your  best   friend,    Lily!  
+~           Hayır  ben sevmiyorum seni   seviyorum senin en~iyi arkadaşın  Lily'i 
+
+[LINE]
+Speaker415: Can~you~give her my~letter?
+~           verir~misin  ona mektubumu 
+
+[MULTIPLE_CHOICE]
+> Zari, Junior'ın kendisine bir aşk mektubu yazdığını sandı ama aslında…
+- …Junior aşk hakkında bir kitap yazıyordu.
++ …mektup Lily içindi.
+- …Junior kendi ödevini yapıyordu.
+
