@@ -1,0 +1,113 @@
+[DATA]
+fromLanguageName=Tatil Kıyafetleri
+icon=eda1b8214a6937df66a552eb581f2353da4d0352
+set=4|3
+
+[HEADER]
+> Vacation Clothes    
+~ Tatil    Kıyafetleri
+
+[LINE]
+> Lucy is in~a~store.
+~ Lucy ~  mağazada   
+
+[LINE]
+Speaker509: Hi,      can~you        help   me?  
+~           Merhaba  edebilir~misin yardım bana 
+
+[LINE]
+Speaker509: I~need        new  clothes     for  my~vacation!
+~           ihtiyacım~var yeni kıyafetlere için tatilim     
+
+[MULTIPLE_CHOICE]
+> Lucy, tatil için alışveriş yapıyor.
+- Hayır, bu yanlış.
++ Evet, bu doğru.
+
+[LINE]
+Speaker416: OK.  
+~           Peki 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker509: [(I~need)        (a)   (dress).]   
+~             ihtiyacım~var   bir   elbiseye   
+
+[LINE]
+> Lily gives Lucy    a   green dress. 
+~ Lily verir Lucy'ye bir yeşil elbise 
+
+[LINE]
+Speaker509: No!    I    need  a   short, red            dress. 
+~           Hayır  bana lazım bir kısa   kırmızı~renkli elbise 
+
+[MULTIPLE_CHOICE]
+> Lucy'nin neye ihtiyacı var?
+- yeni bir kahverengi arabaya
+- uzun yeşil bir eteğe
++ kısa bir kırmızı elbiseye
+
+[LINE]
+> Lily gives her a   short, red     dress. 
+~ Lily verir ona bir kısa   kırmızı elbise 
+
+[LINE]
+Speaker509: And I~need        boots.         
+~           Ve  ihtiyacım~var bot~ayakkabıya 
+
+[LINE]
+> Lily gives Lucy    red     boots.         
+~ Lily verir Lucy'ye kırmızı bot~ayakkabısı 
+
+[LINE]
+Speaker509: No,    big,   black boots!       
+~           Hayır  büyük  siyah bot~ayakkabı 
+
+[LINE]
+Speaker416: Ugh …
+
+[LINE]
+Speaker509: OK,    a   short, red     dress  and big,   black boots        …
+~           Tamam  bir kısa   kırmızı elbise ve  büyük  siyah bot~ayakkabı  
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker509: [And~a~hat]!   
+~            Ve~bir~şapka  
++ And a hat
+- In the hat
+- And a cat
+
+[LINE]
+> Lily gives Lucy    a   hat.  
+~ Lily verir Lucy'ye bir şapka 
+
+[LINE]
+Speaker509: No!    A   yellow hat!  
+~           Hayır  bir sarı   şapka 
+
+[CONTINUATION]
+> Devamında ne gelecek?
+> Lily gives Lucy    [a   yellow hat].  
+~ Lily verir Lucy'ye  bir sarı   şapka  
++ a~yellow~hat  
+~ sarı~bir~şapka
+- a~red~hat        
+~ kırmızı~bir~şapka
+- a~yellow~dress 
+~ sarı~bir~elbise
+
+[LINE]
+Speaker509: Perfect!  Now   I'm~ready for  my~vacation!
+~           Mükemmel  Artık hazırım   için tatilim     
+
+[LINE]
+Speaker416: Now   I~need        a   vacation.
+~           Şimdi ihtiyacım~var bir tatile   
+
+[MULTIPLE_CHOICE]
+> Lily'nin neden bir tatile ihtiyacı var?
++ Lucy'nin kıyafet bulmasına yardım ettikten sonra yoruldu.
+- Öğle yemeğinde çok fazla yemek yedi.
+- Giymesi gereken bir sürü yeni kıyafeti oldu.
+
