@@ -1,0 +1,113 @@
+[DATA]
+fromLanguageName=Balık Cenazesi
+icon=d269170970dbcc5a5f80f6ea1ffed7394ae2b584
+set=20|2
+
+[HEADER]
+> Fish  Funeral 
+~ Balık Cenazesi
+
+[LINE]
+> Lily sees  her~neighbor, Junior.   He's crying. 
+~ Lily görür komşusu       Junior'ı  O    Ağlıyor 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker416: Junior? [What's~wrong]?
+~           Junior   Sorun~ne      
+- What's long
+- What's on
++ What's wrong
+
+[LINE]
+Speaker415: Bubbles died!
+~           Bubbles öldü 
+
+[LINE]
+Speaker416: Your~fish? 
+~           balığın~mı 
+
+[LINE]
+Speaker415: Yes.  He was so  young! 
+~           Evet  ~  ~   çok gençti 
+
+[LINE]
+Speaker416: I~can      help.   I~know    a~lot about    funerals. 
+~           edebilirim Yardım  biliyorum çok   hakkında cenazeler 
+
+[LINE]
+> Lily and Junior take    the~fish into~Junior's~bathroom.
+~ Lily ve  Junior götürür balığı   Junior'ın~banyosuna    
+
+[LINE]
+Speaker416: We~can~give your~fish a~burial      at~sea. 
+~           yapabiliriz balığına  cenaze~töreni denizde 
+
+[MULTIPLE_CHOICE]
+> Lily, "denizde cenaze töreni" derken ne demek istiyor?
++ Balığı klozete atacaklar.
+- Junior, bir geminin kaptanı.
+- Bubbles, her zaman bir denizci olmak istedi.
+
+[LINE]
+Speaker416: Do~you~want to~talk~about some nice memories    of~Bubbles?
+~           ister~misin bahsetmek     bazı hoş  anılarından Bubbles'ın 
+
+[LINE]
+Speaker415: Hmmm … Well, I~liked  watching Bubbles   swim.    
+~           ~      ~     severdim izlemeyi Bubbles'ı yüzerken 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker415: [(And) (he) (liked)   (watching) (me)   (eat).]         
+~             Ve    o    severdi   izlemeyi   beni   yemek~yerken   
+
+[LINE]
+Speaker415: And he really    loved   my~jokes!  
+~           Ve  ~  gerçekten severdi şakalarımı 
+
+[LINE]
+Speaker416: OK,   Junior. That's good.
+~           Peki  Junior  Bu     iyi  
+
+[LINE]
+> Lily puts  the~fish into~the~toilet.
+~ Lily koyar balığı   tuvalete        
+
+[CONTINUATION]
+> Devamında ne gelecek?
+Speaker416: Are~you~ready [to~say~goodbye]?
+~           hazır~mısın    Veda~etmeye     
++ to~say~goodbye
+~ veda~etmek    
+- to~take a shower
+~ almak   ~ duş   
+- to~buy      some   socks
+~ satın~almak birkaç çorap
+
+[LINE]
+> Suddenly, Bubbles starts swimming.
+~ Aniden    Bubbles başlar yüzmeye  
+
+[LINE]
+Speaker415: Bubbles!
+~           Bubbles 
+
+[LINE]
+Speaker416: Whoa. That fish  is~alive.
+~           ~     O    balık yaşıyor  
+
+[LINE]
+Speaker415: But how   do~we~get~him~out of~the~toilet?
+~           Ama nasıl çıkaracağız       tuvaletten    
+
+[LINE]
+Speaker416: I   can't~help      you  with~that.
+~           Ben yardımcı~olamam sana bu~konuda 
+
+[MULTIPLE_CHOICE]
+> Lily ve Junior, Bubbles'ın hayatta olduğunu nasıl anladılar?
+- Junior, Bubbles'ın yatma zamanı olduğunu hatırladı.
+- Junior'ın şakasına güldü.
++ Bubbles, tuvalette yüzmeye başladı.
+
