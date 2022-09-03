@@ -1,0 +1,118 @@
+[DATA]
+fromLanguageName=Pizza İstiyorum
+icon=3eebaf390a99fcebfaf064cfa42f14c071b5b97f
+set=13|2
+
+[HEADER]
+> I~Want    a~Pizza
+~ İstiyorum Pizza  
+
+[LINE]
+> Lin is~walking home.
+~ Lin yürüyor    eve  
+
+[LINE]
+> She is~carrying two      pizzas.
+~ O   taşıyor     iki~tane pizza  
+
+[MULTIPLE_CHOICE]
+> Lin'in yedi tane pizzası var.
++ Hayır, bu yanlış.
+- Evet, bu doğru.
+
+[LINE]
+> She sees  Oscar   on~the~street.
+~ O   görür Oscar'ı sokakta       
+
+[LINE]
+Speaker592: Hi,    Lin. That pizza smells  great! 
+~           Selam  Lin  Bu   pizza kokuyor müthiş 
+
+[LINE]
+Speaker508: Yes,  it's from~Emilio's~Restaurant.
+~           Evet  ~    Emilio'nun~Restoranından 
+
+[LINE]
+Speaker592: Oh, I~love    that restaurant.
+~           ~   seviyorum o    restoranı  
+
+[CONTINUATION]
+> Devamında ne gelecek?
+Speaker592: Now   I~want    [a~pizza]!
+~           Şimdi istiyorum  pizza    
+- to~clean   my~apartment
+~ temizlemek dairemi     
++ a   pizza
+~ bir pizza
+- some~new~clothes   
+~ birkaç~yeni~kıyafet
+
+[LINE]
+Speaker508: Oh, the~restaurant is~closed now.  
+~           ~   restoran       kapalı    şimdi 
+
+[LINE]
+Speaker592: Oh~no    ...
+~           Hay~aksi    
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker592: [(Well), (you)   (have) (two)      (pizzas).]
+~             ~       sende   var    iki~tane   pizza    
+
+[LINE]
+Speaker592: Can~I~buy            one?   
+~           satın~alabilir~miyim birini 
+
+[LINE]
+Speaker508: No,    sorry.        These  are for  my~grandma Lucy and me.   
+~           Hayır  kusura~bakma  Bunlar ~   için büyükannem Lucy ve  benim 
+
+[LINE]
+Speaker592: Well, can~I~have     a~piece~of your~pizza?
+~           Peki  alabilir~miyim bir~parça  pizzandan  
+
+[LINE]
+Speaker508: Uh, no,    Oscar. That's ... strange.
+~           ~   hayır  Oscar  Bu         garip   
+
+[MULTIPLE_CHOICE]
+> Lin,...
+- ...Oscar'ın garip giysiler giydiğini düşünüyor.
+- ...Oscar'ın pizzadan nefret ettiğini düşünüyor.
++ ...Oscar'a pizza vermenin tuhaf olduğunu düşünüyor.
+
+[LINE]
+> Lin leaves. 
+~ Lin ayrılır 
+
+[LINE]
+Speaker592: Now   I   really    want      pizza from~that~restaurant …
+~           Şimdi ben gerçekten istiyorum pizza o~restorandan         
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+> Oscar [makes~a~call]    on~his~phone.
+~ Oscar  bir~arama~yapar  telefonundan 
+- makes a ball
+- takes it all
++ makes a call
+
+[LINE]
+Speaker592: Hi    Lucy, it's~Oscar. Do~you~have plans  for  dinner?      
+~           Selam Lucy  Ben~Oscar   var~mı      planın için akşam~yemeği 
+
+[LINE]
+Speaker509: I'm~having pizza with Lin! Do~you~want to~eat with~us?
+~           yiyeceğim  pizza ile  Lin  ister~misin yemek  bizimle 
+
+[LINE]
+Speaker592: Thanks!      That's a   great  idea! 
+~           Teşekkürler  Bu     bir harika fikir 
+
+[MULTIPLE_CHOICE]
+> Oscar, Lucy'yi aradı…
++ …çünkü onu pizza yemeye davet etmesini istedi.
+- …çünkü ona bir sır vermesi gerekiyordu.
+- …çünkü mesajlarına cevap vermiyordu.
+
