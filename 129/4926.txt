@@ -1,0 +1,94 @@
+[DATA]
+fromLanguageName=Ne İstiyorsun?
+icon=8c5ae7b18c5ff0f37394646c91bd6a579213dcbc
+set=5|2
+
+[HEADER]
+> What Do~You~Want?
+~ Ne   İstiyorsun  
+
+[LINE]
+> Oscar walks into~a~clothes~store.
+~ Oscar girer giyim~mağazasına     
+
+[LINE]
+> He sees  his~student, Zari.    She works     in~the~store.
+~ O  görür öğrencisi    Zari'yi  O   çalışıyor mağazada     
+
+[MULTIPLE_CHOICE]
+> Oscar, Zari'yi bir mağazada çalışırken görür.
++ Evet, bu doğru.
+- Hayır, bu yanlış.
+
+[LINE]
+Speaker592: Zari! Oh, good! I~am~happy to~see    you. 
+~           Zari  ~   iyi   sevindim   gördüğüme seni 
+
+[LINE]
+Speaker418: Hello!   Welcome!   
+~           Merhaba  Hoş~geldin 
+
+[LINE]
+Speaker418: Do~you~need      help?   
+~           ihtiyacın~var~mı yardıma 
+
+[LINE]
+Speaker592: Yes,  thank~you!       I~need …
+~           Evet  teşekkür~ederim  bana    
+
+[POINT_TO_PHRASE]
+> "Biliyorum" anlamına gelen seçeneği seçin.
+Speaker418: Oh, (+I~know)!    (You)  (need)  a   new  (jacket)!
+~           ~     biliyorum    sana   lazım  bir yeni  ceket   
+
+[LINE]
+> Zari shows    Oscar   a   jacket.
+~ Zari gösterir Oscar'a bir ceket  
+
+[LINE]
+Speaker592: A   new  jacket? No.    Zari, I   …
+~           bir yeni ceket   Hayır  Zari  ben  
+
+[LINE]
+Speaker418: Oh! You  need  a   new  shirt! 
+~           ~   sana lazım bir yeni gömlek 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker418: [(The) (green) (shirt)  (is~perfect)!] 
+~             ~     yeşil   gömlek   mükemmeldir   
+
+[LINE]
+Speaker592: No.    Zari, please …
+~           Hayır  Zari  lütfen  
+
+[LINE]
+Speaker592: I~do~not~need a~shirt. I~do~not~need a~jacket. I    need  …
+~           ihtiyacım~yok gömleğe  ihtiyacım~yok cekete    bana lazım  
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker418: Pants!    [You~need~pants]!     
+~           Pantolon   Sana~pantolon~lazım  
+- You need parents
+- Your new pants
++ You need pants
+
+[LINE]
+Speaker592: No!    I~do~not~need clothes! 
+~           Hayır  ihtiyacım~yok kıyafete 
+
+[LINE]
+Speaker592: I     need  to~know …
+~           benim lazım bilmem   
+
+[LINE]
+Speaker592: Where  is the~restroom?
+~           nerede ~  tuvalet      
+
+[MULTIPLE_CHOICE]
+> Oscar neden giyim mağazasına gitti?
+- Zari'ye yeni bir ceket almak istedi.
++ Tuvalete gitmesi gerekiyordu.
+- Pantolon, gömlek ve ceket almak istedi.
+
