@@ -1,0 +1,104 @@
+[DATA]
+fromLanguageName=İyi Sanat
+icon=501e7d609ee0dd5ba11ff7cdcf9740b12a7a7945
+set=12|3
+
+[HEADER]
+> Good Art  
+~ İyi  Sanat
+
+[LINE]
+> Eddy and his~friend Oscar are at  an  art~museum.  
+~ Eddy ve  arkadaşı   Oscar ~   -de bir sanat~müzesi 
+
+[LINE]
+> Eddy looks~at a~painting~of a   dog.  
+~ Eddy bakar    tablosuna     bir köpek 
+
+[LINE]
+Speaker414: This is my    favorite    painting in~the~museum!
+~           Bu   ~  benim en~sevdiğim tablo    müzedeki      
+
+[LINE]
+Speaker592: That painting is boring.
+~           O    resim    ~  sıkıcı 
+
+[MULTIPLE_CHOICE]
+> Oscar, resim çizmeyi gerçekten seviyor.
+- Evet, bu doğru.
++ Hayır, bu yanlış.
+
+[LINE]
+Speaker414: What? I   love    dogs!     
+~           Ne    ben severim köpekleri 
+
+[LINE]
+Speaker592: Eddy, I'm an art   teacher.      I~know  good art.   
+~           Eddy  ben ~  resim öğretmeniyim  bilirim iyi  sanatı 
+
+[LINE]
+Speaker592: This painting is~not good art.  
+~           Bu   tablo    değil  iyi  sanat 
+
+[LINE]
+Speaker414: Why?  
+~           Neden 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker592: [(Good) (art)   (is~interesting)!]
+~             İyi    sanat   ilginçtir        
+
+[LINE]
+Speaker592: Good art   is~surprising!
+~           İyi  sanat şaşırtıcıdır  
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+> Oscar sees  a   sandwich [on~a~chair].
+~ Oscar görür bir sandviç   sandalyede  
+- and this chair
++ on a chair
+- on his hair
+
+[LINE]
+Speaker592: That~is good art!  
+~           Budur   iyi  sanat 
+
+[LINE]
+Speaker414: A~sandwich on~a~chair?!  
+~           sandviç~mi sandalyedeki  
+
+[LINE]
+Speaker592: Yes!  It's interesting and surprising! The~artist is a   genius!
+~           Evet  ~    ilginç      ve  şaşırtıcı   Sanatçı    ~  bir dâhi   
+
+[MULTIPLE_CHOICE]
+> Oscar, neden sanatçının bir dâhi olduğunu düşünüyor?
++ Sandalyede bir sandviçin olması ona şaşırtıcı geldi.
+- Sandviç lezzetli görünüyor.
+- Sandviç bir köpeğe ait.
+
+[LINE]
+Speaker414: I~don't~understand art.     
+~           anlamıyorum        sanattan 
+
+[POINT_TO_PHRASE]
+> "Temizlik görevlisi" anlamına gelen seçeneği seçin.
+> A (+janitor)            walks~into (the~room). He (starts) (eating) the~sandwich.
+~ ~   temizlik~görevlisi  girer       odaya      ~   başlar   yemeye  sandviçi     
+
+[LINE]
+Speaker592: Excuse~me!    You~can't~eat the~art!
+~           Affedersiniz  yiyemezsiniz  sanatı  
+
+[LINE]
+Speaker307: Uh, this isn't art.   This is my    lunch.       
+~           ~   Bu   değil sanat  Bu   ~  benim öğle~yemeğim 
+
+[MULTIPLE_CHOICE]
+> Oscar,…
+- …temizlik görevlisinin ünlü bir sanatçı olduğunu düşündü.
+- ...Eddy'nin müzedeki tüm sanat eserlerini yediğini düşündü.
++ …temizlik görevlisinin öğle yemeğinin sanat olduğunu düşündü.
+
