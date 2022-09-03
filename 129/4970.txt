@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=Pizza Gecesi
+icon=dcb1760c8fe5f2221fc2e3bc373a13632881ae44
+set=16|2
+
+[HEADER]
+> Pizza Night 
+~ Pizza Gecesi
+
+[LINE]
+Speaker414: Junior! What do~you~want for~dinner?    
+~           Junior  ne   istiyorsun  akşam~yemeğine 
+
+[LINE]
+Speaker415: I~want    pizza. I'm eight years~old  … I   always want    pizza.
+~           istiyorum Pizza  Ben sekiz yaşındayım   ben hep    isterim pizza 
+
+[LINE]
+Speaker414: Cool!     We~can~make a~pizza!
+~           Ne~güzel  yapabiliriz Pizza   
+
+[LINE]
+Speaker415: Or    we~can~call~and~order     a~pizza!
+~           Ya~da arayıp~sipariş~edebiliriz pizza   
+
+[MULTIPLE_CHOICE]
+> Junior, pizza siparişi vermek istiyor.
++ Evet, bu doğru.
+- Hayır, bu yanlış.
+
+[LINE]
+Speaker414: It~will~be more fun       to~make a~pizza!
+~           olacak     daha eğlenceli yapmak  pizza   
+
+[LINE]
+Speaker415: Fun          for  you?  
+~           eğlenceli~mi için senin 
+
+[LINE]
+Speaker414: Fun       for  us!    Father and son! 
+~           eğlenceli için bizim  Baba   ve  oğul 
+
+[LINE]
+Speaker415: I~want    you~to~be happy, so   … OK.  
+~           istiyorum olmanı    mutlu  yani   peki 
+
+[LINE]
+Speaker414: Great!  Can~you~get    the~flour, water, and eggs?     
+~           Harika  alabilir~misin unu        suyu   ve  yumurtayı 
+
+[MULTIPLE_CHOICE]
+> Eddy'nin suya, yumurtaya ve...
+- ...pizzaya ihtiyacı var.
++ ...una ihtiyacı var
+- ...hurmaya ihtiyacı var.
+
+[LINE]
+Speaker415: OK    …
+~           Tamam  
+
+[LINE]
+Speaker414: Now   we~can~put  it~all~together   …
+~           Şimdi koyabiliriz hepsini~bir~araya  
+
+[LINE]
+> They~put   the~flour, water, and eggs      together. 
+~ koyuyorlar unu        suyu   ve  yumurtayı bir~araya 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker415: This is hard, and [I'm~hungry]. 
+~           Bu   ~  zor   ve   ben~açıktım  
+- aim at me
++ I'm hungry
+- I'm angry
+
+[LINE]
+Speaker414: And now   we~have to~wait.   
+~           Ve  şimdi lazım   beklememiz 
+
+[LINE]
+Speaker415: We~have  to~wait?!   
+~           mi~lazım Beklememiz  
+
+[LINE]
+Speaker414: The~dough isn't ready yet. 
+~           Hamur     değil hazır daha 
+
+[CONTINUATION]
+> Devamında ne gelecek?
+Speaker415: When     will~it~be [ready]?
+~           Ne~zaman olacak      hazır  
+- ordered     
+~ sipariş~etti
++ ready
+~ hazır
+- hungry
+~ aç    
+
+[LINE]
+Speaker414: In    two hours.
+~           sonra iki saat  
+
+[LINE]
+> Junior looks~at Eddy.  
+~ Junior bakar    Eddy'e 
+
+[LINE]
+Speaker414: I'll~order         a~pizza.
+~           siparişi~vereceğim pizza   
+
+[LINE]
+Speaker415: You're a   great  dad.    
+~           Sen    bir harika babasın 
+
+[MULTIPLE_CHOICE]
+> Eddy neden pizza siparişi vermeye karar verdi?
+- Junior, tüm hamuru yediği için.
++ Pizza yapmak çok fazla zaman aldığı için.
+- Doğru malzemelere sahip olmadığı için.
+
