@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=Günlük
+icon=11054d83adbe171cda3e5669c57e1e26d6cbd8db
+set=13|3
+
+[HEADER]
+> The~Diary
+~ Günlük   
+
+[LINE]
+> Zari and Lily are at~school.
+~ Zari ve  Lily ~   okulda    
+
+[LINE]
+Speaker418: Lily, I'm so  scared!     I~can't~find my~diary! 
+~           Lily  ben çok korkuyorum  bulamıyorum  günlüğümü 
+
+[LINE]
+Speaker416: OK? 
+~           Eee 
+
+[LINE]
+Speaker418: I~write   about~Miguel in~my~diary!
+~           yazıyorum Miguel'i     günlüğüme   
+
+[LINE]
+Speaker416: Miguel?    The~boy  in~our~class? 
+~           Miguel~mi  çocuk~mu Sınıfımızdaki 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker418: Yes!  [We~need~to~find~it]!
+~           Evet   Onu~bulmalıyız      
+- We need a fine hat
+- He needs to find it
++ We need to find it
+
+[LINE]
+Speaker416: Fine.      
+~           Peki~tamam 
+
+[LINE]
+> They~look~for the~diary in~the~hall.
+~ ararlar       günlüğü   salonda     
+
+[LINE]
+Speaker416: Sorry,        it~isn't here.  
+~           Kusura~bakma  değil    burada 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker418: [(This) (is) (a)   (bad)  (day)!]
+~             Bu     ~    bir   kötü   gün   
+
+[LINE]
+> They~see Miguel.   He   has    a   pink  diary.  
+~ görürler Miguel'i  Onun vardır bir pembe günlüğü 
+
+[LINE]
+Speaker418: Oh~no!    It's Miguel! This is a   very bad  day.
+~           Hay~aksi  Bu   Miguel  Bu   ~  bir çok  kötü gün 
+
+[MULTIPLE_CHOICE]
+> Zari, neden çok kötü bir gün olduğunu söylüyor?
+- Miguel'in başka bir okula gideceğini biliyor.
+- Lily, Miguel ile çıkmaya başladı.
++ Miguel'in günlüğünü okuduğunu düşünüyor.
+
+[LINE]
+Speaker790: Hi      Zari. Is this your~diary?    
+~           Merhaba Zari  mü bu   senin~günlüğün 
+
+[LINE]
+Speaker418: Uh… No!   
+~           ~   Hayır 
+
+[LINE]
+Speaker416: But your  name is  on~it.   
+~           Ama senin adın var üzerinde 
+
+[LINE]
+Speaker418: OK.    That is my    diary.    But   …
+~           Tamam  Bu   ~  benim günlüğüm  Fakat  
+
+[POINT_TO_PHRASE]
+> "El yazısı" anlamına gelen seçeneği seçin.
+Speaker790: (Don't~worry) … (I~can't~read) (your)  (+handwriting).
+~            Merak~etme      okuyamıyorum   senin    el~yazını    
+
+[LINE]
+Speaker418: Oh… good.
+~           ~   iyi  
+
+[LINE]
+Speaker790: So,  do~you~want to~see  a   movie with~me on~Friday?
+~           Eee  ister~misin izlemek bir film  benimle cuma~günü 
+
+[LINE]
+Speaker418: Wow, yes! 
+~           ~    evet 
+
+[LINE]
+> Miguel smiles~at Zari.    He leaves. 
+~ Miguel gülümser  Zari'ye  O  ayrılır 
+
+[LINE]
+Speaker418: Lily, this is a   great  day!
+~           Lily  bu   ~  bir harika gün 
+
+[MULTIPLE_CHOICE]
+> Zari, neden şimdi bugünün harika bir gün olduğunu söylüyor?
++ Miguel, onu sinemaya götürmeye davet etti.
+- Miguel, günlüğüne yazdığı her şeyi okudu.
+- Zari, ev ödevinden güzel bir not aldı.
+
