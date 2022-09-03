@@ -1,0 +1,118 @@
+[DATA]
+fromLanguageName=İlginç Bir Konuşma
+icon=6711cee61441da3d7aa6099466d6fff137239c3a
+set=15|1
+
+[HEADER]
+> An  Interesting Conversation
+~ Bir İlginç      Konuşma     
+
+[LINE]
+> Bea is~sitting on~a~bench in~the~park.
+~ Bea oturuyor   bir~bankta parktaki    
+
+[LINE]
+Speaker258: Excuse~me,    can~I~sit        here?  
+~           Affedersiniz  oturabilir~miyim buraya 
+
+[LINE]
+Speaker507: Yes. 
+~           Evet 
+
+[LINE]
+Speaker507: But I'm~waiting for~my~friend.
+~           Ama bekliyorum  arkadaşımı    
+
+[POINT_TO_PHRASE]
+> "Erkek arkadaşıyla" anlamına gelen seçeneği seçin.
+Speaker507: (She's) (coming)  (here)   (+with~her~boyfriend).
+~            O       geliyor   buraya    erkek~arkadaşıyla   
+
+[LINE]
+Speaker258: Oh, really?      
+~           ~   gerçekten~mi 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker507: I'm really    excited      [to~meet~him].            
+~           ben gerçekten heyecanlıyım  Onunla~tanışacağım~için  
++ to meet him
+- to make him
+- to eat meat
+
+[LINE]
+Speaker258: Why?  
+~           Neden 
+
+[LINE]
+Speaker507: She likes   him a~lot.
+~           O   seviyor Onu çok   
+
+[LINE]
+Speaker258: Interesting …
+~           Enteresan    
+
+[LINE]
+Speaker507: She is~going~to~ask him~to~marry her    …
+~           ~   isteyecek       evlenmesini  onunla  
+
+[LINE]
+Speaker507: … this weekend!   
+~             bu   hafta~sonu 
+
+[MULTIPLE_CHOICE]
+> Bea'nın arkadaşı…
++ …bu hafta sonu erkek arkadaşına evlenme teklifi edecek.
+- ...bu hafta sonu Bea ile tatile gidecek.
+- …gelecek ay erkek arkadaşıyla eve çıkacak.
+
+[LINE]
+Speaker258: This weekend?      
+~           Bu   hafta~sonu~mu 
+
+[LINE]
+Speaker507: Yes.  It's so      exciting!      
+~           Evet  bu   oldukça heyecan~verici 
+
+[LINE]
+Speaker507: Oh! My~friend is here!  
+~           ~   Arkadaşım ~  burada 
+
+[LINE]
+Speaker507: Hey,   Emily.
+~           Selam  Emily 
+
+[LINE]
+Speaker260: Hey,   Bea!
+~           Selam  Bea 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker260: Oh, [you're~talking~to] Leo! That's great! 
+~           ~    ile~konuşuyorsun   Leo  Bu     harika 
+- you talk to
+- you take the
++ you're talking to
+
+[LINE]
+Speaker507: Huh? Who is Leo?
+~           ~    kim ~  Leo 
+
+[LINE]
+Speaker260: My~boyfriend, Leo. He is~sitting next~to you!  
+~           Sevgilim      Leo  ~  oturuyor   yanında senin 
+
+[LINE]
+Speaker507: Oh~no!   
+~           Hay~aksi 
+
+[LINE]
+Speaker258: Nice~to~meet~you, Bea.
+~           Memnun~oldum      Bea 
+
+[MULTIPLE_CHOICE]
+> Bea yanlışlıkla Leo'ya…
+- …kız arkadaşıyla çıktığını söyledi.
++ …kız arkadaşının evlenme teklifi edeceğini söyledi.
+- …kız arkadaşının Leo'dan ayrılacağını söyledi.
+
