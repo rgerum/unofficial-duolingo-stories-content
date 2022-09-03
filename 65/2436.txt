@@ -4,8 +4,8 @@ icon=c8d008581b5b813d1b4afcedbe914f70003145c6
 set=12|4
 
 [HEADER]
-> Kelner Ma Rację
-~ the waiter   is~right   
+> Kelner Ma~Rację
+~  waiter   is~right   
 
 [LINE]
 > Bea i jej przyjaciel, Fredryk, są w restauracji.
@@ -16,17 +16,17 @@ Speaker507: Jestem głodna!
 ~            I~am hungry  
 
 [LINE]
-Speaker440: Ryba tutaj jest pyszna!
-~            fish    here is delicious 
+Speaker440: Ryba tutaj jest bardzo smaczna!
+~            fish  here is   very tasty
 
 [MULTIPLE_CHOICE]
-> Bea and Fredryk are going fishing. 
+> Bea and Fredrick are going fishing. 
 + No, that's wrong.
 - Yes, that's right.
 
 [LINE]
 > Kelner przychodzi do stolika. 
-~ waiter   arrives at the table 
+~ waiter   arrives at  table 
 
 [LINE]
 Speaker526: Dobry wieczór. Co chcecie dziśaj zjeść?  
@@ -34,43 +34,43 @@ Speaker526: Dobry wieczór. Co chcecie dziśaj zjeść?
 
 [LINE]
 Speaker507: Rybę, proszę.
-~           the~fish     please    
+~           the~fish please    
 
 [LINE]
-Speaker526: Muy  bien. Y…   ¿qué  bebida quieren? 
+Speaker526: Bardzo dobrze. A…   Jaki drink chcecie 
 ~           very well  and   what drink  you~want 
 
 [LINE]
-Speaker526: Tenemos un vino~muy~especial.
-~           we~have a  very~special~wine 
+Speaker526: Mamy bardzo specjalne wino.
+~           we~have very special wine 
 
 [ARRANGE]
 > Tap what you hear
-Speaker526: [(Y)   (es)    (perfecto) (para) (el~pescado).]
-~             and   it~is   perfect    for    the~fish     
+Speaker526: [(I)   (jest)    (idealna) (z) (rybami).]
+~             and   it~is   perfect    with fish     
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker526: Pero [es~un~poco~caro]…        
+Speaker526: Ale [jest~trochę~drogie]…        
 ~           but   it's~a~little~expensive  
-- vas un poco en carro
-+ es un poco caro
-- es un loco raro
+- test jest dziś
++ jest trochę drogie
+- jest trochę zabawne
 
 [LINE]
-Speaker440: Es    una noche~especial y   queremos una botella de su~vino~especial. 
-~           it~is a   special~night  and we~want  a   bottle  of your~special~wine 
+Speaker440: To jest specjalna noc, i chcemy butelkę pańskiego specjalnego wina. 
+~           this is special night  and we~want   bottle  of~your special wine 
 
 [LINE]
-Speaker526: ¡Muy  bien!
+Speaker526: Bardzo dobrze!
 ~            very well 
 
 [LINE]
-> El  camarero llega~a    la  mesa  con  el  pescado y   la  botella de vino.
-~ the waiter   arrives~at the table with the fish    and the bottle  of wine 
+> Kelner przychodzi do stoliku z rybą i butelką wina.
+~ waiter arrives  at table with fish and bottle of~wine 
 
 [LINE]
-Speaker507: ¡Se~ve    delicioso!
+Speaker507: Ryba wygląda bardzo smacznie!
 ~            it~looks delicious 
 
 [MULTIPLE_CHOICE]
@@ -80,13 +80,13 @@ Speaker507: ¡Se~ve    delicioso!
 - …terrible.
 
 [LINE]
-Speaker440: ¡Sí,  muy  delicioso!
-~            yes  very delicious 
+Speaker440: Tak,  zgadzam~się!
+~            yes  I~agree 
 
 [POINT_TO_PHRASE]
 > Choose the option that means "spills." 
-> (Fredryk) (+derrama) (su~vino)  (en) el~plato~de~Bea.
-~  Federick    spills    his~wine   on  Bea's~plate     
+> (Fredryk) (+rozlewa) (swoje) wino (na) talerz~Bei.
+~  Fredrick    spills    his  wine   on  Bea's~plate     
 
 [LINE]
 Speaker440: O nie! Twoja ryba!
@@ -94,7 +94,7 @@ Speaker440: O nie! Twoja ryba!
 
 [LINE]
 Speaker507: I…   Twoje wino!  
-~           and   your~wine 
+~           and   your wine 
 
 [LINE]
 > Bea je.
@@ -105,8 +105,8 @@ Speaker507: Kelner ma~rację!
 ~            waiter   is~right    
 
 [LINE]
-Speaker507: ¡Este vino es perfecto para el  pescado!
-~            this wine is perfect  for  the fish    
+Speaker507: To wino jest idealne z rybą
+~            this wine is perfect  with fish    
 
 [MULTIPLE_CHOICE]
 > Why is the waiter right?
@@ -116,9 +116,9 @@ Speaker507: ¡Este vino es perfecto para el  pescado!
 
 [MATCH]
 > Tap the pairs
-- Pero <> but
-- con <> with
-- es <> is
-- restaurante <> restaurant
-- Federico <> Federico
+- zgdzam się <> I agree
+- kelner <> waiter
+- mieć rację <> to be right
+- restauracja <> restaurant
+- specjalna <> special
 
