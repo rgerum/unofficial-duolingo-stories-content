@@ -1,0 +1,129 @@
+[DATA]
+fromLanguageName=Kendimi Kötü Hissediyorum
+icon=68ffeb0d8b8a73e7de5cd3b964b34d0e08761977
+set=13|1
+
+[HEADER]
+> I~Feel~Sick              
+~ Kendimi~Kötü~Hissediyorum
+
+[LINE]
+Speaker415: Dad!  I       feel         sick!
+~           Baba  kendimi hissediyorum kötü 
+
+[LINE]
+Speaker414: Oh, no!    
+~           ~   olamaz 
+
+[LINE]
+> Eddy touches Junior's  head.    
+~ Eddy dokunur Junior'ın kafasına 
+
+[LINE]
+Speaker414: You~don't~have a~fever.
+~           yok            ateşin  
+
+[MULTIPLE_CHOICE]
+> Junior'ın ateşi var.
+- Evet, bu doğru.
++ Hayır, bu yanlış.
+
+[LINE]
+Speaker415: But my~ear  hurts!   I~want    to~go  to~the~doctor's~office!
+~           Ama kulağım ağrıyor  istiyorum gitmek muayenehaneye          
+
+[LINE]
+Speaker414: OK    ...
+~           Tamam    
+
+[ARRANGE]
+> İşittiğine dokun
+> [(They)  (go)       (to~the~doctor's~office).]
+~   Onlar   giderler   muayenehaneye            
+
+[LINE]
+Speaker341: It's nice  to~see you  again,  Junior.
+~           ~    güzel görmek seni tekrar  Junior 
+
+[LINE]
+Speaker341: What's~wrong?
+~           sorun~ne     
+
+[LINE]
+Speaker414: His~ear hurts.  
+~           Kulağı  ağrıyor 
+
+[LINE]
+Speaker341: Oh, no!     I~can      help.  
+~           ~   olamaz  edebilirim yardım 
+
+[CONTINUATION]
+> Devamında ne gelecek?
+> The~doctor looks~at [Junior's  ear].     
+~ Doktor     bakar     Junior'ın kulağına  
+- the clock
+~ ~   saat 
+- Eddy's~shoes       
+~ Eddy'nin~ayakkabısı
++ Junior's~ear    
+~ Junior'ın~kulağı
+
+[LINE]
+Speaker341: Hmmm … Your~ear is fine.
+~           ~      Kulağın  ~  iyi  
+
+[LINE]
+Speaker415: Oh! Well … My~foot hurts.  
+~           ~   ~      Ayağım  ağrıyor 
+
+[LINE]
+> The~doctor looks~at Junior's  foot.   
+~ Doktor     bakar    Junior'ın ayağına 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker341: Your~foot [is~also~fine].
+~           Ayağın     da~iyi        
+- it's all the wine
+- is also mine
++ is also fine
+
+[LINE]
+Speaker414: Is~he~OK, Doctor?
+~           iyi~mi    Doktor 
+
+[LINE]
+Speaker341: Yes. 
+~           Evet 
+
+[LINE]
+Speaker341: You're not     sick,  Junior.
+~           sen    eğilsin hasta  Junior 
+
+[LINE]
+Speaker415: I   am~sick! 
+~           Ben hastayım 
+
+[POINT_TO_PHRASE]
+> "Şeker" anlamına gelen seçeneği seçin.
+Speaker341: (Junior) … are~you~here because I   (always) (give)     you  (+candy)?
+~            Junior    mi~buradasın için    ben  hep      verdiğim  sana   şeker  
+
+[LINE]
+Speaker415: Umm … Yes. 
+~           ~     Evet 
+
+[LINE]
+Speaker414: Junior!
+~           Junior 
+
+[LINE]
+Speaker415: So  … Can~I~have     my~candy now?  
+~           Eee   alabilir~miyim şekerimi şimdi 
+
+[MULTIPLE_CHOICE]
+> Junior, neden doktora görünmek istedi?
+- Junior, çok hasta olduğu için.
++ Doktor, Junior'a her geldiğinde şeker verdiği için.
+- Doktora bir hediye getirdiği için.
+
