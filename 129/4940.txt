@@ -1,0 +1,108 @@
+[DATA]
+fromLanguageName=Bir Aile Yemeği
+icon=076bc5bf725308c211b9c04f07d3622683e84d78
+set=8|4
+
+[HEADER]
+> Family Dinner
+~ Aile   Yemeği
+
+[LINE]
+> Lin walks~into Bea's   kitchen.  
+~ Lin girer      Bea'nin mutfağına 
+
+[LINE]
+> She sees  food    and bottles~of~wine  on~the~table.
+~ O   görür yiyecek ve  şarap~şişelerini masada       
+
+[MULTIPLE_CHOICE]
+> Bea'nın mutfak masasında süt şişeleri var.
++ Hayır, bu yanlış.
+- Evet, bu doğru.
+
+[LINE]
+Speaker508: Wow, you~have a~lot~of food.   
+~           ~    var      bir~sürü yemeğin 
+
+[LINE]
+Speaker507: Yeah. My~family is~coming for~dinner.    
+~           Evet  ailem     geliyor   akşam~yemeğine 
+
+[LINE]
+Speaker508: Ooh, can~I~have     some  cake?
+~           ~    alabilir~miyim biraz kek  
+
+[LINE]
+Speaker507: No.   
+~           Hayır 
+
+[LINE]
+Speaker508: But you~have three   cakes.
+~           Ama var      üç~tane kekin 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker507: [(I)    (need)  (three)   (cakes).]
+~             bana   lazım   üç~tane   kek     
+
+[LINE]
+Speaker508: Well, can~I~have a   glass~of wine? 
+~           Peki  alabilir   bir kadeh    şarap 
+
+[LINE]
+Speaker507: No.   
+~           Hayır 
+
+[LINE]
+Speaker508: You~have four bottles~of wine.   
+~           var      dört şişe       şarabın 
+
+[LINE]
+Speaker507: I    need  all   of~the~wine.
+~           bana lazım hepsi şarapların  
+
+[POINT_TO_PHRASE]
+> "Dilim" anlamına gelen seçeneği seçin.
+Speaker508: Can~I~have     (a)   (+slice) (of) (pizza)?
+~           alabilir~miyim  bir    dilim   ~    pizza  
+
+[LINE]
+Speaker507: No,    Lin.
+~           Hayır  Lin 
+
+[LINE]
+Speaker508: Fine.  So,   what~time  is dinner       with your  family tonight? 
+~           Hayda  Peki  saat~kaçta ~  akşam~yemeği ile  senin ailen  bu~akşam 
+
+[LINE]
+Speaker507: Oh, my~family is~visiting next    week. 
+~           ~   ailem     geliyor     gelecek hafta 
+
+[MULTIPLE_CHOICE]
+> Bea'nın ailesi akşam yemeğine ne zaman gelecek?
+- bu gece
++ gelecek hafta
+- gelecek yıl
+
+[LINE]
+Speaker507: This     is all   for  me.   
+~           Bunların ~  hepsi için benim 
+
+[LINE]
+Speaker508: What?!
+~           Ne    
+
+[LINE]
+Speaker507: I~have a   very difficult family! I'm~stressed!
+~           var    bir çok  zor       ailem   Stresliyim   
+
+[LINE]
+Speaker507: I    need  all~of~this food    and wine  now.  
+~           bana lazım bütün~bu    yiyecek ve  şarap şimdi 
+
+[MULTIPLE_CHOICE]
+> Bea, neden bu kadar çok yiyeceğe ve şaraba ihtiyaç duyuyor?
+- Tüm yemeği ve şarabı Lin'e verecek.
++ Ailesi onu ziyarete geleceği için strese girdi.
+- Bea'nın annesi çok açıkmış.
+
