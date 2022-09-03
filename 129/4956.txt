@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=Garson Haklı
+icon=c8d008581b5b813d1b4afcedbe914f70003145c6
+set=12|4
+
+[HEADER]
+> The~Waiter Is      Right
+~ Garson     Dır-dir Haklı
+
+[LINE]
+> Bea and her~friend Ted are at~a~restaurant.
+~ Bea ve  arkadaşı   Ted ~   restoranda      
+
+[LINE]
+Speaker507: I'm very hungry.
+~           Ben çok  açım   
+
+[LINE]
+Speaker440: The~fish here     is delicious!
+~           balıklar buradaki ~  lezzetli  
+
+[LINE]
+> A~waiter comes to~the~table.
+~ garson   gelir masaya       
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker526: [Good~evening]! What would~you~like to~eat?
+~            İyi~akşamlar   Ne   istersiniz     yemek  
+- Good even if
++ Good evening
+- Good eating
+
+[LINE]
+Speaker507: I~want    the~fish, please.
+~           istiyorum balığı    lütfen 
+
+[LINE]
+Speaker440: I   want      the~fish too!
+~           Ben istiyorum balığı   de  
+
+[CONTINUATION]
+> Devamında ne gelecek?
+Speaker526: Great!  And would~you~like [something to~drink]?
+~           Harika  Ve  ister~misiniz   bir~şey   içecek    
++ something~to~drink
+~ içecek~bir~şey    
+- to~sleep
+~ uyumak  
+- a~new~jacket  
+~ yeni~bir~ceket
+
+[LINE]
+Speaker526: We~have a   very special wine      tonight.
+~           var     bir çok  özel    şarabımız bu~gece 
+
+[LINE]
+Speaker526: It's  delicious with~fish!
+~           gider lezzetli  balıkla   
+
+[LINE]
+Speaker526: But it's a~little expensive …
+~           Ama ~    biraz    pahalı     
+
+[LINE]
+Speaker440: No~problem! We~would~like the~wine, please.
+~           Sorun~yok   istiyoruz     şarabı    lütfen 
+
+[LINE]
+Speaker526: Great! 
+~           Harika 
+
+[POINT_TO_PHRASE]
+> "Getirir" anlamına gelen seçeneği seçin.
+> The~waiter (+brings)  (the~fish) (and) (two) glasses~of~wine to~the~table.
+~ Garson       getirir   balığı     ve    iki  kadeh~şarabı    masaya       
+
+[LINE]
+Speaker507: The~fish looks     great. 
+~           Balık    görünüyor harika 
+
+[LINE]
+Speaker440: The~wine looks     good  too!
+~           Şarap    görünüyor güzel da  
+
+[LINE]
+> Ted accidentally spills his~glass~of~wine on~Bea's~plate.  
+~ Ted yanlışlıkla  döker  şarap~kadehini    Bea'nın~tabağına 
+
+[MULTIPLE_CHOICE]
+> Ted, yanlışlıkla…
+- …balığın üstüne su döktü.
++ …Bea'nın akşam yemeğine şarap döktü.
+- …garsonun üstüne şarap döktü.
+
+[LINE]
+Speaker440: Your~fish!
+~           Balığın   
+
+[LINE]
+Speaker507: Your~wine!
+~           Şarabın   
+
+[LINE]
+> Bea laughs and eats the~fish.
+~ Bea güler  ve  yer  balığı   
+
+[LINE]
+Speaker507: The~waiter is right!
+~           Garson     ~  haklı 
+
+[LINE]
+Speaker507: This wine  is      delicious with~the~fish!
+~           Bu   şarap gidiyor lezzetli  balıkla       
+
+[MULTIPLE_CHOICE]
+> Garson neden haklı?
+- Ted, onun için çok sıkıcı biri hale geldi.
+- Balığın fiyatı fazla geldi.
++ Bea, şarabın balıkla birlikte iyi gittiğini düşünüyor.
+
