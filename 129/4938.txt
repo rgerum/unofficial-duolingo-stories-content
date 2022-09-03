@@ -1,0 +1,103 @@
+[DATA]
+fromLanguageName=Dans Sınıfı
+icon=9a6beecaaea348fb3939a0bda8c064c9d9c79dc5
+set=8|2
+
+[HEADER]
+> The Dance Class 
+~ ~   Dans  Sınıfı
+
+[LINE]
+> Eddy walks~into Elizabeth's  class.   
+~ Eddy girer      Elizabeth'in sınıfına 
+
+[LINE]
+Speaker125: Hi!   
+~           Selam 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker125: Today we're [learning~to~dance]!      
+~           Bugün biz    dans~etmeyi~öğreniyoruz  
++ learning to dance
+- earning two dances
+- leaning to dance
+
+[LINE]
+> Eddy quickly walks to~the~door. 
+~ Eddy hızlıca yürür kapıya~doğru 
+
+[LINE]
+Speaker125: Wait! 
+~           Bekle 
+
+[LINE]
+Speaker125: Don't~leave!
+~           Gitme       
+
+[LINE]
+Speaker125: I~know    dancing    is~difficult sometimes …
+~           biliyorum dans~etmek zordur       bazen      
+
+[LINE]
+Speaker125: … but it's really    fun          too!         
+~             ama ~    gerçekten eğlencelidir aynı~zamanda 
+
+[POINT_TO_PHRASE]
+> "Hata" anlamına gelen seçeneği seçin.
+Speaker414: (OK),    (but) (this)   is  a   (+mistake).
+~            Tamam    ama   burada  var bir   hata     
+
+[LINE]
+Speaker125: It's~OK!   It's easy.  Watch me!  
+~           Sorun~yok  ~    kolay  izle  beni 
+
+[LINE]
+Speaker414: But …
+~           Ama  
+
+[ARRANGE]
+> İşittiğine dokun
+> [(Eddy) (watches) (Elizabeth)    (dance).]  
+~   Eddy   izler     Elizabeth'in   dansını   
+
+[LINE]
+Speaker125: Now   dance   with~me!
+~           Şimdi dans~et benimle 
+
+[LINE]
+Speaker414: This is really    fun!      
+~           Bu   ~  gerçekten eğlenceli 
+
+[LINE]
+Speaker125: So  … is this class still a   mistake?
+~           Eee   mı bu   sınıf hâlâ  bir hata    
+
+[MULTIPLE_CHOICE]
+> Elizabeth, Eddy'nin...
+- ...neden bu kadar kötü bir dansçı olduğunu bilmek istiyor.
++ ...hâlâ sınıfına gitmenin bir hata olduğunu düşünüp düşünmediğini öğrenmek istiyor.
+- ...dans öğretmeni olup olmadığını öğrenmek istiyor.
+
+[LINE]
+Speaker414: Yes. 
+~           Evet 
+
+[LINE]
+Speaker125: Really?      
+~           Gerçekten~mi 
+
+[LINE]
+Speaker414: Yes,  I'm in~the~wrong~room.
+~           Evet  ben yanlış~odadayım   
+
+[LINE]
+Speaker414: But this is more fun       than a~cooking~class!
+~           Ama bu   ~  daha eğlenceli -dan yemek~kursu     
+
+[MULTIPLE_CHOICE]
+> Eddy'nin hatası neydi?
++ Aşçılık kursuna gitmesi gerekiyordu.
+- Dans ayakkabılarını giymeyi unutmuştu.
+- Elizabeth ile eskiden yakın arkadaşlardı.
+
