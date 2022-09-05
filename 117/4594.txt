@@ -1,97 +1,97 @@
 [DATA]
-fromLanguageName=Luna de miel
+fromLanguageName=Balayı
 icon=37ac4190dff0a34a36b90aa52ddad02c9463b6a0
-set=2|2
+set=2|3
 
 [HEADER]
-> Honeymoon   
-~ luna~de~miel
+> Honeymoon
+~ Balayı   
 
 [LINE]
-> Shelly is   in a  taxi.
-~ Shelly está en un taxi 
+> Shelly is in~a~taxi.  
+~ Shelly ~  bir~takside 
 
 [LINE]
 Speaker113: Good~morning!
-~           buenos~días  
+~           Günaydın     
 
 [SELECT_PHRASE]
-> Completa la oración
-Speaker342: Hello, I  need     to~go [to~the~airport], please.   
-~           hola   yo necesito ir     al~aeropuerto    por~favor 
-- two of the pork
-+ to the airport
+> Eksik kısmı seç
+Speaker342: Hello,   I~need    to~go  [to~the~airport], please.
+~           Merhaba  gerekiyor gitmem  havaalanına      lütfen 
 - to their port
++ to the airport
+- two of the pork
 
 [LINE]
-Speaker113: OK.       
-~           está~bien 
+Speaker113: OK.  
+~           Peki 
 
 [LINE]
-Speaker113: Vacation?  
-~           vacaciones 
+Speaker113: Vacation? 
+~           Tatile~mi 
 
 [LINE]
-Speaker342: No…
-~           no 
+Speaker342: No    …
+~           Hayır  
 
 [ARRANGE]
-> Escucha y selecciona las palabras
-Speaker342: [(I)  (have)  (a~ticket)  (to) (California).]
-~             yo   tengo   un~boleto   a    California   
+> İşittiğine dokun
+Speaker342: [(I)     (have) (a)   (ticket)  (to~California).] 
+~             benim   var    bir   biletim   Kaliforniya'ya   
 
 [LINE]
-Speaker342: Well…  two tickets.
-~           bueno  dos boletos 
+Speaker342: Actually    … two tickets.
+~           aslında   iki bilet   
 
 [LINE]
-Speaker113: California is very nice!  
-~           California es muy  bonita 
+Speaker113: California  is very nice! 
+~           Kaliforniya ~  çok  güzel 
 
 [LINE]
-Speaker342: It's my honeymoon…   
-~           es   mi luna~de~miel 
+Speaker342: It's my    honeymoon …
+~           bu   benim balayım    
 
 [MULTIPLE_CHOICE]
-> ¿Por qué va Shelly a California?
-+ Ella se va de luna de miel.
-- Ella se va a casar allá.
-- Ella está aprendiendo a surfear.
+> Shelly neden Kaliforniya'ya gidiyor?
+- Orada evlenecek.
++ Balayına gidecek.
+- Sörf yapmayı öğrenecek.
 
 [LINE]
-Speaker113: Where is   your husband?
-~           dónde está su   esposo  
+Speaker113: Where  is your  husband?
+~           nerede ~  sizin kocanız 
 
 [LINE]
-Speaker342: I  don't~have a  husband. I  have  a   very~difficult~wife!
-~           yo no~tengo   un esposo   yo tengo una esposa~muy~difícil  
+Speaker342: I~don't~have a   husband. I~have a   very difficult wife!
+~           yok          bir kocam    var    bir çok  zor       eşim 
 
 [LINE]
-Speaker342: She  does~not~want to~go to California with~me.
-~           ella no~quiere     ir    a  California conmigo 
+Speaker342: She~does~not~want to~go  to~California  with~me.
+~           istemiyor         gitmek Kaliforniya'ya benimle 
 
 [MULTIPLE_CHOICE]
-> ¡Ay, no! La esposa de Shelly…
-- … olvidó empacar su protector solar.
-+ … no quiere ir a California con ella.
-- … ya está en California.
+> Shelly'nin eşi…
+- …güneş kremini almayı unuttu.
++ …onunla Kaliforniya'ya gitmek istemiyor.
+- …zaten Kaliforniya'da.
 
 [LINE]
-Speaker342: I'm   very sad.   
-~           estoy muy  triste 
+Speaker342: I'm very sad.    
+~           ben çok  üzgünüm 
 
 [LINE]
-Speaker113: I'm~sorry…
-~           lo~siento 
+Speaker113: I'm~sorry              …
+~           Bunu~duyduğuma~üzüldüm …
 
 [LINE]
-Speaker113: Ahem! OK…        we       are     at the airport.   
-~           ejem  está~bien  nosotros estamos en el  aeropuerto 
+Speaker113: Ahem! OK   … we~are~at~the~airport.
+~           ~     Peki   havaalanındayız       
 
 [POINT_TO_PHRASE]
-> Selecciona la opción que significa "corre".
-> A   (woman) (+runs)  to    (the) (taxi).
-~ una  mujer    corre  hacia  el    taxi  
+> "Koşar" anlamına gelen seçeneği seçin.
+> (A)   (woman) (+runs)  (to~the~taxi).
+~  Bir   kadın    koşar   taksiye      
 
 [LINE]
 Speaker342: Anna?
@@ -102,36 +102,36 @@ Speaker343: Shelly!
 ~           Shelly 
 
 [LINE]
-Speaker343: I'm~very~sorry! 
-~           lo~siento~mucho 
+Speaker343: I'm very sorry!       
+~           ben çok  özür~dilerim 
 
 [LINE]
-Speaker343: I  love~you. 
-~           yo te~quiero 
+Speaker343: I~love    you. 
+~           seviyorum seni 
 
 [LINE]
-Speaker342: I  love~you~too.     
-~           yo también~te~quiero 
+Speaker342: I   love      you  too.
+~           Ben seviyorum seni de  
 
 [LINE]
-Speaker343: I  want   to~go to California with~you!
-~           yo quiero ir    a  California contigo  
+Speaker343: I~want    to~go  to~California  with~you!        
+~           istiyorum gitmek Kaliforniya'ya seninle~birlikte 
 
 [LINE]
-Speaker113: Have       a   nice   honeymoon!   
-~           que~tengan una bonita luna~de~miel 
+Speaker113: Have    a   nice honeymoon!
+~           geçirin bir İyi  balayı    
 
 [MULTIPLE_CHOICE]
-> ¿Qué pasará después?
-+ Shelly y su esposa, Anna, se irán juntas a California.
-- Shelly empezará a trabajar en el aeropuerto.
-- Shelly y el taxista se irán juntos a California.
+> Bundan sonra ne olacak?
+- Shelly, taksi şoförüyle birlikte Kaliforniya'ya gidecekler.
++ Shelly ve eşi Anna, birlikte Kaliforniya'ya gidecekler.
+- Shelly, havaalanında çalışmaya başlayacak.
 
 [MATCH]
-> Selecciona los pares
-- in <> en
-- we <> nosotros
-- Vacation <> vacaciones
-- Well <> bueno
+> Eşleşen çiftleri seçin.
+- taxi <> taksi
+- we <> biz
+- Vacation <> tatil
+- Actually <> aslında
 - Anna <> Anna
 
