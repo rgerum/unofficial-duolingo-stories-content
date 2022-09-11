@@ -6,17 +6,17 @@ set=5|3
 [HEADER]
 > En kopp~kaffe,    takk!
 ~ a  cup~of~coffee  thank~you~(here:~please)
-$5028/cc50af02.mp3;2,50;5,225;6,362;5,525
+$5028/64557a44.mp3;2,50;5,225;6,362;5,525
 
 [LINE]
-> Eddy er på en restaurant med sonnen~sin, Junior.
-~ Eddy is at a  restaurant  with his~son  Junior 
-$5028/a47ad5ea.mp3;4,50;3,350;3,187;3,125;11,125;4,513;7,175;4,325;7,475
+> Eddy går inn~i en restaurant med sonnen~sin, Junior.
+~ Eddy walks into a  restaurant  with his~son  Junior 
+$5028/70412f92.mp3;4,50;4,337;4,225;2,250;3,75;11,113;4,500;7,162;4,325;7,475
 
 [LINE]
-Speaker386: Hei!
-~           Hey
-$5028/212b06cc.mp3;3,50
+Speaker386: Hei, Eddy! Vil~du~ha noe å~spisse?
+~           hey ~ would~you~like something to~eat
+$5028/756ab588.mp3;3,50;5,462;4,1338;3,162;3,138;4,212;2,288;7,100
 
 [MULTIPLE_CHOICE]
 > The woman asks Eddy if he wants a coffee.
@@ -24,38 +24,39 @@ $5028/212b06cc.mp3;3,50
 - Yes, that's right.
 
 [LINE]
-Speaker414: Hei! En kopp kaffe, takk.
-~           Hey  Do~you~have coffee
-$5028/ef701504.mp3;3,0;4,409;5,365;6,235;6,475
+Speaker414: Hei! Nei, jeg~vil~ha en stor kopp~kaffe, takk.
+~           hey  no I~would~like a big cup~of~coffee, please
+$5028/ad91f746.mp3;3,0;5,409;5,556;4,254;3,115;3,165;5,85;5,343;6,240;6,426
 
-[LINE]
-Speaker386: Med melk?
-~           Yes,~we~have    Would~you~like a cup
-$5028/1870b094.mp3;3,50;5,187
+[POINT_TO_PHRASE]
+> Choose the option that means "milk."
+Speaker386: (Med) (+melk)?
+~           With milk?
+$5028/05dfc0a4.mp3;3,50;5,187
 
 [LINE]
 Speaker414: Nei, takk. Uten mjølk.
 ~           No, thank~you without milk
-$5028/27f2aafe.mp3;3,0;6,340;6,584;6,590
+$5028/07ff8fd6.mp3;3,0;6,340;6,584;6,590
 
 [LINE]
-> Wait a moment! Is milk "melk" or "mjølk"? The answer is... Both. Bokmål accepts both as variant forms: "melk" is a Danish influence and "mjølk" is a more traditional form used in many Norwegian dialects.
+Speaker0:  Wait~a~moment! “melk”? “mjølk”? Is~it~a~mistake? The~answer~is...~No. Both~words~mean~milk. Bokmål allows~both~as~variant~forms: “melk” is a~Danish~influence and “mjølk” is a more traditional form used in many Norwegian dialects. History of norwegian is very complicated, but also very interesting! We encourage you to learn more about it!
+~          ~ milk milk ~ ~ ~ ~ Nynorsk~allows~only~“mjølk”. ~ milk ~ In~Danish~milk~is~“mælk”. ~ milk
 
 [LINE]
-> History of the Norwegian language is very complicated, but alos very interesting. We encourage you to learn more about it!
-
-
-[LINE]
-Speaker386: Y…   ¿con  o  sin     azúcar?
-~           and   with or without sugar  
+Speaker386: Sukker?
+~           Sugar
+$5028/9e9ca012.mp3;6,50
 
 [LINE]
-Speaker414: Con  azúcar, por~favor.
-~           with sugar   please    
+Speaker414: Ja, takk.
+~           yes please    
+$5028/1fc402b2.mp3;2,0;6,324
 
 [LINE]
-Speaker415: ¡Yo también quiero una taza de café!  
-~            I  also    want   a   cup  of coffee 
+Speaker415: Unnskyld! Jeg vil ha en kopp kaffe, jeg også.
+~            Excuse~me
+$5028/50c07544.mp3;8,0;5,569;4,450;3,115;3,195;5,96;6,240;5,435;5,345
 
 [MULTIPLE_CHOICE]
 > Junior says that he…
@@ -64,8 +65,9 @@ Speaker415: ¡Yo también quiero una taza de café!
 - …needs to go to the bathroom.
 
 [LINE]
-Speaker414: ¿Junior? ¿Tú  quieres café?  
-~            Junior   you want    coffee 
+Speaker414: Junior? Du vil ha kaffe?
+~           ~   you want    coffee 
+$5028/c024bb84.mp3;6,0;4,671;4,409;3,140;6,135
 
 [LINE]
 Speaker415: Sí,  quiero una taza con  leche…
