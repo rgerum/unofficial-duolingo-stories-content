@@ -6,12 +6,12 @@ set=5|4
 [HEADER]
 > Lilys~klær
 ~ Lily's~clothes 
-$5009/6c26c0c4.mp3;5,50;5,525
+$5009/5ba9bfa4.mp3;5,50;5,525
 
 [LINE]
-> Zari er hos Lily. Hun ser~på Lilys klær.
-~ Zari is   at Lily's~house  she  looks~at Lily's clothes  
-$5009/35aa6180.mp3;4,50;3,500;4,225;5,262;4,1300;4,238;3,287;6,163;5,487
+> Zari er~på~besøk hos~Lily. Hun ser~på        Lilys  klær.
+~ ~    is~visiting at~Lily's she is~looking~at Lily's clothes  
+$5009/ad605c0e.mp3;4,50;3,512;3,200;6,138;4,450;5,262;4,1313;4,237;3,288;6,162;5,488
 
 [MULTIPLE_CHOICE]
 > Zari is looking at Lily's homework.
@@ -19,14 +19,14 @@ $5009/35aa6180.mp3;4,50;3,500;4,225;5,262;4,1300;4,238;3,287;6,163;5,487
 - Yes, that's right.
 
 [LINE]
-Speaker418: Du har så mange lilla klær!
+Speaker418: Du har så mange lilla klær, Lily!
 ~           you have so many purple clothes 
-$5009/62bdcc02.mp3;2,0;4,234;3,191;6,155;6,309;5,303
+$5009/b0a29dc8.mp3;2,0;4,224;3,196;6,150;6,309;5,295;6,369
 
 [LINE]
 Speaker416: Lilla  er jo        favorittfargen~min.
 ~           purple is after~all my~favorite~color
-$5009/62600a0e.mp3;5,0;3,310;3,145;15,135;4,759
+$5009/b5b9d81c.mp3;5,0;3,310;3,145;15,135;4,759
 
 [MULTIPLE_CHOICE]
 > What is Lily's favorite color?
@@ -37,39 +37,51 @@ $5009/62600a0e.mp3;5,0;3,310;3,145;15,135;4,759
 [LINE]
 Speaker418: Trenger du  virkelig fem lilla skjorter?
 ~           need    you really   five purple shirts
-$5009/635bdec4.mp3;7,0;3,340;9,135;4,439;6,304;9,270
+$5009/c4ab5a1c.mp3;7,0;3,340;9,135;4,439;6,304;9,270
 
 [LINE]
-Speaker416: Ja! Jeg trenger også fem lilla jakker.
+Speaker416: Ja, det~gjør~jeg!
+~           yes I~do~(as~a~response~to~a~yes/no~question)
+$5009/29127210.mp3;2,0;5,280;5,280;4,214
+
+[LINE]
+Speaker416: Jeg trenger også fem lilla jakker.
 ~           yes I   need also five purple jackets
-$5009/b3e42fcc.mp3;2,0;5,375;8,360;5,284;4,269;6,265;7,248
+
+$5009/2a2611d4.mp3;3,0;8,159;5,285;4,269;6,265;7,248
+
+[LINE]
+Speaker418: Og  fire lilla hatter?
+~              and   four   purple   hats         
+$5009/492f86fe.mp3;2,0;5,74;6,445;7,343
 
 [ARRANGE]
 > Tap what you hear
-Speaker418: [(Og)   (fire) (lilla) (hatter)?]
-~              and   four   purple   hats         
-$5009/5489556a.mp3;2,0;5,74;6,445;7,343
+Speaker416: [(Ja), (jeg) (trenger) (de~lilla~hattene~mine).]
+~           yes  I   need   my~purple~hats      
+$5009/5b4192f6.mp3;2,0;5,244;8,275;3,283;6,85;8,270;5,457
 
 [LINE]
-Speaker416: Ja! Jeg trenger hattene~mine!
-~           yes  I   need   my~hats      
-$5009/ce572688.mp3;2,0;5,375;8,384;8,316;5,473
+> De sier~ikke~noe        på en stund.
+~ they don't~say~anything for~a~while
+$5009/1b36b7b8.mp3;2,50;5,187;5,363;4,175;3,300;3,137;6,138
+
 
 [POINT_TO_PHRASE]
 > Choose the option that means "something."
-Speaker418: (Jeg)  (har) (+noe) (for) (deg) (da). 
-~           I have~got something for you then
-$5009/db736660.mp3;3,0;4,244;4,220;4,274;4,185;3,195
+Speaker418: (Jeg)  (har) (+noe) (for) (deg), Lily. 
+~           I have~got something for you
+$5009/7f11f338.mp3;3,0;4,239;4,200;4,270;4,190;6,280
 
 [LINE]
-> Zari har røde solbriller. 
-~ Zari has red sunglasses 
-$5009/a20e055e.mp3;4,50;4,512;5,238;11,300
+> Zari viser~fram et~par      røde solbriller. 
+~ Zari presents   a~pair~(of) red  sunglasses 
+$5009/869bf4b4.mp3;4,50;6,512;5,388;3,325;4,125;5,237;11,263
 
 [LINE]
-Speaker418: Jeg kjøpte disse for deg i min favorittbutikk.
-~           these are for you  they~are from my favorite~store  
-$5009/9f1c92a2.mp3;3,0;7,199;6,395;4,282;4,180;2,238;4,75;15,200
+Speaker418: Jeg kjøpte disse til deg i favorittbutikken~min.
+~           these are for you  they~are from my~favorite~store  
+$5009/51ac0188.mp3;3,0;7,199;6,411;4,285;4,169;2,216;17,75;4,880
 
 [MULTIPLE_CHOICE]
 > Zari gives Lily a pair of red sunglasses…
@@ -78,19 +90,19 @@ $5009/9f1c92a2.mp3;3,0;7,199;6,395;4,282;4,180;2,238;4,75;15,200
 + …from her favorite store.
 
 [LINE]
-Speaker416: Øh… Takk, Zari.  
+Speaker416: Øh… Takk, Zari.
 ~           ehm...  thank~you ~
-$5009/b63dd58c.mp3;2,0;6,269;6,560
+$5009/502344de.mp3;2,0;6,269;6,560
 
 [LINE]
 Speaker418: Rødt er en~perfekt~farge for deg. 
 ~           red  is a~perfect~color for you 
-$5009/1d7f23f4.mp3;4,0;3,280;3,159;8,130;6,532;4,370;4,160
+$5009/4f3c4c78.mp3;4,0;3,280;3,159;8,130;6,532;4,370;4,160
 
 [LINE]
-Speaker416: Hadde~de~ikke solbriller som ville~ha~vært ... Lilla?
-~           Didn't~they~have sunglasses which would~have~be purple
-$5009/cb928b84.mp3;5,0;3,234;5,75;11,210;4,593;6,176;3,150;5,145;10,185
+Speaker416: Hadde~de~ikke    solbriller som   var ... Lilla?
+~           Didn't~they~have sunglasses which were    purple
+$5009/4ec86dbc.mp3;5,0;3,234;5,70;11,195;4,564;4,171;10,135
 
 [MULTIPLE_CHOICE]
 > Lily likes the sunglasses but…
