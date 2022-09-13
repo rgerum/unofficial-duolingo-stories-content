@@ -1,73 +1,73 @@
 [DATA]
-fromLanguageName=One Ticket to Barcelona
+fromLanguageName=One Ticket to Stockholm
 icon=b8d10ee56171817ff548af825d5065b5561d1482
 set=7|4
 
 [HEADER]
-> Un  boleto para Barcelona
-~ one ticket to   Barcelona
+> En billett til Stockholm
+~ one ticket to   Stockholm
 
 [LINE]
-> Junior está en el  aeropuerto.
-~ Junior is   at the airport    
+> Junior er på flyplassen.
+~ Junior is   at the~airport    
 
 [LINE]
-> Él habla~con la  mujer del~mostrador. 
-~ he speaks~to the woman at~the~counter 
+> Han snakker~med damen i~skranken. 
+~ he speaks~to the~woman at~the~counter 
 
 [LINE]
-Speaker659: ¿Te~puedo~ayudar en~algo?       
-~            I~can~help~you  with~something 
+Speaker659: Kan jeg hjelpe deg med noe?       
+~            Can I help you with something 
 
 [LINE]
-Speaker415: Quiero un  boleto para Barcelona.
-~           I~want one ticket to   Barcelona 
+Speaker415: Jeg~vil~ha en billett til Stockholm.
+~           I~want one ticket to   Stockholm 
 
 [MULTIPLE_CHOICE]
-> Junior wants to travel to Madrid.
+> Junior wants to travel to Bergen.
 - Yes, that's right.
 + No, that's wrong.
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker659: ¿Dónde [están~tus~padres]?
+Speaker659: Hvor [er~foreldrene~dine]?
 ~            where  are~your~parents  
-+ están tus padres
-- trabajan tus padres
-- están sus madres
++ er foreldrene dine
+- har foreldrene dine
+- er hestene dine
 
 [LINE]
-Speaker415: ¿Perdón?    Yo no~tengo~siete~años.   
+Speaker415: Unnskyld~meg, jeg er~ikke~sju~år~gammel.   
 ~            excuse~me  I  am~not~seven~years~old 
 
 [LINE]
-Speaker659: ¿Y   cuántos~años~tienes?
-~            and how~old~are~you     
+Speaker659: Hvor~gammel~er~du, da?
+~            how~old~are~you     then
 
 [LINE]
-Speaker415: Tengo~ocho~años.     
-~           I~am~eight~years~old 
+Speaker415: Jeg er åtte.     
+~           I am eight~(years~old) 
 
 [POINT_TO_PHRASE]
-> Choose the option that means "four hundred."
-Speaker659: Un (boleto) para (Barcelona) cuesta (+cuatrocientos) (dólares).
-~           a   ticket  to    Barcelona  costs    four~hundred    dollars  
+> Choose the option that means "four thousand."
+Speaker659: En (billett) til (Stockholm) koster (+fire~tusen) (kroner).
+~           a   ticket  to    Stockholm  costs    four~thousand    kroner  
 
 [LINE]
-Speaker415: Está~bien. ¿A~dónde~puedo~ir con  trece    dólares?
-~           OK          where~can~I~go   with thirteen dollars 
+Speaker415: OK. Hvor~kan~jeg~dra for hundreogtretti kroner?
+~           OK          where~can~I~go   with hundred~and~thirty kroner 
 
 [LINE]
-> Eddy, el~papá~de~Junior, corre al     mostrador.
+> Eddy, Juniors~far, løper til skranken.
 ~ Eddy  Junior's~dad       runs  to~the counter   
 
 [LINE]
-Speaker414: ¡Junior! ¡Aquí estás!   ¿Qué~haces          en el  aeropuerto?
-~            Junior   here you~are   what~are~you~doing at the airport    
+Speaker414: Junior! Her er~du!   Hva~gjør~du på flyplassen?
+~            Junior   here you~are   what~are~you~doing at the~airport    
 
 [LINE]
-Speaker415: Hoy   tengo  un examen~de~matemáticas. Necesito salir      del    país.   
-~           today I~have a  math~exam              I~need   to~get~out of~the country 
+Speaker415: Jeg har en matte prøve i~dag. Jeg~må komme~meg~ut av landet.   
+~           I have a math test today            I~need   to~get~out of~the country 
 
 [MULTIPLE_CHOICE]
 > Ah ha! Why does Junior want to leave the country?
@@ -76,28 +76,28 @@ Speaker415: Hoy   tengo  un examen~de~matemáticas. Necesito salir      del    p
 - He misses his friends.
 
 [LINE]
-Speaker414: Está~bien… ¿Cuánto~cuesta el  boleto?
-~           OK          how~much~is   the ticket 
+Speaker414: Ok... Hvor~mye~koster billetten?
+~           OK          how~much~is   the~ticket 
 
 [LINE]
-Speaker415: Cuatrocientos dólares.
-~           four~hundred  dollars 
+Speaker415: Fire~tusen kroner.
+~           four~thousand  kroner 
 
 [LINE]
-Speaker414: ¿Y   cuánto~cuestan dos boletos?
+Speaker414: Og hvor~mye~koster to billetter?
 ~            and how~much~are   two tickets 
 
 [LINE]
-Speaker415: Ochocientos   dólares.
-~           eight~hundred dollars 
+Speaker415: Åtte~tusen kroner.
+~           eight~thousand kroner
 
 [LINE]
-Speaker414: ¡Muy  bien! ¡Eres    muy  bueno en matemáticas!
-~            very good   you~are very good  at math        
+Speaker414: Veldig bra! Du er veldig god i matte!
+~            very good   you are very good  at math        
 
 [LINE]
-Speaker414: Estás   listo para tu~examen.
-~           you~are ready for  your~exam 
+Speaker414: Du~er klar for prøven~din.
+~           you~are ready for  your~test 
 
 [MULTIPLE_CHOICE]
 > Eddy tricked Junior to show him that…
@@ -107,9 +107,9 @@ Speaker414: Estás   listo para tu~examen.
 
 [MATCH]
 > Tap the pairs
-- Quiero <> I want
-- Está bien <> OK
-- Ochocientos <> eight hundred
-- Tengo ocho años <> I am eight years old
-- para <> to
+- Jeg vil ha <> I want
+- OK <> OK
+- åtte tusen <> eight thousand
+- jeg er åtte <> I am eight (years old)
+- til <> to
 
