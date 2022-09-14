@@ -1,110 +1,108 @@
 [DATA]
-fromLanguageName=Una familia grande
-icon=7b985ad4907aa6222424ea7f917bf10209b62843
-set=1|4
+fromLanguageName=Müzede
+icon=86b7c49cff833ae55ebdce7743ae422307168a8e
+set=2|5
 
 [HEADER]
-> Big~Family        
-~ una~familia~grande
+> In~the~Museum
+~ müzede       
 
 [LINE]
-> Shelly is~meeting     Anna's~family.     
-~ Shelly va~a~conocer~a la~familia~de~Anna 
+> Erin is   in  a   museum with her~grandfather.
+~ ~    -dir -de bir müze   ile  büyükbabası     
 
 [LINE]
-Speaker341: Anna! My favorite~daughter!
-~           Anna  mi hija~favorita     
+Speaker1320: The~photos~here      are very interesting!
+~            buradaki~fotoğraflar ~   çok  ilginç      
 
 [LINE]
-Speaker343: Mom,  you only      have   one daughter!
-~           mamá  tú  solamente tienes una hija     
+Speaker2474: Yes,  they  are photos       of~Pittsburgh.
+~            Evet  onlar ~   fotoğrafları Pittsburgh'un 
+
+[LINE]
+Speaker1320: But   there~are~no cars…    
+~            Fakat yok          arabalar 
 
 [MULTIPLE_CHOICE]
-> La mamá de Anna tiene muchas hijas.
-- Sí, así es.
-+ No, no es así.
+> Eski fotoğraflarda araba yok.
++ Evet, doğru.
+- Hayır, yanlış.
+
+[LINE]
+Speaker2474: Yes,  the~photos  are very old. 
+~            Evet  fotoğraflar ~   çok  eski 
+
+[LINE]
+Speaker1320: Here is a   photo    of~students  from a   university.
+~            işte ~  bir Fotoğraf öğrencilerin -den bir Üniversite 
+
+[LINE]
+Speaker2474: Yes,  it is the~University~of~Pittsburgh.
+~            Evet  o  ~  Pittsburgh~Üniversitesi      
+
+[CONTINUATION]
+> Cümlenin sonu nedir?
+Speaker2474: The students   are from the~School~of~Medicinee].
+~            ~   öğrenciler ~   -den tıp~fakültesi            
+- children
++ School~of~Medicine
+~ Tıp~fakültesi     
+- intelligent
+
+[LINE]
+Speaker1320: There~is a   woman in  the photo!   
+~            var      bir Kadın -ta ~   Fotoğraf 
+
+[LINE]
+Speaker1320: Only   one woman…
+~            sadece bir Kadın 
+
+[MULTIPLE_CHOICE]
+> Erin diyor ki ...
+- … Fotoğrafta sadece bir kadını tanıyor.
++ … Fotoğrafta sadece bir kadın var.
+- … Fotoğrafta beş kadın var.
 
 [POINT_TO_PHRASE]
-> Selecciona la opción que significa "novia".
-Speaker343: (This) (is) my (+girlfriend), (Shelly).
-~            esta   es  mi   novia         Shelly  
+> "Bakar" anlamına gelen seçeneği seçin.
+> (Erin's)  (grandfather) (+looks~at) (the~photo). He does~not~speak.
+~  Erin'in   büyükbabası    bakar      fotoğrafa   O  konuşmaz       
 
 [LINE]
-Speaker342: Hello, how~are~you?
-~           hola   cómo~estás  
+Speaker1320: Grandpa?  
+~            Büyükbaba 
 
 [LINE]
-Speaker343: Shelly, this is my brother, Thomas!
-~           Shelly  este es mi hermano  Thomas 
+Speaker2474: She is beautiful…
+~            O   ~  güzel     
 
 [LINE]
-Speaker342: Hello!
-~           hola  
+Speaker1320: Yes,  very beautiful.
+~            Evet  çok  güzel     
 
 [ARRANGE]
-> Escucha y selecciona las palabras
-Speaker343: [(These) (are) (my)  (grandparents).]
-~             estos   son   mis   abuelos        
+> İşittiğine dokun
+Speaker2474: [(She) (is) (my~grandmother).]
+~              O     ~    büyükannem       
 
 [LINE]
-Speaker342: Hello—
-~           hola  
+Speaker1320: Wow!
 
 [LINE]
-Speaker343: This is my father and my brother, Jacob!
-~           este es mi padre  y   mi hermano  Jacob 
-
-[LINE]
-Speaker342: Hello, how~are~you?
-~           hola   cómo~están  
-
-[LINE]
-Speaker343: This is my brother, Steve, and my brother, Josh.
-~           este es mi hermano  Steve  y   mi hermano  Josh 
-
-[LINE]
-Speaker342: Hello, Steve. Hello, Josh.
-~           hola   Steve  hola   Josh 
-
-[SELECT_PHRASE]
-> Completa la oración
-Speaker342: You have   [a~big~family]!      
-~           tú  tienes  una~familia~grande  
-- a bug family
-+ a big family
-- a big finally
-
-[LINE]
-Speaker341: But  I  only      have  one daughter…
-~           pero yo solamente tengo una hija     
-
-[LINE]
-Speaker343: Mother!
-~           mamá   
-
-[LINE]
-Speaker341: Oh! I  have  two daughters now…  
-~           ah  yo tengo dos hijas     ahora 
-
-[LINE]
-Speaker341: Welcome    to the family,  Shelly!
-~           bienvenida a  la  familia  Shelly 
-
-[LINE]
-Speaker342: Thank~you!
-~           gracias   
+Speaker1320: I     have a   very interesting family!
+~            benim var  bir çok  ilginç      ailem  
 
 [MULTIPLE_CHOICE]
-> ¿Por qué la madre de Anna dice que ella ahora tiene dos hijas?
-- Ella se acordó de que Anna tiene una hermana.
-- Ella tuvo un bebé cuando Shelly estaba allí.
-+ Ella le está dando la bienvenida a Shelly a la familia.
+> Hikayede ne oldu?
+- Erin, müzede büyükbabasının bir fotoğrafını gördü.
++ Erin'in büyükbabası müzede büyükannesinin bir fotoğrafını gördü.
+- Erin, müze ziyaretinden hoşlanmadı.
 
 [MATCH]
-> Selecciona los pares
-- now <> ahora
-- and <> y
-- But <> pero
-- only <> solamente
-- family <> familia
+> Çiftlere dokun
+- of Pittsburgh <> Pittsburgh'un
+- Only <> sadece
+- The photos here <> buradaki fotoğraflar
+- my grandmother <> büyükannem
+- beautiful <> güzel
 
