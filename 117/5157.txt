@@ -1,137 +1,128 @@
 [DATA]
-fromLanguageName=¿Necesita ayuda?
-icon=3353b2d2d326875fc3ab76228fda57149bcd012a
-set=9|4
+fromLanguageName=Yeni Alışveriş Merkezi
+icon=22d80e422eeb2f9e860d1f014edf989ff6257372
+set=9|8
+
+#Imported
 
 [HEADER]
-> Need~Help?     
-~ necesita~ayuda 
+> The New  Mall             
+~ ~   Yeni Alışveriş~Merkezi
 
 [LINE]
-> Lin is~walking     on a   road.     
-~ Lin está~caminando en una carretera 
-
-[SELECT_PHRASE]
-> Completa la oración
-> She  sees a  man    [near~his~car].     
-~ ella ve~a un hombre  cerca~de~su~carro  
-- hear his car
-- near this bar
-+ near his car
+> Rebecca is~reading a   newspaper on  the bus.   
+~ ~       okuyor     bir gazete    -te ~   otobüs 
 
 [LINE]
-> He looks unhappy.
-~ él se~ve triste  
+Speaker1320: Wow!
 
 [LINE]
-Speaker508: Hi!   Do~you~need~help?
-~           hola  necesita~ayuda   
+Speaker258: What?   
+~           ne~oldu 
+
+[LINE]
+Speaker1320: There's a   new  shopping~mall     in  the city! 
+~            Var     bir yeni alışveriş~merkezi -de ~   şehir 
+
+[MULTIPLE_CHOICE]
+> Rebecca'nın yaşadığı şehirde yeni bir alışveriş merkezi açılmış.
+- Hayır, yanlış.
++ Evet, bu doğru.
+
+[LINE]
+Speaker258: Really?      
+~           Gerçekten~mi 
+
+[LINE]
+Speaker1320: Yes,  and there~is a   3D        movie~theater!
+~            Evet  ve  var      bir 3~boyutlu sinema        
+
+[MULTIPLE_CHOICE]
+> Yeni alışveriş merkezinde ne var?
+- 3D yazıcı satıcısı.
++ 3D sinema.
+- 3D bir fotoğraf.
+
+[LINE]
+Speaker1320: And the Mexican~restaurant you~like       is~there too!
+~            Ve  ~   Meksika~restoranı  senin~sevdiğin var      -da 
+
+[LINE]
+Speaker258: I~want    to~go  now!  
+~           istiyorum gitmek şimdi 
+
+[LINE]
+Speaker258: Where~in  Pittsburgh    is   it?
+~           neresinde Pittsburgh'un -dir o  
+
+[LINE]
+Speaker1320: Hmm… Sidney Street?
+~            ~    Sidney sokağı 
+
+[LINE]
+Speaker258: I~don't~know where           Sidney Street    is.
+~           bilmiyorum   nerede~olduğunu Sidney sokağının ~  
 
 [CONTINUATION]
-> ¿Qué sigue?
-Speaker127: There~is a  problem  with [my car].  
-~           hay      un problema con   mi carro  
-- the weather
-~ el  clima  
-+ my car  
-~ mi carro
-- my coffee
-~ mi café  
+> Sorunun sonu olabilir?
+Speaker258: Can~I~look      at the [newspaper]?
+~           bakabilir~miyim -e ~    gazete     
++ ... newspaper?
+- ... city?
+- ... movie?
 
 [LINE]
-Speaker127: Can~I~use  your phone,    please?   
-~           puedo~usar su   teléfono  por~favor 
+Speaker1320: Here. 
+~            buyur 
 
 [LINE]
-> Lin gives her phone    to~the man.   
-~ Lin le~da su  teléfono al     hombre 
-
-[LINE]
-Speaker508: Sure,         but… 
-~           por~supuesto  pero 
-
-[LINE]
-Speaker127: Sorry,     one minute.
-~           lo~siento  un  minuto 
-
-[LINE]
-> The man    uses Lin's~phone.       
-~ el  hombre usa  el~teléfono~de~Lin 
-
-[LINE]
-Speaker127: Yes, is this the auto~repair~shop?
-~           sí   es este el  taller~mecánico  
-
-[MULTIPLE_CHOICE]
-> El hombre le pidió prestado el teléfono a Lin para…
-+ … llamar a un taller mecánico.
-- … ver sus fotos.
-- … ver la hora.
-
-[LINE]
-Speaker127: I  have  a  car~problem.          
-~           yo tengo un problema~con~el~carro 
-
-[LINE]
-Speaker508: Uh… Sir?  
-~           eh  señor 
-
-[LINE]
-> The man    continues talking  on~the~phone.
-~ el  hombre sigue     hablando por~teléfono 
-
-[SELECT_PHRASE]
-> Completa la oración
-Speaker127: No, I  don't~know [where~I~am]. 
-~           no  yo no~sé       dónde~estoy  
-- here I am
-- where I ran
-+ where I am
-
-[LINE]
-Speaker127: Excuse~me, miss…    
-~           disculpe   señorita 
-
-[LINE]
-Speaker508: Yes?
-~           sí  
-
-[LINE]
-Speaker127: Where are~we? 
-~           dónde estamos 
-
-[LINE]
-Speaker508: Near~the  auto~repair~shop!
-~           cerca~del taller~mecánico  
-
-[LINE]
-Speaker127: What?
-~           qué  
+Speaker258: Rebecca…
 
 [ARRANGE]
-> Escucha y selecciona las palabras
-Speaker508: [(I)  (work)    (there) (on~weekends).]        
-~             yo   trabajo   ahí     los~fines~de~semana   
+> İşittiğine dokun
+Speaker258: [(This) (mall)              (isn't) (new).] 
+~             Bu     alışveriş~Merkezi   değil   yeni   
 
 [LINE]
-Speaker508: I'm a~mechanic!    
-~           soy (una)~mecánica 
+Speaker258: It's the same mall              we    usually go~to.     
+~           bu   ~   aynı alışveriş~Merkezi bizim genelde gittiğimiz 
 
 [LINE]
-Speaker508: So…      do~you~need~help?
-~           así~que  necesita~ayuda   
+Speaker258: But   the~name is different!
+~           Fakat adı      ~  farklı    
 
 [MULTIPLE_CHOICE]
-> Resulta que Lin…
-- … necesita ayuda para comprar un teléfono nuevo.
-- … no sabe dónde está.
-+ … trabaja en el taller mecánico.
+> Alışveriş merkezi…
+- … Yeni açıldı, fakat Pittsburgh'da değil.
++ … Bildikleri aynı alışveriş merkezi ama adını değiştirmiş.
+-  … Kapanacak.
+
+[LINE]
+Speaker1320: Oh…
+
+[LINE]
+Speaker1320: Well, do~you~want to~go  to the "new"  mall?             
+~            peki  ister~misin gitmek -e ~    yeni  alışveriş~Merkezi 
+
+[LINE]
+Speaker1320: We~can~see  a   movie and eat         Mexican~food.  
+~            izleyebilir bir film  ve  yiyebiliriz Meksika~yemeği 
+
+[LINE]
+Speaker258: Yes! 
+~           Evet 
+
+[MULTIPLE_CHOICE]
+> Ne yapacaklar?
+- Meksika'da yeni bir alışveriş merkezine gidecekler.
++ Bir film izlemek ve Meksika yemeği yemek için alışveriş merkezine gidecekler.
+- Evde kalıp ve Meksika yemeği söyleyecekler.
 
 [MATCH]
-> Selecciona los pares
-- Excuse me <> disculpe
-- is <> es
-- gives <> le da
-- but <> pero
-- So <> así que
+> Çiftlere dokun
+- I want <> istiyorum
+- I don't know <> bilmiyorum
+- and <> ve
+- the name <> adı
+- Pittsburgh <> Pittsburgh'un
 
