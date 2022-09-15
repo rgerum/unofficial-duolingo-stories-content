@@ -1,137 +1,128 @@
 [DATA]
-fromLanguageName=¿Necesita ayuda?
-icon=3353b2d2d326875fc3ab76228fda57149bcd012a
-set=9|4
+fromLanguageName=Yabancı
+icon=f3d07f61cdd95c84cb15d7f9d0e4b0dc8173072b
+set=9|6
+
+#Imported
 
 [HEADER]
-> Need~Help?     
-~ necesita~ayuda 
+> The Stranger
+~ ~   Yabancı 
 
 [LINE]
-> Lin is~walking     on a   road.     
-~ Lin está~caminando en una carretera 
-
-[SELECT_PHRASE]
-> Completa la oración
-> She  sees a  man    [near~his~car].     
-~ ella ve~a un hombre  cerca~de~su~carro  
-- hear his car
-- near this bar
-+ near his car
+> Harry is   at  work.
+~ ~     -dir -te iş   
 
 [LINE]
-> He looks unhappy.
-~ él se~ve triste  
+> He's~talking to~his~friend on  the phone.  
+~ konuşuyor    arkadaşıyla   -da ~   telefon 
 
 [LINE]
-Speaker508: Hi!   Do~you~need~help?
-~           hola  necesita~ayuda   
-
-[CONTINUATION]
-> ¿Qué sigue?
-Speaker127: There~is a  problem  with [my car].  
-~           hay      un problema con   mi carro  
-- the weather
-~ el  clima  
-+ my car  
-~ mi carro
-- my coffee
-~ mi café  
+Speaker385: This weekend…   
+~           Bu   hafta~sonu 
 
 [LINE]
-Speaker127: Can~I~use  your phone,    please?   
-~           puedo~usar su   teléfono  por~favor 
+Speaker385: … my    university friends      and I…  
+~             benim Üniversite arkadaşlarım ve  ben 
 
 [LINE]
-> Lin gives her phone    to~the man.   
-~ Lin le~da su  teléfono al     hombre 
-
-[LINE]
-Speaker508: Sure,         but… 
-~           por~supuesto  pero 
-
-[LINE]
-Speaker127: Sorry,     one minute.
-~           lo~siento  un  minuto 
-
-[LINE]
-> The man    uses Lin's~phone.       
-~ el  hombre usa  el~teléfono~de~Lin 
-
-[LINE]
-Speaker127: Yes, is this the auto~repair~shop?
-~           sí   es este el  taller~mecánico  
+Speaker385: Wait  a   minute. My    office phone     is~ringing.
+~           Bekle bir dakika  Benim ofis   telefonum çalıyor    
 
 [MULTIPLE_CHOICE]
-> El hombre le pidió prestado el teléfono a Lin para…
-+ … llamar a un taller mecánico.
-- … ver sus fotos.
-- … ver la hora.
+>  Harry'nin ofis telefonu çalmaya başlar.
++ Evet, bu doğru.
+- Hayır, bu yanlış.
 
 [LINE]
-Speaker127: I  have  a  car~problem.          
-~           yo tengo un problema~con~el~carro 
+Speaker385: Hello?
+~           Selam 
 
 [LINE]
-Speaker508: Uh… Sir?  
-~           eh  señor 
-
-[LINE]
-> The man    continues talking  on~the~phone.
-~ el  hombre sigue     hablando por~teléfono 
+Speaker292: Hello, Harry.
+~           Selam  ~     
 
 [SELECT_PHRASE]
-> Completa la oración
-Speaker127: No, I  don't~know [where~I~am]. 
-~           no  yo no~sé       dónde~estoy  
-- here I am
-- where I ran
-+ where I am
+> Eksik kısmı seç
+Speaker385: [Who~is~this]?
+~            bu~kim       
+- Who's the
++ Who is this
+- Oh these
 
 [LINE]
-Speaker127: Excuse~me, miss…    
-~           disculpe   señorita 
+Speaker292: A   friend. 
+~           Bir arkadaş 
 
 [LINE]
-Speaker508: Yes?
-~           sí  
+Speaker385: Who?
+~           kim 
 
 [LINE]
-Speaker127: Where are~we? 
-~           dónde estamos 
+Speaker292: I     need          you~to~help~me , Harry.
+~           benim ihtiyacım~var yardımına        ~     
 
 [LINE]
-Speaker508: Near~the  auto~repair~shop!
-~           cerca~del taller~mecánico  
+Speaker385: What do~you~want? I~don't~know you! 
+~           Ne   istiyorsun   tanımıyorum  seni 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker292: But [I~know~you].        
+~           ama  ben~seni~tanıyorum  
++ I know you
+- I now
+- wow you
 
 [LINE]
-Speaker127: What?
-~           qué  
+Speaker292: And I'm~coming to your~office  right~now!  
+~           Ve  geliyorum  -e senin~ofisin hemen~şimdi 
+
+[LINE]
+Speaker385: No,    please! I'm~calling the police!
+~           Hayır  Lütfen  arayacağım  ~   polisi 
+
+[LINE]
+Speaker292: Harry, it's your  boss!    
+~           ~      bu   senin patronun 
+
+[MULTIPLE_CHOICE]
+> Telefondaki kişi kim?
++ Harry'nin patronu.
+- Harry'nin annesi.
+- Harry'nin üniversiteden arkadaşı.
+
+[LINE]
+Speaker292: You   need  to~finish your~work!
+~           senin lazım bitirmen  işini     
+
+[LINE]
+Speaker292: Don't~talk to  your~friends on  the phone   at  work.
+~           konuşma    -la arkadaşların -da ~   telefon -te iş   
 
 [ARRANGE]
-> Escucha y selecciona las palabras
-Speaker508: [(I)  (work)    (there) (on~weekends).]        
-~             yo   trabajo   ahí     los~fines~de~semana   
+> İşittiğine dokun
+Speaker292: [(All~of~the~office) (can~hear)    (you)!] 
+~             tüm~ofis            duyabiliyor   seni   
 
 [LINE]
-Speaker508: I'm a~mechanic!    
-~           soy (una)~mecánica 
+Speaker385: Oh no…
 
 [LINE]
-Speaker508: So…      do~you~need~help?
-~           así~que  necesita~ayuda   
+Speaker385: Sorry,   I'll~start   working   now!  
+~           Üzgünüm  başlayacağım çalışmaya şimdi 
 
 [MULTIPLE_CHOICE]
-> Resulta que Lin…
-- … necesita ayuda para comprar un teléfono nuevo.
-- … no sabe dónde está.
-+ … trabaja en el taller mecánico.
+> Harry'nin patronu  ...
+- … Arkadaşlarını aradığı için Harry'e kovulduğunu söyledi.
+- … Terfi aldığını söylemek için aradı.
++ … Arkadaşlarıyla konuşmak yerine çalışması gerektiği için Harry'i aradı.
 
 [MATCH]
-> Selecciona los pares
-- Excuse me <> disculpe
-- is <> es
-- gives <> le da
-- but <> pero
-- So <> así que
+> Çiftlere dokun
+- and <> ve
+- But <> ama
+- Sorry <> Üzgünüm
+- He's talking <> konuşuyor
+- to his friend <> arkadaşıyla
 
