@@ -1,97 +1,103 @@
 [DATA]
-fromLanguageName=The English Test
-icon=fb16be061ee25cbd89be9a23e762f04047652d7f
-set=6|4
+fromLanguageName=Restoran
+icon=d009bf5a911fc69baee4534e0bcc9e5478a9b633
+set=6|6
+
+#Imported
 
 [HEADER]
-> El  examen~de~inglés
-~ the English~test    
+> The Restaurant
+~ ~   Restoran  
 
 [LINE]
-> Junior está en su~casa   con  Zari.
-~ Junior is   at his~house with Zari 
+> Ana is at  a   new  restaurant in  her~city.  
+~ ~   ~  -da bir yeni restoran   -de onun~şehri 
 
 [LINE]
-Speaker415: ¡Zari, necesito tu~ayuda! 
-~            Zari  I~need   your~help 
+Speaker386: Hello! What would~you~like to~eat?
+~           Selam  Ne   istersiniz     yemek  
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker387: I~would~like  [a~glass~of~water] and a   salad,  please.
+~           rica~ediyorum  bir~bardak~su     ve  bir salata  Lütfen 
+- a girl of water
+- a glass of weather
++ a glass of water
 
 [LINE]
-Speaker418: ¿Tú  necesitas mi ayuda?
-~            you need      my help  
-
-[LINE]
-Speaker415: Sí,  tengo  un examen~de~inglés~muy~importante…
-~           yes  I~have a  very~important~English~test     
-
-[MULTIPLE_CHOICE]
-> Junior has a Spanish exam soon.
-+ No, that's wrong.
-- Yes, that's right.
-
-[LINE]
-Speaker415: Y   yo quiero jugar…  
-~           and I  want   to~play 
-
-[LINE]
-Speaker415: … pero tengo~que~estudiar.
-~             but  I~have~to~study    
-
-[MULTIPLE_CHOICE]
-> Junior needs to study English, but he really wants to…
-- …take over the world.
-+ …play a video game.
-- …study history.
-
-[LINE]
-Speaker418: ¡Vamos~a~estudiar juntos!   ¡Yo hablo muy~bien~inglés!  
-~            let's~study      together   I  speak English~very~well 
+Speaker386: OK!       One~glass~of water and one potato  salad—   
+~           tamamdır  bir~bardak   Su    ve  bir Patates salatası 
 
 [ARRANGE]
-> Tap what you hear
-Speaker418: ¿[(Dónde) (está) (tu)   (libro)?]
-~              where   is     your   book    
+> İşittiğine dokun
+Speaker387: [(No),    (I~don't~want) (a)   (potato~salad).]    
+~             Hayır    istemiyorum    bir   patates~salatası   
 
 [LINE]
-Speaker415: En mi mochila. 
-~           in my backpack 
+Speaker386: Oh. Well… do~you~like   soup? 
+~           ~   peki  sever~misiniz çorba 
+
+[CONTINUATION]
+> Sıradaki ne olabilir?
+Speaker387: Yes!  I~like  soup!  Do~you~have [tomato  soup]?    
+~           Evet  severim çorba  var~mı       domates çorbanız  
++ tomato soup   
+~ ~      çorbası
+- a   new restaurant
+~ bir ~   ~         
+- potato salad   
+~ ~      salatası
 
 [LINE]
-Speaker418: Y…   ¿dónde está tu~mochila?   
-~           and   where is   your~backpack 
+Speaker386: No,    but   we    have potato  soup—    
+~           Hayır  fakat bizim var  Patates çorbamız 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker387: [(Can~I~have)     (a)   (sandwich)?]
+~             alabilir~miyim   bir   sandviç    
 
 [LINE]
-Speaker415: En la~escuela.
-~           at school     
+Speaker386: We    have potato  sandwiches!    
+~           bizim var  Patates sandviçlerimiz 
+
+[POINT_TO_PHRASE]
+> "-siz/-sız" anlamına gelen seçeneği tıklayın.
+Speaker387: (Do~you~have) any (food)      (+without) (potatoes)?
+~            var~mı       hiç  yemeğiniz    -siz      patates   
+
+[LINE]
+Speaker386: No,    we~don't!
+~           Hayır  yok      
+
+[LINE]
+Speaker387: What kind of restaurant   is this?!
+~           Ne   tür  ~  bir~restoran ~  bu    
+
+[LINE]
+Speaker386: It's a   potato  restaurant!
+~           bu   bir Patates restoranı  
+
+[LINE]
+Speaker387: Oh… a   potato  restaurant…
+~           ~   bir Patates restoranı  
+
+[LINE]
+Speaker387: Wait,       what?!
+~           bir~dakika  ne    
 
 [MULTIPLE_CHOICE]
-> Where's Junior's backpack?
-+ at his school
-- in his room
-- in Zari's living room
-
-[LINE]
-Speaker418: Junior, ¿cómo vamos~a~estudiar      sin     tu~libro? 
-~           Junior   how  we~are~going~to~study without your~book 
-
-[LINE]
-Speaker415: Tú  vas a  la~escuela, buscas       mi libro…
-~           you go  to school      you~look~for my book  
-
-[LINE]
-Speaker415: … y   yo juego aquí en mi casa. 
-~             and I  play  here at my house 
-
-[MULTIPLE_CHOICE]
-> What does Junior want Zari to do?
-+ go get his English book while he plays video games
-- play video games with him
-- buy him a new backpack
+> Restoranın…
+- … Hiçbir bir yemeği yok.
+- … Sadece suyu var.
++ … Sadece patatesli yemekleri var.
 
 [MATCH]
-> Tap the pairs
-- está <> is
-- hablo <> speak
-- aquí <> here
-- tu ayuda <> your help
-- jugar <> to play
+> Çiftlere dokun
+- tomato <> domates
+- What <> Ne
+- in <> -de
+- Well <> peki
+- potato <> Patates
 
