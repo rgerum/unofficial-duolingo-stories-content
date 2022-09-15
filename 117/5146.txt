@@ -1,150 +1,125 @@
 [DATA]
-fromLanguageName=¡A la estación!
-icon=5bee618bd907474764094eddf36ddcbc46523c98
-set=3|4
+fromLanguageName=Biraz Para
+icon=d52beeb7535f755c3ac9c0475dfc3c87a8f1fa07
+set=3|5
+
+#Imported
 
 [HEADER]
-> To the Station! 
-~ a  la  estación 
+> A~Little~Bit~of Money
+~ biraz           Para 
 
 [LINE]
-> Oscar gets~in  a  taxi.
-~ Oscar entra~en un taxi 
+Speaker119: Mom,  I     need          money. 
+~           Anne  benim ihtiyacım~var paraya 
 
 [LINE]
-> His friend, Lin, is~driving     the taxi.
-~ su  amiga   Lin  está~manejando el  taxi 
+Speaker988: For  what?
+~           İçin ne   
+
+[LINE]
+Speaker119: I'm going     to~see   a   movie.
+~           Ben gidiyorum izlemeye bir film  
 
 [MULTIPLE_CHOICE]
-> Lin está manejando el taxi que Oscar acaba de tomar.
-+ Sí, así es.
-- No, no es así.
+> Bryan, sinemaya gitmek için para istiyor.
+-  Hayır, yanlış.
++ Evet, doğru.
 
 [LINE]
-Speaker592: Lin! You are~driving     a  taxi!
-~           Lin  tú  estás~manejando un taxi 
+Speaker988: You   need  to~study      for  your~exam.    
+~           senin lazım ders~çalışman için senin~sınavın 
 
 [LINE]
-Speaker508: Yes! It~is my new   job!    
-~           sí   es    mi nuevo trabajo 
+Speaker119: OK…   
+~           tamam 
+
+[LINE]
+Speaker988: And you   need  to~buy      a   new  Turkish dictionary.
+~           Ve  senin lazım satın~alman bir yeni Türkçe  sözlük     
+
+[LINE]
+Speaker119: Mom! 
+~           Anne 
+
+[LINE]
+Speaker119: Please!
+~           Lütfen 
+
+[LINE]
+> Bryan's~mother  gives him money.
+~ Bryan'ın~annesi verir ona para  
+
+[MULTIPLE_CHOICE]
+> Bryan, annesinden ...
+- … Borç para ister.
+- … Dondurma ister.
++ … Ona para vermesini ister.
+
+[LINE]
+Speaker988: Here. 
+~           buyur 
+
+[LINE]
+Speaker119: Mom,  I     need          more       money… 
+~           Anne  benim ihtiyacım~var daha~fazla paraya 
 
 [POINT_TO_PHRASE]
-> Selecciona la opción que significa "ir".
-Speaker508: (Where)  (do~you~want) (+to~go)?
-~            adónde   quieres        ir     
+> "Para" anlamına gelen seçeneği seçin.
+Speaker988: (You)   do~not~need   (more)       (+money)  (for)  the bus    to~the~library.   
+~            senin  ihtiyacın~yok  daha~fazla    paraya   için  ~   otobüs kütüphaneye~giden 
 
 [LINE]
-Speaker592: To the station,  please!   
-~           a  la  estación  por~favor 
+Speaker119: Mom,  the movie…
+~           Anne  ~   film  
 
 [LINE]
-Speaker508: Where is   the station? 
-~           dónde está la  estación 
+Speaker988: OK…   
+~           tamam 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker988: [Here~is~more]      for  the dictionary.
+~            işte~daha~fazlası  için ~   sözlük     
+- Here is most
++ Here is more
+- Have is more
 
 [LINE]
-Speaker592: I  do~not~know.
-~           yo no~sé       
+Speaker119: Thanks,      Mom… 
+~           Teşekkürler  Anne 
+
+[LINE]
+Speaker119: Umm…
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker119: [(Can~I~use)          (your~car)?]     
+~             kullanabilir~miyim   senin~arabanı   
+
+[LINE]
+Speaker988: No,    I     need          my    car.    
+~           Hayır  benim ihtiyacım~var benim arabama 
+
+[LINE]
+Speaker119: For  what?
+~           İçin ne   
+
+[LINE]
+Speaker988: I'm going     to~see   a   movie!
+~           Ben gidiyorum izlemeye bir film  
 
 [MULTIPLE_CHOICE]
-> Oscar no sabe…
-+ … dónde está la estación.
-- … adónde quiere ir.
-- … quién es Lin.
-
-[LINE]
-Speaker508: OK…       
-~           está~bien 
-
-[LINE]
-> Lin starts    driving.
-~ Lin empieza~a manejar 
-
-[MULTIPLE_CHOICE]
-> Lin empezó a…
-+ … manejar.
-- … comer.
-- … caminar.
-
-[LINE]
-Speaker508: We       are     here!
-~           nosotros estamos aquí 
-
-[LINE]
-Speaker592: Lin… this is~not the station.  This is the university. 
-~           Lin  esta no~es  la  estación  esta es la  universidad 
-
-[LINE]
-Speaker508: Oh…
-~           ah 
-
-[LINE]
-> Lin starts~driving.   
-~ Lin empieza~a~manejar 
-
-[LINE]
-Speaker508: We       are     here!
-~           nosotros estamos aquí 
-
-[LINE]
-Speaker592: Lin…
-~           Lin 
-
-[LINE]
-Speaker508: Yes?
-~           sí  
-
-[LINE]
-Speaker592: This is the hospital.
-~           este es el  hospital 
-
-[LINE]
-Speaker508: Oh…
-~           ah 
-
-[POINT_TO_PHRASE]
-> Selecciona la opción que significa "otra vez".
-> (Lin) (starts~driving)…    (+again).   
-~  Lin   empieza~a~manejar     otra~vez  
-
-[LINE]
-Speaker508: OK,        we       are     here!
-~           está~bien  nosotros estamos aquí 
-
-[LINE]
-Speaker592: Lin, this is~not the station… 
-~           Lin  esta no~es  la  estación 
-
-[LINE]
-Speaker508: I  know. This is my apartment.  
-~           yo sé    este es mi apartamento 
-
-[LINE]
-Speaker508: I  do~not~want to~drive a  taxi.
-~           yo no~quiero   manejar  un taxi 
-
-[LINE]
-Speaker508: It~is a  difficult~job.  
-~           es    un trabajo~difícil 
-
-[LINE]
-> Lin gets~out of~the taxi.
-~ Lin sale     del    taxi 
-
-[LINE]
-Speaker508: Good~night,    Oscar!
-~           buenas~noches  Oscar 
-
-[MULTIPLE_CHOICE]
-> ¡Ay, no! ¿Por qué Lin decidió irse a casa?
-+ Ella cree que manejar un taxi es demasiado difícil.
-- Ella necesitaba recoger a otro pasajero.
-- Ella olvidó traer su almuerzo.
+> Bryan neden annesinin arabasını kullanamıyor?
+- Annesinin kütüphaneye gitmek için arabasına ihtiyacı var.
+- Araba garajda.
++ Annesinin sinemaya gitmek için arabasına ihtiyacı var.
 
 [MATCH]
-> Selecciona los pares
-- is driving <> está manejando
-- Where <> adónde
-- new <> nuevo
-- friend <> amiga
-- Oscar <> Oscar
+> Çiftlere dokun
+- your exam <> senin sınavın
+- No <> Hayır
+- gives <> verir
+- do not need <> ihtiyacın yok
+- Turkish <> Türkçe
 
