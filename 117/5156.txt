@@ -1,137 +1,129 @@
 [DATA]
-fromLanguageName=¿Necesita ayuda?
-icon=3353b2d2d326875fc3ab76228fda57149bcd012a
-set=9|4
+fromLanguageName=İlk Ev
+icon=dc39b146e09be64389b169c261884a6c5ea6fcca
+set=9|5
+
+#Imported
 
 [HEADER]
-> Need~Help?     
-~ necesita~ayuda 
+> First House
+~ İlk   ev   
 
 [LINE]
-> Lin is~walking     on a   road.     
-~ Lin está~caminando en una carretera 
+> Gina and Ryan want     to~buy      a   house.
+~ ~    ve  ~    isterler satın~almak bir ev    
 
 [SELECT_PHRASE]
-> Completa la oración
-> She  sees a  man    [near~his~car].     
-~ ella ve~a un hombre  cerca~de~su~carro  
-- hear his car
-- near this bar
-+ near his car
+> Eksik kısmı seç
+Speaker336: [Houses~in~the~city] are  too expensive.
+~            şehirdeki~evler     -dır çok pahalı    
++ Houses in the city
+- South end of the city
+- Houses in the sitting
 
 [LINE]
-> He looks unhappy.
-~ él se~ve triste  
+Speaker385: I~know.   
+~           biliyorum 
 
 [LINE]
-Speaker508: Hi!   Do~you~need~help?
-~           hola  necesita~ayuda   
-
-[CONTINUATION]
-> ¿Qué sigue?
-Speaker127: There~is a  problem  with [my car].  
-~           hay      un problema con   mi carro  
-- the weather
-~ el  clima  
-+ my car  
-~ mi carro
-- my coffee
-~ mi café  
+Speaker385: But our~apartment      is so  small.
+~           ama bizim~apartmanımız ~  çok küçük 
 
 [LINE]
-Speaker127: Can~I~use  your phone,    please?   
-~           puedo~usar su   teléfono  por~favor 
+Speaker385: And I   really    want      a   dog!  
+~           Ve  ben gerçekten istiyorum bir köpek 
 
 [LINE]
-> Lin gives her phone    to~the man.   
-~ Lin le~da su  teléfono al     hombre 
+Speaker336: I~know.   
+~           biliyorum 
 
 [LINE]
-Speaker508: Sure,         but… 
-~           por~supuesto  pero 
+Speaker385: I     have an  idea.  
+~           benim var  bir fikrim 
 
 [LINE]
-Speaker127: Sorry,     one minute.
-~           lo~siento  un  minuto 
-
-[LINE]
-> The man    uses Lin's~phone.       
-~ el  hombre usa  el~teléfono~de~Lin 
-
-[LINE]
-Speaker127: Yes, is this the auto~repair~shop?
-~           sí   es este el  taller~mecánico  
+Speaker385: Do    you want  to~take~a~train~ride? 
+~           misin sen ister tren~yolculuğu~yapmak 
 
 [MULTIPLE_CHOICE]
-> El hombre le pidió prestado el teléfono a Lin para…
-+ … llamar a un taller mecánico.
-- … ver sus fotos.
-- … ver la hora.
+> Ryan ne istiyor?
+- Gina'nın trende yaşamak isteyip istemediğini.
++ Gina'nın trende bir yere gitmek isteyip istemediğini.
+- Gina'nın trenin kaçta geldiğini bilip bilmediğini.
 
 [LINE]
-Speaker127: I  have  a  car~problem.          
-~           yo tengo un problema~con~el~carro 
+Speaker336: OK…  
+~           peki 
 
 [LINE]
-Speaker508: Uh… Sir?  
-~           eh  señor 
+> Gina and Ryan go       to~see  a   house.
+~ ~    ve  ~    giderler bakmaya bir ev    
 
 [LINE]
-> The man    continues talking  on~the~phone.
-~ el  hombre sigue     hablando por~teléfono 
-
-[SELECT_PHRASE]
-> Completa la oración
-Speaker127: No, I  don't~know [where~I~am]. 
-~           no  yo no~sé       dónde~estoy  
-- here I am
-- where I ran
-+ where I am
+Speaker385: This~is my~grandparents'|          house.
+~           burası  büyükanne~ve~büyükbabamın  evi   
 
 [LINE]
-Speaker127: Excuse~me, miss…    
-~           disculpe   señorita 
+Speaker385: But   they  don't~live   here   now.  
+~           Fakat onlar yaşamıyorlar burada şimdi 
+
+[MULTIPLE_CHOICE]
+> Ev, Ryan'ın büyükbabasına ait ama artık orada yaşamıyorlar.
++ Evet, bu doğru.
+- Hayır, bu doğru değil.
 
 [LINE]
-Speaker508: Yes?
-~           sí  
-
-[LINE]
-Speaker127: Where are~we? 
-~           dónde estamos 
-
-[LINE]
-Speaker508: Near~the  auto~repair~shop!
-~           cerca~del taller~mecánico  
-
-[LINE]
-Speaker127: What?
-~           qué  
+Speaker385: It's not   in  the city… 
+~           ~    değil -de ~   şehir 
 
 [ARRANGE]
-> Escucha y selecciona las palabras
-Speaker508: [(I)  (work)    (there) (on~weekends).]        
-~             yo   trabajo   ahí     los~fines~de~semana   
+> İşittiğine dokun
+Speaker385: … [(but) (it's) (near)  (the~train~station)!]
+~               ama   ~      yakın   tren~istasyonuna    
 
 [LINE]
-Speaker508: I'm a~mechanic!    
-~           soy (una)~mecánica 
+Speaker385: There~are four big   rooms.
+~           var       dört büyük odası 
 
 [LINE]
-Speaker508: So…      do~you~need~help?
-~           así~que  necesita~ayuda   
+Speaker385: And there's grass for  a   dog!  
+~           Ve  var     çimen için bir köpek 
+
+[POINT_TO_PHRASE]
+> "Düşünür" anlamına gelen kelimeye tıklayın.
+> (Gina) (+thinks)  (for~a~minute).    
+~  ~       düşünür   bir~dakikalığına  
+
+[LINE]
+Speaker336: Ryan…
+
+[LINE]
+Speaker336: It's perfect! 
+~           bu   mükemmel 
+
+[LINE]
+Speaker336: But we    need            one thing.
+~           ama bizim ihtiyacımız~var bir şeye  
+
+[LINE]
+Speaker385: What?
+~           neye 
+
+[LINE]
+Speaker336: A   dog!   
+~           Bir köpeğe 
 
 [MULTIPLE_CHOICE]
-> Resulta que Lin…
-- … necesita ayuda para comprar un teléfono nuevo.
-- … no sabe dónde está.
-+ … trabaja en el taller mecánico.
+> Ryan ve Gina ne karar verdi?
+- Şehirde pahalı yeni bir daireye taşınmaya.
+- Küçük dairelerinde kalıp, bir köpek almaya.
++ Ryan'ın büyükbabasının şehir dışındaki evine taşınmaya.
 
 [MATCH]
-> Selecciona los pares
-- Excuse me <> disculpe
-- is <> es
-- gives <> le da
-- but <> pero
-- So <> así que
+> Çiftlere dokun
+- a <> bir
+- near <> yakın
+- dog <> köpek
+- OK <> peki
+- here <> burada
 
