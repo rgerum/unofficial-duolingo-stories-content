@@ -1,96 +1,106 @@
 [DATA]
-fromLanguageName=Ayuda con matemáticas
-icon=fb16be061ee25cbd89be9a23e762f04047652d7f
-set=6|4
+fromLanguageName=Uyuyamıyorum!
+icon=0641ff57af041e20c48758333ca7a5e76006d438
+set=6|5
 
 [HEADER]
-> Math~Help            
-~ ayuda~con~matemáticas
+> I~Can't~Sleep
+~ uyuyamıyorum 
 
 [LINE]
-> Junior goes to Zari's~apartment.   
-~ Junior va   al apartamento~de~Zari 
+Speaker856: Robert? Are   you sleeping?
+~           ~       musun sen uyuyor   
 
 [LINE]
-Speaker415: Zari! I  need     help! 
-~           Zari  yo necesito ayuda 
+Speaker361: I'm~not~sleeping now...  
+~           uyumuyorum       şimdi   
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker856: I   [can't~sleep]. 
+~           ben  uyuyamıyorum  
+- could see
+- can't step
++ can't sleep
+
+[LINE]
+Speaker361: Would~you~like a~glass~of warm  milk?
+~           ister~misin    bir~bardak sıcak Süt  
+
+[LINE]
+Speaker856: Robert! You know       I   don't~like milk.
+~           ~       Sen biliyorsun ben sevmiyorum Süt  
+
+[CONTINUATION]
+> Sıradaki ne olabilir?
+Speaker361: Would~you~like to~listen to~musicc]?
+~           ister~misin    dinlemek  müzik      
++ music
+- sleep
+- milk
+
+[LINE]
+Speaker856: We~can't~listen to~music. The baby  is~sleeping.
+~           dinleyemeyiz    müzik     ~   bebek uyuyor      
 
 [MULTIPLE_CHOICE]
-> Junior fue al apartamento de Zari para pedir ayuda.
-- No, no es así.
-+ Sí, así es.
+> Robert ve Rita neden müzik dinleyemiyor?
+- İkisi de müzikten nefret ediyor.
+- Bebekleri ağlıyor.
++ Bebekleri uyuyor.
 
 [LINE]
-Speaker418: What do~you~need?
-~           qué  necesitas   
+Speaker361: Well, we~can~talk   about    the new  paint…
+~           peki  konuşabiliriz hakkında ~   yeni boya  
 
 [LINE]
-Speaker415: Well,  I  have  a  big~math~exam                    tomorrow…
-~           bueno  yo tengo un examen~de~matemáticas~importante mañana   
+Speaker856: OK…   
+~           tamam 
 
 [LINE]
-Speaker415: And I  want   to~play my video~game…
-~           y   yo quiero jugar   mi videojuego 
+Speaker361: We    need            a   new  color for  the~bedroom~walls.       
+~           bizim ihtiyacımız~var bir yeni renge için yatak~odasının~duvarları 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker361: [I~like~gray]!      
+~            ben~griyi~severim  
+- I live gray
+- I like day
++ I like gray
 
 [LINE]
-Speaker415: But  I  need     to~study.
-~           pero yo necesito estudiar 
-
-[MULTIPLE_CHOICE]
-> Junior necesita estudiar matemáticas, pero él preferiría…
-- … estudiar historia.
-+ … jugar un videojuego.
-- … dominar el mundo.
+Speaker856: Yes…  gray…
+~           Evet  gri  
 
 [LINE]
-Speaker418: Math~is             easy.    I  can~help!    
-~           las~matemáticas~son fáciles  yo puedo~ayudar 
-
-[LINE]
-Speaker418: Where is   your math~book?           
-~           dónde está tu   libro~de~matemáticas 
-
-[POINT_TO_PHRASE]
-> Selecciona la opción que significa "mochila".
-Speaker415: (It~is) (in) (my) (+backpack).
-~            está    en   mi    mochila   
-
-[LINE]
-Speaker418: Great!  Where is   your backpack?
-~           genial  dónde está tu   mochila  
+Speaker361: Blue is   nice  too. I~like  light colors.  
+~           Mavi -dir Güzel de   severim açık  renkleri 
 
 [ARRANGE]
-> Escucha y selecciona las palabras
-Speaker415: [(It~is) (at) (my) (school).] 
-~             está    en   mi   escuela   
+> İşittiğine dokun
+Speaker361: [(Which) (color) (do~you~like)?] 
+~             Hangi   rengi   sen~seversin   
 
 [LINE]
-Speaker418: Junior, you do~not~have your book.  How  can~I~help~you?
-~           Junior  tú  no~tienes   tu   libro  cómo puedo~ayudarte 
+Speaker361: Rita? Rita, are   you sleeping?
+~           ~     ~     musun sen uyuyor   
 
 [LINE]
-Speaker415: You can~go    to my school. 
-~           tú  puedes~ir a  mi escuela 
-
-[LINE]
-Speaker415: And you can~get      my book. 
-~           y   tú  puedes~traer mi libro 
-
-[LINE]
-Speaker415: And I  can~play    my video~game!
-~           y   yo puedo~jugar mi videojuego 
+Speaker361: Oh no, now   I   can't~sleep. 
+~           ~  ~   şimdi ben uyuyamıyorum 
 
 [MULTIPLE_CHOICE]
-> ¿Qué es lo que Junior quiere que Zari haga?
-+ que vaya a traer su libro de matemáticas mientras él juega videojuegos
-- que juegue videojuegos con él
-- que le compre una mochila nueva
+> Robert'a ne oldu?
+- Yatak odasının duvarlarını mavi ve griye boyadı.
+- Bebeği uyandırdı ve Rita'yı sinirlendirdi.
++ Rita'nın uyumasına yardım etti ama sonrasında kendisi uyuyamadı.
 
 [MATCH]
-> Selecciona los pares
-- can play <> puedo jugar
-- Where <> dónde
-- to play <> jugar
-- Junior <> Junior
-- my <> mi
+> Çiftlere dokun
+- to music <> müzik
+- color <> renge
+- is <> -dir
+- warm <> sıcak
+- gray <> gri
 
