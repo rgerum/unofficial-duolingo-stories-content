@@ -1,114 +1,141 @@
 [DATA]
-fromLanguageName=Una mala pintura
-icon=12547a4c20bef9c66913ef1a725b6fd4f0c544ea
-set=10|4
+fromLanguageName=Tren Bileti
+icon=1cad8a6eda3c353f9c7c98e338cb8fc3d211644d
+set=10|6
+
+#Imported
 
 [HEADER]
-> Bad      Painting
-~ una~mala pintura 
+> The Train Ticket
+~ ~   Tren  bileti
 
 [LINE]
-> Oscar and his~friend, Lucy, are~sitting    in the park.  
-~ Oscar y   su~amiga    Lucy  están~sentados en el  parque 
+> Layla is   at  a   restaurant.
+~ ~     -dır -da bir restoran   
 
 [LINE]
-> Oscar is~painting     Lucy.
-~ Oscar está~pintando~a Lucy 
-
-[LINE]
-Speaker592: OK,        you can~look~at the painting now!   Do~you~like~it?
-~           está~bien  tú  puedes~ver  la  pintura  ahora  te~gusta       
-
-[LINE]
-> Oscar shows        Lucy the painting.
-~ Oscar le~muestra~a Lucy la  pintura  
+> She talks   to~the~waiter, Matthew.
+~ O   konuşur garsonla       ~       
 
 [MULTIPLE_CHOICE]
-> Oscar le muestra a Lucy una foto de un pescado.
-+ No, no es así.
-- Sí, así es.
+> Layla bir restoranda garsonla konuşuyor.
+- Hayır, bu doğru değil.
++ Evet, bu doğru.
 
 [LINE]
-Speaker509: Why     is~my~hair   blue in the painting?
-~           por~qué mi~pelo~está azul en la  pintura  
+Speaker1715: OK,    I'm~going to the train station   now.  
+~            tamam  gidiyorum -a ~   tren  istasyonu şimdi 
 
 [LINE]
-Speaker592: I  have  a~lot~of blue~paint.  
-~           yo tengo mucha    pintura~azul 
+Speaker526: Where  are~you~traveling?  
+~           nereye seyahat~ediyorsunuz 
 
 [LINE]
-Speaker509: And why     is~my~head   so  big?   
-~           y   por~qué mi~cabeza~es tan grande 
+Speaker1715: Chicago.
 
 [LINE]
-Speaker592: I  don't~know. Ask           your parents.
-~           yo no~sé       pregúntales~a tus  papás   
-
-[MULTIPLE_CHOICE]
-> Oscar le dice a Lucy que…
-- … se pinte el pelo azul.
-+ … le pregunte a sus papás por qué su cabeza es tan grande.
-- … haga un retrato de él.
+Speaker526: Wow! I|'  m~from~Chicago!
+~           ~    ben Chicago'luyum   
 
 [LINE]
-Speaker509: My nose  doesn't~look~like~that.
-~           mi nariz no~se~ve~así           
+Speaker1715: Nice!    
+~            ne~güzel 
 
 [LINE]
-Speaker592: Yes, it~does! You have   a   nice~nose!   
-~           sí   así~es   tú  tienes una nariz~bonita 
+Speaker526: I~really~want       to~visit      my~family…
+~           gerçekten~istiyorum ziyaret~etmek ailemi    
 
 [ARRANGE]
-> Escucha y selecciona las palabras
-Speaker509: [(Yes), (I)  (do~have) (a)   (nice~nose).]   
-~             sí     yo   tengo     una   nariz~bonita   
+> İşittiğine dokun
+Speaker526: [(But)   (tickets)  (are) (too) (expensive).]
+~             Fakat   biletler   ~     çok   pahalı      
 
 [LINE]
-Speaker509: But  it~doesn't~look nice   in the painting.
-~           pero no~se~ve        bonita en la  pintura  
+Speaker1715: I'm~sorry.
+~            üzgünüm   
 
 [LINE]
-Speaker592: Do~you~want the painting or not?
-~           quieres     la  pintura  o  no  
+Speaker526: It's~OK.    
+~           sorun~değil 
 
 [LINE]
-Speaker509: Sorry,     but  no, I  don't~want~it.
-~           lo~siento  pero no  yo no~la~quiero  
-
-[LINE]
-> A  man    stops      and looks~at the painting.
-~ un hombre se~detiene y   mira     la  pintura  
-
-[CONTINUATION]
-> ¿Qué sigue?
-Speaker438: That's           really good!  Can~I~buy~it    for one~hundred [dollars]?
-~           esa~(pintura)~es muy    buena  puedo~comprarla por cien         dólares  
-+ dollars
-~ dólares
-- noses  
-~ narices
-- paintings
-~ pinturas 
-
-[LINE]
-> Lucy takes the painting.
-~ Lucy toma  la  pintura  
-
-[LINE]
-Speaker509: It's my painting, and it's~two~hundred~dollars. 
-~           es   mi pintura   y   cuesta~doscientos~dólares 
+Speaker526: Why   are you~going    to Chicago?
+~           Neden ~   gidiyorsunuz -a ~       
 
 [MULTIPLE_CHOICE]
-> Lucy decidió…
-- … regalar la pintura.
-- … comprar la pintura por 200 dólares.
-+ … vender la pintura y ganar dinero.
+> Matthew ...
+- … Layla'nın yemeği neden pahalıydı, bilmek istiyor.
++ … Layla'nın neden Chicago'ya gideceğini bilmek istiyor.
+- … Layla Chicago'da nerede kalacağını bilmek istiyor.
+
+[LINE]
+Speaker1715: A   job~interview.
+~            Bir iş~görüşmesi  
+
+[MULTIPLE_CHOICE]
+> Layla neden Chicago'ya gidiyor?
++ Bir iş görüşmesi var.
+- Trenle seyahat etmeyi çok sevdiği için.
+- Ailesini ziyaret edecek.
+
+[LINE]
+Speaker1715: But   I~don't~want this job…
+~            Fakat istemiyorum  bu   işi 
+
+[LINE]
+Speaker526: Oh.
+
+[LINE]
+Speaker1715: I~want    to~be here,   near  my~family.
+~            istiyorum olmak burada  yakın aileme    
+
+[LINE]
+Speaker526: Oh.
+
+[LINE]
+Speaker1715: Do~you…~want  my    ticket?  
+~            ister~misiniz benim biletimi 
+
+[LINE]
+Speaker526: What?
+~           Ne   
+
+[LINE]
+Speaker1715: You~can~visit         your~family.
+~            ziyaret~edebilirsiniz ailenizi    
+
+[LINE]
+Speaker526: OK!    Thank~you!      
+~           tamam  teşekkür~ederim 
+
+[POINT_TO_PHRASE]
+> "Yakında" anlamına gelen seçeneği tıklayın.
+Speaker1715: Oh, (but) (the) (train) leaves    (+soon).   
+~            ~    ama   ~     tren   ayrılacak   yakında  
+
+[LINE]
+Speaker1715: And you're~working now.  
+~            Ve  çalışıyorsunuz şu~an 
+
+[LINE]
+Speaker526: No,    it's~OK!    
+~           Hayır  sorun~değil 
+
+[LINE]
+Speaker526: I   also   don't~want  this job!
+~           ben Ayrıca istemiyorum bu   işi 
+
+[MULTIPLE_CHOICE]
+> Layla ne yaptı?
++ Matthew'a tren biletini verdi.
+- Bir restoranda çalışmaya başladı.
+- Matthew ile Chicago'ya gitti.
 
 [MATCH]
-> Selecciona los pares
-- the <> el
-- dollars <> dólares
-- so <> tan
-- man <> hombre
-- really <> muy
+> Çiftlere dokun
+- Do you… want <> ister misiniz
+- But <> Fakat
+- I'm sorry <> üzgünüm
+- She <> O
+- Thank you <> teşekkür ederim
 
