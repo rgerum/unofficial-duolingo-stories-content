@@ -1,118 +1,130 @@
 [DATA]
-fromLanguageName=¡Dos boletos, por favor!
-icon=b8d10ee56171817ff548af825d5065b5561d1482
-set=7|4
+fromLanguageName=Paris'e Ziyaret
+icon=82f278cdb107bead5682d9161323e0ba329af607
+set=7|5
+
+#Imported
 
 [HEADER]
-> Two Tickets Please!   
-~ dos boletos por~favor 
+> Visiting Paris  
+~ Ziyaret  Paris'e
 
 [LINE]
-> Junior is   at the airport.   
-~ Junior está en el  aeropuerto 
+> Carl and Christina are     on  vacation in  Paris.
+~ ~    ve  ~         -dirler -de tatil    -te Paris 
 
 [LINE]
-> He talks~to  the woman at the desk.     
-~ él habla~con la  mujer en el  mostrador 
+Speaker2705: I~don't~want to~go  home.
+~            istemiyorum  gitmek eve  
 
 [LINE]
-Speaker659: Can~I~help~you?
-~           puedo~ayudarte 
+Speaker439: I~know.   
+~           biliyorum 
 
 [LINE]
-Speaker415: I  want   to~buy  a  ticket to   Barcelona.
-~           yo quiero comprar un boleto para Barcelona 
-
-[LINE]
-Speaker659: Where are   your~parents?
-~           dónde están tus~padres   
+Speaker439: I~don't~want to~leave.
+~           istemiyorum  ayrılmak 
 
 [MULTIPLE_CHOICE]
-> Junior es un adulto.
-+ No, no es así.
-- Sí, así es.
+> Carl ve Christina evlerine dönmekten mutlular.
+- Evet, bu doğru.
++ Hayır, bu doğru değil.
 
 [LINE]
-Speaker415: Excuse~me. I'm~not~seven~years~old.       
-~           disculpe   yo~no~tengo~siete~años~de~edad 
+Speaker2705: I~love    Paris!  
+~            seviyorum Paris'i 
 
 [LINE]
-Speaker659: How~old~are~you?    
-~           cuántos~años~tienes 
+Speaker2705: There's a~lot   to~do   here.  
+~            Var     çok~şey yapacak burada 
+
+[LINE]
+Speaker439: Yes. 
+~           Evet 
+
+[LINE]
+Speaker439: I~love    the cafés.   
+~           seviyorum ~   kafeleri 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker2705: [(And) (I~love)    (the) (parks)!]   
+~              Ve    seviyorum   ~     parkları   
+
+[LINE]
+Speaker439: I~want    to~eat French~bread     every day!
+~           istiyorum yemek  Fransız~ekmeğini her   gün 
+
+[LINE]
+Speaker2705: We    need  to~go    to the airport    now…  
+~            bizim lazım gitmemiz -a ~   havalimanı şimdi 
+
+[LINE]
+Speaker2705: Christina, I     have an  idea…  
+~            ~          benim var  bir fikrim 
+
+[LINE]
+Speaker2705: Do~you~want to~live in~Paris?
+~            ister~misin yaşamak Paris'te 
+
+[LINE]
+Speaker439: But   we    have a   house  and jobs…  
+~           Fakat bizim var  bir evimiz ve  işimiz 
 
 [SELECT_PHRASE]
-> Completa la oración
-Speaker415: I'm~eight  [years~old].   
-~           tengo~ocho  años~de~edad  
-+ years old
-- you sold
-- you're old
+> Eksik kısmı seç
+Speaker2705: [We~can~live]   and work        here!  
+~             yaşayabiliriz  ve  çalışabilir burada 
++ We can live
+- We can leave
+- They can be
 
 [LINE]
-Speaker659: A  ticket to   Barcelona is~four~hundred~dollars.     
-~           un boleto para Barcelona cuesta~cuatrocientos~dólares 
+Speaker439: Really?      
+~           Gerçekten~mi 
 
 [LINE]
-Speaker415: OK…        Where  can~I~go for thirteen dollars?
-~           está~bien  adónde puedo~ir por trece    dólares 
-
-[MULTIPLE_CHOICE]
-> ¡Ay no! ¿Por qué Junior no puede ir a Barcelona?
-+ Él solamente tiene trece dólares.
-- A él le da miedo volar en avión.
-- El vuelo ya está lleno.
-
-[LINE]
-> Junior's~dad,      Eddy, runs  to~the desk.     
-~ el~papá~de~Junior  Eddy  corre al     mostrador 
-
-[LINE]
-Speaker414: Junior! There you~are! What are~you~doing  at the airport?   
-~           Junior  allí  estás    qué  estás~haciendo en el  aeropuerto 
+Speaker2705: My~friend   has a   restaurant in~Paris…
+~            arkadaşımın var bir restoranı  Paris'te 
 
 [POINT_TO_PHRASE]
-> Selecciona la opción que significa "examen de matemáticas".
-Speaker415: I  have  a  (+math~test)             (today). I  need     (to~leave~the) (country).
-~           yo tengo un   examen~de~matemáticas   hoy     yo necesito  salir~del      país     
+> "Garsonlar" anlamına gelen seçeneği seçin.
+Speaker2705: (And) (she)  (needs)        (+waiters)!   
+~             Ve    onun   ihtiyacı~var    garsonlara  
 
 [LINE]
-Speaker414: OK.        How~much~is   the ticket?
-~           está~bien  cuánto~cuesta el  boleto 
-
-[LINE]
-Speaker415: Four~hundred  dollars.
-~           cuatrocientos dólares 
-
-[CONTINUATION]
-> ¿Qué sigue?
-Speaker414: How~much~are   [two tickets]?
-~           cuánto~cuestan  dos boletos  
-+ two tickets
-~ dos boletos
-- eight years~old   
-~ ocho  años~de~edad
-- math~tests             
-~ exámenes~de~matemáticas
-
-[LINE]
-Speaker415: Eight~hundred dollars.
-~           ochocientos   dólares 
-
-[LINE]
-Speaker414: Right!    You're  great     at math!        Now   go to school.    
-~           correcto  tú~eres buenísimo en matemáticas  ahora ve a  la~escuela 
+Speaker439: Are~you~sure?
+~           emin~misin   
 
 [MULTIPLE_CHOICE]
-> ¿Por qué Junior quería comprar un boleto a Barcelona?
-+ Él no quería hacer el examen de matemáticas.
-- Él quería sorprender a su papá con unas vacaciones.
-- Él quería ver la arquitectura.
+> Christina ne diyor?
++ Emin misin ?
+- Evde misin ?
+- Mutlu musun ?
+
+[LINE]
+Speaker2705: Yes! 
+~            Evet 
+
+[LINE]
+Speaker439: We|' re~going~to~live in~Paris!
+~           Biz yaşayacağız       Paris'te 
+
+[LINE]
+Speaker439: I'm so  happy!   
+~           Ben çok mutluyum 
+
+[MULTIPLE_CHOICE]
+> Christina ve Carl ...
+- … Bir restoran satın almaya karar verdiler.
+- … Her hafta sonu Paris'e gitmeye karar verdiler.
++ … Paris'te yaşamaya karar verdiler.
 
 [MATCH]
-> Selecciona los pares
-- school <> la escuela
-- can I go <> puedo ir
-- Junior <> Junior
-- How much are <> cuánto cuestan
-- a <> un
+> Çiftlere dokun
+- Really <> Gerçekten mi
+- she <> onun
+- I know <> biliyorum
+- happy <> mutluyum
+- airport <> havalimanı
 
