@@ -1,114 +1,116 @@
 [DATA]
-fromLanguageName=Una mala pintura
-icon=12547a4c20bef9c66913ef1a725b6fd4f0c544ea
-set=10|4
+fromLanguageName=Garip Bir Gürültü
+icon=21138fac4fa22d97330dc25cec4b68dcda9abc13
+set=10|5
+
+#Imported
 
 [HEADER]
-> Bad      Painting
-~ una~mala pintura 
+> A   Strange Noise  
+~ Bir Garip   gürültü
 
 [LINE]
-> Oscar and his~friend, Lucy, are~sitting    in the park.  
-~ Oscar y   su~amiga    Lucy  están~sentados en el  parque 
+> Ben is   in  his~bedroom    at~night.
+~ ~   -dır -da yatak~odasında gece     
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+> He [hears~a~noise].    
+~ O   duyar~bir gürültü  
+- hear noisy
+- hears noses
++ hears a noise
 
 [LINE]
-> Oscar is~painting     Lucy.
-~ Oscar está~pintando~a Lucy 
+Speaker236: What~is that noise?  
+~           nedir   bu   gürültü 
 
 [LINE]
-Speaker592: OK,        you can~look~at the painting now!   Do~you~like~it?
-~           está~bien  tú  puedes~ver  la  pintura  ahora  te~gusta       
-
-[LINE]
-> Oscar shows        Lucy the painting.
-~ Oscar le~muestra~a Lucy la  pintura  
+Speaker236: It's coming  from the garden…
+~           bu   geliyor -den ~   Bahçe  
 
 [MULTIPLE_CHOICE]
-> Oscar le muestra a Lucy una foto de un pescado.
-+ No, no es así.
-- Sí, así es.
+> Ben, mutfaktan bir ses geldiğini düşünüyor.
+- Evet, bu doğru.
++ Hayır, bu yanlış.
 
 [LINE]
-Speaker509: Why     is~my~hair   blue in the painting?
-~           por~qué mi~pelo~está azul en la  pintura  
+> He walks to the window  and listens.
+~ O  yürür -e ~   pencere ve  dinler  
 
 [LINE]
-Speaker592: I  have  a~lot~of blue~paint.  
-~           yo tengo mucha    pintura~azul 
-
-[LINE]
-Speaker509: And why     is~my~head   so  big?   
-~           y   por~qué mi~cabeza~es tan grande 
-
-[LINE]
-Speaker592: I  don't~know. Ask           your parents.
-~           yo no~sé       pregúntales~a tus  papás   
-
-[MULTIPLE_CHOICE]
-> Oscar le dice a Lucy que…
-- … se pinte el pelo azul.
-+ … le pregunte a sus papás por qué su cabeza es tan grande.
-- … haga un retrato de él.
-
-[LINE]
-Speaker509: My nose  doesn't~look~like~that.
-~           mi nariz no~se~ve~así           
-
-[LINE]
-Speaker592: Yes, it~does! You have   a   nice~nose!   
-~           sí   así~es   tú  tienes una nariz~bonita 
+Speaker236: Hello?
+~           Selam 
 
 [ARRANGE]
-> Escucha y selecciona las palabras
-Speaker509: [(Yes), (I)  (do~have) (a)   (nice~nose).]   
-~             sí     yo   tengo     una   nariz~bonita   
+> İşittiğine dokun
+Speaker236: [(Who) (is)  (there)?]
+~             kim   var   Orada   
 
 [LINE]
-Speaker509: But  it~doesn't~look nice   in the painting.
-~           pero no~se~ve        bonita en la  pintura  
+Speaker236: I~can~hear    you! 
+~           duyabiliyorum seni 
 
 [LINE]
-Speaker592: Do~you~want the painting or not?
-~           quieres     la  pintura  o  no  
+Speaker236: I     have a   big   dog   in~here with~me!
+~           benim var  bir büyük köpek burada  benimle 
 
 [LINE]
-Speaker509: Sorry,     but  no, I  don't~want~it.
-~           lo~siento  pero no  yo no~la~quiero  
+> Ben hears more       noises. 
+~ ~   duyar daha~fazla gürültü 
 
 [LINE]
-> A  man    stops      and looks~at the painting.
-~ un hombre se~detiene y   mira     la  pintura  
-
-[CONTINUATION]
-> ¿Qué sigue?
-Speaker438: That's           really good!  Can~I~buy~it    for one~hundred [dollars]?
-~           esa~(pintura)~es muy    buena  puedo~comprarla por cien         dólares  
-+ dollars
-~ dólares
-- noses  
-~ narices
-- paintings
-~ pinturas 
-
-[LINE]
-> Lucy takes the painting.
-~ Lucy toma  la  pintura  
-
-[LINE]
-Speaker509: It's my painting, and it's~two~hundred~dollars. 
-~           es   mi pintura   y   cuesta~doscientos~dólares 
+Speaker236: I'm~going~to~call the police!
+~           arayacağım        ~   polisi 
 
 [MULTIPLE_CHOICE]
-> Lucy decidió…
-- … regalar la pintura.
-- … comprar la pintura por 200 dólares.
-+ … vender la pintura y ganar dinero.
+> Ben ne diyor?
+- Polisin geldiğini duydu.
+- Polisi dinleyecek.
++ Polisi arayacak.
+
+[LINE]
+> Then,  he hears something different.
+~ Sonra  o  duyar bir~şey   farklı    
+
+[LINE]
+Speaker58: Woof!
+
+[CONTINUATION]
+> Cümlenin sonu nedir?
+Speaker236: Oh, it's [the dog]!  
+~           ~   bu    ~   köpek  
+- … the cow.
++ … the dog.
+-  … the bird.
+
+[LINE]
+Speaker236: Come in here,   Martin!
+~           Gel  ~  buraya  ~      
+
+[LINE]
+Speaker236: Why   are you in~the~garden?
+~           Neden ~   sen bahçedesin    
+
+[LINE]
+> Ben opens the door   and his~dog     walks~in.   
+~ ~   açar  ~   kapıyı ve  onun~köpeği içeri~girer 
+
+[LINE]
+Speaker236: You   need  to~be in  the house… you're my    guard~dog!       
+~           senin lazım olman -de ~   ev     sen    benim bekçi~köpeğimsin 
+
+[MULTIPLE_CHOICE]
+> Ben köpeğinden ...
++ … Onu korumak için içeride kalmasını istiyor.
+- … Dışarıda kalmasını istiyor.
+- … Korktuğu için gitmesini istiyor.
 
 [MATCH]
-> Selecciona los pares
-- the <> el
-- dollars <> dólares
-- so <> tan
-- man <> hombre
-- really <> muy
+> Çiftlere dokun
+- Then <> Sonra
+- here <> buraya
+- dog <> köpek
+- you're <> sen
+- in <> -da
 
