@@ -1,116 +1,113 @@
 [DATA]
-fromLanguageName=Una cena familiar
-icon=076bc5bf725308c211b9c04f07d3622683e84d78
-set=8|4
+fromLanguageName=Favori Öğle Yemeği
+icon=7118252e70f96bc0ffa531032ec8c2efaf043e7b
+set=8|6
+
+#Imported
 
 [HEADER]
-> Family~Dinner      
-~ (una)~cena~familiar
+> Favorite Lunch      
+~ Favori   Öğle~yemeği
 
 [LINE]
-> Lin walks~into Bea's~kitchen.   
-~ Lin entra~a    la~cocina~de~Bea 
+> Juan and Rebecca are  at  a   restaurant.
+~ ~    ve  ~       -dır -da bir restoran   
 
 [LINE]
-> She  sees food   and bottles  of wine on the table.
-~ ella ve   comida y   botellas de vino en la  mesa  
+Speaker338: I   usually eat   lunch         at  my~desk…
+~           ben genelde yerim öğle~yemeğini -da masam   
+
+[LINE]
+Speaker338: … but   this menu looks     delicious!
+~             fakat bu   menü görünüyor lezzetli  
 
 [MULTIPLE_CHOICE]
-> Bea tiene botellas de leche en la mesa de su cocina.
-- Sí, así es.
-+ No, no es así.
+> Rebecca genellikle öğle yemeğini restoranda yer.
+- Evet, bu doğru.
++ Hayır, bu doğru değil.
 
 [LINE]
-Speaker508: Wow,  you have   a~lot~of food.  
-~           guau  tú  tienes mucha    comida 
+Speaker440: Yes!  This~is my    favorite place for  lunch!      
+~           Evet  burası  benim favori   yerim için öğle~yemeği 
 
 [LINE]
-Speaker507: Yeah. My family  is~coming for~dinner.
-~           sí    mi familia viene     a~cenar    
+Speaker338: Hmm… I   want      a   burger with fries…   
+~           ~    ben istiyorum bir burger ile  kızartma 
 
 [LINE]
-Speaker508: Ooh, can~I~have  some       cake?  
-~           ah   puedo~comer un~poco~de pastel 
+Speaker440: The burgers are very~good here!  
+~           ~   burger  ~   çok~güzel burada 
 
 [LINE]
-Speaker507: No.
-~           no 
-
-[LINE]
-Speaker508: But  you have   three cakes.   
-~           pero tú  tienes tres  pasteles 
-
-[ARRANGE]
-> Escucha y selecciona las palabras
-Speaker507: [(I)  (need)     (three) (cakes).]   
-~             yo   necesito   tres    pasteles   
-
-[LINE]
-Speaker508: Well,  can~I~have  a  glass of wine?
-~           bueno  puedo~beber un vaso  de vino 
-
-[LINE]
-Speaker507: No.
-~           no 
-
-[LINE]
-Speaker508: You have   four   bottles  of wine.
-~           tú  tienes cuatro botellas de vino 
-
-[LINE]
-Speaker507: I  need     all~of~the wine.
-~           yo necesito todo~el    vino 
+Speaker338: What are you eating?  
+~           Ne   ~   sen yiyorsun 
 
 [POINT_TO_PHRASE]
-> Selecciona la opción que significa "rebanada".
-Speaker508: Can~I~have  (a)   (+slice)    (of) (pizza)?
-~           puedo~comer  una    rebanada   de   pizza  
+> "Şey" anlamına gelen seçeneğe tıklayın.
+Speaker440: (The) (same) (+thing) I     (usually) eat.    
+~            ~     aynı    şeyle  benim  genelde  yediğim 
 
 [LINE]
-Speaker507: No, Lin.
-~           no  Lin 
+Speaker338: What do you usually eat?   
+~           Ne   ~  sen genelde yersin 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker440: [(A)   (burger) (with~no~meat) (and) (no~fries).]   
+~             Bir   burger   etsiz          ve    kızartmasız   
 
 [LINE]
-Speaker508: Fine. So,      what~time  is dinner  with your family  tonight?   
-~           bien  así~que  a~qué~hora es la~cena con  tu   familia esta~noche 
+Speaker338: OK…    only   bread?   
+~           tamam  sadece ekmek~mi 
 
 [LINE]
-Speaker507: Oh, my family  is~visiting     next       week.  
-~           ah  mi familia viene~de~visita la~próxima semana 
+Speaker440: No,    I~don't~like bread!
+~           Hayır  sevmem       ekmek 
+
+[LINE]
+Speaker440: But I~like  lettuce and tomatoes.
+~           ama severim marul   ve  domatesi 
 
 [MULTIPLE_CHOICE]
-> Espera… ¿cuándo va a venir a cenar la familia de Bea?
-- el próximo año
-+ la próxima semana
-- esta noche
+> Juan neyi sever?
++ Marul ve domates.
+- Marul ve ekmek.
+- Ekmek ve domates.
 
 [LINE]
-Speaker507: This~is~all  for  me.
-~           todo~esto~es para mí 
+Speaker440: My    favorite lunch        is   a   burger…
+~           Benim favori   öğle~yemeğim -dir bir burger 
+
+[CONTINUATION]
+> Sıradaki ne olabilir?
+Speaker440: … with~no meat, no   bread, and a~lot~of [lettuce and tomatoes]!
+~             -siz    et    -siz ekmek  ve  bolca     marul   ve  domates   
+- lunch
+- hamburger
++ lettuce and tomatoes
 
 [LINE]
-Speaker508: What?!
-~           qué   
+Speaker338: Juan…
 
 [LINE]
-Speaker507: I  have  a   very~difficult~family! I'm   stressed! 
-~           yo tengo una familia~muy~difícil    estoy estresada 
+Speaker440: Yes? 
+~           Evet 
 
 [LINE]
-Speaker507: I  need     all~of~this food   and wine now.  
-~           yo necesito toda~esta   comida y   vino ahora 
+Speaker338: That is   a   salad! 
+~           Bu   -dır bir salata 
 
 [MULTIPLE_CHOICE]
-> ¿Por qué Bea necesita tanta comida y vino?
-- Ella le va a dar todo a Lin.
-+ Su familia la estresa.
-- Su mamá tiene mucha hambre.
+> Rebecca neden gülüyor?
++ Juan'ın karmaşık düzeni sadece bir salata içindi.
+- Juan vejetaryen ama hamburger yediği için.
+- Juan restorandan sadece ekmek istediği için.
 
 [MATCH]
-> Selecciona los pares
-- the <> la
-- have <> tienes
-- Well <> bueno
-- a <> un
-- is <> es
+> Çiftlere dokun
+- for <> için
+- a lot of <> bolca
+- with no <> -siz
+- is <> -dir
+- very good <> çok güzel
 
