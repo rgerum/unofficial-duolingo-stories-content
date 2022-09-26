@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=El pastel
+icon=4a31a2e8269bfd907d862c44a3b320899c169419
+set=18|2
+
+[HEADER]
+> The Cake  
+~ el  pastel
+
+[LINE]
+> Lin goes to her~kitchen. She  looks in the fridge.      
+~ Lin va   a  su~cocina    ella mira  en el  refrigerador 
+
+[LINE]
+Speaker508: Where is   my~cake?  
+~           dónde está mi~pastel 
+
+[LINE]
+> Lin sees   her~grandmother, Lucy, at the table.
+~ Lin ve~(a) su~abuela        Lucy  en la  mesa  
+
+[LINE]
+Speaker508: Grandma, what did~you~just~eat?
+~           abuela   qué  acabas~de~comer  
+
+[LINE]
+> Lucy hides   her~plate.
+~ Lucy esconde su~plato  
+
+[MULTIPLE_CHOICE]
+> Lucy está tratando de esconder su plato para que Lin no lo vea.
+- No, no es así.
++ Sí, así es.
+
+[LINE]
+Speaker509: Uhhh… a  sandwich!
+~           ~     un sándwich 
+
+[LINE]
+Speaker508: I  can't~find   my cake.  
+~           yo no~encuentro mi pastel 
+
+[LINE]
+Speaker509: That's strange. What~does~it~look~like?
+~           eso~es extraño  cómo~se~ve             
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker508: [(It's) (a)  (very~small~cake).]   
+~             es     un   pastel~muy~pequeño   
+
+[LINE]
+Speaker509: Are~there oranges  on the cake?  
+~           hay       naranjas en el  pastel 
+
+[LINE]
+Speaker508: Yes! There~are a~lot~of oranges  on the cake.  
+~           sí   hay       muchas   naranjas en el  pastel 
+
+[LINE]
+Speaker509: Is~your~cake yellow?  
+~           tu~pastel~es amarillo 
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker508: Yes! My cake   [is yellow]!  
+~           sí   mi pastel  es amarillo  
+- is red 
+~ es rojo
+- is very large 
+~ es muy  grande
++ is yellow  
+~ es amarillo
+
+[LINE]
+Speaker509: Is~your~cake very, very delicious?
+~           tu~pastel~es muy   muy  delicioso 
+
+[LINE]
+Speaker508: Grandma! Did~you~eat   my cake?!  
+~           abuela   tú~te~comiste mi pastel  
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker509: No! I  [didn't~eat~it]!
+~           no  yo  no~me~lo~comí  
+- did need it
++ didn't eat it
+- didn't read it
+
+[LINE]
+Speaker508: OK.        Sorry.     I'll~make      another… chocolate~cake.     
+~           está~bien  lo~siento  yo~voy~a~hacer otro     pastel~de~chocolate 
+
+[LINE]
+Speaker509: Chocolate? But  your~cake was      vanilla! 
+~           chocolate  pero tu~pastel era~(de) vainilla 
+
+[LINE]
+Speaker508: Ha! Yes, it~was vanilla!  You did~eat       my cake!  
+~           ja  sí   era~de vainilla  tú  sí~te~comiste mi pastel 
+
+[MULTIPLE_CHOICE]
+> ¿Cómo descubrió Lin que Lucy se había comido su pastel?
+- Ella encontró el plato de Lucy.
+- Lucy tenía pastel en su cara.
++ Ella sabía de qué sabor era el pastel.
+
+[MATCH]
+> Selecciona los pares
+- goes <> va
+- table <> mesa
+- can't find <> no encuentro
+- is <> está
+- sandwich <> sándwich
+
