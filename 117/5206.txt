@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=En el supermercado
+icon=9f4968b6294916f0d8c9f64c8a172ef8c0c368ef
+set=6|1
+
+[HEADER]
+> At the Supermarket 
+~ en el  supermercado
+
+[LINE]
+> Lin and Bea are   at the supermarket. 
+~ Lin y   Bea están en el  supermercado 
+
+[LINE]
+Speaker508: I  do~not~want to~cook dinner. 
+~           yo no~quiero   cocinar la~cena 
+
+[MULTIPLE_CHOICE]
+> Lin está ansiosa por preparar la cena.
++ No, no es así.
+- Sí, así es.
+
+[LINE]
+Speaker507: Cooking is fun,       Lin!
+~           cocinar es divertido  Lin 
+
+[LINE]
+Speaker508: I'm   tired!  
+~           estoy cansada 
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker508: Do~you~want to~eat [at a  restaurant]? 
+~           quieres     comer   en un restaurante  
++ at a  restaurant 
+~ en un restaurante
+- the supermarket 
+~ el  supermercado
+- my clothes
+~ mi ropa   
+
+[LINE]
+Speaker507: No, I  really    want   to~cook!
+~           no  yo de~verdad quiero cocinar 
+
+[LINE]
+Speaker508: Ugh, OK.        What do~we~need  for  dinner? 
+~           agh  está~bien  qué  necesitamos para la~cena 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker507: First,   [we~need~rice]!     
+~           primero   necesitamos~arroz  
+- we read nice
+- we eat rice
++ we need rice
+
+[LINE]
+> They  look~for the rice. 
+~ ellas buscan   el  arroz 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker508: [(Here) (is)   (the) (rice).] 
+~             aquí   está   el    arroz   
+
+[LINE]
+Speaker507: And we       need        beans    too.    
+~           y   nosotras necesitamos frijoles también 
+
+[LINE]
+> They  look~for the beans.   
+~ ellas buscan   los frijoles 
+
+[LINE]
+Speaker507: OK!        Here are   the beans!   
+~           está~bien  aquí están los frijoles 
+
+[LINE]
+Speaker507: And we       need        a~lot~of vegetables.
+~           y   nosotras necesitamos muchos   vegetales  
+
+[LINE]
+Speaker508: And milk. 
+~           y   leche 
+
+[LINE]
+Speaker507: And fruit...
+~           y   fruta   
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "cosas".
+Speaker508: (We)       (need)        (a~lot~of) (+things).
+~            nosotras   necesitamos   muchas      cosas   
+
+[LINE]
+Speaker507: Yes... And I'm   very tired   now.  
+~           sí     y   estoy muy  cansada ahora 
+
+[LINE]
+Speaker508: Do~you~want to~eat at a  restaurant? 
+~           quieres     comer  en un restaurante 
+
+[LINE]
+Speaker507: Ooh! Yes!
+~           ah   sí  
+
+[MULTIPLE_CHOICE]
+> ¿Por qué Bea accedió a comer en un restaurante?
++ Ella estaba demasiado cansada para cocinar.
+- En el supermercado no tenían arroz.
+- El supermercado estaba cerrado.
+
+[MATCH]
+> Selecciona los pares
+- No <> no
+- They <> ellas
+- Do you want <> quieres
+- really <> de verdad
+- and <> y
+
