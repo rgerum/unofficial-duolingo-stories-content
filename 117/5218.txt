@@ -1,0 +1,117 @@
+[DATA]
+fromLanguageName=¿Dónde están mis llaves?
+icon=3f21c887f044dc2ac0d1f0d0ea74e1200b587ac2
+set=11|4
+
+[HEADER]
+> Where Are   My  Keys?  
+~ dónde están mis llaves 
+
+[LINE]
+> Lin is   with her grandmother, Lucy.
+~ Lin está con  su  abuela       Lucy 
+
+[LINE]
+Speaker509: We       have    a   reservation at a  nice   restaurant  tonight!   
+~           nosotras tenemos una reserva     en un bonito restaurante esta~noche 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker509: But  we       need        [to~leave~now]!
+~           pero nosotras necesitamos  irnos~ahora   
+- to read now
+- to leave out
++ to leave now
+
+[LINE]
+Speaker508: OK!       
+~           está~bien 
+
+[LINE]
+Speaker508: Uh-oh… I  can't~find         the keys~to   my motorcycle. 
+~           UH~oh  yo no~puedo~encontrar las llaves~de mi motocicleta 
+
+[LINE]
+Speaker509: You always  put   your keys   in strange~places.  
+~           tú  siempre pones tus  llaves en lugares~extraños 
+
+[MULTIPLE_CHOICE]
+> ¿Qué es lo más probable que ocurra después?
++ Lin buscará sus llaves en lugares extraños.
+- Lin y Lucy irán al restaurante montando a caballo.
+- Lucy se va a ir sin Lin.
+
+[LINE]
+Speaker509: Are~they in your jacket?  
+~           están    en tu   chaqueta 
+
+[LINE]
+> Lin looks in her jacket.  
+~ Lin mira  en su  chaqueta 
+
+[LINE]
+Speaker508: No, they're~not in my jacket.  
+~           no  no~están    en mi chaqueta 
+
+[LINE]
+Speaker509: Are~the~keys     under     the bed? 
+~           las~llaves~están debajo~de la  cama 
+
+[LINE]
+Speaker508: No, the keys   aren't   there!
+~           no  las llaves no~están ahí   
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker509: [(Are~they) (in) (the) (shower)?]
+~             están      en   la    ducha    
+
+[LINE]
+Speaker508: No, that's too       strange.
+~           no  eso~es demasiado extraño 
+
+[LINE]
+Speaker508: I  don't~know where the~keys~are.     Can~we~call      a  taxi?
+~           yo no~sé      dónde están~las~llaves  podemos~llamar~a un taxi 
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker509: No, we're~late         now.   We       can't~go      to [the restaurant]. 
+~           no  estamos~retrasadas ahora  nosotras no~podemos~ir a   el  restaurante  
+- the beach
+~ la  playa
+- the movie~theater
+~ el  cine         
++ the restaurant 
+~ el  restaurante
+
+[LINE]
+Speaker508: I'm~sorry.
+~           lo~siento 
+
+[LINE]
+Speaker509: That's~OK. I  can~cook      dinner. 
+~           está~bien  yo puedo~cocinar la~cena 
+
+[LINE]
+> Lucy opens the refrigerator and looks inside. 
+~ Lucy abre  el  refrigerador y   mira  adentro 
+
+[LINE]
+Speaker509: Oh! Here are   your keys!  
+~           ah  aquí están tus  llaves 
+
+[MULTIPLE_CHOICE]
+> ¡Finalmente! Las llaves de Lin estaban en…
+- … su carro.
++ … el refrigerador.
+- … sus zapatos.
+
+[MATCH]
+> Selecciona los pares
+- jacket <> chaqueta
+- Oh <> ah
+- I <> yo
+- Are they <> están
+- keys to <> llaves de
+
