@@ -1,0 +1,103 @@
+[DATA]
+fromLanguageName=Una carta de amor
+icon=4ba2733ddb8bdc3f0924c6463da01f5d1eccaf40
+set=17|4
+
+[HEADER]
+> Love~Letter        
+~ (una)~carta~de~amor
+
+[LINE]
+> Zari is~babysitting    her~neighbor, Junior. They  are   at the library.   
+~ Zari está~cuidando~(a) su~vecino     Junior  ellos están en la  biblioteca 
+
+[LINE]
+Speaker418: What are~you~doing,  Junior?
+~           qué  estás~haciendo  Junior 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker415: Um… [I'm~writing~a~letter].       
+~           um   estoy~escribiendo~una~carta  
++ I'm writing a letter
+- I'm riding it better
+- I'm writing to let her
+
+[LINE]
+Speaker418: Who~are~you~writing~to?      
+~           a~quién~le~estás~escribiendo 
+
+[LINE]
+Speaker415: Well,  it's for  a   girl…  I~like~her    a~lot.
+~           bueno  es   para una chica  ella~me~gusta mucho 
+
+[LINE]
+Speaker418: Ooh! Is~it a   love~letter?   Is~it for  a   girl  in your~class?
+~           ay   es    una carta~de~amor  es    para una chica en tu~clase   
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "adolescente".
+Speaker415: (No)… (She's)   (a)   (+teenager).   
+~            no    ella~es   una    adolescente  
+
+[LINE]
+Speaker418: A   teenager?    Like me?
+~           una adolescente  como yo 
+
+[LINE]
+Speaker415: Yes. She's   my… neighbor.
+~           sí   ella~es mi  vecina   
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker418: [Wait~a~minute].    She's   a   teenager    and she's   your~neighbor?
+~            espera~un~minuto   ella~es una adolescente y   ella~es tu~vecina     
+- Late a minute
++ Wait a minute
+- Way to win it
+
+[LINE]
+Speaker415: Um… yes.
+~           um  sí  
+
+[LINE]
+Speaker418: Hmm… And is~she  very smart?      
+~           mmm  y   ella~es muy  inteligente 
+
+[LINE]
+Speaker415: Yes!
+~           sí  
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker418: Aw Junior! You love~me? Sorry,     but  you're  [too       young for  me].
+~           ay Junior  tú  me~amas  lo~siento  pero tú~eres  demasiado joven para mí  
+- a  teenager   
+~ un adolescente
+- a   love~letter  
+~ una carta~de~amor
++ too       young for  me
+~ demasiado joven para mí
+
+[LINE]
+Speaker415: No! I  don't~love~you… I  love    your~best~friend, Lily!
+~           no  yo no~te~amo~a~ti  yo amo~(a) tu~mejor~amiga    Lily 
+
+[LINE]
+Speaker415: Can~you~give~her my letter?
+~           le~puedes~dar    mi carta  
+
+[MULTIPLE_CHOICE]
+> Zari pensaba que Junior le estaba escribiendo una carta de amor a ella, pero en realidad…
+- … él estaba haciendo su tarea.
++ … la carta era para Lily.
+- … él estaba escribiendo un libro sobre el amor.
+
+[MATCH]
+> Selecciona los pares
+- it's <> es
+- What <> qué
+- a <> una
+- Lily <> Lily
+- No <> no
+
