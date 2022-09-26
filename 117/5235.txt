@@ -1,0 +1,133 @@
+[DATA]
+fromLanguageName=Dibujando en el parque
+icon=96fd9b652456a41bca2912838b14cb5bd9f7827a
+set=15|4
+
+[HEADER]
+> Drawing   in the Park  
+~ dibujando en el  parque
+
+[LINE]
+> Lucas goes to~the park   with his dog   every~day.     
+~ Lucas va   al     parque con  su  perro todos~los~días 
+
+[LINE]
+> And, every~day,      he sees Lily drawing   in the park.  
+~ y    todos~los~días  él ve~a Lily dibujando en el  parque 
+
+[LINE]
+> One day, he decides to~talk~to her. 
+~ un  día  él decide  hablar~con ella 
+
+[LINE]
+Speaker1321: Hello!
+~            hola  
+
+[LINE]
+Speaker416: Uh, hi.  
+~           eh  hola 
+
+[LINE]
+Speaker1321: Can~I~ask~you~a~question?  
+~            puedo~hacerte~una~pregunta 
+
+[LINE]
+Speaker416: What?
+~           qué  
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker1321: I  see~you drawing   [every~day]…     
+~            yo te~veo  dibujando  todos~los~días  
++ every~day     
+~ todos~los~días
+- in the lake
+~ en el  lago
+- on my  shoes  
+~ en mis zapatos
+
+[LINE]
+Speaker416: Yes…
+~           sí  
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker1321: [(What~do~you)      (usually)    (draw)?]   
+~              qué~es~lo~que~tú   usualmente   dibujas   
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker416: [A~lot~of~things].
+~            muchas~cosas     
++ A lot of things
+- A loud thing
+- A lot of signing
+
+[LINE]
+Speaker416: I  draw   things that I  think    are interesting  or beautiful.
+~           yo dibujo cosas  que  yo creo~que son interesantes o  hermosas  
+
+[LINE]
+Speaker1321: Cool!  
+~            genial 
+
+[LINE]
+Speaker1321: What are~you~drawing now?  
+~            qué  estás~dibujando ahora 
+
+[LINE]
+Speaker416: I…  don't~want to~tell~you…
+~           yo  no~quiero  decírtelo   
+
+[LINE]
+Speaker1321: Why?    
+~            por~qué 
+
+[MULTIPLE_CHOICE]
+> Lucas quiere saber por qué…
++ … Lily no quiere decir qué es lo que está dibujando.
+- … hay tantas personas en el parque.
+- … Lily está dibujando con sus dientes.
+
+[LINE]
+Speaker416: Well,  you come   to~the park   every~day…     
+~           bueno  tú  vienes al     parque todos~los~días 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker1321: Oh! Are~you [drawing~a~picture]  of me?
+~            ah  estás    haciendo~un~dibujo  de mí 
+- draw on a picture
+- drawn in pictures
++ drawing a picture
+
+[LINE]
+Speaker1321: Umm, well…  I  think    you're  beautiful too!    
+~            mmm  bueno  yo creo~que tú~eres hermosa   también 
+
+[LINE]
+Speaker416: Uh, no… I'm~not~drawing~you.      
+~           eh  no  no~estoy~dibujándote~a~ti 
+
+[LINE]
+Speaker1321: Oh…
+~            ah 
+
+[LINE]
+Speaker416: I'm~drawing       your dog.   He's  beautiful. Look!
+~           estoy~dibujando~a tu   perro  él~es hermoso    mira 
+
+[MULTIPLE_CHOICE]
+> Lucas creía que…
+- … Lily tenía poderes mágicos.
++ … Lily estaba haciendo un dibujo de él.
+- … su perro se había escapado.
+
+[MATCH]
+> Selecciona los pares
+- you <> tú
+- day <> día
+- of <> de
+- are you drawing <> estás dibujando
+- with <> con
+
