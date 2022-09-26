@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=¡Un café, por favor!
+icon=221d57fa97fa27260e9dd5ad3457870d033f291a
+set=5|3
+
+[HEADER]
+> Coffee,  Please!   
+~ un~café  por~favor 
+
+[LINE]
+> Eddy is   in a  restaurant  with his son,  Junior.
+~ Eddy está en un restaurante con  su  hijo  Junior 
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "hoy".
+Speaker386: (Hi),   (Eddy)! (What) do~you~want (+today)?
+~            hola    Eddy    qué   quieres       hoy    
+
+[LINE]
+Speaker414: I  want   a   big~cup     of coffee, please.   
+~           yo quiero una taza~grande de café    por~favor 
+
+[LINE]
+Speaker386: Great!  Do~you~want milk  in the coffee?
+~           genial  tú~quieres  leche en el  café   
+
+[LINE]
+Speaker414: Yes, please!   
+~           sí   por~favor 
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker386: And do~you~want sugar  [in the coffee]?
+~           y   tú~quieres  azúcar  en el  café    
+- in a   salad   
+~ en una ensalada
++ in the coffee
+~ en el  café  
+- on your fries       
+~ en tus  papas~fritas
+
+[LINE]
+Speaker414: Yes, please!   
+~           sí   por~favor 
+
+[LINE]
+Speaker415: I  want   coffee too!    
+~           yo quiero café   también 
+
+[MULTIPLE_CHOICE]
+> Junior está diciendo que él…
+- … quiere irse a casa.
++ … también quiere café.
+- … necesita ir al baño.
+
+[LINE]
+Speaker414: You want    coffee, Junior?
+~           tú  quieres café    Junior 
+
+[LINE]
+Speaker415: Yes, I  want   a   cup  with a~lot~of milk… 
+~           sí   yo quiero una taza con  mucha    leche 
+
+[LINE]
+Speaker415: …and a~lot~of sugar… 
+~            y   mucha    azúcar 
+
+[LINE]
+Speaker415: …and ice~cream!
+~            y   helado    
+
+[MULTIPLE_CHOICE]
+> Junior quiere…
+- … leche, ensalada y pescado.
++ … leche, azúcar y helado.
+- … un sándwich, una ensalada y papas fritas.
+
+[LINE]
+Speaker414: Ice~cream?
+~           helado    
+
+[LINE]
+Speaker415: And no  coffee, please!   
+~           y   sin café    por~favor 
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "batido".
+Speaker386: (OK)…        (you) (want)    a  (+milkshake)?
+~            está~bien    tú    quieres  un   batido     
+
+[LINE]
+Speaker415: Yes, please!   
+~           sí   por~favor 
+
+[LINE]
+Speaker414: Oh, I  want   a  milkshake too…    
+~           ah  yo quiero un batido    también 
+
+[LINE]
+Speaker414: Two milkshakes, please!   
+~           dos batidos     por~favor 
+
+[MULTIPLE_CHOICE]
+> ¡Ay, Junior! Él pidió café…
+- … porque él quería tener más energía.
+- … pero Eddy se lo bebió todo.
++ … pero lo que él quería era un batido.
+
+[MATCH]
+> Selecciona los pares
+- is <> está
+- no <> sin
+- a lot of <> mucha
+- Junior <> Junior
+- please <> por favor
+
