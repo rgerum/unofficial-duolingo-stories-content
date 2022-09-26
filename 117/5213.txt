@@ -1,0 +1,104 @@
+[DATA]
+fromLanguageName=La elección de Junior
+icon=e0600de22649754eb7336b587834d36407767819
+set=10|1
+
+[HEADER]
+> Junior's~Choice      
+~ la~elección~de~Junior
+
+[LINE]
+> Junior~is~getting       his lunch    at school.    
+~ a~Junior~le~están~dando su  almuerzo en la~escuela 
+
+[LINE]
+Speaker415: Hello, Ms.|      Linda! I'm   ready to   eat~lunch!
+~           hola   señorita  Linda  estoy listo para almorzar  
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker395: Hello, Junior. [We~have~fish]    for  lunch       today.
+~           hola   Junior   tenemos~pescado  para el~almuerzo hoy   
+- We love dish
+- We have five
++ We have fish
+
+[LINE]
+Speaker395: And with the fish,    you can~have     a   salad    or fries.       
+~           y   con  el  pescado  tú  puedes~tener una ensalada o  papas~fritas 
+
+[LINE]
+Speaker415: I~love           fries            and salads!       
+~           a~mí~me~encantan las~papas~fritas y   las~ensaladas 
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "solo".
+Speaker395: (You) (can)    (+only) have~one,                     (Junior).
+~            tú    puedes    solo  tener~una~(de~las~dos~cosas)   Junior  
+
+[LINE]
+Speaker415: Well,  fries            are the delicious~option…
+~           bueno  las~papas~fritas son la  opción~deliciosa 
+
+[LINE]
+Speaker415: And I  am~having      a  difficult~day…
+~           y   yo estoy~teniendo un día~difícil   
+
+[LINE]
+Speaker415: But  salad       is healthy…  
+~           pero la~ensalada es saludable 
+
+[MULTIPLE_CHOICE]
+> Junior cree que las ensaladas son…
+- … baratas.
+- … muy grandes.
++ … saludables.
+
+[LINE]
+Speaker395: Junior…
+~           Junior 
+
+[LINE]
+Speaker415: But  I  can~only~have    one…
+~           pero yo solo~puedo~tener una 
+
+[LINE]
+Speaker415: I  want   the salad.    No! The fries!        Wait…  
+~           yo quiero la  ensalada  no  las papas~fritas  espere 
+
+[LINE]
+Speaker415: I  don't~know!
+~           yo no~sé      
+
+[MULTIPLE_CHOICE]
+> ¡Pobre Junior! ¿Cuál es su problema?
++ Él no logra escoger entre una ensalada y papas fritas.
+- Él quiere helado en su ensalada.
+- Él comió demasiadas papas fritas.
+
+[LINE]
+Speaker395: Junior!
+~           Junior 
+
+[LINE]
+Speaker415: Oh! Yes, Ms.|      Linda?
+~           ah  sí   señorita  Linda 
+
+[LINE]
+Speaker395: Here!       Take the fries        and the salad.   
+~           aquí~están  toma las papas~fritas y   la  ensalada 
+
+[MULTIPLE_CHOICE]
+> Linda le dijo a Junior que él podía…
+- … irse a comer a otro lugar.
+- … imaginarse que las papas eran ensalada.
++ … llevarse las papas fritas y la ensalada.
+
+[MATCH]
+> Selecciona los pares
+- is <> es
+- school <> la escuela
+- salads <> las ensaladas
+- fish <> pescado
+- And <> y
+
