@@ -4,20 +4,20 @@ icon=6fee4723d01611cffa9b4b76fd5be36697ef1e96
 set=4|3
 
 [HEADER]
-> Ropa    para mis vacaciones
+> Ρούχα για τις~διακοπές~μου
 ~ clothes for  my  vacation  
 
 [LINE]
-> Lucy está en una tienda.
+> Η{ee}~Λούση είναι σ'{} ένα{σένα} μαγαζί.
 ~ Lucy is   at a   store  
 
 [LINE]
-Speaker416: Hola,  ¿necesita ayuda?
-~           hello   you~need help  
+Speaker416: Γεια~σας,  χρειάζεστε βοήθεια;
+~           hello   do~you~need help  
 
 [LINE]
-Speaker509: Sí,  necesito ropa    para mis vacaciones.
-~           yes  I~need   clothes for  my  vacation   
+Speaker509: Ναι,  θέλω ρούχα για τις~διακοπές~μου.
+~           yes  I~want   clothes for  my~vacation   
 
 [MULTIPLE_CHOICE]
 > Lucy is shopping for clothes for a vacation.
@@ -25,16 +25,16 @@ Speaker509: Sí,  necesito ropa    para mis vacaciones.
 + Yes, that's right.
 
 [LINE]
-Speaker416: Está~bien.
+Speaker416: Ωραία.
 ~           OK        
 
 [LINE]
-Speaker509: Necesito un vestido.
-~           I~need   a  dress   
+Speaker509: Θέλω ένα φόρεμα.
+~           I~want   a  dress   
 
 [LINE]
-> Lily busca     un vestido~verde.
-~ Lily looks~for a  green~dress   
+> Η{ee}~Λίλη φέρνει ένα πράσινο φόρεμα.
+~ Lily brings a  green dress   
 
 [MULTIPLE_CHOICE]
 > Lily is getting a…
@@ -43,62 +43,62 @@ Speaker509: Necesito un vestido.
 - …green hat.
 
 [LINE]
-Speaker509: ¡No, yo quiero un vestido~rojo!
-~            no  I  want   a  red~dress    
+Speaker509: Όχι, θέλω κόκκινο φόρεμα!
+~            no  I~want   a~red dress    
 
 [LINE]
-> Lily busca     un vestido~rojo.
-~ Lily looks~for a  red~dress    
+> Η{ee}~Λίλη ψάχνει~για ένα κόκκινο φόρεμα.
+~ Lily looks~for a  red dress    
 
 [LINE]
-Speaker509: Y   quiero una chaqueta.
-~           and I~want a   jacket   
+Speaker509: Και θέλω και μπουφάν.
+~           and I~want also a~jacket   
 
 [ARRANGE]
 > Tap what you hear
-> [(Lily) (busca)     (una) (chaqueta~roja).]
-~   Lily   looks~for   a     red~jacket      
+> [(Η{ee}~Λίλη) (ψάχνει~για)     (ένα) (κόκκινο) (μπουφάν).]
+~   Lily   looks~for   a     red jacket      
 
 [LINE]
-Speaker509: ¡No, yo quiero una chaqueta~marrón!
-~            no  I  want   a   brown~jacket    
+Speaker509: Όχι, θέλω καφέ μπουφάν!
+~            no  I~want   a~brown jacket    
 
 [LINE]
-Speaker416: Está~bien…
+Speaker416: Εντάξει…
 ~           OK        
 
 [LINE]
-Speaker509: Un vestido~rojo, una chaqueta~marrón…
-~           a  red~dress     a   brown~jacket    
+Speaker509: Ένα κόκκινο φόρεμα κι ένα καφέ μπουφάν…
+~           a  red dress  and   a   brown jacket    
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker509: ¡[Y~un~sombrero]!
-~             and~a~hat      
-- Y un bombero
-- Y un obrero
-+ Y un sombrero
+Speaker509: [Κι ένα καπέλο]!
+~             and a hat      
+- Κι ένα φάκελο
+- Κενά καπέλα
++ Κι ένα καπέλο
 
 [LINE]
-> Lily busca     un sombrero~azul.
-~ Lily looks~for a  blue~hat      
+> Η{ee}~Λίλη φέρνει ένα μπλε καπέλο.
+~ Lily brings a  blue hat      
 
 [LINE]
-Speaker509: ¡No, yo quiero un sombrero~gris!
-~            no  I  want   a  gray~hat      
+Speaker509: Όχι, γκρι καπέλο θέλω!
+~            no  a~gray hat I~want     
 
 [LINE]
-> Lily busca     un sombrero~gris.
-~ Lily looks~for a  gray~hat      
+> Η{ee}~Λίλη ψάχνει~για ένα γκρι καπέλο.
+~ Lily looks~for a  gray hat      
 
 [POINT_TO_PHRASE]
 > Choose the option meaning "ready."
-Speaker509: ¡(Gracias)!   ¡(Estoy) (+lista) (para) mis vacaciones!
-~             thank~you     I~am     ready   for   my  vacation   
+Speaker509: (Ευχαριστώ)!   (Είμαι) (+έτοιμη) (για) τις~διακοπές~μου!
+~             thank~you     I~am     ready   for   my~vacation   
 
 [LINE]
-Speaker416: Ahora yo necesito vacaciones.  
-~           now   I  need     (a)~vacation 
+Speaker416: Τώρα χρειάζομαι~κι~εγώ διακοπές.  
+~           now   I~need~too     (a)~vacation 
 
 [MULTIPLE_CHOICE]
 > Poor Lily! Why does she need a vacation?
@@ -108,9 +108,9 @@ Speaker416: Ahora yo necesito vacaciones.
 
 [MATCH]
 > Tap the pairs
-- Y <> and
-- chaqueta roja <> red jacket
-- sombrero gris <> gray hat
-- Gracias <> thank you
-- No <> no
+- θέλω <> I want
+- κόκκινο μπουφάν <> red jacket
+- γκρι καπέλο <> gray hat
+- ευχαριστώ <> thank you
+- όχι <> no
 
