@@ -1,0 +1,103 @@
+[DATA]
+fromLanguageName=I Don't Work Today
+icon=5450714ebd6e5c59daf764d85a8fc7f9edb1c23a
+set=14|2
+
+[HEADER]
+> Hoy~no~trabajo    
+~ I~don't~work~today
+
+[LINE]
+> Vikram está en la~cocina.  
+~ Vikram is   in the~kitchen 
+
+[LINE]
+> Su  esposa, Priti, llega.  
+~ his wife    Priti  arrives 
+
+[LINE]
+Speaker560: ¡Buenos~días,  Vikram!
+~            good~morning  Vikram 
+
+[LINE]
+Speaker593: Un~momento… ¿Por~qué estás   en casa? Es   martes. 
+~           one~moment   why     are~you at home  it's Tuesday 
+
+[LINE]
+Speaker560: ¡Hoy~no~trabajo!     ¡Tengo el  día libre!
+~            I~don't~work~today   I~am  the day free  
+
+[MULTIPLE_CHOICE]
+> Priti took the day off.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker560: ¡Estoy muy  emocionada! ¡Quiero hacer muchas   cosas! 
+~            I~am  very excited      I~want to~do a~lot~of things 
+
+[LINE]
+> Priti va   al     gimnasio.
+~ Priti goes to~the gym      
+
+[LINE]
+> Más~tarde, ella visita un~museo.
+~ later      she  visits a~museum 
+
+[MULTIPLE_CHOICE]
+> Priti went to…
++ …a gym and a museum.
+- …work.
+- …a museum and a movie.
+
+[LINE]
+> Priti vuelve~a~su~casa y   lee   un~libro en el~jardín. 
+~ Priti comes~back~home  and reads a~book   in the~garden 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker593: ¡Hola,  Priti! ¿[Qué~tal~tu~día]?  
+~            hello  Priti    how~was~your~day  
+- Qué mal su día
++ Qué tal tu día
+- Qué tal tus tías
+
+[LINE]
+Speaker560: Eh… bien, pero… estoy un poco   aburrida. ¿Hacemos       la~cena?
+~           eh  OK    but   I~am  a  little bored      shall~we~make dinner  
+
+[LINE]
+Speaker593: ¿La~cena? Pero son~las~dos~de~la~tarde.  
+~            dinner   but  it's~two~in~the~afternoon 
+
+[LINE]
+Speaker560: Es   muy  temprano. ¿Qué~puedo~hacer?
+~           it's very early      what~can~I~do   
+
+[LINE]
+Speaker593: ¿Por~qué no~te~sientas aquí y   descansas?
+~            why     don't~you~sit here and rest      
+
+[POINT_TO_PHRASE]
+> Choose the option that means "sits down."
+> (Priti) (+se~sienta) (unos)  (minutos).
+~  Priti    sits~down   a~few   minutes  
+
+[LINE]
+Speaker560: No~me~gusta  descansar, es   aburrido. Voy~al       trabajo.
+~           I~don't~like to~rest    it's boring    I'm~going~to work    
+
+[MULTIPLE_CHOICE]
+> Why did Priti decide to go to work after all?
+- She didn't want to make dinner.
+- She remembered she had a lot to do.
++ She gets bored when she rests.
+
+[MATCH]
+> Tap the pairs
+- gimnasio <> gym
+- emocionada <> excited
+- No me gusta <> I don't like
+- Hoy no trabajo <> I don't work today
+- esposa <> wife
+
