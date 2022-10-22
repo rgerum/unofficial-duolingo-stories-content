@@ -1,0 +1,217 @@
+[DATA]
+fromLanguageName=Surprise Party
+icon=cd119e89aaf59a22f65503e29a5a41e7e614f61b
+set=66|1
+
+[HEADER]
+> La  fiesta~sorpresa
+~ the surprise~party 
+
+[LINE]
+> Lily y   Zari ven~a Vikram comprando globos   en una tienda.
+~ Lily and Zari see   Vikram buying    balloons in a   store  
+
+[LINE]
+Speaker418: Hola,  Vikram. ¡Qué~lindos~globos!
+~           hello  Vikram   cute~balloons     
+
+[LINE]
+Speaker593: ¡Gracias!   Es    el~cumpleaños~de~mi~esposa y   estoy~preparando una fiesta~sorpresa.
+~            thank~you  it~is my~wife's~birthday         and I~am~preparing   a   surprise~party  
+
+[LINE]
+Speaker418: Pero… ¡Priti está aquí!
+~           but    Priti is   here 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker416: Sí,  [acabamos~de~verla].
+~           yes   we~just~saw~her    
++ acabamos de verla
+- acabamos de hacerlo
+- acabamos de leerla
+
+[LINE]
+Speaker593: ¡Ay, no! Seguramente salió~temprano~del~trabajo. ¡Si me~ve,       arruinaré   la  sorpresa!
+~            oh  no  surely      she~left~work~early          if she~sees~me  I~will~ruin the surprise 
+
+[LINE]
+Speaker593: ¿Pueden~distraer~a Priti, por~favor?
+~            you~can~distract  Priti  please    
+
+[MULTIPLE_CHOICE]
+> Vikram quiere~que Zari y   Lily…
+~ Vikram wants      Zari and Lily 
++ …llamen~la~atención~de~Priti para~que ella no~lo~vea.      
+~  to~get~Priti's~attention    so~that  she  doesn't~see~him 
+- …roben    los globos   de   la  tienda.
+~  to~steal the balloons from the store  
+- …ayuden~a Priti a~salir~temprano~del~trabajo.
+~  to~help  Priti to~leave~work~early          
+
+[LINE]
+Speaker593: Tengo~que~ir~a casa a~terminar~de~preparar       todo.      
+~           I~have~to~go   home in~order~to~finish~preparing everything 
+
+[LINE]
+Speaker416: ¡Por~supuesto!
+~            of~course    
+
+[LINE]
+> Zari y   Lily encuentran~a Priti con  una botella de champú  en~las~manos.
+~ Zari and Lily find         Priti with a   bottle  of shampoo in~her~hands 
+
+[LINE]
+Speaker416: Hola,  Priti. ¿Tú  usas ese  champú? 
+~           hello  Priti   you use  that shampoo 
+
+[LINE]
+Speaker560: ¡Hola!  Eh… sí. 
+~            hello  eh  yes 
+
+[LINE]
+Speaker416: Escuché que  lo~hacen     con  productos~químicos~muy~tóxicos.
+~           I~heard that they~make~it with very~toxic~chemical~products   
+
+[LINE]
+Speaker560: Pero es    orgánico.
+~           but  it~is organic  
+
+[ARRANGE]
+> Tap what you hear
+Speaker416: [(Deberías~leer)   (bien) (los) (ingredientes).]
+~             you~should~read   well   the   ingredients    
+
+[LINE]
+Speaker418: Sí,  y   deberías~buscar   los ingredientes en tu~celular…      ahora~mismo.
+~           yes  and you~should~search the ingredients  on your~cell~phone  right~now   
+
+[LINE]
+Speaker560: No~tengo     tiempo para eso,  debo~irme~a casa.
+~           I~don't~have time   for  that  I~must~go   home 
+
+[LINE]
+> Priti se~va. 
+~ Priti leaves 
+
+[CONTINUATION]
+> ¿Qué  sigue?     
+~  what comes~next 
+Speaker418: ¡Todavía~no~se~puede~ir! Vikram necesita [más  tiempo].
+~            she~can't~leave~yet     Vikram needs     more time    
+- un carro~nuevo
+~ a  new~car    
+- descansar
+~ to~rest  
++ más  tiempo
+~ more time  
+
+[LINE]
+> Priti sale~de la  tienda. Lily y   Zari corren~rápidamente hacia   ella. Lily tiene una billetera en~las~manos.
+~ Priti leaves  the store   Lily and Zari quickly~run        towards her   Lily has   a   wallet    in~her~hands 
+
+[LINE]
+Speaker416: ¡Priti, se~te~cayó  la~billetera!
+~            Priti  you~dropped your~wallet  
+
+[LINE]
+Speaker560: Eh… no~es         mi billetera.
+~           eh  (that)~is~not my wallet    
+
+[LINE]
+Speaker418: Ah… Eh… ¡Lily quiso~decir que  se~te~cayeron las~llaves!
+~           oh  eh   Lily meant       that you~dropped   your~keys  
+
+[LINE]
+> Zari saca      unas llaves de   su~bolsillo.
+~ Zari takes~out some keys   from her~pocket  
+
+[LINE]
+Speaker560: No~son          mis llaves.
+~           (those)~are~not my  keys   
+
+[LINE]
+> Priti intenta irse,     pero Zari corre y   se~cae al~suelo     enfrente de ella.
+~ Priti tries   to~leave  but  Zari runs  and falls  on~the~floor in~front of her  
+
+[LINE]
+Speaker418: ¡Ay!  
+~            ouch 
+
+[LINE]
+Speaker560: Zari, ¿estás~bien?
+~           Zari   you~are~OK 
+
+[ARRANGE]
+> Tap what you hear
+Speaker418: ¡[(No), (me~siento) (muy)    (mal)!]
+~              no    I~feel      really   bad   
+
+[LINE]
+> Zari finge    desmayarse.
+~ Zari pretends to~faint   
+
+[MULTIPLE_CHOICE]
+> ¿Entendiste     lo~que pasó?     ¿Qué  hizo~Zari?  
+~  you~understood what   happened   what did~Zari~do 
++ Ella simuló    sentirse muy  débil.
+~ she  pretended to~feel  very weak  
+- Ella entró~al carro~de~Priti.
+~ she  got~in   Priti's~car    
+- Ella tomó un medicamento.
+~ she  took a  medicine    
+
+[LINE]
+Speaker416: Ay, no. Por~favor, ayúdala. 
+~           oh  no  please     help~her 
+
+[LINE]
+> Priti mira~a   Zari y~a Lily. Ella piensa       un momento.
+~ Priti looks~at Zari and Lily  she  thinks~(for) a  moment  
+
+[LINE]
+Speaker560: Está~bien, voy~a~llamar~a una ambulancia.
+~           OK         I~will~call    an  ambulance  
+
+[LINE]
+> Zari se~sienta.
+~ Zari sits~up   
+
+[LINE]
+Speaker418: ¡No~llames~a la  ambulancia!
+~            don't~call  the ambulance  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker416: Ah… mira, Zari [ya~se~siente~mejor].  
+~           oh  look  Zari  already~feels~better  
+- la serpiente mejor
+- ya se siente mayor
++ ya se siente mejor
+
+[LINE]
+Speaker560: No~sé        qué  les~pasa,            pero no~tengo     tiempo para esto.
+~           I~don't~know what is~happening~to~you  but  I~don't~have time   for  this 
+
+[LINE]
+Speaker560: Mi esposo  me~está~preparando~una~fiesta~sorpresa y   no~quiero    llegar    tarde.
+~           my husband is~preparing~a~surprise~party~for~me   and I~don't~want to~arrive late  
+
+[MULTIPLE_CHOICE]
+> Vikram quiere sorprender~a Priti con  una fiesta~de~cumpleaños, pero…
+~ Vikram wants  to~surprise  Priti with a   birthday~party        but  
+- …Lily y   Zari le~van~a~lavar    la~cabeza~a~Priti.
+~  Lily and Zari are~going~to~wash Priti's~head      
+- …Priti tiene~que~trabajar hasta muy  tarde.
+~  Priti has~to~work        until very late  
++ …Priti ya      sabe  todo.      
+~  Priti already knows everything 
+
+[MATCH]
+> Tap the pairs
+- Tengo que ir a <> I have to go
+- esto <> this
+- No son <> are not
+- Ay <> oh
+- Por supuesto <> of course
+
