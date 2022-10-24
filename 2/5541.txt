@@ -1,0 +1,141 @@
+[DATA]
+fromLanguageName=Aunt Betty
+icon=6b43af575436274a77c4a1096dde31088be555b2
+set=54|4
+
+[HEADER]
+> La~tía Betty
+~ Aunt   Betty
+
+[LINE]
+> Eddy toca      la  puerta~del~baño.
+~ Eddy knocks~on the bathroom~door   
+
+[LINE]
+Speaker414: Junior, es   hora~de salir         del    baño.     Vamos        a  la~casa~de~la~tía~Betty esta tarde.    
+~           Junior  it's time~to (to)~come~out of~the bathroom  we~are~going to Aunt~Betty's~house      this afternoon 
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(No~puedo) (ir),      (estoy) (enfermo).]
+~             I~can't    (to)~go    I~am    sick      
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: [No~estás~enfermo]. El  problema es que  no~te~gusta    ir    a  la~casa~de~la~tía~Betty.
+~            you~are~not~sick   the problem  is that you~don't~like to~go to Aunt~Betty's~house      
++ No estás enfermo
+- No estás en forma
+- No en este infierno
+
+[LINE]
+Speaker415: Tienes~razón, no~me~gusta.     Ella es mala conmigo y   todos sus dulces son viejos.
+~           you're~right  I~don't~like~it  she  is mean to~me   and all   her sweets are old    
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(Pero) (de~verdad~estoy) (enfermo).]
+~             but    I~am~really       sick      
+
+[LINE]
+Speaker414: No~lo~estás.
+~           you're~not  
+
+[MULTIPLE_CHOICE]
+> Eddy cree   que… 
+~ Eddy thinks that 
++ …Junior no~quiere    visitar~a la~tía~Betty.
+~  Junior doesn't~want to~visit  Aunt~Betty   
+- …Junior está muy  enfermo.
+~  Junior is   very sick    
+- …Junior se~comió unos dulces~muy~viejos.
+~  Junior ate      some very~old~sweets   
+
+[LINE]
+Speaker415: Sí  lo~estoy. Me~duele~el~estómago, me~duele~la~cara. ¡me~duele~todo!   
+~           yes I~am      my~stomach~hurts      my~face~hurts      everything~hurts 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: Creo    que  [me~voy~a~morir].   
+~           I~think that  I~am~going~to~die  
+- me voy a Madrid
+- me voy a mudar
++ me voy a morir
+
+[LINE]
+Speaker414: La~tía Betty se~sentirá triste si no~vienes      conmigo a  su  casa. 
+~           Aunt   Betty will~feel  sad    if you~don't~come with~me to her house 
+
+[CONTINUATION]
+> ¿Qué~sigue?      
+~  what~comes~next 
+Speaker415: Lo~sé,  pero ¿no~crees        que  se~sentirá    peor  si [estoy muerto]?
+~           I~know  but   don't~you~think that she~will~feel worse if  I~am  dead    
+- uso   su  baño    
+~ I~use her bathroom
++ estoy muerto
+~ I~am  dead  
+- comemos dulces~viejos
+~ we~eat  old~sweets   
+
+[LINE]
+Speaker414: Junior…
+~           Junior 
+
+[LINE]
+Speaker415: Puedes  ir      sin     mí. Yo me~quedaré aquí viendo   televisión hasta sentirme mejor. 
+~           you~can (to)~go without me  I  will~stay  here watching TV         until I~feel   better 
+
+[LINE]
+Speaker414: Si vienes   conmigo a  la~casa~de~la~tía~Betty, luego vamos~a~comer       helado.   
+~           if you~come with~me to Aunt~Betty's~house       later we~are~going~to~eat ice~cream 
+
+[LINE]
+Speaker415: ¿Dijiste     "helado"?   
+~            did~you~say  ice~cream  
+
+[LINE]
+Speaker414: Sí,  escuchaste bien. Mucho, pero mucho    helado…    solo para ti. 
+~           yes  you~heard  well  a~lot  but  a~lot~of ice~cream  only for  you 
+
+[LINE]
+Speaker415: Bueno… Está~bien.
+~           well   OK        
+
+[LINE]
+> Junior abre  la  puerta… y   se~ve    muy  enfermo.
+~ Junior opens the door    and he~looks very sick    
+
+[POINT_TO_PHRASE]
+> Selecciona la  opción que  significa "red spots".
+~ choose     the option that means      ~   ~      
+Speaker414: ¡Ay, (Junior)! (Tienes)   (+manchas~rojas) (en~toda~la~cara).   
+~            oh   Junior    you~have    red~spots       all~over~your~face  
+
+[LINE]
+> ¡Tenemos~que ir      al     hospital ahora~mismo!
+~  we~have~to  (to)~go to~the hospital right~now   
+
+[LINE]
+Speaker415: ¿Al     hospital? ¡Pero dijiste  que  íbamos~a~comer       helado!   
+~            to~the hospital   but  you~said that we~were~going~to~eat ice~cream 
+
+[MULTIPLE_CHOICE]
+> ¿Por~qué Junior~decidió    ir    a  la~casa~de~la~tía~Betty?
+~  why     did~Junior~decide to~go to Aunt~Betty's~house      
++ Eddy le~dijo~a Junior que  le~compraría     helado.   
+~ Eddy told      Junior that he~would~buy~him ice~cream 
+- Él cree   que  la~tía~Betty es muy  simpática.
+~ he thinks that Aunt~Betty   is very nice      
+- Él supo que  la~tía~Betty estaba en el  hospital.
+~ he knew that Aunt~Betty   was    in the hospital 
+
+[MATCH]
+> Tap the pairs
+- Puedes <> you can
+- tarde <> afternoon
+- muy <> very
+- de verdad estoy <> I am really
+- no vienes <> you don't come
+
