@@ -1,0 +1,208 @@
+[DATA]
+fromLanguageName=Pirate World
+icon=53d72ecfdee186c3bd939f46d9fee32303def285
+set=68|4
+
+[HEADER]
+> Mundo~pirata
+~ Pirate~World
+
+[LINE]
+> Zari y   Lily están en un parque~de~atracciones.
+~ Zari and Lily are   at an amusement~park        
+
+[LINE]
+Speaker418: ¿No~crees        que  Mundo~pirata es genial?
+~            don't~you~think that Pirate~World is great  
+
+[LINE]
+Speaker416: No.
+~           no 
+
+[LINE]
+Speaker418: ¿A~dónde quieres  ir?    ¿Al     barco~pirata o  a  la  tienda~de~regalos?
+~            where   you~want to~go   to~the pirate~ship  or to the gift~shop         
+
+[ARRANGE]
+> Tap what you hear
+Speaker416: [(Quiero) (ir)    (a~casa~) (a~dormir).]
+~             I~want   to~go   home      to~sleep   
+
+[LINE]
+Speaker418: Primero tenemos~que~encontrar~a Abel. Él trabaja aquí y   nos~regaló los boletos.
+~           first   we~have~to~find         Abel  he works   here and he~gave~us the tickets 
+
+[CONTINUATION]
+> ¿Qué  sigue?     
+~  what comes~next 
+Speaker416: Vamos~a~buscarlo.      Este parque es estúpido, los~piratas~de~verdad no~bailan   ni  cantan [canciones~tontas].
+~           let's~go~look~for~him  this park   is stupid    real~pirates          don't~dance nor sing    silly~songs       
++ canciones~tontas
+~ silly~songs     
+- los boletos
+~ the tickets
+- sobre regalos
+~ about gifts  
+
+[LINE]
+Speaker418: Los~piratas~de~verdad tampoco~comen~nachos,    pero no~te~quejaste      cuando los~compramos. 
+~           real~pirates          don't~eat~nachos~either  but  you~didn't~complain when   we~bought~them 
+
+[LINE]
+Speaker416: ¡Están    deliciosos! ¿Quieres?      
+~            they~are delicious    you~want~some 
+
+[LINE]
+> En ese  momento, Zari ve~a Abel.
+~ in that moment   Zari sees Abel 
+
+[LINE]
+Speaker418: ¡Ahí   está Abel! Se~ve    muy  guapo    con  su~disfraz~de~pirata, ¿no~crees?       
+~            there is   Abel  he~looks very handsome with his~pirate~costume     don't~you~think 
+
+[LINE]
+Speaker416: Se~ve    muy  tonto. Y   ¿qué  tiene  en su~hombro?    ¿Es    un loro?  
+~           he~looks very silly  and  what he~has on his~shoulder   it~is a  parrot 
+
+[LINE]
+Speaker418: ¡Ay, no! ¡Los~loros~me~dan~mucho~miedo!
+~            oh  no   I'm~terrified~of~parrots     
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker416: Viniste~a hablar~con Abel, entonces, [ve~a~hablar~con~él].
+~           you~came  to~talk~to Abel  so         go~talk~to~him      
+- verá el mar con él
++ ve a hablar con él
+- ven a cantar con el
+
+[LINE]
+> Zari y   Lily se~acercan~a Abel.
+~ Zari and Lily approach     Abel 
+
+[LINE]
+Speaker418: ¡Hola,  Abel!
+~            hello  Abel 
+
+[LINE]
+Speaker1321: ¡Hola,  Zari! Eh… yo… ¡Qué~bueno~verte!
+~             hello  Zari  eh  I    good~to~see~you 
+
+[LINE]
+Speaker625: ¡Vete!   
+~            go~away 
+
+[LINE]
+> Zari grita   y   salta.
+~ Zari screams and jumps 
+
+[CONTINUATION]
+> ¿Qué  sigue?     
+~  what comes~next 
+Speaker1321: ¡Lo~siento~mucho! Los~loros [no~saben   lo~que dicen].   
+~             I'm~so~sorry     parrots    don't~know what   they~say  
++ no~saben   lo~que dicen   
+~ don't~know what   they~say
+- no~pueden~comprar boletos
+~ can't~buy         tickets
+- son buenos en matemáticas
+~ are good   in math       
+
+[LINE]
+Speaker418: Eh… está~bien.
+~           eh  OK        
+
+[LINE]
+Speaker1321: Quería   decirte     algo,      Zari.
+~            I~wanted to~tell~you something  Zari 
+
+[LINE]
+Speaker625: ¡Eres    fea! 
+~            you~are ugly 
+
+[LINE]
+Speaker418: ¡¿Soy  fea?! 
+~             I~am ugly  
+
+[LINE]
+Speaker1321: ¡No, por~supuesto~que~no! El  loro   dice tonterías.   Yo creo  que  te~ves   muy  bien.
+~             no  of~course~not        the parrot says silly~stuff  I  think that you~look very good 
+
+[MULTIPLE_CHOICE]
+> Abel parece muy  incómodo.      ¿Por~qué?
+~ Abel looks  very uncomfortable   why     
++ Su~loro    está~diciendo cosas~malas.
+~ his~parrot is~saying     mean~things 
+- Él no~conoce~a  Zari.
+~ he doesn't~know Zari 
+- Su~loro    se~está~portando muy  bien con  Zari.
+~ his~parrot is~behaving      very well with Zari 
+
+[LINE]
+Speaker1321: Zari, quiero preguntarte algo.     
+~            Zari  I~want to~ask~you  something 
+
+[LINE]
+Speaker418: ¿Sí? 
+~            yes 
+
+[LINE]
+> De~repente, el  loro   sale~volando y   aterriza sobre los~nachos~de~Lily.
+~ suddenly    the parrot flies~off    and lands    on    Lily's~nachos      
+
+[LINE]
+Speaker416: ¡Mis nachos!
+~            my  nachos 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker418: ¡Ahhh! ¡Ay, no! ¡[Nos~está~atacando]!
+~            oh     oh  no    it's~attacking~us  
+- Nos está cantando
+- No sé si está hablando
++ Nos está atacando
+
+[LINE]
+> Zari grita   y   se~va~corriendo.
+~ Zari screams and runs~away       
+
+[LINE]
+Speaker1321: ¡Zari, espera!
+~             Zari  wait   
+
+[LINE]
+> Unos minutos más~tarde, Lily encuentra~a Zari al~lado~del barco~pirata.
+~ some minutes later      Lily finds       Zari next~to~the pirate~ship  
+
+[LINE]
+Speaker416: Eso  fue muy  divertido.
+~           that was very funny     
+
+[POINT_TO_PHRASE]
+> Selecciona la  opción que  significa "embarrassing".
+~ choose     the option that means      ~             
+Speaker418: ¿(Divertido)? ¡(Fue)    (+vergonzoso)!   Nos~tenemos~que~ir (ahora~mismo).
+~             funny         it~was    embarrassing   we~have~to~leave    right~now    
+
+[LINE]
+Speaker416: ¡No, Mundo~pirata es genial y   quiero más  nachos!
+~            no  Pirate~World is great  and I~want more nachos 
+
+[MULTIPLE_CHOICE]
+> ¡Pobre Zari! ¿Por~qué quiere        irse?    
+~  poor  Zari   why     does~she~want to~leave 
++ Ella se~siente humillada  porque  el  loro   la~asustó. 
+~ she  feels     humiliated because the parrot scared~her 
+- Ella está triste porque  no~puede~ser una pirata.
+~ she  is   sad    because she~can't~be a   pirate 
+- Ella no~se~siente~bien porque  comió   demasiados nachos.
+~ she  feels~sick        because she~ate too~many   nachos 
+
+[MATCH]
+> Tap the pairs
+- divertido <> funny
+- Unos <> some
+- parque <> park
+- su hombro <> his shoulder
+- cantan <> sing
+
