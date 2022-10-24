@@ -1,0 +1,190 @@
+[DATA]
+fromLanguageName=Call a Doctor!
+icon=c92c412287a69a673eeae5639f07af4c004bb634
+set=59|1
+
+[HEADER]
+> ¡Llamen~a un doctor!
+~  call     a  doctor 
+
+[LINE]
+> Eddy va~corriendo en la  calle.  De~repente, se~cae   y   se~lastima~el~pie.
+~ Eddy is~running   on the street  suddenly    he~falls and hurts~his~foot    
+
+[LINE]
+Speaker414: ¡Ay!
+~            oh 
+
+[POINT_TO_PHRASE]
+> Selecciona la  opción que  significa "lab coat".
+~ choose     the option that means      ~   ~     
+> Un (hombre) (con~una) (+bata~de~laboratorio) (pasa~rápidamente~cerca~de) él. 
+~ a   man      in~a       lab~coat              walks~quickly~past         him 
+
+[LINE]
+Speaker414: ¿Hola?  ¡Doctor! ¡Doctor!
+~            hello   doctor   doctor 
+
+[LINE]
+Speaker385: ¿Quién? ¿Yo?
+~            who     me 
+
+[LINE]
+Speaker414: Sí,  ¿puede~ayudarme,  por~favor?
+~           yes   can~you~help~me  please    
+
+[LINE]
+Speaker385: En~realidad, voy~a~llegar~tarde~al     trabajo.
+~           actually     I~am~going~to~be~late~for work    
+
+[CONTINUATION]
+> ¿Qué  sigue?  
+~  what follows 
+Speaker414: ¡Pero me~duele~mucho~el~pie! Por~favor, necesito [su   ayuda].
+~            but  my~foot~hurts~a~lot    please     I~need    your help   
+- lavar   mis medias
+~ to~wash my  socks 
+- bailar   con  usted
+~ to~dance with you  
++ su   ayuda
+~ your help 
+
+[LINE]
+Speaker385: Bueno, está~bien.
+~           well   OK        
+
+[LINE]
+Speaker385: Le~voy~a~quitar        el~zapato.
+~           I~am~going~to~take~off your~shoe 
+
+[LINE]
+Speaker385: ¡Guau! Esto está muy    mal…
+~            wow   this is   really bad 
+
+[LINE]
+Speaker414: Ay, no. ¿Qué~tengo?           
+~           oh  no   what's~wrong~with~me 
+
+[POINT_TO_PHRASE]
+> Selecciona la  opción que  significa "toenails".
+~ choose     the option that means      ~         
+Speaker385: (Bueno), (de~verdad)  (debería~cortarse~las) (+uñas~de~los~pies).
+~            well     you~really   should~cut~your         toenails          
+
+[LINE]
+Speaker385: Pero vamos~a~ver. Mmm… Voy~a~intentar    moverle el~pie.   
+~           but  let's~see    hmm  I~am~going~to~try to~move your~foot 
+
+[LINE]
+Speaker414: ¿Qué?  ¡No! ¡Ay!  
+~            what   no   ouch 
+
+[LINE]
+Speaker385: Bueno, esa  fue una mala idea. ¿Sintió~dolor?     
+~           well   that was a   bad  idea   did~you~feel~pain 
+
+[LINE]
+Speaker414: ¡Sí  y…   mucho!
+~            yes and  a~lot 
+
+[MULTIPLE_CHOICE]
+> Mmm… ¿cómo lastimó~el~hombre~a~Eddy?
+~ hmm   how  did~the~man~hurt~Eddy    
+- Él golpeó el~pie~de~Eddy.
+~ he hit    Eddy's~foot    
++ Él le~movió el~pie~a~Eddy.
+~ he moved    Eddy's~foot   
+- Él le~cortó las~uñas~de~los~pies.
+~ he cut      his~toenails         
+
+[LINE]
+Speaker385: ¡Ups!  Mmm… Intentaré  hacer   una venda.  
+~            oops  hmm  I~will~try to~make a   bandage 
+
+[LINE]
+> El  hombre rompe la~camiseta~de~Eddy.
+~ the man    tears Eddy's~shirt        
+
+[LINE]
+Speaker414: ¡Mi camiseta!
+~            my shirt    
+
+[LINE]
+Speaker385: La~necesito para la~venda~del~pie.   
+~           I~need~it   for  your~foot's~bandage 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: ¡Ay! ¡Está [demasiado~apretada]!
+~            oh   it's  too~tight           
++ demasiado apretada
+- demasiado apreciada
+- demandado y apretado
+
+[LINE]
+Speaker385: Si no~está     satisfecho, entonces me~voy.             
+~           if you~are~not satisfied   then     I~am~going~to~leave 
+
+[LINE]
+Speaker414: ¿Qué?  Pero ¿el~trabajo~de~los~doctores~no~es ayudar~a las~personas?
+~            what  but   isn't~a~doctor's~job             to~help  people       
+
+[LINE]
+Speaker385: No~sé,        yo no~soy doctor.  
+~           I~don't~know  I  am~not a~doctor 
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Usted) (dijo) (que)  (era)        (doctor).]
+~             you     said   that   you~were~a   doctor   
+
+[LINE]
+Speaker385: Yo nunca dije eso,  soy  actor.   
+~           I  never said that  I~am an~actor 
+
+[LINE]
+Speaker414: Entonces, ¿por~qué está~usando     esa  bata~de~laboratorio?
+~           then       why     are~you~wearing that lab~coat            
+
+[LINE]
+Speaker385: Soy  doctor   en una serie~de~televisión y   voy~a~trabajar.    
+~           I~am a~doctor on a   TV~series           and I~am~going~to~work 
+
+[LINE]
+Speaker414: ¡Ah! ¡Yo conozco esa  serie!  Mi hijo y   yo siempre la~vemos.
+~            oh   I  know    that series  my son  and I  always  watch~it 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Ya  sé     [cómo~puede~ayudarme]…
+~           now I~know  how~you~can~help~me  
+- cómo puede anularme
+- comer puede ayudarme
++ cómo puede ayudarme
+
+[LINE]
+Speaker385: ¿Cómo?
+~            how  
+
+[LINE]
+Speaker414: ¿Nos~podemos~tomar una foto    juntos   para mi hijo?
+~            we~can~take       a   picture together for  my son  
+
+[MULTIPLE_CHOICE]
+> ¿Por~qué el~hombre~no~pudo ayudar~a Eddy?
+~  why     couldn't~the~man  help     Eddy 
++ Él era un actor, no  un doctor.
+~ he was an actor  not a  doctor 
+- Eddy dijo que  no~quería      ayuda.
+~ Eddy said that he~didn't~want help  
+- El~pie~de~Eddy estaba demasiado lastimado.
+~ Eddy's~foot    was    too       hurt      
+
+[MATCH]
+> Tap the pairs
+- Ya <> now
+- bata de laboratorio <> lab coat
+- moverle <> to move
+- Quién <> who
+- Bueno <> well
+
