@@ -1,11 +1,11 @@
 [DATA]
-fromLanguageName=A Date
+fromLanguageName=Txawün
 icon=df24f7756b139f6eda927eb776621b9febe1a3f1
 set=1|2
 
 [HEADER]
-> Una cita
-~ a   date
+> Kiñe cita
+~ un,~una   cita,~encuentro
 
 [LINE]
 > Bea está en una cita en un restaurante.
@@ -20,34 +20,34 @@ Speaker100: ¡Kümelen!
 ~            estoy~bien
 
 [LINE]
-Speaker100: ¿Chem küpa  imi? 
+Speaker100: ¿Chem küpa imi? 
 ~            what quieres comer~(tú)
 
 [LINE]
-Speaker507: Una ensalada.
-~           a   salad    
+Speaker507: Kiñe ensalada.
+~           una   enselada    
 
 [SELECT_PHRASE]
-> Select the missing phrase
-Speaker507: Hoy   tengo  [un~partido~importante].
-~           today I~have  an~important~game      
-+ un partido importante
-- un batido importante
-- una parte imponente
+> Selecciona la frase que falta.
+Speaker507: Fachantü [kiñe~zuamfali~kuden] nien.
+~           hoy an~important~game tengo 
++ kiñe zuamfali kuden
+- kiñe zuamfali batido
+- kiñe imponente txokiñ
 
 [LINE]
-Speaker100: Ah, ¿te~gustan   los~deportes?
-~           oh   do~you~like (the)~sports 
+Speaker100: Ah, ¿ayükeymi pu~awkantuken?
+~           ah   te~gusta(n) los~deportes
 
 [LINE]
 Speaker507: May,  iñche pelotatun.
 ~           sí  yo  juego~al~fútbol
 
 [MULTIPLE_CHOICE]
-> Bea is ordering a salad because…
-+ …she is playing soccer today.
-- …her date said the salad is delicious.
-- …she just ate a whole pizza.
+> Bea está pidiendo una ensalada porque…
++ … juega al fútbol hoy.
+- …su cita dijo que la ensalada está deliciosa.
+- …sólo quiere comerse una pizza entera.
 
 [LINE]
 Speaker100: ¡Iñche~kafey!
@@ -58,17 +58,17 @@ Speaker507: ¡Tutelu!
 ~            súper,~genial
 
 [LINE]
-Speaker507: ¿De~dónde~eres?     
-~            where~are~you~from 
+Speaker507: ¿Chew tuwimi?     
+~            (de)~dónde eres,~vienes 
 
 [LINE]
 Speaker100: Soy  americano.
-~           I~am American  
+~           soy americano  
 
 [ARRANGE]
-> Tap what you hear
-Speaker100: [(Mi~padre)  (es~de~Cuba)   (y)   (mi~madre)  (es~de~México).]  
-~             my~father   is~from~Cuba   and   my~mother   is~from~Mexico   
+> Toca lo que oyes
+Speaker100: [(Tañi~chaw)  (Cuba~tuwi)   (ka)   (tañi~ñuke)  (México~tuwi).]  
+~             mi~padre   es~de~Cuba   y   mi~madre   es~de~México   
 
 [LINE]
 Speaker507: ¡Me~encanta Cuba!
@@ -79,11 +79,11 @@ Speaker100: Cuba es muy  bonita.
 ~           Cuba is very beautiful 
 
 [LINE]
-Speaker507: ¿Tienes      mascotas?
+Speaker507: ¿Tienes mascotas?
 ~            do~you~have pets     
 
 [LINE]
-Speaker100: Epu ñarki ka   kiñe trewa nien.
+Speaker100: Epu ñarki ka kiñe trewa nien.
 ~           Dos gatos  y un  perro tengo  
 
 [POINT_TO_PHRASE]
@@ -97,28 +97,28 @@ Speaker100: ¿Eh? Iñche ta Daniel pingen…
 
 [LINE]
 Speaker100: ¿Tú~no~eres Gabriela?
-~            aren't~you Gabriela 
+~            tú~no~eres Gabriela 
 
 [LINE]
 Speaker507: ¡No!
 ~            no 
 
 [LINE]
-Speaker507: ¡Iñche ta Bea pingen!
+Speaker507: ¡Iñche ta Bea pigen!
 ~            yo part.~enfática  Bea me~llamo
 
 [MULTIPLE_CHOICE]
-> Did you catch that? Bea and Daniel…
+> Did you catch that? Bea y Daniel…
 - …compraron pasajes a Cuba.
 + …were supposed to meet different people.
 - …están paseando a sus perros.
 
 [LINE]
-> Kiñe domo trekaley Daniel püle.
+> Kiñe zomo txekaley Daniel püle.
 ~ una mujer está caminando Daniel hacia
 
 [LINE]
-Speaker101: ¡Mari~mari!  ¿Eymi~ta    Daniel am? Iñche~ta  Gabriela.
+Speaker101: ¡Mari~mari!  ¿Eymi~ta Daniel am? Iñche~ta  Gabriela.
 ~            hola   eres Daniel part.~interrog. Soy Gabriela 
 
 [LINE]
@@ -126,7 +126,7 @@ Speaker100: No, perdonaen. Iñche~ta  José.
 ~           no  lo~siento,~perdón  Soy José 
 
 [MULTIPLE_CHOICE]
-> ¡Guau! ¿Qué acabo de ocurrir?
+> ¡Guau! ¿Qué acabó de ocurrir?
 - Bea cambió su nombre a Gabriela.
 + Daniel le mintió a su cita real, porque le gusta Bea.
 - Los perros de Bea y Daniel jugaba fútbol.
@@ -135,7 +135,7 @@ Speaker100: No, perdonaen. Iñche~ta  José.
 > Toca los pares
 - ka <> y
 - iñche ta <> soy
-- ensalada <> salad
+- ensalada <> ensalada
 - Me encanta <> I love
 - Eh <> eh
 
