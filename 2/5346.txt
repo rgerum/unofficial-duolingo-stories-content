@@ -4,24 +4,24 @@ icon=076bc5bf725308c211b9c04f07d3622683e84d78
 set=0|1 #8|4
 
 [HEADER]
-> Una cena~con~la~familia
+> Een familiediner
 ~ a   family~dinner      
 
 [LINE]
-> Lin está en la~casa~de~Bea. Ella va   a  la  cocina. 
+> Lin is bij Bea thuis. Ze gaat de keuken in 
 ~ Lin is   at Bea's~house     she  goes to the kitchen 
 
 [LINE]
-> Ella ve   mucha    comida y   cuatro botellas de vino sobre la  mesa. 
-~ she  sees a~lot~of food   and four   bottles  of wine on    the table 
+> Zij ziet veel eten en vier flessen wijn op~de~tafel~staan. 
+~ she  sees a~lot~of food   and four   bottles~of wine (standing)~on~the~table 
 
 [LINE]
-Speaker508: ¡Guau! Hay      mucha    comida aquí.
-~            wow   there~is a~lot~of food   here 
+Speaker508: Wow! Wat een massa eten hier!
+~            wow! what a lot~of food   here 
 
 [LINE]
-Speaker507: Sí,  mi familia va~a~venir a  cenar.      
-~           yes  my family  is~coming  to have~dinner 
+Speaker507: Ja, mijn familie komt vanavond bij ons eten.      
+~           yes  my family  is~coming(~with~us)  to~have~dinner~tonight
 
 [MULTIPLE_CHOICE]
 > Bea's family is coming to her house for breakfast.
@@ -29,43 +29,43 @@ Speaker507: Sí,  mi familia va~a~venir a  cenar.
 + No, that's wrong.
 
 [LINE]
-Speaker508: Ah, ¿me~puedo~comer un~poco~de pastel?
-~           oh   I~can~eat      some       cake   
+Speaker508: Ah, mag~ik een~stukje taart?
+~           oh  Can~I~have   some       cake   
 
 [LINE]
-Speaker507: No.
+Speaker507: Nee.
 ~           no 
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker508: Pero [tienes~tres~pasteles].
-~           but   you~have~three~cakes  
-- vienes con tres pasteles
-- tiene tres carteles
-+ tienes tres pasteles
+Speaker508: Maar [je hebt drie taarten!]
+~           but   you have three cakes  
+- Je hebt drie cokes
+- Je bent drie cakes
++ Je hebt drie cakes
 
 [LINE]
-Speaker507: Yo necesito tres  pasteles.
-~           I  need     three cakes    
+Speaker507: Ik heb drie taarten nodig.
+~           I  have(necessary)     three cakes (heb~*~nodig~=~need~*)    
 
 [LINE]
-Speaker508: Bueno, ¿me~puedo~beber un vaso  de vino?
-~           well    I~can~drink    a  glass of wine 
+Speaker508: Nou, mag~ik~dan een glas wijn?
+~           well than~can~I~have    a  glass~of wine 
 
 [LINE]
-Speaker507: No.
+Speaker507: Nee.
 ~           no 
 
 [CONTINUATION]
 > What's next?
-Speaker508: Tienes   cuatro botellas [de vino].
-~           you~have four   bottles   of wine  
-- la  mesa 
-~ the table
-- de pastel
-~ of cake  
-+ de vino
-~ of wine
+Speaker508: Je hebt vier [flessen wijn].
+~           you~have four   bottles~of wine  
+- flessen water 
+~ bottles of water
+- glazen wijn
+~ glasses of wine
++ flessen wijn
+~ bottles of wine
 
 [LINE]
 Speaker507: Yo necesito todo ese  vino.
