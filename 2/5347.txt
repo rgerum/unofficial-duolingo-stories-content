@@ -1,23 +1,27 @@
 [DATA]
 fromLanguageName=Junior Exercises
 icon=9f2d4bdaca5fe3e93b4a97529d903567ee23fd4e
-set=9|1
+set=0|1 #9|1
 
 [HEADER]
-> Junior hace ejercicio
+> Junior doet oefeningen
 ~ Junior does exercise 
+$5347/b76839da.mp3;6,50;5,650;11,250
 
 [LINE]
-> Junior está~jugando videojuegos.
-~ Junior is~playing   video~games 
+> Jünior is aan~het~gamen
+~ Junior is playing~video~games 
+$5347/f4110e52.mp3;6,50;3,700;4,200;4,137;6,163
 
 [LINE]
-Speaker414: ¿Quieres  hacer un~poco~de ejercicio, Junior?
-~            you~want to~do a~little   exercise   Junior 
+Speaker414: Wil~je een~beetje trainen, Junior?
+~            you~want~to~do a~little   exercising   Junior 
+$5347/17af594a.mp3;3,50;3,250;4,112;7,113;8,362;7,725
 
 [LINE]
-Speaker415: No, quiero jugar   videojuegos.
-~           no  I~want to~play video~games 
+Speaker415: Nee, ik wil gamen.
+~           no  I want to~play~video~games 
+$5347/532b1b76.mp3;3,0;4,329;4,265;6,170
 
 [MULTIPLE_CHOICE]
 > Junior wants to exercise.
@@ -25,64 +29,76 @@ Speaker415: No, quiero jugar   videojuegos.
 - Yes, that's right.
 
 [LINE]
-> Eddy tiene una idea.
+> Eddy heeft een idee.
 ~ Eddy has   an  idea 
+$5347/689a1ea8.mp3;4,50;6,400;4,312;5,163
 
 [LINE]
-Speaker414: ¿Quieres  ir    a  la  tienda~de~videojuegos?
-~            you~want to~go to the video~game~store      
+Speaker414: Wil~je naar de videogamewinkel?
+~            you~want to~go~to the video~game~store      
+$5347/a5842548.mp3;3,50;3,237;5,75;3,138;16,100
 
 [LINE]
-Speaker415: ¡Sí! 
+Speaker415: Ja! 
 ~            yes 
+$5347/b0ea39c2.mp3;2,0
 
 [LINE]
-Speaker414: ¡Está~bien!
+Speaker414: Goed!
 ~            OK        
+$5347/62ed7486.mp3;4,50
 
 [LINE]
-Speaker414: ¿Puedes~ir~a~buscar  mi cartera? Está    en mi habitación.
-~            you~can~go~look~for my wallet   (it)~is in my bedroom    
+Speaker414: Kun~je mijn portefeuille zoeken? Hij ligt in mijn slaapkamer
+~           Can~you(look~for)  my wallet (to~look~for)  It is in my bedroom    
+$5347/6220d0d4.mp3;3,50;3,175;5,87;13,188;7,600;4,812;5,175;3,275;5,75;11,163
 
 [CONTINUATION]
 > What's next?
-> Junior corre a~buscar             [la  cartera].
-~ Junior runs  in~order~to~look~for  the wallet   
-+ la  cartera
+> Junior rent naar~boven om             [de portefeuille] te zoeken.
+~ Junior runs  upstairs in~order~to~(look~for)  the wallet (to look~for)  
+$5347/70ad669e.mp3;6,50;5,612;5,313;6,237;3,375;3,138;13,125;3,587;7,100
++ De portefeuille
 ~ the wallet 
-- tienda~de~videojuegos
-~ video~game~store     
-- ejercicio
-~ exercise 
+- De videogamewinkel
+~ The video~game~store     
+- De kassabon
+~ the receipt 
 
 [LINE]
-Speaker415: ¡Aquí está,    papá!
-~            here (it)~is  dad  
+Speaker415: Hier is~hij, papa!
+~           here it~is  dad  
+$5347/6b68189a.mp3;4,0;3,274;4,160;6,250
 
 [POINT_TO_PHRASE]
 > Choose the option that means "keys."
-Speaker414: ¿Y   puedes~ir~a   (la~cocina)   y   (buscar)        (mis) (+llaves)?
-~            and you~can~go~to  the~kitchen  and  (to)~look~for   my     keys    
+Speaker414: (en) (kun)~(je) (naar)~(de)~(keuken)~(gaan) (en) (mijn) (+sleutels) (zoeken?)
+~            and can~you go~to~the~kitchen  and  look~for~my~keys    
+$5347/680fd962.mp3;2,50;4,150;3,175;5,75;3,137;7,100;5,388;3,287;5,75;9,138;7,500
 
 [LINE]
-> Junior corre~a buscar      las llaves.
-~ Junior runs    to~look~for the keys   
+> Junior rent om de~sleutels~te~zoeken.
+~ Junior runs to look~for~the~keys   
+$5347/b1469ba2.mp3;6,50;5,600;3,387;3,125;9,138;3,500;7,87
 
 [LINE]
-Speaker415: ¿Vamos?   
-~            let's~go 
+Speaker415: Laten we gaan!  
+~           let 's go 
+$5347/d2df1ad2.mp3;5,0;3,324;5,100
 
 [LINE]
-Speaker414: Necesito mi chaqueta.
+Speaker414: Ik heb mijn jack nodig
 ~           I~need   my jacket   
+$5347/d0211b10.mp3;2,50;4,187;5,138;4,162;6,250
 
 [LINE]
-Speaker414: Está    en el~apartamento~de~Vikram.
-~           (it)~is in Vikram's~apartment       
+Speaker414: Hij hangt in Vikram zijn flat.
+~           it is(hanging) in Vikram 's apartment       
 
 [LINE]
-Speaker415: Pero Vikram vive  en el  último piso… 
-~           but  Vikram lives on the last   floor 
+Speaker415: Maar Vikram woont op de bovenste verdieping … 
+~           but  Vikram lives on the top   floor 
+$5347/08503282.mp3;4,0;7,189;6,495;3,260;3,140;9,75;11,520
 
 [MULTIPLE_CHOICE]
 > Wait… who lives on the top floor?
@@ -91,12 +107,14 @@ Speaker415: Pero Vikram vive  en el  último piso…
 - Eddy
 
 [LINE]
-Speaker414: Por~favor, Junior…
+Speaker414: Alsjeblieft, Junior…
 ~           please     Junior 
+$5347/182e3730.mp3;11,50;7,987
 
 [LINE]
-> Junior se~va  y   vuelve  con  la~chaqueta~de~Eddy.
-~ Junior leaves and returns with Eddy's~jacket       
+> Jünior gaat, en komt~terug met Eddy zijn jack.
+~ Junior leaves and returns with Eddy|'s jacket       
+$5347/65fd621a.mp3;6,50;5,587;3,700;5,213;6,200;4,362;5,263;5,250;4,250
 
 [MULTIPLE_CHOICE]
 > Junior leaves and then he comes back with… 
@@ -105,16 +123,19 @@ Speaker414: Por~favor, Junior…
 - …a frog.
 
 [LINE]
-Speaker414: ¡Perfecto, nos~podemos~ir!
-~            perfect   we~can~go      
+Speaker414: Perfect! We kunnen gaan!
+~            perfect   we can go      
+$5347/857c6d34.mp3;7,50;3,1162;7,175;5,300
 
 [LINE]
-Speaker415: Pero ahora estoy muy  cansado.
+Speaker415: Maar nu ben~ik heel moe.
 ~           but  now   I~am  very tired   
+$5347/931d6c86.mp3;4,0;3,174;4,185;3,196;5,134;4,211
 
 [LINE]
-Speaker414: ¿Por~qué? ¿Demasiado ejercicio?
-~            why       too~much  exercise  
+Speaker414: Hoezo? Te veel getraind?
+~            why   too much  exercise  
+$5347/b20f83d6.mp3;5,50;3,1000;5,175;9,250
 
 [MULTIPLE_CHOICE]
 > Eddy…
@@ -124,9 +145,9 @@ Speaker414: ¿Por~qué? ¿Demasiado ejercicio?
 
 [MATCH]
 > Tap the pairs
-- se va <> leaves
-- Pero <> but
-- Está <> is
-- Junior <> Junior
-- Sí <> yes
+- Hij gaat <> He leaves
+- Trainen <> Exercising
+- Hoezo <> Why?
+- Moe <> Tired
+- De bovenste verdieping <> The top floor
 
