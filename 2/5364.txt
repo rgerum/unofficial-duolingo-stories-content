@@ -1,7 +1,7 @@
 [DATA]
 fromLanguageName=I Want a Pizza
 icon=3eebaf390a99fcebfaf064cfa42f14c071b5b97f
-set=13|2
+set=0|1 #13|2
 
 [HEADER]
 > Yo quiero una pizza
@@ -14,7 +14,8 @@ set=13|2
 [SELECT_PHRASE]
 > Select the missing phrase
 > [Ella~tiene~dos~pizzas].
-~  she~has~two~pizzas     
+~  she~has~two~pizzas  
+
 - Ella tiene las pintas
 + Ella tiene dos pizzas
 - Él la quiere con pizzas
@@ -39,6 +40,7 @@ Speaker592: ¡Me~encanta ese  restaurante!
 > What comes next?
 Speaker592: ¡Yo también quiero [pizza]!
 ~            I  also    want    pizza  
+
 + pizza
 - restaurantes
 ~ restaurants 
