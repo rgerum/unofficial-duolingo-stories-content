@@ -4,35 +4,37 @@ icon=0e6ab8c3a4e3224cb700e8daeac0038f7f0e929e
 set=0|1 #12|1
 
 [HEADER]
-> Un apartamento~muy~sucio
-~ a  very~dirty~apartment 
+> Een heel vuil appartement
+~ a  very dirty apartment 
 
 [LINE]
-> Bea está en el  apartamento de su~amiga   Marina.
-~ Bea is   in the apartment   of her~friend Marina 
+> Bea is in het appartement van haar vriendin  Marina.
+~ Bea is   in the apartment   of her friend Marina 
 
 [LINE]
-Speaker507: Hola,  Marina. ¿Cómo~estás? 
+Speaker507: Ha,  Marina. hoe~gaat~het~met~je? 
 ~           hello  Marina   how~are~you 
 
 [LINE]
-Speaker175: ¡Terrible!
+Speaker175: Afschuwelijk!
+~           Terrible
 
 [CONTINUATION]
 > What comes   next?
 ~ que  you~eat Next 
-Speaker507: Ay, no… Pero ¿[por~qué]?
-~           oh  no  but    why      
-- es su                     amiga 
-~ is his~/~her~/~its~/their friend
-- mi apartamento
-~ my apartment  
-+ por      qué 
-~ by~/~for what
+Speaker507: Ach, nee! Maar [hoezo]?
+~           oh  no  but    why   
+
+- hoest~je~zo
+~ are~you~coughing~that~much
+- kom~je~zo
+~ Will~you~come~in~a~minute  
++ hoezo 
+~ for~what~reason
 
 [LINE]
-Speaker175: Mi nueva compañera~de~cuarto y   yo siempre discutimos.
-~           my new   roommate            and I  always  argue      
+Speaker175: Ik heb aldoor ruzie met mijn nieuwe kamergenoot.
+~           I have all~the~time fights with my new roommate            and I  always  argue      
 
 [MULTIPLE_CHOICE]
 > Marina and her roommate argue all the time.
@@ -40,53 +42,54 @@ Speaker175: Mi nueva compañera~de~cuarto y   yo siempre discutimos.
 + Yes, that's right.
 
 [LINE]
-Speaker507: No~estoy sorprendida, la  cocina  está muy  sucia.
-~           I~am~not surprised    the kitchen is   very dirty 
+Speaker507: Dat~verbaast~me~niet. De keuken is erg vies.
+~           I~am~not~surprised    the kitchen is   very dirty 
 
 [LINE]
-Speaker175: Sí,  lo~sé. 
+Speaker175: Ja, ik~weet~het. 
 ~           yes  I~know 
 
 [LINE]
-Speaker507: Y…   ¿qué  es eso  sobre la  mesa?  ¿Queso~viejo?
-~           and   what is that on    the table   old~cheese  
+Speaker507: En.. wat zit~er aan de tafel daar? Een klodder smeerkaas?
+~           and   What 's~sticking at the table over~there? A blob of cheese~spread? 
 
 [LINE]
-Speaker175: Sí,  ¡puaj!
+Speaker175: Ja, Bah!
 ~           yes   yuck 
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker507: ¡También~hay    ropa~sucia    [sobre~esta~silla]!
-~            there~are~also dirty~clothes  on~this~chair     
-+ sobre esta silla
-- sobre esta cita
-- cubre esta silla
+Speaker507: En er liggen ook~nog vuile kleren   [op deze stoel]!
+~           and there are also dirty clothes  on this chair  
+
++ op deze stoel
+- op die stoel
+- op deze stoelen
 
 [LINE]
-Speaker507: Marina, pero… esta es tu~camisa. 
-~           Marina  but   this is your~shirt 
+Speaker507: Maar Marina, dit is jouw blouse. 
+~           ut Marina  this is your shirt 
 
 [LINE]
-Speaker175: Sí. 
+Speaker175: Ja. 
 ~           yes 
 
 [LINE]
-Speaker507: ¡Esta~es   tu   ropa!   
-~            these~are your clothes 
+Speaker507: Dit zijn jouw kleren!   
+~            these are your clothes 
 
 [POINT_TO_PHRASE]
 > Choose the option that means "yours."
-Speaker507: ¿(Y)   (el)  queso~viejo? ¿(También~es) (+tuyo)? 
-~             and   the  old~cheese     it~is~also    yours  
+Speaker507: ¿(En)   (die)  (smeerkaas?) (is) (die) (ook) [(+van~jou)]?
+~             and   that  cheese~spread     it is also    yours  
 
 [LINE]
-Speaker175: Sí,  yo nunca limpio y   mi compañera~de~cuarto siempre~está enojada.
-~           yes  I  never clean  and my roommate            is~always    angry   
+Speaker175: Ja, ik maak~nooit~schoon en mijn kamergenoot is altijd boos.
+~           yes  I  never~clean  and my roommate            is always    angry   
 
 [LINE]
-Speaker175: ¡Es    terrible!
-~            it~is terrible 
+Speaker175: Het is verschrikkelijk!
+~            it is terrible 
 
 [MULTIPLE_CHOICE]
 > Ah ha! What do Marina and her roommate argue about?
@@ -96,9 +99,9 @@ Speaker175: ¡Es    terrible!
 
 [MATCH]
 > Tap the pairs
-- lo sé <> I know
-- Sí <> yes
-- Marina <> Marina
-- Esta es <> these are
-- tu <> your
+- Afschuwelijk <> Terrible
+- De Smeerkaas <> The Cheese spread
+- Schoonmaken <> To clean
+- Nooit <> Never
+- Vuil <> Dirty
 
