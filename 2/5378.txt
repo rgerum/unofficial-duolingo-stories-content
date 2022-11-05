@@ -8,9 +8,14 @@ set=0|1 #16|4
 ~ Junior's breakfast   
 
 [LINE]
-> Eddy maakt~het~ontbijt~klaar voor Junior.
-~ Eddy is~preparing~breakfast   for  Junior 
-$5378/7d50d5fa.mp3;4,50;6,312;4,300;8,138;6,512;5,288;7,187
+> Het is zaterdagmorgen. Eddy staat in de keuken.
+~ It  's saturday~morning Eddy is in the kitchen
+$5378/d24be136.mp3;3,50;3,275;15,137;5,1925;6,363;3,412;3,125;7,125
+
+[LINE]
+> Hij maakt~het~ontbijt~klaar voor Junior.
+~ He is~preparing~breakfast   for  Junior 
+$5378/df548126.mp3;3,50;6,237;4,300;8,150;6,513;5,287;7,188
 
 [LINE]
 Speaker415: Hoi pap! Wat        ben~je~aan~het~doen?        
@@ -20,6 +25,7 @@ $5378/bc1039a2.mp3;3,0;4,215;5,340;4,354;3,170;4,121;4,189;5,115
 [LINE]
 Speaker414: Goedemorgen  Junior! Ik ben~je~ontbijt~aan~het~maken.
 ~           good~morning  Junior I 'm~making~your~breakfast   
+$5378/761cb156.mp3;11,50;7,725;3,987;4,200;3,138;8,112;4,450;4,88;6,125
 
 [MULTIPLE_CHOICE]
 > Eddy is cooking dinner.
@@ -29,11 +35,13 @@ Speaker414: Goedemorgen  Junior! Ik ben~je~ontbijt~aan~het~maken.
 [LINE]
 Speaker415: Ontbijt?
 ~            breakfast   
+$5378/72f4f92a.mp3;7,0
 
 [CONTINUATION]
 > What comes next?
-Speaker414: Ja! ik~heb~nooit tijd  om         [het ontbijt] voor je te~maken.
-~           yes  I~never~have time to~prepare the breakfast   for you (to~make)    
+Speaker414: Ja! Ik~heb~nooit tijd  om         [je ontbijt]   te~maken.
+~           yes  I~never~have time to~prepare your breakfast (to~make)    
+$5378/0d1abc2e.mp3;2,50;3,862;4,175;6,175;5,288;3,287;3,113;8,87;3,400;6,100
 
 - het huiswerk 
 ~ the~homework
@@ -45,63 +53,77 @@ Speaker414: Ja! ik~heb~nooit tijd  om         [het ontbijt] voor je te~maken.
 [LINE]
 Speaker414: Maar vandaag is~het anders!
 ~            but  today it's different 
+$5378/16660ebe.mp3;4,50;8,312;3,513;4,137;7,138
 
 [LINE]
-Speaker415: Papa, ik wil~niet  ontbijten.        
-~           dad   I don't~want to~have~breakfast 
+Speaker415: Papa, ik wil~niet meer       ontbijten.        ()
+~           dad   I don't~want (anymore) to~have~breakfast anymore
+$5378/3e1a6cac.mp3;4,0;4,419;4,270;5,135;5,230;10,175
 
 [LINE]
 Speaker414: Wat?  Maar ik ben eieren~aan~het~bakken…
 ~           what  but  I 'm   frying~eggs            
+$5378/6ac9300e.mp3;3,50;5,875;3,200;4,87;7,188;4,412;4,100;7,113
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker415: [Ik wil geen eieren]. 
+Speaker415: [Ik wil geen eieren] meer. 
 ~            I~don't~want~eggs  
+$5378/4c685f58.mp3;2,0;4,144;5,145;7,310;5,375
 - Ik wil geen eiders
 - Ik wil graag eieren
 + Ik wil geen eieren
 
 [LINE]
-Speaker414: maar je  bent~er~gek~op!
+Speaker414: Maar je  bent~er~gek~op!
 ~           but  you love~them    
-
-[LINE]
-Speaker415: Sí,  pero…
-~           yes  but  
-
-[POINT_TO_PHRASE]
-> Choose the option that means "bacon."
-Speaker414: (en)   (ze)  (zijn) met   (+spek)!
-~            and   they  are    with bacon       
-
-[LINE]
-Speaker414: Je~bent~gek~op spek, toch?
-~           you~love       bacon don't~you?   
+$5378/5bbc6a90.mp3;4,50;3,212;5,150;3,238;4,87;3,238
 
 [LINE]
 Speaker415: Ja, maar…
 ~           yes  but  
+$5378/5d665062.mp3;2,0;6,344
+
+[POINT_TO_PHRASE]
+> Choose the option that means "bacon."
+Speaker414: (En)   (ze)  (zijn) (zelfs) (met) (+spek)!
+~            and   they  are    even     with  bacon       
+$5378/b7ace87e.mp3;2,50;3,225;5,150;6,187;4,363;5,162
+
+[LINE]
+Speaker414: Je~bent~gek~op spek toch?
+~           you~love       bacon don't~you?   
+$5378/c1cc49c6.mp3;2,50;5,162;4,238;3,200;5,125;5,325
+
+[LINE]
+Speaker415: Ja, maar…
+~           yes  but  
+$5378/507a9f62.mp3;2,0;6,344
 
 [LINE]
 Speaker414: Wat? 
 ~            what 
+$5378/48c054d8.mp3;3,50
 
 [LINE]
 Speaker415: Papa… Het is al     één~uur!     
 ~           dad   it 's already one~o'clock 
+$5378/47de2c7a.mp3;4,0;5,454;3,425;3,125;4,196;4,230
 
 [LINE]
 > Eddy kijkt~op zijn horloge. 
 ~ Eddy looks~at his watch 
+$5378/4b980e6c.mp3;4,50;6,387;3,325;5,125;8,238
 
 [LINE]
 Speaker414: Ach nee! Ontbijt~maken kost een~hoop tijd.
 ~           oh  no  making~breakfast  takes a~lot~of time   
+$5378/4559b5e6.mp3;3,50;4,325;8,800;6,575;5,337;4,288;5,100;5,300
 
 [LINE]
 Speaker415: Maar nu  kunnen~we een~lunch~maken!
 ~           but  now we~can    make~lunch       
+$5378/d7b11e9c.mp3;4,0;3,164;7,195;3,241;4,135;6,120;6,335
 
 [MULTIPLE_CHOICE]
 > Why didn't Junior want breakfast?
