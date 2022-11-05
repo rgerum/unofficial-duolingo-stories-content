@@ -9,16 +9,16 @@ set=0|1 #15|3
 $5373/10711b8e.mp3;2,50;11,137
 
 [LINE]
-Speaker418: No~puedo, Lily.
-~           I~can't   Lily 
+Speaker418: Ik kan~dit~niet, Lily.
+~           I can't~do~this  Lily 
 
 [LINE]
-Speaker416: Sí  puedes,  no~te~preocupes.
-~           yes you~can  don't~worry     
+Speaker416: Jazeker, je~kunt~het~wel Maak~je~geen~zorgen.
+~           yes      you~can         don't~worry     
 
 [LINE]
-Speaker418: ¡Tengo~miedo! ¡Es   demasiado peligroso!
-~            I'm~afraid    it's too       dangerous 
+Speaker418: Ik ben bang! Het is te gevaarlijk!
+~            I 'm afraid it 's too dangerous 
 
 [MULTIPLE_CHOICE]
 > Zari isn't afraid of anything.
@@ -26,89 +26,91 @@ Speaker418: ¡Tengo~miedo! ¡Es   demasiado peligroso!
 - Yes, that's right.
 
 [LINE]
-Speaker418: ¡No~quiero    ir!   
-~            I~don't~want to~go 
+Speaker418: Ik wil~er~niet~in!   
+~           I don't~want~to~go~in
 
 [LINE]
-Speaker416: Zari… vamos~a~estar     bien.
-~           Zari  we're~going~to~be fine 
+Speaker416: Zari… Het gaat echt allemaal goed.
+~           Zari  It will~be really all okay
 
 [ARRANGE]
 > Tap what you hear
-Speaker418: ¿[(Y)   (cómo) (sabes)       (eso)?] 
-~              and   how    do~you~know   that   
+Speaker418: [(en) (hoe) (weet)~(je) (dat)?] 
+~            and   how  do~you~know that   
 
 [LINE]
-Speaker416: Bueno, mucha    gente  lo~hace.
-~           well   a~lot~of people do~it   
+Speaker416: Nou, heel~veel mensen doen het.
+~           well a~lot~of people do it   
 
 [LINE]
-Speaker416: Zari… todo       va~a~estar     bien.
-~           Zari  everything is~going~to~be fine 
+Speaker416: Zari… het zal allemaal goed~gaan.
+~           Zari  it will all go~well 
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker416: [Yo~estoy~aquí~contigo] y   vamos~a~ir        juntas.  
-~            I'm~here~with~you      and we're~going~to~go together 
-+ Yo estoy aquí contigo
-- No estoy ahí contigo
-- Yo esto lo consigo
+Speaker416: [Ik~ben~bij~je]    en  we gaan            samen.  
+~            I'm~here~with~you and we 're~going~to~go together 
+
+- Ik ben bijen
++ Ik ben bij je
+- Ik ben bei je
 
 [LINE]
-Speaker418: Gracias,   Lily. Eres    una buena amiga. 
-~           thank~you  Lily  you~are a   good  friend 
+Speaker418: Dank~je   Lily. Je bent een fijne vriendin.
+~           thank~you Lily  you are a   good  friend 
 
 [LINE]
-Speaker418: Está~bien.
+Speaker418: Goed!
 ~           OK        
 
 [LINE]
-Speaker418: ¡Creo    que  estoy lista!
-~            I~think that I~am  ready 
+Speaker418: Ik denk dat ik~er~klaar~voor~ben!
+~           I think that I~am~ready~to~go 
 
 [POINT_TO_PHRASE]
 > Choose the option that means "roller coaster."
-Speaker300: ¿(Vas~a~montarte~en)     (la)  (+montaña~rusa)  o  (no)? 
-~             are~you~going~to~ride   the    rollercoaster  or  not  
+Speaker300: (Gaan)~(jullie)~(nou)~(in)  (de) (+achtbaan)      (of)  (niet)? 
+~             Now~are~you~going~to~ride   the  roller~coaster  or    not  
 
 [LINE]
-Speaker300: ¡Hay       mucha    gente  esperando!
-~            there~are a~lot~of people waiting   
+Speaker300: Er staat een~hele~rij achter jullie te~wachten!
+~            there is quite~a~queue behind you (waiting)  
 
 [LINE]
-Speaker300: Esta es la~montaña~rusa~más~alta~y~más~vieja del    país.   
-~           this is the~tallest~and~oldest~rollercoaster of~the country 
+Speaker300: Dit is de  hoogste en  oudste achtbaan van het land.   
+~          this is the tallest and oldest roller coaster in the country 
 
 [LINE]
-Speaker416: Espera… ¿La  más~alta? ¡¿Y   la  más~vieja?!
-~           wait     the tallest     and the oldest     
+Speaker416: Wacht even!   De hoogste en de oudste?
+~           wait a~second    the tallest     and the oldest     
 
 [LINE]
-Speaker418: ¡Está~bien, lo~voy~a~hacer!    
-~            OK         I'm~going~to~do~it 
+Speaker418: Mooi, Ik doe het!    
+~           Fine  I  will~do it 
 
 [CONTINUATION]
 > What comes next?
-Speaker418: ¡Y   mi amiga,  Lily, [va~a~venir conmigo]!
-~            and my friend  Lily   is~coming  with~me  
-- va~a~ir~a         su~casa  
-~ is~going~to~go~to her~house
-+ va~a~venir conmigo
+Speaker418: En mijn vriendin  Lily [gaat      met~me~mee]!
+~            and my friend  Lily     is~coming with~me  
+
+- blijft    hier wachten  
+~ Will~stay here waiting
++ gaat met me mee
 ~ is~coming  with~me
-- es muy  peligrosa
+- is heel gevaarlijk
 ~ is very dangerous
 
 [LINE]
-Speaker418: Espera… ¿Lily? ¿Por~qué~corres?      ¿Adónde~vas?         
-~           wait     Lily   why~are~you~running   where~are~you~going 
+Speaker418: Wacht… Lily? Waarom loop~je         weg?   waar ga~je          heen?         
+~           wait   Lily  why    are~you~running away   where are~you~going to
 
 [LINE]
-Speaker416: ¡Lo~siento, Zari! ¡No~quiero       montarme~en esa  montaña~rusa! 
-~            I'm~sorry  Zari   I~don't~want~to (to)~ride   that rollercoaster 
+Speaker416: Het~spijt~me Zari! Ik durf~niet in         die achtbaan! 
+~           I'm~sorry     Zari I don't~dare to~go~into that roller~coaster 
 
 [LINE]
-Speaker416: ¡Es   demasiado peligroso!
-~            it's too       dangerous 
+Speaker416: Het is te  gevaarlijk!
+~           it 's  too dangerous 
 
 [MULTIPLE_CHOICE]
 > Zari decided to ride the roller coaster, but…
@@ -118,9 +120,9 @@ Speaker416: ¡Es   demasiado peligroso!
 
 [MATCH]
 > Tap the pairs
-- Gracias <> thank you
-- Lo siento <> I'm sorry
-- una <> a
-- Zari <> Zari
-- montaña rusa <> rollercoaster
+- Durven <> to Dare
+- de Achtbaan <> the Rollercoaster
+- een Hele Rij <> Quite a Queue
+- Heel veel <> a Lot of
+- het Gevaar <> the Danger
 
