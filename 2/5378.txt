@@ -1,23 +1,25 @@
 [DATA]
 fromLanguageName=Junior's Breakfast
 icon=6d79d91b8caad82e9f6ce44a1b458f12ac6a7a9f
-set=16|4
+set=0|1 #16|4
 
 [HEADER]
-> El~desayuno~de~Junior
-~ Junior's~breakfast   
+> Juniors ontbijt
+~ Junior's breakfast   
 
 [LINE]
-> Eddy está~haciendo el~desayuno para Junior.
-~ Eddy is~making     breakfast   for  Junior 
+> Eddy maakt~het~ontbijt~klaar voor Junior.
+~ Eddy is~preparing~breakfast   for  Junior 
+$5378/7d50d5fa.mp3;4,50;6,312;4,300;8,138;6,512;5,288;7,187
 
 [LINE]
-Speaker415: ¡Hola,  papá! ¿Qué  haces?        
-~            hello  dad    what you~are~doing 
+Speaker415: Hoi pap! Wat        ben~je~aan~het~doen?        
+~            hello  dad    what are~you~doing 
+$5378/bc1039a2.mp3;3,0;4,215;5,340;4,354;3,170;4,121;4,189;5,115
 
 [LINE]
-Speaker414: ¡Buenos~días,  Junior! ¡Te~estoy~haciendo~el~desayuno!
-~            good~morning  Junior   I'm~making~breakfast~for~you  
+Speaker414: Goedemorgen  Junior! Ik ben~je~ontbijt~aan~het~maken.
+~           good~morning  Junior I 'm~making~your~breakfast   
 
 [MULTIPLE_CHOICE]
 > Eddy is cooking dinner.
@@ -25,43 +27,44 @@ Speaker414: ¡Buenos~días,  Junior! ¡Te~estoy~haciendo~el~desayuno!
 + No, that's wrong.
 
 [LINE]
-Speaker415: ¿El~desayuno?
+Speaker415: Ontbijt?
 ~            breakfast   
 
 [CONTINUATION]
 > What comes next?
-Speaker414: Sí,  nunca~tengo  tiempo de~hacerte  [el~desayuno].
-~           yes  I~never~have time   to~make~you  breakfast    
-- las~tareas  
+Speaker414: Ja! ik~heb~nooit tijd  om         [het ontbijt] voor je te~maken.
+~           yes  I~never~have time to~prepare the breakfast   for you (to~make)    
+
+- het huiswerk 
 ~ the~homework
-+ el~desayuno
-~ breakfast  
-- papá
-~ dad 
++ het~ontbijt
+~ the breakfast  
+- de thee
+~ the tea
 
 [LINE]
-Speaker414: ¡Pero hoy   es   diferente!
+Speaker414: Maar vandaag is~het anders!
 ~            but  today it's different 
 
 [LINE]
-Speaker415: Papá, no~quiero    desayunar.        
-~           dad   I~don't~want to~have~breakfast 
+Speaker415: Papa, ik wil~niet  ontbijten.        
+~           dad   I don't~want to~have~breakfast 
 
 [LINE]
-Speaker414: ¡¿Qué?!  Pero estoy~haciendo huevos…
-~             what   but  I'm~making     eggs   
+Speaker414: Wat?  Maar ik ben eieren~aan~het~bakken…
+~           what  but  I 'm   frying~eggs            
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker415: [No~quiero~huevos]. 
+Speaker415: [Ik wil geen eieren]. 
 ~            I~don't~want~eggs  
-- No quiero nuevos
-- Lo quiero nuevo
-+ No quiero huevos
+- Ik wil geen eiders
+- Ik wil graag eieren
++ Ik wil geen eieren
 
 [LINE]
-Speaker414: ¡Pero a~ti~te~encantan!
-~            but  you~love~them    
+Speaker414: maar je  bent~er~gek~op!
+~           but  you love~them    
 
 [LINE]
 Speaker415: Sí,  pero…
@@ -69,36 +72,36 @@ Speaker415: Sí,  pero…
 
 [POINT_TO_PHRASE]
 > Choose the option that means "bacon."
-Speaker414: ¡(Y)   (hay)      (+tocino) (también)!
-~             and   there~is    bacon    too      
+Speaker414: (en)   (ze)  (zijn) met   (+spek)!
+~            and   they  are    with bacon       
 
 [LINE]
-Speaker414: ¡A~ti~te~encanta el~tocino!
-~            you~love        bacon     
+Speaker414: Je~bent~gek~op spek, toch?
+~           you~love       bacon don't~you?   
 
 [LINE]
-Speaker415: Sí,  pero…
+Speaker415: Ja, maar…
 ~           yes  but  
 
 [LINE]
-Speaker414: ¿Qué? 
+Speaker414: Wat? 
 ~            what 
 
 [LINE]
-Speaker415: Papá… ¡ya~es        la~una!     
-~           dad    it's~already one~o'clock 
+Speaker415: Papa… Het is al     één~uur!     
+~           dad   it 's already one~o'clock 
 
 [LINE]
-> Eddy mira     su~reloj. 
-~ Eddy looks~at his~watch 
+> Eddy kijkt~op zijn horloge. 
+~ Eddy looks~at his watch 
 
 [LINE]
-Speaker414: Ay, no… Hacer~el~desayuno toma  mucho    tiempo.
+Speaker414: Ach nee! Ontbijt~maken kost een~hoop tijd.
 ~           oh  no  making~breakfast  takes a~lot~of time   
 
 [LINE]
-Speaker415: ¡Pero ahora podemos~hacer el~almuerzo!
-~            but  now   we~can~make   lunch       
+Speaker415: Maar nu  kunnen~we een~lunch~maken!
+~           but  now we~can    make~lunch       
 
 [MULTIPLE_CHOICE]
 > Why didn't Junior want breakfast?
@@ -108,9 +111,9 @@ Speaker415: ¡Pero ahora podemos~hacer el~almuerzo!
 
 [MATCH]
 > Tap the pairs
-- toma <> takes
-- A ti te encanta <> you love
-- papá <> dad
-- ahora <> now
-- Hola <> hello
+- Gek zijn op * <> to Love *
+- het Ontbijt <> the Breakfast
+- het Spek <> the Bacon
+- Bakken <> to Fry
+- tijd Kosten <> to Take time
 
