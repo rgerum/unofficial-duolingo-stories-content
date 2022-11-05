@@ -1,69 +1,82 @@
 [DATA]
 fromLanguageName=The Big Game
 icon=170e9caad206d87350e17e32c18226edefea8131
-set=16|3
+set=0|1 #16|3
 
 [HEADER]
-> El  gran partido
+> De grote wedstrijd
 ~ the big  game   
+$5377/9b55374a.mp3;2,50;6,137;10,475
 
 [LINE]
-> Bea llega   a  la~casa~de~Julio.
-~ Bea arrives at Julio's~house    
+> Bea komt~aan bij het~huis~van~Julian.
+~ Bea arrives at Julian's~house    
+$5377/794d665e.mp3;3,50;5,475;4,275;4,175;4,125;5,125;4,325;7,187
 
 [LINE]
-Speaker507: ¿Estás~listo?  
-~            are~you~ready 
+Speaker507: Ben je klaar?  
+~           are you ready 
+$5377/76f81eee.mp3;3,50;3,275;6,100
 
 [LINE]
-Speaker507: ¡Este es el  partido~más~emocionante del    año! 
-~            this is the most~exciting~game      of~the year 
+Speaker507: Dit is de meest opwindende wedstrijd van het jaar! 
+~          this is the most exciting   game      of  the year 
+$5377/71491746.mp3;3,50;3,362;3,188;6,87;11,425;10,538;4,550;4,137;5,150
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker507: ¡Y   [tenemos~entradas] para        ir!     
-~            and  we~have~tickets   in~order~to (to)~go 
-- debemos entradas
-- tenemos extrañas
-+ tenemos entradas
+Speaker507:  En   we hebben~er [kaartjes voor]!     
+~            and  we have      tickets  for~it 
+$5377/5cce0b14.mp3;2,50;3,200;7,87;3,275;9,175;5,450
+- karretjes voor
+- kaarsjes voor
++ kaartjes voor
 
 [LINE]
 Speaker295: Bea…
 ~           Bea 
+$5377/58cbaac6.mp3;3,50
 
 [LINE]
-Speaker295: No~puedo ir~al          partido.
-~           I~can't  (to)~go~to~the game    
+Speaker295: Ik kan niet naar de wedstrijd.
+~           I  can 't(go) to the game    
+$5377/55204c42.mp3;2,50;4,225;5,175;5,250;3,175;10,87
 
 [LINE]
-Speaker507: ¿Por~qué?
-~            why     
+Speaker507: Waarom niet?
+~            why   not   
+$5377/522a9196.mp3;6,50;5,387
 
 [LINE]
-Speaker295: Tengo~que estudiar.  
-~           I~have~to (to)~study 
+Speaker295: Ik moet   studeren.  
+~           I have~to study 
+$5377/4f0183d0.mp3;2,50;5,212;9,225
 
 [LINE]
-Speaker295: Tengo  un examen~muy~importante mañana.  
-~           I~have a  very~important~exam   tomorrow 
+Speaker295: Morgen heb~ik een heel belangrijk tentamen.  
+~           Tomorros I'll~have a  very important exam   
+$5377/4a92f18a.mp3;6,50;4,425;3,150;4,112;5,113;11,237;9,463
 
 [LINE]
-Speaker295: Necesito aprobar el~examen para        ir~a       la~facultad~de~medicina.
-~           I~need   to~pass the~exam  in~order~to (to)~go~to medical~school          
+Speaker295: Ik moet~het~tentamen~halen om        de~medische~faculteit~in~te~komen.
+~           I need~to~pass~the~exam  in~order~to get~into~the~medical~faculty.         
+$5377/46415b26.mp3;2,50;5,250;4,150;9,75;6,475;3,400;3,162;9,75;10,413;3,625;3,125;6,112
 
 [MULTIPLE_CHOICE]
-> Why can't Julio go to the game?
+> Why can't Julian go to the game?
 - He needs to go to the doctor.
 + He needs to study for an important exam.
 - He lost his lucky T-shirt.
 
 [LINE]
-Speaker295: Lo~siento…
+Speaker295: Het spijt me…
 ~           I'm~sorry 
+$5377/40f86e20.mp3;3,50;6,275;3,312
 
 [LINE]
-> Bea pone su~cartera sobre la~mesa.  
-~ Bea puts her~bag    on    the~table 
+> Bea legt haar tas op de tafel.  
+~ Bea puts her bag  on the table 
+$5377/3d3337de.mp3;3,50;5,412;5,300;4,213;3,237;3,125;6,138
 
 [MULTIPLE_CHOICE]
 > In other words, Bea…
@@ -72,80 +85,94 @@ Speaker295: Lo~siento…
 - …steals Julio's coat.
 
 [LINE]
-Speaker507: Está~bien, Julio, ¿tienes~café?       
-~           OK         Julio   do~you~have~coffee 
+Speaker507: Goed, Julian! Heb~je      koffie?       
+~           OK    Julian  do~you~have coffee 
+$5377/37439972.mp3;4,50;7,675;4,1500;3,287;7,125
 
 [LINE]
-Speaker295: ¿Por~qué?
+Speaker295: Hoezo?
 ~            why     
+$5377/32bd70d0.mp3;5,50
 
 [LINE]
-Speaker507: Bueno, no~quiero    estar cansada.
-~           well   I~don't~want to~be tired   
+Speaker507: Nou, ik wil~niet     slaperig~worden.
+~           well I don't~want~to get~sleeply   
+$5377/1d1b72cc.mp3;3,50;3,700;4,162;5,200;9,313;7,450
 
 [CONTINUATION]
 > What comes next?
-Speaker507: Vamos~a~estudiar     [toda~la~noche].
-~           we're~going~to~study  all~night      
-- las~entradas
+Speaker507: Want we gaan               [de~hele~nacht] samen studeren.
+~           because we 're~going~to~study  all~night      together (to~study) 
+$5377/29cca2e8.mp3;4,50;3,275;5,125;3,225;5,75;6,337;6,363;9,325
+- de~kaartjes
 ~ the~tickets 
-+ toda~la~noche
++ de~hele~nacht
 ~ all~night    
-- una~pelota
-~ a~ball    
+- de~hele~avond
+~ all~evening    
 
 [LINE]
-Speaker295: Pero…
+Speaker295: Maar…
 ~           but  
+$5377/0ad89798.mp3;4,50
 
 [LINE]
-Speaker507: Tú  siempre me~ayudas.
-~           you always  help~me   
+Speaker507: Jij helpt~mij~altijd.
+~           you always~help~me   
+$5377/081f14fa.mp3;3,50;6,287;4,350;7,213
 
 [LINE]
-Speaker507: Y   yo voy~a~ayudarte       ahora.
-~           and I  am~going~to~help~you now   
+Speaker507: En nu ga~ik           jou~helpen.
+~           and now I~am~going~to help~you    
+$5377/0157c982.mp3;2,50;3,175;3,275;3,287;4,188;7,200
 
 [LINE]
-Speaker295: Pero es   el  partido~más~emocionante del    año… 
+Speaker295: Maar... Het is de meest opwindende wedstrijd van het jaar!… 
 ~           but  it's the most~exciting~game      of~the year 
+$5377/f831a7a6.mp3;4,50;4,1112;3,125;3,150;6,88;11,325;10,512;4,475;4,125;5,138
 
 [ARRANGE]
 > Tap what you hear
-Speaker507: [(Tú~eres) (más)  (importante) (que)  (un~partido).]
-~             you~are   more   important    than   a~game       
+Speaker507: [(Jij) (bent) (belangrijker)  (dan) (die)  (wedstrijd).]
+~             you   are   more~important  than   that   game       
+$5377/f27340a4.mp3;3,50;5,350;13,275;4,687;4,188;10,112
 
 [LINE]
-Speaker507: Vas~a~aprobar        este~examen. ¡Lo~sé!    
-~           you're~going~to~pass this~exam     I~know~it 
+Speaker507: Jij gaat              dit tentamen halen.    Ik weet~het~zeker!    
+~           you 're~going~to~pass this exam    (to~pass) I am~sure 
+$5377/df120bda.mp3;3,50;5,325;4,275;9,150;6,487;3,1300;5,213;4,225;6,150
 
 [LINE]
-Speaker507: Y   algún día vas~a~ser           médico…  
-~           and some  day you~are~going~to~be a~doctor 
+Speaker507: En  op~een~dag zul~je              een dokter zijn…  
+~           and some~day   you~are~going~to~be a doctor (to~be)
+$5377/dd72bc5c.mp3;2,50;3,275;4,125;4,125;4,262;3,188;4,62;7,150;5,338
 
 [LINE]
-Speaker507: … así~que siempre~vas~a~pagar     las~entradas para todos los~partidos, ¿verdad?
-~             so      you~will~always~pay~for the~tickets  for  all   the~games      right  
+Speaker507: … Dus dan  betaal~jij~altijd       de kaartjes voor alle    wedstrijden, OK?
+~            so  then you~will~always~pay~for the tickets  for  all~the games     right  
+$5377/cf712d14.mp3;3,800;4,350;7,175;4,425;7,250;3,375;9,137;5,438;5,287;12,213;3,837
 
 [LINE]
-Speaker295: Por~supuesto. Gracias,   Bea.
-~           of~course     thank~you  Bea 
+Speaker295: Natuurlijk. Dank je  Bea.
+~           of~course   thank you  Bea 
+$5377/822152d2.mp3;10,50;5,1575;3,362;4,100
 
 [LINE]
-Speaker507: Y…   ¿dónde está mi café?  
+Speaker507: En... waar is mijn koffie? 
 ~           and   where is   my coffee 
+$5377/7c87081c.mp3;2,50;5,1087;3,275;5,175;7,250
 
 [MULTIPLE_CHOICE]
 > Bea decided to…
-+ …skip the game and help Julio study.
++ …skip the game and help Julian study.
 - …invite a different friend to the game.
 - …apply to medical school.
 
 [MATCH]
 > Tap the pairs
-- la casa de Julio <> Julio's house
-- Necesito <> I need
-- ir al <> go to the
-- no quiero <> I don't want
-- más <> more
+- Julians huis <> Julian's house
+- ik Heb * Nodig <> I Need *
+- het Tentamen <> the Exam
+- de Hele nacht <> All night
+- Opwindend <> Exciting
 
