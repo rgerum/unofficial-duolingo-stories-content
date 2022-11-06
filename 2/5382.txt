@@ -4,40 +4,41 @@ icon=4ba2733ddb8bdc3f0924c6463da01f5d1eccaf40
 set=17|4
 
 [HEADER]
-> Una carta~de~amor
+> Een liefdesbrief
 ~ a   love~letter  
 
 [LINE]
-> Zari está con  Junior en la  biblioteca.
-~ Zari is   with Junior at the library    
+> Zari is met Jünior in de bibliotheek.
+~ Zari is with Junior at the library    
 
 [LINE]
-Speaker418: ¿Qué  estás~haciendo, Junior?
-~            what you~are~doing   Junior 
+Speaker418: Wat zit~je~te~doen, Junior?
+~          what you~are~doing   Junior 
 
 [LINE]
-Speaker415: Eh… estoy~escribiendo una carta. 
-~           eh  I~am~writing      a   letter 
+Speaker415: ueh... Ik schrijf een brief. 
+~           eh  I am~writing      a   letter 
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker418: Y…   ¿[para~quién~es~la~carta]?
-~           and    who~is~the~letter~for   
-- cada quien ve la carta
-+ para quién es la carta
-- para quién es la cuarta
+Speaker418: En…   [aan~wie~schrijf~je]? Voor~wie~is~deze~brief?
+~           and    who~do~you~write~to   who~is~this~letter~for
+
+- vooe wie schrijf je
++ aan wie schrijf je
+- over wie schrijf je
 
 [LINE]
-Speaker415: Es   para una chica, una chica~muy~genial.
-~           it's for  a   girl   a   very~cool~girl   
+Speaker415: Ik schrijf aan een meisje. Een heel~leuk meisje.
+~           I 'm~writing to  a   girl    a   very~cool girl   
 
 [LINE]
-Speaker418: ¡Ah! ¿Es   una carta~de~amor? ¿Es    una chica de   tu~clase?  
-~            oh   it's a   love~letter     she's a   girl  from your~class 
+Speaker418: Ah! het is een liefdesbrief! Is zij een meisje uit je klas?
+~            oh it 's a   love~letter     Is she a   girl  from your class 
 
 [LINE]
-Speaker415: No… Eh… es    una adolescente.
-~           no  eh  she's a   teenager    
+Speaker415: Nee, euh... het is een tiener.
+~           no  eh      she 's a   teenager    
 
 [MULTIPLE_CHOICE]
 > Junior is writing a love letter for a cool teenage girl.
@@ -45,48 +46,48 @@ Speaker415: No… Eh… es    una adolescente.
 - No, that's wrong.
 
 [LINE]
-Speaker418: ¿Una adolescente? ¿Como~yo?
-~            a   teenager      like~me 
+Speaker418: Een tiener?        zoals ik?
+~            a   teenager      like me 
 
 [LINE]
-Speaker415: Sí,  y   es    mi vecina.  
-~           yes  and she's my neighbor 
+Speaker415: Ja, en   ze  woont~naast~mij. Het is mijn buurmeisje  
+~           yes  and she 's~my~neighbor   She is my girl~next~door
 
 [POINT_TO_PHRASE]
-> Choose the option that means "neighbor."
-Speaker418: Un~momento… ¿(Esta) (chica) es (una) adolescente y   es    tu   (+vecina)?  
-~           one~moment    this   girl   is  a    teenager    and she's your   neighbor  
+> Choose the option that means "next door".
+Speaker418: Wacht~eens… (dit) (meisje) (is) (een) (tiener) (en) (zij)~(woont)~(+naast~je)?  
+~           one~moment    this   girl   is  a    teenager    and she's~your~neighbor  
 
 [LINE]
-Speaker415: Eh… sí. 
+Speaker415: Euh… ja. 
 ~           eh  yes 
 
 [LINE]
-Speaker418: ¿Y   es    muy  inteligente?
-~            and she's very intelligent 
+Speaker418: En ze is  heel intelligent?
+~           and she 's very intelligent 
 
 [LINE]
-Speaker415: ¡Sí! 
+Speaker415: Ja! 
 ~            yes 
 
 [CONTINUATION]
 > What comes next?
-Speaker418: Junior… ¿la  carta  es para mí? Lo~siento, pero eres    [demasiado joven].
-~           Junior   the letter is for  me  I'm~sorry  but  you~are  too       young  
-+ demasiado joven
-~ too       young
-- tu   vecina  
-~ your neighbor
-- una~adolescente
-~ a~teenager     
+Speaker418: Junior… Het is een brief voor mij? Het~spijt~me maar je~bent   [te~jong] voor mij.
+~           Junior  It is a  letter  for  me  I'm~sorry     but  you~are  too~young  for me
++ te jong
+~ too young
+- te lang  
+~ too tall
+- te klein
+~ too small    
 
 [LINE]
-Speaker415: No, no~es    para ti.  ¡Es   para tu~mejor~amiga,   Lily!
-~           no  it's~not for  you   it's for  your~best~friend  Lily 
+Speaker415: Nee! hij is niet voor jou maar voor je beste vriendin Lily.
+~           no  it   's  not for  you but for  your best friend  Lily 
 
 [LINE]
-Speaker415: ¿Le~puedes~dar la  carta  a  Lily, por~favor?
-~            you~can~give  the letter to Lily  please    
+Speaker415: Kun jij       de  brief aan Lily geven alsjeblieft?
+~           can you~give  the letter to Lily  (to~give) please    
 
 [MULTIPLE_CHOICE]
 > Who was Junior's love letter for?
@@ -96,9 +97,9 @@ Speaker415: ¿Le~puedes~dar la  carta  a  Lily, por~favor?
 
 [MATCH]
 > Tap the pairs
-- eres <> you are
-- tu <> your
-- Qué <> what
-- una <> a
-- Un momento <> one moment
+- de Brief <> the Letter
+- het Buurmeisje <> the Girl Next Door
+- de Tiener <> the Teenager
+- zij woont Naast Mij <> she is my Neighbor
+- Wacht even <> one Moment
 
