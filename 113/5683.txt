@@ -8,7 +8,7 @@ set=2|1
 ~ the red coat 
 
 [LINE]
-> Lili egy ruhaboltban van, a~barátnőjével, Zarival está en una tienda~de~ropa con  su  amiga,  Zari.
+> Lili egy ruhaboltban van, a~barátnőjével, Zarival.
 ~ Lily a in~clothing~store is with~her~friend  Zari 
 
 [LINE]
@@ -20,45 +20,45 @@ Speaker418: Igen…
 ~           yes 
 
 [LINE]
-Speaker418: ¡Guau!
+Speaker418: Váo!
 ~            wow  
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker418: ¡[Esta~chaqueta~roja] es perfecta!
-~             this~red~jacket     is perfect  
-+ Esta chaqueta roja
-- Esta chancleta roja
-- Esa chaqueta floja
+Speaker418: ¡[Ez~a~piros~kabát] tökéletes!
+~             this~red~coat     is~perfect  
++ Ez a piros kabát
+- Ez a piros banán
+- Az a vörös nadrág
 
 [LINE]
 Speaker416: Mmm, Zari…
 ~           hmm  Zari 
 
 [LINE]
-Speaker418: ¡Me~encanta este color!
-~            I~love     this color 
+Speaker418: Nagyon tetszik a~színe!
+~          Very  I~like   its~color 
 
 [LINE]
-Speaker416: ¿Zari?
+Speaker416: Zari?
 ~            Zari 
 
 [POINT_TO_PHRASE]
 > Choose the option that means "to buy."
-Speaker418: ¡(Quiero) (+comprar) (esta) (chaqueta)!
-~             I~want    to~buy    this   jacket    
+Speaker418: (Meg) (akarom) (+venni) (ezt~a) (kabátot)!
+~             hm I~want    to~buy    this   jacket    
 
 [LINE]
-Speaker416: ¡Zari!
+Speaker416: Zari!
 ~            Zari 
 
 [LINE]
-Speaker418: ¿Qué? 
+Speaker418: Mi~az?
 ~            what 
 
 [LINE]
-Speaker416: La  chaqueta cuesta quinientos   dólares.
-~           the jacket   costs  five~hundred dollars 
+Speaker416: A kabát százezer forintba kerül!
+~           the coat  a~hundred~thousand forints  costs   
 
 [MULTIPLE_CHOICE]
 > How much does the jacket cost?
