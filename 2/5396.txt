@@ -4,28 +4,28 @@ icon=cd2e97ba5e87d05c1e69dd805c067ece32ea89d5
 set=0|1 #21|2
 
 [HEADER]
-> De stoel is voor jou! 
-~  the seat    is yours 
+> Die  plaats is voor jou! 
+~ That seat   is yours 
 
 [LINE]
-> Oscar y   Eddy zitten in de bus.
-~ Oscar and Eddy are   on the bus     
+> Oscar y   Eddy stappen in de bus.
+~ Oscar and Eddy get     on the bus     
 
 [LINE]
 Speaker414: Ik ben erg moe.
 ~           I  am  very tired   
 
 [LINE]
-Speaker592: Ja,  ik ook.
-~           yes  me too     
+Speaker592: Ja, ik ook.
+~           yes me too     
 
 [LINE]
-Speaker592: Ach, er is precies één stoel vrij.
-~           oh  there~is~just one seat    
+Speaker592: Ach, er    is precies één plaats vrij.
+~           oh   there is just    one seat   available    
 
 [LINE]
-Speaker414: Die is voor jou. Jij bent ouder.
-~           it's yours  you are  older     
+Speaker414: Die is voor~jou. Jij bent ouder.
+~           it  's yours     you are  older     
 
 [MULTIPLE_CHOICE]
 > Eddy tells Oscar to take the last bus seat.
@@ -33,35 +33,35 @@ Speaker414: Die is voor jou. Jij bent ouder.
 + Yes, that's right.
 
 [LINE]
-Speaker592:  Pardon?    Ik ben maar drie jaar ouder dan jij. 
-~            excuse~me  I~am~just     three~years~older than you 
+Speaker592:  Pardon?    Ik ben maar drie  jaar  ouder dan  jij. 
+~            excuse~me  I  am just  three years older than you 
 
 [POINT_TO_PHRASE]
-> Choose the option that means "gray hair."
-Speaker414: (Ja),  (maar) (je)  (bent)~(+grijs).    
+> Choose the option that means "have gray hair."
+Speaker414: (Ja),  (maar) (je)  (+bent~grijs).    
 ~            yes    but   you    have~gray~hair  
 
 [LINE]
 Speaker592: Maar Eddy, jij hebt ook  grijze~haren!
-~           But  Eddy  you also have some~gray~hair
+~           But  Eddy  you also have some~gray~hairs
 
 [LINE]
 Speaker414:  Wat?... Waar?
-~             what    where 
+~            what    where 
 
 [CONTINUATION]
 > What comes next?
-Speaker592: Eddy, die zitplaats is voor~jou, want    je  bent [erg moe].
-~           Eddy  that seat      is yours     because you are    very tired    
-+ erg moe
+Speaker592: Eddy, die  plaats is voor~jou, [want    je  bent erg  moe].
+~           Eddy  that seat   is yours      because you are  very tired    
++ want je bent erg moe
 ~ very tired  
-- en mi~asiento
-~ in mi~seat   
-- con  muchas   canas    
-~ with a~lot~of gray~hair
+- want    je bent er~aan~toe
+~ because you are ready~for~it
+- want    je  bent~erg~grijs   
+~ because you have~very~gray~hair
 
 [LINE]
-Speaker414: ¡No, yo tengo mucha    energía!
+Speaker414: Nee, ik heb   heel~veel energie!
 ~            no  I  have  a~lot~of energy  
 
 [SELECT_PHRASE]
@@ -81,24 +81,24 @@ Speaker414: ¡No, Óscar! ¡Es   tuyo!
 ~            no  Óscar   it's yours 
 
 [LINE]
-> Un chico se~sube~al  autobús.
-~ a  boy   gets~on~the bus     
+> Een jongen stapt~de~bus~in.
+~ a  boy     gets~on~the~bus     
 
 [LINE]
-Speaker1649: ¡Excelente, un asiento para mí!
-~             excellent  a  seat    for  me 
+Speaker1649: Mooi, een plekje voor mij!
+~            Nice  a  seat    for  me 
 
 [MULTIPLE_CHOICE]
-> Why didn't Eddy or Óscar take the seat? 
+> Why didn't Eddy or Oscar take the seat? 
 - They wanted the boy to have it.
 + They were both too stubborn to sit down.
 - It was too dirty.
 
 [MATCH]
 > Tap the pairs
-- tuyo <> yours
-- vas a correr <> you go running
-- autobús <> bus
-- asiento <> seat
-- Dónde <> where
+- voor jou <> yours
+- instappen <> get on (a bus, train etc.)
+- de (zit)plaats <> the chair (in public transport)
+- de jongen <> the boy
+- moe <> tired
 
