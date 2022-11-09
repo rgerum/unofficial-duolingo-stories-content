@@ -12,8 +12,8 @@ set=7|1
 ~ Junior and Eddy are   at a   store  
 
 [LINE]
-Speaker2573: שלום־⁠עליכם! איך הײס יעקבֿ. מיט װאָס קען איך אײַך העלפֿן?׳
-~            dad   I~need   a  new~video~game   
+Speaker2573: שלום־⁠עליכם! איך~הײס יעקבֿ. מיט~װאָס~קען~איך~אײַך~העלפֿן?׳
+~            hello~("SHO-lem~a-LAY-khem") my~name~is~("I~am~called") Jacob~("YA-kov") how~can~I~help~you~(formal)     
 
 [LINE]
 Speaker415: ¡Papá, necesito un videojuego~nuevo!
@@ -32,13 +32,17 @@ Speaker414: No, Junior. No~necesitas   un videojuego~nuevo.
 Speaker415: ¡Por~favor! ¡Este videojuego de robots es muy  divertido!
 ~            please      this video~game of robots is very fun       
 
-[SELECT_PHRASE]
-> Select the missing phrase
-Speaker414: Junior, [tú~quieres~este] videojuego, pero no~necesitas   este videojuego.
+[LINE]
+> Junior y   Eddy están en una tienda.
+~ Junior and Eddy are   at a   store  
+
+[LINE]
+Speaker414: Junior, tú~quieres~este videojuego, pero no~necesitas   este videojuego.
 ~           Junior   you~want~this    video~game  but  you~don't~need this video~game 
-+ tú quieres este
-- tú sientes este
-- tú quieres estar
+
+[LINE]
+Speaker414: Junior, tú~quieres~este videojuego, pero no~necesitas   este videojuego.
+~           Junior   you~want~this    video~game  but  you~don't~need this video~game 
 
 [LINE]
 Speaker415: Está~bien, ¡yo lo~quiero! ¿Lo~compramos?   
