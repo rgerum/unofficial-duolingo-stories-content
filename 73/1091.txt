@@ -4,19 +4,19 @@ icon=df24f7756b139f6eda927eb776621b9febe1a3f1
 set=1|2
 
 speaker_Filip=Filip
-speaker_Jovana=Ivana
+speaker_Jovana=Jovana
 speaker_Ana=Ana
 
 [HEADER]
-> Spoj
+> Sastanak
 ~ A~date  
 
 [LINE]
-> Ivana je u  restoranu,    ima~spoj.    
+> Jovana je u  restoranu,    ima~sastanak.    
 ~ ~      is in a~restaurant  (she)~has~a~date 
 
 [LINE]
-Speaker100: Što  ćeš           jesti? 
+Speaker100: Šta  ćeš           jesti? 
 ~           What do~(you)~will to~eat 
 
 [MULTIPLE_CHOICE]
@@ -34,7 +34,7 @@ Speaker336: Ne~jedem  meso.
 ~           (I)don't~eat meat 
 
 [LINE]
-Speaker100: Jesi~li   vegetarijanka? 
+Speaker100: Da~li~si   vegetarijanka? 
 ~           Are~(you) vegetarian~(f) 
 
 [LINE]
@@ -56,16 +56,16 @@ Speaker336: O,  sjajno!
 ~           Oh  great  
 
 [LINE]
-Speaker336: Jesi~li   Hrvat?  
-~           Are~(you) Croatian 
+Speaker336: Jesi~li   Srbin?  
+~           Are~(you) Serbian 
 
 [ARRANGE]
 > Tap what you hear
-Speaker100: [(Nisam), (ja)  (sam) (Nijemac)]. 
+Speaker100: [(Nisam), (ja)  (sam) (Nemac)]. 
 ~             No       (I)   am    German   
 
 [LINE]
-Speaker100: Moj otac   je Kanađanin, a         moja majka  je Nijemica.  
+Speaker100: Moj otac   je Kanađanin, a         moja majka  je Nemica.  
 ~           My  father is Canadian   and~(but) my   mother is German~(f) 
 
 [LINE]
@@ -78,7 +78,7 @@ Speaker100: Volim    Kanadu!
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker100: Imaš~li [kućnog ljubimca], Ana?
+Speaker100: Da~li~imaš [kućnog ljubimca], Ana?
 ~           Do~you~have  a~pet  ~          ~   
 - kućni ljubimac
 - kućnim ljubimcem
@@ -89,23 +89,23 @@ Speaker336: Da,  imam     tri   mačke i…
 ~           Yes  (I)~have three cats  and…
 
 [LINE]
-> Ivana je iznenađena.   
+> Jovana je iznenađena.   
 ~ ~      is surprised~(f) 
 
 [LINE]
-Speaker336: Ana?! Ja~se~zovem Ivana.
+Speaker336: Ana?! Ja~se~zovem Jovana.
 ~           ~     My~name~is  ~      
 
 [LINE]
-Speaker336: A   zoveš~li~se~ti Filip?
+Speaker336: A   da~li~se~ti~zoveš Filip?
 ~           And is~your~name      ~     
 
 [LINE]
-Speaker100: Ne, ja sam Petar!
+Speaker100: Ne, ja sam Pavle!
 ~           No  I  am  ~     
 
 [MULTIPLE_CHOICE]
-> Ivana and Petar were supposed to meet different people.
+> Jovana and Pavle were supposed to meet different people.
 + Yes, that's true.
 - No, that's not right.
 
@@ -114,16 +114,16 @@ Speaker100: Ne, ja sam Petar!
 ~ A     woman arrives at~the restaurant 
 
 [LINE]
-Speaker101: Ćao! Jesi~li Petar? Ja sam Ana.
+Speaker101: Ćao! Jesi~li Pavle? Ja sam Ana.
 ~           Hi   Are~you ~      I  am  ~   
 
 [LINE]
-Speaker100: Ne…| zovem~se Filip.
+Speaker100: Ne…| ja~se~zovem Filip.
 ~           No…  my~name~is  ~     
 
 [MULTIPLE_CHOICE]
-> At the end of the story, Petar…
-- … was tired of talking to Ivana.
+> At the end of the story, Pavle…
+- … was tired of talking to Jovana.
 + … lied to his real date because he likes Ivana.
 - … met someone named Filip.
 
@@ -135,4 +135,5 @@ Speaker100: Ne…| zovem~se Filip.
 - meso <> meat
 - zovem se <> my name is
 - Kanađanin/Kanađanka <> Canadian (m/f)
+- Srbin <> Serbian
 
