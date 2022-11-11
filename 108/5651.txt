@@ -36,13 +36,9 @@ Speaker508: Ah, ¿me~puedo~comer un~poco~de pastel?
 Speaker507: No.
 ~           no 
 
-[SELECT_PHRASE]
-> Select the missing phrase
-Speaker508: Pero [_______________].
+[LINE]
+Speaker508: Pero you have three cakes.
 ~           but   you~have~three~cakes  
-- vienes con tres pasteles
-- tiene tres carteles
-+ tienes tres pasteles
 
 [LINE]
 Speaker507: Yo necesito tres  pasteles.
@@ -56,16 +52,9 @@ Speaker508: Bueno, ¿me~puedo~beber un vaso  de vino?
 Speaker507: No.
 ~           no 
 
-[CONTINUATION]
-> What's next?
-Speaker508: Tienes   cuatro botellas [_________].
+[LINE]
+Speaker508: Tienes   cuatro botellas of wine.
 ~           you~have four   bottles   of wine  
-- la  mesa 
-~ the table
-- de pastel
-~ of cake  
-+ de vino
-~ of wine
 
 [LINE]
 Speaker507: Yo necesito todo ese  vino.
@@ -87,9 +76,9 @@ Speaker508: Está~bien, ¿a~qué~hora   es la  cena   con  tu~familia?
 Speaker507: Ah, la  cena   con  mi familia es la~próxima semana.
 ~           oh  the  dinner  with my  family   is   next         week    
 
-[ARRANGE]
-> Tap what you hear
-Speaker507: [(Todo) (esto)      (es) (para) (mí).]
+[LINE]
+
+Speaker507: Todo esto      es para mí.
 ~             all    (of)~this   is   for    me   
 
 [LINE]
