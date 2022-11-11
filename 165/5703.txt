@@ -3,139 +3,136 @@ fromLanguageName=A Date
 icon=df24f7756b139f6eda927eb776621b9febe1a3f1
 set=1|2
 
+speaker_Filip=Filip
+speaker_Jovana=Ivana
+speaker_Ana=Ana
+
 [HEADER]
-> Una cita
-~ a   date
+> Spoj
+~ A~date  
 
 [LINE]
-> Bea está en una cita en un restaurante.
-~ Bea is   on a   date in a  restaurant  
+> Ivana je u  restoranu,    ima~spoj.    
+~ ~      is in a~restaurant  (she)~has~a~date 
 
 [LINE]
-Speaker507: ¡Hola!  ¿Cómo~estás? 
-~            hello   how~are~you 
-
-[LINE]
-Speaker100: ¡Bien!
-~            fine 
-
-[LINE]
-Speaker100: ¿Qué  quieres     comer? 
-~            what do~you~want to~eat 
-
-[LINE]
-Speaker507: Una ensalada.
-~           a   salad    
-
-[SELECT_PHRASE]
-> Select the missing phrase
-Speaker507: Hoy   tengo  [un~partido~importante].
-~           today I~have  an~important~game      
-+ un partido importante
-- un batido importante
-- una parte imponente
-
-[LINE]
-Speaker100: Ah, ¿te~gustan   los~deportes?
-~           oh   do~you~like (the)~sports 
-
-[LINE]
-Speaker507: Sí,  yo juego~al fútbol.
-~           yes  I  play     soccer 
+Speaker100: Što  ćeš           jesti? 
+~           What do~(you)~will to~eat 
 
 [MULTIPLE_CHOICE]
-> Bea is ordering a salad because…
-+ …she is playing soccer today.
-- …her date said the salad is delicious.
-- …she just ate a whole pizza.
+> Jovana's date is asking…
+- … where to find the restaurant.
+- … how much the food costs.
++ … what Jovana wants to eat.
 
 [LINE]
-Speaker100: ¡Yo~también!
-~            me~too     
+Speaker336: Salatu. 
+~           A~salad 
 
 [LINE]
-Speaker507: ¡Súper!
-~            great 
+Speaker336: Ne~jedem  meso.
+~           (I)don't~eat meat 
 
 [LINE]
-Speaker507: ¿De~dónde~eres?     
-~            where~are~you~from 
+Speaker100: Jesi~li   vegetarijanka? 
+~           Are~(you) vegetarian~(f) 
 
 [LINE]
-Speaker100: Soy  americano.
-~           I~am American  
+Speaker336: Jesam.
+~           Yes   
+
+[LINE]
+Speaker100: I~ja!  
+~           Me~too 
+
+[MULTIPLE_CHOICE]
+> Why did he say that?
+- He hates salads.
++ He is also a vegetarian.
+- He loves to eat meat.
+
+[LINE]
+Speaker336: O,  sjajno!
+~           Oh  great  
+
+[LINE]
+Speaker336: Jesi~li   Hrvat?  
+~           Are~(you) Croatian 
 
 [ARRANGE]
 > Tap what you hear
-Speaker100: [(Mi~padre)  (es~de~Cuba)   (y)   (mi~madre)  (es~de~México).]  
-~             my~father   is~from~Cuba   and   my~mother   is~from~Mexico   
+Speaker100: [(Nisam), (ja)  (sam) (Nijemac)]. 
+~             No       (I)   am    German   
 
 [LINE]
-Speaker507: ¡Me~encanta Cuba!
-~            I~love     Cuba 
+Speaker100: Moj otac   je Kanađanin, a         moja majka  je Nijemica.  
+~           My  father is Canadian   and~(but) my   mother is German~(f) 
 
 [LINE]
-Speaker100: Cuba es muy  bonita.   
-~           Cuba is very beautiful 
+Speaker336: Ja sam Kanađanka!   
+~           I  am  Canadian~(f) 
 
 [LINE]
-Speaker507: ¿Tienes      mascotas?
-~            do~you~have pets     
+Speaker100: Volim    Kanadu!
+~           (I)~love Canada 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker100: Imaš~li [kućnog ljubimca], Ana?
+~           Do~you~have  a~pet  ~          ~   
+- kućni ljubimac
+- kućnim ljubimcem
++ kućnog ljubimca
 
 [LINE]
-Speaker100: Tengo  dos gatos y   un perro.
-~           I~have two cats  and a  dog   
-
-[POINT_TO_PHRASE]
-> Choose the option that means "also."
-Speaker507: Yo (+también) (tengo) un (perro), (José).
-~           I    also      have   a   dog      José  
+Speaker336: Da,  imam     tri   mačke i…  
+~           Yes  (I)~have three cats  and…
 
 [LINE]
-Speaker100: ¿Eh? Yo~me~llamo Daniel…
-~            eh  my~name~is  Daniel 
+> Ivana je iznenađena.   
+~ ~      is surprised~(f) 
 
 [LINE]
-Speaker100: ¿Tú~no~eres Gabriela?
-~            aren't~you Gabriela 
+Speaker336: Ana?! Ja~se~zovem Ivana.
+~           ~     My~name~is  ~      
 
 [LINE]
-Speaker507: ¡No!
-~            no 
+Speaker336: A   zoveš~li~se~ti Filip?
+~           And is~your~name      ~     
 
 [LINE]
-Speaker507: ¡Yo~me~llamo Bea!
-~            my~name~is  Bea 
+Speaker100: Ne, ja sam Petar!
+~           No  I  am  ~     
 
 [MULTIPLE_CHOICE]
-> Did you catch that? Bea and Daniel…
-- …bought tickets to Cuba.
-+ …were supposed to meet different people.
-- …are walking their dogs.
+> Ivana and Petar were supposed to meet different people.
++ Yes, that's true.
+- No, that's not right.
 
 [LINE]
-> Una mujer camina hacia   Daniel.
-~ a   woman walks  towards Daniel 
+> Jedna žena  stiže   u      restoran.  
+~ A     woman arrives at~the restaurant 
 
 [LINE]
-Speaker101: ¡Hola!  ¿Eres    Daniel? Soy  Gabriela.
-~            hello   are~you Daniel  I~am Gabriela 
+Speaker101: Ćao! Jesi~li Petar? Ja sam Ana.
+~           Hi   Are~you ~      I  am  ~   
 
 [LINE]
-Speaker100: No, lo~siento. Soy  José.
-~           no  I'm~sorry  I~am José 
+Speaker100: Ne…| zovem~se Filip.
+~           No…  my~name~is  ~     
 
 [MULTIPLE_CHOICE]
-> Whoa! What just happened?
-- Bea changed her name to Gabriela.
-+ Daniel lied to his real date because he likes Bea.
-- Bea and Daniel's dogs played soccer.
+> At the end of the story, Petar…
+- … was tired of talking to Ivana.
++ … lied to his real date because he likes Ivana.
+- … met someone named Filip.
 
 [MATCH]
 > Tap the pairs
-- y <> and
-- Soy <> I am
-- ensalada <> salad
-- Me encanta <> I love
-- Eh <> eh
+- mačke <> cats
+- da <> yes
+- ja <> I
+- meso <> meat
+- zovem se <> my name is
+- Kanađanin/Kanađanka <> Canadian (m/f)
 
