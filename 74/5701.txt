@@ -1,141 +1,145 @@
 [DATA]
-fromLanguageName=A Date
-icon=df24f7756b139f6eda927eb776621b9febe1a3f1
-set=1|2
+ fromLanguageName=Good News (Mandarin Audio))
+ icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
+ set=1|4
 
-[HEADER]
-> Una cita
-~ a   date
+ speaker_Mother=cmn-TW-Wavenet-A
+ speaker_Desheng=cmn-TW-Wavenet-B
+ speaker_Meiya=Zhiyu
+ speaker_Waitress=Yaoyao
 
-[LINE]
-> Bea está en una cita en un restaurante.
-~ Bea is   on a   date in a  restaurant  
+ [HEADER]
+> 好消息!      
+ ~ good~news.. 
+$1127/speech_1127_0.mp3;3,6;1,258
 
-[LINE]
-Speaker507: ¡Hola!  ¿Cómo~estás? 
-~            hello   how~are~you 
+ [LINE]
+> 德生|和|他的媽媽|進了|一家|餐廳。
+~ Desheng  and  his~mother  entered  a   restaurant  
+$1127/speech_1127_1.mp3;2,6;2,491;5,194;3,190;3,108;3,427;2,209
 
-[LINE]
-Speaker100: ¡Bien!
-~            fine 
+ [LINE]
+Speaker336: 晚上好|！ 請問|你們幾位？
+ ~           good~evening    I'd~like~to~ask  how~many~of~you  
+$1127/speech_1127_2.mp3;3,0;2,348.8;3,174.40000000000003;5,261.5999999999999;2,436
 
-[LINE]
-Speaker100: ¿Qué  quieres     comer? 
-~            what do~you~want to~eat 
+ [LINE]
+Speaker559: 三位|，謝謝！
+ ~           three~people    thanks  
+$1127/speech_1127_3.mp3;2,0;2,192;3,128;2,192
 
-[LINE]
-Speaker507: Una ensalada.
-~           a   salad    
+ [LINE]
+Speaker385: 三位|？ 還有誰？
+ ~           three~people    who~else  
+$1127/speech_1127_4.mp3;2,0;2,216;4,144;2,288
 
-[SELECT_PHRASE]
+ [MULTIPLE_CHOICE]
+> Why is Desheng confused?
+ - His mom didn't come to the restaurant.
+ - His mom asked for three tables.
+ + His mom asked for a table for three instead of two.
+
+ [LINE]
+Speaker559: 我的|朋友。
+ ~           my  friend  
+$1127/speech_1127_6.mp3;2,0;3,147.27272727272725;2,147.27272727272725
+
+ [LINE]
+Speaker385: 媽媽|，我想|告訴你。  。  。
+ ~           mom    I~want  to~tell~you    
+$1127/speech_1127_7.mp3;2,0;2,187.20000000000002;3,124.79999999999998;4,187.2;4,249.60000000000008
+
+ [POINT_TO_PHRASE]
+> Click on the option meaning "smart"
+Speaker559: 我的 (朋友)      很    (+聰明)    。  (她是)     醫學院的              (學生)      。
+ ~           my  friend   very   smart     she~is  of~medical~school  student   
+$1127/speech_1127_8.mp3;2,0;3,301.7142857142857;3,402.2857142857143;3,201.1428571428571;2,301.7142857142858;3,201.1428571428571;5,301.7142857142858;3,402.2857142857142;2,201.14285714285734
+
+ [LINE]
+Speaker559: 她叫|婉紫。
+~           her~name~is  Wanzi  
+$1127/speech_1127_9.mp3;2,0;3,176.72727272727272;2,176.72727272727272
+
+ [LINE]
+Speaker385: 媽媽|，我想|告訴你。  。  。
+ ~           mom    I~want  to~tell~you    
+$1127/speech_1127_10.mp3;2,0;2,187.20000000000002;3,124.79999999999998;4,187.2;4,249.60000000000008
+
+ [LINE]
+Speaker559: 她|很|漂亮|！ 完全合適|我的|兒子！
+ ~           she  very  beautiful    (a)~perfect~fit~(for)  my  son  
+$1127/speech_1127_11.mp3;1,0;2,173.33333333333331;3,173.33333333333331;2,260;5,173.33333333333337;3,433.33333333333326;3,260;2,260.0000000000002
+
+ [MULTIPLE_CHOICE]
+> Desheng's mom wants…
+ - … to make a new friend.
+ + … Desheng to go on a date with her friend, Wanzi.
+ - … Desheng to leave the restaurant.
+
+ [LINE]
+> 一位|姑娘|走進|餐廳|，對德生揮了揮手。
+ ~ a   girl  entered  (the)~restaurant    waved~at~Desheng  
+$1127/speech_1127_13.mp3;2,6;3,135;3,241;3,465;2,461;8,497;2,204
+
+ [LINE]
+Speaker385: 寶貝|，你好！
+ ~           baby    hello  
+$1127/speech_1127_14.mp3;2,0;2,165;3,110;2,165
+
+ [LINE]
+Speaker559: 寶貝？
+ ~           baby  
+$1127/speech_1127_15.mp3;2,0;2,132.6315789473684
+
+ [MULTIPLE_CHOICE]
+> Desheng's mom knew that he was in a relationship.
+ - Yes, that's true!
+ + No, that's not right!
+
+ [SELECT_PHRASE]
 > Select the missing phrase
-Speaker507: Hoy   tengo  [un~partido~importante].
-~           today I~have  an~important~game      
-+ un partido importante
-- un batido importante
-- una parte imponente
+Speaker125: 您|是|德生的|媽媽|，是嗎？  [很高興認識您]           。
+ ~           you~(polite)  are  Desheng’s  mother    right     nice~to~meet~you   
+$1127/speech_1127_17.mp3;1,6;2,233;4,280;3,479;2,110;3,544;2,190;8,259;2,229
+- 不認識您
+ - 很高興的人
+ + 很高興認識您
 
-[LINE]
-Speaker100: Ah, ¿te~gustan   los~deportes?
-~           oh   do~you~like (the)~sports 
+ [LINE]
+Speaker559: 德生|，她是誰？
+~           Desheng    who~is~she  
+$1127/speech_1127_18.mp3;2,0;2,230.39999999999998;4,153.60000000000002;2,307.19999999999993
 
-[LINE]
-Speaker507: Sí,  yo juego~al fútbol.
-~           yes  I  play     soccer 
+ [LINE]
+Speaker385: 媽媽|，這就是|我想和你說的事。
+ ~           mom    this~is  (the)~matter~I~want~to~tell~you  
+$1127/speech_1127_19.mp3;2,0;2,214.05405405405406;4,142.7027027027027;8,285.4054054054054;2,214.05405405405406
 
-[MULTIPLE_CHOICE]
-> Bea is ordering a salad because…
-+ …she is playing soccer today.
-- …her date said the salad is delicious.
-- …she just ate a whole pizza.
+ [LINE]
+Speaker385: 這是|我女朋友|，她叫|美雅。
+ ~           this~is  my~girlfriend    her~name~is  Meiya  
+$1127/speech_1127_20.mp3;2,0;5,216;2,360;3,144;3,216;2,216
 
-[LINE]
-Speaker100: ¡Yo~también!
-~            me~too     
+ [LINE]
+Speaker559: 女朋友？
+ ~           girlfriend  
+$1127/speech_1127_21.mp3;3,0;2,216
 
-[LINE]
-Speaker507: ¡Súper!
-~            great 
+ [LINE]
+Speaker385: 好消息！
+ ~           good~news  
+$1127/speech_1127_22.mp3;3,0;2,220.8
 
-[LINE]
-Speaker507: ¿De~dónde~eres?     
-~            where~are~you~from 
+ [MULTIPLE_CHOICE]
+> Why is Desheng's mom surprised?
+ + She didn't know Desheng had a girlfriend.
+ - She is very happy to see Meiya.
+ - The food they ordered arrived quickly.
 
-[LINE]
-Speaker100: Soy  americano.
-~           I~am American  
-
-[ARRANGE]
-> Tap what you hear
-Speaker100: [(Mi~padre)  (es~de~Cuba)   (y)   (mi~madre)  (es~de~México).]  
-~             my~father   is~from~Cuba   and   my~mother   is~from~Mexico   
-
-[LINE]
-Speaker507: ¡Me~encanta Cuba!
-~            I~love     Cuba 
-
-[LINE]
-Speaker100: Cuba es muy  bonita.   
-~           Cuba is very beautiful 
-
-[LINE]
-Speaker507: ¿Tienes      mascotas?
-~            do~you~have pets     
-
-[LINE]
-Speaker100: Tengo  dos gatos y   un perro.
-~           I~have two cats  and a  dog   
-
-[POINT_TO_PHRASE]
-> Choose the option that means "also."
-Speaker507: Yo (+también) (tengo) un (perro), (José).
-~           I    also      have   a   dog      José  
-
-[LINE]
-Speaker100: ¿Eh? Yo~me~llamo Daniel…
-~            eh  my~name~is  Daniel 
-
-[LINE]
-Speaker100: ¿Tú~no~eres Gabriela?
-~            aren't~you Gabriela 
-
-[LINE]
-Speaker507: ¡No!
-~            no 
-
-[LINE]
-Speaker507: ¡Yo~me~llamo Bea!
-~            my~name~is  Bea 
-
-[MULTIPLE_CHOICE]
-> Did you catch that? Bea and Daniel…
-- …bought tickets to Cuba.
-+ …were supposed to meet different people.
-- …are walking their dogs.
-
-[LINE]
-> Una mujer camina hacia   Daniel.
-~ a   woman walks  towards Daniel 
-
-[LINE]
-Speaker101: ¡Hola!  ¿Eres    Daniel? Soy  Gabriela.
-~            hello   are~you Daniel  I~am Gabriela 
-
-[LINE]
-Speaker100: No, lo~siento. Soy  José.
-~           no  I'm~sorry  I~am José 
-
-[MULTIPLE_CHOICE]
-> Whoa! What just happened?
-- Bea changed her name to Gabriela.
-+ Daniel lied to his real date because he likes Bea.
-- Bea and Daniel's dogs played soccer.
-
-[MATCH]
+ [MATCH]
 > Tap the pairs
-- y <> and
-- Soy <> I am
-- ensalada <> salad
-- Me encanta <> I love
-- Eh <> eh
-
+ - 他的媽媽 <> his mother
+ - 很高興認識您 <> nice to meet you
+ - 兒子 <> son
+ - 女朋友 <> girlfriend
+ - 她叫 <> her name is
