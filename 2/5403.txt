@@ -1,85 +1,86 @@
 [DATA]
 fromLanguageName=Two Tickets
 icon=1038afc2cf4744d25820807d461131e153f7ddcf
-set=23|1
+set=0|1 23|1
 
 [HEADER]
-> Dos entradas
+> twee kaartjes
 ~ two tickets 
 
 [LINE]
-> Lily y   Zari llegan al     cine.         
-~ Lily and Zari arrive at~the movie~theater 
+> Lily en   Zari komen bij de bioscoop         
+~ Lily and Zari arrive at the movie~theater 
 
 [LINE]
-> Un~chico de   su    escuela trabaja ahí.  
-~ a~boy    from their school  works   there 
+> Een jongen van hun school werkt daar  
+~ a boy    from their school  works   there 
 
 [LINE]
-Speaker418: ¡Hola,  Ben! Dos entradas para "El~lago~de~sangre", por~favor.
+Speaker418: Hoi,  Ben! Twee kaartjes voor Het~Bloedmeer alsjeblieft
 ~            hello  Ben  two tickets  for   blood~lake          please    
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker1649: No, [son~demasiado~jóvenes] para        ver      esa  película.
-~            no   you're~too~young       in~order~to (to)~see that movie    
-- son demasiadas órdenes
-- con demasiados jóvenes
-+ son demasiado jóvenes
+Speaker1649: No, [jullie zijn niet groot genoeg] voor die film
+~            no   you're~too~young      to~see that movie    
+
+- jullie zijn niet goed genoeg
+- jullie zijn niet jong genoeg
++ jullie zijn niet groot genoeg
 
 [LINE]
-Speaker416: ¡Pero siempre~nos~vendes entradas para las~películas~de~terror!
-~            but  you~always~sell~us tickets  for  horror~movies           
+Speaker416: Maar we krijgen~altijd kaartjes voor griezelfilms bij je!
+~                   but we always~get  tickets  for  horror~movies  with you   
 
 [LINE]
-Speaker1649: Ah… y   tienen   cafés   de   la~tienda de~enfrente.      
-~            oh  and you~have coffees from the~store across~the~street 
+Speaker1649: Aha, en jullie hebben koffie   van~de~overkant.   
+~                    oh     and you have     coffees from~the~store across~the~street 
 
 [ARRANGE]
 > Tap what you hear
-Speaker1649: [(No~pueden) (entrar~al) (cine)          (con)  (eso).] 
-~              you~can't   enter~the   movie~theater   with   that   
+Speaker1649: [(daarmee) (mag)~(je) (de)~(bios)~(niet)~(in).] 
+~                       with~that  you~can     't~ enter~the~ movie~theater  
 
 [LINE]
-> Lily tira   los~cafés   a  la~basura.
-~ Lily throws the~coffees to the~trash 
+> Lily gooit  de bekers~koffie  in de afvalbak.
+~ Lily throws the coffees         to the trash 
 
 [LINE]
-Speaker418: ¡Oye, mi café!   ¡Y   tenía  chocolate~extra!
+Speaker418: Hee, mijn koffie!   En ik had extra chocolade!
 ~            hey  my coffee   and it~had extra~chocolate 
 
 [LINE]
-Speaker416: Lo~siento.
+Speaker416: Sorry.
 ~           I'm~sorry 
 
 [CONTINUATION]
 > ¿What comes   next?
 ~  que  you~eat Next 
-Speaker1649: Muy~bien, pero no~les~voy~a~vender       [las~entradas].
-~            OK        but  I'm~not~going~to~sell~you  the~tickets   
-+ las~entradas
-~ the~tickets 
-- la~basura
+Speaker1649: Heel~goed, maar ik ga jullie geen            kaartjes verkopen.
+~                     OK        but   I 'm~not~going~to~sell~you  the~tickets   
++ geen kaartjes
+~ no~tickets 
+- de~afvalbak
 ~ the~trash
-- más  chocolate
+-  meer chocolade
 ~ more chocolate
 
 [LINE]
-Speaker416: ¿Por~qué?
-~            why     
+Speaker416: Waarom niet?
+~            why not    
 
 [ARRANGE]
 > Tap what you hear
-Speaker1649: [(Siempre~hablan)  (durante) (las~películas).]
-~              you~always~talk   during    movies          
+Speaker1649: [(jullie)~(zitten)~(altijd)~(te)~(praten) (onder) (de)~(film).]
+~                       you~always~talk   during    movies          
 
 [LINE]
-Speaker418: ¿Qué~te~pasa,           Ben? Somos  amigos,  ¿no?
+Speaker418: Wat is er met jou aan de hand Ben? We zijn toch vrienden?
 ~            what's~wrong~with~you  Ben  we~are friends   no 
 
 [LINE]
-Speaker1649: ¿Ah,~sí? ¿Somos  amigos?  ¿Y   por~qué no~puedo estar   en su   banda?
-~             really   we~are friends   and why     can't~I  (to)~be in your band  
+Speaker1649: O ja? Zijn wij vrienden? Waarom mag~ik~dan~niet in jouw band{bent}?
+~             really     are we friends           and~why  can't~I  be~in your band  
 
 [MULTIPLE_CHOICE]
 > Ah ha! Ben won't sell them tickets because…
@@ -88,36 +89,37 @@ Speaker1649: ¿Ah,~sí? ¿Somos  amigos?  ¿Y   por~qué no~puedo estar   en su 
 - …the theater is already full.
 
 [LINE]
-Speaker418: Eh… ¿de~qué~banda~hablas?            
+Speaker418: Eh… Over welke band{bent} heb je het?            
 ~           eh   what~band~are~you~talking~about 
 
 [LINE]
-Speaker1649: Las~escuché hablar~de     su   banda en clase.
+Speaker1649:Ik hoorde jullie praten over jullie band, in de klas.
 ~            I~heard~you talking~about your band  in class 
 
 [LINE]
-Speaker416: Está~bien, puedes  ser     nuestro guitarrista.  
+Speaker416: Goed, je mag onze gitarist zijn.
 ~           OK         you~can (to)~be our     guitar~player 
 
 [LINE]
-Speaker1649: Perfecto. ¿Cuándo vamos~a~practicar?       
+Speaker1649: Perfect. Wanneer gaan we oefenen?       
 ~            perfect    when   are~we~going~to~practice 
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker416: Ahh… Mañana,   [después~de~la~escuela].
-~           ohh  tomorrow   after~school           
-- despierta en la escuela
-+ después de la escuela
-- después de la abuela
+Speaker416: Ahh… Morgen,   [na school].
+~           ohh  tomorrow   after school  
+         
+- op school
++ na school
+-  uit school
 
 [LINE]
-Speaker418: ¿Ya  nos~puedes~vender las~entradas para        ver      "El~lago~de~sangre"?
-~            now can~you~sell~us   the~tickets  in~order~to (to)~see  blood~lake         
+Speaker418: Kunnen~we~dan~nu de~kaartjes~krijgen voor Het~Bloedmeer?
+~                   now~can~we             have~the~tickets     to~see  blood~lake         
 
 [LINE]
-Speaker1649: Sí,  pero… mañana.   Después~de practicar  con  nuestra banda.
-~            yes  but   tomorrow  after      practicing with our     band  
+Speaker1649: Ja, maar morgen~pas.  Na de repetitie met onze band.
+~                   yes  but   only~tomorrow After the rehearsal with our     band  
 
 [MULTIPLE_CHOICE]
 > When can Zari and Lily see "El lago de sangre"?
@@ -127,9 +129,10 @@ Speaker1649: Sí,  pero… mañana.   Después~de practicar  con  nuestra banda.
 
 [MATCH]
 > Tap the pairs
-- Dos <> two
-- Después de <> after
-- Cuándo <> when
-- trabaja <> works
-- ver <> see
+- de repetitie <> the rehearsal
+- de afvalbak <> the trash (can)
+- niet groot genoeg <> too young
+- krijgen <> to get, to buy
+- het kaartje <> the ticket
+
 
