@@ -1,35 +1,42 @@
 [DATA]
 fromLanguageName=The Pink Dress
 icon=ffba9eba0bc98eb1b87842bfd234eb4274095663
-set=0|2 #25|2
+set=25|2
 
 [HEADER]
-> El  vestido~rosado
-~ the pink~dress    
+> De  Roze Jurk
+~ the pink dress    
+$5416/6b0a82c0.mp3;2,50;5,187;5,425
 
 [LINE]
-> Lily está en una~tienda con  su  mamá para        comprar un vestido~rosado.
-~ Lily is   in a~store    with her mom  in~order~to to~buy  a  pink~dress     
+> Lily is met~haar~moeder   in een winkel                om~een~roze~jurk~te~kopen.
+~ Lily is (with~her~mother) in a   store~with~her~mother to~buy~a~pink~dress     
+$5416/746431ea.mp3;4,50;3,487;4,175;5,163;7,212;3,375;4,113;7,100;3,475;4,112;5,113;5,387;3,250;6,138
 
 [LINE]
-Speaker416: ¿De~verdad~tenemos~que ir      a  la~boda~de~la~tía~Betty?
-~            do~we~really~have~to  (to)~go to aunt~Betty's~wedding    
+Speaker416: Moeten~we~echt        naar  de~bruiloft~van~tante~Betty?
+~           do~we~really~have~to  go~to aunt~Betty's~wedding    
+$5416/7b6c4982.mp3;6,0;3,347;5,162;5,245;3,268;9,99;4,705;6,279;6,375
 
 [LINE]
-Speaker559: Sí,  ¡por~fin se~va~a~casar!        
+Speaker559: Ja! Eindelijk gaat~ze~trouwen!        
 ~           yes   finally she's~getting~married 
+$5416/80b90d08.mp3;2,0;11,354;5,586;3,242;8,101
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker416: Pero yo odio el~rosado… ¡y   [odio~los~vestidos]!
-~           but  I  hate pink        and  I~hate~dresses     
-- odio los venados
-- oigo los vestidos
-+ odio los vestidos
+Speaker416: Maar ik heb~een~hekel~aan roze, en  ik [heb~een~hekel~aan jurken]!
+~           but  I  hate              pink  and I   hate              dresses  
+$5416/8672af2e.mp3;4,0;3,257;4,182;4,196;6,157;4,523;5,231;4,606;3,377;4,189;4,198;6,154;4,484;7,191
+  
+- ben een held in jurken
+- heb een hekel aan jeuken
++ heb een hekel aan jurken
 
 [LINE]
-Speaker559: Lo~sé,       pero todos    en la~boda     tienen~que ponerse   un vestido~rosado o  un traje~negro.
-~           I~know~that  but  everyone at the~wedding has~to     (to)~wear a  pink~dress     or a  black~suit  
+Speaker559: Ik~weet~het. Maar op de bruiloft moet~iedereen   een~roze~jurk~dragen of een zwart pak.
+~           I~know       but  at the wedding everyone~has~to wear~a~pink~dress    or a   black suit  
+$5416/8fe15dda.mp3;2,0;5,155;4,286;6,282;3,405;3,95;9,100;5,590;9,196;4,453;5,135;5,295;7,275;3,512;4,184;6,105;4,321
 
 [MULTIPLE_CHOICE]
 > Why are Lily and her mom shopping for a pink dress?
@@ -38,74 +45,87 @@ Speaker559: Lo~sé,       pero todos    en la~boda     tienen~que ponerse   un v
 - Lily only wears pink dresses.
 
 [LINE]
-> La~mamá~de~Lily le~muestra un vestido~rosado~corto.
-~ Lily's~mother   shows~her  a  short~pink~dress     
+> Haar moeder laat~haar een korte roze jurk zien.
+~ Her  mother shows~her  a  short pink dress (laat~zien~=~shows)    
+$5416/991f1798.mp3;4,50;7,275;5,312;5,263;4,175;6,162;5,275;5,375;5,225
 
 [LINE]
-Speaker559: ¿Te~gusta    este?    
-~            do~you~like this~one 
+Speaker559: Wat~vind~je~van deze?    
+~           how~do~you~like this~one 
+$5416/9d07dc8c.mp3;3,0;5,187;3,246;4,85;5,203
 
 [LINE]
-Speaker416: No, demasiado corto.
-~           no  too       short 
+Speaker416: Nee, te{tu} kort.
+~           no  too short 
+$5416/c084ff1e.mp3;3,0;9,478
 
 [CONTINUATION]
 > What comes next?
-Speaker559: Mmm, está~bien, ¿y   este?     Es   más~largo que  [el~otro].      
-~           hmm  OK          and this~one  it's longer    than  the~other~one  
-+ el~otro      
-~ the~other~one
-- el~invierno
-~ winter     
-- tu   cabello
-~ your hair   
+Speaker559: Goed. En deze     hier? Deze     is langer dan  [die eerste].      
+~          Good. And this~one here? This~one is longer than  that first~one 
+$5416/ccf0526c.mp3;4,0;4,459;5,331;5,296;6,337;3,573;7,220;4,331;4,212;7,159
+- die langere      
+~ that longer~one
++ die eerste
+~ that first~ one
+- die rode
+~ that red one   
 
 [LINE]
-Speaker416: Tiene  plumas,   mamá. No~quiero    parecer      un~pájaro.
-~           it~has feathers  Mom   I~don't~want to~look~like a~bird    
+Speaker416: Er~zitten~veren~aan mam, Ik wil~er~niet   uitzien~als een kip!
+~           it~has~feathers     Mom  I  don't~want~to look~like   a   chicken    
+$5416/6f5d9f92.mp3;2,0;7,124;6,364;4,544;4,210;4,400;4,482;3,198;5,108;8,306;4,605;4,231;4,157
 
 [MULTIPLE_CHOICE]
-> Lily thinks she'll look like a bird in the dress because…
+> Lily thinks she'll look like a chicken in the dress because…
 - …it has a lot of different colors.
 + …it has feathers on it. 
 - …her arms are actually wings.
 
 [LINE]
-Speaker416: Esto es ridículo.   Solo~voy~a~usar        el~vestido una~vez.
-~           this is ridiculous  I'm~just~going~to~wear the~dress  once    
+Speaker416: Dit  is waanzin.    Ik ga        die  jurk  maar één~keer dragen.
+~           this is ridiculous  I will~wear that dress only once      (to~wear).
+$5416/739eef5c.mp3;3,0;3,285;8,242;4,770;3,440;4,267;5,215;5,402;4,313;5,281;7,340
 
 [ARRANGE]
 > Tap what you hear
-Speaker559: [(Pero) (es)   (muy~importante) (para~tu)  (tía~Betty).] 
-~             but    it's   very~important   for~your   aunt~Betty   
+Speaker559: [(Maar) (het~is) (heel) (belangrijk) (voor)      (tante~Betty).] 
+~             but    it's     very   important    for~(your)  aunt~Betty   
+$5416/8868a324.mp3;4,0;4,206;3,115;5,160;11,228;5,561;6,202;6,325
 
 [LINE]
-Speaker416: ¿Y   no~te~gusta    mi ropa?    ¿Es~eso?    
-~            and you~don't~like my clothes   is~that~it 
+Speaker416: Dus je~vindt~mijn~kleren~niet~mooi? Is dat het?    
+~           So  you~don't~like~my~clothes       is that your~point 
+$5416/72b00260.mp3;3,0;3,305;6,96;5,289;7,281;5,468;5,283;4,423;4,676;4,238
 
 [LINE]
-Speaker559: No~es    eso.  Solo~estoy~buscando  un vestido~cómodo    para ti.  Vamos    a  otra    tienda.
-~           it's~not that  I'm~just~looking~for a  comfortable~dress for  you  let's~go to another store  
+Speaker559: Dat~is~het~niet. Ik zoek~gewoon        een fijne~jurk       voor je. Laten~we  naar een~andere winkel gaan.
+~           it's~not~that    I 'm~just~looking~for a  comfortable~dress for  you  let's~go to   another    store  (to~go)
+$5416/77a41f22.mp3;3,0;3,217;4,130;5,107;4,351;5,345;7,193;4,330;6,104;5,347;5,272;3,222;7,205;3,643;5,96;4,205;7,127;7,353;5,351
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker416: ¡Mamá, espera! Dijiste  que  todos los~invitados [tienen~que~usar] un vestido~rosado o  un traje~negro, ¿cierto?
-~            mom   wait    you~said that all   the~guests     have~to~wear     a  pink~dress     or a  black~suit    right  
-+ tienen que usar
-- tienen que untar
-- vienen a usar
+Speaker416: Mama, wacht! Je  zei  dat  alle    gasten{gastuh} een~roze~jurk~[aan~moeten]. Of een zwart pak, toch?
+~            mom   wait  you said that all~the guests have~to~wear~a~pink~dress  or a   black suit right  
+$5416/c48563ce.mp3;4,0;7,603
+- aanmoeten
+- aan moet een
++ aan moeten
 
 [LINE]
-> Lily le~muestra un traje~negro~pequeño a  su  madre. 
-~ Lily shows      a  small~black~suit    to her mother 
+> Lily laat  een klein zwart pak  aan haar moeder zien. 
+~ Lily shows a   small black suit to  her  mother (laat~zien~=~shows)
+$5416/77e29a12.mp3;4,50;5,387;4,238;6,137;6,313;4,387;4,238;5,150;7,200;5,287
 
 [LINE]
-Speaker416: Lo~odias,    ¿cierto?
-~           you~hate~it   right  
+Speaker416: Je~vindt~het~maar~niks?
+~           you~don't~like~it?  
+$5416/dcd9bac2.mp3;2,0;6,140;4,288;5,119;5,261
 
 [LINE]
-Speaker559: ¡No, en~realidad, creo    que  es   perfecto para ti! 
-~            no  actually     I~think that it's perfect  for  you 
+Speaker559: Nee, het tegendeel eigenlijk! Ik denk dat  het  perfect~is voor~jou.
+~            no  the opposite  actually  I think that it   's~perfect for~you 
+$5416/2d0b1d1a.mp3;3,0;5,361;10,262;10,641;4,463;5,451;4,253;4,178;8,96;3,467;5,150;4,181
 
 [MULTIPLE_CHOICE]
 > What will Lily wear to the wedding?
@@ -115,9 +135,11 @@ Speaker559: ¡No, en~realidad, creo    que  es   perfecto para ti!
 
 [MATCH]
 > Tap the pairs
-- Es <> it's
-- Lo sé <> I know that
-- para tu <> for your
-- cierto <> right
-- que <> than
+- een pak aan moeten <> need to wear a suit
+- het maar niks vinden <> to not like it
+- de kleren <> the clothes
+- maar <> only
+- dragen <> to wear
+
+
 
