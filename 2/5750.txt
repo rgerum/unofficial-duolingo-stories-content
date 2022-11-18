@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=The Old Lady
+icon=5efd5d3e85a10ad5c37e72a842288f5c3d967300
+set=0|1 #31|2
+
+[HEADER]
+> La  viejita 
+~ the old~lady
+
+[LINE]
+> Lily está~trabajando en una tienda~de~ropa.
+~ Lily is~working      at a   clothing~store 
+
+[LINE]
+> Ella para~a una mujer~bien~vestida que  está~saliendo de la  tienda.
+~ she  stops  a   well-dressed~woman that is~coming~out of the store  
+
+[LINE]
+Speaker416: ¿Señora, acaba~de~poner ese  suéter  en su~cartera?
+~            madam   you~just~put   that sweater in your~purse 
+
+[LINE]
+Speaker528: ¿En mi cartera? No.
+~            in my purse    no 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker416: Sí,  señora, [yo~la~vi]. 
+~           yes  madam    I~saw~you  
+- yo le di
+- no lo vi
++ yo la vi
+
+[LINE]
+Speaker528: Ah, ¿este suéter? 
+~           oh   this sweater 
+
+[LINE]
+Speaker528: Iba~a~pagarlo,             pero se~me~olvidó. Soy  vieja y   tengo  muy      mala memoria.
+~           I~was~going~to~pay~for~it  but  I~forgot      I~am old   and I~have (a)~very bad  memory  
+
+[MULTIPLE_CHOICE]
+> Why does the woman say she didn't pay for the sweater?
+- The sweater is the wrong size.
++ She has a bad memory.
+- She doesn't want the sweater.
+
+[LINE]
+Speaker416: Espere, ¿y   esa  bufanda?
+~           wait     and that scarf   
+
+[LINE]
+Speaker528: ¡Ups! 
+~            oops 
+
+[LINE]
+Speaker416: ¿Puede~sacar      todo       de su~cartera, por~favor?
+~            you~can~take~out everything of your~purse  please    
+
+[LINE]
+> La  mujer saca      una bufanda, un cinturón y   un reloj de la  cartera.
+~ the woman takes~out a   scarf    a  belt     and a  watch of the purse   
+
+[LINE]
+Speaker416: ¡¿Estaba~intentando robarse  todas estas cosas?! 
+~             you~were~trying   to~steal all   these things  
+
+[MULTIPLE_CHOICE]
+> What did the woman try to steal?
++ a scarf, a belt, and a watch
+- a ring, a cap, and a skirt
+- a hat, a necklace, and a blouse
+
+[LINE]
+Speaker528: ¡Sí!  ¡Me~encanta robar!    ¡Es   tan emocionante!
+~            yes   I~love     to~steal   it's so  exciting    
+
+[LINE]
+Speaker528: Vivo   sola  y   es   muy  aburrido. Algún día me~vas~a~entender.     
+~           I~live alone and it's very boring    some  day you~will~understand~me 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "old lady."
+Speaker528: Me~vas~a~dejar~ir,         ¿(verdad)? (Solo~soy) una (amable) (+viejita). 
+~           you're~going~to~let~me~go    right     I'm~just  a    nice      old~lady  
+
+[LINE]
+Speaker416: ¿Amable?
+~            nice   
+
+[LINE]
+Speaker528: En~realidad,~no, pero me~vas~a~dejar~ir         porque  tú  eres una chica~muy~amable.
+~           not~really       but  you're~going~to~let~me~go because you are  a   very~nice~girl   
+
+[LINE]
+Speaker416: Está~bien, puede~irse, pero no~se~lo~diga~a nadie.  Este es nuestro secreto.
+~           OK         you~can~go  but  don't~tell      anyone  this is our     secret  
+
+[LINE]
+Speaker528: ¡Está~bien! ¡Gracias!   ¡Adiós!  
+~            OK          thank~you   goodbye 
+
+[ARRANGE]
+> Tap what you hear
+> [(La~viejita)   (toma)  (su~cartera) (y)   (se~va).] 
+~   the~old~lady   takes   her~purse    and   leaves   
+
+[LINE]
+> El~jefe~de~Lily entra~corriendo~a la  tienda.
+~ Lily's~boss     runs~into         the store  
+
+[LINE]
+Speaker44: ¿Dejaste~ir~a esa  mujer?
+~           you~let~go   that woman 
+
+[LINE]
+Speaker416: Por~supuesto. ¿Por~qué no? 
+~           of~course      why     not 
+
+[LINE]
+Speaker44: ¡Acaba~de~robarse una cartera~de~300~dólares!
+~           she~just~stole   a   300~dollar~purse       
+
+[MULTIPLE_CHOICE]
+> Uh oh! Why is Lily's boss so angry?
+- Lily told the woman to steal things.
+- Lily stole an expensive purse.
++ The woman stole an expensive purse.
+
+[MATCH]
+> Tap the pairs
+- está saliendo <> is coming out
+- Estaba intentando <> you were trying
+- Dejaste ir a <> you let go
+- está trabajando <> is working
+- para a <> stops
+
