@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=A Date
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+[HEADER]
+> Un cortea
+~ a   date
+
+[LINE]
+> Bea es en un cortea en un restorante.
+~ Bea is   on a   date in a  restaurant  
+
+[LINE]
+Speaker507: Alo!  Como~lo~vade? 
+~            hello   how~are~you 
+
+[LINE]
+Speaker100: Bon!
+~            fine 
+
+[LINE]
+Speaker100: Cual tu vole come? 
+~            what (do) you want to~eat 
+
+[LINE]
+Speaker507: Un salada.
+~           a   salad    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: Oji   me ave  [un jua importante].
+~           today I have  an important game      
++ un jua importante
+- un jura importante
+- un lua imponente
+
+[LINE]
+Speaker100: A,  tu gusta la sportes?
+~           oh   (do) you like (the)~sports 
+
+[LINE]
+Speaker507: Si,  me jua futbal.
+~           yes  I play soccer 
+
+[MULTIPLE_CHOICE]
+> Bea is ordering a salad because…
++ …she is playing soccer today.
+- …her date said the salad is delicious.
+- …she just ate a whole pizza.
+
+[LINE]
+Speaker100: Me ance!
+~            me too     
+
+[LINE]
+Speaker507: Super!
+~            great 
+
+[LINE]
+Speaker507: De do tu es?     
+~            where~are~you~from 
+
+[LINE]
+Speaker100: Me es  american.
+~           I am American  
+
+[ARRANGE]
+> Tap what you hear
+Speaker100: [(Mea~padre)  (es~de~Cuba)   (e)   (mea~madre)  (es~de~Mexico).]  
+~             my~father   is~from~Cuba   and   my~mother   is~from~Mexico   
+
+[LINE]
+Speaker507: ¡Me ama Cuba!
+~            I love     Cuba 
+
+[LINE]
+Speaker100: Cuba es multe  bela.   
+~           Cuba is very beautiful 
+
+[LINE]
+Speaker507: Esce~tu~ave animales~de~casa?
+~            do~you~have pets
+
+[LINE]
+Speaker100: Me ave du gatos e un can.
+~           I have two cats and a dog   
+
+[POINT_TO_PHRASE]
+> Choose the option that means "also."
+Speaker507: Me (+ance) (ave) un (can), (José).
+~           I    also      have   a   dog      José  
+
+[LINE]
+Speaker100: Eh? Mea nom es Daniel…
+~            eh  my name is  Daniel 
+
+[LINE]
+Speaker100: Tu~no~es Gabriela?
+~            aren't you Gabriela 
+
+[LINE]
+Speaker507: No!
+~            no 
+
+[LINE]
+Speaker507: Mea nom es  Bea!
+~            my name is  Bea 
+
+[MULTIPLE_CHOICE]
+> Did you catch that? Bea and Daniel…
+- …bought tickets to Cuba.
++ …were supposed to meet different people.
+- …are walking their dogs.
+
+[LINE]
+> Un fem pasea a   Daniel.
+~ a   woman walks towards Daniel 
+
+[LINE]
+Speaker101: Alo!  Esce~tu~es Daniel? Me es  Gabriela.
+~           hello  are~you Daniel  I am Gabriela 
+
+[LINE]
+Speaker100: No, pardona. Me es  José.
+~           no  sorry  I am José 
+
+[MULTIPLE_CHOICE]
+> Whoa! What just happened?
+- Bea changed her name to Gabriela.
++ Daniel lied to his real date because he likes Bea.
+- Bea and Daniel's dogs played soccer.
+
+[MATCH]
+> Tap the pairs
+- e <> and
+- Me es <> I am
+- salada <> salad
+- Me ama <> I love
+- animal de casa <> pet
+- gato <> cat
+- can <> dog
+
