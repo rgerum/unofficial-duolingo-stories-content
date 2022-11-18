@@ -1,36 +1,43 @@
 [DATA]
 fromLanguageName=The Wedding
 icon=1af589ac8182b2da5175dd9c2dc973d1089ef4f2
-set=0|4 #25|4
+set=25|4
 
 [HEADER]
-> La  boda   
+> De Bruiloft  
 ~ the wedding
+$5418/318e18ce.mp3;2,50;9,225
 
 [LINE]
-> Lucy y   Lin están en la~boda~de~un~familiar.
-~ Lucy and Lin are   at a~relative's~wedding   
+> Lucy en  Lin zijn op een bruiloft.
+~ Lucy and Lin are  at a   wedding. 
+$5418/35c15e42.mp3;4,50;3,562;4,125;5,263;3,325;4,112;9,125
 
 [LINE]
-Speaker509: ¡Qué~boda~tan~hermosa!    
-~            what~a~beautiful~wedding 
+Speaker509: Wat  een prachtige bruiloft!    
+~           what a   wonderfull wedding 
+$5418/3999171c.mp3;3,50;4,225;10,150;9,500
 
 [LINE]
-Speaker508: ¡Yo sé!   ¡Este hotel es increíble!
-~            I  know   this hotel is amazing   
+Speaker508: Nou~en~of!  Dit hotel is geweldig!
+~           Absolutely! this hotel is amazing   
+$5418/3e4438aa.mp3;3,0;3,349;3,151;5,360;6,445;3,477;9,145
 
 [ARRANGE]
 > Tap what you hear
-Speaker509: ¡[(Y)   (la)  (comida) (está) (deliciosa)!]
-~              and   the   food     is     delicious   
+Speaker509: [(En) (het)  (eten) (is) (verrukkelijk)!]
+~            and   the   food   is     delicious   
+$5418/44db90d2.mp3;2,50;4,162;5,225;3,338;13,175
 
 [LINE]
-Speaker508: ¿¡Estos tenedores son de~oro!?      
-~             these forks     are made~of~gold  
+Speaker508: Zijn deze vorken van~goud?      
+~           are these forks  made~of~gold  
+$5418/4cfab05e.mp3;4,0;5,289;7,275;4,356;5,175
 
 [LINE]
-Speaker509: ¡Sí!  Toma uno. No, mejor~dos.               ¡Uno para ti  y   uno para mí!
-~            yes  take one  no  (you)~better~(take)~two   one for  you and one for  me 
+Speaker509: Ja!  Neem~er één mee!      Of nee, nog liever twee! Een voor jou en een voor mij!
+~           Yes! Take    one with~you! Or no, even better two!  One for  you and one for me!
+$5418/917f2818.mp3;2,50;5,1325;3,400;4,200;4,250;3,1262;4,200;4,563;7,237;5,350;4,1363;5,262;4,225;3,363;4,175;5,287;4,188
 
 [MULTIPLE_CHOICE]
 > Lucy thinks they should…
@@ -39,16 +46,19 @@ Speaker509: ¡Sí!  Toma uno. No, mejor~dos.               ¡Uno para ti  y   un
 - …give gold forks as a gift.
 
 [LINE]
-Speaker508: Yo creo  que  esta boda    fue muy  cara.     
-~           I  think that this wedding was very expensive 
+Speaker508: Ik denk  dat  deze bruiloft heel~duur~is. 
+~           I  think that this wedding  is~very~expensive 
+$5418/9d23db78.mp3;2,0;5,170;4,295;5,140;9,320;5,588;5,255;3,313
 
 [LINE]
-Speaker509: ¿Cuánto   crees     que  les~costó?       
-~            how~much you~think that they~paid~for~it 
+Speaker509: Hoeveel denk~je          dat  ze~ervoor~betaald~hebben?       
+~           how~much would~you~guess that they~paid~for~it 
+$5418/a0da303c.mp3;7,50;5,475;3,250;4,137;3,163;7,100;8,337;7,425
 
 [LINE]
-Speaker508: Mucho.
+Speaker508: Veel.
 ~           a~lot 
+$5418/a67bfbc4.mp3;4,0
 
 [MULTIPLE_CHOICE]
 > Lin thinks the wedding is…
@@ -57,67 +67,82 @@ Speaker508: Mucho.
 - …poorly organized.
 
 [LINE]
-Speaker509: ¡Tu~primo    Pablo odia  gastar   dinero!
-~            your~cousin Pablo hates to~spend money  
+Speaker509: Maar jouw neef Paul heeft~een~hekel~aan geld uitgeven.
+~           But  your cousin Paul hates~to          spend money  
+$5418/aa6b5ea0.mp3;4,50;5,237;5,338;5,262;6,488;4,250;6,112;4,513;5,137;9,338
 
 [LINE]
-Speaker509: Estoy sorprendida porque  esta boda    es muy  bonita.
-~           I~am  surprised   because this wedding is very pretty 
+Speaker509: Ik ben verrast dat deze bruiloft zo mooi is. 
+~           I  am  amazed that this wedding is so beautiful.
+$5418/b0b9096a.mp3;2,50;4,175;8,200;4,662;5,163;9,375;3,625;5,187;3,350
 
 [LINE]
-Speaker508: Yo estoy sorprendida. ¡La  novia es tan hermosa!  
-~           I  am    surprised     the bride is so  beautiful 
+Speaker508: Ik ben ook~verrast!   Want    de  bruid is zo'n{zoon} schoonheid!  
+~           I  am surprised,~too! Because the bride is such~a beauty!
+$5418/3ce39844.mp3;2,0;4,149;4,221;8,220
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker508: [Hablé~con~ella]  antes.  Es       doctora,    ¿lo~sabías?    
-~            I~talked~to~her  before  (she)~is (a)~doctor   you~knew~that 
-- Hablé de ellas
-- Haré botellas
-+ Hablé con ella
+Speaker508: [Ik~heb~vooraf~met~haar~gepraat]. Zij{ze} is een arts, wist~je dat?    
+~           I~talked~to~her~before           she is a doctor  did~you~know that 
+$5418/55d97a8a.mp3;2,0;4,185;7,150;4,436;5,165;8,190;8,625;4,660;5,120;6,399;3,335;4,60
+
+- Ik heb vooraf met haar geschaakt.
+- Ik heb een voorafje met haar gemaakt.
++ Ik heb vooraf met haar gepraat.
 
 [LINE]
-Speaker509: ¿Cómo~hizo~Pablo   para~conocer~a   una~mujer~tan~increíble?
-~            what~did~Pablo~do in~order~to~meet such~an~amazing~woman   
+Speaker509: Hoe heeft~onze~Paul~het~voor~elkaar~gekregen  om zo'n~geweldige~vrouw~te~vinden?
+~           How did~our~Paul~manage                     to find~such~an~amazing~wife? 
+$5418/a23c0896.mp3;3,50;6,187;5,300;5,288;4,350;5,87;7,163;9,362;3,613;5,150;10,225;6,525;3,325;7,100
 
 [LINE]
-Speaker508: ¡No~sé!        Ella es demasiado buena~y~guapa      para él. 
-~            I~don't~know  she  is too       good~and~beautiful for  him 
+Speaker508: Geen~idee!    Ze  is te  goed en  te  mooi      voor hem. 
+~           I~don't~know  she is too good and too beautiful for  him 
+$5418/6991f956.mp3;4,0;5,354;4,464;3,350;3,190;5,105;3,335;3,135;5,95;5,308;4,240
 
 [CONTINUATION]
 > What comes next?
-Speaker509: ¡Él es el  hombre~más~aburrido [del    mundo]!
-~            he is the most~boring~man      of~the world  
-- en mi boda   
-~ in my wedding
-+ del    mundo
-~ of~the world
-- en su  habitación
-~ in his bedroom   
+Speaker509: Hij is de  saaiste     man [van~de~wereld]!
+~           he  is the most~boring man  in~the~world  
+$5418/7248c070.mp3;3,50;3,300;3,162;8,113;4,525;4,300;3,187;7,38
+
+- van het weer
+~ of the wheather
++ van de wereld
+~ in the world
+- van het land
+~ in the country   
 
 [LINE]
-Speaker508: Y   es      muy  perezoso.
-~           and (he)~is very lazy     
+Speaker508: En  hij is erg lui.
+~           and he  is very lazy     
+$5418/77bcacb0.mp3;2,0;4,159;3,180;4,200;4,281
 
 [LINE]
-Speaker509: ¡Pero qué~bueno que  nos~invitó!   
-~            but  how~great that he~invited~us 
+Speaker509: Maar wat geweldig dat  hij ons~heeft~uitgenodigd!   
+~           but  how great    that he  invited~us 
+$5418/7b1f025e.mp3;4,50;4,262;9,213;4,575;4,175;4,225;6,275;12,287
 
 [LINE]
-Speaker508: ¡Shh! Ahí~viene.     
-~            ~    there~he~comes 
+Speaker508: Kijk, daar~komt~hij.     
+~           Look, there~he~comes 
+$5418/80534b68.mp3;4,0;6,305;5,264;4,246
 
 [LINE]
-Speaker509: Espera. Ese  no~es  Pablo.
-~           wait    that is~not Pablo 
+Speaker509: Wacht. Dat  is~Paul~niet.
+~           wait   that is~not~Paul 
+$5418/83fa04b4.mp3;5,50;4,1412;3,225;5,188;5,375
 
 [LINE]
-Speaker508: ¡Ay, no! ¡Creo    que  este no~es  el~hotel~correcto! Vámonos. 
-~            ~   no   I~think that this is~not the~right~hotel    let's~go 
+Speaker508: Nee zeg! Ik geloof dat  we in~het~verkeerde~hotel~zijn. Laten we gaan. 
+~           Oh no    I  think  that we are~in~the~wrong~hotel.      Let  's  go. 
+$5418/8aeaeb9e.mp3;3,0;4,280;4,445;7,375;4,421;3,185;3,45;4,160;10,125;6,490;5,440;7,362;3,685;5,90
 
 [LINE]
-Speaker509: No, vamos~a~quedarnos aquí. ¡Están~sirviendo  el  postre! 
-~           no  let's~stay        here   they~are~serving the dessert 
+Speaker509: Nee. laten we nog~even~blijven. Ze   brengen het dessert! 
+~           no   let  's  stay~a~bit~longer they are~serving the dessert 
+$5418/90a2159e.mp3;3,50;6,1350;3,475;4,125;5,200;8,400;3,1450;8,175;4,425;8,125
 
 [MULTIPLE_CHOICE]
 > Oops! Lin and Lucy…
@@ -127,9 +152,11 @@ Speaker509: No, vamos~a~quedarnos aquí. ¡Están~sirviendo  el  postre!
 
 [MATCH]
 > Tap the pairs
-- doctora <> doctor
-- Pero <> but
-- en <> at
-- porque <> because
-- muy <> very
+- de bruiloft <> the wedding
+- lui <> lazy
+- uitnodigen <> to invite
+- nou en of! <> absolutely!
+- saai <> boring
+
+
 
