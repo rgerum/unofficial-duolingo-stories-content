@@ -1,69 +1,83 @@
 [DATA]
 fromLanguageName=The Elevator
 icon=f5dc8cdee1c001f2b1b6c4c56613c01a458a17c3
-set=0|3 #25|3
+set=25|3
 
 [HEADER]
-> El  ascensor
+> De Lift
 ~ the elevator
+$5417/af5bce38.mp3;2,50;5,137
 
 [LINE]
-> Lin y   Bea están en un ascensor.
+> Lin en  Bea staan in een lift.
 ~ Lin and Bea are   in an elevator 
+$5417/b3b1bede.mp3;3,50;3,400;4,200;6,337;3,388;4,112;5,100
 
 [LINE]
-> De~repente, el  ascensor hace  un ruido~extraño.
-~ suddenly    the elevator makes a  strange~noise 
+> Opeens{op~eens}   maakt~de~lift      een vreemd geluid.
+~ suddenly the~elevator~makes a   strange noise 
+$5417/171b63a4.mp3;2,50;5,262;6,300;3,288;5,75;4,300;7,112;7,375
 
 [LINE]
-Speaker507: ¿Escuchaste eso? 
-~            you~heard  that 
+Speaker507: Hoorde~je    dat? 
+~           did~you~hear that 
+$5417/c15f871e.mp3;6,50;3,462;4,100
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker508: Sí,  y   [no~me~gustó]      para~nada.
-~           yes  and  I~didn't~like~it  at~all    
-- no se gastó
-- no me llamó
-+ no me gustó
+Speaker508: Ja en   [het bevalt me helemaal~niet].
+~           yes  and it pleases me not~at~all    
+$5417/5d8fe28c.mp3;2,0;3,310;4,104;7,120;3,410;9,80;5,450
+- het beval me helemaalniet
+- het vervalt me helemaal niet
++ het bevalt me helemaal niet
 
 [LINE]
-Speaker507: ¡Tengo~miedo!
-~            I'm~afraid  
+Speaker507: Ik ben bang!!
+~           I  'm  afraid  
+$5417/62556f1c.mp3;2,50;4,225;5,212
 
 [POINT_TO_PHRASE]
-> Choose the option that means "falling."
-Speaker508: ¡(Ay), no! ¡El  (ascensor) (está) (+cayendo)!
-~             oh   no   the  elevator   is      falling  
+> Choose the option that means "down."
+Speaker508: (Help)! (de)  (lift)    (stort)     (+naar~beneden)!
+~           Help!   the    elevator  is~falling  down
+$5417/666f0ad6.mp3;4,0;4,365;5,180;6,287;5,360;8,140
 
 [LINE]
-Speaker507: ¡Ah, qué~bueno!    ¡Ya~paró!           
-~            oh  that's~great   it~already~stopped 
+Speaker507: Oh, gelukkig! Hij~is~weer~gestopt!           
+~            oh  good     it~stopped~again 
+$5417/7c93e0f2.mp3;2,50;9,500;4,1500;3,275;5,175;8,225
 
 [LINE]
-Speaker508: Yo no~quiero  morir… 
+Speaker508: Ik wil~niet   dood… 
 ~           I  don't~want to~die 
+$5417/745ec12c.mp3;2,0;4,174;5,195;5,248
 
 [LINE]
-Speaker507: ¡Ah! ¡El  ascensor está~cayendo otra~vez!
-~            oh   the elevator is~falling   again    
+Speaker507:  Help! De  lift     valt       weer!
+~            Help  the elevator is~falling again    
+$5417/9c539aae.mp3;4,50;3,1275;5,162;5,288;5,287
 
 [ARRANGE]
 > Tap what you hear
-Speaker508: ¡[(Soy)  (demasiado) (joven) (para~morir)!]
-~              I~am   too         young   to~die       
+Speaker508: [(Ik) (ben)  (te) (jong) (om)~(dood)~(te)~(gaan)!]
+~             I    am     too  young  to~die       
+$5417/a3926b24.mp3;2,0;4,155;3,215;5,90;3,298;5,170;3,266;5,85
 
 [LINE]
-> El  ascensor para  otra~vez.
+> De lift stopt weer.
 ~ the elevator stops again    
+$5417/aaf32db8.mp3;2,50;5,137;6,300;5,363
 
 [LINE]
-Speaker507: ¡Hay       tantas  cosas  que  quiero hacer antes~de~morir!
-~            there~are so~many things that I~want to~do before~dying   
+Speaker507: Er    zijn nog   zoveel  dingen die ik wil     doen voor~ik~dood~ga!
+~           there are  still so~many things that I want~to do   before~dying   
+$5417/af478512.mp3;2,50;5,262;4,175;7,200;7,413;4,300;3,137;4,150;5,238;5,212;3,263;5,175;3,237
 
 [LINE]
-Speaker508: ¡Yo quiero escalar  el  Everest!
-~            I  want   to~climb the Everest 
+Speaker508: Ik wil     de~Mount~Everest~beklimmen!
+~           I  want~to climb~the~ount~Everest 
+$5417/b6595fe2.mp3;2,0;4,179;3,180;6,85;8,388;10,434
 
 [MULTIPLE_CHOICE]
 > Did you catch that? Lin wants to…
@@ -72,75 +86,92 @@ Speaker508: ¡Yo quiero escalar  el  Everest!
 + …climb Mt. Everest.
 
 [LINE]
-Speaker507: ¡Yo quiero ganar  el  Maratón~de~Nueva~York!
-~            I  want   to~win the New~York~Marathon     
+Speaker507: Ik wil     de~Marathon~van~New~York~winnen!
+~           I  want~to win~the~New~York~Marathon     
+$5417/cc1e144e.mp3;2,50;4,200;3,212;9,88;4,600;4,137;5,225;7,288
 
 [LINE]
-Speaker508: ¡Y   quiero aprender~a manejar~un~avión!  
-~            and I~want to~learn   to~fly~an~airplane 
+Speaker508: En  ik wil     leren vliegen!  
+~           and I  want~to learn to~fly~an~airplane 
+$5417/d3a505b0.mp3;2,0;3,150;4,139;6,185;8,301
 
 [LINE]
-Speaker507: ¡Quiero enseñarle a~pintar~a~mi~gato!
-~            I~want to~teach  my~cat~to~paint    
+Speaker507: Ik wil     m'n~kat~leren schilderen!
+~           I  want~to teach~my~cat   how~to~paint    
+$5417/e541cb50.mp3;2,50;4,212;4,213;4,200;6,187;11,375
 
 [LINE]
-Speaker508: Espera… ¿qué  dijiste? 
-~           wait     what you~said 
+Speaker508: Wacht! Wat zei je daar? 
+~           wait   what did~you~say 
+$5417/0e5de258.mp3;5,0;5,550;4,415;3,230;5,115
 
 [LINE]
-Speaker507: ¡Ay, no! ¡Nos~estamos~cayendo otra~vez!
-~            oh  no   we~are~falling      again    
+Speaker507: Ai{aai} nee! We vallen      alweer!
+~            oh     no   we are~falling again    
+$5417/122f7798.mp3;3,50;4,300;3,1187;7,200;7,300
 
 [LINE]
-> El  ascensor hace  un ruido~muy~fuerte  y   para. 
-~ the elevator makes a  very~strong~noise and stops 
+> De lift      maakt een heel hard   geluid  en stopt~dan. 
+~ the elevator makes a   very strong noise  and then~stops 
+$5417/17a566d8.mp3;2,50;5,162;6,325;4,288;5,125;5,300;7,237;3,513;6,162;4,363
 
 [LINE]
-Speaker508: ¡Espera!
+Speaker508: Wacht!
 ~            wait   
+$5417/1e051ff0.mp3;5,0
 
 [LINE]
-Speaker507: ¡Las puertas se~están~abriendo!
-~            the doors   are~opening       
+Speaker507: De  deuren gaan~open!
+~           the doors  are~opening       
+$5417/22592b32.mp3;2,50;7,200;5,325;5,300
 
 [LINE]
-Speaker507: ¡Estamos bien!
-~            we~are  fine 
+Speaker507: We zijn gered!
+~           we are  safe 
+$5417/2652f4ca.mp3;2,50;5,187;6,200
 
 [LINE]
-Speaker508: Fue    muy  emocionante.
-~           it~was very exciting    
+Speaker508: Het was erg  spannend!
+~           it  was very exciting    
+$5417/3063bd78.mp3;3,0;4,139;4,200;9,230
 
 [CONTINUATION]
 > What comes next?
-> Lin y   Bea salen   del    [ascensor].
-~ Lin and Bea get~out of~the  elevator  
-+ ascensor
-~ elevator
-- banco
-~ bank 
-- estadio
-~ stadium
+> Lin en  Bea stappen~[de~lift]~uit.
+~ Lin and Bea get~out~of~the~elevator  
+$5417/3692699c.mp3;3,50;3,400;4,175;8,325;3,400;5,75;4,337
+
++ de  lift
+~ the elevator
+- het licht
+~ the light
+- het lint
+~ the ribbon
 
 [LINE]
-> Todos~están bien.
-~ everyone~is fine 
+> Iedereen is in~orde.
+~ everyone is fine 
+$5417/67624242.mp3;8,50;3,662;3,200;5,200
 
 [LINE]
-Speaker507: Entonces… ¿qué  vas~a~hacer         hoy?  
-~           so         what you~are~going~to~do today 
+Speaker507: Dus… wat ga~je            doen vandaag?  
+~           so  what are~you~going~to do   today 
+$5417/41d79c50.mp3;3,50;4,1212;3,225;3,250;5,138;8,200
 
 [LINE]
-Speaker508: No~mucho. Ver~la~tele     y   comer      algo.      ¿Y   tú? 
-~           not~much  (I'll)~watch~TV and (I'll)~eat something   and you 
+Speaker508: Niet zo veel. Televisie~kijken en  iets~eten.         En  jij? 
+~           not so much   I'll~watch~TV    and I'll~eat~something and you 
+$5417/4740ea0c.mp3;4,0;3,224;5,201;11,356;7,840;3,475;5,173;5,255;4,450;4,505
 
 [LINE]
-Speaker507: Yo~también. Adiós.
-~           me~too      bye   
+Speaker507: Ik~ook. Tot~ziens!
+~           me~too  see~you~later   
+$5417/50e34604.mp3;2,50;4,225;4,1200;6,250
 
 [LINE]
-Speaker508: Hasta~luego.  
-~           see~you~later 
+Speaker508: Later!  
+~           bye 
+$5417/ef1b8a02.mp3;5,0
 
 [MULTIPLE_CHOICE]
 > Now that they are safe, Bea and Lin are going to…
@@ -150,9 +181,10 @@ Speaker508: Hasta~luego.
 
 [MATCH]
 > Tap the pairs
-- qué <> what
-- para nada <> at all
-- Everest <> Everest
-- vas a hacer <> you are going to do
-- enseñarle <> to teach
+- later! <> bye!
+- helemaal niet <> not at all
+- de lift <> the elevator
+- neerstorten <> to fall down
+- dood gaan <> to die
+
 
