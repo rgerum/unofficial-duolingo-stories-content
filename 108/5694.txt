@@ -1,141 +1,148 @@
 [DATA]
-fromLanguageName=Need Help?
+fromLanguageName=Do You Need Help?
 icon=ec74184ed69da39d62ba574fa9d615f7d0c53da1
 set=9|4
 
 [HEADER]
-> ¿Necesita    ayuda?
-~  do~you~need help  
+> איר~דאַרפֿט הילף?
+~  do~you~need~(formal) help  
 
 [LINE]
-> Lin está en la~calle.  
-~ Lin is   on the~street 
-
-[SELECT_PHRASE]
-> Select the missing phrase
-> Ella ve~a un~hombre [cerca~de~su~carro].
-~ she  sees a~man      near~his~car       
-- acerca de tu carro
-- cera de tu carro
-+ cerca de su carro
+> לין גײט אין גאַס
+~ Lin is~walking   in the~street 
 
 [LINE]
-> Él está preocupado.
-~ he is   worried    
+> זי זעט אַ מאַן בײַ זײַן טאַקסי. ער איז שטאַרק פֿאַרזאָרגט
+~ she  sees a man      near his taxi he is very worried      
 
 [LINE]
-Speaker508: ¡Hola!  ¿Necesita    ayuda?
-~            hello   do~you~need help  
-
-[CONTINUATION]
-> What comes next?
-Speaker127: Mi carro tiene [un~problema].
-~           my car   has    a~problem    
-- mi café  
-~ my coffee
-- un~hombre
-~ a~man    
-+ un~problema
-~ a~problem  
+Speaker508: שלום־⁠עליכם! איר~דאַרפֿט הילף?
+~            hello~("SHO-lem~a-LEY-khem")   do~you~need~(formal) help  
 
 [LINE]
-Speaker127: ¿Puedo usar     su   teléfono, por~favor?
-~            can~I (to)~use your phone     please    
+
+Speaker127:  עליכם־שלום!⁠ מײַן טאַקסי האָט אַ פּראָבלעם.
+~           hello~(response) my taxi   has    a problem    
+
+[MULTIPLE_CHOICE]
+> ...The man 
+- .asks for the time...
++ .has a problem with his taxi...
+- .recognizes Lin...
 
 [LINE]
-> Lin le~da su~teléfono al     hombre.
-~ Lin gives her~phone   to~the man    
+Speaker127: מעג איך ניצן אײַער טעלעפֿאָן, ביטע?
+~            may I use your telephone     please    
 
 [LINE]
-Speaker508: Sí,  pero…
+> לין גיבט איר טעלעפֿאָן צו דעם מאַן
+~ Lin gives her telephone   to the man    
+
+[LINE]
+Speaker508: יאָ, אָבער...
 ~           yes  but  
 
 [LINE]
-Speaker127: Lo~siento, un~momento.
-~           I'm~sorry  one~moment 
+Speaker127: זײַ~מיר~מוחל. אײן~מאָמענט, ביטע...
+~           excuse~me  one~moment please
 
 [LINE]
-> El  hombre llama por~teléfono.
-~ the man    calls on~the~phone 
+> דער מאַן רעדט אין~טעלעפֿאָן
+~ the man    talks on~the~telephone 
 
 [LINE]
-Speaker127: Buenos~días,  ¿ese~es  el  taller~de~reparación~de~carros?
-~           good~morning   is~that the auto~repair~shop               
+Speaker127: גוט~מאָרגן! איך~הײס פֿיבֿל~שװאַרץ. דאָס~איז דער אױטאָ־⁠רעפּאַריר־⁠װאַרשטאַט?
+~           good~morning   my~name~is~("I~am~called") Feivel~Schwartz is~this the auto~repair~shop               
 
 [MULTIPLE_CHOICE]
-> The man borrowed Lin's phone so he could…
-- …check the time.
-+ …call an auto repair shop.
-- …look through her pictures.
+> ...Mr. Schwartz borrowed Lin's phone so he could
+- .check the time...
++ .call an auto repair shop...
+- .look through her pictures...
 
 [LINE]
-Speaker127: Mi carro tiene un~problema.
-~           my car   has   a~problem   
+Speaker15: יאָ! איך~הײס אוריאל. מיט~װאָס~קען~איך~אײַך~העלפֿן?׳
+~           yes my~name~is~("I~am~called") Uriel how~can~I~help~you~(formal)  
 
 [LINE]
-Speaker508: Ah… ¿señor?
-~           oh   sir   
+Speaker127: אױ, מײַן טאַקסי האָט אַ פּראָבלעם.
+~           oh  my taxi   has   a  problem   
 
 [LINE]
-> El  hombre ignora~a Lin.
-~ the man    ignores  Lin 
+Speaker508: אױ,~װײ! מיסטער~שװאַרץ...
+~           oh~my   Mr.~Schwartz  
 
 [LINE]
-Speaker127: Ahh…
-~           ohh 
-
-[SELECT_PHRASE]
-> Select the missing phrase
-Speaker127: No~sé        [dónde~estoy].
-~           I~don't~know  where~I~am   
-- adonde esto
-+ dónde estoy
-- come esto hoy
+> מיסטער~שװאַרץ מאַכט~זיך~נישט־⁠װיסנדיק~פֿאַר לין 
+~ Mr.~Schwartz    ignores~("makes~himself~not~notice")  Lin 
 
 [LINE]
-Speaker127: Mmm… Disculpe,  ¿señorita?
-~           hmm  excuse~me   miss     
+Speaker15: װוּ~זענט~איר? װעלכע גאַס?
+~           where~are~you~(formal) which street 
 
 [LINE]
-Speaker508: ¿Sí? 
+Speaker127: אױ,~װײ!
+~           oh~my 
+
+[LINE]
+Speaker127: איך װײס~נישט װעלכע גאַס דאָס איז.
+~           I don't~know  which street this is   
+
+[LINE]
+Speaker127: מממ... אַנטשולדיקט~מיר, פֿרײַלין... 
+~           hmm  excuse~me~(formal)   miss     
+
+[LINE]
+Speaker508: יאָ? 
 ~            yes 
 
 [LINE]
-Speaker127: ¿Dónde estamos?
+Speaker127: װוּ זענען~מיר?
 ~            where are~we  
 
 [LINE]
-Speaker508: ¡Muy  cerca~del    taller~de~reparación~de~carros!
-~            very close~to~the auto~repair~shop               
+Speaker508: מיר זענען זײער נאָענט צום אױטאָ־⁠רעפּאַריר־⁠װאַרשטאַט.
+~            we are very close to~the auto~repair~shop               
 
 [LINE]
-Speaker127: ¿Qué? 
+Speaker127: װאָס? 
 ~            what 
 
-[ARRANGE]
-> Tap what you hear
-Speaker508: ¡[(Yo) (trabajo) (en) (el~taller)       (los~fines~de~semana)!]
-~              I    work      at   the~repair~shop   on~weekends           
+[LINE]
+Speaker508: איך אַרבעט בײַם אױטאָ־⁠רעפּאַריר־⁠װאַרשטאַט אױפֿן שבת־⁠זונטיק, דעם סוף־⁠װאָכן.
+~              I    work      at~the auto~repair~shop   on Saturday-Sunday the weekends           
 
 [LINE]
-Speaker508: Soy  mecánica.  
-~           I~am a~mechanic 
+Speaker508:   איך בין אַן אױטאָ־⁠מעכאַניקערין.
+~            I am an auto~mechanic~(f.) 
 
 [LINE]
-Speaker508: Entonces… ¿necesita    ayuda?
-~           so         do~you~need help  
+Speaker508: איר~רעדט צו אוריאל, מײַן בעל־⁠הבית.
+~           you~are~speaking~(formal) to Uriel my boss~("ba-le-BOS") 
+
+[LINE]
+> לין נעמט צוריק דעם טעלעפֿאָן 
+~ Lin takes back the telephone 
+
+[LINE]
+Speaker508: אוריאל, איך האָב~געפֿונען אַ נײעם קליענט. מיר קומען באַלד~צוריק צום װאַרשטאַט!
+~           Uriel I found a new client we are~coming right~back to~the shop 
+
+[LINE]
+Speaker508: איצט, מיסטער~שװאַרץ, װעט~איר~טאַקסי~זײַן זײער צופֿרידן מיטן אַרױסקום! ⁠
+~           now Mr.~Schwartz your~taxi~will~be very satisfied with~the result
 
 [MULTIPLE_CHOICE]
-> It turns out that Lin…
-- …doesn't know where she is.
-+ …works at the auto repair shop.
-- …needs help buying a new phone.
+> ...It turns out that Lin
+- .doesn't know where she is...
++ .works at the auto repair shop...
+- .needs help buying a new phone...
 
 [MATCH]
 > Tap the pairs
-- tiene <> has
-- los fines de semana <> on weekends
-- Ella <> she
-- un hombre <> a man
-- señorita <> miss
+- גאַס <> street
+- אַרױסקום <> result
+- בעל־⁠הבית <> boss ("ba-le-BOS")
+- הילף <> help (noun) 
+- העלפֿן <> help (verb)
 
