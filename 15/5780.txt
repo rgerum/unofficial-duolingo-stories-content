@@ -1,0 +1,152 @@
+[DATA]
+fromLanguageName=Airport Vacation
+icon=2b278a0330bde258574bdf9c02d9149192bc7d06
+set=32|1
+
+[HEADER]
+> Havalimanı Tatili
+~ airport vacation           
+
+[LINE]
+> Lily ve   Zari havalimanındalardır.
+~ Lily and Zari they~are~at~the~airport   
+
+#Zarinin
+#Zari'nin
+[LINE]
+> Zarinin ailesiyle tatile çıkarlar.
+~ of~Zari  with~her~family to~vacation they~are~going
+
+#Zarinin
+#Zari'nin
+[LINE]
+> Zarinin annesi Samina gidip onlarla konuşur.
+~ of~Zari her~mom Samina goes~and with~them she~talks
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker511: Üzgünüm kızlar. Uçuşumuz [üç saat] ertelenmiş.
+~           I'm~sorry  girls  our~flight three hour has~been~delayed 
+- bu parça
++ üç saat
+- ruh çanı
+
+[LINE]
+Speaker416: Üç saat mü? Havalimanlarından nefret~ediyorum!
+~       three hours (question~word) from~airports  I~hate
+
+[LINE]
+Speaker418: Bu havalimanı çok büyük. Mutlaka yapacak eğlenceli bir~şey var.
+~           this airport very (is)~big for~sure to~do fun something there~is
+
+[LINE]
+Speaker416: Havalimanları eğlenceli değil.
+~         airports  fun  are~not      
+
+[LINE]
+Speaker418: Belki şu giyim~mağazasına gidebiliriz.
+~           maybe that to~the~clothing~store we~can~go
+
+[ARRANGE]
+> Tap what you hear
+Speaker416: [(Havalimanında) (kimse) (kiyafet) (almaz).]
+~           at~the~airport  no~one  clothes   does~not~buy
+
+[LINE]
+> Daha~sonra, Lily yeni bir tişört giyer.
+~ later  Lily new a T-shirt    (she)~wears
+
+[LINE]
+Speaker418: Ne şirin bir tişört, Lily!
+~          what cute a T-shirt   Lily 
+
+[LINE]
+Speaker416: Sessiz~ol. 
+~           be~quiet 
+
+[MULTIPLE_CHOICE]
+> Did you catch that? Lily…
+- …slept for three hours.
+- …is yelling really loudly.
++ …bought a new T-shirt at the airport.
+
+[LINE]
+Speaker418: Aç mısın? 
+~         hungry are~you
+
+[LINE]
+Speaker416: Evet, ama havalimanında hiç~yemek~yemem.
+~           yes  but  at~the~airport I~never~eat 
+
+[LINE]
+Speaker418: Kaplıcanın yakınında bir Japon restoranı var.
+~         of~the~spa at~near~it a Japanese restaurant there~is
+
+[LINE]
+Speaker416: Burada kaplıca var~mı?
+~          at~here spa  is~there
+
+[LINE]
+Speaker418: Evet, burada her~şey var! 
+~           yes  at~here everything there~is 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "noodles."
+> (Daha~sonra), (Lily) ve (Zari), (Japon~restoranında) (+erişte) yerler.
+~  later        Lily  and  Zari at~the~Japanese~restaurant noodles they~eat
+
+[LINE]
+Speaker416: Bu havalimanını seviyorum.
+~           this airport  I~love   
+
+[LINE]
+Speaker418: Ben~de, ama çok yorgunum.
+~           me~too but  very I~am~tired  
+
+[ARRANGE]
+> Tap what you hear
+Speaker416: [(Nereye)  (gidebileceğimizi) (zaten) (biliyorum).]     
+~            to~where that~we~can~go alread I~know
+
+[LINE]
+> Biraz~sonra, Samina kızları arar.
+~ a~little~later Samina  the~girls she~searches~for   
+
+[LINE]
+> Onları kaplıcadaki masaj~koltuklarında bulur.
+~ them  that~are~at~the~spa in~the~massage~chairs she~finds       
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker511: Kızlar, gidelim!    Uçuşumuz  [yakında kalkıyor]!    
+~            girls   let's~go   our~flight soon is~leaving
+- orada kalıyor
++ yakında kalkıyor
+- az daha karışıyor
+
+[LINE]
+Speaker418: Burada kalabilir~miyiz?
+~           at~here can~we~stay
+
+[LINE]
+Speaker511: Peki~ya tatilimiz?
+~          what~about our~vacation   
+
+[LINE]
+Speaker416: Bu, hayatımın en~iyi tatili!
+~         this of~my~life the~best its~vacation
+
+[MULTIPLE_CHOICE]
+> Lily used to hate airports, but now…
+- …Zari hates airports even more.
++ …she loves the things she can do in an airport.
+- …she only hates the massage chairs.
+
+[MATCH]
+> Tap the pairs
+- peki ya ... <> what about ...
+- daha sonra <> later
+- masaj koltukları <> massage chairs
+- gidelim <> let's go
+- erişte <> noodles
+
