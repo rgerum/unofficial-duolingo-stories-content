@@ -1,23 +1,27 @@
 [DATA]
 fromLanguageName=Surprise!
 icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
-set=1|4
+set=70|4
 
 [HEADER]
 > Surprise!
-~ surprise 
+~ Surprise 
+$576/1ee0cdba.mp3;8,0
 
 [LINE]
-> Nasa isang restaurant si~Antonio kasama ang~kanyang nanay. 
+> Nasa isang kainan si~Antonio kasama ang~kanyang nanay. 
 ~ in   a     restaurant Antonio    with   his         mother 
+$576/1ade5ad4.mp3;4,0;6,319;7,335;3,485;8,170;7,580;4,490;8,185;6,350
 
 [LINE]
-Speaker559: Isang mesa  para~sa tatlo, please
-~           one   table for     three  ~     
+Speaker559: Isang mesa  para~sa tatlo, please.
+~           one   table for     three  please     
+$576/0c3010d2.mp3;5,0;5,305;5,320;3,255;6,144;8,461
 
 [LINE]
 Speaker385: Tatlo? Kayo, ako, at…? 
-~           three  you   I    and… 
+~           three  you   me   and
+$576/83a8cbec.mp3;5,0;6,459;5,600;4,441
 
 [MULTIPLE_CHOICE]
 > Why is Antonio confused?
@@ -28,34 +32,43 @@ Speaker385: Tatlo? Kayo, ako, at…?
 [LINE]
 Speaker559: Isang kaibigan
 ~           a     friend  
+$576/9dc6a268.mp3;5,0;9,334
 
 [LINE]
 Speaker385: Ah…| 'Nay, may…   
-~           ~…   mom   I~have…
+~           Ah…   Ma   I~have…
+$576/8a170598.mp3;2,0;7,254;5,685
 
 [LINE]
 Speaker559: Surprise!
+~Suprise!
+$576/9fec2e14.mp3;8,0
 
 [LINE]
 Speaker385: May...  may  sorpresa rin  po ako.
-~           have    have surprise also ~  I   
+~           have    have surprise also (respectful)  I   
+$576/8e6658ce.mp3;3,0;7,189;9,440;4,535;3,160;4,150
 
 [POINT_TO_PHRASE]
 > Click on the option meaning "great."
-Speaker559: (+Mahusay)~na (estudyante) ng medisina (ang~kaibigan) ko.
-~           great          student     of medicine friend         my 
+Speaker559: (+Mahusay)~na (estudyante) ng~(medisina) ang~(kaibigan)~ko.
+~           great          student     of~medicine my~friend
+$576/a2af35e2.mp3;7,0;3,495;11,79;3,690;9,160;4,540;9,175;3,605
 
 [LINE]
-Speaker559: Sonya ang~pangalan niya.
-~           ~     name         her  
+Speaker559: Sonya ang~pangalan~niya.
+~           Sonya     (is)~her~name  
+$576/8d7d83e2.mp3;5,0;4,439;9,160;5,440
 
 [LINE]
 Speaker385: 'Nay, may...   
-~           mom   I~have   
+~           Ma   (I)~have   
+$576/95bc0d94.mp3;4,0;5,384
 
 [LINE]
-Speaker559: At  napakaganda pa   nya!    Sakto   para~sa anak  ko!
-~           and very~pretty also she~is  Perfect for     child my 
+Speaker559: At  napakaganda pa   niya!    Sakto   para~sa anak~ko!
+~           and very~pretty also (is)~she Perfect for     my~child
+$576/a62ec2c8.mp3;2,0;12,185;3,724;4,130;7,260;5,641;3,254;5,125;3,291
 
 [MULTIPLE_CHOICE]
 > Antonio's mom wants…
@@ -64,37 +77,46 @@ Speaker559: At  napakaganda pa   nya!    Sakto   para~sa anak  ko!
 - … to make a new friend.
 
 [LINE]
-> May~babaeng           dumating sa~restaurant.    
-~ there~is~a~woman~that arrived  in~the~restaurant 
+> May~babaeng           dumating sa~kainan.    
+~ there~is~a~woman~that arrived  at~the~restaurant 
+$576/433ad872.mp3;3,0;8,189;9,510;3,420;7,160
 
 [LINE]
-Speaker125: Kamusta, mahal ko!
-~           hello    love  my 
+Speaker125: Kumusta, Mahal~ko!
+~           hello    my~Love 
+$576/ceb93338.mp3;7,0;7,634;3,580
 
 [LINE]
-Speaker559: Mahal ko?
-~           love  my 
+Speaker559: Mahal~ko?
+~           my~Love 
+$576/ccecc020.mp3;5,0;3,365
 
 [MULTIPLE_CHOICE]
 > Antonio's mom knew that he was in a relationship.
-+ No, that's not right!
 - Yes, that's true!
++ No, that's not right!
 
 [LINE]
-Speaker385: Kamusta, Carla. 'Nay...
-~           hello    ~      mom…   
+Speaker385: Kumusta Karla. Ah.. 'Nay...
+~           hello   Karla  uh   Ma  
+$576/9c61747c.mp3;7,0;6,504;4,500;7,466
 
 [LINE]
 Speaker125: At  kayo    po pala ang~nanay ni~Antonio!
-~           and you~are ~  ~    mom       Antonio's  
+~           and you~are (respectful) (expressing~realization)   the~mother      of~Antonio  
+$576/d4732c62.mp3;2,0;5,150;3,285;5,164;4,240;6,220;3,340;8,135
 
 [LINE]
 Speaker559: Antonio?!
+~ Antonio
+$576/d7ad5c04.mp3;7,0
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker125: [Ikinatutuwa      ko   pong makilala kayo], ako       po si Carla, asawa ni Antonio
-~            nice~to~meet~you I~am ~    Carla    wife   Antonio's ~  ~  ~      ~     ~  ~      
+
+Speaker125: [Ikinatutuwa~ko pong makilala kayo], ako       po si~Karla, ang~asawa ni~Antonio
+~            I~am~delighted (respectful) to~meet you  I~(am) (respectful~marker) Karla    the~wife   of~Antonio       
+$576/7e0e6f30.mp3;11,0;3,824;5,145;9,165;5,520;5,390;3,465;3,161;6,145;5,480;6,345;3,465;8,120
 - Ikinatatawa ko pong makilala kayo
 - Ikinagagalit kong makilala ka
 + Ikinatutuwa ko pong makilala kayo
@@ -102,19 +124,22 @@ Speaker125: [Ikinatutuwa      ko   pong makilala kayo], ako       po si Carla, a
 [LINE]
 Speaker559: Asawa?!
 ~           wife   
+$576/dc74c6aa.mp3;5,0
 
 [LINE]
 Speaker385: Surprise!
+~ surprise
+$576/a232f2f4.mp3;8,0
 
 [MULTIPLE_CHOICE]
 > Why is Antonio's mom surprised?
 + She didn't know Antonio was married.
-- She is very happy to see Carla.
+- She is very happy to see Karla.
 - The food they ordered arrived quickly.
 
 [MATCH]
 > Tap the pairs
-- asawa <> partner
+- asawa <> spouse
 - mahusay <> great
 - estudyante <> student
 - medisina <> medicine
