@@ -1,135 +1,160 @@
 [DATA]
 fromLanguageName=The Honeymoon
 icon=7e5d271488d31d6f1d0c503512e642ca7effe84f
-set=1|6
+set=1|4
 
 [HEADER]
 > Ang Honeymoon
 ~ the honeymoon
+$578/eadb5734.mp3;3,0;10,199
 
 [LINE]
-> Si~Lucy ay nasa   taxi.
-~ Lucy    is in~the ~    
+> Si~Anna ay nasa   taxi.
+~ Anna   is in a~taxi   
+$578/ca722baa.mp3;2,0;5,200;3,379;5,190;5,315
 
 [LINE]
-Speaker113: Kamusta, magandang umaga.  
-~           hello    good      morning 
+Speaker113: Magandang umaga po Mam, saan po kayo? 
+~         good      morning (respectful) Ma'am (to)~where (respectful) are~you
+$578/7ba1b072.mp3;9,0;6,539;3,405;4,205;6,331;3,494;5,176
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker439: Kamusta, pupunta po ako [sa             airport], please
-~           hello    will~go ~  I    to~the~airport ~         ~     
-+ sa airport
-- sa seaport
+Speaker343: Magandang umaga po, Manong. Pakihatid po ako [sa~paliparan].
+~           good morning (respectful) Mister   please~bring (respectful)  me   to~the~airport      
+$578/8dad9880.mp3;9,0;6,514;3,425;7,145;11,486;3,810;4,159;3,266;10,160
+
++ sa paliparan
+- sa pasyalan
 - sa palengke
 
 [LINE]
-Speaker113: Okay.
+Speaker113: Sige po.
+~ okay (respectful)
+$578/0eb6c0c6.mp3;4,0;3,370
 
 [LINE]
-Speaker439: May  ticket ako pa-Boracay.
-~           have ticket I   to~Boracay 
+Speaker343: May  tiket ako papuntang Boracay.
+~           have ticket I   to~go~to Boracay 
+$578/7b05e6ea.mp3;3,0;7,209;4,370;10,230;8,510
 
 [LINE]
-Speaker113: Bakasyon ba?   
-~           vacation is~it 
+Speaker113: Bakasyon ho ba?   
+~           vacation (respectful) is~it 
+$578/ecf63dfe.mp3;8,0;3,574;3,190
+
 
 [LINE]
-Speaker439: Hindi    bakasyon... 
-~           it's~not vacation…   
+Speaker343: Hindi    bakasyon... 
+~           not a~vacation…   
+$578/181783b2.mp3;5,0;9,394
 
 [MULTIPLE_CHOICE]
-> Lucy has a plane ticket to Boracay, but she's not on vacation.
-- No, that's not right.
+> Anna has a plane ticket to Boracay, but she's not on vacation.
 + Yes, that's true.
+- No, that's not right.
 
 [LINE]
-Speaker113: Paboritong  baybayin ko ang~Boracay! Napakaganda doon!         
-~           is~favorite beach    my Boracay      very~pretty that~place~is 
+Speaker113: Paborito~kong  baybayin ang~Boracay! Napakaganda roon!         
+~           my~favorite beach  Boracay      very~pretty there 
+$578/746ef6a8.mp3;8,0;5,579;9,205;4,576;8,149;13,620;5,1100
 
 [LINE]
-Speaker439: Well... dalawang ticket.
-~           ~       two      ~      
+Speaker343: Sa~totoo~lang, dalawa ang~tiket~ko.
+~           Actually      two      are~my~tickets      
+$578/66ef8f9e.mp3;2,0;6,189;5,326;8,350;4,625;6,195;3,365
 
 [LINE]
-Speaker439: Honeymoon ko kasi...   
-~           ~         my because   
+Speaker343: Honeymoon~ko~kasi...   
+~           because~it's~my~honeymoon   
+$578/1d18b412.mp3;9,0;3,524;5,120
 
 [MULTIPLE_CHOICE]
-> Why is Lucy going to Boracay?
+> Why is Anna going to Boracay?
 + She's going on her honeymoon.
 - She is going to move there.
 - She is going to a funeral.
 
 [LINE]
-Speaker113: Ah. Nasaan pala ang~mister mo?  
-~           ~   where  ~    husband    your 
+Speaker113: Ah. Nasaan po pala ang~mister~mo?  
+~           oh  where (respectful) by~the~way    your~husband 
+$578/cde2f036.mp3;2,0;8,324;3,710;5,180;4,200;7,190;3,380
 
 [LINE]
-Speaker439: Wala~akong   mister.  Misis~na~nagtatampo 'kamo   meron~ako!
-~           I~don't~have husband  upset~wife          you~bet I~have    
+Speaker343: Wala~akong   mister.  Misis~na~nagtatampo 'kamo   ang~meron~ako!
+~           I~don't~have husband  a~sulking~wife I'm~telling~you is~what~I~have    
+$578/e8583882.mp3;4,0;6,344;7,276;16,479;-9,200;3,395;13,75;6,736;4,310;6,194;4,325
 
 [LINE]
-Speaker439: Ayaw         niya kasing  sumama  sa~akin sa Madrid.
-~           doesn't~want she  because to~join with~me to ~      
+Speaker343: Ayaw         niya kasing  sumama  sa~akin sa~Boracay.
+~           doesn't~want she  because to~join with~me to~Boracay      
+$578/a2aa116c.mp3;4,0;5,319;7,150;7,290;3,476;5,135;3,339;8,140
 
 [MULTIPLE_CHOICE]
-> Lucy's wife…
-+ … doesn't want to go to Madrid with her.
-- … is already in Madrid.
+> Anna's wife…
++ … doesn't want to go to Boracay with her.
+- … is already in Boracay.
 - … is in the taxi with her.
 
 [LINE]
-Speaker439: Ang~lungkot ko   na      tuloy.
-~           very~sad    I~am already ~     
+Speaker343: Ang~lungkot ko   na      tuloy.
+~           very~sad    I~am already as~a~result     
+$578/774beef4.mp3;3,0;8,169;3,395;3,130;6,116
 
 [LINE]
-Speaker113: Ah…|~sorry...
-~           ~…  ~        
+Speaker113: Ah… paumanhin po...
+~           oh sorry  (respectful)    
+$578/35629de6.mp3;2,0;11,239;3,940
 
 [LINE]
-Speaker113: Bueno…| nasa   airport na      tayo.  
-~           well…   in~the ~       already we~are 
-
-[LINE]
-> May      isang babaeng~may    maletang   tumatakbo papunta sa     taxi.
-~ there~is a     woman~that~has a~suitcase running   towards to~the taxi 
+Speaker113: Eto~na…| nakarating~na~tayo   sa~paliparan.  
+~           well~here…  we~have~already~arrived at~the~airport
+$578/9bfdc178.mp3;3,0;3,305;13,259;3,840;5,105;3,325;10,180
 
 [POINT_TO_PHRASE]
-> Click on the option meaning "runs."
-> May isang (babaeng) may (maletang) (+tumatakbo) (papunta) sa taxi.
+> Click on the option meaning "running."
+> May (isang babaeng) may-dalang ~(ma let ta) na (+tumatakbo) papunta sa~(taxi).
+~ there~is a~woman carrying a~suitcase who~is running   towards the~taxi 
+$578/315aa542.mp3;21,0;-18,0;6,170;8,330;11,514;3,446;4,125;3,250;3,224;10,115;8,631;3,484;5,170
 
 [LINE]
-Speaker439: ¿Maria?
+Speaker343: Sarah?
+$578/db9f0362.mp3;5,0
 
 [LINE]
-Speaker1186: ¡Lucy!
+Speaker342: Anna!
+$578/6d9967ca.mp3;4,0
 
 [LINE]
-Speaker1186: Patawarin~mo ko!
+Speaker342: Patawarin~mo ako!
 ~            forgive      me 
+$578/7078eb14.mp3;9,0;3,595;4,145
 
 [LINE]
-Speaker1186: Mahal~kita.
+Speaker342: Mahal~kita!
 ~            I~love~you 
+$578/7304fe18.mp3;5,0;5,299
 
 [LINE]
-Speaker439: Mahal~din~kita.
+Speaker343: Mahal~din~kita!
 ~           I~love~you~too 
+$578/8a1e4678.mp3;5,0;4,344;5,220
 
 [LINE]
-Speaker1186: Tara~na  sa Madrid!
-~            let's~go to ~      
+Speaker342: Tara~na  sa~Boracay!
+~            let's~go to~Boracay      
+$578/89f6c886.mp3;2,0;3,170;3,110;3,105;8,150
 
 [LINE]
-Speaker113: Mag-enjoy kayo       sa honeymoon n'yo!
-~           enjoy     yourselves on ~         your 
+Speaker113: Magsaya po kayo       sa~honeymoon~ninyo!
+~           enjoy (respectful) yourselves on~your~honeymoon
+$578/b47a3ae4.mp3;7,0;3,479;5,200;3,245;10,165;6,445
 
 [MULTIPLE_CHOICE]
-> What happened when Lucía got to the airport?
+> What happened when Anna got to the airport?
 - Her taxi driver agreed to go on vacation with her.
-- Her wife, Maria, called her on the phone.
-+ Her wife, Maria, apologized and told her she loved her.
+- Her wife, Sarah, called her on the phone.
++ Her wife, Sarah, apologized and told her she loved her.
 
 [MATCH]
 > Tap the pairs
@@ -138,8 +163,7 @@ Speaker113: Mag-enjoy kayo       sa honeymoon n'yo!
 - papunta <> towards
 - tumatakbo <> running
 - paborito <> favorite
-- syudad <> city
 - patawarin mo ko <> forgive me
 - mahal kita <> I love you
-- nagtatampo <> upset
+- nagtatampo <> sulking
 
