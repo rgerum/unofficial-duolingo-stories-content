@@ -39,6 +39,11 @@ Speaker292: ?Zissele who did you find
 Speaker1715: Mrs. Milstein  my grandmother remembered stories of her grandmother about the Civil War
 ~            hello  Junior 
 
+[MULTIPLE_CHOICE]
+> .All of Junior's friends had trouble finding someone to talk to
+- .Yes, that's right
++ .No, that's wrong
+
 [LINE]
 Speaker292: ?Junior who did you find
 ~            hello  Junior 
@@ -71,9 +76,14 @@ Speaker509: ¡Ah, sí!
 Speaker509: Yo escribo muy  bien. Tengo  un blog~muy~popular. 
 ~           I  write   very well  I~have a  very~popular~blog 
 
-[ARRANGE]
-> Tap what you hear
-Speaker509: ¿[(Tú)  (lees) (mi) (blog)?]
+[MULTIPLE_CHOICE]
+> ?What kind of writing does Lucy do
++ .She writes a very popular blog
+- .She writes stories for children
+- .She writes steamy romances
+
+[LINE]
+Speaker509: ¿Tú  lees mi blog?
 ~              you   read   my   blog   
 
 [LINE]
@@ -88,16 +98,9 @@ Speaker509: Tengo  muchos libros.
 Speaker509: ¿Necesitas mis libros para tu~tarea?     
 ~            you~need  my  books  for  your~homework 
 
-[CONTINUATION]
-> What's next?
-Speaker415: No, no~necesito  [tus~libros].
+[LINE]
+Speaker415: No, no~necesito  tus~libros.
 ~           no  I~don't~need  your~books  
-- muy  popular
-~ very ~      
-+ tus~libros
-~ your~books
-- su~apartamento
-~ her~apartment 
 
 [LINE]
 Speaker509: ¿Y   sobre~qué~es~tu~tarea?      
