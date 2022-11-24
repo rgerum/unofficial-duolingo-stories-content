@@ -1,12 +1,11 @@
 [DATA]
 fromLanguageName=Introduction!
-icon=8e5e77d262103500eeca12f2cd193e7766c3285b
-set=0|1
+icon=1517cbcf4f4e76f1dc8b0687b90969af2c828c4f
+set=0|0
 
 [HEADER]
-> Panimula! 
+> Panimula
 ~ Introduction!
-
 $5695/dec9b008.mp3;8,0
 
 [LINE]
@@ -20,9 +19,9 @@ Speaker6: Ako~ay~si~Juan, ang~inyong~tagapaglingkod!
 $5695/be97149c.mp3;3,0;3,329;3,120;5,200;5,510;7,291;15,345
 
 [LINE]
-Speaker338: At~ako~ay si~Maria, Mabuhay sa~inyong~lahat!
-~ And~I~am Maria Cheers to~you~all!
-$5695/e5f53f6e.mp3;2,0;4,155;3,250;3,109;6,135;9,515;3,675;7,115;6,290
+Speaker338: At~ako~ay si~Maria. Mabuhay po sa~inyong~lahat!
+~ And~I~am Maria Cheers (respectful) to~you~all!
+$5695/b84dca48.mp3;2,0;4,159;3,250;3,115;6,135;9,505;3,861;3,145;7,104;6,310
 
 [LINE]
 Speaker6: Ang~Tagalog ay~isa~sa mahigit~isang~daang wikang sinasalita sa~Pilipinas.
@@ -30,40 +29,70 @@ Speaker6: Ang~Tagalog ay~isa~sa mahigit~isang~daang wikang sinasalita sa~Pilipin
 $5695/eb123d76.mp3;3,0;8,209;3,600;4,145;3,235;8,170;6,430;6,285;7,320;11,306;3,809;10,176
 
 [LINE]
-Speaker338: Filipino naman ang~tawag~sa pambansang~wika ng~Pilipinas. 
-~ Filipino on~the~other~hand is~the~name~for the~national~language of~the~Philippines
-$5695/117c369a.mp3;8,0;6,574;4,301;6,149;3,380;11,155;5,605;3,335;10,160
+Speaker338: At Filipino naman ang~tawag~sa pambansang~wika ng~Pilipinas. 
+~ and Filipino on~the~other~hand is~the~name~for the~national~language of~the~Philippines
+$5695/e303696e.mp3;2,0;9,140;6,535;4,339;6,145;3,370;11,150;5,606;3,335;10,160
 
 [LINE]
 Speaker338: Ito ang~pamantayang~anyo ng~Tagalog, na~may hiram~na~salita rin mula~sa wikang~Kastila, Ingles at~iba~pa. 
-~ This~is the~standardized~form of~Tagalog, which~has borrowed~words also from Spanish English and~others
+~ This~is the~standardized~form of~Tagalog, which~has loan~words also from Spanish English and~others
 $5695/412166c2.mp3;3,0;4,254;12,195;5,650;3,360;8,175;4,610;4,320;6,140;3,300;7,115;4,470;5,150;3,310;7,135;8,385;8,630;3,660;4,125;3,210
 
+[MULTIPLE_CHOICE]
+> Filipino is the standardized form of Tagalog. It has loan words from Spanish, English and other languages.
+- No, that's not right!
++ Yes, that's true!
 [LINE]
-Speaker6: Although Tagalog and Filipino are not exactly the same, they are often used interchangebly. Duolingo uses the standardized form, Filipino, which has some vocabulary borrowed from Spanish and English. For example:
+
+Speaker6: Halimbawa: ang~mga katutubong~salitang~Tagalog na upuan, tanggapan, aklat, silid, at tugtugin...
+~ for~example the~(plural) native~Tagalog~words that~are chair office book room and music
+$5695/dba3b9ea.mp3;9,0;5,774;4,211;11,190;9,630;8,520;3,520;6,69;11,585;7,941;7,695;4,630;9,245
 
 [LINE]
-Speaker6: Here is an example take from ethnolink.com.au:
+Speaker6: Ay~maaari~ring gamitan~ng mga~salitang silya, opisina, libro, kuwarto, at musika  sa~Filipino.
+~          Can~also be~replaced~with the~words chair office book room and music in~Filipino
+$5695/fcc0f510.mp3;2,0;7,174;5,561;8,195;3,455;4,110;9,174;6,460;9,565;7,875;9,656;4,710;7,290;3,495;9,175
+
+[MULTIPLE_CHOICE]
+> Which word is a synonym for "aklat" (book) in Filipino?
+- opisina
+~ office
++ libro
+~ book
+- silid-aklatan
+~ library
 
 [LINE]
-Speaker338: Sa~Tagalog: Nauunawaan~ko ang~wikang sinasambit ng~aming~lolo.
-~            in~Tagalog I~understand the~language~that is~used by~our~grandfather   
+Speaker338: Bagaman may~mga kaibahan ang~dalawang~diyalekto, karaniwang "Tagalog" na~rin ang~tawag sa~opisiyal~na wika na Filipino.
+~ Although there~are differences (between)~the~two~dialects commonly Tagalog is~also used~to~call the~offical language that~is Filipino
+$5695/ea7fbada.mp3;7,0;4,485;4,149;9,195;4,570;9,130;10,390;12,710;8,740;3,475;4,110;4,176;6,150;3,370;9,130;3,500;5,110;3,389;9,105
+
+[MULTIPLE_CHOICE]
+> Although they are not exactly the same, the term "Tagalog" is often also used to refer to the standard form, Filipino.
+- No, that's not right!
++ Yes, that's true!
 
 [LINE]
-Speaker338: Sa~Filipino: Naiintindihan~ko yung~mga~salitang ginagamit ng~lolo~ko.
-~            in~Filipino I~understand the~words~that are~used by~my~grandfather    
-
-[LINE]
-Speaker6: Are you ready to learn the basics with me and Maria?
+Speaker6: Handa~na~ba~kayo para matuto ang~ilang~mga konsepto ng~balarilà ng~Tagalog?
+~ are~you~ready to learn a~few concepts of~the~grammar of~Tagalog
+$5695/85717b20.mp3;5,0;3,405;3,95;5,120;5,279;7,270;4,445;6,150;4,270;9,205;3,671;9,185;3,510;8,165
 
 [LINE]
 Speaker338: Magsimula na tayo! 
-~            to~start already we~(inclusive)
+~            start already let's
+$5695/bf6388a6.mp3;9,0;3,634;5,130
 
 [MULTIPLE_CHOICE]
 > What did Maria mean?
-- I can't understand!
-- I'm too busy!
+- Let's eat!
 + Let's get started!
+- You start ahead!
 
-
+[MATCH]
+> Tap the pairs
+- wika <> language
+- ang Pilipinas <> the Philippines
+- mabuhay <> cheers
+- mga kwento <> stories
+- katutubo <> native
+- mga hiram na salita <> loan words
