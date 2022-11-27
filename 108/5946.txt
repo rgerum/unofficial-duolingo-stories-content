@@ -4,27 +4,28 @@ icon=0e6ab8c3a4e3224cb700e8daeac0038f7f0e929e
 set=12|1
 
 [HEADER]
-> Un apartamento~muy~sucio
-~ a  very~dirty~apartment 
+> אַ זײער שמוציק דירה
+~ a  very dirty apartment~("DI-re") 
 
 [LINE]
-> Bea está en el  apartamento de su~best friend   Blume.
-~ Bea is   in the apartment   of her~friend Blume 
+> בי איז אין דער דירה פֿון איר בעסטע חבֿרטע, בלומע
+~ Bea is   in the apartment~("DI-re")   of her best friend Blume 
 
 [LINE]
-Speaker507: Hola,  Blume. ¿Cómo~estás? 
-~           hello  Blume   how~are~you 
+Speaker507: שלום־⁠עליכם, בלומע! װאָס~מאַכסטו? 
+~           hello  Blume  how~are~you 
 
 [LINE]
-Speaker260: ¡Terrible!
+Speaker260: עליכם־שלום. שרעקלעך!
+~            hello~(response)   terrible
 
 [LINE]
-Speaker507: Ay, no… Pero ¿[por~qué]?
-~           oh  no  but    why      
+Speaker507: אױ,~װײ! אָבער פֿאַר~װאָס?
+~           oh~no  but    why      
 
 [LINE]
-Speaker260: Mi nueva compañera~de~cuarto Ahuva y   yo siempre discutimos.
-~           my new   roommate Ahuva           and I  always  argue      
+Speaker260: מײַן נײַע מיטװױנערין, אהובה, און איך רײַסן~זיך אַלע~מאָל.
+~           my new   roommate Ahuva    and I  argue all~the~time      
 
 [MULTIPLE_CHOICE]
 > Blume and her roommate, Ahuva, argue all the time.
@@ -32,49 +33,50 @@ Speaker260: Mi nueva compañera~de~cuarto Ahuva y   yo siempre discutimos.
 + Yes, that's right.
 
 [LINE]
-Speaker507: No~estoy sorprendida, la  cocina  está muy  sucia.
-~           I~am~not surprised    the kitchen is   very dirty 
+Speaker507: איך װוּנדער~זיך~נישט~אױף~דאָס. גיב אַ קוק! די קיך איז אַזױ שמוציק! 
+~           I am~not~surprised   take a look the kitchen is   so dirty 
 
 [LINE]
-Speaker260: Sí,  lo~sé. 
-~           yes  I~know 
+Speaker260: יאָ, יאָ! איך װײס! 
+~           yes yes  I know 
 
 [LINE]
-Speaker507: Y…   ¿qué  es eso  sobre la  mesa?  ¿Queso~viejo?
-~           and   what is that on    the table   old~cheese  
+Speaker507: אױ,~װײ! און װאָס איז דאָס אױפֿן טיש? פֿאַרפֿױלטער קעז?
+~           oh~no  and   what is that on~the table   rotten cheese  
 
 [LINE]
-Speaker260: Sí,  ¡puaj!
-~           yes   yuck 
-
-[SELECT_PHRASE]
-> Select the missing phrase
-Speaker507: ¡También~hay    ropa~sucia    [sobre~esta~silla]!
-~            there~are~also dirty~clothes  on~this~chair     
-+ sobre esta silla
-- sobre esta cita
-- cubre esta silla
+Speaker260: יאָ, יאָ! איך װײס!
+~           yes  yes I know
 
 [LINE]
-Speaker507: Marina, pero… esta es tu~camisa. 
-~           Blume  but   this is your~shirt 
+Speaker507: ס׳איז~דאָ אױך שמוציקע קלײדער דאָ אױפֿן בענקל!
+~           there's also dirty clothes here on~this chair
+
+[MULTIPLE_CHOICE]
+>  ...Bea notices that there are
++ .dirty clothes on the chair
+- .silver coins in the ashtray
+- .peacocks in the yard
 
 [LINE]
-Speaker260: Sí. 
+Speaker507: בלומע, אָבער... דאָס איז דײַן העמד!
+~           Blume  but   this is your shirt 
+
+[LINE]
+Speaker260: יאָ. 
 ~           yes 
 
 [LINE]
-Speaker507: ¡Esta~es   tu   ropa!   
-~            these~are your clothes 
-
-[POINT_TO_PHRASE]
-> Choose the option that means "yours."
-Speaker507: ¿(Y)   (el)  queso~viejo? ¿(También~es) (+tuyo)? 
-~             and   the  old~cheese     it~is~also    yours  
+Speaker507: דאָס זענען דײַנע קלײדער!   
+~            these are your clothes 
 
 [LINE]
-Speaker260: Sí, oy yo nunca limpio y   mi compañera~de~cuarto siempre~está enojada.
-~           yes  I  never clean  and my roommate            is~always    angry   
+Speaker507: און דאָס איז דײַן קעז!
+~           and   this is your cheese  
+
+[LINE]
+Speaker260: יאָ! איך ראַם קײן~מאָל~נישט און אהובה איז שטענדיק אין~כּעס. 
+~           yes  I  clean~house never and Ahuva  is always   angry   
 
 [LINE]
 > Khane walks in and hears what Blume is saying
