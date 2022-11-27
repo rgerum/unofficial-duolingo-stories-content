@@ -9,33 +9,38 @@ set=32|4
 
 #Cünyır
 #Junior
+#İbrahimle
+#İbrahim'le
 [LINE]
-> Cünyır dondurmacıya girer.      Él habla~con İbrahim, el~gerente. 
-~ Junior enters  an~ice~cream~store  he talks~to  İbrahim  the~manager 
+> Cünyır bir~dondurmacıya girer.  O, müdür~İbrahimle konuşur. 
+~ Junior to~an~ice~cream~store he~enters he with~manager~İbrahim he~talks
 
 [LINE]
-Speaker415: ¿Me~puede~dar    un helado~de~chocolate y   un formulario~de~solicitud~de~empleo?
-~            can~you~give~me a  chocolate~ice~cream and an application~form                  
+Speaker415: Bana bir çikolatalı dondurma ve bir başvuru formu verir~misiniz?
+~       to~me a chocolate ice~cream and a application form can~you~give
 
 [LINE]
-Speaker2243: Mmm… ¿cuántos~años~tienes?
+Speaker2243: Mmm… kaç~yaşındasın?
 ~            hmm   how~old~are~you     
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker415: Suficientes para        saber     que  su   helado~de~chocolate [necesita~más~azúcar]. ¿Usted~es el~gerente? 
-~           old~enough  in~order~to (to)~know that your chocolate~ice~cream  needs~more~sugar       are~you  the~manager 
-+ necesita más azúcar
-- tan bonita con azúcar
-- necesita más azufre
+Speaker415: Bilecek~kadar~yaştayım ki çikolatalı dondurmanızın [daha~fazla şekere ihtiyacı~var]. Müdür siz~misiniz? 
+~        I~am~old~enough~to~know that chocolate of~your~ice~cream  more to~sugar it~needs    the~manager are~you 
+
+- daha fazla kire ihtiyacı var
+- daha az şekere ihtiyacı var
++ daha fazla şekere ihtiyacı var
 
 [LINE]
-Speaker2243: Sí... 
-~            yes   
+Speaker2243: Pekala... 
+~            alright   
 
+#Cünyır
+#Junior
 [LINE]
-Speaker415: Yo soy Junior. Escuche, si me~da       un~empleo, le~puedo~ayudar~a ganar     mucho    dinero.
-~           I  am  Junior  listen   if you~give~me a~job      I~can~help~you    (to)~earn a~lot~of money  
+Speaker415: Ben Junior. Dinle, beni işe~alırsanız çok para kazanmanıza yardım~edebilirim.
+~      I  am~Junior  listen me if~you~hire a~lot~of money to~you~earning I~can~help 
 
 [MULTIPLE_CHOICE]
 > Wait… what is Junior going to help the manager do?
@@ -45,63 +50,73 @@ Speaker415: Yo soy Junior. Escuche, si me~da       un~empleo, le~puedo~ayudar~a 
 
 [ARRANGE]
 > Tap what you hear
-Speaker2243: [(Pero) (solo~eres)   (un) (niño).] 
-~              but    you're~just   a    child   
+Speaker2243: [(Ama) (sadece)  (bir)~(çocuk) (olduğunu) (görebiliyorum).] 
+~              but  just    a~child   that~you~are I~can~see
 
 [LINE]
-Speaker415: Y,   por esa  razón,  soy  perfecto para el~trabajo.
-~           and  for that reason  I~am perfect  for  the~job    
+Speaker415: Bu~yüzden,  bu~iş için mükemmelim.
+~         for~that~reason this~job for I~am~perfect     
 
+#Cünyır
+#Junior
 [LINE]
-Speaker2243: No, gracias,   Junior.
+Speaker2243: Hayır, teşekkürler Cünyır.
 ~            no  thank~you  Junior 
 
+#Cünyır
+#Junior
 [LINE]
-> Más~tarde, Junior se~está~comiendo su  helado    enfrente de la~heladería.       
-~ later      Junior is~eating        his ice~cream in~front of the~ice~cream~store 
+> Daha~sonra, Cünyır  dondurmacının önünde dondurmasını yer.       
+~ later      Junior of~the~ice~cream~store at~its~front his~ice~cream he~eats
+
+#Cünyırın
+#Junior'ın
+[LINE]
+> Bir~aile Cünyırın yanından geçer.
+~ a~family of~Junior by~his~side it~passes
 
 [LINE]
-> Una~familia camina cerca~de Junior.
-~ a~family    walks  near     Junior 
-
-[LINE]
-Speaker415: ¡Este es el  mejor helado    del~mundo!   
-~            this is the best  ice~cream in~the~world 
+Speaker415: Bu, dünyanın en~iyi dondurması!
+~      this of~the~world the~best (is)~its~ice~cream 
 
 [CONTINUATION]
 > What comes next?
-Speaker2540: ¡Papá! ¡Papá! ¿Podemos comprar  [un~helado]?   
-~             Dad    Dad    can~we  (to)~buy  an~ice~cream  
-+ un~helado   
+Speaker2540: Baba! Baba! Lütfen [bir~dondurma] alabilir~miyiz?   
+~            Dad  Dad  please   an~ice~cream  can~we~get
+
++ bir~dondurma  
 ~ an~ice~cream
-- dinero
+- para
 ~ money 
-- una~familia
+- bir~aile
 ~ a~family   
 
 [LINE]
-> Ellos entran~a la~heladería.       
-~ they  enter    the~ice~cream~store 
+> Onlar dondurmacıya girerler.       
+~ they to~the~ice~cream~store they~enter
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker3145: Queremos cuatro helados~de~chocolate, [como~el~de~ese~niño].        ¡Se~ve    delicioso!
-~            we~want  four   chocolate~ice~creams   like~the~one~of~that~child    it~looks delicious 
-- como el de ese vino
-+ como el de ese niño
-- cómo se ve con niños
+Speaker3145: [O~çocuğunki gibi] dört çikolatalı~dondurma isteriz. Lezzetli görünüyor!
+~    the~one~of~that~child like four   chocolate~ice~cream we~would~like delicious it~looks
+
+- O kitabınki gibi
++ O çocuğunki gibi
+- O çatıdaki gibi
 
 [LINE]
-Speaker2243: ¡Por~supuesto!
+Speaker2243: Elbette!
 ~             of~course    
 
 [LINE]
-> La~familia sale   contenta de~la~heladería.    
-~ the~family leaves happily  the~ice~cream~store 
+> Aile mutlu~bir~şekilde dondurmacıdan ayrılır.    
+~ the~family happily from~the~ice~cream~store it~leaves
 
+#Cünyır
+#Junior
 [LINE]
-Speaker2243: Junior, eres    un~genio, pero no~puedes trabajar  aquí porque...  eres    un~niño...
-~            Junior  you~are a~genius  but  you~can't (to)~work here because    you~are a~child   
+Speaker2243: Cünyır, dâhisin ama burada çalışamazsın çünkü~... bir~çocuğu işe~alamam~...
+~      Junior you~are~a~genius but at~here you~cannot~work because a~child I~cannot~hire  
 
 [MULTIPLE_CHOICE]
 > The manager thinks Junior is really smart.
@@ -109,8 +124,8 @@ Speaker2243: Junior, eres    un~genio, pero no~puedes trabajar  aquí porque... 
 - No, that's wrong.
 
 [LINE]
-Speaker415: Está~bien, ¡me~puede~pagar con  helados!   
-~           OK          you~can~pay~me with ice~creams 
+Speaker415: Tamam,  bana dondurmalarla ödeyebilirsiniz!   
+~        it~is~okay to~me with~ice~cream you~can~pay
 
 [MULTIPLE_CHOICE]
 > How did Junior help the manager sell ice cream?
@@ -120,9 +135,9 @@ Speaker415: Está~bien, ¡me~puede~pagar con  helados!
 
 [MATCH]
 > Tap the pairs
-- un genio <> a genius
-- Yo <> I
-- Pero <> but
-- camina <> walks
-- helados <> ice creams
+- dâhi <> genius
+- işe almak <> to hire
+- kazanmak <> to earn
+- yanından geçmek <> to pass by
+- dondurmacı <> ice cream shop
 
