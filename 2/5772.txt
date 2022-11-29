@@ -1,0 +1,150 @@
+[DATA]
+fromLanguageName=The Hacker
+icon=a22fead6c7883506dab25f8e6ea7c66c0f406c7c
+set=-36|4
+
+[HEADER]
+> El  Hacker{hekker}
+~ the hacker
+
+[LINE]
+> Bea komt Eddy’s flat binnen.
+~ Bea enters   Eddy's~apartment    
+
+[LINE]
+Speaker414: Dank je wel dat je gekomen bent! 
+~            thank~you for~coming 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: Natuurlijk! [Je zei dat je] een probleem had met je computer, toch?
+~            of~course      you~said~you~had    a  problem  with your~computer    right  
+- Je zei of je
++ Je zei dat je
+- Je zei dat ik
+
+[LINE]
+Speaker414: Ja! 
+~            yes 
+
+[LINE]
+Speaker507: Wat is er gebeurd?    
+~            what happened 
+
+[LINE]
+Speaker414: Goed. Weet je wat een "hacker" is?
+~           well    you~know what is a   hacker  
+
+[LINE]
+Speaker414: Dat is iemand die dingen op computers verandert.
+~           it's a   person  that changes things on computers        
+
+[LINE]
+Speaker507: Ja Eddy, dat weet ik.   Vertel me wat het probleem is
+~           yes  Eddy  I  know  then      tell~me   what is the problem  
+
+[POINT_TO_PHRASE]
+> Choose the option that means "resume."
+Speaker414: (Ik wilde) (+mijn CV) (printen), maar (het lukt niet)!   
+~            I~tried   to~print  my   résumé       but    I~couldn't  
+
+[LINE]
+Speaker414: En nu kan ik het niet meer vinden op de computer.
+~           and now   I~can't~find~it on the computer    
+
+[LINE]
+Speaker414: Ik denk dat de hacker het gedeletet heeft.  
+~           I~think that the hacker deleted~it 
+
+[MULTIPLE_CHOICE]
+> Eddy thinks…
+- …someone stole his computer.
+- …Bea ate his breakfast.
++ …a hacker deleted his resume.
+
+[LINE]
+Speaker507: Mag ik eens kijken?
+~           Can I have a look
+
+[LINE]
+> Bea zoekt het CV op de computer van Eddy.
+~ Bea looks~for the résumé     on Eddy's~computer        
+
+[LINE]
+Speaker507: Ik heb een bestand gevonden met de naam  "mijn CV".
+~           I~found  a  file    that is~called  my résumé      
+
+[LINE]
+> Bea opent het bestand. Eddy ziet het op het scherm.
+~ Bea opens the file     Eddy sees~it on the screen.    
+
+[LINE]
+Speaker414: Ja, het ziet er uit als mijn CV.
+~           yes  it~looks~like my résumé     
+
+[MULTIPLE_CHOICE]
+> It looks like Bea found…
+- …a computer virus.
+- …a picture of Eddy.
++ …Eddy's resume.
+
+[LINE]
+Speaker507: En ik weet al waarom je printer niet werkt. 
+~           and I~already~know why     your~printer doesn't~work 
+
+[LINE]
+> Bea plugt de printerkabel in de computer.
+~ Bea connects the printer cable to the computer    
+
+[LINE]
+Speaker507: De kabel lag eruit!
+~            The cable was unplugged 
+
+[LINE]
+Speaker414: Mmm…Waarschijnlijk is Junior bezig geweest.
+~           hmm  probably   Junior has been busy here 
+
+[CONTINUATION]
+> What comes next?
+> Bea print [het CV en kijkt het door].   
+~ Bea prints  the  résumé  and reads~through~it
+  
+- een foto van Eddy   
+~ a   picture~of~Eddy
+-  de gebruiksaanwijzing
+~ the directions~for~use 
++ het CV en kijkt het door 
+~ the résumé     and reads~through~it
+
+[LINE]
+Speaker507: Eddy, je CV zit vol fouten. 
+~           Eddy  your~résumé   is   full  of mistakes 
+
+[LINE]
+Speaker414: De hacker zal het veranderd hebben. 
+~           the hacker will have changed~it 
+
+[LINE]
+Speaker507: Mmm… Wist je dat je CV zegt dat je goed bent in computers?
+~           hmm   you~know that your~résumé   says that you~are good  with computers        
+
+[LINE]
+Speaker414: Ja, zonder twijfel was het de hacker.
+~           yes  no~doubt it~was the hacker 
+
+[MULTIPLE_CHOICE]
+> Eddy thought his computer was hacked…
+- …so he called the police.
+- …and he ended up losing all his data.
++ …but he's just bad with technology.
+
+[MATCH]
+> Tap the pairs
+-  de twijfel <> the doubt
+- de fout <> the mistake
+- Waarschijnlijk <> probably
+- het bestand <> then file
+- de fout <> the mistake
+
+
+
