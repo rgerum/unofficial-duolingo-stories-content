@@ -8,17 +8,17 @@ set=-36|4
 ~ the hacker
 
 [LINE]
-> Bea komt Eddy’s flat binnen.
-~ Bea enters   Eddy's~apartment    
+> Bea komt   Eddy’s flat      binnen.
+~ Bea enters Eddy's apartment (komt~binnen=enters)   
 
 [LINE]
-Speaker414: Dank je wel dat je gekomen bent! 
-~            thank~you for~coming 
+Speaker414: Dank~je~wel dat~je~gekomen~bent! 
+~           thank~you   for~coming 
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker507: Natuurlijk! [Je zei dat je] een probleem had met je computer, toch?
-~            of~course      you~said~you~had    a  problem  with your~computer    right  
+Speaker507: Natuurlijk! [Je zei~dat je]   een probleem had   met  je   computer, toch?
+~           of~course    you said you~had a   problem  (had) with your computer  right  
 - Je zei of je
 + Je zei dat je
 - Je zei dat ik
@@ -28,33 +28,33 @@ Speaker414: Ja!
 ~            yes 
 
 [LINE]
-Speaker507: Wat is er gebeurd?    
-~            what happened 
+Speaker507: Wat is~er~gebeurd?    
+~           what happened 
 
 [LINE]
-Speaker414: Goed. Weet je wat een "hacker" is?
-~           well    you~know what is a   hacker  
+Speaker414: Nou, weet~je     wat  een~"hacker"~is?
+~           well do~you~know what is~a~hacker  
 
 [LINE]
-Speaker414: Dat is iemand die dingen op computers verandert.
-~           it's a   person  that changes things on computers        
+Speaker414: Dat is iemand  die dingen~op~computers~verandert.
+~           it  's someone who changes~things~on~computers        
 
 [LINE]
-Speaker507: Ja Eddy, dat weet ik.   Vertel me wat het probleem is
-~           yes  Eddy  I  know  then      tell~me   what is the problem  
+Speaker507: Ja  Eddy, dat~weet~ik.   Vertel me wat  het~probleem~is
+~           yes Eddy  I~know         tell   me what is~the~problem  
 
 [POINT_TO_PHRASE]
 > Choose the option that means "resume."
-Speaker414: (Ik wilde) (+mijn CV) (printen), maar (het lukt niet)!   
-~            I~tried   to~print  my   résumé       but    I~couldn't  
+Speaker414: (Ik wilde)         (+mijn CV) (printen), maar (het~lukte~me~niet)!   
+~            I~wanted~to~print  my~résumé (to~print) but    I~couldn't  
 
 [LINE]
-Speaker414: En nu kan ik het niet meer vinden op de computer.
-~           and now   I~can't~find~it on the computer    
+Speaker414: En  nu  kan~ik       het bestand niet~meer vinden op de computer.
+~           and now I~can't~find the file    anymore   (find) on the computer    
 
 [LINE]
-Speaker414: Ik denk dat de hacker het gedeletet heeft.  
-~           I~think that the hacker deleted~it 
+Speaker414: Ik denk dat  de  hacker hem~gedeletet~heeft.  
+~           I think that the hacker deleted~it 
 
 [MULTIPLE_CHOICE]
 > Eddy thinks…
