@@ -4,44 +4,56 @@ icon=643347b755001a918130ddf5f6d3e914e63a00ce
 set=2|2
 
 [HEADER]
-> El  pasaporte
+> la  pasaporto
 ~ the passport 
+$5940/1632370a.mp3;2,50;10,250
 
 [LINE]
-> Vikram y   su  esposa, Priti, están en el  aeropuerto.
+> Vikram e   sua  sposa, Priti, es a la airoporto .
+#> Vikram eh   sua  spossa, Priti, ehss a la ajroporto .
 ~ Vikram and his wife    Priti  are   at the airport    
+$5940/4b7836a8.mp3;6,50;3,500;4,75;7,225;6,737;5,600;2,275;3,50;10,100
 
 [LINE]
-Speaker593: ¡Ay, no! ¿Dónde está mi pasaporte?
+Speaker593: Ai, no! Do es mea pasaporto?
 ~            oh  no   where is   my passport  
+$5940/7b42cd08.mp3;2,50;3,687;3,1275;3,275;4,138;10,225
 
 [LINE]
-Speaker593: ¡No~está  aquí!
-~            it's~not here 
+#Speaker593: Lo no es  assí!
+Speaker593: Lo no~es  asi!
+~            it isn't here 
+$5940/978258b2.mp3;2,50;3,225;3,200;5,162
 
 [LINE]
 Speaker560: Vikram…
 ~           Vikram 
+$5940/9f14040e.mp3;6,50
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker593: No~está  [en~mi~cartera]…
-~           it's~not  in~my~bag      
-+ en mi cartera
-- es mi cantera
-- en mi campera
+Speaker593: Lo no~es  [en~mea~saco]…
+~           it isn't  in~my~bag      
+$5940/25cb8ff8.mp3;2,50;3,225;3,200;3,162;4,100;5,263
++ en mea saco
+- es mea saco
+- en mea jaca
 
 [LINE]
-Speaker593: Y   no~está  en mi chaqueta.
-~           and it's~not in my jacket   
+#Speaker593: e   lo no~es  en mea giaca.
+Speaker593: e   lo no~es  en mea jaca.
+~           and it isn't in my jacket   
+$5940/91c062b0.mp3;1,50;3,162;3,113;3,200;3,137;4,100;6,200
 
 [LINE]
 Speaker560: Vik…
 ~           Vik 
+$5940/9996c7f4.mp3;3,50
 
 [LINE]
-Speaker593: ¡Está en el  taxi!
-~            it's in the taxi 
+Speaker593: Lo es en la  taxi!
+~            it is in the taxi 
+$5940/a3ec5af2.mp3;2,50;3,275;3,162;3,88;5,125
 
 [MULTIPLE_CHOICE]
 > Vikram thinks his passport is in the taxi.
@@ -49,46 +61,64 @@ Speaker593: ¡Está en el  taxi!
 - No, that's wrong.
 
 [LINE]
-> Vikram corre~a buscar        su  taxi.
-~ Vikram runs~to (to)~look~for his taxi 
+#> Vikram core a sherca        sua  taxi.
+> Vikram core a xerca        sua  taxi.
+~ Vikram runs to look~for his taxi 
+$5940/e95e3844.mp3;6,50;5,500;2,287;7,50;4,463;5,187
 
 [LINE]
-Speaker560: ¡Vik, no!
+Speaker560: Vik, no!
 ~            Vik  no 
+$5940/f5b87564.mp3;3,50;3,637
 
 [ARRANGE]
 > Tap what you hear
-> [(Priti) (corre~detrás~de) (Vikram).]
+> [(Priti) (core~pos) (Vikram).]
 ~   Priti   runs~after        Vikram   
+$5940/11d0df84.mp3;5,50;5,325;4,300;7,262
 
 [LINE]
-Speaker593: ¡Ay, no! ¡El  taxi no~está aquí!
+Speaker593: Ai, no! La  taxi no es asi!
+#Speaker593: Ai, no! La  taxi no es assí!
 ~            oh  no   the taxi is~not  here 
+$5940/242382d6.mp3;2,50;3,687;3,1275;5,225;3,425;3,175;5,163
 
 [LINE]
-Speaker593: ¡No~es    posible! 
-~            it's~not possible 
+# this one was a challenge to get the TTS right.
+# It kept missing the L in posible, saying posibe instead?
+# this is the best I could do.
+#Speaker593: Lo no~es    possìb-le! 
+Speaker593: Lo no~es    posible! 
+~            it isn't possible 
+$5940/9aaadf08.mp3;2,50;3,225;3,200;10,137
 
 [LINE]
-Speaker560: ¡Vikram!
+Speaker560: Vikram!
 ~            Vikram 
+$5940/cfd34530.mp3;6,50
 
 [LINE]
-Speaker560: Tu   pasaporte no~está en el  taxi.
+Speaker560: Tua   pasaporto no~es en la  taxi.
+#Speaker560: Tua   pasaporto no~ess en la  taxi.
 ~           your passport  is~not  in the taxi 
+$5940/e6b336de.mp3;3,50;10,212;3,675;4,213;3,225;3,100;5,112
 
 [POINT_TO_PHRASE]
 > Choose the option that means "hand."
-Speaker560: (El)  pasaporte (está) (en) tu   (+mano).
+Speaker560: (La)  pasaporto (es) (en) tua   (+mano).
+#Speaker560: (La)  pasaporto (ess) (ènn) tua   (+mano).
 ~            the  passport   is     in  your   hand  
+$5940/3a58851e.mp3;2,50;10,212;4,713;4,237;4,150;5,225
 
 [LINE]
 Speaker593: Ah…
 ~           oh 
+$5940/43b120bc.mp3;2,50
 
 [LINE]
-Speaker593: Gracias,   mi amor.
+Speaker593: Grasias,   mea amor.
 ~           thank~you  my love 
+$5940/47e5106c.mp3;7,50;4,1037;5,313
 
 [MULTIPLE_CHOICE]
 > Where was Vikram's passport?
@@ -98,9 +128,9 @@ Speaker593: Gracias,   mi amor.
 
 [MATCH]
 > Tap the pairs
-- aeropuerto <> airport
-- Priti <> Priti
-- corre detrás de <> runs after
-- chaqueta <> jacket
-- aquí <> here
+- airoporto <> airport
+- saco <> bag
+- core pos <> runs after
+- jaca <> jacket
+- asi <> here
 
