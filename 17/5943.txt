@@ -1,12 +1,12 @@
 [DATA]
-fromLanguageName=A New Coat
+fromLanguageName=The Bag
 icon=966f6e25540bc4ba5347e59005bcc1e2827fdd66
 set=3|1
 
 [HEADER]
-> מעיל חדש
-~ a~coat new
-$5943/8f99b6e4.mp3;4,50;4,412
+> התיק
+~ the~bag
+$5943/9115b4e0.mp3;4,50
 
 [LINE]
 > ויקרם נמצא בחנות.
@@ -55,9 +55,9 @@ Speaker593: אבל…
 $5943/268f77aa.mp3;3,50
 
 [LINE]
-Speaker338: אני צריכה מעיל חדש.
-~           I need a~coat new
-$5943/2dbcc9e2.mp3;3,50;6,275;5,400;4,262
+Speaker338: אני מחפשת תיק חדש.
+~           I am~looking~for a~bag new
+$5943/b45b7430.mp3;3,50;6,225;4,600;4,212
 
 [LINE]
 Speaker338: אתה אוהב את האדום?
@@ -65,9 +65,9 @@ Speaker338: אתה אוהב את האדום?
 
 [MULTIPLE_CHOICE]
 > The woman asks Vikram if he…
-- .wants a new coat…
+- .wants a new bag…
 - .likes working at the store…
-+ .likes the red coat…
++ .likes the red bag…
 
 [LINE]
 Speaker593: את…
@@ -75,26 +75,39 @@ Speaker593: את…
 $5943/bb6ec0c4.mp3;2,50
 
 [LINE]
-Speaker338: או אתה מעדיף את החום?
-~            or do~you prefer ~ the~brown~one
-$5943/5b609310.mp3;2,50;4,187;6,225;3,438;5,87
+Speaker338: או אתה מעדיף את הלבן?
+~           or do~you prefer ~ the~white~one
+$5943/3d4ea83e.mp3;2,50;4,200;6,225;3,450;5,100
 
 [LINE]
-Speaker593: המממ…
-~           hmm 
-$5943/c4fc00c0.mp3;4,50
+Speaker593: טוב.
+~           fine 
+$5943/0c586b5c.mp3;3,50
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker593: האדום הוא גדול.
+~           the~red~one is big
+$5943/08d5d89c.mp3;5,50;4,725;5,187
++ האדום הוא גדול
+- האדם הוא גבוה
+- האמן הוא גנב
 
 [LINE]
-Speaker593: El  abrigo~marrón es cómodo      y   barato.
-~           the brown~coat    is comfortable and cheap  
+Speaker593: הלבן יפה...
+~           the~white~one is pretty
+$5943/464e2c0c.mp3;4,50;4,537
 
 [LINE]
-Speaker593: Pero el~rojo     es muy  bonito.
-~           but  the~red~one is very pretty 
+Speaker593: ולא יקר.
+~            and~it's~not expensive  
+$5943/12f09574.mp3;3,50;4,375
 
-[LINE]
-Speaker593: ¡Y   es   elegante!
-~            and it's elegant  
+[MULTIPLE_CHOICE]
+> …Vikram thinks the white bag is
+- .ugly and too big…
+- .too expensive and old…
++ .pretty and not expensive…
 
 [ARRANGE]
 > Tap what you hear
