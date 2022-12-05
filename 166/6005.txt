@@ -10,14 +10,16 @@ set=3|4
 $6005/054a9bf8.mp3;1,50;3,150;9,125
 
 [LINE]
+# Voice: Oscar prende un tashi.
 > Oscar prende un taxi.
-$6005/f83b4674.mp3;5,50;7,450;3,287;5,113
 ~ Óscar takes a  taxi 
+$6005/355bcd26.mp3;5,50;7,462;3,300;6,125
 
 [LINE]
-$6005/f8b25c96.mp3;3,50;4,362;4,550;5,575;3,325;5,100
+# Voice: Sua ami, Lin, ghida la tashi.
 > Sua ami, Lin, gida la taxi.
 ~ his friend  Lin  drives the taxi 
+$6005/7ca5d334.mp3;3,50;4,337;4,550;6,600;3,338;6,100
 
 [MULTIPLE_CHOICE]
 > Lin is driving the taxi that Oscar just got into.
@@ -25,30 +27,37 @@ $6005/f8b25c96.mp3;3,50;4,362;4,550;5,575;3,325;5,100
 - No, that's wrong.
 
 [LINE]
+# Voice: Lin! Eske~tu~ghida~tashis?
 Speaker592: Lin! Esce~tu~gida~taxis?
 ~            Lin   you~drive~taxis 
+$6005/a1b2b5b6.mp3;3,50;5,1337;3,413;6,175;7,262
 
 [POINT_TO_PHRASE]
 > Choose the option that means "job."
 Speaker508: (Si)!  (Lo~es)   mea (+emplea) (nova)!
 ~             yes     it's  my     job      new
-$6005/f9c3f70c.mp3;3,50;5,1337;3,388;5,175;6,275
+$6005/b4555db8.mp3;2,50;3,1225;3,225;4,175;7,262;5,413
 
 [LINE]
 Speaker508: Do tu vole vade?
 ~            where   you want to~go 
+$6005/bc1d3976.mp3;2,50;3,225;5,175;5,287
 
 [LINE]
-Speaker592: A  la  stasion, por~favore!
+# Voice: A  la  staasion, per~favore!
+Speaker592: A  la  staasión, per~favore!
 ~            to the station   please    
+$6005/ecfa5538.mp3;1,50;3,137;9,138;4,750;7,175
 
 [LINE]
 Speaker508: Do es la stasion.
 ~            where is   the station  
+$6005/bd782e0c.mp3;2,50;3,287;3,213;8,150
 
 [LINE]
 Speaker592: Me no sabe.
 ~           I~don't~know 
+$6005/bdf4c368.mp3;2,50;3,187;5,175
 
 [MULTIPLE_CHOICE]
 > Óscar doesn't know…
