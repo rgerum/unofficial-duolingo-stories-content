@@ -6,44 +6,54 @@ set=-41|3
 [HEADER]
 > In de Apotheek
 ~ at the pharmacy
+$5802/98ab5aa0.mp3;2,50;3,175;9,112
 
 [LINE]
-> Eddy en   Junior wachten    in~de~apotheek  op  Juniors medicijn.
+> Eddy en   Junior wachten    in~de~apotheek  op  Juniors{jüniors} medicijn.
 ~ Eddy and Junior are~waiting at~the~pharmacy for Junior's medicine 
+$5802/acd0aee0.mp3;4,50;3,362;7,213;8,450;3,387;3,125;9,100;3,613;8,187;9,513
 
 [LINE]
 Speaker415: Mag ik buiten~wachten? 
 ~           can I  wait~outside 
+$5802/b26fac16.mp3;3,0;3,170;7,75;8,360
 
 [POINT_TO_PHRASE]
 > Choose     the option that means      "rash"     
 Speaker414: Nee, de  crème    voor je   uitslag  is bijna  klaar.
 ~           no   the medicine for  your rash     is almost  ready  
+$5802/b9d1c8ae.mp3;3,50;3,575;6,100;5,312;3,150;8,150;3,475;6,163;6,287
 
 [LINE]
 Speaker415: Stil! Niemand mag weten dat  ik uitslag~heb.
 ~            shhh  no~one can know  that I  have~a~rash       
+$5802/ca9d697c.mp3;4,0;9,545;4,629;6,196;4,364;3,165;8,105;4,476
 
 [LINE]
 Speaker414: Maar het is iets~heel~gewoons.           Ik krijg zo~vaak~uitslag.
 ~           but  it  's something~completely~normal  I  get   rashes~so~frequently.      
+$5802/d456f97e.mp3;4,50;4,212;3,138;5,150;5,187;8,250;3,1050;6,200;3,275;5,188;8,337
 
 [LINE]
 Speaker415: Wat  een gênante      situatie! Kunnen we hier~weg ?     
 ~           what an  embarrassing situation can    we  leave 
+$5802/daf1c80e.mp3;3,0;4,179;8,90;9,500;8,815;3,410;5,85;4,255
 
 [ARRANGE]
 > Tap what you hear
-Speaker414: [(We moeten) (wachten) (op) (je)  (medicijn).]
-~             we~have~to  wait      for  your  medicine   
+Speaker414: [(We~moeten) (wachten) (tot)~(het)~(klaar)~(is).]
+~             we~have~to  wait      for~it~to~be~ready   
+$5802/635dfd2a.mp3;2,50;7,150;8,262;4,350;4,175;6,125;3,325
 
 [LINE]
-Speaker415: Had~je~geen       afspraakje met  Juliana vanavond? We moeten  gaan als je~op~tijd~wilt~zijn.
-~           didn't~you~have~a date       with Juliana tonight   we have~to go   if  you~want~to~be~in~time   
+Speaker415: Had~je~geen       afspraakje met  Juliana vanavond? We moeten~echt    gaan als je~op~tijd~wilt~zijn.
+~           didn't~you~have~a date       with Juliana tonight   we really~have~to go   if  you~want~to~be~in~time   
+$5802/68b5e63e.mp3;3,0;3,234;5,46;11,254;4,580;8,230;9,550;4,670;7,445;5,315;5,265;4,320;3,245;3,30;5,180;5,255;5,190
 
 [LINE]
 Speaker414: Junior…
 ~           Junior 
+$5802/7996897c.mp3;6,50
 
 [LINE]
 > Twee jongens komen~de~apotheek~in met hun moeder.
@@ -147,8 +157,9 @@ Speaker1715: Eddy, ik geloof dat  de  apotheker  tegen~je~praat.
 [CONTINUATION]
 > Wat volgt hierna?      
 ~  what~comes~next 
-Speaker3162: Meneer, kunt u   de~eczeemcrème~[afrekenen] alstublieft? Er    staan mensen te~wachten achter u.
-~            Sir,    can  you pay~for~the~eczema~cream,  please?      there are  people  waiting  behind you
+Speaker3162: Meneer, kunt u   de~eczeemcrème~[afrekenen] alstublieft? Er    staat een rij    te~wachten achter u.
+~            Sir,    can  you pay~for~the~eczema~cream,  please?      there is    a   queue  waiting    behind you
+
 - koel bewaren 
 ~ keep cool
 + afrekenen
@@ -179,7 +190,7 @@ Speaker415: Zei~ik~je~niet    dat  eczeem gênant is!!
 [MULTIPLE_CHOICE]
 > Waarom is~Eddy  de~apotheek~uit~gerend?
 ~  why   did~Eddy run~out~of~the~pharmacy
- 
+
 - Hij is~bang  voor Juniors  vrienden.
 ~ he is~afraid of   Junior's friends     
 - Hij heeft~het~geld~niet    om het~medicijn~te~betalen.
