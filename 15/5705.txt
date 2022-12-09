@@ -1,0 +1,167 @@
+[DATA]
+fromLanguageName=My Leg Hurts
+icon=e03c9c686e0856f66bc51a3f912c8be470a7f18b
+set=31|1
+
+[HEADER]
+> Bacağım Ağrıyor
+~ my~leg hurts      
+$5705/aa8f0b34.mp3;7,0;8,479
+
+#Beğa evinin kapısını açar.  Eddynin
+#Bea evinin kapısını açar.  Eddy'nin
+[LINE]
+> Bea evinin kapısını açar.  Eddy'nin orada tek~ayak~üstünde durduğunu görür. 
+~ Bea of~her~house its~door she~opens Eddy's at~there on~one~foot that~he~is~standing she~sees 
+$5705/a0c1d186.mp3;4,0;7,214;9,401;5,414;9,431;6,545;4,375;5,250;8,235;10,394;6,495
+
+[LINE]
+Speaker414: Bacağım ağrıyor. Beni doktora götürebilir~misin?
+~           my~leg it~hurts    me to~the~doktor  can~you~take~me 
+$5705/9cdc77ba.mp3;7,50;8,725;5,1612;8,450;12,450;6,600
+
+[LINE]
+Speaker507: Tabii~ki!
+~            of~course    
+$5705/93ab5d3c.mp3;5,0;3,362
+
+#Beğa ve  Eddy, Beğanın
+#Bea ve  Eddy, Bea'nın
+[SELECT_PHRASE]
+> Select the missing phrase
+> Bea ve  Eddy, Bea'nın [arabasına binerler].
+~ Bea and Eddy  Bea's to~her~car  they~get~in        
+$5705/8b696790.mp3;4,0;3,250;5,139;9,296;10,544;9,540
+
+- arabasında binerler
++ arabasına binerler
+- arabasını binerler
+
+#Cünyırı
+#Junior'ı
+[LINE]
+Speaker414: Bekle! Junior'ı okuldan almayı unuttum.   Gidebilir~miyiz?     
+~            wait  Junior from~school to~pick~up I~forgot can~we~go~(there) 
+$5705/a53d5912.mp3;5,50;8,1637;8,525;7,550;8,363;10,1712;6,650
+
+[LINE]
+Speaker507: Tabii~ki.
+~           of~course    
+$5705/81b2bd50.mp3;5,0;3,362
+
+[MULTIPLE_CHOICE]
+> Where do Bea and Eddy need to go first?
++ Junior's school
+- the bakery
+- the leg store
+
+#Beğa ve   Eddy, Cünyırı
+#Bea ve   Eddy, Junior'ı
+[LINE]
+> Bea ve   Eddy, Junior'ı okuldan alırlar.
+~ Bea and Eddy Junior from~school they~pick~up  
+$5705/914208f4.mp3;4,0;3,250;5,139;9,310;8,545;8,465
+
+[LINE]
+Speaker414: Postaneye de gidebilir~miyiz?
+~          to~the~post~office too  can~we~go
+$5705/747ef72a.mp3;9,50;3,737;10,125;6,488
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: [Bacağın hâlâ ağrıyor], değil~mi?
+~           your~leg still is~hurting isn't~it
+$5705/718883d8.mp3;7,0;5,458;8,451;7,487;3,396
+
+- Dudağın hâlâ ağrıyor
+- Bıçağın hâlâ acıyor
++ Bacağın hâlâ ağrıyor
+
+[LINE]
+Speaker414: Evet, ama çok büyük bir paket almak~zorundayım.
+~           yes  but  very big a package I~have~to~pick~up
+$5705/6bcea2c4.mp3;4,50;4,737;4,238;6,262;4,263;6,187;6,325;11,313
+
+[LINE]
+Speaker507: Ahh~… tamam.
+~           ahh  okay        
+$5705/8df09c30.mp3;3,0;8,208
+
+[LINE]
+Speaker415: Bak, Kebapçı boş! Dışarıda bekleyen kimse~yok!  
+~        look  the~kebab~shop  is~empty   at~the~outside that~is~waiting there~is~no~one
+$5705/9fc28f28.mp3;3,0;9,205;4,500;10,354;9,553;6,442;4,383
+
+#Cünyır
+#Junior
+[ARRANGE]
+> Tap what you hear
+> [(Junior) (restoranı) (işaret)~(eder).]
+~   Junior  the~restaurant he~points~at    
+$5705/4da470bc.mp3;6,0;10,375;7,500;5,520
+
+[LINE]
+Speaker414: Şuradaki iskender~kebaplar lezzetli, ama restoran hep dolu. Gidelim!   
+~     that~are~there the~Iskender~kebabs are~delicious but the~restaurant always (is)~full let's~go 
+$5705/afb140dc.mp3;8,50;9,612;9,613;9,562;4,825;9,200;4,538;5,212;8,1450
+
+[CONTINUATION]
+> What comes next?
+Speaker507: Ama [bir~doktora~görünmen] lazım~…
+~           but your~seeing~a~doctor is~necessary 
+$5705/41f5b5be.mp3;3,0;4,223;8,127;9,472;6,517
+
++ bir~doktora~görünmen   
+~ your~seeing~a~doctor
+- bir~film~izlemen
+~ your~seeing~a~movie
+- bulaşıkları~yıkaman
+~ your~washing~the~dishes
+
+[POINT_TO_PHRASE]
+> Choose the option that means "miracle."
+Speaker415: (Ama) (restoran) (boş)! (Bu) (bir)~(+mucize)!
+~     but the~restaurant (is)~empty this (is~a)~miracle  
+$5705/217a25fe.mp3;3,0;9,209;4,499;4,306;4,304;7,106
+
+#Cünyır ve Beğa
+#Junior ve Bea
+[LINE]
+> Birazdan, Eddy, Junior ve Bea restorandalardır.
+~ soon      Eddy  Junior and Bea they~are~in~the~restaurant  
+$5705/34764638.mp3;8,0;6,605;8,564;3,520;5,190;17,260
+
+[LINE]
+Speaker507: Vay, bu doğru~… bu kebap lezzetliydi!
+~           wow this is~true this kebab was~delicious 
+$5705/01de8240.mp3;3,0;4,270;6,207;5,421;6,428;12,409
+
+[LINE]
+Speaker414: Evet, ama sanırım şimdi bir~doktora~gitmeliyiz.
+~         yes  but  I~think now we~must~go~to~a~doctor  
+$5705/1a1c37d0.mp3;4,50;4,725;8,212;6,413;4,325;8,162;11,425
+
+[LINE]
+Speaker507: Bacağın hâlâ ağrıyor~mu?
+~          your~leg still is~it~hurting       
+$5705/1802b02c.mp3;7,0;5,467;8,465;3,447
+
+[LINE]
+Speaker414: Hayır, artık karnım ağrıyor. Galiba çok~fazla kebap yedim.
+~           no  now my~stomach it~is~hurting  I~guess too~many kebap I~ate   
+$5705/33eca79e.mp3;5,50;6,625;7,400;8,425;7,1600;4,812;6,250;6,363;6,375
+
+[MULTIPLE_CHOICE]
+> Eddy's leg doesn't hurt anymore, but now…
+- …Bea hurt her leg.
+- …he needs a shower.
++ …his stomach hurts.
+
+[MATCH]
+> Tap the pairs
+- birazdan <> soon
+- bacak <> leg
+- bekle <> wait
+- bu <> this
+- boş <> empty
+
