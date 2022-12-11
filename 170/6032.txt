@@ -4,44 +4,54 @@ icon=643347b755001a918130ddf5f6d3e914e63a00ce
 set=2|2
 
 [HEADER]
-> El  pasaporte
-~ the passport 
+> Paspor
+~ passport 
+$6032/4213ce26.mp3;6,0
 
 [LINE]
-> Vikram y   su  esposa, Priti, están en el  aeropuerto.
-~ Vikram and his wife    Priti  are   at the airport    
+> Vikram dan istri|nya, Priti, sedang di bandara.
+~ ~ and wife his ~  currently   at airport    
+$6032/441f05be.mp3;16,0;-10,0;4,489;10,168;7,666;8,785;3,563;8,95
 
 [LINE]
-Speaker593: ¡Ay, no! ¿Dónde está mi pasaporte?
-~            oh  no   where is   my passport  
+Speaker593: Waduh, paspor|ku di~mana?
+~           oh~no passport my where  
+$6032/484d5708.mp3;5,50;7,625;3,337;3,125;5,88
 
 [LINE]
-Speaker593: ¡No~está  aquí!
+Speaker593: Tidak~ada di~sini!
 ~            it's~not here 
+$6032/4bb7b26c.mp3;5,50;4,262;3,200;5,100
 
 [LINE]
-Speaker560: Vikram…
-~           Vikram 
+Speaker560: Vikram …
+~           ~ 
+$6032/4eb84e5e.mp3;6,0
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker593: No~está  [en~mi~cartera]…
-~           it's~not  in~my~bag      
-+ en mi cartera
-- es mi cantera
-- en mi campera
+Speaker593: Tidak~ada [di tas|ku] juga …
+~           it's~not  in bag my too
+$6032/5143993a.mp3;5,50;4,250;3,200;4,112;3,200;5,113
+
++ di tasku
+- di masku
+- di rasku
 
 [LINE]
-Speaker593: Y   no~está  en mi chaqueta.
-~           and it's~not in my jacket   
+Speaker593: Dan di jaket|ku juga tidak~ada.
+~           and in jacket my also not~there   
+$6032/5c1b09ec.mp3;3,50;3,250;6,112;3,325;5,125;6,300;4,175
 
 [LINE]
-Speaker560: Vik…
-~           Vik 
+Speaker560: Vik …
+~           ~ 
+$6032/5f3c6d96.mp3;3,0
 
 [LINE]
-Speaker593: ¡Está en el  taxi!
-~            it's in the taxi 
+Speaker593: Pasti ketinggalan di taksi!
+~           It~must~be left in taxi 
+$6032/612a69b4.mp3;5,50;12,350;3,437;6,100
 
 [MULTIPLE_CHOICE]
 > Vikram thinks his passport is in the taxi.
@@ -49,46 +59,56 @@ Speaker593: ¡Está en el  taxi!
 - No, that's wrong.
 
 [LINE]
-> Vikram corre~a buscar        su  taxi.
-~ Vikram runs~to (to)~look~for his taxi 
+> Vikram berlari mencari taksi|nya.
+~ ~ runs (to)~look~for taxi his 
+$6032/648ca13a.mp3;28,0;-22,0;8,474;8,361;10,419
 
 [LINE]
-Speaker560: ¡Vik, no!
-~            Vik  no 
+Speaker560: Vik, tunggu!
+~            ~  wait 
+$6032/67077f98.mp3;3,0;8,375
 
 [ARRANGE]
 > Tap what you hear
-> [(Priti) (corre~detrás~de) (Vikram).]
-~   Priti   runs~after        Vikram   
+> [(Priti) (berlari) (menyusul) (Vikram).]
+~   ~   runs (to)~catch~up        ~   
+$6032/695c401c.mp3;5,0;8,379;9,436;7,501
 
 [LINE]
-Speaker593: ¡Ay, no! ¡El  taxi no~está aquí!
-~            oh  no   the taxi is~not  here 
+Speaker593: Oh, tidak! Taksinya sudah pergi!
+~            oh  no   the~taxi has  gone 
+$6032/6c431c24.mp3;2,50;6,587;9,1250;6,475;6,275
 
 [LINE]
-Speaker593: ¡No~es    posible! 
+Speaker593: Tidak mungkin! 
 ~            it's~not possible 
+$6032/7014e436.mp3;5,50;8,287
 
 [LINE]
-Speaker560: ¡Vikram!
-~            Vikram 
+Speaker560: Vikram!
+~            ~ 
+$6032/754bccee.mp3;6,0
 
 [LINE]
-Speaker560: Tu   pasaporte no~está en el  taxi.
-~           your passport  is~not  in the taxi 
+Speaker560: Paspor|mu bukan di taksi.
+~           passport your  not  in taxi 
+$6032/77ef240a.mp3;6,0;3,0;6,750;3,414;6,120
 
 [POINT_TO_PHRASE]
-> Choose the option that means "hand."
-Speaker560: (El)  pasaporte (está) (en) tu   (+mano).
-~            the  passport   is     in  your   hand  
+> Choose the option that means "your hand."
+Speaker560: … (tapi) (di) (+tanganmu).
+~            but     in  your~hand  
+$6032/7aff11f0.mp3;6,0;3,704;9,180
 
 [LINE]
-Speaker593: Ah…
-~           oh 
+Speaker593: Oh …
+~           ~ 
+$6032/7e15f476.mp3;2,50
 
 [LINE]
-Speaker593: Gracias,   mi amor.
-~           thank~you  my love 
+Speaker593: Makasih ya, sayang.
+~           thank~you ~  my~love 
+$6032/8090a066.mp3;7,50;3,487;7,513
 
 [MULTIPLE_CHOICE]
 > Where was Vikram's passport?
@@ -98,9 +118,9 @@ Speaker593: Gracias,   mi amor.
 
 [MATCH]
 > Tap the pairs
-- aeropuerto <> airport
-- Priti <> Priti
-- corre detrás de <> runs after
-- chaqueta <> jacket
-- aquí <> here
+- bandara <> airport
+- tangan <> hand
+- berlari <> runs
+- tas <> bag
+- sudah <> already
 
