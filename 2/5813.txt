@@ -4,204 +4,213 @@ icon=165a7a41d8d4b3060ca395954c2835c4ff28f8ce
 set=-44|2
 
 [HEADER]
-> Me~encantan los~piratas
+> Ik houd van piraten
 ~ I~love      pirates    
 
 [LINE]
-> Zari y   Junior están en un parque~de~atracciones.
+> Zari en  Junior zijn in een pretpark.
 ~ Zari and Junior are   at an amusement~park        
 
 [LINE]
-Speaker415: ¡Zari, gracias   por traerme     a  Mundo~Pirata! ¡Me~encanta este lugar!
-~            Zari  thank~you for bringing~me to Pirate~World   I~love     this place 
+Speaker415: Zari, dank je wel dat je me meegenomen hebt naar Schateiland! Ik vind het geweldig hier!
+~            Zari  thank~you for bringing~me to Treasure~Island   I~love     this place 
 
 [LINE]
-Speaker418: Sí,  a~mí~también~me~gustaba mucho cuando era   niña. 
+Speaker418: Ja, ik vond het ook super als kind. 
 ~           yes  I~also~liked~it         a~lot when   I~was a~kid 
 
 [ARRANGE]
 > Tap what you hear
-Speaker415: ¿[(Podemos~ir) (al)     (musical)      (de) (los~piratas)?]
+Speaker415: [(Kunnen we) (nu) (naar) (de)     (piratenmusical)?]
 ~              can~we~go    to~the   singing~show   of   the~pirates   
 
 [LINE]
-Speaker418: No, cantan    muy~mal. 
+Speaker418: Nee, ze zingen verschrikkelijk. 
 ~           no  they~sing terribly 
 
 [LINE]
-Speaker415: Bueno, entonces… ¿me~compras     un sombrero~de~pirata?
+Speaker415: OK, mag ik dan een piratenhoed?
 ~           well   then       can~you~buy~me a  pirate~hat         
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker418: Lo~siento, tu   papá solo [nos~dio~dinero] para las~atracciones y   la~comida.
+Speaker418: Het spijt me, je vader heeft [ons geld gegeven] voor de attracties en om iets te eten.
 ~           I'm~sorry  your dad  only  gave~us~money   for  rides           and food      
+
 + nos dio dinero
 - perdió dinero
 - yo aquí te espero
 
 [LINE]
-> De~repente, Zari ve~a un chico de   su  escuela.
+> Opeens ziet Zari een jongen van school.
 ~ suddenly    Zari sees a  boy   from her school  
 
 [LINE]
-Speaker418: ¡Ay, no! ¡Es   Abel!
+Speaker418: O jee! Het is   Abel!
 ~            oh  no   it's Abel 
 
 [LINE]
-Speaker418: ¡No~quiero~que~me~vea       aquí! ¡Él~me~gusta mucho! ¿Y~si    piensa    que  me~gustan los~piratas?
+Speaker418: Ik wil niet dat hij mij hier ziet. Ik vind hem erg leuk maar stel dat hij denkt dat ik van piraten houd?
 ~            I~don't~want~him~to~see~me here   I~like~him  a~lot   what~if he~thinks that I~like    pirates     
 
 [ARRANGE]
 > Tap what you hear
-Speaker415: ¡[(Pero) (Mundo~Pirata) (es) (genial)!]
-~              but    Pirate~World   is   great    
+Speaker415: [(Maar) (Schateiland) (is) (geweldig)!]
+~              but    Treasure~Island   is   great    
 
 [LINE]
-Speaker418: Vamos~a~escondernos en la  tienda~de~regalos.
-~           let's~hide          in the gift~shop         
+Speaker418: Laten we ons verstoppen in het winkeltje.
+~           let's~hide          in the shop         
 
 [CONTINUATION]
-> ¿Qué  sigue?     
-~  what comes~next 
-> Ellos corren hacia [la  tienda~de~regalos].
-~ they  run    to     the gift~shop          
-- una estación~de~tren
-~ a   train~station   
-+ la  tienda~de~regalos
-~ the gift~shop        
-- el  refrigerador
+> Wat komt hierna?     
+~  what comes next 
+
+> Ze rennen naar [het souvenirwinkeltje].
+~ they  run    to     the souvenir~shop          
+
+- het station
+~ the train~station   
++ het souvenirwinkeltje
+~ the souvenir~shop        
+- de koelkast
 ~ the refrigerator
 
 [LINE]
-Speaker415: ¡Ya~sé!  ¿Y~si    te~pones un disfraz~de~pirata?
-~            I~know   what~if you~wear a  pirate~costume    
+Speaker415: Ik weet het!  Vermom je als piraat!
+~            I~know   disguise yourself as a pirate    
 
 [LINE]
-Speaker415: ¡Nunca~sabrá        que  eres~tú! 
+Speaker415: Hij zal nooit weten dat jij het bent! 
 ~            he~will~never~know that it's~you 
 
 [LINE]
-Speaker418: No~sé…       
+Speaker418: Ik weet het niet…       
 ~           I~don't~know 
 
 [LINE]
-Speaker415: ¡Ponte  este sombrero, este parche    y   esta barba!
+Speaker415: Zet deze hoed op, doe dit ooglapje op en doe deze baard aan!
 ~            put~on this hat       this eye~patch and this beard 
 
 [LINE]
-Speaker418: ¡Junior, no~quiero!      
+Speaker418: Junior, ik wil niet!      
 ~            Junior  I~don't~want~to 
 
 [LINE]
-Speaker415: ¡Abel viene     para~acá! 
+Speaker415: Abel komt hierheen! 
 ~            Abel is~coming over~here 
 
 [LINE]
-Speaker418: Bueno, ¡está~bien!
+Speaker418: Nou, goed dan!
 ~           well    OK        
 
 [LINE]
-> Zari compra las cosas  y   se~pone el  disfraz.
-~ Zari buys   the things and wears   the costume 
+> Zari koopt de dingen en trekt ze aan.
+~ Zari buys   the things and puts them on 
 
 [MULTIPLE_CHOICE]
-> Espera… ¿por~qué Zari~se~puso    un disfraz?
-~ wait     why     did~Zari~put~on a  costume 
-- Ella quiere encontrar trabajo en Mundo~Pirata.
-~ she  wants  to~find   a~job   at Pirate~World 
-- Ella quiere bailar   como un pirata.
+> Wacht… Waarom vermomt Zari zich?
+~ wait     why     did~Zari~disguise herself 
+
+- Zij zoekt werk op Schateiland.
+~ she  wants  to~find   a~job   at Treasure Island 
+- Ze wil dansen als een piraat.
 ~ she  wants  to~dance like a  pirate 
-+ Ella no~quiere~que~Abel~la~vea.   
-~ she  doesn't~want~Abel~to~see~her 
++ Ze wil niet dat Abel haar herkent.   
+~ she  doesn't~want~Abel~to~recognize~her 
 
 [LINE]
-> Abel ve~a Zari.
-~ Abel sees Zari 
+> Maar Abel herket Zari toch.
+~ however, Abel does recognize Zari 
 
 [LINE]
-Speaker1321: Zari, ¿eres~tú?    
+Speaker1321: Zari, ben jij het?    
 ~            Zari   is~that~you 
 
 [LINE]
-Speaker418: Ah… hola,  Abel.
+Speaker418: Ah… hallo,  Abel.
 ~           oh  hello  Abel 
 
 [LINE]
-Speaker1321: Veo   que  te~encantan los~piratas.
+Speaker1321: Ik zie dat je van piraten houdt.
 ~            I~see that you~love    pirates     
 
 [LINE]
-Speaker418: Ja, ja… No. ¡Yo odio~a los~piratas!
+Speaker418: Haha… Nee. Ik heb een hekel aan piraten!
 ~           ha  ha  no   I  hate   pirates     
 
 [CONTINUATION]
-> ¿Qué  sigue?     
+> Wat komt hierna?     
 ~  what comes~next 
-Speaker1321: ¿Y   por~qué tienes~puesto   [ese  disfraz]?
+Speaker1321: En waarom ben je dan   [verkleed als piraat]?
 ~             and why     are~you~wearing  that costume  
-+ ese  disfraz
-~ that costume
-- un calcetín~de~lana
-~ a  wool~sock       
-- un vestido~de~boda
-~ a  wedding~dress  
+
++ verkleed als piraat
+~ disguised as a pirate
+- verleid als piraat
+~ seduced as a pirate       
+- verkleed als pier
+~ disguised as a worm  
 
 [LINE]
-Speaker418: Ah… ¿esto? Eh… porque  al~niño~que~cuido~le~encantan los~piratas.
+Speaker418: Oh. Euh. Omdat deze jongen op wie ik pas van piraten houdt.
 ~           oh   this  eh  because the~boy~I~take~care~of~loves  pirates     
 
 [LINE]
-Speaker1321: ¡A~mí~también!
+Speaker1321: Ik ook!
 ~             me~too       
 
 [LINE]
-Speaker1321: De~hecho, yo canto en el  musical~de~los~piratas.
+Speaker1321: Sterker nog, ik zing in de piratenmusical.
 ~            in~fact   I  sing  in the pirates~singing~show   
 
 [LINE]
-Speaker418: ¿¡Qué!? 
+Speaker418: Wat? 
 ~             what  
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker1321: [Te~iba~a~invitar],          pero dijiste  que  odiabas~a los~piratas…
-~             I~was~going~to~invite~you   but  you~said that you~hated pirates     
-+ Te iba a invitar
-- Te iba a evitar
-- Se iban a votar
+Speaker1321: [Ik wilde je uitnodigen],  maar als je een hekel hebt aan piraten…
+~             I~was~going~to~invite~you   but  as you hate pirates     
+
++ Ik wilde je uitnodigen
+- Ik wilde je eruit gooien
+- Ik wilde nodig uit met je
 
 [LINE]
-Speaker418: No, espera… ¡Me~encantan los~piratas! ¡Solo~estaba~bromeando!
+Speaker418: Nee, wacht… Ik houd van piraten! Het was maar een grapje!
 ~           no  wait     I~love      pirates       I~was~just~joking     
 
 [LINE]
-Speaker1321: Me~tengo~que~ir.
+Speaker1321: Ik moet gaan.
 ~            I~have~to~go    
 
 [LINE]
-> Abel se~va. 
+> Abel gaat. 
 ~ Abel leaves 
 
 [LINE]
-Speaker415: Eh… ¿Zari? ¿Me~regalas      tu   sombrero?
+Speaker415: Euh… Zari? mag ik je hoed?
 ~           eh   Zari   can~you~give~me your hat      
 
 [MULTIPLE_CHOICE]
-> ¿Por~qué ahora~Zari~dice   que  le~encantan los~piratas?
+> Waarom zegt Zari nu dat ze van piraten houdt?
 ~  why     does~Zari~say~now that she~loves   pirates     
-- Un pirata le~dio   su  parche~favorito.   
+
+- een piraat heeft haar zijn favoriete ooglapje gegeven.   
 ~ a  pirate gave~her his favorite~eye~patch 
-+ Ella quiere~que~Abel~la~invite al     musical.     
++ Ze wil dat Abel haar uitnodigt voor de musical.     
 ~ she  wants~Abel~to~invite~her  to~the singing~show 
-- Ella descubrió  que  su  madre  es una pirata.
+- Ze heeft ontdekt dat haar moeder een piraat is.
 ~ she  discovered that her mother is a   pirate 
 
 [MATCH]
 > Tap the pairs
-- nos dio dinero <> gave us money
-- No <> no
-- Eh <> eh
-- Me regalas <> can you give me
-- Veo <> I see
+- zich vermommen <> to disguise oneself
+- verkleed als <> disguised as a
+- het pretpark <> the amusement park
+- mag ik <> can you give me
+- herkennen <> to recognize
+
+
 
