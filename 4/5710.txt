@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Clothes for my Vacation
+icon=6fee4723d01611cffa9b4b76fd5be36697ef1e96
+set=4|3
+
+[HEADER]
+> Kläder till min semester
+~ clothes for  my  vacation  
+
+[LINE]
+> Lucy är på en butik.
+~ Lucy is   at a   store  
+
+[LINE]
+Speaker416: Hallå,  Behöver~du hjälp?
+~           hello   do~you~need help  
+
+[LINE]
+Speaker509: Ja,  Jag behöver kläder till min semester.
+~           yes  I need   clothes for  my  vacation   
+
+[MULTIPLE_CHOICE]
+> Lucy is shopping for clothes for a vacation.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker416: Okej.
+~           OK        
+
+[LINE]
+Speaker509: Jag behöver en klänning.
+~           I need   a  dress   
+
+[LINE]
+> Lily letar~efter     en grön klänning.
+~ Lily looks~for a  green dress   
+
+[MULTIPLE_CHOICE]
+> Lily is getting a…
++ …green dress.
+- …red dress.
+- …green hat.
+
+[LINE]
+Speaker509: Nej, jag vill~ha en röd klänning!
+~            no  I  want   a  red dress    
+
+[LINE]
+> Lily letar~efter     en röd klänning.
+~ Lily looks~for a  red dress    
+
+[LINE]
+Speaker509: Och   jag~vill~ha en jacka.
+~           and I~want a   jacket   
+
+[ARRANGE]
+> Tap what you hear
+> [(Lily) (letar~efter)     (en) (röd~jacka).]
+~   Lily   looks~for   a     red~jacket      
+
+[LINE]
+Speaker509: Nej, jag vill~ha en brun jacka!
+~            no  I  want   a   brown jacket    
+
+[LINE]
+Speaker416: Okej…
+~           OK        
+
+[LINE]
+Speaker509: En röd klänning, en brun jacka…
+~           a  red dress     a   brown jacket    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: [Och en hatt]!
+~             and a hat      
+- Och en kappa
+- Och en katt
++ Och en hatt
+
+[LINE]
+> Lily letar~efter     en blå hatt.
+~ Lily looks~for a  blue hat      
+
+[LINE]
+Speaker509: Nej, jag vill~ha en grå hatt!
+~            no  I  want   a  gray hat      
+
+[LINE]
+> Lily letar~efter     en grå hatt.
+~ Lily looks~for a  gray hat      
+
+[POINT_TO_PHRASE]
+> Choose the option meaning "ready."
+Speaker509: (Tack)!   (Jag~är) (+redo) (för) min semester!
+~             thank~you     I~am     ready   for   my  vacation   
+
+[LINE]
+Speaker416: Nu jag behöver en semester.  
+~           now   I  need     a vacation 
+
+[MULTIPLE_CHOICE]
+> Poor Lily! Why does she need a vacation?
+- She ate too much for lunch.
++ She's tired after helping Lucy find clothes.
+- She wants to buy new clothes to wear.
+
+[MATCH]
+> Tap the pairs
+- och <> and
+- röd jacka <> red jacket
+- grå hatt <> gray hat
+- tack <> thank you
+- Nej <> no
+
