@@ -8,15 +8,15 @@ set=4|3
 ~ clothes for  my  vacation  
 
 [LINE]
-> Lucy está en una tienda.
-~ Lucy is   at a   store  
+> Lucy egy~boltban van.
+~ Lucy  at~a~store is  
 
 [LINE]
-Speaker416: Hola,  ¿necesita ayuda?
-~           hello   you~need help  
+Speaker416: Jó~napot,  segíthetek?
+~           hello   can~I~help
 
 [LINE]
-Speaker509: Sí,  necesito ropa    para mis vacaciones.
+Speaker509: Igen,  a nyaralásomhoz keresek ruhákat.
 ~           yes  I~need   clothes for  my  vacation   
 
 [MULTIPLE_CHOICE]
@@ -25,16 +25,16 @@ Speaker509: Sí,  necesito ropa    para mis vacaciones.
 + Yes, that's right.
 
 [LINE]
-Speaker416: Está~bien.
+Speaker416: Rendben.
 ~           OK        
 
 [LINE]
-Speaker509: Necesito un vestido.
-~           I~need   a  dress   
+Speaker509: Szükségem van egy nyári ruhára. 
+~           I~need   a  summer dress   
 
 [LINE]
-> Lily busca     un vestido~verde.
-~ Lily looks~for a  green~dress   
+> Lili keres    egy zöld ruhát.
+~ Lily looks~for a  green dress   
 
 [MULTIPLE_CHOICE]
 > Lily is getting a…
@@ -43,28 +43,28 @@ Speaker509: Necesito un vestido.
 - …green hat.
 
 [LINE]
-Speaker509: ¡No, yo quiero un vestido~rojo!
-~            no  I  want   a  red~dress    
+Speaker509: Nem, egy piros ruhát szeretnék!
+~            no   a  red dress  I~would~like
 
 [LINE]
 > Lily busca     un vestido~rojo.
 ~ Lily looks~for a  red~dress    
 
 [LINE]
-Speaker509: Y   quiero una chaqueta.
+Speaker509: És szeretnék egy dzsekit.
 ~           and I~want a   jacket   
 
 [ARRANGE]
 > Tap what you hear
-> [(Lily) (busca)     (una) (chaqueta~roja).]
-~   Lily   looks~for   a     red~jacket      
+> [(Lili) (keres)     (egy) (piros) (dzsekit).]
+~   Lily   looks~for   a     red jacket      
 
 [LINE]
-Speaker509: ¡No, yo quiero una chaqueta~marrón!
+Speaker509: Nem, egy barna dzseki kell!
 ~            no  I  want   a   brown~jacket    
 
 [LINE]
-Speaker416: Está~bien…
+Speaker416: Oké…
 ~           OK        
 
 [LINE]
@@ -73,28 +73,28 @@ Speaker509: Un vestido~rojo, una chaqueta~marrón…
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker509: ¡[Y~un~sombrero]!
-~             and~a~hat      
-- Y un bombero
-- Y un obrero
-+ Y un sombrero
+Speaker509: [És egy kalap]!
+~             and a hat      
+- És egy viziló
+- És egy falat
++ És egy kalap
 
 [LINE]
-> Lily busca     un sombrero~azul.
-~ Lily looks~for a  blue~hat      
+> Lili odaad    egy kék kalapot.
+~ Lily gives~(her) a  blue hat      
 
 [LINE]
-Speaker509: ¡No, yo quiero un sombrero~gris!
+Speaker509: Nem, szürke kalapot akarok!
 ~            no  I  want   a  gray~hat      
 
 [LINE]
-> Lily busca     un sombrero~gris.
+> Lili keres     egy szürke kalapot.
 ~ Lily looks~for a  gray~hat      
 
 [POINT_TO_PHRASE]
 > Choose the option meaning "ready."
-Speaker509: ¡(Gracias)!   ¡(Estoy) (+lista) (para) mis vacaciones!
-~             thank~you     I~am     ready   for   my  vacation   
+Speaker509: (Köszönöm)!   (Most már) (+készen) (állok) (a nyaralásra)!
+~             thank~you     Now     ready   I~am for~the~vacation   
 
 [LINE]
 Speaker416: Ahora yo necesito vacaciones.  
