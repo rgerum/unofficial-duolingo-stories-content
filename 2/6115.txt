@@ -10,27 +10,33 @@ set=1|2
 [LINE]
 > Bea is op een date in een restaurant.
 ~ Bea is   on a   date in a  restaurant  
+$6115/aaaacb38.mp3;3,50;3,537;3,200;4,150;5,138;3,300;4,137;11,88
 
 [LINE]
 Speaker507: hallo hoe gaat het?
 ~            hello   how~are~you 
+$6115/a95a2f8a.mp3;5,50;4,450;5,250;4,262
 
 [LINE]
 Speaker100: het gaat prima.
 ~            fine 
+$6115/a8c46428.mp3;3,50;5,212;6,288
 
 [LINE]
 Speaker100: wat wil je eten?  
 ~            what do~you~want to~eat 
+$6115/a83557ce.mp3;3,50;4,237;3,200;5,125
 
 [LINE]
 Speaker507: een salade.
 ~           a   salad    
+$6115/a781fe18.mp3;3,50;7,237
 
 [SELECT_PHRASE]
 > Select the missing phrase
 Speaker507: vandaag heb ik  [een belangrijke wedstrijd].
-~           today I~have  an~important~game      
+$6115/a6db406e.mp3;7,50;4,575;3,162;4,125;12,125;10,588
+
 + een belangrijke wedstrijd
 - een belangrijke reis
 - een tandenborstel
@@ -38,10 +44,12 @@ Speaker507: vandaag heb ik  [een belangrijke wedstrijd].
 [LINE]
 Speaker100: oh,vind je sporten leuk? 
 ~           oh   do~you~like (the)~sports 
+$6115/b064dfe6.mp3;2,50;5,487;3,200;8,88;5,400
 
 [LINE]
 Speaker507: ja ik speel voetbal 
 ~           yes  I  play     soccer 
+$6115/b196baa6.mp3;2,50;3,312;6,188;8,287
 
 [MULTIPLE_CHOICE]
 > Bea is ordering a salad because…
@@ -69,43 +77,52 @@ Speaker100: ik kom uit Duitsland.
 > Tap what you hear
 Speaker100: [(Mijn vader)  (komt uit duitsland)   (en)   (mijn moeder)  (komt uit Oostenrijk).]  
 ~             my~father   is~from~Cuba   and   my~mother   is~from~Mexico   
+$6115/df71b732.mp3;4,50;6,250;5,375;4,250;10,137;3,575;5,88;7,225;5,287;4,263;11,200
 
 [LINE]
-Speaker507: ¡Me~encanta Cuba!
+Speaker507: ik hou van Duitsland!
 ~            I~love     Cuba 
+$6115/f49e53c2.mp3;2,50;4,212;4,225;10,213
 
 [LINE]
-Speaker100: Cuba es muy  bonita.   
+Speaker100: Duitsland is erg mooi.   
 ~           Cuba is very beautiful 
+$6115/f40bbc10.mp3;9,50;3,637;4,200;5,313
 
 [LINE]
-Speaker507: ¿Tienes      mascotas?
+Speaker507: heb je huisdieren?
 ~            do~you~have pets     
 
 [LINE]
-Speaker100: Tengo  dos gatos y   un perro.
+Speaker100: ik heb twee katten en een hond.
 ~           I~have two cats  and a  dog   
+$6115/79e7f98e.mp3;2,50;4,187;5,175;7,250;3,475;4,175;5,125
 
 [POINT_TO_PHRASE]
 > Choose the option that means "also."
-Speaker507: Yo (+también) (tengo) un (perro), (José).
+Speaker507: ik (heb) (+ook) een (hond), (pieter).
 ~           I    also      have   a   dog      José  
+$6115/7908e0a0.mp3;2,50;4,212;4,188;4,187;5,113;7,675
 
 [LINE]
-Speaker100: ¿Eh? Yo~me~llamo Daniel…
+Speaker100: eh mijn~naam~is Daniel…
 ~            eh  my~name~is  Daniel 
+$6115/7848ffc4.mp3;2,50;5,125;5,300;3,337;7,163
 
 [LINE]
-Speaker100: ¿Tú~no~eres Gabriela?
+Speaker100: ben~jij~niet Gabriela?
 ~            aren't~you Gabriela 
+$6115/77a274ec.mp3;3,50;4,175;5,237;9,213
 
 [LINE]
-Speaker507: ¡No!
+Speaker507: nee
 ~            no 
+$6115/771476ce.mp3;3,50
 
 [LINE]
-Speaker507: ¡Yo~me~llamo Bea!
+Speaker507: mijn~naam~is  Bea!
 ~            my~name~is  Bea 
+$6115/766971e8.mp3;4,50;5,300;3,337;4,213
 
 [MULTIPLE_CHOICE]
 > Did you catch that? Bea and Daniel…
@@ -114,15 +131,17 @@ Speaker507: ¡Yo~me~llamo Bea!
 - …are walking their dogs.
 
 [LINE]
-> Una mujer camina hacia   Daniel.
+> een vrouw loopt naar   Daniel.
 ~ a   woman walks  towards Daniel 
+$6115/75e87020.mp3;3,50;6,200;6,350;5,287;7,163
 
 [LINE]
-Speaker101: ¡Hola!  ¿Eres    Daniel? Soy  Gabriela.
+Speaker101: hallo  ben jij Daniel? ik ben Gabriela
 ~            hello   are~you Daniel  I~am Gabriela 
+$6115/752d95ac.mp3;5,50;4,400;4,187;7,138;3,1475;4,175;9,187
 
 [LINE]
-Speaker100: No, lo~siento. Soy  José.
+Speaker100: Nee, sorry. ik ben  pieter.
 ~           no  I'm~sorry  I~am José 
 
 [MULTIPLE_CHOICE]
@@ -133,9 +152,9 @@ Speaker100: No, lo~siento. Soy  José.
 
 [MATCH]
 > Tap the pairs
-- y <> and
-- Soy <> I am
-- ensalada <> salad
-- Me encanta <> I love
+- en <> and
+- ik ben <> I am
+- salade <> salad
+- ik hou <> I love
 - Eh <> eh
 
