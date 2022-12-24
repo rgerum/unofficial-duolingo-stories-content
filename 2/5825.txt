@@ -1,50 +1,51 @@
-[DATA]
+ [DATA]
 fromLanguageName=The Haunted Hotel
 icon=18255257009f7aa560a9c7f331bf08c7bd2711e5
 set=-47|2
 
 [HEADER]
-> El  hotel~embrujado
+> Het Spookhotel
 ~ the haunted~hotel  
 
 [LINE]
-> Bea y   Lin se~están~registrando~en un hotel~muy~bonito.
+> Bea en  Lin staan in te checken bij een heel aardig hotel.
 ~ Bea and Lin are~checking~into       a  very~nice~hotel  
 
 [LINE]
-Speaker508: ¡Este lugar es muy  elegante!
+Speaker508: Het is hier erg luxe!
 ~            this place is very fancy    
 
 [LINE]
-Speaker508: ¿Cómo vas~a            pagar    por nuestra habitación?
-~            how  are~you~going~to (to)~pay for our     room       
+Speaker508: Hoe ga je onze kamer betalen?
+~            how  are~you~going~to pay for our     room       
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker507: ¡Qué graciosa! ¡Tú  [pagarás~la~mitad]!       
-~            how funny      you  will~pay~for~half~of~it  
-+ pagarás la mitad
-- página a mitad
-- pagarás la misa
+Speaker507: Nou, heel eenvoudig: [jij betaalt de helft]!       
+~            Well, that's very simple:     you  will~pay~half~of~it  
+
++ jij betaalt de helft
+- jij bepaalt de helft
+- ik betaal nooit
 
 [LINE]
-Speaker507: Pero, en~realidad, no~es    caro.      Solo~cuesta sesenta dólares por noche.
-~           but   actually     it~isn't expensive  it's~only   sixty   dollars per night 
+Speaker507: Maar eigenlijk is het helemaal niet duur.   De kamer kost maar zestig euro per nacht.
+~           but   actually     it~isn't expensive  at all. The room is~only   sixty   euros per night 
 
 [LINE]
-Speaker508: ¿Eso~es todo?
+Speaker508: Is dat alles?
 ~            that's all  
 
 [LINE]
-Speaker507: ¡Sí!  Increíble, ¿no?   
+Speaker507: Ja, geweldig, vind je niet?   
 ~            yes  amazing     right 
 
 [LINE]
-Speaker508: Espera… Este lugar es muy  elegante, Bea. ¿Por~qué es    tan barato?
-~           wait    this place is very fancy     Bea   why     is~it so  cheap  
+Speaker508: Wacht Bea. Het is een heel chique plek. Waarom is het zo goedkoop?
+~           wait    Bea   It is a is very fancy place       why     is~it so  cheap  
 
 [LINE]
-Speaker507: Eh… Mmm… Porque~sí.   
+Speaker507: Eh… eum… Daarom.   
 ~           uh  hmm  just~because 
 
 [LINE]
@@ -52,186 +53,194 @@ Speaker508: ¿Bea…?
 ~            Bea  
 
 [LINE]
-Speaker507: Eh… ¡Vamos    a  nuestra habitación!
+Speaker507: Eh… Kom, we gaan naar onze kamer!
 ~           uh   let's~go to our     room       
 
 [MULTIPLE_CHOICE]
-> ¿Entendiste         eso?  Parece~que    Bea…
+> Heb je dit begrepen?  Het lijkt erop dat    Bea…
 ~  did~you~understand that  it~seems~like Bea 
-- …piensa que  el  hotel es demasiado caro.     
+
+- …denkt dat het hotel te duur is.     
 ~  thinks that the hotel is too       expensive 
-+ …no~quiere    decir  por~qué el  hotel es tan barato.
++ …niet wil zeggen waarom het hotel zo goedkoop is.
 ~  doesn't~want to~say why     the hotel is so  cheap  
-- …no~quiere    quedarse en el  hotel con  Lin.
+- …niet met Lin in het hotel wil slapen.
 ~  doesn't~want to~stay  at the hotel with Lin 
 
 [LINE]
-> Lin lee   un artículo sobre el  hotel en su  teléfono.
+> Lin leest een artikel over het hotel op haar telefoon.
 ~ Lin reads an article  about the hotel on her phone    
 
 [LINE]
-Speaker508: ¡Bea, este hotel está embrujado!
+Speaker508: Bea, dit hotel spookt!
 ~            Bea  this hotel is   haunted   
 
 [LINE]
-Speaker507: ¡No, los~fantasmas no~existen! 
-~            no  ghosts        don't~exist 
+Speaker507: Toe nou, spoken bestaan niet! 
+~            come on,  ghosts        don't~exist 
 
 [CONTINUATION]
-> ¿Qué  sigue?     
-~  what comes~next 
-Speaker508: ¡Por~supuesto~que [existen]!   
-~            of~course         they~exist  
-- perdiste un zapato
-~ you~lost a  shoe  
-+ existen   
-~ they~exist
-- soy  un fantasma
+> Wat volgt hierna?     
+~  what comes next 
+Speaker508: Natuurlijk [bestaan ze wel]!   
+~            of~course         they~do~exist  
+
+- staan ze wel
+~ they~do~stand
++ bestaan ze wel
+~ they~do~exist
+- ben ik een spook
 ~ I~am a  ghost   
 
 [LINE]
-Speaker507: Es   demasiado tarde para        ir      a  otro    hotel. Todo       estará  bien.
-~           it's too       late  in~order~to (to)~go to another hotel  everything will~be fine 
+Speaker507: Het is te laat om een ander hotel te zoeken. Ik weet zeker dat het goed komt
+~           it's too       late  in~order~to go to another hotel  I am sure we’ll~be fine 
 
 [LINE]
-Speaker508: No~sé…       
+Speaker508: Ik weet het niet…       
 ~           I~don't~know 
 
 [LINE]
-> Ellas entran~a  su    habitación.
+> Ze lopen hun kamer in.
 ~ they  walk~into their room       
 
 [ARRANGE]
 > Tap what you hear
-Speaker508: ¡[(Ay)! (Esta) (habitación) (se~siente) (embrujada)…]
+Speaker508: [(oeioei)! (deze) (kamer) (voelt) (spookachtig) (aan)…]
 ~              oh    this   room         feels       haunted     
 
 [LINE]
-Speaker507: ¡No~es~cierto!   
-~            that's~not~true 
+Speaker507: Wat een onzin!   
+~            that's~nonsense!
 
 [LINE]
-> Lin salta.
+> Lin springt.
 ~ Lin jumps 
 
 [LINE]
-Speaker508: ¿Viste       eso?  ¡Algo      se~movió!
+Speaker508: Zag je dat?  Er bewoog iets!
 ~            did~you~see that   something moved    
 
 [LINE]
-Speaker507: Nada    se~movió, Lin. Vamos~a~dormir.   
-~           nothing moved     Lin  let's~go~to~sleep 
+Speaker507: Er bewoog niets, Lin. Laten we naar bed gaan.   
+~           nothing moved     Lin  let's~go~to~bed
+
+[LINE]
+> Lin y   Bea gaan naar bed.
+~ Lin and Bea  go~to~bed    
 
 [SELECT_PHRASE]
 > Select the missing word or phrase
-> Lin y   Bea [se~acuestan].
-~ Lin and Bea  go~to~bed    
-+ se acuestan
-- no cuestan
-- secuestran
+> Later, [middenin de nacht] wordt Bea wakker.
+~ Later, in the middle of the night, Bea wakes up.    
+
++ middenin de nacht
+- midden in die lacht
+- midden inden acht
 
 [LINE]
-> Más~tarde, Bea se~despierta en medio      de la  noche.
-~ later      Bea wakes~up     in the~middle of the night 
-
-[LINE]
-Speaker507: ¡Lin! ¿Estás   despierta?
+Speaker507: Lin! Ben je wakker?
 ~            Lin   are~you awake     
 
 [LINE]
-Speaker508: ¡Por~supuesto! ¡No~puedo dormir     en un hotel~embrujado!
-~            of~course      I~can't  (to)~sleep in a  haunted~hotel   
+Speaker508: Natuurlijk ben ik wakker! Ik kan niet slapen in een spookhotel!
+~            of~course I am awake!      I~can't  sleep in a  haunted~hotel   
 
 [ARRANGE]
 > Tap what you hear
-Speaker507: ¡[(Creo~que) (algo)      (tocó)    (mi) (cabello)!]
+Speaker507: [(Ik geloof) (dat) (er) (iets) (aan) (mijn) (haar) (zat)!]
 ~              I~think    something   touched   my   hair      
 
 [LINE]
-> De~repente, ellas escuchan un ruido en un rincón de la  habitación.
+> Opeens horen ze een geluid in de hoek van de kamer.
 ~ suddenly    they  hear     a  noise in a  corner of the room       
 
 [LINE]
-Speaker507: ¿Qué  fue eso? 
+Speaker507: Wat was dat? 
 ~            what was that 
 
 [LINE]
-Speaker508: ¡Mira!
+Speaker508: Kijk!
 ~            look 
 
 [LINE]
-> Ellas miran   el  escritorio.
+> Ze kijken naar de tafel.
 ~ they  look~at the desk       
 
 [LINE]
-Speaker508: ¡Alguien se~comió la~mitad de mi galleta!
+Speaker508: Iemand heeft mijn halve koekje opgegeten!
 ~            someone ate      half     of my cookie  
 
 [MULTIPLE_CHOICE]
-> Lin probablemente cree   que… 
+> Lin denkt waarschijnlijk dat… 
 ~ Lin probably      thinks that 
-- …ella se~comió la~mitad de su  galleta mientras dormía.          
+
+- …ze in haar slaap de helft van het koekje heeft opgegeten.          
 ~  she  ate      half     of her cookie  while    she~was~sleeping 
-+ …un fantasma se~comió la~mitad de su  galleta.
++ …een spook de helft van haar koekje heeft opgegeten.
 ~  a  ghost    ate      half     of her cookie  
-- …Bea se~comió la~mitad de su  galleta.
+- …Bea de helft van haar koekje heeft opgegeten.
 ~  Bea ate      half     of her cookie  
 
 [LINE]
-Speaker507: Yo~no~fui…   
+Speaker507: Ik heb dat niet gedaan…   
 ~           it~wasn't~me 
 
 [LINE]
-Speaker507: ¡Fue    el  fantasma!
+Speaker507: Het was het spook!
 ~            it~was the ghost    
 
 [LINE]
-> Lin grita.  
+> Lin gilt.
 ~ Lin screams 
 
 [CONTINUATION]
-> ¿Qué  sigue?     
-~  what comes~next 
-Speaker507: ¿Qué?  ¿Viste       [un fantasma]?
+> komt hierna?     
+~  what comes next 
+Speaker507: Wat? Heb je [een spook] gezien?
 ~            what   did~you~see  a  ghost     
-- un oso 
-~ a  bear
-+ un fantasma
+
+- een pook
+~ a  poker
++ een spook
 ~ a  ghost   
-- a~tu exnovia      
+- je ex-vriendin      
 ~ your ex-girlfriend
 
 [LINE]
-Speaker508: ¡No, peor! 
-~            no  worse 
+Speaker508: Nee, nog erger! 
+~            no  even worse 
 
 [LINE]
-> Lin señala    un ratón que  se~está~comiendo la~galleta.
+> Lin wijst naar een muis die van haar koekje eet.
 ~ Lin points~to a  mouse that is~eating        her~cookie 
 
 [LINE]
-Speaker507: En este hotel no~hay       fantasmas, ¡hay       ratones!
+Speaker507: In dit hotel zitten geen spoken, maar muizen!
 ~           in this hotel there~are~no ghosts      there~are mice    
 
 [LINE]
-Speaker508: Ah, ahora entiendo     por~qué es   tan barato.
+Speaker508: Oh, nu snap ik waarom het zo goedkoop is.
 ~           oh  now   I~understand why     it's so  cheap  
 
 [MULTIPLE_CHOICE]
-> ¿Por~qué el~hotel~solo~cuesta sesenta dólares por noche?
-~  why     is~the~hotel~only    sixty   dollars per night 
-- Las habitaciones no~son elegantes.
+> Waarom kost het hotel maar zestig euro per nacht?
+~  why     is~the~hotel~only    sixty   euros per night 
+
+- De kamers zijn niet chique.
 ~ the rooms        aren't fancy     
-+ Hay       ratones en las habitaciones.
++ Er zitten muizen in de kamers.
 ~ there~are mice    in the rooms        
-- Está lleno de fantasmas.
+- Het zit vol spoken.
 ~ it's full  of ghosts    
 
 [MATCH]
 > Tap the pairs
-- es <> is
-- barato <> cheap
-- sesenta <> sixty
-- otro <> another
-- teléfono <> phone
+- het spook <> the ghost
+- goedkoop <> cheap
+- zitten aan <> to touch
+- eenvoudig <> simple
+- daarom! <> just because!
+
+
 
