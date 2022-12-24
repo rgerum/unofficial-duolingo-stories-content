@@ -3,27 +3,43 @@ fromLanguageName=The Book Club
 icon=224c467db868f77cd44a8ab8a0b1179e3ca1a8e7
 set=48|1
 
+# ik haal altijd al die (to)~ bij werkwoorden weg, dat is iets raars van die Spaanse versie.
+# Denk aan de hoofdletters en punten. 
+# In de titel heb ik de DL-conventie aangehouden dat alle ‘hoofdwoorden’ een hoofdletter krijgen.
+
 [HEADER]
 > de boekenclub
-~ the book~club      
+~ the book~club  
+# geluid niet aangemaakt
 
 [LINE]
 > Bea en haar vriendin Lin zitten in Bea's~keuken
 ~ Bea and her friend Lin are   in Bea's~kitchen    
+# mijn suggestie:
+# Lin zit bij Bea thuis in de keuken.
 
 [LINE]
 Speaker507: lin kun jij mij~even~helpen met~het~snijden van~de~wortels? de~leden~van de~boekenclub komen strakjes.
 ~           Lin  could you help~me   with~cutting           the~carrots  the~members~of~the book~club       will~arrive soon   
+# Lin can you help me cut the carrots? The book club members are coming soon.
 $5828/5395210e.mp3;3,50;4,375;4,200;4,212;5,250;7,263;4,412;4,150;8,188;4,337;3,175;8,63;3,1450;6,175;4,337;3,175;11,125;6,563;9,312
 
 [LINE]
 Speaker508: ontspan~even. je~hoeft~niet zoveel~eten~voor~te~bereiden, want ik heb~falafel~meegenomen!.
-~           calm~down  you~don't~have~to ~prepare~a~lot~of~food   because I  brought~falafel   
+~           calm~down  you~don't~have~to ~prepare~a~lot~of~food   because I  brought~falafel  
 $5828/dd917330.mp3;7,0;5,550;4,481;6,295;5,270;7,230;5,405;5,265;3,190;9,100;6,558;3,274;4,100;8,120;11,500
+
+# tekstueel:
+# Speaker508: Rustig maar. je~hoeft~niet zoveel~eten~te~maken, want ik heb~falafel~meegenomen!.
+# preparing a meal betekent hier volgens mij een maaltijd klaarmaken.
+#~           calm~down  you~don't~have~to ~prepare~a~lot~of~food   because I  brought~falafel  
 
 [POINT_TO_PHRASE]
 > select the option that means "to complain".
-~ choose     the option that means      ~  ~         
+~ choose     the option that means      ~  ~
+# dit is een eigenaardigheid van de Spaanse versie, twee regels die eigenlijk identiek zijn. 
+# het komt wel vaker voor.
+# Wat ik hiermee doe is, de tweede regel weghalen.         
 Speaker507: alles (moet) echt (perfect)!ik wil niet dat iedereen  (+klaagt) over mijn (feestje).
 ~            everything  has~to     (to)~be  perfect    I~don't~want  anyone   to~complain  about my  party   
 $5828/21d6fdf8.mp3;5,50;5,362;5,250;8,250;3,750;4,150;5,200;4,263;9,237;7,438;5,412;5,263;8,250
@@ -44,16 +60,23 @@ Speaker508: ja…  maar de~anderen zullen het~heel~leuk~hebben
 $5828/5bd8eedc.mp3;2,0;6,280;3,454;8,125;7,377;4,240;5,195;5,273;7,290
 
 [LINE]
-Speaker507: ik~ben~al~de~hele~dag~aan~het~koken~en~schoonmaken,    ik~kon het~boek~nieteens~afmaken    
-~           I've~been~cleaning~and~cooking~al~day            I~couldn't even~finish~the~book  
+Speaker507: ik~ben~al~de~hele~dag~aan~het~koken~en~schoonmaken,    ik~kon het~boek~niet eens~afmaken    
+~           I've~been~cleaning~and~cooking~al~day            I~couldn't even~finish~the~book
+# Ik heb het boek niet uit gekregen, zou ik zeggen.   
 $5828/5c78c182.mp3;2,50;4,250;3,225;3,162;5,75;4,338;4,287;4,125;6,175;3,338;12,175;3,987;4,163;4,125;5,162;9,213;8,475
 
 [CONTINUATION]
 > ¿Qué  sigue?     
-~  what comes~next 
+~  what comes~next
+#Hier staat nog Spaans, ik schrijf daar altijd ‘Wat komt hierna?’ 
 Speaker508: doe rustig je hebt een [goed boek] uitgezocht
+# ‘doe rustig'? Maak je geen zorgen / maak je niet druk / rustig maar oid.
+#hier is een regel verdwenen. Ik heb hem erbij gezocht:
+~           calm~down   you~chose  a  good book   
+
 $5828/6e566cc4.mp3;3,0;7,204;3,426;5,60;4,220;5,85;5,303;11,260
 
+#Hieronder kloppen de vertalingen niet
 - een goede broek
 ~ a  great~swimsuit      
 + een goed boek
@@ -89,10 +112,12 @@ $5828/2ed68048.mp3;6,50;6,362;3,338;3,150;5,100
 [LINE]
 Speaker507: oh~nee ze zijn er al  
 ~            oh~no they are already here
+# al die ‘oh no’ uitroepen iedere keer nodigen uit tot creatieve alternatieven, leef je uit!
 $5828/2d5a8aa2.mp3;2,50;4,212;3,263;5,125;3,237;3,138
 
 [LINE]
-Speaker508: alles komt~goed, want ik~heb~falafel~mee.
+Speaker508: alles komt~goed, want ik~heb~falafel~mee. 
+# ’mee’? bij me / meegebracht / meegenomen
 ~           everything will~be~fine because I~brought~falafel   
 $5828/d112f96e.mp3;5,0;5,289;5,240;6,349;3,309;4,100;8,120;4,495
 
@@ -104,6 +129,7 @@ $5828/d112f96e.mp3;5,0;5,289;5,240;6,349;3,309;4,100;8,120;4,495
 Speaker507: uh.. vond~je~ het~boek~leuk?
 ~           uh   did~you~like the book  
 $5828/cf65bfd4.mp3;2,50;5,1212;3,338;4,62;5,163;5,225
+# al die Hmm, eh etc. zijn een groot probleem voor de text to speech. Als het bij een stem niet lukt, haal het dan gewoon weg.
 
 [ARRANGE]
 > Tap what you hear
@@ -117,9 +143,12 @@ Speaker507: waarom?
 $5828/cdc41860.mp3;6,50
 
 [LINE]
-Speaker3300: ik~vind~de hoofdrolspeler niet~~leuk~want~hij~is~erg~sexsistisch
+Speaker3300: ik~vind~de hoofdrolspeler niet~leuk~want~hij~is~erg~seksistisch
+# ‘niet leuk’ is een beetje zwak uitgedrukt. Haat is weer te sterk denk ik.
+# zoiets als ‘is een zak',  ik word niet goed van, etc. Ook hier: leef je uit!
+# de hintregel is hier verdwenen. Hier is hij weer:
+~            I~hate~the main~character       he's very sexist 
 $5828/cdd8e114.mp3;2,50;5,200;3,225;15,87;5,988;5,275;5,287;4,213;3,237;4,263;12,250
-
 
 [LINE]
 Speaker856: vond~je~het~einde~leuk? ik begreep~er~niks~van!    
@@ -134,8 +163,11 @@ $5828/cfc55d58.mp3;2,0;7,259;4,472;5,245
 [SELECT_PHRASE]
 > Select the missing phrase
 Speaker3300: en  [wat~vond~je~van~het~einde],  Bea?
-$5828/d05dec44.mp3;2,50;4,275;5,200;3,262;4,63;4,150;6,162;4,738
+# ik zou hier Jij gebruiken in plaats van Je. Bea wordt erbij getrokken in de discussie.
 ~             and  did~you~like~the~ending   Bea 
+# how did you like
+$5828/d05dec44.mp3;2,50;4,275;5,200;3,262;4,63;4,150;6,162;4,738
+
 - wat vind je van de mijne?
 + wat vond je van het einde?
 - heb jij de mijne?
@@ -143,6 +175,7 @@ $5828/d05dec44.mp3;2,50;4,275;5,200;3,262;4,63;4,150;6,162;4,738
 [LINE]
 Speaker507: uh… ik~heb~het~boek~niet~uitgelezen, want~ik~ben~al~twee~dagen~aan~het~koken.      
 ~           uh  I~didn't~finish~the~book   I~started~to (to)~cook two~days~ago~and~I~didn't~have time   
+#I didn't finish the book because I've been cooking for two entire days.
 $5828/d3320086.mp3;2,50;3,1125;4,150;4,137;5,150;5,225;11,250;5,975;3,213;4,137;3,188;5,187;6,288;4,350;4,150;6,162
 
 [LINE]
@@ -151,7 +184,8 @@ Speaker3300: oh gelukkig~maar.
 $5828/f93cb6ca.mp3;2,50;9,175;5,462
 
 [MULTIPLE_CHOICE]
-> why did Bea just say that? 
+#hier staan ook weer van die dubbele regels.
+> why did Bea just say that? #Jeanette, niet Bea
 ~  why     did~Janet~just~say   that 
 - Bea paid a chef and he cooked al the food.
 ~ bea paid a chef and he cooked al the food   
@@ -161,16 +195,17 @@ $5828/f93cb6ca.mp3;2,50;9,175;5,462
 ~ Bea chose   a  very~good~book  for  the club 
 
 [LINE]
-> Bea fluisterd naar lin.
+> Bea fluisterd naar lin. #fluistert
 ~ Bea whispers   to Lin 
 $5828/fa547af2.mp3;3,50;10,412;5,600;4,163
 
 [LINE]
-Speaker507: oh, nee did feestje is een ramp.
+Speaker507: oh, nee did feestje is een ramp. #dit
 ~           oh  no  this party  is a  disaster 
 $5828/fb3bd992.mp3;2,50;4,500;4,287;8,175;3,450;4,163;5,125
 
 [MULTIPLE_CHOICE]
+# hier heb je de keuze: de dubbelingen eruit of Nederlands-Engels schrijven.
 > someone whispers when…
 ~ someone whispers when   
 - …they're singing at the karaoke.
@@ -189,6 +224,8 @@ $5828/fc05a6a0.mp3;3,0;6,294
 > Jeanette en Erica zoeken naar~nog~een bord~met~eten. ze glimlachen naar~bea.
 ~ Janet and erica look~for another plate~of~food    they  smile      at~Bea 
 $5828/fcb9ee80.mp3;8,50;3,525;6,187;7,475;5,350;4,138;4,187;5,113;4,300;5,225;3,1325;11,187;5,675;4,150
+# Deze zin kan ik niet goed plaatsen op deze manier. Suggestie:
+# Jeanette en Erica willen nog een keer opscheppen, ze willen nog een bordje of zo.
 
 [LINE]
 Speaker856: wat een~leuk~feestje Bea het~boek was verschrikkelijk maar het eten is geweldig.
@@ -201,6 +238,7 @@ Speaker3300: behalve de falafel.
 $5828/170a9492.mp3;7,50;3,500;8,125
 
 [MULTIPLE_CHOICE]
+# ook hier dubbele regels.
 > Lin tried to~help Bea by bringing the falafel but
 ~ Lin tried   to~help  Bea bringing the falafel    but  
 +  people liked bea's~food~more
@@ -211,10 +249,13 @@ $5828/170a9492.mp3;7,50;3,500;8,125
 ~  now   all   the books  are   dirty  
 
 [MATCH]
+# het is de kunst om hier de meest interessante woorden in de Nederlandse tekst te vermelden. Dus meestal niet het zelfde rijtje als in de Spaanse versie gebruiken.
 > Tap the pairs
 - altijf <> always
 - koken <> cook
 - zelfs jeanette niet <> not even Jeanette
 - klopt op <> knocks on
 - heb je het gelezen <> did you read it
+
+
 
