@@ -4,57 +4,59 @@ icon=a22fead6c7883506dab25f8e6ea7c66c0f406c7c
 set=36|4
 
 [HEADER]
-> El  hacker
-~ the hacker
+> Bilgisayar~Korsanı
+~ the~hacker
+
+#Beğa
+#Bea
+[LINE]
+> Beğa, Eddy'nin dairesine girer.
+~ Bea of~Eddy to~his~apartment she~enters
 
 [LINE]
-> Bea entra~al apartamento~de~Eddy.
-~ Bea enters   Eddy's~apartment    
-
-[LINE]
-Speaker414: ¡Gracias   por~venir! 
-~            thank~you for~coming 
+Speaker414: Geldiğin~için teşekkürler! 
+~          because~you~came thank~you  
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker507: ¡Por~supuesto! [Dijiste~que~tenías] un problema con  tu~computadora, ¿verdad?
-~            of~course      you~said~you~had    a  problem  with your~computer    right  
-- Diste el que tenías
-+ Dijiste que tenías
-- Dijiste que venías
+Speaker507: Tabii~ki! Bilgisayarınla~ilgili bir sorunun [olduğunu söyledin], değil~mi?
+~   of~course   related~to~your~computer a your~problem that~you~had you~said right 
+- olduğunu söyledi
++ olduğunu söyledin
+- olduğumu söyledim
 
 [LINE]
-Speaker414: ¡Sí! 
+Speaker414: Evet! 
 ~            yes 
 
 [LINE]
-Speaker507: ¿Qué  pasó?    
+Speaker507: Ne oldu?    
 ~            what happened 
 
 [LINE]
-Speaker414: Bueno… ¿sabes    qué  es un "hacker"?
-~           well    you~know what is a   hacker  
+Speaker414: Valla~… "Bilgisayar~korsanı"nın ne olduğunu biliyor~musun?
+~           well       of~a~hacker what that~it~is do~you~know
 
 [LINE]
-Speaker414: Es   una persona que  cambia  cosas  en las~computadoras.
-~           it's a   person  that changes things on computers        
+Speaker414: Bilgisayarlardaki bir~şeyleri değiştiren bir kişi demek.
+~       that~are~on~computers  things who~changes  a person (it)~means
 
 [LINE]
-Speaker507: Sí,  Eddy, yo sé.   Entonces, dime,    ¿cuál  es el  problema?
-~           yes  Eddy  I  know  then      tell~me   which is the problem  
+Speaker507: Evet,  Eddy, biliyorum.  Peki, bana sorunun ne olduğunu söyle.
+~           yes  Eddy  I~know   then to~me of~the~problem what that~it~is tell
 
 [POINT_TO_PHRASE]
-> Choose the option that means "resume."
-Speaker414: (Intenté) (imprimir) mi (+currículum), pero ¡(no~pude)!   
-~            I~tried   to~print  my   résumé       but    I~couldn't  
+> Choose the option that means "my resume."
+Speaker414: (+Özgeçmişimi) (yazdırmaya) (çalışıyordum) ama (yapamadım)!   
+~           my~resume  to~print I~was~trying but I~could~not  
 
 [LINE]
-Speaker414: Y   ahora no~lo~encuentro en la  computadora.
-~           and now   I~can't~find~it on the computer    
+Speaker414: Ve şimdi onu bilgisayarda bulamıyorum.
+~           and now  it on~the~computer I~cannot~find
 
 [LINE]
-Speaker414: Creo    que  el  hacker lo~borró.  
-~           I~think that the hacker deleted~it 
+Speaker414: Bence bir bilgisayar~korsanı silmiş.  
+~        I~think a hacker deleted~(it)
 
 [MULTIPLE_CHOICE]
 > Eddy thinks…
@@ -63,24 +65,28 @@ Speaker414: Creo    que  el  hacker lo~borró.
 + …a hacker deleted his resume.
 
 [LINE]
-Speaker507: ¿Puedo~ver?
-~            I~can~see 
+Speaker507: Bakayım~mı?
+~          shall~I~look 
+
+#Beğa
+#Bea
+[LINE]
+> Beğa, kayıp özgeçmişi Eddy'nin bilgisayarında arar.
+~ Bea missing the~resume of~Eddy on~is~computer she~searches~for
 
 [LINE]
-> Bea busca     el  currículum en la~computadora~de~Eddy.
-~ Bea looks~for the résumé     on Eddy's~computer        
+Speaker507: "Özgeçmişim" adlı bir dosya buldum.
+~          my~resume named a  file I~found
+
+#Beğa
+#Bea
+[LINE]
+> Beğa dosyayı açar. Eddy bilgisayarda görür.
+~ Bea the~file she~opens Eddy on~the~computer he~sees~(it)
 
 [LINE]
-Speaker507: Encontré un archivo que  se~llama  "mi currículum".
-~           I~found  a  file    that is~called  my résumé      
-
-[LINE]
-> Bea abre  el  archivo. Eddy lo~ve   en la  computadora.
-~ Bea opens the file     Eddy sees~it on the computer    
-
-[LINE]
-Speaker414: Sí,  parece        mi currículum.
-~           yes  it~looks~like my résumé     
+Speaker414: Evet, özgeçmişim gibi görünüyor.
+~           yes  my~resume like it~looks 
 
 [MULTIPLE_CHOICE]
 > It looks like Bea found…
@@ -89,15 +95,17 @@ Speaker414: Sí,  parece        mi currículum.
 + …Eddy's resume.
 
 [LINE]
-Speaker507: Y   ya~sé          por~qué tu~impresora no~funciona. 
-~           and I~already~know why     your~printer doesn't~work 
+Speaker507: Ve senin~yazıcının neden işe~yaramadığını zaten anladım. 
+~        and of~your~printer why that~it~does~not~work already I~figured~out 
+
+#Beğa
+#Bea
+[LINE]
+> Beğa bilgisayarı yazıcıya bağlar.
+~ Bea the~computer to~the~printer she~connects
 
 [LINE]
-> Bea conecta  la  impresora a  la  computadora.
-~ Bea connects the printer   to the computer    
-
-[LINE]
-Speaker507: ¡No~estaba conectada!
+Speaker507: ***********************¡No~estaba conectada!
 ~            it~wasn't connected 
 
 [LINE]
