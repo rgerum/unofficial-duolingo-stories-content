@@ -4,16 +4,16 @@ icon=4cd3b26d7cc23dce02dcb78364dc83c5a012cbd7
 set=37|1
 
 [HEADER]
-> Saç~Kesimini Beğendim!
-~ your~haircut  I~like(d)
+> Saç~Kesimini Sevdim!
+~ your~haircut  I~love(d)
 
 [LINE]
-> Zari ve Lily okula konuşuyorlar.
+> Zari ve Lily okulda konuşuyorlar.
 ~ Zari and Lily at~school they~are~talking
 
 [LINE]
 Speaker416: Konser~biletleri 1000 liraya mal~olacak.
-~     the~concert~tickets 1000 to~lira will~cost
+~      the~concert~tickets 1000 to~lira will~cost
 
 [SELECT_PHRASE]
 > Select the missing phrase
@@ -25,79 +25,89 @@ Speaker418: [O~kadar parayı] nereden bulacağız?
 + O kadar parayı
 
 [LINE]
-> Şu anda En ese  momento, Elif, su    compañera~de~clase, las~ve.   
-~ in that moment   Elif  their classmate           sees~them 
+> O~anda, sınıf~arkadaşları Elif onları görür.   
+~ at~that~moment their~classmate Elif them she~sees
 
 [LINE]
-Speaker1616: Lily, ¡me~encanta tu   corte~de~pelo!
-~            Lily   I~love     your haircut       
+Speaker1616: Lily, saç~kesimini sevdim!
+~            Lily  your~haircut I~love(d)
+
+#Zariydi
+#Zari'ydi
+[LINE]
+Speaker416: Teşekkürler, kesen Zariydi.
+~           thank~you who~cut~it was~Zari
 
 [LINE]
-Speaker416: Gracias,   me~lo~cortó~Zari.
-~           thank~you  Zari~cut~it      
-
-[LINE]
-Speaker418: Sí,  ¡aprendí   a~cortar   pelo hace~poco!
-~           yes   I~learned how~to~cut hair recently  
+Speaker418: Evet, şaç~kesmeyi yeni öğrendim!
+~           yes   to~cut~hair recently I~learned~how
 
 [CONTINUATION]
-> ¿Qué~sigue?      
-~  what~comes~next 
-Speaker1616: ¡Ah, Genial! ¿Me~lo~puedes [cortar~a~mí]?     
-~             oh  great    can~you       (to)~cut~my~hair  
-- poner       en la  sopa
-~ (to)~put~it in the soup
-+ cortar~a~mí     
-~ (to)~cut~my~hair
-- mandar       por     correo~electrónico
-~ (to)~send~it through email             
+> Devamında ne gelecek?     
+~ in~the~continuation what will~come
+Speaker1616: Ah, harika! Saçımı [kesebilir~misin]?     
+~             oh  great  my~hair can~you~cut
+
+- yıkayabilir~misin
+~ can~you~wash
++ kesebilir~misin 
+~ can~you~cut
+- görebiliyor~misin
+~ can~you~see
+
+#Hıım
+#Hımm
+[LINE]
+Speaker416: Hıım… Ne~kadar ödeyebilirsin?   
+~           hmm   how~much can~you~pay 
+
+#Elifin
+#Elif'in
+[LINE]
+> Elifin~arkadaşı Sema konuşmalarını duyar. 
+~ Elif's~friend Sema   their~talking she~hears
 
 [LINE]
-Speaker416: Mmm… ¿cuánto   puedes  pagar?   
-~           hmm   how~much can~you (to)~pay 
+Speaker3173: Benim de saçımı kestirmem lazım!
+~           my also my~hair my~having~it~cut is~needed
 
 [LINE]
-> Sema, la~amiga~de~Elif, las~escucha hablar. 
-~ Sema  Elif's~friend     hears~them  talking 
-
-[LINE]
-Speaker3173: ¡Yo también necesito un corte!
-~             I  also    need     a  cut   
-
-[LINE]
-Speaker418: Eh… no~sé…       
-~           eh  I~don't~know 
+Speaker418: Ehh~… bilmiyorum~…       
+~           eh  I~do~not~know 
 
 [ARRANGE]
 > Tap what you hear
-Speaker416: ¡[(Zari) (les~puede~cortar~el~cabello) (durante) (el~almuerzo)!]
-~              Zari   can~give~you~a~haircut        during    lunch         
+Speaker416: [(Zari), (öğle yemeği) (sırasında) (saçınızı) (kesebilir)!]
+~              Zari  lunch         during your~hair    she~can~cut
 
 [LINE]
-Speaker418: ¿Qué?  ¡No~tengo     suficiente tiempo!
-~            what   I~don't~have enough     time   
+Speaker418: Ne?  Yeterli zamanım olmayacak!
+~         what  enough my~time   (I)~will~not~have
 
 [LINE]
-Speaker418: Además,  tenemos clase con  Saniye~Hanım después~del almuerzo.
-~           besides  we~have class with Ms.~Saniye         after       lunch    
+Speaker418: Ayrıca, öğle~yemeğinden~sonra Saniye~Hanım'la dersimiz var.
+~           besides  after~lunch  with~Ms.~Saniye our~class  (we)~have 
 
 [LINE]
-Speaker416: ¿Quieres     ver~a  tu   grupo~favorito o  no? 
-~            do~you~want to~see your favorite~group or not 
+Speaker416: En~sevdiğin grubu görmek istiyor~musun istemiyor~musun? 
+~          your~favorite group to~see do~you~want~to or~not 
 
 [LINE]
-Speaker416: Entonces, necesitamos dinero para los boletos.
-~           then      we~need     money  for  the tickets 
+Speaker416: Öylese biletler için paraya ihtiyacımız var.
+~           then  the~tickets for to~money  our~need (we)~have
 
+#Zarinin
+#Zari'nin
 [MULTIPLE_CHOICE]
-> ¿Por~qué Lily~quiere~que Zari les~corte~el~pelo~a~sus~compañeras~de~clase?
-~  why     does~Lily~want  Zari to~cut~their~classmates'~hair               
-- Todas       tienen el~pelo~horrible.
-~ all~of~them have   horrible~hair    
-+ Ella quiere dinero para los boletos del~concierto. 
-~ she  wants  money  for  the tickets to~the~concert 
-- Lily necesita pelo para un proyecto~de~arte.
-~ Lily needs    hair for  an art~project      
+> Lily, Zarinin sınıf~arkadaşlarının saçlarını kesmesini neden istiyor?
+~ Lily of~Zari of~their~classmates their~hair her~cutting why  does~she~want
+
+- Hepsinin saçları kötü.
+~ of~all~of~them their~hair (is)~bad 
++ Konser~biletleri için para istiyor. 
+~ concert~tickets for money she~wants
+- Lily'nin bir sanat~projesi için saçlarına ihtiyacı var.
+~ of~Lily a art~project for to~their~hair her~need (she)~has
 
 [LINE]
 > Más~tarde, Zari está~cortando el~cabello~de~Elif en el  baño     de la  escuela.
