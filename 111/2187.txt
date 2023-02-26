@@ -5,32 +5,37 @@ set=1|2
 
 [HEADER]
 > Randiņš 
-~ a   date
+~ a~date
 
 [LINE]
-> Bea  ir randiņš restorānā.
-~ Bea has~a,~is date in~the~restaurant
+> Beijai ir sarunāts randiņš restorānā.
+~ Bea has arranged a~date in~the~restaurant
 
 [LINE]
-Speaker507: Čau!  Kā~tev~iet? 
+Speaker507: Sveiki,  Kā~klājas? 
 ~            hello   how~are~you 
 
 [LINE]
-Speaker100: Labi!
-~            fine 
+Speaker100: Labi! Kā~tev?
+~            fine how~about~you?
 
 [LINE]
-Speaker100: Ko vēlies     ēst? 
+Speaker507: Man~arī~labi.
+~               I'm~fine~too
+
+[LINE]
+Speaker100: Ko vēlies  ēdienā? 
 ~            what do~you~want to~eat 
 
 [LINE]
-Speaker507: Salātus.
-~           salad    
+Speaker507: Salātus,
+~              (I~want)~salad
 
 [SELECT_PHRASE]
-> Select the missing phrase
-Speaker507: Šodien   man ir  [svarīga~spēle].
-~           today I have  an~important~game      
+> Izvēlies pareizo:
+~ Select the~correct~one
+Speaker507: Man šodien ir  svarīga [spēle].
+~           For~me today is an~important game      
 +  svarīgs mačs
 + svarīga spēle 
 - svarīga zivs
