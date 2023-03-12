@@ -16,8 +16,8 @@ Speaker416: 你好，|您|需要|帮助|吗？
 ~           hello you require help ~
 
 [LINE]
-Speaker509: Sí,  necesito ropa    para mis vacaciones.
-~           yes  I~need   clothes for  my  vacation   
+Speaker509: 对，|我|需要|假期衣服。
+~           yes  I need vacation~clothes  
 
 [MULTIPLE_CHOICE]
 > Lucy is shopping for clothes for a vacation.
@@ -25,59 +25,63 @@ Speaker509: Sí,  necesito ropa    para mis vacaciones.
 + Yes, that's right.
 
 [LINE]
-Speaker416: Está~bien.
+Speaker416: 好。
 ~           OK        
 
 [LINE]
-Speaker509: Necesito un vestido.
-~           I~need   a  dress   
+Speaker509: 我需要|一条裙子。
+~           I~need  a~dress   
 
 [LINE]
-> Lily busca     un vestido~verde.
-~ Lily looks~for a  green~dress   
+> 莉莉|开始找|一条|黑色的|裙子。
+~ Lily starts~looking~for a  black dress   
+
+[LINE]
+Speaker416: 这里。|一条裙子。
+~           here a~dress
 
 [MULTIPLE_CHOICE]
 > Lily is getting a…
-+ …green dress.
++ …black dress.
 - …red dress.
 - …green hat.
 
 [LINE]
-Speaker509: ¡No, yo quiero un vestido~rojo!
-~            no  I  want   a  red~dress    
+Speaker509: 我不要黑色的裙子，|我|要|一条青色的裙子。
+~           I~don't~want~a~black~dress  I  want   a~green~dress    
 
 [LINE]
-> Lily busca     un vestido~rojo.
-~ Lily looks~for a  red~dress    
+> 莉莉|开始找|一条|青色的|裙子。
+~ Lily starts~looking~for a green dress
 
 [LINE]
-Speaker509: Y   quiero una chaqueta.
-~           and I~want a   jacket   
+Speaker509: 我|也|想要|一件外套。
+~           I also want a~jacket   
 
 [ARRANGE]
 > Tap what you hear
-> [(Lily) (busca)     (una) (chaqueta~roja).]
-~   Lily   looks~for   a     red~jacket      
+> [(莉莉)|(开始找)|(一件)|(红色的)|(外套)。]
+~   Lily   starts~looking~for   a red jacket      
 
 [LINE]
-Speaker509: ¡No, yo quiero una chaqueta~marrón!
-~            no  I  want   a   brown~jacket    
+Speaker509: 我不要黑色的外套，|我|要|一见褐色的外套。
+~           I~don't~want~a~red~dress  I  want   a~brown~dress    
 
 [LINE]
-Speaker416: Está~bien…
+Speaker416: 好啊…
 ~           OK        
 
 [LINE]
-Speaker509: Un vestido~rojo, una chaqueta~marrón…
-~           a  red~dress     a   brown~jacket    
+Speaker509: 一条青色的裙子，一见褐色的外套…
+~           a~green~dress，    a~brown~jacket    
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker509: ¡[Y~un~sombrero]!
+Speaker509: [和一顶帽子]！
 ~             and~a~hat      
-- Y un bombero
-- Y un obrero
-+ Y un sombrero
+- 和一丁帽子
+- 和一页帽子
++ 和一顶帽子
 
 [LINE]
 > Lily busca     un sombrero~azul.
