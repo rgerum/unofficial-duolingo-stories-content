@@ -1,165 +1,164 @@
 [DATA]
-fromLanguageName=Honeymoon
+fromLanguageName=The Honeymoon
 icon=7e5d271488d31d6f1d0c503512e642ca7effe84f
 set=1|4
 
-speaker_Liyan=Zhiyu
-speaker_Yingying=cmn-CN-Wavenet-A
-speaker_TaxiDriver=cmn-CN-Wavenet-C
-
 [HEADER]
-> 蜜月       
-~ honeymoon
-$1144/speech_1144_0.mp3;2,6
+> 蜜月
+~ honeymoon      
+$6251/35f79162.mp3;2,77
 
 [LINE]
-> 莹莹|上了|出租车。               
-~ Yingying  got~in  (a)~taxi  
-$1144/speech_1144_1.mp3;2,6;3,440;4,238;2,152
+> 雪莉|在出组车里。
+~ Shelly is~in~a~taxi  
+$6251/820fee14.mp3;2,50;2,475;3,162;2,388;2,262
 
 [LINE]
-Speaker113: 早上好|，请问|你要去哪里？                                  
-~           good~morning    may~I~ask~you  where~are~you~going  
-$1144/speech_1144_2.mp3;3,0;2,331.35483870967744;3,165.67741935483866;6,248.51612903225816;2,497.032258064516
+Speaker113: 早上好。
+~          good~morning 
+$6251/1981835c.mp3;2,50;2,350
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker439: 你好|！我要去                  [飞机场],           谢谢。    
-~           hello    I~need~to~go~(to)  (the)~airport   thanks  
-$1144/speech_1144_3.mp3;2,0;2,277.0909090909091;4,184.7272727272727;4,369.45454545454544;4,461.818181818182;2,277.090909090909
-- 公交站
-- 飞机厂
-+ 飞机场
+Speaker342: 你好。|我|需要|[去|飞机场]，|谢谢。
+~           hello  I need   to~go~to the~airport   please 
+$6251/a1998b72.mp3;2,50;2,1000;3,175;2,462;4,238;3,875
+
++ 去飞机场
+- 去剧场里
+- 和飞机场
 
 [LINE]
 Speaker113: 好的。
-~           ok  
-$1144/speech_1144_4.mp3;2,0;2,117.47368421052632
+~           OK        
+$6251/2cdb5ab2.mp3;1,50;2,225
 
 [LINE]
-Speaker113: 你去旅游|，是吗？                           
-~           you~are~going~to~travel    aren't~you  
-$1144/speech_1144_5.mp3;4,0;2,332.3076923076923;3,132.9230769230769;2,199.38461538461542
+Speaker113: 度假|吗？
+~            vacation (question~marker)   
+$6251/41e4f940.mp3;2,50;2,387
 
 [LINE]
-Speaker439: 不是。
-~           no  
-$1144/speech_1144_6.mp3;2,0;2,117.47368421052632
+Speaker342: 不是...  
+~           no
+$6251/c0d6bc98.mp3;2,50
+
+[ARRANGE]
+> Tap what you hear
+Speaker342: [(我|有) (一张) (去三亚)(的|机票)。]
+~             I have a going~to~Sanya plane~ticket  
+$6251/b066d1d0.mp3;1,50;2,162;2,125;2,138;2,162;3,150;2,325;3,100
 
 [LINE]
-Speaker439: 我有|一张|到三亚的机票。                  
-~           I~have  a~(one)  ticket~to~Sanya  
-$1144/speech_1144_7.mp3;2,0;3,240.82758620689654;7,240.82758620689654;2,561.9310344827586
+Speaker342: 其实，|是|两张|机票。
+~          actually it's two plane~tickets
+$6251/42e36cc2.mp3;2,50;2,962;2,163;2,187;3,175
+
+[LINE]
+Speaker113: 三亚|很不错！
+~            Sanya (is)~very~nice
+$6251/e3005bd4.mp3;2,50;2,425;3,162
+
+[LINE]
+Speaker342: 是|我的|蜜月|旅行。
+~           it's my honeymoon trip  
+$6251/f8f19c14.mp3;1,50;2,262;2,138;3,112;3,313
 
 [MULTIPLE_CHOICE]
-> Yingying has a plane ticket to Sanya, but she's not on vacation.
-- No, that's not right.
-+ Yes, that's true.
+> Why is Shelly going to Sanya?
++ She's going on her honeymoon.
+- She is learning how to dance flamenco.
+- She is getting married there.
 
 [LINE]
-Speaker439: 事实上|，我有|两张|机票。                     
-~           actually    I~have  two  plane~tickets  
-$1144/speech_1144_9.mp3;3,0;2,315.8709677419355;3,157.93548387096774;3,236.90322580645164;3,236.9032258064516;2,236.9032258064516
+Speaker113: 那|你的|丈夫|在哪里？
+~          then your husband is~where
+$6251/f8ce511e.mp3;1,50;2,550;2,125;3,87;2,363;3,137
 
 [LINE]
-Speaker113: 我|很|喜欢|三亚|！三亚的海边|很|漂亮。                            
-~           I  very  like  Sanya    Sanya’s~beaches  very  beautiful  
-$1144/speech_1144_10.mp3;1,0;2,182.15384615384616;3,182.15384615384616;3,273.2307692307692;2,273.23076923076917;6,182.1538461538462;2,546.4615384615386;3,182.15384615384596;2,273.2307692307695
+Speaker342: 我|没有|丈夫。|我|有|一个|很难处的|妻子！ 
+~           I don't~have （a）~husband   I have a   very~difficult wife 
+$6251/b21369ca.mp3;1,50;3,525;3,250;2,1000;2,200;3,137;2,250;3,200;2,350;3,113
 
 [LINE]
-Speaker439: 这是|我的|蜜月|旅行。            
-~           it~is  my  honeymoon  trip  
-$1144/speech_1144_11.mp3;2,0;3,210.85714285714283;3,210.85714285714283;3,210.857142857143;2,210.85714285714266
+Speaker342: 她|不想|跟我一起去|三亚。
+~           she  doesn't~want to~go~with~me~to Sanya
+$6251/1a1c1e6e.mp3;1,50;3,162;2,338;2,137;3,100;2,275;3,138
 
 [MULTIPLE_CHOICE]
-> Why is Yingying going to Sanya?
-- She is going to move there.
-+ She's going there on her honeymoon.
-- She is going to a conference.
+> Oh no! Shelly's wife…
+- …forgot to pack her sunscreen.
+- …is already in Sanya.
++ …doesn't want to go to Sanya with her.
 
 [LINE]
-Speaker113: 啊|，那|你的|老公|在哪里|呢？           
-~           ah    so  your  husband  where ~   
-$1144/speech_1144_13.mp3;1,0;2,141.1764705882353;2,141.1764705882353;3,141.1764705882353;3,211.76470588235287;4,211.76470588235304;2,282.3529411764706;2,141.17647058823513
+Speaker342: 我|非常|难过。
+~           I~(am)  very sad    
+$6251/c4015cae.mp3;1,50;3,187;3,375
 
 [LINE]
-Speaker439: 我|没有|老公|。我|有|一个|性格不好的|老婆。                                      
-~           I  don't~have  husband    I  have  a~(one)  (with)~bad~character  wife  
-$1144/speech_1144_14.mp3;1,0;3,166.85714285714286;3,250.28571428571425;2,250.28571428571433;2,166.85714285714278;2,166.8571428571429;3,166.8571428571429;6,250.28571428571422;3,500.5714285714289;2,250.28571428571422
+Speaker113: 我很抱歉。
+~           I'm~sorry 
+$6251/dbea4376.mp3;1,50;2,150;3,162
 
 [LINE]
-Speaker439: 她|不想|跟我一起|去|三亚。                                    
-~           she  doesn’t~want  with~me~together  to~go~(to)  Sanya  
-$1144/speech_1144_15.mp3;1,0;3,153.29032258064515;5,229.93548387096772;2,383.22580645161287;3,153.29032258064524;2,229.9354838709678
-
-[MULTIPLE_CHOICE]
-> Yingying's wife…
-- … is in the taxi with her.
-+ … doesn't want to go to Sanya with her.
-- … is already in Sanya.
-
-[LINE]
-Speaker439: 这件事|让我|很|难过。                  
-~           this~matter  makes~me  very  sad  
-$1144/speech_1144_17.mp3;3,0;3,284.57142857142856;2,213.42857142857144;3,142.28571428571433;2,213.42857142857133
-
-[LINE]
-Speaker113: 别难过了,         一切都|会好起来的！              
-~           don't~be~sad    everything  will~be~fine  
-$1144/speech_1144_18.mp3;4,0;7,649.4117647058823;6,324.7058823529412;2,487.0588235294118
-
-[LINE]
-Speaker113: 我们|到机场了。                      
-~           we  arrived~(at)~(the)~airport  
-$1144/speech_1144_19.mp3;2,0;5,174;2,290
+Speaker113: 好的，|我们|到|飞机场|了。
+~           OK   we have~arrived at~the~airport (change~of~state~marker)
+$6251/fa3e9084.mp3;1,50;2,250;3,512;2,213;4,162;2,525
 
 [POINT_TO_PHRASE]
-> Click on the option meaning "luggage."
-> 突然 (一位姑娘) (拎着) (+行李) 往出租车的方向 (跑过来)                                        。
-~ suddenly    a~girl    carrying   luggage  towards~the~taxi~direction  runs   
-$1144/speech_1144_20.mp3;2,6;5,379;3,155;3,202;8,466;4,220;2,134
+> Choose the option meaning "runs."
+>  (一位) (女士) (+跑) (向) (出租车)。
+~  a woman    runs   towards (the)~taxi  
+$6251/5406cd84.mp3;1,50;2,150;3,150;3,375;4,412
 
 [LINE]
-Speaker439: 丽妍！   
-~           Liyan  
-$1144/speech_1144_21.mp3;2,0;2,132.6315789473684
+Speaker342: 安娜？
+~            Anna 
+$6251/994859b2.mp3;2,50
 
 [LINE]
-Speaker1186: 莹莹|！请原谅我。                   
-~            Yingying    please~forgive~me  
-$1144/speech_1144_22.mp3;2,6;2,509;5,248;2,429
+Speaker343:　雪莉！
+~   Shelly
+$6251/c20a5fc6.mp3;2,50
 
 [LINE]
-Speaker1186: 我爱你。       
-~            I~love~you  
-$1144/speech_1144_23.mp3;3,6;2,206
+Speaker343: 我|真|对不起！
+~            I~(am) so sorry    
+$6251/dcb998f0.mp3;1,50;2,150;4,175
 
 [LINE]
-Speaker439: 我也爱你。           
-~           I~also~love~you  
-$1144/speech_1144_24.mp3;4,0;2,262.85714285714283
+Speaker343: 我|爱|你！
+~           I love you 
+$6251/e7841134.mp3;1,50;2,137;2,213
 
 [LINE]
-Speaker1186: 我|想|跟你一起|去|三亚！                         
-~            I  want  with~you~together  go~(to)  Sanya  
-$1144/speech_1144_25.mp3;1,6;2,161;5,279;2,173;3,197;2,359
+Speaker342: 我|也|爱|你。
+~           I  also love you     
+$6251/f8273746.mp3;1,50;2,162;2,125;2,225
 
 [LINE]
-Speaker113: 一路平安！               
-~           have~a~safe~journey  
-$1144/speech_1144_26.mp3;4,0;2,274.2857142857143
+Speaker343: 我|想|跟你一起去|三亚！
+~        I want~to go~with~you~to Sanya
+$6251/3100a67c.mp3;1,50;2,137;2,175;2,150;3,113;2,237;3,125
+
+[LINE]
+Speaker113: 祝|你们|蜜月愉快！
+~           wish you (a)~happy~honeymoon    
+$6251/61b4fc8e.mp3;1,50;3,225;3,225;3,287
 
 [MULTIPLE_CHOICE]
-> What happened when Yingying got to the airport?
-- Her taxi driver agreed to go on vacation with her.
-+ Her wife, Liyan, apologized and told her she loved her.
-- Her wife, Liyan, called her on the phone.
+> What will happen next?
+- Shelly will start her new job at the airport.
+- Shelly and the taxi driver will go to Sanya together.
++ Shelly and her wife, Anna, will go to Sanya together.
 
 [MATCH]
 > Tap the pairs
-- 她 <> she
-- 早上好 <> good morning
-- 你的 <> your
-- 蜜月 <> honeymoon
-- 旅游 <> travel
+- 飞机场 <> airport
+- 我爱你 <> I love you
+- 很难处的妻子　<> very difficult wife
+- 两张机票 <> two plane tickets
+- 出租车 <> taxi
+
 
