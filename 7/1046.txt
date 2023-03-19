@@ -3,160 +3,160 @@ fromLanguageName=A Date
 icon=df24f7756b139f6eda927eb776621b9febe1a3f1
 set=1|2
 
-speaker_Wangwei=cmn-TW-Wavenet-B
-speaker_Yulan=Zhiyu
-speaker_Jialing=Yaoyao
-
 [HEADER]
-> 一次约会  
-~ a~date
-$1046/speech_1046_0.mp3;4,6
+> 一个约会  
+~ a   date
+$6254/40d6e6a6.mp3;2,50;3,275
 
 [LINE]
-> 玉兰|在|餐厅|有|个|约会。                      
-~ Yulan  at  restaurant  has  a~(one)  date  
-$1046/speech_1046_1.mp3;2,6;2,355;3,187;2,486;2,171;3,103
+> 小贝|在一家餐管|有|一个|约会。
+~ Bea is~at~a~restaurant having a date 
+$6254/619e248a.mp3;2,50;2,875;3,200;3,312;2,800;3,175;3,225
 
 [LINE]
-Speaker100: 你|想|吃|什么？            
-~           you  want  to~eat  what  
-$1046/speech_1046_2.mp3;1,0;2,97.92;2,97.92;3,97.91999999999999;2,146.88
+Speaker507: 嗨，|你好吗？
+~         hi how~are~you
+$6254/73cbc1bc.mp3;1,50;3,637;2,325
+
+[LINE]
+Speaker100: 好！
+~        good
+$6254/ed9379d6.mp3;1,50
+
+[LINE]
+Speaker100: 你|想要|吃|什么？
+~      you want to~eat what
+$6254/f16c666c.mp3;1,50;3,212;2,375;3,263
+
+[LINE]
+Speaker507: 一份|沙拉。
+~           a   salad    
+$6254/fda16e50.mp3;1,50;2,162;3,188
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: 我|今天|有|[一场|大|赛]。
+~          I today have a big game
+$6254/15886bfe.mp3;1,50;3,150;2,375;2,162;2,150;3,213
+
++ 一场大赛
+- 一张打牌
+- 一片大海
+
+[LINE]
+Speaker100: 哦，|你|做运动|吗？
+~           oh you do~sports (question~marker)
+$6254/dd3acd4a.mp3;1,50;2,787;2,175;3,238;2,412
+
+[LINE]
+Speaker507: 是啊，|我|踢足球。
+~           yes  I  play~soccer 
+$6254/e9520c42.mp3;1,50;2,287;2,525;2,150;3,188
 
 [MULTIPLE_CHOICE]
-> Yulan's date is asking…
-- … how much the food costs.
-- … where to find the menu.
-+ … what Yulan wants to eat.
+> Bea is ordering a salad because…
++ …she is playing soccer today.
+- …her date said the salad is delicious.
+- …she just ate a whole pizza.
 
 [LINE]
-Speaker336: 我|想|吃|沙拉。           
-~           I  want  to~eat  salad  
-$1046/speech_1046_4.mp3;1,6;2,135;2,249
+Speaker100: 我|也|喜欢|踢足球！
+~         I also like playing~soccer  
+$6254/fea9475e.mp3;1,50;2,162;3,150;2,413;3,200
 
 [LINE]
-Speaker336: 我|不吃|肉。          
-~           I  don't~eat  meat  
-$1046/speech_1046_5.mp3;1,6;3,141;2,205;2,264
+Speaker507: 酷！
+~       cool
 
 [LINE]
-Speaker100: 你|吃素|吗？                        
-~           you  vegetarian  question~marker  
-$1046/speech_1046_6.mp3;1,0;3,98.08695652173913;2,147.1304347826087;2,98.08695652173918
+Speaker507: 你|来自|哪里？   
+~       you come~from where
+$6254/4b853cea.mp3;1,50;3,125;3,325
 
 [LINE]
-Speaker336: 是的。 
-~           yes  
-$1046/speech_1046_7.mp3;2,6;2,268
-
-[LINE]
-Speaker100: 我也是。   
-~           me~too  
-$1046/speech_1046_8.mp3;3,0;2,187.20000000000002
-
-[MULTIPLE_CHOICE]
-> Why did he say that?
-+ He's also a vegetarian.
-- He hates salads.
-- He loves to eat meat.
-
-[LINE]
-Speaker336: 真好！         
-~           that’s~nice  
-$1046/speech_1046_10.mp3;2,6;2,176
+Speaker100: 我|是|美国人。
+~           I am American  
+$6254/6637b54a.mp3;1,50;2,225;4,175
 
 [ARRANGE]
 > Tap what you hear
-Speaker336: [(你)   (是)   (哪国)]人?             
-~             you   are   what~nationality   
-$1046/speech_1046_11.mp3;1,6;2,175;4,180;1,216
+Speaker100: (但是) (我的) (父母) (来自) (中国)。
+~           but my parents come~from China
+$6254/82a5cd98.mp3;2,50;2,562;2,163;3,100;3,375;3,312
 
 [LINE]
-Speaker100: 我|是|澳大利亚人。      
-~           I  am  Australian  
-$1046/speech_1046_12.mp3;1,0;2,116.30769230769232;6,116.30769230769232;2,348.9230769230769
+Speaker507: 我|很爱|中国！
+~            I love     China 
+$6254/a2f6effa.mp3;1,50;2,150;2,187;3,175
 
 [LINE]
-Speaker100: 我的|妈妈|是|上海人|。我的|爸爸|是|新加坡人。                          
-~           my  mother  is  Shanghainese    my  father  is  Singaporean  
-$1046/speech_1046_13.mp3;2,0;3,279.62790697674416;2,279.62790697674416;4,186.4186046511628;2,372.8372093023255;3,186.41860465116292;3,279.62790697674404;2,279.62790697674427;5,186.4186046511627;2,466.04651162790697
+Speaker100: 中国|是|很美丽的。   
+~           China is very~beautiful 
+$6254/aac59060.mp3;2,50;2,462;2,163;3,212;2,425
 
 [LINE]
-Speaker336: 我|也|是|新加坡人。           
-~           I  also  am  Singaporean  
-$1046/speech_1046_14.mp3;1,6;2,153;2,179;5,217;2,666
+Speaker507: 你|有|宠物|吗？
+~        you have pets (question~marker)     
+$6254/bcfce26a.mp3;1,50;2,112;3,138;2,387
 
 [LINE]
-Speaker100: 新加坡|很|漂亮。                
-~           Singapore  very  beautiful  
-$1046/speech_1046_15.mp3;3,0;2,249.6;3,124.79999999999998;2,187.20000000000005
+Speaker100: 我|有|两只|猫，|和|一条|狗。
+~           I have two cats  and a  dog   
+$6254/efbca4e2.mp3;1,50;2,150;3,175;2,375;2,487;3,188;2,350
 
 [POINT_TO_PHRASE]
-> Click on the option meaning "pets."
-Speaker100: (你有)         (+宠物)   (吗)?              
-~            you~have      pets   question~marker  
-$1046/speech_1046_16.mp3;2,0;5,240;2,144
+> Choose the option that means "also."
+Speaker507: (我) (+也) (有) (一条狗)， (康纳尔)！
+~           I    also      have   a~dog      Conor  
+$6254/2070721c.mp3;1,50;3,150;3,275;2,362;4,575
 
 [LINE]
-Speaker336: 我|有|一只猫|和|两只狗。            
-~           I  have  a~cat  and  two~dogs  
-$1046/speech_1046_17.mp3;1,6;2,150;4,230;2,219;4,172;2,252
+Speaker100: 什么？|我的|名字|是|丹尼尔...
+~          what my name is Daniel
+$6254/41a1e15a.mp3;2,50;2,1012;2,188;3,112;2,400;4,200
 
 [LINE]
-Speaker100: 真的吗？   
-~           really  
-$1046/speech_1046_18.mp3;3,0;2,216
+Speaker100: 你|叫|什么|名字？|你|是|萨拉|吗？
+~          you are~called what name you are Sarah (question~marker)
+$6254/6ba01742.mp3;1,50;2,237;3,213;3,350;2,1087;2,188;4,150
 
 [LINE]
-Speaker100: 嘉玲|，我|也|有|两只狗！                
-~           Jialing    I  also  have  two~dogs  
-$1046/speech_1046_19.mp3;2,0;2,206.70967741935485;2,137.8064516129032;2,137.80645161290323;2,137.80645161290323;4,137.8064516129033;2,275.61290322580635
-
-[LINE]
-Speaker336: 嘉玲|？我|是|玉兰！         
-~           Jialing    I  am  Yulan  
-$1046/speech_1046_20.mp3;2,6;2,420;2,190;2,207
-
-[LINE]
-Speaker336: 你|是|铭琪|吗？                      
-~           you  are  Mingqi  question~marker  
-$1046/speech_1046_21.mp3;1,6;2,179;3,208;2,291;2,227
-
-[LINE]
-Speaker100: 不是|！我叫|王伟！             
-~           no    my~name~is  Wangwei  
-$1046/speech_1046_22.mp3;2,0;2,189.33333333333331;3,126.22222222222223;3,189.33333333333331;2,189.33333333333331
+Speaker507: 不是，我的|名字|是|小贝...
+~            no my name is Bea
+$6254/7c8fddb2.mp3;2,50;2,762;2,150;3,100;2,388;3,137
 
 [MULTIPLE_CHOICE]
-> Yulan and Wangwei were supposed to meet different people.
-- No, that's not right.
-+ Yes, that's true.
+> Did you catch that? Bea and Daniel…
+- …bought tickets to China.
++ …were supposed to meet different people.
+- …are walking their dogs.
 
 [LINE]
-> 一位|女士|走向|王伟。                   
-~ a   woman  walks~towards  Wangwei  
-$1046/speech_1046_24.mp3;2,6;3,141;3,207;3,478;2,505
+>　一位|女士|进入|餐馆，|并且|看到|丹尼尔。
+~  a woman enters the~restaurant and sees Daniel 
+$6254/dd74e64a.mp3;1,50;2,175;3,162;3,763;3,400;3,825;3,812;4,375
 
 [LINE]
-Speaker101: 你好|！你|是|王伟|吗|？我|是|嘉玲。                                
-~           hello    you  are  Wangwei  question~marker    I  am  Jialing  
-$1046/speech_1046_25.mp3;2,6;2,163;2,240;2,174;3,177;2,431;2,185;2,203;2,183
+Speaker101: 嗨，|你|是|丹尼尔|吗？|我|是|萨拉。
+~ hi you are Daniel (question~marker)  I am Sarah 
+$6254/f566c156.mp3;1,50;2,675;2,100;4,137;2,488;2,837;2,213;3,150
 
 [LINE]
-Speaker100: 我|不是|王伟|，我|是|铭琪|。不好意思。               
-~           I  am~not  Wangwei    I  am  Mingqi    sorry  
-$1046/speech_1046_26.mp3;1,0;3,146.4;3,219.6;2,219.60000000000002;2,146.39999999999998;2,146.39999999999998;3,146.39999999999998;2,219.5999999999999;5,146.4000000000001;2,366
+Speaker100: 不是，|抱歉。|我|是|康纳尔。
+~           no  sorry  I am Conor 
+$6254/20495096.mp3;2,50;3,650;2,1012;2,200;4,200
 
 [MULTIPLE_CHOICE]
-> At the end of the story, Wangwei
-+ … lied to his real date because he liked Yulan
-- … met someone called Mingqi
-- … was tired of talking to Yulan
+> Whoa! What just happened?
+- Daniel changed his name to Conor
++ Daniel lied to his real date because he likes Bea.
+- Bea and Daniel's dogs played soccer.
 
 [MATCH]
 > Tap the pairs
-- 约会 <> date
-- 宠物 <> pet
-- 走向 <> walk towards
-- 什么 <> what
-- 肉 <> meat
+- 踢足球 <> play soccer
+- 宠物 <> pets
+- 餐馆 <> restaurant
+- 美国人 <> American
+- 来自 <> come from
 
