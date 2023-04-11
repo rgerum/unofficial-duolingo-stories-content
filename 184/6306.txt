@@ -1,0 +1,131 @@
+[DATA]
+fromLanguageName=Jedna rzecz
+icon=717bd84875f83c678f64f124937a278061e0e778
+set=1|3
+
+[HEADER]
+> Jedna rzecz
+~ Jedna rzecz
+$1735/ed12da40.mp3;5,0;6,394
+
+[LINE]
+> Agnys je w dōma ze swojōm wnuczkōm, Angelōm.
+~ Agnieszka jest w domu ze swoją wnuczką Anielą 
+$1735/3b778324.mp3;5,0;3,424;2,140;5,63;3,310;7,135;9,428;9,470
+
+[LINE]
+Speaker509: Ô niy! Potrzebujã chleba na swojã klapsznitã.
+~            O nie potrzebuję chleba na swoją kanapkę 
+$1735/f7db62da.mp3;2,0;4,349;12,456;7,775;3,385;6,120;11,356
+
+[LINE]
+Speaker508: Bydziesz szła do geszeftu?
+~            Będziesz szła do sklepu  
+$1735/6e1cf27a.mp3;8,0;5,364;3,236;9,115
+
+[LINE]
+Speaker509: Ja. 
+~           Tak 
+$1735/72c570cc.mp3;2,0
+
+[MULTIPLE_CHOICE]
+> Angela i Agnys mają dużo chleba.
+- Tak, to prawda.
++ Nie, to nie jest prawda.
+
+[LINE]
+Speaker508: Ah, potrzebujã jednyj rzeczy ze geszeftu!
+~            Ah, potrzebuję jednej rzeczy ze sklepu  
+$1735/7710ed5a.mp3;2,0;12,239;7,585;7,415;3,330;9,135
+
+[LINE]
+Speaker509: Czego? 
+~            Czego?
+$1735/7a5b232c.mp3;5,0
+
+[LINE]
+Speaker508: Tōmaty.
+~           Pomidora    
+$1735/89f2df82.mp3;6,0
+
+[SELECT_PHRASE]
+> Zaznacz brakujące słowa
+Speaker508: Na [mōj~szałŏt].
+~ Na moją~sałatkę
+$1735/ee8fa308.mp3;2,0;4,174;7,210
+
+- mōj kōmputer
++ mōj szałŏt
+- chcã jeś
+
+[LINE]
+Speaker509: Dobrze.
+~           Dobrze        
+$1735/356630bc.mp3;6,0
+
+[LINE]
+Speaker508: Dziynkujã!  
+~            Dziękuję 
+$1735/337d4c36.mp3;9,0
+
+[POINT_TO_PHRASE]
+> Wybierz słowo, które znaczy ,,też''
+Speaker508: Ah! i   (+tyż) (chcã) (trzi)  (jabka)…
+~            Ah! i też chcę trzy jabłka    
+$1735/4eb08c3e.mp3;2,0;3,219;4,190;6,317;4,330;6,250
+
+[LINE]
+Speaker509: Dobrze.
+~           Dobrze        
+$1735/2e658cf4.mp3;6,0
+
+[LINE]
+Speaker508: … jak~tyż   zŏft~apluzinowy…
+~             oraz sok~pomarańczowy    
+$1735/85d6f040.mp3;20,0;-15,0;4,524;5,220;12,305
+
+[LINE]
+Speaker509: Angela…
+~           Aniela 
+$1735/a4364e36.mp3;6,0
+
+[LINE]
+Speaker508: … jeszcze mlyko, proszã.
+~             jeszcze mleko, proszę    
+$1735/e157d2c2.mp3;14,0;-5,0;8,669;8,460
+
+[LINE]
+Speaker509: Hmm… mōm idyjõ.
+~           Hmm  mam pomysł 
+$1735/3cfdc38a.mp3;3,0;5,279;6,530
+
+[ARRANGE]
+>Kliknij to, co słyszysz
+Speaker509: [(Tukej) (mŏsz) (pijōndze), (Angela).]
+~             Tutaj masz pieniądze Aniela   
+$1735/a5ff6c0c.mp3;5,0;5,344;9,265;8,570
+
+[LINE]
+Speaker508: Co?! 
+~             Co  
+$1735/40dce8f0.mp3;2,0
+
+[LINE]
+Speaker509: Jŏ chcã jednã rzecz ze geszeftu: chlyb.  
+~           Ja chcę jedną rzecz ze sklepu chleb 
+$1735/3afad716.mp3;2,0;6,204;6,305;6,348;3,250;9,177;8,475
+
+[MULTIPLE_CHOICE]
+> Czemu Agnys dała Angeli pieniądze?
+- Lin otwiera sklep z kanapkami.
++ Chce, aby Lin poszła do sklepu.
+- Lin idzie do restauracji na obiad.
+
+[MATCH]
+> Dobierz w pary
+- idyjŏ <> pomysł
+- zŏft <> sok
+- jŏ <> ja
+- tōmata <> pomidor
+- proszã <> proszę
+
