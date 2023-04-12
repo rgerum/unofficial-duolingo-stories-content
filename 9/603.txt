@@ -32,14 +32,23 @@ Speaker125: Мама, у~тебя   одна дочка!
 ~           mom   you~have one  daughter 
 $603/speech_603_4.mp3;4,6;3,591;5,82;5,266;6,261
 
-[LINE]
-Speaker125: Это   моя~девушка,   Оля.
-~           it~is my~girlfriend  ~   
-$603/speech_603_5.mp3;3,6;4,213;8,256;5,785
+#[LINE]
+#Speaker125: Это   моя~девушка,   Оля.
+#~           it~is my~girlfriend  ~   
+#$603/speech_603_5.mp3;3,6;4,213;8,256;5,785
 
+#[POINT_TO_PHRASE]
+#> Click on the option meaning "girlfriend."
+#> Это (моя) (+девушка), (Оля).
+
+#The above lines were causing this to display incorrectly
+#I rearranged it to this so that it would use the features of this question type
+#Danika_Dakika
 [POINT_TO_PHRASE]
 > Click on the option meaning "girlfriend."
-> Это (моя) (+девушка), (Оля).
+Speaker125: (Это)   (моя)~(+девушка),   (Оля).
+~           it~is my~girlfriend  ~   
+$603/speech_603_5.mp3;3,6;4,213;8,256;5,785
 
 [LINE]
 Speaker856: Здравствуйте!
