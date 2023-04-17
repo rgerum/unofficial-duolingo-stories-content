@@ -16,21 +16,17 @@ Speaker507: Mòjn! Jak~ce~jidze?
 ~            Cześć jak~się~masz 
 
 [LINE]
-Speaker100: Mòjn-mòjn! Dobrze!
-~           Cześć Dobrze 
-
-[LINE]
-Speaker100: Co bës zjôdła? 
-~            Co byś zjadła 
+Speaker100: Mòjn-mòjn! Dobrze, co bës zjôdła?
+~           Cześć Dobrze co byś zjadła
 
 [LINE]
 Speaker507: Sałôtkã.
 ~           Sałatkę    
 
 [SELECT_PHRASE]
-> Wybierz brakujące słowa
-Speaker507: Dzysô jô~mōm  [___].
-~           Dzisiaj mam  ważny~mecz
+> Wybierz wyrażenie oznaczające "ważny mecz".
+Speaker507: Kò jô~móm dzysô  [wôżnã~rozegrã].
+~           Bo mam dzisiaj ważny~mecz
 
 + wôżnã rozegrã
 - wôżnã jigrã
@@ -68,9 +64,15 @@ Speaker507: Skądka të~jes?
 $1734/62f55978.mp3;5,0;7,394;4,384
 
 [LINE]
-Speaker100: Jô~jem Pòlôchã. Mój tatk je zez~Brus, a mojô nënka z Warszawë
+Speaker100: Jô~jem Pòlôchã. Mój tatk je zez~Brus, a mòjô nënka z Warszawë.
 ~           Jestem Polakiem  Mój tata jest z~Brus a moja mama z Warszawy
 $1734/90c3746c.mp3;5,0;9,379
+
+[MULTIPLE_CHOICE]
+> Kto pochodzi z Warszawy?
+- Tata Pawła
++ Mama Pawła
+- Niania Pawła
 
 [LINE]
 Speaker507: Jô~kòchóm Brusë!
@@ -79,17 +81,17 @@ $1734/ca74b3f4.mp3;6,0;11,365
 
 [LINE]
 Speaker100: Jo, wew~Brusach je fest piãkno.   
-~           Tak, w~Brusach jest bardzo pięknie 
+~           Tak w~Brusach jest bardzo pięknie 
 $1734/cf5c68e4.mp3;9,0;3,650;5,95;7,300
 
 [LINE]
-Speaker507: Môsz~të jaczé zwiérzãta?
-~            Masz jakieś zwierzęta?     
+Speaker507: A môsz~të jaczé zwiérzãta?
+~           A masz jakieś zwierzęta?     
 $1734/d6473594.mp3;5,0;8,305
 
 [LINE]
-Speaker100: Móm dwa kòtë a psa.
-~           Mam dwa koty i psa   
+Speaker100: Móm dwa kòtë a~téż psa.
+~           Mam dwa koty oraz psa   
 $1734/07044e30.mp3;3,0;4,310;5,219;2,356;4,120
 
 [POINT_TO_PHRASE]
@@ -125,7 +127,7 @@ $1734/89817282.mp3;7,0;4,455;4,220
 - …wyprowadzają swoje psy.
 
 [LINE]
-> Jednô białka pòdchadô do Pawła.
+> Jednô~białka pòdchadô do Pawła.
 ~ Kobieta podchodzi do Pawła 
 $1734/fff0fab4.mp3;4,0;8,365;3,469;8,120
 
@@ -143,13 +145,13 @@ $1734/fdfe1ebc.mp3;3,0;4,534;7,217;7,390
 > Co się właśnie stało?
 - Anna zmieniła swoję imię na Helena.
 + Paweł okłamał kobietę, z którą miał się spotkać, bo spodobała mu się Anna.
-- Psy Anny i Pawła grały w piłkę nożną.
+- Helena pomyliła Józefa z Pawłem.
 
 [MATCH]
 > Dobierz w pary
 - mòjn <> cześć
 - jem <> jestem
-- skądka <> skąd
+- skąd <> skądka
 - rozegra <> mecz
 - jô sã zwã <> nazywam się
 
