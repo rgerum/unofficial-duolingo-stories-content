@@ -1,0 +1,112 @@
+[DATA]
+fromLanguageName=Good Morning
+icon=783305780a6dad8e0e4eb34109d948e6a5fc2c35
+set=1|1
+
+[HEADER]
+> Bonos~díes 
+~ good~morning
+
+[LINE]
+Speaker593: ¡Bonos~díes,  Priti!
+~            good~morning  Priti 
+$5005/9c84722e.mp3;5,50;5,412;6,750
+
+[LINE]
+Speaker560: Bonos~díes, mi amor.
+~           good~morning my love 
+$5005/79656034.mp3;5,50;5,475;3,687;5,125
+
+[LINE]
+Speaker560: ¿Ónde tán les mis llaves?
+~            where are the my  keys   
+$5005/7d6c08c2.mp3;4,50;4,400;4,250;4,212;7,188
+
+[LINE]
+Speaker593: ¿Les tos llaves?
+~            The your keys   
+$5005/8168e3e6.mp3;3,50;4,250;7,212
+
+[MULTIPLE_CHOICE]
+> Priti can't find her keys
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker560: Sí, yo preciso de~dir al trabayu.
+~           yes  I need   to~go to work    
+
+[ARRANGE]
+> Tap what you hear
+Speaker560: ¡[(Yo~preciso) (les~llaves) (del) (mio) (coche)!]
+~              I~need     the~keys     of   my   car     
+
+[LINE]
+Speaker593: ¡Ja, ja! ¡Priti, les tos llaves tán equí enriba de~la  mesa! ¡Ja, ja, ja!
+~            ha  ha   Priti  the your keys   are   here on the table   ha  ha  ha 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "tired."
+Speaker560: (Perdón), mi amor, (toi) (+cansada). ¡Yo (trabayu) enforma!
+~            sorry    my love   I~am     tired       I~work   a~lot 
+
+[LINE]
+Speaker593: ¿Quies   un   café?  
+~            do~you~want a coffee 
+
+[LINE]
+Speaker560: ¡Sí,  por~favor!
+~            yes  please    
+
+[LINE]
+Speaker593: Equí tá,  mi amor.
+~           here it~is  my love 
+
+[LINE]
+Speaker560: ¿Ónde tá l'azucre? Ah, equí tá. 
+~            where is   the~sugar   oh  here it~is 
+
+[MULTIPLE_CHOICE]
+> Hmm… what is Priti doing?
+- pouring her coffee on the table
+- putting sugar on her keys
++ looking for some sugar for her coffee
+
+[LINE]
+> Ella bebe el so  café.  
+~ she  drinks her coffee 
+
+[LINE]
+Speaker560: ¡Ay, non!
+~            oh  no 
+
+[LINE]
+Speaker593: ¿Qué pasa? 
+~            what happened
+
+[LINE]
+Speaker560: ¡Esto  ye sal! 
+~            that is salt 
+
+[LINE]
+Speaker593: ¡Priti, tás   mui  cansada!
+~            Priti  you~are very tired   
+
+[LINE]
+Speaker560: Sí,  preciso más  café…   ¡con  azúcre, non  con  sal! 
+~           yes  I~need   more coffee   with sugar   not with salt 
+
+[MULTIPLE_CHOICE]
+> Priti was so tired that…
+- …she fell asleep in the kitchen.
++ …she put salt in her coffee.
+- …she put her keys in her coffee.
+
+[MATCH]
+> Tap the pairs
+- tás <> you are
+- mui <> a lot
+- ye <> is
+- les llaves <> the keys
+- la <> the
+
