@@ -1,0 +1,136 @@
+[DATA]
+fromLanguageName=Czerwona Kurtka
+icon=5361833c123aec9adfa60b0dc63398cd1aa49ef2
+set=2|1
+
+[HEADER]
+> Czerwōnŏ jakla
+~ Czerwona kurtka  
+$1737/092e5d2c.mp3;8,0;6,475
+
+[LINE]
+> Lily je we geszefcie z ôblyczyniami z jeji kamratkōm,  Zari.
+~ Lily jest w sklepie z ubraniami z jej przyjaciółką  Zari 
+$1737/4f36cb88.mp3;4,0;3,335;3,179;10,133;2,475;14,118;2,657;5,115;10,230;6,616
+
+[LINE]
+Speaker416: Tyn geszeft je fest drogi.     
+~           Ten sklep jest bardzo drogi 
+$1737/5e796826.mp3;3,0;8,230;3,480;5,135;6,280
+
+[LINE]
+Speaker418: Ja… 
+~           Tak 
+$1737/a863a9ce.mp3;2,0
+
+[LINE]
+Speaker418: Wow!
+~            wow  
+$1737/ab484ec4.mp3;3,0
+
+[SELECT_PHRASE]
+> Zaznacz brakujące słowa
+Speaker418: [Ta~czerwōnŏ~jakla] je perfekt!
+~             Ta~czerwona~kurtka jest idealna  
+$1737/b6b5a05e.mp3;2,0;9,144;6,482;3,385;8,120
++ Ta czerwōnŏ jakla
+- Te czŏrne galŏty
+- Czymu nic niy kupujesz
+
+[LINE]
+Speaker416: Hmm, Zari…
+~           Hmm  Zari 
+$1737/d2e8e8bc.mp3;3,0;6,289
+
+[LINE]
+Speaker418: Jŏ tã farbã mōm~moc~rada!
+~            Ja ten kolor bardzo~lubię!
+$1737/ec4d60c6.mp3;2,0;3,155;6,139;4,365;4,220;5,280
+
+[LINE]
+Speaker416: Zari?
+~            Zari 
+$1737/f3d2e8ac.mp3;4,0
+
+[POINT_TO_PHRASE]
+> Zaznacz słowo które oznacza "Kurtkę"
+Speaker418: (Chcã) (kupić) (tã) (+jaklã)!
+~             Chcę kupić tę kurtkę    
+$1737/16cc989e.mp3;5,0;6,364;3,392;6,135
+
+[LINE]
+Speaker416: Zari!
+~            Zari 
+$1737/21bbc874.mp3;4,0
+
+[LINE]
+Speaker418: Co? 
+~            Co 
+$1737/25d30d0a.mp3;2,0
+
+[LINE]
+Speaker416: Ta  jakla kosztuje sztyrysta   ojro.
+~           Ta kurtka kosztuje czterysta euro 
+$1737/2885b886.mp3;2,0;6,164;9,375;10,440;5,531
+
+[MULTIPLE_CHOICE]
+> Ile kosztuje ta kurtka?
+- Cztery euro
++ Czterysta euro
+- Cztery miliony euro
+
+[LINE]
+Speaker418: Co?! 
+~             Co  
+$1737/2d758e34.mp3;2,0
+
+[LINE]
+Speaker416: Zari, niy potrzebujesz nowyj jakle.
+~           Zari, nie potrzebujesz nowej kurtki     
+$1737/3c7f4d0c.mp3;4,0;5,479;13,274;6,648;6,289
+
+[POINT_TO_PHRASE]
+> Zaznacz wyraz który oznacza "Urodziny."
+Speaker418: (Dyć)… (Lily), (dzisiej)   mōm (+gyburstag)…
+~            Ale Lily dzisiaj mam urodziny    
+$1737/894d899a.mp3;3,0;6,424;9,755;4,484;10,250
+
+[LINE]
+Speaker416: Ah, ja?  
+~            Ah, tak? 
+$1737/2000c88a.mp3;2,0;4,250
+
+[LINE]
+Speaker418: A ty jeżeś moja nojlepszŏ kamratka! 
+~            A ty jesteś moją najlepszą przyjaciółką
+$1737/28017354.mp3;1,0;3,89;6,155;5,464;10,295;9,475
+
+[LINE]
+Speaker416: Ja…  i?  
+~           Tak   i 
+$1737/2d341c78.mp3;2,0;3,294
+
+[LINE]
+Speaker418: I nojlepszym gyszynkym dlŏ mie je…
+~           I najlepszym prezentem dla mnie jest 
+$1737/bd46f772.mp3;1,0;11,94;10,607;5,584;4,225;3,165
+
+[LINE]
+Speaker416: Tōniŏ jakla!
+~            Tania kurtka    
+$1737/09671722.mp3;6,0;6,359
+
+[MULTIPLE_CHOICE]
+> Prezentem urodzinowym Zari od Lily będzie…
+- …droga czerwona kurtka.
+- …dużo pieniędzy.
++ …tania kurtka.
+
+[MATCH]
+> Tap the pairs
+- Gyburstag <> Urodziny
+- Jakla <> Kurtka
+- Farba <> Kolor
+- Gyszynkym <> Prezentem
+- Tōniŏ <> Tania
+
