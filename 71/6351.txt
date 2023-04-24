@@ -4,44 +4,45 @@ icon=df24f7756b139f6eda927eb776621b9febe1a3f1
 set=1|2
 
 [HEADER]
-> Una cita
-~ a   date
+> Побачення
+~ a~date
 
 [LINE]
-> Bea está en una cita en un restaurante.
-~ Bea is   on a   date in a  restaurant  
+> Біі на побаченні в ресторані.
+~ Bea is~on a~date in a~restaurant  
 
 [LINE]
-Speaker507: ¡Hola!  ¿Cómo~estás? 
+Speaker439: Привіт!  Як~справи? 
 ~            hello   how~are~you 
 
 [LINE]
-Speaker100: ¡Bien!
+Speaker100: Гарні!
 ~            fine 
 
 [LINE]
-Speaker100: ¿Qué  quieres     comer? 
+Speaker100: Що  ти~хочеш     по~їсти? 
 ~            what do~you~want to~eat 
 
 [LINE]
-Speaker507: Una ensalada.
-~           a   salad    
+Speaker439: Салат.
+~           a~salad    
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker507: Hoy   tengo  [un~partido~importante].
+Speaker439: Сьогодні   я~маю  [un~partido~importante].
 ~           today I~have  an~important~game      
 + un partido importante
 - un batido importante
 - una parte imponente
 
 [LINE]
-Speaker100: Ah, ¿te~gustan   los~deportes?
+Speaker100: Ah, te~gustan   los~deportes?
 ~           oh   do~you~like (the)~sports 
 
 [LINE]
-Speaker507: Sí,  yo juego~al fútbol.
+Speaker439: Так,  я граю в~футбол.
 ~           yes  I  play     soccer 
+$6351/96d69afc.mp3;3,50;2,525;5,225;2,312;7,88
 
 [MULTIPLE_CHOICE]
 > Bea is ordering a salad because…
@@ -50,28 +51,28 @@ Speaker507: Sí,  yo juego~al fútbol.
 - …she just ate a whole pizza.
 
 [LINE]
-Speaker100: ¡Yo~también!
-~            me~too     
+Speaker100: Я теж!
+~            me  too     
 
 [LINE]
-Speaker507: ¡Súper!
+Speaker439: Супер!
 ~            great 
 
 [LINE]
-Speaker507: ¿De~dónde~eres?     
+Speaker439: ¿De~dónde~eres?     
 ~            where~are~you~from 
 
 [LINE]
-Speaker100: Soy  americano.
+Speaker100: Я американець.
 ~           I~am American  
 
 [ARRANGE]
 > Tap what you hear
-Speaker100: [(Mi~padre)  (es~de~Cuba)   (y)   (mi~madre)  (es~de~México).]  
-~             my~father   is~from~Cuba   and   my~mother   is~from~Mexico   
+Speaker100: [(Мій)( тато)  (з~Польщі)   (і)   (моя~мама)  (з Техасу).]  
+~             my father   is~from~poland  and   my~mother   is~from~Texas   
 
 [LINE]
-Speaker507: ¡Me~encanta Cuba!
+Speaker439: Me~encanta Cuba!
 ~            I~love     Cuba 
 
 [LINE]
@@ -79,7 +80,7 @@ Speaker100: Cuba es muy  bonita.
 ~           Cuba is very beautiful 
 
 [LINE]
-Speaker507: ¿Tienes      mascotas?
+Speaker439: ¿Tienes      mascotas?
 ~            do~you~have pets     
 
 [LINE]
@@ -88,23 +89,23 @@ Speaker100: Tengo  dos gatos y   un perro.
 
 [POINT_TO_PHRASE]
 > Choose the option that means "also."
-Speaker507: Yo (+también) (tengo) un (perro), (José).
-~           I    also      have   a   dog      José  
+Speaker439: Я (+теж) (маю)   (собачку), (Матілдя).
+~           I    also      have   a~dog      Matilda  
 
 [LINE]
-Speaker100: ¿Eh? Yo~me~llamo Daniel…
-~            eh  my~name~is  Daniel 
+Speaker100: Єx? Мене~звуть Даніель…
+~            eh my~name~is  Daniel 
 
 [LINE]
-Speaker100: ¿Tú~no~eres Gabriela?
-~            aren't~you Gabriela 
+Speaker100: Ви не Марія?
+~            aren't you Gabriela 
 
 [LINE]
-Speaker507: ¡No!
+Speaker507: Ні!
 ~            no 
 
 [LINE]
-Speaker507: ¡Yo~me~llamo Bea!
+Speaker507: Мене~звуть Біі!
 ~            my~name~is  Bea 
 
 [MULTIPLE_CHOICE]
@@ -118,12 +119,12 @@ Speaker507: ¡Yo~me~llamo Bea!
 ~ a   woman walks  towards Daniel 
 
 [LINE]
-Speaker101: ¡Hola!  ¿Eres    Daniel? Soy  Gabriela.
+Speaker101: Привіт!  Ви    Даніель? Я  Марія.
 ~            hello   are~you Daniel  I~am Gabriela 
 
 [LINE]
-Speaker100: No, lo~siento. Soy  José.
-~           no  I'm~sorry  I~am José 
+Speaker100: Ні, вибачте. Я  Сашко.
+~           no  I'm~sorry  I~am Sashko 
 
 [MULTIPLE_CHOICE]
 > Whoa! What just happened?
@@ -133,9 +134,9 @@ Speaker100: No, lo~siento. Soy  José.
 
 [MATCH]
 > Tap the pairs
-- y <> and
-- Soy <> I am
-- ensalada <> salad
+-  та <> and
+-  Я <> I am
+-салат <> salad
 - Me encanta <> I love
-- Eh <> eh
+- є<> eh
 
