@@ -1,0 +1,92 @@
+[DATA]
+fromLanguageName=The Monkeys
+icon=c29e4533eca0186f83adafac9383fef2ed3aee56
+set=12|2
+
+[HEADER]
+> Monyet  
+~ monkey
+
+[LINE]
+> Edi dan Junior sedang~berada di kebun~binatang.
+~ ~ and ~ are   at zoo       
+
+[LINE]
+> Mereka sedang di~dekat kandang gajah.
+~ they  are   near     (cage)~exhibit elephants 
+
+[LINE]
+Speaker415: Ayah, ayo sekarang kita ke kandang monyet!
+~           dad let's now we (go)~to exhibit monkeys   
+
+[MULTIPLE_CHOICE]
+> Junior wants to see the monkeys.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker414: Lo, tumben. Biasanya kamu tidak mau melihat monyet.
+~           (huh) that's~new usually you don't want (to)~see monkeys 
+
+[LINE]
+Speaker415: Ya, tapi sekarang aku suka monyet. Kita ke~sana ya, Yah?
+~           yes  but  now   I like monkeys we (go)~there (suggestion) dad  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Junior, [kandang~monyetnya] jauh dari sini.
+~           ~   the~monkey~exhibit~is  far   from here 
+- kandang monyetmu
+- kacang monyetnya
++ kandang monyetnya
+
+[LINE]
+Speaker415: Kita lari ke~sana! Ayah juga suka lari, kan?
+~           we run there (dad)~you also like (to)~run right? 
+
+[CONTINUATION]
+> What comes   next? 
+Speaker414: Hmm… baiklah. Iya,  [ayah suka berlari].
+~           ~  okay yes dad likes (to)~run
++ ayah suka berlari
+~ dad likes    runs  
+- es~krimnya enak  
+~ the~ice~cream tasty
+- terlalu kaya
+~ too rich
+
+[LINE]
+> Junior dan Edi berlari.
+~ ~ and ~ run
+
+[POINT_TO_PHRASE]
+> Choose the option that means "fast."
+Speaker415: (Ayah), (ayo) (lari) (lebih) (+cepat)!
+~            dad come~on run more fast   
+
+[LINE]
+Speaker414: Omong-omong, Junior, kamu kan tidak suka berlari.
+~           by~the~way ~ you (confirmation) don't like running 
+
+[LINE]
+Speaker415: Iya, aku tidak suka berlari, tapi aku suka sekali es~krim!
+~           yes  I  don't like running but I like very~much ice~cream 
+
+[LINE]
+Speaker415: Di~sebelah kandang monyet ada toko es~krim!  
+~           next~to exhibit monkeys there~is shop ice~cream
+
+[MULTIPLE_CHOICE]
+> Why does Junior want to go see the monkeys?
++ He wants to get ice cream.
+- Monkeys are his favorite animals.
+- He wants to run with the monkeys.
+
+[MATCH]
+> Tap the pairs
+- berlari <> to run
+- es krim <> ice cream
+- biasanya <> usually
+- kebun binatang <> zoo
+- gajah <> elephant
+
