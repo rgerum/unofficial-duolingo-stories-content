@@ -1,0 +1,141 @@
+[DATA]
+fromLanguageName=Need Help?
+icon=ec74184ed69da39d62ba574fa9d615f7d0c53da1
+set=9|4
+
+[HEADER]
+> ¿Necesita    ayuda?
+~  do~you~need help  
+
+[LINE]
+> Lin está en la~calle.  
+~ Lin is   on the~street 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+> Ella ve~a un~hombre [cerca~de~su~carro].
+~ she  sees a~man      near~his~car       
+- acerca de tu carro
+- cera de tu carro
++ cerca de su carro
+
+[LINE]
+> Él está preocupado.
+~ he is   worried    
+
+[LINE]
+Speaker508: ¡Hola!  ¿Necesita    ayuda?
+~            hello   do~you~need help  
+
+[CONTINUATION]
+> What comes next?
+Speaker127: Mi carro tiene [un~problema].
+~           my car   has    a~problem    
+- mi café  
+~ my coffee
+- un~hombre
+~ a~man    
++ un~problema
+~ a~problem  
+
+[LINE]
+Speaker127: ¿Puedo usar     su   teléfono, por~favor?
+~            can~I (to)~use your phone     please    
+
+[LINE]
+> Lin le~da su~teléfono al     hombre.
+~ Lin gives her~phone   to~the man    
+
+[LINE]
+Speaker508: Sí,  pero…
+~           yes  but  
+
+[LINE]
+Speaker127: Lo~siento, un~momento.
+~           I'm~sorry  one~moment 
+
+[LINE]
+> El  hombre llama por~teléfono.
+~ the man    calls on~the~phone 
+
+[LINE]
+Speaker127: Buenos~días,  ¿ese~es  el  taller~de~reparación~de~carros?
+~           good~morning   is~that the auto~repair~shop               
+
+[MULTIPLE_CHOICE]
+> The man borrowed Lin's phone so he could…
+- …check the time.
++ …call an auto repair shop.
+- …look through her pictures.
+
+[LINE]
+Speaker127: Mi carro tiene un~problema.
+~           my car   has   a~problem   
+
+[LINE]
+Speaker508: Ah… ¿señor?
+~           oh   sir   
+
+[LINE]
+> El  hombre ignora~a Lin.
+~ the man    ignores  Lin 
+
+[LINE]
+Speaker127: Ahh…
+~           ohh 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker127: No~sé        [dónde~estoy].
+~           I~don't~know  where~I~am   
+- adonde esto
++ dónde estoy
+- come esto hoy
+
+[LINE]
+Speaker127: Mmm… Disculpe,  ¿señorita?
+~           hmm  excuse~me   miss     
+
+[LINE]
+Speaker508: ¿Sí? 
+~            yes 
+
+[LINE]
+Speaker127: ¿Dónde estamos?
+~            where are~we  
+
+[LINE]
+Speaker508: ¡Muy  cerca~del    taller~de~reparación~de~carros!
+~            very close~to~the auto~repair~shop               
+
+[LINE]
+Speaker127: ¿Qué? 
+~            what 
+
+[ARRANGE]
+> Tap what you hear
+Speaker508: ¡[(Yo) (trabajo) (en) (el~taller)       (los~fines~de~semana)!]
+~              I    work      at   the~repair~shop   on~weekends           
+
+[LINE]
+Speaker508: Soy  mecánica.  
+~           I~am a~mechanic 
+
+[LINE]
+Speaker508: Entonces… ¿necesita    ayuda?
+~           so         do~you~need help  
+
+[MULTIPLE_CHOICE]
+> It turns out that Lin…
+- …doesn't know where she is.
++ …works at the auto repair shop.
+- …needs help buying a new phone.
+
+[MATCH]
+> Tap the pairs
+- tiene <> has
+- los fines de semana <> on weekends
+- Ella <> she
+- un hombre <> a man
+- señorita <> miss
+
