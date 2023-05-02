@@ -5,18 +5,18 @@ set=2|2
 
 [HEADER]
 > Паспорт
-~ the passport 
-$5937/33eb55f8.mp3;7,50
+~ the~passport 
+$5937/d792c832.mp3;7,50
 
 [LINE]
-> Вікрам та його дружина в аеропорту
-~ Vikram and his wife    Priti  are   at the airport    
+> Ярослав та його дружина в аеропорту
+~    Yaroslav  and his wife    Olia  are~at the~airport    
 $5937/38f491ae.mp3;6,50;3,525;5,125;8,262;2,425;10,38
 
 [LINE]
 Speaker593: Ох ні, де же мій паспорт?
 ~            oh  no   where is   my passport  
-$5937/9ab0d89e.mp3;2,32;3,201;3,363;3,72;4,113;8,137
+$5937/d59065ea.mp3;2,32;3,225;3,347;3,72;4,113;8,137
 
 [LINE]
 Speaker593: Він не тут!
@@ -25,14 +25,16 @@ $5937/9f4787d6.mp3;3,32;3,225;4,129
 
 [LINE]
 Speaker101: Ярослав…
-~           Vikram 
-$5937/aa79f0e4.mp3;7,50
+~           Yaroslav 
+$5937/e6a13062.mp3;7,50
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker593: No~está  [en~mi~cartera]…
-~           it's~not  in~my~bag      
-+ en mi cartera
+Speaker593: Він не  [в моїй сумці]…
+~           it's not  in my bag      
+$5937/ea59519e.mp3;3,32;3,193;2,113;5,64;6,210
+
++ в моїй сумці
 - es mi cantera
 - en mi campera
 
@@ -43,32 +45,37 @@ Speaker593: Y   no~está  en mi chaqueta.
 [LINE]
 Speaker101: Яру…
 ~           yaru 
+$5937/049c385a.mp3;5,50
 
 [LINE]
 Speaker593: Він  в таксі!
 ~            it's in the~taxi 
+$5937/0531980a.mp3;3,32;2,233;6,81
 
 [MULTIPLE_CHOICE]
-> Vikram thinks his passport is in the taxi.
+> Yaroslav thinks his passport is in the taxi.
 + Yes, that's right.
 - No, that's wrong.
 
 [LINE]
-> Vikram corre~a buscar        su  taxi.
-~ Vikram runs~to (to)~look~for his taxi 
+> Ярослав біжіть  шукати       своє таксі.
+~    Yaroslav  runs~to (to)~look~for his taxi 
 
 [LINE]
-Speaker101: Ярослав, no!
+Speaker101: Ярослав, ні!
 ~            yaroslav  no 
+$5937/a9d0ea92.mp3;7,50;3,1012
 
 [ARRANGE]
 > Tap what you hear
-> [(Priti) (corre~detrás~de) (Vikram).]
-~   Priti   runs~after        Vikram   
+> [(Оля) (біжіть)(~за) (Ярославом).]
+~   Olia   runs~after        Yaroslav   
+$5937/4960e8aa.mp3;3,50;7,325;3,412;10,150
 
 [LINE]
-Speaker593: ¡Ay, no! ¡El  taxi no~está aquí!
+Speaker593: Оу, ні! Таксі тут немає!
 ~            oh  no   the taxi is~not  here 
+$5937/bf07bb16.mp3;2,32;3,249;6,742;4,330;6,129
 
 [LINE]
 Speaker593: ¡No~es    posible! 
@@ -77,6 +84,7 @@ Speaker593: ¡No~es    posible!
 [LINE]
 Speaker101: Ярослав!
 ~            Vikram 
+$5937/c8fe7c54.mp3;7,50
 
 [LINE]
 Speaker101: Tu   pasaporte no~está en el  taxi.
@@ -84,13 +92,14 @@ Speaker101: Tu   pasaporte no~está en el  taxi.
 
 [POINT_TO_PHRASE]
 > Choose the option that means "hand."
-Speaker101: (El)  pasaporte (está) (en) tu   (+mano).
-~            the  passport   is     in  your   hand  
+Speaker101:  Паспорт  (в) (твої)  (+руці).
+~            the~passport   is~in  your   hand  
+$5937/af8d9a10.mp3;7,50;2,512;5,113;5,262
 
 [LINE]
 Speaker593: Ах…
 ~           oh 
-$5937/f71065fa.mp3;2,32
+$5937/cb235ffe.mp3;2,32
 
 [LINE]
 Speaker593: Дякую, любо.
@@ -106,8 +115,8 @@ $5937/f362cec0.mp3;5,32;5,564
 [MATCH]
 > Tap the pairs
 - aeropuerto <> airport
-- Priti <> Priti
-- corre detrás de <> runs after
+- Оля <> Olia
+- біжіть за <> runs after
 - chaqueta <> jacket
-- aquí <> here
+- тут <> here
 
