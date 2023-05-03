@@ -1,0 +1,113 @@
+[DATA]
+fromLanguageName=Jedna rzecz
+icon=717bd84875f83c678f64f124937a278061e0e778
+set=1|3
+
+[HEADER]
+> Jednô rzecz
+~ Jedna rzecz
+
+
+[LINE]
+> Agnés je doma ze swòją wnuczką, Anielą.
+~ Agnieszka jest w~domu ze swoją wnuczką Anielą 
+
+[LINE]
+Speaker509: Ach~nié! Jô~ni~móm chléba na sztulã!
+~            O~nie! Nie~mam chleba na kanapkę 
+
+[LINE]
+Speaker508: Bãdzece~wë jic do krómù, babczu?
+~            Będziesz~(forma~grzecznościowa) iść do sklepu babciu
+
+[LINE]
+Speaker509: Jo. 
+~           Tak 
+
+[MULTIPLE_CHOICE]
+> Aniela i Agnieszka mają dużo chleba.
+- Tak, to prawda.
++ Nie, to nie jest prawda.
+
+[LINE]
+Speaker508: Ach, jô~brëkùjã z~krómù jedną rzecz!
+~            Ach potrzebuję ze~sklepu jednej rzeczy  
+
+[LINE]
+Speaker509: Co? 
+~            Czego?
+
+[LINE]
+Speaker508: Pòmidorã.
+~           Pomidora    
+
+[SELECT_PHRASE]
+> Zaznacz poprawną formę.
+Speaker508: Do [___].
+~ Do mojej~sałatki
+
+- mòji sałôtki
++ mòji sałôtczi
+- mòjej sałôtczi
+
+[LINE]
+Speaker509: Fejn.
+~           Dobrze        
+
+[LINE]
+Speaker508: Dzãka!  
+~            Dzięki 
+
+[POINT_TO_PHRASE]
+> Wybierz słowo, które znaczy ,,trzy''
+Speaker508: Ach! I  chca bëm (+téż) (trzë) (jabka)…
+~            Ah! i chciała bym też trzy jabłka    
+
+[LINE]
+Speaker509: Fejn, kùpiã...
+~           Dobrze kupię        
+
+[LINE]
+Speaker508: … a~jesz apfelzynowi~sok…
+~             i~jeszcze sok~pomarańczowy    
+
+[LINE]
+Speaker509: Anielu…
+~           Anielu 
+
+[LINE]
+Speaker508: A~jesz mlékò, proszã.
+~             Jeszcze mleko proszę   
+
+[LINE]
+Speaker509: Hmm… Jô~móm ùdbã. Tu môsz drobkã dëtków, Anielu.
+~           Hmm  Mam pomysł Tu masz trochę pieniędzy Anielu
+
+[MULTIPLE_CHOICE]
+> Co Agnieszka dała Anieli?
+- datek na drób
++ trochę pieniędzy
+- coś dla jej dzieci
+
+[LINE]
+Speaker508: Co?! 
+~             Co  
+
+[LINE]
+Speaker509: Jô chcã z~krómu le jedną rzecz: chléb.  
+~           Ja chcę ze~sklepu tylko jedną rzecz chleb 
+
+[MULTIPLE_CHOICE]
+> Czemu Agnieszka dała Anieli pieniądze?
+- Aniela otwiera sklep z kanapkami.
++ Chce, aby Aniela sama poszła do sklepu.
+- Aniela idzie do restauracji na obiad.
+
+[MATCH]
+> Dobierz w pary
+- ùdba <> pomysł
+- apfelzynowi <> pomarańczowy
+- jô <> ja
+- jo <> tak
+- dëtczi <> pieniądze
+
