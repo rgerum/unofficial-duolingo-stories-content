@@ -1,74 +1,77 @@
 [DATA]
-fromLanguageName=A Very Big Family
+fromLanguageName=Ũa família mui grande
 icon=7b985ad4907aa6222424ea7f917bf10209b62843
 set=2|3
 
 [HEADER]
-> Una familia~muy~grande
-~ a   very~big~family   
+> Ũa família mui grande
+~ Uma   família muito grande   
 
 [LINE]
 > Salma va~a        conocer~a la~familia~de~Ana.
 ~ Salma is~going~to (to)~meet Ana's~family      
 
 [LINE]
-Speaker341: ¡Ana! ¡Mi hija~favorita!    
-~            Ana   my favorite~daughter 
+Speaker341: Ana! Mie filha~faborita!    
+~            Ana   Minha filha~favorita 
 
 [LINE]
-Speaker343: Ja, ja, ja, ja… ¡Mamá, tú  solo tienes una hija!    
-~           ha  ha  ha  ha   mom   you only have   one daughter 
+Speaker343: Ha, ha, ha, ha… Mamá, tu  solo tenes ũa filha!    
+~           ha  ha  ha  ha   Mamã   tu só tens   uma filha 
 
 [MULTIPLE_CHOICE]
-> Ana's mom has many daughters.
-+ No, that's wrong.
-- Yes, that's right.
+> A mãe da Ana tem muitas filhas
++ Não, isso está incorreto
+- Sim, isso está correto
 
 [POINT_TO_PHRASE]
-> Choose the option that means "girlfriend."
-Speaker343: (Esta) (es) mi (+novia),      (Salma).
-~            this   is  my   girlfriend    Salma  
+> Escolhe a opção que significa "é"
+Speaker343: (Esta) (+ye) mie (namorada),      (Salma).
+~            Esta   é  minha   namorada    Salma  
 
 [LINE]
-Speaker342: ¡Buenos~días! 
-~            good~morning 
+Speaker342: Buonos~dies! 
+~            Bom~dia
 
 [LINE]
-Speaker343: ¡Salma, este es mi hermano, Tomás!
-~            Salma  this is my brother  Tomás 
+Speaker343: Salma, este ye miu armano, Tomás!
+~            Salma  este é meu irmão  Tomás 
 
 [LINE]
-Speaker342: ¡Hola! 
-~            hello 
-
-[ARRANGE]
-> Tap what you hear
-Speaker343: [(Y)   (este) (es) (mi) (abuelo).]     
-~             and   this   is   my   grandfather   
-
-[LINE]
-Speaker342: Buenos~días. 
-~           good~morning 
-
-[LINE]
-Speaker343: ¡Este es mi padre,  y   este es mi hermano, Julio!
-~            this is my father  and this is my brother  Julio 
-
-[LINE]
-Speaker342: ¡Buenos~días!  ¡Hola! 
-~            good~morning   hello 
-
-[LINE]
-Speaker343: Este es mi hermano, Mario, y   mi hermano, Javier.
-~           this is my brother  Mario  and my brother  Javier 
-
-[LINE]
-Speaker342: Hola,  Mario. Hola,  Javier.
-~           hello  Mario  hello  Javier 
+Speaker342: Oulá! 
+~            Olá 
 
 [SELECT_PHRASE]
-> Select the missing phrase
-Speaker342: ¡Tienes   una [familia~muy~grande]!
+> Tap what you hear
+Speaker343: I   este ye [miu abó.]     
+~             E   este   é   meu   avô 
++ miu abó
+- mie abó
+- mie mai
+
+[LINE]
+Speaker342: Buonos~dies. 
+~           Bom~dia 
+
+[LINE]
+Speaker343: Este ye miu pai,  i   este ye miu armano, Júlio!
+~            Este é meu pai  e este é meu irmão  Júlio 
+
+[LINE]
+Speaker342: Buonos~dies!  Oulá! 
+~            Bom~dia   Olá 
+
+[LINE]
+Speaker343: Este ye miu armano, Mário, i   miu armano, Xavier.
+~           this is my brother  Mário  and my brother  Xavier 
+
+[LINE]
+Speaker342: Oulá,  Mário. Oulá,  Xavier.
+~           Olá  Mário  Olá  Xavier 
+
+[SELECT_PHRASE]
+> Seleciona a frase em falta
+Speaker342: Tenes   ũa [família~mui~grande]!
 ~            you~have a    very~big~family     
 + familia muy grande
 - famosa muy grande
