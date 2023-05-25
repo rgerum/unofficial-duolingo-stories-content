@@ -83,32 +83,35 @@ Speaker724: Por~fabor, esse  home percisa de~sue   ajuda!
 - …longe do leite.
 + …perto do leite.
 
-[POINT_TO_PHRASE]
-> Escolhe a opção que significa ""
-Speaker724: (Stá)  (mui)  (+enfermo)!
-~             he~is   very    sick     
+[SELECT_PHRASE]
+> Completa a frase corretamente
+Speaker724: Stá  mui  ferido!
+~             Está  muito    ferido
++ ferido
+- ferida
+- bien
 
 [LINE]
-Speaker414: ¡Ay, no!
-~            oh  no 
+Speaker414: Ai, nó!
+~            Ai  não 
 
 [LINE]
-> Eddy ve~a una mujer y   habla~con ella.
-~ Eddy sees a   woman and talks~to  her  
+> Eddy bé ũa mulhier i   fala cun eilha.
+~ Eddy vê uma mulher e fala com ela
 
 [LINE]
-Speaker414: Hola,  ¿eres    doctora? 
-~           hello   are~you a~doctor 
+Speaker414: Oulá,  ye    doutora? 
+~           Oulá   é doutora
 
 [MULTIPLE_CHOICE]
-> What happened in the story?
-- Eddy started med school to become a doctor.
-+ Eddy pretended to be a doctor to impress a woman.
-- Eddy saved a man at the supermarket.
+> O que aconteceu na história?
+- O Eddy começou a estudar medicina.
++ O Eddy fingiu ser um doutor para impressionar uma mulher.
+- O Eddy salvou um homem no supermercado.
 
 [MATCH]
 > Tap the pairs
-- Ese <> that
+- Bé <> Vê
 - no es <> is not
 - Está bien <> OK
 - ahora <> now
