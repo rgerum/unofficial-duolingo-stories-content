@@ -1,0 +1,114 @@
+[DATA]
+fromLanguageName=A Coffee, Please!
+icon=221d57fa97fa27260e9dd5ad3457870d033f291a
+set=5|3
+
+[HEADER]
+> En kaffe,   tack!
+~  a  coffee  please    
+
+[LINE]
+> Eddy är på en restaurang med  sin son, Junior.
+~ Eddy is   at a  restaurant  with his son  Junior 
+
+[LINE]
+Speaker386: Hej,  Eddy. Vill~du~ha  en kaffe?  
+~           hello  Eddy   do~you~want a  coffee 
+
+[MULTIPLE_CHOICE]
+> The woman asks Eddy if he wants a coffee.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker414: Ja,  en stor kopp~kaffe tack.
+~           yes  a   big cup~of~coffee  please    
+
+[LINE]
+Speaker386: Med eller utan mjölk?
+~            with or without milk  
+
+[LINE]
+Speaker414: Med mjölk, tack.
+~           with milk   please    
+
+[LINE]
+Speaker386: Och…   med eller utan     socker?
+~           and   with or without sugar  
+
+[LINE]
+Speaker414: Med  socker, tack.
+~           with sugar   please    
+
+[LINE]
+Speaker415: Jag vill~också~ha en kopp~kaffe!  
+~            I  also~want   a   cup~of~coffee 
+
+[MULTIPLE_CHOICE]
+> Junior says that he…
++ …wants coffee too.
+- …wants to go home.
+- …needs to go to the bathroom.
+
+[LINE]
+Speaker414: Junior? du vill~ha kaffe?  
+~            Junior   you want    coffee 
+
+[LINE]
+Speaker415: Ja,  jag vill~ha en kopp med  mjölk…
+~           yes  I want a   cup  with milk  
+
+[LINE]
+Speaker415: … och   med  socker…
+~             and with sugar  
+
+[LINE]
+Speaker415: … och med glass!   
+~              and with ice~cream 
+
+[MULTIPLE_CHOICE]
+> What does Junior want in his coffee?
+- more coffee
++ ice cream
+- a salad and fries
+
+[LINE]
+Speaker414: med glass?   
+~            with ice~cream 
+
+[LINE]
+Speaker415: Ja,  och   utan     kaffe,   tack!
+~            yes  and without coffee  please    
+
+[POINT_TO_PHRASE]
+> Choose the option that means "milkshake."
+Speaker386: (Åh)… (du)  (vill~ha) en (+milkshake)?   
+~            oh     you   want     a    milkshake  
+
+[LINE]
+Speaker415: Ja,  snälla!
+~            yes  please    
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Jag) (vill~också~ha) (en) (milkshake)!]   
+~              I    also~want     a    milkshake   
+
+[LINE]
+Speaker414: Två milkshake,    tack!
+~            two milkshakes  please    
+
+[MULTIPLE_CHOICE]
+> Oh, Junior! He ordered coffee…
+- …but Eddy drank it all.
+- …because he wanted to have more energy.
++ …but he really wanted a milkshake.
+
+[MATCH]
+> Tap the pairs
+- mjölk <> milk
+- kaffe <> coffee
+- två <> two
+- på <> at
+- kopp <> cup
+
