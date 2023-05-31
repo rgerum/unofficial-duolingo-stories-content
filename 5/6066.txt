@@ -1,0 +1,108 @@
+[DATA]
+fromLanguageName=Junior's Decision
+icon=e0600de22649754eb7336b587834d36407767819
+set=10|1
+
+[HEADER]
+> Juniors avgjørelse
+~ Junior's decision    
+
+[LINE]
+> Det er lunsjtid på skolen~til~Junior.
+~ it is lunch~time           at Junior's~school      
+
+[LINE]
+Speaker415: God morgen, jeg er veldig sulten.
+~            good morning   I am very hungry    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker395: Hei,  Junior. [i~dag~har~vi~kylling].    
+~           hello  Junior   today~we~have~chicken  
++ i dag har vi kylling
+- i dag har de kylling
+- i dag ser vi kylling
+
+[LINE]
+Speaker395:og med kyllingen  
+~           and with the~chicken 
+
+[LINE]
+Speaker395: …kan du få salat eller pommes~frites.
+~             can you get   salad    or fries          
+
+[MULTIPLE_CHOICE]
+> Junior can get either salad or fries with the chicken.
+- No, that's wrong.
++ Yes, that's right.
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(Jeg~vil~ha) (pommes~frites) (og)   (salat)!] 
+~              I~want   fries            and   (a)~salad   
+
+[LINE]
+Speaker395: Du kan bare få én av delene, Junior.
+~           you can only get one of the~parts~(the~two)
+
+[LINE]
+Speaker415: Vel, jeg elsker pommes~frites…
+~           well   I love      fries              
+
+[LINE]
+Speaker415: og   det~kommer~til~å~være en veldig lang dag
+~           and it's~going~to~be a  very long day 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "healthier."
+Speaker415: … (men) (salat) (er) (+sunnere).
+~              but    salad         is    healthier      
+
+[LINE]
+Speaker395: Junior?
+~            Junior 
+
+[LINE]
+Speaker415: Pommes~frites eller salat? Hmm…
+~            fries          or salad     hmm 
+
+[LINE]
+Speaker415: OK, Jeg~vil~ha pommes~frites… Nei! Salat! Nei!
+~           OK         I~want fries            no   salad      no 
+
+[LINE]
+Speaker415: Åh, jeg~vet~ikke!       
+~            oh  I~don't~know 
+
+[MULTIPLE_CHOICE]
+> Poor Junior! What problem does he have?
+- He ate too many fries.
+- He wants ice cream in his salad.
++ He can't choose between a salad and fries.
+
+[LINE]
+Speaker395: Junior!
+~            Junior 
+
+[LINE]
+Speaker415: Åh! Ja?
+~            oh   yes  
+
+[LINE]
+Speaker395: Vær~så~god!        Pommes~frites og salat til deg. 
+~            here~you~go  fries          and (a)~salad for  you 
+
+[MULTIPLE_CHOICE]
+> What did Mrs. Pérez tell Junior to do?
+- Go somewhere else to eat.
++ Take both the fries and the salad.
+- Imagine that fries are salad.
+
+[MATCH]
+> Tap the pairs
+- Det er <> it is
+- sunnere <> healthier
+- Jeg vil ha <> I want
+- pommes frites <> fries
+- skolen til Junior <> Junior's school
+
