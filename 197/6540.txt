@@ -6,14 +6,17 @@ set=8|2
 [HEADER]
 > Dansetimen
 ~ the~dance~class   
+$6540/abc71ef6.mp3;10,50
 
 [LINE]
-> Eddy .
+> Eddy går~inn~i dansetimen åt Eli.
 ~ Eddy enters  Eliana's~dance~class        
+$6540/862f160e.mp3;4,50;4,400;4,212;2,188;11,125;3,725;4,287;2,400
 
 [LINE]
-Speaker125: ¡Hola,  chicos!
-~            hello  guys   
+Speaker125: Hallo!
+~            hello
+$6540/3b251e09.mp3;6,725
 
 [LINE]
 Speaker125: Kven føler for å dansa?
@@ -22,61 +25,74 @@ $6540/e8f31b32.mp3;4,50;6,350;4,462;2,175;6,100
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker125: Hoy   vamos~a~aprender     [cosas~nuevas].
-~           today we're~going~to~learn  new~things    
-- rosas nuevas
-+ cosas nuevas
-- con tus viejas
+Speaker125: I~dag skal~me læra [noko~nytt].
+~           today we're~going~to (to)~learn  something~new   
+$6540/8305bbda.mp3;1,79;4,256;5,184;3,135;5,395;5,300;6,751
+- nokon nye
++ noko nytt
+- nokon ny
 
 [LINE]
-> Eddy se~levanta y   camina en~dirección~a la~puerta.
-~ Eddy stands~up  and walks  towards        the~door  
+> Eddy står opp og går mot døra.
+~ Eddy stands up  and walks  towards the~door  
+$6540/42419a15.mp3;4,50;5,337;4,338;3,225;4,187;4,250;5,288;2,437
 
 [LINE]
-Speaker125: ¡Ey! 
-~            hey 
+Speaker125: Hei!
+~           hey 
+$6540/66b53fcc.mp3;4,570
 
 [LINE]
-Speaker125: ¿A~dónde~vas?        
-~            where~are~you~going 
+Speaker125: Kvar fer~du?       
+~            where are~you~going 
+$6540/55f4bcc6.mp3;4,289;4,280;4,466
 
 [LINE]
-Speaker125: Bailar  da~un~poco~de~miedo…
-~           dancing is~a~little~scary   
+Speaker125: Å dansa er litt skummelt...
+~           dancing is a little scary   
+$6540/a8a42162.mp3;1,119;6,385;3,122;5,160;9,644;4,NaN
 
 [LINE]
-Speaker125: … ¡pero es~  muy~divertido!
-~              but  it's a~lot~of~fun  
+Speaker125: … men det er mykje moro!
+~              but  it is a~lot~of fun  
+$6540/f79ab5ba.mp3;1,474;4,85;4,114;3,330;6,749;6,NaN
 
 [POINT_TO_PHRASE]
 > Choose the option that means "this."
-Speaker504: Sí,  (pero) (creo)    (que)  (+esto) es un error.  
-~           yes   but    I~think   that    this  is a  mistake 
+Speaker504: Ja,  (men) (eg~trur)    (at)  (+dette) er feil.  
+~           yes   but    I~think   that    this  is a~mistake 
+$6540/89c58ff1.mp3;2,50;2,412;4,88;3,212;5,263;3,275;6,150;3,225;5,137;2,463
 
 [LINE]
-Speaker125: Sin~miedo.       Es   fácil. ¡Mira!
-~           don't~be~scared  it's easy    look 
+Speaker125: Ikkje~ver redd! Det er enkelt! Sjå!
+~           don't be scared  it is easy    look 
+$6540/decf5176.mp3;5,310;4,245;6,490;4,155;3,120;8,792;5,635
 
 [LINE]
-Speaker504: Pero…
+Speaker504: Men…
 ~           but  
+$6540/58a4313a.mp3;3,50
 
 [ARRANGE]
 > Tap what you hear
-> [(Eddy) (mira~a)  (Eliana) (bailar).] 
-~   Eddy   watches   Eliana   dancing   
+> [(Eddy) (ser~på)  (Eli) (dansa).] 
+~   Eddy   watches   Eli (to)~dance  
+$6540/bca9b602.mp3;4,50;4,350;3,312;4,238;6,325;2,487
 
 [LINE]
-Speaker125: ¡Ahora baila conmigo!
-~            now   dance with~me 
+Speaker125: Dansa med~meg no!
+~           dance with~me now
+$6540/c4e506cb.mp3;5,429;4,105;4,222;4,495
 
 [LINE]
-Speaker504: ¡Esto es muy~divertido!
+Speaker504: Dette er mykje~moro!
 ~            this is a~lot~of~fun  
+$6540/b8e06451.mp3;5,50;3,337;6,163;5,300;2,450
 
 [LINE]
-Speaker125: ¿Qué~piensas       ahora? ¿Esta~clase es un~error? 
-~            what~do~you~think now     this~class is a~mistake 
+Speaker125: Kva tenkjer~du no? Er denne~timen feil? 
+~          what you~think now   is this~class a~mistake 
+$6540/267e916c.mp3;3,244;8,462;3,135;4,520;3,105;6,255;6,356;6,565
 
 [MULTIPLE_CHOICE]
 > Eliana wants to know…
@@ -85,20 +101,21 @@ Speaker125: ¿Qué~piensas       ahora? ¿Esta~clase es un~error?
 - …if Eddy is a dance teacher.
 
 [LINE]
-Speaker504: Sí. 
+Speaker504: Ja.
 ~           yes 
+$6540/3bc90635.mp3;2,50;2,312
 
 [LINE]
-Speaker125: ¿De~verdad?
+Speaker125: Verkeleg?
 ~            really    
 
 [LINE]
-Speaker504: Esta no~es  mi clase.
-~           this is~not my class 
+Speaker504: Dette er~ikkje klassen~min!
+~           this is~not my~class 
 
 [LINE]
-Speaker504: ¡Pero es   más  divertida que  una clase~de~cocina!
-~            but  it's more fun       than a   cooking~class   
+Speaker504: Men det er mykje~meir moro enn matlaging!
+~            but  it is much~more fun than cooking   
 
 [MULTIPLE_CHOICE]
 > Oops! What was Eddy's mistake?
@@ -108,9 +125,6 @@ Speaker504: ¡Pero es   más  divertida que  una clase~de~cocina!
 
 [MATCH]
 > Tap the pairs
-- Hola <> hello
-- esto <> this
-- mira a <> watches
-- que <> that
-- muy divertido <> a lot of fun
+- ikkje ver! <> don't be!
+- 
 
