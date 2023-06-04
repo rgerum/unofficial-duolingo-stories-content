@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=The Vegetarian
+icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
+set=4|1
+
+[HEADER]
+> Ang Behetariano
+~ the vegetarian 
+
+[LINE]
+> Binasa~ni~Vikram ang~menu sa isang napakagandang~restawran.
+~ Vikram~reads the~menu in a  very~pretty~restaurant 
+
+[LINE]
+Speaker385: Magandang~umaga! 
+~            good~morning 
+
+[LINE]
+Speaker593: Mayroon~akong tanong.
+~           I~have question 
+
+[LINE]
+Speaker593: Ako~ay behetariano. 
+~           I~am a~vegetarian 
+
+[LINE]
+Speaker593: Mayroon~kayong pagkaing~behetariano?
+~            do~you~have vegetarian~food    
+
+[MULTIPLE_CHOICE]
+> Vikram wants to know if they serve vegetarian food.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker385: Oo,  mayroon~kaming napakasarap~na~karneng~sanwits.
+~           yes  we~have very~good~meat~sandwiches      
+
+[LINE]
+Speaker593: Karneng~sanwits? Ako~ay behetariano. 
+~            meat~sandwiches      I~am a~vegetarian 
+
+[LINE]
+Speaker385: Ah, oo…  pasensiya~na.
+~           oh  yes  I'm~sorry 
+
+[LINE]
+Speaker385: Mayroon~kaming masarap~na~manok.  
+~           we~have a  delicious~chicken 
+
+[MULTIPLE_CHOICE]
+> According to the waiter, their chicken is…
+- …not very tasty.
+- …gluten free.
++ …delicious.
+
+[LINE]
+Speaker593: Ang~manok ay karne.
+~           chicken  is meat  
+
+[ARRANGE]
+> Tap what you hear
+Speaker593: [(At)   (hindi~ako~kumakain~ng)   (karne)!]
+~              and   I~don't~eat   meat    
+
+[LINE]
+Speaker385: Mayroon~kaming mga~ensalada…
+~           we~have salads    
+
+[LINE]
+Speaker593: Ah, gusto~ko ang~mga~ensalada!
+~            oh  I~like    salads        
+
+[MULTIPLE_CHOICE]
+> Vikram likes…
+- …the waiter.
++ …salads.
+- …lots of meat.
+
+[LINE]
+Speaker385: Mayroong  ensalada~na~may kamatis, keso,  salmon…
+~           there~is    salad~with  tomato  cheese  salmon 
+
+[LINE]
+Speaker593: Hindi~ako~kumakain~ng  salmon! Ako~ay  behetariano! 
+~            I~don't~eat salmon   I~am a~vegetarian 
+
+[LINE]
+Speaker385: Mayroon~kaming mga~fries…
+~           we~have fries          
+
+[LINE]
+Speaker593: OK, mga~fries.
+~           OK         fries          
+
+[MULTIPLE_CHOICE]
+> What food did Vikram order in the end?
++ fries
+- chicken
+- salmon
+
+[LINE]
+Speaker385: Mga~fries… perpekto. At…   isang hamburger?
+~           fries           perfect   and   a   hamburger   
+
+[LINE]
+Speaker593: Hindi~ako~kumakain~ng    karne!
+~            I~don't~eat meat  
+
+[MULTIPLE_CHOICE]
+> Why is Vikram so upset?
+- He's tired of being a vegetarian.
++ The waiter kept offering him meat.
+- The waiter spilled coffee on him.
+
+[MATCH]
+> Tap the pairs
+- karne<> meat
+- behetariano <> vegetarian
+- tanong <> question
+- perpekto <> perfect
+- kamatis <> tomato
+
