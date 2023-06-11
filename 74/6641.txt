@@ -4,44 +4,52 @@ icon=643347b755001a918130ddf5f6d3e914e63a00ce
 set=2|2
 
 [HEADER]
-> El  pasaporte
-~ the passport 
+> 護照
+~ (the)~passport 
+$6225/2c1ade2c.mp3;2,50
 
 [LINE]
-> Vikram y   su  esposa, Priti, están en el  aeropuerto.
-~ Vikram and his wife    Priti  are   at the airport    
+> 維克拉姆|和|他的|老婆|普麗提|在機場。
+~ Vikram  and his   wife Priti are~at~the~airport    
+$6225/c8a780aa.mp3;4,50;2,737;2,163;2,150;3,100;4,762;2,988;3,187
 
 [LINE]
-Speaker593: ¡Ay, no! ¿Dónde está mi pasaporte?
-~            oh  no   where is   my passport  
+Speaker593:  哎呀！我的|護照|在哪裡？
+~            oh~no   my   passport  is~where
+$6225/62aa7e12.mp3;2,50;2,850;2,187;3,88;2,337;3,138
+[LINE]
+Speaker593: 它|不在這裡！
+~           it is~not~here 
+$6225/6a9e1034.mp3;1,50;3,187;3,325
 
 [LINE]
-Speaker593: ¡No~está  aquí!
-~            it's~not here 
-
-[LINE]
-Speaker560: Vikram…
+Speaker560: 維克拉姆…
 ~           Vikram 
+$6225/7ac157b8.mp3;4,50
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker593: No~está  [en~mi~cartera]…
+Speaker593: 它不在|[我的書包裡]…
 ~           it's~not  in~my~bag      
-+ en mi cartera
-- es mi cantera
-- en mi campera
+$6225/7d3b1e0c.mp3;1,50;3,162;2,363;2,137;3,100;2,400
++ 我的書包裡
+- 書包裡我
+- 我的書抱裡
 
 [LINE]
-Speaker593: Y   no~está  en mi chaqueta.
-~           and it's~not in my jacket   
+Speaker593: 它也|不在我的外套裡...
+~           it~is~also not~in~my~jacket   
+$6225/7fd1df4e.mp3;1,50;2,212;3,138;2,387;2,138;3,87;2,425
 
 [LINE]
-Speaker560: Vik…
-~           Vik 
+Speaker560: 維克…
+~           Vik... 
+$6225/8e9a1f5e.mp3;2,50
 
 [LINE]
-Speaker593: ¡Está en el  taxi!
-~            it's in the taxi 
+Speaker593: 它|在|出租車裡！
+~           it|is|in~the~taxi 
+$6225/8d2dcd74.mp3;1,50;2,237;4,125;2,550
 
 [MULTIPLE_CHOICE]
 > Vikram thinks his passport is in the taxi.
@@ -49,46 +57,55 @@ Speaker593: ¡Está en el  taxi!
 - No, that's wrong.
 
 [LINE]
-> Vikram corre~a buscar        su  taxi.
-~ Vikram runs~to (to)~look~for his taxi 
+> 維克拉姆|跑去找|他的|出租車。
+~ Vikram   runs~to~to~look~for his taxi 
+$6225/989c022a.mp3;4,50;3,725;2,412;2,200;2,150;4,100
 
 [LINE]
-Speaker560: ¡Vik, no!
+Speaker560: 維克，|不！
 ~            Vik  no 
+$6225/a40bb9b0.mp3;2,50;2,725
 
 [ARRANGE]
 > Tap what you hear
-> [(Priti) (corre~detrás~de) (Vikram).]
-~   Priti   runs~after        Vikram   
+> [(普麗提)|(追著)|(維克拉姆)。 ]
+~   Priti runs~after Vikram   
+$6225/f3543e9c.mp3;3,50;2,1025;2,212;5,125
 
 [LINE]
-Speaker593: ¡Ay, no! ¡El  taxi no~está aquí!
-~            oh  no   the taxi is~not  here 
+Speaker593: 糟糕！ |出租車|已經|離開了！
+~           oh~no the~taxi already left
+$6225/c9057a90.mp3;2,50;4,937;3,650;3,288;2,350
 
 [LINE]
-Speaker593: ¡No~es    posible! 
-~            it's~not possible 
+Speaker593: 不可能！
+~           it's~not~possible 
+$6225/b53efecc.mp3;3,50
 
 [LINE]
-Speaker560: ¡Vikram!
+Speaker560: 維克拉姆!
 ~            Vikram 
+$6225/b82afab4.mp3;4,50
 
 [LINE]
-Speaker560: Tu   pasaporte no~está en el  taxi.
-~           your passport  is~not  in the taxi 
-
-[POINT_TO_PHRASE]
-> Choose the option that means "hand."
-Speaker560: (El)  pasaporte (está) (en) tu   (+mano).
-~            the  passport   is     in  your   hand  
+Speaker560: 你的|護照|不在出租車裡。
+~           your passport  is~not~in~the~taxi 
+$6225/d2079bf0.mp3;1,50;2,137;3,100;3,413;4,300;2,600
 
 [LINE]
-Speaker593: Ah…
+Speaker560: 護照|在|你手中。
+~            (the)~passport   is  in~your~hand 
+$6225/e7f25ab8.mp3;2,50;2,462;2,150;3,125
+
+[LINE]
+Speaker593: 哦…
 ~           oh 
+$6225/c1c40e4e.mp3;1,50
 
 [LINE]
-Speaker593: Gracias,   mi amor.
-~           thank~you  my love 
+Speaker593: 親愛的， 謝謝你。
+~           my~love thank~you 
+$6225/c5a490f6.mp3;2,50;2,425;3,475;2,400
 
 [MULTIPLE_CHOICE]
 > Where was Vikram's passport?
@@ -98,9 +115,8 @@ Speaker593: Gracias,   mi amor.
 
 [MATCH]
 > Tap the pairs
-- aeropuerto <> airport
-- Priti <> Priti
-- corre detrás de <> runs after
-- chaqueta <> jacket
-- aquí <> here
-
+- 機場 <> airport
+- 親愛的 <> my love
+- 追著 <> runs after
+- 外套 <> jacket
+- 這裡 <> here
