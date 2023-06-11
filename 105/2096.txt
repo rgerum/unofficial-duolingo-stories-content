@@ -1,0 +1,141 @@
+[DATA]
+fromLanguageName=A Date
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+[HEADER]
+> In Ofspraakje
+~ A   date
+
+[LINE]
+> Femke sit yn in restaurant foar in ôfspraakje.
+~ ~ is in a  restaurant for a date 
+
+[LINE]
+Speaker507: Hoi! Hoe~giet~it~mei~dy?
+~              Hi How~are~you 
+
+[LINE]
+Speaker100: Goed!
+~            Fine 
+
+[LINE]
+Speaker100: Wat wolsto ite?
+~            What do~you~want eat 
+
+[LINE]
+Speaker507: In salade.
+~           A   salad    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: Ik~haw hjoed  [in~belangrike~wedstriid].
+~           I~have today an~important~match      
++ in belangrike wedstriid
+- in omfangrike wedstriid
+- belangrike wedstriden
+
+[LINE]
+Speaker100: O, fynsto sport moai?
+~           Oh do~you~find sport beautiful
+
+[LINE]
+Speaker507: Ja, ik spylje fuotbal
+~           Yes  I  play soccer 
+
+[MULTIPLE_CHOICE]
+> Femke is ordering a salad because…
++ …she is playing soccer today.
+- …her date said the salad is delicious.
+- …she just ate a whole pizza.
+
+[LINE]
+Speaker100: Ik~ek!
+~            Me~too     
+
+[LINE]
+Speaker507: Geweldich!
+~            Great 
+
+[LINE]
+Speaker507: Wêr komst wei?     
+~            Where do~you~come from?
+
+[LINE]
+Speaker100: Ik~kom~út Drachten.
+~           I~am~from Drachten  
+
+[ARRANGE]
+> Tap what you hear
+Speaker100: [(Myn heit)  (komt fan it Hearrenfean)   (en)   (myn mem)  (komt fan Ljouwert).]  
+~             My~father   is~from~it~Hearrenfean   and   my~mother   is~from~Ljouwert   
+
+[LINE]
+Speaker507: Ik~hâld~fan Ljouwert!
+~            I~love     Ljouwert 
+
+[LINE]
+Speaker100: Ljouwert is hiel  moai.   
+~           Ljouwert is very beautiful 
+
+[LINE]
+Speaker507: Hast húsdieren?
+~            Do~you~have pets     
+
+[LINE]
+Speaker100: Ik~haw twa katten en in hûn.
+~           I~have two cats  and a  dog   
+
+[POINT_TO_PHRASE]
+> Choose the option that means "also."
+Speaker507: Ik (haw) (ek) in (hûn), (Jelle).
+~           I    have also   a   dog 
+
+[LINE]
+Speaker100: Eh, ik~hjit Hidde.
+~            Eh  my~name~is  
+
+[LINE]
+Speaker100: Bisto~net Fenna?
+~            Aren't~you
+
+[LINE]
+Speaker507: Nee!
+~            No
+
+[LINE]
+Speaker507: Ik~hjit Femke
+~            My~name~is 
+
+[MULTIPLE_CHOICE]
+> Did you catch that? Femke and Hidde…
+- …bought tickets to Cuba.
++ …were supposed to meet different people.
+- …are walking their dogs.
+
+[LINE]
+> In frou rint nei Hidde ta.
+~ A   woman walks  towards
+
+[LINE]
+Speaker101: Hoi!  Bisto Hidde? Ik~bin Fenna.
+~            Hi   Are~you ~  I~am
+
+[LINE]
+Speaker100: Nee, sorry. Ik~bin Jelle.
+~           No  I'm~sorry  I~am
+
+[MULTIPLE_CHOICE]
+> Whoa! What just happened?
+- Femke changed her name to Fenna.
++ Hidde lied to his real date because he likes Femke.
+- Femke and Hidde's dogs played soccer.
+
+[MATCH]
+> Tap the pairs
+- en <> and
+- Ik hjit <> My name is
+- salade <> salad
+- Ik hâld fan <> I love
+- fuotbal <> soccer
+
