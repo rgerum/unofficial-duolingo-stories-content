@@ -1,111 +1,126 @@
 [DATA]
-fromLanguageName=I Want a Pizza
-icon=3eebaf390a99fcebfaf064cfa42f14c071b5b97f
-set=13|2
+fromLanguageName=I Want Pizza
+icon=01af7ff2a4981e7e37fa0dabed4c9c1dfe4747e6
+set=9|4
 
 [HEADER]
-> Yo quiero una pizza
-~ I  want   a   pizza
+> Ich möchte     Pizza
+~ I   would~like pizza
 
 [LINE]
-> Lin camina     a  su~casa.  
-~ Lin is~walking to her~house 
-
-[SELECT_PHRASE]
-> Select the missing phrase
-> [Ella~tiene~dos~pizzas].
-~  she~has~two~pizzas     
-- Ella tiene las pintas
-+ Ella tiene dos pizzas
-- Él la quiere con pizzas
+> Lin trägt   zwei Pizzas nach~Hause.
+~ Lin carries two  pizzas home       
 
 [LINE]
-> Ella ve~a Óscar en la  calle. 
-~ she  sees Óscar on the street 
+> Lin sieht Oscar auf~der~Straße.
+~ Lin sees  Oscar in~the~street  
 
 [LINE]
-Speaker592: ¡Hola,  Lin! ¿Y   esas  pizzas?
-~            hello  Lin   and those pizzas 
+Speaker592: Hallo, Lin. Oh, Pizza?
+~           hello  Lin  oh  pizza 
+
+[MULTIPLE_CHOICE]
+> Lin has seven pizzas.
++ No, that's wrong.
+- Yes, that's right.
 
 [LINE]
-Speaker508: Son      del~restaurante~de~Emilio.
-~           they~are from~Emilio's~restaurant  
+Speaker508: Ja.  Sie ist von  dem neuen Italiener            da~drüben. 
+~           yes  it  is  from the new   Italian~(restaurant) over~there 
 
 [LINE]
-Speaker592: ¡Me~encanta ese  restaurante!
-~            I~love     that restaurant  
+Speaker592: Ich liebe dieses Restaurant!
+~           I   love  this   restaurant 
+
+[LINE]
+Speaker592: Jetzt möchte~ich   auch Pizza!
+~           now   I~would~like also pizza 
 
 [CONTINUATION]
 > What comes next?
-Speaker592: ¡Yo también quiero [pizza]!
-~            I  also    want    pizza  
-+ pizza
-- restaurantes
-~ restaurants 
-- calle 
-~ street
+Speaker508: Das Restaurant ist jetzt leider        [geschlossen].
+~           the restaurant is  now   unfortunately  closed       
+- hässlich
+~ ugly    
++ geschlossen
+~ closed     
+- deutsch
+~ German 
 
 [LINE]
-Speaker508: Ah, pero el  restaurante está cerrado.
-~           oh  but  the restaurant  is   closed  
+Speaker592: Schade  …
+~           too~bad  
 
 [LINE]
-Speaker592: Ay, no…
-~           oh  no 
+Speaker592: Du  hast zwei Pizzas! Kann ich eine~haben?
+~           you have two  pizzas  can  I   have~one   
 
 [LINE]
-Speaker592: Tú  tienes dos pizzas. ¿Puedo~comprar una de tus~pizzas? 
-~           you have   two pizzas   I~can~buy     one of your~pizzas 
+Speaker592: Ich gebe        dir Geld! 
+~           I   (will)~give you money 
 
 [LINE]
-Speaker508: No, lo~siento. Una es para mi abuela      Lucy y   la  otra        es para mí.
-~           no  I'm~sorry  one is for  my grandmother Lucy and the other~(one) is for  me 
-
-[LINE]
-Speaker592: Mmm… ¿puedo~comer un~poco  de tu~pizza?  
-~           hmm   I~can~eat   a~little of your~pizza 
-
-[POINT_TO_PHRASE]
-> Choose the option that means "strange."
-Speaker508: (Eh)… No, (Óscar), (eso)  es (+extraño).
-~            eh   no   Óscar    that  is   strange  
-
-[LINE]
-> Lin se~va.    
-~ Lin goes~away 
-
-[LINE]
-Speaker592: ¡Ahora de~verdad  quiero una pizza de   ese  restaurante!
-~            now   (I)~really want   a   pizza from that restaurant  
+Speaker508: Tut~mir~leid. Die Pizzas sind für Oma     Lucy und mich.
+~           I'm~sorry     the pizzas are  for grandma Lucy and me   
 
 [ARRANGE]
 > Tap what you hear
-> [(Óscar) (llama~a) (alguien) (por~teléfono).]
-~   Óscar   calls     someone   on~the~phone   
+Speaker592: [(Kann) (ich) (ein) (Stück~Pizza)    (haben)?]
+~             can    I     a     piece~of~pizza   have    
 
 [LINE]
-Speaker592: Hola,  Lucy. Soy Óscar. ¿Tienes   planes para la~cena?
-~           hello  Lucy  I'm Óscar   you~have plans  for  dinner  
-
-[LINE]
-Speaker509: Sí,  pizza con  Lin. ¿Quieres  comer  con  nosotras?
-~           yes  pizza with Lin   you~want to~eat with us       
-
-[LINE]
-Speaker592: Sí,  está~bien. ¡Muchas~gracias!     
-~           yes  OK          thank~you~very~much 
+Speaker508: Nein, das  ist unser Abendessen.
+~           no    this is  our   dinner     
 
 [MULTIPLE_CHOICE]
-> How sneaky! Óscar called Lucy because…
-+ …he wanted her to invite him for dinner.
+> Lin wants to…
++ …eat the pizzas for dinner with Lucy.
+- …eat breakfast with Oscar.
+- …give Oscar her pizzas.
+
+[LINE]
+Speaker508: Bis~bald,     Oscar.
+~           see~you~soon  Oscar 
+
+[LINE]
+Speaker592: Jetzt will~ich~wirklich eine Pizza …
+~           now   I~really~want     a    pizza  
+
+[LINE]
+> Oscar nimmt       sein Handy.     
+~ Oscar takes~(out) his  cell~phone 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker592: Hallo, Lucy! Hier ist Oscar. Was  machst~du     [heute~Abend]? 
+~           hello  Lucy  here is  Oscar  what are~you~doing  this~evening  
++ heute Abend
+- Beute tragend
+- Leute kamen
+
+[LINE]
+Speaker509: Ich esse      Pizza mit  Lin!
+~           I   am~eating pizza with Lin 
+
+[LINE]
+Speaker509: Möchtest~du    mit~uns~essen? 
+~           would~you~like to~eat~with~us 
+
+[LINE]
+Speaker592: Das  ist eine fantastische Idee! Danke,     Lucy!
+~           that is  a    fantastic    idea  thank~you  Lucy 
+
+[MULTIPLE_CHOICE]
+> How sneaky! Oscar called Lucy because…
 - …she wouldn't answer his texts.
-- …he wanted to wish her happy birthday.
++ …he wanted her to invite him for dinner.
+- …he needed to tell her a secret.
 
 [MATCH]
 > Tap the pairs
-- Ella <> she
-- un poco <> a little
-- planes <> plans
-- en <> on
-- la <> the
+- heute Abend <> this evening
+- machst du <> are you doing
+- dieses <> this
+- Oma <> grandma
+- Was <> what
 
