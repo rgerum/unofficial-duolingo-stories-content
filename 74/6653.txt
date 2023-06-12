@@ -4,20 +4,24 @@ icon=6fee4723d01611cffa9b4b76fd5be36697ef1e96
 set=4|3
 
 [HEADER]
-> Ropa    para mis vacaciones
-~ clothes for  my  vacation  
+> 度假服
+~ vacation~clothes  
+$6227/d8f89308.mp3;3,50
 
 [LINE]
-> Lucy está en una tienda.
-~ Lucy is   at a   store  
+> 露西|在|一家商店。
+~ Lucy is at~a~store  
+$6227/026c163a.mp3;2,50;2,812;3,200;3,338
 
 [LINE]
-Speaker416: Hola,  ¿necesita ayuda?
-~           hello   you~need help  
+Speaker416: 您好，|您|需要|幫助|嗎？
+~           hello you require help (question~marker)
+$6227/8eb2f04c.mp3;2,50;2,662;3,150;3,213;2,337
 
 [LINE]
-Speaker509: Sí,  necesito ropa    para mis vacaciones.
-~           yes  I~need   clothes for  my  vacation   
+Speaker509: 對，|我|需要|假期衣服。
+~           yes  I need vacation~clothes  
+$6227/f2ccbb86.mp3;1,50;2,575;3,175;3,362;3,475
 
 [MULTIPLE_CHOICE]
 > Lucy is shopping for clothes for a vacation.
@@ -25,92 +29,111 @@ Speaker509: Sí,  necesito ropa    para mis vacaciones.
 + Yes, that's right.
 
 [LINE]
-Speaker416: Está~bien.
+Speaker416: 好。
 ~           OK        
+$6227/9ee80b8c.mp3;1,50
 
 [LINE]
-Speaker509: Necesito un vestido.
-~           I~need   a  dress   
+Speaker509: 我需要|一條裙子。
+~           I~need  a~dress   
+$6227/1749e9d4.mp3;1,50;3,187;3,338;3,337
 
 [LINE]
-> Lily busca     un vestido~verde.
-~ Lily looks~for a  green~dress   
+> 莉莉|開始找|一條|黑色的|裙子。
+~ Lily starts~looking~for a  black dress   
+$6227/6788b452.mp3;2,50;3,362;2,375;3,213;3,337;2,375;3,100
+
+[LINE]
+Speaker416: 這裡。 |一條裙子。
+~           here a~dress
+$6227/a468a986.mp3;2,50;3,1200;3,462
 
 [MULTIPLE_CHOICE]
 > Lily is getting a…
-+ …green dress.
++ …black dress.
 - …red dress.
 - …green hat.
 
 [LINE]
-Speaker509: ¡No, yo quiero un vestido~rojo!
-~            no  I  want   a  red~dress    
+Speaker509: 我不要|黑色的|裙子，|我|要|一條綠色的|裙子。
+~           I~don't~want (a)~black dress  I  want   a~green dress    
+$6227/6a2bf88c.mp3;1,50;3,175;3,312;2,400;3,100;2,775;2,150;3,150;3,338;2,425;3,100
 
 [LINE]
-> Lily busca     un vestido~rojo.
-~ Lily looks~for a  red~dress    
+> 莉莉|開始找|一條|綠色的|裙子。
+~ Lily starts~looking~for a green dress
+$6227/888e6dd6.mp3;2,50;3,362;2,375;3,213;3,337;2,400;3,100
 
 [LINE]
-Speaker509: Y   quiero una chaqueta.
-~           and I~want a   jacket   
+Speaker509: 我|也|想要|一件外套。
+~           I also want a~coat   
+$6227/22d90c26.mp3;1,50;2,212;2,150;2,200;2,150;2,150;3,175
 
 [ARRANGE]
 > Tap what you hear
-> [(Lily) (busca)     (una) (chaqueta~roja).]
-~   Lily   looks~for   a     red~jacket      
+> [(莉莉)|(開始找)|(一件)|(紅色的)|(外套)。 ]
+~   Lily   starts~looking~for   a red coat      
+$6227/ae60e2d2.mp3;2,50;3,350;2,387;2,225;2,138;3,212;2,388;3,100
 
 [LINE]
-Speaker509: ¡No, yo quiero una chaqueta~marrón!
-~            no  I  want   a   brown~jacket    
+Speaker509: 我不要|紅色的|外套，|我|要|一件褐色的|外套。
+~           I~don't~want a~red coat  I  want   a~brown coat    
+$6227/3f464f72.mp3;1,50;3,187;3,325;2,425;3,88;2,787;2,150;2,163;2,137;3,200;2,425;3,88
 
 [LINE]
-Speaker416: Está~bien…
+Speaker416: 好啊…
 ~           OK        
+$6227/abba1fd0.mp3;1,50;2,362
 
 [LINE]
-Speaker509: Un vestido~rojo, una chaqueta~marrón…
-~           a  red~dress     a   brown~jacket    
+Speaker509: 一條綠色的裙子，|一件褐色的外套…
+~           a~green~dress，    a~brown~coat    
+$6227/4de91a14.mp3;2,50;3,475;2,437;3,100;2,800;2,188;3,212;2,450;3,88
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker509: ¡[Y~un~sombrero]!
+Speaker509: ...還有 [一頂帽子]！
 ~             and~a~hat      
-- Y un bombero
-- Y un obrero
-+ Y un sombrero
+$6227/686b11bc.mp3;2,800;2,362;2,175;3,200
+- 一丁帽子
+- 一頁帽子
++ 一頂帽子
 
 [LINE]
-> Lily busca     un sombrero~azul.
-~ Lily looks~for a  blue~hat      
+> 莉莉|開始找|一頂|藍色的|帽子。
+~ Lily starts~looking~for a blue hat    
+$6227/d170ade8.mp3;2,50;3,362;2,363;2,212;2,138;3,175;2,375;3,100
 
 [LINE]
-Speaker509: ¡No, yo quiero un sombrero~gris!
-~            no  I  want   a  gray~hat      
+Speaker509: 我不要|藍色的|帽子，|我|要|一頂灰色的|帽子。
+~           I~don't~want a~blue hat  I  want   a~gray hat
+$6227/76d20d0a.mp3;1,50;3,162;3,275;2,400;3,88;2,762;2,150;2,138;2,137;3,188;2,375;3,87
 
 [LINE]
-> Lily busca     un sombrero~gris.
-~ Lily looks~for a  gray~hat      
-
-[POINT_TO_PHRASE]
-> Choose the option meaning "ready."
-Speaker509: ¡(Gracias)!   ¡(Estoy) (+lista) (para) mis vacaciones!
-~             thank~you     I~am     ready   for   my  vacation   
+> 莉莉|開始找|一頂|灰色的|帽子。
+~ Lily starts~looking~for a gray hat    
+$6227/e9812ad4.mp3;2,50;3,362;2,375;2,213;2,137;3,175;2,363;3,100
 
 [LINE]
-Speaker416: Ahora yo necesito vacaciones.  
-~           now   I  need     (a)~vacation 
+Speaker509: 謝謝！ |現在|我|準備好|去度假了！
+~             thank~you  now   I     ready~to go~on~vacation ~   
+$6227/912fb6fc.mp3;2,50;3,925;2,400;3,162;2,300;2,188;3,137;2,425
+
+[LINE]
+Speaker416: 現在|我|也|需要|放假！
+~           now   I also need to~go~on~vacation 
+$6227/b9a460b0.mp3;2,50;2,937;2,113;3,112;3,275
 
 [MULTIPLE_CHOICE]
 > Poor Lily! Why does she need a vacation?
 - She ate too much for lunch.
 + She's tired after helping Lucy find clothes.
-- She wants to buy new clothes to wear.
+- She wants to visit the Eiffel Tower.
 
 [MATCH]
 > Tap the pairs
-- Y <> and
-- chaqueta roja <> red jacket
-- sombrero gris <> gray hat
-- Gracias <> thank you
-- No <> no
-
+- 和 <> and
+- 綠色 <> green
+- 找 <> find
+- 褐色 <> brown
+- 度假 <> vacation
