@@ -15,14 +15,10 @@ set=1|4
 Speaker113: Jaa, braatsa daag.
 ~           Yaa bra~-tsa dag
 
-[SELECT_PHRASE]
-> Sentaku kotoba ka lodjikliik her.
-~ ~
-Speaker343: Un treng tulla lyettâutovomi [made], bite.
+[LINE]
+Speaker343: Un treng tulla lyettâutovomi made, bite.
 ~            ~ ~ ~ lyeta~auto~huomi ~ bitte
-- kraisena
-- kara
-+ made
+
 
 [LINE]
 Speaker113: Bra.
@@ -35,6 +31,12 @@ Speaker113: Na hshful?
 [LINE]
 Speaker343: Nai, nai tszuti...
 ~           ~ ~ pushoi
+
+[MULTIPLE_CHOICE]
+> Ka mellanossa fu "tszuti"?
+- shkekso
++ hshful, pushoi
+- zanyat
 
 [LINE]
 Speaker343: Yam nà un hiszfulfúga Vipolis made.
@@ -58,9 +60,14 @@ Speaker343: Ima sawitszuti per un..
 - Sore vil lera viossa.
 - Sore matetun hapigo.
 
-[LINE]
-Speaker113: A de, doko mattetundjin fu du?
+[SELECT_PHRASE]
+> Sentaku letstebra spørekotoba her.
+~ ~ letste-~bra spøre~kotoba
+Speaker113: A de, [doko] mattetundjin fu du?
 ~           ~ ~ ~ matetun~-djin
+- koske
+- naze
++ doko
 
 [LINE]
 Speaker343: Nai her... Un ti har mange rovøze sawi!
