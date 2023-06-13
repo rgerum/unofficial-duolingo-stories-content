@@ -4,16 +4,16 @@ icon=5afbf601db955e3db76a96aea1d4e0a535c16e7c
 set=3|2
 
 [HEADER]
-> El  nuevo estudiante
-~ the new   student   
+> Jaunais skolnieks
+~ the~new   student   
 
 [LINE]
-> Zari y   Lily están en el  autobús.
-~ Zari and Lily are   on the bus     
+> Zāra un Lillija ir autobusā.
+~ Zari and Lily are~on the~bus     
 
 [LINE]
-Speaker418: ¡Lily, hay      un nuevo estudiante en nuestra clase!
-~            Lily  there~is a  new   student    in our     class 
+Speaker418: Lillij, ir jauns skolnieks mūsu klasē!
+~            Lily  there~is a~new   student    (in)~our     class 
 
 [MULTIPLE_CHOICE]
 > Zari tells Lily that there's a new teacher at their school.
@@ -21,40 +21,40 @@ Speaker418: ¡Lily, hay      un nuevo estudiante en nuestra clase!
 - Yes, that's right.
 
 [LINE]
-Speaker418: Su  nombre es Miguel.
-~           his name   is Miguel 
+Speaker418: Viņa vārds ir Migaels.
+~           his name   is Miguel (vārdu var mainīt)
 
 [LINE]
-Speaker416: ¿Miguel?
+Speaker416: Migaels?
 ~            Miguel 
 
 [LINE]
-Speaker418: Sí,  es    de   México.
-~           yes  he~is from Mexico 
+Speaker418: Jā, viņš ir no Meksikas!
+~           yes  he is from Mexico 
 
 [LINE]
-Speaker418: ¡Su  padre  escribe libros!
+Speaker418: Viņa tēvs raksta grāmatas!
 ~            his father writes  books  
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker416: [Muy~interesante]. 
-~            very~interesting  
-- Tu interesante
-- Su interés antes
-+ Muy interesante
+Speaker416: [Ļoti interesanti]. 
+~            very interesting  
+- Interesanti
+- Nav interesanti
++ Ļoti interesanti
 
 [LINE]
-Speaker418: Habla     español, inglés  y   portugués. 
-~           he~speaks Spanish  English and Portuguese 
+Speaker418: Viņs runā spāņu, angļu, portogāļu un latviešu valodā! 
+~           he speaks~(in~the) Spanish  English Portuguese and Latvian languages
 
 [LINE]
-Speaker416: Ah, es    inteligente.
-~           oh  he~is intelligent 
+Speaker416: Ā, viņš ir gudrs.
+~           oh  he is smart 
 
 [LINE]
-Speaker418: Inteligente… y   alto. Y   tiene  muy  bonitos…
-~           intelligent  and tall  and he~has very pretty  
+Speaker418: Gudrs… un augsts. Un viņam ir ļoti skaistas…
+~           Smart  and tall  and he has very pretty  
 
 [MULTIPLE_CHOICE]
 > How does Zari describe Miguel?
@@ -63,45 +63,45 @@ Speaker418: Inteligente… y   alto. Y   tiene  muy  bonitos…
 + He's intelligent and tall.
 
 [LINE]
-Speaker416: Ja, ja, ¿sí? 
-~           ha  ha   yes 
+Speaker416: Ha ha, viņam ir? 
+~           ha  ha   he has 
 
 [LINE]
-Speaker418: Mmm… Muy  bonitos zapatos.
+Speaker418: Mmm… ļoti skaistas kurpes.
 ~           hmm  very pretty  shoes   
 
 [POINT_TO_PHRASE]
 > Choose the option that means "behind."
-Speaker416: (Zari), (Miguel) (está) (+detrás~de) ti. 
+Speaker416: (Zāra), (Migaels) (ir) (+aiz) tevis. 
 ~            Zari    Miguel   is      behind     you 
 
 [LINE]
-Speaker418: ¡¿Qué?! 
+Speaker418: Kas?! 
 ~             what  
 
 [LINE]
-Speaker416: ¡Hola,  Miguel!
+Speaker416: Sveiks, Migael!
 ~            hello  Miguel 
 
 [LINE]
-Speaker790: ¡Hola,  Lily! ¿Cómo~estás? 
+Speaker790: Sveika, Lillij! Kā~tev~iet? 
 ~            hello  Lily   how~are~you 
 
 [LINE]
-Speaker416: Bien, gracias.  
-~           fine  thank~you 
+Speaker416: Labi, paldies.  
+~           good  thank~you 
 
 [ARRANGE]
 > Tap what you hear
-Speaker416: [(Miguel), (esta) (es) (mi~amiga),  (Zari).]
-~             Miguel    this   is   my~friend    Zari   
+Speaker416: [(Migael), (šī) (ir) (mana) (draudzene),  (Zāra).]
+~             Miguel    this   is   my friend    Zari   
 
 [LINE]
-Speaker416: A~ella~le~gustan tus…  zapatos.
-~           she~likes        your  shoes   
+Speaker416: Viņai patīk tavas kurpes.
+~           she likes   your  shoes   
 
 [LINE]
-Speaker418: Ah, mmm, hola…  Miguel.
+Speaker418: Ā, mmm, sveiki…  Migael.
 ~           oh  hmm  hello  Miguel 
 
 [MULTIPLE_CHOICE]
@@ -112,9 +112,9 @@ Speaker418: Ah, mmm, hola…  Miguel.
 
 [MATCH]
 > Tap the pairs
-- Zari <> Zari
-- Sí <> yes
-- Bien <> fine
-- esta <> this
-- Qué <> what
+- Zari <> Zāra
+- Jā <> Yes
+- Labi <> Good
+- Šī, šis <> This
+- Kas <> What
 
