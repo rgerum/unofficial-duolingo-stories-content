@@ -1,24 +1,25 @@
 [DATA]
-fromLanguageName=To the Station!
+fromLanguageName=Rofaiventplas made!
 icon=5bee618bd907474764094eddf36ddcbc46523c98
 set=3|4
 
 [HEADER]
-> ¡A  la  estación!
-~  to the station  
+> Rofaiventplas made!
+~ rofai~vent~plas ~
 
 [LINE]
-> Óscar toma  un taxi.
-~ Óscar takes a  taxi 
+> Oskar kaupauto shang. 
+~ ~ kaupa~auto ~
 
 [LINE]
-> Su~amiga,   Lin, maneja el  taxi.
-~ his~friend  Lin  drives the taxi 
+> Mik fu sore, Lin, aya asoko kaupauto.
+~ ~ ~ ~ ~ ~ ~ kaupa~auto
 
 [MULTIPLE_CHOICE]
-> Lin is driving the taxi that Oscar just got into.
-+ Yes, that's right.
-- No, that's wrong.
+> Lin aya kaupauto ka Oskar tulladan.
+~ ~ ~ kaupa~auto ~ ~ tulla~dan
++ Akk, afto pravda.
+- Nai, afto uso.
 
 [LINE]
 Speaker592: ¡Lin! ¿Manejas   taxis?
@@ -46,24 +47,25 @@ Speaker592: No~sé.
 ~           I~don't~know 
 
 [MULTIPLE_CHOICE]
-> Óscar doesn't know…
-- …who Lin is.
-- …how to swim.
-+ …where the station is.
+> Oskar nai shiru…
+- …dare Lin.
+- …hur oyogi.
++ …doko rofaiventplas.
+~ ~ rofai~vent~plas
 
 [LINE]
 Speaker508: Está~bien…
 ~           OK        
 
 [LINE]
-> Lin empieza~a~manejar.
-~ Lin starts~driving    
+> Lin hadji aya.
+~ ~ ~ ~    
 
 [MULTIPLE_CHOICE]
-> Lin starts…
-- …singing.
-+ …driving.
-- …crying.
+> Lin hadji…
+- …laula.
++ …aya.
+- …naku.
 
 [LINE]
 Speaker508: ¡Aquí estamos!
@@ -78,8 +80,8 @@ Speaker508: Ah…
 ~           oh 
 
 [LINE]
-> Lin empieza~a~manejar.
-~ Lin starts~driving    
+> Lin hadji aya.
+~ ~ ~ ~    
 
 [LINE]
 Speaker508: ¡Aquí estamos!
@@ -103,8 +105,8 @@ Speaker508: Ah…
 ~           oh 
 
 [LINE]
-> Lin empieza~a~manejar… otra~vez.
-~ Lin starts~driving     again    
+> Lin hadji aya… gyen.
+~ ~ ~ ~ ~   
 
 [LINE]
 Speaker508: ¡Aquí estamos, Óscar!
@@ -127,18 +129,22 @@ Speaker508: Es   un trabajo~muy~difícil.
 ~           it's a  very~difficult~job  
 
 [LINE]
-> Lin abre  la  puerta del    taxi.
-~ Lin opens the door   of~the taxi 
+> Lin auki dvera fu kaupauto.
+~ ~ ~ ~ ~ kaupa~auto 
 
 [LINE]
 Speaker508: ¡Buenas~noches, Óscar!
 ~            good~night     Óscar 
 
 [MULTIPLE_CHOICE]
-> Oh no! Why did Lin decide to go home?
-+ She thinks driving a taxi is too difficult.
-- She needed to pick up another passenger.
-- She forgot to bring her lunch.
+> Naze Lin aukidan dvera fu kaupauto?
+~ ~ ~ auki~dan ~ ~ kaupa~auto
++ Sore myetta aya obamange haaste.
+~ ~ ~ ~ oba~mange ~
+- Sore zoldan saada neo suwarudjin.
+~ ~ zol~dan ~ ~ suwaru~-djin
+- Sore vasudan ugoki dagnamting.
+~ ~ vasu~dan ~ dag~nam~ting.
 
 [MATCH]
 > Tap the pairs
