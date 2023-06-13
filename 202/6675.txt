@@ -1,19 +1,19 @@
 [DATA]
-fromLanguageName=A New Coat
+fromLanguageName=Palto neo
 icon=966f6e25540bc4ba5347e59005bcc1e2827fdd66
 set=3|1
 
 [HEADER]
-> Un abrigo~nuevo
-~ a  new~coat    
+> Palto neo
+~ ~ ~    
 
 [LINE]
-> Vikram está en una tienda.
-~ Vikram is   in a   store  
+> Vikram inne magazan ima.
+~ ~ ~ kaupaplas ~
 
 [LINE]
-> Una mujer habla~con él. 
-~ a   woman talks~to  him 
+> Onna hanu sore made.
+~ ~ ~ Vikram ~ 
 
 [LINE]
 Speaker338: ¡Buenos~días! 
@@ -28,9 +28,9 @@ Speaker338: ¿Usted~trabaja aquí?
 ~            do~you~work   here 
 
 [MULTIPLE_CHOICE]
-> A woman asks Vikram if he works at the store.
-+ Yes, that's right.
-- No, that's wrong.
+> Onna spøre Vikram li sore ergo na magazan.
++ Akk, afto pravda.
+- Nai, afto uso.
 
 [LINE]
 Speaker593: Yo…
@@ -54,10 +54,10 @@ Speaker338: ¿Le~gusta    el~rojo?
 ~            do~you~like the~red~one 
 
 [MULTIPLE_CHOICE]
-> The woman asks Vikram if he…
-- …wants a new coat.
-- …likes working at the store.
-+ …likes the red coat.
+> Onna spøre Vikram li sore
+- …vil palto neo.
+- …dua ergo na magazan.
++ …dua afto palto røsh.
 
 [LINE]
 Speaker593: Usted…
@@ -97,10 +97,14 @@ Speaker338: ¡Gracias!   ¡Usted es  muy  bueno en su   trabajo!
 ~            thank~you   you   are very good  at your job     
 
 [MULTIPLE_CHOICE]
-> What does the woman mean?
-- She thinks Vikram should get a new job.
-+ She thinks Vikram is good at his job.
-- She thinks the red coat is ugly.
+> Ka gi fu onna?
+~ ~ imi~fu~hanuyena ~ ~
+- Sore myetta ka Vikram treng sada neo ergo.
++ Sore myetta ka Vikram bra na ergo fu sore.
+~ Onna ~ ~ ~ ~ ~ ~ ~ Vikram
+- Sore myetta ka afto palto røsh nichista.
+~ ~ ~ ~ ~ ~ ~ kundur~helena
+
 
 [LINE]
 Speaker338: ¿Y   para        pagar?   
@@ -115,10 +119,14 @@ Speaker593: Yo no~trabajo aquí.
 ~           I  don't~work here 
 
 [MULTIPLE_CHOICE]
-> What happened in the story?
-- A woman gave Vikram a job at the store.
-+ A woman thought Vikram worked at the store.
-- A woman helped Vikram buy a new hat.
+> Ka sluchadan na vimi?
+~ ~ slucha~dan ~ ~
+- Onna antaadan ergo Vikram made na magazan.
+~ ~ antaa~dan ~ ~ ~ ~ ~
++ Onna myettadan ka Vikram ergo na magazan.
+~ ~ myetta~dan ~ ~ ~ ~ ~ 
+- Onna apudan Vikram kaupa pipo neo.
+~ ~ apu~dan ~ ~ atama~klea ~
 
 [MATCH]
 > Tap the pairs
