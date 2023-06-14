@@ -22,8 +22,8 @@ set=3|4
 - Nai, afto uso.
 
 [LINE]
-Speaker592: ¡Lin! ¿Manejas   taxis?
-~            Lin   you~drive taxis 
+Speaker592: Lin, ajadu  kaupaauto?
+~           ~    du~aya ~
 
 [POINT_TO_PHRASE]
 > Sentaku kotoba ka kundur "gammel".
@@ -35,21 +35,22 @@ Speaker508: Doko made szkoe|vįl?
 ~ ~ ~ shkoi vil 
 
 [LINE]
-Speaker592: ¡A  la  estación, por~favor!
-~            to the station   please    
+Speaker592: Ventpik made, bitte.
+~           vent~pik,~auto~huomi    
 
 [LINE]
 Speaker508: Doko kaopaoto|hwomi?
 ~ ~ kaupa~auto huomi   
 
 [LINE]
-Speaker592: No~sé.       
-~           I~don't~know 
+Speaker592: Şiru|naj|un.
+~           (un)~(nai)~shiru (un)~nai~(shiru) un~(nai)~(shiru)
 
 [MULTIPLE_CHOICE]
 > Oskardjin nai shiru…
 - …dare Lindjin.
 - …hur oyogi.
+~ ~ ugoki~inne~ishke
 + …doko autohuomi.
 ~ ~ auto~huomi
 
@@ -69,8 +70,8 @@ Speaker508: De, tullena|'v!
 ~ ~ tulla~-ena vi
 
 [LINE]
-Speaker592: Lin… esta no~es la  estación. Esta es la  universidad.
-~           Lin  this isn't the station   this is the university  
+Speaker592: Lin, afto ventpik naj. Afto obaşkola
+~           ~ ~ vent~pik,~auto~huomi nai ~ oba~shkola
 
 [LINE]
 Speaker508: A…
@@ -86,16 +87,16 @@ Speaker508: De, tullena|'v!
 
 [LINE]
 Speaker592: Lin…
-~           Lin 
+~           ~
 
 [LINE]
 Speaker508: E?
 ~ ~ 
 
-[ARRANGE]
-> Tap what you hear
-Speaker592: [(Este) (es) (el)  (hospital).]
-~             this   is   the   hospital   
+[POINT_TO_PHRASE]
+> Sentaku kotoba ka kundur "zdorva".
+Speaker592: (Afto) (+bjurki) (huomi).
+~           ~ byurki ~   
 
 [LINE]
 Speaker508: A…
@@ -110,8 +111,8 @@ Speaker508: Vi dan tulla, Oscar!
 ~           ~  ~   ~      ~ 
 
 [LINE]
-Speaker592: Lin, esta no~es la  estación…
-~           Lin  this isn't the station  
+Speaker592: Lin, afto ventpik naj.
+~           ~ ~ vent~pik,~auto~huomi nai
 
 [LINE]
 Speaker508: Un sziru, afto hwomi f un.
@@ -137,17 +138,17 @@ Speaker508: Vra|nakst|tsa, Oscar!
 > Naze Lindjin auki dan dvera fu kaupauto?
 ~ ~ ~ ~ ~ ~ ~ kaupa~auto
 + Sore myetta aya obamange haaste.
-~ ~ ~ ~ oba~mange ~
+~ ~ ~ ~ oba~mange,~taksan ~
 - Sore zol dan saada neo suwarudjin.
 ~ ~ ~ ~ ~ ~ suwaru~-djin
 - Sore wasu dan maha dagnamting.
 ~ ~ ~ ~ ~ dag~nam~ting.
 
 [MATCH]
-> Tsunaga kotoba fu mellanossa na kotoba fu govor.
-- tao <> tak
-- vįl <> vil
-- estamos <> we are
-- ir <> to go
-- manejar <> to drive
+> Tsunaga kotoba mit pravda imi.
+- ugoki auto <> aya
+- kundur simper <> haaste
+- reformaplas <> byurkihuomi 
+- obamange <> taksan
+- ugoki inne ishke <> oyogi
 
