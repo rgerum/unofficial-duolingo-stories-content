@@ -71,7 +71,7 @@ Speaker343: Ryóho he brur fù un, Mariô au Haviêr.
 Speaker342: Hola,  Mario. Hola,  Javier.
 ~           hello  Mario  hello  Javier 
 
-[SELECT_PHRASE]
+[CONTINUATION]
 > Sentaku kotoba ka letste pravda.
 Speaker342: Yam na du [mange stuur fami]! 
 - mange trelo fami
@@ -108,10 +108,16 @@ Speaker342: ¡Gracias!
 ~ Mama~fu~Ana har~dan chiisai~lapsi ~ ~ ~ ~
 
 [MATCH]
-> Sentaku fu mellanossa na ktoba fu govor
+> Sentaku fu mellanossa na ktoba fu govor.
 - ona <> onna
--yam <> jamti
-- va a <> is going to
-- Esta <> this
-- Mi <> my
+- yam <> jamti
+- he <> hei
 
+[MATCH]
+> Tsunaga kotoba mit pravda imi.
+- onna lapsi <> tuter
+- chiisai lapsi <> vauva
+- al ni <> ryoho
+- kundur vasu <> huske
+- myes mipi <> brur
+- onna mipi <> sisko
