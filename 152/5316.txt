@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=A Date
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+#Needs to have audio added or listening exercises replaced before being published again.
+
+[HEADER]
+> Eng Rendez-vous
+~ a   date
+
+[LINE]
+> Bea ass an enger Rendez-vous an enge Restaurant.
+~ Bea is   on a   date in a  restaurant  
+
+[LINE]
+Speaker507: Moien!  Wéi geet et? 
+~            hello   how~are~you 
+
+[LINE]
+Speaker100: Gutt!
+~            fine 
+
+[LINE]
+Speaker100: Wat wëlls du iessen? 
+~            what do~you~want to~eat 
+
+[LINE]
+Speaker507: Eng Zalot.
+~           a   salad    
+
+[SELECT_PHRASE]
+> Wielt de richtegen Saz aus
+Speaker507: Haut hunn ech [eng wichtege Match].
+~           today I~have  an~important~game      
++ eng wichtege Match
+- eng wichtegen Match
+- ee wichtege Match
+
+[LINE]
+Speaker100: O, hues du (de) Spoort gär?
+~           oh   do~you~like (the)~sports 
+
+[LINE]
+Speaker507: Jo, ech spille Fussball.
+~           yes  I  play     soccer 
+
+[MULTIPLE_CHOICE]
+> Bea bestellt eng Zalot, wëll...
++ ...Si spillt Haut Fussball.
+- ...Seng Date seet daat den Zalot ass lecker.
+- ...Si huet einfach de  ganze Pizza gies.
+
+[LINE]
+Speaker100: Ech och!
+~            Me too   
+
+[LINE]
+Speaker507: Immens!
+~            Great! 
+
+[LINE]
+Speaker507: Vu wou bass du?     
+~            where~are~you~from 
+
+[LINE]
+Speaker100: Ech si Amerikaner.
+~           I~am American  
+
+[ARRANGE]
+> Tipp wat du gesäis: 
+Speaker100: [(Meng Papp)  (ass vu Küba)   (a)   (mengem mamm)  (ass vu Mëxiko-Stad).]  
+~             my~father   is~from~Cuba   and   my~mother   is~from~Mexico   
+
+[LINE]
+Speaker507: Ech hu Kuba ganz gär!
+~            I~love     Cuba 
+
+[LINE]
+Speaker100: Kuba ass ganz schéin.   
+~           Cuba is very beautiful 
+
+[LINE]
+Speaker507: Hues du Déierern?
+~            do~you~have pets     
+
+[LINE]
+Speaker100: Ech hunn zwee Kazen a eng Mupp.
+~           I~have two cats  and a  dog   
+
+[POINT_TO_PHRASE]
+> Wielt den Optioun aus dee mengt "och".
+Speaker507: Ech hunn (och) een (Mupp), hie heescht (José).
+~           I    also      have   a   dog      José  
+
+[LINE]
+Speaker100: Wat? Mäi Numm ass Danni…
+~            eh  my~name~is  Daniel 
+
+[LINE]
+Speaker100: Bass de net Gabriela?
+~            aren't~you Gabriela 
+
+[LINE]
+Speaker507: Nee!
+~            no 
+
+[LINE]
+Speaker507: Mäi Numm ass Bea!
+~            my~name~is  Bea 
+
+[MULTIPLE_CHOICE]
+> Hutt Dir verstanen? Bea a Danni…
+- …Hu Billjee fir Kuba gekaaf.
++ …Ware supposéiert fir verschidde Leit ze treffen.
+- …Spadséiert hire Muppen.
+
+[LINE]
+> Eng Fra marschéiert géintiwwer Danni.
+~ a   woman walks  towards Daniel 
+
+[LINE]
+Speaker101: Moien!  Bass du    Danni? Ech heesche Daniela.
+~            hello   are~you Daniel  I~am Gabriela 
+
+[LINE]
+Speaker100: Nee, et deet mer leed. Ech heesche José.
+~           no  I'm~sorry  I~am José 
+
+[MULTIPLE_CHOICE]
+> Hä! What just happened?
+- Bea changed her name to Gabriella.
++ Danni lied to her real date because he likes Bea.
+- Bea ans Danni's dog played Football together.
+
+[MATCH]
+> Tip the pairs
+- ech sinn <> I am
+- zalot <> salad
+- ech hu gär <> I love
+- nee <> no
+- hä <> eh
+
