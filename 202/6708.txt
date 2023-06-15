@@ -12,12 +12,12 @@ set=7|1
 ~ ~
 
 [LINE]
-Speaker415: ¡Papá, necesito un videojuego~nuevo!
-~            dad   I~need   a  new~video~game   
+Speaker415: Papa, un trengti neu zespil!
+~           ~ ~ treng~-ti neo ~  
 
 [LINE]
-Speaker414: No, Junior. No~necesitas   un videojuego~nuevo.
-~           no  Junior  you~don't~need a  new~video~game   
+Speaker414: Naj, Junjor. du trengnaj neo zespil.
+~           ~ ~ ~ nai~treng ~ ~   
 
 [MULTIPLE_CHOICE]
 > Edi myetta ka Yunior treng neo zespil.
@@ -25,20 +25,21 @@ Speaker414: No, Junior. No~necesitas   un videojuego~nuevo.
 + Nai, afto uso.
 
 [LINE]
-Speaker415: ¡Por~favor! ¡Este videojuego de robots es muy  divertido!
-~            please      this video~game of robots is very fun       
+Speaker415: Bitte, afto zespil fu robóto ti hel ninténdo!
+~           ~ ~ ~ ~ robotto ~ ~ nintendo       
 
-[SELECT_PHRASE]
+[CONTINUATION]
 > Sentaku kotoba ka letste pravda.
-Speaker414: Junior, [tú~quieres~este] videojuego, pero no~necesitas   este videojuego.
-~           Junior   you~want~this    video~game  but  you~don't~need this video~game 
-+ tú quieres este
-- tú sientes este
-- tú quieres estar
+Speaker414: Junjor, du [vil] afto zespil, men du trengnaj afto zespil.
+~           ~
+- da
+- mus
++ vil
+- laki
 
 [LINE]
-Speaker415: Está~bien, ¡yo lo~quiero! ¿Lo~compramos?   
-~           OK          I  want~it     (can)~we~buy~it 
+Speaker415: Bra de, un vil, deki ka du kaupa?
+~           ~
 
 [ARRANGE]
 # treng kawari uten-ufne made
@@ -47,35 +48,33 @@ Speaker414: [(No)… (Tienes)   (muchos)   (videojuegos) (en~casa).]
 ~             no    you~have   a~lot~of   video~games   at~home   
 
 [LINE]
-Speaker415: Sí,  sí…  Está~bien, ¿vamos~a      casa?
-~           yes  yes  OK          we~are~going home 
+Speaker415: Bra, bra de… Vi skëi surúk na vomi os?
+~           ~ ~ ~ ~ shkoi suruk,~gyenshkoi ~ huomi ~
 
 [LINE]
-Speaker414: No, vamos        a  casa~de~Vikram.
-~           no  we~are~going to Vikram's~house 
+Speaker414: Naj, vi skojmiraj huomi fu Vikram made.
+~           ~ ~ mirai~shkoi ~ ~ ~ ~ 
 
 [CONTINUATION]
 > Ka kotoba letste pravda her?
-Speaker415: ¿Por~qué? ¡Su~casa   es [muy  aburrida]!
-~            why       his~house is  very boring    
-- una tienda
-~ a   store 
-- un videojuego~nuevo
-~ a  new~video~game  
-+ muy  aburrida
-~ very boring  
+Speaker415: Nazè? Vomi fu sorè hel [smaranai]…
+~           naze ~ ~ sore ~ tsumara~nai  
+- tristnai 
+- atšor|nai
+~ achor
++ smaranai
+~ tsumaranai
 
 [LINE]
-Speaker414: Pero su~televisión es grande y   yo necesito ver      el  partido~de~fútbol.
-~           but  his~TV        is big    and I  need     to~watch the soccer~game       
+Speaker414: Men sore~ekran sture au un mus se mjakspil ke jam.
+~           ~ ekran~fu~sore stur ~ ~ ~ ~ myahspil ka ~
 
 [LINE]
-Speaker415: Papá, tú  quieres ver      el  partido, pero no~necesitas   ver      el  partido.
-~           dad   you want    to~watch the game     but  you~don't~need to~watch the game    
+Speaker415: Papa, du vil ninténdose spil, men du nai musti se spil, ne?
+~           ~ ~ ~ se~per~nintendo ~ ~ ~ ~ mus~-ti ~ ~ ~  
 
 [MULTIPLE_CHOICE]
 > Ryoho Edi awen Yunior…
-+ …say they need something when they only want it.
 + …hanu ka hei treng yokuting koske mono vil.
 ~ ~ ~ ~ ~ yoku~ting ~ ~ ~
 - …lyetta oba robotto.
@@ -83,10 +82,8 @@ Speaker415: Papá, tú  quieres ver      el  partido, pero no~necesitas   ver   
 - …spil zespil mit Vikram.
 
 [MATCH]
-> Tap the pairs
-- vamos a <> we are going
-- partido <> game
-- necesito <> I need
-- videojuegos <> video games
-- Su casa <> his house
+> Tsunaga kotoba au pravda imi fu hei.
+- pashuun mahena na yerkat <> robotto
+- kundur kyomi <> tsumaranai
+- shkoi plas gyen <> suruk
 
