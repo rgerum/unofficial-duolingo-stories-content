@@ -16,111 +16,107 @@ set=7|2
 ~ ~ ~ ~ ~ ~ ~
 
 [LINE]
-Speaker823: ¡Hola!  ¿Necesitas ayuda?
-~            hello   you~need  help  
+Speaker823: Iaa! Du treng apu?
+~           yaa  
 
 [LINE]
-Speaker507: ¡Sí!  Voy       para Barcelona…
-~            yes  I'm~going to   Barcelona 
+Speaker507: Ak! Shkoi alant made.
+~           ~
 
 [POINT_TO_PHRASE]
 > Ka kotoba imi "yerkatfugel"?
 ~ ~ ~ ~ yerkat~fugel
-Speaker507: … y   (quisiera)     (estar) al~lado~de mi (novia)      en el  (+avión).
-~             and  I~would~like   to~be  next~to    my  girlfriend  on the   plane  
+Speaker507: ...au (vil) na ka (deki) (suwaru) (akote) (duadjin) (fun) na (+lyettaauto).
+~              ~  ~   ~  ~  ~    ~      ~     dua~-djin fu~un ~ lyetta~auto
 
 [LINE]
-Speaker823: Está~bien, tenemos dos asientos juntos.  
-~           OK         we~have two seats    together 
+Speaker823: Bra, yam ni isu riogho made akote.
+~           ~ ~ ~ ~ ryoho ~
 
 [LINE]
-Speaker507: ¡Perfecto!
-~            perfect  
+Speaker507: Na vikti jo, danke!
+~           ~  
 
 [MULTIPLE_CHOICE]
 > Naze Bea glau?
-+ Yam ni isu na gele ryoho.
++ Yam ni isu ka akote ryoho.
 - Tuo myes Barselona kara.
 - Sore mono treng stadji minus per hishfulfuga fu sore.
-~ ~ ~ ~ anta~gelt ~ ~ hishful~fuga ~ ~
+~ ~ ~ ~ antaa~gelt ~ ~ hishful~fuga ~ ~
 
 [LINE]
-Speaker823: Mmm… ¿dónde está tu~novia?       
-~           hmm   where is   your~girlfriend 
+Speaker823: Mmm… duadjin fu du doko?    
+~           ~
 
 [LINE]
-Speaker507: No~sé.        ¿Puede~ayudarme  a~buscarla?       
-~           I~don't~know   can~you~help~me (to)~look~for~her 
+Speaker507: Nai shiru. Deki apu na finna sore?
+~           ~
 
 [LINE]
-Speaker823: ¿Cómo es?      
-~            how  is~(she) 
+Speaker823: Hur sore seyena?
+~           ~ ~ se~-ena 
 
-[SELECT_PHRASE]
-> Sentaku kotoba ka letste pravda.
-Speaker507: Mmm… Ella es alta, tiene     [el~pelo~negro]…
-~           hmm  she  is tall  (she)~has  black~hair     
-+ el pelo negro
-- el cielo negro
-- el perro negro
+[POINT_TO_PHRASE]
+> Ka kotoba kundur "hobit"?
+Speaker507: M… (+Pitka), au (hor) fu (sore) (kuro)…        
 
 [LINE]
-Speaker823: Está~bien.
-~           OK        
+Speaker823: Ok.
+~           ~       
 
 [LINE]
-Speaker507: Le~gusta  hacer~deportes y   bailar…  
-~           she~likes to~play~sports and to~dance 
+Speaker507: Dua spil au vals…
+~           ~ 
 
 [LINE]
-Speaker823: Ah…
-~           oh 
+Speaker823: O…
+~           ~ 
 
 [LINE]
-Speaker507: A~ella le~encantan los~animales…
-~           she    loves       animals      
+Speaker507: au duur…
+~           ~ ~   
 
 [LINE]
-Speaker507: … pero come       demasiado chocolate.
-~             but  (she)~eats too~much  chocolate 
+Speaker507: …men nam plus shoki na lakiti.
+~            ~   ~   ~    ~     ~  laki~-ti 
 
 [LINE]
-Speaker823: Está~bien… ¿Cómo~se~llama~tu~novia?       
-~           OK          what's~your~girlfriend's~name 
+Speaker823: Ok… ka namae fu sore?     
+~           ~ 
 
 [LINE]
-Speaker507: Ah, yo no~sé.     
-~           oh  I  don't~know 
+Speaker507: A, nai shiru.     
+~           ~ 
 
 [LINE]
-Speaker823: ¿No~sabes       cómo~se~llama~tu~novia?       
-~            you~don't~know what's~your~girlfriend's~name 
+Speaker823: Du shirunai namae fu duadjin fu du?    
+~           ~  nai~shiru ~ 
 
 [MULTIPLE_CHOICE]
 > Trelo ne! Bea nai shiru...
-- …doko Barcelona.
+- …doko Ålant.
 - …namae fu sebya.
 + …namae fu duadjin.
 
 [LINE]
-Speaker507: No~tengo     novia          todavía.
-~           I~don't~have (a)~girlfriend yet     
+Speaker507: Nai yam duadjin na un.
+~           ~  
 
 [LINE]
-Speaker507: ¿Puede~ayudarme~a~buscar  una?
-~            can~you~help~me~look~for one 
+Speaker507: Deki apu na finna?
+~           ~
 
 [MULTIPLE_CHOICE]
 > Du fshto dan we?
 - Duadjin fu Bea milu dan.
+~ ~ ~ ~ nai~shiru~doko ~
 + Bea nai har duadjin ende.
 - Duadjin fu Bea ende na huomi.
 
 [MATCH]
-> Tsunaga kotoba fu mellanossa na kotoba fu govor.
-- chocolate <> chocolate
-- avión <> plane
-- a buscarla <> look for her
-- todavía <> yet
-- una <> one
+> Tsunaga kotoba mit pravda imi.
+- antaa gelt <> stadji
+- nai shiru doko sebya <> milu
+- auto ka deki lyetta <> yerkatfugel
+- iskat shiru doko yokuting <> finna
 
