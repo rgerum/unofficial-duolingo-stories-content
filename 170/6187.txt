@@ -1,0 +1,144 @@
+[DATA]
+fromLanguageName=A Family Dinner
+icon=076bc5bf725308c211b9c04f07d3622683e84d78
+set=8|4
+
+[HEADER]
+> Makan~Malam~Keluarga
+~ A~family~dinner
+$6187/94c0dd78.mp3;5,0;6,325;9,360
+
+[LINE]
+> Lin sedang berkunjung~ke rumah~Bea.  Ia berada di dapur. 
+~ ~   is     visiting      Bea's~house she is      in the~kitchen
+$6187/9b11b98a.mp3;3,0;7,209;11,320;3,505;6,85;4,284;4,385;7,630;3,412;6,125
+
+[LINE]
+> Ia  melihat banyak   makanan dan empat botol        anggur di~atas meja. 
+~ she sees    a~lot~of food    and four  bottles~(of) wine on table 
+$6187/521acaec.mp3;2,0;8,219;7,442;8,340;4,505;6,190;6,330;7,340;3,392;5,160;5,355
+
+[LINE]
+Speaker508: Wow! Banyak~sekali makanannya!
+~           ~    so~much       food
+$6187/53887f50.mp3;3,0;8,400;7,590;11,394
+
+[LINE]
+Speaker507: Ya. Keluargaku akan datang untuk makan~malam.      
+~           yes my~family  will come   for dinner 
+$6187/57eb1386.mp3;2,50;11,1237;5,825;7,375;6,375;6,388;6,375
+
+[MULTIPLE_CHOICE]
+> Bea's family is coming to her house for breakfast.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker508: Oh. Boleh~coba kuenya   sedikit~saja?
+~           oh  can~I~try  the~cake just~a~bit 
+$6187/5c3d6b50.mp3;2,0;7,414;5,571;7,300;8,349;5,435
+
+[LINE]
+Speaker507: Enggak~boleh.
+~           you~can't
+$6187/051b5ce6.mp3;6,50;6,387
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker508: Tapi, [kuenya~ada~tiga].
+~           but  there~are~three~cakes  
+$6187/361e8d82.mp3;4,0;8,524;4,816;5,240
+
+- kuenya ada satu
+- kuenya ada dua
++ kuenya ada tiga
+
+[LINE]
+Speaker507: Iya, aku butuh tiga-tiganya.
+~           yes  I   need  all~three   
+$6187/74e21c38.mp3;3,50;4,712;6,325;13,438
+
+[LINE]
+Speaker508: Oke. Kalau~begitu,      boleh~minta anggurnya~satu~gelas?
+~           okay if~that's~the~case can~I~have  one~of~them
+$6187/76de5ce0.mp3;3,0;7,444;7,721;9,364;4,520;6,195;10,280;5,465;6,280
+
+[LINE]
+Speaker507: Lin, jangan.
+~           ~    don't 
+$6187/c100b2b8.mp3;3,50;7,600
+
+[CONTINUATION]
+> What's next?
+Speaker508: Tapi, anggurnya~ada~[empat~botol].
+~           but   there~are~four~bottles~of~wine
+$6187/5492a2ec.mp3;4,0;11,529;4,940;6,240;6,325
+
+- satu botol 
+~ one bottle
+- dua botol
+~ two bottles
++ empat botol
+~ four bottles
+
+[LINE]
+Speaker507: Aku butuh semua anggur~itu.
+~           I   need  all   the~wine
+$6187/9a67dfd8.mp3;3,50;6,312;6,325;7,413;4,387
+
+[LINE]
+Speaker508: Boleh~cicip pizanya?
+~           can~I~taste the~pizza
+$6187/77be1f24.mp3;5,0;6,375;8,345
+
+[LINE]
+Speaker507: Jangan.
+~           don't
+$6187/e833c078.mp3;6,50
+
+[LINE]
+Speaker508: Oke deh. Pukul~berapa makan~malamnya? 
+~           okay ~   what~time the~dinner 
+$6187/096cb1c0.mp3;3,0;4,375;7,319;7,601;6,354;9,330
+
+[POINT_TO_PHRASE]
+> Choose the option that means "next".
+Speaker507: Oh, (makan~malamnya) (masih) (pekan)~(+depan).
+~           oh  the~dinner       still   next~week    
+$6187/be1b4bc2.mp3;2,50;6,725;9,387;6,450;7,450;6,363
+
+[ARRANGE]
+> Tap what you hear
+Speaker507: [(Ini) (semua)   (untuk|ku).]
+~            these all~(are) for    me
+$6187/c46307c2.mp3;3,50;6,287;6,413;3,387
+
+[LINE]
+Speaker508: Apa? 
+~           what 
+$6187/c7ca5d2a.mp3;3,0
+
+[LINE]
+Speaker507: Keluargaku     susah sekali!  Aku    bingung!
+~           my~family~(is) difficult very I~(am) confused  
+$6187/ca699c76.mp3;8,50;3,525;6,137;7,288;4,1487;8,263
+
+[LINE]
+Speaker507: Aku butuh semua~makanan~dan~anggur~ini sekarang.
+~           I   need  all~these~food~and~wine      now   
+$6187/cef13fa6.mp3;3,50;6,300;6,350;8,350;4,525;7,200;4,412;9,325
+
+[MULTIPLE_CHOICE]
+> Bea has a very difficult family so...
++ ...she needs all the food and wine for herself.
+- ...she's giving the food to Lin instead.
+- ...she stopped talking to them.
+
+[MATCH]
+> Tap the pairs
+- pekan depan  <> next week
+- cicip        <> taste
+- empat        <> four
+- coba         <> try
+- piza         <> pizza
+
