@@ -16,8 +16,8 @@ set=7|4
 ~ ~ hanu ~ ~ stol~per~spøre ~
 
 [LINE]
-Speaker659: ¿Te~puedo~ayudar en~algo?       
-~            I~can~help~you  with~something 
+Speaker659: Un dekiti apu du mit yokk we?     
+~           ~ deki~ti ~ ~ ~ yokuting ~
 
 [LINE]
 Speaker415: Un vil hišfúlfuga Ålant made.
@@ -28,35 +28,43 @@ Speaker415: Un vil hišfúlfuga Ålant made.
 - Akk, afto pravda.
 + Nai, afto uso.
 
-[SELECT_PHRASE]
+[CONTINUATION]
 > Select the missing phrase
-Speaker659: ¿Dónde [están~tus~padres]?
-~            where  are~your~parents  
-+ están tus padres
-- trabajan tus padres
-- están sus madres
+Speaker659: Doko [ruîszin] fu du?
+~ ~ ruishin ~ ~
++ ruîszin
+~ papa~au~mama
+- hammas
+- twalet
+~ tualet
+- ø
+~ voi
 
 [LINE]
 Speaker415: Ka? Un nai jam mono na nana toši.
 ~            ~ ~ ~ ~ ~ ~ ~ toshi
 
 [LINE]
-Speaker659: ¿Y   cuántos~años~tienes?
-~            and how~old~are~you     
+Speaker659: De katái toszi yam nà du?
+~           ~ katai toshi ~ na ~  
 
 [LINE]
 Speaker415: Kasi toši jamti jo. 
 ~           ~ toshi yam~-ti (zamko)
 
-[POINT_TO_PHRASE]
-# kawari na Ålant
-> Choose the option that means "four hundred."
-Speaker659: Un (boleto) para (Barcelona) cuesta (+cuatrocientos) (dólares).
-~           a   ticket  to    Barcelona  costs    four~hundred    dollars  
+[LINE]
+Speaker659: Hiszfulfuga Ålant made yam kyerehyaku dolar.
+~           hshfulfuga ~ ~ ~ kyere~hyaku ~
 
 [LINE]
 Speaker415: Bra, de. Doko deki skëi|ti mitt tredenn dolar?
 ~           ~ ~ ~ ~   shkoi ~ mit tre~den ~
+
+[MULTIPLE_CHOICE]
+> Yunior yam lagom gelt per hshfulfuga we?
+~ ~ ~ na~mange~ka~trengena ~ 
+- Akk, Yunior yam lagom.
++ Nai, Yunior treng plus gelt.
 
 [LINE]
 > Edi, papa fu Yunior, djingsai spørestol made.
