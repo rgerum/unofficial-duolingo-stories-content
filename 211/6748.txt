@@ -4,32 +4,31 @@ icon=5361833c123aec9adfa60b0dc63398cd1aa49ef2
 set=2|1
 
 [HEADER]
-> La  chaqueta~roja
+> La  chamara~velmeya
 ~ the red~jacket   
 
 [LINE]
-> Lily está en una tienda~de~ropa con  su  amiga,  Zari.
-~ Lily is   in a   clothing~store with her friend  Zari 
+> Lily té n'una batiga~de~roba anla sua  amiza,  Zari.
+~ Lily is   in~a   clothing~store with her friend  Zari 
 
 [LINE]
-Speaker416: Esta tienda es muy  cara.     
-~           this store  is very expensive 
+Speaker416: Esta batiga sé marpraçela.     
+~           this store  is very~expensive 
 
 [LINE]
-Speaker418: Sí… 
+Speaker418: Sa… 
 ~           yes 
 
 [LINE]
-Speaker418: ¡Guau!
+Speaker418: ¡Üa!
 ~            wow  
 
-[SELECT_PHRASE]
-> Select the missing phrase
-Speaker418: ¡[Esta~chaqueta~roja] es perfecta!
-~             this~red~jacket     is perfect  
-+ Esta chaqueta roja
-- Esta chancleta roja
-- Esa chaqueta floja
+
+[POINT_TO_PHRASE]
+> Choose the option that means "red jacket".
+Speaker418: ¡(Esta) (+chamara velmeya) (sé) (perfeuta)!
+~             this    red~jacket  is   perfect 
+
 
 [LINE]
 Speaker416: Mmm, Zari…
