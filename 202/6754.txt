@@ -1,15 +1,15 @@
 [DATA]
-fromLanguageName=Where Are My Keys?
+fromLanguageName=Doko kliuch fu un?
 icon=3f21c887f044dc2ac0d1f0d0ea74e1200b587ac2
 set=11|4
 
 [HEADER]
-> ¿Dónde están mis llaves?
-~  where are   my  keys   
+> Doko kliuch fu un?
+~ ~   
 
 [LINE]
-> Lin está con  su~abuela,       Lucy.
-~ Lin is   with her~grandmother  Lucy 
+> Lin ima mit gammelmama fu sore, Lusi.
+~ ~  
 
 [LINE]
 Speaker509: Tenemos una~reserva   en un restaurante~muy~elegante esta~noche.
@@ -20,9 +20,11 @@ Speaker509: ¿Vamos?    No~quiero    llegar~tarde.
 ~            let's~go  I~don't~want to~be~late   
 
 [MULTIPLE_CHOICE]
-> Lucy is cooking a fancy dinner.
-- Yes, that's right.
-+ No, that's wrong.
+> Doko ryoho hei shkoi made imadag?
+- magazandai
+- oyogihuomi
+- ishuhuomi
++ namplas
 
 [LINE]
 Speaker508: ¡Está~bien!
@@ -37,10 +39,12 @@ Speaker509: Tú  nunca sabes dónde están~tus~llaves.
 ~           you never know  where your~keys~are    
 
 [MULTIPLE_CHOICE]
-> Lucy says that Lin never knows where…
-- …their dog is.
-- …to put her clothes.
-+ …her keys are.
+> Lusi hanu ka Lin nilraz shiru…
+~ ~ ~ ~ ~ nil~raz
+- …doko huin fu hei.
+- …doko treng nasi klea fu sore.
++ …doko kliuch fu sore.
+- …dare Lusi.
 
 [LINE]
 Speaker509: ¿Están    en tu~abrigo?
@@ -93,18 +97,26 @@ Speaker509: (Está~bien), yo (puedo) (+cocinar) algo      para (la~cena).
 ~            OK          I   can      cook     something for   dinner   
 
 [LINE]
-> Lucy abre  la  puerta de la  nevera.
-~ Lucy opens the door   of the fridge 
+> Lusi auki dvera fu samuibaksu.
+~ ~ ~ ~ ~ samui~baksu 
 
 [LINE]
 Speaker509: ¡Lin, aquí están tus~llaves!
 ~            Lin  here are   your~keys  
 
 [MULTIPLE_CHOICE]
-> At last! Lin's keys were in…
-- …her shoes.
-+ …the refrigerator.
-- …her car.
+> Ai, na owari! Kliuch fu Lin long…
+- …duffel fu sore.
++ …samuibaksu.
+- …auto fu sore.
+
+[MULTIPLE_CHOICE]
+> Na du, hur Lin seyena?
+- Bra na huske
+- Bistra na gotova per dengwaina
++ Alraz vasu
+- Dekinai se
+
 
 [MATCH]
 > Tap the pairs
