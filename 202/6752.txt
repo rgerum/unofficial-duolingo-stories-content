@@ -12,64 +12,71 @@ set=11|2
 ~ ~
 
 [LINE]
-Speaker414: ¿Quieres  practicar un nuevo deporte? ¡Qué~bueno!
-~            you~want to~play   a  new   sport     great     
+Speaker414: Du vil spil neo raida? Bra|da!
+~           ~ ~ ~ ~ ~ ~ -dai    
 
 [LINE]
-Speaker414: ¿Quieres  jugar~al baloncesto?
-~            you~want to~play  basketball 
+Speaker414: Du vil spil lanz|mjak wej?
+~           ~ ~ ~ landz myah we,~akk~os~nai? 
 
-[SELECT_PHRASE]
-> Select the missing phrase
-Speaker415: No~me~gustan [los~deportes~con~pelotas].
-~           I~don't~like  sports~with~balls         
-+ los deportes con pelotas
-- los reportes con pelotas
-- los deportes con bellotas
+[LINE]
+Speaker415: Nai duati nil mjahraida.
+~           ~   dua~ti ~  raida~mit~myah      
+
+[MULTIPLE_CHOICE]
+> Du fshto dan we? Yuniordjin nai dua…
+- …har papa.
++ …spil myahspil.
+- …kaupa spilmyah per papa.
+~ ~ myah~per~spil
 
 [LINE]
 Speaker414: ¡Esta raqueta~de~tenis es muy  bonita!
 ~            this tennis~racket    is very pretty 
 
 [CONTINUATION]
-> What comes next?
-Speaker415: Necesitas una pelota para     [jugar~al tenis]. 
-~           you~need  a   ball   in~order  to~play  tennis  
-- al~baloncesto
-~ basketball   
-+ jugar~al tenis 
-~ to~play  tennis
-- una tienda 
-~ a   store  
+> Ka letstepravda kotoba her?
+Speaker415: Trengti mjah per spil [tenisspil] mná, papa.
+~           treng~ti myah ~ ~ tenis~spil mena ~
+- landzmyah 
+~ landz~myah
+- kompyuspil
+~ kompyu~spil
++ tenisspil
+~ tenis~spil
+- vals 
 
 [LINE]
-Speaker414: Ah, sí.  Mmm... ¿Qué  puedes~practicar?
-~           oh  yes  hmm     what you~can~play     
+Speaker414: A, aku. Hmm… ka raida du deki?
+~           ~      
 
 [LINE]
-Speaker415: Yo quiero...
-~           I  want     
+Speaker415: Vilti…
+~           vil~ti
 
 [LINE]
-Speaker414: ¡Nadar!   ¡¿Quieres  nadar?!  
-~            to~swim    you~want to~swim  
+Speaker414: Ojogi! Du vil ojogi?
+~           oyogi~(inne~ishke)
 
 [LINE]
-Speaker415: No...
-~           no   
+Speaker415: Nai!  
 
-[ARRANGE]
-> Tap what you hear
-Speaker414: [(Pero) (es)   (un) (deporte) (sin~pelotas).]  
-~             but    it's   a    sport     without~balls   
+[CONTINUATION]
+> Ka kotoba letste lodjiklik her?
+Speaker414: Afto rajda bra uten [mjak] menna. 
+~           ~ raida ~ nai~mit,~mit~nil myah mena
++ myah
+- shoki
+- kaban
+- bet
 
 [LINE]
-Speaker415: ¡Papá, no!
-~            dad   no 
+Speaker415: Ende nai, papa!
+~           dan~au~ima
 
 [LINE]
-Speaker414: Bueno, ¿qué  quieres  hacer?
-~           well    what you~want to~do 
+Speaker414: Site, ka du vil?
+~           sitt
 
 [LINE]
 > Yunior anse yoku valsduffel.
@@ -77,7 +84,7 @@ Speaker414: Bueno, ¿qué  quieres  hacer?
 
 [MULTIPLE_CHOICE]
 > O! Seyena ka Yunior vil…
-- vatsitna.
+- …vatsitna.
 ~ vatsit~-na
 + …iskat vals.
 - …spil yalamyah.
@@ -86,28 +93,28 @@ Speaker414: Bueno, ¿qué  quieres  hacer?
 ~ oyogi~-na
 
 [LINE]
-Speaker415: Yo quiero… bailar.  
-~           I  want    to~dance 
+Speaker415: Vilti… vals. 
+~ ~
 
 [LINE]
-Speaker414: ¡¿Quieres  bailar?!  
-~             you~want to~dance  
+Speaker414: Du vil vals?!
+~           ~
 
 [LINE]
-Speaker415: Sí…  ¿Es   un problema?
-~           yes   it's a  problem  
+Speaker415: Akrátti… deza ti os?
+~           akk~ti   problem-nen ~
 
 [LINE]
-Speaker414: ¡No! ¡Bailar  también~es un deporte!
-~            no   dancing is~also    a  sport   
+Speaker414: Naj! Vals rajda awen!
+~           nai  ~ 
 
 [LINE]
 > Edi hadji vals inne magazan.
 ~ ~  
 
 [LINE]
-Speaker415: Papá, para~de~bailar por~favor.
-~           dad   stop~dancing   please    
+Speaker415: Papa, bitte jametè|htél.
+~           ~     ~     yamete -htella
 
 [MULTIPLE_CHOICE]
 > Yunior vil papa yamete...
@@ -125,10 +132,9 @@ Speaker415: Papá, para~de~bailar por~favor.
 + kya
 
 [MATCH]
-> Tap the pairs
-- problema <> problem
-- Ah <> oh
-- empieza a <> starts
-- sin pelotas <> without balls
-- No <> no
+> Tsunaga kotoba mit pravda imi fu hei.
+- chiisai problem <> deza
+- ugoki inne ishke <> oyogi
+- netopaspil <> raida
+- nai mit, mit nil <> uten
 
