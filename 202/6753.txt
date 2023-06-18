@@ -15,13 +15,18 @@ set=11|3
 Speaker509: Juniør|li  jaa!
 ~           ~     -nen
 
-[SELECT_PHRASE]
-> Select the missing phrase
+[LINE]
 Speaker415: Jaa jaa! Deki ka du aputi   un mitt vomi|-ergo?    
 ~           ~   ~    ~    ~  ~  apu~-ti ~  ~    huomi 
-+ con mi tarea
-- con la marea
-- con tu pelea
+
+[MULTIPLE_CHOICE]
+> Naze Yuniordjin treng apu Lusidjin kara?
+- Sore nai shiru ka papa vilna per Dag fu Papa.
+~ ~ ~ ~ ~ ~ vil~-na
+- Sore vil se hur Lusidjin kaku blog fu sore.
+~ Yunior ~ ~ ~ ~ ~ ~ ~ Lusi
++ Sore treng suru huomiergo fu sore.
+~ Yunior ~ ~ ~ ~ Yunior
 
 [LINE]
 Speaker415: Musti kak   jokting dapér.
@@ -100,7 +105,7 @@ Speaker509: De. Mirai-made, Junior.
 ~           ~
 
 [MULTIPLE_CHOICE]
-> Naze Yunior myetta ka Lusi shiru oba protofugel?
+> Naze Yuniordjin myetta ka Lusidjin shiru oba protofugel?
 + Sore yam plus toshi na sebya.
 ~ Lusi ~ ~ ~ ~ Yunior
 - Huomiduur fu sore protofugel dan.
