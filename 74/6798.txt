@@ -1,162 +1,140 @@
 [DATA]
 fromLanguageName=SCRATCH-foraudiogenerationandtesting
 icon=
-set=0|0
+set=00
+
+[DATA]
+fromLanguageName=The Dance Class
+icon=9a1213d7cb11cc1ab115544c9557336da748fca6
+set=8|2
 
 [HEADER]
->一個約會
-~adate
-$6254/40d6e6a6.mp3;2,50;3,275
+> 舞蹈課
+~ (the)~dance~class   
+$6235/a46d58c0.mp3;2,50;2,375
 
 [LINE]
->小貝在一家餐管有一個約會。
-~Beais~at~a~restauranthavingadate
-$6254/619e248a.mp3;2,50;2,875;3,200;3,312;2,800;3,175;3,225
+> 艾迪|走進|艾莉安娜的|舞蹈課。
+~ Eddy enters  Eliana's dance~class        
+$6235/ad2103e0.mp3;2,50;3,412;5,413;2,662;3,100;2,363
 
 [LINE]
-Speaker507:嗨，你好嗎？
-~hihow~are~you
-$1046/4d304b68.mp3;1,50;3,625;2,337
+Speaker125: 嗨，|大家好！
+~           hey  everyone
+$6235/2f16d5d4.mp3;1,50;2,400;3,162;2,325;2,313
 
 [LINE]
-Speaker100:好啊！
-~good
-$6798/9478c032.mp3;1,50;2,200;2,300
-
-[LINE]
-Speaker100:你想要吃什麼？
-~youwantto~eatwhat
-$6798/e37699cf.mp3;1,50;3,175;2,312;3,138;2,425
-
-[LINE]
-Speaker507:一份沙拉。
-~asalad
-$1046/5b6288e0.mp3;1,50;2,237;3,213
+Speaker125: 誰|想要|跳舞？
+~           who wants~to dance 
+$6235/8d6deed2.mp3;1,50;2,300;2,162;3,150;2,538
 
 [SELECT_PHRASE]
->Selectthemissingphrase
-Speaker507:我今天有[一場大賽]。
-~Itodayhaveabiggame
-$1046/682504ea.mp3;1,50;3,175;2,425;2,187;2,150;3,213
-
-+一場大賽
--一張打牌
--一片大海
-
-[LINE]
-Speaker100:哦，你做運動嗎？
-~ohyoudo~sports(question~marker)
-$6798/ab5616f1.mp3;1,50;2,262;2,350;2,125;3,175;2,263;2,300
+> Select the missing phrase
+Speaker125: 今天|我們會|學|[新的東西]。
+~           today we~will learn  new~things    
+$6235/3f88ba48.mp3;2,50;3,362;2,263;2,162;2,175;2,175;3,88;2,462
+- 親的東西
++ 新的東西
+- 行的西東
 
 [LINE]
-Speaker507:是啊，我踢足球。
-~yesIplay~soccer
-$1046/7b859a5e.mp3;1,50;2,350;2,512;2,175;3,225
-
-[MULTIPLE_CHOICE]
->Beaisorderingasaladbecause…
-+…sheisplayingsoccertoday.
--…herdatesaidthesaladisdelicious.
--…shejustateawholepizza.
+> 艾迪|站起來，|向|門|走。
+~ Eddy stands~up towards door walks
+$6235/d73c7a1a.mp3;2,50;2,387;3,200;2,675;2,213;2,175
 
 [LINE]
-Speaker100:我也喜歡踢足球！
-~Ialsolikeplaying~soccer
-$6798/9270556e.mp3;1,50;2,175;3,125;2,350;3,150;2,587
+Speaker125: 嘿！
+~           hey 
+$6235/06181e41.mp3;1,50;2,262
 
 [LINE]
-Speaker507:酷！
-~cool
-$1046/899e7e26.mp3;1,50
+Speaker125: 你在去哪裡？
+~           where~are~you~going 
+$6235/6fcf2c46.mp3;1,50;2,125;2,162;3,138;2,462
 
 [LINE]
-Speaker507:你來自哪裡？
-~youcome~fromwhere
-$1046/911c47c8.mp3;1,50;3,137;3,350
+Speaker125: 跳舞|有點可怕...
+~           dancing is~a~little~scary   
+$6235/72f09e07.mp3;2,50;3,450;3,375
 
 [LINE]
-Speaker100:我是美國人。
-~IamAmerican
-$6798/6ff74e40.mp3;1,50;2,187;4,150;2,638
-
-[ARRANGE]
->Tapwhatyouhear
-Speaker100:[(但是)(我的)(父母)(來自)(台湾)]。
-~butmyparentscome~fromChina
-$6798/88a7052b.mp3;2,50;3,312;3,263;3,337;2,250;2,188;2,387
-
-[LINE]
-Speaker507:我很愛台灣！
-~IloveChina
-$6798/a02e2242.mp3;1,50;2,187;2,250;3,188;2,550
-
-[LINE]
-Speaker100:台灣是很美麗的。
-~Chinaisvery~beautiful
-$6798/746ef52c.mp3;2,50;2,362;2,138;4,150;2,587
-
-[LINE]
-Speaker507:你有寵物嗎？
-~youhavepets(question~marker)
-$1046/a5e15856.mp3;1,50;2,112;3,150;2,463
-
-[LINE]
-Speaker100:我有兩隻貓，和一條狗。
-~Ihavetwocatsandadog
-$6798/54f80b52.mp3;1,50;2,200;3,100;2,325;2,362;2,238;3,150;2,337;2,300
+Speaker125: …但是|很好玩！
+~           but  it's~a~lot~of~fun  
+$6235/552edb0c.mp3;2,800;2,337;3,200;2,500
 
 [POINT_TO_PHRASE]
->Choosetheoptionthatmeans"also."
-Speaker507:(我)(+也)(有)(一條狗)，(康納爾)！
-~Ialsohavea~dogConor
-$1046/cf07fb18.mp3;1,50;3,200;3,312;2,363;4,650
+> Choose the option that means "mistake".
+Speaker504: 我知道, (但是) 我 (覺得) (這是) 一個 (+錯誤)。
+~           i~know   but    I think    this~is a mistake 
+$6235/08556094.mp3;1,50;3,162;3,538;2,275;3,175;2,362;2,150;3,100;3,200
 
 [LINE]
-Speaker100:什麼？我的名字是丹尼爾...
-~whatmynameisDaniel
-$6798/290ac886.mp3;2,50;2,450;3,862;3,250;2,338;4,150
+Speaker125: 不要害怕。|很容易的！|你看！
+~           don't~be~scared  it's~easy    look 
+$6235/6684c6a1.mp3;4,50;2,825;2,550;3,250;2,375;2,250;2,550;2,112;2,350
 
 [LINE]
-Speaker100:你叫什麼名字？你是薩拉嗎？
-~youare~calledwhatnameyouareSarah(question~marker)
-$6798/52e28925.mp3;1,50;2,225;3,150;3,250;2,512;2,900;2,238;2,137;2,200;2,150;2,250
+Speaker504: 但是…
+~           but  
+$6235/103770d6.mp3;2,50
+
+[ARRANGE]
+> Tap what you hear
+> [(艾迪)|(看著)|(艾莉安娜)|(跳舞)。 ] 
+~   Eddy   watches   Eliana   dance   
+$6235/1bc76b90.mp3;2,50;2,437;2,225;5,125;3,663
 
 [LINE]
-Speaker507:不是，我的名字是小貝...
-~nomynameisBea
-$1046/de1953f4.mp3;2,50;2,787;2,175;3,88;2,425;3,137
+Speaker125: 現在|和我|一起|跳|吧！
+~           now with~me together dance ~
+$6235/145e8b1c.mp3;2,50;5,437;2,588;2,275;2,275
+
+[LINE]
+Speaker504: 哇！|跳舞|真好玩！
+~           woah dancing is~so~fun  
+$6235/27a4cd0e.mp3;1,50;3,912;2,450;3,175
+
+[LINE]
+Speaker125: 現在|跳舞|對你|好玩|嗎？|還|覺得|這個|課|是|一個|錯誤？
+~           now dancing to~you is~fun (question~marker) still think this class is a mistake
+$6235/b0df9115.mp3;2,50;3,437;2,375;2,163;3,112;2,425;2,263;2,550;3,200;3,262;2,275;2,213;5,137;2,763
 
 [MULTIPLE_CHOICE]
->Didyoucatchthat?BeaandDaniel…
--…boughtticketstoChina.
-+…weresupposedtomeetdifferentpeople.
--…arewalkingtheirdogs.
+> Eliana wants to know…
+- …why Eddy is such a terrible dancer.
++ …if Eddy still thinks going to her class was a mistake.
+- …if Eddy is a dance teacher.
 
 [LINE]
->一位女士進入餐館，並且看到丹尼爾。
-~awomanentersthe~restaurantandseesDaniel
-$6254/dd74e64a.mp3;1,50;2,175;3,162;3,763;3,400;3,825;3,812;4,375
+Speaker504: 是。
+~           yes 
+$6235/40b5a64c.mp3;1,50
 
 [LINE]
-Speaker101:嗨，你是丹尼爾嗎？我是薩拉。
-~hiyouareDaniel(question~marker)IamSarah
-$6254/f566c156.mp3;1,50;2,675;2,100;4,137;2,488;2,837;2,213;3,150
+Speaker125: 真的嗎？
+~           really    
+$6235/43569d34.mp3;2,50;2,300
 
 [LINE]
-Speaker100:不是，抱歉。我是康納爾。
-~nosorryIamConor
-$6254/20495096.mp3;2,50;3,650;2,1012;2,200;4,200
+Speaker504: 這|不是|我的|班。
+~           this is~not my class 
+$6235/4b388012.mp3;1,50;3,250;2,225;2,175;2,100
+
+[LINE]
+Speaker504: 但是|比|煮食課|好玩！
+~            but compared~to cooking~class more~fun
+$6235/52bb4018.mp3;2,50;2,450;2,162;2,175;2,150;3,150
 
 [MULTIPLE_CHOICE]
->Whoa!Whatjusthappened?
--DanielchangedhisnametoConor
-+DanielliedtohisrealdatebecausehelikesBea.
--BeaandDaniel'sdogsplayedsoccer.
+> Oops! What was Eddy's mistake?
+- He used to date Eliana.
+- He forgot to wear his dancing shoes.
++ He was supposed to go to a cooking class.
 
 [MATCH]
->Tapthepairs
--踢足球<>playsoccer
--寵物<>pets
--餐館<>restaurant
--美國人<>American
--來自<>comefrom
+> Tap the pairs
+- 嗨 <> hey
+- 錯誤 <> mistake
+- 但是 <> but
+- 跳舞 <> dance
+- 比 <> compared to 
