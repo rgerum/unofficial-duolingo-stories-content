@@ -1,0 +1,157 @@
+[DATA]
+fromLanguageName=Who's This?
+icon=f3d07f61cdd95c84cb15d7f9d0e4b0dc8173072b
+set=103|10
+
+speaker_Boss=Lotte
+speaker_Lars=Ruben
+
+[HEADER]
+> Met wie spreek~ik?
+~ With whom am~I~talking
+$569/7bfbefc8.mp3;3,50;4,262;7,200;3,425
+
+[LINE]
+> Lars is in zijn kantoor.
+~ ~    is in his  office  
+$569/051a563a.mp3;4,50;3,450;3,187;5,138;8,250
+
+[LINE]
+> Hij praat aan de  telefoon met  zijn vriend.
+~ He  is~talking on  the phone    with his  friend 
+$569/0983d908.mp3;3,50;6,287;4,388;3,137;9,113;4,550;5,162;7,213
+
+[SELECT_PHRASE]
+> choose the best(!) answer:
+Speaker385: ...     dit     weekend [met vrienden] .. ?
+~           with    friends          ~   ~             
+$569/0e83c760.mp3;3,800;8,300;4,412;9,150
+- met vriend
++ met vrienden
+- met bevrienden
+
+[LINE]
+Speaker0: De  werktelefoon gaat~af.   
+~           The work~phone   is~ringing 
+$569/3b51857a.mp3;2,50;13,150;5,925;3,325
+
+[LINE]
+Speaker385: Momentje.
+~           A~minute   
+$569/20d7a42c.mp3;8,50
+
+[ARRANGE]
+> Put the words in the correct order
+> [(Lars) ( verwisselt) ( van) ( telefoon)].
+$569/48267fb2.mp3;4,50;11,387;4,525;9,225
+
+[LINE]
+Speaker385: Hallo?
+~           Hello 
+$569/552719e2.mp3;5,50
+
+[LINE]
+Speaker292: Hallo, Lars.
+~           Hello  ~    
+$569/67e4cf02.mp3;5,50;5,475
+
+[LINE]
+Speaker385: Met wie spreek~ik?
+~           With whom am~I~talking ~   
+$569/90888f66.mp3;3,50;4,300;7,212;3,275
+
+[LINE]
+Speaker292: Een vriend.
+~           A   friend 
+$569/96134dae.mp3;3,50;7,137
+
+[LINE]
+Speaker385: Wie?
+~           Who 
+$569/9fc13ab4.mp3;3,50
+
+[LINE]
+Speaker292: Ik heb~je~nodig.
+~           I  need~you     
+$569/a7c91696.mp3;2,50;4,162;3,188;6,137
+
+[LINE]
+Speaker385: Ik ken  u  niet~eens!
+~           I  know you not~even~ 
+$569/b808e0f4.mp3;2,50;4,250;2,150;5,100;5,212
+
+[MULTIPLE_CHOICE]
+> Lars is acquainted with the woman on the phone.
+- Yes, that's right.
++ No, that's not right.
+
+[LINE]
+Speaker292: Maar ik~ken~jou~wel.
+~           But  I~do~know~you  
+$569/c2dba12e.mp3;4,50;3,287;4,175;4,238;4,225
+
+[LINE]
+Speaker292: Heel goed zelfs!   
+~           Very well actually 
+$569/c9ce3014.mp3;4,50;5,362;6,275
+
+[LINE]
+Speaker292: En  ik kom  nu  naar je   kantoor.
+~           And I  come now to   your office  
+$569/d267d05e.mp3;2,50;3,175;4,162;3,275;5,213;3,175;8,112
+
+[LINE]
+Speaker385: Bent u  gek! Ik~ga        de  politie bellen!
+~           Are you mad  I'm~going~to the police  call   
+$569/dd573d6a.mp3;4,50;2,337;4,88;3,1225;3,262;3,163;8,112;7,400
+
+[MULTIPLE_CHOICE]
+> Lars says he...
+- will hide from the police
++ will call the police
+- will leave his jail-cell
+
+[LINE]
+Speaker292: Lars, je  hebt je   baas aan de  telefoon.
+~           ~     you have your boss on  the phone    
+$569/e3db5a36.mp3;4,50;3,587;5,175;3,225;5,113;4,475;3,162;9,63
+
+[MULTIPLE_CHOICE]
+> Who is the stranger on the phone?
+- Dipsy
+- Lars's client
++ Lars's boss
+- Lars's mother
+
+[LINE]
+Speaker292: Je  moet aan~het~werk. 
+~           You must begin~to~work 
+$569/e9b8e1f8.mp3;2,50;5,187;4,300;4,200;5,75
+
+[LINE]
+Speaker292: Op je   werk moet je  niet met  je   vrienden zitten~bellen.           
+~           At your work must you not  with your friends  be~(sitting~and)~calling 
+$569/edb49d56.mp3;2,50;3,137;5,125;5,450;3,238;5,125;4,325;3,175;9,75;7,400;7,262
+
+[LINE]
+Speaker385: Het~spijt~me, ik ga      direct aan~het~werk!
+~           I'm~sorry     I  will~go straight~away to~work      
+$569/11055ed0.mp3;3,50;6,300;3,300;3,300;3,137;7,150;4,375;4,100;5,113
+
+[MULTIPLE_CHOICE]
+> Why did Lars's boss call him?
+- Omdat   hij rechtop stond tijdens~het~werken
+~ Because he  upright stood during~work       
++ Omdat   hij aan~het~kletsen~was met  zijn maten  
+~ Because he  was~chatting        with his  friends
+- Omdat   hij een promotie  krijgt
+~ Because he  a   promotion gets  
+
+[MATCH]
+> Tap the pairs:
+- Ken u niet <> Don't know you
+- Kletsen <> To chat
+- De gevangeniscel <> The jail cell
+- Ken je <> Know you
+- De kennissen  <> The acquaintances
+
