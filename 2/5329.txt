@@ -1,0 +1,142 @@
+[DATA]
+fromLanguageName=Clothes for My Vacation
+icon=6fee4723d01611cffa9b4b76fd5be36697ef1e96
+set=4|3
+
+[HEADER]
+> Kleren Voor Mijn Vakantie
+~ clothes for  my  vacation  
+$5329/65cf3c4a.mp3;6,50;5,475;5,162;9,213
+
+[LINE]
+> Lucy is in een winkel.
+~ Lucy is at a   store  
+$5329/6ac6e374.mp3;4,50;3,500;3,187;4,125;7,138
+
+[LINE]
+Speaker416: Goedemiddag,   kan ik u~helpen?
+~           Good~afternoon can I help~you  
+$5329/395b6722.mp3;11,0;5,940;3,455;2,168;7,107
+
+[LINE]
+Speaker509: Ja, ik zoek kleren voor mijn vakantie.
+~           yes  I am~looking~for clothes for  my  vacation   
+$5329/44de78d4.mp3;2,50;3,512;5,150;7,263;5,450;5,175;9,250
+
+[MULTIPLE_CHOICE]
+> Lucy is shopping for clothes for a vacation.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker416: Waar dacht u aan?
+~           What (were) you thinking~of~(denken~aan~=~to~think~of        
+$5329/9db7c84e.mp3;4,0;6,332;2,320;4,138
+
+[LINE]
+Speaker509: Ik heb een jurk nodig.
+~           I need a dress (heb~*~nodig~=~need~*~)   
+$5329/5004d6e0.mp3;2,50;4,162;4,188;5,112;6,425
+
+[LINE]
+> Lily pakt een groene jurk.
+~ Lily gets a  green dress   
+$5329/77cc6d28.mp3;4,50;5,350;4,287;7,113;5,375
+
+[LINE]
+Speaker416: Wat denkt~u van deze hier?
+~           What do~you~think of this~one over~here        
+$5329/89138a66.mp3;3,0;6,229;2,366;4,100;5,259;5,385
+
+
+[MULTIPLE_CHOICE]
+> Lily is getting a…
++ …green dress.
+- …red dress.
+- …green hat.
+
+[LINE]
+Speaker509: Nee, ik wil een rode jurk!
+~            no  I  want   a  red dress    
+$5329/5ba9b236.mp3;3,50;3,525;4,162;4,238;5,87;5,438
+
+[LINE]
+> Lily zoekt een rode jurk.
+~ Lily looks~for a  red dress    
+$5329/7bc64c00.mp3;4,50;6,387;4,288;5,125;5,337
+
+[LINE]
+Speaker509: Ik wil ook een jack.
+~           I want also a   jacket   
+$5329/79a30062.mp3;2,50;4,162;4,325;4,200;4,138
+
+[ARRANGE]
+> Tap what you hear
+> [(Lily) (zoekt) (een) (rood) (jack{jek}).]
+~   Lily   looks~for   a     red jacket      
+$5329/8b399782.mp3;4,50;6,375;4,262;5,125;4,325
+
+[LINE]
+Speaker509: Nee, ik wil een bruin jack!
+~            no  I  want a   brown jacket    
+$5329/ba0c3740.mp3;3,50;3,512;4,175;4,238;6,100;4,387
+
+[LINE]
+Speaker416: Even~zien...
+~           Just~a~minute~(give~me~a~second)    
+$5329/48cfdaf8.mp3;4,0;5,320
+
+[LINE]
+Speaker416: Kijkt~u~eens, een rode jurk, een bruin jack…
+~           Here~you~are, a  red dress     a   brown jacket    
+$5329/db535cda.mp3;5,0;2,352;5,147;5,545;5,340;5,364;5,501;6,406;4,372
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: [En een hoed!]
+~             and a hat   
+$5329/ea3808c2.mp3;2,50;4,137;5,113
+- Een en hoed
+- En een goed
++ En een hoed
+
+[LINE]
+> Lily pakt  een bruine hoed.
+~ Lily takes a  brown hat      
+$5329/94223160.mp3;4,50;5,350;4,287;7,113;5,375
+
+[LINE]
+Speaker509: Nee, ik wil een grijze hoed!
+~            no  I  want   a  gray hat      
+$5329/f400706a.mp3;3,50;3,525;4,175;4,237;7,50;5,525
+
+[LINE]
+> Lily pakt een grijze hoed.
+~ Lily takes a  gray hat      
+$5329/10ac8026.mp3;4,0;5,321;4,270;7,90;5,435
+
+[POINT_TO_PHRASE]
+> Choose the option meaning "ready."
+Speaker509: (Dank~u!) (Nu) (ben)~(ik) (+klaar) (om)~(op)~(vakantie)~(te)~(gaan.)
+~             thank~you now I~am     ready   to~go~on~vacation  
+$5329/0658c58c.mp3;4,50;2,337;3,1125;4,263;3,275;6,150;3,462;3,188;9,125;3,587;5,100
+
+[LINE]
+Speaker416: En nu ben~ik~aan~vakantie~toe. 
+~           And now I~need~a~vacation 
+$5329/c9f68a7a.mp3;2,0;3,144;4,189;3,250;4,195;9,217;4,729
+
+[MULTIPLE_CHOICE]
+> Poor Lily! Why does she need a vacation?
+- She ate too much for lunch.
++ She's tired after helping Lucy find clothes.
+- She wants to buy new clothes to wear.
+
+[MATCH]
+> Tap the pairs
+- the violet dress <> de paarse jurk
+- the red jacket <> het rode jack
+- the gray hat <> de grijze hoed
+- ready <> klaar
+- the yellow hat <> de gele hoed
+
