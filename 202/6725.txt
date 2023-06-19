@@ -8,66 +8,67 @@ set=10|1
 ~ ~    
 
 [LINE]
-> Es   la~hora~del~almuerzo en la~escuela~de~Junior.
-~ it's lunch~time           at Junior's~school      
+> Ima tid fu mellannam na skola fu Yunior.
+~ ~     
 
 [LINE]
 Speaker415: Bramoratsa, ustéz Ratatúi! Mange oharé un ti!
 ~           ~ ustaaz ~ ~   
 
-[SELECT_PHRASE]
-> Select the missing phrase
-Speaker395: Hola,  Junior. [Hoy~tenemos~pollo].    
-~           hello  Junior   today~we~have~chicken  
-+ Hoy tenemos pollo
-- Hoy veremos pollo
-- Hoy tendremos polo
+[LINE]
+Speaker395: Áa iuniordsiin! Imaddaag bhibhartori    
+~           Jaa yunior~djin ~ vi~har~tori 
+
 
 [LINE]
-Speaker395: Y   con  el  pollo…  
-~           and with the chicken 
+Speaker395: Au mittettori
+~           ~ mitt~tori
 
 [LINE]
-Speaker395: … te~puedes~comer una ensalada o  patatas~fritas.
-~             you~can~eat     a   salad    or fries          
+Speaker395: … Decid'nam obhosii os cartofhelgorenghena
+~             deki~du~nam ovoshi ~ kartofel~gorengena          
 
 [MULTIPLE_CHOICE]
-> Junior can get either salad or fries with the chicken.
-- No, that's wrong.
-+ Yes, that's right.
+> Yunior deki har ovoshi os kartofel mitt tori.
+- Nai, afto uso.
++ Akkurat, afto pravda.
 
-[ARRANGE]
-> Tap what you hear
+[LINE]
 Speaker415: Un vil kartófel gorengéna au šutsai!
 ~            ~
 
 [LINE]
-Speaker395: Te~puedes~comer solo una de las dos cosas,  Junior.
-~           you~can~eat     only one of the two things  Junior 
+Speaker395: Decid'nam mono ean fu nitting, iunior
+~             ~ ~ ein ~ ni~ting ~
 
 [LINE]
 Speaker415: Nu, un duati kartófel koske gorengéna...
-~           well   I~love      fries              
+~           ~ ~ ~ ~ ~ goreng~-ena            
 
 [LINE]
 Speaker415: Au ti jok pitka dah, immadah...
 ~           ~
 
-[POINT_TO_PHRASE]
-> Choose the option that means "healthier."
+[LINE]
 Speaker415: … men šutsai ti plus|storova jo...
 ~             ~ ~ ~ ~ zdorva
+[MULTIPLE_CHOICE]
+>Ka imi "zdorva"
+- Warui per netopa.
++ Bra per netopa.
+- Simper per mahena.
+
 
 [LINE]
-Speaker395: ¿Junior?
-~            Junior 
+Speaker395: Iunior?
+~            ~
 
 [LINE]
 Speaker415: Kartófel os šutsai, nuh...
 ~           ~
 
 [LINE]
-Speaker415:Bra de, vil karófel. Nai! Šutsai! A, nai ti!
+Speaker415:Bra de, vil kartófel. Nai! Šutsai! A, nai ti!
 ~           ~
 
 [LINE]
@@ -75,34 +76,34 @@ Speaker415: Fan, un nai širu na hel!
 ~           ~ 
 
 [MULTIPLE_CHOICE]
-> Poor Junior! What problem does he have?
-- He ate too many fries.
-- He wants ice cream in his salad.
-+ He can't choose between a salad and fries.
+> Aj! Ka prablem harena na Yunior?
+- Sore namdan tak mange kartofel gorengena
+- Sore vil søtupash inne shutsai fu sore.
++ Sore dekinai sentaku li vil shutsai os kartofel gorengena.
 
 [LINE]
-Speaker395: ¡Junior!
-~            Junior 
+Speaker395: Iunior!
+~            ~
 
 [LINE]
 Speaker415: A, akrát, ustéz Ratatúi?
 ~           ~ ~ ustaaz
 
 [LINE]
-Speaker395: ¡Toma!        Patatas~fritas y   ensalada  para ti. 
-~            here~you~go  fries          and (a)~salad for  you 
+Speaker395: Afto, cartofhelgorenghena au obhosii perdu. 
+~            ~ kartofel~gorengena ~ ovoshi per~du
 
 [MULTIPLE_CHOICE]
-> What did Mrs. Pérez tell Junior to do?
-- Go somewhere else to eat.
-+ Take both the fries and the salad.
-- Imagine that fries are salad.
+> Ka Ratatui vil Yunior suru?
+- Skei andr plas per nam.
++ Saada rjoho ovoshi au kartofel gorenga.
+- Seki leraplas made.
 
 [MATCH]
 > Tap the pairs
-- Es <> it's
-- más saludable <> healthier
-- Quiero <> I want
-- el <> the
-- la escuela de Junior <> Junior's school
+- obhosii <> ovoshi
+- šutsai <> shutsai
+- dah <>  dag
+- storova <> zdorva
+- širu <> shiru
 
