@@ -5,24 +5,28 @@ set=8|4
 
 [HEADER]
 > 家庭聚餐
-~ a~family~dinner      
+~ (a)~family~dinner      
 $6818/7d19553a.mp3;2,50;3,437
 
 [LINE]
-> 阿琳在小貝的家. 她去廚房。
-~ Lin is~at Bea's~house     she  goes~to the~kitchen 
+> 阿琳|在|小貝的家. 她|進了|廚房。
+~ Lin is~at Bea's~house     she  goes~to~(enters) (the)~kitchen 
+$6818/8ea8b251.mp3;2,50;2,387;3,150;2,400;2,100;2,300;2,538;2,187;2,188;3,125;2,575
 
 [LINE]
-> 她看到很多食物和四瓶酒在桌子上。 
-~ she  sees a~lot~of food   and four   bottles  of wine on    the table 
+> 她|看到|很多|食物|和|四|瓶|酒|在|桌子上。 
+~ she  sees a~lot~of food   and four   bottles~(of) wine on  top~of~the~table 
+$6818/2242f8f4.mp3;1,50;3,175;3,337;3,363;2,437;2,175;2,200;2,213;2,200;3,162;2,350;2,263
 
 [LINE]
-Speaker508: 哇! 這裡有很多食物
-~            wow   there~is a~lot~of food   here 
+Speaker508: 哇! 這裡|有|很多|食物！
+~            wow   here there~is a~lot~of food   
+$6818/936c897f.mp3;1,50;2,687;3,550;2,250;3,125;3,363
 
 [LINE]
-Speaker507: 是的,  我家要來吃晚飯。      
-~           yes  my family  is~coming  to have~dinner 
+Speaker507: 是的,  我家|要|來|這裡|吃晚飯。      
+~           yes  my~family is~going~to come here to~have~(eat)~dinner 
+$6818/80e0674f.mp3;2,50;2,675;2,187;2,188;2,187;2,163;3,150;2,312;3,200;2,500
 
 [MULTIPLE_CHOICE]
 > Bea's family is coming to her house for breakfast.
@@ -30,43 +34,52 @@ Speaker507: 是的,  我家要來吃晚飯。
 + No, that's wrong.
 
 [LINE]
-Speaker508: 啊, 我可不可以吃一點蛋糕?
+Speaker508: 啊, 我可不可以吃|一點|蛋糕?
 ~           oh   can~I~eat      some       cake   
+$6818/055a1d59.mp3;1,50;2,512;6,250;2,925;2,213;2,87;3,150
 
 [LINE]
-Speaker507: 不能.
+Speaker507: 不可以.
 ~           no~(You~can't) 
+$6818/af6c2217.mp3;1,50;3,162;2,513
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker508: 但是[你有三個蛋糕].
-~           but   you~have~three~cakes  
+Speaker508: 但是|[你有三個蛋糕].
+~           but you~have~three~cakes  
+$6818/7c09d1c6.mp3;2,50;2,275;2,75;2,125;2,237;3,88;2,462
+
 - 你有三塊蛋糕
 - 你要三個蛋糕
 + 你有三個蛋糕
 
 [LINE]
-Speaker507: 我需要三個蛋糕.
+Speaker507: 我|需要|三個|蛋糕.
 ~           I  need     three cakes    
+$6818/c8922cca.mp3;1,50;3,175;2,362;2,275;3,113;2,450
 
 [LINE]
-Speaker508: 那麼, 可不可以喝一杯酒?
-~           well    can~I~drink    a  glass of wine 
+Speaker508: 那麼, 可不可以喝|一杯|酒?
+~           well    can~I~drink    a~glass~of wine 
+$6818/152be720.mp3;1,50;2,187;2,500;5,175;5,550
 
 [LINE]
-Speaker507: 不能.
+Speaker507: 不可以.
 ~           no~(You~can't)
+$6818/e343bf3a.mp3;1,50;3,162;2,513
 
 [CONTINUATION]
 > What's next?
-Speaker508: 你有四瓶 [酒].
-~           you~have four   bottles   of wine  
+Speaker508: 你有|四瓶|[酒].
+~           you~have four~bottles~of wine  
+$6818/f8d0e327.mp3;1,50;2,187;2,188;2,237;2,238;2,337
+
 - 桌子 
-~ the table
+~ the~table
 - 蛋糕
-~ of cake  
+~ of~cake  
 + 酒
-~ of wine
+~ of~wine
 
 [LINE]
 Speaker507: 所有酒我都需要！
