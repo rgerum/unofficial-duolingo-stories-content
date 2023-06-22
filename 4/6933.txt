@@ -4,40 +4,40 @@ icon=53bded8a873131832543feb9e1a3f4c7ffeb74e0
 set=6|3
 
 [HEADER]
-> Pommes       oder Salat, Junior?
+> Pommes frites       eller salad, Junior?
 ~ french~fries or   salad  Junior 
 
 [LINE]
-> Junior ist in~der~Schule. Es ist Zeit~für~das~Mittagessen.
+> Junior är i~skolan. Det är dags~för~lunch.
 ~ Junior is  at~school      it is  time~for~lunch           
 
 [LINE]
-Speaker415: Hallo, Frau~Lange! Ich bin sehr hungrig!
-~           hello  Ms.~Lange   I   am  very hungry  
+Speaker415: Hej, Malin! Jag är väldigt hungrig.
+~           hello  Malin   I   am  very hungry  
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker1187: Hallo, Junior. [Es~gibt~heute~Fisch].
+Speaker1187: Hejsan, Junior. [Det~finns~fisk~i~dag].
 ~            hello  Junior   there~is~fish~today  
-+ Es gibt heute Fisch
-- Er sieht einen Fisch
-- Er deckt euren Tisch
++ Det finns fisk i dag
+- Du ser en fisk
+- Han dukar bordet
 
 [LINE]
-Speaker1187: Möchtest~du mit  dem Fisch Salat oder Pommes?      
-~            do~you~want with the fish  salad or   french~fries 
+Speaker1187: Vill~du~ha salad eller pommes frites till~fisken?   
+~            do~you~want salad or   french~fries with~the~fish 
 
 [LINE]
-Speaker415: Ich liebe Pommes       und Salat!
+Speaker415: Jag älskar pommes och salad!
 ~           I   love  french~fries and salad 
 
 [POINT_TO_PHRASE]
 > Choose the option that means "only."
-Speaker1187: (Du)  kannst (+nur)  (eins) (haben), Junior.
-~             you  can      only   one    have    Junior 
+Speaker1187: (Du)  kan (+bara)  (välja) (en), Junior.
+~             you  can      only  choose one        Junior 
 
 [LINE]
-Speaker415: OK, Pommes       sind sehr lecker    …
+Speaker415: Okej, pommes är väldigt gott    …
 ~           OK  french~fries are  very delicious  
 
 [MULTIPLE_CHOICE]
@@ -47,16 +47,16 @@ Speaker415: OK, Pommes       sind sehr lecker    …
 - …disgusting.
 
 [LINE]
-Speaker415: Und mein Tag ist sehr stressig  …
+Speaker415: Och min dag är väldigt stressig  …
 ~           and my   day is  very stressful  
 
 [CONTINUATION]
 > What comes next?
-Speaker415: Aber Salat ist wirklich [gesund  ]…
+Speaker415: Men salad är riktigt [nyttigt  ]…
 ~           but  salad is  really    healthy   
-- heiß
-~ hot 
-+ gesund 
+- varmt
+~ warm 
++ nyttigt 
 ~ healthy
 - nervös 
 ~ nervous
@@ -66,15 +66,15 @@ Speaker1187: Junior …
 ~            Junior  
 
 [LINE]
-Speaker415: Aber ich kann nur  eins~haben …
-~           but  I   can  only have~one    
+Speaker415: Men jag kan bara välja en …
+~           but  I   can  only choose one    
 
 [LINE]
-Speaker415: Ich will den Salat! Nein! Die Pommes!       Warten~Sie …
-~           I   want the salad  no    the french~fries  wait        
+Speaker415: Jag vill~ha salladen! Nej! Pommesen!       Vänta …
+~           I   want the~salad  no    the~french~fries  wait        
 
 [LINE]
-Speaker415: Ich weiß~es~nicht!
+Speaker415: Jag vet~inte!
 ~           I   don't~know    
 
 [MULTIPLE_CHOICE]
@@ -88,11 +88,11 @@ Speaker1187: Junior!
 ~            Junior 
 
 [LINE]
-Speaker415: Oh! Ja,  Frau~Lange?
-~           oh  yes  Ms.~Lange  
+Speaker415: Åh! Ja,  Malin?
+~           oh  yes  Malin
 
 [LINE]
-Speaker1187: Hier! Dein Mittagessen! Fisch mit  Pommes       und Salat.
+Speaker1187: Här! Din lunch! Fisk med pommes~frites och salad.
 ~            here  your lunch        fish  with french~fries and salad 
 
 [MULTIPLE_CHOICE]
@@ -103,9 +103,9 @@ Speaker1187: Hier! Dein Mittagessen! Fisch mit  Pommes       und Salat.
 
 [MATCH]
 > Tap the pairs
-- Ja <> yes
-- wirklich <> really
-- liebe <> love
-- sehr <> very
-- Junior <> Junior
+- ja <> yes
+- riktigt <> really
+- älskar <> love
+- väldigt <> very
+- stressig <> stressful
 
