@@ -4,35 +4,35 @@ icon=5110eca6fc0b03b232b80db4a6ed8fb955501d23
 set=8|2
 
 [HEADER]
-> Wo    sind meine Schlüssel?
+> Var är mina nycklar?
 ~ where are  my    keys      
 
 [LINE]
-> Lin und ihre Großmutter  Lucy sind zu~Hause.
+> Lin och hennes mormor  Lucy är hemma.
 ~ Lin and her  grandmother Lucy are  at~home  
 
 [LINE]
-Speaker509: Wir haben heute einen Tisch in einem schönen Restaurant!
-~           we  have  today a     table in a     nice    restaurant 
+Speaker509: Vi har ett bord på~en~trevlig~restaurang i~dag!
+~           we  have   a     table in~a~nice~restaurant today
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker509: Aber [wir~müssen~jetzt~gehen]!
+Speaker509: Men [vi~måste~ge~oss~av~nu]!
 ~           but   we~have~to~leave~now    
-- Sie müssen hier stehen
-- wir küssen und gehen
-+ wir müssen jetzt gehen
+- ni måste stå här
+- vi måste åka hem 
++ vi måste ge oss av
 
 [LINE]
-Speaker508: OK!
+Speaker508: Okej!
 ~           OK 
 
 [LINE]
-Speaker508: Oh nein! Wo    sind meine Motorradschlüssel?
-~           oh no    where are  my    motorcycle~keys   
+Speaker508: Åh nej! Var är nycklarna till min motorcykel?
+~           oh no    where are  the~keys for my motorcycle 
 
 [LINE]
-Speaker509: Deine Schlüssel liegen~oft an~komischen~Orten.
+Speaker509: Dina nycklar ligger~ofta på~konstiga~ställen.
 ~           your  keys      are~often  in~strange~places  
 
 [MULTIPLE_CHOICE]
@@ -42,63 +42,63 @@ Speaker509: Deine Schlüssel liegen~oft an~komischen~Orten.
 - Lucy and Lin will ride horses to the restaurant.
 
 [LINE]
-Speaker509: Sind sie  in deinem Rucksack?
+Speaker509: Är de i din ryggsäck?
 ~           are  they in your   backpack 
 
 [LINE]
-> Lin sucht    in ihrem Rucksack.
+> Lin letar i sin ryggsäck.
 ~ Lin searches in her   backpack 
 
 [ARRANGE]
 > Tap what you hear
-Speaker508: [(Nein), (da)    (sind) (sie)  (nicht).]
+Speaker508: [(Nej), (där)    (är) (de)  (inte).]
 ~             no      there   are    they   not     
 
 [LINE]
-Speaker509: Liegen sie  auf dem Kaffeetisch? 
-~           are    they on  the coffee~table 
+Speaker509: Ligger de på soffbordet?
+~           are    they on  the~coffee~table 
 
 [LINE]
-Speaker508: Nein, sie  liegen~nicht auf dem Kaffeetisch. 
-~           no    they aren't       on  the coffee~table 
+Speaker508: Nej, de ligger~inte på soffbordet.
+~           no    they aren't       on  the~coffee~table 
 
 [CONTINUATION]
 > What comes next?
-Speaker509: Liegen sie  in der [Dusche]?
-~           are    they in the  shower  
-+ Dusche
-~ shower
-- Banane
-~ banana
-- Wasserflasche
-~ water~bottle 
+Speaker509: Ligger de  i [duschen]?
+~           are    they in the~shower  
++ duschen
+~ the~shower
+- bananen
+~ the~banana
+- vattenflaskan
+~ the~water~bottle 
 
 [LINE]
-Speaker508: Nein, das  ist zu  komisch.
+Speaker508: Nej, det är för konstigt.
 ~           no    that is  too strange 
 
 [LINE]
-Speaker508: Ich kann~sie~nicht~finden. Können wir ein~Taxi~nehmen?
-~           I   can't~find~them        can    we  take~a~taxi     
+Speaker508: Jag kan~inte~hitta dem. Kan vi ta en taxi?
+~           I   can't~find them        can    we  take a taxi     
 
 [LINE]
-Speaker509: Es ist jetzt leider        zu  spät. Ich storniere     den Tisch.
-~           it is  now   unfortunately too late  I   (will)~cancel the table 
+Speaker509: Det är tyvärr för sent nu. Jag avbokar bordet.
+~           it is     unfortunately too late now  I   (will)~cancel the table 
 
 [LINE]
-Speaker508: Es~tut~mir~leid, Oma.    
+Speaker508: Jag~är~ledsen, mormor.   
 ~           I~am~sorry       grandma 
 
 [LINE]
-Speaker509: Kein Problem, ich mache       für uns Abendessen.
-~           no   problem  I   (will)~make for us  dinner     
+Speaker509: Inga problem, jag lagar middag åt oss.
+~           no   problem  I   (will)~make dinner for us       
 
 [LINE]
-> Lucy öffnet den Kühlschrank.
-~ Lucy opens  the fridge      
+> Lucy öppnar kylskåpet.
+~ Lucy opens  the~fridge      
 
 [LINE]
-Speaker509: Lin! Deine Schlüssel liegen im~Kühlschrank!
+Speaker509: Lin! Dina nycklar ligger i~kylen!
 ~           Lin  your  keys      are    in~the~fridge  
 
 [MULTIPLE_CHOICE]
@@ -109,9 +109,9 @@ Speaker509: Lin! Deine Schlüssel liegen im~Kühlschrank!
 
 [MATCH]
 > Tap the pairs
-- an komischen Orten <> in strange places
-- Restaurant <> restaurant
-- da <> there
-- Kühlschrank <> fridge
-- Problem <> problem
+- på konstiga ställen <> in strange places
+- restaurangen <> the restaurant
+- där <> there
+- kylskåpet <> the fridge
+- duschen <> the shower
 
