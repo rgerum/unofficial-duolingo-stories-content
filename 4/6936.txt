@@ -1,0 +1,114 @@
+[DATA]
+fromLanguageName=Modern Art
+icon=a4e5b308551611be027e77674e4d0806d54a36d6
+set=7|2
+
+[HEADER]
+> Moderne Kunst
+~ modern  art  
+
+[LINE]
+> Oscar malt        Lucy im~Park.    
+~ Oscar is~painting Lucy in~the~park 
+
+[LINE]
+Speaker592: Fertig!   Magst~du    es?
+~           finished  do~you~like it 
+
+[LINE]
+> Oscar zeigt Lucy das Bild.    
+~ Oscar shows Lucy the painting 
+
+[MULTIPLE_CHOICE]
+> Oscar shows Lucy a painting of a fish.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker509: Warum habe~ich  grüne Haare?!
+~           why   do~I~have green hair   
+
+[LINE]
+Speaker592: Das  ist moderne Kunst, Lucy!
+~           that is  modern  art    Lucy 
+
+[LINE]
+Speaker509: Warum ist mein Kopf so groß?
+~           why   is  my   head ~  big  
+
+[LINE]
+Speaker592: Frag deine Eltern! 
+~           ask  your  parents 
+
+[MULTIPLE_CHOICE]
+> Oscar tells Lucy to...
+- ...color her hair blue.
++ ...ask her parents why her head is so big.
+- ...make a painting of him.
+
+[LINE]
+Speaker509: Das   sind nicht meine Augen!
+~           those are  not   my    eyes  
+
+[LINE]
+Speaker592: Das   sind genau   deine Augen! Du  hast schöne    Augen!
+~           those are  exactly your  eyes   you have beautiful eyes  
+
+[ARRANGE]
+> Tap what you hear
+Speaker509: [(Ich) (habe) (wirklich) (schöne)    (Augen).]
+~             I     have   really     beautiful   eyes    
+
+[LINE]
+Speaker509: Aber auf~dem~Bild    sind~sie nicht schön.    
+~           but  in~the~painting they~are not   beautiful 
+
+[LINE]
+Speaker592: Willst~du   es~haben   oder nicht?
+~           do~you~want to~have~it or   not   
+
+[CONTINUATION]
+> What comes next?
+Speaker509: Ich will~dein~Bild~nicht~haben.       Es ist [hässlich].
+~           I   don't~want~to~have~your~painting  it is   ugly      
+- arbeitslos
+~ unemployed
++ hässlich
+~ ugly    
+- perfekt
+~ perfect
+
+[LINE]
+> Ein Mann sieht das Bild.    
+~ a   man  sees  the painting 
+
+[LINE]
+Speaker438: Das Bild     ist wirklich schön!     Kann ich es~für~hundert~Euro~kaufen?
+~           the painting is  really   beautiful  can  I   buy~it~for~a~hundred~euros 
+
+[LINE]
+> Lucy nimmt das Bild.    
+~ Lucy takes the painting 
+
+[LINE]
+Speaker509: Schön,     nicht~wahr?
+~           beautiful  isn't~it   
+
+[LINE]
+Speaker509: Es ist mein Bild     und es kostet zweihundert Euro! 
+~           it is  my   painting and it costs  two~hundred euros 
+
+[MULTIPLE_CHOICE]
+> Lucy decided to...
++ ...sell the painting for money.
+- ...buy the painting for 200 euros.
+- ...give the painting away for free.
+
+[MATCH]
+> Tap the pairs
+- es haben <> to have it
+- Kunst <> art
+- es <> it
+- Mann <> man
+- nicht <> not
+
