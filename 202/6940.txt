@@ -1,0 +1,133 @@
+[DATA]
+fromLanguageName=My First Painting
+icon=b4a0fb96a3bb2af295051d49d3c112c4c91779e6
+set=17|1
+
+[HEADER]
+> Mi primera pintura 
+~ my first   painting
+
+[LINE]
+> Eddy va   al~apartamento~de~Óscar.
+~ Eddy goes to~Óscar's~apartment    
+
+[LINE]
+> Eddy tiene una pintura  en~las~manos.
+~ Eddy has   a   painting in~his~hands 
+
+[LINE]
+Speaker592: ¿Qué  es eso,  Eddy?
+~            what is that  Eddy 
+
+[LINE]
+Speaker414: ¡Es   mi primera pintura! 
+~            it's my first   painting 
+
+[LINE]
+Speaker414: ¿Puedes~mirarla?    
+~            you~can~look~at~it 
+
+[MULTIPLE_CHOICE]
+> Eddy wants to paint a picture of Óscar.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker592: No.
+~           no 
+
+[LINE]
+Speaker414: Pero eres    profesor~de~arte.
+~           but  you~are (an)~art~teacher 
+
+[LINE]
+Speaker592: Sí,  y   soy  muy  honesto.
+~           yes  and I~am very honest  
+
+[LINE]
+Speaker414: Eso~me~gusta.
+~           I~like~that  
+
+[POINT_TO_PHRASE]
+> Choose the option that means "to cry."
+Speaker592: (Y)   (tú)  (vas~a)     (+llorar).
+~            and   you   are~going    to~cry  
+
+[LINE]
+Speaker414: Pero yo quiero tener   tu~opinión   sobre mi pintura. 
+~           but  I  want   to~have your~opinion about my painting 
+
+[LINE]
+Speaker592: No~es    buena.
+~           it's~not good  
+
+[LINE]
+Speaker414: ¿Cómo lo~sabes?   
+~            how  you~know~it 
+
+[CONTINUATION]
+> What comes next?
+Speaker592: No~eres    artista,     y   es   [tu~primera~pintura]. 
+~           you're~not (an)~artist  and it's  your~first~painting  
++ tu~primera~pintura 
+~ your~first~painting
+- sobre mi pintura 
+~ on    my painting
+- en~las~manos
+~ in~his~hands
+
+[LINE]
+Speaker592: Las~primeras pinturas  nunca~son buenas.
+~           first        paintings are~never good   
+
+[LINE]
+Speaker414: Mírala,     por~favor.
+~           look~at~it  please    
+
+[LINE]
+Speaker414: Por~favor, Óscar.
+~           please     Óscar 
+
+[LINE]
+Speaker592: Está~bien.
+~           OK        
+
+[ARRANGE]
+> Tap what you hear
+> [(Óscar) (mira)     (la)  (pintura).] 
+~   Óscar   looks~at   the   painting   
+
+[LINE]
+Speaker592: Eddy, esta pintura  es…
+~           Eddy  this painting is 
+
+[LINE]
+Speaker414: ¡¿Sí?! 
+~             yes  
+
+[LINE]
+Speaker592: Muy  buena.
+~           very good  
+
+[LINE]
+Speaker414: ¡Sí!  ¡Qué~bueno! ¡Soy  un buen artista!
+~            yes   great       I~am a  good artist  
+
+[LINE]
+Speaker592: Ahora vete,  por~favor.
+~           now   leave  please    
+
+[MULTIPLE_CHOICE]
+> Why was Óscar so surprised?
+- Eddy only paints with his feet.
++ He thought first paintings were never good.
+- Eddy has always been a bad painter.
+
+[MATCH]
+> Tap the pairs
+- honesto <> honest
+- llorar <> to cry
+- vas a <> are going
+- No es <> it's not
+- vete <> leave
+
