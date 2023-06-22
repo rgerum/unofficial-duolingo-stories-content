@@ -63,16 +63,13 @@ Speaker592: Kanske kan~du verkligen~hjälpa~mig.
 Speaker414: Okej, min vän!
 ~           OK  my   friend 
 
-[CONTINUATION]
-> What comes next?
-Speaker592: Kan du [sitta] på~den~här~stolen?
-~           can    you sit on~this~chair         
-- simma
-~ swim     
-+ sitta
-~ sit   
-- äta~frukost   
-~ have~breakfast
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker592: Kan du [sätta~dig] på~den~här~stolen?
+~           can    you sit~down on~this~chair         
+- sätta sig
++ sätta dig
+- rätta dig
 
 [LINE]
 Speaker414: Ja  …
