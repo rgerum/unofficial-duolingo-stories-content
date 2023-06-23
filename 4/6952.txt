@@ -1,0 +1,118 @@
+[DATA]
+fromLanguageName=The Work of Art
+icon=5c8bbdc1c808acd0eafbbb564de7af90ec20deb1
+set=9|1
+
+[HEADER]
+> Das Kunstwerk  
+~ the work~of~art
+
+[LINE]
+> Eddy und sein Freund Oscar besuchen das Kunstmuseum.
+~ Eddy and his  friend Oscar visit    the art~museum  
+
+[LINE]
+> Eddy zeigt Oscar ein Bild     mit~einem~Hund.
+~ Eddy shows Oscar a   painting with~a~dog     
+
+[LINE]
+Speaker414: Ich liebe dieses Bild!    
+~           I   love  this   painting 
+
+[CONTINUATION]
+> What comes next?
+Speaker592: Dieses Bild     ist [langweilig].
+~           this   painting is   boring      
++ langweilig
+~ boring    
+- lecker   
+~ delicious
+- glücklich
+~ happy    
+
+[LINE]
+Speaker414: Was?  Hunde sind super!
+~           what  dogs  are  great 
+
+[LINE]
+Speaker592: Eddy, ich bin Kunstlehrer.      Ich weiß alles      über  Kunst.
+~           Eddy  I   am  (an)~art~teacher  I   know everything about art   
+
+[ARRANGE]
+> Tap what you hear
+Speaker592: [(Dieses~Bild)   (ist) (nicht) (sehr) (gut).] 
+~             this~painting   is    not     very   good   
+
+[LINE]
+Speaker414: Warum?
+~           why   
+
+[LINE]
+Speaker592: Gute Kunst ist aufregend!
+~           good art   is  exciting  
+
+[LINE]
+Speaker592: Gute Kunst ist überraschend!
+~           good art   is  surprising   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+> Oscar sieht ein Sandwich [auf~einem~Stuhl].
+~ Oscar sees  a   sandwich  on~a~chair       
+- aus Eierkuchen
+- im Swimmingpool
++ auf einem Stuhl
+
+[LINE]
+Speaker592: Das~hier  ist gute Kunst!
+~           this~here is  good art   
+
+[LINE]
+Speaker414: Ein Sandwich auf einem Stuhl?!
+~           a   sandwich on  a     chair  
+
+[LINE]
+Speaker592: Ja!  Dieses Kunstwerk   ist aufregend und überraschend!
+~           yes  this   work~of~art is  exciting  and surprising   
+
+[LINE]
+Speaker592: Der Künstler ist ein Genie! 
+~           the artist   is  a   genius 
+
+[MULTIPLE_CHOICE]
+> Why does Oscar think the artist is a genius?
+- The sandwich looks delicious.
++ A sandwich on a chair is surprising.
+- The sandwich belongs to a dog.
+
+[LINE]
+Speaker414: Ich verstehe~Kunst~nicht …
+~           I   don't~understand~art  
+
+[POINT_TO_PHRASE]
+> Choose the option that means "museum attendant."
+> Ein (+Aufseher)           (kommt) und (isst) das (Sandwich).
+~ a     (museum)~attendant   comes  and  eats  the  sandwich  
+
+[LINE]
+Speaker592: Entschuldigung! Sie können~nicht das~Kunstwerk~essen!
+~           excuse~me       you can't        eat~the~work~of~art 
+
+[LINE]
+Speaker307: Was?  Das  ist kein Kunstwerk.   Das  ist mein Mittagessen.
+~           what  this is  no   work~of~art  this is  my   lunch       
+
+[MULTIPLE_CHOICE]
+> Did you get that? Oscar thought…
+- …Eddy ate all of the art in the museum.
+- …the museum attendant was a famous artist.
++ …the museum attendant's lunch was art.
+
+[MATCH]
+> Tap the pairs
+- Ich <> I
+- Kunstwerk <> work of art
+- sehr <> very
+- bin <> am
+- liebe <> love
+
