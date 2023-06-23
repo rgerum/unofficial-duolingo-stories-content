@@ -4,24 +4,24 @@ icon=05ef0ae553136cebfb24b2b3b7b0ace8a62050d0
 set=9|3
 
 [HEADER]
-> Sehr krank
+> Väldigt sjuk
 ~ very sick 
 
 [LINE]
-Speaker415: Papa! Ich bin sehr krank!
+Speaker415: Pappa! Jag är väldigt sjuk!
 ~           dad   I   am  very sick  
 
 [LINE]
-Speaker414: Oh, nein!
+Speaker414: Åh, nej!
 ~           oh  no   
 
 [LINE]
-> Eddy legt die Hand auf Juniors  Stirn.   
-~ Eddy lays his hand on  Junior's forehead 
+> Eddy lägger handen på Juniors panna. 
+~ Eddy lays (his)~hand on  Junior's forehead 
 
 [LINE]
-Speaker414: Du  hast kein Fieber.
-~           you have no   fever  
+Speaker414: Du har~inte feber.
+~           you don't~have   (a)~fever  
 
 [MULTIPLE_CHOICE]
 > Junior has a fever.
@@ -29,36 +29,36 @@ Speaker414: Du  hast kein Fieber.
 + No, that's wrong.
 
 [LINE]
-Speaker415: Aber ich habe Ohrenschmerzen! Können wir zur~Ärztin~gehen?
-~           but  I   have (an)~earache    can    we  go~to~the~doctor 
+Speaker415: Men jag har~ont~i~örat! Kan vi gå~till~doktorn?
+~           but  I   have~(an)~earache    can    we  go~to~the~doctor 
 
 [LINE]
-Speaker414: Natürlich.
+Speaker414: Naturligtvis.
 ~           of~course 
 
 [LINE]
-> Sie  gehen zur~Ärztin.   
-~ they go    to~the~doctor 
+> De åker till~vårdcentralen.   
+~ they go    to~the~health~center 
 
 [LINE]
-Speaker341: Hallo, Junior.
+Speaker341: Hallå, Junior.
 ~           hello  Junior 
 
 [ARRANGE]
 > Tap what you hear
-Speaker341: [(Wie) (kann) (ich) (helfen)?]
-~             how   can    I     help     
+Speaker341: [(Hur) (kan) (jag) (hjälpa) (dig)?]
+~             how   can    I     help     you
 
 [LINE]
-Speaker414: Mein Sohn hat Ohrenschmerzen.
-~           my   son  has (an)~earache   
+Speaker414: Min son har~ont~i~örat
+~           my   son  has~(an)~earache   
 
 [LINE]
-Speaker341: Oh, nein! Ich kann helfen.
-~           oh  no    I   can  help   
+Speaker341: Åh, nej! Jag kan hjälpa honom.
+~           oh  no    I   can  help   him
 
 [LINE]
-> Die Ärztin untersucht Juniors  Ohr.
+> Läkaren undersöker Juniors öra.
 ~ the doctor examines   Junior's ear 
 
 [MULTIPLE_CHOICE]
@@ -68,55 +68,55 @@ Speaker341: Oh, nein! Ich kann helfen.
 - …throat.
 
 [LINE]
-Speaker341: Dein Ohr ist gesund. 
+Speaker341: Ditt öra är friskt.
 ~           your ear is  healthy 
 
 [LINE]
-Speaker415: Aber … mein Fuß  tut~weh!
+Speaker415: Men … min fot gör~ont!
 ~           but    my   foot hurts   
 
 [LINE]
-> Die Ärztin untersucht Juniors  Fuß. 
+> Läkaren undersöker Juniors fot. 
 ~ the doctor examines   Junior's foot 
 
 [LINE]
-Speaker341: Dein Fuß  ist auch OK.
+Speaker341: Din fot är också okej.
 ~           your foot is  also OK 
 
 [LINE]
-Speaker414: Ist alles      in~Ordnung?
-~           is  everything all~right  
+Speaker414: Är allt som~det~ska?
+~           is  everything okay
 
 [CONTINUATION]
 > What comes next?
-Speaker341: Ja,  er ist [gesund]. 
+Speaker341: Ja,  han är [frisk]. 
 ~           yes  he is   healthy  
-- neblig
+- dimmig
 ~ foggy 
-- sehr krank
+- väldigt sjuk
 ~ very sick 
-+ gesund 
++ frisk 
 ~ healthy
 
 [LINE]
-Speaker341: Junior, du  bist nicht krank.
+Speaker341: Junior, du är inte sjuk.
 ~           Junior  you are  not   sick  
 
 [LINE]
-Speaker415: Ich bin krank!
+Speaker415: Jag är sjuk!
 ~           I   am  sick  
 
 [LINE]
-Speaker341: Junior, warum bist du  wirklich hier?
-~           Junior  why   are  you really   here 
+Speaker341: Junior, varför är du här~egentligen?
+~           Junior  why   are  you   really~here
 
 [POINT_TO_PHRASE]
-> Choose the option that means "chocolate."
-Speaker341: Ist es (vielleicht) die (+Schokolade) auf (meinem) (Schreibtisch)?
-~           is  it  maybe       the   chocolate   on   my       desk          
+> Choose the option that means "the chocolate."
+Speaker341: Är det (kanske) (+chokladen) på (mitt) (skrivbord)?
+~           is  it  maybe       the~chocolate   on   my       desk          
 
 [LINE]
-Speaker415: Vielleicht …
+Speaker415: Kanske …
 ~           maybe       
 
 [LINE]
@@ -124,8 +124,8 @@ Speaker414: Junior!
 ~           Junior 
 
 [LINE]
-Speaker415: Ich bin gesund!  Kann ich jetzt meine~Schokolade~haben?
-~           I   am  healthy  can  I   now   have~my~chocolate      
+Speaker415: Jag är frisk!  Kan jag få~min choklad nu?
+~           I   am  healthy  can  I      have~my chocolate      now
 
 [MULTIPLE_CHOICE]
 > Oh Junior! Why did he want to see the doctor?
@@ -135,9 +135,9 @@ Speaker415: Ich bin gesund!  Kann ich jetzt meine~Schokolade~haben?
 
 [MATCH]
 > Tap the pairs
-- Stirn <> forehead
-- OK <> OK
-- wirklich <> really
-- Ja <> yes
-- Sohn <> son
+- pannan <> the forehead
+- gör ont <> hurts
+- frisk <> healthy
+- örat <> the ear
+- sonen <> the son
 
