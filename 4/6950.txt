@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=The Dirty Apartment
+icon=0e6ab8c3a4e3224cb700e8daeac0038f7f0e929e
+set=8|3
+
+[HEADER]
+> Die schmutzige Wohnung  
+~ the dirty      apartment
+
+[LINE]
+> Bea besucht     ihre Freundin Susi.
+~ Bea is~visiting her  friend   Susi 
+
+[LINE]
+Speaker507: Hallo, Susi! Wie~geht's? 
+~           hello  Susi  how~are~you 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker175: Es~geht~mir [sehr~schlecht,~Bea]!
+~           I'm          very~bad,~Bea       
++ sehr schlecht, Bea
+- Bär Hecht, Lea
+- eher frech, Andrea
+
+[LINE]
+Speaker507: Was?  Warum?
+~           what  why   
+
+[LINE]
+Speaker175: Ich habe      Probleme mit  meiner neuen Mitbewohnerin.
+~           I   am~having issues   with my     new   roommate      
+
+[MULTIPLE_CHOICE]
+> Why is Susi feeling terrible?
++ She is having problems with her new roommate.
+- She has caught the flu.
+- Bea is two hours late.
+
+[LINE]
+Speaker507: Das  kann~ich verstehen! 
+~           that I~can    understand 
+
+[LINE]
+Speaker507: Die Küche   ist wirklich sehr schmutzig!
+~           the kitchen is  really   very dirty     
+
+[LINE]
+Speaker175: Ja,  ich weiß.
+~           yes  I   know 
+
+[LINE]
+Speaker507: Und auf dem Tisch liegt    ein alter Döner.      
+~           and on  the table is~lying an  old   doner~kebab 
+
+[LINE]
+Speaker175: Ja!  Igitt!
+~           yes  yuck  
+
+[LINE]
+Speaker507: Und auf dem Stuhl hier liegt    schmutzige Kleidung!
+~           and on  the chair here is~lying dirty      clothing 
+
+[LINE]
+Speaker507: Moment       … Das  ist dein T-Shirt.
+~           (one)~moment   this is  your t-shirt 
+
+[LINE]
+Speaker175: Richtig.
+~           correct 
+
+[ARRANGE]
+> Tap what you hear
+Speaker507: [(Das)  (ist) (alles) (deine) (Kleidung)!]
+~             this   is    all     your    clothing   
+
+[LINE]
+Speaker507: Ist der alte Döner       auch von  dir?
+~           is  the old  doner~kebab also from you 
+
+[LINE]
+Speaker175: Ja,  ich bin manchmal  ein bisschen unordentlich.
+~           yes  I   am  sometimes a   little   messy        
+
+[MULTIPLE_CHOICE]
+> Susi is very tidy.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker175: Und meine Mitbewohnerin ist nie   zufrieden.
+~           and my    roommate      is  never content   
+
+[LINE]
+Speaker175: Sie nervt  mich immer. 
+~           she annoys me   always 
+
+[LINE]
+Speaker175: Sie ist wirklich keine gute Mitbewohnerin!
+~           she is  really   not~a good roommate      
+
+[MULTIPLE_CHOICE]
+> Aha! What do Susi and her roommate argue about?
+- Her roommate never cleans.
+- Susi wears all her roommate's clothes.
++ Susi makes a mess and never cleans.
+
+[MATCH]
+> Tap the pairs
+- mit <> with
+- kann ich <> I can
+- bisschen <> little
+- auf <> on
+- schmutzig <> dirty
+
