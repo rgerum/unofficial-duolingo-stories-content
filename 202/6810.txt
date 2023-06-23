@@ -8,16 +8,16 @@ set=15|3
 ~ obamange kundur~ziha
 
 [LINE]
-Speaker418: No~puedo, Lily.
-~           I~can't   Lily 
+Speaker418: Nae ki|yena, Lili.
+~           ~   deki
 
 [LINE]
-Speaker416: Sí  puedes,  no~te~preocupes.
-~           yes you~can  don't~worry     
+Speaker416: Du déki! Da|nàj atsór|énnä
+~           ~  ~     da nai achor -ena   
 
 [LINE]
-Speaker418: ¡Tengo~miedo! ¡Es   demasiado peligroso!
-~            I'm~afraid    it's too       dangerous 
+Speaker418: Aťoŵ|ti|n! Taksan krizlikk yo!
+~           achor|ti|un ~     ~        ~
 
 [MULTIPLE_CHOICE]
 > Naze Zari vilnai suru ting ka Lili vilna?
@@ -32,87 +32,86 @@ Speaker418: ¡Tengo~miedo! ¡Es   demasiado peligroso!
 - kya
 
 [LINE]
-Speaker418: ¡No~quiero    ir!   
-~            I~don't~want to~go 
+Speaker418: Nae|viŵ|yena|ti skoe|na!  
+~           ~   vil ~    ~  shkoi -na 
 
 [LINE]
 Speaker416: Zari… vamos~a~estar     bien.
 ~           Zari  we're~going~to~be fine 
 
-[ARRANGE]
-> Tap what you hear
-Speaker418: ¿[(Y)   (cómo) (sabes)       (eso)?] 
-~              and   how    do~you~know   that   
+[LINE]
+Speaker418: Naze du siru?
 
 [LINE]
-Speaker416: Bueno, mucha    gente  lo~hace.
-~           well   a~lot~of people do~it   
+Speaker416: De… tákk mangédjin surude. 
+~           ~   tak  ~         ~  
 
 [LINE]
-Speaker416: Zari… todo       va~a~estar     bien.
-~           Zari  everything is~going~to~be fine 
-
-[SELECT_PHRASE]
-> Ka letste lodjiklik her?
-Speaker416: [Yo~estoy~aquí~contigo] y   vamos~a~ir        juntas.  
-~            I'm~here~with~you      and we're~going~to~go together 
-+ Yo estoy aquí contigo
-- No estoy ahí contigo
-- Yo esto lo consigo
-
-[LINE]
-Speaker418: Gracias,   Lily. Eres    una buena amiga. 
-~           thank~you  Lily  you~are a   good  friend 
-
-[LINE]
-Speaker418: Está~bien.
-~           OK        
-
-[LINE]
-Speaker418: ¡Creo    que  estoy lista!
-~            I~think that I~am  ready 
-
-[POINT_TO_PHRASE]
-> Choose the option that means "roller coaster."
-Speaker300: ¿(Vas~a~montarte~en)     (la)  (+montaña~rusa)  o  (no)? 
-~             are~you~going~to~ride   the    rollercoaster  or  not  
-
-[LINE]
-Speaker300: ¡Hay       mucha    gente  esperando!
-~            there~are a~lot~of people waiting   
-
-[LINE]
-Speaker300: Esta es la~montaña~rusa~más~alta~y~más~vieja del    país.   
-~           this is the~tallest~and~oldest~rollercoaster of~the country 
-
-[LINE]
-Speaker416: Espera… ¿La  más~alta? ¡¿Y   la  más~vieja?!
-~           wait     the tallest     and the oldest     
-
-[LINE]
-Speaker418: ¡Está~bien, lo~voy~a~hacer!    
-~            OK         I'm~going~to~do~it 
+Speaker416: Zari… alting bräa, nilting per atsór|énnä.
+~           ~     ~      ~     ~       ~   achor -ena
 
 [CONTINUATION]
-> Ka letste lodjiklik tullas kotoba?
-Speaker418: ¡Y   mi amiga,  Lily, [va~a~venir conmigo]!
-~            and my friend  Lily   is~coming  with~me  
-- va~a~ir~a         su~casa  
-~ is~going~to~go~to her~house
-+ va~a~venir conmigo
-~ is~coming  with~me
-- es muy  peligrosa
-~ is very dangerous
+> Ka letste lodjiklik her?
+Speaker416: Hér|ima, au vi skëi oba, [rjogho].  
+~           her ima  ~  ~  shkoi ~    ryoho          
++ na ryoho
+- mit kuofi
+- uten papa
 
 [LINE]
-Speaker418: Espera… ¿Lily? ¿Por~qué~corres?      ¿Adónde~vas?         
-~           wait     Lily   why~are~you~running   where~are~you~going 
+Speaker418: Dankedai, Lili. Du may ŵa mika.
+~           ~         ~     ~  mange bra mik 
 
 [LINE]
-Speaker416: ¡Lo~siento, Zari! ¡No~quiero       montarme~en esa  montaña~rusa! 
-~            I'm~sorry  Zari   I~don't~want~to (to)~ride   that rollercoaster 
+Speaker418: Sige.
+~           okei     
 
 [LINE]
+Speaker418: Ki|yena|ki|ti|n ima!
+~           deki|-ena|deki|ti|un
+
+[POINT_TO_PHRASE]
+> Sentaku kotoba ka imi "shkoi mit auto".
+Speaker300: (+Aja) du (we) (obaberk)-(auto) os nai?
+~           shkoi~mit~auto ~ akk~os~nai? oba~berk~auto
+
+[LINE]
+Speaker300: Jam mange dzin na an|vint!
+~           yam ~     djin ~  made vent 
+
+[LINE]
+Speaker300: Afto ke letse|stuur au letsegammel obaberk-auto na lant.
+~           ~    ~  leste ~     ~  ~           ~            ~  ~
+
+[LINE]
+Speaker416: Vent… lestéstüur? Au lestegammél?
+~           ~     ~           ~  ~
+
+[LINE]
+Speaker418: Okay, ima suŵu|ti|n|de!   
+~           ~     ~   suru|ti|un|de
+
+[LINE]
+Speaker418: Ati mika fun, Lili, rm|suŵu|ti!
+~           au~ti mik fu~un ~   ryoho~made|suru
+
+[LINE]
+Speaker418: Oi… Lili? Naze yingsae|na|ti? Doko skei|ti?         
+~           ~   ~     ~    djinsai|-na|~ ~    shkoi
+
+[MULTIPLE_CHOICE]
+> Na du, hur Zari kokoroti koske se Lili djingsai kara?
+- trist
++ konfus
+- bayaa
+
+
+[LINE]
+Speaker416: Gomén, Zari! Nai vil skëi oba aftó obabérk-autó! 
+~           ~
+
+[LINE]
+# waiting on mushp to correct this
 Speaker416: ¡Es   demasiado peligroso!
 ~            it's too       dangerous 
 
@@ -123,15 +122,15 @@ Speaker416: ¡Es   demasiado peligroso!
 - …tuo nai dvaima.
 
 [MULTIPLE_CHOICE]
-> Ka tsuite oba-berk-auto ka obamange kriz?
+> Ka tsuite oba-berk-auto ka obamange kriz, na Lili?
 - Tuo taksan bistra.
 - Tuo taksan ogoe.
 + Tuo taksan pitka.
 
 [MATCH]
-> Tap the pairs
-- Gracias <> thank you
-- Lo siento <> I'm sorry
+> Tsunaga kotoba na govor mit kotoba na mellanossa.
+- djingsai <> yingsae
+- bra <> ŵa
 - una <> a
 - Zari <> Zari
 - montaña rusa <> rollercoaster
