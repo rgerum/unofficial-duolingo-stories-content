@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=I Am Very Sick!
+icon=68ffeb0d8b8a73e7de5cd3b964b34d0e08761977
+set=13|1
+
+[HEADER]
+> איך בין זײער קראַנק!
+~ I am very sick   
+
+[LINE]
+> עדי איז אין דער קיך און זײַן זון זשוניאָר~(עדקעלע) לױפֿט אַרײַן~אין דער קיך
+~ Eddy is in the kitchen and his son Junior~(Little~Eddy) runs into the kitchen
+
+[LINE]
+Speaker415: טאַטע! איך בין זײער קראַנק!
+~            dad   I am very sick    
+
+[LINE]
+Speaker414: אױ,~װײ! נײן!
+~            oh~my  no 
+
+[LINE]
+> עדי טאַפּט זשוניאָרס קאָפּ 
+~ Eddy touches Junior's head       
+
+[LINE]
+Speaker414: מממ... דו~האָסט~נישט~קײַן~פֿיבער.  
+~           hmm... you~don't~have~a~fever 
+
+[MULTIPLE_CHOICE]
+> .Junior has a fever
+- .Yes, that's right
++ .No, that's wrong
+
+[LINE]
+Speaker415: אָבער סע~טוט~מיר~װײ~דאָס~אױג! איך װיל גײן צו דאָקטער~ראַבינאָװיטש.
+~            but  my~eye~hurts   I want to~go to  Doctor~Rabinovitch      
+
+[LINE]
+Speaker414: זײער~גוט.
+~           OK~("very~good")        
+
+[LINE]
+> עדי און זשוניאָר גײן צו דאָקטער~ראַבינאָװיטש
+~ Eddy and Junior  go  to Doctor~Rabinovitch    
+
+[MULTIPLE_CHOICE]
+> ?Wait… why do Eddy and Junior go to the doctor's office
+- .Junior ate too much ice cream
+- .Eddy fell down the stairs
++ .Junior says his eye hurts
+
+[LINE]
+Speaker3173: שלום־⁠עליכם, זשוניאָר? װאָס~מאַכסטו?
+~           hello  Junior   how~are~you 
+
+[CONTINUATION]
+> ?What comes next
+Speaker415: [איך~בין~קראַנק],   דאָקטער~ראַבינאָװיטש! סע~טוט~מיר~װײ~דאָס~אױג!
+~            I~am~sick  Dr.~Rabinovitch  my~eye~hurts
+- איך בין הונגעריק
+~ I am hungry
++ איך בין קראַנק
+~ I am sick
+- איך בין דאָרשטיק  
+~ I am thirsty
+
+[LINE]
+Speaker3173: אױ,~װײ! איך קען דיך~העלפֿן.
+~            oh~my  I  can help~you    
+
+[LINE]
+> דאָקטער~ראַבינאָװיטש באַקוקט זשוניאָרס אױג
+~ Doctor~Rabinovitch  examines Junior's eye     
+
+[LINE]
+Speaker3173: מממ... אַלץ~איז~אין~אָרדענונג~מיטן~אױג.
+~           hmm  your~eye~is~fine 
+
+[LINE]
+Speaker415: אױ, נײן; סע~טוט~מיר~װײ~דאָס~האַנט!
+~            oh  no  my~hand~hurts    
+
+[LINE]
+> דאָקטער~ראַבינאָװיטש באַקוקט זשוניאָרס האַנט
+~ Doctor~Rabinovitch examines Junior's hand     
+
+[LINE]
+Speaker3173: אַלץ~איז~אין~אָרדענונג~מיט~דער~האַנט~אױכעט.
+~           your~hand~is~fine~also       
+
+[MULTIPLE_CHOICE]
+> ?What's wrong with Junior
+- .His eye hurts
++ .There's nothing wrong
+- .His hand hurts
+
+[LINE]
+Speaker414: דאָקטער~ראַבינאָװיטש, מײַן זון איז געזונט?
+~           Doctor~Rabinovitch    my son  is   healthy   
+
+[LINE]
+Speaker3173: יאָ; ער איז אין~גאַנצן געזונט.
+~           yes he is completely healthy 
+
+[LINE]
+Speaker3173: דו ביסט נישט קראַנק, זשוניאָר.
+~           you are not  sick     Junior 
+
+[LINE]
+Speaker415: יאָ, יאָ; איך בין זײער קראַנק!
+~            yes yes I am  very sick    
+
+[LINE]
+Speaker3173: זשוניאָר, דער אמת; ביסטו דאָ װײַל איך גיב דיר שטענדיק שאָקאָלאַד? 
+~            Junior the truth are~you  here  because  I   give you always chocolate 
+
+[LINE]
+Speaker415: מממ... יאָ. 
+~           hmm  yes 
+
+[LINE]
+Speaker414: זשוניאָר!
+~           Junior 
+
+[LINE]
+Speaker415: נו, איצט קען איך האָבן מײַן שאָקאָלאַד?
+~            well  now can I have  my chocolate    
+
+[MULTIPLE_CHOICE]
+> ?Oh, Junior! Why did he want to see the doctor
+- .He had a gift for her
+- .He was very sick
++ .She always gave him chocolate
+
+[MATCH]
+> Tap the pairs
+- געזונט <> healthy
+- קראַנק <> sick
+- אױג <> eye
+- סע טוט מיר װײ <> hurts (complaint) 
+- איצט <> now
+
