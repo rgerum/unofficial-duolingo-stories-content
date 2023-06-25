@@ -1,19 +1,22 @@
-[DATA]
-fromLanguageName=You Are Not Mary
-icon=7a321a8d84d41c79b4d3c85aced0cbcdd13756b6
-set=8|3
-
 [HEADER]
-> Tú  no~eres María
-~ you are~not María
+> 你|不是|瑪麗
+~ you are~not Mary
+$6239/8263cde6.mp3;1,50;3,137;3,300
 
 [LINE]
-> Junior vuelve     a~casa después~de la~escuela.
-~ Junior comes~back home   after      school     
+> 朱朱|從|學校|回到家。
+~ Junior from school returns~home
+$6239/826bcaaa.mp3;2,50;2,425;3,187;3,413;2,337
 
 [LINE]
-> Hay      una mujer en la  sala.       
-~ there~is a   woman in the living~room 
+> 他|聽到|一些|聲音|從|客廳|來。
+~ he hears some noise from (the)~living~room coming
+$6239/82eda76e.mp3;1,50;3,162;3,350;3,300;2,400;3,188;2,400
+
+[LINE]
+> 客廳裡|有|一位女生。
+~ in~the~living~room has a~woman
+$6239/83559be4.mp3;2,50;2,425;2,175;2,162;2,125;3,150
 
 [MULTIPLE_CHOICE]
 > Junior sees a bear in his living room.
@@ -21,109 +24,130 @@ set=8|3
 + No, that's wrong.
 
 [LINE]
-Speaker415: ¡Ah! ¡Tú  no~eres María!
-~            oh   you are~not María 
+Speaker415: 咦？|你|不是|瑪麗。
+~            eh   you are~not Mary 
+$6239/8c626244.mp3;1,50;2,937;3,200;3,413
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker658: No… Soy  Penélope. [Salgo~con~tu~papá]…  
-~           no  I~am Penélope   I'm~dating~your~dad  
-- Sal con tu papa
-+ Salgo con tu papá
-- Salto con su papá
+Speaker658: 我不是... 我是|佩內洛普。 [我和你爸爸約會]。
+~           I~am~not  I~am Penelope   I'm~dating~your~dad  
+$6239/8d0ce73c.mp3;1,50;3,225;2,1225;2,200;5,250;2,1237;2,175;2,188;3,125;3,287
+- 我和你爸爸在約會
++ 我和你爸爸約會
+- 你和我爸爸約會
 
 [LINE]
-Speaker415: ¡Soy  Junior!
-~            I~am Junior 
+Speaker415: 我是|朱朱！
+~           I~am Junior 
+$6239/95c260c8.mp3;1,50;2,225;3,175
 
 [LINE]
-Speaker658: Hola,  Junior. Tu~papá  está en el  baño.    
-~           hello  Junior  your~dad is   in the bathroom 
+Speaker658: 你好，|朱朱。|你爸爸|在|廁所裡。
+~           hello  Junior  your~dad is   in~the~bathroom 
+$6239/9706c17c.mp3;2,50;3,850;2,850;3,150;2,337;3,113;2,362
 
 [LINE]
-Speaker658: Y…   ¿María está aquí a~menudo?
-~           and   María is   here often    
+Speaker658: 瑪麗|經常|在這裡|嗎？
+~           Mary often is~here ~
+$6239/97f526dc.mp3;2,50;3,487;2,375
 
 [LINE]
-Speaker415: ¡Sí!  Todos~los~días.
-~            yes  every~day      
+Speaker415: 很經常！|她|每天|在這裡。
+~            yes  she every~day is~here      
+$6239/9ac01a7a.mp3;1,50;3,312;2,1213;3,237;2,513;3,150
 
 [LINE]
-Speaker658: ¿¡Todos~los~días!?
+Speaker658: 每天？！
 ~             every~day       
+$6239/9b9fb004.mp3;2,50
 
 [ARRANGE]
 > Tap what you hear
-Speaker415: [(Papá) (y)   (María) (hablan) (todas~las~mañanas).]
-~             dad    and   María   talk     every~morning       
+Speaker415: [(爸爸)|(每天早上)|(對)|(瑪麗)|(說話)。]
+~             dad    every~morning with Mary talks  
+$6239/b001c410.mp3;2,50;3,350;3,437;2,438;3,150;3,350
 
 [LINE]
-Speaker658: ¿Ella está aquí en la  mañana? 
-~            she  is   here in the morning 
+Speaker658: 她|早上|來到|這裡...？
+~            she morning comes here
+$6239/b47a1a2e.mp3;1,50;3,175;3,350;3,325
 
 [POINT_TO_PHRASE]
 > Click    on the option meaning "to know." 
-~ haz~clic on el  option meaning  to saber  
-Speaker658: (Quiero) (+saber)   (más~de)     (María)…
-~            I~want    to~know   more~about   María  
+
+Speaker658: (我要)​(+知道)​(全部)​(對瑪麗)(關於的事) …
+~            I~want    to~know   all things~related~to~Mary
+$6239/98055cfe.mp3;1,50;2,212;3,225;3,388;2,375;3,137;3,350;2,425;2,125
 
 [LINE]
-Speaker415: Bueno, me~gusta María, pero…
-~           well   I~like   María  but  
+Speaker415: 其實， 我喜歡|瑪麗。 但是...
+~           actually I~like Mary but
+$6239/c204cab8.mp3;2,50;2,850;3,200;3,375;3,1025
 
 [LINE]
-Speaker415: … ella habla demasiado. ¡Pero mi papá la~quiere mucho!
-~             she  talks too~much    but  my dad  loves~her a~lot 
+Speaker415: …她|太|囉嗦。 我爸爸|很愛|她！
+~             she  (is)~too talkative  my~dad loves~a~lot her
+$6239/c2b16cdc.mp3;1,800;2,237;3,338;2,1100;3,200;2,387;2,225;2,225
 
 [LINE]
-Speaker658: ¿¡La~quiere!?     
-~             (he)~loves~her  
+Speaker658: 他愛她？！     
+~             he~loves~her  
+$6239/c4543dee.mp3;1,50;2,187;2,163
 
 [LINE]
-Speaker658: ¡Tu~papá  no~puede~tener dos novias!     
-~            your~dad can't~have     two girlfriends 
+Speaker658: 你爸爸|不能有|兩位女朋友！  
+~            your~dad can't~have     two~girlfriends 
+$6239/c4ea0e28.mp3;1,50;3,125;3,362;2,238;2,125;2,162;4,113
 
 [LINE]
-> Penélope se~va.  Eddy sale~del         baño.    
-~ Penélope leaves  Eddy comes~out~of~the bathroom 
+> 佩內洛普|離開|朱朱的家。|艾迪|從|廁所|走出來。
+~ Penélope leaves Junior's~house Eddy from bathroom walks~out 
+$6239/c35322c4.mp3;4,50;3,1162;3,388
+
+;2,350;2,112;3,850;2,425;3,188;2,425;3,212
 
 [MULTIPLE_CHOICE]
-> Why did Penélope leave?
+> Why did Penelope leave?
 - She had to use the bathroom.
 - Junior kicked her out.
 + She thinks Eddy has two girlfriends.
 
 [LINE]
-Speaker414: ¿Dónde está Penélope?
-~            where is   Penélope 
+Speaker414: 佩內洛普|在|哪裡？
+~           Penelope is where
+$6239/cc5b496a.mp3;2,50;3,425;2,462;3,138
 
 [LINE]
-Speaker415: No~está    contenta con  María.
-~           she~is~not happy    with María 
+Speaker415: 她|對瑪麗|不滿意。
+~           she with~Mary not~satisfied
+$6239/cdf7db4e.mp3;1,50;2,212;3,188;2,425;3,150
 
 [LINE]
-Speaker414: ¡Ay, no!
-~            oh  no 
+Speaker414: 糟糕！
+~            oh~no 
+$6239/cf0a719a.mp3;2,50
 
 [LINE]
-Speaker414: ¡No! ¡Penélope! ¡María es nuestro pájaro!
-~            no   Penélope   María is our     bird   
+Speaker414: 佩內洛普，|回來！ 瑪麗|是|我們的|鸚鵡！
+~           Penelope come~back Mary is our parrot
+$6239/d3b42f42.mp3;4,50;3,1100;3,950;2,300;3,125;2,162;3,88
 
 [LINE]
-Speaker625: ¡Trúa! ¡Adiós, Penélope!
-~            trúa   bye    Penélope 
+Speaker625: 佩內洛普，|再見！
+~           Penelope goodbye
+$6239/d440cefc.mp3;4,50;3,1212
 
 [MULTIPLE_CHOICE]
-> Did you catch that? Who's María?
+> Did you catch that? Who's Mary?
 - Eddy's daughter
 - Eddy's girlfriend
-+ Junior and Eddy's bird
++ Junior and Eddy's parrot
 
 [MATCH]
 > Tap the pairs
-- Ah <> oh
-- en <> in
-- me gusta <> I like
-- vuelve <> comes back
-- pájaro <> bird
-
+- 糟糕 <> oh no
+- 客廳 <> living room
+- 我喜歡 <> I like
+- 其實 <> actually
+- 鸚鵡 <> parrot
