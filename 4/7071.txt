@@ -1,0 +1,132 @@
+[DATA]
+fromLanguageName=Lilli Draws
+icon=87ba3a7b817eb4a8ad4548c9b04d97677d2b75e8
+set=12|2
+
+[HEADER]
+> Lilli zeichnet
+~ Lilli draws   
+
+[LINE]
+> Lukas geht jeden~Tag mit~seinem~Hund im~Park~spazieren.     
+~ Lukas goes every~day with~his~dog    for~a~walk~in~the~park 
+
+[LINE]
+> Und jeden~Tag sieht~er Lilli, die im~Park~sitzt    und zeichnet.
+~ and every~day he~sees  Lilli  who sits~in~the~park and draws    
+
+[LINE]
+> Heute hat~er endlich den Mut,     mit~ihr~zu~sprechen.
+~ today he~has finally the courage  to~talk~to~her      
+
+[LINE]
+Speaker1321: Hallo!
+~            hello 
+
+[LINE]
+Speaker416: Äh, hallo.
+~           uh  hello 
+
+[LINE]
+Speaker1321: Ich habe eine Frage.   
+~            I   have a    question 
+
+[LINE]
+Speaker416: OK … Was? 
+~           OK   what 
+
+[CONTINUATION]
+> What comes next?
+Speaker1321: Jeden~Tag sitzt~du hier [und zeichnest ..].
+~            every~day you~sit  here  and draw          
++ und zeichnest
+~ and draw     
+- und schwimmst
+~ and swim     
+- und machst Pizza
+~ and make   pizza
+
+[LINE]
+Speaker416: Richtig. Und?
+~           correct  and 
+
+[LINE]
+Speaker1321: Was  zeichnest~du?   
+~            what are~you~drawing 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker416: [Viele~Sachen].
+~            many~things   
++ Viele Sachen
+- Spiele und Drachen
+- Deine Socken
+
+[LINE]
+Speaker416: Sachen, die  cool oder hübsch sind.
+~           things  that cool or   pretty are  
+
+[LINE]
+Speaker1321: Super!
+~            great 
+
+[LINE]
+Speaker1321: Was  zeichnest     du  gerade?   
+~            what (are)~drawing you right~now 
+
+[LINE]
+Speaker416: Äh … Das  kann ich dir~nicht~zeigen.
+~           uh   that can  I   not~show~you     
+
+[LINE]
+Speaker1321: Warum nicht?
+~            why   not   
+
+[MULTIPLE_CHOICE]
+> Lukas wants to know why…
+- ...there are so many people in the park.
++ …Lilli doesn't want to show him what she is drawing.
+- …Lilli is drawing with her teeth.
+
+[LINE]
+Speaker416: Du  bist auch jeden~Tag im~Park     ...
+~           you are  also every~day in~the~park    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1321: Oh! Du  [zeichnest~mich]?
+~            oh  you  are~drawing~me  
++ zeichnest mich
+- zeigst auf dich
+- zeichnest Milch
+
+[LINE]
+Speaker1321: Ich finde dich auch hübsch!
+~            I   find  you  also pretty 
+
+[LINE]
+Speaker416: Nein! Ich zeichne~nicht  dich.
+~           no    I   am~not~drawing you  
+
+[LINE]
+Speaker1321: Oh …
+~            oh  
+
+[LINE]
+Speaker416: Ich zeichne    deinen Hund. Er ist so hübsch. Hier!
+~           I   am~drawing your   dog   he is  so pretty  here 
+
+[MULTIPLE_CHOICE]
+> Lukas thought…
++ …Lilli was drawing a picture of him.
+- …his dog ran away.
+- …Lilli had magical powers.
+
+[MATCH]
+> Tap the pairs
+- Heute <> today
+- ist <> is
+- habe <> have
+- so <> so
+- mit ihr zu sprechen <> to talk to her
+
