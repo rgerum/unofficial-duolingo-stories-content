@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=Father and Son
+icon=872b32f87234eedf1c74f0b575c6f7e0910eea2f
+set=12|4
+
+[HEADER]
+> Vater  und Sohn
+~ father and son 
+
+[LINE]
+Speaker414: Was  willst~du   zum~Abendessen~essen, Junior?
+~           what do~you~want to~eat~for~dinner     Junior 
+
+[LINE]
+Speaker415: Ich bin acht  Jahre alt … Ich will jeden~Tag Pizza~essen. 
+~           I   am  eight years old   I   want every~day to~eat~pizza 
+
+[LINE]
+Speaker414: Super, wir können Pizza~backen!
+~           great  we  can    bake~pizza   
+
+[LINE]
+Speaker415: Oder wir bestellen eine Pizza!
+~           or   we  order     a    pizza 
+
+[MULTIPLE_CHOICE]
+> Junior wants to order a pizza.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker414: Aber Pizzabacken  macht~Spaß!
+~           but  baking~pizza is~fun     
+
+[LINE]
+Speaker415: Wem?       
+~           (for)~whom 
+
+[LINE]
+Speaker414: Uns!      Vater  und Sohn!
+~           (for)~us  father and son  
+
+[LINE]
+Speaker415: Bist du  dann glücklich? Gut. 
+~           are  you then happy      good 
+
+[LINE]
+Speaker414: Fantastisch! Kannst du  mir        Mehl,  Wasser und Salz bringen, bitte? 
+~           fantastic    can    you (bring)~me flour  water  and salt bring    please 
+
+[MULTIPLE_CHOICE]
+> Eddy needs water, salt, and…
+- ...pizza.
++ ...flour.
+- ...a date.
+
+[LINE]
+Speaker415: OK …
+~           OK  
+
+[LINE]
+Speaker414: Jetzt können~wir den~Teig~für~unsere~Pizza~machen.
+~           now   we~can     make~the~dough~for~our~pizza     
+
+[LINE]
+> Eddy und Junior machen den Teig. 
+~ Eddy and Junior make   the dough 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: Pizzabacken  ist schwere~Arbeit und [ich~habe~Hunger]!
+~           baking~pizza is  hard~work      and  I~am~hungry      
+- ich habe gesungen
+- ich bade immer
++ ich habe Hunger
+
+[LINE]
+Speaker414: Und jetzt müssen~wir warten.
+~           and now   we~have~to wait   
+
+[LINE]
+Speaker415: Was,  wir müssen  warten?!
+~           what  we  have~to wait    
+
+[POINT_TO_PHRASE]
+> Choose the option that means "not yet."
+Speaker414: (Der) (Teig)  ist (+noch~nicht) (fertig).  
+~            the   dough  is    not~yet      finished  
+
+[LINE]
+Speaker415: Und wie lange dauert~das?    
+~           and how long  does~that~take 
+
+[LINE]
+Speaker414: Zwei Stunden.
+~           two  hours   
+
+[LINE]
+Speaker415: Aber mein~Bauch ist so leer! 
+~           but  my~stomach is  so empty 
+
+[LINE]
+Speaker414: Ich bestelle    Pizza.
+~           I   am~ordering pizza 
+
+[LINE]
+Speaker415: Papa? Du  bist der Beste!
+~           dad   you are  the best  
+
+[MULTIPLE_CHOICE]
+> Why did Eddy decide to order pizza?
++ Making pizza takes too long.
+- Junior ate all the dough.
+- He didn't have the right ingredients.
+
+[MATCH]
+> Tap the pairs
+- Junior <> Junior
+- noch nicht <> not yet
+- warten <> wait
+- zum Abendessen essen <> to eat for dinner
+- leer <> empty
+
