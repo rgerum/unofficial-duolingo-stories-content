@@ -1,0 +1,180 @@
+[DATA]
+fromLanguageName=To the Station!
+icon=5bee618bd907474764094eddf36ddcbc46523c98
+set=3|4
+
+[HEADER]
+> Ke Stasiun!
+~ to station  
+$6044/834acef4.mp3;2,0;8,94
+
+[LINE]
+> Oskar memesan taksi.
+~ ~     books a~taxi 
+$6044/8ae80e9c.mp3;5,0;8,389;6,505
+
+[LINE]
+> Teman|nya, Lin, adalah sopir taksi itu.
+~ friend his ~    is     driver taxi that 
+$6044/2217d936.mp3;10,879;5,525;7,336;6,345;6,370;5,705
+
+[MULTIPLE_CHOICE]
+> Lin is driving the taxi that Oscar just got into.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker592: Lin! Kamu sopir taksi?
+~            ~   you  driver taxi
+$6044/90fb8f98.mp3;3,0;6,419;6,520;6,356
+
+[POINT_TO_PHRASE]
+> Choose the option that means "job".
+Speaker508: (Ya)! (Ini) (+pekerjaan) (baruku)!
+~            yes  this~is job my~new 
+$6044/912b6768.mp3;2,0;5,354;10,456;7,680
+      
+
+[LINE]
+Speaker508: Mau~ke~mana?   
+~           where~do~you~want~to~go
+$6044/9d84754a.mp3;3,0;3,284;5,100
+
+[LINE]
+Speaker592: Ke stasiun ya, tolong!
+~           to the~station (emphasis)  please    
+$6044/9de2d78e.mp3;2,0;8,109;3,531;8,364
+
+[LINE]
+Speaker508: Stasiunnya di~mana, ya?
+~           the~station where   (doubt)
+$6044/9e4447ee.mp3;10,0;3,764;5,125;4,446
+
+[LINE]
+Speaker592: Enggak tahu.       
+~           (I~do)~not know 
+$6044/9f00565a.mp3;6,0;5,304
+
+[MULTIPLE_CHOICE]
+> Oskar doesn't know…
+- …who Lin is.
+- …how to swim.
++ …where the station is.
+
+[LINE]
+Speaker508: Ya~sudahlah…
+~           well~whatever        
+$6044/a61fafd0.mp3;2,0;9,179
+
+[LINE]
+> Lin mulai mengemudi.
+~ ~   starts driving    
+$6044/a847151e.mp3;3,0;6,224;10,300
+
+[MULTIPLE_CHOICE]
+> Lin starts…
+- …singing.
++ …driving.
+- …crying.
+
+[LINE]
+Speaker508: Sudah~sampai!
+~           here~we~are  
+$6044/ab23dd6c.mp3;5,0;7,425
+
+[LINE]
+Speaker592: Lin, ini bukan stasiun. Ini universitas.
+~           ~    this~is not the~station this~is a~university  
+$6044/ab6bb52e.mp3;3,0;6,400;6,520;8,320;5,635;12,655
+
+[LINE]
+Speaker508: Ah…
+~           ~ 
+$6044/b08f1c12.mp3;2,0
+
+[LINE]
+> Lin mulai mengemudi.
+~ ~   starts driving    
+$6044/b107d170.mp3;3,0;6,224;10,300
+
+[LINE]
+Speaker508: Sudah~sampai!
+~           here~we~are  
+$6044/b15f2196.mp3;5,0;7,425
+
+[LINE]
+Speaker592: Lin …
+~           ~ 
+$6044/b2ac3a52.mp3;3,0
+
+[LINE]
+Speaker508: Ya? 
+~           yes 
+$6044/b7f7779c.mp3;2,0
+
+[ARRANGE]
+> Tap what you hear
+Speaker592: [(Ini) (rumah)~(sakit).]
+~            this~is a~hospital
+$6044/b856299a.mp3;3,0;6,329;6,320
+   
+
+[LINE]
+Speaker508: Ah…
+~           ~ 
+$6044/beeb1b26.mp3;2,0
+
+[LINE]
+> Lin mulai mengemudi lagi.
+~ ~   starts driving  again    
+$6044/bf6e96fe.mp3;3,0;6,219;10,290;5,508
+
+[LINE]
+Speaker508: Sudah~sampai, Oskar!
+~           here~we~are   ~ 
+$6044/bfbdc0ee.mp3;5,0;7,414;7,540
+
+[LINE]
+Speaker592: Lin, ini bukan stasiun …
+~           ~    this~is not the~station 
+$6044/c4f4659a.mp3;3,0;5,405;6,574;8,311
+
+[LINE]
+Speaker508: Iya, memang. Ini apartemen|ku.
+~           yes indeed this~is apartment my   
+$6044/c7b6fc66.mp3;25,0;-22,0;7,219;5,500;13,681
+
+[LINE]
+Speaker508: Aku tidak mau mengemudikan taksi.
+~           I   do~not want to~drive   a~taxi 
+$6044/ca9c9062.mp3;3,0;6,264;4,285;13,240;6,756
+
+[LINE]
+Speaker508: Ini pekerjaan yang sangat sulit.
+~           this~is job that~is very difficult
+$6044/cae0bf30.mp3;3,0;10,254;5,671;7,144;6,340
+
+[LINE]
+> Lin membuka pintu taksi.
+~ ~   opens   door taxi 
+$6044/d60c5748.mp3;3,0;8,184;6,431;6,320
+
+[LINE]
+Speaker508: Selamat~malam, Oskar!
+~           good~night     ~ 
+$6044/d662e194.mp3;7,0;6,559;7,445
+
+[MULTIPLE_CHOICE]
+> Oh no! Why did Lin decide to go home?
++ She thinks driving a taxi is too difficult.
+- She needed to pick up another passenger.
+- She forgot to bring her lunch.
+
+[MATCH]
+> Tap the pairs
+- memang      <> indeed
+- rumah sakit <> hospital
+- pintu       <> door
+- sulit       <> difficult
+- mengemudi   <> to drive
+
