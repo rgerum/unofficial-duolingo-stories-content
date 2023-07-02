@@ -1,0 +1,142 @@
+[DATA]
+fromLanguageName=A Family Dinner
+icon=076bc5bf725308c211b9c04f07d3622683e84d78
+set=8|4
+
+[HEADER]
+> Ailemle Bir Akşam~Yemeği
+~ with~my~family a dinner      
+$2159/3ffb2552.mp3;7,0;4,564;6,125;7,405
+
+[LINE]
+> Lin Bea'nın~evinde. O, mutfağa gider. 
+~ Lin (is)~at~Bea's~house  she  to~the~kitchen goes
+$2159/566168c0.mp3;3,0;8,239;7,355;3,445;9,480;6,621
+
+[LINE]
+> Masada birçok yiyecek ve dört şişe şarap görür. 
+~ on~the~table a~lot~of food and four bottles~of wine (she)~sees 
+$2159/1dc53b5e.mp3;6,0;7,424;8,460;3,445;5,120;5,275;6,270;6,390
+
+[LINE]
+Speaker508: Vay! Burada birçok yiyecek var.
+~            wow   there~is a~lot~of food   here 
+$2159/200e0972.mp3;3,0;8,286;7,617;8,558;4,554
+
+[LINE]
+Speaker507: Evet, ailem akşam~yemeği~için buraya geliyor.      
+~           yes  my~family  for~dinner here is~coming
+$2159/2233f86a.mp3;4,0;7,374;6,521;7,421;5,388;7,298;8,322
+
+[MULTIPLE_CHOICE]
+> Bea's family is coming to her house for breakfast.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker508: Ah, biraz pasta yiyebilir~miyim?
+~           oh   some cake   can~I~eat
+$2159/63e86426.mp3;2,0;7,196;6,414;10,412;6,600
+
+[LINE]
+Speaker507: Hayır.
+~           no 
+$2159/264a31da.mp3;5,0
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker508: Ama [üç~pastan var].
+~           but   three~cakes (you)~have  
+$2159/71c874be.mp3;3,0;3,219;7,221;4,631
+- üç pastan yok
+- iki pastam var
++ üç pastan var
+
+[LINE]
+Speaker507: Üç~pastaya ihtiyacım~var.
+~           three~cakes  I~need  
+$2159/34ec9868.mp3;2,0;8,191;10,531;4,694
+
+[LINE]
+Speaker508: Peki, bir~bardak~şarap içebilir~miyim?
+~           well    a~glass~of~wine can~I~drink    
+$2159/aff3580a.mp3;4,0;5,462;7,251;6,483;9,391;6,550
+
+[LINE]
+Speaker507: Hayır.
+~           no 
+$2159/386a6088.mp3;5,0
+
+[CONTINUATION]
+> What's next?
+Speaker508: Dört~şişe [şarabın] var.
+~           four~bottles~of your~wine (you)~have  
+$2159/3a92d368.mp3;4,0;5,337;8,335;4,571
+- ailen
+~ your~family
+- pastan
+~ your~cake  
++ şarabın
+~ your~wine
+
+[LINE]
+Speaker507: Tüm~bu~şaraba ihtiyacım~var.
+~           all~of~this~wine  I~need 
+$2159/43a8ba4e.mp3;3,0;3,261;7,93;10,393;4,694
+
+[LINE]
+Speaker508: Biraz~pizza yiyebilir~miyim?
+~            some~pizza can~I~eat   
+$2159/bd7ce57c.mp3;5,0;6,399;10,408;6,610
+
+[LINE]
+Speaker507: Hayır, Lin.
+~           no  Lin 
+$2159/480c4312.mp3;5,0;5,442
+
+[LINE]
+Speaker508: Tamam, ailenle akşam~yemeği saat~kaçta? 
+~           okay  with~your~family the~dinner (is)~at~what~time
+$2159/49c46360.mp3;5,0;9,469;6,685;7,506;5,363;6,405
+
+[POINT_TO_PHRASE]
+> Choose the option that means "next."
+Speaker507: Ah,  (ailemle) (akşam~yemeği)  (+gelecek)~(hafta).
+~           oh  with~my~family dinner     (is)~next~week    
+$2159/c4bbbfde.mp3;2,0;9,196;6,585;7,436;8,370;6,462
+
+[ARRANGE]
+> Tap what you hear
+Speaker507: [(Bunların) (hepsi)   (benim) (için).]
+~             these all~of   me (is)~for    
+$2159/c9067b10.mp3;8,0;6,478;6,387;5,305
+
+[LINE]
+Speaker508: Ne? 
+~            what 
+$2159/50535100.mp3;2,0
+
+[LINE]
+Speaker507: Çok~zor bir~ailem var!   Tedirginim!
+~        very~difficult family (I)~have  I~am~nervous  
+$2159/51c0bd3e.mp3;3,0;4,262;4,253;6,113;4,538;12,281
+
+[LINE]
+Speaker507: Şu~an tüm bu~yiyecek ve şaraba ihtiyacım~var.
+~           right~now  all  this~food   and wine I~need   
+$2159/cfc8bf94.mp3;2,0;3,199;4,233;3,240;8,86;3,538;7,72;10,364;4,683
+
+[MULTIPLE_CHOICE]
+> Bea has a very difficult family so…
++ …she needs all the food and wine for herself.
+- …she's giving the food to Lin instead.
+- …she stopped talking to them.
+
+[MATCH]
+> Tap the pairs
+- gelecek <> next
+- ailem <> my family
+- Bea'nın evi <> Bea's house
+- tedirginim <> I am nervous
+- üç pasta <> three cakes
+
