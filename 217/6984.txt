@@ -12,12 +12,12 @@ set=1|3
 ~ Grandmother~Lu  and  her  granddaughter  Lin  are~at,~are~staying~at  at~home
 
 [LINE]
-Speaker509: 哎喲，|弗好！|我|三明治|麪包|沒|了。
-~            oh  no  my sandwich  bread  no,~don't~have  (particle)
+Speaker509: 哎喲，|勿好！|我|三明治|麪包|沒|了。
+~            oh~no  bad  my sandwich  bread  no,~don't~have  (particle)
 
 [LINE]
 Speaker508: 要|去|超市|咾？
-~            need to~go supermarket then~(particle~to~propose~a~guess)
+~            (you)~need to~go~to supermarket then
 
 [LINE]
 Speaker509: 唉。
@@ -30,7 +30,7 @@ Speaker509: 唉。
 
 [LINE]
 Speaker508: 噢，|我|要|從|超市|買|一樣|物事。
-~            oh  I need  from  supermarket  buy  one thing
+~            oh  I need~to  from  supermarket  buy one thing
 
 [LINE]
 Speaker509: 買|啥？ 
@@ -38,15 +38,15 @@ Speaker509: 買|啥？
 
 [LINE]
 Speaker508: 麻煩儂|買|隻|番茄。
-~           please~(to~you)  buy  one tomato
+~           please~(to~you)  buy  (one) tomato
 
 [SELECT_PHRASE]
-> Select the missing phrase （我個色拉要用。）
-Speaker508: Es   para [mi~ensalada].
-~           it's for   my~salad     
-- linda y salada
-+ mi ensalada
-- la mía es salada
+> Select the missing phrase 
+Speaker508: 我|買了|[要弄色拉]。
+~           I buy~(it)~so~that (I)~can~do~(my)~salad     
+- 要弄啥伐
++ 要弄色拉
+- 要弄煞脫
 
 [LINE]
 Speaker509: 好個呀。
@@ -74,7 +74,7 @@ Speaker509: 阿琳……
 ~           Lin 
 
 [LINE]
-Speaker508: … 還有|牛奶，|謝謝儂。
+Speaker508: ……還有|牛奶，|謝謝儂。
 ~             and~also  milk   thank~you    
 
 [LINE]
@@ -83,16 +83,16 @@ Speaker509: 唔……|我|有|個|想法。
 
 [ARRANGE]
 > Tap what you hear （阿琳，鈔票撥儂。）
-Speaker509: [(Aquí) (está) (el)  (dinero), (Lin).]
+Speaker509: [(ah) (está) (el)  (dinero), (Lin).]
 ~             here   is     the   money     Lin   
 
 [LINE]
-Speaker508: 啥物事？
-~             what  
+Speaker508: 啊？
+~            huh 
 
 [LINE]
-Speaker509: 我|拉|超市|就|只|要|買|一樣|物事：|麪包。
-~           I  (at?) supermarket just only need~to buy  one  thing  bread 
+Speaker509: 我|垃|超市|就|要|買|一樣|物事：|麵包。
+~           I at supermarket only need~to buy one thing bread 
 
 [MULTIPLE_CHOICE]
 > Why did Lucy give Lin money?
@@ -102,9 +102,9 @@ Speaker509: 我|拉|超市|就|只|要|買|一樣|物事：|麪包。
 
 [MATCH]
 > Tap the pairs
-- idea（想法） <> idea
+- 想法 <> idea
 - una（一個） <> one
 - Yo（我） <> I
-- nieta（外孫囡） <> granddaughter
-- por favor（麻煩） <> please
+- 外孫囡 <> granddaughter (daughter of daughter)
+- 麻煩 <> to bother, please can you
 
