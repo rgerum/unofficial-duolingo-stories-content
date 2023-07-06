@@ -16,24 +16,24 @@ Speaker113: 唷，  儂早。
 ~           hello  good~morning 
 
 [SELECT_PHRASE]
-> Select the missing phrase （儂好，麻煩帶我去機場。）
-Speaker343: Hola,  necesito [ir~al~aeropuerto],     por~favor.
-~           hello  I~need    to~go~to~the~airport   please    
-+ ir al aeropuerto
-- ir al puerto
-- y el aeropuerto
+> Select the missing phrase （麻煩帶我去機場。）
+Speaker343: 儂好，|麻煩|[帶|我|到|機場|去]，|謝謝儂。
+~           hello  please~can~you take me to airport go thank~you 
++ 帶我到機場去
+- 拉我到倉裡去
+- 擺我垃鞋子裡
 
 [LINE]
 Speaker113: 好個。
 ~           OK        
 
 [LINE]
-Speaker113: ¿Vacaciones?
-~            vacation   
+Speaker113: 去|孛相|啊？
+~            go play,~have~fun (default~question~particle)  
 
 [LINE]
-Speaker343: No~son~vacaciones…  
-~           it's~not~a~vacation 
+Speaker343: 也|勿是|去|孛相……
+~           also is~not go play,~have~fun
 
 [ARRANGE]
 > Tap what you hear （我有張去馬德里個票子。）
@@ -41,7 +41,7 @@ Speaker343: [(Tengo)  (un~boleto) (para) (Madrid).]
 ~             I~have   a~ticket    to     Madrid   
 
 [LINE]
-Speaker343: 實際上  是  兩張。
+Speaker343: 實際浪|是|兩張。
 ~           well   two tickets 
 
 [LINE]
