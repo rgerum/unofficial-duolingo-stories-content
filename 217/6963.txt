@@ -65,10 +65,13 @@ Speaker507: 儂|是|嚡裏墶|人？
 Speaker100: 我|是|上海人。
 ~           I am Shanghainese~person
 
-[ARRANGE]
-> Tap what you hear 阿拉阿伯是川沙本地人，我娘末是無錫人
-Speaker100: [(阿拉)(es~de~Cuba)   (y)   (mi~madre)  (es~de~México).]  
-~             my~father   is~from~Cuba   and   my~mother   is~from~Mexico   
+[SELECT_PHRASE]
+> Select the missing phrase 
+Speaker100: 我|爺|是|寧波人，|[阿拉|娘|末]|是|無錫人。
+~             my father is Ningponese~person our mother (as~for~her) is (a)~Wuxinese~person
+- 我個爸爸
++ 阿拉娘末
+- 阿拉茄子
 
 [LINE]
 Speaker507: 無錫|讚|個！
@@ -92,8 +95,8 @@ Speaker507: 喔唷，|巧伐！
 
 [POINT_TO_PHRASE]
 > Choose the option that means "also."
-Speaker507: 小范 (+también) (tengo) un (perro), (José).
-~           I    also      have   a   dog      José  
+Speaker507: (小范)​(啊，)​(我)​(+也)​(養)​(狗)​(個欸)！
+~           (little)~Fan (particle) I also keep dogs (affirmative~particle~with~emphasis)
 
 [LINE]
 Speaker100: ¿Eh? Yo~me~llamo Daniel…
