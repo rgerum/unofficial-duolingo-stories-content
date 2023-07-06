@@ -16,12 +16,12 @@ Speaker113: 儂早。
 ~           good~morning 
 
 [SELECT_PHRASE]
-> Select the missing phrase （麻煩帶我去機場。）
-Speaker343: 儂好，|麻煩|[帶|我|到|機場|去]，|謝謝儂。
-~           hello  please~can~you take me to airport go thank~you 
-+ 帶我到機場去
-- 拉我到倉裡去
-- 擺我垃鞋子裡
+> Select the missing phrase 
+Speaker343: 儂好，|麻煩|[帶|我|去|機場]，|謝謝儂。
+~           hello  please~can~you take me go~to airport thank~you 
++ 帶我去機場
+- 拉我去充電
+- 擺我鞋子裡
 
 [LINE]
 Speaker113: 好個。
@@ -35,14 +35,14 @@ Speaker113: 去|孛相|啊？
 Speaker343: 也|勿是|去|孛相……
 ~           also is~not go play,~have~fun
 
-[ARRANGE]
-> Tap what you hear （我有張去馬德里個票子。）
-Speaker343: [(Tengo)  (un~boleto) (para) (Madrid).]
-~             I~have   a~ticket    to     Madrid   
+[POINT_TO_PHRASE]
+> Choose the option meaning "want to"
+Speaker343: (我)​(一)​(張)​(票子)，​(本生)​(+想)​(去)​(澳大利亞)……
+~            I~(->~my) one (classifier)　ticket originally wanted to~go~to Australia
 
 [LINE]
-Speaker343: 實際浪|是|兩張。
-~           well   two tickets 
+Speaker343: 兩|張，|實際浪。
+~           two (classifier~for~tickets) actually
 
 [LINE]
 Speaker113: ¡Madrid es mi ciudad~favorita! ¡Es   muy  bonita!   
@@ -67,8 +67,8 @@ Speaker343: 我|沒|老公。|阿拉|老婆|倒|是|蠻|難搞|個！
 ~           I don't~have husband our~(my) wife though is quite difficult,~hard~to~deal~with (affirmative~particle)
 
 [LINE]
-Speaker343: 伊|勿想|跟|我|去|馬德里。
-~           she  doesn't~want to~go~to Madrid with~me 
+Speaker343: 伊講|伊|勿想|跟|我|去|馬德里。
+~           she~says she  doesn't~want with me go~to Madrid 
 
 [MULTIPLE_CHOICE]
 > Oh no! Ana's wife…
@@ -81,7 +81,7 @@ Speaker343: 我|老|傷心|個。
 ~           I (am)~very sad (affirmative~particle)   
 
 [LINE]
-Speaker113: Ah… lo~siento.
+Speaker113: 啊
 ~           oh  I'm~sorry 
 
 [LINE]
