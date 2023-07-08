@@ -1,0 +1,141 @@
+[DATA]
+fromLanguageName=Rande
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+[HEADER]
+> Randka
+~ rande
+
+[LINE]
+> Bea je na  randce v restauraci.
+~ Bea je na radne v restaraci 
+
+[LINE]
+Speaker507: Džiyň~dobry! Jak se moš? 
+~             dobrý~den jak se máš
+
+[LINE]
+Speaker100: Fajně!
+~            dobře 
+
+[LINE]
+Speaker100: Co chceš na jedzyňi? 
+~            co chceš k jídlu?
+
+[LINE]
+Speaker507: Sałot.
+~           salát  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: Džišio   móm  [wažnóm~gre].
+~           dnes mám      důležitý~zápas  
++ důležitý zápasz
+- velký otřes
+- úžasná část
+
+[LINE]
+Speaker100:  Moš rada sport?
+~           Máš rádá sport 
+
+[LINE]
+Speaker507: Ja, gróm fuzbal.
+~           Jo hr fotbal
+
+[MULTIPLE_CHOICE]
+> Bea si objednalá salát, protože…
++ ...dnes hraje fotbal.
+- ...její rande říkalo, že salát je vynikající.
+- …snědla celou pizzu.
+
+[LINE]
+Speaker100: Jo~tež!
+~                 taky
+
+[LINE]
+Speaker507: Super!
+~            super 
+
+[LINE]
+Speaker507: Skónd žeš~je?     
+~            odkadě jseš 
+
+[LINE]
+Speaker100: Ježech  Amerykan.
+~           jsem američan  
+
+[POINT_TO_PHRASE]
+> Klepněte na to, co slyšít
+Speaker100: [(Mój~ojčec)  (je~z~Kuby)   (a)   (mojo~matka)  (je~z~Mexyka).]  
+~             můj~otec   je~z~Kuby   a   moje~matka   je~z~Mexika   
+
+[LINE]
+Speaker507: Jo~móm~rada Kube!
+~            Milují     Kubu 
+
+[LINE]
+Speaker100: Kuba je fest  pěkno.   
+~           Kuba je velmi krásná
+
+[LINE]
+Speaker507: Či~ty~moš zwierzóntka?
+~            Máš mazlíčky     
+
+[LINE]
+Speaker100: Jo~móm dwie čičje a jednego psa.
+~           mám dvě kočky a jednoho psa  
+
+[POINT_TO_PHRASE]
+> Vyberte možnost, která znamená „také“.
+Speaker507: Jo (+tež) (móm) jednego (psa), (José).
+~           já    také      mám   jednoho   psa      José  
+
+[LINE]
+Speaker100: Eh? Moje mjano je Daniel…
+~            eh  moje jméno je  Daniel 
+
+[LINE]
+Speaker100: Tyž je přeca Gabriela?
+~            ty jseš přece Gabriela
+
+[LINE]
+Speaker507: Ňi!
+~            ne 
+
+[LINE]
+Speaker507: Nazyvóm se Bea!
+~            jmenují se Bea
+
+[MULTIPLE_CHOICE]
+> Pochopili jste to? Bea a Daniel…
+- …koupil letenky na Kubu.
++ …měli potkat různé lidi.
+- … venčí své psy.
+
+[LINE]
+>  Džioucha idže ku  Danielovi.
+~ holka jde ku Danielovi
+
+[LINE]
+Speaker101: Džiyň~dobry!  Ježeš    Daniel? Ježech  Gabriela.
+~            dobrý~den jseš Daniel jsem Gabriela
+
+[LINE]
+Speaker100: Ňi, Omóvjóm se. Ježech  José.
+~           ne omlouvám se jsem José
+
+[MULTIPLE_CHOICE]
+> Páni! Co se právě stalo?
+- Bea si změnila jméno na Gabriela.
++ Daniel lhal svému skutečnému rande, protože se mu líbí Bea.
+- Psi Bea a Daniel hráli fotbal.
+
+[MATCH]
+> Klepněte na páry
+- a <> a
+- ježech <> jsem
+- sałot <> salát
+- Móm rod <> Mám rád
+- eh <> eh
+
