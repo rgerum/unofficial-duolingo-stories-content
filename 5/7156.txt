@@ -4,20 +4,24 @@ icon=92f8e9fbcb106a065c67e2efcbb467a67077da4b
 set=15|2
 
 [HEADER]
-> No~es    para niños   
-~ it's~not for  children
+> Ikke for barn
+~ not for children
+$7156/92ba102d.mp3;4,50;4,300;5,212
 
 [LINE]
-> Zari está con  Junior porque  Eddy está en el~trabajo.
-~ Zari is   with Junior because Eddy is   at work       
+> Mens  Eddy er på~jobb, Zari passer~på Junior.
+~ While ~    is at~work  ~    watches~over 
+$7156/481f7d24.mp3;4,50;5,425;3,350;3,187;5,113;2,437;5,63;7,375;3,437;7,138;2,600
 
 [LINE]
-Speaker415: ¡Zari! ¿Podemos~jugar tu~videojuego?  
-~            Zari   we~can~play   your~video~game 
+Speaker415: Zari! Kan vi spille ett av spillene~dine?
+~           ~     can we play   one of your~games
+$7156/8b2712e2.mp3;5,824;4,180;3,80;7,315;4,211;3,95;9,444;6,695
 
 [LINE]
-Speaker418: Ahhh… Tengo~que~limpiar la  casa  porque  tu~papá  va~a~llegar        pronto.
-~           ohhh  I~have~to~clean   the house because your~dad is~going~to~arrive soon   
+Speaker418: Øhhh…  Jeg bør      rydde huset, Junior. Pappaen~din kommer fra  jobb snart.
+~           uhm... I   ought~to clean the~house ~    your~dad    comes  from work soon    
+$7156/61642421.mp3;4,264;2,565;4,210;4,298;6,729;7,830;8,440;8,182;4,315;7,165;4,254;5,827;7,NaN
 
 [MULTIPLE_CHOICE]
 > Zari has time to play video games with Junior.
@@ -25,56 +29,78 @@ Speaker418: Ahhh… Tengo~que~limpiar la  casa  porque  tu~papá  va~a~llegar   
 - Yes, that's right.
 
 [LINE]
-Speaker415: Bueno… ¿puedo~jugar tu~videojuego   sin     ti? 
-~           well    I~can~play  your~video~game without you 
+Speaker415: Men…
+~           But    I~can~play  your~video~game without you 
+$7156/0850e918.mp3;3,329;2,NaN
 
 [LINE]
-Speaker418: Lo~siento, mi videojuego no~es  para niños.   
-~           I'm~sorry  my video~game is~not for  children 
-
-[ARRANGE]
-> Tap what you hear
-Speaker415: ¡[(Yo) (no~soy) (un) (niño)!] 
-~              I    am~not   a    child   
+Speaker415: Får jeg spille alene da?
+~           May I   play   alone then
+$7156/70fcddaf.mp3;3,179;4,140;7,301;6,405;4,592
 
 [LINE]
-Speaker418: Mmm… bueno, los~adultos lavan los platos.
-~           hmm  well   adults      wash  the dishes 
-
-[LINE]
-Speaker415: ¡Yo sé   lavar         los platos!
-~            I  know (how)~to~wash the dishes 
-
-[CONTINUATION]
-> What comes next?
-> Junior empieza~a lavar   [los platos].
-~ Junior starts    to~wash  the dishes  
-+ los platos
-~ the dishes
-- mi videojuego~
-~ my video~game 
-- los~adultos
-~ adults     
-
-[LINE]
-Speaker415: ¿Ves?
-~            see 
-
-[LINE]
-Speaker418: Los~adultos limpian la  mesa. 
-~           adults      clean   the table 
-
-[LINE]
-Speaker415: ¡Yo sé   limpiar        la  mesa! 
-~            I  know (how)~to~clean the table 
+Speaker418: Beklager, Junior. Mine~spill er  ikke for barn. 
+~           I'm~sorry ~  my~video~games  are not  for children 
+$7156/4d36664c.mp3;9,924;8,704;5,240;6,305;3,188;5,255;4,180;6,661
 
 [SELECT_PHRASE]
-> Select the missing phrase
-> Junior [limpia~la~mesa].  
-~ Junior  cleans~the~table  
-- linda la mesa
-+ limpia la mesa
-- limpias la masa
+> Select the correct article:
+Speaker415: Jeg er ikke [et] barn!
+~ I   am not   a   child
+$7156/002b7f90.mp3;3,249;3,115;5,246;3,140;6,665
+
+- en
+- ei
++ et
+
+
+[LINE]
+Speaker415: Jeg er voksen!
+~           I   am adult
+$7156/cc307b10.mp3;3,269;3,105;8,695
+
+[LINE]
+> Zari tenker for et~stund.
+~ ~    thinks for a~moment
+$7156/c8663018.mp3;4,50;7,437;4,400;3,200;6,138;2,450
+
+[LINE]
+Speaker418: Voksen, sier~du? Så du kan~vakse~opp?
+~           adult you~say so you can do~the~dishes
+$7156/ec4cf325.mp3;7,801;5,300;4,391;3,195;3,165;4,233;6,440;5,549
+
+[LINE]
+Speaker415: Selvfølgelig, det~kan~jeg!
+~           of~course I~can~do~that
+$7156/81f33246.mp3;13,1020;4,181;4,190;5,589
+
+[ARRANGE]
+> Tap the words in correct order:
+> [(Junior) (begynner) (å) (vaske~opp).]
+~ Junior      begins to do~the~dishes
+
+$7156/cfa342d6.mp3;6,50;9,612;2,413;6,75;4,350;2,350
+
+[LINE]
+Speaker415: Se!
+~           see 
+$7156/68dbdd6b.mp3;3,595
+
+[LINE]
+Speaker418: Voksne rydder bordet...
+~           adults clean  the~table 
+$7156/e0615591.mp3;6,514;7,342;7,369;4,NaN
+
+[LINE]
+Speaker415: Det~kan~jeg også!
+~           I~can~do~that as~well
+$7156/c3503aa3.mp3;3,269;4,225;4,138;6,530
+
+[ARRANGE]
+> Tap the words in correct order:
+> [(Junior) (rydder) (bordet) (i~stua).]
+~ Junior     cleans   the~table in~the~living~room
+
 
 [LINE]
 Speaker418: ¡Muy  bien! Sí,  eres    un adulto.
