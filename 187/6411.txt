@@ -1,0 +1,110 @@
+[DATA]
+fromLanguageName=Uma coisa
+icon=717bd84875f83c678f64f124937a278061e0e778
+set=1|3
+
+[HEADER]
+> Une chose
+~ uma coisa
+
+[LINE]
+> Lucie est  à~la~maison avec sa  petite-fille, Lynn.
+~ Lucy  está em~casa     com  sua neta          Lynn
+
+[LINE]
+Speaker509: Oh non ! J’ai~besoin de pain pour mon sandwich !
+~           oh não   eu~preciso  de pão  pro  meu sanduiche
+
+[LINE]
+Speaker508: Tu   vas au supermaché ?
+~           você vai ao supermercado
+
+[LINE]
+Speaker509: Oui.
+~           sim
+
+[MULTIPLE_CHOICE]
+> Lynn e Lucy têm muito pão.
+- Sim, é verdade.
++ Não, não é verdade.
+
+[LINE]
+Speaker508: Ah, j’ai~besoin de quelque~chose du supermarché !
+~           ah  preciso     de algo          do supermercado
+
+[LINE]
+Speaker509: Qu’est-ce~que c’est ?
+~           o~que         é
+
+[LINE]
+Speaker508: Une tomate, s’il~te~plaît.
+~           um  tomate  por~favor
+
+[SELECT_PHRASE]
+> Selecione o que falta.
+Speaker508: C’est pour [ma salade].
+~           é     pra   minha salada 
+- ma salle d’art
++ ma salade
+- mon sale arbre
+
+[LINE]
+Speaker509: D’accord.
+~           cbeleza
+
+[LINE]
+Speaker508: Merci !  
+~           obrigado 
+
+[POINT_TO_PHRASE]
+> Selecione a opção que significa “também.”
+Speaker508: Ah ! Et (je~veux) (+aussi) (trois) (pommes) …
+~  ~   
+
+[LINE]
+Speaker509: D’accord …
+~           beleza  
+
+[LINE]
+Speaker508: … et du~jus~d’orange …
+~             e  suco~de~laranja   
+
+[LINE]
+Speaker509: Lynn …
+~           Lynn
+
+[LINE]
+Speaker508: … et du~lait, s’il~te~plaît.
+~             e  leite    por~favor
+
+[LINE]
+Speaker509: Hmmm … J’ai  une idée.
+~           ~      tenho uma ideia
+
+[ARRANGE]
+> Selecione o que ouvir.
+Speaker509: [(Voilà)    (l’argent), (Lynn).]
+~             aqui~está  o~dinheiro  Lynn 
+
+[LINE]
+Speaker508: Quoi ?!
+~           quê
+
+[LINE]
+Speaker509: Moi aussi, je veux  quelque~chose du supermarché  : du~pain. 
+~           eu  também eu quero algo          do supermercado   pão.
+
+[MULTIPLE_CHOICE]
+> Por que Lucy deu o dinheiro para Lynn?
+- Lynn vai vender sanduiches.
++ Ela quer que Lynn vá ao supermercado pra ela.
+- Lynn está indo para um restaurante.
+
+[MATCH]
+> Selecione os pares.
+- idée <> ideia
+- une <> uma
+- je <> eu
+- petite-fille <> neta
+- s’il te plaît <> por favor
+

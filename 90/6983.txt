@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=Clothes for My Vacation
+icon=6fee4723d01611cffa9b4b76fd5be36697ef1e96
+set=4|3
+
+[HEADER]
+> Claes    for me haliday
+~ clothes for  my  vacation  
+
+[LINE]
+> Lucy is iv a shop.
+~ Lucy is in a shop  
+
+[LINE]
+Speaker416: Hollo,  de ye need ony help?
+~           hello  do you nned any help
+
+[LINE]
+Speaker509: Aye,  aw need some claes for me haliday.
+~           yes  I need some clothes for my holiday   
+
+[MULTIPLE_CHOICE]
+> Lucy is shopping for clothes for a vacation.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker416: Aareet.
+~           OK        
+
+[LINE]
+Speaker509: Aw need a dress.
+~           I need   a  dress   
+
+[LINE]
+> Lily leuks for a yella dress.
+~ Lily looks for a yellow dress   
+
+[MULTIPLE_CHOICE]
+> Lily is getting a…
++ …yellow dress.
+- …red dress.
+- …yellow hat.
+
+[LINE]
+Speaker509: Naw, aw want a reed dress!
+~            no  I  want  a red dress    
+
+[LINE]
+> Lily leuks for  a reed dress.
+~ Lily looks for a  red dress    
+
+[LINE]
+Speaker509: An aw want a jacket an~aa.
+~           and I want a jacket as~well  
+
+[LINE]
+> Lily leuks for a reed jacket.
+~ Lily looks for a  red jacket        
+
+[LINE]
+Speaker509: Naw, aw want a broon jacket!
+~            no  I  want a brown jacket    
+
+[LINE]
+Speaker416: Aareet…
+~           OK        
+
+[LINE]
+Speaker509: A yella dress an a broon jacket.
+~           a yellow dress and a brown jacket  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: An a hat [an~aa]!
+~            An a hat as~well     
+- wiv aa
+- tiv aa
++ an aa
+
+[LINE]
+> Lily leuks for a blue hat.
+~ Lily looks for a  blue hat      
+
+[LINE]
+Speaker509: Naw, aw want a grey hat!
+~           no I want a grey hat   
+
+[LINE]
+> Lily leuks for a grey hat.
+~ Lily looks for a  gray hat      
+
+[LINE]
+Speaker509: Thenk ye, noo aw's riddy te gan on haliday!
+~           Thank you now I'm ready to go on vacation 
+
+
+[LINE]
+Speaker416: An noo aw need a haliday an~aa...
+~           and now I need a vacation as~well...
+
+[MULTIPLE_CHOICE]
+> Poor Lily! Why does she need a vacation?
+- She ate too much for lunch.
++ She's tired after helping Lucy find clothes.
+- She wants to buy new clothes to wear.
+
+[MATCH]
+> Tap the pairs
+- haliday <> vacation
+- claes <> clothes
+- an aa <> as well
+- broon <> brown
+- reed <> red
+

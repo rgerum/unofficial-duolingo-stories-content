@@ -1,0 +1,159 @@
+[DATA]
+fromLanguageName=I Am Sick
+icon=68ffeb0d8b8a73e7de5cd3b964b34d0e08761977
+set=13|1
+
+[HEADER]
+> Jeg er <prosody rate="-38.00%"> syk </prosody>
+~ I am  sick   
+$6584/464ef365.mp3;3,50;3,187;4,138
+
+[LINE]
+Speaker415: Pappa, jeg er syk!
+~            dad   I am  sick    
+$6584/2ac9ba1e.mp3;6,653;4,170;3,95;5,843
+
+[LINE]
+Speaker414: Åh, nei!
+~            oh  no 
+$6584/ed19b855.mp3;3,549;5,569
+
+[LINE]
+> Eddy kjenner~på pannen til Junior.
+~ Eddy touches the~forehead of Junior       
+$6584/e20d7176.mp3;4,50;8,325;3,387;7,163;4,362;7,250;2,625
+
+[LINE]
+Speaker414: Nei, du har~ikke feber.   
+~           No, you don't~have (a)~fever
+$6584/80d4b91e.mp3;4,490;3,165;4,145;5,255;7,781
+
+[MULTIPLE_CHOICE]
+> Junior has a fever.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker415: Men, øyet~mitt gjør~vondt! Jeg~vil~dra~til legen!
+~           men my~eye hurts I~want~to~go~to  the~doctor
+$6584/5cd7665c.mp3;4,529;5,265;5,185;5,140;7,835;4,235;4,135;4,200;4,155;7,765
+
+[LINE]
+Speaker414: Greit.
+~           fine        
+$6584/05205bf8.mp3;6,771
+
+[LINE]
+> De drar til legekontoret.
+~ they  go  to the~doctor's~office      
+$6584/842838c7.mp3;2,50;5,287;4,325;13,200;2,950
+
+[MULTIPLE_CHOICE]
+> Wait… why do Junior and Eddy go to the doctor's office?
+- Junior ate too much ice cream.
+- Eddy fell down the stairs.
++ Junior says his eye hurts.
+
+[LINE]
+Speaker341: Hei-hei,  Junior. Hvordan~går~det? 
+~           hello  Junior   how~are~you 
+$6584/d58d0f67.mp3;8,650;8,680;8,340;4,235;5,370
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: [Jeg~er~syk]! Øyet~mitt~gjør~vondt!
+~             I'm~sick         my~eye~hurts    
+$6584/48ca55cd.mp3;3,280;3,95;5,741;5,240;5,200;5,149;7,686
+- Jeg er sterk
++ Jeg er syk
+- Hunden min er syk
+
+[LINE]
+Speaker341: Åh, nei! Jeg kan~hjelpe~deg.
+~            oh  no  I  can~help~you    
+$6584/d4caf225.mp3;3,384;5,586;4,165;4,175;7,295;5,450
+
+[LINE]
+> Legen ser~på øyet~til~Junior.
+~ the~doctor  looks~at Junior's~eye     
+
+[LINE]
+Speaker341: Hmm… Øyet~ditt ser fint ut.
+~           hmm  Your~eye
+$6584/11df4a91.mp3;4,319;2,575;5,185;5,196;4,335;5,581;4,NaN
+
+[LINE]
+Speaker415: Åh, virkelig?  Øh… hånda~mi~gjør~vondt!
+~            oh  yes  eh   my~hand~hurts    
+$6584/ae5f0148.mp3;3,534;10,744;4,225;2,598;6,120;3,170;5,836;7,NaN
+
+[LINE]
+> Legen ser~på hånda~til~Junior.
+~ the~doctor  looks~at Junior's~hand     
+$6584/b3931ad6.mp3;5,50;4,537;3,313;6,112;4,363;7,237;2,613
+
+[LINE]
+Speaker341: Hånda~di ser~fin~ut også.
+~           your~hand looks~fine too       
+$6584/c306853e.mp3;5,304;3,125;4,207;4,280;3,155;6,641
+
+[MULTIPLE_CHOICE]
+> What's wrong with Junior?
+- His eye hurts.
++ There's nothing wrong.
+- His hand hurts.
+
+[LINE]
+Speaker414: Er sønnen~min OK?
+~           Is my~son OK?   
+$6584/dc8ab0e5.mp3;2,119;7,360;4,161;4,625
+
+[LINE]
+Speaker341: Ja. 
+~           yes 
+$6584/930c99c8.mp3;3,605
+
+[LINE]
+Speaker341: Du er~ikke syk, Junior.
+~           you are~not  sick     Junior 
+$6584/a6efccf4.mp3;2,164;3,130;5,230;5,492;8,785
+
+[LINE]
+Speaker415: Jo, jeg~er veldig syk!
+~            yes  I~am  very sick    
+$6584/d270c1d2.mp3;3,494;4,192;3,100;7,270;5,811
+
+[POINT_TO_PHRASE]
+> Choose the option that means "give you."
+Speaker341: (Junior)… (er du)   her (fordi)  jeg alltid    (+gir~deg)   sjokolade?
+~            Junior     you~are  here  because  I always   give~you  chocolate 
+$6584/988f2331.mp3;6,430;2,386;3,130;3,235;4,203;6,90;4,255;7,151;4,145;4,977;11,NaN
+
+[LINE]
+Speaker415: Ja. 
+~           yes 
+$6584/5c279976.mp3;3,575
+
+[LINE]
+Speaker414: Junior!
+~            Junior 
+$6584/b7dfa49a.mp3;7,864
+
+[LINE]
+Speaker415:  Kan jeg få sjokolade nå?
+~             can I get chocolate now 
+$6584/5e7b81f9.mp3;3,204;4,131;3,109;10,596;4,614
+
+[MULTIPLE_CHOICE]
+> Oh Junior! Why did he want to see the doctor?
+- He had a gift for her.
+- He was very sick.
++ She always gives him candy.
+
+[MATCH]
+> Tap the pairs
+- sjokolade <> chocolate
+- pappa <> dad
+- nei <> no
+- syk <> sick
+- øyet ditt <> your eye

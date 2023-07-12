@@ -1,0 +1,167 @@
+[DATA]
+fromLanguageName=Um encontro
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+[HEADER]
+> Un rancard
+~ um encontro
+$6353/21ad7bd6.mp3;2,50;8,150
+
+[LINE]
+> Béa a   un rancard  dans un restaurant.
+~ Bea tem um encontro em   um restaurante
+$6353/269c8ff6.mp3;3,50;2,387;3,100;8,75;5,438;3,137;11,150
+
+[LINE]
+Speaker507: Bonjour ! Ça~va ?
+~           olá       tudo~bem 
+$6353/2bd2e77c.mp3;7,50;3,1500;3,212
+
+[LINE]
+Speaker100: Ça~va !
+~           tudo~bem
+$6353/1dd63e54.mp3;2,50;3,287
+
+[LINE]
+Speaker100: Qu’est-ce~que tu   veux manger ?
+~           o~que         você quer comer
+$6353/204454d2.mp3;9,50;4,300;3,112;5,125;7,138
+
+[LINE]
+Speaker507: Une salade.
+~           uma salada   
+$6353/2d9f87a0.mp3;3,50;7,150
+
+[SELECT_PHRASE]
+> Selecione:
+Speaker507: J’|ai    un  [match   de football] aujourd’hui.
+~           eu tenho uma  partida de futebol   hoje
+$6353/3b9a3c56.mp3;1,50;3,450;3,87;6,100;3,325;9,163;12,425
++ match de football
+- mage de football
+- max de pots de colle
+
+[LINE]
+Speaker100: Ah, tu   aimes    faire du~sport ?
+~           ah  você gosta~de fazer esporte
+$6353/4991c72a.mp3;2,50;3,512;6,138;6,162;3,238;6,150
+
+[LINE]
+Speaker507: Oui, je joue au~foot.
+~           sim, eu jogo futebol
+$6353/4cce81a8.mp3;3,50;3,600;5,175;3,225;5,125
+
+[MULTIPLE_CHOICE]
+> Bea pediu uma salada porque…
++ … ela vai jogar futebol hoje.
+- … o homem disse que a salada era deliciosa.
+- … ela comeu uma pizza inteira.
+
+[LINE]
+Speaker100: Moi aussi !
+~           eu  também 
+$6353/4fd642aa.mp3;3,50;6,225
+
+[LINE]
+Speaker507: Super~!
+~           que~legal!
+$6353/52268466.mp3;5,50
+
+[LINE]
+Speaker507: D’où~est-ce~que tu   viens ?    
+~           de~onde         você vem
+$6353/5447d254.mp3;4,50;7,262;4,188;3,150;6,150
+
+[LINE]
+Speaker100: Je suis américain.
+~           Eu sou  americano
+$6353/57811534.mp3;2,50;5,237;10,188
+
+[ARRANGE]
+> Selecione o que ouvir.
+Speaker100: [(Mon) (père) (vient~de~Cuba) (et) (ma)  (mère) (du~Mexique).]  
+~             meu   pai    vem~de~Cuba     e    minha mãe    do~México. 
+$6353/5b0269ce.mp3;3,50;5,287;6,188;3,212;5,113;3,425;3,112;5,138;3,225;8,75
+
+[LINE]
+Speaker507: J’adore   Cuba !
+~           eu~adoro  Cuba
+$6353/fdf762f6.mp3;7,50;5,487
+
+[LINE]
+Speaker100: C’est très  beau,  Cuba.   
+~           é     muito bonito Cuba
+$6353/ffc85f2c.mp3;5,50;5,262;5,225;5,450
+
+[LINE]
+Speaker507: T’as     des~animaux~domestiques ?
+~           você~tem animais~domésticos
+$6353/02392b74.mp3;4,50;4,187;8,138;12,475
+
+[LINE]
+Speaker100: J’ai     deux chats et un chien.
+~           eu~tenho dois gatos e  um cachorro
+$6353/0807d230.mp3;4,50;5,275;6,175;3,237;3,75;6,163
+
+[POINT_TO_PHRASE]
+> Escolha a opção que significa “também.”
+Speaker507: Moi (+aussi) (j’ai) un (chien), (Joseph).
+~           Eu   também   tenho um  cachorro Joseph~(José)  
+$6353/0a16a9c0.mp3;3,50;6,262;5,313;3,175;6,125;7,662
+
+[LINE]
+Speaker100: Hein~? Je~m’appelle Daniel …
+~           oi?    me~chamo     Daniel
+$6353/10771714.mp3;4,50;3,1087;10,225;7,363
+
+[LINE]
+Speaker100: Tu   n’es~pas Gabriela ?
+~           você não~é    Gabriela
+$6353/136bd770.mp3;2,50;5,200;4,162;9,125
+
+[LINE]
+Speaker507: … Non ?
+~             não
+$6353/1818146e.mp3;3,800
+
+[LINE]
+Speaker507: Je~m’appelle Béa !
+~           me~chamo     Bea
+$6353/1ab354fe.mp3;2,50;10,237;4,388
+
+[MULTIPLE_CHOICE]
+> O que aconteceu? Bea e Daniel…
+- … compraram bilhetes de avião para Cuba.
++ … deveriam encontrar outras pessoas.
+- … estão caminhando com seus cachorros.
+
+[LINE]
+> Une femme  va  voir Daniel.
+~ Uma mulher vai ver  Daniel
+$6353/1da3cc02.mp3;3,50;6,225;3,250;5,125;7,237
+
+[LINE]
+Speaker101: Salut ! Tu   es Daniel ? Je suis Gabriela.
+~           olá     você é  Daniel   eu sou  Gabriela
+$6353/217fced4.mp3;5,50;3,1400;3,187;7,100;3,1488;5,212;9,225
+
+[LINE]
+Speaker100: Non, je~suis~désolé. Je suis Joseph.
+~           não  sinto~muito     eu sou  Joseph~(José) 
+$6353/25c9f8de.mp3;3,50;3,575;5,187;7,200;3,1338;5,262;7,150
+
+[MULTIPLE_CHOICE]
+> O que acabou de acontecer?
+- Bea mudou seu nome para Gabriela.
++ Daniel mentiu para Gabriela e disse que se chamava José (Joseph.)
+- Os cachorros de Bea e Daniel foram jogar futebol.
+
+[MATCH]
+> Combine os pares.
+- et <> e
+- je suis <> eu sou
+- salade <> salada
+- j’adore <> eu adoro
+- hein <> que
+

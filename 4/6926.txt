@@ -1,0 +1,160 @@
+[DATA]
+fromLanguageName=Where Is the Auto Repair Shop?
+icon=3353b2d2d326875fc3ab76228fda57149bcd012a
+set=6|2
+
+[HEADER]
+> Var ligger bilverkstaden?
+~ where is  the auto~repair~shop 
+$6926/1e422e67.mp3;3,6;7,214;14,329
+
+[LINE]
+> Lin är~på~promenad.
+~ Lin goes~for~a~walk 
+$6926/7cac4f5b.mp3;3,6;3,310;3,151;9,158
+
+[LINE]
+> Hon ser en man bredvid sin bil{bil}.
+#klammerparentes för bil eftersom annars uttalar den det som "bilaga"
+~ she sees  a     man  next~to his    car  
+$6926/4a2a4fd5.mp3;3,6;4,164;3,290;4,100;8,137;4,448;4,219
+
+[LINE]
+> Han är arg.
+~ he is  angry     
+$6926/952560d2.mp3;3,6;3,257;4,138
+
+[MULTIPLE_CHOICE]
+> Lin notices a man who is very cheerful.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker508: Hallå! Kan jag hjälpa dig?
+~           hello  can I   help   you
+$6926/643bb224.mp3;6,749;4,190;4,115;7,355;5,521
+
+[LINE]
+Speaker127: Min bil är trasig.
+~           my   car  is  broken 
+$6926/86e5831f.mp3;3,50;4,262;3,325;7,188;2,687
+
+[CONTINUATION]
+> What comes next?
+Speaker127: Har~du   [en mobiltelefon]?     
+~           do~you~have  a~cell~phone  
+$6926/b8fb2263.mp3;3,50;3,175;3,125;13,87
+- tio kilo jordgubbar   
+~ ten  kilos~(of) strawberries
++ en mobiltelefon     
+~ a   cell~phone
+- roligt
+~ fun  
+
+[LINE]
+> Lin ger mannen sin mobiltelefon.   
+~ Lin gives the~man  her cell~phone 
+$6926/cd7aadb6.mp3;3,6;4,315;7,263;4,407;13,227
+
+[LINE]
+Speaker508: Naturligtvis, men ….
+~           of~course  but    
+$6926/7072e751.mp3;13,1120;4,344;2,296;2,NaN
+
+[LINE]
+Speaker127: Ursäkta, ett ögonblick, tack. 
+~           sorry           one  moment  please 
+$6926/60dbfffb.mp3;7,50;2,675;4,162;10,250;2,825;5,138;2,512
+
+[LINE]
+> Mannen pratar i~mobiltelefonen.       
+~ the~man  speaks  on~the~cell~phone 
+$6926/ba6a331d.mp3;6,6;7,427;2,489;15,65
+
+[LINE]
+Speaker127: Är det bilverkstaden?       
+~           is  it the~auto~repair~shop 
+$6926/5db051f3.mp3;2,50;4,125;14,100
+
+[MULTIPLE_CHOICE]
+> The man borrowed Lin's phone so he could…
++ …call an auto repair shop.
+- …look through her pictures.
+- …check the time.
+
+[LINE]
+Speaker127: Jag har ett problem med min bil!
+~           I   have a   problem with my     car  
+$6926/a8619dd3.mp3;3,50;4,187;4,175;8,100;4,525;4,113;4,200;2,387
+
+[LINE]
+Speaker508: Öh … ursäkta?
+~           um    excuse~me      
+$6926/535c8ef5.mp3;2,384;2,1286;9,NaN
+
+[LINE]
+> Mannen hör~inte~Lin.  
+~ the~man  doesn't~hear~Lin 
+$6926/72ba2877.mp3;6,6;4,469;5,340;4,202
+
+[LINE]
+Speaker127: Var jag är? Ingen aning!
+~           where I   am   no    idea   
+$6926/deba79cf.mp3;3,50;4,162;3,150;6,1213;6,387;2,513
+
+[LINE]
+Speaker127: Öh{ˈø̞h:ipa}, var är vi? 
+~           uh  where are  we 
+$6926/3ae7312c.mp3;2,50;2,250;4,212;3,213;3,162
+
+[ARRANGE]
+> Tap what you hear
+Speaker508: [(Ser~du) (vägen) (där~borta)?] 
+~             do~you~see   the~street   over~there   
+$6926/15bdc8dc.mp3;3,250;3,135;6,369;4,140;7,896
+
+[LINE]
+Speaker127: Ja,  och{ɔk:ipa}?
+#ipa för att betona och
+~           yes  and 
+$6926/7128e86e.mp3;2,50;2,275;4,150
+
+[LINE]
+Speaker508: Där ligger bilverkstaden!       
+~           there is  the~auto~repair~shop 
+$6926/7654eb8c.mp3;3,239;7,275;15,1301
+
+[LINE]
+Speaker127: Va? 
+~           what 
+$6926/1f7c6de5.mp3;2,50
+
+[LINE]
+Speaker508: Jag arbetar där på~helgerna.
+~           I   work    there on~(the)~weekends   
+$6926/85c29c2e.mp3;3,224;8,475;4,160;3,115;10,946
+
+[LINE]
+Speaker508: Jag är bilmekaniker.  
+~           I   am  (an)~auto~mechanic 
+$6926/3ad3975c.mp3;3,244;3,116;14,1215
+
+[LINE]
+Speaker508: Så, kan jag hjälpa dig eller inte?
+~           so    can  I   help you     or   not   
+$6926/c8d043e8.mp3;3,435;4,155;4,100;7,335;4,185;6,149;6,861
+
+[MULTIPLE_CHOICE]
+> It turns out that Lin…
+- …doesn't know where she is.
+- …needs help buying a new phone.
++ …works at the auto repair shop the man called.
+
+[MATCH]
+> Tap the pairs
+- är på promenad <> goes for a walk
+- problem <> problem
+- naturligtvis <> of course
+- hon <> she
+- på helgerna <> on weekends
+

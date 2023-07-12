@@ -1,0 +1,153 @@
+[DATA]
+fromLanguageName=Myaltluna
+icon=7e5d271488d31d6f1d0c503512e642ca7effe84f
+set=1|4
+
+[HEADER]
+> Myaltluna{mjaltluna:ipa}
+~ iwaitiid~za~matetun  
+$6667/6abd3b51.mp3;9,50
+
+[LINE]
+> Anadjin{anadʂiːn:ipa} ima inne kaupauto{kaupauto:ipa}.
+~ ~ ~ ~ kaupa~auto
+$6667/24838817.mp3;7,50;4,712;5,438;9,300;2,737
+
+[LINE]
+Speaker113: Jaa, braatsa daag.
+~           Yaa bra~-tsa dag
+
+[LINE]
+Speaker343: Un treng tulla lyettâutovomi made, bite.
+~            ~ ~ ~ lyeta~auto~huomi ~ bitte
+
+
+[LINE]
+Speaker113: Bra.
+~           ~       
+
+[LINE]
+Speaker113: Na hshful?
+~            ~ shkoi~andra~lant~per~nintendo
+
+[LINE]
+Speaker343: Nai, nai tszuti...
+~           ~ ~ hshful,~pushoi
+
+[MULTIPLE_CHOICE]
+> Ka mellanossa fu "tszuti"?
+- shkekso
++ hshful, pushoi
+~ shkoi~andra~lant~per~nintendo nil~ergo
+- zanyat
+~ mange~ergo
+
+[LINE]
+Speaker343: Yam nà un hiszfulfúga Vipolis made.
+~            ~ na ~ hshfulfuga
+
+[LINE]
+Speaker343: De, ni hiszfulfúga...
+~           ~ ~ hshfulfuga
+
+[LINE]
+Speaker113: Vipolis tak lestebraa polis na un, tak helena.  
+~            ~ ~ letste~bra
+
+[LINE]
+Speaker343: Ima sawitszuti per un...
+~           ~ myaltluna ~ ~
+
+[MULTIPLE_CHOICE]
+> Naze Anadjin shkoi Vipolis made?
++ Sore shkoi na myaltluna.
+~ ~ ~ ~ iwaitiid~za~matetun
+- Sore vil lera viossa.
+- Sore matetun hapigo.
+
+[CONTINUATION]
+> Sentaku letstebra spørekotoba her.
+~ ~ letste~bra spøre~kotoba
+Speaker113: A de, [doko] mattetundjin fu du?
+~           ~ ~ ~ matetun~-djin
+- koske
+- naze
+- katai
++ doko
+
+[LINE]
+Speaker343: Nai her... Un ti har mange rovøze sawi!
+~           ~ ~ ~ ~ ~ ~ rovo~-øze duadjin~za~matetun
+
+[LINE]
+Speaker343: Sore nai vil hiszful Vipolis made mit un, takk trist...
+~           ~ ~ ~ hshful ~ ~ ~ ~ tak ~ 
+
+[MULTIPLE_CHOICE]
+> Oi blin, duadjin fu Anadjin...
+~ ~ ~ dua~-djin
+- …wasu dan hshful|kaban fu sore.
+~ ~ ~ shkoi~andra~lant~per~nintendo
+- …ende inne vipolis.
++ …nai vil shkoi na vipolis mit sore.
+
+[LINE]
+Speaker113: A... gomen.
+~           ~
+
+[LINE]
+Speaker113: De, imma inne aerodrom.
+~           ~ ima ~ lyetautohuomi  
+
+[SELECT_PHRASE]
+> Sentaku ka plusbra na vimi.
+> Yoku{jɔkʉ:ipa} pashuun{paˈʂuːn:ipa} djingsai{ˈdʂiŋsai:ipa} mit{mit:ipa} hshfulkaban{hɪʂˈfuːlkaban:ipa} kaupauto{ˈkaupauto:ipa} [made].
+~ ~ ~ ~ ~ hshful~kaban ~ kaupa~auto  
+- ekso
++ made
+- shang
+[LINE]
+Speaker343: Salma?
+~           ~ 
+
+[LINE]
+Speaker342: Ana!
+~            ~
+
+[LINE]
+Speaker342: Gomendaj!
+~            gomen~-dai  
+
+[LINE]
+Speaker342: Um dua du. 
+~           un ~ ~
+
+[LINE]
+Speaker343: Un duâ du awen!
+~           ~ dua ~ ~     
+
+[LINE]
+Speaker342: ¡Davi șkej vipolis made!
+~            da~vi shkoi ~ ~
+
+[LINE]
+Speaker113: Braatsa mjaltluna!
+~            bra~-tsa   
+
+[MULTIPLE_CHOICE]
+> Ka slucha na mirai?
+- Sore hadji ergo inne lyetautohuomi.
+~ ~ ~ ~ ~ lyeta~auto~huomi
+- Anadjin au kaupautoayadjin shkoi Vipolis made mitryo.
+~ ~ ~ kaupa~auto~aya~-djin ~ ~ ~ mit~ryoho
++ Anadjin au duadjin fu sore, Salmadjin, shkoi Vipolis mitryo.
+~ ~ ~ dua~-djin ~ ~ ~ ~ ~ mit~ryoho
+
+[MATCH]
+> Tsunaga kotoba fu mellanossa mit sama kotoba fu govor.
+- șkej <> shkoi
+- aerodrom <> lyetautohuomi
+- sawi <> duadjin za matetun
+- um <> un
+- tszuti <> pushoi, hshful
+

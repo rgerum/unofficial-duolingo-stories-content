@@ -1,23 +1,27 @@
 [DATA]
-fromLanguageName=Clothes for my Vacation
+fromLanguageName=Clothes for My Vacation
 icon=6fee4723d01611cffa9b4b76fd5be36697ef1e96
 set=4|3
 
 [HEADER]
-> Damit  para~sa bakasyon~ko
+> Damit  Para~Sa Bakasyon~Ko
 ~ clothes for  my~vacation  
+$6021/7bc09400.mp3;5,404;5,235;3,155;9,515;3,617
 
 [LINE]
-> Lucy está en una tienda.
-~ Lucy is   at a   store  
+> Nasa isang tindahan si~Lucia.
+~ at a store (is)~Lucy
+$6021/5fd49f40.mp3;4,334;6,345;9,590;3,150;7,855
 
 [LINE]
-Speaker416: Hola,  ¿necesita ayuda?
-~           hello   you~need help  
+Speaker416: Magandang umaga po. Kailangan~niyo po ng~tulong?
+~           good morning (respectful)   you~need (respectful) help  
+$6021/39902da3.mp3;9,474;6,430;4,560;10,480;5,110;3,175;3,185;8,902
 
 [LINE]
-Speaker509: Sí,  necesito ropa    para mis vacaciones.
-~           yes  I~need   clothes for  my  vacation   
+Speaker509: Oo{o-o},  kailangan~ko ng~damit para~sa bakasyon~ko.
+~           yes  I~need   clothes for  my~vacation   
+$6021/50623455.mp3;2,514;2,520;10,85;3,150;3,290;6,245;5,155;3,485;9,654;4,NaN
 
 [MULTIPLE_CHOICE]
 > Lucy is shopping for clothes for a vacation.
@@ -25,80 +29,95 @@ Speaker509: Sí,  necesito ropa    para mis vacaciones.
 + Yes, that's right.
 
 [LINE]
-Speaker416: Está~bien.
-~           OK        
+Speaker416: Sige po.
+~           OK  (respectful)    
+$6021/ce7762cd.mp3;4,340;4,512
 
 [LINE]
-Speaker509: Necesito un vestido.
+Speaker509: Kailangan~ko ng~isang bestida{bis T da}.
 ~           I~need   a  dress   
+$6021/898585b3.mp3;9,2269;3,NaN;3,NaN;6,NaN;8,NaN;2,NaN
 
 [LINE]
-> Lily busca     un vestido~verde.
-~ Lily looks~for a  green~dress   
+> Naghanap si~Lily ng~isang pulang bestida{bis-T da}.
+~ looked~for (did)~Lily a  red dress   
+$6021/fe32fcee.mp3;8,2909;3,NaN;5,NaN;3,NaN;6,NaN;7,NaN;8,NaN;2,NaN
 
 [MULTIPLE_CHOICE]
 > Lily is getting a…
-+ …green dress.
-- …red dress.
+- …green dress.
++ …red dress.
 - …green hat.
 
 [LINE]
-Speaker509: ¡No, yo quiero un vestido~rojo!
-~            no  I  want   a  red~dress    
+Speaker509: Hindi! Gusto~ko ng~isang asul~na bestida{bis T da}!
+~            no I~want   a  blue dress    
+$6021/838b1bff.mp3;6,3032;6,NaN;3,NaN;3,NaN;6,NaN;5,NaN;3,NaN;8,NaN;2,NaN
 
 [LINE]
-> Lily busca     un vestido~rojo.
-~ Lily looks~for a  red~dress    
+> Naghanap si~Lily ng~isang asul~na bestida{bis-T da}.
+~ looked~for (did)~Lily a  blue dress   
+$6021/f075ba1b.mp3;8,2974;3,NaN;5,NaN;3,NaN;6,NaN;5,NaN;3,NaN;8,NaN;2,NaN
 
 [LINE]
-Speaker509: Y   quiero una chaqueta.
-~           and I~want a   jacket   
+Speaker509: At gusto~ko rin ng~tsinelas.
+~           and I~want also slippers   
+$6021/6646c45d.mp3;2,199;6,281;3,120;4,135;3,145;10,1033
 
 [ARRANGE]
 > Tap what you hear
-> [(Lily) (busca)     (una) (chaqueta~roja).]
-~   Lily   looks~for   a     red~jacket      
+> [(Naghanap) (si~Lily) (ng~itim~na) (tsinelas).]
+~   looked~for (did)~Lily  black slippers   
+$6021/0c24a8c0.mp3;8,504;3,171;5,339;3,155;5,306;3,89;10,1115
 
 [LINE]
-Speaker509: ¡No, yo quiero una chaqueta~marrón!
-~            no  I  want   a   brown~jacket    
+Speaker509: Hindi! Gusto~ko ng~kayumangging tsinelas.
+~            no  I~want   brown slippers   
+$6021/5efa84ab.mp3;6,649;6,295;3,95;3,140;13,615;9,1038
 
 [LINE]
-Speaker416: Está~bien…
-~           OK        
+Speaker416: Sige po... 
+~           OK  (respectful)   
+$6021/257d6af7.mp3;4,340;3,315;4,NaN
 
 [LINE]
-Speaker509: Un vestido~rojo, una chaqueta~marrón…
-~           a  red~dress     a   brown~jacket    
+Speaker509: Isang asul~na bestida{bis T da}, mga kayumangging tsinelas...
+~           a  blue dress  (plural~marker)  brown slippers
+$6021/8e777d2c.mp3;5,NaN;5,NaN;3,NaN;8,NaN;2,NaN;4,NaN;13,NaN;9,NaN;4,NaN
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker509: ¡[Y~un~sombrero]!
-~             and~a~hat      
-- Y un bombero
-- Y un obrero
-+ Y un sombrero
+Speaker509: ...[at isang sombrero{sum-bre-ro}]!
+~             and a hat   
+$6021/0d9dba3d.mp3;3,674;3,280;6,997;9,NaN;2,NaN
+- at isang sundalo
+- at isang barbero
++ at isang sombrero
 
 [LINE]
-> Lily busca     un sombrero~azul.
-~ Lily looks~for a  blue~hat      
+> Naghanap si~Lily ng~isang dilaw~na sombrero{som-bre-ro}.
+~ looked~for (did)~Lily a  yellow hat  
+$6021/afbbbe5f.mp3;8,3119;3,NaN;5,NaN;3,NaN;6,NaN;6,NaN;3,NaN;9,NaN;2,NaN
+[LINE]
+Speaker509: Hindi! Gusto~ko ng~isang kulay-abo~na sombrero{sum-bre-ro}!
+~            no  I~want   a  gray hat      
+$6021/d466e930.mp3;6,3157;6,NaN;3,NaN;3,NaN;6,NaN;10,NaN;3,NaN;9,NaN;2,NaN
 
 [LINE]
-Speaker509: ¡No, yo quiero un sombrero~gris!
-~            no  I  want   a  gray~hat      
-
-[LINE]
-> Lily busca     un sombrero~gris.
-~ Lily looks~for a  gray~hat      
+> Naghanap si~Lily ng~isang kulay-abo~na sombrero{som-bre-ro}.
+~ looked~for (did)~Lily a  gray hat    
+$6021/bf5a3368.mp3;8,3474;3,NaN;5,NaN;3,NaN;6,NaN;10,NaN;3,NaN;9,NaN;2,NaN
 
 [POINT_TO_PHRASE]
 > Choose the option meaning "ready."
-Speaker509: ¡(Gracias)!   ¡(Estoy) (+lista) (para) mis vacaciones!
-~             thank~you     I~am     ready   for   my  vacation   
+Speaker509: (Salamat)!   (+Handa) na ako (para~sa) (bakasyon)~ko!
+~             thank~you   ready already (am)~I for   my~vacation   
+$6021/0b3f2347.mp3;8,864;6,386;3,89;4,200;5,276;3,149;9,490;4,696
 
 [LINE]
-Speaker416: Ahora yo necesito vacaciones.  
-~           now   I  need     (a)~vacation 
+Speaker416: Ako naman ang~kailangan ng~bakasyon ngayon.  
+~           I meanwhile (am)~the~one~who~needs a~vacation now
+$6021/a32fdea9.mp3;3,240;6,254;4,111;10,510;3,149;9,415;8,936
 
 [MULTIPLE_CHOICE]
 > Poor Lily! Why does she need a vacation?
@@ -108,9 +127,9 @@ Speaker416: Ahora yo necesito vacaciones.
 
 [MATCH]
 > Tap the pairs
-- Y <> and
-- chaqueta roja <> red jacket
-- sombrero gris <> gray hat
-- Gracias <> thank you
-- No <> no
+- damit <> clothes
+- gusto ko <> I want
+- dilaw <> yellow
+- salamat <> thank you
+- hindi <> no
 

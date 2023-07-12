@@ -1,0 +1,106 @@
+[DATA]
+fromLanguageName=The Monkeys
+icon=c29e4533eca0186f83adafac9383fef2ed3aee56
+set=12|2
+
+[HEADER]
+> Apene 
+~ the~monkeys
+$6546/77f5ad21.mp3;5,50
+
+[LINE]
+> Eddy og Junior er i dyreparken.
+~ Eddy and Junior are   at the~zoo       
+$6546/30770d06.mp3;4,50;3,425;7,137;3,588;2,200;11,137;2,775
+
+[LINE]
+> De er ved elefantene.
+~ they  are   by     the~elephants 
+$6546/715f48a7.mp3;2,50;3,312;4,138;11,237;2,713
+
+[LINE]
+Speaker415: Pappa, kan vi gå og se på apene nå?
+~           dad    can we go and look at      the~monkeys now   
+$6546/c51c05fb.mp3;6,719;4,156;3,84;3,300;3,50;3,230;3,135;6,387;4,594
+
+[MULTIPLE_CHOICE]
+> Junior wants to see the monkeys.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker414: Hvorfor? Du vil~aldri se~på apene.  
+~            why      you never~want    to~look~at the~monkeys 
+$6546/390ac1ee.mp3;8,786;3,175;4,135;6,346;3,215;3,150;7,829
+
+[LINE]
+Speaker415: Ja,  men jeg~liker~dem nå. Kan vi dra?
+~           yes  but  I~like~them now     can we go?
+$6546/3c3e2784.mp3;3,444;4,145;4,143;6,315;4,130;4,576;4,220;3,95;5,553
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Junior, [apene~er] langt~unna.
+~           Junior   the~monkeys~are  far~away 
+$6546/3bb9ea6a.mp3;7,668;6,410;3,132;6,335;6,678
+- lappene er
+- apene ser
++ apene er
+
+[LINE]
+Speaker415: Vi kan løpe! Du~elsker å~løpe!
+~            we can run       you~love        to~run 
+$6546/01c9c0eb.mp3;2,185;4,224;6,706;3,210;7,438;2,80;6,693
+
+[CONTINUATION]
+> What comes   next?
+Speaker414: Hmm… greit. Ja,  [jeg~elsker å~løpe].
+~           hmm  fine         yes   I~love     to~run  
+$6546/a4f06dcb.mp3;3,270;2,1059;7,485;4,192;4,400;7,75;2,451;5,340;2,NaN
++ jeg elsker å~løpe
+~ jeg love    to~run  
+- jeg~vil~ha en apekatt.  
+~ want   a  monkey
+- jeg liker elefantene
+~ me like   the~elephants
+
+[LINE]
+> Junior og   Eddy løper.
+~ Junior and Eddy run    
+$6546/6d46433f.mp3;6,50;3,700;5,250;6,237;2,538
+
+[POINT_TO_PHRASE]
+> Choose the option that means "faster".
+Speaker415: (Kan~du~løpe) (+raskere), (pappa)?
+~             can~you~run      faster        dad   
+$6546/6d2615de.mp3;3,219;3,135;5,340;8,430;7,804
+
+[LINE]
+Speaker414: Junior, du hater å~løpe.
+~           Junior  you hate  to~run 
+$6546/d95875ae.mp3;7,737;3,150;6,435;2,90;6,824
+
+[LINE]
+Speaker415: Ja, jeg hater å~løpe men jeg~elsker iskrem!
+~           yes  I  hate to~run   but  I~love     ice~cream 
+$6546/dd47aa2e.mp3;3,479;4,147;6,445;2,70;5,399;4,160;4,139;7,390;8,867
+
+[LINE]
+Speaker415: Og de selger iskrem rett ved apene.  
+~           and they sell ice~cream right by the~monkeys
+$6546/472b2966.mp3;2,79;3,120;7,385;7,569;5,265;4,85;7,863
+
+[MULTIPLE_CHOICE]
+> Why does Junior want to go see the monkeys?
++ He wants to get ice cream.
+- Monkeys are his favorite animals.
+- He wants to run with the monkeys.
+
+[MATCH]
+> Tap the pairs
+- de <> they
+- iskrem <> ice cream
+- jeg elsker <> I love
+- hater <> hate
+- aldri <> never
+

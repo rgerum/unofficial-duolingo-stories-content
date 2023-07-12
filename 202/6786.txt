@@ -1,0 +1,135 @@
+[DATA]
+fromLanguageName=Kyomi razgovorna
+icon=6711cee61441da3d7aa6099466d6fff137239c3a
+set=15|1
+
+[HEADER]
+> Kyomi{kjoːmiː:ipa} razgovorna{razgɔˈvɔːrna:ipa}
+~ ~     raz-~govor~-na
+$6786/be58a62e.mp3;5,50;11,487
+
+[LINE]
+> Beadjin{beː.a.dʂin:ipa} inne nguong{ŋwɔŋ:ipa} ima.
+~ ~  
+$6786/500c0440.mp3;7,50;5,725;7,275;4,350;2,462
+
+[LINE]
+Speaker258: Hola,  ¿puedo sentarme      aquí?
+~           hello   can~I (to)~sit~down here 
+
+[LINE]
+Speaker507: Sí. 
+~           yes 
+
+[LINE]
+Speaker507: Estoy~esperando~a una~amiga.
+~           I~am~waiting~for  a~friend  
+
+[POINT_TO_PHRASE]
+> Choose the option that means "boyfriend."
+Speaker507: (Ella) va~a~venir       (con)  (su)  (+novio).    
+~            she   is~going~to~come  with   her    boyfriend  
+
+[LINE]
+Speaker258: Ah… ¿sí? 
+~           oh   yes 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: [Estoy~muy~emocionada] por~conocer al~novio~de~mi~amiga. 
+~            I'm~very~excited      to~meet     my~friend's~boyfriend 
+- Esto es muy emocionante
++ Estoy muy emocionada
+- Está muy impresionada
+
+[LINE]
+Speaker258: ¿Por~qué?
+~            why     
+
+[LINE]
+Speaker507: A~ella~le~gusta mucho.
+~           she~likes~him   a~lot 
+
+[LINE]
+Speaker258: Interesante…
+~           interesting 
+
+[LINE]
+Speaker507: Ella le~va~a~pedir~matrimonio…  
+~           she  is~going~to~propose~to~him 
+
+[LINE]
+Speaker507: … ¡este fin~de~semana!
+~              this weekend       
+
+[MULTIPLE_CHOICE]
+> Mik fu Bea mirai…
+- …kaupa huomi mit duadjin fu sore tullas mwai.
+~ ~      ~     ~   ~       ~  mik~fu~Bea
+- …hshful mit Bea na owari-uk.
+# + …propose to her boyfriend this weekend.
++ …hanu ka sore vil matetun duadjin fu sore made.
+~ ~     ~  mik~fu~Bea ~ festa~duadjin ~ ~ mik~fu~Bea ~
+
+[LINE]
+Speaker258: ¿De~verdad?
+~            really    
+
+[LINE]
+Speaker507: Sí.  ¡Es   tan romántico!
+~           yes   it's so  romantic  
+
+[LINE]
+Speaker507: ¡Ah! ¡Mi amiga  está aquí!
+~            oh   my friend is   here 
+
+[LINE]
+Speaker507: Hola,  Gloria.
+~           hello  Gloria 
+
+[LINE]
+Speaker260: Hola,  Bea.
+~           hello  Bea 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker260: ¡[Ya~conoces~a]     Leo!
+~             you~already~know  Leo 
++ Ya conoces a
+- La conoce a
+- Ya con voces a
+
+[LINE]
+Speaker507: ¿A~quién?
+~            who     
+
+[LINE]
+Speaker260: A~mi novio,     Leo.
+~           my   boyfriend  Leo 
+
+[LINE]
+Speaker507: ¡Ay, no!
+~            oh  no 
+
+[LINE]
+Speaker258: Ah… ¡Ja, ja, ja! Mucho~gusto,      Bea.
+~           oh   ha  ha  ha  nice~to~meet~you  Bea 
+
+[MULTIPLE_CHOICE]
+> Ay! Bea na vupsi hanu Leo made ka…
+- …onna-duadjin fu sore vil perpadua.
+~ ~             ~  Leo  ~   perpa~dua
+# + …that his girlfriend is going to propose to him.
++ …onna-duadjin fu sore vil matetun mit sore.
+~ ~             ~  Leo  ~   ~       ~   Leo
+- …sebya dua duadjin fu sore ima.
+~ Bea    ~   ~       ~  Leo
+
+[MATCH]
+> Tsunaga kotoba mit pravda imi fu hei.
+- mucho <> a lot
+- Interesante <> interesting
+- Estoy esperando a <> I am waiting for
+- Bea <> Bea
+- De verdad <> really
+

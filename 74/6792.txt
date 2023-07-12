@@ -1,0 +1,147 @@
+[DATA]
+fromLanguageName=Where Is Your Girlfriend?
+icon=0d18f0403cfa415591d7ef50a9e9c01f1094936e
+set=7|2
+
+[HEADER]
+> 你的|女朋友|在|哪裡？
+~  your girlfriend is where
+$6375/a249821c.mp3;1,50;2,137;4,113;2,537;3,163
+
+[LINE]
+> 小貝|在機場。
+~ Bea is~at~the~airport    
+$6375/a2e0986e.mp3;2,50;2,500;3,162
+
+[LINE]
+
+> 她|站|在櫃檯，|跟|一位男人|說話。
+~ she stands at~the~counter to a~man talks
+$6375/a3d4c8b2.mp3;1,50;2,175;2,200;3,150;2,800;2,187;2,125;3,150;3,338
+
+[LINE]
+
+Speaker823: 您好！|我可|以幫您|嗎？
+~            hello   can~I help~you (question~marker)
+$6792/4bbcfcfe.mp3;2,50;2,512;2,550;3,150;2,175;2,163;2,112;2,263
+
+[LINE]
+Speaker507: 可以！|我|要|去|臺中。
+~            can  I want~(to) go~(to)  Taichung
+$6792/96ac904f.mp3;2,50;2,662;2,550;2,163;2,162;2,150;2,250;2,238
+
+[POINT_TO_PHRASE]
+> Choose the option that means "together."
+Speaker507:   我 (想要) 和|我的  (女朋友)  坐在  (+一起)。
+~             I want with my girlfriend sit together
+$6375/b53cb830.mp3;1,50;3,150;2,412;6,175;2,838;2,200;3,162
+
+[LINE]
+Speaker823: 好，|我們|有|兩個|座位|並排。
+~           OK we have two seats side~by~side
+$6375/d3d27bd6.mp3;1,50;3,575;2,200;2,125;2,187;3,88;3,237
+
+[LINE]
+Speaker507: 太棒了！
+~            wonderful
+$6375/d41d7c8a.mp3;1,50;2,337;2,288
+
+[MULTIPLE_CHOICE]
+> Why is Bea happy?
++ There are two available seats together.
+- The man is from Taichung.
+- She's getting a discount on her ticket.
+
+[LINE]
+Speaker823: 嗯...|您的|女朋友|在|哪裡？
+~           hmm   your girlfriend is where
+$6792/5ef40e16.mp3;1,50;2,1050;2,100;4,100;2,450;3,125;2,437
+
+[LINE]
+Speaker507: 我不知道。 |你可不可以|幫我|找她？
+~           I~don't~know   can~you help~me find~her
+$6375/db4df25a.mp3;1,50;2,200;3,137;2,938;5,162;2,813;2,162;2,138;2,262
+
+[LINE]
+Speaker823: 她長得什麼樣？
+~           how~does~she~look~like
+$6375/4ae8c4ee.mp3;1,50;2,262;2,150;4,75
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: 嗯...|她很高。|她|也|有|[黑頭髮]。
+~           hmm  she~is~tall  she also has  black~hair     
+$6792/106c3fdb.mp3;1,50;2,1037;2,150;2,250;2,300;2,550;3,163;2,325;3,237;2,463
++ 黑頭髮
+- 白頭髮
+- 裡頭髮
+
+[LINE]
+Speaker823: 嗯...
+~           Mm      
+$6792/22ff1a47.mp3;1,50
+
+[LINE]
+Speaker507: 她|喜歡|跳芭蕾舞...
+~           she likes to~dance~ballet
+$6375/f12eaf06.mp3;1,50;3,162;2,375;4,238
+
+[LINE]
+Speaker823: 哦...
+~           oh 
+$6375/fe982c4e.mp3;1,50
+
+[LINE]
+Speaker507: 她|愛|小動物。
+~           she    loves  small~animals      
+$6375/034d3f7c.mp3;1,50;2,162;2,225;3,250
+
+[LINE]
+Speaker507: 但是|她|吃|太|多|巧克力。
+~             but  she eats too much  chocolate 
+$6375/03dc5a04.mp3;2,50;2,337;2,163;2,200;2,275;4,187
+
+[LINE]
+Speaker823: 好...|她叫什麼？
+~           OK  what's~her~name 
+$6375/b1c3a440.mp3;1,50;2,1075;2,162;3,163
+
+[LINE]
+Speaker507: 哦，|我不知道。
+~           oh  I~don't~know 
+$6375/bad90610.mp3;1,50;2,387;2,163;3,137
+
+[LINE]
+Speaker823: 您|不知道|您的|女朋友的|名字？
+~            you don't~know your girlfriend's name 
+$6792/fbc4198e.mp3;1,50;2,212;3,100;2,388;2,75;4,112;2,338;3,100;2,387
+
+[MULTIPLE_CHOICE]
+> That's strange! Bea doesn't know…
+- …where Taichung is.
+- …her own name.
++ …her girlfriend's name.
+
+[LINE]
+Speaker507: 我|現在|沒有|女朋友。
+~           I now don't~have (a)~girlfriend
+$6375/0f0a837e.mp3;1,50;3,150;3,612;4,288
+
+[LINE]
+Speaker507: 你|可以|幫我|找一個|嗎？
+~           you can help~me find~one (question~marker)
+$6375/0f6be9ac.mp3;1,50;3,125;2,287;2,188;2,125;3,237;2,263
+
+[MULTIPLE_CHOICE]
+> Did you get that? Bea…
+- …lost her girlfriend at the airport.
++ …doesn't have a girlfriend yet.
+- …left her girlfriend at home.
+
+[MATCH]
+> Tap the pairs
+- 巧克力 <> chocolate
+- 找 <> find
+- 芭蕾舞 <> ballet
+- 並排 <> side by side
+- 臺中 <> Taichung

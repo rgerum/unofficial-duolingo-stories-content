@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=The Vegetarian
+icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
+set=4|1
+
+[HEADER]
+> Veģetārietis
+~ the~vegetarian 
+$6812/50a42c68.mp3;12,150
+
+[LINE]
+> Vikrams izlasa   ēdienkarti ļoti~skaistā~restorānā.
+~ Vikram reads the~menu in~a~very~pretty~restaurant 
+$6812/623fffb3.mp3;7,125;7,450;11,375;5,600;8,250;10,462;2,725
+
+[LINE]
+Speaker385: Labrīt! 
+~            good~morning 
+$6812/e5e8b232.mp3;6,187;2,588
+
+[LINE]
+Speaker593: Man ir jautājums.
+~           I have a~question 
+$6812/dc360a1b.mp3;3,162;3,150;10,75;2,763
+
+[LINE]
+Speaker593: Es esmu  veģetārietis. 
+~           I am a~vegetarian 
+$6812/36932aad.mp3;2,212;5,125;13,263;2,975
+
+[LINE]
+Speaker593: Vai jums ir      veģetāriešu ēdiens?
+~            do you have vegetarian food    
+$6812/791d233e.mp3;3,150;5,125;3,262;12,88;7,687
+
+[MULTIPLE_CHOICE]
+> Vikrams wants to know if they serve vegetarian food.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker385: Jā,  mums ir dažas ļoti labas gaļas sviestmaizītes.
+~           yes  we have some very good meat sandwiches      
+$6812/8aa3e938.mp3;2,262;2,325;5,163;3,287;6,100;5,325;6,275;6,313;15,250;2,1075
+
+[LINE]
+Speaker593: Gaļas sviestmaizītes? Es esmu  veģetārietis. 
+~            meat sandwiches      I am a~vegetarian 
+$6812/c00ed1d9.mp3;5,137;15,288;3,2062;5,125;13,263;2,975
+
+[LINE]
+Speaker385: Ā, jā…  piedod.
+~           oh  yes  forgive~me 
+$6812/ca36537a.mp3;1,262;2,250;3,63;7,1337;2,563
+
+[LINE]
+Speaker385: Mums ir garšīga vista.  
+~           we have delicious chicken 
+$6812/128dd82b.mp3;4,137;3,250;8,113;6,500;2,500
+
+[MULTIPLE_CHOICE]
+> According to the waiter, their chicken is…
+- …not very tasty.
+- …gluten free.
++ …delicious.
+
+[LINE]
+Speaker593: Vista ir gaļa.
+~           chicken  is meat  
+$6812/bb291bb9.mp3;5,200;3,300;5,125;2,437
+
+[ARRANGE]
+> Tap what you hear
+Speaker593: [(Un)   (es) (neēdu)   (gaļu)!]
+~              and   I    don't~eat   meat    
+$6812/8f91b74e.mp3;2,275;3,87;6,175;5,388;2,425
+
+[LINE]
+Speaker385: Mums ir salāti…
+~           we have salads    
+$6812/46822b7e.mp3;4,137;3,250;7,88
+
+[LINE]
+Speaker593: Ā, man patīk salāti!
+~            oh  I like    salads        
+$6812/3779f9c3.mp3;1,175;2,225;4,12;6,213;7,312;2,688
+
+[MULTIPLE_CHOICE]
+> Vikrams likes…
+- …the waiter.
++ …salads.
+- …lots of meat.
+
+[LINE]
+Speaker385: Mums ir salāti ar tomātiem, sieru,  lasi…
+~           we have a~salad with  tomato  cheese  salmon 
+$6812/96439975.mp3;4,137;3,250;7,75;3,450;9,138;2,550;6,0;2,475;5,75
+
+[LINE]
+Speaker593: Es neēdu   lasi! Es esmu  veģetārietis! 
+~            I  don't~eat salmon   I am a~vegetarian 
+$6812/a93efd35.mp3;2,237;6,125;5,363;2,525;3,1037;5,113;13,250;2,987
+
+[LINE]
+Speaker385: Mums ir kartupeļi~frī…
+~           we have fries          
+$6812/e7df8980.mp3;4,137;3,250;10,138;4,525
+
+[LINE]
+Speaker593: Labi, kartupeļus~frī.
+~           OK         fries          
+$6812/83cd9617.mp3;4,250;2,275;11,12;4,575;2,413
+
+[MULTIPLE_CHOICE]
+> What food did Vikrams order in the end?
++ fries
+- chicken
+- salmon
+
+[LINE]
+Speaker385: Kartupeļus~frī… perfekti. Un…   hamburgeru?
+~           fries           perfect   and   a~hamburger   
+$6812/2b0cd170.mp3;10,150;4,550;9,1100;2,675;3,975;11,1037
+
+[LINE]
+Speaker593: Es neēdu    gaļu!
+~            I don't~eat meat  
+$6812/a9f4c2f7.mp3;2,337;6,138;5,375;2,412
+
+[MULTIPLE_CHOICE]
+> Why is Vikrams so upset?
+- He's tired of being a vegetarian.
++ The waiter kept offering him meat.
+- The waiter spilled coffee on him.
+
+[MATCH]
+> Tap the pairs
+- garšīga vista <> delicious chicken
+- Vikrams <> Vikram
+- salāti ar <> salad with
+- piedod <> forgive me
+- mums ir <> we have
+

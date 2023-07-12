@@ -1,0 +1,114 @@
+[DATA]
+fromLanguageName=Good morning
+icon=783305780a6dad8e0e4eb34109d948e6a5fc2c35
+set=1|1
+
+[HEADER]
+> Добрай~раніцы
+~ good~morning
+
+[LINE]
+Speaker593: Добрай~раніцы,  Пріті!
+~            good~morning  Priti
+
+[LINE]
+Speaker560: Добрай~раніцы,  каханы.
+~           good~morning  my~love
+
+[LINE]
+Speaker560: Дзе мае ключы?
+~            where~are my keys 
+
+[LINE]
+Speaker593: Твае ключы?
+~            your keys  
+
+[MULTIPLE_CHOICE]
+> Priti can't find her keys.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker560: Так, мне~трэба пайсці на працу
+~           yes  I~need   to~go to work   
+
+#[ARRANGE]
+#> Tap what you hear
+#Speaker560: ¡[(Necesito) (las~llaves) (de) (mi) (carro)!]
+#~              I~need     the~keys     of   my   car  
+[POINT_TO_PHRASE]
+> Choose the option that means "keys"
+Speaker560: (Мне) (патрэбны) (+ключы) (ад) (маёй) (машыны)
+~             I need     the~keys     of   my   car 
+#[POINT_TO_PHRASE]
+#> Выберите слово, означающее "работа"
+#Speaker560: (Так) (,) (мне)   (трэба)   (пайсці) (на) (+працу).
+[LINE]
+Speaker593: Ха-ха! Пріті, твае ключы на стале!  Ха-ха-ха!
+~             ha~ha   Priti  your keys   are~here on~the~table  ha~ha~ha
+
+[POINT_TO_PHRASE]
+> Choose the option that means "tired"
+Speaker560: (Прабач), каханы, (я) (+стамілася). Я (вельмі)~(шмат) (працую)!
+~            sorry    my~love   I~am     tired       I a~lot work
+
+[LINE]
+Speaker593: Хочаш     кавы?  
+~           do~you~want coffee  
+
+[LINE]
+Speaker560: Так,  калі~ласка!
+~            yes  please      
+
+[LINE]
+Speaker593: Вось,  каханка.
+~           here~it~is  my~love 
+
+[LINE]
+Speaker560: Дзе цукар? А, вось ён. 
+~            where~is   the~sugar   oh  here it~is 
+
+[MULTIPLE_CHOICE]
+> Hmm… what is Priti doing?
+- pouring her coffee on the table
+- putting sugar on her keys
++ looking for some sugar for her coffee
+
+[LINE]
+> Яна п'е каву.  
+~ she  drinks coffee 
+
+[LINE]
+Speaker560: О, не!
+~           oh  no 
+
+[LINE]
+Speaker593: Што? 
+~            what 
+
+[LINE]
+Speaker560: Гэта соль! 
+~            that~is salt 
+
+[LINE]
+Speaker593: Пріті, ты вельмі стамілася!
+~           Priti  you~are very tired  
+
+[LINE]
+Speaker560: Так, мне~трэба больш кавы з цукерам, не з соллю! 
+~           yes  I~need   more coffee   with sugar   not with salt 
+
+[MULTIPLE_CHOICE]
+> Priti was so tired that…
+- …she fell asleep in the kitchen.
++ …she put salt in her coffee.
+- …she put her keys in her coffee.
+
+[MATCH]
+> Соотнесите слова
+- вельмі <> very
+- трэба <> need
+- стамілася <> tired
+- ключы <> keys
+- цукер <> sugar
+

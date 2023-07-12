@@ -1,0 +1,99 @@
+[DATA]
+fromLanguageName=I Need a New Video Game
+icon=ce0ae956035c1bac6b9c64737466d59c5d027e97
+set=7|1
+
+[HEADER]
+> 我|需要|一个|新的|游戏
+~ I need a new (video)~game
+$6363/b44c9cb0.mp3;1,50;3,150;3,312;2,238;2,225;3,87
+
+[LINE]
+> 朱朱|和|艾迪|在商店。
+~ Junior and Eddy are~at~the~department~store
+$6363/b30caff2.mp3;2,50;2,437;3,150;2,388;3,162
+
+[LINE]
+Speaker415: 爸爸，|我|需要|一个|新的|游戏！
+~            dad   I need   a  new (video)~game   
+$6363/b51b5eb0.mp3;2,50;2,825;3,175;3,312;2,213;2,237;3,88
+
+[LINE]
+Speaker414: 朱朱，|你|不需要|一个|新的|游戏。
+~           Junior  you don't~need a  new (video)~game   
+$6363/b635ea40.mp3;2,77;2,1086;2,1242;3,194;3,330;2,232;2,291;3,117
+
+[MULTIPLE_CHOICE]
+> Eddy thinks Junior needs a new video game.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker415: 求求你！|这个|游戏|有|很|酷的|外星人！
+~            please  this (video)~game has really cool aliens       
+$6363/b9977410.mp3;2,50;2,637;3,950;3,300;2,438;4,125;4,525
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: 朱朱 [你想要] 这个|游戏，|你|不需要|它。
+~ Junior you~want this (video)~game you don't~need it
+$6363/c22b5d3a.mp3;2,77;2,563;3,174;3,388;3,252;2,1242;2,504;3,194;2,446
+
++ 你想要
+- 你需要
+- 你相要
+
+[LINE]
+Speaker415: 好，|我|想要|它！|我们|可以|买|吗?
+~           OK  I want it we can buy ~
+$6363/d0390256.mp3;1,50;2,762;2,213;2,250;2,200;3,825;3,325;2,350;2,237
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(不可以)… (你)|(在家里)|(有)|(很多)|(游戏) 。]
+~             no    you at~home have a~lot~of (video)~games
+$6363/05008ba8.mp3;1,77;3,252;2,1526;2,272;3,194;2,349;3,136;3,446
+
+[LINE]
+Speaker415: 好，|好，|我们|可以|回家了|吗？
+~           yes  yes  we can go~back~home ~
+$6363/14166d88.mp3;1,50;2,675;3,625;3,287;3,288;2,375;2,75
+
+[LINE]
+Speaker414: 不可以，|我们要去|维克拉姆的|家。
+~           no  we~are~going~to Vikram's house 
+$6363/15998758.mp3;1,77;3,214;3,1144;2,737;2,136;3,194;5,446
+
+[CONTINUATION]
+> What comes next?
+Speaker415: 为什么？|他的|家|[很无聊] ！
+~            why       his house (is)~very~boring    
+$6363/18507f38.mp3;3,50;2,1387;2,200;2,125;2,613;3,300
+- 和有趣
+- 有很多蚂蚁
++ 很无聊  
+
+[LINE]
+Speaker414: 但是|他的|电视|比较大。|我|需要|看|足球赛。
+~ but his TV is~bigger~(than~ours) I need~(to) watch (the)~soccer~game      
+$6363/1d87fdbe.mp3;2,77;2,446;2,155;3,156;3,543;2,330;2,1396;3,485;2,311;3,271;2,427
+
+[LINE]
+Speaker415: 爸爸，|你|想要|看|足球赛，|但|你|不需要|它。
+~           dad   you want~(to) watch (the)~soccer~game     but  you don't~need it    
+$6363/1e09ebe4.mp3;2,50;2,800;3,175;2,287;3,213;2,362;2,538;2,162;2,100;3,213;2,300
+
+[MULTIPLE_CHOICE]
+> Both Eddy and Junior…
++ …say they need something when they only want it.
+- …fly around on robots.
+- …play video games with Vikram.
+
+[MATCH]
+> Tap the pairs
+- 足球赛 <> soccer game
+- 需要 <> need
+- 游戏 <> (video) game
+- 电视 <> TV
+- 酷 <> cool
+

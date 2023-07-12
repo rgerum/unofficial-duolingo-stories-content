@@ -1,0 +1,136 @@
+[DATA]
+fromLanguageName=The Model
+icon=bf0f585cb9c595dad852ba30870242b639057e4f
+set=10|3
+
+[HEADER]
+> 模特
+~ the~model 
+$6385/3f4b76fa.mp3;2,50
+
+[LINE]
+> 艾迪|走进|奥斯卡的|教室。
+~ Eddy walks~into Oscar's classroom  
+$6385/52ee55e2.mp3;2,50;3,400;4,400;2,562;3,100
+
+[LINE]
+Speaker414: 嗨，|我|可以|进来|吗？
+~        hi I can come~in (question~marker)
+$6385/5f576efe.mp3;1,77;2,1242;3,213;3,233;2,330
+
+[LINE]
+Speaker592: 我|在五分钟后|需要|教|我的|美术课。
+~        I in~five~minutes need~to teach my art~class
+$6385/93aa70ac.mp3;1,50;2,162;4,138;2,537;3,500;2,325;2,238;2,137;3,100;2,463
+
+[MULTIPLE_CHOICE]
+> Oscar has to teach an art class in two hours.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker414: 但是|我|好无聊！
+~           but  I (am)~so~bored    
+$6385/b4e27936.mp3;2,77;2,466;2,174;3,311
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker592: 你|现在|不|[需要|教课]|吗？  
+~       you now don't need (to)~teach~a~class (question~marker)
+$6385/6cf3ff8c.mp3;1,50;3,162;2,500;3,175;3,313;2,462
+
+- 需要叫哥
++ 需要教课
+- 需要巧克力
+
+[LINE]
+Speaker414: 不需要。|我|可以|帮忙|一点什么|吗？  
+~           no   I can help (with)~anything (question~marker)
+$6385/30517324.mp3;1,77;3,330;2,1591;3,252;3,271;3,873;3,349;2,369
+
+[LINE]
+Speaker592: 为什么？
+~            why     
+$6385/3a95b0f2.mp3;3,50
+
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(因为)|(你|是)|(我)|(最好的)|(朋友)]！
+~ because   you are   my   best    friend   
+$6385/53c999a8.mp3;2,77;2,407;2,156;2,174;6,136
+[LINE]
+Speaker592: 哦，|我是|吗？
+~            oh  I~am (question~marker)
+$6385/7003393a.mp3;1,50;2,800;2,162;2,200
+
+[LINE]
+Speaker592: 好的，|你|可以|帮我一个忙。
+~          OK you can help~me 
+$6385/6f780d2e.mp3;1,50;2,212;2,638;3,125;2,250;2,200;3,112;2,238
+
+[LINE]
+Speaker414: 好啊，|朋友！
+~           OK  friend 
+$6385/83ea7f30.mp3;1,77;2,349;3,699
+
+[LINE]
+Speaker592: 你|可以|坐|在这把椅子上|吗？
+~           you can sit on~this~chair (question~marker) 
+$6385/a1ffe06e.mp3;1,50;3,200;2,287;2,213;2,162;2,200;3,150;2,313;2,225
+
+[LINE]
+Speaker414: 好的！
+~            yes 
+$6385/b7b1cdd2.mp3;1,77;2,446
+
+[POINT_TO_PHRASE]
+> Choose the option that means "sits down."
+> (艾迪) (+坐) (在椅子上)， (看着) (奥斯卡)。
+~  Eddy sits on~the~chair  looking~at   Oscar  
+$6385/dc2198be.mp3;2,50;3,387;3,338;2,325;2,525;2,225;4,100
+
+[LINE]
+Speaker592: 还有，|你|可以|保持|安静|吗？
+~            and you can keep quiet (question~marker)      
+$6385/f22c84a2.mp3;2,50;2,825;3,125;3,262;3,363;2,412
+
+[LINE]
+Speaker414: 为什么？
+~            why     
+$6385/ff906e9c.mp3;3,77
+
+[LINE]
+Speaker592: 我的|美术课|快要|开始。|我|需要|一个模特。
+~           my art~class (is)~about~to start I need a~model
+$6385/2bcd01b4.mp3;1,50;2,162;3,100;2,375;3,250;3,275;2,1000;3,175;3,388;3,262
+
+[LINE]
+Speaker592: 模特|是|安静的。
+~           models are quiet
+$6385/41cd41c2.mp3;2,50;2,525;3,150;2,450
+
+[LINE]
+Speaker414: 噢，|但是|我|好无聊！
+~           oh but I (am)~so~bored
+$6385/0746c85e.mp3;1,77;3,1436;2,446;2,136;3,310
+
+[LINE]
+Speaker592: 嘘！
+~           shh 
+$6385/398cf856.mp3;1,50
+
+[MULTIPLE_CHOICE]
+> Why is Eddy still bored?
+- Oscar won't stop talking about work.
+- He doesn't like to read about art.
++ Oscar wants him to sit in a chair and be quiet.
+
+[MATCH]
+> Tap the pairs
+- 帮忙 <> help
+- 美术课 <> art class
+- 快要开始 <> about to start
+- 保持安静 <> keep quiet
+- 我好无聊 <> I'm so bored
+

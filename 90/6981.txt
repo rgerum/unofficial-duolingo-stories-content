@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=The Vegetarian
+icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
+set=4|1
+
+[HEADER]
+> The  vegetarian
+~ the vegetarian 
+
+[LINE]
+> Vikram is readin the menu iv a canny restaurant.
+~ Vikram is readin the menu in a nice restaurant 
+
+[LINE]
+Speaker385: Gud mornin! 
+~            good~morning 
+
+[LINE]
+Speaker593: Aw want te ax summat.
+~           I want to ask something
+
+[LINE]
+Speaker593: Ye see, aw's a vegetarian. 
+~           You see, I'm a vegetarian 
+
+[LINE]
+Speaker593: Se can ye myek us summat wivoot meat, please?
+~           So can you myek me something without meat  please 
+
+[MULTIPLE_CHOICE]
+> Vikram wants to know if they serve vegetarian food.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker385: Aye,  we hae some ham stotties.
+~           yes   we have some ham sotties       
+
+[LINE]
+Speaker593: Ham stotties? But aw's a vegetarian. 
+~           ham stotties  But I'm a vegetarian 
+
+[LINE]
+Speaker385: Aye…  Aw's sorry.
+~           oh  yes  I'm~sorry 
+
+[LINE]
+Speaker385: Mebbies some chicken isteed?  
+~           Maybe some chicken instead
+
+[MULTIPLE_CHOICE]
+> The waiter is…
+- …eating chicken.
+- …plucking a chicken.
++ …offering Vikram chicken.
+
+[LINE]
+Speaker593: Aye, but chicken is meat.
+~           Yes, but chicken  is meat  
+
+[LINE]
+Speaker593: An aw'v aariddy telt ye, aw dinnet eat meat!
+~           And I've already told you I don't eat meat     
+
+[LINE]
+Speaker385: We hae salads…
+~           We have salads   
+
+[LINE]
+Speaker593: Oh, aw like salads!
+~            oh  I like  salads        
+
+[MULTIPLE_CHOICE]
+> Vikram likes…
+- …the waiter.
++ …salads.
+- …lots of meat.
+
+[LINE]
+Speaker385: There's a salad wi tomatas, cheese, salmon…
+~           there's a salad with tomatoes, cheese, salad 
+
+[LINE]
+Speaker593: Aw dinnet eat salmon! Aw's a vegetarian! 
+~            I  don't eat salmon   I~am a vegetarian 
+
+[LINE]
+Speaker385: We hae chips…
+~           we have fries          
+
+[LINE]
+Speaker593: Aareet, chips will de.
+~           OK      chios woll  do         
+
+[MULTIPLE_CHOICE]
+> What food did Vikram order in the end?
++ fries
+- chicken
+- salmon
+
+[LINE]
+Speaker385: Chips… parfet. An…  a hamburger an~aa?
+~           fries  perfect and a hamburger as~well  
+
+[LINE]
+Speaker593: Aw telt ye afore! Aw dinnet eat meat!
+~           I told you before I don't eat meat 
+
+[MULTIPLE_CHOICE]
+> Why is Vikram so upset?
+- He's tired of being a vegetarian.
++ The waiter kept offering him meat.
+- The waiter spilled coffee on him.
+
+[MATCH]
+> Tap the pairs
+- tomata <> tomato
+- telt <> told
+- an aa <> as well
+- afore <> before
+- isteed <> instead
+

@@ -1,0 +1,135 @@
+[DATA]
+fromLanguageName=The Red Jacket
+icon=5361833c123aec9adfa60b0dc63398cd1aa49ef2
+set=2|1
+
+[HEADER]
+> 紅色的|夾克
+~ (the)~red jacket   
+$6256/c838b2b6.mp3;2,50;2,462;3,100
+
+[LINE]
+> 莉莉|和|她的|朋友|莎麗|在一家商店裡。
+~ Lily and her friend Zari (are)~in~a~store
+$6797/d526ae77.mp3;2,50;2,337;2,213;2,137;3,100;3,375;2,438;3,162;3,313;2,425;2,187
+
+[LINE]
+Speaker416: 這家|商店|很貴。
+~           this store  (is)~very~expensive 
+$1145/ab9078de.mp3;1,50;2,162;3,188;2,487;2,238
+
+[LINE]
+Speaker418: 是的。
+~           yes 
+$1145/b9f72378.mp3;2,50
+
+[LINE]
+Speaker418: 哇！
+~            wow  
+$1145/bc7e3ce4.mp3;1,50
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker418: 這件|[紅色的|夾克]|很完美！
+~            this red jacket is~perfect  
+$1145/cf6995a6.mp3;1,50;2,187;3,300;2,350;3,125;2,575;3,200
+- 紅色的包子
++ 紅色的夾克
+- 綠色的夾克
+
+[LINE]
+Speaker416: 呃，|莎麗...
+~           umm  Zari 
+$1145/d8e01128.mp3;1,50;3,800
+
+[LINE]
+Speaker418: 我|非常|喜歡|這個|顏色！
+~            I very~much like this color 
+$1145/e0fce7c8.mp3;1,50;3,150;3,462;3,363;3,200
+
+[LINE]
+Speaker416: 莎麗？
+~            Zari 
+$1145/e83d87b8.mp3;2,50
+
+[POINT_TO_PHRASE]
+> Choose the option that means "to buy."
+Speaker418: (我) (想要) (+買) (這件) (夾克)！
+~             I want to~buy    this   jacket    
+$1145/f4c394be.mp3;1,50;3,187;2,375;2,188;2,137;3,188
+
+[LINE]
+Speaker416: 莎麗！
+~            Zari 
+$1145/fc3eda82.mp3;2,50
+
+[LINE]
+Speaker418: 什麼？
+~            what 
+$1145/ff14ace6.mp3;2,50
+
+[LINE]
+Speaker416:  這件|夾克|是|兩萬|塊钱！|太貴了！
+~           this jacket  is~(costs)  twenty~thousand TWD (it's)~too~expensive
+$6640/7670b237.mp3;2,50;3,312;2,725;3,150;2,375;2,163;2,275;2,550;2,375;2,337;2,225
+
+[MULTIPLE_CHOICE]
+> How much does the jacket cost?
+- two hundred TWD
+- two thousand TWD
++ twenty thousand TWD
+
+[LINE]
+Speaker418: 什麼？ ！
+~             what  
+$1145/107f3eec.mp3;2,50
+
+[LINE]
+Speaker416: 莎麗，|你|不|需要|一件|新|夾克。
+~           Zari  you don't need   a   new jacket     
+$1145/2c2a0e06.mp3;2,50;2,912;2,100;3,125;2,250;2,75;2,175;3,213
+
+[POINT_TO_PHRASE]
+> Choose the option meaning "birthday."
+Speaker418: (但是)... 莉莉， (今天) 是 (我的) (+生日)！
+~            but     Lily    today  is my   birthday    
+$1145/3d32d4bc.mp3;2,50;3,1425;3,712;2,538;2,125;2,125;3,100
+
+[LINE]
+Speaker416: 是啊，|是的...  
+~            yes it~is
+$1145/4708cb36.mp3;1,50;2,287;3,575
+
+[LINE]
+Speaker418: 而且，|你|是|我|最好的|朋友！
+~            and you are  my best  friend 
+$1145/4e31dc36.mp3;2,50;2,837;2,100;2,138;6,137
+
+[LINE]
+Speaker416:　是啊，|我就是... 
+~           yes   I~am 
+$1145/537c734a.mp3;1,50;2,262;2,525;3,138
+
+[LINE]
+Speaker418: 而且，|你|可以|給我買...
+~          and you can buy~for~me
+$1145/5a0df47c.mp3;2,50;2,775;3,87;2,250;2,125;2,150
+
+[LINE]
+Speaker416: ...一件|便宜的|夾克！
+~            a   cheap jacket    
+$1145/652ae806.mp3;1,800;2,137;3,238;2,375;3,125
+
+[MULTIPLE_CHOICE]
+> Zari's birthday gift from Lily will be…
+- …an expensive red jacket.
+- …a big pile of money.
++ …a cheap jacket.
+
+[MATCH]
+> Tap the pairs
+- 給我買 <> buy for me
+- 便宜 <> cheap
+- 完美 <> perfect
+- 最好的 <> best
+- 新夾克 <> new jacket

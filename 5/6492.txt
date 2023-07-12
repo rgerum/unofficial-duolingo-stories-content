@@ -1,0 +1,131 @@
+[DATA]
+fromLanguageName=The Portrait
+icon=12547a4c20bef9c66913ef1a725b6fd4f0c544ea
+set=10|4
+
+[HEADER]
+> Portrettet
+~ the~portrait
+$6492/d68b2ec8.mp3;10,50
+
+[LINE]
+> Oskar og vennen~hans Lucy er i en park.
+~ Oskar and his~friend  Lucy  are   in a  park   
+$6492/3cedfdc8.mp3;5,50;3,450;7,87;5,288;5,312;3,438;2,162;3,100;5,188;2,462
+
+[LINE]
+> Oskar maler et portrett av Lucy.
+~ Oskar is~painting a  portrait of Lucy 
+$6492/f4b81e3d.mp3;5,50;6,462;3,363;9,175;3,412;5,163;2,462
+
+[LINE]
+Speaker592: OK, nå kan~du~få~se~portrettet. Liker~du~det?
+~           OK          now   you~can~see~the~portrait   you~like~it 
+$6492/ad665967.mp3;3,640;3,200;4,170;3,100;3,111;3,235;12,1026;6,375;3,190;5,467
+
+[LINE]
+> Lucy ser på portrettet. 
+~ Lucy looks at the~portrait 
+$6492/4b0faa8f.mp3;4,50;4,500;3,325;11,150;2,562
+
+[MULTIPLE_CHOICE]
+> Oskar shows Lucy a picture of a fish.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker509: Hvorfor har jeg blått hår?
+~            why     have I blue hair       
+$6492/32be433c.mp3;7,50;4,500;4,187;6,100;4,300
+
+[LINE]
+Speaker592: Jeg liker blått~veldig~godt.
+~           I like   blue~a~lot    
+$6492/f2c6153b.mp3;3,239;6,325;6,353;7,296;6,705
+
+[MULTIPLE_CHOICE]
+> Wait… why is Lucy's hair blue in the portrait?
++ Óscar loves blue.
+- Lucy dyed her hair blue yesterday.
+- Óscar ran out of other colors.
+
+[LINE]
+Speaker509: Og hvorfor er hodet~mitt så stort?
+~            and why   is  my~head    so  big    
+$6492/f26fa70d.mp3;2,50;8,112;3,475;6,200;5,288;3,200;6,175
+
+[LINE]
+Speaker592: Det~vet~vel~ikke~jeg... Det er ditt hode.
+~           I~wouldn't~know  it is your head 
+$6492/350ff9b5.mp3;3,239;4,256;4,89;5,222;4,285;4,535;4,110;3,180;5,621;6,NaN
+
+[POINT_TO_PHRASE]
+> Choose the option that means "nose."
+Speaker509: (+Nesa) mi (er~ikke) (så) (stor).
+~             nose  my  isn't   so    big     
+$6492/00565a57.mp3;4,50;3,500;3,275;5,187;3,200;5,200;2,400
+
+[LINE]
+Speaker592: Du har en veldig vakker nese!
+~            you have a   very pretty nose 
+$6492/35b14d93.mp3;2,230;4,199;3,126;7,314;7,335;6,805
+
+[LINE]
+Speaker509: Ja,  jeg liker nesa~mi, men den er~ikke som den~i~portrettet. 
+~           yes  I like   my~nose   but  it isn't like the~one~in~the~portrait 
+$6492/e8cc45dc.mp3;2,50;2,287;4,50;6,175;5,275;3,400;2,313;4,175;4,200;3,137;5,125;4,250;4,163;2,125;11,62;2,500
+
+[ARRANGE]
+> Tap what you hear
+Speaker592: [(Vil~du~ha)  (portrettet)  (eller)  (ikke)?] 
+~              you~want    the~portrait   or   not   
+$6492/0dd5bf0d.mp3;5,264;3,120;3,130;5,334;6,394;6,210;6,761
+
+[LINE]
+Speaker509: Beklager, men nei, jeg~vil~ikke~ha~det.   
+~           I'm~sorry  but  no  I~don't~want~it 
+$6492/7d73e061.mp3;8,50;2,662;4,88;4,200;2,362;4,50;4,150;5,163;3,150;4,175;2,200
+
+
+[CONTINUATION]
+> What's next?
+> En   mann kommer~forbi og ser~på   [portrettet]. 
+~ a  man    walks~by and looks~at  the~portrait  
+$6492/77a57969.mp3;2,50;5,212;7,250;6,275;3,475;4,88;3,337;11,163;2,587
+
++ portrettet
+~ the~portrait
+- nesa~mi
+~ my~nose 
+- så~stor
+~ so~big   
+
+[LINE]
+Speaker438: Jeg~liker~det veldig~godt! Jeg~gir~deg tusen~kroner for portrettet. 
+~            I~like~(it) a~lot  I~will~give~you a~thousand~kroner for the~portrait 
+$6492/04334b8e.mp3;3,50;6,212;4,300;7,75;5,338;2,425;4,862;4,250;4,175;6,163;7,362;4,400;11,300;2,588
+
+[LINE]
+> Lucy tar portrettet.
+~ Lucy takes the~portrait 
+$6492/c1e00efd.mp3;4,50;4,525;11,262;2,563
+
+[LINE]
+Speaker509: Det er mitt portrett og det koster to~tusen kroner.
+~           it is my portrait and it costs two~hundred kroner 
+$6492/3dc479cc.mp3;3,50;3,100;5,100;9,212;3,488;4,87;7,88;3,400;6,275;7,387;2,463
+
+[MULTIPLE_CHOICE]
+> Lucy decided to…
+- …give the painting away for free.
+- …buy the painting for 2000 kroner.
++ …sell the painting for money.
+
+[MATCH]
+> Tap the pairs
+- og <> and
+- er <> are
+- en/ei/et <> a
+- i <> in
+- blått hår <> blue hair
+

@@ -1,0 +1,178 @@
+[DATA]
+fromLanguageName=To the Station!
+icon=5bee618bd907474764094eddf36ddcbc46523c98
+set=3|4
+
+[HEADER]
+> До станції!
+~  to the~station  
+$6420/933456d7.mp3;2,50;8,275;2,700
+
+[LINE]
+> Дмитрий бере таксі.
+~ Dmytriy takes a~taxi 
+$6420/093da86d.mp3;7,50;5,575;6,262;2,463
+
+[LINE]
+> Його подруга, Юлія, водить таксі .
+~ his friend  Julia  drives the~taxi 
+$6420/b28bd1a5.mp3;4,50;8,437;2,650;5,125;2,638;7,100;6,425;2,475
+
+[MULTIPLE_CHOICE]
+> Julia is driving the taxi that Dmytriy just got into.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker592: Юлія? Ти водиш таксі?
+~            Julia   you drive taxis 
+$6420/0f3b71df.mp3;4,50;3,1525;6,150;6,437
+
+[POINT_TO_PHRASE]
+> Choose the option that means "job."
+Speaker508: (Так)! це (моя) (нова) (+робота)!
+~             yes     it's  my  new      job      
+$6420/785e3595.mp3
+
+[LINE]
+Speaker508: Куди хочеш піти?   
+~            where   you~want to~go 
+$6420/8e39cb66.mp3
+
+[LINE]
+Speaker592: До станції, будь~ласка!
+~            to the~station   please    
+$6420/276771a1.mp3;2,50;8,325;2,675;5,200;6,212;2,513
+
+[LINE]
+Speaker508: А~де станція?
+~            where~is   the~station  
+$6420/c5dbd61b.mp3
+
+[LINE]
+Speaker592: Я не знаю.       
+~           I don't know 
+$6420/fa6bc704.mp3;1,50;3,300;5,162;2,425
+
+[MULTIPLE_CHOICE]
+> Dmytriy doesn't know…
+- …who Julia is.
+- …how to swim.
++ …where the station is.
+
+[LINE]
+Speaker508: Добре…
+~           OK        
+$6420/f969ec07.mp3
+
+[LINE]
+> Юлія береться~за~кермо.
+~ Julia starts~driving    
+$6420/bd053e46.mp3;4,50;9,525;3,412;6,150;2,438
+
+[MULTIPLE_CHOICE]
+> Julia starts…
+- …singing.
++ …driving.
+- …crying.
+
+[LINE]
+Speaker508: Ми тут!
+~            we~are here  
+$6420/6b52428a.mp3;2,231;5,287
+
+[LINE]
+Speaker592: Юлія… це не станція. Це університет.
+~           Julia  this isn't the~station   this~is the~university  
+$6420/9bf674f0.mp3;4,50;3,1325;3,250;8,175;2,587;3,875;12,325;2,750
+
+[LINE]
+Speaker508: O…
+~           oh 
+$6420/51b00869.mp3;1,363
+
+[LINE]
+> Юлія  береться~за~кермо.
+~ Julia starts~driving    
+$6420/5549ee5c.mp3;4,50;9,525;3,412;6,150;2,438
+
+[LINE]
+Speaker508: Ми тут!
+~            we~are here 
+$6420/3e1a792e.mp3;2,231;5,287
+
+[LINE]
+Speaker592: Юлія…
+~           Julia 
+$6420/2ff3415e.mp3;4,50
+
+[LINE]
+Speaker508: Так? 
+~            yes 
+$6420/b5235d7f.mp3
+
+[ARRANGE]
+> Tap what you hear
+Speaker592: [(Це) (лікарня ).]
+~             this~is   the~hospital   
+$6420/54d584ad.mp3;2,50;8,262;2,625
+
+[LINE]
+Speaker508: Oу…
+~           oh 
+$6420/7c81cc23.mp3;1,363
+
+[LINE]
+> Юлія знову береться~за~кермо.
+~ Julia again start~driving    
+$6420/b4aeda5a.mp3;4,50;6,500;9,362;3,388;6,150;2,425
+
+[LINE]
+Speaker508: Ми тут, Дмитро!
+~           we~are here  Dmytriy 
+$6420/d06e4814.mp3;2,179;5,390;8,740
+
+[LINE]
+Speaker592: Юлія, це не станція …
+~           Julia  this isn't the~station  
+$6420/aa2216ff.mp3;4,50;2,637;3,163;3,212;8,163
+
+[LINE]
+Speaker508: Я знаю, це моя квартира.
+~           I  know  this~is my apartment   
+$6420/ce072c09.mp3
+
+[LINE]
+Speaker508: Я не хочу водити таксі.
+~           I  don't want to~drive taxis 
+$6420/b62f1156.mp3
+
+[LINE]
+Speaker508: Це дуже важка робота .
+~           it's a~very difficult job  
+$6420/8e79aef6.mp3
+
+[LINE]
+> Юлія відкриває двері таксі.
+~ Julia opens the~door(of) the~taxi 
+$6420/916cc93b.mp3;4,50;10,500;6,612;6,313;2,475
+
+[LINE]
+Speaker508: На~добраніч, Дмитрo!
+~            good~night     Dmytriy 
+$6420/6acfca93.mp3;1,1430
+
+[MULTIPLE_CHOICE]
+> Oh no! Why did Julia decide to go home?
++ She thinks driving a taxi is too difficult.
+- She needed to pick up another passenger.
+- She forgot to bring her lunch.
+
+[MATCH]
+> Tap the pairs
+- Лікарня <> Hospital
+- Знати  <> know
+- Ми тут <> we are here
+- піти <> to go
+- Водити <> to drive
+

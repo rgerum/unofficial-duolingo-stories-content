@@ -1,0 +1,128 @@
+[DATA]
+fromLanguageName=Uma coisa
+icon=717bd84875f83c678f64f124937a278061e0e778
+set=1|3
+
+[HEADER]
+> Unha cousa 
+~ Uma coisa
+$6511/01e56710.mp3;4,368;6,790
+
+[LINE]
+> Lucy está na súa casa, coa túa neta,         Lin.
+~ Lucy está na sua casa com~a sua neta Lin
+$6511/2e434067.mp3;4,440;5,276;3,158;4,317;6,549;4,244;4,290;6,531;5,719
+[LINE]
+Speaker509: Ai, non! Necesito pan para o meu bocadillo.
+~            Ai não  Preciso~de pão para o meu sandes
+$6511/d2d0c2d8.mp3;3,486;5,548;9,608;4,256;5,273;2,105;4,245;11,987
+
+[LINE]
+Speaker508: Vas           ao     supermercado?
+~            Vais ao supermercado
+$6511/ed4d257a.mp3;3,289;3,150;14,1023
+
+[LINE]
+Speaker509: Si. 
+~           Sim 
+$6511/8957f556.mp3;3,492
+
+[MULTIPLE_CHOICE]
+> A Lin e a Lucy têm muito pão
+- Sim, isso está correto.
++ Não, isso está incorreto.
+
+[LINE]
+Speaker508: Ah, necesito unha cousa  do      supermercado!
+~           Ah preciso uma coisa do supermercado 
+$6511/92912172.mp3;3,409;9,590;5,310;6,410;3,110;14,1147
+[LINE]
+Speaker509: Que? 
+~            Quê 
+$6511/c3c95477.mp3;4,437
+
+[LINE]
+Speaker508: Un  tomate, por~favor.
+~           Um tomate por~favor 
+$6511/b689bb85.mp3;2,199;8,635;4,175;7,731
+
+[SELECT_PHRASE]
+> Seleciona a frase em falta
+Speaker508: É   para [a~miña~ensalada].
+~           É para a~minha~salada   
+$6511/2b381169.mp3;1,109;5,266;2,85;5,359;10,908
+- linda e salada
++ a miña ensalada
+- a miña é salada
+
+[LINE]
+Speaker509: Está~ben.
+~           Está~bem        
+$6511/5bfb99c5.mp3;4,350;5,509
+
+[LINE]
+Speaker508: Grazas!  
+~            Obrigado 
+$6511/faea3f51.mp3;7,799
+
+[POINT_TO_PHRASE]
+> Escolhe a opção que significa "maçãs."
+Speaker508: Ah! E   (tamén) (quero) (tres)  (+mazás)…
+~            Ah  E   também      quero   três   maçãs
+$6511/4af431fc.mp3;3,449;2,120;6,450;6,290;5,256;6,470;2,NaN
+
+[LINE]
+Speaker509: Está~ben.
+~           Está~bem        
+$6511/77fce63f.mp3;4,350;5,509
+
+[LINE]
+Speaker508: …e   zume~de~laranxa…
+~             e   sumo~de~laranja
+$6511/016072b3.mp3;1,674;2,430;5,110;3,545;8,NaN;2,NaN
+
+[LINE]
+Speaker509: Lin…
+~           Lin 
+$6511/c281f8bf.mp3;3,411;2,NaN
+
+[LINE]
+Speaker508: …e   leite{leité}, por~favor.
+~            e leite   por~favor    
+$6511/051f3008.mp3;1,2175;2,NaN;6,NaN;2,NaN;4,NaN;7,NaN
+
+[LINE]
+Speaker509: Mmm{hm}… teño  unha idea.
+~           Mmm  tenho uma  ideia 
+$6511/4775c655.mp3;3,932;2,289;5,767;5,NaN;6,NaN
+
+[ARRANGE]
+> Seleciona o que ouves
+Speaker509: [(Aquí) (están) (os)  (cartos), (Lin).]
+~             Aqui   estão     os   dinheiro     Lin   
+$6511/c91b2520.mp3;4,356;6,365;3,147;8,618;5,733
+
+[LINE]
+Speaker508: Que?! 
+~             Quê  
+$6511/09ac0a02.mp3;5,460
+
+[LINE]
+Speaker509: Eu quero unha cousa  do      supermercado: pan.  
+~           Eu  quero   uma coisa do supermercado   pão 
+$6511/39f7597c.mp3;2,250;6,321;5,301;6,436;3,115;14,1015;5,700
+
+[MULTIPLE_CHOICE]
+> Porque é que a Lucy deu dinheiro à Lin?
+- A Lin vai fazer uma sandes.
++ Ela quer que a Lin vá ao supermercado.
+- A Lin vai almoçar fora.
+
+[MATCH]
+> Seleciona os pares
+- Cartos <> Dinheiro
+- Unha <> Uma
+- Zume <> Sumo
+- Laranxa <> Laranja
+- Ben <> Bem
+

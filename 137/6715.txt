@@ -1,0 +1,135 @@
+[DATA]
+fromLanguageName=Clothes for my Vacation
+icon=6fee4723d01611cffa9b4b76fd5be36697ef1e96
+set=4|3
+
+[HEADER]
+> Ropa pales mis vacaciones
+~ clothes for  my  vacation  
+$6715/e6da1f9f.mp3;4,50;6,425;4,337;11,175
+
+[LINE]
+> Lucy ta n'una tienda.
+~ Lucy is   at~a   store  
+$6715/5d83b011.mp3;4,50;3,387;5,125;7,263;2,600
+
+[LINE]
+Speaker416: Hola,  ¿necesites ayuda?
+~           hello   you~need help  
+$6715/cc386ce1.mp3;4,50;2,462;10,225;6,650
+
+[LINE]
+Speaker509: Sí,  necesito ropa    pales mis vacaciones.
+~           yes  I~need   clothes for  my  vacation   
+$6715/a815e107.mp3;2,50;2,425;9,212;5,525;6,313;4,337;11,150;2,813
+
+[MULTIPLE_CHOICE]
+> Lucy is shopping for clothes for a vacation.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker416: Val.
+~           OK        
+$6715/27e42b23.mp3;3,50;2,562
+
+[LINE]
+Speaker509: Necesito un vistíu.
+~           I~need   a  dress   
+$6715/d9499ece.mp3;8,50;3,712;7,125;2,525
+
+[LINE]
+> Lily busca     un vistíu~verde.
+~ Lily looks~for a  green~dress   
+$6715/c882461d.mp3;4,50;6,362;3,313;7,125;6,350;2,475
+
+[MULTIPLE_CHOICE]
+> Lily is getting a…
++ …green dress.
+- …red dress.
+- …green hat.
+
+[LINE]
+Speaker509: ¡Non, yo quiero un vistíu~colloráu!
+~            no  I  want   a  red~dress    
+$6715/4e26ff63.mp3;3,50;2,462;3,225;7,150;3,250;7,100;9,400;2,563
+
+[LINE]
+> Lily busca     un vistíu~colloráu.
+~ Lily looks~for a  red~dress    
+
+[LINE]
+Speaker509: Y   quiero una chaqueta.
+~           and I~want a   jacket   
+$6715/9c18b10d.mp3;1,50;7,112;4,325;9,275;2,613
+
+[ARRANGE]
+> Tap what you hear
+> [(Lily) (busca)     (una) (chaqueta~collorada).]
+~   Lily   looks~for   a     red~jacket      
+
+[LINE]
+Speaker509: ¡Non, yo quiero una chaqueta~marrón!
+~            no  I  want   a   brown~jacket    
+$6715/38f698ab.mp3;3,50;2,450;3,225;7,150;4,250;9,200;7,425;2,525
+
+[LINE]
+Speaker416: Val...
+~           OK        
+$6715/54bed597.mp3;3,50
+
+[LINE]
+Speaker509: Un vistíu~colloráu, una chaqueta~marrón…
+~           a  red~dress     a   brown~jacket    
+$6715/4f382781.mp3;2,50;7,225;9,400;2,600;4,187;9,200;7,425
+
+[SELECT_PHRASE]
+> Select the missing phrase
+
+Speaker509: ¡[Y~un~sombreru]!
+~             and~a~hat      
+$6715/91749e20.mp3;1,50;3,175;9,212;2,638
+- Y un bomberu
+- Y un ubreru
++ Y un sombreru
+
+[LINE]
+> Lily busca     un sombreru~azul.
+~ Lily looks~for a  blue~hat      
+$6715/c56fc829.mp3;4,50;6,350;3,312;9,150;5,375;2,500
+
+[LINE]
+Speaker509: ¡Non, yo quiero un sombreru~gris!
+~            no  I  want   a  gray~hat      
+$6715/b21181fa.mp3;3,50;2,462;3,213;7,137;3,250;9,113;5,437;2,463
+
+[LINE]
+> Lily busca     un sombreru~gris.
+~ Lily looks~for a  gray~hat      
+$6715/1b721c50.mp3;4,50;6,362;3,313;9,150;5,375;2,500
+
+[POINT_TO_PHRASE]
+> Choose the option meaning "ready."
+Speaker509: ¡(Gracies)!   ¡(Toi) (+llista) (pales) mis vacaciones!
+~             thank~you     I~am     ready   for   my  vacation   
+$6715/ca6e9bc6.mp3;7,50;2,837;4,800;7,275;6,350;4,288;11,175;2,850
+
+[LINE]
+Speaker416: Agora yo necesito vacaciones.  
+~           now   I  need     (a)~vacation 
+$6715/b69e430e.mp3;5,50;3,425;9,162;11,513;2,850
+
+[MULTIPLE_CHOICE]
+> Poor Lily! Why does she need a vacation?
+- She ate too much for lunch.
++ She's tired after helping Lucy find clothes.
+- She wants to buy new clothes to wear.
+
+[MATCH]
+> Tap the pairs
+- Y <> and
+- chaqueta collorada <> red jacket
+- sombreru gris <> gray hat
+- Gracies <> thank you
+- Non <> no
+

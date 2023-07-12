@@ -1,0 +1,118 @@
+[DATA]
+fromLanguageName=Ubrania na wakacje
+icon=6fee4723d01611cffa9b4b76fd5be36697ef1e96
+set=4|3
+
+[HEADER]
+> Ruchna na latné~ferie
+~ Ubrania na wakacje
+
+[LINE]
+> Lucy je w krómie.
+~ Lucy jest   w   sklepie
+
+[LINE]
+Speaker416: Mòjn,  brëkùjece~wë pòmòcë?
+~           Dzień~dobry  potrzebuje~pani pomocy?
+
+[LINE]
+Speaker509: Jo, jô~brëkùjã ruchnów na latné~ferie.
+~ Tak, potrzebuję ubrań na wakacje
+
+[MULTIPLE_CHOICE]
+> Lucy kupuje ubrania na wakacje.
+- Nie, to nie jest prawda.
++ Tak, to jest prawda.
+
+[LINE]
+Speaker416: Dobrze.
+~           Dobrze
+
+[LINE]
+Speaker509: Jô brëkùjã klédu.
+~           Potrzebuję sukni.
+
+[LINE]
+> Lily spòzérô  na zelony kléd.
+~ Lily spogląda na zieloną suknię.
+
+[MULTIPLE_CHOICE]
+> Lily myśli o...
++ …zielonej sukni.
+- …zielonym kapeluszu.
+- …zielonym pasie.
+
+[LINE]
+Speaker509: Nié, jô chcã czerwiony kléd!
+~            Nie ja chcę czerwoną suknię
+
+[LINE]
+> Lily zdrzi na czerwiony kléd.
+~ Lily patrzy na czerwoną suknię
+
+[LINE]
+Speaker509: Chca~bëm téż kabôt.
+~           Chciałabym też kurtkę
+
+[POINT_TO_PHRASE]
+> Wybierz opcję, która oznacza „spogląda”.
+> (Lily) (+spòzérô)  (na) (czerwiony) (kabôt).
+~   Lily spogląda na czerwoną kurtkę
+
+[LINE]
+Speaker509: Nié, jô chcã bruny kabôt!
+~            Nie  ja  chcę   brązową kurtkę
+
+[LINE]
+Speaker416: Fejn...
+~           Dobrze        
+
+[LINE]
+Speaker509:  Czerwiony kléd i bruny kabôt...
+~             Czerwona suknia     i   brązowa kurtka    
+
+[SELECT_PHRASE]
+> Wybierz brakującą frazę
+Speaker509: [I~mùca]!
+~             I~czapka
+
+- I mëcka
++ I mùca
+- I czôpka
+
+[LINE]
+> Lily zdrzi na mòdrã mùcã.
+~ Lily patrzy na niebieską czapkę
+
+[LINE]
+Speaker509: Nié, jô chcã szadã mùcã!
+~            Nie ja chcę szarą czapkę
+
+[LINE]
+> Lily spòzérô na szarą mùcã.
+~ Lily spogląda na  szarą czapkę
+
+[POINT_TO_PHRASE]
+> Wybierz opcję oznaczającą „gotowa”.
+Speaker509: (Dzãka)!  (Terô) (jem) (+fardëch) (na) (ferie)!
+~             Dziękuję!   Teraz jestem  gotowa    na  wakacje   
+
+[LINE]
+Speaker416: Terô jô brëkùjã feriów...
+~           Teraz ja potrzebuję wakacji
+
+
+[MULTIPLE_CHOICE]
+> Biedna Lily! Dlaczego potrzebuje wakacji?
+- Zjadła za dużo na lunch.
++ Jest zmęczona po tym, jak pomagała Lucy znaleźć ubrania.
+- Chce kupić nowe ubrania do noszenia.
+
+[MATCH]
+> Dotknij par
+- mùca <> czapka
+- mòdri  <> niebieski
+- szari <> szary
+- kléd <> suknia
+- ruchna <> ubrania
+

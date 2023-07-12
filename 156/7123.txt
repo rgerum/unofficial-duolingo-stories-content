@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=Obrigado?
+icon=0e35077f2bf31284d5967e7096a66da10d0a9bdf
+set=8|1
+
+[HEADER]
+> Oubrigado{oúbrigado}?
+~  Obrigado  
+$7123/8fb660c3.mp3;9,1023;2,NaN
+
+[LINE]
+> La{lá} Zari oufrece ũa{um-ha} perpinha  a{à}~la{lá} Lili.
+~ A Zari oferece uma presente à Lili
+$7123/b88e043c.mp3;2,2540;5,NaN;8,NaN;3,NaN;9,NaN;2,NaN;3,NaN;6,NaN
+
+[LINE]
+Speaker416: L{le} que{que}  ye?     
+~          O que é
+$7123/f086184f.mp3;1,1067;4,NaN;4,NaN
+
+[LINE]
+Speaker418: Çfecha{çfé-tsha}-lo! 
+~            Abre-o
+$7123/846bb856.mp3;6,1139;5,NaN
+
+[ARRANGE]
+> Seleciona o que ouves
+> [(La) (Lili) (çfecha{cfé-tsha})  (la)  (perpinha).]
+~   A Lili abre a presente     
+$7123/80278b74.mp3;2,2069;5,NaN;7,NaN;3,NaN;10,NaN
+
+[LINE]
+Speaker416: Ye{yé}   ũa{um-ha} xambre{chambre}.
+~           É uma blusa  
+$7123/69b84b9d.mp3;2,1466;3,NaN;7,NaN;2,NaN
+
+[LINE]
+Speaker418: Que galana!
+~            Que bonita
+$7123/9520a180.mp3;3,135;8,811
+
+[LINE]
+Speaker416: Ye   burmeilha{burmêilha}.
+~           É vermelha 
+$7123/d87ff7ba.mp3;2,1500;10,NaN;2,NaN
+
+[LINE]
+Speaker418: Si,  ye   la mie quelor~faborita.
+~           Sim é a minha cor~favorita 
+$7123/aec628a6.mp3;3,579;3,185;3,156;4,254;7,345;10,1162
+
+[LINE]
+Speaker416: I   ten{tên}    un gato.
+~           E tem um gato
+$7123/95483892.mp3;1,1215;4,NaN;3,NaN;6,NaN
+[LINE]
+Speaker418: Amo{amoles} ls{}~gatos!
+~            Amo os~gatos      
+$7123/be1dca09.mp3;3,1310;3,NaN;7,NaN
+
+[LINE]
+Speaker416: I{ile}   l{}  gato stá nun altemoble{altemób-le}…
+~           I o gato está num carro  
+$7123/546321d4.mp3;1,NaN;2,NaN;5,NaN;4,NaN;4,NaN;10,NaN;2,NaN
+
+[LINE]
+Speaker418: Si,  ye   mi  angraçado!
+~           Sim é muito engraçado   
+$7123/89252541.mp3;3,589;3,215;3,245;11,1075
+
+[MULTIPLE_CHOICE]
+> O que é que tem tanta graça?
+- O gato é vermelho.
++ O gato está num carro.
+- O gato está numa blusa.
+
+[LINE]
+Speaker418: Ye   la~perpinha~de~anibersairo~purfeita{purfêita}.
+~          É a-presente~de~aniversário~perfeita       
+$7123/8812fdbc.mp3;2,2941;3,NaN;9,NaN;3,NaN;12,NaN;9,NaN;2,NaN
+
+[LINE]
+Speaker416: Zari, nun~ye   l{} miu{lemíu} anibersairo.
+~           Zari  não~é o meu aniversário 
+$7123/37ca4373.mp3;5,2967;4,NaN;3,NaN;2,NaN;4,NaN;13,NaN
+
+[POINT_TO_PHRASE]
+> Escolhe a opcão que significa "aniversário."
+Speaker418: (You) (sei)…   Hoije   (ye) l (miu) (+anibersairo).
+~           Eu sei Hoje é o meu aniversário  
+$7123/68d54d30.mp3;3,224;4,450;2,2505;6,NaN;3,NaN;2,NaN;4,NaN;13,NaN
+
+[LINE]
+Speaker416: Ah…
+~           Ah 
+$7123/f6c21e50.mp3;2,294;2,NaN
+
+[LINE]
+Speaker418: Siempre{si-impre}      squeces l{} miu{lemíu} anibersairo.
+~          Sempre esqueces o meu aniversário 
+$7123/3fc4dd44.mp3;7,2526;8,NaN;2,NaN;4,NaN;13,NaN
+
+[MULTIPLE_CHOICE]
+> A Lili esquece-se sempre…
+- …de ir dormir.
++ …do aniversário da Zari.
+- …duma blusa.
+
+[LINE]
+Speaker418: Aora{aóra} puodes{pu-udes}~dar-me    aquesta{akesta} xambre{chambre}!
+~            Agora podes~dar-me esta blusa 
+$7123/68ae9290.mp3;4,2405;7,NaN;7,NaN;8,NaN;7,NaN;2,NaN
+
+[LINE]
+Speaker416: Stá~bien… Oubrigado{oúbrigado}?
+~           Está~bem          Obrigado  
+$7123/dd89326f.mp3;3,400;5,504;2,1414;10,NaN;2,NaN
+
+[LINE]
+Speaker418: Nó, nó, oubrigado{oúbrigado} a  ti. 
+~           Não não obrigado a ti
+$7123/48a6f5c3.mp3;3,2506;4,NaN;10,NaN;2,NaN;4,NaN
+
+[MULTIPLE_CHOICE]
+> Porque é que a Zari deu a blusa à Lili?
+- Hoje a Lili faz anos.
+- O seu gato está na blusa.
++ Ela queria que a Lili a oferecesse de volta.
+
+[MATCH]
+> Seleciona os pares
+- Perpinha <> Presente
+- Angraçado <> Engraçado
+- Xambre <> Blusa (feminina)
+- Altemoble <> Carro
+- Çfecha-lo <> Abre-o
+

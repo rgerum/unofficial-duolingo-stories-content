@@ -25,7 +25,7 @@ Speaker592: עליכם־שלום, עדי. איך בין זײער פֿאַרנו�
 ~           hello~(response) Eddy I am very busy
 
 [LINE]
-Speaker592: אונדזער קלאַסעס הײבן~זיך~אָן הײנט אין צען~מינוט~אַרום.
+Speaker592: אונדזער קלאַסעס הײבן~זיך~אָן הײַנט אין צען~מינוט~אַרום.
 ~           our classes start today in ten~minutes 
 
 [MULTIPLE_CHOICE]
@@ -37,13 +37,16 @@ Speaker592: אונדזער קלאַסעס הײבן~זיך~אָן הײנט אין
 Speaker414: אָבער איך האָב~נישט~װאָס~צו~טאָן.
 ~           but  I have~nothing~to~do   
 
-[SELECT_PHRASE]
-> Select the missing phrase
-Speaker592: דו~װילסט  [לערנען~זיך]?   
+[CONTINUATION]
+> ?What comes next
+Speaker592: דו~װילסט  [לערנען~זיך]?
 ~            do~you~want  to~take~a~class  
 - קאָכן װעטשערע?
-+ לערנען זיך?
-- זינגען אַ ליד?
+~ to~cook dinner
++ לערנען~זיך?
+~ to~take~a~class
+- זינגען אַ ליד? 
+~ to~sing a song
 
 [LINE]
 Speaker414: נײן. קען איך העלפֿן~אַרױס מיט עפּעס?     
@@ -81,6 +84,12 @@ Speaker592: שלום־עליכם, מאַשה! קום און שטעל~זיך~אַ
 Speaker724: עליכם־שלום, אָסקאַר! זיכער! אַזױ?
 ~            hello~(response) Óskar of~course like~this 
 
+[MULTIPLE_CHOICE]
+>  . . . Mashe checks if she should 
++ .pose in a certain way
+- .sweep the floor of the studio
+- .dance a minuet with Óskar
+
 [LINE]
 > אַ גרופּע תּלמיד⁠ים קומט אַרײַן אַון רינגלען~זיך~אַרומ מאַשה און גרײטן~זיך צו מאָלן 
 ~ a group~of students come in and circle Mashe and prepare to paint     
@@ -98,8 +107,8 @@ Speaker414: פֿאַר~װאָס?
 ~            why 
 
 [LINE]
-Speaker592: דער קלאַס הײבט זיך אָן אין אַ פּאָר מינוט, און מיר דאַרפֿן נאָך אַ מאָדעל. 
-~           my class is in a  minute and I~need   a  model  
+Speaker592: דער קלאַס הײבט~זיך~אָן אין אַ פּאָר מינוט, און מיר~דאַרפֿן נאָך~אַ מאָדעל. 
+~           the class begins in a  few minutes and we~need   another  model  
 
 [POINT_TO_PHRASE]
 > ."Choose the option that means "sits down

@@ -1,0 +1,124 @@
+[DATA]
+fromLanguageName=Where Is Your Girlfriend?
+icon=0d18f0403cfa415591d7ef50a9e9c01f1094936e
+set=7|2
+
+[HEADER]
+>  Missä on sinun tyttöystävä?       
+~  where is   your girlfriend 
+
+[LINE]
+> Bea on  lentoasemalla.
+~ Bea is   at~the~airport    
+
+[LINE]
+> Hän  puhuu   miehelle     tiskillä. 
+~ she  talks to~the~man    at~the~counter 
+
+[LINE]
+Speaker823:  Moi! Tarvitsetko apua?
+~            hello   do~you~need  help  
+
+[LINE]
+Speaker507:  Joo!  Menen       Barcelonaan…
+~            yes  I'm~going   to   Barcelona 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "to sit"
+Speaker507:  Ja   (haluaisin)  (+istua) minun (tyttöystävän) vieressä    (lentokoneessa).
+~            and  I~would~like  to~sit  my    girlfriend     next~to     on~the~plane  
+
+[LINE]
+Speaker823: Selvä, meillä~on kaksi paikkaa  yhdessä.  
+~           Okay   we~have   two   seats    together 
+
+[LINE]
+Speaker507:  Täydellista!
+~            perfect  
+
+[MULTIPLE_CHOICE]
+> Why is Bea happy?
++ There are two available seats together.
+- The man is from Barcelona.
+- She's getting a discount on her ticket.
+
+[LINE]
+Speaker823: Hmm…  Missä on  sinun tyttöystävä?       
+~           hmm   where is  your  girlfriend 
+
+[LINE]
+Speaker507: En~tiedä.     Voitko auttaa minua etsimään häntä?       
+~           I~don't~know  can~you help  me    (to)~look for~her 
+
+[LINE]
+Speaker823:  Miltä~hän~näyttää?      
+~            what~does~she~look~like
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: Hmm… Hän on pitkä, hänellä~on [musta tukka]…
+~           hmm  she is tall  (she)~has   black hair     
++ musta tukka
+- mustat housut
+- musta koira
+
+[LINE]
+Speaker823: Selvä.
+~           Okay        
+
+[LINE]
+Speaker507: Hän pitää  urheilusta    ja   tanssista…  
+~           she likes to~play~sports and to~dance 
+
+[LINE]
+Speaker823: Ah…
+~           oh 
+
+[LINE]
+Speaker507: Hän rakastaa eläimiä…
+~           she   loves  animals      
+
+[LINE]
+Speaker507:  Mutta syö       liikaa    suklaata.
+~            but  (she)~eats too~much  chocolate 
+
+[LINE]
+Speaker823: Selvä… Mikä on sinun tyttöystävän nimi?       
+~           Okay   what is your girlfriend's name 
+
+[LINE]
+Speaker507: Äh, en~tiedä.     
+~           oh  I~don't~know 
+
+[LINE]
+Speaker823:  Sinä et   tiedä sinun tyttöystävän nimi?
+~            you don't know  your girlfriend's name 
+
+[MULTIPLE_CHOICE]
+> That's strange! Bea doesn't know…
+- …where Barcelona is.
+- …her own name.
++ …her girlfriend's name.
+
+[LINE]
+Speaker507: Minulla~ei~ole vielä tyttöystävää.
+~           I~don't~have   yet   (a)~girlfriend      
+
+[LINE]
+Speaker507:  Voitko autta minua löytämään tyttöystävän?
+~            can~you help me    find      a~girlfriend
+
+[MULTIPLE_CHOICE]
+> Did you get that? Bea…
+- …lost her girlfriend at the airport.
++ …doesn't have a girlfriend yet.
+- …left her girlfriend at home.
+
+[MATCH]
+> Tap the pairs
+- suklaa <> chocolate
+- lentokone <> plane
+- etsiä <> to search
+- vielä <> yet
+- yksi <> one
+

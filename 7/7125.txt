@@ -1,0 +1,104 @@
+[DATA]
+fromLanguageName=A Love Letter
+icon=4ba2733ddb8bdc3f0924c6463da01f5d1eccaf40
+set=17|4
+
+[HEADER]
+> 爱情信
+~ a   love~letter  
+
+[LINE]
+> 莎丽和朱朱在图书馆。
+~ Zari is   with Junior at the library    
+
+[LINE]
+Speaker418: 你在做什么，朱朱？
+~            what you~are~doing   Junior 
+
+[LINE]
+Speaker415: 呃… 我在写一封信。
+~           eh  I~am~writing      a   letter 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker418: [你写给谁]？
+~           and    who~is~the~letter~for   
+- 谁写给你
++ 你写给谁
+- 你读给谁
+
+[LINE]
+Speaker415: 写给一位女孩，一位非常酷的女孩。
+~           it's for  a   girl   a   very~cool~girl   
+
+[LINE]
+Speaker418: 啊! 是一封爱情信！是你班的一位女孩吗？
+~            oh   it's a   love~letter     she's a   girl  from your~class 
+
+[LINE]
+Speaker415: 不是… 呃… 她是一位少女。
+~           no  eh  she's a   teenager    
+
+[MULTIPLE_CHOICE]
+> Junior is writing a love letter for a cool teenage girl.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker418: 一位少女？像我？
+~            a   teenager      like~me 
+
+[LINE]
+Speaker415: 是的，她也是我的邻居。
+~           yes  and she's my neighbor 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "neighbor."
+Speaker418: 等一下… (这位)(女孩)是(一位)少女，是你的(+邻居)？
+~           one~moment    this   girl   is  a    teenager    and she's your   neighbor  
+
+[LINE]
+Speaker415: 呃… 是的。
+~           eh  yes 
+
+[LINE]
+Speaker418: 她很聪明吗？
+~            and she's very intelligent 
+
+[LINE]
+Speaker415: 是的！ 
+~            yes 
+
+[CONTINUATION]
+> What comes next?
+Speaker418: 朱朱… 这封信是写给我的吗？对不起，但是[你太小了]。
+~           Junior   the letter is for  me  I'm~sorry  but  you~are  too       young  
++ 你太小了
+~ too       young
+- 你是我邻居  
+~ your neighbor
+- 你是个少男
+~ a~teenager     
+
+[LINE]
+Speaker415: 不是，不是写给你的。给你最好的朋友的，莉莉！
+~           no  it's~not for  you   it's for  your~best~friend  Lily 
+
+[LINE]
+Speaker415: 你能不能帮我送给莉莉一下，拜托？
+~            you~can~give  the letter to Lily  please    
+
+[MULTIPLE_CHOICE]
+> Who was Junior's love letter for?
+- Zari's sister
+- Zari
++ Zari's best friend, Lily
+
+[MATCH]
+> Tap the pairs
+- 信 <> letter
+- 邻居 <> neighbor
+- 酷 <> cool
+- 图书馆 <> library
+- 送 <> deliver
+

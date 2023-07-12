@@ -1,0 +1,148 @@
+[DATA]
+fromLanguageName=A Date
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+[HEADER]
+> 約會
+~ date,~to~have~a~date
+
+[LINE]
+> 阿蓓|登垃|飯店裡向|交|人家|垃垃|約會。
+~ Bea (is)~at in~the~restaurant with someone~else is~(doing) having~a~date
+
+[LINE]
+Speaker507: 儂好！|儂|哪能|啊？
+~            hello  you~(are) how (default~question~particle)
+
+[LINE]
+Speaker100: 蠻|好|個！
+~            pretty good (affirmative~particle)
+
+[LINE]
+Speaker100: 儂|要|吃|啥物事|啊？
+~           you want eat what (default~question~particle)
+
+[LINE]
+Speaker507: 我|吃|一|份|色拉。
+~           I will~eat a serving~(of) salad    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: 我|今朝|有|一|場|[老|重要|個|比賽]。
+~           I today have a (classifier) very important (connector) match,~game,~competition   
++ 老重要個比賽
+- 老要緊個雞蛋
+- 老好吃個夜飯
+
+[LINE]
+Speaker100: 噢，|儂|是|孛相|體育|個|啊？
+~           oh you are (someone~who)~plays~with sports (someone~who~does~something) yes?~(default~question~particle)
+
+[LINE]
+Speaker507: 對個，|我|踢|足球|個。
+~           yes I kick/play~(soccer) soccer (affirmative~particle)
+
+[MULTIPLE_CHOICE]
+> Bea is ordering a salad because…
++ …she is playing soccer today.
+- …her date said the salad is delicious.
+- …she just ate a whole pizza.
+
+[LINE]
+Speaker100: 我|也|踢|個欸！
+~            I also kick,~play~(soccer) (affirmative~particle~with~emphasis)  
+
+[LINE]
+Speaker507: 儂|倒|有點意思|嚜！
+~            you unexpectedly,~actually (are)~quite~interesting (particle)
+
+[LINE]
+Speaker507: 儂|是|嚡裏墶|人？     
+~           you are (from)~where person
+
+[LINE]
+Speaker100: 我|是|上海人。
+~           I am Shanghainese~person
+
+[SELECT_PHRASE]
+> Select the missing phrase 
+Speaker100: 我|爺|是|寧波人，|[阿拉|娘|末]|是|無錫人。
+~             my father is (a)~Ningponese~person our mother (as~for~her) is (a)~Wuxinese~person
+- 我個爸爸
++ 阿拉娘末
+- 阿拉茄子
+
+[LINE]
+Speaker507: 無錫|讚|個！
+~            Wuxi (is)~great (affirmative~particle)
+
+[LINE]
+Speaker100: 是個，|無錫|瞎|好看！
+~           yes Wuxi (is)~super pretty 
+
+[LINE]
+Speaker507: 欸，|葛末|儂|養|寵物|伐？
+~           hey then (do)~you keep pets (yes/no~question)   
+
+[LINE]
+Speaker100: 我|有得|兩|隻|貓，|外加|一|隻|狗。
+~           I have two (classifier) cats and~also one (classifier) dog
+
+[LINE]
+Speaker507: 喔唷，|巧伐！
+~           oh~wow isn't~it~a~coincidence
+
+[POINT_TO_PHRASE]
+> Choose the option that means "also."
+Speaker507: (小范)​(啊)，​(我)​(+也)​(是)​(養)​(狗)​(個欸)！
+~           (little)~Fan (particle) I also am (someone~who)~keeps dogs (affirmative~particle~with~emphasis)
+
+[LINE]
+Speaker100: 啊？|我|名字|叫|張思成|呀。
+~            huh I (my)~name is~called Tsan~Sz-Zen (particle)
+
+[LINE]
+Speaker100: 儂|勿是| Gabriela？
+~           you are~not Gabriela
+
+[LINE]
+Speaker507: Gabriela |啥人|啦！
+~            Gabriela who (particle~for~light~annoyance) 
+
+[LINE]
+Speaker507: 我|叫| Beatrice，|我|是|阿蓓！
+~            I (am)~called Beatrice I am Bea
+
+[MULTIPLE_CHOICE]
+> Did you catch that? Bea and Sz-Zen…
+- …bought tickets to Wuxi.
++ …were supposed to meet different people.
+- …are walking their dogs.
+
+[LINE]
+> 乃末|有|一個|女個|跑過來|尋張思成了。
+~ at~this~point~then there~is a woman~person (who)~walks~coming to~find~Tsan~Sz-Zen
+
+[LINE]
+Speaker101: 儂好！|儂|是|小張|伐？|我|是| Gabriela。
+~            hello you are (little)~Tsan (yes/no~question~particle)  I am Gabriela 
+
+[LINE]
+Speaker100: 勿好意思，|我|勿是|個。|我|是|小范。
+~           sorry I am~not (affirmative~particle) I am (little)~Fan 
+
+[MULTIPLE_CHOICE]
+> Whoa! What just happened?
+- Bea changed her name to Gabriela.
++ Tsan Sz-Zen lied to his real date because he likes Bea.
+- Bea and Sz-Zen's dogs played soccer.
+
+[MATCH]
+> Tap the pairs
+- 外加 <> and also
+- 上海人 <> Shanghainese person, person from Shanghai
+- 讚 <> good, great, excellent
+- 色拉 <> salad
+- 飯店 <> restaurant
+

@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=The Dance Class
+icon=9a1213d7cb11cc1ab115544c9557336da748fca6
+set=8|2
+
+[HEADER]
+> Dansetimen
+~ the~dance~class   
+$6540/abc71ef6.mp3;10,50
+
+[LINE]
+> Eddy går~inn~i dansetimen åt Eli.
+~ Eddy enters  Eliana's~dance~class        
+$6540/862f160e.mp3;4,50;4,400;4,212;2,188;11,125;3,725;4,287;2,400
+
+[LINE]
+Speaker125: Hallo!
+~            hello
+$6540/3b251e09.mp3;6,725
+
+[LINE]
+Speaker125: Kven føler for å dansa?
+~            who   feels~like     dancing 
+$6540/c2211c63.mp3;4,309;6,310;4,155;2,70;7,868
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker125: I~dag skal~me læra [noko~nytt].
+~           today we're~going~to (to)~learn  something~new   
+$6540/8305bbda.mp3;1,79;4,256;5,184;3,135;5,395;5,300;6,751
+- nokon nye
++ noko nytt
+- nokon ny
+
+[LINE]
+> Eddy står opp og går mot døra.
+~ Eddy stands up  and walks  towards the~door  
+$6540/42419a15.mp3;4,50;5,337;4,338;3,225;4,187;4,250;5,288;2,437
+
+[LINE]
+Speaker125: Hei!
+~           hey 
+$6540/66b53fcc.mp3;4,570
+
+[LINE]
+Speaker125: Kvar fer~du?       
+~            where are~you~going 
+$6540/55f4bcc6.mp3;4,289;4,280;4,466
+
+[LINE]
+Speaker125: Å dansa er litt skummelt...
+~           dancing is a little scary   
+$6540/a8a42162.mp3;1,119;6,385;3,122;5,160;9,644;4,NaN
+
+[LINE]
+Speaker125: … men det er mykje moro!
+~              but  it is a~lot~of fun  
+$6540/f79ab5ba.mp3;1,474;4,85;4,114;3,330;6,749;6,NaN
+
+[POINT_TO_PHRASE]
+> Choose the option that means "this."
+Speaker414: Ja,  (men) (eg~trur)    (at)  (+dette) er ein feil.  
+~           yes   but    I~think   that    this  is a mistake 
+$6540/005cd355.mp3;3,430;4,154;3,107;5,290;3,130;6,184;3,115;4,145;6,750
+
+[LINE]
+Speaker125: Ikkje~ver redd! Det er enkelt! Sjå!
+~           don't be scared  it is easy    look 
+$6540/decf5176.mp3;5,310;4,245;6,490;4,155;3,120;8,792;5,635
+
+[LINE]
+Speaker414: Men…
+~           but  
+$6540/e4f0affb.mp3;3,329;2,NaN
+
+[ARRANGE]
+> Tap what you hear
+> [(Eddy) (ser~på)  (Eli) (dansa).] 
+~   Eddy   watches   Eli (to)~dance  
+$6540/bca9b602.mp3;4,50;4,350;3,312;4,238;6,325;2,487
+
+[LINE]
+Speaker125: Dansa med~meg no!
+~           dance with~me now
+$6540/4b45ae1c.mp3;5,504;4,114;4,320;4,543
+
+[LINE]
+Speaker414: Dette er mykje~moro!
+~            this is a~lot~of~fun  
+$6540/4f86483a.mp3;5,334;3,125;6,335;6,545
+
+[LINE]
+Speaker125: Kva tenkjer~du no? Er denne~timen enno ein feil? 
+~          what you~think now   is this~class still a mistake 
+$6540/fe3a45e0.mp3;3,244;8,462;3,135;4,520;3,100;6,260;6,360;5,225;4,160;6,715
+
+[MULTIPLE_CHOICE]
+> Eliana wants to know…
+- …why Eddy is such a terrible dancer.
++ …if Eddy still thinks going to her class was a mistake.
+- …if Eddy is a dance teacher.
+
+[LINE]
+Speaker414: Ja.
+~           yes 
+$6540/e7389b82.mp3;3,575
+
+[LINE]
+Speaker125: Verkeleg?
+~            really    
+$6540/3145f40d.mp3;9,974
+
+[LINE]
+Speaker414: Dette er~ikkje klassen~min!
+~           this is~not my~class 
+$6540/4c470d68.mp3;5,360;3,120;6,279;8,335;5,589
+
+[LINE]
+Speaker414: Men det er mykje~meir moro enn matlaging!
+~            but  it is much~more fun than cooking   
+$6540/0ca8bc21.mp3;3,164;4,105;3,105;6,343;5,255;5,328;4,100;11,972
+
+[MULTIPLE_CHOICE]
+> Oops! What was Eddy's mistake?
+- He used to date Eliana.
+- He forgot to wear his dancing shoes.
++ He was supposed to go to a cooking class.
+
+[MATCH]
+> Tap the pairs
+- ikkje ver! <> don't be!
+- matlaging <> cooking
+- kva tenkjer du? <> what do you think
+- kvar fer du? <> where are you going
+- å dansa <> to dance
+- mot døra <> towards the door
+

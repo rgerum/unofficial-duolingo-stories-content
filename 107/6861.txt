@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=A Coffee, Please!
+icon=221d57fa97fa27260e9dd5ad3457870d033f291a
+set=5|3
+
+[HEADER]
+> Un cafè, si~us~plau!
+~  a  coffee  please    
+$6861/51e37138.mp3;2,50;5,125;2,425;3,0;3,162;5,163;2,387
+
+[LINE]
+> L'Eddy és en un restaurant amb el~seu fill, en~Júnior.
+~ Eddy is   at a  restaurant  with his son  Junior 
+$6861/a69ee140.mp3;6,50;3,400;3,200;3,112;11,138;4,600;3,187;4,88;5,225;2,425;3,12;7,163;2,475
+
+[LINE]
+Speaker386: Hola,  Eddy. Vols un cafè?  
+~           hello  Eddy   you~want a  coffee 
+$6861/2a68e979.mp3;4,50;2,312;5,50;2,388;5,900;3,350;5,125
+
+[MULTIPLE_CHOICE]
+> The woman asks Eddy if he wants a coffee.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker414: Sí, una tassa~grossa de cafè, si~us~plau.
+~ yes a big~cup of coffee please    
+$6861/9069cf34.mp3;2,50;2,287;4,275;6,238;7,325;3,387;5,88;2,462;3,163;3,187;5,175;2,450
+
+[LINE]
+Speaker386: Amb llet o sense?
+~ with milk or without  
+$6861/9954fc6b.mp3;3,50;5,100;2,275;6,75
+
+[LINE]
+Speaker414: Amb llet, si~us~plau.
+~ with milk please    
+$6861/03ccc38d.mp3;3,50;5,212;2,375;3,138;3,200;5,175;2,437
+
+[LINE]
+Speaker386: Vols sucre, també?
+~ do~you~want sugar too 
+$6861/d3f100a5.mp3;4,50;6,312;2,400;6,38
+
+
+[LINE]
+Speaker414: Sí, si~us~plau.
+~ yes please    
+$6861/2de3ba0f.mp3;2,50;2,287;3,213;3,200;5,175;2,437
+
+[LINE]
+Speaker415: Jo també vull un cafè!  
+~            I  also    want   a   (cup~of)~coffee 
+$6861/b3ad7ee8.mp3;2,50;6,212;5,450;3,388;5,187;2,488
+
+[MULTIPLE_CHOICE]
+> Junior says that he…
++ …wants coffee too.
+- …wants to go home.
+- …needs to go to the bathroom.
+
+[LINE]
+Speaker414: Júnior, tu també en vols?  
+~ Junior you also (of~it) want 
+$6861/ef47ee10.mp3;6,50;2,550;3,100;6,200;3,312;5,125
+
+[LINE]
+Speaker415: Sí, vull un got de llet...
+~           yes  I~want a glass of milk  
+$6861/5b43b142.mp3;2,50;2,337;5,225;3,413;4,225;3,212;5,150
+
+[LINE]
+Speaker415: … amb sucre…
+~ with sugar  
+$6861/9c5be182.mp3;3,800;6,187
+
+[LINE]
+Speaker415: … i gelat!   
+~ and ice~cream 
+$6861/d96b6454.mp3;1,800;6,87;2,538
+
+[MULTIPLE_CHOICE]
+> What does Junior want in his coffee?
+- more coffee
++ ice cream
+- a salad and fries
+
+[LINE]
+Speaker414: Amb gelat?   
+~            with ice~cream 
+$6861/d725498d.mp3;3,50;6,162
+
+[LINE]
+Speaker415: Sí,  i sense cafè, si~us~plau!
+~            yes  and without coffee  please    
+$6861/b2115cfd.mp3;2,50;2,300;2,200;6,125;5,400;2,437;3,175;3,200;5,163;2,437
+
+[POINT_TO_PHRASE]
+> Choose the option that means "milkshake."
+Speaker386: (Ah)… el~que vols és un (+batut)?   
+~            oh    what  (you)~want  is   a    milkshake  
+$6861/e6194a7a.mp3;2,37;3,988;4,100;5,162;3,313;3,150;6,150
+
+[LINE]
+Speaker415: Sí, si~us~plau!
+~            yes  please    
+$6861/9c33bbbf.mp3;2,50;2,287;3,188;3,200;5,162;2,450
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Jo) (també) en (vull) (un)!]   
+~              I    also    (of~it)  want     one   
+$6861/b61ad1f5.mp3;2,50;6,225;3,500;5,187;3,275;2,375
+
+[LINE]
+Speaker414: Dos batuts, si~us~plau!
+~            two milkshakes  please    
+$6861/9f4c80c7.mp3;3,50;7,275;2,537;3,100;3,200;5,163;2,462
+
+[MULTIPLE_CHOICE]
+> Oh, Junior! He ordered coffee…
+- …but Eddy drank it all.
+- …because he wanted to have more energy.
++ …but he really wanted a milkshake.
+
+[MATCH]
+> Tap the pairs
+- llet <> milk
+- cafè <> coffee
+- dos <> two (m.)
+- dues <> two (f.)
+- en <> at
+- tassa <> cup
+- got <> glass
+- batut <> milkshake
+- gelat <> ice cream
+- sense <> without
+

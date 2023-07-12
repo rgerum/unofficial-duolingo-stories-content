@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName= Wegetarianin
+icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
+set=4|1
+
+[HEADER]
+> Wegetarión
+~ Wegetarianin
+
+[LINE]
+> Vikram czëtô menu w restaùracëje.
+~ Vikram czyta menu w restauracji 
+
+[LINE]
+Speaker385: Mòjn! 
+~            Dzień~dobry 
+
+[LINE]
+Speaker593: Jô~móm jedno pëtanié.
+~           Mam jedno pytanie  
+
+[LINE]
+Speaker593: Jô~jem  wegetariónã. 
+~           Jestem wegetarianinem
+
+[LINE]
+Speaker593: Môta~wa jestkù dlô wegetarión?
+~            Macie jedzenie dla wegetarian
+
+[MULTIPLE_CHOICE]
+> Vikram chce wiedzieć, czy restaurcja ma dania wegetariańskie.
+- Nie, to jest nie prawda
++ Tak, to jest prawda.
+
+[LINE]
+Speaker385: Jo, mómë sztule z miãsã.
+~           Tak  mamy kanapki z mięsem
+
+[LINE]
+Speaker593: Sztule z miãsã? Jô~jem wegetarión.
+~            Kanapki z mięsem     Jestem wegetarianinem
+
+[LINE]
+Speaker385: Ach, jo…  Wëbôczce.
+~           Ach  tak  Przepraszam 
+
+[LINE]
+Speaker385: Mómë lëgòtné kùrë.  
+~           Mamy   pyszne kury 
+
+[MULTIPLE_CHOICE]
+> Według kelnera ich kurczak jest…
+- …wilgotny.
+- …delikatny.
++ …pyszny.
+
+[LINE]
+Speaker593: Kùra to je miãso.
+~           Kura  to jest  mięso
+
+[POINT_TO_PHRASE]
+> Wybierz opcję która oznacza "jadam".
+Speaker593: (A)   (jô) (nie) (+jadiwóm)   (miãsa)!
+~              A  ja   nie jadam  mięsa
+
+[LINE]
+Speaker385: Mómë sałôtczi…
+~           Mamy sałatki    
+
+[LINE]
+Speaker593: Në, sałôtczi jô lubiã!
+~            No  sałatki ja lubię    
+
+[MULTIPLE_CHOICE]
+> Vikram lubi…
+- …kelnera.
++ …sałatki.
+- …dużo mięsa.
+
+[LINE]
+Speaker385: To bãdze sałôtka z pòmidorą, sërã, a łososëną…
+~           To będzie   sałatka z  pomidorem serem i  mięsem~łososia
+
+[LINE]
+Speaker593: Jô nie jadiwóm łososënë! Jô~jem wegetarión! 
+~            Ja  nie~jadam mięsa~łososia  Jestem wegetarianinem
+
+[LINE]
+Speaker385: Mómë fritczi…
+~           Mamy frytki         
+
+[LINE]
+Speaker593: Dobrze, fritczi...
+~           Dobrze         frytki        
+
+[MULTIPLE_CHOICE]
+> Jakie jedzenie w końcu zamówił Vikram?
++ frytki
+- sałatkę
+- łososia
+
+[LINE]
+Speaker385: Fritczi… Dobrze. I…   hambùrger?
+~           Frytki         Dobrze   I  hamburger   
+
+[LINE]
+Speaker593: Jô nie jadiwóm miãsa!
+~            Ja nie jadam mięsa
+
+[MULTIPLE_CHOICE]
+> Dlaczego Vikram jest tak zdenerwowany??
+- Ma dość bycia wegetarianinem.
++ Kelner ciągle podawał mu mięso.
+- Kelner wylał na niego kawę.
+
+[MATCH]
+> Dotknij par
+- miãso <> mięso
+- łososëna <> mięso z łososia
+- jadiwac <> jadać
+- lëgòtny <> pyszny
+- jestkù <> jedzenie
+

@@ -1,113 +1,127 @@
 [DATA]
 fromLanguageName=The Passport
-icon=5dc22a453cc462fa2ac2412700a39a9e1b47d4e6
-set=2|7
+icon=643347b755001a918130ddf5f6d3e914e63a00ce
+set=2|2
 
 [HEADER]
 > Ang Pasaporte
 ~ the passport 
+$961/c4369fd6.mp3;3,0;10,209
 
 [LINE]
-> Nasa~airport   si~Sebastian.
-~ in~the~airport Sebastian    
+> Nasa~paliparan   si~Vik kasama ang~kanyang~asawa na~si~Priti.
+~ in~the~airport (is)~Vikram   with his~wife who~is~Priti
+$961/d8f550d4.mp3;4,0;10,335;3,650;4,164;8,296;4,610;8,170;6,320;3,480;3,110;6,185
 
 [LINE]
-Speaker3135: Nasaan na  kaya     ang~pasaporte ko?
-~            where  now I~wonder passport      my 
+Speaker593: Hala! Nasaan na ang~pasaporte~ko?
+~           oh~no where  now (is)~my~passport   
+$961/1db429de.mp3;4,0;8,459;3,680;4,95;10,205;3,666
 
 [LINE]
-Speaker3135: Wala     dito!
-~            it~isn't here 
+Speaker593: Wala     rito!
+~          (it's)~not here 
+$961/232522ba.mp3;4,0;5,360
+
+[LINE]
+Speaker560: Vik...
+~ Vikram
+$961/7d501b5d.mp3;3,329;4,NaN
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker3135: Wala     rin  dito  [sa~bag~ko……
-~            it's~not also here   in~my~bag  
+Speaker593: At wala     rin  dito  [sa~bag~ko]……
+~            and (it's)~not also here   in~my~bag  
+$961/622f6a38.mp3;2,0;5,199;4,330;5,195;3,305;4,170;3,251
+
 + sa bag ko
 - sa bulsa ko
 - sa bibig ko
 
 [LINE]
-Speaker3135: At  wala     rin  pati sa~dyaket ko.
-~            and it's~not also even in~jacket my 
+Speaker593: At  wala     rin  sa~mga~bulsa ng~dyaket~ko.
+~            and (it's)~not also  in~the~pockets of~my~jacket
+$961/c98afeea.mp3;2,0;5,199;4,320;3,190;4,161;6,189;3,425;7,175;3,426
+[LINE]
+
+Speaker560: Vik, hon...
+~ Vikram, honey
+$961/c4943da0.mp3;4,625;4,424;4,NaN
 
 [LINE]
-Speaker3135: Nasa~taxi        siguro! 
-~            it's~in~the~taxi perhaps 
+Speaker593: Ah! Alam~ko na! Nasa~taksi        siguro! 
+~          oh I~know now  (it's)~in~the~taxi probably 
+$961/3d1d6050.mp3;2,0;6,280;3,409;3,160;6,300;5,691;7,404
+
+[MULTIPLE_CHOICE]
+> Vikram thinks his passport is in the taxi.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+> Tumakbo si~Vik palabas ng~paliparan upang hanapin ang~taksi.
+~ ran (did)~Vikram towards~the~outside of~the~airport in~order~to look~for the~taxi 
+$961/c7b843b0.mp3;7,0;3,429;4,186;8,294;3,515;10,140;6,730;8,290;4,505;5,135
+
+[LINE]
+Speaker560: Vik, hindi!
+~            Vikram no 
+$961/0d3e1701.mp3;4,490;7,579
 
 [ARRANGE]
 > Tap what you hear
-> [(Hinanap) (ni~Sebastian) (ang~taxi)  (n'ya)].   
-~   ~         looks~for      Sebastian   taxi   his
+> [(Tumakbo) (rin) (si~Priti) (upang) (habulin) (si~Vik).]
+~      ran also (did)~Priti in~order~to chase~after Vikram
+$961/cbd9aae6.mp3;7,0;4,449;3,180;6,176;6,435;8,350;3,479;4,165
 
 [LINE]
-> Nakita n'ya ang~driver~ng~taxi n'ya.
-~ sees   he   taxi~driver        his  
-
-[MULTIPLE_CHOICE]
-> Sebastian…
-- … can't find the taxi driver who took him to the airport.
-+ … sees the taxi driver who took him to the airport.
-- … drives away in a taxi.
+Speaker593: Hay~naku! Nakaalis na ang~taksi!
+~            oh~my~gosh was~able~to~leave aready the~taxi
+$961/0e936e44.mp3;3,0;5,280;10,470;3,784;4,95;5,226
 
 [LINE]
-Speaker3135: 'Oy!
-~            hey 
+Speaker593: Ang~malas~naman!
+~ so~unlucky
+$961/e5656016.mp3;3,0;6,234;6,430
 
 [LINE]
-Speaker338: Ano     po 'yon, ser?
-~           what~is ~  it    sir 
-
-[MULTIPLE_CHOICE]
-> Why does the taxi driver call Sebastian "ser"?
-- She is being rude.
-+ She is being professional.
-- She thinks that's his name.
+Speaker560: Vik!
+~      Vikram
+$961/92effd85.mp3;4,510
 
 [LINE]
-Speaker3135: Kailangan~ko ang~pasaporte ko.
-~            I~need       passport      my 
+Speaker560: Wala sa~taksi ang~pasaporte~mo...
+~ not~there in~the~taxi (is)~your~passport
+$961/2647ba15.mp3;4,310;3,125;6,404;4,135;10,641;3,345;4,NaN
 
-[LINE]
-Speaker3135: Baka  kasi    nasa~taxi    mo   eh...
-~            maybe because it's~in~taxi your ~    
-
-[LINE]
-Speaker338: Sorry ser, wala         pong pasaporte  sa~taxi  ko.
-~           ~     sir  there~is~not ~    a~passport in~~taxi my 
-
-[LINE]
-Speaker3135: Hala! 
-~            oh~no 
 
 [POINT_TO_PHRASE]
-> Click on the option meaning "hand."
-Speaker338: (Ser), (nasa)  (+kamay) 'nyo lang po ang (pasaporte)
-~            sir    is~in    hand   your just ~  the  passport  
+> Choose the option that means "passport."
+Speaker560: (Kasi) nasa~(kamay)~mo (lang) ang~(+pasaporte)~mo!
+~ because in~your~hand just (is)~your~passport
+$961/4d832fee.mp3;4,244;5,296;6,274;3,125;5,145;4,125;10,610;4,658
 
 [LINE]
-Speaker3135: Ay! Oo~nga~'no...
-~            oh  silly~me     
+Speaker593: Ah...
+~ oh
+$961/8111510e.mp3;2,0
 
 [LINE]
-Speaker3135: Salamat.  
-~            thank~you 
-
-[LINE]
-Speaker338: Ingat~po~kayo!
-~           take~care     
+Speaker593: Oo~nga~noh! Salamat, Mahal!
+~  oh~yeah thank~you Love
+$961/483ec63e.mp3;4,0;3,395;9,325;7,819
 
 [MULTIPLE_CHOICE]
-> Where was Sebastian's passport?
+> Where was Vikram's passport?
 - At his house.
 - In the taxi.
 + In his hand.
 
 [MATCH]
 > Tap the pairs
-- pasaporte <> passport
+- malas <> unlucly
 - kamay <> hand
-- hinanap nya <> he looked for
-- wala dito <> it's not in here
-- sa bag ko <> in my bag
+- bulsa <> pocket
+- hay naku <> oh my gosh
+- paliparan <> airport
 

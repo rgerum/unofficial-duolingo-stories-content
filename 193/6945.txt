@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=The Vegetarian
+icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
+set=4|1
+
+[HEADER]
+> Người~ăn~chay
+~ the~vegetarian 
+$6945/b2e4e1f9.mp3;5,50;3,275;5,200
+
+[LINE]
+> Vikram đang~đọc thực~đơn tại một nhà~hàng~sang~trọng .
+~ Vikram is~reading the~menu in a  very~pretty~restaurant 
+$6945/467f1eaf.mp3;6,50;5,512;4,200;5,213;4,200;4,262;4,188;4,212;5,175;5,225;6,275;2,275
+
+[LINE]
+Speaker385:  Chào~anh! 
+~            good~morning 
+$6945/af5f5e5a.mp3;4,50;4,300;2,262
+
+[LINE]
+Speaker593: Cho~tôi~hỏi.
+~           I~have~a~question 
+$6945/23d3d8fe.mp3;3,50;4,250;4,162;2,363
+
+[LINE]
+Speaker593: Tôi ăn~chay. 
+~           I~am a~vegetarian 
+$6945/cb557bad.mp3;3,50;3,275;5,187;2,263
+
+[LINE]
+Speaker593: Bên~anh~có đồ~ăn~chay không?
+~            do~you~have vegetarian~food ~    
+$6945/6f254e52.mp3;3,50;4,312;3,225;3,100;3,213;5,175;6,150
+
+[MULTIPLE_CHOICE]
+> Vikram wants to know if they serve vegetarian food.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker385: Dạ~có, chúng~tôi~có bánh~mì~kẹp~thịt~rất~ngon.
+~           yes  we~have very~good~meat~sandwiches      
+$6945/844d2b5b.mp3;2,50;3,312;2,275;6,238;4,212;3,225;5,88;3,250;4,200;5,225;4,225;5,175;2,325
+
+[LINE]
+Speaker593: Bánh~mì~kẹp~thịt? Tôi~là một người~ăn~chay. 
+~            meat~sandwiches   I~am a vegetarian 
+$6945/9ee0437b.mp3;4,50;3,275;4,187;5,200;4,1050;3,225;4,125;6,213;3,275;5,187;2,275
+
+[LINE]
+Speaker385: À, vâng... Tôi~xin~lỗi.
+~           oh  yes  I'm~sorry 
+$6945/1b8cd8b9.mp3;1,50;2,362;5,213;4,1062;4,175;4,263;2,337
+
+[LINE]
+Speaker385: Chúng~tôi~có món~gà~rất~ngon .  
+~           we~have a~very~delicious~chicken 
+$6945/ccd2f2c4.mp3;5,50;4,262;3,238;4,87;3,313;4,237;5,163;2,337
+
+[MULTIPLE_CHOICE]
+> According to the waiter, their chicken is…
+- …not very tasty.
+- …gluten free.
++ …delicious.
+
+[LINE]
+Speaker593: Gà là thịt.
+~           chicken  is meat  
+$6945/470c0f0f.mp3;2,50;3,275;5,212;2,175
+
+[ARRANGE]
+> Tap what you hear
+Speaker593: [(Và)   (tôi) (không~ăn)   (thịt)!]
+~              and   I    don't~eat   meat    
+$6945/00911fc5.mp3;2,50;4,362;6,163;3,275;5,200;2,162
+
+[LINE]
+Speaker385: Chúng~tôi~có salad…
+~           we~have salads    
+$6945/2c6d0d2b.mp3;5,50;4,262;3,238;6,87
+
+[LINE]
+Speaker593: À, tôi~thích salad!
+~            oh  I~like    salads        
+$6945/3c06fa27.mp3;1,50;2,300;4,250;6,187;6,163;2,462
+
+[MULTIPLE_CHOICE]
+> Vikram likes…
+- …the waiter.
++ …salads.
+- …lots of meat.
+
+[LINE]
+Speaker385: Chúng~tôi~có món~salad với cà~chua, phô~mai,  cá~hồi…
+~           we~have      a~salad with  tomato  cheese  salmon 
+$6945/a59ad3ac.mp3;5,50;4,250;3,237;4,88;6,225;4,462;3,200;5,213;2,262;4,200;4,225;2,313;3,250;4,162
+
+[LINE]
+Speaker593: Tôi không~ăn cá~hồi! Tôi ăn~chay! 
+~            I  don't~eat salmon   I~am a~vegetarian 
+$6945/a83da8c4.mp3;3,50;6,187;3,263;3,187;4,150;2,250;4,875;3,263;5,187;2,275
+
+[LINE]
+Speaker385: Chúng~tôi~có khoai~tây~chiên…
+~           we~have fries          
+$6945/82766912.mp3;5,50;4,250;3,237;6,75;4,300;6,188
+
+[LINE]
+Speaker593: Ok, khoai~tây~chiên.
+~           OK      fries          
+$6945/8bab2aa1.mp3;2,50;2,475;6,212;4,313;6,187;2,250
+
+[MULTIPLE_CHOICE]
+> What food did Vikram order in the end?
++ fries
+- chicken
+- salmon
+
+[LINE]
+Speaker385: Khoai~tây~chiên…  Và…   một hamburger?
+~           fries             and   a   hamburger   
+$6945/c8f50b29.mp3;5,50;4,312;6,188;3,1000;4,1112;10,238
+
+[LINE]
+Speaker593: Tôi~không~ăn thịt!
+~            I~don't~eat meat  
+$6945/bd150226.mp3;3,50;6,225;3,275;5,175;2,175
+
+[MULTIPLE_CHOICE]
+> Why is Vikram so upset?
+- He's tired of being a vegetarian.
++ The waiter kept offering him meat.
+- The waiter spilled coffee on him.
+
+[MATCH]
+> Tap the pairs
+- món gà rất ngon <> very delicious chicken
+- Vikram <> Vikram
+- salad với <> salad with
+- tôi xin lỗi <> I'm sorry
+- chúng tôi có <> we have
+

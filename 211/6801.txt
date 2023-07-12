@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Clothes for my Vacation
+icon=6fee4723d01611cffa9b4b76fd5be36697ef1e96
+set=4|3
+
+[HEADER]
+> Roba    par les~meyes vacacéis
+~ clothes for  my  vacation  
+
+[LINE]
+> Lucy té n'una batiga.
+~ Lucy is   at~a   store  
+
+[LINE]
+Speaker416: Hola,  ¿nesites ayuda?
+~           hello   you~need help  
+
+[LINE]
+Speaker509: Sa,  nesito roba    par les~meyes vacacéis.
+~           yes  I~need   clothes for  my  vacation   
+
+[MULTIPLE_CHOICE]
+> Lucy is shopping for clothes for a vacation.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker416: Ocá.
+~           OK        
+
+[LINE]
+Speaker509: Nesito une vestie.
+~           I~need   a  dress   
+
+[LINE]
+> Lily busce     une vestie~verdex.
+~ Lily looks~for a  green~dress   
+
+[MULTIPLE_CHOICE]
+> Lily is getting a…
++ …green dress.
+- …red dress.
+- …green hat.
+
+[LINE]
+Speaker509: ¡Noi, jo coiso une vestie~velmeye!
+~            no  I  want   a  red~dress    
+
+[LINE]
+> Lily busce     une vestie~velmeye.
+~ Lily looks~for a  red~dress    
+
+[LINE]
+Speaker509: Ei   coiso una chamara.
+~           and I~want a   jacket   
+
+[ARRANGE]
+> Tap what you hear
+> [(Lily) (busce)     (una) (chamara~velmeya).]
+~   Lily   looks~for   a     red~jacket      
+
+[LINE]
+Speaker509: ¡Noi, jo coiso una chamara~pardola!
+~            no  I  want   a   brown~jacket    
+
+[LINE]
+Speaker416: Ocá…
+~           OK        
+
+[LINE]
+Speaker509: Une vestie~velmeye, una chamara~pardola…
+~           a  red~dress     a   brown~jacket    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: ¡[Y'una~capa]!
+~             and~a~hat      
+- Y'una capòca
+- Y'una capra
++ Y'una capa
+
+[LINE]
+> Lily busce     una capa~asúl.
+~ Lily looks~for a  blue~hat      
+
+[LINE]
+Speaker509: ¡Noi, jo coiso una capa~gres!
+~            no  I  want   a  gray~hat      
+
+[LINE]
+> Lily busce     una capa~gres.
+~ Lily looks~for a  gray~hat      
+
+[POINT_TO_PHRASE]
+> Choose the option meaning "ready."
+Speaker509: ¡(Graçiya)!   ¡(To) (+acadeya) (par) les~meyes vacacéis!
+~             thank~you     I~am     ready   for   my  vacation   
+
+[LINE]
+Speaker416: Abora jo nesito vacacéis.  
+~           now   I  need     (a)~vacation 
+
+[MULTIPLE_CHOICE]
+> Poor Lily! Why does she need a vacation?
+- She ate too much for lunch.
++ She's tired after helping Lucy find clothes.
+- She wants to buy new clothes to wear.
+
+[MATCH]
+> Tap the pairs
+- Ei <> and
+- chamara velmeya <> red jacket
+- capa gres <> gray hat
+- Graçiya <> thank you
+- Noi <> no
+

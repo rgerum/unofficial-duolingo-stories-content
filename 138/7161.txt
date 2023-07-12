@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=Doctor Eddy
+icon=29c5abbf74b46e43a4de510ac83e302c0722a100
+set=2|4
+
+[HEADER]
+> Doctor Eddy
+~ doctor Eddy
+$7161/6dd221b3.mp3;6,50;5,475
+
+[LINE]
+> Eddy ta nel supermercáu
+~ Eddy está en~el  supermercado 
+$7161/7e999d1a.mp3;4,50;3,262;4,113;12,162
+
+[LINE]
+> Una ellegante muyer entama a  falar con Eddy.
+~ una elegante mujer empieza a hablar con Eddy 
+$7161/43e70906.mp3;3,50;10,287;6,475;7,313;2,387;6,88;4,275;5,187;2,375
+
+[MULTIPLE_CHOICE]
+> Una mujer acaba de empezar a hablar con Eddy en el supermercado.
++ Sí, así es.
+- No, no es así.
+
+[LINE]
+Speaker724: ¡Hola!
+~           hola  
+$7161/f5acc377.mp3;4,50;2,462
+
+[LINE]
+Speaker414: Ah, ¡hola!
+~           ah  hola  
+$7161/b2626083.mp3;2,50;2,425;5,262;2,525
+
+[LINE]
+Speaker724: ¿Yes doctor? 
+~           eres doctor 
+$7161/fff344be.mp3;3,50;7,375
+
+[LINE]
+Speaker414: ¿Qué? ¿Yo? Eh…
+~           qué   yo  eh 
+$7161/a2193c86.mp3;3,50;3,1300;3,1362
+
+[LINE]
+Speaker414: Sí. Yo…  soi  doctor.   
+~           sí   yo  soy doctor 
+$7161/1641533d.mp3;2,50;2,550;3,850;4,1212;7,325;2,613
+
+[LINE]
+Speaker724: ¡Bonu!
+~           bueno 
+$7161/1a4b15c1.mp3;4,50;2,562
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+> [(Eddy) (nun~ye) (doctor).]   
+~   Eddy   no~es    doctor   
+$7161/80316be6.mp3;4,50;4,275;3,200;7,112;2,625
+
+[LINE]
+Speaker414: Tengo  munchu dineru. 
+~            tengo mucho    dinero 
+$7161/e558ce39.mp3;5,50;7,375;7,437;2,525
+
+[LINE]
+Speaker414:  Vivo n'una    casa pergrande.  
+~            vivo en~una casa muy~grande 
+$7161/503d22bf.mp3;4,50;5,362;5,300;10,338;2,737
+
+[LINE]
+Speaker414: Trayo pantalones... eh... bien caros.     
+~           Llevo pantalones eh muy caros
+$7161/8098f6c7.mp3;5,50;11,462;3,1675;5,1113;6,387;2,663
+
+[LINE]
+Speaker724: Val,        pero… 
+~           vale  pero 
+$7161/6d17a617.mp3;3,50;2,525;5,212
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "ahora".
+Speaker724: ¡(Un)  (home)    (necesita)    un  doctor (+agora)!  
+~            un   hombre   necesita  un doctor   ahora  
+$7161/36a0fad8.mp3;2,50;5,225;9,212;3,600;7,163;6,400;2,462
+
+[LINE]
+Speaker414: ¡¿Qué?! ¿Ónde ta'l    hóme?   
+~           qué    dónde está~el  hombre 
+$7161/3c9b0b5f.mp3;3,50;5,1300;4,375;5,237
+
+[LINE]
+Speaker724: Él ta cierca la lleche.
+~           él está cerca~de la  leche 
+$7161/76890af4.mp3;2,50;3,225;7,187;3,450;7,125;2,538
+
+[MULTIPLE_CHOICE]
+> El hombre está…
+- … en el carro de la compra de Eddy.
++ … cerca de la leche en el supermercado.
+- … en el hospital.
+
+[LINE]
+Speaker724: ¡Porfavor    ayuda al home!    ¡Ta   mui enfermu!   
+~           por~favor ayude al hombre   está muy  enfermo 
+$7161/de618f55.mp3;8,50;6,600;3,412;5,138;2,362;3,863;4,187;8,263;2,662
+
+[MULTIPLE_CHOICE]
+> La mujer quiere que Eddy…
+- … vaya al consultorio de un doctor.
++ … ayude a un hombre que está enfermo.
+- … compre un poco de leche.
+
+[LINE]
+Speaker414: ¡Ai,~non!
+~           ay~no 
+$7161/f3ac045c.mp3;2,50;2,537;4,263;2,475
+
+[LINE]
+> Eddy ve una   muyér. Él cuerre  ya y-fala.
+~ Eddy ve~a una mujer  él corre y   le~habla
+$7161/3a0a9a86.mp3;4,50;3,275;4,137;6,188;2,562;3,863;7,225;3,325;7,175;2,575
+
+[LINE]
+Speaker414: Hola, ¿yes doctora?      ¡Necesito   ayuda! 
+~           hola   eres doctora  necesito ayuda 
+$7161/b51e19db.mp3;4,50;2,500;4,262;8,238;9,1487;6,700;2,513
+
+[MULTIPLE_CHOICE]
+> ¿Qué está haciendo Eddy?
++ Él trata de encontrar un verdadero doctor para ayudar al hombre.
+- Él lleva al hombre enfermo al hospital.
+- Él llora porque derramó leche.
+
+[MATCH]
+> Selecciona los pares
+- caros <> caros
+- ónde <> dónde
+- y-fala <> le habla
+- ayuda al <> ayude al
+- home <> hombre
+

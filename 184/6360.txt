@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=Czerwona kurtka
+icon=5361833c123aec9adfa60b0dc63398cd1aa49ef2
+set=2|1
+
+[HEADER]
+> Czerwiony kabôt
+~ Czerwona kurtka  
+
+[LINE]
+> Lily je w krómie z ruchnama z ji drëszką,  Zari.
+~ Lily jest w sklepie z ubraniami z jej przyjaciółką  Zari 
+
+[LINE]
+Speaker416: W tim krómie je fest dargò.     
+~           W tym sklepie jest bardzo drogo 
+
+[LINE]
+Speaker418: Jo-jo… 
+~           Yhm...
+
+[LINE]
+Speaker418: Ach!
+~            Ach!
+
+[SELECT_PHRASE]
+> Zaznacz brakujące słowa
+Speaker418: [___] je perfektny!
+~             Ta~czerwona~kurtka jest doskonała
++ Nen czerwiony kabôt
+- Na czerwionô kabôtka
+- Nen czerwòny kaftôn
+
+[LINE]
+Speaker416: Hmm, Zari…
+~           Hmm  Zari 
+
+[LINE]
+Speaker418: Mie sã fest widzy na farwa!
+~            Mi się bardzo podoba ten kolor
+
+[LINE]
+Speaker416: Zari?
+~            Zari 
+
+[POINT_TO_PHRASE]
+> Zaznacz słowo które oznacza "kurtkę"
+Speaker418: Jô bëm so (kùpiła) (nen) (+kabôt)!
+~             Ja bym sobie kupiła tę kurtkę    
+
+[LINE]
+Speaker416: Zari!
+~            Zari 
+
+[LINE]
+Speaker418: Co? 
+~            Co 
+
+[LINE]
+Speaker416: Nen kabôt kòsztëje sztëresta złotëch.
+~           Ta kurtka kosztuje czterysta złotych
+
+[MULTIPLE_CHOICE]
+> Ile kosztuje ta kurtka?
+- Czterdzieści złotych
++ Czterysta złotych
+- Sześćset złotych
+
+[LINE]
+Speaker418: Co?! 
+~             Co  
+
+[LINE]
+Speaker416: Zari, të nie brëkùjesz nowi kabôt...
+~           Zari, rt nie potrzebujesz nowej kurtki     
+
+[POINT_TO_PHRASE]
+> Zaznacz wyraz który oznacza "Urodziny."
+Speaker418: (Le)… Lily, jô~móm (dzysô) (+gebùrstach)…
+~            Ale Lily mam dzisiaj urodziny
+
+[LINE]
+Speaker416: Jo?  
+~            Ah~tak? 
+
+[LINE]
+Speaker418: A të jes mòją nôlepszą drëszką! 
+~            A ty jesteś moją najlepszą przyjaciółką
+
+[LINE]
+Speaker416: Në jo…  i?  
+~           No tak...   i 
+
+[LINE]
+Speaker418: A nôlepszim darënkã bë~dlô~mie~bëł…
+~           I najlepszym prezentem byłaby~dla~mnie...
+
+[LINE]
+Speaker416: Tóni kabôt!
+~            Tania kurtka    
+
+[MULTIPLE_CHOICE]
+> Prezentem urodzinowym Zari od Lily będzie…
+- …droga czerwona kurtka.
+- …coś innego niż kurtka.
++ …tania kurtka.
+
+[MATCH]
+> Połącz pary
+- tóni <> tani
+- kabôt <> kurtka
+- farwa <> kolor
+- darënk <> prezent
+- dardżi <> drogi
+

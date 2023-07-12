@@ -1,0 +1,93 @@
+[DATA]
+fromLanguageName=I Need a New Video Game
+icon=ce0ae956035c1bac6b9c64737466d59c5d027e97
+set=7|1
+
+[HEADER]
+> Ik~Ha in{ən:ipa} Nij{nɛ͡i:ipa} Fideospultsje{fideospøltsjə:ipa} Nedich{nedəχ:ipa}
+~ I~have  a new video~game required  
+$6874/3ae20fe6.mp3;2,50;3,200;3,212;4,63;14,187;7,950
+
+[LINE]
+> Bouke en Rinse{ɾeːəⁿsə:ipa} binne yn{in:ipa}~in{ˈən:ipa}~winkel.
+~ Bouke and Rinse are~(plural) at~a~store  
+$6874/7b9b5552.mp3;5,50;3,512;6,125;6,450;3,325;3,188;7,137;2,575
+
+[LINE]
+Speaker415: Heit, ik~ha in{ən:ipa} nij fideospultsje{fideospøltsjə:ipa} nedich{nedəχ:ipa}!
+~           Dad I~have a  new video~game required  
+$6874/e1c9e454.mp3;4,50;2,375;3,125;3,150;3,262;4,100;14,263;7,962;2,538
+
+
+[LINE]
+Speaker414: Nee, Bouke. Do{do:ipa}~hast gjin{gjɪn:ipa} nij fideospultsje{fideospøltsjə:ipa} nedich{nedəχ:ipa}.
+~           Nee Bouke  You~have~(singular) not~a new video~game required
+$6874/f1f2204d.mp3;3,50;2,525;6,150;2,587;3,363;5,200;5,250;4,250;14,200;7,925;2,537
+
+[MULTIPLE_CHOICE]
+> Rinse thinks Bouke needs a new video game.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker415: Asjebleaft{ɑsjəblɪːəft:ipaf}! Dit fideospultsje{fideospøltsjə:ipa} mei robots is hiel leuk!
+~            please      this video~game of robots is very fun       
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Junior, [tú~quieres~este] videojuego, pero no~necesitas   este videojuego.
+~           Junior   you~want~this    video~game  but  you~don't~need this video~game 
++ tú quieres este
+- tú sientes este
+- tú quieres estar
+
+[LINE]
+Speaker415: Está~bien, ¡yo lo~quiero! ¿Lo~compramos?   
+~           OK          I  want~it     (can)~we~buy~it 
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(No)… (Tienes)   (muchos)   (videojuegos) (en~casa).]
+~             no    you~have   a~lot~of   video~games   at~home   
+
+[LINE]
+Speaker415: Sí,  sí…  Está~bien, ¿vamos~a      casa?
+~           yes  yes  OK          we~are~going home 
+
+[LINE]
+Speaker414: No, vamos        a  casa~de~Vikram.
+~           no  we~are~going to Vikram's~house 
+
+[CONTINUATION]
+> What comes next?
+Speaker415: ¿Por~qué? ¡Su~casa   es [muy  aburrida]!
+~            why       his~house is  very boring    
+- una tienda
+~ a   store 
+- un videojuego~nuevo
+~ a  new~video~game  
++ muy  aburrida
+~ very boring  
+
+[LINE]
+Speaker414: Pero su~televisión es grande y   yo necesito ver      el  partido~de~fútbol.
+~           but  his~TV        is big    and I  need     to~watch the soccer~game       
+
+[LINE]
+Speaker415: Papá, tú  quieres ver      el  partido, pero no~necesitas   ver      el  partido.
+~           dad   you want    to~watch the game     but  you~don't~need to~watch the game    
+
+[MULTIPLE_CHOICE]
+> Both Eddy and Junior…
++ …say they need something when they only want it.
+- …fly around on robots.
+- …play video games with Vikram.
+
+[MATCH]
+> Tap the pairs
+- vamos a <> we are going
+- partido <> game
+- necesito <> I need
+- videojuegos <> video games
+- Su casa <> his house
+

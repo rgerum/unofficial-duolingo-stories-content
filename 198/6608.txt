@@ -1,0 +1,114 @@
+[DATA]
+fromLanguageName=I Want a Dog!
+icon=f0d8a8f3340da1d468766192cafa7ac1ee986355
+set=10|2
+
+[HEADER]
+> Quero un~can!
+~  Quero um~cão    
+
+[LINE]
+Speaker415: Papá, temos~que falar.   
+~           Papá   temos~que  falar 
+
+[LINE]
+Speaker415: Quero un~can!
+~            Quero um~cão  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Junior, [ter~un~can] é moito    traballo.
+~           Junior   ter~um~cão   é muito trabalho    
++ ter un can
+- ter un pan
+- ter unha ra
+
+[LINE]
+Speaker415: Papá, por~favor! Son  moi  responsable.
+~            Papá   por~favor    Sou muito responsável 
+
+[LINE]
+Speaker414: Ah, si? 
+~            Ah sim 
+
+[LINE]
+Speaker414: Entón, tes~que  limpar    o~coche…
+~           Então      tens~que limpar o~carro 
+
+[MULTIPLE_CHOICE]
+> Por que é que o Eddy diz ao Junior para limpar o carro?
+- O Junior precisa de conduzir para seu novo emprego.
++ Ele quer que o Junior prove que é responsável.
+- O cão do Junior sujou muito o carro.
+
+[LINE]
+Speaker415: Vale!
+~            Está~bem        
+
+[LINE]
+Speaker414: … lavar     o~baño…     
+~             lavar a~casa~de~banho
+
+[LINE]
+Speaker415: Si… 
+~           Sim 
+
+[ARRANGE]
+> Seleciona o que ouves
+Speaker414: … [(e)   (lavar)     (as~ventás)!]
+~                e   lavar   as~janelas   
+
+[LINE]
+Speaker415: Ai, non…
+~           Ai  não
+
+[POINT_TO_PHRASE]
+> Escolhe a opção que significa "depois".
+> Tres  (horas) (+despois), (Junior) (termina)  de~limpar.
+~ three  hours   later      Junior    finishes  cleaning   
+
+[LINE]
+Speaker415: Papá! Mira!
+~            Dad    look 
+
+[LINE]
+Speaker414: Moi~ben!     Es moi  responsable.
+~            that's~great  you are  very responsible 
+
+[CONTINUATION]
+> What comes next?
+Speaker414: Agora podes  ter     [un~can]!
+~            now   you~can (to)~have  a~dog     
+- un~baño   
+~ a~bathroom
+- unha~ventá
+~ a~window   
++ un~can
+~ a~dog   
+
+[LINE]
+Speaker415: Non, grazas!   Non~quero    un~can…
+~            no  thank~you  I~don't~want a~dog    
+
+[LINE]
+Speaker414: Por~que non? 
+~            why     not 
+
+[LINE]
+Speaker415: Estou moi  canso! Non~quero    ser   responsable!
+~            I~am  very tired     I~don't~want to~be responsible 
+
+[MULTIPLE_CHOICE]
+> Junior decided…
+- …he wants a cow instead.
+- …he should adopt four dogs.
++ …he's too tired to take care of a dog.
+
+[MATCH]
+> Tap the pairs
+- Quero <> I want
+- ser <> to be
+- moito <> a lot of
+- horas <> hours
+- temos que <> we have to
+

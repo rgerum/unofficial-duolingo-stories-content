@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=A Very Dirty Apartment
+icon=0e6ab8c3a4e3224cb700e8daeac0038f7f0e929e
+set=12|1
+
+[HEADER]
+> 很|肮脏的|公寓
+~ very dirty apartment
+$6410/85c762c0.mp3;1,50;3,212;2,375;3,88
+
+[LINE]
+> 小贝|在|她的|朋友|莎拉的|公寓。
+~ Bea (is)~at her friend Sarah's apartment
+$6410/a69aac28.mp3;2,50;2,462;2,163;2,150;3,100;3,412;2,363;3,100
+
+[LINE]
+Speaker507: 嗨，|莎拉，|你怎么样？
+~          hi Sarah how~are~you
+$6410/be934ccc.mp3;1,50;3,537;2,763;4,137
+
+[LINE]
+Speaker175: 我|感觉|很糟糕！
+~ I feel terrible
+$6410/4787572c.mp3;1,50;3,212;2,413;3,237
+
+[LINE]
+Speaker507: 噢，|为什么？
+~        oh  why   
+$6410/2a69d63c.mp3;1,50;4,500
+
+
+[LINE]
+Speaker175: 我|和|我的|新|室友|总是|吵架。
+~         I and my new roommate always quarrel      
+$6410/73973c6e.mp3;1,50;2,225;2,212;2,163;2,112;3,350;3,400;3,388
+
+[MULTIPLE_CHOICE]
+> Sarah and her roommate quarrel all the time.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker507: 我|不|惊讶，|这个|厨房|非常|肮脏。
+~           I (am)~not surprised this kitchen (is)~very dirty 
+$6410/d7790370.mp3;1,50;2,212;3,163;3,800;3,300;3,487;3,463
+
+[LINE]
+Speaker175: 唉，|我|知道。
+~           sigh I know 
+$6410/1949ae26.mp3;1,50;2,637;3,138
+
+[LINE]
+Speaker507: 而且，|那张桌子上的|是|老的|奶酪|吗？
+~           and on~that~table is old cheese (question~marker)
+$6410/99a7d926.mp3;2,50;2,887;2,163;3,200;2,325;2,200;2,325;2,175;2,212;3,100;2,438
+
+[LINE]
+Speaker175: 是的，|好恶心！
+~           yes   disgusting 
+$6410/abb05b98.mp3;2,50;2,887;3,225
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: 还有，|这把椅子上|有|很多|[脏|衣服]！
+~          also on~this~chair has many dirty clothes
+$6410/ea47a906.mp3;2,50;2,800;2,187;3,175;2,325;2,175;3,150;2,438;3,237
+
++ 脏衣服
+- 长与福
+- 成语夫
+
+[LINE]
+Speaker507: 等一下... 莎拉，|这|是|你的|衬衫。
+~           wait Sarah this is your shirt
+$6410/f4d6287e.mp3;1,50;3,237;3,1125;2,850;2,175;2,163;2,200;3,100
+
+[LINE]
+Speaker175: 是啊。
+~           yes 
+$6410/fee71b5c.mp3;1,50;2,312
+
+[LINE]
+Speaker507: 这些|全部都是|你的|衣服！
+~         these all~are your clothes
+$6410/37651ee8.mp3;2,50;6,400;2,975;3,87
+
+[POINT_TO_PHRASE]
+> Choose the option that means "yours."
+Speaker507: (那块) (老 奶酪) (也 是) (+你的) 吗？
+~        that old cheese also is yours (question~marker) 
+$6410/61f68408.mp3;1,50;2,162;2,175;3,225;2,413;2,150;2,137;2,188;2,87
+
+[LINE]
+Speaker175: 是啊，|我|从不|打扫。|然后|我的|室友|总是|抱怨。
+~           yes  I  never clean  then my roommate always complains
+$6410/8ac3cf12.mp3;1,50;2,250;2,687;3,175;3,288;3,875;2,637;2,200;3,138;3,425;3,400
+
+[LINE]
+Speaker175: 很糟糕！
+~            it's~terrible 
+$6410/ca26b192.mp3;1,50;3,312
+
+[MULTIPLE_CHOICE]
+> Ah ha! What do Sarah and her roommate argue about?
++ Sarah makes a mess and never cleans.
+- Bea likes to eat old cheese.
+- Sarah wears all her roommate's clothes.
+
+[MATCH]
+> Tap the pairs
+- 好恶心 <> disgusting
+- 糟糕 <> terrible
+- 从不 <> never
+- 惊讶 <> surprised
+- 抱怨 <> complain
+

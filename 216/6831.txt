@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=Good Morning
+icon=783305780a6dad8e0e4eb34109d948e6a5fc2c35
+set=1|1
+
+[HEADER]
+> God morgon 
+~ god morgen
+$6478/b7ee10a1.mp3;3,50;7,275
+
+[LINE]
+Speaker593: God morgon,  Priti!
+~            god morgen  Priti 
+$6478/594c0aca.mp3;3,310;8,824;7,769
+
+[LINE]
+Speaker560: God morgon,  kjære.
+~           good morgen kjære 
+$6478/f9fe7498.mp3;3,219;8,693;7,669
+
+[LINE]
+Speaker560: Kvar er nyklane mine?
+~           hvor er nøklene mine
+$6478/74dc9a80.mp3;4,280;3,120;10,472;6,509
+
+[LINE]
+Speaker593: Nyklane dine?
+~           nøklene dine
+$6478/a34ace11.mp3;7,590;6,571
+
+[MULTIPLE_CHOICE]
+> Priti klarer ikke å finne nøklene sine.
++ Ja, det stemmer.
+- Nei, det er feil.
+
+[LINE]
+Speaker560: Ja, eg treng å fara på jobb.
+~           ja jeg trenger å dra på jobb  
+$6478/172c702b.mp3;3,359;3,135;6,282;2,65;6,340;3,135;6,570
+
+[ARRANGE]
+> Trykk på det du hører.
+Speaker560: [(Eg treng) (nyklane) (til) (bilen min)!]
+~             jeg trenger nøklene til bilen min    
+$6478/b03df515.mp3;2,140;6,254;8,477;4,140;6,335;5,540
+
+[LINE]
+Speaker593: Haha! Priti, nyklane dine er her på bordet!  Hahaha!
+~            haha  priti nøklene dine er her på bordet  hahaha 
+$6478/9ad4dfbb.mp3;5,829;7,805;8,455;5,230;3,185;4,135;3,130;8,735;8,937
+
+[POINT_TO_PHRASE]
+> Velg alternativet som betyr trøtt.
+Speaker560: (Orsak), kjære, (eg er) (+trøytt). (Eg har jobba) for mykje!
+~           unnskyld kjære jeg er trøtt jeg har jobbet for mye
+$6478/18c57306.mp3;8,613;7,670;3,180;3,100;8,661;3,125;4,110;6,320;4,139;7,804
+
+[LINE]
+Speaker593: Har du lyst på kaffi?  
+~           har du lyst på kaffe
+$6478/7571fcfd.mp3;3,194;3,146;5,210;3,125;7,824
+
+[LINE]
+Speaker560: Ja,  gjerne!
+~           ja gjerne   
+$6478/ce2ab932.mp3;3,415;8,687
+
+[LINE]
+Speaker593: Ver so god,  kjære.
+~           vær så god kjære
+$6478/210acf91.mp3;3,259;3,190;5,525;7,891
+
+
+[LINE]
+Speaker560: Kvar er sukkeret? Å, her var det. 
+~           hvor er sukkeret å her var det
+$6478/3fb39281.mp3;4,274;3,130;10,733;3,360;4,242;4,135;5,510
+
+[MULTIPLE_CHOICE]
+> Hmm… Hva gjør Priti?
+- heller kaffe på bordet
+- putter sukker på nøklene sine
++ leter etter sukker for kaffen sin
+
+[LINE]
+> Ho drikk kaffien sin.  
+~ hun drikker kaffen sin
+$6478/ad02b42d.mp3;2,50;6,312;8,313;4,425;2,362
+
+[LINE]
+Speaker560: Ånei!
+~           ånei
+$6478/28846042.mp3;1,119;4,596
+
+[LINE]
+Speaker593: Kva? 
+~           hva
+$6478/f9422509.mp3;4,649
+
+[LINE]
+Speaker560: Det er salt! 
+~           det er salt
+$6478/b347a10d.mp3;3,140;3,114;6,524
+
+[LINE]
+Speaker593: Priti, du er alt for trøytt!
+~            Priti  du er alt for trøtt
+$6478/ff58bc70.mp3;6,795;3,180;3,89;4,296;4,139;8,773
+
+[LINE]
+Speaker560: Ja, eg treng meir kaffi, med sukker, ikkje salt! 
+~           yes jeg treng mer kaffe med sukker ikke salt
+$6478/31b2a616.mp3;3,369;3,125;6,283;5,240;7,590;4,80;8,558;6,210;6,1047
+
+
+[MULTIPLE_CHOICE]
+> Priti var så trøtt at hun…
+- … sovnet på kjøkkenet.
++ …puttet salt i kaffen sin.
+- …helte kaffe på nøklene sine.
+
+[MATCH]
+> Trykk på parene.
+- morgon <> morgen
+- kvar? <> hvor?
+- meir <> mer
+- eg treng <> jeg trenger
+- ikkje <> ikke
+- kva? <> hva?
+

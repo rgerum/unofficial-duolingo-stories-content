@@ -1,0 +1,133 @@
+[DATA]
+fromLanguageName=A Coffee, Please!
+icon=221d57fa97fa27260e9dd5ad3457870d033f291a
+set=5|3
+
+[HEADER]
+> O cafea, te~rog!
+~ a coffee please    
+$6922/c95dc6fe.mp3;1,129;7,720;3,176;5,691
+
+[LINE]
+> Edi este la un restaurant cu   fiul~său, Junior.
+~ Edi is   at a  restaurant with his~son  Junior 
+$6922/2363f49a.mp3;3,349;5,348;3,127;3,159;11,754;3,160;5,419;5,633;8,926
+
+[LINE]
+Speaker386: Bună,  Edi. Dorești o cafea?  
+~           hello  Edi  you~want a coffee 
+$6922/4e598a23.mp3;5,823;5,619;8,614;2,96;7,765
+
+[MULTIPLE_CHOICE]
+> The woman asks Edi if he wants a coffee.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker414: Da,  o ceașcă~mare de cafea,  te~rog.
+~           yes  a big~cup   of coffee please    
+$6922/04a376a5.mp3;2,50;2,312;2,75;7,125;5,388;3,300;6,100;2,425;3,12;4,175;2,375
+
+[LINE]
+Speaker386: Cu   sau fără lapte?
+~           with or without milk  
+$6922/d5d64196.mp3;2,212;4,280;5,399;7,787
+
+[LINE]
+Speaker414: Cu  lapte, te~rog.
+~           with milk   please    
+$6922/7eafcbf0.mp3;2,50;6,175;2,450;3,25;4,187;2,363
+
+[LINE]
+Speaker386: Și... cu  sau  fără  zahăr?
+~           and with or without sugar  
+$6922/f2335787.mp3;2,325;4,478;3,253;4,391;5,911;7,NaN
+
+[LINE]
+Speaker414: Cu  zahăr, te~rog.
+~           with sugar   please    
+$6922/4f9c459e.mp3;2,50;6,150;2,537;3,13;4,175;2,362
+
+[LINE]
+Speaker415: Și~eu vreau o ceașcă de cafea!  
+~           I~also want a cup of coffee 
+$6922/e990f7c8.mp3;2,50;3,200;6,200;2,287;7,100;3,363;6,112;2,438
+
+[MULTIPLE_CHOICE]
+> Junior says that he…
++ …wants coffee too.
+- …wants to go home.
+- …needs to go to the bathroom.
+
+[LINE]
+Speaker414: Junior? Tu vrei cafea?  
+~            Junior you want coffee 
+$6922/4762be84.mp3;6,50;3,1512;5,125;6,238
+
+[LINE]
+Speaker415: Da, vreau o ceașcă cu lapte...
+~           yes I~want a   cup with milk  
+$6922/1c13a7ec.mp3;2,50;2,300;6,50;2,300;7,100;3,350;6,150
+
+[LINE]
+Speaker415: …și cu zahăr…
+~            and with sugar  
+$6922/6c77b5e6.mp3;2,800;3,200;6,137
+
+[LINE]
+Speaker415: … și cu înghețată!   
+~            and with ice~cream 
+$6922/54a98b36.mp3;2,800;3,225;10,162;2,625
+
+[MULTIPLE_CHOICE]
+> What does Junior want in his coffee?
+- more coffee
++ ice cream
+- a salad and fries
+
+[LINE]
+Speaker414: Cu înghețată?   
+~           with ice~cream 
+$6922/f5ff21b8.mp3;2,50;10,137
+
+[LINE]
+Speaker415: Da, și fără cafea, te~rog!
+~           yes  and without coffee  please    
+$6922/7416437b.mp3;2,50;2,312;3,0;5,188;6,287;2,450;3,13;4,187;2,338
+
+[POINT_TO_PHRASE]
+> Choose the option that means "so".
+Speaker386: (Aa)… (+deci) (vrei) (un) (milkshake)?
+~            oh   so   you~want a milkshake  
+$6922/1fc1b68d.mp3;2,390;2,628;5,269;5,165;3,1059;11,NaN
+
+[LINE]
+Speaker415: Da,  te~rog!
+~           yes  please    
+$6922/81e12ae6.mp3;2,50;2,300;3,25;4,187;2,325
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Și eu) (vreau) (un) (milkshake)!]   
+~              I~also  want    a   milkshake   
+$6922/dc287903.mp3;2,50;3,200;6,225;3,250;10,62;2,625
+
+[LINE]
+Speaker414: Două milkshake-uri, te~rog!
+~            two milkshakes  please    
+$6922/e07e459a.mp3;4,50;14,375;2,687;3,25;4,188;2,337
+
+[MULTIPLE_CHOICE]
+> Oh, Junior! He ordered coffee…
+- …but Edi drank it all.
+- …because he wanted to have more energy.
++ …but he really wanted a milkshake.
+
+[MATCH]
+> Tap the pairs
+- lapte <> milk
+- cafea <> coffee
+- doi <> two
+- la <> at
+- cană/ceașcă <> cup
+

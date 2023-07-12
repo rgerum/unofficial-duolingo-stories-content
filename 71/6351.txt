@@ -1,0 +1,142 @@
+[DATA]
+fromLanguageName=A Date
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+[HEADER]
+> Побачення
+~ a~date
+
+[LINE]
+> Біі на побаченні в ресторані.
+~ Bea is~on a~date in a~restaurant  
+
+[LINE]
+Speaker439: Привіт!  Як~справи? 
+~            hello   how~are~you 
+
+[LINE]
+Speaker100: Гарні!
+~            fine 
+
+[LINE]
+Speaker100: Що  ти~хочеш     по~їсти? 
+~            what do~you~want to~eat 
+
+[LINE]
+Speaker439: Салат.
+~           a~salad    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker439: Сьогодні   я~маю  [un~partido~importante].
+~           today I~have  an~important~game      
++ un partido importante
+- un batido importante
+- una parte imponente
+
+[LINE]
+Speaker100: Ah, te~gustan   los~deportes?
+~           oh   do~you~like (the)~sports 
+
+[LINE]
+Speaker439: Так,  я граю в~футбол.
+~           yes  I  play     soccer 
+$6351/96d69afc.mp3;3,50;2,525;5,225;2,312;7,88
+
+[MULTIPLE_CHOICE]
+> Bea is ordering a salad because…
++ …she is playing soccer today.
+- …her date said the salad is delicious.
+- …she just ate a whole pizza.
+
+[LINE]
+Speaker100: Я теж!
+~            me  too     
+
+[LINE]
+Speaker439: Супер!
+~            great 
+
+[LINE]
+Speaker439: ¿De~dónde~eres?     
+~            where~are~you~from 
+
+[LINE]
+Speaker100: Я американець.
+~           I~am American  
+
+[ARRANGE]
+> Tap what you hear
+Speaker100: [(Мій)( тато)  (з~Польщі)   (і)   (моя~мама)  (з Техасу).]  
+~             my father   is~from~poland  and   my~mother   is~from~Texas   
+
+[LINE]
+Speaker439: Me~encanta Cuba!
+~            I~love     Cuba 
+
+[LINE]
+Speaker100: Cuba es muy  bonita.   
+~           Cuba is very beautiful 
+
+[LINE]
+Speaker439: ¿Tienes      mascotas?
+~            do~you~have pets     
+
+[LINE]
+Speaker100: Tengo  dos gatos y   un perro.
+~           I~have two cats  and a  dog   
+
+[POINT_TO_PHRASE]
+> Choose the option that means "also."
+Speaker439: Я (+теж) (маю)   (собачку), (Матілдя).
+~           I    also      have   a~dog      Matilda  
+
+[LINE]
+Speaker100: Єx? Мене~звуть Даніель…
+~            eh my~name~is  Daniel 
+
+[LINE]
+Speaker100: Ви не Марія?
+~            aren't you Gabriela 
+
+[LINE]
+Speaker507: Ні!
+~            no 
+
+[LINE]
+Speaker507: Мене~звуть Біі!
+~            my~name~is  Bea 
+
+[MULTIPLE_CHOICE]
+> Did you catch that? Bea and Daniel…
+- …bought tickets to Cuba.
++ …were supposed to meet different people.
+- …are walking their dogs.
+
+[LINE]
+> Una mujer camina hacia   Daniel.
+~ a   woman walks  towards Daniel 
+
+[LINE]
+Speaker101: Привіт!  Ви    Даніель? Я  Марія.
+~            hello   are~you Daniel  I~am Gabriela 
+
+[LINE]
+Speaker100: Ні, вибачте. Я  Сашко.
+~           no  I'm~sorry  I~am Sashko 
+
+[MULTIPLE_CHOICE]
+> Whoa! What just happened?
+- Bea changed her name to Gabriela.
++ Daniel lied to his real date because he likes Bea.
+- Bea and Daniel's dogs played soccer.
+
+[MATCH]
+> Tap the pairs
+-  та <> and
+-  Я <> I am
+-салат <> salad
+- Me encanta <> I love
+- є<> eh
+

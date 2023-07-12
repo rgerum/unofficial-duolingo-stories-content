@@ -1,0 +1,106 @@
+[DATA]
+fromLanguageName=The Monkeys
+icon=c29e4533eca0186f83adafac9383fef2ed3aee56
+set=12|2
+
+[HEADER]
+> Opice 
+~ the~monkeys
+$7096/fe8c23dc.mp3;5,50
+
+[LINE]
+> Eda a Junior jsou v zoo.
+~ Eda and Junior are at the~zoo   
+$7096/1cfc095a.mp3;3,50;2,375;7,125;5,362;2,200;4,50;2,338
+
+[LINE]
+> Jsou poblíž slonů.
+~ they~are near  the~elephants 
+$7096/2415cb00.mp3;4,50;7,400;6,325;2,462
+
+[LINE]
+Speaker415: Tati, Můžeme se už jít podívat na opice?
+~           dad   can~we ~ already go look at the~monkeys
+$7096/ab8b60d5.mp3;4,50;2,362;7,38;3,387;3,138;4,162;8,125;3,438;6,137
+
+[MULTIPLE_CHOICE]
+> Junior wants to see the monkeys.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker414: Proč? Nikdy ses předtím nechtěl dívat na opice.  
+~            why  never ~   before don't~want look at the~monkeys
+$7096/5f724c3a.mp3;4,50;6,1350;4,462;8,200;8,375;6,338;3,350;6,150;2,437
+
+[LINE]
+Speaker415: Ano, ale teď se~mi~líbí.   Můžeme~jít?
+~           yes  but now   I~like~them   we~can~go  
+$7096/bcf96248.mp3;3,50;2,337;4,25;4,188;3,187;3,138;5,100;2,475;7,987;4,563
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Juniore, [opice jsou] odtud daleko.
+~           Junior   the~monkeys are from~here far
+$7096/d1f0ebfe.mp3;7,50;2,575;6,25;5,312;6,238;7,312;2,463
+- Opice jdou
+- Opice je
++ Opice jsou
+
+[LINE]
+Speaker415: Tak se~můžeme proběhnout! Ty velmi rád běháš!
+~           Then we~can   run         you very like running
+$7096/6a4f0224.mp3;3,50;3,187;7,188;11,400;2,675;3,937;6,288;4,287;6,250;2,463
+
+[CONTINUATION]
+> What comes   next?
+Speaker414: Hmm{hmm:ipa}… dobře. Ano,  [já běhám rád].
+~           hmm  OK     yes    I  running like
+$7096/a040169f.mp3;3,50;6,1037;2,363;4,950;2,387;3,38;6,175;4,325;2,350
++ já běhám rád
+~ I  running like
+- chci opici
+~ (I)~want   a~monkey
+- já mám~rád slony
+~ I like the~elephants
+
+[LINE]
+> Junior a   Eda běží.
+~ Junior and Eddy run    
+$7096/a169d5a9.mp3;6,50;2,537;4,188;5,175;2,425
+
+[POINT_TO_PHRASE]
+> Choose the option that means "faster."
+Speaker415: (Dokážeš~běžet) (+rychleji), (Tati)?
+~             can~you~run      faster        dad   
+$7096/ff729f5f.mp3;7,50;6,575;9,325;2,437;5,50
+
+[LINE]
+Speaker414: Juniore, ty nenávidíš běh.
+~           Junior  you hate  running 
+$7096/df6a0659.mp3;7,50;2,575;3,12;10,125;4,563;2,387
+
+[LINE]
+Speaker415: Ano,  nenávidím běh, ale miluji zmrzlinu!
+~           yes  I~hate to~run   but  I~love     ice~cream 
+$7096/e7f6fe2d.mp3;3,50;2,350;10,50;4,537;2,288;4,12;7,200;9,325;2,613
+
+[LINE]
+Speaker415: A vedle opic je obchod se zmrzlinou.
+~           and next~to the~monekys is a~shop with ice~cream
+$7096/7d2c5d72.mp3;1,50;6,287;5,263;3,325;7,87;3,313;10,112;2,663
+
+[MULTIPLE_CHOICE]
+> Why does Junior want to go see the monkeys?
++ He wants to get ice cream.
+- Monkeys are his favorite animals.
+- He wants to run with the monkeys.
+
+[MATCH]
+> Tap the pairs
+- oni <> they
+- zmrzlina <> ice cream
+- miluji <> I love
+- nenávidět <> hate
+- nikdy <> never
+

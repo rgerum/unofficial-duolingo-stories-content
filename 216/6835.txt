@@ -1,0 +1,139 @@
+[DATA]
+fromLanguageName=The Red Jacket
+icon=5361833c123aec9adfa60b0dc63398cd1aa49ef2
+set=2|1
+
+[HEADER]
+> Den raude{rəʉɛ:ipa} jakka
+~ i
+$6486/2d9c50d0.mp3;3,50;6,412;6,425
+
+[LINE]
+> Lily er i ein kledebutikk med venen~sin Zari
+~ i
+$6486/85f64728.mp3;4,50;3,512;2,175;4,88;4,225;7,275;4,362;6,138;4,375;5,250
+
+[LINE]
+Speaker416: Denne butikken er veldig dyr     
+~           i
+$6486/fed1b495.mp3;5,364;9,461;3,165;7,363;4,661
+
+[LINE]
+Speaker418: Ja...
+~           i
+$6486/5a6edd1b.mp3;2,399;4,NaN
+
+[LINE]
+Speaker418: Oi!
+~           oi
+$6486/50853832.mp3;3,460
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker418: [Den raude jakka] er perfekt!
+~            k
+$6486/2797b8b6.mp3;3,264;5,305;6,414;3,155;9,941
+
++ Den raude jakka
+- Det raude jakka
+- Den høge haka
+
+[LINE]
+Speaker416: Hmm, Zari…
+~           hmm  Zari 
+$6486/b989ba0b.mp3;4,464;5,527;2,NaN
+
+[LINE]
+Speaker418: Eg~elskar leten!
+~           i
+$6486/5828b31e.mp3;2,189;7,492;8,671
+
+[LINE]
+Speaker416: Zari?
+~            Zari 
+$6486/1a7c9b99.mp3;5,747
+
+[POINT_TO_PHRASE]
+> Choose the option that means "to buy."
+Speaker418: (Eg~har~lyst) (+å~kjøpa) (ho)!
+~           i
+$6486/a69ca280.mp3;2,149;4,175;5,309;2,70;6,425;4,535
+
+[LINE]
+Speaker416: Zari!
+~            Zari 
+$6486/1152fa32.mp3;5,743
+
+[LINE]
+Speaker418: Kva? 
+~           hva
+$6486/371f3131.mp3;4,575
+
+[LINE]
+Speaker416: Jakka kostar fem~tusen kroner.
+~           i
+$6486/1b96632a.mp3;5,415;9,504;4,311;6,435;10,854
+
+[MULTIPLE_CHOICE]
+> How much does the jacket cost?
+- five krone
++ five thousand krone
+- five million krone
+
+[LINE]
+Speaker418: Kva?! 
+~           hva
+$6486/357addcd.mp3;5,575
+
+[LINE]
+Speaker416: Zari, du treng ikkje ei ny jakke.
+~           Zari 
+$6486/8abf14bb.mp3;5,856;3,170;6,383;6,285;3,129;3,235;7,700
+
+[POINT_TO_PHRASE]
+> Choose the option meaning "birthday."
+Speaker418: (Men)… (Lily), (i~dag)   er (+fødselsdagen) min…
+~           i
+$6486/5c285063.mp3;3,319;2,1046;6,70;2,145;3,145;3,885;15,200;4,NaN;2,NaN
+
+[LINE]
+Speaker416: Å, ja?  
+~           i
+$6486/6e3a7d4f.mp3;2,539;4,453
+
+[LINE]
+Speaker418: Og du er bestevenen min!
+~           i
+$6486/c71717d3.mp3;2,94;3,216;3,155;11,719;5,547
+
+[LINE]
+Speaker416: Ja…  Og?  
+~           i
+$6486/175449c9.mp3;2,354;2,711;4,NaN
+
+[LINE]
+Speaker418: Og den perfekte~gåva for meg er…
+~           i
+$6486/242089d2.mp3;2,104;4,171;9,522;5,385;4,203;4,315;3,227;2,NaN
+
+[LINE]
+Speaker416: Ei billeg~jakke!
+~           i   
+$6486/cf1db565.mp3;2,129;8,435;7,641
+
+[MULTIPLE_CHOICE]
+> Zari's birthday gift from Lily will be…
+- …an expensive red jacket.
+- …a big pile of money.
++ …a cheap jacket.
+
+[MATCH]
+> Tap the pairs
+- ei jakke <> a jacket
+- kva? <> What?
+- eg har lyst <> I want
+- fødselsdagen min <> my birthday
+- jakka <> the jacket
+- fem tusen <> five thousand
+- den raude <> the red
+

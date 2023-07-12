@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=El pasaporte
+icon=643347b755001a918130ddf5f6d3e914e63a00ce
+set=2|2
+
+[HEADER]
+> El pasaporte
+~ el  pasaporte
+$7158/2faa31dc.mp3;2,50;10,200
+
+[LINE]
+> Vikram y la~so muyer,   Priti, tan  nel aeropuertu.   
+~ Vikram y   su  esposa  Priti  están en~el  aeropuerto 
+$7158/20de86a0.mp3;6,50;2,412;3,50;3,113;6,137;2,488;6,212;2,463;4,162;4,188;11,162;2,713
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker593: Ai~non.  [¿Ónde~ta'l~mi~pasaporte]?   
+~           ay,~no   dónde~está~mi~pasaporte 
+$7158/cb2bf8f7.mp3;2,50;4,375;2,537;5,863;3,337;3,213;3,112;10,113
+- Ónde ta'l mi pasu'l porte
+- Ónde da'l mi pasaporte
++ Ónde ta'l mi pasaporte
+
+[LINE]
+Speaker593: ¡Nún ta equí!
+~           no está   aquí 
+$7158/b5efb6d3.mp3;3,50;3,375;5,225;2,462
+
+[LINE]
+Speaker560: Vikram…
+~           Vikram 
+$7158/74742efe.mp3;6,50
+
+[LINE]
+Speaker593: Nun ta nel mi maleteru...
+~           no está   en mi maleta 
+$7158/2cc02c55.mp3;3,50;3,350;4,137;3,225;9,113;2,700
+
+[LINE]
+Speaker593: Y nun ta na mio chaqueta…  
+~           y   no está   en mi chaqueta 
+$7158/5f044f32.mp3;1,50;4,125;3,275;3,125;4,137;9,213
+
+[MULTIPLE_CHOICE]
+> El pasaporte de Vikram no está en su maleta ni en su chaqueta.
+- No, no es así.
++ Sí, así es.
+
+[LINE]
+Speaker560: Pero Vik...
+~           pero Vik 
+$7158/e7cecf0b.mp3;4,50;4,300
+
+[LINE]
+Speaker593: ¡Ah! El~mi pasaporte  ta   nel taxi!
+~           ah  mi pasaporte está en~el  taxi 
+$7158/53b2ccaa.mp3;2,50;2,337;3,863;3,187;10,138;3,687;4,163;6,212;2,600
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "corre".
+> (Vikram) (+cuerre)  (escontra'l) (taxi).
+~  Vikram    corre   hacia~el     taxi  
+$7158/924e48e5.mp3;6,50;7,462;10,263;6,487;2,600
+
+[LINE]
+Speaker560: Vik, ¡non!
+~           Vik  no 
+$7158/64517b84.mp3;3,50;2,475;4,137;2,413
+
+[LINE]
+> Priti cuerre escontra Vikram
+~ Priti corre hacia Vikram 
+$7158/3ac77233.mp3;5,50;7,300;9,275;7,437
+
+[LINE]
+Speaker593: Ai non,  ¡el taxi nún ta  equí agora!  
+~           ay, no  el  taxi no está aquí ahora 
+$7158/78b9aea1.mp3;2,50;4,312;2,450;3,75;6,138;4,400;3,237;5,188;6,262;2,513
+
+[LINE]
+Speaker593: Esti ye un gran problema...
+~           este es un gran problema 
+$7158/f0528b1a.mp3;4,50;3,400;3,162;5,138;9,262
+
+[LINE]
+Speaker560: ¡Vikram!
+~           Vikram 
+$7158/49102d1a.mp3;6,50;2,675
+
+[LINE]
+Speaker560: El~to pasaporte nun ta nel taxi.
+~           tu   pasaporte no está en~el  taxi 
+$7158/74e5c124.mp3;2,50;3,225;10,150;4,675;3,275;4,125;6,225
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "manos".
+Speaker560: (El~to) pasaporte  (ta)   nes (tos) (+manes).
+~            tu    pasaporte  está  en  tus      manos  
+$7158/49ebf1e9.mp3;2,50;3,225;10,150;3,650;4,137;4,250;6,238;2,600
+
+[LINE]
+Speaker593: Oh…
+~           ah 
+$7158/d03ce9da.mp3;2,37
+
+[LINE]
+Speaker593: Gracies, ciñu.
+~           gracias    cariño 
+$7158/b90c0435.mp3;7,50;2,800;5,225;2,650
+
+[MULTIPLE_CHOICE]
+> ¿Dónde estaba el pasaporte de Vikram?
++ en su mano
+- en su casa
+- en el taxi
+
+[MATCH]
+> Selecciona los pares
+- el <> el
+- en <> en
+- gracies <> gracias
+- ta <> está
+- ciñu <> cariño
+

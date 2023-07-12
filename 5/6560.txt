@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=A Very Dirty Apartment
+icon=0e6ab8c3a4e3224cb700e8daeac0038f7f0e929e
+set=12|1
+
+[HEADER]
+> En~veldig~skitten~leilighet
+~ A~very~dirty~apartment 
+$6560/bfb2368e.mp3;2,50;7,250;8,325;10,400
+
+[LINE]
+> Bea er i~sin~venninne, Marias{mɑˈriːɑs:ipa}, leilighet.
+~ Bea is in~her~friend  Maria's apartment
+$6560/ae6d9e77.mp3;3,50;3,462;2,200;4,100;9,238;2,562;7,75;2,700;10,88;2,700
+
+[LINE]
+Speaker507:  Hei,  Maria!  Hvordan~går~det? 
+~            Hello  Maria   How~are~you 
+$6560/9a6b6563.mp3;3,50;2,337;6,88;2,612;8,938;4,525;4,225
+
+[LINE]
+Speaker175: Forferdelig!
+~           Terrible
+$6560/6a5fc801.mp3;12,979
+
+[CONTINUATION]
+> What comes next?
+
+Speaker507: Åh,  nei, men [hvorfor]?
+~           Oh  no  but    why   
+$6560/ac545825.mp3;2,50;2,187;4,25;2,388;4,62;8,238
+- er hennes venninne 
+~ is her    friend
+- min leilighet
+~ my apartment  
++ hvorfor 
+~ why
+
+[LINE]
+Speaker175: Min nye  romkamerat   og  jeg krangler~alltid...
+~           My new   roommate           and I   always~argue      
+$6560/6ae9afc8.mp3;3,209;4,291;11,702;3,45;4,165;9,422;7,455;4,NaN
+
+[MULTIPLE_CHOICE]
+> Maria and her roommate argue all the time.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker507: Jeg~er~ikke overrasket, kjøkkenet  er   veldig skittent.
+~           I~am~not  surprised    the~kitchen is   very dirty 
+$6560/4132d7a6.mp3;3,50;3,187;5,138;11,150;2,762;10,50;3,450;7,175;9,338;2,575
+
+[LINE]
+Speaker175: Ja, det~vet~jeg. 
+~           Yes  I~know 
+$6560/eb4defcd.mp3;3,434;4,160;4,243;5,610
+
+[LINE]
+Speaker507: Og    hva er  det~der  på   bordet?     Gammel~ost?
+~           And   what is that on    the~table   Old~cheese  
+$6560/4db98cc9.mp3;2,50;4,100;3,225;4,150;4,87;3,200;7,113;7,1362;4,463
+
+[LINE]
+Speaker175: Ja,   æsj!
+~           Yes   yuck 
+$6560/357e4641.mp3;3,439;5,672
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507:  Det~er~også    skinntentøy   [på~denne~stolen]!
+~            There~are~also dirty~clothes  on~this~chair     
+$6560/3165b458.mp3;3,50;3,100;5,125;12,262;3,838;6,150;7,275;2,462
++ på denne stolen
+- på denne blomsten
+- på denne solen
+
+[LINE]
+Speaker507: Maria,  men   det~her er din~genser. 
+~           Maria  but     this   is your~shirt 
+$6560/2b2657ca.mp3;5,50;2,562;4,75;4,225;4,88;3,300;4,162;7,163;2,500
+
+[LINE]
+Speaker175: Ja. 
+~           Yes 
+$6560/b5ae9418.mp3;3,605
+
+[LINE]
+Speaker507:  Dette~er dine klær!   
+~            These~are your clothes 
+$6560/93362bd6.mp3;5,50;3,325;5,150;5,275;2,375
+
+[POINT_TO_PHRASE]
+> Choose the option that means "yours."
+Speaker507: (Og)   (den)  gamle~osten (er~også) (+din)? 
+~            And    the  old~cheese  is~also   yours  
+$6560/09cac927.mp3;2,50;4,87;6,188;6,362;3,450;5,188;4,262
+
+[LINE]
+Speaker175: Ja,  jeg gjør~aldri~rent, og romkameraten~min er~alltid~sur.
+~           Yes  I   never~clean      and my~roommate         is~always~angry   
+$6560/377643f0.mp3;3,439;4,140;5,140;6,335;6,438;3,45;13,765;4,135;3,120;7,325;5,1023
+
+[LINE]
+Speaker175:  Det~er forferdelig!
+~            It~is terrible 
+$6560/79e85435.mp3;3,164;3,130;13,901
+
+[MULTIPLE_CHOICE]
+> Ah ha! What do Maria and her roommate argue about?
++ Maria makes a mess and never cleans.
+- Bea likes to eat old cheese.
+- Maria wears all her roommate's clothes.
+
+[MATCH]
+> Tap the pairs
+- jeg vet  <> I know
+- ja <> yes
+- ost <> cheese
+- å gjøre rent <> to clean
+- sur <> angry
+

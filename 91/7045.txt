@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=The Cake
+icon=4a31a2e8269bfd907d862c44a3b320899c169419
+set=18|2
+
+[HEADER]
+> El  pastel
+~ the cake  
+
+[LINE]
+> Lin busca          su~pastel en la  cocina. 
+~ Lin is~looking~for her~cake  in the kitchen 
+
+[LINE]
+Speaker508: ¿Dónde está mi pastel?
+~            where is   my cake   
+
+[LINE]
+> Lin ve~a Lucy en la  mesa. 
+~ Lin sees Lucy at the table 
+
+[LINE]
+Speaker508: Lucy, ¿qué  comes?         
+~           Lucy   what you~are~eating 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "hides."
+> (Lucy) (+esconde) (su~plato). 
+~  Lucy    hides     her~plate  
+
+[LINE]
+Speaker509: Ehh… ¡nada!   
+~           ehh   nothing 
+
+[LINE]
+Speaker508: No~encuentro mi pastel.
+~           I~can't~find my cake   
+
+[CONTINUATION]
+> What comes next?
+Speaker509: Mmm… ¿qué  tipo [de pastel es]?   
+~           hmm   what kind  of cake   is~it  
+- de cocina  te~gusta   
+~ of kitchen do~you~like
++ de pastel es   
+~ of cake   is~it
+- de pizza es   
+~ of pizza is~it
+
+[LINE]
+Speaker508: Es   muy  pequeño.
+~           it's very small   
+
+[ARRANGE]
+> Tap what you hear
+Speaker509: ¿[(Hay)       (manzanas) (en) (el)  (pastel)?]
+~              there~are   apples     on   the   cake     
+
+[LINE]
+Speaker508: Sí,  hay       muchas   manzanas en mi pastel.
+~           yes  there~are a~lot~of apples   on my cake   
+
+[LINE]
+Speaker509: ¿Tu~pastel es amarillo?
+~            your~cake is yellow   
+
+[LINE]
+Speaker508: ¡Sí,  es   amarillo!
+~            yes  it's yellow   
+
+[LINE]
+Speaker509: ¿Tu~pastel es delicioso?
+~            your~cake is delicious 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker508: ¡Lucy! ¿Tú  [tienes~mi~pastel]?
+~            Lucy   you  have~my~cake      
+- tienes mi pastor
++ tienes mi pastel
+- quieres mi pasta
+
+[LINE]
+Speaker509: ¡No, yo no~lo~tengo!  
+~            no  I  don't~have~it 
+
+[LINE]
+Speaker508: Está~bien, lo~siento.
+~           OK         I'm~sorry 
+
+[LINE]
+Speaker508: Tengo~mucha~hambre y   quiero mi pastel~de~chocolate.
+~           I~am~very~hungry   and I~want my chocolate~cake      
+
+[LINE]
+Speaker509: ¿De~chocolate? Pero tu~pastel es de~vainilla.
+~            chocolate     but  your~cake is vanilla     
+
+[LINE]
+Speaker508: ¡Aja! ¡Sí,  mi pastel es de~vainilla y   ahora sé     que  tú  lo~tienes!
+~            aha   yes  my cake   is vanilla     and now   I~know that you have~it   
+
+[MULTIPLE_CHOICE]
+> How does Lin know that Lucy has her cake?
+- Lin saw Lucy eating her cake.
++ Lucy knew what flavor Lin's cake was.
+- Lucy had cake on her face.
+
+[MATCH]
+> Tap the pairs
+- es <> is it
+- pequeño <> small
+- pastel de chocolate <> chocolate cake
+- Tu pastel <> your cake
+- Mmm <> hmm
+

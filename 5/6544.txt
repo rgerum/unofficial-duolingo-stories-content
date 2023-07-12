@@ -1,0 +1,138 @@
+[DATA]
+fromLanguageName=Where Are My Keys?
+icon=3f21c887f044dc2ac0d1f0d0ea74e1200b587ac2
+set=11|4
+
+[HEADER]
+> Hvor er nøklene~mine?
+~  where are   my~keys   
+$6544/38bb796c.mp3;4,50;3,275;8,162;5,425
+
+[LINE]
+> Lin er med bestemoren~sin, Lucy.
+~ Lin is   with her~grandmother  Lucy 
+$6544/6fb4eb35.mp3;3,50;3,400;4,187;11,200;4,625;2,488;5,75;2,487
+
+
+[LINE]
+Speaker509: Vi har en reservasjon på en veldig~elegant~restaurant i~kveld.
+~           we have a reservation at a  very~elegant~restaurant  tonight    
+$6544/ecd8821e.mp3;2,50;4,150;3,137;12,125;3,738;3,137;7,113;8,387;11,550;2,525;6,88;2,362
+
+[LINE]
+Speaker509: Kom~igjen!    Jeg~vil~ikke komme~for~seint.
+~            let's~go  I~don't~want to~be~late   
+$6544/82a05ccd.mp3;3,50;6,325;2,437;4,913;4,187;5,188;6,162;4,300;6,163;2,562
+
+[MULTIPLE_CHOICE]
+> Lucy is cooking a fancy dinner.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker508: Jeg kommer!
+~            I'm coming        
+$6544/5c9514e1.mp3;3,219;8,629
+
+[LINE]
+Speaker508: Nei, vent… Hvor er bilnøklene~mine?
+~           no wait   where are   my~car~keys            
+$6544/65ba403c.mp3;4,444;5,463;2,480;5,140;3,597;12,607;6,NaN
+
+[LINE]
+Speaker509: Du vet~aldri hvor nøklene~dine er.
+~           you never~know  where your~keys are    
+$6544/9c7e4dd4.mp3;2,50;4,175;6,275;5,450;8,200;5,487;3,300;2,250
+
+[MULTIPLE_CHOICE]
+> Lucy says that Lin never knows where…
+- …their dog is.
+- …to put her clothes.
++ …her keys are.
+
+[LINE]
+Speaker509: Er de i jakka~di?
+~            are they in your~coat 
+$6544/59c7ba7e.mp3;2,50;3,112;2,125;6,63;3,300
+
+[ARRANGE]
+> Tap what you hear
+> [(Lin) (leter)    (i) (jakka~si).]
+~   Lin   searches   in   her~coat    
+$6544/d725161a.mp3;3,50;6,400;2,312;6,113;3,325;2,287
+
+[LINE]
+Speaker508: Nei, de~er~ikke her.
+~           no  they~are~not here 
+$6544/5d3044c4.mp3;4,405;3,95;3,112;5,240;5,672
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: Er de    [under~senga~di]?
+~            are they  under~your~bed     
+$6544/02b4b0e8.mp3;2,50;3,112;6,138;6,212;3,400
+
++ under senga di
+- oppå senga hennes
+- under senga mi
+
+[LINE]
+Speaker508: Nei, de~er~ikke under senga!
+~           no   they~are~not under     the~bed  
+$6544/f2ee55e9.mp3;4,409;3,90;3,111;5,235;6,175;7,799
+
+[LINE]
+Speaker509: Er de i skoa~di?
+~            are they in your~shoe 
+$6544/56efb313.mp3;2,50;3,100;2,100;5,62;3,425
+
+[LINE]
+Speaker508: Nei, det er bare merkelig.
+~           no  that is just strange 
+$6544/41c01b2a.mp3;4,389;4,95;3,116;5,240;10,905
+
+[LINE]
+Speaker508: Jeg~vet~ikke hvor nøklene~mine er. Skal vi ta taxi til restauranten?
+~           I~don't~know where my~keys are        Shall we take (a)~taxi to the~restaurant 
+$6544/4f257e74.mp3;3,170;4,224;5,208;5,130;8,420;5,190;4,610;5,220;3,95;3,160;5,343;4,125;14,964
+
+[LINE]
+Speaker509: Nei, det er for seint.
+~           no  it is too       late  
+$6544/eca17185.mp3;3,50;2,362;4,38;3,187;4,163;6,162;2,525
+
+[LINE]
+Speaker508: Beklager.
+~           I'm~sorry 
+$6544/d2e3a645.mp3;9,910
+
+[POINT_TO_PHRASE]
+> Choose the option that means "dinner".
+Speaker509: (Det~går~bra), jeg (kan) (+lage) noe til (middag).
+~            It's~fine          I   can      cook     something for   dinner   
+$6544/9836a4d1.mp3;3,50;4,137;4,175;2,375;4,63;4,150;5,187;4,338;4,275;7,162;2,500
+
+[LINE]
+> Lucy åpner døra~til kjøleskapet.
+~ Lucy opens the~door~of the~fridge 
+$6544/b01a5249.mp3;4,50;6,562;5,400;4,363;12,237;2,850
+
+[LINE]
+Speaker509: Lin! Jeg fant nøklene~dine…
+~            Lin!  I found your~keys
+$6544/fa4f0e19.mp3;3,50;2,412;8,75;5,538;3,350;4,187
+
+[MULTIPLE_CHOICE]
+> At last! Lin's keys were in…
+- …her shoes.
++ …the refrigerator.
+- …her car.
+
+[MATCH]
+> Tap the pairs
+- det er <> it is
+- du <> you
+- nøklene dine <> your keys
+- bestemoren sin <> her grandmother
+- Lucy <> Lucy
+

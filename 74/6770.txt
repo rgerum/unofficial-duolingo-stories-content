@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=The Perfect Girlfriend
+icon=802c81c8811f5ca43acd16ce2f8d32b18f15352f
+set=6|2
+
+[HEADER]
+> 完美的|女朋友    
+~ the~perfect girlfriend
+$6344/691c4cec.mp3;2,50;2,487;4,100
+
+[LINE]
+> 阿琳|在火車站。
+~ Lin (is)~at~the~train~station    
+$6344/fbfc8252.mp3;2,50;2,387;4,163
+
+[LINE]
+> 她|看到|她的|朋友，|馬丁。
+~ she  sees her friend Martin 
+$6344/0687beee.mp3;1,50;3,162;2,338;2,150;3,100;3,737
+
+[MULTIPLE_CHOICE]
+> Lin sees her friend and a woman at the bank.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+> 馬丁|和|一個|女人|在一起。
+~ Martin and a woman (are)~together
+$6344/428e9db8.mp3;2,50;2,625;5,187;2,863;3,225
+
+[LINE]
+Speaker508: 馬丁，|你好！
+~            Martin hello   
+$6344/4f2f428e.mp3;2,50;3,775
+
+[LINE]
+Speaker1087: 阿琳，|你好！
+~            Lin  hello   
+$6344/fda233f0.mp3;2,50;3,912
+
+[ARRANGE]
+> Tap what you hear
+Speaker1187: [(你好)，|(阿琳)，|(我|叫)|(瑪麗亞)]。
+~              hello  Lin  I am~(called) Maria  
+$6344/deea522e.mp3;2,50;3,900;2,762;2,138;4,187
+
+[LINE]
+Speaker508: 你好，|瑪麗亞，|很高興|認識|你！
+~           hello Maria happy to~meet you
+$6344/f32128da.mp3;2,50;4,625;7,675
+
+[LINE]
+Speaker1187: 我|也|很高興|認識|你。
+~         I~(am) also happy to~meet you
+$6344/f0ef05b8.mp3;1,50;2,200;7,112
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1187: 馬丁，|我|先|去|售票處|[買|火車|票]。
+~        Martin I~(will) first go~to the~ticket~booth (to)~buy train tickets
+$6344/79768484.mp3;2,50;2,962;2,150;2,200;4,163;2,762;4,250
+
+- 賣火車票
++ 買火車票
+- 買或吃票
+
+
+[LINE]
+> 瑪麗亞|去|售票處|買|火車|票。
+~ Maria goes~to the~ticket~booth (to)~buy train tickets
+$6344/1c873a38.mp3;3,50;2,800;4,187;2,825;4,188
+
+[LINE]
+Speaker508: 瑪麗亞|很不錯|啊！
+~            Maria is~nice~(not~bad) (exclamation)   
+$6344/e018deb0.mp3;3,50;2,462;3,188;2,450
+
+[POINT_TO_PHRASE]
+> Choose the option that means "nice."
+Speaker1087: 嗯， (是的) (她很) (+不錯)。
+~         um yes she~(is) nice~(not~bad)      
+$6344/f08d1608.mp3;1,50;3,412;2,913;2,162;3,175
+
+[LINE]
+Speaker508: 還有|很漂亮！
+~           and pretty 
+$6344/e4f152ce.mp3;2,50;2,300;3,175
+
+[LINE]
+Speaker1087: 呃？ |可能吧...
+~             eh  I~guess~so~(maybe)
+$6344/b6cc5c48.mp3;1,50;3,675;2,325
+
+[LINE]
+Speaker508: 她|是|完美的|女朋友！
+~            she  is (the)~perfect girlfriend 
+$6344/08677fe4.mp3;1,50;2,225;3,112;2,425;4,88
+
+[MULTIPLE_CHOICE]
+> Lin says that Maria is…
+- …way too into trains.
++ …the perfect girlfriend.
+- …very rude.
+
+[LINE]
+Speaker1087: 女朋友？ |不是，|瑪麗亞|是|我的|媽媽。
+~             girlfriend   no  Maria is my mother 
+$6344/3ad9ffe2.mp3;3,50;3,1175;4,712;2,463;2,112;2,150;3,88
+
+[LINE]
+Speaker508: 你的... 媽媽？
+~           your mother 
+$6344/469cfb0e.mp3;1,50;2,362;3,1163
+
+[LINE]
+Speaker1087: 哈哈哈！ |是的。
+~            hahaha   yes 
+$6344/50638ae0.mp3;3,50;3,1012
+
+[LINE]
+Speaker508: 嗯，|火車|到了，|我|先|走！ |再見！
+~           eh the~train has~arrived I~(will) first go bye
+$6344/c0d48bee.mp3;1,50;3,525;2,375;2,187;2,350;2,100;2,188;3,400
+
+[MULTIPLE_CHOICE]
+> Whoops! What was Lin's mistake?
+- She got on the wrong train.
+- She couldn't remember Martin's name.
++ She thought Martin's mother was his girlfriend.
+
+[MATCH]
+> Tap the pairs
+- 火車站 <> train station
+- 很高興認識你 <> nice to meet you
+- 售票處 <> ticket booth
+- 漂亮 <> pretty
+- 先走 <> go ahead

@@ -1,0 +1,136 @@
+[DATA]
+fromLanguageName=Nai per lapsi!
+icon=92f8e9fbcb106a065c67e2efcbb467a67077da4b
+set=15|2
+
+[HEADER]
+> Nai per{per:ipa} lapsi{laːpsiː:ipa}!
+~ ~ ~ chiisai~pashuun
+$6809/be872c31.mp3;3,50;4,350;6,162;2,538
+
+[LINE]
+> Zaridjin{zaridʂiːn:ipa} tatsu{tatsʉː:ipa} mit{miːt:ipa} Yuniordjin{juːnjɔrdʂiːn:ipa}, grun{grʉːn:ipa} Edidjin{eːdiːdʂiːn:ipa} na{na:ipa} ergo{eːrgo:ipa} ima{iːmaː}.
+~ ~    
+$6809/c2ae2f65.mp3;8,50;6,725;4,450;11,300;2,975;5,137;8,350;3,663;5,275;6,487;2,438
+
+[LINE]
+Speaker415: Zaridžin! Laki ka vi spilti zespil fu du?
+~           ~         bra~na~ruru ~ ~ spil~-ti ~ ~ ~
+
+[LINE]
+Speaker418: Ay… mus|ti|n  soyi  hwomi na gŵn papa fdu   rae|nen suruk.
+~           ~   ~   ~  un sodji huomi ~  grun ~   fu~du mirai ~ gyenshkoi
+
+[MULTIPLE_CHOICE]
+> Naze Zaridjin nai deki spil zespil mit Yuniordjin?
+- Sore mus shkoi ishu-leratid made ima.
+~ Zaridjin
+- Sore nai dua spil zespil.
+~ Zaridjin
++ Sore mus sodji huomi.
+~ Zaridjin
+
+[LINE]
+Speaker415: Nuh… laki ka un spilti zespil fu du ytten du?
+~           ~    ~    ~  ~  ~      ~      ~  ~  uten  ~
+
+[LINE]
+Speaker418: Gomenti, zespil f|un nae lapsi peŵ.  
+~           ~        ~      fu ~ ~   ~     per
+
+[MULTIPLE_CHOICE]
+> Naze Zaridjin nai vil mbogo zespil fu sore Yuniordjin made?
+~ ~    ~        ~   ~   antaa/saada~per~hobit~tid ~
++ Yuniordjin oba|mloda per spil asoko zespil.
+~ ~          ~   kundur~gammel ~ ~ ~  ~
+- Zaridjin vil spil zespil fu sore na sebya, uten Yuniordjin.
+- Zaridjin mirai hok zespil fu sore andradjin made.
+~ ~        ~     kundur~kaupa ~ ~ ~ ~ ~
+
+[LINE]
+Speaker415: Un nai ti lapsi!
+~           ~ 
+
+[LINE]
+Speaker418: Aa… nu de, otona soyi nam|bol yo.
+~           ~   ~  ~   ~     sodji ~  pol ~
+
+[LINE]
+Speaker415: Un šir|ti hur sodži nam|bol!
+~           ~  shiru ~ ~  ~     ~   pol
+
+[SELECT_PHRASE]
+> Ka letste lodjiklik kotoba ka tullas?
+> Yuniordjin{juːnjɔrdʂiːn:ipa} hadji{hadʂiː:ipa} sodji{soːdʂiː:ipa} [nampol]{nampoːl:ipa}.
+$6809/490c9eb8.mp3;10,50;6,887;6,463;7,537;2,600
++ nampol
+- zespil
+- otona
+
+[LINE]
+Speaker415: Da se!
+~           ~
+
+[LINE]
+Speaker418: Otona ti soyi stol.
+~           ~     ~  sodji ~
+
+[LINE]
+Speaker415: Un šir|ti aven hur sodži stol!
+~           ~  shiru ~ awen ~  ~     ~
+
+[SELECT_PHRASE]
+# madjik please do the tts <3
+> Sentaku pravda kotoba ka yam her.
+> Yuniordjin{juːnjɔrdʂiːn:ipa} [sodji{soːdʂiː:ipa} stol{stoːl:ipa}].  
+$6809/ba1dcd0c.mp3;10,50;6,912;5,500;2,488
+- sokkeri au kuofi
++ sodji stol
+- sol ilta
+
+[LINE]
+Speaker418: May ŵa! Kyu ne, du otona.
+~           mange bra akk ~ ~  ~
+
+[MULTIPLE_CHOICE]
+> Naze Zaridjin hanu ka Yuniordjin otona ima?
+- Yuniordjin shiru koske spil zespil nai laki|yena.
+~ ~      ~     ~     ~    ~      ~   pravda~na~ruru ~
++ Yuniordjin apudan Zari sodji huomi.
+- Yuniordjin surudan huomi-ergo shkola kara.
+
+
+[LINE]
+Speaker415: Laki ka imma de?
+~           ~  
+
+[LINE]
+Speaker418: Ayya! 9|ji ne. Musti koŵa!
+~           ~     ~ djikan ~ ~   kola
+[LINE]
+Speaker415: Men un ti otóna! Otóna kol|ti pluskvellik!
+~           ~   ~  ~  ~      ~     kola ~  
+
+[MULTIPLE_CHOICE]
+> Yuniordjin myetta ka sore otona ima, sitt…
+- …sore mus finna ergo.
+- …sore deki matetun Zari.
++ …sore deki kola plus kvellik.
+~ ~     ~    ~    ~    kvel~-lik
+
+[MATCH]
+> Tsunaga kotoba na govor mit kotoba na mellanossa.
+- grun <> gŵn
+- sodji <> soyi
+- per <> peŵ
+- mirai <> rae
+- djikan <> -ji
+
+[MATCH]
+> Tsunaga kotoba mit pravda imi fu hei.
+- pravda/bra na ruru <> laki
+- pol per nasi namting <> nampol
+- gyenshkoi za shkekso <> suruk
+- antaa os saada per hobit tid <> mbogo
+- kundur gammel (per pashuun) <> mloda
+- kundur kaupa <> hok

@@ -1,0 +1,135 @@
+[DATA]
+fromLanguageName=A Very Big Family
+icon=7b985ad4907aa6222424ea7f917bf10209b62843
+set=2|3
+
+[HEADER]
+> 大家庭
+~ (a)~big~family   
+$6947/a1bdc928.mp3;3,50
+
+[LINE]
+> 阿美|而家|喺|安娜|屋企|入面。       
+~ May now in Ana home (in~somewhere)    
+$6947/70afec0f.mp3;2,50;2,437;2,275;2,300;3,263;3,637;3,363;2,587
+
+[LINE]
+Speaker341: 安娜！|我|最鍾意|個|女！{鋁}
+~            Ana  my favorite (classifier) daughter 
+$6947/6a1717cb.mp3;12,NaN;3,NaN
+#no neoi5 initial works for some reason, substituting with leoi5
+[LINE]
+Speaker343: 哈哈……|媽媽，{麻媽，}|你|得|一|個|女|咋噃。{炸播}  
+~           ha~ha Mom you only~have one (classifier) daughter (particle)
+$6947/27728dc0.mp3;2,50;3,2012;2,463;2,162;2,150;2,175;2,163;2,200;2,200;2,225
+
+[MULTIPLE_CHOICE]
+> Ana's mom has many daughters.
++ No, that's wrong.
+- Yes, that's right.
+
+[POINT_TO_PHRASE]
+> Choose the option that means "girlfriend."
+Speaker343: (佢)​(係)​我​(+女朋友)，​(阿美)。
+#{佢係我女朋友，ah美。}
+~            She is my girlfriend May
+$6947/7f620fe9.mp3;1,50;2,200;2,237;4,188;2,725;3,175;2,112;2,275
+
+[LINE]
+Speaker342: 早晨！ 
+~            good~morning 
+$6947/a640f1ee.mp3;2,50;2,550
+
+[LINE]
+Speaker343: 阿美，{ah美，}|呢個|係|我|大哥|智豪。
+~           May this is my eldest~brother Chi-Hou 
+$6947/83518add.mp3;2,50;2,175;2,312;2,163;2,187;2,150;2,225;3,125;2,425;2,163;2,312
+#we need to agree on what to call Thomas
+
+[LINE]
+Speaker342: 哈佬！
+~           hello 
+$6947/1da99b5b.mp3;1,50;2,237;2,350
+
+[ARRANGE]
+> Tap what you hear
+Speaker343: [(而)​(呢個)​(係)​(我)​(爺爺)。]     
+~             and   this   is   my   grandfather   
+$6947/f677d43c.mp3;1,50;2,212;2,175;2,138;2,225;3,175;2,475
+
+[LINE]
+Speaker342: 早晨！
+~           good~morning 
+$6947/ba5bdade.mp3;2,50;2,550
+
+[LINE]
+Speaker343: 呢個|係|我|老豆，|嗰個|就|係|我|二哥|John！{裝}
+~            this is my father that then is my second~eldest~brother John 
+$6947/74fe7746.mp3;1,50;2,225;2,137;2,213;3,187;2,488;2,225;2,212;2,188;2,175;2,237;2,163;2,200;2,250
+#Using 老豆 to bypass lack of baa4
+
+[LINE]
+Speaker342: 早晨|呀！{拿！}|你哋好！
+~            good~morning (particle)   hello~(to~multiple~persons) 
+$6947/f4424a4c.mp3;2,50;2,437;2,413;2,887;2,200;2,238;2,362
+
+[LINE]
+Speaker343: 佢哋|兩個|係|我|細佬|Marcus{媽cuss，}|同|明仔。
+~           They two are my younger~brothers Marcus and Little~Ming
+#again we need names
+$6947/1a4cb4c0.mp3;1,50;2,237;3,200;2,375;2,225;2,163;2,262;2,175;5,225;2,350;2,213;2,212;2,213;2,325
+
+[LINE]
+Speaker342: 哈佬！
+~           hello
+$6947/d7386392.mp3;1,50;2,237;2,350
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker342: 你|[屋企]|真係|好|熱鬧|啊。{劃}
+~           your home is~really very lively (particle)     
+$6947/6d2018a5.mp3;1,50;3,237;2,388;2,262;2,288;3,262;2,488
+- 大家庭
++ 屋企
+- 大廈
+#TBC
+
+[LINE]
+Speaker341: 不過|我|剩係得|一|個|女……    
+~           but I only~have one (classifier) daughter
+$6947/d2b6f8ac.mp3;14,1739;2,NaN;2,NaN
+
+[LINE]
+Speaker343: 媽媽！
+~            mom  
+$6947/c5dd856c.mp3;2,50;2,462
+
+[LINE]
+Speaker341: 講|錯！|我|而家|有|兩|個|女|啦！
+~           say wrong I now have two (classifier) daughter (particle)
+$6947/0e5daea9.mp3;20,2670
+
+[LINE]
+Speaker341: 阿美，|你|而家|係|我哋嘅一分子|啦！
+~            May you now are part~of~us (particle)
+$6947/d750a660.mp3;20,3050
+
+[LINE]
+Speaker342: 多謝！
+~            thank~you 
+$6947/71a09be6.mp3;2,50;2,550
+
+[MULTIPLE_CHOICE]
+> Why does Ana's mother say she has two daughters now?
+- She remembered that Ana has a sister.
++ She is welcoming May into the family.
+- She had a baby while May was there.
+
+[MATCH]
+> Tap the pairs
+- 細佬 <> younger brother, young child
+- 錯 <> wrong
+- 得 <> only have
+- 爺爺 <> grandfather
+- 女 <> daughter
+

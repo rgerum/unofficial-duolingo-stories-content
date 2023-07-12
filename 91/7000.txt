@@ -1,0 +1,95 @@
+[DATA]
+fromLanguageName=I Need a New Video Game
+icon=ce0ae956035c1bac6b9c64737466d59c5d027e97
+set=7|1
+
+[HEADER]
+> Îmi~trebuie un~nou joc~video
+~ I~need   a~new video~game
+$7000/27da4f2f.mp3;3,251;8,456;3,206;4,253;4,350;6,904
+
+[LINE]
+> Junior şi   Edi sunt într-un magazin.
+~ Junior and Eddy are   in~a  store  
+$7000/878d7662.mp3;6,568;3,251;4,332;5,322;8,351;9,1050
+
+[LINE]
+Speaker415: Tată, îmi~trebuie un joc~video~nou!
+~            dad   I~need   a  new~video~game   
+$7000/175e5db0.mp3;4,50;2,387;4,25;8,113;3,387;4,113;6,262;4,388
+
+[LINE]
+Speaker414: Nu, Junior. Nu~îţi~trebuie   un joc~video~nou.
+~           no  Junior  you~don't~need a  new~video~game   
+$7000/c7df3356.mp3;2,50;2,350;7,62;2,575;3,888;4,287;8,125;3,375;4,113;6,262;4,388
+
+[MULTIPLE_CHOICE]
+> Eddy thinks Junior needs a new video game.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker415: Te~rog! Jocul ăsta cu roboţi e foarte distractiv!
+~            please      video~game this with robots is very fun       
+$7000/edf1bbb6.mp3;2,50;4,162;2,325;6,900;5,463;3,312;7,138;2,387;7,150;11,375;2,750
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Junior, [tu~vrei] jocul~ăsta, dar nu~îţi~trebuie jocul ăsta.
+~           Junior   you~want    this~video~game  but  you~don't~need video~game 
+$7000/7998ac44.mp3;6,50;2,612;3,25;5,138;6,225;5,350;2,400;4,25;3,212;4,200;8,125;6,375;5,375
++ tu vrei
+- to vreoi
+- tu vri
+
+[LINE]
+Speaker415: OK, Îl~vreau! Mi-l~cumperi?   
+~           OK          I~want~it will~you~buy~it~for~me?
+$7000/4f87b87d.mp3;2,50;2,500;3,62;6,138;2,387;5,875;8,225
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(No)… (Tienes)   (muchos)   (videojuegos) (en~casa).]
+~             no    you~have   a~lot~of   video~games   at~home   
+
+[LINE]
+Speaker415: Sí,  sí…  Está~bien, ¿vamos~a      casa?
+~           yes  yes  OK          we~are~going home 
+
+[LINE]
+Speaker414: No, vamos        a  casa~de~Vikram.
+~           no  we~are~going to Vikram's~house 
+
+[CONTINUATION]
+> What comes next?
+Speaker415: ¿Por~qué? ¡Su~casa   es [muy  aburrida]!
+~            why       his~house is  very boring    
+- una tienda
+~ a   store 
+- un videojuego~nuevo
+~ a  new~video~game  
++ muy  aburrida
+~ very boring  
+
+[LINE]
+Speaker414: Pero su~televisión es grande y   yo necesito ver      el  partido~de~fútbol.
+~           but  his~TV        is big    and I  need     to~watch the soccer~game       
+
+[LINE]
+Speaker415: Papá, tú  quieres ver      el  partido, pero no~necesitas   ver      el  partido.
+~           dad   you want    to~watch the game     but  you~don't~need to~watch the game    
+
+[MULTIPLE_CHOICE]
+> Both Eddy and Junior…
++ …say they need something when they only want it.
+- …fly around on robots.
+- …play video games with Vikram.
+
+[MATCH]
+> Tap the pairs
+- vamos a <> we are going
+- partido <> game
+- necesito <> I need
+- videojuegos <> video games
+- Su casa <> his house
+

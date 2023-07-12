@@ -1,0 +1,129 @@
+[DATA]
+fromLanguageName=The Portrait
+icon=12547a4c20bef9c66913ef1a725b6fd4f0c544ea
+set=10|4
+
+[HEADER]
+> Portrét
+~ the~portrait
+$6961/5ff689c4.mp3;7,50
+
+[LINE]
+> Oskar a jeho kamarádka Lucie jsou v parku.
+~ Oskar and his friend  Lucie  are   in~park   
+$6961/3f00ebbf.mp3;5,50;2,500;5,175;10,175;6,562;5,338;2,225;6,50;2,425
+
+[LINE]
+> Oskar maluje portrét Lucie.
+~ Oskar is~painting a~portrait (of)~Lucie 
+$6961/102f367f.mp3;5,50;7,512;8,338;6,437;2,438
+
+[LINE]
+Speaker592: Dobře, teď se~můžeš~podívat~na ten portrét!  Líbí~se~ti?   
+~           OK     now   you~can~look~at the portrait   do~you~like~it 
+$6961/31b8272b.mp3;5,77;2,718;4,39;3,252;6,213;8,485;3,698;4,175;8,291;2,951;5,1435;3,563;3,213
+
+[LINE]
+> Lucie se~podívá~na portrét. 
+~ Lucie looks~at the~portrait 
+$6961/c7be912c.mp3;5,50;3,425;7,150;3,500;8,87;2,613
+
+[MULTIPLE_CHOICE]
+> Oskar shows Lucie a picture of a fish.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker509: Proč mám modré vlasy?
+~            why     I~have blue hair       
+$6961/cc2d9a55.mp3;4,77;4,485;6,407;6,563
+
+[LINE]
+Speaker592: Mám moc rád modrou barvu.
+~           I a~lot like blue color   
+$6961/277da914.mp3;3,77;4,757;4,329;7,388;6,447;2,581
+
+[MULTIPLE_CHOICE]
+> Wait… why is Lucie's hair blue in the portrait?
++ Oskar loves blue.
+- Lucie dyed her hair blue yesterday.
+- Oskar ran out of other colors.
+
+[LINE]
+Speaker509: A proč je má hlava tak veliká?
+~           and why is my head so big  
+$6961/501ae121.mp3;1,70;5,117;3,504;3,194;6,330;4,426;7,350
+
+[LINE]
+Speaker592: To~nevím…        Je~to tvá hlava.
+~           I~don't~know  it's your head 
+$6961/725ea22a.mp3;2,77;6,194;3,1604;3,252;4,194;6,368;2,621
+
+[POINT_TO_PHRASE]
+> Choose the option that means "nose."
+Speaker509: Můj (+nos) (není) (tak) (veliký).
+~           my   nose    isn't   so    big     
+$6961/7e2e3be4.mp3;3,77;4,407;5,388;4,485;7,350;2,969
+
+[LINE]
+Speaker592: Máš      hodně pěkný  nos!
+~           you~have very  pretty a~nose 
+$6961/9d9cdaf7.mp3;3,77;6,640;6,388;4,543;2,505
+
+[LINE]
+Speaker509: Ano, líbí~se~mi můj nos, ale není jako ten na portrétu.
+~           yes  I~like my nose but it~isn't like the~one on the~portrait
+$6961/eeba2256.mp3;3,70;5,970;3,640;3,272;4,174;4,330;4,1048;5,426;5,563;4,388;3,388;9,194
+
+[ARRANGE]
+> Tap what you hear
+Speaker592: [(Chceš)  (ten)  (portrét),  (nebo)  (ne)?] 
+~              you~want   the   portrait   or   not   
+$6961/f5d82600.mp3;5,77;4,388;8,252;5,893;3,388
+
+[LINE]
+Speaker509: Promiň, ale ne, nechci ho.   
+~           I'm~sorry  but  no  I~don't~want it 
+$6961/8e5fd04b.mp3;6,77;2,951;4,368;3,446;2,408;7,329;3,718;2,330
+
+[CONTINUATION]
+> What's next?
+> Muž projde~kolem a podívá~se~na [portrét].
+~ man    walks~by and looks~at  the~portrait  
+$6961/d1d96ffd.mp3;3,50;7,325;6,312;2,325;7,125;3,488;3,137;8,100;2,613
++ ten portrét
+~ the portrait
+- můj nos
+~ my nose 
+- tak veliký
+~ so  big   
+
+[LINE]
+Speaker438: Mně~se~dost~líbí! Dám~vám za něj dva~tisíce korun. 
+~            I~like~it~a~lot  I~will~give~you for it two~thousand czech~crowns
+$6961/f527bac4.mp3;3,50;3,275;5,162;5,238;2,400;4,987;4,400;3,213;4,112;4,150;7,150;6,400;2,425
+
+[LINE]
+> Lucie vezme portrét. 
+~ Lucie takes the~portrait 
+$6961/e72c6296.mp3;5,50;6,450;8,300;2,612
+
+[LINE]
+Speaker509: Je~to můj portrét a stojí čtyři~tisíce korun.
+~           It's my portrait and it~costs four~thousand czech~crowns
+$6961/fefd3bad.mp3;2,77;3,214;4,232;8,311;2,970;6,155;6,620;7,641;6,853;2,951
+
+[MULTIPLE_CHOICE]
+> Lucie decided to…
+- …give the painting away for free.
+- …buy the painting for 4000 czech crowns.
++ …sell the painting for money.
+
+[MATCH]
+> Tap the pairs
+- a <> and
+- je <> are
+- koruna <> czech crown
+- na <> in
+- modré vlasy <> blue hair
+

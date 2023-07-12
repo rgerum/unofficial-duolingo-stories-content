@@ -54,13 +54,16 @@ Speaker414: זײער~גוט.
 Speaker3173: שלום־⁠עליכם, זשוניאָר? װאָס~מאַכסטו?
 ~           hello  Junior   how~are~you 
 
-[SELECT_PHRASE]
-> Select the missing phrase
-Speaker415: [איך~בין~קראַנק],   דאָקטער~ראַבינאָװיטש! סע~טוט~מיר~װײ~דאָס~אױג! 
-~             I'm~sick  Dr.~Rabinovitch   my~eye~hurts  
+[CONTINUATION]
+> ?What comes next
+Speaker415: [איך~בין~קראַנק],   דאָקטער~ראַבינאָװיטש! סע~טוט~מיר~װײ~דאָס~אױג!
+~            I~am~sick  Dr.~Rabinovitch  my~eye~hurts
 - איך בין הונגעריק
+~ I am hungry
 + איך בין קראַנק
-- איך בין דאָרשטיק
+~ I am sick
+- איך בין דאָרשטיק  
+~ I am thirsty
 
 [LINE]
 Speaker3173: אױ,~װײ! איך קען דיך~העלפֿן.
@@ -125,7 +128,7 @@ Speaker415: נו, איצט קען איך האָבן מײַן שאָקאָלאַ�
 ~            well  now can I have  my chocolate    
 
 [MULTIPLE_CHOICE]
-> ?Oh Junior! Why did he want to see the doctor
+> ?Oh, Junior! Why did he want to see the doctor
 - .He had a gift for her
 - .He was very sick
 + .She always gave him chocolate

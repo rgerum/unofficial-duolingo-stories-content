@@ -1,15 +1,15 @@
 [DATA]
-fromLanguageName=A Coffee, Please!
+fromLanguageName=A Coffee!
 icon=221d57fa97fa27260e9dd5ad3457870d033f291a
 set=5|3
 
 [HEADER]
-> Isang Kape, Pakiusap
-~  a  coffee  please    
-$6321/6e88fe2e.mp3;5,0;5,405;10,385
+> Isang Kape!
+~  a  coffee   
+$6321/76d24659.mp3;5,384;6,594
 
 [LINE]
-> Nasa isang kainan si Eddy, kasama ang~kaniyang~anak na si~JunJun.
+> Nasa isang kainan si~Eddy, kasama ang~kanyang~anak na si~JunJun.
 ~ at a restaurant (is)~Eddy with his~son who~is Junior
 $6321/8b6a0326.mp3;4,0;6,319;7,325;3,435;5,150;8,405;4,635;9,126;5,295;3,345;3,95;7,165
 
@@ -34,9 +34,9 @@ Speaker386: At may gatas po o wala?
 $6321/12893336.mp3;2,0;4,204;6,155;3,445;2,165;5,110
 
 [LINE]
-Speaker414: May gatas, pakiusap.
-~           with milk   please    
-$6321/224c9038.mp3;3,0;6,169;10,585
+Speaker414: May gatas, salamat.
+~           with milk   thanks    
+$6321/1b0673c4.mp3;3,0;6,159;9,555
 
 [LINE]
 Speaker386: At may asukal po o wala?
@@ -49,9 +49,9 @@ Speaker414: May asukal, salamat.
 $6321/48ae6dbe.mp3;3,0;7,144;9,596
 
 [LINE]
-Speaker415: Gusto~ko rin ng~kape!
-~           I~want   also coffee 
-$6321/5aed15de.mp3;5,0;3,339;4,130;3,136;5,135
+Speaker415: Papa, gusto~ko rin ng~kape!
+~        Dad   I~want   also coffee 
+$6321/5cf00f8e.mp3;4,0;7,439;3,431;4,120;3,134;5,145
 
 [MULTIPLE_CHOICE]
 > Junior says that he…
@@ -60,24 +60,24 @@ $6321/5aed15de.mp3;5,0;3,339;4,130;3,136;5,135
 - …needs to go to the bathroom.
 
 [LINE]
-Speaker414: Junjun? Ikaw? Gusto~mo ng~kape?
+Speaker414: JunJun? Ikaw? Gusto~mo ng~kape?
 ~            Junior   you you~want    coffee 
 $6321/70c3a026.mp3;6,0;6,814;7,720;3,470;3,130;5,135
 
 [LINE]
-Speaker415: Opo, gusto~ko ng~kape na walang gatas...
-~           yes  I~want coffe that~is without milk  
-$6321/863c85da.mp3;3,0;7,555;3,539;3,120;5,140;3,315;7,105;6,295
+Speaker415: Opo, gusto~ko ng~kape na may gatas...
+~           yes  I~want coffe that~is with milk  
+$6321/d5c1a1e4.mp3;3,0;7,465;3,395;3,100;5,154;3,240;4,105;6,155
 
 [LINE]
-Speaker415: ...pero may asukal...
-~             and with sugar  
-$6321/a3823950.mp3;7,0;4,560;7,164
+Speaker415: ...at may maraming asukal...
+~             and with a~lot~of sugar  
+$6321/72685808.mp3;5,0;4,494;9,130;7,450
 
 [LINE]
-Speaker415: ...at may sorbetes!  
-~              and with ice~cream 
-$6321/bf5bc1be.mp3;5,0;4,494;9,176
+Speaker415: ...at~tsaka may sorbetes!  
+~              and~also with ice~cream 
+$6321/7970925a.mp3;5,0;6,474;4,276;9,159
 
 [MULTIPLE_CHOICE]
 > What does Junior want in his coffee?
@@ -87,35 +87,38 @@ $6321/bf5bc1be.mp3;5,0;4,494;9,176
 
 [LINE]
 Speaker414: May sorbetes? 
-~            with ice~cream 
+~           with ice~cream 
 $6321/ca201bd6.mp3;3,0;9,150
 
 [LINE]
 Speaker415: Opo, at walang kape, pakiusap.
 ~            yes  and without coffee  please    
-$6321/d74cb030.mp3;3,0;4,569;7,431;5,295;10,389
+$6321/e397edaa.mp3;3,0;4,449;7,356;5,270;10,405
 
 [SELECT_PHRASE]
 > Select the missing phrase
 Speaker386: Ah, baka [haluhalo] ang~gusto~mo? 
 ~     oh maybe haluhalo~("mixed"~ice~cream) (is)~what~you~want
 $6321/3cf33e22.mp3;2,0;6,239;9,455;4,595;6,135;3,290
++ haluhalo
+- walo-walo
+- salusalo
 
 [LINE]
 Speaker415: Opo, salamat!
 ~            yes  thank~you   
-$6321/53ee0288.mp3;3,0;9,545
+$6321/ee85b2f6.mp3;3,0;9,459
 
 [ARRANGE]
 > Tap what you hear
-Speaker414: [(Ako rin)! (Haluhalo) (na rin) (ang~gusto~ko)]!   
+Speaker414: [(Ako rin)! (Haluhalo{halohalo}) (na rin) (ang~gusto~ko)]!   
 ~              me too   haluhalo~("mixed"~ice~cream) already also (is)~what~I~want
-$6321/742f185c.mp3;3,0;4,250;10,439;3,845;4,100;4,151;6,119;3,270
+$6321/dc545293.mp3;3,250;5,2558;9,NaN;3,NaN;4,NaN;4,NaN;6,NaN;4,NaN
 
 [LINE]
-Speaker414: Dalawang haluhalo, pakiusap!
-~            two haluhalo~("mixed"~ice~cream)  please    
-$6321/9b670830.mp3;8,0;9,365;10,699
+Speaker414: Dalawang haluhalo{halohalo}, salamat!
+~            two haluhalo~("mixed"~ice~cream)  thanks    
+$6321/c541509f.mp3;8,1905;9,NaN;2,NaN;9,NaN
 
 [MULTIPLE_CHOICE]
 > Oh, Junior! He ordered coffee…

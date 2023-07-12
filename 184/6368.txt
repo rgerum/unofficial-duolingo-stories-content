@@ -1,0 +1,105 @@
+[DATA]
+fromLanguageName=Paszport
+icon=643347b755001a918130ddf5f6d3e914e63a00ce
+set=2|2
+
+[HEADER]
+> Paszpòrt
+~ Paszport 
+
+[LINE]
+> Vikram i jegò białka, Patricjô, są na latawiszczu.
+~ Vikram i jego żona Patrycja są na lotnisku.    
+
+[LINE]
+Speaker593: Ach~nié! Gdze je mój paszpòrt?
+~            O~nie! Gdzie jest mój paszport  
+
+[LINE]
+Speaker593: Tu gò ni mô!
+~            Tu go nie ma 
+
+[LINE]
+Speaker560: Vikramie…
+~           Vikramie
+
+[SELECT_PHRASE]
+> Które wyrażenie oznacza "w mojej torbie"?
+Speaker593: W [___] gò ni mô…
+~           W mojej~torbie go nie ma   
++ mòji taszë
+- mòji tutce
+- mòjim taszkù
+
+[LINE]
+Speaker593: W kabôce téż gò ni móm...
+~           W kurtce też go nie mam
+
+[LINE]
+Speaker560: Vik…
+~           Vik 
+
+[LINE]
+Speaker593: Òn gwësno je w taksówce!
+~            On na~pewno jest w taksówce
+
+[MULTIPLE_CHOICE]
+> Vikram myśli, że jego paszport jest w taksówce.
++ Tak, to prawda.
+- Nie, to nie jest prawda.
+
+[LINE]
+> Vikram biéje do taksówczi.
+~ Vikram biegnie do taksówki 
+
+[LINE]
+Speaker560: Vik, nié!
+~            Vik  nie 
+
+[LINE]
+> Patricjô gòni Vikrama.
+~ Patrycja goni Vikrama
+
+[LINE]
+Speaker593: Ach~nié! Taksówka ju je~pòjachónô!
+~            O~nie! Taksówka już pojechała
+
+[LINE]
+Speaker593: Halaże!
+~            A~niech~to!
+
+[LINE]
+Speaker560: Vikram!
+~            Vikram 
+
+[LINE]
+Speaker560: Twòjégo paszpòrtu ni mô w taksówce.
+~           Twojego paszportu nie ma w taksówce 
+
+[POINT_TO_PHRASE]
+> Wybierz słowo które oznacza "ręce."
+Speaker560: Të gò trzimôsz w (twòji) (+rãce)...
+~            Ty go trzymasz w twojej ręce 
+
+[LINE]
+Speaker593: Ach…
+~           Ach...
+
+[LINE]
+Speaker593: Dzãka, mùlkù.
+~           Dziękuję kochanie 
+
+[MULTIPLE_CHOICE]
+> Gdzie był paszport Vikrama?
+- w taksówce
+- w domu
++ w jego ręce
+
+[MATCH]
+> Dobierz w pary
+- gwësno <> na pewno
+- torba <> tasza
+- gònic <> gonić
+- dzãka <> dziękuję
+- biéc <> biec
+

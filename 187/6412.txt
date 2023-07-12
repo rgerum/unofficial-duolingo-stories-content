@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=A lua de mel
+icon=7e5d271488d31d6f1d0c503512e642ca7effe84f
+set=1|4
+
+[HEADER]
+> La lune de miel
+~ a  lua  de mel
+
+[LINE]
+> Anna est  dans un taxi.
+~ Ana  está em   um táxi.
+
+[LINE]
+Speaker113: Bonjour.
+~           bom~dia 
+
+[SELECT_PHRASE]
+> Selecione o que falta.
+Speaker343: Bonjour, je dois aller [à~l’aéroport], s’il~vous~plaît.
+~           bom~dia  eu devo ir     ao aeroporto   por~favor    
++ à l’aéroport
+- aller au port
+- aimer de l’or
+
+[LINE]
+Speaker113: Allons-y.
+~           vamos 
+
+[LINE]
+Speaker113:  Vous êtes en~vacances ?
+~            você está de~férias
+
+[LINE]
+Speaker343: Ce~ne~sont~pas des~vacances …
+~           não~são        férias
+
+[ARRANGE]
+> Selecione o que ouvir.
+Speaker343: [(J’ai) (un) (billet) (pour) (Madrid).]
+~             tenho  um   bilhete  para   Madrid  
+
+[LINE]
+Speaker343: Enfin … deux billets.
+~           enfim   dois bilhetes
+
+[LINE]
+Speaker113: Madrid est ma    ville  préférée ! Tout est très  beau   là-bas ! 
+~           Madrid é   minha cidade favorita   tudo é   muito bonito lá
+
+[LINE]
+Speaker343: C’est ma    lune de miel …
+~           é     minha lua  de mel
+
+[MULTIPLE_CHOICE]
+> Por que Anna está indo para Madrid?
++ Ela está indo para sua lua de mel.
+- Ela vai aprender a dançar flamenco.
+- Ela vai se casar lá.
+
+[LINE]
+Speaker113: Ah. Où   est  votre époux ?
+~           ~   onde está seu   esposo
+
+[LINE]
+Speaker343: Je~n’ai~pas  d’époux. J’ai  une épouse très  difficile !  
+~           eu~não~tenho esposo   tenho uma esposa muito difícil
+
+[LINE]
+Speaker343: Elle ne~veut~pas aller à Madrid avec~moi.
+~           ela  não~quer    ir    á Madrid comigo
+
+[MULTIPLE_CHOICE]
+> Ah não ! A esposa de Anna…
+- … esqueceu de levar protetor solar.
+- … já está em Madrid
++ … não quer ir para Madrid com ela.
+
+[LINE]
+Speaker343: Je suis  très  triste.
+~           eu estou muito trsite
+
+[LINE]
+Speaker113: Ah … je~suis~désolé.
+~           ~    sinto~muito
+
+[LINE]
+Speaker113: Bon … nous sommes~arrivés à~l’aéroport.
+~           bom   nós  chegamos       ao~aéroporto
+
+[POINT_TO_PHRASE]
+> Selecione a opção que significa “corre.”
+> (Une femme) (avec) une~malette (+cours) vers (le) (taxi).
+~  ~
+
+[LINE]
+Speaker343: Salma ?
+~           Salma 
+
+[LINE]
+Speaker342: Anna !
+~           Ana
+
+[LINE]
+Speaker342: Je~suis~vraiment~désolée.
+~           sinto~muito
+
+[LINE]
+Speaker342: Je~t’aime.
+~           te~amo 
+
+[LINE]
+Speaker343: Moi aussi je~t’aime.
+~           eu também te~amo
+
+[LINE]
+Speaker342: Allons à Madrid !
+~           Vamos á Madrid
+
+[LINE]
+Speaker113: Profitez   de~votre lune de miel !
+~           aproveitam sua      lua  de mel
+
+[MULTIPLE_CHOICE]
+> O que vai acontecer?
+- Ana vai iniciar um trabalho no aéroporto.
+- Ana e o táxi vão para Madrid juntos.
++ Ana e sua esposa, Salma, vão para Madrid juntos.
+
+[MATCH]
+> Selecione os pares.
+- je suis <> eu sou/estou
+- je t’aime <> te amo
+- épouse très difficile <> esposa muito difícil
+- bonjour <> bom dia
+- taxi <> táxi
+

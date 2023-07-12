@@ -1,0 +1,104 @@
+[DATA]
+fromLanguageName=I Need a New Video Game
+icon=ce0ae956035c1bac6b9c64737466d59c5d027e97
+set=7|1
+
+[HEADER]
+> Necessito un nou videojoc
+~ I~need   a  new video~game  
+$6972/551a4e19.mp3;9,50;3,662;4,163;9,287
+
+[LINE]
+> En~Júnior i l'Eddy són a una botiga.
+~ Junior and Eddy are   at a   store  
+$6972/e14d6f24.mp3;2,50;7,137;2,475;7,63;4,337;2,300;4,75;7,250;2,513
+
+[LINE]
+Speaker415: Papa, necessito un nou videojoc!
+~            dad   I~need   a  new video~game   
+$6972/24619182.mp3;4,50;2,425;10,125;3,675;4,162;9,250;2,775
+
+
+[LINE]
+Speaker414: No, Júnior. No~necessites un nou videojoc.
+~ no  Junior  you~don't~need a  new~video~game   
+$6972/a21ebd51.mp3;2,50;2,275;7,175;2,625;3,862;11,225;3,750;4,188;9,262
+
+
+[MULTIPLE_CHOICE]
+> Eddy thinks Junior needs a new video game.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker415: Si~us~plau! Aquest videojoc de robots és molt divertit!
+~            please      this video~game of robots is very fun       
+$6972/9fc9eb63.mp3;2,50;3,212;5,163;2,425;7,862;9,313;3,650;7,150;3,650;5,187;9,225;2,625
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Jénior, [tu vols aquest] videojoc, però no~el~necessites.
+~           Junior   you want this    video~game  but  you~don't~need~it 
++ tu vols aquest
+- tu veus aquest
+- tu tens aquest
+
+[LINE]
+Speaker415: D'acord, el~vull. El~comprem?   
+~           OK          I~want~it     (can)~we~buy~it 
+$6972/2ab47df7.mp3;7,50;2,637;3,175;5,188;2,425;3,887;8,138
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(No)… (en tens)   (molts)   (de videojocs) (a~casa).]
+~             no    (of~it)~you~have   a~lot  of~video~games   at~home   
+$6972/1a880293.mp3;2,50;3,1087;5,175;6,325;3,313;10,150;2,800;5,87;2,488
+
+[LINE]
+Speaker415: Sí,  sí…  D'acord, tornem~a casa?
+~           yes  yes  OK          we~are~returning home 
+$6972/aaeb8762.mp3;2,50;2,312;3,238;8,1087;2,475;7,188;2,400;5,37
+
+[LINE]
+Speaker414: No, anem        a  casa~d'en~Vikram.
+~           no  we~are~going to Vikram's~house 
+$6972/a2c3b078.mp3;2,50;2,287;5,263;2,362;5,75;5,363;7,200;2,575
+
+[CONTINUATION]
+> What comes next?
+Speaker415: Per~què? Casa~seva és [molt avorrida]!
+~            why       his~house is  very boring    
+$6972/90c3b45c.mp3;3,50;4,150;5,1162;5,313;3,425;5,212;9,238;2,637
+
+- una botiga
+~ a   store 
+- un nou videojoc
+~ a  new~video~game  
++ molt avorrida
+~ very boring  
+
+[LINE]
+Speaker414: Però té una televisió~molt~grossa i jo haig~de veure el partit~de~futbol.
+~           but he~has a  very~big~TV   and I  have~to  watch the soccer~game       
+$6972/659f9df4.mp3;4,50;3,262;4,325;10,238;5,587;7,175;2,613;3,125;5,250;3,237;6,163;3,412;7,150;3,425;7,138;2,575
+
+[LINE]
+Speaker415: Papa, tu vols veure el partit, pero no~necessites  veure'l.
+~           dad   you want    to~watch the game     but  you~don't~need to~watch~it   
+$6972/571d683e.mp3;4,50;2,375;3,175;5,225;6,262;3,375;7,75;2,563;5,62;3,388;11,175;8,612;2,563
+
+[MULTIPLE_CHOICE]
+> Both Eddy and Junior…
++ …say they need something when they only want it.
+- …fly around on robots.
+- …play video games with Vikram.
+
+[MATCH]
+> Tap the pairs
+- haver de <> to have to
+- partit <> game
+- necessitar <> to need
+- voler <> to want
+- botiga <> store
+
+

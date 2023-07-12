@@ -1,0 +1,113 @@
+[DATA]
+fromLanguageName=One Thing
+icon=717bd84875f83c678f64f124937a278061e0e778
+set=1|3
+
+[HEADER]
+> 一樣|物事 
+~ one thing
+
+[LINE]
+> 盧家阿婆|搭|伊個|外孫囡|阿琳|蹲垃|屋裏。
+~ Grandmother~Lu  and  her  granddaughter  Lin  are~at,~are~staying~at  at~home
+
+[LINE]
+Speaker509: 哎喲，|勿好！|我|三明治|麵包|沒|了。
+~            oh~no  bad  my sandwich  bread  don't~have  (particle)
+
+[LINE]
+Speaker508: 要|去|超市|咾？
+~            (you)~need to~go~to supermarket then
+
+[LINE]
+Speaker509: 唉。
+~           yes 
+
+[MULTIPLE_CHOICE]
+> Lin and Lucy have a lot of bread.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker508: 噢，|我|要|從|超市|買|一樣|物事。
+~            oh  I need~to  from  supermarket  buy one thing
+
+[LINE]
+Speaker509: 買|啥？ 
+~           buy what 
+
+[LINE]
+Speaker508: 麻煩儂|買|隻|番茄。
+~           please~(to~you)  buy  (one) tomato
+
+[SELECT_PHRASE]
+> Select the missing phrase 
+Speaker508: 我|買了|[要弄色拉]。
+~           I buy~(it)~so~that (I)~can~do~(my)~salad     
+- 要弄啥伐
++ 要弄色拉
+- 要弄煞脫
+
+[LINE]
+Speaker509: 好個呀。
+~           OK        
+
+[LINE]
+Speaker508: 謝謝儂。 
+~            thank~you 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "also."
+Speaker508: 噢！​我​(+還)​(要)​(三隻)​(蘋果)……
+~            Oh!  I  also  want   three   apples    
+
+[LINE]
+Speaker509: 好。
+~           OK        
+
+[LINE]
+Speaker508: ……再|來|眼|橙汁……
+~             and  bring,~come~(with)  some  orange~juice    
+
+[LINE]
+Speaker509: 阿琳……
+~           Lin 
+
+[LINE]
+Speaker508: ……還有|牛奶，|謝謝儂。
+~             and~also  milk   thank~you    
+
+[LINE]
+Speaker509: 唔……|我|有|個|想法。
+~           hmm  I  have an  idea 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: 阿玲，|[鈔票|撥|儂]。
+~            Lin money give~(to) you  
+- 牛奶撥我
++ 鈔票撥儂
+- 蘋果吃脫
+
+[LINE]
+Speaker508: 啊？
+~            huh 
+
+[LINE]
+Speaker509: 我|垃|超市|就|要|買|一樣|物事：|麵包。
+~           I at supermarket only need~to buy one thing bread 
+
+[MULTIPLE_CHOICE]
+> Why did Lucy give Lin money?
+- Lin is opening a sandwich shop.
++ She wants Lin to go to the supermarket.
+- Lin is going to a restaurant for lunch.
+
+[MATCH]
+> Tap the pairs
+- 想法 <> idea
+- 蘋果 <> apple
+- 橙汁 <> orange juice
+- 外孫囡 <> granddaughter (daughter of daughter)
+- 麻煩 <> to bother, to burden, please can (you)
+

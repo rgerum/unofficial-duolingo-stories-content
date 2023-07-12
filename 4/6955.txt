@@ -1,0 +1,147 @@
+[DATA]
+fromLanguageName=I Want Pizza
+icon=01af7ff2a4981e7e37fa0dabed4c9c1dfe4747e6
+set=9|4
+
+[HEADER]
+> Jag vill~ha pizza
+~ I   want pizza
+$6955/b85695db.mp3;3,6;5,163;3,160;6,120
+
+[LINE]
+> Lin är på~väg~hem med två pizzor.
+~ Lin is on~her~way~home with two pizzas.     
+$6955/c164c7df.mp3;3,6;3,320;3,110;4,137;4,370;4,232;4,188;7,242
+
+[LINE]
+> Lin får~syn~på Oscar på~gatan.
+~ Lin sees  Oscar in~the~street  
+$6955/2360b140.mp3;3,6;4,239;4,189;3,428;6,170;3,365;6,118
+
+[LINE]
+Speaker592: Hallå, Lin. Åh, pizza?
+~           hello  Lin  oh  pizza 
+$6955/ba3e8a27.mp3;6,668;5,700;4,460;7,829
+
+[MULTIPLE_CHOICE]
+> Lin has seven pizzas.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker508: Ja. De är från den nya italienska~restaurangen där~borta.
+~           yes  they are from the new   Italian~restaurant over~there 
+$6955/55e47e3d.mp3;3,670;3,260;3,109;5,220;4,140;4,250;11,625;13,610;4,135;7,886
+
+[LINE]
+Speaker592: Jag älskar den restaurangen!
+~           I   love  that   restaurant 
+$6955/9aae2f71.mp3;3,245;7,431;4,210;14,948
+
+[LINE]
+Speaker592: Nu vill~jag~också~ha pizza!
+~           now   I~also~want pizza 
+$6955/b4adad32.mp3;2,239;5,95;4,105;6,275;3,140;7,887
+
+[CONTINUATION]
+> What comes next?
+Speaker508: Tyvärr har~restaurangen~[stängt nu].
+~          unfortunately the~restaurant~is~closed    now   
+$6955/ce1a2c6c.mp3;6,359;4,135;13,570;7,376;4,645
+- sprungit iväg nu
+~ ran away now
++ stängt nu
+~ closed now     
+- grönt nu
+~ green now
+
+[LINE]
+Speaker592: Synd  …
+~           too~bad  
+$6955/6fbe8f8f.mp3;4,702;2,NaN
+
+[LINE]
+Speaker592: Du har två pizzor! Kan jag få~en?
+~           you have two  pizzas  can  I   have~one   
+$6955/b75ae05b.mp3;2,189;4,165;4,274;8,832;4,210;4,110;3,155;4,465
+
+[LINE]
+Speaker592: Jag ger dig pengar! 
+~           I   (will)~give you money 
+$6955/7d7a57bb.mp3;3,214;4,205;4,115;8,749
+
+[LINE]
+Speaker508: Jag~är~ledsen. Pizzorna är till mormor~Lucy och mig.
+~           I'm~sorry     the~pizzas are  for grandma~Lucy and me   
+$6955/ec3ca365.mp3;3,229;3,95;8,805;9,446;3,170;5,149;7,375;5,370;4,55;5,671
+
+[ARRANGE]
+> Tap what you hear
+Speaker592: [(Kan) (jag) (få) (en) (pizzabit)?]
+~             can    I   have   a     piece~of~pizza   have    
+$6955/a16e8734.mp3;3,229;4,95;3,145;3,85;10,1090
+
+[LINE]
+Speaker508: Nej, det~här är vår middag.
+~           no    this is  our   dinner     
+$6955/bbb737ab.mp3;4,555;4,105;4,240;3,114;4,130;8,821
+
+[MULTIPLE_CHOICE]
+> Lin wants to…
++ …eat the pizzas for dinner with Lucy.
+- …eat breakfast with Oscar.
+- …give Oscar her pizzas.
+
+[LINE]
+Speaker508: Vi~ses,     Oscar.
+~           see~you~soon  Oscar 
+$6955/6696afb2.mp3;2,204;5,610;7,746
+
+[LINE]
+Speaker592: Nu vill~jag~verkligen~ha en pizza …
+~           now   I~really~want     a pizza  
+$6955/40bf23c5.mp3;2,239;5,95;4,95;10,463;3,140;3,100;6,495;2,NaN
+
+[LINE]
+> Oscar tar~fram       sin mobiltelefon.     
+~ Oscar takes~(out) his  cell~phone 
+$6955/7aa4e80a.mp3;5,6;4,365;5,245;4,293;13,202
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker592: Hej, Lucy! Det är Oscar. Vad gör~du [i~kväll]? 
+~           hello  Lucy  here is  Oscar  what are~you~doing  this~evening  
+$6955/7f4e4cdc.mp3;4,584;6,884;4,130;3,180;7,766;4,305;4,225;3,159;2,100;7,780
++ i kväll
+- i tvättställ
+- med gnäll
+
+[LINE]
+Speaker509: Jag äter pizza med Lin!
+~           I   am~eating pizza with Lin 
+$6955/e4b828cd.mp3;3,199;5,345;6,444;4,155;5,895
+
+[LINE]
+Speaker509: Vill~du äta~med~oss? 
+~           do~you~want to~eat~with~us 
+$6955/d6e5105f.mp3;4,214;3,140;4,360;4,195;5,802
+
+[LINE]
+Speaker592: Det är en fantastisk idé! Tack, Lucy!
+~           that is  a    fantastic    idea  thank~you  Lucy 
+$6955/c64fabf5.mp3;3,140;3,140;3,109;11,751;5,744;6,500;6,816
+
+[MULTIPLE_CHOICE]
+> How sneaky! Oscar called Lucy because…
+- …she wouldn't answer his texts.
++ …he wanted her to invite him for dinner.
+- …he needed to tell her a secret.
+
+[MATCH]
+> Tap the pairs
+- i kväll <> this evening
+- italiensk restaurang <> Italian restaurant
+- där borta <> over there
+- mormor <> grandma
+- pengar <> money
+

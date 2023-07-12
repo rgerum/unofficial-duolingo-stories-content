@@ -1,0 +1,142 @@
+[DATA]
+fromLanguageName=A New Sport
+icon=4779d731014382d1398621baf6c630efe3e344c0
+set=11|2
+
+[HEADER]
+> En ny sport
+~ a  new   sport  
+$6542/08c4cd31.mp3;2,50;3,200;6,250
+
+[LINE]
+> Eddy og Junior er i en butikk.
+~ Eddy and Junior are   in a   store  
+$6542/58fe96e2.mp3;4,50;3,400;7,125;3,587;2,200;3,100;7,163;2,525
+
+[LINE]
+Speaker414: Du~har~lyst~til å~drive~med en ny sport? Flott!
+~            you~want to~play   a  new   sport     great     
+$6542/ca1486df.mp3;2,169;4,120;5,230;4,133;2,65;6,310;4,95;3,134;3,180;7,758;7,590
+
+[LINE]
+Speaker414: Har~du~lyst~til å~spille basketball?
+~            you~want to~play  basketball 
+$6542/e64714be.mp3;3,200;3,185;5,224;4,125;2,50;7,320;12,1031
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: Jeg~liker~ikke [ballsporter].
+~           I~don't~like  ball~games/sports         
+$6542/bbe4767d.mp3;3,219;6,325;5,254;14,863
++ ballsporter
+- ballsorter
+- tallsporter
+
+[LINE]
+Speaker414: Denne tennisracketen er veldig fin!
+~            this tennis~racket    is very pretty 
+$6542/09ba0688.mp3;5,344;15,810;3,140;7,320;5,689
+
+[CONTINUATION]
+> What comes next?
+Speaker415: Man trenger en ball for~å     [spille tennis]. 
+~           you need  a   ball   in~order~to play  tennis  
+$6542/01df0678.mp3;3,204;8,320;3,124;5,280;4,185;2,50;7,309;7,518;2,350
+- basketball
+~ basketball   
++ spille tennis
+~ play  tennis
+- en butikk
+~ a   store  
+
+[LINE]
+Speaker414: Åh, ja.  Hmm{hømm}... Hva kan du spille?
+~           oh  yes  hmm     what can you play     
+$6542/0f14e99f.mp3;3,469;4,2366;4,NaN;4,NaN;4,NaN;4,NaN;3,NaN;8,NaN
+
+[LINE]
+Speaker415: Jeg vil...
+~           I  want     
+$6542/40ff30f3.mp3;3,250;4,259;4,NaN
+
+[LINE]
+Speaker414: Svømme!   Vil~du svømme?!  
+~            swim    you~want (to)~swim  
+$6542/4e08cf76.mp3;7,830;5,300;3,135;9,747
+
+[LINE]
+Speaker415: Nei...
+~           no   
+$6542/aad9502f.mp3;3,364;4,NaN
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Men) (det) (er)  (en) (sport) (uten~baller).]  
+~             but    it is   a    sport     without~balls   
+$6542/041ebea2.mp3;3,169;4,130;3,125;3,100;6,412;5,308;8,755
+
+[LINE]
+Speaker415: Pappa, nei!
+~            dad   no 
+$6542/b4ea7922.mp3;6,759;5,571
+
+[LINE]
+Speaker414: Vel, hva vil~du gjøre?
+~           well    what you~want (to)~do 
+$6542/0590437a.mp3;6,529;4,221;4,135;3,110;7,753
+
+[LINE]
+> Junior ser   på  noen ballettsko.
+~ Junior looks at some ballet~shoes         
+$6542/00ccb448.mp3;6,50;4,600;3,325;5,150;11,337;2,663
+
+[MULTIPLE_CHOICE]
+> Oh! It seems like Junior wants to…
++ …try dancing.
+- …play football.
+- …go for a swim.
+
+[LINE]
+Speaker415: Jeg vil… danse.  
+~           I  want    to~dance 
+$6542/beadf286.mp3;3,259;4,170;2,999;7,NaN
+
+[LINE]
+Speaker414: Du~vil danse?!  
+~             you~want (to)~dance  
+$6542/792ed2a8.mp3;2,219;4,146;8,764
+
+[LINE]
+Speaker415: Ja…  Er det  et problem?
+~           yes   Is it a  problem  
+$6542/ba0aa5f3.mp3;2,434;2,421;3,170;4,140;3,709;9,NaN
+
+[LINE]
+Speaker414: Nei! Dansing er også en sport!
+~            no   dancing is also    a  sport   
+$6542/d70e42e6.mp3;4,629;8,551;3,111;5,295;3,105;7,801
+
+[LINE]
+> Eddy begynner å~danse i butikken.
+~ Eddy starts    to~dance in the~store  
+$6542/9028ed3c.mp3;4,50;9,350;2,362;6,125;2,488;9,187;2,563
+
+[LINE]
+Speaker415: Pappa, slutt~å~danse, vær~så~snill.
+~           dad   stop~dancing   please    
+$6542/eaf0cee4.mp3;6,695;6,375;2,85;7,662;4,140;3,140;7,660
+
+[MULTIPLE_CHOICE]
+> Junior wants his dad to stop...
++ …dancing.
+- …singing.
+- …buying stuff.
+
+[MATCH]
+> Tap the pairs
+- problem <> problem
+- åh <> oh
+- begynner <> starts
+- uten baller<> without balls
+- nei <> no
+

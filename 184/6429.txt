@@ -1,0 +1,110 @@
+[DATA]
+fromLanguageName=Bardzo duża rodzina
+icon=7b985ad4907aa6222424ea7f917bf10209b62843
+set=2|3
+
+[HEADER]
+> Baro wiôlgô rodzëzna
+~ Bardzo duża rodzina   
+
+[LINE]
+> Sabina prawie~terô mô sã pòtkac z rodzëzną Anë.
+~ Sabina zaraz ma się spotkać z rodziną Anny.      
+
+[LINE]
+Speaker341: Ana! Mojô lubòtnô córka!    
+~            Anna Moja ulubiona córka 
+
+[LINE]
+Speaker343: Ha,~ha,~ha,~ha… Nënkò, doch të~môsz leno jedną córkã!    
+~           Ha~ha~ha~ha Mamo przecież masz tylko jedną córkę
+
+[MULTIPLE_CHOICE]
+> Mama Anny ma wiele córek.
+- Tak, to prawda.
++ Nie, to nie jest prawda.
+
+
+[POINT_TO_PHRASE]
+> Wybiesz słowo które oznacza "dziewczyna."
+Speaker343: (To) (je) mój (+dzéwùs), (Sabina).
+~            To jest moja dziewczyna Sabina  
+
+[LINE]
+Speaker342: Dobri~dzéń! 
+~            Dzień~dobry 
+
+[LINE]
+Speaker343: Sabino, to je mój pierszi brat, Tómk!
+~            Sabino  to jest mój pierwszy brat Tomek 
+
+[LINE]
+Speaker342: Mòjn! 
+~            Cześć 
+
+[LINE]
+Speaker343: A  to je mój stark.    
+~             A to jest mój dziadek   
+
+[LINE]
+Speaker342: Dobri~dzéń. 
+~           Dzień~dobry 
+
+[LINE]
+Speaker343: To je mój òjc, a to je mój drëdżi brat, Julk!
+~            To jest mój ojciec a to jest mój drugi brat Julek 
+
+[LINE]
+Speaker342: Dobri~dzéń!  Mòjn! 
+~            Dzień~dobry Cześć 
+
+[LINE]
+Speaker343: To je mój trzecy brat, Mark, a to mój czwiôrti brat, Ksawer.
+~           To jest mój trzeci brat Marek a to mój czwarty brat Ksawery 
+
+[LINE]
+Speaker342: Mòjn, mòjn!
+~           Cześć  cześć
+
+[SELECT_PHRASE]
+> Zaznacz brakujące słowa
+missinSpeaker342: Të môsz baro [ _____]!
+~            Masz bardzo dużą rodzinę     
++ wiôlgã rodzëznã
+- dużã rodzynã
+- dëchtną familëją
+
+[LINE]
+Speaker341: Në~jo, le córkã jô~móm le jedną…    
+~           No~tak, ale córkę mam tylko jedną
+
+[LINE]
+Speaker343: Nënkò!
+~            Mamo  
+
+[LINE]
+Speaker341: Wëbôczë! Wstéc terô jô~móm dwie córczi…    
+~            Wybacz Przecież teraz mam dwie córki 
+
+[LINE]
+Speaker341: Witôj w naji rodzëznie, Sabino!
+~            Witaj w naszej rodzinie Sabino 
+
+[LINE]
+Speaker342: Dzãka wóm!  
+~            Dziękuję Pani 
+
+[MULTIPLE_CHOICE]
+> Czemu mama Anny mówi, że ma teraz dwie córki?
+- Przypomniało jej się że Anna ma siostrę.
++ Anna ma dziewczynę, Sabinę.
+- Miała dziecko kiedy Sabina tu była.
+
+[MATCH]
+> Dobierz w pary
+- wstéc <> przecież
+- stark <> dziadek
+- dzéwùs <> dziewczyna
+- drëdżi <> drugi
+- pòtkac sã <> spotkać się
+

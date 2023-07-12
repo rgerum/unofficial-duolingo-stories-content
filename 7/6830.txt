@@ -1,0 +1,128 @@
+[DATA]
+fromLanguageName=It's Not for Kids
+icon=92f8e9fbcb106a065c67e2efcbb467a67077da4b
+set=15|2
+
+[HEADER]
+> 不适合|孩子 
+~ it's~not~suitable~(for)  children
+$6830/ac19df0f.mp3;1,50;3,162;3,363
+
+[LINE]
+> 因为|艾迪|在|上班，|所以|莎丽|和|朱朱|在一起。
+~ because Eddy is working so Zari and Junior are~together       
+$6830/9af0c559.mp3;2,50;3,300;2,387;3,163;2,587;3,188;3,362;2,413;3,162;2,375;3,188;2,475
+
+[LINE]
+Speaker415: 莎丽！|我们|能不能|玩|你的电脑游戏？
+~            Zari   we can play   your~video~game 
+$6830/5f95a2c1.mp3;2,50;2,700;6,562;2,813;2,187;2,113;3,100;3,375;2,575
+
+[LINE]
+Speaker418: 啊… 我|需要|清理|房子|因为|你的爸爸|快要来了！
+~           ohhh  I have~to clean   the~house because your~dad is~going~to~arrive~soon   
+$6830/ab1abfdf.mp3;1,50;2,1200;3,87;3,338;3,375;3,625;2,300;2,100;3,112;3,475;2,375;2,225;2,275
+
+[MULTIPLE_CHOICE]
+> Zari has time to play video games with Junior.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker415: 那么… 我能不能|自己|玩游戏？ 
+~           well    can~I~play by~myself play~video~game
+$6830/c8b63d2b.mp3;2,50;2,1425;2,162;3,163;3,325;2,375;3,150;2,525
+
+[LINE]
+Speaker418: 对不起，|我的|游戏|不适合|孩子|玩的。   
+~           I'm~sorry  my video~game (is)~not~suitable~(for) children (to)~play
+$6830/6855186d.mp3;3,50;2,762;4,138;2,462;2,388;3,137;3,300;2,375;2,263;2,237
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(我)|(不是)|(一个)|(孩子)！] 
+~              I    am~not   a    child   
+$6830/a6d1041d.mp3;1,50;3,225;3,375;3,275;2,562
+
+[LINE]
+Speaker418: 嗯… 那么，|大人|会|洗碗。
+~           hmm  well   adults  can   wash~the~dishes 
+$6830/d098399b.mp3;1,50;3,1037;2,550;3,125;2,400;2,150;2,263;2,362
+
+[LINE]
+Speaker415: 我|知道|怎么|洗碗！
+~            I  know how to~wash~the~dishes 
+$6830/c4a383f4.mp3;1,50;3,137;3,575;3,300;2,513
+
+[CONTINUATION]
+> What comes next?
+> 朱朱|开始|洗[碗]。
+~ Junior starts    to~wash~the~dishes  
+$6830/0629b818.mp3;2,50;3,425;2,400;2,262;2,313
+
++ 洗碗
+~ to~wash~the~dishes
+- 我的电脑游戏
+~ my~video~game 
+- 大人
+~ adults     
+
+[LINE]
+Speaker415: 看到了吗？
+~            see~(did~you~see?) 
+$6830/f317200b.mp3;2,50;2,550;2,100
+
+[LINE]
+Speaker418: 大人|会|收拾桌子。
+~           adults can     clean~the~table 
+$6830/c0d6633a.mp3;2,50;2,500;3,150;3,325;2,600
+
+[LINE]
+Speaker415: 我|知道|怎么|收拾|桌子！
+~            I  know how to~clean the~table 
+$6830/7c7e64b9.mp3;1,50;3,175;3,562;3,325;3,313;2,475
+
+[SELECT_PHRASE]
+> Select the missing phrase
+> 朱朱|[收拾桌子]。
+~ Junior  cleans~the~table  
+$6830/d6f35e1b.mp3;2,50;3,375;3,375;2,500
+
+- 收拾椅子
++ 收拾桌子
+- 收拾木子
+
+[LINE]
+Speaker418: 很好！|是的，|你是|个|大人。
+~            very~good  yes  you~are an adult  
+$6830/fef0c4fe.mp3;1,50;2,300;2,362;3,563;2,725;2,100;3,100;3,275;2,525
+
+[LINE]
+Speaker415: 现在|我们能玩|你的游戏了|吗？
+~             now   we~can~play   your~video~game （question~marker） 
+$6830/c0a04c13.mp3;2,50;3,487;2,225;2,175;5,438;2,700;2,87;2,275
+
+[LINE]
+Speaker418: 糟糕！|九点了。|你需要|去睡觉！
+~            oh~no  it's~nine~o'clock   you~have~to go~to~bed     
+$6830/f2543295.mp3;2,50;2,612;4,563;2,825;2,550;3,162;2,313;3,150;2,600
+
+[LINE]
+Speaker415: 但是|我是|个|大人！|大人|睡觉晚。
+~            but  I~am an adult   adults      go~to~bed~late  
+$6830/fd5ec626.mp3;2,50;2,362;3,163;3,350;2,475;3,562;3,375;2,475;2,363
+
+[MULTIPLE_CHOICE]
+> Junior thinks he is an adult now, so…
+- …he needs to find a job.
+- …he can marry Zari.
++ …he can go to bed late.
+
+[MATCH]
+> Tap the pairs
+- 适合 <> suiable
+- 清理 <> to clean
+- 糟糕 <> oh no
+- 洗碗 <> to wash dishes
+- 房子 <> house
+

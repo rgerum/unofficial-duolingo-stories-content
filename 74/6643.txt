@@ -1,0 +1,136 @@
+[DATA]
+fromLanguageName=Doctor Eddy
+icon=29c5abbf74b46e43a4de510ac83e302c0722a100
+set=2|4
+
+[HEADER]
+> 艾迪|醫生
+~  Eddy (the)~doctor
+$6243/2a2e42de.mp3;2,50;3,412
+
+[LINE]
+> 艾迪|在|超市。
+~ Eddy is~(at) (the)~supermarket  
+$6243/d2c18906.mp3;2,50;2,425;3,162;2,563
+
+[LINE]
+> 一位女生|對他|說話。
+~ a~woman to~him talks
+$6243/2b996644.mp3;1,50;2,162;3,150;2,438;2,150;3,162
+
+[MULTIPLE_CHOICE]
+> A woman talks to Eddy at the supermarket.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker724: 你好！
+~            hello 
+$6243/2e989c70.mp3;2,50
+
+[LINE]
+Speaker414: 哦，|你好！
+~           oh   hello 
+$6243/2eb658b4.mp3;1,50;3,675
+
+[LINE]
+Speaker724: 你是不是|醫生？
+~            are~you (a)~doctor 
+$6243/379e2948.mp3;1,50;2,175;3,175;3,237
+
+[LINE]
+Speaker414: 我？ |醫生？ |啊...
+~            me   (a)~doctor  ah 
+$6243/383a3f68.mp3;1,50;3,1175;2,1137
+
+[LINE]
+Speaker414: 對。 |我是|醫生。
+~           yes  I~am  (a)~doctor 
+$6243/38eb09f6.mp3;1,50;2,1050;2,275;3,150
+
+[LINE]
+Speaker724: 好...
+~           OK
+$6243/3b8f022a.mp3;1,50
+
+[LINE]
+> 艾迪|不是|醫生。
+~ Eddy is~not (a)~doctor 
+$6243/3c369a58.mp3;2,50;3,412;3,338
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(我有)  (很多)    (錢)。 ]
+~             I~have   a~lot~(of)   money    
+$6243/4569f728.mp3;1,50;2,237;3,113;2,300
+
+[LINE]
+Speaker414: 我|住在|豪宅裡。
+~           I live in~(a)~mansion
+$6243/4a345f6e.mp3;1,50;2,287;2,125;3,100;2,363
+
+[LINE]
+Speaker414: 我|穿|名牌的衣服。
+~           I wear branded~clothes
+$6243/4aa239ee.mp3;1,50;2,212;3,250;2,313;3,87
+
+[LINE]
+Speaker724: 好。 |但是...
+~           OK         but  
+$6243/4b9801c6.mp3;1,50;3,925
+
+[LINE]
+Speaker724: 那位老人|現在|需要|醫生！
+~            that~old~man now needs (a)~doctor
+$6243/4db5289e.mp3;1,50;2,137;3,113;3,325;3,350;3,287
+
+[LINE]
+Speaker724: 他|靠近|牛奶！
+~            he (is)~near   (the)~milk  
+$6243/4e2d535a.mp3;1,50;3,150;3,425
+
+[LINE]
+Speaker724: 他|真的|需要|你的|幫助！
+~           he really needs your help
+$6243/506c42ca.mp3;1,50;3,162;3,325;2,288;2,100;3,100
+
+[MULTIPLE_CHOICE]
+> The man who needs help is near the…
+- …station.
+- …tomatoes.
++ …milk.
+
+[POINT_TO_PHRASE]
+> Choose the option that means "sick."
+Speaker724: (他)  (+病) 得  (很重)！
+~             he (is)~sick (to~the~degree~of~being) very~serious
+$6243/6e576bd4.mp3;1,50;2,162;2,200;2,100;2,225
+
+[LINE]
+Speaker414: 哦！
+~            oh
+$6243/622fc02c.mp3;1,50
+
+[LINE]
+> 艾迪|看見了|一位女生，|對她|說話。
+~ Eddy sees a~woman to~her talks
+$6243/83b747e2.mp3;2,50;3,375;2,387;2,88;2,125;3,150;2,775;2,162;3,163
+
+[LINE]
+Speaker414: 你好，|你是|醫生|嗎？
+~           hello   are~you (a)~doctor  ~
+$6243/8487cf2a.mp3;2,50;2,850;2,300;3,125;2,262
+
+[MULTIPLE_CHOICE]
+> What happened in the story?
+- Eddy started med school to become a doctor.
++ Eddy pretended to be a doctor to impress a woman.
+- Eddy saved a man at the supermarket.
+
+[MATCH]
+> Tap the pairs
+- 醫生 <> doctor
+- 病 <> sick
+- 牛奶 <> milk
+- 豪宅 <> mansion
+- 超級市場 <> supermarket

@@ -1,0 +1,153 @@
+[DATA]
+fromLanguageName=A New Coat
+icon=966f6e25540bc4ba5347e59005bcc1e2827fdd66
+set=3|1
+
+[HEADER]
+> Нове пальто
+~ new coat    
+$6383/55adc79e.mp3;4,50;7,437
+
+[LINE]
+> Тімур в магазині.
+~ timur (is)~in a~store  
+$6383/57c97104.mp3;5,50;2,425;9,75
+
+[LINE]
+> Жінка починає з ним розмовляти. 
+~ a~woman starts with him talking 
+$6383/5978e52a.mp3;5,50;8,500;2,487;4,88;11,175
+
+[LINE]
+Speaker175: Доброго~ранку! 
+~            good~morning 
+$6383/8777971e.mp3;7,50;6,587
+
+[LINE]
+Speaker440: Доброго~ранку. 
+~           good~morning 
+$6383/66a119ac.mp3;7,32;6,386
+
+[LINE]
+Speaker175: Ви тут працюєте?
+~            (do)~you here   work 
+$6383/957e5208.mp3;2,50;4,287;9,200
+
+[MULTIPLE_CHOICE]
+> A woman asks Timur if he works at the store.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker440: Я…
+~           I  
+$6383/790af7d4.mp3;3,32
+
+[POINT_TO_PHRASE]
+> Choose the option that means "help."
+Speaker175: (Прекрасно)! (Мені~потрібна) (+допомога).
+~             perfect     I~need      help   
+$6383/892ece30.mp3;9,50;5,1712;9,375;9,488
+
+[LINE]
+Speaker440: Але…
+~           but  
+$6383/8531559e.mp3;5,32
+
+[LINE]
+Speaker175: Мені~потрібна нове пальто.
+~           I~need     a~new coat     
+$6383/859665d0.mp3;4,50;9,375;5,475;7,287
+
+[LINE]
+Speaker175: Вам подобається червоне?    
+~            (do)~you like the~red~one 
+$6383/859665d0.mp3;3,50;12,337;8,625
+
+[MULTIPLE_CHOICE]
+> The woman asks Timur if he…
+- …wants a new coat.
+- …likes working at the store.
++ …likes the red coat.
+
+[LINE]
+Speaker440: Ви…
+~           you   
+$6383/94745290.mp3;4,32
+
+[LINE]
+Speaker175: Чи подобається коричневе?    
+~            or do~you~prefer the~brown~one 
+$6383/8b38fd5e.mp3;2,50;12,250;10,662
+
+[LINE]
+Speaker440: Ммм…
+~           hmm 
+$6383/59313694.mp3;2,32
+
+[LINE]
+Speaker440: Коричневе пальто комфортне     і  дешеве.
+~           the~brown coat    is~comfortable and cheap  
+$6383/c9e20684.mp3;9,32;7,475;10,234;2,443;7,72
+
+[LINE]
+Speaker440: Але червоне     дуже гарне.
+~           but  the~red~one very pretty 
+$6383/8d25f554.mp3;3,32;8,217;5,355;6,169
+
+[LINE]
+Speaker440: І елегантне!
+~            and  elegant  
+$6383/c710af82.mp3;1,32;10,129
+
+[ARRANGE]
+> Tap what you hear
+Speaker440: [(Воно)   (ідеально) (для) (вас)!]
+~              it's   perfect    for    you     
+$6383/c5726684.mp3;4,32;9,314;4,387;4,112
+
+[LINE]
+Speaker175: Добре. Я хочу червоне пальто!
+~           OK          I want red coat    
+$6383/8b333066.mp3;5,50;2,787;5,213;8,350;7,487
+
+[LINE]
+Speaker175: Дякую!   Ви дуже добре виконуєте вашу роботу!
+~            thank~you   you~are very good  at~doing your job     
+$6383/e4b2d606.mp3;5,50;3,1662;5,300;6,313;10,300;5,700;7,325
+
+[MULTIPLE_CHOICE]
+> What does the woman mean?
+- She thinks Timur should get a new job.
++ She thinks Timur is good at his job.
+- She thinks the red coat is ugly.
+
+[LINE]
+Speaker175: Та платити?  
+~            and (to)~pay 
+$6383/eef6fb2e.mp3;2,50;8,200
+
+[LINE]
+Speaker440: Я не знаю.     
+~           I  don't know 
+$6383/f27a3ee6.mp3;1,32;3,193;5,105
+
+[LINE]
+Speaker440: Я тут не прайцюю.
+~           I  here don't work 
+$6383/9259f6a6.mp3;1,32;4,209;3,129;8,97
+
+[MULTIPLE_CHOICE]
+> What happened in the story?
+- A woman gave Timur a job at the store.
++ A woman thought Timur worked at the store.
+- A woman helped Timur buy a new hat.
+
+[MATCH]
+> Tap the pairs
+- Mмм <> hmm
+- Для <> for
+- розмовляти <> talks 
+- Доброго ранку <> good morning
+- ідеально <> perfect
+

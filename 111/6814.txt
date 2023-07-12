@@ -1,0 +1,136 @@
+[DATA]
+fromLanguageName=Clothes for My Vacation
+icon=6fee4723d01611cffa9b4b76fd5be36697ef1e96
+set=4|3
+
+[HEADER]
+> Drēbes    manam~atvaļinājumam
+~ clothes for~my~vacation  
+$6814/4cee20a2.mp3;6,137;6,425;14,250
+
+[LINE]
+> Lūsija ir veikalā.
+~ Lucy is   at~a~store  
+$6814/becfe4da.mp3;6,175;3,400;8,100;2,650
+
+[LINE]
+Speaker416: Sveiki,  vai jums vajag palīdzību?
+~           hello   do you need help  
+$6814/0ebe96b7.mp3;6,112;2,600;4,250;5,138;6,262;10,300
+
+[LINE]
+Speaker509: Jā,  man vajag drēbes    manam~atvaļinājumam.
+~           yes  I need   clothes for~my~vacation   
+$6814/6f01f7c6.mp3;2,237;2,300;4,63;6,175;7,350;6,462;14,288;2,1150
+
+[MULTIPLE_CHOICE]
+> Lūsija is shopping for clothes for a vacation.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker416: Labi.
+~           OK        
+$6814/405ff2ba.mp3;4,337;2,475
+
+[LINE]
+Speaker509: Man vajag kleitu.
+~           I need   a~dress   
+$6814/1a79d769.mp3;3,187;6,175;7,375;2,600
+
+[LINE]
+> Lillija meklē  zaļu kleitu.
+~ Lily looks~for green dress   
+$6814/738c9329.mp3;7,237;6,400;5,338;7,325;2,625
+
+[MULTIPLE_CHOICE]
+> Lillija is getting a…
++ …green dress.
+- …red dress.
+- …green hat.
+
+[LINE]
+Speaker509: Nē, es gribu sarkanu kleitu!
+~            no  I  want   red dress    
+$6814/003ca8ef.mp3;2,225;2,350;3,75;6,187;8,238;7,525;2,612
+
+[LINE]
+> Lillija meklē  sarkanu kleitu.
+~ Lily looks~for red dress    
+$6814/e63773a5.mp3;7,187;6,400;8,350;7,475;2,613
+
+[LINE]
+Speaker509: Un es gribu jaku.
+~           and I want a~jacket   
+$6814/1b2cb778.mp3;2,162;3,113;6,212;5,263;2,537
+
+[ARRANGE]
+> Tap what you hear
+> [(Lillija) (meklē) (sarkanu) (jaku).]
+~   Lily   looks~for   red jacket      
+$6814/3c2b418c.mp3;7,175;6,387;8,350;5,438;2,537
+
+[LINE]
+Speaker509: Nē, es gribu brūnu jaku!
+~            no  I  want   brown jacket    
+$6814/34899d03.mp3;2,250;2,362;3,75;6,188;6,275;5,387;2,625
+
+[LINE]
+Speaker416: Labi…
+~           OK        
+$6814/90ef84f2.mp3;4,337
+
+[LINE]
+Speaker509: Sarkanu kleitu, brūnu jaku…
+~           red dress     brown jacket    
+$6814/123b8b32.mp3;7,87;7,550;2,525;6,250;5,425
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: [Un cepuri]!
+~             and a~hat 
+$6814/f08af316.mp3;2,125;7,137;2,838
+- Un cālīti
+- Un cepumu
++ Un cepuri
+
+[LINE]
+> Lillija meklē  zilu cepuri.
+~ Lily looks~for blue hat      
+$6814/6fa83d4b.mp3;7,200;6,400;5,350;7,300;2,575
+
+[LINE]
+Speaker509: Nē, es gribu pelēku cepuri!
+~            no  I  want   gray hat      
+$6814/58442623.mp3;2,237;2,350;3,63;6,175;7,275;7,462;2,813
+
+[LINE]
+> Lillija meklē  pelēku jaku.
+~ Lily looks~for gray hat      
+$6814/1b7f2570.mp3;7,175;6,387;7,388;5,412;2,538
+
+[POINT_TO_PHRASE]
+> Choose the option meaning "ready."
+Speaker509: Paldies!   (Es) (esmu) (+gatava) (manam~atvaļinājumam)!
+~             thank~you     I am     ready   for~my~vacation   
+$6814/d08ab86b.mp3;7,125;2,600;3,975;5,137;7,313;6,425;14,325;2,1162
+
+[LINE]
+Speaker416: Tagad man vajag atvaļinājumu.  
+~           now   I  need     a~vacation 
+$6814/285480a4.mp3;5,112;4,250;6,163;13,387;2,1063
+
+[MULTIPLE_CHOICE]
+> Poor Lillija! Why does she need a vacation?
+- She ate too much for lunch.
++ She's tired after helping Lucy find clothes.
+- She wants to buy new clothes to wear.
+
+[MATCH]
+> Tap the pairs
+- un <> and
+- sarkana jaka <> red jacket
+- pelēka cepure <> gray hat
+- paldies <> thank you
+- nē <> no
+

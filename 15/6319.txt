@@ -3,34 +3,45 @@ fromLanguageName=At the Gym
 icon=c11e22dbce96e56db5b41dd6e0d41b36ee6e24f8
 set=38|2
 
+# Done except for fixing audio
+
 [HEADER]
 > Spor~Salonunda
 ~ at~the~gym     
+$6319/a74d4833.mp3;4,0;10,379
 
 #Beğayla
 #Bea'yla
 [LINE]
 > Eddy, arkadaşı Beğayla spor~salonundadır.
 ~ Eddy his~friend with~Bea is~at~the~gym
+$6319/128fbed5.mp3;5,0;9,490;8,559;5,455;14,351
 
 [LINE]
 > O, bir kadın ve çok yakışıklı bir adam görür. 
 ~ he a woman and very handsome a man he~sees
+$6319/411846e9.mp3;2,0;4,369;6,95;3,360;4,135;10,276;4,479;5,105;7,325
+#$6319/411846e9.mp3;2,369;4,95;6,360;3,135;4,276;10,479;4,105;5,325;7,715
 
 [LINE]
-Speaker414: Yok ya! Bence eski kız arkadaşım Pınar yeni erkek arkadaşıyla burada.
-~            oh~no  I~think that my ex  Pınar  is   here with her new   boyfriend 
+Speaker414: Yok~ya! Bence eski~kız~arkadaşım Pınar yeni~erkek~arkadaşıyla burada.
+~         oh~no  I~think my~ex~girlfriend  Pınar  with~her~new~boyfriend she~is~here
+
 
 [LINE]
 Speaker507: Çok yakışıklı, şu kaslara bak!
 ~        very he~is~handsome those to~the~muscles look~at
+$6319/41da1804.mp3;3,0;11,278;3,713;8,166;5,487
+#$6319/41da1804.mp3;3,278;11,713;3,166;8,487;5,683
 
-#Beğa
+#Beğaa
 #Bea
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker414: Sağ~ol,   Beğa. Artık [kendimi çok daha~iyi hissediyorum].
+Speaker414: Sağ~ol,   Beğaa. Artık [kendimi çok daha~iyi hissediyorum].
 ~           thanks  Bea  now   myself much better I~feel
+$6319/b4927d25.mp3;3,50;3,387;2,275;6,113;2,450;6,975;8,650;4,437;5,275;4,275;13,163;2,987
+
 - kendimi çok az iyi hissediyorum
 + kendimi çok daha iyi hissediyorum
 - kendimi çok daha mutlu hissediyorum
@@ -38,19 +49,22 @@ Speaker414: Sağ~ol,   Beğa. Artık [kendimi çok daha~iyi hissediyorum].
 [LINE]
 Speaker507: Her~zaman bu spor~salonuna geldiğini biliyor. Neden onunla geldi? 
 ~      always this to~the~gym that~you~come she~knows why with~him did~she~come
+$6319/a0a13042.mp3;3,244;6,410;3,89;5,359;9,497;10,546;9,867;6,319;7,406;7,678
 
 [LINE]
 Speaker414: Bir~süre koşacağım. Beni daha~iyi hissettirecek. 
 ~       for~a~while I~am~going~to~run me better that~will~make~me~feel
+$6319/614f88f8.mp3;3,50;5,450;10,275;2,912;5,925;5,475;4,288;14,175;2,1100
 
 [LINE]
 > Eddy koşu~bandına doğru gider.
 ~ Eddy to~the~treadmill towards he~goes
+$6319/8c860b10.mp3;4,219;5,290;8,445;6,315;7,764
 
 #Eddynin
 #Eddy'nin
 [LINE]
-> Yakışıklı adam, Eddy'nin yanındaki koşu~bandına çıkar.
+> Yakışıklı adam, Eddynin~yanındaki koşu~bandına çıkar.
 ~ handsome the~man that~is~next~to~Eddy to~the~treadmill he~gets~on
 
 [LINE]
@@ -62,6 +76,7 @@ Speaker823: Merhaba, birbirimizi tanıyor~muyuz?
 ~ in~the~continuation what will~come
 Speaker414: Üzgünüm, [koşarken] konuşamam.      
 ~      I'm~sorry  while~running  I~cannot~talk 
+
 - yemek~yerken      
 ~ while~eating
 + koşarken      
@@ -90,106 +105,116 @@ Speaker414: Biliyorum!
 Speaker823: [(Neredeyse) (benim)~(kadar) (hızlısın)!]
 ~           almost    as~me   you~are~(as)~fast
 
+
 #Pınarın
 #Pınar'ın
 [LINE]
 > Eddy, Pınarın onlara baktığını görür.  
 ~ Eddy of~Pınar to~them that~she~is~looking~at he~sees
-***********************************
+
 [LINE]
-Speaker414: En~realidad, yo puedo correr   incluso más~rápido.
-~           actually     I  can   (to)~run even    faster     
+Speaker414: Aslında, daha~da~hızlı koşabilirim.
+~           actually  even~faster I~can~run     
 
 [POINT_TO_PHRASE]
-> Selecciona la  opción que  significa "speed".
-~ choose     the option that means      ~      
-> (Eddy) (aumenta)   la  (+velocidad) de su  (caminadora).
-~  Eddy   increases  the   speed      of his  treadmill   
+> "Speed" anlamına~gelen seçeneği seçin.
+~   ~    that~means the~option select     
+> (Eddy) (koşu)~(bandının) (+hızını) (arttırır).
+~  Eddy   of~his~treadmill  its~speed he~increases
 
 [LINE]
-Speaker823: ¿Es    una competencia? ¡Porque  me~encantan las~competencias!
-~            is~it a   competition   because I~love      competitions     
+Speaker823: Bu bir~yarışma~mı? Çünkü yarışmaları severim!
+~       this is~it~a~competition   because  competitions   I~love       
 
 [ARRANGE]
 > Tap what you hear
-> [(El~hombre) (también) (aumenta)   (la)  (velocidad).]
-~   the~man     also      increases   the   speed       
+> [(Adam) (da) (hızını)  (arttırır).]
+~   the~man also his~speed  he~increases
+
+
+#Pınarın
+#Pınar'ın
+[LINE]
+Speaker823: Bir~dakika! Şimdi seni nereden tanıdığımı biliyorum! Pınarın eski~erkek~arkadaşı|sın!
+~          wait    now you from~where that~I~know I~know  of~Pınar her~ex~boyfriend you~are
+
 
 [LINE]
-Speaker823: ¡Espera, ya  sé     de~dónde~te~conozco!   ¡Tú  eres el~ex~de~Pınar!
-~            wait    now I~know where~I~know~you~from   you are  Pınar's~ex     
-
-[LINE]
-Speaker414: ¿Pınar te~habló~de    mí?
-~            Pınar told~you~about me 
+Speaker414: Pınar sana benden bahsetti~mi?
+~         Pınar to~you of~me did~she~tell~you
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker823: No, pero vi    [fotos~de~ustedes] en sus redes~sociales.
-~           no  but  I~saw  pictures~of~you   on her social~media   
-+ fotos de ustedes
-- foros de usted
-- fotos de redes
+Speaker823: Hayır, ama  sosyal~medyasında [senin~fotoğraflarını] gördüm.
+~           no  but on~her~social~media   pictures~of~you    I~saw  
+
++ senin fotoğraflarını
+- benim fotoğraflarımı
+- onun fotoğraflarını
 
 [LINE]
-> De~repente, Eddy se~cae~de la  caminadora. El  hombre va   a  ayudarlo.     
-~ suddenly    Eddy falls~off the treadmill   the man    goes to (to)~help~him 
+> Birdenbire, Eddy koşu~bandından düşer. Adam ona yardım~etmeye gider.
+~ suddenly  Eddy from~the~treadmill he~falls~off  the~man to~him to~help he~goes
+
+
+#Eddyye
+#Eddy'ye
+[LINE]
+> Pınar, Eddyye koşar.
+~ Pınar to~Eddy she~runs
 
 [LINE]
-> Pınar corre hacia Eddy.
-~ Pınar runs  to    Eddy 
-
-[LINE]
-Speaker658: ¿Estás   bien?
-~            are~you OK   
+Speaker658: İyi~misin?
+~            are~you~okay   
 
 [CONTINUATION]
-> ¿Qué~sigue?      
-~  what~comes~next 
-Speaker414: No… ¡Acabo~de~caerme enfrente de mi ex y   [su  novio]!    
-~           no   I~just~fell     in~front of my ex and  her boyfriend  
-+ su  novio    
-~ her boyfriend
-- su  pez~mascota
-~ her pet~fish   
-- mi maestro~de~la~secundaria
-~ my high~school~teacher     
+> Devamında ne gelecek?  
+~ in~the~continuation what will~come
+Speaker414: Hayır~… Az~önce eski~kız~arkadaşım ve [yeni~erkek~arkadaşının] önüne düştüm!    
+~           no     just~now  my~ex~girlfriend and of~her~new~boyfriend to~in~front~of I~fell 
+
++ yeni~erkek~arkadaşının   
+~ of~her~new~boyfriend
+- evcil~balığının
+~ of~her~pet~fish   
+- lise~öğretmenimin
+~ of~my~high~school~teacher     
 
 [LINE]
-Speaker658: No~es     mi novio.     Alberto es mi primo. 
-~           he~is~not my boyfriend  Alberto is my cousin 
+Speaker658: O, erkek~arkadaşım değil.  Alper kuzenim. 
+~         he my~boyfriend he~is~not Alper he~is~my~cousin 
 
 [LINE]
-Speaker823: Y   yo prefiero~a los~hombres.
-~           and I  prefer     men         
+Speaker823: Erkekleri ben~tercih~ediyorum.
+~          men         I~prefer 
 
 [LINE]
-Speaker414: Ah…
+Speaker414: Ah~…
 ~           oh 
 
 [LINE]
-Speaker823: Y   creo    que  tú  eres muy  guapo.   
-~           and I~think that you are  very handsome 
+Speaker823: Ve bence çok yakışıklısın.   
+~       and I~think very you~are~handsome 
 
 [LINE]
-Speaker823: Por~eso    decidí    correr a~tu~lado.  
-~           that's~why I~decided to~run next~to~you 
+Speaker823: Bu~yüzden senin~yanında koşmaya karar~verdim. 
+~         that's~why next~to~you to~run  I~decided 
 
 [MULTIPLE_CHOICE]
-> ¿Quién era el  hombre~guapo que estaba en el  gimnasio con  Pınar?
-~  who   was the handsome~man who was    at the gym      with Pınar 
-- su  nuevo novio    
-~ her new   boyfriend
-- el~primo~de~Bea
+> Pınar'la~birlikte spor~salonuna gelen yakışıklı adam kimdi?
+~  together~with~Pınar  to~the~gym who~came handsome the~man who~was~(he)
+- yeni erkek~arkadaşı   
+~ new   her~boyfriend
+- Bea'nın~kuzeni
 ~ Bea's~cousin   
-+ su  primo 
-~ her cousin
++ onun~kuzeni
+~ her~cousin
 
 [MATCH]
 > Tap the pairs
-- Lo siento <> I'm sorry
-- El hombre <> the man
-- este <> this
-- incluso <> even
-- Hola <> hello
+- üzgünüm <> I'm sorry
+- tercih <> preference
+- koşu bandı <> treadmill
+- daha da hızlı <> even faster
+- yarışma <> competition
 

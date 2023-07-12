@@ -1,0 +1,147 @@
+[DATA]
+fromLanguageName=Sports Are Great
+icon=bd3ee21fde9eb547f2dcf8531f965477a9f4f00f
+set=7|4
+
+[HEADER]
+> Sport är toppen
+~ sport is  great
+$6939/5b296b03.mp3;5,6;3,451;7,144
+
+[LINE]
+> Eddy och Junior är i~ett~varuhus.       
+~ Eddy and Junior are  at~a~department~store 
+$6939/909cb483.mp3;4,6;4,251;7,90;3,406;2,200;4,115;8,133
+
+[LINE]
+Speaker414: Åh Junior, du  vill hålla~på~med~sport!
+~           oh Junior  you want   to~do~sports 
+$6939/5a7a673c.mp3;2,50;7,125;2,637;3,188;5,150;6,162;3,263;4,150;6,112;2,525
+
+[LINE]
+Speaker414: Det är fantastiskt!  Sport är toppen!
+~           that is  great  sport is  great 
+$6939/127925a8.mp3;3,50;3,137;12,113;2,1037;6,938;3,437;7,163;2,600
+
+[LINE]
+Speaker414: Vill~du spela~basketboll?
+~           do~you~want to~play~basketball 
+$6939/2dcb1705.mp3;4,50;3,212;6,150;11,388
+
+[LINE]
+Speaker415: Jag tycker~inte~om bollspel. 
+~           I   don't~like ball~games 
+$6939/39c3d408.mp3;3,50;7,162;5,325;3,175;9,113;2,737
+
+[MULTIPLE_CHOICE]
+> Junior doesn't like ball games.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker414: De~här fotbollsskorna är coola!
+~           these soccer~shoes  are  cool 
+$6939/8aedc97a.mp3;2,50;4,200;15,200;3,962;6,125;2,500
+
+[CONTINUATION]
+> What comes next?
+Speaker415: Fotboll är ett [bollspel].
+~           soccer  is  a    ball~game 
+$6939/6ff7a1cb.mp3;7,50;3,650;4,175;9,125;2,750
+- gym
+~ gym          
++ bollspel
+~ ball~game
+- höghus
+~ favorite~food 
+
+[LINE]
+Speaker414: Okej, kanske …
+~           OK  maybe       
+$6939/08a7f15e.mp3;4,50;2,512;7,163
+
+[LINE]
+Speaker415: Jag vill     —
+~           I   want~to
+$6939/7c583cc5.mp3;3,50;5,200;2,312
+
+[LINE]
+Speaker414: Simma! Vill~du simma?!
+~           swimming   do~you~want to~swim    
+$6939/4b500ced.mp3;5,50;2,500;5,937;3,188;6,112
+
+[LINE]
+Speaker415: Nej!
+~           no   
+$6939/1658f28b.mp3;3,50;2,437
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Men) (simning) (är) (inget)  (bollspel)!]
+~             but    swimming    is    not~a   ball~game   
+$6939/4905e663.mp3;3,50;8,225;3,512;6,200;9,200;2,750
+
+[LINE]
+Speaker415: Nej, pappa!
+~           no    dad  
+$6939/186120d1.mp3;3,50;2,425;6,162;2,500
+
+[LINE]
+Speaker414: Okej, vilken sport vill~du hålla~på{poː:ipa}~med?
+~           OK  which   sport do~you~want to~do  
+$6939/3d352d9a.mp3;4,50;2,475;7,250;6,350;5,412;3,188;6,87;3,238;4,162
+
+[LINE]
+> Junior går till balettskorna.
+~ Junior goes to the~ballet~shoes   
+$6939/dbf71a59.mp3;6,6;4,482;5,150;13,171
+
+[MULTIPLE_CHOICE]
+> Oh! It seems like Junior wants to...
+- …play soccer.
+- …go for a swim.
++ …try dancing.
+
+[LINE]
+Speaker415: Jag skulle~så~gärna~vilja ... dansa. 
+~           I   would~really~like   to~dance 
+$6939/8e3fe854.mp3;3,50;7,187;3,263;6,150;6,350;6,1200;2,500
+
+[LINE]
+Speaker414: Du vill dansa?!  
+~           you want   to~dance  
+$6939/32ce34e5.mp3;2,50;5,175;6,150
+
+[LINE]
+Speaker415: Ja  … är det ett problem?
+~           yes   is  that a   problem 
+$6939/295a99d4.mp3;2,50;3,1112;4,88;4,100;8,125
+
+[LINE]
+Speaker414: Nej, nej! Dans är också en sport!
+~           no    no    dancing is  also a sport 
+$6939/209b88ad.mp3;3,50;4,300;2,362;5,888;3,412;6,100;3,300;6,75;2,563
+
+[LINE]
+> Eddy dansar genom varuhuset.       
+~ Eddy dances through the~department~store 
+$6939/3707ca2a.mp3;4,6;7,233;6,513;10,318
+
+[LINE]
+Speaker415: Pappa, nej! Snälla!  Det är inte roligt!
+~           dad   no    please  that is  not   funny  
+$6939/a2986152.mp3;5,50;2,487;4,138;2,437;7,875;2,538;4,950;3,162;5,63;7,225;2,587
+
+[MULTIPLE_CHOICE]
+> Why is Eddy dancing?
++ He's excited that Junior wants to dance.
+- He wants to show Junior that dancing is hard.
+- He's trying on a pair of ballet shoes.
+
+[MATCH]
+> Tap the pairs
+- skulle så gärna vilja <> would really like
+- är <> is
+- simning <> swimming
+- toppen <> great
+- balletskorna <> the ballet shoes

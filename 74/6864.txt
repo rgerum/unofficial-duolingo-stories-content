@@ -1,0 +1,136 @@
+[DATA]
+fromLanguageName=The Garden
+icon=b4090fb3357cd46aa8eac9f22c4fbbe3265d273e
+set=9|2
+
+[HEADER]
+> 花園 
+~ the~garden
+$6864/4d12db6a.mp3;2,50
+
+[LINE]
+> 維克拉姆|去|醫院|看|他生病的|奶奶。
+~ Vikram visits~(goes~to)  the~hospital to~see his~sick (paternal)~grandmother
+$6864/70fd72e6.mp3;1,50;4,175;2,587;3,188;2,387;2,188;3,137;2,400;3,88;2,450
+
+[LINE]
+Speaker593: 奶奶好！    
+~            hello~grandmother 
+$6864/d5136d94.mp3;2,50;2,287;2,188
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker593: 你|[今天|感覺怎麼樣]?       
+~            you  today how~(are~you)~feeling  
+$6864/56b77eca.mp3;1,50;3,187;3,325;3,325;2,200
+
++ 今天感覺怎麼樣
+- 昨天感覺怎麼樣
+- 今天感覺什麼樣
+
+[LINE]
+Speaker129: 這間房間|很陰沉，|沒有什麽|色彩。
+~           this~room       is~very~gloomy     not~really color 
+$6864/fb5b89b3.mp3;2,70;3,640;2,699;3,310;2,1067;3,272;3,465;3,388;2,951
+
+[POINT_TO_PHRASE]
+> Choose the option that means "sun."
+Speaker129: (今天)​(是)​個​好(天)。​我想​出去​享受​(+太陽)。
+~            today   is  a  nice~day   I~want to~go~out (to)~enjoy the~sun  
+$6864/576ab2f2.mp3;2,77;2,698;2,233;3,136;2,951;2,795;2,524;3,291;3,562;2,718;2,388;2,601
+
+[LINE]
+Speaker129: 但是|我|現在|不是很舒服。
+~           but  I now not~very~comfortable 
+$6864/0e2fc756.mp3;2,70;2,543;3,214;3,562;2,427;3,310;2,854
+
+
+[LINE]
+Speaker593: 聽|你|這麽說|奶奶，|很抱歉。     
+~           hearing you say~this grandmother I'm~sorry 
+$6864/aca51ffc.mp3;1,50;2,225;2,125;2,100;2,100;3,162;2,500;2,225;3,150;2,350
+
+
+[LINE]
+Speaker129: 我愛|在|我家的花園|勞動。
+~           I~love  in  my~garden work~on~(labor) 
+$6864/c9c04610.mp3;1,77;2,310;2,291;2,272;2,213;2,311;3,174;3,641;2,834
+
+[LINE]
+Speaker593: 啊！|我有一個|主意。
+~            oh  I~have an~idea  
+$6864/076fe810.mp3;1,50;2,162;2,538;2,175;2,162;2,113;3,100;2,375
+
+[LINE]
+Speaker593: 等一下！
+~            one~moment 
+$6864/5a408187.mp3;1,50;3,200;2,287
+
+[MULTIPLE_CHOICE]
+> It seems like Vikram…
++ …has an idea to make his grandma feel better.
+- …decided to go to a party.
+- …realized he needs to take a shower.
+
+[LINE]
+> 二十|分鐘|後…
+~ twenty minutes later   
+$6864/8160845a.mp3;3,50;3,562
+
+[LINE]
+> 維克拉姆|拿著|兩盆|植物|走進|奶奶房間。
+~ Vikram holding two~pots plants enters~(walks~in)   grandma's~room
+$6864/d89c6c91.mp3;4,50;3,687;3,363;3,425;3,575;3,425;3,300;2,512
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker593: 這些植物是|[您家的]。   
+~           these~plants~are  from~your~house 
+$6864/af7e1c38.mp3;1,50;2,150;3,125;2,362;2,150;2,213;2,175;2,137
+
+- 你家的
++ 您家的
+- 你加的
+
+[LINE]
+Speaker593: 也|有|一些|來自你花園的|花。
+~           also have   some from~your~garden flowers
+$6864/11749e79.mp3;2,50;3,300;2,275;2,162;2,125;3,138;2,412;2,88;2,200
+
+#[LINE]
+#Speaker129: 我的植物汉花！ 
+[LINE]
+Speaker129: 我的|植物|和|花！ 
+~            my  plants  and flowers 
+$6864/a1c5f163.mp3;1,77;2,272;3,155;3,562;2,990
+
+[LINE]
+Speaker593: 現在|這裡|就有花園！
+~            now  here (just)~have~garden 
+$6864/fdce518d.mp3;2,50;3,450;2,300;2,137;3,125;2,463
+
+[LINE]
+Speaker129: 多漂亮，|親愛的。
+~           how~pretty  my~darling 
+$6864/ccdbe42d.mp3;1,77;3,330;2,1028;3,213;2,776;2,408
+
+[LINE]
+Speaker129: 多謝，|維克拉姆！
+~            thank~you~very~much  Vikram 
+$6864/fc099316.mp3;2,77;2,989;3,272;3,640;2,989
+
+
+[MULTIPLE_CHOICE]
+> How sweet! Vikram…
++ …brought his grandma plants and flowers from her garden.
+- …took his grandma back to her house.
+- …bought his grandma a flower necklace.
+
+[MATCH]
+> Tap the pairs
+- 醫院 <> hospital
+- 植物 <> plant
+- 房間 <> room
+- 舒服 <> well／comfortable
+- 花園 <> garden
+

@@ -1,0 +1,123 @@
+[DATA]
+fromLanguageName=The Vegetarian
+icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
+set=4|1
+
+[HEADER]
+> Lo vegïetarán
+~ the vegetarian 
+
+[LINE]
+> Vikram lege   lo  menú n'un ristorán~marbeito.
+~ Vikram reads the menu in~a  very~pretty~restaurant 
+
+[LINE]
+Speaker385: ¡Bounjor! 
+~            good~morning 
+
+[LINE]
+Speaker593: Teno  una pragüra.
+~           I~have a   question 
+
+[LINE]
+Speaker593: So  vegïetarán. 
+~           I~am a~vegetarian 
+
+[LINE]
+Speaker593: ¿Tenen      manjéi~vegïetarane?
+~            do~you~have vegetarian~food    
+
+[MULTIPLE_CHOICE]
+> Vikram wants to know if they serve vegetarian food.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker385: Sa,  tenemos unos sándwitxes~de~txaça~marbounos.
+~           yes  we~have some very~good~meat~sandwiches      
+
+[LINE]
+Speaker593: ¿Sándwitxes~de~txaça? So  vegïetarán. 
+~            meat~sandwiches      I~am a~vegetarian 
+
+[LINE]
+Speaker385: Ah, si…  padoni.
+~           oh  yes  I'm~sorry 
+
+[LINE]
+Speaker385: Tenemos un pitazo~deliciós.  
+~           we~have a  delicious~chicken 
+
+[MULTIPLE_CHOICE]
+> According to the waiter, their chicken is…
+- …not very tasty.
+- …gluten free.
++ …delicious.
+
+[LINE]
+Speaker593: Lo~pitazo sé txaça.
+~           chicken  is meat  
+
+[ARRANGE]
+> Tap what you hear
+Speaker593: ¡[(Ei)   (jo) (non~manjo)   (txaça)!]
+~              and   I    don't~eat   meat    
+
+[LINE]
+Speaker385: Tenemos ensalayas…
+~           we~have salads    
+
+[LINE]
+Speaker593: ¡Ah, grádenme las~ensalayas!
+~            oh  I~like    salads        
+
+[MULTIPLE_CHOICE]
+> Vikram likes…
+- …the waiter.
++ …salads.
+- …lots of meat.
+
+[LINE]
+Speaker385: Jal      una ensalaya~de tomatà, queso,  parròcha…
+~           there~is a   salad~with  tomato  cheese  salmon 
+
+[LINE]
+Speaker593: ¡Jo non~manjo  parròcha! ¡So vegïetarán! 
+~            I  don't~eat salmon   I~am a~vegetarian 
+
+[LINE]
+Speaker385: Tenemos papas~fretas…
+~           we~have fries          
+
+[LINE]
+Speaker593: Ocá, papas~fretas.
+~           OK         fries          
+
+[MULTIPLE_CHOICE]
+> What food did Vikram order in the end?
++ fries
+- chicken
+- salmon
+
+[LINE]
+Speaker385: Papas~fretas… perfeuto. Ei…   ¿una hamburguesa?
+~           fries           perfect   and   a   hamburger   
+
+[LINE]
+Speaker593: ¡Non~manjo     txaça!
+~            I~don't~eat meat  
+
+[MULTIPLE_CHOICE]
+> Why is Vikram so upset?
+- He's tired of being a vegetarian.
++ The waiter kept offering him meat.
+- The waiter spilled coffee on him.
+
+[MATCH]
+> Tap the pairs
+- pitazo deliciós <> delicious chicken
+- Vikram <> Vikram
+- ensalaya de <> salad with
+- padoni <> I'm sorry
+- tenemos <> we have
+

@@ -1,0 +1,127 @@
+[DATA]
+fromLanguageName=Bom dia
+icon=e6eb499f6c5427de3076401adb1e84003294d689
+set=1|1
+
+[HEADER]
+> Bonjour !
+~ bom~dia  
+$6352/549db02c.mp3;7,50
+
+[LINE]
+Speaker593: Bonjour, Priti !
+~           bom~dia  Priti 
+$6352/602548fe.mp3;7,50;6,750
+
+[LINE]
+Speaker560: Bonjour, chéri. 
+~           bom~dia  querido 
+$6352/964713d8.mp3;7,50;7,775
+
+[LINE]
+Speaker560: Où   sont  mes    clefs ?  
+~           onde estão minhas chaves 
+$6352/d1918a4a.mp3;3,50;5,150;4,187;6,150
+
+[LINE]
+Speaker593: Tes  clefs ?  
+~           suas chaves
+$6352/3b0ce032.mp3;3,50;6,137
+
+[MULTIPLE_CHOICE]
+> Priti não encontra as chaves dela.
+- Não, não é isso.
++ Sim, é isso.
+
+[LINE]
+Speaker560: Oui, j'en     ai~besoin pour aller au travail.   
+~           sim, eu~delas preciso   pra  ir    ao trabalho 
+$6352/c84277f2.mp3;3,50;5,525;3,225;7,162;5,425;6,200;3,200;8,75
+
+[ARRANGE]
+> Escute e selecione as palavras.
+Speaker560: [(J'ai~besoin)     (des) (clefs) (de) (ma) (voiture) !]  
+~             preciso           das   chaves  do   meu  carro
+$6352/b4deb6f8.mp3;4,50;7,262;4,400;6,125;3,213;3,112;8,113
+
+[LINE]
+Speaker593: Priti, tes  clefs  sont  là,   sur   la table !
+~           Priti  suas chaves estão aqui  sobre a  mesa
+$6352/b844e4ca.mp3;5,50;4,550;6,137;5,200;4,188;4,287;3,163;6,100
+
+[POINT_TO_PHRASE]
+> Selecione a opção que significa "cansada."
+Speaker560: (Désolé),     (cheri).  Je suis   (+fatiguée).   Je travaille beaucoup en~ce~moment !
+~            desculpe      querido. eu estou   cansada       Eu trabalho muito     esses~dias
+$6352/e31a9e60.mp3;8,50;6,787;3,1375;5,213;10,162;3,1488;10,212;9,413;3,312;3,75;7,150
+
+[LINE]
+Speaker593: Tu   veux  du~café ?
+~           você quer  café
+$6352/e86a4c62.mp3;2,50;5,137;3,138;6,100
+
+[LINE]
+Speaker560: Oui, s'il~te~plaît.   
+~           sim  por~favor 
+$6352/ea730b2a.mp3;3,50;5,562;3,275;7,150
+
+[LINE]
+Speaker593: Bien~sûr. Le café est  prêt !
+~           claro     o  café está pronto
+$6352/0064d6e8.mp3;4,50;5,275;3,1237;5,175;4,288;5,75
+
+[LINE]
+Speaker560: Où   est  le sucre ? Ah, le~voilà.
+~           onde está o  açucar  ah  aqui~está
+$6352/0403f05e.mp3;3,50;4,150;3,75;6,150;3,1337;3,488;7,112
+
+[MULTIPLE_CHOICE]
+> Hmm... o que Priti está fazendo?
+- Está derramando o café dela na mesa.
++ Está procurando açucar para o café dela.
+- Está colocando açucar nas chaves dela.
+
+[LINE]
+> Priti boit son café.
+~ Priti bebe seu café   
+$6352/7afdb862.mp3;5,50;5,375;4,200;6,137
+
+[LINE]
+Speaker560: Beurk !
+~           eca 
+$6352/06ab5a36.mp3;5,50
+
+[LINE]
+Speaker593: Qu'est-ce~qu'il~y~a~?
+~           o~que~foi
+$6352/09bd7d80.mp3;9,50;6,225;2,137;2,100
+
+[LINE]
+Speaker560: C'est du~sel !
+~           é     sal
+$6352/0bc45d6a.mp3;5,50;3,262;4,150
+
+[LINE]
+Speaker593: Priti, tu   es   très  fatiguée !
+~           Priti  você está muito cansada
+$6352/0dbda7c0.mp3;5,50;3,562;3,100;6,75;10,200
+
+[LINE]
+Speaker560: Oui, j'ai~besoin d'une  tasse  de café … avec du~sucre, pas du~sel !
+~           sim  eu~preciso  de~uma xícara de café  com  açucar    não sal
+$6352/11da91e2.mp3;3,50;5,575;7,187;6,388;6,212;3,263;6,137;5,1225;3,313;6,150;4,637;3,138;4,150
+
+[MULTIPLE_CHOICE]
+> Priti estava tão cansada que…
++ … botou sal no seu café.
+- … adormeçeu na cozinha.
+- … colocou as chaves do carro no café dela.
+
+[MATCH]
+> Combine os pares
+- ton <> seu
+- Priti <> Priti
+- chéri <> querido
+- boit <> bebe
+- je <> eu
+

@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=Clothes for My Vacation
+icon=6fee4723d01611cffa9b4b76fd5be36697ef1e96
+set=4|3
+
+[HEADER]
+> Roba per les vacances
+~ clothes for  the  vacation  
+$6819/823117f1.mp3;4,50;4,362;4,225;9,188
+
+[LINE]
+> La~Lucy és a una botiga.
+~ Lucy is   at a   store  
+$6819/df662c91.mp3;2,50;5,137;3,288;2,200;4,50;7,225;2,537
+
+[LINE]
+Speaker416: Hola,  necessites ajuda?
+~           hello   you~need help  
+$6819/b12b25e4.mp3;4,50;2,237;11,88;6,700
+
+[LINE]
+Speaker509: Sí,  necesito roba    per~a les vacances.
+~           yes  I~need   clothes for  the  vacation   
+$6819/b148f588.mp3;3,419;9,630;5,295;4,165;2,30;4,185;10,1007
+
+[MULTIPLE_CHOICE]
+> Lucy is shopping for clothes for a vacation.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker416: D'acord.
+~           OK        
+$6819/55e0f049.mp3;7,50;2,475
+
+[LINE]
+Speaker509: Necessito un vestit.
+~           I~need   a  dress   
+$6819/8a560234.mp3;9,625;3,90;8,701
+
+[LINE]
+> La~Lily busca     un vestit~verd.
+~ Lily looks~for a  green~dress   
+$6819/fa725dc7.mp3;2,50;5,137;6,250;3,375;7,188;5,375;2,287
+
+[MULTIPLE_CHOICE]
+> Lily is getting a…
++ …green dress.
+- …red dress.
+- …green hat.
+
+[LINE]
+Speaker509: No, jo vull un vestit~vermell!
+~            no  I  want   a  red~dress    
+$6819/ca2e3c67.mp3;3,340;3,200;5,250;3,110;7,345;9,875
+
+[LINE]
+> La~Lily busca     un vestit~vermell.
+~ Lily looks~for a  red~dress    
+$6819/501fd6b1.mp3;2,50;5,137;6,238;3,362;7,188;8,362;2,588
+
+[LINE]
+Speaker509: I   vull una jaqueta.
+~           and I~want a   jacket   
+$6819/587f191d.mp3;1,104;5,215;4,176;9,865
+
+[ARRANGE]
+> Tap what you hear
+> [(La~Lily) (busca)     (una) (jaqueta~vermella).]
+~   Lily   looks~for   a     red~jacket      
+$6819/665af7fe.mp3;2,50;5,137;6,238;4,387;8,238;9,475;2,537
+
+[LINE]
+Speaker509: No, vull una jaqueta~de~color~marró!
+~            no  I~want   a   brown~jacket    
+$6819/38f63fe0.mp3;3,370;5,235;4,145;8,434;3,100;6,275;7,842
+
+[LINE]
+Speaker416: D'acord…
+~           OK        
+$6819/c8f7d186.mp3;7,37
+
+[LINE]
+Speaker509: Un vestit~vermell, una jaqueta~de~color~marró…
+~           a  red~dress     a   brown~jacket    
+$6819/f777dbd7.mp3;2,144;7,380;9,610;4,175;8,436;3,99;6,265;6,506;2,NaN
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: [I un barret]!
+~             and a hat      
+$6819/93abaef1.mp3;1,104;3,115;8,653
+
+- I un barrat
+- I un marrà
++ I un barret
+
+[LINE]
+> La~Lily vol     un barret~blau.
+~ Lily wants a  blue~hat      
+$6819/617e537c.mp3;2,50;5,137;4,263;3,225;7,162;5,375;2,388
+
+[LINE]
+Speaker509: No, jo vull un barret~gris!
+~            no  I  want   a  gray~hat      
+$6819/22ea8084.mp3;3,334;3,205;5,240;3,110;7,326;6,725
+
+[LINE]
+> La~Lily busca     un barret~gris.
+~ Lily looks~for a  gray~hat      
+$6819/656ae3fe.mp3;2,50;5,137;6,250;3,375;7,188;5,375;2,475
+
+[POINT_TO_PHRASE]
+> Choose the option meaning "ready."
+Speaker509: (Gràcies)!  Ja (estic) (+preparada) (per a) les vacances!
+~             thank~you   already/now  I~am     ready   for   my  vacation   
+$6819/503da0e8.mp3;8,899;3,170;6,290;10,520;4,170;2,35;4,195;10,1090
+
+[LINE]
+Speaker416: Ara jo necessito vacances.  
+~           now   I need     (a)~vacation 
+$6819/6f301904.mp3;3,50;3,237;10,225;9,600;2,813
+
+[MULTIPLE_CHOICE]
+> Poor Lily! Why does she need a vacation?
+- She ate too much for lunch.
++ She's tired after helping Lucy find clothes.
+- She wants to buy new clothes to wear.
+
+[MATCH]
+> Tap the pairs
+- i <> and
+- jaqueta vermella <> red jacket
+- barret gris <> gray hat
+- Gràcies <> thank you
+- No <> no
+

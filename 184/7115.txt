@@ -1,0 +1,158 @@
+[DATA]
+fromLanguageName=Rezerwacja
+icon=3ef44f16233d10a5c2f1b5cb171779208191e11a
+set=4|4
+
+[HEADER]
+> Rezerwacëjô
+~ Rezerwacja
+
+[LINE]
+> Bea i Lin jidą do  restaùracëje.
+~ Bea i Lin idą do restauracji
+
+[LINE]
+Speaker507: Ta restaùracëjô je baro snôżô!
+~            Ta restauracja jest bardzo ładna
+
+[LINE]
+Speaker508: Wszëtczégò~bëlnégò z leżnotë gebùrstacha, Beò!
+~            Wszystkiego~najlepszego z okazji urodzin, Beo
+
+[MULTIPLE_CHOICE]
+> Dzisiaj są urodziny Bei.
++ Tak, to jest prawda.
+- Nie, to nie jest prawda.
+
+[LINE]
+Speaker385: Mòjn.
+~            Dzień~dobry 
+
+[LINE]
+Speaker508: Mòjn-mòjn.  Jô~móm rezerwacëją dlô dwùch.
+~           Dzień~dobry Mam rezerwację dla dwojga 
+
+[LINE]
+Speaker385: Miono?
+~            Imię
+
+[LINE]
+Speaker508: Lin.
+~           Lin
+
+[LINE]
+Speaker385: Dobrze.
+~           Dobrze 
+
+[SELECT_PHRASE]
+> Wybierz brakującą frazę
+Speaker385: [Hewò~waj~stółk].
+~            Oto~wasz~stolik.
+
+- Òt wasz stolëk
++ Hewò waj stółk
+- Tu mata stoła
+
+[LINE]
+Speaker385: A hewò menu.
+~           A tutaj menu
+
+[LINE]
+Speaker508: Ach…
+~           Ach
+
+[LINE]
+Speaker507: W ny restaùracëje je fest dargò, Lin.
+~           W tej restauracji jest bardzo drogo Lin
+
+[LINE]
+Speaker508: Môsz~prôwdã...
+~           Masz~rację
+
+[LINE]
+Speaker507: Co bës chca?
+~            Co byś chciała
+
+[MULTIPLE_CHOICE]
+> O co Bea pyta Lin?
++ Co chce zjeść
+- Czego od niej chce
+- Co chce robić
+
+[LINE]
+Speaker508: Hmm... Sałôtkã?
+~           Hmm Sałatkę
+
+[LINE]
+Speaker508: Co?! 
+~             Co
+
+[POINT_TO_PHRASE]
+> Wybierz opcję oznaczającą „dwadzieścia”.
+Speaker508: (+Dwadzesce) (piãc) (złotëch) (za) (sałôtkã)?!
+~               Dwadzieścia pięć złotych za sałatkę
+
+[LINE]
+Speaker508: Jô~bëm~chca lëgòtnã...
+~           Chciałabym pyszną
+
+[LINE]
+Speaker508: …szklónkã wòdë. 
+~             szklankę wody
+
+[LINE]
+Speaker507: A jô sałôtkã
+~            A ja sałatkę
+
+[LINE]
+Speaker507: I hambùrgera!
+~           I hamburgera
+
+[LINE]
+Speaker507: I   sok!        
+~            I sok
+
+[LINE]
+Speaker508: Ale...
+~           Ale
+
+[LINE]
+Speaker507: Le w tóni restaùracëje!
+~            Ale w taniej restauracji
+
+[LINE]
+Speaker508: Bea, to je wôżny dzéń...
+~           Bea to jest ważny  dzień
+
+[MULTIPLE_CHOICE]
+> Lin uważa, że…
+- …zrobiła rezerwację na zły dzień.
+- …Bea kłamie o swoich urodzinach.
++ …świętowanie urodzin Bei jest ważne.
+
+[LINE]
+Speaker507: Jo, dzéń je wôżny.
+~           Tak dzień jest ważny
+
+[LINE]
+Speaker507: A restaùracëjô nié.
+~           A restauracja nie
+
+[LINE]
+Speaker508: Dobrze, bò... przëmieróm!
+~           Dobrze, bo... jestem~głodna
+
+[MULTIPLE_CHOICE]
+> Co się stało?
++ Bea i Lin postanowiły pójść do tańszej restauracji.
+- Bea zdenerwowała się, bo Lin zapomniała o jej urodzinach.
+- Lin zjadła całe jedzenie, bo była głodna.
+
+[MATCH]
+> Dotknij par
+- dargò <> drogo
+- miec prôwdã <> mieć rację
+- przëmierôc <> być głodnym
+- leżnota <> okazja
+- miono <> imię
+

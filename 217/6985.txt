@@ -1,0 +1,145 @@
+[DATA]
+fromLanguageName=The Honeymoon
+icon=7e5d271488d31d6f1d0c503512e642ca7effe84f
+set=1|4
+
+[HEADER]
+> 度|蜜月
+~ to~spend honeymoon      
+
+[LINE]
+> 寶瑩|垃壗|差頭浪。
+~ Pau-Yin is on~a~taxi
+
+[LINE]
+Speaker113: 儂早。
+~           good~morning 
+
+[SELECT_PHRASE]
+> Select the missing phrase 
+Speaker343: 儂好，|師傅，|麻煩|儂|[帶|我|去|機場]。
+~           hello (respectful~name~for~driver) please~can~you (you) take me go~to airport thank~you 
++ 帶我去機場
+- 拉我去充電
+- 擺我鞋子裡
+
+[LINE]
+Speaker113: 好個。
+~           OK        
+
+[LINE]
+Speaker113: 去|孛相|啊？
+~            go play,~have~fun (default~question~particle)  
+
+[LINE]
+Speaker343: 也|勿是|去|孛相……
+~           also is~not go play,~have~fun
+
+[POINT_TO_PHRASE]
+> Choose the option meaning "want to"
+Speaker343: (我)​(一)​(張)​(票子)，​(本生)​(+想)​(去)​(澳大利亞)……
+~            I~(->~my) one (classifier)　ticket originally wanted to~go~to Australia
+
+[LINE]
+Speaker343: 本生|有|兩|張，|實際浪。
+~           originally had two (classifier~for~tickets) actually
+
+[LINE]
+Speaker113: 澳大利亞|讚|個|呀！|我|也|蠻|歡喜|去|孛相|個。
+~            Australia great (affirmative~particle) (particle~to~introduce~new~info~or~opinion) I also quite like to~go visit (affirmative~particle)
+
+[LINE]
+Speaker343: 本生|想|去|度|蜜月……
+~           originally wanted go spend,~pass honeymoon
+
+[MULTIPLE_CHOICE]
+> Why is Pau-Yin going to Australia?
++ She's going on her honeymoon.
+- She is going to move there for work.
+- She is getting married there.
+
+[LINE]
+Speaker113: 嚎。|儂|老公|垃|啥地方|啊？
+~           oh,~I~see  your husband (is)~at where (default~question~particle)
+
+[LINE]
+Speaker343: 我|沒|老公。|阿拉|老婆|倒|是|蠻|難弄|個！
+~           I don't~have husband our~(my) wife though is quite difficult,~hard~to~deal~with (affirmative~particle)
+
+[LINE]
+Speaker343: 伊講|伊|勿想|跟|我|到|澳大利亞|去。
+~           she~says she  doesn't~want with me to Australia go
+
+[MULTIPLE_CHOICE]
+> Oh no! Ana's wife…
+- …forgot to pack her sunscreen.
+- …is already in Australia.
++ …doesn't want to go to Australia with her.
+
+[LINE]
+Speaker343: 我|老|傷心|個。
+~           I (am)~very sad (affirmative~particle)   
+
+[LINE]
+Speaker113: 啊……|對勿起。
+~           ah  I'm~sorry 
+
+[LINE]
+Speaker113: 乃末……|到了，|飛機場。
+~          well~then (we~have)~arrived (this~is)~the~airport 
+
+[POINT_TO_PHRASE]
+> Choose the option meaning "runs."
+> 一個​(女人)​(拎仔)​行李箱​(朝)​部​(差頭)​(+奔)​(過來)。
+~  a woman carrying (a)~suitcase towards (classifier) (the)~taxi (comes)~running (coming)
+
+[LINE]
+Speaker343: 晶晶？
+~          　Tsin-Tsin
+
+[LINE]
+Speaker342: 寶瑩！
+~            Pau-Yin
+
+[LINE]
+Speaker342: 真個，|對勿起儂！
+~           truly I~am~sorry~to~you 
+
+[LINE]
+Speaker342: 我|儕|想清爽了……|是|我|忒|過份|了！
+~　　　　　　　I fully have~thought~it (it)~is me (who's)~too unreasonable (too)
+
+[LINE]
+Speaker342: 儂|會得|原諒|我|伐？
+~           you would forgive me (yes/no~question~particle)
+
+[LINE]
+Speaker343: 晶晶……
+~           Tsin-Tsin
+
+[LINE]
+Speaker343: 我|當然|會得！
+~           I  of~course would  
+
+[LINE]
+Speaker343: 阿拉|一道|去|澳大利亞|伐！
+~            we together go~to Australia shall~we?
+
+[LINE]
+Speaker113: 祝|㑚|蜜月|孛相|了|開心！
+~           hope you~(plural) (during)~the~honeymoon have~fun (indicating~result~of~action) (ending~up)~being~happy
+
+[MULTIPLE_CHOICE]
+> What will happen next?
+- Pau-Yin will start her new job at the airport.
+- Pau-Yin and the taxi driver will go to Australia together.
++ Pau-Yin and her wife, Tsin-Tsin, will go to Australia together.
+
+[MATCH]
+> Tap the pairs
+- 孛相 <> play, to have fun
+- 傷心 <> sad
+- 難弄 <> hard to deal with
+- 老婆 <> wife
+- 票子 <> ticket
+

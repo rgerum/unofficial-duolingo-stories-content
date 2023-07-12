@@ -1,0 +1,142 @@
+[DATA]
+fromLanguageName=The Vegetarian
+icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
+set=4|1
+
+[HEADER]
+> El  vegetarià
+~ the vegetarian 
+
+[LINE]
+> Vikram llegeix   el  menú en un restaurant~molt~maco.
+~ Vikram reads the menu in a  very~pretty~restaurant 
+
+[LINE]
+Speaker385: Bon~dia! 
+~            good~morning 
+$6807/2941c146.mp3;3,50;4,275;2,375
+
+[LINE]
+Speaker593: Tinc  una pregunta.
+~           I~have a   question 
+$6807/4335862a.mp3;4,50;4,350;9,237;2,675
+
+[LINE]
+Speaker593: Soc  vegetarià. 
+~           I~am a~vegetarian 
+$6807/f7880230.mp3;3,50;10,312;2,738
+
+
+[LINE]
+Speaker593: Teniu      menjar~vegetarià?
+~            do~you~have vegetarian~food    
+$6807/6d00acda.mp3;5,50;7,325;10,350
+
+[MULTIPLE_CHOICE]
+> Vikram wants to know if they serve vegetarian food.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker385: Sí,  fem uns entrepans~de~carn~molt~bons.
+~           yes  we~make some very~good~meat~sandwiches      
+$6807/84d385c9.mp3;2,50;2,262;4,0;4,313;10,212;3,538;5,125;5,312;5,275;2,550
+
+[LINE]
+Speaker593: Entrepans~de~carn? Soc  vegetarià. 
+~            meat~sandwiches      I~am a~vegetarian 
+$6807/745d86f1.mp3;9,50;3,537;5,138;4,1350;10,312;2,738
+
+[LINE]
+Speaker385: Ah, sí…  perdó.
+~           oh  yes  I'm~sorry 
+$6807/acaccbc9.mp3;2,37;2,163;3,0;6,1125;2,412
+
+[LINE]
+Speaker385: Tenim un pollastre~deliciós.  
+~           we~have a  delicious~chicken 
+$6807/d67575ac.mp3;5,50;3,337;10,125;9,588;2,737
+
+[MULTIPLE_CHOICE]
+> According to the waiter, their chicken is…
+- …not very tasty.
+- …gluten free.
++ …delicious.
+
+[LINE]
+Speaker593: El~pollastre és carn!
+~           chicken  is meat  
+$6807/d71c5c5d.mp3;2,50;10,162;3,613;5,175;2,487
+
+[ARRANGE]
+> Tap what you hear
+Speaker593: [(I)   (jo) (no~menjo)   (carn)!]
+~              and   I    don't~eat   meat    
+$6807/91b496f5.mp3;1,37;3,113;3,225;6,125;5,350;2,525
+
+[LINE]
+Speaker385: També tenim amanides…
+~           also we~have salads    
+$6807/a559e524.mp3;5,50;6,300;9,387
+
+[LINE]
+Speaker593: Ah, m'agraden les~amanides!
+~            oh  I~like    salads        
+$6807/7f8dbd86.mp3;2,50;2,162;10,113;4,587;9,238;2,687
+
+[MULTIPLE_CHOICE]
+> Vikram likes…
+- …the waiter.
++ …salads.
+- …lots of meat.
+
+[LINE]
+Speaker385: Hi~ha      una amanida de tomàquet, formatge i  salmó.
+~           there~is a   salad with  tomato  cheese and salmon 
+$6807/f429a5d1.mp3;2,50;3,112;4,88;8,200;3,500;9,100;2,562;9,38;2,600;6,100;2,487
+
+[LINE]
+Speaker593: Jo no menjo   salmó! Soc  vegetarià! 
+~            I  don't eat salmon   I~am a~vegetarian 
+$6807/3332112a.mp3;2,50;3,237;6,138;6,387;2,550;4,888;10,287;2,800
+
+[LINE]
+Speaker385: Tenim patates~fregides…
+~           we~have fries          
+$6807/a5b4a528.mp3;5,37;8,313;9,537
+
+[LINE]
+Speaker593: D'acord, patates~fregides.
+~           OK         fries          
+$6807/bed0d4d8.mp3;7,50;2,562;8,113;9,575;2,700
+
+[MULTIPLE_CHOICE]
+> What food did Vikram order in the end?
++ fries
+- chicken
+- salmon
+
+[LINE]
+Speaker385: Patates~fregides… perfecte. I…   una hamburguesa?
+~           fries           perfect   and   a   hamburger   
+$6807/b61fed23.mp3;7,37;9,513;9,1600;2,625;2,925;4,987;12,188
+
+[LINE]
+Speaker593: Que no~menjo     carn!
+~           (Used~for~emphasis) I~don't~eat meat  
+$6807/1b6beb92.mp3;3,50;3,112;6,138;5,325;2,500
+
+[MULTIPLE_CHOICE]
+> Why is Vikram so upset?
+- He's tired of being a vegetarian.
++ The waiter kept offering him meat.
+- The waiter spilled coffee on him.
+
+[MATCH]
+> Tap the pairs
+- pollastre deliciós <> delicious chicken
+- Vikram <> Vikram
+- amanida de <> salad with
+- perdó <> I'm sorry
+- tenim <> we have
+

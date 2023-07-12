@@ -19,13 +19,16 @@ Speaker415: טאָטע, איך װיל רעדן מיט דיר. ס׳איז זײע�
 Speaker415: איך װיל פֿרעגן װידער׃ קענען מיר קריגן אַ הונט?
 ~            I want to~ask again can we get a dog     
 
-[SELECT_PHRASE]
-> Select the missing phrase
-Speaker414: זשוניאָר, [האָבן~אַ~הונט] איז אַ~סך אַרבעט.
-~           Junior   having~a~dog   is a~lot~of work    
-+ האָבן אַ הונט
-- האָבן אַ טיגער
-- האָבן אַ קראָקאָדיל
+[CONTINUATION]
+> ?What comes next
+Speaker414:  זשוניאָר, [האָבן~אַ~הונט] איז אַ~סך אַרבעט.
+~            Junior  having~a~dog  is a~lot~of work 
++ האָבן~אַ~הונט
+~ having~a~dog
+- האָבן~אַ~טיגער
+~ having~a~tiger
+- האָבן~אַ~קראָקאָדיל 
+~ having~a~crocodile
 
 [LINE]
 Speaker415: אױ, ביטע, טאַטע, איך בין זײער אַחריותדיק.
@@ -82,6 +85,13 @@ Speaker414: איך װיל אַז דו זאָל זײַן אַחריותדיק צ�
 Speaker415: אױ, עס װעט זײַן אַזױ גרינג! איך האָב~ליב באָבע~מאַלכּה!
 ~            oh it will be so easy I love Bobe~Malke 
 
+[MULTIPLE_CHOICE]
+> ...Eddy has one more job for Junior       
+- .to take out the trash...
+- .to wash the family car...
++ .to be responsible for Bobe Malke's comfort...
+
+
 [LINE]
 >  ס׳איז~דאָ אַ קלאַפּ אין טיר
 ~  there's a knock at~the door
@@ -126,6 +136,12 @@ Speaker3233: קען איך האָבן אַ גלאָז~װאַסער?
 Speaker415: נאַ, באָבע~מלכּה, און אַ קישן פֿאַר דײַן רוקן!
 ~            here Bobe~Malke and a pillow for your back 
 
+[MULTIPLE_CHOICE]
+> ...Junior brings Bobe Malke a glass of water and      
+- .a book to read...
++ .a pillow for her back...
+- .a bouquet of flowers...
+
 [LINE]
 Speaker3233: אַ~האַרציקן~דאַנק, מײַן~טײַערער! אָט~דאָס~הײסט~אַ~גוט~ייִנגעלע!
 ~            thank~you~very~much~("a~heartfelt~thanks") honey~("my~dear~one") there's~a~good~boy
@@ -157,7 +173,7 @@ Speaker414: זונדעלע, איך בין זײער שטאָלץ מיט דיר!
 [CONTINUATION]
 > ?What comes next
 Speaker414: איצט קענסטו האָבן  [אַ~הונט]!
-~            now   you~can (to)~have  a~puppy     
+~            now   you~can (to)~have  a~dog     
 - אַ~העלפֿאַנד  
 ~ an~elephant
 - אַ~פּינגװין

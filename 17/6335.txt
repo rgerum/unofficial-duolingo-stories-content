@@ -9,15 +9,15 @@ set=4|3
 $6335/3f0fc666.mp3;5,50;7,550;4,537
 
 [LINE]
-> Lucy está en una tienda.
-~ Lucy is   at a   store  
+> .לוסי נמצאת בחנות
+~ Lucy is~at a~store  
 
 [LINE]
-Speaker416: Hola,  ¿necesita ayuda?
-~           hello   you~need help  
+Speaker416: ?שלום, את צריכה עזרה
+~           hello   you need help  
 
 [LINE]
-Speaker509: Sí,  necesito ropa    para mis vacaciones.
+Speaker509: .כן. אני צריכה בגדים בשביל חופשה שלי
 ~           yes  I~need   clothes for  my  vacation   
 
 [MULTIPLE_CHOICE]
@@ -26,16 +26,18 @@ Speaker509: Sí,  necesito ropa    para mis vacaciones.
 + Yes, that's right.
 
 [LINE]
-Speaker416: Está~bien.
+Speaker416: בסדר.
 ~           OK        
 
 [LINE]
-Speaker509: Necesito un vestido.
-~           I~need   a  dress   
+Speaker509: אני~צריכה שמלה.
+~           I~need   a~dress   
+$6335/13e4d7a7.mp3;3,50;6,300;5,375;2,525
 
 [LINE]
-> Lily busca     un vestido~verde.
-~ Lily looks~for a  green~dress   
+> לילי מחפשת שמלה~ירוקה.
+~ Lily looks~for a~green~dress   
+$6335/e1c7fa95.mp3;4,50;6,475;5,687;6,463;2,675
 
 [MULTIPLE_CHOICE]
 > Lily is getting a…
@@ -44,53 +46,64 @@ Speaker509: Necesito un vestido.
 - …green hat.
 
 [LINE]
-Speaker509: ¡No, yo quiero un vestido~rojo!
-~            no  I  want   a  red~dress    
+Speaker509: לא, אני~רוצה שמלה~אדומה!
+~            no  I~want   a~red~dress    
+$6335/044035f8.mp3;2,50;2,500;4,137;5,225;5,288;6,412;2,500
 
 [LINE]
-> Lily busca     un vestido~rojo.
+> לילי מחפשת שמלה אדומה.
 ~ Lily looks~for a  red~dress    
+$6335/9bd85837.mp3;4,50;6,475;5,650;6,475;2,575
 
 [LINE]
-Speaker509: Y   quiero una chaqueta.
-~           and I~want a   jacket   
+Speaker509: ואני~רוצה ז'קט.
+~           and~I~want a~jacket   
+$6335/282a71c5.mp3;4,50;5,300;5,287;2,638
 
 [ARRANGE]
 > Tap what you hear
-> [(Lily) (busca)     (una) (chaqueta~roja).]
+> [(לילי) (מחפשת) (ז'קט) (אדום).]
 ~   Lily   looks~for   a     red~jacket      
+$6335/ac7fe415.mp3;4,50;6,462;5,650;5,438;2,637
 
 [LINE]
-Speaker509: ¡No, yo quiero una chaqueta~marrón!
-~            no  I  want   a   brown~jacket    
+Speaker509: לא ,אני~רוצה ז'קט~חום!
+~            no  I~want   a~brown~jacket    
+$6335/90576ef6.mp3;2,50;2,362;4,75;5,175;5,275;4,325;2,425
 
 [LINE]
-Speaker416: Está~bien…
-~           OK        
+Speaker416: טוב
+~           good        
+$6335/48a2e20e.mp3;3,50
 
 [LINE]
-Speaker509: Un vestido~rojo, una chaqueta~marrón…
-~           a  red~dress     a   brown~jacket    
+Speaker509: שמלה~אדומה, ז'קט~חום...
+~           a~red~dress     a~brown~jacket    
+$6335/b6856b28.mp3;4,50;6,487;2,625;5,175;4,400
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker509: ¡[Y~un~sombrero]!
-~             and~a~hat      
-- Y un bombero
-- Y un obrero
-+ Y un sombrero
+Speaker509: [וגם כובע]!
+~             and~also (a)~hat
+$6335/46443741.mp3;3,50;5,412;2,500
+- בגן קבור
+- וגם קבוע
++ וגם כובע
 
 [LINE]
-> Lily busca     un sombrero~azul.
-~ Lily looks~for a  blue~hat      
+> לילי מחפשת כובע~כחול.
+~ Lily looks~for (a)~blue~hat      
+$6335/7747b6d2.mp3;4,50;6,487;5,663;5,362;2,700
 
 [LINE]
-Speaker509: ¡No, yo quiero un sombrero~gris!
-~            no  I  want   a  gray~hat      
+Speaker509: לא, אני~רוצה כובע~אפור!
+~            no  I~want   (a)~gray~hat      
+$6335/a6440c61.mp3;2,50;2,512;4,138;5,225;5,287;5,325;2,538
 
 [LINE]
-> Lily busca     un sombrero~gris.
-~ Lily looks~for a  gray~hat      
+> לילי מחפשת כובע~אפור.
+~ Lily looks~for (a)~gray~hat      
+$6335/a2a72b8e.mp3;4,50;6,475;5,675;5,375;2,625
 
 [POINT_TO_PHRASE]
 > Choose the option meaning "ready."
@@ -98,7 +111,7 @@ Speaker509: ¡(Gracias)!   ¡(Estoy) (+lista) (para) mis vacaciones!
 ~             thank~you     I~am     ready   for   my  vacation   
 
 [LINE]
-Speaker416: Ahora yo necesito vacaciones.  
+Speaker416: עכשיו אני צריכה חופשה.  
 ~           now   I  need     (a)~vacation 
 
 [MULTIPLE_CHOICE]
@@ -109,9 +122,9 @@ Speaker416: Ahora yo necesito vacaciones.
 
 [MATCH]
 > Tap the pairs
-- Y <> and
-- chaqueta roja <> red jacket
-- sombrero gris <> gray hat
-- Gracias <> thank you
-- No <> no
+- גם <> also
+- אדום <> red
+- אפור <> gray
+- תודה <> thank you
+- כובע כחול <> a blue hat
 

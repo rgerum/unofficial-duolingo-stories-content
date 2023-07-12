@@ -1,0 +1,133 @@
+[DATA]
+fromLanguageName=My First Painting
+icon=b4a0fb96a3bb2af295051d49d3c112c4c91779e6
+set=17|1
+
+[HEADER]
+> 我第一个绘画
+~ my first   painting
+
+[LINE]
+> 艾迪去奥斯卡的公寓。
+~ Eddy goes to~Óscar's~apartment    
+
+[LINE]
+> 艾迪在手里拿着一幅绘画。
+~ Eddy has   a   painting in~his~hands 
+
+[LINE]
+Speaker592: 那是什么，艾迪？
+~            what is that  Eddy 
+
+[LINE]
+Speaker414: 是我第一幅绘画。
+~            it's my first   painting 
+
+[LINE]
+Speaker414: 你看到了我的画吗？ 
+~            you~can~look~at~it 
+
+[MULTIPLE_CHOICE]
+> Eddy wants to paint a picture of Óscar.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker592: 不能。
+~           no 
+
+[LINE]
+Speaker414: 但是你是个艺术老师。
+~           but  you~are (an)~art~teacher 
+
+[LINE]
+Speaker592: 是的，我很诚实。
+~           yes  and I~am very honest  
+
+[LINE]
+Speaker414: 我喜欢那样。
+~           I~like~that  
+
+[POINT_TO_PHRASE]
+> Choose the option that means "to cry."
+Speaker592: (你)(会)(哭)(的).
+~            and   you   are~going    to~cry  
+
+[LINE]
+Speaker414: 但是我想听你对我画的想法。 
+~           but  I  want   to~have your~opinion about my painting 
+
+[LINE]
+Speaker592: 不好。
+~           it's~not good  
+
+[LINE]
+Speaker414: 你怎么知道？
+~            how  you~know~it 
+
+[CONTINUATION]
+> What comes next?
+Speaker592: 你不是艺术家， 是[你的第一幅画]. 
+~           you're~not (an)~artist  and it's  your~first~painting  
++ 你的第一幅绘画 
+~ your~first~painting
+- 在我的绘画上
+~ on    my painting
+- 在你的手里
+~ in~his~hands
+
+[LINE]
+Speaker592: 最初的画。
+~           first        paintings are~never good   
+
+[LINE]
+Speaker414: 请看一下。
+~           look~at~it  please    
+
+[LINE]
+Speaker414: 拜托，奥斯卡。
+~           please     Óscar 
+
+[LINE]
+Speaker592: 好吧。
+~           OK        
+
+[ARRANGE]
+> Tap what you hear
+> [(奥斯卡) (看着)     (绘画)。] 
+~   Óscar   looks~at   the   painting   
+
+[LINE]
+Speaker592: 艾迪，这幅画…
+~           Eddy  this painting is 
+
+[LINE]
+Speaker414: 嗯！
+~             yes  
+
+[LINE]
+Speaker592: 很好。
+~           very good  
+
+[LINE]
+Speaker414: 是的！ 太好了！我是个好艺术家！
+~            yes   great       I~am a  good artist  
+
+[LINE]
+Speaker592: 那么现在请走。
+~           now   leave  please    
+
+[MULTIPLE_CHOICE]
+> Why was Óscar so surprised?
+- Eddy only paints with his feet.
++ He thought first paintings were never good.
+- Eddy has always been a bad painter.
+
+[MATCH]
+> Tap the pairs
+- 诚实 <> honest
+- 哭 <> to cry
+- 艺术家 <> artist
+- 公寓 <> apartment
+- 最初 <> beginning
+

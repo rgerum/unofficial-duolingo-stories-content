@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Junior's Breakfast
+icon=6d79d91b8caad82e9f6ce44a1b458f12ac6a7a9f
+set=16|4
+
+[HEADER]
+> Sarapan Junior
+~ breakfast ~   
+
+[LINE]
+> Edi sedang memasak sarapan untuk Junior.
+~ ~ is cooking     breakfast   for  ~ 
+
+[LINE]
+Speaker415: Pagi, Yah! Lagi~ngapain?        
+~           morning dad what~are~you~doing
+
+[LINE]
+Speaker414: Pagi,  Junior! Ayah sedang memasak sarapan untuk|mu!
+~           morning  ~   (dad)~I am cooking breakfast for you  
+
+[MULTIPLE_CHOICE]
+> Edi is cooking dinner.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker415: Sarapan?
+~            breakfast   
+
+[CONTINUATION]
+> What comes next?
+Speaker414: Sí,  nunca~tengo  tiempo de~hacerte  [el~desayuno].
+~           yes  I~never~have time   to~make~you  breakfast    
+- las~tareas  
+~ the~homework
++ el~desayuno
+~ breakfast  
+- papá
+~ dad 
+
+[LINE]
+Speaker414: Tapi hari ini spesial!
+~           but  today (it's) special 
+
+[LINE]
+Speaker415: Ayah, aku tidak mau sarapan.        
+~           dad   I don't want to~have~breakfast 
+
+[LINE]
+Speaker414: Apa?! Padahal Ayah sudah menggoreng telur …
+~           what although (dad)~I have fried eggs
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: [Aku tidak mau telur]. 
+~            I don't want eggs  
+- No quiero nuevos
+- Lo quiero nuevo
++ No quiero huevos
+
+[LINE]
+Speaker414: Tapi kamu kan suka telur~goreng!
+~           but you (confirmation) like fried~eggs
+
+[LINE]
+Speaker415: Iya, tapi …
+~           yes  but  
+
+[POINT_TO_PHRASE]
+> Choose the option that means "bacon."
+Speaker414: ¡(Y)   (hay)      (+tocino) (también)!
+~             and   there~is    bacon    too      
+
+[LINE]
+Speaker414: ¡A~ti~te~encanta el~tocino!
+~            you~love        bacon     
+
+[LINE]
+Speaker415: Sí,  pero…
+~           yes  but  
+
+[LINE]
+Speaker414: ¿Qué? 
+~            what 
+
+[LINE]
+Speaker415: Papá… ¡ya~es        la~una!     
+~           dad    it's~already one~o'clock 
+
+[LINE]
+> Eddy mira     su~reloj. 
+~ Eddy looks~at his~watch 
+
+[LINE]
+Speaker414: Ay, no… Hacer~el~desayuno toma  mucho    tiempo.
+~           oh  no  making~breakfast  takes a~lot~of time   
+
+[LINE]
+Speaker415: ¡Pero ahora podemos~hacer el~almuerzo!
+~            but  now   we~can~make   lunch       
+
+[MULTIPLE_CHOICE]
+> Why didn't Junior want breakfast?
+- He hates bacon and eggs.
++ It's already time for lunch.
+- He has an upset stomach.
+
+[MATCH]
+> Tap the pairs
+- toma <> takes
+- A ti te encanta <> you love
+- papá <> dad
+- ahora <> now
+- Hola <> hello
+
