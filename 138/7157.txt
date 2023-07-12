@@ -1,0 +1,119 @@
+[DATA]
+fromLanguageName=La chaqueta roja
+icon=c74da112b88638bc6cf1243d490c567bb7e8b2ed
+set=2|1
+
+[HEADER]
+> The Red~Jacket   
+~ la  chaqueta~roja
+
+[LINE]
+> Lily is   in a   store  with her friend, Zari.
+~ Lily está en una tienda con  su  amiga   Zari 
+
+[LINE]
+Speaker416: This store  is expensive.
+~           esta tienda es cara      
+
+[LINE]
+Speaker418: Yes…
+~           sí  
+
+[LINE]
+Speaker418: Wow! 
+~           guau 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker418: This [red~jacket]    is perfect! 
+~           esta  chaqueta~roja  es perfecta 
+- wet jacket
+- recheck it
++ red jacket
+
+[LINE]
+Speaker416: Umm, Zari…
+~           mmm  Zari 
+
+[LINE]
+Speaker418: I~like   this~color~a~lot!
+~           me~gusta mucho~este~color 
+
+[LINE]
+Speaker416: Zari?
+~           Zari 
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "comprar".
+Speaker418: I  (want)   (+to~buy)  (this) (jacket)!  
+~           yo  quiero    comprar   esta   chaqueta  
+
+[LINE]
+Speaker416: Zari!
+~           Zari 
+
+[LINE]
+Speaker418: What?
+~           qué  
+
+[LINE]
+Speaker416: This jacket   is~one~hundred~dollars.
+~           esta chaqueta cuesta~cien~dólares    
+
+[MULTIPLE_CHOICE]
+> ¿Cuánto cuesta la chaqueta?
+- cinco dólares
++ cien dólares
+- un millón de dólares
+
+[LINE]
+Speaker416: It~is very expensive.
+~           es    muy  cara      
+
+[LINE]
+Speaker418: What?!
+~           qué   
+
+[LINE]
+Speaker416: Zari, you do~not~need  a   new~jacket.    
+~           Zari  tú  no~necesitas una chaqueta~nueva 
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "cumpleaños".
+Speaker418: (But)  (Lily), (today) is my (+birthday)…  
+~            pero   Lily    hoy    es mi   cumpleaños  
+
+[LINE]
+Speaker416: Yes, it~is…
+~           sí   lo~es 
+
+[LINE]
+Speaker418: And you are  my best  friend!
+~           y   tú  eres mi mejor amiga  
+
+[LINE]
+Speaker416: Yes, I~am…  
+~           sí   lo~soy 
+
+[LINE]
+Speaker418: And you can~buy—       
+~           y   tú  puedes~comprar 
+
+[LINE]
+Speaker416: A   cheap~jacket    for  you.
+~           una chaqueta~barata para ti  
+
+[MULTIPLE_CHOICE]
+> El regalo de cumpleaños que Lily le dará a Zari será…
++ … una chaqueta barata.
+- … una gran cantidad de dinero.
+- … una chaqueta roja cara.
+
+[MATCH]
+> Selecciona los pares
+- for <> para
+- you <> tú
+- But <> pero
+- red jacket <> chaqueta roja
+- very <> muy
+
