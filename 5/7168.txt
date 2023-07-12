@@ -4,81 +4,95 @@ icon=96fd9b652456a41bca2912838b14cb5bd9f7827a
 set=15|4
 
 [HEADER]
-> Dibujando en el~parque
-~ drawing   in the~park 
+> Ei~tegning i~parken
+~ a~drawing  in~the~park 
 
 [LINE]
-> Gustavo lleva~a su~perro al     parque todos~los~días.
-~ Gustavo takes   his~dog  to~the park   every~day      
+> Hvar~dag  tar~Gustav~tur      med  hunden~sin i~parken.
+~ every~day Gustav~takes~a~walk with his~dog    in~the~park      
+$7168/b2e496ef.mp3;4,50;4,262;4,288;7,287;4,500;4,275;7,163;4,325;2,237;7,125;2,475
 
 [LINE]
-> Y   todos~los~días ve~a    Lily dibujando en el~parque.
-~ and every~day      he~sees Lily drawing   in the~park  
+> Og  hvar~dag  ser~han Lily sitte~og~tegne der.
+~ and every~day he~sees Lily drawing there
+$7168/08f0cdd8.mp3;2,50;5,162;4,163;4,237;4,250;5,188;6,275;3,300;6,112;4,350;2,325
 
 [LINE]
-> Un~día,  él decide  hablar~con ella.
-~ one~day  he decides to~talk~to her  
+> En~dag  bestemmer~han~seg å~snakke med  henne.
+~ one~day he~decides        to~talk  with her
+$7168/24256c1c.mp3;2,50;4,212;10,275;4,425;4,163;2,312;7,100;4,388;6,125;2,387
 
 [LINE]
-Speaker1321: ¡Hola! 
-~             hello 
+Speaker1321: Hei, unnskyld!
+~            hi   sorry
+$7168/cb9c47d5.mp3;3,50;2,387;9,125;2,600
 
 [LINE]
-Speaker416: Ah, hola. 
-~           oh  hello 
+Speaker416: Øh, hei?
+~           uhm hi 
+$7168/0cd513c0.mp3;3,474;5,550
 
 [LINE]
-Speaker1321: ¿Te~puedo~hacer~una~pregunta?
-~             can~I~ask~you~a~question    
+Speaker1321: Får jeg spørre deg om    en~ting?
+~            may I   ask    you about something~(lit.~‘a~thing’)
+$7168/ad6c80f7.mp3;3,50;4,325;7,125;4,275;3,162;3,125;5,138
 
 [LINE]
-Speaker416: ¿Qué? 
-~            what 
-
-[CONTINUATION]
-> What comes   next?
-~ que  you~eat Next 
-Speaker1321: Te~veo~dibujar    [todos~los~días].
-~            I~see~you~drawing  every~day       
-- en mis zapatos
-~ in my  shoes  
-- en el~lago 
-~ in the~lake
-+ todos~los~días
-~ every~day     
-
-[LINE]
-Speaker416: Sí… 
+Speaker416: Ja?
 ~           yes 
+$7168/73755332.mp3;3,495
+
+[ARRANGE]
+> Choose the boxes in the correct order:
+Speaker1321: [(Jeg ser deg) (tegne) (her) (hver~eneste~dag)]...
+~            I   see you draw  here every~single~day       
+$7168/5ab9377f.mp3;3,50;4,212;4,213;6,137;4,388;5,200;7,287;4,488
 
 [LINE]
-Speaker1321: ¿Qué~dibujas?     
-~             what~do~you~draw 
+Speaker416: Ja… 
+~           yes 
+$7168/af440bbf.mp3;2,389;2,NaN
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1321: Hva~er~det        [du~tegner]?
+~            What~is~it~(that) you~are~drawing
+$7168/cfc8aa1e.mp3;3,50;3,225;4,137;3,113;7,137
+
+- du trenger
+- to timer
++ du tegner
 
 [LINE]
-Speaker416: ¡Muchas cosas! 
-~            many   things 
+Speaker416: Øh, mange forskjellige ting...
+~           uhm many  different things 
+$7168/3a0f2057.mp3;3,449;6,283;13,459;5,285;4,NaN
 
 [LINE]
-Speaker416: Dibujo cosas  que  creo~que son interesantes o  bonitas.
-~           I~draw things that I~think  are interesting  or pretty  
+Speaker416: Jeg~tegner ting   jeg~synes er  interessant eller fint...
+~           I~draw     things I~think   are interesting or    nice  
+$7168/4b6637d1.mp3;3,155;7,389;5,245;4,160;6,414;3,100;12,541;6,205;5,667
 
 [LINE]
-Speaker1321: Muy  bien.
-~            very well 
+Speaker1321: Skjønner...
+~            I~understand
+$7168/8d8f1fe4.mp3;8,50
 
 [ARRANGE]
 > Tap what you hear
-Speaker1321: ¿[(Qué)  (estás~dibujando) (ahora)?]
-~               what   are~you~drawing   now     
+Speaker1321: ¿[(Hva) (tegner)~(du)   (nå)?]
+~               what  are~you~drawing now     
+$7168/909406bb.mp3;3,50;7,337;3,363;3,100
 
 [LINE]
-Speaker416: Es   un…~secreto.
-~           it's a~secret    
+Speaker416: Det er hemmelig.
+~           it  is secret
+$7168/4acca8e1.mp3;3,134;3,120;10,630
 
 [LINE]
-Speaker1321: ¿Por~qué?
-~             why     
+Speaker1321: Hvorfor~det?
+~             why~is~that     
+$7168/dec6755b.mp3;7,50;4,487
 
 [MULTIPLE_CHOICE]
 > Gustavo wants to know why…
@@ -87,32 +101,35 @@ Speaker1321: ¿Por~qué?
 + …Lily doesn't want to say what she is drawing.
 
 [LINE]
-Speaker416: Tú  vienes al     parque todos~los~días.
-~           you come   to~the park   every~day      
+Speaker416: Du  kommer til~parken  hver~dag, skjønner~du, <prosody og...
+~           you come   to~the~park every~day you~see and    
+$7168/0d925f97.mp3;2,170;7,265;4,144;7,411;5,180;5,463;9,293;4,340;3,110;4,NaN
 
-[SELECT_PHRASE]
-> Select the missing phrase
-Speaker1321: [Me~estás~dibujando], ¿verdad?
-~             you~are~drawing~me    right  
-- Le estás rebajando
-+ Me estás dibujando
-- Tú estás caminando
-
-[LINE]
-Speaker1321: Bueno, tú~también~me~gustas.
-~            well   I~like~you~too       
+[ARRANGE]
+> Tap what you hear
+Speaker1321: Oi, [(det) (er) (meg) (du) (tegner)], ikke sant?
+~            ~ it is me you are drawing
+$7168/280e5a03.mp3;2,50;2,400;4,187;3,100;4,138;3,175;7,137;2,650;5,75;5,250
 
 [LINE]
-Speaker416: Ah… no, no~te~estoy~dibujando~a~ti.
-~           oh  no  I'm~not~drawing~you        
+Speaker1321: Vel, jeg synes du  ser~veldig~fint~ut også.
+~            well I   think you look~very~nice     as~well 
+$7168/16cb9319.mp3;3,50;2,512;4,113;6,187;3,438;4,125;7,250;5,337;3,338;5,212;2,388
 
 [LINE]
-Speaker1321: Ah…
-~            oh 
+Speaker416: Hæ? Nei, det er ikke deg jeg~tegner...
+~           I~beg~you~pardon no it is not you I~am~drawing
+$7168/5cd53a64.mp3;3,494;5,405;4,110;3,88;5,205;4,180;4,135;8,759
 
 [LINE]
-Speaker416: ¡Estoy~dibujando~a tu   perro! ¡Es   muy  bonito! ¡Mira!
-~            I'm~drawing       your dog     it's very pretty   look 
+Speaker1321: Oi…
+~            ~ 
+$7168/adb1d183.mp3;2,37
+
+[LINE]
+Speaker416: ...det er hunded~din! Den er så flink, se~her!
+~               it is your~dog    it  is so nice   see~here 
+$7168/5936f601.mp3;3,414;4,121;3,378;7,436;5,145;4,125;3,140;3,559;7,276;3,565;5,NaN
 
 [MULTIPLE_CHOICE]
 > Gustavo thought…
@@ -122,9 +139,9 @@ Speaker416: ¡Estoy~dibujando~a tu   perro! ¡Es   muy  bonito! ¡Mira!
 
 [MATCH]
 > Tap the pairs
-- son <> are
-- un… secreto <> a secret
-- el parque <> the park
-- interesantes <> interesting
-- no <> no
+- å ta tur <> to go for a walk
+- å se ut <> to look/seem
+- en park <> a park
+- hver deg <> every day
+- å sitte og tegne <> to be drawing
 
