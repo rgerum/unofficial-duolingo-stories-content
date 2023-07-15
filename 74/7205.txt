@@ -4,76 +4,99 @@ icon=4779d731014382d1398621baf6c630efe3e344c0
 set=11|2
 
 [HEADER]
-> Un nuevo deporte
+> 一項|新|運動
 ~ a  new   sport  
+$6404/a125e392.mp3;1,50;2,162;2,213;3,225
 
 [LINE]
-> Eddy y   Junior están en una tienda.
-~ Eddy and Junior are   in a   store  
+> 艾迪|和|朱朱|在一家商店。
+~ Eddy and Junior (are)~in~a~store
+$6404/b20c2824.mp3;2,50;2,425;3,162;2,413;3,175;3,337
 
 [LINE]
-Speaker414: ¿Quieres  practicar un nuevo deporte? ¡Qué~bueno!
-~            you~want to~play   a  new   sport     great     
+Speaker414: 你|想要|做|一項|新|運動，|很|令人興奮|呀！
+~          you want (to)~do a new sport very exciting (exclamation)   
+$6404/eafd09c8.mp3;1,77;3,291;2,330;2,174;2,117;2,194;3,271;2,1222;2,311;2,233;3,174;2,466
 
 [LINE]
-Speaker414: ¿Quieres  jugar~al baloncesto?
-~            you~want to~play  basketball 
+Speaker414: 你|想要|打籃球|嗎？
+~     you want (to)~play~basketball (question~marker)
+$6404/f574168a.mp3;1,77;3,485;2,310;3,194;2,563
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker415: No~me~gustan [los~deportes~con~pelotas].
-~           I~don't~like  sports~with~balls         
-+ los deportes con pelotas
-- los reportes con pelotas
-- los deportes con bellotas
+Speaker415: 我|不|喜歡|[帶球的|運動]。
+~           I don't like with~balls sports   
+$6404/0d1180a2.mp3;1,50;2,200;3,262;2,388;2,175;2,212;3,100
+
++ 帶球的運動
+- 太久的運動
+- 太極的運動
 
 [LINE]
-Speaker414: ¡Esta raqueta~de~tenis es muy  bonita!
-~            this tennis~racket    is very pretty 
+Speaker414: 這個|網球拍|不錯|啊。
+~            this tennis~racket  (is)~nice (exclamation)
+$6404/9fe006ec.mp3;2,77;3,582;2,427;3,291;2,485
 
 [CONTINUATION]
 > What comes next?
-Speaker415: Necesitas una pelota para     [jugar~al tenis]. 
-~           you~need  a   ball   in~order  to~play  tennis  
-- al~baloncesto
-~ basketball   
-+ jugar~al tenis 
-~ to~play  tennis
-- una tienda 
-~ a   store  
+Speaker415: 爸爸，|你|需要|一個球...
+~          dad you need a~ball 
+$6404/4e0f8814.mp3;2,50;2,800;3,225;3,375;2,187
+
+- 來打籃球
+~ (to)~play~basketball   
++ 來打網球
+~ (to)~play~tennis
+- 來玩球
+~ (to)~play~ball  
+
 
 [LINE]
-Speaker414: Ah, sí.  Mmm... ¿Qué  puedes~practicar?
-~           oh  yes  hmm     what you~can~play     
+Speaker415: ...來打網球。
+~ (to)~play~tennis
+$6404/49342764.mp3;1,50;2,300;3,212
 
 [LINE]
-Speaker415: Yo quiero...
+Speaker414: 哦|對，|嗯，|什麼|運動|不|用|求？
+~           oh  yes  hmm  what sport doesn't use balls   
+$6404/75ef3564.mp3;1,77;2,252;2,1009;3,1416;3,407;2,369;3,97
+
+[LINE]
+Speaker415: 我|想要...
 ~           I  want     
+$6404/81c5855a.mp3;1,50;2,262;2,300
 
 [LINE]
-Speaker414: ¡Nadar!   ¡¿Quieres  nadar?!  
-~            to~swim    you~want to~swim  
+Speaker414: 游泳！ |你|想要|游泳|嗎？
+~           swim  you want (to)~swim (question~marker)
+$6404/a97d4b78.mp3;2,77;2,1222;3,834;3,311;2,504
 
 [LINE]
-Speaker415: No...
+Speaker415: 不...
 ~           no   
+$6404/a23124d4.mp3;1,50
 
 [ARRANGE]
 > Tap what you hear
-Speaker414: [(Pero) (es)   (un) (deporte) (sin~pelotas).]  
-~             but    it's   a    sport     without~balls   
+Speaker414: [(但是)|(游泳)|(是|一項)|(不帶球)(的|運動)]！
+~         but swimming is a without~balls sport
+$6404/c92e8fae.mp3;2,77;3,1183;2,796;2,233;2,135;2,272;2,136;2,213;2,330;3,116
 
 [LINE]
-Speaker415: ¡Papá, no!
-~            dad   no 
+Speaker415: 爸爸，|我|不|想要|游泳。
+~            dad I don't want (to)~swim
+$6404/de0f13bc.mp3;2,50;2,775;3,175;2,400;3,125
 
 [LINE]
-Speaker414: Bueno, ¿qué  quieres  hacer?
-~           well    what you~want to~do 
+Speaker414: 好吧，|那麼|你|想要|做|什麼？
+~          OK then you want (to)~do what
+$6404/ec406684.mp3;1,77;2,310;3,1417;2,446;3,135;2,350;3,194
 
 [LINE]
-> Junior mira     unas zapatillas~de~ballet.
-~ Junior looks~at some ballet~shoes         
+> 朱朱|看著|一雙|芭蕾舞鞋。
+~ Junior looks~at a~pair~of ballet~shoes         
+$6404/fe0ca314.mp3;2,50;2,425;2,225;2,87;2,150;4,238;2,537
 
 [MULTIPLE_CHOICE]
 > Oh! It seems like Junior wants to…
@@ -82,28 +105,34 @@ Speaker414: Bueno, ¿qué  quieres  hacer?
 - …go for a swim.
 
 [LINE]
-Speaker415: Yo quiero… bailar.  
-~           I  want    to~dance 
+Speaker415: 我|真的很|想要|跳舞！
+~           I  really want (to)~dance
+$6404/0ed3189a.mp3;1,50;3,150;2,387;2,238;2,150;3,150
 
 [LINE]
-Speaker414: ¡¿Quieres  bailar?!  
-~             you~want to~dance  
+Speaker414: 你|想要|跳舞？
+~             you want (to)~dance
+$6404/18b23e0e.mp3;1,77;3,504;3,330
 
 [LINE]
-Speaker415: Sí…  ¿Es   un problema?
-~           yes   it's a  problem  
+Speaker415: 是的。 |不行嗎？
+~           yes   is~it~not~allowed
+$6404/24abaea2.mp3;2,50;3,1275;2,500
 
 [LINE]
-Speaker414: ¡No! ¡Bailar  también~es un deporte!
-~            no   dancing is~also    a  sport   
+Speaker414: 行啊，|跳舞|也|是|一項運動！
+~          (it's)~allowed  dancing also is a~sport
+$6404/4a3fa984.mp3;1,77;2,407;3,1067;2,602;2,174;2,175;2,116;3,214
 
 [LINE]
-> Eddy empieza~a bailar   en la  tienda.
-~ Eddy starts    to~dance in the store  
+> 艾迪|在商店裡|開始|跳舞。
+~ Eddy in~the~store starts dancing
+$6404/5b31cf42.mp3;2,50;2,425;3,162;2,400;3,163;3,350
 
 [LINE]
-Speaker415: Papá, para~de~bailar por~favor.
-~           dad   stop~dancing   please    
+Speaker415: 爸爸，|請你|別再跳舞了！
+~           dad  please stop~dancing     
+$6404/6dbce0f2.mp3;2,50;2,775;2,212;2,138;2,200;3,162;2,450
 
 [MULTIPLE_CHOICE]
 > Junior wants his dad to stop...
@@ -113,9 +142,8 @@ Speaker415: Papá, para~de~bailar por~favor.
 
 [MATCH]
 > Tap the pairs
-- problema <> problem
-- Ah <> oh
-- empieza a <> starts
-- sin pelotas <> without balls
-- No <> no
-
+- 一雙 <> a pair
+- 令人興奮 <> exciting
+- 開始 <> starts
+- 不帶球 <> without balls
+- 別再跳舞 <> stop dancing
