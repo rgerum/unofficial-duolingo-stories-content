@@ -1,0 +1,102 @@
+[DATA]
+fromLanguageName=Geniş Aile
+icon=7b985ad4907aa6222424ea7f917bf10209b62843
+set=1|4
+
+[HEADER]
+> Big   Family
+~ Geniş Aile  
+
+[LINE]
+> Shelly is~meeting        Anna's~family.     
+~ Shelly tanışmaya~gidiyor Anna'nın~ailesiyle 
+
+[LINE]
+Speaker341: Anna! My~favorite daughter!
+~           Anna  en~sevdiğim kızım    
+
+[LINE]
+Speaker343: Mom,  you   only   have one      daughter!
+~           Anne  senin sadece var  bir~tane kızın    
+
+[MULTIPLE_CHOICE]
+> Anna'nın annesinin birçok kızı var.
+- Evet, bu doğru.
++ Hayır, bu yanlış.
+
+[POINT_TO_PHRASE]
+> "kız arkadaşım" anlamına gelen seçeneği seçin.
+Speaker343: (This) (is) (+my~girlfriend),       (Shelly).
+~            Bu     ~     benim~kız~arkadaşım    Shelly  
+
+[LINE]
+Speaker342: Hello,      how~are~you?
+~           Merhabalar  Nasılsınız  
+
+[LINE]
+Speaker343: Shelly, this is my    brother,        Thomas!
+~           Shelly  bu   ~  benim erkek~kardeşim  Thomas 
+
+[LINE]
+Speaker342: Hello!  
+~           Merhaba 
+
+[ARRANGE]
+> İşittiğine dokun
+Speaker343: [(These)  (are) (my)    (grandparents).] 
+~             Bunlar   ~     benim   büyükbabamlar   
+
+[LINE]
+Speaker342: Hello   —
+~           Merhaba  
+
+[LINE]
+Speaker343: This is my    father and my    brother,        Jacob!
+~           Bu   ~  benim babam  ve  benim erkek~kardeşim  Jacob 
+
+[LINE]
+Speaker342: Hello,      how~are~you?
+~           Merhabalar  Nasılsınız  
+
+[LINE]
+Speaker343: This is my    brother,        Steve, and my    brother,        Josh.
+~           Bu   ~  benim erkek~kardeşim  Steve  ve  benim erkek~kardeşim  Josh 
+
+[LINE]
+Speaker342: Hello,   Steve. Hello,   Josh.
+~           Merhaba  Steve  Merhaba  Josh 
+
+[SELECT_PHRASE]
+> Eksik kısmı seç
+Speaker342: You   have [a~big~family]!   
+~           senin var   geniş~bir~ailen  
+- a bug family
++ a big family
+- a big finally
+
+[LINE]
+Speaker341: But I     only   have one      daughter …
+~           Ama benim sadece var  bir~tane kızım    …
+
+[LINE]
+Speaker343: Mother!
+~           Anne   
+
+[LINE]
+Speaker341: Oh! I     have two daughters now   …
+~           ~   benim var  iki kızım     şimdi  
+
+[LINE]
+Speaker341: Welcome    to~the~family, Shelly!
+~           Hoş~geldin Aileye         Shelly 
+
+[LINE]
+Speaker342: Thank~you!      
+~           Teşekkür~ederim 
+
+[MULTIPLE_CHOICE]
+> Anna'nın annesi neden şimdi iki kızı olduğunu söylüyor?
+- Shelly oradayken bir bebek doğurdu.
++ Shelly'yi aileye davet ediyor.
+- Anna'nın bir kız kardeşi olduğunu hatırladı.
+
