@@ -1,115 +1,132 @@
 [DATA]
 fromLanguageName=The Green Dress
 icon=5dd7c1c9e363ca081026fc76b834b84df03c1ce5
-set=2|1
+set=100|11
 
 [HEADER]
-> Ang Blusang Berde
-~ the blouse  green
+> Ang Berdeng Bestida
+~ the green dress
+$606/8e818e28.mp3;3,0;8,234;8,470
 
 [LINE]
-Speaker659: Nena? Nasaan~ka?    
-~           ~     where~are~you 
+Speaker659: Lena? Nasaan~ka?    
+~           Lena   where~are~you 
+$606/02c83be2.mp3;4,0;8,465;3,745
 
 [LINE]
-Speaker175: Sa     banyo,    Isabela !
-~           in~the bathroom  ~        
-
-[LINE]
-Speaker659: Nasaan ang~blusa ko ?
-~           where  blouse    my  
+Speaker175: Nasa     banyo,    Ate~Isabela !
+~           in~the bathroom  Isabela       
+$606/566a2242.mp3;4,0;6,360;5,545;8,465
 
 [POINT_TO_PHRASE]
-> Click on the option meaning "blouse."
-> (Nasaan) (ang) (+blusa) (ko) ?
+> Click on the option meaning "dress."
+Speaker659: (Nasaan) (ang)~(+bestido)~(ko) ?
+~ where is~my~dress
+$606/d71416ce.mp3;6,0;4,499;8,135;3,520
 
 [LINE]
-Speaker175: Yung~pula   ?
-~           the~red~one  
+Speaker175: Ang~bestido~mong pula?
+~           your~dress~(that~is) red 
+$606/db856a1e.mp3;3,0;8,199;5,535;5,190
 
 [LINE]
-Speaker659: Hindi! Yung~berde!   
+Speaker659: Hindi! Iyong~berde!   
 ~           no     the~green~one 
+$606/deba591a.mp3;5,0;7,519;6,530
 
 [MULTIPLE_CHOICE]
-> Isabella is looking for...
+> Isabela is looking for...
 - … her long skirt.
-+ … her green blouse.
++ … her green dress.
 - … her green shoes.
 
 [LINE]
-Speaker659: Pupunta kasi ako  sa     restaurant kasama si~Paul.
-~           going   ~    I~am to~the ~          with   Paul    
+Speaker659: Pupunta~kasi~ako  sa isang~restawran kasama si~Paul.
+~       because~I'm~going  to a~restaurant    with   Paul    
+$606/e3a331ae.mp3;7,0;5,485;4,260;3,264;6,120;10,321;7,600;3,465;5,165
 
 [LINE]
-Speaker175: Gusto~ko yung~blusang pula.
-~           I~like   blouse       red  
+Speaker175: Sa~tingin~ko maganda ang~pula~mong~bestido.
+~           I~think pretty  your~red~dress 
+$606/080bcdbc.mp3;2,0;7,194;3,331;8,110;4,429;5,200;5,240;8,200
 
 [LINE]
-Speaker659: Gusto~ko rin yung~berde    !
-~           I~want   too the~green~one  
+Speaker659: Gusto~ko iyong~berde!
+~           I~want  the~green~one  
+$606/11fed56c.mp3;5,0;3,379;6,130;6,280
 
 [LINE]
-Speaker175: Gusto~mo~ba yung~blusa~kong puti  ?
-~           do~you~want my~dress        white  
+Speaker175: Gusto~mo~bang sa~iyo~na~lang ang~bestido~kong puti?
+~           do~you~want yours~instead my~dress~(that~is)  white  
+$606/cfe97e3e.mp3;5,0;3,329;5,135;3,195;4,105;3,280;5,110;4,160;8,185;5,530;5,186
 
 [LINE]
-Speaker659: Eh iyon  ang~paboritong~blusa mo,   ah !
-~           ~  it~is favorite~blouse      your  ~   
+Speaker659: Pero iyan  ang~paborito~mong damit!
+~           but that is~your~favorite dress         
+$606/387e353e.mp3;4,0;5,239;4,290;9,130;5,540;6,205
 
 [LINE]
-Speaker175: At  ikaw    ang~paboritong~ate ko...
-~           and you~are favorite~sister    my   
+Speaker175: At  ikaw    ang~paborito~kong ate!
+~           and you are~my~favorite elder~sister   
+$606/3ff1781c.mp3;2,0;5,149;4,300;9,160;5,551;4,165
 
 [MULTIPLE_CHOICE]
-> Nena is offering her favorite dress...
+> Lena is offering her favorite dress...
 - … to her favorite daughter.
 - … to her favorite cousin.
 + … to her favorite sister.
 
 [LINE]
-Speaker659: Maraming~salamat    !
+Speaker659: Maraming~salamat!
 ~           thank~you~very~much  
+$606/79943604.mp3;8,0;8,480
 
 [LINE]
-> Lumabas  si~Nena sa~banyo.         
-~ came~out Nena    from~the~bathroom 
+> Lumabas  si~Lena sa~banyo.         
+~ came~out Lena    from~the~bathroom 
+$606/336026ca.mp3;7,0;3,459;5,145;3,315;6,185
 
 [MULTIPLE_CHOICE]
-> Nena came out of the bathroom.
+> Lena came out of the bathroom.
 + Yes, that's true.
 - No, that's not right.
 
 [LINE]
-Speaker175: Very good !
+Speaker175: Ayos~na!
+~ it's~all~sorted~out
+$606/83770ab6.mp3;4,0;3,454
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker175: Ang blusang~puti para~sa iyo at  ang [berde     para~sa akin] !
-~           the white~dress  for     you and the  green~one for     me     
+Speaker175: Ang puting bestido para~sa iyo at  ang~[berde     para~sa akin] !
+~           the white dress for     you and the~green~one for me     
+$606/ca1f1e04.mp3;3,0;7,189;8,345;5,530;3,270;4,115;3,305;4,140;6,160;5,405;3,250;5,130
+
 + berde para sa akin
 - berde para sa amin
 - batian para sa atin
 
 [LINE]
-Speaker659: Nena! Nasa~iyo pala ang~blusa~kong berde!
-~           ~     you~have ~    my~blouse      green 
+Speaker659: Lena! Nasa~iyo pala ang~berde~kong bestido!
+~           Lena   with~you (expressing~realization) is~my~green dress 
+$606/317e328e.mp3;4,0;6,465;4,515;5,230;4,230;6,210;5,390;8,195
 
 [LINE]
-Speaker175: Kaya~nga! At  ako  ang~paboritong~ate mo   !
-~           I~know    and I~am favorite~sister    your  
+Speaker175: Kaya~nga Ate! At  ako  ang~paborito~mong bunsong~kapatid!
+~           I~know  Ate~(elder~sister)  and I~am your~favorite younger~sister  
+$606/45c58bfc.mp3;4,0;4,340;4,184;4,430;4,360;4,230;9,156;5,560;8,195;8,380
 
 [MULTIPLE_CHOICE]
 > Why is Isabela annoyed?
-- Nena won't leave the bathroom.
-- Nena is talking to her boyfriend.
-+ Nena is wearing the dress that she wanted to wear.
+- Lena won't leave the bathroom.
+- Lena is talking to her boyfriend.
++ Lena is wearing the dress that she wanted to wear.
 
 [MATCH]
 > Tap the pairs.
-- blusa <> blouse
+- bestido <> dress
 - nasaan ka <> where are you
-- sa banyo <> in the bathroom
+- nasa banyo <> in the bathroom
 - berde <> green
 - puti <> white
-
+- paboritong kapatid <> favorite sister
