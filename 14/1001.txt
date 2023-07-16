@@ -3,39 +3,41 @@ fromLanguageName=Friends
 icon=743f08a1a28a5e27e7e78ba3c46443b92365789b
 set=100|20
 
+speaker_tts=en
+
 [HEADER]
 > Magkakaibigan
 ~ friends     
-$1001/93872b3a.mp3;3,0;9,0
+$1001/f1a33975.mp3;13,1247
 
 [LINE]
 Speaker101: Kumusta, Carmen!
 ~           hello    Carmen  
-$1001/ba6f4ee4.mp3;7,137;7,713
+$1001/9e4ad21f.mp3;7,137;2,500;7,213;2,537
 
 [LINE]
 Speaker1320: Kumusta, Gabriela.
 ~            hello    Gabriela 
-$1001/bd542d50.mp3;7,0;10,639
+$1001/f00c5fea.mp3;8,935;10,990
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker101: [Mag-aaral~ba~tayo] ngayon?
-~             are~we~going~to~study  now
-$1001/d70d9934.mp3;9,125;3,487;5,125;7,213
+Speaker101: [Mag-aaral ba tayo] ngayon?
+~             will~study (question~marker) (are)~we  now
+$1001/1ccc6810.mp3;9,125;3,487;5,125;7,213
 - Magbabakal ba tayo
 + Mag-aaral ba tayo
 - Magtatagal ba tayo
 
 [LINE]
-Speaker1320: Pasensya~na, marami~akong gagawin ngayon.
-~            sorry   I~have~a~lot to~do today
-$1001/1bd4dcd0.mp3;8,0;3,514;8,275;6,660;8,260;7,455
+Speaker1320: Pasensya~na, marami akong gagawin ngayon.
+~            sorry    have~many (do)~I to~do today
+$1001/b56f1ad2.mp3;8,569;4,525;7,385;6,245;8,445;8,882
 
 [LINE]
-Speaker1320: Pupunta~kasi~ako sa~mall.    
-~            because~I~will~go to~the~mall 
-$1001/34c2453e.mp3;7,0;5,490;4,264;3,220;5,155
+Speaker1320: Pupunta kasi ako sa~mall.    
+~            going because (am)~I to~the~mall 
+$1001/a13d9474.mp3;7,475;5,275;4,220;3,150;6,754
 
 [MULTIPLE_CHOICE]
 > Carmen is busy because she's going to the mall.
@@ -43,24 +45,24 @@ $1001/34c2453e.mp3;7,0;5,490;4,264;3,220;5,155
 - No, that's not right.
 
 [LINE]
-Speaker101: Pero ayaw~mo sa~mall, 'di~ba?
-~           but  you~don't~like the~mall isn't~that~right
-$1001/77208b98.mp3;4,125;5,187;3,250;3,88;5,162;3,425;3,175
+Speaker101: Pero ayaw mo sa~mall, 'di~ba?
+~           but  not~liked (by)~you (is)~the~mall right
+$1001/7bbeed02.mp3;4,125;5,187;3,250;3,88;5,162;2,288;3,137;3,175
 
 [LINE]
 Speaker101: …kasi    maraming           tao.   
-~            because there~are~a~lot~of people 
-$1001/45e25c46.mp3;4,875;9,200;4,487
+~            because there~are~many people 
+$1001/63fd427e.mp3;4,875;9,200;4,487;2,350
 
 [LINE]
 Speaker1320: Kaya~nga…
 ~            exactly
-$1001/85d17382.mp3;4,0;4,344
+$1001/8b8bb22e.mp3;4,359;4,310;2,NaN
 
 [LINE]
-Speaker101: At  ayaw~mo        rin  sa~mga~tao!
-~           and you~don't~like also people     
-$1001/90db4b0e.mp3;2,150;5,125;3,262;4,125;3,163;4,137;4,238
+Speaker101: At  ayaw mo        rin  sa~mga~tao!
+~           and not~liked by~you also (are)~people     
+$1001/f88e3cbd.mp3;2,150;5,125;3,262;4,125;3,163;4,137;4,238;2,362
 
 [MULTIPLE_CHOICE]
 > Why doesn't Carmen like the mall?
@@ -69,14 +71,14 @@ $1001/90db4b0e.mp3;2,150;5,125;3,262;4,125;3,163;4,137;4,238
 - Because it's too far away.
 
 [LINE]
-Speaker1320: Oo~nga,  pero kailangan~ko bumili  ng…      
-~            yes      but  I~need       to~buy… something
-$1001/a2ade256.mp3;2,0;4,239;6,330;10,485;3,601;7,120;3,369
+Speaker1320: Oo~nga,  pero kailangan ko bumili  ng…      
+~            yes      but  need (by)~me to~buy… something
+$1001/47379576.mp3;2,275;5,550;5,224;10,580;3,105;7,380;3,380;2,NaN
 
 [LINE]
-Speaker101: Sasamahan~na~lang~kita! 
+Speakertts: Sasamahan~na~lang~kita! 
 ~           I'll~just~accompany~you
-$1001/acbd1ec4.mp3;9,112;3,538;5,87;5,188
+$1001/4040575c.mp3;9,112;3,600;5,100;5,150;2,388
 
 [LINE]
 Speaker1320: Pero…
