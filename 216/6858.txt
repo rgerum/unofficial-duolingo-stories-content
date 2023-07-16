@@ -4,12 +4,14 @@ icon=a9d84d4e299c60bdb37d50cc28d74b53af395ac1
 set=5|4
 
 [HEADER]
-> La~ropa~de~Lily
+> Kleda~til~Lily
 ~ Lily's~clothes 
+$6524/3f4c180f.mp3;4,50;4,487;5,225
 
 [LINE]
-> Zari está en casa~de~Lily. Ella mira     la~ropa~de~Lily.
+> Zari er hjå Lily. Ho ser~på kleda~til~Lilly.
 ~ Zari is   at Lily's~house  she  looks~at Lily's~clothes  
+$6524/3b19c1d0.mp3;4,50;3,537;4,175;5,163;2,362;3,850;4,275;3,288;5,175;4,387;6,225;2,400
 
 [MULTIPLE_CHOICE]
 > Zari is looking at Lily's homework.
@@ -17,12 +19,14 @@ set=5|4
 - Yes, that's right.
 
 [LINE]
-Speaker418: Tú  tienes mucha    ropa~morada.   
-~           you have   a~lot~of purple~clothes 
+Speaker418: Du har masse lilla klede.
+~           you have a~lot~of purple clothes 
+$6524/204a97be.mp3;2,254;4,211;6,399;6,332;5,790
 
 [LINE]
-Speaker416: El~morado es mi color~favorito.
+Speaker416: Lilla er favorittleten~min.
 ~           purple    is my favorite~color 
+$6524/36671dd0.mp3;5,390;3,185;14,853;5,390
 
 [MULTIPLE_CHOICE]
 > What is Lily's favorite color?
@@ -31,34 +35,41 @@ Speaker416: El~morado es mi color~favorito.
 - brown
 
 [LINE]
-Speaker418: ¿Necesitas cinco camisas~moradas?
-~            you~need  five  purple~shirts   
+Speaker418: Treng~du fem lilla skjorter?
+~        do~you~need five purple shirts   
+$6524/56fb4522.mp3;5,340;3,149;4,311;6,285;10,823
 
 [LINE]
-Speaker416: Sí,  y   cinco abrigos~morados.
-~           yes  and five  purple~coats    
+Speaker416: Ja, og fem lilla frakkar.
+~           yes and five  purple coats    
+$6524/7863385f.mp3;3,509;3,75;4,326;6,329;9,865
 
 [ARRANGE]
 > Tap what you hear
-Speaker418: ¿[(Y)   (cuatro) (sombreros~morados)?]
-~              and   four     purple~hats         
+Speaker418: [(Og)   (fire) (lilla hattar)?]
+~              and   four   purple hats         
+$6524/ba9de329.mp3;2,74;5,445;6,348;8,662
 
 [LINE]
-Speaker416: Sí,  necesito mis sombreros.
-~           yes  I~need   my  hats      
+Speaker416: Ja, eg treng hattane~mine.
+~           yes  I need   my~hats      
+$6524/233b1684.mp3;3,549;3,182;6,360;10,588;5,649
 
 [POINT_TO_PHRASE]
 > Choose the option that means "something."
-Speaker418: (Tengo)  (+algo)      (para) (ti). 
-~            I~have    something   for    you  
+Speaker418: (Eg har)  (+noko)   (for) (deg). 
+~            I have    something  for you  
+$6524/953fa0dd.mp3;2,185;4,174;5,431;4,225;5,729
 
 [LINE]
-> Zari tiene unas~gafas~de~sol~rojas. 
-~ Zari has   a~pair~of~red~sunglasses 
+> Zari har eit par raude solbriller.
+~ Zari has   a pair red sunglasses 
+$6524/5baaf749.mp3;4,50;4,475;4,212;4,225;5,238;11,325;2,775
 
 [LINE]
-Speaker418: Son      para ti.  Son      de   mi tienda~favorita.
-~           they~are for  you  they~are from my favorite~store  
+Speaker418: Dei er for deg. Dei er frå favorittbutikken~min.
+~           they are for  you  they are from my~favorite~store  
+$6524/054bdf55.mp3;3,294;3,171;4,234;5,615;4,255;3,165;4,214;17,957;4,554
 
 [MULTIPLE_CHOICE]
 > Zari gives Lily a pair of red sunglasses…
@@ -67,16 +78,20 @@ Speaker418: Son      para ti.  Son      de   mi tienda~favorita.
 + …from her favorite store.
 
 [LINE]
-Speaker416: Eh… Gracias.  
-~           eh  thank~you 
+Speaker416: Emm… Takk.  
+~           ehm  thank~you 
+$6524/dfeddf5e.mp3;3,244;2,941;6,NaN
 
 [LINE]
-Speaker418: El  color rojo es perfecto para ti. 
-~           the color red  is perfect  for  you 
+Speaker418: Den raude~leten er perfekt for deg.
+~           the color~red  is perfect  for  you 
+$6524/918ab62f.mp3;3,229;5,331;7,473;3,168;8,530;4,195;5,685
 
 [LINE]
-Speaker416: ¿Y   la  tienda tiene gafas~de~sol~moradas?
-~            and the store  has   purple~sunglasses    
+Speaker416: ... Og butikken har lilla solbriller?
+~            and the~store has   purple sunglasses    
+
+$6524/cb29e159.mp3;3,569;3,490;9,196;4,315;6,951;12,NaN
 
 [MULTIPLE_CHOICE]
 > Lily likes the sunglasses but…
@@ -86,9 +101,10 @@ Speaker416: ¿Y   la  tienda tiene gafas~de~sol~moradas?
 
 [MATCH]
 > Tap the pairs
-- tienes <> have
-- El morado <> purple
-- la ropa de Lily <> Lily's clothes
-- camisas moradas <> purple shirts
-- de <> from
+- lilla <> purple
+- kleda <> the clothes
+- solbriller <> sunglasses
+- hattane <> the hats
+- noko <> something
+- for you <> for deg
 
