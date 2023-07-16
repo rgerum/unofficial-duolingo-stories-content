@@ -1,23 +1,27 @@
 [DATA]
-fromLanguageName=Clothes for My Vacation
+fromLanguageName=Clothes for my Vacation
 icon=6fee4723d01611cffa9b4b76fd5be36697ef1e96
 set=4|3
 
 [HEADER]
-> Ropa    para mis vacaciones
-~ clothes for  my  vacation  
+> Klede for ferien
+~ clothes for the~vacation  
+$6518/8fafba2e.mp3;5,50;4,337;7,238
 
 [LINE]
-> Lucy está en una tienda.
+> Lucy er på ein butikk
 ~ Lucy is   at a   store  
+$6518/2444cd9e.mp3;4,50;3,550;3,187;4,113;7,212
 
 [LINE]
-Speaker416: Hola,  ¿necesita ayuda?
+Speaker416: Hallo, treng~du hjelp?
 ~           hello   you~need help  
+$6518/5da120c8.mp3;6,779;6,295;3,152;7,635
 
 [LINE]
-Speaker509: Sí,  necesito ropa    para mis vacaciones.
-~           yes  I~need   clothes for  my  vacation   
+Speaker509: Ja, eg treng klede for ferien~min
+~           yes  I need  clothes for  my~vacation   
+$6518/ed46b9f8.mp3;2,50;2,312;3,75;6,238;6,362;4,313;7,162;4,475
 
 [MULTIPLE_CHOICE]
 > Lucy is shopping for clothes for a vacation.
@@ -25,16 +29,19 @@ Speaker509: Sí,  necesito ropa    para mis vacaciones.
 + Yes, that's right.
 
 [LINE]
-Speaker416: Está~bien.
+Speaker416: Greit.
 ~           OK        
+$6518/ac4edf4c.mp3;6,773
 
 [LINE]
-Speaker509: Necesito un vestido.
-~           I~need   a  dress   
+Speaker509: Eg treng ein kjole
+~           I need   a  dress   
+$6518/49ff20dc.mp3;2,50;6,262;4,413;6,312
 
 [LINE]
-> Lily busca     un vestido~verde.
-~ Lily looks~for a  green~dress   
+> Lily leitar~etter ein grøn kjole
+~ Lily looks~for a  green dress   
+$6518/74c6e963.mp3;4,50;7,412;6,525;4,213;5,225;6,312
 
 [MULTIPLE_CHOICE]
 > Lily is getting a…
@@ -43,62 +50,75 @@ Speaker509: Necesito un vestido.
 - …green hat.
 
 [LINE]
-Speaker509: ¡No, yo quiero un vestido~rojo!
-~            no  I  want   a  red~dress    
+Speaker509: Nei, eg vil~ha ein raud kjole!
+~            no  I  want   a  red dress    
+$6518/94176ad5.mp3;3,50;2,375;3,75;4,275;3,162;4,188;5,237;6,213;2,475
 
 [LINE]
-> Lily busca     un vestido~rojo.
-~ Lily looks~for a  red~dress    
+> Lily leitar~etter ein raud kjole.
+~ Lily looks~for a  red dress    
+$6518/19a94c68.mp3;4,50;7,412;6,525;4,225;5,250;6,238;2,500
 
 [LINE]
-Speaker509: Y   quiero una chaqueta.
-~           and I~want a   jacket   
+Speaker509: Og eg vil~ha ei jakke.
+~           and I want a   jacket   
+$6518/694cf7da.mp3;2,50;3,162;4,288;3,187;3,250;6,125;2,438
 
 [ARRANGE]
 > Tap what you hear
-> [(Lily) (busca)     (una) (chaqueta~roja).]
-~   Lily   looks~for   a     red~jacket      
+> [(Lily) (leitar~etter)     (ei) (raud~jakke).]
+~   Lily   looks~for          a     red~jacket      
+$6518/3ea639c2.mp3;4,50;7,400;6,525;3,237;5,150;6,225;2,425
 
 [LINE]
-Speaker509: ¡No, yo quiero una chaqueta~marrón!
-~            no  I  want   a   brown~jacket    
+Speaker509: Nei, eg vil~ha ei brun jakke!
+~            no  I  want   a   brown jacket    
+$6518/5ec4b142.mp3;3,50;2,375;3,62;4,275;3,175;3,213;5,137;6,300;2,400
 
 [LINE]
-Speaker416: Está~bien…
+Speaker416: Greit…
 ~           OK        
+$6518/48eea1c9.mp3;5,534;2,NaN
 
 [LINE]
-Speaker509: Un vestido~rojo, una chaqueta~marrón…
-~           a  red~dress     a   brown~jacket    
+Speaker509: Ein raud{rəʉ:ipa} kjole. Ei brun jakke.
+~           a  red dress     a   brown jacket    
+$6518/861aec19.mp3;3,50;4,287;6,238;2,512;3,938;5,175;6,350;2,425
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker509: ¡[Y~un~sombrero]!
-~             and~a~hat      
-- Y un bombero
-- Y un obrero
-+ Y un sombrero
+Speaker509: [Og ein hatt]!
+~             and a hat      
+$6518/fbc8f615.mp3;2,50;4,125;5,287;2,413
+- Og bein hat
+- Og ein katt
++ Og ein hatt
 
 [LINE]
-> Lily busca     un sombrero~azul.
-~ Lily looks~for a  blue~hat      
+> Lily leitar~etter ein blå hatt
+~ Lily looks~for a  blue hat      
+$6518/5a34dd76.mp3;4,50;7,400;6,525;4,225;4,225;5,150
 
 [LINE]
-Speaker509: ¡No, yo quiero un sombrero~gris!
-~            no  I  want   a  gray~hat      
+Speaker509: Nei, eg vil~ha ein grå hatt!
+~            no  I  want   a  gray hat      
+$6518/aa460a1a.mp3;3,50;2,375;3,75;4,275;3,175;4,200;4,225;5,237;2,425
 
 [LINE]
-> Lily busca     un sombrero~gris.
-~ Lily looks~for a  gray~hat      
+> Lily leitar~etter ein grå hatt
+~ Lily  looks~for   a  gray hat      
+$6518/6db9976e.mp3;4,50;7,400;6,525;4,212;4,213;5,187
 
 [POINT_TO_PHRASE]
 > Choose the option meaning "ready."
-Speaker509: ¡(Gracias)!   ¡(Estoy) (+lista) (para) mis vacaciones!
-~             thank~you     I~am     ready   for   my  vacation   
+Speaker509: (Tusen~takk)!   (Eg er) (+klar) (for) ferien~min!
+~             thank~you     I am     ready   for   my~vacation   
+$6518/eb3f849e.mp3;5,50;5,462;2,425;3,950;3,250;5,188;4,375;7,175;4,500;2,362
 
 [LINE]
-Speaker416: Ahora yo necesito vacaciones.  
-~           now   I  need     (a)~vacation 
+Speaker416: No treng~eg ferie sjølv
+~           now I~need (a)~vacation myself
+$6518/504e054f.mp3;2,234;6,383;3,160;6,400;6,727
 
 [MULTIPLE_CHOICE]
 > Poor Lily! Why does she need a vacation?
@@ -108,9 +128,9 @@ Speaker416: Ahora yo necesito vacaciones.
 
 [MATCH]
 > Tap the pairs
-- Y <> and
-- chaqueta roja <> red jacket
-- sombrero gris <> gray hat
-- Gracias <> thank you
-- No <> no
+- ei jakke <> a jacket
+- blå <> blue
+- eg vil ha <> I want
+- klar <> ready
+- no <> now
 
