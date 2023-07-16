@@ -4,24 +4,29 @@ icon=076bc5bf725308c211b9c04f07d3622683e84d78
 set=8|4
 
 [HEADER]
-> Una cena~con~la~familia
+> Ein familiemiddag
 ~ a   family~dinner      
+$6552/8493a014.mp3;3,50;14,300
 
 [LINE]
-> Lin está en la~casa~de~Bea. Ella va   a  la  cocina. 
-~ Lin is   at Bea's~house     she  goes to the kitchen 
+> Lin er heime~hjå~Bea. Ho går på kjøkenet.
+~ Lin is   at~Bea's~house     she  goes to the kitchen 
+$6552/a6f7b8e4.mp3;3,50;3,362;6,138;4,375;4,150;2,362;3,838;4,300;3,275;9,125;2,525
 
 [LINE]
-> Ella ve   mucha    comida y   cuatro botellas de vino sobre la  mesa. 
-~ she  sees a~lot~of food   and four   bottles  of wine on    the table 
+> Ho ser mykje mat og fire flasker vin på bordet.
+~ she sees much food and four bottles wine on the~table 
+$6552/4bc2ee4c.mp3;2,50;4,262;6,263;4,275;3,275;5,62;8,375;4,463;3,287;7,150;2,388
 
 [LINE]
-Speaker508: ¡Guau! Hay      mucha    comida aquí.
-~            wow   there~is a~lot~of food   here 
+Speaker508: Oi! Det~er mykje mat her!
+~           wow there~is much food here 
+$6552/02d54b51.mp3;3,534;4,145;3,110;6,326;4,300;5,580
 
 [LINE]
-Speaker507: Sí,  mi familia va~a~venir a  cenar.      
-~           yes  my family  is~coming  to have~dinner 
+Speaker507: Ja, familien~min kjem på middag.
+~           yes  my~family  comes for dinner 
+$6552/c427ecb4.mp3;3,399;9,466;4,150;5,299;3,125;8,740
 
 [MULTIPLE_CHOICE]
 > Bea's family is coming to her house for breakfast.
@@ -29,81 +34,97 @@ Speaker507: Sí,  mi familia va~a~venir a  cenar.
 + No, that's wrong.
 
 [LINE]
-Speaker508: Ah, ¿me~puedo~comer un~poco~de pastel?
-~           oh   I~can~eat      some       cake   
+Speaker508: Å, kan eg få litt kake?
+~           oh  can I get some cake   
+$6552/a749acf7.mp3;2,299;4,155;3,100;3,135;5,155;6,890
 
 [LINE]
-Speaker507: No.
+Speaker507: Nei.
 ~           no 
+$6552/8bd695b0.mp3;4,590
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker508: Pero [tienes~tres~pasteles].
-~           but   you~have~three~cakes  
-- vienes con tres pasteles
-- tiene tres carteles
-+ tienes tres pasteles
+Speaker508: Men du har [tre kaker].
+~           but   you have three cakes  
+$6552/61ee4440.mp3;3,194;3,140;4,135;4,301;7,896
+- tre kva skjer
+- tre haker
++ tre kaker
 
 [LINE]
-Speaker507: Yo necesito tres  pasteles.
-~           I  need     three cakes    
+Speaker507: Eg treng tre kaker.
+~           I  need  three cakes    
+$6552/6a143d3d.mp3;2,184;6,335;4,279;6,744
 
 [LINE]
-Speaker508: Bueno, ¿me~puedo~beber un vaso  de vino?
-~           well    I~can~drink    a  glass of wine 
+Speaker508: Vel, kan eg drikka eitt glas vin?
+~           well  can I drink   a  glass wine 
+$6552/56aca39f.mp3;4,409;4,155;3,129;7,350;5,187;5,310;5,634
 
 [LINE]
-Speaker507: No.
+Speaker507: Nei.
 ~           no 
+$6552/ab323600.mp3;4,590
 
 [CONTINUATION]
 > What's next?
-Speaker508: Tienes   cuatro botellas [de vino].
-~           you~have four   bottles   of wine  
-- la  mesa 
-~ the table
-- de pastel
-~ of cake  
-+ de vino
-~ of wine
+Speaker508: Du har fire flasker [vin].
+~           you have four  bottles  wine  
+$6552/08cff769.mp3;2,185;4,154;5,358;8,400;4,341;2,350
+- bord 
+~ table
+- kake
+~ cake  
++ vin
+~ wine
 
 [LINE]
-Speaker507: Yo necesito todo ese  vino.
-~           I  need     all  that wine 
+Speaker507: Eg treng all vinen.
+~           I  need     all  the~wine 
+$6552/3293b596.mp3;2,164;6,275;4,196;7,650
 
 [LINE]
-Speaker508: ¿Puedo~comer un~poco~de pizza?
-~            I~can~eat   some       pizza 
+Speaker508: Kan eg få litt pizza?
+~            can I get some pizza 
+$6552/dbd2f88e.mp3;3,189;3,115;3,130;5,161;7,825
 
 [LINE]
-Speaker507: No, Lin.
+Speaker507: Nei, Lin.
 ~           no  Lin 
+$6552/e82c3f20.mp3;4,469;5,614
 
 [LINE]
-Speaker508: Está~bien, ¿a~qué~hora   es la  cena   con  tu~familia? 
-~           OK          at~what~time is the dinner with your~family 
+Speaker508: Greit, når er middagen med familien?
+~           OK     when is the~dinner with the~family 
+$6552/bb21f91e.mp3;6,519;4,154;3,110;9,416;4,110;10,915
 
 [POINT_TO_PHRASE]
-> Choose the option that means "next."
-Speaker507: Ah, la  (cena)   con  mi (familia) es (+la~próxima) (semana).
-~           oh  the  dinner  with my  family   is   next         week    
+> Choose the option that means "next".
+Speaker507: Å, (middagen)   med  (familien)~min er (+neste) (veke).
+~           oh  the~dinner  with my~family   is   next      week    
+$6552/07fb22b1.mp3;2,344;9,417;4,120;9,485;4,170;3,140;6,315;6,872
 
 [ARRANGE]
 > Tap what you hear
-Speaker507: [(Todo) (esto)      (es) (para) (mí).]
-~             all    (of)~this   is   for    me   
+Speaker507: [(Alt) (dette) (er) (mitt).]
+~             all   this   is   mine
+$6552/75a4a62b.mp3;3,214;6,215;3,130;6,612
 
 [LINE]
-Speaker508: ¿Qué? 
+Speaker508: Kva? 
 ~            what 
+$6552/be824131.mp3;4,595
 
 [LINE]
-Speaker507: ¡Tengo  una familia~muy~difícil!   ¡Estoy nerviosa!
-~            I~have a   very~difficult~family   I~am  nervous  
+Speaker507: Eg har ein veldig vanskeleg familie! Eg er nervøs!
+~            I have a   very difficult family   I am  nervous  
+$6552/4004b739.mp3;2,179;4,165;4,160;7,288;10,554;9,971;3,185;3,115;8,873
 
 [LINE]
-Speaker507: Necesito toda esta comida y   todo el  vino ahora.
-~           I~need   all  this food   and all  the wine now   
+Speaker507: Eg treng all denne maten og vinen for i~kveld.
+~           I need   all  this food  and wine for tonight
+$6552/f905ca36.mp3;2,189;6,276;4,225;6,205;6,394;3,80;6,295;4,120;2,78;7,651
 
 [MULTIPLE_CHOICE]
 > Bea has a very difficult family so…
@@ -113,9 +134,9 @@ Speaker507: Necesito toda esta comida y   todo el  vino ahora.
 
 [MATCH]
 > Tap the pairs
-- la próxima <> next
-- esto <> this
-- la casa de Bea <> Bea's house
-- me puedo beber <> I can drink
-- a <> to
+- fire flasker vin <> four bottles of wine
+- litt pizza <> some pizza
+- tre kaker <> three cakes
+- eitt glas vin <> one glass of wine
+- i kveld <> tonight
 
