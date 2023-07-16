@@ -4,11 +4,11 @@ icon=bf0f585cb9c595dad852ba30870242b639057e4f
 set=10|3
 
 [HEADER]
-> jan~lukin
+> jan{jan:ipa}~lukin
 ~ the~model 
 
 [LINE]
-> jan~Esi li tawa tenpo~sona~pi~jan~Oka. ona li pana~e~sona~pi~sitelen~musi.
+> jan{jan:ipa}~Esi li tawa{tawa:ipa} tenpo~sona{sona:ipa}~pi~jan{jan:ipa}~Oka{oka:ipa}. ona li pana~e~sona{sona:ipa}~pi~sitelen~musi.
 ~ Eddy ~ goes~to Oscar's~class     he ~ teaches~art
 
 [LINE]
@@ -16,7 +16,7 @@ Speaker414: toki, mi ken~ala~ken kama~lon~insa?
 ~           hello   I can~(question) come~in 
 
 [LINE]
-Speaker592: tenpo~lili~lili la tenpo~sona~mi li open.
+Speaker592: tenpo~lili~lili la tenpo~sona{sona:ipa}~mi li open{open:ipa}.
 ~           very~soon (context) my~class ~ will~begin 
 
 [MULTIPLE_CHOICE]
@@ -25,19 +25,19 @@ Speaker592: tenpo~lili~lili la tenpo~sona~mi li open.
 - Yes, that's right.
 
 [LINE]
-Speaker414: taso mi wile pali e ijo.
+Speaker414: taso mi wile{wile:ipa} pali e ijo{ijo:ipa}.
 ~           but  I want to~do (object) something    
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker592: sina [jo~ala~e~tenpo~sona], anu~seme?   
+Speaker592: sina [jo~ala~e~tenpo~sona{sona:ipa}], anu~seme?   
 ~            you don't~have~a~class, or~what
-- kala lon tenpo sona
-+ jo ala e tenpo sona
+- kala lon tenpo sona{sona:ipa}
++ jo ala e tenpo sona{sona:ipa}
 - jo ala e kili pona
 
 [LINE]
-Speaker414: ala, mi ken~ala~ken pali e ijo tawa sina?     
+Speaker414: ala, mi ken~ala~ken pali e ijo{ijo:ipa} tawa{tawa:ipa} sina?     
 ~           no   I can~(question) do (object) something for you 
 
 [LINE]
@@ -46,7 +46,7 @@ Speaker592: tan~seme?
 
 [ARRANGE]
 > Tap what you hear
-Speaker414: [(tan~ni:)  (sina)    (jan)~(pi~pona~mute) (mi).] 
+Speaker414: [(tan~ni:)  (sina)    (jan{jan:ipa})~(pi~pona~mute) (mi).] 
 ~             because   you~(are)    best~friend   my
 
 [LINE]
@@ -54,11 +54,11 @@ Speaker592: a, lon?
 ~            oh  yes 
 
 [LINE]
-Speaker592: n… mi sona e ijo tawa sina.
+Speaker592: n… mi sona{sona:ipa} e ijo{ijo:ipa} tawa{tawa:ipa} sina.
 ~           hmm  I know (object) something for you    
 
 [LINE]
-Speaker414: pona mute, jan~pona o! 
+Speaker414: pona mute, jan{jan:ipa}~pona o! 
 ~            very well  friend (vocative)
 
 [LINE]
@@ -71,7 +71,7 @@ Speaker414: lon!
 
 [POINT_TO_PHRASE]
 > Choose the option that means "sits down."
-> (jan Esi) li (+anpa) li  (lukin) e  (jan Oka).
+> (jan{jan:ipa} Esi) li (+anpa) li  (lukin) e  (jan{jan:ipa} Oka{oka:ipa}).
 ~  Eddy  ~  sits~down  and  looks~at  (object) Oscar  
 
 [LINE]
@@ -83,15 +83,15 @@ Speaker414: tan~seme?
 ~            why     
 
 [LINE]
-Speaker592: tenpo~sona~mi li open. mi wile~jo e jan~lukin.
+Speaker592: tenpo~sona{sona:ipa}~mi li open{open:ipa}. mi wile{wile:ipa}~jo e jan{jan:ipa}~lukin.
 ~           my~class ~ is~starting I need (object)  a~model  
 
 [LINE]
-Speaker592: jan~lukin li toki~ala. 
+Speaker592: jan{jan:ipa}~lukin li toki~ala. 
 ~           models  ~  don't~talk 
 
 [LINE]
-Speaker414: taso mi wile pali!
+Speaker414: taso mi wile{wile:ipa} pali!
 ~           but I want to~do~(something)   
 
 [LINE]
@@ -109,6 +109,7 @@ Speaker592: s…
 - li <> and
 - anpa monsi <> sit down
 - mute <> very
-- jan Oka <> Oscar
+- jan{jan:ipa} Oka{oka:ipa} <> Oscar
 - pona <> well
+
 
