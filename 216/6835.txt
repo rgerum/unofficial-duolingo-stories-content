@@ -5,22 +5,22 @@ set=2|1
 
 [HEADER]
 > Den raude{rəʉɛ:ipa} jakka
-~ i
+~ den røde jakken
 $6486/2d9c50d0.mp3;3,50;6,412;6,425
 
 [LINE]
-> Lily er i ein kledebutikk med venen~sin Zari
-~ i
+> Lily er i ein kledebutikk med venen sin Zari
+~ Lily er i en klesbutikk med vennen sin Zari
 $6486/85f64728.mp3;4,50;3,512;2,175;4,88;4,225;7,275;4,362;6,138;4,375;5,250
 
 [LINE]
 Speaker416: Denne butikken er veldig dyr     
-~           i
+~           Denne butikken er veldig dyr
 $6486/fed1b495.mp3;5,364;9,461;3,165;7,363;4,661
 
 [LINE]
 Speaker418: Ja...
-~           i
+~           ja
 $6486/5a6edd1b.mp3;2,399;4,NaN
 
 [LINE]
@@ -31,7 +31,7 @@ $6486/50853832.mp3;3,460
 [SELECT_PHRASE]
 > Velg den manglende frasen.
 Speaker418: [Den raude jakka] er perfekt!
-~            k
+~            den røde jakken er perfekt
 $6486/2797b8b6.mp3;3,264;5,305;6,414;3,155;9,941
 
 + Den raude jakka
@@ -44,19 +44,19 @@ Speaker416: Hmm, Zari…
 $6486/b989ba0b.mp3;4,464;5,527;2,NaN
 
 [LINE]
-Speaker418: Eg~elskar leten!
-~           i
+Speaker418: Eg elskar leten!
+~           jeg elsker fargen
 $6486/5828b31e.mp3;2,189;7,492;8,671
 
 [LINE]
 Speaker416: Zari?
-~            Zari 
+~           Zari 
 $6486/1a7c9b99.mp3;5,747
 
 [POINT_TO_PHRASE]
 > Velg alternativet som betyr "å kjøpe."
-Speaker418: (Eg~har~lyst) (+å~kjøpa) (ho)!
-~           i
+Speaker418: (Eg har lyst) (+å kjøpa) (ho)!
+~           jeg har lyst å kjøpe den
 $6486/a69ca280.mp3;2,149;4,175;5,309;2,70;6,425;4,535
 
 [LINE]
@@ -70,15 +70,15 @@ Speaker418: Kva?
 $6486/371f3131.mp3;4,575
 
 [LINE]
-Speaker416: Jakka kostar fem~tusen kroner.
-~           i
+Speaker416: Jakka kostar fem tusen kroner.
+~           jakken koster fem tusen kroner
 $6486/1b96632a.mp3;5,415;9,504;4,311;6,435;10,854
 
 [MULTIPLE_CHOICE]
-> Hvor mye koster jakken?
-- fem kroner
-+ fem tusen kroner
-- fem millioner kroner
+> Hvilken farge har jakken?
+- lilla
++ rød
+- grønn
 
 [LINE]
 Speaker418: Kva?! 
@@ -87,53 +87,51 @@ $6486/357addcd.mp3;5,575
 
 [LINE]
 Speaker416: Zari, du treng ikkje ei ny jakke.
-~           Zari 
+~           Zari du trenger ikke en ny jakke
 $6486/8abf14bb.mp3;5,856;3,170;6,383;6,285;3,129;3,235;7,700
 
 [POINT_TO_PHRASE]
 > Velg alternativet som betyr "bursdag."
-Speaker418: (Men)… (Lily), (i~dag)   er (+fødselsdagen) min…
-~           i
+Speaker418: (Men)… (Lily), (i dag)   er (+fødselsdagen) min…
+~           men    Lily    i dag er bursdagen min
 $6486/5c285063.mp3;3,319;2,1046;6,70;2,145;3,145;3,885;15,200;4,NaN;2,NaN
 
 [LINE]
 Speaker416: Å, ja?  
-~           i
+~           å ja
 $6486/6e3a7d4f.mp3;2,539;4,453
 
 [LINE]
 Speaker418: Og du er bestevenen min!
-~           i
+~           og du er bestevennen min
 $6486/c71717d3.mp3;2,94;3,216;3,155;11,719;5,547
 
 [LINE]
 Speaker416: Ja…  Og?  
-~           i
+~           ja og
 $6486/175449c9.mp3;2,354;2,711;4,NaN
 
 [LINE]
-Speaker418: Og den perfekte~gåva for meg er…
-~           i
+Speaker418: Og den perfekte gåva for meg er…
+~           og den perfekte gaven for meg er
 $6486/242089d2.mp3;2,104;4,171;9,522;5,385;4,203;4,315;3,227;2,NaN
 
 [LINE]
-Speaker416: Ei billeg~jakke!
-~           i   
+Speaker416: Ei billeg jakke!
+~           en billig jakke  
 $6486/cf1db565.mp3;2,129;8,435;7,641
 
 [MULTIPLE_CHOICE]
-> Zari's birthday gift from Lily will be…
-- …an expensive red jacket.
-- …a big pile of money.
-+ …a cheap jacket.
+> Zaris bursdagsgave for Lily blir…
+- …en dyr rød jakke.
+- …en stor hauge med penger.
++ …en billig jakke.
 
 [MATCH]
 > Trykk på parene.
-- ei jakke <> a jacket
-- kva? <> What?
-- eg har lyst <> I want
-- fødselsdagen min <> my birthday
-- jakka <> the jacket
-- fem tusen <> five thousand
-- den raude <> the red
+- gåva <> gaven
+- den raude <> den røde
+- leten <> fargen
+- kva? <> hva?
+- bestevenen <> bestevennen
 
