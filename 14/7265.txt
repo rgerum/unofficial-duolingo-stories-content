@@ -3,7 +3,9 @@ fromLanguageName=A Love Letter
 icon=4ba2733ddb8bdc3f0924c6463da01f5d1eccaf40
 set=17|4
 
-# the audio pronounces {lableteɾ:ipa}
+# the audio pronounces {lablehterr}, 
+# with read along from when it pronounced
+# love~letter
 [HEADER]
 > Isang Love~Letter
 ~ a   love~letter
@@ -17,15 +19,18 @@ $7265/d37045ad.mp3;6,0;3,484;5,125;3,545;7,175;3,601;15,139
 [LINE]
 Speaker418: Ano|'ng~ginagawa mo, JunJun?
 ~            what (are)~done (by)~you  Junior 
+$7265/10987925.mp3;7,0;9,439;4,610;8,465
 
 [LINE]
 Speaker415: Ah… gumagawa ako ng~sulat. 
 ~           uh  making (am)~I a~letter
+$7265/4d2b7754.mp3;5,0;2,215;9,964;4,185;3,175;7,NaN
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker418: At…   ¿[para~kanino ang~sulat]?
+Speaker418: At…   [para~kanino ang~sulat]?
 ~           and    for~who (is)~the~letter
+$7265/a0b9903b.mp3;2,0;2,224;5,545;7,385;4,155;7,NaN
 - para kanina ang sulat
 + para kanino ang sulat
 - para kanino ang sinulat
@@ -33,14 +38,17 @@ Speaker418: At…   ¿[para~kanino ang~sulat]?
 [LINE]
 Speaker415: Para~sa isang~babae, isang astig~na~babae.
 ~           (it's)~for  a~girl   a   very~cool~girl   
+$7265/dbb5194d.mp3;4,0;3,259;6,140;7,276;6,655;6,274;3,395;7,80
 
 [LINE]
 Speaker418: Ah! Love~letter~mo ito? Babae ba ito sa~klase~niyo?  
 ~            oh   love~letter (is)~this    girl (question~marker) (is)~this in~your~(plural)~class
+$7265/5532d98e.mp3;3,0;5,394;7,285;3,355;5,120;6,815;3,420;4,125;3,270;6,140;6,390
 
 [LINE]
 Speaker415: Hindi… Ah… isa siyang teenager.
 ~           no  uh  a... (is)~she  ...teenager    
+$7265/18ab9c0c.mp3;5,0;2,479;3,495;2,535;4,255;7,NaN;10,NaN
 
 [MULTIPLE_CHOICE]
 > Junior is writing a love letter for a cool teenage girl.
@@ -50,32 +58,39 @@ Speaker415: Hindi… Ah… isa siyang teenager.
 [LINE]
 Speaker418: Isang teenager? Parang~ako?
 ~            a   teenager      like~me 
+$7265/26c5a1a8.mp3;5,0;10,394;7,956;5,324
 
 [LINE]
 Speaker415: Oo, at kapitbahay~ko siya.  
 ~           yes  and my~neighbor (is)~she
+$7265/c31c0503.mp3;3,0;3,509;11,171;3,695;6,120
 
 [POINT_TO_PHRASE]
 > Choose the option that means "neighbor."
 Speaker418: Sandali… (Itong~babae) ay~(isang) teenager at     (+kapitbahay)~mo?  
 ~           one~moment    this~girl   is  a    teenager    and (she's)~your~neighbor
+$7265/6d6f4fbd.mp3;7,0;2,644;6,651;6,435;3,130;6,310;9,644;3,150;11,700;4,NaN
 
 [LINE]
 Speaker415: Ah… oo. 
 ~           uh yes 
+$7265/ee20265e.mp3;2,0;2,254;4,NaN
 
 [LINE]
 Speaker418: At matalino siya?
 ~            and intelligent (is)~she
+$7265/de67b96e.mp3;2,0;9,194;6,515
 
 [LINE]
 Speaker415: Oo! 
 ~            yes 
+$7265/4bdee9b2.mp3;3,0
 
 [CONTINUATION]
 > What comes next?
 Speaker418: JunJun… para~sa~akin ang~sulat? Pasensya, pero [masyado kang bata].
 ~           Junior for~me (is)~the~letter  I'm~sorry  but  too... (are)~you young
+$7265/11228e94.mp3;6,0;2,754;5,535;3,145;5,320;4,135;7,840;10,960;5,230;8,445;5,195;5,480;2,NaN
 + masyado kang bata
 ~ too... (are)~you young
 - kapitbahay kita
