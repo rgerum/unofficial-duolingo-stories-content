@@ -1,0 +1,108 @@
+[DATA]
+fromLanguageName=Lily's Clothes
+icon=a9d84d4e299c60bdb37d50cc28d74b53af395ac1
+set=5|4
+
+[HEADER]
+> Lillys~kläder
+~ Lilly's~clothes 
+$6248/3060e398.mp3;6,6;7,445
+
+[LINE]
+> Sari är hemma~hos~Lilly. Hon tittar~på Lillys kläder.
+~ Sari is at~Lily's~house  she  looks~at Lilly's clothes  
+$6248/66b04fe1.mp3;4,6;3,477;6,198;4,313;6,261;4,857;7,153;3,374;7,143;7,433
+
+[MULTIPLE_CHOICE]
+> Sari is looking at Lilly's homework.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker418: Du har många lila kläder.     
+~           you have   a~lot~of purple clothes 
+$6248/bd978a9f.mp3;2,0;4,169;6,185;5,393;8,390
+
+[LINE]
+Speaker416: Lila är min favoritfärg. 
+~           purple    is my favorite~color 
+$6248/a0d23371.mp3;4,50;3,400;4,137;12,188;2,875
+
+[MULTIPLE_CHOICE]
+> What is Lilly's favorite color?
+- red
++ purple
+- brown
+
+[LINE]
+Speaker418: Behöver~du fem lila skjortor?
+~            do~you~need five purple shirts   
+$6248/ef1bef5f.mp3;7,0;3,394;4,170;5,310;10,386
+
+[LINE]
+Speaker416: Ja,  och   fem lila~kappor.
+~           yes  and five  purple~coats    
+$6248/ec7ea57d.mp3;2,50;2,325;4,62;4,125;5,288;7,275;2,487
+
+[ARRANGE]
+> Tap what you hear
+Speaker418: [(Och)   (fyra) (lila hattar)?]
+~              and   four     purple hats         
+$6248/68509eeb.mp3;3,0;5,134;5,435;8,395
+
+[LINE]
+Speaker416: Ja, jag~behöver mina hattar. 
+~           yes  I~need   my  hats      
+$6248/dcade81c.mp3;2,50;2,325;4,25;8,150;5,337;7,250;2,450
+
+[POINT_TO_PHRASE]
+> Choose the option that means "something."
+Speaker418: (Jag~har)  (+något)   (åt) (dig). 
+~            I~have    something  for  you  
+$6248/0b9fa2e5.mp3;3,0;4,204;6,175;3,358;5,185
+
+[LINE]
+> Sari har ett par~röda~solglasögon. 
+~ Sari has   a pair~of~red~sunglasses 
+$6248/81c6a8d2.mp3;4,6;4,437;4,219;4,108;5,200;12,307
+
+[LINE]
+Speaker418: De~är till dig{DIG}. De~är från min favoritaffär.   
+~           they~are for  you  they~are from my favorite~store  
+$6248/613ef7b0.mp3;2,0;3,NaN;5,NaN;4,NaN;2,NaN;3,NaN;3,NaN;5,NaN;4,NaN;14,NaN
+
+[MULTIPLE_CHOICE]
+> Sari gives Lilly a pair of red sunglasses…
+- …that she designed.
+- …that she found in the trash.
++ …from her favorite store.
+
+[LINE]
+Speaker416: Eh{əə:ipa}… tack.  
+~           eh  thank~you 
+$6248/28bbf2aa.mp3;2,50;5,1137;2,263
+
+[LINE]
+Speaker418: Rött passar perfekt på dig. 
+~           red   fits perfectly on you
+$6248/34ea89c3.mp3;4,0;7,340;8,410;3,501;5,165
+
+[LINE]
+Speaker416: Och har affären lila{lila} glasögon?
+~            and has the~store  purple sunglasses    
+$6248/c22c7e68.mp3;3,50;4,112;8,150;5,413;9,250
+
+[MULTIPLE_CHOICE]
+> Lily likes the sunglasses but…
++ …she'd prefer them in purple.
+- …they're way too purple.
+- …they're too expensive.
+
+[MATCH]
+> Tap the pairs
+- ha <> have
+- lila <> purple
+- lilys kläder <> Lily's clothes
+- lila skjortor <> purple shirts
+- från <> from
+
