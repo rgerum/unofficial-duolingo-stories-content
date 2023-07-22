@@ -10,12 +10,12 @@ $6501/cc4e011e.mp3;10,50;5,762
 
 [LINE]
 > Eddy er på matbutikken.
-~ Eddy is på matbutikken
+~ Eddy er på matbutikken
 $6501/e2bce01b.mp3;4,50;3,450;3,225;13,112;2,850
 
 [LINE]
 > Ei kvinne pratar med han.
-~ a~woman talks~to  him 
+~ en kvinne snakker med ham
 $6501/4e33734c.mp3;2,50;7,225;7,337;4,475;4,138;2,325
 
 [MULTIPLE_CHOICE]
@@ -25,78 +25,77 @@ $6501/4e33734c.mp3;2,50;7,225;7,337;4,475;4,138;2,325
 
 [LINE]
 Speaker724: Hallo
-~            hello 
+~            hallo 
 $6501/86791e98.mp3;5,50
 
 [LINE]
 Speaker414: Å, hallo! 
-~           oh   hello 
+~           å hallo
 $6501/5101ed47.mp3;2,495;7,698
 
 [LINE]
 Speaker724: Er du lækjar?  
-~            are~you a~doctor 
+~           er du lege
 $6501/23abcdc7.mp3;2,50;3,112;7,125
 
 [LINE]
 Speaker414: Eg? Lækjar?   Øh…
-~            me   a~doctor  uh 
+~           jeg lege øh
 $6501/0b557520.mp3;3,529;8,832;3,195;2,NaN
 
 [LINE]
 Speaker414: Ja.  Eg er... lækjar.  
-~           yes  I   am  a~doctor 
+~           ja jeg er lege
 $6501/6ec55a0c.mp3;3,584;3,215;3,171;4,1028;8,NaN
 
 [LINE]
 Speaker724: So bra!
-~            that's~good 
+~           så bra
 $6501/55913479.mp3;2,50;4,300;2,362
 
 [LINE]
 > Eddy er ikkje lækjar.  
-~ Eddy is~not a~doctor 
+~ Eddy er ikke lege
 $6501/fb8a378e.mp3;4,50;3,437;6,200;7,238;2,637
 
 [ARRANGE]
 > Trykk på hva du hører
 Speaker414: [(Eg har)  (mykje)    (peng).]
-~             I~have   a~lot~of   money    
+~             jeg har masse penger
 $6501/60cf24c3.mp3;2,170;4,135;6,360;6,525
 
 [LINE]
 Speaker414: Eg bur   i eit kjempestort hus.
-~           I~live in a   very~big house  
+~           jeg bor i et kjempestort hus
 $6501/d38a8f85.mp3;2,179;4,265;2,55;4,170;12,701;5,748
 
 [LINE]
 Speaker414: Eg har  veldig dyre brøker.
-~           I~have  very expensive pants 
+~           jeg har veldige dyre bukser
 $6501/418310c8.mp3;2,159;4,135;7,349;5,305;10,894
 
 [LINE]
 Speaker724: Det er kult, men…
-~           That's cool but  
+~           det er kult men
 $6501/991093f3.mp3;3,50;3,112;5,125;2,500;4,63
 
 [LINE]
 Speaker724: Den mannen treng ein lækjar no!
-~            that~man    needs    a~doctor  now   
+~           den mannen trenger en lege nå
 $6501/67c713c1.mp3;3,50;7,200;6,425;4,350;7,250;3,462;2,300
 
 [LINE]
 Speaker724: Han er attmed mjølka!
-~            he~is near     the~milk  
+~           han er ved~siden~av melken
 $6501/fadf21e6.mp3;3,50;3,237;8,188;8,387;2,638
 
 [LINE]
 Speaker724: Ver so snill, den mannen treng hjelpa di!
-~            please     that~man    needs    your~help  
+~           vær så snill den mannen trenger hjelpen din  
 $6501/c9faef91.mp3;3,50;3,237;6,163;2,412;4,75;7,200;6,400;7,350;3,413;2,250
 
 [MULTIPLE_CHOICE]
-> The man who needs help is near the…
-Mannen som trenger hjelp er nær...
+> Mannen som trenger hjelp er nær...
 - …stasjonen.
 - …tomatene.
 + …melken.
@@ -104,39 +103,34 @@ Mannen som trenger hjelp er nær...
 [POINT_TO_PHRASE]
 > Velg alternativet som betyr "syk."
 Speaker724: (Han er)  (veldig)  (+sjuk)!
-~             he~is   very    sick     
+~            han er veldig syk
 $6501/77aea83e.mp3;3,50;3,250;7,162;5,375;2,463
 
 [LINE]
 Speaker414: Ånei!
-~            oh~no 
+~           ånei
 $6501/6a2ee323.mp3;1,149;5,670
 
 [LINE]
 > Eddy ser ei dame og pratar med ho.
-~ Eddy sees a~lady and talks~to  her  
+~ Eddy ser en dame og snakker med henne
 $6501/10de107a.mp3;4,50;4,362;3,263;5,150;3,312;7,150;4,500;3,175;2,325
 
 [LINE]
-Speaker414: Hallo,  er du lækjar? 
-~           hello   are you a~doctor 
+Speaker414: Hallo, er du lækjar? 
+~           hallo er du lege
 $6501/3252f11e.mp3;6,750;3,100;3,170;8,857
 
 [MULTIPLE_CHOICE]
-> What happened in the story?
-Hva skjedde i historien?
+> Hva skjedde i historien?
 - Eddy startet på medisinskole for å bli lege.
 + Eddy latet som han var lege for å imponere en kvinne.
 - Eddy reddet livet til en mann på butikken.
 
 [MATCH]
 > Trykk på parene
-- den mannen <> that man
-- er ikkje <> is not
-- ei dame <> a lady
-- ein lækjar <> a doctor
-- hjelpa di <> your help
-- ei kvinne <> a woman
-- eg har mykje <> I have a lot of
-- brøker <> pants
+- lækjar <> lege
+- sjuk <> syk
+- mjølka <> melken
+- attmed <> ved siden av
 
