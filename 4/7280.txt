@@ -1,0 +1,118 @@
+[DATA]
+fromLanguageName=Breakfast?
+icon=6d79d91b8caad82e9f6ce44a1b458f12ac6a7a9f
+set=13|2
+
+[HEADER]
+> Frühstück?
+~ breakfast 
+
+[LINE]
+> Eddy ist in~der~Küche.  
+~ Eddy is  in~the~kitchen 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: Hallo, Papa! Was  [machst~du~gerade]?
+~           hello  dad   what  are~you~doing     
++ machst du gerade
+- macht die Made
+- machst du im Garten
+
+[LINE]
+Speaker414: Guten Morgen,  Junior! Ich mache     Frühstück für dich!
+~           good  morning  Junior  I   am~making breakfast for you  
+
+[LINE]
+Speaker415: Frühstück?
+~           breakfast 
+
+[LINE]
+Speaker414: Ja.  Ich mache~nie  Frühstück für dich, denn    ich habe nie   Zeit …
+~           yes  I   never~make breakfast for you   because I   have never time  
+
+[LINE]
+Speaker414: Aber heute nehme~ich~mir die Zeit!
+~           but  today I~am~taking   the time 
+
+[MULTIPLE_CHOICE]
+> Wait... what does Eddy mean?
++ He is taking the time to make breakfast today.
+- He doesn't have time to make breakfast today.
+- He makes Junior breakfast every morning.
+
+[LINE]
+Speaker415: Papa, ich will kein Frühstück.
+~           dad   I   want no   breakfast 
+
+[LINE]
+Speaker414: Was?!  Ich backe     leckere   Brötchen!    Und es~gibt  frischen Orangensaft! 
+~           what   I   am~baking delicious bread~rolls  and there~is fresh    orange~juice 
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(Ich) (will) (keine) (Brötchen)    (frühstücken).]        
+~             I     want   no      bread~rolls   eat~(for)~breakfast   
+
+[LINE]
+Speaker414: Aber du  liebst Brötchen.   
+~           but  you love   bread~rolls 
+
+[LINE]
+Speaker415: Ja,  aber …
+~           yes  but   
+
+[LINE]
+Speaker414: Und es~gibt  auch Schinken!
+~           and there~is also ham      
+
+[LINE]
+Speaker414: Du  isst~so~gern       Schinken zum~Frühstück!
+~           you really~like~to~eat ham      for~breakfast 
+
+[LINE]
+Speaker415: Richtig, aber …
+~           correct  but   
+
+[LINE]
+Speaker414: Geht~es~dir nicht gut,  Junior?
+~           are~you     not   well  Junior 
+
+[LINE]
+Speaker415: Papa! Es ist dreizehn~Uhr!
+~           dad   it is  1~pm         
+
+[CONTINUATION]
+> What comes next?
+> Eddy sieht~auff seine Uhr].  
+~ Eddy looks~at   his   watch  
+- Knödel   
+~ dumplings
++ auf seine Uhr  
+~ at  his   watch
+- aus~dem    Fenster
+~ out~of~the window 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "long time."
+Speaker414: (Oh) (nein) … Das~Frühstückmachen (dauert~wirklich) (+lange).    
+~            oh   no      making~breakfast     really~takes       long~time  
+
+[LINE]
+Speaker415: Aber jetzt haben~wir frische Brötchen    mit  Schinken zum~Mittagessen!
+~           but  now   we~have   fresh   bread~rolls with ham      for~lunch       
+
+[MULTIPLE_CHOICE]
+> Why does Junior say they should have lunch?
+- He made breakfast for Eddy.
+- Eddy ate all of his breakfast.
++ Eddy took too long making breakfast.
+
+[MATCH]
+> Tap the pairs
+- Und <> and
+- ist <> is
+- es gibt <> there is
+- backe <> am baking
+- Brötchen <> bread rolls
+
