@@ -1,26 +1,26 @@
 [DATA]
-fromLanguageName=A Problem with the Car
+fromLanguageName=Problem na auto
 icon=e161ff53b5f470063ac66df2698eddb71232c290
 set=19|4
 
 [HEADER]
-> Un~problema con  el~carro
-~ a~problem   with the~car 
+> Problem na auto
+~ ~
 
 [LINE]
-> Eddy está en la~calle.  
-~ Eddy is   on the~street 
+> Edidjin na naruga ima.
+~ ~ 
 
 [LINE]
-> Él cierra el~baúl   de un~carro.
-~ he closes the~trunk of a~car    
+> Sore kini hinabaksu fu auto.
+~ ~    kundur~auki
 
 [LINE]
-> Vikram llega.  
-~ Vikram arrives 
+> Vikramdjin shkoi sore made.  
+~ ~ 
 
 [SELECT_PHRASE]
-> Select the missing phrase
+> Sentaku letste lodjiklik kotoba her.
 Speaker593: ¿Estás~bien, Eddy? [Te~ves~preocupado].
 ~            are~you~OK  Eddy   you~look~worried   
 - Te vas preparado
@@ -32,10 +32,12 @@ Speaker414: Alquilé  este~carro, pero no~enciende.
 ~           I~rented this~car    but  it~doesn't~start 
 
 [MULTIPLE_CHOICE]
-> Why is Eddy worried?
-- He is in the trunk of a car.
-- He doesn't know where he is.
-+ He can't start a car that he rented.
+> Naze Edidjin bayaa?
+- Sore long hinabaksu fu auto.
+- Sore nai shiru doko sebya.
++ Sore dekinai mahashkoi auto ka sore fikkaupadan.
+#                                     "rented"
+~ ~    ~       ~         ~    ~  ~    fik~kaupa~dan
 
 [LINE]
 Speaker593: Mmm… ¿te~puedo~ayudar?      
@@ -50,7 +52,7 @@ Speaker593: Pero yo sé   cuál es~el~problema~con~el~carro.
 ~           but  I  know what the~problem~with~the~car~is 
 
 [SELECT_PHRASE]
-> Select the missing phrase
+> Tsunaga kotoba ka letste lodjiklik her.
 Speaker414: Vikram, [yo~sé~mucho~sobre~carros].
 ~           Vikram   I~know~a~lot~about~cars   
 + yo sé mucho sobre carros
@@ -70,10 +72,11 @@ Speaker593: Es   un carro~eléctrico, no~hace         ruido y   no~necesita  gas
 ~           it's an electric~car     it~doesn't~make noise and doesn't~need gas      
 
 [MULTIPLE_CHOICE]
-> The car is electric, so…
-- …it's ugly.
-+ …it's quiet and doesn't use gas.
-- …it uses a lot of gas.
+> Asoko auto bruk zeus, sitt…
+- …auto nichista.
++ …auto pinuno      au nai bruk mange autoishke.
+~ ~     chiisai~zam 
+- …auto bruk mange autoishke.
 
 [LINE]
 Speaker414: Pero yo le~puse~gasolina hace~diez~minutos…
@@ -92,17 +95,13 @@ Speaker593: ¡Ay, no, Eddy… ese  es el~baúl!
 ~            oh  no  Eddy  that is the~trunk 
 
 [MULTIPLE_CHOICE]
-> Where did Eddy put the gas?
-~ Where Did Eddy Put el  gas 
-- in Vikram's car
-~ in Vikram's Car
-+ in the trunk of the car
-~ in el  trunk of el  Car
-- in his motorcycle
-~ in His motorcycle
+> Doko Edi nasidan autoishke? 
+- inne auto fu Vikram
++ inne hinabaksu fu auto
+- akote nikrais fu sore
 
 [MATCH]
-> Tap the pairs
+> Tsunaga kotoba mit pravda imi fu hei.
 - Eddy <> Eddy
 - No está <> it's not
 - Aquí <> here
