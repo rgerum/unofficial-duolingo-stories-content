@@ -1,0 +1,136 @@
+[DATA]
+fromLanguageName=Una cita
+icon=b8fb879208594263eebf2bcdf422b2352af44096
+set=1|2
+
+[HEADER]
+> A   Date
+~ una cita
+
+[LINE]
+> Bea has   a   date at a  restaurant. 
+~ Bea tiene una cita en un restaurante 
+
+[LINE]
+Speaker507: Hi!   How~are~you?
+~           hola  cómo~estás  
+
+[LINE]
+Speaker100: Good!
+~           bien 
+
+[LINE]
+Speaker100: What do~you~want to~eat?
+~           qué  quieres     comer  
+
+[LINE]
+Speaker507: A   salad.   
+~           una ensalada 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker507: I  have  [a~big~game]      today.
+~           yo tengo  un~gran~partido  hoy   
+- a pig game
+- a big name
++ a big game
+
+[LINE]
+Speaker100: Oh, do~you~play~sports?
+~           ah  practicas~deportes 
+
+[LINE]
+Speaker507: Yes, I  play  soccer.
+~           sí   yo juego fútbol 
+
+[MULTIPLE_CHOICE]
+> Bea pide una ensalada porque…
++ … va a jugar fútbol hoy.
+- … su cita dijo que la ensalada es deliciosa.
+- … se acaba de comer una pizza entera.
+
+[LINE]
+Speaker100: I  play  soccer too!    
+~           yo juego fútbol también 
+
+[LINE]
+Speaker507: Cool!  
+~           genial 
+
+[LINE]
+Speaker507: Where~are~you~from?
+~           de~dónde~eres      
+
+[LINE]
+Speaker100: I'm from Canada.
+~           soy de   Canadá 
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker100: [(But)  (my~parents) (are) (from) (Spain).] 
+~             pero   mis~padres   son   de     España   
+
+[LINE]
+Speaker507: I~love     Spain! 
+~           me~encanta España 
+
+[LINE]
+Speaker100: Spain  is beautiful!
+~           España es hermosa   
+
+[LINE]
+Speaker507: Do~you~have pets?    
+~           tienes      mascotas 
+
+[LINE]
+Speaker100: I  have  two cats  and a  dog.  
+~           yo tengo dos gatos y   un perro 
+
+[LINE]
+Speaker507: I  have  a  dog   too,     Conor!
+~           yo tengo un perro también  Conor 
+
+[LINE]
+Speaker100: What? My name   is Daniel…
+~           qué   mi nombre es Daniel 
+
+[LINE]
+Speaker100: What's  your name?   Are~you Sarah?
+~           cuál~es tu   nombre  eres    Sarah 
+
+[LINE]
+Speaker507: No, my name   is Bea…
+~           no  mi nombre es Bea 
+
+[MULTIPLE_CHOICE]
+> ¿Entendiste eso? Bea y Daniel…
+- … compraron boletos para ir a España.
++ … deberían haberse encontrado con otras personas.
+- … llevan a caminar a sus perros.
+
+[LINE]
+> A   woman enters~the restaurant  and sees Daniel.
+~ una mujer entra~al   restaurante y   ve~a Daniel 
+
+[LINE]
+Speaker101: Hi!   Are~you Daniel? I'm    Sarah.
+~           hola  eres    Daniel  yo~soy Sarah 
+
+[LINE]
+Speaker100: No, sorry.     I'm Conor.
+~           no  lo~siento  soy Conor 
+
+[MULTIPLE_CHOICE]
+> ¡Guau! ¿Qué acaba de suceder?
++ Daniel le mintió a su verdadera cita porque a él le gusta Bea.
+- Los perros de Bea y Daniel jugaron fútbol.
+- Bea se cambió el nombre a Sarah.
+
+[MATCH]
+> Selecciona los pares
+- Where are you from <> de dónde eres
+- too <> también
+- Good <> bien
+- sorry <> lo siento
+- Are you <> eres
+
