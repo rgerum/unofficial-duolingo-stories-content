@@ -1,110 +1,128 @@
 [DATA]
-fromLanguageName=One Thing
+fromLanguageName=Une chose
 icon=717bd84875f83c678f64f124937a278061e0e778
 set=1|3
 
+icon_103=https://stories-cdn.duolingo.com/image/8dedb551515218979bffa2ba590906d0ed1ee462.svg
+speaker_103=he-IL-AvriNeural
+
 [HEADER]
-> Una cosa 
-~ one thing
+> דבר   אחד
+~ chose une
+$631/67ae0ffb.mp3;3,50;4,437
 
 [LINE]
-> Lucy está en casa, con  su  nieta,         Lin.
-~ Lucy is   at home  with her granddaughter  Lin 
+> .נורית בבית,       עם   אח      שלה,           בועז
+~  Norit   à~la~maison  avec frère son  Boaz   
+$631/31d4ede8.mp3;5,50;5,412;2,800;3,113;3,225;4,150;2,600;5,50
 
 [LINE]
-Speaker509: ¡Ay, no! Necesito pan   para mi sándwich.
-~            oh  no  I~need   bread for  my sandwich 
-
-[LINE]
-Speaker508: ¿Vas           al     supermercado?
-~            are~you~going to~the supermarket  
-
-[LINE]
-Speaker509: Sí. 
-~           yes 
-
-[MULTIPLE_CHOICE]
-> Lin and Lucy have a lot of bread.
-- Yes, that's right.
-+ No, that's wrong.
-
-[LINE]
-Speaker508: ¡Ah, necesito una cosa  del      supermercado!
-~            oh  I~need   one thing from~the supermarket  
-
-[LINE]
-Speaker509: ¿Qué? 
-~            what 
-
-[LINE]
-Speaker508: Un  tomate, por~favor.
-~           one tomato  please    
+Speaker856: .אוי, לא! אני צריכה לחם   עבור הסנדוויץ' שלי         
+~            oh   non  je   ai~besoin  pain pour  sandwich   mon
+$631/40b6dfc3.mp3;5,444;4,511;4,140;6,420;4,404;5,250;10,505;4,665
 
 [SELECT_PHRASE]
-> Select the missing phrase
-Speaker508: Es   para [mi~ensalada].
-~           it's for   my~salad     
-- linda y salada
-+ mi ensalada
-- la mía es salada
+> Sélectionnez le mot ou la phrase manquante
+Speaker103: ?את      הולכת [למכולת]              
+~                   tu vas au~magasin 
+$631/548e3f56.mp3;3,50;6,225;7,475
+- למרכבה
+- ברכבת
++ למכולת
 
 [LINE]
-Speaker509: Está~bien.
-~           OK        
+Speaker856: .כן.  אני רוצה לאכול  סנדוויץ'|   עם   גבינה 
+~            oui  je   veux manger sandwich  avec fromage
+$631/40df6211.mp3;4,639;4,10;5,140;6,350;10,1025;3,105;6,793
 
 [LINE]
-Speaker508: ¡Gracias!  
-~            thank~you 
+Speaker103: !אה, גם   אני צריך דבר   אחד ממכולת                  
+~                   ~   aussi moi   ai~besoin chose une du~magasin
+$631/319fe844.mp3;2,50;2,512;3,125;4,288;5,200;4,350;4,350;7,287
+
+[MULTIPLE_CHOICE]
+> Boaz…
++ … a lui aussi besoin de quelque chose au magasin.
+- … fait lui aussi un sandwich au fromage.
+- … veut aller faire les courses avec Nurit.
+
+[LINE]
+Speaker856: ?מה  
+~            quoi
+$631/7f5dd57f.mp3;3,560
+
+[LINE]
+Speaker103: .עגבנייה אחת, בבקשה 
+~                   tomate une  s'il~te~plait
+$631/659f44ba.mp3;7,50;4,625;2,662;12,0
+
+[LINE]
+Speaker103: .אני מכין סלט
+~  je fais salade
+$631/1e20b0c7.mp3;3,50;5,262;4,388
+
+[LINE]
+Speaker856: אוקיי
+~ ok
+$631/1213660d.mp3;5,786
 
 [POINT_TO_PHRASE]
-> Choose the option that means "also."
-Speaker508: ¡Ah! Y   (+también) (quiero) (tres)  (manzanas)…
-~            oh  and   also      I~want   three   apples    
+> Choisissez l'option signifiant « et aussi ».
+Speaker103: אה, (וגם) (שני) (מלפפונים)
+~ ah et~aussi deux concombres
+$631/e1512088.mp3;2,50;2,500;4,100;4,462;14,338
 
 [LINE]
-Speaker509: Está~bien.
-~           OK        
+Speaker856: בסדר
+~ ok
+$631/819fe263.mp3;4,1008
 
 [LINE]
-Speaker508: … y   jugo~de~naranja…
-~             and orange~juice    
+Speaker103: ושמן זית
+~ et~huile olive
+$631/a00d9a90.mp3;4,50;4,575
 
 [LINE]
-Speaker509: Lin…
-~           Lin 
+Speaker856: …בועז
+~ Boaz
+$631/11c90664.mp3;1,1209;5,NaN
 
 [LINE]
-Speaker508: … y   leche, por~favor.
-~             and milk   please    
+Speaker103: וקצת מלח
+~ et sel
+$631/09b0738e.mp3;4,50;4,537
 
 [LINE]
-Speaker509: Mmm… tengo  una idea.
-~           hmm  I~have an  idea 
+Speaker856: !הממ... יש~לי  רעיון,   אחי
+~            Hmm    j'ai idée  frérot
+$631/b80e967c.mp3;4,454;4,577;3,65;3,722;7,681;4,NaN
 
 [ARRANGE]
 > Tap what you hear
-Speaker509: [(Aquí) (está) (el)  (dinero), (Lin).]
-~             here   is     the   money     Lin   
+Speaker856: [(הנה) (הכסף) (ושקיות), (בועז).]
+~             voici l'argent et~les~sacs  Boaz   
+$631/f918358e.mp3;3,305;5,609;8,731;6,890
 
 [LINE]
-Speaker508: ¡¿Qué?! 
-~             what  
+Speaker103: למה?
+~ pourquoi
+$631/71a378d5.mp3;3,50
 
 [LINE]
-Speaker509: Yo quiero una cosa  del      supermercado: pan.  
-~           I  want   one thing from~the supermarket   bread 
+Speaker856: אני רוצה רק דבר אחד ממכולת: לחם.
+~           je  veux seulement une chose du~magasin   pain 
+$631/3cf88f93.mp3;3,149;5,341;3,225;4,325;4,281;8,830;5,849
 
 [MULTIPLE_CHOICE]
-> Why did Lucy give Lin money?
-- Lin is opening a sandwich shop.
-+ She wants Lin to go to the supermarket.
-- Lin is going to a restaurant for lunch.
+> Pourquoi Norit a-t-elle donné de l'argent à Boaz ?
+- Elle ouvre un magasin de sadnwich.
++ Elle veut que Boaz aille faire les courses.
+- Elle va déjeûner au restaurant.
 
 [MATCH]
-> Tap the pairs
-- idea <> idea
-- una <> one
-- Yo <> I
-- nieta <> granddaughter
-- por favor <> please
-
+> Sélectionnez les mots correspondants
+- שני <> deux
+- מלפפונים <> concombres
+- אגבניה <> tomate
+- רעיון <> idée
+- אח <> frère
