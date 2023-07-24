@@ -1,141 +1,153 @@
 [DATA]
-fromLanguageName=A Date
+fromLanguageName=Un rendez-vous
 icon=df24f7756b139f6eda927eb776621b9febe1a3f1
 set=1|2
 
 [HEADER]
-> Una cita
-~ a   date
+> דייט  
+~ Rendez-vous
+$620/b91d2667.mp3;4,50
 
 [LINE]
-> Bea está en una cita en un restaurante.
-~ Bea is   on a   date in a  restaurant  
+> טל  נמצא בדייט במסעדה.         
+~ Tal  se~trouve  à~un~rendez-vous dans~un~restaurant 
+$620/41db0cf7.mp3;2,50;5,337;6,438;7,425;2,800
 
 [LINE]
-Speaker507: ¡Hola!  ¿Cómo~estás? 
-~            hello   how~are~you 
-
-[LINE]
-Speaker100: ¡Bien!
-~            fine 
-
-[LINE]
-Speaker100: ¿Qué  quieres     comer? 
-~            what do~you~want to~eat 
-
-[LINE]
-Speaker507: Una ensalada.
-~           a   salad    
-
-[SELECT_PHRASE]
-> Select the missing phrase
-Speaker507: Hoy   tengo  [un~partido~importante].
-~           today I~have  an~important~game      
-+ un partido importante
-- un batido importante
-- una parte imponente
-
-[LINE]
-Speaker100: Ah, ¿te~gustan   los~deportes?
-~           oh   do~you~like (the)~sports 
-
-[LINE]
-Speaker507: Sí,  yo juego~al fútbol.
-~           yes  I  play     soccer 
+Speaker100: מה   את  רוצה לאכול? 
+~           quoi tu veux manger 
+$620/9186b95c.mp3;2,189;3,110;5,341;7,763
 
 [MULTIPLE_CHOICE]
-> Bea is ordering a salad because…
-+ …she is playing soccer today.
-- …her date said the salad is delicious.
-- …she just ate a whole pizza.
+> Le rencard de Tal lui demande…
+- … où se trouve le restaurant.
++ … ce que Tal veut manger.
+- … le prix de la nourriture.
 
 [LINE]
-Speaker100: ¡Yo~también!
-~            me~too     
+Speaker336: סלט.    
+~           salade 
+$620/7a7d7c92.mp3;4,924
 
 [LINE]
-Speaker507: ¡Súper!
-~            great 
+Speaker336: אני לא  אוכלת בשר. 
+~           je   ne~pas mange  viande 
+$620/0b8b8592.mp3;3,170;3,174;6,374;5,741
 
 [LINE]
-Speaker507: ¿De~dónde~eres?     
-~            where~are~you~from 
+Speaker100: האם את      צמחונית?   
+~           est-ce~que tu~(es) végétarienne 
+$620/9a4fb62d.mp3;3,275;3,115;9,888
 
 [LINE]
-Speaker100: Soy  americano.
-~           I~am American  
-
-[ARRANGE]
-> Tap what you hear
-Speaker100: [(Mi~padre)  (es~de~Cuba)   (y)   (mi~madre)  (es~de~México).]  
-~             my~father   is~from~Cuba   and   my~mother   is~from~Mexico   
+Speaker336: כן…  למה?
+~           oui   pourquoi 
+$620/a3366379.mp3;2,254;2,898;5,NaN
 
 [LINE]
-Speaker507: ¡Me~encanta Cuba!
-~            I~love     Cuba 
-
-[LINE]
-Speaker100: Cuba es muy  bonita.   
-~           Cuba is very beautiful 
-
-[LINE]
-Speaker507: ¿Tienes      mascotas?
-~            do~you~have pets     
-
-[LINE]
-Speaker100: Tengo  dos gatos y   un perro.
-~           I~have two cats  and a  dog   
-
-[POINT_TO_PHRASE]
-> Choose the option that means "also."
-Speaker507: Yo (+también) (tengo) un (perro), (José).
-~           I    also      have   a   dog      José  
-
-[LINE]
-Speaker100: ¿Eh? Yo~me~llamo Daniel…
-~            eh  my~name~is  Daniel 
-
-[LINE]
-Speaker100: ¿Tú~no~eres Gabriela?
-~            aren't~you Gabriela 
-
-[LINE]
-Speaker507: ¡No!
-~            no 
-
-[LINE]
-Speaker507: ¡Yo~me~llamo Bea!
-~            my~name~is  Bea 
+Speaker100:  גם  אני!
+~           aussi moi  
+$620/2457733b.mp3;2,284;5,509
 
 [MULTIPLE_CHOICE]
-> Did you catch that? Bea and Daniel…
-- …bought tickets to Cuba.
-+ …were supposed to meet different people.
-- …are walking their dogs.
+> Pourquoi a-t-il posé cette question ?
++ Il est également végatarien.
+- Il déteste la salade.
+- Il adore manger de la viande.
 
 [LINE]
-> Una mujer camina hacia   Daniel.
-~ a   woman walks  towards Daniel 
+Speaker336: מהמם!   
+~           magnifique 
+$620/eac0d537.mp3;5,921
 
 [LINE]
-Speaker101: ¡Hola!  ¿Eres    Daniel? Soy  Gabriela.
-~            hello   are~you Daniel  I~am Gabriela 
+Speaker336: מאיפה אתה?        
+~           d'où tu~(es)
+$620/6e08237a.mp3;5,434;5,581
 
 [LINE]
-Speaker100: No, lo~siento. Soy  José.
-~           no  I'm~sorry  I~am José 
+Speaker100: אני מארצות~הברית.          
+~           Je~(suis) des~États~Unis 
+$620/5b9d8787.mp3;3,194;7,455;7,703
+
+[LINE]
+Speaker100: אבא שלי ממרוקו, ואמא נולדה בארץ.         
+~           papa mon du~Maroc et~maman est~née en~Israël
+$620/56403b39.mp3;3,199;4,350;8,805;5,335;6,370;6,935
+
+[LINE]
+Speaker336: גם  אני מרוקאית!    
+~           aussi moi  Marocaine 
+$620/d57e706d.mp3;2,294;4,245;9,1001
+
+[LINE]
+Speaker100: מרוקו  יפה!         
+~           Le~Maroc (est)~beau 
+$620/4caec318.mp3;5,444;5,567
+
+[LINE]
+Speaker100: יש~לך       כלב   או חתול? 
+~           tu~as chien ou chat 
+$620/de158e9b.mp3;2,245;4,255;4,419;3,110;6,842
+
+[LINE]
+Speaker336: יש~לי חתולה אחת וכלבה אחת.
+~           j'ai chatte une et~chienne une 
+$620/8dbf047c.mp3;2,259;3,65;6,460;4,370;6,468;5,860
 
 [MULTIPLE_CHOICE]
-> Whoa! What just happened?
-- Bea changed her name to Gabriela.
-+ Daniel lied to his real date because he likes Bea.
-- Bea and Daniel's dogs played soccer.
+> Quels animaux Tal possède-t-elle ?
+- Un serpent et un chat
++ Un chat et un chien
+- Deux chiens et un perroquet
+
+[LINE]
+Speaker100: .שרון! גם לי    יש    כלב
+~           Sharon  aussi à~moi il~y~a chien ~    
+$620/b10a10a7.mp3;6,809;3,306;3,139;3,275;4,709
+
+[LINE]
+Speaker336: מה?   קוראים~לי  טל!
+~           quoi  je~m'appelle Tal  
+$620/60d9cc8a.mp3;3,555;7,380;3,94;4,661
+
+[LINE]
+Speaker336: אתה לא בועז?
+~           tu n'(es)~pas Boaz?
+$620/61ea41c7.mp3;3,224;3,135;6,840
+
+[LINE]
+Speaker100:.מה? קוראים~לי יוסי
+~           quoi je~m'appelle Yossi    
+$620/6028fba7.mp3;4,464;7,430;3,135;5,658
+
+[LINE]
+> אישה אחרת מתקרבת           ליוסי.
+~ femme autre s'approche~de Yossi    
+$620/367bde0e.mp3;4,50;5,412;7,525;6,638;2,650
+
+[LINE]
+Speaker101: סליחה,     קוראים~לך    יוסי? קוראים~לי  שרון.
+~           excusez-moi  vous~vous~appelez Yossi  je~m'appelle Sharon
+$620/94424713.mp3;6,650;7,325;3,226;6,787;7,340;3,80;6,664
+
+[LINE]
+Speaker100: אה... יוסי? מצטער. קוראים~לי  בועז. 
+~           oh Yossi désolé  je~m'appelle Boaz    
+$620/0bcf8966.mp3;2,289;4,990;6,911;7,379;7,121;3,675;6,NaN
+
+[MULTIPLE_CHOICE]
+> À la fin de l'histoire, Yossi…
+- … s'est lassé de Tal.
++ … a menti à son vrai rencard car Tal lui plaisait.
+- … a rencontré quelqu'un nommé Bo'az.
 
 [MATCH]
-> Tap the pairs
-- y <> and
-- Soy <> I am
-- ensalada <> salad
-- Me encanta <> I love
-- Eh <> eh
+> Sélectionnez les mots correspondants
+- צמחוני/ת <> végétarien
+- כלב/ה <> chien
+- חתול/ה <> chat
+- גם אני <> moi aussi
+- אמא <> maman
+- אבא <> papa
 
