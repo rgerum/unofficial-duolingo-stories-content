@@ -1,0 +1,140 @@
+[DATA]
+fromLanguageName=Not an Artist?
+icon=54c008578dbce9941519f4a2cb8d877190cf6c93
+set=13|3
+
+[HEADER]
+> Kein Künstler?
+~ no   artist   
+
+[LINE]
+> Eddy kommt nach~der~Schule in~Oscars~Klassenzimmer.
+~ Eddy comes after~school    into~Oscar's~classroom  
+
+[LINE]
+> Er trägt       ein Bild.    
+~ he is~carrying a   painting 
+
+[LINE]
+Speaker592: Was  ist das? 
+~           what is  that 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: [Mein~erstes~Bild]. 
+~            my~first~painting  
+- Mein bestes Bild
+- Sein erstes Schild
++ Mein erstes Bild
+
+[LINE]
+Speaker414: Willst~du   es~sehen? 
+~           do~you~want to~see~it 
+
+[LINE]
+Speaker592: Nein.
+~           no   
+
+[LINE]
+Speaker414: Aber du  bist Kunstlehrer!     
+~           but  you are  (an)~art~teacher 
+
+[MULTIPLE_CHOICE]
+> Eddy wants...
++ ...Oscar to look at his painting.
+- ...Oscar to paint something for him.
+- ...to teach Oscar about art.
+
+[LINE]
+Speaker592: Richtig, und ich bin sehr streng.
+~           correct  and I   am  very strict 
+
+[LINE]
+Speaker414: Gut. 
+~           good 
+
+[LINE]
+Speaker592: Du  bist mein Freund. Ich möchte dir~nicht~weh~tun.
+~           you are  my   friend  I   want   not~to~hurt~you   
+
+[MULTIPLE_CHOICE]
+> Oscar doesn't want to hurt Eddy because…
++ …Eddy is his friend.
+- …he wants to become Eddy's friend.
+- …Eddy doesn't have any friends.
+
+[LINE]
+Speaker414: Sag  mir, was  du  denkst. Ist mein Bild     gut  oder nicht?
+~           tell me   what you think   is  my   painting good or   not   
+
+[LINE]
+Speaker592: Nicht gut. 
+~           not   good 
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Wie) (kannst) (du)  (das)  (sagen)?]
+~             how   can      you   that   say     
+
+[LINE]
+Speaker592: Du  bist kein Künstler. Und es ist dein erstes Bild.    
+~           you are  no   artist    and it is  your first  painting 
+
+[LINE]
+Speaker592: Das erste Bild     ist nie   gut. 
+~           the first painting is  never good 
+
+[LINE]
+Speaker414: Aber ich möchte     dir~mein~Bild~zeigen.   
+~           but  I   would~like to~show~you~my~painting 
+
+[LINE]
+Speaker414: Bitte,  Oscar!
+~           please  Oscar 
+
+[LINE]
+Speaker592: Ok, gut.  Zeig es mir.    
+~           OK  fine  show it (to)~me 
+
+[CONTINUATION]
+> What comes next?
+> Eddy zeigt Oscar [sein Bild].    
+~ Eddy shows Oscar  his  painting  
+- sein Mittagessen
++ sein Bild
+- seine Wohnung
+
+[LINE]
+Speaker592: Eddy, dein Bild     ist …
+~           Eddy  your painting is   
+
+[LINE]
+Speaker414: Ja?! 
+~           yes  
+
+[LINE]
+Speaker592: Wirklich gut. 
+~           really   good 
+
+[LINE]
+Speaker414: Hurra,  ich bin ein Künstler!
+~           hooray  I   am  an  artist   
+
+[LINE]
+Speaker592: Bis~morgen,       Eddy. Vergiss dein Bild    nicht.
+~           see~you~tomorrow  Eddy  forget  your picture not   
+
+[MULTIPLE_CHOICE]
+> Why was Oscar surprised that Eddy's painting was good?
+- Eddy painted it when he was a child.
++ He thought first paintings are never good.
+- Eddy has always been a bad painter.
+
+[MATCH]
+> Tap the pairs
+- Ok <> OK
+- Kunstlehrer <> art teacher
+- Er <> he
+- Bild <> painting
+- das <> that
+
