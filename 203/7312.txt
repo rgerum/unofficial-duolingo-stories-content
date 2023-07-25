@@ -8,23 +8,24 @@ set=4|1
 ~ vegetarian 
 
 [LINE]
-> Vikram lee   el  menú en un restaurante~muy~bonito.
+> 域林|喺|一間|好|靚|嘅|餐廳|睇緊|個|菜牌。
 ~ Vikram reads the menu in a  very~pretty~restaurant 
 
 [LINE]
-Speaker385: ¡Buenos~días! 
+Speaker385: 早晨好！
 ~            good~morning 
 
 [LINE]
-Speaker593: Tengo  una pregunta.
+Speaker593: 唔該，|我|想|問|呢……
 ~           I~have a   question 
 
 [LINE]
-Speaker593: Soy  vegetariano. 
+Speaker593: 嗱，我係食素嘅。
 ~           I~am a~vegetarian 
+#(or would he 食齋？)
 
 [LINE]
-Speaker593: ¿Tienen      comida~vegetariana?
+Speaker593: 你哋|有冇|咩|素食|推介|㗎？
 ~            do~you~have vegetarian~food    
 
 [MULTIPLE_CHOICE]
@@ -33,19 +34,19 @@ Speaker593: ¿Tienen      comida~vegetariana?
 + Yes, that's right.
 
 [LINE]
-Speaker385: Sí,  tenemos unos sándwiches~de~carne~muy~buenos.
+Speaker385: 有啊！|我哋|啲|蛋牛治|好|惹味|㗎。
 ~           yes  we~have some very~good~meat~sandwiches      
 
 [LINE]
-Speaker593: ¿Sándwiches~de~carne? Soy  vegetariano. 
+Speaker593: 蛋牛治？|但係|我|係|食素|㗎喎。
 ~            meat~sandwiches      I~am a~vegetarian 
 
 [LINE]
-Speaker385: Ah, sí…  lo~siento.
+Speaker385: 呀，|係咁……|唔好意思。
 ~           oh  yes  I'm~sorry 
 
 [LINE]
-Speaker385: Tenemos un pollo~delicioso.  
+Speaker385: 不如|試吓|我哋嘅|雞扒餐？  
 ~           we~have a  delicious~chicken 
 
 [MULTIPLE_CHOICE]
@@ -55,20 +56,21 @@ Speaker385: Tenemos un pollo~delicioso.
 + …delicious.
 
 [LINE]
-Speaker593: El~pollo es carne.
+Speaker593: 雞肉|係|肉|嚟㗎。
 ~           chicken  is meat  
 
 [ARRANGE]
 > Tap what you hear
-Speaker593: ¡[(Y)   (yo) (no~como)   (carne)!]
+Speaker593: [(我)(唔)(食)(肉)(㗎)！]
 ~              and   I    don't~eat   meat    
 
 [LINE]
-Speaker385: Tenemos ensaladas…
+Speaker385: 咁我哋都有啲沙律……
 ~           we~have salads    
+#would any place sell 蛋牛治 and 鐵板扒餐 at the same time as salads tbh a tiny bit questionable but like yknow
 
 [LINE]
-Speaker593: ¡Ah, me~gustan las~ensaladas!
+Speaker593: 呀，|我|最|鍾意|就係|沙律！
 ~            oh  I~like    salads        
 
 [MULTIPLE_CHOICE]
@@ -78,11 +80,11 @@ Speaker593: ¡Ah, me~gustan las~ensaladas!
 - …lots of meat.
 
 [LINE]
-Speaker385: Hay      una ensalada~de tomate, queso,  salmón…
+Speaker385: 今日|我哋嘅|沙律|就|用咗|番茄、|芝士、|同|三文魚……
 ~           there~is a   salad~with  tomato  cheese  salmon 
 
 [LINE]
-Speaker593: ¡Yo no~como   salmón! ¡Soy  vegetariano! 
+Speaker593: 我|唔食|三文魚|㗎！|咪|同|你|講咗|我|食素|囉！
 ~            I  don't~eat salmon   I~am a~vegetarian 
 
 [LINE]
@@ -90,7 +92,7 @@ Speaker385: Tenemos patatas~fritas…
 ~           we~have fries          
 
 [LINE]
-Speaker593: Está~bien, patatas~fritas.
+Speaker593: OK，|咁|就|要|薯條|得喇。
 ~           OK         fries          
 
 [MULTIPLE_CHOICE]
@@ -104,7 +106,7 @@ Speaker385: Patatas~fritas… perfecto. Y…   ¿una hamburguesa?
 ~           fries           perfect   and   a   hamburger   
 
 [LINE]
-Speaker593: ¡No~como     carne!
+Speaker593: 我|唔食|肉|㗎喂！
 ~            I~don't~eat meat  
 
 [MULTIPLE_CHOICE]
