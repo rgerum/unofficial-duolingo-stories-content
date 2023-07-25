@@ -8,15 +8,15 @@ set=4|1
 ~ vegetarian 
 
 [LINE]
-> 域林|喺|一間|好|靚|嘅|餐廳|睇緊|個|菜牌。
+> 域林|喺|一間|好|靚|嘅|餐廳|睇緊|個|餐牌。
 ~ Vikram reads the menu in a  very~pretty~restaurant 
 
 [LINE]
-Speaker385: 早晨好！
+Speaker385: 早晨！
 ~            good~morning 
 
 [LINE]
-Speaker593: 唔該，|我|想|問|呢……
+Speaker593: 我|想|問|呢……
 ~           I~have a   question 
 
 [LINE]
@@ -25,7 +25,7 @@ Speaker593: 嗱，我係食素嘅。
 #(or would he 食齋？)
 
 [LINE]
-Speaker593: 你哋|有冇|咩|素食|推介|㗎？
+Speaker593: 你哋|有冇|咩|素食|可以|同我|介紹返|呢？
 ~            do~you~have vegetarian~food    
 
 [MULTIPLE_CHOICE]
@@ -34,7 +34,7 @@ Speaker593: 你哋|有冇|咩|素食|推介|㗎？
 + Yes, that's right.
 
 [LINE]
-Speaker385: 有啊！|我哋|啲|蛋牛治|好|惹味|㗎。
+Speaker385: 有啊！|我哋|啲|蛋牛治|非常之|好味|㗎。
 ~           yes  we~have some very~good~meat~sandwiches      
 
 [LINE]
@@ -46,7 +46,7 @@ Speaker385: 呀，|係咁……|唔好意思。
 ~           oh  yes  I'm~sorry 
 
 [LINE]
-Speaker385: 不如|試吓|我哋嘅|雞扒餐？  
+Speaker385: 不如|試吓|我哋|個|惹味|又|熱辣辣|嘅|雞扒餐？
 ~           we~have a  delicious~chicken 
 
 [MULTIPLE_CHOICE]
@@ -56,18 +56,19 @@ Speaker385: 不如|試吓|我哋嘅|雞扒餐？
 + …delicious.
 
 [LINE]
-Speaker593: 雞肉|係|肉|嚟㗎。
+Speaker593: 雞扒|係|肉|嚟㗎。
 ~           chicken  is meat  
 
 [ARRANGE]
 > Tap what you hear
-Speaker593: [(我)(唔)(食)(肉)(㗎)！]
+Speaker593: [(我)(都)(唔)(食)(肉)！]
 ~              and   I    don't~eat   meat    
 
 [LINE]
-Speaker385: 咁我哋都有啲沙律……
+Speaker385: 咁|我哋|都|有|啲|沙律……
 ~           we~have salads    
 #would any place sell 蛋牛治 and 鐵板扒餐 at the same time as salads tbh a tiny bit questionable but like yknow
+#maybe some of those 港式 cafe's or something 
 
 [LINE]
 Speaker593: 呀，|我|最|鍾意|就係|沙律！
@@ -88,11 +89,11 @@ Speaker593: 我|唔食|三文魚|㗎！|咪|同|你|講咗|我|食素|囉！
 ~            I  don't~eat salmon   I~am a~vegetarian 
 
 [LINE]
-Speaker385: Tenemos patatas~fritas…
+Speaker385: 我哋|都|有|薯條……
 ~           we~have fries          
 
 [LINE]
-Speaker593: OK，|咁|就|要|薯條|得喇。
+Speaker593: OK。|咁|就|要|薯條|得喇。
 ~           OK         fries          
 
 [MULTIPLE_CHOICE]
@@ -102,7 +103,7 @@ Speaker593: OK，|咁|就|要|薯條|得喇。
 - salmon
 
 [LINE]
-Speaker385: Patatas~fritas… perfecto. Y…   ¿una hamburguesa?
+Speaker385: 好呀。|一|份|薯條……|使唔使|嗌埋|個|漢堡包？
 ~           fries           perfect   and   a   hamburger   
 
 [LINE]
