@@ -1,0 +1,85 @@
+[DATA]
+fromLanguageName=J'ai besoin d'un nouveau jeu vidéo
+icon=ce0ae956035c1bac6b9c64737466d59c5d027e97
+set=7|1
+
+[HEADER]
+> Mi bezonas novan videoludon
+~ je avoir~besoin~de~(présent) nouveau/nouvelle jeu~vidéo  
+
+[LINE]
+> Ĝunjoro kaj Eddy estas en vendejo.
+~ Junior et Eddy être~(présent) dans magasin  
+
+[LINE]
+Speaker415: Paĉjo, mi bezonas novan videoludon!
+~            papa je avoir~besoin~de~(présent) nouveau/nouvelle jeu~vidéo  
+
+[LINE]
+Speaker414: Ne, Ĝunjoro. Vi ne bezonas novan videoludon.
+~           non  Junior  tu/vous pas avoir~besoin~de~(présent) nouveau/nouvelle jeu~vidéo
+
+[MULTIPLE_CHOICE]
+> Eddy pense que Junior a besoin d'un nouveau jeu vidéo.
+- Oui, c'est vrai.
++ Non, c'est faux.
+
+[LINE]
+Speaker415: Bonvolu! Tiu videoludo estas tre mojosa!
+~ S'il~te/vous~plaît ce·tte jeu~vidéo être~(présent) très stylé·e
+
+[SELECT_PHRASE]
+> Complète la phrase
+Speaker414: Ĝunjoro, [vi~volas~tiun] videoludon, sed vi ne bezonas ĝin.
+~           Junior   tu~veux~ce jeu~vidéo mais tu/vous pas avoir~besoin~de~(présent) il/elle~(objet) 
+- vi volas tiu
+- vi volas tiuj
++ vi volas tiun
+
+[LINE]
+Speaker415: Bone, mi volas ĝin! Ĉu ni povas aĉeti ĝin?  
+~           bien je vouloir~(présent) il/elle~(objet) est-ce~que nous pouvoir~(présent) acheter il/elle~(objet)
+
+[POINT_TO_PHRASE]
+> Clique sur le mot qui signifie "déjà"
+Speaker414: (Ne)… (Vi) (+jam)  (havas) (multe) (da)  (videoludoj) (hejme).
+~             non tu/vous déjà avoir~(présent) beaucoup de~(partitif) jeux~vidéo à~la~maison   
+
+[LINE]
+Speaker415: Jes, jes... Bone. Ĉu ni revenu hejmen?
+~           oui oui bien est-ce~que nous revenir~(impératif) à~la~maison
+
+[LINE]
+Speaker414: Ne, ni iru al tiu de Vikram.
+~           non nous aller~(impératif) à/vers celui/celle de Vikram
+
+[CONTINUATION]
+> Complète la phrase.
+Speaker415: Kial? Lia domo estas tre [enua]!
+~            Pourquoi sa/son maison être~(présent) très lassant·e~(qui~ennuie)
+- vendejo 
+- nova videoludo  
++ enua  
+
+[LINE]
+Speaker414: Sed lia televidilo estas granda kaj mi bezonas spekti la partion de piedpilko.
+~           mais sa/son télévision être~(présent) grand·e et je avoir~besoin~de~(présent) regarder la/le/les partie~(de~jeu) de football      
+
+[LINE]
+Speaker415: Paĉjo, vi volas spekti tiun partion, sed vi ne bezonas tion.
+~           papa tu/vous vouloir~(présent) regarder ce·tte partie~(de~jeu) mais tu/vous pas avoir~besoin~de~(présent) ceci/cela
+
+[MULTIPLE_CHOICE]
+> Eddy et Junior…
++ …disent qu'ils ont besoin de quelque chose, alors que non.
+- …rentrent chez eux.
+- …jouent aux jeux vidéo avec Vikram.
+
+[MATCH]
+> Relie les mots correspondants
+- iri <> aller
+- partio <> partie (de jeu)
+- enua <> lassant·e (qui ennuie)
+- bezoni <> avoir besoin de
+- domo <> maison
+
