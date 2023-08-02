@@ -4,20 +4,20 @@ icon=ce0ae956035c1bac6b9c64737466d59c5d027e97
 set=7|1
 
 [HEADER]
-> Necesito un videojuego~nuevo
-~ I~need   a  new~video~game  
+> Jô mùszã miec tã nowã jigrã
+~ I need to~have the new video~game  
 
 [LINE]
-> Junior y   Eddy están en una tienda.
-~ Junior and Eddy are   at a   store  
+> Junior i Eddi są w krómie.
+~ Junior and Eddy are   at a~store  
 
 [LINE]
-Speaker415: ¡Papá, necesito un videojuego~nuevo!
-~            dad   I~need   a  new~video~game   
+Speaker415: Tatkù, jô mùszã miec tã nowã kòmpùtrowã~jigrã!
+~            Dad I need to~have the new video~game
 
 [LINE]
-Speaker414: No, Junior. No~necesitas   un videojuego~nuevo.
-~           no  Junior  you~don't~need a  new~video~game   
+Speaker414: Nié, Junior. Të niżôdny~jigrë~nie~mùszisz~miec.
+~           No Junior You  don't~need~to~have~any~game
 
 [MULTIPLE_CHOICE]
 > Eddy thinks Junior needs a new video game.
@@ -25,52 +25,52 @@ Speaker414: No, Junior. No~necesitas   un videojuego~nuevo.
 + No, that's wrong.
 
 [LINE]
-Speaker415: ¡Por~favor! ¡Este videojuego de robots es muy  divertido!
-~            please      this video~game of robots is very fun       
+Speaker415: Proszã! Ta jigra z robòtama je baro fejn!
+~            Please      This game with robots is very fun       
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker414: Junior, [tú~quieres~este] videojuego, pero no~necesitas   este videojuego.
-~           Junior   you~want~this    video~game  but  you~don't~need this video~game 
-+ tú quieres este
-- tú sientes este
-- tú quieres estar
+Speaker414: Junior, [të bës] mòże tã~grã~chcôł, le të ji~nie~mùszisz~miec.
+~           Junior   you would possibly want~this~game but you don't~need~to~have~it. 
++ të bës
+- tës bë
+- të bés
 
 [LINE]
-Speaker415: Está~bien, ¡yo lo~quiero! ¿Lo~compramos?   
-~           OK          I  want~it     (can)~we~buy~it 
+Speaker415: Dobra, jô~bëm~jã~chcôł. Kùpimë jã?
+~           OK  I~want~it.  Will~we~buy it 
 
-[ARRANGE]
-> Tap what you hear
-Speaker414: [(No)… (Tienes)   (muchos)   (videojuegos) (en~casa).]
-~             no    you~have   a~lot~of   video~games   at~home   
-
-[LINE]
-Speaker415: Sí,  sí…  Está~bien, ¿vamos~a      casa?
-~           yes  yes  OK          we~are~going home 
+[POINT_TO_PHRASE]
+> Choose the option that means "enough".
+Speaker414: Nié… (Të) (môsz) (doma)~(jigrów)~(+dosc).
+~            No  You have enough~games~at~home   
 
 [LINE]
-Speaker414: No, vamos        a  casa~de~Vikram.
-~           no  we~are~going to Vikram's~house 
+Speaker415: Jo, dobra... Jidzemë dodóm?
+~           Yes okay Are~we~going home?
+
+[LINE]
+Speaker414: Nié, jidzemë do Vikrama.
+~           No we~are~going to Vikram's.
 
 [CONTINUATION]
 > What comes next?
-Speaker415: ¿Por~qué? ¡Su~casa   es [muy  aburrida]!
-~            why       his~house is  very boring    
-- una tienda
-~ a   store 
-- un videojuego~nuevo
-~ a  new~video~game  
-+ muy  aburrida
+Speaker415: Dlôcze? Ù niégò doma to je [dëcht~zmùdno]!
+~            Why   At his house it is very~boring   
+- fest smãtno 
+~ very depressing
+- baro zëbno
+~ very cold  
++ dëcht zmùdno
 ~ very boring  
 
 [LINE]
-Speaker414: Pero su~televisión es grande y   yo necesito ver      el  partido~de~fútbol.
-~           but  his~TV        is big    and I  need     to~watch the soccer~game       
+Speaker414: Ale òn mô wiôldżi zdrzélnik, a jô mùszã òbezdrzec rozegrã~w~balã.
+~           but  he has a~big TV and I need to~watch soccer~match     
 
 [LINE]
-Speaker415: Papá, tú  quieres ver      el  partido, pero no~necesitas   ver      el  partido.
-~           dad   you want    to~watch the game     but  you~don't~need to~watch the game    
+Speaker415: Tatkù, të bës chcôł òbezdrzec tã rozegrã, le të~ji~nie~mùszisz~òbzérac.
+~           Dad   you would want to~watch the game     but  you~don't~need~to~watch~it.    
 
 [MULTIPLE_CHOICE]
 > Both Eddy and Junior…
@@ -80,9 +80,9 @@ Speaker415: Papá, tú  quieres ver      el  partido, pero no~necesitas   ver   
 
 [MATCH]
 > Tap the pairs
-- vamos a <> we are going
-- partido <> game
-- necesito <> I need
-- videojuegos <> video games
-- Su casa <> his house
+- dodóm <> home
+- doma <> at home
+- niżôdny <> any
+- zmùdny <> boring
+- zdrzélnik <> TV
 
