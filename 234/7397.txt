@@ -1,48 +1,56 @@
 [DATA]
-fromLanguageName=A Date
+fromLanguageName=Um Encontro
 icon=df24f7756b139f6eda927eb776621b9febe1a3f1
 set=1|2
 
 [HEADER]
 > Um encontre
-~ a   date
-$7397/987caba1.mp3;2,0;9,199
+~ Um encontro
+$7397/c66dd1cd.mp3;2,0;9,199
 
 [LINE]
-> Bea está en una cita en un restaurante.
-~ Bea is   on a   date in a  restaurant  
+> Bea{Bia} está num encontre num restaute.
+~ Bea está num encontro num restaurante
+$7397/06ca7744.mp3;3,0;5,514;4,135;9,450;4,140;10,NaN
 
 [LINE]
-Speaker507: ¡Hola!  ¿Cómo~estás? 
-~            hello   how~are~you 
+Speaker507: Ola!  Como~estádes? 
+~            Olá Como~estás
+$7397/21da04ca.mp3;4,0;5,609;9,270
 
 [LINE]
-Speaker100: ¡Bien!
-~            fine 
+Speaker100: Ben{Bem}
+~            Bem
+$7397/2b12a7d8.mp3;3,NaN
 
 [LINE]
-Speaker100: ¿Qué  quieres     comer? 
-~            what do~you~want to~eat 
+Speaker100: Que  queres     comer? 
+~            Que queres comer
+$7397/87d02712.mp3;3,0;7,100;7,344
 
 [LINE]
-Speaker507: Una ensalada.
-~           a   salad    
+Speaker507: Uma salácha{salátcha}
+~          Uma salada
+$7397/6e521819.mp3;3,NaN;8,NaN
 
 [SELECT_PHRASE]
-> Select the missing phrase
-Speaker507: Hoy   tengo  [un~partido~importante].
-~           today I~have  an~important~game      
-+ un partido importante
-- un batido importante
-- una parte imponente
+> Seleciona a frase em falta
+Speaker507: Houje   tenhe  [uma~partida~importãn].
+~           Hoje tenho uma~partida~importante   
+$7397/61a323a7.mp3;5,0;6,424;4,300;8,135;10,455
++ uma partida importã
+- um batide importã
+- uma parte importã
 
 [LINE]
-Speaker100: Ah, ¿te~gustan   los~deportes?
-~           oh   do~you~like (the)~sports 
+Speaker100: Ah, gustas   de despórtes?
+~           Ah gostas de desportes
+$7397/6cc82e61.mp3;3,0;7,689;3,390;11,115
 
 [LINE]
-Speaker507: Sí,  yo juego~al fútbol.
-~           yes  I  play     soccer 
+Speaker507: Si, jogue futeból
+~           Sim jogo futeból
+$7397/667a7adc.mp3;3,0;6,649;8,380
 
 [MULTIPLE_CHOICE]
 > Bea is ordering a salad because…
