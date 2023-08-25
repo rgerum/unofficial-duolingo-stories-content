@@ -14,8 +14,8 @@ speaker_Speaker112=ja-JP-Standard-A
 $1331/speech_1331_0.mp3;5,0
 
 [LINE]
-> 相葉さんはタクシーに乗っています。---------(Hints have not been reviewed)
-~ ~                                is   in  a    ~        
+> 相葉さんは|タクシーに|乗っています。---------(Hints have not been reviewed)
+~ ~Mrs.~Aiba Taxi is~riding   ~        
 $1331/speech_1331_1.mp3;32,0
 
 [LINE]
@@ -25,15 +25,15 @@ $1331/speech_1331_2.mp3;10,0
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker439: こんにちは、| [チョキー、お金] お願いします。             
-~           hello    I~need   to~go~to~the~airport
-$1331/speech_1331_3.mp3;6,0;8,776.4324324324325;8,887.3513513513515
-- 空港まで
+Speaker439: こんにちは、| [空港まで] お願いします。             
+~           hello    to~airport  please
+$1331/041cf580.mp3;7,0;5,920;8,713
++ 空港まで
 - 空気なんで
-+ チョキー、お金
+- チョキー、お金
 
 [LINE]
-Speaker113: そうです。
+Speaker113: かしこまりました。
 ~           okay 
 $1331/speech_1331_4.mp3;5,0
 
@@ -44,85 +44,89 @@ $1331/speech_1331_5.mp3;6,0
 
 [LINE]
 Speaker439: 違います。             
-~           it's~not~vacation…
+~           not~right
 $1331/speech_1331_6.mp3;5,0
 
 [LINE]
-Speaker439: 沖縄のチケットがあります。
-~           I~have       
+Speaker439: 沖縄の|チケット|があります。
+~           to~Okinawa ticket I~have    
 $1331/speech_1331_7.mp3;13,0
 
 [MULTIPLE_CHOICE]
-> 相葉さん has a plane ticket to 沖縄, but she's not on vacation.
+> Mrs. Aiba has a plane ticket to Okinawa, but she's not on vacation.
 + Yes, that's true.
 - No, that's not right.
 
 [LINE]
-Speaker439: 実は、二枚あります。
-~           well…     
+Speaker439: 実は、|二枚|あります。
+~           actually, two (I)~have
 $1331/speech_1331_9.mp3;10,0
 
 [LINE]
-Speaker113: ああ、沖縄は大好きな所で、とてもきれいですね。
+Speaker113: ああ、|沖縄は|大好きな|所|で、|とても|きれい|ですね。
+~ oh, Okinawa my~favourite place is,  very beautiful isn't~it
 $1331/speech_1331_10.mp3;23,0
 
 [LINE]
-Speaker439: 私のハネムーンのです。
-~           it~is      
+Speaker439: 私の|ハネムーン|のです。
+~           My honeymoon it~is     
 $1331/speech_1331_11.mp3;11,0
 
 [MULTIPLE_CHOICE]
-> Why is 相葉さん going to 沖縄?
+> Why is Mrs. Aiba going to Okinawa?
 + She's going on her honeymoon.
 - She is going to a funeral.
 - She is going to move there.
 
 [LINE]
-Speaker113: なるほど。ご主人はどこでございますか？
+Speaker113: なるほど。|ご主人は|どこで|ございますか？
+~ I~see. Husband where is
 $1331/speech_1331_13.mp3;19,0
 
 [LINE]
-Speaker439: 夫はいないけど、頑固な妻はいますよ。
-~           I~don't~have      
+Speaker439: 夫は|いないけど、|頑固な|妻は|いますよ。
+~           Husband (I)~don't~have,~but obstinate wife (I)~have   
 $1331/speech_1331_14.mp3;18,0
 
 [LINE]
-Speaker439: 妻は私と一緒に沖縄へ行きたがらないのです。
-~           she                  
+Speaker439: 妻は|私と|一緒に|沖縄へ|行きたがらないのです。
+~           Wife with~me together to~Okinawa doesn't~seem~eager~to~go                
 $1331/speech_1331_15.mp3;21,0
 
 [MULTIPLE_CHOICE]
-> 相葉さん's wife…
-+ … doesn't want to go to 沖縄 with her.
+> Mrs. Aiba's wife…
++ … doesn't want to go to Okinawa with her.
 - … is in the taxi with her.
 - … is already in Okinawa.
 
 [LINE]
-Speaker439: とても悲しいです。
-~           I~am     
+Speaker439: とても|悲しい|です。
+~           Very sad (I)~am     
 $1331/speech_1331_17.mp3;9,0
 
 [LINE]
-Speaker113: なるほど。それはお気の毒です。
-~           ~…             
+Speaker113: なるほど。|それは|お気の毒|です。
+~           ~I~see. That a~pity       is   
 $1331/speech_1331_18.mp3;15,0
 
 [LINE]
-Speaker113: さて、空港に着きました。
-~           well…       
+Speaker113: さて、|空港に|着きました。
+~           well…     to~Airport  (we)~arrived
 $1331/speech_1331_19.mp3;12,0
 
 [LINE]
-> スーツケースがある女の人がタクシーへ走ります。
-~ a                      
+> スーツケース|がある|女の人が|タクシー|へ|走ります。
+~ Suitcase having woman taxi towards runs                  
 $1331/speech_1331_20.mp3;23,0
 
 [LINE]
 Speaker439: まり子！
+~ Mariko!
 $1331/speech_1331_21.mp3;4,0
 
 [LINE]
 Speaker1186: はつみ！
+~ Hatsumi!
 $1331/speech_1331_22.mp3;4,0
 
 [LINE]
@@ -131,20 +135,20 @@ Speaker1186: すみません。
 $1331/speech_1331_23.mp3;6,0
 
 [LINE]
-Speaker1186: じゃ、一緒に沖縄に行くわ！
-~            let's~go     
+Speaker1186: じゃ、|一緒に|沖縄に|行くわ！
+~            Well~then, together to~Okinawa let's~go    
 $1331/speech_1331_24.mp3;13,0
 
 [LINE]
-Speaker113: ハネムーンをお楽しみください！
-~           enjoy          
+Speaker113: ハネムーンを|お楽しみ|ください！
+~           Honeymoon enjoy please        
 $1331/speech_1331_25.mp3;15,0
 
 [MULTIPLE_CHOICE]
-> What happened when 相葉さん got to the airport?
-+ Her wife, まり子, apologized and told her she loved her.
+> What happened when Mrs. Aiba got to the airport?
++ Her wife, Mariko, apologized and told her she loved her.
 - Her taxi driver agreed to go on vacation with her.
-- Her wife, まり子, called her on the phone.
+- Her wife, Mariko, called her on the phone.
 
 [MATCH]
 > Tap the pairs
@@ -152,5 +156,5 @@ $1331/speech_1331_25.mp3;15,0
 - おはようございます <> good morning
 - すみません <> I'm sorry
 - ハネムーン <> honeymoon
-- 違います <> it's not vacation
+- 違います <> not right
 
