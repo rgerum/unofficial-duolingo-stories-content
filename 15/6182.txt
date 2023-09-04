@@ -9,19 +9,19 @@ set=36|3
 $6182/28dfd417.mp3;4,0;5,315;7,320;8,345
 
 [LINE]
-> Lucy binasına varıyor. 
-~ Lucy to~her~building she~is~arriving 
+> Lucy binasına gelmektedir. 
+~ Lucy to~her~building she~is~coming 
 $6182/8524310f.mp3;4,0;9,300;9,540
 
 #Lilynin 
 #Lily'nin 
 [LINE]
-> Lucy, Lily'nin evinden bir halı ve bir lamba dışarı~çıkardığını görürdür.
-~ Lucy of~Lily from~her~house a carpet and a lamp that~she~is~taking~out  sees
+> Lily'nin evinden bir halı ve bir lambayı dışarı~çıkardığını görür.
+~ of~Lily from~her~house a carpet and a lamp that~she~is~taking~out  (she)~sees
 $6182/2e265658.mp3;5,0;9,605;8,415;4,520;5,120;3,250;4,135;6,135;7,350;12,310;10,590
 
 [LINE]
-> Büyük ve pahalı bir televizyon da dışarı~çıkarıyor.  
+> Büyük ve pahalı bir televizyonu da dışarı~çıkarıyordur.  
 ~ big and expensive a TV also (she)~is~taking~out
 $6182/6306f6b2.mp3;5,0;3,325;7,120;4,390;11,110;3,590;7,105;11,330
 
@@ -31,10 +31,14 @@ Speaker509: Taşınıyor musun?
 $6182/ee50dd3e.mp3;9,0;7,612
 
 [MULTIPLE_CHOICE]
-> Why does Lucy ask Lily if she's moving?
-- Lily's mom just bought a new house.
-+ She's taking a lot of things out of her house.
-- Lily is talking to some movers.
+> Lucy, Lily'ye neden taşınıyor~musun~diye sordu?
+~ Lucy to~Lily why if~she~is~moving (she)~asked
+-Lily'nin~annesi yakın~zamanda yeni bir ev almış. 
+~ Lily's~mom just new a house (she)~bought.
++ Evinden birçok~şeyi dışarı~çıkarıyordu.
+~ from~her~house a~lot~of~things she~was~taking~out
+- Nakliyecilerle konuşuyordu.
+~ with~movers she~was~talking
 
 [LINE]
 Speaker416: Hayır.
@@ -43,8 +47,8 @@ $6182/406a4328.mp3;5,50
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker509: Bu şeyleri [satacak~mısın]? 
-~          these things are~you~going~to~sell
+Speaker509: Bunları [satacak~mısın]? 
+~          these are~you~going~to~sell
 $6182/3dbc8f46.mp3;2,0;8,121;8,442;6,592
 
 - çatacak mısın
@@ -57,8 +61,8 @@ Speaker416: Hayır.
 $6182/3b8282a8.mp3;5,50
 
 [LINE]
-Speaker509: Öyleyse neden onları buraya koyuyorsun?
-~            then   why  them  out~here are~you~putting 
+Speaker509: Öyleyse onları neden buraya koyuyorsun?
+~            then   them why out~here are~you~putting 
 $6182/3726c944.mp3;7,0;6,578;7,327;7,381;11,328
 
 [POINT_TO_PHRASE]
@@ -68,8 +72,8 @@ Speaker416: (Çünkü)  (annem) (benden) (+çöpü) (dışarı~çıkarmamı) (is
 $6182/35b6e6d4.mp3;5,50;6,375;7,412;5,425;7,238;10,362;7,525
 
 [LINE]
-Speaker509: Bence  başka~bir~şey demek~istedi.     
-~           I~think something~else (she)~meant    
+Speaker509: Bence  demek~istediği~şey bu~değil.     
+~           I~think what~she~meant is~not~this~(this~is~not)    
 $6182/3251c414.mp3;5,0;6,372;4,408;4,111;6,232;7,336
 
 [LINE]
@@ -78,15 +82,19 @@ Speaker509: Şu halı yeni.
 $6182/31a70dda.mp3;2,0;5,220;5,232
 
 [LINE]
-Speaker416: Bu halı köpek~gibi kokuyor~... ve köpeğimiz~yok.
+Speaker416: Bu halı köpek~gibi kokuyor... Ve köpeğimiz~yok.
 ~        this carpet like~(a)~dog (it)~smells  and we~don't~have~dogs   
 $6182/31159b34.mp3;2,50;5,187;6,263;5,350;10,225;3,1400;10,100;4,650
 
 [MULTIPLE_CHOICE]
-> Lily says that the rug smells like …
-- … bad perfume.
-+ … a dog.
-- … it's new.
+> Lily dedi ki halı...
+~ Lily said that the~carpet
+- köpük~gibi kokuyor.
+~ like~(a)~bubble (it)~smells
++ köpek~gibi kokuyor.
+~ like~(a)~dog (it)~smells
+- yeni.
+~ is~new
 
 [LINE]
 Speaker509: Pekâlâ, evet, çok kötü kokuyor. Peki~ya bu lamba?
@@ -94,7 +102,7 @@ Speaker509: Pekâlâ, evet, çok kötü kokuyor. Peki~ya bu lamba?
 $6182/2f126362.mp3;6,0;6,629;5,356;5,294;8,261;6,545;3,686;3,148;6,120
 
 [LINE]
-Speaker416: O~kadar berbat ki ışıksız kalmayı tercih~ediyorum.  
+Speaker416: O~kadar berbat ki ışıksız kalmayı tercih~ederim.  
 ~      so~much  (it~is)~horrible that without~light to~stay I~prefer 
 $6182/2e887576.mp3;1,50;6,87;7,363;3,375;8,137;8,463;7,400;9,400
 
@@ -112,14 +120,14 @@ $6182/2c84194c.mp3;3,0;3,227;13,186;4,723;11,258;4,603;6,246;4,328;5,317;7,583;1
 ~ very expensive
 
 [LINE]
-Speaker416: Hâlâ televizyon izliyor~musun? Bütün~diziler para, cinayet veya tatlılar konusunda. 
-~         still TV   do~you~watch       all~the~shows  money   murder or desserts (they~are)~about
+Speaker416: Hâlâ televizyon mu izliyorsun? Bütün~diziler para, cinayet veya tatlılar hakkında. 
+~         still TV (the~question~particle)  you~watch       all~the~shows  money   murder or desserts (they~are)~about
 $6182/29beefc0.mp3;4,50;11,500;8,600;6,500;6,1425;8,325;5,475;8,400;5,562;9,313;10,500
 
 #Hıım
 #Hımm
 [LINE]
-Speaker509: Hımm… Katlıyorum, ancak annen bunu görürse pek~mutlu olmaz.
+Speaker509: Hımm… Katılıyorum, ancak annen bunu görürse pek~mutlu olmaz.
 ~           hmm  I~agree   however your~mom this if~she~sees very~happy (she)~will~not~be
 $6182/5070bce6.mp3;4,0;12,358;7,972;6,443;5,392;8,230;4,477;6,281;6,255
 
@@ -129,16 +137,20 @@ Speaker416: Evet, ama benden bir~daha çöp için~yardım istemeyecek.
 $6182/bc86cfca.mp3;4,50;4,450;7,200;4,437;5,150;4,238;5,212;7,313;12,412
 
 [MULTIPLE_CHOICE]
-> Lily is throwing away valuable stuff so that…
-+ …her mom won't ask her to help with the trash again.
-- …she can have more space in her apartment.
-- …other people can use it.
+> Lily değerli eşyaları dışarıya~atıyor ki...
+~ Lily valuable items (she)~is~throwing~away so~that
++ annesi bir~dana çöp~için~yardım istemesin. 
+~ her~mom again help~with~the~trash (she)~will~not~ask~(her)
+- dairesinde yer~açabilsin.
+~ in~her~apartment she~can~make~room
+- diğerleri kullanabilsin.
+~ other~people (they)~can~use~them
 
 [MATCH]
 > Tap the pairs
 - evinden <> from her house
-- katlıyorum <> I agree
-- tercih ediyorum <> I prefer
+- katılıyorum <> I agree
+- tercih ederim <> I prefer
 - halı <> carpet
 - gibi kokuyor <> smells like
 
