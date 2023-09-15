@@ -1,0 +1,114 @@
+[DATA]
+fromLanguageName=Help!
+icon=1c5252d3f2b826be063f0381f672d43914fa74fe
+set=14|1
+
+[HEADER]
+> Hilfe!
+~ help  
+
+[LINE]
+> Junior und Eddy sind im~Schwimmbad.       
+~ Junior and Eddy are  at~the~swimming~pool 
+
+[LINE]
+> Junior läuft zu der Bademeisterin.
+~ Junior runs  to the lifeguard     
+
+[LINE]
+Speaker415: Hilfe!
+~           help  
+
+[LINE]
+Speaker415: Schnell, mein Papa braucht Hilfe!
+~           fast     my   dad  needs   help  
+
+[CONTINUATION]
+> What comes next?
+Speaker856: Kann er nicht schwimmen? Hat~er       Probleme [im~Wasser]?   
+~           can  he not   swim       is~he~having issues    in~the~water  
++ im     Wasser
+~ in~the water 
+- mit  seinem Pass    
+~ with his    passport
+- mit  Horrorfilmen 
+~ with horror~movies
+
+[LINE]
+Speaker415: Nein, nicht im~Wasser.   
+~           no    not   in~the~water 
+
+[LINE]
+Speaker856: Ich verstehe   nicht?
+~           I   understand not   
+
+[POINT_TO_PHRASE]
+> Choose the option that means "swimming trunks."
+Speaker415: (Seine) neue (+Badehose)                ist circa         drei  (Größen) (zu~klein)  für ihn!
+~            his    new    pair~of~swimming~trunks  is  approximately three  sizes    too~small  for him 
+
+[LINE]
+Speaker415: Aber er will~nicht   hören!    
+~           but  he doesn't~want to~listen 
+
+[LINE]
+Speaker856: Ich bin Bademeisterin. Ich helfe bei~Notfällen! 
+~           I   am  (a)~lifeguard  I   help  in~emergencies 
+
+[MULTIPLE_CHOICE]
+> The lifeguard can only help with...
+- ...swimming trunks.
+- ...fathers.
++ …emergencies.
+
+[LINE]
+Speaker415: Das  ist ein~Notfall!  Sehen~Sie!
+~           this is  an~emergency  look      
+
+[LINE]
+> Eddy kommt aus~dem    Wasser.
+~ Eddy comes out~of~the water  
+
+[LINE]
+Speaker856: Hilfe.
+~           help  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker856: Du  hast~recht. Die Badehose                ist [wirklich~zu~klein]!
+~           you are~right   the pair~of~swimming~trunks is   really~too~small   
+- gar nicht meine
+- wirklich weiß
++ wirklich zu klein
+
+[LINE]
+Speaker856: Warten~Sie! Ich komme!     Ich helfe       Ihnen!
+~           wait        I   am~coming  I   (will)~help you   
+
+[POINT_TO_PHRASE]
+> Choose the option that means "towel."
+> Die Bademeisterin (nimmt) ein (großes) (rotes) (+Handtuch) und läuft zu Eddy.
+~ the lifeguard      takes  a    big      red      towel     and runs  to Eddy 
+
+[LINE]
+Speaker414: Was?  Was? 
+~           what  what 
+
+[LINE]
+Speaker856: Bitte.  Tragen~Sie dieses Handtuch. Es ist ein~Notfall. 
+~           please  wear       this   towel     it is  an~emergency 
+
+[MULTIPLE_CHOICE]
+> What's the emergency?
+- Junior forgot to bring his towel.
+- Eddy doesn't know how to swim.
++ Eddy's swimming trunks are too small.
+
+[MATCH]
+> Tap the pairs
+- hören <> to listen
+- Tragen Sie <> wear
+- Du <> you
+- Ich <> I
+- Wasser <> water
+
