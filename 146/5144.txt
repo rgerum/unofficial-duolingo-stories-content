@@ -3,25 +3,34 @@ fromLanguageName=Good Morning
 icon=783305780a6dad8e0e4eb34109d948e6a5fc2c35
 set=1|1
 
+#Due to a recent fix for RTL punctuation,
+#the punctuation in this story will likely need to be moved.
+#https://discord.com/channels/726701782075572277/1130236080973676684
+
 [HEADER]
-> Buenos~días 
+> صُبح~بِخِیر
 ~ good~morning
+$5144/a0d1bbce.mp3;4,100;7,325
 
 [LINE]
-Speaker593: ¡Buenos~días,  Priti!
+Speaker593: !صُبح~بِخِیر، پریتی
 ~            good~morning  Priti 
+$5144/e6fab984.mp3;4,275;7,300;6,400
 
 [LINE]
-Speaker560: Buenos~días,  mi amor.
-~           good~morning  my love 
+Speaker560: صُبح~بِخِیر، عشق مِن
+~           good~morning love of~mine
+$5144/82714d06.mp3;4,137;7,213;4,525;4,525
 
 [LINE]
-Speaker560: ¿Dónde están mis llaves?
-~            where are   my  keys   
+Speaker560: کِليدام کُجاست؟
+~            my~keys where~are   
+$5144/eab5e476.mp3;6,100;7,487
 
 [LINE]
-Speaker593: ¿Tus  llaves?
-~            your keys   
+Speaker593: کِلید شَما؟
+~           keys of~yours
+$5144/b8cf7430.mp3;5,62;5,275
 
 [MULTIPLE_CHOICE]
 > Priti can't find her keys.
@@ -29,8 +38,9 @@ Speaker593: ¿Tus  llaves?
 - No, that's wrong.
 
 [LINE]
-Speaker560: Sí,  necesito ir    al trabajo.
-~           yes  I~need   to~go to work    
+Speaker560: بِله، بَیاز بَرَم سَر~کار
+~           yes  I~need   to~go to~work    
+$5144/e7f6737e.mp3;4,87;6,463;6,375;4,312;4,300
 
 [ARRANGE]
 > Tap what you hear
