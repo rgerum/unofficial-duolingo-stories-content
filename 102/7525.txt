@@ -8,11 +8,11 @@ set=1|2
 ~ a~date
 
 [LINE]
-> Beatrice on restoranis kohtingul.
-~ Bea is   on a   date in a  restaurant  
+> Beatrice on kohtingul restoranis.
+~ Bea is   on~a~date in~a~restaurant  
 
 [LINE]
-Speaker507: Tere!  Kuidas sul läheb? 
+Speaker507: Tere!  Kuidas~sul~läheb? 
 ~            hello   how~are~you 
 
 [LINE]
@@ -20,24 +20,24 @@ Speaker100: Hästi!
 ~            fine 
 
 [LINE]
-Speaker100: Mida sa tahad süüa? 
-~            what do~you~want to~eat 
+Speaker100: Mida~sa~tahad~süüa? 
+~            what~do~you~want~to~eat
 
 [LINE]
 Speaker507: Salatit.
-~           a   salad    
+~           a~salad    
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker507: Mul on täna  [tähtis mäng].
-~           today I~have  an~important~game      
+Speaker507: Mul~on täna  [tähtis~~~mäng].
+~           i~have today an~important~game     
 + tähtis mäng
 - tähtis etendus
-- una parte imponente
+- igav tantsuproov
 
 [LINE]
-Speaker100: Ah, kas sulle meeldib sport?
-~           oh   do~you~like (the)~sports 
+Speaker100: Ah, kas~sulle~meeldib sport?
+~           oh   do~you~like sports 
 
 [LINE]
 Speaker507: Jaa,  ma mängin jalgpalli.
@@ -50,7 +50,7 @@ Speaker507: Jaa,  ma mängin jalgpalli.
 - …she just ate a whole pizza.
 
 [LINE]
-Speaker100: Mina ka!
+Speaker100: Mina~ka!
 ~            me~too     
 
 [LINE]
@@ -58,11 +58,11 @@ Speaker507: Lahe!
 ~            great 
 
 [LINE]
-Speaker507: Kust sa pärit oled?     
+Speaker507: Kust~sa~pärit~oled?     
 ~            where~are~you~from 
 
 [LINE]
-Speaker100: Ma olen ameeriklane.
+Speaker100: Ma~olen ameeriklane.
 ~           I~am American  
 
 [ARRANGE]
@@ -71,7 +71,7 @@ Speaker100: [(Minu~isa)  (on~Kuubalt)   (ja)   (mu~ema)  (on~Mehhikost).]
 ~             my~father   is~from~Cuba   and   my~mother   is~from~Mexico   
 
 [LINE]
-Speaker507: Ma armastan Kuubat!
+Speaker507: Ma~armastan Kuubat!
 ~            I~love     Cuba 
 
 [LINE]
@@ -80,16 +80,16 @@ Speaker100: Kuuba on väga kaunis.
 
 [LINE]
 Speaker507: Kas sul on lemmikloomi?
-~            do~you~have pets     
+~            do you have pets     
 
 [LINE]
 Speaker100: Mul~on kaks kassi ja koer.
-~           I~have two cats  and a  dog   
+~           I~have two cats  and (a)~dog   
 
 [POINT_TO_PHRASE]
 > Choose the option that means "also."
 Speaker507: Minul (on) (+ka) (koer), (Joosep).
-~           I    also      have   a   dog      Joosep  
+~           I    have      also   (a)~dog      Joosep  
 
 [LINE]
 Speaker100: Eh? Mu~nimi~on Daniel…
