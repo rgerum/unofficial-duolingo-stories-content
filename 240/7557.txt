@@ -1,19 +1,22 @@
 [DATA]
-fromLanguageName=Doctor Eddy
+fromLanguageName=Eddy the Doctor
 icon=29c5abbf74b46e43a4de510ac83e302c0722a100
 set=2|4
 
 [HEADER]
-> El~doctor Eddy
-~ doctor    Eddy
+> jan[[esunsinaike]] li jan~pi(sona~sijelo)
+~ Eddy ~ (is)~a~doctor
+$2174/d13086b0.mp3;3,50;4,250;3,275;4,150;3,275;5,162;6,325
 
 [LINE]
-> Eddy está en el  supermercado.
-~ Eddy is   at the supermarket  
+> jan[[esunsinaike]] li lon esun~suli
+~ Eddy ~ (is)~at the~supermarket 
+$2174/df6bb74a.mp3;3,50;4,262;3,300;4,150;5,225;5,300
 
 [LINE]
-> Una mujer habla~con él. 
-~ a   woman talks~to  him 
+>meli li toki tawa ona
+~ a~woman ~ talks to him 
+$2174/8e8fb09c.mp3;4,50;3,425;5,175;5,350;4,362
 
 [MULTIPLE_CHOICE]
 > A woman talks to Eddy at the supermarket.
@@ -21,61 +24,75 @@ set=2|4
 - No, that's wrong.
 
 [LINE]
-Speaker724: ¡Hola! 
-~            hello 
+Speaker724: toki~a
+~      hello 
+$2174/900cc018.mp3;4,50;2,425
 
 [LINE]
-Speaker414: Ah, ¡hola! 
-~           oh   hello 
+Speaker414: a, toki!
+~      oh  hello 
+$2174/ef4706b0.mp3;1,50;6,487
 
 [LINE]
-Speaker724: ¿Eres    doctor?  
-~            are~you a~doctor 
+Speaker724: sina jan~pi(sona~sijelo) anu~seme
+~      you (are)~a~doctor or~what
+$2174/91762f98.mp3;4,50;4,412;3,275;5,175;7,263;4,662;5,250
 
 [LINE]
-Speaker414: ¿Yo? ¿Doctor?   Ah…
-~            me   a~doctor  uh 
+Speaker414: mi\n jan~pi(sona~sijelo) anu~seme\n a
+~      me  a~doctor ? uh 
+$2174/92a6b54a.mp3;2,50;4,575;3,237;5,200;7,350;4,538;5,262;2,738
 
 [LINE]
-Speaker414: Sí.  Yo… soy doctor.  
-~           yes  I   am  a~doctor 
+Speaker414: jan\n mi, jan~pi(sona~sijelo)
+~      yes I (am)~a~doctor 
+$2174/0a7a38bc.mp3;3,50;3,1337;4,1075;3,263;5,237;7,388
 
 [LINE]
-Speaker724: ¡Qué~bueno!  
-~            that's~good 
+Speaker724: ni~li~pona!
+~      that's~good 
+$2174/93b714fc.mp3;2,50;3,250;5,150
 
 [LINE]
-> Eddy no~es  doctor.  
-~ Eddy is~not a~doctor 
+>jan[[esunsinaike]] li jan~pi(sona~sijelo~ala)
+~ Eddy ~ (is)~not~a~doctor 
+$2174/193ec2fa.mp3;3,50;4,250;3,262;4,138;3,275;5,162;7,325;4,500
 
 [ARRANGE]
 > Tap what you hear
-Speaker414: [(Tengo)  (mucho)    (dinero).]
-~             I~have   a~lot~of   money    
+Speaker414: [(mi jo)  (e mani) (mute) ]
+~       I~have   money  lots
+$2174/4fd4916e.mp3;3,50;2,412;5,125;5,350
 
 [LINE]
-Speaker414: Vivo   en una casa~muy~grande.
-~           I~live in a   very~big~house  
+Speaker414: mi lon tomo~pi(suli~mute)
+~      I~live in a~very~big~house 
+$2174/969c137a.mp3;2,50;4,212;5,275;3,363;5,212;5,413
 
 [LINE]
-Speaker414: Tengo…  pantalones~muy~caros.
-~           I~have  very~expensive~pants 
+Speaker414: len~noka mi,, li mani~mute
+~     trousers my ~ (are)~very~expensive
+$2174/97a275ca.mp3;3,50;5,362;3,375;3,1025;5,225;5,425
 
 [LINE]
-Speaker724: Está~bien, pero…
-~           OK         but  
+Speaker724: pona,, taso
+~      OK     but 
+$2174/98273ab2.mp3;4,50;5,687
 
 [LINE]
-Speaker724: ¡Ese  hombre necesita un doctor, ahora!
-~            that man    needs    a  doctor  now   
+Speaker724: tenpo~ni la mije~ni li wile e jan~sona!
+~      now ~ that~man ~  needs ~ a~doctor 
+$2174/616a63ae.mp3;5,50;3,337;3,138;5,475;3,362;3,138;5,137;2,350;4,75;5,250
 
 [LINE]
-Speaker724: ¡Está  cerca~de la  leche!
-~            he~is near     the milk  
+Speaker724: ona li lon~poka pi(telo~walo)
+~      he ~ (is)~near ~ the~milk 
+$2174/99bbd374.mp3;3,50;3,362;4,125;5,213;3,325;5,137;5,263
 
 [LINE]
-Speaker724: ¡Por~favor, ese  hombre necesita su   ayuda!
-~            please     that man    needs    your help  
+Speaker724: o~pona~a\n mije~ni li wile e pona~sina!
+~      please   that~man ~ needs ~ your~help! 
+$2174/6c590d2e.mp3;1,50;5,137;2,338;5,425;3,337;3,138;5,125;2,350;5,125;5,275
 
 [MULTIPLE_CHOICE]
 > The man who needs help is near the…
@@ -85,20 +102,24 @@ Speaker724: ¡Por~favor, ese  hombre necesita su   ayuda!
 
 [POINT_TO_PHRASE]
 > Choose the option that means "sick."
-Speaker724: ¡(Está)  (muy)  (+enfermo)!
-~             he~is   very    sick     
+Speaker724: (ona) (li) (+pilin ike) (mute)!
+~       he ~ (is)~feeling~ill very
+$2174/8564a0ee.mp3;3,50;3,350;6,125;4,350;5,262
 
 [LINE]
-Speaker414: ¡Ay, no!
-~            oh  no 
+Speaker414: a, ike
+~      oh no 
+$2174/9c50bd66.mp3;1,50;4,500
 
 [LINE]
-> Eddy ve~a una mujer y   habla~con ella.
-~ Eddy sees a   woman and talks~to  her  
+>jan[[esunsinaike]] li lukin e meli li toki tawa ona.
+~ Eddy ~ sees ~ a~woman and talks to her 
+$2174/ac600828.mp3;3,50;4,262;3,263;6,137;2,400;5,63;3,675;5,137;5,338;4,362
 
 [LINE]
-Speaker414: Hola,  ¿eres    doctora? 
-~           hello   are~you a~doctor 
+Speaker414: toki\n sina jan~pi(sona~sijelo) anu~seme
+~      hello  you (are)~a~doctor or~what
+$2174/9dcdc9c2.mp3;4,50;5,687;4,300;3,250;5,175;7,325;4,775;5,300
 
 [MULTIPLE_CHOICE]
 > What happened in the story?
@@ -108,9 +129,8 @@ Speaker414: Hola,  ¿eres    doctora?
 
 [MATCH]
 > Tap the pairs
-- Ese <> that
-- no es <> is not
-- Está bien <> OK
-- ahora <> now
-- no <> no
-
+- that <> ni
+- doctor <> jan pi(sona sijelo)
+- OK <> pona
+- now <> tenpo ni
+- mansion <> tomo pi(suli mute)
