@@ -1,114 +1,80 @@
+Back
+Story-Editor
+story titleThe Model
+Delete
+Hints
+Audio
+Save
+R
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
 [DATA]
 fromLanguageName=The Model
 icon=bf0f585cb9c595dad852ba30870242b639057e4f
 set=10|3
 
 [HEADER]
-> El  modelo
-~ the model 
+> jan{jan:ipa}~pi~pona{pona:ipa}~sitelen{sitelen:ipa}
+~ the~model 
+$7215/28961c8c.mp3;3,50;3,263;5,187;8,238
 
 [LINE]
-> Eddy va   a  la~clase~de~Óscar.
-~ Eddy goes to Óscar's~class     
+> jan{jan:ipa}~Esi{esi:ipa} li tawa{tawa:ipa} tenpo~sona{sona:ipa}. jan{jan:ipa}~Oka{oka:ipa} li pana~e~sona{sona:ipa}~pi~sitelen~musi.
+~ Eddy ~ goes~to a~class     Oscar ~ teaches~art
+$7215/22e5ce31.mp3;3,50;4,225;3,225;5,150;6,275;5,338;2,362;4,850;4,213;3,200;5,150;2,300;5,62;3,288;8,162;5,475;2,413
 
 [LINE]
-Speaker414: Hola,  ¿puedo entrar? 
-~           hello   I~can come~in 
+Speaker414: toki{toqui}, mi ken~ala~ken kama~lon~insa? 
+~           hello   I can~(question) come~in 
+$7215/8568953a.mp3;5,50;2,512;3,213;4,137;4,238;4,225;5,262;4,300;5,225
 
 [LINE]
-Speaker592: Tengo~que~dar   mi clase~de~arte en cinco minutos.
-~           I~have~to~teach my art~class     in five  minutes 
+Speaker592: tenpo~lili{líli}~taso la, tenpo~sona{sona:ipa}~mi li open{open:ipa}.
+~           very~soon (context) my~class ~ will~begin 
+$7215/25263f25.mp3;5,50;5,325;5,363;3,350;2,312;6,175;5,350;3,263;3,150;5,200;2,387
 
 [MULTIPLE_CHOICE]
-> Óscar has to teach an art class in two hours.
+> Oscar has to teach an art class in two hours.
 + No, that's wrong.
 - Yes, that's right.
 
 [LINE]
-Speaker414: Pero estoy aburrido.
-~           but  I~am  bored    
+Speaker414: taso mi pilin~musi~ala. mi wile{wile:ipa} pali e ijo{ijo:ipa}.
+~           but  I (am)~bored I want to~do (object) something    
+$7215/dd57b751.mp3;4,50;3,350;5,175;5,300;2,450;4,200;2,412
 
 [SELECT_PHRASE]
-> Select the missing phrase
-Speaker592: ¿Y   tú  [no~tienes~clase]?   
-~            and you  don't~have~a~class  
-- no vienes a clase
-+ no tienes clase
-- no tienes pase
-
-[LINE]
-Speaker414: No, ¿te~puedo~ayudar~en  algo?     
-~           no   I~can~help~you~with something 
-
-[LINE]
-Speaker592: ¿Por~qué?
-~            why     
-
-[ARRANGE]
-> Tap what you hear
-Speaker414: [(Porque)  (eres)    (mi) (mejor) (amigo).] 
-~             because   you~are   my   best    friend   
-
-[LINE]
-Speaker592: ¿Ah, sí? 
-~            oh  yes 
-
-[LINE]
-Speaker592: Mmm… Creo    que  sí~puedes~ayudarme.
-~           hmm  I~think that you~can~help~me    
-
-[LINE]
-Speaker414: ¡Muy  bien, amigo! 
-~            very well  friend 
-
-[LINE]
-Speaker592: ¿Puedes~sentarte  en esta silla?
-~            you~can~sit~down in this chair 
-
-[LINE]
-Speaker414: ¡Sí! 
-~            yes 
-
-[POINT_TO_PHRASE]
-> Choose the option that means "sits down."
-> (Eddy) (+se~sienta) y   (mira~a)   (Óscar).
-~  Eddy    sits~down  and  looks~at   Óscar  
-
-[LINE]
-Speaker592: ¿Y   puedes~hacer~silencio?
-~            and you~can~be~quiet      
-
-[LINE]
-Speaker414: ¿Por~qué?
-~            why     
-
-[LINE]
-Speaker592: Mi clase es en un minuto y   necesito un modelo.
-~           my class is in a  minute and I~need   a  model  
-
-[LINE]
-Speaker592: Los~modelos no~hablan. 
-~           models      don't~talk 
-
-[LINE]
-Speaker414: Pero esto es aburrido.
-~           but  this is boring   
-
-[LINE]
-Speaker592: Shh…
-~           shh 
-
-[MULTIPLE_CHOICE]
-> Why is Eddy still bored?
-- Óscar won't stop talking about work.
-- He doesn't like to read about art.
-+ Óscar wants him to sit in a chair and be quiet.
-
-[MATCH]
-> Tap the pairs
-- Y <> and
-- Puedes sentarte <> you can sit down
-- Muy <> very
-- Óscar <> Óscar
-- bien <> well
-
