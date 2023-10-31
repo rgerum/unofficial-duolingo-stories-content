@@ -1,31 +1,30 @@
 [DATA]
-fromLanguageName=Free Pizza
+fromLanguageName=Pitsa uten kerras
 icon=1dcd5216b93313f075eb62584804a9bec488724e
 set=20|3
 
 [HEADER]
-> Pizza~gratis
-~ free~pizza  
+> Pitsa uten kerras
+~ ~     mit~nil geltatai~per~kaupa
 
 [LINE]
-> Lin está~caminando cuando empieza~a llover. 
-~ Lin is~walking     when   it~starts to~rain 
+> Lindjin yalaka au plui hadji spaada fsha. 
+~ ~       ~      ~  kumoishke ~ shkoi~unna na~kalap 
 
 [LINE]
 Speaker508: ¡Ay, no!
 ~            oh  no 
 
 [LINE]
-> Lin ve   unas~oficinas.
-~ Lin sees some~offices  
+> Lindjin use yoku ergorum.
+~ ~       u-~se ~  ~
 
 [SELECT_PHRASE]
-> Select the missing phrase
-> Ella entra  y   [ve~muchas~pizzas] sobre una~mesa.
-~ she  enters and  sees~many~pizzas  on    a~table  
-- te duchas con pizzas
-+ ve muchas pizzas
-- ve muchas pesas
+> Sentaku letste lodjiklik fras.
+> Sore tulla au use mange pitsa [oba stol].
+- unna yalaka
++ oba stol
+- inne mauge fu ergodjin
 
 [LINE]
 Speaker508: ¡Esas  son muchas pizzas!
@@ -36,14 +35,13 @@ Speaker508: Creo    que  no~importa        si me~como un~pedazo.
 ~           I~think that it~doesn't~matter if I~eat   one~piece 
 
 [MULTIPLE_CHOICE]
-> Lin wants to eat…
-+ …one slice of pizza.
-- …all of the pizzas.
-- …a lot of pizza.
+> Lin vilti nam…
++ …ein telnen fu ein pitsa.
+- …al pitsa oba stol.
+- …mangemange pitsa.
 
 [LINE]
-> Lin se~come un~pedazo de pizza.
-~ Lin eats    one~piece of pizza 
+> Lin nam ein telnen fu ein pitsa.
 
 [LINE]
 Speaker321: ¡Ey!  Esa~pizza  es para la~gente que trabaja aquí.
@@ -74,20 +72,14 @@ Speaker321: Tengo~que ir~a~trabajar.   ¡Disfruta la~pizza!
 ~           I~have~to (to)~go~to~work   enjoy    the~pizza 
 
 [CONTINUATION]
-> What comes next?
-> Lin se~come otro    [pedazo].
-~ Lin eats    another  piece   
-- secretaria
-~ secretary 
-- oficina
-~ office 
-+ pedazo
-~ piece 
+> Dare dekiti tulla?
+> Lin nam andra [tel]. 
+- ergodjin
+- ergorum
++ tel
 
-[ARRANGE]
-> Tap what you hear
-> [(Unos~minutos)  (después), (llega~una~mujer).]
-~   a~few~minutes   later      a~woman~arrives   
+[LINE]
+Speaker000: Za yoku fun, ein onna tulla.
 
 [LINE]
 Speaker292: ¡Pizza! ¡Perfecto! Tengo~mucha~hambre.
@@ -102,7 +94,7 @@ Speaker508: No… Me~llamo   Lin.
 ~           no  my~name~is Lin 
 
 [SELECT_PHRASE]
-> Select the missing phrase
+> Sentaku letste lodjiklik fras.
 Speaker292: ¿Y   qué  haces     [para~la~empresa]?
 ~            and what do~you~do  for~the~company  
 - para la imprenta
@@ -130,16 +122,16 @@ Speaker508: ¡Me~tengo~que~ir! ¡Mucho~gusto!
 ~            I~have~to~go      nice~to~meet~you 
 
 [MULTIPLE_CHOICE]
-> Why did Lin suddenly need to leave?
-- She needed to buy an umbrella. 
-- The pizza gave her a stomachache.
-+ The woman found out she didn't work there.
+> Aiya! Naze Lindjin sheksko dan hel bistra?
+- Sore treng kaupa kyella. 
+~ ~    ~     ~     ☂️
+- Sore har maugearka za nam pitsa.
+~ ~    ~   arka~na~mauge ~ ~ ~
++ Onna ushiru ka sore nai ergo der.
 
 [MATCH]
-> Tap the pairs
-- Ay <> oh
-- Ey <> hey
-- Mucho gusto <> nice to meet you
-- cuando <> when
-- unas oficinas <> some offices
+> Tsunaga kotoba mit pravda imi fu hei.
+- kundur de <> za
+- geltatai trengena per kaupa ting <> kerras
+- ting per kemuske plui kara <> kyella
 
