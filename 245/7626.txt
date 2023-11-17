@@ -5,7 +5,7 @@ set=1|2
 
 [HEADER]
 > Dē Cōnstitūtō
-~ About   Date
+~ About   (a)~Date
 
 [LINE]
 > Beāta  cōnstitūtum in popīnā habet.
@@ -31,22 +31,31 @@ Speaker100: Quid ēsse vīs?
 Speaker507: Acētāria volō.
 ~           salad    I~want
 
-[LINE]
-Speaker507: Valdē ēsuriō, nam hodiē māne pilā lūsī.
-~   Greatly I~hunger since today in~the~morning ball I~played
+[SELECT_PHRASE]
+>Select the missing phrase
+Speaker507: Hodiē erit mihi [lūdicrum certāmen] māximī mōmentī.
+~   Today will~be for~me sport match of~great importance.
++lūdicrum certāmen
+-rīdiculum certāmen
+-lūdicrum carmen
 
 [LINE]
 Speaker100: Ah, esne athlēta?
 ~           oh   are~you athlete?
 
 [LINE]
-Speaker507: Sum. Crās erit mihi lūdicrum certāmen māximī mōmentī.
-~           I~am.  Tomorrow will~be for~me sport match of~great importance
+Speaker507: Sum. Pedifolliō lūdō. 
+~           I~am. Soccer I~play.
+[MULTIPLE_CHOICE]
+> Bea is ordering a salad because…
++ …she is playing soccer today.
+- …her date said the salad is delicious.
+- …she just ate a whole pizza.
 
 
 [LINE]
-Speaker100: Egō quoque pilā lūdō!
-~            I also ball play!     
+Speaker100: Egō~quoque!
+~            Me~too!     
 
 [LINE]
 Speaker507: Optimē!
@@ -57,8 +66,8 @@ Speaker507: Cujātis es?
 ~            From~where are~you? 
 
 [LINE]
-Speaker100: Rōmānus sum
-~           Roman I~am  
+Speaker100: Cīvitātibus~Foederātīs oriundus sum.
+~           From~the~United~States originating I~am  
 
 [ARRANGE]
 > Tap what you hear
