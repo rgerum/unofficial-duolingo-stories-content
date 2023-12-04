@@ -3,25 +3,25 @@ fromLanguageName=Good Morning
 icon=783305780a6dad8e0e4eb34109d948e6a5fc2c35
 set=1|1
 
-icon_Marko=https://stories-cdn.duolingo.com/image/f118359885a5dc9babe4808c746e1c15ea9cd6f4.svg
-speaker_Marko=Marko
-speaker_Marija=Marija
-
 [HEADER]
 > Dobro~jutro! 
 ~ Good~morning 
+$1052/fd8e4848.mp3;5,50;6,350;0,425
 
 [LINE]
-> Marko je kod kuće sa   svojom ženom Marijom.
+> Vikram je kod kuće sa   svojom ženom Priti.
 ~ ~     is at  home with his    wife  ~       
+$1052/5d43cab1.mp3;6,50;3,388;4,112;5,188;3,287;9,125;6,363;6,325;0,450
 
 [LINE]
-SpeakerMarko: Dobro~jutro,  Marija!
+Speaker593: Dobro~jutro,  Priti!
 ~             Good~morning  ~      
+$1052/168806c4.mp3;5,150;6,338;1,500;7,150;0,450
 
 [LINE]
-Speaker292: Dobro~jutro,  ljubavi!
+Speaker560: Dobro~jutro,  ljubavi!
 ~           Good~morning  my~love 
+$1052/8a4b67b4.mp3;5,15;6,325;10,610
 
 [MULTIPLE_CHOICE]
 > What does "ljubavi" mean?
@@ -30,57 +30,64 @@ Speaker292: Dobro~jutro,  ljubavi!
 - My brother.
 
 [LINE]
-Speaker292: Gde   mi~je udžbenik~iz~engleskog?
-~           Where is~my English~textbook      
+Speaker560: Gde   su~mi ključevi?
+~           Where are~my keys    
+$1052/6dbcd9af.mp3;3,15;5,215;3,140;9,165
 
 [LINE]
-SpeakerMarko: Zašto?
-~             Why   
-
-[SELECT_PHRASE]
-> Select the missing phrase
-Speaker292: Imam   [ispit   iz   engleskog] na univerzitetu.  
-~           I~have  an~exam (of) English    at the~university 
-- engleski test
-- engleski ispit
-+ ispit iz engleskog
+Speaker593: Tvoji ključevi?
+~           Your keys?
+$1052/5583fe01.mp3;5,138;9,275
 
 [LINE]
-Speaker292: Treba    mi udžbenik!
-~           (I)~need my textbook 
-
-[LINE]
-SpeakerMarko: Marija, tvoj udžbenik je ovde, na stolu!    
-~             ~       your textbook is here  on the~table 
-
-[POINT_TO_PHRASE]
-> Click on the option meaning "tired."
-Speaker292: (Izvini), (ljubavi). (+Umorna)    (sam)!   
-~            Sorry     my~love     tired~(f)   (I)~am  
-
-[LINE]
-SpeakerMarko: Hoćeš~li      kafu?    
-~             Do~(you)~want a~coffee 
-
-[LINE]
-Speaker292: Da,  molim  te!
-~           Yes  please ~  
+Speaker560: Da,  moram    da~idem na posao.
+~           yes  I~need   to~go to work    
+$1052/da411679.mp3;2,15;8,460;6,360;5,115;3,320;6,90
 
 [ARRANGE]
 > Tap what you hear
-SpeakerMarko: [(Sa) (ili) (bez) (mleka)]?
+Speaker560: [(Trebaju~mi) (ključevi) (za) (moja) (kola)!]
+~              I~need     the~keys     of~(for)   my   car  
+$1052/13a9ac53.mp3;7,15;3,445;9,165;3,540;5,140;5,360
+[LINE]
+Speaker593: Priti, tvoji ključevi su ovde, na stolu!    
+~             ~       your keys are here  on the~table 
+$1052/dc9df1b1.mp3;5,125;1,413;6,125;9,262;3,438;5,175;1,425;3,150;6,112;0,488
+
+[POINT_TO_PHRASE]
+> Click on the option meaning "tired."
+Speaker560: (Izvini), (ljubavi). (+Umorna)    (sam)!   
+~            Sorry     my~love     tired~(f)   (I)~am  
+$1052/0f156455.mp3;6,15;9,645;8,765;7,405
 
 [LINE]
-Speaker292: Bez     mleka.
+Speaker593: Hoćeš~li      kafu?    
+~             Do~(you)~want a~coffee 
+$1052/2dd14861.mp3;5,113;3,475;10,137
+
+[LINE]
+Speaker560: Da,  molim  te!
+~           Yes  please ~  
+$1052/0c9e1277.mp3;2,15;8,495;4,355
+
+[ARRANGE]
+> Tap what you hear
+Speaker593: [(Sa) (ili) (bez) (mleka)]?
+$1052/e2762681.mp3;2,138;NaN,450;NaN,125;4,175;6,250
+
+[LINE]
+Speaker560: Bez     mleka.
 ~           Without milk  
+$1052/ee6eac14.mp3;3,15;10,290
 
 [LINE]
-SpeakerMarko: Evo~je.    
+Speaker593: Evo~je!    
 ~             Here~it~is 
+$1052/548ebc9e.mp3;3,138;3,387;0,275
 
 [CONTINUATION]
 > Choose the best answer:
-> Marija [stavlja] šećer u  kafu.      
+> Priti [stavlja] šećer u  kafu.      
 ~ ~       puts     sugar in her~coffee 
 - hoće 
 ~ wants
@@ -90,16 +97,19 @@ SpeakerMarko: Evo~je.
 ~ drinks
 
 [LINE]
-> Marija pije   kafu.      
+> Priti pije   kafu.      
 ~ ~      drinks her~coffee 
+$1052/0de976b1.mp3;5,50;5,388;7,200;0,400
 
 [LINE]
-Speaker292: Fuj! 
+Speaker560: Fuj! 
 ~           Yuck 
+$1052/f2d3625d.mp3;3,15
 
 [LINE]
-SpeakerMarko: Šta~ti~je?     
+Speaker593: Šta~ti~je?     
 ~             What~about~you 
+$1052/3383c7dd.mp3;3,138;3,362;3,175
 
 [MULTIPLE_CHOICE]
 > What does "šta" mean?
@@ -108,23 +118,27 @@ SpeakerMarko: Šta~ti~je?
 - Where?
 
 [LINE]
-Speaker292: To je so!  
+Speaker560: To je so!  
 ~           It is salt 
+$1052/202d0f4b.mp3;2,15;3,135;3,80
 
 [LINE]
-Speaker292: Nije        sećer!
+Speaker560: Nije        šećer!
 ~           (It)~is~not sugar 
+$1052/6f22bc3a.mp3;4,15;13,270
 
 [LINE]
-SpeakerMarko: Marija, ti  si  zaista umorna!    
+Speaker593: Priti, ti  si  zaista umorna!    
 ~             ~       you are really tired~(f)) 
+$1052/7a585c04.mp3;5,125;1,375;3,150;4,125;8,163;7,400;0,500
 
 [LINE]
-Speaker292: Da,  treba~mi još  kafe.   Sa   šećerom, a     ne  sa   soli!
+Speaker560: Da,  treba~mi još  kafe.   Sa   šećerom, a     ne  sa   soli!
 ~           Yes  (I)~need more coffee  With sugar    [and] not with salt 
+$1052/8dd0792b.mp3;2,15;8,435;3,305;4,155;6,250;6,840;10,180;3,775;7,50;4,110;7,140
 
 [MULTIPLE_CHOICE]
-> What happened to Marija?
+> What happened to Priti?
 - She drank coffee with milk.
 - She spilled coffee on her book.
 + She put salt in her coffee.
