@@ -3,125 +3,108 @@ fromLanguageName=One Thing
 icon=717bd84875f83c678f64f124937a278061e0e778
 set=1|3
 
-icon_Speaker103=https://stories-cdn.duolingo.com/image/8dedb551515218979bffa2ba590906d0ed1ee462.svg
-speaker_Speaker102=Kristina
-speaker_Speaker103=Petar
-
 [HEADER]
-> Jedna stvar
-~ One   thing
+> Jedna stvar 
+~ one thing
 
 [LINE]
-> Kristina je kod kuće sa   svojim bratom  Petrom.
-~ ~        is at  home with her    brother ~      
+> Lusi je kući sa njenom unukom Lin.
+~ Lucy is at~home  with her granddaughter  Lin 
 
 [LINE]
-Speaker856: O,  nema        hleba!
-~           Oh  there~is~no bread 
+Speaker509: Treba~mi hleb   za moj sendvič.
+~           I~need   bread for  my sandwich 
+
+[LINE]
+Speaker508: Da~li ideš           u     supermarket?
+~            are~you going to the~supermarket  
+
+[LINE]
+Speaker509: Da. 
+~           yes 
 
 [MULTIPLE_CHOICE]
-> Kristina je~otkrila     da   nema        hleba.
-~ ~        discovered~(f) that there~is~no bread 
-- No, it is~not true.  
-~ Ne  to nije   istina 
-+ Yes, it is true.  
-~ Da   to je istina 
+> Lin and Lucy have a lot of bread.
+- Yes, that's right.
++ No, that's wrong.
 
 [LINE]
-SpeakerSpeaker103: Ideš~li         u  supermarket?    
-~                  Are~(you)~going to the~supermarket 
+Speaker508: Treba~mi jedna stvar  iz supermarketa!
+~            I~need   one thing from the~supermarket  
 
 [LINE]
-Speaker856: Da,  želim    da~napravim sendvič~sa~sirom.
-~           Yes  (I)~want to~make     cheese~sandwich  
+Speaker509: Šta?
+~            what 
 
 [LINE]
-SpeakerSpeaker103: Možeš~li  da~kupiš jednu stvar za  mene?
-~                  Can~(you) buy      one   thing for me   
+Speaker508: Jedan paradajz, molim~te.
+~           one tomato  please    
 
-[MULTIPLE_CHOICE]
-> Petar wants to know if…
-- … he can buy something for Kristina.
-+ … Kristina can buy one thing for him.
-- … they will eat cheese together.
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker508: Treba~mi za [moju~salatu].
+~           I~need~it for my~salad 
+- moje salatu
++ moju salatu
+- moju salate
 
 [LINE]
-Speaker856: Šta  želiš?        
-~           What do~(you)~want 
+Speaker509: U~redu.
+~           Okay        
+
+[LINE]
+Speaker508: Hvala!  
+~            thank~you 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "also."
+Speaker508: A~da! I   (+takođe) (želim) (tri)  (jabuke)…
+~           Oh~yes! and   also      I~want   three   apples    
+
+[LINE]
+Speaker509: U~redu.
+~           Okay          
+
+[LINE]
+Speaker508: … i   sok~od~narandže.
+~             and orange~juice    
+
+[LINE]
+Speaker509: Lin…
+~           Lin 
+
+[LINE]
+Speaker508: … i   mleko.
+~             and milk   
+
+[LINE]
+Speaker509: Lin… Imam  ideju.
+~           Lin  I~have an~idea 
 
 [ARRANGE]
 > Tap what you hear
-SpeakerSpeaker103: [(Paradajz), (molim~te)].
-~                    A~tomato    please     
+Speaker509: [(Izvoli) (pare), (Lin).]
+~             here~is the~money Lin   
 
 [LINE]
-SpeakerSpeaker103: To je za  moju salatu.
-~                  It is for my   salad  
+Speaker508: Šta?! 
+~           what  
 
 [LINE]
-Speaker856: U~redu.
-~           Okay   
+Speaker509: Ja želim jednu stvar  iz      supermarketa: hleb.  
+~           I  want   one thing from the~supermarket   bread 
 
 [MULTIPLE_CHOICE]
-> What does Kristina mean by that?
-- Never.
-+ Okay.
-- Not at all.
-
-[LINE]
-SpeakerSpeaker103: Hvala~ti! 
-~                  Thank~you 
-
-[LINE]
-SpeakerSpeaker103: I   tri   jabuke.
-~                  And three apples 
-
-[LINE]
-Speaker856: Dobro…
-~           Okay… 
-
-[LINE]
-SpeakerSpeaker103: I   sok~od~pomorandže…
-~                  And orange~juice…     
-
-[LINE]
-Speaker856: Petre…               
-~           Petar~(vocative~case)
-
-[LINE]
-SpeakerSpeaker103: …| i   kafu,   molim~te.
-~                  …  and coffee  please   
-
-[LINE]
-Speaker856: Imam     ideju,   bato.                             
-~           (I)~have an~idea  my~little~brother~(vocative~case) 
-
-[POINT_TO_PHRASE]
-> Click on the option meaning "stay."
-Speaker856: (Ja) (+ostajem) kod kuće. (Ti)  (ideš) u  supermarket.    
-~            I     stay     at  home   You   go    to the~supermarket 
-
-[LINE]
-SpeakerSpeaker103: Zašto?
-~                  Why   
-
-[LINE]
-Speaker856: Ja želim samo jednu stvar u       supermarketu    - hleb. 
-~           I  want  just one   thing at~(in) the~supermarket ~ bread 
-
-[MULTIPLE_CHOICE]
-> Kristina decided to…
-- … make a cheese sandwich for Petar.
-+ … stay at home and ask Petar to buy the one thing she wanted: bread.
-- … buy three croissants in the supermarket.
+> Why did Lucy give Lin money?
+- Lin is opening a sandwich shop.
++ She wants Lin to go to the supermarket.
+- Lin is going to a restaurant for lunch.
 
 [MATCH]
 > Tap the pairs
-- zašto <> why
-- to je <> it is
-- možeš li da kupiš? <> can you buy?
-- za mene <> for me
-- paradajz <> tomato
-- sok od pomorandže <> orange juice
-- u redu / dobro <> okay / all right
+- ideja <> idea
+- jedan <> one
+- Ja <> I
+- unuka <> granddaughter
+- molim te <> please
 
