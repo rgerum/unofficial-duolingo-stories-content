@@ -3,137 +3,138 @@ fromLanguageName=A Date
 icon=df24f7756b139f6eda927eb776621b9febe1a3f1
 set=1|2
 
-speaker_Filip=Filip
-speaker_Jovana=Jovana
-speaker_Ana=Ana
-
 [HEADER]
 > Sastanak
-~ A~date  
+~ a~date
 
 [LINE]
-> Jovana je u  restoranu,    ima~sastanak.    
-~ ~      is in a~restaurant  (she)~has~a~date 
+> Bea{Beaa} je na sastanku u restoranu.
+~ Bea is   on a~date in a~restaurant
 
 [LINE]
-Speaker100: Šta  ćeš           jesti? 
-~           What do~(you)~will to~eat 
-
-[MULTIPLE_CHOICE]
-> Jovana's date is asking…
-- … where to find the restaurant.
-- … how much the food costs.
-+ … what Jovana wants to eat.
+Speaker507: Ćao!  Kako si? 
+~            hello   how are~(you) 
 
 [LINE]
-Speaker336: Salatu. 
-~           A~salad 
+Speaker100: Dobro!
+~            good 
 
 [LINE]
-Speaker336: Ne~jedem  meso.
-~           (I)don't~eat meat 
+Speaker100: Šta  želiš     da~jedeš? 
+~            what do~(you)~want to~eat 
 
 [LINE]
-Speaker100: Da~li~si   vegetarijanka? 
-~           Are~(you) vegetarian~(f) 
-
-[LINE]
-Speaker336: Jesam.
-~           Yes   
-
-[LINE]
-Speaker100: I~ja!  
-~           Me~too 
-
-[MULTIPLE_CHOICE]
-> Why did he say that?
-- He hates salads.
-+ He is also a vegetarian.
-- He loves to eat meat.
-
-[LINE]
-Speaker336: O,  sjajno!
-~           Oh  great  
-
-[LINE]
-Speaker336: Jesi~li   Srbin?  
-~           Are~(you) Serbian 
-
-[ARRANGE]
-> Tap what you hear
-Speaker100: [(Nisam), (ja)  (sam) (Nemac)]. 
-~             No       (I)   am    German   
-
-[LINE]
-Speaker100: Moj otac   je Kanađanin, a         moja majka  je Nemica.  
-~           My  father is Canadian   and~(but) my   mother is German~(f) 
-
-[LINE]
-Speaker336: Ja sam Kanađanka!   
-~           I  am  Canadian~(f) 
-
-[LINE]
-Speaker100: Volim    Kanadu!
-~           (I)~love Canada 
+Speaker507: Salatu.
+~           a~salad    
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker100: Da~li~imaš [kućnog ljubimca], Ana?
-~           Do~you~have  a~pet  ~          ~   
-- kućni ljubimac
-- kućnim ljubimcem
-+ kućnog ljubimca
+Speaker507: Danas [imam] važnu~utakmicu.
+~           today I~have  an~important~game      
++ imam
+- imaš
+- ima
 
 [LINE]
-Speaker336: Da,  imam     tri   mačke i…  
-~           Yes  (I)~have three cats  and…
+Speaker100: Aha! Da~li voliš sport?
+~           aha   do~you like sport
 
 [LINE]
-> Jovana je iznenađena.   
-~ ~      is surprised~(f) 
-
-[LINE]
-Speaker336: Ana?! Ja~se~zovem Jovana.
-~           ~     My~name~is  ~      
-
-[LINE]
-Speaker336: A   da~li~se~ti~zoveš Filip?
-~           And is~your~name      ~     
-
-[LINE]
-Speaker100: Ne, ja sam Pavle!
-~           No  I  am  ~     
+Speaker507: Da,  ja igram fudbal.
+~           yes  I  play     soccer 
 
 [MULTIPLE_CHOICE]
-> Jovana and Pavle were supposed to meet different people.
-+ Yes, that's true.
-- No, that's not right.
+> Bea is ordering a salad because…
++ …she is playing soccer today.
+- …her date said the salad is delicious.
+- …she just ate a whole pizza.
 
 [LINE]
-> Jedna žena  stiže   u      restoran.  
-~ A     woman arrives at~the restaurant 
+Speaker100: I~ja!
+~            me~too     
 
 [LINE]
-Speaker101: Ćao! Jesi~li Pavle? Ja sam Ana.
-~           Hi   Are~you ~      I  am  ~   
+Speaker507: Super!
+~            great 
 
 [LINE]
-Speaker100: Ne…| ja~se~zovem Filip.
-~           No…  my~name~is  ~     
+Speaker507: Odakle~si?
+~           where~are~you~from 
+
+[LINE]
+Speaker100: Ja~sam Amerikanac.
+~           I~am American  
+
+[ARRANGE]
+> Tap what you hear
+Speaker100: [(Moj~otac)  (je~iz~Kube,)   (a)   (moja~majka)  (je~iz~Meksika).]  
+~             my~father   is~from~Cuba   and   my~mother   is~from~Mexico   
+
+[LINE]
+Speaker507: Ja volim Kubu!
+~            I love     Cuba 
+
+[LINE]
+Speaker100: Kuba je vrlo lepa.   
+~           Cuba is very beautiful 
+
+[LINE]
+Speaker507: Da~li imaš ljubimca?
+~            do~you have a~pet  
+
+[LINE]
+Speaker100: Imam  dve mačke i psa.
+~           (I)~have two cats and a~dog   
+
+[POINT_TO_PHRASE]
+> Choose the option that means "also."
+Speaker507: Aleks, (ja) (+takođe) (imam) (psa).
+~           Aleks(name)  I    also      have   a~dog  
+
+[LINE]
+Speaker100: Šta? Moje~ime~je Daniel…
+~            What  my~name~is  Daniel 
+
+[LINE]
+Speaker100: Ti nisi Gabriela?
+~            you are~not Gabriela 
+
+[LINE]
+Speaker507: Ne! Ja nisam Gabriela.
+~            no I am~not Gabriela
+
+[LINE]
+Speaker507: Moje~ime~je Bea!
+~            my~name~is  Bea 
 
 [MULTIPLE_CHOICE]
-> At the end of the story, Pavle…
-- … was tired of talking to Jovana.
-+ … lied to his real date because he likes Ivana.
-- … met someone named Filip.
+> Did you catch that? Bea and Daniel…
+- …bought tickets to Cuba.
++ …were supposed to meet different people.
+- …are walking their dogs.
+
+[LINE]
+> Žena šeta do   Daniela.
+~ a~woman walks  towards Daniel 
+
+[LINE]
+Speaker101: Ćao!  da~li~si~ti    Daniel? Ja~sam  Gabriela.
+~            hello   are~you Daniel  I~am Gabriela 
+
+[LINE]
+Speaker100: Ne, izvini. Ja~sam  Aleks.
+~           no  I'm~sorry  I~am Aleks(name) 
+
+[MULTIPLE_CHOICE]
+> Whoa! What just happened?
+- Bea changed her name to Gabriela.
++ Daniel lied to his real date because he likes Bea.
+- Bea and Daniel's dogs played soccer.
 
 [MATCH]
 > Tap the pairs
-- mačke <> cats
-- da <> yes
-- ja <> I
-- meso <> meat
-- zovem se <> my name is
-- Kanađanin/Kanađanka <> Canadian (m/f)
-- Srbin <> Serbian
-
+- i <> and
+- ja sam <> I am
+- salata <> salad
+- ti nisi <> you are not
+- izvini <> sorry
