@@ -3,144 +3,134 @@ fromLanguageName=The Honeymoon
 icon=7e5d271488d31d6f1d0c503512e642ca7effe84f
 set=1|6
 
-speaker_Speaker113=Janko
-speaker_Speaker111=Lana
-speaker_Speaker112=Maja
-
 [HEADER]
-> Medeni~mesec 
-~ The~honeymoon
+> Medeni~mesec
+~ honeymoon      
 
 [LINE]
-> Lana je u  taksiju.
-~ ~    is in a~taxi  
+> Ana je u taksiju.
+~ Ana is   in a~taxi  
 
 [LINE]
-Speaker113: Zdravo, dobro~jutro. 
-~           hello   good~morning 
+Speaker113: Dobro~jutro. 
+~           good~morning 
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker439: Zdravo,  treba~|   [da~idem~na~aerodrom],   molim~Vas.      
-~           hello    (I)~need   to~go~to~the~airport    please~(formal) 
-- da idem u selo
-- da idem u centar grada
-+ da idem na aerodrom
+Speaker343: Zdravo,  moram [da~idem~do~aerodroma],     molim~vas.
+~           hello  I~need    to~go~to~the~airport   please~(formal)    
++ da idem do aerodroma
+- idem do aerodrom da
+- do aerodrom idem da
 
 [LINE]
-Speaker113: Dobro.
-~           okay  
+Speaker113: Okej.
+~           OK        
 
 [LINE]
-Speaker113: Odmor?   
-~           vacation 
+Speaker113: Odmor?
+~            vacation   
 
 [LINE]
-Speaker439: Ne, nije        odmor.   
-~           No  (it)~is~not vacation 
+Speaker343: Nije odmor. 
+~           not a~vacation 
+
+[ARRANGE]
+> Tap what you hear
+Speaker343: [(Imam)  (tiket) (do) (Beograda).]
+~             I~have   a~ticket    to    Belgrade   
 
 [LINE]
-Speaker439: Imam     kartu    za Beograd. 
-~           (I)~have a~ticket to Belgrade 
+Speaker343: Zapravo… dva tiketa.
+~           actually   two tickets 
+
+[LINE]
+Speaker113: Beograd je moj omiljen~grad! Vrlo~je lep!   
+~            Belgrade is my favorite~city     it's~very beautiful 
+
+[LINE]
+Speaker343: To~je   moj medeni~mesec…
+~           it's my honeymoon    
 
 [MULTIPLE_CHOICE]
-> Lana has a plane ticket to Belgrade, but she is not on vacation.
-+ Yes, that is true.
-- No, that is not right.
+> Why is Ana going to Belgrade?
++ She's going on her honeymoon.
+- She is learning how to dance.
+- She is getting married there.
 
 [LINE]
-Speaker439: Zapravo...   dve karte.  
-~           Actually…    two tickets 
+Speaker113: Aha. Gde je vaš   muž? 
+~           Aha   where is   your husband 
 
 [LINE]
-Speaker113: Beograd je moj omiljeni grad! Veoma~je~lep!       
-~           ~       is my  favorite city  (it)~is~very~pretty 
+Speaker343: Ja~nemam     muža.    Imam vrlo~tešku~ženu! 
+~           I~don't~have a~husband   I~have a~very~difficult~wife 
 
 [LINE]
-Speaker439: To je moj medeni~mesec…
-~           it is my  honeymoon…   
+Speaker343: Neće~da~ide    do     Beograda samnom.
+~           she~doesn't~want~to~go to Belgrade with~me 
 
 [MULTIPLE_CHOICE]
-> Why is Lana going to Belgrade?
-+ She is going on her honeymoon.
-- She is going to a funeral.
-- She is going to move there.
+> Oh no! Ana's wife…
+- …forgot to pack her sunscreen.
+- …is already in Belgrade.
++ …doesn't want to go to Belgrade with her.
 
 [LINE]
-Speaker113: Gde   je Vaš           muž?    
-~           where is your~(formal) husband 
-
-[LINE]
-Speaker439: Nemam          muža,    već        ženu.   Ona je vrlo   teška     osoba. 
-~           (I)~don't~have husband  but~rather a~wife  She is a~very difficult person 
-
-[LINE]
-Speaker439: Ona ne~želi      da~ide u  Beograd sa~mnom.
-~           she doesn't~want to~go  to ~       with~me 
-
-[MULTIPLE_CHOICE]
-> Lana's wife…
-+ … does not want to go to Belgrade with her.
-- … is in the taxi with her.
-- … is already in Belgrade.
-
-[LINE]
-Speaker439: Veoma~sam~tužna.    
-~           (I)~am~very~sad~(f) 
+Speaker343: Vrlo sam  tužna.
+~           I~am  very sad    
 
 [LINE]
 Speaker113: Žao~mi~je.
 ~           I'm~sorry 
 
 [LINE]
-Speaker113: No,   mi smo na      aerodromu.  
-~           well  we are in~(on) the~airport 
+Speaker113: Stigli~smo. Mi~smo na aerodromu!
+~           we~got~here we~are  at the~airport   
 
 [POINT_TO_PHRASE]
-> Click on the option meaning "runs."
-> Jedna (žena)  sa   (koferom)     (+trči) prema  (taksiju). 
-~ a      woman  with  a~suitcase     runs  toward  the~taxi  
+> Choose the option meaning "runs."
+> (Žena) (sa)  koferom (+trči) prema (taksiju).
+~  a~woman     with  a~suitcase   runs   towards~the      taxi  
 
 [LINE]
-Speaker439: Majo?                
-~           Maja~(vocative~case) 
+Speaker343: Selma?
+~            Selma 
 
 [LINE]
-Speaker1186: Lana!
+Speaker342: Ana!
+~            Ana 
 
 [LINE]
-Speaker1186: Tako~mi~je~žao!
-~            I'm~so~sorry   
+Speaker342: Vrlo~mi~je~žao
+~            I'm~so~sorry    
 
 [LINE]
-Speaker1186: Volim~te.    
-~            (I)~love~you 
+Speaker342: Volim~te
+~           I~love~you 
 
 [LINE]
-Speaker439: I~ja~tebe~volim.
-~           I~also~love~you 
+Speaker343: I ja~volim~tebe
+~           I  love~you~too      
 
 [LINE]
-Speaker1186: Hajde~da~idemo u  Beograd!
-~            let's~go       to ~       
+Speaker342: Idemo~do Beograda!
+~            let's~go~to Belgrade 
 
 [LINE]
-Speaker113: Uživajte~u~medenom~mesecu!
-~           enjoy~[your]~honeymoon    
+Speaker113: Uživajte na vašem medenom~mesecu!
+~            enjoy (on) your honeymoon    
 
 [MULTIPLE_CHOICE]
-> What happened when Lana got to the airport?
-+ Her wife, Maja, apologized and told her she loved her.
-- Her taxi driver agreed to go on vacation with her.
-- Her wife, Maja, called her on the phone.
+> What will happen next?
+- Ana will start her new job at the airport.
+- Ana and the taxi driver will go to Belgrade together.
++ Ana and her wife, Selma, will go to Belgrade together.
 
 [MATCH]
 > Tap the pairs
-- ona <> she
-- dobro jutro <> good morning
-- Vaš <> your (formal)
-- medeni mesec <> honeymoon
-- karta <> ticket
-- odmor <> vacation
-- tužna <> sad (f)
-
+- Ja sam <> I am
+- Volim te <> I love you
+- vrlo teška žena <> very difficult wife
+- Zdravo <> hello
+- taksi <> taxi
