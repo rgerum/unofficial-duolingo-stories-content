@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=¿Necesita ayuda?
+icon=3353b2d2d326875fc3ab76228fda57149bcd012a
+set=9|4
+
+[HEADER]
+> Need~Help?     
+~ necesita~ayuda 
+
+[LINE]
+> Lin is~walking     on a   road.     
+~ Lin está~caminando en una carretera 
+
+[SELECT_PHRASE]
+> Completa la oración
+> She  sees a  man    [near~his~car].     
+~ ella ve~a un hombre  cerca~de~su~carro  
+- hear his car
+- near this bar
++ near his car
+
+[LINE]
+> He looks unhappy.
+~ él se~ve triste  
+
+[LINE]
+Speaker508: Hi!   Do~you~need~help?
+~           hola  necesita~ayuda   
+
+[CONTINUATION]
+> ¿Qué sigue?
+Speaker127: There~is a  problem  with [my car].  
+~           hay      un problema con   mi carro  
+- the weather
+~ el  clima  
++ my car  
+~ mi carro
+- my coffee
+~ mi café  
+
+[LINE]
+Speaker127: Can~I~use  your phone,    please?   
+~           puedo~usar su   teléfono  por~favor 
+
+[LINE]
+> Lin gives her phone    to~the man.   
+~ Lin le~da su  teléfono al     hombre 
+
+[LINE]
+Speaker508: Sure,         but… 
+~           por~supuesto  pero 
+
+[LINE]
+Speaker127: Sorry,     one minute.
+~           lo~siento  un  minuto 
+
+[LINE]
+> The man    uses Lin's~phone.       
+~ el  hombre usa  el~teléfono~de~Lin 
+
+[LINE]
+Speaker127: Yes, is this the auto~repair~shop?
+~           sí   es este el  taller~mecánico  
+
+[MULTIPLE_CHOICE]
+> El hombre le pidió prestado el teléfono a Lin para…
++ … llamar a un taller mecánico.
+- … ver sus fotos.
+- … ver la hora.
+
+[LINE]
+Speaker127: I  have  a  car~problem.          
+~           yo tengo un problema~con~el~carro 
+
+[LINE]
+Speaker508: Uh… Sir?  
+~           eh  señor 
+
+[LINE]
+> The man    continues talking  on~the~phone.
+~ el  hombre sigue     hablando por~teléfono 
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker127: No, I  don't~know [where~I~am]. 
+~           no  yo no~sé       dónde~estoy  
+- here I am
+- where I ran
++ where I am
+
+[LINE]
+Speaker127: Excuse~me, miss…    
+~           disculpe   señorita 
+
+[LINE]
+Speaker508: Yes?
+~           sí  
+
+[LINE]
+Speaker127: Where are~we? 
+~           dónde estamos 
+
+[LINE]
+Speaker508: Near~the  auto~repair~shop!
+~           cerca~del taller~mecánico  
+
+[LINE]
+Speaker127: What?
+~           qué  
+
+[ARRANGE]
+> Escucha y selecciona las palabras
+Speaker508: [(I)  (work)    (there) (on~weekends).]        
+~             yo   trabajo   ahí     los~fines~de~semana   
+
+[LINE]
+Speaker508: I'm a~mechanic!    
+~           soy (una)~mecánica 
+
+[LINE]
+Speaker508: So…      do~you~need~help?
+~           así~que  necesita~ayuda   
+
+[MULTIPLE_CHOICE]
+> Resulta que Lin…
+- … necesita ayuda para comprar un teléfono nuevo.
+- … no sabe dónde está.
++ … trabaja en el taller mecánico.
+
+[MATCH]
+> Selecciona los pares
+- Excuse me <> disculpe
+- is <> es
+- gives <> le da
+- but <> pero
+- So <> así que
+
