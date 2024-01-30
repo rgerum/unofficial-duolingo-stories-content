@@ -15,18 +15,19 @@ set=1|3
 Speaker509: Ay, manam! Tantatam sándwichniypaq munachkani.
 ~           ay  no     pan      para~mi~sándwich necesito
 
+# TODO
 [LINE]
-Speaker508: ¿Vas           al     supermercado?
-~            are~you~going to~the supermarket  
+Speaker508: Qatu wasita rinkichu?
+~¿Vas           al     supermercado?
 
 [LINE]
-Speaker509: Sí. 
-~           yes 
+Speaker509: Arí.
+~           sí
 
 [MULTIPLE_CHOICE]
-> Lin and Lucy have a lot of bread.
-- Yes, that's right.
-+ No, that's wrong.
+> Lin y Lucy tienen mucho pan.
++ No, no es así.
+- Sí, así es.
 
 [LINE]
 Speaker508: ¡Ah, necesito una cosa  del      supermercado!
@@ -41,7 +42,7 @@ Speaker508: Un  tomate, por~favor.
 ~           one tomato  please    
 
 [SELECT_PHRASE]
-> Select the missing phrase
+> Completa la oración
 Speaker508: Es   para [mi~ensalada].
 ~           it's for   my~salad     
 - linda y salada
@@ -82,7 +83,7 @@ Speaker509: Mmm… tengo  una idea.
 ~           hmm  I~have an  idea 
 
 [ARRANGE]
-> Tap what you hear
+> Escucha y selecciona las palabras
 Speaker509: [(Aquí) (está) (el)  (dinero), (Lin).]
 ~             here   is     the   money     Lin   
 
@@ -95,10 +96,10 @@ Speaker509: Yo quiero una cosa  del      supermercado: pan.
 ~           I  want   one thing from~the supermarket   bread 
 
 [MULTIPLE_CHOICE]
-> Why did Lucy give Lin money?
-- Lin is opening a sandwich shop.
-+ She wants Lin to go to the supermarket.
-- Lin is going to a restaurant for lunch.
+> ¿Por qué Lucy le dio dinero a Lin?
+- Lin está abriendo una tienda de sándwiches.
++ Ella quiere que Lin vaya al supermercado.
+- Lin va a ir a un restaurante a almorzar.
 
 [MATCH]
 > Tap the pairs
