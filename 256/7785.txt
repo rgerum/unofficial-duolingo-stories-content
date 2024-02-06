@@ -8,16 +8,16 @@ set=4|3
 ~ ropas     para~las~vacaciones
 
 [LINE]
-> Lucyqa rantina wasipim kachkan.
-~ Lucy is   at a   store  
+> Lucyqa rantina~wasipim kachkan.
+~ Lucy   en~una~tienda   está
 
 [LINE]
 Speaker416: Imaynallam, yanapanatachu munanki?
-~           hello   you~need help  
+~           qué~tal     ayuda         necesitas
 
 [LINE]
-Speaker509: Arí, pachakunatam samanay punchawpi munani.
-~           yes  I~need   clothes for  my  vacation   
+Speaker509: Arí, pachakunatam samanay~punchawpi munani.
+~           sí   ropas        para~las~vacaciones quiero
 
 [MULTIPLE_CHOICE]
 > Lucy está comprando ropa para sus vacaciones.
@@ -26,66 +26,69 @@ Speaker509: Arí, pachakunatam samanay punchawpi munani.
 
 [LINE]
 Speaker416: Allinmi.
-~           OK        
+~           bien
 
 [LINE]
 Speaker509: Musuq pachatam munani.
-~           I~need   a  dress   
+~           nuevo vestido  quiero
 
 [LINE]
-> Lilyqa qumir pachatam munan.
-~ Lily looks~for a  green~dress   
+> Lilyqa qumir pachatam maskan.
+~ Lily   verde vestido  busca
 
 [MULTIPLE_CHOICE]
-> Lily is getting a…
-+ …green dress.
-- …red dress.
-- …green hat.
+> ¿Qué necesita Lucy?
+- una falda larga y verde
++ un vestido rojo y corto
+- un carro marrón nuevo
 
 [LINE]
 Speaker509: Manam, ñuqaqa puka pachatam munani.
-~            no  I  want   a  red~dress    
+~           no     yo     rojo vestido  quiero
 
 [LINE]
 > Lilyqa puka pachatam maskan.
-~ Lily looks~for a  red~dress    
+~ Lily   rojo vestido  busca
 
+# TODO qué es un munillu? no es una blusa?
 [LINE]
 Speaker509: Huk munillutam munani.
-~           and I~want a   jacket   
+~           una chaqueta   quiero
 
+# TODO qué es un munillu? no es una blusa?
 [ARRANGE]
 > Escucha y selecciona las palabras
-> [(Puka) (munillutam) (maskan).]
-~   Lily   looks~for   a     red~jacket      
+> [(Lilyqa) (puka) (munillutam) (maskan).]
+~   Lily    rojo    chaqueta     busca
 
 [LINE]
 Speaker509: Manam, ñuqaqa chumpi munillutam munani.
-~            no  I  want   a   brown~jacket    
+~           no     yo     marrón chaqueta   quiero
 
 [LINE]
 Speaker416: Allinmi kan…
-~           OK        
+~           bien    es
 
+# todo munillu
 [LINE]
 Speaker509: Huk puka pachata, huk chumpi munilluta…
-~           a  red~dress     a   brown~jacket    
+~           un  rojo vestido  un  marrón chaqueta
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker509: ¡[Huk~lupichutawan!]!
+Speaker509: [Huk~lupichutawan]!
 ~             y~un~sombrero
-- Y un bombero
-- Y un obrero
-+ Y un sombrero
+- Huk wasitawan
+- Imaynallam
++ Huk lupichutawan
 
 [LINE]
-> Lilyqa Anqas lupichuta maskan.
-~ Lily looks~for a  blue~hat      
+> Lilyqa anqas lupichuta maskan.
+~ Lily   azúl  sombrero  busca
 
 [LINE]
 Speaker509: Manam, ñuqaqa qusni lupichutam munani!
-~            no  I  want   a  gray~hat      
+~           no     yo     gris
 
 [LINE]
 > Lilyqa Huk usni lupichuta maskan.
