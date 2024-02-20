@@ -18,29 +18,30 @@ set=3|1
 
 [LINE]
 Speaker338: Rimaykullayki!
-~           good~morning 
+~           hola~("te~saludo")
 
 [LINE]
 Speaker593: Chaskikullayki!
-~           good~morning 
+~           hola~("te~recibo")
 
+# TODO llamkanki o chu
 [LINE]
 Speaker338:  Qam kaypi llamkanki?
-~            do~you~work   here 
+~            tú  aquí  trabajas
 
 [MULTIPLE_CHOICE]
-> A woman asks Vikram if he works at the store.
-+ Yes, that's right.
-- No, that's wrong.
+> Una mujer en una tienda le dice adiós a Vikram.
+- Sí, así es.
++ No, no es así.
 
 [LINE]
 Speaker593: Ñuqa...
 ~           yo
 
 [POINT_TO_PHRASE]
-> Choose the option that means "que me ayudes."
+> Selecciona la opción que significa "que me ayudes."
 Speaker338:  (Allinmi)! (+Yanapawanaykitam) (munani).
-~             perfect     I~need      help   
+~             bien        que~me~ayudes      necesito
 
 [LINE]
 Speaker593: Ichaqa…
@@ -52,37 +53,40 @@ Speaker338: Munanim musuq rakta pachata
 
 [LINE]
 Speaker338:  Puka pachata munankichu?
-~            do~you~like the~red~one 
+~            rojo abrigo  te~gusta
 
 [MULTIPLE_CHOICE]
-> The woman asks Vikram if he…
-- …wants a new coat.
-- …likes working at the store.
-+ …likes the red coat.
+> La mujer le pregunta a Vikram si a él…
+- …le gustaría un abrigo nuevo.
+- …le gusta trabajar en la tienda.
++ …le gusta el abrigo rojo.
 
 [LINE]
 Speaker593: Qamqa…
-~           usted
+~           tú
 
+# TODO qusni o chumpi?
 [LINE]
 Speaker338:  Ichá, kay qusnitachu munanki?
-~            or do~you~prefer the~brown~one 
+~            o     este marrón    quieres
 
 [LINE]
 Speaker593: Ariyá…
 ~           sí
 
+# TODO kamallay
 [LINE]
-Speaker593: Chay rakta qusniqa kamallaymi, chaninqa pisi qullqillam.
-~           the brown~coat    is comfortable and cheap  
+Speaker593: Chay rakta qusniqa kamallaymi, chaninqa pisi~qullqillam.
+~           ese  grueso marrón  ????       su~precio baratito
 
+# TODO aswanqa
 [LINE]
 Speaker593: Aswanqa kay pukacham sumaqcha.
-~           but  the~red~one is very pretty 
+~           ???     este rojito  bonitito
 
 [LINE]
 Speaker593: Kuyallapaqmi!
-~            and it's elegant  
+~           (es)~hermoso
 
 [ARRANGE]
 > Tap what you hear
