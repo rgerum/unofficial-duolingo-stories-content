@@ -1,0 +1,130 @@
+[DATA]
+fromLanguageName=My Leg Hurts
+icon=e03c9c686e0856f66bc51a3f912c8be470a7f18b
+set=31|1
+
+[HEADER]
+> Me~duele~la~pierna
+~ my~leg~hurts      
+
+[LINE]
+> Bea abre  la  puerta de su  casa.  Ella ve~a Eddy parado   sobre una~pierna.
+~ Bea opens the door   of her house  she  sees Eddy standing on    one~leg    
+
+[LINE]
+Speaker414: Me~duele~la~pierna. ¿Me~puedes~llevar al     médico?
+~           my~leg~hurts         can~you~take~me  to~the doctor 
+
+[LINE]
+Speaker507: ¡Por~supuesto!
+~            of~course    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+> Bea y   Eddy [se~suben~al~carro~de~Bea].
+~ Bea and Eddy  get~in~Bea's~car          
+- se suben al barro de Bea
++ se suben al carro de Bea
+- no saben si el carro de Bea
+
+[LINE]
+Speaker414: ¡Espera! Olvidé   ir~por~Junior~a~la~escuela.    ¿Podemos ir?     
+~            wait    I~forgot to~pick~up~Junior~from~school   can~we  (to)~go 
+
+[LINE]
+Speaker507: Por~supuesto.
+~           of~course    
+
+[MULTIPLE_CHOICE]
+> Where do Bea and Eddy need to go first?
++ Junior's school
+- the bakery
+- the leg store
+
+[LINE]
+> Bea y   Eddy buscan~a~Junior~en~la~escuela.
+~ Bea and Eddy pick~up~Junior~from~school    
+
+[LINE]
+Speaker414: ¿Podemos ir~a       la  oficina~de~correos también?
+~            can~we  (to)~go~to the post~office        too     
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: ¿[No~te~duele~la~pierna]?
+~             doesn't~your~leg~hurt  
+- No te duele la piel ya
+- No te dieron la pierna
++ No te duele la pierna
+
+[LINE]
+Speaker414: Sí,  pero tengo~que buscar       un paquete~muy~grande.
+~           yes  but  I~have~to (to)~pick~up a  very~big~package   
+
+[LINE]
+Speaker507: Aah… está~bien.
+~           aah  OK        
+
+[LINE]
+Speaker415: ¡Mira, Burgermanía está vacío! ¡No~hay~nadie    esperando afuera! 
+~            look  Burgermanía is   empty   there~is~no~one waiting   outside 
+
+[ARRANGE]
+> Tap what you hear
+> [(Junior) (señala)    (un) (restaurante).]
+~   Junior   points~at   a    restaurant    
+
+[LINE]
+Speaker414: Las hamburguesas ahí   son deliciosas, pero el  restaurante siempre~está lleno. ¡Vamos!   
+~           the hamburgers   there are delicious   but  the restaurant  is~always    full    let's~go 
+
+[CONTINUATION]
+> What comes next?
+Speaker507: Pero tienes~que  ver      [a~un~médico]…
+~           but  you~have~to (to)~see  a~doctor     
+- a~tu novia     
+~ your girlfriend
++ a~un~médico
+~ a~doctor   
+- esta película
+~ this movie   
+
+[POINT_TO_PHRASE]
+> Choose the option that means "miracle."
+Speaker415: ¡(Pero) (está) (vacío)! ¡Es   un (+milagro)!
+~             but    it's   empty    it's a    miracle  
+
+[LINE]
+> Más~tarde, Eddy, Junior y   Bea están en el  restaurante.
+~ later      Eddy  Junior and Bea are   in the restaurant  
+
+[LINE]
+Speaker507: Guau, es   verdad… ¡esa  hamburguesa estaba deliciosa!
+~           wow   it's true     that hamburger   was    delicious 
+
+[LINE]
+Speaker414: Sí,  pero creo    que  debemos ir~a    ver~al       médico ahora.
+~           yes  but  I~think that we~must (to)~go (to)~see~the doctor now   
+
+[LINE]
+Speaker507: ¿Todavía~te~duele~la~pierna?
+~            your~leg~still~hurts       
+
+[LINE]
+Speaker414: No, ahora me~duele~el~estómago. Creo    que  comí  demasiadas hamburguesas.
+~           no  now   my~stomach~hurts      I~think that I~ate too~many   hamburgers   
+
+[MULTIPLE_CHOICE]
+> Eddy's leg doesn't hurt anymore, but now…
+- …Bea hurt her leg.
+- …he needs a shower.
++ …his stomach hurts.
+
+[MATCH]
+> Tap the pairs
+- Más tarde <> later
+- ve a <> sees
+- ir <> go
+- esa <> that
+- y <> and
+
