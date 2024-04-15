@@ -1,0 +1,147 @@
+[DATA]
+fromLanguageName=The Hacker
+icon=a22fead6c7883506dab25f8e6ea7c66c0f406c7c
+set=36|4
+
+[HEADER]
+> El  hacker
+~ the hacker
+
+[LINE]
+> Bea entra~al apartamento~de~Eddy.
+~ Bea enters   Eddy's~apartment    
+
+[LINE]
+Speaker414: ¡Gracias   por~venir! 
+~            thank~you for~coming 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: ¡Por~supuesto! [Dijiste~que~tenías] un problema con  tu~computadora, ¿verdad?
+~            of~course      you~said~you~had    a  problem  with your~computer    right  
+- Diste el que tenías
++ Dijiste que tenías
+- Dijiste que venías
+
+[LINE]
+Speaker414: ¡Sí! 
+~            yes 
+
+[LINE]
+Speaker507: ¿Qué  pasó?    
+~            what happened 
+
+[LINE]
+Speaker414: Bueno… ¿sabes    qué  es un "hacker"?
+~           well    you~know what is a   hacker  
+
+[LINE]
+Speaker414: Es   una persona que  cambia  cosas  en las~computadoras.
+~           it's a   person  that changes things on computers        
+
+[LINE]
+Speaker507: Sí,  Eddy, yo sé.   Entonces, dime,    ¿cuál  es el  problema?
+~           yes  Eddy  I  know  then      tell~me   which is the problem  
+
+[POINT_TO_PHRASE]
+> Choose the option that means "resume."
+Speaker414: (Intenté) (imprimir) mi (+currículum), pero ¡(no~pude)!   
+~            I~tried   to~print  my   résumé       but    I~couldn't  
+
+[LINE]
+Speaker414: Y   ahora no~lo~encuentro en la  computadora.
+~           and now   I~can't~find~it on the computer    
+
+[LINE]
+Speaker414: Creo    que  el  hacker lo~borró.  
+~           I~think that the hacker deleted~it 
+
+[MULTIPLE_CHOICE]
+> Eddy thinks…
+- …someone stole his computer.
+- …Bea ate his breakfast.
++ …a hacker deleted his resume.
+
+[LINE]
+Speaker507: ¿Puedo~ver?
+~            I~can~see 
+
+[LINE]
+> Bea busca     el  currículum en la~computadora~de~Eddy.
+~ Bea looks~for the résumé     on Eddy's~computer        
+
+[LINE]
+Speaker507: Encontré un archivo que  se~llama  "mi currículum".
+~           I~found  a  file    that is~called  my résumé      
+
+[LINE]
+> Bea abre  el  archivo. Eddy lo~ve   en la  computadora.
+~ Bea opens the file     Eddy sees~it on the computer    
+
+[LINE]
+Speaker414: Sí,  parece        mi currículum.
+~           yes  it~looks~like my résumé     
+
+[MULTIPLE_CHOICE]
+> It looks like Bea found…
+- …a computer virus.
+- …a picture of Eddy.
++ …Eddy's resume.
+
+[LINE]
+Speaker507: Y   ya~sé          por~qué tu~impresora no~funciona. 
+~           and I~already~know why     your~printer doesn't~work 
+
+[LINE]
+> Bea conecta  la  impresora a  la  computadora.
+~ Bea connects the printer   to the computer    
+
+[LINE]
+Speaker507: ¡No~estaba conectada!
+~            it~wasn't connected 
+
+[LINE]
+Speaker414: Mmm… Probablemente~fue Junior.
+~           hmm  it~was~probably   Junior 
+
+[CONTINUATION]
+> What comes next?
+> Bea imprime el  [currículum y   lo~mira].    
+~ Bea prints  the  résumé     and looks~at~it  
+- una foto~de~Eddy   
+~ a   picture~of~Eddy
+- la~impresora
+~ the~printer 
++ currículum y   lo~mira    
+~ résumé     and looks~at~it
+
+[LINE]
+Speaker507: Eddy, tu~currículum está lleno de errores. 
+~           Eddy  your~résumé   is   full  of mistakes 
+
+[LINE]
+Speaker414: Yo creo  que  el  hacker lo~cambió. 
+~           I  think that the hacker changed~it 
+
+[LINE]
+Speaker507: Mmm… ¿Sabes    que  tu~currículum dice que  eres    bueno con  las~computadoras?
+~           hmm   you~know that your~résumé   says that you~are good  with computers        
+
+[LINE]
+Speaker414: Sí,  sin~duda fue    el  hacker.
+~           yes  no~doubt it~was the hacker 
+
+[MULTIPLE_CHOICE]
+> Eddy thought his computer was hacked…
+- …so he called the police.
+- …and he ended up losing all his data.
++ …but he's just bad with technology.
+
+[MATCH]
+> Tap the pairs
+- lleno <> full
+- abre <> opens
+- Encontré <> I found
+- dime <> tell me
+- Probablemente fue <> it was probably
+
