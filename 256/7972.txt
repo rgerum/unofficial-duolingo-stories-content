@@ -1,0 +1,134 @@
+[DATA]
+fromLanguageName=Who's Coming to Dinner?
+icon=dc357430b977e970c350bd02c026ab07731f28f3
+set=32|3
+
+[HEADER]
+> ¿Quién viene~a~cenar?      
+~  who   is~coming~to~dinner 
+
+[LINE]
+> Lucy está~haciendo una~sopa. Lin entra~a la~cocina.  
+~ Lucy is~making     a~soup    Lin enters  the~kitchen 
+
+[LINE]
+Speaker509: ¿Adivina quién viene~a~cenar       esta~noche?
+~            guess   who   is~coming~to~dinner tonight    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker508: Estás~haciendo tu   [famosa~sopa~de~pescado], así~que tiene~que ser     alguien especial.
+~           you're~making  your  famous~fish~soup         so      it~must   (to)~be someone special  
+- famosa zona de mercado
++ famosa sopa de pescado
+- hermosa copa de pescado
+
+[LINE]
+Speaker509: Sí,  es   alguien muy  especial.
+~           yes  it's someone very special  
+
+[LINE]
+Speaker508: ¿Tu   amiga?  ¿La  actriz~famosa? 
+~            your friend   the famous~actress 
+
+[LINE]
+Speaker509: No, ella está~trabajando en una~película ahora~mismo.
+~           no  she  is~working      on a~movie      right~now   
+
+[MULTIPLE_CHOICE]
+> The famous actress is coming to dinner.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker509: Es   alguien más  importante. No~puedes cenar            en piyama,  Lin.
+~           it's someone more important   you~can't (to)~have~dinner in pajamas  Lin 
+
+[LINE]
+Speaker508: ¿Más  importante? Está~bien, voy~a~ponerme       otra~cosa.     
+~            more important   it's~OK    I'm~going~to~put~on something~else 
+
+[MULTIPLE_CHOICE]
+> Hmm… it sounds like Lin is currently wearing…
+- …a swimsuit.
+- …a beautiful dress.
++ …pajamas.
+
+[LINE]
+> Lin va~a    su  habitación y   se~pone unos~jeans      y   una~camiseta.
+~ Lin goes~to her room       and puts~on a~pair~of~jeans and a~T-shirt    
+
+[LINE]
+Speaker508: ¿Es    tu   amigo  Víctor? Fue     a  tomar     fotos    de caballos~salvajes en Argentina, ¿no?        ¿Ya~regresó?    
+~            is~it your friend Víctor  he~went to (to)~take pictures of wild~horses       in Argentina   didn't~he   is~he~back~yet 
+
+[LINE]
+Speaker509: No, y   ahora está  en la~India tomando fotos    de leones.
+~           no  and now   he~is in India    taking  pictures of lions  
+
+[ARRANGE]
+> Tap what you hear
+Speaker508: ¿[(La~astronauta) (que) (trabajó) (contigo)?] 
+~              the~astronaut   who   worked    with~you   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: No, ella [se~está~preparando] para        ir      a  la  Luna.
+~           no  she   is~getting~ready    in~order~to (to)~go to the Moon 
++ se está preparando
+- lo está reparando
+- te está comparando
+
+[LINE]
+Speaker508: Abue,    espera… ¿esta persona viene     a  conocerme~a~mí?
+~           Grandma  wait     this person  is~coming to (to)~meet~me   
+
+[LINE]
+Speaker508: No~necesito  tu   ayuda para        encontrar una~cita, ¿sabes?   
+~           I~don't~need your help  in~order~to (to)~find a~date     you~know 
+
+[LINE]
+Speaker509: Lo~sé. 
+~           I~know 
+
+[LINE]
+> Alguien toca~a    la~puerta. Es   Francisco, un~amigo de Lucy.  
+~ someone knocks~on the~door   it's Francisco  a~friend of Lucy's 
+
+[LINE]
+Speaker509: Lin, este es Francisco. Él ayuda~a la~gente a~escribir sus   currículums.
+~           Lin  this is Francisco  he helps   people   (to)~write their resumes     
+
+[LINE]
+Speaker113: Hola,  Lin. Tu   abuela      cree   que  necesitas mi ayuda.
+~           hello  Lin  your grandmother thinks that you~need  my help  
+
+[CONTINUATION]
+> What comes next?
+Speaker113: Ella me~dijo que  [tienes~que  encontrar un~trabajo].
+~           she  told~me that  you~have~to (to)~find a~job       
+- vives    en la~Luna 
+~ you~live on the~Moon
+- tienes   un pez~mascota
+~ you~have a  pet~fish   
++ tienes~que  encontrar un~trabajo
+~ you~have~to (to)~find a~job     
+
+[LINE]
+Speaker508: Ay… me~voy~a~poner      mi pijama  otra~vez.
+~           oh  I'm~going~to~put~on my pajamas again    
+
+[MULTIPLE_CHOICE]
+> Why is Lin putting her pajamas back on?
+- She wants to look nice for her date.
+- Her pajamas make her look like an astronaut.
++ The dinner guest is just someone to help her find a job.
+
+[MATCH]
+> Tap the pairs
+- currículums <> resumes
+- una película <> a movie
+- viene a cenar <> is coming to dinner
+- encontrar <> find
+- ahora mismo <> right now
+
