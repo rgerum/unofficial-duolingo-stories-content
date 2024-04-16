@@ -17,6 +17,7 @@ set=24|1
 Speaker15: Munawaqchu huktawan ñuqawan lluqsiyta?
 ~           would~you~like to~go~out with~me again    
 
+# TODO
 [SELECT_PHRASE]
 > Select the missing phrase
 Speaker507: Manam, kay tinkuyqa [ñuqapaqa manam allinchu].
@@ -26,20 +27,20 @@ Speaker507: Manam, kay tinkuyqa [ñuqapaqa manam allinchu].
 + la peor cita de mi vida
 
 [LINE]
-Speaker15: ¿Qué?  ¿Por~qué?
+Speaker15: Imá? Imanasqa?
 ~           what   why     
 
 [LINE]
-Speaker507: ¡Hablaste   de    ti       todo el  tiempo!
+Speaker507: Kikillaykimantataq qamqa rimakunki lliw pachaqa!
 ~            you~talked about yourself all  the time   
 
 [LINE]
-Speaker507: Y   no~me~preguntaste nada     sobre mí.
+Speaker507: Manataq tapuwankichu ñuqamantaqa imatapas!
 ~           and you~didn't~ask~me anything about me 
 
 [CONTINUATION]
 > What comes next?
-Speaker15: Bueno, ¡tú  estuviste~mirando tu   celular    [durante toda~la~cita]!  
+Speaker15: Kusa, qamqa chillikullaykitataq [tinkusqanchikpiqa] qawakunki!
 ~          well    you were~looking~at   your cell~phone  during  the~whole~date  
 - el~mes~pasado
 ~ last~month   
@@ -49,23 +50,24 @@ Speaker15: Bueno, ¡tú  estuviste~mirando tu   celular    [durante toda~la~cita
 ~ with your girlfriend
 
 [LINE]
-Speaker507: Estaba~hablando~con mi amiga  Lin.
+Speaker507: Masiy Linwantaq ñuqaqa rimarqani.
 ~           I~was~talking~to    my friend Lin 
 
 [LINE]
-Speaker507: Ella está~cuidando~a   mi perro.
+Speaker507: Payqa allquytam uywachkan. 
 ~           she  is~taking~care~of my dog   
 
 [LINE]
-Speaker15: ¿Tienes      un perro? ¡No~sabía      eso! 
+Speaker15: Allquyki kanchu? Manam yacharqanichu chaytaqa!
 ~           do~you~have a  dog     I~didn't~know that 
 
+# TODO
 [LINE]
-Speaker507: Es     normal, porque  no~me~preguntaste nada.    
+Speaker507: Ima allinmi, manataq imamantapas tapuwankichu.  
 ~           that's normal  because you~didn't~ask~me anything 
 
 [LINE]
-Speaker15: Lo~siento, hablo  demasiado cuando estoy nervioso.
+Speaker15: Pampachaykuway, mancharisqa kaspayqa llumpaytam rimanani.
 ~          I'm~sorry  I~talk too~much  when   I~am  nervous  
 
 [MULTIPLE_CHOICE]
@@ -75,48 +77,50 @@ Speaker15: Lo~siento, hablo  demasiado cuando estoy nervioso.
 - …goes on a lot of dates.
 
 [LINE]
-Speaker507: Entiendo...
+Speaker507: Yachanim…
 ~           I~get~it   
 
 [LINE]
-Speaker15: Bueno, a~mí~me~encantan los~perros. Tengo  dos.
+Speaker15: Allinmi, allqutam sinchita kuyani. Iskaymi kapuwan.
 ~          well   I~love           dogs        I~have two 
 
 [LINE]
-Speaker507: ¿Ah, sí?    
+Speaker507: Yaw, chaynachu?
 ~            oh  really 
 
 [LINE]
-Speaker15: ¡Sí,  Coco y   Max!
+Speaker15: Arí, sutinkunaqa: Cocom, Maxmi!
 ~           yes  Coco and Max 
 
 [POINT_TO_PHRASE]
 > Choose the option that means "friendly."
-Speaker15: (Coco) es muy  (+amigable), (pero) Max es un poco   (tímido).
+Speaker15: (Cocoqa) (+kuyakuqmi), Maxqa (aswan) (manchakuymi).
 ~           Coco  is very   friendly    but   Max is a  little  shy     
 
+# TODO
+# A ellos les encanta jugar en el parque, ir a la playa y...
 [LINE]
-Speaker15: A~ellos~les~encanta jugar   en el  parque, ir    a  la  playa y...  
+Speaker15: Paykunaqa munan muyu pampapim pukllayta munan. Lamar patampipas kallpakachanku kusisqallañam.
 ~          they~love           playing in the park    going to the beach and   
 
 [LINE]
-Speaker15: Lo~siento, estoy~hablando demasiado otra~vez.
+Speaker15: Pampachaway, huktawanmi llumpayta rimachkani.
 ~          I'm~sorry  I'm~talking    too~much  again    
 
 [LINE]
-Speaker507: Sí,  pero está~bien. A~mí~también~me~encanta hablar  de    mi perro.
+Speaker507: Anrí, aswan allinmi. Ñuqapas allqumantaqa rimakuyta munanim.
 ~           yes  but  it's~OK    I~also~love             to~talk about my dog   
 
 [LINE]
-Speaker15: Je, je, bueno… Tú  tienes un perro y   yo tengo dos...
+Speaker15: Asikunim, allinmi… Qampaqa huklla allquykiqa, ñuqapaqa iskaymi…
 ~          he  he  well   you have   a  dog   and I  have  two   
 
 [LINE]
-Speaker15: A~lo~mejor ellos pueden jugar     juntos   en el  parque.
+Speaker15: Aswanchu paykunaqa muyu pampapi kuska pukllakunman. 
 ~          maybe      they  can    (to)~play together in the park   
 
 [LINE]
-Speaker507: ¡Buena idea!
+Speaker507: Allin hamutaymi chayqa!
 ~            good  idea 
 
 [ARRANGE]
