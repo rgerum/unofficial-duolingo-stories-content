@@ -4,7 +4,6 @@ icon=d6cfdc678db3116881efba02e683423389b53370
 set=24|2
 
 # TODO audio + translations
-# TODO missing translation
 [HEADER]
 > Retraturuykimanchu?
 ~  can~I~take~your~picture 
@@ -43,23 +42,23 @@ Speaker509: Qamtaq kankiqa… retraturuykimanchu?
 ~            yes  it's~you   can~I~take~your~picture 
 
 [LINE]
-Speaker385: Está~bien… ¡pero rápido!
+Speaker385: Allinmi…. Apurayllamam!
 ~           OK          but  fast   
 
 [LINE]
-Speaker509: ¿Entonces sí~eres        ese~actor~famoso? 
+Speaker509: Hinaptinqa, chay actor kuyayllapaqmi kachkanki rikí?
 ~            then     you~are~indeed that~famous~actor 
 
 [LINE]
-Speaker385: Sí. 
+Speaker385: Arí.
 ~           yes 
 
 [LINE]
-Speaker509: ¡Lo~sabía! 
+Speaker509: Yacharqanichu!
 ~            I~knew~it 
 
 [LINE]
-> Lucy le~toma~una~foto  con  su~teléfono.
+> Lucyqa retratutam chillikunwan retratun. 
 ~ Lucy takes~his~picture with her~phone   
 
 [MULTIPLE_CHOICE]
@@ -68,13 +67,15 @@ Speaker509: ¡Lo~sabía!
 + He is a famous actor.
 - He's her boyfriend.
 
+# TODO 
+# Me encantó tu película "Los gatos tristes no bailan".
 [LINE]
-Speaker509: Me~encantó tu~película "Los~gatos~tristes no~bailan".  
+Speaker509: Chay películaykitaqa munaychakunim.
 ~           I~loved    your~movie   sad~cats          don't~dance  
 
 [CONTINUATION]
 > What comes next?
-Speaker385: Yo no~estuve en esa  [película].
+Speaker385: Manam ñuqaqa karqanichu chay películapiqa. 
 ~           I  was~not   in that  movie     
 + película
 ~ movie   
@@ -84,36 +85,42 @@ Speaker385: Yo no~estuve en esa  [película].
 ~ street
 
 [LINE]
-Speaker509: ¿Ah, no?
+Speaker509: Yanqam, manam niki riki?
 ~            oh  no 
 
+# TODO
 [LINE]
-Speaker385: Yo estuve en "El~abuelo y   sus~nuevos~dientes".
+Speaker385: Ñuqaqa  "El abuelo y sus nuevos dientes" kasqapim karqani.
 ~           I  was    in  grandpa   and his~new~teeth       
 
 [LINE]
-Speaker509: No~la~vi.       
+Speaker509: Manam qawarqaykichu.
 ~           I~didn't~see~it 
 
+# TODO
 [LINE]
-Speaker385: ¿Viste   "¿Tengo  algo      en~la~boca?"?  ¡Es   una de mis mejores películas!
+Speaker385: Qawarqankichu kay películataqa "¿Tengo algo en la boca?" Chay películayqa sinchi kuyayllapaqmi!
 ~            you~saw   I~have something in~my~mouth     it's one of my  best    movies    
 
 [LINE]
-Speaker509: No.
+Speaker509: Manam.
 ~           no 
 
+# TODO "a lo mejor"
+# ¿A lo mejor viste "Jamón, huevos, tostadas y terror"?
 [LINE]
-Speaker385: ¿A~lo~mejor viste   "Jamón, huevos, tostadas y   terror"?
+Speaker385: Qawarqankichu kay películataqa  "Jamón, huevos, tostadas y terror"?
 ~            maybe      you~saw  ham    eggs    toasts   and ~       
 
+# TODO qawarqaYKI?
 [LINE]
-Speaker509: No, no~la~vi.       
+Speaker509: Manam qawarqaykichu.
 ~           no  I~didn't~see~it 
 
+# TODO bad translation
 [POINT_TO_PHRASE]
 > Choose the option that means "to delete."
-Speaker385: ¡Es   muy  (famosa)! (Espera), ¿(vas~a)         (+borrar)    mi foto?   
+Speaker385: (Kuyayllapaqmi) kayqa! (Suyay), kaytaqa qawarkichu ¿vas a borrar mi foto?
 ~            it's very  famous    wait       you~are~going    to~delete  my picture 
 
 [LINE]
