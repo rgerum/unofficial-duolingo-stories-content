@@ -1,5 +1,5 @@
 [DATA]
-fromLanguageName=La carta
+fromLanguageName=Chay qillqay rapi
 icon=1517cbcf4f4e76f1dc8b0687b90969af2c828c4f
 set=24|3
 
@@ -37,39 +37,47 @@ Speaker416: Ñuqatapas! Imanasqataq (masipura kanchik)?
 ~   Zari   takes   a~book     and   opens~it   
 
 [LINE]
-Speaker418: ¡Lily! Hay      una carta~vieja dentro~de este libro.
+Speaker418: Lily yaw! Kay maytupa ukunpiqa huk qillqay rapim kasqa. 
 ~            Lily  there~is an  old~letter  inside    this book  
 
+# TODO
+# ¿Qué dice?
 [LINE]
-Speaker416: ¿Qué  dice?       
+Speaker416: Ima ninkim?
 ~            what does~it~say 
 
+# TODO
+# Un hombre, José, le escribe a su amiga, Gabriela.
 [LINE]
-Speaker418: Un hombre, José, le~escribe a  su  amiga,  Gabriela.
+Speaker418: Gabriela. Huk runam Joseyman  qillqasqa rapipi.
 ~           a  man     José  is~writing to his friend  Gabriela 
 
+# TODO
+# Él cree que Gabriela puede ayudarlo.
 [LINE]
-Speaker418: Él cree   que  Gabriela puede ayudarlo.     
+Speaker418: Gabriela, payqa yanapanmachu. 
 ~           he thinks that Gabriela can   (to)~help~him 
 
 [LINE]
-Speaker416: ¿Cómo?
+Speaker416: Imayná?
 ~            how  
 
+# TODO
+# Él dice que le gustan dos mujeres: Mónica y Samanta.
 [LINE]
-Speaker418: Él dice que  le~gustan dos mujeres: Mónica y   Samanta.
+Speaker418: Paytaqa iskay warmis munan: Mónicawan, Samantas.
 ~           he says that he~likes  two women    Mónica and Samanta 
 
 [LINE]
-Speaker418: Mónica es muy  inteligente.
+Speaker418: Mónicaqa allin umasapas.
 ~           Mónica is very intelligent 
 
 [LINE]
-Speaker418: Pero Samanta es muy  graciosa.
+Speaker418: Samantaqa aswan sinchi kusikuqllas kan. 
 ~           but  Samanta is very funny    
 
 [LINE]
-Speaker418: ¡Y   él no~sabe      con  quién debería   casarse!         
+Speaker418: Payqa manas yachanchu mayqanwanpas kasarakuyta!
 ~            and he doesn't~know with whom  he~should (to)~get~married 
 
 [MULTIPLE_CHOICE]
@@ -78,53 +86,57 @@ Speaker418: ¡Y   él no~sabe      con  quién debería   casarse!
 - …where to find the bookstore.
 - …his wife's name.
 
+# TODO
+# Espero que con nadie
 [LINE]
-Speaker416: Espero que  con~nadie             
+Speaker416: Munanchikmanqa ama mayqinwanpas. 
 ~           I~hope that he~didn't~marry~anyone
 
+# TODO
+# past tense?
 [LINE]
-Speaker418: ¡¿Qué  le~dijo~Gabriela?!      ¡Necesito saberlo!
+Speaker418: Gabrielaqa ima ninmi? Yachaytam muni!
 ~             what did~Gabriela~tell~him    I~need   to~know 
 
 [POINT_TO_PHRASE]
 > Choose the option that means "owner."
-> (La)  (+dueña) de la  librería  va   a  hablar~con   (las) (chicas).
+> (Maytu) (rantikuqsi) (sipaskunawanqa) (rimanqa).
 ~  the    owner  of the bookstore goes to (to)~talk~to  the   girls   
 
 [LINE]
-Speaker3233: ¡Ah, ese  libro es maravilloso!
+Speaker3233: Yaw, chay maytuqa ima kuyayllapaqmi!
 ~             oh  that book  is wonderful   
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker3233: [Era~de~mi~esposo].          Él murió el~año~pasado.
+Speaker3233: [Qusaypam kasqa]. Payqa qayna watam wañukurqa. 
 ~             it~belonged~to~my~husband   he died  last~year     
 - Pera de mi esposo
 - Era de mi espacio
 + Era de mi esposo
 
 [LINE]
-Speaker418: Ah, lo~siento~mucho.
+Speaker418: Yaw, pampachawayá. 
 ~           oh  I'm~sorry       
 
 [LINE]
-Speaker416: ¿Su   esposo~se~llamaba  José?
+Speaker416: Qusaykipachu sutin José?
 ~            your husband's~name~was José 
 
 [LINE]
-Speaker3233: ¡Sí! 
+Speaker3233: Arí!
 ~             yes 
 
 [LINE]
-Speaker418: ¡Guau! ¿Y   usted~es Mónica o  Samanta?
+Speaker418: Achachaw! Qamqa Mónicachu, Samantachu kanki?
 ~            wow    and are~you  Mónica or Samanta 
 
 [LINE]
-> La  mujer sonríe.
+> Warmiqa asirin.
 ~ the woman smiles 
 
 [LINE]
-Speaker3233: Yo soy Gabriela.
+Speaker3233: Gabrielam ñuqaqa kani.
 ~            I  am  Gabriela 
 
 [MULTIPLE_CHOICE]
