@@ -4,19 +4,19 @@ icon=6fee4723d01611cffa9b4b76fd5be36697ef1e96
 set=4|3
 
 [HEADER]
-> Vestoj por la ferio
+> Vestaĵoj por la ferio
 ~ clothes for  the  vacation  
 
 [LINE]
-> Lucio estas ĉe la vendejo.
-~ Lucy is   at the store  
+> Lucio estas ĉe vendejo.
+~ Lucy is   at a~store  
 
 [LINE]
-Speaker416: Saluton, ĉu~vi~bezonas helpon?
-~           hello   do~you~need help  
+Speaker416: Saluton, ĉu~vi~bezonas~helpon?
+~           hello   do~you~need~help  
 
 [LINE]
-Speaker509: Jes, mi bezonas vestojn por mia ferio.
+Speaker509: Jes, mi bezonas vestaĵojn por mia ferio.
 ~           yes  I need   clothes for  my vacation   
 
 [MULTIPLE_CHOICE]
@@ -68,16 +68,16 @@ Speaker416: En~ordo…
 ~           OK        
 
 [LINE]
-Speaker509: Ruĝa~robo,   bruna~jako…
+Speaker509: Ruĝan~robon,   brunan~jakon…
 ~           a~red~dress  a~brown~jacket    
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker509: ¡[Kaj~ĉapelo]!
+Speaker509: [Kaj~ĉapelon]!
 ~             and~a~hat      
-- Kaj kamelo
-- Kaj ĉevalo
-+ Kaj ĉapelo
+- Kaj kamelon
+- Kaj ĉevalon
++ Kaj ĉapelon
 
 [LINE]
 > Lilio serĉas bluan~ĉapelon.
@@ -109,7 +109,7 @@ Speaker416: Nun mi bezonas ferion.
 [MATCH]
 > Tap the pairs
 - serĉas <> looks for
-- verda robo <> green dress
+- verda <> green
 - vendejo <> store
 - dankon <> thank you
 - ĉapelo <> hat
