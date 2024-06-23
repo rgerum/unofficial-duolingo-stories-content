@@ -1,0 +1,163 @@
+[DATA]
+fromLanguageName=Surprise!
+icon=1b10a427eeaa15c0ed6b690e78cbe8cb1b43e4e3
+set=1|4
+
+speaker_Anton=Maxim
+speaker_Mother=Tatyana
+speaker_Katya=Tatyana
+
+[HEADER]
+> Сюрприз!
+$1071/speech_1071_0.mp3;7,6
+
+[LINE]
+> Антон с~мамой     приходят в  ресторан.  
+~ ~     with~mother comes    to restaurant 
+$1071/speech_1071_1.mp3;5,6;2,478;6,88;9,318;2,568;9,56
+
+[LINE]
+Speaker559: Столик на~троих,  пожалуйста.
+~           Table  for~three  please     
+$1071/speech_1071_2.mp3;6,6;3,488;6,160;12,806
+
+[LINE]
+Speaker385: На~троих?  Ты,  я, и?...  
+~           For~three  You  I  and    
+$1071/speech_1071_3.mp3;2,6;6,260;4,937;3,534;3,575
+
+[LINE]
+Speaker559: Ты,  я и   моя~подруга.
+~           you  I and my~friend   
+$1071/speech_1071_4.mp3;2,6;3,472;2,241;4,39;8,250
+
+[MULTIPLE_CHOICE]
+> Who else is joining the dinner?
+- Anton's friend
++ A friend of Anton's mother
+- Anton's father
+
+[LINE]
+Speaker385: Мама, я...
+~           Mom   I   
+$1071/speech_1071_6.mp3;4,6;3,694
+
+[LINE]
+Speaker559: У~меня         для~тебя есть сюрприз! 
+~           (+есть)~I~have for~you  ~    surprise 
+$1071/speech_1071_7.mp3;1,6;5,66;4,275;5,149;5,337;8,361
+
+[POINT_TO_PHRASE]
+> Select the word that means "also".
+Speaker385: У (меня) (+тоже) (для) тебя (есть) сюрприз!
+$1071/speech_1071_8.mp3;1,6;5,122;5,259;4,342;5,221;5,292;8,362
+
+[LINE]
+Speaker559: Моя подруга изучает медицину.
+~           My  friend  studies medicine 
+$1071/speech_1071_9.mp3;3,6;8,309;8,504;9,594
+
+[LINE]
+Speaker559: Она очень умная.
+~           She very  smart 
+$1071/speech_1071_10.mp3;3,6;6,246;6,384
+
+[LINE]
+Speaker559: Её~зовут      Соня.
+~           She~is~called ~    
+$1071/speech_1071_11.mp3;2,6;6,405;5,352
+
+[LINE]
+Speaker385: Мама, я...
+~           Mom   I   
+$1071/speech_1071_12.mp3;4,6;3,694
+
+[LINE]
+Speaker559: Она тебе   идеально~подходит! 
+~           She to~you is~a~perfect~match 
+$1071/speech_1071_13.mp3;3,6;5,237;9,260;9,449
+
+[MULTIPLE_CHOICE]
+> Мама~Антона    думает, что: 
+~ Anton's~mother thinks  that 
+- он должен начать изучать  медицину
+~ he should start  to~study medicine
+- еда  в~ресторане   замечательная
+~ food in~restaurant wonderful    
++ Соня будет   идеальной женой для~её~сына
+~ ~    will~be perfect   wife  for~her~son
+
+[LINE]
+> Девушка заходит в  ресторан.  
+~ Girl    enters  in restaurant 
+$1071/speech_1071_15.mp3;7,6;8,528;2,602;9,60
+
+[LINE]
+Speaker125: Привет, любимый!
+~           Hi      beloved 
+$1071/speech_1071_16.mp3;6,6;9,738
+
+[LINE]
+Speaker559: Любимый?
+~           Beloved 
+$1071/speech_1071_17.mp3;7,6
+
+[MULTIPLE_CHOICE]
+> Why is Anton's mother surprised? Choose the right answer.
+- Она рада    встречи с    Катей.
+~ She is~glad meeting with Katya 
++ Она не~знала,    что  у~Антона~есть девушка.   
+~ She didn't~know  that Anton~has     girlfriend 
+- Еду,  которую они  заказали, быстро  подали.    
+~ Food  which   they ordered   quickly was~served 
+
+[LINE]
+Speaker385: Привет, Катя.  Мама, ...
+~           Hi      Katya  Mom      
+$1071/speech_1071_19.mp3;6,6;6,742;6,839
+
+[LINE]
+Speaker125: Здравствуйте, Вы  мама~Антона?   
+~           Hello         you Anton's~mother 
+$1071/speech_1071_20.mp3;12,6;4,984;5,159;7,348
+
+[LINE]
+Speaker559: Антон?!
+$1071/speech_1071_21.mp3;5,6
+
+[SELECT_PHRASE]
+> Choose the best sentence ending:
+Speaker125: Меня~зовут Катя, я   
+~           My~name~is ~     I~am
+$1071/speech_1071_22.mp3;4,6;6,294;5,309;3,806
++ жена Антона
+- не знаю Антона
+- Ваша подруга
+
+[LINE]
+Speaker559: Его жена!?
+~           His wife  
+$1071/speech_1071_23.mp3;3,6;5,266
+
+[LINE]
+Speaker385: Сюрприз! 
+~           Surprise 
+$1071/speech_1071_24.mp3;7,6
+
+[MULTIPLE_CHOICE]
+> What was Anton's surprise? Choose the best answer:
++ He recently married Katya
+- He never wants to get married
+- He wants to marry his mom's friend
+
+[MATCH]
+> Pair the words:
+- де́вушка <> girl/girlfriend
+- же́нщина <> woman
+- жена́ <> wife
+- муж <> husband
+- мужчи́на <> man
+- па́рень <> young man/boyfriend
+- друг <> male friend
+- подру́га <> female friend
+
