@@ -1,0 +1,132 @@
+[DATA]
+fromLanguageName=Junior's Decision
+icon=e0600de22649754eb7336b587834d36407767819
+set=10|1
+
+#ççççç <- Why are these here lol
+# Also note that this story is weird because here, your lunch at school is already predetermined by the city's government by school. 
+# Also school uh... doesn't provide school lunch, the students are responsible for getting their own food served by their classmates.
+# Also no adult talks with a student about lunch. In this story, I'm trying to make it the closest possible by making it a discussion between a weird teacher who is obsessed with school lunches and Junior. 
+# In addition, in the end, the teacher likes him and ends up giving both to him.
+# Let's just assume this story takes place during a break period that is right before lunch, but not exactly.
+
+[HEADER]
+> ジュニア|が 決断
+~ Junior 's decision~{けつだん}    
+$8390/6de56918.mp3;4,50;2,400;2,138
+
+[LINE]
+> ジュニア|が 学校|ぬ 給食|ぬ 時間{たいむ}|やん。
+~ Junior 's school 's (school)~lunch 's time~{タイム} it's       
+$8390/0890656b.mp3;4,50;2,388;3,150;2,462;3,138;2,487;NaN,175;NaN,275;NaN,313
+
+[LINE]
+Speaker415: うきみそーちー、 ペレズ 先生{しんしー}! やーさい!
+~            good~morning  Pérez teacher   (I'm)~hungry  
+$8390/8da03e3e.mp3;5,50;2,613;1,525;4,150;NaN,450;NaN,687;NaN,850;2,313;0,412
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker395: はいたい、  ジュニア。 [今日{ちゅー}|ぬ 給食ー 鶏ぬ肉{にわトゥいぬしし}|やん。].    
+~           hello  Junior   today 's school~lunch~is~{きゅうしょこー} chicken~meat~{にわとぅいぬしし} it's
+$8390/e3674384.mp3;6,125;6,250;0,375;9,1130;3,187;5,188;NaN,575;NaN,1175
++ 今日ぬ 給食ー 鶏ぬ肉やん
+- 中ぬ 給食ー 鶏ぬ肉やん
+- 週ぬ 給食ー 鶏ぬ肉やん
+
+[LINE]
+Speaker395: 鶏肉{にわトゥいぬしし}|とぅ まじゅん... 
+~           chicken~meat~{にわとぅいぬしし} with together
+$8390/9a9c3951.mp3;9,125;3,1125;0,125;0,187;0,200
+
+[LINE]
+Speaker395: … サラダ|が  脂ーしー{あんだーしー} 揚とーる{あぎとーる} 田芋{たーむ} 食でぃしむんどー{かディしむんどー}。
+~             a~salad    or oil~{あんだーしー} fried~{あぎとーる} potatoes~{たーむ} you~can~eat~ok~{かでぃしむんどー}          
+$8390/a9b88d2d.mp3;3,0;5,387;0,375;9,150;4,663;NaN,562;NaN,325
+
+[MULTIPLE_CHOICE]
+> Junior can get either salad or fries with the chicken.
+- No, that's wrong.
++ Yes, that's right.
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(脂ーしー{あんだーしー}) (揚とーる{あぎとーる}) (田芋{たーむ})|(とぅ{トゥ}) (サラダ) (だー)]!
+~              oil~{あんだーしー} fried~{あぎとーる} potatoes~{たーむ} and salad (I)~want~(informal)   
+$8390/abffade8.mp3;NaN,50;NaN,300;NaN,238;NaN,300;NaN,300;NaN,112;NaN,163;NaN,262;NaN,163;NaN,200;NaN,412;NaN,338
+
+[LINE]
+Speaker395: 一{ティー}|ち|てーんやさ、  ジュニア。
+~           one~{てぃー} (thing) (you)~can~only~have Junior
+$8390/4df92a51.mp3;3,125;12,250;NaN,187;NaN,313;NaN,162;NaN,338
+
+[LINE]
+Speaker415: 脂ーしー{あんだーしー} 揚とーる{あぎとーる} 田芋{たーむ}|ぬ 好ち{しち}|やん… やしが...
+~           oil~{あんだーしー} fried~{あぎとーる} potatoes~{たーむ} is like it's              
+
+[LINE]
+Speaker415: 長さる{ながさる}|日{ひー} やん|し...
+~           long~{ながさる} day~{ひー} it's (and)
+$8390/9b86cf8b.mp3;NaN,50;NaN,638;NaN,325;NaN,262
+
+[POINT_TO_PHRASE]
+> Choose the option that means "healthier."
+Speaker415: … (やしが)、　 (サラダ)|ぬ (+頑丈{がんじゅー})|んかい (ゆたさる)...
+~              but    salad         is    healthy/sturdy~{がんじゅー}  (be/is) good    
+$8390/8a8be854.mp3;NaN,800;NaN,363;1,337;5,188;2,425;NaN,200;NaN,525;NaN,450
+
+[LINE]
+Speaker395: ジュニア?
+~            Junior 
+$8390/ba5e670e.mp3;4,187
+
+[LINE]
+Speaker415: 脂ーしー{あんだーしー} 揚とーる{あぎとーる} 田芋{たーむ}|が  サラダ? 何なさ{ぬーなさ}?
+~            oil~{あんだーしー} fried~{あぎとーる} potatoes~{たーむ}          or salad     what~should~I~choose~{ぬーなさ}
+$8390/a5198373.mp3;NaN,50;NaN,313;NaN,250;NaN,325;NaN,300;1,137;NaN,175;NaN,263;NaN,162;NaN,150;NaN,1438;NaN,337;NaN,538
+
+[LINE]
+Speaker415: 上等! 脂ーしー{あんだーしー} 揚とーる{あぎとーる} 田芋{たーむ}|ぬ だー… うぅーうぅー{ウゥーウゥー}! サラダ! うぅーうぅー{ウゥーウゥー}!
+~           OK         oil~{あんだーしー} fried~{あぎとーる} potatoes~{たーむ} is (I)~want~(informal)           no   salad      no 
+$8390/b7d37940.mp3;2,50;1,750;NaN,863;NaN,300;NaN,237;NaN,313;NaN,287;NaN,113;NaN,150;NaN,200;NaN,137;NaN,163;NaN,1112;NaN,988;NaN,862;1,650;NaN,863;NaN,1037
+
+[LINE]
+Speaker415: あー、 ちゃーさ?!     
+~            oh  what~should~I~do 
+$8390/de25af07.mp3;2,50;1,450;4,163;1,312
+
+[MULTIPLE_CHOICE]
+> Poor Junior! What problem does he have?
+- He ate too many fries.
+- He wants ice cream in his salad.
++ He can't choose between a salad and fries.
+
+[LINE]
+Speaker395: ジュニア!
+~            Junior 
+$8390/07ff56f4.mp3;4,187
+
+[LINE]
+Speaker415: あい! うー、  ペレズ 先生{しんしー}?
+~            oh!   yes  Pérez teacher~{しんしー} 
+$8390/d3d285e9.mp3;2,50;1,425;3,863;1,450;5,137;NaN,463;NaN,700
+
+[LINE]
+Speaker395: どーでぃん{どーディん}!    しんにん   脂ーしー{あんだーしー} 揚とーる{あぎとーる} 田芋{たーむ} とぅ|{トゥ}   サラダ どーでぃん{どーディん}。 
+~            here~you~go (a)~special~(for~you) oil~{あんだーしー} fried~{あぎとーる} potatoes~{たーむ} and (a)~salad have~(a/some)/here~you~go
+$8390/35b1c841.mp3;16,125;0,1255;3,262;1,300;6,188;13,550;6,550;NaN,350;NaN,300;NaN,262;NaN,363
+
+[MULTIPLE_CHOICE]
+> What did Mrs. Pérez tell Junior to do?
+- Go somewhere else to eat.
++ Take both the fries and the salad.
+- Imagine that fries are salad.
+
+[MATCH]
+> Tap the pairs
+- やん <> it's
+- 頑丈 {がんじゅー} <> healthy
+- だー <> I want
+- ちゃーさ <> what should I do
+- ジュニアが 学校 {がっこう} <> Junior's school
+
