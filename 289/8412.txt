@@ -1,0 +1,133 @@
+[DATA]
+fromLanguageName=A Very Dirty Apartment
+icon=0e6ab8c3a4e3224cb700e8daeac0038f7f0e929e
+set=12|1
+
+[HEADER]
+> 夢汚さん{ゆむはごーさん} アパート
+~ very~dirty~{ゆむはごーさん} apartment 
+# Grammar Note: this is one of the exceptions where we don't use 一杯
+$8412/96e85548.mp3;NaN,50;NaN,425;NaN,250;NaN,225
+
+[LINE]
+> ベア|ー{あ} マリナ|が アパート|かい うぅん。
+~ Bea is   Marina 's apartment (exists)
+# Grammar Note: んかい is also acceptable in place of かい because it's a place
+$8412/615729cd.mp3;2,50;0,275;NaN,125;NaN,325;5,125;3,463;2,212;2,113;0,250
+
+[LINE]
+Speaker507: はいたい、 マリナ。 頑丈{がんじゅー}|やみ?
+~           hello~(feminine)  Marina   how~are~you~(informal)~{がんじゅーやみ} 
+$8412/afc9c331.mp3;2,50;2,300;1,350;4,88;1,500;3,862;2,475
+
+[LINE]
+Speaker175: 汚りー{はごーりー}!
+~.            dirty/terrible!
+# Grammar note: Equivalent to Japanese 汚れて汚らしく酷い or "dirtily terrible" (not an English word/phrase, but just the idea)
+$8412/dc848e01.mp3
+
+[CONTINUATION]
+> 後|んかい ぬー|ぬ 起くいみ?
+~ next/later~{あとぅ} in/at what~(informal) is going~to~happen?~{うくいみ} 
+Speaker507: あいえーよー… [やしが、 ぬーんち]?
+~           oh~no  but    why
+$8412/072e23b6.mp3;4,50;1,463;NaN,1062;NaN,263;1,237;3,50;2,213
+- 痩しー ぬーやが
+~ to~be~skinny~and~{やしー} (is)~something~(wrong)
+- 休み ぬーやが
+~ rest/break/vacation~{やしみ} is~it?
++ やしが、 ぬーんち
+~ but why
+# Grammar Note: ぬーやが means 何か (something) in Japanese, but it also can be used informally to mean "Is there something wrong?" and "(What) is it?"
+
+[LINE]
+Speaker175: 我ー{わー} 新{みー}|ルームメート{ルームメートお}|ー{} とぅ ちゃー いりわい すん。
+~           my~{わー} new~{みー}   roommate   is   with  always  argue to~do     
+$8412/f15f8f0a.mp3;16,1396;4,200;5,367;3,467
+
+[MULTIPLE_CHOICE]
+> Marina and her roommate argue all the time.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker507: 見い 分かいん。 いったー 下ー{しもー} 夢汚さん{ゆむはごーさん} やんどー。
+~           (I~subconsciously)~look~and~{みい} understand~{わかいん} you~all~('s)~(informal)   below/kitchen~is~{しもー}  very~dirty~{ゆむはごーさん} (it~is~indeed)
+# Vocabulary Note: キッチン is also acceptable instead of 下, but it's a loanword also SIM is pronounced like 下, so that's confusing lol
+# Grammar Note: pronouns ending with "ー" or "あ" do not conjugate for possession/genitive.
+$8412/57c86aac.mp3;2,50;4,263;1,412;1,125;3,863;2,212;NaN,200;NaN,163;NaN,125;NaN,137;NaN,113;NaN,125;NaN,200;NaN,250;NaN,475
+
+[LINE]
+Speaker175: いー、  知っちょーん。 
+~           yup  (I)~know~{しっちょーん} 
+$8412/ca7d8ee9.mp3;2,15;9,458
+
+[LINE]
+Speaker507: あとぅ{あトゥ}…   机{しゅく}|ぬ 上{ウィー}|んかい あん 物ー{むのー} ぬーやが?  古さる{ふるさる} チーズ?
+~           and   table~{しゅく} 's on/above/up~{うぃー} in/at (exists) thing~is~{むのー} what~is~it/that old~{ふるさる} cheese  
+$8412/ce8055d1.mp3;1,50;NaN,150;NaN,1025;NaN,263;NaN,125;NaN,275;NaN,287;NaN,213;NaN,137;NaN,175;NaN,225;1,138;NaN,1125;NaN,550
+
+[LINE]
+Speaker175: うー、 饐ーとーん{しーとーん}!
+~           yes    (it's)~rotting~and~sour~{しーとーん}
+# Why the translation was changed from yuck: This was supposed to be a pun. 饐ーん 知ーん are the root forms and both pronounces しーん (shiiN). Also the word "yuck" doesn't exist in Ryukyuan languages.
+$8412/598b6db5.mp3;2,15
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker507: [くぬ 椅{っい}|ぬ 上{ウィー}]|んかい|ん あん! 
+~            this chair~{っい} 's above/up/on~{うぃー} in/at also (exists~or~is/are~there).    
+$8412/d44a0cbd.mp3;1,50;1,163;NaN,125;NaN,200;NaN,125;NaN,287;NaN,325;7,63;0,287
++ くぬ 椅ぬ 上
+- くぬ 椅ぬ 下
+- くぬ 椅ぬ 横
+# Vocabulary note: 椅{っい} can also be っいー っやぃー or っやぃ
+
+[LINE]
+Speaker507: あー、 マリアナ、 やー 嘉例吉ウェア{かりゆしウェア} やん。 
+~           oh Mariana your (Okinawan~version~of)~aloha~shirt~{かりゆしウェア} (it's)
+$8412/47ec21b6.mp3;2,50;1,425;5,150;1,625;3,88;NaN,237;NaN,525;NaN,238;NaN,325
+
+[LINE]
+Speaker175: いー。 
+~           yup 
+$8412/e7c7f2a4.mp3;2,15
+
+[LINE]
+Speaker507: やしが、 やー 阿蘭陀姿{うらんだすがい} やん!   
+~            but you(r)~(informal) western~style~clothes~{うらんだすがい~or~うらんらすがい} (it's)
+# Vocabulary note: すがい = appreance/preparation/cloth(es) 阿蘭陀 = Holland / The Netherlands = "The West". Therefore 阿蘭陀姿 = 洋服 in Japanese
+$8412/f8373d6f.mp3;2,50;1,313;1,287;3,75;NaN,213;NaN,300;NaN,125;NaN,362;NaN,263
+
+[POINT_TO_PHRASE]
+> Choose the option that means "yours."
+Speaker507: (古さる) (チーズ)|(ん) (+やー)?
+~             old~{ふるさる} cheese also you(rs)~(informal)  
+$8412/191a8538.mp3;1,50;2,263;4,262;2,413;3,87
+# Grammar Note: 古さる チーズん? is grammatically more accurate, but the last part is added because of how the question if formatted.
+
+[LINE]
+Speaker175: うー、 むさっとぅ{むさっトゥ} 美さん{ちゅらさん}|んかい さん|から あれー ちゃー 口身ちょーん{くちみちょーん}。
+~           yes  never beau(tiful/tify/ty)~{ちゅらさん} (dative~particle) don't so he's always is~erruptively~furious~{くちみちょーん}
+$8412/eb0c2a1f.mp3;2,15;15,1640;6,324;4,520;4,417
+
+[LINE]
+Speaker175: 強さん{ちゅーさん}|どー!
+~            strong/unfair/horribl(e/y)/terribl(e/y)~{ちゅーさん} (it's) 
+# Modern changes: Modern Gen Z and Alpha kids are much more likely to use the Japanese loanword "インチキ!" (the intonation is different though).
+$8412/95c791f3.mp3;6,665
+
+[MULTIPLE_CHOICE]
+> Ah ha! What do Marina and her roommate argue about?
++ Marina makes a mess and never cleans.
+- Bea likes to eat old cheese.
+- Marina wears all her roommate's clothes.
+
+[MATCH]
+> Tap the pairs
+- 知っちょーん {しっちょーん} <> (I) know
+- うー <> yes
+- マリアナ <> Marina
+- 饐ーとーん {しーとーん} <> (It's) rotting and sour
+- やー <> your
+
