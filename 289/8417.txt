@@ -1,0 +1,110 @@
+[DATA]
+fromLanguageName=The Monkeys
+icon=c29e4533eca0186f83adafac9383fef2ed3aee56
+set=12|2
+
+[HEADER]
+> 猿{さーるー}|たー  
+~ monkey(s)~{さーるー} s
+# Grammar Note: たー is the plural form and optional. There is one exception to this rule which is pluralizing the formal version of you うんじゅ, which you add a なー to get うんじゅなー
+$8417/8c90710c.mp3;NaN,50;NaN,338;NaN,200
+
+[LINE]
+> エディー とぅ{トゥ} ジュニア|ー{あ} 生ち物{いちむし}|園|うぅてぃ{ウゥティ}
+~ Eddy and Junior is/are   animal~{いちむし} (viewing~park/garden)~{えん}  in/at (exists~and)
+# Vocabulary note: There is no direct translation for zoo. I took Japanese vocabulary and "Okinawafied" it.
+$8417/1dcc91fd.mp3;4,50;NaN,350;NaN,138;NaN,337;NaN,138;NaN,475;NaN,187
+
+[LINE]
+> 象{ぞー} 見ちょーん{んーちょーん}。
+~ elephant(s)~{ぞー} are~looking~at~{んーちょーん}
+# Note to editors: The original is weird. "Eddy and Junior are at the zoo. They are near the elephants." is redundant. "Eddy and Junior are at the zoo and looking at elephants." is better.
+$8417/4874f3ad.mp3;NaN,50;NaN,263;NaN,137;0,288;NaN,150
+
+[LINE]
+Speaker415: 父{すー}、 猿{さーるー} 見じ{んーじ} ゆたさみ?
+~           dad~{すー}    monkey(s)~{さーるー}  conciously~{んーじ}  ok~(to)?
+$8417/d8d719c0.mp3;NaN,50;NaN,525;NaN,188;NaN,325;NaN,300;NaN,187;NaN,200
+
+[MULTIPLE_CHOICE]
+> Junior wants to see the monkeys.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker414: ぬーんち? ちゃー 猿{さーるー} 見らん{んーらん} 物{むん}。  
+~            why      always monkey(s)~{さーるー} (do)n't~see~{んーらん} (even~though)
+$8417/0b00d31f.mp3;4,15;5,920
+
+[LINE]
+Speaker415: うー、  やしが、 好ち{しち}|んかい なたん。 行か{いか}!
+~           yes  but  like~{しち} (dative~particle) became let's~go~{いか}
+$8417/16bad398.mp3;2,50;1,400;4,188;1,337;1,325;NaN,175;NaN,275;NaN,425;1,475;NaN,863;NaN,475
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: ジュニア、 [猿{さーるー}|たー|や] くま|から 遠さん{とぅーさん}|どー.
+~           Junior   monkey(s)~{さーるー} s here from far~{とぅーさん} (it's) 
+$8417/821bfb3b.mp3;4,15;8,1338;6,400;7,1112
+- サラダー
+- 猿誰や
++ 猿たーや
+
+[LINE]
+Speaker415: 走ら{はら}! 走ゆしぇー{ハゆシェー} 好ち{しち}|やし?
+~            let's~run~{はら}       running~is~{はゆしぇー} like~{しち} right? 
+$8417/8db2cb34.mp3;NaN,50;NaN,425;NaN,863;NaN,162;NaN,225;NaN,325;NaN,250
+
+[CONTINUATION]
+> 後|んかい ぬー|ぬ 起くいみ?
+~ next/later~{あとぅ} in/at what~(informal) is going~to~happen?~{うくいみ} 
+Speaker414: んー… 上等。 うー、  [走ゆしぇー{はゆしぇー} 好ち{しち}|やんどー]。
+~           hmm  OK         yes running~is~{はゆしぇー} like~{しち} it's~indeed
+$8417/aa7c9115.mp3;1,15;5,632;4,867;16,1480
++ 走ゆしぇー 好ち|やんどー
+~ running~is~{はゆしぇー} like~{しち} it's~indeed 
+- 猿{さーるー} ふさん  
+~ monkey want
+- 象|ぬ 好ち|やんどー
+~ elephant(s)~{ぞー} is/are like~{しち} it's~indeed
+
+[LINE]
+> ジュニア とぅ{トゥ}   エディー|や 走ゆん{はゆん}。
+~ Junior and Eddy is/are to~run~{はゆん}    
+$8417/ad3904ed.mp3;4,50;NaN,388;NaN,137;NaN,300;NaN,213;NaN,475
+
+[POINT_TO_PHRASE]
+> Choose the option that means "fast."
+Speaker415: (父{すー})、 (なーふぃん{なあフィん}) (+速く{フェーく}) (走らりーみ{はらりーみ})？
+~            dad~{すー} more fast~{ふぇーく} can~(you)~run?~{はらりーみ}
+$8417/6300eb80.mp3;NaN,50;NaN,525;NaN,213;NaN,287;NaN,388;NaN,287;NaN,138;NaN,512;NaN,300
+
+[LINE]
+Speaker414: ジュニア、 走ゆしぇー{はゆしぇー} べー とぅ、 言ちゃしが{いちゃしが}...
+~           Junior  running~is~{はゆしぇー} hate~it and/that even~though~(you)~were~saying~{いちゃしが}
+$8417/50c6c33b.mp3;4,15;10,1352;3,246
+
+[LINE]
+Speaker415: うー、  走ゆしぇー{ハゆシェー} べー! やしが、 アイソー 好ち{しち}|やん!
+~           yes  unning~is~{はゆしぇー} hate~it but icecream~is like~{しち} it's
+$8417/38ae8a5a.mp3;2,50;1,438;NaN,200;NaN,112;NaN,213;NaN,337;NaN,400;3,863;1,350;1,287;5,175;NaN,600;NaN,313;NaN,312
+
+[LINE]
+Speaker415: 猿{さーるー}|たー|ぬ 隣{トゥない}|んかい アイス|ぬ 町屋|ぬ うぅん{ウゥん}|どー!
+~           monkey(s)~{さーるー} s 's next~{とぅない} in/at icecream 's shop~{まちや} ? (exists) (indeed)
+$8417/71f02418.mp3;NaN,50;NaN,325;NaN,238;NaN,212;NaN,200;NaN,163;NaN,325;NaN,412;2,388;3,137;2,463;NaN,175;NaN,325;NaN,287
+
+[MULTIPLE_CHOICE]
+> Why does Junior want to go see the monkeys?
++ He wants to get ice cream.
+- Monkeys are his favorite animals.
+- He wants to run with the monkeys.
+
+[MATCH]
+> Tap the pairs
+- 猿 {さーるー} <> monkey(s)
+- アイス <> ice cream
+- 好ち {しち} <> (I) love
+- べー <> hate it
+- 走ら {はら} <> let's run
+
