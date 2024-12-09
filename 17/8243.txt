@@ -4,37 +4,45 @@ icon=0d18f0403cfa415591d7ef50a9e9c01f1094936e
 set=7|2
 
 [HEADER]
-> איפה החברה שלך?       
+> איפה החברה שלך{שלח}?       
 ~  where    girlfriend your 
+$8243/049dd85d.mp3;4,50;6,363;NaN,487;NaN,663
 
 [LINE]
-> באה נמצאת בשדה~התעופה.
+> באה{Beah} נמצאת בשדה~התעופה.
 ~ Bea is   at~the~airport    
+$8243/aeb36a30.mp3;NaN,50;NaN,350;NaN,450;7,350;0,725
 
 [LINE]
 > היא מדברת עם האיש בדלפק.
 ~ she  talks to  the~man    at~the~counter 
+$8243/7bf32fd9.mp3;3,50;6,175;3,663;5,125;6,325;0,812
 
 [LINE]
 Speaker823: שלום! את צריכה עזרה?
 ~            hello   you need  help?  
+$8243/658cafb9.mp3;4,50;1,738;3,850;6,200;5,450
 
 [LINE]
 Speaker507: כן, אני טסה לברצלונה…
 ~            yes  I fly to   Barcelona 
+$8243/14af2e74.mp3;2,15;5,487;4,190;8,280
 
 [POINT_TO_PHRASE]
-> Choose the option that means "in the plane".
+> Choose the option that means "plane."
 Speaker507:  ו(אני~רוצה)     (לשבת) ליד  (החברה) שלי        (+במטוס).
 ~             and  I~want   to~sit  next~to  girlfriend  my    on~the~plane  
+$8243/dc29bc65.mp3;4,15;5,411;9,295;4,440;7,289;4,572;13,315
 
 [LINE]
 Speaker823: בסדר, יש~לנו שני מושבים ביחד.  
 ~           OK         we~have two seats    together 
+$8243/aec75e2d.mp3;4,50;1,913;3,37;4,288;4,225;7,325;5,475;0,837
 
 [LINE]
 Speaker507: מושלם!
 ~            perfect  
+$8243/ed88b02b.mp3;5,15
 
 [MULTIPLE_CHOICE]
 > Why is Bea happy?
@@ -43,21 +51,26 @@ Speaker507: מושלם!
 - She's getting a discount on her ticket.
 
 [LINE]
-Speaker823: המממ.... ואיפה החברה שלך?       
+Speaker823: המממ{hmmm}.... ואיפה החברה שלך{שלח}?       
 ~           hmm   where girlfriend your 
+$8243/f7c70d88.mp3;NaN,50;NaN,1200;NaN,363;NaN,475;NaN,662
 
 [LINE]
 Speaker507: אני לא יודעת. אתה~יכול לעזור~לי לחפש~אותה?       
 ~           I not know   can~you help~me to)[~look~for~her 
+$8243/5052c529.mp3;3,15;3,180;6,140;5,762;5,175;6,318;3,415;5,85;5,466
 
 [LINE]
 Speaker823: את יכולה לתאר לי אותה?      
 ~            you can to~describe for~me her?
+$8243/cf67c8fc.mp3;2,50;6,213;5,387;3,450;5,150
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker507: אההם... היא גבוהה, יש לה      [שיער~שחור]…
-~           hmm  she  tall there~is to~her  black~hair     
+Speaker507: אההם{um}... היא גבוהה, יש לה      [שיער~שחור]
+~           hmm  she  tall there~is to~her  black~hair     …
+$8243/fa82b0f2.mp3;11,665;6,105;4,671;3,235;10,110;4,353
+
 + שיער שחור
 - שיעור בחור
 - שעה באור
@@ -65,30 +78,37 @@ Speaker507: אההם... היא גבוהה, יש לה      [שיער~שחור]…
 [LINE]
 Speaker823: אוקיי.
 ~           OK        
+$8243/733c9e62.mp3;5,50;0,550
 
 [LINE]
 Speaker507: היא אוהבת לעשות ספורט ולרקוד …  
 ~           she likes to~do ports and~to~dance 
+$8243/882ddb14.mp3;3,15;6,125;6,376;6,411;7,416
 
 [LINE]
 Speaker823: טוב…
 ~      'K 
+$8243/7234bbe5.mp3;NaN,50
 
 [LINE]
 Speaker507: היא אוהבת חיות…
 ~           she    loves       animals      
+$8243/515e5565.mp3;3,15;6,135;4,405
 
 [LINE]
 Speaker507: … אבל היא~אוכלת יותר~מדי שוקולד.
 ~             but  she~eats too~much  chocolate 
+$8243/0ab75add.mp3;5,300;4,301;6,115;5,426;4,305;7,311
 
 [LINE]
 Speaker823: הבנתי. איך~קוראים~לה?       
 ~         Got~it          What's~her~name?
+$8243/303a2f91.mp3;5,50;1,788;4,850;7,237;3,413
 
 [LINE]
 Speaker507:אני לא יודעת.     
-~             I  not know 
+~             I  do~not know 
+$8243/caaf7710.mp3;3,15;3,180;6,140
 
 [LINE]
 Speaker823: את לא יודעת איך~קוראים~לחברה~שלך?       
@@ -121,4 +141,3 @@ Speaker507: אתה~יכול לעזור~לי למצוא אחת?
 - לחפש <> to look for 
 - עדיין <> yet
 - חברה <> girlfriend
-
