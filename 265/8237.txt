@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=Um encontro
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+[HEADER]
+> Un Mirantano  
+~ um encontro
+$8237/ea9c1139.mp3;2,15;NaN,185
+
+[LINE]
+> Bea has a  date     at a  restaurant. 
+~ Bea tem um encontro em um restaurante 
+
+[LINE]
+Speaker507: Hi! How~are~you?
+~           oi  como~vai    
+
+[LINE]
+Speaker100: Good!
+~           bem  
+
+[LINE]
+Speaker100: What  do~you~want to~eat?
+~           o~que você~quer   comer  
+
+[LINE]
+Speaker507: A   salad. 
+~           uma salada 
+
+[SELECT_PHRASE]
+> Escolha as palavras que faltam
+Speaker507: I  have  [a~big~game]         today.
+~           eu tenho  um~jogo~importante  hoje  
++ a big game
+- a big name
+- a pig game
+
+[LINE]
+Speaker100: Oh, do~you~play~sports?   
+~           ah  você~pratica~esportes 
+
+[LINE]
+Speaker507: Yes, I  play soccer. 
+~           sim  eu jogo futebol 
+
+[MULTIPLE_CHOICE]
+> A Bea está pedindo uma salada porque…
++ …ela vai jogar futebol hoje.
+- …o paquera dela disse que a salada é deliciosa.
+- …ela acabou de comer uma pizza inteira.
+
+[LINE]
+Speaker100: I  play soccer  too!   
+~           eu jogo futebol também 
+
+[LINE]
+Speaker507: Cool! 
+~           legal 
+
+[LINE]
+Speaker507: Where~are~you~from?
+~           de~onde~você~é     
+
+[LINE]
+Speaker100: I'm    from~the United~States. 
+~           eu~sou dos      Estados~Unidos 
+
+[ARRANGE]
+> Toque no que escutar
+Speaker100: [(But) (my~parents) (are) (from) (Brazil).]
+~             mas   meus~pais    são   do     Brasil   
+
+[LINE]
+Speaker507: I  love Brazil!  
+~           eu amo  o~Brasil 
+
+[LINE]
+Speaker100: Brazil   is beautiful!
+~           o~Brasil é  lindo     
+
+[LINE]
+Speaker507: Do~you~have pets?                
+~           você~tem    animais~de~estimação 
+
+[LINE]
+Speaker100: I  have  two  cats  and a  dog.     
+~           eu tenho dois gatos e   um cachorro 
+
+[LINE]
+Speaker507: I  have  a  dog      too,    Conor!
+~           eu tenho um cachorro também  Conor 
+
+[LINE]
+Speaker100: What?  My  name is Daniel…
+~           o~quê  meu nome é  Daniel 
+
+[LINE]
+Speaker100: What's your  name? Are~you~Sarah? 
+~           qual~é o~seu nome  você~é~a~Sarah 
+
+[LINE]
+Speaker507: No,  my  name is Bea…
+~           não  meu nome é  Bea 
+
+[MULTIPLE_CHOICE]
+> Você pegou essa? A Bea e o Daniel…
+- …estão levando seus cachorros para passear.
+- …compraram passagens para a Espanha.
++ …deveriam ter encontrado outras pessoas.
+
+[LINE]
+> A   woman  enters~the restaurant  and sees Daniel.
+~ uma mulher entra~no   restaurante e   vê   Daniel 
+
+[LINE]
+Speaker101: Hi! Are~you Daniel?   I'm    Sarah.  
+~           oi  você~é  o~Daniel  eu~sou a~Sarah 
+
+[LINE]
+Speaker100: No,  sorry.    I'm    Conor.  
+~           não  desculpa  eu~sou o~Conor 
+
+[MULTIPLE_CHOICE]
+> Opa! O que foi que aconteceu?
+- Os cachorros da Bea e do Daniel jogaram futebol.
++ O Daniel mentiu para a pessoa que ia encontrar porque ele gosta da Bea.
+- A Bea mudou o nome dela para Sarah.
+
+[MATCH]
+> Toque nos pares
+- pets <> animais de estimação
+- name <> nome
+- is <> é
+- Good <> bem
+- Sarah <> a Sarah
+
