@@ -1,141 +1,146 @@
 [DATA]
-fromLanguageName=Un rendez-vous galant
+fromLanguageName=デート
 icon=df24f7756b139f6eda927eb776621b9febe1a3f1
 set=1|2
 
 [HEADER]
 > Amrendevuo
-~ un~rendez-vous~galant
+~ デート
 
 [LINE]
 > Bea havas rendevuon en restoracio.
-~ Bea avoir~(présent) rendez-vous dans restaurant
+~ ベア 持っている デートを …の中 レストラン
 
 [LINE]
-Speaker507: Saluton!  Kiel vi fartas?
-~            salut   comment tu/vous aller,~se~porter~(présent)
+Speaker507: Saluton!  Kiel~vi~fartas?
+~           こんにちは ご機嫌いかがですか（挨拶）
 
 [LINE]
 Speaker100: Bone! 
-~            bien
+~           良い
 
 [LINE]
 Speaker100: Kion vi volas manĝi?
-~            quoi/que tu/vous vouloir~(présent) manger
+~           何を あなた 欲している 食べる
 
 [LINE]
-Speaker507: Salaton
-~           salade~(plat) 
+Speaker507: Salaton.
+~           サラダを
 
 [SELECT_PHRASE]
-> Choisi la fin de la phrase
-Speaker507: Hodiaŭ  mi havas [gravan~maĉon].
-~           Aujourd'hui je avoir~(présent)  un~match~important   
+> 次に続く言葉は何ですか？
+Speaker507: Hodiaŭ  mi havas [gravan maĉon].
+~           今日 私 持っている 重要な（…を） 試合を
 + gravan maĉon
 - grava maĉo
 - grava maĉon
 
 [LINE]
 Speaker100: Ah, ĉu vi ŝatas sporton?
-~           ah est-ce~que tu/vous aimer,~apprécier~(présent) sport
+~           あぁ （疑問形） あなた 好きである スポーツ（を）
 
 [LINE]
 Speaker507: Jes, mi ludas piedpilkon.
-~           oui je jouer~(présent) football
+~           はい 私 遊ぶ サッカー（を）
 
 [MULTIPLE_CHOICE]
-> Béa commande une salade car…
-+ …elle joue au football aujourd'hui.
-- …son rencard lui a dit que la salade était bonne.
-- …elle vient de manger une pizza.
+> ベアがサラダを食べたい理由は？
++ 今日サッカーを遊ぶから
+- 体に良いと聞いたから
+- ピザを食べに来たから
 
 [LINE]
 Speaker100: Ankaŭ mi!
-~            aussi je 
+~           …もまた 私
 
 [LINE]
 Speaker507: Bonege!
-~            excellent
+~           とても良い
 
 [LINE]
 Speaker507: De kie vi devenas? 
-~            de où tu/vous venir(origine)~(présent)
+~           …から どこ あなた 来た、出身である
 
 [LINE]
 Speaker100: Mi estas usonano. 
-~           je être~(présent) états-unien·ne
+~           私 である、にある アメリカ人
 
 [POINT_TO_PHRASE]
-> Clique sur le mot qui signifie "mère"
+> 「母」を意味する単語を選んでね
 Speaker100: (Mia) (patriĉo)  (estas) (de) (Kubo)   (kaj)   (mia) (+patrino)  (estas) (de) (Meksiko).  
-~             ma/mon père  ^tre~(présent) de Cuba   et   ma/mon mère   être~(présent) de Mexique
+~           私の 父 である、にある …から キューバ と、そして 私の 母 である、にある …から メキシコ
 
 [LINE]
 Speaker507: Mi ŝategas Kubon!
-~            je adorer~(présent) Cuba   Cuba 
+~           私 とても好きである キューバを
 
 [LINE]
 Speaker100: Kubo estas tre bela.
-~           Cuba être~(présent) très beau/belle
+~           キューバ である、にある とても 美しい
 
 [LINE]
 Speaker507: Ĉu vi havas dorlotbestojn?
-~            est-ce~que tu/vous avoir~(présent) animaux~de~compagnie
+~           （疑問形） あなた 持っている ペットを
 
 [LINE]
 Speaker100: Mi havas du katojn kaj hundon.
-~           je avoir~(présent) deux chats et chien
+~           私 持っている 2 猫たちを と、そして 犬を
 
-[POINT_TO_PHRASE]
-> Clique sur le mot qui signifie "aussi"
-Speaker507: Mi (+ankaŭ) (havas) (hundon), (Jozefo).
-~           je   aussi    avoir~(présent) chien  Joseph
+[MULTIPLE_CHOICE]
+> この人はペットを全部で何匹飼っている？
+- 2匹
++ 3匹
+- 4匹
+
+[LINE]
+Speaker507: Mi ankaŭ havas hundon, Jozefo.
+~           私 …もまた 持っている 犬を ジョセフ、ヨーゼフ
 
 [LINE]
 Speaker100: Kio? Mia nomo estas Danielo.
-~            quoi ma/mon nom être~(présent) Daniel 
+~           何 私の 名前 である、にある ダニエル
 
 [LINE]
 Speaker100: Ĉu vi ne estas Gabriela?
-~            est-ce~que tu/vous pas être~(présent) Gabriela?
+~           （疑問形） あなた …ではない である、にある ガブリエラ
 
 [LINE]
 Speaker507: Ne! 
-~            non
+~           いいえ
 
 [LINE]
 Speaker507: Mia nomo estas Bea!
-~            ma/mon nom  être~(présent) Béa 
+~           私の 名前 である、にある ベア
 
 [MULTIPLE_CHOICE]
-> Que se passe-t-il ? Béa et Daniel…
-- …ont acheté des tickets pour Cuba.
-+ …étaient censés rencontrer d'autres personnes.
-- …promènent leurs chiens.
+> あちゃー！ どんなハプニングが起きた？
+- キューバ旅行のチケットを多く買った
++ どちらも他の人とデートをする予定だった
+- 飼い犬が逃げ出した
 
 [LINE]
 > Ino proksimiĝas al Danielo.
-~ femme s'approcher~(présent) vers Daniel 
+~ 女性 近寄る …に向けて、…の方へ ダニエル
 
 [LINE]
 Speaker101: Saluton! Ĉu vi estas Danielo? Mi estas Gabriela.
-~            Salut est-ce~que tu/vous être~(présent) Daniel  je être~(présent) Gabriela 
+~           こんにちは （疑問形） あなた である、にある ダニエル 私 である、にある ガブリエラ
 
 [LINE]
-Speaker100: Ne, mi bedaŭras. Mi estas Jozefo.
-~           non  je regretter~(présent) je être~(présent) Joseph
+Speaker100: Ne, mi~bedaŭras. Mi estas Jozefo.
+~           いいえ 申し訳ありません 私 である、にある ジョセフ、ヨーゼフ
 
 [MULTIPLE_CHOICE]
-> Que s'est-il passé ? 
-- Béa s'appelle maintenant Gabriela.
-+ Daniel ment à son vrai rencard parce qu'il préfère Béa.
-- Les chiens de Daniel et Béa jouent au football. 
+> 何が起きた？
+- ベアがガブリエラに改名した。
++ ダニエルはガブリエラに嘘をついた。
+- ダニエルとベアの飼い犬がサッカーを遊び始めた。
 
 [MATCH]
-> Relie les mots correspondants
-- kaj <> et
-- estas <> être (présent)
-- salato <> salade (plat) 
-- ŝategas <> adorer (présent)
-- kio <> quoi
+> 同じ意味の単語を選ぼう
+- kaj <> …と…
+- estas <> である、にある
+- Mi bedaŭras. <> 申し訳ありません
+- ŝategas <> とても好きである
+- Kiel vi fartas? <> ご機嫌いかがですか？
 
