@@ -1,106 +1,106 @@
 [DATA]
-fromLanguageName=The Passport
+fromLanguageName=パスポート
 icon=643347b755001a918130ddf5f6d3e914e63a00ce
 set=2|2
 
 [HEADER]
-> La Pasporto
-~ the passport 
+> La         Pasporto
+~ （定冠詞） パスポート
 
 [LINE]
-> Vikram kaj   lia  edzino, Priti, estas en la flughaveno.
-~ Vikram and his wife    Priti  are   at the airport    
+> Vikram     kaj lia  edzino, Priti,   estas          en     la         flughaveno.
+~ ヴィクラム と  彼の 妻      プリティ である、にある …の中 （定冠詞） 空港
 
 [LINE]
-Speaker593: Ah, ne! Kie estas mia pasporto?
-~            oh  no   where is   my passport  
+Speaker593: Ah,~ne!  Kie  estas          mia  pasporto?
+~           大変だ！ どこ である、にある 私の パスポート
 
 [LINE]
-Speaker593: Ĝi~ne~estas  ĉi~tie!
-~            it's~not here 
+Speaker593: Ĝi         ne     estas          ĉi~tie!
+~           これ、それ …ない である、にある ここ
 
 [LINE]
 Speaker560: Vikram…
-~           Vikram 
+~           ヴィクラム
 
 [SELECT_PHRASE]
-> Select the missing phrase
-Speaker593: Ĝi~ne~estas  [en~mia~sako]…
-~           it's~not  in~my~bag      
+> 欠けている文章を選ぼう
+Speaker593: Ĝi         ne     estas          [en    mia  sako]…
+~           これ、それ …ない である、にある …の中 私の かばん
 + en mia sako
 - en lia sako
 - en mia saka
 
 [LINE]
-Speaker593: Kaj ne~estas  en mia jako.
-~           and it's~not in my jacket   
+Speaker593: Kaj    ne      estas          en     mia  jako.
+~           そして  …ない である、にある …の中 私の ジャケット
 
 [LINE]
 Speaker560: Vik…
-~           Vik 
+~           ~
 
 [LINE]
-Speaker593: Ĝi~estas en la  taksio!
-~            it's in the taxi 
+Speaker593: Ĝi         estas          en     la         taksio!
+~           これ、それ である、にある …の中 （定冠詞） タクシー
 
 [MULTIPLE_CHOICE]
-> Vikram thinks his passport is in the taxi.
-+ Yes, that's right.
-- No, that's wrong.
+> ヴィクラムは、パスポートをタクシーに忘れたと思いました。
++ はい、そうです。
+- いいえ、違います。
 
 [LINE]
-> Vikram kuras por retrovi la taksion.
-~ Vikram runs to look~for the taxi 
+> Vikram     kuras por        retrovi      la         taksion.
+~ ヴィクラム 走る  …のために また見つける （定冠詞） タクシーを
 
 [LINE]
 Speaker560: Vik, no!
-~            Vik  no 
+~           ~    いいえ
 
 [ARRANGE]
-> Tap what you hear
-> [(Priti) (kuras~malantaŭ) (Vikram).]
-~   Priti   runs~after        Vikram   
+> 聞こえたとおりに入力しよう
+> [(Priti)  (kuras) (malantaŭ) (Vikram).]
+~  プリティ 走る    …の後ろ   ヴィクラム
 
 [LINE]
-Speaker593: Ah, ne! La  taksio ne~estas ĉi tie !
-~            oh  no   the taxi is~not  here 
+Speaker593: Ah,~ne!  La         taksio   ne     estas          ĉi~tie!
+~           大変だ！ （定冠詞） タクシー …ない である、にある ここ
 
 [LINE]
-Speaker593: Ĝi~ne~estas    ebla! 
-~            it's~not possible 
+Speaker593: Ĝi~ne~estas~ebla! 
+~           ありえない！
 
 [LINE]
 Speaker560: Vikram!
-~            Vikram 
+~           ヴィクラム
 
 [LINE]
-Speaker560: Via   pasporto ne~estas en la  taksio.
-~           your passport  is~not  in the taxi 
+Speaker560: Via      pasporto   ne     estas          en     la         taksio.
+~           あなたの パスポート …ない である、にある …の中 （定冠詞） タクシー
 
 [POINT_TO_PHRASE]
-> Choose the option that means "hand."
-Speaker560: (La)  pasporto (estas) (en) via   (+mano).
-~            the  passport   is     in  your   hand  
+> 「手」という意味の部分を選ぼう
+Speaker560: (La)       pasporto   (estas)        (en)   via      (+mano).
+~           （定冠詞） パスポート である、にある …の中 あなたの 手
 
 [LINE]
 Speaker593: Ah…
-~           oh 
+~           あぁ
 
 [LINE]
-Speaker593: Dankon,   mia amo.
-~           thank~you  my love 
+Speaker593: Dankon,    mia  amo.
+~           ありがとう 私の 愛
 
 [MULTIPLE_CHOICE]
-> Where was Vikram's passport?
-- in the taxi
-- at his house
-+ in his hand
+> 結局、パスポートはどこにあった？
+- タクシーの中
+- 家の中
++ ヴィクラムが手に持っていた
 
 [MATCH]
-> Tap the pairs
-- flughaveno <> airport
-- mano <> hand
-- kuras malantaŭ<> runs after
-- jako <> jacket
-- ĉi tie <> here
+> 同じ意味の単語を選ぼう
+- flughaveno <> 空港
+- mano <> 手
+- kuras malantaŭ <> 走って追いかける
+- jako <> ジャケット
+- ĉi tie <> ここ
 
