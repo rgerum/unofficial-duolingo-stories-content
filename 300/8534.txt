@@ -1,116 +1,116 @@
 [DATA]
-fromLanguageName=Doctor Eddy
+fromLanguageName=エディー先生
 icon=29c5abbf74b46e43a4de510ac83e302c0722a100
 set=2|4
 
 [HEADER]
 > Kuracisto Edio
-~ doctor    Edio
+~ 医者      エディー
 
 [LINE]
-> Edio estas ĉe la superbazaro.
-~ Edio is   at the supermarket  
+> Edio     estas          ĉe           la         superbazaro.
+~ エディー である、にある …のところで （定冠詞） スーパー
 
 [LINE]
-> Virino salutas lin. 
-~ a~woman greets  him 
+> Virino salutas          lin. 
+~ 女の人 （…に）挨拶する 彼を
 
 [MULTIPLE_CHOICE]
-> A woman talks to Edio at the supermarket.
-+ Yes, that's right.
-- No, that's wrong.
+> スーパーで女の人がエディーに話しかけてきた。
++ はい、そうです。
+- いいえ、違います。
 
 [LINE]
 Speaker724: Saluton!
-~            hello 
+~           こんにちは
 
 [LINE]
-Speaker414: Ho, saluton! 
-~           oh   hello 
+Speaker414: Ho,  saluton! 
+~           あぁ こんにちは
 
 [LINE]
-Speaker724: Ĉu~vi~estas kuracisto?  
-~           are~you a~doctor 
+Speaker724: Ĉu         vi     estas          kuracisto?  
+~           （疑問形） あなた である、にある 医者
 
 [LINE]
 Speaker414:  Mi? kuracisto? nu...
-~            me   a~doctor  well...
+~            私  医者       さあ、えっと
 
 [LINE]
-Speaker414: Jes. Mi... estas kuracisto.  
-~           yes  I     am    a~doctor 
+Speaker414: Jes. Mi... estas          kuracisto.  
+~           はい 私    である、にある 医者
 
 [LINE]
 Speaker724: Bonege!  
-~            great 
+~           とても良い
 
 [LINE]
-> Edio ne~estas kuracisto.  
-~ Edio is~not   a~doctor 
+> Edio     ne     estas          kuracisto.  
+~ エディー …ない である、にある 医者
 
 [ARRANGE]
-> Tap what you hear
-Speaker414: [(Mi) (havas) (multe~da) (mono).]
-~             I    have    lots~of    money    
+> 聞こえたとおりに入力しよう
+Speaker414: [(Mi) (havas) (multe da) (mono).]
+~            私 持っている たくさん （数量を表す） お金
 
 [LINE]
-Speaker414: Mi loĝas en grandega   domo.
-~           I  live  in a~very~big house  
+Speaker414: Mi loĝas      en     grandega     domo.
+~           私 住んでいる …の中 とても大きい 家
 
 [LINE]
-Speaker414: Mi havas… multekostan pantolonon.
-~           I  have   expensive  pants 
+Speaker414: Mi havas…    multekostan    pantolonon.
+~           私 持っている 高価な（…を） ズボンを
 
 [LINE]
 Speaker724: Bone, sed…
-~           OK    but  
+~           よし  でも
 
 [LINE]
-Speaker724:  Tiu homo bezonas kuraciston tuj!
-~            that man needs   a~doctor immediately   
+Speaker724:  Tiu        homo bezonas    kuraciston tuj!
+~            その、あの 人   必要とする 医者を     今すぐ
 
 [LINE]
-Speaker724:  Tiu homo, kiu estas apud la lakto.
-~            That man, who is    by   the milk  
-
-[LINE]
-Speaker724:  Bonvolu! Tiu homo bezonas vian helpon!
-~            please     that man    needs    your help  
+Speaker724:  Tiu        homo, kiu            estas          apud   la         lakto.
+~            その、あの 人    （関係代名詞） である、にある …の隣 （定冠詞） 牛乳
 
 [MULTIPLE_CHOICE]
-> The man who needs help is near the…
-- …station.
-- …tomatoes.
-+ …milk.
+> 男の人はどこから助けを呼んでいる？
+- 野菜売り場
+- パン売り場
++ 乳製品売り場
+
+[LINE]
+Speaker724:  Bonvolu!     Tiu        homo bezonas    vian             helpon!
+~            お願いします その、あの 人   必要とする あなたの（…を） 助けを
 
 [POINT_TO_PHRASE]
-> Choose the option that means "is sick."
+> 「病気だ」を意味する部分を選ぼう
 Speaker724: (Li) (+malsanas)!
-~             he   is~sick     
+~           彼   病気である
 
 [LINE]
 Speaker414: Ho~ve!
-~           oh~no 
+~           大変だ
 
 [LINE]
-> Edio vidas virinon kaj salutas ŝin.
-~ Edio sees a~woman and talks~to  her  
+> Edio     vidas virinon kaj    salutas          ŝin.
+~ エディー 見る  女性を  そして （…に）挨拶する 彼女を
 
 [LINE]
-Speaker414: Saluton,  ĉu~vi~estas kuracisto? 
-~           hello   are~you a~doctor 
+Speaker414: Saluton,   ĉu         vi     estas          kuracisto? 
+~           こんにちは （疑問形） あなた である、にある 医者
 
 [MULTIPLE_CHOICE]
-> What happened in the story?
-- Edio started med school to become a doctor.
-+ Edio pretended to be a doctor to impress a woman.
-- Edio saved a man at the supermarket.
+> つまり、どういうこと？
+- エディーは医学学校に進学した。
++ エディーは女の人を口説くために医者だと嘘をついた。
+- エディーはスーパーで人命救助をした。
 
 [MATCH]
-> Tap the pairs
-- tiu <> that
-- ne estas <> is not
-- bone <> OK
-- tuj <> immediately
-- kiu <> who
+> 同じ意味の単語を選ぼう
+- tiu <> その、あの
+- ne estas <> ではない、にない
+- apud <> …の隣
+- tuj <> 今すぐ
+- kiu <> どれ、誰
 
