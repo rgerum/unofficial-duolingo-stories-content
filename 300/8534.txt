@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Doctor Eddy
+icon=29c5abbf74b46e43a4de510ac83e302c0722a100
+set=2|4
+
+[HEADER]
+> Kuracisto Edio
+~ doctor    Edio
+
+[LINE]
+> Edio estas ĉe la superbazaro.
+~ Edio is   at the supermarket  
+
+[LINE]
+> Virino salutas lin. 
+~ a~woman greets  him 
+
+[MULTIPLE_CHOICE]
+> A woman talks to Edio at the supermarket.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker724: Saluton!
+~            hello 
+
+[LINE]
+Speaker414: Ho, saluton! 
+~           oh   hello 
+
+[LINE]
+Speaker724: Ĉu~vi~estas kuracisto?  
+~           are~you a~doctor 
+
+[LINE]
+Speaker414:  Mi? kuracisto? nu...
+~            me   a~doctor  well...
+
+[LINE]
+Speaker414: Jes. Mi... estas kuracisto.  
+~           yes  I     am    a~doctor 
+
+[LINE]
+Speaker724: Bonege!  
+~            great 
+
+[LINE]
+> Edio ne~estas kuracisto.  
+~ Edio is~not   a~doctor 
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Mi) (havas) (multe~da) (mono).]
+~             I    have    lots~of    money    
+
+[LINE]
+Speaker414: Mi loĝas en grandega   domo.
+~           I  live  in a~very~big house  
+
+[LINE]
+Speaker414: Mi havas… multekostan pantolonon.
+~           I  have   expensive  pants 
+
+[LINE]
+Speaker724: Bone, sed…
+~           OK    but  
+
+[LINE]
+Speaker724:  Tiu homo bezonas kuraciston tuj!
+~            that man needs   a~doctor immediately   
+
+[LINE]
+Speaker724:  Tiu homo, kiu estas apud la lakto.
+~            That man, who is    by   the milk  
+
+[LINE]
+Speaker724:  Bonvolu! Tiu homo bezonas vian helpon!
+~            please     that man    needs    your help  
+
+[MULTIPLE_CHOICE]
+> The man who needs help is near the…
+- …station.
+- …tomatoes.
++ …milk.
+
+[POINT_TO_PHRASE]
+> Choose the option that means "is sick."
+Speaker724: (Li) (+malsanas)!
+~             he   is~sick     
+
+[LINE]
+Speaker414: Ho~ve!
+~           oh~no 
+
+[LINE]
+> Edio vidas virinon kaj salutas ŝin.
+~ Edio sees a~woman and talks~to  her  
+
+[LINE]
+Speaker414: Saluton,  ĉu~vi~estas kuracisto? 
+~           hello   are~you a~doctor 
+
+[MULTIPLE_CHOICE]
+> What happened in the story?
+- Edio started med school to become a doctor.
++ Edio pretended to be a doctor to impress a woman.
+- Edio saved a man at the supermarket.
+
+[MATCH]
+> Tap the pairs
+- tiu <> that
+- ne estas <> is not
+- bone <> OK
+- tuj <> immediately
+- kiu <> who
+
