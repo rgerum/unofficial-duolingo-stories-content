@@ -1,0 +1,106 @@
+[DATA]
+fromLanguageName=The Passport
+icon=643347b755001a918130ddf5f6d3e914e63a00ce
+set=2|2
+
+[HEADER]
+> La Pasporto
+~ the passport 
+
+[LINE]
+> Vikram kaj   lia  edzino, Priti, estas en la flughaveno.
+~ Vikram and his wife    Priti  are   at the airport    
+
+[LINE]
+Speaker593: Ah, ne! Kie estas mia pasporto?
+~            oh  no   where is   my passport  
+
+[LINE]
+Speaker593: Ĝi~ne~estas  ĉi~tie!
+~            it's~not here 
+
+[LINE]
+Speaker560: Vikram…
+~           Vikram 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker593: Ĝi~ne~estas  [en~mia~sako]…
+~           it's~not  in~my~bag      
++ en mia sako
+- en lia sako
+- en mia saka
+
+[LINE]
+Speaker593: Kaj ne~estas  en mia jako.
+~           and it's~not in my jacket   
+
+[LINE]
+Speaker560: Vik…
+~           Vik 
+
+[LINE]
+Speaker593: Ĝi~estas en la  taksio!
+~            it's in the taxi 
+
+[MULTIPLE_CHOICE]
+> Vikram thinks his passport is in the taxi.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+> Vikram kuras por retrovi la taksion.
+~ Vikram runs to look~for the taxi 
+
+[LINE]
+Speaker560: Vik, no!
+~            Vik  no 
+
+[ARRANGE]
+> Tap what you hear
+> [(Priti) (kuras~malantaŭ) (Vikram).]
+~   Priti   runs~after        Vikram   
+
+[LINE]
+Speaker593: Ah, ne! La  taksio ne~estas ĉi tie !
+~            oh  no   the taxi is~not  here 
+
+[LINE]
+Speaker593: Ĝi~ne~estas    ebla! 
+~            it's~not possible 
+
+[LINE]
+Speaker560: Vikram!
+~            Vikram 
+
+[LINE]
+Speaker560: Via   pasporto ne~estas en la  taksio.
+~           your passport  is~not  in the taxi 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "hand."
+Speaker560: (La)  pasporto (estas) (en) via   (+mano).
+~            the  passport   is     in  your   hand  
+
+[LINE]
+Speaker593: Ah…
+~           oh 
+
+[LINE]
+Speaker593: Dankon,   mia amo.
+~           thank~you  my love 
+
+[MULTIPLE_CHOICE]
+> Where was Vikram's passport?
+- in the taxi
+- at his house
++ in his hand
+
+[MATCH]
+> Tap the pairs
+- flughaveno <> airport
+- mano <> hand
+- kuras malantaŭ<> runs after
+- jako <> jacket
+- ĉi tie <> here
+
