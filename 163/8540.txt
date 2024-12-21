@@ -4,53 +4,53 @@ icon=7e5d271488d31d6f1d0c503512e642ca7effe84f
 set=1|4
 
 [HEADER]
-> La~luna~de~miel
+> ฮันนีมูน
 ~ honeymoon      
 
 [LINE]
-> Ana está en un~taxi.
-~ Ana is   in a~taxi  
+> อาน่า|อยู่|ใน|รถ|แท็กซี่
+~ Ana is in wheeled~vehicle taxi 
 
 [LINE]
-Speaker113: Hola,  buenos~días. 
-~           hello  good~morning 
+Speaker113: สวัสดี
+~           hello
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker343: Hola,  necesito [ir~al~aeropuerto],     por~favor.
-~           hello  I~need    to~go~to~the~airport   please    
-+ ir al aeropuerto
-- ir al puerto
-- y el aeropuerto
+Speaker343: สวัสดี ฉัน|ต้อง|ไป|[สนามบิน]!
+~           hello  I need go airport  
++ สนามบิน
+- ร้านกาแฟ
+- สถานีรถไฟ
 
 [LINE]
-Speaker113: Está~bien.
+Speaker113: โอเค
 ~           OK        
 
 [LINE]
-Speaker113: ¿Vacaciones?
+Speaker113: วันหยุด?
 ~            vacation   
 
 [LINE]
-Speaker343: No~son~vacaciones…  
-~           it's~not~a~vacation 
+Speaker343: ไม่ใช่|วันหยุด
+~           not vacation
 
 [ARRANGE]
 > Tap what you hear
-Speaker343: [(Tengo)  (un~boleto) (para) (Madrid).]
-~             I~have   a~ticket    to     Madrid   
+Speaker343: [(ฉัน)(มี)(ตั๋ว)(ไป)(กรุงเทพฯ)]
+~            I have ticket go Bangkok
 
 [LINE]
-Speaker343: Bueno… dos boletos.
-~           well   two tickets 
+Speaker343: โอ้ ตั๋วสองใบ
+~           oh two~tickets
 
 [LINE]
-Speaker113: ¡Madrid es mi ciudad~favorita! ¡Es   muy  bonita!   
-~            Madrid is my favorite~city     it's very beautiful 
+Speaker113: กรุงเทพฯ|เป็น|เมือง|โปรด|ของ|ฉัน!  
+~           Bangkok is city favorite of I
 
 [LINE]
-Speaker343: Es   mi luna~de~miel…
-~           it's my honeymoon    
+Speaker343: มัน|เป็น|ฮันนีมูน|ของ|ฉัน
+~           it is honeymoon of I
 
 [MULTIPLE_CHOICE]
 > Why is Ana going to Madrid?
@@ -59,16 +59,16 @@ Speaker343: Es   mi luna~de~miel…
 - She is getting married there.
 
 [LINE]
-Speaker113: Ah. ¿Dónde está su   esposo? 
-~           oh   where is   your husband 
+Speaker113: สามี|ของ|คุณ|อยู่|ไหน?
+~           husband of you is where
 
 [LINE]
-Speaker343: No~tengo     esposo.    ¡Tengo  una esposa~muy~difícil! 
-~           I~don't~have a~husband   I~have a   very~difficult~wife 
+Speaker343: ฉัน|ไม่มี|สามี ฉัน|มี|ภรรยา! 
+~           I without husband I have wife 
 
 [LINE]
-Speaker343: Ella no~quiere    ir~a     Madrid conmigo.
-~           she  doesn't~want to~go~to Madrid with~me 
+Speaker343: เธอ|ไม่|ต้องการ|ไป|กรุงเทพฯ|กับ|ฉัน
+~           she not want go Bangkok with me
 
 [MULTIPLE_CHOICE]
 > Oh no! Ana's wife…
@@ -77,49 +77,49 @@ Speaker343: Ella no~quiere    ir~a     Madrid conmigo.
 + …doesn't want to go to Madrid with her.
 
 [LINE]
-Speaker343: Estoy muy  triste.
-~           I~am  very sad    
+Speaker343: ฉัน|เศร้า|มาก
+~           I sad very
 
 [LINE]
-Speaker113: Ah… lo~siento.
-~           oh  I'm~sorry 
+Speaker113: ฉันขอโทษ
+~           I'm~sorry 
 
 [LINE]
-Speaker113: Bueno… estamos en el~aeropuerto.
-~           well   we~are  at the~airport   
+Speaker113: เรา|อยู่|ที่|สนามบิน
+~           we are at airport  
 
 [POINT_TO_PHRASE]
 > Choose the option meaning "runs."
-> (Una~mujer) (con)  una~maleta (+corre) en~dirección~al (taxi).
-~  a~woman     with  a~suitcase   runs   towards~the      taxi  
+> ผู้หญิง|ถือ|กระเป๋า|เดิน|ทาง|วิ่ง|ไป|ที่|รถ|แท็กซี่
+~ a~woman carrying suitcase way run go at wheeled~vehicle taxi  
 
 [LINE]
-Speaker343: ¿Salma?
+Speaker343: ซัลม่า?
 ~            Salma 
 
 [LINE]
-Speaker342: ¡Ana!
+Speaker342: อาน่า!
 ~            Ana 
 
 [LINE]
-Speaker342: ¡Lo~siento~mucho!
+Speaker342: ฉันขอโทษมาก!
 ~            I'm~so~sorry    
 
 [LINE]
-Speaker342: Te~quiero. 
-~           I~love~you 
+Speaker342: ฉัน|รัก|คุณ 
+~           I love you
 
 [LINE]
-Speaker343: Yo también~te~quiero.
-~           I  love~you~too      
+Speaker343: ฉัน|ก็|รัก|คุณ
+~           I too love you
 
 [LINE]
-Speaker342: ¡Vamos~a     Madrid!
-~            let's~go~to Madrid 
+Speaker342: ไป|กรุงเทพฯ|กัน|เถอะ!
+~           go Bangkok together let's
 
 [LINE]
-Speaker113: ¡Disfruten~de su   luna~de~miel!
-~            enjoy        your honeymoon    
+Speaker113: เพลิดเพลิน|ไป|กับฮันนีมูน|ของ|คุณ!
+~           enjoy go honeymoon of you
 
 [MULTIPLE_CHOICE]
 > What will happen next?
@@ -129,9 +129,9 @@ Speaker113: ¡Disfruten~de su   luna~de~miel!
 
 [MATCH]
 > Tap the pairs
-- Estoy <> I am
-- Te quiero <> I love you
-- esposa muy difícil <> very difficult wife
-- Hola <> hello
-- taxi <> taxi
+- กรุงเทพฯ <> Bangkok
+- ฉันรักคุณ <> I love you
+- ภรรยา <> very difficult wife
+- สวัสดี <> hello
+- แท็กซี่ <> taxi
 
