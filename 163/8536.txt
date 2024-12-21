@@ -4,44 +4,40 @@ icon=df24f7756b139f6eda927eb776621b9febe1a3f1
 set=1|2
 
 [HEADER]
-> Una cita
-~ a   date
+> เดท
+~ date
 
 [LINE]
-> Bea está en una cita en un restaurante.
-~ Bea is   on a   date in a  restaurant  
+> เบีย|อยู่|ที่|ร้านอาหาร
+~ Bea are at restaurant  
 
 [LINE]
-Speaker507: ¡Hola!  ¿Cómo~estás? 
-~            hello   how~are~you 
+Speaker507: สวัสดี! คุณเป็นอย่างไร?
+~           hello how~are~you
 
 [LINE]
-Speaker100: ¡Bien!
-~            fine 
+Speaker100: ดี!
+~           good 
 
 [LINE]
-Speaker100: ¿Qué  quieres     comer? 
-~            what do~you~want to~eat 
+Speaker100: คุณ|อยาก|กิน|อะไร? 
+~           you want eat what
 
 [LINE]
-Speaker507: Una ensalada.
-~           a   salad    
-
-[SELECT_PHRASE]
-> Select the missing phrase
-Speaker507: Hoy   tengo  [un~partido~importante].
-~           today I~have  an~important~game      
-+ un partido importante
-- un batido importante
-- una parte imponente
+Speaker507: สลัด
+~           salad
 
 [LINE]
-Speaker100: Ah, ¿te~gustan   los~deportes?
-~           oh   do~you~like (the)~sports 
+Speaker507: ฉัน|มี|เกม|ที่|สำคัญ|ใน|วันนี้
+~           I have game that important in today
 
 [LINE]
-Speaker507: Sí,  yo juego~al fútbol.
-~           yes  I  play     soccer 
+Speaker100: คุณ|ชอบ|กีฬา|ไหม?
+~           you like sport or~not 
+
+[LINE]
+Speaker507: ใช่ ฉัน|เล่น|ฟุตบอล
+~           yes  I play soccer 
 
 [MULTIPLE_CHOICE]
 > Bea is ordering a salad because…
@@ -50,46 +46,46 @@ Speaker507: Sí,  yo juego~al fútbol.
 - …she just ate a whole pizza.
 
 [LINE]
-Speaker100: ¡Yo~también!
+Speaker100: ฉันด้วย!
 ~            me~too     
 
 [LINE]
-Speaker507: ¡Súper!
-~            great 
+Speaker507: ว้าว!
+~           wow 
 
 [LINE]
-Speaker507: ¿De~dónde~eres?     
+Speaker507: คุณมาจากที่ไหน    
 ~            where~are~you~from 
 
 [LINE]
-Speaker100: Soy  americano.
-~           I~am American  
+Speaker100: ฉัน|มา|จาก|ประเทศไทย.
+~           I come from Thailand
 
 [ARRANGE]
 > Tap what you hear
-Speaker100: [(Mi~padre)  (es~de~Cuba)   (y)   (mi~madre)  (es~de~México).]  
-~             my~father   is~from~Cuba   and   my~mother   is~from~Mexico   
+Speaker100: [(พ่อของฉัน)|(มาจากจีน)|(และ)|(แม่ของฉัน)|(มาจากญี่ปุ่น)]  
+~             my~father   is~from~China   and   my~mother   is~from~Japan   
 
 [LINE]
-Speaker507: ¡Me~encanta Cuba!
-~            I~love     Cuba 
+Speaker507: ฉัน|รัก|จีน!
+~           I love China
 
 [LINE]
-Speaker100: Cuba es muy  bonita.   
-~           Cuba is very beautiful 
+Speaker100: จีน|สวยงาม|มาก  
+~           China beautiful very
 
 [LINE]
-Speaker507: ¿Tienes      mascotas?
-~            do~you~have pets     
+Speaker507: คุณมีสัตว์เลี้ยงไหม?
+~           do~you~have~any~pets  
 
 [LINE]
-Speaker100: Tengo  dos gatos y   un perro.
-~           I~have two cats  and a  dog   
+Speaker100: ฉัน|มี|แมว|สอง|ตัว|และ|สุนัข
+~           I have cat two classifier~for~animals and dog
 
 [POINT_TO_PHRASE]
 > Choose the option that means "also."
-Speaker507: Yo (+también) (tengo) un (perro), (José).
-~           I    also      have   a   dog      José  
+Speaker507: (โฮเซ่) (ฉัน)(มี)(สุนัข)(ด้วย)
+~           Jose I have dog also 
 
 [LINE]
 Speaker100: ¿Eh? Yo~me~llamo Daniel…
