@@ -14,7 +14,7 @@ set=1|4
 [LINE]
 Speaker341: Anna! My favorite~daughter!
 ~           Anna  mi hija~favorita     
-
+#TODO
 [LINE]
 Speaker343: Mom,  you only      have   one daughter!
 ~           mamá  tú  solamente tienes una hija     
@@ -23,7 +23,7 @@ Speaker343: Mom,  you only      have   one daughter!
 > La mamá de Anna tiene muchas hijas.
 - Sí, así es.
 + No, no es así.
-
+#TODO
 [POINT_TO_PHRASE]
 > Selecciona la opción que significa "novia".
 Speaker343: (This) (is) my (+girlfriend), (Shelly).
@@ -32,7 +32,7 @@ Speaker343: (This) (is) my (+girlfriend), (Shelly).
 [LINE]
 Speaker342: Mari~mari, ¿chumleymi?
 ~           hola   cómo~estás  
-
+#TODO
 [LINE]
 Speaker343: Shelly, this is my brother, Thomas!
 ~           Shelly  este es mi hermano  Thomas 
@@ -40,7 +40,7 @@ Speaker343: Shelly, this is my brother, Thomas!
 [LINE]
 Speaker342: ¡Mari~mari!
 ~           hola  
-
+#TODO
 [ARRANGE]
 > Escucha y selecciona las palabras
 Speaker343: [(These) (are) (my)  (grandparents).]
@@ -49,15 +49,15 @@ Speaker343: [(These) (are) (my)  (grandparents).]
 [LINE]
 Speaker342: Mari~mari—
 ~           hola  
-
+#TODO
 [LINE]
 Speaker343: This is my father and my brother, Jacob!
 ~           este es mi padre  y   mi hermano  Jacob 
 
 [LINE]
-Speaker342: Mari~mari, ¿chumleymi?
-~           hola   cómo~están  
-
+Speaker342: Mari~mari, ¿chumleymu?
+~           hola   cómo~están~(dual) 
+#TODO
 [LINE]
 Speaker343: This is my brother, Steve, and my brother, Josh.
 ~           este es mi hermano  Steve  y   mi hermano  Josh 
@@ -65,15 +65,15 @@ Speaker343: This is my brother, Steve, and my brother, Josh.
 [LINE]
 Speaker342: Mari~mari, Steve. Mari~mari, Josh.
 ~           hola   Steve  hola   Josh 
-
+#TODO
 [SELECT_PHRASE]
 > Completa la oración
-Speaker342: You have   [kiñe~füta~reñma]!      
-~           tú  tienes  una~familia~grande  
+Speaker342: [kiñe~füta~reñma] nieymi!      
+~           una~familia~grande tienes 
 - a bug family
-+ a big family
++ kiñe füta reñma
 - a big finally
-
+#TODO
 [LINE]
 Speaker341: Welu  I  only      have  one daughter…
 ~           pero yo solamente tengo una hija     
@@ -81,11 +81,11 @@ Speaker341: Welu  I  only      have  one daughter…
 [LINE]
 Speaker343: ¡Ñuke!
 ~           mamá   
-
+#TODO
 [LINE]
 Speaker341: Oh! I  have  two daughters now…  
 ~           ah  yo tengo dos hijas     ahora 
-
+#TODO
 [LINE]
 Speaker341: Welcome    to the family,  Shelly!
 ~           bienvenida a  la  familia  Shelly 
@@ -102,9 +102,9 @@ Speaker342: ¡Chaltu~may!
 
 [MATCH]
 > Selecciona los pares
-- now <> ahora
+- fewla <> ahora
 - ka <> y
 - Welu <> pero
-- only <> solamente
+- re <> solamente
 - reñma <> familia
 
