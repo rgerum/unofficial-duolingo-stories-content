@@ -1,116 +1,116 @@
 [DATA]
-fromLanguageName=Clothes for My Vacation
+fromLanguageName=Roupas para as Minhas Férias
 icon=6fee4723d01611cffa9b4b76fd5be36697ef1e96
 set=4|3
 
 [HEADER]
 > Ropa    para mis vacaciones
-~ clothes for  my  vacation  
+~ roupas para  as~minhas  férias  
 
 [LINE]
-> Lucy está en una tienda.
-~ Lucy is   at a   store  
+> Lucía está en una tienda.
+~ ~ está em uma loja  
 
 [LINE]
 Speaker416: Hola,  ¿necesita ayuda?
-~           hello   you~need help  
+~           olá você~precisa~de ajuda  
 
 [LINE]
 Speaker509: Sí,  necesito ropa    para mis vacaciones.
-~           yes  I~need   clothes for  my  vacation   
+~           sim eu~preciso~de roupas para minhas férias   
 
 [MULTIPLE_CHOICE]
-> Lucy is shopping for clothes for a vacation.
-- No, that's wrong.
-+ Yes, that's right.
+> Lucía está fazendo compras de roupas para as férias.
+- Não, isso está errado.
++ Sim, isso está correto.
 
 [LINE]
 Speaker416: Está~bien.
-~           OK        
+~           está~bem        
 
 [LINE]
 Speaker509: Necesito un vestido.
-~           I~need   a  dress   
+~           eu~preciso~de um vestido   
 
 [LINE]
-> Lily busca     un vestido~verde.
-~ Lily looks~for a  green~dress   
+> Lili busca     un vestido~verde.
+~ ~ procura um vestido~verde
 
 [MULTIPLE_CHOICE]
-> Lily is getting a…
-+ …green dress.
-- …red dress.
-- …green hat.
+> Lili está pegando um…
++ …vestido verde.
+- …vestido vermelho.
+- …chapéu verde.
 
 [LINE]
 Speaker509: ¡No, yo quiero un vestido~rojo!
-~            no  I  want   a  red~dress    
+~            não eu quero um vestido~vermelho    
 
 [LINE]
-> Lily busca     un vestido~rojo.
-~ Lily looks~for a  red~dress    
+> Lili busca     un vestido~rojo.
+~ ~ procura um vestido~vermelho   
 
 [LINE]
 Speaker509: Y   quiero una chaqueta.
-~           and I~want a   jacket   
+~           e eu~quero uma jaqueta   
 
 [ARRANGE]
-> Tap what you hear
-> [(Lily) (busca)     (una) (chaqueta~roja).]
-~   Lily   looks~for   a     red~jacket      
+> Toque no que você ouve
+> [(Lili) (busca)     (una) (chaqueta~roja).]
+~   ~ procura uma jaqueta~vermelha      
 
 [LINE]
 Speaker509: ¡No, yo quiero una chaqueta~marrón!
-~            no  I  want   a   brown~jacket    
+~            não eu quero uma jaqueta~marrom    
 
 [LINE]
 Speaker416: Está~bien…
-~           OK        
+~           está~bem        
 
 [LINE]
 Speaker509: Un vestido~rojo, una chaqueta~marrón…
-~           a  red~dress     a   brown~jacket    
+~           um vestido~vermelho uma jaqueta~marrom    
 
 [SELECT_PHRASE]
-> Select the missing phrase
+> Selecione a frase que está faltando
 Speaker509: ¡[Y~un~sombrero]!
-~             and~a~hat      
+~             e~um~chapéu      
 - Y un bombero
 - Y un obrero
 + Y un sombrero
 
 [LINE]
-> Lily busca     un sombrero~azul.
-~ Lily looks~for a  blue~hat      
+> Lili busca     un sombrero~azul.
+~ ~ procura um chapéu~azul      
 
 [LINE]
 Speaker509: ¡No, yo quiero un sombrero~gris!
-~            no  I  want   a  gray~hat      
+~            não eu quero um chapéu~cinza      
 
 [LINE]
-> Lily busca     un sombrero~gris.
-~ Lily looks~for a  gray~hat      
+> Lili busca     un sombrero~gris.
+~ ~ procura um chapéu~cinza     
 
 [POINT_TO_PHRASE]
-> Choose the option meaning "ready."
+> Escolha a opção que significa "pronta".
 Speaker509: ¡(Gracias)!   ¡(Estoy) (+lista) (para) mis vacaciones!
-~             thank~you     I~am     ready   for   my  vacation   
+~             obrigada     estou pronta para as~minhas férias   
 
 [LINE]
 Speaker416: Ahora yo necesito vacaciones.  
-~           now   I  need     (a)~vacation 
+~           agora eu preciso~de férias 
 
 [MULTIPLE_CHOICE]
-> Poor Lily! Why does she need a vacation?
-- She ate too much for lunch.
-+ She's tired after helping Lucy find clothes.
-- She wants to buy new clothes to wear.
+> Pobre Lili! Por que ela precisa de férias?
+- Ela comeu demais no almoço.
++ Ela está cansada de ajudar Lucía a encontrar roupas.
+- Ela quer comprar roupas novas para usar.
 
 [MATCH]
-> Tap the pairs
-- Y <> and
-- chaqueta roja <> red jacket
-- sombrero gris <> gray hat
-- Gracias <> thank you
-- No <> no
+> Toque nos pares
+- Y <> e
+- chaqueta roja <> jaqueta vermelha
+- sombrero gris <> chapéu cinza
+- Gracias <> obrigado/a
+- No <> não
 
