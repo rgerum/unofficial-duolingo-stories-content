@@ -1,123 +1,124 @@
 [DATA]
 fromLanguageName=No Museu
 icon=09fc3d3f2b5acf538364fe21f1b5ab3a457b1d7b
-set=101|2
+set=101|5
 
 [HEADER]
 > En~el  museo
 ~ no     museu
-$1060/speech_1060_0.mp3;2,6;3,186;7,132
+$1060/87adfc0d.mp3;2,53;3,197;6,145
 
 [LINE]
 > Carmen está en~un museo  con  su    abuelo.
-~ ~      ~    num   museu  com  o~seu avó    
-$1060/speech_1060_1.mp3;6,6;5,399;3,322;3,171;6,147;5,451;4,203;7,231
+~ ~      está    num   museu  com  o~seu avó    
+$1060/634d8f19.mp3;6,53;5,408;3,289;3,105;6,132;5,434;4,184;10,132;0,460
 
 [LINE]
 Speaker1320: ¡Qué interesante!
-$1060/speech_1060_2.mp3;0,6;4,193
+~ que interessante
+$1060/1b2e2ad1.mp3;4,50;12,138;0,775
 
 [LINE]
 Speaker1320: ¡Hay fotos del pasado! 
-~             há  ~     do  passado 
-$1060/speech_1060_3.mp3;0,6;4,202;6,443;4,147
+~             há  fotos     do  passado 
+$1060/cc81881b.mp3;4,50;6,188;4,362;7,175;0,500
 
 [MULTIPLE_CHOICE]
 > No museu, há fotos do passado.
-- Não, isso não é correito.
-+ Sim, isso é verdade!
+- Não, isso está errado.
++ Sim, isso está correto.
 
 [LINE]
 Speaker2474: Sí,   es Santiago de Chile.
-~            sim   é  ~        ~  ~     
-$1060/speech_1060_5.mp3;2,6;5,642;9,184;3,651;6,115
+~            sim   é  Santiago de  Chile     
+$1060/529cfea7.mp3;2,50;1,450;5,275;9,125;3,475;6,125;0,488
 
 [LINE]
 Speaker1320: ¡No  hay carros!
-~             não há  ~      
-$1060/speech_1060_6.mp3;0,6;3,276;4,154
+~             não há  carros      
+$1060/c1142f38.mp3;3,50;5,125;7,163;0,562
 
 [SELECT_PHRASE]
-> Selecione a frase que falta
+> Selecione a frase que está faltando
 Speaker1320: [Y aquí],   una foto    de estudiantes de medicina.
-~             e aqui     uma ~       ~  estudantes  ~  ~        
-$1060/speech_1060_7.mp3;1,6;5,188;7,577;5,280;6,337;12,150;3,739;9,102
+~             e aqui     uma foto    de  estudantes  de  medicina        
+$1060/b6b772d2.mp3;1,50;5,150;1,413;6,237;5,250;6,325;12,38;3,675;9,112;0,600
 + Y aquí
-- Es así
-- Sí metí
+- Ya qué
+- Hay aquí
 
 [LINE]
 Speaker2474: Sí,   es    la Universidad  de Chile.
-~            sim   é     a  universidade ~  ~     
-$1060/speech_1060_8.mp3;2,6;5,642;6,205;12,135;3,758;6,94
+~            sim   é     a  Universidade de Chile     
+$1060/dd838c9a.mp3;2,50;1,438;5,250;6,125;12,100;4,575;6,125;0,487
 
 [LINE]
 Speaker1320: ¡Hay una mujer  en~la  foto!
-~             há  uma mulher na     ~    
-$1060/speech_1060_9.mp3;0,6;4,263;4,163;6,374;3,115;3,138
+~             há  uma mulher na     foto   
+$1060/b1dea2ae.mp3;4,50;4,225;6,188;4,325;3,125;6,112;0,425
 
 [LINE]
 Speaker1320: Solo una mujer… 
-~            só   uma mulher…
-$1060/speech_1060_10.mp3;4,6;4,376;7,258
+~            só   uma mulher
+$1060/5b482c2b.mp3;4,38;4,275;NaN,187
 
 [MULTIPLE_CHOICE]
-> A Carmen disse que…
+> A Cármen disse que…
 - … ela só conhece uma mulher.
 - … ela vê cinco mulheres na foto velha
 + … ela só vê uma mulher na foto.
 
 [LINE]
 Speaker1320: ¡Qué inteligente! ¡Y   qué importante!
-~             ~   ~             e   ~   ~          
-$1060/speech_1060_12.mp3;0,6;4,193;12,1318;4,143;6,221
+~             que   inteligente            e   que   importante          
+$1060/f942aa44.mp3;4,50;12,138;1,775;3,900;6,150;11,100;0,775
 
 [POINT_TO_PHRASE]
 > Selecione a opção que significa "olha para."
 > El (abuelo) de Carmen  (+mira)          (la)  (foto). No  habla.
-~ o   avó     ~  ~         olha~para       a     ~      não fala  
-$1060/speech_1060_13.mp3;2,10;7,113;3,469;7,109;6,413;7,313;6,125;4,514;6,587;1,255
+~ o   avó    de  ~         olha~para       a     foto     não fala  
+$1060/f3d591a9.mp3;2,53;7,223;3,316;7,132;6,434;12,303;6,131;1,421;3,895;7,276;0,408
 
 [LINE]
 Speaker1320: ¿Abuelo?
 ~             avó    
-$1060/speech_1060_14.mp3;0,6
+$1060/e506d64b.mp3;7,50
 
 [LINE]
 Speaker2474: Ella es muy    bonita…
-~            ela  é  muita  ~      
-$1060/speech_1060_15.mp3;4,6;3,307;4,211;9,216
+~            ela  é  muita  bonita      
+$1060/76f5150d.mp3;4,50;3,413;4,275;NaN,162
 
 [LINE]
 Speaker1320: Sí,   es     muy    bonita.
-~            sim   é      muita  ~      
-$1060/speech_1060_16.mp3;2,6;5,642;8,218;8,216
+~            sim   é      muita  bonita      
+$1060/396f5338.mp3;2,50;1,388;5,337;8,175;10,200;0,500
 
 [ARRANGE]
-> Toque o que você ouve
+> Toque no que você ouve
 Speaker2474: [(Ella) (es) (mi)      (abuela)].
 ~              ela    é    a~minha   avô      
-$1060/speech_1060_17.mp3;4,6;3,307;3,212;7,144
+$1060/cf7159d8.mp3;4,50;3,425;3,275;12,125;0,588
 
 [LINE]
 Speaker1320: ¡Guau!
 ~             uau  
-$1060/speech_1060_18.mp3;0,6
+$1060/d6a92966.mp3;5,50;0,388
 
 [LINE]
 Speaker1320: ¡Tengo  una familia muy    interesante!
-~             tenho  uma família muito  ~           
-$1060/speech_1060_19.mp3;0,6;6,306;5,228;8,521;4,209
+~             tenho  uma família muito  interessante          
+$1060/d1a05b15.mp3;6,50;5,263;8,200;4,487;15,150;0,813
 
 [MULTIPLE_CHOICE]
 > O que aconteceu na historia?
-+ O avó da Carmen viu uma foto da sua avô.
-- A Carmen não gostou do visito ao museu.
-- A Carmen viu uma foto do seu avó no museu.
++ O avó da Cármen viu uma foto da sua avô.
+- A Cármen não gostou do visito ao museu.
+- A Cármen viu uma foto do seu avó no museu.
 
 [MATCH]
-> Toque os pares
-- Sí <> sim
+> Toque nos pares
+- Sí <> Sim
 - muy <> muito
 - del <> do
 - abuelo <> avó
