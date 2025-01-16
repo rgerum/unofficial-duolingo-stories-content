@@ -1,135 +1,130 @@
 [DATA]
-fromLanguageName=Uma coisa
+fromLanguageName=Uma Coisa
 icon=717bd84875f83c678f64f124937a278061e0e778
 set=1|3
-
-icon_Rafael=https://stories-cdn.duolingo.com/image/8dedb551515218979bffa2ba590906d0ed1ee462.svg
-speaker_Bianca=Lucia
-speaker_Rafael=Enrique
 
 [HEADER]
 > Una cosa 
 ~ uma coisa
-$946/speech_946_0.mp3;3,6;5,276
+$8574/ff3e06d0.mp3;3,53;4,263
 
 [LINE]
-> Bianca está en casa, con  su    hermano, Rafael.
-~ ~      ~    em ~     com  o~seu irmão    ~      
-$946/speech_946_1.mp3;6,6;5,551;3,326;5,158;5,662;4,222;8,154;8,693
+> Lucía está en casa, con  su  nieta,         Lin.
+~ ~ está em casa com sua neta ~ 
+$8574/b612ec9c.mp3;5,53;5,447;3,237;5,118;1,527;4,144;4,198;7,158;1,539;12,224;0,342
 
 [LINE]
-Speaker856: ¡Ay, no!  Necesito pan    para mi    sándwich. 
-~            Oh  não  Preciso  de~pão para o~meu sanduíche 
-$946/speech_946_2.mp3;0,6;3,590;4,670;10,593;4,219;5,213;3,122
+Speaker509: ¡Ay, no! Necesito pan   para mi sándwich.
+~            ai não preciso~de pão para meu sanduíche 
+$8574/ee7f7205.mp3;3,56;1,569;3,139;1,305;9,945;4,680;7,264;3,195;9,180;0,695
+
+[LINE]
+Speaker508: ¿Vas           al     supermercado?
+~            você~vai ao supermercado  
+$8574/ade93e38.mp3;4,50;13,275;17,125
+
+[LINE]
+Speaker509: Sí. 
+~           sim 
+$8574/fcec58ea.mp3;2,56;0,500
+
+[MULTIPLE_CHOICE]
+> Lin e Lucía têm muito pão.
+- Sim, está correto.
++ Não, está errado.
+
+[LINE]
+Speaker508: ¡Ah, necesito una cosa  del      supermercado!
+~            ah preciso~de uma coisa do supermercado  
+$8574/40c2ebbf.mp3;3,50;1,300;9,163;4,537;5,200;5,300;18,163;0,825
+
+[LINE]
+Speaker509: ¿Qué? 
+~            o~quê 
+$8574/fee4ea38.mp3;4,56
+
+[LINE]
+Speaker508: Un  tomate, por~favor.
+~           um tomate por~favor    
+$8574/251c1963.mp3;2,50;8,188;1,550;4,150;6,162;0,513
 
 [SELECT_PHRASE]
-> Selecione a palavra que falta
-SpeakerRafael: ¿Vas      al [supermercado]?
-~               Você~vai ao  ~             
-$946/speech_946_3.mp3;0,6;4,241;3,83
-- superado
-+ supermercado
-- super marcado
+> Selecione a frase que está faltando
+Speaker508: Es   para [mi~ensalada].
+~           é para minha~salada  
+$8574/5a73dbdb.mp3;2,50;7,250;3,188;9,175;0,675
+- linda y salada
++ mi ensalada
+- la mía es salada
 
 [LINE]
-Speaker856: Sí.   Quiero comer  un sándwich  de queso. 
-~           Sim   Quero  comer  um sanduíche de queijo 
-$946/speech_946_4.mp3;2,6;9,775;6,223;4,292;9,135;3,521;6,120
+Speaker509: Está~bien.
+~           tudo~bem        
+$8574/9d680b58.mp3;4,56;5,416;0,459
 
 [LINE]
-SpeakerRafael: ¡Ah, también necesito una    cosa   del supermercado!
-~               Ah  também  preciso  de~uma coisa  do  supermercado 
-$946/speech_946_5.mp3;0,6;3,585;9,302;9,500;4,196;5,295;5,136
-
-[MULTIPLE_CHOICE]
-> Rafael...
-- ... quer ir ao supermercado com Bianca.
-+ ... também precisa de uma coisa do supermercado.
-- ... está fazendo um sanduíche de queijo também
-
-[LINE]
-Speaker856: ¿Qué?
-~            Quê 
-$946/speech_946_7.mp3;0,6
-
-[LINE]
-SpeakerRafael: Un  tomate, por~favor.
-~              Um  tomate  por~favor 
-$946/speech_946_8.mp3;2,6;8,139;5,706;6,127
-
-[ARRANGE]
-> Toque no que escutar
-SpeakerRafael: [(Es) (para) (mi)      (ensalada)].
-~                é    para   a~minha   salada     
-$946/speech_946_9.mp3;2,6;5,129;3,206;9,162
-
-[LINE]
-Speaker856: Está bien.
-~           está bem  
-$946/speech_946_10.mp3;4,6;5,296
-
-[LINE]
-SpeakerRafael: ¡Gracias! 
-~               Obrigado 
-$946/speech_946_11.mp3;0,6
-
-[LINE]
-SpeakerRafael: ¡Ah! Y también quiero tres  manzanas...
-~               Ah  E também  quero  três  maçãs      
-$946/speech_946_12.mp3;0,6;3,599;3,60;8,326;7,241;5,247
-
-[LINE]
-Speaker856: Está~bien.
-~           está~bem  
-$946/speech_946_13.mp3;4,6;5,296
-
-[LINE]
-SpeakerRafael: ...y jugo de naranja.
-~                 e suco de laranja 
-$946/speech_946_14.mp3;0,6;4,62;5,296;3,112
-
-[LINE]
-Speaker856: Qué...
-~           quê   
-$946/speech_946_15.mp3;3,6
-
-[LINE]
-SpeakerRafael: ...y leche, por~favor.
-~                 e leite  por~favor 
-$946/speech_946_16.mp3;0,6;4,78;6,612;5,126
+Speaker508: ¡Gracias!  
+~            obrigada 
+$8574/f3991f35.mp3;8,50;0,813
 
 [POINT_TO_PHRASE]
-> Toque na opção que significa "irmãozinho."
-Speaker856: (Mmm)...  (tengo)  una (idea),  (+hermanito). 
-~            ~          tenho   uma  ideia     irmãozinho  
-$946/speech_946_17.mp3;3,6;11,1248;5,271;5,296;11,650
+> Escolha a opção que significa "também".
+Speaker508: ¡Ah! Y   (+también) (quiero) (tres)  (manzanas)…
+~            ah e também quero três maçãs
+$8574/f396ac18.mp3;3,50;1,338;2,862;10,125;7,463;5,250;NaN,275
 
 [LINE]
-Speaker856: Aquí está el  dinero.  
-~           Aqui está o   dinheiro 
-$946/speech_946_18.mp3;4,6;5,353;3,328;8,124
+Speaker509: Está~bien.
+~           tudo~bem        
+$8574/6790c7a3.mp3;4,56;5,416;0,459
 
 [LINE]
-SpeakerRafael: |¿ Qué?  
-~               O O~quê 
-$946/speech_946_19.mp3;0,6
+Speaker508: …y   jugo~de~naranja…
+~             e suco~de~laranja    
+$8574/65a9e2c6.mp3;NaN,800;NaN,125;3,400;NaN,113
 
 [LINE]
-Speaker856: Quiero   una cosa   del supermercado: pan.
-~           Eu~quero uma coisa  do  supermercado  pão 
-$946/speech_946_20.mp3;6,6;4,244;5,289;5,300;13,171;5,1112
+Speaker509: Lin…
+~           ~ 
+$8574/56672db3.mp3;NaN,56
+
+[LINE]
+Speaker508: …y   leche, por~favor.
+~             e leite por~favor    
+$8574/c5ca4087.mp3;NaN,800;NaN,150;1,550;4,113;6,162;0,525
+
+[LINE]
+Speaker509: Mmm… tengo  una idea.
+~           hum tenho uma ideia 
+$8574/77040f64.mp3;2,56;NaN,1902;NaN,320;5,264;0,472
+
+[ARRANGE]
+> Toque no que você ouve
+Speaker509: [(Aquí) (está) (el)  (dinero), (Lin).]
+~             aqui está o dinheiro ~   
+$8574/89a2afdb.mp3;4,56;5,416;3,320;8,111;1,569;4,153;0,333
+
+[LINE]
+Speaker508: ¡¿Qué?! 
+~             que  
+$8574/53af9f58.mp3;5,50
+
+[LINE]
+Speaker509: Yo quiero una cosa  del      supermercado: pan.  
+~           eu quero uma coisa do supermercado pão 
+$8574/1cadfee1.mp3;2,56;7,263;4,278;5,278;5,361;18,195;1,1000;4,194;0,347
 
 [MULTIPLE_CHOICE]
-> Bianca decidiu...
-+ ... dar dinheiro ao Rafael para comprar a única coisa que ela queria: pão.
-- ... comprar três maçãs do supermercado.
-- ... fazer um sanduíche de queijo para o Rafael.
+> Por que Lucía deu dinheiro para Lin?
+- Lin está abrindo uma loja de sanduíches.
++ Ela quer que Lin vá ao supermercado.
+- Lin está indo a um restaurante para almoçar.
 
 [MATCH]
 > Toque nos pares
-- Es <> é
-- Sí <> sim
-- manzanas <> maçãs
-- pan <> pão
-- Quiero <> quero
+- idea <> ideia
+- una <> uma
+- Yo <> Eu
+- nieta <> neta
+- por favor <> por favor
 
