@@ -1,166 +1,167 @@
 [DATA]
-fromLanguageName=Um encontro
+fromLanguageName=Um Encontro
 icon=df24f7756b139f6eda927eb776621b9febe1a3f1
 set=1|2
 
-speaker_Daniel=Enrique
-speaker_Julia=Lucia
-
 [HEADER]
-> Una cita    
-~ um  encontro
-$680/speech_680_0.mp3;3,6;5,248
+> Una cita
+~ um encontro
+$8573/dd8150fa.mp3;3,53;4,263
 
 [LINE]
-> Julia está en~una cita     en~un restaurante.
-~ ~     está em~um  encontro em~um restaurante 
-$680/speech_680_1.mp3;5,6;5,437;3,330;4,171;5,190;3,377;3,161;12,152
+> Bea está en una cita en un restaurante.
+~ ~ está em um encontro em um restaurante  
+$8573/fe835aad.mp3;3,53;5,276;3,276;4,106;5,197;3,368;3,119;12,158;0,789
 
 [LINE]
-Speaker100: ¿Qué   quieres comer?
-~            o~que quer    comer 
-$680/speech_680_2.mp3;0,6;4,136;8,276
+Speaker507: ¡Hola!  ¿Cómo~estás? 
+~            oi como~você~tá 
+$8573/2e92a91e.mp3;5,50;1,475;7,863;6,375
+
+[LINE]
+Speaker100: ¡Bien!
+~            bem 
+$8573/eb0e7bec.mp3;5,46;0,417
+
+[LINE]
+Speaker100: ¿Qué  quieres     comer? 
+~            o~que você~quer comer 
+$8573/a5a61429.mp3;4,46;9,151;10,335
+
+[LINE]
+Speaker507: Una ensalada.
+~           uma   salada    
+$8573/b7f92c5e.mp3;3,50;9,350;0,750
+
+[SELECT_PHRASE]
+> Selecione a frase que está faltando
+Speaker507: Hoy   tengo  [un~partido~importante].
+~           hoje eu~tenho um~jogo~importante
+$8573/2b2e9d64.mp3;3,50;8,200;4,313;8,125;11,425;0,787
++ un partido importante
+- un batido importante
+- una parte imponente
+
+[LINE]
+Speaker100: Ah, ¿te~gustan   los~deportes?
+~           ah você~gosta~de esportes 
+$8573/720a240e.mp3;2,46;1,301;4,151;7,92;6,371;9,127
+
+[LINE]
+Speaker507: Sí,  yo juego~al fútbol.
+~           sim eu jogo futebol 
+$8573/d3cbb88a.mp3;2,50;1,438;4,225;6,137;3,325;7,113;0,550
 
 [MULTIPLE_CHOICE]
-> O rapaz com quem Julia está falando quer saber...
-- … onde encontrar o restaurante.
-+ … o que Julia quer comer.
-- … quanto custa a comida.
+> Bea está pedindo uma salada porque…
++ …ela vai jogar futebol hoje.
+- …seu encontro disse que a salada é deliciosa.
+- …ela acabou de comer uma pizza inteira.
 
 [LINE]
-Speaker336: Una ensalada.
-~           uma salada   
-$680/speech_680_4.mp3;3,6;9,262
+Speaker100: ¡Yo~también!
+~            eu~também    
+$8573/1681c6c7.mp3;3,46;8,197;0,486
 
 [LINE]
-Speaker336: No  como carne.
-~           não como carne 
-$680/speech_680_5.mp3;2,6;5,183;6,244
+Speaker507: ¡Súper!
+~            super 
+$8573/5bd55f9d.mp3;6,50;0,613
 
 [LINE]
-Speaker100: ¿Eres   vegetariana?
-~            você~é vegetariana 
-$680/speech_680_6.mp3;0,6;5,230
+Speaker507: ¿De~dónde~eres?     
+~            de~onde~você~é
+$8573/f013fdae.mp3;3,50;6,200;5,375
 
 [LINE]
-Speaker336: Sí…
-~           sim
-$680/speech_680_7.mp3;3,6
-
-[LINE]
-Speaker100: ¡Yo también!
-~            eu também  
-$680/speech_680_8.mp3;0,6;3,181
-
-[MULTIPLE_CHOICE]
-> Por que ele disse isso?
-+ Ele também é vegetariano.
-- Ele odeia saladas.
-- Ele ama comer carne.
-
-[LINE]
-Speaker336: ¡Perfecto!
-~            perfeito 
-$680/speech_680_10.mp3;0,6
+Speaker100: Soy  americano.
+~           sou americano  
+$8573/6d0c68bc.mp3;3,46;11,313;0,579
 
 [ARRANGE]
-> Toque no que escutar
-Speaker336: ¿[(De) (dónde) (eres)]?  
-~              de   onde    você~é   
-$680/speech_680_11.mp3;0,6;3,222;6,318
+> Toque no que você ouve
+Speaker100: [(Mi~padre)  (es~de~Cuba)   (y)   (mi~madre)  (es~de~México).]  
+~             meu~pai é~de~Cuba e minha~mãe é~do~México   
+$8573/51cb2cbf.mp3;2,46;6,174;4,336;3,127;5,92;4,313;5,81;6,116;4,347;3,127;7,81;0,510
 
 [LINE]
-Speaker100: Soy americano.
-~           sou americano 
-$680/speech_680_12.mp3;3,6;10,236
+Speaker507: ¡Me~encanta Cuba!
+~            eu~adoro Cuba 
+$8573/e2c5ec40.mp3;3,50;8,188;5,500;0,462
 
 [LINE]
-Speaker100: Mi    padre es de Cuba y mi      madre es de México.
-~           o~meu pai   é  de Cuba e a~minha mãe   é  do México 
-$680/speech_680_13.mp3;2,6;6,130;3,338;3,107;5,69;2,274;3,43;6,135;3,311;3,117;7,77
+Speaker100: Cuba es muy  bonita.   
+~           Cuba é muito bonita 
+$8573/5df3155a.mp3;4,46;3,313;4,150;8,162;0,475
 
 [LINE]
-Speaker336: ¡Yo soy cubana!
-~            eu sou cubana 
-$680/speech_680_14.mp3;0,6;3,233;4,219
+Speaker507: ¿Tienes      mascotas?
+~            você~tem animáis~de~estimação   
+$8573/34e284aa.mp3;7,50;14,413
 
 [LINE]
-Speaker100: Cuba es muy   bonita!
-~           ~    é  muito bonita 
-$680/speech_680_15.mp3;4,6;3,287;4,109;7,131
+Speaker100: Tengo  dos gatos y   un perro.
+~           tenho dois gatos e um cachorro   
+$8573/b453e3a7.mp3;5,46;5,278;6,220;2,394;5,69;6,127;0,394
 
 [POINT_TO_PHRASE]
-> Selecione o opção que significa "animais de estimação"
-> ¿(Tienes) (+mascotas)?            
-~   tens      animais~de~estimação  
-$680/speech_680_16.mp3;0,6;7,409
+> Escolha a opção que significa "também".
+Speaker507: Yo (+también) (tengo) un (perro), (José).
+~           eu também tenho um cachorro ~  
+$8573/28fac914.mp3;2,50;8,238;6,412;3,275;6,138;1,487;5,125;0,438
 
 [LINE]
-Speaker336: Tengo tres gatos y dos  perros.   
-~           tenho três gatos e dois cachorros 
-$680/speech_680_17.mp3;5,6;5,297;6,241;2,376;4,60;7,229
+Speaker100: ¿Eh? Yo~me~llamo Daniel…
+~            eh eu~me~chamo ~ 
+$8573/b1128f2e.mp3;3,46;4,1042;3,197;6,104;NaN,289
 
 [LINE]
-Speaker100: ¡Qué interesante! 
-~            que interessante 
-$680/speech_680_18.mp3;0,6;4,107
+Speaker100: ¿Tú~no~eres Gabriela?
+~            você~não~é ~ 
+$8573/e4f24887.mp3;3,46;3,128;5,196;9,243
 
 [LINE]
-Speaker100: Yo tambien tengo dos  perros,    Gabriela.
-~           eu também  tenho dois cachorros  ~        
-$680/speech_680_19.mp3;2,6;8,146;6,377;4,250;7,217;10,779
+Speaker507: ¡No!
+~            não 
+$8573/d6ea05d6.mp3;3,50;0,363
 
 [LINE]
-Speaker336: ¿Eh? Soy Julia...
-~            é   sou ~       
-$680/speech_680_20.mp3;0,6;3,618;5,237
-
-[LINE]
-Speaker336: Tú   eres José, ¿verdad? 
-~           você é    ~      verdade 
-$680/speech_680_21.mp3;2,6;5,215;5,214;9,669
-
-[LINE]
-Speaker100: ¡Ay, no! 
-~            Oh  não 
-$680/speech_680_22.mp3;0,6;3,431
-
-[LINE]
-Speaker100: Mi    nombre es Daniel...
-~           o~meu nome   é  ~        
-$680/speech_680_23.mp3;2,6;7,105;3,279;7,94
+Speaker507: ¡Yo~me~llamo Bea!
+~            eu~me~chamo ~ 
+$8573/5c629b85.mp3;3,50;3,275;6,163;4,300;0,425
 
 [MULTIPLE_CHOICE]
-> Julia e Daniel deveriam conhecer pessoas diferentes.
-- Não, isso não é correito.
-+ Sim, isso é verdade.
+> Você ouviu isso? Bea e Daniel…
+- …compraram passagens para Cuba.
++ …deveriam se encontrar com pessoas diferentes.
+- …estão passeando com seus cachorros.
 
 [LINE]
-> Una mujer  camina  hacia        Daniel.
-~ uma mulher caminha em~direção~à ~      
-$680/speech_680_25.mp3;3,6;6,245;7,387;6,482;7,320
+> Una mujer camina hacia   Daniel.
+~ Uma mulher caminha em~direção~a ~ 
+$8573/43cf1f8a.mp3;3,53;6,223;7,369;6,460;9,263;0,500
 
 [LINE]
-Speaker101: ¡Hola! ¿Eres   Daniel? Soy Gabriela.
-~            Olá    Você~é ~       Sou ~        
-$680/speech_680_26.mp3;0,6;5,757;7,343;7,881;5,259
+Speaker101: ¡Hola!  ¿Eres    Daniel? Soy  Gabriela.
+~            oi você~é o~Daniel sou ~ 
+$8573/1efcf684.mp3;5,50;1,463;7,850;10,387;5,1413;10,375;0,712
 
 [LINE]
-Speaker100: No,  lo~siento. Soy José.
-~           Não  desculpe   Sou ~    
-$680/speech_680_27.mp3;2,6;4,492;7,106;5,897;5,204
+Speaker100: No, lo~siento. Soy  José.
+~           não desculpa eu~sou ~
+$8573/1497a5a6.mp3;2,46;1,394;3,185;7,81;1,440;4,787;6,301;0,451
 
 [MULTIPLE_CHOICE]
-> Ao fim da história, Daniel…
-- …estava cansado de falar com Julia.
-+ …mentiu para a sua verdadeira acompanhante, porque ele gostou de Julia.
-- …conheceu alguém que se chamava José.
+> Uau! O que acabou de acontecer?
+- Bea mudou seu nome para Gabriela.
++ Daniel mentiu para seu verdadeiro encontro porque ele gosta da Bea.
+- Os cachorros da Bea e do Daniel jogaram futebol.
 
 [MATCH]
 > Toque nos pares
-- nombre <> nome
-- perros <> cachorros
-- Yo también <> eu também
-- eres <> é
-- sí <> sim
+- y <> e
+- Soy <> Eu sou
+- ensalada <> salada
+- Me encanta <> Eu adoro
+- Eh <> eh
 
