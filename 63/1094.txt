@@ -1,169 +1,162 @@
 [DATA]
-fromLanguageName=A lua de mel
+fromLanguageName=A Lua De Mel
 icon=7e5d271488d31d6f1d0c503512e642ca7effe84f
 set=1|4
 
-speaker_Speaker113=Enrique
-speaker_Speaker112=Lucia
-
 [HEADER]
-> La  luna de miel
-~ a   lua  de mel 
-$1094/speech_1094_0.mp3;2,6;6,179;3,306;5,114
+> La~luna~de~miel
+~ a~lua~de~mel      
+$8575/37b1e009.mp3;2,53;5,197;3,303;4,131
 
 [LINE]
-> Lucía está en un taxi.
-~ ~     ~    em um ~    
-$1094/speech_1094_1.mp3;5,6;5,586;3,363;3,176;5,161
+> Ana está en un~taxi.
+~ ~ está em um~táxi  
+$8575/c5081766.mp3;3,53;5,289;3,290;3,105;5,158;0,500
 
 [LINE]
-Speaker113: Hola,  buenos~días.
-~           Olá    bom~dia     
-$1094/speech_1094_2.mp3;4,6;9,534;5,365
+Speaker113: Hola,  buenos~días. 
+~           olá bom~dia 
+$8575/d94015c5.mp3;4,50;1,338;8,237;5,250;0,350
+
+[SELECT_PHRASE]
+> Selecione a frase que está faltando
+Speaker343: Hola,  necesito [ir~al~aeropuerto],     por~favor.
+~           oi preciso ir~pro~aeroporto por~favor  
+$8575/3cb53376.mp3;4,45;1,353;10,170;3,568;3,159;11,103;1,636;8,114;6,147;0,432
++ ir al aeropuerto
+- ir al puerto
+- y el aeropuerto
 
 [LINE]
-Speaker439: Hola,  necesito   ir al aeropuerto,     por favor.
-~           Olá    preciso~de ~  ao aeroporto       ~   ~     
-$1094/speech_1094_3.mp3;4,6;11,577;3,686;3,179;11,138;9,1024;6,150
-
-[MULTIPLE_CHOICE]
-> Lucía está em um táxi e quer ir ao aeroporto.
-+ Sim, isso mesmo.
-- Não, não é verdade.
-
-[LINE]
-Speaker113: Está bien.
-~           ~    bem  
-$1094/speech_1094_5.mp3;4,6;5,255
+Speaker113: Está~bien.
+~           tudo~bem        
+$8575/a08e1dd2.mp3;4,50;5,288;0,250
 
 [LINE]
 Speaker113: ¿Vacaciones?
-~            Férias     
-$1094/speech_1094_6.mp3;0,6
+~            férias   
+$8575/f1b9c3ad.mp3;11,50
+
+[LINE]
+Speaker343: No~son~vacaciones…  
+~           não~são~férias 
+$8575/b4ff22fa.mp3;2,34;4,250;NaN,227
+
+[ARRANGE]
+> Toque no que você ouve
+Speaker343: [(Tengo)  (un~boleto) (para) (Madrid).]
+~             tenho um~bilhete pra Madri   
+$8575/2632763b.mp3;5,45;4,250;7,103;5,386;7,171;0,397
+
+[LINE]
+Speaker343: Bueno… dos boletos.
+~           bom dois bilhetes
+$8575/eb9108dc.mp3;4,45;NaN,1228;NaN,295;0,648
+
+[LINE]
+Speaker113: ¡Madrid es mi ciudad~favorita! ¡Es   muy  bonita!   
+~            Madri é minha cidade~favorita é muito linda 
+$8575/01661900.mp3;7,50;3,425;3,125;7,113;9,350;1,537;4,863;6,175;8,175;0,450
+
+[LINE]
+Speaker343: Es   mi luna~de~miel…
+~           é minha lua~de~mel    
+$8575/0f25c39b.mp3;2,45;5,216;5,125;3,284;NaN,103
 
 [MULTIPLE_CHOICE]
-> O motorista quer saber…
-- ... se Lucía está indo para casa.
-+ ... se Lucía está viajando de férias.
-- ... quanto Lucía vai pagar-lhe.
+> Por que Ana está indo para Madri?
++ Ela está indo para a lua de mel.
+- Ela está aprendendo a dançar flamenco.
+- Ela está se casando lá.
 
 [LINE]
-Speaker439: No  son vacaciones…
-~           não são férias…    
-$1094/speech_1094_8.mp3;2,6;4,214;12,243
+Speaker113: Ah. ¿Dónde está su   esposo? 
+~           ah onde está seu marido
+$8575/c61c3d7c.mp3;2,50;1,238;7,875;5,312;3,200;9,75
 
 [LINE]
-Speaker439: Tengo  un boleto  para Madrid.
-~           Tenho  um bilhete ~    ~      
-$1094/speech_1094_9.mp3;5,6;4,283;7,171;5,452;7,266
+Speaker343: No~tengo     esposo.    ¡Tengo  una esposa~muy~difícil! 
+~           não~tenho marido tenho uma esposa~muito~difícil 
+$8575/16a41b88.mp3;2,45;6,228;11,272;1,523;10,773;5,239;7,125;4,363;8,205;0,466
 
 [LINE]
-Speaker439: Bueno…| dos  boletos. 
-~           bem…    dois bilhetes 
-$1094/speech_1094_10.mp3;6,6;4,647;8,305
-
-[LINE]
-Speaker113: ¡Madrid es mi      ciudad favorita! ¡Es    muy    bonita!
-~            ~      é  a~minha cidade ~          É     muito  ~      
-$1094/speech_1094_11.mp3;0,6;7,392;3,118;3,125;7,315;9,1056;5,153;7,134
-
-[LINE]
-Speaker439: Es    mi      luna~de~miel…
-~           é     a~minha lua~de~mel…  
-$1094/speech_1094_12.mp3;2,6;6,219;5,132;3,310;6,90
+Speaker343: Ella no~quiere    ir~a     Madrid conmigo.
+~           ela não~quer ir~pra Madri comigo
+$8575/54cb4c06.mp3;4,45;3,285;7,147;6,239;2,136;11,46;8,397;0,512
 
 [MULTIPLE_CHOICE]
-> Por que Lucía vai pra Madrid?
-+ Ela está indo em lua de mel.
-- Ela vai a um funeral.
-- Ela vai se casar lá.
+> Oh não! A esposa da Ana…
+- …esqueceu de levar o protetor solar.
+- …já está em Madri.
++ …não quer ir a Madri com ela.
 
 [LINE]
-Speaker113: Ah. ¿Dónde está su      esposo?
-~           ~    Aonde ~    o~seu   marido 
-$1094/speech_1094_14.mp3;2,6;8,599;5,375;3,209;9,148
+Speaker343: Estoy muy  triste.
+~           estou muito triste    
+$8575/3c78b359.mp3;5,45;4,387;8,261;0,466
 
 [LINE]
-Speaker439: No  tengo     esposo.  ¡Tengo  una esposa muy    difícil!
-~           não tenho     marido    Tenho  uma esposa muito  ~       
-$1094/speech_1094_15.mp3;2,6;6,236;11,374;9,1039;5,306;7,251;4,556;9,229
+Speaker113: Ah… lo~siento.
+~           ah sinto~muito
+$8575/e0f75dc7.mp3;1,50;NaN,975;NaN,100;0,413
 
 [LINE]
-Speaker439: Ella no  quiere    ir~a     Madrid conmigo.
-~           Ela  não quer      ir~para  ~      comigo  
-$1094/speech_1094_16.mp3;4,6;3,321;7,142;6,296;2,176;8,65;8,450
-
-[MULTIPLE_CHOICE]
-> A esposa da Lucía…
-+ … não quer ir para Madrid com ela..
-- … já está em Madrid.
-- … está no táxi com ela.
-
-[LINE]
-Speaker439: Estoy muy    triste.
-~           estou muito  ~      
-$1094/speech_1094_18.mp3;5,6;4,531;8,211
-
-[LINE]
-Speaker113: Ah…| lo~siento.
-~           ~…   desculpe  
-$1094/speech_1094_19.mp3;3,6;3,306;7,106
-
-[LINE]
-Speaker113: Bueno…| estamos en~el  aeropuerto.
-~           Bem…    estamos no     aeroporto  
-$1094/speech_1094_20.mp3;6,6;8,598;3,471;3,112;12,83
+Speaker113: Bueno… estamos en~el aeropuerto.
+~           bom estamos no aeroporto   
+$8575/bd496ab6.mp3;4,50;NaN,1113;NaN,400;3,75;11,112;0,600
 
 [POINT_TO_PHRASE]
-> Selecione a opção que significa "mala."
-> Una (mujer)  con  una (+maleta)   (corre) en~dirección~al (taxi).
-~ uma  mulher  com  uma   mala       ~      em~direção~ao    ~     
-$1094/speech_1094_21.mp3;3,6;6,245;4,387;5,179;7,214;8,411;3,354;10,120;3,573;5,139
+> Escolha a opção que significa "corre".
+> (Una~mujer) (con)  una~maleta (+corre) en~dirección~al (taxi).
+~  uma~mulher com uma~mala corre na~direção~do táxi  
+$8575/56a38b42.mp3;3,53;6,197;4,395;5,210;7,185;6,421;3,342;10,92;3,526;5,145;0,474
 
 [LINE]
-Speaker439: ¿María?
-$1094/speech_1094_22.mp3;0,6
+Speaker343: ¿Salma?
+~            ~ 
+$8575/78d0bb1f.mp3;6,45
 
 [LINE]
-Speaker1186: ¡Lucía!
-$1094/speech_1094_23.mp3;0,6
+Speaker342: ¡Ana!
+~            ~ 
+$8575/a565d23b.mp3;4,50;0,463
 
 [LINE]
-Speaker1186: ¡Lo~siento~mucho!
-~             Eu~sinto~muito  
-$1094/speech_1094_24.mp3;0,6;3,151;7,397
+Speaker342: ¡Lo~siento~mucho!
+~            sinto~muito    
+$8575/ce73888c.mp3;3,50;7,163;6,337;0,438
 
 [LINE]
-Speaker1186: Te~quiero.
-~            te~amo    
-$1094/speech_1094_25.mp3;2,6;7,104
+Speaker342: Te~quiero. 
+~           te~amo 
+$8575/05c77a52.mp3;2,50;7,163;0,475
 
 [LINE]
-Speaker439: Yo también te~quiero.
-~           Eu também  te~amo    
-$1094/speech_1094_26.mp3;2,6;8,249;3,430;7,115
+Speaker343: Yo también~te~quiero.
+~           eu também~te~amo      
+$8575/5601fbac.mp3;2,45;8,216;3,455;7,102;0,364
 
 [LINE]
-Speaker1186: ¡Vamos~a    Madrid!
-~             vamos~para ~      
-$1094/speech_1094_27.mp3;0,6;6,398;2,54
+Speaker342: ¡Vamos~a     Madrid!
+~            vamos~pra Madri
+$8575/33190c7a.mp3;6,50;2,375;11,63;0,475
 
 [LINE]
-Speaker113: ¡Disfruten~de su    luna~de~miel!
-~            aproveitem   sua   lua~de~mel   
-$1094/speech_1094_28.mp3;0,6;10,567;3,100;3,152;7,244;3,94
+Speaker113: ¡Disfruten~de su   luna~de~miel!
+~            aproveitem sua lua~de~mel    
+$8575/a9236302.mp3;10,50;3,550;3,88;7,137;3,275;5,113;0,250
 
 [MULTIPLE_CHOICE]
-> O que aconteceu quando Lucía chegou ao aeroporto?
-+ Sua esposa, María, pediu desculpas e disse que a amava.
-- O taxista concordou em viajar com ela.
-- Sua esposa, María, telefonou para Lucía.
+> O que acontecerá a seguir?
+- Ana começará seu novo trabalho no aeroporto.
+- Ana e o taxista irão para Madri juntos.
++ Ana e sua esposa, Salma, irão para Madri juntas.
 
 [MATCH]
-> Selecione os pares
-- Ella <> ela
-- buenos días <> bom dia
-- su <> sua
-- luna de miel <> lua de mel
-- No son vacaciones <> não são férias
+> Toque nos pares
+- Estoy <> Estou
+- Te quiero <> Te amo
+- esposa muy difícil <> esposa muito difícil
+- Hola <> olá/oi
+- taxi <> táxi
 
