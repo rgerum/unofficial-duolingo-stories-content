@@ -51,8 +51,9 @@ Speaker119: ¡Mamá!
 Speaker119: ¡Por~favor!
 ~           por~favor
 
-[LINE]
-> La madre de Juan saca dinero de su cartera.
+[POINT_TO_PHRASE]
+> Selecione a frase que significa "bolsa".
+> La madre de Juan (saca) (dinero) (de) su (+cartera).
 ~ A mãe de ~ pega dinheiro da sua bolsa
 
 [LINE]
@@ -67,19 +68,36 @@ Speaker119: Mamá, necesito más dinero...
 Speaker3299: Es suficiente para el autobús a~la biblioteca.
 ~            é suficiente para o ônibus para~a biblioteca
 
-[LINE]
-Speaker593: Aquí está,  mi amor.
-~           here it~is  my love 
-
-[LINE]
-Speaker560: ¿Dónde está el  azúcar? Ah, aquí está. 
-~            where is   the sugar   oh  here it~is 
-
 [MULTIPLE_CHOICE]
-> Hmm… what is Priti doing?
-- pouring her coffee on the table
-- putting sugar on her keys
-+ looking for some sugar for her coffee
+> O que a mãe do Juan quer dizer?
++ É dinheiro suficiente para pegar o ônibus para a biblioteca.
+- Ela quer ir à biblioteca.
+- É dinheiro suficiente para ir ao cinema.
+
+[LINE]
+Speaker119: Pero mamá, la película...
+~           mas mamãe  o filme 
+
+[LINE]
+Speaker3299: Ah, está bien...
+~            ah está bem
+
+[ARRANGE]
+> Toque no que você ouve
+Speaker3299: [(Esto) (es) (para) (la) (comida~del~perro).]
+~              isto é para a comida~do~cachorro
+
+[LINE]
+Speaker119: Gracias, mamá...
+~           obrigado mamãe
+
+[LINE]
+Speaker119: Ahh...
+~           ahh
+
+[LINE]
+Speaker119: ¿Puedo usar tu carro?
+~           posso pegar teu carro
 
 [LINE]
 > Ella bebe   su  café.  
