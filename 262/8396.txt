@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=La luna di miele
+icon=7e5d271488d31d6f1d0c503512e642ca7effe84f
+set=1|4
+
+[HEADER]
+> Медовый~месяц
+~ luna~di~miele     
+
+[LINE]
+> Анна в  такси.
+~ Anna in un~taxi  
+
+[LINE]
+Speaker113: Здравствуйте,  добрый~день. 
+~           salve  buongiorno 
+
+[SELECT_PHRASE]
+> Seleziona l'espressione mancante
+Speaker343: Здравствуйте,  мне~нужно [ехать~в~аэропорт], пожалуйста.
+~           salve  mi~serve    andare~all'aeroporto   perfavore   
++ ехать в аэропорт
+- ехать в порт
+- и аэропорт
+
+[LINE]
+Speaker113: Хорошо.
+~           OK        
+
+[LINE]
+Speaker113: Каникулы?
+~           vacanze   
+
+[LINE]
+Speaker343: Это~не каникулы…  
+~           non~sono vacanze
+
+[ARRANGE]
+> Seleziona ciò che senti
+Speaker343: [(У~меня~есть)  (билет) (до) (Мадрида).]
+~             io~ho   un~biglietto   per     Madrid   
+
+[LINE]
+Speaker343: Ну… два билета.
+~           beh due biglietti
+
+[LINE]
+Speaker113: Мадрид – мой любимый город! Он очень красивый!   
+~           Madrid è la~mia preferita città Essa~è molto bella
+
+[LINE]
+Speaker343: Это мой медовый~месяц…
+~           Essa-è la~mia luna~di~miele   
+
+[MULTIPLE_CHOICE]
+> Perché Anna sta andando a Madrid?
++ Sta andando per la sua luna di miele.
+- Sta imparando a ballare il flamenco.
+- Si sposerà lì.
+
+[LINE]
+Speaker113: Ах. Где  Ваш муж? 
+~           oh  dove Suo marito
+
+[LINE]
+Speaker343: У~меня~нет мужа.    У~меня-есть очень~трудная~жена! 
+~           io~non~ho un~marito Io~ho  una~sposa~molto~difficile
+
+[LINE]
+Speaker343: Она не хочет  летать в Мадрид со~мной.
+~           Lei non vuole andare a Madrid con~me 
+
+[MULTIPLE_CHOICE]
+> Oh no! La moglie di Anna…
+- …ha dimenticato di mettere in valigia la sua protezione solare.
+- …è già a Madrid.
++ …non vuole andare a Madrid con lei.
+
+[LINE]
+Speaker343: Я очень грустная.
+~           io~sono molto triste  
+
+[LINE]
+Speaker113: Ах… Мне~жаль.
+~           oh  mi~dispiace 
+
+[LINE]
+Speaker113: Ну… мы в~аэропорту.
+~           beh noi~siamo  all'aeroporto  
+
+[POINT_TO_PHRASE]
+> Scegli l'opzione che significa "corre."
+> (Одна~женщина) (с)  чемоданом (+бегает) в~сторону (такси).
+~  una~donna    con  una~valigia corre  verso~il      taxi  
+
+[LINE]
+Speaker343: Таня?
+~           Tania
+
+[LINE]
+Speaker342: Анна!
+~           Anna 
+
+[LINE]
+Speaker342: Мне~очень~жаль!
+~           mi~dispiace~tanto
+
+[LINE]
+Speaker342: Я тебя люблю. 
+~           io ti amo
+
+[LINE]
+Speaker343: Я тоже тебя люблю.
+~           io anche ti amo      
+
+[LINE]
+Speaker342: Поехали в Мадрид!
+~           andiamo a Madrid 
+
+[LINE]
+Speaker113: Наслаждайтесь Ваш  медовый~месяц!
+~           godetevi    la~vostra luna~di~miele    
+
+[MULTIPLE_CHOICE]
+> Che cosa succederà dopo?
+- Anna inizierà il suo nuovo lavoro all'aeroporto.
+- Anna e il taxista andranno a Madrid insieme.
++ Anna e sua moglie, Tania, andranno a Madrid insieme.
+
+[MATCH]
+> Tap the pairs
+- мне жаль <> mi dispiace
+- я тебя люблю <> ti amo
+- очень трудная жена <> sposa molto difficile
+- здравствуйте <> salve
+- такси <> taxi
+
