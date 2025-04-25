@@ -8,39 +8,31 @@ set=1|2
 ~ a   date
 
 [LINE]
-> Bea está en una cita en un restaurante.
-~ Bea is   on a   date in a  restaurant  
+> பியா ஒரு சந்திப்பில் ஒரு உணவகத்தில் இருக்கிறார்.
+~ Bea is   on a   date in a  restaurant
 
 [LINE]
-Speaker507: ¡Hola!  ¿Cómo~estás? 
+Speaker507: வணக்கம்! எப்படி இருக்கிறாய்?
 ~            hello   how~are~you 
 
 [LINE]
-Speaker100: ¡Bien!
+Speaker100: நன்றாக இருக்கிறேன்!
 ~            fine 
 
 [LINE]
-Speaker100: ¿Qué  quieres     comer? 
+Speaker100: நீ என்ன சாப்பிட விரும்புகிறாய்?
 ~            what do~you~want to~eat 
 
 [LINE]
-Speaker507: Una ensalada.
+Speaker507: ஒரு சாலட்.
 ~           a   salad    
 
-[SELECT_PHRASE]
-> Select the missing phrase
-Speaker507: Hoy   tengo  [un~partido~importante].
-~           today I~have  an~important~game      
-+ un partido importante
-- un batido importante
-- una parte imponente
-
 [LINE]
-Speaker100: Ah, ¿te~gustan   los~deportes?
+Speaker100: ஆஹ், உனக்கு விளையாட்டுகள் பிடிக்குமா?
 ~           oh   do~you~like (the)~sports 
 
 [LINE]
-Speaker507: Sí,  yo juego~al fútbol.
+Speaker507: ஆம், நான் கால்பந்து விளையாடுகிறேன்.
 ~           yes  I  play     soccer 
 
 [MULTIPLE_CHOICE]
@@ -50,61 +42,52 @@ Speaker507: Sí,  yo juego~al fútbol.
 - …she just ate a whole pizza.
 
 [LINE]
-Speaker100: ¡Yo~también!
+Speaker100: நானும் அப்படித்தான்!
 ~            me~too     
 
 [LINE]
-Speaker507: ¡Súper!
+Speaker507: அருமை!
 ~            great 
 
 [LINE]
-Speaker507: ¿De~dónde~eres?     
+Speaker507: நீ எங்கிருந்து வருகிறாய்?
 ~            where~are~you~from 
 
 [LINE]
-Speaker100: Soy  americano.
+Speaker100: நான் அமெரிக்கன்.
 ~           I~am American  
 
-[ARRANGE]
-> Tap what you hear
-Speaker100: [(Mi~padre)  (es~de~Cuba)   (y)   (mi~madre)  (es~de~México).]  
-~             my~father   is~from~Cuba   and   my~mother   is~from~Mexico   
-
 [LINE]
-Speaker507: ¡Me~encanta Cuba!
+Speaker507: எனக்கு கியூபா பிடிக்கும்!
 ~            I~love     Cuba 
 
 [LINE]
-Speaker100: Cuba es muy  bonita.   
+Speaker100: கியூபா மிகவும் அழகானது.
 ~           Cuba is very beautiful 
 
 [LINE]
-Speaker507: ¿Tienes      mascotas?
+Speaker507: உனக்கு செல்லப்பிராணிகள் உள்ளனவா?
 ~            do~you~have pets     
 
 [LINE]
-Speaker100: Tengo  dos gatos y   un perro.
+Speaker100: எனக்கு இரண்டு பூனைகள் மற்றும் ஒரு நாய் இருக்கின்றன.
 ~           I~have two cats  and a  dog   
 
-[POINT_TO_PHRASE]
-> Choose the option that means "also."
-Speaker507: Yo (+también) (tengo) un (perro), (José).
-~           I    also      have   a   dog      José  
 
 [LINE]
-Speaker100: ¿Eh? Yo~me~llamo Daniel…
+Speaker100: என்ன? என் பெயர் டேனியல்…
 ~            eh  my~name~is  Daniel 
 
 [LINE]
-Speaker100: ¿Tú~no~eres Gabriela?
+Speaker100: நீ கப்ரியெலா இல்லையா?
 ~            aren't~you Gabriela 
 
 [LINE]
-Speaker507: ¡No!
+Speaker507: இல்லை!
 ~            no 
 
 [LINE]
-Speaker507: ¡Yo~me~llamo Bea!
+Speaker507: என் பெயர் பியா!
 ~            my~name~is  Bea 
 
 [MULTIPLE_CHOICE]
@@ -114,15 +97,15 @@ Speaker507: ¡Yo~me~llamo Bea!
 - …are walking their dogs.
 
 [LINE]
-> Una mujer camina hacia   Daniel.
+> ஒரு பெண் டேனியலின் பக்கம் நடக்கிறாள்.
 ~ a   woman walks  towards Daniel 
 
 [LINE]
-Speaker101: ¡Hola!  ¿Eres    Daniel? Soy  Gabriela.
+Speaker101: வணக்கம்! நீ டேனியலா? நான் கப்ரியெலா.
 ~            hello   are~you Daniel  I~am Gabriela 
 
 [LINE]
-Speaker100: No, lo~siento. Soy  José.
+Speaker100: இல்லை, மன்னிக்கவும். நான் ஜோசே.
 ~           no  I'm~sorry  I~am José 
 
 [MULTIPLE_CHOICE]
@@ -133,9 +116,8 @@ Speaker100: No, lo~siento. Soy  José.
 
 [MATCH]
 > Tap the pairs
-- y <> and
-- Soy <> I am
-- ensalada <> salad
-- Me encanta <> I love
-- Eh <> eh
-
+- மற்றும்  <> and
+- இருக்கிறேன் <> I am
+- சாலட்  <> salad
+- நேசிக்கிறேன் <> I love
+- ஏ  <> eh
