@@ -1,0 +1,110 @@
+[DATA]
+fromLanguageName=Une chose
+icon=717bd84875f83c678f64f124937a278061e0e778
+set=1|3
+
+[HEADER]
+> Ua causa 
+~ Une chose
+
+[LINE]
+> Lucia es a l'ostau damb la~soa arrèrhilha, Michela.
+~ Lucia est à la~maison avec sa petite-fille, Michela 
+
+[LINE]
+Speaker509: Oh, non ! Qu'èi~besonh de pan per~mon sandwich.
+~            oh  non  J'ai~besoin   de pain pour~mon sandwich 
+
+[LINE]
+Speaker508: E~vas~anar            au     supermercat ?
+~            Tu~vas~aller au supermarché  
+
+[LINE]
+Speaker509: Òc. 
+~           Oui
+
+[MULTIPLE_CHOICE]
+> Lucia et Michela ont beaucoup de pain.
+- Oui, c'est vrai.
++ Non, c'est faux.
+
+[LINE]
+Speaker508: Ah, Qu'èi besonh d'ua causa au supermercat !
+~            Ah, j'ai besoin d'une chose au supermarché !
+
+[LINE]
+Speaker509: Qué ? 
+~            Quoi 
+
+[LINE]
+Speaker508: Ua  tomata, en~t'ac~pregar.
+~           Une tomate  s'il~te~plait    
+
+[SELECT_PHRASE]
+> Trouve la suite de la phrase
+Speaker508: Es   per [la~mia ensalada].
+~           c'est pour   ma salade     
+- dinca ensalada
++ la mia ensalada
+- la mea a la salada
+
+[LINE]
+Speaker509: Ok.
+~           OK        
+
+[LINE]
+Speaker508: Mercés !  
+~            Merci 
+
+[POINT_TO_PHRASE]
+> Trouve le mot qui veut dire "aussi"
+Speaker508: Ah ! E   (+tanben) (vòi) (tres)  (pomas)…
+~            ah  et   aussi     je~veux   trois   pommes    
+
+[LINE]
+Speaker509: Ok.
+~           OK        
+
+[LINE]
+Speaker508: … e  shuc~d'irange…
+~             et du~orange~juice    
+
+[LINE]
+Speaker509: Michela…
+~           maria
+
+[LINE]
+Speaker508: … e   lèit, en~t'ac~pregar.
+~             et du~lait   s'il~te~plait    
+
+[LINE]
+Speaker509: Mmm… èi  ua idea.
+~           hmm  j'ai une  idée 
+
+[ARRANGE]
+> Écris ce que tu entends.
+Speaker509: [(Ací~qu'as) (los~sòus), (Michela).]
+~               Voici    l'argent Michela   
+
+[LINE]
+Speaker508: Qué ?! 
+~           Quoi     
+
+[LINE]
+Speaker509: Vòi ua causa au supermercat : pan.  
+~           Je~veux une chose au supermarché   pain 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Lucia a donné de l'argent à Michela ?
+- Lucia veut ouvrir un magasin de sandwichs
++ Elle veut que Michela aille au supermarché
+- Lin va aller à un restaurant à midi.
+
+[MATCH]
+> Tap the pairs
+- idea <> idée
+- ua <> une
+- jo <> je
+- arrèrhilha <> petite-fille
+- se te platz <> en t'ac pregar
+
