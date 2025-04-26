@@ -1,0 +1,108 @@
+[DATA]
+fromLanguageName=Bonjour
+icon=783305780a6dad8e0e4eb34109d948e6a5fc2c35
+set=1|1
+
+[HEADER]
+> Adiu
+~ Bonjour
+
+[LINE]
+Speaker593: Adiu, Priti !
+~            Bonjour Priti !
+
+[LINE]
+Speaker560: Adiu, amor.
+~           Bonjour (mon)~amour
+
+[LINE]
+Speaker560: On son las~mias claus ?
+~            Où sont mes clés  
+
+[LINE]
+Speaker593: Las~toas claus ?
+~            Tes clés
+
+[MULTIPLE_CHOICE]
+> Priti ne trouve pas ses clés.
++ Oui, c'est vrai.
+- Non, c'est faux.
+
+[LINE]
+Speaker560: Òc, qu'èi besonh d'eras entà anar au tribalh.
+~           Oui, j'ai besoin d'elles pour aller au travail  
+
+[ARRANGE]
+> Mets les mots dans l'ordre.
+Speaker560: [(Qu'èi besonh) (de~las claus) (de) (la~mia) (veitura) !]
+~              J'ai besoin     des clés     de   ma   voiture     
+
+[LINE]
+Speaker593: Ha, Ha ! Priti, las~toas  claus son aquí sus~la taula !  Ha, ha, ha !
+~            ha  ha   Priti  tes clés   sont   ici sur~la table   ha  ha  ha 
+
+[POINT_TO_PHRASE]
+> Clique sur le mot qui signifie « fatiguée ».
+Speaker560: (Perdon), amor, (Soi) (+estadida). (Que~tribalhi) tant !
+~            Pardon    (mon)~amour   Je~suis     fatiguée      Je~travaille   beacoup 
+
+[LINE]
+Speaker593: E~vòls     cafè ?  
+~            Tu~veux du~café
+
+[LINE]
+Speaker560: Òc,  en~t'ac~pregar !
+~            Oui  s'il~te~plait    
+
+[LINE]
+Speaker593: Es~aquí,  amor.
+~           Il~est~là,  (mon)~amour 
+
+[LINE]
+Speaker560: On es lo sucre  ? Ah, es aquí . 
+~            Où est le   sucre   ah  il~est là 
+
+[MULTIPLE_CHOICE]
+> Hmm… que fait Priti ? 
+- Elle verse son café sur la table
+- Elle met du sucre sur ses clés
++ Elle cherche du sucre pour son café
+
+[LINE]
+> Beu lo~son cafè.  
+~ Elle~boit son café
+
+[LINE]
+Speaker560: Oh, non !
+~            oh  no 
+
+[LINE]
+Speaker593: Qué ? 
+~            Quoi ? 
+
+[LINE]
+Speaker560: Qu'es sau ! 
+~            C'est du~sel ! 
+
+[LINE]
+Speaker593: Priti, qu'ès hòrt estadida !
+~            Priti  tu~es très fatiguée  
+
+[LINE]
+Speaker560: Òc,  Èi~besonh de mèi de  cafè…   damb sucre, pas  damb  sau ! 
+~           yes  J'ai~besoin de plus de café... avec du~sucre, pas avec du~sel 
+
+[MULTIPLE_CHOICE]
+> Priti est tellement fatiguée…
+- …qu'elle s'est endormie dans la cuisine.
++ …qu'elle a mis du sel dans son café.
+- …qu'elle a mis ses clés dans son café.
+
+[MATCH]
+> Tap the pairs
+- ès <> tu es
+- tant <> beaucoup
+- es <> est
+- las claus <> les clés
+- lo <> le
+
