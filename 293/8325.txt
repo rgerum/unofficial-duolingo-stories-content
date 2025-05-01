@@ -1,0 +1,141 @@
+[DATA]
+fromLanguageName=Un rendez vous
+icon=df24f7756b139f6eda927eb776621b9febe1a3f1
+set=1|2
+
+[HEADER]
+> Un rencard
+~ Un rencard
+
+[LINE]
+> Bea es a un rencard dens restaurant.
+~ Bea est à un rencard dans~un restaurant 
+
+[LINE]
+Speaker507: Adiu !  Va~plan ? 
+~           Salut  ça~va 
+
+[LINE]
+Speaker100: Plan !
+~            Bien  
+
+[LINE]
+Speaker100: Qué~vòs minjar? 
+~            Que~veux-tu manger 
+
+[LINE]
+Speaker507: Ua ensalada.
+~           Une salade   
+
+[SELECT_PHRASE]
+> Trouves la suite correcte
+Speaker507: Uèi èi  [ua partida importanta].
+~           Aujourd'hui j'ai  une partie importante      
++ ua partida importanta
+- un batide important
+- ua parta impotenta
+
+[LINE]
+Speaker100: Ah, T'agrada l'espòrt ? 
+~           Ah   tu~aimes le~sport 
+
+[LINE]
+Speaker507: Òc,  jògui au fotbòl.
+~           Oui, je~joue au football 
+
+[MULTIPLE_CHOICE]
+> Bea commande une salade car…
++ …elle joue au football aujourd'hui.
+- …son rencard lui a dit que la salade était bonne.
+- …elle vient de manger une pizza.
+
+[LINE]
+Speaker100: Jo~tanben !
+~            Moi~aussi    
+
+[LINE]
+Speaker507: Genhèc !
+~            Super 
+
+[LINE]
+Speaker507: D'on vens ?     
+~            D'où tu~viens
+
+[LINE]
+Speaker100: Soi  american.
+~           Je~suis Américain  
+
+[ARRANGE]
+> Écris ce que tu entends
+Speaker100: [(Mon~pair)  (es~de~Cuba)   (e)   (ma~mair)  (es~de~Mexic).]  
+~             mon~père   est~de~Cuba   et   ma~mère   est~du~Mexique   
+
+[LINE]
+Speaker507: Aimi Cuba !
+~            J'adore     Cuba 
+
+[LINE]
+Speaker100: Cuba es hòrt polida.   
+~           Cuba est très jole 
+
+[LINE]
+Speaker507: E~as      animaus?
+~            Tu~as des~animaux   
+
+[LINE]
+Speaker100: Èi  dos gats e   un can.
+~           J'ai deux chats  et un  chien   
+
+[POINT_TO_PHRASE]
+> Trouve le mot qui veut dire « aussi ».
+Speaker507: Ei (+tanben) un (can), (José).
+~           J'ai aussi   un chien   José  
+
+[LINE]
+Speaker100: Eh ? Lo~men~nom es Daniel…
+~            eh  mon~nom est  Daniel 
+
+[LINE]
+Speaker100: E~n'ès pas Gabriela ?
+~            Tu~n'es pas Gabriela 
+
+[LINE]
+Speaker507: Non !
+~            non 
+
+[LINE]
+Speaker507: Eth~mon nom es Bea!
+~            mon nom est  Bea 
+
+[MULTIPLE_CHOICE]
+> As tu compris ? Daniel et Bea...
+- …ont acheté des tickets pour Cuba.
++ …étaient censés voir des personnes différentes.
+- …promènent leurs chiens.
+
+[LINE]
+> Ua hemna marcha cap~a Daniel.
+~ Une femme marche vers Daniel 
+
+[LINE]
+Speaker101: Adiu !  Ès    Daniel ? Soi  Gabriela.
+~            Salut   Tu~es Daniel  Je~suis Gabriela 
+
+[LINE]
+Speaker100: Non, desolat. Soi  José.
+~           no  désolé  Je~suis José 
+
+[MULTIPLE_CHOICE]
+> Wow ! Qu'est ce qui s'est passé?
+- Bea a changé son nom pour Gabriela.
++ Daniel a menti à son ami pour le rencard car il aime Bea.
+- Les chiens de Daniel et Bea jouent au foot.
+
+[MATCH]
+> Trouve les bonnes paires de mort
+- e <> et
+- sui <> je suis
+- ensalada <> salade
+- aimi <> j'aime
+- eh <> eh
+
