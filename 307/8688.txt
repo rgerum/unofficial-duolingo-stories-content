@@ -8,20 +8,20 @@ set=1|1
 ~ доброе~утро
 
 [LINE]
-Speaker593: Hyvvää~hoomusta,  Priitti!
-~            доброе~утро  Прити 
+Speaker593: Hyvvää hoomusta,  Priitti!
+~            доброго утра  Прити 
 
 [LINE]
-Speaker560: Hyvvää~hoomusta,  kultoin.
-~           доброе~утро  дорогой 
+Speaker560: Hyvvää hoomusta,  kultoin.
+~           доброго утра  дорогой 
 
 [LINE]
-Speaker560: Kus~ollaa miun avaimet?
-~            где   мои  ключи   
+Speaker560: Kus ollaa miun avaimet?
+~           где (они~есть) мои  ключи   
 
 [LINE]
 Speaker593: Siun  avaimet?
-~            твои ключи   
+~           твои  ключи   
 
 [MULTIPLE_CHOICE]
 > Прити не может найти свои ключи.
@@ -29,22 +29,22 @@ Speaker593: Siun  avaimet?
 - Нет.
 
 [LINE]
-Speaker560: Niin, miulle ono~tarvis männä tööhö.
-~           да мне надо ехать на~работу
+Speaker560: Niin, miulle ono tarvis männä tööhö.
+~           да мне (оно~есть) нужно ехать на~работу
 
 [ARRANGE]
 > Выберите правильный порядок слов.
 Speaker560: [(Miulle) (ollaa) (tarvis) (auton) (avaimet)!]
-~              мне    ~ нужны     машины   ключи     
+~              мне    (они~есть) нужны     машины   ключи     
 
 [LINE]
-Speaker593: Ha, ha! Priitti, siun  avaimet ollaa~täs, kannen pääl!  Ha, ha, ha!
-~            ха  ха   Прити  твои ключи   тут столе на  ха ха ха 
+Speaker593: Ha, ha! Priitti, siun  avaimet ollaa täs, kannen pääl!  Ha, ha, ha!
+~            ха  ха   Прити  твои ключи (они~есть)  тут столе на  ха ха ха 
 
 [POINT_TO_PHRASE]
 > Выберите слово, которое значит "устала."
 Speaker560: (Anteeks), kultoin, (miä) (+väsyin). (Miä) oikiin paljo teen~töötä!
-~            извини    дорогой   я     устала      я очень много работаю 
+~            извини    дорогой   я     я~устала      я очень много работаю 
 
 [LINE]
 Speaker593: Tahot|k siä kahvia?  
@@ -60,7 +60,7 @@ Speaker593: Vot, kultoin
 
 [LINE]
 Speaker560: Kus ono saahkara? A, vot kus. 
-~           где ~ сахар а вот где
+~           где (он~есть) сахар а вот где
 
 [MULTIPLE_CHOICE]
 > Хмм... что это делает Прити?
@@ -82,27 +82,27 @@ Speaker593: Mikä~on?
 
 [LINE]
 Speaker560: Se ono soola!
-~           это ~ соль
+~           это (она~есть) соль
 
 [LINE]
-Speaker593: ¡Priti, estás   muy  cansada!
-~            Priti  you~are very tired   
+Speaker593: Priitti, siä oikiin väsyit!
+~           Прити ты очень ты~устала 
 
 [LINE]
-Speaker560: Sí,  necesito más  café…   ¡con  azúcar, no  con  sal! 
-~           yes  I~need   more coffee   with sugar   not with salt 
+Speaker560: Niin, miulle ono tarvis enemp kahvia… saahkaran kera, ei soolan! 
+~           да мне (оно~есть) нужно больше кофе сахаром с не солью
 
 [MULTIPLE_CHOICE]
-> Priti was so tired that…
-- …she fell asleep in the kitchen.
-+ …she put salt in her coffee.
-- …she put her keys in her coffee.
+> Прити так устала, что…
+- …она заснула на кухне.
++ …она положила соль в свой кофе.
+- …она положила свои ключи в кофе.
 
 [MATCH]
-> Tap the pairs
-- estás <> you are
-- mucho <> a lot
-- es <> is
-- las llaves <> the keys
-- la <> the
+> Выберите пары
+- soola <> соль
+- paljo <> много
+- kiitos <> спасибо
+- avaimet <> ключи
+- kus <> где
 
