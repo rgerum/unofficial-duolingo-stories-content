@@ -4,107 +4,107 @@ icon=7b985ad4907aa6222424ea7f917bf10209b62843
 set=2|3
 
 [HEADER]
-> Baro wiôlgô rodzëzna
-~ Bardzo duża rodzina   
+> Baro wiôlgô familiô
+~ bardzo duża rodzina   
 
 [LINE]
-> Sabina prawie~terô mô sã pòtkac z rodzëzną Anë.
-~ Sabina zaraz ma się spotkać z rodziną Anny.      
+> Salma prawie mô sã pòznac z familią Anë.
+~ Salma właśnie ma się poznać z rodziną Any      
 
 [LINE]
-Speaker341: Ana! Mojô lubòtnô córka!    
-~            Anna Moja ulubiona córka 
+Speaker341: Ana! Mòja ùlubionô córka!    
+~            Ana moja ulubiona córka 
 
 [LINE]
-Speaker343: Ha,~ha,~ha,~ha… Nënkò, doch të~môsz leno jedną córkã!    
-~           Ha~ha~ha~ha Mamo przecież masz tylko jedną córkę
+Speaker343: Hahaha… Nënkò, të doch môsz blós jedną córkã!    
+~           hahaha mamo ty przecież masz tylko jedną córkę
 
 [MULTIPLE_CHOICE]
-> Mama Anny ma wiele córek.
+> Mama Any ma wiele córek.
 - Tak, to prawda.
 + Nie, to nie jest prawda.
 
-
 [POINT_TO_PHRASE]
 > Wybiesz słowo które oznacza "dziewczyna."
-Speaker343: (To) (je) mój (+dzéwùs), (Sabina).
-~            To jest moja dziewczyna Sabina  
+Speaker343: (To) (je) mòja (+brutka), (Salma).
+~            to jest moja dziewczyna Salma  
 
 [LINE]
 Speaker342: Dobri~dzéń! 
 ~            Dzień~dobry 
 
 [LINE]
-Speaker343: Sabino, to je mój pierszi brat, Tómk!
-~            Sabino  to jest mój pierwszy brat Tomek 
+Speaker343: Salmò, to je mój bracyna, Tomas!
+~           Salmo  to jest mój brat Tomas 
 
 [LINE]
-Speaker342: Mòjn! 
-~            Cześć 
+Speaker342: Witôj! 
+~           witaj
 
-[LINE]
-Speaker343: A  to je mój stark.    
-~             A to jest mój dziadek   
+[ARRANGE]
+> Zaznacz usłyszane słowa
+Speaker343: [(A)   (to) (je) (mój) (starëszk).]     
+~            a to jest mój dziadek  
 
 [LINE]
 Speaker342: Dobri~dzéń. 
-~           Dzień~dobry 
+~           dzień~dobry 
 
 [LINE]
-Speaker343: To je mój òjc, a to je mój drëdżi brat, Julk!
-~            To jest mój ojciec a to jest mój drugi brat Julek 
+Speaker343: To je mój òjc, a to je mój bracyna, Julio!
+~           to jest mój ojciec a to jest mój  brat Julio 
 
 [LINE]
-Speaker342: Dobri~dzéń!  Mòjn! 
-~            Dzień~dobry Cześć 
+Speaker342: Witôjce!     Mòjn! 
+~           witam~pana   cześć 
 
 [LINE]
-Speaker343: To je mój trzecy brat, Mark, a to mój czwiôrti brat, Ksawer.
-~           To jest mój trzeci brat Marek a to mój czwarty brat Ksawery 
+Speaker343: To je mój bracyna, Mario, ë mój bracyna, Javier.
+~           to jest mój brat Mario i mój brat Javier 
 
 [LINE]
-Speaker342: Mòjn, mòjn!
-~           Cześć  cześć
+Speaker342: Witôj, Mario. Witôj, Javier
+~           witaj Mario witaj Javier 
 
 [SELECT_PHRASE]
 > Zaznacz brakujące słowa
-missinSpeaker342: Të môsz baro [ _____]!
-~            Masz bardzo dużą rodzinę     
-+ wiôlgã rodzëznã
-- dużã rodzynã
-- dëchtną familëją
+Speaker342: Të môsz baro [wiôlgą familiã]!
+~           ty masz bardzo dużą rodzinę     
+- mało bracynów
+- wiele sostrów
++ wiôlgą familiã
 
 [LINE]
-Speaker341: Në~jo, le córkã jô~móm le jedną…    
-~           No~tak, ale córkę mam tylko jedną
+Speaker341: Leno jô doch móm blós jedną córkã...   
+~           ale ja przecież mam tylko jedną córkę
 
 [LINE]
 Speaker343: Nënkò!
-~            Mamo  
+~           mamo  
 
 [LINE]
-Speaker341: Wëbôczë! Wstéc terô jô~móm dwie córczi…    
-~            Wybacz Przecież teraz mam dwie córki 
+Speaker341: Wëbôczë! Terô jô doch móm dwie córczi...  
+~           wybacz teraz ja przecież mam dwie córki 
 
 [LINE]
-Speaker341: Witôj w naji rodzëznie, Sabino!
-~            Witaj w naszej rodzinie Sabino 
+Speaker341: Witôj we familie, Salmò!
+~           witaj w rodzinie Salmo 
 
 [LINE]
-Speaker342: Dzãka wóm!  
-~            Dziękuję Pani 
+Speaker342: Dzãkùjã!  
+~           dziękuję 
 
 [MULTIPLE_CHOICE]
-> Czemu mama Anny mówi, że ma teraz dwie córki?
-- Przypomniało jej się że Anna ma siostrę.
-+ Anna ma dziewczynę, Sabinę.
-- Miała dziecko kiedy Sabina tu była.
+> Czemu mama Any mówi, że ma teraz dwie córki?
+- Przypomniało jej się, że Ana ma siostrę.
++ Wita Salmę w rodzinie.
+- Urodziła dziecko gdy Salma tam była.
 
 [MATCH]
 > Dobierz w pary
-- wstéc <> przecież
-- stark <> dziadek
-- dzéwùs <> dziewczyna
-- drëdżi <> drugi
-- pòtkac sã <> spotkać się
+- brutka <> dziewczyna
+- starëszk <> dziadek
+- prawie <> właśnie
+- to je <> to jest
+- nënka <> mama
 
