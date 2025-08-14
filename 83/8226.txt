@@ -1,0 +1,88 @@
+[DATA]
+fromLanguageName=I Need a New Video Game
+icon=ce0ae956035c1bac6b9c64737466d59c5d027e97
+set=7|1
+
+[HEADER]
+> Kam~nevojë~për një videolojë~të~re
+~ I~need   a  new~video~game  
+
+[LINE]
+> Xhunior dhe   Edi janë në  dyqan.
+~ ~ and ~ are   at    a~store  
+
+[LINE]
+Speaker415: Baba, kam~nevojë~për një videolojë~të~re!
+~            dad   I~need   a  new~video~game   
+
+[LINE]
+Speaker414: Jo, Xhunior. S'ke~nevojë~për   një videolojë~të~re.
+~           no  ~  you~don't~need a  new~video~game   
+
+[MULTIPLE_CHOICE]
+> Edi thinks Xhunior needs a new video game.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker415: Të~lutem! Kjo videolojë e~robotëve është shumë  argëtuese!
+~            please      this video~game of~robots is very fun       
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Xhunior, [ti~do~këtë] videolojë, por s'ke~nevojë~për   këtë videolojë.
+~           ~   you~want~this    video~game  but  you~don't~need this video~game 
++ ti do këtë
+- të do këtë
+- ty do këtë
+
+[LINE]
+Speaker415: Në~rregull, unë e~dua! Mund~ta~blejmë?   
+~           OK          I  want~it     can~we~buy~it 
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Jo)… (ke)   (shumë)   (videolojëra) (në~shtëpi).]
+~             no    you~have   a~lot~of   video~games   at~home   
+
+[LINE]
+Speaker415: Po,  po…  Në~rregull, do~të~shkojmë në~shtëpi?
+~           yes  yes  OK          are~we~going~t~go home 
+
+[LINE]
+Speaker414: No, shkojmë        në  shtëpinë~e~Vikramit.
+~           no  we~are~going to Vikram's~house 
+
+[CONTINUATION]
+> What comes next?
+Speaker415: Pse? Shtëpia e~tij   është [shumë~e~mërzitur]!
+~            why       house his is  very boring    
+- një dyqan
+~ a   store 
+- një videolojë~të~re
+~ a  new~video~game  
++ shumë  e~mërzitur
+~ very boring  
+
+[LINE]
+Speaker414: Por televizori~i~tij është të~madh dhe   duhet~të~shikoj  ndeshjen~e~futbollit.
+~           but  his~TV        is big    and I  need     to~watch the~soccer~game       
+
+[LINE]
+Speaker415: Baba, do të~shikosh      ndeshjen~e~futbollit, por nuk~duhet   të~shikosh      ndeshjen.
+~           dad   you~want    to~watch the~game     but  you~don't~need to~watch the~game    
+
+[MULTIPLE_CHOICE]
+> Both Edi and Xhunior…
++ …say they need something when they only want it.
+- …fly around on robots.
+- …play video games with Vikram.
+
+[MATCH]
+> Tap the pairs
+- do të shkojmë <> we are going
+- ndeshje <> game
+- kam nevojë për <> I need
+- videolojë <> video games
+- shtëpia e tij <> his house
+
