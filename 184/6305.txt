@@ -5,135 +5,137 @@ set=1|2
 
 [HEADER]
 > Wrëje
-~ Randka
+~ randka
 
 [LINE]
-> Bea je na wrëjach w restaùracëje.
-~ Bea jest na randce w restauracji  
+> Béa je na wrëjach w kôrczmie.
+~ Beata jest na randce w restauracji
 
 [LINE]
-Speaker507: Mòjn! Jak~ce~jidze? 
-~            Cześć jak~się~masz 
+Speaker507: Witôj! Cëż~je~czëc? 
+~           cześć  co~słychać
 
 [LINE]
-Speaker100: Mòjn! Dobrze, co bës zjôdła?
-~           Cześć Dobrze co byś zjadła
+Speaker100: Wszëtkò~graje!
+~           w~porządku
 
 [LINE]
-Speaker507: Sałôtkã.
-~           Sałatkę    
+Speaker100: Co të bë chca zjesc?
+~           co ty byś chciała zjeść
+
+[LINE]
+Speaker507: Salôtkã.
+~           sałatkę    
 
 [SELECT_PHRASE]
-> Wybierz wyrażenie oznaczające "ważny mecz".
-Speaker507: Kò jô~móm dzysô  [wôżną~rozegrã].
-~           Bo mam dzisiaj ważny~mecz
-
-+ wôżną rozegrã
-- wôżną jigrã
-- pòwôżną rozprôwã
-
-[LINE]
-Speaker100: Ach, të~lubisz spòrtë?
-~           Ach lubisz sporty? 
+> Wybierz brakujące wyrażenie:
+Speaker507: Dzysô jô~móm  [wôżną jigrã].
+~           dzisiaj mam    ważną grę
++ wôżną jigrã
+- wôżnô jikra
+- wôżnô rozgra
 
 [LINE]
-Speaker507: Jo, jô~gróm w balã.
-~           Tak, gram w piłkę~nożną 
+Speaker100: Nëże, lubisz~të spòrtë?
+~           ach lubisz sporty 
+
+[LINE]
+Speaker507: Jo, jô~gróm w fùsbalã.
+~           tak gram w piłkę~nożną 
 
 [MULTIPLE_CHOICE]
-> Bea zamawia sałatkę, bo…
+> Béa zamawia sałatkę, bo…
 + …będzie grać dzisiaj w piłkę nożną.
-- …jej partner powiedział że sałata jest pyszna.
-- …właśnie zjadła pizzę.
+- …jej partner powiedział, że sałata jest przepyszna.
+- …właśnie zjadła całą pizzę.
 
 [LINE]
-Speaker100: Jô téż grajã!
-~            Ja też gram
+Speaker100: Jô téż!
+~           ja też
 
 [LINE]
-Speaker507: Super!
-~            Super 
+Speaker507: Bëlno!
+~           wspaniale
 
 [LINE]
 Speaker507: Skądka të~jes?     
-~            Skąd jesteś 
+~           skąd jesteś 
 
 [LINE]
-Speaker100: Jô~jem Pòlôchã. Mój tatk je zez~Brus, a mòja nënka z Warszawë.
-~           Jestem Polakiem  Mój tata jest z~Brus a moja mama z Warszawy
+Speaker100: Jô~jem Amerikanérą. 
+~           jestem Amerykaninem
 
-[MULTIPLE_CHOICE]
-> Kto pochodzi z Warszawy?
-- Tata Pawła
-+ Mama Pawła
-- Niania Pawła
-
-[LINE]
-Speaker507: Jô~kòchóm Brusë!
-~            Kocham Brusy!
+[ARRANGE]
+> Wybierz usłyszane słowa
+Speaker100: [(Mój~tatk)  (je~z~Kùbë)   (a)   (mòja~mëma)  (je~z~Meksykù)].  
+~             mój~ojciec  jest~z~Kuby   a   moja~mama   jest~z~Meksyku   
 
 [LINE]
-Speaker100: Jo, wew~Brusach je fest piãkno.   
-~           Tak w~Brusach jest bardzo pięknie 
+Speaker507: Jô~kòchóm Kùbã!
+~           kocham Kubę
 
 [LINE]
-Speaker507: A môsz~të jaczé zwiérzãta?
-~           A masz jakieś zwierzęta?     
+Speaker100: Kùba je baro snôżô.
+~           Kuba jest bardzo piękna 
 
 [LINE]
-Speaker100: Móm dwa kòtë a~téż psa.
-~           Mam dwa koty oraz psa   
+Speaker507: Môsz~të zwiérzãta?
+~           czy~masz zwierzęta   
+
+[LINE]
+Speaker100: Jô~móm dwa kòtë ë psa.
+~           mam dwa koty i psa
 
 [POINT_TO_PHRASE]
-> Wybierz wyraz który oznacza "też."
-Speaker507: Jô (+téż) (móm) (psa), (Józkù).
-~           Ja    też      mam   psa      Józku  
+> Wybierz wyraz który oznacza "też".
+Speaker507: Jô (+téż) (móm) (psa), (José).
+~           ja   też   mam   psa    José
 
 [LINE]
-Speaker100: Hë? Jô~sã~nazéwóm Paùel…
-~            Hę Nazywam~się Paweł 
+Speaker100: Cëż? Jô~sã~nazéwóm Daniél…
+~            co nazywam~się Daniel
 
 [LINE]
-Speaker100: A të nie jes Léna?
-~            A ty nie jesteś Helena? 
+Speaker100: Nie~jes~të Gabriela?
+~           ty~nie~jesteś Gabriela 
 
 [LINE]
 Speaker507: Nié!
-~            Nie 
+~           Nie! 
 
 [LINE]
-Speaker507: Jô~sã~zwã Bea!
-~            Nazywam~się Bea 
+Speaker507: Jô~sã~zwiã Béa!
+~           Nazywam~się Bea! 
 
 [MULTIPLE_CHOICE]
-> Rozumiesz? Bea i Paweł…
-- …kupili bilety do Brus.
+> Rozumiesz? Béa i Daniel…
+- …kupili bilety na Kubę.
 + …mieli spotkać się z innymi ludźmi.
 - …wyprowadzają swoje psy.
 
 [LINE]
-> Jednô~białka pòdchadô do Paùela.
-~ Kobieta podchodzi do Pawła 
+> Jakôs~białka pòdchôdô do Daniela.
+~ Pewna~kobieta podchodzi do Daniela. 
 
 [LINE]
-Speaker101: Mòjn! Të jes Paùel? Jô jem Léna...
-~            Cześć! Ty jesteś Paweł  Ja jestem Helena
+Speaker101: Witôj! Jes~të Daniél? Jô~jem Gabriela.
+~           cześć  czy~ty~jesteś Daniel  ja~jestem Gabriela
 
 [LINE]
-Speaker100: Nié, jô jem Józef.
-~           Nie  ja jestem Józef
+Speaker100: Nié, wëbôczë. Jô~jem José.
+~           nie przepraszam jestem José
 
 [MULTIPLE_CHOICE]
-> Co się właśnie stało?
-- Bea zmieniła swoję imię na Helena.
-+ Paweł okłamał kobietę, z którą miał się spotkać, bo spodobała mu się Anna.
-- Helena pomyliła Józefa z Pawłem.
+> O! Co się właśnie stało?
+- Béa zmieniła swoję imię na Gabriela.
++ Daniél okłamał kobietę, z którą miał się spotkać, bo spodobała mu się Béa.
+- Psy Béi i Daniela grają w piłkę nożną.
 
 [MATCH]
 > Dobierz w pary
-- mòjn <> cześć
-- jem <> jestem
-- skąd <> skądka
-- rozegra <> mecz
-- jô sã nazéwóm <> nazywam się
+- ë <> i
+- jô jem <> jestem
+- salôtka <> sałatka
+- jô kòchóm <> kocham
+- cëż <> co
 
