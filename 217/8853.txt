@@ -9,24 +9,25 @@ set=8|4
 $8853/90dd5c0c.mp3;2,50;3,313;2,425
 
 [LINE]
-> 林|辣辣|比阿个|屋里厢. 伊|去|厨房间. 
-~ Lin is~at Bea's house   she  goes~to the~kitchen 
-$8853/b5ec56d5.mp3;1,50;2,263;1,137;2,163;1,237;1,200;3,125;1,250;1,363;2,850;2,237;3,238;1,412;0,313
+> 阿林|辣辣|阿蓓|屋里厢。|伊|去|厨房间|了。
+~ Lin is~at Bea('s) house   she  goes (to~the)~kitchen 
+$8853/7f1f45c0.mp3;1,50;1,225;2,188;1,150;2,187;1,150;3,175;1,238;1,337;2,838;2,212;2,238;1,400;2,200;0,212
+# TODO: PROBLEM WITH TTS, cannot pronounce 厨房间 well
 
 [LINE]
-> 伊|看到|老多|吃个物事|更|四瓶|酒|辣辣|台子浪. 
-~ she  sees a~lot~of food   and four~bottles~of wine on the~table 
+> 伊|看到|老多|吃个物事|跟|四|瓶|酒|辣辣|台子浪。
+~ she  sees a~lot~of food   and four　bottles wine (being) on~the~table 
 $8853/9683af4d.mp3;1,50;3,163;2,375;1,200;2,175;1,175;2,112;2,363;2,212;1,213;2,300;2,237;1,125;3,125;1,438;0,287
 
 [LINE]
-Speaker508: 咯看搿墶|吃个物事老多|啊.
-~            wow   there~is a~lot~of food   here 
+Speaker508: 咯|看|搿墶|吃个物事老多|啊。
+~            wow  see here there~is a~lot~of food   here 
 $8853/877afc5e.mp3;1,50;1,263;1,550;3,137;1,175;1,150;1,188;1,175;1,225;2,162;0,225
 
 [LINE]
-Speaker507: 哎,  我个|屋里厢人|要过来|吃夜饭.      
-~           yes  my family  is~coming  to have~dinner 
-$8853/535ee8eb.mp3;1,50;1,475;3,100;1,125;3,125;2,238;2,400;2,162;2,288;2,175;0,512
+Speaker507: 哎，|我|屋里厢人|要|过来|吃|夜饭。     
+~           yes  my family  will come  eat dinner 
+$8853/13e893d7.mp3;1,50;1,500;2,100;2,138;1,100;1,125;1,262;2,163;2,162;2,300;2,163;0,512
 
 [MULTIPLE_CHOICE]
 > Bea's family is coming to her house for breakfast.
@@ -34,8 +35,8 @@ $8853/535ee8eb.mp3;1,50;1,475;3,100;1,125;3,125;2,238;2,400;2,162;2,288;2,175;0,
 + No, that's wrong.
 
 [LINE]
-Speaker508: 哦, 我可以吃|一点点|蛋糕|伐?
-~           oh   I~can~eat      some       cake   
+Speaker508: 哦，|我|可以|吃|一点点|蛋糕|伐?
+~           oh   I can eat  a~bit~of  cake (question)  
 $8853/f0f9dcb4.mp3;1,50;1,438;2,112;2,188;1,350;4,187;3,413;2,387
 
 [LINE]
@@ -47,7 +48,7 @@ $8853/8f4c8ac5.mp3;1,50;2,338;0,600
 [SELECT_PHRASE]
 > Select the missing phrase
 
-Speaker508: 但是|侬可以拿 [三块蛋糕]。
+Speaker508: 但是|侬可以拿 [三块蛋糕].
 ~           but you can~have three~cakes  
 $8853/38d86d51.mp3;2,50;1,525;1,63;2,200;1,362;1,288;1,62;1,263;2,225;0,537
 
@@ -62,18 +63,18 @@ $8853/2102f819.mp3;1,50;3,200;2,375;1,238;3,237;0,525
 
 
 [LINE]
-Speaker508: 噶么, 我|可以|吃|一杯|酒?
-~           well  I can drink  a~glass~of wine 
-$8853/d66ae041.mp3;1,50;1,188;1,325;2,175;3,200;2,312;2,163;1,100;2,200
+Speaker508: 噶么，|我|可以|吃|一杯|酒|伐？
+~           then  I can drink  one~glass wine (question)
+$8853/aa51eb5a.mp3;1,50;1,200;1,288;1,137;3,188;2,312;2,163;1,100;2,200;2,225
 
 [LINE]
-Speaker507: 勿|可以.
+Speaker507: 勿|可以。
 ~           no  can
 $8853/0c13dd95.mp3;1,50;2,338;0,600
 
 [CONTINUATION]
 > What's next?
-Speaker508: 侬|可以|吃|四瓶|[酒].
+Speaker508: 侬|可以|吃|四瓶|[酒]。
 ~           you~have four   bottles   of wine  
 $8853/ff37fba6.mp3;1,50;3,288;2,362;2,200;1,275;NaN,225;NaN,363
 
@@ -85,47 +86,48 @@ $8853/ff37fba6.mp3;1,50;3,288;2,362;2,200;1,275;NaN,225;NaN,363
 ~ wine
 
 [LINE]
-Speaker507: 我|需要|所有个|埃个|酒
+Speaker507: 我|需要|所有个|埃个|酒。
 ~           I  need     all  that wine 
 $8853/e6e5072f.mp3;1,50;3,200;3,375;1,450;2,300;1,175;1,150
 
 [LINE]
-Speaker508: 我|可以|吃|一点|披萨?
-~            I can eat  some  pizza 
-$8853/5227cf62.mp3;1,50;4,250;2,675;3,200;3,263
+Speaker508: 我|可以|吃|一点|披萨|伐?
+~            I can eat  some  pizza (question)
+$8853/d63cf44b.mp3;1,50;3,250;2,350;3,188;3,262;2,438
 
 
 [LINE]
-Speaker507: 勿|可以, 林.
+Speaker507: 勿|可以，|阿林。
 ~           no can  Lin 
-$8853/4e8a5b74.mp3;1,50;2,250;1,575;2,213;0,400
+$8853/9977e235.mp3;1,50;3,238;1,550;3,125;0,525
 
 
 [LINE]
-Speaker508: 好啊, 侬跟|侬个|家庭|吃饭|是|几点钟？
+Speaker508: 好啊，侬跟|侬个|家庭|吃饭|是|几点钟？
 ~           OK     (you)~with your family dinner is what~time
 $8853/e8488b29.mp3;1,50;1,275;1,288;2,100;1,175;2,162;1,150;3,138;3,375;2,375;3,150;1,325;0,262
 
 [POINT_TO_PHRASE]
 > Choose the option that means "next."
-Speaker507: (奥), (我)|(+下一个)|(礼拜)|(跟)|(我个)|(家庭)|(吃饭).
-~           oh  I  next  week with  my family   dinner  
+Speaker507: (噢)，(我)|(+下一个)|(礼拜)|(再)|(跟)|(我个)|(家庭)|(吃饭)。
+~           oh  I  next  week with  my family   eat  
 $8853/6c40dc9d.mp3;1,50;1,438;2,75;1,137;2,188;2,237;1,425;1,163;1,125;2,137;2,363;0,475
 
 [ARRANGE]
 > Tap what you hear
-Speaker507: [(个啲) (侪)      (自) (我个)。]
-~             all    (of)~this   is   for    me   
-$8853/05c1cbdc.mp3;1,50;2,463;1,125;1,375;6,112;1,350;1,100;1,163;0,350
+Speaker507: [(搿个)​(一点)​(侪)​(是)​(我个)。]
+~             this lot all   is   mine   
+$8853/dd1da15c.mp3;1,50;1,250;1,338;1,125;1,250;1,175;1,187;0,263
+#(噶点)​(侪)(是)(我额)。
 
 [LINE]
-Speaker508: 啥?
+Speaker508: 啥？
 ~            what 
 $8853/0293ebbf.mp3;0,50
 
 [LINE]
-Speaker507: 我|有|一个|老麻烦个|家庭!   我|老紧张啊。
-~            I have a  very~difficult family   I am~nervous
+Speaker507: 我|有|一个|老|麻烦个|家庭！|我|老|紧张|啊。
+~            I have a  very difficult family   I (am)~very nervous
 $8853/7d2d0a77.mp3;1,50;1,213;2,162;1,263;2,187;1,413;2,125;1,550;4,850;1,200;2,200;1,437;0,275
 
 [LINE]
