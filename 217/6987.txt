@@ -9,8 +9,8 @@ set=2|2
 $6987/83d12258.mp3;1,50
 
 [LINE]
-> 维克朗搭伊额太太潘丽娣辣海机场搭。
-~ Vikram and his wife    Priti  are-at the-airport    
+> 维克朗|搭|伊个|太太|潘丽娣|辣海|机场搭。
+~ Vikram and his wife    Priti  are~at the~airport    
 $6987/76151298.mp3;2,50;1,413;1,200;1,212;1,188;2,150;1,437;2,200;2,400;2,313;1,462;0,175
 #微克朗搭伊额太太潘丽娣辣海机场搭。
 
@@ -18,6 +18,7 @@ $6987/76151298.mp3;2,50;1,413;1,200;1,212;1,188;2,150;1,437;2,200;2,400;2,313;1,
 Speaker593: 喔唷，犯规！我本护照啥地方去了？
 ~            oh  no   my passport  where  is?
 $6987/0689da66.mp3;1,50;1,300;1,388;2,137;1,613;1,825;1,237;2,213;1,362;2,213;1,362;1,213;0,162
+#: TODO: voice record vikram's lines here
 
 [LINE]
 Speaker593: 勿辣辣搿搭！
@@ -36,13 +37,13 @@ Speaker593: [袋袋里向]|呒没……
 ~           in~(the)~bag  doesn't~have      
 $6987/19905daa.mp3;2,50;1,400;1,175;1,225
 #[蛋蛋里向]呒没……
-+ en mi cartera
-- es mi cantera
-- en mi campera
++ 袋袋里向
+- 队队理想
+- 代代里墙
 
 [LINE]
-Speaker593: 大衣里向也呒没……
-~           and my jacket  in  also  it's~not 
+Speaker593: 大衣里向|也|呒没……
+~           in~(the)~coat  also doesn't~have  
 $6987/639f112f.mp3;2,38;1,387;1,150;1,213;1,212
 #大伊里向也呒没……
 
@@ -55,6 +56,7 @@ $6987/420392cd.mp3;2,25;NaN,525
 Speaker593: 落辣差头里向了！
 ~           lost in the-taxi 
 $6987/0fc89a1d.mp3;1,50;1,263;1,150;2,212;1,338;1,225;0,187
+# TODO: Voice Record Vikrams line here
 
 [MULTIPLE_CHOICE]
 > Vikram thinks his passport is in the taxi.
@@ -63,13 +65,13 @@ $6987/0fc89a1d.mp3;1,50;1,263;1,150;2,212;1,338;1,225;0,187
 
 [LINE]
 > 维克朗|跑得去|寻|一部|差头。
-~ Vikram goes~over (to)~look~for his taxi 
+~ Vikram goes~over (to)~look~for the taxi 
 $6987/6d367a77.mp3;2,50;1,463;2,237;1,200;1,138;2,225;2,187;1,113;2,150;1,225;0,312
 
 [LINE]
-Speaker560: 阿朗，侬覅！
-~            Vik  no 
-$6987/9ac850bb.mp3;2,50;1,700;1,138;2,212;0,475
+Speaker560: 阿朗，|侬|覅！
+~            Vik  you don't~(go)
+$6987/8ff2f924.mp3;2,50;1,700;1,138;2,212;0,475
 
 [ARRANGE]
 > Tap what you hear
@@ -78,12 +80,14 @@ $6987/9ac850bb.mp3;2,50;1,700;1,138;2,212;0,475
 $6987/1b8adae2.mp3;3,50;2,675;1,175;4,200;2,513;2,187;3,188;0,550
 
 [LINE]
-Speaker593: ¡Ay, no! ¡El  taxi no~está aquí!
+Speaker593: 真正犯规来！差头开脱了！
 ~            oh-no   the taxi is~not  here 
+$6987/e4b84a68.mp3;2,50;2,450;1,425;1,288;1,825;1,237;2,163;1,387;0,200
 
 [LINE]
-Speaker593: ¡No~es    posible! 
-~            it's~not possible 
+Speaker593: 哪能搿能介啦！
+~            how~could~this~be
+$6987/6241dab2.mp3;2,50;3,388;1,500;0,237
 
 [LINE]
 Speaker560: 维克朗！
@@ -91,7 +95,12 @@ Speaker560: 维克朗！
 $6987/bf9a16a8.mp3;3,50;0,825
 
 [LINE]
-Speaker560: Tu   pasaporte no~está en el  taxi.
+Speaker560: 侬看！
+~           your passport  is~not  in the taxi 
+
+
+[LINE]
+Speaker560: 侬看！Tu   pasaporte no~está en el  taxi.
 ~           your passport  is~not  in the taxi 
 
 [POINT_TO_PHRASE]
