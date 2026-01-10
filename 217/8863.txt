@@ -9,8 +9,9 @@ set=3|2
 $8863/3bcd43e9.mp3;1,50;1,325;2,125
 
 [LINE]
-> 柴玲  y   莉莉 están en el  autobús.
+> 柴玲|更|莉莉坐辣校车上。
 ~ Zari and Lily are   on the bus     
+$8863/b28cb335.mp3;2,50;2,500;3,200;1,438;1,200;2,125;1,425;0,275
 
 [LINE]
 Speaker418: 莉莉, hay      un nuevo estudiante en nuestra clase!
@@ -22,20 +23,30 @@ Speaker418: 莉莉, hay      un nuevo estudiante en nuestra clase!
 - Yes, that's right.
 
 [LINE]
-Speaker418: Su  nombre es Miguel.
-~           his name   is Miguel 
+Speaker418: 伊个名字叫山田晴斗。
+~           his name   is Yamada~Haruto 
+$8863/16978a7d.mp3;1,50;1,213;2,125;1,400;2,225;1,450;1,237;0,363
 
 [LINE]
-Speaker416: ¿Miguel?
-~            Miguel 
+Speaker416: 山田晴斗?
+~            Yamada~Haruto 
+$8863/aa59ca2e.mp3;2,50;1,538;1,225
 
 [LINE]
-Speaker418: Sí,  es    de   México.
+Speaker418: 对的,  伊是从日本来的。
 ~           yes  he~is from Mexico 
+$8863/35ae5ebf.mp3;1,50;1,225;1,275;3,113;1,150;1,175;2,250;1,362;1,213;0,200
 
 [LINE]
-Speaker418: ¡Su  padre  escribe libros!
+Speaker418:伊拉妈妈是中国南方人。
+~           yes  he~is from Mexico 
+$8863/cd402318.mp3;2,50;2,350;1,463;2,200;2,362;1,463;0,337
+
+
+[LINE]
+Speaker418: 伊个爸爸是写书的。
 ~            his father writes  books  
+$8863/c705e1b0.mp3;1,50;1,175;2,138;1,437;1,175;1,200;1,225;0,175
 
 [SELECT_PHRASE]
 > Select the missing phrase
@@ -46,11 +57,12 @@ Speaker416: [Muy~interesante].
 + Muy interesante
 
 [LINE]
-Speaker418: Habla     español, inglés  y   portugués. 
-~           he~speaks Spanish  English and Portuguese 
+Speaker418: 伊会得普通闲话，上海闲话，广东闲话，英文，更日文. 
+~           he~speaks Mandarin~Chinese, Shanghainese, Cantonese, English, and Japanese. 
+$8863/78a298c5.mp3;1,50;1,225;1,175;2,150;2,400;1,488;2,87;2,413;1,537;2,100;2,413;1,537;2,113;1,562;2,150;1,613;1,100;2,212;0,525
 
 [LINE]
-Speaker416: Ah, es    inteligente.
+Speaker416: Ah, 伊老聪明的。
 ~           oh  he~is intelligent 
 
 [LINE]
@@ -58,13 +70,13 @@ Speaker418: Inteligente… y   alto. Y   tiene  muy  bonitos…
 ~           intelligent  and tall  and he~has very pretty  
 
 [MULTIPLE_CHOICE]
-> How does Zari describe Miguel?
+> How does Zari describe Yamada Haruto?
 - He's short and blond.
 - He's handsome and loud.
 + He's intelligent and tall.
 
 [LINE]
-Speaker416: Ja, ja, ¿sí? 
+Speaker416: 哈哈, ¿sí? 
 ~           ha  ha   yes 
 
 [LINE]
@@ -102,13 +114,13 @@ Speaker416: A~ella~le~gustan tus…  zapatos.
 ~           she~likes        your  shoes   
 
 [LINE]
-Speaker418: Ah, mmm, hola…  Miguel.
-~           oh  hmm  hello  Miguel 
+Speaker418: Ah, mmm, hola…  Yamada Haruto.
+~           oh  hmm  hello  Yamada Haruto 
 
 [MULTIPLE_CHOICE]
 > Zari didn't realize that…
-- …Miguel's shoes were so ugly.
-+ …Miguel was sitting behind her.
+- …Yamada Haruto's shoes were so ugly.
++ …Yamada Haruto was sitting behind her.
 - …her homework was due today.
 
 [MATCH]
