@@ -4,17 +4,20 @@ icon=221d57fa97fa27260e9dd5ad3457870d033f291a
 set=5|3
 
 [HEADER]
-> 一个咖啡,  谢谢!
+> 一杯咖啡,  谢谢!
 ~  a  coffee  please    
 $8876/f894c294.mp3;2,50;2,288;1,575;4,100;0,587
 
 [LINE]
-> Eddy está en un restaurante con  su~hijo, Junior.
+> 埃第更伊个儿子辣辣饭店里向。
 ~ Eddy is   at a  restaurant  with his~son  Junior 
+$8876/284fbcd1.mp3;2,50;1,475;1,213;1,150;2,125;1,450;1,125;2,137;1,400;1,150;0,363
 
 [LINE]
-Speaker386: Hola,  Eddy. ¿Quieres  un café?  
+Speaker386: 侬好,  埃第。 侬要勿要一杯咖啡？
 ~           hello  Eddy   you~want a  coffee 
+$8876/eedefe92.mp3;1,50;1,300;1,425;3,75;1,200;1,313;2,837;2,238;1,300;1,162;1,125;2,188;0,550
+
 
 [MULTIPLE_CHOICE]
 > The woman asks Eddy if he wants a coffee.
@@ -22,38 +25,44 @@ Speaker386: Hola,  Eddy. ¿Quieres  un café?
 + Yes, that's right.
 
 [LINE]
-Speaker414: Sí,  una taza~grande de café,   por~favor.
+Speaker414: 要的,  来一杯大杯的咖啡，谢谢。
 ~           yes  a   big~cup     of coffee  please    
+$8876/e13b4a6e.mp3;1,50;1,238;1,225;3,87;1,175;1,113;1,225;1,175;1,175;2,137;1,413;2,75;0,450
 
 [LINE]
-Speaker386: ¿Con  o  sin     leche?
+Speaker386: 要还是勿要女奶?
 ~            with or without milk  
+$8876/fe5293b7.mp3;1,50;2,313;2,350;2,312
 
 [LINE]
-Speaker414: Con  leche, por~favor.
+Speaker414: 要牛奶，谢谢。
 ~           with milk   please    
+$8876/2649da59.mp3;1,50;2,250;1,613;2,125;0,550
 
 [LINE]
-Speaker386: Y…   ¿con  o  sin     azúcar?
-~           and   with or without sugar  
+Speaker386: 然后…   要还是勿要糖？
+~            and   with or without sugar  
+$8876/f5ce5697.mp3;1,25;NaN,1488;NaN,225;2,362;1,275;0,338
 
 [LINE]
-Speaker414: Con  azúcar, por~favor.
+Speaker414: 要糖, 谢谢。
 ~           with sugar   please    
+$8876/7d69e60e.mp3;1,50;1,250;1,425;3,125;0,563
 
 [LINE]
-Speaker415: ¡Yo también quiero una taza de café!  
+Speaker415: 我也要一杯咖啡！  
 ~            I  also    want   a   cup  of coffee 
+$8876/e62c91b7.mp3;1,50;1,175;1,150;1,125;1,125;2,188;0,575
 
 [MULTIPLE_CHOICE]
-> Junior says that he…
+> Maomao says that he…
 + …wants coffee too.
 - …wants to go home.
 - …needs to go to the bathroom.
 
 [LINE]
-Speaker414: ¿Junior? ¿Tú  quieres café?  
-~            Junior   you want    coffee 
+Speaker414: 毛毛? 侬要一杯咖啡？  
+~            Maomao   you want    coffee 
 
 [LINE]
 Speaker415: Sí,  quiero una taza con  leche…
@@ -68,7 +77,7 @@ Speaker415: … ¡y   con  helado!
 ~              and with ice~cream 
 
 [MULTIPLE_CHOICE]
-> What does Junior want in his coffee?
+> What does Maomao want in his coffee?
 - more coffee
 + ice cream
 - a salad and fries
@@ -87,29 +96,32 @@ Speaker386: (Ah)… ¿(tú)  (quieres) un (+batido)?
 ~            oh     you   want     a    milkshake  
 
 [LINE]
-Speaker415: ¡Sí,  por~favor!
+Speaker415: 嗯,  谢谢!
 ~            yes  please    
+$8876/5b7eb125.mp3;1,50;1,463;4,75;0,675
 
 [ARRANGE]
 > Tap what you hear
-Speaker414: ¡[(Yo) (también) (quiero) (un) (batido)!]   
+Speaker414: [(我)|(也)|(要)|(一杯)|(奶昔)！]   
 ~              I    also      want     a    milkshake   
+$8876/c48820fa.mp3;1,50;2,213;2,150;2,162;1,138;3,212;0,513
 
 [LINE]
-Speaker414: ¡Dos batidos,    por~favor!
+Speaker414:  两杯奶昔,    谢谢!
 ~            two milkshakes  please    
+$8876/ae068ac0.mp3;1,50;1,288;2,212;1,525;6,113;0,537
 
 [MULTIPLE_CHOICE]
-> Oh, Junior! He ordered coffee…
+> Oh, Maomao! He ordered coffee…
 - …but Eddy drank it all.
 - …because he wanted to have more energy.
 + …but he really wanted a milkshake.
 
 [MATCH]
 > Tap the pairs
-- leche <> milk
-- café <> coffee
-- Dos <> two
-- en <> at
-- taza <> cup
+- 牛奶 <> milk
+- 咖啡 <> coffee
+- 二/两 <> two
+- 辣辣 <> at
+- 杯 <> cup of
 
