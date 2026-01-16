@@ -6,18 +6,23 @@ set=7|1
 [HEADER]
 > 我需要一个新个游戏
 ~ I~need   a  new~video~game  
+$8884/6a0445b3.mp3;1,50;2,213;2,375;1,250;1,212;1,138
 
 [LINE]
 > 毛毛更埃第搿搿店家里向。
 ~ Junior and Eddy are   at a   store  
+$8884/34a727f8.mp3;2,50;1,475;1,225;2,200;1,338;1,137;2,163;1,375;0,325
 
 [LINE]
 Speaker415: 爸爸, 我需要一个新个游戏！
 ~            dad   I~need   a  new~video~game   
+$8884/bea6c45e.mp3;2,50;1,475;2,63;2,125;2,337;1,238;1,212;2,125;0,575
+
 
 [LINE]
-Speaker414: 勿是, 毛毛. 侬勿需要一个新个游戏。
+Speaker414: 勿是, 毛毛。 侬勿需要一个新个游戏。
 ~           no  Maomao  you~don't~need a  new~video~game   
+$8884/1ce0b017.mp3;2,50;1,613;3,137;1,600;2,850;1,263;2,162;2,425;1,275;1,213;2,137;0,575
 
 [MULTIPLE_CHOICE]
 > Eddy thinks Maomao needs a new video game.
@@ -25,43 +30,49 @@ Speaker414: 勿是, 毛毛. 侬勿需要一个新个游戏。
 + No, that's wrong.
 
 [LINE]
-Speaker415: 求求你！ 搿个机器人个游戏老好白相个！
+Speaker415: 求求侬！ 搿个机器人个游戏老好白相个！
 ~            please      this video~game of robots is very fun       
+$8884/caf0eb10.mp3;1,50;1,313;1,237;1,375;3,838;3,350;1,637;2,138;2,425;2,362;1,400;0,263
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker414: 毛毛, [tú~quieres~este] videojuego, pero no~necesitas   este videojuego.
+Speaker414: 毛毛, [侬想要]搿, 但是侬勿需要搿游戏。
 ~           Maomao   you~want~this    video~game  but  you~don't~need this video~game 
-+ tú quieres este
-- tú sientes este
-- tú quieres estar
+
+$8884/be5f58cf.mp3;2,50;1,563;2,62;1,188;1,200;1,175;1,275;3,100;1,337;1,175;2,163;3,400;0,687
++ 侬想要
+- 侬勿要
+- 侬老要
 
 [LINE]
-Speaker415: Está~bien, ¡yo lo~quiero! ¿Lo~compramos?   
+Speaker415: 好啊, 我想要搿! 可以买伐?   
 ~           OK          I  want~it     (can)~we~buy~it 
+$8884/bd49faf5.mp3;1,50;1,275;1,338;2,112;1,138;1,237;1,188;1,275;3,837;1,400;1,225
 
 [ARRANGE]
 > Tap what you hear
-Speaker414: [(No)… (Tienes)   (muchos)   (videojuegos) (en~casa).]
+Speaker414: [(勿可以)… (Tienes)   (muchos)   (videojuegos) (en~casa).]
 ~             no    you~have   a~lot~of   video~games   at~home   
 
 [LINE]
-Speaker415: Sí,  sí…  Está~bien, ¿vamos~a      casa?
+Speaker415: 好，好…  奥, 阿拉回去了。
 ~           yes  yes  OK          we~are~going home 
 
 [LINE]
-Speaker414: No, vamos        a  casa~de~Vikram.
+Speaker414: 勿回去, 阿拉去维克郎个屋里向。
 ~           no  we~are~going to Vikram's~house 
 
 [CONTINUATION]
 > What comes next?
-Speaker415: ¿Por~qué? ¡Su~casa   es [muy  aburrida]!
+Speaker415: 为啥? 伊个屋里向[老无聊]啊!
 ~            why       his~house is  very boring    
-- una tienda
+$8884/e3d47f2a.mp3;2,50;3,1625;1,200;2,138;0,250;2,237;1,213;2,412;0,238
+
+- 一爿店家
 ~ a   store 
-- un videojuego~nuevo
+- 一个新个游戏
 ~ a  new~video~game  
-+ muy  aburrida
++ 老无聊
 ~ very boring  
 
 [LINE]
@@ -81,8 +92,8 @@ Speaker415: Papá, tú  quieres ver      el  partido, pero no~necesitas   ver   
 [MATCH]
 > Tap the pairs
 - vamos a <> we are going
-- partido <> game
-- necesito <> I need
-- videojuegos <> video games
-- Su casa <> his house
+- 球赛 <> game
+- 我需要 <> I need
+- 游戏 <> video games
+- 一个 <> his house
 
