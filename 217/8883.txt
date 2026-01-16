@@ -9,28 +9,35 @@ set=7|3
 $8883/f5e13c4f.mp3;2,50;2,350;2,425
 
 [LINE]
-> Vikram y   Priti van~de~compras.
+> 维克朗更潘丽娣去买物事。
 ~ Vikram and Priti go~shopping    
+$8883/27f44707.mp3;3,50;1,675;3,213;1,575;1,225;2,212;0,450
 
 [LINE]
-Speaker560: ¿Qué~necesitamos~comprar en el~supermercado?
+Speaker560: 阿拉辣辣超市需要买啥物事?
 ~            what~do~we~need~to~buy  in the~supermarket 
+$8883/558db3ad.mp3;2,50;1,363;1,125;2,125;2,400;1,350;1,187;1,250;1,113
 
 [LINE]
-Speaker593: Necesitamos leche, arroz, frijoles…
+Speaker593: 阿拉需要牛奶，米饭，更豆…
 ~           we~need     milk   rice   beans    
+$8883/94c74466.mp3;2,38;2,250;2,387;1,513;2,87;1,550;1,88;NaN,175
 
 [LINE]
-Speaker560: ¡Vikram! ¡Mira! ¡Es   él! 
+Speaker560: 维克朗! 看! 埃个是伊！
 ~            Vikram   look   it's him 
+$8883/2395de2b.mp3;3,50;1,825;2,850;1,525;2,850;1,288;1,162;1,200;0,350
 
 [LINE]
-Speaker593: ¿Dónde? ¿Quién?
+Speaker593: 何里垯？ 啥人？
 ~            where   who   
+$8883/5d7a0a2f.mp3;1,50;1,213;1,187;1,250;2,838;1,362;0,313
+# use 啊 for tts
 
 [LINE]
-Speaker560: ¡Tu   jugador~de~baloncesto~favorito!
+Speaker560: 侬最欢喜个篮球运动员！
 ~            your favorite~basketball~player     
+$8883/2b92bca7.mp3;1,50;1,275;2,225;1,475;2,150;3,400;0,688
 
 [MULTIPLE_CHOICE]
 > Who does Priti see?
@@ -39,33 +46,39 @@ Speaker560: ¡Tu   jugador~de~baloncesto~favorito!
 - some people playing a game
 
 [LINE]
-Speaker593: ¡No~es    él! 
+Speaker593: 埃个勿是伊！ 
 ~            it's~not him 
+$8883/76020f80.mp3;1,50;1,288;2,150;1,337;0,275
 
 [LINE]
-Speaker560: ¡Sí,  es   él!  ¡Habla~con él! 
+Speaker560: 是个,  埃个是伊！ 更伊讲闲话！ 
 ~            yes  it's him   talk~to   him 
+$8883/0172f427.mp3;2,50;1,663;3,112;1,138;1,162;1,188;1,337;2,838;1,262;1,175;2,238;0,537
 
 [POINT_TO_PHRASE]
 > Choose the option that means "nervous."
-Speaker593: ¡(No), (estoy) (demasiado) (+nervioso)!
+Speaker593: (勿要), |(我)|(台)|(+紧张)|(了)!
 ~             no    I~am    too          nervous   
+$8883/2728d087.mp3;2,50;1,488;3,112;2,188;3,187;2,413;0,175
 
 [LINE]
-Speaker560: Pero Vikram… ¡mira!
+Speaker560: 但是维克朗… 看!
 ~           but  Vikram   look 
+$8883/f3b61c4e.mp3;2,50;2,463;NaN,1525;NaN,425
 
 [ARRANGE]
 > Tap what you hear
-Speaker560: ¡[(Ustedes) (tienen) (los) (mismos) (zapatos)!]
+Speaker560: [(㑚)|(鞋子)|(是)|(一样个)!]
 ~              you       have     the   same     shoes     
+$8883/df1d4fd0.mp3;1,50;3,250;2,375;3,150;1,325;0,288
+# use 那 for tts
 
 [LINE]
 > El~jugador~de~baloncesto mira~a   Vikram y   a~Priti.
 ~ the~basketball~player    looks~at Vikram and Priti   
 
 [LINE]
-Speaker593: ¡Ay, no, Priti, nos~está~mirando!  
+Speaker593: 啊呀, 潘丽娣， 伊现在辣辣看阿拉了！  
 ~            oh  no  Priti  he's~looking~at~us 
 
 [MULTIPLE_CHOICE]
@@ -75,36 +88,45 @@ Speaker593: ¡Ay, no, Priti, nos~está~mirando!
 + The basketball player is looking at them.
 
 [LINE]
-Speaker560: ¡Sí!  ¡Y   viene       para~acá!
+Speaker560: 哎!  更伊过来了!
 ~            yes   and he's~coming here     
+$8883/e78875c5.mp3;1,50;1,438;3,850;1,275;2,175;1,375;0,250
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker593: ¡¿[Qué~hago]?!    
+Speaker593: [我做啥呢]？！ 
 ~              what~do~I~do   
-- Qué pago
-+ Qué hago
-- Me hago
+$8883/8bd7921e.mp3;1,50;1,250;1,213;1,262;1,238
+
+- 侬做啥呢
++ 我做啥呢
+- 伊做啥呢
 
 [LINE]
-Speaker560: ¡Habla~con él! 
+Speaker560: 更伊讲闲话! 
 ~            talk~to   him 
+$8883/36147173.mp3;1,50;1,263;1,175;2,237;0,538
 
 [LINE]
-Speaker593: ¡Tengo~que irme!   
+Speaker593: 我要走了!   
 ~            I~have~to (to)~go 
+$8883/aaf4b881.mp3;1,50;1,213;1,162;1,250;0,250
 
 [LINE]
-Speaker113: ¡Ey! 
+Speaker113: 嘿! 
 ~            hey 
+$8883/96448757.mp3;1,50;0,425
+
 
 [LINE]
-Speaker593: ¿Sí? 
+Speaker593: 啥? 
 ~            yes 
+$8883/97617586.mp3;1,50
 
 [LINE]
-Speaker113: Me~encantan tus  zapatos.
+Speaker113: 我老欢喜侬个鞋子啊。
 ~           I~love      your shoes   
+$8883/2553b95e.mp3;1,50;1,213;2,175;1,412;1,163;2,112;1,363;0,187
 
 [MULTIPLE_CHOICE]
 > Why did the basketball player want to talk to Vikram?
@@ -114,9 +136,9 @@ Speaker113: Me~encantan tus  zapatos.
 
 [MATCH]
 > Tap the pairs
-- Ey <> hey
-- No <> no
-- Sí <> yes
-- leche <> milk
-- zapatos <> shoes
+- 嘿 <> hey
+- 勿要 <> no
+- 哎 <> yes
+- 牛奶 <> milk
+- 鞋子 <> shoes
 
