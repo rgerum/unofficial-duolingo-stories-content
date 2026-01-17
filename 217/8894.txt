@@ -1,0 +1,114 @@
+[DATA]
+fromLanguageName=I Want a Dog!
+icon=f0d8a8f3340da1d468766192cafa7ac1ee986355
+set=10|2
+
+[HEADER]
+> ¡Quiero un~perro!
+~  I~want a~dog    
+
+[LINE]
+Speaker415: Papá, tenemos~que hablar.   
+~           dad   we~have~to  (to)~talk 
+
+[LINE]
+Speaker415: ¡Quiero un~perro!
+~            I~want a~dog    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Junior, [tener~un~perro] es mucho    trabajo.
+~           Junior   to~have~a~dog   is a~lot~of work    
++ tener un perro
+- tener un carro
+- tener un cerro
+
+[LINE]
+Speaker415: ¡Papá, por~favor! Soy  muy  responsable.
+~            Dad   please     I~am very responsible 
+
+[LINE]
+Speaker414: ¿Ah, sí? 
+~            oh  yes 
+
+[LINE]
+Speaker414: Entonces, tienes~que  limpiar    el~carro…
+~           then      you~have~to (to)~clean the~car  
+
+[MULTIPLE_CHOICE]
+> Why does Eddy tell Junior to clean the car?
+- Junior needs to drive to his new job.
++ He wants Junior to prove that he's responsible.
+- Junior's dog got the car really dirty.
+
+[LINE]
+Speaker415: ¡Está~bien!
+~            OK        
+
+[LINE]
+Speaker414: … lavar     el~baño…     
+~             (to)~wash the~bathroom 
+
+[LINE]
+Speaker415: Sí… 
+~           yes 
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: … ¡[(y)   (lavar)     (las~ventanas)!]
+~                and   (to)~wash   the~windows    
+
+[LINE]
+Speaker415: Ay, no…
+~           oh  no 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "finishes."
+> Tres  (horas) (después), (Junior) (+termina)  de~limpiar.
+~ three  hours   later      Junior    finishes  cleaning   
+
+[LINE]
+Speaker415: ¡Papá! ¡Mira!
+~            Dad    look 
+
+[LINE]
+Speaker414: ¡Qué~bien!     Tú  eres muy  responsable.
+~            that's~great  you are  very responsible 
+
+[CONTINUATION]
+> What comes next?
+Speaker414: ¡Ahora puedes  tener     [un~perro]!
+~            now   you~can (to)~have  a~dog     
+- un~baño   
+~ a~bathroom
+- una~ventana
+~ a~window   
++ un~perro
+~ a~dog   
+
+[LINE]
+Speaker415: ¡No, gracias!   No~quiero    un~perro…
+~            no  thank~you  I~don't~want a~dog    
+
+[LINE]
+Speaker414: ¿Por~qué no? 
+~            why     not 
+
+[LINE]
+Speaker415: ¡Estoy muy  cansado! ¡No~quiero    ser   responsable!
+~            I~am  very tired     I~don't~want to~be responsible 
+
+[MULTIPLE_CHOICE]
+> Junior decided…
+- …he wants a cow instead.
+- …he should adopt four dogs.
++ …he's too tired to take care of a dog.
+
+[MATCH]
+> Tap the pairs
+- Quiero <> I want
+- ser <> to be
+- mucho <> a lot of
+- horas <> hours
+- tenemos que <> we have to
+
