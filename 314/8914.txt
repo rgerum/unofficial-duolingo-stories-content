@@ -1,141 +1,169 @@
 [DATA]
-fromLanguageName=A Date
+fromLanguageName=约会
 icon=df24f7756b139f6eda927eb776621b9febe1a3f1
 set=1|2
 
 [HEADER]
-> Una cita
-~ a   date
+> 約會{約鍡}
+~ 约会
+$6887/f54f3b2d.mp3;1,50;2,200
 
 [LINE]
-> Bea está en una cita en un restaurante.
-~ Bea is   on a   date in a  restaurant  
+> 阿Bea{遏必}|同|人|坐{蓌}|响|一|間|餐廳度|約會。{約鍡。}
+~ 小贝 跟 别人 坐 在 一 间 餐厅里 约会
+$6887/8aa2f9d2.mp3;2,50;2,362;2,250;2,225;2,325;2,263;2,175;3,300;2,575;2,237;2,225;2,413
 
 [LINE]
-Speaker507: ¡Hola!  ¿Cómo~estás? 
-~            hello   how~are~you 
+Speaker507: 哈佬！{哈路！}|你點呀？{你點嘛}
+~            哈啰   你怎么样呀
+$6887/048563ac.mp3;1,50;2,262;2,250;2,838;2,262;2,200
 
 [LINE]
-Speaker100: ¡Bien!
-~            fine 
+Speaker100: 我|好|好！
+~            我 很 好 
+$6887/4a86182a.mp3;1,50;2,175;2,200;2,350
+
 
 [LINE]
-Speaker100: ¿Qué  quieres     comer? 
-~            what do~you~want to~eat 
+Speaker100: 你|睇吓{睇下}|想|食|乜嘢？ 
+~            你 看一看 想 吃 什么
+$6887/5562064a.mp3;1,50;3,237;2,388;2,212;2,150;2,163;2,337
 
 [LINE]
-Speaker507: Una ensalada.
-~           a   salad    
+Speaker507: 要|一份|沙律|啦。
+~           要 一份 沙拉 吧
+$6887/24d6157b.mp3;1,50;3,250;3,350;2,387;2,325
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker507: Hoy   tengo  [un~partido~importante].
-~           today I~have  an~important~game      
-+ un partido importante
-- un batido importante
-- una parte imponente
+Speaker507: 今日|我|有|一場|[好|重要嘅|比賽]。
+~           今天 我 有 一场 很 重要的 比赛      
+$6887/256fd66d.mp3;2,50;2,400;2,175;2,162;2,138;2,250;3,262;2,413;3,200;2,587
+- 好搞笑嘅彩排
++ 好重要嘅比賽
+- 好重要嘅期待
 
 [LINE]
-Speaker100: Ah, ¿te~gustan   los~deportes?
-~           oh   do~you~like (the)~sports 
+Speaker100: 哦，{aw，}|你|鍾意|做|運動|㗎？{嫁}
+~           Oh you like doing sports/exercise (particle) 
+$6887/4b59c095.mp3;2,50;2,237;2,288;2,250;2,162;2,200;3,150;2,413
 
 [LINE]
-Speaker507: Sí,  yo juego~al fútbol.
-~           yes  I  play     soccer 
+Speaker507: 係呀，{係ah，}|我|踢|開|足球|㗎{嫁}。
+~           Yes I play usually soccer (particle)
+$6887/0a3843a9.mp3;1,50;3,275;2,187;2,200;3,175;3,475;2,413;2,300
 
 [MULTIPLE_CHOICE]
-> Bea is ordering a salad because…
-+ …she is playing soccer today.
-- …her date said the salad is delicious.
-- …she just ate a whole pizza.
+> 小贝点色拉吃是因为……
++ ……她今天要踢足球。
+- ……Daniel推介她吃色拉。
+- ……她刚刚吃了一整个意大利薄饼。
 
 [LINE]
-Speaker100: ¡Yo~también!
-~            me~too     
+Speaker100: 我都係！
+~            Me~too 
+$6887/cbda76ee.mp3;1,50;2,237;2,150;2,338
 
 [LINE]
-Speaker507: ¡Súper!
-~            great 
+Speaker507: 咁幾好喎！
+~           那蛮好的耶
+$6887/6a077a39.mp3;1,50;2,250;2,187;2,200;2,288
 
 [LINE]
-Speaker507: ¿De~dónde~eres?     
-~            where~are~you~from 
+Speaker507: 你|係|邊度|人|呢？     
+~            你 是 哪里 人 呢
+$6887/e29ae9e9.mp3;1,50;2,187;4,225;2,550;2,150
 
 [LINE]
-Speaker100: Soy  americano.
-~           I~am American  
+Speaker100: 我|係|香港|人|嚟嘅。
+~           我 是 香港 人 来的  
+$6887/36b5b9c8.mp3;1,50;2,162;4,188;2,587;2,213;2,300
+
 
 [ARRANGE]
 > Tap what you hear
-Speaker100: [(Mi~padre)  (es~de~Cuba)   (y)   (mi~madre)  (es~de~México).]  
-~             my~father   is~from~Cuba   and   my~mother   is~from~Mexico   
+Speaker100: [(我)​(阿爸)​(係)​(廣州人)，​(阿媽就係)​(澳門人)。]  
+~             我 爸 是 广州人 （我）妈呢，是 澳门人
+$6887/0cc25b0f.mp3;1,50;3,375;2,350;3,262;2,425;2,325;3,238;2,462;2,188;3,237;2,363;2,275
 
 [LINE]
-Speaker507: ¡Me~encanta Cuba!
-~            I~love     Cuba 
+Speaker507: 我|好|想|去|澳門|玩|㗎！
+~            我 很 想 去 澳门 玩 的耶
+$6887/84dd9f06.mp3;1,50;2,187;2,175;2,263;3,237;2,350;2,275;2,275
 
 [LINE]
-Speaker100: Cuba es muy  bonita.   
-~           Cuba is very beautiful 
+Speaker100: 澳門|個|地方|都|真係|好|靚。   
+~           澳门 这个 地方 也 真的 很 漂亮
+$6887/a1d7a224.mp3;2,50;2,400;3,162;2,400;2,200;2,175;2,200;2,188;2,337
 
 [LINE]
-Speaker507: ¿Tienes      mascotas?
-~            do~you~have pets     
+Speaker507: 你|有冇|養|寵物|呀？{牙？}
+~           你 有没有（在） 养 宠物 啊  
+$6887/953458c1.mp3;1,50;2,162;2,175;2,238;3,200;2,400;2,250
 
 [LINE]
-Speaker100: Tengo  dos gatos y   un perro.
-~           I~have two cats  and a  dog   
+Speaker100: 我|就|有|兩隻|貓，|同埋|一隻|狗仔。
+~           我（呢） 就 有 两只 猫 以及 一只 小狗   
+$6887/80581294.mp3;1,50;2,337;2,163;3,187;2,388;2,337;2,300;2,213;3,200;3,362;2,525
 
 [POINT_TO_PHRASE]
-> Choose the option that means "also."
-Speaker507: Yo (+también) (tengo) un (perro), (José).
-~           I    also      have   a   dog      José  
+> 哪一个选项的意思是“也”？
+Speaker507: (我)​(+都)​(好似)​子軒​你​(咁)，​(有)​一隻​(狗)​呀！
+~           我 也 好像 子轩 你 这样 有 一只 狗 的欸
+$6887/ce3f260e.mp3;1,50;2,225;3,187;2,450;2,175;2,238;2,187;2,375;2,138;3,162;2,338;5,187;2,275
 
 [LINE]
-Speaker100: ¿Eh? Yo~me~llamo Daniel…
-~            eh  my~name~is  Daniel 
+Speaker100: 吓？|我個名|係| Daniel{爹聊} |喎…… 
+~           啊 我的名字 是 Daniel 欸/喔
+$6887/3aa84aac.mp3;1,50;2,312;2,900;2,238;2,137;2,188;2,250;2,175;2,175
 
 [LINE]
-Speaker100: ¿Tú~no~eres Gabriela?
-~            aren't~you Gabriela 
+Speaker100: 你|唔係|安琪|嚟㗎咩？{嫁咩？}
+~            你 不是 按其 来的吗
+$6887/9f33f586.mp3;1,50;2,200;2,162;3,250;2,363;2,187;2,150;2,250
 
 [LINE]
-Speaker507: ¡No!
-~            no 
+Speaker507: 我|唔係！
+~           我 不是
+$6887/a426c3dd.mp3;1,50;2,187;2,150;2,263
 
 [LINE]
-Speaker507: ¡Yo~me~llamo Bea!
-~            my~name~is  Bea 
+Speaker507: 我|個|名|叫|阿Bea！{遏必！}
+~            我 那个（=的） 名字 叫 阿Bea
+$6887/0b4b1fcd.mp3;1,50;2,225;2,175;2,237;3,213;2,375
 
 [MULTIPLE_CHOICE]
-> Did you catch that? Bea and Daniel…
-- …bought tickets to Cuba.
-+ …were supposed to meet different people.
-- …are walking their dogs.
+> 嗯？小贝和 Daniel 现在怎么了？！
+- 小贝和 Daniel 打算买票去澳门玩。
++ 小贝和 Daniel 搞错了见面对象。
+- 小贝和 Daniel 约好了一起去遛狗。
 
 [LINE]
-> Una mujer camina hacia   Daniel.
-~ a   woman walks  towards Daniel 
+> 有一個|女人|行埋嚟~Daniel{爹聊}~度。
+~ 有一个 女人 走来靠近~Daniel~这里
+$6887/d4fe5dd6.mp3;1,50;2,175;2,187;3,263;3,475;2,537;2,263;2,237;2,238;2,350
 
 [LINE]
-Speaker101: ¡Hola!  ¿Eres    Daniel? Soy  Gabriela.
-~            hello   are~you Daniel  I~am Gabriela 
+Speaker101: 你好！|你|係唔係| Daniel{爹聊} |呀？{哇}|我|係|安琪。
+~           你好 你 是不是 Daniel 啊 我 是 安琪 
+$6887/3f39f723.mp3;10,4019;7,NaN;2,NaN;3,NaN;9,NaN
 
 [LINE]
-Speaker100: No, lo~siento. Soy  José.
-~           no  I'm~sorry  I~am José 
+Speaker100: Sorry，{梳li，}|我|唔係|呀。{喫。}|我|係|子軒。
+~           不好意思 我 不是 的 我 是 子轩
+$6887/65be1224.mp3;1,50;3,325;2,312;2,300;2,188;2,175;2,187;2,325;2,838;2,187;2,238;2,162;2,363
 
 [MULTIPLE_CHOICE]
-> Whoa! What just happened?
-- Bea changed her name to Gabriela.
-+ Daniel lied to his real date because he likes Bea.
-- Bea and Daniel's dogs played soccer.
+> 咦？！发生什么事？！？！
+- 阿Bea把名字改成了安琪。
++ Daniel因为喜欢阿Bea，骗了他的约会对象说他是别人。
+- 阿Bea和Daniel的狗出来踢了一场足球。
 
 [MATCH]
 > Tap the pairs
-- y <> and
-- Soy <> I am
-- ensalada <> salad
-- Me encanta <> I love
-- Eh <> eh
+- 靚 <> 漂亮
+- 狗仔 <> 小狗
+- 行埋嚟 <> 走近来
+- 有冇 <> 有没有
+- 鍾意 <> 喜欢
 
