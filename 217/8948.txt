@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Where Are My Keys?
+icon=3f21c887f044dc2ac0d1f0d0ea74e1200b587ac2
+set=11|4
+
+[HEADER]
+> ¿Dónde están mis llaves?
+~  where are   my  keys   
+
+[LINE]
+> Lin está con  su~abuela,       Lucy.
+~ Lin is   with her~grandmother  Lucy 
+
+[LINE]
+Speaker509: Tenemos una~reserva   en un restaurante~muy~elegante esta~noche.
+~           we~have a~reservation in a  very~elegant~restaurant  tonight    
+
+[LINE]
+Speaker509: ¿Vamos?    No~quiero    llegar~tarde.
+~            let's~go  I~don't~want to~be~late   
+
+[MULTIPLE_CHOICE]
+> Lucy is cooking a fancy dinner.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker508: ¡Está~bien!
+~            OK        
+
+[LINE]
+Speaker508: No… ¿dónde están las~llaves~de~mi~carro?
+~           no   where are   my~car~keys            
+
+[LINE]
+Speaker509: Tú  nunca sabes dónde están~tus~llaves.
+~           you never know  where your~keys~are    
+
+[MULTIPLE_CHOICE]
+> Lucy says that Lin never knows where…
+- …their dog is.
+- …to put her clothes.
++ …her keys are.
+
+[LINE]
+Speaker509: ¿Están    en tu~abrigo?
+~            they~are in your~coat 
+
+[ARRANGE]
+> Tap what you hear
+> [(Lin) (busca)    (en) (su~abrigo).]
+~   Lin   searches   in   her~coat    
+
+[LINE]
+Speaker508: No, no~están     aquí.
+~           no  they~are~not here 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: ¿Están    [debajo~de~tu~cama]?
+~            they~are  under~your~bed     
++ debajo de tu cama
+- me bajo de la cama
+- debajo de su casa
+
+[LINE]
+Speaker508: No, ¡no~están     debajo~de la  cama!
+~           no   they~are~not under     the bed  
+
+[LINE]
+Speaker509: ¿Están    en tu~zapato?
+~            they~are in your~shoe 
+
+[LINE]
+Speaker508: No, eso  es extraño.
+~           no  that is strange 
+
+[LINE]
+Speaker508: No~sé        dónde están~mis~llaves. ¿Vamos    al     restaurante en~taxi?
+~           I~don't~know where my~keys~are        let's~go to~the restaurant  by~taxi 
+
+[LINE]
+Speaker509: No, es    demasiado tarde.
+~           no  it~is too       late  
+
+[LINE]
+Speaker508: Lo~siento.
+~           I'm~sorry 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "cook."
+Speaker509: (Está~bien), yo (puedo) (+cocinar) algo      para (la~cena).
+~            OK          I   can      cook     something for   dinner   
+
+[LINE]
+> Lucy abre  la  puerta de la  nevera.
+~ Lucy opens the door   of the fridge 
+
+[LINE]
+Speaker509: ¡Lin, aquí están tus~llaves!
+~            Lin  here are   your~keys  
+
+[MULTIPLE_CHOICE]
+> At last! Lin's keys were in…
+- …her shoes.
++ …the refrigerator.
+- …her car.
+
+[MATCH]
+> Tap the pairs
+- es <> it is
+- Tú <> you
+- tu zapato <> your shoe
+- su abuela <> her grandmother
+- Lucy <> Lucy
+
