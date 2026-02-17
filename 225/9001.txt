@@ -1,0 +1,109 @@
+[DATA]
+fromLanguageName=Junior's Decision
+icon=e0600de22649754eb7336b587834d36407767819
+set=10|1
+
+#ççççç
+[HEADER]
+> La~decisión~de~Junior
+~ Junior's~decision    
+
+[LINE]
+> Es   la~hora~del~almuerzo en la~escuela~de~Junior.
+~ it's lunch~time           at Junior's~school      
+
+[LINE]
+Speaker415: ¡Buenos~días,  señora Pérez! ¡Tengo~mucha~hambre!
+~            good~morning  Mrs.   Pérez   I'm~very~hungry    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker395: Hola,  Junior. [Hoy~tenemos~pollo].    
+~           hello  Junior   today~we~have~chicken  
++ Hoy tenemos pollo
+- Hoy veremos pollo
+- Hoy tendremos polo
+
+[LINE]
+Speaker395: Y   con  el  pollo…  
+~           and with the chicken 
+
+[LINE]
+Speaker395: … te~puedes~comer una ensalada o  patatas~fritas.
+~             you~can~eat     a   salad    or fries          
+
+[MULTIPLE_CHOICE]
+> Junior can get either salad or fries with the chicken.
+- No, that's wrong.
++ Yes, that's right.
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: ¡[(Quiero) (patatas~fritas) (y)   (ensalada)!] 
+~              I~want   fries            and   (a)~salad   
+
+[LINE]
+Speaker395: Te~puedes~comer solo una de las dos cosas,  Junior.
+~           you~can~eat     only one of the two things  Junior 
+
+[LINE]
+Speaker415: Bueno, me~encantan las~patatas~fritas…
+~           well   I~love      fries              
+
+[LINE]
+Speaker415: Y   va~a~ser         un día~muy~largo…
+~           and it's~going~to~be a  very~long~day 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "healthier."
+Speaker415: … (pero) (la~ensalada) (es) (+más~saludable).
+~              but    salad         is    healthier      
+
+[LINE]
+Speaker395: ¿Junior?
+~            Junior 
+
+[LINE]
+Speaker415: ¿Patatas~fritas o  ensalada? Mmm…
+~            fries          or salad     hmm 
+
+[LINE]
+Speaker415: Está~bien, quiero patatas~fritas… ¡No! ¡Ensalada! ¡No!
+~           OK         I~want fries            no   salad      no 
+
+[LINE]
+Speaker415: ¡Ay, no~sé!       
+~            oh  I~don't~know 
+
+[MULTIPLE_CHOICE]
+> Poor Junior! What problem does he have?
+- He ate too many fries.
+- He wants ice cream in his salad.
++ He can't choose between a salad and fries.
+
+[LINE]
+Speaker395: ¡Junior!
+~            Junior 
+
+[LINE]
+Speaker415: ¡Ay! ¿Sí,  señora Pérez?
+~            oh   yes  Mrs.   Pérez 
+
+[LINE]
+Speaker395: ¡Toma!        Patatas~fritas y   ensalada  para ti. 
+~            here~you~go  fries          and (a)~salad for  you 
+
+[MULTIPLE_CHOICE]
+> What did Mrs. Pérez tell Junior to do?
+- Go somewhere else to eat.
++ Take both the fries and the salad.
+- Imagine that fries are salad.
+
+[MATCH]
+> Tap the pairs
+- Es <> it's
+- más saludable <> healthier
+- Quiero <> I want
+- el <> the
+- la escuela de Junior <> Junior's school
+
