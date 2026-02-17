@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=A New Sport
+icon=4779d731014382d1398621baf6c630efe3e344c0
+set=11|2
+
+[HEADER]
+> Un nuevo deporte
+~ a  new   sport  
+
+[LINE]
+> Eddy y   Junior están en una tienda.
+~ Eddy and Junior are   in a   store  
+
+[LINE]
+Speaker414: ¿Quieres  practicar un nuevo deporte? ¡Qué~bueno!
+~            you~want to~play   a  new   sport     great     
+
+[LINE]
+Speaker414: ¿Quieres  jugar~al baloncesto?
+~            you~want to~play  basketball 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: No~me~gustan [los~deportes~con~pelotas].
+~           I~don't~like  sports~with~balls         
++ los deportes con pelotas
+- los reportes con pelotas
+- los deportes con bellotas
+
+[LINE]
+Speaker414: ¡Esta raqueta~de~tenis es muy  bonita!
+~            this tennis~racket    is very pretty 
+
+[CONTINUATION]
+> What comes next?
+Speaker415: Necesitas una pelota para     [jugar~al tenis]. 
+~           you~need  a   ball   in~order  to~play  tennis  
+- al~baloncesto
+~ basketball   
++ jugar~al tenis 
+~ to~play  tennis
+- una tienda 
+~ a   store  
+
+[LINE]
+Speaker414: Ah, sí.  Mmm... ¿Qué  puedes~practicar?
+~           oh  yes  hmm     what you~can~play     
+
+[LINE]
+Speaker415: Yo quiero...
+~           I  want     
+
+[LINE]
+Speaker414: ¡Nadar!   ¡¿Quieres  nadar?!  
+~            to~swim    you~want to~swim  
+
+[LINE]
+Speaker415: No...
+~           no   
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(Pero) (es)   (un) (deporte) (sin~pelotas).]  
+~             but    it's   a    sport     without~balls   
+
+[LINE]
+Speaker415: ¡Papá, no!
+~            dad   no 
+
+[LINE]
+Speaker414: Bueno, ¿qué  quieres  hacer?
+~           well    what you~want to~do 
+
+[LINE]
+> Junior mira     unas zapatillas~de~ballet.
+~ Junior looks~at some ballet~shoes         
+
+[MULTIPLE_CHOICE]
+> Oh! It seems like Junior wants to…
++ …try dancing.
+- …play football.
+- …go for a swim.
+
+[LINE]
+Speaker415: Yo quiero… bailar.  
+~           I  want    to~dance 
+
+[LINE]
+Speaker414: ¡¿Quieres  bailar?!  
+~             you~want to~dance  
+
+[LINE]
+Speaker415: Sí…  ¿Es   un problema?
+~           yes   it's a  problem  
+
+[LINE]
+Speaker414: ¡No! ¡Bailar  también~es un deporte!
+~            no   dancing is~also    a  sport   
+
+[LINE]
+> Eddy empieza~a bailar   en la  tienda.
+~ Eddy starts    to~dance in the store  
+
+[LINE]
+Speaker415: Papá, para~de~bailar por~favor.
+~           dad   stop~dancing   please    
+
+[MULTIPLE_CHOICE]
+> Junior wants his dad to stop...
++ …dancing.
+- …singing.
+- …buying stuff.
+
+[MATCH]
+> Tap the pairs
+- problema <> problem
+- Ah <> oh
+- empieza a <> starts
+- sin pelotas <> without balls
+- No <> no
+
