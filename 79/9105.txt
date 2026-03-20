@@ -1,0 +1,227 @@
+[DATA]
+fromLanguageName=Where's My Jacket?
+icon=c118dba677be114f65466bf9f2e2bb74df28ff32
+set=61|3
+
+[HEADER]
+> ¿Dónde está mi chaqueta?
+~  where is   my jacket   
+
+[LINE]
+> Óscar toca      la  puerta del~apartamento~de~Eddy.
+~ Óscar knocks~on the door   of~Eddy's~apartment     
+
+[LINE]
+Speaker592: Eddy, ¿todavía      tienes la  chaqueta que  te~di      la~semana~pasada?
+~           Eddy   do~you~still have   the jacket   that I~gave~you last~week        
+
+[LINE]
+Speaker414: ¿Tu~chaqueta~azul? Pensé     que  odiabas   esa  chaqueta.
+~            your~blue~jacket  I~thought that you~hated that jacket   
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker592: [Cambié~de~opinión]. ¿La~tienes?     
+~            I~changed~my~mind    do~you~have~it 
+- Canté mi opinión
++ Cambié de opinión
+- Cambié de operación
+
+[LINE]
+Speaker414: No, se~la~di~a~Lin.  
+~           no  I~gave~it~to~Lin 
+
+[LINE]
+Speaker592: ¿Por~qué?
+~            why     
+
+[LINE]
+Speaker414: Me~quedaba~pequeña. 
+~           it~was~small~for~me 
+
+[LINE]
+Speaker592: Ay, no. Bueno, voy~a~ver         si Lin me~la~quiere~devolver.      
+~           oh  no  well   I~am~going~to~see if Lin wants~to~give~it~back~to~me 
+
+[LINE]
+Speaker414: ¡Buena suerte!
+~            good  luck   
+
+[LINE]
+> Óscar corre~al apartamento~de~Lin.
+~ Óscar runs~to  Lin's~apartment    
+
+[MULTIPLE_CHOICE]
+> Espera… ¿por~qué Óscar~está~yendo~al apartamento~de~Lin?
+~ wait     why     is~Óscar~going~to   Lin's~apartment    
++ Él quiere su  chaqueta.
+~ he wants  his jacket   
+- Él tiene~que darle     su  chaqueta a  Lin.
+~ he has~to    (to)~give his jacket   to Lin 
+- Lin lo~invitó   a~cenar    en su  casa. 
+~ Lin invited~him for~dinner in her house 
+
+[LINE]
+Speaker592: Lin, Eddy me~dijo que  tú  tenías mi chaqueta~azul.
+~           Lin  Eddy told~me that you had    my blue~jacket   
+
+[LINE]
+Speaker508: Sí,  ¡me~encanta!
+~           yes   I~love~it  
+
+[LINE]
+Speaker592: Ah, genial, porque  la~quiero. ¿Todavía      la~tienes?
+~           oh  great   because I~want~it   do~you~still have~it   
+
+[LINE]
+Speaker508: No, soy  alérgica a  esa  tela,   así~que se~la~di  a  Bea.
+~           no  I~am allergic to that fabric  so      I~gave~it to Bea 
+
+[LINE]
+Speaker592: ¡Ah! ¡Necesito esa  chaqueta!
+~            oh   I~need   that jacket   
+
+[LINE]
+Speaker508: Bea está en~casa. 
+~           Bea is   home     
+
+[ARRANGE]
+> Tap what you hear
+Speaker508: ¿[(Por~qué) (no~vas~a~hablar~con)  (ella)?]
+~              why       don't~you~go~talk~to   her    
+
+[LINE]
+> Óscar va   al~apartamento~de~Bea.
+~ Óscar goes to~Bea's~apartment    
+
+[LINE]
+Speaker507: Óscar, ¡qué~gusto~verte!
+~           Óscar   nice~to~see~you 
+
+[LINE]
+Speaker592: Hola,  Bea. Lin me~dijo que  te~dio       mi chaqueta~azul.
+~           hello  Bea  Lin told~me that she~gave~you my blue~jacket   
+
+[LINE]
+Speaker507: Sí,  pero lo~siento…
+~           yes  but  I'm~sorry 
+
+[LINE]
+Speaker592: ¿Por~qué?
+~            why     
+
+[POINT_TO_PHRASE]
+> Selecciona la  opción que  significa "I donated it".
+~ choose     the option that means      ~ ~       ~   
+Speaker507: Ya        tengo (muchas)   chaquetas, (así~que) (+la~doné)      esta (mañana). 
+~           I~already have   a~lot~of  jackets     so         I~donated~it  this  morning  
+
+[LINE]
+Speaker592: ¡Ay, no!
+~            oh  no 
+
+[LINE]
+Speaker507: La  tienda cierra en una hora, ¡todavía   puedes~llegar a~tiempo!
+~           the store  closes in an  hour   you~still can~arrive    on~time  
+
+[LINE]
+> Óscar corre a  la  tienda. Él llega   justo a~tiempo y   habla~con la  vendedora. 
+~ Óscar runs  to the store   he arrives just  on~time  and talks~to  the saleswoman 
+
+[CONTINUATION]
+> ¿Qué  sigue?     
+~  what comes~next 
+Speaker592: ¡Hola!  ¿Tienen      [chaquetas~azules]?
+~            hello   do~you~have  blue~jackets      
+- gorros~de~lana
+~ wool~caps     
+- pantalones~rojos
+~ red~pants       
++ chaquetas~azules
+~ blue~jackets    
+
+[LINE]
+Speaker260: ¡En~realidad, sí!  Alguien donó    esta chaqueta~azul esta mañana.  Cuesta   cincuenta dólares.
+~            actually     yes  someone donated this blue~jacket   this morning  it~costs fifty     dollars 
+
+[LINE]
+Speaker592: ¿Solamente cincuenta dólares?
+~            only      fifty     dollars 
+
+[LINE]
+Speaker260: Sí,  es    un excelente precio, pero no~hacemos~reembolsos.
+~           yes  it~is an excellent price   but  we~don't~give~refunds 
+
+[MULTIPLE_CHOICE]
+> La  vendedora  quiere~decir que  si Óscar compra la  chaqueta…
+~ the saleswoman means        that if Óscar buys   the jacket   
+- ...él tiene~que comprar  más  ropa.   
+~    he has~to    (to)~buy more clothes 
++ ...no~le~pueden devolver    su  dinero.
+~    they~can't   (to)~return his money  
+- ...la  vendedora  se~la~va~a~quedar.  
+~    the saleswoman is~going~to~keep~it 
+
+[LINE]
+Speaker592: No~importa,        me~la~llevo. 
+~           it~doesn't~matter  I'll~take~it 
+
+[LINE]
+> Óscar le~paga~a la  vendedora. 
+~ Óscar pays      the saleswoman 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker260: ¡Ah, por~cierto, esa  chaqueta tiene [un~bolsillo~secreto]!
+~            oh  by~the~way  that jacket   has    a~secret~pocket      
+- un bolso y mi secreto
++ un bolsillo secreto
+- un bolsillo sagrado
+
+[LINE]
+Speaker592: ¿Usted… encontró el  bolsillo~secreto?
+~            you    found    the secret~pocket    
+
+[LINE]
+Speaker260: Sí,  y   no~me~lo~va~a~creer…  ¡pero había      quinientos   dólares en el  bolsillo!
+~           yes  and you~won't~believe~it   but  there~were five~hundred dollars in the pocket   
+
+[LINE]
+Speaker260: Doné      ese  dinero a  nuestra organización. ¡Ayudaremos~a mucha    gente! 
+~           I~donated that money  to our     organization   we~will~help a~lot~of people 
+
+[LINE]
+Speaker592: Qué~generosa…
+~           how~generous 
+
+[ARRANGE]
+> Tap what you hear
+Speaker260: [(Aquí~tiene) (su)   (chaqueta).]
+~             here~is      your   jacket     
+
+[LINE]
+> La  vendedora  le~da~la~chaqueta~a~Óscar.
+~ the saleswoman gives~Óscar~the~jacket    
+
+[LINE]
+Speaker592: Ya~no~necesito~esta~chaqueta.     La~quiero~donar.    
+~           I~don't~need~this~jacket~anymore  I~want~to~donate~it 
+
+[MULTIPLE_CHOICE]
+> ¿Por~qué Óscar~le~donó    la  chaqueta a  la  tienda otra~vez?
+~  why     did~Oscar~donate the jacket   to the store  again    
++ Él solo quería el  dinero que  estaba en el  bolsillo.
+~ he only wanted the money  that was    in the pocket   
+- Él creía   que  la  vendedora  tenía~frío.
+~ he thought that the saleswoman was~cold   
+- La  chaqueta era demasiado pequeña para él. 
+~ the jacket   was too       little  for  him 
+
+[MATCH]
+> Tap the pairs
+- quinientos <> five hundred
+- Ay <> oh
+- ella <> her
+- corre <> runs
+- lo siento <> I'm sorry
+
