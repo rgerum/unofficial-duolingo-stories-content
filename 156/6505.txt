@@ -4,16 +4,16 @@ icon=5bee618bd907474764094eddf36ddcbc46523c98
 set=3|4
 
 [HEADER]
-> Pa{pá}~la{lá}  staçon!
-~  Para~a estação  
+> Pa la  stacion!
+~  Para a estação  
 
 [LINE]
 > Óscar entra n'un táxi.
 ~ Óscar entra num táxi
 
 [LINE]
-> Sue~amiga,   Lin, cunduç{cunduçe} l{}  táxi{letáxi}.
-~ Sua~amiga Lin conduz o táxi 
+> La sue amiga,   Lin, cunduç{cunduçe} l  táxi{letáxi}.
+~ A sua amiga Lin conduz o táxi 
 
 [MULTIPLE_CHOICE]
 > A Lin estava a conduzir o táxi em que o Óscar acabou de entrar.
@@ -30,20 +30,20 @@ Speaker508: (Si)!  (Ye) l  miu (+nuobo) (amprego)!
 ~            Sim É meu novo emprego
 
 [LINE]
-Speaker508: Adonde{adónde} quieres{qui-ires}  ir?   
-~            Onde queres ir
+Speaker508: Adonde{adónde} quies{qui-ires}  ir?   
+~            Onde queres~(informal) ir
 
 [LINE]
-Speaker592: Pa{pá}  la{lá}  staçon, fai~fabor{fabór}!
+Speaker592: Pa{pá}  la{lá}  stacion, fai~fabor{fabór}!
 ~            Para a estação   por~favor    
 
 [LINE]
-Speaker508: Adonde{adónde} ye{yé} la{lá}  staçon?
-~           Onde é a estação 
+Speaker508: Ehh, benga... Adonde{adónde} ye{yé} la{lá}  stacion?
+~           Ehh bem Onde é a estação 
 
 [LINE]
-Speaker592: Nun~sei.       
-~           Não~sei
+Speaker592: You... nun sei... yes tu la taxista...  
+~           Eu não sei és tu a taxista
 
 [MULTIPLE_CHOICE]
 > O Óscar não sabe…
@@ -70,12 +70,12 @@ Speaker508: Eiqui{eíqui} stamos{estamos}!
 ~           Aqui  estamos 
 
 [LINE]
-Speaker592: Lin… esta nun~ye{yé} la{lá}  staçon. Esta{akesta} ye{yé} la ounibersidade{ounibersídáde}.
-~           Lin  esta não~é a estação  Esta é a universidade
+Speaker592: Lin… esta nun~ye{yé} la{lá}  stacion. Esta{akesta} ye{yé} l'ounibersidade{ounibersídáde}.
+~           Lin  esta não~é a estação  Esta é a~universidade
 
 [LINE]
-Speaker508: Á…
-~           Á 
+Speaker508: Ah… nun 'ziste ounibersidade..? Haha... cierto... cralo.
+~           Ah não disseste~(informal) universidade Haha certo claro
 
 [LINE]
 > Lin ampeça a cunduzir.
@@ -95,36 +95,40 @@ Speaker508: Si?
 
 [ARRANGE]
 > Ordena corretamente
-Speaker592: [(Este) (ye) (l{})  (spital{lespítál}).]
+Speaker592: [(Este) (ye) (l)  (spital{lespítál}).]
 ~             Este é o  hospital   
 
 [LINE]
-Speaker508: Á…
-~           Á 
+Speaker508: ...
+~            
 
 [LINE]
-> Lin ampeça{ámpêça} a cunduzir… outra~beç{bêsse}.
-~ Lin começa a conduzir outra~~vez
+Speaker508: ...si.
+~         
+
+[LINE]
+> Lin ampeça{ámpêça} a cunduzir… outra beç{bêsse}.
+~ Lin começa a conduzir outra vez
 
 [LINE]
 Speaker508: Eiqui{eíqui} stamos{estamos}, Óscar!
 ~            Aqui estamos   Óscar 
 
 [LINE]
-Speaker592: Lin, esta nun~ye la  staçon…
-~           Lin esta não~é a estação
+Speaker592: Lin, esta nun ye la  stacion…
+~           Lin esta não é a estação
 
 [LINE]
-Speaker508: You sei, esta ye la mie casa.
-~        Eu sei este é a minha casa  
+Speaker508: You sei, ye la mie casa.
+~        Eu sei é a minha casa  
 
 [LINE]
-Speaker508: You nun~quiero{qui-iro}  cunduzir  táxis.
-~           Eu não~quero conduzir táxis 
+Speaker508: Yá nun quiero{qui-iro}  cunduzir  táxis.
+~           Já não quero conduzir táxis 
 
 [LINE]
-Speaker508: Ye   un{um-ha} amprego~mi~defícele{défissele}.
-~           É um emprego~muito~difícil 
+Speaker508: Ye   un{um-ha} amprego smasiado defícele{défissele}.
+~           É um emprego demasiado difícil 
 
 [LINE]
 > Lin abre  la  puorta{pu-urta} de~l{le}    táxi.
@@ -139,6 +143,10 @@ Speaker508: Buonas{bu-una}~nuites, Óscar!
 + Ela pensa que conduzir táxis é muito difícil.
 - Ela tinha que ir buscar o telemóvel a casa.
 - O turno dela tinha acabado.
+
+[LINE]
+Speaker592: M-mas..! I la stacion? Lin?!
+~          M-mas E a estação Lin
 
 [MATCH]
 > Seleciona os pares
