@@ -4,15 +4,15 @@ icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
 set=4|1
 
 [HEADER]
-> L{}  begetariano{lebegetariâno}
+> L  begetariano{lebegetariâno}
 ~ O vegetariano
 
 [LINE]
-> Bicram lhei  l{le}  menu n'un restourante~mi~galano.
-~ Bicram lê o menu num restaurante~muito~bonito 
+> Bicram lhei  l{le}  menu n'un restourante mi guapo.
+~ Bicram lê o menu num restaurante muito bonito 
 
 [LINE]
-Speaker385: Buonos{bu-unos}~dies{di-es}! 
+Speaker385: Buonos~dies{di-es}! 
 ~           Bom~dia 
 
 [LINE]
@@ -24,8 +24,8 @@ Speaker593: Sou  begetariano.
 ~           Sou vegetariano 
 
 [LINE]
-Speaker593: Teneis      quemido~begetariano?
-~            Têm comida~vegetariano    
+Speaker593: Teneis      quemido begetariano?
+~            Têm comida vegetariano    
 
 [MULTIPLE_CHOICE]
 > O Bicram quer saber se o restaurante serve comida vegetariana.
@@ -33,8 +33,8 @@ Speaker593: Teneis      quemido~begetariano?
 + Sim, isso está correto.
 
 [LINE]
-Speaker385: Si,  tenemos{tenêmos} ũas{um-has} sandes~de~chicha{ttchi-tcha}~mi~gustosas.
-~           Sim  temos umas sandes~de~carne~muito~saborosas      
+Speaker385: Si,  tenemos{tenêmos} ũas{um-has} sandes~de~chicha{ttchi-tcha} mi gustosas.
+~           Sim  temos umas sandes~de~carne muito saborosas      
 
 [LINE]
 Speaker593: Sandes~de~chicha{ttchi-tcha}? Sou  begetariano. 
@@ -45,8 +45,8 @@ Speaker385: Ah, si… Perdon.
 ~           Ah  sim  Perdão 
 
 [LINE]
-Speaker385: Tenemos{tenêmos} un pito~gustoso.  
-~           Temos um  frango~saboroso 
+Speaker385: Tenemos{tenêmos} un pito gustoso.  
+~           Temos um  frango saboroso 
 
 [MULTIPLE_CHOICE]
 > De acordo com o empregado, o frango é…
@@ -55,22 +55,21 @@ Speaker385: Tenemos{tenêmos} un pito~gustoso.
 + …delicioso.
 
 [LINE]
-Speaker593: L{} pito{lepítu} ye{yé} chicha{ttchi-ttcha}.
+Speaker593: L pito{lepítu} ye{yé} chicha{ttchi-ttcha}...
 ~           O frango é carne  
 
 [ARRANGE]
 > Ordena corretamente
-Speaker593: [(I)   (you) (nun~como)   (chicha{ttchi-tcha})!]
-~              E   eu    não~como   carne    
-$6520/7715f459.mp3;1,2038;4,NaN;4,NaN;6,NaN;7,NaN;2,NaN
+Speaker593: [(I)   (you) (nun como)   (chicha{ttchi-tcha})!]
+~              E   eu    não como   carne    
 
 [LINE]
 Speaker385: Tenemos{tenêmos} seladas{seládas}…
 ~          Temos saladas    
 
 [LINE]
-Speaker593: Ah, you~gusto de seladas{seládas}!
-~            Ah  eu~gosto   de saladas
+Speaker593: Ah, agora si! Gustan-me las seladas{seládas}!
+~            Ah  agora sim Gosto   as saladas
 
 [MULTIPLE_CHOICE]
 > O Bicram gosta…
@@ -79,12 +78,12 @@ Speaker593: Ah, you~gusto de seladas{seládas}!
 - …de carne.
 
 [LINE]
-Speaker385: Hai{ái}      ũa{um-ha} selada{seláda}~de temato{temáto}, queiso{quêijo},  salmon{sálmon}…
-~          Há uma   salada~de  tomate  queijo  salmão 
+Speaker385: Hai{ái}      ũa{um-ha} selada{seláda} de temato{temáto}, queiso{quêijo},  salmon{sálmon}…
+~          Há uma   salada de  tomate  queijo  salmão 
 
 [LINE]
-Speaker593: You nun~como   salmon{sálmón}! Sou  begetariano! 
-~            Eu não~como   salmão Sou vegetariano 
+Speaker593: You nun como   salmon{sálmón}! Sou  begetariano! 
+~            Eu não como   salmão Sou vegetariano 
 
 [LINE]
 Speaker385: Tenemos{tenêmos} patatas{patátas}~fertidas…
@@ -101,12 +100,12 @@ Speaker593: Stá~bien, patatas{patátas}~fertidas.
 - salmão
 
 [LINE]
-Speaker385: Patatas{patátas}~fertidas{fertidas}… purfeito{purfêito}. I…   un{únne} hambúrger?
+Speaker385: Patatas~fertidas… purfeito{purfêito}. I…   un{únne} hambúrger?
 ~           Batatas~fritas           perfeito   e   um   hambúrger   
 
 [LINE]
-Speaker593: Nun~como     chicha{ttshi-ttcha}!
-~          Não~como carne  
+Speaker593: Nun como     chicha{ttshi-ttcha}, carano!
+~          Não como carne  caraças
 
 [MULTIPLE_CHOICE]
 > Porque é que o Bicram está tão zangado?
@@ -117,7 +116,7 @@ Speaker593: Nun~como     chicha{ttshi-ttcha}!
 [MATCH]
 > Seleciona os pares
 - Quemido <> Comida
-- Ténen <> Têm
+- Tenen <> Têm
 - Pito <> Frango
 - Chicha <> Carne
 - Fertidas <> Fritas
