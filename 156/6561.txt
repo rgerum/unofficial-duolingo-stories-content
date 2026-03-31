@@ -4,20 +4,20 @@ icon=6fee4723d01611cffa9b4b76fd5be36697ef1e96
 set=4|3
 
 [HEADER]
-> Bestido    pa{pá}~las{lás} mies bacanças
-~ Roupa para~as minhas férias
+> Roupa    pa las{lás} mies bacanças
+~ Roupa para as minhas férias
 
 [LINE]
-> Luci stá n'ũa loija.
+> Luci stá n'ũa lhoija.
 ~ Luci está numa loja
 
 [LINE]
-Speaker416: Oulá,  percisa de dalgue~upa?
-~           Olá precisa de alguma~ajuda
+Speaker416: Oulá,  necitais ajuda?
+~           Olá necessita ajuda
 
 [LINE]
-Speaker509: Si,  perciso de bestido    pa{pá}~las{lás} mies bacanças.
-~           Sim preciso de roupa para~as minhas férias   
+Speaker509: Si,  perciso de roupa    pa las{lás} mies bacanças.
+~           Sim preciso de roupa para as minhas férias   
 
 [MULTIPLE_CHOICE]
 > A Lucy está à procura de roupa para as suas férias
@@ -29,7 +29,7 @@ Speaker416: Stá~bien.
 ~           Está~bem        
 
 [LINE]
-Speaker509: Perciso dun bestido.
+Speaker509: Perciso d'un bestido.
 ~          Preciso dum vestido   
 
 [LINE]
@@ -60,8 +60,8 @@ Speaker509: I   quiero{qui-iro} ũa jiqueta.
 ~   A Lili   vai procurar  uma    casaco~vermelha   
 
 [LINE]
-Speaker509: Nó, you quiero{qui-iro} ũa jiqueta amarielha{amari-ilha}!
-~            Não eu quero  uma   casaco amarela
+Speaker509: Nó, you quiero{qui-iro} ũa jiqueta amarielha{amari-ilha}! Roixo ye l bestido!
+~            Não eu quero  uma   casaco amarela Vermelho é o vestido
 
 [LINE]
 Speaker416: Stá~bien…
@@ -74,7 +74,7 @@ Speaker509: Un bestido colorado, ũa jiqueta amarielha{amari-ilha}…
 [SELECT_PHRASE]
 > Seleciona a frase em  falta
 Speaker509: [I ũa xambre]!
-~          E uma blusa(de~mulher)     
+~          E uma blusa~(de~mulher)     
 
 - I un xapéu
 - I un xambra
@@ -85,8 +85,8 @@ Speaker509: [I ũa xambre]!
 ~ Lili vai procurar uma blusa azul     
 
 [LINE]
-Speaker509: Nó, you quiero{qui-iro} ũa xambre~negra!
-~            Não  eu  quero   um  blusa~preta   
+Speaker509: Nó, you quiero{qui-iro} ũa xambre negra!
+~            Não  eu  quero   um  blusa preta   
 
 [LINE]
 > Lili bai~a apercurar     ũa xambre negra
@@ -94,9 +94,8 @@ Speaker509: Nó, you quiero{qui-iro} ũa xambre~negra!
 
 [POINT_TO_PHRASE]
 > Escolhe a opção que singifica "férias"
-Speaker509: (Dius te l pague)!   (Stou) (purparada) (pa~las) mies (+bacanças)!
-~             Obrigada   Estou     preparada   para~as minhas férias 
-$6561/66a144fb.mp3;10,3722;5,NaN;10,NaN;3,NaN;4,NaN;5,NaN;10,NaN
+Speaker509: Dius~bos~l~pague!   Stou más que (purparada) pa las (mies) (+bacanças) agora!
+~             Obrigada   Estou  mais que   preparada   para as minhas férias 
 
 [LINE]
 Speaker416: Agora{aóra} you perciso de bacanças.  
@@ -110,9 +109,8 @@ Speaker416: Agora{aóra} you perciso de bacanças.
 
 [MATCH]
 > Seleciona os pares
-- I <> E
 - Colorado <> Vermelho
 - Jiqueta <> Casaco
-- Oubrigado <> Obrigado
-- Nó <> Não
+- Bacanças <> Férias
+- Xambre <> Blusa
 
