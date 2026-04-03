@@ -8,7 +8,7 @@ set=6|2
 ~ O namorada perfeito
 
 [LINE]
-> Lin stá na staçon~de~camboio.
+> Lin stá na stacion~de~camboio.
 ~ Lin está na  estação~de~comboio
 
 [LINE]
@@ -43,20 +43,19 @@ Speaker508: Muito~gusto,      you{yóu} sou  Lin.
 
 [SELECT_PHRASE]
 > Seleciona a frase em falta
-Speaker1187: [Perciso~de~mercar~ls{lás}~belhetes{passáijjes}], Martinç!
-~              Preciso~de~comprar~os~bilhetes      Martins
+Speaker1187: Perciso d'ir [mercar ls{lás} belhetes{passáijjes}], Martinç!
+~              Preciso de~ir comprar os bilhetes      Martins
 
-- Perciso cuntar ls belhetes
-+ Perciso de mercar ls belhetes
-- Perciso de comprar ls belhetes
+- comprar ls belhetes
++ mercar ls belhetes
 
 [LINE]
 Speaker1187: Muito~gusto,      Lin!
 ~             Muito~gosto  Lin 
 
 [LINE]
-> Bárbela bai~a~mercar ls{lás} belhetes{passáijjes}.
-~ Bárbara vai~comprar  as bilhetes
+> Bárbela bai~a mercar ls{lás} belhetes{passáijjes}.
+~ Bárbara vai comprar  os bilhetes
 
 [LINE]
 Speaker508: Bárbela ye antressante!
@@ -80,26 +79,26 @@ Speaker508: Eilha ye l  namoro{cumbe-rsada} purfeito{purfêita}!
 ~           Ela é o namorada perfeito
 
 [MULTIPLE_CHOICE]
-> A Lin diz que a Verónica é…
+> A Lin diz que a Bárbela é…
 - …muito interessada em comboios.
 + …a namorada perfeita.
 - …pouco simpática.
 
 [LINE]
-Speaker1087: Namoro?      Nó, la{lá} Bárbela ye la{lá} mie mai! 
-~            Namorada Não  a Verónica é a minha mãe
+Speaker1087: Namoro?      Nó! Lin, Bárbela ye la{lá} mie mai! 
+~            Namorada Não Lin Bárbara é a minha mãe
 
 [LINE]
-Speaker508: Tue…   Tue~mai?   
-~          Tua Tua~mãe
+Speaker508: La tue…   Tue mai?! 
+~          A tua Tua mãe
 
 [LINE]
 Speaker1087: Haha{á~á}! Si. 
 ~             haha     Sim 
 
 [LINE]
-Speaker508: Eh… l{le} miu camboio  stá eiqui! Adius!
-~           Eh o meu comboio está aqui Adeus 
+Speaker508: Eh… you... l{le} miu camboio  stá eiqui! Chau!
+~           Eh eu o meu comboio está aqui Chau
 
 [MULTIPLE_CHOICE]
 > Ups! Qual foi o erro da Lin?
@@ -110,7 +109,7 @@ Speaker508: Eh… l{le} miu camboio  stá eiqui! Adius!
 [MATCH]
 > Seleciona os pares
 - Camboio <> Comboio
-- Muito gusto <> Muito gosto
+- Antressante <> Interessante
 - You <> Eu
 - El <> Ele
 - Namoro <> Namorado/a
