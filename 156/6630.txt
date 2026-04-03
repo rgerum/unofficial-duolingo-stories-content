@@ -4,32 +4,32 @@ icon=9f4968b6294916f0d8c9f64c8a172ef8c0c368ef
 set=6|1
 
 [HEADER]
-> Ne{ne-e}~l{le}  supermercado
+> Ne~l  supermercado
 ~ No supermercado 
 
 [LINE]
-> Lin stá ne~l{le}  supermercado cula{lá} Bia{bia}.
-~ Lin está   no supermercado  com~a Bia 
+> Lin stá ne~l{le}  supermercado cun{lá} Bia{bia}.
+~ Lin está   no supermercado  com Bia 
 
 [LINE]
-Speaker508: You{yóu} nun~quiero{qui-iro}  cozinar.
-~           Eu não~quero cozinhar
+Speaker508: Que cansácio... You{yóu} nun quiero  cozinar.
+~          Que cansaço Eu não quero cozinhar
 
 [MULTIPLE_CHOICE]
 > A Lin mal consegue esperar para cozinhar.
 + Não, isso está incorreto
 - Sim, isso está correto
 [LINE]
-Speaker507: Cozinar~ye mi  adbertido{adbe-r-tído}, Lin!
-~            Cozinhar~é muito divertido       Lin 
+Speaker507: Cozinar ye mi  adbertido{adbe-r-tído}, Lin!
+~            Cozinhar é muito divertido       Lin 
 
 [LINE]
-Speaker508: Stou{stôu} mi  anfadada.
-~           Estou muito cansada  
+Speaker508: Stou{stôu} smasiado  anfadada pa esso.
+~           Estou demsiado cansada  para isso
 
 [LINE]
-Speaker508: Quieres{qui-ires}  quemer{quemêr}  n'un restourante, Bia{bia}?
-~            Queres comer num  restaurante  Bia 
+Speaker508: Quies{qui-ires}  quemer{quemêr}  n'un restourante, Bia{bia}?
+~            Queres~(informal) comer num  restaurante  Bia 
 
 [MULTIPLE_CHOICE]
 > A Lin está tão cansada, que ela...
@@ -43,8 +43,8 @@ Speaker507: Nó, you{yóu} quiero{qui-iro} cozinar!
 
 [POINT_TO_PHRASE]
 > Escolhe a opção que significa "necessitamos"
-Speaker508: (Stá~bien)… (Que)  (+necitamos) (pa~cozinar)?    
-~            Está~bem Que necessitamos para~cozinhar 
+Speaker508: (Stá~bien)… (Que)  (+necitamos) (pa cozinar)?    
+~            Está~bem Que necessitamos para cozinhar 
 
 [LINE]
 Speaker507: Nós percisamos de farina!
@@ -56,16 +56,16 @@ Speaker507: Nós percisamos de farina!
 
 [SELECT_PHRASE]
 > Seleciona a frase em falta
-Speaker508: Ah… [La{lá}~farina~stá~ende{eíqui}].
-~           Ah   A~farinha~está~aí  
+Speaker508: Ah… [La farina stá eilhi].
+~           Ah   A farinha está ali  
 
-- La farinha está ende
-- La farina stá aqui
-+ La farina stá ende
+- La farina stá elhi
+- La farina stá alhi
++ La farina stá eilhi
 
 [LINE]
-Speaker507: I   tamien{támi-in}~percisamos d'uns roques.
-~           E também~precisamos duns cogumelos 
+Speaker507: I   tamien{támi-in} percisamos d'uns roques.
+~           E também precisamos duns cogumelos 
 
 [ARRANGE]
 > Ordena corretamente
@@ -77,8 +77,8 @@ Speaker507: Ah! Ls{le}  roques stá eiqui{eíqui}
 ~           Ah Os cogumelos está aqui 
 
 [LINE]
-Speaker507: I   tamien{tami-in}~percisamos de morquetones. 
-~           E também~precisamos de pêssegos 
+Speaker507: I   tamien{tami-in} percisamos de cebolha. 
+~           E também precisamos de cebola 
 
 [LINE]
 Speaker508: Ahh… I   berças...
@@ -97,12 +97,12 @@ Speaker507: Si,  i   you{yóu} stou{stôu} mi  anfadada.
 ~          Sim e eu estou muito cansada   
 
 [LINE]
-Speaker508: Quieres{qui-ires}  quemer{quemêr}  n'un restourante?
-~            Quero comer num  restaurante  
+Speaker508: Quies{qui-ires}  quemer{quemêr}  n'un restourante?
+~            Queres comer num  restaurante  
 
 [LINE]
-Speaker507: Si,  fai~fabor{fabôr}!
-~            Sim  por~favor   
+Speaker507: ...bal.
+~            "tá~bom" 
 
 [MULTIPLE_CHOICE]
 > Porque é que a Bea concordou em ir a um restaurante?
@@ -112,7 +112,7 @@ Speaker507: Si,  fai~fabor{fabôr}!
 
 [MATCH]
 > Seleciona os pares
-- Morqueton <> Pêssego
+- Bal <> Está bem
 - Roque <> Cogumelo
 - Anfadada <> Cansada/Farta
 - Berça <> Couve
