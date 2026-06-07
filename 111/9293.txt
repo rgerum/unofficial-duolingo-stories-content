@@ -1,0 +1,133 @@
+[DATA]
+fromLanguageName=The Green Dress
+icon=5dd7c1c9e363ca081026fc76b834b84df03c1ce5
+set=102|6
+
+speaker_Isabelle=Lotte
+speaker_Leonie=Lotte
+
+[HEADER]
+> De groene jurk
+$913/c29df1b8.mp3;2,0;7,111;5,335
+
+[LINE]
+Speaker659: Leonie? Waar  ben je? 
+~           ~       Where are you 
+$913/74c40b58.mp3;6,0;6,579;4,416;3,189
+
+[LINE]
+Speaker175: In de  badkamer, Isabelle!
+~           In the bathroom  ~        
+$913/77e02da8.mp3;2,0;3,174;9,76;10,625
+
+[POINT_TO_PHRASE]
+> Click on the option meaning 'dress'
+Speaker659: (Waar)  (is) (mijn) (+jurk)? 
+~            Where   is   my      dress  
+$913/7c35d970.mp3;4,0;3,234;5,145;5,190
+
+[LINE]
+Speaker175: Je   rode jurk? 
+~           Your red  dress 
+$913/7ff72dc0.mp3;2,0;5,159;5,295
+
+[LINE]
+Speaker659: Nee! Mijn groene jurk! 
+~           No   My   green  dress 
+$913/93a70930.mp3;3,0;6,389;7,420;5,320
+
+[MULTIPLE_CHOICE]
+> Isabelle is looking for ...
+- ... her green shoes.
+- ... her long skirt.
++ ... her green dress.
+
+[LINE]
+Speaker659: Ik ga naar een restaurant met  Paul.
+~           I  go to   a   restaurant with ~    
+$913/970e6ece.mp3;2,0;3,179;5,170;4,185;11,91;4,610;5,140
+
+[LINE]
+Speaker175: Ik vind de  rode jurk  mooi.  
+~           I  find the red  dress pretty 
+$913/9a9f73bc.mp3;2,0;5,174;3,260;5,75;5,296;5,385
+
+[LINE]
+Speaker659: Ik wil  de  groene jurk! 
+~           I  want the green  dress 
+$913/9e72432a.mp3;2,0;4,185;3,164;7,80;5,320
+
+[LINE]
+Speaker175: Wil  je  mijn witte jurk? 
+~           Want you my   white dress 
+$913/a1d47754.mp3;3,0;3,200;5,99;6,220;5,248
+
+[LINE]
+Speaker659: Dat  is je   lievelingsjurk!
+~           That is your favorite~dress 
+$913/a4f12734.mp3;3,0;3,209;3,145;15,60
+
+[LINE]
+Speaker175: En  jij bent mijn lievelingszus!  
+~           And you are  my   favorite~sister 
+$913/a9c7faee.mp3;2,0;4,149;5,195;5,271;14,170
+
+[MULTIPLE_CHOICE]
+> Leonie is offering her favorite dress ...
++ ... to her favorite sister.
+- ... to her favorite daughter.
+- ... to her favorite cousin.
+
+[LINE]
+Speaker659: Heel~erg~bedankt!   
+~           Thank~you~very~much 
+$913/ad27c3b8.mp3;4,0;4,294;8,210
+
+[LINE]
+> Leonie verlaat de  badkamer.
+~ ~      leaves  the bathroom 
+$913/bd10ac90.mp3;6,0;8,516;3,405;9,80
+
+[MULTIPLE_CHOICE]
+> Leonie came out of the bathroom.
+- No, that's not right.
++ Yes, that's true.
+
+[LINE]
+Speaker175: Dat~is~dan~afgesproken!
+~           It~has~been~decided    
+$913/cb97ee54.mp3;3,0;3,224;4,136;12,190
+
+[SELECT_PHRASE]
+> Tap the missing phrase
+Speaker175: De  witte jurk  voor jou en  de  [groene    voor mij.]
+~           The white dress for  you and the  green~one for  me   
+$913/ced47380.mp3;2,0;6,144;5,281;5,322;4,210;3,355;3,135;7,50;5,376;4,200
+- grote voor mij.
+- groene voor jou.
++ groene voor mij.
+
+[LINE]
+Speaker659: Leonie! Jij hebt mijn groene jurk! 
+~           ~       You have my   green  dress 
+$913/d31bfee0.mp3;6,0;5,614;5,465;5,190;7,156;5,310
+
+[LINE]
+Speaker175: Ja,  dat~klopt!    En  ik ben je   lievelingszus!  
+~           Yes  that's~right  And I  am  your favorite~sister 
+$913/d7054cc8.mp3;2,0;5,289;6,266;4,467;3,355;4,110;3,210;14,115
+
+[MULTIPLE_CHOICE]
+> Why is Isabelle annoyed?
++ Leonie is wearing the dress that she wanted to wear.
+- Leonie is talking to her boyfriend.
+- Leonie won't leave the bathroom.
+
+[MATCH]
+> Tap the pairs
+- jurk <> dress
+- badkamer <> bathroom
+- groen <> green
+- mijn <> my
+- lievelingszus <> favorite sister
+
