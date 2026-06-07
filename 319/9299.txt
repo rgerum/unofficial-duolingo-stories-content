@@ -4,16 +4,19 @@ icon=5afbf601db955e3db76a96aea1d4e0a535c16e7c
 set=3|2
 
 [HEADER]
-> El  nuevo estudiante
-~ the new   student   
+> Il student~nov
+~ the new~student   
+$9299/2220dfa3.mp3;2,50;8,238;3,512
 
 [LINE]
-> Zari y   Lily están en el  autobús.
-~ Zari and Lily are   on the bus     
+> Zari e   Lily èn  en il  bus.
+~ Zari and Lily are on the bus     
+$9299/b168c720.mp3;4,50;2,450;7,63;3,412;4,200;3,138;5,125;0,437
 
 [LINE]
-Speaker418: ¡Lily, hay      un nuevo estudiante en nuestra clase!
-~            Lily  there~is a  new   student    in our     class 
+Speaker418:  Lily, igl~ha   in student~nov  en nossa classa!
+~            Lily  there~is a  new~student  in our   class 
+$9299/3ad0530f.mp3;4,50;1,538;3,175;3,200;5,87;8,163;4,475;4,262;6,138;7,325;0,512
 
 [MULTIPLE_CHOICE]
 > Zari tells Lily that there's a new teacher at their school.
@@ -21,40 +24,50 @@ Speaker418: ¡Lily, hay      un nuevo estudiante en nuestra clase!
 - Yes, that's right.
 
 [LINE]
-Speaker418: Su  nombre es Miguel.
-~           his name   is Miguel 
+Speaker418: Ses num   è  Miguel.
+~           his name  is Miguel 
+$9299/21e5861c.mp3;3,50;4,300;4,250;8,113;0,537
 
 [LINE]
-Speaker416: ¿Miguel?
+Speaker416:  Miguel?
 ~            Miguel 
+$9299/ba15bb82.mp3;6,78
 
 [LINE]
-Speaker418: Sí,  es    de   México.
+Speaker418: Cea, el~è  da   Mexico.
 ~           yes  he~is from Mexico 
+$9299/9b39518c.mp3;3,50;1,488;3,175;2,200;4,100;9,162;0,625
 
 [LINE]
-Speaker418: ¡Su  padre  escribe libros!
+Speaker418:  Ses bab    scriva  cudeschs!
 ~            his father writes  books  
+$9299/650b1914.mp3;3,50;4,300;10,288;10,437;0,563
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker416: [Muy~interesante]. 
+Speaker416: [Fitg~interessant]. 
 ~            very~interesting  
-- Tu interesante
-- Su interés antes
-+ Muy interesante
+$9299/3b04a73b.mp3;6,71;12,601;0,1300
+
+- Ti interessant
+- Betg interessant
++ Fitg interesant
 
 [LINE]
-Speaker418: Habla     español, inglés  y   portugués. 
-~           he~speaks Spanish  English and Portuguese 
+Speaker418: El~discurra  spagnol, englais e   portugais. 
+~           he~speaks    Spanish  English and Portuguese 
+$9299/952d9315.mp3;2,50;9,188;9,525;1,625;8,137;2,438;12,100;0,800
 
 [LINE]
-Speaker416: Ah, es    inteligente.
+Speaker416: Ah, el~è  intelligent.
 ~           oh  he~is intelligent 
+$9299/2bfc8527.mp3;2,78;1,562;3,214;2,388;13,213;0,1261
 
 [LINE]
-Speaker418: Inteligente… y   alto. Y   tiene  muy  bonitos…
-~           intelligent  and tall  and he~has very pretty  
+Speaker418: Intelligent… e   grond. Ed  el~è   fitg  bel…
+~           intelligent  and tall   and he~is very   pretty 
+# 'e' becomes 'ed' before vowels.
+$9299/78f82126.mp3;11,50;-11,1713;22,125;1,512;3,863;4,225;2,162;9,100;-41,313
 
 [MULTIPLE_CHOICE]
 > How does Zari describe Miguel?
@@ -63,46 +76,56 @@ Speaker418: Inteligente… y   alto. Y   tiene  muy  bonitos…
 + He's intelligent and tall.
 
 [LINE]
-Speaker416: Ja, ja, ¿sí? 
+Speaker416: Ha, Ha,  gea? 
 ~           ha  ha   yes 
+$9299/8ecdc53e.mp3;2,78;1,543;3,271;1,563;5,271
 
 [LINE]
-Speaker418: Mmm… Muy  bonitos zapatos.
-~           hmm  very pretty  shoes   
+Speaker418: Mmm… chalzers~fitsch~bels.
+~           hmm  very~pretty~shoes   
+$9299/c65f2fbc.mp3;3,50;-3,1763;22,550;5,287;0,488
 
 [POINT_TO_PHRASE]
 > Choose the option that means "behind."
-Speaker416: (Zari), (Miguel) (está) (+detrás~de) ti. 
-~            Zari    Miguel   is      behind     you 
+Speaker416: (Zari), (Miguel) (è) (+davos)  ti. 
+~            Zari    Miguel   is   behind  you 
+$9299/7053ee2a.mp3;4,78;1,892;7,194;2,776;6,213;4,640;0,427
 
 [LINE]
-Speaker418: ¡¿Qué?! 
+Speaker418:   Tge?! 
 ~             what  
+$9299/b6e79255.mp3;5,50
 
 [LINE]
-Speaker416: ¡Hola,  Miguel!
-~            hello  Miguel 
+Speaker416:  Allegra, Miguel!
+~            hello    Miguel 
+$9299/302a0196.mp3;7,78;1,1125;7,213;0,873
 
 [LINE]
-Speaker790: ¡Hola,  Lily! ¿Cómo~estás? 
-~            hello  Lily   how~are~you 
+Speaker790:  Allegra, Lily!  Co~vai? 
+~            hello    Lily   how~are~you 
+$9299/3b7366e8.mp3;7,70;1,560;5,80;1,440;4,320;4,440
 
 [LINE]
-Speaker416: Bien, gracias.  
+Speaker416: Bain  grazia.  
 ~           fine  thank~you 
+$9299/b9f1867e.mp3;4,78;8,640;0,950
 
 [ARRANGE]
 > Tap what you hear
-Speaker416: [(Miguel), (esta) (es) (mi~amiga),  (Zari).]
-~             Miguel    this   is   my~friend    Zari   
+Speaker416: [(Miguel), (quest) (è) (mia~amia),  (Zari).]
+~             Miguel    this    is  my~friend    Zari   
+$9299/1bd10e8b.mp3;6,78;1,989;6,271;2,660;4,213;5,408;1,698;6,194;0,718
 
 [LINE]
-Speaker416: A~ella~le~gustan tus…  zapatos.
-~           she~likes        your  shoes   
+Speaker416: Ella~ha~gugent tes…  chalzers.
+~           she~likes      your  shoes   
+$9299/4879eeb2.mp3;4,78;3,523;7,156;4,775;-18,1429;29,1106
 
 [LINE]
-Speaker418: Ah, mmm, hola…  Miguel.
-~           oh  hmm  hello  Miguel 
+Speaker418: Ah, mmm, allegra… Miguel.
+~           oh  hmm  hello    Miguel 
+$9299/8a16c710.mp3;2,50;1,325;4,125;1,1088;8,137;-16,1363;24,575
 
 [MULTIPLE_CHOICE]
 > Zari didn't realize that…
@@ -113,8 +136,8 @@ Speaker418: Ah, mmm, hola…  Miguel.
 [MATCH]
 > Tap the pairs
 - Zari <> Zari
-- Sí <> yes
-- Bien <> fine
-- esta <> this
-- Qué <> what
+- Gea <> yes
+- Bain <> fine
+- quest <> this
+- Tge <> what
 
