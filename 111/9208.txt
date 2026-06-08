@@ -6,22 +6,27 @@ set=8|4
 [HEADER]
 > Vakariņas ar ģimeni
 ~ a   family~dinner      
+$9208/7d275c37.mp3;9,15;3,655;NaN,85
 
 [LINE]
 > Līne ir pie Beatrises un iet uz virtuvi. 
 ~ Lin is   at Bea's~house     she  goes to the kitchen 
+$9208/142c7ffe.mp3;4,15;3,385;4,85;10,175;3,658;4,95;3,151;8,120
 
 [LINE]
-> Viņa uz galda redz daudz ēdiena un četras pudeles vīna.  
+> Viņa redz uz galda daudz ēdiena un četras pudeles vīna.  
 ~ she  sees a~lot~of food   and four   bottles  of wine on    the table 
+$9208/d6124163.mp3;4,15;5,275;3,195;6,115;6,334;7,314;3,372;7,100;8,362;5,456
 
 [LINE]
 Speaker508: Mīļā pasaulīt! Te nu gan ir daudz ēdiena!
 ~            wow   there~is a~lot~of food   here 
+$9208/7fac8139.mp3;4,81;9,314;1,507;3,588;3,65;4,88;3,113;6,105;7,201;0,395
 
 [LINE]
 Speaker507: Jā,  mana ģimene nāks vakariņās.      
 ~           yes  my family  is~coming  to have~dinner 
+$9208/34b9f8b9.mp3;2,81;1,161;6,16;7,177;5,234;10,209;0,524
 
 [MULTIPLE_CHOICE]
 > Beatrise's family is coming to her house for breakfast.
@@ -29,17 +34,21 @@ Speaker507: Jā,  mana ģimene nāks vakariņās.
 + No, that's wrong.
 
 [LINE]
-Speaker508: Ak tā. Vai varu apēst kūkas gabaliņu?
+Speaker508: Ak tā. Vai varu apēst gabaliņu kūkas?
 ~           oh   I~can~eat      some       cake   
+$9208/cb72c4ac.mp3;2,145;3,113;1,201;4,628;5,105;6,177;9,290;6,331
 
 [LINE]
 Speaker507: Nē.
 ~           no 
+$9208/e9a3c9d4.mp3;2,113;0,298
 
 [SELECT_PHRASE]
 > Select the missing phrase
 Speaker508: Bet [tev ir trīs kūkas]!
 ~           but   you~have~three~cakes  
+$9208/c31c3c94.mp3;3,153;4,105;3,88;5,113;6,218;0,410
+
 - tev ir trīs cūkas
 - tev ir trīs pūkas
 + tev ir trīs kūkas
@@ -47,73 +56,76 @@ Speaker508: Bet [tev ir trīs kūkas]!
 [LINE]
 Speaker507: Man vajag trīs kūkas.
 ~           I  need     three cakes    
+$9208/6c472385.mp3;3,81;6,96;5,242;6,217;0,403
 
 [LINE]
 Speaker508: Nu labi. Vai varu iedzert glāzi vīna?
 ~           well    I~can~drink    a  glass of wine 
+$9208/29611b92.mp3;2,89;5,112;1,274;4,653;5,104;8,178;6,282;5,257
 
 [LINE]
 Speaker507: Nē.
 ~           no 
+$9208/6a78d5d3.mp3;2,113;0,298
 
-[CONTINUATION]
-> What's next?
+[SELECT_PHRASE]
+> Select the missing word
 Speaker508: Tev ir četras pudeles [vīna].
 ~           you~have four   bottles   of wine  
+$9208/c355e688.mp3;3,81;3,64;7,105;-13,290
 - vīra 
-- de pastel
-~ of cake  
+- viena 
 + vīna
 
 [LINE]
-Speaker507: Yo necesito todo ese  vino.
+Speaker507: Man vajag to visu vīnu.
 ~           I  need     all  that wine 
 
 [LINE]
-Speaker508: ¿Puedo~comer un~poco~de pizza?
+Speaker508: Vai varu apēst picu?
 ~            I~can~eat   some       pizza 
 
 [LINE]
-Speaker507: No, Lin.
+Speaker507: Nē, Līne.
 ~           no  Lin 
 
 [LINE]
-Speaker508: Está~bien, ¿a~qué~hora   es la  cena   con  tu~familia? 
+Speaker508: Nu, labi. Cikos ir tās vakariņas ar ģimeni?? 
 ~           OK          at~what~time is the dinner with your~family 
 
 [POINT_TO_PHRASE]
-> Choose the option that means "next."
-Speaker507: Ah, la  (cena)   con  mi (familia) es (+la~próxima) (semana).
+> Choose the option that means "next week."
+Speaker507: Ai, manas (ģimenes) (vakariņas) būs (+nākamnedēļ).
 ~           oh  the  dinner  with my  family   is   next         week    
 
 [ARRANGE]
 > Tap what you hear
-Speaker507: [(Todo) (esto)      (es) (para) (mí).]
+Speaker507: [(Viss) (šis) (ēdiens) (ir) (man).]
 ~             all    (of)~this   is   for    me   
 
 [LINE]
-Speaker508: ¿Qué? 
+Speaker508: Ko? 
 ~            what 
 
 [LINE]
-Speaker507: ¡Tengo  una familia~muy~difícil!   ¡Estoy nerviosa!
+Speaker507: Man ir ļoti cimperlīga ģimene! Esmu ļoti uztraukusies!
 ~            I~have a   very~difficult~family   I~am  nervous  
 
 [LINE]
-Speaker507: Necesito toda esta comida y   todo el  vino ahora.
+Speaker507: Šo visu ēdienu un vīnu tagad vajag man.
 ~           I~need   all  this food   and all  the wine now   
 
 [MULTIPLE_CHOICE]
-> Bea has a very difficult family so…
+> Beatrise has a very difficult family so…
 + …she needs all the food and wine for herself.
 - …she's giving the food to Lin instead.
 - …she stopped talking to them.
 
 [MATCH]
 > Tap the pairs
-- la próxima <> next
-- esto <> this
-- la casa de Bea <> Bea's house
-- me puedo beber <> I can drink
-- a <> to
+- nākamnedēļ <> next week
+- cimperlīgs <> fussy
+- pica <> pizza
+- vīns <> wine
+- virtuve <> kitchen
 
