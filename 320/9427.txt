@@ -1,0 +1,111 @@
+[DATA]
+fromLanguageName=A Problem with the Car
+icon=e161ff53b5f470063ac66df2698eddb71232c290
+set=19|4
+
+[HEADER]
+> Un~problema con  el~carro
+~ a~problem   with the~car 
+
+[LINE]
+> Eddy está en la~calle.  
+~ Eddy is   on the~street 
+
+[LINE]
+> Él cierra el~baúl   de un~carro.
+~ he closes the~trunk of a~car    
+
+[LINE]
+> Vikram llega.  
+~ Vikram arrives 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker593: ¿Estás~bien, Eddy? [Te~ves~preocupado].
+~            are~you~OK  Eddy   you~look~worried   
+- Te vas preparado
++ Te ves preocupado
+- Se han preocupado
+
+[LINE]
+Speaker414: Alquilé  este~carro, pero no~enciende.     
+~           I~rented this~car    but  it~doesn't~start 
+
+[MULTIPLE_CHOICE]
+> Why is Eddy worried?
+- He is in the trunk of a car.
+- He doesn't know where he is.
++ He can't start a car that he rented.
+
+[LINE]
+Speaker593: Mmm… ¿te~puedo~ayudar?      
+~           hmm   can~I~help~you        
+
+[LINE]
+Speaker414: No, gracias,   Vikram.
+~           no  thank~you  Vikram 
+
+[LINE]
+Speaker593: Pero yo sé   cuál es~el~problema~con~el~carro.
+~           but  I  know what the~problem~with~the~car~is 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Vikram, [yo~sé~mucho~sobre~carros].
+~           Vikram   I~know~a~lot~about~cars   
++ yo sé mucho sobre carros
+- yo me ducho sobre carros
+- yo sé mucho sobre callos
+
+[LINE]
+Speaker593: Eh…  Eddy, el~carro está encendido.
+~           ehm  Eddy  the~car  is   on        
+
+[LINE]
+Speaker414: Eh… no, Vikram. No~está  encendido porque  no~escucho   el~motor.  
+~           eh  no  Vikram  it's~not on        because I~don't~hear the~engine 
+
+[LINE]
+Speaker593: Es   un carro~eléctrico, no~hace         ruido y   no~necesita  gasolina.
+~           it's an electric~car     it~doesn't~make noise and doesn't~need gas      
+
+[MULTIPLE_CHOICE]
+> The car is electric, so…
+- …it's ugly.
++ …it's quiet and doesn't use gas.
+- …it uses a lot of gas.
+
+[LINE]
+Speaker414: Pero yo le~puse~gasolina hace~diez~minutos…
+~           but  I  put~gas~in~it    ten~minutes~ago   
+
+[LINE]
+Speaker593: ¡¿Qué?!  ¿Dónde?
+~             what    where 
+
+[LINE]
+Speaker414: Aquí.
+~           here 
+
+[LINE]
+Speaker593: ¡Ay, no, Eddy… ese  es el~baúl!  
+~            oh  no  Eddy  that is the~trunk 
+
+[MULTIPLE_CHOICE]
+> Where did Eddy put the gas?
+~ Where Did Eddy Put el  gas 
+- in Vikram's car
+~ in Vikram's Car
++ in the trunk of the car
+~ in el  trunk of el  Car
+- in his motorcycle
+~ in His motorcycle
+
+[MATCH]
+> Tap the pairs
+- Eddy <> Eddy
+- No está <> it's not
+- Aquí <> here
+- Te ves preocupado <> you look worried
+- porque <> because
+
