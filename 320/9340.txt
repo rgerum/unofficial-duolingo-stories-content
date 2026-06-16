@@ -1,128 +1,126 @@
 [DATA]
-fromLanguageName=The Dog
-icon=686b57de279883b2c4e07f6addbde23a91c8ed51
-set=5|1
+fromLanguageName=What Do You Need?
+icon=8c5ae7b18c5ff0f37394646c91bd6a579213dcbc
+set=5|2
 
 [HEADER]
-> କୁକୁର
-~ the~dog  
-^ kukura
+> ତୁମେ କ’ଣ ଚାହୁଁଛ?
+~ you what  need 
+^ tume kaṇa cāhuncha
 
 [LINE]
-> ଏଡି ଏବଂ ଜୁନିୟର ପାର୍କରେ ଖାଉଛନ୍ତି।.
-~ Eddy and Junior at~the~park   are~eating
-^ eḍi ebã juniyara pārkare khāuchanti
+> ଓସ୍କାର ଏକ ପୋଷାକ ଦୋକାନରେ ଅଛନ୍ତି।.
+~ Óscar a   clothing store is  
+^ oskāra eka posāka dokānare achanti
 
 [LINE]
-Speaker415: ବାପା, ମୁଁ ଗୋଟିଏ କୁକୁର ଚାହୁଁଛି.
-~           dad   I a  dog want   
-^           bāpā mũ goṭie kukura cāhunchi
+> ସେ ତାଙ୍କ ଛାତ୍ର ଜାରୀଙ୍କୁ ଦେଖନ୍ତି, ସେ ସେହି ଦୋକାନରେ କାମ~କରନ୍ତି.
+~ he his student Zari sees    she at the~store works     
+^ se tāṅka chātra jārīṅku dekhanti se sehi dokānare kāma~karanti
 
 [MULTIPLE_CHOICE]
-> Junior and Eddy are eating in a restaurant.
-+ No, that's wrong.
-- Yes, that's right.
+> Óscar sees Zari working in a store.
++ Yes, that's right.
+- No, that's wrong.
 
 [LINE]
-Speaker414: ଜୁନିୟର, କୁକୁର ରଖିବା ଏତେ ସହଜ ନୁହେଁ।
-~           Junior dog keep  very easy not
-^           juniyara kukura rakhibā ete sahaja nuhẽ
+Speaker592: ଜାରୀ, ତୁମକୁ ଦେଖି ମୋତେ ଖୁସି ଲାଗିଲା  
+~            Zari you see I~am  happy to 
+^            jārī tumaku dekhi mote khusi lāgilā
 
 [LINE]
-Speaker414: ଗୋଟେ କୁକୁର ବହୁତ ଚାଲିବା ଆବଶ୍ୟକ~କରେ।
-~           a dog   a~lot to~walk  needs 
-^           goṭe kukura bahuta cālibā ābasyaka~kare
+Speaker418: ସୁପ୍ରଭାତ! 
+~            good~morning 
+^            suprabhāta
 
 [LINE]
-Speaker415: ମୁଁ~ବି!
-~            me~too     
-^            mũ~bi
-
-[LINE]
-Speaker414: ଗୋଟେ କୁକୁର ବହୁତ ଖେଳିବା ଆବଶ୍ୟକ~କରେ।
-~           a  dog     a~lot  to~play  needs
-^           goṭe kukura bahuta kheḷibā ābasyaka~kare
+Speaker418: ଆପଣଙ୍କର ସାହାଯ୍ୟ ଦରକାର?
+~            you  help  need
+^            āpaṇaṅkara sāhāyya darakāra
 
 [MULTIPLE_CHOICE]
-> According to Eddy, dogs need…
-- …to wear warm clothes in the winter.
-+ …to walk and play a lot.
-- …to talk and drink a lot of water.
+> Zari asks Óscar if he…
+- …wants her job.
+- …knows what time it is.
++ …needs help.
 
 [LINE]
-Speaker415: ମୁଁ~ବି!
-~            me~too     
-^            mũ~bi
+Speaker592: ହଁ, ଧନ୍ୟବାଦ, ମୋତେ ଦରକାର…
+~            yes  thank~you  I need   
+^            hã dhanyabāda mote darakāra
 
-[LINE]
-Speaker414: ଏବଂ କୁକୁରର ଖାଦ୍ୟ ମହଙ୍ଗା।     
-~           and dog's food             is~expensive 
-^           ebã kukurara khādya mahaṅgā
-
-# TODO confirm କି at end
 [POINT_TO_PHRASE]
-> Choose the option that means "food."
-Speaker415:  (କୁକୁର) (ମୋ) (+ଖାଦ୍ୟ) (ଖାଇପାରିବ)  !
-~            the~dog my  food   can~eat              
-^            kukura mo khādya khāipāriba
+> Choose the option that means "know."
+Speaker418: (ଓଃ), (ମୁଁ) (+ଜାଣିଛି)! ତୁମେ ଗୋଟିଏ ନୂଆ ଜ୍ୟାକେଟ (ଦରକାର)~କରୁଛ।  
+~             oh    I     know    you  a   new jacket  need   
+^             oh mũ jāṇichi tume goṭie nūā jyākeṭa darakāra ~karucha
 
 [LINE]
-Speaker414: ଜୁନିୟର, ତୁମର ହାମବର୍ଗର କେଉଁଠି?
-~           Junior your  hamburger where     
-^           juniyara tumara hāmabargara keunṭhi
+> ଜାରୀ ଗୋଟିଏ ଜ୍ୟାକେଟ୍ ଉଠାଏ
+~ Zari  a   jacket takes  
+^ jārī goṭie jyākeṭ uṭhāe
 
 [LINE]
-Speaker414: ଆଉ ତୁମର ସେଓ କେଉଁଠି??
-~           and  your apple  where    
-^           āu tumara seo keunṭhi
+Speaker592: ନା ଜାରୀ, ମୋର ଜ୍ୟାକେଟ୍ ଦରକାର~ନାହିଁ
+~           no  Zari  I    jacket don't~need  
+^           nā jārī mora jyākeṭ darakāra~nāhĩ
 
 [LINE]
-Speaker415: ହେଁ…
-~           eh 
-^           hẽ
-
-[LINE]
-> ଟେବୁଲ ତଳେ ଗୋଟିଏ କୁକୁର ଅଛି।. 
-~ the~table under a  dog there~is 
-^ ṭebula taḷe goṭie kukura achi
-
-[LINE]
-Speaker414: ଜୁନିୟର, ଟେବୁଲ ତଳେ କାହିଁକି ଗୋଟିଏ କୁକୁର ଅଛି? 
-~            Junior the~table under  why a  dog there~is     
-^            juniyara ṭebula taḷe kāhinki goṭie kukura achi
+Speaker418: ଓଃ, ତୁମର ଗୋଟିଏ ନୂଆ ସାର୍ଟ ଦରକାର?
+~            oh   you  a   new shirt need    
+^            oh tumara goṭie nūā sārṭa darakāra
 
 [MULTIPLE_CHOICE]
-> What does Eddy see under the table?
-- a cat
-- a pizza
-+ a dog
+> Zari thinks Óscar needs a new…
+- …house.
+- …hat.
++ …shirt.
 
 [LINE]
-Speaker415: ଇଏ ମୋର ସାଥୀ 
-~            it's my friend 
-^            ie mora sāthī
-
-[ARRANGE]
-> Tap what you hear
-Speaker414: [(କୁକୁରଟି)  (ତୁମର) (ହାମବର୍ଗର) (ଖାଇଦେଇଛି)?]
-~              the~dog  your  hamburger has~eaten  
-^              kukuraṭi tumara hāmabargara khāideichi
+Speaker418: ସେହି ସବୁଜ ରଙ୍ଗଟା ପରଫେକ୍ଟ
+~            that green  color~is perfect  
+^            sehi sabuja raṅgaṭā paraphekṭa
 
 [LINE]
-Speaker415: ହଁ ବାପା, କୁକୁର ରଖିବା ବହୁତ ସହଜ।.
-~           yes dad a~dog to~have is~very easy    
-^           hã bāpā kukura rakhibā bahuta sahaja
+Speaker592: ନା, ଜାରୀ ଦୟାକର…
+~           no  Zari  please    
+^           nā jārī dayākara
+
+[LINE]
+Speaker592: ମୋତେ ସାର୍ଟ ଦରକାର~ନାହିଁ, ମୋତେ ଜ୍ୟାକେଟ୍ ଦରକାର~ନାହିଁ। ମୋତେ ଦରକାର…
+~           I  a~shirt don't~need   I a~jacket don't~need     I  need     
+^           mote sārṭa darakāra~nāhĩ mote jyākeṭ darakāra~nāhĩ mote darakāra
+
+[LINE]
+Speaker418:  ଗୋଟିଏ ଟୋପି,  ତୁମର ଟୋପି ଦରକାର
+~            a  hat        you a~hat  need    
+^            goṭie ṭopi tumara ṭopi darakāra
+
+[LINE]
+Speaker592: ନା, ମୋର ପୋଷାକ ଦରକାର~ନାହିଁ।   
+~            no   I clothes don't~need  
+^            nā mora posāka darakāra~nāhĩ
+
+[LINE]
+Speaker592: ମୁଁ ଜାଣିବାକୁ ଚାହେଁ…  
+~           I   to~know need 
+^           mũ jāṇibāku cāhẽ
+
+[LINE]
+Speaker592: ଶୌଚାଳୟ କେଉଁଠାରେ?    
+~               the~bathroom where~is
+^               saucāḷaya keunṭhāre
 
 [MULTIPLE_CHOICE]
-> Why does Junior think taking care of dogs is easy?
-+ He's giving a dog his own food.
-- He already has many pet dogs at home.
-- He watches a lot of videos about dogs.
+> Why did Óscar go into the clothing store?
++ He needed to find a restroom.
+- He wanted to buy pants, a shirt, and a jacket.
+- He wanted to buy a new jacket for Zari.
 
 [MATCH]
 > Tap the pairs
-- parque <> park
-- Yo también <> me too
-- caminar <> to walk
-- debajo de <> under
-- comida <> food
+- Óscar <> Óscar
+- yo <> I
+- perfecta <> perfect
+- ve a <> sees
+- camisa <> shirt
