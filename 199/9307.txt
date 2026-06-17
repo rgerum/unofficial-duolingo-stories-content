@@ -4,28 +4,34 @@ icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
 set=4|1
 
 [HEADER]
-> एक शाकाहारी
-~ the vegetarian 
+> ଶାକାହାରୀ
+~ the~vegetarian 
+^ sākāhārī
 
 [LINE]
-> विक्रम एका खूप सुंदर रेस्टॉरंटमध्ये मेनू वाचतो।
-~ Vikram  a very pretty restaurant~in  the~menu reads 
+> ବିକ୍ରମ ଏକ ବହୁତ ସୁନ୍ଦର ରେଷ୍ଟୁରାଣ୍ଟରେ ମେନୁ ପଢୁଛନ୍ତି.
+~ Vikram in~a very pretty restaurant the~menu reads  
+^ bikrama eka bahuta sundara resṭurāṇṭare menu paḍhuchanti
 
 [LINE]
-Speaker385: शुभ~प्रभात! 
+Speaker385: ସୁପ୍ରଭାତ! 
 ~            good~morning 
+^            suprabhāta
 
 [LINE]
-Speaker593: मला एक प्रश्न आहे।
-~           I a question have
+Speaker593: ମୋର ଗୋଟିଏ ପ୍ରଶ୍ନ ଅଛି.
+~           I  a   question have 
+^           mora goṭie prasna achi
 
 [LINE]
-Speaker593: मी शाकाहारी आहे।
-~           I a~vegetarian am
+Speaker593: ମୁଁ ଜଣେ ଶାକାହାରୀ. 
+~           I~am a vegetarian 
+^           mũ jaṇe sākāhārī
 
 [LINE]
-Speaker593: तुमच्याकडे शाकाहारी जेवण आहे~का?
-~           you~have vegetarian food do?  
+Speaker593: ତୁମ~ପାଖରେ ଶାକାହାରୀ ଖାଦ୍ୟ ଅଛି~କି?
+~            do~you vegetarian food have   
+^            tuma~pākhare sākāhārī khādya achi~ki
 
 [MULTIPLE_CHOICE]
 > Vikram wants to know if they serve vegetarian food.
@@ -33,20 +39,24 @@ Speaker593: तुमच्याकडे शाकाहारी जेवण
 + Yes, that's right.
 
 [LINE]
-Speaker385: हो, आमच्याकडे खूप चांगले मांसाचे सँडविच आहेत।
-~           yes  we~have very good meat sandwiches do    
+Speaker385: ହଁ, ଆମ~ପାଖରେ କେତେକ ବହୁତ ଭଲ ମାଂସ ସାଣ୍ଡୱିଚ୍ ଅଛି।
+~           yes  with~us  some very good meat sandwiches are
+^           hã āma~pākhare keteka bahuta bhala mānsa sāṇḍawic achi
 
 [LINE]
-Speaker593: मांसाचे सँडविच? मी शाकाहारी आहे।
-~            meat sandwiches? I a~vegetarian am  
+Speaker593: ମାଂସ ସାଣ୍ଡୱିଚ୍? ମୁଁ ଜଣେ ଶାକାହାରୀ। 
+~            meat sandwiches      I~am a vegetarian 
+^            mānsa sāṇḍawic mũ jaṇe sākāhārī
 
 [LINE]
-Speaker385: अरे हो… माफ~करा।
-~           oh  yes  I'm~sorry 
+Speaker385: ଓଃ, ହଁ, ମୁଁ ଦୁଃଖିତ
+~           oh  yes  I'm sorry 
+^           oh hã mũ duhkhita
 
 [LINE]
-Speaker385: आमच्याकडे स्वादिष्ट चिकन आहे।
-~           we~have a~delicious chicken do
+Speaker385: ଆମ~ପାଖରେ ଏକ ସ୍ୱାଦିଷ୍ଟ ଚିକେନ ଅଛି।  
+~           with~us  a  delicious chicken is
+^           āma~pākhare eka swādisṭa cikena achi
 
 [MULTIPLE_CHOICE]
 > According to the waiter, their chicken is…
@@ -55,21 +65,25 @@ Speaker385: आमच्याकडे स्वादिष्ट चिकन
 + …delicious.
 
 [LINE]
-Speaker593: चिकन म्हणजे मांस।
-~           chicken  is meat  
+Speaker593: ଚିକେନ ମାଂସ ଅଟେ।
+~           chicken   meat is  
+^           cikena mānsa aṭe
 
 [ARRANGE]
 > Tap what you hear
-Speaker593: [(आणि)   (मी) (मांस)   (खात) (नाही)!]
-~              and I meat eat don't      
+Speaker593: [(ଏବଂ)   (ମୁଁ) (ମାଂସ)   (ଖାଏନାହିଁ)!]
+~              and   I      meat    don't~eat
+^              ebã mũ mānsa khāenāhĩ
 
 [LINE]
-Speaker385: आमच्याकडे सॅलड आहेत  …
-~           we~have salads do...   
+Speaker385: ଆମ~ପାଖରେ ସାଲାଡ୍ ଅଛି…
+~           we  salads have   
+^           āma~pākhare sālāḍ achi
 
 [LINE]
-Speaker593: अरे, मला सॅलड आवडतात!
-~            oh  I salads like         
+Speaker593: ଓଃ, ମୋତେ ସାଲାଡ୍ ପସନ୍ଦ!
+~            oh  I    salads like         
+^            oh mote sālāḍ pasanda
 
 [MULTIPLE_CHOICE]
 > Vikram likes…
@@ -78,20 +92,24 @@ Speaker593: अरे, मला सॅलड आवडतात!
 - …lots of meat.
 
 [LINE]
-Speaker385: टोमॅटो, चीज आणि सॅल्मन असलेले एक सॅलड आहे…
-~           tomato  cheese  and salmon with a salad there~is
+Speaker385: ଟମାଟୋ, ପନିର, ସାଲମନ ସହିତ ଗୋଟିଏ ସାଲାଡ ଅଛି …
+~           tomato  cheese salmon with a salad there~is    
+^           ṭamāṭo panira sālamana sahita goṭie sālāḍa achi
 
 [LINE]
-Speaker593: मी सॅल्मन खात~नाही! मी शाकाहारी आहे!
-~            I salmon don't~eat. I a~vegetarian ~आहे 
+Speaker593: ମୁଁ ସାଲମନ୍ ଖାଏନାହିଁ ମୁଁ ଜଣେ ଶାକାହାରୀ! 
+~            I  salmon don't~eat   I~am a vegetarian 
+^            mũ sālaman khāenāhĩ mũ jaṇe sākāhārī
 
 [LINE]
-Speaker385: आमच्याकडे फ्राईज आहेत…
-~           we~have fries do         
+Speaker385: ଆମ~ପାଖରେ ଫ୍ରାଏଜ ଅଛି…
+~           we fries have         
+^           āma~pākhare phrāeja achi
 
 [LINE]
-Speaker593: ठीक~आहे, फ्राईज।
+Speaker593:ଠିକ୍~ଅଛି ଫ୍ରାଏଜ.
 ~           OK         fries          
+^           ṭhik~achi phrāeja
 
 [MULTIPLE_CHOICE]
 > What food did Vikram order in the end?
@@ -100,12 +118,14 @@ Speaker593: ठीक~आहे, फ्राईज।
 - salmon
 
 [LINE]
-Speaker385: फ्राईज… परफेक्ट। आणि एक हॅम्बर्गर?
-~          fries perfect and a hamburger
+Speaker385: ପରଫେକ୍ଟ ଫ୍ରାଏଜ ଏବଂ ଗୋଟିଏ ହାମବର୍ଗର
+~                     perfect   fries and   a   hamburger   
+^                     paraphekṭa phrāeja ebã goṭie hāmabargara
 
 [LINE]
-Speaker593: मी मांसी खात नाह!
-~            I meat eat don't 
+Speaker593: ମୁଁ ମାଂସ ଖାଏ~ନାହିଁ!
+~            I meat don't~eat   
+^            mũ mānsa khāe~nāhĩ
 
 [MULTIPLE_CHOICE]
 > Why is Vikram so upset?
@@ -115,9 +135,8 @@ Speaker593: मी मांसी खात नाह!
 
 [MATCH]
 > Tap the pairs
-- स्वादिष्ट चिकन <> delicious chicken
-- विक्रम <> Vikram
-- सॅलडसोबत <> salad with
-- माफ करा <> I'm sorry
-- आमच्याकडे आहे <> we have
-
+- pollo delicioso <> delicious chicken
+- Vikram <> Vikram
+- ensalada de <> salad with
+- lo siento <> I'm sorry
+- tenemos <> we have
