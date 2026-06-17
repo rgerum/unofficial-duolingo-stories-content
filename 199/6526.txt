@@ -1,147 +1,140 @@
 [DATA]
-fromLanguageName=Good Morning
-icon=783305780a6dad8e0e4eb34109d948e6a5fc2c35
-set=1|1
+fromLanguageName=The New Student
+icon=5afbf601db955e3db76a96aea1d4e0a535c16e7c
+set=3|2
 
 [HEADER]
-> सुप्रभात
-~ good~morning
-^ suprabhāt
-$6526/_26057cf7.mp3;8,330
+> ନୂତନ ଛାତ୍ର
+~ the~new~student   
+^ nūtana chātra
 
 [LINE]
-Speaker593: सुप्रभात, प्रीती!
-~            good~morning  Priti
-^            suprabhāt priti
-$6526/_ae3ad57d.mp3;8,1680;8,795
+> ଜାରୀ ଏବଂ ଲିଲି ବସରେ .
+~ Zari and Lily on~the~bus     
+^ jārī ebã lili basare
 
 [LINE]
-Speaker560: सुप्रभात.
-~           good~morning
-^           suprabhāt
-$6526/_db0d883d.mp3;8,3484
-
-[LINE]
-Speaker560: माझी किल्ली कुठे आहे?
-~           my key where is
-^           mājhi killi kuṭhe āhe
-$6526/_1fa179a9.mp3;4,5070;7,385;5,385;4,385
-
-[LINE]
-Speaker593: तुझी किल्ली?
-~           your keys?   
-^           tujhi killi
-$6526/_4359f32b.mp3;4,7650;7,460
+Speaker418: ଲିଲି, ଆମ ଶ୍ରେଣୀରେ ଜଣେ ନୂଆ ଛାତ୍ର ଅଛନ୍ତି!
+~            Lily in~our class a  new   student there~is      
+^            lili āma sreṇīre jaṇe nūā chātra achanti
 
 [MULTIPLE_CHOICE]
-> Priti can't find her key.
-+ Yes, that's right.
-- No, that's wrong.
+> Zari tells Lily that there's a new teacher at their school.
++ No, that's wrong.
+- Yes, that's right.
 
 [LINE]
-Speaker560: हो,  कामाला जायचं~आहे.
-~           yes  to~work I~need~to~go    
-^           ho kāmālā jāychã~āhe
-$6526/_eb84445e.mp3;2,9770;9,200;6,600;4,600
+Speaker418: ତାଙ୍କ ନାମ ହେଉଛି ମିଗୁଏଲ .
+~           his name   is Miguel 
+^           tāṅka nāma heuchi miguela
+
+[LINE]
+Speaker416: ମିଗୁଏଲ?
+~            Miguel 
+^            miguela
+
+[LINE]
+Speaker418: ହଁ, ସେ ମେକ୍ସିକୋରୁ~ଆସିଛନ୍ତି.
+~           yes  he is~from~Mexico 
+^           hã se meksikoru~āsichanti
+
+[LINE]
+Speaker418: ତାଙ୍କର ବାପା ବହି ଲେଖନ୍ତି!
+~            his father   books writes 
+^            tāṅkara bāpā bahi lekhanti
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker416: [ବହୁତ ଆକର୍ଷଣୀୟ]. 
+~            very interesting  
+^            bahuta ākarsaṇīya
+- ବହୁତ ଭଲ
+- ବହୁତ ଅନାକର୍ଷଣୀୟ
++ ବହୁତ ଆକର୍ଷଣୀୟ
+
+[LINE]
+Speaker418: ସେ ସ୍ପାନିଶ୍, ଇଂରାଜୀ ଏବଂ ପର୍ତୁଗୀଜ କହିପାରନ୍ତି. 
+~           he  Spanish  English and Portuguese speaks 
+^           se spānis inrājī ebã partugīja kahipāranti
+
+[LINE]
+Speaker416: ଓଃ, ସେ ବୁଦ୍ଧିମାନ.
+~           oh  he~is intelligent 
+^           oh se buddhimāna
+
+[LINE]
+Speaker418: ବୁଦ୍ଧିମାନ ଏବଂ ଡେଙ୍ଗା ହେବା~ସହିତ ତାଙ୍କର ବହୁତ ସୁନ୍ଦର…
+~           intelligent  and tall  and he~has very pretty  
+^           buddhimāna ebã ḍeṅgā hebā~sahita tāṅkara bahuta sundara
+
+[MULTIPLE_CHOICE]
+> How does Zari describe Miguel?
+- He's short and blond.
+- He's handsome and loud.
++ He's intelligent and tall.
+
+[LINE]
+Speaker416: ହା, ହା, ହୁଁ? 
+~           ha  ha   yes 
+^           hā hā hũ
+
+[LINE]
+Speaker418: ହୁଁ… କେଡେ ସୁନ୍ଦର ଜୋତା ତାଙ୍କର
+~           hmm  very pretty  shoes he~has  
+^           hũ keḍe sundara jotā tāṅkara
+
+[POINT_TO_PHRASE]
+> Choose the option that means "behind."
+Speaker416: (ଜାରୀ), (ମିଗୁଏଲ) (ତୁମ) (+ପଛରେ) . 
+~            Zari    Miguel~is you  behind  
+^            jārī miguela tuma pachare
+
+[LINE]
+Speaker418: କ’ଣ! 
+~             what  
+^             kaṇa
+
+[LINE]
+Speaker416: ନମସ୍କାର, ମିଗୁଏଲ!
+~            hello  Miguel 
+^            namaskāra miguela
+
+[LINE]
+Speaker790: ନମସ୍କାର, ଲିଲି! ତୁମେ~କେମିକି~ଅଛ? 
+~            hello  Lily   how~are~you 
+^            namaskāra lili tume~kemiki~acha
+
+[LINE]
+Speaker416: ଭଲ, ଧନ୍ୟବାଦ.  
+~           fine  thank~you 
+^           bhala dhanyabāda
 
 [ARRANGE]
 > Tap what you hear
-Speaker560: [(मला) (माझ्या) (गाडीची) (किल्ली) (हवी आहे)!]
-~             to~me  my    car's   key  needed is
-^             malā mājhyā gāḍichi killi havi āhe
-$6526/_49de9101.mp3;3,12950;7,354;7,354;7,530;4,354;4,354
+Speaker416: [(ମିଗୁଏଲ), (ଇଏ) (ହେଉଛନ୍ତି) (ମୋ~ସାଙ୍ଗ),  (ଜାରୀ).]
+~             Miguel    this   is   my~friend    Zari   
+^             miguela ie heuchanti mo~sāṅga jārī
 
 [LINE]
-Speaker593: प्रीती, तुझी किल्ली इथे टेबल~वर आहे.
-~           Priti  your key here on~the~table is
-^           priti tujhi killi ithe ṭebal~var āhe
-$6526/_2278258f.mp3;6,16810;6,301;7,302;4,301;5,301;3,452;4,302
-
-[POINT_TO_PHRASE]
-> Choose the option that means "tired."
-Speaker560: (माफ~कर), माझा~प्रिय, (मी) (+थकले) आहे. (मी) खूप काम~करते!
-~            sorry    my~love   I~am     tired is  I a~lot work    
-^            māf~kar mājhā~priya mi thakle āhe mi khup kām~karte
-$6526/_ff996fb0.mp3;3,20890;3,289;6,289;6,289;4,289;5,145;4,434;4,289;4,144;4,289;5,289
+Speaker416: ତୁମର ଜୋତା ତାଙ୍କୁ~ପସନ୍ଦ~ଆସୁଛି.
+~           your  shoes she~likes       
+^           tumara jotā tāṅku~pasanda~āsuchi
 
 [LINE]
-Speaker593: कॉफी हवी~आहे?
-~           coffee do~you~want
-^           kofi havi~āhe
-$6526/_4ee43260.mp3;4,25330;4,393;4,394
-
-[LINE]
-Speaker560: हो,  कृपया!
-~           yes  please    
-^           ho krupayā
-$6526/_8fba278d.mp3;2,27910;8,280
-
-[LINE]
-Speaker593: हे घे.
-~           this take
-^           he ghe
-$6526/_01abf046.mp3;2,30390;3,330
-
-[LINE]
-Speaker560: साखर कुठे आहे? अरे, इथे आहे.
-~           sugar where is oh  here it~is
-^           sākhar kuṭhe āhe are ithe āhe
-$6526/_c3dc9ba6.mp3;4,32210;5,554;4,369;5,369;5,430;4,369
+Speaker418: ଓଃ, ହୁଁ, ନମସ୍କାର…  ମିଗୁଏଲ.
+~           oh  hmm  hello  Miguel 
+^           oh hũ namaskāra miguela
 
 [MULTIPLE_CHOICE]
-> Hmm… what is Priti doing?
-- pouring her coffee on the table
-- putting sugar on her keys
-+ looking for some sugar for her coffee
-
-[LINE]
-> ती कॉफी पीते
-~ she coffee drinks
-^ ti kofi pite
-$6526/_b90e641d.mp3;2,35670;5,220;5,440
-
-[LINE]
-Speaker560: शी!
-~           yuck
-^           shi
-$6526/_54fdc3ea.mp3;2,37510
-
-[LINE]
-Speaker593: काय?
-~           what
-^           kāy
-$6526/_f1172ff7.mp3;3,39490
-
-[LINE]
-Speaker560: ते मीठ होतं! 
-~           that salt was
-^           te miṭh hotã
-$6526/_19cc1e8d.mp3;2,41050;4,220;5,440
-
-[LINE]
-Speaker593: प्रीती, तू खूप थकली आहे!
-~           Priti you very tired are
-^           priti tu khup thakli āhe
-$6526/_343147ab.mp3;6,43330;4,344;4,172;5,344;4,516
-
-[LINE]
-Speaker560: हो, मला अजून कॉफी हवी~आहे साखर बरोबर मीठ नाही
-~           yes to~me more coffee need sugar with salt not
-^           ho malā ajun kofi havi~āhe sākhar barobar miṭh nāhi
-$6526/_22629e5d.mp3;2,46030;5,169;5,337;5,506;4,338;4,337;5,337;6,506;4,675;5,338
-
-[MULTIPLE_CHOICE]
-> Priti was so tired that…
-- …she fell asleep in the kitchen.
-+ …she put salt in her coffee.
-- …she put her keys in her coffee.
+> Zari didn't realize that…
+- …Miguel's shoes were so ugly.
++ …Miguel was sitting behind her.
+- …her homework was due today.
 
 [MATCH]
 > Tap the pairs
-- आहे <> is
-- खूप <> a lot
-- किल्ली <> key
-- इथे <> here
-- थकली <> tired
-- मीठ <> salt
-- तुझं <> your
+- Zari <> Zari
+- Sí <> yes
+- Bien <> fine
+- esta <> this
+- Qué <> what
