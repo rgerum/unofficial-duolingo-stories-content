@@ -1,43 +1,44 @@
 [DATA]
-fromLanguageName=A Date
+fromLanguageName=Hitzordu bat
 icon=df24f7756b139f6eda927eb776621b9febe1a3f1
 set=1|2
 
 [HEADER]
-> Una cita
-~ a   date
+> Hitzordu bat
+~ date     one
 
 [LINE]
-> Bea está en una cita en un restaurante.
-~ Bea is   on a   date in a  restaurant  
+> Bea hitzordu batean  dago, jatetxe     batean.
+~ Bea date     in~one she~is restaurant  in~one
 
 [LINE]
-Speaker507: ¡Hola!  ¿Cómo~estás? 
-~            hello   how~are~you 
+Speaker507: Kaixo!  Zelan zaude? 
+~           hello   how~are~you 
 
 [LINE]
-Speaker100: ¡Bien!
-~            fine 
+Speaker100: Ondo!
+~           fine 
 
 [LINE]
-Speaker100: ¿Qué  quieres     comer? 
-~            what do~you~want to~eat 
+Speaker100: Zer  jan nahi duzu? 
+~           what eat want do~you 
 
 [LINE]
-Speaker507: Una ensalada.
-~           a   salad    
+Speaker507: Entsalada~bat.
+~           a~salad
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker507: Hoy   tengo  [un~partido~importante].
-~           today I~have  an~important~game      
-+ un partido importante
+Speaker507: Gaur    [partidu~garrantzitsu~bat] dut.
+~           today   an~important~game          I~have    
+$9487/3fe2ddcd.mp3;4,138;11,312;13,500;4,625;4,225;0,338
++ partidu garrantzitsu bat
 - un batido importante
 - una parte imponente
 
 [LINE]
-Speaker100: Ah, ¿te~gustan   los~deportes?
-~           oh   do~you~like (the)~sports 
+Speaker100: A, kirola gustoko al duzu?
+~           oh sport  enjoy   ~  do~you 
 
 [LINE]
 Speaker507: Sí,  yo juego~al fútbol.
@@ -50,62 +51,63 @@ Speaker507: Sí,  yo juego~al fútbol.
 - …she just ate a whole pizza.
 
 [LINE]
-Speaker100: ¡Yo~también!
-~            me~too     
+Speaker100: Baita~ni~ere!
+~           me~too     
 
 [LINE]
-Speaker507: ¡Súper!
-~            great 
+Speaker507: Bikain!
+~           great 
 
 [LINE]
-Speaker507: ¿De~dónde~eres?     
-~            where~are~you~from 
+Speaker507: Nongoa~zara?     
+~           where~are~you~from 
 
 [LINE]
-Speaker100: Soy  americano.
-~           I~am American  
+Speaker100: Europarra naiz.
+~           European  I~am  
 
 [ARRANGE]
 > Tap what you hear
-Speaker100: [(Mi~padre)  (es~de~Cuba)   (y)   (mi~madre)  (es~de~México).]  
-~             my~father   is~from~Cuba   and   my~mother   is~from~Mexico   
+Speaker100: [(Nire~aita)  (Biarritzekoa~da)    (eta)   (nire~ama)  (Bilbokoa da).]  
+~             my~father    is~from~Biarritz     and     my~mother   is~from~Bilbao   
+$9487/97b36937.mp3;4,125;5,275;14,388;3,787;7,350;7,250;4,275;10,250;3,588
 
 [LINE]
-Speaker507: ¡Me~encanta Cuba!
-~            I~love     Cuba 
+Speaker507: Biarritz atsegin dut.
+~           Biarritz I~love ##Hemen I love/me encanta zioen. Ez dakit itzelpen ona denik.
 
 [LINE]
-Speaker100: Cuba es muy  bonita.   
-~           Cuba is very beautiful 
+Speaker100: Biarritz oso  polita    da.   
+~           Biarritz very beautiful is 
 
 [LINE]
-Speaker507: ¿Tienes      mascotas?
-~            do~you~have pets     
+Speaker507: ¿Etxe-animalirik al~dituzu?
+~            any~pets        do~you~have     
 
 [LINE]
-Speaker100: Tengo  dos gatos y   un perro.
-~           I~have two cats  and a  dog   
+Speaker100: Bi katu eta txakur bat ditut.
+~           two cat and dog    one I~have  
 
 [POINT_TO_PHRASE]
 > Choose the option that means "also."
-Speaker507: Yo (+también) (tengo) un (perro), (José).
-~           I    also      have   a   dog      José  
+Speaker507: Ni (+ere) (txakur) bat (daukat), (Aitor).
+~           I    also  dog     a    I~have    Aitor  
 
 [LINE]
-Speaker100: ¿Eh? Yo~me~llamo Daniel…
-~            eh  my~name~is  Daniel 
+Speaker100: E? Ni Gorka  deitzen~naiz…
+~           eh I  George am~called 
 
 [LINE]
-Speaker100: ¿Tú~no~eres Gabriela?
-~            aren't~you Gabriela 
+Speaker100: Ez~al~zara Ane?
+~           aren't~you Anne 
 
 [LINE]
-Speaker507: ¡No!
-~            no 
+Speaker507: Ez!
+~           no 
 
 [LINE]
-Speaker507: ¡Yo~me~llamo Bea!
-~            my~name~is  Bea 
+Speaker507: Ni Bea deitzen~naiz!
+~           I  Bea am~called 
 
 [MULTIPLE_CHOICE]
 > Did you catch that? Bea and Daniel…
@@ -114,28 +116,27 @@ Speaker507: ¡Yo~me~llamo Bea!
 - …are walking their dogs.
 
 [LINE]
-> Una mujer camina hacia   Daniel.
-~ a   woman walks  towards Daniel 
+> Emakume~bat Gorkarengana   hurbitzen~da.
+~ one~woman   towards~Daniel approaches
 
 [LINE]
-Speaker101: ¡Hola!  ¿Eres    Daniel? Soy  Gabriela.
-~            hello   are~you Daniel  I~am Gabriela 
+Speaker101: Kaixo!  Xabier al zara?  Ane naiz.
+~           hello   Xavier ~ are~you Anne I~am 
 
 [LINE]
-Speaker100: No, lo~siento. Soy  José.
-~           no  I'm~sorry  I~am José 
+Speaker100: Ez, sentitzen~dut. Patxi   naiz.
+~           no  I'm~sorry      Francis I~am 
 
 [MULTIPLE_CHOICE]
 > Whoa! What just happened?
-- Bea changed her name to Gabriela.
-+ Daniel lied to his real date because he likes Bea.
-- Bea and Daniel's dogs played soccer.
+- Bea changed her name to Anne.
++ George lied to his real date because he likes Bea.
+- Bea and George's dogs played soccer.
 
 [MATCH]
 > Tap the pairs
-- y <> and
-- Soy <> I am
-- ensalada <> salad
-- Me encanta <> I love
-- Eh <> eh
-
+- eta <> and
+- naiz <> I am
+- entsalada <> salad
+- atsegin dut <> I love
+- E <> eh
