@@ -1,3 +1,4 @@
+# Forced alignment: Danish human-audio word timings applied 2026-06-30 from batches da-en-prod-all-20260612-190037, da-en-prod-failed-rerun-20260615-134756, and da-en-prod-audio-drift-rerun-20260625-final.
 [DATA]
 fromLanguageName=I Need a New Video Game
 icon=ce0ae956035c1bac6b9c64737466d59c5d027e97
@@ -6,22 +7,22 @@ set=7|1
 [HEADER]
 > Jeg~har~brug~for~et~nyt~computerspil
 ~ I~need~a~new~video~game  
-$1930/_905c3889.mp3;3,80;4,209;5,210;4,247;3,209;4,173;13,210
+$1930/_905c3889.mp3;3,63;4,63;5,147;4,231;3,147;4,168;13,231
 
 [LINE]
 > Junior  og Eddy  er    i en   butik.
 ~ Junior and Eddy are   at a   store  
-$1930/_335e34c8.mp3;6,80;4,327;5,191;4,273;5,191;3,136;8,191
+$1930/_335e34c8.mp3;6,168;4,357;5,231;4,273;5,147;3,126;8,105
 
 [LINE]
 Speaker415:  Far,  jeg~har~brug~for et nyt~computerspil!
 ~            Dad   I~need            a  new~video~game   
-$1930/_54a07da7.mp3;3,80;6,231;4,232;5,232;4,273;3,231;4,191;13,232
+$1930/_54a07da7.mp3;3,84;6,399;4,315;5,168;4,147;3,126;4,126;13,189
 
 [LINE]
 Speaker414: Nej, Junior, du~har~ikke~brug~for et nyt computerspil.
 ~           No  Junior  you~don't~need        a  new video~game   
-$1930/_b24be92b.mp3;3,80;8,233;4,330;4,192;5,234;5,275;4,275;3,233;4,193;13,233
+$1930/_b24be92b.mp3;3,147;8,189;4,567;4,252;5,168;5,168;4,189;3,126;4,126;13,231
 
 [MULTIPLE_CHOICE]
 > Eddy thinks Junior needs a new video game.
@@ -31,13 +32,13 @@ $1930/_b24be92b.mp3;3,80;8,233;4,330;4,192;5,234;5,275;4,275;3,233;4,193;13,233
 [LINE]
 Speaker415: Vær~nu~sød!  Dette computerspil med robotter er meget sjovt!
 ~            Please      This video~game    with robots  is very fun       
-$1930/_8a22d457.mp3;3,80;3,265;4,219;8,266;13,343;4,547;9,266;3,437;6,219;6,344
+$1930/_8a22d457.mp3;3,147;3,63;4,147;8,609;13,504;4,672;9,147;3,441;6,210;6,252
 
 [SELECT_PHRASE]
 > Select the missing phrase
 Speaker414: Junior, [du~vil~have~dette] computerspil, men du~behøver~ikke      dette computerspil.
 ~           Junior   you~want~this       video~game  but  you~don't~need        this video~game 
-$1930/_75bf22e0.mp3;6,80;4,391;4,229;5,277;6,326;13,359;5,571;3,278;8,228;5,424;11,327;13,358
+$1930/_75bf22e0.mp3;6,105;4,399;4,147;5,105;6,294;13,210;5,1071;3,525;8,147;5,462;11,231;13,252
 + du vil have
 - du vil gerne stjerne
 - du vil have med
@@ -45,29 +46,29 @@ $1930/_75bf22e0.mp3;6,80;4,391;4,229;5,277;6,326;13,359;5,571;3,278;8,228;5,424;
 [LINE]
 Speaker415: Okay,   jeg~vil~have~det, kan vi købe det?   
 ~           Okay    I~want~it        can  we  buy  it
-$1930/_d7c966e3.mp3;4,80;7,304;4,259;5,258;4,305;5,259;3,258;5,213;4,305
+$1930/_d7c966e3.mp3;4,147;7,462;4,252;5,147;4,231;5,378;3,378;5,168;4,315
 
 [ARRANGE]
 > Tap what you hear
 Speaker414: [(Nej)… (Du~har)   (mange)   (computerspil) (derhjemme).]
 ~             No    You~have   a~lot~of   video~games   at~home   
-$1930/_4ab32e13.mp3;3,80;4,307;4,253;8,307;15,398;10,632
+$1930/_4ab32e13.mp3;3,147;4,504;4,420;8,168;15,252;10,693
 
 [LINE]
 Speaker415: Ja, ja,  okay.         Tager~vi~hjem?
 ~           Yes  yes okay         Are~we~going~home 
-$1930/_ffcdb685.mp3;2,80;4,284;7,284;15,405;3,447;5,284
+$1930/_ffcdb685.mp3;2,147;4,84;7,336;15,882;3,546;5,63
 
 [LINE]
 Speaker414: Nej, vi~tager    til Vikrams~hus.
 ~           No  we~are~going to Vikram's~house 
-$1930/_775f65cb.mp3;3,80;4,275;6,227;7,356;8,275;4,421
+$1930/_775f65cb.mp3;3,168;4,357;6,378;7,189;8,147;4,483
 
 [CONTINUATION]
 > What comes next?
 Speaker415: Hvorfor? Hans~hus   er [meget~kedeligt]!
 ~            Why     His~house  is   very~boring  
-$1930/_ee561394.mp3;7,80;6,409;4,315;5,268;6,220;9,347
+$1930/_ee561394.mp3;7,105;6,525;4,462;5,252;6,147;9,273
 - en butik
 ~ a   store 
 - et nyt~computerspil
@@ -78,12 +79,12 @@ $1930/_ee561394.mp3;7,80;6,409;4,315;5,268;6,220;9,347
 [LINE]
 Speaker414: Men  hans~TV   er stort  og jeg~skal     se    fodboldkampen.
 ~           But  his~TV    is big    and I~need~to watch the~soccer~game       
-$1930/_0697c8c3.mp3;3,80;6,237;3,280;5,196;6,196;4,308;4,195;5,238;7,280;17,196
+$1930/_0697c8c3.mp3;3,84;6,126;3,210;5,357;6,210;4,378;4,147;5,126;7,189;17,231
 
 [LINE]
 Speaker415: Far,  du  har~lyst~til at~se     kampen,     men du~behøver~ikke at~se    kampen!
 ~           Dad   you want         to~watch the~game     but  you~don't~need to~watch the~game    
-$1930/_50844e5f.mp3;3,80;5,221;5,183;5,222;4,261;3,221;3,183;11,183;9,313;3,221;8,183;5,339;3,261;3,183;10,182
+$1930/_50844e5f.mp3;3,84;5,420;5,336;5,168;4,147;3,105;3,105;11,147;9,609;3,357;8,126;5,336;3,168;3,126;10,105
 
 [MULTIPLE_CHOICE]
 > Both Eddy and Junior…
