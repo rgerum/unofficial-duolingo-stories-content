@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=De vestit per li vacanças
+icon=eda1b8214a6937df66a552eb581f2353da4d0352
+set=2|4
+
+[HEADER]
+>  De vestit per li vacanças              
+~ des vêtements pour les vacances
+
+[LINE]
+> Lourina es en un masaguin.  
+~ Laurine est dans un magasin 
+
+[LINE]
+Speaker509: Bouònjou, mi~poudès~ajudà ?    
+~           bonjour  pouvez-vous~m'aider 
+
+[LINE]
+Speaker509: Ai besoun de nouvèu vestit per li~mieu vacanças !
+~           j'ai besoin de nouveaux vêtements pour mes vacances 
+
+[MULTIPLE_CHOICE]
+> Laurine veut acheter de nouveaux vêtements pour ses vacances.
++ Oui, c'est vrai.
+- Non, c'est faux.
+
+[LINE]
+Speaker416: D'acordi.      
+~           d'accord 
+
+[LINE]
+Speaker509: Ai besoun d'una ròuba.
+~           j'ai besoin d'une robe  
+
+[LINE]
+> Lucìa douna una ròuba verta a Lourina.
+~ Lucie donne une robe verte à Laurine.  
+
+[LINE]
+Speaker509: Non !  Ai besoun d'una ròuba courta e rouja. 
+~           non  j'ai besoin d'une robe courte et rouge 
+
+[MULTIPLE_CHOICE]
+> De quoi Laurine a-t-elle besoin ?
+- une longue jupe verte
++ une robe rouge courte
+- une nouvelle voiture marron
+
+[LINE]
+> Lucìa li douna una ròuba courta e rouja. 
+~ Lucie lui donne une robe courte et rouge. 
+
+[ARRANGE]
+> Appuie sur ce que tu entends
+Speaker509: [(E) (ai~besoun~de)  (bota).] 
+~             et    j'ai~besoin~de   bottes   
+
+[LINE]
+> Lucìa douna a Lourina de bota rougi.        
+~ Lucie donne à Laurine des bottes rouges 
+
+[LINE]
+Speaker509: Non,  de grani bota negri !  
+~           non  de grandes bottes noires 
+
+[LINE]
+Speaker416: Oua…  
+~           pouah 
+
+[LINE]
+Speaker509: D'acordi, una ròuba courta e rouja, de grani bota negri…  
+~           d'accord  une robe courte et rouge de grandes  bottes noires 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker509: [E~un~capèu] !    
+~            et~un~chapeau  
+- E un cat 
++ E un capèu
+- Me un capèu
+
+[LINE]
+> Lucìa douna un capèu a Lourina.    
+~ Lucie donne un chapeau à Laurine. 
+
+[LINE]
+Speaker509: Non !  Un capèu jaune !   
+~           non  un chapeau jaune 
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+> Lucìa douna a Lourina [un  capèu jaune].   
+~ Lucie donne à Laurine  un chapeau jaune  
+- un capèu rouge
+~ un chapeau rouge
+- una ròuba jaune
+~ une robe jaune  
++ un capèu jaune   
+~ un chapeau jaune
+
+[LINE]
+Speaker509: Perfet ! Ahura sieu lèsta per li~mieu vacanças 
+~           parfait  maintenant je~suis prête pour mes vacances 
+
+[LINE]
+Speaker416: Ahura, ai besoun de vacanças.
+~           maintenant j'ai besoin de vacances   
+
+[MULTIPLE_CHOICE]
+> Pauvre Lucie ! Pourquoi a-t-elle besoin de vacances ?
+- Elle a beaucoup de nouveaux vêtements à porter.
++ Elle est fatiguée d'avoir aidé Laurine à trouver des vêtements.
+- Elle a trop mangé à midi. 
+
+[MATCH]
+> Choisis les paires
+- ròuba <> robe
+- vacanças <> vacances
+- capèu <> chapeau
+- vestit <> vêtement
+- bota <> bottes
+

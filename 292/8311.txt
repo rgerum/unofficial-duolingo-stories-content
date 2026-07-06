@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Lou passapouòrt
+icon=643347b755001a918130ddf5f6d3e914e63a00ce
+set=1|1
+
+[HEADER]
+> Lou passapouòrt 
+~ le  passeport
+$8311/_3914ce1a.mp3;3,54;12,1042
+
+[LINE]
+> Gabrièu e la~sieu frema, Chouasa, soun  a l'~aeroupouòrt.
+~ Gabriel et sa femme, Françoise, sont à  l'aéroport  
+$8311/_c4f4d963.mp3;7,51;2,841;3,223;5,335;6,558;9,781;6,1004;3,669;2,223;13,335
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker593: Oh non.  [Doun es lou~mieu passapouòrt] ?
+~           oh non   où est mon passeport  
+- Es un ome fouòrt
++ Doun es lou mieu passapouòrt
+- As lou mieu passapouòrt
+
+[LINE]
+Speaker593: Es pas aquì !
+~           (il)~n'est pas ici  
+
+[LINE]
+Speaker560: Gabrièu…
+~           Gabriel 
+$8311/_e18fbc64.mp3;7,1086
+
+[LINE]
+Speaker593: Es pas en  lou~mieu sac…
+~           (il)~n'est pas dans mon sac 
+
+[LINE]
+Speaker593: E es pas en la~mieu vèsta…
+~           et  (il)~n'est pas dans ma veste  
+
+[MULTIPLE_CHOICE]
+> Gabriel ne trouve pas son passeport.
++ Oui, c'est vrai.
+- Non, c'est faux.
+
+[LINE]
+Speaker560: Ma Gabrièu…
+~           mais Gabriel 
+$8311/_15be6339.mp3;2,0;8,1105
+
+[LINE]
+Speaker593: O ! Lou~mieu  passapouòrt  es  en lou tassì !
+~           oh  mon passeport est dans le  taxi 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « court ».
+> (Gabrièu) (+courre)  vers    (lou) (tassì).
+~  Gabriel  court  vers  le    taxi  
+$8311/_2df9a83d.mp3;7,0;7,1095;6,546;7,621;6,377
+
+[LINE]
+Speaker560: Gabrièu, non ! 
+~           Gabriel  non 
+$8311/_2857dee1.mp3;7,38;5,1686
+
+[LINE]
+> Chouasa courre  vers   Gabrièu.
+~ Françoise court vers Gabriel 
+$8311/_941be2e5.mp3;7,1081;7,481;6,380;10,509
+
+[LINE]
+Speaker593: O non, lou tassì es plus aquì ahura !       
+~           oh non  le  taxi (n')est plus là   maintenant 
+
+[LINE]
+Speaker593: Es un gros  proublèma… 
+~           (C')est   un gros problème 
+
+[LINE]
+Speaker560: Gabrièu !
+~           Gabriel 
+$8311/_33d5b5d2.mp3
+
+[LINE]
+Speaker560: Lou~tieu passapouòrt  es pas en lou tassì.
+~           Ton  passeport (n')est pas dans le  taxi 
+$8311/_1a07a48d.mp3;3,0;5,1029;12,158;4,696;4,257;3,343;4,257;6,342
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « main ».
+Speaker560: (Lou~tieu) passapouòrt  (es)  en   (la~tieu) (+man).
+~            Ton   passeport  est  dans  ta      main  
+$8311/_8c9743df.mp3;3,0;5,1111;12,287;4,748;4,391;5,451;5,243;4,243
+
+[LINE]
+Speaker593: O… 
+~           oh 
+
+[LINE]
+Speaker593: Mercì, amour. 
+~           Merci      (mon)~amour 
+
+[MULTIPLE_CHOICE]
+> Où était le passeport de Gabriel ?
+- chez lui
++ dans sa main
+- dans le taxi
+
+[MATCH]
+> Choisis les paires
+- Chouasa <> Françoise
+- frema <> femme
+- Gabrièu <> Gabriel
+- vèsta <> veste
+- tassì <> taxi
+

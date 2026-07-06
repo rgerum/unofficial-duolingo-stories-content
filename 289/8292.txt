@@ -1,0 +1,136 @@
+[DATA]
+fromLanguageName=Clothes for My Vacation
+icon=6fee4723d01611cffa9b4b76fd5be36697ef1e96
+set=4|3
+
+[HEADER]
+> 憩い{ゆくい}|ぬたみぬ|服
+~ (my)~break/vacation~{ゆくい} for  (the)~clothes~{ふく}  
+$8292/35974c5c.mp3;NaN,50;NaN,450;NaN,375;4,113
+
+[LINE]
+> ルーシー|や 町屋{まちや}|んかい|うぅん{ウゥん}。
+~ Lucy is (a)~store~{まちや} in/at (exists) 
+$8292/31b23812.mp3;4,50;2,463;NaN,137;NaN,300;NaN,113;NaN,312;3,188;NaN,162
+
+[LINE]
+Speaker416: はいたい、  手適{ティがねー}|ぬ 要りゆー{いりゆー} やいびーみ?
+~           hello~(feminine)   help~{てぃがねー} is needed~{いりゆー} (yes/no~question~ending)
+$8292/8a8a0f69.mp3;6,25;0,350;5,375;4,625;NaN,300;NaN,600;NaN,350;NaN,325
+
+[LINE]
+Speaker509: うー、  憩い{ゆくい}|ぬたみに|服|ぬ 要りゆー{いりゆー}|やん。
+~           yes  (my)~vacation for (the)~clothes is (I)~need (it~is)  
+$8292/f14587e5.mp3;4,6;12,796;0,442;1,129;3,290;0,413;4,269;NaN,378;NaN,445
+
+[MULTIPLE_CHOICE]
+> Lucy is shopping for clothes for a vacation.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker416: 上等。
+~           OK~{じょうとう}        
+$8292/a5702a9b.mp3;2,137
+
+[LINE]
+Speaker509: ドレス 要りゆー{いりゆー}|やん。
+~           (a)~dress (I)~need~{いりゆー} (it~is)   
+$8292/b73a9054.mp3;3,6;NaN,388;NaN,372
+
+[LINE]
+> リリー|や 緑{ミドゥリ}|ぬ ドレス 探ゆん{トゥめーゆん}。
+~ Lily (is) green~{みどぅり} (colored) dress looks~(for)~{とぅめーゆん}
+$8292/71f40f51.mp3;3,50;2,338;NaN,125;NaN,350;NaN,162;NaN,338;NaN,300;NaN,312
+
+[MULTIPLE_CHOICE]
+> Lily is getting a…
++ …green dress.
+- …red dress.
+- …green hat.
+
+[LINE]
+Speaker509: うぅーうぅー{ウゥーウゥー}、 赤さん|ドレス|ぬ ふさん。
+~            no  red~{あかさん} (a)~dress is (what~I)~want   
+$8292/0eaae87c.mp3;20,6;NaN,1239;NaN,248;NaN,259;NaN,409;NaN,116;NaN,149
+
+[LINE]
+> リリー|や 赤さん|ドレス 探ゆん{トゥめーゆん}。
+~ Lily (is) red~{あかさん} dress looks~(for)~{とぅめーゆん}   
+$8292/d906f684.mp3;3,50;2,325;2,125;2,238;4,250;NaN,325;NaN,312;NaN,300
+
+[LINE]
+Speaker509: ジャケット|ぬ ふさん。
+~           (a)~jacket is (what~I)~want  
+$8292/26ec861c.mp3;11,6;NaN,538;NaN,123;NaN,150
+
+[ARRANGE]
+> Tap what you hear
+> [(リリー|や) (赤さん)|(ジャケット) (探ゆん{トゥめーゆん})。]
+~ Lily (is) red~{あかさん} jacket looks~(for)~{とぅめーゆん}       
+$8292/aebf2234.mp3;3,50;2,325;2,125;2,238;6,237;NaN,463;NaN,150;NaN,175;NaN,312
+
+[LINE]
+Speaker509: うぅーうぅー{ウゥーウゥー}、 茶色ぬ{んみいるぬ}|ジャケット|ぬ ふさん!
+~            no  brown~{んみいるぬ} jacket is (what~I)~want      
+$8292/c985c38f.mp3;7,6;NaN,1240;NaN,857;NaN,531;NaN,93;NaN,154
+
+[LINE]
+Speaker416: 上等…
+~           OK~{じょうとう}        
+$8292/2d317e52.mp3;1,137;0,300
+
+[LINE]
+Speaker509: 赤さん|ドレス、 茶色ぬ{んみいるぬ}|ジャケット…
+~           red~{あかさん} (a)~dress     brown (a)~jacket    
+$8292/2b3fc945.mp3;3,6;5,248;0,266;10,684;NaN,830
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: [とぅ{トゥ} 八巻{はちまち}]!
+~             and (a)~hat~{はちまち}      
+$8292/8e079be4.mp3;2,6;NaN,121
+- とぅ 鉢街
+- とぅ 鉢町
++ とぅ 八巻
+
+[LINE]
+> リリー|や 青さん{おーさん}|八巻{はちまち} 探ゆん{トゥめーゆん}。
+~ Lily (is) blue~{おーさん} hat~{はちまち} looks~(for)~{とぅめーゆん}        
+$8292/d98b6c1a.mp3;3,50;2,325;NaN,125;NaN,225;NaN,238;NaN,525;NaN,337;NaN,313
+
+[LINE]
+Speaker509: うぅーうぅー{ウゥーウゥー}、　 灰色ぬ{フェーいるぬ}|八巻{はちまち}|ぬ |ふさん!
+~            no  gray~{ふぇーいるぬ} hat~{はちまち} is (what~I)~want         
+$8292/2f212de3.mp3;8,6;14,1242;NaN,732;NaN,592;NaN,408;NaN,117
+
+[LINE]
+> リリー|や 灰色ぬ{フェーいるぬ}|八巻{はちまち} 探ゆん{トゥめーゆん}。
+~ Lily (is) gray~{ふぇーいるぬ} hat~{はちまち} looks~(for)~{とぅめーゆん}             
+$8292/35015ed2.mp3;3,50;2,338;NaN,137;NaN,250;NaN,188;NaN,125;NaN,550;NaN,350;NaN,312
+
+[POINT_TO_PHRASE]
+> Choose the option meaning "ready."
+Speaker509: (にふぇーでーびる{ニフェーデーびる})！ (憩い{ゆくい})|ぬ (+しこーい)|ぬ|(なたんさ)！
+~             thank~you     (a)~break/vacation~{ゆくい} is ready/prepared is (did/finished)   
+$8292/597eb6bd.mp3;11,6;NaN,1428;NaN,447;NaN,122;NaN,161;NaN,265;NaN,399;NaN,133;NaN,119;NaN,139;NaN,63
+
+[LINE]
+Speaker416: 今{なま}|ちゃーき 憩い{ゆくい}|ぬ 要りゆー{いりゆー}|やん。  
+~           now~{なま} (as~soon~as~possible) (a)~break/vacation~{ゆくい} is (what~I)~need~{いりゆー}    (is~the~fact) 
+$8292/afdb6a6a.mp3;1,125;5,287;0,275;5,138;6,425;NaN,375;NaN,412
+
+[MULTIPLE_CHOICE]
+> Poor Lily! Why does she need a vacation?
+- She ate too much for lunch.
++ She's tired after helping Lucy find clothes.
+- She wants to buy new clothes to wear.
+
+[MATCH]
+> Tap the pairs
+- とぅ <> and
+- 赤さん {あかさん} ジャケット <> red jacket
+- 灰色ぬ {ふぇーいるぬ} 八巻 {はちまち} <> gray hat
+- にふぇーでーびる <> thank you
+- うぅーうぅー <> no
+

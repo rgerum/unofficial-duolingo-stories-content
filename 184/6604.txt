@@ -4,112 +4,113 @@ icon=29c5abbf74b46e43a4de510ac83e302c0722a100
 set=2|4
 
 [HEADER]
-> Dochtór Eddy
+> Dochtór Édi
 ~ Doktor Eddy
 
 [LINE]
-> Eddy je w krómie.
+> Édi je w krómie.
 ~ Eddy jest w sklepie
 
 [LINE]
-> Jednô~białka do niégò gôdô... 
-~ Kobieta do niego mówi
+> Jakôs~białka gôdô do niegò... 
+~ jakaś~kobieta mówi do niego
 
 [MULTIPLE_CHOICE]
-> Kobieta mówi do Eddiego w sklepie.
+> Kobieta mówi do Ediego w sklepie.
 + Tak, to prawda.
-- Nie, to nie jest prawda.
+- Nie, to nieprawda.
 
 [LINE]
-Speaker724: Pòchwôlony! 
-~            Dzień~dobry
+Speaker724: Mòjn! 
+~           hej
 
 [LINE]
-Speaker414: Ach, na~wieczi~wieków! 
-~           Ach dzień~dobry!
+Speaker414: Mòjn~mòjn! 
+~           no~hej!
 
 [LINE]
-Speaker724: Jesce~wë dochtórã?  
-~            Jest~pan doktorem
+Speaker724: Jes~të dochtorã?  
+~           czy~jesteś doktorem
 
 [LINE]
-Speaker414: Jô? Dochtór? Eh…
-~            Ja Doktor Eh 
+Speaker414: Jô? Dochtorã? Në...
+~           ja doktorem no
 
 [LINE]
-Speaker414: Jo, jô~jem dochtórã.  
-~           Tak jestem doktorem 
+Speaker414: Jo. Jô... jem dochtorã.  
+~           tak ja jestem doktorem 
 
 [LINE]
-Speaker724: To dobrze!  
-~            To dobrze 
+Speaker724: To bëlno!  
+~           to wspaniale 
 
 [LINE]
-> Pò~prôwdze, Eddy to~nie~je dochtór 
-~ Tak~naprawdę Eddy nie~jest doktorem 
+> Édi to~nie~je niżóden dochtór 
+~ Eddy nie~jest (żadnym) doktorem
+
+[ARRANGE]
+> Zaznacz usłyszane słowa
+Speaker414: [(Jô~móm)  (skòpicą)  (dëtków).]
+~             mam      bardzo~dużo   pieniędzy    
+
+[LINE]
+Speaker414: Jô mieszkóm w baro wiôldżi chëczë.
+~            ja mieszkam w bardzo dużym domu  
+
+[LINE]
+Speaker414: Jô móm baro drodżé bùksë...
+~           ja mam bardzo drogie spodnie 
+
+[LINE]
+Speaker724: Fejn, równak…
+~           fajnie ale  
+
+[LINE]
+Speaker724: Nen chłop prawie brëkùje dochtora!
+~           ten mężczyzna właśnie potrzebuje doktora   
+
+[LINE]
+Speaker724: Òn~je kòle mléka!
+~           jest obok mleka  
+
+[LINE]
+Speaker724: Proszã, nen chłop brëkùje waszi pòmòcë!
+~           proszę ten mężczyzna potrzebuje pańskiej pomocy  
+
+[MULTIPLE_CHOICE]
+> Mężczyzna który potrzebuje pomocy jest niedaleko…
+- …stacji.
+- …pomidorów.
++ …mleka.
 
 [POINT_TO_PHRASE]
-> Wybierz opcję która znaczy "pieniędzy".
-Speaker414: (Jô) (móm) (wiele) (+dëtków).
-~             Ja mam sporo pieniędzy    
+> Wybierz słowo oznaczające "chory".
+Speaker724: (Òn~je)  (baro)  (+chòri)!
+~            on~jest bardzo   chory  
 
 [LINE]
-Speaker414: Mieszkóm w fest wiôldżim dodóm.
-~           Mieszkam w bardzo dużym domu  
+Speaker414: Alaże!
+~           o~nie 
 
 [LINE]
-Speaker414: Móm baro dardżé bùksë...
-~           Mam bardzo drogie spodnie 
+> Édi widzy drëgą białkã ë gôdô do ni.
+~ Edek widzi inną kobietę i mówi do niej  
 
 [LINE]
-Speaker724: Në~jo, le…
-~           Dobrze ale  
-
-[LINE]
-Speaker724: Nen chłop brëkùje pòmòcë dochtóra, terôzka!
-~            Ten mężczyzna potrzebuje pomocy doktora teraz   
-
-[LINE]
-Speaker724: Òn~je kòl pòlëcë z mlékã!
-~            Jest obok półki z mlekiem  
-
-[LINE]
-Speaker724: Proszã, nen chłop brëkùje waji pòmòcë!
-~            Proszę ten mężczyzna potrzebuje pańskiej pomocy  
+Speaker414: Dobri~dzéń, jesce~wë dochtorką? 
+~           dzień~dobry czy~jest~pani doktorką
 
 [MULTIPLE_CHOICE]
-> Mężczyzna który potrzebuje pomocy jest obok…
-- …palety z mlekiem.
-- …policji z mleka.
-+ …półki z mlekiem.
-
-[LINE]
-Speaker724: Òn~mô strodżi cësk!
-~             Ma poważny atak     
-
-[LINE]
-Speaker414: Ach~nié!
-~            O~nie 
-
-[LINE]
-> Eddy widzy drëgã białkã i gôdô do ni...
-~ Eddy widzi inną kobietę i mówi do niej  
-
-[LINE]
-Speaker414: Dobri~dzéń, jesce~wë dochtórką? 
-~           Dzień~dobry jest~pani doktorem
-
-[MULTIPLE_CHOICE]
-> Co się wydarzyło w tej historyjce?
-- Eddy poszedł do szkoły medycznej aby zostać lekarzem.
-+ Eddy udawał że jest doktorem by zaimponować kobiecie.
+> Co się wydarzyło w tej historii?
+- Eddy poszedł do szkoły medycznej, aby zostać lekarzem.
++ Eddy udawał że jest doktorem, by zaimponować kobiecie.
 - Eddy uratował mężczyznę w sklepie.
 
 [MATCH]
 > Dobierz w pary
-- kòl <> obok
-- strodżi <> poważny
-- pòlëca <> półka
-- gadac <> mówić
-- cësk <> atak
+- nen <> ten
+- niżóden <> żaden
+- fejn <> fajnie
+- prawie <> właśnie
+- skòpicą <> bardzo dużo
 

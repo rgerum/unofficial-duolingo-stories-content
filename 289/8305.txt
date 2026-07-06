@@ -1,0 +1,108 @@
+[DATA]
+fromLanguageName=Lily's Clothes
+icon=a9d84d4e299c60bdb37d50cc28d74b53af395ac1
+set=5|4
+
+[HEADER]
+> リリー|ぬ 服
+~ Lily 's clothes~{ふく} 
+$8305/0fe452d7.mp3;3,50;2,350;1,113
+
+[LINE]
+> ザリー|や リリー|ぬ 家{やー}|んかい うぅん。|あれー リリー|ぬ|服 見じゅん{んーんじゅん}。
+~ Zari is   Lily 's house at/in (exists) she/he~is Lily 's clothes~{ふく}  looks~(at)~{んーじゅん}
+$8305/c1db3a62.mp3;3,50;2,388;4,137;2,325;NaN,113;NaN,200;NaN,300;2,100;1,250;3,862;4,375;2,263;2,125;NaN,287;NaN,163;NaN,87;NaN,338
+
+[MULTIPLE_CHOICE]
+> Zari is looking at Lily's homework.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker418: 紫{むらさち}|ぬ 服 うふぉーく 持っちょーん{むっちょーん}|やー。  
+~          purple (colored) clothes~{ふく} a~lot~(of) have~{むっちょーん} right?
+$8305/6f228bae.mp3;3,572;2,130;6,361;10,1104
+
+[LINE]
+Speaker416: 紫ー{むらさちぇー} 我ー{わー} 一番好ちやる{いっちんしちやる} 色{いる} やん。
+~           purple~is~{むらさちぇー} my~{わー} favorite~{いっちんしちやる} color~{いる} (is~the~fact)
+$8305/8d433f55.mp3;2,125;3,625;NaN,312;NaN,713;NaN,162;NaN,200
+
+[MULTIPLE_CHOICE]
+> What is Lily's favorite color?
+- red
++ purple
+- brown
+
+[LINE]
+Speaker418: 紫{むらさち}|ぬ シャツ|ぬ 五{いち}|ち|ん 要りゆーわけ{いりゆーわけ}?
+~            puprle~{むらさち} (colored) shirts is five~{いち} (things) (really) (do~you~need)   
+$8305/75bb72eb.mp3;3,572;6,120;6,752
+
+[LINE]
+Speaker416: うー、  あとぅ{あトゥ}   紫{むらさち}|ぬ コート|ぬ 五{いち}|ち
+~           yes  and purple~{むらさち} (colored) coat is five~{いち} (things)    
+$8305/13a7a3e1.mp3;4,200;6,362;10,250;3,500;NaN,200;NaN,363;NaN,212;NaN,225
+
+[ARRANGE]
+> Tap what you hear
+Speaker418: [(あとぅ{あトゥ})  (紫{むらさち}|ぬ) (八巻{はちまち}|ぬ) (四{ゆー}|ち|ん)?]
+~              and  purple~{むらさち} (colored) hats are four (things) （really)        
+$8305/b24f4726.mp3;8,908;5,731;6,371
+
+[LINE]
+Speaker416: うー、  我ー{わー} 八巻{はちまち}|ぬ 要りゆー|やん。
+~           yes  my  hats is need(ed) (is~the~Fact)      
+$8305/ef1d339c.mp3;4,200;3,362;NaN,275;NaN,600;NaN,325;NaN,175;NaN,250
+
+[POINT_TO_PHRASE]
+> Choose the option that means "something."
+Speaker418: (やー)|(んじ) (+ぬーがな) (持っちょーん{むっちょーん})|さ。 
+~            you~(informal) for something brought~{むっちょーん} (sentence~ending)  
+$8305/e88067aa.mp3;5,15;5,587;9,1158
+
+[LINE]
+> ザリー|や 赤さる|サングラス 持っち{むっち}|来ゅーん{ちゅーん}。
+~ Zari is/has red~{あかさる} sunglasses  holds/brings~{むっち} comes~{ちゅーん}
+$8305/2e5ba55c.mp3;3,50;2,388;4,112;6,488;NaN,562;NaN,313;NaN,237;NaN,175
+
+[LINE]
+Speaker418: やー|んかい あぎーん|さ。 我ー{わー} 気っ入り{ちーっいり}|ぬ 町屋{まちや}|うぅてぃ{ウゥティ} 買たん{こーたん}。
+~           you~(informal) to (I'll)~give~(it) (sentence~ending) My~{わー} favorite~(thing)~{ちーっいり} (so-called) store~{まちや} at/in (I)~bought~(it)~{こーたん}
+$8305/40af5881.mp3;6,15;7,723;11,1871
+
+[MULTIPLE_CHOICE]
+> Zari gives Lily a pair of red sunglasses…
+- …that she designed.
+- …that she found in the trash.
++ …from her favorite store.
+
+[LINE]
+Speaker416: あー… にふぇーどー{ニフェーどー}。  
+~           eh  thanks 
+$8305/15991252.mp3;1,200;NaN,362
+
+[LINE]
+Speaker418: 赤ー{あかー}|ぬ うちゃーゆん。 
+~           (the)~red~color~{あかー}  is looks~good~on~(you)~(informal)
+$8305/510c1751.mp3;4,422;7,175
+
+[LINE]
+Speaker416: 町屋{まちや}|んかい 紫{むらさち}|ぬ サングラソー あん?
+~            (the)~store~{まちや}  in/at   purple~{むらさち} (colored) has~sunglasses (exists)   
+$8305/11f013a7.mp3;6,125;0,625;0,62;NaN,250;NaN,563;NaN,250;NaN,912
+
+[MULTIPLE_CHOICE]
+> Lily likes the sunglasses but…
++ …she'd prefer them in purple.
+- …they're way too purple.
+- …they're too expensive.
+
+[MATCH]
+> Tap the pairs
+- サングラス <> sunglasses
+- 紫 {むらさち} <> purple
+- リリーぬ 服 {ふく} <> Lily's clothes
+- 紫ぬ {むらさちぬ} シャツ <> purple shirts
+- から <> from
+

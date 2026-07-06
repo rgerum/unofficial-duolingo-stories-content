@@ -1,0 +1,116 @@
+[DATA]
+fromLanguageName=Où sont mes clés?
+icon=3f21c887f044dc2ac0d1f0d0ea74e1200b587ac2
+set=11|4
+
+[HEADER]
+> Kie estas miaj ŝlosiloj?
+~  où être~(présent) mes clés
+
+[LINE]
+> Lina estas kun sia avino, Lucia.
+~ Lina être~(présent) avec sa/son grand-mère Lucie
+
+[LINE]
+Speaker509: Ni rezervis tablon por vespermanĝi hodiaŭ en bona restoracio.
+~           nous réserver~(passé) table por manger~le~repas~du~soir aujourd'hui dans bon·ne restaurant   
+
+[LINE]
+Speaker509: Ek! Mi ne volas malfrui.
+~            Allez~! je pas vouloir~(présent) être~en~retard
+
+[MULTIPLE_CHOICE]
+> Lucie prépare le repas du soir.
+- Oui, c'est vrai.
++ Non, c'est faux.
+
+[LINE]
+Speaker508: Bone!
+~           bien       
+
+[LINE]
+Speaker508: Ne… Kie estas la ŝlosiloj de mia aŭto?
+~           non   où être~(présent) la/le/les clés de ma/mon voiture       
+
+[LINE]
+Speaker509: Vi neniam scias kie estas viaj ŝlosiloj.
+~           tu/vous jamais savoir~(présent) où être~(présent) tes/vos clés   
+
+[MULTIPLE_CHOICE]
+> Lucie dit…
+- …qu'elle a perdu ses clés.
+- …qu'elle sait où sont les clés.
++ …que Lina perd toujours ses clés.
+
+[LINE]
+Speaker509: Ĉu ili estas en via mantelo?
+~            est-ce~que ils/elles être~(présent) dans ta/ton/votre manteau
+
+[POINT_TO_PHRASE]
+> Clique sur le mot qui signifie "poches"
+> (Lina) (serĉas) (en) (la) (+poŝoj) (de) (sia) (mantelo).
+~   Lina chercher~(présent) dans la/le/les poches de sa/son manteau
+
+[LINE]
+Speaker508: Ne, ili ne estas tie.
+~           non ils/elles pas être~(présent) là 
+
+[SELECT_PHRASE]
+> Complète la phrase
+Speaker509: Ĉu ili estas sub [via~lito]?
+~            est-ce~que ils/elles être~(présent) sous ton~lit
++ via lito
+- vian liton
+- viajn litojn
+
+[LINE]
+Speaker508: Ne, ili ne estas sub la lito!
+~           non ils/elles pas être~(présent) sous la/le/les lit 
+
+[LINE]
+Speaker509: Ĉu en via ŝuo?
+~            est-ce~que dans ta/ton/votre chaussure
+
+[LINE]
+Speaker508: Ne, tio strangus.
+~           non cela être~étrange~(conditionnel) 
+
+[LINE]
+Speaker508: Mi ne trovas miajn ŝlosilojn. Ĉu taksie ni iru al la restoracio?
+~           je pas trouver~(présent) mes clés est-ce~que en~taxi nous aller~(impératif) à,~vers la/le/les restaurant
+
+[LINE]
+Speaker509: Ne, tro malfruas.
+~           non tro être~tard~(présent)
+
+[LINE]
+Speaker508: Mi pardonpetas.
+~           je demander~pardon~(présent)
+
+[POINT_TO_PHRASE]
+> Clique sur le mot qui signifie "quelque chose"
+Speaker509: (Enordas), (mi) (povas) (kuiri) (+ion) (por) (vespermanĝi).
+~            être~en~ordre~(présent) je pouvoir~(présent) cuisiner quelque~chose pour manger~le~repas~du~soir   
+
+[LINE]
+> Lucia malfermas la pordon de la fridujo.
+~ Lucie ouvrir~(présent) la/le/les porte de la/le/les réfrigérateur
+
+[LINE]
+Speaker509: Lina, jen viaj ŝlosiloj!
+~            Lina voilà tes/vos clés 
+
+[MULTIPLE_CHOICE]
+> Les clés étaient dans…
+- …le four.
++ …le réfrigérateur.
+- …la voiture.
+
+[MATCH]
+> Relie les mots correspondants
+- fridujo <> réfrigérateur
+- ŝuo <> chaussure
+- malfrui <> être en retard
+- malfermi <> ouvrir
+- trovi <> trouver
+

@@ -1,0 +1,107 @@
+[DATA]
+fromLanguageName=Lily's Clothes
+icon=a9d84d4e299c60bdb37d50cc28d74b53af395ac1
+set=5|4
+
+[HEADER]
+> La~vestes~de~Lily
+~ Lily's~clothes 
+$6051/42261a62.mp3;2,50;7,225;3,487;5,138
+
+[LINE]
+> Zari es en la~casa~de~Lily. El regarda     la~vestes~de~Lily.
+~ Zari is   at Lily's~house  she  looks~at Lily's~clothes  
+$6051/45a1d064.mp3;4,50;3,462;3,163;3,75;5,112;3,375;5,100;3,1325;8,225;3,513;7,87;3,475;5,138
+
+[MULTIPLE_CHOICE]
+> Zari is looking at Lily's homework.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker418: Tu ave multe    vestes~purpur.  
+~           you have   a~lot~of purple~clothes 
+$6051/48c7ed0a.mp3;2,6;4,244;6,287;7,449;7,632
+
+[LINE]
+Speaker416: Purpur es mea color~favoreda.
+~           purple    is my favorite~color 
+$6051/5bb22784.mp3;6,77;3,640;4,272;6,407;9,485
+
+[MULTIPLE_CHOICE]
+> What is Lily's favorite color?
+- red
++ purple
+- brown
+
+[LINE]
+Speaker418: Tu nesesa sinco camisas~purpur?
+~            you need  five  purple~shirts   
+$6051/4ed1fb5a.mp3;2,6;7,190;6,589;8,500;7,566
+
+[LINE]
+Speaker416: Si,  e sinco jacones~purpur.
+~           yes  and five  purple~coats    
+$6051/508a1b26.mp3;2,77;2,970;6,272;8,601;7,834
+
+[ARRANGE]
+> Tap what you hear
+Speaker418:   [(E)  (cuatro) (xapos~purpur)?]
+~              and   four     purple~hats         
+$6051/840dd628.mp3;1,6;7,140;7,511;7,635
+
+[LINE]
+Speaker416: Si, me nesesa mea xapos.
+~           yes  I  need   my  hats      
+$6051/8c676e06.mp3;2,77;3,912;7,233;4,717;7,311
+
+[POINT_TO_PHRASE]
+> Choose the option that means "something."
+Speaker418: (Me~ave)  (+alga~cosa)      (per) (tu)
+~            I~have    something   for    you  
+$6051/5c19c716.mp3;2,6;4,226;5,361;5,356;4,465;3,257
+
+[LINE]
+> Zari ave un~oculo~de~sol~roja. 
+~ Zari has   a~pair~of~red~sunglasses 
+$6051/1bc41a94.mp3;4,50;4,387;3,163;6,150;3,337;4,150;5,188
+
+[LINE]
+Speaker418: Los es      per tu. Los es     de   mea boteca~favoreda.
+~           they are for  you  they are from my favorite~store  
+$6051/2c99878c.mp3;3,6;3,415;4,182;3,236;4,807;3,405;3,263;4,174;7,278;9,604
+
+[MULTIPLE_CHOICE]
+> Zari gives Lily a pair of red sunglasses…
+- …that she designed.
+- …that she found in the trash.
++ …from her favorite store.
+
+[LINE]
+Speaker416: A… Grasias.  
+~           eh  thank~you 
+$6051/676c818a.mp3;2,77;8,1157
+
+[LINE]
+Speaker418: La  color roja es perfeta per tu. 
+~           the color red  is perfect  for  you 
+$6051/c052f802.mp3;2,6;6,209;6,406;3,487;8,204;4,647;3,246
+
+[LINE]
+Speaker416: E, la  boteca ave oculos~de~sol~purpur?
+~            and the store  has   purple~sunglasses    
+$6051/6f1de45a.mp3;1,77;3,718;7,271;4,660;7,291;3,679;4,194;7,310
+
+[MULTIPLE_CHOICE]
+> Lily likes the sunglasses but…
++ …she'd prefer them in purple.
+- …they're way too purple.
+- …they're too expensive.
+
+[MATCH]
+> Tap the pairs
+- ave <> have
+- purpur <> purple
+- la vestes de Lily <> Lily's clothes
+- camisas purpur <> purple shirts
+- de <> from

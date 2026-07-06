@@ -1,141 +1,166 @@
 [DATA]
-fromLanguageName=A Date
+fromLanguageName=Um Encontro
 icon=df24f7756b139f6eda927eb776621b9febe1a3f1
-set=1|2
+set=1|4
 
 [HEADER]
-> Una cita
-~ a   date
+> Iusuantisaua
+~ um~encontro
+$5017/55548a72.mp3;12,50
 
 [LINE]
-> Bea está en una cita en un restaurante.
-~ Bea is   on a   date in a  restaurant  
+> Bea iusuantisaua~upé ukakaru upé.
+~ Bea está~em~um~encontro  um~restaurante em  
+$5017/535a4ea0.mp3;3,50;13,300;4,850;8,312;4,513
 
 [LINE]
-Speaker507: ¡Hola!  ¿Cómo~estás? 
-~            hello   how~are~you 
+Speaker507:  Anaûê!  Maié~taá~indé~resasá? 
+~            olá    como~você~está
+$5017/510ec90a.mp3;5,50;5,1512;4,338;5,300;7,262
 
 [LINE]
-Speaker100: ¡Bien!
-~            fine 
+Speaker100:  Puranga!
+~            bem 
+$5017/4f0f16be.mp3;7,50
 
 [LINE]
-Speaker100: ¿Qué  quieres     comer? 
-~            what do~you~want to~eat 
+Speaker100: Maã reputari rekaru arama? 
+~           o~que você~quer comer para 
+$5017/4cc15188.mp3;3,50;9,400;7,612;6,488
 
 [LINE]
-Speaker507: Una ensalada.
-~           a   salad    
+Speaker507: Salada.
+~           uma~salada    
+$5017/4a13158e.mp3;6,50
 
 [SELECT_PHRASE]
-> Select the missing phrase
-Speaker507: Hoy   tengo  [un~partido~importante].
-~           today I~have  an~important~game      
-+ un partido importante
-- un batido importante
-- una parte imponente
+> Selecione a frase que está faltando
+Speaker507: Uye   areku  [jogo~importante].
+~           hoje eu~tenho  um~jogo~importante  
+$5017/4746ff46.mp3;3,50;6,325;5,412;11,388
+
++ jogo importante
+- yapusáka turusu
+- pisauera imponente
 
 [LINE]
-Speaker100: Ah, ¿te~gustan   los~deportes?
-~           oh   do~you~like (the)~sports 
+Speaker100: Mã, regustari   esporte?
+~           oh   você~gosta de~esportes 
+$5017/3e456c16.mp3;2,50;10,612;8,600
 
 [LINE]
-Speaker507: Sí,  yo juego~al fútbol.
-~           yes  I  play     soccer 
+Speaker507: Eẽ, anhembosarái futebol.
+~           sim  eu~jogo     futebol 
+$5017/3d287cce.mp3;2,50;13,412;8,788
 
 [MULTIPLE_CHOICE]
-> Bea is ordering a salad because…
-+ …she is playing soccer today.
-- …her date said the salad is delicious.
-- …she just ate a whole pizza.
+> Bea está pedindo salada porquê…
++ …ela vai jogar futebol hoje.
+- …seu "namorado" acha salada deliciosa.
+- …ela já comeu uma pizza inteira.
 
 [LINE]
-Speaker100: ¡Yo~también!
-~            me~too     
+Speaker100: Ixé iûiri!
+~            eu também     
+$5017/3abb7266.mp3;3,50;6,437
 
 [LINE]
-Speaker507: ¡Súper!
-~            great 
+Speaker507: Puranga!
+~            legal
+$5017/38aab11c.mp3;7,50
 
 [LINE]
-Speaker507: ¿De~dónde~eres?     
-~            where~are~you~from 
+Speaker507:  Masuí taá indé?     
+~            de~onde partícula~interrogativa você~é? 
+$5017/372b9f40.mp3;5,50;4,537;5,288
 
 [LINE]
-Speaker100: Soy  americano.
-~           I~am American  
+Speaker100: Ixé americaûara.
+~           Sou americano  
+$5017/35b61eba.mp3;3,50;12,462
 
 [ARRANGE]
-> Tap what you hear
-Speaker100: [(Mi~padre)  (es~de~Cuba)   (y)   (mi~madre)  (es~de~México).]  
-~             my~father   is~from~Cuba   and   my~mother   is~from~Mexico   
+> Toque no que você ouve
+Speaker100: [(Se paya)  (Cuba suí) (se manha)  (México suí).]  
+~             meu pai   Cuba é~de   minha mãe   México é~de  
+$5017/349c09f4.mp3;2,50;5,250;5,375;4,312;3,375;6,175;7,300;4,475
 
 [LINE]
-Speaker507: ¡Me~encanta Cuba!
-~            I~love     Cuba 
+Speaker507: Asaisú Cuba!
+~            Eu~amo     Cuba 
+$5017/318d34cc.mp3;6,50;5,562
 
 [LINE]
-Speaker100: Cuba es muy  bonita.   
-~           Cuba is very beautiful 
+Speaker100: Cuba reté puranga.   
+~           Cuba é~muito bonita 
+$5017/30f4377c.mp3;4,50;5,387;8,400
 
 [LINE]
-Speaker507: ¿Tienes      mascotas?
-~            do~you~have pets     
+Speaker507: Rereku    mimba?
+~            você~tem animais~de~estimação    
+$5017/306a2348.mp3;6,50;6,500
 
 [LINE]
-Speaker100: Tengo  dos gatos y   un perro.
-~           I~have two cats  and a  dog   
+Speaker100: Areku mukũi pixana, oiapé iuara.
+~           eu~tenho dois gatos um cachorro   
+$5017/2fb3cb48.mp3;5,50;6,437;7,325;6,825;6,525
 
 [POINT_TO_PHRASE]
-> Choose the option that means "also."
-Speaker507: Yo (+también) (tengo) un (perro), (José).
-~           I    also      have   a   dog      José  
+> Escolha a opção que significa "também."
+Speaker507: Ixé (+iûiri) (areko) oiapé (iuara), (José).
+~           Eu    também     tenho   um   cachorro      José  
+$5017/2ec23486.mp3;3,50;6,350;6,350;6,425;6,412;5,700
 
 [LINE]
-Speaker100: ¿Eh? Yo~me~llamo Daniel…
-~            eh  my~name~is  Daniel 
+Speaker100: Eh? Sé~rerá Daniel…
+~            eh  meu~nome~é  Daniel 
+$5017/2d376c6c.mp3;2,50;3,1125;5,362;7,388
 
 [LINE]
-Speaker100: ¿Tú~no~eres Gabriela?
-~            aren't~you Gabriela 
+Speaker100: Indé niti Gabriela?
+~            você não~é Gabriela 
+$5017/2cd304f2.mp3;4,50;5,437;9,375
 
 [LINE]
-Speaker507: ¡No!
+Speaker507: Niti!
 ~            no 
+$5017/2bee1b44.mp3;4,50
 
 [LINE]
-Speaker507: ¡Yo~me~llamo Bea!
-~            my~name~is  Bea 
+Speaker507:  Se~rerá Bea!
+~            meu~nome~é  Bea 
+$5017/2a0b0e40.mp3;2,50;5,287;4,288
 
 [MULTIPLE_CHOICE]
-> Did you catch that? Bea and Daniel…
-- …bought tickets to Cuba.
-+ …were supposed to meet different people.
-- …are walking their dogs.
+> Você entendeu bem? Bea e Daniel…
+- …compraram passagens para Cuba.
++ …deveriam conhecer pessoas diferentes.
+- …estão passeando com seus cachorros.
 
 [LINE]
-> Una mujer camina hacia   Daniel.
-~ a   woman walks  towards Daniel 
+> Oiapé kunhã uûata kiti   Daniel.
+~ uma   mulher caminha até Daniel 
 
 [LINE]
-Speaker101: ¡Hola!  ¿Eres    Daniel? Soy  Gabriela.
-~            hello   are~you Daniel  I~am Gabriela 
+Speaker101:  Anaûê!  Indé    Daniel? Ixé  Gabriela.
+~            olá   você~é Daniel  Eu~sou Gabriela 
+$5017/26f5c65a.mp3;5,50;5,1450;7,300;4,1462;9,338
 
 [LINE]
-Speaker100: No, lo~siento. Soy  José.
-~           no  I'm~sorry  I~am José 
+Speaker100: Niti, ixé asaã reté. Ixé  José.
+~           não  sinto~muito  sou José 
+$5017/263c694e.mp3;4,50;4,812;5,375;5,438;4,1312;5,463
 
 [MULTIPLE_CHOICE]
-> Whoa! What just happened?
-- Bea changed her name to Gabriela.
-+ Daniel lied to his real date because he likes Bea.
-- Bea and Daniel's dogs played soccer.
+> Whow! O que acabou de acontecer?
+- Bea mudou seu nome para Gabriela.
++ Daniel mentiu para sua real "namorada" porque gostou de Bea.
+- Os cachorros de Bea e Daniel jogaram futebol.
 
 [MATCH]
 > Tap the pairs
-- y <> and
-- Soy <> I am
-- ensalada <> salad
-- Me encanta <> I love
+- Ixé <> eu sou
+- salada <> salada
+- asaisú <> eu amo
 - Eh <> eh
 

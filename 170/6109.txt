@@ -1,0 +1,108 @@
+[DATA]
+fromLanguageName=Lily's Clothes
+icon=a9d84d4e299c60bdb37d50cc28d74b53af395ac1
+set=5|4
+
+[HEADER]
+> Pakaian~Lili
+~ Lili's~Clothes 
+$6109/6a9c812e.mp3;7,0;5,500
+
+[LINE]
+> Zari sedang di rumah~Lili.  Dia sedang~melihat-lihat pakaian~Lili.
+~ ~    is     at Lili's~house she is~looking~around~at Lili's~clothes  
+$6109/6bdb89ae.mp3;4,0;7,370;3,344;6,110;5,270;20,403;-15,350;7,300;14,314;8,719;5,445
+
+[MULTIPLE_CHOICE]
+> Zari is looking at Lili's homework.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker418: Wow! Baju~ungumu~banyak~banget.   
+~           wow  you~have~so~many~purple~clothes 
+$6109/5a2505c0.mp3;3,0;6,459;7,590;7,503;7,386
+
+[LINE]
+Speaker416: Memang. Warna~kesukaanku       ungu.
+~           indeed  my~favorite~color~(is) purple 
+$6109/8c0416ce.mp3;6,0;7,504;11,575;5,884
+
+[MULTIPLE_CHOICE]
+> What is Lili's favorite color?
+- red
++ purple
+- brown
+
+[LINE]
+Speaker418: Lima kaus ini ungu~semua?
+~           five T-shirts these all~purple  
+$6109/785975b0.mp3;4,0;5,344;4,322;5,230;6,235
+
+[LINE]
+Speaker416: Iya. Mantelku~juga~ada~lima. Ungu~semua.
+~           yes  I~also~have~five~coats  all~is~purple   
+$6109/eec387c8.mp3;3,0;10,414;5,770;4,307;5,220;6,406;6,560
+
+[ARRANGE]
+> Tap what you hear
+Speaker418: [(Kamu) (punya) (empat) (topi)~(ungu) (juga)?]
+~            you    have    four     purple~hats  too        
+$6109/94a2373e.mp3;4,0;6,375;6,311;5,290;5,286;5,245
+
+[LINE]
+Speaker416: Ya, aku butuh topi-topi~itu.
+~           yes I   need  those~hats     
+$6109/82cfe448.mp3;18,0;-16,0;5,310;6,704;10,351;4,625
+
+[POINT_TO_PHRASE]
+> Choose the option that means "something".
+Speaker418: Ngomong-ngomong,  (aku) (punya)   (+sesuatu) (buat) (kamu). 
+~           anyway/by~the~way I      have~got something   for     you  
+$6109/e91a25b2.mp3;7,0;8,0;5,883;6,588;8,260;5,596;5,264
+
+[LINE]
+> Zari mengeluarkan sebuah      kacamata~merah dari tasnya. 
+~ ~    takes~out    a~(pair~of) red~sunglasses from her~bag
+$6109/a4f27270.mp3;64,0;-60,0;13,375;7,668;9,385;6,570;9,395;6,405;5,365;9,250
+
+[LINE]
+Speaker418: Ini     buat kamu. Aku beli      dari toko~kesukaanku.
+~           this~is for  you   I   bought~it from my~favorite~store
+$6109/b17fd3c8.mp3;3,0;5,364;5,275;29,580;-24,200;5,295;5,337;5,245;12,357
+
+[MULTIPLE_CHOICE]
+> Zari gives Lili a pair of red sunglasses…
+- …that she designed.
+- …that she found in the trash.
++ …from her favorite store.
+
+[LINE]
+Speaker416: Eh... makasih.  
+~           ~     thanks 
+$6109/374dffc8.mp3;2,0;11,340
+
+[LINE]
+Speaker418: Tuh~kan? Warna~merah cocok~banget. 
+~           see?     red         suits~you~well 
+$6109/87c12d54.mp3;3,0;4,264;7,390;6,576;6,469;7,400
+
+[LINE]
+Speaker416: Toko~itu        jual kacamata~yang~warna~ungu enggak ya?
+~           does~that~store sell purple~sunglasses        or~not (particle~to~indicate~doubt) 
+$6109/b62c4a72.mp3;4,0;4,275;5,269;9,283;5,578;6,160;5,291;7,225;3,322
+
+[MULTIPLE_CHOICE]
+> Lili likes the sunglasses but…
++ …she'd prefer them in purple.
+- …they're way too purple.
+- …they're too expensive.
+
+[MATCH]
+> Tap the pairs
+- punya <> have
+- ungu  <> purple
+- warna <> color
+- kaus  <> T-shirt
+- dari  <> from
+

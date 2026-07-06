@@ -1,0 +1,129 @@
+[DATA]
+fromLanguageName=Lucy and the Dinosaurs
+icon=f6ce899637bb8181ee5e78382fdf71a0f01e4f95
+set=11|3
+
+[HEADER]
+> ルーシー|とぅ{トゥ} 恐竜{きょーるー}
+~ Lucy and dinosaur~{きょーるー} 
+$8410/ce28aaab.mp3;4,50;0,463;NaN,137;NaN,300
+
+[LINE]
+> ルーシー|や アパート|ぬ 回し屋戸{まあしヤドゥ} 開きーん{あきーん}。
+~ Lucy is apartment 's  (western~style)~door~{まーしやどぅ}  to~open~{あきーん}     
+$8410/bc4f315f.mp3;4,50;2,488;5,150;2,500;NaN,175;NaN,312;NaN,200;NaN,325;NaN,163
+
+[LINE]
+Speaker509: はいたい、  ジュニア!
+~            hello~{feminine}  Junior 
+$8410/d4c6f698.mp3;6,6;5,377;NaN,512
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: はいさい!  [宿題 手適{ティがねー}]|しくぃーみ?    
+~            hello~{masculine}  homework~{しゅくだい} help~{てぃがねー} can~you~please
+$8410/102012e2.mp3;4,50;1,750;4,863;NaN,600;NaN,125;NaN,162;NaN,300;NaN,288;1,262
++ 宿題 手適しくぃーみ
+- 宿題 手適しくぃーん
+- 宿題 手適しくぃーが
+
+[LINE]
+Speaker415: ぬーがな 書かん|だれーならん.
+~           something (I~must)~write~{かかん} (or~else) 
+$8410/55e97695.mp3;2,50;1,275;1,150;4,213;4,412;2,350;1,313;0,137
+
+[LINE]
+Speaker509: あー、 うー! 
+~            oh  yes 
+$8410/8a8efdb4.mp3;6,6;NaN,635
+
+[LINE]
+Speaker509: 書ちゅしぇー{カチュしぇー}|上手{じょーじ}。 我ー{わー} ブロゴー 流行いん{ふぇーいん}。 
+~           writing~{かちゅしぇー} (I~am)~good~at~{じょーじ} my~{わー} blog~is popular/thriving/flourishing~{ふぇーいん}
+# 我ー{わー} ブロゴー 音聞ゅん{うとぅ(っ)うちゅん} is also acceptable. Literally: My blog has a high reputation (and famous)
+# 流行いん{ふぇーいん} can also be written as 流行ん{ふぇーいん}. I write it like the former for verb conjugation purposes.
+$8410/3a8f1663.mp3;6,6;12,626;5,898;NaN,248;NaN,476
+
+[ARRANGE]
+> Tap what you hear
+Speaker509: [(我ー{わー}) (ブログ) (読むみ{ゆむみ})]?
+~              my~{わー} blog do~(you)~read~{ゆむみ} 
+$8410/8ab94694.mp3;4,6;2,217;NaN,359
+
+[LINE]
+Speaker415: うぅーうぅー{ウゥーウゥー}。
+~           no 
+$8410/60e03399.mp3;NaN,50;NaN,1088
+
+[LINE]
+Speaker509: 我ー{わー} 家{やー}|んかい うふぉーく|ぬ 本{すむち}|ぬ あん。
+~           my~{わー} home~{やー} in/at many (of) books~{すむち} is (exists) 
+$8410/40deecf8.mp3;2,6;10,399;4,566;0,125;0,226;1,68;6,54;0,371;NaN,102;NaN,738;NaN,144
+
+[LINE]
+Speaker509: 我ー{わー} 本{すむち}|ぬ 要りゆー{いりゆー}|やみ?    
+~           my~{わー} book(s)~{すむち} is need(ed)~{いりゆー} is~it
+$8410/9963f817.mp3;2,6;4,351;2,531;NaN,370;NaN,463
+
+[CONTINUATION]
+> What's next?
+Speaker415: うぅーうぅー、   [うんじゅ|が 本ー{すむチェー}] 要りゆー{いりゆー}|ねーん|どー。
+~           no  you~(formal) 's   book(s)~is/are~{すむちぇー} need(ed)~{いりゆー} not ok?
+$8410/7ad6f20b.mp3;1,50;2,175;1,200;2,100;1,325;7,238;2,375;NaN,150;NaN,325;NaN,350;NaN,300;NaN,225;NaN,262;3,113;0,300
+- 一杯{いっぺー}
+~ very~{いっぺー}      
++ うんじゅ|が 本ー
+~ you~(formal) 's   book(s)~{すむち}
+- あり|が アパート
+~ he/she 's apartment 
+
+[LINE]
+Speaker509: ぬー|ぬ 宿題{しゅくだいやが?}|やが{}?      
+~            what~(informal) (kind~of) homework~{しゅくだい} is~it 
+$8410/dfbe664a.mp3;4,6;0,272;5,92
+
+[LINE]
+Speaker415: 恐竜{きょーるう}。
+~           dinosaur(s)~{きょーるー}       
+$8410/fa7100ba.mp3;NaN,50;NaN,413;NaN,387
+
+[MULTIPLE_CHOICE]
+> What is Junior's homework about?
++ dinosaurs
+- social media
+- Spanish literature
+
+[LINE]
+Speaker509: あんしぇ、 ぬーんち 手適{!てぃがねーぬ,}|ぬ{} うぅが?
+~            then why     help~{てぃがねー} is needed?  
+$8410/0c0550db.mp3;6,6;4,231;0,568;0,366;0,180;9,655;NaN,994;NaN,267
+
+[LINE]
+Speaker415: 一杯{いっぺー} 年寄い{トゥすい}|や事{やくトゥ}。
+~           very old/elderly~{とぅすい} because~{やくとぅ}   
+$8410/dd996f29.mp3;NaN,50;NaN,500;NaN,175;NaN,300;NaN,288;NaN,300
+
+[LINE]
+Speaker415: うふぉーく|ぬ 恐竜{きょーるー}|とぅ 同士{ドゥし}|やんどー|やー?   
+~           many (of) dinosaurs with~{きょーるー} friends~{どぅし}  (you~are)    right 
+$8410/4a62f34e.mp3;1,50;3,150;1,313;2,162;NaN,163;NaN,325;NaN,250;NaN,112;NaN,125;NaN,138;NaN,237;NaN,275;3,175
+
+[LINE]
+Speaker509: んじちゃーびら、 ジュニア。
+~           bye    Junior 
+$8410/8ff3fdb6.mp3;3,8;3,64;7,150;0,267;NaN,566
+
+[MULTIPLE_CHOICE]
+> Why did Junior think Lucy knew about dinosaurs?
++ She is older than him.
+- She used to have a dinosaur as a pet.
+- She writes a blog about dinosaurs.
+
+[MATCH]
+> Tap the pairs
+- 一杯 {いっぺー} <> very
+- んじちゃーびら <> bye
+- ルーシー <> Lucy
+- うふぉーく <> many
+- 年寄い{とぅすい} <> elderly
+

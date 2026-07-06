@@ -1,0 +1,121 @@
+[DATA]
+fromLanguageName=The Seat Is Yours!
+icon=cd2e97ba5e87d05c1e69dd805c067ece32ea89d5
+set=21|2
+
+[HEADER]
+> 这个|座位|是|你的！
+~ this seat is yours
+$8399/efd74974.mp3;2,50;3,300;2,588;2,212;1,188;0,250
+
+[LINE]
+> 奥斯卡|和|艾迪|在坐|公交车。
+~ Oscar and Eddy are~taking the~bus
+$8399/c450d44f.mp3;3,50;2,838;3,187;2,625;1,200;4,175;0,713
+
+[LINE]
+Speaker414: 我|好累啊。
+~           I'm so~tired   
+$8399/4517a012.mp3;1,78;2,271;1,272;1,252;0,640
+
+[LINE]
+Speaker592: 我|也是。
+~           me too     
+$8399/0947e626.mp3;1,50;3,238;0,462
+
+[LINE]
+Speaker592: 哦，|只|剩下|一个|座位|了。
+~           oh only remaining one seat (particle) 
+$8399/1b5586d0.mp3;1,50;1,600;2,175;3,225;3,363;3,250;2,500;0,200
+
+[LINE]
+Speaker414: 让给你吧，|你|年龄大。
+~           (I'll)~leave~it~for~you you're older~(in~age)
+$8399/3b71137d.mp3;2,78;1,523;1,194;1,737;2,505;3,291;1,427;0,446
+
+[MULTIPLE_CHOICE]
+> Eddy tells Oscar to take the last bus seat.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker592: 啥？|我|只|比你大|三岁|而已。
+~           what I'm only older~than~you~(by) three~years that's~all
+$8399/36e50279.mp3;1,50;1,450;2,550;2,175;2,188;1,125;1,125;3,212;3,463;0,350
+
+[POINT_TO_PHRASE]
+> Choose the option that means "gray hair."
+Speaker414: (对)，|(但是)|你|(长着)|(+白头发)。  
+~           yes but you have gray~hair
+$8399/367e96bd.mp3;1,78;1,873;3,504;2,407;2,155;1,214;2,136;2,213;0,679
+
+[LINE]
+Speaker592: 艾迪，|你|也|长着|白头发！
+~           Eddy you also have gray~hair
+$8399/a0e216d9.mp3;2,50;1,600;2,175;2,100;2,138;1,237;2,150;2,225;0,450
+
+[LINE]
+Speaker414: 啊？|哪里啊？
+~           (expressing~disbelief) where
+$8399/0fdde371.mp3;1,78;1,834;3,873;1,601;0,621
+
+[CONTINUATION]
+> What comes next?
+Speaker592: 艾迪，|这个|座位|是|你的。|你|[真的|很累。]
+~           Eddy this seat is yours you're really tired  
+$8399/6ee8a8cd.mp3;2,50;1,588;3,162;3,288;2,575;2,225;1,225;1,225;3,550
++ 真的|很累
+~ very tired  
+- 坐在|我的|座位
+~ sitting~in my seat   
+- 带着|很多|白头发  
+~ with a~lot~of gray~hair
+
+[LINE]
+Speaker414: 不是，|我|有|很多|力气|的！
+~           no I have a~lot~of energy (particle)
+$8399/56bdcda8.mp3;2,78;1,795;2,407;2,175;3,155;3,369;2,349;0,330
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: 我|[每天|都去|跑步。]
+~           I every~day go running
+$8399/cfbb56c4.mp3;1,78;3,310;2,407;1,156;3,155;0,717
+- 没天都去跑步
++ 每天都去跑步
+- 每天不去跑步
+
+[LINE]
+Speaker592: 看吧！|你|之所以|累|是因为|你|每天|都去|跑步！|座位|给你了。
+~           see you're the~reason~why tired is~because you every~day go running the~seat is~yours
+$8399/c5b61241.mp3;1,50;1,313;1,287;2,563;4,250;2,487;2,338;2,175;2,550;3,137;2,463;1,137;3,150;1,438;3,562;2,588;1,225;1,175;0,250
+
+[LINE]
+Speaker414: 哎呀，|奥斯卡！|给你了！
+~           (expressing~disappointment) Oscar it's~yours
+$8399/1ca55b2b.mp3;2,78;1,1047;4,213;1,1067;2,873;1,330;1,213;0,447
+
+[LINE]
+> 这时候，|有一个男孩|上车。
+~ at~this~time a~boy gets~on~the~bus
+$8399/6decf8fc.mp3;3,50;1,738;2,137;2,188;2,225;3,362;0,525
+
+[LINE]
+Speaker1649: 哇，|太好了！|还有|个|空|座位！
+~            wow excellent there's~still an empty seat
+$8399/58cfb0ad.mp3;1,50;1,338;2,175;1,225;1,212;1,225;3,550;2,325;2,113;3,225;0,487
+
+[MULTIPLE_CHOICE]
+> Why didn't Eddy or Oscar take the seat? 
+- They wanted the boy to have it.
++ They were both too stubborn to sit down.
+- It was too dirty.
+
+[MATCH]
+> Tap the pairs
+- 年龄大 <> older (in age)
+- 白头发 <> gray hair
+- 公交车 <> bus
+- 座位 <> seat
+- 哪里 <> where
+

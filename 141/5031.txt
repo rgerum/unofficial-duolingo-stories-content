@@ -1,7 +1,7 @@
 [DATA]
 fromLanguageName=A Date
 icon=df24f7756b139f6eda927eb776621b9febe1a3f1
-set=1|2
+set=1|3
 
 [HEADER]
 > Tuir
@@ -14,9 +14,9 @@ $5031/35fab5e2.mp3;4,50
 $5031/85ccd032.mp3;3,50;4,312;5,238;4,187;11,200
 
 [LINE]
-Speaker507:  Ola! Di'ak~lae? 
+Speaker507:  Ola! Di'ak~ka~lae? 
 ~            hello   how~are~you 
-$5031/97fc067a.mp3;3,50;6,1387;4,463
+$5031/b25e76a0.mp3;3,50;6,1387;3,425;4,263
 
 [LINE]
 Speaker100:  Di'ak!
@@ -36,18 +36,21 @@ $5031/30e7d440.mp3;6,50
 [SELECT_PHRASE]
 > Select the missing phrase
 Speaker507: Ohin ha'u iha [jogu~importante].
-~           today I have  an~important~game  
+~           today I have  an~important~game 
+$5031/9b16e7b8.mp3;4,50;5,350;4,300;5,337;11,375
 + jogu importante
-- un batido importante
+- doko importante
 - parte kmanek
 
 [LINE]
-Speaker100: Ah, ¿te~gustan   los~deportes?
-~           oh   do~you~like (the)~sports 
+Speaker100: Ah, ita gosta desportu?
+~           oh   do~you like (the)~sports 
+$5031/a7557896.mp3;2,50;4,425;6,250;9,287
 
 [LINE]
-Speaker507: Sí,  yo juego~al fútbol.
+Speaker507: Sin,  ha'u joga futeból.
 ~           yes  I  play     soccer 
+$5031/c8a4526a.mp3;3,50;5,687;5,338;8,450
 
 [MULTIPLE_CHOICE]
 > Bea is ordering a salad because…
@@ -56,62 +59,76 @@ Speaker507: Sí,  yo juego~al fútbol.
 - …she just ate a whole pizza.
 
 [LINE]
-Speaker100: ¡Yo~también!
+Speaker100: Ha'u mós!
 ~            me~too     
+$5031/de4acaae.mp3;4,50;4,237
 
 [LINE]
-Speaker507: ¡Súper!
+Speaker507: Kapás!
 ~            great 
+$5031/10ff226a.mp3;5,50
 
 [LINE]
-Speaker507: ¿De~dónde~eres?     
+Speaker507: Ne'ebé~ita~mai~hosi?     
 ~            where~are~you~from 
+$5031/3eddfa76.mp3;6,50;4,387;4,313;5,237
 
 [LINE]
-Speaker100: Soy  americano.
+Speaker100: Ha'u ema~Amerika.
 ~           I~am American  
+$5031/57944cb4.mp3;4,50;4,312;8,213
 
 [ARRANGE]
 > Tap what you hear
-Speaker100: [(Mi~padre)  (es~de~Cuba)   (y)   (mi~madre)  (es~de~México).]  
-~             my~father   is~from~Cuba   and   my~mother   is~from~Mexico   
+Speaker100: [(Aman ha'u-nia)  (mai~hosi~Kuba)   (no)   (inan ha'u-nia)  (mai~hosi~Méksiko).]  
+~             the~father  of~mine is~from~Cuba   and   the~mother of~mine  is~from~Mexico   
+$5031/2c2dd9bc.mp3;4,50;9,350;4,400;5,175;5,300;3,237;5,175;9,288;4,450;5,187;8,313
 
 [LINE]
-Speaker507: ¡Me~encanta Cuba!
-~            I~love     Cuba 
+Speaker507: Ha'u hadomi Kuba!
+~            I love     Cuba 
+$5031/fd49fca8.mp3;4,50;7,337;5,413
 
 [LINE]
-Speaker100: Cuba es muy  bonita.   
-~           Cuba is very beautiful 
+Speaker100: Kuba tebetebes furak.   
+~           Cuba~is very beautiful 
+$5031/1b75e69c.mp3;4,50;10,312;6,488
 
 [LINE]
-Speaker507: ¿Tienes      mascotas?
-~            do~you~have pets     
+Speaker507: Ita iha animál~maus?
+~            do~you have pets     
+$5031/4e40224a.mp3;3,50;4,287;7,275;5,450
 
 [LINE]
-Speaker100: Tengo  dos gatos y   un perro.
-~           I~have two cats  and a  dog   
+Speaker100: Ha'u iha rua busa ho ida asu.
+~           I have two cats  and a  dog   
+$5031/76a85496.mp3;4,50;4,275;4,212;5,188;3,237;4,113;4,237
 
 [POINT_TO_PHRASE]
 > Choose the option that means "also."
-Speaker507: Yo (+también) (tengo) un (perro), (José).
+Speaker507: Ha'u (+mós) (iha) ida (asu), (José).
 ~           I    also      have   a   dog      José  
+$5031/91c00e54.mp3;4,50;4,337;4,300;4,313;4,325;5,750
 
 [LINE]
-Speaker100: ¿Eh? Yo~me~llamo Daniel…
+Speaker100:  Eh? Nama~ha'u-nia Daniel…
 ~            eh  my~name~is  Daniel 
+$5031/04f2b552.mp3;2,50;5,1212;5,325;4,213;7,225
 
 [LINE]
-Speaker100: ¿Tú~no~eres Gabriela?
-~            aren't~you Gabriela 
+Speaker100: Ita lae Gabriela?
+~           you aren't Gabriela 
+$5031/46bb1ce0.mp3;3,50;4,262;9,188
 
 [LINE]
-Speaker507: ¡No!
+Speaker507: Lae!
 ~            no 
+$5031/4d9dd408.mp3;3,50
 
 [LINE]
-Speaker507: ¡Yo~me~llamo Bea!
+Speaker507: Nama~ha'u-nia Bea!
 ~            my~name~is  Bea 
+$5031/62eda180.mp3;4,50;9,300;4,487
 
 [MULTIPLE_CHOICE]
 > Did you catch that? Bea and Daniel…
@@ -120,16 +137,19 @@ Speaker507: ¡Yo~me~llamo Bea!
 - …are walking their dogs.
 
 [LINE]
-> Una mujer camina hacia   Daniel.
+> Ida feto la'o hasoru   Daniel.
 ~ a   woman walks  towards Daniel 
+$5031/9ac3fe4c.mp3;3,50;5,262;5,288;7,175;7,412
 
 [LINE]
-Speaker101: ¡Hola!  ¿Eres    Daniel? Soy  Gabriela.
+Speaker101: Ola!  Ita    Daniel? Ha'u  Gabriela.
 ~            hello   are~you Daniel  I~am Gabriela 
+$5031/a9fc49dc.mp3;3,50;4,1387;7,300;5,1438;9,412
 
 [LINE]
-Speaker100: No, lo~siento. Soy  José.
+Speaker100: Lae, deskulpa. Ha'u  José.
 ~           no  I'm~sorry  I~am José 
+$5031/c57da912.mp3;3,50;9,725;5,1550;5,312
 
 [MULTIPLE_CHOICE]
 > Whoa! What just happened?
@@ -139,9 +159,9 @@ Speaker100: No, lo~siento. Soy  José.
 
 [MATCH]
 > Tap the pairs
-- y <> and
-- Soy <> I am
-- ensalada <> salad
-- Me encanta <> I love
+- ho/no <> and
+- ha'u <> I am
+- salada <> salad
+- ha'u hadomi <> I love
 - Eh <> eh
 

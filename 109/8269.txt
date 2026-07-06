@@ -1,0 +1,106 @@
+[DATA]
+fromLanguageName=Lucie et les dinosaures.
+icon=f6ce899637bb8181ee5e78382fdf71a0f01e4f95
+set=11|3
+
+[HEADER]
+> Lucia kaj dinosaŭroj
+~ Lucie et dinosaures
+
+[LINE]
+> Lucia malfermas la pordon de sia apartamento.
+~ Lucie ouvrir~(présent) la/le/les porte de sa/son appartement       
+
+[LINE]
+Speaker509: Saluton, Ĝunjoro!
+~            salut Junior 
+
+[SELECT_PHRASE]
+> Complète la phrase
+Speaker415: Saluton!  Ĉu vi povas helpi min pri [mia~hejmtasko]?    
+~            salut est-ce~que tu/vous pouvoir~(présent) aider je à~propos~de mon~devoir~(d'école) 
++ mia hejmtasko
+- mian hejmtaskon
+- miajn hejmtaskojn
+
+[LINE]
+Speaker415: Mi devas verki ion.     
+~           je devoir~(présent) rédiger,~composer quelque~chose 
+
+[LINE]
+Speaker509: Ah, jes! 
+~            ah oui
+
+[LINE]
+Speaker509: Mi tre bele verkas. Mi havas sukcesan blogon. 
+~           je très joliement rédiger,~composer~(présent) je avoir~(présent) qui~a~du~succès blog 
+
+[POINT_TO_PHRASE]
+> Clique sur le verbe "lire"
+Speaker509: (Ĉu) (vi) (+legas) (mian) (blogon)?
+~              est-ce~que tu/vous lire~(présent) ma/mon blog  
+
+[LINE]
+Speaker415: Ne.
+~           non
+
+[LINE]
+Speaker509: Mi havas multajn librojn.
+~           je avoir~(présent) nombreu·x·ses livres
+
+[LINE]
+Speaker509: Ĉu vi bezonas miajn librojn por via hejmtasko?     
+~            est-ce~que tu/vous avoir~besoin~de~(présent) mes livres pour ta/ton/votre devoir~(d'école)
+
+[CONTINUATION]
+> Complète la phrase ?
+Speaker415: Ne, mi ne bezonas [viajn~librojn].
+~           non je pas avoir~besoin~de~(présent) tes/vos~livres
+- via libro    
+- viaj libroj
++ viajn librojn
+
+[LINE]
+Speaker509: Kaj pri kio temas via hejmtasko?      
+~            et à~propos~de quoi avoir~pour~sujet~(présent) ta/ton/votre devoir~(d'école)
+
+[LINE]
+Speaker415: Dinosaŭroj.
+~           dinosaures       
+
+[MULTIPLE_CHOICE]
+> Pourquoi Junior parle-t-il de dinosaures ?
++ C'est le sujet de son devoir.
+- Il vient d'en voir un.
+- Il en est passionné.
+
+[LINE]
+Speaker509: Kaj kial vi bezonas mian helpon?
+~            et pourquoi tu/vous avoir~besoin~de~(présent) ma/mon aide
+
+[LINE]
+Speaker415: Ĉar vi tre maljunas.
+~           Parce~que tu/vous très être~âgé·e~(présent)
+
+[LINE]
+Speaker415: Vi konis multajn dinosaŭrojn, ĉu ne?   
+~           tu/vous connaître~(passé) nombreu·x·ses dinosaures est-ce~que pas 
+
+[LINE]
+Speaker509: Ĝis, Ĝunjoro.
+~           au~revoir Junior 
+
+[MULTIPLE_CHOICE]
+> Pourquoi Junior pense-t-il que Lucie connaît bien les dinosaures ?
+- Elle est passionnée de dinosaures.
+- Elle tient un blog sur les dinosaures.
++ Elle est plus âgée que lui.
+
+[MATCH]
+> Relie les mots correspondants
+- ĝis <> au revoir
+- pri <> à propos de
+- koni <> connaître
+- helpi <> aider
+- legi <> lire
+

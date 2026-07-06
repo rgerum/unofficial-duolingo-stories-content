@@ -1,0 +1,137 @@
+[DATA]
+fromLanguageName=La lune de miel
+icon=7e5d271488d31d6f1d0c503512e642ca7effe84f
+set=1|4
+
+[HEADER]
+> La lua de mèu
+~ La lune de miel      
+
+[LINE]
+> Ana es dens taxi.
+~ Ana est  dans~un taxi  
+
+[LINE]
+Speaker113: Adishatz. 
+~           Bonjour 
+
+[SELECT_PHRASE]
+> Trouves la suite manquante
+Speaker343: Adishatz,  èi besonh [d'anar a l'aeropòrt],     en~v'ac~pregar.
+~           bonjour  j'ai besoin    d'aller à l'aéroport   s'il~vous~plait    
++ d'anar a l'aeropòrt
+- d'anar peu pòrt
+- e l'aeropòrt
+
+[LINE]
+Speaker113: Ok.
+~           OK        
+
+[LINE]
+Speaker113: Per vacanças ?
+~            Pour les~vacances   
+
+[LINE]
+Speaker343: No~son vacanças…  
+~           ce~ne~sont~pas des~vacances
+
+[ARRANGE]
+> Écris ce que tu entends
+Speaker343: [(Èi)  (un~ticket) (per) (Baiona).]
+~             J'ai   un~ticket    pour     Bayonne   
+
+[LINE]
+Speaker343: Ok… dos tickets.
+~           ok   deux tickets 
+
+[LINE]
+Speaker113: Baiona qu'es la~mia ciutat preferida ! Qu'es tan polida !   
+~            Bayonne est ma ville préférée  c'est très joli 
+
+[LINE]
+Speaker343: Es   la~mia lua de mèu…
+~           C'est ma lune de miel    
+
+[MULTIPLE_CHOICE]
+> Pourquoi Ana va à Bayonne ?
++ Elle y va en lune de miel.
+- Elle y va pour apprendre le flamenco.
+- Elle va se marier là-bas.
+
+[LINE]
+Speaker113: Ah. On es lo~vòste marit ? 
+~           Ah Où est votre mari
+
+[LINE]
+Speaker343: N'èi pas~nat marit.    Èi ua esposa tan dificila ! 
+~           Je~n'ai pas~de mari, J'ai une épouse très difficile 
+
+[LINE]
+Speaker343: Vòl briga    anar a Baiona damb jo.
+~           Elle~veut pas aller à Bayonne avec moi
+
+[MULTIPLE_CHOICE]
+> Oh non ! La femme d'Ana...
+- …a oublié de prendre sa crème solaire
+- …est déjà à Bayonne.
++ …ne veut pas aller à Bayonne avec elle.
+
+[LINE]
+Speaker343: Soi hòrt trista.
+~           Je~suis très triste  
+
+[LINE]
+Speaker113: Ah… Soi desolat.
+~           oh  je~suis désolé
+
+[LINE]
+Speaker113: Alavetz… èm a l'aeropòrt.
+~           alors nous~sommes à l'aéroport 
+
+[POINT_TO_PHRASE]
+> Choisis le mot qui veut dire "court".
+> (Ua hemna) (damb)  ua maleta (+corre) dinca (taxi).
+~  Une femme     avec  une valise  court   jusqu'au taxi  
+
+[LINE]
+Speaker343: Salma ?
+~            Salma 
+
+[LINE]
+Speaker342: Ana !
+~            Ana 
+
+[LINE]
+Speaker342: Soi tan desolada !
+~            Je~suis tellement désolée    
+
+[LINE]
+Speaker342: T'aimi. 
+~           Je~t'aime 
+
+[LINE]
+Speaker343: T'aimi tanben.
+~           Je~t'aime aussi      
+
+[LINE]
+Speaker342: Qu'anem a Baiona !
+~            Allons à Bayonne 
+
+[LINE]
+Speaker113: Profietatz ben de la~vòsta lua de mèu !
+~           Profitez bien de votre lune de miel  
+
+[MULTIPLE_CHOICE]
+> Que se passe t'il ensuite ?
+- Ana commença son nouveau travail à l'aéroport.
+- Ana et le chauffeur vont à Bayonne ensemble.
++ Ana et sa femme, Salma, vont à Madrid ensemble.
+
+[MATCH]
+> Trouves les bonnes paires de mots
+- soi <> je suis
+- t'aimi <> je t'aime
+- esposa hòrt dificila <> épouse très difficile
+- adishatz <> bonjour
+- taxi <> taxi
+

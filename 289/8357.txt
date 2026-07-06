@@ -1,0 +1,136 @@
+[DATA]
+fromLanguageName=One Ticket to Miyako
+icon=b8d10ee56171817ff548af825d5065b5561d1482
+set=7|4
+
+[HEADER]
+> 宮古{みゃーく}|行ちぬ{いちぬ} 航空券
+~ Miyako/Mjaaku/Naaku~{みゃーく~or~なーく} (going)~to(wards)~{いちぬ} (a)~plane~ticket~{こーくーけん}
+$8357/276ae554.mp3;NaN,50;NaN,188;NaN,137;NaN,225;NaN,163
+
+[LINE]
+> ジュニア|ー 空港|んかい うぅん{ウゥん}。
+~ Junior is   (the)~airport in/at (exists)    
+$8357/10840982.mp3;4,50;5,438;4,500;NaN,287;NaN,188;NaN,162
+
+[LINE]
+> あれー カウンター|んかい うぅん 女{いなぐ} とぅ{トゥ} 話る{あびる}。
+~ he/she~is counter in/at (exists) woman~{いなぐ} with to~talk~{あびる}
+$8357/cd1576e4.mp3;3,50;6,438;2,512;2,100;2,213;2,100;NaN,162;NaN,363;NaN,125;NaN,437
+
+[LINE]
+Speaker659: ちゃーしみしぇーやびたが{ちゃーしみシェーやびたが}?       
+~            how~can~(I)~help~you 
+# See 7-2 for why this is the case
+$8357/1bc4e559.mp3;2,50;3,188;NaN,287;NaN,263;1,287;0,138;NaN,275
+
+[LINE]
+Speaker415: 宮古{みゃあく}|行ちぬ{いちぬ} 航空券 一{ティー}|ち だー!
+~           Miyako/Mjaaku/Naaku~{みゃーく~or~なーく} (going)~to(wards)~{いちぬ} (a)~plane~ticket~{こーくーけん} one~{てぃー} (thing) please~(informal)
+$8357/4abe775e.mp3;NaN,50;NaN,425;NaN,288;NaN,225;NaN,712;NaN,288;NaN,162;0,350
+
+[MULTIPLE_CHOICE]
+> Junior wants to travel to Ishigaki.
+- Yes, that's right.
++ No, that's wrong.
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker659: 両親{ふたうや}|ー{あ} まー?
+~            both~(your)~parents~{ふたうや}  is/are where
+$8357/73d4068c.mp3;NaN,50;NaN,363;NaN,137;NaN,100
++ 両親ー まー
+- 両親 まー
+- 両親ー ま
+
+[LINE]
+Speaker415: 七{なな}|ち|や あらん|さ。   
+~            seven~{なな} years~old (am) not (sentence~ending) 
+$8357/1a0cff93.mp3;NaN,50;NaN,300;NaN,225;4,188;2,350;0,350
+
+[LINE]
+Speaker659: いくち|やさ?
+~            how~old/many (are~you)     
+$8357/712f1a4c.mp3;3,50;3,375
+
+[LINE]
+Speaker415: 八{やー}|ち やん。     
+~           eight~{やー} years~old (is~the~fact) 
+$8357/4471803b.mp3;NaN,50;NaN,288;NaN,237;0,338
+
+[POINT_TO_PHRASE]
+> Choose the option that means "sixty thousand."
+Speaker659: (宮古{みゃーく})|行ちぬ (航空券ー{こーくうけのー}) (+六万)|(円) やいびーん。
+~           Miyako/Mjaaku/Naaku~{みゃーく~or~なーく} to(wards)~{いちぬ}  (a)~plane~ticket~is~{こーくーけのー} sixty-thousand~{ろくまん}    yen~{えん}  (is~the~fact)~(formal)
+$8357/535c00c0.mp3;NaN,50;NaN,250;NaN,125;NaN,100;NaN,150;NaN,150;NaN,188;NaN,362;NaN,200;NaN,475;5,250;1,463;0,125
+
+[LINE]
+Speaker415: 上等。 二千|円|っし まー|んかい 行かりーん?
+~           OK~{じょうとう}          two-thousand~{にせん} yen~{えん} with where to(wards) is~it~possible~to~go
+$8357/9ed89fdc.mp3;2,50;1,738;3,862;1,425;2,250;1,100;3,163;4,300;5,425;1,437
+
+[LINE]
+> ジュニア|ぬ|父{すー}、 エディー|ぬ カウンター|までぃ{まディ} 走ゆん{ハゆん}。
+~ Junior 's dad   Eddy is    counter   up~to to~run~{はゆん}
+$8357/c282020d.mp3;4,50;2,425;0,138;NaN,400;NaN,212;2,263;6,162;0,538;NaN,150;NaN,125;NaN,112;NaN,325
+
+[LINE]
+Speaker414: ジュニア! くま|んかい うぅたるぬが{ウゥーたるぬが}！ 空港うぅてぃ一体 ぬー|そーが？
+~            Junior   here in/at  (you~existed~so) airport at/in (what~on~earth~...~by~yourself)  what (doing)   
+$8357/91bfba16.mp3;4,15;8,675;17,1591;7,1347
+
+[LINE]
+Speaker415: 今日{ちゅー}|や 算数|ぬ 試験|ぬ あるどー。 国 出らん{いじらん}|だれー~ならんどー。  
+~           today is elementary~math~{さんすう} 's exam~{しけん} is (exists~is~the~fact) country~{くに} (not)~exit/leave (must~not~do~so~or~else)
+$8357/003b00ce.mp3;NaN,50;NaN,350;NaN,188;2,600;3,200;2,412;3,150;2,288;1,287;2,850;NaN,388;NaN,525;NaN,337;1,313;2,112;0,300
+
+[MULTIPLE_CHOICE]
+> Ah ha! Why does Junior want to leave the country?
+- He wants to see the world.
++ He has a math test today.
+- He misses his friends.
+
+[LINE]
+Speaker414: 上等… 航空券ー{こーくーけのー} ちゃっさ?
+~           OK (the)~plane~ticket~is~{こーくーけのー} how~much 
+$8357/bc7f207c.mp3;1,15;12,1935
+
+[LINE]
+Speaker415: 六万|円。
+~           sixty-thousand~{ろくまん} yen~{えん}
+$8357/835777cf.mp3;2,50;1,613;0,362
+
+[LINE]
+Speaker414: あんしぇー、 二{たー}|ち|っし ちゃっさ?
+~            okay~then two~{たー} (things) (are) how~much   
+$8357/5203ddc8.mp3;5,15;8,1026;5,376
+
+[LINE]
+Speaker415: 十二万|円。
+~           one-hundred~twenty-thousand~{じゅうにまん} yen~{えん} 
+$8357/928d0346.mp3;3,50;1,763;0,362
+
+[LINE]
+Speaker414: 一杯{いっぺー}  上等! やー|や    算数|ぬ いーてぃ|やん|やー。
+~            very~{いっぺー} good~{じょうとう}  you is/are elementary~math~{さんすう} is/are (your)~strong~skill (is~the~fact) (right?)         
+$8357/a759f356.mp3;6,465;6,863;8,445;NaN,685
+
+[LINE]
+Speaker414: 試験|ぬ しこーえー|なとーん。
+~           exam~{しけん} 's prepare(d)~is (you~have)~done
+$8357/be449342.mp3;4,15;11,535
+
+[MULTIPLE_CHOICE]
+> Eddy tricked Junior to show him that…
++ …he is ready for his math test.
+- …they should travel more.
+- …the tickets are very cheap.
+
+[MATCH]
+> Tap the pairs
+- だー <> (I) want (informal)
+- 上等 {じょうとう} <> OK
+- 十二万 {じゅうにまん} <> one hundred twenty thousand
+- 八{やー}ち やん <> (I am) eight years old
+- ちゃっさ <> how much
+

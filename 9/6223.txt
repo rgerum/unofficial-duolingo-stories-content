@@ -1,0 +1,127 @@
+[DATA]
+fromLanguageName=It's Not for Kids
+icon=92f8e9fbcb106a065c67e2efcbb467a67077da4b
+set=15|2
+
+[HEADER]
+> Не для детей  
+~ Not for  children
+$6223/befa8208.mp3;2,6;4,265;6,208
+
+[LINE]
+> Зари сидит с Джуниором, так~как Эдди{Эди} на~работе.
+~ Zari is~sitting with Junior since Eddy (is)~at~work       
+$6223/a3447a4a.mp3;4,6;6,483;2,362;10,105;4,862;4,200;5,275;3,238;7,116
+
+[LINE]
+Speaker415: Зари! Мы можем поиграть в~твою видеоигру?  
+~            Zari   we can play your video~game 
+$6223/02ce1f2a.mp3;2,0;3,219;4,220;6,335;9,315;2,425;5,75;10,255
+
+[LINE]
+Speaker418: Не сейчас… Мне~надо убрать дом, потому~что твой папа скоро~вернётся.
+~           not now  I~have~to clean the~house because your dad is~coming~back~soon   
+$6223/e0807986.mp3;2,0;7,164;5,586;5,539;7,240;4,405;8,280;4,595;5,185;5,235;6,325;9,385
+
+[MULTIPLE_CHOICE]
+> Zari has time to play video games with Junior.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker415: Ну… Я могу поиграть в~видеоигру без тебя? 
+~           well    I can play  (in)~video~game without you 
+$6223/c82be4ca.mp3;2,0;3,344;5,480;9,245;2,431;10,59;4,546;5,169
+
+[LINE]
+Speaker418: Извини, моя видеоигра{видео игра} не для детей.   
+~           I'm~sorry  my video~game is~not for  children 
+$6223/f9be50e4.mp3
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(Я) (не) (ребёнок)!] 
+~              I    (am)~not    a~child   
+$6223/d6a9ff06.mp3;1,0;3,189;8,120
+
+[LINE]
+Speaker418: Ну, взрослые моют посуду.
+~           hmm  well   adults      wash  the~dishes 
+$6223/62b6cf84.mp3;2,0;10,294;5,910;7,335
+
+[LINE]
+Speaker415: Я умею мыть посуду!
+~            I  know~(how~to) wash the~dishes 
+$6223/5d07667e.mp3;1,0;5,185;5,289;7,180
+
+[CONTINUATION]
+> What comes next?
+> Джуниор начинает мыть [посуду].
+~ Junior starts    to~wash  the~dishes  
+$6223/602caf1c.mp3;7,6;9,469;5,597;7,302
+
++ посуду
+~ the~dishes
+- мою видеоигру
+~ my video~game 
+- взрослых
+~ the~adults     
+
+[LINE]
+Speaker415: Видишь?
+~            see 
+$6223/648e11f4.mp3;6,0
+
+[LINE]
+Speaker418: Взрослые убирают со~стола... 
+~           adults      clear~the~table 
+$6223/cea6aa4c.mp3;8,0;8,665;3,494;6,120
+
+[LINE]
+Speaker415: Я могу убрать~со~стола! 
+~            I  can clear~the~table 
+$6223/cffc5f5e.mp3;1,0;5,179;7,225;3,315;6,105
+
+[SELECT_PHRASE]
+> Select the missing phrase
+> Джуниор [убирает со~стола].  
+~ Junior  clears the~table  
+$6223/d2665510.mp3;7,6;8,470;3,437;6,169
+- смотрит на птиц
++ убирает со стола
+- убирает окна
+
+[LINE]
+Speaker418: Молодец! Да, ты взрослый.
+~            well~done  yes  you~are an~adult  
+$6223/714b357a.mp3;7,0;4,709;4,460;9,420
+
+[LINE]
+Speaker415: Мы можем теперь играть в~видеоигру!?  
+~             we can now play the~video~game  
+$6223/74f6075e.mp3;2,0;6,140;7,315;7,310;2,304;10,60
+
+[LINE]
+Speaker418: О, нет! Уже девять~часов. Тебе~пора ложиться~спать!
+~            oh  no it's~already nine~o'clock  it's~time to~go~to~bed    
+$6223/57d3db28.mp3;1,0;5,194;5,661;7,500;6,410;6,510;5,499;9,315;6,485
+
+[LINE]
+Speaker415: Но я взрослый! Взрослые ложатся~спать поздно.
+~            but I~am an~adult adults go~to~bed late  
+$6223/61e305da.mp3;2,0;2,149;9,145;10,590;8,776;6,474;7,321
+
+[MULTIPLE_CHOICE]
+> Junior thinks he is an adult now, so…
+- …he needs to find a job.
+- …he can marry Zari.
++ …he can go to bed late.
+
+[MATCH]
+> Tap the pairs
+- теперь <> now
+- мне надо <> I have to
+- но <> but
+- я могу играть <> I can play
+- вернётся <> will come back
+

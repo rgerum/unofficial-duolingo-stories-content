@@ -1,0 +1,124 @@
+[DATA]
+fromLanguageName=Junior's Decision
+icon=e0600de22649754eb7336b587834d36407767819
+set=10|1
+
+[HEADER]
+> Juniorovo rozhodnutí
+~ Junior's decision    
+$6379/17ee6986.mp3;9,50;11,662
+
+[LINE]
+> V Juniorově škole je oběd.
+~ at Junior's school is lunch    
+$6379/9ed6ecee.mp3;1,50;10,212;6,488;3,312;5,150
+
+[LINE]
+Speaker415: Dobrý~den paní Pérezová. Jsem velmi hladový.
+~            good~morning  Mrs. Pérez I'm very hungry    
+$6379/9d3d216e.mp3;5,50;4,512;5,188;9,237;5,1638;6,412;8,288
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker395: Ahoj, Juniore. [Dnes máme kuře].    
+~           hello  Junior   today we~have chicken 
+$6379/2e60e6c6.mp3;4,36;8,419;5,1051;5,217;5,218
++ Dnes máme kuřecí
+- Dnes máte kuřecí
+- Dnes mají kuřecí
+
+[LINE]
+Speaker395: A   k    tomu~kuřeti.
+~           and with the~chicken 
+$6379/3c1a7200.mp3;1,36;2,40;5,57;7,169
+
+[LINE]
+Speaker395: …~si~můžeš~dát buď salát nebo hranolky.
+~             you~can~eat  either a~salad or fries          
+$6379/462c6af0.mp3;2,786;6,129;4,258;4,185;6,129;5,322;9,153
+
+[MULTIPLE_CHOICE]
+> Junior can get either salad or fries with the chicken.
+- No, that's wrong.
++ Yes, that's right.
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(Chtěl~bych) (hranolky) (i) (salát)!] 
+~              I'd~like   fries      and (a)~salad   
+$6379/baff9ff6.mp3;5,50;5,275;9,162;2,450;6,113
+
+[LINE]
+Speaker395: Můžeš si~dát jenom jedno, Juniore.
+~           you~can eat  only  one Junior
+$6379/5322cb1e.mp3;5,32;3,249;4,113;6,185;6,194;8,459
+
+[LINE]
+Speaker415: Dobře, Rád~bych hranolky.
+~           well   I'd~like fries              
+$6379/c3febb14.mp3;5,50;4,575;5,237;9,163
+
+[LINE]
+Speaker415: Mám totiž před~sebou hodně dlouhý den.
+~           I~have ~ ahead~of~me very long day
+$6379/c8a1f60e.mp3;3,50;6,412;5,288;6,200;6,287;7,225;4,363
+
+[POINT_TO_PHRASE]
+> Choose the option that means "healthier."
+Speaker415: … (ale) (salát) (je) (+zdravější).
+~             but  salad    is   healthier  
+$6379/ccadeac8.mp3;3,800;6,262;3,363;10,62
+
+[LINE]
+Speaker395: Juniore?
+~            Junior 
+$6379/5c1a0e76.mp3;7,32
+
+[LINE]
+Speaker415: Hranolky nebo salát? Hmm…
+~            fries   or   salad  hmm 
+$6379/d4b36b26.mp3;8,50;5,487;6,200;4,1413
+
+[LINE]
+Speaker415: Dobře, dám~si hranolky… Ne! Salát! Ne!
+~           OK         I~want fries no  salad  no 
+$6379/da1dc2fa.mp3;5,50;4,550;3,212;9,138;3,1400;6,1125;3,1487
+
+[LINE]
+Speaker415: Ó, já~nevím!       
+~            oh  I~don't~know 
+$6379/e4683330.mp3;1,50;3,300;6,212
+
+[MULTIPLE_CHOICE]
+> Poor Junior! What problem does he have?
+- He ate too many fries.
+- He wants ice cream in his salad.
++ He can't choose between a salad and fries.
+
+[LINE]
+Speaker395: Juniore!
+~            Junior 
+$6379/679b8018.mp3;7,32
+
+[LINE]
+Speaker415: Ano, paní Pérezová?
+~           yes  Mrs. Pérez 
+$6379/eaebe008.mp3;3,50;5,387;9,263
+
+[LINE]
+Speaker395: Tady~máš! Hranolky i salát.
+~           here~you~go fries and (a)~salad 
+$6379/6a97ad14.mp3;4,32;4,193;9,891;2,410;6,41
+
+[MULTIPLE_CHOICE]
+> What did Mrs. Pérez tell Junior to do?
+- Go somewhere else to eat.
++ Take both the fries and the salad.
+- Imagine that fries are salad.
+
+[MATCH]
+> Tap the pairs
+- zdravější <> healthier
+- Rád bych <> I'd like
+- Juniorova škola <> Junior's school
+

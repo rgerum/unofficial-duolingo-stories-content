@@ -1,0 +1,115 @@
+[DATA]
+fromLanguageName=My Favorite Band
+icon=8809c44c2194d282a6e1573d25dcac12b6132022
+set=21|1
+
+[HEADER]
+> 我|最爱的|乐队
+~ my favorite band 
+$8397/67f5aac1.mp3;1,50;3,263;1,375;2,100
+
+[LINE]
+> 莉莉|和|莎丽|在|上课。
+~ Lily and Zari are in~class 
+$8397/7065901a.mp3;2,50;2,350;3,150;2,375;3,163;0,537
+
+[LINE]
+Speaker418: 呃……|莉莉，|你|能|帮|我|一下|吗？
+~           uh   Lily you can help me quickly (question~particle)  
+$8397/403a3b1b.mp3;0,50;NaN,1850;NaN,550;2,113;2,100;2,175;2,162;3,100;2,413;0,275
+
+[LINE]
+Speaker416: 不知道。|你|需要|什么？
+~           I~don't~know you need what  
+$8397/72c941ca.mp3;1,50;2,138;1,525;2,562;3,150;3,288;0,387
+
+[LINE]
+Speaker418: 我|今天|上不了|篮球|课|了。
+~           I today can't~go~to basketball class (indicates~change~of~state)
+$8397/68861b14.mp3;1,50;3,150;2,700;2,238;3,337;2,388;2,350;0,237
+
+[LINE]
+Speaker418: 你|能|告诉|教练|我|生病|了|吗？
+~           you can tell coach I'm sick (indicates~change~of~state) (question~particle)  
+$8397/ed8488e5.mp3;1,50;2,138;3,187;3,325;2,638;3,112;2,463;2,87;0,300
+
+[MULTIPLE_CHOICE]
+> Zari wants Lily to tell their basketball coach that she's sick.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker416: 莎丽，|你|没有|生病。
+~           Zari you are~not sick
+$8397/401a0da8.mp3;2,50;1,675;2,200;3,100;3,250;0,413
+
+[LINE]
+Speaker418: 咳！|咳！|但是|我|这里|有|一张|医生|开的|病假条。|你看！
+~           (cough) (cough) but I here have a doctor issued doctor's~note look
+$8397/fd6e9243.mp3;1,50;1,488;2,562;1,488;3,562;2,700;3,138;2,612;2,150;1,125;3,300;2,413;1,187;3,125;1,363;1,400;2,550;1,162;0,425
+
+[LINE]
+> 莎丽|把|病假条|递给|莉莉。
+~ Zari (particle) doctor's~note give~to Lily
+$8397/36542df0.mp3;2,50;2,450;3,163;1,375;2,400;1,162;3,163;0,412
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker416: 莎丽，|[这张条|是|你写的。]
+~           Zari   this~note was written~by~you      
+$8397/677a29bd.mp3;2,50;1,600;2,225;1,150;1,188;2,412;2,150;1,138;1,200;0,187
+- 这个条不是你写的。
+- 这张条是你卸的。
++ 这张条是你写的。
+
+[LINE]
+Speaker418: 绝对不是！
+~           of~course~not       
+$8397/1c285884.mp3;2,50;2,450;0,575
+
+[POINT_TO_PHRASE]
+> Choose the option that means "lie."
+Speaker416: 莎丽，|(我)|(知道)|(你在)|(+撒谎)。
+~           Zari I know you're lying  
+$8397/cd896493.mp3;2,50;1,613;2,212;3,125;2,550;1,113;3,137;0,425
+
+[LINE]
+Speaker418: 好吧！|我|要去|商场|看|我|最爱的|乐队，|都市少年。
+~           OK I am~going~to the~mall to~see my favorite band The~City~Boys
+$8397/767e8542.mp3;1,50;1,288;1,300;2,562;2,113;1,175;3,150;2,712;2,213;3,112;1,375;3,100;1,588;3,162;2,300;0,663
+
+[MULTIPLE_CHOICE]
+> Zari's favorite band is performing…
+- …in a park.
+- …in a stadium.
++ …at the mall.
+
+[LINE]
+Speaker416: 呃，|不行。|我|帮|不了|你。
+~           uh  no  I help can't you   
+$8397/adcc8fb3.mp3;1,50;1,400;3,75;1,400;2,550;2,175;2,213;2,312;0,200
+
+[LINE]
+Speaker418: 嗯，|我|知道。|我|不能|撒谎，|因为|撒谎|是|错的。
+~           yes I know I can't lie because lying is wrong
+$8397/ee058cc1.mp3;1,50;1,300;2,75;3,138;1,525;2,562;3,138;3,387;1,675;3,138;3,250;2,487;2,125;1,325;0,225
+
+[LINE]
+Speaker416: 不是，|我|帮不了|你，|因为|都市少年|唱得|很烂！
+~           no I can't~help you because The~City~Boys sing terribly
+$8397/88aefcab.mp3;2,50;1,525;2,188;2,100;2,200;2,287;1,263;3,262;3,238;2,287;2,638;1,200;2,87;1,200;0,225
+
+[MULTIPLE_CHOICE]
+> Why won't Lily help Zari?
++ She thinks the City Boys are very bad.
+- She doesn't want to get sick.
+- She doesn't want Zari to go to basketball practice.
+
+[MATCH]
+> Tap the pairs
+- 唱 <> sing
+- 病假条 <> doctor's note
+- 教练 <> coach
+- 烂 <> terrible (quality)
+- 撒谎 <> to lie
+

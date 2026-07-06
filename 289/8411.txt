@@ -1,0 +1,140 @@
+[DATA]
+fromLanguageName=Where Are My Keys?
+icon=3f21c887f044dc2ac0d1f0d0ea74e1200b587ac2
+set=11|4
+
+[HEADER]
+> 我ー{わー} 鍵{さーしぬっくゎ}|ー まー?
+~ my~{わー}  key(s)~{さーしぬっくゎ} is/are where   
+$8411/24d10eef.mp3;NaN,50;NaN,225;NaN,238;NaN,187;NaN,338;NaN,125
+
+[LINE]
+> リノー はーめー|ぬ ルーシー|とぅ{トゥ} うぅん{ウゥん}。
+~ Lin~is   grandmother called Lucy with (exists)
+$8411/a52c90ba.mp3;3,50;2,400;3,125;2,213;5,162;0,463;NaN,125;NaN,162;NaN,163
+
+[LINE]
+Speaker509: 一杯{いっぺー} エレガントさる レストラン 予約ちょーん{よやくちょーん}。 
+~           very~{いっぺー} elegant restaurant reserving~{よやくちょーん}  
+$8411/12dbd6d9.mp3;8,6;8,498;0,613;7,277;NaN,583
+
+[LINE]
+Speaker509: 行か{いか}!   遅りーぶしこーねーん{うくりーぶしこーねーん}。
+~            let's~go  (I~do)n't~want~to~be~late~{うくりーぶしこーねーん}   
+$8411/83264840.mp3;4,6;NaN,788
+
+[MULTIPLE_CHOICE]
+> Lucy is cooking a fancy dinner.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker508: 上等!
+~            OK~{じょうとう}        
+$8411/f88149fe.mp3;2,50;0,675
+
+[LINE]
+Speaker508:  あぎじゃびよー! 我ー{わー} 車|ぬ 鍵{さーしぬっくゎ}|ー まー?
+~           unbelievable/oh~my~gosh my~{わー} car~{くるま} 's key(s)~{さーしぬっくゎ} is/are where           
+$8411/093b064d.mp3;7,50;1,850;NaN,863;NaN,237;NaN,388;NaN,137;NaN,263;NaN,200;NaN,300;NaN,137
+
+[LINE]
+Speaker509: ちゃーさー 鍵{さーしぬっくゎ} 捨てぃーん{してぃーん}|やー。
+~           always key(s)~{さーしぬっくゎ} to~lose/to~throw~away~{してぃーん} (yeah)   
+# Dear reviewers who know Japanese, 捨てる means to throw away in Japanese, but in Okinawan, 捨てぃーん can mean throw away or lose.
+# 失いん{うしないん} is also acceptable, but it's more commonly used to mean "to die". 
+# E.g., 捨てぃてぃ ねーん in Okinawan = なくしてしまった in Japanese = "(Oh dear, I) lost it" in English.
+$8411/7a5c86c4.mp3;5,6;0,330;3,337;NaN,1039;NaN,858
+
+[MULTIPLE_CHOICE]
+> Lucy says that Lin never knows where…
+- …their dog is.
+- …to put her clothes.
++ …her keys are.
+
+[LINE]
+Speaker509: コート 中い{なかい} あみ?
+~            coat in~between/inside~of~{なかい} (exists)
+$8411/0d88ab2f.mp3;3,6;6,382;NaN,393
+
+[ARRANGE]
+> Tap what you hear
+> [リノー コート 身{みー} 探いん{トゥめーいん}]。
+~   Lin~is   coat 's~inside/between~{みー} looks~for/searches~{とぅめーいん}    
+$8411/db65fc43.mp3;3,50;4,388;NaN,362;NaN,200;NaN,138;NaN,187;NaN,263
+
+[LINE]
+Speaker508: うぅーうぅー、 くま|んかい ねーん。
+~           no here in/at (isn't)
+$8411/2865f4e7.mp3;1,50;2,125;1,200;2,100;1,375;3,163;4,287;3,375;1,250;0,125
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: [ベッド|ぬ 下{しちゃ}|んかい] あみ?
+~            bed 's under/below~{しちゃ}  in/at (exists)     
+$8411/a8c3de25.mp3;5,6;0,413;9,105;NaN,595;NaN,125;NaN,288
++ ベッドぬ 下んかい
+- ベッドぬ 視聴んかい
+- ベッドぬ 市長んかい
+
+[LINE]
+Speaker508: うぅーうぅー、 ベッド|ぬ 下{しちゃ}|んかい ねーん。
+~           no    bed 's under~{しちゃ} in/at  (isn't)
+$8411/d7fb2525.mp3;1,50;2,125;1,175;2,88;1,362;4,150;2,388;NaN,137;NaN,275;NaN,313;1,237;0,125
+
+[LINE]
+Speaker509: 靴{ふや} 中い{なかい} あみ?
+~            shoe(s)~{ふや} inside~of/between~{なかい}  (exists) 
+$8411/512927f2.mp3;1,6;6,662;NaN,376
+
+[LINE]
+Speaker508: うぅーうぅー、 うぅかさんやー。
+~           no  that~is~strange 
+$8411/2db0e449.mp3;1,50;2,125;1,200;2,100;1,350;2,138;2,100;2,237;2,288;0,350
+
+[LINE]
+Speaker508: 鍵{さーしぬっくゎ}|ー まー|んかい あんが 知らん{しらん}。 タクシー 使い{ちかい} レストラン|かい 行か{いか}!
+~           key(s)~{さーしぬっくゎ} is/are where in/at (exists) (I~do)n't~know~{しらん}  taxi use~{ちかい} restaurant to(wards) let's~go~{いか}
+$8411/0e876fa7.mp3;NaN,50;NaN,325;NaN,200;NaN,325;NaN,125;NaN,238;NaN,300;NaN,175;NaN,125;NaN,450;NaN,862;NaN,513;NaN,400;NaN,550;NaN,212;NaN,363
+
+[LINE]
+Speaker509: うぅーうぅー、 にーしじーん。
+~           no  (you~were)~too~slow  
+$8411/d97fbf88.mp3;9,6;5,345;NaN,678;NaN,280;NaN,216;NaN,314
+# にーさん in Okinawan (= 遅い in Japanese) gets conjugated to にーしじーん (= 遅すぎる in Japanese).
+
+[LINE]
+Speaker508: ぐ無礼さびたん{ぐぶりーさびたん}。
+~           I'm~sorry~(formal/past~tense)~{ぐぶりーさびたん} 
+$8411/94f653da.mp3;NaN,50;NaN,463;1,300;NaN,275
+
+[POINT_TO_PHRASE]
+> Choose the option that means "to cook."
+Speaker509: 上等、 (夕飯{ゆーばん})|(ぬ~んり) (ぬーがな) (+料理{ほーちゅー}|すん)。
+~            OK~{じょうとう} dinner~{ゆーばん} for something cook~{ほーちゅー} to~do   
+$8411/17786ec9.mp3;3,6;13,829;0,597;0,136;2,95;1,121;3,485;NaN,272;NaN,509
+
+[LINE]
+> ルーシー|や 冷蔵庫{りーぞーこ} 開きーん{あきーん}。 
+~ Lucy is fridge~{りーぞーこ} to~open~{あきーん}
+$8411/5821ca05.mp3;4,50;2,463;NaN,175;NaN,187;NaN,238;NaN,137;NaN,300;NaN,175
+
+[LINE]
+Speaker509: くま|んかい 鍵{さーしぬっくゎ}|ぬ  あんどー!
+~            here in/at key(s)~{さーしぬっくゎ} is/are   (exists) 
+$8411/75bd22fa.mp3;6,6;0,536;0,62;NaN,244;NaN,1039;NaN,199;NaN,214
+
+[MULTIPLE_CHOICE]
+> At last! Lin's keys were in…
+- …her shoes.
++ …the refrigerator.
+- …her car.
+
+[MATCH]
+> Tap the pairs
+- 冷蔵庫 {りーぞーこ} <> fridge
+- くま <> here
+- 夕飯 {ゆーばん} <> dinner
+- ぐ無礼さびたん {ぐぶりーさびたん} <> I'm truly sorry
+- ルーシー <> Lucy
+

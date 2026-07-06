@@ -1,0 +1,122 @@
+[DATA]
+fromLanguageName=Lou vegetarian
+icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
+set=2|3
+
+[HEADER]
+> Lou Vegetarian
+~ le  végétarien
+
+[LINE]
+> Gabrièu liege un menut en un bouòn restaurant.
+~ Gabriel lit un menu dans un bon  restaurant 
+
+[LINE]
+Speaker385: Benvenguda !  
+~           bienvenue 
+
+[SELECT_PHRASE]
+> Choisis la phrase manquante
+Speaker593: Bouònjou. Ai una questioun sus [lou~menut].
+~           bonjour  j'ai   une question sur le~menu   
++ Lou menut
+- L'ome
+- La candela
+
+[LINE]
+Speaker593: Sieu vegetarian.
+~           je~suis végétarien   
+
+[LINE]
+Speaker593: L'i~a de plat vegetarian ?      
+~           y~a-t-il des plats végétariens 
+
+[MULTIPLE_CHOICE]
+> Gabriel aime manger de la viande.
+- Oui, c'est vrai.
++ Non, c'est faux.
+
+[LINE]
+Speaker385: Ahì, avèn  de pròpi bouòi steaks.
+~           oui  nous~avons de très bons steaks 
+
+[LINE]
+Speaker593: Lu steaks soun de vianda. Mangi minga vianda.  
+~           les steaks sont de~(la) viande. (je)~mange pas~de viande 
+
+[LINE]
+Speaker385: Oh, ahì. Sieu desoulat. 
+~           oh  oui  je~suis désolé 
+
+[LINE]
+Speaker385: Lou poulas es  delicious.
+~           le  poulet  est délicieux 
+
+[MULTIPLE_CHOICE]
+> Le serveur pense que Gabriel...
++ … devrait commander du poulet.
+- … n'a pas faim.
+- ... déteste le poulet.
+
+[LINE]
+Speaker593: Poulas   es de~vianda.        
+~           le~poulet est de~la~viande 
+
+[LINE]
+Speaker593: Vouòli minga vianda !  
+~           jene~veux pas~de viande 
+
+[LINE]
+Speaker385: Avèn de~salada…       
+~           nous~avons de~la~salade 
+
+[LINE]
+Speaker593: Oh, mi~plas la salada ! Cenque~l'i~a en la salada ? 
+~           oh  j'aime la salade  qu'est-ce~qu'il~y~a dans la  salade 
+
+[POINT_TO_PHRASE]
+> Choisis l'option qui veut dire « du poisson ».
+Speaker385: (L'i~a~de) (toumati), de (lachuga), de  (+pei)…      
+~            il~y~a~des tomates de~la laitue du poisson  
+
+[CONTINUATION]
+> Quelle est la fin de la phrase ?
+Speaker593: Mangi pas de pei ! Sieu  [vegetarian] !
+~           je~mange pas de poisson  je~suis  végétarien    
+- un restaurant
+~ un restaurant
+- una salada 
+~ une salade
++ vegetarien
+~ végétarien  
+
+[LINE]
+Speaker385: Avèn de  panissa…     
+~           nous~avons des panisses 
+
+[LINE]
+Speaker593: D'acòrdi. Es bèn, li panissa.        
+~           d'accord  c'est bien les panisses 
+
+[LINE]
+Speaker385: De panissa, perfet. E… una salada nissarda ?   
+~           des panisses  parfait  et   une salade niçoise 
+
+[LINE]
+Speaker593: Sensa pei, se~vi~plas !         
+~           Sans poisson s'il~vous~plait
+
+[MULTIPLE_CHOICE]
+> Pourquoi Gabriel est-il contrarié par le serveur ?
++ Le serveur n'arrête pas d'oublier qu'il est végétarien.
+- Le serveur ne se souvient pas de son nom.
+- La nourriture du restaurant est mauvaise.  
+
+[MATCH]
+> Choisis les paires
+- benvenguda <> bienvenue
+- pei <> poisson
+- panissa <> panisses
+- menut <> menu
+- lachuga <> laitue
+

@@ -1,0 +1,143 @@
+[DATA]
+fromLanguageName=The Vegetarian
+icon=dc9d2edcd2a744cd53771bab283eb22922dd1347
+set=4|1
+
+[HEADER]
+> ベジタリアン
+~ (the)~vegetarian 
+$8290/e4df457f.mp3;5,50
+
+[LINE]
+> ビクラモー 一杯{いっぺー}|上等やる{じょートゥーやる}|レストラン|っし メニュー|読むん{ゆむん}。
+~ Vikram~is very~{いっぺー} fantastic~{じょーとぅーやる} restaurant at/in menu reads~{ゆむん}
+$8290/e203913e.mp3;6,50;NaN,550;NaN,188;NaN,212;NaN,475;NaN,238;NaN,475;1,62;5,163;0,325;NaN,425
+
+[LINE]
+Speaker385: うきみそーちー!
+~            good~morning 
+$8290/39b90c36.mp3;5,50;2,600;0,388
+
+[LINE]
+Speaker593: 質問|ぬあん。
+~           a~question~{しつもん} (I)~have 
+$8290/ec6b882f.mp3;2,50;2,463;2,112;0,300
+
+[LINE]
+Speaker593: ベジタリアン|やん。
+~           a~vegetarian (I)~am 
+$8290/e8b51321.mp3;6,50;3,725;0,325
+
+[LINE]
+Speaker593: 喰物{クェームン}|ぬあいびー|み? 
+~            food~{くぇーむん} (do~you)~have (yes/no~question~ender)  
+$8290/00d39e3d.mp3;NaN,50;NaN,513;NaN,150;2,425
+
+[MULTIPLE_CHOICE]
+> Vikram wants to know if they serve vegetarian food.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker385: うー、  一杯{いっぺー}|まーさん|肉{しし}|サンド|ぬあん|さ.
+~           yes  very~{いっぺー} tasty/delicious meat~{しし} sandwiches (we)~have (sentence~ending)      
+$8290/c0906288.mp3;2,50;1,438;NaN,212;NaN,163;NaN,200;NaN,187;0,238;NaN,237;NaN,288;2,125;2,187;0,275
+
+[LINE]
+Speaker593: 肉{しし}|サンド? ベジタリアン|やん!
+~            meat~{しし} sandwiches      a~vegetarian I~am 
+$8290/eb488ad6.mp3;NaN,50;NaN,288;NaN,1312;3,700;0,325
+
+[LINE]
+Speaker385: あー、 うー…  悪っさいびーん{わっさいびーん}。
+~           oh  yes  I'm~sorry~{わっさいびーん} 
+$8290/d6f5cd4f.mp3;2,50;1,363;2,162;NaN,1050;NaN,125;NaN,275;2,125;NaN,375
+
+[LINE]
+Speaker385: まーさん|鶏{にわトゥい}|ぬ|肉{しし}  ぬあん|さ。
+~           delicious chicken~{にわとぅい} 's meat~{しし} (we)~have (sentence~ending)
+$8290/2755a43a.mp3;2,50;2,288;0,225;NaN,125;NaN,137;NaN,175;NaN,100;NaN,113;NaN,225;NaN,100;2,175;0,275
+
+[MULTIPLE_CHOICE]
+> According to the waiter, their chicken is…
+- …not very tasty.
+- …gluten free.
++ …delicious.
+
+[LINE]
+Speaker593: 鶏{にわトゥい}|ぬ|肉ー{しシェー} 肉{しし}|やん。
+~           chicken~{にわとぅい} 's meat~is~{ししぇー} meat~{しし} (it~is) 
+$8290/08730099.mp3;NaN,50;NaN,288;NaN,162;NaN,100;NaN,113;NaN,150;NaN,287;NaN,313;NaN,300
+
+[ARRANGE]
+> Tap what you hear
+Speaker593: [(肉{しし}) (食まん{かまん})|(さ)]!
+~              meat~{しし}   (I)~don't~eat~{かまん}   (and)    
+$8290/072c99c0.mp3;NaN,50;NaN,388;NaN,350;NaN,275
+
+[LINE]
+Speaker385: サラダ ぬあん|さ...
+~           salad(s) (we)~have (sentence~ending)    
+$8290/9cd344c2.mp3;3,50;2,463;2,125;NaN,200
+
+[LINE]
+Speaker593: あー、 サラダ|が 好ち{しち}|やん!
+~            oh  salads (is) (I)~like~{しち} (is~the~fact)       
+$8290/439b90b1.mp3;2,50;1,400;4,163;2,350;NaN,125;NaN,225;NaN,300
+
+[MULTIPLE_CHOICE]
+> Vikram likes…
+- …the waiter.
++ …salads.
+- …lots of meat.
+
+[LINE]
+Speaker385: タマトー、 チーズ|とぅ{トゥ} 鮭|ぬ サラダ|ぬ|あん。
+~           tomato cheese and salmon~{さけ} (made~of) salad (is) (we~have)
+$8290/d471bff9.mp3;4,50;1,625;4,200;0,388;NaN,125;NaN,237;4,138;2,400;3,125;0,287
+
+[LINE]
+Speaker593: 鮭 食まん{かまん}! ベジタリアン|やん!
+~            salmon~{さけ} (I~do)~not~eat~{かまん}!   vegetarian (I~am) 
+$8290/0ed3cc97.mp3;1,50;NaN,313;NaN,462;NaN,863;3,700;0,325
+
+[LINE]
+Speaker385: 脂ーし{あんだーし} 揚とーる{あぎとーる} 田芋{たーむ}|ぬ|あん。
+~           oil~{あんだーしー} fried~{あぎとーる} potato(es)~{たーむ} is (we~have)          
+$8290/0d7da560.mp3;16,50;NaN,250;NaN,200;NaN,188;NaN,212;NaN,88;NaN,125;NaN,175;NaN,162;NaN,113;NaN,287
+
+[LINE]
+Speaker593: 上等、  脂ーし{あんだーし} 揚とーる{あぎとーる} 田芋{たーむ}。
+~           OK~{じょうとう}         oil~{あんだーしー} fried~{あぎとーる} potato(es)~{たーむ}         
+$8290/0bbfe504.mp3;2,50;1,625;NaN,113;NaN,250;NaN,187;NaN,200;NaN,238;0,175;NaN,125;NaN,175;NaN,200
+
+[MULTIPLE_CHOICE]
+> What food did Vikram order in the end?
++ fries
+- chicken
+- salmon
+
+[LINE]
+Speaker385: 脂ーしー{あんだーしー} 揚とーる{あぎとーる} 田芋{たーむ}… パーフェクト。 あとぅ{あトゥ}…   バーガー|や？
+~           oil~{あんだーしー} fried~{あぎとーる} potato(es)~{たーむ}           perfect   and   a~hamburger (you~need)  
+$8290/81d8d91a.mp3;NaN,50;NaN,263;NaN,200;NaN,287;NaN,225;0,200;NaN,138;NaN,187;NaN,950;NaN,700;2,863;NaN,187;NaN,1013;NaN,400;0,275
+
+[LINE]
+Speaker593: 肉{しし} 食まん{かまん}!
+~            meat~{しし}  (I)~don't~eat~{かまん} 
+$8290/9edc2ada.mp3;NaN,50;NaN,388;NaN,462
+
+[MULTIPLE_CHOICE]
+> Why is Vikram so upset?
+- He's tired of being a vegetarian.
++ The waiter kept offering him meat.
+- The waiter spilled coffee on him.
+
+[MATCH]
+> Tap the pairs
+- まーさん 鶏{にわトゥい}ぬ 肉{しし} <> delicious chicken
+- ビクラモー <> Vikram is
+- ぬ サラダ <> salad with/made of
+- 悪っさいびーん{わっさいびーん} <> I'm sorry
+- 脂ーしー{あんだーしー} 揚とーる{あぎとーる} 田芋{たーむ} <> fries (oil fried potatoes)
+

@@ -1,0 +1,101 @@
+[DATA]
+fromLanguageName=I Need a New Video Game
+icon=ce0ae956035c1bac6b9c64737466d59c5d027e97
+set=7|1
+
+[HEADER]
+> 新さる{みーさる}|テレビ|ゲーム|ぬ 要りゆー{いりゆー}|やん
+~ new~{みーさる} TV/video game is need(ed)~{いりゆー} (is~the~fact)  
+$8348/2cb306e4.mp3;NaN,50;NaN,225;0,138;NaN,137;NaN,338;2,325;NaN,137;NaN,200;NaN,188
+
+[LINE]
+> ジュニア|とぅ{トゥ} エディー|や 町屋{まちや}|んかい うぅん{ウゥん}。
+~ Junior and Eddy is/are   (a)~store~{まちや} in/at (exists)  
+$8348/29f90ced.mp3;4,50;0,400;NaN,138;NaN,275;NaN,162;NaN,300;NaN,113;NaN,312;NaN,175;NaN,163
+
+[LINE]
+Speaker415: 父{すー}、 新さる{みーさる}|テレビ|ゲーム|ぬ 要りゆー{いりゆー}|やん!
+~            dad~{すー}   new~{みーさる} TV/video game is need(ed)~{いりゆー} (is~the~fact)  
+$8348/bfa62cd3.mp3;NaN,50;NaN,525;NaN,213;NaN,237;NaN,363;NaN,412;2,388;NaN,175;NaN,300;NaN,225;NaN,337
+
+[LINE]
+Speaker414: うぅーうぅー{ウゥーウゥー}、 ジュニア。 テレビ|ゲーム|ぬ 要らん{いらん}|さ。
+~           no  Junior  TV/video game is not~need(ed) (sentence~ending)  
+$8348/befda7d6.mp3;12,480;11,607;6,1198
+
+[MULTIPLE_CHOICE]
+> Eddy thinks Junior needs a new video game.
+- Yes, that's right.
++ No, that's wrong.
+
+[LINE]
+Speaker415: うにげーさびら! くぬ ロボット|ぬ ビデオゲーモー 一杯{いっぺー} 面白さん{うむさん}!
+~            please      this robot(s) 's videogame~is very~{いっぺー} fun/interesting~{うむさん}       
+$8348/bb1be128.mp3;4,50;3,625;1,600;2,863;1,162;5,175;2,575;4,200;4,375;NaN,513;NaN,287;NaN,250;NaN,600
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: ジュニア、 [くぬ ビデオゲーモー ふさん] かむしりらんしが、 くぬ ビデオゲーモー 要りゆーねーんどー{いりゆーねーんどー}。
+~           Junior   this video~game~is (what~you)~want maybe~but  this video~game~is  (what~you)~don't~need~{いりゆーねーんどー}
+$8348/0adb472f.mp3;4,15;4,706;8,287;4,856;9,350;4,1250;8,290
++ くぬ ビデオゲーモー ふさん
+- くぬ ビデオゲーム ふさん
+- くぬ ビデオゲーモー ぶさん
+
+[LINE]
+Speaker415: 上等、 だー! 買てぃくぃーん{こーティクィーん}?   
+~           OK~{じょうとう}          I~want~it~(informal)     (can)~we~buy~it~{こーてぃくぃーん} 
+$8348/8e14d45a.mp3;2,50;1,725;3,188;1,387;NaN,850;NaN,825;NaN,163
+
+[ARRANGE]
+> Tap what you hear
+Speaker414: [(うぅーうぅー{ウゥーウゥー})、 (家{やー})|(んかえー) (ビデオゲーム|ぬ) (うふぉーく) (あんやし)]。
+~             no    home is/are~in/at video~game(s) is/are a~lot~of  have~right?     
+$8348/1443ea83.mp3;14,990;9,590;6,806;5,492
+
+[LINE]
+Speaker415: うー、 うー…  上等、 家{やー}|んかい 戻ゆん{むどぅゆん}|わけ?
+~           yes  yes  OK         home to(wards) (we~are)~return(ing)  (is~the~case)
+$8348/2a1b237e.mp3;2,25;1,488;2,150;NaN,1100;NaN,662;NaN,188;NaN,250;NaN,412;NaN,275;NaN,163;NaN,237
+
+[LINE]
+Speaker414: うぅーうぅー{ウゥーウゥー}、 ビクラム|が 家{やー}|んかい 行ちゅん{いちゅん}。
+~           no  Vikram 's house~{やー} to(wards) to~go
+$8348/7315dc56.mp3;14,745;6,915
+
+[CONTINUATION]
+> What comes next?
+Speaker415: ぬーんち? あり|が 家{やー}|や [一杯{いっぺー} したくないけど]。
+~            why       he/she 's house~{やー} is  very~{いっぺー} boring/(I~don't~want~to~do)    
+$8348/b780698a.mp3;2,50;2,375;4,1338;2,312;NaN,125;NaN,313
+- 町屋
+~ (a)~store~{まちや} 
+- 新さる{みーさる} テレビゲーム
+~ new~{みーさる} (a)~video~game  
++ 一杯{いっぺー} したくないけど
+~ very~{いっぺー} boring/(I~don't~want~to~do)  
+
+[LINE]
+Speaker414: やしが、 あり|が テレベー 大さい{まぎさい}、 サッカー|ぬ 試合 見ゆぶさるどー{みゆぶさるんどー}。
+~           but  he/she 's TV~is big~and~(besides)~{まぎさい} soccer 's match~{しあい} (I)~want~to~watch~{みゆぶさるんどー}
+$8348/c36cf25f.mp3;3,15;6,740;5,362;12,1260;3,645
+
+[LINE]
+Speaker415: 父{すー}、 試合 見ゆぶさるん{みゆぶさるん}|やるはじ|しが、 試合 見ゆん{みゆん} 要りゆーやねーんど{いりゆーやねーんどー}。
+~           dad   (the)~match~{しあい} want~to~watch~{みゆぶさるん} probably but (the)~match~{しあい} to~watch~{みゆん} don't~needed~{いりゆーやねーんどー}
+$8348/d0000782.mp3;NaN,50;NaN,500;NaN,200;NaN,450;NaN,238;NaN,525;NaN,87;NaN,263;NaN,325;NaN,150;NaN,350;NaN,237;NaN,500;NaN,400;NaN,338;1,200;2,175;1,300;NaN,125;NaN,300
+
+[MULTIPLE_CHOICE]
+> Both Eddy and Junior…
++ …say they need something when they only want it.
+- …fly around on robots.
+- …play video games with Vikram.
+
+[MATCH]
+> Tap the pairs
+- 行ちゅん {いちゅん} <> to go
+-  ゲーム <> game
+- 要りゆー {いりゆー} <> (I) need
+- テレビゲーム <> video game(s)
+- ありが 家 {やー} <> his/her house
+

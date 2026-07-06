@@ -1,0 +1,126 @@
+[DATA]
+fromLanguageName=Junior's Decision
+icon=e0600de22649754eb7336b587834d36407767819
+set=10|1
+
+[HEADER]
+> Keputusan Junior
+~ decision ~    
+$6270/a1e97ae8.mp3;9,0;7,657
+
+[LINE]
+> Sekarang waktu istirahat makan~siang di sekolah Junior.
+~ now time recess lunch in school ~      
+$6270/a624cbb2.mp3;8,0;6,519;10,327;6,578;6,284;3,364;8,70;7,443
+
+[LINE]
+Speaker415: Selamat~siang, Bu Ani! Saya lapar sekali!
+~           good~afternoon Mrs. ~ I hungry very    
+$6270/a7409b3e.mp3;7,0;6,449;4,485;4,344;6,345;6,725;7,304
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker395: Halo, Junior. [Hari~ini menunya] ayam~goreng.    
+~           hello  ~   today the~menu fried~chicken  
+$6270/aa26772e.mp3;4,0;8,529;6,936;4,540;8,240;5,445;7,329
++ Hari ini menunya 
+- Hari ini malunya
+- Hari ini mutunya
+
+[LINE]
+Speaker395: Selain itu …  
+~           apart~from that 
+$6270/b30fdae2.mp3;6,0;4,514
+
+[LINE]
+Speaker395: … kamu juga boleh memilih salad atau kentang~goreng.
+~             you also can choose   salad    or fries          
+$6270/b4a5baac.mp3;6,0;5,599;6,266;8,294;6,415;5,400;8,255;7,385
+
+[MULTIPLE_CHOICE]
+> Junior can get either salad or fries with the chicken.
+- No, that's wrong.
++ Yes, that's right.
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: [(Saya) (mau) (kentang~goreng) (dan) (salad)]! 
+~           I want   fries            and   salad   
+$6270/b75ba3e2.mp3;4,0;4,365;8,209;7,367;4,301;6,120
+
+[LINE]
+Speaker395: Kamu hanya boleh memilih salah~satu dari dua~itu,  Junior.
+~           you only can choose one~(of) from those~two ~
+$6270/b9f16222.mp3;4,0;6,344;6,230;8,296;6,425;5,265;5,350;4,264;4,245;8,405
+
+[LINE]
+Speaker415: Hmm, saya suka kentang~goreng …
+~           ~   I like      fries
+$6270/ba54ff80.mp3;3,0;6,329;5,525;8,285;7,347
+
+[LINE]
+Speaker415: dan hari~ini sekolahnya sampai sore …
+~           and today the~school until afternoon
+$6270/bc53d1e4.mp3;3,0;5,219;4,266;11,288;7,592;5,325
+
+[POINT_TO_PHRASE]
+> Choose the option that means "healthy."
+Speaker415: … (tapi) (salad) (itu) (lebih) (+sehat).
+~              but    salad  (is) more    healthy      
+$6270/c89613e0.mp3;6,0;6,624;4,380;6,285;6,285
+
+[LINE]
+Speaker395: Junior?
+~            ~ 
+$6270/cab80f48.mp3;6,0
+
+[LINE]
+Speaker415: Kentang~goreng atau salad, ya? Hmm …
+~            fries          or salad ~    ~ 
+$6270/cc82bc4c.mp3;7,0;7,379;5,343;6,250;4,443;5,385
+
+[LINE]
+Speaker415: Oke deh, saya mau kentang~goreng saja … Eh, salad saja! Eh, hmm, yang~mana ya?
+~           ~ ~ I want fries (just) ~ salad (just) ~ ~ which~one ~
+$6270/ce56471e.mp3;3,0;4,379;6,327;4,567;8,185;7,342;5,235;5,400;7,515;5,562;4,470;5,455;6,550;5,400;3,235
+
+[LINE]
+Speaker415: Ah, aku bingung!       
+~           ~ I confused 
+$6270/d0a5ffc8.mp3;2,0;5,249;8,540
+
+[MULTIPLE_CHOICE]
+> Poor Junior! What problem does he have?
+- He ate too many fries.
+- He wants ice cream in his salad.
++ He can't choose between a salad and fries.
+
+[LINE]
+Speaker395: Junior!
+~            ~ 
+$6270/d2d432d8.mp3;6,0
+
+[LINE]
+Speaker415: Iya, Bu Ani?
+~           yes Mrs. ~ 
+$6270/d44648fe.mp3;3,0;4,409;4,365
+
+[LINE]
+Speaker395: Ini! Kentang~goreng dan salad, dua-duanya untuk|mu.
+~           here~(you~go)  fries and salad both for  you 
+$6270/d680522c.mp3;3,0;44,484;-35,201;7,425;4,390;6,180;5,429;7,585;9,470
+
+[MULTIPLE_CHOICE]
+> What did Mrs. Ani tell Junior to do?
+- Go somewhere else to eat.
++ Take both the fries and the salad.
+- Imagine that fries are salad.
+
+[MATCH]
+> Tap the pairs
+- lebih <> more
+- sehat <> healthy
+- salah satu <> one (of)
+- memilih <> choose
+- istirahat <> recess
+
