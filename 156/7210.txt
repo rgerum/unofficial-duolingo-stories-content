@@ -4,28 +4,24 @@ icon=f0d8a8f3340da1d468766192cafa7ac1ee986355
 set=10|2
 
 [HEADER]
-> Quiero{qui-iro} un~perro{pero}!
-~  Quero um~cão    
+> Quiero{qui-iro} un perro{pero}!
+~  Quero um cão    
 
 [LINE]
-Speaker415: Papá, tenemos~que falar.   
-~           Papá temos~que falar
+Speaker415: Papá, tenemos que falar.   
+~           Papá temos que falar
 
 [LINE]
-Speaker415: Quiero{qui-iro} un~perro{pero}!
-~            Quero um~cão   
-
-[SELECT_PHRASE]
-> Seleciona a frase em falta
-Speaker414: Junior, [tener{tenér}~un~perro{pero}] ye muita    lhida.
-~           Junior   ter~um~cão é muita trabalho  
-
-+ tener un perro
-- tener un carro
-- tener un kerro
+Speaker415: Quiero{qui-iro} un perro{pero}!
+~            Quero um cão   
 
 [LINE]
-Speaker415: Papá, fai~fabor{fabôr}! Sou  mi  repunsable{repúnsábhle}.
+Speaker414: Junior, [tener~un~perro{pero}] ye muito custoso.
+~           Junior   ter~um~cão é muito difícil  
+
+
+[LINE]
+Speaker415: Papá, por~fabor{fabôr}! Sou  mi  repunsable{repúnsábhle}.
 ~           Papá por~favor Sou muito responsável 
 
 [LINE]
@@ -33,7 +29,7 @@ Speaker414: Ah, si?
 ~            Ah  sim 
 
 [LINE]
-Speaker414: Anton, tenes~que  smundungar{esmundungar}   l'altemoble{láltemóbhle}…
+Speaker414: Antoce, tenes~que  lhimpar{esmundungar}   l'altemoble{láltemóbhle}…
 ~           Então tens~que limpar o~carro
 
 [MULTIPLE_CHOICE]
@@ -47,8 +43,8 @@ Speaker415: Stá~bien!
 ~            Está~bem        
 
 [LINE]
-Speaker414: …lhabar     l{}~bestido{lebestído}…     
-~             lavar o~roupa 
+Speaker414: …lhabar     la~roupa…     
+~             lavar a~roupa 
 
 [LINE]
 Speaker415: Si… 
@@ -65,23 +61,23 @@ Speaker415: Ai, nó…
 
 [POINT_TO_PHRASE]
 > Escolhe a opção que significa "limpou".
-> Trés  (horas) (açpuis), l (Junior) (+smundungou)  todo.
-~ Três horas depois o Junior limpou tudo 
+> Trés  (horas) (açpuis), (Junior) (+lhimpou)  todo.
+~ Três horas depois Junior limpou tudo 
 
 [LINE]
 Speaker415: Papá! Mira!
 ~            Papá    Olha 
 
 [LINE]
-Speaker414: Que~buono{bu-uno}!     Tu  sós mi  repunsable{repúnsábhle}.
-~            Que~bom Tu és muito responsável
+Speaker414: Que buono{bu-uno}!     Tu  sós de feito mi  repunsable{repúnsábhle}.
+~            Que bom Tu és de facto muito responsável
 
 [CONTINUATION]
 > O que vem a seguir?
-Speaker414: Aora{aóra} puodes{pu-udes}  tener{tenér}     [un~perro]!
+Speaker414: Agora puodes{pu-udes}  tener{tenér}     [un~perro]!
 ~          Agora podes ter um~cão     
 
-- bestido   
+- roupa   
 ~ roupa
 - ũa~bentana
 ~ uma~janela   
@@ -89,16 +85,16 @@ Speaker414: Aora{aóra} puodes{pu-udes}  tener{tenér}     [un~perro]!
 ~ um~cão   
 
 [LINE]
-Speaker415: Nó, oubrigado!   Nun~quiero{qui-iro}    un~perro{pero}…
-~           Não obrigado Não~quero um~cão    
+Speaker415: Nó, dius~te~pague!   Nun quiero{qui-iro}    un perro{pero}…
+~           Não obrigado Não quero um cão    
 
 [LINE]
 Speaker414: Porque nó? 
 ~           Porque não 
 
 [LINE]
-Speaker415: Stou{stôu} mi  anfadado! Nun~quiero{qui-iro}    ser   repunsable{repúnsábhle}!
-~           Estou  muito cansado    Não~quero ser responsável 
+Speaker415: Stou{stôu} mi  anfadado! Nun quiero{qui-iro}    ser   repunsable{repúnsábhle}!
+~           Estou  muito cansado    Não quero ser responsável 
 
 [MULTIPLE_CHOICE]
 > O Junior decidiu que…
@@ -108,7 +104,6 @@ Speaker415: Stou{stôu} mi  anfadado! Nun~quiero{qui-iro}    ser   repunsable{re
 
 [MATCH]
 > Tap the pairs
-- Smundungar <> Limpar
 - Lhabar <> Lavar
 - Anfadado <> Cansado
 - Bentanas <> Janelas
