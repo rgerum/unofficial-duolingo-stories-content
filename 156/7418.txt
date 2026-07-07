@@ -8,12 +8,12 @@ set=12|3
 ~ Isso é  arte 
 
 [LINE]
-> L'Eddi{Leddi} i l{}   sou{lessou} amigo,   Óscar, stán n'un museu d'arte.
+> Eddi{Leddi} i l   sou amigo,   Óscar, stán n'un museu d'arte.
 ~ O~Eddi é o seu amigo  Óscar  estão   num museu de~arte    
 
 [LINE]
-> L'Eddi{Leddi} mira     l{} retrato{leretrato}  d'un perro.
-~ O~Eddi olha um retrato dum cão  
+> Eddi{Leddi} mira     un retrato{leretrato}  d'un perro.
+~ Eddi olha um retrato dum cão  
 
 [MULTIPLE_CHOICE]
 > O Eddi está a ver uma pintura dum gato.
@@ -21,16 +21,16 @@ set=12|3
 + Não, isso está incorreto.
 
 [LINE]
-Speaker414: Á~Óscar, mira eilhi! Esta ye{yé} la mie pintura perferida! 
-~           Oh~Óscar, olha ali Esta é a minha pintura preferida 
+Speaker414: Á~Óscar, mira eilhi! Esta ye{yé} l miu quadro perferido! 
+~           Oh~Óscar, olha ali Esta é o meu quadro  preferida 
 
 [SELECT_PHRASE]
 > Seleciona a frase em falta
-Speaker592: Cuidas mesmo? [Essa pintura peç-me un cachico aporrinada].
-~            Achas mesmo Essa pintura parece-me um bocadinho aborrecida 
-- Essa pintura peç-me un cachico aborrecida
-+ Essa pintura peç-me un cachico aporrinada
-- Essa pintura parece-me un cachico aporrinada
+Speaker592: De~berdade cuidas esso? [Esse quadro peç-me un cachico aporrinado].
+~            De~verdade achas isso Esse quadro parece-me um bocadinho aborrecido 
+- Esse quadro peç-me un cachico aborrecido
++ Esse quadro peç-me un cachico aporrinado
+- Esse quadro peç-me un bocadico aporrinado
 
 [LINE]
 Speaker414: Quei? Ye un perro! Son mi  adbertidos!
@@ -45,7 +45,7 @@ Speaker592: …i   aquessa pintura  nun ye{yê}  arte.
 ~             e essa pintura não é arte  
 
 [LINE]
-Speaker414: Antoce porquei{porqueí}?
+Speaker414: Antoce, porquei{porqueí}?
 ~            Então porquê     
 
 
@@ -58,8 +58,8 @@ Speaker592: L'arte ye formidable{formidabhle}! Anspira-te! Fai-te querer bei-la 
 ~            A~arte     é formidável Inspira-te Faz-te querer vê-la o~dia~seguinte e o dia depois
 
 [LINE]
-> L'Óscar{Lóscar} mira   ũa{um-ha} sanduíche anriba{am-riba} d'un{dua} talho.
-~ O~Óscar vê uma  sanduíche em~cima    dum banco 
+> Óscar{Lóscar} bei   ũa{um-ha} sanduíche anriba{am-riba} d'un talho.
+~ Óscar vê uma  sanduíche em~cima    dum banco 
 
 [LINE]
 Speaker592: Esto si, Eddi! Esto  ye{yê} arte!
@@ -93,7 +93,7 @@ Speaker592: Perdon! Quei~stais~fazendo?!     Aquesso ye{yê} arte!
 ~            Perdão  Que~está~a~fazer Isso é arte  
 
 [LINE]
-Speaker307: Quei? Esto{Akêsto} nun~ye  arte, ye l{}   miu{lemiu} almuorço{almu-urço}! La catadorie d'arte ye ende al lhado de~l buosso amigo...
+Speaker307: Quei? Esto{Akêsto} nun~ye  arte, ye l   miu{lemiu} jantar! La catadorie d'arte ye ende al lhado de~l buosso amigo...
 ~            Quê   Isto não~é arte   é o meu almoço A categoria de~arte é aí ao lado do seu amigo   
 
 [MULTIPLE_CHOICE]
@@ -104,7 +104,7 @@ Speaker307: Quei? Esto{Akêsto} nun~ye  arte, ye l{}   miu{lemiu} almuorço{almu
 
 [MATCH]
 > Seleciona os pares
-- Almuorço/Jantar <> Almoço
+- Jantar <> Almoço
 - Cuidar <> Achar
 - Dantender <> Entender
 - Catadorie <> Categoria
