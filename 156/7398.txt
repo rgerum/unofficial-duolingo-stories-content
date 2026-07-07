@@ -4,20 +4,20 @@ icon=c29e4533eca0186f83adafac9383fef2ed3aee56
 set=12|2
 
 [HEADER]
-> Ls{} macacos{lezmâcácus}  
+> Ls macacos{lezmâcácus}  
 ~ Os macacos
 
 [LINE]
-> L'Eddi{leddi} i l{} Junior{lejúnior} stán{stánn-ne} ne{}~l{}  jardin zoológico{lezúlógico} .
+> Eddi{leddi} i Junior{lejúnior} stán{stánn-ne} ne~l  jardin zoológico{lezúlógico} .
 ~ O~Eddi e o Junior estão  no jardim zoológico       
 
 [LINE]
-> Eilhes{eílhes} stán acerca~de~ls{} elefantes{lezélefantes} .
+> Eilhes{eílhes} stán acerca~de~ls eilefantes{lezélefantes} .
 ~ Eles  estão   por~volta~dos     elefantes 
 
 
 [LINE]
-Speaker415: Papá, yá podemos{pu-udemos} ir~a~ber{mirárlez} ls{} macacos? Fai~fabor!!
+Speaker415: Papá, yá podemos{pu-udemos} ir-mos~a~ber{mirárlez} ls macacos? Por~fabor!!
 ~           Papá já podemos ir~ver os macacos   Por~favor
 
 [MULTIPLE_CHOICE]
@@ -30,54 +30,53 @@ Speaker414: Ls macacos? Porquei{porqueí}? Tu nunca ls quieres ir~a~ber.
 ~            Os macacos Porquê      Tu nunca os queres ir~ver 
 
 [LINE]
-Speaker415: Si, mas agora me~gustan{gústan}! Podemos{pu-udemos}~ir?
-~           Sim  mas  agora   eu~gosto~deles   Podemos~ir  
+Speaker415: Si, mas agora gustan-me! Podemos{pu-udemos}~ir-mos? Podemos?
+~           Sim  mas  agora   eu~gosto~deles   Podemos~ir  Podemos
 
 [SELECT_PHRASE]
 > Seleciona a frase em falta
-Speaker414: Junior, [ls{}~macacos{lezmâcácus}~stán] lhoinge{lóinge} d'eiqui{deíqui}. Stán ne~l'outro lhado de~l zoo!
+Speaker414: Junior, [ls~macacos~stán] lhoinge{lóinge} d'eiqui{deíqui}. Stán ne~l'outro lhado de~l zoo!
 ~           Junior   os~macacos~estão longe daqui Estão no~outro lado do zoo
 
-- les macacos stán
-- ls macacos están
+- ls macacos stais
 + ls macacos stán
 
 [LINE]
-Speaker415: Podemos~ir~debrebe! Tu~amas fugir!
-~           Podemos~ir~rápido       Tu~amas        correr
+Speaker415: Podemos ir-mos debrebe! Tu amas fugir!
+~           Podemos ir rápido       Tu amas        correr
 
 [CONTINUATION]
 > O que vem a seguir?
 
-Speaker414: Mmm{me}… stá~bien. Si, you [amo fugir]... dafeito
-~           Mmm  está~bem         Sim  eu amo    correr  totalmente
+Speaker414: Mmm{me}… stá~bien. Si, you [amo fugir]... de feito
+~ Mmm está~bem Sim eu amo correro de facto
 
 + amo fugir
 ~ amo correr 
 - amo ls macacos
 ~ amo os macacos
-- me~gustan ls elefantes
+- gustan-me ls eilefantes
 ~ gosto   os elefantes
 
 [LINE]
-> L{} Junior{lejúnior} i l'Eddi{leddi} ban{bán} mi debrebe.
-~ O Junior e o~Eddi vão   muito rápido 
+>  Junior{lejúnior} i Eddi{leddi} ban-se{bán} mi debrebe.
+~  Junior e Eddi vão   muito rápido 
 
 [POINT_TO_PHRASE]
 > Escolhe a opção que significa "rápido".
-Speaker415: (Puodes{pu-udes}~ir) (más) (+debrebe), (papá)?
+Speaker415: (Puodes{pu-udes}~ir-te) (más) (+debrebe), (papá)?
 ~            Podes~ir      mais rápido        papá   
 
 [LINE]
-Speaker414: Junior, tu  odias fugir...
+Speaker414: Junior, tu  oudias fugir...
 ~           Junior  tu odeias  correr
 
 [LINE]
-Speaker415: Si,  you odio fugir, mas amo gelado!
+Speaker415: Si,  you oudio fugir, mas amo gelado!
 ~           Sim  eu odeio correr   mas  amo     gelado 
 
 [LINE]
-Speaker415: I  hai{Ai} ũa{um-ha} loija{loja} de gelados acerca de~ls{} macacos{lezmâcacos}!
+Speaker415: I  hai{Ai} ũa{um-ha} lhoija{loja} de gelados acerca de~ls macacos{lezmâcacos}!
 ~           E há uma  loja de gelados    por~volta    dos macacos 
 
 [MULTIPLE_CHOICE]
@@ -89,8 +88,8 @@ Speaker415: I  hai{Ai} ũa{um-ha} loija{loja} de gelados acerca de~ls{} macacos{
 [MATCH]
 > Seleciona os pares
 - Eilhes <> Eles
-- Dafeito <> Totalmemte
-- Odio <> Odeio
+- Feito <> Facto
+- Oudiar <> Odiar
 - Debrebe <> Rápido
 - Fugir <> Correr
 
