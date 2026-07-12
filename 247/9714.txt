@@ -1,0 +1,125 @@
+[DATA]
+fromLanguageName=Encuentre a mi novia
+icon=0d18f0403cfa415591d7ef50a9e9c01f1094936e
+set=7|2
+
+[HEADER]
+> Find        My Girlfriend
+~ encuentre~a mi novia     
+
+[LINE]
+> Bea is   at the airport.   
+~ Bea está en el  aeropuerto 
+
+[LINE]
+> She  talks~to  the man    at the desk.     
+~ ella habla~con el  hombre en el  mostrador 
+
+[LINE]
+Speaker823: Hello! Can~I~help~you?
+~           hola   puedo~ayudarte 
+
+[LINE]
+Speaker507: Yes! I'm~going to Barcelona…
+~           sí   voy       a  Barcelona 
+
+[LINE]
+Speaker507: I  want   to~sit   next~to    my girlfriend on the plane.
+~           yo quiero sentarme al~lado~de mi novia      en el  avión 
+
+[MULTIPLE_CHOICE]
+> Bea quiere sentarse al lado de su madre en el avión.
++ No, no es así.
+- Sí, así es.
+
+[LINE]
+Speaker823: OK,        we       have    two seats    together.
+~           está~bien  nosotros tenemos dos asientos juntos   
+
+[MULTIPLE_CHOICE]
+> El empleado le dice a Bea que…
++ … hay dos asientos juntos en el avión.
+- … no hay asientos libres en el avión.
+- … solamente hay dos asientos en el avión.
+
+[LINE]
+Speaker507: Great! 
+~           genial 
+
+[LINE]
+Speaker823: Um… where is   your girlfriend?
+~           um  dónde está tu   novia      
+
+[POINT_TO_PHRASE]
+> Selecciona la opción que significa "encontrarla".
+Speaker507: (I)  (don't~know). (Can~you~help~me)  (+find~her)?   
+~            yo   no~sé         puede~ayudarme~a    encontrarla  
+
+[LINE]
+Speaker823: What~does~she~look~like?
+~           cómo~es~ella            
+
+[LINE]
+Speaker507: Hmm. She  is tall. She  has   dark~hair…  
+~           mmm  ella es alta  ella tiene pelo~oscuro 
+
+[LINE]
+Speaker823: OK.       
+~           está~bien 
+
+[LINE]
+Speaker507: She  loves sports       and cooking…  
+~           ella ama   los~deportes y   la~cocina 
+
+[LINE]
+Speaker823: Uh…
+~           eh 
+
+[LINE]
+Speaker507: She  loves animals…      but  she  drives too       fast.  
+~           ella ama~a los~animales  pero ella maneja demasiado rápido 
+
+[LINE]
+Speaker823: OK…        What is her name?  
+~           está~bien  cuál es su  nombre 
+
+[MULTIPLE_CHOICE]
+> ¿Por qué el empleado quiere saber acerca de la novia de Bea?
+- Él y Bea son muy buenos amigos.
++ Él está tratando de ayudar a Bea a encontrarla.
+- Él quiere practicar deportes con ella.
+
+[LINE]
+Speaker507: Oh. I  don't~know.
+~           ah  yo no~sé      
+
+[SELECT_PHRASE]
+> Completa la oración
+Speaker823: You don't~know [your~girlfriend's~name]?
+~           tú  no~conoces  el~nombre~de~tu~novia   
+- your good friends' names
+- your girlfriend's game
++ your girlfriend's name
+
+[LINE]
+Speaker507: I  don't~have a   girlfriend yet.    
+~           yo no~tengo   una novia      todavía 
+
+[LINE]
+Speaker507: Can~you~help~me  find      one?
+~           puede~ayudarme~a encontrar una 
+
+[MULTIPLE_CHOICE]
+> Bea quiere sentarse al lado de alguien que…
++ … pueda ser su novia.
+- … ronque muy fuerte.
+- … trabaje en el aeropuerto.
+
+[MATCH]
+> Selecciona los pares
+- name <> nombre
+- too <> demasiado
+- man <> hombre
+- I <> yo
+- loves <> ama
+
