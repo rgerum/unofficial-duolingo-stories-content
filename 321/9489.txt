@@ -15,14 +15,14 @@ set=1|4
 Speaker113: Kaixo, egun~on. 
 ~           hello  good~morning 
 
-[SELECT_PHRASE]
+[CONTINUATION]
+#Convert to SELECT PHRASE when audio
 > Select the missing phrase
 Speaker343: Kaixo,  [aireportura~joan]    behar~dut, mesedez.
 ~           hello    to~go~to~the~airport I~need     please    
-$9489/f05a5a98.mp3;5,125;1,538;13,112;5,713;9,250;4,237;1,313;8,75;0,725
 + aireportura joan
-- porteroz jantzi
-- airea portuan jan
+- bi entsalada
+- telefono berria
 
 [LINE]
 Speaker113: Ondo.
@@ -36,10 +36,11 @@ Speaker113: Oporretan?
 Speaker343: Ez~dira~oporrak…  
 ~           it's~not~a~vacation 
 
-[ARRANGE]
-> Tap what you hear
-Speaker343: [(Bilborako)  (txartel) (bat) (daukat).]
-~             to~Bilbao    ticket    one   I~have   
+[POINT_TO_PHRASE]
+#Convert to ARRANGE when audio
+> Choose the option that means "I have."
+Speaker343: (Bilborako)  (txartel) (bat) (+daukat).
+~            to~Bilbao    ticket    one    I~have   
 
 [LINE]
 Speaker343: Beno… bi txartel.
