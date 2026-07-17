@@ -12,7 +12,7 @@ set=1|2
 ~ Bea date     in~one she~is restaurant  in~one
 
 [LINE]
-Speaker507: Kaixo!  Zelan~zaude? 
+Speaker507: Kaixo!  Zelan~zaude?
 ~           hello   how~are~you 
 
 [LINE]
@@ -27,14 +27,14 @@ Speaker100: Zer  jan nahi duzu?
 Speaker507: Entsalada~bat.
 ~           a~salad
 
-[SELECT_PHRASE]
-> Select the missing phrase
-Speaker507: Gaur    [partidu~garrantzitsu~bat] dut.
-~           today   an~important~game          I~have    
-$9487/3fe2ddcd.mp3;4,138;11,312;13,500;4,625;4,225;0,338
-+ partidu garrantzitsu bat
-- batidu gatzdun bat
-- partida garaipen bat
+[CONTINUATION]
+#Convert to SELECT PHRASE when audio
+> What comes next?
+Speaker507: Gaur  partidu [garrantzitsu~bat dut].
+~           today match    an~important     I~have    
++ garrantzitsu bat dut
+- entsaladarekin
+- maite zaitut
 
 [LINE]
 Speaker100: A, kirola gustoko al duzu?
@@ -66,11 +66,10 @@ Speaker507: Nongoa~zara?
 Speaker100: Frantsesa naiz.
 ~           French    I~am  
 
-[ARRANGE]
-> Tap what you hear
-Speaker100: [(Nire~aita)  (Biarritzekoa~da)    (eta)   (nire~ama)  (Baionakoa da).]  
-~             my~father    is~from~Biarritz     and     my~mother   is~from~Bayonne   
-$9487/fa7b7360.mp3;4,125;5,275;14,388;3,800;7,362;7,250;4,275;11,263;3,662
+[POINT_TO_PHRASE]
+> Choose the option that means "my mother."
+Speaker100: (Nire~aita)  (Biarritzekoa~da)    (eta)   (+nire~ama)  (Baionakoa)    da. 
+~            my~father    is~from~Biarritz     and      my~mother   from~Bayonne she~is  
 
 [LINE]
 Speaker507: Biarritz atsegin~dut.
