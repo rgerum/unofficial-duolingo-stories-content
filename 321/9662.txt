@@ -41,10 +41,11 @@ Speaker343: Maialen,  hau  nire neba    da, Iñaki!
 Speaker342: Kaixo! 
 ~           hello 
 
-[ARRANGE]
-> Tap what you hear
-Speaker343: [(Eta) (hau) (nire) (aitona)     (da).]     
-~             and   this  my     grandfather  is  
+[POINT_TO_PHRASE]
+#Convert to ARRANGE when audio
+> Choose the option that means "grandfather."
+Speaker343: (Eta) (hau) (nire) (+aitona)    (da).   
+~            and   this  my     grandfather  is  
 
 [LINE]
 Speaker342: Egun~on. 
@@ -66,14 +67,14 @@ Speaker343: Hau  nire neba    da, Markel, eta nire neba,  Xabier.
 Speaker342: Kaixo, Markel. Kaixo, Xabier.
 ~           hello  Marcelo hello  Xavier 
 
-[SELECT_PHRASE]
-> Select the missing phrase
+[CONTINUATION]
+#Convert to SELECT PHRASE when audio
+> What comes next?
 Speaker342: Oso  [familia~handia] daukazu!
 ~           very big~family       you~have
-$9662/0145549a.mp3;3,125;9,213;7,475;8,350;0,587
 + familia handia
-- farmazia Diaz
-- fantasia berria
+- anai-arreba entsaladalari
+- bat ere
 
 [LINE]
 Speaker341: Baina nik alaba    bat besterik~ez daukat…    
