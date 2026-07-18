@@ -4,117 +4,119 @@ icon=5afbf601db955e3db76a96aea1d4e0a535c16e7c
 set=3|2
 
 [HEADER]
-> El  nuevo estudiante
-~ the new   student   
+> Ikasle  berria
+~ student the~new
 
 [LINE]
-> Zari y   Lily están en el  autobús.
-~ Zari and Lily are   on the bus     
+> Zari eta Lili autobusean daude.
+~ Zari and Lily on~the~bus they~are     
 
 [LINE]
-Speaker418: ¡Lily, hay      un nuevo estudiante en nuestra clase!
-~            Lily  there~is a  new   student    in our     class 
+Speaker418: Lili, ikasle  berri bat dago     gure~klasean!
+~           Lily  student new   one there~is in~our~class 
 
 [MULTIPLE_CHOICE]
-> Zari tells Lily that there's a new teacher at their school.
+> Zari tells Lili that there's a new teacher at their school.
 + No, that's wrong.
 - Yes, that's right.
 
 [LINE]
-Speaker418: Su  nombre es Miguel.
-~           his name   is Miguel 
+Speaker418: Bere izena Unai da.
+~           his  name  Unai is
 
 [LINE]
-Speaker416: ¿Miguel?
-~            Miguel 
+Speaker416: Unai?
+~           Unai 
 
 [LINE]
-Speaker418: Sí,  es    de   México.
-~           yes  he~is from Mexico 
+Speaker418: Bai, Nafarroakoa  da.
+~           yes  from~Navarre he~is 
 
 [LINE]
-Speaker418: ¡Su  padre  escribe libros!
-~            his father writes  books  
+Speaker418: Bere aita   liburuak idazten~ditu!
+~           his  father books    he~writes  
 
-[SELECT_PHRASE]
-> Select the missing phrase
-Speaker416: [Muy~interesante]. 
-~            very~interesting  
-- Tu interesante
-- Su interés antes
-+ Muy interesante
-
-[LINE]
-Speaker418: Habla     español, inglés  y   portugués. 
-~           he~speaks Spanish  English and Portuguese 
+[CONTINUATION]
+#Convert to SELECT PHRASE when audio
+> What comes next?
+Speaker416: A~ze   [interesgarria]!
+~           how...! interesting  
+- marroia
+- gazia
++ interesgarria
 
 [LINE]
-Speaker416: Ah, es    inteligente.
-~           oh  he~is intelligent 
+Speaker418: Euskaraz, espainieraz eta portugaleraz daki. 
+~           Basque    Spanish     and Portuguese   he~knows
 
 [LINE]
-Speaker418: Inteligente… y   alto. Y   tiene  muy  bonitos…
-~           intelligent  and tall  and he~has very pretty  
+Speaker416: Ah, azkarra     da.
+~           oh  intelligent he~is
+
+[LINE]
+Speaker418: Azkarra…    eta garaia. Eta oso  politak dira bere…
+~           intelligent and tall    and very pretty  are  his  
 
 [MULTIPLE_CHOICE]
-> How does Zari describe Miguel?
+> How does Zari describe Unai?
 - He's short and blond.
 - He's handsome and loud.
 + He's intelligent and tall.
 
 [LINE]
-Speaker416: Ja, ja, ¿sí? 
-~           ha  ha   yes 
+Speaker416: Ja, ja, bai? 
+~           ha  ha  yes 
 
 [LINE]
-Speaker418: Mmm… Muy  bonitos zapatos.
-~           hmm  very pretty  shoes   
+Speaker418: Mmm… Oso  politak dira bere zapatak.
+~           hmm  very pretty  are  his  shoes.   
 
 [POINT_TO_PHRASE]
 > Choose the option that means "behind."
-Speaker416: (Zari), (Miguel) (está) (+detrás~de) ti. 
-~            Zari    Miguel   is      behind     you 
+Speaker416: (Zari), (Unai) (zure)  (+atzean) dago. 
+~            Zari    Unai   of~you   behind  he~is
 
 [LINE]
-Speaker418: ¡¿Qué?! 
-~             what  
+Speaker418: Zer?! 
+~           what  
 
 [LINE]
-Speaker416: ¡Hola,  Miguel!
-~            hello  Miguel 
+Speaker416: Kaixo,  Unai!
+~           hello   Unai 
 
 [LINE]
-Speaker790: ¡Hola,  Lily! ¿Cómo~estás? 
-~            hello  Lily   how~are~you 
+Speaker790: Kaixo, Lili! Zelan~zaude? 
+~           hello  Lily   how~are~you 
 
 [LINE]
-Speaker416: Bien, gracias.  
+Speaker416: Ondo, eskerrik~asko.  
 ~           fine  thank~you 
 
-[ARRANGE]
-> Tap what you hear
-Speaker416: [(Miguel), (esta) (es) (mi~amiga),  (Zari).]
-~             Miguel    this   is   my~friend    Zari   
+[POINT_TO_PHRASE]
+#Convert to ARRANGE when audio
+> Choose the option that means "friend."
+Speaker416: (Unai), (hau) (nire) (+lagun) (Zari) da.
+~             Unai    this  my     friend   Zari  is  
 
 [LINE]
-Speaker416: A~ella~le~gustan tus…  zapatos.
-~           she~likes        your  shoes   
+Speaker416: Berari zure zapatak gustatzen~zaizkio.
+~           to~her your shoes   she~likes
 
 [LINE]
-Speaker418: Ah, mmm, hola…  Miguel.
-~           oh  hmm  hello  Miguel 
+Speaker418: Ah, mmm, kaixo… Unai.
+~           oh  hmm  hello  Unai 
 
 [MULTIPLE_CHOICE]
 > Zari didn't realize that…
-- …Miguel's shoes were so ugly.
-+ …Miguel was sitting behind her.
+- …Unai's shoes were so ugly.
++ …Unai was sitting behind her.
 - …her homework was due today.
 
 [MATCH]
 > Tap the pairs
-- Zari <> Zari
-- Sí <> yes
-- Bien <> fine
-- esta <> this
-- Qué <> what
+- zapata <> shoe
+- Bai <> yes
+- Ondo <> fine
+- hau <> this
+- Zer <> what
 
