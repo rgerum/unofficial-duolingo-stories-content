@@ -8,16 +8,16 @@ set=4|3
 ~ ropa~para~mis~vacaciones
 
 [LINE]
-> Lucyqa huk tiendapi kachkan.
-~ lucy en~una~tienda está
+> Lucyqa huk p'acha qhatupi kachkan.
+~ Lucy    una ropa   en~la~tienda está
 
 [LINE]
-Speaker416: Napaykuyki, ¿yanapata munankichu?
-~           hola         ayuda    necesita
+Speaker416: Imaynalla, ¿yanapata munankichu?
+~           hola        ayuda    necesita
 
 [LINE]
 Speaker509: Arí, samay p'unchawniykunapaq p'achata munani.
-~           sí   para~mis~vacaciones       ropa    necesito
+~           sí   descanso para~mis~días        ropa     necesito
 
 [MULTIPLE_CHOICE]
 > Lucy está comprando ropa para sus vacaciones.
@@ -25,8 +25,8 @@ Speaker509: Arí, samay p'unchawniykunapaq p'achata munani.
 + Sí, es correcto.
 
 [LINE]
-Speaker416: Allinmi.
-~           está~bien    
+Speaker416: Allin.
+~           está~bien
 
 [LINE]
 Speaker509: Huk vestidota munani.
@@ -34,7 +34,7 @@ Speaker509: Huk vestidota munani.
 
 [LINE]
 > Lilyqa huk q'umir vestidota mask'an.
-~ lily un vestido~verde busca
+~ Lily    un  verde   vestido   busca
 
 [MULTIPLE_CHOICE]
 > Lily está buscando...
@@ -44,61 +44,61 @@ Speaker509: Huk vestidota munani.
 
 [LINE]
 Speaker509: ¡Mana, ñuqa huk puka vestidota munani!
-~            no    yo   un  vestido~rojo quiero
+~            no    yo   un  rojo vestido   quiero
 
 [LINE]
 > Lilyqa huk puka vestidota mask'an.
-~ lily un vestido~rojo busca 
+~ Lily    un  rojo vestido   busca
 
 [LINE]
-Speaker509: Hinaspataq huk chaquetata munani.
-~           y           una chaqueta   quiero
+Speaker509: Huk chaquetatawan ima munani.
+~           una chaqueta      también quiero
 
 [ARRANGE]
 > Toca lo que escuchas
-> [(Lilyqa)(huk)(puka~chaquetata)(mask'an).]
-~   lily    una  chaqueta~roja    busca
+> [(Lilyqa)(huk)(puka)(chaquetata)(mask'an).]
+~   Lily    una  roja  chaqueta    busca
 
 [LINE]
 Speaker509: ¡Mana, ñuqa huk ch'umpi chaquetata munani!
-~            no    yo   una chaqueta~marrón quiero  
+~            no    yo   una marrón  chaqueta   quiero
 
 [LINE]
-Speaker416: Allinmi...
-~           está~bien
+Speaker416: Walliq pacha...
+~           bien   de~verdad
 
 [LINE]
-Speaker509: Huk puka vestido, huk ch'umpi chaqueta...
-~           un vestido~rojo una chaqueta~marrón  
+Speaker509: Huk puka vestidota, huk ch'umpi chaquetata...
+~           un  rojo vestido     una marrón  chaqueta
 
 [SELECT_PHRASE]
 > Selecciona la frase que falta
-Speaker509: ¡[Hinaspataq~huk~sombrero]!
-~             y un~sombrero
-- Hinaspataq huk zapato
-+ Hinaspataq huk sombrero
-- Hinaspataq huk chaqueta
+Speaker509: ¡[Huk~luq'utawan]!
+~             un sombrero~también
+- Huk zapatutawan
++ Huk luq'utawan
+- Huk chaquetatawan
 
 [LINE]
-> Lilyqa huk anqas sombrerota mask'an.
-~ lily un sombrero~azul busca 
+> Lilyqa huk anqas luq'uta mask'an.
+~ Lily    un  azul  sombrero busca
 
 [LINE]
-Speaker509: ¡Mana, ñuqa huk uqi sombrerota munani!
-~            no    yo   un  sombrero~gris quiero  
+Speaker509: ¡Mana, ñuqa huk uqi luq'uta munani!
+~            no    yo   un  gris sombrero quiero
 
 [LINE]
-> Lilyqa huk uqi sombrerota mask'an.
-~ lily un sombrero~gris busca
+> Lilyqa huk uqi luq'uta mask'an.
+~ Lily    un  gris sombrero busca
 
 [POINT_TO_PHRASE]
 > Elige la opción que significa "lista."
-Speaker509: ¡(Pachi)! ¡(+Wakichisqa) (kachkani) (samay~p'unchawniykunapaq)!
-~             gracias     lista       estoy      para~mis~vacaciones 
+Speaker509: ¡(Pachi)! ¡(+Wakichisqaña) (samay) (p'unchawniykunapaq) (kachkani)!
+~             gracias     ya~lista      descanso para~mis~días        estoy
 
 [LINE]
-Speaker416: Kunan ñuqa samay p'unchawkunata munani.
-~           ahora yo   vacaciones          necesito
+Speaker416: Kunanqa samay p'unchawkunata munani.
+~           ahora    descanso días          necesito
 
 [MULTIPLE_CHOICE]
 > ¡Pobre Lily! ¿Por qué necesita vacaciones?
@@ -108,9 +108,9 @@ Speaker416: Kunan ñuqa samay p'unchawkunata munani.
 
 [MATCH]
 > Toca los pares
-- hinaspataq <> y
-- puka chaqueta <> chaqueta~roja
-- uqi sombrero <> sombrero~gris
+- ima <> también
+- puka chaqueta <> roja chaqueta
+- uqi luq'uta <> gris sombrero
 - pachi <> gracias
 - mana <> no
 
