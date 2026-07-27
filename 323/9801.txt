@@ -1,5 +1,5 @@
 [DATA]
-fromLanguageName=At the Supermarket
+fromLanguageName=En el supermercado
 icon=9f4968b6294916f0d8c9f64c8a172ef8c0c368ef
 set=6|1
 
@@ -21,16 +21,16 @@ Speaker508: Ñuqa mana wayk'uyta munanichu.
 - Sí, es correcto.
 
 [LINE]
-Speaker507: ¡Wayk'uyqa ancha kusikuymi, Lin!
-~            cocinar    muy   divertido~es Lin
+Speaker507: ¡Wayk'uyqa ancha sumaqpuni, Lin!
+~            cocinar    muy   divertido~de~verdad Lin
 
 [LINE]
-Speaker508: Ñuqa ancha sayk'usqa kani.
+Speaker508: Ñuqa ancha sayk'usqa kachkani.
 ~           yo   muy   cansada    estoy
 
 [LINE]
-Speaker508: Bea, ¿restaurantipi mikhuyta munankichu?
-~           Bea   en~un~restaurante comer    quieres
+Speaker508: Bea, ¿Mikhuna wasipichu mikhuyta munanki?
+~           Bea   comida  en~la~casa comer    quieres
 
 [MULTIPLE_CHOICE]
 > Lin está cansada, por eso...
@@ -43,13 +43,13 @@ Speaker507: ¡Mana, ñuqa wayk'uyta munani!
 ~            no    yo   cocinar   quiero
 
 [POINT_TO_PHRASE]
-> Elige la opción que significa "necesitamos."
-Speaker508: (Allin)... ¿(Imata) (wayk'unapaq) (+munanchik)?
-~            está~bien   qué     para~cocinar    necesitamos
+> Elige la opción que significa "llevaremos."
+Speaker508: (Allin)... ¿(Imata) (wayk'unapaq) (+apasunchik)?
+~            está~bien   qué     para~cocinar    llevaremos
 
 [LINE]
-Speaker507: ¡Ñuqayku pastata munayku!
-~            nosotras pasta   necesitamos  ~     
+Speaker507: ¡Ñuqanchik pastata apasunchik!
+~            nosotras   pasta   llevaremos
 
 [LINE]
 > Paykuna pastata mask'anku.
@@ -57,48 +57,48 @@ Speaker507: ¡Ñuqayku pastata munayku!
 
 [SELECT_PHRASE]
 > Selecciona la frase que falta
-Speaker508: Ah... [Pastaqa~kaypi~kachkan].
-~           ah     la~pasta aquí  está
+Speaker508: Ah... [Kaypi~pastaqa~kachkan].
+~           ah     aquí  la~pasta está
 - Chaypi pasta kachkan
 - Pastaqa wasipi kachkan
-+ Pastaqa kaypi kachkan
++ Kaypi pastaqa kachkan
 
 [LINE]
-Speaker507: Hinaspataq huk tomatetapas munanchik.
-~           y           un  tomate~también necesitamos
+Speaker507: Chantapis juk ch'iltuta ima apasunchik.
+~           y~además  un  tomate      también llevaremos
 
 [ARRANGE]
 > Toca lo que escuchas
-> [(Paykuna) (tomateta) (mask'anku).]
-~   ellas     el~tomate  buscan
+> [(Paykunaqa) (ch'iltuta) (mask'anku).]
+~   ellas        el~tomate   buscan
 
 [LINE]
-Speaker507: ¡Ah! ¡Tomateqa kaypi kachkan!
-~            ah   el~tomate aquí  está
+Speaker507: ¡Ah! ¡Kaypi ch'iltuqa kachkan!
+~            ah   aquí  el~tomate está
 
 [LINE]
-Speaker507: Hinaspataq verdurakunatapas munanchik.
-~           y           vegetales~también necesitamos
+Speaker507: Chantapis q'umir qhurakunata ima apasunchik.
+~           y~además  verdes vegetales    también llevaremos
 
 [LINE]
-Speaker508: Ahh... hinaspataq wilalita...
-~           ahh    y           leche 
+Speaker508: Ahh... wilalita ima...
+~           ahh    leche    también
 
 [LINE]
-Speaker507: Hinaspataq t'antata...
-~           y           pan
+Speaker507: T'antata ima...
+~           pan     también
 
 [LINE]
-Speaker508: Achkha imakunata munanchik, Bea.
-~           muchas cosas     necesitamos Bea
+Speaker508: Tukuy imata rantinanchik tiyan, Bea.
+~           todas las~cosas comprar      tenemos~que Bea
 
 [LINE]
-Speaker507: Arí, hinaspataq ñuqa ancha sayk'usqa kani.
-~           sí   y           yo   muy   cansada    estoy
+Speaker507: Arí, ñuqataq ancha sayk'usqaña kachkani.
+~           sí   y~yo     muy   ya~cansada   estoy
 
 [LINE]
-Speaker508: ¿Restaurantipi mikhuyta munankichu?
-~            en~un~restaurante comer    quieres
+Speaker508: ¿Mikhuna wasipichu mikhuyta munanki?
+~            comida  en~la~casa comer    quieres
 
 [LINE]
 Speaker507: ¡Arí, ama~hina~kaspa!
@@ -112,9 +112,9 @@ Speaker507: ¡Arí, ama~hina~kaspa!
 
 [MATCH]
 > Toca los pares
-- achkha <> muchas
+- tukuy <> todas
 - kaypi <> aquí
 - kachkani <> estoy
-- -pas munanchik <> también~necesitamos
+- ima apasunchik <> también~llevaremos
 - ama hina kaspa <> por~favor
 
