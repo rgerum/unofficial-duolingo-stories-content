@@ -1,15 +1,15 @@
 [DATA]
-fromLanguageName=The Perfect Girlfriend
+fromLanguageName=La novia perfecta
 icon=802c81c8811f5ca43acd16ce2f8d32b18f15352f
 set=6|2
 
 [HEADER]
-> Allinpuni~salla
-~ la~novia~perfecta
+> Chiqankaq munasqa
+~ perfecta   novia
 
 [LINE]
-> Linqa trenpa estacionninpi kachkan.
-~ Lin   de~tren en~la~estación está
+> Linqa suchu suchu estacionpi kachkan.
+~ Lin   el    tren  en~la~estación está
 
 [LINE]
 > Payqa masin Martinta rikun.
@@ -21,8 +21,8 @@ set=6|2
 + No, es incorrecto.
 
 [LINE]
-> Payqa warmiwan kachkan.
-~ él    con~una~mujer está
+> Payqa huk warmiwan kachkan.
+~ él    una con~mujer está
 
 [LINE]
 Speaker508: ¡Imaynalla, Martín!
@@ -34,49 +34,49 @@ Speaker1087: ¡Imaynalla, Lin!
 
 [ARRANGE]
 > Toca lo que escuchas
-Speaker1187: [(Imaynalla,) (ñuqap) (sutiyqa) (Verónicami).]
+Speaker1187: [(Imaynalla,) (ñuqap) (sutiyqa) (Verónica).]
 ~              hola        mi      nombre    Verónica~es
 
 [LINE]
-Speaker508: Riqsispa kusikuni, ñuqa Lin kani.
-~           al~conocerte me~alegro yo   Lin soy
+Speaker508: Kusikuni riqsisuspa, ñuqa Lin kani.
+~           me~alegro al~conocerte yo   Lin soy
 
 [SELECT_PHRASE]
 > Selecciona la frase que falta
-Speaker1187: ¡[Boletokunata~rantiyta~munani], Martín!
-~              los~boletos comprar necesitar Martín
+Speaker1187: ¡[Boletokunata~rantinay~tiyan], Martín!
+~              los~boletos comprar tengo~que Martín
 - Boletokunata yupayta munani
-+ Boletokunata rantiyta munani
++ Boletokunata rantinay tiyan
 - Folletokunata rantiyta munani
 
 [LINE]
-Speaker1187: ¡Riqsispa kusikuni, Lin!
-~             al~conocerte me~alegro Lin
+Speaker1187: ¡Kusikuni riqsisuspa, Lin!
+~             me~alegro al~conocerte Lin
 
 [LINE]
 > Verónicaqa boletokunata rantiq rin.
 ~ Verónica   los~boletos a~comprar va
 
 [LINE]
-Speaker508: ¡Verónicaqa sumaqmi!
-~            Verónica   simpática~es   
+Speaker508: ¡Verónicaqa sumaq warmi!
+~            Verónica   simpática mujer~es
 
 [POINT_TO_PHRASE]
 > Elige la opción que significa "simpática."
-Speaker1087: (Arí), (payqa) (ancha) (+sumaqmi).
-~             sí     ella    muy     simpática~es    
+Speaker1087: (Arí), (payqa) (ancha) (+sumaq) (sunqu).
+~             sí     ella    muy     simpática de~corazón
 
 [LINE]
-Speaker508: Hinaspataq k'acha.
-~           y           bonita
+Speaker508: K'acha ima.
+~           bonita también
 
 [LINE]
 Speaker1087: ¿Eh? Arí.
 ~             eh  sí
 
 [LINE]
-Speaker508: ¡Payqa allinpuni sallam!
-~            ella  perfecta  novia~es
+Speaker508: ¡Payqa chiqan munasqa!
+~            ella  perfecta novia~es
 
 [MULTIPLE_CHOICE]
 > Lin dice que Verónica es...
@@ -85,20 +85,20 @@ Speaker508: ¡Payqa allinpuni sallam!
 - ...muy descortés.
 
 [LINE]
-Speaker1087: ¿Salla? ¡Mana, Verónicaqa mamaymi!
-~             novia   no    Verónica   mi~madre~es
+Speaker1087: ¿Munasqa? ¡Mana, Verónica, payqa mamay!
+~             novia     no    Verónica   ella  mi~madre~es
 
 [LINE]
-Speaker508: Qampa... ¿Mamaykichu?
-~           tuya      tu~madre
+Speaker508: Qampa... ¿Qampa mamaykichu?
+~           tuya      tu     tu~madre
 
 [LINE]
 Speaker1087: ¡Ja, ja! Arí.
 ~             ja  ja  sí
 
 [LINE]
-Speaker508: Eh... ¡Trenniyqa kaypi kachkan! ¡Tinkunakama!
-~           eh     mi~tren    aquí  está      adiós 
+Speaker508: Eh... ¡Suchu suchu kaypiña kachkan! ¡Tinkunakama!
+~           eh     el    tren  ya~aquí  está      adiós
 
 [MULTIPLE_CHOICE]
 > ¡Vaya! ¿Cuál fue el error de Lin?
@@ -109,7 +109,7 @@ Speaker508: Eh... ¡Trenniyqa kaypi kachkan! ¡Tinkunakama!
 [MATCH]
 > Toca los pares
 - suti <> nombre
-- riqsispa kusikuni <> mucho~gusto
+- kusikuni riqsisuspa <> mucho~gusto
 - ñuqa <> yo
 - payqa <> él
 - rantiq rin <> va~a~comprar
