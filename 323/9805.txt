@@ -4,8 +4,8 @@ icon=ce0ae956035c1bac6b9c64737466d59c5d027e97
 set=7|1
 
 [HEADER]
-> Musuq~videojuegota~munani
-~ nuevo~videojuego~necesito
+> Musuq videojuegota munani
+~ nuevo videojuego necesito
 
 [LINE]
 > Juniorwan Eddywan juk tiendapi kachkanku.
@@ -16,8 +16,8 @@ Speaker415: ¡Tatay, juk musuq videojuegota munani!
 ~            papá   un  nuevo videojuego   necesito
 
 [LINE]
-Speaker414: Mana, Junior. Mana juk musuq videojuegota munankichu.
-~           no    Junior  no   un  nuevo videojuego   necesitas
+Speaker414: Mana, Junior. Mana juk musuq videojuegota rantisaqchu.
+~           no    Junior  no   un  nuevo videojuego   compraré
 
 [MULTIPLE_CHOICE]
 > Eddy piensa que Junior necesita un videojuego nuevo.
@@ -25,52 +25,52 @@ Speaker414: Mana, Junior. Mana juk musuq videojuegota munankichu.
 + No, es incorrecto.
 
 [LINE]
-Speaker415: ¡Ama~hina~kaspa! ¡Kay robotkunap videojuegoqa ancha kusikuymi!
-~            por~favor         este de~robots  el~videojuego muy   divertido~es
+Speaker415: ¡Ama~hina~kaspa! ¡Kay videojuego robotmanta ancha allinpuni!
+~            por~favor         este videojuego de~robots  muy   bueno~de~verdad
 
 [SELECT_PHRASE]
 > Selecciona la frase que falta
-Speaker414: Junior, [qam~kay~videojuegota~munanki], ichaqa mana kay videojuegota munankichu.
-~           Junior   tú~este~videojuego~quieres     pero   no   este videojuego   necesitas
+Speaker414: Junior, [qam~kay~videojuegota~munanki], ichaqa mana kay videojuego ancha suyasqachu.
+~           Junior   tú   este videojuego   quieres   pero   no   este videojuego muy   necesario~es
 + Qam kay videojuegota munanki
 - Qam kay videojuegota rikunki
 - Qam kay tiendapi kachkanki
 
 [LINE]
-Speaker415: Allin, ¡ñuqa chayta munani! ¿Rantinchikchu?
-~           está~bien yo   eso    quiero    lo~compramos
+Speaker415: Allin, ¡ñuqa munani! ¿Rantisunchu?
+~           está~bien yo   quiero    lo~compramos
 
 [ARRANGE]
 > Toca lo que escuchas
-Speaker414: [(Mana)... (Wasiykipi) (achkha) (videojuegokunayki) (tiyan).]
-~             no        en~tu~casa muchos   tus~videojuegos       tienes
+Speaker414: [(Mana)... (Wasipi) (achkha) (videojuegokunayki) (tiyan).]
+~             no        en~casa  muchos   tus~videojuegos       tienes
 
 [LINE]
-Speaker415: Arí, arí... Allin, ¿wasiman rinchikchu?
-~           sí   sí     está~bien a~casa   vamos
+Speaker415: Arí, arí... Allin, ¿wasimanchu risun?
+~           sí   sí     está~bien a~casa      vamos
 
 [LINE]
-Speaker414: Mana, Vikrampa wasinman rinchik.
+Speaker414: Mana, Vikrampa wasinman risunchik.
 ~           no    de~Vikram a~su~casa vamos
 
 [CONTINUATION]
 > ¿Qué viene después?
-Speaker415: ¿Imarayku? ¡Wasinqa [ancha~aburridami]!
-~            por~qué     su~casa  muy~aburrida~es
+Speaker415: ¿Imarayku? ¡Wasinqa [mana~sumaqchu]!
+~            por~qué     su~casa  no   bonita~es
 - Juk tienda
 ~ una tienda
 - Juk musuq videojuego
 ~ un nuevo videojuego
-+ Ancha aburridami
-~ muy aburrida~es
++ Mana sumaqchu
+~ no bonita~es
 
 [LINE]
-Speaker414: Ichaqa televisionnin jatunmi, ñuqataq fútbol pukllayta qhawayta munani.
-~           pero   su~televisión grande~es y~yo    fútbol partido   mirar     necesito
+Speaker414: Ichaqa karu qhawananqa jatun, ñuqataq fútbol pukllaqkunata qhawayta munani.
+~           pero   su   televisión  grande~es y~yo    fútbol a~los~jugadores mirar     quiero
 
 [LINE]
-Speaker415: Tatay, qam fútbol pukllayta qhawayta munanki, ichaqa fútbol pukllayta qhawayta mana munankichu.
-~           papá   tú   fútbol partido   mirar     quieres   pero   fútbol partido   mirar     no   necesitas
+Speaker415: Tatay, qam fútbol pukllaqkunata qhawayta munanki, ichaqa fútbol pukllaqkunata qhawayta mana suyasqachu.
+~           papá   tú   fútbol a~los~jugadores mirar     quieres   pero   fútbol a~los~jugadores mirar     no   necesitas
 
 [MULTIPLE_CHOICE]
 > Tanto Eddy como Junior...
@@ -80,9 +80,9 @@ Speaker415: Tatay, qam fútbol pukllayta qhawayta munanki, ichaqa fútbol puklla
 
 [MATCH]
 > Toca los pares
-- wasiman rinchik <> vamos~a~casa
-- pukllay <> partido
-- munani <> necesito
+- wasiman risun <> vamos~a~casa
+- pukllaqkuna <> jugadores
+- munani <> quiero
 - videojuegokuna <> videojuegos
 - wasin <> su~casa
 
