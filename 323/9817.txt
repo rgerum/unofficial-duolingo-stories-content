@@ -8,28 +8,28 @@ set=10|1
 ~ la~decisión~de~Junior
 
 [LINE]
-> Juniorpa yachaywasinpi almuerzo pacham.
-~ de~Junior en~su~escuela almuerzo hora~es
+> Juniorpa yachay wasinpi mikhunan phaniña.
+~ de~Junior estudio en~su~casa su~almuerzo ya~es~hora
 
 [LINE]
-Speaker415: ¡Allin p'unchaw, señora Pérez! ¡Ancha yarqhasqa kani!
-~            buenos días      señora Pérez  mucha con~hambre estoy
+Speaker415: ¡Allin p'unchaw, mama Pérez! ¡Ancha yarqhasqa kachkani!
+~            buenos días      señora Pérez  muy   hambriento estoy
 
 [SELECT_PHRASE]
 > Selecciona la frase que falta
-Speaker395: Imaynalla, Junior. [Kunan~wallpata~kapuwanchik].
-~           hola        Junior   hoy~pollo~tenemos
-+ Kunan wallpata kapuwanchik
-- Kunan wallpata qhawasun
-- Kunan polota kapuwasun
+Speaker395: Imaynalla, Junior. [Kunan~wallpa~aycha~kapuwayku].
+~           hola        Junior   hoy~tenemos~pollo
++ Kunan wallpa aycha kapuwayku
+- Kunan wallpa aycha qhawasun
+- Kunan polo kapuwayku
 
 [LINE]
-Speaker395: Hinaspataq wallpawan...
-~           y           con~el~pollo
+Speaker395: Wallpa aychatawantaq...
+~           pollo  y~con~la~carne
 
 [LINE]
-Speaker395: ...ensaladota utaq papas fritasta mikhuyta atinki.
-~              una~ensalada o    papas fritas   comer    puedes
+Speaker395: ...ensaladatawan, papas fritastawan mikhuyta atinki.
+~              con~ensalada    papas con~fritas    comer    puedes
 
 [MULTIPLE_CHOICE]
 > Junior puede elegir una ensalada o papas fritas con el pollo.
@@ -38,37 +38,37 @@ Speaker395: ...ensaladota utaq papas fritasta mikhuyta atinki.
 
 [ARRANGE]
 > Toca lo que escuchas
-Speaker415: ¡[(Papas) (fritasta) (hinaspataq) (ensaladota) (munani)!]
-~              papas   fritas     y           una~ensalada quiero
+Speaker415: ¡[(Papas) (fritastawan) (ensaladatawan) (munani)!]
+~              papas   con~fritas    con~ensalada    quiero
 
 [LINE]
 Speaker395: Iskayninmanta hukllata mikhuyta atinki, Junior.
-~           de~las~dos   una~solamente comer puedes Junior
+~           de~las~dos   una~solamente comer    puedes Junior
 
 [LINE]
-Speaker415: Allin, papas fritasta ancha munani...
-~           bueno  papas fritas   mucho me~encantan
+Speaker415: Allin, papas fritasta anchata munani...
+~           bueno  papas fritas   mucho   me~encantan
 
 [LINE]
-Speaker415: Hinaspataq p'unchawqa ancha unay kanqa...
-~           y           el~día     muy   largo será
+Speaker415: P'unchawqa ancha unayniyuq kanqa...
+~           el~día     muy   largo      será
 
 [POINT_TO_PHRASE]
-> Elige la opción que significa "más saludable."
-Speaker415: ... (ichaqa) (ensaladaqa) (+aswan~saludablem).
-~               pero     la~ensalada    más~saludable~es
+> Elige la opción que significa "saludable."
+Speaker415: ... (Ensaladataq) (ancha) (+qhali).
+~               la~ensalada  muy     saludable
 
 [LINE]
 Speaker395: ¿Junior?
 ~           Junior
 
 [LINE]
-Speaker415: ¿Papas fritaschu utaq ensaladachu? Mmm...
-~            papas fritas     o    ensalada     mmm
+Speaker415: ¿Papas fritastachu ensaladatachu? Mmm...
+~            papas fritas~o     ensalada       mmm
 
 [LINE]
-Speaker415: Allin, papas fritasta munani... ¡Mana! ¡Ensaladota! ¡Mana!
-~           está~bien papas fritas quiero no ensalada no
+Speaker415: Allin, papas fritasta munani... ¡Mana! ¡Ensaladata! ¡Mana!
+~           está~bien papas fritas quiero no    ensalada    no
 
 [LINE]
 Speaker415: ¡Ay, mana yachanichu!
@@ -85,12 +85,12 @@ Speaker395: ¡Junior!
 ~           Junior
 
 [LINE]
-Speaker415: ¡Ay! ¿Arí, señora Pérez?
+Speaker415: ¡Ay! ¿Arí, mama Pérez?
 ~            ay   sí   señora Pérez
 
 [LINE]
-Speaker395: ¡Jap'iy! Papas fritaswan ensaladawan qampaq.
-~            toma    papas con~fritas y~ensalada para~ti
+Speaker395: ¡Jap'iy! Qampaq papas fritaswan ensaladawan ima.
+~            toma    para~ti papas con~fritas con~ensalada también
 
 [MULTIPLE_CHOICE]
 > ¿Qué le dijo la señora Pérez a Junior que hiciera?
@@ -101,8 +101,8 @@ Speaker395: ¡Jap'iy! Papas fritaswan ensaladawan qampaq.
 [MATCH]
 > Toca los pares
 - -m <> es
-- aswan saludable <> más~saludable
+- qhali <> saludable
 - munani <> quiero
 - -qa <> el
-- Juniorpa yachaywasin <> la~escuela~de~Junior
+- Juniorpa yachay wasin <> la~escuela~de~Junior
 
