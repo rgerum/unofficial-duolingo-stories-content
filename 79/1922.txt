@@ -1,4 +1,4 @@
-# Forced alignment: Danish human-audio word timings applied 2026-06-30 from batches da-en-prod-all-20260612-190037, da-en-prod-failed-rerun-20260615-134756, and da-en-prod-audio-drift-rerun-20260625-final.
+# Forced alignment: word timings applied 2026-07-30 from batches da-en-prod-all-20260612-190037, da-en-prod-failed-rerun-20260615-134756, da-en-prod-audio-drift-rerun-20260625-final, da-en-prod-targeted-rerun-20260728-v2, da-en-prod-accent-rerun-20260729, da-en-prod-9061-rerun-20260729, da-en-prod-7799-rerun-20260729-v2.
 [DATA]
 fromLanguageName=At the Supermarket
 icon=9f4968b6294916f0d8c9f64c8a172ef8c0c368ef
@@ -7,17 +7,17 @@ set=6|1
 [HEADER]
 > I~supermarkedet
 ~ At~the~supermarket 
-$1922/_96001106.mp3;1,126;14,63
+$1922/_96001106.mp3;1,126;14,42
 
 [LINE]
 > Lin er   i   supermarkedet   med   Bea.
 ~ Lin is   at the~supermarket  with Bea 
-$1922/_c1ee83c5.mp3;3,567;3,63;4,42;16,21;6,819;6,252
+$1922/_c1ee83c5.mp3;3,147;3,231;4,189;16,84;6,861;6,252
 
 [LINE]
 Speaker508: Jeg~vil~ikke lave~mad.
 ~           I~don't~want to~cook 
-$1922/_ec8ee446.mp3;3,147;4,63;5,84;5,189;4,189
+$1922/_ec8ee446.mp3;3,147;4,105;5,84;5,126;4,147
 
 [MULTIPLE_CHOICE]
 > Lin can't wait to cook dinner.
@@ -27,17 +27,17 @@ $1922/_ec8ee446.mp3;3,147;4,63;5,84;5,189;4,189
 [LINE]
 Speaker507: At~lave~mad~er meget sjovt, Lin!
 ~           Cooking~is      very fun     Lin 
-$1922/_fdf8aac8.mp3;2,105;5,84;4,252;3,294;6,252;6,336;5,315
+$1922/_fdf8aac8.mp3;2,105;5,63;4,231;3,357;6,210;6,357;5,315
 
 [LINE]
 Speaker508: Jeg~er meget træt.
 ~           I~am  very tired   
-$1922/_6a98c901.mp3;3,84;3,105;6,105;5,252
+$1922/_6a98c901.mp3;3,105;3,147;6,42;5,273
 
 [LINE]
 Speaker508:  Vil~du     spise på restaurant,    Bea?
 ~           Do~you~want to~eat at a~restaurant   Bea 
-$1922/_6625a736.mp3;3,21;3,105;10,168;3,231;11,84;8,546
+$1922/_6625a736.mp3;3,84;3,84;10,63;3,273;11,126;8,525
 
 [MULTIPLE_CHOICE]
 > Lin is tired, so she…
@@ -48,29 +48,29 @@ $1922/_6625a736.mp3;3,21;3,105;10,168;3,231;11,84;8,546
 [LINE]
 Speaker507: Nej, jeg vil lave~mad!
 ~            No  I  want  to~cook 
-$1922/_0495c110.mp3;3,252;5,525;4,420;5,147;4,252
+$1922/_0495c110.mp3;3,210;5,945;4,84;5,105;4,252
 
 [POINT_TO_PHRASE]
 > Choose the option that means "do we need."
 Speaker508: (Okay)… (Hvad)  (+har~vi~brug~for) (for~at~lave~mad)?    
 ~            Okay     What    we~need           in~order~to~cook  
-$1922/_4994ec65.mp3;4,126;6,651;5,504;3,105;5,147;4,210;4,315;3,294;5,105;4,231
+$1922/_4994ec65.mp3;4,105;6,693;5,483;3,105;5,105;4,252;4,336;3,294;5,84;4,189
 
 [LINE]
 Speaker507: Vi~har~brug~for pasta!
 ~            We~need        pasta     
-$1922/_73d051b7.mp3;2,105;4,63;5,84;4,147;6,126
+$1922/_73d051b7.mp3;2,126;4,42;5,84;4,168;6,147
 
 [LINE]
 > De leder~efter pastaen.
 ~ They look~for the~pasta 
-$1922/_4b9c4fda.mp3;2,315;6,42;6,252;8,252
+$1922/_4b9c4fda.mp3;2,210;6,84;6,315;8,273
 
 [SELECT_PHRASE]
 > Select the missing phrase
 Speaker508: Åh… [Pastaen~er~her].
 ~           Oh   the~pasta~is~here   
-$1922/_b7d6ee30.mp3;2,189;9,651;3,714;4,126
+$1922/_b7d6ee30.mp3;2,168;9,630;3,777;4,126
 - Pastaen er mere
 - Pasta er væk
 + Pastaen er her
@@ -78,53 +78,53 @@ $1922/_b7d6ee30.mp3;2,189;9,651;3,714;4,126
 [LINE]
 Speaker507: Og vi~har~også~brug~for en tomat.
 ~           And we~also~need        a  tomato 
-$1922/_e09538ce.mp3;2,84;3,63;4,84;5,105;5,189;4,147;3,126;6,126
+$1922/_e09538ce.mp3;2,105;3,63;4,84;5,84;5,147;4,189;3,168;6,84
 
 [ARRANGE]
 > Tap what you hear
 > [(De) (leder~efter)   (tomaterne).]
 ~   They  look~for      the~tomatoes   
-$1922/_419d7f76.mp3;2,210;6,42;6,231;12,273
+$1922/_419d7f76.mp3;2,105;6,84;6,294;12,273
 
 [LINE]
 Speaker507:  Åh! Tomaten    er   her!
 ~            Oh  The~tomato is   here 
-$1922/_331fe019.mp3;2,987;9,84;6,357;6,84
+$1922/_331fe019.mp3;2,210;9,483;6,756;6,63
 
 [LINE]
 Speaker507: Og vi~har~også~brug~for  grøntsager. 
 ~           And we~also~need        vegetables 
-$1922/_151e8dec.mp3;2,84;3,63;4,84;5,210;5,252;4,168;12,252
+$1922/_151e8dec.mp3;2,105;3,63;4,84;5,126;5,273;4,273;12,147
 
 [LINE]
 Speaker508: Åhhh, og mælk...
 ~           Ohh  and milk    
-$1922/_92fae5a8.mp3;4,1008;4,210;5,84
+$1922/_92fae5a8.mp3;4,861;4,126;5,273
 
 [LINE]
 Speaker507: Og brød...  
 ~           And bread   
-$1922/_61fc220f.mp3;2,189;5,189
+$1922/_61fc220f.mp3;2,168;5,231
 
 [LINE]
 Speaker508: Vi~har~brug~for mange ting,  Bea.
 ~           We~need         many   things  Bea 
-$1922/_54f1a707.mp3;2,84;4,63;5,105;4,189;6,210;5,273;6,252
+$1922/_54f1a707.mp3;2,105;4,42;5,105;4,189;6,168;5,315;6,273
 
 [LINE]
 Speaker507: Ja, og jeg~er    meget træt.
 ~           Yes  and I~am    very tired   
-$1922/_467713a3.mp3;2,147;4,294;4,315;3,105;9,105;5,378
+$1922/_467713a3.mp3;2,147;4,315;4,336;3,147;9,42;5,294
 
 [LINE]
 Speaker508: Vil~du~gerne         spise på    restaurant?
 ~           Do~you~want(polite) to~eat at~a  restaurant  
-$1922/_7027fb54.mp3;3,147;3,63;6,42;14,210;3,189;14,105
+$1922/_7027fb54.mp3;3,84;3,63;6,42;14,231;3,231;14,84
 
 [LINE]
 Speaker507: Ja, tak!
 ~           Yes  please    
-$1922/_49547db4.mp3;2,294;5,84
+$1922/_49547db4.mp3;2,294;5,105
 
 [MULTIPLE_CHOICE]
 > Why did Bea agree to eat at a restaurant?
