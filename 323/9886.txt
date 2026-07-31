@@ -1,116 +1,115 @@
 [DATA]
-fromLanguageName=Junior's Breakfast
+fromLanguageName=El desayuno de Junior
 icon=6d79d91b8caad82e9f6ce44a1b458f12ac6a7a9f
 set=16|4
 
 [HEADER]
-> El~desayuno~de~Junior
-~ Junior's~breakfast   
+> Juniorpa paqarin mikhunan
+~ de~Junior mañana su~comida
 
 [LINE]
-> Eddy está~haciendo el~desayuno para Junior.
-~ Eddy is~making     breakfast   for  Junior 
+> Eddyqa Juniorpaq paqarin mikhunata wayk'uchkan.
+~ Eddy   para~Junior mañana comida   está~cocinando
 
 [LINE]
-Speaker415: ¡Hola,  papá! ¿Qué  haces?        
-~            hello  dad    what you~are~doing 
+Speaker415: ¡Imaynalla, tatay! ¿Imata ruwachkanki?
+~            hola        papá   qué   estás~haciendo
 
 [LINE]
-Speaker414: ¡Buenos~días,  Junior! ¡Te~estoy~haciendo~el~desayuno!
-~            good~morning  Junior   I'm~making~breakfast~for~you  
+Speaker414: ¡Allin p'unchaw, Junior! ¡Paqarin mikhunata wayk'upuachkayki!
+~            buenos días      Junior    de~mañana comida   estoy~cocinándote
 
 [MULTIPLE_CHOICE]
-> Eddy is cooking dinner.
-- Yes, that's right.
-+ No, that's wrong.
+> Eddy está preparando la cena.
+- Sí, es correcto.
++ No, es incorrecto.
 
 [LINE]
-Speaker415: ¿El~desayuno?
-~            breakfast   
+Speaker415: ¿Paqarin mikhunata?
+~            mañana  comida
 
 [CONTINUATION]
-> What comes next?
-Speaker414: Sí,  nunca~tengo  tiempo de~hacerte  [el~desayuno].
-~           yes  I~never~have time   to~make~you  breakfast    
-- las~tareas  
-~ the~homework
-+ el~desayuno
-~ breakfast  
-- papá
-~ dad 
+> ¿Qué viene después?
+Speaker414: Arí, qampaq [paqarin~mikhunata] wayk'upunaypaq manapuni pachay tiyanchu.
+~           sí   para~ti el~desayuno para~prepararte nunca tiempo tengo
+- Tareakunata
+~ las~tareas
++ Paqarin mikhunata
+~ el~desayuno
+- Tatay
+~ papá
 
 [LINE]
-Speaker414: ¡Pero hoy   es   diferente!
-~            but  today it's different 
+Speaker414: ¡Ichaqa kunanqa huk jinam!
+~            pero   hoy      diferente es
 
 [LINE]
-Speaker415: Papá, no~quiero    desayunar.        
-~           dad   I~don't~want to~have~breakfast 
+Speaker415: Tatay, paqarin mikhunata mana munanichu.
+~           papá   mañana  comida   no   quiero
 
 [LINE]
-Speaker414: ¡¿Qué?!  Pero estoy~haciendo huevos…
-~             what   but  I'm~making     eggs   
+Speaker414: ¿Ima? Ichaqa runtukunata wayk'uchkani...
+~            qué   pero   huevos       estoy~cocinando
 
 [SELECT_PHRASE]
-> Select the missing phrase
-Speaker415: [No~quiero~huevos]. 
-~            I~don't~want~eggs  
-- No quiero nuevos
-- Lo quiero nuevo
-+ No quiero huevos
+> Selecciona la frase que falta
+Speaker415: [Mana~runtukunata~munanichu].
+~            no~quiero~huevos
+- Mana musuqkunata munanichu
+- Musuqta munani
++ Mana runtukunata munanichu
 
 [LINE]
-Speaker414: ¡Pero a~ti~te~encantan!
-~            but  you~love~them    
+Speaker414: ¡Ichaqa qamqa anchata munanki!
+~            pero   tú    mucho   los~amas
 
 [LINE]
-Speaker415: Sí,  pero…
-~           yes  but  
+Speaker415: Arí, ichaqa...
+~           sí    pero
 
 [POINT_TO_PHRASE]
-> Choose the option that means "bacon."
-Speaker414: ¡(Y)   (hay)      (+tocino) (también)!
-~             and   there~is    bacon    too      
+> Elige la opción que significa "tocino."
+Speaker414: ¡(Hinaspataq) (+Tocinopas) (kachkan)!
+~              y             tocino~también hay
 
 [LINE]
-Speaker414: ¡A~ti~te~encanta el~tocino!
-~            you~love        bacon     
+Speaker414: ¡Qamqa tocinota anchata munanki!
+~            tú    el~tocino mucho   amas
 
 [LINE]
-Speaker415: Sí,  pero…
-~           yes  but  
+Speaker415: Arí, ichaqa...
+~           sí    pero
 
 [LINE]
-Speaker414: ¿Qué? 
-~            what 
+Speaker414: ¿Ima?
+~            qué
 
 [LINE]
-Speaker415: Papá… ¡ya~es        la~una!     
-~           dad    it's~already one~o'clock 
+Speaker415: Tatay... ¡Huk phaniña!
+~           papá     la~una ya~es
 
 [LINE]
-> Eddy mira     su~reloj. 
-~ Eddy looks~at his~watch 
+> Eddyqa relojñinta qhawan.
+~ Eddy   su~reloj    mira
 
 [LINE]
-Speaker414: Ay, no… Hacer~el~desayuno toma  mucho    tiempo.
-~           oh  no  making~breakfast  takes a~lot~of time   
+Speaker414: Ay, mana... Paqarin mikhunata wayk'uyqa achkha pachata apakun.
+~            ay  no     de~mañana comida   cocinar   mucho  tiempo   toma
 
 [LINE]
-Speaker415: ¡Pero ahora podemos~hacer el~almuerzo!
-~            but  now   we~can~make   lunch       
+Speaker415: ¡Ichaqa kunan almuerzota wayk'uyta atinchik!
+~            pero   ahora almuerzo   cocinar   podemos
 
 [MULTIPLE_CHOICE]
-> Why didn't Junior want breakfast?
-- He hates bacon and eggs.
-+ It's already time for lunch.
-- He has an upset stomach.
+> ¿Por qué Junior no quería desayunar?
+- Odia el tocino y los huevos.
++ Ya es hora de almorzar.
+- Le duele el estómago.
 
 [MATCH]
-> Tap the pairs
-- toma <> takes
-- A ti te encanta <> you love
-- papá <> dad
-- ahora <> now
-- Hola <> hello
-
+> Toca los pares
+- apakun <> toma
+- qam anchata munanki <> a~ti~te~encanta
+- tatay <> papá
+- kunan <> ahora
+- imaynalla <> hola
