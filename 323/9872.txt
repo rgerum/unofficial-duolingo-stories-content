@@ -13,10 +13,10 @@ set=13|2
 
 [SELECT_PHRASE]
 > Selecciona la frase que falta
-> [Payqa~iskay~pizzayuqmi].
-~  ella~tiene~dos~pizzas
+> [Payqa~iskay~pizzata~jap'ichkan].
+~  ella dos pizzas tiene
 - Payqa llimp'ikunata tiyan
-+ Payqa iskay pizzayuqmi
++ Payqa iskay pizzata jap'ichkan
 - Payqa pizzakunawan rin
 
 [LINE]
@@ -24,16 +24,16 @@ set=13|2
 ~ ella  a~Óscar en~la~calle ve
 
 [LINE]
-Speaker592: ¡Imaynalla, Lin! ¿Hinaspataq chay pizzakuna?
-~            hola        Lin   y           esas pizzas
+Speaker592: ¡Imaynalla, Lin! ¿Chay pizzakunarí?
+~            hola        Lin   esas pizzas~y
 
 [LINE]
-Speaker508: Emiliop restaurantinmantam kanku.
-~           de~Emilio de~su~restaurante son
+Speaker508: Emiliop mikhuna wasinmanta kanku.
+~           de~Emilio de~comida su~restaurante son
 
 [LINE]
-Speaker592: ¡Chay restauranteta ancha munani!
-~            ese  restaurante  mucho me~encanta
+Speaker592: ¡Chay mikhuna wasita anchata munani!
+~            ese  de~comida restaurante mucho   me~encanta
 
 [CONTINUATION]
 > ¿Qué viene después?
@@ -47,54 +47,54 @@ Speaker592: ¡Ñuqapis [pizzata] munani!
 ~ calle
 
 [LINE]
-Speaker508: Ah, ichaqa restauranteqa wichq'asqa kachkan.
-~           ah  pero   el~restaurante cerrado     está
+Speaker508: Ah, ichaqa mikhuna wasiqa wisq'asqa kachkan.
+~           ah  pero   comida  el~restaurante cerrado    está
 
 [LINE]
 Speaker592: Ay, mana...
 ~            ay  no
 
 [LINE]
-Speaker592: Qamqa iskay pizzayuq kanki. ¿Pizzaykimanta hukta rantiyta atinichu?
-~            tú    dos   con~pizzas estás    de~tus~pizzas una comprar puedo
+Speaker592: Qamqa iskay pizzata jap'ichkanki. ¿Juknin pizzaykita rantikapuykimanchu?
+~            tú    dos   pizzas  estás~llevando una    tu~pizza podrías~venderme
 
 [LINE]
-Speaker508: Mana, llakikuni. Hukqa awichay Lucypaq, waktaq ñuqapaq.
-~           no    lo~siento   una   mi~abuela para~Lucy la~otra para~mí
+Speaker508: Mana, qhispichiway. Jukqa awichay Lucypaq, juknintaq ñuqapaq.
+~           no    discúlpame    una   mi~abuela para~Lucy la~otra  para~mí
 
 [LINE]
-Speaker592: Mmm... ¿Pizzaykimanta pisillata mikhuyta atinichu?
-~            mmm    de~tu~pizza     un~poco  comer    puedo
+Speaker592: Mmm... ¿Pizzaykimanta uchhikanta mikhuriymanchu?
+~            mmm    de~tu~pizza     un~poco    podría~comer
 
 [POINT_TO_PHRASE]
 > Elige la opción que significa "extraño."
-Speaker508: (Eh)... (Mana), (Óscar), (chayqa) (+musphaypaqmi).
-~            eh      no      Óscar    eso       extraño~es
+Speaker508: (Eh)... (Mana), (Óscar), (chayqa) (+mana~sumaqchu~rijch'awan).
+~            eh      no      Óscar    eso       me~parece~extraño
 
 [LINE]
 > Linqa ripun.
 ~ Lin   se~va
 
 [LINE]
-Speaker592: ¡Kunanqa chiqanpuni chay restaurantemanta pizzata munani!
-~            ahora    de~verdad  ese  del~restaurante pizza   quiero
+Speaker592: ¡Kunanqa chiqanpuni chay mikhuna wasimanta pizzata munani!
+~            ahora    de~verdad  esa  comida  de~la~casa pizza   quiero
 
 [ARRANGE]
 > Toca lo que escuchas
-> [(Óscarqa) (huk~runata) (karu~waqyanawan) (waqyan).]
-~   Óscar     a~alguien    por~teléfono       llama
+> [(Óscarqa) (pitachus) (karu~waqyananmanta) (waqyan).]
+~   Óscar     a~alguien por~teléfono       llama
 
 [LINE]
-Speaker592: Imaynalla, Lucy. Ñuqa Óscar kani. ¿Tuta mikhunapaq wakichisqayki tiyanchu?
-~            hola        Lucy   yo   Óscar soy     para~la~cena tus~planes     tienes
+Speaker592: Imaynalla, Lucy. Ñuqa Óscar kani. ¿Aswan ch'isipaq pachayki tiyanchu?
+~            hola        Lucy   yo   Óscar soy     más   para~la~tarde tu~tiempo tienes
 
 [LINE]
 Speaker509: Arí, Linwan pizzata mikhusaqku. ¿Ñuqaykuwan mikhuyta munankichu?
 ~           sí   con~Lin pizza   comeremos     con~nosotras comer    quieres
 
 [LINE]
-Speaker592: Arí, allin. ¡Ancha pachi!
-~            sí   está~bien muchas gracias
+Speaker592: Arí, walliq pacha. ¡Achkha pachi!
+~            sí   muy    bien      muchas gracias
 
 [MULTIPLE_CHOICE]
 > ¡Qué astuto! Óscar llamó a Lucy porque...
@@ -105,7 +105,7 @@ Speaker592: Arí, allin. ¡Ancha pachi!
 [MATCH]
 > Toca los pares
 - payqa <> ella
-- pisilla <> un~poco
-- wakichisqakuna <> planes
+- uchhikanta <> un~poco
+- pachayki <> tu~tiempo
 - -pi <> en
 - -ta <> la
