@@ -4,20 +4,20 @@ icon=6d79d91b8caad82e9f6ce44a1b458f12ac6a7a9f
 set=16|4
 
 [HEADER]
-> Juniorpa paqarin mikhunan
-~ de~Junior mañana su~comida
+> Juniorpa~q'uñi~yaku
+~ de~Junior~agua~caliente
 
 [LINE]
-> Eddyqa Juniorpaq paqarin mikhunata wayk'uchkan.
-~ Eddy   para~Junior mañana comida   está~cocinando
+> Eddyqa Juniorpaq q'uñi yakuta wakichichkan.
+~ Eddy   para~Junior caliente agua  está~preparando
 
 [LINE]
 Speaker415: ¡Imaynalla, tatay! ¿Imata ruwachkanki?
 ~            hola        papá   qué   estás~haciendo
 
 [LINE]
-Speaker414: ¡Allin p'unchaw, Junior! ¡Paqarin mikhunata wayk'upuachkayki!
-~            buenos días      Junior    de~mañana comida   estoy~cocinándote
+Speaker414: ¡Allin p'unchaw, Junior! ¡Q'uñi yakuta wakichipuchkayki!
+~            buenos días      Junior    caliente agua  estoy~preparándote
 
 [MULTIPLE_CHOICE]
 > Eddy está preparando la cena.
@@ -25,31 +25,31 @@ Speaker414: ¡Allin p'unchaw, Junior! ¡Paqarin mikhunata wayk'upuachkayki!
 + No, es incorrecto.
 
 [LINE]
-Speaker415: ¿Paqarin mikhunata?
-~            mañana  comida
+Speaker415: ¿Q'uñi yakuta?
+~            caliente agua
 
 [CONTINUATION]
 > ¿Qué viene después?
-Speaker414: Arí, qampaq [paqarin~mikhunata] wayk'upunaypaq manapuni pachay tiyanchu.
-~           sí   para~ti el~desayuno para~prepararte nunca tiempo tengo
-- Tareakunata
+Speaker414: Arí, manapuni pachay kanchu [q'uñi~yakuta] ruwapunasuypaq.
+~           sí   nunca     tiempo hay    el~agua~caliente para~prepararte
+- Ruwanakunata
 ~ las~tareas
-+ Paqarin mikhunata
-~ el~desayuno
++ Q'uñi yakuta
+~ caliente agua
 - Tatay
 ~ papá
 
 [LINE]
-Speaker414: ¡Ichaqa kunanqa huk jinam!
-~            pero   hoy      diferente es
+Speaker414: ¡Ichaqa kunanqa wakjina kanqa!
+~            pero   ahora    diferente será
 
 [LINE]
-Speaker415: Tatay, paqarin mikhunata mana munanichu.
-~           papá   mañana  comida   no   quiero
+Speaker415: Tatay, mana q'uñi yakuta munanichu.
+~           papá   no   caliente agua  quiero
 
 [LINE]
-Speaker414: ¿Ima? Ichaqa runtukunata wayk'uchkani...
-~            qué   pero   huevos       estoy~cocinando
+Speaker414: ¿Imata? Ichaqa runtukunata ruwapuchkayki...
+~            qué    pero   huevos       estoy~preparándote
 
 [SELECT_PHRASE]
 > Selecciona la frase que falta
@@ -60,8 +60,8 @@ Speaker415: [Mana~runtukunata~munanichu].
 + Mana runtukunata munanichu
 
 [LINE]
-Speaker414: ¡Ichaqa qamqa anchata munanki!
-~            pero   tú    mucho   los~amas
+Speaker414: ¡Ichaqa aswan munasqayki!
+~            pero   más   te~gustan
 
 [LINE]
 Speaker415: Arí, ichaqa...
@@ -69,36 +69,36 @@ Speaker415: Arí, ichaqa...
 
 [POINT_TO_PHRASE]
 > Elige la opción que significa "tocino."
-Speaker414: ¡(Hinaspataq) (+Tocinopas) (kachkan)!
-~              y             tocino~también hay
+Speaker414: ¡(+Tocinopis) (tiyan)!
+~             tocino~también hay
 
 [LINE]
 Speaker414: ¡Qamqa tocinota anchata munanki!
-~            tú    el~tocino mucho   amas
+~            tú    tocino   mucho   quieres
 
 [LINE]
 Speaker415: Arí, ichaqa...
 ~           sí    pero
 
 [LINE]
-Speaker414: ¿Ima?
+Speaker414: ¿Imata?
 ~            qué
 
 [LINE]
-Speaker415: Tatay... ¡Huk phaniña!
-~           papá     la~una ya~es
+Speaker415: Tatay... ¡Juk phaniña sukhayaypi!
+~           papá     la~una ya~es    por~la~tarde
 
 [LINE]
-> Eddyqa relojñinta qhawan.
-~ Eddy   su~reloj    mira
+> Eddyqa inti watananta qhawarin.
+~ Eddy   del~sol su~medidor mira
 
 [LINE]
-Speaker414: Ay, mana... Paqarin mikhunata wayk'uyqa achkha pachata apakun.
-~            ay  no     de~mañana comida   cocinar   mucho  tiempo   toma
+Speaker414: Ay, mana... Q'uñi yaku ruwayqa achkha pachayuqpaq.
+~            ay  no     caliente agua hacer    mucho  toma~tiempo
 
 [LINE]
-Speaker415: ¡Ichaqa kunan almuerzota wayk'uyta atinchik!
-~            pero   ahora almuerzo   cocinar   podemos
+Speaker415: ¡Ichaqa kunan mikhunata wayk'urikusunman!
+~            pero   ahora comida    podríamos~cocinar
 
 [MULTIPLE_CHOICE]
 > ¿Por qué Junior no quería desayunar?
@@ -108,7 +108,7 @@ Speaker415: ¡Ichaqa kunan almuerzota wayk'uyta atinchik!
 
 [MATCH]
 > Toca los pares
-- apakun <> toma
+- pachayuqpaq <> toma~tiempo
 - qam anchata munanki <> a~ti~te~encanta
 - tatay <> papá
 - kunan <> ahora
