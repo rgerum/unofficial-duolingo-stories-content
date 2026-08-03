@@ -4,7 +4,7 @@ icon=9ac312d372abe49d99606848f5a7a8414143346d
 set=14|3
 
 [HEADER]
-> Juniorpa~wata~hunt'aynin
+> Juniorpa~wata~junt'aynin
 ~ el~cumpleaños~de~Junior
 
 [LINE]
@@ -16,24 +16,24 @@ Speaker415: ¡Tatay! ¡Tatay!
 ~            papá    papá
 
 [LINE]
-Speaker414: ¿Ima? ¿Ah? Ah, allin p'unchaw, Junior.
-~            qué   ah   ah  buenos días      Junior
+Speaker414: ¿Imata? ¿Ah? Ah, allin p'unchaw, Junior.
+~            qué    ah   ah  buenos días      Junior
 
 [LINE]
-Speaker415: ¡Wata hunt'ay fiestayrayku ancha kusisqa kachkani!
-~            año cumpleaños por~mi~fiesta muy emocionado estoy
+Speaker415: ¡Wata junt'ayniy raymichayrayku ancha kusisqa kachkani!
+~            mi~cumpleaños por~mi~fiesta     muy   emocionado estoy
 
 [LINE]
-Speaker414: ¡Ah! Arí... ¿Kusisqa wata hunt'ay...?
-~            ah   sí      feliz   año cumpleaños
+Speaker414: ¡Ah! Arí... ¿Allin wata junt'ay...?
+~            ah   sí      feliz  cumpleaños
 
 [SELECT_PHRASE]
 > Selecciona la frase que falta
-Speaker414: ¿[Ima~laya~fiestata] munanki, Junior?
+Speaker414: ¿[Ima~laya~raymita] munanki, Junior?
 ~             qué~tipo~de~fiesta quieres Junior
 - Ima laya puñuyta
-+ Ima laya fiestata
-- Fiestap qharin
++ Ima laya raymita
+- Raymip qharin
 
 [LINE]
 Speaker415: ¡Mana yachanichu!
@@ -44,12 +44,12 @@ Speaker415: ¡Ichaqa chocolateta munani! ¡Achkha chocolateta!
 ~            pero   chocolate   quiero     mucho chocolate
 
 [LINE]
-Speaker414: ¡Allin, Junior! ¡Wata hunt'ayniykim!
-~            está~bien Junior año tu~cumpleaños~es
+Speaker414: ¡Allin, Junior! ¡Wata junt'ayniyki!
+~            bien   Junior    tu~cumpleaños
 
 [LINE]
-Speaker415: ¿Hinaspataq ancha jatun tortata rurayta atinchikchu, tatay?
-~            y           muy   grande pastel  hacer    podemos       papá
+Speaker415: ¿Ancha jatun misk'i t'antata ima ruwasunmanchu, tatay?
+~            muy   grande dulce  pastel   también podemos~hacer papá
 
 [MULTIPLE_CHOICE]
 > ¿Qué quiere preparar Junior para su cumpleaños?
@@ -63,31 +63,32 @@ Speaker414: Arí, Junior.
 
 [CONTINUATION]
 > ¿Qué viene después?
-Speaker415: ¡Allinpuni! ¡Hinaspataq [tukuy~masiykunawan] huk fiestata munani!
-~            perfecto      y            con~todos~mis~amigos una fiesta quiero
+Speaker415: ¡Allinpuni! ¡Ñuqaqa [tukuy~masikunaywan] uk raymita munani!
+~            perfecto     yo      con~todos~mis~amigos una fiesta quiero
 - Achkha papas fritas
 ~ muchas papas fritas
-+ Tukuy masiykunawan
-~ todos con~mis~amigos
++ Tukuy masikunaywan
+~ con~todos~mis~amigos
 - Achkha challwata
 ~ mucho pescado
 
 [LINE]
-Speaker414: ¡Ah! ¡Arí, tukuyta invitayta tiyan!
-~            ah    sí    a~todos invitar   tenemos~que
+Speaker414: ¡Ah! ¡Arí, tukuyninkuta mink'arinachik tiyan!
+~            ah    sí    a~todos      invitar          tenemos~que
 
+# TODO audio I think there's an extra -ta in raymi
 [ARRANGE]
 > Toca lo que escuchas
-Speaker414: ¿[(Ima) (phanipi) (fiestata) (rurayta) (munanki)]?
-~              qué   a~la~hora la~fiesta hacer    quieres
+Speaker414: ¿[(Ima) (phanita) (raymi) (ruwayta) (munanki)]?
+~              qué   a~qué~hora fiesta  hacer    quieres
 
 [LINE]
-> Eddyqa karu waqyananta qhawan.
-~ Eddy   a~distancia su~teléfono mira
+> Eddyqa karu waqyananta qhawarin.
+~ Eddy   celular su~teléfono  mira
 
 [LINE]
-Speaker414: Suyay... enero killapi kachkanchik. ¡Wata hunt'ayniykiqa mayo killapim!
-~            espera    enero  en~el~mes estamos       año tu~cumpleaños mayo en~el~mes~es
+Speaker414: Suyay... qhaqmiy killapi kachkanchik. ¡Aymuray killapiraq wata junt'ayniykiqa!
+~            espera    enero   en~el~mes estamos       mayo    recién~en~el~mes cumpleaños tuyo~es
 
 [MULTIPLE_CHOICE]
 > ¿Cómo se dio cuenta Eddy de que aún no era el cumpleaños de Junior?
@@ -96,12 +97,12 @@ Speaker414: Suyay... enero killapi kachkanchik. ¡Wata hunt'ayniykiqa mayo killa
 - Revisó el certificado de nacimiento de Junior.
 
 [LINE]
-Speaker415: Ah, yachani, ichaqa...
-~            ah  sé       pero
+Speaker415: Ah, yachaniña, ichaqa...
+~            ah  ya~sé      pero
 
 [LINE]
-Speaker415: ...¿kunanpas chocolateta mikhuyta atinchikchu, tatay?
-~              hoy~también chocolate comer    podemos       papá
+Speaker415: ...¿Kunan chocolateta mikhuyta atiiymanchu, tatay?
+~              hoy   chocolate   comer    podría        papá
 
 [LINE]
 Speaker414: Arí, Junior.
@@ -115,8 +116,8 @@ Speaker414: Arí, Junior.
 
 [MATCH]
 > Toca los pares
-- enero <> enero
-- ancha jatun torta <> pastel~muy~grande
+- qhaqmiy killa <> enero
+- ancha jatun misk'i t'anta <> pastel~muy~grande
 - allinpuni <> perfecto
 - kusisqa <> feliz
 - chocolate <> chocolate
