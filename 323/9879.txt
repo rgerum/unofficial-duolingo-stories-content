@@ -4,7 +4,7 @@ icon=6711cee61441da3d7aa6099466d6fff137239c3a
 set=15|1
 
 [HEADER]
-> Huk~interesante~parlay
+> Juk~Sumaq~parlay
 ~ una~conversación~interesante
 
 [LINE]
@@ -12,8 +12,8 @@ set=15|1
 ~ Bea en~el~parque está
 
 [LINE]
-Speaker258: Imaynalla, ¿kaypi tiyarikuyta atinichu?
-~           hola         aquí  sentarme    puedo
+Speaker258: Imaynalla, ¿kaypi tiyarikuymanchu?
+~           hola         aquí  podría~sentarme
 
 [LINE]
 Speaker507: Arí.
@@ -23,6 +23,7 @@ Speaker507: Arí.
 Speaker507: Ñuqa huk masiyta suyachkani.
 ~           yo   una amiga   estoy~esperando
 
+# TODO Audio is reversed (munasqanwan jamunqa)
 [POINT_TO_PHRASE]
 > Elige la opción que significa "novio."
 Speaker507: (Payqa) (jamunqa) (+munasqanwan).
@@ -34,10 +35,10 @@ Speaker258: Ah... ¿arí?
 
 [SELECT_PHRASE]
 > Selecciona la frase que falta
-Speaker507: [Ancha~kusisqa~kachkani] masiypa munasqanta riqsinaypaq.
-~           muy~emocionada~estoy    de~mi~amiga a~su~novio para~conocer
+Speaker507: [Ancha~kusisqa] masiypa munasqanta riqsinaypaq kachkani.
+~           muy~emocionada  de~mi~amiga a~su~novio para~conocer estoy
 - Kayqa ancha kusikuymi
-+ Ancha kusisqa kachkani
++ Ancha kusisqa
 - Payqa ancha admirakunam
 
 [LINE]
@@ -49,16 +50,16 @@ Speaker507: Payta anchata munakun.
 ~           a~él  mucho   le~gusta
 
 [LINE]
-Speaker258: Interesante...
+Speaker258: Sumaq...
 ~           interesante
 
 [LINE]
-Speaker507: Payta casarakunapaq mañanqa...
-~           a~él  para~casarse     le~pedirá
+Speaker507: Payta sawarakunankupaq yachayta qunqa...
+~           a~él  para~casarse       saber    dará
 
 [LINE]
-Speaker507: ...¡kay semana tukukuypi!
-~              este fin de~semana
+Speaker507: ...¡kay qanchischaw tukukuypi!
+~              este semana       al~final
 
 [MULTIPLE_CHOICE]
 > La amiga de Bea va a...
@@ -71,8 +72,8 @@ Speaker258: ¿Chiqachu?
 ~           de~verdad
 
 [LINE]
-Speaker507: Arí. ¡Ancha romanticom!
-~           sí    muy   romántico~es
+Speaker507: Arí. ¡Anchata munanakunku!
+~           sí    mucho   se~aman
 
 [LINE]
 Speaker507: ¡Ah! ¡Masiy kaypi kachkan!
@@ -88,9 +89,9 @@ Speaker260: Imaynalla, Bea.
 
 [SELECT_PHRASE]
 > Selecciona la frase que falta
-Speaker260: ¡[Leota~ñawpaqña~riqsinki]!
+Speaker260: ¡[Leota~riqsinkiña]!
 ~             ya~conoces~a~Leo
-+ Leota ñawpaqña riqsinki
++ Leota riqsinkiña
 - Payta riqsinki
 - Leota waqyakunki
 
@@ -119,8 +120,9 @@ Speaker258: Ah... ¡Ja, ja, ja! Kusikuni riqsisuspa, Bea.
 [MATCH]
 > Toca los pares
 - anchata <> mucho
-- interesante <> interesante
+- sumaq <> interesante
 - suyachkani <> estoy~esperando
 - Bea <> Bea
 - chiqachu <> de~verdad
+
 
