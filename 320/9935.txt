@@ -1,0 +1,193 @@
+[DATA]
+fromLanguageName=Bea's Date
+icon=cab4be49323f5dd876f6351e2fb939b328536fa9
+set=51|1
+
+[HEADER]
+> La~cita~de~Bea
+~ Bea's~date    
+
+[LINE]
+> Bea llega   a  un restaurante. Ella tiene una cita con  alguien.
+~ Bea arrives at a  restaurant   she  has   a   date with someone 
+
+[LINE]
+Speaker507: ¡Hola!  ¿Eres    Nadia?
+~            hello   are~you Nadia 
+
+[LINE]
+Speaker659: Ah… sí.  ¿Imagino   que  tú  eres Bea?
+~           oh  yes   I~imagine that you are  Bea 
+
+[LINE]
+Speaker507: ¡Sí!  ¡Mucho~gusto!      ¿Es    la  primera vez  que  vienes   a  este restaurante?
+~            yes   nice~to~meet~you   is~it the first   time that you~come to this restaurant  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker659: No, comía         aquí a~menudo, pero dejé~de   venir  cuando [vi~a~un~hombre~morir] al~lado~de aquella mesa. 
+~           no  I~used~to~eat here often     but  I~stopped coming when    I~saw~a~man~dying     next~to    that    table 
++ vi a un hombre morir
+- vi a un hombre dormir
+- vi a un ogro morir
+
+[LINE]
+Speaker507: Ah, está~bien…
+~           oh  OK        
+
+[ARRANGE]
+> Tap what you hear
+Speaker659: [(Pero) (los) (tacos) (son) (ricos).]
+~             but    the   tacos   are   tasty   
+
+[LINE]
+Speaker507: ¡Qué~bueno!
+~            great     
+
+[LINE]
+Speaker507: ¿Cuál es tu   película~preferida?
+~            what is your favorite~movie     
+
+[LINE]
+Speaker659: No~me~gustan las~películas, son      aburridas.
+~           I~don't~like movies         they~are boring    
+
+[LINE]
+Speaker507: Ah… Entonces ¿cuál es tu   libro~preferido?
+~           oh  then      what is your favorite~book   
+
+[LINE]
+Speaker659: Tampoco~me~gusta leer.    Los~libros son como películas que  debo      llevar     conmigo.
+~           I~also~dislike   reading  books      are like movies    that I~have~to (to)~carry with~me 
+
+[LINE]
+Speaker507: Y…   ¿te~gusta    cocinar?
+~           and   do~you~like to~cook 
+
+[LINE]
+Speaker659: No, pero me~gusta cuando otras personas cocinan para mí.
+~           no  but  I~like   when   other people   cook    for  me 
+
+[MULTIPLE_CHOICE]
+> Parece   que… 
+~ it~seems that 
+- …a~Nadia~le~interesan~mucho  los~libros y   las~películas.
+~  Nadia~is~very~interested~in books      and movies        
++ …hay       muchas cosas  que  no~le~gustan~a~Nadia.
+~  there~are many   things that Nadia~dislikes       
+- …Nadia quiere cocinar algo      para Bea.
+~  Nadia wants  to~cook something for  Bea 
+
+[LINE]
+Speaker507: Está~bien, háblame un poco   más  de    ti. 
+~           OK         tell~me a  little more about you 
+
+[LINE]
+Speaker659: No  en la  primera cita, me~gusta esperar y   conocer~a la  otra  persona un poco   mejor. 
+~           not on the first   date  I~like   to~wait and (to)~know the other person  a  little better 
+
+[CONTINUATION]
+> ¿Qué  sigue?     
+~  what comes~next 
+Speaker507: Entiendo, ¿y   tienes      muchas [citas]?
+~           I~get~it   and do~you~have many    dates  
+- películas
+~ movies   
+- comidas
+~ meals  
++ citas
+~ dates
+
+[LINE]
+Speaker659: Tengo  muchas primeras citas, pero no  muchas segundas citas. No~sé        por~qué.
+~           I~have many   first    dates  but  not many   second   dates  I~don't~know why     
+
+[LINE]
+Speaker507: Creo    que  yo sí~sé   por~qué.
+~           I~think that I  do~know why     
+
+[LINE]
+Speaker507: Bueno, creo    que  me~iré.      
+~           well   I~think that I~will~leave 
+
+[LINE]
+> Bea se~levanta para        irse,       pero luego ve~a     una mujer.
+~ Bea stands~up  in~order~to (to)~leave  but  then  she~sees a   woman 
+
+[LINE]
+Speaker507: ¡Ay, no! ¡Es     mi exnovia!      
+~            oh  no   she~is my ex-girlfriend 
+
+[ARRANGE]
+> Tap what you hear
+> [(Nadia) (mira~a)   (la)  (mujer).]
+~   Nadia   looks~at   the   woman   
+
+[LINE]
+Speaker659: ¡Ay, no! ¡Esa  es mi exnovia!      
+~            oh  no   that is my ex-girlfriend 
+
+[LINE]
+Speaker507: ¿Saliste~con  Melissa?
+~            did~you~date Melissa 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker659: ¡Sí!  ¡Es     la  peor!  ¡Hace      demasiado ruido [cuando~come]!  
+~            yes   she~is the worst   she~makes too~much  noise  when~she~eats  
+- cuánto comes
++ cuando come
+- cuándo y como
+
+[LINE]
+Speaker507: ¡Sí!  ¡Eso  me~molestaba mucho!
+~            yes   that bothered~me  a~lot 
+
+[LINE]
+Speaker659: Y   si no~te~ríes~de      sus chistes, los~repite,       pero gritando.
+~           and if you~don't~laugh~at her jokes    she~repeats~them  but  shouting 
+
+[LINE]
+Speaker507: ¡Es      cierto!
+~            that~is true   
+
+[LINE]
+Speaker507: A~lo~mejor sí~tenemos cosas  en común.  ¿Quieres     pedir    la~cena?
+~           maybe      we~do~have things in common   do~you~want to~order dinner  
+
+[MULTIPLE_CHOICE]
+> ¿Por~qué Bea~quiere    quedarse en el  restaurante?
+~  why     does~Bea~want to~stay  at the restaurant  
+- Ella quiere hablar~con su  exnovia.      
+~ she  wants  to~talk~to her ex-girlfriend 
++ Ella podría tener     algunas cosas  de~que~hablar con  Nadia.
+~ she  might  (to)~have some    things to~talk~about with Nadia 
+- Ella no~quiere~que~su~exnovia~la~vea.          
+~ she  doesn't~want~her~ex-girlfriend~to~see~her 
+
+[LINE]
+Speaker659: No, gracias…   Creo    que  eres    una persona~un~poco~negativa.
+~           no  thank~you  I~think that you~are a   quite~negative~person    
+
+[LINE]
+Speaker659: Y   yo no~salgo~con personas~negativas.
+~           and I  don't~date   negative~people    
+
+[MULTIPLE_CHOICE]
+> ¿Por~qué Nadia~tiene     muchas primeras citas, pero no  muchas segundas citas?
+~  why     does~Nadia~have many   first    dates  but  not many   second   dates 
+- Ella es demasiado buena.
+~ she  is too       good  
+- Ella hace  demasiado ruido cuando come.    
+~ she  makes too~much  noise when   she~eats 
++ Ella no~es una persona~agradable.
+~ she  isn't a   nice~person       
+
+[MATCH]
+> Tap the pairs
+- Ella <> she
+- cierto <> true
+- debo <> I have to
+- que <> that
+- cocinar <> to cook
+
