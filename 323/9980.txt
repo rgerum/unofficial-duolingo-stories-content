@@ -1,0 +1,150 @@
+[DATA]
+fromLanguageName=Can I Take Your Picture?
+icon=d6cfdc678db3116881efba02e683423389b53370
+set=24|2
+
+[HEADER]
+> ¿Puedo~tomarte~una~foto? 
+~  can~I~take~your~picture 
+
+[LINE]
+> Lucy va~caminando por~la~calle. 
+~ Lucy is~walking   on~the~street 
+
+[LINE]
+> Ella ve~a un chico~muy~guapo.  
+~ she  sees a  very~handsome~guy 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: ¡Guau! Espera… ¿tú  eres [ese~actor~famoso]? 
+~            wow   wait     you are   that~famous~actor  
+- mi actor hermoso
+- ese factor furioso
++ ese actor famoso
+
+[LINE]
+Speaker385: ¡Shh! No…
+~            shh  no 
+
+[ARRANGE]
+> Tap what you hear
+Speaker509: ¡[(Ayer)      (vi)    (tu~película)!]
+~              yesterday   I~saw   your~movie    
+
+[LINE]
+Speaker385: No~soy  actor.     
+~           I'm~not (an)~actor 
+
+[LINE]
+Speaker509: ¡Sí,  eres~tú!  ¿Puedo~tomarte~una~foto? 
+~            yes  it's~you   can~I~take~your~picture 
+
+[LINE]
+Speaker385: Está~bien… ¡pero rápido!
+~           OK          but  fast   
+
+[LINE]
+Speaker509: ¿Entonces sí~eres        ese~actor~famoso? 
+~            then     you~are~indeed that~famous~actor 
+
+[LINE]
+Speaker385: Sí. 
+~           yes 
+
+[LINE]
+Speaker509: ¡Lo~sabía! 
+~            I~knew~it 
+
+[LINE]
+> Lucy le~toma~una~foto  con  su~teléfono.
+~ Lucy takes~his~picture with her~phone   
+
+[MULTIPLE_CHOICE]
+> Why did Lucy take a picture of the man?
+- She's a professional photographer.
++ He is a famous actor.
+- He's her boyfriend.
+
+[LINE]
+Speaker509: Me~encantó tu~película "Los~gatos~tristes no~bailan".  
+~           I~loved    your~movie   sad~cats          don't~dance  
+
+[CONTINUATION]
+> What comes next?
+Speaker385: Yo no~estuve en esa  [película].
+~           I  was~not   in that  movie     
++ película
+~ movie   
+- foto   
+~ picture
+- calle 
+~ street
+
+[LINE]
+Speaker509: ¿Ah, no?
+~            oh  no 
+
+[LINE]
+Speaker385: Yo estuve en "El~abuelo y   sus~nuevos~dientes".
+~           I  was    in  grandpa   and his~new~teeth       
+
+[LINE]
+Speaker509: No~la~vi.       
+~           I~didn't~see~it 
+
+[LINE]
+Speaker385: ¿Viste   "¿Tengo  algo      en~la~boca?"?  ¡Es   una de mis mejores películas!
+~            you~saw   I~have something in~my~mouth     it's one of my  best    movies    
+
+[LINE]
+Speaker509: No.
+~           no 
+
+[LINE]
+Speaker385: ¿A~lo~mejor viste   "Jamón, huevos, tostadas y   terror"?
+~            maybe      you~saw  ham    eggs    toasts   and ~       
+
+[LINE]
+Speaker509: No, no~la~vi.       
+~           no  I~didn't~see~it 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "to delete."
+Speaker385: ¡Es   muy  (famosa)! (Espera), ¿(vas~a)         (+borrar)    mi foto?   
+~            it's very  famous    wait       you~are~going    to~delete  my picture 
+
+[LINE]
+Speaker509: Puede~ser. ¿Estuviste en alguna otra  película?
+~           maybe       you~were  in any    other movie    
+
+[LINE]
+Speaker385: ¡Sí,  en cincuenta películas~más!
+~            yes  in fifty     more~movies   
+
+[LINE]
+> Lucy borra   la  foto.   
+~ Lucy deletes the picture 
+
+[LINE]
+Speaker509: Si ves~al      actor de   "Los~gatos~tristes no~bailan"…  
+~           if you~see~the actor from  sad~cats          don't~dance  
+
+[LINE]
+Speaker509: … ¿le~puedes~tomar una foto    para mí?
+~              you~can~take    a   picture for  me 
+
+[MULTIPLE_CHOICE]
+> Lucy met a famous actor, but…
+- …he was busy dancing with his cat.
+- …he didn't let her take his picture.
++ …she hasn't seen any of his movies.
+
+[MATCH]
+> Tap the pairs
+- una <> one
+- A lo mejor <> maybe
+- Tengo <> I have
+- Yo <> I
+- Si <> if
+
