@@ -1,0 +1,99 @@
+[DATA]
+fromLanguageName=My Favorite Band
+icon=8809c44c2194d282a6e1573d25dcac12b6132022
+set=21|1
+
+[HEADER]
+> Mi grupo~favorito
+~ my favorite~band 
+
+[LINE]
+> Lily y   Zari están en clase.
+~ Lily and Zari are   in class 
+
+[LINE]
+Speaker418: Eh… ¿Lily? ¿Me~puedes~ayudar?
+~           eh   Lily   you~can~help~me  
+
+[LINE]
+Speaker416: No~sé.        ¿Qué  necesitas?
+~           I~don't~know   what you~need  
+
+[LINE]
+Speaker418: No~puedo~ir a  la~clase~de~baloncesto hoy.  
+~           I~can't~go  to basketball~class       today 
+
+[LINE]
+Speaker418: ¿Le~puedes~decir~al entrenador que  estoy enferma?
+~            you~can~tell~the   coach      that I~am  sick    
+
+[MULTIPLE_CHOICE]
+> Zari wants Lily to tell their basketball coach that she's sick.
++ Yes, that's right.
+- No, that's wrong.
+
+[LINE]
+Speaker416: Tú  no~estás enferma, Zari.
+~           you are~not  sick     Zari 
+
+[LINE]
+Speaker418: ¡Cof, cof, cof! Pero tengo  una nota de   mi médico. Mira...
+~            ~    ~    ~    but  I~have a   note from my doctor  look   
+
+[LINE]
+> Zari le~da la  nota a  Lily.
+~ Zari gives the note to Lily 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker416: Zari, tú  [escribiste~esta~nota].
+~           Zari  you  wrote~this~note       
+- estuviste en la boda
+- escribiste en esta bota
++ escribiste esta nota
+
+[LINE]
+Speaker418: ¡Por~supuesto~que~no!
+~            of~course~not       
+
+[POINT_TO_PHRASE]
+> Choose the option that means "you lie."
+Speaker416: (Zari), (yo) sé   (cuando) (+mientes).
+~            Zari    I   know  when      you~lie  
+
+[LINE]
+Speaker418: ¡Está~bien! Voy       al~centro~comercial~a ver~a  mi grupo~favorito, los City Boys.
+~            OK         I'm~going to~the~mall           to~see my favorite~band   the ~    ~    
+
+[MULTIPLE_CHOICE]
+> Zari's favorite band is performing…
+- …in a park.
+- …in a stadium.
++ …at the mall.
+
+[LINE]
+Speaker416: Eh… no. No~te~puedo~ayudar.
+~           eh  no  I~can't~help~you   
+
+[LINE]
+Speaker418: Sí,  yo sé.   No~puedo~mentir, eso  está mal.  
+~           yes  I  know  I~can't~lie      that is   wrong 
+
+[LINE]
+Speaker416: No, no~te~puedo~ayudar porque  los City Boys son muy  malos.
+~           no  I~can't~help~you   because the ~    ~    are very bad   
+
+[MULTIPLE_CHOICE]
+> Why won't Lily help Zari?
++ She thinks the City Boys are very bad.
+- She doesn't want to get sick.
+- She doesn't want Zari to go to basketball practice.
+
+[MATCH]
+> Tap the pairs
+- Mira <> look
+- nota <> note
+- Tú <> you
+- muy <> very
+- cuando <> when
+
