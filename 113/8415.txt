@@ -1,0 +1,120 @@
+[DATA]
+fromLanguageName=At the Supermarket
+icon=9f4968b6294916f0d8c9f64c8a172ef8c0c368ef
+set=6|1
+
+[HEADER]
+> A~szupermarketben
+~ at~the~supermarket 
+
+[LINE]
+> Lin a~szupermarektben van Beával.
+~ Lin  at~the~supermarket  is with~Bea 
+
+[LINE]
+Speaker508: Nem akarok főzni.
+~           don't  I~want to~cook 
+
+[MULTIPLE_CHOICE]
+> Lin can't wait to cook dinner.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker507: Főzni jó szórakozás, Lin!
+~            cooking  good fun     Lin 
+
+[LINE]
+Speaker508: Nagyon fáradt vagyok.
+~           very tired I~am 
+
+[LINE]
+Speaker508: Szeretnél egy étteremben enni, Bea?
+~            would~you~like a  in~restaurant to~eat   Bea 
+
+[MULTIPLE_CHOICE]
+> Lin is tired, so she…
+- …wants to buy some coffee.
++ …wants to eat at a restaurant.
+- …wants to go to bed.
+
+[LINE]
+Speaker507: Nem, én főzni akarok!
+~            no  I  to~cook want
+
+[POINT_TO_PHRASE]
+> Choose the option that means "we need."
+Speaker508: (Oké)… (Mire) (van)  (+szükségünk) (a főzéshez)?    
+~            ~      what    we~need       in~order~to~cook  
+
+[LINE]
+Speaker507: Tésztára van szükségünk!
+~            we       need        ~     
+
+[LINE]
+> Megkeresik a tésztát. 
+~ they  look~for the ~     
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker508:  [Itt~van~a~tészta].
+~             the~pasta~is~here   
+- Hol van a tészta
+- Itt van a torta
++ Itt van a tészta
+
+[LINE]
+Speaker507: És kell egy paradicsom is.
+~           and we~also~need        a  tomato 
+
+[ARRANGE]
+> Tap what you hear
+> [(Ellas) (buscan)   (el)  (tomate).]
+~   they    look~for   the   tomato   
+
+[LINE]
+Speaker507: Oh a paradicsom itt van
+~            oh   the tomato is   here 
+
+[LINE]
+Speaker507: És vegyünk zöldségeket is. 
+~           and we~also~need        vegetables 
+
+[LINE]
+Speaker508: Meg tejet...
+~            and milk    
+
+[LINE]
+Speaker507: és kenyeret...  
+~           and bread   
+
+[LINE]
+Speaker508: Necesitamos muchas cosas,  Bea.
+~           we~need     many   things  Bea 
+
+[LINE]
+Speaker507: Igen,  és nagyon fáradt vagyok.
+~           yes  and I  am    very tired   
+
+[LINE]
+Speaker508: Szeretnél egy étteremben enni?
+~            you~want to~eat at a  restaurant  
+
+[LINE]
+Speaker507: Igen, kérlek!
+~            yes  please    
+
+[MULTIPLE_CHOICE]
+> Why did Bea agree to eat at a restaurant?
+- The supermarket was closed.
++ She was too tired to cook.
+- The supermarket didn't have any rice.
+
+[MATCH]
+> Tap the pairs
+- muchas <> many
+- aquí <> here
+- Estoy <> I am
+- también necesitamos <> we also need
+- por favor <> please
+
