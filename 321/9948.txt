@@ -44,13 +44,14 @@ Speaker508: Nire izena Lin da.
 Speaker385: Ah, bai.
 ~           oh  yes 
 
-[SELECT_PHRASE]
-> Select the missing phrase
-Speaker385: [Hemen~dago~zure~taula]. 
-~            here~is~your~table  
-- Allí está su masa
-+ Aquí está su mesa
-- Aquí está tu mes
+[CONTINUATION]
+#Convert to SELECT PHRASE when audio
+> What comes next?
+Speaker385: Hemen dago [zure taula]. 
+~           here  is    your table  
+- bere ordainagiria
++ zure taula
+- nire anaia
 
 [LINE]
 Speaker385: Eta hemen menua.
@@ -69,8 +70,8 @@ Speaker508: Bai…
 ~           yes 
 
 [LINE]
-Speaker507: Zer~nahi~duzu?
-~           what~do~you~want 
+Speaker507: Zer  nahi~duzu?
+~           what do~you~want 
 
 [MULTIPLE_CHOICE]
 > What is Bea asking Lin?
