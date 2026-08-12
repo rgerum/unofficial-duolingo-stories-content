@@ -4,20 +4,20 @@ icon=15da04337561f2df975e0ed2ea8ee243a726b629
 set=29|1
 
 [HEADER]
-> Carpa
-~ la~tienda~de~campaña
+> Wasichakuy
+~ acampando
 
 [LINE]
-> Eddywan churin Juniorwan sach'api wasichakuchkanku.
-~ Eddy~y su~hijo Junior~y en~un~bosque están~acampando
+> Eddywan churin Juniorwan sach'ara sach'arapi wasichakuchkanku.
+~ Eddy~y su~hijo Junior~y bosque en~el~bosque están~acampando
 
 [LINE]
-> Tutam, paykuna juk carpapi kachkanku.
-~ de~noche~es ellos una en~una~carpa están
+> Tutaña, paykunataq juk carpapi kachkanku.
+~ ya~es~de~noche ellos~también una en~una~carpa están
 
 [LINE]
-Speaker414: ¿Imata yuyanki kay ch'usamanta?
-~           qué piensas esta de~la~excursión
+Speaker414: ¿Imaynataq kay ch'usay rijch'asunki?
+~           cómo este viaje te~parece
 
 [LINE]
 Speaker415: ¡Chiqnikuni!
@@ -29,20 +29,21 @@ Speaker415: ¡Chiqnikuni!
 - No, es incorrecto.
 
 [LINE]
-Speaker414: ¿Musuq carpanchikta munankichu? ¡Wasinchik jina jatunmi!
-~           nuestra~nueva carpa te~gusta nuestra~casa como grande~es
+Speaker414: ¿Musuq carpanchikta munankichu? ¡Wasinchikjina jatun!
+~           nueva nuestra~carpa te~gusta como~nuestra~casa grande
 
 [SELECT_PHRASE]
 > Selecciona la frase que falta
-Speaker415: Ñuqa [wasinchikta~aswan~munani].
-~           yo nuestra~casa~más~me~gusta
-+ Wasinchikta aswan munani
+Speaker415: Ñuqa [astawan~wasinchikta~munani].
+~           yo nuestra~casa~más~prefiero
+
++ Astawan wasinchikta munani
 - Kay wasiman rinki
 - Tazanchikta aswan munani
 
 [LINE]
-Speaker414: Ichaqa qhaway, kay puñunakuna ancha cómodom.
-~           pero mira estas camas muy cómodas~son
+Speaker414: Ichaqa qhawariy, kay puñunakunaqa ancha sumaq kanku.
+~           pero mira estas camas muy bonitas son
 
 [LINE]
 Speaker415: ¡Kaypi mana puñuyta atinichu!
@@ -50,24 +51,24 @@ Speaker415: ¡Kaypi mana puñuyta atinichu!
 
 [ARRANGE]
 > Toca lo que escuchas
-Speaker414: [(Juk) (estufawan) (juk) (refrigeradorwan) (kapuwanchik).]
-~            una con~estufa un con~refrigerador tenemos
+Speaker414: [(Juk) (wayk'unawan) (juk) (refrigeradorwan) (ima) (kapuwanchik).]
+~            una con~una~cocina un con~un~refrigerador también tenemos
 
 [LINE]
-Speaker415: Mana yarqhasqachu kani.
-~           no con~hambre estoy
+Speaker415: Mana yarqhachkawanchu.
+~           no tengo~hambre
 
 [LINE]
-Speaker414: ¿Hinaspataq rantisqay camping bañomanta imata yuyanki?
-~           y que~compré camping del~baño qué piensas
+Speaker414: ¿Imata kay camping jisp'ana wasipaq rantisqaymanta yuyanki?
+~           qué este camping baño para~casa de~lo~que~compré piensas
 
 [LINE]
 Speaker415: Chaytaqa anchata munani.
 ~           eso mucho me~gusta
 
 [LINE]
-Speaker414: ¡Hinaspataq karu qhawanayuq, radioyuq, videojuegoykikunawan ima kanchik!
-~           y televisión tenemos radio~también con~tus~videojuegos también tenemos
+Speaker414: ¡Chantapis karu qhawanayuq, wayra simiyuq, videojuegokunayuq ima kanchik!
+~           además a~distancia con~televisión aire con~radio con~videojuegos también tenemos
 
 [MULTIPLE_CHOICE]
 > Eddy llevó...
@@ -81,15 +82,16 @@ Speaker415: Arí, arí, tukuy allinpuni, ichaqa...
 
 [SELECT_PHRASE]
 > Selecciona la frase que falta
-Speaker414: Mana jap'iqanichu, ¿[imatawan~munanki]?
-~           no entiendo qué~más~necesitas
+Speaker414: Mana jap'iqanichu, ¿[Imatawan~munanki]?
+~           no entiendo qué~más~quieres
+
 - Imatawan watukunki
 - Chaykunata munanku
 + Imatawan munanki
 
 [LINE]
-Speaker415: ¡Jukumarimanta karupi wasichakuyta! Jawapi kachkan, ¿mana uyarinkichu?
-~           del~oso lejos acampar afuera está no lo~escuchas
+Speaker415: ¡Jukumarimanta karupi wasichakuyta munani! ¿Manachu uyarinki? Jawapi kachkan.
+~           del~oso lejos acampar quiero no escuchas afuera está
 
 [LINE]
 Speaker40: ¡Grrrr!
@@ -102,10 +104,8 @@ Speaker40: ¡Grrrr!
 
 [MATCH]
 > Toca los pares
-- Arí <> sí
-- Qhaway <> mira
-- Kaykuna <> estas
-- Churin <> su hijo
-- Jukumari <> oso
-
-
+- arí <> sí
+- qhaway <> mira
+- kaykuna <> estas
+- churin <> su hijo
+- jukumari <> oso
