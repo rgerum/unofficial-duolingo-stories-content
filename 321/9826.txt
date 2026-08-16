@@ -8,36 +8,37 @@ set=4|2
 ~ space more
 
 [LINE]
-> Sergio, Juniorren~lagun bat, bere aitarekin hitz~egiten~du.
-~ Sergio  Junior's~friend a    his  to~dad    talks
+> Koldo, Juniorren~lagun bat, bere aitarekin hitz~egiten~du.
+~ Louis  Junior's~friend a    his  to~dad    talks
 
 [LINE]
-Speaker366: Yo necesito un trabajo, papá.
-~           I  need     a  job      Dad  
+Speaker366: Lan bat behar~dut, aita.
+~           job a   I~need     dad
 
-[SELECT_PHRASE]
-> Select the missing phrase
-Speaker295: Sergio, zortzi [urte dituzu].   
-~           Sergio  you  eight year you~have
-- tiene once años
-- tienen ocho baños
-+ tienes ocho años
-
-[LINE]
-Speaker295: No~necesitas   un trabajo.
-~           you~don't~need a  job     
+[CONTINUATION]
+#Convert to SELECT PHRASE when audio
+> What comes next?
+Speaker295: Koldo, zortzi [urte dituzu].   
+~           Louis  eight   years you~have
+- txistu dituzu
+- aita dituzu
++ urte dituzu
 
 [LINE]
-Speaker366: Diru gehiago behar dugu.
-~           money more we~need
+Speaker295: Ez~duzu   lanik   behar.
+~           you~don't any~job need   
 
 [LINE]
-Speaker295: Dirua daukagu, Sergio.
-~           money we~have   Sergio 
+Speaker366: Diru  gehiago behar~dugu.
+~           money more    we~need
 
 [LINE]
-Speaker366: Diru gehiago behar dugu etxe berri bat erosteko.
-~          money more we~need house new a in~order~to~buy
+Speaker295: Dirua daukagu, Koldo.
+~           money we~have  Louis 
+
+[LINE]
+Speaker366: Diru  gehiago behar~dugu etxe  berri bat erosteko.
+~           money more    we~need    house new   a   in~order~to~buy
 
 [POINT_TO_PHRASE]
 > Choose the option that means "too small."
@@ -45,8 +46,8 @@ Speaker366: (Etxe) (hau) (+txikiegia) (da).
 ~            this   house  too~small is
 
 [LINE]
-Speaker295: Sergio! Etxe  hau  ez~da  txikia!
-~           Sergio  house this is~not small   
+Speaker295: Koldo! Etxe  hau  ez~da  txikia!
+~           Louis  house this is~not small   
 
 [LINE]
 Speaker366: Eta kotxe berri bat ere behar~dugu.
@@ -61,34 +62,34 @@ Speaker366: Txikiegia delako.
 ~           too~small because~it~is
 
 [LINE]
-Speaker295: Sergio…
-~           Sergio 
+Speaker295: Koldo…
+~           Louis 
 
 [LINE]
-Speaker366: Necesitamos más  espacio.
-~           we~need     more space   
+Speaker366: Leku  gehiago behar~dugu.
+~           space more    we~need
 
 [MULTIPLE_CHOICE]
-> What does Sergio mean?
+> What does Koldo mean?
 - His shoes are too small.
 + The family needs a bigger space.
 - He wants to travel far away.
 
 [LINE]
-Speaker295: ¿Más  espacio?
-~            more space   
+Speaker295: Leku  gehiago?
+~           space more   
 
 [POINT_TO_PHRASE]
-> Choose the option that means "baby."
-Speaker366: Necesitamos espacio (para) (el)  (+bebé), (papá)!
-~           we~need     space    for    the    baby    Dad   
+> Choose the option that means "dad."
+Speaker366: (Umerako)     behar~dugu (leku) (gehiago), (+aita)!
+~            for~the~baby we~need     space  more        dad   
 
 [LINE]
 Speaker295: Zein  ume?
 ~           which baby 
 
 [LINE]
-Speaker366: Amaren ume berria.
+Speaker366: Amaren ume  berria.
 ~           of~mom baby the~new     
 
 [LINE]
@@ -108,7 +109,7 @@ Speaker295: Eta bai, ¡askoz leku  gehiago behar~dugu!
 ~           and yes   much  space more    we~need 
 
 [MULTIPLE_CHOICE]
-> What did Sergio tell his father?
+> What did Koldo tell his father?
 - He is going to quit school.
 + His mother is having a baby.
 - He bought a new house.
