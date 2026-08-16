@@ -4,16 +4,16 @@ icon=6fee4723d01611cffa9b4b76fd5be36697ef1e96
 set=4|3
 
 [HEADER]
-> Ropa    para mis vacaciones
-~ clothes for  my  vacation  
+> Oporretarako    arropa
+~ for~my~vacation clothes
 
 [LINE]
 > Luzia denda batean dago.
 ~ Lucy  store at~a   is
 
 [LINE]
-Speaker416: Kaixo, laguntzik behar~duzu?
-~           hello  any~help  do~you~need
+Speaker416: Kaixo, laguntzarik behar~duzu?
+~           hello  any~help    do~you~need
 
 [LINE]
 Speaker509: Bai, nire~oporretarako arropa  behar~dut.
@@ -29,35 +29,36 @@ Speaker416: Ondo.
 ~           OK        
 
 [LINE]
-Speaker509: Necesito un vestido.
-~           I~need   a  dress   
+Speaker509: Soineko bat behar~dut.
+~           dress   a   I~need  
 
 [LINE]
-> Lily busca     un vestido~verde.
-~ Lily looks~for a  green~dress   
+> Lili soineko berde bat bilatzen~ari da.
+~ Lily dress   green a   looking~for  is  
 
 [MULTIPLE_CHOICE]
-> Lily is getting a…
+> Lili is getting a…
 + …green dress.
 - …red dress.
 - …green hat.
 
 [LINE]
-Speaker509: ¡No, yo quiero un vestido~rojo!
-~            no  I  want   a  red~dress    
+Speaker509: Ez, soineko gorri bat nahi~dut.
+~           no  dress   red   one I~want
 
 [LINE]
-> Lily busca     un vestido~rojo.
-~ Lily looks~for a  red~dress    
+> Lili soineko gorri bat bilatzen~du.
+~ Lily dress   red   a   looks~for  
 
 [LINE]
 Speaker509: Eta jaka   bat ere nahi~dut.
 ~           and jacket a   too I~want
 
-[ARRANGE]
-> Tap what you hear
-> [(Lily) (busca)     (una) (chaqueta~roja).]
-~   Lily   looks~for   a     red~jacket      
+[POINT_TO_PHRASE]
+#Convert to ARRANGE when audio
+> Choose the option that means "red."
+> (Lili) (jaka) (+gorri) bat (bilatzen~du).
+~  Lily   jacket  red    a    looks~for  
 
 [LINE]
 Speaker509: Ez, jaka   marroi bat nahi~dut!
@@ -68,33 +69,34 @@ Speaker416: Ondo...
 ~           OK        
 
 [LINE]
-Speaker509: Un vestido~rojo, una chaqueta~marrón…
-~           a  red~dress     a   brown~jacket    
+Speaker509: Soineko gorri bat, jaka   marroi bat…
+~           dress   red   a    jacket brown a
 
-[SELECT_PHRASE]
-> Select the missing phrase
-Speaker509: ¡[Y~un~sombrero]!
-~             and~a~hat      
-- Y un bombero
-- Y un obrero
-+ Y un sombrero
-
-[LINE]
-> Lili busca     un sombrero~azul.
-~ Lily looks~for a  blue~hat      
+[CONTINUATION]
+#Convert to SELECT PHRASE when audio
+> What comes next?
+Speaker509: Eta [txapel bat ere]!
+~           and  hat    a   too
+- esne bat ere
+- argazki bat ere
++ txapel bat ere
 
 [LINE]
-Speaker509: No, yo quiero un sombrero~gris!
-~           no  I  want   a  gray~hat      
+> Lili txapel  urdin bat bilatzen~du.
+~ Lily hat     blue  a   looks~for     
 
 [LINE]
-> Lili busca     un sombrero~gris.
-~ Lily looks~for a  gray~hat      
+Speaker509: Ez, txapel gris bat nahi~dut!
+~           no  hat    grey a   I~want   
+
+[LINE]
+> Lili txapel  gris bat bilatzen~du.
+~ Lily hat     grey a   looks~for     
 
 [POINT_TO_PHRASE]
 > Choose the option meaning "ready."
-Speaker509: (Eskerrik~asko)!   Nire (oporretarako) (+prest) (nago)!
-~             thank~you    my for~vacations ready I~am
+Speaker509: (Eskerrik~asko)! Nire (oporretarako) (+prest) (nago)!
+~            thank~you       my    for~vacations   ready   I~am
 
 [LINE]
 Speaker416: Orain nik behar~ditut oporrak.
@@ -108,8 +110,8 @@ Speaker416: Orain nik behar~ditut oporrak.
 
 [MATCH]
 > Tap the pairs
-- Y <> and
-- jaka gortia <> red jacket
-- sombrero gris <> gray hat
+- soineko <> dress
+- gorri <> red
+- txapel <> hat
 - Eskerrik asko <> thank you
 - ez <> no
