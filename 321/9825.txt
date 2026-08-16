@@ -20,7 +20,7 @@ Speaker593: Galdera  bat daukat.
 ~           question one I~have
 
 [LINE]
-Speaker593: Begetarianoa naiz
+Speaker593: Begetarianoa naiz.
 ~           vegetarian   I~am
 
 [LINE]
@@ -41,7 +41,7 @@ Speaker593: Haragi ogitartekoak? Begetarianoa naiz.
 ~           meat   sandwiches    vegetarian   I~am
 
 [LINE]
-Speaker385: Ah, bai, barkaidazu 
+Speaker385: Ah, bai, barkaidazu. 
 ~           oh  yes  I'm~sorry~to~you
 
 [LINE]
@@ -58,10 +58,11 @@ Speaker385: Oilasko gozoa     daukagu.
 Speaker593: Oilaskoa haragia da.
 ~           chicken  meat    is
 
-[ARRANGE]
-> Tap what you hear
-Speaker593: (Eta) nik ez  dut haragirik jaten!
-~            and  I   not do  any~meat  eat
+[POINT_TO_PHRASE]
+#Convert to ARRANGE when audio
+> Choose the option that means "any meat."
+Speaker593: (Eta) nik (ez) dut (+haragirik) (jaten)!
+~            and  I    not do    any~meat    eat
 
 [LINE]
 Speaker385: Entsaladak dauzkagu…
@@ -100,8 +101,8 @@ Speaker593: Bale, patata~frijituak.
 - salmon
 
 [LINE]
-Speaker385: Patata~frijituak… ederto. Eta… ¿hamburguesaren bat?
-~           fries             perfect and   hamburger      a
+Speaker385: Patata~frijituak… ederto. Eta… hamburguesaren bat?
+~           fries             perfect and  hamburger      a
 
 [LINE]
 Speaker593: Ez~dudala             haragirik jaten!
