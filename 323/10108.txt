@@ -4,7 +4,7 @@ icon=8161f0f8e3c323619ee3e6d4c192be801cf2c33d
 set=39|1
 
 [HEADER]
-> Magia yachay~wasi
+> La escuela de magia
 ~ magia escuela
 
 [LINE]
@@ -16,7 +16,7 @@ Speaker415: ¿Chayqa magiapa yachay~wasinman riq waynapa libronchu?
 ~            ese magia~de escuela~a que~va chico~de libro~es
 
 [SELECT_PHRASE]
-> Chinkasqa rimayta akllay
+> Selecciona la frase que falta
 Speaker414: Ari, ¡ancha munani! ¡[Imayna tukusqanta] yachayta munani!
 ~           sí mucho me~encanta cómo termina saber quiero
 - munaywan
@@ -32,21 +32,17 @@ Speaker414: ¡Uyariy, mana! ¡Tukukuyninta ama niwaychu!
 ~            oye no final~su no me~digas
 
 [MULTIPLE_CHOICE]
-> Eddyqa mana munanchu Junior…
-~ Eddy no quiere Junior
-+ …librupi ima pasasqanta ninanpaq.
-~  libro~en qué pasa decirle
-- …mach'aqway reykunawan maqanakunanpaq.
-~  serpiente reyes~con pelear
-- …wayk'una~wasipi librukunata ñawinchananpaq.
-~  cocina~en libros leer
+> Eddy no quiere que Junior…
++ …diga qué pasa en el libro.
+- …pelee con los reyes serpiente.
+- …lea libros en la cocina.
 
 [LINE]
 Speaker415: Mmm…
 ~           mmm
 
 [ARRANGE]
-> Uyarimusqaykita llap'iy
+> Escoge lo que escuchas
 > [(Juniorqa) (congeladorta) (kichan).]
 ~   Junior    congelador      abre
 
@@ -67,14 +63,10 @@ Speaker414: ¡Suyariy! Allinmi… Asllata heladota mikuyta atinki, ¡ichaqa kuna
 ~            espera está~bien un~poco helado comer puedes pero esta~noche solamente
 
 [MULTIPLE_CHOICE]
-> ¿Imaraykutaq Eddy Junior cena ñawpaq heladota mikunanpaq saqin?
-~  por~qué~pues Eddy Junior cena antes helado comer deja
-- Librupa waynanqa sapa kuti cena ñawpaq heladota mikun.
-~  libro~de chico siempre cena antes helado come
-+ Payqa Junior librupa tukukuyninta ninanpaq mana munanchu.
-~  él Junior libro~de final decirle no quiere
-- Payqa ñawinchasqanrayku cenata wakichiyta qunqarqa.
-~  él leyendo~por cena preparar olvidó
+> ¿Por qué Eddy deja que Junior coma helado antes de la cena?
+- El chico del libro siempre come helado antes de la cena.
++ Él no quiere que Junior diga el final del libro.
+- Él olvidó preparar la cena porque estaba leyendo.
 
 [LINE]
 Speaker415: ¡Allinpuni! Heladota mikusaq "Pachak huk wañuchiykuna" peliculata qhawashaqtiy.
@@ -85,7 +77,7 @@ Speaker414: ¡Chay peliculata mana qhawayta atinkichu, Junior!
 ~            esa película no ver puedes Junior
 
 [SELECT_PHRASE]
-> Chinkasqa rimayta akllay
+> Selecciona la frase que falta
 Speaker415: [Mana qhawachiwanki chayqa], librupa tukukuyninta niykichik…
 ~            si no me~dejas~verla entonces libro~de final te~diré
 - Mana qhawananpaq karunchiwanki chayqa
@@ -105,8 +97,7 @@ Speaker414: ¡Allinmi, peliculata qhawayta atinki!
 ~            está~bien película ver puedes
 
 [CONTINUATION]
-> ¿Imataq qatiqninpi hamun?
-~  qué sigue
+> ¿Qué sigue?
 Speaker414: Ichaqa, ama hina kaychu, [tukukuyninta] ama niwaychu.
 ~           pero por~favor final no me~digas
 - musuq challwaykipa sutinta
@@ -121,7 +112,7 @@ Speaker414: Ichaqa, ama hina kaychu, [tukukuyninta] ama niwaychu.
 ~ esa semana~en más~tarde Eddy cena preparando~está
 
 [ARRANGE]
-> Uyarimusqaykita llap'iy
+> Escoge lo que escuchas
 > [(Juniorqa) (congeladorta) (kichan) (heladota~hurqunanpaq).]
 ~   Junior    congelador      abre    helado~sacar~para
 
@@ -154,17 +145,13 @@ Speaker414: Chayrayku, sichus cuartoykita mana pichankichu chayqa, huk librukuna
 ~           así~que si tu~habitación no limpias entonces otros libros~en qué pasa te~diré
 
 [MULTIPLE_CHOICE]
-> Juniorqa kunan tuta mana heladota mikuyta atinchu imaraykuchus…
-~ Junior esta~noche no helado comer puede porque
-- …millay mach'aqway rey tukuyta mikurqa.
-~  diabólico serpiente rey todo se~lo~comió
-- …magia yachay~wasipaq tarea ruwanan tiyan.
-~  magia escuela~para tarea hacer necesita
-+ …Eddy seriapa tukuy librunkunapa tukukuyninta yachanña.
-~  Eddy serie~de todos libros~de final ya conoce
+> Junior esta noche no puede comer helado porque…
+- …el rey serpiente diabólico se comió todo.
+- …tiene que hacer tarea para la escuela de magia.
++ …Eddy ya conoce el final de todos los libros de la serie.
 
 [MATCH]
-> Yanantinkunata llap'iy
+> Une las parejas
 - libro <> libro
 - cuarto <> habitación
 - Uyariy <> Oye
