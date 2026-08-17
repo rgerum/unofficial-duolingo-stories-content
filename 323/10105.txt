@@ -4,7 +4,7 @@ icon=c11e22dbce96e56db5b41dd6e0d41b36ee6e24f8
 set=38|2
 
 [HEADER]
-> Gimnasiopi
+> En el gimnasio
 ~ gimnasio~en
 
 [LINE]
@@ -24,7 +24,7 @@ Speaker507: Ancha k'acham, ¡chay musculonkunata qhawariy!
 ~           muy guapo~es esos músculos mira
 
 [SELECT_PHRASE]
-> Chinkasqa rimayta akllay
+> Selecciona la frase que falta
 Speaker414: Añay, Bea. Kunan [aswan~allinta~sientikuni].
 ~           gracias Bea ahora mucho~mejor me~siento
 - aswan machu sientikuni
@@ -52,8 +52,7 @@ Speaker823: Allinllachu, ¿riqsinakunchikchu?
 ~           hola nos~conocemos
 
 [CONTINUATION]
-> ¿Imataq qatiqninpi hamun?
-~  qué sigue
+> ¿Qué sigue?
 Speaker414: Pampachaway, mana rimayta atinichu [kallpashaqtiy].
 ~           lo~siento no hablar puedo mientras~corro
 - mikushaqtiy
@@ -80,9 +79,9 @@ Speaker414: ¡Yachani!
 ~ guapo hombre también correr empieza
 
 [ARRANGE]
-> Uyarimusqaykita llap'iy
+> Escoge lo que escuchas
 Speaker823: ¡[(Qamqa) (ñañalla) (ñuqa~hina~utqaymi) (kanki)]!
-~              tú     casi      yo~como~rápido      eres
+~              tú casi yo~como~rápido eres
 
 [LINE]
 > Eddyqa Penélope paykunata qhawashasqanta rikun.
@@ -93,18 +92,18 @@ Speaker414: Chiqaqtaqa, ñuqa aswanpas utqayta kallpayta atini.
 ~           en~realidad yo incluso más~rápido correr puedo
 
 [POINT_TO_PHRASE]
-> "Utqay kay" niq akllanata akllay.
+> Selecciona la opción que significa "ser rápido".
 > (Eddyqa) kallpana makinapa (+utqayninta) yapachin.
-~  Eddy   caminadora~de velocidad~su aumenta
+~  Eddy caminadora~de velocidad~su aumenta
 
 [LINE]
 Speaker823: ¿Kayqa competenciachu? ¡Imaraykuchus competenciakunata ancha munani!
 ~            esto competencia~es porque competencias mucho me~encantan
 
 [ARRANGE]
-> Uyarimusqaykita llap'iy
+> Escoge lo que escuchas
 > [(Qhariqa) (paypas) (utqayninta) (yapachin).]
-~   hombre   también velocidad~su aumenta
+~   hombre también velocidad~su aumenta
 
 [LINE]
 Speaker823: Suyariy, kunan yachani maymanta riqsisqaykita. ¡Qamqa Penélopepa exninmi kanki!
@@ -115,7 +114,7 @@ Speaker414: ¿Penélope ñuqamanta qamta rimarqasunkichu?
 ~            Penélope sobre~mí te habló
 
 [SELECT_PHRASE]
-> Chinkasqa rimayta akllay
+> Selecciona la frase que falta
 Speaker823: Mana, ichaqa redes socialninkunapi [qamkunapa~fotoykichikta] rikurqani.
 ~           no pero sus~redes~sociales~en fotos~de~ustedes vi
 + qamkunapa fotoykichikta
@@ -135,8 +134,7 @@ Speaker658: ¿Allinchu kanki?
 ~            bien estás
 
 [CONTINUATION]
-> ¿Imataq qatiqninpi hamun?
-~  qué sigue
+> ¿Qué sigue?
 Speaker414: Mana… ¡Kunanlla exniypa ñawpaqninpi [novionwan] urmarqani!
 ~           no recién mi~ex~de enfrente su~novio~con me~caí
 + novionwan
@@ -167,17 +165,13 @@ Speaker823: Chayrayku qampa laduykipi kallpayta akllarqani.
 ~           por~eso a~tu~lado correr decidí
 
 [MULTIPLE_CHOICE]
-> ¿Pitaq Penélopewan gimnasiopi kaq k'acha qhari karqa?
-~  quién era Penélope~con gimnasio~en que~estaba guapo hombre
-- musuq novion
-~ su~nuevo novio
-- Beapa primon
-~ Bea~de primo
-+ primon
-~ su~primo
+> ¿Quién era el hombre guapo que estaba en el gimnasio con Penélope?
+- su nuevo novio
+- el primo de Bea
++ su primo
 
 [MATCH]
-> Yanantinkunata llap'iy
+> Une las parejas
 - Pampachaway <> Lo siento
 - Qhariqa <> El hombre
 - kay <> este
