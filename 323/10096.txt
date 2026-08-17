@@ -1,129 +1,114 @@
 [DATA]
-fromLanguageName=Quiero ser como tú
-icon=801667abeebafff15f24357bcfe453e3f5688383
-set=36|1
+fromLanguageName=La chaqueta roja
+icon=5361833c123aec9adfa60b0dc63398cd1aa49ef2
+set=2|1
 
 [HEADER]
-> Qam hina kayta munani
-~ tú como ser quiero
+> Puka chaqueta
+~ roja chaqueta
 
 [LINE]
-> Eddyqa Juniorta yachay~wasimanta pusamuq rin.
-~ Eddy Junior escuela~de recoger~a va
+> Lilyqa p'acha qhatupi kachkan Zari masinwan.
+~ Lily   ropa   en~tienda está    Zari con~su~amiga
 
 [LINE]
-Speaker414: Imaynataq kunan~punchaw yachay~wasipi karqanki, Junior?
-~           cómo~pues hoy~día       en~escuela    estuviste Junior
+Speaker416: Kay qhatuqa ancha chaniyuqmi.
+~           esta tienda  muy   cara
 
 [LINE]
-Speaker415: ¡Ancha~allin! Llamk'aykunamanta rimarqanchik.
-~            muy~bien     sobre~profesiones hablamos~nosotros
+Speaker418: Arí…
+~           sí
+
+[LINE]
+Speaker418: ¡Waw!
+~            guau
 
 [SELECT_PHRASE]
-> Chinkasqa rimayta akllay
-Speaker415: ¡Musyay, [hatunña kaspa ima kayta] munani!
-~            adivina grande~ya siendo qué ser quiero
-- hatunyayta
-+ hatunña kaspa ima kayta
-- kamachiq kayta
+> Selecciona la frase que falta
+Speaker418: ¡[Kay~puka~chaquetaqa] sumaqmi!
+~             esta~roja~chaqueta    es~perfecta
++ Kay puka chaqueta
+- Kay puka usuta
+- Chay qhasqa chaqueta
 
 [LINE]
-Speaker414: Mmm… mana~yachanichu. ¿Futbol~pukllaq?
-~           mmm  no~sé             fútbol~jugador
+Speaker416: Mmm, Zari…
+~           mmm  Zari
 
 [LINE]
-Speaker415: Mana, ¡leonkunata mansayachiq kayta munani!
-~           no    leones domador ser quiero
-
-[MULTIPLE_CHOICE]
-> Junior hatunña kaspa ima kayta munan?
-- ingeniero
-- wayk'uq
-+ leonkunata mansayachiq
+Speaker418: ¡Kay llimp'iqa anchata munani!
+~            este color    mucho   me~encanta
 
 [LINE]
-Speaker414: ¡Ah, chayqa ancha kusichiq llamk'aymi!
-~            ah  eso muy emocionante trabajo~es
-
-[LINE]
-Speaker415: Leonkunata p'itayta yachachisaq…
-~           leones saltar enseñaré
-
-[LINE]
-Speaker415: … nina~anillukunapa chawpinta.
-~             fuego~anillos~de por~el~medio
-
-[LINE]
-Speaker414: ¡Ah!
-~            ah
-
-[LINE]
-Speaker415: ¡Hinallataq tusuyta yachachisaq!
-~            y~también bailar enseñaré
-
-[LINE]
-Speaker414: ¡Chayta rikuyta munayman!
-~            eso ver me~gustaría
-
-[CONTINUATION]
-> Imataq qatiqninpi hamun?
-Speaker415: ¡Hinallataq umayta [huk leonpa siminpi] churasaq!
-~            y~hasta    mi~cabeza un león~de boca~en pondré
-+ huk leonpa siminpi
-~ un león~de boca~en
-- pisinapi
-~ piscina~en
-- p'achata t'aqsaq makinapi
-~ ropa lavadora máquina~en
-
-[LINE]
-Speaker414: Allinta qhawakunayki tiyan. ¡Ancha manchachikuq llamk'aymi rikukun!
-~           bien    cuidarte~debes hay     muy peligroso trabajo~es parece
-
-[LINE]
-Speaker415: Ama~llakikuychu, allinpunim leonkunata mansayachiq kasaq.
-~           no~te~preocupes excelente~de~verdad leones domador seré
-
-[ARRANGE]
-> Uyarimusqaykita llap'iy
-Speaker414: [(Ichaqa)… ¿(imaraykutaq) (munanki) (kayta) (leonkunata~mansayachiq)?]
-~             pero       por~qué~pues quieres   ser leones~domador
-
-[LINE]
-Speaker415: Chayqa qampa~llamk'ayniyki. ¡Ñuqataq qam hina kayta munani!
-~           eso tu~trabajo y~yo tú como ser quiero
-
-[LINE]
-Speaker414: Suyariy… ¿ñuqaqa leonkunata mansayachiqmi kani nispachu yuyanki?
-~           espera     yo leones domador~soy soy que piensas
+Speaker416: ¿Zari?
+~            Zari
 
 [POINT_TO_PHRASE]
-> "Chikutikunata" niq akllanata akllay.
-Speaker415: Ari, qara~pantalonniykita (+chikutikunata) armarioykipi rikurqani.
-~           sí   cuero~tus~pantalones látigos tu~armario~en vi
+> Elige la opción que significa "comprar".
+Speaker418: (Kay) (chaquetata) (+rantiyta) (munani)!
+~            esta  chaqueta       comprar     quiero
 
 [LINE]
-Speaker414: ¡Ah! Ah…
-~            ah  ah
+Speaker416: ¡Zari!
+~            Zari
 
 [LINE]
-Speaker415: Leonkunata mansayachiqmi kanki, ¿manachu?
-~           leones domador~eres eres verdad~no
+Speaker418: ¿Ima?
+~            qué
 
 [LINE]
-Speaker414: Mmm… ari. Qamta niyta munarqani, ichaqa qunqarqani.
-~           mmm  sí   a~ti decir iba~a~querer pero olvidé
+Speaker416: Chaquetaqa pichqa~pachak dolar chaninmi.
+~           la~chaqueta quinientos    dólares cuesta
 
 [MULTIPLE_CHOICE]
-> Juniorqa imaraykutaq Eddy leonkunata mansayachiq kasqanta yuyan?
-- Eddy leonkunata tusuyta yachachin.
-+ Eddyqa armarioñanpi qara pantalonniyuq chikutiyuq ima.
-- Eddyqa hatun nina anillukunapa chawpinta p'itayta munan.
+> ¿Cuánto cuesta la chaqueta?
+- cinco dólares
++ quinientos dólares
+- cinco millones de dólares
+
+[LINE]
+Speaker418: ¡¿Ima?!
+~             qué
+
+[LINE]
+Speaker416: Zari, qanqa mana musuq~chaquetata munankichu.
+~           Zari  tú    no   nueva~chaqueta   necesitas
+
+[POINT_TO_PHRASE]
+> Elige la opción que significa "cumpleaños".
+Speaker418: (Ichaqa)… (Lily), (kunanqa) (+wata~hunt'ayniymi)…
+~            pero       Lily    hoy        es~mi~cumpleaños
+
+[LINE]
+Speaker416: ¿Ah, arí?
+~            ah  sí
+
+[LINE]
+Speaker418: ¡Qanmi aswan~allin masiy kanki!
+~            tú    mejor       mi~amiga eres
+
+[LINE]
+Speaker416: Arí… ¿chayri?
+~           sí     y~entonces
+
+[LINE]
+Speaker418: Hinaspa ñuqapaq sumaq regaluqa…
+~           y       para~mí perfecto regalo
+
+[LINE]
+Speaker416: ¡Pisi~chaniyuq chaqueta!
+~            barata         chaqueta
+
+[MULTIPLE_CHOICE]
+> El regalo de cumpleaños de Zari por parte de Lily será…
+- …una chaqueta roja cara.
+- …un gran montón de dinero.
++ …una chaqueta barata.
 
 [MATCH]
-> Yanantinkunata llap'iy
-- yuyanki <> crees
-- rikukun <> parece
-- mana <> no
-- hinallataq <> y
-- ima <> qué
+> Tinkuq simikunata tupachiy / Empareja las palabras correspondientes
+- huk <> una
+- Mmm <> mmm
+- wata hunt'ay <> cumpleaños
+- puka <> roja
+- musuq chaqueta <> chaqueta nueva
