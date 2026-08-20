@@ -40,13 +40,14 @@ Speaker509: Zer?
 Speaker508: Tomate  bat, mesedez.
 ~           tomato  one  please    
 
-[SELECT_PHRASE]
-> Select the missing phrase
-Speaker508: Nire  [entsaladarako] da.
-~           my     for~salad      it~is  
-- linda y salada
-+ entsaladarako
-- Eako sanjuanada
+[CONTINUATION]
+#Convert to SELECT PHRASE when audio
+> What comes next?
+Speaker508: Nire  [entsaladarako da].
+~           my     for~salad     it~is  
+- izena Luzia da
++ entsaladarako da
+- familia handia da
 
 [LINE]
 Speaker509: Bale.
