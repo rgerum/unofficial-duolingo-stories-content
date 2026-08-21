@@ -1,0 +1,193 @@
+[DATA]
+fromLanguageName=Sorry I'm Late
+icon=8124db018f889ac2f6d24ac1f370242dbb0ad65e
+set=55|4
+
+[HEADER]
+> Perdón por llegar   tarde
+~ sorry  for arriving late 
+
+[LINE]
+> Eddy llega   a  un restaurante y   habla~con el  camarero en la  entrada. 
+~ Eddy arrives at a  restaurant  and talks~to  the waiter   at the entrance 
+
+[LINE]
+Speaker414: Hola,  tenía una cita a  la~una, pero estoy un poco   retrasado. ¿Sabe        si hay      alguien esperándome?   
+~           hello  I~had a   date at one     but  I~am  a  little late        do~you~know if there~is someone waiting~for~me 
+
+[LINE]
+> Una mujer lo~saluda.   
+~ a   woman waves~at~him 
+
+[LINE]
+Speaker414: Hola,  soy  Eddy… Perdón por llegar   tarde.
+~           hello  I~am Eddy  sorry  for arriving late  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker336: [No~hay~problema],     comencemos. 
+~            there~is~no~problem   let's~begin 
++ No hay problema
+- No soy un problema
+- No hay proteína
+
+[LINE]
+> Eddy se~sienta y   ve   que  la  mujer está vestida de~manera~muy~elegante.
+~ Eddy sits~down and sees that the woman is   dressed in~a~very~elegant~way  
+
+[LINE]
+Speaker414: Te~ves   muy~bien. 
+~           you~look very~good 
+
+[LINE]
+Speaker414: Tal~vez debí~ponerme       un traje.
+~           maybe   I~should~have~worn a  suit  
+
+[LINE]
+Speaker336: Sí,  y   una corbata también.
+~           yes  and a   tie     too     
+
+[MULTIPLE_CHOICE]
+> ¿Entendiste         eso?  La  mujer cree   que… 
+~  did~you~understand that  the woman thinks that 
++ …Eddy debió~haberse~vestido mejor. 
+~  Eddy should~have~dressed   better 
+- …Eddy es su  hermano.
+~  Eddy is her brother 
+- …Eddy nunca~debería ponerse   corbatas.
+~  Eddy should~never  (to)~wear ties     
+
+[LINE]
+Speaker414: Bueno, para la  próxima,   ya~sé          que  te~gustan las~corbatas.
+~           well   for  the next~time  I~already~know that you~like  ties         
+
+[LINE]
+Speaker336: Comencemos,  solo~tengo  veinte minutos.
+~           let's~begin  I~just~have twenty minutes 
+
+[LINE]
+Speaker414: ¿Solo veinte minutos?
+~            just twenty minutes 
+
+[ARRANGE]
+> Tap what you hear
+Speaker336: [(Eso)  (es) (más)  (que)  (suficiente).]
+~             that   is   more   than   enough       
+
+[LINE]
+Speaker414: Tienes~razón,  mis padres  se~enamoraron a~primera~vista.
+~           you~are~right  my  parents fell~in~love  at~first~sight  
+
+[LINE]
+Speaker336: Qué~interesante… ¿Puede~hablarme     de    su   trabajo?
+~           how~interesting   can~you~talk~to~me about your job     
+
+[LINE]
+Speaker414: Soy  profesor~de~educación~física en la~escuela~secundaria.
+~           I~am a~physical~education~teacher in high~school           
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker336: Debe~de  ser     [bueno~con~los~niños].
+~           you~must (to)~be  good~with~children   
+- hielo para los niños
++ bueno con los niños
+- bueno con los nidos
+
+[LINE]
+Speaker414: Sí,  pero debo   decirte       que…  tengo  un hijo~de~ocho~años. 
+~           yes  but  I~must (to)~tell~you that  I~have an eight-year-old~son 
+
+[LINE]
+Speaker336: ¡Eso  no~es  un problema!
+~            that is~not a  problem  
+
+[LINE]
+Speaker414: ¿En~serio?  ¡Qué~bueno! Si quieres,  te~puedo~presentar  a  Junior…
+~            seriously   great      if you~want  I~can~introduce~you to Junior 
+
+[LINE]
+Speaker336: Eso  no~será     necesario.
+~           that will~not~be necessary 
+
+[MULTIPLE_CHOICE]
+> Espera… ¿Qué  quiere~decir~la~mujer?
+~ wait     what does~the~woman~mean   
+- En~realidad la  mujer tiene~ocho~años.   
+~ actually    the woman is~eight~years~old 
+- Para ella es   muy  importante conocer al~hijo~de~Eddy.
+~ for  her  it's very important  to~meet Eddy's~son      
++ Ella no~necesita  conocer al~hijo~de~Eddy.
+~ she  doesn't~need to~meet Eddy's~son      
+
+[ARRANGE]
+> Tap what you hear
+Speaker336: ¿[(Me~puede) (describir)     (sus)  (fortalezas)?]
+~              can~you    (to)~describe   your   strengths    
+
+[LINE]
+Speaker414: Soy  muy  bueno preparando   cenas~románticas.
+~           I~am very good  at~preparing romantic~dinners 
+
+[LINE]
+Speaker336: Yo hablaba     de    sus  fortalezas~profesionales.
+~           I  was~talking about your professional~strengths   
+
+[LINE]
+Speaker414: ¿Siempre~hablas     tanto   de    trabajo durante la  primera cita?
+~            do~you~always~talk so~much about work    during  the first   date 
+
+[CONTINUATION]
+> ¿Qué~sigue?      
+~  what~comes~next 
+Speaker336: Esto no~es  una cita, es   una [entrevista~de~trabajo].
+~           this is~not a   date  it's a    job~interview          
++ entrevista~de~trabajo
+~ job~interview        
+- cita        con  el  dentista
+~ appointment with the dentist 
+- prueba~de~matemáticas
+~ math~test            
+
+[LINE]
+> Eddy mira     su  celular.   
+~ Eddy looks~at his cell~phone 
+
+[LINE]
+Speaker414: Ay, no… ¡me~equivoqué!     Tú  no~eres mi cita, tú  eres…
+~           oh  no   I~made~a~mistake  you are~not my date  you are  
+
+[LINE]
+Speaker336: Emilia, la  dueña del    gimnasio de~la~esquina. Estamos~buscando~a alguien que~trabaje las~noches y   los~fines~de~semana.
+~           Emilia  the owner of~the gym      on~the~corner  we~are~looking~for someone to~work     at~nights  and on~the~weekends     
+
+[LINE]
+Speaker414: Y…   ¿puedo tener     el  trabajo?
+~           and   can~I (to)~have the job     
+
+[LINE]
+Speaker336: No, de~ninguna~manera.
+~           no  no~way            
+
+[LINE]
+Speaker414: Bueno, entonces ahora estoy libre por~las~noches y   los~fines~de~semana para tener~muchas~citas. 
+~           well   then     now   I~am  free  at~nights      and on~the~weekends     for  going~on~many~dates 
+
+[MULTIPLE_CHOICE]
+> ¡Ups!  ¿Cuál fue el~error~de~Eddy?
+~  oops   what was Eddy's~mistake   
++ Él creía   que  la  mujer era su  cita.
+~ he thought that the woman was his date 
+- Él creía   que  la  mujer era la~maestra~de~su~hijo.
+~ he thought that the woman was his~son's~teacher     
+- Él olvidó traer    el~dinero para        pagar        la  cena.  
+~ he forgot to~bring money     in~order~to (to)~pay~for the dinner 
+
+[MATCH]
+> Tap the pairs
+- a <> at
+- preparando <> at preparing
+- lo saluda <> waves at him
+- Puede hablarme <> can you talk to me
+- llega <> arrives
+
