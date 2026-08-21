@@ -1,0 +1,151 @@
+[DATA]
+fromLanguageName=The New Mall
+icon=22d80e422eeb2f9e860d1f014edf989ff6257372
+set=105|1
+
+speaker_Lien=Lotte
+speaker_Jan=Ruben
+
+[HEADER]
+> Het nieuwe winkelcentrum
+~ The new    mall         
+$46/31064a88.mp3;3,50;7,250;14,337
+
+[LINE]
+> Lien leest de  krant     in de  trein.
+~ ~    reads the newspaper in the train 
+$46/3892cf7e.mp3;4,50;6,312;3,338;6,150;3,400;3,112;6,125
+
+[LINE]
+Speaker1320: Geweldig!
+~            Great    
+$46/3a6b4a9c.mp3;8,50
+
+[LINE]
+Speaker258: Wat? 
+~           What 
+$46/4886e47e.mp3;3,50
+
+[LINE]
+Speaker1320: Er    is een nieuw winkelcentrum in de  stad.
+~            There is a   new   shopping~mall in the city 
+$46/4bc80384.mp3;2,50;3,175;4,187;6,88;14,262;3,913;3,125;5,62
+
+[MULTIPLE_CHOICE]
+> Is there a new shopping mall in Jan and Lien's city?
++ Ja,  dat  klopt   
+~ Yes  that is~right
+- Nee, dat  klopt~niet
+~ No   that is        
+
+[LINE]
+Speaker258: Euhm, o~ja?
+~   erm really
+$46/77eee3d8.mp3;4,50;2,475;3,175
+
+[LINE]
+Speaker1320: Ja,  en  er    is een 3D~bioscoop!
+~            Yes  and there is a   3D~cinema   
+$46/5f530660.mp3;2,50;3,500;3,162;3,125;4,188;3,112;9,550
+
+[ARRANGE]
+> Put the words in the right order:
+Speaker1320: [(En) ( dat) ( Italiaanse) ( restaurant) ( dat)        ( je)   ( zo)  ( leuk) ( vindt)].
+~              ~     And    that          Italian       restaurant    that    you    so      like    
+$46/7ff2f9b6.mp3;2,50;4,162;11,175;11,688;4,887;3,138;3,125;5,300;6,200
+
+[LINE]
+Speaker258: Wow!
+$46/88b47386.mp3;3,50
+
+[LINE]
+Speaker258: Waar  is het in Amsterdam?
+~           Where is it  in ~         
+$46/919890f4.mp3;4,50;3,287;4,125;3,150;10,138
+
+[LINE]
+Speaker1320: Euhm, het~Damrak!                         
+~            ~    (avenue~in~city~center~of~Amsterdam) 
+$46/149e8314.mp3;4,50;4,412;7,175
+
+[LINE]
+Speaker258: Euhm , ... Het Damrak , ...
+$46/21bf58a2.mp3;4,50;4,1175;7,187
+
+[ARRANGE]
+> Put the words in the right order:
+Speaker258: [(Mag) ( ik) ( die) ( krant) ( eens)] ?
+~             May I~(see) that newspaper   for~a~moment    ~        ~       
+$46/0e31fb72.mp3;3,50;3,262;4,125;6,113;5,362
+
+[LINE]
+Speaker1320: Ja.
+$46/dcfcf070.mp3;2,50
+
+[LINE]
+Speaker258: Lien...
+$46/20901dbc.mp3;4,50
+
+[LINE]
+Speaker258: Dat  is geen  nieuw winkelcentrum.
+~           That is not~a new   shopping~mall 
+$46/231c9f38.mp3;3,50;3,212;5,150;6,250;14,213
+
+[LINE]
+Speaker258: Dat  is hetzelfde winkelcentrum.
+~           That is the~same  shopping~mall 
+$46/24a223dc.mp3;3,50;3,262;10,125;14,588
+
+[MULTIPLE_CHOICE]
+> What does "hetzelfde" mean?
+- the
+- the old
++ the same
+
+[LINE]
+Speaker258: Maar~dan met  een andere    naam!
+~           Only     with a   different name 
+$46/27191396.mp3;4,50;4,300;4,237;4,163;7,150;5,337
+
+[SELECT_PHRASE]
+> Complete the sentence
+> Het winkelcentrum [is hetzelfde, maar heeft een nieuwe naam.] .
+$46/2b44555c.mp3;3,50;14,250;3,875;10,150;5,900;6,237;4,288;7,100;5,350
+- gaat sluiten.
+- is nieuw, maar niet in Amsterdam.
++ is hetzelfde, maar heeft een nieuwe naam.
+
+[LINE]
+Speaker1320: Ah, ik~snap~het~al.
+~            ~   I~get~it       
+$46/2d27d81c.mp3;2,50;3,375;5,150;4,400;4,137
+
+[LINE]
+Speaker1320: Wil~je      naar het "nieuwe" winkelcentrum gaan?
+~            Do~you~want to   the  new     shopping~mall go   
+$46/2ee43c4a.mp3;3,50;3,275;5,100;4,225;7,175;14,525;5,862
+
+[LINE]
+Speaker1320: Om  een film  te~kijken en  een lekkere   pizza te~eten?
+~            For a   movie to~watch  and a   delicious pizza to~eat  
+$46/30c9daba.mp3;2,50;4,175;5,75;3,387;7,138;3,612;4,125;8,63;6,425;3,387;5,125
+
+[LINE]
+Speaker258: Jazeker!
+~   Certainly
+$46/3fdcc382.mp3;7,50
+
+[MULTIPLE_CHOICE]
+> What are Lien and Jan going to do?
++ Go to the movies and eat Italian food in the mall.
+- Go to a new mall in an Italian city.
+- Stay home and order Italian food.
+
+[MATCH]
+> Tap the pairs
+- Kijken <> to watch
+- De straat <> The street
+- De bioscoop <> The movie theater
+- Het winkelcentrum <> The shopping mall
+- De krant <> The newspaper
+
