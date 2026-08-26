@@ -1,0 +1,108 @@
+[DATA]
+fromLanguageName=It's Not for Kids
+icon=92f8e9fbcb106a065c67e2efcbb467a67077da4b
+set=15|2
+
+[HEADER]
+> No~es    para niños   
+~ it's~not for  children
+
+[LINE]
+> Zari está con  Junior porque  Eddy está en el~trabajo.
+~ Zari is   with Junior because Eddy is   at work       
+
+[LINE]
+Speaker415: ¡Zari! ¿Podemos~jugar tu~videojuego?  
+~            Zari   we~can~play   your~video~game 
+
+[LINE]
+Speaker418: Ahhh… Tengo~que~limpiar la  casa  porque  tu~papá  va~a~llegar        pronto.
+~           ohhh  I~have~to~clean   the house because your~dad is~going~to~arrive soon   
+
+[MULTIPLE_CHOICE]
+> Zari has time to play video games with Junior.
++ No, that's wrong.
+- Yes, that's right.
+
+[LINE]
+Speaker415: Bueno… ¿puedo~jugar tu~videojuego   sin     ti? 
+~           well    I~can~play  your~video~game without you 
+
+[LINE]
+Speaker418: Lo~siento, mi videojuego no~es  para niños.   
+~           I'm~sorry  my video~game is~not for  children 
+
+[ARRANGE]
+> Tap what you hear
+Speaker415: ¡[(Yo) (no~soy) (un) (niño)!] 
+~              I    am~not   a    child   
+
+[LINE]
+Speaker418: Mmm… bueno, los~adultos lavan los platos.
+~           hmm  well   adults      wash  the dishes 
+
+[LINE]
+Speaker415: ¡Yo sé   lavar         los platos!
+~            I  know (how)~to~wash the dishes 
+
+[CONTINUATION]
+> What comes next?
+> Junior empieza~a lavar   [los platos].
+~ Junior starts    to~wash  the dishes  
++ los platos
+~ the dishes
+- mi videojuego~
+~ my video~game 
+- los~adultos
+~ adults     
+
+[LINE]
+Speaker415: ¿Ves?
+~            see 
+
+[LINE]
+Speaker418: Los~adultos limpian la  mesa. 
+~           adults      clean   the table 
+
+[LINE]
+Speaker415: ¡Yo sé   limpiar        la  mesa! 
+~            I  know (how)~to~clean the table 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+> Junior [limpia~la~mesa].  
+~ Junior  cleans~the~table  
+- linda la mesa
++ limpia la mesa
+- limpias la masa
+
+[LINE]
+Speaker418: ¡Muy  bien! Sí,  eres    un adulto.
+~            very good  yes  you~are an adult  
+
+[LINE]
+Speaker415: ¿¡Ahora podemos~jugar tu~videojuego!?  
+~             now   we~can~play   your~video~game  
+
+[LINE]
+Speaker418: ¡Ay, no! Son~las~nueve.     ¡Tienes~que~ir  a  la~cama!
+~            oh  no  it's~nine~o'clock   you~have~to~go to bed     
+
+[LINE]
+Speaker415: ¡Pero soy  un adulto! Los~adultos van a  la~cama tarde.
+~            but  I~am an adult   adults      go  to bed     late  
+
+[MULTIPLE_CHOICE]
+> Junior thinks he is an adult now, so…
+- …he needs to find a job.
+- …he can marry Zari.
++ …he can go to bed late.
+
+[MATCH]
+> Tap the pairs
+- Ahora <> now
+- Tengo que limpiar <> I have to clean
+- Pero <> but
+- puedo jugar <> I can play
+- va a llegar <> is going to arrive
+
