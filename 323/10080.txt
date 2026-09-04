@@ -70,8 +70,6 @@ Speaker593: Mmm... Cuentayman yaykunay tiyan, ichaqa contraseñata qunqarpani.
 ~ mmm a~mi~cuenta entrar tengo~que pero contraseña olvidé
 $10080/_d6e2e94d.mp3;3,0;14,319;9,1065;6,852;8,533;13,638;11,1278
 
-# TODO Translation off
-# Fixed. We regrouped “Seguridad tapuyman” as the selectable phrase and updated the Spanish gloss so that it correctly corresponds to “pregunta de seguridad.”
 [POINT_TO_PHRASE]
 > Elige la opción que significa "pregunta de seguridad."
 Speaker593: (+Seguridad~tapuyman) (kutichiyta) (atiyman,) (ichaqa...)
@@ -83,12 +81,9 @@ Speaker560: ¿Imata?
 ~ qué
 $10080/_3533124f.mp3;6,0
 
-# TODO Audio says "tapuyqa kayjina", but missing from text
-# TODO I "junt'ay" isn't "fiesta" either, is it? Maybe better as wata~junt'aynin / su~cumpleaños
-# Fixed. You are correct that “junt'ay” should not be translated as “fiesta” here. We treated “wata junt'aynin” as “su cumpleaños” and updated the alignment accordingly.
 [LINE]
-Speaker593: "¿Mayk'aqtaq wawqiykip wata~junt'aynin?"
-~ cuándo de~tu~hermano su~cumpleaños
+Speaker593: Tapuyqa kayjina: "¿Mayk'aqtaq wawqiykip wata~junt'aynin?"
+~ la~pregunta~es así cuándo de~tu~hermano su~cumpleaños
 $10080/_83a0857f.mp3;12,0;10,1412;5,1271;11,565
 
 [LINE]
@@ -101,22 +96,18 @@ Speaker593: Manataq yuyarinichu.
 ~ y~no recuerdo
 $10080/_ba516f0d.mp3;7,0;12,747
 
-# TODO Translation off
-# Fixed. We reordered the Spanish gloss so that it follows the Quechua structure correctly and maintains the required block alignment.
 [CONTINUATION]
 > ¿Qué viene después?
-Speaker560: ¿[Manachu~wawqiykip~wata] junt'ayninta yuyanki?
-~ no de~tu~hermano año cumpleaños recuerdas
+Speaker560: ¿Manachu [wawqiykip wata~junt'ayninta] yuyanki?
+~ no de~tu~hermano su~cumpleaños recuerdas
 $10080/_7bfe4704.mp3;9,0;10,535;5,688;13,305;8,917
-- Qampa wata junt'aykita
-~ tu año cumpleaños
-+ Manachu wawqiykip wata
-~ no de~tu~hermano año
+- Qampa wata~junt'aykita
+~ tú tu~cumpleaños
++ wawqiykip wata~junt'ayninta
+~ no de~tu~hermano su~cumpleaños
 - Ñuqap sutiyta
 ~ mi nombre
 
-# TODO Translation off
-# Fixed. We updated the Spanish gloss to reflect the intended meaning of “important dates” in this context while preserving the Quechua word order and block count.
 [LINE]
 Speaker593: Sumaq p'unchaykunata qunqallanipuni.
 ~ importantes fechas siempre~olvido
@@ -133,11 +124,9 @@ Speaker593: [(¡Ichaqa) (wata~junt'aynin) (qunqasqayta) (yachanqa!)]
 ~ pero su~cumpleaños que~olvidé sabrá
 $10080/_2171d077.mp3;7,0;5,521;11,347;12,868;9,955
 
-# TODO Translation off (machkhachus)
-# Fixed. We translated “machkhachus” as “cuánto” and adjusted the rest of the Spanish gloss so that it correctly reflects the Quechua meaning and word order.
 [LINE]
 Speaker560: ¿Qamri, machkhachus chay boletokuna chanisqanta qunqarpankiñachu?
-~ tú~y cuánto esos boletos costaban ya~olvidaste
+~ y~tú cuánto esos boletos costaban ya~olvidaste
 $10080/_6d7ee4a4.mp3;6,0;13,389;5,855;11,310;12,778;17,854
 
 [LINE]
