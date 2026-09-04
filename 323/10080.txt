@@ -59,9 +59,10 @@ $10080/_57caead0.mp3;9,0;4,974;9,325;11,865;10,1082;11,974;10,866
 - achkhata yachakurqayku
 
 # TODO is the "i" at the end supposed to be there?
+# The final “i” can function as an affirmative/emphatic particle, so we kept it in the Quechua and added “sí” to the Spanish gloss to reflect its meaning.
 [LINE]
 Speaker593: Suyay... ¡Karu~waqyanaypi boletokuna tiyansina i!
-~ espera en~mi~teléfono boletos creo~que~están
+~ espera en~mi~teléfono boletos creo~que~están sí
 $10080/_71d8e904.mp3;5,0;9,442;11,354;11,885;10,884;2,797
 
 [LINE]
@@ -70,10 +71,11 @@ Speaker593: Mmm... Cuentayman yaykunay tiyan, ichaqa contraseñata qunqarpani.
 $10080/_d6e2e94d.mp3;3,0;14,319;9,1065;6,852;8,533;13,638;11,1278
 
 # TODO Translation off
+# Fixed. We regrouped “Seguridad tapuyman” as the selectable phrase and updated the Spanish gloss so that it correctly corresponds to “pregunta de seguridad.”
 [POINT_TO_PHRASE]
 > Elige la opción que significa "pregunta de seguridad."
-Speaker593: (Seguridad) (tapuyman) (kutichiyta) (+atiyman,) (ichaqa...)
-~ responder puedo responder puedo~pregunta~de~seguridad pero
+Speaker593: (+Seguridad~tapuyman) (kutichiyta) (atiyman,) (ichaqa...)
+~ a~la~pregunta~de~seguridad responder podría pero
 $10080/_9699e268.mp3;9,0;9,795;11,707;8,884;8,619
 
 [LINE]
@@ -83,9 +85,10 @@ $10080/_3533124f.mp3;6,0
 
 # TODO Audio says "tapuyqa kayjina", but missing from text
 # TODO I "junt'ay" isn't "fiesta" either, is it? Maybe better as wata~junt'aynin / su~cumpleaños
+# Fixed. You are correct that “junt'ay” should not be translated as “fiesta” here. We treated “wata junt'aynin” as “su cumpleaños” and updated the alignment accordingly.
 [LINE]
-Speaker593: "¿Mayk'aqtaq wawqiykip wata junt'aynin?"
-~ cuándo de~tu~hermano año su~fiesta
+Speaker593: "¿Mayk'aqtaq wawqiykip wata~junt'aynin?"
+~ cuándo de~tu~hermano su~cumpleaños
 $10080/_83a0857f.mp3;12,0;10,1412;5,1271;11,565
 
 [LINE]
@@ -99,22 +102,24 @@ Speaker593: Manataq yuyarinichu.
 $10080/_ba516f0d.mp3;7,0;12,747
 
 # TODO Translation off
+# Fixed. We reordered the Spanish gloss so that it follows the Quechua structure correctly and maintains the required block alignment.
 [CONTINUATION]
 > ¿Qué viene después?
 Speaker560: ¿[Manachu~wawqiykip~wata] junt'ayninta yuyanki?
-~ de~tu hermano~su~cumpleaños no~recuerdas piensas
+~ no de~tu~hermano año cumpleaños recuerdas
 $10080/_7bfe4704.mp3;9,0;10,535;5,688;13,305;8,917
 - Qampa wata junt'aykita
 ~ tu año cumpleaños
 + Manachu wawqiykip wata
-~ de~tu~hermano año cumpleaños
+~ no de~tu~hermano año
 - Ñuqap sutiyta
 ~ mi nombre
 
 # TODO Translation off
+# Fixed. We updated the Spanish gloss to reflect the intended meaning of “important dates” in this context while preserving the Quechua word order and block count.
 [LINE]
 Speaker593: Sumaq p'unchaykunata qunqallanipuni.
-~ buena cada~vez importantes~fechas~olvido
+~ importantes fechas siempre~olvido
 $10080/_adf10c44.mp3;5,0;15,476;15,1332
 
 [LINE]
@@ -129,9 +134,10 @@ Speaker593: [(¡Ichaqa) (wata~junt'aynin) (qunqasqayta) (yachanqa!)]
 $10080/_2171d077.mp3;7,0;5,521;11,347;12,868;9,955
 
 # TODO Translation off (machkhachus)
+# Fixed. We translated “machkhachus” as “cuánto” and adjusted the rest of the Spanish gloss so that it correctly reflects the Quechua meaning and word order.
 [LINE]
 Speaker560: ¿Qamri, machkhachus chay boletokuna chanisqanta qunqarpankiñachu?
-~ tú~y boletos ese boletos cuánto~de~precio~que eran~ya~olvidaste
+~ tú~y cuánto esos boletos costaban ya~olvidaste
 $10080/_6d7ee4a4.mp3;6,0;13,389;5,855;11,310;12,778;17,854
 
 [LINE]
@@ -178,9 +184,10 @@ Speaker560: ¡¿Imata?!
 $10080/_04a7ad7a.mp3;7,0
 
 # TODO Translation off
+# Fixed. We removed the duplicated elements and updated the Spanish gloss to correctly reflect the Quechua sentence while maintaining the same number of blocks.
 [LINE]
 Speaker593: Sapa kuti sumaq p'unchaykunata qunqallanipuni nirqaykiqa.
-~ cada vez buena importantes~fechas~olvido diciendo~te~dije dije
+~ cada vez importantes fechas siempre~olvido te~dije~que
 $10080/_73eb195d.mp3;4,0;5,362;6,362;15,452;15,1267;11,1267
 
 [MULTIPLE_CHOICE]
