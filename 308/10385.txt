@@ -1,0 +1,135 @@
+[DATA]
+fromLanguageName=Two Tickets
+icon=1038afc2cf4744d25820807d461131e153f7ddcf
+set=23|1
+
+[HEADER]
+> Dos entradas
+~ two tickets 
+
+[LINE]
+> Lily y   Zari llegan al     cine.         
+~ Lily and Zari arrive at~the movie~theater 
+
+[LINE]
+> Un~chico de   su    escuela trabaja ahí.  
+~ a~boy    from their school  works   there 
+
+[LINE]
+Speaker418: ¡Hola,  Ben! Dos entradas para "El~lago~de~sangre", por~favor.
+~            hello  Ben  two tickets  for   blood~lake          please    
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker1649: No, [son~demasiado~jóvenes] para        ver      esa  película.
+~            no   you're~too~young       in~order~to (to)~see that movie    
+- son demasiadas órdenes
+- con demasiados jóvenes
++ son demasiado jóvenes
+
+[LINE]
+Speaker416: ¡Pero siempre~nos~vendes entradas para las~películas~de~terror!
+~            but  you~always~sell~us tickets  for  horror~movies           
+
+[LINE]
+Speaker1649: Ah… y   tienen   cafés   de   la~tienda de~enfrente.      
+~            oh  and you~have coffees from the~store across~the~street 
+
+[ARRANGE]
+> Tap what you hear
+Speaker1649: [(No~pueden) (entrar~al) (cine)          (con)  (eso).] 
+~              you~can't   enter~the   movie~theater   with   that   
+
+[LINE]
+> Lily tira   los~cafés   a  la~basura.
+~ Lily throws the~coffees to the~trash 
+
+[LINE]
+Speaker418: ¡Oye, mi café!   ¡Y   tenía  chocolate~extra!
+~            hey  my coffee   and it~had extra~chocolate 
+
+[LINE]
+Speaker416: Lo~siento.
+~           I'm~sorry 
+
+[CONTINUATION]
+> ¿What comes   next?
+~  que  you~eat Next 
+Speaker1649: Muy~bien, pero no~les~voy~a~vender       [las~entradas].
+~            OK        but  I'm~not~going~to~sell~you  the~tickets   
++ las~entradas
+~ the~tickets 
+- la~basura
+~ the~trash
+- más  chocolate
+~ more chocolate
+
+[LINE]
+Speaker416: ¿Por~qué?
+~            why     
+
+[ARRANGE]
+> Tap what you hear
+Speaker1649: [(Siempre~hablan)  (durante) (las~películas).]
+~              you~always~talk   during    movies          
+
+[LINE]
+Speaker418: ¿Qué~te~pasa,           Ben? Somos  amigos,  ¿no?
+~            what's~wrong~with~you  Ben  we~are friends   no 
+
+[LINE]
+Speaker1649: ¿Ah,~sí? ¿Somos  amigos?  ¿Y   por~qué no~puedo estar   en su   banda?
+~             really   we~are friends   and why     can't~I  (to)~be in your band  
+
+[MULTIPLE_CHOICE]
+> Ah ha! Ben won't sell them tickets because…
++ …he wants to be in their band.
+- …they poured his coffee in the trash.
+- …the theater is already full.
+
+[LINE]
+Speaker418: Eh… ¿de~qué~banda~hablas?            
+~           eh   what~band~are~you~talking~about 
+
+[LINE]
+Speaker1649: Las~escuché hablar~de     su   banda en clase.
+~            I~heard~you talking~about your band  in class 
+
+[LINE]
+Speaker416: Está~bien, puedes  ser     nuestro guitarrista.  
+~           OK         you~can (to)~be our     guitar~player 
+
+[LINE]
+Speaker1649: Perfecto. ¿Cuándo vamos~a~practicar?       
+~            perfect    when   are~we~going~to~practice 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker416: Ahh… Mañana,   [después~de~la~escuela].
+~           ohh  tomorrow   after~school           
+- despierta en la escuela
++ después de la escuela
+- después de la abuela
+
+[LINE]
+Speaker418: ¿Ya  nos~puedes~vender las~entradas para        ver      "El~lago~de~sangre"?
+~            now can~you~sell~us   the~tickets  in~order~to (to)~see  blood~lake         
+
+[LINE]
+Speaker1649: Sí,  pero… mañana.   Después~de practicar  con  nuestra banda.
+~            yes  but   tomorrow  after      practicing with our     band  
+
+[MULTIPLE_CHOICE]
+> When can Zari and Lily see "El lago de sangre"?
+- after they get more coffee
++ after they have band practice with Ben
+- any time they want
+
+[MATCH]
+> Tap the pairs
+- Dos <> two
+- Después de <> after
+- Cuándo <> when
+- trabaja <> works
+- ver <> see
+
