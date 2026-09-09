@@ -6,18 +6,21 @@ set=7|1
 [HEADER]
 >Szeretnék egy videó~játékot
 ~ I~need   a  new~video~game  
-$10379/_ed234d10.mp3;9,247;4,243;6,534;8,140
+$10379/9ae80dcd.mp3;9,50;4,488;6,162;7,388
 [LINE]
 > Junior és Eddy egy boltban vannak.
 ~ Junior and Eddy a   at~a~store are  
+$10379/a4c78fa3.mp3;6,50;3,425;5,150;4,200;8,138;7,387;0,513
 
 [LINE]
 Speaker415: Apa, szükségem~van egy új videójátékra!
-~            dad   I~need   a   new video~game   
+~            Dad   I~need   a   new video~game   
+$10379/a1bf249e.mp3;3,50;1,400;10,113;4,525;4,150;3,175;13,212;0,975
 
 [LINE]
-Speaker414: Nem, Junior. Nincs szükséged új videójátékra.
-~           no  Junior  you~don't~need a  new~video~game   
+Speaker414: Nem, Junior. Nincs~szükséged új videójátékra.
+~           no  Junior  you~don't~need new  video~game   
+$10379/64c85462.mp3;3,50;1,325;7,125;1,563;6,850;10,200;3,525;13,237;0,975
 
 [MULTIPLE_CHOICE]
 > Eddy thinks Junior needs a new video game.
@@ -25,37 +28,38 @@ Speaker414: Nem, Junior. Nincs szükséged új videójátékra.
 + No, that's wrong.
 
 [LINE]
-Speaker415: Kérlek! Ez a robotos játék nagyon szórakoztató!
-~            please      this video~game of robots is very fun       
+Speaker415: Kérlek! Ez~a robotos játék nagyon szórakoztató!
+~            please  this robot game  very fun       
+$10379/d5fd6e7c.mp3;6,50;1,500;3,863;2,175;8,100;6,375;7,387;13,313;0,862
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker414: Junior, [tú~quieres~este] videojuego, pero no~necesitas   este videojuego.
-~           Junior   you~want~this    video~game  but  you~don't~need this video~game 
-+ tú quieres este
-- tú sientes este
-- tú quieres estar
+Speaker414: Junior, te [akarod] ezt~a videójátékot, de nincs szükséged erre a videójátékra. 
+~           Junior  you  want this video~game  but  you~don't~need this video~game 
++ akarod
+- kaparod
+- nem akarod
 
 [LINE]
 Speaker415: Rendben, akkor akarom! Megvesszük?   
-~           OK          I  want~it     (can)~we~buy~it 
+~           OK   I  want~it     (can)~we~buy~it 
 
 [ARRANGE]
 > Tap what you hear
-Speaker414: [(No)… (Tienes)   (muchos)   (videojuegos) (en~casa).]
+Speaker414: [(Nem)… (Sok)   (videójátékod)   (van) (otthon).]
 ~             no    you~have   a~lot~of   video~games   at~home   
 
 [LINE]
-Speaker415: Sí,  sí…  Está~bien, ¿vamos~a      casa?
-~           yes  yes  OK          we~are~going home 
+Speaker415: Igen, igen…  Rendben, hazamegyünk?
+~           yes  yes  Okay are~we~going~home 
 
 [LINE]
-Speaker414: No, vamos        a  casa~de~Vikram.
-~           no  we~are~going to Vikram's~house 
+Speaker414: Nem, most Vikramhoz megyünk.
+~           no  now  to~Vikram's~house we~are~going
 
 [CONTINUATION]
 > What comes next?
-Speaker415: ¿Por~qué? ¡Su~casa   es [muy  aburrida]!
+Speaker415: Miért? Vikram háza [nagyon unalmas]!
 ~            why       his~house is  very boring    
 - una tienda
 ~ a   store 
@@ -65,11 +69,11 @@ Speaker415: ¿Por~qué? ¡Su~casa   es [muy  aburrida]!
 ~ very boring  
 
 [LINE]
-Speaker414: Pero su~televisión es grande y   yo necesito ver      el  partido~de~fútbol.
+Speaker414: De van egy nagy tévéje, és meg kell néznem a focimeccset. 
 ~           but  his~TV        is big    and I  need     to~watch the soccer~game       
 
 [LINE]
-Speaker415: Papá, tú  quieres ver      el  partido, pero no~necesitas   ver      el  partido.
+Speaker415: Apa, meg akarod nézni a meccset, de nem kell megnézned.
 ~           dad   you want    to~watch the game     but  you~don't~need to~watch the game    
 
 [MULTIPLE_CHOICE]
