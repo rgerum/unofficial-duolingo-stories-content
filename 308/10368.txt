@@ -1,5 +1,5 @@
 [DATA]
-fromLanguageName=Hércules's Funeral
+fromLanguageName=Hercules's Funeral
 icon=d269170970dbcc5a5f80f6ea1ffed7394ae2b584
 set=20|2
 
@@ -10,7 +10,7 @@ $10368/_a8d764d1.mp3;9,0;9,847
 
 [LINE]
 > Keere Lily Junior korire.
-~ Lily sees Junior  he~is~crying     
+~ Lily sees Junior  (he~is)~crying
 $10368/_ce2f2ac6.mp3;5,0;5,428;7,342;7,513
 
 [LINE]
@@ -24,9 +24,9 @@ Speaker415: Achicha, kome~Hercules!
 $10368/_2eea6938.mp3;7,0;6,811;9,463
 
 [LINE]
-Speaker416: Njiriot~neng'ung'~neichome?
+Speaker416: Njiriot~neng'ung'~ne~ichome?
 ~            your~pet~fish  
-$10368/_b2485aab.mp3;7,0;9,521;10,596
+$10368/_b2485aab.mp3;7,0;9,521;4,596;7,222
 
 [MULTIPLE_CHOICE]
 > Junior is crying because his dog died.
@@ -34,27 +34,27 @@ $10368/_b2485aab.mp3;7,0;9,521;10,596
 - Yes, that's right.
 
 [LINE]
-Speaker415: Eeeh,  ak   komining~nia!
+Speaker415: Eeeh,  ak   komining~nea!
 ~            yes  and he~was~so~young 
 $10368/_1d41d4f7.mp3;4,0;5,502;11,251;4,1003
 
 [LINE]
-Speaker416: Imuch atoretin ngamun angen agobo~igorwekab~konoretab~borwek~chechang.
-~           I  can~help~you    because I~know a~lot~about~funerals  
+Speaker416: Imuch atoretin ngamun angen agobo igorwekab~konoretab~borwek chechang'.
+~           I~can help~you    because I~know about funerals~("functions~of~burial~of~bodies") a~lot
 $10368/_f5cec421.mp3;5,0;9,439;7,703;6,527;6,440;10,439;10,791;7,791;9,527
 
 [SELECT_PHRASE]
 > Select the missing phrase
-> Lily ak  Junior koib [njiriot~kowo~babit].          
-~ Lily and Junior take    the~fish~to~the~bathroom  
+> Lily ak  Junior koib [njiriot kowo babit].          
+~ Lily and Junior take    the~fish to~("go~to") the~bathroom  
 $10368/_38a83ae9.mp3;4,0;3,350;8,175;5,525;8,350;5,613;6,350
-+ njiriot~kowo~babit
-- njiriot~kowo~bek
-- kobar~njiriot
++ njiriot kowo babit
+- njiriot kowo bek
+- kobar njiriot
 
 [LINE]
 Speaker416: Hercules kemuche kekonor en araraita.
-~           Hércules can~have    a~burial   at the~sea 
+~           Hercules can    be~buried in the~sea
 $10368/_4e883cdf.mp3;8,0;8,615;8,538;3,538;9,154
 
 [MULTIPLE_CHOICE]
@@ -64,9 +64,9 @@ $10368/_4e883cdf.mp3;8,0;8,615;8,538;3,538;9,154
 + in the bathroom
 
 [LINE]
-Speaker416: Tos~imoche ibwat kasorwek~chekororon imi~ak Hercules?
-~            you~want to~remember some~happy~moments    with Hércules 
-$10368/_d5611ffa.mp3;3,0;7,234;6,468;9,389;11,624;4,780;3,233;9,156
+Speaker416: Tos~imoche ibwat kasorwek~che~kororon imi ak Hercules?
+~            you~want to~remember some~happy~moments    (when)~you~were with Hercules
+$10368/_d5611ffa.mp3;3,0;7,234;6,468;9,389;4,624;8,780;4,233;3,156;9,94
 
 [LINE]
 Speaker415: Mmm… Kiachome akeere~Hercules~kopire~bek.  
@@ -85,8 +85,8 @@ Speaker415: Ak kichome kokeere kiptang'ayit ak ane.
 $10368/_e2715609.mp3;2,0;8,157;8,552;13,552;3,947;4,157
 
 [LINE]
-Speaker415: Ak kichome~kora tyenwogikchuk~chechang~nia!
-~            and he~also~liked       a~lot~my~songs     
+Speaker415: Ak kichome~kora tyenwogikchuk chechang'~nea!
+~            and he~also~liked       my~songs     very~very~much
 $10368/_e399f93f.mp3;2,0;8,146;5,508;14,290;9,944;4,581
 
 [LINE]
@@ -97,22 +97,22 @@ $10368/_25dd1050.mp3;7,0;8,517;9,517
 [POINT_TO_PHRASE]
 > Choose the option that means "toilet."
 > Lily (konde) (Hércules) (oritab)    (+babit).
-~ Lily  puts     Hércules   into~the    toilet   
+~ Lily  puts     Hércules   inside~of    toilet   
 $10368/_bfb9763b.mp3;4,0;6,366;9,457;7,731;9,549
 
 [LINE]
-Speaker416: Tos ichobot asi~ile saisere?  
-~            you~are ready in~order~to~say goodbye 
+Speaker416: Tos ichobot asi ile saisere?  
+~            you~are ready in~order~to ("you")~say goodbye 
 $10368/_bd193b09.mp3;3,0;8,263;4,615;4,264;8,263
 
 [LINE]
-> Konam~Hercules~kopir~beek.
-~ Hércules~starts~swimming  
+> Konam Hercules kopir~beek.
+~ starts Hercules to~swimming~("hit~water")
 $10368/_5ebf43a5.mp3;5,0;9,416;6,665;5,415
 
 [LINE]
 Speaker415: Hercules!
-~            Hércules 
+~            Hercules 
 $10368/_9cc1097d.mp3;8,0
 
 [LINE]
@@ -122,12 +122,12 @@ $10368/_68d8b6b9.mp3;2,0;6,246;8,490
 
 [LINE]
 Speaker415: Ak nguni   tos~kinemunde~ano~Hercules en babit?
-~            and now     how~we~get~Hércules~out of~the toilet  
+~            and now     how~do~we~get~Hércules~out of~the toilet
 $10368/_07449f30.mp3;2,0;6,177;6,444;10,265;4,798;9,266;3,709;6,178
 
 [LINE]
-Speaker416: Mutyo, motoretin eng non. 
-~           I'm~sorry  I~can't~help~you   with that 
+Speaker416: Mutyo, motoretin eng' non.
+~           I'm~sorry  I~won't~help~you   with that 
 $10368/_aac5d52d.mp3;5,0;11,595;4,1070;4,357
 
 [MULTIPLE_CHOICE]
