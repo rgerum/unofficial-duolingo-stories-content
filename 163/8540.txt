@@ -9,20 +9,20 @@ set=1|4
 $8540/73ac09fb.mp3;7,50
 
 [LINE]
-> อาน่า|อยู่|ใน|รถ|แท็กซี่
+> อันนา|อยู่|ใน|รถ|แท็กซี่
 ~ Ana is in wheeled~vehicle taxi 
-$8540/aba7df5d.mp3;5,50;5,375;3,138;3,125;7,162
+$8540/b8eceaa4.mp3;3,50;2,175;5,225;3,138;3,125;7,175
 
 [LINE]
-Speaker113: สวัสดี
-~           hello
-$8540/f23a5801.mp3;5,50
+Speaker113: สวัสดี|ครับ
+~           hello (formal~masculine~particle)
+$8540/c02677a2.mp3;6,50;4,463
 
 [SELECT_PHRASE]
 > Select the missing phrase
-Speaker343: สวัสดี ฉัน|ต้อง|ไป|[สนามบิน]!
-~           hello  I need go airport  
-$8540/262cf7a0.mp3;6,15;20,702
+Speaker343: สวัสดี|ค่ะ ไป|[สนามบิน] ค่ะ
+~           hello (formal~feminine~particle,~affirmative) go airport (formal~feminine~particle,~affirmative) 
+$8540/bc2343f2.mp3;9,15;3,861;11,185
 + สนามบิน
 - ร้านกาแฟ
 - สถานีรถไฟ
@@ -33,38 +33,38 @@ Speaker113: โอเค
 $8540/d516e841.mp3;3,50
 
 [LINE]
-Speaker113: วันหยุด?
-~            vacation   
-$8540/6c7e907e.mp3;3,50;4,225
+Speaker113: ไปเที่ยว|เหรอ
+~            go~on~vacation (confirmation~particle)   
+$8540/4a848f26.mp3;2,50;6,150;4,213
 
 [LINE]
-Speaker343: ไม่ใช่|วันหยุด
-~           not vacation
-$8540/c89949c5.mp3;NaN,15
+Speaker343: ไม่ได้ไปเที่ยว
+~           not~going~on~vacation
+$8540/432a9963.mp3;14,15
 
 [ARRANGE]
 > Tap what you hear
-Speaker343: [(ฉัน)|(มี)|(ตั๋ว)|(ไป)|(กรุงเทพฯ)]
-~            I have ticket go Bangkok
-$8540/d6e4d7bc.mp3;NaN,15
+Speaker343: [(มี)|(ตั๋ว)|(ไป)|(เกาะสมุย)|(ค่ะ)]
+~            have ticket go Koh~Samui (formal~feminine~particle,~affirmative)
+$8540/07828ed4.mp3;2,15;5,215;3,234;9,175;4,631
 
 [LINE]
-Speaker343: โอ้ ตั๋วสองใบ
-~           oh two~tickets
-$8540/69133058.mp3;3,15;NaN,205
+Speaker343: สอง|ใบ
+~           two (measure~word~for~paper)
+$8540/5eeea265.mp3;3,15;3,370
 
 [LINE]
-Speaker113: กรุงเทพฯ|เป็น|เมือง|โปรด|ของ|ฉัน!  
-~           Bangkok is city favorite of I
-$8540/086046b3.mp3;8,50;5,475;6,138;5,237;4,188;4,175;0,412
+Speaker113: สมุย|เป็น|เกาะ|โปรด|ผม  
+~           Samui is island favorite I~(formal~masculine~form)
+$8540/8201aa5c.mp3;4,50;5,425;5,188;5,187;2,250
 
 [LINE]
-Speaker343: มัน|เป็น|ฮันนีมูน|ของ|ฉัน
-~           it is honeymoon of I
-$8540/3c542566.mp3;NaN,15
+Speaker343: ⁠มัน|เป็น|ตั๋ว|ไป|ฮันนีมูน|ค่ะ
+~           it is ticket go honeymoon (formal~feminine~particle,~affirmative)
+$8540/a7621c5c.mp3;4,15;5,235;5,186;3,215;9,206;4,661
 
 [MULTIPLE_CHOICE]
-> Why is Ana going to Bangkok?
+> Why is Ana going to Koh Samui?
 + She's going on her honeymoon.
 - She is learning how to dance flamenco.
 - She is getting married there.
