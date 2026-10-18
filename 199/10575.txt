@@ -1,0 +1,161 @@
+[DATA]
+fromLanguageName=Can I Take Your Picture?
+icon=d6cfdc678db3116881efba02e683423389b53370
+set=24|2
+
+[HEADER]
+> Je~peux vous~prendre~en~photo      ?
+~ can~I   (to)~take~a~picture~of~you  
+
+[LINE]
+> Lucie marche     dans~la~rue.  
+~ Lucie is~walking on~the~street 
+
+[LINE]
+> Elle voit un bel~homme.   
+~ she  sees a  handsome~man 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker509: Waouh ! Vous~êtes cet  [acteur~célèbre] ?
+~           wow     are~you   that  famous~actor     
++ acteur célèbre
+- empereur sévère
+- auteur élève
+
+[LINE]
+Speaker385: Chut ! Non…
+~           shh    no  
+
+[LINE]
+Speaker509: J'ai~vu votre film  !
+~           I~saw   your  movie  
+
+[LINE]
+Speaker385: Je ne~suis~pas acteur.  
+~           I  am~not      an~actor 
+
+[ARRANGE]
+> Tap what you hear
+Speaker509: [(Je~suis) (sûre) (que)  (c'est) (vous) ]! 
+~             I'm       sure   that   it's    you      
+
+[LINE]
+Speaker509: Je~peux vous~prendre~en~photo      ?
+~           can~I   (to)~take~a~picture~of~you  
+
+[LINE]
+Speaker385: D'accord… mais vite  !
+~           OK        but  quick  
+
+[LINE]
+Speaker509: Alors, vous êtes~vraiment acteur   !
+~           so     you  really~are    an~actor  
+
+[LINE]
+Speaker385: Oui.
+~           yes 
+
+[LINE]
+Speaker509: Je le~savais !
+~           I  knew~it    
+
+[LINE]
+> Lucie prend une~photo de l'homme.
+~ Lucie takes a~picture of the~man 
+
+[MULTIPLE_CHOICE]
+> Why did Lucie take a picture of the man?
++ He is a famous actor.
+- She's a professional photographer.
+- He's her boyfriend.
+
+[LINE]
+Speaker509: Vous étiez dans le  film  « Les~chats~tristes ne~dansent~pas » !
+~           you  were  in   the movie ~ (the)~sad~cats    don't~dance    ~  
+
+[LINE]
+Speaker385: Non.
+~           no  
+
+[LINE]
+Speaker509: Ah, non ?
+~           ah  no   
+
+[LINE]
+Speaker385: J'étais dans « Mon super grand-père  ».
+~           I~was   in   ~ my  super grandfather ~ 
+
+[LINE]
+Speaker509: Je ne~connais~pas. 
+~           I  don't~know~(it) 
+
+[CONTINUATION]
+> What comes next?
+Speaker385: Vous~avez~vu « J'entends un bruit ! » ? J'adore [ce   film  ]!
+~           did~you~see  ~ I~hear    a  noise   ~   I~love   that movie   
+- ces   chats~tristes
+~ these sad~cats     
++ ce   film 
+~ that movie
+- ce   grand-père 
+~ that grandfather
+
+[LINE]
+Speaker509: Non.
+~           no  
+
+[LINE]
+Speaker385: Vous~avez~vu « Les~zombies   font~du~ski » ?
+~           did~you~see  ~ (the)~zombies are~skiing  ~  
+
+[LINE]
+Speaker509: Non, je ne~connais~pas. 
+~           no   I  don't~know~(it) 
+
+[POINT_TO_PHRASE]
+> Choose the option that means "are deleting."
+Speaker385: (Attendez)… (vous) (+effacez)      (ma~photo) ?
+~            wait        you     are~deleting   my~photo   
+
+[CONTINUATION]
+> What comes next?
+Speaker509: Peut-être. Vous~étiez dans [d'autres   films  ]?
+~           maybe      were~you   in    some~other movies   
++ d'autres   films 
+~ some~other movies
+- ma cuisine
+~ my kitchen
+- ma photo  
+~ my picture
+
+[LINE]
+Speaker385: J'ai~joué  dans cinquante films  !
+~           I've~acted in   fifty     movies  
+
+[LINE]
+> Lucie efface  la~photo. 
+~ Lucie deletes the~photo 
+
+[LINE]
+Speaker509: Si vous voyez l'acteur  du     film  « Les~chats~tristes ne~dansent~pas »…
+~           if you  see   the~actor of~the movie ~ (the)~sad~cats    don't~dance    ~ 
+
+[LINE]
+Speaker509: … vous~pouvez le~prendre~en~photo        pour moi ?
+~             can~you     (to)~take~a~picture~of~him for  me   
+
+[MULTIPLE_CHOICE]
+> Lucie met a famous actor, but…
++ ...she hasn't seen any of his movies.
+- ...he didn't let her take his picture.
+- ...he was busy dancing with his cat.
+
+[MATCH]
+> Tap the pairs
+- Non <> no
+- voyez <> see
+- d'autres <> some other
+- J'ai joué <> I've acted
+- Je <> I
+
