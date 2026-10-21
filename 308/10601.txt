@@ -1,0 +1,155 @@
+[DATA]
+fromLanguageName=Let's Move the Bed
+icon=0f7ed20f8dd9abe2d26821e7d69caa9a9d28f194
+set=49|4
+
+[HEADER]
+> Vamos~a~mover la~cama
+~ let's~move    the~bed
+
+[LINE]
+> Zari está en la~cama~de~Lily mirando~al     techo.  
+~ Zari is   on Lily's~bed      looking~at~the ceiling 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker418: Lily, tu   habitación es muy  aburrida. [Deberías~mover]  tus  muebles.  
+~           Lily  your room       is very boring     you~should~move  your furniture 
+- Te vería mover
++ Deberías mover
+- Deberías poder
+
+[LINE]
+Speaker416: No, me~gusta mi habitación como~está.
+~           no  I~like   my room       as~is     
+
+[POINT_TO_PHRASE]
+> Selecciona la~opción  que  significa "corner".
+~ choose     the~option that means      ~       
+Speaker418: ¡Vamos~a~poner (la~cama) en ese  (+rincón)! ¡(Se~verá)      (genial)!
+~            let's~put      the~bed  in that   corner     it~will~look   great   
+
+[LINE]
+Speaker416: No~estoy~de~acuerdo.
+~           I~don't~agree       
+
+[LINE]
+Speaker418: Es   muy  peligroso tener   la~cama al~lado~de la~ventana.
+~           it's very dangerous to~have the~bed next~to    the~window 
+
+[LINE]
+Speaker416: ¿Peligroso?
+~            dangerous 
+
+[LINE]
+Speaker418: Durante una~tormenta, un~rayo     puede golpear  un~árbol, y   el~árbol puede romper     tu   ventana.
+~           during  a~storm       a~lightning can   (to)~hit a~tree    and the~tree can   (to)~break your window  
+
+[LINE]
+Speaker418: ¡O  un~asesino puede entrar       por     la~ventana!
+~            or a~murderer can   (to)~come~in through the~window 
+
+[LINE]
+Speaker416: ¡Guau, Zari! Veo   que  has~pensado      mucho en    esto.
+~            wow   Zari  I~see that you~have~thought a~lot about this 
+
+[MULTIPLE_CHOICE]
+> Lily cree   que  Zari ha~pensado  mucho en…   
+~ Lily thinks that Zari has~thought a~lot about 
+- …caerse      por     la~ventana~de~Lily.
+~  to~fall~off through Lily's~window      
+- …entrar    por     la~ventana~de~Lily.
+~  to~get~in through Lily's~window      
++ …dónde debería~estar~la~cama~de~Lily.
+~  where Lily's~bed~should~be          
+
+[LINE]
+Speaker418: Solo   quiero ayudarte    y   saber     que  estás   bien, Lily.
+~           I~just want   to~help~you and (to)~know that you~are OK    Lily 
+
+[LINE]
+Speaker416: No~te~preocupes. Mi cama siempre~ha~estado al~lado~de la~ventana.
+~           don't~worry      my bed  has~always~been   next~to    the~window 
+
+[LINE]
+Speaker418: ¿Siempre? ¿No~quieres     cambiar   y   probar   algo      nuevo?
+~            always    you~don't~want to~change and (to)~try something new   
+
+[ARRANGE]
+> Tap what you hear
+Speaker416: [(Sabes)    (que)  (no~me~gustan) (los~cambios).]
+~             you~know   that   I~don't~like   changes       
+
+[LINE]
+Speaker418: Leí    un~libro que  decía que  es   bueno dormir   con  la~cabeza al     norte de la~habitación.
+~           I~read a~book   that said  that it's good  to~sleep with your~head to~the north of the~room      
+
+[LINE]
+Speaker416: Ya~está      hacia el  norte de la~habitación.
+~           it's~already to    the north of the~room      
+
+[LINE]
+Speaker418: ¿Dije      al     norte? Quise~decir al     sur.  
+~            did~I~say to~the north  I~meant     to~the south 
+
+[MULTIPLE_CHOICE]
+> Ahora Zari dice que  Lily debería dormir     con  la~cabeza…
+~ now   Zari says that Lily should  (to)~sleep with her~head  
+- …fuera~de la~ventana.
+~  outside  the~window 
+- …debajo~de muchas   mantas.  
+~  under     a~lot~of blankets 
++ …hacia el~sur    de la~habitación.
+~  to    the~south of the~room      
+
+[LINE]
+Speaker416: ¡Zari! ¿Por~qué quieres     mover   mi cama?
+~            Zari   why     do~you~want to~move my bed  
+
+[ARRANGE]
+> Tap what you hear
+Speaker418: [(Porque)  (se~verá)      (muy)  (bien) (allá).]      
+~             because   it~will~look   very   good   over~there   
+
+[LINE]
+Speaker416: Está~bien, ayúdame~a mover     la~cama.
+~           OK         help~me   (to)~move the~bed 
+
+[LINE]
+> Las~chicas están~moviendo la~cama, pero Lily ve   algo      en la~alfombra.
+~ the~girls  are~moving     the~bed  but  Lily sees something on the~carpet  
+
+[CONTINUATION]
+> ¿Qué  sigue?     
+~  what comes~next 
+Speaker416: Zari, ¿derramaste    café   sobre mi [alfombra]?
+~           Zari   did~you~spill coffee on    my  carpet    
+- ventana
+~ window 
+- árbol
+~ tree 
++ alfombra
+~ carpet  
+
+[LINE]
+Speaker418: Sí,  pero no~te~preocupes. Después~de mover  la~cama, ¡ya~no~verás~la~mancha!          
+~           yes  but  don't~worry      after      moving the~bed   you~won't~see~the~stain~anymore 
+
+[MULTIPLE_CHOICE]
+> Zari quiere mover   la~cama~de~Lily…
+~ Zari wants  to~move Lily's~bed      
++ …para        cubrir     la  mancha~de~café sobre la~alfombra.
+~  in~order~to (to)~cover the coffee~stain   on    the~carpet  
+- …para~que~Lily~pueda mirar     por     la~ventana de~noche.
+~  so~that~Lily~can    (to)~look through the~window at~night 
+- …a  un lugar~muy~peligroso. 
+~  to a  very~dangerous~place 
+
+[MATCH]
+> Tap the pairs
+- genial <> great
+- muebles <> furniture
+- O <> or
+- mucho <> a lot
+- Lily <> Lily
+
