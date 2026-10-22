@@ -1,108 +1,127 @@
 [DATA]
-fromLanguageName=Good Morning
+fromLanguageName=Good Morning (Audio test)
 icon=783305780a6dad8e0e4eb34109d948e6a5fc2c35
 set=1|1
 
+##### I created this story to test out using the de-CH voice, it seems like the best alternative voice to recording the stories.
+
+
 [HEADER]
-> Buenos~días 
-~ good~morning
+> Bun~dé{bun~de:ipa}
+~ Buongiorno
+$10574/c0c83e33.mp3;5,50
 
 [LINE]
-Speaker593: ¡Buenos~días,  Priti!
-~            good~morning  Priti 
+Speaker593: Bun~dé{bun~de:ipa},  Priti!
+~         buongiorno ~ 
+$10574/767bb31c.mp3;6,50;1,500;7,100;0,450
 
 [LINE]
-Speaker560: Buenos~días,  mi amor.
-~           good~morning  my love 
+Speaker560: Bun~dé{bun~de:ipa},  mi{mi:ipa} amur{amur:ipa}.
+~          buongiorno  mio amore 
+$10574/9303cfb5.mp3;6,50;1,513;4,25;5,187;0,488
 
 [LINE]
-Speaker560: ¿Dónde están mis llaves?
-~            where are   my  keys   
+Speaker560: Olá eles~pa{eles~pa:ipa} les mies{mies:ipa} tles?
+~           dove sono   le mie  chiavi   
+$10574/8704b1e7.mp3;3,50;8,363;4,550;5,325;5,312
 
 [LINE]
-Speaker593: ¿Tus  llaves?
-~            your keys   
+Speaker593: Les tües{tʏes:ipa} tles?
+~           le tue chiavi   
+$10574/dd138b9f.mp3;3,50;5,288;5,312
 
 [MULTIPLE_CHOICE]
-> Priti can't find her keys.
-+ Yes, that's right.
-- No, that's wrong.
+> Priti non riesce a trovare le sue chiavi.
++ Sì, è corretto
+- No, è sbagliato
 
 [LINE]
-Speaker560: Sí,  necesito ir    al trabajo.
-~           yes  I~need   to~go to work    
+Speaker560: Ê,  i~mëss{i~mass:ipa}   jí   al laur.
+~           sì  devo   andare al lavoro    
 
 [ARRANGE]
 > Tap what you hear
-Speaker560: ¡[(Necesito) (las~llaves) (de) (mi) (carro)!]
-~              I~need     the~keys     of   my   car     
+Speaker560:  [(I~ador) (les) (tles) (de) (mi) (auto)!]
+~              ho~bisogno~di le chiavi di mio  auto     
+$10574/0740e94a.mp3;1,50;5,125;4,375;5,313;3,387;3,88;5,375;0,562
 
 [LINE]
-Speaker593: ¡Ja, ja! ¡Priti, tus  llaves están aquí en la  mesa!  ¡Ja, ja, ja!
-~            ha  ha   Priti  your keys   are   here on the table   ha  ha  ha 
+Speaker593:  Ha, ha!  Priti, les tües{tʏes:ipa} tles é chiló{kiló}, sön{søn:ipa} mësa{masa:ipa}!   ha, ha, ha!
+~            ha  ha   Priti  le tue chiavi sono qui su tavolo  ha  ha  ha 
+$10574/23a0723f.mp3;2,50;1,300;3,100;1,263;7,875;1,450;4,125;5,237;5,313;2,325;6,162;1,438;4,112;5,250;1,450;5,875;1,313;3,125;1,262;3,113;0,250
 
 [POINT_TO_PHRASE]
 > Choose the option that means "tired."
-Speaker560: (Perdón), mi amor, (estoy) (+cansada). ¡(Trabajo) mucho!
-~            sorry    my love   I~am     tired       I~work   a~lot 
+Speaker560: (Pordona), mi amur, (i~sun) (+stancia).  (I~laor) tröp!
+~            scusa     mio amore  sono     stanca       lavoro   molto 
 
 [LINE]
-Speaker593: ¿Quieres     café?  
-~            do~you~want coffee 
+Speaker593:  Os{os:ipa}    café?  
+~            vuoi caffè 
+$10574/ae6c8749.mp3;2,50;8,225
 
 [LINE]
-Speaker560: ¡Sí,  por~favor!
-~            yes  please    
+Speaker560:  Ê,  prëibel{praibel:ipa}!
+~            sì  per~favore    
+$10574/2471aa81.mp3;1,50;1,200;9,125;0,638
 
 [LINE]
-Speaker593: Aquí está,  mi amor.
-~           here it~is  my love 
+Speaker593: Chiló{kiló} éle,  mi{mi:ipa} amur{amurd:ipa}.
+~           qui    è   mio amore 
+$10574/a993a610.mp3;5,50;4,363;1,337;4,88;5,200;0,487
 
 [LINE]
-Speaker560: ¿Dónde está el  azúcar? Ah, aquí está. 
-~            where is   the sugar   oh  here it~is 
+Speaker560:  Ulá é~pa{pa:ipa} le  zücher{zʏcer:ipa}? Ah, al~é chiló{kilo:ipa}. 
+~            dove è   il zucchero ah  è qui 
+$10574/0a89baac.mp3;3,50;5,388;3,162;7,113;4,1437;1,188;3,112;2,263;6,162;0,500
 
 [MULTIPLE_CHOICE]
-> Hmm… what is Priti doing?
-- pouring her coffee on the table
-- putting sugar on her keys
-+ looking for some sugar for her coffee
+> Hmm… cosa sta facendo Priti?
+- sta versando il caffé sul tavolo
+- sta mettendo dello zucchero sulle sue chiavi
++ sta cercando dello zucchero per il caffè
 
 [LINE]
-> Ella bebe   su  café.  
-~ she  drinks her coffee 
+> Ëra{ara:ipa}   bër{bar:ipa}   le  café.  
+~ Ella  beve il caffè 
+$10574/d6baf81e.mp3;3,50;6,250;5,225;6,200;0,513
 
 [LINE]
-Speaker560: ¡Ay, no!
+Speaker560:  Ah, no!
 ~            oh  no 
+$10574/ff5f19cf.mp3;2,50;1,188;3,62;0,375
 
 [LINE]
-Speaker593: ¿Qué? 
-~            what 
+Speaker593:  Ci{tʃi:ipa}? 
+~            cosa 
+$10574/8549750a.mp3;2,50
 
 [LINE]
-Speaker560: ¡Eso  es sal! 
-~            that is salt 
+Speaker560:  Chël{kal:ipa}  é{e:ipa} se{se:ipa}! 
+~            quello è sale
+$10574/3689f3d4.mp3;4,50;3,338;3,137;0,350
 
 [LINE]
-Speaker593: ¡Priti, estás   muy  cansada!
-~            Priti  you~are very tired   
+Speaker593:  Priti, tö~es{tø~es:ipa}   dër{dar:ipa}  stancia{ʃtantʃa:ipa}!
+~            Priti  sei molto stanca   
+$10574/0b0b4d53.mp3;5,50;1,450;6,138;6,300;9,150;0,525
 
 [LINE]
-Speaker560: Sí,  necesito más  café…   ¡con  azúcar, no  con  sal! 
-~           yes  I~need   more coffee   with sugar   not with salt 
+Speaker560: Ê,  i~ador deplü{deplʏ:ipa}  café…    cun{kun:ipa} zücher, nia  cun{kun:ipa}  se{se:ipa}! 
+~           sì  ho~bisogno~di più caffè con zucchero non con sale 
+$10609/ac0719cc.mp3;1,50;1,188;3,175;5,200;6,375;6,450;8,1437;7,275;1,463;4,12;5,275;4,363;0,362
 
 [MULTIPLE_CHOICE]
-> Priti was so tired that…
-- …she fell asleep in the kitchen.
-+ …she put salt in her coffee.
-- …she put her keys in her coffee.
+> Priti era così stancha che…
+- …si è addormentata in cucina.
++ …ha messo sale nel caffè.
+- …ha messo le sue chiavi nel caffè.
 
 [MATCH]
-> Tap the pairs
-- estás <> you are
-- mucho <> a lot
-- es <> is
-- las llaves <> the keys
-- la <> the
-
+> Seleziona le coppie
+- tö es <> sei
+- tröp <> molto
+- é <> è
+- les tles <> le chiavi
+- le <> il
