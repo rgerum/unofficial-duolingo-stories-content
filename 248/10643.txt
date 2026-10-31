@@ -1,0 +1,109 @@
+[DATA]
+fromLanguageName=Lucy and the Dinosaurs
+icon=f6ce899637bb8181ee5e78382fdf71a0f01e4f95
+set=11|3
+
+[HEADER]
+> Lucy y   los dinosaurios
+~ Lucy and the dinosaurs  
+
+[LINE]
+> Lucy abre  la~puerta~de~su~apartamento.
+~ Lucy opens her~apartment's~door        
+
+[LINE]
+Speaker509: ¡Hola,  Junior!
+~            hello  Junior 
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker415: ¡Hola!  ¿Puedes~ayudarme [con~mi~tarea]?    
+~            hello   you~can~help~me  with~my~homework  
++ con mi tarea
+- con la marea
+- con tu pelea
+
+[LINE]
+Speaker415: Tengo~que~escribir algo.     
+~           I~have~to~write    something 
+
+[LINE]
+Speaker509: ¡Ah, sí! 
+~            oh  yes 
+
+[LINE]
+Speaker509: Yo escribo muy  bien. Tengo  un blog~muy~popular. 
+~           I  write   very well  I~have a  very~popular~blog 
+
+[ARRANGE]
+> Tap what you hear
+Speaker509: ¿[(Tú)  (lees) (mi) (blog)?]
+~              you   read   my   blog   
+
+[LINE]
+Speaker415: No.
+~           no 
+
+[LINE]
+Speaker509: Tengo  muchos libros.
+~           I~have many   books  
+
+[LINE]
+Speaker509: ¿Necesitas mis libros para tu~tarea?     
+~            you~need  my  books  for  your~homework 
+
+[CONTINUATION]
+> What's next?
+Speaker415: No, no~necesito  [tus~libros].
+~           no  I~don't~need  your~books  
+- muy  popular
+~ very ~      
++ tus~libros
+~ your~books
+- su~apartamento
+~ her~apartment 
+
+[LINE]
+Speaker509: ¿Y   sobre~qué~es~tu~tarea?      
+~            and what~is~your~homework~about 
+
+[LINE]
+Speaker415: Sobre los~dinosaurios.
+~           about dinosaurs       
+
+[MULTIPLE_CHOICE]
+> What is Junior's homework about?
++ dinosaurs
+- social media
+- Spanish literature
+
+[LINE]
+Speaker509: ¿Y   por~qué quieres  mi ayuda?
+~            and why     you~want my help  
+
+[LINE]
+Speaker415: Porque  eres    muy  vieja.
+~           because you~are very old   
+
+[LINE]
+Speaker415: Conoces~a muchos dinosaurios, ¿no?   
+~           you~know  many   dinosaurs     right 
+
+[LINE]
+Speaker509: Adiós, Junior.
+~           bye    Junior 
+
+[MULTIPLE_CHOICE]
+> Why did Junior think Lucy knew about dinosaurs?
++ She is older than him.
+- She used to have a dinosaur as a pet.
+- She writes a blog about dinosaurs.
+
+[MATCH]
+> Tap the pairs
+- muy <> very
+- Adiós <> bye
+- Lucy <> Lucy
+- muchos <> many
+- Sobre <> about
+
