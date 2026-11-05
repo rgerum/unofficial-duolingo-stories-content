@@ -14,9 +14,10 @@ $10120/_ed6f827e.mp3;10,0
 $10120/_92e514c7.mp3;7,0;10,599;11,769;9,855;9,684;12,684
 
 # TODO The original is "Can I wait outside?", this sounds like "Can you wait outside?"
+# TODO verify and update audio for first-person verb
 [LINE]
-Speaker415: ¿Jawapi suyayta atinkichu?
-~          afuera esperar puedes
+Speaker415: ¿Jawapi suyayta atinichu?
+~ afuera esperar puedo
 $10120/_4e7a23c8.mp3;7,0;8,535;10,623
 
 [POINT_TO_PHRASE]
@@ -134,11 +135,16 @@ $10120/_0eab2f88.mp3;9,0;8,796;7,531;14,531;6,1062;7,354
 # TODO This should be translated into Quechua, too:
 # https://duostories.org/editor/course/es-en/story/1514?line=111
 # TODO need Quechua translation
+# fixed
 [MULTIPLE_CHOICE]
 > ¿Por qué Eddy dice que la medicina es para él?
+~ Imaraykutaq Eddyqa hampi paypaq kasqanta nin?
 - Los dos chicos también tienen sarpullido.
+~ Iskaynin waynakunapis qarankupi pullpukuykunayuq kanku.
 - Él está robando la medicina de Junior.
+~ Payqa Juniorpa hampinta suwachkan.
 + Él piensa que Junior cree que los sarpullidos son vergonzosos.
+~ Payqa Junior pullpukuykuna p'enqaypaq kasqanta yuyasqanta yuyan.
 
 [LINE]
 Speaker1715: ¿Eddy?
@@ -177,10 +183,12 @@ $10120/_7336f043.mp3;4,0;15,349;11,1135;15,874
 # TODO This should be translated into Quechua, too
 # https://duostories.org/editor/course/es-en/story/1514?line=148
 # TODO need Quechua translation
+# fixed
 [CONTINUATION]
 > ¿Qué sigue?
+~ Imataq qhatiqnin?
 Speaker3162: Tata, ¿[jampita munankichu manachu]?
-~ señor             medicina quieres si~o~no
+~ señor medicina quieres o~no
 $10120/_22af89cb.mp3;4,0;10,339;11,592;8,847
 - hamburguesata munankichu icha mana
 ~ hamburguesa quieres o no
@@ -217,9 +225,13 @@ $10120/_9981a44d.mp3;12,0;13,1135;9,1239
 # TODO need Quechua translation
 [MULTIPLE_CHOICE]
 > ¿Por qué Eddy salió corriendo de la farmacia?
+~ Imaraykutaq Eddyqa hampi wasimanta phawaylla lluqsirqa?
 - Él tiene miedo de los amigos de Junior.
+~ Payqa Juniorpa masinkunata manchachikun.
 - Él no tiene dinero para pagar la medicina.
+~ Payqa hampita paganapaq mana qullqiyuqchu.
 + Él piensa que su cita cree que tiene sarpullido y eso es vergonzoso para él.
+~ Payqa citasninpi tuparinan runa qarapi pullpukuykunayuq kasqanta yuyasqanta, chaytaq paypaq p'enqay kasqanta yuyan.
 
 [MATCH]
 > Une las parejas
