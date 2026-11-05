@@ -38,14 +38,14 @@ $10116/_f3d4afff.mp3;6,0;6,441;9,552
 # TODO need Quechua translation
 # fixed
 [MULTIPLE_CHOICE]
-> Espera… ¿qué está haciendo Eddy?
-~ Suyay… imatataq Eddy ruwachkan?
-- Él está pintando a Lucy.
-~ Payqa Lucyta pintachkan.
-+ Él quiere ser alcalde de la ciudad.
-~ Payqa llaqtapa alcalden kayta munan.
-- Él está vendiendo galletas y leche.
-~ Payqa galletakunata lechetawan rantichkan.
+> Suyay… imatataq Eddy ruwachkan?
+~ espera qué Eddy está~haciendo
+- Payqa Lucyta pintachkan.
+~ él a~Lucy está~pintando
++ Payqa llaqtapa alcalden kayta munan.
+~ él de~la~ciudad alcalde ser quiere
+- Payqa galletakunata lechetawan rantichkan.
+~ él galletas y~leche está~vendiendo
 
 [LINE]
 Speaker414: ¡Arí!
@@ -95,11 +95,12 @@ Speaker414: Juniorqa politicata yachakuchkan, pay niwarqa, achkha politicokuna k
 ~            Junior política está~estudiando él me~dijo muchos políticos sobre~las~leyes no nada saben que~("diciendo")
 $10116/_c22ab3d3.mp3;8,0;11,649;13,810;5,973;8,243;8,568;13,486;18,973;5,1378;9,324;12,649;6,892
 
-# TODO Audio: "kamachiykunamanta" sounds like "kamachiqkunamanta"
+# TODO Audio: Verificar si se escucha "kamachiqkunamanta" en lugar de "kamachiykunamanta".
+# fixed
 [ARRANGE]
 > Escoge lo que escuchas
 Speaker509: [(Kayqa) (manasina) (allin) (yuyaychu).]
-~             esto creo~que~no buena idea~es
+~ esto parece~que~no buena idea~es
 $10116/_9c43ee88.mp3;5,0;9,514;6,824;9,514
 
 [LINE]
@@ -144,14 +145,14 @@ $10116/_2a7e6e47.mp3;4,0;9,300;6,799;13,500;9,1000;6,800;14,500
 # TODO need Quechua translation
 # fixed
 [MULTIPLE_CHOICE]
-> ¿Qué quiere Eddy?
-~ Imatataq Eddy munan?
-- Dinero para hacer más letreros.
-~ Astawan letrerokunata ruwanapaq qullqita.
-+ La ayuda de Lucy para ser alcalde.
-~ Alcalde kanapaq Lucypa yanapayninta.
-- Abrir una tienda de ropa.
-~ P'acha rantina tiendata kichariyta.
+> Imatataq Eddy munan?
+~ qué Eddy quiere
+- Astawan letrerokunata ruwanapaq qullqita.
+~ más letreros para~hacer dinero
++ Alcalde kanapaq Lucypa yanapayninta.
+~ alcalde para~ser de~Lucy su~ayuda
+- P'acha rantina tiendata kichariyta.
+~ ropa para~vender una~tienda abrir
 
 [LINE]
 Speaker509: ¿Pi? ¿Ñuqa?
@@ -182,8 +183,11 @@ $10116/_ced9e57c.mp3;6,0;13,712;12,1185;6,1305
 + Campañaypa~kamachiqchu
 ~ mi~directora~de~campaña
 
-# TODO: The original was "por supuesto que no", just want to confirm this means the same thing
-# TODO verify Quechua audio
+
+# TODO: "Mana, imata nichkanki" significa "No, ¿qué estás diciendo?",
+# fixed
+# no exactamente "Por supuesto que no".
+# TODO: Verificar el audio quechua; no se ha podido escuchar.
 [LINE]
 Speaker509: Mana, imata nichkanki.
 ~ no qué estás~diciendo
@@ -202,14 +206,14 @@ $10116/_77298eba.mp3;12,0;8,1012;5,591;6,337;9,422;17,675;6,1350;7,422
 # TODO need Quechua translation
 # fixed
 [MULTIPLE_CHOICE]
-> ¿Por qué Lucy no quiere ser la directora de campaña de Eddy?
-~ Imaraykutaq Lucyqa Eddypa campaña kamachiqnin kayta mana munanchu?
-+ Ella se dio cuenta de que prefiere ser alcaldesa.
-~ Payqa alcalde kayta aswan munasqanta reparakurqa.
-- Ella no tiene tiempo para ir a reuniones municipales.
-~ Payqa municipal tantanakuykunaman rinapaq mana tiempoyuqchu.
-- Ella no quiere hablar con políticos.
-~ Payqa politicokunawan parlayta mana munanchu.
+> Imaraykutaq Lucyqa Eddypa campaña kamachiqnin kayta mana munanchu?
+~ por~qué Lucy de~Eddy campaña su~directora ser no quiere
++ Payqa alcalde kayta aswan munasqanta reparakurqa.
+~ ella alcaldesa ser más que~quería se~dio~cuenta
+- Payqa municipal tantanakuykunaman rinapaq mana tiempoyuqchu.
+~ ella municipales a~reuniones para~ir no tiene~tiempo
+- Payqa politicokunawan parlayta mana munanchu.
+~ ella con~políticos hablar no quiere
 
 [MATCH]
 > Une las parejas
