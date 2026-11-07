@@ -3,15 +3,11 @@ fromLanguageName=Necesito practicar
 icon=5437689d6786b565b6ce7884cf6d380ca8423e5e
 set=40|3
 
-# Proofread
-
 [HEADER]
 > Yachakunay tiyan
 ~ practicar~("tengo~que~aprender") necesito
 $10115/_5a71036a.mp3;10,0;6,1093
 
-# TODO: Translation off
-# fixed
 [LINE]
 > Ancha tutaña. Eddyqa, Junior baterianta waqachiptin rikch'arin.
 ~ muy ya~es~tarde Eddy Junior su~batería cuando~toca se~despierta
@@ -56,17 +52,15 @@ Speaker414: Junior, ¿Ima phanichus kasqanta rikunkichu?
 ~             Junior qué hora      que~es ves
 $10115/_5a4f4c25.mp3;6,0;6,513;10,257;9,770;11,684
 
-# TODO need Quechua translation
-# fixed
 [MULTIPLE_CHOICE]
-> Mmm… Eddyqa phiñasqa kachkan. Imarayku?
+> Mmm… Eddyqa phiñasqa kachkan. ¿Imarayku?
 ~ mmm Eddy molesto está por~qué
 - Payqa Junior waqachisqan takiyta mana munanchu.
 ~ a~él Junior que~toca la~canción no le~gusta
 + Juniorqa taytan puñuchkaptin baterianta waqachiyta mana saqinchu.
-~ Junior mientras su~papá~duerme su~batería tocar no deja
-- Paypa rikch'achiq relojninqa manaña llamk'anchu.
-~ su despertador reloj ya~no funciona
+~ Junior su~papá mientras~duerme su~batería tocar no deja
+- Paypa rikch'achiq~relojninqa manaña llamk'anchu.
+~ de~él su~despertador~("su~reloj~que~desperta") ya~no funciona
 
 [LINE]
 Speaker415: Ch'isipi mana yachakuyta atinkichu nirqanki, ¡ichaqa kunanqa sut'iyamunña!
@@ -78,10 +72,8 @@ Speaker414: ¡Ichaqa phichqa phanillaraq!
 ~ pero cinco horas~son
 $10115/_75fb4b13.mp3;7,0;8,568;12,662
 
-# TODO need Quechua translation
-# fixed
 [CONTINUATION]
-> Imataq qatin?
+> ¿Imataq qatin?
 ~ qué sigue
 Speaker415: Qhispichiway tatay, ichaqa [yachakunay~tiyan].
 ~ discúlpame papá pero tengo~que~practicar
@@ -160,8 +152,6 @@ Speaker6: Yuuu, ¿walliqllachu kachkanki?
 ~           oye bien estás
 $10115/_00a8036e.mp3;4,0;15,294;10,880
 
-# TODO need Quechua translation
-# fixed
 [MULTIPLE_CHOICE]
 > Imaraykutaq qhariqa kunallan Eddyta allillanchu kasqanta tapurqa?
 ~ por~qué el~hombre recién a~Eddy si~está~bien que~está preguntó
@@ -201,18 +191,12 @@ Speaker6: ¿Chiqachu? ¡Ancha yachayniyuq!
 ~ de~verdad muy talentoso~es
 $10115/_e48726de.mp3;9,0;8,680;12,425
 
-# TODO: The original says "Él practica todos los días gracias a mí.", this sounds like "He practices every day, he practices when I'm around."
-# fixed
-# TODO: Verificar el audio quechua.
-# "ñuqarayku" significa "por mí / gracias a mí", no "cuando estoy presente".
-# Aquí expresa que él practica todos los días gracias a mí.
+# TODO: I think text was changed but we don't have the new audio
 [LINE]
 Speaker414: Ari, yachani. Payqa sapa p'unchaw ñuqarayku yachakun.
 ~ sí sé él cada día gracias~a~mí practica
 $10115/_fef85888.mp3;3,0;9,276;7,644;5,460;9,368;9,735;6,736;7,368;9,552
 
-# TODO need Quechua translation
-# fixed
 [MULTIPLE_CHOICE]
 > Eddyqa Junior payrayku yachakusqanta nin, ichaqa chiqaqpiqa…
 ~ Eddy Junior gracias~a~él que~practica dice pero en~realidad
@@ -220,6 +204,7 @@ $10115/_fef85888.mp3;3,0;9,276;7,644;5,460;9,368;9,735;6,736;7,368;9,552
 ~ …él cada vez a~Junior su~batería no para~que~toque le~pide
 - …Eddyqa sapa kuti sapallan baterianta waqachin.
 ~ …Eddy cada vez solo su~batería toca
+# TODO Isn't "tuta" "night", not "morning"?
 - …Juniorqa kunan tutamanta kunallan bateriata waqachiyta yachakurqa.
 ~ …Junior hoy desde~la~mañana recién la~batería tocar aprendió
 
