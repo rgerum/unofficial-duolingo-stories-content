@@ -3,8 +3,6 @@ fromLanguageName=Tortugas del espacio
 icon=9705eaba9c242e5c1f1eb5c85f1889f5f230729e
 set=39|4
 
-# Proofread
-
 [HEADER]
 > Tortugakuna wak~pachamanta
 ~ tortugas del~espacio~("de~otro~mundo")
@@ -70,17 +68,15 @@ Speaker414: Runa~yanapaqman waqyasaq. Ichapis qullqiyta kutichipuwankuman.
 ~ a~soporte~("alguien~que~ayuda~a~gente") llamaré quizá mi~dinero me~pueden~devolver
 $10112/_6321c55b.mp3;4,0;11,332;9,831;9,665;10,582;18,747
 
-# TODO need Quechua translation
-# fixed
 [MULTIPLE_CHOICE]
-> Eddy va a…
-~ Eddyqa…
-- …llamar al número de Junior.
-~ …Juniorpa numeronman waqyanqa.
-- …pelear con tortugas y robots en el espacio.
-~ …espaciopi tortugakunawan robotkunawan maqanakunqa.
-+ …preguntar si pueden devolverle su dinero.
-~ …qullqinta kutichipuyta atinkuchu manachu chayta tapunqa.
+> Eddyqa…
+~ Eddy…
+- …Juniorpa numeronman waqyanqa.
+~ de~Junior a~su~número llamará
+- …espaciopi tortugakunawan robotkunawan maqanakunqa.
+~ en~el~espacio con~tortugas y~con~robots se~peleará
++ …qullqinta kutichipuyta atinkuchu manachu chayta tapunqa.
+~ su~dinero devolver si~pueden o~no eso preguntará
 
 [LINE]
 > Eddyqa runa~yanapaqman waqyan. Juk warmi Pamela sutiyuq kutichin.
@@ -103,11 +99,11 @@ Speaker1186: [(Qhispichiway), (mana) (qullqita) (kutichiykuchu).]
 ~                    lo~siento no      dinero devolvemos
 $10112/_3373cc4c.mp3;12,0;6,1026;9,343;14,684
 
-# TODO Translation off
-# fixed
+# TODO Does this match the original? The original says you need to pay to download the turtles.
+# The "tortugakunata jurayk'uchinapaq ..." sentence doesn't seem to make sense.
 [LINE]
 Speaker414: Ichaqa payqa wawallaraq. Tortugakunata jurayk'uchinapaq mana yupaychana kasqanta yacharqachu ¡Ama jina kaspa!
-~             pero el es~solo~un~niño A~las~tortugas Para~hacerlas~jurar no debería~faltar~al~respeto que~era ella~no~sabía no así es
+~             pero el es~solo~un~niño a~las~tortugas para~hacerlas~jurar no debería~faltar~al~respeto que~era ella~no~sabía no así es
 $10112/_d76e2326.mp3;6,0;6,553;11,460;15,921;17,1198;5,1473;11,369;9,921;12,737;5,1013;5,276;6,368
 
 [SELECT_PHRASE]
