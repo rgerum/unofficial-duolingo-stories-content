@@ -6,27 +6,32 @@ set=4|1
 [HEADER]
 > Barazkijalea
 ~ the~vegetarian 
+$9825/870325c0.mp3;12,15
 
 [LINE]
 > Bikram menua    irakurtzen~du oso  jatetxe    polit  batean.
 ~ Vikram the~menu reads         very restaurant pretty in~one 
+$9825/976eac06.mp3;6,15;6,401;14,320;3,545;4,125;9,225;9,406;8,290
 
 [LINE]
 Speaker385: Egun~on!
 ~           good~morning 
+$9825/152485e8.mp3;4,125;3,288;0,362
 
 [LINE]
 Speaker593: Galdera  bat daukat.
 ~           question one I~have
+$9825/905b9546.mp3;7,138;5,425;7,187;0,463
 
 [LINE]
 Speaker593: Barazkijalea naiz.
 ~           vegetarian   I~am
+$9825/2219ba06.mp3;12,138;5,850;0,487
 
 [LINE]
-#unsure whether barazkijale belongs in here
-Speaker593: Janari begetarianorik ba~al~daukazue?
+Speaker593: Janari barazkijarerik ba~al~daukazue?
 ~           food   vegetarian     do~you~have
+$9825/2e2eaf5f.mp3;6,125;15,438;3,950;3,162;9,150
 
 [MULTIPLE_CHOICE]
 > Bikram wants to know if they serve vegetarian food.
@@ -36,18 +41,22 @@ Speaker593: Janari begetarianorik ba~al~daukazue?
 [LINE]
 Speaker385: Bai, haragi ogitarteko oso  onak  dauzkagu.
 ~           yes  meat   sandwich   very good  we~have
+$9825/e509156d.mp3;3,138;1,375;7,125;11,375;4,737;6,300;10,275;0,625
 
 [LINE]
 Speaker593: Haragi ogitartekoak? Barazkijalea naiz. 
 ~           meat   sandwiches    vegetarian   I~am
+$9825/9da56b4f.mp3;6,138;13,325;14,1787;5,850;0,488
 
 [LINE]
 Speaker385: Ah, bai, barkaidazu. 
 ~           oh  yes  I'm~sorry~to~you
+$9825/da1199ce.mp3;2,138;1,300;4,87;1,450;11,125;0,913
 
 [LINE]
 Speaker385: Oilasko gozoa     daukagu.
 ~           chicken delicious we~have
+$9825/b29be755.mp3;7,125;6,475;12,413;0,537
 
 [MULTIPLE_CHOICE]
 > According to the waiter, their chicken is…
@@ -58,20 +67,23 @@ Speaker385: Oilasko gozoa     daukagu.
 [LINE]
 Speaker593: Oilaskoa haragia da.
 ~           chicken  meat    is
+$9825/e103b4a9.mp3;8,125;8,563;3,437
 
-[POINT_TO_PHRASE]
-#Convert to ARRANGE when audio
-> Choose the option that means "any meat."
-Speaker593: (Eta) nik (ez) dut (+haragirik) (jaten)!
-~            and  I    not do    any~meat    eat
+[ARRANGE]
+> Tap what you hear
+Speaker593: [(Eta) nik (ez) dut (haragirik) (jaten)!]
+~             and  I    not do    any~meat    eat
+$9825/03bf624a.mp3;3,138;4,237;3,250;4,163;10,225;6,500;0,525
 
 [LINE]
 Speaker385: Entsaladak dauzkagu…
 ~           salads     we~have   
+$9825/7439b96e.mp3;10,138;9,587
 
 [LINE]
 Speaker593: Ah, entsaladak gustatzen~zaizkit!
 ~           oh  salads     I~like  
+$9825/1070af6f.mp3;2,125;1,300;11,100;10,663;8,500;0,650
 
 [MULTIPLE_CHOICE]
 > Bikram likes…
@@ -82,18 +94,22 @@ Speaker593: Ah, entsaladak gustatzen~zaizkit!
 [LINE]
 Speaker385: Entsalada ona    daukagu, tomatearekin, gaztarekin, izokinarekin…
 ~           salad     a~good we~have  with~tomato   with~cheese with~salmon 
+$9825/062b9de8.mp3;9,138;4,637;11,238;1,562;13,113;1,912;11,75;1,813;13,75
 
 [LINE]
 Speaker593: Ez~dut  izokinik jaten! Barazkijalea naiz! 
 ~           I~don't salmon   eat    vegetarian   I~am
+$9825/e0316c2f.mp3;2,138;4,137;10,300;6,588;1,550;13,937;5,800;0,463
 
 [LINE]
 Speaker385: Patata~frijituak dauzkagu…
 ~           fries            we~have        
+$9825/9cc32d9d.mp3;6,138;10,400;9,700
 
 [LINE]
 Speaker593: Bale, patata~frijituak.
 ~           OK    fries          
+$9825/8a18a0d5.mp3;4,138;1,487;7,88;10,400;0,850
 
 [MULTIPLE_CHOICE]
 > What food did Bikram order in the end?
@@ -102,12 +118,14 @@ Speaker593: Bale, patata~frijituak.
 - salmon
 
 [LINE]
-Speaker385: Patata~frijituak… ederto. Eta… hamburguesaren bat?
-~           fries             perfect and  hamburger      a
+Speaker385: Patata~frijituak… ederto. Eta… hanburgesaren bat?
+~           fries             perfect and  hamburger     a
+$9825/c1e285bf.mp3;6,125;10,388;8,1587;1,688;4,875;15,1187;4,813
 
 [LINE]
 Speaker593: Ez~dudala             haragirik jaten!
 ~           (I~said)~that~I~don't meat      eat
+$9825/bb924dae.mp3;2,138;7,137;22,425;6,525;0,563
 
 [MULTIPLE_CHOICE]
 > Why is Bikram so upset?
