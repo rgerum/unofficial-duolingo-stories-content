@@ -1,0 +1,93 @@
+[DATA]
+fromLanguageName=The Monkeys
+icon=c29e4533eca0186f83adafac9383fef2ed3aee56
+set=12|2
+
+[HEADER]
+> Los monos  
+~ the monkeys
+
+[LINE]
+> Eddy y   Junior están en el  zoológico.
+~ Eddy and Junior are   at the zoo       
+
+[LINE]
+> Ellos están cerca~de los elefantes.
+~ they  are   near     the elephants 
+
+[LINE]
+Speaker415: Papá, ¿podemos~ir~a~ver~a los monos   ahora?
+~           dad    we~can~go~see      the monkeys now   
+
+[MULTIPLE_CHOICE]
+> Junior wants to see the monkeys.
+- No, that's wrong.
++ Yes, that's right.
+
+[LINE]
+Speaker414: ¿Por~qué? Tú  nunca quieres ver~a  los monos.  
+~            why      you never want    to~see the monkeys 
+
+[LINE]
+Speaker415: Sí,  pero ahora me~gustan.   ¿Podemos~ir?
+~           yes  but  now   I~like~them   we~can~go  
+
+[SELECT_PHRASE]
+> Select the missing phrase
+Speaker414: Junior, [los~monos~están] lejos de   aquí.
+~           Junior   the~monkeys~are  far   from here 
+- lo menos está
+- los mocos estarán
++ los monos están
+
+[LINE]
+Speaker415: ¡Podemos~correr! ¡A~ti~te~encanta correr!
+~            we~can~run       you~love        to~run 
+
+[CONTINUATION]
+> What comes   next?
+~ que  you~eat Next 
+Speaker414: Mmm… está~bien. Sí,  [me~encanta correr].
+~           hmm  OK         yes   I~love     to~run  
++ me encanta correr
+~ me love    runs  
+- quiero un mono  
+~ want   a  monkey
+- me gustan los elefantes
+~ me like   the elephants
+
+[LINE]
+> Junior y   Eddy corren.
+~ Junior and Eddy run    
+
+[POINT_TO_PHRASE]
+> Choose the option that means "faster."
+Speaker415: ¿(Puedes~correr) (+más~rápido), (papá)?
+~             you~can~run      faster        dad   
+
+[LINE]
+Speaker414: Junior, tú  odias correr.
+~           Junior  you hate  to~run 
+
+[LINE]
+Speaker415: Sí,  yo odio correr, ¡pero me~encanta el~helado!
+~           yes  I  hate to~run   but  I~love     ice~cream 
+
+[LINE]
+Speaker415: Y   hay      una tienda~de~helados al~lado~de los monos.  
+~           and there~is an  ice~cream~shop    next~to    the monkeys 
+
+[MULTIPLE_CHOICE]
+> Why does Junior want to go see the monkeys?
++ He wants to get ice cream.
+- Monkeys are his favorite animals.
+- He wants to run with the monkeys.
+
+[MATCH]
+> Tap the pairs
+- Ellos <> they
+- el helado <> ice cream
+- me encanta <> I love
+- odias <> hate
+- nunca <> never
+
